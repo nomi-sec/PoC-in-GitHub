@@ -410,6 +410,8 @@
 - [HackingLZ/panrapidcheck](https://github.com/HackingLZ/panrapidcheck)
 - [stronglier/CVE-2024-3400](https://github.com/stronglier/CVE-2024-3400)
 - [Kr0ff/cve-2024-3400](https://github.com/Kr0ff/cve-2024-3400)
+- [zam89/CVE-2024-3400-pot](https://github.com/zam89/CVE-2024-3400-pot)
+- [terminalJunki3/CVE-2024-3400-Checker](https://github.com/terminalJunki3/CVE-2024-3400-Checker)
 
 ### CVE-2024-4040 (2024-04-22)
 
@@ -1486,6 +1488,9 @@
 ### CVE-2024-30896
 - [XenoM0rph97/CVE-2024-30896](https://github.com/XenoM0rph97/CVE-2024-30896)
 
+### CVE-2024-30973
+- [Athos-Zago/CVE-2024-30973](https://github.com/Athos-Zago/CVE-2024-30973)
+
 ### CVE-2024-31025 (2024-04-04)
 
 <code>SQL Injection vulnerability in ECshop 4.x allows an attacker to obtain sensitive information via the file/article.php component.
@@ -1541,6 +1546,9 @@
 </code>
 
 - [NN0b0dy/CVE-2024-32399](https://github.com/NN0b0dy/CVE-2024-32399)
+
+### CVE-2024-33438
+- [julio-cfa/CVE-2024-33438](https://github.com/julio-cfa/CVE-2024-33438)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -7174,6 +7182,7 @@
 - [johnossawy/CVE-2023-42793_POC](https://github.com/johnossawy/CVE-2023-42793_POC)
 - [StanleyJobsonAU/GhostTown](https://github.com/StanleyJobsonAU/GhostTown)
 - [hotplugin0x01/CVE-2023-42793](https://github.com/hotplugin0x01/CVE-2023-42793)
+- [Zyad-Elsayed/CVE-2023-42793](https://github.com/Zyad-Elsayed/CVE-2023-42793)
 
 ### CVE-2023-42819 (2023-09-26)
 
@@ -29053,6 +29062,7 @@
 - [attackgithub/Zimbra-RCE](https://github.com/attackgithub/Zimbra-RCE)
 - [oppsec/arbimz](https://github.com/oppsec/arbimz)
 - [oppsec/zaber](https://github.com/oppsec/zaber)
+- [Cappricio-Securities/CVE-2019-9670](https://github.com/Cappricio-Securities/CVE-2019-9670)
 
 ### CVE-2019-9673 (2019-06-05)
 
@@ -32675,6 +32685,13 @@
 </code>
 
 - [cairuojin/CVE-2018-8032](https://github.com/cairuojin/CVE-2018-8032)
+
+### CVE-2018-8033 (2018-12-13)
+
+<code>In Apache OFBiz 16.11.01 to 16.11.04, the OFBiz HTTP engine (org.apache.ofbiz.service.engine.HttpEngine.java) handles requests for HTTP services via the /webtools/control/httpService endpoint. Both POST and GET requests to the httpService endpoint may contain three parameters: serviceName, serviceMode, and serviceContext. The exploitation occurs by having DOCTYPEs pointing to external references that trigger a payload that returns secret information from the host.
+</code>
+
+- [Cappricio-Securities/CVE-2018-8033](https://github.com/Cappricio-Securities/CVE-2018-8033)
 
 ### CVE-2018-8038 (2018-07-04)
 
