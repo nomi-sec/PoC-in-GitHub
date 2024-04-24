@@ -272,6 +272,13 @@
 
 - [herculeszxc/CVE-2024-2879](https://github.com/herculeszxc/CVE-2024-2879)
 
+### CVE-2024-2961 (2024-04-17)
+
+<code>The iconv() function in the GNU C Library versions 2.39 and older may overflow the output buffer passed to it by up to 4 bytes when converting strings to the ISO-2022-CN-EXT character set, which may be used to crash an application or overwrite a neighbouring variable.\n
+</code>
+
+- [mattaperkins/FIX-CVE-2024-2961](https://github.com/mattaperkins/FIX-CVE-2024-2961)
+
 ### CVE-2024-3094 (2024-03-29)
 
 <code>Malicious code was discovered in the upstream tarballs of xz, starting with version 5.6.0. \r\nThrough a series of complex obfuscations, the liblzma build process extracts a prebuilt object file from a disguised test file existing in the source code, which is then used to modify specific functions in the liblzma code. This results in a modified liblzma library that can be used by any software linked against this library, intercepting and modifying the data interaction with this library.
@@ -13631,6 +13638,7 @@
 - [6E6L6F/CVE-2022-35914](https://github.com/6E6L6F/CVE-2022-35914)
 - [0xGabe/CVE-2022-35914](https://github.com/0xGabe/CVE-2022-35914)
 - [Johnermac/CVE-2022-35914](https://github.com/Johnermac/CVE-2022-35914)
+- [allendemoura/CVE-2022-35914](https://github.com/allendemoura/CVE-2022-35914)
 
 ### CVE-2022-35919 (2022-08-01)
 
@@ -39251,6 +39259,13 @@
 </code>
 
 - [andrenasx/CVE-2015-10034](https://github.com/andrenasx/CVE-2015-10034)
+
+### CVE-2015-20107 (2022-04-13)
+
+<code>In Python (aka CPython) up to 3.10.8, the mailcap module does not add escape characters into commands discovered in the system mailcap file. This may allow attackers to inject shell commands into applications that call mailcap.findmatch with untrusted input (if they lack validation of user-provided filenames or arguments). The fix is also back-ported to 3.7, 3.8, 3.9
+</code>
+
+- [codeskipper/Snake-Patrol](https://github.com/codeskipper/Snake-Patrol)
 
 
 ## 2014
