@@ -406,10 +406,11 @@
 
 ### CVE-2024-4040 (2024-04-22)
 
-<code>VFS Sandbox Escape in CrushFTP in all versions before 10.7.1 and 11.1.0 on all platforms allows remote attackers with low privileges to read files from the filesystem outside of VFS Sandbox.\n
+<code>A server side template injection vulnerability in CrushFTP in all versions before 10.7.1 and 11.1.0 on all platforms allows unauthenticated remote attackers to read files from the filesystem outside of the VFS Sandbox, bypass authentication to gain administrative access, and perform remote code execution on the server.\n
 </code>
 
 - [airbus-cert/CVE-2024-4040](https://github.com/airbus-cert/CVE-2024-4040)
+- [tr4c3rs/CVE-2024-4040-RCE-POC](https://github.com/tr4c3rs/CVE-2024-4040-RCE-POC)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -508,6 +509,7 @@
 
 - [hakaioffsec/CVE-2024-21338](https://github.com/hakaioffsec/CVE-2024-21338)
 - [UMU618/CVE-2024-21338](https://github.com/UMU618/CVE-2024-21338)
+- [varwara/CVE-2024-21338](https://github.com/varwara/CVE-2024-21338)
 
 ### CVE-2024-21378 (2024-02-13)
 
@@ -1039,7 +1041,6 @@
 - [corysabol/batbadbut-demo](https://github.com/corysabol/batbadbut-demo)
 - [mishalhossin/CVE-2024-24576-PoC-Python](https://github.com/mishalhossin/CVE-2024-24576-PoC-Python)
 - [lpn/CVE-2024-24576.jl](https://github.com/lpn/CVE-2024-24576.jl)
-- [p14t1num/cve-2024-24576-python](https://github.com/p14t1num/cve-2024-24576-python)
 - [Gaurav1020/CVE-2024-24576-PoC-Rust](https://github.com/Gaurav1020/CVE-2024-24576-PoC-Rust)
 - [SheL3G/CVE-2024-24576-PoC-BatBadBut](https://github.com/SheL3G/CVE-2024-24576-PoC-BatBadBut)
 
@@ -1113,6 +1114,9 @@
 
 ### CVE-2024-25270
 - [fbkcs/CVE-2024-25270](https://github.com/fbkcs/CVE-2024-25270)
+
+### CVE-2024-25277
+- [maen08/CVE-2024-25277](https://github.com/maen08/CVE-2024-25277)
 
 ### CVE-2024-25278
 - [sajaljat/CVE-2024-25278](https://github.com/sajaljat/CVE-2024-25278)
