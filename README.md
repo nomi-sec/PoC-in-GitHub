@@ -431,7 +431,11 @@
 
 - [Instructor-Team8/CVE-2024-20291-POC](https://github.com/Instructor-Team8/CVE-2024-20291-POC)
 
-### CVE-2024-20356
+### CVE-2024-20356 (2024-04-24)
+
+<code>A vulnerability in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote attacker with Administrator-level privileges to perform command injection attacks on an affected system and elevate their privileges to root. This vulnerability is due to insufficient user input validation. An attacker could exploit this vulnerability by sending crafted commands to the web-based management interface of the affected software. A successful exploit could allow the attacker to elevate their privileges to root.
+</code>
+
 - [nettitude/CVE-2024-20356](https://github.com/nettitude/CVE-2024-20356)
 
 ### CVE-2024-20656 (2024-01-09)
@@ -21103,6 +21107,7 @@
 - [wagneralves/CVE-2021-43798](https://github.com/wagneralves/CVE-2021-43798)
 - [K3ysTr0K3R/CVE-2021-43798-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-43798-EXPLOIT)
 - [ticofookfook/CVE-2021-43798](https://github.com/ticofookfook/CVE-2021-43798)
+- [topyagyuu/CVE-2021-43798](https://github.com/topyagyuu/CVE-2021-43798)
 
 ### CVE-2021-43799 (2022-01-25)
 
