@@ -57,11 +57,7 @@
 ### CVE-2024-0710
 - [karlemilnikka/CVE-2024-0710](https://github.com/karlemilnikka/CVE-2024-0710)
 
-### CVE-2024-0713 (2024-01-19)
-
-<code>In Monitorr 1.7.6m wurde eine kritische Schwachstelle ausgemacht. Hierbei betrifft es unbekannten Programmcode der Datei /assets/php/upload.php der Komponente Services Configuration. Mit der Manipulation des Arguments fileToUpload mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
+### CVE-2024-0713
 - [kitodd/CVE-2024-0713](https://github.com/kitodd/CVE-2024-0713)
 
 ### CVE-2024-0783 (2024-01-22)
@@ -265,6 +261,9 @@
 
 - [Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP)
 
+### CVE-2024-2876
+- [c0d3zilla/CVE-2024-2876](https://github.com/c0d3zilla/CVE-2024-2876)
+
 ### CVE-2024-2879 (2024-04-03)
 
 <code>The LayerSlider plugin for WordPress is vulnerable to SQL Injection via the ls_get_popup_markup action in versions 7.9.11 and 7.10.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -420,6 +419,9 @@
 
 - [airbus-cert/CVE-2024-4040](https://github.com/airbus-cert/CVE-2024-4040)
 - [tr4c3rs/CVE-2024-4040-RCE-POC](https://github.com/tr4c3rs/CVE-2024-4040-RCE-POC)
+- [tucommenceapousser/CVE-2024-4040-Scanner](https://github.com/tucommenceapousser/CVE-2024-4040-Scanner)
+- [rbih-boulanouar/CVE-2024-4040](https://github.com/rbih-boulanouar/CVE-2024-4040)
+- [Mufti22/CVE-2024-4040](https://github.com/Mufti22/CVE-2024-4040)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
