@@ -423,6 +423,7 @@
 - [tucommenceapousser/CVE-2024-4040-Scanner](https://github.com/tucommenceapousser/CVE-2024-4040-Scanner)
 - [rbih-boulanouar/CVE-2024-4040](https://github.com/rbih-boulanouar/CVE-2024-4040)
 - [Mufti22/CVE-2024-4040](https://github.com/Mufti22/CVE-2024-4040)
+- [Stuub/CVE-2024-4040-SSTI-LFI](https://github.com/Stuub/CVE-2024-4040-SSTI-LFI)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -3672,7 +3673,7 @@
 - [MrP4nda1337/CVE-2023-23752](https://github.com/MrP4nda1337/CVE-2023-23752)
 - [lainonz/CVE-2023-23752](https://github.com/lainonz/CVE-2023-23752)
 - [yTxZx/CVE-2023-23752](https://github.com/yTxZx/CVE-2023-23752)
-- [AlissoftCodes/CVE-2023-23752](https://github.com/AlissoftCodes/CVE-2023-23752)
+- [AlissonFaoli/CVE-2023-23752](https://github.com/AlissonFaoli/CVE-2023-23752)
 - [Pushkarup/CVE-2023-23752](https://github.com/Pushkarup/CVE-2023-23752)
 - [cybernetwiz/CVE-2023-23752](https://github.com/cybernetwiz/CVE-2023-23752)
 - [Youns92/Joomla-v4.2.8---CVE-2023-23752](https://github.com/Youns92/Joomla-v4.2.8---CVE-2023-23752)
@@ -30311,6 +30312,7 @@
 - [gozn/detect-CVE-2019-15107-by-pyshark](https://github.com/gozn/detect-CVE-2019-15107-by-pyshark)
 - [h4ck0rman/CVE-2019-15107](https://github.com/h4ck0rman/CVE-2019-15107)
 - [olingo99/CVE-2019-15107](https://github.com/olingo99/CVE-2019-15107)
+- [aamfrk/Webmin-CVE-2019-15107](https://github.com/aamfrk/Webmin-CVE-2019-15107)
 - [0x4r2/Webmin-CVE-2019-15107](https://github.com/0x4r2/Webmin-CVE-2019-15107)
 
 ### CVE-2019-15112 (2019-08-21)
@@ -39936,7 +39938,7 @@
 - [0xTabun/CVE-2014-6271](https://github.com/0xTabun/CVE-2014-6271)
 - [0xN7y/CVE-2014-6271](https://github.com/0xN7y/CVE-2014-6271)
 - [MY7H404/CVE-2014-6271-Shellshock](https://github.com/MY7H404/CVE-2014-6271-Shellshock)
-- [AlissoftCodes/Shellshock](https://github.com/AlissoftCodes/Shellshock)
+- [AlissonFaoli/Shellshock](https://github.com/AlissonFaoli/Shellshock)
 - [hackintoanetwork/shellshock](https://github.com/hackintoanetwork/shellshock)
 
 ### CVE-2014-6287 (2014-10-07)
