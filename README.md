@@ -7447,6 +7447,13 @@
 
 - [sromanhu/CVE-2023-43360-CMSmadesimple-Stored-XSS---File-Picker-extension](https://github.com/sromanhu/CVE-2023-43360-CMSmadesimple-Stored-XSS---File-Picker-extension)
 
+### CVE-2023-43364 (2023-12-12)
+
+<code>main.py in Searchor before 2.4.2 uses eval on CLI input, which may cause unexpected code execution.
+</code>
+
+- [libertycityhacker/CVE-2023-43364-Exploit-CVE](https://github.com/libertycityhacker/CVE-2023-43364-Exploit-CVE)
+
 ### CVE-2023-43481 (2023-12-27)
 
 <code>An issue in Shenzhen TCL Browser TV Web BrowseHere (aka com.tcl.browser) 6.65.022_dab24cc6_231221_gp allows a remote attacker to execute arbitrary JavaScript code via the com.tcl.browser.portal.browse.activity.BrowsePageActivity component.
@@ -34547,6 +34554,7 @@
 - [zeronohacker/CVE-2018-20250](https://github.com/zeronohacker/CVE-2018-20250)
 - [tzwlhack/CVE-2018-20250](https://github.com/tzwlhack/CVE-2018-20250)
 - [tannlh/CVE-2018-20250](https://github.com/tannlh/CVE-2018-20250)
+- [LamSonBinh/CVE-2018-20250](https://github.com/LamSonBinh/CVE-2018-20250)
 
 ### CVE-2018-20343 (2020-03-02)
 
@@ -34625,6 +34633,7 @@
 - [hev0x/CVE-2018-25031-PoC](https://github.com/hev0x/CVE-2018-25031-PoC)
 - [ThiiagoEscobar/CVE-2018-25031](https://github.com/ThiiagoEscobar/CVE-2018-25031)
 - [johnlaurance/CVE-2018-25031-test2](https://github.com/johnlaurance/CVE-2018-25031-test2)
+- [nullbyter19/CVE-2018-25031](https://github.com/nullbyter19/CVE-2018-25031)
 
 ### CVE-2018-25032 (2022-03-25)
 
