@@ -1353,6 +1353,13 @@
 ### CVE-2024-27697
 - [SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697](https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697)
 
+### CVE-2024-27956 (2024-03-21)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ValvePress Automatic allows SQL Injection.This issue affects Automatic: from n/a through 3.92.0.\n\n
+</code>
+
+- [truonghuuphuc/CVE-2024-27956](https://github.com/truonghuuphuc/CVE-2024-27956)
+
 ### CVE-2024-27983 (2024-04-09)
 
 <code>An attacker can make the Node.js HTTP/2 server completely unavailable by sending a small amount of HTTP/2 frames packets with a few HTTP/2 frames inside. It is possible to leave some data in nghttp2 memory after reset when headers with HTTP/2 CONTINUATION frame are sent to the server and then a TCP connection is abruptly closed by the client triggering the Http2Session destructor while header frames are still being processed (and stored in memory) causing a race condition.
@@ -1932,6 +1939,7 @@
 </code>
 
 - [elweth-sec/CVE-2023-2255](https://github.com/elweth-sec/CVE-2023-2255)
+- [SaintMichae64/CVE-2023-2255](https://github.com/SaintMichae64/CVE-2023-2255)
 
 ### CVE-2023-2437 (2023-11-22)
 
@@ -8090,7 +8098,6 @@
 - [ph-hitachi/CVE-2023-46604](https://github.com/ph-hitachi/CVE-2023-46604)
 - [vulncheck-oss/cve-2023-46604](https://github.com/vulncheck-oss/cve-2023-46604)
 - [thinkycx/activemq-rce-cve-2023-46604](https://github.com/thinkycx/activemq-rce-cve-2023-46604)
-- [Gloway17/ActiveMQ-CVE-2023-46604](https://github.com/Gloway17/ActiveMQ-CVE-2023-46604)
 
 ### CVE-2023-46615 (2024-02-12)
 
