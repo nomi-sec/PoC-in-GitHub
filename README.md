@@ -783,6 +783,7 @@
 - [sxyrxyy/aiohttp-exploit-CVE-2024-23334-certstream](https://github.com/sxyrxyy/aiohttp-exploit-CVE-2024-23334-certstream)
 - [z3rObyte/CVE-2024-23334-PoC](https://github.com/z3rObyte/CVE-2024-23334-PoC)
 - [jhonnybonny/CVE-2024-23334](https://github.com/jhonnybonny/CVE-2024-23334)
+- [brian-edgar-re/poc-cve-2024-23334](https://github.com/brian-edgar-re/poc-cve-2024-23334)
 
 ### CVE-2024-23652 (2024-01-31)
 
@@ -1575,6 +1576,9 @@
 </code>
 
 - [NN0b0dy/CVE-2024-32399](https://github.com/NN0b0dy/CVE-2024-32399)
+
+### CVE-2024-33386
+- [keaidmmc/CVE-2024-33386](https://github.com/keaidmmc/CVE-2024-33386)
 
 ### CVE-2024-33438
 - [julio-cfa/CVE-2024-33438](https://github.com/julio-cfa/CVE-2024-33438)
