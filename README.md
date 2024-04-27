@@ -6941,6 +6941,20 @@
 
 - [NSnidie/CVE-2023-40930](https://github.com/NSnidie/CVE-2023-40930)
 
+### CVE-2023-40931 (2023-09-19)
+
+<code>A SQL injection vulnerability in Nagios XI from version 5.11.0 up to and including 5.11.1 allows authenticated attackers to execute arbitrary SQL commands via the ID parameter in the POST request to /nagiosxi/admin/banner_message-ajaxhelper.php
+</code>
+
+- [sealldeveloper/CVE-2023-40931-PoC](https://github.com/sealldeveloper/CVE-2023-40931-PoC)
+
+### CVE-2023-40933 (2023-09-19)
+
+<code>A SQL injection vulnerability in Nagios XI v5.11.1 and below allows authenticated attackers with announcement banner configuration privileges to execute arbitrary SQL commands via the ID parameter sent to the update_banner_message() function.
+</code>
+
+- [sealldeveloper/CVE-2023-40933-PoC](https://github.com/sealldeveloper/CVE-2023-40933-PoC)
+
 ### CVE-2023-40989 (2023-09-22)
 
 <code>SQL injection vulnerbility in jeecgboot jeecg-boot v 3.0, 3.5.3 that allows a remote attacker to execute arbitrary code via a crafted request to the report/jeecgboot/jmreport/queryFieldBySql component.
@@ -8076,6 +8090,7 @@
 - [ph-hitachi/CVE-2023-46604](https://github.com/ph-hitachi/CVE-2023-46604)
 - [vulncheck-oss/cve-2023-46604](https://github.com/vulncheck-oss/cve-2023-46604)
 - [thinkycx/activemq-rce-cve-2023-46604](https://github.com/thinkycx/activemq-rce-cve-2023-46604)
+- [Gloway17/ActiveMQ-CVE-2023-46604](https://github.com/Gloway17/ActiveMQ-CVE-2023-46604)
 
 ### CVE-2023-46615 (2024-02-12)
 
