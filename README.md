@@ -1578,6 +1578,9 @@
 
 - [NN0b0dy/CVE-2024-32399](https://github.com/NN0b0dy/CVE-2024-32399)
 
+### CVE-2024-33339
+- [balckgu1/Poc](https://github.com/balckgu1/Poc)
+
 ### CVE-2024-33386
 - [keaidmmc/CVE-2024-33386](https://github.com/keaidmmc/CVE-2024-33386)
 
@@ -17325,7 +17328,7 @@
 
 - [1ZRR4H/CVE-2021-22005](https://github.com/1ZRR4H/CVE-2021-22005)
 - [pisut4152/Sigma-Rule-for-CVE-2021-22005-scanning-activity](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-22005-scanning-activity)
-- [X1pe0/VMWare-CVE-Check](https://github.com/X1pe0/VMWare-CVE-Check)
+- [Jeromeyoung/VMWare-CVE-Check](https://github.com/Jeromeyoung/VMWare-CVE-Check)
 - [5gstudent/CVE-2021-22005-](https://github.com/5gstudent/CVE-2021-22005-)
 - [RedTeamExp/CVE-2021-22005_PoC](https://github.com/RedTeamExp/CVE-2021-22005_PoC)
 - [rwincey/CVE-2021-22005](https://github.com/rwincey/CVE-2021-22005)
@@ -17444,7 +17447,6 @@
 - [shang159/CVE-2021-22205-getshell](https://github.com/shang159/CVE-2021-22205-getshell)
 - [devdanqtuan/CVE-2021-22205](https://github.com/devdanqtuan/CVE-2021-22205)
 - [hh-hunter/cve-2021-22205](https://github.com/hh-hunter/cve-2021-22205)
-- [X1pe0/Automated-Gitlab-RCE](https://github.com/X1pe0/Automated-Gitlab-RCE)
 - [runsel/GitLab-CVE-2021-22205-](https://github.com/runsel/GitLab-CVE-2021-22205-)
 - [faisalfs10x/GitLab-CVE-2021-22205-scanner](https://github.com/faisalfs10x/GitLab-CVE-2021-22205-scanner)
 - [inspiringz/CVE-2021-22205](https://github.com/inspiringz/CVE-2021-22205)
@@ -20672,6 +20674,13 @@
 
 - [z00z00z00/Safenet_SAC_CVE-2021-42056](https://github.com/z00z00z00/Safenet_SAC_CVE-2021-42056)
 
+### CVE-2021-42063 (2021-12-14)
+
+<code>A security vulnerability has been discovered in the SAP Knowledge Warehouse - versions 7.30, 7.31, 7.40, 7.50. The usage of one SAP KW component within a Web browser enables unauthorized attackers to conduct XSS attacks, which might lead to disclose sensitive data.
+</code>
+
+- [Cappricio-Securities/CVE-2021-42063](https://github.com/Cappricio-Securities/CVE-2021-42063)
+
 ### CVE-2021-42071 (2021-10-07)
 
 <code>In Visual Tools DVR VX16 4.2.28.0, an unauthenticated attacker can achieve remote command execution via shell metacharacters in the cgi-bin/slogin/login.py User-Agent HTTP header.
@@ -21863,7 +21872,6 @@
 <code>It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allows attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup (for example, $${ctx:loginId}) or a Thread Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data using a JNDI Lookup pattern resulting in an information leak and remote code execution in some environments and local code execution in all environments. Log4j 2.16.0 (Java 8) and 2.12.2 (Java 7) fix this issue by removing support for message lookup patterns and disabling JNDI functionality by default.
 </code>
 
-- [X1pe0/Log4J-Scan-Win](https://github.com/X1pe0/Log4J-Scan-Win)
 - [cckuailong/Log4j_CVE-2021-45046](https://github.com/cckuailong/Log4j_CVE-2021-45046)
 - [BobTheShoplifter/CVE-2021-45046-Info](https://github.com/BobTheShoplifter/CVE-2021-45046-Info)
 - [tejas-nagchandi/CVE-2021-45046](https://github.com/tejas-nagchandi/CVE-2021-45046)
