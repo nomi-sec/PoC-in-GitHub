@@ -17982,6 +17982,7 @@
 - [30579096/Confluence-CVE-2021-26084](https://github.com/30579096/Confluence-CVE-2021-26084)
 - [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
 - [vpxuser/CVE-2021-26084-EXP](https://github.com/vpxuser/CVE-2021-26084-EXP)
+- [nahcusira/CVE-2021-26084](https://github.com/nahcusira/CVE-2021-26084)
 
 ### CVE-2021-26085 (2021-07-29)
 
