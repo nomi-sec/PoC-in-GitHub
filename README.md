@@ -261,6 +261,9 @@
 
 - [Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP)
 
+### CVE-2024-2667
+- [Puvipavan/CVE-2024-2667](https://github.com/Puvipavan/CVE-2024-2667)
+
 ### CVE-2024-2876
 - [c0d3zilla/CVE-2024-2876](https://github.com/c0d3zilla/CVE-2024-2876)
 
@@ -3723,6 +3726,7 @@
 - [JohnDoeAnonITA/CVE-2023-23752](https://github.com/JohnDoeAnonITA/CVE-2023-23752)
 - [0xWhoami35/CVE-2023-23752](https://github.com/0xWhoami35/CVE-2023-23752)
 - [mariovata/CVE-2023-23752-Python](https://github.com/mariovata/CVE-2023-23752-Python)
+- [0xx01/CVE-2023-23752](https://github.com/0xx01/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
