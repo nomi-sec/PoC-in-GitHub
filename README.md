@@ -412,6 +412,7 @@
 - [zam89/CVE-2024-3400-pot](https://github.com/zam89/CVE-2024-3400-pot)
 - [terminalJunki3/CVE-2024-3400-Checker](https://github.com/terminalJunki3/CVE-2024-3400-Checker)
 - [0xr2r/CVE-2024-3400-Palo-Alto-OS-Command-Injection](https://github.com/0xr2r/CVE-2024-3400-Palo-Alto-OS-Command-Injection)
+- [marconesler/CVE-2024-3400](https://github.com/marconesler/CVE-2024-3400)
 
 ### CVE-2024-4040 (2024-04-22)
 
@@ -41342,7 +41343,7 @@
 </code>
 
 - [pagvac/pocs](https://github.com/pagvac/pocs)
-- [ItaIia/PhpMyAdmin](https://github.com/ItaIia/PhpMyAdmin)
+- [e-Thug/PhpMyAdmin](https://github.com/e-Thug/PhpMyAdmin)
 
 ### CVE-2009-1244 (2009-04-13)
 
