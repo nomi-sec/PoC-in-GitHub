@@ -1599,7 +1599,11 @@
 ### CVE-2024-33386
 - [keaidmmc/CVE-2024-33386](https://github.com/keaidmmc/CVE-2024-33386)
 
-### CVE-2024-33438
+### CVE-2024-33438 (2024-04-29)
+
+<code>File Upload vulnerability in CubeCart before 6.5.5 allows an authenticated user to execute arbitrary code via a crafted .phar file.
+</code>
+
 - [julio-cfa/CVE-2024-33438](https://github.com/julio-cfa/CVE-2024-33438)
 
 ### CVE-2024-65230
