@@ -434,11 +434,11 @@
 </code>
 
 - [airbus-cert/CVE-2024-4040](https://github.com/airbus-cert/CVE-2024-4040)
-- [tr4c3rs/CVE-2024-4040-RCE-POC](https://github.com/tr4c3rs/CVE-2024-4040-RCE-POC)
 - [tucommenceapousser/CVE-2024-4040-Scanner](https://github.com/tucommenceapousser/CVE-2024-4040-Scanner)
 - [rbih-boulanouar/CVE-2024-4040](https://github.com/rbih-boulanouar/CVE-2024-4040)
 - [Mufti22/CVE-2024-4040](https://github.com/Mufti22/CVE-2024-4040)
 - [Stuub/CVE-2024-4040-SSTI-LFI-PoC](https://github.com/Stuub/CVE-2024-4040-SSTI-LFI-PoC)
+- [Praison001/CVE-2024-4040-CrushFTP-server](https://github.com/Praison001/CVE-2024-4040-CrushFTP-server)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -26475,6 +26475,14 @@
 </code>
 
 - [nathunandwani/CVE-2020-24227](https://github.com/nathunandwani/CVE-2020-24227)
+
+### CVE-2020-24490 (2021-02-02)
+
+<code>Improper buffer restrictions in BlueZ may allow an unauthenticated user to potentially enable denial of service via adjacent access. This affects all Linux kernel versions that support BlueZ.
+</code>
+
+- [AbrarKhan/linux_CVE-2020-24490-beforePatch](https://github.com/AbrarKhan/linux_CVE-2020-24490-beforePatch)
+- [AbrarKhan/Linux-4.19.72_CVE-2020-24490](https://github.com/AbrarKhan/Linux-4.19.72_CVE-2020-24490)
 
 ### CVE-2020-24572 (2020-08-24)
 
