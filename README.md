@@ -1598,6 +1598,13 @@
 
 - [NN0b0dy/CVE-2024-32399](https://github.com/NN0b0dy/CVE-2024-32399)
 
+### CVE-2024-32766 (2024-04-26)
+
+<code>An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.3.2578 build 20231110 and later\nQTS 4.5.4.2627 build 20231225 and later\nQuTS hero h5.1.3.2578 build 20231110 and later\nQuTS hero h4.5.4.2626 build 20231225 and later\nQuTScloud c5.1.5.2651 and later\n
+</code>
+
+- [hulNtor/CVE-2024-32766-POC](https://github.com/hulNtor/CVE-2024-32766-POC)
+
 ### CVE-2024-33339
 - [balckgu1/Poc](https://github.com/balckgu1/Poc)
 
@@ -9678,6 +9685,7 @@
 - [battleofthebots/refresh](https://github.com/battleofthebots/refresh)
 - [nvk0x/CVE-2022-1388-exploit](https://github.com/nvk0x/CVE-2022-1388-exploit)
 - [nico989/CVE-2022-1388](https://github.com/nico989/CVE-2022-1388)
+- [gotr00t0day/CVE-2022-1388](https://github.com/gotr00t0day/CVE-2022-1388)
 
 ### CVE-2022-1421 (2022-06-06)
 
