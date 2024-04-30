@@ -1319,7 +1319,11 @@
 
 - [dead1nfluence/Leantime-POC](https://github.com/dead1nfluence/Leantime-POC)
 
-### CVE-2024-27518
+### CVE-2024-27518 (2024-04-29)
+
+<code>An issue in SUPERAntiSyware Professional X 10.0.1262 and 10.0.1264 allows unprivileged attackers to escalate privileges via a restore of a crafted DLL file into the C:\Program Files\SUPERAntiSpyware folder.
+</code>
+
 - [secunnix/CVE-2024-27518](https://github.com/secunnix/CVE-2024-27518)
 
 ### CVE-2024-27619 (2024-03-29)
@@ -1485,6 +1489,7 @@
 </code>
 
 - [ThaySolis/CVE-2024-29296](https://github.com/ThaySolis/CVE-2024-29296)
+- [Lavender-exe/CVE-2024-29296-PoC](https://github.com/Lavender-exe/CVE-2024-29296-PoC)
 
 ### CVE-2024-29375 (2024-04-04)
 
