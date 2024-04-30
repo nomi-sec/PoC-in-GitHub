@@ -98,6 +98,7 @@
 
 - [Notselwyn/CVE-2024-1086](https://github.com/Notselwyn/CVE-2024-1086)
 - [Alicey0719/docker-POC_CVE-2024-1086](https://github.com/Alicey0719/docker-POC_CVE-2024-1086)
+- [CCIEVoice2009/CVE-2024-1086](https://github.com/CCIEVoice2009/CVE-2024-1086)
 
 ### CVE-2024-1208 (2024-02-05)
 
@@ -439,6 +440,7 @@
 - [Mufti22/CVE-2024-4040](https://github.com/Mufti22/CVE-2024-4040)
 - [Stuub/CVE-2024-4040-SSTI-LFI-PoC](https://github.com/Stuub/CVE-2024-4040-SSTI-LFI-PoC)
 - [Praison001/CVE-2024-4040-CrushFTP-server](https://github.com/Praison001/CVE-2024-4040-CrushFTP-server)
+- [Mohammaddvd/CVE-2024-4040](https://github.com/Mohammaddvd/CVE-2024-4040)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -885,13 +887,25 @@
 
 - [louiselalanne/CVE-2024-23747](https://github.com/louiselalanne/CVE-2024-23747)
 
-### CVE-2024-23772
+### CVE-2024-23772 (2024-04-30)
+
+<code>An issue was discovered in Quest KACE Agent for Windows 12.0.38 and 13.1.23.0. An Arbitrary file create vulnerability exists in the KSchedulerSvc.exe, KUserAlert.exe, and Runkbot.exe components. This allows local attackers to create any file of their choice with NT Authority\SYSTEM privileges.
+</code>
+
 - [Verrideo/CVE-2024-23772](https://github.com/Verrideo/CVE-2024-23772)
 
-### CVE-2024-23773
+### CVE-2024-23773 (2024-04-30)
+
+<code>An issue was discovered in Quest KACE Agent for Windows 12.0.38 and 13.1.23.0. An Arbitrary file delete vulnerability exists in the KSchedulerSvc.exe component. Local attackers can delete any file of their choice with NT Authority\SYSTEM privileges.
+</code>
+
 - [Verrideo/CVE-2024-23773](https://github.com/Verrideo/CVE-2024-23773)
 
-### CVE-2024-23774
+### CVE-2024-23774 (2024-04-30)
+
+<code>An issue was discovered in Quest KACE Agent for Windows 12.0.38 and 13.1.23.0. An unquoted Windows search path vulnerability exists in the KSchedulerSvc.exe and AMPTools.exe components. This allows local attackers to execute code of their choice with NT Authority\SYSTEM privileges.
+</code>
+
 - [Verrideo/CVE-2024-23774](https://github.com/Verrideo/CVE-2024-23774)
 
 ### CVE-2024-23780
@@ -8021,7 +8035,11 @@
 
 - [0x1717/ssrf-via-img](https://github.com/0x1717/ssrf-via-img)
 
-### CVE-2023-46304
+### CVE-2023-46304 (2024-04-30)
+
+<code>modules/Users/models/Module.php in Vtiger CRM 7.5.0 allows a remote authenticated attacker to run arbitrary PHP code because an unprotected endpoint allows them to write this code to the config.inc.php file (executed on every page load).
+</code>
+
 - [jselliott/CVE-2023-46304](https://github.com/jselliott/CVE-2023-46304)
 
 ### CVE-2023-46344 (2024-02-02)
@@ -23265,7 +23283,7 @@
 - [jas502n/CVE-2020-1947](https://github.com/jas502n/CVE-2020-1947)
 - [wsfengfan/CVE-2020-1947](https://github.com/wsfengfan/CVE-2020-1947)
 - [shadowsock5/ShardingSphere_CVE-2020-1947](https://github.com/shadowsock5/ShardingSphere_CVE-2020-1947)
-- [EdwardChristmas/CVE-2020-1947](https://github.com/EdwardChristmas/CVE-2020-1947)
+- [StarkChristmas/CVE-2020-1947](https://github.com/StarkChristmas/CVE-2020-1947)
 
 ### CVE-2020-1948 (2020-07-14)
 
