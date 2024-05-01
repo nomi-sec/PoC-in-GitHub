@@ -441,6 +441,7 @@
 - [Stuub/CVE-2024-4040-SSTI-LFI-PoC](https://github.com/Stuub/CVE-2024-4040-SSTI-LFI-PoC)
 - [Praison001/CVE-2024-4040-CrushFTP-server](https://github.com/Praison001/CVE-2024-4040-CrushFTP-server)
 - [Mohammaddvd/CVE-2024-4040](https://github.com/Mohammaddvd/CVE-2024-4040)
+- [jakabakos/CVE-2024-4040-CrushFTP-File-Read-vulnerability](https://github.com/jakabakos/CVE-2024-4040-CrushFTP-File-Read-vulnerability)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -1627,6 +1628,13 @@
 
 - [p3c34r7/CVE-2024-32766-POC](https://github.com/p3c34r7/CVE-2024-32766-POC)
 
+### CVE-2024-33078 (2024-05-01)
+
+<code>Tencent Libpag v4.3 is vulnerable to Buffer Overflow. A user can send a crafted image to trigger a overflow leading to remote code execution.
+</code>
+
+- [HBLocker/CVE-2024-33078](https://github.com/HBLocker/CVE-2024-33078)
+
 ### CVE-2024-33339
 - [balckgu1/Poc](https://github.com/balckgu1/Poc)
 
@@ -1639,6 +1647,13 @@
 </code>
 
 - [julio-cfa/CVE-2024-33438](https://github.com/julio-cfa/CVE-2024-33438)
+
+### CVE-2024-33775 (2024-05-01)
+
+<code>An issue with the Autodiscover component in Nagios XI 2024R1.01 allows a remote attacker to escalate privileges via a crafted Dashlet.
+</code>
+
+- [Neo-XeD/CVE-2024-33775](https://github.com/Neo-XeD/CVE-2024-33775)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
