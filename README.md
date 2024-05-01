@@ -1612,6 +1612,13 @@
 
 - [NN0b0dy/CVE-2024-32399](https://github.com/NN0b0dy/CVE-2024-32399)
 
+### CVE-2024-32766 (2024-04-26)
+
+<code>An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.3.2578 build 20231110 and later\nQTS 4.5.4.2627 build 20231225 and later\nQuTS hero h5.1.3.2578 build 20231110 and later\nQuTS hero h4.5.4.2626 build 20231225 and later\nQuTScloud c5.1.5.2651 and later\n
+</code>
+
+- [p3c34r7/CVE-2024-32766-POC](https://github.com/p3c34r7/CVE-2024-32766-POC)
+
 ### CVE-2024-33339
 - [balckgu1/Poc](https://github.com/balckgu1/Poc)
 
@@ -32512,7 +32519,6 @@
 - [beraphin/CVE-2018-6789](https://github.com/beraphin/CVE-2018-6789)
 - [synacktiv/Exim-CVE-2018-6789](https://github.com/synacktiv/Exim-CVE-2018-6789)
 - [martinclauss/exim-rce-cve-2018-6789](https://github.com/martinclauss/exim-rce-cve-2018-6789)
-- [thistehneisen/CVE-2018-6789-Python3](https://github.com/thistehneisen/CVE-2018-6789-Python3)
 
 ### CVE-2018-6791 (2018-02-07)
 
@@ -34746,7 +34752,6 @@
 - [hev0x/CVE-2018-25031-PoC](https://github.com/hev0x/CVE-2018-25031-PoC)
 - [ThiiagoEscobar/CVE-2018-25031](https://github.com/ThiiagoEscobar/CVE-2018-25031)
 - [johnlaurance/CVE-2018-25031-test2](https://github.com/johnlaurance/CVE-2018-25031-test2)
-- [nullbyter19/CVE-2018-25031](https://github.com/nullbyter19/CVE-2018-25031)
 
 ### CVE-2018-25032 (2022-03-25)
 
@@ -36527,6 +36532,7 @@
 - [Xcatolin/jboss-deserialization](https://github.com/Xcatolin/jboss-deserialization)
 - [VVeakee/CVE-2017-12149](https://github.com/VVeakee/CVE-2017-12149)
 - [MrE-Fog/jboss-_CVE-2017-12149](https://github.com/MrE-Fog/jboss-_CVE-2017-12149)
+- [JesseClarkND/CVE-2017-12149](https://github.com/JesseClarkND/CVE-2017-12149)
 
 ### CVE-2017-12426 (2017-08-14)
 
@@ -40533,13 +40539,6 @@
 
 - [defrancescojp/CVE-2013-3664_MAC](https://github.com/defrancescojp/CVE-2013-3664_MAC)
 - [defrancescojp/CVE-2013-3664_BMP](https://github.com/defrancescojp/CVE-2013-3664_BMP)
-
-### CVE-2013-3827 (2013-10-16)
-
-<code>Unspecified vulnerability in the Oracle GlassFish Server component in Oracle Fusion Middleware 2.1.1, 3.0.1, and 3.1.2; the Oracle JDeveloper component in Oracle Fusion Middleware 11.1.2.3.0, 11.1.2.4.0, and 12.1.2.0.0; and the Oracle WebLogic Server component in Oracle Fusion Middleware 10.3.6.0 and 12.1.1 allows remote attackers to affect confidentiality via unknown vectors related to Java Server Faces or Web Container.
-</code>
-
-- [thistehneisen/CVE-2013-3827](https://github.com/thistehneisen/CVE-2013-3827)
 
 ### CVE-2013-3900 (2013-12-11)
 
