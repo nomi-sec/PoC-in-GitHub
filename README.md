@@ -508,6 +508,13 @@
 - [ATonysan/CVE-2024-20931_weblogic](https://github.com/ATonysan/CVE-2024-20931_weblogic)
 - [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
 
+### CVE-2024-21006 (2024-04-16)
+
+<code>Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+</code>
+
+- [momika233/CVE-2024-21006](https://github.com/momika233/CVE-2024-21006)
+
 ### CVE-2024-21107 (2024-04-16)
 
 <code>Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).  Supported versions that are affected are Prior to 7.0.16. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. Note: This vulnerability applies to Windows hosts only. CVSS 3.1 Base Score 6.7 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H).
@@ -1394,6 +1401,7 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-27956](https://github.com/truonghuuphuc/CVE-2024-27956)
+- [diego-tella/CVE-2024-27956-RCE](https://github.com/diego-tella/CVE-2024-27956-RCE)
 
 ### CVE-2024-27983 (2024-04-09)
 
@@ -9437,6 +9445,7 @@
 - [ayushx007/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/ayushx007/CVE-2022-0847-DirtyPipe-Exploits)
 - [solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus](https://github.com/solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus)
 - [letsr00t/CVE-2022-0847](https://github.com/letsr00t/CVE-2022-0847)
+- [xsxtw/CVE-2022-0847](https://github.com/xsxtw/CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -11048,6 +11057,7 @@
 - [h4ck0rman/Spring4Shell-PoC](https://github.com/h4ck0rman/Spring4Shell-PoC)
 - [sohamsharma966/Spring4Shell-CVE-2022-22965](https://github.com/sohamsharma966/Spring4Shell-CVE-2022-22965)
 - [LucasPDiniz/CVE-2022-22965](https://github.com/LucasPDiniz/CVE-2022-22965)
+- [xsxtw/SpringFramework_CVE-2022-22965_RCE](https://github.com/xsxtw/SpringFramework_CVE-2022-22965_RCE)
 
 ### CVE-2022-22966 (2022-04-14)
 
