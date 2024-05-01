@@ -6631,8 +6631,8 @@
 - [ahmed-fa7im/CVE-2023-38831-winrar-expoit-simple-Poc](https://github.com/ahmed-fa7im/CVE-2023-38831-winrar-expoit-simple-Poc)
 - [thegr1ffyn/CVE-2023-38831](https://github.com/thegr1ffyn/CVE-2023-38831)
 - [MortySecurity/CVE-2023-38831-Exploit-and-Detection](https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection)
-- [nhman-python/CVE-2023-38831](https://github.com/nhman-python/CVE-2023-38831)
 - [z3r0sw0rd/CVE-2023-38831-PoC](https://github.com/z3r0sw0rd/CVE-2023-38831-PoC)
+- [sh770/CVE-2023-38831](https://github.com/sh770/CVE-2023-38831)
 - [BeniB3astt/CVE-2023-38831_ReverseShell_Winrar](https://github.com/BeniB3astt/CVE-2023-38831_ReverseShell_Winrar)
 - [MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC](https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC)
 - [Mich-ele/CVE-2023-38831-winrar](https://github.com/Mich-ele/CVE-2023-38831-winrar)
@@ -30605,6 +30605,7 @@
 - [DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113)
 - [0xConstant/CVE-2019-16113_](https://github.com/0xConstant/CVE-2019-16113_)
 - [mind2hex/CVE-2019-16113](https://github.com/mind2hex/CVE-2019-16113)
+- [tronghoang89/cve-2019-16113](https://github.com/tronghoang89/cve-2019-16113)
 
 ### CVE-2019-16253 (2019-09-25)
 
