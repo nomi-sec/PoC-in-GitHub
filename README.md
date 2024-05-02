@@ -1638,9 +1638,6 @@
 ### CVE-2024-33339
 - [balckgu1/Poc](https://github.com/balckgu1/Poc)
 
-### CVE-2024-33386
-- [keaidmmc/CVE-2024-33386](https://github.com/keaidmmc/CVE-2024-33386)
-
 ### CVE-2024-33438 (2024-04-29)
 
 <code>File Upload vulnerability in CubeCart before 6.5.5 allows an authenticated user to execute arbitrary code via a crafted .phar file.
@@ -2809,6 +2806,13 @@
 - [motikan2010/CVE-2023-6063-PoC](https://github.com/motikan2010/CVE-2023-6063-PoC)
 - [hackersroot/CVE-2023-6063-PoC](https://github.com/hackersroot/CVE-2023-6063-PoC)
 - [thesafdari/CVE-2023-6063](https://github.com/thesafdari/CVE-2023-6063)
+
+### CVE-2023-6241 (2024-03-04)
+
+<code>Use After Free vulnerability in Arm Ltd Midgard GPU Kernel Driver, Arm Ltd Bifrost GPU Kernel Driver, Arm Ltd Valhall GPU Kernel Driver, Arm Ltd Arm 5th Gen GPU Architecture Kernel Driver allows a local non-privileged user to exploit a software race condition to perform improper memory processing operations. If the system’s memory is carefully prepared by the user, then this in turn cause a use-after-free.This issue affects Midgard GPU Kernel Driver: from r13p0 through r32p0; Bifrost GPU Kernel Driver: from r11p0 through r25p0; Valhall GPU Kernel Driver: from r19p0 through r25p0, from r29p0 through r46p0; Arm 5th Gen GPU Architecture Kernel Driver: from r41p0 through r46p0.\n\n
+</code>
+
+- [s1204IT/CVE-2023-6241](https://github.com/s1204IT/CVE-2023-6241)
 
 ### CVE-2023-6246 (2024-01-31)
 
