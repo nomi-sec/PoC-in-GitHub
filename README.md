@@ -1621,13 +1621,6 @@
 
 - [NN0b0dy/CVE-2024-32399](https://github.com/NN0b0dy/CVE-2024-32399)
 
-### CVE-2024-32766 (2024-04-26)
-
-<code>An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.3.2578 build 20231110 and later\nQTS 4.5.4.2627 build 20231225 and later\nQuTS hero h5.1.3.2578 build 20231110 and later\nQuTS hero h4.5.4.2626 build 20231225 and later\nQuTScloud c5.1.5.2651 and later\n
-</code>
-
-- [p3c34r7/CVE-2024-32766-POC](https://github.com/p3c34r7/CVE-2024-32766-POC)
-
 ### CVE-2024-33078 (2024-05-01)
 
 <code>Tencent Libpag v4.3 is vulnerable to Buffer Overflow. A user can send a crafted image to trigger a overflow leading to remote code execution.
@@ -19572,6 +19565,13 @@
 </code>
 
 - [Edgarloyola/CVE-2021-36563](https://github.com/Edgarloyola/CVE-2021-36563)
+
+### CVE-2021-36593 (2024-05-01)
+
+<code>Oxwall 1.8.7 (11111) is vulnerable to Incorrect Access Control. Unauthenticated file upload allows an attacker to upload image files.
+</code>
+
+- [mir-hossein/Statement](https://github.com/mir-hossein/Statement)
 
 ### CVE-2021-36630 (2023-01-18)
 
