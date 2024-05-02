@@ -54,7 +54,11 @@
 
 - [Valentin-Metz/writeup_split](https://github.com/Valentin-Metz/writeup_split)
 
-### CVE-2024-0710
+### CVE-2024-0710 (2024-05-02)
+
+<code>The GP Unique ID plugin for WordPress is vulnerable to Unique ID Modification in all versions up to, and including, 1.5.5. This is due to insufficient input validation. This makes it possible for unauthenticated attackers to tamper with the generation of a unique ID on a form submission and replace the generated unique ID with a user-controlled one, leading to a loss of integrity in cases where the ID's uniqueness is relied upon in a security-specific context.
+</code>
+
 - [karlemilnikka/CVE-2024-0710](https://github.com/karlemilnikka/CVE-2024-0710)
 
 ### CVE-2024-0713
@@ -266,10 +270,18 @@
 
 - [Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP)
 
-### CVE-2024-2667
+### CVE-2024-2667 (2024-05-02)
+
+<code>The InstaWP Connect – 1-click WP Staging &amp; Migration plugin for WordPress is vulnerable to arbitrary file uploads due to  insufficient file validation in the /wp-json/instawp-connect/v1/config REST API endpoint in all versions up to, and including, 0.1.0.22. This makes it possible for unauthenticated attackers to upload arbitrary files.
+</code>
+
 - [Puvipavan/CVE-2024-2667](https://github.com/Puvipavan/CVE-2024-2667)
 
-### CVE-2024-2876
+### CVE-2024-2876 (2024-05-02)
+
+<code>The Email Subscribers by Icegram Express – Email Marketing, Newsletters, Automation for WordPress &amp; WooCommerce plugin for WordPress is vulnerable to SQL Injection via the 'run' function of the 'IG_ES_Subscribers_Query' class in all versions up to, and including, 5.7.14 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
 - [c0d3zilla/CVE-2024-2876](https://github.com/c0d3zilla/CVE-2024-2876)
 
 ### CVE-2024-2879 (2024-04-03)
@@ -8991,6 +9003,13 @@
 
 - [giovannipajeu1/CVE-2023-50643](https://github.com/giovannipajeu1/CVE-2023-50643)
 
+### CVE-2023-50685 (2024-05-02)
+
+<code>An issue in Hipcam Cameras RealServer v.1.0 allows a remote attacker to cause a denial of service via a crafted script to the client_port parameter.
+</code>
+
+- [UnderwaterCoder/Hipcam-RTSP-Format-Validation-Vulnerability](https://github.com/UnderwaterCoder/Hipcam-RTSP-Format-Validation-Vulnerability)
+
 ### CVE-2023-50917 (2023-12-15)
 
 <code>MajorDoMo (aka Major Domestic Module) before 0662e5e allows command execution via thumb.php shell metacharacters. NOTE: this is unrelated to the Majordomo mailing-list manager.
@@ -10301,6 +10320,13 @@
 - [ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2022-20347](https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2022-20347)
 - [Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2022-20347](https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2022-20347)
 - [hshivhare67/platform_packages_apps_settings_AOSP10_r33_CVE-2022-20347](https://github.com/hshivhare67/platform_packages_apps_settings_AOSP10_r33_CVE-2022-20347)
+
+### CVE-2022-20360 (2022-08-09)
+
+<code>In setChecked of SecureNfcPreferenceController.java, there is a missing permission check. This could lead to local escalation of privilege from the guest user with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-228314987
+</code>
+
+- [726232111/packages_apps_Settings_AOSP_10_r33_CVE-2022-20360](https://github.com/726232111/packages_apps_Settings_AOSP_10_r33_CVE-2022-20360)
 
 ### CVE-2022-20361 (2022-08-09)
 
