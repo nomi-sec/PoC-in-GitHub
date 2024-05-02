@@ -5325,6 +5325,13 @@
 
 - [9xN/CVE-2023-32707](https://github.com/9xN/CVE-2023-32707)
 
+### CVE-2023-32749 (2023-06-08)
+
+<code>Pydio Cells allows users by default to create so-called external users in order to share files with them. By modifying the HTTP request sent when creating such an external user, it is possible to assign the new user arbitrary roles. By assigning all roles to a newly created user, access to all cells and non-personal workspaces is granted.
+</code>
+
+- [xcr-19/CVE-2023-32749](https://github.com/xcr-19/CVE-2023-32749)
+
 ### CVE-2023-32784 (2023-05-15)
 
 <code>In KeePass 2.x before 2.54, it is possible to recover the cleartext master password from a memory dump, even when a workspace is locked or no longer running. The memory dump can be a KeePass process dump, swap file (pagefile.sys), hibernation file (hiberfil.sys), or RAM dump of the entire system. The first character cannot be recovered. In 2.54, there is different API usage and/or random string insertion for mitigation.
