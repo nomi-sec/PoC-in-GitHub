@@ -4276,11 +4276,19 @@
 
 - [FzBacon/CVE-2023-27216_D-Link_DSL-3782_Router_command_injection](https://github.com/FzBacon/CVE-2023-27216_D-Link_DSL-3782_Router_command_injection)
 
-### CVE-2023-27326
+### CVE-2023-27326 (2024-05-03)
+
+<code>Parallels Desktop Toolgate Directory Traversal Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability.\n\nThe specific flaw exists within the Toolgate component. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the current user on the host system. Was ZDI-CAN-18933.
+</code>
+
 - [Impalabs/CVE-2023-27326](https://github.com/Impalabs/CVE-2023-27326)
 - [Malwareman007/CVE-2023-27326](https://github.com/Malwareman007/CVE-2023-27326)
 
-### CVE-2023-27327
+### CVE-2023-27327 (2024-05-03)
+
+<code>Parallels Desktop Toolgate Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability.\n\nThe specific flaw exists within the Toolgate component. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the current user on the host system. Was ZDI-CAN-18964.
+</code>
+
 - [kn32/parallels-plist-escape](https://github.com/kn32/parallels-plist-escape)
 
 ### CVE-2023-27350 (2023-04-20)
@@ -4296,7 +4304,11 @@
 - [Jenderal92/CVE-2023-27350](https://github.com/Jenderal92/CVE-2023-27350)
 - [ASG-CASTLE/CVE-2023-27350](https://github.com/ASG-CASTLE/CVE-2023-27350)
 
-### CVE-2023-27363
+### CVE-2023-27363 (2024-05-03)
+
+<code>Foxit PDF Reader exportXFAData Exposed Dangerous Method Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the exportXFAData method. The application exposes a JavaScript interface that allows writing arbitrary files. An attacker can leverage this vulnerability to execute code in the context of the current user. Was ZDI-CAN-19697.
+</code>
+
 - [qwqdanchun/CVE-2023-27363](https://github.com/qwqdanchun/CVE-2023-27363)
 - [webraybtl/CVE-2023-27363](https://github.com/webraybtl/CVE-2023-27363)
 - [CN016/-Foxit-PDF-CVE-2023-27363-](https://github.com/CN016/-Foxit-PDF-CVE-2023-27363-)
@@ -5947,7 +5959,11 @@
 
 - [pazhanivel07/frameworks_av_AOSP_10_r33_CVE-2023-35687_CVE-2023-35679](https://github.com/pazhanivel07/frameworks_av_AOSP_10_r33_CVE-2023-35687_CVE-2023-35679)
 
-### CVE-2023-35744
+### CVE-2023-35744 (2024-05-03)
+
+<code>D-Link DAP-2622 DDP Configuration Restore Server IPv6 Address Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of D-Link DAP-2622 routers. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the DDP service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-20071.
+</code>
+
 - [ADSSA-IT/CVE-2023-35744](https://github.com/ADSSA-IT/CVE-2023-35744)
 
 ### CVE-2023-35793 (2023-09-26)
@@ -6507,7 +6523,11 @@
 
 - [ewilded/CVE-2023-38041-POC](https://github.com/ewilded/CVE-2023-38041-POC)
 
-### CVE-2023-38120
+### CVE-2023-38120 (2024-05-03)
+
+<code>Adtran SR400ac ping Command Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adtran SR400ac routers. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.\n\nThe specific flaw exists within the ping command, which is available over JSON-RPC. A crafted host parameter can trigger execution of a system call composed from a user-supplied string. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-20525.
+</code>
+
 - [warber0x/CVE-2023-38120](https://github.com/warber0x/CVE-2023-38120)
 
 ### CVE-2023-38146 (2023-09-12)
@@ -7003,7 +7023,11 @@
 
 - [majidmc2/CVE-2023-40459](https://github.com/majidmc2/CVE-2023-40459)
 
-### CVE-2023-40477
+### CVE-2023-40477 (2024-05-03)
+
+<code>RARLAB WinRAR Recovery Volume Improper Validation of Array Index Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of RARLAB WinRAR. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the processing of recovery volumes. The issue results from the lack of proper validation of user-supplied data, which can result in a memory access past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-21233.
+</code>
+
 - [winkler-winsen/Scan_WinRAR](https://github.com/winkler-winsen/Scan_WinRAR)
 - [wildptr-io/Winrar-CVE-2023-40477-POC](https://github.com/wildptr-io/Winrar-CVE-2023-40477-POC)
 
@@ -7734,10 +7758,18 @@
 
 - [soundarkutty/CVE-2023-44061](https://github.com/soundarkutty/CVE-2023-44061)
 
-### CVE-2023-44451
+### CVE-2023-44451 (2024-05-03)
+
+<code>Linux Mint Xreader EPUB File Parsing Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Linux Mint Xreader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of EPUB files. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the current user. Was ZDI-CAN-21897.
+</code>
+
 - [febinrev/slippy-book-exploit](https://github.com/febinrev/slippy-book-exploit)
 
-### CVE-2023-44452
+### CVE-2023-44452 (2024-05-03)
+
+<code>Linux Mint Xreader CBT File Parsing Argument Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Linux Mint Xreader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of CBT files. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the current user. Was ZDI-CAN-22132.
+</code>
+
 - [febinrev/atril_cbt-inject-exploit](https://github.com/febinrev/atril_cbt-inject-exploit)
 
 ### CVE-2023-44487 (2023-10-10)
@@ -8969,7 +9001,11 @@
 - [sunnyvale-it/CVE-2023-50164-PoC](https://github.com/sunnyvale-it/CVE-2023-50164-PoC)
 - [AsfandAliMemon25/CVE-2023-50164Analysis-](https://github.com/AsfandAliMemon25/CVE-2023-50164Analysis-)
 
-### CVE-2023-50226
+### CVE-2023-50226 (2024-05-03)
+
+<code>Parallels Desktop Updater Link Following Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute low-privileged code on the target host system in order to exploit this vulnerability.\n\nThe specific flaw exists within the Updater service. By creating a symbolic link, an attacker can abuse the service to move arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Was ZDI-CAN-21227.
+</code>
+
 - [kn32/parallels-file-move-privesc](https://github.com/kn32/parallels-file-move-privesc)
 
 ### CVE-2023-50254 (2023-12-22)
@@ -9490,7 +9526,6 @@
 - [ayushx007/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/ayushx007/CVE-2022-0847-DirtyPipe-Exploits)
 - [solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus](https://github.com/solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus)
 - [letsr00t/CVE-2022-0847](https://github.com/letsr00t/CVE-2022-0847)
-- [xsxtw/CVE-2022-0847](https://github.com/xsxtw/CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -11109,7 +11144,6 @@
 - [h4ck0rman/Spring4Shell-PoC](https://github.com/h4ck0rman/Spring4Shell-PoC)
 - [sohamsharma966/Spring4Shell-CVE-2022-22965](https://github.com/sohamsharma966/Spring4Shell-CVE-2022-22965)
 - [LucasPDiniz/CVE-2022-22965](https://github.com/LucasPDiniz/CVE-2022-22965)
-- [xsxtw/SpringFramework_CVE-2022-22965_RCE](https://github.com/xsxtw/SpringFramework_CVE-2022-22965_RCE)
 
 ### CVE-2022-22966 (2022-04-14)
 
@@ -12030,7 +12064,6 @@
 - [yTxZx/CVE-2022-26134](https://github.com/yTxZx/CVE-2022-26134)
 - [DARKSTUFF-LAB/-CVE-2022-26134](https://github.com/DARKSTUFF-LAB/-CVE-2022-26134)
 - [404fu/CVE-2022-26134-POC](https://github.com/404fu/CVE-2022-26134-POC)
-- [xsxtw/CVE-2022-26134](https://github.com/xsxtw/CVE-2022-26134)
 
 ### CVE-2022-26135 (2022-06-29)
 
@@ -27678,7 +27711,6 @@
 - [Nicoslo/Windows-exploitation-Apache-Tomcat-8.5.19-CVE-2019-0232-](https://github.com/Nicoslo/Windows-exploitation-Apache-Tomcat-8.5.19-CVE-2019-0232-)
 - [Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232](https://github.com/Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232)
 - [jaiguptanick/CVE-2019-0232](https://github.com/jaiguptanick/CVE-2019-0232)
-- [xsxtw/CVE-2019-0232](https://github.com/xsxtw/CVE-2019-0232)
 
 ### CVE-2019-0539 (2019-01-08)
 
@@ -41832,6 +41864,7 @@
 - [advanced-threat-research/Creosote](https://github.com/advanced-threat-research/Creosote)
 - [Ooscaar/MALW](https://github.com/Ooscaar/MALW)
 - [davidholiday/CVE-2007-4559](https://github.com/davidholiday/CVE-2007-4559)
+- [luigigubello/trellix-tarslip-patch-bypass](https://github.com/luigigubello/trellix-tarslip-patch-bypass)
 
 ### CVE-2007-4560 (2007-08-28)
 
