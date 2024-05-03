@@ -1633,6 +1633,13 @@
 
 - [NN0b0dy/CVE-2024-32399](https://github.com/NN0b0dy/CVE-2024-32399)
 
+### CVE-2024-32766 (2024-04-26)
+
+<code>An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.3.2578 build 20231110 and later\nQTS 4.5.4.2627 build 20231225 and later\nQuTS hero h5.1.3.2578 build 20231110 and later\nQuTS hero h4.5.4.2626 build 20231225 and later\nQuTScloud c5.1.5.2651 and later\n
+</code>
+
+- [3W1nd4r/CVE-2024-32766-RCE](https://github.com/3W1nd4r/CVE-2024-32766-RCE)
+
 ### CVE-2024-33078 (2024-05-01)
 
 <code>Tencent Libpag v4.3 is vulnerable to Buffer Overflow. A user can send a crafted image to trigger a overflow leading to remote code execution.
@@ -12023,6 +12030,7 @@
 - [yTxZx/CVE-2022-26134](https://github.com/yTxZx/CVE-2022-26134)
 - [DARKSTUFF-LAB/-CVE-2022-26134](https://github.com/DARKSTUFF-LAB/-CVE-2022-26134)
 - [404fu/CVE-2022-26134-POC](https://github.com/404fu/CVE-2022-26134-POC)
+- [xsxtw/CVE-2022-26134](https://github.com/xsxtw/CVE-2022-26134)
 
 ### CVE-2022-26135 (2022-06-29)
 
@@ -16570,6 +16578,7 @@
 - [DDayLuong/CVE-2021-3156](https://github.com/DDayLuong/CVE-2021-3156)
 - [wurwur/CVE-2021-3156](https://github.com/wurwur/CVE-2021-3156)
 - [SamTruss/LMU-CVE-2021-3156](https://github.com/SamTruss/LMU-CVE-2021-3156)
+- [34rthq04k3/CVE-2021-3156](https://github.com/34rthq04k3/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -17609,6 +17618,13 @@
 </code>
 
 - [Mario-Kart-Felix/A-potential-Denial-of-Service-issue-in-protobuf-java](https://github.com/Mario-Kart-Felix/A-potential-Denial-of-Service-issue-in-protobuf-java)
+
+### CVE-2021-22600 (2022-01-26)
+
+<code>A double free bug in packet_set_ring() in net/packet/af_packet.c can be exploited by a local user through crafted syscalls to escalate privileges or deny service. We recommend upgrading kernel past the effected versions or rebuilding past ec6af094ea28f0f2dda1a6a33b14cd57e36a9755
+</code>
+
+- [34rthq04k3/CVE-2021-22600](https://github.com/34rthq04k3/CVE-2021-22600)
 
 ### CVE-2021-22873 (2021-01-21)
 
@@ -19592,11 +19608,7 @@
 
 - [Edgarloyola/CVE-2021-36563](https://github.com/Edgarloyola/CVE-2021-36563)
 
-### CVE-2021-36593 (2024-05-01)
-
-<code>Oxwall 1.8.7 (11111) is vulnerable to Incorrect Access Control. Unauthenticated file upload allows an attacker to upload image files.
-</code>
-
+### CVE-2021-36593
 - [mir-hossein/Statement](https://github.com/mir-hossein/Statement)
 
 ### CVE-2021-36630 (2023-01-18)
@@ -27666,6 +27678,7 @@
 - [Nicoslo/Windows-exploitation-Apache-Tomcat-8.5.19-CVE-2019-0232-](https://github.com/Nicoslo/Windows-exploitation-Apache-Tomcat-8.5.19-CVE-2019-0232-)
 - [Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232](https://github.com/Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232)
 - [jaiguptanick/CVE-2019-0232](https://github.com/jaiguptanick/CVE-2019-0232)
+- [xsxtw/CVE-2019-0232](https://github.com/xsxtw/CVE-2019-0232)
 
 ### CVE-2019-0539 (2019-01-08)
 
