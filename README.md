@@ -961,6 +961,7 @@
 - [pulentoski/CVE-2024-23897-Arbitrary-file-read](https://github.com/pulentoski/CVE-2024-23897-Arbitrary-file-read)
 - [Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897)
 - [Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897)
+- [Athulya666/CVE-2024-23897](https://github.com/Athulya666/CVE-2024-23897)
 
 ### CVE-2024-24034 (2024-02-08)
 
@@ -1489,6 +1490,16 @@
 
 - [chebuya/CVE-2024-28741-northstar-agent-rce-poc](https://github.com/chebuya/CVE-2024-28741-northstar-agent-rce-poc)
 
+### CVE-2024-28757 (2024-03-10)
+
+<code>libexpat through 2.6.1 allows an XML Entity Expansion attack when there is isolated use of external parsers (created via XML_ExternalEntityParserCreate).
+</code>
+
+- [krnidhi/expat_2.1.1_CVE-2024-28757](https://github.com/krnidhi/expat_2.1.1_CVE-2024-28757)
+- [RenukaSelvar/expat_CVE-2024-28757](https://github.com/RenukaSelvar/expat_CVE-2024-28757)
+- [saurabh2088/expat_2_1_0_CVE-2024-28757](https://github.com/saurabh2088/expat_2_1_0_CVE-2024-28757)
+- [saurabh2088/expat_2_1_1_CVE-2024-28757](https://github.com/saurabh2088/expat_2_1_1_CVE-2024-28757)
+
 ### CVE-2024-29059 (2024-03-22)
 
 <code>.NET Framework Information Disclosure Vulnerability
@@ -1539,6 +1550,13 @@
 </code>
 
 - [ally-petitt/CVE-2024-29399](https://github.com/ally-petitt/CVE-2024-29399)
+
+### CVE-2024-29988 (2024-04-09)
+
+<code>SmartScreen Prompt Security Feature Bypass Vulnerability
+</code>
+
+- [Sploitus/CVE-2024-29988-exploit](https://github.com/Sploitus/CVE-2024-29988-exploit)
 
 ### CVE-2024-30255 (2024-04-04)
 
@@ -5549,8 +5567,8 @@
 </code>
 
 - [c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733)
+- [hoangbui24/CVE-2023-33733](https://github.com/hoangbui24/CVE-2023-33733)
 - [onion2203/Lab_Reportlab](https://github.com/onion2203/Lab_Reportlab)
-- [buiduchoang24/CVE-2023-33733](https://github.com/buiduchoang24/CVE-2023-33733)
 
 ### CVE-2023-33747 (2023-06-06)
 
@@ -5657,7 +5675,6 @@
 
 - [Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040](https://github.com/Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040)
 - [pyn3rd/CVE-2023-34040](https://github.com/pyn3rd/CVE-2023-34040)
-- [buiduchoang24/CVE-2023-34040](https://github.com/buiduchoang24/CVE-2023-34040)
 
 ### CVE-2023-34050 (2023-10-19)
 
