@@ -1592,6 +1592,13 @@
 
 - [blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC](https://github.com/blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC)
 
+### CVE-2024-30491 (2024-03-29)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid.This issue affects ProfileGrid : from n/a through 5.7.8.\n\n
+</code>
+
+- [truonghuuphuc/CVE-2024-30491-Poc](https://github.com/truonghuuphuc/CVE-2024-30491-Poc)
+
 ### CVE-2024-30614 (2024-04-12)
 
 <code>An issue in Ametys CMS v4.5.0 and before allows attackers to obtain sensitive information via exposed resources to the error scope.
@@ -1656,6 +1663,13 @@
 </code>
 
 - [Chocapikk/CVE-2024-31819](https://github.com/Chocapikk/CVE-2024-31819)
+
+### CVE-2024-31851 (2024-04-05)
+
+<code>A path traversal vulnerability exists in the Java version of CData Sync &lt; 23.4.8843 when running using the embedded Jetty server, which could allow an unauthenticated remote attacker to gain access to sensitive information and perform limited actions.
+</code>
+
+- [GKalmus/referaat](https://github.com/GKalmus/referaat)
 
 ### CVE-2024-32205
 - [Lucky-lm/CVE-2024-32205](https://github.com/Lucky-lm/CVE-2024-32205)
@@ -4151,6 +4165,7 @@
 </code>
 
 - [CUCUMBERanOrSNCompany/SealSecurityAssignment](https://github.com/CUCUMBERanOrSNCompany/SealSecurityAssignment)
+- [ronmadar/Open-Source-Package](https://github.com/ronmadar/Open-Source-Package)
 
 ### CVE-2023-26255 (2023-02-28)
 
@@ -6329,6 +6344,8 @@
 - [imhunterand/CVE-2023-36845](https://github.com/imhunterand/CVE-2023-36845)
 - [ifconfig-me/CVE-2023-36845](https://github.com/ifconfig-me/CVE-2023-36845)
 - [e11i0t4lders0n/CVE-2023-36845](https://github.com/e11i0t4lders0n/CVE-2023-36845)
+- [Vignesh2712/Automation-for-Juniper-cve-2023-36845](https://github.com/Vignesh2712/Automation-for-Juniper-cve-2023-36845)
+- [Vignesh2712/utomation-for-Juniper-cve-2023-36845](https://github.com/Vignesh2712/utomation-for-Juniper-cve-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -16659,7 +16676,7 @@
 - [DDayLuong/CVE-2021-3156](https://github.com/DDayLuong/CVE-2021-3156)
 - [wurwur/CVE-2021-3156](https://github.com/wurwur/CVE-2021-3156)
 - [SamTruss/LMU-CVE-2021-3156](https://github.com/SamTruss/LMU-CVE-2021-3156)
-- [34rthq04k3/CVE-2021-3156](https://github.com/34rthq04k3/CVE-2021-3156)
+- [ragingkarson/CVE-2021-3156](https://github.com/ragingkarson/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -17705,7 +17722,7 @@
 <code>A double free bug in packet_set_ring() in net/packet/af_packet.c can be exploited by a local user through crafted syscalls to escalate privileges or deny service. We recommend upgrading kernel past the effected versions or rebuilding past ec6af094ea28f0f2dda1a6a33b14cd57e36a9755
 </code>
 
-- [34rthq04k3/CVE-2021-22600](https://github.com/34rthq04k3/CVE-2021-22600)
+- [ragingkarson/CVE-2021-22600](https://github.com/ragingkarson/CVE-2021-22600)
 
 ### CVE-2021-22873 (2021-01-21)
 
