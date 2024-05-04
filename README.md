@@ -454,6 +454,7 @@
 - [Praison001/CVE-2024-4040-CrushFTP-server](https://github.com/Praison001/CVE-2024-4040-CrushFTP-server)
 - [Mohammaddvd/CVE-2024-4040](https://github.com/Mohammaddvd/CVE-2024-4040)
 - [jakabakos/CVE-2024-4040-CrushFTP-File-Read-vulnerability](https://github.com/jakabakos/CVE-2024-4040-CrushFTP-File-Read-vulnerability)
+- [gotr00t0day/CVE-2024-4040](https://github.com/gotr00t0day/CVE-2024-4040)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -27044,7 +27045,7 @@
 
 ### CVE-2020-26732 (2021-01-14)
 
-<code>SKYWORTH GN542VF Boa version 0.94.13 does not set the Secure flag for the session cookie in an HTTPS session, which makes it easier for remote attackers to capture this cookie by intercepting its transmission within an HTTP session.
+<code>SKYWORTH GN542VF Hardware Version 2.0 and Software Version 2.0.0.16 does not set the Secure flag for the session cookie in an HTTPS session, which makes it easier for remote attackers to capture this cookie by intercepting its transmission within an HTTP session.
 </code>
 
 - [swzhouu/CVE-2020-26732](https://github.com/swzhouu/CVE-2020-26732)
