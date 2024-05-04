@@ -480,6 +480,13 @@
 
 - [nettitude/CVE-2024-20356](https://github.com/nettitude/CVE-2024-20356)
 
+### CVE-2024-20359 (2024-04-24)
+
+<code>A vulnerability in a legacy capability that allowed for the preloading of VPN clients and plug-ins and that has been available in Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an authenticated, local attacker to execute arbitrary code with root-level privileges. Administrator-level privileges are required to exploit this vulnerability.\r\n\r This vulnerability is due to improper validation of a file when it is read from system flash memory. An attacker could exploit this vulnerability by copying a crafted file to the disk0: file system of an affected device. A successful exploit could allow the attacker to execute arbitrary code on the affected device after the next reload of the device, which could alter system behavior. Because the injected code could persist across device reboots, Cisco has raised the Security Impact Rating (SIR) of this advisory from Medium to High.
+</code>
+
+- [Garvard-Agency/CVE-2024-20359-CiscoASA-FTD-exploit](https://github.com/Garvard-Agency/CVE-2024-20359-CiscoASA-FTD-exploit)
+
 ### CVE-2024-20656 (2024-01-09)
 
 <code>Visual Studio Elevation of Privilege Vulnerability
@@ -1285,6 +1292,13 @@
 </code>
 
 - [exploits-forsale/CVE-2024-26218](https://github.com/exploits-forsale/CVE-2024-26218)
+
+### CVE-2024-26304 (2024-05-01)
+
+<code>There is a buffer overflow vulnerability in the underlying L2/L3 Management service that could lead to unauthenticated remote code execution by sending specially crafted packets destined to the PAPI (Aruba's access point management protocol) UDP port (8211). Successful exploitation of this vulnerability results in the ability to execute arbitrary code as a privileged user on the underlying operating system. \n\n
+</code>
+
+- [Roud-Roud-Agency/CVE-2024-26304-RCE-exploits](https://github.com/Roud-Roud-Agency/CVE-2024-26304-RCE-exploits)
 
 ### CVE-2024-26475 (2024-03-14)
 
