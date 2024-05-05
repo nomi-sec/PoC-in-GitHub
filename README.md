@@ -1672,6 +1672,13 @@
 
 - [GKalmus/referaat](https://github.com/GKalmus/referaat)
 
+### CVE-2024-32136 (2024-04-15)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Xenioushk BWL Advanced FAQ Manager.This issue affects BWL Advanced FAQ Manager: from n/a through 2.0.3.\n\n
+</code>
+
+- [xbz0n/CVE-2024-32136](https://github.com/xbz0n/CVE-2024-32136)
+
 ### CVE-2024-32205
 - [Lucky-lm/CVE-2024-32205](https://github.com/Lucky-lm/CVE-2024-32205)
 
@@ -1727,6 +1734,13 @@
 </code>
 
 - [Neo-XeD/CVE-2024-33775](https://github.com/Neo-XeD/CVE-2024-33775)
+
+### CVE-2024-33911 (2024-05-02)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Weblizar School Management Pro.This issue affects School Management Pro: from n/a through 10.3.4.\n\n
+</code>
+
+- [xbz0n/CVE-2024-33911](https://github.com/xbz0n/CVE-2024-33911)
 
 ### CVE-2024-34470
 - [osvaldotenorio/CVE-2024-34470](https://github.com/osvaldotenorio/CVE-2024-34470)
@@ -21958,6 +21972,7 @@
 - [sec13b/CVE-2021-44228-POC](https://github.com/sec13b/CVE-2021-44228-POC)
 - [KirkDJohnson/Wireshark](https://github.com/KirkDJohnson/Wireshark)
 - [YangHyperData/LOGJ4_PocShell_CVE-2021-44228](https://github.com/YangHyperData/LOGJ4_PocShell_CVE-2021-44228)
+- [c0d3cr4f73r/CVE-2021-44228](https://github.com/c0d3cr4f73r/CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
