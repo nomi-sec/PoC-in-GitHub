@@ -1258,6 +1258,7 @@
 - [K3ysTr0K3R/CVE-2024-25600-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-25600-EXPLOIT)
 - [0bl1v10nf0rg0773n/0BL1V10N-CVE-2024-25600-Bricks-Builder-plugin-for-WordPress](https://github.com/0bl1v10nf0rg0773n/0BL1V10N-CVE-2024-25600-Bricks-Builder-plugin-for-WordPress)
 - [X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE](https://github.com/X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE)
+- [RHYru9/CVE-2024-25600-mass](https://github.com/RHYru9/CVE-2024-25600-mass)
 
 ### CVE-2024-25723 (2024-02-27)
 
@@ -1726,6 +1727,18 @@
 </code>
 
 - [Neo-XeD/CVE-2024-33775](https://github.com/Neo-XeD/CVE-2024-33775)
+
+### CVE-2024-34470
+- [osvaldotenorio/CVE-2024-34470](https://github.com/osvaldotenorio/CVE-2024-34470)
+
+### CVE-2024-34471
+- [osvaldotenorio/CVE-2024-34471](https://github.com/osvaldotenorio/CVE-2024-34471)
+
+### CVE-2024-34472
+- [osvaldotenorio/CVE-2024-34472](https://github.com/osvaldotenorio/CVE-2024-34472)
+
+### CVE-2024-34474
+- [Alaatk/CVE-2024-34474](https://github.com/Alaatk/CVE-2024-34474)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -9565,7 +9578,7 @@
 - [VinuKalana/DirtyPipe-CVE-2022-0847](https://github.com/VinuKalana/DirtyPipe-CVE-2022-0847)
 - [ih3na/debian11-dirty_pipe-patcher](https://github.com/ih3na/debian11-dirty_pipe-patcher)
 - [greenhandatsjtu/CVE-2022-0847-Container-Escape](https://github.com/greenhandatsjtu/CVE-2022-0847-Container-Escape)
-- [flux10n/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/flux10n/CVE-2022-0847-DirtyPipe-Exploits)
+- [jxpsx/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/jxpsx/CVE-2022-0847-DirtyPipe-Exploits)
 - [airbus-cert/dirtypipe-ebpf_detection](https://github.com/airbus-cert/dirtypipe-ebpf_detection)
 - [edr1412/Dirty-Pipe](https://github.com/edr1412/Dirty-Pipe)
 - [eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits)
@@ -12958,7 +12971,6 @@
 <code>&lt;p&gt;A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run arbitrary code with the privileges of the calling application. The attacker can then install programs, view, change, or delete data, or create new accounts in the context allowed by the user’s rights.&lt;/p&gt;\n&lt;p&gt;Please see the &lt;a href=&quot;https://aka.ms/CVE-2022-30190-Guidance&quot;&gt;MSRC Blog Entry&lt;/a&gt; for important information about steps you can take to protect your system from this vulnerability.&lt;/p&gt;\n
 </code>
 
-- [flux10n/CVE-2022-30190](https://github.com/flux10n/CVE-2022-30190)
 - [JMousqueton/PoC-CVE-2022-30190](https://github.com/JMousqueton/PoC-CVE-2022-30190)
 - [zkl21hoang/msdt-follina-office-rce](https://github.com/zkl21hoang/msdt-follina-office-rce)
 - [onecloudemoji/CVE-2022-30190](https://github.com/onecloudemoji/CVE-2022-30190)
@@ -17081,9 +17093,9 @@
 - [Silencecyber/cve-2021-4034](https://github.com/Silencecyber/cve-2021-4034)
 - [Geni0r/cve-2021-4034-poc](https://github.com/Geni0r/cve-2021-4034-poc)
 - [zxc2007/CVE-2021-4034](https://github.com/zxc2007/CVE-2021-4034)
-- [flux10n/CVE-2021-4034](https://github.com/flux10n/CVE-2021-4034)
 - [Senz4wa/CVE-2021-4034](https://github.com/Senz4wa/CVE-2021-4034)
 - [Pixailz/CVE-2021-4034](https://github.com/Pixailz/CVE-2021-4034)
+- [toecesws/CVE-2021-4034](https://github.com/toecesws/CVE-2021-4034)
 - [jehovah2002/CVE-2021-4034-pwnkit](https://github.com/jehovah2002/CVE-2021-4034-pwnkit)
 - [fei9747/CVE-2021-4034](https://github.com/fei9747/CVE-2021-4034)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
@@ -24891,7 +24903,6 @@
 </code>
 
 - [zavke/CVE-2020-10189-ManageEngine](https://github.com/zavke/CVE-2020-10189-ManageEngine)
-- [BLACKpwn/Remote_Code_Execution-](https://github.com/BLACKpwn/Remote_Code_Execution-)
 
 ### CVE-2020-10199 (2020-04-01)
 
@@ -29374,6 +29385,7 @@
 - [oppsec/arbimz](https://github.com/oppsec/arbimz)
 - [oppsec/zaber](https://github.com/oppsec/zaber)
 - [Cappricio-Securities/CVE-2019-9670](https://github.com/Cappricio-Securities/CVE-2019-9670)
+- [OracleNep/CVE-2019-9670-DtdFilegeneration](https://github.com/OracleNep/CVE-2019-9670-DtdFilegeneration)
 
 ### CVE-2019-9673 (2019-06-05)
 
@@ -38153,7 +38165,6 @@
 - [passionchenjianyegmail8/scumjrs](https://github.com/passionchenjianyegmail8/scumjrs)
 - [malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195](https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195)
 - [1equeneRise/scumjr9](https://github.com/1equeneRise/scumjr9)
-- [flux10n/dirtycow](https://github.com/flux10n/dirtycow)
 - [fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195)
 - [LinuxKernelContent/DirtyCow](https://github.com/LinuxKernelContent/DirtyCow)
 - [NguyenCongHaiNam/Research-CVE-2016-5195](https://github.com/NguyenCongHaiNam/Research-CVE-2016-5195)
