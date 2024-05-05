@@ -1751,7 +1751,11 @@
 ### CVE-2024-34472
 - [osvaldotenorio/CVE-2024-34472](https://github.com/osvaldotenorio/CVE-2024-34472)
 
-### CVE-2024-34474
+### CVE-2024-34474 (2024-05-05)
+
+<code>Clario through 2024-04-11 for Desktop has weak permissions for %PROGRAMDATA%\Clario and tries to load DLLs from there as SYSTEM.
+</code>
+
 - [Alaatk/CVE-2024-34474](https://github.com/Alaatk/CVE-2024-34474)
 
 ### CVE-2024-65230
@@ -3900,6 +3904,7 @@
 - [mariovata/CVE-2023-23752-Python](https://github.com/mariovata/CVE-2023-23752-Python)
 - [0xx01/CVE-2023-23752](https://github.com/0xx01/CVE-2023-23752)
 - [c0d3cr4f73r/CVE-2023-23752](https://github.com/c0d3cr4f73r/CVE-2023-23752)
+- [mil4ne/CVE-2023-23752-Joomla-v4.2.8](https://github.com/mil4ne/CVE-2023-23752-Joomla-v4.2.8)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -4195,6 +4200,7 @@
 
 - [CUCUMBERanOrSNCompany/SealSecurityAssignment](https://github.com/CUCUMBERanOrSNCompany/SealSecurityAssignment)
 - [ronmadar/Open-Source-Package](https://github.com/ronmadar/Open-Source-Package)
+- [ronmadar/Open-Source-Package-Seal-Security](https://github.com/ronmadar/Open-Source-Package-Seal-Security)
 
 ### CVE-2023-26255 (2023-02-28)
 
@@ -21972,7 +21978,6 @@
 - [sec13b/CVE-2021-44228-POC](https://github.com/sec13b/CVE-2021-44228-POC)
 - [KirkDJohnson/Wireshark](https://github.com/KirkDJohnson/Wireshark)
 - [YangHyperData/LOGJ4_PocShell_CVE-2021-44228](https://github.com/YangHyperData/LOGJ4_PocShell_CVE-2021-44228)
-- [c0d3cr4f73r/CVE-2021-44228](https://github.com/c0d3cr4f73r/CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
