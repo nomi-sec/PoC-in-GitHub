@@ -1924,6 +1924,7 @@
 
 - [diego-tella/CVE-2023-1326-PoC](https://github.com/diego-tella/CVE-2023-1326-PoC)
 - [Pol-Ruiz/CVE-2023-1326](https://github.com/Pol-Ruiz/CVE-2023-1326)
+- [c0d3cr4f73r/CVE-2023-1326](https://github.com/c0d3cr4f73r/CVE-2023-1326)
 
 ### CVE-2023-1337 (2023-03-10)
 
@@ -3871,6 +3872,7 @@
 - [0xWhoami35/CVE-2023-23752](https://github.com/0xWhoami35/CVE-2023-23752)
 - [mariovata/CVE-2023-23752-Python](https://github.com/mariovata/CVE-2023-23752-Python)
 - [0xx01/CVE-2023-23752](https://github.com/0xx01/CVE-2023-23752)
+- [c0d3cr4f73r/CVE-2023-23752](https://github.com/c0d3cr4f73r/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
