@@ -1713,12 +1713,28 @@
 
 - [liyansong2018/CVE-2024-32258](https://github.com/liyansong2018/CVE-2024-32258)
 
+### CVE-2024-32369
+- [chucrutis/CVE-2024-32369](https://github.com/chucrutis/CVE-2024-32369)
+
+### CVE-2024-32370
+- [chucrutis/CVE-2024-32370](https://github.com/chucrutis/CVE-2024-32370)
+
+### CVE-2024-32371
+- [chucrutis/CVE-2024-32371](https://github.com/chucrutis/CVE-2024-32371)
+
 ### CVE-2024-32399 (2024-04-22)
 
 <code>Directory Traversal vulnerability in RaidenMAILD Mail Server v.4.9.4 and before allows a remote attacker to obtain sensitive information via the /webeditor/ component.
 </code>
 
 - [NN0b0dy/CVE-2024-32399](https://github.com/NN0b0dy/CVE-2024-32399)
+
+### CVE-2024-32709 (2024-04-24)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Plechev Andrey WP-Recall.This issue affects WP-Recall: from n/a through 16.26.5.\n\n
+</code>
+
+- [truonghuuphuc/CVE-2024-32709-Poc](https://github.com/truonghuuphuc/CVE-2024-32709-Poc)
 
 ### CVE-2024-32766 (2024-04-26)
 
@@ -1744,6 +1760,9 @@
 
 - [julio-cfa/CVE-2024-33438](https://github.com/julio-cfa/CVE-2024-33438)
 
+### CVE-2024-33722
+- [fuzzlove/soplanning-1.52-exploits](https://github.com/fuzzlove/soplanning-1.52-exploits)
+
 ### CVE-2024-33775 (2024-05-01)
 
 <code>An issue with the Autodiscover component in Nagios XI 2024R1.01 allows a remote attacker to escalate privileges via a crafted Dashlet.
@@ -1758,13 +1777,25 @@
 
 - [xbz0n/CVE-2024-33911](https://github.com/xbz0n/CVE-2024-33911)
 
-### CVE-2024-34470
+### CVE-2024-34470 (2024-05-06)
+
+<code>An issue was discovered in HSC Mailinspector 5.2.17-3 through v.5.2.18. An Unauthenticated Path Traversal vulnerability exists in the /public/loader.php file. The path parameter does not properly filter whether the file and directory passed are part of the webroot, allowing an attacker to read arbitrary files on the server.
+</code>
+
 - [osvaldotenorio/CVE-2024-34470](https://github.com/osvaldotenorio/CVE-2024-34470)
 
-### CVE-2024-34471
+### CVE-2024-34471 (2024-05-06)
+
+<code>An issue was discovered in HSC Mailinspector 5.2.17-3. A Path Traversal vulnerability (resulting in file deletion) exists in the mliRealtimeEmails.php file. The filename parameter in the export HTML functionality does not properly validate the file location, allowing an attacker to read and delete arbitrary files on the server. This was observed when the mliRealtimeEmails.php file itself was read and subsequently deleted, resulting in a 404 error for the file and disruption of email information loading.
+</code>
+
 - [osvaldotenorio/CVE-2024-34471](https://github.com/osvaldotenorio/CVE-2024-34471)
 
-### CVE-2024-34472
+### CVE-2024-34472 (2024-05-06)
+
+<code>An issue was discovered in HSC Mailinspector 5.2.17-3 through v.5.2.18. An authenticated blind SQL injection vulnerability exists in the mliRealtimeEmails.php file. The ordemGrid parameter in a POST request to /mailinspector/mliRealtimeEmails.php does not properly sanitize input, allowing an authenticated attacker to execute arbitrary SQL commands, leading to the potential disclosure of the entire application database.
+</code>
+
 - [osvaldotenorio/CVE-2024-34472](https://github.com/osvaldotenorio/CVE-2024-34472)
 
 ### CVE-2024-34474 (2024-05-05)
@@ -4215,8 +4246,8 @@
 </code>
 
 - [CUCUMBERanOrSNCompany/SealSecurityAssignment](https://github.com/CUCUMBERanOrSNCompany/SealSecurityAssignment)
-- [ronmadar/Open-Source-Package](https://github.com/ronmadar/Open-Source-Package)
 - [ronmadar/Open-Source-Package-Seal-Security](https://github.com/ronmadar/Open-Source-Package-Seal-Security)
+- [ronmadar/Open-Source-Seal-Security](https://github.com/ronmadar/Open-Source-Seal-Security)
 
 ### CVE-2023-26255 (2023-02-28)
 
@@ -8169,6 +8200,9 @@
 </code>
 
 - [leekenghwa/CVE-2023-46003](https://github.com/leekenghwa/CVE-2023-46003)
+
+### CVE-2023-46012
+- [dest-3/CVE-2023-46012](https://github.com/dest-3/CVE-2023-46012)
 
 ### CVE-2023-46014 (2023-11-13)
 
@@ -33489,13 +33523,6 @@
 - [arminarab1999/CVE-2018-9995](https://github.com/arminarab1999/CVE-2018-9995)
 - [X3RX3SSec/DVR_Sploit](https://github.com/X3RX3SSec/DVR_Sploit)
 
-### CVE-2018-10097 (2022-10-03)
-
-<code>XSS exists in Domain Trader 2.5.3 via the recoverlogin.php email_address parameter.
-</code>
-
-- [ashangp923/CVE-2018-10097](https://github.com/ashangp923/CVE-2018-10097)
-
 ### CVE-2018-10118 (2018-04-15)
 
 <code>Monstra CMS 3.0.4 has Stored XSS via the Name field on the Create New Page screen under the admin/index.php?id=pages URI, related to plugins/box/pages/pages.admin.php.
@@ -35762,6 +35789,7 @@
 - [mathse/meltdown-spectre-bios-list](https://github.com/mathse/meltdown-spectre-bios-list)
 - [GregAskew/SpeculativeExecutionAssessment](https://github.com/GregAskew/SpeculativeExecutionAssessment)
 - [dmo2118/retpoline-audit](https://github.com/dmo2118/retpoline-audit)
+- [GalloLuigi/Analisi-CVE-2017-5715](https://github.com/GalloLuigi/Analisi-CVE-2017-5715)
 
 ### CVE-2017-5721 (2017-10-06)
 
@@ -38110,7 +38138,6 @@
 </code>
 
 - [Mimoja/CVE-2016-4657-NintendoSwitch](https://github.com/Mimoja/CVE-2016-4657-NintendoSwitch)
-- [Traiver/CVE-2016-4657-Switch-Browser-Binary](https://github.com/Traiver/CVE-2016-4657-Switch-Browser-Binary)
 - [iDaN5x/Switcheroo](https://github.com/iDaN5x/Switcheroo)
 - [viai957/webkit-vulnerability](https://github.com/viai957/webkit-vulnerability)
 
