@@ -197,6 +197,13 @@
 - [hy011121/CVE-2024-1651-exploit-RCE](https://github.com/hy011121/CVE-2024-1651-exploit-RCE)
 - [Whiteh4tWolf/CVE-2024-1651-PoC](https://github.com/Whiteh4tWolf/CVE-2024-1651-PoC)
 
+### CVE-2024-1655 (2024-04-15)
+
+<code>Certain ASUS WiFi routers models has an OS Command Injection vulnerability, allowing an authenticated remote attacker to execute arbitrary system commands by sending a specially crafted request.
+</code>
+
+- [lnversed/CVE-2024-1655](https://github.com/lnversed/CVE-2024-1655)
+
 ### CVE-2024-1698 (2024-02-27)
 
 <code>The NotificationX – Best FOMO, Social Proof, WooCommerce Sales Popup &amp; Notification Bar Plugin With Elementor plugin for WordPress is vulnerable to SQL Injection via the 'type' parameter in all versions up to, and including, 2.8.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -455,6 +462,14 @@
 - [Mohammaddvd/CVE-2024-4040](https://github.com/Mohammaddvd/CVE-2024-4040)
 - [jakabakos/CVE-2024-4040-CrushFTP-File-Read-vulnerability](https://github.com/jakabakos/CVE-2024-4040-CrushFTP-File-Read-vulnerability)
 - [gotr00t0day/CVE-2024-4040](https://github.com/gotr00t0day/CVE-2024-4040)
+
+### CVE-2024-4439 (2024-05-03)
+
+<code>WordPress Core is vulnerable to Stored Cross-Site Scripting via user display names in the Avatar block in various versions up to 6.5.2 due to insufficient output escaping on the display name. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. In addition, it also makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that have the comment block present and display the comment author's avatar.
+</code>
+
+- [MielPopsssssss/CVE-2024-4439](https://github.com/MielPopsssssss/CVE-2024-4439)
+- [d0rb/CVE-2024-4439](https://github.com/d0rb/CVE-2024-4439)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -7469,6 +7484,13 @@
 
 - [C1ph3rX13/CVE-2023-42820](https://github.com/C1ph3rX13/CVE-2023-42820)
 - [Startr4ck/cve-2023-42820](https://github.com/Startr4ck/cve-2023-42820)
+
+### CVE-2023-42860 (2024-02-21)
+
+<code>A permissions issue was addressed with additional restrictions. This issue is fixed in macOS Sonoma 14.1, macOS Monterey 12.7.1, macOS Ventura 13.6.1. An app may be able to modify protected parts of the file system.
+</code>
+
+- [Trigii/CVE-2023-42860](https://github.com/Trigii/CVE-2023-42860)
 
 ### CVE-2023-42931 (2024-03-28)
 
