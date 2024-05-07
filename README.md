@@ -1457,6 +1457,7 @@
 - [diego-tella/CVE-2024-27956-RCE](https://github.com/diego-tella/CVE-2024-27956-RCE)
 - [X-Projetion/CVE-2024-27956-WORDPRESS-RCE-PLUGIN](https://github.com/X-Projetion/CVE-2024-27956-WORDPRESS-RCE-PLUGIN)
 - [FoxyProxys/CVE-2024-27956](https://github.com/FoxyProxys/CVE-2024-27956)
+- [k3ppf0r/CVE-2024-27956](https://github.com/k3ppf0r/CVE-2024-27956)
 
 ### CVE-2024-27971
 - [truonghuuphuc/CVE-2024-27971-Note](https://github.com/truonghuuphuc/CVE-2024-27971-Note)
@@ -1685,6 +1686,13 @@
 
 - [Chocapikk/CVE-2024-31819](https://github.com/Chocapikk/CVE-2024-31819)
 
+### CVE-2024-31848 (2024-04-05)
+
+<code>A path traversal vulnerability exists in the Java version of CData API Server &lt; 23.4.8844 when running using the embedded Jetty server, which could allow an unauthenticated remote attacker to gain complete administrative access to the application.
+</code>
+
+- [Stuub/CVE-2024-31848-PoC](https://github.com/Stuub/CVE-2024-31848-PoC)
+
 ### CVE-2024-31851 (2024-04-05)
 
 <code>A path traversal vulnerability exists in the Java version of CData Sync &lt; 23.4.8843 when running using the embedded Jetty server, which could allow an unauthenticated remote attacker to gain access to sensitive information and perform limited actions.
@@ -1780,6 +1788,13 @@
 </code>
 
 - [xbz0n/CVE-2024-33911](https://github.com/xbz0n/CVE-2024-33911)
+
+### CVE-2024-34469 (2024-05-04)
+
+<code>Rukovoditel before 3.5.3 allows XSS via user_photo to index.php?module=users/registration&amp;action=save.
+</code>
+
+- [Toxich4/CVE-2024-34469](https://github.com/Toxich4/CVE-2024-34469)
 
 ### CVE-2024-34470 (2024-05-06)
 
@@ -3787,7 +3802,6 @@
 </code>
 
 - [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
-- [youwizard/CVE-2023-22960](https://github.com/youwizard/CVE-2023-22960)
 
 ### CVE-2023-22974 (2023-02-22)
 
@@ -8948,6 +8962,13 @@
 </code>
 
 - [geraldoalcantara/CVE-2023-49548](https://github.com/geraldoalcantara/CVE-2023-49548)
+
+### CVE-2023-49606 (2024-05-01)
+
+<code>A use-after-free vulnerability exists in the HTTP Connection Headers parsing in Tinyproxy 1.11.1 and Tinyproxy 1.10.0. A specially crafted HTTP header can trigger reuse of previously freed memory, which leads to memory corruption and could lead to remote code execution. An attacker needs to make an unauthenticated HTTP request to trigger this vulnerability.
+</code>
+
+- [d0rb/CVE-2023-49606](https://github.com/d0rb/CVE-2023-49606)
 
 ### CVE-2023-49950 (2024-02-03)
 
@@ -42524,5 +42545,8 @@
 </code>
 
 - [siunam321/CVE-1999-1053-PoC](https://github.com/siunam321/CVE-1999-1053-PoC)
+
+### CVE-1999-54321
+- [marjinal1st/dummy-repo](https://github.com/marjinal1st/dummy-repo)
 
 
