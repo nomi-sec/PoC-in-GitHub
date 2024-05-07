@@ -993,6 +993,7 @@
 - [Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897)
 - [Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897)
 - [Athulya666/CVE-2024-23897](https://github.com/Athulya666/CVE-2024-23897)
+- [murataydemir/CVE-2024-23897](https://github.com/murataydemir/CVE-2024-23897)
 
 ### CVE-2024-24034 (2024-02-08)
 
@@ -1725,13 +1726,25 @@
 
 - [liyansong2018/CVE-2024-32258](https://github.com/liyansong2018/CVE-2024-32258)
 
-### CVE-2024-32369
+### CVE-2024-32369 (2024-05-07)
+
+<code>SQL Injection vulnerability in HSC Cybersecurity HC Mailinspector 5.2.17-3 through 5.2.18 allows a remote attacker to obtain sensitive information via a crafted payload to the start and limit parameter in the mliWhiteList.php component.
+</code>
+
 - [chucrutis/CVE-2024-32369](https://github.com/chucrutis/CVE-2024-32369)
 
-### CVE-2024-32370
+### CVE-2024-32370 (2024-05-07)
+
+<code>An issue in HSC Cybersecurity HC Mailinspector 5.2.17-3 through 5.2.18 allows a remote attacker to obtain sensitive information via a crafted payload to the id parameter in the mliSystemUsers.php component.
+</code>
+
 - [chucrutis/CVE-2024-32370](https://github.com/chucrutis/CVE-2024-32370)
 
-### CVE-2024-32371
+### CVE-2024-32371 (2024-05-07)
+
+<code>An issue in HSC Cybersecurity HC Mailinspector 5.2.17-3 through 5.2.18 allows a regular user account to escalate their privileges and gain administrative access by changing the type parameter from 1 to 0.
+</code>
+
 - [chucrutis/CVE-2024-32371](https://github.com/chucrutis/CVE-2024-32371)
 
 ### CVE-2024-32399 (2024-04-22)
@@ -5118,6 +5131,13 @@
 ### CVE-2023-31070
 - [bugprove/cve-2023-31070](https://github.com/bugprove/cve-2023-31070)
 
+### CVE-2023-31290 (2023-04-27)
+
+<code>Trust Wallet Core before 3.1.1, as used in the Trust Wallet browser extension before 0.0.183, allows theft of funds because the entropy is 32 bits, as exploited in the wild in December 2022 and March 2023. This occurs because the mt19937 Mersenne Twister takes a single 32-bit value as an input seed, resulting in only four billion possible mnemonics. The affected versions of the browser extension are 0.0.172 through 0.0.182. To steal funds efficiently, an attacker can identify all Ethereum addresses created since the 0.0.172 release, and check whether they are Ethereum addresses that could have been created by this extension. To respond to the risk, affected users need to upgrade the product version and also move funds to a new wallet address.
+</code>
+
+- [sk1ppi/py_trustwallet_wasm](https://github.com/sk1ppi/py_trustwallet_wasm)
+
 ### CVE-2023-31320 (2023-11-14)
 
 <code>Improper input validation in the AMD RadeonTM Graphics display driver may allow an attacker to corrupt the display potentially resulting in denial of service.\n\n\n\n\n\n\n\n\n\n\n\n\n
@@ -8219,7 +8239,11 @@
 
 - [leekenghwa/CVE-2023-46003](https://github.com/leekenghwa/CVE-2023-46003)
 
-### CVE-2023-46012
+### CVE-2023-46012 (2024-05-07)
+
+<code>Buffer Overflow vulnerability LINKSYS EA7500 3.0.1.207964 allows a remote attacker to execute arbitrary code via an HTTP request to the IGD UPnP.
+</code>
+
 - [dest-3/CVE-2023-46012](https://github.com/dest-3/CVE-2023-46012)
 
 ### CVE-2023-46014 (2023-11-13)
