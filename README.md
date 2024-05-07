@@ -1647,7 +1647,11 @@
 ### CVE-2024-30896
 - [XenoM0rph97/CVE-2024-30896](https://github.com/XenoM0rph97/CVE-2024-30896)
 
-### CVE-2024-30973
+### CVE-2024-30973 (2024-05-06)
+
+<code>An issue in V-SOL G/EPON ONU HG323AC-B with firmware version V2.0.08-210715 allows an attacker to execute arbtirary code and obtain sensitive information via crafted POST request to /boaform/getASPdata/formFirewall, /boaform/getASPdata/formAcc.
+</code>
+
 - [Athos-Zago/CVE-2024-30973](https://github.com/Athos-Zago/CVE-2024-30973)
 
 ### CVE-2024-31025 (2024-04-04)
@@ -3783,7 +3787,7 @@
 </code>
 
 - [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
-- [k0mi-tg/CVE-2023-22960](https://github.com/k0mi-tg/CVE-2023-22960)
+- [youwizard/CVE-2023-22960](https://github.com/youwizard/CVE-2023-22960)
 
 ### CVE-2023-22974 (2023-02-22)
 
@@ -14425,7 +14429,7 @@
 
 ### CVE-2022-39196 (2022-09-04)
 
-<code>Blackboard Learn 1.10.1 allows remote authenticated users to read unintended files by entering student credentials and then directly visiting a certain webapps/bbcms/execute/ URL.
+<code>Blackboard Learn 1.10.1 allows remote authenticated users to read unintended files by entering student credentials and then directly visiting a certain webapps/bbcms/execute/ URL. Note: The vendor disputes this stating this cannot be reproduced.
 </code>
 
 - [DayiliWaseem/CVE-2022-39196-](https://github.com/DayiliWaseem/CVE-2022-39196-)
@@ -16767,7 +16771,6 @@
 - [DDayLuong/CVE-2021-3156](https://github.com/DDayLuong/CVE-2021-3156)
 - [wurwur/CVE-2021-3156](https://github.com/wurwur/CVE-2021-3156)
 - [SamTruss/LMU-CVE-2021-3156](https://github.com/SamTruss/LMU-CVE-2021-3156)
-- [ragingkarson/CVE-2021-3156](https://github.com/ragingkarson/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -17807,13 +17810,6 @@
 </code>
 
 - [Mario-Kart-Felix/A-potential-Denial-of-Service-issue-in-protobuf-java](https://github.com/Mario-Kart-Felix/A-potential-Denial-of-Service-issue-in-protobuf-java)
-
-### CVE-2021-22600 (2022-01-26)
-
-<code>A double free bug in packet_set_ring() in net/packet/af_packet.c can be exploited by a local user through crafted syscalls to escalate privileges or deny service. We recommend upgrading kernel past the effected versions or rebuilding past ec6af094ea28f0f2dda1a6a33b14cd57e36a9755
-</code>
-
-- [ragingkarson/CVE-2021-22600](https://github.com/ragingkarson/CVE-2021-22600)
 
 ### CVE-2021-22873 (2021-01-21)
 
@@ -33523,6 +33519,13 @@
 - [arminarab1999/CVE-2018-9995](https://github.com/arminarab1999/CVE-2018-9995)
 - [X3RX3SSec/DVR_Sploit](https://github.com/X3RX3SSec/DVR_Sploit)
 
+### CVE-2018-10097 (2022-10-03)
+
+<code>XSS exists in Domain Trader 2.5.3 via the recoverlogin.php email_address parameter.
+</code>
+
+- [ashangp923/CVE-2018-10097](https://github.com/ashangp923/CVE-2018-10097)
+
 ### CVE-2018-10118 (2018-04-15)
 
 <code>Monstra CMS 3.0.4 has Stored XSS via the Name field on the Create New Page screen under the admin/index.php?id=pages URI, related to plugins/box/pages/pages.admin.php.
@@ -34931,6 +34934,7 @@
 - [tzwlhack/CVE-2018-20250](https://github.com/tzwlhack/CVE-2018-20250)
 - [tannlh/CVE-2018-20250](https://github.com/tannlh/CVE-2018-20250)
 - [LamSonBinh/CVE-2018-20250](https://github.com/LamSonBinh/CVE-2018-20250)
+- [winrar-7/CVE-2018-20250-WinRAR-ACE](https://github.com/winrar-7/CVE-2018-20250-WinRAR-ACE)
 
 ### CVE-2018-20343 (2020-03-02)
 
