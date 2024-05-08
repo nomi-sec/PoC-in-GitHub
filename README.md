@@ -5144,7 +5144,7 @@
 <code>Trust Wallet Core before 3.1.1, as used in the Trust Wallet browser extension before 0.0.183, allows theft of funds because the entropy is 32 bits, as exploited in the wild in December 2022 and March 2023. This occurs because the mt19937 Mersenne Twister takes a single 32-bit value as an input seed, resulting in only four billion possible mnemonics. The affected versions of the browser extension are 0.0.172 through 0.0.182. To steal funds efficiently, an attacker can identify all Ethereum addresses created since the 0.0.172 release, and check whether they are Ethereum addresses that could have been created by this extension. To respond to the risk, affected users need to upgrade the product version and also move funds to a new wallet address.
 </code>
 
-- [sk1ppi/py_trustwallet_wasm](https://github.com/sk1ppi/py_trustwallet_wasm)
+- [00000rest/py_trustwallet_wasm](https://github.com/00000rest/py_trustwallet_wasm)
 
 ### CVE-2023-31320 (2023-11-14)
 
@@ -6473,7 +6473,6 @@
 - [ifconfig-me/CVE-2023-36845](https://github.com/ifconfig-me/CVE-2023-36845)
 - [e11i0t4lders0n/CVE-2023-36845](https://github.com/e11i0t4lders0n/CVE-2023-36845)
 - [Vignesh2712/Automation-for-Juniper-cve-2023-36845](https://github.com/Vignesh2712/Automation-for-Juniper-cve-2023-36845)
-- [Vignesh2712/utomation-for-Juniper-cve-2023-36845](https://github.com/Vignesh2712/utomation-for-Juniper-cve-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -15375,6 +15374,13 @@
 </code>
 
 - [Halcy0nic/CVE-2022-44318](https://github.com/Halcy0nic/CVE-2022-44318)
+
+### CVE-2022-44569 (2023-11-03)
+
+<code>A locally authenticated attacker with low privileges can bypass authentication due to insecure inter-process communication.
+</code>
+
+- [rweijnen/ivanti-automationmanager-exploit](https://github.com/rweijnen/ivanti-automationmanager-exploit)
 
 ### CVE-2022-44666 (2022-12-13)
 
