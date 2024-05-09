@@ -32,6 +32,20 @@
 
 - [jidle123/cve-2024-0305exp](https://github.com/jidle123/cve-2024-0305exp)
 
+### CVE-2024-0399 (2024-04-15)
+
+<code>The WooCommerce Customers Manager WordPress plugin before 29.7 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to an SQL injection exploitable by Subscriber+ role.
+</code>
+
+- [xbz0n/CVE-2024-0399](https://github.com/xbz0n/CVE-2024-0399)
+
+### CVE-2024-0566 (2024-02-12)
+
+<code>The Smart Manager WordPress plugin before 8.28.0 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by high privilege users such as admin.
+</code>
+
+- [xbz0n/CVE-2024-0566](https://github.com/xbz0n/CVE-2024-0566)
+
 ### CVE-2024-0582 (2024-01-16)
 
 <code>A memory leak flaw was found in the Linux kernel’s io_uring functionality in how a user registers a buffer ring with IORING_REGISTER_PBUF_RING, mmap() it, and then frees it. This flaw allows a local user to crash or potentially escalate their privileges on the system.
@@ -1537,6 +1551,12 @@
 
 ### CVE-2024-28276
 - [unrealjbr/CVE-2024-28276](https://github.com/unrealjbr/CVE-2024-28276)
+
+### CVE-2024-28277
+- [unrealjbr/CVE-2024-28277](https://github.com/unrealjbr/CVE-2024-28277)
+
+### CVE-2024-28279
+- [unrealjbr/CVE-2024-28279](https://github.com/unrealjbr/CVE-2024-28279)
 
 ### CVE-2024-28397
 - [Marven11/CVE-2024-28397](https://github.com/Marven11/CVE-2024-28397)
@@ -23199,6 +23219,7 @@
 - [7heKnight/CVE-2020-0688](https://github.com/7heKnight/CVE-2020-0688)
 - [1337-llama/CVE-2020-0688-Python3](https://github.com/1337-llama/CVE-2020-0688-Python3)
 - [chudamax/CVE-2020-0688-Exchange2010](https://github.com/chudamax/CVE-2020-0688-Exchange2010)
+- [W01fh4cker/CVE-2020-0688-GUI](https://github.com/W01fh4cker/CVE-2020-0688-GUI)
 
 ### CVE-2020-0728 (2020-02-11)
 
