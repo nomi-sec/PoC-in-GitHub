@@ -1488,6 +1488,7 @@
 - [X-Projetion/CVE-2024-27956-WORDPRESS-RCE-PLUGIN](https://github.com/X-Projetion/CVE-2024-27956-WORDPRESS-RCE-PLUGIN)
 - [FoxyProxys/CVE-2024-27956](https://github.com/FoxyProxys/CVE-2024-27956)
 - [k3ppf0r/CVE-2024-27956](https://github.com/k3ppf0r/CVE-2024-27956)
+- [nancyariah4/CVE-2024-27956](https://github.com/nancyariah4/CVE-2024-27956)
 
 ### CVE-2024-27971
 - [truonghuuphuc/CVE-2024-27971-Note](https://github.com/truonghuuphuc/CVE-2024-27971-Note)
@@ -1533,6 +1534,9 @@
 </code>
 
 - [YongYe-Security/CVE-2024-28255](https://github.com/YongYe-Security/CVE-2024-28255)
+
+### CVE-2024-28276
+- [unrealjbr/CVE-2024-28276](https://github.com/unrealjbr/CVE-2024-28276)
 
 ### CVE-2024-28397
 - [Marven11/CVE-2024-28397](https://github.com/Marven11/CVE-2024-28397)
@@ -1830,6 +1834,9 @@
 </code>
 
 - [xbz0n/CVE-2024-33911](https://github.com/xbz0n/CVE-2024-33911)
+
+### CVE-2024-34220
+- [dovankha/CVE-2024-34220](https://github.com/dovankha/CVE-2024-34220)
 
 ### CVE-2024-34469 (2024-05-04)
 
@@ -18475,7 +18482,7 @@
 </code>
 
 - [jackadamson/CVE-2021-26700](https://github.com/jackadamson/CVE-2021-26700)
-- [jason-ntu/CVE-2021-26700](https://github.com/jason-ntu/CVE-2021-26700)
+- [june-in-exile/CVE-2021-26700](https://github.com/june-in-exile/CVE-2021-26700)
 
 ### CVE-2021-26708 (2021-02-05)
 
@@ -33613,6 +33620,7 @@
 - [Pab450/CVE-2018-9995](https://github.com/Pab450/CVE-2018-9995)
 - [arminarab1999/CVE-2018-9995](https://github.com/arminarab1999/CVE-2018-9995)
 - [X3RX3SSec/DVR_Sploit](https://github.com/X3RX3SSec/DVR_Sploit)
+- [batmoshka55/CVE-2018-9995_dvr_credentials](https://github.com/batmoshka55/CVE-2018-9995_dvr_credentials)
 
 ### CVE-2018-10097 (2022-10-03)
 
