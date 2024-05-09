@@ -1339,6 +1339,13 @@
 
 - [RoboGR00t/Exploit-CVE-2024-26503](https://github.com/RoboGR00t/Exploit-CVE-2024-26503)
 
+### CVE-2024-26517 (-)
+
+<code>SQL Injection vulnerability in School Task Manager v.1.0 allows a remote attacker to obtain sensitive information via a crafted payload to the delete-task.php component.
+</code>
+
+- [unrealjbr/CVE-2024-26517](https://github.com/unrealjbr/CVE-2024-26517)
+
 ### CVE-2024-26521 (2024-03-12)
 
 <code>HTML Injection vulnerability in CE Phoenix v1.0.8.20 and before allows a remote attacker to execute arbitrary code, escalate privileges, and obtain sensitive information via a crafted payload to the english.php component.
@@ -23105,6 +23112,13 @@
 </code>
 
 - [james0x40/CVE-2020-0624](https://github.com/james0x40/CVE-2020-0624)
+
+### CVE-2020-0665 (2020-02-11)
+
+<code>An elevation of privilege vulnerability exists in Active Directory Forest trusts due to a default setting that lets an attacker in the trusting forest request delegation of a TGT for an identity from the trusted forest, aka 'Active Directory Elevation of Privilege Vulnerability'.
+</code>
+
+- [otterpwn/SIDplusplus](https://github.com/otterpwn/SIDplusplus)
 
 ### CVE-2020-0668 (2020-02-11)
 
