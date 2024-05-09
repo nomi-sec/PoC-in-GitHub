@@ -690,6 +690,13 @@
 - [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
 - [lolminerxmrig/multicheck_CVE-2024-21762](https://github.com/lolminerxmrig/multicheck_CVE-2024-21762)
 
+### CVE-2024-21793 (2024-05-08)
+
+<code>\nAn OData injection vulnerability exists in the BIG-IP Next Central Manager API (URI).  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [FeatherStark/CVE-2024-21793](https://github.com/FeatherStark/CVE-2024-21793)
+
 ### CVE-2024-21887 (2024-01-12)
 
 <code>A command injection vulnerability in web components of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x)  allows an authenticated administrator to send specially crafted requests and execute arbitrary commands on the appliance.
@@ -1310,6 +1317,13 @@
 </code>
 
 - [0xNslabs/CVE-2024-25832-PoC](https://github.com/0xNslabs/CVE-2024-25832-PoC)
+
+### CVE-2024-26026 (2024-05-08)
+
+<code>\n\n\nAn SQL injection vulnerability exists in the BIG-IP Next Central Manager API (URI).  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated\n\n
+</code>
+
+- [passwa11/CVE-2024-26026](https://github.com/passwa11/CVE-2024-26026)
 
 ### CVE-2024-26218 (2024-04-09)
 
@@ -22260,6 +22274,7 @@
 - [ludy-dev/cve-2021-45046](https://github.com/ludy-dev/cve-2021-45046)
 - [lijiejie/log4j2_vul_local_scanner](https://github.com/lijiejie/log4j2_vul_local_scanner)
 - [CaptanMoss/Log4Shell-Sandbox-Signature](https://github.com/CaptanMoss/Log4Shell-Sandbox-Signature)
+- [shaily29-eng/CyberSecurity_CVE-2021-45046](https://github.com/shaily29-eng/CyberSecurity_CVE-2021-45046)
 
 ### CVE-2021-45067 (2022-01-11)
 
@@ -30386,7 +30401,6 @@
 - [Cyc1eC/CVE-2019-13272](https://github.com/Cyc1eC/CVE-2019-13272)
 - [bigbigliang-malwarebenchmark/cve-2019-13272](https://github.com/bigbigliang-malwarebenchmark/cve-2019-13272)
 - [oneoy/CVE-2019-13272](https://github.com/oneoy/CVE-2019-13272)
-- [Huandtx/CVE-2019-13272](https://github.com/Huandtx/CVE-2019-13272)
 - [polosec/CVE-2019-13272](https://github.com/polosec/CVE-2019-13272)
 - [sumedhaDharmasena/-Kernel-ptrace-c-mishandles-vulnerability-CVE-2019-13272](https://github.com/sumedhaDharmasena/-Kernel-ptrace-c-mishandles-vulnerability-CVE-2019-13272)
 - [Tharana/Exploiting-a-Linux-kernel-vulnerability](https://github.com/Tharana/Exploiting-a-Linux-kernel-vulnerability)
@@ -30399,6 +30413,13 @@
 - [GgKendall/secureCodingDemo](https://github.com/GgKendall/secureCodingDemo)
 - [asepsaepdin/CVE-2019-13272](https://github.com/asepsaepdin/CVE-2019-13272)
 - [MDS1GNAL/ptrace_scope-CVE-2019-13272-privilege-escalation](https://github.com/MDS1GNAL/ptrace_scope-CVE-2019-13272-privilege-escalation)
+
+### CVE-2019-13276 (2019-07-10)
+
+<code>TRENDnet TEW-827DRU with firmware up to and including 2.04B03 contains a stack-based buffer overflow in the ssi binary. The overflow allows an unauthenticated user to execute arbitrary code by providing a sufficiently long query string when POSTing to any valid cgi, txt, asp, or js file. The vulnerability can be exercised on the local intranet or remotely if remote administration is enabled.
+</code>
+
+- [5l1v3r1/CVE-2019-13276](https://github.com/5l1v3r1/CVE-2019-13276)
 
 ### CVE-2019-13288 (2019-07-04)
 
@@ -35294,6 +35315,7 @@
 - [NatteeSetobol/Etern-blue-Windows-7-Checker](https://github.com/NatteeSetobol/Etern-blue-Windows-7-Checker)
 - [c0d3cr4f73r/MS17-010_CVE-2017-0143](https://github.com/c0d3cr4f73r/MS17-010_CVE-2017-0143)
 - [SampatDhakal/Metasploit-Attack-Report](https://github.com/SampatDhakal/Metasploit-Attack-Report)
+- [InTheDarkness2102/CVE-2017-0143-MS-17-010-EternalBlue](https://github.com/InTheDarkness2102/CVE-2017-0143-MS-17-010-EternalBlue)
 
 ### CVE-2017-0144 (2017-03-17)
 
@@ -36174,7 +36196,6 @@
 - [fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit](https://github.com/fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit)
 - [Shehzadcyber/CVE-2017-7529](https://github.com/Shehzadcyber/CVE-2017-7529)
 - [coolman6942o/-Exploit-CVE-2017-7529](https://github.com/coolman6942o/-Exploit-CVE-2017-7529)
-- [SirEagIe/CVE-2017-7529](https://github.com/SirEagIe/CVE-2017-7529)
 
 ### CVE-2017-7648 (2022-10-03)
 
@@ -42598,8 +42619,5 @@
 </code>
 
 - [siunam321/CVE-1999-1053-PoC](https://github.com/siunam321/CVE-1999-1053-PoC)
-
-### CVE-1999-54321
-- [marjinal1st/dummy-repo](https://github.com/marjinal1st/dummy-repo)
 
 
