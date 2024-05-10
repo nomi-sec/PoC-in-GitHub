@@ -1188,6 +1188,13 @@
 
 - [killerbees19/CVE-2024-24760](https://github.com/killerbees19/CVE-2024-24760)
 
+### CVE-2024-24787 (2024-05-08)
+
+<code>On Darwin, building a Go module which contains CGO can trigger arbitrary code execution when using the Apple version of ld, due to usage of the -lto_library flag in a &quot;#cgo LDFLAGS&quot; directive.
+</code>
+
+- [LOURC0D3/CVE-2024-24787-PoC](https://github.com/LOURC0D3/CVE-2024-24787-PoC)
+
 ### CVE-2024-24816 (2024-02-07)
 
 <code>CKEditor4 is an open source what-you-see-is-what-you-get HTML editor. A cross-site scripting vulnerability vulnerability has been discovered in versions prior to 4.24.0-lts in samples that use the `preview` feature. All integrators that use these samples in the production code can be affected. The vulnerability allows an attacker to execute JavaScript code by abusing the misconfigured preview feature. It affects all users using the CKEditor 4 at version &lt; 4.24.0-lts with affected samples used in a production environment. A fix is available in version 4.24.0-lts.
@@ -9052,6 +9059,7 @@
 </code>
 
 - [d0rb/CVE-2023-49606](https://github.com/d0rb/CVE-2023-49606)
+- [rezardoss/CVE-2023-49606-POC](https://github.com/rezardoss/CVE-2023-49606-POC)
 
 ### CVE-2023-49950 (2024-02-03)
 
@@ -40463,6 +40471,7 @@
 - [MY7H404/CVE-2014-6271-Shellshock](https://github.com/MY7H404/CVE-2014-6271-Shellshock)
 - [AlissonFaoli/Shellshock](https://github.com/AlissonFaoli/Shellshock)
 - [hackintoanetwork/shellshock](https://github.com/hackintoanetwork/shellshock)
+- [ajansha/shellshock](https://github.com/ajansha/shellshock)
 
 ### CVE-2014-6287 (2014-10-07)
 
