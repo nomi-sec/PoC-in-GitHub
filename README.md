@@ -1855,7 +1855,11 @@
 
 - [xbz0n/CVE-2024-33911](https://github.com/xbz0n/CVE-2024-33911)
 
-### CVE-2024-34220
+### CVE-2024-34220 (-)
+
+<code>Sourcecodester Human Resource Management System 1.0 is vulnerable to SQL Injection via the 'leave' parameter.
+</code>
+
 - [dovankha/CVE-2024-34220](https://github.com/dovankha/CVE-2024-34220)
 
 ### CVE-2024-34469 (2024-05-04)
@@ -9469,6 +9473,13 @@
 </code>
 
 - [BobTheShoplifter/CVE-2023-52251-POC](https://github.com/BobTheShoplifter/CVE-2023-52251-POC)
+
+### CVE-2023-52654 (2024-05-09)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nio_uring/af_unix: disable sending io_uring over sockets\n\nFile reference cycles have caused lots of problems for io_uring\nin the past, and it still doesn't work exactly right and races with\nunix_stream_read_generic(). The safest fix would be to completely\ndisallow sending io_uring files via sockets via SCM_RIGHT, so there\nare no possible cycles invloving registered files and thus rendering\nSCM accounting on the io_uring side unnecessary.
+</code>
+
+- [FoxyProxys/CVE-2023-52654](https://github.com/FoxyProxys/CVE-2023-52654)
 
 
 ## 2022
