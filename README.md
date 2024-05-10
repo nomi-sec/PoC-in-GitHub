@@ -462,6 +462,13 @@
 - [0xr2r/CVE-2024-3400-Palo-Alto-OS-Command-Injection](https://github.com/0xr2r/CVE-2024-3400-Palo-Alto-OS-Command-Injection)
 - [marconesler/CVE-2024-3400](https://github.com/marconesler/CVE-2024-3400)
 
+### CVE-2024-3806 (2024-05-09)
+
+<code>The Porto theme for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 7.1.0 via the 'porto_ajax_posts' function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where php file type can be uploaded and included.
+</code>
+
+- [truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc](https://github.com/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc)
+
 ### CVE-2024-3867 (2024-04-16)
 
 <code>The archive-tainacan-collection theme for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in version 2.7.2. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
@@ -1730,6 +1737,7 @@
 
 - [sh1k4ku/CVE-2024-31497](https://github.com/sh1k4ku/CVE-2024-31497)
 - [edutko/cve-2024-31497](https://github.com/edutko/cve-2024-31497)
+- [HugoBond/CVE-2024-31497-POC](https://github.com/HugoBond/CVE-2024-31497-POC)
 
 ### CVE-2024-31719
 - [VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability](https://github.com/VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability)
@@ -1868,6 +1876,13 @@
 </code>
 
 - [dovankha/CVE-2024-34220](https://github.com/dovankha/CVE-2024-34220)
+
+### CVE-2024-34310 (-)
+
+<code>Jin Fang Times Content Management System v3.2.3 was discovered to contain a SQL injection vulnerability via the id parameter.
+</code>
+
+- [3309899621/CVE-2024-34310](https://github.com/3309899621/CVE-2024-34310)
 
 ### CVE-2024-34469 (2024-05-04)
 
@@ -4547,6 +4562,7 @@
 - [ThatNotEasy/CVE-2023-27350](https://github.com/ThatNotEasy/CVE-2023-27350)
 - [Jenderal92/CVE-2023-27350](https://github.com/Jenderal92/CVE-2023-27350)
 - [ASG-CASTLE/CVE-2023-27350](https://github.com/ASG-CASTLE/CVE-2023-27350)
+- [rasan2001/CVE-2023-27350](https://github.com/rasan2001/CVE-2023-27350)
 
 ### CVE-2023-27363 (2024-05-03)
 
@@ -9059,7 +9075,7 @@
 </code>
 
 - [d0rb/CVE-2023-49606](https://github.com/d0rb/CVE-2023-49606)
-- [rezardoss/CVE-2023-49606-POC](https://github.com/rezardoss/CVE-2023-49606-POC)
+- [rezardoss/CVE-2023-49606-Poc](https://github.com/rezardoss/CVE-2023-49606-Poc)
 
 ### CVE-2023-49950 (2024-02-03)
 
@@ -12895,6 +12911,7 @@
 - [tiktb8/CVE-2022-29072](https://github.com/tiktb8/CVE-2022-29072)
 - [sentinelblue/CVE-2022-29072](https://github.com/sentinelblue/CVE-2022-29072)
 - [Phantomiman/7-Zip.chm-Mitigation](https://github.com/Phantomiman/7-Zip.chm-Mitigation)
+- [rasan2001/CVE-2022-29072](https://github.com/rasan2001/CVE-2022-29072)
 
 ### CVE-2022-29078 (2022-04-25)
 
@@ -28164,6 +28181,7 @@
 - [Ravaan21/Bluekeep-Hunter](https://github.com/Ravaan21/Bluekeep-Hunter)
 - [davidfortytwo/bluekeep](https://github.com/davidfortytwo/bluekeep)
 - [tranqtruong/Detect-BlueKeep](https://github.com/tranqtruong/Detect-BlueKeep)
+- [rasan2001/CVE-2019-0708](https://github.com/rasan2001/CVE-2019-0708)
 
 ### CVE-2019-0709 (2019-06-12)
 
