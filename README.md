@@ -14911,7 +14911,7 @@
 <code>In drivers/media/dvb-core/dmxdev.c in the Linux kernel through 5.19.10, there is a use-after-free caused by refcount races, affecting dvb_demux_open and dvb_dmxdev_release.
 </code>
 
-- [V4bel/CVE-2022-41218](https://github.com/V4bel/CVE-2022-41218)
+- [Tobey123/CVE-2022-41218](https://github.com/Tobey123/CVE-2022-41218)
 
 ### CVE-2022-41220 (2022-09-21)
 
@@ -20740,6 +20740,7 @@
 </code>
 
 - [UncleJ4ck/CVE-2021-41091](https://github.com/UncleJ4ck/CVE-2021-41091)
+- [jrbH4CK/CVE-2021-41091](https://github.com/jrbH4CK/CVE-2021-41091)
 
 ### CVE-2021-41117 (2021-10-11)
 
@@ -28557,7 +28558,7 @@
 - [c3r34lk1ll3r/CVE-2019-2215](https://github.com/c3r34lk1ll3r/CVE-2019-2215)
 - [Byte-Master-101/CVE-2019-2215](https://github.com/Byte-Master-101/CVE-2019-2215)
 - [mufidmb38/CVE-2019-2215](https://github.com/mufidmb38/CVE-2019-2215)
-- [nicchongwb/Rootsmart-v2.0](https://github.com/nicchongwb/Rootsmart-v2.0)
+- [CrackerCat/Rootsmart-v2.0](https://github.com/CrackerCat/Rootsmart-v2.0)
 - [enceka/cve-2019-2215-3.18](https://github.com/enceka/cve-2019-2215-3.18)
 - [elbiazo/CVE-2019-2215](https://github.com/elbiazo/CVE-2019-2215)
 - [jsirichai/CVE-2019-2215](https://github.com/jsirichai/CVE-2019-2215)
@@ -35355,7 +35356,6 @@
 - [NatteeSetobol/Etern-blue-Windows-7-Checker](https://github.com/NatteeSetobol/Etern-blue-Windows-7-Checker)
 - [c0d3cr4f73r/MS17-010_CVE-2017-0143](https://github.com/c0d3cr4f73r/MS17-010_CVE-2017-0143)
 - [SampatDhakal/Metasploit-Attack-Report](https://github.com/SampatDhakal/Metasploit-Attack-Report)
-- [InTheDarkness2102/CVE-2017-0143-MS-17-010-EternalBlue](https://github.com/InTheDarkness2102/CVE-2017-0143-MS-17-010-EternalBlue)
 
 ### CVE-2017-0144 (2017-03-17)
 
