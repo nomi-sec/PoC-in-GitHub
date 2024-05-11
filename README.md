@@ -202,6 +202,13 @@
 
 - [rat-c/CVE-2024-1512](https://github.com/rat-c/CVE-2024-1512)
 
+### CVE-2024-1561 (2024-04-16)
+
+<code>An issue was discovered in gradio-app/gradio, where the `/component_server` endpoint improperly allows the invocation of any method on a `Component` class with attacker-controlled arguments. Specifically, by exploiting the `move_resource_to_block_cache()` method of the `Block` class, an attacker can copy any file on the filesystem to a temporary directory and subsequently retrieve it. This vulnerability enables unauthorized local file read access, posing a significant risk especially when the application is exposed to the internet via `launch(share=True)`, thereby allowing remote attackers to read files on the host machine. Furthermore, gradio apps hosted on `huggingface.co` are also affected, potentially leading to the exposure of sensitive information such as API keys and credentials stored in environment variables.
+</code>
+
+- [DiabloHTB/CVE-2024-1561](https://github.com/DiabloHTB/CVE-2024-1561)
+
 ### CVE-2024-1651 (2024-02-19)
 
 <code>Torrentpier version 2.4.1 allows executing arbitrary commands on the server.\n\nThis is possible because the application is vulnerable to insecure deserialization.\n\n\n\n\n
@@ -764,6 +771,13 @@
 </code>
 
 - [oscerd/CVE-2024-22369](https://github.com/oscerd/CVE-2024-22369)
+
+### CVE-2024-22393 (2024-02-22)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Apache Answer.This issue affects Apache Answer: through 1.2.1.\n\nPixel Flood Attack by uploading large pixel files will cause server out of memory. A logged-in user can cause such an attack by uploading an image when posting content.\nUsers are recommended to upgrade to version [1.2.5], which fixes the issue.\n\n
+</code>
+
+- [omranisecurity/CVE-2024-22393](https://github.com/omranisecurity/CVE-2024-22393)
 
 ### CVE-2024-22411 (2024-01-16)
 
@@ -1822,6 +1836,9 @@
 </code>
 
 - [NN0b0dy/CVE-2024-32399](https://github.com/NN0b0dy/CVE-2024-32399)
+
+### CVE-2024-32523
+- [truonghuuphuc/CVE-2024-32523-Poc](https://github.com/truonghuuphuc/CVE-2024-32523-Poc)
 
 ### CVE-2024-32709 (2024-04-24)
 
@@ -9105,7 +9122,6 @@
 </code>
 
 - [d0rb/CVE-2023-49606](https://github.com/d0rb/CVE-2023-49606)
-- [rezardoss/CVE-2023-49606-Poc](https://github.com/rezardoss/CVE-2023-49606-Poc)
 
 ### CVE-2023-49950 (2024-02-03)
 
