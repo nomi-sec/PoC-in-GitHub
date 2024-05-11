@@ -8566,6 +8566,9 @@
 
 - [asylumdx/Crater-CVE-2023-46865-RCE](https://github.com/asylumdx/Crater-CVE-2023-46865-RCE)
 
+### CVE-2023-46870
+- [Chapoly1305/CVE-2023-46870](https://github.com/Chapoly1305/CVE-2023-46870)
+
 ### CVE-2023-46918 (2023-12-27)
 
 <code>Phlox com.phlox.simpleserver.plus (aka Simple HTTP Server PLUS) 1.8.1-plus has an Android manifest file that contains an entry with the android:allowBackup attribute set to true. This could be leveraged by an attacker with physical access to the device.
@@ -35096,7 +35099,6 @@
 - [tzwlhack/CVE-2018-20250](https://github.com/tzwlhack/CVE-2018-20250)
 - [tannlh/CVE-2018-20250](https://github.com/tannlh/CVE-2018-20250)
 - [LamSonBinh/CVE-2018-20250](https://github.com/LamSonBinh/CVE-2018-20250)
-- [winrar-7/CVE-2018-20250-WinRAR-ACE](https://github.com/winrar-7/CVE-2018-20250-WinRAR-ACE)
 
 ### CVE-2018-20343 (2020-03-02)
 
