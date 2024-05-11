@@ -667,6 +667,7 @@
 - [DevAkabari/CVE-2024-21413](https://github.com/DevAkabari/CVE-2024-21413)
 - [dshabani96/CVE-2024-21413](https://github.com/dshabani96/CVE-2024-21413)
 - [X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit](https://github.com/X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit)
+- [th3Hellion/CVE-2024-21413](https://github.com/th3Hellion/CVE-2024-21413)
 
 ### CVE-2024-21626 (2024-01-31)
 
@@ -1877,6 +1878,24 @@
 
 - [dovankha/CVE-2024-34220](https://github.com/dovankha/CVE-2024-34220)
 
+### CVE-2024-34221
+- [dovankha/CVE-2024-34221](https://github.com/dovankha/CVE-2024-34221)
+
+### CVE-2024-34222
+- [dovankha/CVE-2024-34222](https://github.com/dovankha/CVE-2024-34222)
+
+### CVE-2024-34223
+- [dovankha/CVE-2024-34223](https://github.com/dovankha/CVE-2024-34223)
+
+### CVE-2024-34224
+- [dovankha/CVE-2024-34224](https://github.com/dovankha/CVE-2024-34224)
+
+### CVE-2024-34225
+- [dovankha/CVE-2024-34225](https://github.com/dovankha/CVE-2024-34225)
+
+### CVE-2024-34226
+- [dovankha/CVE-2024-34226](https://github.com/dovankha/CVE-2024-34226)
+
 ### CVE-2024-34310 (-)
 
 <code>Jin Fang Times Content Management System v3.2.3 was discovered to contain a SQL injection vulnerability via the id parameter.
@@ -2373,6 +2392,13 @@
 </code>
 
 - [pashayogi/CVE-2023-2744](https://github.com/pashayogi/CVE-2023-2744)
+
+### CVE-2023-2752 (2023-05-17)
+
+<code>Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.2.0-beta.
+</code>
+
+- [Cappricio-Securities/CVE-2023-2752](https://github.com/Cappricio-Securities/CVE-2023-2752)
 
 ### CVE-2023-2822 (2023-05-20)
 
@@ -4607,6 +4633,7 @@
 - [jakabakos/CVE-2023-27524-Apache-Superset-Auth-Bypass-and-RCE](https://github.com/jakabakos/CVE-2023-27524-Apache-Superset-Auth-Bypass-and-RCE)
 - [CN016/Apache-Superset-SECRET_KEY-CVE-2023-27524-](https://github.com/CN016/Apache-Superset-SECRET_KEY-CVE-2023-27524-)
 - [NguyenCongHaiNam/Research-CVE-2023-27524](https://github.com/NguyenCongHaiNam/Research-CVE-2023-27524)
+- [karthi-the-hacker/CVE-2023-27524](https://github.com/karthi-the-hacker/CVE-2023-27524)
 
 ### CVE-2023-27532 (2023-03-10)
 
