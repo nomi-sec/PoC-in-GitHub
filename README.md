@@ -41272,13 +41272,6 @@
 - [whu-enjoy/CVE-2012-1889](https://github.com/whu-enjoy/CVE-2012-1889)
 - [l-iberty/cve-2012-1889](https://github.com/l-iberty/cve-2012-1889)
 
-### CVE-2012-2012 (2022-10-03)
-
-<code>HP System Management Homepage (SMH) before 7.1.1 does not have an off autocomplete attribute for unspecified form fields, which makes it easier for remote attackers to obtain access by leveraging an unattended workstation.
-</code>
-
-- [Ashro-one/CVE-2012-2012](https://github.com/Ashro-one/CVE-2012-2012)
-
 ### CVE-2012-2122 (2012-06-26)
 
 <code>sql/password.c in Oracle MySQL 5.1.x before 5.1.63, 5.5.x before 5.5.24, and 5.6.x before 5.6.6, and MariaDB 5.1.x before 5.1.62, 5.2.x before 5.2.12, 5.3.x before 5.3.6, and 5.5.x before 5.5.23, when running in certain environments with certain implementations of the memcmp function, allows remote attackers to bypass authentication by repeatedly authenticating with the same incorrect password, which eventually causes a token comparison to succeed due to an improperly-checked return value.
