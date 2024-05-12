@@ -7173,6 +7173,7 @@
 </code>
 
 - [rxerium/CVE-2023-40000](https://github.com/rxerium/CVE-2023-40000)
+- [quantiom/litespeed-cache-xss-poc](https://github.com/quantiom/litespeed-cache-xss-poc)
 
 ### CVE-2023-40028 (2023-08-15)
 
