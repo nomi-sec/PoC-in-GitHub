@@ -499,6 +499,7 @@
 - [Mohammaddvd/CVE-2024-4040](https://github.com/Mohammaddvd/CVE-2024-4040)
 - [jakabakos/CVE-2024-4040-CrushFTP-File-Read-vulnerability](https://github.com/jakabakos/CVE-2024-4040-CrushFTP-File-Read-vulnerability)
 - [gotr00t0day/CVE-2024-4040](https://github.com/gotr00t0day/CVE-2024-4040)
+- [1ncendium/CVE-2024-4040](https://github.com/1ncendium/CVE-2024-4040)
 
 ### CVE-2024-4439 (2024-05-03)
 
@@ -1917,22 +1918,46 @@
 
 - [dovankha/CVE-2024-34220](https://github.com/dovankha/CVE-2024-34220)
 
-### CVE-2024-34221
+### CVE-2024-34221 (-)
+
+<code>Sourcecodester Human Resource Management System 1.0 is vulnerable to Insecure Permissions resulting in privilege escalation.
+</code>
+
 - [dovankha/CVE-2024-34221](https://github.com/dovankha/CVE-2024-34221)
 
-### CVE-2024-34222
+### CVE-2024-34222 (-)
+
+<code>Sourcecodester Human Resource Management System 1.0 is vulnerable to SQL Injection via the searccountry parameter.
+</code>
+
 - [dovankha/CVE-2024-34222](https://github.com/dovankha/CVE-2024-34222)
 
-### CVE-2024-34223
+### CVE-2024-34223 (-)
+
+<code>Insecure permission vulnerability in /hrm/leaverequest.php in SourceCodester Human Resource Management System 1.0 allow attackers to approve or reject leave ticket.
+</code>
+
 - [dovankha/CVE-2024-34223](https://github.com/dovankha/CVE-2024-34223)
 
-### CVE-2024-34224
+### CVE-2024-34224 (-)
+
+<code>Cross Site Scripting vulnerability in /php-lms/classes/Users.php?f=save in Computer Laboratory Management System using PHP and MySQL 1.0 allow remote attackers to inject arbitrary web script or HTML via the firstname, middlename, lastname parameters.
+</code>
+
 - [dovankha/CVE-2024-34224](https://github.com/dovankha/CVE-2024-34224)
 
-### CVE-2024-34225
+### CVE-2024-34225 (-)
+
+<code>Cross Site Scripting vulnerability in php-lms/admin/?page=system_info in Computer Laboratory Management System using PHP and MySQL 1.0 allow remote attackers to inject arbitrary web script or HTML via the name, shortname parameters.
+</code>
+
 - [dovankha/CVE-2024-34225](https://github.com/dovankha/CVE-2024-34225)
 
-### CVE-2024-34226
+### CVE-2024-34226 (-)
+
+<code>SQL injection vulnerability in /php-sqlite-vms/?page=manage_visitor&amp;id=1 in SourceCodester Visitor Management System 1.0 allow attackers to execute arbitrary SQL commands via the id parameters.
+</code>
+
 - [dovankha/CVE-2024-34226](https://github.com/dovankha/CVE-2024-34226)
 
 ### CVE-2024-34310 (-)
@@ -1948,7 +1973,6 @@
 </code>
 
 - [Voorivex/CVE-2024-34351](https://github.com/Voorivex/CVE-2024-34351)
-- [alas1n/eslint-nextjs-cve-2024-34351-detector](https://github.com/alas1n/eslint-nextjs-cve-2024-34351-detector)
 
 ### CVE-2024-34469 (2024-05-04)
 
@@ -6941,6 +6965,13 @@
 
 - [gergelykalman/CVE-2023-38571-a-macOS-TCC-bypass-in-Music-and-TV](https://github.com/gergelykalman/CVE-2023-38571-a-macOS-TCC-bypass-in-Music-and-TV)
 
+### CVE-2023-38609 (2023-07-28)
+
+<code>An injection issue was addressed with improved input validation. This issue is fixed in macOS Ventura 13.5. An app may be able to bypass certain Privacy preferences.
+</code>
+
+- [mc-17/CVE-2023-38609](https://github.com/mc-17/CVE-2023-38609)
+
 ### CVE-2023-38632 (2023-07-21)
 
 <code>async-sockets-cpp through 0.3.1 has a stack-based buffer overflow in tcpsocket.hpp when processing malformed TCP packets.
@@ -7204,6 +7235,7 @@
 
 - [rxerium/CVE-2023-40000](https://github.com/rxerium/CVE-2023-40000)
 - [quantiom/litespeed-cache-xss-poc](https://github.com/quantiom/litespeed-cache-xss-poc)
+- [iveresk/cve-2023-40000](https://github.com/iveresk/cve-2023-40000)
 
 ### CVE-2023-40028 (2023-08-15)
 
@@ -19331,6 +19363,7 @@
 - [Hunt3r0x/CVE-2021-31630-HTB](https://github.com/Hunt3r0x/CVE-2021-31630-HTB)
 - [thewhiteh4t/cve-2021-31630](https://github.com/thewhiteh4t/cve-2021-31630)
 - [mind2hex/CVE-2021-31630](https://github.com/mind2hex/CVE-2021-31630)
+- [sealldeveloper/CVE-2021-31630-PoC](https://github.com/sealldeveloper/CVE-2021-31630-PoC)
 
 ### CVE-2021-31728 (2021-05-17)
 
@@ -33820,6 +33853,7 @@
 </code>
 
 - [MrTaherAmine/CVE-2018-10583](https://github.com/MrTaherAmine/CVE-2018-10583)
+- [octodi/CVE-2018-10583](https://github.com/octodi/CVE-2018-10583)
 
 ### CVE-2018-10678 (2018-05-13)
 
