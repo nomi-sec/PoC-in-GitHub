@@ -5876,6 +5876,7 @@
 - [c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733)
 - [hoangbui24/CVE-2023-33733](https://github.com/hoangbui24/CVE-2023-33733)
 - [onion2203/Lab_Reportlab](https://github.com/onion2203/Lab_Reportlab)
+- [huyqa/CVE-2023-33733](https://github.com/huyqa/CVE-2023-33733)
 
 ### CVE-2023-33747 (2023-06-06)
 
@@ -23735,12 +23736,12 @@
 - [dacade/CVE-2020-1938](https://github.com/dacade/CVE-2020-1938)
 - [woaiqiukui/CVE-2020-1938TomcatAjpScanner](https://github.com/woaiqiukui/CVE-2020-1938TomcatAjpScanner)
 - [fatal0/tomcat-cve-2020-1938-check](https://github.com/fatal0/tomcat-cve-2020-1938-check)
-- [ze0r/GhostCat-LFI-exp](https://github.com/ze0r/GhostCat-LFI-exp)
 - [delsadan/CNVD-2020-10487-Bulk-verification](https://github.com/delsadan/CNVD-2020-10487-Bulk-verification)
 - [00theway/Ghostcat-CNVD-2020-10487](https://github.com/00theway/Ghostcat-CNVD-2020-10487)
 - [shaunmclernon/ghostcat-verification](https://github.com/shaunmclernon/ghostcat-verification)
 - [Zaziki1337/Ghostcat-CVE-2020-1938](https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938)
 - [w4fz5uck5/CVE-2020-1938-Clean-Version](https://github.com/w4fz5uck5/CVE-2020-1938-Clean-Version)
+- [whatboxapp/GhostCat-LFI-exp](https://github.com/whatboxapp/GhostCat-LFI-exp)
 - [Just1ceP4rtn3r/CVE-2020-1938-Tool](https://github.com/Just1ceP4rtn3r/CVE-2020-1938-Tool)
 - [doggycheng/CNVD-2020-10487](https://github.com/doggycheng/CNVD-2020-10487)
 - [I-Runtime-Error/CVE-2020-1938](https://github.com/I-Runtime-Error/CVE-2020-1938)
@@ -26581,7 +26582,7 @@
 <code>Windows Win32k Elevation of Privilege Vulnerability
 </code>
 
-- [ze0r/cve-2020-17057](https://github.com/ze0r/cve-2020-17057)
+- [fengjixuchui/cve-2020-17057](https://github.com/fengjixuchui/cve-2020-17057)
 - [lsw29475/CVE-2020-17057](https://github.com/lsw29475/CVE-2020-17057)
 
 ### CVE-2020-17086 (2020-11-11)
