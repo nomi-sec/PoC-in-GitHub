@@ -208,6 +208,7 @@
 </code>
 
 - [DiabloHTB/CVE-2024-1561](https://github.com/DiabloHTB/CVE-2024-1561)
+- [DiabloHTB/Nuclei-Template-CVE-2024-1561](https://github.com/DiabloHTB/Nuclei-Template-CVE-2024-1561)
 
 ### CVE-2024-1651 (2024-02-19)
 
@@ -468,6 +469,7 @@
 - [terminalJunki3/CVE-2024-3400-Checker](https://github.com/terminalJunki3/CVE-2024-3400-Checker)
 - [0xr2r/CVE-2024-3400-Palo-Alto-OS-Command-Injection](https://github.com/0xr2r/CVE-2024-3400-Palo-Alto-OS-Command-Injection)
 - [marconesler/CVE-2024-3400](https://github.com/marconesler/CVE-2024-3400)
+- [andrelia-hacks/CVE-2024-3400](https://github.com/andrelia-hacks/CVE-2024-3400)
 
 ### CVE-2024-3806 (2024-05-09)
 
@@ -1762,6 +1764,9 @@
 
 ### CVE-2024-31734
 - [HBLocker/CVE-2024-31734](https://github.com/HBLocker/CVE-2024-31734)
+
+### CVE-2024-31771
+- [restdone/CVE-2024-31771](https://github.com/restdone/CVE-2024-31771)
 
 ### CVE-2024-31777
 - [FreySolarEye/Exploit-CVE-2024-31777](https://github.com/FreySolarEye/Exploit-CVE-2024-31777)
