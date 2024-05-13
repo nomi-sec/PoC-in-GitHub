@@ -508,6 +508,13 @@
 - [MielPopsssssss/CVE-2024-4439](https://github.com/MielPopsssssss/CVE-2024-4439)
 - [d0rb/CVE-2024-4439](https://github.com/d0rb/CVE-2024-4439)
 
+### CVE-2024-4701 (2024-05-10)
+
+<code>A path traversal issue potentially leading to remote code execution in Genie for all versions prior to 4.3.18
+</code>
+
+- [JoeBeeton/CVE-2024-4701-POC](https://github.com/JoeBeeton/CVE-2024-4701-POC)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -1461,6 +1468,13 @@
 - [lockness-Ko/CVE-2024-27316](https://github.com/lockness-Ko/CVE-2024-27316)
 - [aeyesec/CVE-2024-27316_poc](https://github.com/aeyesec/CVE-2024-27316_poc)
 
+### CVE-2024-27460 (2024-05-10)
+
+<code>A privilege escalation exists in the updater for Plantronics Hub 3.25.1 and below.
+</code>
+
+- [Alaatk/CVE-2024-27460](https://github.com/Alaatk/CVE-2024-27460)
+
 ### CVE-2024-27462
 - [Alaatk/CVE-2024-27462](https://github.com/Alaatk/CVE-2024-27462)
 
@@ -1934,6 +1948,7 @@
 </code>
 
 - [Voorivex/CVE-2024-34351](https://github.com/Voorivex/CVE-2024-34351)
+- [alas1n/eslint-nextjs-cve-2024-34351-detector](https://github.com/alas1n/eslint-nextjs-cve-2024-34351-detector)
 
 ### CVE-2024-34469 (2024-05-04)
 
