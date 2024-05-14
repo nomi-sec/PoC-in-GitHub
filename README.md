@@ -4231,6 +4231,9 @@
 ### CVE-2023-24100
 - [badboycxcc/CVE-2023-24100](https://github.com/badboycxcc/CVE-2023-24100)
 
+### CVE-2023-24203
+- [momo1239/CVE-2023-24203-and-CVE-2023-24204](https://github.com/momo1239/CVE-2023-24203-and-CVE-2023-24204)
+
 ### CVE-2023-24317 (2023-02-23)
 
 <code>Judging Management System 1.0 was discovered to contain an arbitrary file upload vulnerability via the component edit_organizer.php.
