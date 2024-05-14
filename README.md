@@ -3682,6 +3682,7 @@
 </code>
 
 - [uthrasri/framework_base_CVE-2023-21285_NoPatch](https://github.com/uthrasri/framework_base_CVE-2023-21285_NoPatch)
+- [krnidhi/frameworks_base_AOSP10_r33_CVE-2023-21285](https://github.com/krnidhi/frameworks_base_AOSP10_r33_CVE-2023-21285)
 
 ### CVE-2023-21286 (2023-08-14)
 
@@ -4528,6 +4529,7 @@
 </code>
 
 - [yosef0x01/CVE-2023-26360](https://github.com/yosef0x01/CVE-2023-26360)
+- [jakabakos/CVE-2023-26360-adobe-coldfusion-rce-exploit](https://github.com/jakabakos/CVE-2023-26360-adobe-coldfusion-rce-exploit)
 
 ### CVE-2023-26469 (2023-08-17)
 
