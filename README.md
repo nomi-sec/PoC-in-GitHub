@@ -516,6 +516,13 @@
 
 - [JoeBeeton/CVE-2024-4701-POC](https://github.com/JoeBeeton/CVE-2024-4701-POC)
 
+### CVE-2024-4761 (2024-05-14)
+
+<code>Out of bounds write in V8 in Google Chrome prior to 124.0.6367.207 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [michredteam/CVE-2024-4761](https://github.com/michredteam/CVE-2024-4761)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -526,26 +533,12 @@
 
 - [Instructor-Team8/CVE-2024-20291-POC](https://github.com/Instructor-Team8/CVE-2024-20291-POC)
 
-### CVE-2024-20353 (2024-04-24)
-
-<code>A vulnerability in the management and VPN web servers for Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.\r\n\r This vulnerability is due to incomplete error checking when parsing an HTTP header. An attacker could exploit this vulnerability by sending a crafted HTTP request to a targeted web server on a device. A successful exploit could allow the attacker to cause a DoS condition when the device reloads.
-</code>
-
-- [Spl0stus/CVE-2024-20353-CiscoASAandFTD](https://github.com/Spl0stus/CVE-2024-20353-CiscoASAandFTD)
-
 ### CVE-2024-20356 (2024-04-24)
 
 <code>A vulnerability in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote attacker with Administrator-level privileges to perform command injection attacks on an affected system and elevate their privileges to root. This vulnerability is due to insufficient user input validation. An attacker could exploit this vulnerability by sending crafted commands to the web-based management interface of the affected software. A successful exploit could allow the attacker to elevate their privileges to root.
 </code>
 
 - [nettitude/CVE-2024-20356](https://github.com/nettitude/CVE-2024-20356)
-
-### CVE-2024-20359 (2024-04-24)
-
-<code>A vulnerability in a legacy capability that allowed for the preloading of VPN clients and plug-ins and that has been available in Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an authenticated, local attacker to execute arbitrary code with root-level privileges. Administrator-level privileges are required to exploit this vulnerability.\r\n\r This vulnerability is due to improper validation of a file when it is read from system flash memory. An attacker could exploit this vulnerability by copying a crafted file to the disk0: file system of an affected device. A successful exploit could allow the attacker to execute arbitrary code on the affected device after the next reload of the device, which could alter system behavior. Because the injected code could persist across device reboots, Cisco has raised the Security Impact Rating (SIR) of this advisory from Medium to High.
-</code>
-
-- [Garvard-Agency/CVE-2024-20359-CiscoASA-FTD-exploit](https://github.com/Garvard-Agency/CVE-2024-20359-CiscoASA-FTD-exploit)
 
 ### CVE-2024-20656 (2024-01-09)
 
@@ -1546,6 +1539,13 @@
 ### CVE-2024-27697
 - [SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697](https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697)
 
+### CVE-2024-27804 (2024-05-13)
+
+<code>The issue was addressed with improved memory handling. This issue is fixed in iOS 17.5 and iPadOS 17.5, tvOS 17.5, watchOS 10.5, macOS Sonoma 14.5. An app may be able to execute arbitrary code with kernel privileges.
+</code>
+
+- [R00tkitSMM/CVE-2024-27804](https://github.com/R00tkitSMM/CVE-2024-27804)
+
 ### CVE-2024-27956 (2024-03-21)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ValvePress Automatic allows SQL Injection.This issue affects Automatic: from n/a through 3.92.0.\n\n
@@ -1557,6 +1557,7 @@
 - [FoxyProxys/CVE-2024-27956](https://github.com/FoxyProxys/CVE-2024-27956)
 - [k3ppf0r/CVE-2024-27956](https://github.com/k3ppf0r/CVE-2024-27956)
 - [nancyariah4/CVE-2024-27956](https://github.com/nancyariah4/CVE-2024-27956)
+- [AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956](https://github.com/AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956)
 
 ### CVE-2024-27971
 - [truonghuuphuc/CVE-2024-27971-Note](https://github.com/truonghuuphuc/CVE-2024-27971-Note)
@@ -2484,13 +2485,6 @@
 </code>
 
 - [pashayogi/CVE-2023-2744](https://github.com/pashayogi/CVE-2023-2744)
-
-### CVE-2023-2752 (2023-05-17)
-
-<code>Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.2.0-beta.
-</code>
-
-- [Cappricio-Securities/CVE-2023-2752](https://github.com/Cappricio-Securities/CVE-2023-2752)
 
 ### CVE-2023-2822 (2023-05-20)
 
@@ -4232,7 +4226,11 @@
 ### CVE-2023-24100
 - [badboycxcc/CVE-2023-24100](https://github.com/badboycxcc/CVE-2023-24100)
 
-### CVE-2023-24203
+### CVE-2023-24203 (-)
+
+<code>Cross Site Scripting vulnerability in SourceCodester Simple Customer Relationship Management System v1.0 allows attacker to execute arbitary code via the company or query parameter(s).
+</code>
+
 - [momo1239/CVE-2023-24203-and-CVE-2023-24204](https://github.com/momo1239/CVE-2023-24203-and-CVE-2023-24204)
 
 ### CVE-2023-24317 (2023-02-23)
@@ -4731,6 +4729,7 @@
 - [CN016/Apache-Superset-SECRET_KEY-CVE-2023-27524-](https://github.com/CN016/Apache-Superset-SECRET_KEY-CVE-2023-27524-)
 - [NguyenCongHaiNam/Research-CVE-2023-27524](https://github.com/NguyenCongHaiNam/Research-CVE-2023-27524)
 - [karthi-the-hacker/CVE-2023-27524](https://github.com/karthi-the-hacker/CVE-2023-27524)
+- [Cappricio-Securities/CVE-2023-27524](https://github.com/Cappricio-Securities/CVE-2023-27524)
 
 ### CVE-2023-27532 (2023-03-10)
 
@@ -17062,6 +17061,7 @@
 - [DDayLuong/CVE-2021-3156](https://github.com/DDayLuong/CVE-2021-3156)
 - [wurwur/CVE-2021-3156](https://github.com/wurwur/CVE-2021-3156)
 - [SamTruss/LMU-CVE-2021-3156](https://github.com/SamTruss/LMU-CVE-2021-3156)
+- [lypd0/CVE-2021-3156-checker](https://github.com/lypd0/CVE-2021-3156-checker)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -27577,6 +27577,13 @@
 </code>
 
 - [pazhanivel07/openjpeg-2.3.0_CVE-2020-27824](https://github.com/pazhanivel07/openjpeg-2.3.0_CVE-2020-27824)
+
+### CVE-2020-27838 (2021-03-08)
+
+<code>A flaw was found in keycloak in versions prior to 13.0.0. The client registration endpoint allows fetching information about PUBLIC clients (like client secret) without authentication which could be an issue if the same PUBLIC client changed to CONFIDENTIAL later. The highest threat from this vulnerability is to data confidentiality.
+</code>
+
+- [Cappricio-Securities/CVE-2020-27838](https://github.com/Cappricio-Securities/CVE-2020-27838)
 
 ### CVE-2020-27904 (2020-12-08)
 
