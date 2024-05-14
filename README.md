@@ -845,7 +845,11 @@
 
 - [hacker625/CVE-2024-22752](https://github.com/hacker625/CVE-2024-22752)
 
-### CVE-2024-22774
+### CVE-2024-22774 (-)
+
+<code>An issue in Panoramic Corporation Digital Imaging Software v.9.1.2.7600 allows a local attacker to escalate privileges via the ccsservice.exe component.
+</code>
+
 - [Gray-0men/CVE-2024-22774](https://github.com/Gray-0men/CVE-2024-22774)
 
 ### CVE-2024-22867
@@ -1380,6 +1384,7 @@
 </code>
 
 - [passwa11/CVE-2024-26026](https://github.com/passwa11/CVE-2024-26026)
+- [GRTMALDET/Big-IP-Next-CVE-2024-26026](https://github.com/GRTMALDET/Big-IP-Next-CVE-2024-26026)
 
 ### CVE-2024-26218 (2024-04-09)
 
@@ -1598,13 +1603,25 @@
 
 - [YongYe-Security/CVE-2024-28255](https://github.com/YongYe-Security/CVE-2024-28255)
 
-### CVE-2024-28276
+### CVE-2024-28276 (-)
+
+<code>Sourcecodester School Task Manager 1.0 is vulnerable to Cross Site Scripting (XSS) via add-task.php?task_name=.
+</code>
+
 - [unrealjbr/CVE-2024-28276](https://github.com/unrealjbr/CVE-2024-28276)
 
-### CVE-2024-28277
+### CVE-2024-28277 (-)
+
+<code>In Sourcecodester School Task Manager v1.0, a vulnerability was identified within the subject_name= parameter, enabling Stored Cross-Site Scripting (XSS) attacks. This vulnerability allows attackers to manipulate the subject's name, potentially leading to the execution of malicious JavaScript payloads.
+</code>
+
 - [unrealjbr/CVE-2024-28277](https://github.com/unrealjbr/CVE-2024-28277)
 
-### CVE-2024-28279
+### CVE-2024-28279 (-)
+
+<code>Code-projects Computer Book Store 1.0 is vulnerable to SQL Injection via book.php?bookisbn=.
+</code>
+
 - [unrealjbr/CVE-2024-28279](https://github.com/unrealjbr/CVE-2024-28279)
 
 ### CVE-2024-28397
@@ -1780,7 +1797,11 @@
 ### CVE-2024-31734
 - [HBLocker/CVE-2024-31734](https://github.com/HBLocker/CVE-2024-31734)
 
-### CVE-2024-31771
+### CVE-2024-31771 (-)
+
+<code>Insecure Permission vulnerability in TotalAV v.6.0.740 allows a local attacker to escalate privileges via a crafted file
+</code>
+
 - [restdone/CVE-2024-31771](https://github.com/restdone/CVE-2024-31771)
 
 ### CVE-2024-31777
@@ -3924,6 +3945,7 @@
 - [Boogipop/CVE-2023-22527-Godzilla-MEMSHELL](https://github.com/Boogipop/CVE-2023-22527-Godzilla-MEMSHELL)
 - [M0untainShley/CVE-2023-22527-MEMSHELL](https://github.com/M0untainShley/CVE-2023-22527-MEMSHELL)
 - [vulncheck-oss/cve-2023-22527](https://github.com/vulncheck-oss/cve-2023-22527)
+- [ttate10/CVE-2023-22527](https://github.com/ttate10/CVE-2023-22527)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -8673,7 +8695,11 @@
 
 - [asylumdx/Crater-CVE-2023-46865-RCE](https://github.com/asylumdx/Crater-CVE-2023-46865-RCE)
 
-### CVE-2023-46870
+### CVE-2023-46870 (-)
+
+<code>extcap/nrf_sniffer_ble.py, extcap/nrf_sniffer_ble.sh, extcap/SnifferAPI/*.py in Nordic Semiconductor nRF Sniffer for Bluetooth LE 3.0.0, 3.1.0, 4.0.0, 4.1.0, and 4.1.1 have set incorrect file permission, which allows attackers to do code execution via modified bash and python scripts.
+</code>
+
 - [Chapoly1305/CVE-2023-46870](https://github.com/Chapoly1305/CVE-2023-46870)
 
 ### CVE-2023-46918 (2023-12-27)
@@ -16699,6 +16725,13 @@
 - [peckre/PNCVE-Win10-20H2-Exploit](https://github.com/peckre/PNCVE-Win10-20H2-Exploit)
 - [whoami-chmod777/CVE-2021-1675-CVE-2021-34527](https://github.com/whoami-chmod777/CVE-2021-1675-CVE-2021-34527)
 - [whoami-chmod777/CVE-2021-1675---PrintNightmare-LPE-PowerShell-](https://github.com/whoami-chmod777/CVE-2021-1675---PrintNightmare-LPE-PowerShell-)
+
+### CVE-2021-1678 (2021-01-12)
+
+<code>Windows Print Spooler Spoofing Vulnerability
+</code>
+
+- [alvaciroliveira/RpcAuthnLevelPrivacyEnabled](https://github.com/alvaciroliveira/RpcAuthnLevelPrivacyEnabled)
 
 ### CVE-2021-1699 (2021-01-12)
 
