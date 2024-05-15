@@ -2031,6 +2031,13 @@
 
 - [Alaatk/CVE-2024-34474](https://github.com/Alaatk/CVE-2024-34474)
 
+### CVE-2024-34716 (2024-05-14)
+
+<code>PrestaShop is an open source e-commerce web application. A cross-site scripting (XSS) vulnerability that only affects PrestaShops with customer-thread feature flag enabled is present starting from PrestaShop 8.1.0 and prior to PrestaShop 8.1.6. When the customer thread feature flag is enabled through the front-office contact form, a hacker can upload a malicious file containing an XSS that will be executed when an admin opens the attached file in back office. The script injected can access the session and the security token, which allows it to perform any authenticated action in the scope of the administrator's right. This vulnerability is patched in 8.1.6. A workaround is to disable the customer-thread feature-flag.
+</code>
+
+- [aelmokhtar/CVE-2024-34716_PoC](https://github.com/aelmokhtar/CVE-2024-34716_PoC)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
@@ -12866,7 +12873,11 @@
 
 - [Richard-Tang/SSCMS-PluginShell](https://github.com/Richard-Tang/SSCMS-PluginShell)
 
-### CVE-2022-28132
+### CVE-2022-28132 (-)
+
+<code>The T-Soft E-Commerce 4 web application is susceptible to SQL injection (SQLi) attacks when authenticated as an admin or privileged user. This vulnerability allows attackers to access and manipulate the database through crafted requests. By exploiting this flaw, attackers can bypass authentication mechanisms, view sensitive information stored in the database, and potentially exfiltrate data.
+</code>
+
 - [alpernae/CVE-2022-28132](https://github.com/alpernae/CVE-2022-28132)
 
 ### CVE-2022-28171 (2022-06-27)
