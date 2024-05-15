@@ -758,6 +758,9 @@
 
 - [0dteam/CVE-2024-22024](https://github.com/0dteam/CVE-2024-22024)
 
+### CVE-2024-22026
+- [securekomodo/CVE-2024-22026](https://github.com/securekomodo/CVE-2024-22026)
+
 ### CVE-2024-22145
 - [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
 
@@ -1558,6 +1561,7 @@
 - [k3ppf0r/CVE-2024-27956](https://github.com/k3ppf0r/CVE-2024-27956)
 - [nancyariah4/CVE-2024-27956](https://github.com/nancyariah4/CVE-2024-27956)
 - [AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956](https://github.com/AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956)
+- [W3BW/CVE-2024-27956-RCE-File-Package](https://github.com/W3BW/CVE-2024-27956-RCE-File-Package)
 
 ### CVE-2024-27971
 - [truonghuuphuc/CVE-2024-27971-Note](https://github.com/truonghuuphuc/CVE-2024-27971-Note)
@@ -2706,7 +2710,6 @@
 </code>
 
 - [vpxuser/CVE-2023-3710-POC](https://github.com/vpxuser/CVE-2023-3710-POC)
-- [Mahdi22228/CVE-2023-3710](https://github.com/Mahdi22228/CVE-2023-3710)
 
 ### CVE-2023-3711 (2023-09-12)
 
@@ -3947,7 +3950,6 @@
 - [Boogipop/CVE-2023-22527-Godzilla-MEMSHELL](https://github.com/Boogipop/CVE-2023-22527-Godzilla-MEMSHELL)
 - [M0untainShley/CVE-2023-22527-MEMSHELL](https://github.com/M0untainShley/CVE-2023-22527-MEMSHELL)
 - [vulncheck-oss/cve-2023-22527](https://github.com/vulncheck-oss/cve-2023-22527)
-- [ttate10/CVE-2023-22527](https://github.com/ttate10/CVE-2023-22527)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -19910,6 +19912,7 @@
 </code>
 
 - [motikan2010/CVE-2021-34646](https://github.com/motikan2010/CVE-2021-34646)
+- [0xB455/CVE-2021-34646](https://github.com/0xB455/CVE-2021-34646)
 
 ### CVE-2021-34730 (2021-08-18)
 
@@ -34439,6 +34442,13 @@
 
 - [tin-z/CVE-2018-14714-POC](https://github.com/tin-z/CVE-2018-14714-POC)
 - [sunn1day/CVE-2018-14714-POC](https://github.com/sunn1day/CVE-2018-14714-POC)
+
+### CVE-2018-14716 (2018-08-06)
+
+<code>A Server Side Template Injection (SSTI) was discovered in the SEOmatic plugin before 3.1.4 for Craft CMS, because requests that don't match any elements incorrectly generate the canonicalUrl, and can lead to execution of Twig code.
+</code>
+
+- [0xB455/CVE-2018-14716](https://github.com/0xB455/CVE-2018-14716)
 
 ### CVE-2018-14729 (2019-05-22)
 
