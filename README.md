@@ -470,6 +470,7 @@
 - [0xr2r/CVE-2024-3400-Palo-Alto-OS-Command-Injection](https://github.com/0xr2r/CVE-2024-3400-Palo-Alto-OS-Command-Injection)
 - [marconesler/CVE-2024-3400](https://github.com/marconesler/CVE-2024-3400)
 - [andrelia-hacks/CVE-2024-3400](https://github.com/andrelia-hacks/CVE-2024-3400)
+- [tk-sawada/IPLineFinder](https://github.com/tk-sawada/IPLineFinder)
 
 ### CVE-2024-3806 (2024-05-09)
 
@@ -1475,6 +1476,7 @@
 <code>A privilege escalation exists in the updater for Plantronics Hub 3.25.1 and below.
 </code>
 
+- [xct/CVE-2024-27460](https://github.com/xct/CVE-2024-27460)
 - [Alaatk/CVE-2024-27460](https://github.com/Alaatk/CVE-2024-27460)
 
 ### CVE-2024-27462
@@ -1720,6 +1722,13 @@
 </code>
 
 - [ally-petitt/CVE-2024-29399](https://github.com/ally-petitt/CVE-2024-29399)
+
+### CVE-2024-29895 (2024-05-13)
+
+<code>Cacti provides an operational monitoring and fault management framework. A command injection vulnerability on the 1.3.x DEV branch allows any unauthenticated user to execute arbitrary command on the server when `register_argc_argv` option of PHP is `On`. In `cmd_realtime.php` line 119, the `$poller_id` used as part of the command execution is sourced from `$_SERVER['argv']`, which can be controlled by URL when `register_argc_argv` option of PHP is `On`. And this option is `On` by default in many environments such as the main PHP Docker image for PHP. Commit 53e8014d1f082034e0646edc6286cde3800c683d contains a patch for the issue, but this commit was reverted in commit 99633903cad0de5ace636249de16f77e57a3c8fc.
+</code>
+
+- [Stuub/CVE-2024-29895-CactiRCE-PoC](https://github.com/Stuub/CVE-2024-29895-CactiRCE-PoC)
 
 ### CVE-2024-29988 (2024-04-09)
 
@@ -3798,6 +3807,7 @@
 - [zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit](https://github.com/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit)
 - [Rosayxy/Recreate-cve-2023-21768](https://github.com/Rosayxy/Recreate-cve-2023-21768)
 - [Ha0-Y/CVE-2023-21768](https://github.com/Ha0-Y/CVE-2023-21768)
+- [xboxoneresearch/CVE-2023-21768-dotnet](https://github.com/xboxoneresearch/CVE-2023-21768-dotnet)
 
 ### CVE-2023-21823 (2023-02-14)
 
@@ -28662,6 +28672,13 @@
 
 - [securifera/CVE-2019-1579](https://github.com/securifera/CVE-2019-1579)
 - [Elsfa7-110/CVE-2019-1579](https://github.com/Elsfa7-110/CVE-2019-1579)
+
+### CVE-2019-1609 (2019-03-06)
+
+<code>A vulnerability in the CLI of Cisco NX-OS Software could allow an authenticated, local attacker to execute arbitrary commands on the underlying operating system of an affected device. The vulnerability is due to insufficient validation of arguments passed to certain CLI commands. An attacker could exploit this vulnerability by including malicious input as the argument of an affected command. A successful exploit could allow the attacker to execute arbitrary commands on the underlying operating system with elevated privileges. An attacker would need valid administrator credentials to exploit this vulnerability. MDS 9000 Series Multilayer Switches are affected in versions prior to 6.2(27), 8.1(1b), and 8.3(2). Nexus 3500 Platform Switches are affected in versions prior to 7.0(3)I7(6). Nexus 3000 Series Switches are affected in versions prior to 7.0(3)I4(9) and 7.0(3)I7(6). Nexus 3600 Platform Switches are affected in versions prior to 7.0(3)F3(5). Nexus 7000 and 7700 Series Switches are affected in versions prior to 6.2(22), 7.3(3)D1(1), 8.2(3), and 8.3(2). Nexus 9000 Series Switches in Standalone NX-OS Mode are affected in versions prior to 7.0(3)I4(9) and7.0(3)I7(6). Nexus 9500 R-Series Line Cards and Fabric Modules are affected in versions prior to 7.0(3)F3(5).
+</code>
+
+- [1X14720f130x/CVE-2019-1609](https://github.com/1X14720f130x/CVE-2019-1609)
 
 ### CVE-2019-1652 (2019-01-23)
 
