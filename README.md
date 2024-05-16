@@ -463,7 +463,6 @@
 - [Ravaan21/CVE-2024-3400](https://github.com/Ravaan21/CVE-2024-3400)
 - [pwnj0hn/CVE-2024-3400](https://github.com/pwnj0hn/CVE-2024-3400)
 - [HackingLZ/panrapidcheck](https://github.com/HackingLZ/panrapidcheck)
-- [stronglier/CVE-2024-3400](https://github.com/stronglier/CVE-2024-3400)
 - [Kr0ff/cve-2024-3400](https://github.com/Kr0ff/cve-2024-3400)
 - [zam89/CVE-2024-3400-pot](https://github.com/zam89/CVE-2024-3400-pot)
 - [terminalJunki3/CVE-2024-3400-Checker](https://github.com/terminalJunki3/CVE-2024-3400-Checker)
@@ -1059,6 +1058,7 @@
 - [Athulya666/CVE-2024-23897](https://github.com/Athulya666/CVE-2024-23897)
 - [murataydemir/CVE-2024-23897](https://github.com/murataydemir/CVE-2024-23897)
 - [mil4ne/CVE-2024-23897-Jenkins-4.441](https://github.com/mil4ne/CVE-2024-23897-Jenkins-4.441)
+- [Maalfer/CVE-2024-23897](https://github.com/Maalfer/CVE-2024-23897)
 
 ### CVE-2024-24034 (2024-02-08)
 
