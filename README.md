@@ -1729,6 +1729,7 @@
 </code>
 
 - [Stuub/CVE-2024-29895-CactiRCE-PoC](https://github.com/Stuub/CVE-2024-29895-CactiRCE-PoC)
+- [secunnix/CVE-2024-29895](https://github.com/secunnix/CVE-2024-29895)
 
 ### CVE-2024-29988 (2024-04-09)
 
@@ -1897,6 +1898,9 @@
 
 ### CVE-2024-32523
 - [truonghuuphuc/CVE-2024-32523-Poc](https://github.com/truonghuuphuc/CVE-2024-32523-Poc)
+
+### CVE-2024-32640
+- [Stuub/CVE-2024-32640-SQLI-MuraCMS](https://github.com/Stuub/CVE-2024-32640-SQLI-MuraCMS)
 
 ### CVE-2024-32709 (2024-04-24)
 
