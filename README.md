@@ -7411,7 +7411,11 @@
 
 - [Halcy0nic/CVE-2023-40296](https://github.com/Halcy0nic/CVE-2023-40296)
 
-### CVE-2023-40297
+### CVE-2023-40297 (-)
+
+<code>Stakater Forecastle 1.0.139 and before allows %5C../ directory traversal in the website component.
+</code>
+
 - [sahar042/CVE-2023-40297](https://github.com/sahar042/CVE-2023-40297)
 
 ### CVE-2023-40361 (2023-10-20)
@@ -35368,6 +35372,7 @@
 - [hev0x/CVE-2018-25031-PoC](https://github.com/hev0x/CVE-2018-25031-PoC)
 - [ThiiagoEscobar/CVE-2018-25031](https://github.com/ThiiagoEscobar/CVE-2018-25031)
 - [johnlaurance/CVE-2018-25031-test2](https://github.com/johnlaurance/CVE-2018-25031-test2)
+- [geozin/POC-CVE-2018-25031](https://github.com/geozin/POC-CVE-2018-25031)
 
 ### CVE-2018-25032 (2022-03-25)
 
