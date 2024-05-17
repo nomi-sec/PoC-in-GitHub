@@ -1738,6 +1738,7 @@
 
 - [Stuub/CVE-2024-29895-CactiRCE-PoC](https://github.com/Stuub/CVE-2024-29895-CactiRCE-PoC)
 - [secunnix/CVE-2024-29895](https://github.com/secunnix/CVE-2024-29895)
+- [ticofookfook/CVE-2024-29895.py](https://github.com/ticofookfook/CVE-2024-29895.py)
 
 ### CVE-2024-29988 (2024-04-09)
 
@@ -8395,6 +8396,13 @@
 </code>
 
 - [afine-com/CVE-2023-45185](https://github.com/afine-com/CVE-2023-45185)
+
+### CVE-2023-45239 (2023-10-06)
+
+<code>A lack of input validation exists in tac_plus prior to commit 4fdf178 which, when pre or post auth commands are enabled, allows an attacker who can control the username, rem-addr, or NAC address sent to tac_plus to inject shell commands and gain remote code execution on the tac_plus server.
+</code>
+
+- [takeshixx/tac_plus-pre-auth-rce](https://github.com/takeshixx/tac_plus-pre-auth-rce)
 
 ### CVE-2023-45280 (2023-10-19)
 
@@ -16191,7 +16199,7 @@
 
 ### CVE-2022-48197 (2023-01-02)
 
-<code>Reflected cross-site scripting (XSS) exists in the TreeView of YUI2 through 2800: up.php sam.php renderhidden.php removechildren.php removeall.php readd.php overflow.php newnode2.php newnode.php. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
+<code>Reflected cross-site scripting (XSS) exists in Sandbox examples in the YUI2 repository. The download distributions, TreeView component and the YUI Javascript library overall are not affected. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
 </code>
 
 - [ryan412/CVE-2022-48197](https://github.com/ryan412/CVE-2022-48197)
@@ -35403,6 +35411,13 @@
 - [Satheesh575555/external_zlib-1.2.7_CVE-2018-25032](https://github.com/Satheesh575555/external_zlib-1.2.7_CVE-2018-25032)
 - [Trinadh465/external_zlib_AOSP10_r33_CVE-2018-25032](https://github.com/Trinadh465/external_zlib_AOSP10_r33_CVE-2018-25032)
 
+### CVE-2018-25075 (2023-01-15)
+
+<code>Es wurde eine kritische Schwachstelle in karsany OBridge bis 1.3 entdeckt. Hiervon betroffen ist die Funktion getAllStandaloneProcedureAndFunction der Datei obridge-main/src/main/java/org/obridge/dao/ProcedureDao.java. Durch Manipulation mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Die Komplexität eines Angriffs ist eher hoch. Sie gilt als schwierig auszunutzen. Ein Aktualisieren auf die Version 1.4 vermag dieses Problem zu lösen. Der Patch wird als 52eca4ad05f3c292aed3178b2f58977686ffa376 bezeichnet. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [epicosy/obridge](https://github.com/epicosy/obridge)
+
 ### CVE-2018-1000001 (2018-01-31)
 
 <code>In glibc 2.26 and earlier there is confusion in the usage of getcwd() by realpath() which can be used to write before the destination buffer leading to a buffer underflow and potential code execution.
@@ -39045,6 +39060,7 @@
 - [zeeshanbhattined/exploit-CVE-2016-10033](https://github.com/zeeshanbhattined/exploit-CVE-2016-10033)
 - [CAOlvchonger/CVE-2016-10033](https://github.com/CAOlvchonger/CVE-2016-10033)
 - [eb613819/CTF_CVE-2016-10033](https://github.com/eb613819/CTF_CVE-2016-10033)
+- [ElnurBDa/CVE-2016-10033](https://github.com/ElnurBDa/CVE-2016-10033)
 
 ### CVE-2016-10034 (2016-12-30)
 
