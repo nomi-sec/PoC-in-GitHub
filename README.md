@@ -616,6 +616,7 @@
 </code>
 
 - [mansk1es/CVE-2024-21111](https://github.com/mansk1es/CVE-2024-21111)
+- [10cks/CVE-2024-21111-del](https://github.com/10cks/CVE-2024-21111-del)
 
 ### CVE-2024-21305 (2024-01-09)
 
@@ -769,7 +770,11 @@
 ### CVE-2024-22026
 - [securekomodo/CVE-2024-22026](https://github.com/securekomodo/CVE-2024-22026)
 
-### CVE-2024-22145
+### CVE-2024-22145 (2024-05-17)
+
+<code>Improper Privilege Management vulnerability in InstaWP Team InstaWP Connect allows Privilege Escalation.This issue affects InstaWP Connect: from n/a through 0.1.0.8.
+</code>
+
 - [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
 
 ### CVE-2024-22243 (2024-02-23)
@@ -1449,6 +1454,9 @@
 
 - [MaherAzzouzi/CVE-2024-26817-amdkfd](https://github.com/MaherAzzouzi/CVE-2024-26817-amdkfd)
 
+### CVE-2024-27130
+- [watchtowrlabs/CVE-2024-27130](https://github.com/watchtowrlabs/CVE-2024-27130)
+
 ### CVE-2024-27198 (2024-03-04)
 
 <code>In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible
@@ -1566,7 +1574,11 @@
 - [AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956](https://github.com/AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956)
 - [W3BW/CVE-2024-27956-RCE-File-Package](https://github.com/W3BW/CVE-2024-27956-RCE-File-Package)
 
-### CVE-2024-27971
+### CVE-2024-27971 (2024-05-17)
+
+<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Premmerce Premmerce Permalink Manager for WooCommerce allows PHP Local File Inclusion.This issue affects Premmerce Permalink Manager for WooCommerce: from n/a through 2.3.10.
+</code>
+
 - [truonghuuphuc/CVE-2024-27971-Note](https://github.com/truonghuuphuc/CVE-2024-27971-Note)
 
 ### CVE-2024-27983 (2024-04-09)
@@ -1887,7 +1899,11 @@
 
 - [NN0b0dy/CVE-2024-32399](https://github.com/NN0b0dy/CVE-2024-32399)
 
-### CVE-2024-32523
+### CVE-2024-32523 (2024-05-17)
+
+<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in EverPress Mailster allows PHP Local File Inclusion.This issue affects Mailster: from n/a through 4.0.6.
+</code>
+
 - [truonghuuphuc/CVE-2024-32523-Poc](https://github.com/truonghuuphuc/CVE-2024-32523-Poc)
 
 ### CVE-2024-32640
@@ -8563,7 +8579,11 @@
 
 - [ersinerenler/CVE-2023-46022-Code-Projects-Blood-Bank-1.0-OOB-SQL-Injection-Vulnerability](https://github.com/ersinerenler/CVE-2023-46022-Code-Projects-Blood-Bank-1.0-OOB-SQL-Injection-Vulnerability)
 
-### CVE-2023-46197
+### CVE-2023-46197 (2024-05-17)
+
+<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in supsystic.Com Popup by Supsystic allows Relative Path Traversal.This issue affects Popup by Supsystic: from n/a through 1.10.19.
+</code>
+
 - [RandomRobbieBF/CVE-2023-46197](https://github.com/RandomRobbieBF/CVE-2023-46197)
 
 ### CVE-2023-46303 (2023-10-22)
@@ -11667,6 +11687,7 @@
 - [aeifkz/CVE-2022-22978](https://github.com/aeifkz/CVE-2022-22978)
 - [umakant76705/CVE-2022-22978](https://github.com/umakant76705/CVE-2022-22978)
 - [Raghvendra1207/CVE-2022-22978](https://github.com/Raghvendra1207/CVE-2022-22978)
+- [wan9xx/CVE-2022-22978-demo](https://github.com/wan9xx/CVE-2022-22978-demo)
 
 ### CVE-2022-22980 (2022-06-22)
 
