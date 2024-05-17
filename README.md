@@ -1836,7 +1836,11 @@
 
 - [GKalmus/referaat](https://github.com/GKalmus/referaat)
 
-### CVE-2024-31974
+### CVE-2024-31974 (-)
+
+<code>The com.solarized.firedown (aka Solarized FireDown Browser &amp; Downloader) application 1.0.76 for Android allows a remote attacker to execute arbitrary JavaScript code via a crafted intent. com.solarized.firedown.IntentActivity uses a WebView component to display web content and doesn't adequately sanitize the URI or any extra data passed in the intent by any installed application (with no permissions).
+</code>
+
 - [actuator/com.solarized.firedown](https://github.com/actuator/com.solarized.firedown)
 
 ### CVE-2024-32002 (2024-05-14)
@@ -1845,6 +1849,7 @@
 </code>
 
 - [Disseminator/CVE-2024-32002](https://github.com/Disseminator/CVE-2024-32002)
+- [markuta/hooky](https://github.com/markuta/hooky)
 
 ### CVE-2024-32136 (2024-04-15)
 
@@ -1908,6 +1913,7 @@
 
 ### CVE-2024-32640
 - [Stuub/CVE-2024-32640-SQLI-MuraCMS](https://github.com/Stuub/CVE-2024-32640-SQLI-MuraCMS)
+- [0x3f3c/CVE-2024-32640-SQLI-MuraCMS](https://github.com/0x3f3c/CVE-2024-32640-SQLI-MuraCMS)
 
 ### CVE-2024-32709 (2024-04-24)
 
@@ -9592,7 +9598,6 @@
 - [vin01/poc-proxycommand-vulnerable](https://github.com/vin01/poc-proxycommand-vulnerable)
 - [FeatherStark/CVE-2023-51385](https://github.com/FeatherStark/CVE-2023-51385)
 - [watarium/poc-cve-2023-51385](https://github.com/watarium/poc-cve-2023-51385)
-- [GoodPeople-ZhangSan/CVE-2023-51385_test](https://github.com/GoodPeople-ZhangSan/CVE-2023-51385_test)
 - [Le1a/CVE-2023-51385](https://github.com/Le1a/CVE-2023-51385)
 - [LtmThink/CVE-2023-51385_test](https://github.com/LtmThink/CVE-2023-51385_test)
 - [WLaoDuo/CVE-2023-51385_poc-test](https://github.com/WLaoDuo/CVE-2023-51385_poc-test)
@@ -33138,6 +33143,7 @@
 - [zerbaliy3v/cve-2018-6574-exploit](https://github.com/zerbaliy3v/cve-2018-6574-exploit)
 - [jftierno/-CVE-2018-6574](https://github.com/jftierno/-CVE-2018-6574)
 - [faiqu3/cve-2018-6574](https://github.com/faiqu3/cve-2018-6574)
+- [Dannners/CVE-2018-6574-go-get-RCE](https://github.com/Dannners/CVE-2018-6574-go-get-RCE)
 
 ### CVE-2018-6622 (2018-08-17)
 
