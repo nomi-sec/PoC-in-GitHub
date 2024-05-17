@@ -1419,13 +1419,6 @@
 
 - [RoboGR00t/Exploit-CVE-2024-26503](https://github.com/RoboGR00t/Exploit-CVE-2024-26503)
 
-### CVE-2024-26517 (-)
-
-<code>SQL Injection vulnerability in School Task Manager v.1.0 allows a remote attacker to obtain sensitive information via a crafted payload to the delete-task.php component.
-</code>
-
-- [unrealjbr/CVE-2024-26517](https://github.com/unrealjbr/CVE-2024-26517)
-
 ### CVE-2024-26521 (2024-03-12)
 
 <code>HTML Injection vulnerability in CE Phoenix v1.0.8.20 and before allows a remote attacker to execute arbitrary code, escalate privileges, and obtain sensitive information via a crafted payload to the english.php component.
@@ -1617,27 +1610,6 @@
 </code>
 
 - [YongYe-Security/CVE-2024-28255](https://github.com/YongYe-Security/CVE-2024-28255)
-
-### CVE-2024-28276 (-)
-
-<code>Sourcecodester School Task Manager 1.0 is vulnerable to Cross Site Scripting (XSS) via add-task.php?task_name=.
-</code>
-
-- [unrealjbr/CVE-2024-28276](https://github.com/unrealjbr/CVE-2024-28276)
-
-### CVE-2024-28277 (-)
-
-<code>In Sourcecodester School Task Manager v1.0, a vulnerability was identified within the subject_name= parameter, enabling Stored Cross-Site Scripting (XSS) attacks. This vulnerability allows attackers to manipulate the subject's name, potentially leading to the execution of malicious JavaScript payloads.
-</code>
-
-- [unrealjbr/CVE-2024-28277](https://github.com/unrealjbr/CVE-2024-28277)
-
-### CVE-2024-28279 (-)
-
-<code>Code-projects Computer Book Store 1.0 is vulnerable to SQL Injection via book.php?bookisbn=.
-</code>
-
-- [unrealjbr/CVE-2024-28279](https://github.com/unrealjbr/CVE-2024-28279)
 
 ### CVE-2024-28397
 - [Marven11/CVE-2024-28397](https://github.com/Marven11/CVE-2024-28397)
@@ -1852,6 +1824,9 @@
 
 - [GKalmus/referaat](https://github.com/GKalmus/referaat)
 
+### CVE-2024-31974
+- [actuator/com.solarized.firedown](https://github.com/actuator/com.solarized.firedown)
+
 ### CVE-2024-32002 (2024-05-14)
 
 <code>Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources.
@@ -1948,6 +1923,13 @@
 </code>
 
 - [julio-cfa/CVE-2024-33438](https://github.com/julio-cfa/CVE-2024-33438)
+
+### CVE-2024-33559 (2024-04-29)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in 8theme XStore allows SQL Injection.This issue affects XStore: from n/a through 9.3.5.\n\n
+</code>
+
+- [absholi7ly/WordPress-XStore-theme-SQL-Injection](https://github.com/absholi7ly/WordPress-XStore-theme-SQL-Injection)
 
 ### CVE-2024-33722
 - [fuzzlove/soplanning-1.52-exploits](https://github.com/fuzzlove/soplanning-1.52-exploits)
@@ -3238,7 +3220,7 @@
 <code>Use After Free vulnerability in Arm Ltd Midgard GPU Kernel Driver, Arm Ltd Bifrost GPU Kernel Driver, Arm Ltd Valhall GPU Kernel Driver, Arm Ltd Arm 5th Gen GPU Architecture Kernel Driver allows a local non-privileged user to exploit a software race condition to perform improper memory processing operations. If the system’s memory is carefully prepared by the user, then this in turn cause a use-after-free.This issue affects Midgard GPU Kernel Driver: from r13p0 through r32p0; Bifrost GPU Kernel Driver: from r11p0 through r25p0; Valhall GPU Kernel Driver: from r19p0 through r25p0, from r29p0 through r46p0; Arm 5th Gen GPU Architecture Kernel Driver: from r41p0 through r46p0.\n\n
 </code>
 
-- [s1204IT/CVE-2023-6241](https://github.com/s1204IT/CVE-2023-6241)
+- [SmileTabLabo/CVE-2023-6241](https://github.com/SmileTabLabo/CVE-2023-6241)
 
 ### CVE-2023-6246 (2024-01-31)
 
@@ -29721,6 +29703,7 @@
 - [davcwikla/CVE-2019-9053-exploit](https://github.com/davcwikla/CVE-2019-9053-exploit)
 - [BjarneVerschorre/CVE-2019-9053](https://github.com/BjarneVerschorre/CVE-2019-9053)
 - [Jason-Siu/CVE-2019-9053-Exploit-in-Python-3](https://github.com/Jason-Siu/CVE-2019-9053-Exploit-in-Python-3)
+- [FedericoTorres233/CVE-2019-9053-Fixed](https://github.com/FedericoTorres233/CVE-2019-9053-Fixed)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
