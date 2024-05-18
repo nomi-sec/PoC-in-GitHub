@@ -1487,6 +1487,7 @@
 
 - [xct/CVE-2024-27460](https://github.com/xct/CVE-2024-27460)
 - [Alaatk/CVE-2024-27460](https://github.com/Alaatk/CVE-2024-27460)
+- [10cks/CVE-2024-27460-installer](https://github.com/10cks/CVE-2024-27460-installer)
 
 ### CVE-2024-27462
 - [Alaatk/CVE-2024-27462](https://github.com/Alaatk/CVE-2024-27462)
@@ -2908,6 +2909,7 @@
 </code>
 
 - [E1A/CVE-2023-4596](https://github.com/E1A/CVE-2023-4596)
+- [X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version](https://github.com/X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version)
 
 ### CVE-2023-4631 (2023-09-25)
 
@@ -39320,6 +39322,7 @@
 </code>
 
 - [tmatejicek/CVE-2015-1397](https://github.com/tmatejicek/CVE-2015-1397)
+- [WHOISshuvam/CVE-2015-1397](https://github.com/WHOISshuvam/CVE-2015-1397)
 
 ### CVE-2015-1427 (2015-02-17)
 
