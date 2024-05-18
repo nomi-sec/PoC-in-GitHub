@@ -1723,6 +1723,7 @@
 - [Stuub/CVE-2024-29895-CactiRCE-PoC](https://github.com/Stuub/CVE-2024-29895-CactiRCE-PoC)
 - [secunnix/CVE-2024-29895](https://github.com/secunnix/CVE-2024-29895)
 - [ticofookfook/CVE-2024-29895.py](https://github.com/ticofookfook/CVE-2024-29895.py)
+- [Rubioo02/CVE-2024-29895](https://github.com/Rubioo02/CVE-2024-29895)
 
 ### CVE-2024-29988 (2024-04-09)
 
@@ -27582,6 +27583,13 @@
 - [ttestoo/Jetty-CVE-2020-27223](https://github.com/ttestoo/Jetty-CVE-2020-27223)
 - [hshivhare67/Jetty_v9.4.31_CVE-2020-27223_beforepatch](https://github.com/hshivhare67/Jetty_v9.4.31_CVE-2020-27223_beforepatch)
 - [hshivhare67/Jetty_v9.4.31_CVE-2020-27223](https://github.com/hshivhare67/Jetty_v9.4.31_CVE-2020-27223)
+
+### CVE-2020-27252 (2020-12-14)
+
+<code>Medtronic MyCareLink Smart 25000 all versions are vulnerable to a race condition in the MCL Smart Patient Reader software update system, which allows unsigned firmware to be uploaded and executed on the Patient Reader. If exploited an attacker could remotely execute code on the MCL Smart Patient Reader device, leading to control of the device.
+</code>
+
+- [OccultSlolem/GatorMed](https://github.com/OccultSlolem/GatorMed)
 
 ### CVE-2020-27301 (2021-06-04)
 
