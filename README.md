@@ -8713,7 +8713,6 @@
 - [hh-hunter/cve-2023-46604](https://github.com/hh-hunter/cve-2023-46604)
 - [ST3G4N05/ExploitScript-CVE-2023-46604](https://github.com/ST3G4N05/ExploitScript-CVE-2023-46604)
 - [Arlenhiack/ActiveMQ-RCE-Exploit](https://github.com/Arlenhiack/ActiveMQ-RCE-Exploit)
-- [ph-hitachi/CVE-2023-46604](https://github.com/ph-hitachi/CVE-2023-46604)
 - [vulncheck-oss/cve-2023-46604](https://github.com/vulncheck-oss/cve-2023-46604)
 - [thinkycx/activemq-rce-cve-2023-46604](https://github.com/thinkycx/activemq-rce-cve-2023-46604)
 
