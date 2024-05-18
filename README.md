@@ -641,6 +641,7 @@
 - [hakaioffsec/CVE-2024-21338](https://github.com/hakaioffsec/CVE-2024-21338)
 - [UMU618/CVE-2024-21338](https://github.com/UMU618/CVE-2024-21338)
 - [varwara/CVE-2024-21338](https://github.com/varwara/CVE-2024-21338)
+- [Zombie-Kaiser/CVE-2024-21338-x64-build-](https://github.com/Zombie-Kaiser/CVE-2024-21338-x64-build-)
 
 ### CVE-2024-21345 (2024-02-13)
 
@@ -1582,6 +1583,13 @@
 
 - [truonghuuphuc/CVE-2024-27971-Note](https://github.com/truonghuuphuc/CVE-2024-27971-Note)
 
+### CVE-2024-27972 (2024-04-03)
+
+<code>Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability in Very Good Plugins WP Fusion Lite allows Command Injection.This issue affects WP Fusion Lite: from n/a through 3.41.24.\n\n
+</code>
+
+- [truonghuuphuc/CVE-2024-27972-Poc](https://github.com/truonghuuphuc/CVE-2024-27972-Poc)
+
 ### CVE-2024-27983 (2024-04-09)
 
 <code>An attacker can make the Node.js HTTP/2 server completely unavailable by sending a small amount of HTTP/2 frames packets with a few HTTP/2 frames inside. It is possible to leave some data in nghttp2 memory after reset when headers with HTTP/2 CONTINUATION frame are sent to the server and then a TCP connection is abruptly closed by the client triggering the Http2Session destructor while header frames are still being processed (and stored in memory) causing a race condition.
@@ -1852,6 +1860,8 @@
 
 - [Disseminator/CVE-2024-32002](https://github.com/Disseminator/CVE-2024-32002)
 - [markuta/hooky](https://github.com/markuta/hooky)
+- [M507/CVE-2024-32002](https://github.com/M507/CVE-2024-32002)
+- [safebuffer/CVE-2024-32002](https://github.com/safebuffer/CVE-2024-32002)
 
 ### CVE-2024-32136 (2024-04-15)
 
@@ -28728,6 +28738,13 @@
 
 - [securifera/CVE-2019-1579](https://github.com/securifera/CVE-2019-1579)
 - [Elsfa7-110/CVE-2019-1579](https://github.com/Elsfa7-110/CVE-2019-1579)
+
+### CVE-2019-1609 (2019-03-06)
+
+<code>A vulnerability in the CLI of Cisco NX-OS Software could allow an authenticated, local attacker to execute arbitrary commands on the underlying operating system of an affected device. The vulnerability is due to insufficient validation of arguments passed to certain CLI commands. An attacker could exploit this vulnerability by including malicious input as the argument of an affected command. A successful exploit could allow the attacker to execute arbitrary commands on the underlying operating system with elevated privileges. An attacker would need valid administrator credentials to exploit this vulnerability. MDS 9000 Series Multilayer Switches are affected in versions prior to 6.2(27), 8.1(1b), and 8.3(2). Nexus 3500 Platform Switches are affected in versions prior to 7.0(3)I7(6). Nexus 3000 Series Switches are affected in versions prior to 7.0(3)I4(9) and 7.0(3)I7(6). Nexus 3600 Platform Switches are affected in versions prior to 7.0(3)F3(5). Nexus 7000 and 7700 Series Switches are affected in versions prior to 6.2(22), 7.3(3)D1(1), 8.2(3), and 8.3(2). Nexus 9000 Series Switches in Standalone NX-OS Mode are affected in versions prior to 7.0(3)I4(9) and7.0(3)I7(6). Nexus 9500 R-Series Line Cards and Fabric Modules are affected in versions prior to 7.0(3)F3(5).
+</code>
+
+- [1X14720f130x/CVE-2019-1609](https://github.com/1X14720f130x/CVE-2019-1609)
 
 ### CVE-2019-1652 (2019-01-23)
 
