@@ -40761,6 +40761,7 @@
 - [AlissonFaoli/Shellshock](https://github.com/AlissonFaoli/Shellshock)
 - [hackintoanetwork/shellshock](https://github.com/hackintoanetwork/shellshock)
 - [ajansha/shellshock](https://github.com/ajansha/shellshock)
+- [K3ysTr0K3R/CVE-2014-6271-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2014-6271-EXPLOIT)
 
 ### CVE-2014-6287 (2014-10-07)
 
