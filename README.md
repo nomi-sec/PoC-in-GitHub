@@ -470,6 +470,7 @@
 - [marconesler/CVE-2024-3400](https://github.com/marconesler/CVE-2024-3400)
 - [andrelia-hacks/CVE-2024-3400](https://github.com/andrelia-hacks/CVE-2024-3400)
 - [tk-sawada/IPLineFinder](https://github.com/tk-sawada/IPLineFinder)
+- [iwallarm/cve-2024-3400](https://github.com/iwallarm/cve-2024-3400)
 
 ### CVE-2024-3806 (2024-05-09)
 
@@ -1871,6 +1872,15 @@
 - [10cks/CVE-2024-32002-linux-hulk](https://github.com/10cks/CVE-2024-32002-linux-hulk)
 - [10cks/CVE-2024-32002-linux-submod](https://github.com/10cks/CVE-2024-32002-linux-submod)
 - [10cks/CVE-2024-32002-linux-smash](https://github.com/10cks/CVE-2024-32002-linux-smash)
+- [aitorcastel/poc_CVE-2024-32002](https://github.com/aitorcastel/poc_CVE-2024-32002)
+- [aitorcastel/poc_CVE-2024-32002_submodule](https://github.com/aitorcastel/poc_CVE-2024-32002_submodule)
+
+### CVE-2024-32004 (2024-05-14)
+
+<code>Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, an attacker can prepare a local repository in such a way that, when cloned, will execute arbitrary code during the operation. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. As a workaround, avoid cloning repositories from untrusted sources.
+</code>
+
+- [Wadewfsssss/CVE-2024-32004](https://github.com/Wadewfsssss/CVE-2024-32004)
 
 ### CVE-2024-32136 (2024-04-15)
 
@@ -28031,6 +28041,7 @@
 - [dn9uy3n/Check-WP-CVE-2020-35489](https://github.com/dn9uy3n/Check-WP-CVE-2020-35489)
 - [X0UCYB3R/Check-WP-CVE-2020-35489](https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489)
 - [reneoliveirajr/wp_CVE-2020-35489_checker](https://github.com/reneoliveirajr/wp_CVE-2020-35489_checker)
+- [Cappricio-Securities/CVE-2020-35489](https://github.com/Cappricio-Securities/CVE-2020-35489)
 
 ### CVE-2020-35498 (2021-02-11)
 
@@ -36448,6 +36459,7 @@
 - [c0d3cr4f73r/CVE-2017-7269](https://github.com/c0d3cr4f73r/CVE-2017-7269)
 - [denchief1/CVE-2017-7269_Python3](https://github.com/denchief1/CVE-2017-7269_Python3)
 - [denchief1/CVE-2017-7269](https://github.com/denchief1/CVE-2017-7269)
+- [Cappricio-Securities/CVE-2017-7269](https://github.com/Cappricio-Securities/CVE-2017-7269)
 
 ### CVE-2017-7308 (2017-03-29)
 
