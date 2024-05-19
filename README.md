@@ -1860,8 +1860,17 @@
 
 - [Disseminator/CVE-2024-32002](https://github.com/Disseminator/CVE-2024-32002)
 - [markuta/hooky](https://github.com/markuta/hooky)
+- [amalmurali47/git_rce](https://github.com/amalmurali47/git_rce)
+- [amalmurali47/hook](https://github.com/amalmurali47/hook)
 - [M507/CVE-2024-32002](https://github.com/M507/CVE-2024-32002)
 - [safebuffer/CVE-2024-32002](https://github.com/safebuffer/CVE-2024-32002)
+- [10cks/CVE-2024-32002-POC](https://github.com/10cks/CVE-2024-32002-POC)
+- [10cks/CVE-2024-32002-hulk](https://github.com/10cks/CVE-2024-32002-hulk)
+- [10cks/CVE-2024-32002-submod](https://github.com/10cks/CVE-2024-32002-submod)
+- [10cks/CVE-2024-32002-smash](https://github.com/10cks/CVE-2024-32002-smash)
+- [10cks/CVE-2024-32002-linux-hulk](https://github.com/10cks/CVE-2024-32002-linux-hulk)
+- [10cks/CVE-2024-32002-linux-submod](https://github.com/10cks/CVE-2024-32002-linux-submod)
+- [10cks/CVE-2024-32002-linux-smash](https://github.com/10cks/CVE-2024-32002-linux-smash)
 
 ### CVE-2024-32136 (2024-04-15)
 
