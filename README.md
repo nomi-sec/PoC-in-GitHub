@@ -326,6 +326,7 @@
 </code>
 
 - [mattaperkins/FIX-CVE-2024-2961](https://github.com/mattaperkins/FIX-CVE-2024-2961)
+- [rvizx/CVE-2024-2961](https://github.com/rvizx/CVE-2024-2961)
 
 ### CVE-2024-3094 (2024-03-29)
 
@@ -515,6 +516,13 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-4352-Poc](https://github.com/truonghuuphuc/CVE-2024-4352-Poc)
+
+### CVE-2024-4367 (2024-05-14)
+
+<code>A type check was missing when handling fonts in PDF.js, which would allow arbitrary JavaScript execution in the PDF.js context. This vulnerability affects Firefox &lt; 126, Firefox ESR &lt; 115.11, and Thunderbird &lt; 115.11.
+</code>
+
+- [LOURC0D3/CVE-2024-4367-PoC](https://github.com/LOURC0D3/CVE-2024-4367-PoC)
 
 ### CVE-2024-4439 (2024-05-03)
 
@@ -1892,6 +1900,8 @@
 - [10cks/hook](https://github.com/10cks/hook)
 - [jweny/CVE-2024-32002_HOOK](https://github.com/jweny/CVE-2024-32002_HOOK)
 - [jweny/CVE-2024-32002_EXP](https://github.com/jweny/CVE-2024-32002_EXP)
+- [CrackerCat/CVE-2024-32002_EXP](https://github.com/CrackerCat/CVE-2024-32002_EXP)
+- [KiranKumarK20/CVE-2024-32002](https://github.com/KiranKumarK20/CVE-2024-32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -2130,6 +2140,13 @@
 </code>
 
 - [aelmokhtar/CVE-2024-34716_PoC](https://github.com/aelmokhtar/CVE-2024-34716_PoC)
+
+### CVE-2024-34958 (-)
+
+<code>idccms v1.35 was discovered to contain a Cross-Site Request Forgery (CSRF) via the component admin/banner_deal.php?mudi=add
+</code>
+
+- [Gr-1m/CVE-2024-34958-1](https://github.com/Gr-1m/CVE-2024-34958-1)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -4582,6 +4599,13 @@
 - [CUCUMBERanOrSNCompany/SealSecurityAssignment](https://github.com/CUCUMBERanOrSNCompany/SealSecurityAssignment)
 - [ronmadar/Open-Source-Seal-Security](https://github.com/ronmadar/Open-Source-Seal-Security)
 
+### CVE-2023-26144 (2023-09-20)
+
+<code>Versions of the package graphql from 16.3.0 and before 16.8.1 are vulnerable to Denial of Service (DoS) due to insufficient checks in the OverlappingFieldsCanBeMergedRule.ts file when parsing large queries. This vulnerability allows an attacker to degrade system performance.\r\r**Note:** It was not proven that this vulnerability can crash the process.
+</code>
+
+- [tadhglewis/apollo-koa-minimal](https://github.com/tadhglewis/apollo-koa-minimal)
+
 ### CVE-2023-26255 (2023-02-28)
 
 <code>An unauthenticated path traversal vulnerability affects the &quot;STAGIL Navigation for Jira - Menu &amp; Themes&quot; plugin before 2.0.52 for Jira. By modifying the fileName parameter to the snjCustomDesignConfig endpoint, it is possible to traverse and read the file system.
@@ -6377,6 +6401,13 @@
 </code>
 
 - [AgentY0/CVE-2023-34965](https://github.com/AgentY0/CVE-2023-34965)
+
+### CVE-2023-34992 (2023-10-10)
+
+<code>A improper neutralization of special elements used in an os command ('os command injection') in Fortinet FortiSIEM version 7.0.0 and 6.7.0 through 6.7.5 and 6.6.0 through 6.6.3 and 6.5.0 through 6.5.1 and 6.4.0 through 6.4.2 allows attacker to execute unauthorized code or commands via crafted API requests.
+</code>
+
+- [horizon3ai/CVE-2023-34992](https://github.com/horizon3ai/CVE-2023-34992)
 
 ### CVE-2023-35001 (2023-07-05)
 
@@ -14179,7 +14210,7 @@
 - [tangxiaofeng7/CVE-2022-33980-Apache-Commons-Configuration-RCE](https://github.com/tangxiaofeng7/CVE-2022-33980-Apache-Commons-Configuration-RCE)
 - [HKirito/CVE-2022-33980](https://github.com/HKirito/CVE-2022-33980)
 - [sammwyy/CVE-2022-33980-POC](https://github.com/sammwyy/CVE-2022-33980-POC)
-- [P0lar1ght/CVE-2022-33980-EXP](https://github.com/P0lar1ght/CVE-2022-33980-EXP)
+- [P0lar1ght/CVE-2022-33980-POC](https://github.com/P0lar1ght/CVE-2022-33980-POC)
 - [joseluisinigo/riskootext4shell](https://github.com/joseluisinigo/riskootext4shell)
 
 ### CVE-2022-34024 (2022-07-19)
