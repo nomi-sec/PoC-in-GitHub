@@ -510,6 +510,13 @@
 - [gotr00t0day/CVE-2024-4040](https://github.com/gotr00t0day/CVE-2024-4040)
 - [1ncendium/CVE-2024-4040](https://github.com/1ncendium/CVE-2024-4040)
 
+### CVE-2024-4323 (2024-05-20)
+
+<code>A memory corruption vulnerability in Fluent Bit versions 2.0.7 thru 3.0.3. This issue lies in the embedded http server’s parsing of trace requests and may result in denial of service conditions, information disclosure, or remote code execution.
+</code>
+
+- [skilfoy/CVE-2024-4323-Exploit-POC](https://github.com/skilfoy/CVE-2024-4323-Exploit-POC)
+
 ### CVE-2024-4352 (2024-05-16)
 
 <code>The Tutor LMS Pro plugin for WordPress is vulnerable to unauthorized access of data, modification of data, loss of data due to a missing capability check on the 'get_calendar_materials' function. The plugin is also vulnerable to SQL Injection via the ‘year’ parameter of that function due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with subscriber-level permissions and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -807,6 +814,7 @@
 <code>Applications that use UriComponentsBuilder to parse an externally provided URL (e.g. through a query parameter) AND perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html  attack or to a SSRF attack if the URL is used after passing validation checks.\n
 </code>
 
+- [SeanPesce/CVE-2024-22243](https://github.com/SeanPesce/CVE-2024-22243)
 - [shellfeel/CVE-2024-22243-CVE-2024-22234](https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234)
 
 ### CVE-2024-22369 (2024-02-20)
@@ -1909,6 +1917,7 @@
 </code>
 
 - [Wadewfsssss/CVE-2024-32004](https://github.com/Wadewfsssss/CVE-2024-32004)
+- [10cks/CVE-2024-32004-POC](https://github.com/10cks/CVE-2024-32004-POC)
 
 ### CVE-2024-32136 (2024-04-15)
 
@@ -2966,6 +2975,13 @@
 </code>
 
 - [b0marek/CVE-2023-4549](https://github.com/b0marek/CVE-2023-4549)
+
+### CVE-2023-4568 (2023-09-13)
+
+<code>PaperCut NG allows for unauthenticated XMLRPC commands to be run by default. Versions 22.0.12 and below are confirmed to be affected, but later versions may also be affected due to lack of a vendor supplied patch.
+</code>
+
+- [Cappricio-Securities/CVE-2023-4568](https://github.com/Cappricio-Securities/CVE-2023-4568)
 
 ### CVE-2023-4596 (2023-08-30)
 
@@ -4751,6 +4767,7 @@
 </code>
 
 - [DarokNET/CVE-2023-27100](https://github.com/DarokNET/CVE-2023-27100)
+- [fabdotnet/CVE-2023-27100](https://github.com/fabdotnet/CVE-2023-27100)
 
 ### CVE-2023-27163 (2023-03-31)
 
@@ -7037,6 +7054,13 @@
 - [horizon3ai/CVE-2023-38035](https://github.com/horizon3ai/CVE-2023-38035)
 - [LeakIX/sentryexploit](https://github.com/LeakIX/sentryexploit)
 - [mind2hex/CVE-2023-38035](https://github.com/mind2hex/CVE-2023-38035)
+
+### CVE-2023-38039 (2023-09-15)
+
+<code>When curl retrieves an HTTP response, it stores the incoming headers so that\nthey can be accessed later via the libcurl headers API.\n\nHowever, curl did not have a limit in how many or how large headers it would\naccept in a response, allowing a malicious server to stream an endless series\nof headers and eventually cause curl to run out of heap memory.
+</code>
+
+- [Smartkeyss/CVE-2023-38039](https://github.com/Smartkeyss/CVE-2023-38039)
 
 ### CVE-2023-38041 (2023-10-25)
 
