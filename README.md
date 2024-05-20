@@ -472,6 +472,13 @@
 - [tk-sawada/IPLineFinder](https://github.com/tk-sawada/IPLineFinder)
 - [iwallarm/cve-2024-3400](https://github.com/iwallarm/cve-2024-3400)
 
+### CVE-2024-3435 (2024-05-16)
+
+<code>A path traversal vulnerability exists in the 'save_settings' endpoint of the parisneo/lollms-webui application, affecting versions up to the latest release before 9.5. The vulnerability arises due to insufficient sanitization of the 'config' parameter in the 'apply_settings' function, allowing an attacker to manipulate the application's configuration by sending specially crafted JSON payloads. This could lead to remote code execution (RCE) by bypassing existing patches designed to mitigate such vulnerabilities.
+</code>
+
+- [ymuraki-csc/cve-2024-3435](https://github.com/ymuraki-csc/cve-2024-3435)
+
 ### CVE-2024-3806 (2024-05-09)
 
 <code>The Porto theme for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 7.1.0 via the 'porto_ajax_posts' function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where php file type can be uploaded and included.
@@ -547,6 +554,7 @@
 </code>
 
 - [nettitude/CVE-2024-20356](https://github.com/nettitude/CVE-2024-20356)
+- [SherllyNeo/CVE_2024_20356](https://github.com/SherllyNeo/CVE_2024_20356)
 
 ### CVE-2024-20656 (2024-01-09)
 
@@ -771,6 +779,13 @@
 
 ### CVE-2024-22026
 - [securekomodo/CVE-2024-22026](https://github.com/securekomodo/CVE-2024-22026)
+
+### CVE-2024-22120 (2024-05-17)
+
+<code>Zabbix server can perform command execution for configured scripts. After command is executed, audit entry is added to &quot;Audit Log&quot;. Due to &quot;clientip&quot; field is not sanitized, it is possible to injection SQL into &quot;clientip&quot; and exploit time based blind SQL injection.
+</code>
+
+- [W01fh4cker/CVE-2024-22120-RCE](https://github.com/W01fh4cker/CVE-2024-22120-RCE)
 
 ### CVE-2024-22145 (2024-05-17)
 
@@ -1860,7 +1875,6 @@
 <code>Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources.
 </code>
 
-- [Disseminator/CVE-2024-32002](https://github.com/Disseminator/CVE-2024-32002)
 - [markuta/hooky](https://github.com/markuta/hooky)
 - [amalmurali47/git_rce](https://github.com/amalmurali47/git_rce)
 - [amalmurali47/hook](https://github.com/amalmurali47/hook)
@@ -1875,6 +1889,9 @@
 - [10cks/CVE-2024-32002-linux-smash](https://github.com/10cks/CVE-2024-32002-linux-smash)
 - [aitorcastel/poc_CVE-2024-32002](https://github.com/aitorcastel/poc_CVE-2024-32002)
 - [aitorcastel/poc_CVE-2024-32002_submodule](https://github.com/aitorcastel/poc_CVE-2024-32002_submodule)
+- [10cks/hook](https://github.com/10cks/hook)
+- [jweny/CVE-2024-32002_HOOK](https://github.com/jweny/CVE-2024-32002_HOOK)
+- [jweny/CVE-2024-32002_EXP](https://github.com/jweny/CVE-2024-32002_EXP)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -18491,6 +18508,7 @@
 </code>
 
 - [dikalasenjadatang/CVE-2021-24917](https://github.com/dikalasenjadatang/CVE-2021-24917)
+- [Cappricio-Securities/CVE-2021-24917](https://github.com/Cappricio-Securities/CVE-2021-24917)
 
 ### CVE-2021-25003 (2022-03-14)
 
