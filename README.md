@@ -1688,6 +1688,7 @@
 
 - [wutalent/CVE-2024-29269](https://github.com/wutalent/CVE-2024-29269)
 - [YongYe-Security/CVE-2024-29269](https://github.com/YongYe-Security/CVE-2024-29269)
+- [Chocapikk/CVE-2024-29269](https://github.com/Chocapikk/CVE-2024-29269)
 
 ### CVE-2024-29272 (2024-03-22)
 
@@ -7008,7 +7009,7 @@
 <code>Windows Themes Remote Code Execution Vulnerability
 </code>
 
-- [gabe-k/themebleed](https://github.com/gabe-k/themebleed)
+- [exploits-forsale/themebleed](https://github.com/exploits-forsale/themebleed)
 - [Jnnshschl/CVE-2023-38146](https://github.com/Jnnshschl/CVE-2023-38146)
 - [Durge5/ThemeBleedPy](https://github.com/Durge5/ThemeBleedPy)
 
@@ -17063,6 +17064,7 @@
 - [withmasday/CVE-2021-3129](https://github.com/withmasday/CVE-2021-3129)
 - [banyaksepuh/Mass-CVE-2021-3129-Scanner](https://github.com/banyaksepuh/Mass-CVE-2021-3129-Scanner)
 - [Axianke/CVE-2021-3129](https://github.com/Axianke/CVE-2021-3129)
+- [cc3305/CVE-2021-3129](https://github.com/cc3305/CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -18162,6 +18164,7 @@
 - [overgrowncarrot1/DejaVu-CVE-2021-22205](https://github.com/overgrowncarrot1/DejaVu-CVE-2021-22205)
 - [Hikikan/CVE-2021-22205](https://github.com/Hikikan/CVE-2021-22205)
 - [NukingDragons/gitlab-cve-2021-22205](https://github.com/NukingDragons/gitlab-cve-2021-22205)
+- [cc3305/CVE-2021-22205](https://github.com/cc3305/CVE-2021-22205)
 
 ### CVE-2021-22206 (2021-05-06)
 
