@@ -517,6 +517,7 @@
 </code>
 
 - [skilfoy/CVE-2024-4323-Exploit-POC](https://github.com/skilfoy/CVE-2024-4323-Exploit-POC)
+- [d0rb/CVE-2024-4323](https://github.com/d0rb/CVE-2024-4323)
 
 ### CVE-2024-4352 (2024-05-16)
 
@@ -555,6 +556,13 @@
 </code>
 
 - [michredteam/CVE-2024-4761](https://github.com/michredteam/CVE-2024-4761)
+
+### CVE-2024-4875 (2024-05-21)
+
+<code>The HT Mega – Absolute Addons For Elementor plugin for WordPress is vulnerable to unauthorized modification of data|loss of data due to a missing capability check on the 'ajax_dismiss' function in versions up to, and including, 2.5.2. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to update options such as users_can_register, which can lead to unauthorized user registration.
+</code>
+
+- [RandomRobbieBF/CVE-2024-4875](https://github.com/RandomRobbieBF/CVE-2024-4875)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -1490,7 +1498,11 @@
 
 - [MaherAzzouzi/CVE-2024-26817-amdkfd](https://github.com/MaherAzzouzi/CVE-2024-26817-amdkfd)
 
-### CVE-2024-27130
+### CVE-2024-27130 (2024-05-21)
+
+<code>A buffer copy without checking size of input vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute code via a network.\n\nWe have already fixed the vulnerability in the following version:\nQTS 5.1.7.2770 build 20240520 and later\nQuTS hero h5.1.7.2770 build 20240520 and later
+</code>
+
 - [watchtowrlabs/CVE-2024-27130](https://github.com/watchtowrlabs/CVE-2024-27130)
 - [d0rb/CVE-2024-27130](https://github.com/d0rb/CVE-2024-27130)
 
@@ -1608,9 +1620,9 @@
 - [X-Projetion/CVE-2024-27956-WORDPRESS-RCE-PLUGIN](https://github.com/X-Projetion/CVE-2024-27956-WORDPRESS-RCE-PLUGIN)
 - [FoxyProxys/CVE-2024-27956](https://github.com/FoxyProxys/CVE-2024-27956)
 - [k3ppf0r/CVE-2024-27956](https://github.com/k3ppf0r/CVE-2024-27956)
-- [nancyariah4/CVE-2024-27956](https://github.com/nancyariah4/CVE-2024-27956)
 - [AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956](https://github.com/AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956)
 - [W3BW/CVE-2024-27956-RCE-File-Package](https://github.com/W3BW/CVE-2024-27956-RCE-File-Package)
+- [nancyariah4/CVE-2024-27956](https://github.com/nancyariah4/CVE-2024-27956)
 
 ### CVE-2024-27971 (2024-05-17)
 
@@ -1920,6 +1932,8 @@
 - [jerrydotlam/cve-2024-32002-3](https://github.com/jerrydotlam/cve-2024-32002-3)
 - [1mxml/CVE-2024-32002-poc](https://github.com/1mxml/CVE-2024-32002-poc)
 - [Roronoawjd/hook](https://github.com/Roronoawjd/hook)
+- [Roronoawjd/git_rce](https://github.com/Roronoawjd/git_rce)
+- [JJoosh/CVE-2024-32002-Reverse-Shell](https://github.com/JJoosh/CVE-2024-32002-Reverse-Shell)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -1992,6 +2006,7 @@
 ### CVE-2024-32640
 - [Stuub/CVE-2024-32640-SQLI-MuraCMS](https://github.com/Stuub/CVE-2024-32640-SQLI-MuraCMS)
 - [0x3f3c/CVE-2024-32640-SQLI-MuraCMS](https://github.com/0x3f3c/CVE-2024-32640-SQLI-MuraCMS)
+- [nancyariah4/CVE-2024-32640-MuraCMS](https://github.com/nancyariah4/CVE-2024-32640-MuraCMS)
 
 ### CVE-2024-32709 (2024-04-24)
 
@@ -8838,6 +8853,9 @@
 </code>
 
 - [RandomRobbieBF/CVE-2023-46615](https://github.com/RandomRobbieBF/CVE-2023-46615)
+
+### CVE-2023-46694
+- [invisiblebyte/CVE-2023-46694](https://github.com/invisiblebyte/CVE-2023-46694)
 
 ### CVE-2023-46747 (2023-10-26)
 
@@ -41366,6 +41384,7 @@
 
 - [snoopopsec/vulnerability-CVE-2013-3900](https://github.com/snoopopsec/vulnerability-CVE-2013-3900)
 - [CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln](https://github.com/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln)
+- [Securenetology/CVE-2013-3900](https://github.com/Securenetology/CVE-2013-3900)
 
 ### CVE-2013-4002 (2013-07-23)
 
