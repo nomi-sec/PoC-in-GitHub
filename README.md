@@ -1912,6 +1912,9 @@
 - [jweny/CVE-2024-32002_EXP](https://github.com/jweny/CVE-2024-32002_EXP)
 - [CrackerCat/CVE-2024-32002_EXP](https://github.com/CrackerCat/CVE-2024-32002_EXP)
 - [KiranKumarK20/CVE-2024-32002](https://github.com/KiranKumarK20/CVE-2024-32002)
+- [jerrydotlam/cve-2024-32002-1](https://github.com/jerrydotlam/cve-2024-32002-1)
+- [jerrydotlam/cve-2024-32002-2](https://github.com/jerrydotlam/cve-2024-32002-2)
+- [jerrydotlam/cve-2024-32002-3](https://github.com/jerrydotlam/cve-2024-32002-3)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -34045,6 +34048,7 @@
 - [arminarab1999/CVE-2018-9995](https://github.com/arminarab1999/CVE-2018-9995)
 - [X3RX3SSec/DVR_Sploit](https://github.com/X3RX3SSec/DVR_Sploit)
 - [batmoshka55/CVE-2018-9995_dvr_credentials](https://github.com/batmoshka55/CVE-2018-9995_dvr_credentials)
+- [dego905/Cam](https://github.com/dego905/Cam)
 
 ### CVE-2018-10097 (2022-10-03)
 
@@ -35548,6 +35552,7 @@
 - [ThiiagoEscobar/CVE-2018-25031](https://github.com/ThiiagoEscobar/CVE-2018-25031)
 - [johnlaurance/CVE-2018-25031-test2](https://github.com/johnlaurance/CVE-2018-25031-test2)
 - [geozin/POC-CVE-2018-25031](https://github.com/geozin/POC-CVE-2018-25031)
+- [h2oa/CVE-2018-25031](https://github.com/h2oa/CVE-2018-25031)
 
 ### CVE-2018-25032 (2022-03-25)
 
