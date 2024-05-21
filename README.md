@@ -530,6 +530,7 @@
 </code>
 
 - [LOURC0D3/CVE-2024-4367-PoC](https://github.com/LOURC0D3/CVE-2024-4367-PoC)
+- [s4vvysec/CVE-2024-4367-POC](https://github.com/s4vvysec/CVE-2024-4367-POC)
 
 ### CVE-2024-4439 (2024-05-03)
 
@@ -538,6 +539,7 @@
 
 - [MielPopsssssss/CVE-2024-4439](https://github.com/MielPopsssssss/CVE-2024-4439)
 - [d0rb/CVE-2024-4439](https://github.com/d0rb/CVE-2024-4439)
+- [xssor-dz/-CVE-2024-4439](https://github.com/xssor-dz/-CVE-2024-4439)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -2156,6 +2158,9 @@
 </code>
 
 - [Gr-1m/CVE-2024-34958-1](https://github.com/Gr-1m/CVE-2024-34958-1)
+
+### CVE-2024-36079
+- [DxRvs/vaultize_CVE-2024-36079](https://github.com/DxRvs/vaultize_CVE-2024-36079)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -27306,6 +27311,13 @@
 </code>
 
 - [darkvirus-7x/exploit-CVE-2020-24815](https://github.com/darkvirus-7x/exploit-CVE-2020-24815)
+
+### CVE-2020-24913 (2021-03-04)
+
+<code>A SQL injection vulnerability in qcubed (all versions including 3.1.1) in profile.php via the strQuery parameter allows an unauthenticated attacker to access the database by injecting SQL code via a crafted POST request.
+</code>
+
+- [agarma/CVE-2020-24913-PoC](https://github.com/agarma/CVE-2020-24913-PoC)
 
 ### CVE-2020-24949 (2020-09-03)
 
