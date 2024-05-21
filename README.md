@@ -418,6 +418,7 @@
 </code>
 
 - [nickswink/D-Link-NAS-Devices-Unauthenticated-RCE](https://github.com/nickswink/D-Link-NAS-Devices-Unauthenticated-RCE)
+- [aliask/dinkleberry](https://github.com/aliask/dinkleberry)
 
 ### CVE-2024-3273 (2024-04-04)
 
@@ -1491,6 +1492,7 @@
 
 ### CVE-2024-27130
 - [watchtowrlabs/CVE-2024-27130](https://github.com/watchtowrlabs/CVE-2024-27130)
+- [d0rb/CVE-2024-27130](https://github.com/d0rb/CVE-2024-27130)
 
 ### CVE-2024-27198 (2024-03-04)
 
@@ -1768,6 +1770,7 @@
 - [secunnix/CVE-2024-29895](https://github.com/secunnix/CVE-2024-29895)
 - [ticofookfook/CVE-2024-29895.py](https://github.com/ticofookfook/CVE-2024-29895.py)
 - [Rubioo02/CVE-2024-29895](https://github.com/Rubioo02/CVE-2024-29895)
+- [nancyariah4/CVE-2024-29895-CactiRCE-PoC](https://github.com/nancyariah4/CVE-2024-29895-CactiRCE-PoC)
 
 ### CVE-2024-29988 (2024-04-09)
 
@@ -1915,6 +1918,8 @@
 - [jerrydotlam/cve-2024-32002-1](https://github.com/jerrydotlam/cve-2024-32002-1)
 - [jerrydotlam/cve-2024-32002-2](https://github.com/jerrydotlam/cve-2024-32002-2)
 - [jerrydotlam/cve-2024-32002-3](https://github.com/jerrydotlam/cve-2024-32002-3)
+- [1mxml/CVE-2024-32002-poc](https://github.com/1mxml/CVE-2024-32002-poc)
+- [Roronoawjd/hook](https://github.com/Roronoawjd/hook)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -6433,6 +6438,7 @@
 </code>
 
 - [horizon3ai/CVE-2023-34992](https://github.com/horizon3ai/CVE-2023-34992)
+- [d0rb/CVE-2023-34992-Checker](https://github.com/d0rb/CVE-2023-34992-Checker)
 
 ### CVE-2023-35001 (2023-07-05)
 
@@ -29079,6 +29085,7 @@
 - [0xNinjaCyclone/cve-2019-3396](https://github.com/0xNinjaCyclone/cve-2019-3396)
 - [46o60/CVE-2019-3396_Confluence](https://github.com/46o60/CVE-2019-3396_Confluence)
 - [PetrusViet/cve-2019-3396](https://github.com/PetrusViet/cve-2019-3396)
+- [Avento/CVE-2019-3396-Memshell-for-Behinder](https://github.com/Avento/CVE-2019-3396-Memshell-for-Behinder)
 
 ### CVE-2019-3398 (2019-04-17)
 
@@ -32326,6 +32333,7 @@
 - [yassineaboukir/CVE-2018-0296](https://github.com/yassineaboukir/CVE-2018-0296)
 - [bhenner1/CVE-2018-0296](https://github.com/bhenner1/CVE-2018-0296)
 - [qiantu88/CVE-2018-0296](https://github.com/qiantu88/CVE-2018-0296)
+- [Cappricio-Securities/CVE-2018-0296](https://github.com/Cappricio-Securities/CVE-2018-0296)
 
 ### CVE-2018-0708 (2018-07-10)
 
