@@ -525,6 +525,7 @@
 
 - [skilfoy/CVE-2024-4323-Exploit-POC](https://github.com/skilfoy/CVE-2024-4323-Exploit-POC)
 - [d0rb/CVE-2024-4323](https://github.com/d0rb/CVE-2024-4323)
+- [yuansec/CVE-2024-4323-dos_poc](https://github.com/yuansec/CVE-2024-4323-dos_poc)
 
 ### CVE-2024-4352 (2024-05-16)
 
@@ -1937,13 +1938,17 @@
 - [jerrydotlam/cve-2024-32002-1](https://github.com/jerrydotlam/cve-2024-32002-1)
 - [jerrydotlam/cve-2024-32002-2](https://github.com/jerrydotlam/cve-2024-32002-2)
 - [jerrydotlam/cve-2024-32002-3](https://github.com/jerrydotlam/cve-2024-32002-3)
-- [1mxml/CVE-2024-32002-poc](https://github.com/1mxml/CVE-2024-32002-poc)
 - [Roronoawjd/hook](https://github.com/Roronoawjd/hook)
 - [Roronoawjd/git_rce](https://github.com/Roronoawjd/git_rce)
 - [JJoosh/CVE-2024-32002-Reverse-Shell](https://github.com/JJoosh/CVE-2024-32002-Reverse-Shell)
 - [WOOOOONG/CVE-2024-32002](https://github.com/WOOOOONG/CVE-2024-32002)
 - [WOOOOONG/hook](https://github.com/WOOOOONG/hook)
 - [YuanlooSec/CVE-2024-32002-poc](https://github.com/YuanlooSec/CVE-2024-32002-poc)
+- [1mxml/CVE-2024-32002-poc](https://github.com/1mxml/CVE-2024-32002-poc)
+- [bfengj/CVE-2024-32002-hook](https://github.com/bfengj/CVE-2024-32002-hook)
+- [ycdxsb/CVE-2024-32002-hulk](https://github.com/ycdxsb/CVE-2024-32002-hulk)
+- [ycdxsb/CVE-2024-32002-submod](https://github.com/ycdxsb/CVE-2024-32002-submod)
+- [bfengj/CVE-2024-32002-Exploit](https://github.com/bfengj/CVE-2024-32002-Exploit)
 
 ### CVE-2024-32004 (2024-05-14)
 
