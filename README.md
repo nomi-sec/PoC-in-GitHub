@@ -25,6 +25,13 @@
 - [m-cetin/CVE-2024-0204](https://github.com/m-cetin/CVE-2024-0204)
 - [adminlove520/CVE-2024-0204](https://github.com/adminlove520/CVE-2024-0204)
 
+### CVE-2024-0230 (2024-01-12)
+
+<code>A session management issue was addressed with improved checks. This issue is fixed in Magic Keyboard Firmware Update 2.0.6. An attacker with physical access to the accessory may be able to extract its Bluetooth pairing key and monitor Bluetooth traffic.
+</code>
+
+- [keldnorman/cve-2024-0230-blue](https://github.com/keldnorman/cve-2024-0230-blue)
+
 ### CVE-2024-0305 (2024-01-08)
 
 <code>Eine Schwachstelle wurde in Guangzhou Yingke Electronic Technology Ncast bis 2017 gefunden. Sie wurde als problematisch eingestuft. Dies betrifft einen unbekannten Teil der Datei /manage/IPSetup.php der Komponente Guest Login. Durch das Manipulieren mit unbekannten Daten kann eine information disclosure-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
@@ -2616,6 +2623,7 @@
 - [musorblyat/CVE-2023-2640-CVE-2023-32629](https://github.com/musorblyat/CVE-2023-2640-CVE-2023-32629)
 - [SanjayRagavendar/Ubuntu-GameOver-Lay](https://github.com/SanjayRagavendar/Ubuntu-GameOver-Lay)
 - [Nkipohcs/CVE-2023-2640-CVE-2023-32629](https://github.com/Nkipohcs/CVE-2023-2640-CVE-2023-32629)
+- [K5LK/CVE-2023-2640-32629](https://github.com/K5LK/CVE-2023-2640-32629)
 
 ### CVE-2023-2650 (2023-05-30)
 
