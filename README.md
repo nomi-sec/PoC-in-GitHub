@@ -587,6 +587,7 @@
 
 - [banditzCyber0x/CVE-2024-4956](https://github.com/banditzCyber0x/CVE-2024-4956)
 - [xungzzz/CVE-2024-4956](https://github.com/xungzzz/CVE-2024-4956)
+- [erickfernandox/CVE-2024-4956](https://github.com/erickfernandox/CVE-2024-4956)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -784,8 +785,7 @@
 <code>This High severity RCE (Remote Code Execution) vulnerability was introduced in version 5.2 of Confluence Data Center and Server.\n\nThis RCE (Remote Code Execution) vulnerability, with a CVSS Score of 8.3, allows an authenticated attacker to execute arbitrary code which has high impact to confidentiality, high impact to integrity, high impact to availability, and requires no user interaction. \n\nAtlassian recommends that Confluence Data Center and Server customers upgrade to latest version. If you are unable to do so, upgrade your instance to one of the specified supported fixed versions. See the release notes https://confluence.atlassian.com/doc/confluence-release-notes-327.html\n\nYou can download the latest version of Confluence Data Center and Server from the download center https://www.atlassian.com/software/confluence/download-archives.\n\nThis vulnerability was found internally.
 </code>
 
-- [absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server](https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server)
-- [Arbeys/CVE-2024-21683-PoC](https://github.com/Arbeys/CVE-2024-21683-PoC)
+- [r00t7oo2jm/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server](https://github.com/r00t7oo2jm/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server)
 - [W01fh4cker/CVE-2024-21683-RCE](https://github.com/W01fh4cker/CVE-2024-21683-RCE)
 
 ### CVE-2024-21762 (2024-02-09)
@@ -828,6 +828,9 @@
 
 - [h4x0r-dz/CVE-2024-21893.py](https://github.com/h4x0r-dz/CVE-2024-21893.py)
 - [Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887)
+
+### CVE-2024-22002
+- [0xkickit/iCUE_DllHijack_LPE-CVE-2024-22002](https://github.com/0xkickit/iCUE_DllHijack_LPE-CVE-2024-22002)
 
 ### CVE-2024-22024 (2024-02-13)
 
@@ -1976,7 +1979,6 @@
 - [bfengj/CVE-2024-32002-Exploit](https://github.com/bfengj/CVE-2024-32002-Exploit)
 - [vincepsh/CVE-2024-32002](https://github.com/vincepsh/CVE-2024-32002)
 - [vincepsh/CVE-2024-32002-hook](https://github.com/vincepsh/CVE-2024-32002-hook)
-- [JJoosh/CVE-2024-32002-](https://github.com/JJoosh/CVE-2024-32002-)
 - [10cks/CVE-2024-32002-EXP](https://github.com/10cks/CVE-2024-32002-EXP)
 - [WOOOOONG/CVE-2024-32002](https://github.com/WOOOOONG/CVE-2024-32002)
 - [WOOOOONG/hook](https://github.com/WOOOOONG/hook)
@@ -4531,6 +4533,13 @@
 </code>
 
 - [csffs/CVE-2023-24775-and-CVE-2023-24780](https://github.com/csffs/CVE-2023-24775-and-CVE-2023-24780)
+
+### CVE-2023-24932 (2023-05-09)
+
+<code>Secure Boot Security Feature Bypass Vulnerability
+</code>
+
+- [ChristelVDH/Invoke-BlackLotusMitigation](https://github.com/ChristelVDH/Invoke-BlackLotusMitigation)
 
 ### CVE-2023-24955 (2023-05-09)
 
@@ -9719,6 +9728,7 @@
 </code>
 
 - [knqyf263/CVE-2023-50387](https://github.com/knqyf263/CVE-2023-50387)
+- [Meirelez/SSR-DNSSEC](https://github.com/Meirelez/SSR-DNSSEC)
 
 ### CVE-2023-50465 (2023-12-11)
 
