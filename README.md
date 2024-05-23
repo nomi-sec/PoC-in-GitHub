@@ -580,6 +580,14 @@
 
 - [RandomRobbieBF/CVE-2024-4875](https://github.com/RandomRobbieBF/CVE-2024-4875)
 
+### CVE-2024-4956 (2024-05-16)
+
+<code>Path Traversal in Sonatype Nexus Repository 3 allows an unauthenticated attacker to read system files. Fixed in version 3.68.1.
+</code>
+
+- [banditzCyber0x/CVE-2024-4956](https://github.com/banditzCyber0x/CVE-2024-4956)
+- [xungzzz/CVE-2024-4956](https://github.com/xungzzz/CVE-2024-4956)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -778,6 +786,7 @@
 
 - [absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server](https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server)
 - [Arbeys/CVE-2024-21683-PoC](https://github.com/Arbeys/CVE-2024-21683-PoC)
+- [W01fh4cker/CVE-2024-21683-RCE](https://github.com/W01fh4cker/CVE-2024-21683-RCE)
 
 ### CVE-2024-21762 (2024-02-09)
 
@@ -1650,7 +1659,6 @@
 - [k3ppf0r/CVE-2024-27956](https://github.com/k3ppf0r/CVE-2024-27956)
 - [AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956](https://github.com/AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956)
 - [W3BW/CVE-2024-27956-RCE-File-Package](https://github.com/W3BW/CVE-2024-27956-RCE-File-Package)
-- [nancyariah4/CVE-2024-27956](https://github.com/nancyariah4/CVE-2024-27956)
 
 ### CVE-2024-27971 (2024-05-17)
 
@@ -1810,7 +1818,6 @@
 - [secunnix/CVE-2024-29895](https://github.com/secunnix/CVE-2024-29895)
 - [ticofookfook/CVE-2024-29895.py](https://github.com/ticofookfook/CVE-2024-29895.py)
 - [Rubioo02/CVE-2024-29895](https://github.com/Rubioo02/CVE-2024-29895)
-- [nancyariah4/CVE-2024-29895-CactiRCE-PoC](https://github.com/nancyariah4/CVE-2024-29895-CactiRCE-PoC)
 
 ### CVE-2024-29988 (2024-04-09)
 
@@ -1971,6 +1978,9 @@
 - [vincepsh/CVE-2024-32002-hook](https://github.com/vincepsh/CVE-2024-32002-hook)
 - [JJoosh/CVE-2024-32002-](https://github.com/JJoosh/CVE-2024-32002-)
 - [10cks/CVE-2024-32002-EXP](https://github.com/10cks/CVE-2024-32002-EXP)
+- [WOOOOONG/CVE-2024-32002](https://github.com/WOOOOONG/CVE-2024-32002)
+- [WOOOOONG/hook](https://github.com/WOOOOONG/hook)
+- [fadhilthomas/poc-git-rce-cve-2024-32002](https://github.com/fadhilthomas/poc-git-rce-cve-2024-32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -2050,7 +2060,6 @@
 ### CVE-2024-32640
 - [Stuub/CVE-2024-32640-SQLI-MuraCMS](https://github.com/Stuub/CVE-2024-32640-SQLI-MuraCMS)
 - [0x3f3c/CVE-2024-32640-SQLI-MuraCMS](https://github.com/0x3f3c/CVE-2024-32640-SQLI-MuraCMS)
-- [nancyariah4/CVE-2024-32640-MuraCMS](https://github.com/nancyariah4/CVE-2024-32640-MuraCMS)
 
 ### CVE-2024-32709 (2024-04-24)
 
@@ -4203,6 +4212,7 @@
 </code>
 
 - [Saboor-Hakimi/CVE-2023-22894](https://github.com/Saboor-Hakimi/CVE-2023-22894)
+- [ductan2/CVE-2023-22894](https://github.com/ductan2/CVE-2023-22894)
 
 ### CVE-2023-22906 (2023-07-03)
 
@@ -6303,6 +6313,7 @@
 </code>
 
 - [overgrowncarrot1/ImageTragick_CVE-2023-34152](https://github.com/overgrowncarrot1/ImageTragick_CVE-2023-34152)
+- [SudoIndividual/CVE-2023-34152](https://github.com/SudoIndividual/CVE-2023-34152)
 
 ### CVE-2023-34212 (2023-06-12)
 
@@ -22502,7 +22513,7 @@
 - [felipe8398/ModSec-log4j2](https://github.com/felipe8398/ModSec-log4j2)
 - [ceyhuncamli/Log4j_Attacker_IPList](https://github.com/ceyhuncamli/Log4j_Attacker_IPList)
 - [mazhar-hassan/log4j-vulnerability](https://github.com/mazhar-hassan/log4j-vulnerability)
-- [cungts/VTI-IOCs-CVE-2021-44228](https://github.com/cungts/VTI-IOCs-CVE-2021-44228)
+- [xungzzz/VTI-IOCs-CVE-2021-44228](https://github.com/xungzzz/VTI-IOCs-CVE-2021-44228)
 - [s-retlaw/l4s_poc](https://github.com/s-retlaw/l4s_poc)
 - [Ravid-CheckMarx/CVE-2021-44228-Apache-Log4j-Rce-main](https://github.com/Ravid-CheckMarx/CVE-2021-44228-Apache-Log4j-Rce-main)
 - [yesspider-hacker/log4j-payload-generator](https://github.com/yesspider-hacker/log4j-payload-generator)
