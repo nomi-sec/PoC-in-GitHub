@@ -488,6 +488,13 @@
 
 - [ymuraki-csc/cve-2024-3435](https://github.com/ymuraki-csc/cve-2024-3435)
 
+### CVE-2024-3495 (2024-05-22)
+
+<code>The Country State City Dropdown CF7 plugin for WordPress is vulnerable to SQL Injection via the ‘cnt’ and 'sid' parameters in versions up to, and including, 2.7.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [truonghuuphuc/CVE-2024-3495-Poc](https://github.com/truonghuuphuc/CVE-2024-3495-Poc)
+
 ### CVE-2024-3806 (2024-05-09)
 
 <code>The Porto theme for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 7.1.0 via the 'porto_ajax_posts' function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where php file type can be uploaded and included.
@@ -1954,8 +1961,6 @@
 - [Roronoawjd/hook](https://github.com/Roronoawjd/hook)
 - [Roronoawjd/git_rce](https://github.com/Roronoawjd/git_rce)
 - [JJoosh/CVE-2024-32002-Reverse-Shell](https://github.com/JJoosh/CVE-2024-32002-Reverse-Shell)
-- [WOOOOONG/CVE-2024-32002](https://github.com/WOOOOONG/CVE-2024-32002)
-- [WOOOOONG/hook](https://github.com/WOOOOONG/hook)
 - [YuanlooSec/CVE-2024-32002-poc](https://github.com/YuanlooSec/CVE-2024-32002-poc)
 - [1mxml/CVE-2024-32002-poc](https://github.com/1mxml/CVE-2024-32002-poc)
 - [bfengj/CVE-2024-32002-hook](https://github.com/bfengj/CVE-2024-32002-hook)
@@ -1965,6 +1970,7 @@
 - [vincepsh/CVE-2024-32002](https://github.com/vincepsh/CVE-2024-32002)
 - [vincepsh/CVE-2024-32002-hook](https://github.com/vincepsh/CVE-2024-32002-hook)
 - [JJoosh/CVE-2024-32002-](https://github.com/JJoosh/CVE-2024-32002-)
+- [10cks/CVE-2024-32002-EXP](https://github.com/10cks/CVE-2024-32002-EXP)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -30544,7 +30550,7 @@
 <code>A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x before 2.9.9. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint, the service has the mysql-connector-java jar (8.0.14 or earlier) in the classpath, and an attacker can host a crafted MySQL server reachable by the victim, an attacker can send a crafted JSON message that allows them to read arbitrary local files on the server. This occurs because of missing com.mysql.cj.jdbc.admin.MiniAdmin validation.
 </code>
 
-- [SimoLin/CVE-2019-12086-jackson-databind-file-read](https://github.com/SimoLin/CVE-2019-12086-jackson-databind-file-read)
+- [motoyasu-saburi/CVE-2019-12086-jackson-databind-file-read](https://github.com/motoyasu-saburi/CVE-2019-12086-jackson-databind-file-read)
 - [Al1ex/CVE-2019-12086](https://github.com/Al1ex/CVE-2019-12086)
 
 ### CVE-2019-12169 (2019-06-03)
