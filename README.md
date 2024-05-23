@@ -764,6 +764,14 @@
 
 - [ltranquility/CVE-2024-21644-Poc](https://github.com/ltranquility/CVE-2024-21644-Poc)
 
+### CVE-2024-21683 (2024-05-21)
+
+<code>This High severity RCE (Remote Code Execution) vulnerability was introduced in version 5.2 of Confluence Data Center and Server.\n\nThis RCE (Remote Code Execution) vulnerability, with a CVSS Score of 8.3, allows an authenticated attacker to execute arbitrary code which has high impact to confidentiality, high impact to integrity, high impact to availability, and requires no user interaction. \n\nAtlassian recommends that Confluence Data Center and Server customers upgrade to latest version. If you are unable to do so, upgrade your instance to one of the specified supported fixed versions. See the release notes https://confluence.atlassian.com/doc/confluence-release-notes-327.html\n\nYou can download the latest version of Confluence Data Center and Server from the download center https://www.atlassian.com/software/confluence/download-archives.\n\nThis vulnerability was found internally.
+</code>
+
+- [absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server](https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server)
+- [Arbeys/CVE-2024-21683-PoC](https://github.com/Arbeys/CVE-2024-21683-PoC)
+
 ### CVE-2024-21762 (2024-02-09)
 
 <code>A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests
@@ -812,7 +820,11 @@
 
 - [0dteam/CVE-2024-22024](https://github.com/0dteam/CVE-2024-22024)
 
-### CVE-2024-22026
+### CVE-2024-22026 (2024-05-22)
+
+<code>A local privilege escalation vulnerability in EPMM before 12.1.0.0 allows an authenticated local user to bypass shell restriction and execute arbitrary commands on the appliance.
+</code>
+
 - [securekomodo/CVE-2024-22026](https://github.com/securekomodo/CVE-2024-22026)
 
 ### CVE-2024-22120 (2024-05-17)
@@ -1950,6 +1962,9 @@
 - [ycdxsb/CVE-2024-32002-hulk](https://github.com/ycdxsb/CVE-2024-32002-hulk)
 - [ycdxsb/CVE-2024-32002-submod](https://github.com/ycdxsb/CVE-2024-32002-submod)
 - [bfengj/CVE-2024-32002-Exploit](https://github.com/bfengj/CVE-2024-32002-Exploit)
+- [vincepsh/CVE-2024-32002](https://github.com/vincepsh/CVE-2024-32002)
+- [vincepsh/CVE-2024-32002-hook](https://github.com/vincepsh/CVE-2024-32002-hook)
+- [JJoosh/CVE-2024-32002-](https://github.com/JJoosh/CVE-2024-32002-)
 
 ### CVE-2024-32004 (2024-05-14)
 
