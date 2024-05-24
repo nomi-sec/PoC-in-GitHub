@@ -335,6 +335,13 @@
 - [mattaperkins/FIX-CVE-2024-2961](https://github.com/mattaperkins/FIX-CVE-2024-2961)
 - [rvizx/CVE-2024-2961](https://github.com/rvizx/CVE-2024-2961)
 
+### CVE-2024-3090 (2024-03-30)
+
+<code>Eine problematische Schwachstelle wurde in PHPGurukul Emergency Ambulance Hiring Portal 1.0 gefunden. Betroffen davon ist ein unbekannter Prozess der Datei /admin/add-ambulance.php der Komponente Add Ambulance Page. Durch das Manipulieren des Arguments Ambulance Reg No/Driver Name mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [e-lliot/CVE-2024-3090](https://github.com/e-lliot/CVE-2024-3090)
+
 ### CVE-2024-3094 (2024-03-29)
 
 <code>Malicious code was discovered in the upstream tarballs of xz, starting with version 5.6.0. \r\nThrough a series of complex obfuscations, the liblzma build process extracts a prebuilt object file from a disguised test file existing in the source code, which is then used to modify specific functions in the liblzma code. This results in a modified liblzma library that can be used by any software linked against this library, intercepting and modifying the data interaction with this library.
@@ -8827,7 +8834,11 @@
 
 - [windecks/CVE-2023-46404](https://github.com/windecks/CVE-2023-46404)
 
-### CVE-2023-46442
+### CVE-2023-46442 (-)
+
+<code>An infinite loop in the retrieveActiveBody function of Soot before v4.4.1 under Java 8 allows attackers to cause a Denial of Service (DoS).
+</code>
+
 - [JAckLosingHeart/CVE-2023-46442_POC](https://github.com/JAckLosingHeart/CVE-2023-46442_POC)
 
 ### CVE-2023-46447 (2024-01-20)
@@ -26412,6 +26423,7 @@
 
 - [c0brabaghdad1/CVE-2020-14179](https://github.com/c0brabaghdad1/CVE-2020-14179)
 - [mrnazu/CVE-2020-14179](https://github.com/mrnazu/CVE-2020-14179)
+- [0romos/CVE-2020-14179](https://github.com/0romos/CVE-2020-14179)
 
 ### CVE-2020-14181 (2020-09-16)
 
