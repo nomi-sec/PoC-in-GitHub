@@ -1983,7 +1983,8 @@
 - [10cks/CVE-2024-32002-EXP](https://github.com/10cks/CVE-2024-32002-EXP)
 - [WOOOOONG/CVE-2024-32002](https://github.com/WOOOOONG/CVE-2024-32002)
 - [WOOOOONG/hook](https://github.com/WOOOOONG/hook)
-- [fadhilthomas/poc-git-rce-cve-2024-32002](https://github.com/fadhilthomas/poc-git-rce-cve-2024-32002)
+- [fadhilthomas/poc-cve-2024-32002](https://github.com/fadhilthomas/poc-cve-2024-32002)
+- [fadhilthomas/hook](https://github.com/fadhilthomas/hook)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -3239,6 +3240,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2023-5070](https://github.com/RandomRobbieBF/CVE-2023-5070)
+
+### CVE-2023-5089 (2023-10-16)
+
+<code>The Defender Security WordPress plugin before 4.1.0 does not prevent redirects to the login page via the auth_redirect WordPress function, allowing an unauthenticated visitor to access the login page, even when the hide login page functionality of the plugin is enabled.
+</code>
+
+- [Cappricio-Securities/CVE-2023-5089](https://github.com/Cappricio-Securities/CVE-2023-5089)
 
 ### CVE-2023-5142 (2023-09-24)
 
@@ -8818,6 +8826,9 @@
 </code>
 
 - [windecks/CVE-2023-46404](https://github.com/windecks/CVE-2023-46404)
+
+### CVE-2023-46442
+- [JAckLosingHeart/CVE-2023-46442_POC](https://github.com/JAckLosingHeart/CVE-2023-46442_POC)
 
 ### CVE-2023-46447 (2024-01-20)
 
