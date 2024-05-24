@@ -6408,13 +6408,6 @@
 
 - [radman404/CVE-2023-34634](https://github.com/radman404/CVE-2023-34634)
 
-### CVE-2023-34761 (2023-06-28)
-
-<code>An unauthenticated attacker within BLE proximity can remotely connect to a 7-Eleven LED Message Cup, Hello Cup 1.3.1 for Android, and bypass the application's client-side chat censor filter.
-</code>
-
-- [actuator/7-Eleven-Bluetooth-Smart-Cup-Jailbreak](https://github.com/actuator/7-Eleven-Bluetooth-Smart-Cup-Jailbreak)
-
 ### CVE-2023-34830 (2023-06-27)
 
 <code>i-doit Open v24 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the timeout parameter on the login page.
