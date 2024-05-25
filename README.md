@@ -439,6 +439,7 @@
 - [ThatNotEasy/CVE-2024-3273](https://github.com/ThatNotEasy/CVE-2024-3273)
 - [LeopoldSkell/CVE-2024-3273](https://github.com/LeopoldSkell/CVE-2024-3273)
 - [mrrobot0o/CVE-2024-3273-](https://github.com/mrrobot0o/CVE-2024-3273-)
+- [OIivr/Turvan6rkus-CVE-2024-3273](https://github.com/OIivr/Turvan6rkus-CVE-2024-3273)
 
 ### CVE-2024-3400 (2024-04-12)
 
@@ -6212,6 +6213,7 @@
 - [hoangbui24/CVE-2023-33733](https://github.com/hoangbui24/CVE-2023-33733)
 - [onion2203/Lab_Reportlab](https://github.com/onion2203/Lab_Reportlab)
 - [huyqa/CVE-2023-33733](https://github.com/huyqa/CVE-2023-33733)
+- [L41KAA/CVE-2023-33733-PoC](https://github.com/L41KAA/CVE-2023-33733-PoC)
 
 ### CVE-2023-33747 (2023-06-06)
 
