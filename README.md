@@ -589,6 +589,13 @@
 - [xungzzz/CVE-2024-4956](https://github.com/xungzzz/CVE-2024-4956)
 - [gmh5225/CVE-2024-4956](https://github.com/gmh5225/CVE-2024-4956)
 
+### CVE-2024-5084 (2024-05-23)
+
+<code>The Hash Form – Drag &amp; Drop Form Builder plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'file_upload_action' function in all versions up to, and including, 1.1.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [KTN1990/CVE-2024-5084](https://github.com/KTN1990/CVE-2024-5084)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -1888,6 +1895,13 @@
 </code>
 
 - [mortal-sec/CVE-2024-31025](https://github.com/mortal-sec/CVE-2024-31025)
+
+### CVE-2024-31351 (2024-05-17)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Copymatic Copymatic – AI Content Writer &amp; Generator.This issue affects Copymatic – AI Content Writer &amp; Generator: from n/a through 1.6.
+</code>
+
+- [KTN1990/CVE-2024-31351_wordpress_exploit](https://github.com/KTN1990/CVE-2024-31351_wordpress_exploit)
 
 ### CVE-2024-31497 (2024-04-15)
 
