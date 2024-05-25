@@ -1965,6 +1965,8 @@
 - [amalmurali47/git_rce](https://github.com/amalmurali47/git_rce)
 - [amalmurali47/hook](https://github.com/amalmurali47/hook)
 - [M507/CVE-2024-32002](https://github.com/M507/CVE-2024-32002)
+- [JakobTheDev/cve-2024-32002-submodule-rce](https://github.com/JakobTheDev/cve-2024-32002-submodule-rce)
+- [JakobTheDev/cve-2024-32002-poc-rce](https://github.com/JakobTheDev/cve-2024-32002-poc-rce)
 - [safebuffer/CVE-2024-32002](https://github.com/safebuffer/CVE-2024-32002)
 - [10cks/CVE-2024-32002-POC](https://github.com/10cks/CVE-2024-32002-POC)
 - [10cks/CVE-2024-32002-hulk](https://github.com/10cks/CVE-2024-32002-hulk)
@@ -1999,6 +2001,8 @@
 - [WOOOOONG/hook](https://github.com/WOOOOONG/hook)
 - [fadhilthomas/poc-cve-2024-32002](https://github.com/fadhilthomas/poc-cve-2024-32002)
 - [fadhilthomas/hook](https://github.com/fadhilthomas/hook)
+- [JakobTheDev/cve-2024-32002-submodule-aw](https://github.com/JakobTheDev/cve-2024-32002-submodule-aw)
+- [JakobTheDev/cve-2024-32002-poc-aw](https://github.com/JakobTheDev/cve-2024-32002-poc-aw)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -24383,6 +24387,7 @@
 - [Veids/CVE-2020-3452_auto](https://github.com/Veids/CVE-2020-3452_auto)
 - [iveresk/cve-2020-3452](https://github.com/iveresk/cve-2020-3452)
 - [imhunterand/CVE-2020-3452](https://github.com/imhunterand/CVE-2020-3452)
+- [Cappricio-Securities/CVE-2020-3452](https://github.com/Cappricio-Securities/CVE-2020-3452)
 
 ### CVE-2020-3580 (2020-10-21)
 
