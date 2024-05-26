@@ -589,6 +589,7 @@
 - [banditzCyber0x/CVE-2024-4956](https://github.com/banditzCyber0x/CVE-2024-4956)
 - [xungzzz/CVE-2024-4956](https://github.com/xungzzz/CVE-2024-4956)
 - [gmh5225/CVE-2024-4956](https://github.com/gmh5225/CVE-2024-4956)
+- [ifconfig-me/CVE-2024-4956-Bulk-Scanner](https://github.com/ifconfig-me/CVE-2024-4956-Bulk-Scanner)
 
 ### CVE-2024-5084 (2024-05-23)
 
@@ -1165,6 +1166,7 @@
 - [murataydemir/CVE-2024-23897](https://github.com/murataydemir/CVE-2024-23897)
 - [mil4ne/CVE-2024-23897-Jenkins-4.441](https://github.com/mil4ne/CVE-2024-23897-Jenkins-4.441)
 - [Maalfer/CVE-2024-23897](https://github.com/Maalfer/CVE-2024-23897)
+- [Surko888/Surko-Exploit-Jenkins-CVE-2024-23897](https://github.com/Surko888/Surko-Exploit-Jenkins-CVE-2024-23897)
 
 ### CVE-2024-24034 (2024-02-08)
 
@@ -4468,6 +4470,13 @@
 </code>
 
 - [bruno-1337/CVE-2023-23946-POC](https://github.com/bruno-1337/CVE-2023-23946-POC)
+
+### CVE-2023-24044 (2023-01-22)
+
+<code>A Host Header Injection issue on the Login page of Plesk Obsidian through 18.0.49 allows attackers to redirect users to malicious websites via a Host request header. NOTE: the vendor's position is &quot;the ability to use arbitrary domain names to access the panel is an intended feature.&quot;
+</code>
+
+- [Cappricio-Securities/CVE-2023-24044](https://github.com/Cappricio-Securities/CVE-2023-24044)
 
 ### CVE-2023-24055 (2023-01-22)
 
