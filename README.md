@@ -560,6 +560,13 @@
 - [d0rb/CVE-2024-4439](https://github.com/d0rb/CVE-2024-4439)
 - [xssor-dz/-CVE-2024-4439](https://github.com/xssor-dz/-CVE-2024-4439)
 
+### CVE-2024-4443 (2024-05-22)
+
+<code>The Business Directory Plugin – Easy Listing Directories for WordPress plugin for WordPress is vulnerable to time-based SQL Injection via the ‘listingfields’ parameter in all versions up to, and including, 6.4.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [truonghuuphuc/CVE-2024-4443-Poc](https://github.com/truonghuuphuc/CVE-2024-4443-Poc)
+
 ### CVE-2024-4701 (2024-05-10)
 
 <code>A path traversal issue potentially leading to remote code execution in Genie for all versions prior to 4.3.18
@@ -5517,6 +5524,13 @@
 
 - [ifyGecko/CVE-2023-30226](https://github.com/ifyGecko/CVE-2023-30226)
 
+### CVE-2023-30253 (2023-05-29)
+
+<code>Dolibarr before 17.0.1 allows remote code execution by an authenticated user via an uppercase manipulation: &lt;?PHP instead of &lt;?php in injected data.
+</code>
+
+- [Rubikcuv5/cve-2023-30253](https://github.com/Rubikcuv5/cve-2023-30253)
+
 ### CVE-2023-30256 (2023-05-11)
 
 <code>Cross Site Scripting vulnerability found in Webkil QloApps v.1.5.2 allows a remote attacker to obtain sensitive information via the back and email_create parameters in the AuthController.php file.
@@ -8509,6 +8523,7 @@
 - [terrorist/HTTP-2-Rapid-Reset-Client](https://github.com/terrorist/HTTP-2-Rapid-Reset-Client)
 - [sigridou/CVE-2023-44487-](https://github.com/sigridou/CVE-2023-44487-)
 - [TYuan0816/cve-2023-44487](https://github.com/TYuan0816/cve-2023-44487)
+- [sn130hk/CVE-2023-44487](https://github.com/sn130hk/CVE-2023-44487)
 
 ### CVE-2023-44758 (2023-10-06)
 
@@ -40232,6 +40247,7 @@
 
 - [CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory)
 - [areaventuno/exploit-joomla](https://github.com/areaventuno/exploit-joomla)
+- [Cappricio-Securities/CVE-2015-7297](https://github.com/Cappricio-Securities/CVE-2015-7297)
 
 ### CVE-2015-7501 (2017-11-09)
 
