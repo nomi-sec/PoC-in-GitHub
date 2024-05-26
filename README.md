@@ -1890,6 +1890,13 @@
 
 - [Athos-Zago/CVE-2024-30973](https://github.com/Athos-Zago/CVE-2024-30973)
 
+### CVE-2024-30998 (2024-04-03)
+
+<code>SQL Injection vulnerability in PHPGurukul Men Salon Management System v.2.0, allows remote attackers to execute arbitrary code and obtain sensitive information via the email parameter in the index.php component.
+</code>
+
+- [efekaanakkar/CVE-2024-30998](https://github.com/efekaanakkar/CVE-2024-30998)
+
 ### CVE-2024-31025 (2024-04-04)
 
 <code>SQL Injection vulnerability in ECshop 4.x allows an attacker to obtain sensitive information via the file/article.php component.
@@ -1962,6 +1969,7 @@
 <code>Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources.
 </code>
 
+- [markuta/CVE-2024-32002](https://github.com/markuta/CVE-2024-32002)
 - [markuta/hooky](https://github.com/markuta/hooky)
 - [amalmurali47/git_rce](https://github.com/amalmurali47/git_rce)
 - [amalmurali47/hook](https://github.com/amalmurali47/hook)
@@ -2264,6 +2272,9 @@
 </code>
 
 - [carsonchan12345/CVE-2024-35475](https://github.com/carsonchan12345/CVE-2024-35475)
+
+### CVE-2024-35511
+- [efekaanakkar/CVE-2024-35511](https://github.com/efekaanakkar/CVE-2024-35511)
 
 ### CVE-2024-36079 (-)
 
@@ -3017,6 +3028,13 @@
 </code>
 
 - [d0rb/CVE-2023-4174](https://github.com/d0rb/CVE-2023-4174)
+
+### CVE-2023-4197 (2023-11-01)
+
+<code>Improper input validation in Dolibarr ERP CRM &lt;= v18.0.1 fails to strip certain PHP code from user-supplied input when creating a Website, allowing an attacker to inject and evaluate arbitrary PHP code.
+</code>
+
+- [alien-keric/CVE-2023-4197](https://github.com/alien-keric/CVE-2023-4197)
 
 ### CVE-2023-4206 (2023-09-06)
 
@@ -4045,6 +4063,7 @@
 - [Rosayxy/Recreate-cve-2023-21768](https://github.com/Rosayxy/Recreate-cve-2023-21768)
 - [Ha0-Y/CVE-2023-21768](https://github.com/Ha0-Y/CVE-2023-21768)
 - [xboxoneresearch/CVE-2023-21768-dotnet](https://github.com/xboxoneresearch/CVE-2023-21768-dotnet)
+- [SultanPLX/SamuelTulach_nullmap](https://github.com/SultanPLX/SamuelTulach_nullmap)
 
 ### CVE-2023-21823 (2023-02-14)
 
@@ -6213,7 +6232,7 @@
 - [hoangbui24/CVE-2023-33733](https://github.com/hoangbui24/CVE-2023-33733)
 - [onion2203/Lab_Reportlab](https://github.com/onion2203/Lab_Reportlab)
 - [huyqa/CVE-2023-33733](https://github.com/huyqa/CVE-2023-33733)
-- [L41KAA/CVE-2023-33733-PoC](https://github.com/L41KAA/CVE-2023-33733-PoC)
+- [L41KAA/CVE-2023-33733-POC](https://github.com/L41KAA/CVE-2023-33733-POC)
 
 ### CVE-2023-33747 (2023-06-06)
 
@@ -10239,6 +10258,7 @@
 - [ih3na/debian11-dirty_pipe-patcher](https://github.com/ih3na/debian11-dirty_pipe-patcher)
 - [greenhandatsjtu/CVE-2022-0847-Container-Escape](https://github.com/greenhandatsjtu/CVE-2022-0847-Container-Escape)
 - [jxpsx/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/jxpsx/CVE-2022-0847-DirtyPipe-Exploits)
+- [Asbatel/CBDS_CVE-2022-0847_POC](https://github.com/Asbatel/CBDS_CVE-2022-0847_POC)
 - [airbus-cert/dirtypipe-ebpf_detection](https://github.com/airbus-cert/dirtypipe-ebpf_detection)
 - [edr1412/Dirty-Pipe](https://github.com/edr1412/Dirty-Pipe)
 - [eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits)
@@ -12682,8 +12702,8 @@
 <code>The package pdfkit from 0.0.0 are vulnerable to Command Injection where the URL is not properly sanitized.
 </code>
 
-- [Atsukoro1/PDFKitExploit](https://github.com/Atsukoro1/PDFKitExploit)
 - [PurpleWaveIO/CVE-2022-25765-pdfkit-Exploit-Reverse-Shell](https://github.com/PurpleWaveIO/CVE-2022-25765-pdfkit-Exploit-Reverse-Shell)
+- [Wai-Yan-Kyaw/PDFKitExploit](https://github.com/Wai-Yan-Kyaw/PDFKitExploit)
 - [LordRNA/CVE-2022-25765](https://github.com/LordRNA/CVE-2022-25765)
 - [shamo0/PDFkit-CMD-Injection](https://github.com/shamo0/PDFkit-CMD-Injection)
 - [nikn0laty/PDFkit-CMD-Injection-CVE-2022-25765](https://github.com/nikn0laty/PDFkit-CMD-Injection-CVE-2022-25765)
@@ -21077,6 +21097,7 @@
 - [BL0odz/CVE-2021-40449-NtGdiResetDC-UAF](https://github.com/BL0odz/CVE-2021-40449-NtGdiResetDC-UAF)
 - [SamuelTulach/voidmap](https://github.com/SamuelTulach/voidmap)
 - [toanthang1842002/CVE-2021-40449](https://github.com/toanthang1842002/CVE-2021-40449)
+- [SultanPLX/SamuelTulach_voidmap](https://github.com/SultanPLX/SamuelTulach_voidmap)
 
 ### CVE-2021-40492 (2021-09-03)
 
@@ -35682,7 +35703,6 @@
 - [wrkk112/CVE-2018-25031](https://github.com/wrkk112/CVE-2018-25031)
 - [LUCASRENAA/CVE-2018-25031](https://github.com/LUCASRENAA/CVE-2018-25031)
 - [hev0x/CVE-2018-25031-PoC](https://github.com/hev0x/CVE-2018-25031-PoC)
-- [ThiiagoEscobar/CVE-2018-25031](https://github.com/ThiiagoEscobar/CVE-2018-25031)
 - [johnlaurance/CVE-2018-25031-test2](https://github.com/johnlaurance/CVE-2018-25031-test2)
 - [geozin/POC-CVE-2018-25031](https://github.com/geozin/POC-CVE-2018-25031)
 - [h2oa/CVE-2018-25031](https://github.com/h2oa/CVE-2018-25031)
@@ -38996,6 +39016,7 @@
 </code>
 
 - [vnik5287/cve-2016-6187-poc](https://github.com/vnik5287/cve-2016-6187-poc)
+- [Milo-D/CVE-2016-6187_LPE](https://github.com/Milo-D/CVE-2016-6187_LPE)
 
 ### CVE-2016-6210 (2017-02-13)
 
