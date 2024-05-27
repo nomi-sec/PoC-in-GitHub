@@ -334,6 +334,7 @@
 
 - [mattaperkins/FIX-CVE-2024-2961](https://github.com/mattaperkins/FIX-CVE-2024-2961)
 - [rvizx/CVE-2024-2961](https://github.com/rvizx/CVE-2024-2961)
+- [ambionics/cnext-exploits](https://github.com/ambionics/cnext-exploits)
 
 ### CVE-2024-3094 (2024-03-29)
 
@@ -550,6 +551,7 @@
 - [LOURC0D3/CVE-2024-4367-PoC](https://github.com/LOURC0D3/CVE-2024-4367-PoC)
 - [s4vvysec/CVE-2024-4367-POC](https://github.com/s4vvysec/CVE-2024-4367-POC)
 - [spaceraccoon/detect-cve-2024-4367](https://github.com/spaceraccoon/detect-cve-2024-4367)
+- [avalahEE/pdfjs_disable_eval](https://github.com/avalahEE/pdfjs_disable_eval)
 
 ### CVE-2024-4439 (2024-05-03)
 
@@ -805,6 +807,7 @@
 - [r00t7oo2jm/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server](https://github.com/r00t7oo2jm/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server)
 - [W01fh4cker/CVE-2024-21683-RCE](https://github.com/W01fh4cker/CVE-2024-21683-RCE)
 - [absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server](https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server)
+- [phucrio/CVE-2024-21683-RCE](https://github.com/phucrio/CVE-2024-21683-RCE)
 
 ### CVE-2024-21762 (2024-02-09)
 
@@ -1847,6 +1850,13 @@
 </code>
 
 - [Sploitus/CVE-2024-29988-exploit](https://github.com/Sploitus/CVE-2024-29988-exploit)
+
+### CVE-2024-30056 (2024-05-25)
+
+<code>Microsoft Edge (Chromium-based) Information Disclosure Vulnerability
+</code>
+
+- [absholi7ly/Microsoft-Edge-Information-Disclosure](https://github.com/absholi7ly/Microsoft-Edge-Information-Disclosure)
 
 ### CVE-2024-30255 (2024-04-04)
 
@@ -5538,6 +5548,7 @@
 </code>
 
 - [Rubikcuv5/cve-2023-30253](https://github.com/Rubikcuv5/cve-2023-30253)
+- [04Shivam/CVE-2023-30253-Exploit](https://github.com/04Shivam/CVE-2023-30253-Exploit)
 
 ### CVE-2023-30256 (2023-05-11)
 
@@ -9838,6 +9849,13 @@
 </code>
 
 - [UnderwaterCoder/Hipcam-RTSP-Format-Validation-Vulnerability](https://github.com/UnderwaterCoder/Hipcam-RTSP-Format-Validation-Vulnerability)
+
+### CVE-2023-50868 (2024-02-14)
+
+<code>The Closest Encloser Proof aspect of the DNS protocol (in RFC 5155 when RFC 9276 guidance is skipped) allows remote attackers to cause a denial of service (CPU consumption for SHA-1 computations) via DNSSEC responses in a random subdomain attack, aka the &quot;NSEC3&quot; issue. The RFC 5155 specification implies that an algorithm must perform thousands of iterations of a hash function in certain situations.
+</code>
+
+- [Goethe-Universitat-Cybersecurity/NSEC3-Encloser-Attack](https://github.com/Goethe-Universitat-Cybersecurity/NSEC3-Encloser-Attack)
 
 ### CVE-2023-50917 (2023-12-15)
 
@@ -31692,7 +31710,7 @@
 <code>Ubiquiti EdgeMAX devices before 2.0.3 allow remote attackers to cause a denial of service (disk consumption) because *.cache files in /var/run/beaker/container_file/ are created when providing a valid length payload of 249 characters or fewer to the beaker.session.id cookie in a GET header. The attacker can use a long series of unique session IDs.
 </code>
 
-- [grampae/meep](https://github.com/grampae/meep)
+- [grampae/CVE-2019-16889-poc](https://github.com/grampae/CVE-2019-16889-poc)
 
 ### CVE-2019-16920 (2019-09-27)
 
@@ -32837,7 +32855,7 @@
 </code>
 
 - [sry309/CVE-2018-2893](https://github.com/sry309/CVE-2018-2893)
-- [ryanInf/CVE-2018-2893](https://github.com/ryanInf/CVE-2018-2893)
+- [artofwar344/CVE-2018-2893](https://github.com/artofwar344/CVE-2018-2893)
 - [bigsizeme/CVE-2018-2893](https://github.com/bigsizeme/CVE-2018-2893)
 - [pyn3rd/CVE-2018-2893](https://github.com/pyn3rd/CVE-2018-2893)
 - [qianl0ng/CVE-2018-2893](https://github.com/qianl0ng/CVE-2018-2893)
