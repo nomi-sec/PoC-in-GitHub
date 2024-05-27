@@ -597,6 +597,7 @@
 - [xungzzz/CVE-2024-4956](https://github.com/xungzzz/CVE-2024-4956)
 - [gmh5225/CVE-2024-4956](https://github.com/gmh5225/CVE-2024-4956)
 - [ifconfig-me/CVE-2024-4956-Bulk-Scanner](https://github.com/ifconfig-me/CVE-2024-4956-Bulk-Scanner)
+- [thinhap/CVE-2024-4956-PoC](https://github.com/thinhap/CVE-2024-4956-PoC)
 
 ### CVE-2024-5084 (2024-05-23)
 
@@ -707,7 +708,7 @@
 </code>
 
 - [d4rks1d33/C-PoC-for-CVE-2024-21306](https://github.com/d4rks1d33/C-PoC-for-CVE-2024-21306)
-- [PhucHauDeveloper/BadbBlue](https://github.com/PhucHauDeveloper/BadbBlue)
+- [PhucHauDeveloper/BadBlue](https://github.com/PhucHauDeveloper/BadBlue)
 
 ### CVE-2024-21338 (2024-02-13)
 
@@ -2988,7 +2989,7 @@
 <code>In PHP version 8.0.* before 8.0.30,  8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE. \n\n
 </code>
 
-- [StayBeautiful-collab/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK](https://github.com/StayBeautiful-collab/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK)
+- [Nuki2u/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK](https://github.com/Nuki2u/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK)
 - [jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824)
 
 ### CVE-2023-3836 (2023-07-22)
@@ -8087,6 +8088,7 @@
 - [StanleyJobsonAU/GhostTown](https://github.com/StanleyJobsonAU/GhostTown)
 - [hotplugin0x01/CVE-2023-42793](https://github.com/hotplugin0x01/CVE-2023-42793)
 - [Zyad-Elsayed/CVE-2023-42793](https://github.com/Zyad-Elsayed/CVE-2023-42793)
+- [junnythemarksman/CVE-2023-42793](https://github.com/junnythemarksman/CVE-2023-42793)
 
 ### CVE-2023-42819 (2023-09-26)
 
@@ -9932,6 +9934,7 @@
 - [JaneMandy/CVE-2023-51467-Exploit](https://github.com/JaneMandy/CVE-2023-51467-Exploit)
 - [vulncheck-oss/cve-2023-51467](https://github.com/vulncheck-oss/cve-2023-51467)
 - [Jake123otte1/BadBizness-CVE-2023-51467](https://github.com/Jake123otte1/BadBizness-CVE-2023-51467)
+- [pulentoski/CVE-2023-51467-and-CVE-2023-49070](https://github.com/pulentoski/CVE-2023-51467-and-CVE-2023-49070)
 
 ### CVE-2023-51504 (2024-02-05)
 
@@ -12025,7 +12028,6 @@
 - [jweny/CVE-2022-23131](https://github.com/jweny/CVE-2022-23131)
 - [Mr-xn/cve-2022-23131](https://github.com/Mr-xn/cve-2022-23131)
 - [1mxml/CVE-2022-23131](https://github.com/1mxml/CVE-2022-23131)
-- [0tt7/CVE-2022-23131](https://github.com/0tt7/CVE-2022-23131)
 - [zwjjustdoit/cve-2022-23131](https://github.com/zwjjustdoit/cve-2022-23131)
 - [L0ading-x/cve-2022-23131](https://github.com/L0ading-x/cve-2022-23131)
 - [random-robbie/cve-2022-23131-exp](https://github.com/random-robbie/cve-2022-23131-exp)
@@ -17390,7 +17392,7 @@
 - [worawit/CVE-2021-3156](https://github.com/worawit/CVE-2021-3156)
 - [lmol/CVE-2021-3156](https://github.com/lmol/CVE-2021-3156)
 - [BearCat4/CVE-2021-3156](https://github.com/BearCat4/CVE-2021-3156)
-- [password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156)
+- [ZTK-009/CVE-2021-3156](https://github.com/ZTK-009/CVE-2021-3156)
 - [capturingcats/CVE-2021-3156](https://github.com/capturingcats/CVE-2021-3156)
 - [LiveOverflow/pwnedit](https://github.com/LiveOverflow/pwnedit)
 - [ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build)
@@ -18204,7 +18206,7 @@
 - [d3sh1n/cve-2021-21972](https://github.com/d3sh1n/cve-2021-21972)
 - [ByZain/CVE-2021-21972](https://github.com/ByZain/CVE-2021-21972)
 - [TaroballzChen/CVE-2021-21972](https://github.com/TaroballzChen/CVE-2021-21972)
-- [password520/CVE-2021-21972](https://github.com/password520/CVE-2021-21972)
+- [ZTK-009/CVE-2021-21972](https://github.com/ZTK-009/CVE-2021-21972)
 - [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
 - [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
 - [haidv35/CVE-2021-21972](https://github.com/haidv35/CVE-2021-21972)
@@ -24039,7 +24041,7 @@
 - [VoidSec/CVE-2020-1337](https://github.com/VoidSec/CVE-2020-1337)
 - [neofito/CVE-2020-1337](https://github.com/neofito/CVE-2020-1337)
 - [sailay1996/cve-2020-1337-poc](https://github.com/sailay1996/cve-2020-1337-poc)
-- [password520/cve-2020-1337-poc](https://github.com/password520/cve-2020-1337-poc)
+- [ZTK-009/cve-2020-1337-poc](https://github.com/ZTK-009/cve-2020-1337-poc)
 
 ### CVE-2020-1349 (2020-07-14)
 
