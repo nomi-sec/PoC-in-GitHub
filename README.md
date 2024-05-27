@@ -497,6 +497,9 @@
 
 - [truonghuuphuc/CVE-2024-3495-Poc](https://github.com/truonghuuphuc/CVE-2024-3495-Poc)
 
+### CVE-2024-3552
+- [truonghuuphuc/CVE-2024-3552-Poc](https://github.com/truonghuuphuc/CVE-2024-3552-Poc)
+
 ### CVE-2024-3806 (2024-05-09)
 
 <code>The Porto theme for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 7.1.0 via the 'porto_ajax_posts' function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where php file type can be uploaded and included.
@@ -600,6 +603,7 @@
 - [gmh5225/CVE-2024-4956](https://github.com/gmh5225/CVE-2024-4956)
 - [ifconfig-me/CVE-2024-4956-Bulk-Scanner](https://github.com/ifconfig-me/CVE-2024-4956-Bulk-Scanner)
 - [thinhap/CVE-2024-4956-PoC](https://github.com/thinhap/CVE-2024-4956-PoC)
+- [eoslvs/CVE-2024-4956](https://github.com/eoslvs/CVE-2024-4956)
 
 ### CVE-2024-5084 (2024-05-23)
 
@@ -2596,6 +2600,13 @@
 </code>
 
 - [weizman/CVE-2023-1767](https://github.com/weizman/CVE-2023-1767)
+
+### CVE-2023-1829 (2023-04-12)
+
+<code>A use-after-free vulnerability in the Linux Kernel traffic control index filter (tcindex) can be exploited to achieve local privilege escalation. The tcindex_delete function which does not properly deactivate filters in case of a perfect hashes while deleting the underlying structure which can later lead to double freeing the structure. A local attacker user can use this vulnerability to elevate its privileges to root.\nWe recommend upgrading past commit 8c710f75256bb3cf05ac7b1672c82b92c43f3d28.\n\n
+</code>
+
+- [lanleft/CVE-2023-1829](https://github.com/lanleft/CVE-2023-1829)
 
 ### CVE-2023-2002 (2023-05-26)
 
@@ -5549,6 +5560,7 @@
 
 - [Rubikcuv5/cve-2023-30253](https://github.com/Rubikcuv5/cve-2023-30253)
 - [04Shivam/CVE-2023-30253-Exploit](https://github.com/04Shivam/CVE-2023-30253-Exploit)
+- [nikn0laty/Exploit-for-Dolibarr-17.0.0-CVE-2023-30253](https://github.com/nikn0laty/Exploit-for-Dolibarr-17.0.0-CVE-2023-30253)
 
 ### CVE-2023-30256 (2023-05-11)
 
@@ -6381,6 +6393,7 @@
 
 - [Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040](https://github.com/Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040)
 - [pyn3rd/CVE-2023-34040](https://github.com/pyn3rd/CVE-2023-34040)
+- [huyennhat-dev/cve-2023-34040](https://github.com/huyennhat-dev/cve-2023-34040)
 
 ### CVE-2023-34050 (2023-10-19)
 
@@ -21599,7 +21612,7 @@
 <code>HashiCorp Consul Enterprise before 1.8.17, 1.9.x before 1.9.11, and 1.10.x before 1.10.4 has Incorrect Access Control. An ACL token (with the default operator:write permissions) in one namespace can be used for unintended privilege escalation in a different namespace.
 </code>
 
-- [nelsondurairaj/CVE-2021-41805](https://github.com/nelsondurairaj/CVE-2021-41805)
+- [blackm4c/CVE-2021-41805](https://github.com/blackm4c/CVE-2021-41805)
 
 ### CVE-2021-41822
 - [badboycxcc/CVE-2021-41822](https://github.com/badboycxcc/CVE-2021-41822)
@@ -34538,6 +34551,13 @@
 - [freshdemo/ApacheStruts-CVE-2018-11776](https://github.com/freshdemo/ApacheStruts-CVE-2018-11776)
 - [sonpt-afk/CVE-2018-11776-FIS](https://github.com/sonpt-afk/CVE-2018-11776-FIS)
 
+### CVE-2018-11784 (2018-10-03)
+
+<code>When the default servlet in Apache Tomcat versions 9.0.0.M1 to 9.0.11, 8.5.0 to 8.5.33 and 7.0.23 to 7.0.90 returned a redirect to a directory (e.g. redirecting to '/foo/' when the user requested '/foo') a specially crafted URL could be used to cause the redirect to be generated to any URI of the attackers choice.
+</code>
+
+- [Cappricio-Securities/CVE-2018-11784](https://github.com/Cappricio-Securities/CVE-2018-11784)
+
 ### CVE-2018-11788 (2019-01-07)
 
 <code>Apache Karaf provides a features deployer, which allows users to &quot;hot deploy&quot; a features XML by dropping the file directly in the deploy folder. The features XML is parsed by XMLInputFactory class. Apache Karaf XMLInputFactory class doesn't contain any mitigation codes against XXE. This is a potential security risk as an user can inject external XML entities in Apache Karaf version prior to 4.1.7 or 4.2.2. It has been fixed in Apache Karaf 4.1.7 and 4.2.2 releases.
@@ -36428,6 +36448,7 @@
 - [SeasonLeague/CVE-2017-5487](https://github.com/SeasonLeague/CVE-2017-5487)
 - [Ravindu-Priyankara/CVE-2017-5487-vulnerability-on-NSBM](https://github.com/Ravindu-Priyankara/CVE-2017-5487-vulnerability-on-NSBM)
 - [K3ysTr0K3R/CVE-2017-5487-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-5487-EXPLOIT)
+- [Jhonsonwannaa/CVE-2017-5487](https://github.com/Jhonsonwannaa/CVE-2017-5487)
 
 ### CVE-2017-5633 (2017-03-06)
 
