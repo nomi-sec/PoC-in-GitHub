@@ -606,6 +606,7 @@
 - [ifconfig-me/CVE-2024-4956-Bulk-Scanner](https://github.com/ifconfig-me/CVE-2024-4956-Bulk-Scanner)
 - [thinhap/CVE-2024-4956-PoC](https://github.com/thinhap/CVE-2024-4956-PoC)
 - [eoslvs/CVE-2024-4956](https://github.com/eoslvs/CVE-2024-4956)
+- [GoatSecurity/CVE-2024-4956](https://github.com/GoatSecurity/CVE-2024-4956)
 
 ### CVE-2024-5084 (2024-05-23)
 
@@ -1030,6 +1031,7 @@
 </code>
 
 - [horizon3ai/CVE-2024-23108](https://github.com/horizon3ai/CVE-2024-23108)
+- [hitem/CVE-2024-23108](https://github.com/hitem/CVE-2024-23108)
 
 ### CVE-2024-23208 (2024-01-23)
 
@@ -2300,6 +2302,9 @@
 </code>
 
 - [Gr-1m/CVE-2024-34958-1](https://github.com/Gr-1m/CVE-2024-34958-1)
+
+### CVE-2024-35333
+- [momo1239/CVE-2024-35333](https://github.com/momo1239/CVE-2024-35333)
 
 ### CVE-2024-35475 (-)
 
@@ -22729,6 +22734,7 @@
 - [sec13b/CVE-2021-44228-POC](https://github.com/sec13b/CVE-2021-44228-POC)
 - [KirkDJohnson/Wireshark](https://github.com/KirkDJohnson/Wireshark)
 - [YangHyperData/LOGJ4_PocShell_CVE-2021-44228](https://github.com/YangHyperData/LOGJ4_PocShell_CVE-2021-44228)
+- [Hoanle396/CVE-2021-44228-demo](https://github.com/Hoanle396/CVE-2021-44228-demo)
 
 ### CVE-2021-44255 (2022-01-31)
 
