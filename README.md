@@ -1024,6 +1024,13 @@
 
 - [keru6k/CVE-2024-22983](https://github.com/keru6k/CVE-2024-22983)
 
+### CVE-2024-23108 (2024-02-05)
+
+<code>An improper neutralization of special elements used in an os command ('os command injection') in Fortinet FortiSIEM version 7.1.0 through 7.1.1 and 7.0.0 through 7.0.2 and 6.7.0 through 6.7.8 and 6.6.0 through 6.6.3 and 6.5.0 through 6.5.2 and 6.4.0 through 6.4.2 allows attacker to execute unauthorized code or commands via via crafted API requests.
+</code>
+
+- [horizon3ai/CVE-2024-23108](https://github.com/horizon3ai/CVE-2024-23108)
+
 ### CVE-2024-23208 (2024-01-23)
 
 <code>The issue was addressed with improved memory handling. This issue is fixed in macOS Sonoma 14.3, watchOS 10.3, tvOS 17.3, iOS 17.3 and iPadOS 17.3. An app may be able to execute arbitrary code with kernel privileges.
@@ -1410,13 +1417,6 @@
 
 - [thetrueartist/ABO.CMS-Login-SQLi-CVE-2024-25227](https://github.com/thetrueartist/ABO.CMS-Login-SQLi-CVE-2024-25227)
 - [thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227](https://github.com/thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227)
-
-### CVE-2024-25249 (2024-02-21)
-
-<code>An issue in He3 App for macOS version 2.0.17, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
-</code>
-
-- [intbjw/CVE-2024-25249](https://github.com/intbjw/CVE-2024-25249)
 
 ### CVE-2024-25270
 - [fbkcs/CVE-2024-25270](https://github.com/fbkcs/CVE-2024-25270)
@@ -39771,6 +39771,7 @@
 - [c0d3cr4f73r/CVE-2015-1635](https://github.com/c0d3cr4f73r/CVE-2015-1635)
 - [w01ke/CVE-2015-1635-POC](https://github.com/w01ke/CVE-2015-1635-POC)
 - [SkinAir/ms15-034-Scan](https://github.com/SkinAir/ms15-034-Scan)
+- [Cappricio-Securities/CVE-2015-1635](https://github.com/Cappricio-Securities/CVE-2015-1635)
 
 ### CVE-2015-1641 (2015-04-14)
 
