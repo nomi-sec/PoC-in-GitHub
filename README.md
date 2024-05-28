@@ -611,6 +611,7 @@
 </code>
 
 - [KTN1990/CVE-2024-5084](https://github.com/KTN1990/CVE-2024-5084)
+- [Chocapikk/CVE-2024-5084](https://github.com/Chocapikk/CVE-2024-5084)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -7400,6 +7401,7 @@
 - [Shisones/MetabaseRCE_CVE-2023-38646](https://github.com/Shisones/MetabaseRCE_CVE-2023-38646)
 - [acesoyeo/METABASE-RCE-CVE-2023-38646-](https://github.com/acesoyeo/METABASE-RCE-CVE-2023-38646-)
 - [UserConnecting/Exploit-CVE-2023-38646-Metabase](https://github.com/UserConnecting/Exploit-CVE-2023-38646-Metabase)
+- [xchg-rax-rax/CVE-2023-38646](https://github.com/xchg-rax-rax/CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -9936,6 +9938,7 @@
 - [farliy-hacker/CVE-2023-51385-save](https://github.com/farliy-hacker/CVE-2023-51385-save)
 - [2048JiaLi/CVE-2023-51385](https://github.com/2048JiaLi/CVE-2023-51385)
 - [thinkliving2020/CVE-2023-51385-](https://github.com/thinkliving2020/CVE-2023-51385-)
+- [c0deur/CVE-2023-51385](https://github.com/c0deur/CVE-2023-51385)
 
 ### CVE-2023-51409 (2024-04-12)
 
@@ -11853,7 +11856,6 @@
 - [amit-pathak009/CVE-2022-22954-PoC](https://github.com/amit-pathak009/CVE-2022-22954-PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
 - [lolminerxmrig/CVE-2022-22954_](https://github.com/lolminerxmrig/CVE-2022-22954_)
-- [Jhonsonwannaa/CVE-2022-22954](https://github.com/Jhonsonwannaa/CVE-2022-22954)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -13555,7 +13557,6 @@
 - [amit-pathak009/CVE-2022-29464-mass](https://github.com/amit-pathak009/CVE-2022-29464-mass)
 - [hupe1980/CVE-2022-29464](https://github.com/hupe1980/CVE-2022-29464)
 - [gbrsh/CVE-2022-29464](https://github.com/gbrsh/CVE-2022-29464)
-- [Jhonsonwannaa/CVE-2022-29464-](https://github.com/Jhonsonwannaa/CVE-2022-29464-)
 - [devengpk/CVE-2022-29464](https://github.com/devengpk/CVE-2022-29464)
 - [ThatNotEasy/CVE-2022-29464](https://github.com/ThatNotEasy/CVE-2022-29464)
 - [Pushkarup/CVE-2022-29464](https://github.com/Pushkarup/CVE-2022-29464)
@@ -14841,7 +14842,6 @@
 - [tahtaciburak/cve-2022-36804](https://github.com/tahtaciburak/cve-2022-36804)
 - [Inplex-sys/CVE-2022-36804](https://github.com/Inplex-sys/CVE-2022-36804)
 - [ColdFusionX/CVE-2022-36804](https://github.com/ColdFusionX/CVE-2022-36804)
-- [Jhonsonwannaa/CVE-2022-36804](https://github.com/Jhonsonwannaa/CVE-2022-36804)
 - [devengpk/CVE-2022-36804](https://github.com/devengpk/CVE-2022-36804)
 - [walnutsecurity/cve-2022-36804](https://github.com/walnutsecurity/cve-2022-36804)
 - [imbas007/Atlassian-Bitbucket-CVE-2022-36804](https://github.com/imbas007/Atlassian-Bitbucket-CVE-2022-36804)
@@ -30307,6 +30307,7 @@
 </code>
 
 - [motikan2010/CVE-2019-10092_Docker](https://github.com/motikan2010/CVE-2019-10092_Docker)
+- [mbadanoiu/CVE-2019-10092](https://github.com/mbadanoiu/CVE-2019-10092)
 
 ### CVE-2019-10149 (2019-06-05)
 
