@@ -60,6 +60,7 @@
 
 - [ysanatomic/io_uring_LPE-CVE-2024-0582](https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582)
 - [Forsaken0129/CVE-2024-0582](https://github.com/Forsaken0129/CVE-2024-0582)
+- [0ptyx/cve-2024-0582](https://github.com/0ptyx/cve-2024-0582)
 
 ### CVE-2024-0679 (2024-01-20)
 
@@ -496,6 +497,7 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-3495-Poc](https://github.com/truonghuuphuc/CVE-2024-3495-Poc)
+- [zomasec/CVE-2024-3495-POC](https://github.com/zomasec/CVE-2024-3495-POC)
 
 ### CVE-2024-3552
 - [truonghuuphuc/CVE-2024-3552-Poc](https://github.com/truonghuuphuc/CVE-2024-3552-Poc)
@@ -2037,6 +2039,7 @@
 - [fadhilthomas/hook](https://github.com/fadhilthomas/hook)
 - [JakobTheDev/cve-2024-32002-submodule-aw](https://github.com/JakobTheDev/cve-2024-32002-submodule-aw)
 - [JakobTheDev/cve-2024-32002-poc-aw](https://github.com/JakobTheDev/cve-2024-32002-poc-aw)
+- [Goplush/CVE-2024-32002-git-rce](https://github.com/Goplush/CVE-2024-32002-git-rce)
 
 ### CVE-2024-32004 (2024-05-14)
 
