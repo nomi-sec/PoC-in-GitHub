@@ -957,7 +957,11 @@
 
 - [zunak/CVE-2024-22640](https://github.com/zunak/CVE-2024-22640)
 
-### CVE-2024-22641
+### CVE-2024-22641 (-)
+
+<code>TCPDF version 6.6.5 and before is vulnerable to ReDoS (Regular Expression Denial of Service) if parsing an untrusted SVG file.
+</code>
+
 - [zunak/CVE-2024-22641](https://github.com/zunak/CVE-2024-22641)
 
 ### CVE-2024-22752 (2024-03-07)
@@ -2313,7 +2317,11 @@
 
 - [carsonchan12345/CVE-2024-35475](https://github.com/carsonchan12345/CVE-2024-35475)
 
-### CVE-2024-35511
+### CVE-2024-35511 (-)
+
+<code>phpgurukul Men Salon Management System v2.0 is vulnerable to SQL Injection via the &quot;username&quot; parameter of /msms/admin/index.php.
+</code>
+
 - [efekaanakkar/CVE-2024-35511](https://github.com/efekaanakkar/CVE-2024-35511)
 
 ### CVE-2024-36079 (-)
@@ -9044,7 +9052,11 @@
 
 - [RandomRobbieBF/CVE-2023-46615](https://github.com/RandomRobbieBF/CVE-2023-46615)
 
-### CVE-2023-46694
+### CVE-2023-46694 (-)
+
+<code>Vtenext 21.02 allows an authenticated attacker to upload arbitrary files, potentially enabling them to execute remote commands. This flaw exists due to the application's failure to enforce proper authentication controls when accessing the Ckeditor file manager functionality.
+</code>
+
 - [invisiblebyte/CVE-2023-46694](https://github.com/invisiblebyte/CVE-2023-46694)
 
 ### CVE-2023-46747 (2023-10-26)
@@ -13728,7 +13740,7 @@
 
 ### CVE-2022-30190 (2022-06-01)
 
-<code>&lt;p&gt;A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run arbitrary code with the privileges of the calling application. The attacker can then install programs, view, change, or delete data, or create new accounts in the context allowed by the user’s rights.&lt;/p&gt;\n&lt;p&gt;Please see the &lt;a href=&quot;https://aka.ms/CVE-2022-30190-Guidance&quot;&gt;MSRC Blog Entry&lt;/a&gt; for important information about steps you can take to protect your system from this vulnerability.&lt;/p&gt;\n
+<code>A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run arbitrary code with the privileges of the calling application. The attacker can then install programs, view, change, or delete data, or create new accounts in the context allowed by the user’s rights.\nPlease see the MSRC Blog Entry for important information about steps you can take to protect your system from this vulnerability.\n
 </code>
 
 - [JMousqueton/PoC-CVE-2022-30190](https://github.com/JMousqueton/PoC-CVE-2022-30190)
@@ -41822,6 +41834,7 @@
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 - [0xl0k1/CVE-2012-1823](https://github.com/0xl0k1/CVE-2012-1823)
+- [Fatalitysec/CVE-2012-1823](https://github.com/Fatalitysec/CVE-2012-1823)
 
 ### CVE-2012-1870 (2012-07-10)
 
