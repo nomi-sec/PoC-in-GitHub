@@ -2308,7 +2308,11 @@
 
 - [Gr-1m/CVE-2024-34958-1](https://github.com/Gr-1m/CVE-2024-34958-1)
 
-### CVE-2024-35333
+### CVE-2024-35333 (-)
+
+<code>A stack-buffer-overflow vulnerability exists in the read_charset_decl function of html2xhtml 1.3. This vulnerability occurs due to improper bounds checking when copying data into a fixed-size stack buffer. An attacker can exploit this vulnerability by providing a specially crafted input to the vulnerable function, causing a buffer overflow and potentially leading to arbitrary code execution, denial of service, or data corruption.
+</code>
+
 - [momo1239/CVE-2024-35333](https://github.com/momo1239/CVE-2024-35333)
 
 ### CVE-2024-35475 (-)
@@ -4119,7 +4123,6 @@
 - [Rosayxy/Recreate-cve-2023-21768](https://github.com/Rosayxy/Recreate-cve-2023-21768)
 - [Ha0-Y/CVE-2023-21768](https://github.com/Ha0-Y/CVE-2023-21768)
 - [xboxoneresearch/CVE-2023-21768-dotnet](https://github.com/xboxoneresearch/CVE-2023-21768-dotnet)
-- [SultanPLX/SamuelTulach_nullmap](https://github.com/SultanPLX/SamuelTulach_nullmap)
 
 ### CVE-2023-21823 (2023-02-14)
 
@@ -8423,6 +8426,13 @@
 
 - [Mr-xn/CVE-2023-43482](https://github.com/Mr-xn/CVE-2023-43482)
 
+### CVE-2023-43622 (2023-10-23)
+
+<code>An attacker, opening a HTTP/2 connection with an initial window size of 0, was able to block handling of that connection indefinitely in Apache HTTP Server. This could be used to exhaust worker resources in the server, similar to the well known &quot;slow loris&quot; attack pattern.\nThis has been fixed in version 2.4.58, so that such connection are terminated properly after the configured connection timeout.\n\nThis issue affects Apache HTTP Server: from 2.4.55 through 2.4.57.\n\nUsers are recommended to upgrade to version 2.4.58, which fixes the issue.\n\n
+</code>
+
+- [visudade/CVE-2023-43622](https://github.com/visudade/CVE-2023-43622)
+
 ### CVE-2023-43654 (2023-09-28)
 
 <code>TorchServe is a tool for serving and scaling PyTorch models in production. TorchServe default configuration lacks proper input validation, enabling third parties to invoke remote HTTP download requests and write files to the disk. This issue could be taken advantage of to compromise the integrity of the system and sensitive data. This issue is present in versions 0.1.0 to 0.8.1. A user is able to load the model of their choice from any URL that they would like to use. The user of TorchServe is responsible for configuring both the allowed_urls and specifying the model URL to be used. A pull request to warn the user when the default value for allowed_urls is used has been merged in PR #2534. TorchServe release 0.8.2 includes this change. Users are advised to upgrade. There are no known workarounds for this issue.
@@ -9053,6 +9063,7 @@
 - [Arlenhiack/ActiveMQ-RCE-Exploit](https://github.com/Arlenhiack/ActiveMQ-RCE-Exploit)
 - [vulncheck-oss/cve-2023-46604](https://github.com/vulncheck-oss/cve-2023-46604)
 - [thinkycx/activemq-rce-cve-2023-46604](https://github.com/thinkycx/activemq-rce-cve-2023-46604)
+- [mranv/honeypot.rs](https://github.com/mranv/honeypot.rs)
 
 ### CVE-2023-46615 (2024-02-12)
 
@@ -21194,7 +21205,6 @@
 - [BL0odz/CVE-2021-40449-NtGdiResetDC-UAF](https://github.com/BL0odz/CVE-2021-40449-NtGdiResetDC-UAF)
 - [SamuelTulach/voidmap](https://github.com/SamuelTulach/voidmap)
 - [toanthang1842002/CVE-2021-40449](https://github.com/toanthang1842002/CVE-2021-40449)
-- [SultanPLX/SamuelTulach_voidmap](https://github.com/SultanPLX/SamuelTulach_voidmap)
 
 ### CVE-2021-40492 (2021-09-03)
 
@@ -24656,6 +24666,7 @@
 </code>
 
 - [und3sc0n0c1d0/AFR-in-OMSA](https://github.com/und3sc0n0c1d0/AFR-in-OMSA)
+- [c0d3cr4f73r/CVE-2020-5377](https://github.com/c0d3cr4f73r/CVE-2020-5377)
 
 ### CVE-2020-5398 (2020-01-16)
 
@@ -24735,14 +24746,6 @@
 
 - [TheCyberGeek/CVE-2020-5844](https://github.com/TheCyberGeek/CVE-2020-5844)
 - [UNICORDev/exploit-CVE-2020-5844](https://github.com/UNICORDev/exploit-CVE-2020-5844)
-- [1Gould/CVE-2020-5844-exploit](https://github.com/1Gould/CVE-2020-5844-exploit)
-
-### CVE-2020-5847 (2020-03-16)
-
-<code>Unraid through 6.8.0 allows Remote Code Execution.
-</code>
-
-- [1Gould/CVE-2020-5847-exploit](https://github.com/1Gould/CVE-2020-5847-exploit)
 
 ### CVE-2020-5902 (2020-07-01)
 
@@ -28954,7 +28957,7 @@
 
 ### CVE-2019-1125 (2019-09-03)
 
-<code>An information disclosure vulnerability exists when certain central processing units (CPU) speculatively access memory, aka 'Windows Kernel Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2019-1071, CVE-2019-1073.
+<code>An information disclosure vulnerability exists when certain central processing units (CPU) speculatively access memory. An attacker who successfully exploited the vulnerability could read privileged data across trust boundaries.\nTo exploit this vulnerability, an attacker would have to log on to an affected system and run a specially crafted application. The vulnerability would not allow an attacker to elevate user rights directly, but it could be used to obtain information that could be used to try to compromise the affected system further.\nOn January 3, 2018, Microsoft released an advisory and security updates related to a newly-discovered class of hardware vulnerabilities (known as Spectre) involving speculative execution side channels that affect AMD, ARM, and Intel CPUs to varying degrees. This vulnerability, released on August 6, 2019, is a variant of the Spectre Variant 1 speculative execution side channel vulnerability and has been assigned CVE-2019-1125.\nMicrosoft released a security update on July 9, 2019 that addresses the vulnerability through a software change that mitigates how the CPU speculatively accesses memory. Note that this vulnerability does not require a microcode update from your device OEM.\n
 </code>
 
 - [bitdefender/swapgs-attack-poc](https://github.com/bitdefender/swapgs-attack-poc)
@@ -28969,7 +28972,7 @@
 
 ### CVE-2019-1181 (2019-08-14)
 
-<code>A remote code execution vulnerability exists in Remote Desktop Services â€“ formerly known as Terminal Services â€“ when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Remote Desktop ServicesÂ Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1182, CVE-2019-1222, CVE-2019-1226.
+<code>A remote code execution vulnerability exists in Remote Desktop Services – formerly known as Terminal Services – when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests. This vulnerability is pre-authentication and requires no user interaction. An attacker who successfully exploited this vulnerability could execute arbitrary code on the target system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.\nTo exploit this vulnerability, an attacker would need to send a specially crafted request to the target systems Remote Desktop Service via RDP.\nThe update addresses the vulnerability by correcting how Remote Desktop Services handles connection requests.\n
 </code>
 
 - [major203/cve-2019-1181](https://github.com/major203/cve-2019-1181)
@@ -28983,7 +28986,7 @@
 
 ### CVE-2019-1218 (2019-08-14)
 
-<code>A spoofing vulnerability exists in the way Microsoft Outlook iOS software parses specifically crafted email messages, aka 'Outlook iOS Spoofing Vulnerability'.
+<code>A spoofing vulnerability exists in the way Microsoft Outlook iOS software parses specifically crafted email messages. An authenticated attacker could exploit the vulnerability by sending a specially crafted email message to a victim.\nThe attacker who successfully exploited this vulnerability could then perform cross-site scripting attacks on the affected systems and run scripts in the security context of the current user.\nThe security update addresses the vulnerability by correcting how Outlook iOS parses specially crafted email messages.\n
 </code>
 
 - [d0gukank/CVE-2019-1218](https://github.com/d0gukank/CVE-2019-1218)
