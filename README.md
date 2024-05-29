@@ -125,6 +125,7 @@
 - [Notselwyn/CVE-2024-1086](https://github.com/Notselwyn/CVE-2024-1086)
 - [Alicey0719/docker-POC_CVE-2024-1086](https://github.com/Alicey0719/docker-POC_CVE-2024-1086)
 - [CCIEVoice2009/CVE-2024-1086](https://github.com/CCIEVoice2009/CVE-2024-1086)
+- [rootkalilocalhost/CVE-2024-1086](https://github.com/rootkalilocalhost/CVE-2024-1086)
 
 ### CVE-2024-1208 (2024-02-05)
 
@@ -4023,7 +4024,7 @@
 
 ### CVE-2023-21554 (2023-04-11)
 
-<code>Microsoft Message Queuing Remote Code Execution Vulnerability
+<code>Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
 </code>
 
 - [zoemurmure/CVE-2023-21554-PoC](https://github.com/zoemurmure/CVE-2023-21554-PoC)
@@ -4271,6 +4272,7 @@
 - [Boogipop/CVE-2023-22527-Godzilla-MEMSHELL](https://github.com/Boogipop/CVE-2023-22527-Godzilla-MEMSHELL)
 - [M0untainShley/CVE-2023-22527-MEMSHELL](https://github.com/M0untainShley/CVE-2023-22527-MEMSHELL)
 - [vulncheck-oss/cve-2023-22527](https://github.com/vulncheck-oss/cve-2023-22527)
+- [BBD-YZZ/Confluence-RCE](https://github.com/BBD-YZZ/Confluence-RCE)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -5991,6 +5993,7 @@
 - [oferchen/POC-CVE-2023-32233](https://github.com/oferchen/POC-CVE-2023-32233)
 - [RogelioPumajulca/TEST-CVE-2023-32233](https://github.com/RogelioPumajulca/TEST-CVE-2023-32233)
 - [void0red/CVE-2023-32233](https://github.com/void0red/CVE-2023-32233)
+- [rootkalilocalhost/CVE-2023-32233](https://github.com/rootkalilocalhost/CVE-2023-32233)
 
 ### CVE-2023-32235 (2023-05-05)
 
@@ -10064,6 +10067,7 @@
 </code>
 
 - [K3ysTr0K3R/CVE-2022-0165-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2022-0165-EXPLOIT)
+- [Cappricio-Securities/CVE-2022-0165](https://github.com/Cappricio-Securities/CVE-2022-0165)
 
 ### CVE-2022-0185 (2022-02-11)
 
@@ -10412,6 +10416,7 @@
 - [Bonfee/CVE-2022-0995](https://github.com/Bonfee/CVE-2022-0995)
 - [AndreevSemen/CVE-2022-0995](https://github.com/AndreevSemen/CVE-2022-0995)
 - [1nzag/CVE-2022-0995](https://github.com/1nzag/CVE-2022-0995)
+- [rootkalilocalhost/CVE-2022-0995](https://github.com/rootkalilocalhost/CVE-2022-0995)
 
 ### CVE-2022-0997 (2022-05-16)
 
@@ -12912,6 +12917,7 @@
 - [yTxZx/CVE-2022-26134](https://github.com/yTxZx/CVE-2022-26134)
 - [DARKSTUFF-LAB/-CVE-2022-26134](https://github.com/DARKSTUFF-LAB/-CVE-2022-26134)
 - [404fu/CVE-2022-26134-POC](https://github.com/404fu/CVE-2022-26134-POC)
+- [BBD-YZZ/Confluence-RCE](https://github.com/BBD-YZZ/Confluence-RCE)
 
 ### CVE-2022-26135 (2022-06-29)
 
@@ -19000,6 +19006,7 @@
 - [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
 - [vpxuser/CVE-2021-26084-EXP](https://github.com/vpxuser/CVE-2021-26084-EXP)
 - [nahcusira/CVE-2021-26084](https://github.com/nahcusira/CVE-2021-26084)
+- [BBD-YZZ/Confluence-RCE](https://github.com/BBD-YZZ/Confluence-RCE)
 
 ### CVE-2021-26085 (2021-07-29)
 
@@ -24184,7 +24191,7 @@
 - [hell-moon/ZeroLogon-Exploit](https://github.com/hell-moon/ZeroLogon-Exploit)
 - [Udyz/Zerologon](https://github.com/Udyz/Zerologon)
 - [itssmikefm/CVE-2020-1472](https://github.com/itssmikefm/CVE-2020-1472)
-- [NickSanzotta/zeroscan](https://github.com/NickSanzotta/zeroscan)
+- [B34MR/zeroscan](https://github.com/B34MR/zeroscan)
 - [TheJoyOfHacking/SecuraBV-CVE-2020-1472](https://github.com/TheJoyOfHacking/SecuraBV-CVE-2020-1472)
 - [TheJoyOfHacking/dirkjanm-CVE-2020-1472](https://github.com/TheJoyOfHacking/dirkjanm-CVE-2020-1472)
 - [Anonymous-Family/Zero-day-scanning](https://github.com/Anonymous-Family/Zero-day-scanning)
