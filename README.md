@@ -608,6 +608,7 @@
 - [thinhap/CVE-2024-4956-PoC](https://github.com/thinhap/CVE-2024-4956-PoC)
 - [eoslvs/CVE-2024-4956](https://github.com/eoslvs/CVE-2024-4956)
 - [GoatSecurity/CVE-2024-4956](https://github.com/GoatSecurity/CVE-2024-4956)
+- [TypicalModMaker/CVE-2024-4956](https://github.com/TypicalModMaker/CVE-2024-4956)
 
 ### CVE-2024-5084 (2024-05-23)
 
@@ -671,7 +672,6 @@
 - [yoryio/CVE-2024-20767](https://github.com/yoryio/CVE-2024-20767)
 - [m-cetin/CVE-2024-20767](https://github.com/m-cetin/CVE-2024-20767)
 - [Chocapikk/CVE-2024-20767](https://github.com/Chocapikk/CVE-2024-20767)
-- [huyqa/cve-2024-20767](https://github.com/huyqa/cve-2024-20767)
 - [Praison001/CVE-2024-20767-Adobe-ColdFusion](https://github.com/Praison001/CVE-2024-20767-Adobe-ColdFusion)
 
 ### CVE-2024-20931 (2024-02-17)
@@ -4288,6 +4288,13 @@
 
 - [sofianeelhor/CVE-2023-22621-POC](https://github.com/sofianeelhor/CVE-2023-22621-POC)
 
+### CVE-2023-22726 (2023-01-20)
+
+<code>act is a project which allows for local running of github actions. The artifact server that stores artifacts from Github Action runs does not sanitize path inputs. This allows an attacker to download and overwrite arbitrary files on the host from a Github Action. This issue may lead to privilege escalation. The /upload endpoint is vulnerable to path traversal as filepath is user controlled, and ultimately flows into os.Mkdir and os.Open. The /artifact endpoint is vulnerable to path traversal as the path is variable is user controlled, and the specified file is ultimately returned by the server. This has been addressed in version 0.2.40. Users are advised to upgrade. Users unable to upgrade may, during implementation of Open and OpenAtEnd for FS, ensure to use ValidPath() to check against path traversal or clean the user-provided paths manually.
+</code>
+
+- [ProxyPog/POC-CVE-2023-22726](https://github.com/ProxyPog/POC-CVE-2023-22726)
+
 ### CVE-2023-22809 (2023-01-18)
 
 <code>In Sudo before 1.9.12p2, the sudoedit (aka -e) feature mishandles extra arguments passed in the user-provided environment variables (SUDO_EDITOR, VISUAL, and EDITOR), allowing a local attacker to append arbitrary entries to the list of files to process. This can lead to privilege escalation. Affected versions are 1.8.0 through 1.9.12.p1. The problem exists because a user-specified editor may contain a &quot;--&quot; argument that defeats a protection mechanism, e.g., an EDITOR='vim -- /path/to/extra/file' value.
@@ -6305,7 +6312,6 @@
 - [c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733)
 - [hoangbui24/CVE-2023-33733](https://github.com/hoangbui24/CVE-2023-33733)
 - [onion2203/Lab_Reportlab](https://github.com/onion2203/Lab_Reportlab)
-- [huyqa/CVE-2023-33733](https://github.com/huyqa/CVE-2023-33733)
 - [L41KAA/CVE-2023-33733-Exploit-PoC](https://github.com/L41KAA/CVE-2023-33733-Exploit-PoC)
 
 ### CVE-2023-33747 (2023-06-06)
@@ -17920,7 +17926,7 @@
 </code>
 
 - [hacefresko/CVE-2021-4045-PoC](https://github.com/hacefresko/CVE-2021-4045-PoC)
-- [onebytex/CVE-2021-4045](https://github.com/onebytex/CVE-2021-4045)
+- [jeffbezosispogg/CVE-2021-4045](https://github.com/jeffbezosispogg/CVE-2021-4045)
 - [pl4int3xt/CVE-2021-4045](https://github.com/pl4int3xt/CVE-2021-4045)
 
 ### CVE-2021-4104 (2021-12-14)
@@ -22213,6 +22219,7 @@
 - [wagneralves/CVE-2021-43798](https://github.com/wagneralves/CVE-2021-43798)
 - [K3ysTr0K3R/CVE-2021-43798-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-43798-EXPLOIT)
 - [ticofookfook/CVE-2021-43798](https://github.com/ticofookfook/CVE-2021-43798)
+- [xchg-rax-rax/CVE-2021-43798](https://github.com/xchg-rax-rax/CVE-2021-43798)
 - [topyagyuu/CVE-2021-43798](https://github.com/topyagyuu/CVE-2021-43798)
 
 ### CVE-2021-43799 (2022-01-25)
@@ -28076,7 +28083,6 @@
 - [ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go](https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go)
 - [yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc)
 - [r00t4dm/CVE-2020-27955](https://github.com/r00t4dm/CVE-2020-27955)
-- [williamgoulois/git-lfs-RCE-exploit-CVE-2020-27955-revshell](https://github.com/williamgoulois/git-lfs-RCE-exploit-CVE-2020-27955-revshell)
 - [shubham0d/CVE-2020-27955](https://github.com/shubham0d/CVE-2020-27955)
 - [TheTh1nk3r/cve-2020-27955](https://github.com/TheTh1nk3r/cve-2020-27955)
 - [NeoDarwin/CVE-2020-27955](https://github.com/NeoDarwin/CVE-2020-27955)
