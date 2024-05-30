@@ -623,6 +623,7 @@
 - [eoslvs/CVE-2024-4956](https://github.com/eoslvs/CVE-2024-4956)
 - [GoatSecurity/CVE-2024-4956](https://github.com/GoatSecurity/CVE-2024-4956)
 - [TypicalModMaker/CVE-2024-4956](https://github.com/TypicalModMaker/CVE-2024-4956)
+- [Praison001/CVE-2024-4956-Sonatype-Nexus-Repository-Manager](https://github.com/Praison001/CVE-2024-4956-Sonatype-Nexus-Repository-Manager)
 
 ### CVE-2024-5084 (2024-05-23)
 
@@ -1392,6 +1393,13 @@
 
 - [afine-com/CVE-2024-24816](https://github.com/afine-com/CVE-2024-24816)
 
+### CVE-2024-24919 (2024-05-28)
+
+<code>Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN or Mobile Access Software Blades. A Security fix that mitigates this vulnerability is available.
+</code>
+
+- [c3rrberu5/CVE-2024-24919](https://github.com/c3rrberu5/CVE-2024-24919)
+
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
 
@@ -2061,6 +2069,8 @@
 - [JakobTheDev/cve-2024-32002-submodule-aw](https://github.com/JakobTheDev/cve-2024-32002-submodule-aw)
 - [JakobTheDev/cve-2024-32002-poc-aw](https://github.com/JakobTheDev/cve-2024-32002-poc-aw)
 - [Goplush/CVE-2024-32002-git-rce](https://github.com/Goplush/CVE-2024-32002-git-rce)
+- [TanMolk/CVE-2024-32002-sub](https://github.com/TanMolk/CVE-2024-32002-sub)
+- [TanMolk/CVE-2024-32002](https://github.com/TanMolk/CVE-2024-32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -6024,7 +6034,6 @@
 - [oferchen/POC-CVE-2023-32233](https://github.com/oferchen/POC-CVE-2023-32233)
 - [RogelioPumajulca/TEST-CVE-2023-32233](https://github.com/RogelioPumajulca/TEST-CVE-2023-32233)
 - [void0red/CVE-2023-32233](https://github.com/void0red/CVE-2023-32233)
-- [rootkalilocalhost/CVE-2023-32233](https://github.com/rootkalilocalhost/CVE-2023-32233)
 
 ### CVE-2023-32235 (2023-05-05)
 
@@ -10454,7 +10463,6 @@
 - [Bonfee/CVE-2022-0995](https://github.com/Bonfee/CVE-2022-0995)
 - [AndreevSemen/CVE-2022-0995](https://github.com/AndreevSemen/CVE-2022-0995)
 - [1nzag/CVE-2022-0995](https://github.com/1nzag/CVE-2022-0995)
-- [rootkalilocalhost/CVE-2022-0995](https://github.com/rootkalilocalhost/CVE-2022-0995)
 
 ### CVE-2022-0997 (2022-05-16)
 
@@ -16358,7 +16366,7 @@
 - [taythebot/CVE-2022-46169](https://github.com/taythebot/CVE-2022-46169)
 - [Inplex-sys/CVE-2022-46169](https://github.com/Inplex-sys/CVE-2022-46169)
 - [sAsPeCt488/CVE-2022-46169](https://github.com/sAsPeCt488/CVE-2022-46169)
-- [botfather0x0/CVE-2022-46169](https://github.com/botfather0x0/CVE-2022-46169)
+- [c3rrberu5/CVE-2022-46169](https://github.com/c3rrberu5/CVE-2022-46169)
 - [Habib0x0/CVE-2022-46169](https://github.com/Habib0x0/CVE-2022-46169)
 - [N1arut/CVE-2022-46169_POC](https://github.com/N1arut/CVE-2022-46169_POC)
 - [miko550/CVE-2022-46169](https://github.com/miko550/CVE-2022-46169)
@@ -24242,7 +24250,7 @@
 - [dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472)
 - [RicYaben/CVE-2020-1472-LAB](https://github.com/RicYaben/CVE-2020-1472-LAB)
 - [Akash7350/CVE-2020-1472](https://github.com/Akash7350/CVE-2020-1472)
-- [botfather0x0/ZeroLogon-to-Shell](https://github.com/botfather0x0/ZeroLogon-to-Shell)
+- [c3rrberu5/ZeroLogon-to-Shell](https://github.com/c3rrberu5/ZeroLogon-to-Shell)
 - [logg-1/0logon](https://github.com/logg-1/0logon)
 - [whoami-chmod777/Zerologon-Attack-CVE-2020-1472-POC](https://github.com/whoami-chmod777/Zerologon-Attack-CVE-2020-1472-POC)
 - [JolynNgSC/Zerologon_CVE-2020-1472](https://github.com/JolynNgSC/Zerologon_CVE-2020-1472)
@@ -43313,6 +43321,13 @@
 
 
 ## 2000
+### CVE-2000-0114 (2000-02-08)
+
+<code>Frontpage Server Extensions allows remote attackers to determine the name of the anonymous account via an RPC POST request to shtml.dll in the /_vti_bin/ virtual directory.
+</code>
+
+- [Cappricio-Securities/CVE-2000-0114](https://github.com/Cappricio-Securities/CVE-2000-0114)
+
 ### CVE-2000-0170 (2000-04-10)
 
 <code>Buffer overflow in the man program in Linux allows local users to gain privileges via the MANPAGER environmental variable.
