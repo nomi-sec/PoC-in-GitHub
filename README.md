@@ -140,6 +140,7 @@
 </code>
 
 - [karlemilnikka/CVE-2024-1208-and-CVE-2024-1210](https://github.com/karlemilnikka/CVE-2024-1208-and-CVE-2024-1210)
+- [Cappricio-Securities/CVE-2024-1208](https://github.com/Cappricio-Securities/CVE-2024-1208)
 
 ### CVE-2024-1209 (2024-02-05)
 
@@ -344,6 +345,7 @@
 - [mattaperkins/FIX-CVE-2024-2961](https://github.com/mattaperkins/FIX-CVE-2024-2961)
 - [rvizx/CVE-2024-2961](https://github.com/rvizx/CVE-2024-2961)
 - [ambionics/cnext-exploits](https://github.com/ambionics/cnext-exploits)
+- [absolutedesignltd/iconvfix](https://github.com/absolutedesignltd/iconvfix)
 
 ### CVE-2024-3094 (2024-03-29)
 
@@ -1399,6 +1401,10 @@
 </code>
 
 - [c3rrberu5/CVE-2024-24919](https://github.com/c3rrberu5/CVE-2024-24919)
+- [emanueldosreis/CVE-2024-24919](https://github.com/emanueldosreis/CVE-2024-24919)
+- [hendprw/CVE-2024-24919](https://github.com/hendprw/CVE-2024-24919)
+- [LucasKatashi/CVE-2024-24919](https://github.com/LucasKatashi/CVE-2024-24919)
+- [eoslvs/CVE-2024-24919](https://github.com/eoslvs/CVE-2024-24919)
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
@@ -2069,8 +2075,6 @@
 - [JakobTheDev/cve-2024-32002-submodule-aw](https://github.com/JakobTheDev/cve-2024-32002-submodule-aw)
 - [JakobTheDev/cve-2024-32002-poc-aw](https://github.com/JakobTheDev/cve-2024-32002-poc-aw)
 - [Goplush/CVE-2024-32002-git-rce](https://github.com/Goplush/CVE-2024-32002-git-rce)
-- [TanMolk/CVE-2024-32002-sub](https://github.com/TanMolk/CVE-2024-32002-sub)
-- [TanMolk/CVE-2024-32002](https://github.com/TanMolk/CVE-2024-32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -2339,10 +2343,18 @@
 
 - [momo1239/CVE-2024-35333](https://github.com/momo1239/CVE-2024-35333)
 
-### CVE-2024-35468
+### CVE-2024-35468 (-)
+
+<code>A SQL injection vulnerability in /hrm/index.php in SourceCodester Human Resource Management System 1.0 allows attackers to execute arbitrary SQL commands via the password parameter.
+</code>
+
 - [dovankha/CVE-2024-35468](https://github.com/dovankha/CVE-2024-35468)
 
-### CVE-2024-35469
+### CVE-2024-35469 (-)
+
+<code>A SQL injection vulnerability in /hrm/user/ in SourceCodester Human Resource Management System 1.0 allows attackers to execute arbitrary SQL commands via the password parameter.
+</code>
+
 - [dovankha/CVE-2024-35469](https://github.com/dovankha/CVE-2024-35469)
 
 ### CVE-2024-35475 (-)
@@ -39085,6 +39097,7 @@
 - [EDLLT/CVE-2016-5195-master](https://github.com/EDLLT/CVE-2016-5195-master)
 - [sakilahamed/Linux-Kernel-Exploit-LAB](https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB)
 - [ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195)
+- [B1ackCat/cve-2016-5195-DirtyCOW](https://github.com/B1ackCat/cve-2016-5195-DirtyCOW)
 
 ### CVE-2016-5345 (2018-01-23)
 
