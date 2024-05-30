@@ -451,6 +451,13 @@
 - [mrrobot0o/CVE-2024-3273-](https://github.com/mrrobot0o/CVE-2024-3273-)
 - [OIivr/Turvan6rkus-CVE-2024-3273](https://github.com/OIivr/Turvan6rkus-CVE-2024-3273)
 
+### CVE-2024-3293 (2024-04-23)
+
+<code>The rtMedia for WordPress, BuddyPress and bbPress plugin for WordPress is vulnerable to blind SQL Injection via the rtmedia_gallery shortcode in all versions up to, and including, 4.6.18 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with contributor-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [truonghuuphuc/CVE-2024-3293-Poc](https://github.com/truonghuuphuc/CVE-2024-3293-Poc)
+
 ### CVE-2024-3400 (2024-04-12)
 
 <code>A command injection as a result of arbitrary file creation vulnerability in the GlobalProtect feature of Palo Alto Networks PAN-OS software for specific PAN-OS versions and distinct feature configurations may enable an unauthenticated attacker to execute arbitrary code with root privileges on the firewall.\n\nCloud NGFW, Panorama appliances, and Prisma Access are not impacted by this vulnerability.
@@ -2321,6 +2328,12 @@
 </code>
 
 - [momo1239/CVE-2024-35333](https://github.com/momo1239/CVE-2024-35333)
+
+### CVE-2024-35468
+- [dovankha/CVE-2024-35468](https://github.com/dovankha/CVE-2024-35468)
+
+### CVE-2024-35469
+- [dovankha/CVE-2024-35469](https://github.com/dovankha/CVE-2024-35469)
 
 ### CVE-2024-35475 (-)
 
@@ -5466,6 +5479,7 @@
 - [mdaseem03/cpanel_xss_2023](https://github.com/mdaseem03/cpanel_xss_2023)
 - [some-man1/CVE-2023-29489](https://github.com/some-man1/CVE-2023-29489)
 - [Cappricio-Securities/CVE-2023-29489](https://github.com/Cappricio-Securities/CVE-2023-29489)
+- [md-thalal/CVE-2023-29489](https://github.com/md-thalal/CVE-2023-29489)
 
 ### CVE-2023-29808 (2023-05-12)
 
