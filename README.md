@@ -8,6 +8,13 @@
 
 - [UmVfX1BvaW50/CVE-2024-0015](https://github.com/UmVfX1BvaW50/CVE-2024-0015)
 
+### CVE-2024-0039 (2024-03-11)
+
+<code>In attp_build_value_cmd of att_protocol.cc, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [41yn14/CVE-2024-0039-Exploit](https://github.com/41yn14/CVE-2024-0039-Exploit)
+
 ### CVE-2024-0197 (2024-02-27)
 
 <code>A flaw in the installer for Thales SafeNet Sentinel HASP LDK prior to 9.16 on Windows allows an attacker to escalate their privilege level via local access.\n\n
@@ -14732,6 +14739,7 @@
 - [0xGabe/CVE-2022-35914](https://github.com/0xGabe/CVE-2022-35914)
 - [Johnermac/CVE-2022-35914](https://github.com/Johnermac/CVE-2022-35914)
 - [allendemoura/CVE-2022-35914](https://github.com/allendemoura/CVE-2022-35914)
+- [0romos/CVE-2022-35914](https://github.com/0romos/CVE-2022-35914)
 
 ### CVE-2022-35919 (2022-08-01)
 
@@ -22853,7 +22861,7 @@
 </code>
 
 - [cckuailong/log4j_RCE_CVE-2021-44832](https://github.com/cckuailong/log4j_RCE_CVE-2021-44832)
-- [name/log4j](https://github.com/name/log4j)
+- [name/log4j-scanner](https://github.com/name/log4j-scanner)
 
 ### CVE-2021-44852 (2022-01-01)
 
