@@ -635,6 +635,9 @@
 - [KTN1990/CVE-2024-5084](https://github.com/KTN1990/CVE-2024-5084)
 - [Chocapikk/CVE-2024-5084](https://github.com/Chocapikk/CVE-2024-5084)
 
+### CVE-2024-5522
+- [truonghuuphuc/CVE-2024-5522-Poc](https://github.com/truonghuuphuc/CVE-2024-5522-Poc)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -1408,6 +1411,14 @@
 - [Bytenull00/CVE-2024-24919](https://github.com/Bytenull00/CVE-2024-24919)
 - [am-eid/CVE-2024-24919](https://github.com/am-eid/CVE-2024-24919)
 - [pewc0/CVE-2024-24919](https://github.com/pewc0/CVE-2024-24919)
+- [zam89/CVE-2024-24919](https://github.com/zam89/CVE-2024-24919)
+- [satriarizka/CVE-2024-24919](https://github.com/satriarizka/CVE-2024-24919)
+- [3UR/CVE-2024-24919](https://github.com/3UR/CVE-2024-24919)
+- [RevoltSecurities/CVE-2024-24919](https://github.com/RevoltSecurities/CVE-2024-24919)
+- [Vulnpire/CVE-2024-24919](https://github.com/Vulnpire/CVE-2024-24919)
+- [0x3f3c/CVE-2024-24919](https://github.com/0x3f3c/CVE-2024-24919)
+- [Praison001/CVE-2024-24919-Check-Point-Remote-Access-VPN](https://github.com/Praison001/CVE-2024-24919-Check-Point-Remote-Access-VPN)
+- [smackerdodi/CVE-2024-24919-nuclei-templater](https://github.com/smackerdodi/CVE-2024-24919-nuclei-templater)
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
@@ -42395,6 +42406,7 @@
 </code>
 
 - [Nhom6KTLT/CVE-2010-3124](https://github.com/Nhom6KTLT/CVE-2010-3124)
+- [KOBUKOVUI/DLL_Injection_On_VLC](https://github.com/KOBUKOVUI/DLL_Injection_On_VLC)
 
 ### CVE-2010-3332 (2010-09-22)
 
