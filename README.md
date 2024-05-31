@@ -1405,6 +1405,8 @@
 - [hendprw/CVE-2024-24919](https://github.com/hendprw/CVE-2024-24919)
 - [LucasKatashi/CVE-2024-24919](https://github.com/LucasKatashi/CVE-2024-24919)
 - [eoslvs/CVE-2024-24919](https://github.com/eoslvs/CVE-2024-24919)
+- [Bytenull00/CVE-2024-24919](https://github.com/Bytenull00/CVE-2024-24919)
+- [am-eid/CVE-2024-24919](https://github.com/am-eid/CVE-2024-24919)
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
@@ -26554,6 +26556,13 @@
 
 - [mbadanoiu/CVE-2020-13965](https://github.com/mbadanoiu/CVE-2020-13965)
 
+### CVE-2020-13973 (2020-06-09)
+
+<code>OWASP json-sanitizer before 1.2.1 allows XSS. An attacker who controls a substring of the input JSON, and controls another substring adjacent to a SCRIPT element in which the output is embedded as JavaScript, may be able to confuse the HTML parser as to where the SCRIPT element ends, and cause non-script content to be interpreted as JavaScript.
+</code>
+
+- [epicosy/json-sanitizer](https://github.com/epicosy/json-sanitizer)
+
 ### CVE-2020-13995 (2020-09-25)
 
 <code>U.S. Air Force Sensor Data Management System extract75 has a buffer overflow that leads to code execution. An overflow in a global variable (sBuffer) leads to a Write-What-Where outcome. Writing beyond sBuffer will clobber most global variables until reaching a pointer such as DES_info or image_info. By controlling that pointer, one achieves an arbitrary write when its fields are assigned. The data written is from a potentially untrusted NITF file in the form of an integer. The attacker can gain control of the instruction pointer.
@@ -31574,6 +31583,13 @@
 </code>
 
 - [l0nax/CVE-2019-15233](https://github.com/l0nax/CVE-2019-15233)
+
+### CVE-2019-15477 (2019-08-23)
+
+<code>Jooby before 1.6.4 has XSS via the default error handler.
+</code>
+
+- [epicosy/jooby](https://github.com/epicosy/jooby)
 
 ### CVE-2019-15511 (2019-11-21)
 
