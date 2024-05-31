@@ -1419,6 +1419,10 @@
 - [0x3f3c/CVE-2024-24919](https://github.com/0x3f3c/CVE-2024-24919)
 - [Praison001/CVE-2024-24919-Check-Point-Remote-Access-VPN](https://github.com/Praison001/CVE-2024-24919-Check-Point-Remote-Access-VPN)
 - [smackerdodi/CVE-2024-24919-nuclei-templater](https://github.com/smackerdodi/CVE-2024-24919-nuclei-templater)
+- [GoatSecurity/CVE-2024-24919](https://github.com/GoatSecurity/CVE-2024-24919)
+- [GlobalsecureAcademy/CVE-2024-24919](https://github.com/GlobalsecureAcademy/CVE-2024-24919)
+- [nexblade12/CVE-2024-24919](https://github.com/nexblade12/CVE-2024-24919)
+- [un9nplayer/CVE-2024-24919](https://github.com/un9nplayer/CVE-2024-24919)
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
