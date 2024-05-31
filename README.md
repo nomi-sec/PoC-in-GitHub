@@ -1407,6 +1407,7 @@
 - [eoslvs/CVE-2024-24919](https://github.com/eoslvs/CVE-2024-24919)
 - [Bytenull00/CVE-2024-24919](https://github.com/Bytenull00/CVE-2024-24919)
 - [am-eid/CVE-2024-24919](https://github.com/am-eid/CVE-2024-24919)
+- [pewc0/CVE-2024-24919](https://github.com/pewc0/CVE-2024-24919)
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
@@ -2077,6 +2078,8 @@
 - [JakobTheDev/cve-2024-32002-submodule-aw](https://github.com/JakobTheDev/cve-2024-32002-submodule-aw)
 - [JakobTheDev/cve-2024-32002-poc-aw](https://github.com/JakobTheDev/cve-2024-32002-poc-aw)
 - [Goplush/CVE-2024-32002-git-rce](https://github.com/Goplush/CVE-2024-32002-git-rce)
+- [AD-Appledog/CVE-2024-32002](https://github.com/AD-Appledog/CVE-2024-32002)
+- [AD-Appledog/wakuwaku](https://github.com/AD-Appledog/wakuwaku)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -9108,6 +9111,7 @@
 - [vulncheck-oss/cve-2023-46604](https://github.com/vulncheck-oss/cve-2023-46604)
 - [thinkycx/activemq-rce-cve-2023-46604](https://github.com/thinkycx/activemq-rce-cve-2023-46604)
 - [mranv/honeypot.rs](https://github.com/mranv/honeypot.rs)
+- [pulentoski/CVE-2023-46604](https://github.com/pulentoski/CVE-2023-46604)
 
 ### CVE-2023-46615 (2024-02-12)
 
@@ -9151,6 +9155,7 @@
 - [Chocapikk/CVE-2023-46805](https://github.com/Chocapikk/CVE-2023-46805)
 - [mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped](https://github.com/mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped)
 - [w2xim3/CVE-2023-46805](https://github.com/w2xim3/CVE-2023-46805)
+- [Cappricio-Securities/CVE-2023-46805](https://github.com/Cappricio-Securities/CVE-2023-46805)
 
 ### CVE-2023-46813 (2023-10-27)
 
@@ -10052,7 +10057,6 @@
 - [JaneMandy/CVE-2023-51467-Exploit](https://github.com/JaneMandy/CVE-2023-51467-Exploit)
 - [vulncheck-oss/cve-2023-51467](https://github.com/vulncheck-oss/cve-2023-51467)
 - [Jake123otte1/BadBizness-CVE-2023-51467](https://github.com/Jake123otte1/BadBizness-CVE-2023-51467)
-- [pulentoski/CVE-2023-51467-and-CVE-2023-49070](https://github.com/pulentoski/CVE-2023-51467-and-CVE-2023-49070)
 
 ### CVE-2023-51504 (2024-02-05)
 
@@ -38148,7 +38152,6 @@
 <code>FasterXML jackson-databind through 2.8.10 and 2.9.x through 2.9.3 allows unauthenticated remote code execution because of an incomplete fix for the CVE-2017-7525 deserialization flaw. This is exploitable by sending maliciously crafted JSON input to the readValue method of the ObjectMapper, bypassing a blacklist that is ineffective if the Spring libraries are available in the classpath.
 </code>
 
-- [rootsecurity/Jackson-CVE-2017-17485](https://github.com/rootsecurity/Jackson-CVE-2017-17485)
 - [tafamace/CVE-2017-17485](https://github.com/tafamace/CVE-2017-17485)
 - [x7iaob/cve-2017-17485](https://github.com/x7iaob/cve-2017-17485)
 - [Al1ex/CVE-2017-17485](https://github.com/Al1ex/CVE-2017-17485)
@@ -41286,7 +41289,6 @@
 - [koozxcv/CVE-2014-7911](https://github.com/koozxcv/CVE-2014-7911)
 - [koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege](https://github.com/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege)
 - [mabin004/cve-2014-7911](https://github.com/mabin004/cve-2014-7911)
-- [CytQ/CVE-2014-7911_poc](https://github.com/CytQ/CVE-2014-7911_poc)
 
 ### CVE-2014-7920 (2017-04-13)
 
