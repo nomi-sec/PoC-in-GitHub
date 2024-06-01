@@ -1437,6 +1437,10 @@
 - [fernandobortotti/CVE-2024-24919](https://github.com/fernandobortotti/CVE-2024-24919)
 - [nicolvsrlr27/CVE-2024-24919](https://github.com/nicolvsrlr27/CVE-2024-24919)
 - [gurudattch/CVE-2024-24919](https://github.com/gurudattch/CVE-2024-24919)
+- [YN1337/CVE-2024-24919](https://github.com/YN1337/CVE-2024-24919)
+- [ifconfig-me/CVE-2024-24919-Bulk-Scanner](https://github.com/ifconfig-me/CVE-2024-24919-Bulk-Scanner)
+- [r4p3c4/CVE-2024-24919-Checkpoint-Firewall-VPN-Check](https://github.com/r4p3c4/CVE-2024-24919-Checkpoint-Firewall-VPN-Check)
+- [r4p3c4/CVE-2024-24919-Exploit-PoC-Checkpoint-Firewall-VPN](https://github.com/r4p3c4/CVE-2024-24919-Exploit-PoC-Checkpoint-Firewall-VPN)
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
@@ -2116,6 +2120,7 @@
 - [Goplush/CVE-2024-32002-git-rce](https://github.com/Goplush/CVE-2024-32002-git-rce)
 - [AD-Appledog/CVE-2024-32002](https://github.com/AD-Appledog/CVE-2024-32002)
 - [AD-Appledog/wakuwaku](https://github.com/AD-Appledog/wakuwaku)
+- [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
