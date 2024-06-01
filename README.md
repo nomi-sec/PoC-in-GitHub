@@ -636,6 +636,13 @@
 - [KTN1990/CVE-2024-5084](https://github.com/KTN1990/CVE-2024-5084)
 - [Chocapikk/CVE-2024-5084](https://github.com/Chocapikk/CVE-2024-5084)
 
+### CVE-2024-5326 (2024-05-30)
+
+<code>The Post Grid Gutenberg Blocks and WordPress Blog Plugin – PostX plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'postx_presets_callback' function in all versions up to, and including, 4.1.2. This makes it possible for authenticated attackers, with Contributor-level access and above, to change arbitrary options on affected sites. This can be used to enable new user registration and set the default role for new users to Administrator.
+</code>
+
+- [truonghuuphuc/CVE-2024-5326-Poc](https://github.com/truonghuuphuc/CVE-2024-5326-Poc)
+
 ### CVE-2024-5522
 - [truonghuuphuc/CVE-2024-5522-Poc](https://github.com/truonghuuphuc/CVE-2024-5522-Poc)
 
@@ -1426,6 +1433,10 @@
 - [nexblade12/CVE-2024-24919](https://github.com/nexblade12/CVE-2024-24919)
 - [un9nplayer/CVE-2024-24919](https://github.com/un9nplayer/CVE-2024-24919)
 - [MohamedWagdy7/CVE-2024-24919](https://github.com/MohamedWagdy7/CVE-2024-24919)
+- [Cappricio-Securities/CVE-2024-24919](https://github.com/Cappricio-Securities/CVE-2024-24919)
+- [fernandobortotti/CVE-2024-24919](https://github.com/fernandobortotti/CVE-2024-24919)
+- [nicolvsrlr27/CVE-2024-24919](https://github.com/nicolvsrlr27/CVE-2024-24919)
+- [gurudattch/CVE-2024-24919](https://github.com/gurudattch/CVE-2024-24919)
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
@@ -18193,6 +18204,13 @@
 
 - [security-dbg/CVE-2021-21220](https://github.com/security-dbg/CVE-2021-21220)
 
+### CVE-2021-21225 (2021-04-26)
+
+<code>Out of bounds memory access in V8 in Google Chrome prior to 90.0.4430.85 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
+- [w1n-gl0ry/CVE-2021-21225](https://github.com/w1n-gl0ry/CVE-2021-21225)
+
 ### CVE-2021-21234 (2021-01-05)
 
 <code>spring-boot-actuator-logview in a library that adds a simple logfile viewer as spring boot actuator endpoint. It is maven package &quot;eu.hinsch:spring-boot-actuator-logview&quot;. In spring-boot-actuator-logview before version 0.2.13 there is a directory traversal vulnerability. The nature of this library is to expose a log file directory via admin (spring boot actuator) HTTP endpoints. Both the filename to view and a base folder (relative to the logging folder root) can be specified via request parameters. While the filename parameter was checked to prevent directory traversal exploits (so that `filename=../somefile` would not work), the base folder parameter was not sufficiently checked, so that `filename=somefile&amp;base=../` could access a file outside the logging base directory). The vulnerability has been patched in release 0.2.13. Any users of 0.2.12 should be able to update without any issues as there are no other changes in that release. There is no workaround to fix the vulnerability other than updating or removing the dependency. However, removing read access of the user the application is run with to any directory not required for running the application can limit the impact. Additionally, access to the logview endpoint can be limited by deploying the application behind a reverse proxy.
@@ -29971,6 +29989,7 @@
 - [wolf1892/CVE-2019-7609](https://github.com/wolf1892/CVE-2019-7609)
 - [Cr4ckC4t/cve-2019-7609](https://github.com/Cr4ckC4t/cve-2019-7609)
 - [OliveiraaX/CVE-2019-7609-KibanaRCE](https://github.com/OliveiraaX/CVE-2019-7609-KibanaRCE)
+- [Akshay15-png/CVE-2019-7609](https://github.com/Akshay15-png/CVE-2019-7609)
 
 ### CVE-2019-7616 (2019-07-30)
 
