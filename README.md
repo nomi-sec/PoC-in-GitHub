@@ -573,6 +573,7 @@
 - [LOURC0D3/CVE-2024-4367-PoC](https://github.com/LOURC0D3/CVE-2024-4367-PoC)
 - [s4vvysec/CVE-2024-4367-POC](https://github.com/s4vvysec/CVE-2024-4367-POC)
 - [spaceraccoon/detect-cve-2024-4367](https://github.com/spaceraccoon/detect-cve-2024-4367)
+- [clarkio/pdfjs-vuln-demo](https://github.com/clarkio/pdfjs-vuln-demo)
 - [avalahEE/pdfjs_disable_eval](https://github.com/avalahEE/pdfjs_disable_eval)
 
 ### CVE-2024-4439 (2024-05-03)
@@ -1416,6 +1417,7 @@
 - [3UR/CVE-2024-24919](https://github.com/3UR/CVE-2024-24919)
 - [RevoltSecurities/CVE-2024-24919](https://github.com/RevoltSecurities/CVE-2024-24919)
 - [Vulnpire/CVE-2024-24919](https://github.com/Vulnpire/CVE-2024-24919)
+- [seed1337/CVE-2024-24919-POC](https://github.com/seed1337/CVE-2024-24919-POC)
 - [0x3f3c/CVE-2024-24919](https://github.com/0x3f3c/CVE-2024-24919)
 - [Praison001/CVE-2024-24919-Check-Point-Remote-Access-VPN](https://github.com/Praison001/CVE-2024-24919-Check-Point-Remote-Access-VPN)
 - [smackerdodi/CVE-2024-24919-nuclei-templater](https://github.com/smackerdodi/CVE-2024-24919-nuclei-templater)
@@ -1423,6 +1425,7 @@
 - [GlobalsecureAcademy/CVE-2024-24919](https://github.com/GlobalsecureAcademy/CVE-2024-24919)
 - [nexblade12/CVE-2024-24919](https://github.com/nexblade12/CVE-2024-24919)
 - [un9nplayer/CVE-2024-24919](https://github.com/un9nplayer/CVE-2024-24919)
+- [MohamedWagdy7/CVE-2024-24919](https://github.com/MohamedWagdy7/CVE-2024-24919)
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
@@ -1650,6 +1653,13 @@
 
 - [lockness-Ko/CVE-2024-27316](https://github.com/lockness-Ko/CVE-2024-27316)
 - [aeyesec/CVE-2024-27316_poc](https://github.com/aeyesec/CVE-2024-27316_poc)
+
+### CVE-2024-27348 (2024-04-22)
+
+<code>RCE-Remote Command Execution vulnerability in Apache HugeGraph-Server.This issue affects Apache HugeGraph-Server: from 1.0.0 before 1.3.0 in Java8 &amp; Java11\n\nUsers are recommended to upgrade to version 1.3.0 with Java11 &amp; enable the Auth system, which fixes the issue.\n\n
+</code>
+
+- [Zeyad-Azima/CVE-2024-27348](https://github.com/Zeyad-Azima/CVE-2024-27348)
 
 ### CVE-2024-27460 (2024-05-10)
 
@@ -4488,7 +4498,7 @@
 - [tiepologian/CVE-2023-23397](https://github.com/tiepologian/CVE-2023-23397)
 - [BronzeBee/cve-2023-23397](https://github.com/BronzeBee/cve-2023-23397)
 - [stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397)
-- [madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report)
+- [Cyb3rMaddy/CVE-2023-23397-Report](https://github.com/Cyb3rMaddy/CVE-2023-23397-Report)
 - [Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch)
 - [jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397)
 - [CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC)
@@ -27931,6 +27941,7 @@
 
 - [novysodope/CVE-2020-26217-XStream-RCE-POC](https://github.com/novysodope/CVE-2020-26217-XStream-RCE-POC)
 - [Al1ex/CVE-2020-26217](https://github.com/Al1ex/CVE-2020-26217)
+- [epicosy/XStream-1](https://github.com/epicosy/XStream-1)
 
 ### CVE-2020-26233 (2020-12-08)
 
@@ -31280,6 +31291,13 @@
 
 - [rhbb/CVE-2019-13956](https://github.com/rhbb/CVE-2019-13956)
 
+### CVE-2019-13990 (2019-07-26)
+
+<code>initDocumentParser in xml/XMLSchedulingDataProcessor.java in Terracotta Quartz Scheduler through 2.3.0 allows XXE attacks via a job description.
+</code>
+
+- [epicosy/Quartz-1](https://github.com/epicosy/Quartz-1)
+
 ### CVE-2019-14040 (2020-02-07)
 
 <code>Using memory after being freed in qsee due to wrong implementation can lead to unexpected behavior such as execution of unknown code in Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables in APQ8009, APQ8017, APQ8053, APQ8096AU, APQ8098, MDM9150, MDM9206, MDM9207C, MDM9607, MDM9640, MDM9650, MSM8905, MSM8909W, MSM8917, MSM8920, MSM8937, MSM8940, MSM8953, MSM8996AU, MSM8998, QCS605, QM215, SDA660, SDA845, SDM429, SDM429W, SDM439, SDM450, SDM630, SDM632, SDM636, SDM660, SDM845, SDX20, SDX24, SM8150, SXR1130
@@ -31981,6 +31999,13 @@
 </code>
 
 - [Timon-L/3007Project](https://github.com/Timon-L/3007Project)
+
+### CVE-2019-17513 (2019-10-18)
+
+<code>An issue was discovered in Ratpack before 1.7.5. Due to a misuse of the Netty library class DefaultHttpHeaders, there is no validation that headers lack HTTP control characters. Thus, if untrusted data is used to construct HTTP headers with Ratpack, HTTP Response Splitting can occur.
+</code>
+
+- [epicosy/Ratpack-1](https://github.com/epicosy/Ratpack-1)
 
 ### CVE-2019-17525 (2020-04-21)
 
@@ -35995,6 +36020,13 @@
 
 - [tna0y/CVE-2018-1000802-PoC](https://github.com/tna0y/CVE-2018-1000802-PoC)
 
+### CVE-2018-1000844 (2022-10-03)
+
+<code>Square Open Source Retrofit version Prior to commit 4a693c5aeeef2be6c7ecf80e7b5ec79f6ab59437 contains a XML External Entity (XXE) vulnerability in JAXB that can result in An attacker could use this to remotely read files from the file system or to perform SSRF.. This vulnerability appears to have been fixed in After commit 4a693c5aeeef2be6c7ecf80e7b5ec79f6ab59437.
+</code>
+
+- [epicosy/Retrofit-1](https://github.com/epicosy/Retrofit-1)
+
 ### CVE-2018-1000861 (2018-12-10)
 
 <code>A code execution vulnerability exists in the Stapler web framework used by Jenkins 2.153 and earlier, LTS 2.138.3 and earlier in stapler/core/src/main/java/org/kohsuke/stapler/MetaClass.java that allows attackers to invoke some methods on Java objects by accessing crafted URLs that were not intended to be invoked this way.
@@ -39140,6 +39172,13 @@
 
 - [NickStephens/cve-2016-5345](https://github.com/NickStephens/cve-2016-5345)
 
+### CVE-2016-5394 (2017-07-18)
+
+<code>In the XSS Protection API module before 1.0.12 in Apache Sling, the encoding done by the XSSAPI.encodeForJSString() method is not restrictive enough and for some input patterns allows script tags to pass through unencoded, leading to potential XSS vulnerabilities.
+</code>
+
+- [epicosy/VUL4J-23](https://github.com/epicosy/VUL4J-23)
+
 ### CVE-2016-5636 (2016-09-02)
 
 <code>Integer overflow in the get_data function in zipimport.c in CPython (aka Python) before 2.7.12, 3.x before 3.4.5, and 3.5.x before 3.5.2 allows remote attackers to have unspecified impact via a negative data size value, which triggers a heap-based buffer overflow.
@@ -39533,6 +39572,13 @@
 </code>
 
 - [t0kx/exploit-CVE-2016-9920](https://github.com/t0kx/exploit-CVE-2016-9920)
+
+### CVE-2016-10006 (2016-12-24)
+
+<code>In OWASP AntiSamy before 1.5.5, by submitting a specially crafted input (a tag that supports style with active content), you could bypass the library protections and supply executable code. The impact is XSS.
+</code>
+
+- [epicosy/VUL4J-60](https://github.com/epicosy/VUL4J-60)
 
 ### CVE-2016-10033 (2016-12-30)
 
@@ -40379,6 +40425,13 @@
 
 - [G01d3nW01f/CVE-2015-6668](https://github.com/G01d3nW01f/CVE-2015-6668)
 - [c0d3cr4f73r/CVE-2015-6668](https://github.com/c0d3cr4f73r/CVE-2015-6668)
+
+### CVE-2015-6748 (2017-09-25)
+
+<code>Cross-site scripting (XSS) vulnerability in jsoup before 1.8.3.
+</code>
+
+- [epicosy/VUL4J-59](https://github.com/epicosy/VUL4J-59)
 
 ### CVE-2015-6835 (2016-05-16)
 
@@ -41737,6 +41790,7 @@
 </code>
 
 - [theratpack/grails-javamelody-sample-app](https://github.com/theratpack/grails-javamelody-sample-app)
+- [epicosy/VUL4J-50](https://github.com/epicosy/VUL4J-50)
 
 ### CVE-2013-4434 (2013-10-25)
 
