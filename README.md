@@ -1442,6 +1442,8 @@
 - [r4p3c4/CVE-2024-24919-Checkpoint-Firewall-VPN-Check](https://github.com/r4p3c4/CVE-2024-24919-Checkpoint-Firewall-VPN-Check)
 - [r4p3c4/CVE-2024-24919-Exploit-PoC-Checkpoint-Firewall-VPN](https://github.com/r4p3c4/CVE-2024-24919-Exploit-PoC-Checkpoint-Firewall-VPN)
 - [mr-kasim-mehar/CVE-2024-24919-Exploit](https://github.com/mr-kasim-mehar/CVE-2024-24919-Exploit)
+- [B1naryo/CVE-2024-24919-POC](https://github.com/B1naryo/CVE-2024-24919-POC)
+- [Expl0itD0g/CVE-2024-24919---Poc](https://github.com/Expl0itD0g/CVE-2024-24919---Poc)
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
@@ -3702,6 +3704,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2023-6700](https://github.com/RandomRobbieBF/CVE-2023-6700)
+
+### CVE-2023-6702 (2023-12-14)
+
+<code>Type confusion in V8 in Google Chrome prior to 120.0.6099.109 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [kaist-hacking/CVE-2023-6702](https://github.com/kaist-hacking/CVE-2023-6702)
 
 ### CVE-2023-6710 (2023-12-12)
 
@@ -25682,6 +25691,7 @@
 - [RepublicR0K/CVE-2020-9484](https://github.com/RepublicR0K/CVE-2020-9484)
 - [ColdFusionX/CVE-2020-9484](https://github.com/ColdFusionX/CVE-2020-9484)
 - [d3fudd/CVE-2020-9484_Exploit](https://github.com/d3fudd/CVE-2020-9484_Exploit)
+- [pxcs/webLogin-DEV](https://github.com/pxcs/webLogin-DEV)
 
 ### CVE-2020-9495 (2020-06-19)
 
@@ -30056,13 +30066,6 @@
 
 - [shawarkhanethicalhacker/CVE-2019-8389](https://github.com/shawarkhanethicalhacker/CVE-2019-8389)
 
-### CVE-2019-8446 (2019-08-13)
-
-<code>The /rest/issueNav/1/issueTable resource in Jira before version 8.3.2 allows remote attackers to enumerate usernames via an incorrect authorisation check.
-</code>
-
-- [CyberTrashPanda/CVE-2019-8446](https://github.com/CyberTrashPanda/CVE-2019-8446)
-
 ### CVE-2019-8449 (2019-09-10)
 
 <code>The /rest/api/latest/groupuserpicker resource in Jira before version 8.4.0 allows remote attackers to enumerate usernames via an information disclosure vulnerability.
@@ -31009,6 +31012,13 @@
 </code>
 
 - [Alexandre-Bartel/CVE-2019-12594](https://github.com/Alexandre-Bartel/CVE-2019-12594)
+
+### CVE-2019-12616 (2019-06-05)
+
+<code>An issue was discovered in phpMyAdmin before 4.9.0. A vulnerability was found that allows an attacker to trigger a CSRF attack against a phpMyAdmin user. The attacker can trick the user, for instance through a broken &lt;img&gt; tag pointing at the victim's phpMyAdmin database, and the attacker can potentially deliver a payload (such as a specific INSERT or DELETE statement) to the victim.
+</code>
+
+- [Cappricio-Securities/CVE-2019-12616](https://github.com/Cappricio-Securities/CVE-2019-12616)
 
 ### CVE-2019-12725 (2019-07-19)
 
@@ -35165,7 +35175,6 @@
 - [Anonimo501/ssh_enum_users_CVE-2018-15473](https://github.com/Anonimo501/ssh_enum_users_CVE-2018-15473)
 - [mclbn/docker-cve-2018-15473](https://github.com/mclbn/docker-cve-2018-15473)
 - [GaboLC98/userenum-CVE-2018-15473](https://github.com/GaboLC98/userenum-CVE-2018-15473)
-- [mrblue12-byte/CVE-2018-15473](https://github.com/mrblue12-byte/CVE-2018-15473)
 - [4xolotl/CVE-2018-15473](https://github.com/4xolotl/CVE-2018-15473)
 - [NestyF/SSH_Enum_CVE-2018-15473](https://github.com/NestyF/SSH_Enum_CVE-2018-15473)
 
@@ -42549,13 +42558,6 @@
 </code>
 
 - [nektra/CVE-2010-3971-hotpatch](https://github.com/nektra/CVE-2010-3971-hotpatch)
-
-### CVE-2010-4180 (2010-12-06)
-
-<code>OpenSSL before 0.9.8q, and 1.0.x before 1.0.0c, when SSL_OP_NETSCAPE_REUSE_CIPHER_CHANGE_BUG is enabled, does not properly prevent modification of the ciphersuite in the session cache, which allows remote attackers to force the downgrade to an unintended cipher via vectors involving sniffing network traffic to discover a session identifier.
-</code>
-
-- [protonnegativo/CVE-2010-4180-by-ChatGPT](https://github.com/protonnegativo/CVE-2010-4180-by-ChatGPT)
 
 ### CVE-2010-4221 (2010-11-09)
 
