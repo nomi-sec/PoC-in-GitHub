@@ -6925,6 +6925,13 @@
 
 - [deIndra/CVE-2023-36076](https://github.com/deIndra/CVE-2023-36076)
 
+### CVE-2023-36085 (2023-10-24)
+
+<code>The sisqualWFM 7.1.319.103 thru 7.1.319.111 for Android, has a host header injection vulnerability in its &quot;/sisqualIdentityServer/core/&quot; endpoint. By modifying the HTTP Host header, an attacker can change webpage links and even redirect users to arbitrary or malicious locations. This can lead to phishing attacks, malware distribution, and unauthorized access to sensitive resources.
+</code>
+
+- [omershaik0/CVE-2023-36085_SISQUALWFM-Host-Header-Injection](https://github.com/omershaik0/CVE-2023-36085_SISQUALWFM-Host-Header-Injection)
+
 ### CVE-2023-36109 (2023-09-20)
 
 <code>Buffer Overflow vulnerability in JerryScript version 3.0, allows remote attackers to execute arbitrary code via ecma_stringbuilder_append_raw component at /jerry-core/ecma/base/ecma-helpers-string.c.
