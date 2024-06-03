@@ -39,6 +39,13 @@
 
 - [keldnorman/cve-2024-0230-blue](https://github.com/keldnorman/cve-2024-0230-blue)
 
+### CVE-2024-0235 (2024-01-16)
+
+<code>The EventON WordPress plugin before 4.5.5, EventON WordPress plugin before 2.2.7 do not have authorisation in an AJAX action, allowing unauthenticated users to retrieve email addresses of any users on the blog
+</code>
+
+- [Cappricio-Securities/CVE-2024-0235](https://github.com/Cappricio-Securities/CVE-2024-0235)
+
 ### CVE-2024-0305 (2024-01-08)
 
 <code>Eine Schwachstelle wurde in Guangzhou Yingke Electronic Technology Ncast bis 2017 gefunden. Sie wurde als problematisch eingestuft. Dies betrifft einen unbekannten Teil der Datei /manage/IPSetup.php der Komponente Guest Login. Durch das Manipulieren mit unbekannten Daten kann eine information disclosure-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
@@ -1456,6 +1463,8 @@
 - [bigb0x/CVE-2024-24919-Sniper](https://github.com/bigb0x/CVE-2024-24919-Sniper)
 - [birdlex/cve-2024-24919-checker](https://github.com/birdlex/cve-2024-24919-checker)
 - [Rug4lo/CVE-2024-24919-Exploit](https://github.com/Rug4lo/CVE-2024-24919-Exploit)
+- [0nin0hanz0/CVE-2024-24919-PoC](https://github.com/0nin0hanz0/CVE-2024-24919-PoC)
+- [GuayoyoCyber/CVE-2024-24919](https://github.com/GuayoyoCyber/CVE-2024-24919)
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
@@ -2147,6 +2156,13 @@
 - [Wadewfsssss/CVE-2024-32004](https://github.com/Wadewfsssss/CVE-2024-32004)
 - [10cks/CVE-2024-32004-POC](https://github.com/10cks/CVE-2024-32004-POC)
 
+### CVE-2024-32113 (2024-05-08)
+
+<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache OFBiz.This issue affects Apache OFBiz: before 18.12.13.\n\nUsers are recommended to upgrade to version 18.12.13, which fixes the issue.\n\n
+</code>
+
+- [Mr-xn/CVE-2024-32113](https://github.com/Mr-xn/CVE-2024-32113)
+
 ### CVE-2024-32136 (2024-04-15)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Xenioushk BWL Advanced FAQ Manager.This issue affects BWL Advanced FAQ Manager: from n/a through 2.0.3.\n\n
@@ -2401,6 +2417,9 @@
 </code>
 
 - [Gr-1m/CVE-2024-34958](https://github.com/Gr-1m/CVE-2024-34958)
+
+### CVE-2024-35315
+- [ewilded/CVE-2024-35315-POC](https://github.com/ewilded/CVE-2024-35315-POC)
 
 ### CVE-2024-35333 (-)
 
@@ -12452,6 +12471,7 @@
 - [twseptian/cve-2022-24112](https://github.com/twseptian/cve-2022-24112)
 - [Acczdy/CVE-2022-24112_POC](https://github.com/Acczdy/CVE-2022-24112_POC)
 - [wshepherd0010/CVE-2022-24112-Lab](https://github.com/wshepherd0010/CVE-2022-24112-Lab)
+- [btar1gan/exploit_CVE-2022-24112](https://github.com/btar1gan/exploit_CVE-2022-24112)
 
 ### CVE-2022-24122 (2022-01-29)
 
