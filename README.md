@@ -565,6 +565,13 @@
 
 - [truonghuuphuc/CVE-2024-4352-Poc](https://github.com/truonghuuphuc/CVE-2024-4352-Poc)
 
+### CVE-2024-4358 (2024-05-29)
+
+<code>In Progress Telerik Report Server, version 2024 Q1 (10.0.24.305) or earlier, on IIS, an unauthenticated attacker can gain access to Telerik Report Server restricted functionality via an authentication bypass vulnerability.
+</code>
+
+- [sinsinology/CVE-2024-4358](https://github.com/sinsinology/CVE-2024-4358)
+
 ### CVE-2024-4367 (2024-05-14)
 
 <code>A type check was missing when handling fonts in PDF.js, which would allow arbitrary JavaScript execution in the PDF.js context. This vulnerability affects Firefox &lt; 126, Firefox ESR &lt; 115.11, and Thunderbird &lt; 115.11.
@@ -1447,6 +1454,8 @@
 - [B1naryo/CVE-2024-24919-POC](https://github.com/B1naryo/CVE-2024-24919-POC)
 - [Expl0itD0g/CVE-2024-24919---Poc](https://github.com/Expl0itD0g/CVE-2024-24919---Poc)
 - [bigb0x/CVE-2024-24919-Sniper](https://github.com/bigb0x/CVE-2024-24919-Sniper)
+- [birdlex/cve-2024-24919-checker](https://github.com/birdlex/cve-2024-24919-checker)
+- [Rug4lo/CVE-2024-24919-Exploit](https://github.com/Rug4lo/CVE-2024-24919-Exploit)
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
@@ -2382,6 +2391,9 @@
 </code>
 
 - [aelmokhtar/CVE-2024-34716_PoC](https://github.com/aelmokhtar/CVE-2024-34716_PoC)
+
+### CVE-2024-34832
+- [julio-cfa/CVE-2024-34832](https://github.com/julio-cfa/CVE-2024-34832)
 
 ### CVE-2024-34958 (-)
 
@@ -12121,7 +12133,6 @@
 - [BKLockly/CVE-2022-22965](https://github.com/BKLockly/CVE-2022-22965)
 - [dbgee/Spring4Shell](https://github.com/dbgee/Spring4Shell)
 - [jakabakos/CVE-2022-22965-Spring4Shell](https://github.com/jakabakos/CVE-2022-22965-Spring4Shell)
-- [h4ck0rman/Spring4Shell-PoC](https://github.com/h4ck0rman/Spring4Shell-PoC)
 - [sohamsharma966/Spring4Shell-CVE-2022-22965](https://github.com/sohamsharma966/Spring4Shell-CVE-2022-22965)
 - [LucasPDiniz/CVE-2022-22965](https://github.com/LucasPDiniz/CVE-2022-22965)
 
@@ -37238,8 +37249,8 @@
 - [tahisaad6/CVE-2017-8759-Exploit-sample2](https://github.com/tahisaad6/CVE-2017-8759-Exploit-sample2)
 - [homjxi0e/CVE-2017-8759_-SOAP_WSDL](https://github.com/homjxi0e/CVE-2017-8759_-SOAP_WSDL)
 - [bhdresh/CVE-2017-8759](https://github.com/bhdresh/CVE-2017-8759)
-- [Lz1y/CVE-2017-8759](https://github.com/Lz1y/CVE-2017-8759)
 - [JonasUliana/CVE-2017-8759](https://github.com/JonasUliana/CVE-2017-8759)
+- [sythass/CVE-2017-8759](https://github.com/sythass/CVE-2017-8759)
 - [ashr/CVE-2017-8759-exploits](https://github.com/ashr/CVE-2017-8759-exploits)
 - [l0n3rs/CVE-2017-8759](https://github.com/l0n3rs/CVE-2017-8759)
 - [ChaitanyaHaritash/CVE-2017-8759](https://github.com/ChaitanyaHaritash/CVE-2017-8759)
