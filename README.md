@@ -750,6 +750,7 @@
 
 - [mansk1es/CVE-2024-21111](https://github.com/mansk1es/CVE-2024-21111)
 - [10cks/CVE-2024-21111-del](https://github.com/10cks/CVE-2024-21111-del)
+- [x0rsys/CVE-2024-21111](https://github.com/x0rsys/CVE-2024-21111)
 
 ### CVE-2024-21305 (2024-01-09)
 
@@ -1467,6 +1468,8 @@
 - [Rug4lo/CVE-2024-24919-Exploit](https://github.com/Rug4lo/CVE-2024-24919-Exploit)
 - [0nin0hanz0/CVE-2024-24919-PoC](https://github.com/0nin0hanz0/CVE-2024-24919-PoC)
 - [GuayoyoCyber/CVE-2024-24919](https://github.com/GuayoyoCyber/CVE-2024-24919)
+- [0xans/CVE-2024-24919](https://github.com/0xans/CVE-2024-24919)
+- [Tim-Hoekstra/CVE-2024-24919](https://github.com/Tim-Hoekstra/CVE-2024-24919)
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
@@ -13023,7 +13026,6 @@
 
 - [W01fh4cker/Serein](https://github.com/W01fh4cker/Serein)
 - [offlinehoster/CVE-2022-26134](https://github.com/offlinehoster/CVE-2022-26134)
-- [CyberDonkyx0/CVE-2022-26134](https://github.com/CyberDonkyx0/CVE-2022-26134)
 - [th3b3ginn3r/CVE-2022-26134-Exploit-Detection](https://github.com/th3b3ginn3r/CVE-2022-26134-Exploit-Detection)
 - [jbaines-r7/through_the_wire](https://github.com/jbaines-r7/through_the_wire)
 - [crowsec-edtech/CVE-2022-26134](https://github.com/crowsec-edtech/CVE-2022-26134)
@@ -20002,6 +20004,7 @@
 - [thewhiteh4t/cve-2021-31630](https://github.com/thewhiteh4t/cve-2021-31630)
 - [mind2hex/CVE-2021-31630](https://github.com/mind2hex/CVE-2021-31630)
 - [sealldeveloper/CVE-2021-31630-PoC](https://github.com/sealldeveloper/CVE-2021-31630-PoC)
+- [junnythemarksman/CVE-2021-31630](https://github.com/junnythemarksman/CVE-2021-31630)
 
 ### CVE-2021-31728 (2021-05-17)
 
