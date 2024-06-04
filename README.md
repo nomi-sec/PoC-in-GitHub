@@ -355,6 +355,8 @@
 - [ambionics/cnext-exploits](https://github.com/ambionics/cnext-exploits)
 - [absolutedesignltd/iconvfix](https://github.com/absolutedesignltd/iconvfix)
 - [exfil0/test_iconv](https://github.com/exfil0/test_iconv)
+- [tnishiox/cve-2024-2961](https://github.com/tnishiox/cve-2024-2961)
+- [kjdfklha/CVE-2024-2961_poc](https://github.com/kjdfklha/CVE-2024-2961_poc)
 
 ### CVE-2024-3094 (2024-03-29)
 
@@ -580,6 +582,7 @@
 </code>
 
 - [sinsinology/CVE-2024-4358](https://github.com/sinsinology/CVE-2024-4358)
+- [RevoltSecurities/CVE-2024-4358](https://github.com/RevoltSecurities/CVE-2024-4358)
 
 ### CVE-2024-4367 (2024-05-14)
 
@@ -863,6 +866,7 @@
 - [W01fh4cker/CVE-2024-21683-RCE](https://github.com/W01fh4cker/CVE-2024-21683-RCE)
 - [absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server](https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server)
 - [phucrio/CVE-2024-21683-RCE](https://github.com/phucrio/CVE-2024-21683-RCE)
+- [xh4vm/CVE-2024-21683](https://github.com/xh4vm/CVE-2024-21683)
 
 ### CVE-2024-21762 (2024-02-09)
 
@@ -2267,9 +2271,6 @@
 </code>
 
 - [HBLocker/CVE-2024-33078](https://github.com/HBLocker/CVE-2024-33078)
-
-### CVE-2024-33339
-- [balckgu1/Poc](https://github.com/balckgu1/Poc)
 
 ### CVE-2024-33438 (2024-04-29)
 
@@ -5796,6 +5797,7 @@
 - [rvizx/CVE-2023-30547](https://github.com/rvizx/CVE-2023-30547)
 - [user0x1337/CVE-2023-30547](https://github.com/user0x1337/CVE-2023-30547)
 - [Cur1iosity/CVE-2023-30547](https://github.com/Cur1iosity/CVE-2023-30547)
+- [junnythemarksman/CVE-2023-30547](https://github.com/junnythemarksman/CVE-2023-30547)
 
 ### CVE-2023-30765 (2023-07-10)
 
