@@ -140,6 +140,7 @@
 - [Alicey0719/docker-POC_CVE-2024-1086](https://github.com/Alicey0719/docker-POC_CVE-2024-1086)
 - [CCIEVoice2009/CVE-2024-1086](https://github.com/CCIEVoice2009/CVE-2024-1086)
 - [rootkalilocalhost/CVE-2024-1086](https://github.com/rootkalilocalhost/CVE-2024-1086)
+- [kevcooper/CVE-2024-1086-checker](https://github.com/kevcooper/CVE-2024-1086-checker)
 
 ### CVE-2024-1208 (2024-02-05)
 
@@ -353,6 +354,7 @@
 - [rvizx/CVE-2024-2961](https://github.com/rvizx/CVE-2024-2961)
 - [ambionics/cnext-exploits](https://github.com/ambionics/cnext-exploits)
 - [absolutedesignltd/iconvfix](https://github.com/absolutedesignltd/iconvfix)
+- [exfil0/test_iconv](https://github.com/exfil0/test_iconv)
 
 ### CVE-2024-3094 (2024-03-29)
 
@@ -1699,6 +1701,7 @@
 </code>
 
 - [Zeyad-Azima/CVE-2024-27348](https://github.com/Zeyad-Azima/CVE-2024-27348)
+- [kljunowsky/CVE-2024-27348](https://github.com/kljunowsky/CVE-2024-27348)
 
 ### CVE-2024-27460 (2024-05-10)
 
@@ -10159,6 +10162,13 @@
 
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
 
+### CVE-2023-51518 (2024-02-27)
+
+<code>Apache James prior to version 3.7.5 and 3.8.0 exposes a JMX endpoint on localhost subject to pre-authentication deserialisation of untrusted data.\nGiven a deserialisation gadjet, this could be leveraged as part of an exploit chain that could result in privilege escalation.\nNote that by default JMX endpoint is only bound locally.\n\nWe recommend users to:\n - Upgrade to a non-vulnerable Apache James version\n\n - Run Apache James isolated from other processes (docker - dedicated virtual machine)\n - If possible turn off JMX\n\n
+</code>
+
+- [mbadanoiu/CVE-2023-51518](https://github.com/mbadanoiu/CVE-2023-51518)
+
 ### CVE-2023-51764 (2023-12-24)
 
 <code>Postfix through 3.8.5 allows SMTP smuggling unless configured with smtpd_data_restrictions=reject_unauth_pipelining and smtpd_discard_ehlo_keywords=chunking (or certain other options that exist in recent versions). Remote attackers can use a published exploitation technique to inject e-mail messages with a spoofed MAIL FROM address, allowing bypass of an SPF protection mechanism. This occurs because Postfix supports &lt;LF&gt;.&lt;CR&gt;&lt;LF&gt; but some other popular e-mail servers do not. To prevent attack variants (by always disallowing &lt;LF&gt; without &lt;CR&gt;), a different solution is required, such as the smtpd_forbid_bare_newline=yes option with a Postfix minimum version of 3.5.23, 3.6.13, 3.7.9, 3.8.4, or 3.9.
@@ -15009,6 +15019,7 @@
 </code>
 
 - [rootDR/CVE-2022-36779](https://github.com/rootDR/CVE-2022-36779)
+- [EmadYaY/CVE-2022-36779](https://github.com/EmadYaY/CVE-2022-36779)
 
 ### CVE-2022-36804 (2022-08-25)
 
@@ -17884,7 +17895,11 @@
 
 - [walac/cve-2021-3864](https://github.com/walac/cve-2021-3864)
 
-### CVE-2021-3899
+### CVE-2021-3899 (2024-06-03)
+
+<code>There is a race condition in the 'replaced executable' detection that, with the correct local configuration, allow an attacker to execute arbitrary code as root.
+</code>
+
 - [liumuqing/CVE-2021-3899_PoC](https://github.com/liumuqing/CVE-2021-3899_PoC)
 
 ### CVE-2021-3929 (2022-08-25)
