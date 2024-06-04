@@ -583,6 +583,7 @@
 
 - [sinsinology/CVE-2024-4358](https://github.com/sinsinology/CVE-2024-4358)
 - [RevoltSecurities/CVE-2024-4358](https://github.com/RevoltSecurities/CVE-2024-4358)
+- [Harydhk7/CVE-2024-4358](https://github.com/Harydhk7/CVE-2024-4358)
 
 ### CVE-2024-4367 (2024-05-14)
 
@@ -1568,7 +1569,11 @@
 
 - [FixedOctocat/CVE-2024-25466](https://github.com/FixedOctocat/CVE-2024-25466)
 
-### CVE-2024-25600
+### CVE-2024-25600 (2024-06-04)
+
+<code>Improper Control of Generation of Code ('Code Injection') vulnerability in Codeer Limited Bricks Builder allows Code Injection.This issue affects Bricks Builder: from n/a through 1.9.6.
+</code>
+
 - [Chocapikk/CVE-2024-25600](https://github.com/Chocapikk/CVE-2024-25600)
 - [Christbowel/CVE-2024-25600_Nuclei-Template](https://github.com/Christbowel/CVE-2024-25600_Nuclei-Template)
 - [Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress](https://github.com/Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress)
@@ -10552,6 +10557,7 @@
 - [ayushx007/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/ayushx007/CVE-2022-0847-DirtyPipe-Exploits)
 - [solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus](https://github.com/solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus)
 - [letsr00t/CVE-2022-0847](https://github.com/letsr00t/CVE-2022-0847)
+- [muhammad1596/CVE-2022-0847-dirty-pipe-checker](https://github.com/muhammad1596/CVE-2022-0847-dirty-pipe-checker)
 
 ### CVE-2022-0848 (2022-03-04)
 
