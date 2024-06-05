@@ -584,6 +584,7 @@
 - [sinsinology/CVE-2024-4358](https://github.com/sinsinology/CVE-2024-4358)
 - [RevoltSecurities/CVE-2024-4358](https://github.com/RevoltSecurities/CVE-2024-4358)
 - [Harydhk7/CVE-2024-4358](https://github.com/Harydhk7/CVE-2024-4358)
+- [Sk1dr0wz/CVE-2024-4358_Mass_Exploit](https://github.com/Sk1dr0wz/CVE-2024-4358_Mass_Exploit)
 
 ### CVE-2024-4367 (2024-05-14)
 
@@ -28951,7 +28952,6 @@
 - [1aa87148377/CVE-2019-0708](https://github.com/1aa87148377/CVE-2019-0708)
 - [coolboy4me/cve-2019-0708_bluekeep_rce](https://github.com/coolboy4me/cve-2019-0708_bluekeep_rce)
 - [Cyb0r9/ispy](https://github.com/Cyb0r9/ispy)
-- [lwtz/CVE-2019-0708](https://github.com/lwtz/CVE-2019-0708)
 - [ulisesrc/-2-CVE-2019-0708](https://github.com/ulisesrc/-2-CVE-2019-0708)
 - [worawit/CVE-2019-0708](https://github.com/worawit/CVE-2019-0708)
 - [Ameg-yag/Wincrash](https://github.com/Ameg-yag/Wincrash)
