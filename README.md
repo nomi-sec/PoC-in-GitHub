@@ -656,6 +656,7 @@
 - [TypicalModMaker/CVE-2024-4956](https://github.com/TypicalModMaker/CVE-2024-4956)
 - [Praison001/CVE-2024-4956-Sonatype-Nexus-Repository-Manager](https://github.com/Praison001/CVE-2024-4956-Sonatype-Nexus-Repository-Manager)
 - [Cappricio-Securities/CVE-2024-4956](https://github.com/Cappricio-Securities/CVE-2024-4956)
+- [fin3ss3g0d/CVE-2024-4956](https://github.com/fin3ss3g0d/CVE-2024-4956)
 
 ### CVE-2024-5084 (2024-05-23)
 
@@ -11575,6 +11576,7 @@
 
 - [Mr-xn/CVE-2022-21371](https://github.com/Mr-xn/CVE-2022-21371)
 - [Vulnmachines/Oracle-WebLogic-CVE-2022-21371](https://github.com/Vulnmachines/Oracle-WebLogic-CVE-2022-21371)
+- [Cappricio-Securities/CVE-2022-21371](https://github.com/Cappricio-Securities/CVE-2022-21371)
 
 ### CVE-2022-21392 (2022-01-19)
 
@@ -24797,7 +24799,7 @@
 
 ### CVE-2020-5245 (2020-02-24)
 
-<code>Dropwizard-Validation before 1.3.19, and 2.0.2 may allow arbitrary code execution on the host system, with the privileges of the Dropwizard service account, by injecting arbitrary Java Expression Language expressions when using the self-validating feature. The issue has been fixed in dropwizard-validation 1.3.19 and 2.0.2.
+<code>Dropwizard-Validation before 1.3.19, and 2.0.2 may allow arbitrary code execution on the host system, with the privileges of the Dropwizard service account, by injecting arbitrary Java Expression Language expressions when using the self-validating feature.\n\nThe issue has been fixed in dropwizard-validation 1.3.19 and 2.0.2.
 </code>
 
 - [LycsHub/CVE-2020-5245](https://github.com/LycsHub/CVE-2020-5245)
@@ -37365,6 +37367,7 @@
 - [Siopy/CVE-2017-8917](https://github.com/Siopy/CVE-2017-8917)
 - [ionutbaltariu/joomla_CVE-2017-8917](https://github.com/ionutbaltariu/joomla_CVE-2017-8917)
 - [BaptisteContreras/CVE-2017-8917-Joomla](https://github.com/BaptisteContreras/CVE-2017-8917-Joomla)
+- [gloliveira1701/Joomblah](https://github.com/gloliveira1701/Joomblah)
 
 ### CVE-2017-9096 (2017-11-08)
 
@@ -39783,6 +39786,7 @@
 </code>
 
 - [p0dalirius/CVE-2016-10956-mail-masta](https://github.com/p0dalirius/CVE-2016-10956-mail-masta)
+- [Hackhoven/wp-mail-masta-exploit](https://github.com/Hackhoven/wp-mail-masta-exploit)
 
 ### CVE-2016-10993 (2019-09-17)
 
