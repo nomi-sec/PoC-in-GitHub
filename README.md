@@ -5366,7 +5366,7 @@
 <code>DHCP Server Service Remote Code Execution Vulnerability
 </code>
 
-- [glavstroy/CVE-2023-28231](https://github.com/glavstroy/CVE-2023-28231)
+- [TheHermione/CVE-2023-28231](https://github.com/TheHermione/CVE-2023-28231)
 
 ### CVE-2023-28244 (2023-04-11)
 
@@ -20887,7 +20887,7 @@
 
 - [maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
 - [Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
-- [glavstroy/CVE-2021-38001](https://github.com/glavstroy/CVE-2021-38001)
+- [TheHermione/CVE-2021-38001](https://github.com/TheHermione/CVE-2021-38001)
 
 ### CVE-2021-38003 (2021-11-23)
 
