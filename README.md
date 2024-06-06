@@ -1485,6 +1485,7 @@
 - [GuayoyoCyber/CVE-2024-24919](https://github.com/GuayoyoCyber/CVE-2024-24919)
 - [0xans/CVE-2024-24919](https://github.com/0xans/CVE-2024-24919)
 - [Tim-Hoekstra/CVE-2024-24919](https://github.com/Tim-Hoekstra/CVE-2024-24919)
+- [starlox0/CVE-2024-24919-POC](https://github.com/starlox0/CVE-2024-24919-POC)
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
@@ -1987,6 +1988,13 @@
 
 - [Sploitus/CVE-2024-29988-exploit](https://github.com/Sploitus/CVE-2024-29988-exploit)
 
+### CVE-2024-30043 (2024-05-14)
+
+<code>Microsoft SharePoint Server Information Disclosure Vulnerability
+</code>
+
+- [W01fh4cker/CVE-2024-30043-XXE](https://github.com/W01fh4cker/CVE-2024-30043-XXE)
+
 ### CVE-2024-30056 (2024-05-25)
 
 <code>Microsoft Edge (Chromium-based) Information Disclosure Vulnerability
@@ -2433,7 +2441,11 @@
 
 - [aelmokhtar/CVE-2024-34716_PoC](https://github.com/aelmokhtar/CVE-2024-34716_PoC)
 
-### CVE-2024-34832
+### CVE-2024-34832 (-)
+
+<code>Directory Traversal vulnerability in CubeCart v.6.5.5 and before allows an attacker to execute arbitrary code via a crafted file uploaded to the _g and node parameters.
+</code>
+
 - [julio-cfa/CVE-2024-34832](https://github.com/julio-cfa/CVE-2024-34832)
 
 ### CVE-2024-34958 (-)
@@ -10579,6 +10591,7 @@
 - [solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus](https://github.com/solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus)
 - [letsr00t/CVE-2022-0847](https://github.com/letsr00t/CVE-2022-0847)
 - [muhammad1596/CVE-2022-0847-dirty-pipe-checker](https://github.com/muhammad1596/CVE-2022-0847-dirty-pipe-checker)
+- [muhammad1596/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/muhammad1596/CVE-2022-0847-DirtyPipe-Exploits)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -24418,6 +24431,7 @@
 - [logg-1/0logon](https://github.com/logg-1/0logon)
 - [whoami-chmod777/Zerologon-Attack-CVE-2020-1472-POC](https://github.com/whoami-chmod777/Zerologon-Attack-CVE-2020-1472-POC)
 - [JolynNgSC/Zerologon_CVE-2020-1472](https://github.com/JolynNgSC/Zerologon_CVE-2020-1472)
+- [blackh00d/zerologon-poc](https://github.com/blackh00d/zerologon-poc)
 
 ### CVE-2020-1493 (2020-08-17)
 
@@ -31636,6 +31650,13 @@
 </code>
 
 - [Wocanilo/adaPwn](https://github.com/Wocanilo/adaPwn)
+
+### CVE-2019-14974 (2019-08-14)
+
+<code>SugarCRM Enterprise 9.0.0 allows mobile/error-not-supported-platform.html?desktop_url= XSS.
+</code>
+
+- [conan-sudo/CVE-2019-14974-bypass](https://github.com/conan-sudo/CVE-2019-14974-bypass)
 
 ### CVE-2019-15029 (2019-09-05)
 
