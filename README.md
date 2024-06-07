@@ -2182,6 +2182,7 @@
 - [AD-Appledog/wakuwaku](https://github.com/AD-Appledog/wakuwaku)
 - [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
 - [Basyaact/CVE-2024-32002-PoC_Chinese](https://github.com/Basyaact/CVE-2024-32002-PoC_Chinese)
+- [alimuhammedkose/CVE-2024-32002-linux-smash](https://github.com/alimuhammedkose/CVE-2024-32002-linux-smash)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -33072,6 +33073,7 @@
 - [N0b1e6/CVE-2018-1335-Python3](https://github.com/N0b1e6/CVE-2018-1335-Python3)
 - [canumay/cve-2018-1335](https://github.com/canumay/cve-2018-1335)
 - [siramk/CVE-2018-1335](https://github.com/siramk/CVE-2018-1335)
+- [DigitalNinja00/CVE-2018-1335](https://github.com/DigitalNinja00/CVE-2018-1335)
 
 ### CVE-2018-1932 (2019-01-02)
 
