@@ -630,6 +630,9 @@
 - [zjhzjhhh/CVE-2024-4577](https://github.com/zjhzjhhh/CVE-2024-4577)
 - [huseyinstif/CVE-2024-4577-Nuclei-Template](https://github.com/huseyinstif/CVE-2024-4577-Nuclei-Template)
 - [taida957789/CVE-2024-4577](https://github.com/taida957789/CVE-2024-4577)
+- [Wh02m1/CVE-2024-4577](https://github.com/Wh02m1/CVE-2024-4577)
+- [Sysc4ll3r/CVE-2024-4577](https://github.com/Sysc4ll3r/CVE-2024-4577)
+- [WanLiChangChengWanLiChang/CVE-2024-4577-RCE-EXP](https://github.com/WanLiChangChengWanLiChang/CVE-2024-4577-RCE-EXP)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -4226,6 +4229,13 @@
 
 - [zoemurmure/CVE-2023-21554-PoC](https://github.com/zoemurmure/CVE-2023-21554-PoC)
 - [3tternp/CVE-2023-21554](https://github.com/3tternp/CVE-2023-21554)
+
+### CVE-2023-21560 (2023-01-10)
+
+<code>Windows Boot Manager Security Feature Bypass Vulnerability
+</code>
+
+- [Wack0/dubiousdisk](https://github.com/Wack0/dubiousdisk)
 
 ### CVE-2023-21608 (2023-01-18)
 
@@ -14060,6 +14070,13 @@
 - [Jump-Wang-111/AmzWord](https://github.com/Jump-Wang-111/AmzWord)
 - [shri142/ZipScan](https://github.com/shri142/ZipScan)
 - [alien-keric/CVE-2022-30190](https://github.com/alien-keric/CVE-2022-30190)
+
+### CVE-2022-30203 (2022-07-12)
+
+<code>Windows Boot Manager Security Feature Bypass Vulnerability
+</code>
+
+- [Wack0/dubiousdisk](https://github.com/Wack0/dubiousdisk)
 
 ### CVE-2022-30206 (2022-07-12)
 
