@@ -621,7 +621,14 @@
 - [truonghuuphuc/CVE-2024-4443-Poc](https://github.com/truonghuuphuc/CVE-2024-4443-Poc)
 
 ### CVE-2024-4577
-- [ATDanny/CVE-2024-4577](https://github.com/ATDanny/CVE-2024-4577)
+- [TAM-K592/CVE-2024-4577](https://github.com/TAM-K592/CVE-2024-4577)
+- [ohhhh693/CVE-2024-4577](https://github.com/ohhhh693/CVE-2024-4577)
+- [Junp0/CVE-2024-4577](https://github.com/Junp0/CVE-2024-4577)
+- [princew88/CVE-2024-4577](https://github.com/princew88/CVE-2024-4577)
+- [11whoami99/CVE-2024-4577](https://github.com/11whoami99/CVE-2024-4577)
+- [watchtowrlabs/CVE-2024-4577](https://github.com/watchtowrlabs/CVE-2024-4577)
+- [zjhzjhhh/CVE-2024-4577](https://github.com/zjhzjhhh/CVE-2024-4577)
+- [huseyinstif/CVE-2024-4577-Nuclei-Template](https://github.com/huseyinstif/CVE-2024-4577-Nuclei-Template)
 - [taida957789/CVE-2024-4577](https://github.com/taida957789/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
@@ -1490,6 +1497,7 @@
 - [0xans/CVE-2024-24919](https://github.com/0xans/CVE-2024-24919)
 - [Tim-Hoekstra/CVE-2024-24919](https://github.com/Tim-Hoekstra/CVE-2024-24919)
 - [starlox0/CVE-2024-24919-POC](https://github.com/starlox0/CVE-2024-24919-POC)
+- [nullcult/CVE-2024-24919-Exploit](https://github.com/nullcult/CVE-2024-24919-Exploit)
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
@@ -26990,6 +26998,7 @@
 - [fan1029/CVE-2020-14883EXP](https://github.com/fan1029/CVE-2020-14883EXP)
 - [Osyanina/westone-CVE-2020-14883-scanner](https://github.com/Osyanina/westone-CVE-2020-14883-scanner)
 - [1n7erface/PocList](https://github.com/1n7erface/PocList)
+- [amacloudobia/CVE-2020-14883](https://github.com/amacloudobia/CVE-2020-14883)
 
 ### CVE-2020-14947 (2020-06-30)
 
