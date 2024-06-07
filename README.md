@@ -620,6 +620,10 @@
 
 - [truonghuuphuc/CVE-2024-4443-Poc](https://github.com/truonghuuphuc/CVE-2024-4443-Poc)
 
+### CVE-2024-4577
+- [ATDanny/CVE-2024-4577](https://github.com/ATDanny/CVE-2024-4577)
+- [taida957789/CVE-2024-4577](https://github.com/taida957789/CVE-2024-4577)
+
 ### CVE-2024-4701 (2024-05-10)
 
 <code>A path traversal issue potentially leading to remote code execution in Genie for all versions prior to 4.3.18
@@ -1821,6 +1825,7 @@
 - [k3ppf0r/CVE-2024-27956](https://github.com/k3ppf0r/CVE-2024-27956)
 - [AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956](https://github.com/AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956)
 - [W3BW/CVE-2024-27956-RCE-File-Package](https://github.com/W3BW/CVE-2024-27956-RCE-File-Package)
+- [Cappricio-Securities/CVE-2024-27956](https://github.com/Cappricio-Securities/CVE-2024-27956)
 
 ### CVE-2024-27971 (2024-05-17)
 
@@ -3439,6 +3444,7 @@
 - [OITApps/Find-VulnerableElectronVersion](https://github.com/OITApps/Find-VulnerableElectronVersion)
 - [GTGalaxi/ElectronVulnerableVersion](https://github.com/GTGalaxi/ElectronVulnerableVersion)
 - [murphysecurity/libwebp-checker](https://github.com/murphysecurity/libwebp-checker)
+- [huiwen-yayaya/CVE-2023-4863](https://github.com/huiwen-yayaya/CVE-2023-4863)
 - [LiveOverflow/webp-CVE-2023-4863](https://github.com/LiveOverflow/webp-CVE-2023-4863)
 - [caoweiquan322/NotEnough](https://github.com/caoweiquan322/NotEnough)
 - [CrackerCat/CVE-2023-4863-](https://github.com/CrackerCat/CVE-2023-4863-)
@@ -35153,6 +35159,7 @@
 
 - [tin-z/CVE-2018-14714-POC](https://github.com/tin-z/CVE-2018-14714-POC)
 - [sunn1day/CVE-2018-14714-POC](https://github.com/sunn1day/CVE-2018-14714-POC)
+- [BTtea/CVE-2018-14714-POC](https://github.com/BTtea/CVE-2018-14714-POC)
 
 ### CVE-2018-14716 (2018-08-06)
 
