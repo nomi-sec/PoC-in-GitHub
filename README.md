@@ -633,6 +633,7 @@
 - [Wh02m1/CVE-2024-4577](https://github.com/Wh02m1/CVE-2024-4577)
 - [Sysc4ll3r/CVE-2024-4577](https://github.com/Sysc4ll3r/CVE-2024-4577)
 - [WanLiChangChengWanLiChang/CVE-2024-4577-RCE-EXP](https://github.com/WanLiChangChengWanLiChang/CVE-2024-4577-RCE-EXP)
+- [Yukiioz/CVE-2024-4577](https://github.com/Yukiioz/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -13156,6 +13157,7 @@
 - [DARKSTUFF-LAB/-CVE-2022-26134](https://github.com/DARKSTUFF-LAB/-CVE-2022-26134)
 - [404fu/CVE-2022-26134-POC](https://github.com/404fu/CVE-2022-26134-POC)
 - [BBD-YZZ/Confluence-RCE](https://github.com/BBD-YZZ/Confluence-RCE)
+- [cc3305/CVE-2022-26134](https://github.com/cc3305/CVE-2022-26134)
 
 ### CVE-2022-26135 (2022-06-29)
 
@@ -13825,6 +13827,7 @@
 - [ThatNotEasy/CVE-2022-29464](https://github.com/ThatNotEasy/CVE-2022-29464)
 - [Pushkarup/CVE-2022-29464](https://github.com/Pushkarup/CVE-2022-29464)
 - [SynixCyberCrimeMy/CVE-2022-29464](https://github.com/SynixCyberCrimeMy/CVE-2022-29464)
+- [cc3305/CVE-2022-29464](https://github.com/cc3305/CVE-2022-29464)
 
 ### CVE-2022-29465 (2022-07-18)
 
@@ -18703,6 +18706,7 @@
 - [UNICORDev/exploit-CVE-2021-22204](https://github.com/UNICORDev/exploit-CVE-2021-22204)
 - [Akash7350/CVE-2021-22204](https://github.com/Akash7350/CVE-2021-22204)
 - [battleofthebots/dejavu](https://github.com/battleofthebots/dejavu)
+- [cc3305/CVE-2021-22204](https://github.com/cc3305/CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
