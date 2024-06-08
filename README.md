@@ -634,6 +634,8 @@
 - [Sysc4ll3r/CVE-2024-4577](https://github.com/Sysc4ll3r/CVE-2024-4577)
 - [WanLiChangChengWanLiChang/CVE-2024-4577-RCE-EXP](https://github.com/WanLiChangChengWanLiChang/CVE-2024-4577-RCE-EXP)
 - [Yukiioz/CVE-2024-4577](https://github.com/Yukiioz/CVE-2024-4577)
+- [0x20c/CVE-2024-4577-nuclei](https://github.com/0x20c/CVE-2024-4577-nuclei)
+- [manuelinfosec/CVE-2024-4577](https://github.com/manuelinfosec/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -42764,6 +42766,13 @@
 </code>
 
 - [zveriu/CVE-2009-0229-PoC](https://github.com/zveriu/CVE-2009-0229-PoC)
+
+### CVE-2009-0347 (2009-01-29)
+
+<code>Open redirect vulnerability in cs.html in the Autonomy (formerly Verity) Ultraseek search engine allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via the url parameter.
+</code>
+
+- [Cappricio-Securities/CVE-2009-0347](https://github.com/Cappricio-Securities/CVE-2009-0347)
 
 ### CVE-2009-0473 (2009-02-06)
 
