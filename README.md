@@ -636,6 +636,8 @@
 - [Yukiioz/CVE-2024-4577](https://github.com/Yukiioz/CVE-2024-4577)
 - [0x20c/CVE-2024-4577-nuclei](https://github.com/0x20c/CVE-2024-4577-nuclei)
 - [manuelinfosec/CVE-2024-4577](https://github.com/manuelinfosec/CVE-2024-4577)
+- [zomasec/CVE-2024-4577](https://github.com/zomasec/CVE-2024-4577)
+- [ZephrFish/CVE-2024-4577-PoC](https://github.com/ZephrFish/CVE-2024-4577-PoC)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -1504,6 +1506,7 @@
 - [Tim-Hoekstra/CVE-2024-24919](https://github.com/Tim-Hoekstra/CVE-2024-24919)
 - [starlox0/CVE-2024-24919-POC](https://github.com/starlox0/CVE-2024-24919-POC)
 - [nullcult/CVE-2024-24919-Exploit](https://github.com/nullcult/CVE-2024-24919-Exploit)
+- [satchhacker/cve-2024-24919](https://github.com/satchhacker/cve-2024-24919)
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
@@ -24031,13 +24034,6 @@
 </code>
 
 - [james0x40/CVE-2020-0624](https://github.com/james0x40/CVE-2020-0624)
-
-### CVE-2020-0665 (2020-02-11)
-
-<code>An elevation of privilege vulnerability exists in Active Directory Forest trusts due to a default setting that lets an attacker in the trusting forest request delegation of a TGT for an identity from the trusted forest, aka 'Active Directory Elevation of Privilege Vulnerability'.
-</code>
-
-- [otterpwn/SIDplusplus](https://github.com/otterpwn/SIDplusplus)
 
 ### CVE-2020-0668 (2020-02-11)
 
