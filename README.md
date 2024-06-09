@@ -639,6 +639,8 @@
 - [zomasec/CVE-2024-4577](https://github.com/zomasec/CVE-2024-4577)
 - [ZephrFish/CVE-2024-4577-PHP-RCE](https://github.com/ZephrFish/CVE-2024-4577-PHP-RCE)
 - [xcanwin/CVE-2024-4577-PHP-RCE](https://github.com/xcanwin/CVE-2024-4577-PHP-RCE)
+- [dbyMelina/CVE-2024-4577](https://github.com/dbyMelina/CVE-2024-4577)
+- [Chocapikk/CVE-2024-4577](https://github.com/Chocapikk/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -715,6 +717,13 @@
 
 - [nettitude/CVE-2024-20356](https://github.com/nettitude/CVE-2024-20356)
 - [SherllyNeo/CVE_2024_20356](https://github.com/SherllyNeo/CVE_2024_20356)
+
+### CVE-2024-20404 (2024-06-05)
+
+<code>A vulnerability in the web-based management interface of Cisco Finesse could allow an unauthenticated, remote attacker to conduct an SSRF attack on an affected system.\r\n\r This vulnerability is due to insufficient validation of user-supplied input for specific HTTP requests that are sent to an affected system. An attacker could exploit this vulnerability by sending a crafted HTTP request to the affected device. A successful exploit could allow the attacker to obtain limited sensitive information for services that are associated to the affected device.
+</code>
+
+- [AbdElRahmanEzzat1995/CVE-2024-20404](https://github.com/AbdElRahmanEzzat1995/CVE-2024-20404)
 
 ### CVE-2024-20656 (2024-01-09)
 
@@ -9001,7 +9010,7 @@
 <code>The QAD Search Server is vulnerable to Stored Cross-Site Scripting (XSS) in versions up to, and including, 1.0.0.315 due to insufficient checks on indexes. This makes it possible for unauthenticated attackers to create a new index and inject a malicious web script into its name, that will execute whenever a user accesses the search page.
 </code>
 
-- [itsAptx/CVE-2023-45471](https://github.com/itsAptx/CVE-2023-45471)
+- [mehdibelhajamor/CVE-2023-45471](https://github.com/mehdibelhajamor/CVE-2023-45471)
 
 ### CVE-2023-45503 (2024-04-15)
 
