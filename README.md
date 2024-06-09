@@ -139,7 +139,6 @@
 - [Notselwyn/CVE-2024-1086](https://github.com/Notselwyn/CVE-2024-1086)
 - [Alicey0719/docker-POC_CVE-2024-1086](https://github.com/Alicey0719/docker-POC_CVE-2024-1086)
 - [CCIEVoice2009/CVE-2024-1086](https://github.com/CCIEVoice2009/CVE-2024-1086)
-- [rootkalilocalhost/CVE-2024-1086](https://github.com/rootkalilocalhost/CVE-2024-1086)
 - [kevcooper/CVE-2024-1086-checker](https://github.com/kevcooper/CVE-2024-1086-checker)
 
 ### CVE-2024-1208 (2024-02-05)
@@ -592,6 +591,7 @@
 - [RevoltSecurities/CVE-2024-4358](https://github.com/RevoltSecurities/CVE-2024-4358)
 - [Harydhk7/CVE-2024-4358](https://github.com/Harydhk7/CVE-2024-4358)
 - [Sk1dr0wz/CVE-2024-4358_Mass_Exploit](https://github.com/Sk1dr0wz/CVE-2024-4358_Mass_Exploit)
+- [verylazytech/CVE-2024-4358](https://github.com/verylazytech/CVE-2024-4358)
 
 ### CVE-2024-4367 (2024-05-14)
 
@@ -2179,9 +2179,6 @@
 - [jweny/CVE-2024-32002_EXP](https://github.com/jweny/CVE-2024-32002_EXP)
 - [CrackerCat/CVE-2024-32002_EXP](https://github.com/CrackerCat/CVE-2024-32002_EXP)
 - [KiranKumarK20/CVE-2024-32002](https://github.com/KiranKumarK20/CVE-2024-32002)
-- [jerrydotlam/cve-2024-32002-1](https://github.com/jerrydotlam/cve-2024-32002-1)
-- [jerrydotlam/cve-2024-32002-2](https://github.com/jerrydotlam/cve-2024-32002-2)
-- [jerrydotlam/cve-2024-32002-3](https://github.com/jerrydotlam/cve-2024-32002-3)
 - [Roronoawjd/hook](https://github.com/Roronoawjd/hook)
 - [Roronoawjd/git_rce](https://github.com/Roronoawjd/git_rce)
 - [JJoosh/CVE-2024-32002-Reverse-Shell](https://github.com/JJoosh/CVE-2024-32002-Reverse-Shell)
@@ -2191,6 +2188,8 @@
 - [ycdxsb/CVE-2024-32002-hulk](https://github.com/ycdxsb/CVE-2024-32002-hulk)
 - [ycdxsb/CVE-2024-32002-submod](https://github.com/ycdxsb/CVE-2024-32002-submod)
 - [bfengj/CVE-2024-32002-Exploit](https://github.com/bfengj/CVE-2024-32002-Exploit)
+- [Hector65432/cve-2024-32002-1](https://github.com/Hector65432/cve-2024-32002-1)
+- [Hector65432/cve-2024-32002-2](https://github.com/Hector65432/cve-2024-32002-2)
 - [vincepsh/CVE-2024-32002](https://github.com/vincepsh/CVE-2024-32002)
 - [vincepsh/CVE-2024-32002-hook](https://github.com/vincepsh/CVE-2024-32002-hook)
 - [10cks/CVE-2024-32002-EXP](https://github.com/10cks/CVE-2024-32002-EXP)
@@ -11667,6 +11666,13 @@
 - [Skipper7718/CVE-2022-21449-showcase](https://github.com/Skipper7718/CVE-2022-21449-showcase)
 - [davwwwx/CVE-2022-21449](https://github.com/davwwwx/CVE-2022-21449)
 - [AlexanderZinoni/CVE-2022-21449](https://github.com/AlexanderZinoni/CVE-2022-21449)
+
+### CVE-2022-21500 (2022-05-19)
+
+<code>Vulnerability in Oracle E-Business Suite (component: Manage Proxies). The supported version that is affected is 12.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle E-Business Suite. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle E-Business Suite accessible data. Note: Authentication is required for successful attack, however the user may be self-registered. &lt;br&gt; &lt;br&gt;Oracle E-Business Suite 12.1 is not impacted by this vulnerability. Customers should refer to the Patch Availability Document for details. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+</code>
+
+- [Cappricio-Securities/CVE-2022-21500](https://github.com/Cappricio-Securities/CVE-2022-21500)
 
 ### CVE-2022-21587 (2022-10-18)
 
@@ -23021,6 +23027,7 @@
 - [KirkDJohnson/Wireshark](https://github.com/KirkDJohnson/Wireshark)
 - [YangHyperData/LOGJ4_PocShell_CVE-2021-44228](https://github.com/YangHyperData/LOGJ4_PocShell_CVE-2021-44228)
 - [Hoanle396/CVE-2021-44228-demo](https://github.com/Hoanle396/CVE-2021-44228-demo)
+- [tadash10/Exploiting-CVE-2021-44228-Log4Shell-in-a-Banking-Environment](https://github.com/tadash10/Exploiting-CVE-2021-44228-Log4Shell-in-a-Banking-Environment)
 
 ### CVE-2021-44255 (2022-01-31)
 
