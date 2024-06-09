@@ -1957,6 +1957,7 @@
 - [wutalent/CVE-2024-29269](https://github.com/wutalent/CVE-2024-29269)
 - [YongYe-Security/CVE-2024-29269](https://github.com/YongYe-Security/CVE-2024-29269)
 - [Chocapikk/CVE-2024-29269](https://github.com/Chocapikk/CVE-2024-29269)
+- [Jhonsonwannaa/CVE-2024-29269](https://github.com/Jhonsonwannaa/CVE-2024-29269)
 
 ### CVE-2024-29272 (2024-03-22)
 
@@ -4438,6 +4439,7 @@
 - [rxerium/CVE-2023-22515](https://github.com/rxerium/CVE-2023-22515)
 - [fyx1t/NSE--CVE-2023-22515](https://github.com/fyx1t/NSE--CVE-2023-22515)
 - [s1d6point7bugcrowd/CVE-2023-22515-check](https://github.com/s1d6point7bugcrowd/CVE-2023-22515-check)
+- [xorbbo/cve-2023-22515](https://github.com/xorbbo/cve-2023-22515)
 
 ### CVE-2023-22518 (2023-10-31)
 
@@ -11295,7 +11297,7 @@
 
 - [electr0sm0g/CVE-2022-4510](https://github.com/electr0sm0g/CVE-2022-4510)
 - [adhikara13/CVE-2022-4510-WalkingPath](https://github.com/adhikara13/CVE-2022-4510-WalkingPath)
-- [Kalagious/BadPfs](https://github.com/Kalagious/BadPfs)
+- [Kalagious/BadPfs-CVE-2022-4510](https://github.com/Kalagious/BadPfs-CVE-2022-4510)
 
 ### CVE-2022-4543 (2023-01-11)
 
