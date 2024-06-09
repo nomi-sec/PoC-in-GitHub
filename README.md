@@ -677,6 +677,7 @@
 - [Praison001/CVE-2024-4956-Sonatype-Nexus-Repository-Manager](https://github.com/Praison001/CVE-2024-4956-Sonatype-Nexus-Repository-Manager)
 - [Cappricio-Securities/CVE-2024-4956](https://github.com/Cappricio-Securities/CVE-2024-4956)
 - [fin3ss3g0d/CVE-2024-4956](https://github.com/fin3ss3g0d/CVE-2024-4956)
+- [verylazytech/CVE-2024-4956](https://github.com/verylazytech/CVE-2024-4956)
 
 ### CVE-2024-5084 (2024-05-23)
 
@@ -1508,8 +1509,13 @@
 - [starlox0/CVE-2024-24919-POC](https://github.com/starlox0/CVE-2024-24919-POC)
 - [nullcult/CVE-2024-24919-Exploit](https://github.com/nullcult/CVE-2024-24919-Exploit)
 - [satchhacker/cve-2024-24919](https://github.com/satchhacker/cve-2024-24919)
+- [verylazytech/CVE-2024-24919](https://github.com/verylazytech/CVE-2024-24919)
 
-### CVE-2024-25092
+### CVE-2024-25092 (2024-06-09)
+
+<code>Missing Authorization vulnerability in XLPlugins NextMove Lite.This issue affects NextMove Lite: from n/a through 2.17.0.
+</code>
+
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
 
 ### CVE-2024-25153 (2024-03-13)
@@ -1844,6 +1850,7 @@
 - [AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956](https://github.com/AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956)
 - [W3BW/CVE-2024-27956-RCE-File-Package](https://github.com/W3BW/CVE-2024-27956-RCE-File-Package)
 - [Cappricio-Securities/CVE-2024-27956](https://github.com/Cappricio-Securities/CVE-2024-27956)
+- [itzheartzz/MASS-CVE-2024-27956](https://github.com/itzheartzz/MASS-CVE-2024-27956)
 
 ### CVE-2024-27971 (2024-05-17)
 
@@ -2130,6 +2137,7 @@
 </code>
 
 - [Chocapikk/CVE-2024-31819](https://github.com/Chocapikk/CVE-2024-31819)
+- [Jhonsonwannaa/CVE-2024-31819](https://github.com/Jhonsonwannaa/CVE-2024-31819)
 
 ### CVE-2024-31848 (2024-04-05)
 
@@ -26757,6 +26765,13 @@
 </code>
 
 - [s-index/CVE-2020-13957](https://github.com/s-index/CVE-2020-13957)
+
+### CVE-2020-13958 (2020-11-17)
+
+<code>A vulnerability in Apache OpenOffice scripting events allows an attacker to construct documents containing hyperlinks pointing to an executable on the target users file system. These hyperlinks can be triggered unconditionally. In fixed versions no internal protocol may be called from the document event handler and other hyperlinks require a control-click.
+</code>
+
+- [Grey-Junior/CVE-2020-13958](https://github.com/Grey-Junior/CVE-2020-13958)
 
 ### CVE-2020-13965 (2020-06-09)
 
