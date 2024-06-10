@@ -1532,6 +1532,7 @@
 - [nullcult/CVE-2024-24919-Exploit](https://github.com/nullcult/CVE-2024-24919-Exploit)
 - [satchhacker/cve-2024-24919](https://github.com/satchhacker/cve-2024-24919)
 - [verylazytech/CVE-2024-24919](https://github.com/verylazytech/CVE-2024-24919)
+- [protonnegativo/CVE-2024-24919](https://github.com/protonnegativo/CVE-2024-24919)
 
 ### CVE-2024-25092 (2024-06-09)
 
@@ -2023,6 +2024,13 @@
 </code>
 
 - [ally-petitt/CVE-2024-29399](https://github.com/ally-petitt/CVE-2024-29399)
+
+### CVE-2024-29849 (2024-05-22)
+
+<code>Veeam Backup Enterprise Manager allows unauthenticated users to log in as any user to enterprise manager web interface.
+</code>
+
+- [sinsinology/CVE-2024-29849](https://github.com/sinsinology/CVE-2024-29849)
 
 ### CVE-2024-29895 (2024-05-13)
 
