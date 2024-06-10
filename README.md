@@ -140,6 +140,7 @@
 - [Alicey0719/docker-POC_CVE-2024-1086](https://github.com/Alicey0719/docker-POC_CVE-2024-1086)
 - [CCIEVoice2009/CVE-2024-1086](https://github.com/CCIEVoice2009/CVE-2024-1086)
 - [kevcooper/CVE-2024-1086-checker](https://github.com/kevcooper/CVE-2024-1086-checker)
+- [feely666/CVE-2024-1086](https://github.com/feely666/CVE-2024-1086)
 
 ### CVE-2024-1208 (2024-02-05)
 
@@ -914,7 +915,7 @@
 
 ### CVE-2024-21683 (2024-05-21)
 
-<code>This High severity RCE (Remote Code Execution) vulnerability was introduced in version 5.2 of Confluence Data Center and Server.\n\nThis RCE (Remote Code Execution) vulnerability, with a CVSS Score of 8.3, allows an authenticated attacker to execute arbitrary code which has high impact to confidentiality, high impact to integrity, high impact to availability, and requires no user interaction. \n\nAtlassian recommends that Confluence Data Center and Server customers upgrade to latest version. If you are unable to do so, upgrade your instance to one of the specified supported fixed versions. See the release notes https://confluence.atlassian.com/doc/confluence-release-notes-327.html\n\nYou can download the latest version of Confluence Data Center and Server from the download center https://www.atlassian.com/software/confluence/download-archives.\n\nThis vulnerability was found internally.
+<code>This High severity RCE (Remote Code Execution) vulnerability was introduced in version 5.2 of Confluence Data Center and Server.\n\nThis RCE (Remote Code Execution) vulnerability, with a CVSS Score of 7.2, allows an authenticated attacker to execute arbitrary code which has high impact to confidentiality, high impact to integrity, high impact to availability, and requires no user interaction. \n\nAtlassian recommends that Confluence Data Center and Server customers upgrade to latest version. If you are unable to do so, upgrade your instance to one of the specified supported fixed versions. See the release notes https://confluence.atlassian.com/doc/confluence-release-notes-327.html\n\nYou can download the latest version of Confluence Data Center and Server from the download center https://www.atlassian.com/software/confluence/download-archives.\n\nThis vulnerability was found internally.
 </code>
 
 - [r00t7oo2jm/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server](https://github.com/r00t7oo2jm/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server)
@@ -1495,7 +1496,7 @@
 - [eoslvs/CVE-2024-24919](https://github.com/eoslvs/CVE-2024-24919)
 - [Bytenull00/CVE-2024-24919](https://github.com/Bytenull00/CVE-2024-24919)
 - [am-eid/CVE-2024-24919](https://github.com/am-eid/CVE-2024-24919)
-- [pewc0/CVE-2024-24919](https://github.com/pewc0/CVE-2024-24919)
+- [P3wc0/CVE-2024-24919](https://github.com/P3wc0/CVE-2024-24919)
 - [zam89/CVE-2024-24919](https://github.com/zam89/CVE-2024-24919)
 - [satriarizka/CVE-2024-24919](https://github.com/satriarizka/CVE-2024-24919)
 - [3UR/CVE-2024-24919](https://github.com/3UR/CVE-2024-24919)
@@ -1689,6 +1690,13 @@
 </code>
 
 - [exploits-forsale/CVE-2024-26218](https://github.com/exploits-forsale/CVE-2024-26218)
+
+### CVE-2024-26229 (2024-04-09)
+
+<code>Windows CSC Service Elevation of Privilege Vulnerability
+</code>
+
+- [varwara/CVE-2024-26229](https://github.com/varwara/CVE-2024-26229)
 
 ### CVE-2024-26304 (2024-05-01)
 
@@ -2562,6 +2570,12 @@
 </code>
 
 - [DxRvs/vaultize_CVE-2024-36079](https://github.com/DxRvs/vaultize_CVE-2024-36079)
+
+### CVE-2024-36821
+- [IvanGlinkin/CVE-2024-36821](https://github.com/IvanGlinkin/CVE-2024-36821)
+
+### CVE-2024-37393
+- [optistream/securenvoy-cve-2024-37393](https://github.com/optistream/securenvoy-cve-2024-37393)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -6404,6 +6418,13 @@
 </code>
 
 - [LOURC0D3/CVE-2023-32961](https://github.com/LOURC0D3/CVE-2023-32961)
+
+### CVE-2023-33105 (2024-03-04)
+
+<code>Transient DOS in WLAN Host and Firmware when large number of open authentication frames are sent with an invalid transaction sequence number.
+</code>
+
+- [D3adP3nguin/CVE-2023-33105-Transient-DOS-in-WLAN-Host-and-Firmware](https://github.com/D3adP3nguin/CVE-2023-33105-Transient-DOS-in-WLAN-Host-and-Firmware)
 
 ### CVE-2023-33242 (2023-08-09)
 
@@ -19975,6 +19996,7 @@
 </code>
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
+- [JHVIW/jhviw.github.io](https://github.com/JHVIW/jhviw.github.io)
 
 ### CVE-2021-30551 (2021-06-15)
 
@@ -21288,7 +21310,7 @@
 <code>In doRead of SimpleDecodingSource.cpp, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-9Android ID: A-194105348
 </code>
 
-- [marcinguy/CVE-2021-39623](https://github.com/marcinguy/CVE-2021-39623)
+- [bb33bb/CVE-2021-39623](https://github.com/bb33bb/CVE-2021-39623)
 
 ### CVE-2021-39670 (2022-05-10)
 
@@ -23646,7 +23668,6 @@
 <code>In reassemble_and_dispatch of packet_fragmenter.cc, there is possible out of bounds write due to an incorrect bounds calculation. This could lead to remote code execution over Bluetooth with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-143894715
 </code>
 
-- [marcinguy/CVE-2020-0022](https://github.com/marcinguy/CVE-2020-0022)
 - [leommxj/cve-2020-0022](https://github.com/leommxj/cve-2020-0022)
 - [k3vinlusec/Bluefrag_CVE-2020-0022](https://github.com/k3vinlusec/Bluefrag_CVE-2020-0022)
 - [Polo35/CVE-2020-0022](https://github.com/Polo35/CVE-2020-0022)
@@ -23654,6 +23675,13 @@
 - [lsw29475/CVE-2020-0022](https://github.com/lsw29475/CVE-2020-0022)
 - [devdanqtuan/poc-for-cve-2020-0022](https://github.com/devdanqtuan/poc-for-cve-2020-0022)
 - [themmokhtar/CVE-2020-0022](https://github.com/themmokhtar/CVE-2020-0022)
+
+### CVE-2020-0023 (2020-02-13)
+
+<code>In setPhonebookAccessPermission of AdapterService.java, there is a possible disclosure of user contacts over bluetooth due to a missing permission check. This could lead to local information disclosure if a malicious app enables contacts over a bluetooth connection, with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-145130871
+</code>
+
+- [362902755/CVE-2020-0023](https://github.com/362902755/CVE-2020-0023)
 
 ### CVE-2020-0041 (2020-03-10)
 
@@ -24240,7 +24268,6 @@
 - [gabimarti/SMBScanner](https://github.com/gabimarti/SMBScanner)
 - [Almorabea/SMBGhost-WorkaroundApplier](https://github.com/Almorabea/SMBGhost-WorkaroundApplier)
 - [vysecurity/CVE-2020-0796](https://github.com/vysecurity/CVE-2020-0796)
-- [marcinguy/CVE-2020-0796](https://github.com/marcinguy/CVE-2020-0796)
 - [BinaryShadow94/SMBv3.1.1-scan---CVE-2020-0796](https://github.com/BinaryShadow94/SMBv3.1.1-scan---CVE-2020-0796)
 - [w1ld3r/SMBGhost_Scanner](https://github.com/w1ld3r/SMBGhost_Scanner)
 - [wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796)
@@ -24323,6 +24350,13 @@
 </code>
 
 - [5l1v3r1/cve-2020-0802](https://github.com/5l1v3r1/cve-2020-0802)
+
+### CVE-2020-0812 (2020-03-12)
+
+<code>A remote code execution vulnerability exists in the way that the Chakra scripting engine handles objects in memory in Microsoft Edge (HTML-based)L, aka 'Chakra Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2020-0811.
+</code>
+
+- [5l1v3r1/CVE-2020-0812](https://github.com/5l1v3r1/CVE-2020-0812)
 
 ### CVE-2020-0887 (2020-03-12)
 
@@ -25649,7 +25683,7 @@
 <code>eap.c in pppd in ppp 2.4.2 through 2.4.8 has an rhostname buffer overflow in the eap_request and eap_response functions.
 </code>
 
-- [marcinguy/CVE-2020-8597](https://github.com/marcinguy/CVE-2020-8597)
+- [dointisme/CVE-2020-8597](https://github.com/dointisme/CVE-2020-8597)
 - [WinMin/CVE-2020-8597](https://github.com/WinMin/CVE-2020-8597)
 - [Dilan-Diaz/Point-to-Point-Protocol-Daemon-RCE-Vulnerability-CVE-2020-8597-](https://github.com/Dilan-Diaz/Point-to-Point-Protocol-Daemon-RCE-Vulnerability-CVE-2020-8597-)
 - [lakwsh/CVE-2020-8597](https://github.com/lakwsh/CVE-2020-8597)
@@ -25913,7 +25947,6 @@
 - [RepublicR0K/CVE-2020-9484](https://github.com/RepublicR0K/CVE-2020-9484)
 - [ColdFusionX/CVE-2020-9484](https://github.com/ColdFusionX/CVE-2020-9484)
 - [d3fudd/CVE-2020-9484_Exploit](https://github.com/d3fudd/CVE-2020-9484_Exploit)
-- [pxcs/webLogin-DEV](https://github.com/pxcs/webLogin-DEV)
 
 ### CVE-2020-9495 (2020-06-19)
 
@@ -26041,7 +26074,7 @@
 <code>Legacy pairing and secure-connections pairing authentication in Bluetooth BR/EDR Core Specification v5.2 and earlier may allow an unauthenticated user to complete authentication without pairing credentials via adjacent access. An unauthenticated, adjacent attacker could impersonate a Bluetooth BR/EDR master or slave to pair with a previously paired remote device to successfully complete the authentication procedure without knowing the link key.
 </code>
 
-- [marcinguy/CVE-2020-10135-BIAS](https://github.com/marcinguy/CVE-2020-10135-BIAS)
+- [m4rm0k/CVE-2020-10135-BIAS](https://github.com/m4rm0k/CVE-2020-10135-BIAS)
 
 ### CVE-2020-10148 (2020-12-13)
 
@@ -27351,7 +27384,7 @@
 <code>Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 </code>
 
-- [marcinguy/CVE-2020-15999](https://github.com/marcinguy/CVE-2020-15999)
+- [oxfemale/CVE-2020-15999](https://github.com/oxfemale/CVE-2020-15999)
 - [maarlo/CVE-2020-15999](https://github.com/maarlo/CVE-2020-15999)
 - [Marmeus/CVE-2020-15999](https://github.com/Marmeus/CVE-2020-15999)
 
@@ -29517,7 +29550,7 @@
 <code>In ihevcd_parse_pps of ihevcd_parse_headers.c, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation. Product: Android. Versions: Android-7.0 Android-7.1.1 Android-7.1.2 Android-8.0 Android-8.1 Android-9. Android ID: A-130024844.
 </code>
 
-- [marcinguy/CVE-2019-2107](https://github.com/marcinguy/CVE-2019-2107)
+- [CrackerCat/CVE-2019-2107](https://github.com/CrackerCat/CVE-2019-2107)
 - [infiniteLoopers/CVE-2019-2107](https://github.com/infiniteLoopers/CVE-2019-2107)
 
 ### CVE-2019-2196 (2019-11-13)
@@ -29549,7 +29582,7 @@
 - [timwr/CVE-2019-2215](https://github.com/timwr/CVE-2019-2215)
 - [raystyle/CVE-2019-2215](https://github.com/raystyle/CVE-2019-2215)
 - [kangtastic/cve-2019-2215](https://github.com/kangtastic/cve-2019-2215)
-- [marcinguy/CVE-2019-2215](https://github.com/marcinguy/CVE-2019-2215)
+- [ATorNinja/CVE-2019-2215](https://github.com/ATorNinja/CVE-2019-2215)
 - [LIznzn/CVE-2019-2215](https://github.com/LIznzn/CVE-2019-2215)
 - [DimitriFourny/cve-2019-2215](https://github.com/DimitriFourny/cve-2019-2215)
 - [qre0ct/android-kernel-exploitation-ashfaq-CVE-2019-2215](https://github.com/qre0ct/android-kernel-exploitation-ashfaq-CVE-2019-2215)
@@ -36587,7 +36620,7 @@
 </code>
 
 - [ojasookert/CVE-2017-0781](https://github.com/ojasookert/CVE-2017-0781)
-- [marcinguy/android712-blueborne](https://github.com/marcinguy/android712-blueborne)
+- [X3eRo0/android712-blueborne](https://github.com/X3eRo0/android712-blueborne)
 - [mjancek/BlueborneDetection](https://github.com/mjancek/BlueborneDetection)
 - [CrackSoft900/Blue-Borne](https://github.com/CrackSoft900/Blue-Borne)
 - [CarlosDelRosario7/sploit-bX](https://github.com/CarlosDelRosario7/sploit-bX)
@@ -38653,7 +38686,6 @@
 - [hayzamjs/Blueborne-CVE-2017-1000251](https://github.com/hayzamjs/Blueborne-CVE-2017-1000251)
 - [tlatkdgus1/blueborne-CVE-2017-1000251](https://github.com/tlatkdgus1/blueborne-CVE-2017-1000251)
 - [own2pwn/blueborne-CVE-2017-1000251-POC](https://github.com/own2pwn/blueborne-CVE-2017-1000251-POC)
-- [marcinguy/blueborne-CVE-2017-1000251](https://github.com/marcinguy/blueborne-CVE-2017-1000251)
 - [istanescu/CVE-2017-1000251_Exploit](https://github.com/istanescu/CVE-2017-1000251_Exploit)
 
 ### CVE-2017-1000253 (2017-10-04)
