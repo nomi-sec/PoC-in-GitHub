@@ -620,7 +620,11 @@
 
 - [truonghuuphuc/CVE-2024-4443-Poc](https://github.com/truonghuuphuc/CVE-2024-4443-Poc)
 
-### CVE-2024-4577
+### CVE-2024-4577 (2024-06-09)
+
+<code>In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use &quot;Best-Fit&quot; behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
+</code>
+
 - [TAM-K592/CVE-2024-4577](https://github.com/TAM-K592/CVE-2024-4577)
 - [ohhhh693/CVE-2024-4577](https://github.com/ohhhh693/CVE-2024-4577)
 - [Junp0/CVE-2024-4577](https://github.com/Junp0/CVE-2024-4577)
@@ -641,6 +645,7 @@
 - [xcanwin/CVE-2024-4577-PHP-RCE](https://github.com/xcanwin/CVE-2024-4577-PHP-RCE)
 - [dbyMelina/CVE-2024-4577](https://github.com/dbyMelina/CVE-2024-4577)
 - [Chocapikk/CVE-2024-4577](https://github.com/Chocapikk/CVE-2024-4577)
+- [K3ysTr0K3R/CVE-2024-4577-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-4577-EXPLOIT)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -670,6 +675,7 @@
 
 - [banditzCyber0x/CVE-2024-4956](https://github.com/banditzCyber0x/CVE-2024-4956)
 - [xungzzz/CVE-2024-4956](https://github.com/xungzzz/CVE-2024-4956)
+- [erickfernandox/CVE-2024-4956](https://github.com/erickfernandox/CVE-2024-4956)
 - [gmh5225/CVE-2024-4956](https://github.com/gmh5225/CVE-2024-4956)
 - [ifconfig-me/CVE-2024-4956-Bulk-Scanner](https://github.com/ifconfig-me/CVE-2024-4956-Bulk-Scanner)
 - [thinhap/CVE-2024-4956-PoC](https://github.com/thinhap/CVE-2024-4956-PoC)
@@ -724,6 +730,13 @@
 </code>
 
 - [AbdElRahmanEzzat1995/CVE-2024-20404](https://github.com/AbdElRahmanEzzat1995/CVE-2024-20404)
+
+### CVE-2024-20405 (2024-06-05)
+
+<code>A vulnerability in the web-based management interface of Cisco Finesse could allow an unauthenticated, remote attacker to conduct a stored XSS attack by exploiting an RFI vulnerability. \r\n\r This vulnerability is due to insufficient validation of user-supplied input for specific HTTP requests that are sent to an affected device. An attacker could exploit this vulnerability by persuading a user to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive information on the affected device.
+</code>
+
+- [AbdElRahmanEzzat1995/CVE-2024-20405](https://github.com/AbdElRahmanEzzat1995/CVE-2024-20405)
 
 ### CVE-2024-20656 (2024-01-09)
 
@@ -1504,7 +1517,7 @@
 - [ifconfig-me/CVE-2024-24919-Bulk-Scanner](https://github.com/ifconfig-me/CVE-2024-24919-Bulk-Scanner)
 - [r4p3c4/CVE-2024-24919-Checkpoint-Firewall-VPN-Check](https://github.com/r4p3c4/CVE-2024-24919-Checkpoint-Firewall-VPN-Check)
 - [r4p3c4/CVE-2024-24919-Exploit-PoC-Checkpoint-Firewall-VPN](https://github.com/r4p3c4/CVE-2024-24919-Exploit-PoC-Checkpoint-Firewall-VPN)
-- [J4F9S5D2Q7/CVE-2024-24919](https://github.com/J4F9S5D2Q7/CVE-2024-24919)
+- [J4F9S5D2Q7/CVE-2024-24919-CHECKPOINT](https://github.com/J4F9S5D2Q7/CVE-2024-24919-CHECKPOINT)
 - [mr-kasim-mehar/CVE-2024-24919-Exploit](https://github.com/mr-kasim-mehar/CVE-2024-24919-Exploit)
 - [B1naryo/CVE-2024-24919-POC](https://github.com/B1naryo/CVE-2024-24919-POC)
 - [Expl0itD0g/CVE-2024-24919---Poc](https://github.com/Expl0itD0g/CVE-2024-24919---Poc)
@@ -8466,6 +8479,7 @@
 
 - [K3ysTr0K3R/CVE-2023-43208-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT)
 - [jakabakos/CVE-2023-43208-mirth-connect-rce-poc](https://github.com/jakabakos/CVE-2023-43208-mirth-connect-rce-poc)
+- [J4F9S5D2Q7/CVE-2023-43208-MIRTHCONNECT](https://github.com/J4F9S5D2Q7/CVE-2023-43208-MIRTHCONNECT)
 
 ### CVE-2023-43261 (2023-10-04)
 
@@ -10246,7 +10260,7 @@
 - [Subha-BOO7/Exploit_CVE-2023-51467](https://github.com/Subha-BOO7/Exploit_CVE-2023-51467)
 - [JaneMandy/CVE-2023-51467-Exploit](https://github.com/JaneMandy/CVE-2023-51467-Exploit)
 - [vulncheck-oss/cve-2023-51467](https://github.com/vulncheck-oss/cve-2023-51467)
-- [Jake123otte1/BadBizness-CVE-2023-51467](https://github.com/Jake123otte1/BadBizness-CVE-2023-51467)
+- [tw0point/BadBizness-CVE-2023-51467](https://github.com/tw0point/BadBizness-CVE-2023-51467)
 
 ### CVE-2023-51504 (2024-02-05)
 
@@ -14639,6 +14653,7 @@
 - [theori-io/CVE-2022-32250-exploit](https://github.com/theori-io/CVE-2022-32250-exploit)
 - [ysanatomic/CVE-2022-32250-LPE](https://github.com/ysanatomic/CVE-2022-32250-LPE)
 - [Decstor5/2022-32250LPE](https://github.com/Decstor5/2022-32250LPE)
+- [Kristal-g/CVE-2022-32250](https://github.com/Kristal-g/CVE-2022-32250)
 
 ### CVE-2022-32532 (2022-06-28)
 
@@ -22130,6 +22145,41 @@
 </code>
 
 - [cybersecurityworks553/CVE-2021-42392-Detect](https://github.com/cybersecurityworks553/CVE-2021-42392-Detect)
+
+### CVE-2021-42558 (2022-01-12)
+
+<code>An issue was discovered in CALDERA 2.8.1. It contains multiple reflected, stored, and self XSS vulnerabilities that may be exploited by authenticated and unauthenticated attackers.
+</code>
+
+- [mbadanoiu/CVE-2021-42558](https://github.com/mbadanoiu/CVE-2021-42558)
+
+### CVE-2021-42559 (2022-01-12)
+
+<code>An issue was discovered in CALDERA 2.8.1. It contains multiple startup &quot;requirements&quot; that execute commands when starting the server. Because these commands can be changed via the REST API, an authenticated user can insert arbitrary commands that will execute when the server is restarted.
+</code>
+
+- [mbadanoiu/CVE-2021-42559](https://github.com/mbadanoiu/CVE-2021-42559)
+
+### CVE-2021-42560 (2022-01-12)
+
+<code>An issue was discovered in CALDERA 2.9.0. The Debrief plugin receives base64 encoded &quot;SVG&quot; parameters when generating a PDF document. These SVG documents are parsed in an unsafe manner and can be leveraged for XXE attacks (e.g., File Exfiltration, Server Side Request Forgery, Out of Band Exfiltration, etc.).
+</code>
+
+- [mbadanoiu/CVE-2021-42560](https://github.com/mbadanoiu/CVE-2021-42560)
+
+### CVE-2021-42561 (2022-01-12)
+
+<code>An issue was discovered in CALDERA 2.8.1. When activated, the Human plugin passes the unsanitized name parameter to a python &quot;os.system&quot; function. This allows attackers to use shell metacharacters (e.g., backticks &quot;``&quot; or dollar parenthesis &quot;$()&quot; ) in order to escape the current command and execute arbitrary shell commands.
+</code>
+
+- [mbadanoiu/CVE-2021-42561](https://github.com/mbadanoiu/CVE-2021-42561)
+
+### CVE-2021-42562 (2022-01-12)
+
+<code>An issue was discovered in CALDERA 2.8.1. It does not properly segregate user privileges, resulting in non-admin users having access to read and modify configuration or other components that should only be accessible by admin users.
+</code>
+
+- [mbadanoiu/CVE-2021-42562](https://github.com/mbadanoiu/CVE-2021-42562)
 
 ### CVE-2021-42574 (2021-11-01)
 
