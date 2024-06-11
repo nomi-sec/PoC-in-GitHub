@@ -427,6 +427,7 @@
 - [Juul/xz-backdoor-scan](https://github.com/Juul/xz-backdoor-scan)
 - [fevar54/Detectar-Backdoor-en-liblzma-de-XZ-utils-CVE-2024-3094-](https://github.com/fevar54/Detectar-Backdoor-en-liblzma-de-XZ-utils-CVE-2024-3094-)
 - [neuralinhibitor/xzwhy](https://github.com/neuralinhibitor/xzwhy)
+- [shefirot/CVE-2024-3094](https://github.com/shefirot/CVE-2024-3094)
 
 ### CVE-2024-3116 (2024-04-04)
 
@@ -1176,6 +1177,13 @@
 
 - [abian2/CVE-2024-23652](https://github.com/abian2/CVE-2024-23652)
 
+### CVE-2024-23692 (2024-05-31)
+
+<code>Rejetto HTTP File Server, up to and including version 2.3m, is vulnerable to a template injection vulnerability. This vulnerability allows a remote, unauthenticated attacker to execute arbitrary commands on the affected system by sending a specially crafted HTTP request. As of the CVE assignment date, Rejetto HFS 2.3m is no longer supported.
+</code>
+
+- [k3lpi3b4nsh33/CVE-2024-23692](https://github.com/k3lpi3b4nsh33/CVE-2024-23692)
+
 ### CVE-2024-23722 (2024-03-26)
 
 <code>In Fluent Bit 2.1.8 through 2.2.1, a NULL pointer dereference can be caused via an invalid HTTP payload with the content type of x-www-form-urlencoded. It crashes and does not restart. This could result in logs not being delivered properly.
@@ -1705,6 +1713,7 @@
 </code>
 
 - [varwara/CVE-2024-26229](https://github.com/varwara/CVE-2024-26229)
+- [RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit)
 
 ### CVE-2024-26304 (2024-05-01)
 
@@ -2076,6 +2085,13 @@
 </code>
 
 - [absholi7ly/Microsoft-Edge-Information-Disclosure](https://github.com/absholi7ly/Microsoft-Edge-Information-Disclosure)
+
+### CVE-2024-30212 (2024-05-28)
+
+<code>If a SCSI READ(10) command is initiated via USB using the largest LBA \n(0xFFFFFFFF) with it's default block size of 512 and a count of 1,\n\nthe first 512 byte of the 0x80000000 memory area is returned to the \nuser. If the block count is increased, the full RAM can be exposed.\n\nThe same method works to write to this memory area. If RAM contains \npointers, those can be - depending on the application - overwritten to\n\nreturn data from any other offset including Progam and Boot Flash.
+</code>
+
+- [Fehr-GmbH/blackleak](https://github.com/Fehr-GmbH/blackleak)
 
 ### CVE-2024-30255 (2024-04-04)
 
@@ -6603,6 +6619,7 @@
 - [c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733)
 - [hoangbui24/CVE-2023-33733](https://github.com/hoangbui24/CVE-2023-33733)
 - [onion2203/Lab_Reportlab](https://github.com/onion2203/Lab_Reportlab)
+- [buiduchoang24/CVE-2023-33733](https://github.com/buiduchoang24/CVE-2023-33733)
 - [L41KAA/CVE-2023-33733-Exploit-PoC](https://github.com/L41KAA/CVE-2023-33733-Exploit-PoC)
 
 ### CVE-2023-33747 (2023-06-06)
@@ -6710,6 +6727,7 @@
 
 - [Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040](https://github.com/Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040)
 - [pyn3rd/CVE-2023-34040](https://github.com/pyn3rd/CVE-2023-34040)
+- [buiduchoang24/CVE-2023-34040](https://github.com/buiduchoang24/CVE-2023-34040)
 - [huyennhat-dev/cve-2023-34040](https://github.com/huyennhat-dev/cve-2023-34040)
 
 ### CVE-2023-34050 (2023-10-19)
