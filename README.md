@@ -656,6 +656,7 @@
 - [Chocapikk/CVE-2024-4577](https://github.com/Chocapikk/CVE-2024-4577)
 - [K3ysTr0K3R/CVE-2024-4577-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-4577-EXPLOIT)
 - [it-t4mpan/check_cve_2024_4577.sh](https://github.com/it-t4mpan/check_cve_2024_4577.sh)
+- [bl4cksku11/CVE-2024-4577](https://github.com/bl4cksku11/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -841,7 +842,6 @@
 
 - [hakaioffsec/CVE-2024-21338](https://github.com/hakaioffsec/CVE-2024-21338)
 - [UMU618/CVE-2024-21338](https://github.com/UMU618/CVE-2024-21338)
-- [varwara/CVE-2024-21338](https://github.com/varwara/CVE-2024-21338)
 - [Zombie-Kaiser/CVE-2024-21338-x64-build-](https://github.com/Zombie-Kaiser/CVE-2024-21338-x64-build-)
 
 ### CVE-2024-21345 (2024-02-13)
@@ -1478,6 +1478,13 @@
 - [Gaurav1020/CVE-2024-24576-PoC-Rust](https://github.com/Gaurav1020/CVE-2024-24576-PoC-Rust)
 - [SheL3G/CVE-2024-24576-PoC-BatBadBut](https://github.com/SheL3G/CVE-2024-24576-PoC-BatBadBut)
 
+### CVE-2024-24590 (2024-02-06)
+
+<code>Deserialization of untrusted data can occur in versions 0.17.0 to 1.14.2 of the client SDK of Allegro AI’s ClearML platform, enabling a maliciously uploaded artifact to run arbitrary code on an end user’s system when interacted with.\n
+</code>
+
+- [LordVileOnX/-POC-CVE-2024-24590-Pickle-Load-on-Artifact-Get.-ClearML](https://github.com/LordVileOnX/-POC-CVE-2024-24590-Pickle-Load-on-Artifact-Get.-ClearML)
+
 ### CVE-2024-24760 (2024-02-02)
 
 <code>mailcow is a dockerized email package, with multiple containers linked in one bridged network. A security vulnerability has been identified in mailcow affecting versions &lt; 2024-01c. This vulnerability potentially allows attackers on the same subnet to connect to exposed ports of a Docker container, even when the port is bound to 127.0.0.1. The vulnerability has been addressed by implementing additional iptables/nftables rules. These rules drop packets for Docker containers on ports 3306, 6379, 8983, and 12345, where the input interface is not `br-mailcow` and the output interface is `br-mailcow`.
@@ -1712,8 +1719,8 @@
 <code>Windows CSC Service Elevation of Privilege Vulnerability
 </code>
 
-- [varwara/CVE-2024-26229](https://github.com/varwara/CVE-2024-26229)
 - [RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit)
+- [otterpwn/CVE-2024-26229](https://github.com/otterpwn/CVE-2024-26229)
 
 ### CVE-2024-26304 (2024-05-01)
 
@@ -2593,6 +2600,13 @@
 
 ### CVE-2024-36821
 - [IvanGlinkin/CVE-2024-36821](https://github.com/IvanGlinkin/CVE-2024-36821)
+
+### CVE-2024-37051 (2024-06-10)
+
+<code>GitHub access token could be exposed to third-party sites in JetBrains IDEs after version 2023.1 and less than: IntelliJ IDEA 2023.1.7, 2023.2.7, 2023.3.7, 2024.1.3, 2024.2 EAP3; Aqua 2024.1.2; CLion 2023.1.7, 2023.2.4, 2023.3.5, 2024.1.3, 2024.2 EAP2; DataGrip 2023.1.3, 2023.2.4, 2023.3.5, 2024.1.4; DataSpell 2023.1.6, 2023.2.7, 2023.3.6, 2024.1.2, 2024.2 EAP1; GoLand 2023.1.6, 2023.2.7, 2023.3.7, 2024.1.3, 2024.2 EAP3; MPS 2023.2.1, 2023.3.1, 2024.1 EAP2; PhpStorm 2023.1.6, 2023.2.6, 2023.3.7, 2024.1.3, 2024.2 EAP3; PyCharm 2023.1.6, 2023.2.7, 2023.3.6, 2024.1.3, 2024.2 EAP2; Rider 2023.1.7, 2023.2.5, 2023.3.6, 2024.1.3; RubyMine 2023.1.7, 2023.2.7, 2023.3.7, 2024.1.3, 2024.2 EAP4; RustRover 2024.1.1; WebStorm 2023.1.6, 2023.2.7, 2023.3.7, 2024.1.4
+</code>
+
+- [LeadroyaL/CVE-2024-37051-EXP](https://github.com/LeadroyaL/CVE-2024-37051-EXP)
 
 ### CVE-2024-37393 (2024-06-10)
 
