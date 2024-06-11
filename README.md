@@ -15,6 +15,13 @@
 
 - [41yn14/CVE-2024-0039-Exploit](https://github.com/41yn14/CVE-2024-0039-Exploit)
 
+### CVE-2024-0195 (2024-01-02)
+
+<code>Es wurde eine Schwachstelle in spider-flow 0.4.3 gefunden. Sie wurde als kritisch eingestuft. Es betrifft die Funktion FunctionService.saveFunction der Datei src/main/java/org/spiderflow/controller/FunctionController.java. Durch Manipulieren mit unbekannten Daten kann eine code injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [Cappricio-Securities/CVE-2024-0195](https://github.com/Cappricio-Securities/CVE-2024-0195)
+
 ### CVE-2024-0197 (2024-02-27)
 
 <code>A flaw in the installer for Thales SafeNet Sentinel HASP LDK prior to 9.16 on Windows allows an attacker to escalate their privilege level via local access.\n\n
@@ -1535,6 +1542,7 @@
 - [satchhacker/cve-2024-24919](https://github.com/satchhacker/cve-2024-24919)
 - [verylazytech/CVE-2024-24919](https://github.com/verylazytech/CVE-2024-24919)
 - [protonnegativo/CVE-2024-24919](https://github.com/protonnegativo/CVE-2024-24919)
+- [SalehLardhi/CVE-2024-24919](https://github.com/SalehLardhi/CVE-2024-24919)
 
 ### CVE-2024-25092 (2024-06-09)
 
@@ -1940,9 +1948,6 @@
 
 - [YongYe-Security/CVE-2024-28255](https://github.com/YongYe-Security/CVE-2024-28255)
 
-### CVE-2024-28397
-- [Marven11/CVE-2024-28397](https://github.com/Marven11/CVE-2024-28397)
-
 ### CVE-2024-28515 (2024-04-03)
 
 <code>Buffer Overflow vulnerability in CSAPP_Lab CSAPP Lab3 15-213 Fall 20xx allows a remote attacker to execute arbitrary code via the lab3 of csapp,lab3/buflab-update.pl component.
@@ -2252,7 +2257,6 @@
 - [AD-Appledog/wakuwaku](https://github.com/AD-Appledog/wakuwaku)
 - [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
 - [Basyaact/CVE-2024-32002-PoC_Chinese](https://github.com/Basyaact/CVE-2024-32002-PoC_Chinese)
-- [alimuhammedkose/CVE-2024-32002-linux-smash](https://github.com/alimuhammedkose/CVE-2024-32002-linux-smash)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -15137,6 +15141,7 @@
 
 - [p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE](https://github.com/p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE)
 - [emirpolatt/CVE-2022-36446](https://github.com/emirpolatt/CVE-2022-36446)
+- [Kang3639/CVE-2022-36446](https://github.com/Kang3639/CVE-2022-36446)
 
 ### CVE-2022-36532 (2022-09-16)
 
@@ -17798,7 +17803,6 @@
 - [Exodusro/CVE-2021-3156](https://github.com/Exodusro/CVE-2021-3156)
 - [CyberCommands/CVE-2021-3156](https://github.com/CyberCommands/CVE-2021-3156)
 - [0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156)
-- [Y3A/CVE-2021-3156](https://github.com/Y3A/CVE-2021-3156)
 - [redhawkeye/sudo-exploit](https://github.com/redhawkeye/sudo-exploit)
 - [d3c3ptic0n/CVE-2021-3156](https://github.com/d3c3ptic0n/CVE-2021-3156)
 - [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
@@ -17819,6 +17823,7 @@
 - [mutur4/CVE-2021-3156](https://github.com/mutur4/CVE-2021-3156)
 - [PurpleOzone/PE_CVE-CVE-2021-3156](https://github.com/PurpleOzone/PE_CVE-CVE-2021-3156)
 - [asepsaepdin/CVE-2021-3156](https://github.com/asepsaepdin/CVE-2021-3156)
+- [EthicalSecurity-Agency/Y3A-CVE-2021-3156](https://github.com/EthicalSecurity-Agency/Y3A-CVE-2021-3156)
 - [DDayLuong/CVE-2021-3156](https://github.com/DDayLuong/CVE-2021-3156)
 - [wurwur/CVE-2021-3156](https://github.com/wurwur/CVE-2021-3156)
 - [SamTruss/LMU-CVE-2021-3156](https://github.com/SamTruss/LMU-CVE-2021-3156)
@@ -32473,7 +32478,7 @@
 - [N1et/CVE-2019-18634](https://github.com/N1et/CVE-2019-18634)
 - [ptef/CVE-2019-18634](https://github.com/ptef/CVE-2019-18634)
 - [edsonjt81/sudo-cve-2019-18634](https://github.com/edsonjt81/sudo-cve-2019-18634)
-- [Y3A/CVE-2019-18634](https://github.com/Y3A/CVE-2019-18634)
+- [paras1te-x/CVE-2019-18634](https://github.com/paras1te-x/CVE-2019-18634)
 - [aesophor/CVE-2019-18634](https://github.com/aesophor/CVE-2019-18634)
 - [TheJoyOfHacking/saleemrashid-sudo-cve-2019-18634](https://github.com/TheJoyOfHacking/saleemrashid-sudo-cve-2019-18634)
 - [DDayLuong/CVE-2019-18634](https://github.com/DDayLuong/CVE-2019-18634)
