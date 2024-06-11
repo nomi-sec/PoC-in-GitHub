@@ -2574,7 +2574,11 @@
 ### CVE-2024-36821
 - [IvanGlinkin/CVE-2024-36821](https://github.com/IvanGlinkin/CVE-2024-36821)
 
-### CVE-2024-37393
+### CVE-2024-37393 (2024-06-10)
+
+<code>Multiple LDAP injections vulnerabilities exist in SecurEnvoy MFA before 9.4.514 due to improper validation of user-supplied input. An unauthenticated remote attacker could exfiltrate data from Active Directory through blind LDAP injection attacks against the DESKTOP service exposed on the /secserver HTTP endpoint. This may include ms-Mcs-AdmPwd, which has a cleartext password for the Local Administrator Password Solution (LAPS) feature.
+</code>
+
 - [optistream/securenvoy-cve-2024-37393](https://github.com/optistream/securenvoy-cve-2024-37393)
 
 ### CVE-2024-65230
@@ -29522,7 +29526,7 @@
 
 - [StealYourCode/CVE-2019-1663](https://github.com/StealYourCode/CVE-2019-1663)
 - [e180175/CVE-2019-1663-vuln](https://github.com/e180175/CVE-2019-1663-vuln)
-- [Oraxiage/CVE-2019-1663](https://github.com/Oraxiage/CVE-2019-1663)
+- [abrumsen/CVE-2019-1663](https://github.com/abrumsen/CVE-2019-1663)
 
 ### CVE-2019-1759 (2019-03-27)
 
