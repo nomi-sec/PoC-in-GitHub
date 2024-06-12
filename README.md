@@ -227,13 +227,6 @@
 
 - [almkuznetsov/CVE-2024-1441](https://github.com/almkuznetsov/CVE-2024-1441)
 
-### CVE-2024-1512 (2024-02-17)
-
-<code>The MasterStudy LMS WordPress Plugin – for Online Courses and Education plugin for WordPress is vulnerable to union based SQL Injection via the 'user' parameter of the /lms/stm-lms/order/items REST route in all versions up to, and including, 3.2.5 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
-</code>
-
-- [rat-c/CVE-2024-1512](https://github.com/rat-c/CVE-2024-1512)
-
 ### CVE-2024-1561 (2024-04-16)
 
 <code>An issue was discovered in gradio-app/gradio, where the `/component_server` endpoint improperly allows the invocation of any method on a `Component` class with attacker-controlled arguments. Specifically, by exploiting the `move_resource_to_block_cache()` method of the `Block` class, an attacker can copy any file on the filesystem to a temporary directory and subsequently retrieve it. This vulnerability enables unauthorized local file read access, posing a significant risk especially when the application is exposed to the internet via `launch(share=True)`, thereby allowing remote attackers to read files on the host machine. Furthermore, gradio apps hosted on `huggingface.co` are also affected, potentially leading to the exposure of sensitive information such as API keys and credentials stored in environment variables.
@@ -657,6 +650,8 @@
 - [K3ysTr0K3R/CVE-2024-4577-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-4577-EXPLOIT)
 - [it-t4mpan/check_cve_2024_4577.sh](https://github.com/it-t4mpan/check_cve_2024_4577.sh)
 - [bl4cksku11/CVE-2024-4577](https://github.com/bl4cksku11/CVE-2024-4577)
+- [nemu1k5ma/CVE-2024-4577](https://github.com/nemu1k5ma/CVE-2024-4577)
+- [aaddmin1122345/CVE-2024-4577-POC](https://github.com/aaddmin1122345/CVE-2024-4577-POC)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -2601,6 +2596,13 @@
 
 - [DxRvs/vaultize_CVE-2024-36079](https://github.com/DxRvs/vaultize_CVE-2024-36079)
 
+### CVE-2024-36416 (2024-06-10)
+
+<code>SuiteCRM is an open-source Customer Relationship Management (CRM) software application. Prior to versions 7.14.4 and 8.6.1, a deprecated v4 API example with no log rotation allows denial of service by logging excessive data. Versions 7.14.4 and 8.6.1 contain a fix for this issue.
+</code>
+
+- [kva55/CVE-2024-36416](https://github.com/kva55/CVE-2024-36416)
+
 ### CVE-2024-36821 (2024-06-11)
 
 <code>Insecure permissions in Linksys Velop WiFi 5 (WHW01v1) 1.1.13.202617 allows attackers to escalate privileges from Guest to root via a directory traversal.
@@ -3997,6 +3999,9 @@
 </code>
 
 - [sharathc213/CVE-2023-7173](https://github.com/sharathc213/CVE-2023-7173)
+
+### CVE-2023-11518
+- [ISH2YU/CVE-2023-11518](https://github.com/ISH2YU/CVE-2023-11518)
 
 ### CVE-2023-20025 (2023-01-19)
 
@@ -27071,7 +27076,6 @@
 <code>A vulnerability was discovered in the PyYAML library in versions before 5.4, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. This flaw allows an attacker to execute arbitrary code on the system by abusing the python/object/new constructor. This flaw is due to an incomplete fix for CVE-2020-1747.
 </code>
 
-- [raul23/pyyaml-CVE-2020-14343](https://github.com/raul23/pyyaml-CVE-2020-14343)
 - [j4k0m/loader-CVE-2020-14343](https://github.com/j4k0m/loader-CVE-2020-14343)
 
 ### CVE-2020-14356 (2020-08-19)
