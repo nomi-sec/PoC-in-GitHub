@@ -842,6 +842,7 @@
 
 - [hakaioffsec/CVE-2024-21338](https://github.com/hakaioffsec/CVE-2024-21338)
 - [UMU618/CVE-2024-21338](https://github.com/UMU618/CVE-2024-21338)
+- [varwara/CVE-2024-21338](https://github.com/varwara/CVE-2024-21338)
 - [Zombie-Kaiser/CVE-2024-21338-x64-build-](https://github.com/Zombie-Kaiser/CVE-2024-21338-x64-build-)
 
 ### CVE-2024-21345 (2024-02-13)
@@ -1483,7 +1484,8 @@
 <code>Deserialization of untrusted data can occur in versions 0.17.0 to 1.14.2 of the client SDK of Allegro AI’s ClearML platform, enabling a maliciously uploaded artifact to run arbitrary code on an end user’s system when interacted with.\n
 </code>
 
-- [LordVileOnX/-POC-CVE-2024-24590-Pickle-Load-on-Artifact-Get.-ClearML](https://github.com/LordVileOnX/-POC-CVE-2024-24590-Pickle-Load-on-Artifact-Get.-ClearML)
+- [LordVileOnX/ClearML-vulnerability-exploit-RCE-2024-CVE-2024-24590-](https://github.com/LordVileOnX/ClearML-vulnerability-exploit-RCE-2024-CVE-2024-24590-)
+- [OxyDeV2/PoC-CVE-2024-24590](https://github.com/OxyDeV2/PoC-CVE-2024-24590)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -1719,6 +1721,7 @@
 <code>Windows CSC Service Elevation of Privilege Vulnerability
 </code>
 
+- [varwara/CVE-2024-26229](https://github.com/varwara/CVE-2024-26229)
 - [RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit)
 - [otterpwn/CVE-2024-26229](https://github.com/otterpwn/CVE-2024-26229)
 
@@ -2598,7 +2601,11 @@
 
 - [DxRvs/vaultize_CVE-2024-36079](https://github.com/DxRvs/vaultize_CVE-2024-36079)
 
-### CVE-2024-36821
+### CVE-2024-36821 (2024-06-11)
+
+<code>Insecure permissions in Linksys Velop WiFi 5 (WHW01v1) 1.1.13.202617 allows attackers to escalate privileges from Guest to root via a directory traversal.
+</code>
+
 - [IvanGlinkin/CVE-2024-36821](https://github.com/IvanGlinkin/CVE-2024-36821)
 
 ### CVE-2024-37051 (2024-06-10)
@@ -4105,6 +4112,13 @@
 </code>
 
 - [sbaresearch/stop-zenbleed-win](https://github.com/sbaresearch/stop-zenbleed-win)
+
+### CVE-2023-20598 (2023-10-17)
+
+<code>\n\n\nAn improper privilege management in the AMD Radeon™ Graphics driver may allow an authenticated attacker to craft an IOCTL request to gain I/O control over arbitrary hardware ports or physical addresses resulting in a potential arbitrary code execution.\n\n\n\n
+</code>
+
+- [H4rk3nz0/CVE-2023-20598-PDFWKRNL](https://github.com/H4rk3nz0/CVE-2023-20598-PDFWKRNL)
 
 ### CVE-2023-20860 (2023-03-27)
 
