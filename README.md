@@ -1505,6 +1505,7 @@
 
 - [LordVileOnX/ClearML-vulnerability-exploit-RCE-2024-CVE-2024-24590-](https://github.com/LordVileOnX/ClearML-vulnerability-exploit-RCE-2024-CVE-2024-24590-)
 - [OxyDeV2/PoC-CVE-2024-24590](https://github.com/OxyDeV2/PoC-CVE-2024-24590)
+- [DemonPandaz2763/CVE-2024-24590](https://github.com/DemonPandaz2763/CVE-2024-24590)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -1742,6 +1743,7 @@
 
 - [varwara/CVE-2024-26229](https://github.com/varwara/CVE-2024-26229)
 - [RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit)
+- [0XJ175/DRive](https://github.com/0XJ175/DRive)
 
 ### CVE-2024-26304 (2024-05-01)
 
@@ -2076,6 +2078,13 @@
 </code>
 
 - [ally-petitt/CVE-2024-29399](https://github.com/ally-petitt/CVE-2024-29399)
+
+### CVE-2024-29824 (2024-05-31)
+
+<code>An unspecified SQL Injection vulnerability in Core server of Ivanti EPM 2022 SU5 and prior allows an unauthenticated attacker within the same network to execute arbitrary code.
+</code>
+
+- [horizon3ai/CVE-2024-29824](https://github.com/horizon3ai/CVE-2024-29824)
 
 ### CVE-2024-29849 (2024-05-22)
 
