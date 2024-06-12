@@ -60,6 +60,13 @@
 
 - [jidle123/cve-2024-0305exp](https://github.com/jidle123/cve-2024-0305exp)
 
+### CVE-2024-0352 (2024-01-09)
+
+<code>In Likeshop bis 2.5.7.20210311 wurde eine Schwachstelle entdeckt. Sie wurde als kritisch eingestuft. Es geht um die Funktion FileServer::userFormImage der Datei server/application/api/controller/File.php der Komponente HTTP POST Request Handler. Mit der Manipulation des Arguments file mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [Cappricio-Securities/CVE-2024-0352](https://github.com/Cappricio-Securities/CVE-2024-0352)
+
 ### CVE-2024-0399 (2024-04-15)
 
 <code>The WooCommerce Customers Manager WordPress plugin before 29.7 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to an SQL injection exploitable by Subscriber+ role.
@@ -226,6 +233,13 @@
 </code>
 
 - [almkuznetsov/CVE-2024-1441](https://github.com/almkuznetsov/CVE-2024-1441)
+
+### CVE-2024-1512 (2024-02-17)
+
+<code>The MasterStudy LMS WordPress Plugin – for Online Courses and Education plugin for WordPress is vulnerable to union based SQL Injection via the 'user' parameter of the /lms/stm-lms/order/items REST route in all versions up to, and including, 3.2.5 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [rat-c/CVE-2024-1512](https://github.com/rat-c/CVE-2024-1512)
 
 ### CVE-2024-1561 (2024-04-16)
 
@@ -652,6 +666,9 @@
 - [bl4cksku11/CVE-2024-4577](https://github.com/bl4cksku11/CVE-2024-4577)
 - [nemu1k5ma/CVE-2024-4577](https://github.com/nemu1k5ma/CVE-2024-4577)
 - [aaddmin1122345/CVE-2024-4577-POC](https://github.com/aaddmin1122345/CVE-2024-4577-POC)
+- [d3ck4/Shodan-CVE-2024-4577](https://github.com/d3ck4/Shodan-CVE-2024-4577)
+- [Entropt/CVE-2024-4577_Analysis](https://github.com/Entropt/CVE-2024-4577_Analysis)
+- [XiangDongCJC/CVE-2024-4577-PHP-CGI-RCE](https://github.com/XiangDongCJC/CVE-2024-4577-PHP-CGI-RCE)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -673,6 +690,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-4875](https://github.com/RandomRobbieBF/CVE-2024-4875)
+
+### CVE-2024-4898 (2024-06-12)
+
+<code>The InstaWP Connect – 1-click WP Staging &amp; Migration plugin for WordPress is vulnerable to arbitrary option updates due to a missing authorization checks on the REST API calls in all versions up to, and including, 0.1.0.38. This makes it possible for unauthenticated attackers to connect the site to InstaWP API, edit arbitrary site options and create administrator accounts.
+</code>
+
+- [truonghuuphuc/CVE-2024-4898-Poc](https://github.com/truonghuuphuc/CVE-2024-4898-Poc)
 
 ### CVE-2024-4956 (2024-05-16)
 
@@ -1718,7 +1742,6 @@
 
 - [varwara/CVE-2024-26229](https://github.com/varwara/CVE-2024-26229)
 - [RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit)
-- [otterpwn/CVE-2024-26229](https://github.com/otterpwn/CVE-2024-26229)
 
 ### CVE-2024-26304 (2024-05-01)
 
@@ -1809,6 +1832,7 @@
 
 - [Zeyad-Azima/CVE-2024-27348](https://github.com/Zeyad-Azima/CVE-2024-27348)
 - [kljunowsky/CVE-2024-27348](https://github.com/kljunowsky/CVE-2024-27348)
+- [jakabakos/CVE-2024-27348-Apache-HugeGraph-RCE](https://github.com/jakabakos/CVE-2024-27348-Apache-HugeGraph-RCE)
 
 ### CVE-2024-27460 (2024-05-10)
 
@@ -2595,13 +2619,6 @@
 </code>
 
 - [DxRvs/vaultize_CVE-2024-36079](https://github.com/DxRvs/vaultize_CVE-2024-36079)
-
-### CVE-2024-36416 (2024-06-10)
-
-<code>SuiteCRM is an open-source Customer Relationship Management (CRM) software application. Prior to versions 7.14.4 and 8.6.1, a deprecated v4 API example with no log rotation allows denial of service by logging excessive data. Versions 7.14.4 and 8.6.1 contain a fix for this issue.
-</code>
-
-- [kva55/CVE-2024-36416](https://github.com/kva55/CVE-2024-36416)
 
 ### CVE-2024-36821 (2024-06-11)
 
@@ -16740,6 +16757,7 @@
 - [copyleftdev/PricklyPwn](https://github.com/copyleftdev/PricklyPwn)
 - [0xN7y/CVE-2022-46169](https://github.com/0xN7y/CVE-2022-46169)
 - [mind2hex/CVE-2022-46169](https://github.com/mind2hex/CVE-2022-46169)
+- [HPT-Intern-Task-Submission/CVE-2022-46169](https://github.com/HPT-Intern-Task-Submission/CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-24)
 
@@ -32619,6 +32637,13 @@
 - [ManhNDd/CVE-2019-19012](https://github.com/ManhNDd/CVE-2019-19012)
 - [tarantula-team/CVE-2019-19012](https://github.com/tarantula-team/CVE-2019-19012)
 
+### CVE-2019-19030 (2022-12-26)
+
+<code>Cloud Native Computing Foundation Harbor before 1.10.3 and 2.x before 2.0.1 allows resource enumeration because unauthenticated API calls reveal (via the HTTP status code) whether a resource exists.
+</code>
+
+- [shodanwashere/boatcrash](https://github.com/shodanwashere/boatcrash)
+
 ### CVE-2019-19033 (2019-11-21)
 
 <code>Jalios JCMS 10 allows attackers to access any part of the website and the WebDAV server with administrative privileges via a backdoor account, by using any username and the hardcoded dev password.
@@ -34205,6 +34230,7 @@
 - [anldori/CVE-2018-7600](https://github.com/anldori/CVE-2018-7600)
 - [r0lh/CVE-2018-7600](https://github.com/r0lh/CVE-2018-7600)
 - [killeveee/CVE-2018-7600](https://github.com/killeveee/CVE-2018-7600)
+- [raytran54/CVE-2018-7600](https://github.com/raytran54/CVE-2018-7600)
 
 ### CVE-2018-7602 (2018-07-19)
 
