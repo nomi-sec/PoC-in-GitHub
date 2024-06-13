@@ -542,7 +542,11 @@
 - [truonghuuphuc/CVE-2024-3495-Poc](https://github.com/truonghuuphuc/CVE-2024-3495-Poc)
 - [zomasec/CVE-2024-3495-POC](https://github.com/zomasec/CVE-2024-3495-POC)
 
-### CVE-2024-3552
+### CVE-2024-3552 (2024-06-13)
+
+<code>The Web Directory Free WordPress plugin before 1.7.0 does not sanitise and escape a parameter before using it in a SQL statement via an AJAX action available to unauthenticated users, leading to a SQL injection with different techniques like UNION, Time-Based and Error-Based.
+</code>
+
 - [truonghuuphuc/CVE-2024-3552-Poc](https://github.com/truonghuuphuc/CVE-2024-3552-Poc)
 
 ### CVE-2024-3806 (2024-05-09)
@@ -676,6 +680,7 @@
 - [d3ck4/Shodan-CVE-2024-4577](https://github.com/d3ck4/Shodan-CVE-2024-4577)
 - [Entropt/CVE-2024-4577_Analysis](https://github.com/Entropt/CVE-2024-4577_Analysis)
 - [XiangDongCJC/CVE-2024-4577-PHP-CGI-RCE](https://github.com/XiangDongCJC/CVE-2024-4577-PHP-CGI-RCE)
+- [hexedbyte/cve-2024-4577](https://github.com/hexedbyte/cve-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -1211,6 +1216,7 @@
 
 - [k3lpi3b4nsh33/CVE-2024-23692](https://github.com/k3lpi3b4nsh33/CVE-2024-23692)
 - [jakabakos/CVE-2024-23692-RCE-in-Rejetto-HFS](https://github.com/jakabakos/CVE-2024-23692-RCE-in-Rejetto-HFS)
+- [vanboomqi/CVE-2024-23692](https://github.com/vanboomqi/CVE-2024-23692)
 
 ### CVE-2024-23722 (2024-03-26)
 
@@ -1751,6 +1757,7 @@
 
 - [varwara/CVE-2024-26229](https://github.com/varwara/CVE-2024-26229)
 - [RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit)
+- [NVISOsecurity/CVE-2024-26229-BOF](https://github.com/NVISOsecurity/CVE-2024-26229-BOF)
 
 ### CVE-2024-26304 (2024-05-01)
 
@@ -2041,6 +2048,13 @@
 - [saurabh2088/expat_2_1_0_CVE-2024-28757](https://github.com/saurabh2088/expat_2_1_0_CVE-2024-28757)
 - [saurabh2088/expat_2_1_1_CVE-2024-28757](https://github.com/saurabh2088/expat_2_1_1_CVE-2024-28757)
 
+### CVE-2024-28890 (2024-04-23)
+
+<code>Forminator prior to 1.29.0 contains an unrestricted upload of file with dangerous type vulnerability. If this vulnerability is exploited, a remote attacker may obtain sensitive information by accessing files on the server, alter the site that uses the plugin, and cause a denial-of-service (DoS) condition. 
+</code>
+
+- [RHYru9/CVE-2024-28890-checker](https://github.com/RHYru9/CVE-2024-28890-checker)
+
 ### CVE-2024-29059 (2024-03-22)
 
 <code>.NET Framework Information Disclosure Vulnerability
@@ -2107,6 +2121,13 @@
 </code>
 
 - [sinsinology/CVE-2024-29849](https://github.com/sinsinology/CVE-2024-29849)
+
+### CVE-2024-29855 (2024-06-11)
+
+<code>Hard-coded JWT secret allows authentication bypass in Veeam Recovery Orchestrator
+</code>
+
+- [sinsinology/CVE-2024-29855](https://github.com/sinsinology/CVE-2024-29855)
 
 ### CVE-2024-29895 (2024-05-13)
 
@@ -2664,6 +2685,7 @@
 </code>
 
 - [LeadroyaL/CVE-2024-37051-EXP](https://github.com/LeadroyaL/CVE-2024-37051-EXP)
+- [mrblackstar26/CVE-2024-37051](https://github.com/mrblackstar26/CVE-2024-37051)
 
 ### CVE-2024-37393 (2024-06-10)
 
@@ -10883,6 +10905,7 @@
 
 - [ac3lives/kyocera-cve-2022-1026](https://github.com/ac3lives/kyocera-cve-2022-1026)
 - [flamebarke/nmap-printer-nse-scripts](https://github.com/flamebarke/nmap-printer-nse-scripts)
+- [r0lh/kygocera](https://github.com/r0lh/kygocera)
 
 ### CVE-2022-1040 (2022-03-25)
 
@@ -23765,6 +23788,7 @@
 </code>
 
 - [tea9/CVE-2020-0014-Toast](https://github.com/tea9/CVE-2020-0014-Toast)
+- [ASIFASSU/CVE-2020-0014](https://github.com/ASIFASSU/CVE-2020-0014)
 
 ### CVE-2020-0022 (2020-02-13)
 
