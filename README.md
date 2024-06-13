@@ -623,6 +623,7 @@
 - [spaceraccoon/detect-cve-2024-4367](https://github.com/spaceraccoon/detect-cve-2024-4367)
 - [clarkio/pdfjs-vuln-demo](https://github.com/clarkio/pdfjs-vuln-demo)
 - [avalahEE/pdfjs_disable_eval](https://github.com/avalahEE/pdfjs_disable_eval)
+- [Zombie-Kaiser/cve-2024-4367-PoC-fixed](https://github.com/Zombie-Kaiser/cve-2024-4367-PoC-fixed)
 
 ### CVE-2024-4439 (2024-05-03)
 
@@ -681,6 +682,7 @@
 - [Entropt/CVE-2024-4577_Analysis](https://github.com/Entropt/CVE-2024-4577_Analysis)
 - [XiangDongCJC/CVE-2024-4577-PHP-CGI-RCE](https://github.com/XiangDongCJC/CVE-2024-4577-PHP-CGI-RCE)
 - [hexedbyte/cve-2024-4577](https://github.com/hexedbyte/cve-2024-4577)
+- [Sh0ckFR/CVE-2024-4577](https://github.com/Sh0ckFR/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -1217,6 +1219,7 @@
 - [k3lpi3b4nsh33/CVE-2024-23692](https://github.com/k3lpi3b4nsh33/CVE-2024-23692)
 - [jakabakos/CVE-2024-23692-RCE-in-Rejetto-HFS](https://github.com/jakabakos/CVE-2024-23692-RCE-in-Rejetto-HFS)
 - [vanboomqi/CVE-2024-23692](https://github.com/vanboomqi/CVE-2024-23692)
+- [WanLiChangChengWanLiChang/CVE-2024-23692-RCE](https://github.com/WanLiChangChengWanLiChang/CVE-2024-23692-RCE)
 
 ### CVE-2024-23722 (2024-03-26)
 
@@ -2047,13 +2050,6 @@
 - [RenukaSelvar/expat_CVE-2024-28757](https://github.com/RenukaSelvar/expat_CVE-2024-28757)
 - [saurabh2088/expat_2_1_0_CVE-2024-28757](https://github.com/saurabh2088/expat_2_1_0_CVE-2024-28757)
 - [saurabh2088/expat_2_1_1_CVE-2024-28757](https://github.com/saurabh2088/expat_2_1_1_CVE-2024-28757)
-
-### CVE-2024-28890 (2024-04-23)
-
-<code>Forminator prior to 1.29.0 contains an unrestricted upload of file with dangerous type vulnerability. If this vulnerability is exploited, a remote attacker may obtain sensitive information by accessing files on the server, alter the site that uses the plugin, and cause a denial-of-service (DoS) condition. 
-</code>
-
-- [RHYru9/CVE-2024-28890-checker](https://github.com/RHYru9/CVE-2024-28890-checker)
 
 ### CVE-2024-29059 (2024-03-22)
 
@@ -3542,6 +3538,7 @@
 
 - [E1A/CVE-2023-4596](https://github.com/E1A/CVE-2023-4596)
 - [X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version](https://github.com/X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version)
+- [RHYru9/CVE-2023-4596-checker](https://github.com/RHYru9/CVE-2023-4596-checker)
 
 ### CVE-2023-4631 (2023-09-25)
 
@@ -35582,6 +35579,7 @@
 - [GaboLC98/userenum-CVE-2018-15473](https://github.com/GaboLC98/userenum-CVE-2018-15473)
 - [4xolotl/CVE-2018-15473](https://github.com/4xolotl/CVE-2018-15473)
 - [NestyF/SSH_Enum_CVE-2018-15473](https://github.com/NestyF/SSH_Enum_CVE-2018-15473)
+- [yZ1337/CVE-2018-15473](https://github.com/yZ1337/CVE-2018-15473)
 
 ### CVE-2018-15499 (2018-08-24)
 
