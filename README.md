@@ -1523,6 +1523,7 @@
 - [LordVileOnX/ClearML-vulnerability-exploit-RCE-2024-CVE-2024-24590-](https://github.com/LordVileOnX/ClearML-vulnerability-exploit-RCE-2024-CVE-2024-24590-)
 - [OxyDeV2/ClearML-CVE-2024-24590](https://github.com/OxyDeV2/ClearML-CVE-2024-24590)
 - [DemonPandaz2763/CVE-2024-24590](https://github.com/DemonPandaz2763/CVE-2024-24590)
+- [xffsec/CVE-2024-24590-ClearML-RCE-Exploit](https://github.com/xffsec/CVE-2024-24590-ClearML-RCE-Exploit)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -2265,7 +2266,11 @@
 
 - [restdone/CVE-2024-31771](https://github.com/restdone/CVE-2024-31771)
 
-### CVE-2024-31777
+### CVE-2024-31777 (2024-06-13)
+
+<code>File Upload vulnerability in openeclass v.3.15 and before allows an attacker to execute arbitrary code via a crafted file to the certbadge.php endpoint.
+</code>
+
 - [FreySolarEye/Exploit-CVE-2024-31777](https://github.com/FreySolarEye/Exploit-CVE-2024-31777)
 
 ### CVE-2024-31819 (2024-04-10)
@@ -4686,13 +4691,6 @@
 </code>
 
 - [sofianeelhor/CVE-2023-22621-POC](https://github.com/sofianeelhor/CVE-2023-22621-POC)
-
-### CVE-2023-22726 (2023-01-20)
-
-<code>act is a project which allows for local running of github actions. The artifact server that stores artifacts from Github Action runs does not sanitize path inputs. This allows an attacker to download and overwrite arbitrary files on the host from a Github Action. This issue may lead to privilege escalation. The /upload endpoint is vulnerable to path traversal as filepath is user controlled, and ultimately flows into os.Mkdir and os.Open. The /artifact endpoint is vulnerable to path traversal as the path is variable is user controlled, and the specified file is ultimately returned by the server. This has been addressed in version 0.2.40. Users are advised to upgrade. Users unable to upgrade may, during implementation of Open and OpenAtEnd for FS, ensure to use ValidPath() to check against path traversal or clean the user-provided paths manually.
-</code>
-
-- [ProxyPog/POC-CVE-2023-22726](https://github.com/ProxyPog/POC-CVE-2023-22726)
 
 ### CVE-2023-22809 (2023-01-18)
 
