@@ -14311,6 +14311,7 @@
 - [Jump-Wang-111/AmzWord](https://github.com/Jump-Wang-111/AmzWord)
 - [shri142/ZipScan](https://github.com/shri142/ZipScan)
 - [alien-keric/CVE-2022-30190](https://github.com/alien-keric/CVE-2022-30190)
+- [skitkat/CVE-2022-30190-POC](https://github.com/skitkat/CVE-2022-30190-POC)
 
 ### CVE-2022-30203 (2022-07-12)
 
@@ -42608,6 +42609,13 @@
 </code>
 
 - [war4uthor/CVE-2012-5106](https://github.com/war4uthor/CVE-2012-5106)
+
+### CVE-2012-5321 (2012-10-08)
+
+<code>tiki-featured_link.php in TikiWiki CMS/Groupware 8.3 allows remote attackers to load arbitrary web site pages into frames and conduct phishing attacks via the url parameter, aka &quot;frame injection.&quot;
+</code>
+
+- [Cappricio-Securities/CVE-2012-5321](https://github.com/Cappricio-Securities/CVE-2012-5321)
 
 ### CVE-2012-5519 (2012-11-20)
 
