@@ -1220,6 +1220,7 @@
 - [jakabakos/CVE-2024-23692-RCE-in-Rejetto-HFS](https://github.com/jakabakos/CVE-2024-23692-RCE-in-Rejetto-HFS)
 - [vanboomqi/CVE-2024-23692](https://github.com/vanboomqi/CVE-2024-23692)
 - [WanLiChangChengWanLiChang/CVE-2024-23692-RCE](https://github.com/WanLiChangChengWanLiChang/CVE-2024-23692-RCE)
+- [Mr-r00t11/CVE-2024-23692](https://github.com/Mr-r00t11/CVE-2024-23692)
 
 ### CVE-2024-23722 (2024-03-26)
 
@@ -2051,6 +2052,13 @@
 - [RenukaSelvar/expat_CVE-2024-28757](https://github.com/RenukaSelvar/expat_CVE-2024-28757)
 - [saurabh2088/expat_2_1_0_CVE-2024-28757](https://github.com/saurabh2088/expat_2_1_0_CVE-2024-28757)
 - [saurabh2088/expat_2_1_1_CVE-2024-28757](https://github.com/saurabh2088/expat_2_1_1_CVE-2024-28757)
+
+### CVE-2024-28995 (2024-06-06)
+
+<code>\n\n\n\n\n\n\n\n\n\n\n\nSolarWinds Serv-U was susceptible to a directory transversal vulnerability that would allow access to read sensitive files on the host machine.    \n\n\n\n\n\n\n\n
+</code>
+
+- [krypton-kry/CVE-2024-28995](https://github.com/krypton-kry/CVE-2024-28995)
 
 ### CVE-2024-29059 (2024-03-22)
 
@@ -34233,6 +34241,13 @@
 </code>
 
 - [tafamace/CVE-2018-7489](https://github.com/tafamace/CVE-2018-7489)
+
+### CVE-2018-7490 (2018-02-26)
+
+<code>uWSGI before 2.0.17 mishandles a DOCUMENT_ROOT check during use of the --php-docroot option, allowing directory traversal.
+</code>
+
+- [qinzhu111/uWSGI-CVE-2018-7490-POC](https://github.com/qinzhu111/uWSGI-CVE-2018-7490-POC)
 
 ### CVE-2018-7600 (2018-03-29)
 
