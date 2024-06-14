@@ -563,6 +563,13 @@
 
 - [c4cnm/CVE-2024-3867](https://github.com/c4cnm/CVE-2024-3867)
 
+### CVE-2024-3922 (2024-06-13)
+
+<code>The Dokan Pro plugin for WordPress is vulnerable to SQL Injection via the 'code' parameter in all versions up to, and including, 3.10.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [truonghuuphuc/CVE-2024-3922-Poc](https://github.com/truonghuuphuc/CVE-2024-3922-Poc)
+
 ### CVE-2024-4040 (2024-04-22)
 
 <code>A server side template injection vulnerability in CrushFTP in all versions before 10.7.1 and 11.1.0 on all platforms allows unauthenticated remote attackers to read files from the filesystem outside of the VFS Sandbox, bypass authentication to gain administrative access, and perform remote code execution on the server.\n
@@ -585,6 +592,7 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-4295-Poc](https://github.com/truonghuuphuc/CVE-2024-4295-Poc)
+- [cve-2024/CVE-2024-4295-Poc](https://github.com/cve-2024/CVE-2024-4295-Poc)
 
 ### CVE-2024-4323 (2024-05-20)
 
@@ -711,6 +719,7 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-4898-Poc](https://github.com/truonghuuphuc/CVE-2024-4898-Poc)
+- [cve-2024/CVE-2024-4898-Poc](https://github.com/cve-2024/CVE-2024-4898-Poc)
 
 ### CVE-2024-4956 (2024-05-16)
 
@@ -746,6 +755,7 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-5326-Poc](https://github.com/truonghuuphuc/CVE-2024-5326-Poc)
+- [cve-2024/CVE-2024-5326-Poc](https://github.com/cve-2024/CVE-2024-5326-Poc)
 
 ### CVE-2024-5522
 - [truonghuuphuc/CVE-2024-5522-Poc](https://github.com/truonghuuphuc/CVE-2024-5522-Poc)
@@ -1823,6 +1833,13 @@
 - [watchtowrlabs/CVE-2024-27130](https://github.com/watchtowrlabs/CVE-2024-27130)
 - [d0rb/CVE-2024-27130](https://github.com/d0rb/CVE-2024-27130)
 
+### CVE-2024-27173 (2024-06-14)
+
+<code>Remote Command program allows an attacker to get Remote Code Execution by overwriting existing Python files containing executable code. This vulnerability can be executed in combination with other vulnerabilities and  difficult to execute alone. So, the CVSS score for this vulnerability alone is lower than the score listed in the &quot;Base Score&quot; of this vulnerability. For detail on related other vulnerabilities, please ask to the below contact point.\n https://www.toshibatec.com/contacts/products/ \nAs for the affected products/models/versions, see the reference URL.
+</code>
+
+- [Ieakd/0day-POC-for-CVE-2024-27173](https://github.com/Ieakd/0day-POC-for-CVE-2024-27173)
+
 ### CVE-2024-27198 (2024-03-04)
 
 <code>In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible
@@ -1958,6 +1975,7 @@
 - [Cappricio-Securities/CVE-2024-27956](https://github.com/Cappricio-Securities/CVE-2024-27956)
 - [itzheartzz/MASS-CVE-2024-27956](https://github.com/itzheartzz/MASS-CVE-2024-27956)
 - [TadashiJei/Valve-Press-CVE-2024-27956-RCE](https://github.com/TadashiJei/Valve-Press-CVE-2024-27956-RCE)
+- [cve-2024/CVE-2024-27956-RCE](https://github.com/cve-2024/CVE-2024-27956-RCE)
 
 ### CVE-2024-27971 (2024-05-17)
 
@@ -2058,7 +2076,11 @@
 <code>\n\n\n\n\n\n\n\n\n\n\n\nSolarWinds Serv-U was susceptible to a directory transversal vulnerability that would allow access to read sensitive files on the host machine.    \n\n\n\n\n\n\n\n
 </code>
 
+- [karkis3c/cves](https://github.com/karkis3c/cves)
 - [krypton-kry/CVE-2024-28995](https://github.com/krypton-kry/CVE-2024-28995)
+- [ggfzx/CVE-2024-28995](https://github.com/ggfzx/CVE-2024-28995)
+- [huseyinstif/CVE-2024-28995-Nuclei-Template](https://github.com/huseyinstif/CVE-2024-28995-Nuclei-Template)
+- [0xkucing/CVE-2024-28995](https://github.com/0xkucing/CVE-2024-28995)
 
 ### CVE-2024-29059 (2024-03-22)
 
@@ -2901,6 +2923,7 @@
 - [diego-tella/CVE-2023-1326-PoC](https://github.com/diego-tella/CVE-2023-1326-PoC)
 - [Pol-Ruiz/CVE-2023-1326](https://github.com/Pol-Ruiz/CVE-2023-1326)
 - [c0d3cr4f73r/CVE-2023-1326](https://github.com/c0d3cr4f73r/CVE-2023-1326)
+- [cve-2024/CVE-2023-1326-PoC](https://github.com/cve-2024/CVE-2023-1326-PoC)
 
 ### CVE-2023-1337 (2023-03-10)
 
@@ -4734,7 +4757,6 @@
 </code>
 
 - [Saboor-Hakimi/CVE-2023-22894](https://github.com/Saboor-Hakimi/CVE-2023-22894)
-- [ductan2/CVE-2023-22894](https://github.com/ductan2/CVE-2023-22894)
 
 ### CVE-2023-22906 (2023-07-03)
 
