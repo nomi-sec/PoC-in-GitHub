@@ -1536,6 +1536,7 @@
 - [OxyDeV2/ClearML-CVE-2024-24590](https://github.com/OxyDeV2/ClearML-CVE-2024-24590)
 - [DemonPandaz2763/CVE-2024-24590](https://github.com/DemonPandaz2763/CVE-2024-24590)
 - [xffsec/CVE-2024-24590-ClearML-RCE-Exploit](https://github.com/xffsec/CVE-2024-24590-ClearML-RCE-Exploit)
+- [diegogarciayala/CVE-2024-24590-ClearML-RCE-CMD-POC](https://github.com/diegogarciayala/CVE-2024-24590-ClearML-RCE-CMD-POC)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -10431,6 +10432,7 @@
 - [thinkliving2020/CVE-2023-51385-](https://github.com/thinkliving2020/CVE-2023-51385-)
 - [c0deur/CVE-2023-51385](https://github.com/c0deur/CVE-2023-51385)
 - [endasugrue/CVE-2023-51385_poc](https://github.com/endasugrue/CVE-2023-51385_poc)
+- [MiningBot-eth/CVE-2023-51385-exploit](https://github.com/MiningBot-eth/CVE-2023-51385-exploit)
 
 ### CVE-2023-51409 (2024-04-12)
 
@@ -10705,7 +10707,7 @@
 <code>CRLF Injection leads to Stack Trace Exposure due to lack of filtering at https://demo.microweber.org/ in Packagist microweber/microweber prior to 1.2.11.
 </code>
 
-- [d4rkduck/CVE-2022-0666](https://github.com/d4rkduck/CVE-2022-0666)
+- [keyboardancer/CVE-2022-0666](https://github.com/keyboardancer/CVE-2022-0666)
 
 ### CVE-2022-0725 (2022-03-07)
 
@@ -26571,6 +26573,13 @@
 - [fanjq99/CVE-2020-11652](https://github.com/fanjq99/CVE-2020-11652)
 - [Al1ex/CVE-2020-11652](https://github.com/Al1ex/CVE-2020-11652)
 - [limon768/CVE-2020-11652-POC](https://github.com/limon768/CVE-2020-11652-POC)
+
+### CVE-2020-11738 (2020-04-13)
+
+<code>The Snap Creek Duplicator plugin before 1.3.28 for WordPress (and Duplicator Pro before 3.8.7.1) allows Directory Traversal via ../ in the file parameter to duplicator_download or duplicator_init.
+</code>
+
+- [raghu66669999/wordpress-snapcreek](https://github.com/raghu66669999/wordpress-snapcreek)
 
 ### CVE-2020-11794
 - [w4cky/CVE-2020-11794](https://github.com/w4cky/CVE-2020-11794)
