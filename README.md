@@ -2081,6 +2081,7 @@
 - [ggfzx/CVE-2024-28995](https://github.com/ggfzx/CVE-2024-28995)
 - [huseyinstif/CVE-2024-28995-Nuclei-Template](https://github.com/huseyinstif/CVE-2024-28995-Nuclei-Template)
 - [0xkucing/CVE-2024-28995](https://github.com/0xkucing/CVE-2024-28995)
+- [bigb0x/CVE-2024-28995](https://github.com/bigb0x/CVE-2024-28995)
 
 ### CVE-2024-29059 (2024-03-22)
 
@@ -2702,6 +2703,13 @@
 </code>
 
 - [DxRvs/vaultize_CVE-2024-36079](https://github.com/DxRvs/vaultize_CVE-2024-36079)
+
+### CVE-2024-36416 (2024-06-10)
+
+<code>SuiteCRM is an open-source Customer Relationship Management (CRM) software application. Prior to versions 7.14.4 and 8.6.1, a deprecated v4 API example with no log rotation allows denial of service by logging excessive data. Versions 7.14.4 and 8.6.1 contain a fix for this issue.
+</code>
+
+- [kva55/CVE-2024-36416](https://github.com/kva55/CVE-2024-36416)
 
 ### CVE-2024-36821 (2024-06-11)
 
@@ -21676,6 +21684,7 @@
 - [RedLeavesChilde/CVE-2021-40444](https://github.com/RedLeavesChilde/CVE-2021-40444)
 - [nvchungkma/CVE-2021-40444-Microsoft-Office-Word-Remote-Code-Execution-](https://github.com/nvchungkma/CVE-2021-40444-Microsoft-Office-Word-Remote-Code-Execution-)
 - [hqdat809/CVE-2021-40444](https://github.com/hqdat809/CVE-2021-40444)
+- [skitkat/CVE-2021-40444-POC](https://github.com/skitkat/CVE-2021-40444-POC)
 
 ### CVE-2021-40449 (2021-10-13)
 
@@ -42781,6 +42790,7 @@
 - [4m3rr0r/CVE-2011-2523-poc](https://github.com/4m3rr0r/CVE-2011-2523-poc)
 - [Shubham-2k1/Exploit-CVE-2011-2523](https://github.com/Shubham-2k1/Exploit-CVE-2011-2523)
 - [Tenor-Z/SmileySploit](https://github.com/Tenor-Z/SmileySploit)
+- [sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523)
 
 ### CVE-2011-2894 (2011-10-04)
 
