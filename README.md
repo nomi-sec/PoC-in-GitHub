@@ -691,6 +691,7 @@
 - [XiangDongCJC/CVE-2024-4577-PHP-CGI-RCE](https://github.com/XiangDongCJC/CVE-2024-4577-PHP-CGI-RCE)
 - [hexedbyte/cve-2024-4577](https://github.com/hexedbyte/cve-2024-4577)
 - [Sh0ckFR/CVE-2024-4577](https://github.com/Sh0ckFR/CVE-2024-4577)
+- [gotr00t0day/CVE-2024-4577](https://github.com/gotr00t0day/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -4111,9 +4112,6 @@
 
 - [sharathc213/CVE-2023-7173](https://github.com/sharathc213/CVE-2023-7173)
 
-### CVE-2023-11518
-- [ISH2YU/CVE-2023-11518](https://github.com/ISH2YU/CVE-2023-11518)
-
 ### CVE-2023-20025 (2023-01-19)
 
 <code>A vulnerability in the web-based management interface of Cisco Small Business RV042 Series Routers could allow an unauthenticated, remote attacker to bypass authentication on the affected device.\r\n\r This vulnerability is due to incorrect user input validation of incoming HTTP packets. An attacker could exploit this vulnerability by sending crafted requests to the web-based management interface. A successful exploit could allow the attacker to gain root privileges on the affected device.\r\n
@@ -7457,6 +7455,7 @@
 - [4zur-0312/CVE-2023-36802](https://github.com/4zur-0312/CVE-2023-36802)
 - [x0rb3l/CVE-2023-36802-MSKSSRV-LPE](https://github.com/x0rb3l/CVE-2023-36802-MSKSSRV-LPE)
 - [Nero22k/cve-2023-36802](https://github.com/Nero22k/cve-2023-36802)
+- [ISH2YU/CVE-2023-36802](https://github.com/ISH2YU/CVE-2023-36802)
 
 ### CVE-2023-36812 (2023-06-30)
 
