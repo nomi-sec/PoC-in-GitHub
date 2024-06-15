@@ -692,6 +692,7 @@
 - [hexedbyte/cve-2024-4577](https://github.com/hexedbyte/cve-2024-4577)
 - [Sh0ckFR/CVE-2024-4577](https://github.com/Sh0ckFR/CVE-2024-4577)
 - [gotr00t0day/CVE-2024-4577](https://github.com/gotr00t0day/CVE-2024-4577)
+- [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -2719,6 +2720,13 @@
 </code>
 
 - [IvanGlinkin/CVE-2024-36821](https://github.com/IvanGlinkin/CVE-2024-36821)
+
+### CVE-2024-36837 (-)
+
+<code>SQL Injection vulnerability in CRMEB v.5.2.2 allows a remote attacker to obtain sensitive information via the getProductList function in the ProductController.php file.
+</code>
+
+- [phtcloud-dev/CVE-2024-36837](https://github.com/phtcloud-dev/CVE-2024-36837)
 
 ### CVE-2024-37051 (2024-06-10)
 
