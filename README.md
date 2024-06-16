@@ -5695,6 +5695,7 @@
 - [Danasuley/CVE-2023-28252-](https://github.com/Danasuley/CVE-2023-28252-)
 - [bkstephen/Compiled-PoC-Binary-For-CVE-2023-28252](https://github.com/bkstephen/Compiled-PoC-Binary-For-CVE-2023-28252)
 - [duck-sec/CVE-2023-28252-Compiled-exe](https://github.com/duck-sec/CVE-2023-28252-Compiled-exe)
+- [Vulmatch/CVE-2023-28252](https://github.com/Vulmatch/CVE-2023-28252)
 
 ### CVE-2023-28329 (2023-03-23)
 
