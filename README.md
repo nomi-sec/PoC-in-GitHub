@@ -1234,6 +1234,7 @@
 - [vanboomqi/CVE-2024-23692](https://github.com/vanboomqi/CVE-2024-23692)
 - [WanLiChangChengWanLiChang/CVE-2024-23692-RCE](https://github.com/WanLiChangChengWanLiChang/CVE-2024-23692-RCE)
 - [Mr-r00t11/CVE-2024-23692](https://github.com/Mr-r00t11/CVE-2024-23692)
+- [Tupler/CVE-2024-23692-exp](https://github.com/Tupler/CVE-2024-23692-exp)
 
 ### CVE-2024-23722 (2024-03-26)
 
@@ -4906,6 +4907,13 @@
 </code>
 
 - [Mav3r1ck0x1/CVE-2023-23583-Reptar-](https://github.com/Mav3r1ck0x1/CVE-2023-23583-Reptar-)
+
+### CVE-2023-23607 (2023-01-20)
+
+<code>erohtar/Dasherr is a dashboard for self-hosted services. In affected versions unrestricted file upload allows any unauthenticated user to execute arbitrary code on the server. The file /www/include/filesave.php allows for any file to uploaded to anywhere. If an attacker uploads a php file they can execute code on the server. This issue has been addressed in version 1.05.00. Users are advised to upgrade. There are no known workarounds for this issue.\n
+</code>
+
+- [Pylonet/CVE-2023-23607](https://github.com/Pylonet/CVE-2023-23607)
 
 ### CVE-2023-23638 (2023-03-08)
 
