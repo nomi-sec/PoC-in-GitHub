@@ -1777,6 +1777,7 @@
 - [varwara/CVE-2024-26229](https://github.com/varwara/CVE-2024-26229)
 - [RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit)
 - [NVISOsecurity/CVE-2024-26229-BOF](https://github.com/NVISOsecurity/CVE-2024-26229-BOF)
+- [team-MineDEV/CVE-2024-26229](https://github.com/team-MineDEV/CVE-2024-26229)
 
 ### CVE-2024-26304 (2024-05-01)
 
