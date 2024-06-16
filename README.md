@@ -693,6 +693,7 @@
 - [Sh0ckFR/CVE-2024-4577](https://github.com/Sh0ckFR/CVE-2024-4577)
 - [gotr00t0day/CVE-2024-4577](https://github.com/gotr00t0day/CVE-2024-4577)
 - [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
+- [AlperenY-cs/CVE-2024-4577](https://github.com/AlperenY-cs/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -2190,6 +2191,13 @@
 </code>
 
 - [absholi7ly/Microsoft-Edge-Information-Disclosure](https://github.com/absholi7ly/Microsoft-Edge-Information-Disclosure)
+
+### CVE-2024-30078 (2024-06-11)
+
+<code>Windows Wi-Fi Driver Remote Code Execution Vulnerability
+</code>
+
+- [alperenugurlu/CVE-2024-30078-](https://github.com/alperenugurlu/CVE-2024-30078-)
 
 ### CVE-2024-30212 (2024-05-28)
 
@@ -42559,6 +42567,7 @@
 - [0xTas/CVE-2012-2982](https://github.com/0xTas/CVE-2012-2982)
 - [LeDucKhiem/CVE-2012-2982](https://github.com/LeDucKhiem/CVE-2012-2982)
 - [CpyRe/CVE-2012-2982](https://github.com/CpyRe/CVE-2012-2982)
+- [Shadow-Spinner/CVE-2012-2982_python](https://github.com/Shadow-Spinner/CVE-2012-2982_python)
 
 ### CVE-2012-3137 (2012-09-21)
 
