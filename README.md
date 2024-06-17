@@ -2199,7 +2199,7 @@
 <code>Windows Wi-Fi Driver Remote Code Execution Vulnerability
 </code>
 
-- [alperenugurlu/CVE-2024-30078-](https://github.com/alperenugurlu/CVE-2024-30078-)
+- [lvyitian/CVE-2024-30078-](https://github.com/lvyitian/CVE-2024-30078-)
 
 ### CVE-2024-30212 (2024-05-28)
 
@@ -2752,6 +2752,13 @@
 </code>
 
 - [optistream/securenvoy-cve-2024-37393](https://github.com/optistream/securenvoy-cve-2024-37393)
+
+### CVE-2024-37889 (2024-06-14)
+
+<code>MyFinances is a web application for managing finances. MyFinances has a way to access other customer invoices while signed in as a user. This method allows an actor to access PII and financial information from another account. The vulnerability is fixed in 0.4.6.
+</code>
+
+- [uname-s/CVE-2024-37889](https://github.com/uname-s/CVE-2024-37889)
 
 ### CVE-2024-38396 (2024-06-16)
 
@@ -7983,6 +7990,7 @@
 - [youmulijiang/evil-winrar](https://github.com/youmulijiang/evil-winrar)
 - [solomon12354/VolleyballSquid-----CVE-2023-38831-and-Bypass-UAC](https://github.com/solomon12354/VolleyballSquid-----CVE-2023-38831-and-Bypass-UAC)
 - [RomainBayle08/CVE-2023-38831](https://github.com/RomainBayle08/CVE-2023-38831)
+- [imbyter/WinRAR_CVE-2023-38831](https://github.com/imbyter/WinRAR_CVE-2023-38831)
 
 ### CVE-2023-38836 (2023-08-21)
 
