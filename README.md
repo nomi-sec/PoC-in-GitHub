@@ -702,6 +702,7 @@
 - [gotr00t0day/CVE-2024-4577](https://github.com/gotr00t0day/CVE-2024-4577)
 - [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
 - [AlperenY-cs/CVE-2024-4577](https://github.com/AlperenY-cs/CVE-2024-4577)
+- [VictorShem/CVE-2024-4577](https://github.com/VictorShem/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -2209,6 +2210,8 @@
 </code>
 
 - [lvyitian/CVE-2024-30078-](https://github.com/lvyitian/CVE-2024-30078-)
+- [N00BS3c/CVE-2024-30078](https://github.com/N00BS3c/CVE-2024-30078)
+- [52by/CVE-2024-30078](https://github.com/52by/CVE-2024-30078)
 
 ### CVE-2024-30212 (2024-05-28)
 
@@ -17941,7 +17944,7 @@
 - [qaisarafridi/cve-2021-3129](https://github.com/qaisarafridi/cve-2021-3129)
 - [Zoo1sondv/CVE-2021-3129](https://github.com/Zoo1sondv/CVE-2021-3129)
 - [miko550/CVE-2021-3129](https://github.com/miko550/CVE-2021-3129)
-- [withmasday/CVE-2021-3129](https://github.com/withmasday/CVE-2021-3129)
+- [wmasday/CVE-2021-3129](https://github.com/wmasday/CVE-2021-3129)
 - [banyaksepuh/Mass-CVE-2021-3129-Scanner](https://github.com/banyaksepuh/Mass-CVE-2021-3129-Scanner)
 - [Axianke/CVE-2021-3129](https://github.com/Axianke/CVE-2021-3129)
 - [cc3305/CVE-2021-3129](https://github.com/cc3305/CVE-2021-3129)
@@ -34948,7 +34951,7 @@
 - [MrAli-Code/CVE-2018-9995_dvr_credentials](https://github.com/MrAli-Code/CVE-2018-9995_dvr_credentials)
 - [likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool](https://github.com/likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool)
 - [b510/CVE-2018-9995-POC](https://github.com/b510/CVE-2018-9995-POC)
-- [withmasday/HTC](https://github.com/withmasday/HTC)
+- [wmasday/HTC](https://github.com/wmasday/HTC)
 - [awesome-consumer-iot/HTC](https://github.com/awesome-consumer-iot/HTC)
 - [Saeed22487/CVE-2018-9995](https://github.com/Saeed22487/CVE-2018-9995)
 - [kienquoc102/CVE-2018-9995-2](https://github.com/kienquoc102/CVE-2018-9995-2)
