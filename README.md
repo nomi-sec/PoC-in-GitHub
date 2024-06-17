@@ -2753,6 +2753,13 @@
 
 - [optistream/securenvoy-cve-2024-37393](https://github.com/optistream/securenvoy-cve-2024-37393)
 
+### CVE-2024-38396 (2024-06-16)
+
+<code>An issue was discovered in iTerm2 3.5.x before 3.5.2. Unfiltered use of an escape sequence to report a window title, in combination with the built-in tmux integration feature (enabled by default), allows an attacker to inject arbitrary code into the terminal, a different vulnerability than CVE-2024-38395.
+</code>
+
+- [vin01/poc-cve-2024-38396](https://github.com/vin01/poc-cve-2024-38396)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
@@ -6174,7 +6181,7 @@
 <code>Trust Wallet Core before 3.1.1, as used in the Trust Wallet browser extension before 0.0.183, allows theft of funds because the entropy is 32 bits, as exploited in the wild in December 2022 and March 2023. This occurs because the mt19937 Mersenne Twister takes a single 32-bit value as an input seed, resulting in only four billion possible mnemonics. The affected versions of the browser extension are 0.0.172 through 0.0.182. To steal funds efficiently, an attacker can identify all Ethereum addresses created since the 0.0.172 release, and check whether they are Ethereum addresses that could have been created by this extension. To respond to the risk, affected users need to upgrade the product version and also move funds to a new wallet address.
 </code>
 
-- [00000rest/py_trustwallet_wasm](https://github.com/00000rest/py_trustwallet_wasm)
+- [oooooorest/py_trustwallet_wasm](https://github.com/oooooorest/py_trustwallet_wasm)
 
 ### CVE-2023-31320 (2023-11-14)
 
