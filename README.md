@@ -114,6 +114,13 @@
 ### CVE-2024-0713
 - [kitodd/CVE-2024-0713](https://github.com/kitodd/CVE-2024-0713)
 
+### CVE-2024-0757 (2024-06-04)
+
+<code>The Insert or Embed Articulate Content into WordPress plugin through 4.3000000023 is not properly filtering which file extensions are allowed to be imported on the server, allowing the uploading of malicious code within zip files
+</code>
+
+- [hunThubSpace/CVE-2024-0757-Exploit](https://github.com/hunThubSpace/CVE-2024-0757-Exploit)
+
 ### CVE-2024-0783 (2024-01-22)
 
 <code>Eine kritische Schwachstelle wurde in Project Worlds Online Admission System 1.0 gefunden. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei documents.php. Durch Manipulieren mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
@@ -632,6 +639,7 @@
 - [clarkio/pdfjs-vuln-demo](https://github.com/clarkio/pdfjs-vuln-demo)
 - [avalahEE/pdfjs_disable_eval](https://github.com/avalahEE/pdfjs_disable_eval)
 - [Zombie-Kaiser/cve-2024-4367-PoC-fixed](https://github.com/Zombie-Kaiser/cve-2024-4367-PoC-fixed)
+- [snyk-labs/pdfjs-vuln-demo](https://github.com/snyk-labs/pdfjs-vuln-demo)
 
 ### CVE-2024-4439 (2024-05-03)
 
@@ -1235,6 +1243,7 @@
 - [WanLiChangChengWanLiChang/CVE-2024-23692-RCE](https://github.com/WanLiChangChengWanLiChang/CVE-2024-23692-RCE)
 - [Mr-r00t11/CVE-2024-23692](https://github.com/Mr-r00t11/CVE-2024-23692)
 - [Tupler/CVE-2024-23692-exp](https://github.com/Tupler/CVE-2024-23692-exp)
+- [BBD-YZZ/CVE-2024-23692](https://github.com/BBD-YZZ/CVE-2024-23692)
 
 ### CVE-2024-23722 (2024-03-26)
 
@@ -2716,6 +2725,13 @@
 </code>
 
 - [DxRvs/vaultize_CVE-2024-36079](https://github.com/DxRvs/vaultize_CVE-2024-36079)
+
+### CVE-2024-36104 (2024-06-04)
+
+<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache OFBiz. This issue affects Apache OFBiz: before 18.12.14.\n\nUsers are recommended to upgrade to version 18.12.14, which fixes the issue.\n\n
+</code>
+
+- [ggfzx/CVE-2024-36104](https://github.com/ggfzx/CVE-2024-36104)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -7990,7 +8006,7 @@
 - [youmulijiang/evil-winrar](https://github.com/youmulijiang/evil-winrar)
 - [solomon12354/VolleyballSquid-----CVE-2023-38831-and-Bypass-UAC](https://github.com/solomon12354/VolleyballSquid-----CVE-2023-38831-and-Bypass-UAC)
 - [RomainBayle08/CVE-2023-38831](https://github.com/RomainBayle08/CVE-2023-38831)
-- [imbyter/WinRAR_CVE-2023-38831](https://github.com/imbyter/WinRAR_CVE-2023-38831)
+- [imbyter/imbyter-WinRAR_CVE-2023-38831](https://github.com/imbyter/imbyter-WinRAR_CVE-2023-38831)
 
 ### CVE-2023-38836 (2023-08-21)
 
