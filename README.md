@@ -1225,6 +1225,7 @@
 - [z3rObyte/CVE-2024-23334-PoC](https://github.com/z3rObyte/CVE-2024-23334-PoC)
 - [jhonnybonny/CVE-2024-23334](https://github.com/jhonnybonny/CVE-2024-23334)
 - [brian-edgar-re/poc-cve-2024-23334](https://github.com/brian-edgar-re/poc-cve-2024-23334)
+- [binaryninja/CVE-2024-23334](https://github.com/binaryninja/CVE-2024-23334)
 
 ### CVE-2024-23652 (2024-01-31)
 
@@ -2210,7 +2211,6 @@
 </code>
 
 - [lvyitian/CVE-2024-30078-](https://github.com/lvyitian/CVE-2024-30078-)
-- [N00BS3c/CVE-2024-30078](https://github.com/N00BS3c/CVE-2024-30078)
 - [52by/CVE-2024-30078](https://github.com/52by/CVE-2024-30078)
 
 ### CVE-2024-30212 (2024-05-28)
@@ -2745,12 +2745,12 @@
 
 ### CVE-2024-36821 (2024-06-11)
 
-<code>Insecure permissions in Linksys Velop WiFi 5 (WHW01v1) 1.1.13.202617 allows attackers to escalate privileges from Guest to root via a directory traversal.
+<code>Insecure permissions in Linksys Velop WiFi 5 (WHW01v1) 1.1.13.202617 allows attackers to escalate privileges from Guest to root.
 </code>
 
 - [IvanGlinkin/CVE-2024-36821](https://github.com/IvanGlinkin/CVE-2024-36821)
 
-### CVE-2024-36837 (-)
+### CVE-2024-36837 (2024-06-05)
 
 <code>SQL Injection vulnerability in CRMEB v.5.2.2 allows a remote attacker to obtain sensitive information via the getProductList function in the ProductController.php file.
 </code>
