@@ -21,6 +21,7 @@
 </code>
 
 - [scs-labrat/android_autorooter](https://github.com/scs-labrat/android_autorooter)
+- [pl4int3xt/cve_2024_0044](https://github.com/pl4int3xt/cve_2024_0044)
 
 ### CVE-2024-0195 (2024-01-02)
 
@@ -731,6 +732,7 @@
 - [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
 - [AlperenY-cs/CVE-2024-4577](https://github.com/AlperenY-cs/CVE-2024-4577)
 - [VictorShem/CVE-2024-4577](https://github.com/VictorShem/CVE-2024-4577)
+- [jakabakos/CVE-2024-4577-PHP-CGI-argument-injection-RCE](https://github.com/jakabakos/CVE-2024-4577-PHP-CGI-argument-injection-RCE)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -2806,6 +2808,13 @@
 ### CVE-2024-37843
 - [gsmith257-cyber/CVE-2024-37843-POC](https://github.com/gsmith257-cyber/CVE-2024-37843-POC)
 
+### CVE-2024-37888 (2024-06-14)
+
+<code>The Open Link is a CKEditor plugin, extending context menu with a possibility to open link in a new tab. The vulnerability allowed to execute JavaScript code by abusing link href attribute. It affects all users using the Open Link plugin at version &lt; **1.0.5**.
+</code>
+
+- [7Ragnarok7/CVE-2024-37888](https://github.com/7Ragnarok7/CVE-2024-37888)
+
 ### CVE-2024-37889 (2024-06-14)
 
 <code>MyFinances is a web application for managing finances. MyFinances has a way to access other customer invoices while signed in as a user. This method allows an actor to access PII and financial information from another account. The vulnerability is fixed in 0.4.6.
@@ -4814,6 +4823,13 @@
 </code>
 
 - [sofianeelhor/CVE-2023-22621-POC](https://github.com/sofianeelhor/CVE-2023-22621-POC)
+
+### CVE-2023-22726 (2023-01-20)
+
+<code>act is a project which allows for local running of github actions. The artifact server that stores artifacts from Github Action runs does not sanitize path inputs. This allows an attacker to download and overwrite arbitrary files on the host from a Github Action. This issue may lead to privilege escalation. The /upload endpoint is vulnerable to path traversal as filepath is user controlled, and ultimately flows into os.Mkdir and os.Open. The /artifact endpoint is vulnerable to path traversal as the path is variable is user controlled, and the specified file is ultimately returned by the server. This has been addressed in version 0.2.40. Users are advised to upgrade. Users unable to upgrade may, during implementation of Open and OpenAtEnd for FS, ensure to use ValidPath() to check against path traversal or clean the user-provided paths manually.
+</code>
+
+- [ProxyPog/POC-CVE-2023-22726](https://github.com/ProxyPog/POC-CVE-2023-22726)
 
 ### CVE-2023-22809 (2023-01-18)
 
@@ -17344,6 +17360,13 @@
 - [Satheesh575555/packages_providers_MediaProvider_AOSP10_r33_CVE-2021-0340](https://github.com/Satheesh575555/packages_providers_MediaProvider_AOSP10_r33_CVE-2021-0340)
 - [nanopathi/packages_providers_MediaProvider_AOSP10_r33_CVE-2021-0340](https://github.com/nanopathi/packages_providers_MediaProvider_AOSP10_r33_CVE-2021-0340)
 
+### CVE-2021-0390 (2021-03-10)
+
+<code>In various methods of WifiNetworkSuggestionsManager.java, there is a possible modification of suggested networks due to a missing permission check. This could lead to local escalation of privilege by a background user on the same device with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-174749461
+</code>
+
+- [uthrasri/frameworks_opt_net_CVE-2021-0390](https://github.com/uthrasri/frameworks_opt_net_CVE-2021-0390)
+
 ### CVE-2021-0391 (2021-03-10)
 
 <code>In onCreate() of ChooseTypeAndAccountActivity.java, there is a possible way to learn the existence of an account, without permissions, due to a tapjacking/overlay attack. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-172841550
@@ -17423,6 +17446,13 @@
 </code>
 
 - [nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0437](https://github.com/nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0437)
+
+### CVE-2021-0466 (2021-06-11)
+
+<code>In startIpClient of ClientModeImpl.java, there is a possible identifier which could be used to track a device. This could lead to remote information disclosure to a proximal attacker, with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-154114734
+</code>
+
+- [uthrasri/frameworks_opt_net_CVE-2021-0466](https://github.com/uthrasri/frameworks_opt_net_CVE-2021-0466)
 
 ### CVE-2021-0472 (2021-06-11)
 
@@ -44076,6 +44106,7 @@
 
 - [rafaelh/CVE-2000-0649](https://github.com/rafaelh/CVE-2000-0649)
 - [stevenvegar/cve-2000-0649](https://github.com/stevenvegar/cve-2000-0649)
+- [Downgraderz/PoC-CVE-2000-0649](https://github.com/Downgraderz/PoC-CVE-2000-0649)
 
 ### CVE-2000-0979 (2001-01-22)
 
