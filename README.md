@@ -1246,6 +1246,7 @@
 - [Mr-r00t11/CVE-2024-23692](https://github.com/Mr-r00t11/CVE-2024-23692)
 - [Tupler/CVE-2024-23692-exp](https://github.com/Tupler/CVE-2024-23692-exp)
 - [BBD-YZZ/CVE-2024-23692](https://github.com/BBD-YZZ/CVE-2024-23692)
+- [0x20c/CVE-2024-23692-EXP](https://github.com/0x20c/CVE-2024-23692-EXP)
 
 ### CVE-2024-23722 (2024-03-26)
 
@@ -2771,6 +2772,9 @@
 </code>
 
 - [optistream/securenvoy-cve-2024-37393](https://github.com/optistream/securenvoy-cve-2024-37393)
+
+### CVE-2024-37843
+- [gsmith257-cyber/CVE-2024-37843-POC](https://github.com/gsmith257-cyber/CVE-2024-37843-POC)
 
 ### CVE-2024-37889 (2024-06-14)
 
