@@ -15,6 +15,13 @@
 
 - [41yn14/CVE-2024-0039-Exploit](https://github.com/41yn14/CVE-2024-0039-Exploit)
 
+### CVE-2024-0044 (2024-03-11)
+
+<code>In createSessionInternal of PackageInstallerService.java, there is a possible run-as any app due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.\n\n
+</code>
+
+- [scs-labrat/android_autorooter](https://github.com/scs-labrat/android_autorooter)
+
 ### CVE-2024-0195 (2024-01-02)
 
 <code>Es wurde eine Schwachstelle in spider-flow 0.4.3 gefunden. Sie wurde als kritisch eingestuft. Es betrifft die Funktion FunctionService.saveFunction der Datei src/main/java/org/spiderflow/controller/FunctionController.java. Durch Manipulieren mit unbekannten Daten kann eine code injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -331,6 +338,13 @@
 
 - [uthrasri/CVE-2024-2193](https://github.com/uthrasri/CVE-2024-2193)
 
+### CVE-2024-2257 (2024-05-10)
+
+<code>This vulnerability exists in Digisol Router (DG-GR1321: Hardware version 3.7L;  Firmware version : v3.2.02) due to improper implementation of password policies. An attacker with physical access could exploit this by creating password that do not adhere to the defined security standards/policy on the vulnerable system.\n\nSuccessful exploitation of this vulnerability could allow the attacker to expose the router to potential security threats.
+</code>
+
+- [Redfox-Secuirty/Digisol-DG-GR1321-s-Password-Policy-Bypass-CVE-2024-2257](https://github.com/Redfox-Secuirty/Digisol-DG-GR1321-s-Password-Policy-Bypass-CVE-2024-2257)
+
 ### CVE-2024-2389 (2024-04-02)
 
 <code>In Flowmon versions prior to 11.1.14 and 12.3.5, an operating system command injection vulnerability has been identified.  An unauthenticated user can gain entry to the system via the Flowmon management interface, allowing for the execution of arbitrary system commands.\n\n
@@ -592,6 +606,20 @@
 - [jakabakos/CVE-2024-4040-CrushFTP-File-Read-vulnerability](https://github.com/jakabakos/CVE-2024-4040-CrushFTP-File-Read-vulnerability)
 - [gotr00t0day/CVE-2024-4040](https://github.com/gotr00t0day/CVE-2024-4040)
 - [1ncendium/CVE-2024-4040](https://github.com/1ncendium/CVE-2024-4040)
+
+### CVE-2024-4231 (2024-05-10)
+
+<code>This vulnerability exists in Digisol Router (DG-GR1321: Hardware version 3.7L;  Firmware version : v3.2.02) due to presence of root terminal access on a serial interface without proper access control. An attacker with physical access could exploit this by identifying UART pins and accessing the root shell on the vulnerable system.\n\nSuccessful exploitation of this vulnerability could allow the attacker to access the sensitive information on the targeted system.
+</code>
+
+- [Redfox-Secuirty/Digisol-DG-GR1321-s-Improper-Access-Control-CVE-2024-4231](https://github.com/Redfox-Secuirty/Digisol-DG-GR1321-s-Improper-Access-Control-CVE-2024-4231)
+
+### CVE-2024-4232 (2024-05-10)
+
+<code>This vulnerability exists in Digisol Router (DG-GR1321: Hardware version 3.7L;  Firmware version : v3.2.02) due to lack of encryption or hashing in storing of passwords within the router's firmware/ database. An attacker with physical access could exploit this by extracting the firmware and reverse engineer the binary data to access the plaintext passwords on the vulnerable system.\n\nSuccessful exploitation of this vulnerability could allow the attacker to gain unauthorized access to the targeted system.
+</code>
+
+- [Redfox-Secuirty/Digisol-DG-GR1321-s-Password-Storage-in-Plaintext-CVE-2024-4232](https://github.com/Redfox-Secuirty/Digisol-DG-GR1321-s-Password-Storage-in-Plaintext-CVE-2024-4232)
 
 ### CVE-2024-4295 (2024-06-05)
 
@@ -945,6 +973,7 @@
 - [dshabani96/CVE-2024-21413](https://github.com/dshabani96/CVE-2024-21413)
 - [X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit](https://github.com/X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit)
 - [th3Hellion/CVE-2024-21413](https://github.com/th3Hellion/CVE-2024-21413)
+- [ShubhamKanhere307/CVE-2024-21413](https://github.com/ShubhamKanhere307/CVE-2024-21413)
 
 ### CVE-2024-21626 (2024-01-31)
 
@@ -2160,6 +2189,7 @@
 </code>
 
 - [horizon3ai/CVE-2024-29824](https://github.com/horizon3ai/CVE-2024-29824)
+- [R4be1/CVE-2024-29824](https://github.com/R4be1/CVE-2024-29824)
 
 ### CVE-2024-29849 (2024-05-22)
 
@@ -17321,6 +17351,13 @@
 
 - [nanopathi/framework_base_AOSP10_r33_CVE-2021-0391](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0391)
 
+### CVE-2021-0392 (2021-03-10)
+
+<code>In main of main.cpp, there is a possible memory corruption due to a double free. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-9Android ID: A-175124730
+</code>
+
+- [uthrasri/System_Connectivity_Wificond_CVE-2021-0392](https://github.com/uthrasri/System_Connectivity_Wificond_CVE-2021-0392)
+
 ### CVE-2021-0393 (2021-03-10)
 
 <code>In Scanner::LiteralBuffer::NewCapacity of scanner.cc, there is a possible out of bounds write due to an integer overflow. This could lead to remote code execution if an attacker can supply a malicious PAC file, with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-168041375
@@ -24044,6 +24081,14 @@
 
 - [Trinadh465/external_libexif_AOSP10_r33_CVE-2020-0198](https://github.com/Trinadh465/external_libexif_AOSP10_r33_CVE-2020-0198)
 
+### CVE-2020-0201 (2020-06-11)
+
+<code>In showSecurityFields of WifiConfigController.java there is a possible credential leak due to a confused deputy. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-143601727
+</code>
+
+- [uthrasri/Packages_app_settings_CVE-2020-0201](https://github.com/uthrasri/Packages_app_settings_CVE-2020-0201)
+- [Trinadh465/packages_apps_Settings_CVE-2020-0201](https://github.com/Trinadh465/packages_apps_Settings_CVE-2020-0201)
+
 ### CVE-2020-0203 (2020-06-11)
 
 <code>In freeIsolatedUidLocked of ProcessList.java, there is a possible UID reuse due to improper cleanup. This could lead to local escalation of privilege between constrained processes with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-146313311
@@ -30646,6 +30691,13 @@
 
 - [ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792](https://github.com/ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792)
 
+### CVE-2019-8805 (2019-12-18)
+
+<code>A validation issue existed in the entitlement verification. This issue was addressed with improved validation of the process entitlement. This issue is fixed in macOS Catalina 10.15.1. An application may be able to execute arbitrary code with system privileges.
+</code>
+
+- [securelayer7/CVE-2019-8805](https://github.com/securelayer7/CVE-2019-8805)
+
 ### CVE-2019-8852 (2020-10-27)
 
 <code>A memory corruption issue was addressed with improved memory handling. This issue is fixed in macOS Catalina 10.15.2, Security Update 2019-002 Mojave, and Security Update 2019-007 High Sierra. An application may be able to execute arbitrary code with kernel privileges.
@@ -32447,6 +32499,13 @@
 </code>
 
 - [hessandrew/CVE-2019-17124](https://github.com/hessandrew/CVE-2019-17124)
+
+### CVE-2019-17133 (2019-10-04)
+
+<code>In the Linux kernel through 5.3.2, cfg80211_mgd_wext_giwessid in net/wireless/wext-sme.c does not reject a long SSID IE, leading to a Buffer Overflow.
+</code>
+
+- [krnidhi/linux_4.19.72_CVE-2019-17133](https://github.com/krnidhi/linux_4.19.72_CVE-2019-17133)
 
 ### CVE-2019-17137 (2020-02-10)
 
@@ -38025,7 +38084,7 @@
 - [akr3ch/CVE-2017-9841](https://github.com/akr3ch/CVE-2017-9841)
 - [p1ckzi/CVE-2017-9841](https://github.com/p1ckzi/CVE-2017-9841)
 - [jax7sec/CVE-2017-9841](https://github.com/jax7sec/CVE-2017-9841)
-- [yoloskr/CVE-2017-9841-Scan](https://github.com/yoloskr/CVE-2017-9841-Scan)
+- [omgdomgd/CVE-2017-9841-Scan](https://github.com/omgdomgd/CVE-2017-9841-Scan)
 - [mileticluka1/eval-stdin](https://github.com/mileticluka1/eval-stdin)
 - [Jhonsonwannaa/CVE-2017-9841-](https://github.com/Jhonsonwannaa/CVE-2017-9841-)
 - [MadExploits/PHPunit-Exploit](https://github.com/MadExploits/PHPunit-Exploit)
