@@ -733,6 +733,7 @@
 - [AlperenY-cs/CVE-2024-4577](https://github.com/AlperenY-cs/CVE-2024-4577)
 - [VictorShem/CVE-2024-4577](https://github.com/VictorShem/CVE-2024-4577)
 - [jakabakos/CVE-2024-4577-PHP-CGI-argument-injection-RCE](https://github.com/jakabakos/CVE-2024-4577-PHP-CGI-argument-injection-RCE)
+- [amandineVdw/CVE-2024-4577](https://github.com/amandineVdw/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -2086,6 +2087,9 @@
 
 - [YongYe-Security/CVE-2024-28255](https://github.com/YongYe-Security/CVE-2024-28255)
 
+### CVE-2024-28397
+- [Marven11/CVE-2024-28397-js2py-Sandbox-Escape](https://github.com/Marven11/CVE-2024-28397-js2py-Sandbox-Escape)
+
 ### CVE-2024-28515 (2024-04-03)
 
 <code>Buffer Overflow vulnerability in CSAPP_Lab CSAPP Lab3 15-213 Fall 20xx allows a remote attacker to execute arbitrary code via the lab3 of csapp,lab3/buflab-update.pl component.
@@ -2316,13 +2320,6 @@
 </code>
 
 - [efekaanakkar/CVE-2024-30998](https://github.com/efekaanakkar/CVE-2024-30998)
-
-### CVE-2024-31025 (2024-04-04)
-
-<code>SQL Injection vulnerability in ECshop 4.x allows an attacker to obtain sensitive information via the file/article.php component.
-</code>
-
-- [mortal-sec/CVE-2024-31025](https://github.com/mortal-sec/CVE-2024-31025)
 
 ### CVE-2024-31210 (2024-04-04)
 
@@ -34290,6 +34287,7 @@
 - [jftierno/-CVE-2018-6574](https://github.com/jftierno/-CVE-2018-6574)
 - [faiqu3/cve-2018-6574](https://github.com/faiqu3/cve-2018-6574)
 - [Dannners/CVE-2018-6574-go-get-RCE](https://github.com/Dannners/CVE-2018-6574-go-get-RCE)
+- [bme2003/CVE-2018-6574](https://github.com/bme2003/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
