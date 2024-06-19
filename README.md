@@ -2664,6 +2664,9 @@
 
 - [Voorivex/CVE-2024-34351](https://github.com/Voorivex/CVE-2024-34351)
 
+### CVE-2024-34452
+- [surajhacx/CVE-2024-34452](https://github.com/surajhacx/CVE-2024-34452)
+
 ### CVE-2024-34469 (2024-05-04)
 
 <code>Rukovoditel before 3.5.3 allows XSS via user_photo to index.php?module=users/registration&amp;action=save.
@@ -9848,6 +9851,13 @@
 
 - [nitipoom-jar/CVE-2023-47489](https://github.com/nitipoom-jar/CVE-2023-47489)
 
+### CVE-2023-47504 (2024-04-24)
+
+<code>Improper Authentication vulnerability in Elementor Elementor Website Builder allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Elementor Website Builder: from n/a through 3.16.4.\n\n
+</code>
+
+- [davidxbors/CVE-2023-47504-POC](https://github.com/davidxbors/CVE-2023-47504-POC)
+
 ### CVE-2023-47529 (2023-11-23)
 
 <code>Exposure of Sensitive Information to an Unauthorized Actor vulnerability in ThemeIsle Cloud Templates &amp; Patterns collection.This issue affects Cloud Templates &amp; Patterns collection: from n/a through 1.2.2.\n\n
@@ -12456,6 +12466,7 @@
 - [qq87234770/CVE-2022-22947](https://github.com/qq87234770/CVE-2022-22947)
 - [Zh0um1/CVE-2022-22947](https://github.com/Zh0um1/CVE-2022-22947)
 - [Le1a/CVE-2022-22947](https://github.com/Le1a/CVE-2022-22947)
+- [cc3305/CVE-2022-22947](https://github.com/cc3305/CVE-2022-22947)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -17383,7 +17394,7 @@
 <code>In various methods of WifiNetworkSuggestionsManager.java, there is a possible modification of suggested networks due to a missing permission check. This could lead to local escalation of privilege by a background user on the same device with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-174749461
 </code>
 
-- [uthrasri/frameworks_opt_net_CVE-2021-0390](https://github.com/uthrasri/frameworks_opt_net_CVE-2021-0390)
+- [uthrasri/frameworks_opt_net_wifi_CVE-2021-0390](https://github.com/uthrasri/frameworks_opt_net_wifi_CVE-2021-0390)
 
 ### CVE-2021-0391 (2021-03-10)
 
@@ -17470,7 +17481,7 @@
 <code>In startIpClient of ClientModeImpl.java, there is a possible identifier which could be used to track a device. This could lead to remote information disclosure to a proximal attacker, with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-154114734
 </code>
 
-- [uthrasri/frameworks_opt_net_CVE-2021-0466](https://github.com/uthrasri/frameworks_opt_net_CVE-2021-0466)
+- [uthrasri/frameworks_opt_net_wifi_CVE-2021-0466](https://github.com/uthrasri/frameworks_opt_net_wifi_CVE-2021-0466)
 
 ### CVE-2021-0472 (2021-06-11)
 
@@ -35203,7 +35214,7 @@
 - [blacknbunny/CVE-2018-10933](https://github.com/blacknbunny/CVE-2018-10933)
 - [hook-s3c/CVE-2018-10933](https://github.com/hook-s3c/CVE-2018-10933)
 - [kn6869610/CVE-2018-10933](https://github.com/kn6869610/CVE-2018-10933)
-- [gojhonny/libssh-scanner](https://github.com/gojhonny/libssh-scanner)
+- [jobroche/libssh-scanner](https://github.com/jobroche/libssh-scanner)
 - [likescam/CVE-2018-10933_ssh](https://github.com/likescam/CVE-2018-10933_ssh)
 - [likescam/CVE-2018-10933-libSSH-Authentication-Bypass](https://github.com/likescam/CVE-2018-10933-libSSH-Authentication-Bypass)
 - [marco-lancini/hunt-for-cve-2018-10933](https://github.com/marco-lancini/hunt-for-cve-2018-10933)
