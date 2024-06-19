@@ -2225,6 +2225,14 @@
 - [ticofookfook/CVE-2024-29895.py](https://github.com/ticofookfook/CVE-2024-29895.py)
 - [Rubioo02/CVE-2024-29895](https://github.com/Rubioo02/CVE-2024-29895)
 
+### CVE-2024-29973 (2024-06-04)
+
+<code>** UNSUPPORTED WHEN ASSIGNED **\nThe command injection vulnerability in the “setCookie” parameter in Zyxel NAS326 firmware versions before V5.21(AAZF.17)C0 and NAS542 firmware versions before V5.21(ABAG.14)C0 could allow an unauthenticated attacker to execute some operating system (OS) commands by sending a crafted HTTP POST request.
+</code>
+
+- [momika233/CVE-2024-29973](https://github.com/momika233/CVE-2024-29973)
+- [bigb0x/CVE-2024-29973](https://github.com/bigb0x/CVE-2024-29973)
+
 ### CVE-2024-29988 (2024-04-09)
 
 <code>SmartScreen Prompt Security Feature Bypass Vulnerability
@@ -2669,6 +2677,7 @@
 </code>
 
 - [osvaldotenorio/CVE-2024-34470](https://github.com/osvaldotenorio/CVE-2024-34470)
+- [bigb0x/CVE-2024-34470](https://github.com/bigb0x/CVE-2024-34470)
 
 ### CVE-2024-34471 (2024-05-06)
 
@@ -2806,6 +2815,13 @@
 </code>
 
 - [optistream/securenvoy-cve-2024-37393](https://github.com/optistream/securenvoy-cve-2024-37393)
+
+### CVE-2024-37791 (2024-06-18)
+
+<code>DuxCMS3 v3.1.3 was discovered to contain a SQL injection vulnerability via the keyword parameter at /article/Content/index?class_id.
+</code>
+
+- [czheisenberg/CVE-2024-37791](https://github.com/czheisenberg/CVE-2024-37791)
 
 ### CVE-2024-37843
 - [gsmith257-cyber/CVE-2024-37843-POC](https://github.com/gsmith257-cyber/CVE-2024-37843-POC)
@@ -25126,6 +25142,13 @@
 
 - [tuo4n8/CVE-2020-2950](https://github.com/tuo4n8/CVE-2020-2950)
 
+### CVE-2020-2969 (2020-07-15)
+
+<code>Vulnerability in the Data Pump component of Oracle Database Server. Supported versions that are affected are 11.2.0.4, 12.1.0.2, 12.2.0.1, 18c and 19c. Difficult to exploit vulnerability allows high privileged attacker having DBA role account privilege with network access via Oracle Net to compromise Data Pump. Successful attacks of this vulnerability can result in takeover of Data Pump. CVSS 3.1 Base Score 6.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [emad-almousa/CVE-2020-2969](https://github.com/emad-almousa/CVE-2020-2969)
+
 ### CVE-2020-2978 (2020-07-15)
 
 <code>Vulnerability in the Oracle Database - Enterprise Edition component of Oracle Database Server. Supported versions that are affected are 12.1.0.2, 12.2.0.1, 18c and 19c. Easily exploitable vulnerability allows high privileged attacker having DBA role account privilege with network access via Oracle Net to compromise Oracle Database - Enterprise Edition. While the vulnerability is in Oracle Database - Enterprise Edition, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Database - Enterprise Edition accessible data. CVSS 3.1 Base Score 4.1 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:L/A:N).
@@ -32454,6 +32477,13 @@
 
 - [nanabingies/CVE-2019-16724](https://github.com/nanabingies/CVE-2019-16724)
 
+### CVE-2019-16746 (2019-09-24)
+
+<code>An issue was discovered in net/wireless/nl80211.c in the Linux kernel through 5.2.17. It does not check the length of variable elements in a beacon head, leading to a buffer overflow.
+</code>
+
+- [uthrasri/CVE-2019-16746](https://github.com/uthrasri/CVE-2019-16746)
+
 ### CVE-2019-16759 (2019-09-24)
 
 <code>vBulletin 5.x through 5.5.4 allows remote command execution via the widgetConfig[code] parameter in an ajax/render/widget_php routestring request.
@@ -32744,6 +32774,13 @@
 - [Tamagaft/CVE-2019-17662](https://github.com/Tamagaft/CVE-2019-17662)
 - [bl4ck574r/CVE-2019-17662](https://github.com/bl4ck574r/CVE-2019-17662)
 - [thomas-osgood/CVE-2019-17662](https://github.com/thomas-osgood/CVE-2019-17662)
+
+### CVE-2019-17666 (2019-10-17)
+
+<code>rtl_p2p_noa_ie in drivers/net/wireless/realtek/rtlwifi/ps.c in the Linux kernel through 5.3.6 lacks a certain upper-bound check, leading to a buffer overflow.
+</code>
+
+- [uthrasri/CVE-2019-17666](https://github.com/uthrasri/CVE-2019-17666)
 
 ### CVE-2019-17671 (2019-10-17)
 
