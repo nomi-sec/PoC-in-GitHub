@@ -1060,7 +1060,11 @@
 - [h4x0r-dz/CVE-2024-21893.py](https://github.com/h4x0r-dz/CVE-2024-21893.py)
 - [Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887)
 
-### CVE-2024-22002
+### CVE-2024-22002 (2024-06-18)
+
+<code>CORSAIR iCUE 5.9.105 with iCUE Murals on Windows allows unprivileged users to insert DLL files in the cuepkg-1.2.6 subdirectory of the installation directory.
+</code>
+
 - [0xkickit/iCUE_DllHijack_LPE-CVE-2024-22002](https://github.com/0xkickit/iCUE_DllHijack_LPE-CVE-2024-22002)
 
 ### CVE-2024-22024 (2024-02-13)
@@ -2245,6 +2249,7 @@
 
 - [lvyitian/CVE-2024-30078-](https://github.com/lvyitian/CVE-2024-30078-)
 - [52by/CVE-2024-30078](https://github.com/52by/CVE-2024-30078)
+- [nkontopoul/checkwifivulnerability](https://github.com/nkontopoul/checkwifivulnerability)
 
 ### CVE-2024-30212 (2024-05-28)
 
