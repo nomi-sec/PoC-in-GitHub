@@ -669,6 +669,7 @@
 - [avalahEE/pdfjs_disable_eval](https://github.com/avalahEE/pdfjs_disable_eval)
 - [Zombie-Kaiser/cve-2024-4367-PoC-fixed](https://github.com/Zombie-Kaiser/cve-2024-4367-PoC-fixed)
 - [snyk-labs/pdfjs-vuln-demo](https://github.com/snyk-labs/pdfjs-vuln-demo)
+- [UnHackerEnCapital/PDFernetRemotelo](https://github.com/UnHackerEnCapital/PDFernetRemotelo)
 
 ### CVE-2024-4439 (2024-05-03)
 
@@ -2262,6 +2263,7 @@
 - [lvyitian/CVE-2024-30078-](https://github.com/lvyitian/CVE-2024-30078-)
 - [52by/CVE-2024-30078](https://github.com/52by/CVE-2024-30078)
 - [nkontopoul/checkwifivulnerability](https://github.com/nkontopoul/checkwifivulnerability)
+- [sbroker-dev/cve-2024-30078](https://github.com/sbroker-dev/cve-2024-30078)
 
 ### CVE-2024-30212 (2024-05-28)
 
@@ -8081,6 +8083,7 @@
 - [solomon12354/VolleyballSquid-----CVE-2023-38831-and-Bypass-UAC](https://github.com/solomon12354/VolleyballSquid-----CVE-2023-38831-and-Bypass-UAC)
 - [RomainBayle08/CVE-2023-38831](https://github.com/RomainBayle08/CVE-2023-38831)
 - [imbyter/imbyter-WinRAR_CVE-2023-38831](https://github.com/imbyter/imbyter-WinRAR_CVE-2023-38831)
+- [UnHackerEnCapital/PDFernetRemotelo](https://github.com/UnHackerEnCapital/PDFernetRemotelo)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -21358,6 +21361,13 @@
 
 - [efchatz/easy-exploits](https://github.com/efchatz/easy-exploits)
 
+### CVE-2021-37975 (2021-10-08)
+
+<code>Use after free in V8 in Google Chrome prior to 94.0.4606.71 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
+- [ssaroussi/CVE-2021-37975](https://github.com/ssaroussi/CVE-2021-37975)
+
 ### CVE-2021-37980 (2021-11-02)
 
 <code>Inappropriate implementation in Sandbox in Google Chrome prior to 94.0.4606.81 allowed a remote attacker to potentially bypass site isolation via Windows.
@@ -22915,6 +22925,7 @@
 - [ticofookfook/CVE-2021-43798](https://github.com/ticofookfook/CVE-2021-43798)
 - [xchg-rax-rax/CVE-2021-43798](https://github.com/xchg-rax-rax/CVE-2021-43798)
 - [topyagyuu/CVE-2021-43798](https://github.com/topyagyuu/CVE-2021-43798)
+- [MalekAlthubiany/CVE-2021-43798](https://github.com/MalekAlthubiany/CVE-2021-43798)
 
 ### CVE-2021-43799 (2022-01-25)
 
