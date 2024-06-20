@@ -2028,6 +2028,13 @@
 
 - [R00tkitSMM/CVE-2024-27804](https://github.com/R00tkitSMM/CVE-2024-27804)
 
+### CVE-2024-27815 (2024-06-10)
+
+<code>An out-of-bounds write issue was addressed with improved input validation. This issue is fixed in tvOS 17.5, visionOS 1.2, iOS 17.5 and iPadOS 17.5, watchOS 10.5, macOS Sonoma 14.5. An app may be able to execute arbitrary code with kernel privileges.
+</code>
+
+- [jprx/CVE-2024-27815](https://github.com/jprx/CVE-2024-27815)
+
 ### CVE-2024-27956 (2024-03-21)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ValvePress Automatic allows SQL Injection.This issue affects Automatic: from n/a through 3.92.0.\n\n
@@ -2101,7 +2108,11 @@
 
 - [YongYe-Security/CVE-2024-28255](https://github.com/YongYe-Security/CVE-2024-28255)
 
-### CVE-2024-28397
+### CVE-2024-28397 (2024-06-20)
+
+<code>An issue in the component js2py.disable_pyimport() of js2py up to v0.74 allows attackers to execute arbitrary code via a crafted API call.
+</code>
+
 - [Marven11/CVE-2024-28397-js2py-Sandbox-Escape](https://github.com/Marven11/CVE-2024-28397-js2py-Sandbox-Escape)
 
 ### CVE-2024-28515 (2024-04-03)
@@ -2177,6 +2188,13 @@
 </code>
 
 - [awjkjflkwlekfdjs/CVE-2024-29272](https://github.com/awjkjflkwlekfdjs/CVE-2024-29272)
+
+### CVE-2024-29275 (2024-03-22)
+
+<code>SQL injection vulnerability in SeaCMS version 12.9, allows remote unauthenticated attackers to execute arbitrary code and obtain sensitive information via the id parameter in class.php.
+</code>
+
+- [Cyphercoda/nuclei_template](https://github.com/Cyphercoda/nuclei_template)
 
 ### CVE-2024-29278 (2024-03-30)
 
@@ -2705,6 +2723,7 @@
 - [osvaldotenorio/CVE-2024-34470](https://github.com/osvaldotenorio/CVE-2024-34470)
 - [bigb0x/CVE-2024-34470](https://github.com/bigb0x/CVE-2024-34470)
 - [Cappricio-Securities/CVE-2024-34470](https://github.com/Cappricio-Securities/CVE-2024-34470)
+- [Mr-r00t11/CVE-2024-34470](https://github.com/Mr-r00t11/CVE-2024-34470)
 
 ### CVE-2024-34471 (2024-05-06)
 
@@ -3697,6 +3716,7 @@
 - [passwa11/CVE-2023-4357-APT-Style-exploitation](https://github.com/passwa11/CVE-2023-4357-APT-Style-exploitation)
 - [sunu11/chrome-CVE-2023-4357](https://github.com/sunu11/chrome-CVE-2023-4357)
 - [WinnieZy/CVE-2023-4357](https://github.com/WinnieZy/CVE-2023-4357)
+- [CamillaFranceschini/CVE-2023-4357](https://github.com/CamillaFranceschini/CVE-2023-4357)
 
 ### CVE-2023-4427 (2023-08-22)
 
