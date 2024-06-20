@@ -818,6 +818,13 @@
 
 - [Instructor-Team8/CVE-2024-20291-POC](https://github.com/Instructor-Team8/CVE-2024-20291-POC)
 
+### CVE-2024-20338 (2024-03-06)
+
+<code>A vulnerability in the ISE Posture (System Scan) module of Cisco Secure Client for Linux could allow an authenticated, local attacker to elevate privileges on an affected device.\r\n\r This vulnerability is due to the use of an uncontrolled search path element. An attacker could exploit this vulnerability by copying a malicious library file to a specific directory in the filesystem and persuading an administrator to restart a specific process. A successful exploit could allow the attacker to execute arbitrary code on an affected device with root privileges.
+</code>
+
+- [annmuor/CVE-2024-20338](https://github.com/annmuor/CVE-2024-20338)
+
 ### CVE-2024-20356 (2024-04-24)
 
 <code>A vulnerability in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote attacker with Administrator-level privileges to perform command injection attacks on an affected system and elevate their privileges to root. This vulnerability is due to insufficient user input validation. An attacker could exploit this vulnerability by sending crafted commands to the web-based management interface of the affected software. A successful exploit could allow the attacker to elevate their privileges to root.
@@ -1594,6 +1601,7 @@
 - [DemonPandaz2763/CVE-2024-24590](https://github.com/DemonPandaz2763/CVE-2024-24590)
 - [xffsec/CVE-2024-24590-ClearML-RCE-Exploit](https://github.com/xffsec/CVE-2024-24590-ClearML-RCE-Exploit)
 - [diegogarciayala/CVE-2024-24590-ClearML-RCE-CMD-POC](https://github.com/diegogarciayala/CVE-2024-24590-ClearML-RCE-CMD-POC)
+- [junnythemarksman/CVE-2024-24590](https://github.com/junnythemarksman/CVE-2024-24590)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -2231,6 +2239,13 @@
 - [ticofookfook/CVE-2024-29895.py](https://github.com/ticofookfook/CVE-2024-29895.py)
 - [Rubioo02/CVE-2024-29895](https://github.com/Rubioo02/CVE-2024-29895)
 
+### CVE-2024-29972 (2024-06-04)
+
+<code>** UNSUPPORTED WHEN ASSIGNED **\nThe command injection vulnerability in the CGI program &quot;remote_help-cgi&quot; in Zyxel NAS326 firmware versions before V5.21(AAZF.17)C0 and NAS542 firmware versions before V5.21(ABAG.14)C0 could allow an unauthenticated attacker to execute some operating system (OS) commands by sending a crafted HTTP POST request.
+</code>
+
+- [WanLiChangChengWanLiChang/CVE-2024-29972](https://github.com/WanLiChangChengWanLiChang/CVE-2024-29972)
+
 ### CVE-2024-29973 (2024-06-04)
 
 <code>** UNSUPPORTED WHEN ASSIGNED **\nThe command injection vulnerability in the “setCookie” parameter in Zyxel NAS326 firmware versions before V5.21(AAZF.17)C0 and NAS542 firmware versions before V5.21(ABAG.14)C0 could allow an unauthenticated attacker to execute some operating system (OS) commands by sending a crafted HTTP POST request.
@@ -2269,7 +2284,6 @@
 - [lvyitian/CVE-2024-30078-](https://github.com/lvyitian/CVE-2024-30078-)
 - [52by/CVE-2024-30078](https://github.com/52by/CVE-2024-30078)
 - [nkontopoul/checkwifivulnerability](https://github.com/nkontopoul/checkwifivulnerability)
-- [sbroker-dev/cve-2024-30078](https://github.com/sbroker-dev/cve-2024-30078)
 
 ### CVE-2024-30212 (2024-05-28)
 
@@ -2462,6 +2476,7 @@
 - [AD-Appledog/wakuwaku](https://github.com/AD-Appledog/wakuwaku)
 - [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
 - [Basyaact/CVE-2024-32002-PoC_Chinese](https://github.com/Basyaact/CVE-2024-32002-PoC_Chinese)
+- [bonnettheo/CVE-2024-32002](https://github.com/bonnettheo/CVE-2024-32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -2799,6 +2814,13 @@
 
 - [kva55/CVE-2024-36416](https://github.com/kva55/CVE-2024-36416)
 
+### CVE-2024-36527 (2024-06-17)
+
+<code>puppeteer-renderer v.3.2.0 and before is vulnerable to Directory Traversal. Attackers can exploit the URL parameter using the file protocol to read sensitive information from the server.
+</code>
+
+- [bigb0x/CVE-2024-36527](https://github.com/bigb0x/CVE-2024-36527)
+
 ### CVE-2024-36821 (2024-06-11)
 
 <code>Insecure permissions in Linksys Velop WiFi 5 (WHW01v1) 1.1.13.202617 allows attackers to escalate privileges from Guest to root.
@@ -2871,6 +2893,9 @@
 
 ### CVE-2024-206565
 - [sanderswannalive/sumkaluissessss](https://github.com/sanderswannalive/sumkaluissessss)
+
+### CVE-2024-320002
+- [bonnettheo/hook](https://github.com/bonnettheo/hook)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -5077,7 +5102,7 @@
 - [yTxZx/CVE-2023-23752](https://github.com/yTxZx/CVE-2023-23752)
 - [AlissonFaoli/CVE-2023-23752](https://github.com/AlissonFaoli/CVE-2023-23752)
 - [Pushkarup/CVE-2023-23752](https://github.com/Pushkarup/CVE-2023-23752)
-- [cybernetwiz/CVE-2023-23752](https://github.com/cybernetwiz/CVE-2023-23752)
+- [blacks1ph0n/CVE-2023-23752](https://github.com/blacks1ph0n/CVE-2023-23752)
 - [Youns92/Joomla-v4.2.8---CVE-2023-23752](https://github.com/Youns92/Joomla-v4.2.8---CVE-2023-23752)
 - [Ly0kha/Joomla-CVE-2023-23752-Exploit-Script](https://github.com/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script)
 - [r3dston3/CVE-2023-23752](https://github.com/r3dston3/CVE-2023-23752)
@@ -30419,6 +30444,13 @@
 
 - [AlphabugX/CVE-2019-6249_Hucart-cms](https://github.com/AlphabugX/CVE-2019-6249_Hucart-cms)
 
+### CVE-2019-6250 (2019-01-13)
+
+<code>A pointer overflow, with code execution, was discovered in ZeroMQ libzmq (aka 0MQ) 4.2.x and 4.3.x before 4.3.1. A v2_decoder.cpp zmq::v2_decoder_t::size_ready integer overflow allows an authenticated attacker to overwrite an arbitrary amount of bytes beyond the bounds of a buffer, which can be leveraged to run arbitrary code on the target system. The memory layout allows the attacker to inject OS commands into a data structure located immediately after the problematic buffer (i.e., it is not necessary to use a typical buffer-overflow exploitation technique that changes the flow of control).
+</code>
+
+- [AkashicYiTai/CVE-2019-6250-libzmq](https://github.com/AkashicYiTai/CVE-2019-6250-libzmq)
+
 ### CVE-2019-6260 (2019-01-22)
 
 <code>The ASPEED ast2400 and ast2500 Baseband Management Controller (BMC) hardware and firmware implement Advanced High-performance Bus (AHB) bridges, which allow arbitrary read and write access to the BMC's physical address space from the host (or from the network in unusual cases where the BMC console uart is attached to a serial concentrator). This CVE applies to the specific cases of iLPC2AHB bridge Pt I, iLPC2AHB bridge Pt II, PCIe VGA P2A bridge, DMA from/to arbitrary BMC memory via X-DMA, UART-based SoC Debug interface, LPC2AHB bridge, PCIe BMC P2A bridge, and Watchdog setup.
@@ -31865,6 +31897,7 @@
 - [GgKendall/secureCodingDemo](https://github.com/GgKendall/secureCodingDemo)
 - [asepsaepdin/CVE-2019-13272](https://github.com/asepsaepdin/CVE-2019-13272)
 - [MDS1GNAL/ptrace_scope-CVE-2019-13272-privilege-escalation](https://github.com/MDS1GNAL/ptrace_scope-CVE-2019-13272-privilege-escalation)
+- [josemlwdf/CVE-2019-13272](https://github.com/josemlwdf/CVE-2019-13272)
 
 ### CVE-2019-13276 (2019-07-10)
 
@@ -39445,6 +39478,13 @@
 - [berritus163t/bazad5](https://github.com/berritus163t/bazad5)
 - [SideGreenHand100/bazad5](https://github.com/SideGreenHand100/bazad5)
 - [zqlblingzs/bazad5](https://github.com/zqlblingzs/bazad5)
+
+### CVE-2016-2004 (2016-04-21)
+
+<code>HPE Data Protector before 7.03_108, 8.x before 8.15, and 9.x before 9.06 allow remote attackers to execute arbitrary code via unspecified vectors related to lack of authentication.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2014-2623.
+</code>
+
+- [marcocarolasec/CVE-2016-2004-Exploit](https://github.com/marcocarolasec/CVE-2016-2004-Exploit)
 
 ### CVE-2016-2067 (2016-07-11)
 
