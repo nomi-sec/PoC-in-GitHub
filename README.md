@@ -801,7 +801,11 @@
 - [truonghuuphuc/CVE-2024-5326-Poc](https://github.com/truonghuuphuc/CVE-2024-5326-Poc)
 - [cve-2024/CVE-2024-5326-Poc](https://github.com/cve-2024/CVE-2024-5326-Poc)
 
-### CVE-2024-5522
+### CVE-2024-5522 (2024-06-20)
+
+<code>The HTML5 Video Player  WordPress plugin before 2.5.27 does not sanitize and escape a parameter from a REST route before using it in a SQL statement, allowing unauthenticated users to perform SQL injection attacks
+</code>
+
 - [truonghuuphuc/CVE-2024-5522-Poc](https://github.com/truonghuuphuc/CVE-2024-5522-Poc)
 
 ### CVE-2024-12883
@@ -1032,6 +1036,7 @@
 - [r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check)
 - [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
 - [lolminerxmrig/multicheck_CVE-2024-21762](https://github.com/lolminerxmrig/multicheck_CVE-2024-21762)
+- [rdoix/cve-2024-21762-checker](https://github.com/rdoix/cve-2024-21762-checker)
 
 ### CVE-2024-21793 (2024-05-08)
 
@@ -2233,6 +2238,7 @@
 
 - [momika233/CVE-2024-29973](https://github.com/momika233/CVE-2024-29973)
 - [bigb0x/CVE-2024-29973](https://github.com/bigb0x/CVE-2024-29973)
+- [k3lpi3b4nsh33/CVE-2024-29973](https://github.com/k3lpi3b4nsh33/CVE-2024-29973)
 
 ### CVE-2024-29988 (2024-04-09)
 
@@ -2683,6 +2689,7 @@
 
 - [osvaldotenorio/CVE-2024-34470](https://github.com/osvaldotenorio/CVE-2024-34470)
 - [bigb0x/CVE-2024-34470](https://github.com/bigb0x/CVE-2024-34470)
+- [Cappricio-Securities/CVE-2024-34470](https://github.com/Cappricio-Securities/CVE-2024-34470)
 
 ### CVE-2024-34471 (2024-05-06)
 
@@ -2813,6 +2820,13 @@
 
 - [LeadroyaL/CVE-2024-37051-EXP](https://github.com/LeadroyaL/CVE-2024-37051-EXP)
 - [mrblackstar26/CVE-2024-37051](https://github.com/mrblackstar26/CVE-2024-37051)
+
+### CVE-2024-37079 (2024-06-18)
+
+<code>vCenter Server contains a heap-overflow vulnerability in the implementation of the DCERPC protocol. A malicious actor with network access to vCenter Server may trigger this vulnerability by sending a specially crafted network packet potentially leading to remote code execution.
+</code>
+
+- [v3rce/CVE-2024-37079-RCE-POC](https://github.com/v3rce/CVE-2024-37079-RCE-POC)
 
 ### CVE-2024-37393 (2024-06-10)
 
