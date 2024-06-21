@@ -670,6 +670,7 @@
 - [Zombie-Kaiser/cve-2024-4367-PoC-fixed](https://github.com/Zombie-Kaiser/cve-2024-4367-PoC-fixed)
 - [snyk-labs/pdfjs-vuln-demo](https://github.com/snyk-labs/pdfjs-vuln-demo)
 - [UnHackerEnCapital/PDFernetRemotelo](https://github.com/UnHackerEnCapital/PDFernetRemotelo)
+- [Scivous/CVE-2024-4367-npm](https://github.com/Scivous/CVE-2024-4367-npm)
 
 ### CVE-2024-4439 (2024-05-03)
 
@@ -2273,6 +2274,7 @@
 - [momika233/CVE-2024-29973](https://github.com/momika233/CVE-2024-29973)
 - [bigb0x/CVE-2024-29973](https://github.com/bigb0x/CVE-2024-29973)
 - [k3lpi3b4nsh33/CVE-2024-29973](https://github.com/k3lpi3b4nsh33/CVE-2024-29973)
+- [p0et08/CVE-2024-29973](https://github.com/p0et08/CVE-2024-29973)
 
 ### CVE-2024-29988 (2024-04-09)
 
@@ -11254,6 +11256,7 @@
 - [mcdulltii/CVE-2022-1329](https://github.com/mcdulltii/CVE-2022-1329)
 - [Grazee/CVE-2022-1329-WordPress-Elementor-RCE](https://github.com/Grazee/CVE-2022-1329-WordPress-Elementor-RCE)
 - [dexit/CVE-2022-1329](https://github.com/dexit/CVE-2022-1329)
+- [phanthibichtram12/CVE-2022-1329](https://github.com/phanthibichtram12/CVE-2022-1329)
 
 ### CVE-2022-1364 (2022-07-26)
 
@@ -11363,6 +11366,13 @@
 
 - [1fabunicorn/SnakeYAML-CVE-2022-1471-POC](https://github.com/1fabunicorn/SnakeYAML-CVE-2022-1471-POC)
 - [falconkei/snakeyaml_cve_poc](https://github.com/falconkei/snakeyaml_cve_poc)
+
+### CVE-2022-1565 (2022-07-18)
+
+<code>The plugin WP All Import is vulnerable to arbitrary file uploads due to missing file type validation via the wp_all_import_get_gz.php file in versions up to, and including, 3.6.7. This makes it possible for authenticated attackers, with administrator level permissions and above, to upload arbitrary files on the affected sites server which may make remote code execution possible.
+</code>
+
+- [phanthibichtram12/CVE-2022-1565](https://github.com/phanthibichtram12/CVE-2022-1565)
 
 ### CVE-2022-1597 (2022-06-06)
 
