@@ -2275,6 +2275,7 @@
 - [bigb0x/CVE-2024-29973](https://github.com/bigb0x/CVE-2024-29973)
 - [k3lpi3b4nsh33/CVE-2024-29973](https://github.com/k3lpi3b4nsh33/CVE-2024-29973)
 - [p0et08/CVE-2024-29973](https://github.com/p0et08/CVE-2024-29973)
+- [RevoltSecurities/CVE-2024-29973](https://github.com/RevoltSecurities/CVE-2024-29973)
 
 ### CVE-2024-29988 (2024-04-09)
 
@@ -17231,13 +17232,6 @@
 
 - [Cedric1314/CVE-2022-47872](https://github.com/Cedric1314/CVE-2022-47872)
 
-### CVE-2022-47873 (2023-01-31)
-
-<code>Netcad KEOS 1.0 is vulnerable to XML External Entity (XXE) resulting in SSRF with XXE (remote).
-</code>
-
-- [waspthebughunter/CVE-2022-47873](https://github.com/waspthebughunter/CVE-2022-47873)
-
 ### CVE-2022-47909 (2023-02-20)
 
 <code>Livestatus Query Language (LQL) injection in the AuthUser HTTP query header of Tribe29's Checkmk &lt;= 2.1.0p11, Checkmk &lt;= 2.0.0p28, and all versions of Checkmk 1.6.0 (EOL) allows an attacker to perform direct queries to the application's core from localhost.
@@ -30958,6 +30952,7 @@
 - [BjarneVerschorre/CVE-2019-9053](https://github.com/BjarneVerschorre/CVE-2019-9053)
 - [Jason-Siu/CVE-2019-9053-Exploit-in-Python-3](https://github.com/Jason-Siu/CVE-2019-9053-Exploit-in-Python-3)
 - [FedericoTorres233/CVE-2019-9053-Fixed](https://github.com/FedericoTorres233/CVE-2019-9053-Fixed)
+- [Dh4nuJ4/SimpleCTF-UpdatedExploit](https://github.com/Dh4nuJ4/SimpleCTF-UpdatedExploit)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
@@ -37731,6 +37726,7 @@
 - [denchief1/CVE-2017-7269_Python3](https://github.com/denchief1/CVE-2017-7269_Python3)
 - [denchief1/CVE-2017-7269](https://github.com/denchief1/CVE-2017-7269)
 - [Cappricio-Securities/CVE-2017-7269](https://github.com/Cappricio-Securities/CVE-2017-7269)
+- [OmarSuarezDoro/CVE-2017-7269](https://github.com/OmarSuarezDoro/CVE-2017-7269)
 
 ### CVE-2017-7308 (2017-03-29)
 
