@@ -2438,19 +2438,19 @@
 
 - [Stuub/CVE-2024-31848-PoC](https://github.com/Stuub/CVE-2024-31848-PoC)
 
-### CVE-2024-31851 (2024-04-05)
-
-<code>A path traversal vulnerability exists in the Java version of CData Sync &lt; 23.4.8843 when running using the embedded Jetty server, which could allow an unauthenticated remote attacker to gain access to sensitive information and perform limited actions.
-</code>
-
-- [GKalmus/referaat](https://github.com/GKalmus/referaat)
-
 ### CVE-2024-31974 (-)
 
 <code>The com.solarized.firedown (aka Solarized FireDown Browser &amp; Downloader) application 1.0.76 for Android allows a remote attacker to execute arbitrary JavaScript code via a crafted intent. com.solarized.firedown.IntentActivity uses a WebView component to display web content and doesn't adequately sanitize the URI or any extra data passed in the intent by any installed application (with no permissions).
 </code>
 
 - [actuator/com.solarized.firedown](https://github.com/actuator/com.solarized.firedown)
+
+### CVE-2024-31982 (2024-04-10)
+
+<code>XWiki Platform is a generic wiki platform. Starting in version 2.4-milestone-1 and prior to versions 4.10.20, 15.5.4, and 15.10-rc-1, XWiki's database search allows remote code execution through the search text. This allows remote code execution for any visitor of a public wiki or user of a closed wiki as the database search is by default accessible for all users. This impacts the confidentiality, integrity and availability of the whole XWiki installation. This vulnerability has been patched in XWiki 14.10.20, 15.5.4 and 15.10RC1. As a workaround, one may manually apply the patch to the page `Main.DatabaseSearch`. Alternatively, unless database search is explicitly used by users, this page can be deleted as this is not the default search interface of XWiki.
+</code>
+
+- [k3lpi3b4nsh33/CVE-2024-31982](https://github.com/k3lpi3b4nsh33/CVE-2024-31982)
 
 ### CVE-2024-32002 (2024-05-14)
 
