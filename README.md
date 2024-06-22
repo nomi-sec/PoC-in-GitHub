@@ -2716,7 +2716,11 @@
 
 - [Voorivex/CVE-2024-34351](https://github.com/Voorivex/CVE-2024-34351)
 
-### CVE-2024-34452
+### CVE-2024-34452 (2024-06-21)
+
+<code>CMSimple_XH 1.7.6 allows XSS by uploading a crafted SVG document.
+</code>
+
 - [surajhacx/CVE-2024-34452](https://github.com/surajhacx/CVE-2024-34452)
 
 ### CVE-2024-34469 (2024-05-04)
@@ -20580,6 +20584,7 @@
 - [mind2hex/CVE-2021-31630](https://github.com/mind2hex/CVE-2021-31630)
 - [sealldeveloper/CVE-2021-31630-PoC](https://github.com/sealldeveloper/CVE-2021-31630-PoC)
 - [junnythemarksman/CVE-2021-31630](https://github.com/junnythemarksman/CVE-2021-31630)
+- [adibabdala123/cve-2021-31630](https://github.com/adibabdala123/cve-2021-31630)
 
 ### CVE-2021-31728 (2021-05-17)
 
