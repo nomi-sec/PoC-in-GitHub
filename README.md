@@ -40003,7 +40003,6 @@
 - [EDLLT/CVE-2016-5195-master](https://github.com/EDLLT/CVE-2016-5195-master)
 - [sakilahamed/Linux-Kernel-Exploit-LAB](https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB)
 - [ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195)
-- [B1ackCat/cve-2016-5195-DirtyCOW](https://github.com/B1ackCat/cve-2016-5195-DirtyCOW)
 
 ### CVE-2016-5345 (2018-01-23)
 
