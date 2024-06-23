@@ -515,7 +515,6 @@
 
 - [Yuvvi01/CVE-2024-3400](https://github.com/Yuvvi01/CVE-2024-3400)
 - [CerTusHack/CVE-2024-3400-PoC](https://github.com/CerTusHack/CVE-2024-3400-PoC)
-- [0x0d3ad/CVE-2024-3400](https://github.com/0x0d3ad/CVE-2024-3400)
 - [FoxyProxys/CVE-2024-3400](https://github.com/FoxyProxys/CVE-2024-3400)
 - [momika233/CVE-2024-3400](https://github.com/momika233/CVE-2024-3400)
 - [MrR0b0t19/CVE-2024-3400](https://github.com/MrR0b0t19/CVE-2024-3400)
@@ -943,6 +942,7 @@
 - [UMU618/CVE-2024-21338](https://github.com/UMU618/CVE-2024-21338)
 - [varwara/CVE-2024-21338](https://github.com/varwara/CVE-2024-21338)
 - [Zombie-Kaiser/CVE-2024-21338-x64-build-](https://github.com/Zombie-Kaiser/CVE-2024-21338-x64-build-)
+- [tykawaii98/CVE-2024-21338_PoC](https://github.com/tykawaii98/CVE-2024-21338_PoC)
 
 ### CVE-2024-21345 (2024-02-13)
 
@@ -990,6 +990,13 @@
 - [X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit](https://github.com/X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit)
 - [th3Hellion/CVE-2024-21413](https://github.com/th3Hellion/CVE-2024-21413)
 - [ShubhamKanhere307/CVE-2024-21413](https://github.com/ShubhamKanhere307/CVE-2024-21413)
+
+### CVE-2024-21514 (2024-06-22)
+
+<code>This affects versions of the package opencart/opencart from 0.0.0. An SQL Injection issue was identified in the Divido payment extension for OpenCart, which is included by default in version 3.0.3.9. As an anonymous unauthenticated user, if the Divido payment module is installed (it does not have to be enabled), it is possible to exploit SQL injection to gain unauthorised access to the backend database. For any site which is vulnerable, any unauthenticated user could exploit this to dump the entire OpenCart database, including customer PII data.
+</code>
+
+- [bigb0x/CVE-2024-21514](https://github.com/bigb0x/CVE-2024-21514)
 
 ### CVE-2024-21626 (2024-01-31)
 
@@ -2515,6 +2522,7 @@
 - [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
 - [Basyaact/CVE-2024-32002-PoC_Chinese](https://github.com/Basyaact/CVE-2024-32002-PoC_Chinese)
 - [bonnettheo/CVE-2024-32002](https://github.com/bonnettheo/CVE-2024-32002)
+- [Yitian26/git_rce](https://github.com/Yitian26/git_rce)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -2748,6 +2756,7 @@
 - [bigb0x/CVE-2024-34470](https://github.com/bigb0x/CVE-2024-34470)
 - [Cappricio-Securities/CVE-2024-34470](https://github.com/Cappricio-Securities/CVE-2024-34470)
 - [Mr-r00t11/CVE-2024-34470](https://github.com/Mr-r00t11/CVE-2024-34470)
+- [th3gokul/CVE-2024-34470](https://github.com/th3gokul/CVE-2024-34470)
 
 ### CVE-2024-34471 (2024-05-06)
 
