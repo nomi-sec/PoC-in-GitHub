@@ -515,6 +515,7 @@
 
 - [Yuvvi01/CVE-2024-3400](https://github.com/Yuvvi01/CVE-2024-3400)
 - [CerTusHack/CVE-2024-3400-PoC](https://github.com/CerTusHack/CVE-2024-3400-PoC)
+- [0x0d3ad/CVE-2024-3400](https://github.com/0x0d3ad/CVE-2024-3400)
 - [FoxyProxys/CVE-2024-3400](https://github.com/FoxyProxys/CVE-2024-3400)
 - [momika233/CVE-2024-3400](https://github.com/momika233/CVE-2024-3400)
 - [MrR0b0t19/CVE-2024-3400](https://github.com/MrR0b0t19/CVE-2024-3400)
@@ -2522,7 +2523,6 @@
 - [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
 - [Basyaact/CVE-2024-32002-PoC_Chinese](https://github.com/Basyaact/CVE-2024-32002-PoC_Chinese)
 - [bonnettheo/CVE-2024-32002](https://github.com/bonnettheo/CVE-2024-32002)
-- [Yitian26/git_rce](https://github.com/Yitian26/git_rce)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -2725,6 +2725,12 @@
 </code>
 
 - [3309899621/CVE-2024-34310](https://github.com/3309899621/CVE-2024-34310)
+
+### CVE-2024-34312
+- [vincentscode/CVE-2024-34312](https://github.com/vincentscode/CVE-2024-34312)
+
+### CVE-2024-34313
+- [vincentscode/CVE-2024-34313](https://github.com/vincentscode/CVE-2024-34313)
 
 ### CVE-2024-34351 (2024-05-09)
 
