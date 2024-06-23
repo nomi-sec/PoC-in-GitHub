@@ -2459,6 +2459,7 @@
 
 - [k3lpi3b4nsh33/CVE-2024-31982](https://github.com/k3lpi3b4nsh33/CVE-2024-31982)
 - [th3gokul/CVE-2024-31982](https://github.com/th3gokul/CVE-2024-31982)
+- [bigb0x/CVE-2024-31982](https://github.com/bigb0x/CVE-2024-31982)
 
 ### CVE-2024-32002 (2024-05-14)
 
@@ -33656,6 +33657,7 @@
 
 - [knqyf263/CVE-2018-1273](https://github.com/knqyf263/CVE-2018-1273)
 - [wearearima/poc-cve-2018-1273](https://github.com/wearearima/poc-cve-2018-1273)
+- [webr0ck/poc-cve-2018-1273](https://github.com/webr0ck/poc-cve-2018-1273)
 - [cved-sources/cve-2018-1273](https://github.com/cved-sources/cve-2018-1273)
 - [jas502n/cve-2018-1273](https://github.com/jas502n/cve-2018-1273)
 
@@ -33777,6 +33779,7 @@
 - [stevenlinfeng/CVE-2018-2628](https://github.com/stevenlinfeng/CVE-2018-2628)
 - [likescam/CVE-2018-2628](https://github.com/likescam/CVE-2018-2628)
 - [Nervous/WebLogic-RCE-exploit](https://github.com/Nervous/WebLogic-RCE-exploit)
+- [Lighird/CVE-2018-2628](https://github.com/Lighird/CVE-2018-2628)
 - [0xMJ/CVE-2018-2628](https://github.com/0xMJ/CVE-2018-2628)
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 - [seethen/cve-2018-2628](https://github.com/seethen/cve-2018-2628)
@@ -33817,6 +33820,7 @@
 - [bigsizeme/CVE-2018-2893](https://github.com/bigsizeme/CVE-2018-2893)
 - [pyn3rd/CVE-2018-2893](https://github.com/pyn3rd/CVE-2018-2893)
 - [qianl0ng/CVE-2018-2893](https://github.com/qianl0ng/CVE-2018-2893)
+- [jas502n/CVE-2018-2893](https://github.com/jas502n/CVE-2018-2893)
 - [ianxtianxt/CVE-2018-2893](https://github.com/ianxtianxt/CVE-2018-2893)
 
 ### CVE-2018-2894 (2018-07-18)
@@ -33829,12 +33833,24 @@
 - [jas502n/CVE-2018-2894](https://github.com/jas502n/CVE-2018-2894)
 - [k8gege/PyLadon](https://github.com/k8gege/PyLadon)
 
+### CVE-2018-3191 (2018-10-17)
+
+<code>Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [arongmh/CVE-2018-3191](https://github.com/arongmh/CVE-2018-3191)
+- [m00zh33/CVE-2018-3191](https://github.com/m00zh33/CVE-2018-3191)
+- [Libraggbond/CVE-2018-3191](https://github.com/Libraggbond/CVE-2018-3191)
+- [jas502n/CVE-2018-3191](https://github.com/jas502n/CVE-2018-3191)
+- [mackleadmire/CVE-2018-3191-Rce-Exploit](https://github.com/mackleadmire/CVE-2018-3191-Rce-Exploit)
+
 ### CVE-2018-3245 (2018-10-17)
 
 <code>Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
 - [pyn3rd/CVE-2018-3245](https://github.com/pyn3rd/CVE-2018-3245)
+- [jas502n/CVE-2018-3245](https://github.com/jas502n/CVE-2018-3245)
 - [ianxtianxt/CVE-2018-3245](https://github.com/ianxtianxt/CVE-2018-3245)
 
 ### CVE-2018-3252 (2018-10-17)
@@ -33842,6 +33858,7 @@
 <code>Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
+- [jas502n/CVE-2018-3252](https://github.com/jas502n/CVE-2018-3252)
 - [go-spider/CVE-2018-3252](https://github.com/go-spider/CVE-2018-3252)
 - [pyn3rd/CVE-2018-3252](https://github.com/pyn3rd/CVE-2018-3252)
 
@@ -34060,7 +34077,9 @@
 <code>A memory corruption issue was addressed with improved validation. This issue affected versions prior to iOS 12, macOS Mojave 10.14, tvOS 12, watchOS 5.
 </code>
 
+- [Pa55w0rd/check_icmp_dos](https://github.com/Pa55w0rd/check_icmp_dos)
 - [unixpickle/cve-2018-4407](https://github.com/unixpickle/cve-2018-4407)
+- [s2339956/check_icmp_dos-CVE-2018-4407-](https://github.com/s2339956/check_icmp_dos-CVE-2018-4407-)
 - [farisv/AppleDOS](https://github.com/farisv/AppleDOS)
 - [WyAtu/CVE-2018-4407](https://github.com/WyAtu/CVE-2018-4407)
 - [zteeed/CVE-2018-4407-IOS](https://github.com/zteeed/CVE-2018-4407-IOS)
@@ -34122,6 +34141,7 @@
 - [KathodeN/CVE-2018-4878](https://github.com/KathodeN/CVE-2018-4878)
 - [SyFi/CVE-2018-4878](https://github.com/SyFi/CVE-2018-4878)
 - [ydl555/CVE-2018-4878](https://github.com/ydl555/CVE-2018-4878)
+- [B0fH/CVE-2018-4878](https://github.com/B0fH/CVE-2018-4878)
 - [Yable/CVE-2018-4878](https://github.com/Yable/CVE-2018-4878)
 - [HuanWoWeiLan/SoftwareSystemSecurity-2019](https://github.com/HuanWoWeiLan/SoftwareSystemSecurity-2019)
 - [lvyoshino/CVE-2018-4878](https://github.com/lvyoshino/CVE-2018-4878)
@@ -34297,6 +34317,7 @@
 - [mudhappy/Wordpress-Hack-CVE-2018-6389](https://github.com/mudhappy/Wordpress-Hack-CVE-2018-6389)
 - [armaanpathan12345/WP-DOS-Exploit-CVE-2018-6389](https://github.com/armaanpathan12345/WP-DOS-Exploit-CVE-2018-6389)
 - [ItinerisLtd/trellis-cve-2018-6389](https://github.com/ItinerisLtd/trellis-cve-2018-6389)
+- [Zazzzles/Wordpress-DOS](https://github.com/Zazzzles/Wordpress-DOS)
 - [fakedob/tvsz](https://github.com/fakedob/tvsz)
 - [vineetkia/Wordpress-DOS-Attack-CVE-2018-6389](https://github.com/vineetkia/Wordpress-DOS-Attack-CVE-2018-6389)
 - [ianxtianxt/CVE-2018-6389](https://github.com/ianxtianxt/CVE-2018-6389)
@@ -34348,6 +34369,7 @@
 - [wb4r/go-get-rce](https://github.com/wb4r/go-get-rce)
 - [ahmetmanga/go-get-rce](https://github.com/ahmetmanga/go-get-rce)
 - [ahmetmanga/cve-2018-6574](https://github.com/ahmetmanga/cve-2018-6574)
+- [redirected/cve-2018-6574](https://github.com/redirected/cve-2018-6574)
 - [20matan/CVE-2018-6574-POC](https://github.com/20matan/CVE-2018-6574-POC)
 - [zur250/Zur-Go-GET-RCE-Solution](https://github.com/zur250/Zur-Go-GET-RCE-Solution)
 - [mekhalleh/cve-2018-6574](https://github.com/mekhalleh/cve-2018-6574)
@@ -34949,6 +34971,13 @@
 
 - [idkwim/CVE-2018-8420](https://github.com/idkwim/CVE-2018-8420)
 
+### CVE-2018-8440 (2018-09-13)
+
+<code>An elevation of privilege vulnerability exists when Windows improperly handles calls to Advanced Local Procedure Call (ALPC), aka &quot;Windows ALPC Elevation of Privilege Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
+</code>
+
+- [sourceincite/CVE-2018-8440](https://github.com/sourceincite/CVE-2018-8440)
+
 ### CVE-2018-8453 (2018-10-10)
 
 <code>An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka &quot;Win32k Elevation of Privilege Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2019, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
@@ -34957,6 +34986,13 @@
 - [Mkv4/cve-2018-8453-exp](https://github.com/Mkv4/cve-2018-8453-exp)
 - [ze0r/cve-2018-8453-exp](https://github.com/ze0r/cve-2018-8453-exp)
 - [thepwnrip/leHACK-Analysis-of-CVE-2018-8453](https://github.com/thepwnrip/leHACK-Analysis-of-CVE-2018-8453)
+
+### CVE-2018-8495 (2018-10-10)
+
+<code>A remote code execution vulnerability exists when Windows Shell improperly handles URIs, aka &quot;Windows Shell Remote Code Execution Vulnerability.&quot; This affects Windows Server 2016, Windows 10, Windows 10 Servers.
+</code>
+
+- [whereisr0da/CVE-2018-8495-POC](https://github.com/whereisr0da/CVE-2018-8495-POC)
 
 ### CVE-2018-8581 (2018-11-14)
 
@@ -35074,6 +35110,8 @@
 <code>Unauthenticated arbitrary file upload vulnerability in Blueimp jQuery-File-Upload &lt;= v9.22.0
 </code>
 
+- [Den1al/CVE-2018-9206](https://github.com/Den1al/CVE-2018-9206)
+- [Stahlz/JQShell](https://github.com/Stahlz/JQShell)
 - [cved-sources/cve-2018-9206](https://github.com/cved-sources/cve-2018-9206)
 - [mi-hood/CVE-2018-9206](https://github.com/mi-hood/CVE-2018-9206)
 
@@ -35102,6 +35140,9 @@
 
 ### CVE-2018-9375
 - [IOActive/AOSP-ExploitUserDictionary](https://github.com/IOActive/AOSP-ExploitUserDictionary)
+
+### CVE-2018-9411
+- [tamirzb/CVE-2018-9411](https://github.com/tamirzb/CVE-2018-9411)
 
 ### CVE-2018-9468
 - [IOActive/AOSP-DownloadProviderHijacker](https://github.com/IOActive/AOSP-DownloadProviderHijacker)
@@ -35284,9 +35325,27 @@
 <code>A vulnerability was found in libssh's server-side state machine before versions 0.7.6 and 0.8.4. A malicious client could create channels without first performing authentication, resulting in unauthorized access.
 </code>
 
+- [SoledaD208/CVE-2018-10933](https://github.com/SoledaD208/CVE-2018-10933)
 - [blacknbunny/CVE-2018-10933](https://github.com/blacknbunny/CVE-2018-10933)
+- [hook-s3c/CVE-2018-10933](https://github.com/hook-s3c/CVE-2018-10933)
+- [kn6869610/CVE-2018-10933](https://github.com/kn6869610/CVE-2018-10933)
 - [jobroche/libssh-scanner](https://github.com/jobroche/libssh-scanner)
+- [likescam/CVE-2018-10933_ssh](https://github.com/likescam/CVE-2018-10933_ssh)
+- [likescam/CVE-2018-10933-libSSH-Authentication-Bypass](https://github.com/likescam/CVE-2018-10933-libSSH-Authentication-Bypass)
+- [marco-lancini/hunt-for-cve-2018-10933](https://github.com/marco-lancini/hunt-for-cve-2018-10933)
+- [hackerhouse-opensource/cve-2018-10933](https://github.com/hackerhouse-opensource/cve-2018-10933)
+- [cve-2018/cve-2018-10933](https://github.com/cve-2018/cve-2018-10933)
+- [jas502n/CVE-2018-10933](https://github.com/jas502n/CVE-2018-10933)
+- [ninp0/cve-2018-10933_poc](https://github.com/ninp0/cve-2018-10933_poc)
+- [pghook/CVE-2018-10933_Scanner](https://github.com/pghook/CVE-2018-10933_Scanner)
+- [Virgula0/POC-CVE-2018-10933](https://github.com/Virgula0/POC-CVE-2018-10933)
+- [shifa123/pythonprojects-CVE-2018-10933](https://github.com/shifa123/pythonprojects-CVE-2018-10933)
 - [xFreed0m/CVE-2018-10933](https://github.com/xFreed0m/CVE-2018-10933)
+- [Bifrozt/CVE-2018-10933](https://github.com/Bifrozt/CVE-2018-10933)
+- [r3dxpl0it/CVE-2018-10933](https://github.com/r3dxpl0it/CVE-2018-10933)
+- [ivanacostarubio/libssh-scanner](https://github.com/ivanacostarubio/libssh-scanner)
+- [throwawayaccount12312312/precompiled-CVE-2018-10933](https://github.com/throwawayaccount12312312/precompiled-CVE-2018-10933)
+- [reanimat0r/bpnd-libssh](https://github.com/reanimat0r/bpnd-libssh)
 - [ensimag-security/CVE-2018-10933](https://github.com/ensimag-security/CVE-2018-10933)
 - [0xadaw/libSSH-bypass](https://github.com/0xadaw/libSSH-bypass)
 - [sambiyal/CVE-2018-10933-POC](https://github.com/sambiyal/CVE-2018-10933-POC)
@@ -35469,6 +35528,13 @@
 </code>
 
 - [anmuxi-bai/CVE-2018-11790](https://github.com/anmuxi-bai/CVE-2018-11790)
+
+### CVE-2018-12018 (2018-07-05)
+
+<code>The GetBlockHeadersMsg handler in the LES protocol implementation in Go Ethereum (aka geth) before 1.8.11 may lead to an access violation because of an integer signedness error for the array index, which allows attackers to launch a Denial of Service attack by sending a packet with a -1 query.Skip value. The vulnerable remote node would be crashed by such an attack immediately, aka the EPoD (Ethereum Packet of Death) issue.
+</code>
+
+- [k3v142/CVE-2018-12018](https://github.com/k3v142/CVE-2018-12018)
 
 ### CVE-2018-12031 (2022-10-03)
 
@@ -35717,11 +35783,19 @@
 
 - [Trinadh465/external_tcpdump_CVE-2018-14469](https://github.com/Trinadh465/external_tcpdump_CVE-2018-14469)
 
+### CVE-2018-14634 (2018-09-25)
+
+<code>An integer overflow flaw was found in the Linux kernel's create_elf_tables() function. An unprivileged local user with access to SUID (or otherwise privileged) binary could use this flaw to escalate their privileges on the system. Kernel versions 2.6.x, 3.10.x and 4.14.x are believed to be vulnerable.
+</code>
+
+- [luan0ap/cve-2018-14634](https://github.com/luan0ap/cve-2018-14634)
+
 ### CVE-2018-14665 (2018-10-25)
 
 <code>A flaw was found in xorg-x11-server before 1.20.3. An incorrect permission check for -modulepath and -logfile options when starting Xorg. X server allows unprivileged users with the ability to log in to the system via physical console to escalate their privileges and run arbitrary code under root privileges.
 </code>
 
+- [jas502n/CVE-2018-14665](https://github.com/jas502n/CVE-2018-14665)
 - [bolonobolo/CVE-2018-14665](https://github.com/bolonobolo/CVE-2018-14665)
 
 ### CVE-2018-14667 (2018-11-06)
@@ -35766,6 +35840,13 @@
 
 - [c0010/CVE-2018-14729](https://github.com/c0010/CVE-2018-14729)
 
+### CVE-2018-14772 (2018-10-16)
+
+<code>Pydio 4.2.1 through 8.2.1 has an authenticated remote code execution vulnerability in which an attacker with administrator access to the web application can execute arbitrary code on the underlying system via Command Injection.
+</code>
+
+- [killvxk/CVE-2018-14772](https://github.com/killvxk/CVE-2018-14772)
+
 ### CVE-2018-14847 (2018-08-02)
 
 <code>MikroTik RouterOS through 6.42 allows unauthenticated remote attackers to read arbitrary files and remote authenticated attackers to write arbitrary files due to a directory traversal vulnerability in the WinBox interface.
@@ -35773,6 +35854,7 @@
 
 - [BasuCert/WinboxPoC](https://github.com/BasuCert/WinboxPoC)
 - [msterusky/WinboxExploit](https://github.com/msterusky/WinboxExploit)
+- [syrex1013/MikroRoot](https://github.com/syrex1013/MikroRoot)
 - [jas502n/CVE-2018-14847](https://github.com/jas502n/CVE-2018-14847)
 - [mahmoodsabir/mikrotik-beast](https://github.com/mahmoodsabir/mikrotik-beast)
 - [Tr33-He11/winboxPOC](https://github.com/Tr33-He11/winboxPOC)
@@ -36158,6 +36240,7 @@
 <code>Bitcoin Core 0.14.x before 0.14.3, 0.15.x before 0.15.2, and 0.16.x before 0.16.3 and Bitcoin Knots 0.14.x through 0.16.x before 0.16.3 allow a remote denial of service (application crash) exploitable by miners via duplicate input. An attacker can make bitcoind or Bitcoin-Qt crash.
 </code>
 
+- [iioch/ban-exploitable-bitcoin-nodes](https://github.com/iioch/ban-exploitable-bitcoin-nodes)
 - [hikame/CVE-2018-17144_POC](https://github.com/hikame/CVE-2018-17144_POC)
 
 ### CVE-2018-17182 (2018-09-19)
@@ -36166,6 +36249,8 @@
 </code>
 
 - [jas502n/CVE-2018-17182](https://github.com/jas502n/CVE-2018-17182)
+- [likescam/CVE-2018-17182](https://github.com/likescam/CVE-2018-17182)
+- [likescam/vmacache_CVE-2018-17182](https://github.com/likescam/vmacache_CVE-2018-17182)
 - [jedai47/cve-2018-17182](https://github.com/jedai47/cve-2018-17182)
 
 ### CVE-2018-17207 (2022-10-03)
@@ -36217,6 +36302,7 @@
 <code>Git before 2.14.5, 2.15.x before 2.15.3, 2.16.x before 2.16.5, 2.17.x before 2.17.2, 2.18.x before 2.18.1, and 2.19.x before 2.19.1 allows remote code execution during processing of a recursive &quot;git clone&quot; of a superproject if a .gitmodules file has a URL field beginning with a '-' character.
 </code>
 
+- [shpik-kr/CVE-2018-17456](https://github.com/shpik-kr/CVE-2018-17456)
 - [matlink/CVE-2018-17456](https://github.com/matlink/CVE-2018-17456)
 - [799600966/CVE-2018-17456](https://github.com/799600966/CVE-2018-17456)
 - [AnonymKing/CVE-2018-17456](https://github.com/AnonymKing/CVE-2018-17456)
@@ -36258,6 +36344,13 @@
 
 - [g0dd0ghd/CVE-2018-17924-PoC](https://github.com/g0dd0ghd/CVE-2018-17924-PoC)
 
+### CVE-2018-17961 (2018-10-15)
+
+<code>Artifex Ghostscript 9.25 and earlier allows attackers to bypass a sandbox protection mechanism via vectors involving errorhandler setup. NOTE: this issue exists because of an incomplete fix for CVE-2018-17183.
+</code>
+
+- [matlink/CVE-2018-17961](https://github.com/matlink/CVE-2018-17961)
+
 ### CVE-2018-18026 (2018-10-19)
 
 <code>IMFCameraProtect.sys in IObit Malware Fighter 6.2 (and possibly lower versions) is vulnerable to a stack-based buffer overflow. The attacker can use DeviceIoControl to pass a user specified size which can be used to overwrite return addresses. This can lead to a denial of service or code execution attack.
@@ -36278,6 +36371,13 @@
 </code>
 
 - [DimopoulosElias/SEPM-EoP](https://github.com/DimopoulosElias/SEPM-EoP)
+
+### CVE-2018-18387 (2018-10-29)
+
+<code>playSMS through 1.4.2 allows Privilege Escalation through Daemon abuse.
+</code>
+
+- [TheeBlind/CVE-2018-18387](https://github.com/TheeBlind/CVE-2018-18387)
 
 ### CVE-2018-18500 (2019-02-05)
 
