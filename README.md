@@ -6283,6 +6283,7 @@
 - [04Shivam/CVE-2023-30253-Exploit](https://github.com/04Shivam/CVE-2023-30253-Exploit)
 - [nikn0laty/Exploit-for-Dolibarr-17.0.0-CVE-2023-30253](https://github.com/nikn0laty/Exploit-for-Dolibarr-17.0.0-CVE-2023-30253)
 - [g4nkd/CVE-2023-30253-PoC](https://github.com/g4nkd/CVE-2023-30253-PoC)
+- [dollarboysushil/Dolibarr-17.0.0-Exploit-CVE-2023-30253](https://github.com/dollarboysushil/Dolibarr-17.0.0-Exploit-CVE-2023-30253)
 
 ### CVE-2023-30256 (2023-05-11)
 
@@ -31183,6 +31184,13 @@
 - [xuechiyaobai/CVE-2019-9810-PoC](https://github.com/xuechiyaobai/CVE-2019-9810-PoC)
 - [0vercl0k/CVE-2019-9810](https://github.com/0vercl0k/CVE-2019-9810)
 
+### CVE-2019-9849 (2019-07-16)
+
+<code>LibreOffice has a 'stealth mode' in which only documents from locations deemed 'trusted' are allowed to retrieve remote resources. This mode is not the default mode, but can be enabled by users who want to disable LibreOffice's ability to include remote resources within a document. A flaw existed where bullet graphics were omitted from this protection prior to version 6.2.5. This issue affects: Document Foundation LibreOffice versions prior to 6.2.5.
+</code>
+
+- [mbadanoiu/CVE-2019-9849](https://github.com/mbadanoiu/CVE-2019-9849)
+
 ### CVE-2019-9896 (2019-03-21)
 
 <code>In PuTTY versions before 0.71 on Windows, local attackers could hijack the application by putting a malicious help file in the same directory as the executable.
@@ -35258,6 +35266,7 @@
 - [X3RX3SSec/DVR_Sploit](https://github.com/X3RX3SSec/DVR_Sploit)
 - [batmoshka55/CVE-2018-9995_dvr_credentials](https://github.com/batmoshka55/CVE-2018-9995_dvr_credentials)
 - [dego905/Cam](https://github.com/dego905/Cam)
+- [A-Alabdoo/CVE-DVr](https://github.com/A-Alabdoo/CVE-DVr)
 
 ### CVE-2018-10097 (2022-10-03)
 
