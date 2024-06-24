@@ -2313,15 +2313,6 @@
 
 - [absholi7ly/Microsoft-Edge-Information-Disclosure](https://github.com/absholi7ly/Microsoft-Edge-Information-Disclosure)
 
-### CVE-2024-30078 (2024-06-11)
-
-<code>Windows Wi-Fi Driver Remote Code Execution Vulnerability
-</code>
-
-- [lvyitian/CVE-2024-30078-](https://github.com/lvyitian/CVE-2024-30078-)
-- [52by/CVE-2024-30078](https://github.com/52by/CVE-2024-30078)
-- [nkontopoul/checkwifivulnerability](https://github.com/nkontopoul/checkwifivulnerability)
-
 ### CVE-2024-30212 (2024-05-28)
 
 <code>If a SCSI READ(10) command is initiated via USB using the largest LBA \n(0xFFFFFFFF) with it's default block size of 512 and a count of 1,\n\nthe first 512 byte of the 0x80000000 memory area is returned to the \nuser. If the block count is increased, the full RAM can be exposed.\n\nThe same method works to write to this memory area. If RAM contains \npointers, those can be - depending on the application - overwritten to\n\nreturn data from any other offset including Progam and Boot Flash.
