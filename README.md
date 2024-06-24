@@ -736,6 +736,7 @@
 - [VictorShem/CVE-2024-4577](https://github.com/VictorShem/CVE-2024-4577)
 - [jakabakos/CVE-2024-4577-PHP-CGI-argument-injection-RCE](https://github.com/jakabakos/CVE-2024-4577-PHP-CGI-argument-injection-RCE)
 - [amandineVdw/CVE-2024-4577](https://github.com/amandineVdw/CVE-2024-4577)
+- [PhinehasNarh/CVE-2024-4577-Defend](https://github.com/PhinehasNarh/CVE-2024-4577-Defend)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -2313,6 +2314,13 @@
 
 - [absholi7ly/Microsoft-Edge-Information-Disclosure](https://github.com/absholi7ly/Microsoft-Edge-Information-Disclosure)
 
+### CVE-2024-30088 (2024-06-11)
+
+<code>Windows Kernel Elevation of Privilege Vulnerability
+</code>
+
+- [tykawaii98/CVE-2024-30088](https://github.com/tykawaii98/CVE-2024-30088)
+
 ### CVE-2024-30212 (2024-05-28)
 
 <code>If a SCSI READ(10) command is initiated via USB using the largest LBA \n(0xFFFFFFFF) with it's default block size of 512 and a count of 1,\n\nthe first 512 byte of the 0x80000000 memory area is returned to the \nuser. If the block count is increased, the full RAM can be exposed.\n\nThe same method works to write to this memory area. If RAM contains \npointers, those can be - depending on the application - overwritten to\n\nreturn data from any other offset including Progam and Boot Flash.
@@ -2371,6 +2379,9 @@
 
 ### CVE-2024-30896
 - [XenoM0rph97/CVE-2024-30896](https://github.com/XenoM0rph97/CVE-2024-30896)
+
+### CVE-2024-30956
+- [leoCottret/CVE-2024-30956](https://github.com/leoCottret/CVE-2024-30956)
 
 ### CVE-2024-30973 (2024-05-06)
 
@@ -2522,6 +2533,13 @@
 
 - [Wadewfsssss/CVE-2024-32004](https://github.com/Wadewfsssss/CVE-2024-32004)
 - [10cks/CVE-2024-32004-POC](https://github.com/10cks/CVE-2024-32004-POC)
+
+### CVE-2024-32030 (2024-06-19)
+
+<code>Kafka UI is an Open-Source Web UI for Apache Kafka Management. Kafka UI API allows users to connect to different Kafka brokers by specifying their network address and port. As a separate feature, it also provides the ability to monitor the performance of Kafka brokers by connecting to their JMX ports. JMX is based on the RMI protocol, so it is inherently susceptible to deserialization attacks. A potential attacker can exploit this feature by connecting Kafka UI backend to its own malicious broker. This vulnerability affects the deployments where one of the following occurs: 1. dynamic.config.enabled property is set in settings. It's not enabled by default, but it's suggested to be enabled in many tutorials for Kafka UI, including its own README.md. OR  2. an attacker has access to the Kafka cluster that is being connected to Kafka UI. In this scenario the attacker can exploit this vulnerability to expand their access and execute code on Kafka UI as well. Instead of setting up a legitimate JMX port, an attacker can create an RMI listener that returns a malicious serialized object for any RMI call. In the worst case it could lead to remote code execution as Kafka UI has the required gadget chains in its classpath. This issue may lead to post-auth remote code execution. This is particularly dangerous as Kafka-UI does not have authentication enabled by default. This issue has been addressed in version 0.7.2. All users are advised to upgrade. There are no known workarounds for this vulnerability. These issues were discovered and reported by the GitHub Security lab and is also tracked as GHSL-2023-230.
+</code>
+
+- [huseyinstif/CVE-2024-32030-Nuclei-Template](https://github.com/huseyinstif/CVE-2024-32030-Nuclei-Template)
 
 ### CVE-2024-32113 (2024-05-08)
 
@@ -5150,7 +5168,6 @@
 - [z3n70/CVE-2023-23752](https://github.com/z3n70/CVE-2023-23752)
 - [keyuan15/CVE-2023-23752](https://github.com/keyuan15/CVE-2023-23752)
 - [adriyansyah-mf/CVE-2023-23752](https://github.com/adriyansyah-mf/CVE-2023-23752)
-- [haxor1337x/Mass-Checker-CVE-2023-23752](https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752)
 - [GhostToKnow/CVE-2023-23752](https://github.com/GhostToKnow/CVE-2023-23752)
 - [gibran-abdillah/CVE-2023-23752](https://github.com/gibran-abdillah/CVE-2023-23752)
 - [Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752)
@@ -6120,7 +6137,6 @@
 - [ipk1/CVE-2023-29489.py](https://github.com/ipk1/CVE-2023-29489.py)
 - [Mostafa-Elguerdawi/CVE-2023-29489.yaml](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml)
 - [Mostafa-Elguerdawi/CVE-2023-29489](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489)
-- [haxor1337x/Scanner-CVE-2023-29489](https://github.com/haxor1337x/Scanner-CVE-2023-29489)
 - [whalebone7/EagleEye](https://github.com/whalebone7/EagleEye)
 - [1337r0j4n/CVE-2023-29489](https://github.com/1337r0j4n/CVE-2023-29489)
 - [Abdullah7-ma/CVE-2023-29489](https://github.com/Abdullah7-ma/CVE-2023-29489)
@@ -9805,7 +9821,6 @@
 - [Chocapikk/CVE-2023-46805](https://github.com/Chocapikk/CVE-2023-46805)
 - [mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped](https://github.com/mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped)
 - [w2xim3/CVE-2023-46805](https://github.com/w2xim3/CVE-2023-46805)
-- [Cappricio-Securities/CVE-2023-46805](https://github.com/Cappricio-Securities/CVE-2023-46805)
 
 ### CVE-2023-46813 (2023-10-27)
 
@@ -33510,7 +33525,6 @@
 - [yassineaboukir/CVE-2018-0296](https://github.com/yassineaboukir/CVE-2018-0296)
 - [bhenner1/CVE-2018-0296](https://github.com/bhenner1/CVE-2018-0296)
 - [qiantu88/CVE-2018-0296](https://github.com/qiantu88/CVE-2018-0296)
-- [Cappricio-Securities/CVE-2018-0296](https://github.com/Cappricio-Securities/CVE-2018-0296)
 
 ### CVE-2018-0708 (2018-07-10)
 
