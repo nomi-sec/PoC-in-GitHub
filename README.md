@@ -5057,6 +5057,13 @@
 - [emanueldosreis/nmap-CVE-2023-23333-exploit](https://github.com/emanueldosreis/nmap-CVE-2023-23333-exploit)
 - [binaryusergearone/SolarView-Compact-6.00-Command-Injection-Exploit-CVE-2023-23333-](https://github.com/binaryusergearone/SolarView-Compact-6.00-Command-Injection-Exploit-CVE-2023-23333-)
 
+### CVE-2023-23388 (2023-03-14)
+
+<code>Windows Bluetooth Driver Elevation of Privilege Vulnerability
+</code>
+
+- [ynwarcs/CVE-2023-23388](https://github.com/ynwarcs/CVE-2023-23388)
+
 ### CVE-2023-23396 (2023-03-14)
 
 <code>Microsoft Excel Denial of Service Vulnerability
@@ -5327,6 +5334,13 @@
 </code>
 
 - [csffs/CVE-2023-24775-and-CVE-2023-24780](https://github.com/csffs/CVE-2023-24775-and-CVE-2023-24780)
+
+### CVE-2023-24871 (2023-03-14)
+
+<code>Windows Bluetooth Service Remote Code Execution Vulnerability
+</code>
+
+- [ynwarcs/CVE-2023-24871](https://github.com/ynwarcs/CVE-2023-24871)
 
 ### CVE-2023-24932 (2023-05-09)
 
