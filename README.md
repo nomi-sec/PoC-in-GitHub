@@ -2265,6 +2265,13 @@
 
 - [sinsinology/CVE-2024-29855](https://github.com/sinsinology/CVE-2024-29855)
 
+### CVE-2024-29868 (2024-06-24)
+
+<code>Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG) vulnerability in Apache StreamPipes user self-registration and password recovery mechanism.\nThis allows an attacker to guess the recovery token in a reasonable time and thereby to take over the attacked user's account.\nThis issue affects Apache StreamPipes: from 0.69.0 through 0.93.0.\n\nUsers are recommended to upgrade to version 0.95.0, which fixes the issue.\n\n
+</code>
+
+- [DEVisions/CVE-2024-29868](https://github.com/DEVisions/CVE-2024-29868)
+
 ### CVE-2024-29895 (2024-05-13)
 
 <code>Cacti provides an operational monitoring and fault management framework. A command injection vulnerability on the 1.3.x DEV branch allows any unauthenticated user to execute arbitrary command on the server when `register_argc_argv` option of PHP is `On`. In `cmd_realtime.php` line 119, the `$poller_id` used as part of the command execution is sourced from `$_SERVER['argv']`, which can be controlled by URL when `register_argc_argv` option of PHP is `On`. And this option is `On` by default in many environments such as the main PHP Docker image for PHP. Commit 53e8014d1f082034e0646edc6286cde3800c683d contains a patch for the issue, but this commit was reverted in commit 99633903cad0de5ace636249de16f77e57a3c8fc.
@@ -31040,6 +31047,7 @@
 - [Jason-Siu/CVE-2019-9053-Exploit-in-Python-3](https://github.com/Jason-Siu/CVE-2019-9053-Exploit-in-Python-3)
 - [FedericoTorres233/CVE-2019-9053-Fixed](https://github.com/FedericoTorres233/CVE-2019-9053-Fixed)
 - [Dh4nuJ4/SimpleCTF-UpdatedExploit](https://github.com/Dh4nuJ4/SimpleCTF-UpdatedExploit)
+- [TeymurNovruzov/CVE-2019-9053-python3-remastered](https://github.com/TeymurNovruzov/CVE-2019-9053-python3-remastered)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
