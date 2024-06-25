@@ -2648,6 +2648,13 @@
 
 - [HBLocker/CVE-2024-33078](https://github.com/HBLocker/CVE-2024-33078)
 
+### CVE-2024-33113 (2024-05-06)
+
+<code>D-LINK DIR-845L &lt;=v1.01KRb03 is vulnerable to Information disclosurey via bsc_sms_inbox.php.
+</code>
+
+- [FaLLenSKiLL1/CVE-2024-33113](https://github.com/FaLLenSKiLL1/CVE-2024-33113)
+
 ### CVE-2024-33438 (2024-04-29)
 
 <code>File Upload vulnerability in CubeCart before 6.5.5 allows an authenticated user to execute arbitrary code via a crafted .phar file.
@@ -2735,10 +2742,18 @@
 
 - [3309899621/CVE-2024-34310](https://github.com/3309899621/CVE-2024-34310)
 
-### CVE-2024-34312
+### CVE-2024-34312 (2024-06-24)
+
+<code>Virtual Programming Lab for Moodle up to v4.2.3 was discovered to contain a cross-site scripting (XSS) vulnerability via the component vplide.js.
+</code>
+
 - [vincentscode/CVE-2024-34312](https://github.com/vincentscode/CVE-2024-34312)
 
-### CVE-2024-34313
+### CVE-2024-34313 (2024-06-24)
+
+<code>An issue in VPL Jail System up to v4.0.2 allows attackers to execute a directory traversal via a crafted request to a public endpoint.
+</code>
+
 - [vincentscode/CVE-2024-34313](https://github.com/vincentscode/CVE-2024-34313)
 
 ### CVE-2024-34351 (2024-05-09)
@@ -2927,7 +2942,11 @@
 ### CVE-2024-37742
 - [Eteblue/CVE-2024-37742](https://github.com/Eteblue/CVE-2024-37742)
 
-### CVE-2024-37759
+### CVE-2024-37759 (2024-06-24)
+
+<code>DataGear v5.0.0 and earlier was discovered to contain a SpEL (Spring Expression Language) expression injection vulnerability via the Data Viewing interface.
+</code>
+
 - [crumbledwall/CVE-2024-37759_PoC](https://github.com/crumbledwall/CVE-2024-37759_PoC)
 
 ### CVE-2024-37791 (2024-06-18)
@@ -5467,6 +5486,7 @@
 - [tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL](https://github.com/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL)
 - [dhmosfunk/CVE-2023-25690-POC](https://github.com/dhmosfunk/CVE-2023-25690-POC)
 - [thanhlam-attt/CVE-2023-25690](https://github.com/thanhlam-attt/CVE-2023-25690)
+- [g4nkd/CVE-2023-25690-PoC](https://github.com/g4nkd/CVE-2023-25690-PoC)
 
 ### CVE-2023-25725 (2023-02-14)
 
@@ -10528,6 +10548,13 @@
 </code>
 
 - [geraldoalcantara/CVE-2023-49989](https://github.com/geraldoalcantara/CVE-2023-49989)
+
+### CVE-2023-50029 (2024-06-24)
+
+<code>PHP Injection vulnerability in the module &quot;M4 PDF Extensions&quot; (m4pdf) up to version 3.3.2 from PrestaAddons for PrestaShop allows attackers to run arbitrary code via the M4PDF::saveTemplate() method.
+</code>
+
+- [absholi7ly/PHP-Injection-in-M4-PDF-Extensions](https://github.com/absholi7ly/PHP-Injection-in-M4-PDF-Extensions)
 
 ### CVE-2023-50070 (2023-12-29)
 
