@@ -2976,13 +2976,6 @@
 - [LeadroyaL/CVE-2024-37051-EXP](https://github.com/LeadroyaL/CVE-2024-37051-EXP)
 - [mrblackstar26/CVE-2024-37051](https://github.com/mrblackstar26/CVE-2024-37051)
 
-### CVE-2024-37079 (2024-06-18)
-
-<code>vCenter Server contains a heap-overflow vulnerability in the implementation of the DCERPC protocol. A malicious actor with network access to vCenter Server may trigger this vulnerability by sending a specially crafted network packet potentially leading to remote code execution.
-</code>
-
-- [v3rce/CVE-2024-37079-RCE-POC](https://github.com/v3rce/CVE-2024-37079-RCE-POC)
-
 ### CVE-2024-37393 (2024-06-10)
 
 <code>Multiple LDAP injections vulnerabilities exist in SecurEnvoy MFA before 9.4.514 due to improper validation of user-supplied input. An unauthenticated remote attacker could exfiltrate data from Active Directory through blind LDAP injection attacks against the DESKTOP service exposed on the /secserver HTTP endpoint. This may include ms-Mcs-AdmPwd, which has a cleartext password for the Local Administrator Password Solution (LAPS) feature.
@@ -3038,6 +3031,9 @@
 </code>
 
 - [vin01/poc-cve-2024-38396](https://github.com/vin01/poc-cve-2024-38396)
+
+### CVE-2024-39249
+- [zunak/CVE-2024-39249](https://github.com/zunak/CVE-2024-39249)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -22608,6 +22604,7 @@
 - [K3ysTr0K3R/CVE-2021-42013-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-42013-EXPLOIT)
 - [imhunterand/CVE-2021-42013](https://github.com/imhunterand/CVE-2021-42013)
 - [BassoNicolas/CVE-2021-42013](https://github.com/BassoNicolas/CVE-2021-42013)
+- [rafifdna/CVE-2021-42013](https://github.com/rafifdna/CVE-2021-42013)
 
 ### CVE-2021-42063 (2021-12-14)
 
