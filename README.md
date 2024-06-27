@@ -2342,6 +2342,7 @@
 </code>
 
 - [tykawaii98/CVE-2024-30088](https://github.com/tykawaii98/CVE-2024-30088)
+- [NextGenPentesters/CVE-2024-30088-](https://github.com/NextGenPentesters/CVE-2024-30088-)
 
 ### CVE-2024-30212 (2024-05-28)
 
@@ -2722,13 +2723,6 @@
 </code>
 
 - [xbz0n/CVE-2024-33911](https://github.com/xbz0n/CVE-2024-33911)
-
-### CVE-2024-34102 (2024-06-13)
-
-<code>Adobe Commerce versions 2.4.7, 2.4.6-p5, 2.4.5-p7, 2.4.4-p8 and earlier are affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability that could result in arbitrary code execution. An attacker could exploit this vulnerability by sending a crafted XML document that references external entities. Exploitation of this issue does not require user interaction.
-</code>
-
-- [ex-arny/CVE-2024-34102-RCE](https://github.com/ex-arny/CVE-2024-34102-RCE)
 
 ### CVE-2024-34220 (-)
 
@@ -5787,6 +5781,7 @@
 - [MasterCode112/CVE-2023-27163](https://github.com/MasterCode112/CVE-2023-27163)
 - [Rubioo02/CVE-2023-27163](https://github.com/Rubioo02/CVE-2023-27163)
 - [madhavmehndiratta/CVE-2023-27163](https://github.com/madhavmehndiratta/CVE-2023-27163)
+- [Rishabh-Kumar-Cyber-Sec/CVE-2023-27163-ssrf-to-port-scanning](https://github.com/Rishabh-Kumar-Cyber-Sec/CVE-2023-27163-ssrf-to-port-scanning)
 
 ### CVE-2023-27216 (2023-04-12)
 
@@ -15973,7 +15968,7 @@
 <code>The remote keyless system on Renault ZOE 2021 vehicles sends 433.92 MHz RF signals from the same Rolling Codes set for each door-open request, which allows for a replay attack.
 </code>
 
-- [AUTOCRYPT-RED/CVE-2022-38766](https://github.com/AUTOCRYPT-RED/CVE-2022-38766)
+- [MalHyuk/CVE-2022-38766](https://github.com/MalHyuk/CVE-2022-38766)
 
 ### CVE-2022-38789 (2022-09-15)
 
@@ -18525,6 +18520,7 @@
 - [pmihsan/OverlayFS-CVE-2021-3493](https://github.com/pmihsan/OverlayFS-CVE-2021-3493)
 - [smallkill/CVE-2021-3493](https://github.com/smallkill/CVE-2021-3493)
 - [ptkhai15/OverlayFS---CVE-2021-3493](https://github.com/ptkhai15/OverlayFS---CVE-2021-3493)
+- [iamz24/CVE-2021-3493_CVE--2022-3357](https://github.com/iamz24/CVE-2021-3493_CVE--2022-3357)
 
 ### CVE-2021-3516 (2021-06-01)
 
