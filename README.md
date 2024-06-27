@@ -2297,6 +2297,13 @@
 - [ticofookfook/CVE-2024-29895.py](https://github.com/ticofookfook/CVE-2024-29895.py)
 - [Rubioo02/CVE-2024-29895](https://github.com/Rubioo02/CVE-2024-29895)
 
+### CVE-2024-29943 (2024-03-22)
+
+<code>An attacker was able to perform an out-of-bounds read or write on a JavaScript object by fooling range-based bounds check elimination. This vulnerability affects Firefox &lt; 124.0.1.
+</code>
+
+- [bjrjk/CVE-2024-29943](https://github.com/bjrjk/CVE-2024-29943)
+
 ### CVE-2024-29972 (2024-06-04)
 
 <code>** UNSUPPORTED WHEN ASSIGNED **\nThe command injection vulnerability in the CGI program &quot;remote_help-cgi&quot; in Zyxel NAS326 firmware versions before V5.21(AAZF.17)C0 and NAS542 firmware versions before V5.21(ABAG.14)C0 could allow an unauthenticated attacker to execute some operating system (OS) commands by sending a crafted HTTP POST request.
@@ -2657,13 +2664,6 @@
 
 - [truonghuuphuc/CVE-2024-32709-Poc](https://github.com/truonghuuphuc/CVE-2024-32709-Poc)
 
-### CVE-2024-32766 (2024-04-26)
-
-<code>An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.3.2578 build 20231110 and later\nQTS 4.5.4.2627 build 20231225 and later\nQuTS hero h5.1.3.2578 build 20231110 and later\nQuTS hero h4.5.4.2626 build 20231225 and later\nQuTScloud c5.1.5.2651 and later\n
-</code>
-
-- [3W1nd4r/CVE-2024-32766-RCE](https://github.com/3W1nd4r/CVE-2024-32766-RCE)
-
 ### CVE-2024-33078 (2024-05-01)
 
 <code>Tencent Libpag v4.3 is vulnerable to Buffer Overflow. A user can send a crafted image to trigger a overflow leading to remote code execution.
@@ -2723,6 +2723,14 @@
 </code>
 
 - [xbz0n/CVE-2024-33911](https://github.com/xbz0n/CVE-2024-33911)
+
+### CVE-2024-34102 (2024-06-13)
+
+<code>Adobe Commerce versions 2.4.7, 2.4.6-p5, 2.4.5-p7, 2.4.4-p8 and earlier are affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability that could result in arbitrary code execution. An attacker could exploit this vulnerability by sending a crafted XML document that references external entities. Exploitation of this issue does not require user interaction.
+</code>
+
+- [ArturArz1/TestCVE-2024-34102](https://github.com/ArturArz1/TestCVE-2024-34102)
+- [th3gokul/CVE-2024-34102](https://github.com/th3gokul/CVE-2024-34102)
 
 ### CVE-2024-34220 (-)
 
@@ -2793,6 +2801,13 @@
 </code>
 
 - [vincentscode/CVE-2024-34313](https://github.com/vincentscode/CVE-2024-34313)
+
+### CVE-2024-34350 (2024-05-09)
+
+<code>Next.js is a React framework that can provide building blocks to create web applications. Prior to 13.5.1, an inconsistent interpretation of a crafted HTTP request meant that requests are treated as both a single request, and two separate requests by Next.js, leading to desynchronized responses. This led to a response queue poisoning vulnerability in the affected Next.js versions. For a request to be exploitable, the affected route also had to be making use of the [rewrites](https://nextjs.org/docs/app/api-reference/next-config-js/rewrites) feature in Next.js. The vulnerability is resolved in Next.js `13.5.1` and newer.
+</code>
+
+- [Sudistark/rewrites-nextjs-CVE-2024-34350](https://github.com/Sudistark/rewrites-nextjs-CVE-2024-34350)
 
 ### CVE-2024-34351 (2024-05-09)
 
@@ -10332,6 +10347,7 @@
 - [creacitysec/CVE-2023-49103](https://github.com/creacitysec/CVE-2023-49103)
 - [MixColumns/CVE-2023-49103](https://github.com/MixColumns/CVE-2023-49103)
 - [merlin-ke/OwnCloud-CVE-2023-49103](https://github.com/merlin-ke/OwnCloud-CVE-2023-49103)
+- [d0rb/CVE-2023-49103](https://github.com/d0rb/CVE-2023-49103)
 
 ### CVE-2023-49105 (2023-11-21)
 
@@ -14179,7 +14195,7 @@
 <code>By using a link with &lt;code&gt;rel=&quot;localization&quot;&lt;/code&gt; a use-after-free could have been triggered by destroying an object during JavaScript execution and then referencing the object through a freed pointer, leading to a potential exploitable crash. This vulnerability affects Thunderbird &lt; 91.8, Firefox &lt; 99, and Firefox ESR &lt; 91.8.
 </code>
 
-- [MagicPwnrin/CVE-2022-28282](https://github.com/MagicPwnrin/CVE-2022-28282)
+- [bb33bb/CVE-2022-28282-firefox](https://github.com/bb33bb/CVE-2022-28282-firefox)
 
 ### CVE-2022-28346 (2022-04-12)
 
@@ -15428,7 +15444,7 @@
 <code>Windows GDI Elevation of Privilege Vulnerability
 </code>
 
-- [MagicPwnrin/CVE-2022-34729](https://github.com/MagicPwnrin/CVE-2022-34729)
+- [5l1v3r1/CVE-2022-34729](https://github.com/5l1v3r1/CVE-2022-34729)
 
 ### CVE-2022-34753 (2022-07-12)
 
@@ -15962,6 +15978,7 @@
 
 ### CVE-2022-38694
 - [TomKing062/CVE-2022-38694_unlock_bootloader](https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader)
+- [TheGammaSqueeze/Bootloader_Unlock_Anbernic_T820](https://github.com/TheGammaSqueeze/Bootloader_Unlock_Anbernic_T820)
 
 ### CVE-2022-38766 (2023-01-03)
 
@@ -18520,7 +18537,6 @@
 - [pmihsan/OverlayFS-CVE-2021-3493](https://github.com/pmihsan/OverlayFS-CVE-2021-3493)
 - [smallkill/CVE-2021-3493](https://github.com/smallkill/CVE-2021-3493)
 - [ptkhai15/OverlayFS---CVE-2021-3493](https://github.com/ptkhai15/OverlayFS---CVE-2021-3493)
-- [iamz24/CVE-2021-3493_CVE--2022-3357](https://github.com/iamz24/CVE-2021-3493_CVE--2022-3357)
 
 ### CVE-2021-3516 (2021-06-01)
 
@@ -30059,13 +30075,6 @@
 </code>
 
 - [sgabe/CVE-2019-1476](https://github.com/sgabe/CVE-2019-1476)
-
-### CVE-2019-1477 (2019-12-10)
-
-<code>An elevation of privilege vulnerability exists when the Windows Printer Service improperly validates file paths while loading printer drivers, aka 'Windows Printer Service Elevation of Privilege Vulnerability'.
-</code>
-
-- [dydx-0/CVE-2019-1477](https://github.com/dydx-0/CVE-2019-1477)
 
 ### CVE-2019-1579 (2019-07-19)
 
