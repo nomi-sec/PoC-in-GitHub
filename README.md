@@ -2985,7 +2985,7 @@
 
 ### CVE-2024-37742 (2024-06-25)
 
-<code>An issue in Safe Exam Browser for Windows before 3.6 allows an attacker to share clipboard data between the SEB kiosk mode and the underlying system, compromising exam integrity which may lead to arbitrary code execution and obtaining sensitive information via the Clipboard Management component.
+<code>Insecure Access Control in Safe Exam Browser (SEB) = 3.5.0 on Windows. The vulnerability allows an attacker to share clipboard data between the SEB kiosk mode and the underlying system, compromising exam integrity. By exploiting this flaw, an attacker can bypass exam controls and gain an unfair advantage during exams.
 </code>
 
 - [Eteblue/CVE-2024-37742](https://github.com/Eteblue/CVE-2024-37742)
@@ -3031,6 +3031,9 @@
 </code>
 
 - [vin01/poc-cve-2024-38396](https://github.com/vin01/poc-cve-2024-38396)
+
+### CVE-2024-39248
+- [jasonthename/CVE-2024-39248](https://github.com/jasonthename/CVE-2024-39248)
 
 ### CVE-2024-39249
 - [zunak/CVE-2024-39249](https://github.com/zunak/CVE-2024-39249)
@@ -3890,6 +3893,13 @@
 - [E1A/CVE-2023-4596](https://github.com/E1A/CVE-2023-4596)
 - [X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version](https://github.com/X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version)
 - [RHYru9/CVE-2023-4596-checker](https://github.com/RHYru9/CVE-2023-4596-checker)
+
+### CVE-2023-4622 (2023-09-06)
+
+<code>A use-after-free vulnerability in the Linux kernel's af_unix component can be exploited to achieve local privilege escalation.\n\nThe unix_stream_sendpage() function tries to add data to the last skb in the peer's recv queue without locking the queue. Thus there is a race where unix_stream_sendpage() could access an skb locklessly that is being released by garbage collection, resulting in use-after-free.\n\nWe recommend upgrading past commit 790c2f9d15b594350ae9bca7b236f2b1859de02c.\n\n
+</code>
+
+- [0range1337/CVE-CVE-2023-4622](https://github.com/0range1337/CVE-CVE-2023-4622)
 
 ### CVE-2023-4631 (2023-09-25)
 
@@ -38963,7 +38973,7 @@
 <code>Insufficient data validation in V8 builtins string generator could lead to out of bounds read and write access in V8 in Google Chrome prior to 62.0.3202.94 and allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.
 </code>
 
-- [Michelangelo-S/CVE-2017-15428](https://github.com/Michelangelo-S/CVE-2017-15428)
+- [w1ldb1t/CVE-2017-15428](https://github.com/w1ldb1t/CVE-2017-15428)
 
 ### CVE-2017-15708 (2017-12-10)
 
@@ -41387,6 +41397,7 @@
 
 - [G01d3nW01f/CVE-2015-6668](https://github.com/G01d3nW01f/CVE-2015-6668)
 - [c0d3cr4f73r/CVE-2015-6668](https://github.com/c0d3cr4f73r/CVE-2015-6668)
+- [jimdiroffii/CVE-2015-6668](https://github.com/jimdiroffii/CVE-2015-6668)
 
 ### CVE-2015-6748 (2017-09-25)
 
