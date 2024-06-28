@@ -732,13 +732,13 @@
 - [hexedbyte/cve-2024-4577](https://github.com/hexedbyte/cve-2024-4577)
 - [Sh0ckFR/CVE-2024-4577](https://github.com/Sh0ckFR/CVE-2024-4577)
 - [gotr00t0day/CVE-2024-4577](https://github.com/gotr00t0day/CVE-2024-4577)
-- [AlperenY-cs/CVE-2024-4577](https://github.com/AlperenY-cs/CVE-2024-4577)
 - [VictorShem/CVE-2024-4577](https://github.com/VictorShem/CVE-2024-4577)
 - [jakabakos/CVE-2024-4577-PHP-CGI-argument-injection-RCE](https://github.com/jakabakos/CVE-2024-4577-PHP-CGI-argument-injection-RCE)
 - [amandineVdw/CVE-2024-4577](https://github.com/amandineVdw/CVE-2024-4577)
 - [PhinehasNarh/CVE-2024-4577-Defend](https://github.com/PhinehasNarh/CVE-2024-4577-Defend)
 - [ggfzx/CVE-2024-4577](https://github.com/ggfzx/CVE-2024-4577)
 - [olebris/CVE-2024-4577](https://github.com/olebris/CVE-2024-4577)
+- [AlperenY-cs/CVE-2024-4577](https://github.com/AlperenY-cs/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -839,6 +839,7 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806](https://github.com/watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806)
+- [glen-pearson/MoveIT_CVE-2024-5806](https://github.com/glen-pearson/MoveIT_CVE-2024-5806)
 
 ### CVE-2024-6028 (2024-06-25)
 
@@ -885,13 +886,6 @@
 </code>
 
 - [AbdElRahmanEzzat1995/CVE-2024-20405](https://github.com/AbdElRahmanEzzat1995/CVE-2024-20405)
-
-### CVE-2024-20656 (2024-01-09)
-
-<code>Visual Studio Elevation of Privilege Vulnerability
-</code>
-
-- [Wh04m1001/CVE-2024-20656](https://github.com/Wh04m1001/CVE-2024-20656)
 
 ### CVE-2024-20666 (2024-01-09)
 
@@ -956,13 +950,6 @@
 - [mansk1es/CVE-2024-21111](https://github.com/mansk1es/CVE-2024-21111)
 - [10cks/CVE-2024-21111-del](https://github.com/10cks/CVE-2024-21111-del)
 - [x0rsys/CVE-2024-21111](https://github.com/x0rsys/CVE-2024-21111)
-
-### CVE-2024-21305 (2024-01-09)
-
-<code>Hypervisor-Protected Code Integrity (HVCI) Security Feature Bypass Vulnerability
-</code>
-
-- [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
 
 ### CVE-2024-21306 (2024-01-09)
 
@@ -1105,7 +1092,6 @@
 <code>A command injection vulnerability in web components of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x)  allows an authenticated administrator to send specially crafted requests and execute arbitrary commands on the appliance.
 </code>
 
-- [oways/ivanti-CVE-2024-21887](https://github.com/oways/ivanti-CVE-2024-21887)
 - [duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887)
 - [Chocapikk/CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21887)
 - [raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887](https://github.com/raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887)
@@ -2757,6 +2743,8 @@
 - [th3gokul/CVE-2024-34102](https://github.com/th3gokul/CVE-2024-34102)
 - [bigb0x/CVE-2024-34102](https://github.com/bigb0x/CVE-2024-34102)
 - [dr3u1d/CVE-2024-34102-RCE](https://github.com/dr3u1d/CVE-2024-34102-RCE)
+- [11whoami99/CVE-2024-34102](https://github.com/11whoami99/CVE-2024-34102)
+- [d0rb/CVE-2024-34102](https://github.com/d0rb/CVE-2024-34102)
 
 ### CVE-2024-34220 (-)
 
@@ -7310,6 +7298,7 @@
 - [toorandom/moveit-payload-decrypt-CVE-2023-34362](https://github.com/toorandom/moveit-payload-decrypt-CVE-2023-34362)
 - [errorfiathck/MOVEit-Exploit](https://github.com/errorfiathck/MOVEit-Exploit)
 - [Chinyemba-ck/MOVEit-CVE-2023-34362](https://github.com/Chinyemba-ck/MOVEit-CVE-2023-34362)
+- [glen-pearson/CVE-2023-34362-RCE](https://github.com/glen-pearson/CVE-2023-34362-RCE)
 
 ### CVE-2023-34458 (2023-07-13)
 
@@ -12075,6 +12064,7 @@
 </code>
 
 - [Bariskizilkaya/CVE-2022-20186_CTXZ](https://github.com/Bariskizilkaya/CVE-2022-20186_CTXZ)
+- [SmileTabLabo/CVE-2022-20186](https://github.com/SmileTabLabo/CVE-2022-20186)
 
 ### CVE-2022-20224 (2022-07-13)
 
@@ -17289,6 +17279,7 @@
 
 - [Pro-me3us/CVE_2022_46395_Gazelle](https://github.com/Pro-me3us/CVE_2022_46395_Gazelle)
 - [Pro-me3us/CVE_2022_46395_Raven](https://github.com/Pro-me3us/CVE_2022_46395_Raven)
+- [SmileTabLabo/CVE-2022-46395](https://github.com/SmileTabLabo/CVE-2022-46395)
 
 ### CVE-2022-46463 (2023-01-12)
 
