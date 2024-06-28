@@ -607,6 +607,7 @@
 - [jakabakos/CVE-2024-4040-CrushFTP-File-Read-vulnerability](https://github.com/jakabakos/CVE-2024-4040-CrushFTP-File-Read-vulnerability)
 - [gotr00t0day/CVE-2024-4040](https://github.com/gotr00t0day/CVE-2024-4040)
 - [1ncendium/CVE-2024-4040](https://github.com/1ncendium/CVE-2024-4040)
+- [olebris/CVE-2024-4040](https://github.com/olebris/CVE-2024-4040)
 
 ### CVE-2024-4231 (2024-05-10)
 
@@ -737,6 +738,7 @@
 - [amandineVdw/CVE-2024-4577](https://github.com/amandineVdw/CVE-2024-4577)
 - [PhinehasNarh/CVE-2024-4577-Defend](https://github.com/PhinehasNarh/CVE-2024-4577-Defend)
 - [ggfzx/CVE-2024-4577](https://github.com/ggfzx/CVE-2024-4577)
+- [olebris/CVE-2024-4577](https://github.com/olebris/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -809,6 +811,27 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-5522-Poc](https://github.com/truonghuuphuc/CVE-2024-5522-Poc)
+
+### CVE-2024-5735 (2024-06-28)
+
+<code>Full Path Disclosure vulnerability in AdmirorFrames Joomla! extension in afHelper.php script allows an unauthorised attacker to retrieve location of web root folder. This issue affects AdmirorFrames: before 5.0.
+</code>
+
+- [afine-com/CVE-2024-5735](https://github.com/afine-com/CVE-2024-5735)
+
+### CVE-2024-5736 (2024-06-28)
+
+<code>Server Side Request Forgery (SSRF) vulnerability in AdmirorFrames Joomla! extension in afGdStream.php script allows to access local files or server pages available only from localhost. This issue affects AdmirorFrames: before 5.0.
+</code>
+
+- [afine-com/CVE-2024-5736](https://github.com/afine-com/CVE-2024-5736)
+
+### CVE-2024-5737 (2024-06-28)
+
+<code>Script afGdStream.php in AdmirorFrames Joomla! extension doesn’t specify a content type and as a result default (text/html) is used. An attacker may embed HTML tags directly in image data which is rendered by a webpage as HTML. This issue affects AdmirorFrames: before 5.0.
+</code>
+
+- [afine-com/CVE-2024-5737](https://github.com/afine-com/CVE-2024-5737)
 
 ### CVE-2024-5806 (2024-06-25)
 
@@ -1006,6 +1029,7 @@
 - [X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit](https://github.com/X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit)
 - [th3Hellion/CVE-2024-21413](https://github.com/th3Hellion/CVE-2024-21413)
 - [ShubhamKanhere307/CVE-2024-21413](https://github.com/ShubhamKanhere307/CVE-2024-21413)
+- [olebris/CVE-2024-21413](https://github.com/olebris/CVE-2024-21413)
 
 ### CVE-2024-21514 (2024-06-22)
 
@@ -1030,13 +1054,6 @@
 - [Sk3pper/CVE-2024-21626](https://github.com/Sk3pper/CVE-2024-21626)
 - [KubernetesBachelor/CVE-2024-21626](https://github.com/KubernetesBachelor/CVE-2024-21626)
 - [dorser/cve-2024-21626](https://github.com/dorser/cve-2024-21626)
-
-### CVE-2024-21633 (2024-01-03)
-
-<code>Apktool is a tool for reverse engineering Android APK files. In versions 2.9.1 and prior, Apktool infers resource files' output path according to their resource names which can be manipulated by attacker to place files at desired location on the system Apktool runs on. Affected environments are those in which an attacker may write/overwrite any file that user has write access, and either user name is known or cwd is under user folder. Commit d348c43b24a9de350ff6e5bd610545a10c1fc712 contains a patch for this issue.
-</code>
-
-- [0x33c0unt/CVE-2024-21633](https://github.com/0x33c0unt/CVE-2024-21633)
 
 ### CVE-2024-21644 (2024-01-08)
 
@@ -29436,6 +29453,7 @@
 </code>
 
 - [hmartos/cve-2020-35717](https://github.com/hmartos/cve-2020-35717)
+- [Redfox-Secuirty/Hacking-Electron-Apps-CVE-2020-35717-](https://github.com/Redfox-Secuirty/Hacking-Electron-Apps-CVE-2020-35717-)
 
 ### CVE-2020-35728 (2020-12-27)
 
@@ -38755,6 +38773,7 @@
 - [jptr218/tc_hack](https://github.com/jptr218/tc_hack)
 - [LongWayHomie/CVE-2017-12617](https://github.com/LongWayHomie/CVE-2017-12617)
 - [K3ysTr0K3R/CVE-2017-12617-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-12617-EXPLOIT)
+- [scirusvulgaris/CVE-2017-12617](https://github.com/scirusvulgaris/CVE-2017-12617)
 
 ### CVE-2017-12624 (2017-11-14)
 
