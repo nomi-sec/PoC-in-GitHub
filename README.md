@@ -1056,6 +1056,13 @@
 - [phucrio/CVE-2024-21683-RCE](https://github.com/phucrio/CVE-2024-21683-RCE)
 - [xh4vm/CVE-2024-21683](https://github.com/xh4vm/CVE-2024-21683)
 
+### CVE-2024-21754 (2024-06-11)
+
+<code>A use of password hash with insufficient computational effort vulnerability [CWE-916] affecting FortiOS version 7.4.3 and below, 7.2 all versions, 7.0 all versions, 6.4 all versions and FortiProxy version 7.4.2 and below, 7.2 all versions, 7.0 all versions, 2.0 all versions may allow a privileged attacker with super-admin profile and CLI access to decrypting the backup file.
+</code>
+
+- [CyberSecuritist/CVE-2024-21754-Forti-RCE](https://github.com/CyberSecuritist/CVE-2024-21754-Forti-RCE)
+
 ### CVE-2024-21762 (2024-02-09)
 
 <code>A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests
@@ -2731,6 +2738,8 @@
 
 - [ArturArz1/TestCVE-2024-34102](https://github.com/ArturArz1/TestCVE-2024-34102)
 - [th3gokul/CVE-2024-34102](https://github.com/th3gokul/CVE-2024-34102)
+- [bigb0x/CVE-2024-34102](https://github.com/bigb0x/CVE-2024-34102)
+- [dr3u1d/CVE-2024-34102-RCE](https://github.com/dr3u1d/CVE-2024-34102-RCE)
 
 ### CVE-2024-34220 (-)
 
