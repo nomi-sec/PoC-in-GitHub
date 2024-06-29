@@ -671,7 +671,6 @@
 - [Zombie-Kaiser/cve-2024-4367-PoC-fixed](https://github.com/Zombie-Kaiser/cve-2024-4367-PoC-fixed)
 - [snyk-labs/pdfjs-vuln-demo](https://github.com/snyk-labs/pdfjs-vuln-demo)
 - [UnHackerEnCapital/PDFernetRemotelo](https://github.com/UnHackerEnCapital/PDFernetRemotelo)
-- [Scivous/CVE-2024-4367-npm](https://github.com/Scivous/CVE-2024-4367-npm)
 
 ### CVE-2024-4439 (2024-05-03)
 
@@ -2748,7 +2747,6 @@
 - [ArturArz1/TestCVE-2024-34102](https://github.com/ArturArz1/TestCVE-2024-34102)
 - [th3gokul/CVE-2024-34102](https://github.com/th3gokul/CVE-2024-34102)
 - [bigb0x/CVE-2024-34102](https://github.com/bigb0x/CVE-2024-34102)
-- [dr3u1d/CVE-2024-34102-RCE](https://github.com/dr3u1d/CVE-2024-34102-RCE)
 - [11whoami99/CVE-2024-34102](https://github.com/11whoami99/CVE-2024-34102)
 - [d0rb/CVE-2024-34102](https://github.com/d0rb/CVE-2024-34102)
 - [Chocapikk/CVE-2024-34102](https://github.com/Chocapikk/CVE-2024-34102)
@@ -11169,7 +11167,6 @@
 <code>A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
 </code>
 
-- [Udyz/CVE-2022-0847](https://github.com/Udyz/CVE-2022-0847)
 - [bbaranoff/CVE-2022-0847](https://github.com/bbaranoff/CVE-2022-0847)
 - [xndpxs/CVE-2022-0847](https://github.com/xndpxs/CVE-2022-0847)
 - [r1is/CVE-2022-0847](https://github.com/r1is/CVE-2022-0847)
@@ -11226,6 +11223,7 @@
 - [mhanief/dirtypipe](https://github.com/mhanief/dirtypipe)
 - [tufanturhan/CVE-2022-0847-L-nux-PrivEsc](https://github.com/tufanturhan/CVE-2022-0847-L-nux-PrivEsc)
 - [rexpository/linux-privilege-escalation](https://github.com/rexpository/linux-privilege-escalation)
+- [CPT-Jack-A-Castle/CVE-2022-0847](https://github.com/CPT-Jack-A-Castle/CVE-2022-0847)
 - [isaiahsimeone/COMP3320-VAPT](https://github.com/isaiahsimeone/COMP3320-VAPT)
 - [VinuKalana/DirtyPipe-CVE-2022-0847](https://github.com/VinuKalana/DirtyPipe-CVE-2022-0847)
 - [ih3na/debian11-dirty_pipe-patcher](https://github.com/ih3na/debian11-dirty_pipe-patcher)
@@ -13206,7 +13204,7 @@
 </code>
 
 - [Mr-xn/CVE-2022-24112](https://github.com/Mr-xn/CVE-2022-24112)
-- [Udyz/CVE-2022-24112](https://github.com/Udyz/CVE-2022-24112)
+- [CrackerCat/CVE-2022-24112](https://github.com/CrackerCat/CVE-2022-24112)
 - [Axx8/CVE-2022-24112](https://github.com/Axx8/CVE-2022-24112)
 - [Mah1ndra/CVE-2022-24112](https://github.com/Mah1ndra/CVE-2022-24112)
 - [M4xSec/Apache-APISIX-CVE-2022-24112](https://github.com/M4xSec/Apache-APISIX-CVE-2022-24112)
@@ -14734,7 +14732,6 @@
 - [Jump-Wang-111/AmzWord](https://github.com/Jump-Wang-111/AmzWord)
 - [shri142/ZipScan](https://github.com/shri142/ZipScan)
 - [alien-keric/CVE-2022-30190](https://github.com/alien-keric/CVE-2022-30190)
-- [skitkat/CVE-2022-30190-POC](https://github.com/skitkat/CVE-2022-30190-POC)
 
 ### CVE-2022-30203 (2022-07-12)
 
@@ -19188,7 +19185,6 @@
 - [Osyanina/westone-CVE-2021-21972-scanner](https://github.com/Osyanina/westone-CVE-2021-21972-scanner)
 - [alt3kx/CVE-2021-21972](https://github.com/alt3kx/CVE-2021-21972)
 - [milo2012/CVE-2021-21972](https://github.com/milo2012/CVE-2021-21972)
-- [Udyz/CVE-2021-21972](https://github.com/Udyz/CVE-2021-21972)
 - [conjojo/VMware_vCenter_UNAuthorized_RCE_CVE-2021-21972](https://github.com/conjojo/VMware_vCenter_UNAuthorized_RCE_CVE-2021-21972)
 - [L-pin/CVE-2021-21972](https://github.com/L-pin/CVE-2021-21972)
 - [B1anda0/CVE-2021-21972](https://github.com/B1anda0/CVE-2021-21972)
@@ -19205,6 +19201,7 @@
 - [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
 - [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
 - [haidv35/CVE-2021-21972](https://github.com/haidv35/CVE-2021-21972)
+- [TAI-REx/CVE-2021-21972](https://github.com/TAI-REx/CVE-2021-21972)
 - [orangmuda/CVE-2021-21972](https://github.com/orangmuda/CVE-2021-21972)
 - [user16-et/cve-2021-21972_PoC](https://github.com/user16-et/cve-2021-21972_PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
@@ -19521,8 +19518,8 @@
 - [dorkerdevil/CVE-2021-22986-Poc](https://github.com/dorkerdevil/CVE-2021-22986-Poc)
 - [S1xHcL/f5_rce_poc](https://github.com/S1xHcL/f5_rce_poc)
 - [Osyanina/westone-CVE-2021-22986-scanner](https://github.com/Osyanina/westone-CVE-2021-22986-scanner)
-- [Udyz/CVE-2021-22986-SSRF2RCE](https://github.com/Udyz/CVE-2021-22986-SSRF2RCE)
 - [safesword/F5_RCE](https://github.com/safesword/F5_RCE)
+- [microvorld/CVE-2021-22986](https://github.com/microvorld/CVE-2021-22986)
 - [Al1ex/CVE-2021-22986](https://github.com/Al1ex/CVE-2021-22986)
 - [kiri-48/CVE-2021-22986](https://github.com/kiri-48/CVE-2021-22986)
 - [ZephrFish/CVE-2021-22986_Check](https://github.com/ZephrFish/CVE-2021-22986_Check)
@@ -19912,11 +19909,11 @@
 - [dinhbaouit/CVE-2021-26084](https://github.com/dinhbaouit/CVE-2021-26084)
 - [JKme/CVE-2021-26084](https://github.com/JKme/CVE-2021-26084)
 - [hev0x/CVE-2021-26084_Confluence](https://github.com/hev0x/CVE-2021-26084_Confluence)
-- [Udyz/CVE-2021-26084](https://github.com/Udyz/CVE-2021-26084)
 - [prettyrecon/CVE-2021-26084_Confluence](https://github.com/prettyrecon/CVE-2021-26084_Confluence)
 - [0xf4n9x/CVE-2021-26084](https://github.com/0xf4n9x/CVE-2021-26084)
 - [Vulnmachines/Confluence_CVE-2021-26084](https://github.com/Vulnmachines/Confluence_CVE-2021-26084)
 - [Osyanina/westone-CVE-2021-26084-scanner](https://github.com/Osyanina/westone-CVE-2021-26084-scanner)
+- [CrackerCat/CVE-2021-26084](https://github.com/CrackerCat/CVE-2021-26084)
 - [b1gw00d/CVE-2021-26084](https://github.com/b1gw00d/CVE-2021-26084)
 - [taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084)
 - [bcdannyboy/CVE-2021-26084_GoPOC](https://github.com/bcdannyboy/CVE-2021-26084_GoPOC)
@@ -19977,7 +19974,7 @@
 <code>Smarty before 3.1.39 allows a Sandbox Escape because $smarty.template_object can be accessed in sandbox mode.
 </code>
 
-- [Udyz/CVE-2021-26119](https://github.com/Udyz/CVE-2021-26119)
+- [5l1v3r1/CVE-2021-26119](https://github.com/5l1v3r1/CVE-2021-26119)
 
 ### CVE-2021-26121
 - [sourceincite/CVE-2021-26121](https://github.com/sourceincite/CVE-2021-26121)
@@ -20727,12 +20724,18 @@
 - [corelight/CVE-2021-31166](https://github.com/corelight/CVE-2021-31166)
 - [zecopro/CVE-2021-31166](https://github.com/zecopro/CVE-2021-31166)
 - [bgsilvait/WIn-CVE-2021-31166](https://github.com/bgsilvait/WIn-CVE-2021-31166)
-- [Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166)
 - [y0g3sh-99/CVE-2021-31166-Exploit](https://github.com/y0g3sh-99/CVE-2021-31166-Exploit)
 - [antx-code/CVE-2021-31166](https://github.com/antx-code/CVE-2021-31166)
 - [imikoYa/CVE-2021-31166-exploit](https://github.com/imikoYa/CVE-2021-31166-exploit)
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
 - [0xmaximus/Home-Demolisher](https://github.com/0xmaximus/Home-Demolisher)
+
+### CVE-2021-31167 (2021-05-11)
+
+<code>Windows Container Manager Service Elevation of Privilege Vulnerability
+</code>
+
+- [5l1v3r1/CVE-2021-31167](https://github.com/5l1v3r1/CVE-2021-31167)
 
 ### CVE-2021-31184 (2021-05-11)
 
@@ -22097,7 +22100,7 @@
 - [bambooqj/CVE-2021-40444_EXP_JS](https://github.com/bambooqj/CVE-2021-40444_EXP_JS)
 - [Immersive-Labs-Sec/cve-2021-40444-analysis](https://github.com/Immersive-Labs-Sec/cve-2021-40444-analysis)
 - [vysecurity/CVE-2021-40444](https://github.com/vysecurity/CVE-2021-40444)
-- [Udyz/CVE-2021-40444-Sample](https://github.com/Udyz/CVE-2021-40444-Sample)
+- [k4k4/CVE-2021-40444-Sample](https://github.com/k4k4/CVE-2021-40444-Sample)
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
 - [fengjixuchui/CVE-2021-40444-docx-Generate](https://github.com/fengjixuchui/CVE-2021-40444-docx-Generate)
 - [KnoooW/CVE-2021-40444-docx-Generate](https://github.com/KnoooW/CVE-2021-40444-docx-Generate)
@@ -22108,7 +22111,7 @@
 - [khoaduynu/CVE-2021-40444](https://github.com/khoaduynu/CVE-2021-40444)
 - [Jeromeyoung/MSHTMHell](https://github.com/Jeromeyoung/MSHTMHell)
 - [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
-- [Udyz/CVE-2021-40444-CAB](https://github.com/Udyz/CVE-2021-40444-CAB)
+- [Phuong39/CVE-2021-40444-CAB](https://github.com/Phuong39/CVE-2021-40444-CAB)
 - [Edubr2020/CVE-2021-40444--CABless](https://github.com/Edubr2020/CVE-2021-40444--CABless)
 - [kal1gh0st/CVE-2021-40444_CAB_archives](https://github.com/kal1gh0st/CVE-2021-40444_CAB_archives)
 - [LazarusReborn/Docx-Exploit-2021](https://github.com/LazarusReborn/Docx-Exploit-2021)
@@ -22125,7 +22128,6 @@
 - [RedLeavesChilde/CVE-2021-40444](https://github.com/RedLeavesChilde/CVE-2021-40444)
 - [nvchungkma/CVE-2021-40444-Microsoft-Office-Word-Remote-Code-Execution-](https://github.com/nvchungkma/CVE-2021-40444-Microsoft-Office-Word-Remote-Code-Execution-)
 - [hqdat809/CVE-2021-40444](https://github.com/hqdat809/CVE-2021-40444)
-- [skitkat/CVE-2021-40444-POC](https://github.com/skitkat/CVE-2021-40444-POC)
 
 ### CVE-2021-40449 (2021-10-13)
 
@@ -24266,7 +24268,6 @@
 </code>
 
 - [tea9/CVE-2020-0014-Toast](https://github.com/tea9/CVE-2020-0014-Toast)
-- [ASIFASSU/CVE-2020-0014](https://github.com/ASIFASSU/CVE-2020-0014)
 
 ### CVE-2020-0022 (2020-02-13)
 
@@ -26078,8 +26079,8 @@
 - [shacojx/LifeRCEJsonWSTool-POC-CVE-2020-7961-Gui](https://github.com/shacojx/LifeRCEJsonWSTool-POC-CVE-2020-7961-Gui)
 - [shacojx/GLiferay-CVE-2020-7961-golang](https://github.com/shacojx/GLiferay-CVE-2020-7961-golang)
 - [shacojx/POC-CVE-2020-7961-Token-iterate](https://github.com/shacojx/POC-CVE-2020-7961-Token-iterate)
-- [Udyz/CVE-2020-7961-Mass](https://github.com/Udyz/CVE-2020-7961-Mass)
 - [ShutdownRepo/CVE-2020-7961](https://github.com/ShutdownRepo/CVE-2020-7961)
+- [CrackerCat/CVE-2020-7961-Mass](https://github.com/CrackerCat/CVE-2020-7961-Mass)
 - [pashayogi/CVE-2020-7961-Mass](https://github.com/pashayogi/CVE-2020-7961-Mass)
 - [manrop2702/CVE-2020-7961](https://github.com/manrop2702/CVE-2020-7961)
 - [NMinhTrung/LIFERAY-CVE-2020-7961](https://github.com/NMinhTrung/LIFERAY-CVE-2020-7961)
@@ -26702,8 +26703,8 @@
 </code>
 
 - [rdoix/CVE-2020-10148-Solarwinds-Orion](https://github.com/rdoix/CVE-2020-10148-Solarwinds-Orion)
-- [Udyz/CVE-2020-10148-Solarwinds-Orion](https://github.com/Udyz/CVE-2020-10148-Solarwinds-Orion)
 - [B1anda0/CVE-2020-10148](https://github.com/B1anda0/CVE-2020-10148)
+- [5l1v3r1/CVE-2020-10148-Solarwinds-Orion](https://github.com/5l1v3r1/CVE-2020-10148-Solarwinds-Orion)
 
 ### CVE-2020-10189 (2020-03-06)
 
@@ -44148,6 +44149,7 @@
 </code>
 
 - [RizeKishimaro/CVE-2005-3299](https://github.com/RizeKishimaro/CVE-2005-3299)
+- [Cr0w-ui/-CVE-2005-3299-](https://github.com/Cr0w-ui/-CVE-2005-3299-)
 
 
 ## 2004
