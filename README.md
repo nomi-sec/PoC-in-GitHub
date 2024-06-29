@@ -1231,6 +1231,13 @@
 
 - [Gray-0men/CVE-2024-22774](https://github.com/Gray-0men/CVE-2024-22774)
 
+### CVE-2024-22853 (2024-02-06)
+
+<code>D-LINK Go-RT-AC750 GORTAC750_A1_FW_v101b03 has a hardcoded password for the Alphanetworks account, which allows remote attackers to obtain root access via a telnet session.
+</code>
+
+- [FaLLenSKiLL1/CVE-2024-22853](https://github.com/FaLLenSKiLL1/CVE-2024-22853)
+
 ### CVE-2024-22867
 - [brandon-t-elliott/CVE-2024-22867](https://github.com/brandon-t-elliott/CVE-2024-22867)
 
