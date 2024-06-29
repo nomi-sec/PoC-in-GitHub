@@ -839,7 +839,6 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806](https://github.com/watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806)
-- [glen-pearson/MoveIT_CVE-2024-5806](https://github.com/glen-pearson/MoveIT_CVE-2024-5806)
 
 ### CVE-2024-6028 (2024-06-25)
 
@@ -2745,6 +2744,7 @@
 - [dr3u1d/CVE-2024-34102-RCE](https://github.com/dr3u1d/CVE-2024-34102-RCE)
 - [11whoami99/CVE-2024-34102](https://github.com/11whoami99/CVE-2024-34102)
 - [d0rb/CVE-2024-34102](https://github.com/d0rb/CVE-2024-34102)
+- [Chocapikk/CVE-2024-34102](https://github.com/Chocapikk/CVE-2024-34102)
 
 ### CVE-2024-34220 (-)
 
@@ -7298,7 +7298,7 @@
 - [toorandom/moveit-payload-decrypt-CVE-2023-34362](https://github.com/toorandom/moveit-payload-decrypt-CVE-2023-34362)
 - [errorfiathck/MOVEit-Exploit](https://github.com/errorfiathck/MOVEit-Exploit)
 - [Chinyemba-ck/MOVEit-CVE-2023-34362](https://github.com/Chinyemba-ck/MOVEit-CVE-2023-34362)
-- [glen-pearson/CVE-2023-34362-RCE](https://github.com/glen-pearson/CVE-2023-34362-RCE)
+- [glen-pearson/MoveIT-CVE-2023-34362-RCE](https://github.com/glen-pearson/MoveIT-CVE-2023-34362-RCE)
 
 ### CVE-2023-34458 (2023-07-13)
 
@@ -20129,6 +20129,7 @@
 - [kh4sh3i/ProxyLogon](https://github.com/kh4sh3i/ProxyLogon)
 - [byinarie/Zirconium](https://github.com/byinarie/Zirconium)
 - [ssrsec/Microsoft-Exchange-RCE](https://github.com/ssrsec/Microsoft-Exchange-RCE)
+- [glen-pearson/ProxyLogon-CVE-2021-26855](https://github.com/glen-pearson/ProxyLogon-CVE-2021-26855)
 - [MacAsure/cve-2021-26855](https://github.com/MacAsure/cve-2021-26855)
 - [timb-machine-mirrors/testanull-CVE-2021-26855_read_poc.txt](https://github.com/timb-machine-mirrors/testanull-CVE-2021-26855_read_poc.txt)
 
