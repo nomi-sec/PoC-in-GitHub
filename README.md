@@ -2745,6 +2745,7 @@
 - [11whoami99/CVE-2024-34102](https://github.com/11whoami99/CVE-2024-34102)
 - [d0rb/CVE-2024-34102](https://github.com/d0rb/CVE-2024-34102)
 - [Chocapikk/CVE-2024-34102](https://github.com/Chocapikk/CVE-2024-34102)
+- [cmsec423/CVE-2024-34102](https://github.com/cmsec423/CVE-2024-34102)
 
 ### CVE-2024-34220 (-)
 
@@ -6985,6 +6986,7 @@
 - [0xKayala/CVE-2023-33246](https://github.com/0xKayala/CVE-2023-33246)
 - [MkJos/CVE-2023-33246_RocketMQ_RCE_EXP](https://github.com/MkJos/CVE-2023-33246_RocketMQ_RCE_EXP)
 - [hanch7274/CVE-2023-33246](https://github.com/hanch7274/CVE-2023-33246)
+- [PavilionQ/CVE-2023-33246-mitigation](https://github.com/PavilionQ/CVE-2023-33246-mitigation)
 
 ### CVE-2023-33253 (2023-06-12)
 
