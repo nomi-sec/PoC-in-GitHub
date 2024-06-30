@@ -2202,7 +2202,7 @@
 - [krypton-kry/CVE-2024-28995](https://github.com/krypton-kry/CVE-2024-28995)
 - [ggfzx/CVE-2024-28995](https://github.com/ggfzx/CVE-2024-28995)
 - [huseyinstif/CVE-2024-28995-Nuclei-Template](https://github.com/huseyinstif/CVE-2024-28995-Nuclei-Template)
-- [0xkucing/CVE-2024-28995](https://github.com/0xkucing/CVE-2024-28995)
+- [0xc4t/CVE-2024-28995](https://github.com/0xc4t/CVE-2024-28995)
 - [bigb0x/CVE-2024-28995](https://github.com/bigb0x/CVE-2024-28995)
 - [Praison001/CVE-2024-28995-SolarWinds-Serv-U](https://github.com/Praison001/CVE-2024-28995-SolarWinds-Serv-U)
 
@@ -9668,6 +9668,7 @@
 - [pentestfunctions/BlueDucky](https://github.com/pentestfunctions/BlueDucky)
 - [Eason-zz/BluetoothDucky](https://github.com/Eason-zz/BluetoothDucky)
 - [jjjjjjjj987/cve-2023-45866-py](https://github.com/jjjjjjjj987/cve-2023-45866-py)
+- [cisnarfu/Bluepop](https://github.com/cisnarfu/Bluepop)
 
 ### CVE-2023-45966 (2023-10-23)
 
@@ -14449,7 +14450,7 @@
 - [akhilkoradiya/CVE-2022-29455](https://github.com/akhilkoradiya/CVE-2022-29455)
 - [5l1v3r1/CVE-2022-29455](https://github.com/5l1v3r1/CVE-2022-29455)
 - [yaudahbanh/CVE-2022-29455](https://github.com/yaudahbanh/CVE-2022-29455)
-- [0xkucing/CVE-2022-29455](https://github.com/0xkucing/CVE-2022-29455)
+- [0xc4t/CVE-2022-29455](https://github.com/0xc4t/CVE-2022-29455)
 - [tucommenceapousser/CVE-2022-29455](https://github.com/tucommenceapousser/CVE-2022-29455)
 - [tucommenceapousser/CVE-2022-29455-mass](https://github.com/tucommenceapousser/CVE-2022-29455-mass)
 
@@ -37757,7 +37758,7 @@
 - [Frivolous-scholar/CVE-2017-5941-NodeJS-RCE](https://github.com/Frivolous-scholar/CVE-2017-5941-NodeJS-RCE)
 - [turnernator1/Node.js-CVE-2017-5941](https://github.com/turnernator1/Node.js-CVE-2017-5941)
 - [Cr4zyD14m0nd137/Lab-for-cve-2018-15133](https://github.com/Cr4zyD14m0nd137/Lab-for-cve-2018-15133)
-- [arthurvmbl/nodejshell](https://github.com/arthurvmbl/nodejshell)
+- [uartu0/nodejshell](https://github.com/uartu0/nodejshell)
 
 ### CVE-2017-6008 (2017-09-13)
 
@@ -40687,7 +40688,7 @@
 <code>The ScoreMe theme through 2016-04-01 for WordPress has XSS via the s parameter.
 </code>
 
-- [0xkucing/CVE-2016-10993](https://github.com/0xkucing/CVE-2016-10993)
+- [0xc4t/CVE-2016-10993](https://github.com/0xc4t/CVE-2016-10993)
 
 ### CVE-2016-1000027 (2020-01-02)
 
