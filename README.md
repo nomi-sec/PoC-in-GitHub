@@ -1133,6 +1133,13 @@
 
 - [W01fh4cker/CVE-2024-22120-RCE](https://github.com/W01fh4cker/CVE-2024-22120-RCE)
 
+### CVE-2024-22145 (2024-05-17)
+
+<code>Improper Privilege Management vulnerability in InstaWP Team InstaWP Connect allows Privilege Escalation.This issue affects InstaWP Connect: from n/a through 0.1.0.8.
+</code>
+
+- [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
+
 ### CVE-2024-22243 (2024-02-23)
 
 <code>Applications that use UriComponentsBuilder to parse an externally provided URL (e.g. through a query parameter) AND perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html  attack or to a SSRF attack if the URL is used after passing validation checks.\n
@@ -2743,8 +2750,9 @@
 - [11whoami99/CVE-2024-34102](https://github.com/11whoami99/CVE-2024-34102)
 - [d0rb/CVE-2024-34102](https://github.com/d0rb/CVE-2024-34102)
 - [Chocapikk/CVE-2024-34102](https://github.com/Chocapikk/CVE-2024-34102)
-- [cmsec423/CVE-2024-34102](https://github.com/cmsec423/CVE-2024-34102)
 - [0x0d3ad/CVE-2024-34102](https://github.com/0x0d3ad/CVE-2024-34102)
+- [cmsec423/CVE-2024-34102](https://github.com/cmsec423/CVE-2024-34102)
+- [cmsec423/Magento-XXE-CVE-2024-34102](https://github.com/cmsec423/Magento-XXE-CVE-2024-34102)
 
 ### CVE-2024-34220 (-)
 
