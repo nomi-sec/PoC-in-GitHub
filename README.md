@@ -839,12 +839,24 @@
 
 - [watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806](https://github.com/watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806)
 
+### CVE-2024-5961 (2024-06-14)
+
+<code>Improper neutralization of input during web page generation vulnerability in 2ClickPortal software allows reflected cross-site scripting (XSS). An attacker might trick somebody into using a crafted URL, which will cause a script to be run in user's browser. This issue affects 2ClickPortal software versions from 7.2.31 through 7.6.4.
+</code>
+
+- [kac89/CVE-2024-5961](https://github.com/kac89/CVE-2024-5961)
+
 ### CVE-2024-6028 (2024-06-25)
 
 <code>The Quiz Maker plugin for WordPress is vulnerable to time-based SQL Injection via the 'ays_questions' parameter in all versions up to, and including, 6.5.8.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 </code>
 
 - [truonghuuphuc/CVE-2024-6028-Poc](https://github.com/truonghuuphuc/CVE-2024-6028-Poc)
+
+### CVE-2024-6387
+- [zgzhang/cve-2024-6387-poc](https://github.com/zgzhang/cve-2024-6387-poc)
+- [acrono/cve-2024-6387-poc](https://github.com/acrono/cve-2024-6387-poc)
+- [lflare/cve-2024-6387-poc](https://github.com/lflare/cve-2024-6387-poc)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -891,6 +903,7 @@
 </code>
 
 - [nnotwen/Script-For-CVE-2024-20666](https://github.com/nnotwen/Script-For-CVE-2024-20666)
+- [invaderslabs/CVE-2024-20666](https://github.com/invaderslabs/CVE-2024-20666)
 
 ### CVE-2024-20696 (2024-01-09)
 
@@ -1877,7 +1890,7 @@
 
 - [varwara/CVE-2024-26229](https://github.com/varwara/CVE-2024-26229)
 - [RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit)
-- [NVISOsecurity/CVE-2024-26229-BOF](https://github.com/NVISOsecurity/CVE-2024-26229-BOF)
+- [apkc/CVE-2024-26229-BOF](https://github.com/apkc/CVE-2024-26229-BOF)
 - [team-MineDEV/CVE-2024-26229](https://github.com/team-MineDEV/CVE-2024-26229)
 
 ### CVE-2024-26304 (2024-05-01)
@@ -2204,6 +2217,7 @@
 - [0xc4t/CVE-2024-28995](https://github.com/0xc4t/CVE-2024-28995)
 - [bigb0x/CVE-2024-28995](https://github.com/bigb0x/CVE-2024-28995)
 - [Praison001/CVE-2024-28995-SolarWinds-Serv-U](https://github.com/Praison001/CVE-2024-28995-SolarWinds-Serv-U)
+- [Stuub/CVE-2024-28995](https://github.com/Stuub/CVE-2024-28995)
 
 ### CVE-2024-28999 (2024-06-04)
 
@@ -2753,6 +2767,7 @@
 - [0x0d3ad/CVE-2024-34102](https://github.com/0x0d3ad/CVE-2024-34102)
 - [cmsec423/CVE-2024-34102](https://github.com/cmsec423/CVE-2024-34102)
 - [cmsec423/Magento-XXE-CVE-2024-34102](https://github.com/cmsec423/Magento-XXE-CVE-2024-34102)
+- [jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento](https://github.com/jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento)
 
 ### CVE-2024-34220 (-)
 
@@ -3027,6 +3042,18 @@
 </code>
 
 - [crumbledwall/CVE-2024-37759_PoC](https://github.com/crumbledwall/CVE-2024-37759_PoC)
+
+### CVE-2024-37762
+- [Atreb92/cve-2024-37762](https://github.com/Atreb92/cve-2024-37762)
+
+### CVE-2024-37763
+- [Atreb92/cve-2024-37763](https://github.com/Atreb92/cve-2024-37763)
+
+### CVE-2024-37764
+- [Atreb92/cve-2024-37764](https://github.com/Atreb92/cve-2024-37764)
+
+### CVE-2024-37765
+- [Atreb92/cve-2024-37765](https://github.com/Atreb92/cve-2024-37765)
 
 ### CVE-2024-37791 (2024-06-18)
 
@@ -8537,6 +8564,8 @@
 
 - [Trinadh465/platform_packages_providers_MediaProvider_CVE-2023-40127](https://github.com/Trinadh465/platform_packages_providers_MediaProvider_CVE-2023-40127)
 - [Trinadh465/CVE-2023-40127](https://github.com/Trinadh465/CVE-2023-40127)
+- [saurabh2088/platform_packages_providers_MediaProvider_CVE-2023-40127](https://github.com/saurabh2088/platform_packages_providers_MediaProvider_CVE-2023-40127)
+- [RenukaSelvar/platform_packages_providers_MediaProvider_CVE-2023-40127](https://github.com/RenukaSelvar/platform_packages_providers_MediaProvider_CVE-2023-40127)
 
 ### CVE-2023-40133 (2023-10-27)
 
@@ -18844,6 +18873,7 @@
 - [wechicken456/CVE-2021-4034-CTF-writeup](https://github.com/wechicken456/CVE-2021-4034-CTF-writeup)
 - [ASG-CASTLE/CVE-2021-4034](https://github.com/ASG-CASTLE/CVE-2021-4034)
 - [X-Projetion/Exploiting-PwnKit-CVE-2021-4034-](https://github.com/X-Projetion/Exploiting-PwnKit-CVE-2021-4034-)
+- [evkl1d/CVE-2021-4034](https://github.com/evkl1d/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -33168,6 +33198,7 @@
 - [guglia001/CVE-2019-18818](https://github.com/guglia001/CVE-2019-18818)
 - [rasyidfox/CVE-2019-18818](https://github.com/rasyidfox/CVE-2019-18818)
 - [hadrian3689/strapi_cms_3.0.0-beta.17.7](https://github.com/hadrian3689/strapi_cms_3.0.0-beta.17.7)
+- [Hackhoven/Strapi-RCE](https://github.com/Hackhoven/Strapi-RCE)
 
 ### CVE-2019-18845 (2019-11-09)
 
