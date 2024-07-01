@@ -36482,6 +36482,7 @@
 - [799600966/CVE-2018-17456](https://github.com/799600966/CVE-2018-17456)
 - [AnonymKing/CVE-2018-17456](https://github.com/AnonymKing/CVE-2018-17456)
 - [jiahuiLeee/test](https://github.com/jiahuiLeee/test)
+- [ProDefense/CVE-2018-17456](https://github.com/ProDefense/CVE-2018-17456)
 
 ### CVE-2018-17463 (2018-11-14)
 
