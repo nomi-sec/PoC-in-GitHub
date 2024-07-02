@@ -872,11 +872,22 @@
 - [getdrive/CVE-2024-6387-PoC](https://github.com/getdrive/CVE-2024-6387-PoC)
 - [FerasAlrimali/CVE-2024-6387-POC](https://github.com/FerasAlrimali/CVE-2024-6387-POC)
 - [passwa11/cve-2024-6387-poc](https://github.com/passwa11/cve-2024-6387-poc)
-- [TrustResearcher/CVE-2024-6387-Updated-SSH-RCE](https://github.com/TrustResearcher/CVE-2024-6387-Updated-SSH-RCE)
 - [jack0we/CVE-2024-6387](https://github.com/jack0we/CVE-2024-6387)
 - [xaitax/CVE-2024-6387_Check](https://github.com/xaitax/CVE-2024-6387_Check)
 - [bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387)
 - [wiggels/regresshion-check](https://github.com/wiggels/regresshion-check)
+- [3yujw7njai/CVE-2024-6387](https://github.com/3yujw7njai/CVE-2024-6387)
+- [betancour/OpenSSH-Vulnerability-test](https://github.com/betancour/OpenSSH-Vulnerability-test)
+- [zgimszhd61/cve-2024-6387-poc](https://github.com/zgimszhd61/cve-2024-6387-poc)
+- [yya1233/CVE-2024-6387-Updated-SSH-RCE](https://github.com/yya1233/CVE-2024-6387-Updated-SSH-RCE)
+- [muyuanlove/CVE-2024-6387fixshell](https://github.com/muyuanlove/CVE-2024-6387fixshell)
+- [TAM-K592/CVE-2024-6387](https://github.com/TAM-K592/CVE-2024-6387)
+- [teamos-hub/regreSSHion](https://github.com/teamos-hub/regreSSHion)
+- [Maikefee/CVE-2024-6387_Check.py](https://github.com/Maikefee/CVE-2024-6387_Check.py)
+- [ahlfors/CVE-2024-6387](https://github.com/ahlfors/CVE-2024-6387)
+- [Mufti22/CVE-2024-6387-checkher](https://github.com/Mufti22/CVE-2024-6387-checkher)
+- [thegenetic/CVE-2024-6387-exploit](https://github.com/thegenetic/CVE-2024-6387-exploit)
+- [HadesNull123/CVE-2024-6387_Check](https://github.com/HadesNull123/CVE-2024-6387_Check)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -1993,6 +2004,13 @@
 </code>
 
 - [Abo5/CVE-2024-27282](https://github.com/Abo5/CVE-2024-27282)
+
+### CVE-2024-27292 (2024-02-29)
+
+<code>Docassemble is an expert system for guided interviews and document assembly. The vulnerability allows attackers to gain unauthorized access to information on the system through URL manipulation. It affects versions 1.4.53 to 1.4.96. The vulnerability has been patched in version 1.4.97 of the master branch.
+</code>
+
+- [th3gokul/CVE-2024-27292](https://github.com/th3gokul/CVE-2024-27292)
 
 ### CVE-2024-27316 (2024-04-04)
 
@@ -35302,13 +35320,6 @@
 
 - [GeunSam2/CVE-2018-8718](https://github.com/GeunSam2/CVE-2018-8718)
 
-### CVE-2018-8733 (2018-04-18)
-
-<code>Authentication bypass vulnerability in the core config manager in Nagios XI 5.2.x through 5.4.x before 5.4.13 allows an unauthenticated attacker to make configuration changes and leverage an authenticated SQL injection vulnerability.
-</code>
-
-- [xfer0/Nagios-XI-5.2.6-9-5.3-5.4-Chained-Remote-Root-Exploit-Fixed](https://github.com/xfer0/Nagios-XI-5.2.6-9-5.3-5.4-Chained-Remote-Root-Exploit-Fixed)
-
 ### CVE-2018-8820 (2018-03-28)
 
 <code>An issue was discovered in Square 9 GlobalForms 6.2.x. A Time Based SQL injection vulnerability in the &quot;match&quot; parameter allows remote authenticated attackers to execute arbitrary SQL commands. It is possible to upgrade access to full server compromise via xp_cmdshell. In some cases, the authentication requirement for the attack can be met by sending the default admin credentials.
@@ -36571,7 +36582,6 @@
 - [799600966/CVE-2018-17456](https://github.com/799600966/CVE-2018-17456)
 - [AnonymKing/CVE-2018-17456](https://github.com/AnonymKing/CVE-2018-17456)
 - [jiahuiLeee/test](https://github.com/jiahuiLeee/test)
-- [ProDefense/CVE-2018-17456](https://github.com/ProDefense/CVE-2018-17456)
 
 ### CVE-2018-17463 (2018-11-14)
 
