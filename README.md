@@ -874,6 +874,9 @@
 - [passwa11/cve-2024-6387-poc](https://github.com/passwa11/cve-2024-6387-poc)
 - [TrustResearcher/CVE-2024-6387-Updated-SSH-RCE](https://github.com/TrustResearcher/CVE-2024-6387-Updated-SSH-RCE)
 - [jack0we/CVE-2024-6387](https://github.com/jack0we/CVE-2024-6387)
+- [xaitax/CVE-2024-6387_Check](https://github.com/xaitax/CVE-2024-6387_Check)
+- [bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387)
+- [wiggels/regresshion-check](https://github.com/wiggels/regresshion-check)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2252,6 +2255,7 @@
 - [YongYe-Security/CVE-2024-29269](https://github.com/YongYe-Security/CVE-2024-29269)
 - [Chocapikk/CVE-2024-29269](https://github.com/Chocapikk/CVE-2024-29269)
 - [Jhonsonwannaa/CVE-2024-29269](https://github.com/Jhonsonwannaa/CVE-2024-29269)
+- [K3ysTr0K3R/CVE-2024-29269-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-29269-EXPLOIT)
 
 ### CVE-2024-29272 (2024-03-22)
 
@@ -3053,16 +3057,32 @@
 
 - [crumbledwall/CVE-2024-37759_PoC](https://github.com/crumbledwall/CVE-2024-37759_PoC)
 
-### CVE-2024-37762
+### CVE-2024-37762 (2024-07-01)
+
+<code>MachForm up to version 21 is affected by an authenticated unrestricted file upload which leads to a remote code execution.
+</code>
+
 - [Atreb92/cve-2024-37762](https://github.com/Atreb92/cve-2024-37762)
 
-### CVE-2024-37763
+### CVE-2024-37763 (2024-07-01)
+
+<code>MachForm up to version 19 is affected by an unauthenticated stored cross-site scripting which affects users with valid sessions whom can view compiled forms results.
+</code>
+
 - [Atreb92/cve-2024-37763](https://github.com/Atreb92/cve-2024-37763)
 
-### CVE-2024-37764
+### CVE-2024-37764 (2024-07-01)
+
+<code>MachForm up to version 19 is affected by an authenticated stored cross-site scripting.
+</code>
+
 - [Atreb92/cve-2024-37764](https://github.com/Atreb92/cve-2024-37764)
 
-### CVE-2024-37765
+### CVE-2024-37765 (2024-07-01)
+
+<code>Machform up to version 19 is affected by an authenticated Blind SQL injection in the user account settings page.
+</code>
+
 - [Atreb92/cve-2024-37765](https://github.com/Atreb92/cve-2024-37765)
 
 ### CVE-2024-37791 (2024-06-18)
@@ -3093,7 +3113,11 @@
 
 - [uname-s/CVE-2024-37889](https://github.com/uname-s/CVE-2024-37889)
 
-### CVE-2024-38366
+### CVE-2024-38366 (2024-07-01)
+
+<code>trunk.cocoapods.org is the authentication server for the CoacoaPods dependency manager. The part of trunk which verifies whether a user has a real email address on signup used a rfc-822 library which executes a shell command to validate the email domain MX records validity. It works via an DNS MX. This lookup could be manipulated to also execute a command on the trunk server, effectively giving root access to the server and the infrastructure. This issue was patched server-side with commit 001cc3a430e75a16307f5fd6cdff1363ad2f40f3 in September 2023. This RCE triggered a full user-session reset, as an attacker could have used this method to write to any Podspec in trunk.
+</code>
+
 - [ReeFSpeK/CocoaPods-RCE](https://github.com/ReeFSpeK/CocoaPods-RCE)
 
 ### CVE-2024-38396 (2024-06-16)
@@ -3106,7 +3130,11 @@
 ### CVE-2024-39248
 - [jasonthename/CVE-2024-39248](https://github.com/jasonthename/CVE-2024-39248)
 
-### CVE-2024-39249
+### CVE-2024-39249 (2024-07-01)
+
+<code>Async &lt;= 2.6.4 and &lt;= 3.2.5 are vulnerable to ReDoS (Regular Expression Denial of Service) while parsing function in autoinject function.
+</code>
+
 - [zunak/CVE-2024-39249](https://github.com/zunak/CVE-2024-39249)
 
 ### CVE-2024-65230
@@ -30198,7 +30226,6 @@
 </code>
 
 - [StealYourCode/CVE-2019-1663](https://github.com/StealYourCode/CVE-2019-1663)
-- [e180175/CVE-2019-1663-vuln](https://github.com/e180175/CVE-2019-1663-vuln)
 - [abrumsen/CVE-2019-1663](https://github.com/abrumsen/CVE-2019-1663)
 
 ### CVE-2019-1759 (2019-03-27)
@@ -43875,6 +43902,13 @@
 
 - [Naramsim/Offensive](https://github.com/Naramsim/Offensive)
 
+### CVE-2008-4109 (2008-09-17)
+
+<code>A certain Debian patch for OpenSSH before 4.3p2-9etch3 on etch; before 4.6p1-1 on sid and lenny; and on other distributions such as SUSE uses functions that are not async-signal-safe in the signal handler for login timeouts, which allows remote attackers to cause a denial of service (connection slot exhaustion) via multiple login attempts. NOTE: this issue exists because of an incorrect fix for CVE-2006-5051.
+</code>
+
+- [bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387)
+
 ### CVE-2008-4250 (2008-10-23)
 
 <code>The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP1 and SP2, Vista Gold and SP1, Server 2008, and 7 Pre-Beta allows remote attackers to execute arbitrary code via a crafted RPC request that triggers the overflow during path canonicalization, as exploited in the wild by Gimmiv.A in October 2008, aka &quot;Server Service Vulnerability.&quot;
@@ -44149,6 +44183,13 @@
 </code>
 
 - [tagatac/linux-CVE-2006-4814](https://github.com/tagatac/linux-CVE-2006-4814)
+
+### CVE-2006-5051 (2006-09-27)
+
+<code>Signal handler race condition in OpenSSH before 4.4 allows remote attackers to cause a denial of service (crash), and possibly execute arbitrary code if GSSAPI authentication is enabled, via unspecified vectors that lead to a double-free.
+</code>
+
+- [bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387)
 
 ### CVE-2006-6184 (2006-12-01)
 
