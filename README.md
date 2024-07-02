@@ -753,6 +753,13 @@
 
 - [michredteam/CVE-2024-4761](https://github.com/michredteam/CVE-2024-4761)
 
+### CVE-2024-4836 (2024-07-02)
+
+<code>Web services managed by Edito CMS (Content Management System) in versions from 3.5 through 3.25 leak sensitive data as they allow downloading configuration files by an unauthenticated user.\nThe issue in versions 3.5 - 3.25 was removed in releases which dates from 10th of January 2014. Higher versions were never affected.
+</code>
+
+- [sleep46/CVE-2024-4836_Check](https://github.com/sleep46/CVE-2024-4836_Check)
+
 ### CVE-2024-4875 (2024-05-21)
 
 <code>The HT Mega – Absolute Addons For Elementor plugin for WordPress is vulnerable to unauthorized modification of data|loss of data due to a missing capability check on the 'ajax_dismiss' function in versions up to, and including, 2.5.2. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to update options such as users_can_register, which can lead to unauthorized user registration.
@@ -903,6 +910,16 @@
 - [zenzue/CVE-2024-6387-Mitigation](https://github.com/zenzue/CVE-2024-6387-Mitigation)
 - [devarshishimpi/CVE-2024-6387-Check](https://github.com/devarshishimpi/CVE-2024-6387-Check)
 - [hssmo/cve-2024-6387_AImade](https://github.com/hssmo/cve-2024-6387_AImade)
+- [ACHUX21/checker-CVE-2024-6387](https://github.com/ACHUX21/checker-CVE-2024-6387)
+- [AiGptCode/ssh_exploiter_CVE-2024-6387](https://github.com/AiGptCode/ssh_exploiter_CVE-2024-6387)
+- [xristos8574/regreSSHion-nmap-scanner](https://github.com/xristos8574/regreSSHion-nmap-scanner)
+- [xonoxitron/regreSSHion](https://github.com/xonoxitron/regreSSHion)
+- [no-one-sec/CVE-2024-6387](https://github.com/no-one-sec/CVE-2024-6387)
+- [dawnl3ss/CVE-2024-6387](https://github.com/dawnl3ss/CVE-2024-6387)
+- [MrR0b0t19/CVE-2024-6387-Exploit-POC](https://github.com/MrR0b0t19/CVE-2024-6387-Exploit-POC)
+- [th3gokul/CVE-2024-6387](https://github.com/th3gokul/CVE-2024-6387)
+- [n1cks0n/Test_CVE-2024-6387](https://github.com/n1cks0n/Test_CVE-2024-6387)
+- [l0n3m4n/CVE-2024-6387](https://github.com/l0n3m4n/CVE-2024-6387)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2625,6 +2642,7 @@
 - [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
 - [Basyaact/CVE-2024-32002-PoC_Chinese](https://github.com/Basyaact/CVE-2024-32002-PoC_Chinese)
 - [bonnettheo/CVE-2024-32002](https://github.com/bonnettheo/CVE-2024-32002)
+- [AmbroseCdMeng/CVE-2024-32002](https://github.com/AmbroseCdMeng/CVE-2024-32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -7727,6 +7745,7 @@
 </code>
 
 - [SpiralBL0CK/-CVE-2023-35985](https://github.com/SpiralBL0CK/-CVE-2023-35985)
+- [N00BIER/CVE-2023-35985](https://github.com/N00BIER/CVE-2023-35985)
 
 ### CVE-2023-36003 (2023-12-12)
 
