@@ -865,6 +865,7 @@
 <code>A signal handler race condition was found in OpenSSH's server (sshd), where a client does not authenticate within LoginGraceTime seconds (120 by default, 600 in old OpenSSH versions), then sshd's SIGALRM handler is called asynchronously. However, this signal handler calls various functions that are not async-signal-safe, for example, syslog().
 </code>
 
+- [theaog/spirit](https://github.com/theaog/spirit)
 - [zgzhang/cve-2024-6387-poc](https://github.com/zgzhang/cve-2024-6387-poc)
 - [acrono/cve-2024-6387-poc](https://github.com/acrono/cve-2024-6387-poc)
 - [lflare/cve-2024-6387-poc](https://github.com/lflare/cve-2024-6387-poc)
@@ -888,6 +889,20 @@
 - [Mufti22/CVE-2024-6387-checkher](https://github.com/Mufti22/CVE-2024-6387-checkher)
 - [thegenetic/CVE-2024-6387-exploit](https://github.com/thegenetic/CVE-2024-6387-exploit)
 - [HadesNull123/CVE-2024-6387_Check](https://github.com/HadesNull123/CVE-2024-6387_Check)
+- [R4Tw1z/CVE-2024-6387](https://github.com/R4Tw1z/CVE-2024-6387)
+- [d0rb/CVE-2024-6387](https://github.com/d0rb/CVE-2024-6387)
+- [oliferFord/CVE-2024-6387-SSH-RCE](https://github.com/oliferFord/CVE-2024-6387-SSH-RCE)
+- [CiderAndWhisky/regression-scanner](https://github.com/CiderAndWhisky/regression-scanner)
+- [shamo0/CVE-2024-6387_PoC](https://github.com/shamo0/CVE-2024-6387_PoC)
+- [paradessia/CVE-2024-6387-nmap](https://github.com/paradessia/CVE-2024-6387-nmap)
+- [SecWithMoh/CVE-2024-6387](https://github.com/SecWithMoh/CVE-2024-6387)
+- [PrincipalAnthony/CVE-2024-6387-Updated-x64bit](https://github.com/PrincipalAnthony/CVE-2024-6387-Updated-x64bit)
+- [k4t3pr0/CVE-2024-6387-POC](https://github.com/k4t3pr0/CVE-2024-6387-POC)
+- [DanWiseProgramming/CVE-2024-6387-Mitigation-Ansible-Playbook](https://github.com/DanWiseProgramming/CVE-2024-6387-Mitigation-Ansible-Playbook)
+- [rumochnaya/openssh-cve-2024-6387.sh](https://github.com/rumochnaya/openssh-cve-2024-6387.sh)
+- [zenzue/CVE-2024-6387-Mitigation](https://github.com/zenzue/CVE-2024-6387-Mitigation)
+- [devarshishimpi/CVE-2024-6387-Check](https://github.com/devarshishimpi/CVE-2024-6387-Check)
+- [hssmo/cve-2024-6387_AImade](https://github.com/hssmo/cve-2024-6387_AImade)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -976,6 +991,7 @@
 </code>
 
 - [momika233/CVE-2024-21006](https://github.com/momika233/CVE-2024-21006)
+- [lightr3d/CVE-2024-21006_jar](https://github.com/lightr3d/CVE-2024-21006_jar)
 
 ### CVE-2024-21107 (2024-04-16)
 
@@ -1198,13 +1214,6 @@
 </code>
 
 - [omranisecurity/CVE-2024-22393](https://github.com/omranisecurity/CVE-2024-22393)
-
-### CVE-2024-22411 (2024-01-16)
-
-<code>Avo is a framework to create admin panels for Ruby on Rails apps. In Avo 3 pre12, any HTML inside text that is passed to `error` or `succeed` in an `Avo::BaseAction` subclass will be rendered directly without sanitization in the toast/notification that appears in the UI on Action completion. A malicious user could exploit this vulnerability to trigger a cross site scripting attack on an unsuspecting user. This issue has been addressed in the 3.3.0 and 2.47.0 releases of Avo. Users are advised to upgrade.
-</code>
-
-- [tamaloa/avo-CVE-2024-22411](https://github.com/tamaloa/avo-CVE-2024-22411)
 
 ### CVE-2024-22416 (2024-01-17)
 
@@ -23301,6 +23310,7 @@
 - [xchg-rax-rax/CVE-2021-43798](https://github.com/xchg-rax-rax/CVE-2021-43798)
 - [topyagyuu/CVE-2021-43798](https://github.com/topyagyuu/CVE-2021-43798)
 - [MalekAlthubiany/CVE-2021-43798](https://github.com/MalekAlthubiany/CVE-2021-43798)
+- [Sic4rio/Grafana-Decryptor-for-CVE-2021-43798](https://github.com/Sic4rio/Grafana-Decryptor-for-CVE-2021-43798)
 
 ### CVE-2021-43799 (2022-01-25)
 
@@ -30318,6 +30328,7 @@
 - [jsirichai/CVE-2019-2215](https://github.com/jsirichai/CVE-2019-2215)
 - [willboka/CVE-2019-2215-HuaweiP20Lite](https://github.com/willboka/CVE-2019-2215-HuaweiP20Lite)
 - [mutur4/CVE-2019-2215](https://github.com/mutur4/CVE-2019-2215)
+- [raymontag/CVE-2019-2215](https://github.com/raymontag/CVE-2019-2215)
 
 ### CVE-2019-2525 (2019-01-16)
 
@@ -38162,6 +38173,7 @@
 - [AnonkiGroup/AnonHik](https://github.com/AnonkiGroup/AnonHik)
 - [b3pwn3d/CVE-2017-7921](https://github.com/b3pwn3d/CVE-2017-7921)
 - [yousouf-Tasfin/cve-2017-7921-Mass-Exploit](https://github.com/yousouf-Tasfin/cve-2017-7921-Mass-Exploit)
+- [kooroshsanaei/HikVision-CVE-2017-7921](https://github.com/kooroshsanaei/HikVision-CVE-2017-7921)
 
 ### CVE-2017-7998 (2018-01-08)
 
