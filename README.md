@@ -465,13 +465,6 @@
 
 - [TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4](https://github.com/TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4)
 
-### CVE-2024-3154 (2024-04-26)
-
-<code>A flaw was found in cri-o, where an arbitrary systemd property can be injected via a Pod annotation. Any user who can create a pod with an arbitrary annotation may perform an arbitrary action on the host system.
-</code>
-
-- [cdxiaodong/CVE-2024-3154-communication](https://github.com/cdxiaodong/CVE-2024-3154-communication)
-
 ### CVE-2024-3217 (2024-04-05)
 
 <code>The WP Directory Kit plugin for WordPress is vulnerable to SQL Injection via the 'attribute_value' and 'attribute_id' parameters in all versions up to, and including, 1.3.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -802,6 +795,7 @@
 - [KTN1990/CVE-2024-5084](https://github.com/KTN1990/CVE-2024-5084)
 - [Chocapikk/CVE-2024-5084](https://github.com/Chocapikk/CVE-2024-5084)
 - [k3lpi3b4nsh33/CVE-2024-5084](https://github.com/k3lpi3b4nsh33/CVE-2024-5084)
+- [WOOOOONG/CVE-2024-5084](https://github.com/WOOOOONG/CVE-2024-5084)
 
 ### CVE-2024-5326 (2024-05-30)
 
@@ -926,6 +920,7 @@
 - [edsonjt81/CVE-2024-6387_Check](https://github.com/edsonjt81/CVE-2024-6387_Check)
 - [EkaterinaMarchetti/CVE-2024-6387-regreSSHion-Checker](https://github.com/EkaterinaMarchetti/CVE-2024-6387-regreSSHion-Checker)
 - [grupooruss/CVE-2024-6387-Tester](https://github.com/grupooruss/CVE-2024-6387-Tester)
+- [sxlmnwb/CVE-2024-6387](https://github.com/sxlmnwb/CVE-2024-6387)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -1244,6 +1239,13 @@
 </code>
 
 - [omranisecurity/CVE-2024-22393](https://github.com/omranisecurity/CVE-2024-22393)
+
+### CVE-2024-22411 (2024-01-16)
+
+<code>Avo is a framework to create admin panels for Ruby on Rails apps. In Avo 3 pre12, any HTML inside text that is passed to `error` or `succeed` in an `Avo::BaseAction` subclass will be rendered directly without sanitization in the toast/notification that appears in the UI on Action completion. A malicious user could exploit this vulnerability to trigger a cross site scripting attack on an unsuspecting user. This issue has been addressed in the 3.3.0 and 2.47.0 releases of Avo. Users are advised to upgrade.
+</code>
+
+- [tamaloa/avo-CVE-2024-22411](https://github.com/tamaloa/avo-CVE-2024-22411)
 
 ### CVE-2024-22416 (2024-01-17)
 
@@ -2429,6 +2431,13 @@
 
 - [Sploitus/CVE-2024-29988-exploit](https://github.com/Sploitus/CVE-2024-29988-exploit)
 
+### CVE-2024-30002 (2024-05-14)
+
+<code>Windows Mobile Broadband Driver Remote Code Execution Vulnerability
+</code>
+
+- [EQSTSeminar/git_rce](https://github.com/EQSTSeminar/git_rce)
+
 ### CVE-2024-30043 (2024-05-14)
 
 <code>Microsoft SharePoint Server Information Disclosure Vulnerability
@@ -2655,7 +2664,6 @@
 - [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
 - [Basyaact/CVE-2024-32002-PoC_Chinese](https://github.com/Basyaact/CVE-2024-32002-PoC_Chinese)
 - [bonnettheo/CVE-2024-32002](https://github.com/bonnettheo/CVE-2024-32002)
-- [AmbroseCdMeng/CVE-2024-32002](https://github.com/AmbroseCdMeng/CVE-2024-32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -9416,6 +9424,7 @@
 </code>
 
 - [OligoCyberSecurity/ShellTorchChecker](https://github.com/OligoCyberSecurity/ShellTorchChecker)
+- [OligoCyberSecurity/CVE-2023-43654](https://github.com/OligoCyberSecurity/CVE-2023-43654)
 
 ### CVE-2023-43667 (2023-10-16)
 
@@ -14986,11 +14995,11 @@
 - [superzerosec/CVE-2022-30525](https://github.com/superzerosec/CVE-2022-30525)
 - [Chocapikk/CVE-2022-30525-Reverse-Shell](https://github.com/Chocapikk/CVE-2022-30525-Reverse-Shell)
 - [160Team/CVE-2022-30525](https://github.com/160Team/CVE-2022-30525)
-- [zhefox/CVE-2022-30525-Reverse-Shell](https://github.com/zhefox/CVE-2022-30525-Reverse-Shell)
 - [iveresk/cve-2022-30525](https://github.com/iveresk/cve-2022-30525)
 - [west9b/CVE-2022-30525](https://github.com/west9b/CVE-2022-30525)
 - [furkanzengin/CVE-2022-30525](https://github.com/furkanzengin/CVE-2022-30525)
 - [ProngedFork/CVE-2022-30525](https://github.com/ProngedFork/CVE-2022-30525)
+- [5l1v3r1/CVE-2022-30525-Reverse-Shell](https://github.com/5l1v3r1/CVE-2022-30525-Reverse-Shell)
 - [cbk914/CVE-2022-30525_check](https://github.com/cbk914/CVE-2022-30525_check)
 - [arajsingh-infosec/CVE-2022-30525_Exploit](https://github.com/arajsingh-infosec/CVE-2022-30525_Exploit)
 
@@ -36150,6 +36159,7 @@
 - [tin-z/CVE-2018-14714-POC](https://github.com/tin-z/CVE-2018-14714-POC)
 - [sunn1day/CVE-2018-14714-POC](https://github.com/sunn1day/CVE-2018-14714-POC)
 - [BTtea/CVE-2018-14714-POC](https://github.com/BTtea/CVE-2018-14714-POC)
+- [BTtea/CVE-2018-14714-RCE_exploit](https://github.com/BTtea/CVE-2018-14714-RCE_exploit)
 
 ### CVE-2018-14716 (2018-08-06)
 
