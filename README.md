@@ -22,6 +22,7 @@
 
 - [scs-labrat/android_autorooter](https://github.com/scs-labrat/android_autorooter)
 - [pl4int3xt/cve_2024_0044](https://github.com/pl4int3xt/cve_2024_0044)
+- [Re13orn/CVE-2024-0044-EXP](https://github.com/Re13orn/CVE-2024-0044-EXP)
 
 ### CVE-2024-0195 (2024-01-02)
 
@@ -705,7 +706,7 @@
 - [Wh02m1/CVE-2024-4577](https://github.com/Wh02m1/CVE-2024-4577)
 - [Sysc4ll3r/CVE-2024-4577](https://github.com/Sysc4ll3r/CVE-2024-4577)
 - [WanLiChangChengWanLiChang/CVE-2024-4577-RCE-EXP](https://github.com/WanLiChangChengWanLiChang/CVE-2024-4577-RCE-EXP)
-- [Yukiioz/CVE-2024-4577](https://github.com/Yukiioz/CVE-2024-4577)
+- [BitMEXResearch/CVE-2024-4577](https://github.com/BitMEXResearch/CVE-2024-4577)
 - [0x20c/CVE-2024-4577-nuclei](https://github.com/0x20c/CVE-2024-4577-nuclei)
 - [manuelinfosec/CVE-2024-4577](https://github.com/manuelinfosec/CVE-2024-4577)
 - [zomasec/CVE-2024-4577](https://github.com/zomasec/CVE-2024-4577)
@@ -811,6 +812,13 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-5522-Poc](https://github.com/truonghuuphuc/CVE-2024-5522-Poc)
+
+### CVE-2024-5655 (2024-06-26)
+
+<code>An issue was discovered in GitLab CE/EE affecting all versions starting from 15.8 prior to 16.11.5, starting from 17.0 prior to 17.0.3, and starting from 17.1 prior to 17.1.1, which allows an attacker to trigger a pipeline as another user under certain circumstances.
+</code>
+
+- [VulnResearcher/CVE-2024-5655-Gitlab-CSRF-GraphQL](https://github.com/VulnResearcher/CVE-2024-5655-Gitlab-CSRF-GraphQL)
 
 ### CVE-2024-5735 (2024-06-28)
 
@@ -920,7 +928,10 @@
 - [edsonjt81/CVE-2024-6387_Check](https://github.com/edsonjt81/CVE-2024-6387_Check)
 - [EkaterinaMarchetti/CVE-2024-6387-regreSSHion-Checker](https://github.com/EkaterinaMarchetti/CVE-2024-6387-regreSSHion-Checker)
 - [grupooruss/CVE-2024-6387-Tester](https://github.com/grupooruss/CVE-2024-6387-Tester)
+- [CognisysGroup/CVE-2024-6387-Checker](https://github.com/CognisysGroup/CVE-2024-6387-Checker)
 - [sxlmnwb/CVE-2024-6387](https://github.com/sxlmnwb/CVE-2024-6387)
+- [Symbolexe/CVE-2024-6387](https://github.com/Symbolexe/CVE-2024-6387)
+- [harshinsecurity/sentinelssh](https://github.com/harshinsecurity/sentinelssh)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -967,6 +978,13 @@
 </code>
 
 - [AbdElRahmanEzzat1995/CVE-2024-20405](https://github.com/AbdElRahmanEzzat1995/CVE-2024-20405)
+
+### CVE-2024-20656 (2024-01-09)
+
+<code>Visual Studio Elevation of Privilege Vulnerability
+</code>
+
+- [Wh04m1001/CVE-2024-20656](https://github.com/Wh04m1001/CVE-2024-20656)
 
 ### CVE-2024-20666 (2024-01-09)
 
@@ -1033,6 +1051,13 @@
 - [mansk1es/CVE-2024-21111](https://github.com/mansk1es/CVE-2024-21111)
 - [10cks/CVE-2024-21111-del](https://github.com/10cks/CVE-2024-21111-del)
 - [x0rsys/CVE-2024-21111](https://github.com/x0rsys/CVE-2024-21111)
+
+### CVE-2024-21305 (2024-01-09)
+
+<code>Hypervisor-Protected Code Integrity (HVCI) Security Feature Bypass Vulnerability
+</code>
+
+- [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
 
 ### CVE-2024-21306 (2024-01-09)
 
@@ -1101,6 +1126,7 @@
 - [ShubhamKanhere307/CVE-2024-21413](https://github.com/ShubhamKanhere307/CVE-2024-21413)
 - [olebris/CVE-2024-21413](https://github.com/olebris/CVE-2024-21413)
 - [DerZiad/CVE-2024-21413](https://github.com/DerZiad/CVE-2024-21413)
+- [Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape](https://github.com/Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape)
 
 ### CVE-2024-21514 (2024-06-22)
 
@@ -1125,6 +1151,13 @@
 - [Sk3pper/CVE-2024-21626](https://github.com/Sk3pper/CVE-2024-21626)
 - [KubernetesBachelor/CVE-2024-21626](https://github.com/KubernetesBachelor/CVE-2024-21626)
 - [dorser/cve-2024-21626](https://github.com/dorser/cve-2024-21626)
+
+### CVE-2024-21633 (2024-01-03)
+
+<code>Apktool is a tool for reverse engineering Android APK files. In versions 2.9.1 and prior, Apktool infers resource files' output path according to their resource names which can be manipulated by attacker to place files at desired location on the system Apktool runs on. Affected environments are those in which an attacker may write/overwrite any file that user has write access, and either user name is known or cwd is under user folder. Commit d348c43b24a9de350ff6e5bd610545a10c1fc712 contains a patch for this issue.
+</code>
+
+- [0x33c0unt/CVE-2024-21633](https://github.com/0x33c0unt/CVE-2024-21633)
 
 ### CVE-2024-21644 (2024-01-08)
 
@@ -1176,6 +1209,9 @@
 <code>A command injection vulnerability in web components of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x)  allows an authenticated administrator to send specially crafted requests and execute arbitrary commands on the appliance.
 </code>
 
+- [oways/ivanti-CVE-2024-21887](https://github.com/oways/ivanti-CVE-2024-21887)
+- [duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887)
+- [Chocapikk/CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21887)
 - [raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887](https://github.com/raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887)
 - [seajaysec/Ivanti-Connect-Around-Scan](https://github.com/seajaysec/Ivanti-Connect-Around-Scan)
 - [mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped](https://github.com/mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped)
@@ -1217,6 +1253,13 @@
 </code>
 
 - [W01fh4cker/CVE-2024-22120-RCE](https://github.com/W01fh4cker/CVE-2024-22120-RCE)
+
+### CVE-2024-22145 (2024-05-17)
+
+<code>Improper Privilege Management vulnerability in InstaWP Team InstaWP Connect allows Privilege Escalation.This issue affects InstaWP Connect: from n/a through 0.1.0.8.
+</code>
+
+- [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
 
 ### CVE-2024-22243 (2024-02-23)
 
@@ -1755,7 +1798,6 @@
 - [P3wc0/CVE-2024-24919](https://github.com/P3wc0/CVE-2024-24919)
 - [zam89/CVE-2024-24919](https://github.com/zam89/CVE-2024-24919)
 - [satriarizka/CVE-2024-24919](https://github.com/satriarizka/CVE-2024-24919)
-- [3UR/CVE-2024-24919](https://github.com/3UR/CVE-2024-24919)
 - [RevoltSecurities/CVE-2024-24919](https://github.com/RevoltSecurities/CVE-2024-24919)
 - [Vulnpire/CVE-2024-24919](https://github.com/Vulnpire/CVE-2024-24919)
 - [seed1337/CVE-2024-24919-POC](https://github.com/seed1337/CVE-2024-24919-POC)
@@ -2664,6 +2706,8 @@
 - [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
 - [Basyaact/CVE-2024-32002-PoC_Chinese](https://github.com/Basyaact/CVE-2024-32002-PoC_Chinese)
 - [bonnettheo/CVE-2024-32002](https://github.com/bonnettheo/CVE-2024-32002)
+- [AmbroseCdMeng/CVE-2024-32002](https://github.com/AmbroseCdMeng/CVE-2024-32002)
+- [AmbroseCdMeng/CVE-2024-32002-Hook](https://github.com/AmbroseCdMeng/CVE-2024-32002-Hook)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -3109,6 +3153,9 @@
 
 - [optistream/securenvoy-cve-2024-37393](https://github.com/optistream/securenvoy-cve-2024-37393)
 
+### CVE-2024-37726
+- [carsonchan12345/CVE-2024-37726-MSI-Center-Local-Privilege-Escalation](https://github.com/carsonchan12345/CVE-2024-37726-MSI-Center-Local-Privilege-Escalation)
+
 ### CVE-2024-37742 (2024-06-25)
 
 <code>Insecure Access Control in Safe Exam Browser (SEB) = 3.5.0 on Windows. The vulnerability allows an attacker to share clipboard data between the SEB kiosk mode and the underlying system, compromising exam integrity. By exploiting this flaw, an attacker can bypass exam controls and gain an unfair advantage during exams.
@@ -3184,7 +3231,7 @@
 <code>trunk.cocoapods.org is the authentication server for the CoacoaPods dependency manager. The part of trunk which verifies whether a user has a real email address on signup used a rfc-822 library which executes a shell command to validate the email domain MX records validity. It works via an DNS MX. This lookup could be manipulated to also execute a command on the trunk server, effectively giving root access to the server and the infrastructure. This issue was patched server-side with commit 001cc3a430e75a16307f5fd6cdff1363ad2f40f3 in September 2023. This RCE triggered a full user-session reset, as an attacker could have used this method to write to any Podspec in trunk.
 </code>
 
-- [ReeFSpeK/CocoaPods-RCE](https://github.com/ReeFSpeK/CocoaPods-RCE)
+- [ReeFSpeK/CocoaPods-RCE_CVE-2024-38366](https://github.com/ReeFSpeK/CocoaPods-RCE_CVE-2024-38366)
 
 ### CVE-2024-38396 (2024-06-16)
 
@@ -3920,6 +3967,13 @@
 </code>
 
 - [zh-byte/CVE-2023-3836](https://github.com/zh-byte/CVE-2023-3836)
+
+### CVE-2023-3881 (2023-07-25)
+
+<code>In Campcodes Beauty Salon Management System 1.0 wurde eine kritische Schwachstelle entdeckt. Dabei geht es um eine nicht genauer bekannte Funktion der Datei /admin/forgot-password.php. Durch Manipulieren des Arguments contactno mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research)
 
 ### CVE-2023-3971 (2023-10-04)
 
@@ -37301,6 +37355,7 @@
 - [EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution](https://github.com/EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution)
 - [quynhold/Detect-CVE-2017-0144-attack](https://github.com/quynhold/Detect-CVE-2017-0144-attack)
 - [ducanh2oo3/Vulnerability-Research-CVE-2017-0144](https://github.com/ducanh2oo3/Vulnerability-Research-CVE-2017-0144)
+- [AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research)
 
 ### CVE-2017-0145 (2017-03-17)
 
@@ -43464,6 +43519,7 @@
 - [Shubham-2k1/Exploit-CVE-2011-2523](https://github.com/Shubham-2k1/Exploit-CVE-2011-2523)
 - [Tenor-Z/SmileySploit](https://github.com/Tenor-Z/SmileySploit)
 - [Fatalitysec/vsftpd_2.3.4_Backdoor](https://github.com/Fatalitysec/vsftpd_2.3.4_Backdoor)
+- [AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research)
 
 ### CVE-2011-2894 (2011-10-04)
 
