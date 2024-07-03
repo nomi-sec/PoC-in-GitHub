@@ -869,7 +869,7 @@
 
 ### CVE-2024-6387 (2024-07-01)
 
-<code>A signal handler race condition was found in OpenSSH's server (sshd), where a client does not authenticate within LoginGraceTime seconds (120 by default, 600 in old OpenSSH versions), then sshd's SIGALRM handler is called asynchronously. However, this signal handler calls various functions that are not async-signal-safe, for example, syslog().
+<code>A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead to sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period.
 </code>
 
 - [theaog/spirit](https://github.com/theaog/spirit)
@@ -920,6 +920,12 @@
 - [th3gokul/CVE-2024-6387](https://github.com/th3gokul/CVE-2024-6387)
 - [n1cks0n/Test_CVE-2024-6387](https://github.com/n1cks0n/Test_CVE-2024-6387)
 - [l0n3m4n/CVE-2024-6387](https://github.com/l0n3m4n/CVE-2024-6387)
+- [RickGeex/CVE-2024-6387-Checker](https://github.com/RickGeex/CVE-2024-6387-Checker)
+- [xonoxitron/regreSSHion-checker](https://github.com/xonoxitron/regreSSHion-checker)
+- [BrandonLynch2402/cve-2024-6387-nuclei-template](https://github.com/BrandonLynch2402/cve-2024-6387-nuclei-template)
+- [edsonjt81/CVE-2024-6387_Check](https://github.com/edsonjt81/CVE-2024-6387_Check)
+- [EkaterinaMarchetti/CVE-2024-6387-regreSSHion-Checker](https://github.com/EkaterinaMarchetti/CVE-2024-6387-regreSSHion-Checker)
+- [grupooruss/CVE-2024-6387-Tester](https://github.com/grupooruss/CVE-2024-6387-Tester)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -945,6 +951,13 @@
 
 - [nettitude/CVE-2024-20356](https://github.com/nettitude/CVE-2024-20356)
 - [SherllyNeo/CVE_2024_20356](https://github.com/SherllyNeo/CVE_2024_20356)
+
+### CVE-2024-20399 (2024-07-01)
+
+<code>A vulnerability in the CLI of Cisco NX-OS Software could allow an authenticated, local attacker to execute arbitrary commands as root on the underlying operating system of an affected device.\r\n\r This vulnerability is due to insufficient validation of arguments that are passed to specific configuration CLI commands. An attacker could exploit this vulnerability by including crafted input as the argument of an affected configuration CLI command. A successful exploit could allow the attacker to execute arbitrary commands on the underlying operating system with the privileges of root.\r\n\r Note: To successfully exploit this vulnerability on a Cisco NX-OS device, an attacker must have Administrator credentials.
+</code>
+
+- [Blootus/CVE-2024-20399-Cisco-RCE](https://github.com/Blootus/CVE-2024-20399-Cisco-RCE)
 
 ### CVE-2024-20404 (2024-06-05)
 
@@ -3555,6 +3568,13 @@
 
 - [elweth-sec/CVE-2023-2255](https://github.com/elweth-sec/CVE-2023-2255)
 - [SaintMichae64/CVE-2023-2255](https://github.com/SaintMichae64/CVE-2023-2255)
+
+### CVE-2023-2375 (2023-04-28)
+
+<code>Eine kritische Schwachstelle wurde in Ubiquiti EdgeRouter X bis 2.0.9-hotfix.6 gefunden. Es geht hierbei um eine nicht näher spezifizierte Funktion der Komponente Web Management Interface. Mittels Manipulieren des Arguments src mit unbekannten Daten kann eine command injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [0x0jr/HTB-Devvortex-CVE-2023-2375-PoC](https://github.com/0x0jr/HTB-Devvortex-CVE-2023-2375-PoC)
 
 ### CVE-2023-2437 (2023-11-22)
 
