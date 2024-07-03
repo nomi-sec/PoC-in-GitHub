@@ -732,6 +732,7 @@
 - [ggfzx/CVE-2024-4577](https://github.com/ggfzx/CVE-2024-4577)
 - [olebris/CVE-2024-4577](https://github.com/olebris/CVE-2024-4577)
 - [AlperenY-cs/CVE-2024-4577](https://github.com/AlperenY-cs/CVE-2024-4577)
+- [charis3306/CVE-2024-4577](https://github.com/charis3306/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -932,6 +933,8 @@
 - [sxlmnwb/CVE-2024-6387](https://github.com/sxlmnwb/CVE-2024-6387)
 - [Symbolexe/CVE-2024-6387](https://github.com/Symbolexe/CVE-2024-6387)
 - [harshinsecurity/sentinelssh](https://github.com/harshinsecurity/sentinelssh)
+- [t3rry327/cve-2024-6387-poc](https://github.com/t3rry327/cve-2024-6387-poc)
+- [jocker2410/CVE-2024-6387_poc](https://github.com/jocker2410/CVE-2024-6387_poc)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2706,8 +2709,6 @@
 - [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
 - [Basyaact/CVE-2024-32002-PoC_Chinese](https://github.com/Basyaact/CVE-2024-32002-PoC_Chinese)
 - [bonnettheo/CVE-2024-32002](https://github.com/bonnettheo/CVE-2024-32002)
-- [AmbroseCdMeng/CVE-2024-32002](https://github.com/AmbroseCdMeng/CVE-2024-32002)
-- [AmbroseCdMeng/CVE-2024-32002-Hook](https://github.com/AmbroseCdMeng/CVE-2024-32002-Hook)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -3153,7 +3154,11 @@
 
 - [optistream/securenvoy-cve-2024-37393](https://github.com/optistream/securenvoy-cve-2024-37393)
 
-### CVE-2024-37726
+### CVE-2024-37726 (2024-07-03)
+
+<code>Insecure Permissions vulnerability in Micro-Star International Co., Ltd MSI Center v.2.0.36.0 allows a local attacker to escalate privileges via the Export System Info function in MSI.CentralServer.exe
+</code>
+
 - [carsonchan12345/CVE-2024-37726-MSI-Center-Local-Privilege-Escalation](https://github.com/carsonchan12345/CVE-2024-37726-MSI-Center-Local-Privilege-Escalation)
 
 ### CVE-2024-37742 (2024-06-25)
@@ -3240,7 +3245,11 @@
 
 - [vin01/poc-cve-2024-38396](https://github.com/vin01/poc-cve-2024-38396)
 
-### CVE-2024-39248
+### CVE-2024-39248 (2024-07-03)
+
+<code>A cross-site scripting (XSS) vulnerability in SimpCMS v0.1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Title field at /admin.php.
+</code>
+
 - [jasonthename/CVE-2024-39248](https://github.com/jasonthename/CVE-2024-39248)
 
 ### CVE-2024-39249 (2024-07-01)
@@ -8432,7 +8441,6 @@
 - [Any3ite/cve-2023-38646-metabase-ReverseShell](https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell)
 - [robotmikhro/CVE-2023-38646](https://github.com/robotmikhro/CVE-2023-38646)
 - [kh4sh3i/CVE-2023-38646](https://github.com/kh4sh3i/CVE-2023-38646)
-- [joaoviictorti/CVE-2023-38646](https://github.com/joaoviictorti/CVE-2023-38646)
 - [yxl2001/CVE-2023-38646](https://github.com/yxl2001/CVE-2023-38646)
 - [alexandre-pecorilla/CVE-2023-38646](https://github.com/alexandre-pecorilla/CVE-2023-38646)
 - [CN016/Metabase-H2-CVE-2023-38646-](https://github.com/CN016/Metabase-H2-CVE-2023-38646-)
@@ -39584,6 +39592,7 @@
 - [tlatkdgus1/blueborne-CVE-2017-1000251](https://github.com/tlatkdgus1/blueborne-CVE-2017-1000251)
 - [own2pwn/blueborne-CVE-2017-1000251-POC](https://github.com/own2pwn/blueborne-CVE-2017-1000251-POC)
 - [istanescu/CVE-2017-1000251_Exploit](https://github.com/istanescu/CVE-2017-1000251_Exploit)
+- [sgxgsx/blueborne-CVE-2017-1000251](https://github.com/sgxgsx/blueborne-CVE-2017-1000251)
 
 ### CVE-2017-1000253 (2017-10-04)
 
