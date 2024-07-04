@@ -171,6 +171,7 @@
 - [CCIEVoice2009/CVE-2024-1086](https://github.com/CCIEVoice2009/CVE-2024-1086)
 - [kevcooper/CVE-2024-1086-checker](https://github.com/kevcooper/CVE-2024-1086-checker)
 - [feely666/CVE-2024-1086](https://github.com/feely666/CVE-2024-1086)
+- [xzx482/CVE-2024-1086](https://github.com/xzx482/CVE-2024-1086)
 
 ### CVE-2024-1208 (2024-02-05)
 
@@ -3252,6 +3253,9 @@
 
 ### CVE-2024-39203
 - [5r1an/CVE-2024-39203](https://github.com/5r1an/CVE-2024-39203)
+
+### CVE-2024-39211
+- [artemy-ccrsky/CVE-2024-39211](https://github.com/artemy-ccrsky/CVE-2024-39211)
 
 ### CVE-2024-39248 (2024-07-03)
 
@@ -16177,6 +16181,7 @@
 - [ECU-10525611-Xander/CVE-2022-37706](https://github.com/ECU-10525611-Xander/CVE-2022-37706)
 - [GrayHatZone/CVE-2022-37706-LPE-exploit](https://github.com/GrayHatZone/CVE-2022-37706-LPE-exploit)
 - [junnythemarksman/CVE-2022-37706](https://github.com/junnythemarksman/CVE-2022-37706)
+- [AleksPwn/CVE-2022-37706](https://github.com/AleksPwn/CVE-2022-37706)
 
 ### CVE-2022-37708
 - [thekevinday/docker_lightman_exploit](https://github.com/thekevinday/docker_lightman_exploit)
@@ -39013,6 +39018,7 @@
 - [LongWayHomie/CVE-2017-12617](https://github.com/LongWayHomie/CVE-2017-12617)
 - [K3ysTr0K3R/CVE-2017-12617-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-12617-EXPLOIT)
 - [scirusvulgaris/CVE-2017-12617](https://github.com/scirusvulgaris/CVE-2017-12617)
+- [yZ1337/CVE-2017-12617](https://github.com/yZ1337/CVE-2017-12617)
 
 ### CVE-2017-12624 (2017-11-14)
 
@@ -43544,7 +43550,6 @@
 - [4m3rr0r/CVE-2011-2523-poc](https://github.com/4m3rr0r/CVE-2011-2523-poc)
 - [Shubham-2k1/Exploit-CVE-2011-2523](https://github.com/Shubham-2k1/Exploit-CVE-2011-2523)
 - [Tenor-Z/SmileySploit](https://github.com/Tenor-Z/SmileySploit)
-- [Fatalitysec/vsftpd_2.3.4_Backdoor](https://github.com/Fatalitysec/vsftpd_2.3.4_Backdoor)
 - [AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research)
 
 ### CVE-2011-2894 (2011-10-04)
