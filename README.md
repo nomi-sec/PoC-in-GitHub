@@ -616,6 +616,7 @@
 </code>
 
 - [Redfox-Secuirty/Digisol-DG-GR1321-s-Password-Storage-in-Plaintext-CVE-2024-4232](https://github.com/Redfox-Secuirty/Digisol-DG-GR1321-s-Password-Storage-in-Plaintext-CVE-2024-4232)
+- [Redfox-Secuirty/Digisol-DG--GR1321-s-Password-Storage-in-Plaintext--CVE-2024-4232](https://github.com/Redfox-Secuirty/Digisol-DG--GR1321-s-Password-Storage-in-Plaintext--CVE-2024-4232)
 
 ### CVE-2024-4295 (2024-06-05)
 
@@ -935,6 +936,9 @@
 - [harshinsecurity/sentinelssh](https://github.com/harshinsecurity/sentinelssh)
 - [t3rry327/cve-2024-6387-poc](https://github.com/t3rry327/cve-2024-6387-poc)
 - [jocker2410/CVE-2024-6387_poc](https://github.com/jocker2410/CVE-2024-6387_poc)
+- [JackSparrowhk/ssh-CVE-2024-6387-poc](https://github.com/JackSparrowhk/ssh-CVE-2024-6387-poc)
+- [turbobit/CVE-2024-6387-OpenSSH-Vulnerability-Checker](https://github.com/turbobit/CVE-2024-6387-OpenSSH-Vulnerability-Checker)
+- [sms2056/CVE-2024-6387](https://github.com/sms2056/CVE-2024-6387)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -3245,6 +3249,9 @@
 </code>
 
 - [vin01/poc-cve-2024-38396](https://github.com/vin01/poc-cve-2024-38396)
+
+### CVE-2024-39203
+- [5r1an/CVE-2024-39203](https://github.com/5r1an/CVE-2024-39203)
 
 ### CVE-2024-39248 (2024-07-03)
 
@@ -14421,7 +14428,7 @@
 <code>The web module in some Hikvision Hybrid SAN/Cluster Storage products have the following security vulnerability. Due to the insufficient input validation, attacker can exploit the vulnerability to execute restricted commands by sending messages with malicious commands to the affected device.
 </code>
 
-- [NyaMeeEain/CVE-2022-28171-POC](https://github.com/NyaMeeEain/CVE-2022-28171-POC)
+- [Bibury1337/CVE-2022-28171-POC](https://github.com/Bibury1337/CVE-2022-28171-POC)
 
 ### CVE-2022-28219 (2022-04-05)
 
@@ -18641,6 +18648,7 @@
 - [wurwur/CVE-2021-3156](https://github.com/wurwur/CVE-2021-3156)
 - [SamTruss/LMU-CVE-2021-3156](https://github.com/SamTruss/LMU-CVE-2021-3156)
 - [lypd0/CVE-2021-3156-checker](https://github.com/lypd0/CVE-2021-3156-checker)
+- [Typical0day/CVE-2021-3156](https://github.com/Typical0day/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -19069,6 +19077,7 @@
 - [ASG-CASTLE/CVE-2021-4034](https://github.com/ASG-CASTLE/CVE-2021-4034)
 - [X-Projetion/Exploiting-PwnKit-CVE-2021-4034-](https://github.com/X-Projetion/Exploiting-PwnKit-CVE-2021-4034-)
 - [evkl1d/CVE-2021-4034](https://github.com/evkl1d/CVE-2021-4034)
+- [Typical0day/CVE-2021-4034](https://github.com/Typical0day/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
