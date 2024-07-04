@@ -2893,6 +2893,7 @@
 - [cmsec423/CVE-2024-34102](https://github.com/cmsec423/CVE-2024-34102)
 - [cmsec423/Magento-XXE-CVE-2024-34102](https://github.com/cmsec423/Magento-XXE-CVE-2024-34102)
 - [jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento](https://github.com/jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento)
+- [0xhunster/CVE-2024-34102](https://github.com/0xhunster/CVE-2024-34102)
 
 ### CVE-2024-34220 (-)
 
@@ -3258,6 +3259,13 @@
 </code>
 
 - [zunak/CVE-2024-39249](https://github.com/zunak/CVE-2024-39249)
+
+### CVE-2024-39844 (2024-07-03)
+
+<code>In ZNC before 1.9.1, remote code execution can occur in modtcl via a KICK.
+</code>
+
+- [ph1ns/CVE-2024-39844](https://github.com/ph1ns/CVE-2024-39844)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
