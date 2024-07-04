@@ -940,6 +940,9 @@
 - [JackSparrowhk/ssh-CVE-2024-6387-poc](https://github.com/JackSparrowhk/ssh-CVE-2024-6387-poc)
 - [turbobit/CVE-2024-6387-OpenSSH-Vulnerability-Checker](https://github.com/turbobit/CVE-2024-6387-OpenSSH-Vulnerability-Checker)
 - [sms2056/CVE-2024-6387](https://github.com/sms2056/CVE-2024-6387)
+- [invaderslabs/regreSSHion-CVE-2024-6387-](https://github.com/invaderslabs/regreSSHion-CVE-2024-6387-)
+- [lala-amber/CVE-2024-6387](https://github.com/lala-amber/CVE-2024-6387)
+- [4lxprime/regreSSHive](https://github.com/4lxprime/regreSSHive)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -3110,6 +3113,13 @@
 
 - [ggfzx/CVE-2024-36104](https://github.com/ggfzx/CVE-2024-36104)
 
+### CVE-2024-36401 (2024-07-01)
+
+<code>GeoServer is an open source server that allows users to share and edit geospatial data. Prior to versions 2.23.6, 2.24.4, and 2.25.2, multiple OGC request parameters allow Remote Code Execution (RCE) by unauthenticated users through specially crafted input against a default GeoServer installation due to unsafely evaluating property names as XPath expressions.\n\nThe GeoTools library API that GeoServer calls evaluates property/attribute names for feature types in a way that unsafely passes them to the commons-jxpath library which can execute arbitrary code when evaluating XPath expressions. This XPath evaluation is intended to be used only by complex feature types (i.e., Application Schema data stores) but is incorrectly being applied to simple feature types as well which makes this vulnerability apply to **ALL** GeoServer instances. No public PoC is provided but this vulnerability has been confirmed to be exploitable through WFS GetFeature, WFS GetPropertyValue, WMS GetMap, WMS GetFeatureInfo, WMS GetLegendGraphic and WPS Execute requests. This vulnerability can lead to executing arbitrary code.\n\nVersions 2.23.6, 2.24.4, and 2.25.2 contain a patch for the issue. A workaround exists by removing the `gt-complex-x.y.jar` file from the GeoServer where `x.y` is the GeoTools version (e.g., `gt-complex-31.1.jar` if running GeoServer 2.25.1). This will remove the vulnerable code from GeoServer but may break some GeoServer functionality or prevent GeoServer from deploying if the gt-complex module is needed.
+</code>
+
+- [bigb0x/CVE-2024-36401](https://github.com/bigb0x/CVE-2024-36401)
+
 ### CVE-2024-36416 (2024-06-10)
 
 <code>SuiteCRM is an open-source Customer Relationship Management (CRM) software application. Prior to versions 7.14.4 and 8.6.1, a deprecated v4 API example with no log rotation allows denial of service by logging excessive data. Versions 7.14.4 and 8.6.1 contain a fix for this issue.
@@ -3254,7 +3264,11 @@
 ### CVE-2024-39203
 - [5r1an/CVE-2024-39203](https://github.com/5r1an/CVE-2024-39203)
 
-### CVE-2024-39211
+### CVE-2024-39211 (2024-07-04)
+
+<code>Kaiten 57.128.8 allows remote attackers to enumerate user accounts via a crafted POST request, because a login response contains a user_email field only if the user account exists.
+</code>
+
 - [artemy-ccrsky/CVE-2024-39211](https://github.com/artemy-ccrsky/CVE-2024-39211)
 
 ### CVE-2024-39248 (2024-07-03)
@@ -11990,6 +12004,13 @@
 
 - [Mr-xn/CVE-2022-3328](https://github.com/Mr-xn/CVE-2022-3328)
 
+### CVE-2022-3357 (2022-10-31)
+
+<code>The Smart Slider 3 WordPress plugin before 3.5.1.11 unserialises the content of an imported file, which could lead to PHP object injection issues when a user import (intentionally or not) a malicious file, and a suitable gadget chain is present on the site.
+</code>
+
+- [iamz24/CVE-2021-3493_CVE-2022-3357](https://github.com/iamz24/CVE-2021-3493_CVE-2022-3357)
+
 ### CVE-2022-3368 (2022-10-11)
 
 <code>A vulnerability within the Software Updater functionality of Avira Security for Windows allowed an attacker with write access to the filesystem, to escalate his privileges in certain scenarios. The issue was fixed with Avira Security version 1.1.72.30556.
@@ -18800,6 +18821,7 @@
 - [pmihsan/OverlayFS-CVE-2021-3493](https://github.com/pmihsan/OverlayFS-CVE-2021-3493)
 - [smallkill/CVE-2021-3493](https://github.com/smallkill/CVE-2021-3493)
 - [ptkhai15/OverlayFS---CVE-2021-3493](https://github.com/ptkhai15/OverlayFS---CVE-2021-3493)
+- [iamz24/CVE-2021-3493_CVE-2022-3357](https://github.com/iamz24/CVE-2021-3493_CVE-2022-3357)
 
 ### CVE-2021-3516 (2021-06-01)
 
@@ -19368,13 +19390,6 @@
 - [somatrasss/CVE-2021-21402](https://github.com/somatrasss/CVE-2021-21402)
 - [givemefivw/CVE-2021-21402](https://github.com/givemefivw/CVE-2021-21402)
 
-### CVE-2021-21403 (2021-03-26)
-
-<code>In github.com/kongchuanhujiao/server before version 1.3.21 there is an authentication Bypass by Primary Weakness vulnerability. All users are impacted. This is fixed in version 1.3.21.
-</code>
-
-- [5l1v3r1/CVE-2021-21403](https://github.com/5l1v3r1/CVE-2021-21403)
-
 ### CVE-2021-21425 (2021-04-07)
 
 <code>Grav Admin Plugin is an HTML user interface that provides a way to configure Grav and create and modify pages. In versions 1.10.7 and earlier, an unauthenticated user can execute some methods of administrator controller without needing any credentials. Particular method execution will result in arbitrary YAML file creation or content change of existing YAML files on the system. Successfully exploitation of that vulnerability results in configuration changes, such as general site information change, custom scheduler job definition, etc. Due to the nature of the vulnerability, an adversary can change some part of the webpage, or hijack an administrator account, or execute operating system command under the context of the web-server user. This vulnerability is fixed in version 1.10.8. Blocking access to the `/admin` path from untrusted sources can be applied as a workaround.
@@ -19796,6 +19811,7 @@
 </code>
 
 - [EkamSinghWalia/Detection-script-for-cve-2021-23358](https://github.com/EkamSinghWalia/Detection-script-for-cve-2021-23358)
+- [MehdiBoukhobza/SandBox_CVE-2021-23358](https://github.com/MehdiBoukhobza/SandBox_CVE-2021-23358)
 
 ### CVE-2021-23383 (2021-05-04)
 
@@ -20375,7 +20391,6 @@
 - [1342486672/Flangvik](https://github.com/1342486672/Flangvik)
 - [TheDudeD6/ExchangeSmash](https://github.com/TheDudeD6/ExchangeSmash)
 - [kh4sh3i/ProxyLogon](https://github.com/kh4sh3i/ProxyLogon)
-- [byinarie/Zirconium](https://github.com/byinarie/Zirconium)
 - [ssrsec/Microsoft-Exchange-RCE](https://github.com/ssrsec/Microsoft-Exchange-RCE)
 - [glen-pearson/ProxyLogon-CVE-2021-26855](https://github.com/glen-pearson/ProxyLogon-CVE-2021-26855)
 - [MacAsure/cve-2021-26855](https://github.com/MacAsure/cve-2021-26855)
@@ -30356,13 +30371,6 @@
 
 - [securifera/CVE-2019-1579](https://github.com/securifera/CVE-2019-1579)
 - [Elsfa7-110/CVE-2019-1579](https://github.com/Elsfa7-110/CVE-2019-1579)
-
-### CVE-2019-1609 (2019-03-06)
-
-<code>A vulnerability in the CLI of Cisco NX-OS Software could allow an authenticated, local attacker to execute arbitrary commands on the underlying operating system of an affected device. The vulnerability is due to insufficient validation of arguments passed to certain CLI commands. An attacker could exploit this vulnerability by including malicious input as the argument of an affected command. A successful exploit could allow the attacker to execute arbitrary commands on the underlying operating system with elevated privileges. An attacker would need valid administrator credentials to exploit this vulnerability. MDS 9000 Series Multilayer Switches are affected in versions prior to 6.2(27), 8.1(1b), and 8.3(2). Nexus 3500 Platform Switches are affected in versions prior to 7.0(3)I7(6). Nexus 3000 Series Switches are affected in versions prior to 7.0(3)I4(9) and 7.0(3)I7(6). Nexus 3600 Platform Switches are affected in versions prior to 7.0(3)F3(5). Nexus 7000 and 7700 Series Switches are affected in versions prior to 6.2(22), 7.3(3)D1(1), 8.2(3), and 8.3(2). Nexus 9000 Series Switches in Standalone NX-OS Mode are affected in versions prior to 7.0(3)I4(9) and7.0(3)I7(6). Nexus 9500 R-Series Line Cards and Fabric Modules are affected in versions prior to 7.0(3)F3(5).
-</code>
-
-- [1X14720f130x/CVE-2019-1609](https://github.com/1X14720f130x/CVE-2019-1609)
 
 ### CVE-2019-1652 (2019-01-23)
 
