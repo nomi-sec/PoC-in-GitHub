@@ -737,6 +737,7 @@
 - [olebris/CVE-2024-4577](https://github.com/olebris/CVE-2024-4577)
 - [AlperenY-cs/CVE-2024-4577](https://github.com/AlperenY-cs/CVE-2024-4577)
 - [charis3306/CVE-2024-4577](https://github.com/charis3306/CVE-2024-4577)
+- [cybersagor/CVE-2024-4577](https://github.com/cybersagor/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -950,6 +951,8 @@
 - [Segurmatica/CVE-2024-6387-CHECK](https://github.com/Segurmatica/CVE-2024-6387-CHECK)
 - [sardine-web/CVE-2024-6387-template](https://github.com/sardine-web/CVE-2024-6387-template)
 - [imv7/CVE-2024-6387](https://github.com/imv7/CVE-2024-6387)
+- [SiberianHacker/CVE-2024-6387-Finder](https://github.com/SiberianHacker/CVE-2024-6387-Finder)
+- [dgicloud/patch_regreSSHion](https://github.com/dgicloud/patch_regreSSHion)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2526,6 +2529,7 @@
 
 - [tykawaii98/CVE-2024-30088](https://github.com/tykawaii98/CVE-2024-30088)
 - [NextGenPentesters/CVE-2024-30088-](https://github.com/NextGenPentesters/CVE-2024-30088-)
+- [Zombie-Kaiser/CVE-2024-30088-Windows-poc](https://github.com/Zombie-Kaiser/CVE-2024-30088-Windows-poc)
 
 ### CVE-2024-30212 (2024-05-28)
 
@@ -3134,6 +3138,7 @@
 
 - [bigb0x/CVE-2024-36401](https://github.com/bigb0x/CVE-2024-36401)
 - [Niuwoo/CVE-2024-36401](https://github.com/Niuwoo/CVE-2024-36401)
+- [RevoltSecurities/CVE-2024-36401](https://github.com/RevoltSecurities/CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -3234,6 +3239,9 @@
 
 - [Atreb92/cve-2024-37765](https://github.com/Atreb92/cve-2024-37765)
 
+### CVE-2024-37770
+- [k3ppf0r/CVE-2024-37770](https://github.com/k3ppf0r/CVE-2024-37770)
+
 ### CVE-2024-37791 (2024-06-18)
 
 <code>DuxCMS3 v3.1.3 was discovered to contain a SQL injection vulnerability via the keyword parameter at /article/Content/index?class_id.
@@ -3279,7 +3287,11 @@
 ### CVE-2024-39203
 - [5r1an/CVE-2024-39203](https://github.com/5r1an/CVE-2024-39203)
 
-### CVE-2024-39210
+### CVE-2024-39210 (2024-07-05)
+
+<code>Best House Rental Management System v1.0 was discovered to contain an arbitrary file read vulnerability via the Page parameter at index.php. This vulnerability allows attackers to read arbitrary PHP files and access other sensitive information within the application.
+</code>
+
 - [KRookieSec/CVE-2024-39210](https://github.com/KRookieSec/CVE-2024-39210)
 
 ### CVE-2024-39211 (2024-07-04)
@@ -4913,6 +4925,13 @@
 - [Trinadh465/frameworks_base_CVE-2023-20944](https://github.com/Trinadh465/frameworks_base_CVE-2023-20944)
 - [hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2023-20944](https://github.com/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2023-20944)
 
+### CVE-2023-20945 (2023-02-28)
+
+<code>In phNciNfc_MfCreateXchgDataHdr of phNxpExtns_MifareStd.cpp, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-246932269
+</code>
+
+- [Ailenchick/CVE-2023-20945](https://github.com/Ailenchick/CVE-2023-20945)
+
 ### CVE-2023-20955 (2023-03-24)
 
 <code>In onPrepareOptionsMenu of AppInfoDashboardFragment.java, there is a possible way to bypass admin restrictions and uninstall applications for all users due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-258653813
@@ -4927,6 +4946,7 @@
 
 - [pwnipc/BadParcel](https://github.com/pwnipc/BadParcel)
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20963](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20963)
+- [Ailenchick/CVE-2023-20963](https://github.com/Ailenchick/CVE-2023-20963)
 
 ### CVE-2023-21036 (2023-03-24)
 
@@ -6171,6 +6191,7 @@
 
 - [horizon3ai/CVE-2023-27532](https://github.com/horizon3ai/CVE-2023-27532)
 - [sfewer-r7/CVE-2023-27532](https://github.com/sfewer-r7/CVE-2023-27532)
+- [puckiestyle/CVE-2023-27532-RCE-Only](https://github.com/puckiestyle/CVE-2023-27532-RCE-Only)
 
 ### CVE-2023-27564 (2023-05-10)
 
@@ -9248,6 +9269,7 @@
 - [hotplugin0x01/CVE-2023-42793](https://github.com/hotplugin0x01/CVE-2023-42793)
 - [Zyad-Elsayed/CVE-2023-42793](https://github.com/Zyad-Elsayed/CVE-2023-42793)
 - [junnythemarksman/CVE-2023-42793](https://github.com/junnythemarksman/CVE-2023-42793)
+- [HusenjanDev/CVE-2023-42793](https://github.com/HusenjanDev/CVE-2023-42793)
 
 ### CVE-2023-42819 (2023-09-26)
 
