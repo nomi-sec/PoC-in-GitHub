@@ -459,6 +459,7 @@
 - [fevar54/Detectar-Backdoor-en-liblzma-de-XZ-utils-CVE-2024-3094-](https://github.com/fevar54/Detectar-Backdoor-en-liblzma-de-XZ-utils-CVE-2024-3094-)
 - [neuralinhibitor/xzwhy](https://github.com/neuralinhibitor/xzwhy)
 - [shefirot/CVE-2024-3094](https://github.com/shefirot/CVE-2024-3094)
+- [DANO-AMP/CVE-2024-3094](https://github.com/DANO-AMP/CVE-2024-3094)
 
 ### CVE-2024-3116 (2024-04-04)
 
@@ -946,6 +947,9 @@
 - [4lxprime/regreSSHive](https://github.com/4lxprime/regreSSHive)
 - [sardine-web/CVE-2024-6387_Check](https://github.com/sardine-web/CVE-2024-6387_Check)
 - [0x4D31/cve-2024-6387_hassh](https://github.com/0x4D31/cve-2024-6387_hassh)
+- [Segurmatica/CVE-2024-6387-CHECK](https://github.com/Segurmatica/CVE-2024-6387-CHECK)
+- [sardine-web/CVE-2024-6387-template](https://github.com/sardine-web/CVE-2024-6387-template)
+- [imv7/CVE-2024-6387](https://github.com/imv7/CVE-2024-6387)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2415,6 +2419,13 @@
 
 - [ally-petitt/CVE-2024-29399](https://github.com/ally-petitt/CVE-2024-29399)
 
+### CVE-2024-29415 (-)
+
+<code>The ip package through 2.0.1 for Node.js might allow SSRF because some IP addresses (such as 127.1, 01200034567, 012.1.2.3, 000:0:0000::01, and ::fFFf:127.0.0.1) are improperly categorized as globally routable via isPublic. NOTE: this issue exists because of an incomplete fix for CVE-2023-42282.
+</code>
+
+- [felipecruz91/node-ip-vex](https://github.com/felipecruz91/node-ip-vex)
+
 ### CVE-2024-29824 (2024-05-31)
 
 <code>An unspecified SQL Injection vulnerability in Core server of Ivanti EPM 2022 SU5 and prior allows an unauthenticated attacker within the same network to execute arbitrary code.
@@ -3268,6 +3279,9 @@
 ### CVE-2024-39203
 - [5r1an/CVE-2024-39203](https://github.com/5r1an/CVE-2024-39203)
 
+### CVE-2024-39210
+- [KRookieSec/CVE-2024-39210](https://github.com/KRookieSec/CVE-2024-39210)
+
 ### CVE-2024-39211 (2024-07-04)
 
 <code>Kaiten 57.128.8 allows remote attackers to enumerate user accounts via a crafted POST request, because a login response contains a user_email field only if the user account exists.
@@ -3295,6 +3309,13 @@
 </code>
 
 - [ph1ns/CVE-2024-39844](https://github.com/ph1ns/CVE-2024-39844)
+
+### CVE-2024-39943 (2024-07-04)
+
+<code>rejetto HFS (aka HTTP File Server) 3 before 0.52.10 on Linux, UNIX, and macOS allows OS command execution by remote authenticated users (if they have Upload permissions). This occurs because a shell is used to execute df (i.e., with execSync instead of spawnSync in child_process in Node.js).
+</code>
+
+- [truonghuuphuc/CVE-2024-39943-Poc](https://github.com/truonghuuphuc/CVE-2024-39943-Poc)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -34888,6 +34909,7 @@
 - [faiqu3/cve-2018-6574](https://github.com/faiqu3/cve-2018-6574)
 - [Dannners/CVE-2018-6574-go-get-RCE](https://github.com/Dannners/CVE-2018-6574-go-get-RCE)
 - [bme2003/CVE-2018-6574](https://github.com/bme2003/CVE-2018-6574)
+- [athulmur/CVE-2018-6574](https://github.com/athulmur/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -41556,7 +41578,7 @@
 <code>Elasticsearch before 1.6.1 allows remote attackers to execute arbitrary code via unspecified vectors involving the transport protocol.  NOTE: ZDI appears to claim that CVE-2015-3253 and CVE-2015-5377 are the same vulnerability
 </code>
 
-- [fi3ro/elasticsearch_CVE-2015-5377](https://github.com/fi3ro/elasticsearch_CVE-2015-5377)
+- [fi3ro/CVE-2015-5377](https://github.com/fi3ro/CVE-2015-5377)
 
 ### CVE-2015-5477 (2015-07-29)
 
@@ -44361,6 +44383,7 @@
 </code>
 
 - [bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387)
+- [sardine-web/CVE-2024-6387_Check](https://github.com/sardine-web/CVE-2024-6387_Check)
 
 ### CVE-2006-6184 (2006-12-01)
 
