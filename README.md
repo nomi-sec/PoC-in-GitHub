@@ -603,6 +603,7 @@
 - [gotr00t0day/CVE-2024-4040](https://github.com/gotr00t0day/CVE-2024-4040)
 - [1ncendium/CVE-2024-4040](https://github.com/1ncendium/CVE-2024-4040)
 - [olebris/CVE-2024-4040](https://github.com/olebris/CVE-2024-4040)
+- [entroychang/CVE-2024-4040](https://github.com/entroychang/CVE-2024-4040)
 
 ### CVE-2024-4231 (2024-05-10)
 
@@ -944,6 +945,7 @@
 - [lala-amber/CVE-2024-6387](https://github.com/lala-amber/CVE-2024-6387)
 - [4lxprime/regreSSHive](https://github.com/4lxprime/regreSSHive)
 - [sardine-web/CVE-2024-6387_Check](https://github.com/sardine-web/CVE-2024-6387_Check)
+- [0x4D31/cve-2024-6387_hassh](https://github.com/0x4D31/cve-2024-6387_hassh)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -3120,6 +3122,7 @@
 </code>
 
 - [bigb0x/CVE-2024-36401](https://github.com/bigb0x/CVE-2024-36401)
+- [Niuwoo/CVE-2024-36401](https://github.com/Niuwoo/CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
