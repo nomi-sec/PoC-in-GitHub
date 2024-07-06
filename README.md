@@ -460,6 +460,7 @@
 - [neuralinhibitor/xzwhy](https://github.com/neuralinhibitor/xzwhy)
 - [shefirot/CVE-2024-3094](https://github.com/shefirot/CVE-2024-3094)
 - [DANO-AMP/CVE-2024-3094](https://github.com/DANO-AMP/CVE-2024-3094)
+- [robertdfrench/ifuncd-up](https://github.com/robertdfrench/ifuncd-up)
 
 ### CVE-2024-3116 (2024-04-04)
 
@@ -953,6 +954,7 @@
 - [imv7/CVE-2024-6387](https://github.com/imv7/CVE-2024-6387)
 - [SiberianHacker/CVE-2024-6387-Finder](https://github.com/SiberianHacker/CVE-2024-6387-Finder)
 - [dgicloud/patch_regreSSHion](https://github.com/dgicloud/patch_regreSSHion)
+- [azurejoga/CVE-2024-6387-how-to-fix](https://github.com/azurejoga/CVE-2024-6387-how-to-fix)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
