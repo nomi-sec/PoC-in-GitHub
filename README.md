@@ -3141,6 +3141,8 @@
 - [bigb0x/CVE-2024-36401](https://github.com/bigb0x/CVE-2024-36401)
 - [Niuwoo/CVE-2024-36401](https://github.com/Niuwoo/CVE-2024-36401)
 - [RevoltSecurities/CVE-2024-36401](https://github.com/RevoltSecurities/CVE-2024-36401)
+- [Mr-xn/CVE-2024-36401](https://github.com/Mr-xn/CVE-2024-36401)
+- [zgimszhd61/CVE-2024-36401](https://github.com/zgimszhd61/CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -3169,6 +3171,14 @@
 </code>
 
 - [phtcloud-dev/CVE-2024-36837](https://github.com/phtcloud-dev/CVE-2024-36837)
+
+### CVE-2024-36991 (2024-07-01)
+
+<code>In Splunk Enterprise on Windows versions below 9.2.2, 9.1.5, and 9.0.10, an attacker could perform a path traversal on the /modules/messaging/ endpoint in Splunk Enterprise on Windows. This vulnerability should only affect Splunk Enterprise on Windows.
+</code>
+
+- [bigb0x/CVE-2024-36991](https://github.com/bigb0x/CVE-2024-36991)
+- [Mr-xn/CVE-2024-36991](https://github.com/Mr-xn/CVE-2024-36991)
 
 ### CVE-2024-37032 (-)
 
