@@ -1292,6 +1292,20 @@
 - [SeanPesce/CVE-2024-22243](https://github.com/SeanPesce/CVE-2024-22243)
 - [shellfeel/CVE-2024-22243-CVE-2024-22234](https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234)
 
+### CVE-2024-22274 (2024-05-21)
+
+<code>The vCenter Server contains an authenticated remote code execution vulnerability. A malicious actor with administrative privileges on the vCenter appliance shell may exploit this issue to run arbitrary commands on the underlying operating system.
+</code>
+
+- [mbadanoiu/CVE-2024-22274](https://github.com/mbadanoiu/CVE-2024-22274)
+
+### CVE-2024-22275 (2024-05-21)
+
+<code>The vCenter Server contains a partial file read vulnerability. A malicious actor with administrative privileges on the vCenter appliance shell may exploit this issue to partially read arbitrary files containing sensitive data.
+</code>
+
+- [mbadanoiu/CVE-2024-22275](https://github.com/mbadanoiu/CVE-2024-22275)
+
 ### CVE-2024-22369 (2024-02-20)
 
 <code>Deserialization of Untrusted Data vulnerability in Apache Camel SQL ComponentThis issue affects Apache Camel: from 3.0.0 before 3.21.4, from 3.22.0 before 3.22.1, from 4.0.0 before 4.0.4, from 4.1.0 before 4.4.0.\n\nUsers are recommended to upgrade to version 4.4.0, which fixes the issue. If users are on the 4.0.x LTS releases stream, then they are suggested to upgrade to 4.0.4. If users are on 3.x, they are suggested to move to 3.21.4 or 3.22.1\n\n
@@ -3179,6 +3193,8 @@
 
 - [bigb0x/CVE-2024-36991](https://github.com/bigb0x/CVE-2024-36991)
 - [Mr-xn/CVE-2024-36991](https://github.com/Mr-xn/CVE-2024-36991)
+- [th3gokul/CVE-2024-36991](https://github.com/th3gokul/CVE-2024-36991)
+- [sardine-web/CVE-2024-36991](https://github.com/sardine-web/CVE-2024-36991)
 
 ### CVE-2024-37032 (-)
 
@@ -3327,6 +3343,13 @@
 
 - [zunak/CVE-2024-39249](https://github.com/zunak/CVE-2024-39249)
 
+### CVE-2024-39689 (2024-07-05)
+
+<code>Certifi is a curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. Certifi starting in 2021.05.30 and prior to 2024.07.4 recognized root certificates from `GLOBALTRUST`. Certifi 2024.07.04 removes root certificates from `GLOBALTRUST` from the root store. These are in the process of being removed from Mozilla's trust store. `GLOBALTRUST`'s root certificates are being removed pursuant to an investigation which identified &quot;long-running and unresolved compliance issues.&quot;
+</code>
+
+- [roy-aladin/InfraTest](https://github.com/roy-aladin/InfraTest)
+
 ### CVE-2024-39844 (2024-07-03)
 
 <code>In ZNC before 1.9.1, remote code execution can occur in modtcl via a KICK.
@@ -3340,6 +3363,7 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-39943-Poc](https://github.com/truonghuuphuc/CVE-2024-39943-Poc)
+- [A-little-dragon/CVE-2024-39943-Exploit](https://github.com/A-little-dragon/CVE-2024-39943-Exploit)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -10531,6 +10555,9 @@
 </code>
 
 - [NHPT/CVE-2023-48123](https://github.com/NHPT/CVE-2023-48123)
+
+### CVE-2023-48194
+- [zt20xx/CVE-2023-48194](https://github.com/zt20xx/CVE-2023-48194)
 
 ### CVE-2023-48197 (2023-11-15)
 
