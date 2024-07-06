@@ -34943,7 +34943,6 @@
 - [faiqu3/cve-2018-6574](https://github.com/faiqu3/cve-2018-6574)
 - [Dannners/CVE-2018-6574-go-get-RCE](https://github.com/Dannners/CVE-2018-6574-go-get-RCE)
 - [bme2003/CVE-2018-6574](https://github.com/bme2003/CVE-2018-6574)
-- [athulmur/CVE-2018-6574](https://github.com/athulmur/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
