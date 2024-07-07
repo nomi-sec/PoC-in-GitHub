@@ -849,6 +849,13 @@
 
 - [watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806](https://github.com/watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806)
 
+### CVE-2024-5947 (2024-06-13)
+
+<code>Deep Sea Electronics DSE855 Configuration Backup Missing Authentication Information Disclosure Vulnerability. This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Deep Sea Electronics DSE855 devices. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the web-based UI. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Was ZDI-CAN-22679.
+</code>
+
+- [Cappricio-Securities/CVE-2024-5947](https://github.com/Cappricio-Securities/CVE-2024-5947)
+
 ### CVE-2024-5961 (2024-06-14)
 
 <code>Improper neutralization of input during web page generation vulnerability in 2ClickPortal software allows reflected cross-site scripting (XSS). An attacker might trick somebody into using a crafted URL, which will cause a script to be run in user's browser. This issue affects 2ClickPortal software versions from 7.2.31 through 7.6.4.
@@ -1438,6 +1445,9 @@
 </code>
 
 - [keru6k/CVE-2024-22983](https://github.com/keru6k/CVE-2024-22983)
+
+### CVE-2024-23002
+- [xiaomaoxxx/CVE-2024-23002](https://github.com/xiaomaoxxx/CVE-2024-23002)
 
 ### CVE-2024-23108 (2024-02-05)
 
@@ -2745,6 +2755,7 @@
 - [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
 - [Basyaact/CVE-2024-32002-PoC_Chinese](https://github.com/Basyaact/CVE-2024-32002-PoC_Chinese)
 - [bonnettheo/CVE-2024-32002](https://github.com/bonnettheo/CVE-2024-32002)
+- [sysonlai/CVE-2024-32002-hook](https://github.com/sysonlai/CVE-2024-32002-hook)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -3313,6 +3324,13 @@
 </code>
 
 - [vin01/poc-cve-2024-38396](https://github.com/vin01/poc-cve-2024-38396)
+
+### CVE-2024-38537 (2024-07-02)
+
+<code>Fides is an open-source privacy engineering platform. `fides.js`, a client-side script used to interact with the consent management features of Fides, used the `polyfill.io` domain in a very limited edge case, when it detected a legacy browser such as IE11 that did not support the fetch standard. Therefore it was possible for users of legacy, pre-2017 browsers who navigate to a page serving `fides.js` to download and execute malicious scripts from the `polyfill.io` domain when the domain was compromised and serving malware. No exploitation of `fides.js` via `polyfill.io` has been identified as of time of publication.\n\nThe vulnerability has been patched in Fides version `2.39.1`. Users are advised to upgrade to this version or later to secure their systems against this threat. On Thursday, June 27, 2024, Cloudflare and Namecheap intervened at a domain level to ensure `polyfill.io` and its subdomains could not resolve to the compromised service, rendering this vulnerability unexploitable. Prior to the domain level intervention, there were no server-side workarounds and the confidentiality, integrity, and availability impacts of this vulnerability were high. Clients could ensure they were not affected by using a modern browser that supported the fetch standard.
+</code>
+
+- [Havoc10-sw/Detect_polyfill_CVE-2024-38537-](https://github.com/Havoc10-sw/Detect_polyfill_CVE-2024-38537-)
 
 ### CVE-2024-39203
 - [5r1an/CVE-2024-39203](https://github.com/5r1an/CVE-2024-39203)
@@ -4152,6 +4170,15 @@
 </code>
 
 - [hshivhare67/Kernel_4.1.15_CVE-2023-4206_CVE-2023-4207_CVE-2023-4208](https://github.com/hshivhare67/Kernel_4.1.15_CVE-2023-4206_CVE-2023-4207_CVE-2023-4208)
+
+### CVE-2023-4220 (2023-11-28)
+
+<code>Unrestricted file upload in big file upload functionality in `/main/inc/lib/javascript/bigupload/inc/bigUpload.php` in Chamilo LMS &lt;= v1.11.24 allows unauthenticated attackers to perform stored cross-site scripting attacks and obtain remote code execution via uploading of web shell.
+</code>
+
+- [m3m0o/chamilo-lms-unauthenticated-big-upload-rce-poc](https://github.com/m3m0o/chamilo-lms-unauthenticated-big-upload-rce-poc)
+- [dollarboysushil/Chamilo-LMS-Unauthenticated-File-Upload-CVE-2023-4220](https://github.com/dollarboysushil/Chamilo-LMS-Unauthenticated-File-Upload-CVE-2023-4220)
+- [charlesgargasson/CVE-2023-4220](https://github.com/charlesgargasson/CVE-2023-4220)
 
 ### CVE-2023-4278 (2023-09-11)
 
@@ -5930,6 +5957,7 @@
 </code>
 
 - [rvizx/CVE-2023-26035](https://github.com/rvizx/CVE-2023-26035)
+- [m3m0o/zoneminder-snapshots-rce-poc](https://github.com/m3m0o/zoneminder-snapshots-rce-poc)
 - [heapbytes/CVE-2023-26035](https://github.com/heapbytes/CVE-2023-26035)
 - [Yuma-Tsushima07/CVE-2023-26035](https://github.com/Yuma-Tsushima07/CVE-2023-26035)
 - [Faelian/zoneminder_CVE-2023-26035](https://github.com/Faelian/zoneminder_CVE-2023-26035)
@@ -8561,6 +8589,7 @@
 - [kh4sh3i/CVE-2023-38646](https://github.com/kh4sh3i/CVE-2023-38646)
 - [yxl2001/CVE-2023-38646](https://github.com/yxl2001/CVE-2023-38646)
 - [alexandre-pecorilla/CVE-2023-38646](https://github.com/alexandre-pecorilla/CVE-2023-38646)
+- [m3m0o/metabase-pre-auth-rce-poc](https://github.com/m3m0o/metabase-pre-auth-rce-poc)
 - [CN016/Metabase-H2-CVE-2023-38646-](https://github.com/CN016/Metabase-H2-CVE-2023-38646-)
 - [Boogipop/MetabaseRceTools](https://github.com/Boogipop/MetabaseRceTools)
 - [SUT0L/CVE-2023-38646](https://github.com/SUT0L/CVE-2023-38646)
@@ -34972,6 +35001,7 @@
 - [faiqu3/cve-2018-6574](https://github.com/faiqu3/cve-2018-6574)
 - [Dannners/CVE-2018-6574-go-get-RCE](https://github.com/Dannners/CVE-2018-6574-go-get-RCE)
 - [bme2003/CVE-2018-6574](https://github.com/bme2003/CVE-2018-6574)
+- [iNoSec2/cve-2018-6574](https://github.com/iNoSec2/cve-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
