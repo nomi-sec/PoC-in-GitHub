@@ -739,6 +739,7 @@
 - [AlperenY-cs/CVE-2024-4577](https://github.com/AlperenY-cs/CVE-2024-4577)
 - [charis3306/CVE-2024-4577](https://github.com/charis3306/CVE-2024-4577)
 - [cybersagor/CVE-2024-4577](https://github.com/cybersagor/CVE-2024-4577)
+- [l0n3m4n/CVE-2024-4577-RCE](https://github.com/l0n3m4n/CVE-2024-4577-RCE)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -753,13 +754,6 @@
 </code>
 
 - [michredteam/CVE-2024-4761](https://github.com/michredteam/CVE-2024-4761)
-
-### CVE-2024-4836 (2024-07-02)
-
-<code>Web services managed by Edito CMS (Content Management System) in versions from 3.5 through 3.25 leak sensitive data as they allow downloading configuration files by an unauthenticated user.\nThe issue in versions 3.5 - 3.25 was removed in releases which dates from 10th of January 2014. Higher versions were never affected.
-</code>
-
-- [sleep46/CVE-2024-4836_Check](https://github.com/sleep46/CVE-2024-4836_Check)
 
 ### CVE-2024-4875 (2024-05-21)
 
@@ -3210,6 +3204,13 @@
 
 - [LeadroyaL/CVE-2024-37051-EXP](https://github.com/LeadroyaL/CVE-2024-37051-EXP)
 - [mrblackstar26/CVE-2024-37051](https://github.com/mrblackstar26/CVE-2024-37051)
+
+### CVE-2024-37081 (2024-06-18)
+
+<code>The vCenter Server contains multiple local privilege escalation vulnerabilities due to misconfiguration of sudo. An authenticated local user with non-administrative privileges may exploit these issues to elevate privileges to root on vCenter Server Appliance.
+</code>
+
+- [mbadanoiu/CVE-2024-37081](https://github.com/mbadanoiu/CVE-2024-37081)
 
 ### CVE-2024-37393 (2024-06-10)
 
