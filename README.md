@@ -1796,7 +1796,7 @@
 <code>Deserialization of untrusted data can occur in versions 0.17.0 to 1.14.2 of the client SDK of Allegro AI’s ClearML platform, enabling a maliciously uploaded artifact to run arbitrary code on an end user’s system when interacted with.\n
 </code>
 
-- [LordVileOnX/ClearML-vulnerability-exploit-RCE-2024-CVE-2024-24590-](https://github.com/LordVileOnX/ClearML-vulnerability-exploit-RCE-2024-CVE-2024-24590-)
+- [HexDoesRandomShit/ClearML-vulnerability-exploit-RCE-2024-CVE-2024-24590-](https://github.com/HexDoesRandomShit/ClearML-vulnerability-exploit-RCE-2024-CVE-2024-24590-)
 - [OxyDeV2/ClearML-CVE-2024-24590](https://github.com/OxyDeV2/ClearML-CVE-2024-24590)
 - [DemonPandaz2763/CVE-2024-24590](https://github.com/DemonPandaz2763/CVE-2024-24590)
 - [xffsec/CVE-2024-24590-ClearML-RCE-Exploit](https://github.com/xffsec/CVE-2024-24590-ClearML-RCE-Exploit)
@@ -2941,6 +2941,7 @@
 - [cmsec423/Magento-XXE-CVE-2024-34102](https://github.com/cmsec423/Magento-XXE-CVE-2024-34102)
 - [jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento](https://github.com/jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento)
 - [0xhunster/CVE-2024-34102](https://github.com/0xhunster/CVE-2024-34102)
+- [SamJUK/cosmicsting-validator](https://github.com/SamJUK/cosmicsting-validator)
 
 ### CVE-2024-34220 (-)
 
@@ -3025,6 +3026,13 @@
 </code>
 
 - [Voorivex/CVE-2024-34351](https://github.com/Voorivex/CVE-2024-34351)
+
+### CVE-2024-34361 (2024-07-05)
+
+<code>Pi-hole is a DNS sinkhole that protects devices from unwanted content without installing any client-side software. A vulnerability in versions prior to 5.18.3 allows an authenticated user to make internal requests to the server via the `gravity_DownloadBlocklistFromUrl()` function. Depending on some circumstances, the vulnerability could lead to remote command execution. Version 5.18.3 contains a patch for this issue.
+</code>
+
+- [T0X1Cx/CVE-2024-34361-PiHole-SSRF-to-RCE](https://github.com/T0X1Cx/CVE-2024-34361-PiHole-SSRF-to-RCE)
 
 ### CVE-2024-34452 (2024-06-21)
 
@@ -18786,7 +18794,6 @@
 - [mutur4/CVE-2021-3156](https://github.com/mutur4/CVE-2021-3156)
 - [PurpleOzone/PE_CVE-CVE-2021-3156](https://github.com/PurpleOzone/PE_CVE-CVE-2021-3156)
 - [asepsaepdin/CVE-2021-3156](https://github.com/asepsaepdin/CVE-2021-3156)
-- [EthicalSecurity-Agency/Y3A-CVE-2021-3156](https://github.com/EthicalSecurity-Agency/Y3A-CVE-2021-3156)
 - [DDayLuong/CVE-2021-3156](https://github.com/DDayLuong/CVE-2021-3156)
 - [DASICS-ICT/DASICS-CVE-2021-3156](https://github.com/DASICS-ICT/DASICS-CVE-2021-3156)
 - [wurwur/CVE-2021-3156](https://github.com/wurwur/CVE-2021-3156)
@@ -19337,6 +19344,7 @@
 
 - [ndmalc/CVE-2021-20323](https://github.com/ndmalc/CVE-2021-20323)
 - [Cappricio-Securities/CVE-2021-20323](https://github.com/Cappricio-Securities/CVE-2021-20323)
+- [cscpwn0sec/CVE-2021-20323](https://github.com/cscpwn0sec/CVE-2021-20323)
 
 ### CVE-2021-20717 (2021-05-10)
 
@@ -21809,7 +21817,6 @@
 </code>
 
 - [StackOverflowExcept1on/CVE-2021-36393](https://github.com/StackOverflowExcept1on/CVE-2021-36393)
-- [T0X1Cx/CVE-2021-36393-Exploit](https://github.com/T0X1Cx/CVE-2021-36393-Exploit)
 
 ### CVE-2021-36394 (2023-03-06)
 
@@ -21818,6 +21825,13 @@
 
 - [dinhbaouit/CVE-2021-36394](https://github.com/dinhbaouit/CVE-2021-36394)
 - [lavclash75/CVE-2021-36394-Pre-Auth-RCE-in-Moodle](https://github.com/lavclash75/CVE-2021-36394-Pre-Auth-RCE-in-Moodle)
+
+### CVE-2021-36396 (2023-03-06)
+
+<code>In Moodle, insufficient redirect handling made it possible to blindly bypass cURL blocked hosts/allowed ports restrictions, resulting in a blind SSRF risk.
+</code>
+
+- [T0X1Cx/CVE-2021-36396-Exploit](https://github.com/T0X1Cx/CVE-2021-36396-Exploit)
 
 ### CVE-2021-36460 (2022-04-25)
 
