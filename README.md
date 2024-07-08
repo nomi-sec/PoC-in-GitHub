@@ -461,6 +461,7 @@
 - [shefirot/CVE-2024-3094](https://github.com/shefirot/CVE-2024-3094)
 - [DANO-AMP/CVE-2024-3094](https://github.com/DANO-AMP/CVE-2024-3094)
 - [robertdfrench/ifuncd-up](https://github.com/robertdfrench/ifuncd-up)
+- [yq93dskimzm2/CVE-2024-3094](https://github.com/yq93dskimzm2/CVE-2024-3094)
 
 ### CVE-2024-3116 (2024-04-04)
 
@@ -3372,7 +3373,11 @@
 
 - [Havoc10-sw/Detect_polyfill_CVE-2024-38537-](https://github.com/Havoc10-sw/Detect_polyfill_CVE-2024-38537-)
 
-### CVE-2024-39203
+### CVE-2024-39203 (2024-07-08)
+
+<code>A cross-site scripting (XSS) vulnerability in the Backend Theme Management module of Z-BlogPHP v1.7.3 allows attackers to execute arbitrary web scripts or HTML via a crafted payload.
+</code>
+
 - [5r1an/CVE-2024-39203](https://github.com/5r1an/CVE-2024-39203)
 
 ### CVE-2024-39210 (2024-07-05)
