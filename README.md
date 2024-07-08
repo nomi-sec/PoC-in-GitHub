@@ -762,6 +762,20 @@
 
 - [RandomRobbieBF/CVE-2024-4875](https://github.com/RandomRobbieBF/CVE-2024-4875)
 
+### CVE-2024-4883 (2024-06-25)
+
+<code>In WhatsUp Gold versions released before 2023.1.3, a Remote Code Execution issue exists in Progress WhatsUp Gold. This vulnerability allows an unauthenticated attacker to achieve the RCE as a service account through NmApi.exe.
+</code>
+
+- [sinsinology/CVE-2024-4883](https://github.com/sinsinology/CVE-2024-4883)
+
+### CVE-2024-4885 (2024-06-25)
+
+<code>In WhatsUp Gold versions released before 2023.1.3, an unauthenticated Remote Code Execution vulnerability in Progress WhatsUpGold.  The \n\nWhatsUp.ExportUtilities.Export.GetFileWithoutZip\n\n\n\n allows execution of commands with iisapppool\nmconsole privileges.
+</code>
+
+- [sinsinology/CVE-2024-4885](https://github.com/sinsinology/CVE-2024-4885)
+
 ### CVE-2024-4898 (2024-06-12)
 
 <code>The InstaWP Connect – 1-click WP Staging &amp; Migration plugin for WordPress is vulnerable to arbitrary option updates due to a missing authorization checks on the REST API calls in all versions up to, and including, 0.1.0.38. This makes it possible for unauthenticated attackers to connect the site to InstaWP API, edit arbitrary site options and create administrator accounts.
@@ -788,6 +802,13 @@
 - [Cappricio-Securities/CVE-2024-4956](https://github.com/Cappricio-Securities/CVE-2024-4956)
 - [fin3ss3g0d/CVE-2024-4956](https://github.com/fin3ss3g0d/CVE-2024-4956)
 - [verylazytech/CVE-2024-4956](https://github.com/verylazytech/CVE-2024-4956)
+
+### CVE-2024-5009 (2024-06-25)
+
+<code>In WhatsUp Gold versions released before 2023.1.3, an Improper Access Control vulnerability in Wug.UI.Controllers.InstallController.SetAdminPassword allows local attackers to modify admin's password.
+</code>
+
+- [sinsinology/CVE-2024-5009](https://github.com/sinsinology/CVE-2024-5009)
 
 ### CVE-2024-5084 (2024-05-23)
 
@@ -956,6 +977,8 @@
 - [SiberianHacker/CVE-2024-6387-Finder](https://github.com/SiberianHacker/CVE-2024-6387-Finder)
 - [dgicloud/patch_regreSSHion](https://github.com/dgicloud/patch_regreSSHion)
 - [azurejoga/CVE-2024-6387-how-to-fix](https://github.com/azurejoga/CVE-2024-6387-how-to-fix)
+- [asterictnl-lvdw/CVE-2024-6387](https://github.com/asterictnl-lvdw/CVE-2024-6387)
+- [vkaushik-chef/regreSSHion](https://github.com/vkaushik-chef/regreSSHion)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2024,6 +2047,13 @@
 - [passwa11/CVE-2024-26026](https://github.com/passwa11/CVE-2024-26026)
 - [GRTMALDET/Big-IP-Next-CVE-2024-26026](https://github.com/GRTMALDET/Big-IP-Next-CVE-2024-26026)
 
+### CVE-2024-26144 (2024-02-27)
+
+<code>Rails is a web-application framework. Starting with version 5.2.0, there is a possible sensitive session information leak in Active Storage. By default, Active Storage sends a Set-Cookie header along with the user's session cookie when serving blobs. It also sets Cache-Control to public. Certain proxies may cache the Set-Cookie, leading to an information leak. The vulnerability is fixed in 7.0.8.1 and 6.1.7.7.
+</code>
+
+- [gmo-ierae/CVE-2024-26144-test](https://github.com/gmo-ierae/CVE-2024-26144-test)
+
 ### CVE-2024-26218 (2024-04-09)
 
 <code>Windows Kernel Elevation of Privilege Vulnerability
@@ -2942,6 +2972,7 @@
 - [jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento](https://github.com/jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento)
 - [0xhunster/CVE-2024-34102](https://github.com/0xhunster/CVE-2024-34102)
 - [SamJUK/cosmicsting-validator](https://github.com/SamJUK/cosmicsting-validator)
+- [unknownzerobit/poc](https://github.com/unknownzerobit/poc)
 
 ### CVE-2024-34220 (-)
 
@@ -4188,6 +4219,8 @@
 - [m3m0o/chamilo-lms-unauthenticated-big-upload-rce-poc](https://github.com/m3m0o/chamilo-lms-unauthenticated-big-upload-rce-poc)
 - [dollarboysushil/Chamilo-LMS-Unauthenticated-File-Upload-CVE-2023-4220](https://github.com/dollarboysushil/Chamilo-LMS-Unauthenticated-File-Upload-CVE-2023-4220)
 - [charlesgargasson/CVE-2023-4220](https://github.com/charlesgargasson/CVE-2023-4220)
+- [insomnia-jacob/CVE-2023-4220-](https://github.com/insomnia-jacob/CVE-2023-4220-)
+- [Ziad-Sakr/Chamilo-LMS-CVE-2023-4220-Exploit](https://github.com/Ziad-Sakr/Chamilo-LMS-CVE-2023-4220-Exploit)
 
 ### CVE-2023-4278 (2023-09-11)
 
@@ -12750,6 +12783,13 @@
 </code>
 
 - [sreeram281997/CVE-2022-21668-Pipenv-RCE-vulnerability](https://github.com/sreeram281997/CVE-2022-21668-Pipenv-RCE-vulnerability)
+
+### CVE-2022-21724 (2022-02-02)
+
+<code>pgjdbc is the offical PostgreSQL JDBC Driver. A security hole was found in the jdbc driver for postgresql database while doing security research. The system using the postgresql library will be attacked when attacker control the jdbc url or properties. pgjdbc instantiates plugin instances based on class names provided via `authenticationPluginClassName`, `sslhostnameverifier`, `socketFactory`, `sslfactory`, `sslpasswordcallback` connection properties. However, the driver did not verify if the class implements the expected interface before instantiating the class. This can lead to code execution loaded via arbitrary classes. Users using plugins are advised to upgrade. There are no known workarounds for this issue.
+</code>
+
+- [ToontjeM/CVE-2022-21724](https://github.com/ToontjeM/CVE-2022-21724)
 
 ### CVE-2022-21728 (2022-02-03)
 
