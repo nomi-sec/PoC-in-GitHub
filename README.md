@@ -810,6 +810,7 @@
 </code>
 
 - [sinsinology/CVE-2024-5009](https://github.com/sinsinology/CVE-2024-5009)
+- [th3gokul/CVE-2024-5009](https://github.com/th3gokul/CVE-2024-5009)
 
 ### CVE-2024-5084 (2024-05-23)
 
@@ -980,6 +981,7 @@
 - [asterictnl-lvdw/CVE-2024-6387](https://github.com/asterictnl-lvdw/CVE-2024-6387)
 - [vkaushik-chef/regreSSHion](https://github.com/vkaushik-chef/regreSSHion)
 - [dgourillon/mitigate-CVE-2024-6387](https://github.com/dgourillon/mitigate-CVE-2024-6387)
+- [mrmtwoj/CVE-2024-6387](https://github.com/mrmtwoj/CVE-2024-6387)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -3256,6 +3258,7 @@
 </code>
 
 - [mbadanoiu/CVE-2024-37081](https://github.com/mbadanoiu/CVE-2024-37081)
+- [Mr-r00t11/CVE-2024-37081](https://github.com/Mr-r00t11/CVE-2024-37081)
 
 ### CVE-2024-37393 (2024-06-10)
 
@@ -4225,6 +4228,7 @@
 - [charlesgargasson/CVE-2023-4220](https://github.com/charlesgargasson/CVE-2023-4220)
 - [insomnia-jacob/CVE-2023-4220-](https://github.com/insomnia-jacob/CVE-2023-4220-)
 - [Ziad-Sakr/Chamilo-LMS-CVE-2023-4220-Exploit](https://github.com/Ziad-Sakr/Chamilo-LMS-CVE-2023-4220-Exploit)
+- [HO4XXX/cve-2023-4220-poc](https://github.com/HO4XXX/cve-2023-4220-poc)
 
 ### CVE-2023-4278 (2023-09-11)
 
@@ -10635,7 +10639,11 @@
 
 - [NHPT/CVE-2023-48123](https://github.com/NHPT/CVE-2023-48123)
 
-### CVE-2023-48194
+### CVE-2023-48194 (2024-07-09)
+
+<code>Vulnerability in Tenda AC8v4 .V16.03.34.09 due to sscanf and the last digit of s8 being overwritten with \x0. After executing set_client_qos, control over the gp register can be obtained.
+</code>
+
 - [zt20xx/CVE-2023-48194](https://github.com/zt20xx/CVE-2023-48194)
 
 ### CVE-2023-48197 (2023-11-15)
@@ -27536,7 +27544,7 @@
 <code>The Treck TCP/IP stack before 6.0.1.66 improperly handles an IPv4/ICMPv4 Length Parameter Inconsistency, which might allow remote attackers to trigger an information leak.
 </code>
 
-- [SamuelGaudemer/POC_CVE-2020-11898](https://github.com/SamuelGaudemer/POC_CVE-2020-11898)
+- [scamwork/POC_CVE-2020-11898](https://github.com/scamwork/POC_CVE-2020-11898)
 
 ### CVE-2020-11932 (2020-05-11)
 
@@ -31567,7 +31575,6 @@
 - [zmiddle/Simple_CMS_SQLi](https://github.com/zmiddle/Simple_CMS_SQLi)
 - [ELIZEUOPAIN/CVE-2019-9053-CMS-Made-Simple-2.2.10---SQL-Injection-Exploit](https://github.com/ELIZEUOPAIN/CVE-2019-9053-CMS-Made-Simple-2.2.10---SQL-Injection-Exploit)
 - [pedrojosenavasperez/CVE-2019-9053-Python3](https://github.com/pedrojosenavasperez/CVE-2019-9053-Python3)
-- [STERN3L/CVE-2019-9053](https://github.com/STERN3L/CVE-2019-9053)
 - [Mahamedm/CVE-2019-9053-Exploit-Python-3](https://github.com/Mahamedm/CVE-2019-9053-Exploit-Python-3)
 - [im-suman-roy/CVE-2019-9053](https://github.com/im-suman-roy/CVE-2019-9053)
 - [bthnrml/guncel-cve-2019-9053.py](https://github.com/bthnrml/guncel-cve-2019-9053.py)
@@ -44681,6 +44688,9 @@
 - [Sp3c73rSh4d0w/distccd_rce_CVE-2004-2687](https://github.com/Sp3c73rSh4d0w/distccd_rce_CVE-2004-2687)
 - [k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687)
 - [ss0wl/CVE-2004-2687_distcc_v1](https://github.com/ss0wl/CVE-2004-2687_distcc_v1)
+
+### CVE-2004-6768
+- [yougboiz/Metasploit-CVE-2004-6768](https://github.com/yougboiz/Metasploit-CVE-2004-6768)
 
 
 ## 2003
