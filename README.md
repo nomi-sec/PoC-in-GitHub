@@ -2551,13 +2551,6 @@
 
 - [Sploitus/CVE-2024-29988-exploit](https://github.com/Sploitus/CVE-2024-29988-exploit)
 
-### CVE-2024-30002 (2024-05-14)
-
-<code>Windows Mobile Broadband Driver Remote Code Execution Vulnerability
-</code>
-
-- [EQSTSeminar/git_rce](https://github.com/EQSTSeminar/git_rce)
-
 ### CVE-2024-30043 (2024-05-14)
 
 <code>Microsoft SharePoint Server Information Disclosure Vulnerability
@@ -2785,6 +2778,7 @@
 - [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
 - [Basyaact/CVE-2024-32002-PoC_Chinese](https://github.com/Basyaact/CVE-2024-32002-PoC_Chinese)
 - [bonnettheo/CVE-2024-32002](https://github.com/bonnettheo/CVE-2024-32002)
+- [EQSTSeminar/git_rce](https://github.com/EQSTSeminar/git_rce)
 - [sysonlai/CVE-2024-32002-hook](https://github.com/sysonlai/CVE-2024-32002-hook)
 
 ### CVE-2024-32004 (2024-05-14)
@@ -3405,7 +3399,7 @@
 
 ### CVE-2024-39249 (2024-07-01)
 
-<code>Async &lt;= 2.6.4 and &lt;= 3.2.5 are vulnerable to ReDoS (Regular Expression Denial of Service) while parsing function in autoinject function.
+<code>Async &lt;= 2.6.4 and &lt;= 3.2.5 are vulnerable to ReDoS (Regular Expression Denial of Service) while parsing function in autoinject function. NOTE: this is disputed by the supplier because there is no realistic threat model: regular expressions are not used with untrusted input.
 </code>
 
 - [zunak/CVE-2024-39249](https://github.com/zunak/CVE-2024-39249)
