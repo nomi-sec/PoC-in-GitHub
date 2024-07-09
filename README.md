@@ -979,6 +979,7 @@
 - [azurejoga/CVE-2024-6387-how-to-fix](https://github.com/azurejoga/CVE-2024-6387-how-to-fix)
 - [asterictnl-lvdw/CVE-2024-6387](https://github.com/asterictnl-lvdw/CVE-2024-6387)
 - [vkaushik-chef/regreSSHion](https://github.com/vkaushik-chef/regreSSHion)
+- [dgourillon/mitigate-CVE-2024-6387](https://github.com/dgourillon/mitigate-CVE-2024-6387)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -3195,7 +3196,6 @@
 - [RevoltSecurities/CVE-2024-36401](https://github.com/RevoltSecurities/CVE-2024-36401)
 - [Mr-xn/CVE-2024-36401](https://github.com/Mr-xn/CVE-2024-36401)
 - [zgimszhd61/CVE-2024-36401](https://github.com/zgimszhd61/CVE-2024-36401)
-- [zjaycyy/CVE-2024-36401](https://github.com/zjaycyy/CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -3368,6 +3368,9 @@
 
 ### CVE-2024-39031
 - [toneemarqus/CVE-2024-39031](https://github.com/toneemarqus/CVE-2024-39031)
+
+### CVE-2024-39069
+- [AungSoePaing/CVE-2024-39069](https://github.com/AungSoePaing/CVE-2024-39069)
 
 ### CVE-2024-39203 (2024-07-08)
 
@@ -6413,6 +6416,7 @@
 </code>
 
 - [Y3A/CVE-2023-28229](https://github.com/Y3A/CVE-2023-28229)
+- [pxcs/CrackKeyIso](https://github.com/pxcs/CrackKeyIso)
 
 ### CVE-2023-28231 (2023-04-11)
 
@@ -6438,6 +6442,7 @@
 - [Danasuley/CVE-2023-28252-](https://github.com/Danasuley/CVE-2023-28252-)
 - [bkstephen/Compiled-PoC-Binary-For-CVE-2023-28252](https://github.com/bkstephen/Compiled-PoC-Binary-For-CVE-2023-28252)
 - [duck-sec/CVE-2023-28252-Compiled-exe](https://github.com/duck-sec/CVE-2023-28252-Compiled-exe)
+- [pxcs/CLFS](https://github.com/pxcs/CLFS)
 - [Vulmatch/CVE-2023-28252](https://github.com/Vulmatch/CVE-2023-28252)
 
 ### CVE-2023-28329 (2023-03-23)
@@ -12178,6 +12183,7 @@
 </code>
 
 - [Wh04m1001/CVE-2022-3368](https://github.com/Wh04m1001/CVE-2022-3368)
+- [pxcs/CrackAVFee](https://github.com/pxcs/CrackAVFee)
 
 ### CVE-2022-3464 (2022-10-12)
 
@@ -17905,6 +17911,13 @@
 </code>
 
 - [swzhouu/CVE-2022-48311](https://github.com/swzhouu/CVE-2022-48311)
+
+### CVE-2022-48429 (2023-03-27)
+
+<code>In JetBrains Hub before 2022.3.15573, 2022.2.15572, 2022.1.15583 reflected XSS in dashboards was possible\n
+</code>
+
+- [echo-devim/CVE-2022-48429_poc](https://github.com/echo-devim/CVE-2022-48429_poc)
 
 ### CVE-2022-48474 (2023-09-12)
 
@@ -39387,6 +39400,13 @@
 </code>
 
 - [TheDarthMole/CVE-2017-14980](https://github.com/TheDarthMole/CVE-2017-14980)
+
+### CVE-2017-15099 (2017-11-09)
+
+<code>INSERT ... ON CONFLICT DO UPDATE commands in PostgreSQL 10.x before 10.1, 9.6.x before 9.6.6, and 9.5.x before 9.5.10 disclose table contents that the invoker lacks privilege to read. These exploits affect only tables where the attacker lacks full read access but has both INSERT and UPDATE privileges. Exploits bypass row level security policies and lack of SELECT privilege.
+</code>
+
+- [ToontjeM/CVE-2017-15099](https://github.com/ToontjeM/CVE-2017-15099)
 
 ### CVE-2017-15120 (2018-07-27)
 
