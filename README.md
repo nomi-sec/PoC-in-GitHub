@@ -956,8 +956,7 @@
 - [xonoxitron/regreSSHion-checker](https://github.com/xonoxitron/regreSSHion-checker)
 - [BrandonLynch2402/cve-2024-6387-nuclei-template](https://github.com/BrandonLynch2402/cve-2024-6387-nuclei-template)
 - [edsonjt81/CVE-2024-6387_Check](https://github.com/edsonjt81/CVE-2024-6387_Check)
-- [EkaterinaMarchetti/CVE-2024-6387-regreSSHion-Checker](https://github.com/EkaterinaMarchetti/CVE-2024-6387-regreSSHion-Checker)
-- [grupooruss/CVE-2024-6387-Tester](https://github.com/grupooruss/CVE-2024-6387-Tester)
+- [grupooruss/CVE-2024-6387](https://github.com/grupooruss/CVE-2024-6387)
 - [CognisysGroup/CVE-2024-6387-Checker](https://github.com/CognisysGroup/CVE-2024-6387-Checker)
 - [sxlmnwb/CVE-2024-6387](https://github.com/sxlmnwb/CVE-2024-6387)
 - [Symbolexe/CVE-2024-6387](https://github.com/Symbolexe/CVE-2024-6387)
@@ -3372,6 +3371,9 @@
 </code>
 
 - [Havoc10-sw/Detect_polyfill_CVE-2024-38537-](https://github.com/Havoc10-sw/Detect_polyfill_CVE-2024-38537-)
+
+### CVE-2024-39031
+- [toneemarqus/CVE-2024-39031](https://github.com/toneemarqus/CVE-2024-39031)
 
 ### CVE-2024-39203 (2024-07-08)
 
@@ -44391,6 +44393,7 @@
 - [0xTabun/CVE-2007-2447](https://github.com/0xTabun/CVE-2007-2447)
 - [ShivamDey/Samba-CVE-2007-2447-Exploit](https://github.com/ShivamDey/Samba-CVE-2007-2447-Exploit)
 - [Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447)
+- [IamLucif3r/CVE-2007-2447-Exploit](https://github.com/IamLucif3r/CVE-2007-2447-Exploit)
 
 ### CVE-2007-3830 (2007-07-17)
 
