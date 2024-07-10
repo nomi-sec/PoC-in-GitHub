@@ -422,7 +422,6 @@
 - [k4t3pr0/Check-CVE-2024-3094](https://github.com/k4t3pr0/Check-CVE-2024-3094)
 - [Yuma-Tsushima07/CVE-2024-3094](https://github.com/Yuma-Tsushima07/CVE-2024-3094)
 - [jfrog/cve-2024-3094-tools](https://github.com/jfrog/cve-2024-3094-tools)
-- [krascovict/OSINT---CVE-2024-3094-](https://github.com/krascovict/OSINT---CVE-2024-3094-)
 - [Simplifi-ED/CVE-2024-3094-patcher](https://github.com/Simplifi-ED/CVE-2024-3094-patcher)
 - [gayatriracha/CVE-2024-3094-Nmap-NSE-script](https://github.com/gayatriracha/CVE-2024-3094-Nmap-NSE-script)
 - [Mustafa1986/CVE-2024-3094](https://github.com/Mustafa1986/CVE-2024-3094)
@@ -568,6 +567,13 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-3552-Poc](https://github.com/truonghuuphuc/CVE-2024-3552-Poc)
+
+### CVE-2024-3596 (2024-07-09)
+
+<code>RADIUS Protocol under RFC 2865 is susceptible to forgery attacks by a local attacker who can modify any valid Response (Access-Accept, Access-Reject, or Access-Challenge) to any other response using a chosen-prefix collision attack against MD5 Response Authenticator signature.
+</code>
+
+- [alperenugurlu/CVE-2024-3596-Detector](https://github.com/alperenugurlu/CVE-2024-3596-Detector)
 
 ### CVE-2024-3806 (2024-05-09)
 
@@ -982,6 +988,8 @@
 - [vkaushik-chef/regreSSHion](https://github.com/vkaushik-chef/regreSSHion)
 - [dgourillon/mitigate-CVE-2024-6387](https://github.com/dgourillon/mitigate-CVE-2024-6387)
 - [mrmtwoj/CVE-2024-6387](https://github.com/mrmtwoj/CVE-2024-6387)
+- [filipi86/CVE-2024-6387-Vulnerability-Checker](https://github.com/filipi86/CVE-2024-6387-Vulnerability-Checker)
+- [kubota/CVE-2024-6387-Vulnerability-Checker](https://github.com/kubota/CVE-2024-6387-Vulnerability-Checker)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -3369,10 +3377,18 @@
 
 - [Havoc10-sw/Detect_polyfill_CVE-2024-38537-](https://github.com/Havoc10-sw/Detect_polyfill_CVE-2024-38537-)
 
-### CVE-2024-39031
+### CVE-2024-39031 (2024-07-09)
+
+<code>In Silverpeas Core &lt;= 6.3.5, inside of mes agendas a user can create a new event and add it to his calendar. The user can also add other users to the event from the same domain, including administrator. A normal user can create an event with XSS payload inside “Titre” and “Description” parameters and add the administrator or any user to the event. When the other user (victim) visits his own profile (even without clicking on the event) the payload will be executed on the victim side.
+</code>
+
 - [toneemarqus/CVE-2024-39031](https://github.com/toneemarqus/CVE-2024-39031)
 
-### CVE-2024-39069
+### CVE-2024-39069 (2024-07-09)
+
+<code>An issue in ifood Order Manager v3.35.5 'Gestor de Peddios.exe' allows attackers to execute arbitrary code via a DLL hijacking attack.
+</code>
+
 - [AungSoePaing/CVE-2024-39069](https://github.com/AungSoePaing/CVE-2024-39069)
 
 ### CVE-2024-39203 (2024-07-08)
@@ -3608,6 +3624,9 @@
 </code>
 
 - [seifallahhomrani1/CVE-2023-0861-POC](https://github.com/seifallahhomrani1/CVE-2023-0861-POC)
+
+### CVE-2023-422
+- [HusenjanDev/CVE-2023-422-Chamilo-LMS-RCE](https://github.com/HusenjanDev/CVE-2023-422-Chamilo-LMS-RCE)
 
 ### CVE-2023-1112 (2023-03-01)
 
@@ -4229,6 +4248,7 @@
 - [insomnia-jacob/CVE-2023-4220-](https://github.com/insomnia-jacob/CVE-2023-4220-)
 - [Ziad-Sakr/Chamilo-LMS-CVE-2023-4220-Exploit](https://github.com/Ziad-Sakr/Chamilo-LMS-CVE-2023-4220-Exploit)
 - [HO4XXX/cve-2023-4220-poc](https://github.com/HO4XXX/cve-2023-4220-poc)
+- [B1TC0R3/CVE-2023-4220-PoC](https://github.com/B1TC0R3/CVE-2023-4220-PoC)
 
 ### CVE-2023-4278 (2023-09-11)
 
@@ -6496,6 +6516,7 @@
 - [netuseradministrator/CVE-2023-28432](https://github.com/netuseradministrator/CVE-2023-28432)
 - [xk-mt/CVE-2023-28432](https://github.com/xk-mt/CVE-2023-28432)
 - [0xRulez/CVE-2023-28432](https://github.com/0xRulez/CVE-2023-28432)
+- [fhAnso/CVE-2023-28432](https://github.com/fhAnso/CVE-2023-28432)
 
 ### CVE-2023-28434 (2023-03-22)
 
@@ -18857,6 +18878,7 @@
 - [mutur4/CVE-2021-3156](https://github.com/mutur4/CVE-2021-3156)
 - [PurpleOzone/PE_CVE-CVE-2021-3156](https://github.com/PurpleOzone/PE_CVE-CVE-2021-3156)
 - [asepsaepdin/CVE-2021-3156](https://github.com/asepsaepdin/CVE-2021-3156)
+- [EthicalSecurity-Agency/Y3A-CVE-2021-3156](https://github.com/EthicalSecurity-Agency/Y3A-CVE-2021-3156)
 - [DDayLuong/CVE-2021-3156](https://github.com/DDayLuong/CVE-2021-3156)
 - [DASICS-ICT/DASICS-CVE-2021-3156](https://github.com/DASICS-ICT/DASICS-CVE-2021-3156)
 - [wurwur/CVE-2021-3156](https://github.com/wurwur/CVE-2021-3156)
@@ -23444,9 +23466,6 @@
 </code>
 
 - [Jeromeyoung/CVE-2021-43141](https://github.com/Jeromeyoung/CVE-2021-43141)
-
-### CVE-2021-43150
-- [Zeyad-Azima/OpayForMe](https://github.com/Zeyad-Azima/OpayForMe)
 
 ### CVE-2021-43217 (2021-12-15)
 
