@@ -3252,6 +3252,7 @@
 - [Mr-xn/CVE-2024-36991](https://github.com/Mr-xn/CVE-2024-36991)
 - [th3gokul/CVE-2024-36991](https://github.com/th3gokul/CVE-2024-36991)
 - [sardine-web/CVE-2024-36991](https://github.com/sardine-web/CVE-2024-36991)
+- [Cappricio-Securities/CVE-2024-36991](https://github.com/Cappricio-Securities/CVE-2024-36991)
 
 ### CVE-2024-37032 (-)
 
@@ -3259,6 +3260,7 @@
 </code>
 
 - [Bi0x/CVE-2024-37032](https://github.com/Bi0x/CVE-2024-37032)
+- [ahboon/CVE-2024-37032-scanner](https://github.com/ahboon/CVE-2024-37032-scanner)
 
 ### CVE-2024-37051 (2024-06-10)
 
@@ -5218,7 +5220,6 @@
 </code>
 
 - [uthrasri/framework_base_CVE-2023-21285_NoPatch](https://github.com/uthrasri/framework_base_CVE-2023-21285_NoPatch)
-- [krnidhi/frameworks_base_AOSP10_r33_CVE-2023-21285](https://github.com/krnidhi/frameworks_base_AOSP10_r33_CVE-2023-21285)
 
 ### CVE-2023-21286 (2023-08-14)
 
@@ -15753,7 +15754,6 @@
 - [ysanatomic/CVE-2022-32250-LPE](https://github.com/ysanatomic/CVE-2022-32250-LPE)
 - [Decstor5/2022-32250LPE](https://github.com/Decstor5/2022-32250LPE)
 - [Kristal-g/CVE-2022-32250](https://github.com/Kristal-g/CVE-2022-32250)
-- [lavenderlilly/CVE-2022-32250](https://github.com/lavenderlilly/CVE-2022-32250)
 
 ### CVE-2022-32532 (2022-06-28)
 
@@ -26370,7 +26370,7 @@
 <code>Inappropriate implementation in WebRTC in Google Chrome prior to 84.0.4147.89 allowed an attacker in a privileged network position to potentially exploit heap corruption via a crafted SCTP stream.
 </code>
 
-- [R0jhack/CVE-2020-6514](https://github.com/R0jhack/CVE-2020-6514)
+- [hasan-khalil/CVE-2020-6514](https://github.com/hasan-khalil/CVE-2020-6514)
 
 ### CVE-2020-6516 (2020-07-22)
 
@@ -28733,6 +28733,7 @@
 <code>Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution. Affected software : Apache Struts 2.0.0 - Struts 2.5.25.
 </code>
 
+- [secpool2000/CVE-2020-17530](https://github.com/secpool2000/CVE-2020-17530)
 - [ka1n4t/CVE-2020-17530](https://github.com/ka1n4t/CVE-2020-17530)
 - [wuzuowei/CVE-2020-17530](https://github.com/wuzuowei/CVE-2020-17530)
 - [Al1ex/CVE-2020-17530](https://github.com/Al1ex/CVE-2020-17530)
