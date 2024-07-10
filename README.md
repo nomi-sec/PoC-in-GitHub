@@ -460,7 +460,6 @@
 - [shefirot/CVE-2024-3094](https://github.com/shefirot/CVE-2024-3094)
 - [DANO-AMP/CVE-2024-3094](https://github.com/DANO-AMP/CVE-2024-3094)
 - [robertdfrench/ifuncd-up](https://github.com/robertdfrench/ifuncd-up)
-- [yq93dskimzm2/CVE-2024-3094](https://github.com/yq93dskimzm2/CVE-2024-3094)
 
 ### CVE-2024-3116 (2024-04-04)
 
@@ -997,6 +996,7 @@
 - [mrmtwoj/CVE-2024-6387](https://github.com/mrmtwoj/CVE-2024-6387)
 - [filipi86/CVE-2024-6387-Vulnerability-Checker](https://github.com/filipi86/CVE-2024-6387-Vulnerability-Checker)
 - [kubota/CVE-2024-6387-Vulnerability-Checker](https://github.com/kubota/CVE-2024-6387-Vulnerability-Checker)
+- [DimaMend/cve-2024-6387-poc](https://github.com/DimaMend/cve-2024-6387-poc)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2498,6 +2498,13 @@
 
 - [felipecruz91/node-ip-vex](https://github.com/felipecruz91/node-ip-vex)
 
+### CVE-2024-29510 (2024-07-03)
+
+<code>Artifex Ghostscript before 10.03.1 allows memory corruption, and SAFER sandbox bypass, via format string injection with a uniprint device.
+</code>
+
+- [swsmith2391/CVE-2024-29510](https://github.com/swsmith2391/CVE-2024-29510)
+
 ### CVE-2024-29824 (2024-05-31)
 
 <code>An unspecified SQL Injection vulnerability in Core server of Ivanti EPM 2022 SU5 and prior allows an unauthenticated attacker within the same network to execute arbitrary code.
@@ -2986,6 +2993,7 @@
 - [0xhunster/CVE-2024-34102](https://github.com/0xhunster/CVE-2024-34102)
 - [SamJUK/cosmicsting-validator](https://github.com/SamJUK/cosmicsting-validator)
 - [unknownzerobit/poc](https://github.com/unknownzerobit/poc)
+- [Ex-Arn/CVE-2024-34102-RCE](https://github.com/Ex-Arn/CVE-2024-34102-RCE)
 
 ### CVE-2024-34220 (-)
 
@@ -7386,6 +7394,7 @@
 - [dawnl3ss/CVE-2023-32784](https://github.com/dawnl3ss/CVE-2023-32784)
 - [ValentinPundikov/poc-CVE-2023-32784](https://github.com/ValentinPundikov/poc-CVE-2023-32784)
 - [mister-turtle/cve-2023-32784](https://github.com/mister-turtle/cve-2023-32784)
+- [Cmadhushanka/CVE-2023-32784-Exploitation](https://github.com/Cmadhushanka/CVE-2023-32784-Exploitation)
 
 ### CVE-2023-32961 (2023-06-12)
 
@@ -14560,6 +14569,13 @@
 </code>
 
 - [dolby360/CVE-2022-27518_POC](https://github.com/dolby360/CVE-2022-27518_POC)
+
+### CVE-2022-27646 (2023-03-29)
+
+<code>This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of NETGEAR R6700v3 1.0.4.120_10.0.91 routers. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the circled daemon. A crafted circleinfo.txt file can trigger an overflow of a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-15879.
+</code>
+
+- [cyber-defence-campus/netgear_r6700v3_circled](https://github.com/cyber-defence-campus/netgear_r6700v3_circled)
 
 ### CVE-2022-27665 (2023-04-03)
 
@@ -30707,6 +30723,7 @@
 - [jsirichai/CVE-2019-2215](https://github.com/jsirichai/CVE-2019-2215)
 - [willboka/CVE-2019-2215-HuaweiP20Lite](https://github.com/willboka/CVE-2019-2215-HuaweiP20Lite)
 - [mutur4/CVE-2019-2215](https://github.com/mutur4/CVE-2019-2215)
+- [R0rt1z2/huawei-unlock](https://github.com/R0rt1z2/huawei-unlock)
 - [raymontag/CVE-2019-2215](https://github.com/raymontag/CVE-2019-2215)
 
 ### CVE-2019-2525 (2019-01-16)
@@ -31244,6 +31261,7 @@
 - [Chethine/EsFileExplorer-CVE-2019-6447](https://github.com/Chethine/EsFileExplorer-CVE-2019-6447)
 - [vino-theva/CVE-2019-6447](https://github.com/vino-theva/CVE-2019-6447)
 - [KaviDk/CVE-2019-6447-in-Mobile-Application](https://github.com/KaviDk/CVE-2019-6447-in-Mobile-Application)
+- [Cmadhushanka/CVE-2019-6447-Exploitation](https://github.com/Cmadhushanka/CVE-2019-6447-Exploitation)
 
 ### CVE-2019-6453 (2019-02-18)
 
@@ -41715,6 +41733,7 @@
 - [eudemonics/scaredycat](https://github.com/eudemonics/scaredycat)
 - [HenryVHuang/CVE-2015-3864](https://github.com/HenryVHuang/CVE-2015-3864)
 - [Bhathiya404/Exploiting-Stagefright-Vulnerability-CVE-2015-3864](https://github.com/Bhathiya404/Exploiting-Stagefright-Vulnerability-CVE-2015-3864)
+- [Cmadhushanka/CVE-2015-3864-Exploitation](https://github.com/Cmadhushanka/CVE-2015-3864-Exploitation)
 
 ### CVE-2015-4000 (2015-05-21)
 
