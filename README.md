@@ -3343,7 +3343,11 @@
 
 - [Atreb92/cve-2024-37765](https://github.com/Atreb92/cve-2024-37765)
 
-### CVE-2024-37770
+### CVE-2024-37770 (2024-07-10)
+
+<code>14Finger v1.1 was discovered to contain a remote command execution (RCE) vulnerability in the fingerprint function. This vulnerability allows attackers to execute arbitrary commands via a crafted payload.
+</code>
+
 - [k3ppf0r/CVE-2024-37770](https://github.com/k3ppf0r/CVE-2024-37770)
 
 ### CVE-2024-37791 (2024-06-18)
