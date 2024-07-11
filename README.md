@@ -918,7 +918,6 @@
 <code>A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead to sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period.
 </code>
 
-- [theaog/spirit](https://github.com/theaog/spirit)
 - [zgzhang/cve-2024-6387-poc](https://github.com/zgzhang/cve-2024-6387-poc)
 - [acrono/cve-2024-6387-poc](https://github.com/acrono/cve-2024-6387-poc)
 - [lflare/cve-2024-6387-poc](https://github.com/lflare/cve-2024-6387-poc)
@@ -985,7 +984,6 @@
 - [4lxprime/regreSSHive](https://github.com/4lxprime/regreSSHive)
 - [sardine-web/CVE-2024-6387_Check](https://github.com/sardine-web/CVE-2024-6387_Check)
 - [0x4D31/cve-2024-6387_hassh](https://github.com/0x4D31/cve-2024-6387_hassh)
-- [Segurmatica/CVE-2024-6387-CHECK](https://github.com/Segurmatica/CVE-2024-6387-CHECK)
 - [sardine-web/CVE-2024-6387-template](https://github.com/sardine-web/CVE-2024-6387-template)
 - [imv7/CVE-2024-6387](https://github.com/imv7/CVE-2024-6387)
 - [SiberianHacker/CVE-2024-6387-Finder](https://github.com/SiberianHacker/CVE-2024-6387-Finder)
@@ -998,6 +996,7 @@
 - [filipi86/CVE-2024-6387-Vulnerability-Checker](https://github.com/filipi86/CVE-2024-6387-Vulnerability-Checker)
 - [kubota/CVE-2024-6387-Vulnerability-Checker](https://github.com/kubota/CVE-2024-6387-Vulnerability-Checker)
 - [DimaMend/cve-2024-6387-poc](https://github.com/DimaMend/cve-2024-6387-poc)
+- [bigb0x/SSH-Scanner](https://github.com/bigb0x/SSH-Scanner)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2996,6 +2995,7 @@
 - [SamJUK/cosmicsting-validator](https://github.com/SamJUK/cosmicsting-validator)
 - [unknownzerobit/poc](https://github.com/unknownzerobit/poc)
 - [Ex-Arn/CVE-2024-34102-RCE](https://github.com/Ex-Arn/CVE-2024-34102-RCE)
+- [crynomore/CVE-2024-34102](https://github.com/crynomore/CVE-2024-34102)
 
 ### CVE-2024-34220 (-)
 
@@ -3287,6 +3287,13 @@
 
 - [mbadanoiu/CVE-2024-37081](https://github.com/mbadanoiu/CVE-2024-37081)
 - [Mr-r00t11/CVE-2024-37081](https://github.com/Mr-r00t11/CVE-2024-37081)
+
+### CVE-2024-37147 (2024-07-10)
+
+<code>GLPI is an open-source asset and IT management software package that provides ITIL Service Desk features, licenses tracking and software auditing. An authenticated user can attach a document to any item, even if the user has no write access on it. Upgrade to 10.0.16.
+</code>
+
+- [0xmupa/CVE-2024-37147-PoC](https://github.com/0xmupa/CVE-2024-37147-PoC)
 
 ### CVE-2024-37393 (2024-06-10)
 
@@ -29269,6 +29276,7 @@
 - [Schira4396/CVE-2020-25540](https://github.com/Schira4396/CVE-2020-25540)
 - [Rajchowdhury420/ThinkAdmin-CVE-2020-25540](https://github.com/Rajchowdhury420/ThinkAdmin-CVE-2020-25540)
 - [lowkey0808/cve-2020-25540](https://github.com/lowkey0808/cve-2020-25540)
+- [simonlee-hello/CVE-2020-25540](https://github.com/simonlee-hello/CVE-2020-25540)
 
 ### CVE-2020-25578 (2021-03-26)
 
@@ -44345,6 +44353,7 @@
 </code>
 
 - [bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387)
+- [bigb0x/SSH-Scanner](https://github.com/bigb0x/SSH-Scanner)
 
 ### CVE-2008-4250 (2008-10-23)
 
@@ -44629,6 +44638,7 @@
 
 - [bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387)
 - [sardine-web/CVE-2024-6387_Check](https://github.com/sardine-web/CVE-2024-6387_Check)
+- [bigb0x/SSH-Scanner](https://github.com/bigb0x/SSH-Scanner)
 
 ### CVE-2006-6184 (2006-12-01)
 
