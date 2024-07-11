@@ -746,6 +746,7 @@
 - [charis3306/CVE-2024-4577](https://github.com/charis3306/CVE-2024-4577)
 - [cybersagor/CVE-2024-4577](https://github.com/cybersagor/CVE-2024-4577)
 - [l0n3m4n/CVE-2024-4577-RCE](https://github.com/l0n3m4n/CVE-2024-4577-RCE)
+- [bibo318/CVE-2024-4577-RCE-ATTACK](https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -1340,6 +1341,7 @@
 </code>
 
 - [mbadanoiu/CVE-2024-22274](https://github.com/mbadanoiu/CVE-2024-22274)
+- [ninhpn1337/CVE-2024-22274](https://github.com/ninhpn1337/CVE-2024-22274)
 
 ### CVE-2024-22275 (2024-05-21)
 
@@ -44985,6 +44987,7 @@
 </code>
 
 - [Cappricio-Securities/CVE-2000-0114](https://github.com/Cappricio-Securities/CVE-2000-0114)
+- [Josekutty-K/frontpage-server-extensions-vulnerability-scanner](https://github.com/Josekutty-K/frontpage-server-extensions-vulnerability-scanner)
 
 ### CVE-2000-0170 (2000-04-10)
 
