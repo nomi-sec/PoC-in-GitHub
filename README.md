@@ -23,6 +23,7 @@
 - [scs-labrat/android_autorooter](https://github.com/scs-labrat/android_autorooter)
 - [pl4int3xt/cve_2024_0044](https://github.com/pl4int3xt/cve_2024_0044)
 - [Re13orn/CVE-2024-0044-EXP](https://github.com/Re13orn/CVE-2024-0044-EXP)
+- [007CRIPTOGRAFIA/C-CVE-2024-0044](https://github.com/007CRIPTOGRAFIA/C-CVE-2024-0044)
 
 ### CVE-2024-0195 (2024-01-02)
 
@@ -996,7 +997,8 @@
 - [filipi86/CVE-2024-6387-Vulnerability-Checker](https://github.com/filipi86/CVE-2024-6387-Vulnerability-Checker)
 - [kubota/CVE-2024-6387-Vulnerability-Checker](https://github.com/kubota/CVE-2024-6387-Vulnerability-Checker)
 - [DimaMend/cve-2024-6387-poc](https://github.com/DimaMend/cve-2024-6387-poc)
-- [bigb0x/SSH-Scanner](https://github.com/bigb0x/SSH-Scanner)
+- [ThemeHackers/CVE-2024-6387](https://github.com/ThemeHackers/CVE-2024-6387)
+- [Sibijo/mitigate_ssh](https://github.com/Sibijo/mitigate_ssh)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -1538,7 +1540,7 @@
 - [Tupler/CVE-2024-23692-exp](https://github.com/Tupler/CVE-2024-23692-exp)
 - [BBD-YZZ/CVE-2024-23692](https://github.com/BBD-YZZ/CVE-2024-23692)
 - [0x20c/CVE-2024-23692-EXP](https://github.com/0x20c/CVE-2024-23692-EXP)
-- [pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692-](https://github.com/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692-)
+- [pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692](https://github.com/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692)
 
 ### CVE-2024-23722 (2024-03-26)
 
@@ -2307,6 +2309,7 @@
 - [itzheartzz/MASS-CVE-2024-27956](https://github.com/itzheartzz/MASS-CVE-2024-27956)
 - [TadashiJei/Valve-Press-CVE-2024-27956-RCE](https://github.com/TadashiJei/Valve-Press-CVE-2024-27956-RCE)
 - [cve-2024/CVE-2024-27956-RCE](https://github.com/cve-2024/CVE-2024-27956-RCE)
+- [ThatNotEasy/CVE-2024-27956](https://github.com/ThatNotEasy/CVE-2024-27956)
 
 ### CVE-2024-27971 (2024-05-17)
 
@@ -4280,6 +4283,7 @@
 - [Ziad-Sakr/Chamilo-CVE-2023-4220-Exploit](https://github.com/Ziad-Sakr/Chamilo-CVE-2023-4220-Exploit)
 - [HO4XXX/cve-2023-4220-poc](https://github.com/HO4XXX/cve-2023-4220-poc)
 - [B1TC0R3/CVE-2023-4220-PoC](https://github.com/B1TC0R3/CVE-2023-4220-PoC)
+- [nr4x4/CVE-2023-4220](https://github.com/nr4x4/CVE-2023-4220)
 
 ### CVE-2023-4226 (2023-11-28)
 
@@ -38192,6 +38196,7 @@
 - [mfdev-solution/Exploit-CVE-2017-5638](https://github.com/mfdev-solution/Exploit-CVE-2017-5638)
 - [mritunjay-k/CVE-2017-5638](https://github.com/mritunjay-k/CVE-2017-5638)
 - [FredBrave/CVE-2017-5638-ApacheStruts2.3.5](https://github.com/FredBrave/CVE-2017-5638-ApacheStruts2.3.5)
+- [Nithylesh/web-application-firewall-](https://github.com/Nithylesh/web-application-firewall-)
 
 ### CVE-2017-5645 (2017-04-17)
 
@@ -39213,6 +39218,7 @@
 - [Abdibimantara/Maldoc-Analysis](https://github.com/Abdibimantara/Maldoc-Analysis)
 - [n18dcat053-luuvannga/DetectPacket-CVE-2017-11882](https://github.com/n18dcat053-luuvannga/DetectPacket-CVE-2017-11882)
 - [nhuynhuy/cve-2017-11882](https://github.com/nhuynhuy/cve-2017-11882)
+- [jadeapar/Dragonfish-s-Malware-Cyber-Analysis](https://github.com/jadeapar/Dragonfish-s-Malware-Cyber-Analysis)
 
 ### CVE-2017-11907 (2017-12-12)
 
@@ -44353,7 +44359,6 @@
 </code>
 
 - [bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387)
-- [bigb0x/SSH-Scanner](https://github.com/bigb0x/SSH-Scanner)
 
 ### CVE-2008-4250 (2008-10-23)
 
@@ -44638,7 +44643,7 @@
 
 - [bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387)
 - [sardine-web/CVE-2024-6387_Check](https://github.com/sardine-web/CVE-2024-6387_Check)
-- [bigb0x/SSH-Scanner](https://github.com/bigb0x/SSH-Scanner)
+- [ThemeHackers/CVE-2024-6387](https://github.com/ThemeHackers/CVE-2024-6387)
 
 ### CVE-2006-6184 (2006-12-01)
 
