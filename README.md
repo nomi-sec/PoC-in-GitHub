@@ -1000,6 +1000,7 @@
 - [ThemeHackers/CVE-2024-6387](https://github.com/ThemeHackers/CVE-2024-6387)
 - [Sibijo/mitigate_ssh](https://github.com/Sibijo/mitigate_ssh)
 - [Passyed/regreSSHion-Fix](https://github.com/Passyed/regreSSHion-Fix)
+- [k4t3pr0/CVE-2024-6387-Check](https://github.com/k4t3pr0/CVE-2024-6387-Check)
 
 ### CVE-2024-11451
 - [Xiaolqy/CVE-2024-11451](https://github.com/Xiaolqy/CVE-2024-11451)
@@ -3001,7 +3002,6 @@
 - [0xhunster/CVE-2024-34102](https://github.com/0xhunster/CVE-2024-34102)
 - [SamJUK/cosmicsting-validator](https://github.com/SamJUK/cosmicsting-validator)
 - [unknownzerobit/poc](https://github.com/unknownzerobit/poc)
-- [Ex-Arn/CVE-2024-34102-RCE](https://github.com/Ex-Arn/CVE-2024-34102-RCE)
 - [crynomore/CVE-2024-34102](https://github.com/crynomore/CVE-2024-34102)
 
 ### CVE-2024-34220 (-)
@@ -14717,7 +14717,7 @@
 <code>The web module in some Hikvision Hybrid SAN/Cluster Storage products have the following security vulnerability. Due to the insufficient input validation, attacker can exploit the vulnerability to execute restricted commands by sending messages with malicious commands to the affected device.
 </code>
 
-- [Bibury1337/CVE-2022-28171-POC](https://github.com/Bibury1337/CVE-2022-28171-POC)
+- [NyaMeeEain/CVE-2022-28171-POC](https://github.com/NyaMeeEain/CVE-2022-28171-POC)
 
 ### CVE-2022-28219 (2022-04-05)
 
