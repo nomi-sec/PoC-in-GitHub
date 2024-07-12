@@ -776,6 +776,7 @@
 </code>
 
 - [Brut-Security/CVE-2024-4879](https://github.com/Brut-Security/CVE-2024-4879)
+- [bigb0x/CVE-2024-4879](https://github.com/bigb0x/CVE-2024-4879)
 
 ### CVE-2024-4883 (2024-06-25)
 
@@ -3486,6 +3487,13 @@
 </code>
 
 - [ph1ns/CVE-2024-39844](https://github.com/ph1ns/CVE-2024-39844)
+
+### CVE-2024-39929 (2024-07-04)
+
+<code>Exim through 4.97.1 misparses a multiline RFC 2231 header filename, and thus remote attackers can bypass a $mime_filename extension-blocking protection mechanism, and potentially deliver executable attachments to the mailboxes of end users.
+</code>
+
+- [rxerium/CVE-2024-39929](https://github.com/rxerium/CVE-2024-39929)
 
 ### CVE-2024-39943 (2024-07-04)
 
@@ -41404,6 +41412,7 @@
 - [SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328](https://github.com/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328)
 - [notlikethis/CVE-2015-1328](https://github.com/notlikethis/CVE-2015-1328)
 - [0x1ns4n3/CVE-2015-1328-GoldenEye](https://github.com/0x1ns4n3/CVE-2015-1328-GoldenEye)
+- [BlackFrog-hub/cve-2015-1328](https://github.com/BlackFrog-hub/cve-2015-1328)
 
 ### CVE-2015-1397 (2015-04-29)
 
