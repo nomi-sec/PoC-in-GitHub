@@ -23,7 +23,7 @@
 - [scs-labrat/android_autorooter](https://github.com/scs-labrat/android_autorooter)
 - [pl4int3xt/cve_2024_0044](https://github.com/pl4int3xt/cve_2024_0044)
 - [Re13orn/CVE-2024-0044-EXP](https://github.com/Re13orn/CVE-2024-0044-EXP)
-- [007CRIPTOGRAFIA/C-CVE-2024-0044](https://github.com/007CRIPTOGRAFIA/C-CVE-2024-0044)
+- [007CRIPTOGRAFIA/c-CVE-2024-0044](https://github.com/007CRIPTOGRAFIA/c-CVE-2024-0044)
 
 ### CVE-2024-0195 (2024-01-02)
 
@@ -999,6 +999,10 @@
 - [DimaMend/cve-2024-6387-poc](https://github.com/DimaMend/cve-2024-6387-poc)
 - [ThemeHackers/CVE-2024-6387](https://github.com/ThemeHackers/CVE-2024-6387)
 - [Sibijo/mitigate_ssh](https://github.com/Sibijo/mitigate_ssh)
+- [Passyed/regreSSHion-Fix](https://github.com/Passyed/regreSSHion-Fix)
+
+### CVE-2024-11451
+- [Xiaolqy/CVE-2024-11451](https://github.com/Xiaolqy/CVE-2024-11451)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -19083,7 +19087,6 @@
 - [derek-turing/CVE-2021-3493](https://github.com/derek-turing/CVE-2021-3493)
 - [cerodah/overlayFS-CVE-2021-3493](https://github.com/cerodah/overlayFS-CVE-2021-3493)
 - [puckiestyle/CVE-2021-3493](https://github.com/puckiestyle/CVE-2021-3493)
-- [Senz4wa/CVE-2021-3493](https://github.com/Senz4wa/CVE-2021-3493)
 - [fei9747/CVE-2021-3493](https://github.com/fei9747/CVE-2021-3493)
 - [pmihsan/OverlayFS-CVE-2021-3493](https://github.com/pmihsan/OverlayFS-CVE-2021-3493)
 - [smallkill/CVE-2021-3493](https://github.com/smallkill/CVE-2021-3493)
@@ -19349,7 +19352,6 @@
 - [Silencecyber/cve-2021-4034](https://github.com/Silencecyber/cve-2021-4034)
 - [Geni0r/cve-2021-4034-poc](https://github.com/Geni0r/cve-2021-4034-poc)
 - [zxc2007/CVE-2021-4034](https://github.com/zxc2007/CVE-2021-4034)
-- [Senz4wa/CVE-2021-4034](https://github.com/Senz4wa/CVE-2021-4034)
 - [Pixailz/CVE-2021-4034](https://github.com/Pixailz/CVE-2021-4034)
 - [toecesws/CVE-2021-4034](https://github.com/toecesws/CVE-2021-4034)
 - [jehovah2002/CVE-2021-4034-pwnkit](https://github.com/jehovah2002/CVE-2021-4034-pwnkit)
@@ -19657,6 +19659,13 @@
 - [jiaocoll/CVE-2021-21402-Jellyfin](https://github.com/jiaocoll/CVE-2021-21402-Jellyfin)
 - [somatrasss/CVE-2021-21402](https://github.com/somatrasss/CVE-2021-21402)
 - [givemefivw/CVE-2021-21402](https://github.com/givemefivw/CVE-2021-21402)
+
+### CVE-2021-21403 (2021-03-26)
+
+<code>In github.com/kongchuanhujiao/server before version 1.3.21 there is an authentication Bypass by Primary Weakness vulnerability. All users are impacted. This is fixed in version 1.3.21.
+</code>
+
+- [5l1v3r1/CVE-2021-21403](https://github.com/5l1v3r1/CVE-2021-21403)
 
 ### CVE-2021-21425 (2021-04-07)
 
@@ -20659,6 +20668,7 @@
 - [1342486672/Flangvik](https://github.com/1342486672/Flangvik)
 - [TheDudeD6/ExchangeSmash](https://github.com/TheDudeD6/ExchangeSmash)
 - [kh4sh3i/ProxyLogon](https://github.com/kh4sh3i/ProxyLogon)
+- [byinarie/Zirconium](https://github.com/byinarie/Zirconium)
 - [ssrsec/Microsoft-Exchange-RCE](https://github.com/ssrsec/Microsoft-Exchange-RCE)
 - [glen-pearson/ProxyLogon-CVE-2021-26855](https://github.com/glen-pearson/ProxyLogon-CVE-2021-26855)
 - [MacAsure/cve-2021-26855](https://github.com/MacAsure/cve-2021-26855)
@@ -45003,6 +45013,7 @@
 
 - [Cappricio-Securities/CVE-2000-0114](https://github.com/Cappricio-Securities/CVE-2000-0114)
 - [Josekutty-K/frontpage-server-extensions-vulnerability-scanner](https://github.com/Josekutty-K/frontpage-server-extensions-vulnerability-scanner)
+- [0xMe5war/CVE-2000-0114](https://github.com/0xMe5war/CVE-2000-0114)
 
 ### CVE-2000-0170 (2000-04-10)
 
