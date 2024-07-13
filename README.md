@@ -778,6 +778,7 @@
 - [Brut-Security/CVE-2024-4879](https://github.com/Brut-Security/CVE-2024-4879)
 - [bigb0x/CVE-2024-4879](https://github.com/bigb0x/CVE-2024-4879)
 - [Mr-r00t11/CVE-2024-4879](https://github.com/Mr-r00t11/CVE-2024-4879)
+- [zgimszhd61/CVE-2024-4879](https://github.com/zgimszhd61/CVE-2024-4879)
 
 ### CVE-2024-4883 (2024-06-25)
 
@@ -3020,6 +3021,7 @@
 - [unknownzerobit/poc](https://github.com/unknownzerobit/poc)
 - [crynomore/CVE-2024-34102](https://github.com/crynomore/CVE-2024-34102)
 - [1mpl3ment3d/CVE-2024-34102-RCE-POC](https://github.com/1mpl3ment3d/CVE-2024-34102-RCE-POC)
+- [bughuntar/CVE-2024-34102](https://github.com/bughuntar/CVE-2024-34102)
 
 ### CVE-2024-34220 (-)
 
@@ -7957,6 +7959,7 @@
 - [ThatNotEasy/CVE-2023-34960](https://github.com/ThatNotEasy/CVE-2023-34960)
 - [Mantodkaz/CVE-2023-34960](https://github.com/Mantodkaz/CVE-2023-34960)
 - [tucommenceapousser/CVE-2023-34960-ex](https://github.com/tucommenceapousser/CVE-2023-34960-ex)
+- [dvtarsoul/ChExp](https://github.com/dvtarsoul/ChExp)
 
 ### CVE-2023-34965 (2023-06-13)
 
@@ -24283,7 +24286,6 @@
 - [moshuum/tf-log4j-aws-poc](https://github.com/moshuum/tf-log4j-aws-poc)
 - [jaehnri/CVE-2021-44228](https://github.com/jaehnri/CVE-2021-44228)
 - [ra890927/Log4Shell-CVE-2021-44228-Demo](https://github.com/ra890927/Log4Shell-CVE-2021-44228-Demo)
-- [bughuntar/log4j-scan](https://github.com/bughuntar/log4j-scan)
 - [vidrez/Ethical-Hacking-Report-Log4j](https://github.com/vidrez/Ethical-Hacking-Report-Log4j)
 - [vino-theva/CVE-2021-44228](https://github.com/vino-theva/CVE-2021-44228)
 - [tharindudh/tharindudh-Log4j-Vulnerability-in-Ghidra-tool-CVE-2021-44228](https://github.com/tharindudh/tharindudh-Log4j-Vulnerability-in-Ghidra-tool-CVE-2021-44228)
