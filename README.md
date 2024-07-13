@@ -3022,6 +3022,7 @@
 - [crynomore/CVE-2024-34102](https://github.com/crynomore/CVE-2024-34102)
 - [1mpl3ment3d/CVE-2024-34102-RCE-POC](https://github.com/1mpl3ment3d/CVE-2024-34102-RCE-POC)
 - [bughuntar/CVE-2024-34102](https://github.com/bughuntar/CVE-2024-34102)
+- [bughuntar/CVE-2024-34102-Python](https://github.com/bughuntar/CVE-2024-34102-Python)
 
 ### CVE-2024-34220 (-)
 
