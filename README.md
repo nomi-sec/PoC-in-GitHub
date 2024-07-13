@@ -1216,6 +1216,13 @@
 
 - [bigb0x/CVE-2024-21514](https://github.com/bigb0x/CVE-2024-21514)
 
+### CVE-2024-21520 (2024-06-26)
+
+<code>Versions of the package djangorestframework before 3.15.2 are vulnerable to Cross-site Scripting (XSS) via the break_long_headers template filter due to improper input sanitization before splitting and joining with &lt;br&gt; tags.
+</code>
+
+- [ch4n3-yoon/CVE-2024-21520-Demo](https://github.com/ch4n3-yoon/CVE-2024-21520-Demo)
+
 ### CVE-2024-21626 (2024-01-31)
 
 <code>runc is a CLI tool for spawning and running containers on Linux according to the OCI specification. In runc 1.1.11 and earlier, due to an internal file descriptor leak, an attacker could cause a newly-spawned container process (from runc exec) to have a working directory in the host filesystem namespace, allowing for a container escape by giving access to the host filesystem (&quot;attack 2&quot;). The same attack could be used by a malicious image to allow a container process to gain access to the host filesystem through runc run (&quot;attack 1&quot;). Variants of attacks 1 and 2 could be also be used to overwrite semi-arbitrary host binaries, allowing for complete container escapes (&quot;attack 3a&quot; and &quot;attack 3b&quot;). runc 1.1.12 includes patches for this issue. 
@@ -3503,6 +3510,9 @@
 
 - [truonghuuphuc/CVE-2024-39943-Poc](https://github.com/truonghuuphuc/CVE-2024-39943-Poc)
 - [A-little-dragon/CVE-2024-39943-Exploit](https://github.com/A-little-dragon/CVE-2024-39943-Exploit)
+
+### CVE-2024-40492
+- [minendie/POC_CVE-2024-40492](https://github.com/minendie/POC_CVE-2024-40492)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -24489,7 +24499,7 @@
 - [dileepdkumar/https-github.com-dileepdkumar-https-github.com-pravin-pp-log4j2-CVE-2021-45105](https://github.com/dileepdkumar/https-github.com-dileepdkumar-https-github.com-pravin-pp-log4j2-CVE-2021-45105)
 - [dileepdkumar/https-github.com-dileepdkumar-https-github.com-pravin-pp-log4j2-CVE-2021-45105-v](https://github.com/dileepdkumar/https-github.com-dileepdkumar-https-github.com-pravin-pp-log4j2-CVE-2021-45105-v)
 - [dileepdkumar/https-github.com-pravin-pp-log4j2-CVE-2021-45105-1](https://github.com/dileepdkumar/https-github.com-pravin-pp-log4j2-CVE-2021-45105-1)
-- [sakuraji-labs/log4j-remediation](https://github.com/sakuraji-labs/log4j-remediation)
+- [name/log4j-remediation](https://github.com/name/log4j-remediation)
 
 ### CVE-2021-45232 (2021-12-27)
 
