@@ -3024,6 +3024,7 @@
 - [1mpl3ment3d/CVE-2024-34102-RCE-POC](https://github.com/1mpl3ment3d/CVE-2024-34102-RCE-POC)
 - [bughuntar/CVE-2024-34102](https://github.com/bughuntar/CVE-2024-34102)
 - [bughuntar/CVE-2024-34102-Python](https://github.com/bughuntar/CVE-2024-34102-Python)
+- [Phantom-IN/CVE-2024-34102](https://github.com/Phantom-IN/CVE-2024-34102)
 
 ### CVE-2024-34220 (-)
 
@@ -42901,6 +42902,7 @@
 - [hackintoanetwork/shellshock](https://github.com/hackintoanetwork/shellshock)
 - [ajansha/shellshock](https://github.com/ajansha/shellshock)
 - [K3ysTr0K3R/CVE-2014-6271-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2014-6271-EXPLOIT)
+- [TheRealCiscoo/Shellshock-Exploit](https://github.com/TheRealCiscoo/Shellshock-Exploit)
 
 ### CVE-2014-6287 (2014-10-07)
 
