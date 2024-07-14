@@ -926,7 +926,7 @@
 
 ### CVE-2024-6387 (2024-07-01)
 
-<code>A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead to sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period.
+<code>A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period.
 </code>
 
 - [zgzhang/cve-2024-6387-poc](https://github.com/zgzhang/cve-2024-6387-poc)
@@ -1012,6 +1012,7 @@
 - [Sibijo/mitigate_ssh](https://github.com/Sibijo/mitigate_ssh)
 - [Passyed/regreSSHion-Fix](https://github.com/Passyed/regreSSHion-Fix)
 - [k4t3pr0/CVE-2024-6387-Check](https://github.com/k4t3pr0/CVE-2024-6387-Check)
+- [Jhonsonwannaa/CVE-2024-6387](https://github.com/Jhonsonwannaa/CVE-2024-6387)
 
 ### CVE-2024-11451
 - [Xiaolqy/CVE-2024-11451](https://github.com/Xiaolqy/CVE-2024-11451)
@@ -10771,13 +10772,6 @@
 </code>
 
 - [NHPT/CVE-2023-48123](https://github.com/NHPT/CVE-2023-48123)
-
-### CVE-2023-48194 (2024-07-09)
-
-<code>Vulnerability in Tenda AC8v4 .V16.03.34.09 due to sscanf and the last digit of s8 being overwritten with \x0. After executing set_client_qos, control over the gp register can be obtained.
-</code>
-
-- [zt20xx/CVE-2023-48194](https://github.com/zt20xx/CVE-2023-48194)
 
 ### CVE-2023-48197 (2023-11-15)
 
