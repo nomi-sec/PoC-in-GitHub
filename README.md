@@ -987,6 +987,7 @@
 - [harshinsecurity/sentinelssh](https://github.com/harshinsecurity/sentinelssh)
 - [t3rry327/cve-2024-6387-poc](https://github.com/t3rry327/cve-2024-6387-poc)
 - [jocker2410/CVE-2024-6387_poc](https://github.com/jocker2410/CVE-2024-6387_poc)
+- [liqhtnd/sshd-logingracetime0](https://github.com/liqhtnd/sshd-logingracetime0)
 - [JackSparrowhk/ssh-CVE-2024-6387-poc](https://github.com/JackSparrowhk/ssh-CVE-2024-6387-poc)
 - [turbobit/CVE-2024-6387-OpenSSH-Vulnerability-Checker](https://github.com/turbobit/CVE-2024-6387-OpenSSH-Vulnerability-Checker)
 - [sms2056/CVE-2024-6387](https://github.com/sms2056/CVE-2024-6387)
@@ -3485,6 +3486,9 @@
 
 - [zunak/CVE-2024-39249](https://github.com/zunak/CVE-2024-39249)
 
+### CVE-2024-39250
+- [efrann/CVE-2024-39250](https://github.com/efrann/CVE-2024-39250)
+
 ### CVE-2024-39689 (2024-07-05)
 
 <code>Certifi is a curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. Certifi starting in 2021.05.30 and prior to 2024.07.4 recognized root certificates from `GLOBALTRUST`. Certifi 2024.07.04 removes root certificates from `GLOBALTRUST` from the root store. These are in the process of being removed from Mozilla's trust store. `GLOBALTRUST`'s root certificates are being removed pursuant to an investigation which identified &quot;long-running and unresolved compliance issues.&quot;
@@ -3516,6 +3520,27 @@
 
 ### CVE-2024-40492
 - [minendie/POC_CVE-2024-40492](https://github.com/minendie/POC_CVE-2024-40492)
+
+### CVE-2024-40506
+- [Jansen-C-Moreira/CVE-2024-40506](https://github.com/Jansen-C-Moreira/CVE-2024-40506)
+
+### CVE-2024-40507
+- [Jansen-C-Moreira/CVE-2024-40507](https://github.com/Jansen-C-Moreira/CVE-2024-40507)
+
+### CVE-2024-40508
+- [Jansen-C-Moreira/CVE-2024-40508](https://github.com/Jansen-C-Moreira/CVE-2024-40508)
+
+### CVE-2024-40509
+- [Jansen-C-Moreira/CVE-2024-40509](https://github.com/Jansen-C-Moreira/CVE-2024-40509)
+
+### CVE-2024-40510
+- [Jansen-C-Moreira/CVE-2024-40510](https://github.com/Jansen-C-Moreira/CVE-2024-40510)
+
+### CVE-2024-40511
+- [Jansen-C-Moreira/CVE-2024-40511](https://github.com/Jansen-C-Moreira/CVE-2024-40511)
+
+### CVE-2024-40512
+- [Jansen-C-Moreira/CVE-2024-40512](https://github.com/Jansen-C-Moreira/CVE-2024-40512)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
