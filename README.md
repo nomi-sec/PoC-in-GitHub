@@ -24,6 +24,7 @@
 - [pl4int3xt/cve_2024_0044](https://github.com/pl4int3xt/cve_2024_0044)
 - [Re13orn/CVE-2024-0044-EXP](https://github.com/Re13orn/CVE-2024-0044-EXP)
 - [007CRIPTOGRAFIA/c-CVE-2024-0044](https://github.com/007CRIPTOGRAFIA/c-CVE-2024-0044)
+- [Kai2er/CVE-2024-0044-EXP](https://github.com/Kai2er/CVE-2024-0044-EXP)
 
 ### CVE-2024-0195 (2024-01-02)
 
@@ -779,6 +780,7 @@
 - [bigb0x/CVE-2024-4879](https://github.com/bigb0x/CVE-2024-4879)
 - [Mr-r00t11/CVE-2024-4879](https://github.com/Mr-r00t11/CVE-2024-4879)
 - [zgimszhd61/CVE-2024-4879](https://github.com/zgimszhd61/CVE-2024-4879)
+- [ShadowByte1/CVE-2024-4879](https://github.com/ShadowByte1/CVE-2024-4879)
 
 ### CVE-2024-4883 (2024-06-25)
 
@@ -943,7 +945,6 @@
 - [3yujw7njai/CVE-2024-6387](https://github.com/3yujw7njai/CVE-2024-6387)
 - [betancour/OpenSSH-Vulnerability-test](https://github.com/betancour/OpenSSH-Vulnerability-test)
 - [zgimszhd61/cve-2024-6387-poc](https://github.com/zgimszhd61/cve-2024-6387-poc)
-- [yya1233/CVE-2024-6387-Updated-SSH-RCE](https://github.com/yya1233/CVE-2024-6387-Updated-SSH-RCE)
 - [muyuanlove/CVE-2024-6387fixshell](https://github.com/muyuanlove/CVE-2024-6387fixshell)
 - [TAM-K592/CVE-2024-6387](https://github.com/TAM-K592/CVE-2024-6387)
 - [teamos-hub/regreSSHion](https://github.com/teamos-hub/regreSSHion)
@@ -1367,6 +1368,7 @@
 
 - [mbadanoiu/CVE-2024-22274](https://github.com/mbadanoiu/CVE-2024-22274)
 - [ninhpn1337/CVE-2024-22274](https://github.com/ninhpn1337/CVE-2024-22274)
+- [l0n3m4n/CVE-2024-22274-RCE](https://github.com/l0n3m4n/CVE-2024-22274-RCE)
 
 ### CVE-2024-22275 (2024-05-21)
 
@@ -2628,6 +2630,7 @@
 - [tykawaii98/CVE-2024-30088](https://github.com/tykawaii98/CVE-2024-30088)
 - [NextGenPentesters/CVE-2024-30088-](https://github.com/NextGenPentesters/CVE-2024-30088-)
 - [Zombie-Kaiser/CVE-2024-30088-Windows-poc](https://github.com/Zombie-Kaiser/CVE-2024-30088-Windows-poc)
+- [exploits-forsale/collateral-damage](https://github.com/exploits-forsale/collateral-damage)
 
 ### CVE-2024-30212 (2024-05-28)
 
