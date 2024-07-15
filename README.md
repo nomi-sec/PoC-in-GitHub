@@ -1944,6 +1944,7 @@
 - [verylazytech/CVE-2024-24919](https://github.com/verylazytech/CVE-2024-24919)
 - [protonnegativo/CVE-2024-24919](https://github.com/protonnegativo/CVE-2024-24919)
 - [SalehLardhi/CVE-2024-24919](https://github.com/SalehLardhi/CVE-2024-24919)
+- [ShadowByte1/CVE-2024-24919](https://github.com/ShadowByte1/CVE-2024-24919)
 
 ### CVE-2024-25092 (2024-06-09)
 
