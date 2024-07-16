@@ -160,8 +160,8 @@
 
 - [gbrsh/CVE-2024-1071](https://github.com/gbrsh/CVE-2024-1071)
 - [Trackflaw/CVE-2024-1071-Docker](https://github.com/Trackflaw/CVE-2024-1071-Docker)
-- [Matrexdz/CVE-2024-1071](https://github.com/Matrexdz/CVE-2024-1071)
-- [Matrexdz/CVE-2024-1071-Docker](https://github.com/Matrexdz/CVE-2024-1071-Docker)
+- [Nadjibbtabani/CVE-2024-1071](https://github.com/Nadjibbtabani/CVE-2024-1071)
+- [Nadjibbtabani/CVE-2024-1071-Docker](https://github.com/Nadjibbtabani/CVE-2024-1071-Docker)
 
 ### CVE-2024-1086 (2024-01-31)
 
@@ -782,6 +782,7 @@
 - [Mr-r00t11/CVE-2024-4879](https://github.com/Mr-r00t11/CVE-2024-4879)
 - [zgimszhd61/CVE-2024-4879](https://github.com/zgimszhd61/CVE-2024-4879)
 - [ShadowByte1/CVE-2024-4879](https://github.com/ShadowByte1/CVE-2024-4879)
+- [Praison001/CVE-2024-4879-ServiceNow](https://github.com/Praison001/CVE-2024-4879-ServiceNow)
 
 ### CVE-2024-4883 (2024-06-25)
 
@@ -7642,6 +7643,13 @@
 </code>
 
 - [lodi-g/CVE-2023-33668](https://github.com/lodi-g/CVE-2023-33668)
+
+### CVE-2023-33669 (2023-06-02)
+
+<code>Tenda AC8V4.0-V16.03.34.06 was discovered to contain a stack overflow via the timeZone parameter in the sub_44db3c function.
+</code>
+
+- [retr0reg/Tenda-Ac8v4-PoC](https://github.com/retr0reg/Tenda-Ac8v4-PoC)
 
 ### CVE-2023-33730 (2023-05-31)
 
@@ -30820,7 +30828,7 @@
 - [CrackerCat/Rootsmart-v2.0](https://github.com/CrackerCat/Rootsmart-v2.0)
 - [enceka/cve-2019-2215-3.18](https://github.com/enceka/cve-2019-2215-3.18)
 - [elbiazo/CVE-2019-2215](https://github.com/elbiazo/CVE-2019-2215)
-- [jsirichai/CVE-2019-2215](https://github.com/jsirichai/CVE-2019-2215)
+- [stevejubx/CVE-2019-2215](https://github.com/stevejubx/CVE-2019-2215)
 - [willboka/CVE-2019-2215-HuaweiP20Lite](https://github.com/willboka/CVE-2019-2215-HuaweiP20Lite)
 - [mutur4/CVE-2019-2215](https://github.com/mutur4/CVE-2019-2215)
 - [R0rt1z2/huawei-unlock](https://github.com/R0rt1z2/huawei-unlock)
