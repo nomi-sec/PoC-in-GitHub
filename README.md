@@ -2972,6 +2972,9 @@
 - [FaLLenSKiLL1/CVE-2024-33113](https://github.com/FaLLenSKiLL1/CVE-2024-33113)
 - [tekua/CVE-2024-33113](https://github.com/tekua/CVE-2024-33113)
 
+### CVE-2024-33352
+- [mmiszczyk/CVE-2024-33352](https://github.com/mmiszczyk/CVE-2024-33352)
+
 ### CVE-2024-33438 (2024-04-29)
 
 <code>File Upload vulnerability in CubeCart before 6.5.5 allows an authenticated user to execute arbitrary code via a crafted .phar file.
@@ -18925,6 +18928,7 @@
 - [banyaksepuh/Mass-CVE-2021-3129-Scanner](https://github.com/banyaksepuh/Mass-CVE-2021-3129-Scanner)
 - [Axianke/CVE-2021-3129](https://github.com/Axianke/CVE-2021-3129)
 - [cc3305/CVE-2021-3129](https://github.com/cc3305/CVE-2021-3129)
+- [piperpwn/CVE-2021-3129-](https://github.com/piperpwn/CVE-2021-3129-)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -20275,13 +20279,6 @@
 
 - [darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce](https://github.com/darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce)
 
-### CVE-2021-24347 (2021-06-14)
-
-<code>The SP Project &amp; Document Manager WordPress plugin before 4.22 allows users to upload files, however, the plugin attempts to prevent php and other similar files that could be executed on the server from being uploaded by checking the file extension. It was discovered that php files could still be uploaded by changing the file extension's case, for example, from &quot;php&quot; to &quot;pHP&quot;.
-</code>
-
-- [huydoppa/CVE-2021-24347-](https://github.com/huydoppa/CVE-2021-24347-)
-
 ### CVE-2021-24356 (2021-06-14)
 
 <code>In the Simple 301 Redirects by BetterLinks WordPress plugin before 2.0.4, a lack of capability checks and insufficient nonce check on the AJAX action, simple301redirects/admin/activate_plugin, made it possible for authenticated users to activate arbitrary plugins installed on vulnerable sites.
@@ -20748,7 +20745,6 @@
 - [1342486672/Flangvik](https://github.com/1342486672/Flangvik)
 - [TheDudeD6/ExchangeSmash](https://github.com/TheDudeD6/ExchangeSmash)
 - [kh4sh3i/ProxyLogon](https://github.com/kh4sh3i/ProxyLogon)
-- [byinarie/Zirconium](https://github.com/byinarie/Zirconium)
 - [ssrsec/Microsoft-Exchange-RCE](https://github.com/ssrsec/Microsoft-Exchange-RCE)
 - [glen-pearson/ProxyLogon-CVE-2021-26855](https://github.com/glen-pearson/ProxyLogon-CVE-2021-26855)
 - [MacAsure/cve-2021-26855](https://github.com/MacAsure/cve-2021-26855)
