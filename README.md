@@ -749,6 +749,7 @@
 - [cybersagor/CVE-2024-4577](https://github.com/cybersagor/CVE-2024-4577)
 - [l0n3m4n/CVE-2024-4577-RCE](https://github.com/l0n3m4n/CVE-2024-4577-RCE)
 - [bibo318/CVE-2024-4577-RCE-ATTACK](https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK)
+- [waived/CVE-2024-4577-PHP-RCE](https://github.com/waived/CVE-2024-4577-PHP-RCE)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -3030,7 +3031,6 @@
 - [bughuntar/CVE-2024-34102](https://github.com/bughuntar/CVE-2024-34102)
 - [bughuntar/CVE-2024-34102-Python](https://github.com/bughuntar/CVE-2024-34102-Python)
 - [Phantom-IN/CVE-2024-34102](https://github.com/Phantom-IN/CVE-2024-34102)
-- [b4h1x/CVE-2024-34102-RCE](https://github.com/b4h1x/CVE-2024-34102-RCE)
 
 ### CVE-2024-34220 (-)
 
@@ -3307,7 +3307,7 @@
 - [sardine-web/CVE-2024-36991](https://github.com/sardine-web/CVE-2024-36991)
 - [Cappricio-Securities/CVE-2024-36991](https://github.com/Cappricio-Securities/CVE-2024-36991)
 
-### CVE-2024-37032 (-)
+### CVE-2024-37032 (2024-05-31)
 
 <code>Ollama before 0.1.34 does not validate the format of the digest (sha256 with 64 hex digits) when getting the model path, and thus mishandles the TestGetBlobsPath test cases such as fewer than 64 hex digits, more than 64 hex digits, or an initial ../ substring.
 </code>
@@ -23269,6 +23269,7 @@
 - [imhunterand/CVE-2021-42013](https://github.com/imhunterand/CVE-2021-42013)
 - [BassoNicolas/CVE-2021-42013](https://github.com/BassoNicolas/CVE-2021-42013)
 - [rafifdna/CVE-2021-42013](https://github.com/rafifdna/CVE-2021-42013)
+- [Jhonsonwannaa/cve-2021-42013-apache](https://github.com/Jhonsonwannaa/cve-2021-42013-apache)
 
 ### CVE-2021-42063 (2021-12-14)
 
