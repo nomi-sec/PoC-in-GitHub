@@ -26,6 +26,13 @@
 - [007CRIPTOGRAFIA/c-CVE-2024-0044](https://github.com/007CRIPTOGRAFIA/c-CVE-2024-0044)
 - [Kai2er/CVE-2024-0044-EXP](https://github.com/Kai2er/CVE-2024-0044-EXP)
 
+### CVE-2024-0056 (2024-01-09)
+
+<code>Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data Provider Security Feature Bypass Vulnerability
+</code>
+
+- [frederickernest/ManInTheMiddle](https://github.com/frederickernest/ManInTheMiddle)
+
 ### CVE-2024-0195 (2024-01-02)
 
 <code>Es wurde eine Schwachstelle in spider-flow 0.4.3 gefunden. Sie wurde als kritisch eingestuft. Es betrifft die Funktion FunctionService.saveFunction der Datei src/main/java/org/spiderflow/controller/FunctionController.java. Durch Manipulieren mit unbekannten Daten kann eine code injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -750,7 +757,6 @@
 - [l0n3m4n/CVE-2024-4577-RCE](https://github.com/l0n3m4n/CVE-2024-4577-RCE)
 - [bibo318/CVE-2024-4577-RCE-ATTACK](https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK)
 - [waived/CVE-2024-4577-PHP-RCE](https://github.com/waived/CVE-2024-4577-PHP-RCE)
-- [PizzaboiBestLegits/CVE-2024-4577](https://github.com/PizzaboiBestLegits/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -38922,6 +38928,7 @@
 - [oldboysonnt/dp](https://github.com/oldboysonnt/dp)
 - [blacklanternsecurity/dp_cryptomg](https://github.com/blacklanternsecurity/dp_cryptomg)
 - [cehamod/UI_CVE-2017-9248](https://github.com/cehamod/UI_CVE-2017-9248)
+- [hlong12042/CVE-2017-9248](https://github.com/hlong12042/CVE-2017-9248)
 
 ### CVE-2017-9417 (2017-06-03)
 
