@@ -3537,6 +3537,9 @@
 - [truonghuuphuc/CVE-2024-39943-Poc](https://github.com/truonghuuphuc/CVE-2024-39943-Poc)
 - [A-little-dragon/CVE-2024-39943-Exploit](https://github.com/A-little-dragon/CVE-2024-39943-Exploit)
 
+### CVE-2024-40119
+- [sudo-subho/nepstech-xpon-router-CVE-2024-40119](https://github.com/sudo-subho/nepstech-xpon-router-CVE-2024-40119)
+
 ### CVE-2024-40492
 - [minendie/POC_CVE-2024-40492](https://github.com/minendie/POC_CVE-2024-40492)
 
@@ -7024,6 +7027,13 @@
 
 - [Alucard0x1/CVE-2023-30777](https://github.com/Alucard0x1/CVE-2023-30777)
 
+### CVE-2023-30800 (2023-09-07)
+
+<code>The web server used by MikroTik RouterOS version 6 is affected by a heap memory corruption issue. A remote and unauthenticated attacker can corrupt the server's heap memory by sending a crafted HTTP request. As a result, the web interface crashes and is immediately restarted. The issue was fixed in RouterOS 6.49.10 stable. RouterOS version 7 is not affected.\n
+</code>
+
+- [griffinsectio/CVE-2023-30800_PoC](https://github.com/griffinsectio/CVE-2023-30800_PoC)
+
 ### CVE-2023-30839 (2023-04-25)
 
 <code>PrestaShop is an Open Source e-commerce web application. Versions prior to 8.0.4 and 1.7.8.9 contain a SQL filtering vulnerability. A BO user can write, update, and delete in the database, even without having specific rights. PrestaShop 8.0.4 and 1.7.8.9 contain a patch for this issue. There are no known workarounds.
@@ -7069,7 +7079,7 @@
 <code>Trust Wallet Core before 3.1.1, as used in the Trust Wallet browser extension before 0.0.183, allows theft of funds because the entropy is 32 bits, as exploited in the wild in December 2022 and March 2023. This occurs because the mt19937 Mersenne Twister takes a single 32-bit value as an input seed, resulting in only four billion possible mnemonics. The affected versions of the browser extension are 0.0.172 through 0.0.182. To steal funds efficiently, an attacker can identify all Ethereum addresses created since the 0.0.172 release, and check whether they are Ethereum addresses that could have been created by this extension. To respond to the risk, affected users need to upgrade the product version and also move funds to a new wallet address.
 </code>
 
-- [oooooorest/py_trustwallet_wasm](https://github.com/oooooorest/py_trustwallet_wasm)
+- [ohexa/py_trustwallet_wasm](https://github.com/ohexa/py_trustwallet_wasm)
 
 ### CVE-2023-31320 (2023-11-14)
 
@@ -8706,6 +8716,7 @@
 - [LucasPDiniz/CVE-2023-38408](https://github.com/LucasPDiniz/CVE-2023-38408)
 - [classic130/CVE-2023-38408](https://github.com/classic130/CVE-2023-38408)
 - [wxrdnx/CVE-2023-38408](https://github.com/wxrdnx/CVE-2023-38408)
+- [mrtacojr/CVE-2023-38408](https://github.com/mrtacojr/CVE-2023-38408)
 
 ### CVE-2023-38434 (2023-07-18)
 
