@@ -750,6 +750,7 @@
 - [l0n3m4n/CVE-2024-4577-RCE](https://github.com/l0n3m4n/CVE-2024-4577-RCE)
 - [bibo318/CVE-2024-4577-RCE-ATTACK](https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK)
 - [waived/CVE-2024-4577-PHP-RCE](https://github.com/waived/CVE-2024-4577-PHP-RCE)
+- [PizzaboiBestLegits/CVE-2024-4577](https://github.com/PizzaboiBestLegits/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
