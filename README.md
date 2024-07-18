@@ -2787,6 +2787,13 @@
 - [th3gokul/CVE-2024-31982](https://github.com/th3gokul/CVE-2024-31982)
 - [bigb0x/CVE-2024-31982](https://github.com/bigb0x/CVE-2024-31982)
 
+### CVE-2024-31989 (2024-05-21)
+
+<code>Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. It has been discovered that an unprivileged pod in a different namespace on the same cluster could connect to the Redis server on port 6379. Despite having installed the latest version of the VPC CNI plugin on the EKS cluster, it requires manual enablement through configuration to enforce network policies. This raises concerns that many clients might unknowingly have open access to their Redis servers. This vulnerability could lead to Privilege Escalation to the level of cluster controller, or to information leakage, affecting anyone who does not have strict access controls on their Redis instance. This issue has been patched in version(s) 2.8.19, 2.9.15 and 2.10.10.
+</code>
+
+- [vt0x78/CVE-2024-31989](https://github.com/vt0x78/CVE-2024-31989)
+
 ### CVE-2024-32002 (2024-05-14)
 
 <code>Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources.
@@ -5132,6 +5139,13 @@
 </code>
 
 - [limo520/CVE-2023-20860](https://github.com/limo520/CVE-2023-20860)
+
+### CVE-2023-20872 (2023-04-25)
+
+<code>VMware Workstation and Fusion contain an out-of-bounds read/write vulnerability in SCSI CD/DVD device emulation.
+</code>
+
+- [ze0r/vmware-escape-CVE-2023-20872-poc](https://github.com/ze0r/vmware-escape-CVE-2023-20872-poc)
 
 ### CVE-2023-20887 (2023-06-07)
 
@@ -19288,6 +19302,13 @@
 
 - [7Ragnarok7/CVE-2021-3754](https://github.com/7Ragnarok7/CVE-2021-3754)
 
+### CVE-2021-3773 (2022-02-16)
+
+<code>A flaw in netfilter could allow a network-connected attacker to infer openvpn connection endpoint information for further use in traditional network attacks.
+</code>
+
+- [d0rb/CVE-2021-3773](https://github.com/d0rb/CVE-2021-3773)
+
 ### CVE-2021-3864 (2022-08-26)
 
 <code>A flaw was found in the way the dumpable flag setting was handled when certain SUID binaries executed its descendants. The prerequisite is a SUID binary that sets real UID equal to effective UID, and real GID equal to effective GID. The descendant will then have a dumpable value set to 1. As a result, if the descendant process crashes and core_pattern is set to a relative value, its core dump is stored in the current directory with uid:gid permissions. An unprivileged local user with eligible root SUID binary could use this flaw to place core dumps into root-owned directories, potentially resulting in escalation of privileges.
@@ -19767,13 +19788,6 @@
 - [jiaocoll/CVE-2021-21402-Jellyfin](https://github.com/jiaocoll/CVE-2021-21402-Jellyfin)
 - [somatrasss/CVE-2021-21402](https://github.com/somatrasss/CVE-2021-21402)
 - [givemefivw/CVE-2021-21402](https://github.com/givemefivw/CVE-2021-21402)
-
-### CVE-2021-21403 (2021-03-26)
-
-<code>In github.com/kongchuanhujiao/server before version 1.3.21 there is an authentication Bypass by Primary Weakness vulnerability. All users are impacted. This is fixed in version 1.3.21.
-</code>
-
-- [5l1v3r1/CVE-2021-21403](https://github.com/5l1v3r1/CVE-2021-21403)
 
 ### CVE-2021-21425 (2021-04-07)
 
@@ -37119,6 +37133,7 @@
 - [799600966/CVE-2018-17456](https://github.com/799600966/CVE-2018-17456)
 - [AnonymKing/CVE-2018-17456](https://github.com/AnonymKing/CVE-2018-17456)
 - [jiahuiLeee/test](https://github.com/jiahuiLeee/test)
+- [KKkai0315/CVE-2018-17456](https://github.com/KKkai0315/CVE-2018-17456)
 
 ### CVE-2018-17463 (2018-11-14)
 
@@ -39233,6 +39248,7 @@
 - [bao7uo/RAU_crypto](https://github.com/bao7uo/RAU_crypto)
 - [KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut](https://github.com/KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut)
 - [KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation](https://github.com/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation)
+- [hlong12042/CVE-2017-11317-and-CVE-2017-11357-in-Telerik](https://github.com/hlong12042/CVE-2017-11317-and-CVE-2017-11357-in-Telerik)
 
 ### CVE-2017-11366 (2017-08-21)
 
