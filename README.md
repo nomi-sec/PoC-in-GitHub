@@ -314,6 +314,7 @@
 </code>
 
 - [ox1111/-CVE-2024-1874-](https://github.com/ox1111/-CVE-2024-1874-)
+- [Tgcohce/CVE-2024-1874](https://github.com/Tgcohce/CVE-2024-1874)
 
 ### CVE-2024-2054 (2024-03-05)
 
@@ -750,6 +751,7 @@
 - [l0n3m4n/CVE-2024-4577-RCE](https://github.com/l0n3m4n/CVE-2024-4577-RCE)
 - [bibo318/CVE-2024-4577-RCE-ATTACK](https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK)
 - [waived/CVE-2024-4577-PHP-RCE](https://github.com/waived/CVE-2024-4577-PHP-RCE)
+- [nNoSuger/CVE-2024-4577](https://github.com/nNoSuger/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -11554,6 +11556,13 @@
 
 
 ## 2022
+### CVE-2022-0155 (2022-01-10)
+
+<code>follow-redirects is vulnerable to Exposure of Private Personal Information to an Unauthorized Actor
+</code>
+
+- [coana-tech/CVE-2022-0155-PoC](https://github.com/coana-tech/CVE-2022-0155-PoC)
+
 ### CVE-2022-0165 (2022-03-14)
 
 <code>The Page Builder KingComposer WordPress plugin through 2.9.6 does not validate the id parameter before redirecting the user to it via the kc_get_thumbn AJAX action available to both unauthenticated and authenticated users
@@ -15534,6 +15543,7 @@
 </code>
 
 - [p0dalirius/CVE-2022-30780-lighttpd-denial-of-service](https://github.com/p0dalirius/CVE-2022-30780-lighttpd-denial-of-service)
+- [xiw1ll/CVE-2022-30780_Checker](https://github.com/xiw1ll/CVE-2022-30780_Checker)
 
 ### CVE-2022-30781 (2022-05-16)
 
@@ -42516,6 +42526,7 @@
 - [landonf/Testability-CVE-2014-1266](https://github.com/landonf/Testability-CVE-2014-1266)
 - [linusyang/SSLPatch](https://github.com/linusyang/SSLPatch)
 - [gabrielg/CVE-2014-1266-poc](https://github.com/gabrielg/CVE-2014-1266-poc)
+- [meetlight942/PentesterLab-Intercept-CVE-2014-1266](https://github.com/meetlight942/PentesterLab-Intercept-CVE-2014-1266)
 
 ### CVE-2014-1303 (2014-03-26)
 
@@ -43883,7 +43894,6 @@
 </code>
 
 - [jan0/isslfix](https://github.com/jan0/isslfix)
-- [meetlight942/PentesterLab-Intercept-CVE-2011-0228](https://github.com/meetlight942/PentesterLab-Intercept-CVE-2011-0228)
 
 ### CVE-2011-1237 (2011-04-13)
 
