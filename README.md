@@ -3590,6 +3590,13 @@
 ### CVE-2024-40512
 - [Jansen-C-Moreira/CVE-2024-40512](https://github.com/Jansen-C-Moreira/CVE-2024-40512)
 
+### CVE-2024-40725 (2024-07-18)
+
+<code>A partial fix for  CVE-2024-39884 in the core of Apache HTTP Server 2.4.61 ignores some use of the legacy content-type based configuration of handlers. &quot;AddType&quot; and similar configuration, under some circumstances where files are requested indirectly, result in source code disclosure of local content. For example, PHP scripts may be served instead of interpreted.\n\nUsers are recommended to upgrade to version 2.4.62, which fixes this issue.\n\n
+</code>
+
+- [TAM-K592/CVE-2024-40725-CVE-2024-40898](https://github.com/TAM-K592/CVE-2024-40725-CVE-2024-40898)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
@@ -4303,6 +4310,7 @@
 
 - [Nuki2u/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK](https://github.com/Nuki2u/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK)
 - [jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824)
+- [m1sn0w/CVE-2023-3824](https://github.com/m1sn0w/CVE-2023-3824)
 
 ### CVE-2023-3836 (2023-07-22)
 
@@ -41546,6 +41554,7 @@
 
 - [tmatejicek/CVE-2015-1397](https://github.com/tmatejicek/CVE-2015-1397)
 - [WHOISshuvam/CVE-2015-1397](https://github.com/WHOISshuvam/CVE-2015-1397)
+- [Wytchwulf/CVE-2015-1397-Magento-Shoplift](https://github.com/Wytchwulf/CVE-2015-1397-Magento-Shoplift)
 
 ### CVE-2015-1427 (2015-02-17)
 
