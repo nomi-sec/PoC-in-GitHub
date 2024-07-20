@@ -2217,6 +2217,7 @@
 - [K3ysTr0K3R/CVE-2024-27198-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-27198-EXPLOIT)
 - [Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-](https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-)
 - [Stuub/RCity-CVE-2024-27198](https://github.com/Stuub/RCity-CVE-2024-27198)
+- [HPT-Intern-Task-Submission/CVE-2024-27198](https://github.com/HPT-Intern-Task-Submission/CVE-2024-27198)
 
 ### CVE-2024-27282 (-)
 
@@ -15385,11 +15386,11 @@
 - [MalwareTech/FollinaExtractor](https://github.com/MalwareTech/FollinaExtractor)
 - [notherealhazard/follina-CVE-2022-30190](https://github.com/notherealhazard/follina-CVE-2022-30190)
 - [Cerebrovinny/follina-CVE-2022-30190](https://github.com/Cerebrovinny/follina-CVE-2022-30190)
-- [ethicalblue/Follina-CVE-2022-30190-Sample](https://github.com/ethicalblue/Follina-CVE-2022-30190-Sample)
 - [Lucaskrell/go_follina](https://github.com/Lucaskrell/go_follina)
 - [Gra3s/CVE-2022-30190_EXP_PowerPoint](https://github.com/Gra3s/CVE-2022-30190_EXP_PowerPoint)
 - [EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-](https://github.com/EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-)
 - [jeffreybxu/five-nights-at-follina-s](https://github.com/jeffreybxu/five-nights-at-follina-s)
+- [Captain404/Follina-CVE-2022-30190-PoC-sample](https://github.com/Captain404/Follina-CVE-2022-30190-PoC-sample)
 - [winstxnhdw/CVE-2022-30190](https://github.com/winstxnhdw/CVE-2022-30190)
 - [Imeneallouche/Follina-attack-CVE-2022-30190-](https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-)
 - [mattjmillner/CVE-Smackdown](https://github.com/mattjmillner/CVE-Smackdown)
@@ -15404,6 +15405,7 @@
 - [Jump-Wang-111/AmzWord](https://github.com/Jump-Wang-111/AmzWord)
 - [shri142/ZipScan](https://github.com/shri142/ZipScan)
 - [alien-keric/CVE-2022-30190](https://github.com/alien-keric/CVE-2022-30190)
+- [ethicalblue/Follina-CVE-2022-30190-Sample](https://github.com/ethicalblue/Follina-CVE-2022-30190-Sample)
 
 ### CVE-2022-30203 (2022-07-12)
 
