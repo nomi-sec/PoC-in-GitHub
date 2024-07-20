@@ -16614,6 +16614,7 @@
 - [GrayHatZone/CVE-2022-37706-LPE-exploit](https://github.com/GrayHatZone/CVE-2022-37706-LPE-exploit)
 - [junnythemarksman/CVE-2022-37706](https://github.com/junnythemarksman/CVE-2022-37706)
 - [AleksPwn/CVE-2022-37706](https://github.com/AleksPwn/CVE-2022-37706)
+- [TACTICAL-HACK/CVE-2022-37706-SUID](https://github.com/TACTICAL-HACK/CVE-2022-37706-SUID)
 
 ### CVE-2022-37708
 - [thekevinday/docker_lightman_exploit](https://github.com/thekevinday/docker_lightman_exploit)
@@ -43695,6 +43696,7 @@
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 - [0xl0k1/CVE-2012-1823](https://github.com/0xl0k1/CVE-2012-1823)
+- [Fatalityx84/CVE-2012-1823](https://github.com/Fatalityx84/CVE-2012-1823)
 
 ### CVE-2012-1870 (2012-07-10)
 
