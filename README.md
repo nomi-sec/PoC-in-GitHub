@@ -108,9 +108,6 @@
 - [Forsaken0129/CVE-2024-0582](https://github.com/Forsaken0129/CVE-2024-0582)
 - [0ptyx/cve-2024-0582](https://github.com/0ptyx/cve-2024-0582)
 
-### CVE-2024-06666
-- [labc-dev/CVE-2024-06666](https://github.com/labc-dev/CVE-2024-06666)
-
 ### CVE-2024-0679 (2024-01-20)
 
 <code>The ColorMag theme for WordPress is vulnerable to unauthorized access due to a missing capability check on the plugin_action_callback() function in all versions up to, and including, 3.1.2. This makes it possible for authenticated attackers, with subscriber-level access and above, to install and activate arbitrary plugins.
@@ -939,6 +936,13 @@
 </code>
 
 - [kac89/CVE-2024-6050](https://github.com/kac89/CVE-2024-6050)
+
+### CVE-2024-6205 (2024-07-19)
+
+<code>The PayPlus Payment Gateway WordPress plugin before 6.6.9 does not properly sanitise and escape a parameter before using it in a SQL statement via a WooCommerce API route available to unauthenticated users, leading to an SQL injection vulnerability.
+</code>
+
+- [j3r1ch0123/CVE-2024-6205](https://github.com/j3r1ch0123/CVE-2024-6205)
 
 ### CVE-2024-6387 (2024-07-01)
 
@@ -1890,6 +1894,7 @@
 - [xffsec/CVE-2024-24590-ClearML-RCE-Exploit](https://github.com/xffsec/CVE-2024-24590-ClearML-RCE-Exploit)
 - [diegogarciayala/CVE-2024-24590-ClearML-RCE-CMD-POC](https://github.com/diegogarciayala/CVE-2024-24590-ClearML-RCE-CMD-POC)
 - [junnythemarksman/CVE-2024-24590](https://github.com/junnythemarksman/CVE-2024-24590)
+- [sviim/ClearML-CVE-2024-24590](https://github.com/sviim/ClearML-CVE-2024-24590)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -3460,6 +3465,13 @@
 
 - [uname-s/CVE-2024-37889](https://github.com/uname-s/CVE-2024-37889)
 
+### CVE-2024-38041 (2024-07-09)
+
+<code>Windows Kernel Information Disclosure Vulnerability
+</code>
+
+- [varwara/CVE-2024-38041](https://github.com/varwara/CVE-2024-38041)
+
 ### CVE-2024-38366 (2024-07-01)
 
 <code>trunk.cocoapods.org is the authentication server for the CoacoaPods dependency manager. The part of trunk which verifies whether a user has a real email address on signup used a rfc-822 library which executes a shell command to validate the email domain MX records validity. It works via an DNS MX. This lookup could be manipulated to also execute a command on the trunk server, effectively giving root access to the server and the infrastructure. This issue was patched server-side with commit 001cc3a430e75a16307f5fd6cdff1363ad2f40f3 in September 2023. This RCE triggered a full user-session reset, as an attacker could have used this method to write to any Podspec in trunk.
@@ -3568,6 +3580,13 @@
 </code>
 
 - [sudo-subho/nepstech-xpon-router-CVE-2024-40119](https://github.com/sudo-subho/nepstech-xpon-router-CVE-2024-40119)
+
+### CVE-2024-40348 (2024-07-20)
+
+<code>An issue in the component /api/swaggerui/static of Bazaar v1.4.3 allows unauthenticated attackers to execute a directory traversal.
+</code>
+
+- [bigb0x/CVE-2024-40348](https://github.com/bigb0x/CVE-2024-40348)
 
 ### CVE-2024-40492 (2024-07-17)
 
