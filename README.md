@@ -555,6 +555,13 @@
 - [tk-sawada/IPLineFinder](https://github.com/tk-sawada/IPLineFinder)
 - [iwallarm/cve-2024-3400](https://github.com/iwallarm/cve-2024-3400)
 
+### CVE-2024-3432 (2024-04-07)
+
+<code>Eine Schwachstelle wurde in PuneethReddyHC Event Management 1.0 ausgemacht. Sie wurde als kritisch eingestuft. Betroffen davon ist ein unbekannter Prozess der Datei /backend/register.php. Mit der Manipulation des Arguments event_id/full_name/email/mobile/college/branch mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [pamoutaf/CVE-2024-3432](https://github.com/pamoutaf/CVE-2024-3432)
+
 ### CVE-2024-3435 (2024-05-16)
 
 <code>A path traversal vulnerability exists in the 'save_settings' endpoint of the parisneo/lollms-webui application, affecting versions up to the latest release before 9.5. The vulnerability arises due to insufficient sanitization of the 'config' parameter in the 'apply_settings' function, allowing an attacker to manipulate the application's configuration by sending specially crafted JSON payloads. This could lead to remote code execution (RCE) by bypassing existing patches designed to mitigate such vulnerabilities.
@@ -3365,6 +3372,8 @@
 
 - [mbadanoiu/CVE-2024-37081](https://github.com/mbadanoiu/CVE-2024-37081)
 - [Mr-r00t11/CVE-2024-37081](https://github.com/Mr-r00t11/CVE-2024-37081)
+- [CERTologists/-CVE-2024-37081-POC](https://github.com/CERTologists/-CVE-2024-37081-POC)
+- [CERTologists/Modified-CVE-2024-37081-POC](https://github.com/CERTologists/Modified-CVE-2024-37081-POC)
 
 ### CVE-2024-37147 (2024-07-10)
 
@@ -16493,6 +16502,13 @@
 
 - [Pwnzer0tt1/CVE-2022-36946](https://github.com/Pwnzer0tt1/CVE-2022-36946)
 - [Satheesh575555/linux-4.19.72_CVE-2022-36946](https://github.com/Satheesh575555/linux-4.19.72_CVE-2022-36946)
+
+### CVE-2022-37017 (2022-12-01)
+
+<code>Symantec Endpoint Protection (Windows) agent, prior to 14.3 RU6/14.3 RU5 Patch 1, may be susceptible to a Security Control Bypass vulnerability, which is a type of issue that can potentially allow a threat actor to circumvent existing security controls. This CVE applies narrowly to the Client User Interface Password protection and Policy Import/Export Password protection, if it has been enabled.
+</code>
+
+- [apeppels/CVE-2022-37017](https://github.com/apeppels/CVE-2022-37017)
 
 ### CVE-2022-37032 (2022-09-19)
 
