@@ -2146,6 +2146,7 @@
 
 - [varwara/CVE-2024-26229](https://github.com/varwara/CVE-2024-26229)
 - [RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit)
+- [0XJ175/DRive](https://github.com/0XJ175/DRive)
 - [apkc/CVE-2024-26229-BOF](https://github.com/apkc/CVE-2024-26229-BOF)
 - [team-MineDEV/CVE-2024-26229](https://github.com/team-MineDEV/CVE-2024-26229)
 
@@ -5631,6 +5632,7 @@
 - [s1d6point7bugcrowd/CVE-2023-22515-check](https://github.com/s1d6point7bugcrowd/CVE-2023-22515-check)
 - [xorbbo/cve-2023-22515](https://github.com/xorbbo/cve-2023-22515)
 - [spareack/CVE-2023-22515-NSE](https://github.com/spareack/CVE-2023-22515-NSE)
+- [Onedy1703/CVE-2023-22515](https://github.com/Onedy1703/CVE-2023-22515)
 
 ### CVE-2023-22518 (2023-10-31)
 
@@ -31335,6 +31337,13 @@
 </code>
 
 - [ZwCreatePhoton/CVE-2019-5782_CVE-2019-13768](https://github.com/ZwCreatePhoton/CVE-2019-5782_CVE-2019-13768)
+
+### CVE-2019-5784 (2019-06-27)
+
+<code>Incorrect handling of deferred code in V8 in Google Chrome prior to 72.0.3626.96 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
+- [agenericapple/CVE-2019-5784-PoC](https://github.com/agenericapple/CVE-2019-5784-PoC)
 
 ### CVE-2019-5786 (2019-06-27)
 
