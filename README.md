@@ -3059,6 +3059,7 @@
 - [bughuntar/CVE-2024-34102](https://github.com/bughuntar/CVE-2024-34102)
 - [bughuntar/CVE-2024-34102-Python](https://github.com/bughuntar/CVE-2024-34102-Python)
 - [Phantom-IN/CVE-2024-34102](https://github.com/Phantom-IN/CVE-2024-34102)
+- [ex-ARnX/CVE-2024-34102-PoC](https://github.com/ex-ARnX/CVE-2024-34102-PoC)
 
 ### CVE-2024-34220 (-)
 
@@ -43708,7 +43709,7 @@
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 - [0xl0k1/CVE-2012-1823](https://github.com/0xl0k1/CVE-2012-1823)
-- [Fatalityx84/CVE-2012-1823](https://github.com/Fatalityx84/CVE-2012-1823)
+- [Fatalitysec/CVE-2012-1823](https://github.com/Fatalitysec/CVE-2012-1823)
 
 ### CVE-2012-1870 (2012-07-10)
 
