@@ -108,9 +108,6 @@
 - [Forsaken0129/CVE-2024-0582](https://github.com/Forsaken0129/CVE-2024-0582)
 - [0ptyx/cve-2024-0582](https://github.com/0ptyx/cve-2024-0582)
 
-### CVE-2024-0666
-- [labc-dev/CVE-2024-0666](https://github.com/labc-dev/CVE-2024-0666)
-
 ### CVE-2024-0679 (2024-01-20)
 
 <code>The ColorMag theme for WordPress is vulnerable to unauthorized access due to a missing capability check on the plugin_action_callback() function in all versions up to, and including, 3.1.2. This makes it possible for authenticated attackers, with subscriber-level access and above, to install and activate arbitrary plugins.
@@ -1986,6 +1983,7 @@
 - [protonnegativo/CVE-2024-24919](https://github.com/protonnegativo/CVE-2024-24919)
 - [SalehLardhi/CVE-2024-24919](https://github.com/SalehLardhi/CVE-2024-24919)
 - [ShadowByte1/CVE-2024-24919](https://github.com/ShadowByte1/CVE-2024-24919)
+- [H3KEY/CVE-2024-24919](https://github.com/H3KEY/CVE-2024-24919)
 
 ### CVE-2024-25092 (2024-06-09)
 
