@@ -2597,6 +2597,13 @@
 
 - [sinsinology/CVE-2024-29855](https://github.com/sinsinology/CVE-2024-29855)
 
+### CVE-2024-29863 (2024-04-05)
+
+<code>A race condition in the installer executable in Qlik Qlikview before versions May 2022 SR3 (12.70.20300) and May 2023 SR2 (12,80.20200) may allow an existing lower privileged user to cause code to be executed in the context of a Windows Administrator.
+</code>
+
+- [pawlokk/qlikview-poc-CVE-2024-29863](https://github.com/pawlokk/qlikview-poc-CVE-2024-29863)
+
 ### CVE-2024-29868 (2024-06-24)
 
 <code>Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG) vulnerability in Apache StreamPipes user self-registration and password recovery mechanism.\nThis allows an attacker to guess the recovery token in a reasonable time and thereby to take over the attacked user's account.\nThis issue affects Apache StreamPipes: from 0.69.0 through 0.93.0.\n\nUsers are recommended to upgrade to version 0.95.0, which fixes the issue.\n\n
@@ -7120,6 +7127,7 @@
 </code>
 
 - [griffinsectio/CVE-2023-30800_PoC](https://github.com/griffinsectio/CVE-2023-30800_PoC)
+- [griffinsectio/CVE-2023-30800_PoC_go](https://github.com/griffinsectio/CVE-2023-30800_PoC_go)
 
 ### CVE-2023-30839 (2023-04-25)
 
@@ -39225,7 +39233,6 @@
 - [akr3ch/CVE-2017-9841](https://github.com/akr3ch/CVE-2017-9841)
 - [p1ckzi/CVE-2017-9841](https://github.com/p1ckzi/CVE-2017-9841)
 - [jax7sec/CVE-2017-9841](https://github.com/jax7sec/CVE-2017-9841)
-- [omgdomgd/CVE-2017-9841-Scan](https://github.com/omgdomgd/CVE-2017-9841-Scan)
 - [mileticluka1/eval-stdin](https://github.com/mileticluka1/eval-stdin)
 - [Jhonsonwannaa/CVE-2017-9841-](https://github.com/Jhonsonwannaa/CVE-2017-9841-)
 - [MadExploits/PHPunit-Exploit](https://github.com/MadExploits/PHPunit-Exploit)
