@@ -555,13 +555,6 @@
 - [tk-sawada/IPLineFinder](https://github.com/tk-sawada/IPLineFinder)
 - [iwallarm/cve-2024-3400](https://github.com/iwallarm/cve-2024-3400)
 
-### CVE-2024-3432 (2024-04-07)
-
-<code>Eine Schwachstelle wurde in PuneethReddyHC Event Management 1.0 ausgemacht. Sie wurde als kritisch eingestuft. Betroffen davon ist ein unbekannter Prozess der Datei /backend/register.php. Mit der Manipulation des Arguments event_id/full_name/email/mobile/college/branch mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [pamoutaf/CVE-2024-3432](https://github.com/pamoutaf/CVE-2024-3432)
-
 ### CVE-2024-3435 (2024-05-16)
 
 <code>A path traversal vulnerability exists in the 'save_settings' endpoint of the parisneo/lollms-webui application, affecting versions up to the latest release before 9.5. The vulnerability arises due to insufficient sanitization of the 'config' parameter in the 'apply_settings' function, allowing an attacker to manipulate the application's configuration by sending specially crafted JSON payloads. This could lead to remote code execution (RCE) by bypassing existing patches designed to mitigate such vulnerabilities.
@@ -3159,6 +3152,9 @@
 
 - [vincentscode/CVE-2024-34313](https://github.com/vincentscode/CVE-2024-34313)
 
+### CVE-2024-34329
+- [pamoutaf/CVE-2024-34329](https://github.com/pamoutaf/CVE-2024-34329)
+
 ### CVE-2024-34350 (2024-05-09)
 
 <code>Next.js is a React framework that can provide building blocks to create web applications. Prior to 13.5.1, an inconsistent interpretation of a crafted HTTP request meant that requests are treated as both a single request, and two separate requests by Next.js, leading to desynchronized responses. This led to a response queue poisoning vulnerability in the affected Next.js versions. For a request to be exploitable, the affected route also had to be making use of the [rewrites](https://nextjs.org/docs/app/api-reference/next-config-js/rewrites) feature in Next.js. The vulnerability is resolved in Next.js `13.5.1` and newer.
@@ -3941,6 +3937,13 @@
 </code>
 
 - [weizman/CVE-2023-1767](https://github.com/weizman/CVE-2023-1767)
+
+### CVE-2023-1773 (2023-03-31)
+
+<code>In Rockoa 2.3.2 wurde eine Schwachstelle ausgemacht. Sie wurde als kritisch eingestuft. Hierbei betrifft es unbekannten Programmcode der Datei webmainConfig.php der Komponente Configuration File Handler. Durch Beeinflussen mit unbekannten Daten kann eine code injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [CTF-Archives/xinhu-v2.3.2](https://github.com/CTF-Archives/xinhu-v2.3.2)
 
 ### CVE-2023-1829 (2023-04-12)
 
