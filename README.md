@@ -108,6 +108,9 @@
 - [Forsaken0129/CVE-2024-0582](https://github.com/Forsaken0129/CVE-2024-0582)
 - [0ptyx/cve-2024-0582](https://github.com/0ptyx/cve-2024-0582)
 
+### CVE-2024-0666
+- [labc-dev/CVE-2024-0666](https://github.com/labc-dev/CVE-2024-0666)
+
 ### CVE-2024-0679 (2024-01-20)
 
 <code>The ColorMag theme for WordPress is vulnerable to unauthorized access due to a missing capability check on the plugin_action_callback() function in all versions up to, and including, 3.1.2. This makes it possible for authenticated attackers, with subscriber-level access and above, to install and activate arbitrary plugins.
@@ -880,6 +883,13 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-5522-Poc](https://github.com/truonghuuphuc/CVE-2024-5522-Poc)
+
+### CVE-2024-5633 (2024-07-09)
+
+<code>Longse model LBH30FE200W cameras, as well as products based on this device, provide an unrestricted access for an attacker located in the same local network to an undocumented binary service CoolView on one of the ports. \nAn attacker with a knowledge of the available commands is able to perform read/write operations on the device's memory, which might result in e.g. bypassing telnet login and obtaining full access to the device.
+</code>
+
+- [Adikso/CVE-2024-5633](https://github.com/Adikso/CVE-2024-5633)
 
 ### CVE-2024-5655 (2024-06-26)
 
@@ -11409,6 +11419,13 @@
 </code>
 
 - [Ev3rR3d/CVE-2023-50465](https://github.com/Ev3rR3d/CVE-2023-50465)
+
+### CVE-2023-50564 (2023-12-14)
+
+<code>An arbitrary file upload vulnerability in the component /inc/modules_install.php of Pluck-CMS v4.7.18 allows attackers to execute arbitrary code via uploading a crafted ZIP file.
+</code>
+
+- [Rai2en/CVE-2023-50564_Pluck-v4.7.18_PoC](https://github.com/Rai2en/CVE-2023-50564_Pluck-v4.7.18_PoC)
 
 ### CVE-2023-50596
 - [chandraprarikraj/CVE-2023-50596](https://github.com/chandraprarikraj/CVE-2023-50596)
