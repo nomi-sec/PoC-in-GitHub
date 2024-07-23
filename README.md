@@ -3152,7 +3152,11 @@
 
 - [vincentscode/CVE-2024-34313](https://github.com/vincentscode/CVE-2024-34313)
 
-### CVE-2024-34329
+### CVE-2024-34329 (2024-07-22)
+
+<code>Insecure permissions in Entrust Datacard XPS Card Printer Driver 8.4 and earlier allows unauthenticated attackers to execute arbitrary code as SYSTEM via a crafted DLL payload.
+</code>
+
 - [pamoutaf/CVE-2024-34329](https://github.com/pamoutaf/CVE-2024-34329)
 
 ### CVE-2024-34350 (2024-05-09)
@@ -3563,7 +3567,11 @@
 
 - [zunak/CVE-2024-39249](https://github.com/zunak/CVE-2024-39249)
 
-### CVE-2024-39250
+### CVE-2024-39250 (2024-07-22)
+
+<code>EfroTech Timetrax v8.3 was discovered to contain an unauthenticated SQL injection vulnerability via the q parameter in the search web interface.
+</code>
+
 - [efrann/CVE-2024-39250](https://github.com/efrann/CVE-2024-39250)
 
 ### CVE-2024-39689 (2024-07-05)
@@ -3608,6 +3616,9 @@
 </code>
 
 - [bigb0x/CVE-2024-40348](https://github.com/bigb0x/CVE-2024-40348)
+
+### CVE-2024-40422
+- [alpernae/CVE-2024-40422](https://github.com/alpernae/CVE-2024-40422)
 
 ### CVE-2024-40492 (2024-07-17)
 
