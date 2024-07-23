@@ -1042,6 +1042,13 @@
 - [ThatNotEasy/CVE-2024-6387](https://github.com/ThatNotEasy/CVE-2024-6387)
 - [W1hithat/CVE-2024-6387](https://github.com/W1hithat/CVE-2024-6387)
 
+### CVE-2024-6666 (2024-07-11)
+
+<code>The WP ERP plugin for WordPress is vulnerable to SQL Injection via the ‘vendor_id’ parameter in all versions up to, and including, 1.13.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Accounting Manager access (erp_ac_view_sales_summary capability) and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [labc-dev/CVE-2024-6666](https://github.com/labc-dev/CVE-2024-6666)
+
 ### CVE-2024-11451
 - [Xiaolqy/CVE-2024-11451](https://github.com/Xiaolqy/CVE-2024-11451)
 
@@ -2369,6 +2376,7 @@
 - [TadashiJei/Valve-Press-CVE-2024-27956-RCE](https://github.com/TadashiJei/Valve-Press-CVE-2024-27956-RCE)
 - [cve-2024/CVE-2024-27956-RCE](https://github.com/cve-2024/CVE-2024-27956-RCE)
 - [ThatNotEasy/CVE-2024-27956](https://github.com/ThatNotEasy/CVE-2024-27956)
+- [CERTologists/EXPLOITING-CVE-2024-27956](https://github.com/CERTologists/EXPLOITING-CVE-2024-27956)
 
 ### CVE-2024-27971 (2024-05-17)
 
@@ -2863,8 +2871,6 @@
 - [ycdxsb/CVE-2024-32002-hulk](https://github.com/ycdxsb/CVE-2024-32002-hulk)
 - [ycdxsb/CVE-2024-32002-submod](https://github.com/ycdxsb/CVE-2024-32002-submod)
 - [bfengj/CVE-2024-32002-Exploit](https://github.com/bfengj/CVE-2024-32002-Exploit)
-- [Hector65432/cve-2024-32002-1](https://github.com/Hector65432/cve-2024-32002-1)
-- [Hector65432/cve-2024-32002-2](https://github.com/Hector65432/cve-2024-32002-2)
 - [vincepsh/CVE-2024-32002](https://github.com/vincepsh/CVE-2024-32002)
 - [vincepsh/CVE-2024-32002-hook](https://github.com/vincepsh/CVE-2024-32002-hook)
 - [10cks/CVE-2024-32002-EXP](https://github.com/10cks/CVE-2024-32002-EXP)
@@ -3653,6 +3659,13 @@
 </code>
 
 - [TAM-K592/CVE-2024-40725-CVE-2024-40898](https://github.com/TAM-K592/CVE-2024-40725-CVE-2024-40898)
+
+### CVE-2024-41107 (2024-07-19)
+
+<code>The CloudStack SAML authentication (disabled by default) does not enforce signature check. In CloudStack environments where SAML authentication is enabled, an attacker that initiates CloudStack SAML single sign-on authentication can bypass SAML authentication by submitting a spoofed SAML response with no signature and known or guessed username and other user details of a SAML-enabled CloudStack user-account. In such environments, this can result in a complete compromise of the resources owned and/or accessible by a SAML enabled user-account.\n\nAffected users are recommended to disable the SAML authentication plugin by setting the &quot;saml2.enabled&quot; global setting to &quot;false&quot;, or upgrade to version 4.18.2.2, 4.19.1.0 or later, which addresses this issue.\n\n
+</code>
+
+- [d0rb/CVE-2024-41107](https://github.com/d0rb/CVE-2024-41107)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -43405,6 +43418,7 @@
 - [m4drat/CVE-2013-2028-Exploit](https://github.com/m4drat/CVE-2013-2028-Exploit)
 - [jptr218/nginxhack](https://github.com/jptr218/nginxhack)
 - [Sunqiz/CVE-2013-2028-reproduction](https://github.com/Sunqiz/CVE-2013-2028-reproduction)
+- [xiw1ll/CVE-2013-2028_Checker](https://github.com/xiw1ll/CVE-2013-2028_Checker)
 
 ### CVE-2013-2072 (2013-08-28)
 
