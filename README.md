@@ -3667,6 +3667,9 @@
 
 - [d0rb/CVE-2024-41107](https://github.com/d0rb/CVE-2024-41107)
 
+### CVE-2024-41662
+- [sh3bu/CVE-2024-41662](https://github.com/sh3bu/CVE-2024-41662)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
@@ -9027,6 +9030,7 @@
 - [UnHackerEnCapital/PDFernetRemotelo](https://github.com/UnHackerEnCapital/PDFernetRemotelo)
 - [Hirusha-N/CVE-2021-34527-CVE-2023-38831-and-CVE-2023-32784](https://github.com/Hirusha-N/CVE-2021-34527-CVE-2023-38831-and-CVE-2023-32784)
 - [khanhtranngoccva/cve-2023-38831-poc](https://github.com/khanhtranngoccva/cve-2023-38831-poc)
+- [MaorBuskila/Windows-X64-RAT](https://github.com/MaorBuskila/Windows-X64-RAT)
 
 ### CVE-2023-38836 (2023-08-21)
 
