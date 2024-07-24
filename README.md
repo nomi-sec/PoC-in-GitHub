@@ -824,7 +824,6 @@
 - [xungzzz/CVE-2024-4956](https://github.com/xungzzz/CVE-2024-4956)
 - [erickfernandox/CVE-2024-4956](https://github.com/erickfernandox/CVE-2024-4956)
 - [gmh5225/CVE-2024-4956](https://github.com/gmh5225/CVE-2024-4956)
-- [ifconfig-me/CVE-2024-4956-Bulk-Scanner](https://github.com/ifconfig-me/CVE-2024-4956-Bulk-Scanner)
 - [thinhap/CVE-2024-4956-PoC](https://github.com/thinhap/CVE-2024-4956-PoC)
 - [eoslvs/CVE-2024-4956](https://github.com/eoslvs/CVE-2024-4956)
 - [GoatSecurity/CVE-2024-4956](https://github.com/GoatSecurity/CVE-2024-4956)
@@ -1729,7 +1728,6 @@
 - [Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability](https://github.com/Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability)
 - [B4CK4TT4CK/CVE-2024-23897](https://github.com/B4CK4TT4CK/CVE-2024-23897)
 - [godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897)
-- [ifconfig-me/CVE-2024-23897](https://github.com/ifconfig-me/CVE-2024-23897)
 - [ThatNotEasy/CVE-2024-23897](https://github.com/ThatNotEasy/CVE-2024-23897)
 - [pulentoski/CVE-2024-23897-Arbitrary-file-read](https://github.com/pulentoski/CVE-2024-23897-Arbitrary-file-read)
 - [Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897)
@@ -1962,7 +1960,6 @@
 - [nicolvsrlr27/CVE-2024-24919](https://github.com/nicolvsrlr27/CVE-2024-24919)
 - [gurudattch/CVE-2024-24919](https://github.com/gurudattch/CVE-2024-24919)
 - [YN1337/CVE-2024-24919](https://github.com/YN1337/CVE-2024-24919)
-- [ifconfig-me/CVE-2024-24919-Bulk-Scanner](https://github.com/ifconfig-me/CVE-2024-24919-Bulk-Scanner)
 - [r4p3c4/CVE-2024-24919-Checkpoint-Firewall-VPN-Check](https://github.com/r4p3c4/CVE-2024-24919-Checkpoint-Firewall-VPN-Check)
 - [r4p3c4/CVE-2024-24919-Exploit-PoC-Checkpoint-Firewall-VPN](https://github.com/r4p3c4/CVE-2024-24919-Exploit-PoC-Checkpoint-Firewall-VPN)
 - [J4F9S5D2Q7/CVE-2024-24919-CHECKPOINT](https://github.com/J4F9S5D2Q7/CVE-2024-24919-CHECKPOINT)
@@ -3776,6 +3773,13 @@
 - [letsr00t/CVE-2023-0386](https://github.com/letsr00t/CVE-2023-0386)
 - [churamanib/CVE-2023-0386](https://github.com/churamanib/CVE-2023-0386)
 - [EstamelGG/CVE-2023-0386-libs](https://github.com/EstamelGG/CVE-2023-0386-libs)
+
+### CVE-2023-0400 (2023-02-01)
+
+<code>\nThe protection bypass vulnerability in DLP for Windows 11.9.x is addressed in version 11.10.0. This allowed a local user to bypass DLP controls when uploading sensitive data from a mapped drive into a web email client. Loading from a local driver was correctly prevented. Versions prior to 11.9 correctly detected and blocked the attempted upload of sensitive data.\n\n
+</code>
+
+- [pinpinsec/CVE-2023-0400](https://github.com/pinpinsec/CVE-2023-0400)
 
 ### CVE-2023-0461 (2023-02-28)
 
@@ -8563,7 +8567,6 @@
 - [ak1t4/CVE-2023-36845](https://github.com/ak1t4/CVE-2023-36845)
 - [0xNehru/CVE-2023-36845-Juniper-Vulnerability](https://github.com/0xNehru/CVE-2023-36845-Juniper-Vulnerability)
 - [imhunterand/CVE-2023-36845](https://github.com/imhunterand/CVE-2023-36845)
-- [ifconfig-me/CVE-2023-36845](https://github.com/ifconfig-me/CVE-2023-36845)
 - [e11i0t4lders0n/CVE-2023-36845](https://github.com/e11i0t4lders0n/CVE-2023-36845)
 - [Vignesh2712/Automation-for-Juniper-cve-2023-36845](https://github.com/Vignesh2712/Automation-for-Juniper-cve-2023-36845)
 
@@ -24538,7 +24541,7 @@
 - [pizza-power/motioneye-authenticated-RCE](https://github.com/pizza-power/motioneye-authenticated-RCE)
 
 ### CVE-2021-44270
-- [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
+- [pinpinsec/CVE-2021-44270](https://github.com/pinpinsec/CVE-2021-44270)
 
 ### CVE-2021-44428 (2021-11-29)
 
@@ -28334,7 +28337,6 @@
 </code>
 
 - [networksecure/CVE-2020-14064](https://github.com/networksecure/CVE-2020-14064)
-- [pinpinsec/Icewarp-Mail-Server-12.3.0.1-incorrect_access_control-](https://github.com/pinpinsec/Icewarp-Mail-Server-12.3.0.1-incorrect_access_control-)
 
 ### CVE-2020-14065 (2020-07-15)
 
@@ -28342,7 +28344,7 @@
 </code>
 
 - [networksecure/CVE-2020-14065](https://github.com/networksecure/CVE-2020-14065)
-- [pinpinsec/Icewarp-Email-Server-12.3.0.1-unlimited_file_upload](https://github.com/pinpinsec/Icewarp-Email-Server-12.3.0.1-unlimited_file_upload)
+- [pinpinsec/CVE-2020-14065](https://github.com/pinpinsec/CVE-2020-14065)
 
 ### CVE-2020-14066 (2020-07-15)
 
@@ -28350,7 +28352,7 @@
 </code>
 
 - [networksecure/CVE-2020-14066](https://github.com/networksecure/CVE-2020-14066)
-- [pinpinsec/Icewarp-Email-Server-12.3.0.1-insecure_permissions](https://github.com/pinpinsec/Icewarp-Email-Server-12.3.0.1-insecure_permissions)
+- [pinpinsec/CVE-2020-14066](https://github.com/pinpinsec/CVE-2020-14066)
 
 ### CVE-2020-14144 (2020-10-16)
 
@@ -37697,6 +37699,7 @@
 - [johnlaurance/CVE-2018-25031-test2](https://github.com/johnlaurance/CVE-2018-25031-test2)
 - [geozin/POC-CVE-2018-25031](https://github.com/geozin/POC-CVE-2018-25031)
 - [h2oa/CVE-2018-25031](https://github.com/h2oa/CVE-2018-25031)
+- [natpakun/SSRF-CVE-2018-25031-](https://github.com/natpakun/SSRF-CVE-2018-25031-)
 
 ### CVE-2018-25032 (2022-03-25)
 
@@ -44626,6 +44629,13 @@
 </code>
 
 - [Naramsim/Offensive](https://github.com/Naramsim/Offensive)
+
+### CVE-2008-3531 (2008-09-05)
+
+<code>Stack-based buffer overflow in sys/kern/vfs_mount.c in the kernel in FreeBSD 7.0 and 7.1, when vfs.usermount is enabled, allows local users to gain privileges via a crafted (1) mount or (2) nmount system call, related to copying of &quot;user defined data&quot; in &quot;certain error conditions.&quot;
+</code>
+
+- [test-one9/ps4-11.50.github.io](https://github.com/test-one9/ps4-11.50.github.io)
 
 ### CVE-2008-4109 (2008-09-17)
 
