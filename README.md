@@ -1386,6 +1386,13 @@
 
 - [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
 
+### CVE-2024-22198 (2024-01-11)
+
+<code>Nginx-UI is a web interface to manage Nginx configurations. It is vulnerable to arbitrary command execution by abusing the configuration settings. The `Home &gt; Preference` page exposes a list of system settings such as `Run Mode`, `Jwt Secret`, `Node Secret` and `Terminal Start Command`. While the UI doesn't allow users to modify the `Terminal Start Command` setting, it is possible to do so by sending a request to the API. This issue may lead to authenticated remote code execution, privilege escalation, and information disclosure. This vulnerability has been patched in version 2.0.0.beta.9.
+</code>
+
+- [xiw1ll/CVE-2024-22198_Checker](https://github.com/xiw1ll/CVE-2024-22198_Checker)
+
 ### CVE-2024-22243 (2024-02-23)
 
 <code>Applications that use UriComponentsBuilder to parse an externally provided URL (e.g. through a query parameter) AND perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html  attack or to a SSRF attack if the URL is used after passing validation checks.\n
@@ -3326,7 +3333,7 @@
 - [Mr-xn/CVE-2024-36401](https://github.com/Mr-xn/CVE-2024-36401)
 - [zgimszhd61/CVE-2024-36401](https://github.com/zgimszhd61/CVE-2024-36401)
 - [jakabakos/CVE-2024-36401-GeoServer-RCE](https://github.com/jakabakos/CVE-2024-36401-GeoServer-RCE)
-- [MInggongK/geoserver-](https://github.com/MInggongK/geoserver-)
+- [ahisec/geoserver-](https://github.com/ahisec/geoserver-)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -3619,7 +3626,11 @@
 
 - [bigb0x/CVE-2024-40348](https://github.com/bigb0x/CVE-2024-40348)
 
-### CVE-2024-40422
+### CVE-2024-40422 (2024-07-24)
+
+<code>The snapshot_path parameter in the /api/get-browser-snapshot endpoint in stitionai devika v1 is susceptible to a path traversal attack. An attacker can manipulate the snapshot_path parameter to traverse directories and access sensitive files on the server. This can potentially lead to unauthorized access to critical system files and compromise the confidentiality and integrity of the system.
+</code>
+
 - [alpernae/CVE-2024-40422](https://github.com/alpernae/CVE-2024-40422)
 
 ### CVE-2024-40492 (2024-07-17)
@@ -3664,7 +3675,11 @@
 
 - [d0rb/CVE-2024-41107](https://github.com/d0rb/CVE-2024-41107)
 
-### CVE-2024-41662
+### CVE-2024-41662 (2024-07-24)
+
+<code>VNote is a note-taking platform. A Cross-Site Scripting (XSS) vulnerability has been identified in the Markdown rendering functionality of versions 3.18.1 and prior of the VNote note-taking application. This vulnerability allows the injection and execution of arbitrary JavaScript code through which remote code execution can be achieved. A patch for this issue is available at commit f1af78573a0ef51d6ef6a0bc4080cddc8f30a545. Other mitigation strategies include implementing rigorous input sanitization for all Markdown content and utilizing a secure Markdown parser that appropriately escapes or strips potentially dangerous content.
+</code>
+
 - [sh3bu/CVE-2024-41662](https://github.com/sh3bu/CVE-2024-41662)
 
 ### CVE-2024-65230
@@ -21561,6 +21576,7 @@
 - [sealldeveloper/CVE-2021-31630-PoC](https://github.com/sealldeveloper/CVE-2021-31630-PoC)
 - [junnythemarksman/CVE-2021-31630](https://github.com/junnythemarksman/CVE-2021-31630)
 - [adibabdala123/cve-2021-31630](https://github.com/adibabdala123/cve-2021-31630)
+- [manuelsantosiglesias/CVE-2021-31630](https://github.com/manuelsantosiglesias/CVE-2021-31630)
 
 ### CVE-2021-31728 (2021-05-17)
 
@@ -23976,7 +23992,6 @@
 - [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
 - [yasindce1998/grafana-cve-2021-43798](https://github.com/yasindce1998/grafana-cve-2021-43798)
-- [BJLIYANLIANG/CVE-2021-43798-Grafana-File-Read](https://github.com/BJLIYANLIANG/CVE-2021-43798-Grafana-File-Read)
 - [hupe1980/CVE-2021-43798](https://github.com/hupe1980/CVE-2021-43798)
 - [G01d3nW01f/CVE-2021-43798](https://github.com/G01d3nW01f/CVE-2021-43798)
 - [mauricelambert/LabAutomationCVE-2021-43798](https://github.com/mauricelambert/LabAutomationCVE-2021-43798)
