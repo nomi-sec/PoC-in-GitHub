@@ -3680,6 +3680,13 @@
 
 - [d0rb/CVE-2024-41107](https://github.com/d0rb/CVE-2024-41107)
 
+### CVE-2024-41110 (2024-07-24)
+
+<code>Moby is an open-source project created by Docker for software containerization. A security vulnerability has been detected in certain versions of Docker Engine, which could allow an attacker to bypass authorization plugins (AuthZ) under specific circumstances. The base likelihood of this being exploited is low.\n\nUsing a specially-crafted API request, an Engine API client could make the daemon forward the request or response to an authorization plugin without the body. In certain circumstances, the authorization plugin may allow a request which it would have otherwise denied if the body had been forwarded to it.\n\nA security issue was discovered In 2018, where an attacker could bypass AuthZ plugins using a specially crafted API request. This could lead to unauthorized actions, including privilege escalation. Although this issue was fixed in Docker Engine v18.09.1 in January 2019, the fix was not carried forward to later major versions, resulting in a regression. Anyone who depends on authorization plugins that introspect the request and/or response body to make access control decisions is potentially impacted.\n\nDocker EE v19.03.x and all versions of Mirantis Container Runtime are not vulnerable.\n\ndocker-ce v27.1.1 containes patches to fix the vulnerability. Patches have also been merged into the master, 19.0, 20.0, 23.0, 24.0, 25.0, 26.0, and 26.1 release branches. If one is unable to upgrade immediately, avoid using AuthZ plugins and/or restrict access to the Docker API to trusted parties, following the principle of least privilege.
+</code>
+
+- [vvpoglazov/cve-2024-41110-checker](https://github.com/vvpoglazov/cve-2024-41110-checker)
+
 ### CVE-2024-41662 (2024-07-24)
 
 <code>VNote is a note-taking platform. A Cross-Site Scripting (XSS) vulnerability has been identified in the Markdown rendering functionality of versions 3.18.1 and prior of the VNote note-taking application. This vulnerability allows the injection and execution of arbitrary JavaScript code through which remote code execution can be achieved. A patch for this issue is available at commit f1af78573a0ef51d6ef6a0bc4080cddc8f30a545. Other mitigation strategies include implementing rigorous input sanitization for all Markdown content and utilizing a secure Markdown parser that appropriately escapes or strips potentially dangerous content.
@@ -5117,6 +5124,7 @@
 - [Trackflaw/CVE-2023-7028-Docker](https://github.com/Trackflaw/CVE-2023-7028-Docker)
 - [mochammadrafi/CVE-2023-7028](https://github.com/mochammadrafi/CVE-2023-7028)
 - [hackeremmen/gitlab-exploit](https://github.com/hackeremmen/gitlab-exploit)
+- [soltanali0/CVE-2023-7028](https://github.com/soltanali0/CVE-2023-7028)
 
 ### CVE-2023-7172 (2023-12-30)
 
@@ -27351,6 +27359,13 @@
 </code>
 
 - [john-dooe/CVE-2020-9472](https://github.com/john-dooe/CVE-2020-9472)
+
+### CVE-2020-9480 (2020-06-23)
+
+<code>In Apache Spark 2.4.5 and earlier, a standalone resource manager's master may be configured to require authentication (spark.authenticate) via a shared secret. When enabled, however, a specially-crafted RPC to the master can succeed in starting an application's resources on the Spark cluster, even without the shared key. This can be leveraged to execute shell commands on the host machine. This does not affect Spark clusters using other resource managers (YARN, Mesos, etc).
+</code>
+
+- [XiaoShaYu617/CVE-2020-9480](https://github.com/XiaoShaYu617/CVE-2020-9480)
 
 ### CVE-2020-9483 (2020-06-30)
 
