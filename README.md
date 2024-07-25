@@ -759,6 +759,8 @@
 - [bibo318/CVE-2024-4577-RCE-ATTACK](https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK)
 - [waived/CVE-2024-4577-PHP-RCE](https://github.com/waived/CVE-2024-4577-PHP-RCE)
 - [nNoSuger/CVE-2024-4577](https://github.com/nNoSuger/CVE-2024-4577)
+- [a-roshbaik/CVE-2024-4577](https://github.com/a-roshbaik/CVE-2024-4577)
+- [a-roshbaik/CVE-2024-4577-PHP-RCE](https://github.com/a-roshbaik/CVE-2024-4577-PHP-RCE)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -1153,6 +1155,7 @@
 
 - [momika233/CVE-2024-21006](https://github.com/momika233/CVE-2024-21006)
 - [lightr3d/CVE-2024-21006_jar](https://github.com/lightr3d/CVE-2024-21006_jar)
+- [dadvlingd/CVE-2024-21006](https://github.com/dadvlingd/CVE-2024-21006)
 
 ### CVE-2024-21107 (2024-04-16)
 
