@@ -1042,6 +1042,7 @@
 - [Jhonsonwannaa/CVE-2024-6387](https://github.com/Jhonsonwannaa/CVE-2024-6387)
 - [ThatNotEasy/CVE-2024-6387](https://github.com/ThatNotEasy/CVE-2024-6387)
 - [W1hithat/CVE-2024-6387](https://github.com/W1hithat/CVE-2024-6387)
+- [prelearn-code/CVE-2024-6387](https://github.com/prelearn-code/CVE-2024-6387)
 
 ### CVE-2024-6666 (2024-07-11)
 
@@ -1747,6 +1748,7 @@
 - [mil4ne/CVE-2024-23897-Jenkins-4.441](https://github.com/mil4ne/CVE-2024-23897-Jenkins-4.441)
 - [Maalfer/CVE-2024-23897](https://github.com/Maalfer/CVE-2024-23897)
 - [Surko888/Surko-Exploit-Jenkins-CVE-2024-23897](https://github.com/Surko888/Surko-Exploit-Jenkins-CVE-2024-23897)
+- [AnastasiaStill/CVE-2024-23897](https://github.com/AnastasiaStill/CVE-2024-23897)
 
 ### CVE-2024-24034 (2024-02-08)
 
