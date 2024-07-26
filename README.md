@@ -3093,7 +3093,6 @@
 - [bughuntar/CVE-2024-34102](https://github.com/bughuntar/CVE-2024-34102)
 - [bughuntar/CVE-2024-34102-Python](https://github.com/bughuntar/CVE-2024-34102-Python)
 - [Phantom-IN/CVE-2024-34102](https://github.com/Phantom-IN/CVE-2024-34102)
-- [ex-ARnX/CVE-2024-34102-PoC](https://github.com/ex-ARnX/CVE-2024-34102-PoC)
 
 ### CVE-2024-34220 (-)
 
@@ -3533,7 +3532,7 @@
 
 ### CVE-2024-39031 (2024-07-09)
 
-<code>In Silverpeas Core &lt;= 6.3.5, inside of mes agendas a user can create a new event and add it to his calendar. The user can also add other users to the event from the same domain, including administrator. A normal user can create an event with XSS payload inside “Titre” and “Description” parameters and add the administrator or any user to the event. When the other user (victim) visits his own profile (even without clicking on the event) the payload will be executed on the victim side.
+<code>In Silverpeas Core &lt;= 6.3.5, in Mes Agendas, a user can create new events and add them to their calendar. Additionally, users can invite others from the same domain, including administrators, to these events. A standard user can inject an XSS payload into the &quot;Titre&quot; and &quot;Description&quot; fields when creating an event and then add the administrator or any user to the event. When the invited user (victim) views their own profile, the payload will be executed on their side, even if they do not click on the event.
 </code>
 
 - [toneemarqus/CVE-2024-39031](https://github.com/toneemarqus/CVE-2024-39031)
@@ -3623,7 +3622,18 @@
 
 - [sudo-subho/nepstech-xpon-router-CVE-2024-40119](https://github.com/sudo-subho/nepstech-xpon-router-CVE-2024-40119)
 
-### CVE-2024-40324
+### CVE-2024-40318 (2024-07-25)
+
+<code>An arbitrary file upload vulnerability in Webkul Qloapps v1.6.0.0 allows attackers to execute arbitrary code via uploading a crafted file.
+</code>
+
+- [3v1lC0d3/RCE-QloApps-CVE-2024-40318](https://github.com/3v1lC0d3/RCE-QloApps-CVE-2024-40318)
+
+### CVE-2024-40324 (2024-07-25)
+
+<code>A CRLF injection vulnerability in E-Staff v5.1 allows attackers to insert Carriage Return (CR) and Line Feed (LF) characters into input fields, leading to HTTP response splitting and header manipulation.
+</code>
+
 - [aleksey-vi/CVE-2024-40324](https://github.com/aleksey-vi/CVE-2024-40324)
 
 ### CVE-2024-40348 (2024-07-20)
