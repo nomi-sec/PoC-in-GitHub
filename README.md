@@ -1992,6 +1992,7 @@
 - [SalehLardhi/CVE-2024-24919](https://github.com/SalehLardhi/CVE-2024-24919)
 - [ShadowByte1/CVE-2024-24919](https://github.com/ShadowByte1/CVE-2024-24919)
 - [H3KEY/CVE-2024-24919](https://github.com/H3KEY/CVE-2024-24919)
+- [Jutrm/cve-2024-24919](https://github.com/Jutrm/cve-2024-24919)
 
 ### CVE-2024-25092 (2024-06-09)
 
@@ -3698,6 +3699,7 @@
 </code>
 
 - [vvpoglazov/cve-2024-41110-checker](https://github.com/vvpoglazov/cve-2024-41110-checker)
+- [secsaburo/CVE-2024-41110-](https://github.com/secsaburo/CVE-2024-41110-)
 
 ### CVE-2024-41662 (2024-07-24)
 
@@ -21603,6 +21605,7 @@
 - [junnythemarksman/CVE-2021-31630](https://github.com/junnythemarksman/CVE-2021-31630)
 - [adibabdala123/cve-2021-31630](https://github.com/adibabdala123/cve-2021-31630)
 - [manuelsantosiglesias/CVE-2021-31630](https://github.com/manuelsantosiglesias/CVE-2021-31630)
+- [FlojBoj/CVE-2021-31630](https://github.com/FlojBoj/CVE-2021-31630)
 
 ### CVE-2021-31728 (2021-05-17)
 
@@ -24537,7 +24540,6 @@
 - [Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228](https://github.com/Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228)
 - [r3kind1e/Log4Shell-obfuscated-payloads-generator](https://github.com/r3kind1e/Log4Shell-obfuscated-payloads-generator)
 - [Phineas09/CVE-2021-44228](https://github.com/Phineas09/CVE-2021-44228)
-- [hassaanahmad813/log4j](https://github.com/hassaanahmad813/log4j)
 - [yuuki1967/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/yuuki1967/CVE-2021-44228-Apache-Log4j-Rce)
 - [moshuum/tf-log4j-aws-poc](https://github.com/moshuum/tf-log4j-aws-poc)
 - [jaehnri/CVE-2021-44228](https://github.com/jaehnri/CVE-2021-44228)
