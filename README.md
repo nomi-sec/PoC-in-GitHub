@@ -12629,6 +12629,7 @@
 </code>
 
 - [veritas501/CVE-2022-3910](https://github.com/veritas501/CVE-2022-3910)
+- [TLD1027/CVE-2022-3910](https://github.com/TLD1027/CVE-2022-3910)
 
 ### CVE-2022-3942 (2022-11-11)
 
