@@ -1114,6 +1114,7 @@
 
 - [nnotwen/Script-For-CVE-2024-20666](https://github.com/nnotwen/Script-For-CVE-2024-20666)
 - [invaderslabs/CVE-2024-20666](https://github.com/invaderslabs/CVE-2024-20666)
+- [HYZ3K/CVE-2024-20666](https://github.com/HYZ3K/CVE-2024-20666)
 
 ### CVE-2024-20696 (2024-01-09)
 
@@ -2686,6 +2687,7 @@
 - [NextGenPentesters/CVE-2024-30088-](https://github.com/NextGenPentesters/CVE-2024-30088-)
 - [Zombie-Kaiser/CVE-2024-30088-Windows-poc](https://github.com/Zombie-Kaiser/CVE-2024-30088-Windows-poc)
 - [exploits-forsale/collateral-damage](https://github.com/exploits-forsale/collateral-damage)
+- [Admin9961/CVE-2024-30088](https://github.com/Admin9961/CVE-2024-30088)
 
 ### CVE-2024-30212 (2024-05-28)
 
@@ -3701,6 +3703,9 @@
 - [vvpoglazov/cve-2024-41110-checker](https://github.com/vvpoglazov/cve-2024-41110-checker)
 - [secsaburo/CVE-2024-41110-](https://github.com/secsaburo/CVE-2024-41110-)
 - [PauloParoPP/CVE-2024-41110-SCAN](https://github.com/PauloParoPP/CVE-2024-41110-SCAN)
+
+### CVE-2024-41640
+- [alemusix/CVE-2024-41640](https://github.com/alemusix/CVE-2024-41640)
 
 ### CVE-2024-41662 (2024-07-24)
 
@@ -9617,6 +9622,7 @@
 - [0xfalafel/CraftCMS_CVE-2023-41892](https://github.com/0xfalafel/CraftCMS_CVE-2023-41892)
 - [diegaccio/Craft-CMS-Exploit](https://github.com/diegaccio/Craft-CMS-Exploit)
 - [acesoyeo/CVE-2023-41892](https://github.com/acesoyeo/CVE-2023-41892)
+- [CERTologists/HTTP-Request-for-PHP-object-injection-attack-on-CVE-2023-41892](https://github.com/CERTologists/HTTP-Request-for-PHP-object-injection-attack-on-CVE-2023-41892)
 
 ### CVE-2023-41991 (2023-09-21)
 
