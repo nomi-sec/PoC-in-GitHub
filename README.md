@@ -2903,6 +2903,7 @@
 - [TSY244/CVE-2024-32002-git-rce-father-poc](https://github.com/TSY244/CVE-2024-32002-git-rce-father-poc)
 - [TSY244/CVE-2024-32002-git-rce](https://github.com/TSY244/CVE-2024-32002-git-rce)
 - [blackninja23/CVE-2024-32002](https://github.com/blackninja23/CVE-2024-32002)
+- [daemon-reconfig/CVE-2024-32002](https://github.com/daemon-reconfig/CVE-2024-32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -22982,6 +22983,7 @@
 - [RedLeavesChilde/CVE-2021-40444](https://github.com/RedLeavesChilde/CVE-2021-40444)
 - [nvchungkma/CVE-2021-40444-Microsoft-Office-Word-Remote-Code-Execution-](https://github.com/nvchungkma/CVE-2021-40444-Microsoft-Office-Word-Remote-Code-Execution-)
 - [hqdat809/CVE-2021-40444](https://github.com/hqdat809/CVE-2021-40444)
+- [basim-ahmad/Follina-CVE-and-CVE-2021-40444](https://github.com/basim-ahmad/Follina-CVE-and-CVE-2021-40444)
 
 ### CVE-2021-40449 (2021-10-13)
 
@@ -24531,7 +24533,6 @@
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
 - [atlassion/log4j-exploit-builder](https://github.com/atlassion/log4j-exploit-builder)
-- [atlassion/RS4LOGJ-CVE-2021-44228](https://github.com/atlassion/RS4LOGJ-CVE-2021-44228)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
@@ -44271,6 +44272,13 @@
 
 
 ## 2010
+### CVE-2010-0219 (2010-10-18)
+
+<code>Apache Axis2, as used in dswsbobje.war in SAP BusinessObjects Enterprise XI 3.2, CA ARCserve D2D r15, and other products, has a default password of axis2 for the admin account, which makes it easier for remote attackers to execute arbitrary code by uploading a crafted web service.
+</code>
+
+- [veritas-rt/CVE-2010-0219](https://github.com/veritas-rt/CVE-2010-0219)
+
 ### CVE-2010-0232 (2010-01-21)
 
 <code>The kernel in Microsoft Windows NT 3.1 through Windows 7, including Windows 2000 SP4, Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista Gold, SP1, and SP2, and Windows Server 2008 Gold and SP2, when access to 16-bit applications is enabled on a 32-bit x86 platform, does not properly validate certain BIOS calls, which allows local users to gain privileges by crafting a VDM_TIB data structure in the Thread Environment Block (TEB), and then calling the NtVdmControl function to start the Windows Virtual DOS Machine (aka NTVDM) subsystem, leading to improperly handled exceptions involving the #GP trap handler (nt!KiTrap0D), aka &quot;Windows Kernel Exception Handler Vulnerability.&quot;
