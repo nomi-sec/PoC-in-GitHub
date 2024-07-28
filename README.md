@@ -2901,6 +2901,7 @@
 - [sysonlai/CVE-2024-32002-hook](https://github.com/sysonlai/CVE-2024-32002-hook)
 - [TSY244/CVE-2024-32002-git-rce-father-poc](https://github.com/TSY244/CVE-2024-32002-git-rce-father-poc)
 - [TSY244/CVE-2024-32002-git-rce](https://github.com/TSY244/CVE-2024-32002-git-rce)
+- [blackninja23/CVE-2024-32002](https://github.com/blackninja23/CVE-2024-32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -3246,6 +3247,13 @@
 </code>
 
 - [silent6trinity/CVE-2024-34582](https://github.com/silent6trinity/CVE-2024-34582)
+
+### CVE-2024-34693 (2024-06-20)
+
+<code>Improper Input Validation vulnerability in Apache Superset, allows for an authenticated attacker to create a MariaDB connection with local_infile enabled. If both the MariaDB server (off by default) and the local mysql client on the web server are set to allow for local infile, it's possible for the attacker to execute a specific MySQL/MariaDB SQL command that is able to read files from the server and insert their content on a MariaDB database table.This issue affects Apache Superset: before 3.1.3 and version 4.0.0\n\nUsers are recommended to upgrade to version 4.0.1 or 3.1.3, which fixes the issue.\n\n
+</code>
+
+- [mbadanoiu/CVE-2024-34693](https://github.com/mbadanoiu/CVE-2024-34693)
 
 ### CVE-2024-34716 (2024-05-14)
 
