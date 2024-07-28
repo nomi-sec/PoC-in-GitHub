@@ -3708,7 +3708,6 @@
 </code>
 
 - [vvpoglazov/cve-2024-41110-checker](https://github.com/vvpoglazov/cve-2024-41110-checker)
-- [secsaburo/CVE-2024-41110-](https://github.com/secsaburo/CVE-2024-41110-)
 - [PauloParoPP/CVE-2024-41110-SCAN](https://github.com/PauloParoPP/CVE-2024-41110-SCAN)
 
 ### CVE-2024-41640
@@ -7379,7 +7378,7 @@
 <code>In TeslaMate before 1.27.2, there is unauthorized access to port 4000 for remote viewing and operation of user data. After accessing the IP address for the TeslaMate instance, an attacker can switch the port to 3000 to enter Grafana for remote operations. At that time, the default username and password can be used to enter the Grafana management console without logging in, a related issue to CVE-2022-23126.
 </code>
 
-- [XC9409/CVE-2023-31634](https://github.com/XC9409/CVE-2023-31634)
+- [iSee857/CVE-2023-31634](https://github.com/iSee857/CVE-2023-31634)
 
 ### CVE-2023-31664 (2023-05-23)
 
