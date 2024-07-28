@@ -794,6 +794,7 @@
 - [zgimszhd61/CVE-2024-4879](https://github.com/zgimszhd61/CVE-2024-4879)
 - [ShadowByte1/CVE-2024-4879](https://github.com/ShadowByte1/CVE-2024-4879)
 - [Praison001/CVE-2024-4879-ServiceNow](https://github.com/Praison001/CVE-2024-4879-ServiceNow)
+- [NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning](https://github.com/NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning)
 
 ### CVE-2024-4883 (2024-06-25)
 
@@ -24691,7 +24692,7 @@
 - [g1thub3r1st4/CVE-2021-44909](https://github.com/g1thub3r1st4/CVE-2021-44909)
 
 ### CVE-2021-44910
-- [dockererr/CVE-2021-44910_SpringBlade](https://github.com/dockererr/CVE-2021-44910_SpringBlade)
+- [dockern/CVE-2021-44910_SpringBlade](https://github.com/dockern/CVE-2021-44910_SpringBlade)
 
 ### CVE-2021-45007 (2022-02-20)
 
@@ -45163,7 +45164,7 @@
 <code>Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
 </code>
 
-- [theseann/cve-2003-0282](https://github.com/theseann/cve-2003-0282)
+- [silasol/cve-2003-0282](https://github.com/silasol/cve-2003-0282)
 
 ### CVE-2003-0358 (2003-05-30)
 
