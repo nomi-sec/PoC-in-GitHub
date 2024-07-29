@@ -8,12 +8,26 @@
 
 - [UmVfX1BvaW50/CVE-2024-0015](https://github.com/UmVfX1BvaW50/CVE-2024-0015)
 
+### CVE-2024-0023 (2024-02-16)
+
+<code>In ConvertRGBToPlanarYUV of Codec2BufferUtils.cpp, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [AbrarKhan/G3_Frameworks_av_CVE-2024-0023](https://github.com/AbrarKhan/G3_Frameworks_av_CVE-2024-0023)
+
 ### CVE-2024-0039 (2024-03-11)
 
 <code>In attp_build_value_cmd of att_protocol.cc, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.
 </code>
 
 - [41yn14/CVE-2024-0039-Exploit](https://github.com/41yn14/CVE-2024-0039-Exploit)
+
+### CVE-2024-0040 (2024-02-16)
+
+<code>In setParameter of MtpPacket.cpp, there is a possible out of bounds read due to a heap buffer overflow. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0040](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0040)
 
 ### CVE-2024-0044 (2024-03-11)
 
@@ -25,6 +39,13 @@
 - [Re13orn/CVE-2024-0044-EXP](https://github.com/Re13orn/CVE-2024-0044-EXP)
 - [007CRIPTOGRAFIA/c-CVE-2024-0044](https://github.com/007CRIPTOGRAFIA/c-CVE-2024-0044)
 - [Kai2er/CVE-2024-0044-EXP](https://github.com/Kai2er/CVE-2024-0044-EXP)
+
+### CVE-2024-0049 (2024-03-11)
+
+<code>In multiple locations, there is a possible out of bounds write due to a heap buffer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User  interaction is not needed for exploitation.
+</code>
+
+- [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049)
 
 ### CVE-2024-0056 (2024-01-09)
 
@@ -882,13 +903,6 @@
 </code>
 
 - [Adikso/CVE-2024-5633](https://github.com/Adikso/CVE-2024-5633)
-
-### CVE-2024-5655 (2024-06-26)
-
-<code>An issue was discovered in GitLab CE/EE affecting all versions starting from 15.8 prior to 16.11.5, starting from 17.0 prior to 17.0.3, and starting from 17.1 prior to 17.1.1, which allows an attacker to trigger a pipeline as another user under certain circumstances.
-</code>
-
-- [VulnResearcher/CVE-2024-5655-Gitlab-CSRF-GraphQL](https://github.com/VulnResearcher/CVE-2024-5655-Gitlab-CSRF-GraphQL)
 
 ### CVE-2024-5735 (2024-06-28)
 
@@ -2905,6 +2919,7 @@
 - [blackninja23/CVE-2024-32002](https://github.com/blackninja23/CVE-2024-32002)
 - [daemon-reconfig/CVE-2024-32002](https://github.com/daemon-reconfig/CVE-2024-32002)
 - [HexDoesRandomShit/CVE-2024-32002](https://github.com/HexDoesRandomShit/CVE-2024-32002)
+- [charlesgargasson/CVE-2024-32002](https://github.com/charlesgargasson/CVE-2024-32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -3099,6 +3114,13 @@
 - [bughuntar/CVE-2024-34102](https://github.com/bughuntar/CVE-2024-34102)
 - [bughuntar/CVE-2024-34102-Python](https://github.com/bughuntar/CVE-2024-34102-Python)
 - [Phantom-IN/CVE-2024-34102](https://github.com/Phantom-IN/CVE-2024-34102)
+
+### CVE-2024-34144 (2024-05-02)
+
+<code>A sandbox bypass vulnerability involving crafted constructor bodies in Jenkins Script Security Plugin 1335.vf07d9ce377a_e and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM.
+</code>
+
+- [MXWXZ/CVE-2024-34144](https://github.com/MXWXZ/CVE-2024-34144)
 
 ### CVE-2024-34220 (-)
 
@@ -3612,7 +3634,7 @@
 <code>JupyterLab extension template is a  `copier` template for JupyterLab extensions. Repositories created using this template with `test` option include `update-integration-tests.yml` workflow which has an RCE vulnerability. Extension authors hosting their code on GitHub are urged to upgrade the template to the latest version. Users who made changes to `update-integration-tests.yml`, accept overwriting of this file and re-apply your changes later. Users may wish to temporarily disable GitHub Actions while working on the upgrade. We recommend rebasing all open pull requests from untrusted users as actions may run using the version from the `main` branch at the time when the pull request was created. Users who are upgrading from template version prior to 4.3.0 may wish to leave out proposed changes to the release workflow for now as it requires additional configuration.
 </code>
 
-- [LOURC0D3/CVE-2024-39700-test](https://github.com/LOURC0D3/CVE-2024-39700-test)
+- [10urc0de/CVE-2024-39700-PoC](https://github.com/10urc0de/CVE-2024-39700-PoC)
 
 ### CVE-2024-39844 (2024-07-03)
 
@@ -3677,6 +3699,9 @@
 </code>
 
 - [minendie/POC_CVE-2024-40492](https://github.com/minendie/POC_CVE-2024-40492)
+
+### CVE-2024-40498
+- [Dirac231/CVE-2024-40498](https://github.com/Dirac231/CVE-2024-40498)
 
 ### CVE-2024-40506
 - [Jansen-C-Moreira/CVE-2024-40506](https://github.com/Jansen-C-Moreira/CVE-2024-40506)
@@ -4459,7 +4484,7 @@
 <code>In PHP version 8.0.* before 8.0.30,  8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE. \n\n
 </code>
 
-- [o2vi1te/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK](https://github.com/o2vi1te/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK)
+- [Nfttkcauzy/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK](https://github.com/Nfttkcauzy/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK)
 - [jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824)
 - [m1sn0w/CVE-2023-3824](https://github.com/m1sn0w/CVE-2023-3824)
 
@@ -24544,7 +24569,6 @@
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
-- [atlassion/log4j-exploit-builder](https://github.com/atlassion/log4j-exploit-builder)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
@@ -24815,6 +24839,13 @@
 
 - [86x/CVE-2021-45416](https://github.com/86x/CVE-2021-45416)
 - [dnr6419/CVE-2021-45416](https://github.com/dnr6419/CVE-2021-45416)
+
+### CVE-2021-45428 (2022-01-03)
+
+<code>TLR-2005KSH is affected by an incorrect access control vulnerability. THe PUT method is enabled so an attacker can upload arbitrary files including HTML and CGI formats.
+</code>
+
+- [projectforsix/CVE-2021-45428-Defacer](https://github.com/projectforsix/CVE-2021-45428-Defacer)
 
 ### CVE-2021-45468 (2022-01-14)
 
