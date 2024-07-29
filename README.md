@@ -188,8 +188,8 @@
 
 - [gbrsh/CVE-2024-1071](https://github.com/gbrsh/CVE-2024-1071)
 - [Trackflaw/CVE-2024-1071-Docker](https://github.com/Trackflaw/CVE-2024-1071-Docker)
-- [Nadjibbtabani/CVE-2024-1071](https://github.com/Nadjibbtabani/CVE-2024-1071)
-- [Nadjibbtabani/CVE-2024-1071-Docker](https://github.com/Nadjibbtabani/CVE-2024-1071-Docker)
+- [Matrexdz/CVE-2024-1071](https://github.com/Matrexdz/CVE-2024-1071)
+- [Matrexdz/CVE-2024-1071-Docker](https://github.com/Matrexdz/CVE-2024-1071-Docker)
 
 ### CVE-2024-1086 (2024-01-31)
 
@@ -3649,6 +3649,7 @@
 </code>
 
 - [rxerium/CVE-2024-39929](https://github.com/rxerium/CVE-2024-39929)
+- [michael-david-fry/CVE-2024-39929](https://github.com/michael-david-fry/CVE-2024-39929)
 
 ### CVE-2024-39943 (2024-07-04)
 
@@ -3746,7 +3747,18 @@
 - [vvpoglazov/cve-2024-41110-checker](https://github.com/vvpoglazov/cve-2024-41110-checker)
 - [PauloParoPP/CVE-2024-41110-SCAN](https://github.com/PauloParoPP/CVE-2024-41110-SCAN)
 
-### CVE-2024-41640
+### CVE-2024-41628 (2024-07-26)
+
+<code>Directory Traversal vulnerability in Severalnines Cluster Control 1.9.8 before 1.9.8-9778, 2.0.0 before 2.0.0-9779, and 2.1.0 before 2.1.0-9780 allows a remote attacker to include and display file content in an HTTP request via the CMON API.
+</code>
+
+- [Redshift-CyberSecurity/CVE-2024-41628](https://github.com/Redshift-CyberSecurity/CVE-2024-41628)
+
+### CVE-2024-41640 (2024-07-29)
+
+<code>Cross Site Scripting (XSS) vulnerability in AML Surety Eco up to 3.5 allows an attacker to run arbitrary code via crafted GET request using the id parameter.
+</code>
+
 - [alemusix/CVE-2024-41640](https://github.com/alemusix/CVE-2024-41640)
 
 ### CVE-2024-41662 (2024-07-24)
@@ -39052,8 +39064,8 @@
 <code>Internet Explorer in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8.1 and Windows RT 8.1, and Windows Server 2012 and R2 allow an attacker to detect specific files on the user's computer when affected Microsoft scripting engines do not properly handle objects in memory, aka &quot;Microsoft Browser Information Disclosure Vulnerability&quot;.
 </code>
 
-- [Lynggaard91/WindowsServerFix_CVE-2017-8529F](https://github.com/Lynggaard91/WindowsServerFix_CVE-2017-8529F)
 - [sfitpro/cve-2017-8529](https://github.com/sfitpro/cve-2017-8529)
+- [kaddirov/windows2016fixCVE-2017-8529](https://github.com/kaddirov/windows2016fixCVE-2017-8529)
 
 ### CVE-2017-8543 (2017-06-15)
 
