@@ -2123,6 +2123,7 @@
 - [ivanbg2004/0BL1V10N-CVE-2024-25600-Bricks-Builder-plugin-for-WordPress](https://github.com/ivanbg2004/0BL1V10N-CVE-2024-25600-Bricks-Builder-plugin-for-WordPress)
 - [k3lpi3b4nsh33/CVE-2024-25600](https://github.com/k3lpi3b4nsh33/CVE-2024-25600)
 - [WanLiChangChengWanLiChang/CVE-2024-25600](https://github.com/WanLiChangChengWanLiChang/CVE-2024-25600)
+- [KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress](https://github.com/KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress)
 
 ### CVE-2024-25723 (2024-02-27)
 
@@ -3726,6 +3727,13 @@
 
 ### CVE-2024-40512
 - [Jansen-C-Moreira/CVE-2024-40512](https://github.com/Jansen-C-Moreira/CVE-2024-40512)
+
+### CVE-2024-40617 (2024-07-17)
+
+<code>Path traversal vulnerability exists in FUJITSU Network Edgiot GW1500 (M2M-GW for FENICS). If a remote authenticated attacker with User Class privilege sends a specially crafted request to the affected product, access restricted files containing sensitive information may be accessed. As a result, Administrator Class privileges of the product may be hijacked.
+</code>
+
+- [KyssK00L/CVE-2024-40617](https://github.com/KyssK00L/CVE-2024-40617)
 
 ### CVE-2024-40725 (2024-07-18)
 
@@ -7424,7 +7432,7 @@
 <code>A Regular Expression Denial of Service (ReDoS) issue was discovered in the sanitize_html function of redcloth gem v4.0.0. This vulnerability allows attackers to cause a Denial of Service (DoS) via supplying a crafted payload.
 </code>
 
-- [e23e/CVE-2023-31606](https://github.com/e23e/CVE-2023-31606)
+- [merbinr/CVE-2023-31606](https://github.com/merbinr/CVE-2023-31606)
 
 ### CVE-2023-31634 (2024-03-27)
 
@@ -19701,7 +19709,7 @@
 - [hohn/codeql-sample-polkit](https://github.com/hohn/codeql-sample-polkit)
 - [ck00004/CVE-2021-4034](https://github.com/ck00004/CVE-2021-4034)
 - [LJP-TW/CVE-2021-4034](https://github.com/LJP-TW/CVE-2021-4034)
-- [JoaoFukuda/CVE-2021-4034_POC](https://github.com/JoaoFukuda/CVE-2021-4034_POC)
+- [fnknda/CVE-2021-4034_POC](https://github.com/fnknda/CVE-2021-4034_POC)
 - [Tanmay-N/CVE-2021-4034](https://github.com/Tanmay-N/CVE-2021-4034)
 - [hahaleyile/CVE-2021-4034](https://github.com/hahaleyile/CVE-2021-4034)
 - [movvamrocks/PwnKit-CVE-2021-4034](https://github.com/movvamrocks/PwnKit-CVE-2021-4034)
