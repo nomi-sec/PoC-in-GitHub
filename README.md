@@ -1058,6 +1058,7 @@
 - [ThatNotEasy/CVE-2024-6387](https://github.com/ThatNotEasy/CVE-2024-6387)
 - [W1hithat/CVE-2024-6387](https://github.com/W1hithat/CVE-2024-6387)
 - [prelearn-code/CVE-2024-6387](https://github.com/prelearn-code/CVE-2024-6387)
+- [l-urk/CVE-2024-6387](https://github.com/l-urk/CVE-2024-6387)
 
 ### CVE-2024-6666 (2024-07-11)
 
@@ -3114,6 +3115,7 @@
 - [bughuntar/CVE-2024-34102](https://github.com/bughuntar/CVE-2024-34102)
 - [bughuntar/CVE-2024-34102-Python](https://github.com/bughuntar/CVE-2024-34102-Python)
 - [Phantom-IN/CVE-2024-34102](https://github.com/Phantom-IN/CVE-2024-34102)
+- [etx-Arn/CVE-2024-34102-RCE](https://github.com/etx-Arn/CVE-2024-34102-RCE)
 
 ### CVE-2024-34144 (2024-05-02)
 
@@ -7875,7 +7877,7 @@
 <code>Lost and Found Information System v1.0 was discovered to contain a SQL injection vulnerability via the component /php-lfis/admin/?page=system_info/contact_information.
 </code>
 
-- [FuckingHack3r/CVE-2023-33592](https://github.com/FuckingHack3r/CVE-2023-33592)
+- [ChineseOldboy/CVE-2023-33592](https://github.com/ChineseOldboy/CVE-2023-33592)
 
 ### CVE-2023-33617 (2023-05-23)
 
@@ -9823,6 +9825,13 @@
 </code>
 
 - [d0rb/CVE-2023-42931](https://github.com/d0rb/CVE-2023-42931)
+
+### CVE-2023-43040 (2024-05-13)
+
+<code>IBM Spectrum Fusion HCI 2.5.2 through 2.7.2 could allow an attacker to perform unauthorized actions in RGW for Ceph due to improper bucket access.  IBM X-Force ID:  266807.
+</code>
+
+- [riza/CVE-2023-43040](https://github.com/riza/CVE-2023-43040)
 
 ### CVE-2023-43115 (2023-09-18)
 
