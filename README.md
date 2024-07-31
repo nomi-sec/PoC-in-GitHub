@@ -667,6 +667,13 @@
 - [truonghuuphuc/CVE-2024-4295-Poc](https://github.com/truonghuuphuc/CVE-2024-4295-Poc)
 - [cve-2024/CVE-2024-4295-Poc](https://github.com/cve-2024/CVE-2024-4295-Poc)
 
+### CVE-2024-4320 (2024-06-06)
+
+<code>A remote code execution (RCE) vulnerability exists in the '/install_extension' endpoint of the parisneo/lollms-webui application, specifically within the `@router.post(&quot;/install_extension&quot;)` route handler. The vulnerability arises due to improper handling of the `name` parameter in the `ExtensionBuilder().build_extension()` method, which allows for local file inclusion (LFI) leading to arbitrary code execution. An attacker can exploit this vulnerability by crafting a malicious `name` parameter that causes the server to load and execute a `__init__.py` file from an arbitrary location, such as the upload directory for discussions. This vulnerability affects the latest version of parisneo/lollms-webui and can lead to remote code execution without requiring user interaction, especially when the application is exposed to an external endpoint or operated in headless mode.
+</code>
+
+- [bolkv/CVE-2024-4320](https://github.com/bolkv/CVE-2024-4320)
+
 ### CVE-2024-4323 (2024-05-20)
 
 <code>A memory corruption vulnerability in Fluent Bit versions 2.0.7 thru 3.0.3. This issue lies in the embedded http server’s parsing of trace requests and may result in denial of service conditions, information disclosure, or remote code execution.
@@ -782,6 +789,7 @@
 - [nNoSuger/CVE-2024-4577](https://github.com/nNoSuger/CVE-2024-4577)
 - [a-roshbaik/CVE-2024-4577](https://github.com/a-roshbaik/CVE-2024-4577)
 - [a-roshbaik/CVE-2024-4577-PHP-RCE](https://github.com/a-roshbaik/CVE-2024-4577-PHP-RCE)
+- [Jcccccx/CVE-2024-4577](https://github.com/Jcccccx/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -2010,6 +2018,7 @@
 - [ShadowByte1/CVE-2024-24919](https://github.com/ShadowByte1/CVE-2024-24919)
 - [H3KEY/CVE-2024-24919](https://github.com/H3KEY/CVE-2024-24919)
 - [Jutrm/cve-2024-24919](https://github.com/Jutrm/cve-2024-24919)
+- [smkxt1/CVE-2024-24919](https://github.com/smkxt1/CVE-2024-24919)
 
 ### CVE-2024-25092 (2024-06-09)
 
@@ -2924,6 +2933,8 @@
 - [charlesgargasson/CVE-2024-32002](https://github.com/charlesgargasson/CVE-2024-32002)
 - [NishanthAnand21/CVE-2024-32002-PoC](https://github.com/NishanthAnand21/CVE-2024-32002-PoC)
 - [tiyeume25112004/CVE-2024-32002](https://github.com/tiyeume25112004/CVE-2024-32002)
+- [mprunet/cve-2024-32002-malicious](https://github.com/mprunet/cve-2024-32002-malicious)
+- [mprunet/cve-2024-32002-pull](https://github.com/mprunet/cve-2024-32002-pull)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -2939,6 +2950,13 @@
 </code>
 
 - [huseyinstif/CVE-2024-32030-Nuclei-Template](https://github.com/huseyinstif/CVE-2024-32030-Nuclei-Template)
+
+### CVE-2024-32104 (2024-04-15)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in XLPlugins NextMove Lite.This issue affects NextMove Lite: from n/a through 2.18.1.\n\n
+</code>
+
+- [Cerberus-HiproPlus/CVE-2024-32104](https://github.com/Cerberus-HiproPlus/CVE-2024-32104)
 
 ### CVE-2024-32113 (2024-05-08)
 
@@ -3408,6 +3426,9 @@
 </code>
 
 - [phtcloud-dev/CVE-2024-36837](https://github.com/phtcloud-dev/CVE-2024-36837)
+
+### CVE-2024-36842
+- [abbiy/Backdooring-Oncord-Android-Sterio-](https://github.com/abbiy/Backdooring-Oncord-Android-Sterio-)
 
 ### CVE-2024-36991 (2024-07-01)
 
@@ -13841,6 +13862,7 @@
 - [umakant76705/CVE-2022-22978](https://github.com/umakant76705/CVE-2022-22978)
 - [Raghvendra1207/CVE-2022-22978](https://github.com/Raghvendra1207/CVE-2022-22978)
 - [wan9xx/CVE-2022-22978-demo](https://github.com/wan9xx/CVE-2022-22978-demo)
+- [BoB13-Opensource-Contribution-Team9/CVE-2022-22978](https://github.com/BoB13-Opensource-Contribution-Team9/CVE-2022-22978)
 
 ### CVE-2022-22980 (2022-06-22)
 
@@ -23614,6 +23636,14 @@
 - [BassoNicolas/CVE-2021-42013](https://github.com/BassoNicolas/CVE-2021-42013)
 - [rafifdna/CVE-2021-42013](https://github.com/rafifdna/CVE-2021-42013)
 - [Jhonsonwannaa/cve-2021-42013-apache](https://github.com/Jhonsonwannaa/cve-2021-42013-apache)
+- [bananoname/cve-2021-42013](https://github.com/bananoname/cve-2021-42013)
+
+### CVE-2021-42056 (2022-06-24)
+
+<code>Thales Safenet Authentication Client (SAC) for Linux and Windows through 10.7.7 creates insecure temporary hid and lock files allowing a local attacker, through a symlink attack, to overwrite arbitrary files, and potentially achieve arbitrary command execution with high privileges.
+</code>
+
+- [z00z00z00/Safenet_SAC_CVE-2021-42056](https://github.com/z00z00z00/Safenet_SAC_CVE-2021-42056)
 
 ### CVE-2021-42063 (2021-12-14)
 
@@ -24887,7 +24917,6 @@
 - [jxpsx/CVE-2021-45232-RCE](https://github.com/jxpsx/CVE-2021-45232-RCE)
 - [wuppp/cve-2021-45232-exp](https://github.com/wuppp/cve-2021-45232-exp)
 - [dskho/CVE-2021-45232](https://github.com/dskho/CVE-2021-45232)
-- [xiju2003/-cve-2021-45232](https://github.com/xiju2003/-cve-2021-45232)
 - [GYLQ/CVE-2021-45232-RCE](https://github.com/GYLQ/CVE-2021-45232-RCE)
 - [fany0r/CVE-2021-45232-RCE](https://github.com/fany0r/CVE-2021-45232-RCE)
 - [yggcwhat/Demo](https://github.com/yggcwhat/Demo)
@@ -31101,6 +31130,13 @@
 
 - [StealYourCode/CVE-2019-1663](https://github.com/StealYourCode/CVE-2019-1663)
 - [abrumsen/CVE-2019-1663](https://github.com/abrumsen/CVE-2019-1663)
+
+### CVE-2019-1698 (2019-02-20)
+
+<code>A vulnerability in the web-based user interface of Cisco Internet of Things Field Network Director (IoT-FND) Software could allow an authenticated, remote attacker to gain read access to information that is stored on an affected system. The vulnerability is due to improper handling of XML External Entity (XXE) entries when parsing certain XML files. An attacker could exploit this vulnerability by importing a crafted XML file with malicious entries, which could allow the attacker to read files within the affected application. Versions prior to 4.4(0.26) are affected.
+</code>
+
+- [raytran54/CVE-2019-1698](https://github.com/raytran54/CVE-2019-1698)
 
 ### CVE-2019-1759 (2019-03-27)
 
