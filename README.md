@@ -167,13 +167,6 @@
 
 - [keru6k/Online-Admission-System-RCE-PoC](https://github.com/keru6k/Online-Admission-System-RCE-PoC)
 
-### CVE-2024-0844 (2024-02-02)
-
-<code>The Popup More Popups, Lightboxes, and more popup modules plugin for WordPress is vulnerable to Local File Inclusion in version 2.1.6 via the ycfChangeElementData() function. This makes it possible for authenticated attackers, with administrator-level access and above, to include and execute arbitrary files ending with &quot;Form.php&quot; on the server , allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
-</code>
-
-- [0x9567b/CVE-2024-0844](https://github.com/0x9567b/CVE-2024-0844)
-
 ### CVE-2024-0986 (2024-01-28)
 
 <code>Eine Schwachstelle wurde in Issabel PBX 4.0.0 ausgemacht. Sie wurde als kritisch eingestuft. Es geht hierbei um eine nicht näher spezifizierte Funktion der Datei /index.php?menu=asterisk_cli der Komponente Asterisk-Cli. Durch Beeinflussen des Arguments Command mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
@@ -1067,6 +1060,14 @@
 - [W1hithat/CVE-2024-6387](https://github.com/W1hithat/CVE-2024-6387)
 - [prelearn-code/CVE-2024-6387](https://github.com/prelearn-code/CVE-2024-6387)
 - [l-urk/CVE-2024-6387](https://github.com/l-urk/CVE-2024-6387)
+- [alex14324/ssh_poc2024](https://github.com/alex14324/ssh_poc2024)
+
+### CVE-2024-6536 (2024-07-30)
+
+<code>The Zephyr Project Manager WordPress plugin before 3.3.99 does not sanitise and escape some of its settings, which could allow high privilege users such as editors and admins to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)
+</code>
+
+- [apena-ba/CVE-2024-6536](https://github.com/apena-ba/CVE-2024-6536)
 
 ### CVE-2024-6666 (2024-07-11)
 
@@ -2933,8 +2934,6 @@
 - [charlesgargasson/CVE-2024-32002](https://github.com/charlesgargasson/CVE-2024-32002)
 - [NishanthAnand21/CVE-2024-32002-PoC](https://github.com/NishanthAnand21/CVE-2024-32002-PoC)
 - [tiyeume25112004/CVE-2024-32002](https://github.com/tiyeume25112004/CVE-2024-32002)
-- [mprunet/cve-2024-32002-malicious](https://github.com/mprunet/cve-2024-32002-malicious)
-- [mprunet/cve-2024-32002-pull](https://github.com/mprunet/cve-2024-32002-pull)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -3652,6 +3651,16 @@
 </code>
 
 - [efrann/CVE-2024-39250](https://github.com/efrann/CVE-2024-39250)
+
+### CVE-2024-39304 (2024-07-26)
+
+<code>ChurchCRM is an open-source church management system. Versions of the application prior to 5.9.2 are vulnerable to an authenticated SQL injection due to an improper sanitization of user input. Authentication is required, but no elevated privileges are necessary. This allows attackers to inject SQL statements directly into the database query due to inadequate sanitization of the EID parameter in in a GET request to `/GetText.php`. Version 5.9.2 patches the issue.
+</code>
+
+- [apena-ba/CVE-2024-39304](https://github.com/apena-ba/CVE-2024-39304)
+
+### CVE-2024-39306
+- [apena-ba/CVE-2024-39306](https://github.com/apena-ba/CVE-2024-39306)
 
 ### CVE-2024-39689 (2024-07-05)
 
@@ -11878,13 +11887,6 @@
 
 - [KTN1990/CVE-2022-0316_wordpress_multiple_themes_exploit](https://github.com/KTN1990/CVE-2022-0316_wordpress_multiple_themes_exploit)
 
-### CVE-2022-0320 (2022-02-01)
-
-<code>The Essential Addons for Elementor WordPress plugin before 5.0.5 does not validate and sanitise some template data before it them in include statements, which could allow unauthenticated attackers to perform Local File Inclusion attack and read arbitrary files on the server, this could also lead to RCE via user uploaded files or other LFI to RCE techniques.
-</code>
-
-- [0x9567b/CVE-2022-0320](https://github.com/0x9567b/CVE-2022-0320)
-
 ### CVE-2022-0332 (2022-01-25)
 
 <code>A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was identified in the h5p activity web service responsible for fetching user attempt data.
@@ -17442,6 +17444,7 @@
 </code>
 
 - [yosef0x01/CVE-2022-41544](https://github.com/yosef0x01/CVE-2022-41544)
+- [Sp3c73rSh4d0w/CVE-2022-41544](https://github.com/Sp3c73rSh4d0w/CVE-2022-41544)
 
 ### CVE-2022-41622 (2022-12-07)
 
