@@ -1225,6 +1225,7 @@
 - [varwara/CVE-2024-21338](https://github.com/varwara/CVE-2024-21338)
 - [Zombie-Kaiser/CVE-2024-21338-x64-build-](https://github.com/Zombie-Kaiser/CVE-2024-21338-x64-build-)
 - [tykawaii98/CVE-2024-21338_PoC](https://github.com/tykawaii98/CVE-2024-21338_PoC)
+- [Crowdfense/CVE-2024-21338](https://github.com/Crowdfense/CVE-2024-21338)
 
 ### CVE-2024-21345 (2024-02-13)
 
@@ -1275,6 +1276,7 @@
 - [olebris/CVE-2024-21413](https://github.com/olebris/CVE-2024-21413)
 - [DerZiad/CVE-2024-21413](https://github.com/DerZiad/CVE-2024-21413)
 - [Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape](https://github.com/Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape)
+- [HYZ3K/CVE-2024-21413](https://github.com/HYZ3K/CVE-2024-21413)
 
 ### CVE-2024-21514 (2024-06-22)
 
@@ -13223,6 +13225,7 @@
 - [Skipper7718/CVE-2022-21449-showcase](https://github.com/Skipper7718/CVE-2022-21449-showcase)
 - [davwwwx/CVE-2022-21449](https://github.com/davwwwx/CVE-2022-21449)
 - [AlexanderZinoni/CVE-2022-21449](https://github.com/AlexanderZinoni/CVE-2022-21449)
+- [HeyMrSalt/AIS3-2024-Project-D5Team](https://github.com/HeyMrSalt/AIS3-2024-Project-D5Team)
 
 ### CVE-2022-21500 (2022-05-19)
 
