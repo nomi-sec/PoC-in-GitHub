@@ -3138,6 +3138,7 @@
 - [bughuntar/CVE-2024-34102-Python](https://github.com/bughuntar/CVE-2024-34102-Python)
 - [Phantom-IN/CVE-2024-34102](https://github.com/Phantom-IN/CVE-2024-34102)
 - [etx-Arn/CVE-2024-34102-RCE](https://github.com/etx-Arn/CVE-2024-34102-RCE)
+- [etx-Arn/CVE-2024-34102-RCE-PoC](https://github.com/etx-Arn/CVE-2024-34102-RCE-PoC)
 
 ### CVE-2024-34144 (2024-05-02)
 
@@ -6685,7 +6686,7 @@
 - [ThatNotEasy/CVE-2023-27350](https://github.com/ThatNotEasy/CVE-2023-27350)
 - [Jenderal92/CVE-2023-27350](https://github.com/Jenderal92/CVE-2023-27350)
 - [ASG-CASTLE/CVE-2023-27350](https://github.com/ASG-CASTLE/CVE-2023-27350)
-- [rasan2001/CVE-2023-27350](https://github.com/rasan2001/CVE-2023-27350)
+- [rasan2001/CVE-2023-27350-Ongoing-Exploitation-of-PaperCut-Remote-Code-Execution-Vulnerability](https://github.com/rasan2001/CVE-2023-27350-Ongoing-Exploitation-of-PaperCut-Remote-Code-Execution-Vulnerability)
 
 ### CVE-2023-27363 (2024-05-03)
 
@@ -30807,7 +30808,7 @@
 - [Ravaan21/Bluekeep-Hunter](https://github.com/Ravaan21/Bluekeep-Hunter)
 - [davidfortytwo/bluekeep](https://github.com/davidfortytwo/bluekeep)
 - [tranqtruong/Detect-BlueKeep](https://github.com/tranqtruong/Detect-BlueKeep)
-- [rasan2001/CVE-2019-0708](https://github.com/rasan2001/CVE-2019-0708)
+- [rasan2001/Microsoft-Remote-Desktop-Services-Remote-Code-Execution-Vulnerability-CVE-2019-0708](https://github.com/rasan2001/Microsoft-Remote-Desktop-Services-Remote-Code-Execution-Vulnerability-CVE-2019-0708)
 - [adyanamul/Remote-Code-Execution-RCE-Exploit-BlueKeep-CVE-2019-0708-PoC](https://github.com/adyanamul/Remote-Code-Execution-RCE-Exploit-BlueKeep-CVE-2019-0708-PoC)
 
 ### CVE-2019-0709 (2019-06-12)
