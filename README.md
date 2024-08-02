@@ -39,6 +39,7 @@
 - [Re13orn/CVE-2024-0044-EXP](https://github.com/Re13orn/CVE-2024-0044-EXP)
 - [007CRIPTOGRAFIA/c-CVE-2024-0044](https://github.com/007CRIPTOGRAFIA/c-CVE-2024-0044)
 - [Kai2er/CVE-2024-0044-EXP](https://github.com/Kai2er/CVE-2024-0044-EXP)
+- [hunter24x24/cve_2024_0044](https://github.com/hunter24x24/cve_2024_0044)
 
 ### CVE-2024-0049 (2024-03-11)
 
@@ -3400,6 +3401,7 @@
 - [jakabakos/CVE-2024-36401-GeoServer-RCE](https://github.com/jakabakos/CVE-2024-36401-GeoServer-RCE)
 - [ahisec/geoserver-](https://github.com/ahisec/geoserver-)
 - [Chocapikk/CVE-2024-36401](https://github.com/Chocapikk/CVE-2024-36401)
+- [yisas93/CVE-2024-36401-PoC](https://github.com/yisas93/CVE-2024-36401-PoC)
 
 ### CVE-2024-36416 (2024-06-10)
 
