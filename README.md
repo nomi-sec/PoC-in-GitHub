@@ -1077,6 +1077,13 @@
 
 - [labc-dev/CVE-2024-6666](https://github.com/labc-dev/CVE-2024-6666)
 
+### CVE-2024-6738 (2024-07-15)
+
+<code>The tumbnail API of Tronclass from WisdomGarden lacks proper access control, allowing unauthenticated remote attackers to obtain certain specific files by modifying the URL.
+</code>
+
+- [XD3an/CVE-2024-6738](https://github.com/XD3an/CVE-2024-6738)
+
 ### CVE-2024-11451
 - [Xiaolqy/CVE-2024-11451](https://github.com/Xiaolqy/CVE-2024-11451)
 
@@ -4647,6 +4654,7 @@
 - [B1TC0R3/CVE-2023-4220-PoC](https://github.com/B1TC0R3/CVE-2023-4220-PoC)
 - [nr4x4/CVE-2023-4220](https://github.com/nr4x4/CVE-2023-4220)
 - [Al3xGD/CVE-2023-4220-Exploit](https://github.com/Al3xGD/CVE-2023-4220-Exploit)
+- [charchit-subedi/chamilo-lms-unauthenticated-rce-poc](https://github.com/charchit-subedi/chamilo-lms-unauthenticated-rce-poc)
 
 ### CVE-2023-4226 (2023-11-28)
 
