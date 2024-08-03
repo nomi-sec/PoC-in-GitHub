@@ -421,6 +421,13 @@
 - [tnishiox/cve-2024-2961](https://github.com/tnishiox/cve-2024-2961)
 - [kjdfklha/CVE-2024-2961_poc](https://github.com/kjdfklha/CVE-2024-2961_poc)
 
+### CVE-2024-2997 (2024-03-27)
+
+<code>In Bdtask Multi-Store Inventory Management System bis 20240320 wurde eine problematische Schwachstelle ausgemacht. Hierbei betrifft es unbekannten Programmcode. Durch das Manipulieren des Arguments Category Name/Model Name/Brand Name/Unit Name mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [lfillaz/CVE-2024-2997](https://github.com/lfillaz/CVE-2024-2997)
+
 ### CVE-2024-3094 (2024-03-29)
 
 <code>Malicious code was discovered in the upstream tarballs of xz, starting with version 5.6.0. \r\nThrough a series of complex obfuscations, the liblzma build process extracts a prebuilt object file from a disguised test file existing in the source code, which is then used to modify specific functions in the liblzma code. This results in a modified liblzma library that can be used by any software linked against this library, intercepting and modifying the data interaction with this library.
@@ -3647,6 +3654,13 @@
 </code>
 
 - [vin01/poc-cve-2024-38396](https://github.com/vin01/poc-cve-2024-38396)
+
+### CVE-2024-38472 (2024-07-01)
+
+<code>SSRF in Apache HTTP Server on Windows allows to potentially leak NTML hashes to a malicious server via SSRF and malicious requests or content \nUsers are recommended to upgrade to version 2.4.60 which fixes this issue.  Note: Existing configurations that access UNC paths will have to configure new directive &quot;UNCList&quot; to allow access during request processing.
+</code>
+
+- [Abdurahmon3236/CVE-2024-38472](https://github.com/Abdurahmon3236/CVE-2024-38472)
 
 ### CVE-2024-38473 (2024-07-01)
 
@@ -11281,20 +11295,6 @@
 
 ### CVE-2023-48983
 - [tristao-marinho/CVE-2023-48983](https://github.com/tristao-marinho/CVE-2023-48983)
-
-### CVE-2023-49000 (2023-12-27)
-
-<code>An issue in ArtistScope ArtisBrowser v.34.1.5 and before allows an attacker to bypass intended access restrictions via interaction with the com.artis.browser.IntentReceiverActivity component.
-</code>
-
-- [actuator/com.artis.browser](https://github.com/actuator/com.artis.browser)
-
-### CVE-2023-49001 (2023-12-27)
-
-<code>An issue in Indi Browser (aka kvbrowser) v.12.11.23 allows an attacker to bypass intended access restrictions via interaction with the com.example.gurry.kvbrowswer.webview component.
-</code>
-
-- [actuator/com.gurry.kvbrowser](https://github.com/actuator/com.gurry.kvbrowser)
 
 ### CVE-2023-49002 (2023-12-27)
 
@@ -19740,7 +19740,6 @@
 </code>
 
 - [ryaagard/CVE-2021-4034](https://github.com/ryaagard/CVE-2021-4034)
-- [bbjubjub2494/cve-2021-4034-playground](https://github.com/bbjubjub2494/cve-2021-4034-playground)
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [clubby789/CVE-2021-4034](https://github.com/clubby789/CVE-2021-4034)
 - [gbrsh/CVE-2021-4034](https://github.com/gbrsh/CVE-2021-4034)
@@ -19756,6 +19755,7 @@
 - [ayypril/CVE-2021-4034](https://github.com/ayypril/CVE-2021-4034)
 - [wongwaituck/CVE-2021-4034](https://github.com/wongwaituck/CVE-2021-4034)
 - [0x05a/my-cve-2021-4034-poc](https://github.com/0x05a/my-cve-2021-4034-poc)
+- [silocityit/cve-2021-4034-playground](https://github.com/silocityit/cve-2021-4034-playground)
 - [zhzyker/CVE-2021-4034](https://github.com/zhzyker/CVE-2021-4034)
 - [J0hnbX/CVE-2021-4034-new](https://github.com/J0hnbX/CVE-2021-4034-new)
 - [Immersive-Labs-Sec/CVE-2021-4034](https://github.com/Immersive-Labs-Sec/CVE-2021-4034)
