@@ -976,6 +976,13 @@
 
 - [j3r1ch0123/CVE-2024-6205](https://github.com/j3r1ch0123/CVE-2024-6205)
 
+### CVE-2024-6366 (2024-07-29)
+
+<code>The User Profile Builder  WordPress plugin before 3.11.8 does not have proper authorisation, allowing unauthenticated users to upload media files via the async upload functionality of WP.
+</code>
+
+- [Abdurahmon3236/CVE-2024-6366](https://github.com/Abdurahmon3236/CVE-2024-6366)
+
 ### CVE-2024-6387 (2024-07-01)
 
 <code>A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period.
@@ -3075,6 +3082,13 @@
 
 - [zcrosman/cve-2024-32651](https://github.com/zcrosman/cve-2024-32651)
 
+### CVE-2024-32700 (2024-05-13)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Kognetiks Kognetiks Chatbot for WordPress.This issue affects Kognetiks Chatbot for WordPress: from n/a through 2.0.0.
+</code>
+
+- [nastar-id/CVE-2024-32700](https://github.com/nastar-id/CVE-2024-32700)
+
 ### CVE-2024-32709 (2024-04-24)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Plechev Andrey WP-Recall.This issue affects WP-Recall: from n/a through 16.26.5.\n\n
@@ -3445,6 +3459,13 @@
 </code>
 
 - [bigb0x/CVE-2024-36527](https://github.com/bigb0x/CVE-2024-36527)
+
+### CVE-2024-36539 (2024-07-24)
+
+<code>Insecure permissions in contour v1.28.3 allows attackers to access sensitive data and escalate privileges by obtaining the service account's token.
+</code>
+
+- [Abdurahmon3236/CVE-2024-36539](https://github.com/Abdurahmon3236/CVE-2024-36539)
 
 ### CVE-2024-36821 (2024-06-11)
 
