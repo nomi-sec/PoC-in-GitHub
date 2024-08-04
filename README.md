@@ -40,6 +40,7 @@
 - [007CRIPTOGRAFIA/c-CVE-2024-0044](https://github.com/007CRIPTOGRAFIA/c-CVE-2024-0044)
 - [Kai2er/CVE-2024-0044-EXP](https://github.com/Kai2er/CVE-2024-0044-EXP)
 - [hunter24x24/cve_2024_0044](https://github.com/hunter24x24/cve_2024_0044)
+- [nexussecelite/EvilDroid](https://github.com/nexussecelite/EvilDroid)
 
 ### CVE-2024-0049 (2024-03-11)
 
@@ -196,6 +197,13 @@
 - [kevcooper/CVE-2024-1086-checker](https://github.com/kevcooper/CVE-2024-1086-checker)
 - [feely666/CVE-2024-1086](https://github.com/feely666/CVE-2024-1086)
 - [xzx482/CVE-2024-1086](https://github.com/xzx482/CVE-2024-1086)
+
+### CVE-2024-1112 (2024-01-31)
+
+<code>Heap-based buffer overflow vulnerability in Resource Hacker, developed by Angus Johnson, affecting version 3.6.0.92. This vulnerability could allow an attacker to execute arbitrary code via a long filename argument.
+</code>
+
+- [enessakircolak/CVE-2024-1112](https://github.com/enessakircolak/CVE-2024-1112)
 
 ### CVE-2024-1208 (2024-02-05)
 
@@ -738,6 +746,14 @@
 </code>
 
 - [Abo5/CVE-2024-4484](https://github.com/Abo5/CVE-2024-4484)
+
+### CVE-2024-4514 (2024-05-06)
+
+<code>Es wurde eine Schwachstelle in Campcodes Complete Web-Based School Management System 1.0 gefunden. Sie wurde als problematisch eingestuft. Dabei betrifft es einen unbekannter Codeteil der Datei /view/timetable_insert_form.php. Durch das Beeinflussen des Arguments grade mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [W1hithat/CVE-2024-4514](https://github.com/W1hithat/CVE-2024-4514)
+- [AnastasiaStill/-CVE-2024-4514-](https://github.com/AnastasiaStill/-CVE-2024-4514-)
 
 ### CVE-2024-4577 (2024-06-09)
 
@@ -2238,6 +2254,7 @@
 - [RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit)
 - [apkc/CVE-2024-26229-BOF](https://github.com/apkc/CVE-2024-26229-BOF)
 - [team-MineDEV/CVE-2024-26229](https://github.com/team-MineDEV/CVE-2024-26229)
+- [Cracked5pider/eop24-26229](https://github.com/Cracked5pider/eop24-26229)
 
 ### CVE-2024-26304 (2024-05-01)
 
@@ -2986,7 +3003,7 @@
 - [charlesgargasson/CVE-2024-32002](https://github.com/charlesgargasson/CVE-2024-32002)
 - [NishanthAnand21/CVE-2024-32002-PoC](https://github.com/NishanthAnand21/CVE-2024-32002-PoC)
 - [tiyeume25112004/CVE-2024-32002](https://github.com/tiyeume25112004/CVE-2024-32002)
-- [chrisWalker11/CVE-2024-32002](https://github.com/chrisWalker11/CVE-2024-32002)
+- [chrisWalker11/running-CVE-2024-32002-locally-for-tesing](https://github.com/chrisWalker11/running-CVE-2024-32002-locally-for-tesing)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -25953,7 +25970,7 @@
 </code>
 
 - [k8gege/PyLadon](https://github.com/k8gege/PyLadon)
-- [Aekras1a/CVE-2020-0796-PoC](https://github.com/Aekras1a/CVE-2020-0796-PoC)
+- [0x25bit/CVE-2020-0796-PoC](https://github.com/0x25bit/CVE-2020-0796-PoC)
 - [technion/DisableSMBCompression](https://github.com/technion/DisableSMBCompression)
 - [T13nn3s/CVE-2020-0796](https://github.com/T13nn3s/CVE-2020-0796)
 - [ly4k/SMBGhost](https://github.com/ly4k/SMBGhost)
