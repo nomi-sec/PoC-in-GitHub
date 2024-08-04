@@ -6536,6 +6536,7 @@
 </code>
 
 - [bde574786/Sequelize-1day-CVE-2023-25813](https://github.com/bde574786/Sequelize-1day-CVE-2023-25813)
+- [White-BAO/CVE-2023-25813](https://github.com/White-BAO/CVE-2023-25813)
 
 ### CVE-2023-25950 (2023-04-11)
 
