@@ -1081,7 +1081,7 @@
 - [ThatNotEasy/CVE-2024-6387](https://github.com/ThatNotEasy/CVE-2024-6387)
 - [W1hithat/CVE-2024-6387](https://github.com/W1hithat/CVE-2024-6387)
 - [prelearn-code/CVE-2024-6387](https://github.com/prelearn-code/CVE-2024-6387)
-- [l-urk/CVE-2024-6387](https://github.com/l-urk/CVE-2024-6387)
+- [l-urk/CVE-2024-6387-L](https://github.com/l-urk/CVE-2024-6387-L)
 - [alex14324/ssh_poc2024](https://github.com/alex14324/ssh_poc2024)
 
 ### CVE-2024-6529 (2024-08-01)
