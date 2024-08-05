@@ -3022,6 +3022,7 @@
 <code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache OFBiz.This issue affects Apache OFBiz: before 18.12.13.\n\nUsers are recommended to upgrade to version 18.12.13, which fixes the issue.\n\n
 </code>
 
+- [RacerZ-fighting/CVE-2024-32113-POC](https://github.com/RacerZ-fighting/CVE-2024-32113-POC)
 - [Mr-xn/CVE-2024-32113](https://github.com/Mr-xn/CVE-2024-32113)
 
 ### CVE-2024-32136 (2024-04-15)
@@ -3689,6 +3690,13 @@
 </code>
 
 - [Havoc10-sw/Detect_polyfill_CVE-2024-38537-](https://github.com/Havoc10-sw/Detect_polyfill_CVE-2024-38537-)
+
+### CVE-2024-38856 (2024-08-05)
+
+<code>Incorrect Authorization vulnerability in Apache OFBiz.\n\nThis issue affects Apache OFBiz: through 18.12.14.\n\nUsers are recommended to upgrade to version 18.12.15, which fixes the issue.\n\nUnauthenticated endpoints could allow execution of screen rendering code of screens if some preconditions are met (such as when the screen definitions don't explicitly check user's permissions because they rely on the configuration of their endpoints).
+</code>
+
+- [Disseminator/Poc_CVE-2024-38856](https://github.com/Disseminator/Poc_CVE-2024-38856)
 
 ### CVE-2024-39031 (2024-07-09)
 
@@ -20727,13 +20735,6 @@
 - [hnthuan1998/CVE-2021-24160](https://github.com/hnthuan1998/CVE-2021-24160)
 - [hnthuan1998/Exploit-CVE-2021-24160](https://github.com/hnthuan1998/Exploit-CVE-2021-24160)
 
-### CVE-2021-24307 (2021-05-24)
-
-<code>The All in One SEO – Best WordPress SEO Plugin – Easily Improve Your SEO Rankings before 4.1.0.2 enables authenticated users with &quot;aioseo_tools_settings&quot; privilege (most of the time admin) to execute arbitrary code on the underlying host. Users can restore plugin's configuration by uploading a backup .ini file in the section &quot;Tool &gt; Import/Export&quot;. However, the plugin attempts to unserialize values of the .ini file. Moreover, the plugin embeds Monolog library which can be used to craft a gadget chain and thus trigger system command execution.
-</code>
-
-- [darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce](https://github.com/darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce)
-
 ### CVE-2021-24356 (2021-06-14)
 
 <code>In the Simple 301 Redirects by BetterLinks WordPress plugin before 2.0.4, a lack of capability checks and insufficient nonce check on the AJAX action, simple301redirects/admin/activate_plugin, made it possible for authenticated users to activate arbitrary plugins installed on vulnerable sites.
@@ -21728,13 +21729,6 @@
 
 - [jsherman212/iomfb-exploit](https://github.com/jsherman212/iomfb-exploit)
 - [30440r/gex](https://github.com/30440r/gex)
-
-### CVE-2021-30853 (2021-08-24)
-
-<code>This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.6. A malicious application may bypass Gatekeeper checks.
-</code>
-
-- [shubham0d/CVE-2021-30853](https://github.com/shubham0d/CVE-2021-30853)
 
 ### CVE-2021-30858 (2021-08-24)
 
@@ -23399,6 +23393,14 @@
 </code>
 
 - [Jajangjaman/CVE-2021-41160](https://github.com/Jajangjaman/CVE-2021-41160)
+
+### CVE-2021-41182 (2021-10-26)
+
+<code>jQuery-UI is the official jQuery user interface library. Prior to version 1.13.0, accepting the value of the `altField` option of the Datepicker widget from untrusted sources may execute untrusted code. The issue is fixed in jQuery UI 1.13.0. Any string value passed to the `altField` option is now treated as a CSS selector. A workaround is to not accept the value of the `altField` option from untrusted sources.
+</code>
+
+- [aredspy/CVE-2021-41182](https://github.com/aredspy/CVE-2021-41182)
+- [aredspy/CVE-2021-41182-Tester](https://github.com/aredspy/CVE-2021-41182-Tester)
 
 ### CVE-2021-41184 (2021-10-26)
 
