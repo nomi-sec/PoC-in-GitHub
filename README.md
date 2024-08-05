@@ -1119,6 +1119,13 @@
 
 - [XD3an/CVE-2024-6738](https://github.com/XD3an/CVE-2024-6738)
 
+### CVE-2024-7339 (2024-08-01)
+
+<code>In TVT DVR TD-2104TS-CL, DVR TD-2108TS-HP, Provision-ISR DVR SH-4050A5-5L(MM) and AVISION DVR AV108T wurde eine problematische Schwachstelle gefunden. Betroffen ist eine unbekannte Verarbeitung der Datei /queryDevInfo. Dank der Manipulation mit unbekannten Daten kann eine information disclosure-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [RevoltSecurities/CVE-2024-7339](https://github.com/RevoltSecurities/CVE-2024-7339)
+
 ### CVE-2024-11451
 - [Xiaolqy/CVE-2024-11451](https://github.com/Xiaolqy/CVE-2024-11451)
 
@@ -3691,13 +3698,6 @@
 
 - [Havoc10-sw/Detect_polyfill_CVE-2024-38537-](https://github.com/Havoc10-sw/Detect_polyfill_CVE-2024-38537-)
 
-### CVE-2024-38856 (2024-08-05)
-
-<code>Incorrect Authorization vulnerability in Apache OFBiz.\n\nThis issue affects Apache OFBiz: through 18.12.14.\n\nUsers are recommended to upgrade to version 18.12.15, which fixes the issue.\n\nUnauthenticated endpoints could allow execution of screen rendering code of screens if some preconditions are met (such as when the screen definitions don't explicitly check user's permissions because they rely on the configuration of their endpoints).
-</code>
-
-- [Disseminator/Poc_CVE-2024-38856](https://github.com/Disseminator/Poc_CVE-2024-38856)
-
 ### CVE-2024-39031 (2024-07-09)
 
 <code>In Silverpeas Core &lt;= 6.3.5, in Mes Agendas, a user can create new events and add them to their calendar. Additionally, users can invite others from the same domain, including administrators, to these events. A standard user can inject an XSS payload into the &quot;Titre&quot; and &quot;Description&quot; fields when creating an event and then add the administrator or any user to the event. When the invited user (victim) views their own profile, the payload will be executed on their side, even if they do not click on the event.
@@ -3860,7 +3860,11 @@
 
 - [minendie/POC_CVE-2024-40492](https://github.com/minendie/POC_CVE-2024-40492)
 
-### CVE-2024-40498
+### CVE-2024-40498 (2024-08-05)
+
+<code>SQL Injection vulnerability in PuneethReddyHC Online Shopping sysstem advanced v.1.0 allows an attacker to execute arbitrary code via the register.php
+</code>
+
 - [Dirac231/CVE-2024-40498](https://github.com/Dirac231/CVE-2024-40498)
 
 ### CVE-2024-40506
@@ -33798,6 +33802,7 @@
 
 - [Barakat/CVE-2019-16098](https://github.com/Barakat/CVE-2019-16098)
 - [0xDivyanshu-new/CVE-2019-16098](https://github.com/0xDivyanshu-new/CVE-2019-16098)
+- [Offensive-Panda/NT-AUTHORITY-SYSTEM-CONTEXT-RTCORE](https://github.com/Offensive-Panda/NT-AUTHORITY-SYSTEM-CONTEXT-RTCORE)
 
 ### CVE-2019-16113 (2019-09-08)
 
