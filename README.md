@@ -747,14 +747,6 @@
 
 - [Abo5/CVE-2024-4484](https://github.com/Abo5/CVE-2024-4484)
 
-### CVE-2024-4514 (2024-05-06)
-
-<code>Es wurde eine Schwachstelle in Campcodes Complete Web-Based School Management System 1.0 gefunden. Sie wurde als problematisch eingestuft. Dabei betrifft es einen unbekannter Codeteil der Datei /view/timetable_insert_form.php. Durch das Beeinflussen des Arguments grade mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [W1hithat/CVE-2024-4514](https://github.com/W1hithat/CVE-2024-4514)
-- [AnastasiaStill/-CVE-2024-4514-](https://github.com/AnastasiaStill/-CVE-2024-4514-)
-
 ### CVE-2024-4577 (2024-06-09)
 
 <code>In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use &quot;Best-Fit&quot; behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
@@ -1095,7 +1087,6 @@
 - [k4t3pr0/CVE-2024-6387-Check](https://github.com/k4t3pr0/CVE-2024-6387-Check)
 - [Jhonsonwannaa/CVE-2024-6387](https://github.com/Jhonsonwannaa/CVE-2024-6387)
 - [ThatNotEasy/CVE-2024-6387](https://github.com/ThatNotEasy/CVE-2024-6387)
-- [W1hithat/CVE-2024-6387](https://github.com/W1hithat/CVE-2024-6387)
 - [prelearn-code/CVE-2024-6387](https://github.com/prelearn-code/CVE-2024-6387)
 - [l-urk/CVE-2024-6387-L](https://github.com/l-urk/CVE-2024-6387-L)
 - [alex14324/ssh_poc2024](https://github.com/alex14324/ssh_poc2024)
@@ -1828,7 +1819,6 @@
 - [mil4ne/CVE-2024-23897-Jenkins-4.441](https://github.com/mil4ne/CVE-2024-23897-Jenkins-4.441)
 - [Maalfer/CVE-2024-23897](https://github.com/Maalfer/CVE-2024-23897)
 - [Surko888/Surko-Exploit-Jenkins-CVE-2024-23897](https://github.com/Surko888/Surko-Exploit-Jenkins-CVE-2024-23897)
-- [AnastasiaStill/CVE-2024-23897](https://github.com/AnastasiaStill/CVE-2024-23897)
 
 ### CVE-2024-24034 (2024-02-08)
 
@@ -3945,9 +3935,6 @@
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
-### CVE-2024-81757
-- [AnastasiaStill/CVE-2024-81757-Apache-web-server-2.4.61](https://github.com/AnastasiaStill/CVE-2024-81757-Apache-web-server-2.4.61)
-
 ### CVE-2024-206565
 - [sanderswannalive/sumkaluissessss](https://github.com/sanderswannalive/sumkaluissessss)
 
@@ -5366,8 +5353,8 @@
 <code>An issue has been discovered in GitLab CE/EE affecting all versions from 16.1 prior to 16.1.6, 16.2 prior to 16.2.9, 16.3 prior to 16.3.7, 16.4 prior to 16.4.5, 16.5 prior to 16.5.6, 16.6 prior to 16.6.4, and 16.7 prior to 16.7.2 in which user account password reset emails could be delivered to an unverified email address.
 </code>
 
-- [V1lu0/CVE-2023-7028](https://github.com/V1lu0/CVE-2023-7028)
 - [RandomRobbieBF/CVE-2023-7028](https://github.com/RandomRobbieBF/CVE-2023-7028)
+- [googlei1996/CVE-2023-7028](https://github.com/googlei1996/CVE-2023-7028)
 - [duy-31/CVE-2023-7028](https://github.com/duy-31/CVE-2023-7028)
 - [Vozec/CVE-2023-7028](https://github.com/Vozec/CVE-2023-7028)
 - [yoryio/CVE-2023-7028](https://github.com/yoryio/CVE-2023-7028)
@@ -30440,6 +30427,13 @@
 
 - [0xAbbarhSF/CVE-2020-29607](https://github.com/0xAbbarhSF/CVE-2020-29607)
 - [0xN7y/CVE-2020-29607](https://github.com/0xN7y/CVE-2020-29607)
+
+### CVE-2020-29661 (2020-12-09)
+
+<code>A locking issue was discovered in the tty subsystem of the Linux kernel through 5.9.13. drivers/tty/tty_jobctrl.c allows a use-after-free attack against TIOCSPGRP, aka CID-54ffccbf053b.
+</code>
+
+- [wojkos9/arm-CVE-2020-29661](https://github.com/wojkos9/arm-CVE-2020-29661)
 
 ### CVE-2020-29666 (2020-12-10)
 
