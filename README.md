@@ -985,6 +985,13 @@
 
 - [j3r1ch0123/CVE-2024-6205](https://github.com/j3r1ch0123/CVE-2024-6205)
 
+### CVE-2024-6222 (2024-07-09)
+
+<code>In Docker Desktop before v4.29.0, an attacker who has gained access to the Docker Desktop VM through a container breakout can further escape to the host by passing extensions and dashboard related IPC messages.\n\nDocker Desktop  v4.29.0 https://docs.docker.com/desktop/release-notes/#4290  fixes the issue on MacOS, Linux and Windows with Hyper-V backend.\n\nAs exploitation requires &quot;Allow only extensions distributed through the Docker Marketplace&quot; to be disabled, Docker Desktop  v4.31.0 https://docs.docker.com/desktop/release-notes/#4310  additionally changes the default configuration to enable this setting by default.
+</code>
+
+- [Florian-Hoth/CVE-2024-6222](https://github.com/Florian-Hoth/CVE-2024-6222)
+
 ### CVE-2024-6366 (2024-07-29)
 
 <code>The User Profile Builder  WordPress plugin before 3.11.8 does not have proper authorisation, allowing unauthenticated users to upload media files via the async upload functionality of WP.
@@ -1113,6 +1120,13 @@
 </code>
 
 - [XD3an/CVE-2024-6738](https://github.com/XD3an/CVE-2024-6738)
+
+### CVE-2024-6782 (2024-08-06)
+
+<code>Improper access control in Calibre 6.9.0 ~ 7.14.0 allow unauthenticated attackers to achieve remote code execution.
+</code>
+
+- [zangjiahe/CVE-2024-6782](https://github.com/zangjiahe/CVE-2024-6782)
 
 ### CVE-2024-7339 (2024-08-01)
 
@@ -3552,6 +3566,7 @@
 </code>
 
 - [mahmutaymahmutay/CVE-2024-37085](https://github.com/mahmutaymahmutay/CVE-2024-37085)
+- [Florian-Hoth/CVE-2024-37085-RCE-POC](https://github.com/Florian-Hoth/CVE-2024-37085-RCE-POC)
 
 ### CVE-2024-37147 (2024-07-10)
 
@@ -3658,6 +3673,13 @@
 </code>
 
 - [varwara/CVE-2024-38041](https://github.com/varwara/CVE-2024-38041)
+
+### CVE-2024-38100 (2024-07-09)
+
+<code>Windows File Explorer Elevation of Privilege Vulnerability
+</code>
+
+- [Florian-Hoth/CVE-2024-38100-RCE-POC](https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC)
 
 ### CVE-2024-38366 (2024-07-01)
 
@@ -3806,6 +3828,9 @@
 
 - [truonghuuphuc/CVE-2024-39943-Poc](https://github.com/truonghuuphuc/CVE-2024-39943-Poc)
 - [A-little-dragon/CVE-2024-39943-Exploit](https://github.com/A-little-dragon/CVE-2024-39943-Exploit)
+
+### CVE-2024-40080
+- [perras/CVE-2024-40080](https://github.com/perras/CVE-2024-40080)
 
 ### CVE-2024-40110 (2024-07-12)
 
@@ -9328,6 +9353,7 @@
 - [Hirusha-N/CVE-2021-34527-CVE-2023-38831-and-CVE-2023-32784](https://github.com/Hirusha-N/CVE-2021-34527-CVE-2023-38831-and-CVE-2023-32784)
 - [khanhtranngoccva/cve-2023-38831-poc](https://github.com/khanhtranngoccva/cve-2023-38831-poc)
 - [MaorBuskila/Windows-X64-RAT](https://github.com/MaorBuskila/Windows-X64-RAT)
+- [yezzfusl/cve_2023_38831_scanner](https://github.com/yezzfusl/cve_2023_38831_scanner)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -45374,7 +45400,6 @@
 - [PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow](https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow)
 - [war4uthor/CVE-2004-2271](https://github.com/war4uthor/CVE-2004-2271)
 - [pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF](https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF)
-- [lautarolopez4/CVE-2004-2271](https://github.com/lautarolopez4/CVE-2004-2271)
 
 ### CVE-2004-2449 (2005-08-20)
 
