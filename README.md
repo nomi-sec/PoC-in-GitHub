@@ -28,7 +28,6 @@
 </code>
 
 - [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0040](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0040)
-- [uthrasri/frameworks_av_CVE-2024-0040](https://github.com/uthrasri/frameworks_av_CVE-2024-0040)
 
 ### CVE-2024-0044 (2024-03-11)
 
@@ -49,6 +48,7 @@
 </code>
 
 - [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049)
+- [uthrasri/frameworks_av_CVE-2024-0049](https://github.com/uthrasri/frameworks_av_CVE-2024-0049)
 
 ### CVE-2024-0195 (2024-01-02)
 
@@ -1084,6 +1084,7 @@
 - [prelearn-code/CVE-2024-6387](https://github.com/prelearn-code/CVE-2024-6387)
 - [l-urk/CVE-2024-6387-L](https://github.com/l-urk/CVE-2024-6387-L)
 - [alex14324/ssh_poc2024](https://github.com/alex14324/ssh_poc2024)
+- [X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker](https://github.com/X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker)
 
 ### CVE-2024-6529 (2024-08-01)
 
@@ -3847,6 +3848,7 @@
 </code>
 
 - [alpernae/CVE-2024-40422](https://github.com/alpernae/CVE-2024-40422)
+- [j3r1ch0123/CVE-2024-40422](https://github.com/j3r1ch0123/CVE-2024-40422)
 
 ### CVE-2024-40492 (2024-07-17)
 
@@ -4857,6 +4859,7 @@
 - [E1A/CVE-2023-4596](https://github.com/E1A/CVE-2023-4596)
 - [X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version](https://github.com/X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version)
 - [RHYru9/CVE-2023-4596-checker](https://github.com/RHYru9/CVE-2023-4596-checker)
+- [X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker](https://github.com/X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker)
 
 ### CVE-2023-4622 (2023-09-06)
 
