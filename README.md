@@ -3944,6 +3944,13 @@
 
 - [sh3bu/CVE-2024-41662](https://github.com/sh3bu/CVE-2024-41662)
 
+### CVE-2024-41958 (2024-08-05)
+
+<code>mailcow: dockerized is an open source groupware/email suite based on docker. A vulnerability has been discovered in the two-factor authentication (2FA) mechanism. This flaw allows an authenticated attacker to bypass the 2FA protection, enabling unauthorized access to other accounts that are otherwise secured with 2FA. To exploit this vulnerability, the attacker must first have access to an account within the system and possess the credentials of the target account that has 2FA enabled. By leveraging these credentials, the attacker can circumvent the 2FA process and gain access to the protected account. This issue has been addressed in the `2024-07` release. All users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [OrangeJuiceHU/CVE-2024-41958-PoC](https://github.com/OrangeJuiceHU/CVE-2024-41958-PoC)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
