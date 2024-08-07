@@ -5279,6 +5279,13 @@
 
 - [illixion/root-my-webos-tv](https://github.com/illixion/root-my-webos-tv)
 
+### CVE-2023-6444 (2024-03-11)
+
+<code>The Seriously Simple Podcasting WordPress plugin before 3.0.0 discloses the Podcast owner's email address (which by default is the admin email address) via an unauthenticated crafted request.
+</code>
+
+- [Wayne-Ker/CVE-2023-6444-POC](https://github.com/Wayne-Ker/CVE-2023-6444-POC)
+
 ### CVE-2023-6538 (2023-12-11)
 
 <code>SMU versions prior to 14.8.7825.01 are susceptible to unintended information disclosure, through URL manipulation. Authenticated users in Storage, Server or combined Server+Storage administrative roles are able to access SMU configuration backup, that would normally be barred to those specific administrative roles. 
@@ -6373,6 +6380,13 @@
 </code>
 
 - [momo1239/CVE-2023-24203-and-CVE-2023-24204](https://github.com/momo1239/CVE-2023-24203-and-CVE-2023-24204)
+
+### CVE-2023-24249 (2023-02-27)
+
+<code>An arbitrary file upload vulnerability in laravel-admin v1.8.19 allows attackers to execute arbitrary code via a crafted PHP file.
+</code>
+
+- [IDUZZEL/CVE-2023-24249-Exploit](https://github.com/IDUZZEL/CVE-2023-24249-Exploit)
 
 ### CVE-2023-24317 (2023-02-23)
 
@@ -12717,7 +12731,7 @@
 <code>The All-in-One WP Migration WordPress plugin before 7.63 uses the wrong content type, and does not properly escape the response from the ai1wm_export AJAX action, allowing an attacker to craft a request that when submitted by any visitor will inject arbitrary html or javascript into the response that will be executed in the victims session. Note: This requires knowledge of a static secret key
 </code>
 
-- [1ndrz/CVE-2022-2546](https://github.com/1ndrz/CVE-2022-2546)
+- [vnxdtzip/CVE-2022-2546](https://github.com/vnxdtzip/CVE-2022-2546)
 
 ### CVE-2022-2586 (2024-01-08)
 
