@@ -3973,6 +3973,13 @@
 
 - [OrangeJuiceHU/CVE-2024-41958-PoC](https://github.com/OrangeJuiceHU/CVE-2024-41958-PoC)
 
+### CVE-2024-42461 (2024-08-02)
+
+<code>In the Elliptic package 6.5.6 for Node.js, ECDSA signature malleability occurs because BER-encoded signatures are allowed.
+</code>
+
+- [fevar54/CVE-2024-42461](https://github.com/fevar54/CVE-2024-42461)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
