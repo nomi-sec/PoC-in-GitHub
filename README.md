@@ -793,6 +793,7 @@
 - [a-roshbaik/CVE-2024-4577](https://github.com/a-roshbaik/CVE-2024-4577)
 - [a-roshbaik/CVE-2024-4577-PHP-RCE](https://github.com/a-roshbaik/CVE-2024-4577-PHP-RCE)
 - [Jcccccx/CVE-2024-4577](https://github.com/Jcccccx/CVE-2024-4577)
+- [ManuelKy08/CVE-2024-4577---RR](https://github.com/ManuelKy08/CVE-2024-4577---RR)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -1714,6 +1715,13 @@
 - [0x20c/CVE-2024-23692-EXP](https://github.com/0x20c/CVE-2024-23692-EXP)
 - [pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692](https://github.com/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692)
 
+### CVE-2024-23708 (2024-05-07)
+
+<code>In multiple functions of NotificationManagerService.java, there is a possible way to not show a toast message when a clipboard message has been accessed. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [uthrasri/CVE-2024-23708](https://github.com/uthrasri/CVE-2024-23708)
+
 ### CVE-2024-23722 (2024-03-26)
 
 <code>In Fluent Bit 2.1.8 through 2.2.1, a NULL pointer dereference can be caused via an invalid HTTP payload with the content type of x-www-form-urlencoded. It crashes and does not restart. This could result in logs not being delivered properly.
@@ -2243,6 +2251,13 @@
 </code>
 
 - [0xNslabs/CVE-2024-25832-PoC](https://github.com/0xNslabs/CVE-2024-25832-PoC)
+
+### CVE-2024-25897 (2024-02-21)
+
+<code>ChurchCRM 5.5.0 FRCatalog.php is vulnerable to Blind SQL Injection (Time-based) via the CurrentFundraiser GET parameter.
+</code>
+
+- [i-100-user/CVE-2024-25897](https://github.com/i-100-user/CVE-2024-25897)
 
 ### CVE-2024-26026 (2024-05-08)
 
@@ -3912,6 +3927,9 @@
 
 - [Dirac231/CVE-2024-40498](https://github.com/Dirac231/CVE-2024-40498)
 
+### CVE-2024-40500
+- [nitipoom-jar/CVE-2024-40500](https://github.com/nitipoom-jar/CVE-2024-40500)
+
 ### CVE-2024-40506
 - [Jansen-C-Moreira/CVE-2024-40506](https://github.com/Jansen-C-Moreira/CVE-2024-40506)
 
@@ -3984,6 +4002,9 @@
 </code>
 
 - [alemusix/CVE-2024-41640](https://github.com/alemusix/CVE-2024-41640)
+
+### CVE-2024-41651
+- [Fckroun/CVE-2024-41651](https://github.com/Fckroun/CVE-2024-41651)
 
 ### CVE-2024-41662 (2024-07-24)
 
@@ -16271,6 +16292,7 @@
 - [drcayber/RCE](https://github.com/drcayber/RCE)
 - [Chocapikk/CVE-2022-31814](https://github.com/Chocapikk/CVE-2022-31814)
 - [dkstar11q/CVE-2022-31814](https://github.com/dkstar11q/CVE-2022-31814)
+- [Laburity/CVE-2022-31814](https://github.com/Laburity/CVE-2022-31814)
 
 ### CVE-2022-31854 (2022-07-07)
 
