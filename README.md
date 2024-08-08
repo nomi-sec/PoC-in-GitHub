@@ -1442,6 +1442,20 @@
 - [h4x0r-dz/CVE-2024-21893.py](https://github.com/h4x0r-dz/CVE-2024-21893.py)
 - [Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887)
 
+### CVE-2024-21978 (2024-08-05)
+
+<code>Improper input validation in SEV-SNP could allow a malicious hypervisor to read or overwrite guest memory potentially leading to data leakage or data corruption.
+</code>
+
+- [Freax13/cve-2024-21978-poc](https://github.com/Freax13/cve-2024-21978-poc)
+
+### CVE-2024-21980 (2024-08-05)
+
+<code>Improper restriction of write operations in SNP firmware could allow a malicious hypervisor to potentially overwrite a guest's memory or UMC seed resulting in loss of confidentiality and integrity.
+</code>
+
+- [Freax13/cve-2024-21980-poc](https://github.com/Freax13/cve-2024-21980-poc)
+
 ### CVE-2024-22002 (2024-06-18)
 
 <code>CORSAIR iCUE 5.9.105 with iCUE Murals on Windows allows unprivileged users to insert DLL files in the cuepkg-1.2.6 subdirectory of the installation directory.
@@ -3945,6 +3959,9 @@
 
 ### CVE-2024-41302
 - [patrickdeanramos/CVE-2024-41302-Bookea-tu-Mesa-is-vulnerable-to-SQL-Injection](https://github.com/patrickdeanramos/CVE-2024-41302-Bookea-tu-Mesa-is-vulnerable-to-SQL-Injection)
+
+### CVE-2024-41570
+- [chebuya/Havoc-C2-SSRF-poc](https://github.com/chebuya/Havoc-C2-SSRF-poc)
 
 ### CVE-2024-41628 (2024-07-26)
 
@@ -7563,6 +7580,13 @@
 </code>
 
 - [Freax13/cve-2023-31346-poc](https://github.com/Freax13/cve-2023-31346-poc)
+
+### CVE-2023-31355 (2024-08-05)
+
+<code>Improper restriction of write operations in SNP firmware could allow a malicious hypervisor to overwrite a guest's UMC seed potentially allowing reading of memory from a decommissioned guest.
+</code>
+
+- [Freax13/cve-2023-31355-poc](https://github.com/Freax13/cve-2023-31355-poc)
 
 ### CVE-2023-31419 (2023-10-26)
 
