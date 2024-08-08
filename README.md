@@ -28,6 +28,7 @@
 </code>
 
 - [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0040](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0040)
+- [uthrasri/frameworks_av_CVE-2024-0040](https://github.com/uthrasri/frameworks_av_CVE-2024-0040)
 
 ### CVE-2024-0044 (2024-03-11)
 
@@ -48,7 +49,6 @@
 </code>
 
 - [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049)
-- [uthrasri/frameworks_av_CVE-2024-0049](https://github.com/uthrasri/frameworks_av_CVE-2024-0049)
 
 ### CVE-2024-0195 (2024-01-02)
 
@@ -3730,6 +3730,13 @@
 </code>
 
 - [Havoc10-sw/Detect_polyfill_CVE-2024-38537-](https://github.com/Havoc10-sw/Detect_polyfill_CVE-2024-38537-)
+
+### CVE-2024-38856 (2024-08-05)
+
+<code>Incorrect Authorization vulnerability in Apache OFBiz.\n\nThis issue affects Apache OFBiz: through 18.12.14.\n\nUsers are recommended to upgrade to version 18.12.15, which fixes the issue.\n\nUnauthenticated endpoints could allow execution of screen rendering code of screens if some preconditions are met (such as when the screen definitions don't explicitly check user's permissions because they rely on the configuration of their endpoints).
+</code>
+
+- [securelayer7/CVE-2024-38856_Scanner](https://github.com/securelayer7/CVE-2024-38856_Scanner)
 
 ### CVE-2024-39031 (2024-07-09)
 
@@ -12900,6 +12907,7 @@
 </code>
 
 - [hxlxmjxbbxs/CVE-2022-3590-WordPress-Vulnerability-Scanner](https://github.com/hxlxmjxbbxs/CVE-2022-3590-WordPress-Vulnerability-Scanner)
+- [huynhvanphuc/CVE-2022-3590-WordPress-Vulnerability-Scanner](https://github.com/huynhvanphuc/CVE-2022-3590-WordPress-Vulnerability-Scanner)
 
 ### CVE-2022-3602 (2022-11-01)
 
