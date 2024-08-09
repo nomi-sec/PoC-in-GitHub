@@ -866,7 +866,6 @@
 - [banditzCyber0x/CVE-2024-4956](https://github.com/banditzCyber0x/CVE-2024-4956)
 - [xungzzz/CVE-2024-4956](https://github.com/xungzzz/CVE-2024-4956)
 - [erickfernandox/CVE-2024-4956](https://github.com/erickfernandox/CVE-2024-4956)
-- [gmh5225/CVE-2024-4956](https://github.com/gmh5225/CVE-2024-4956)
 - [thinhap/CVE-2024-4956-PoC](https://github.com/thinhap/CVE-2024-4956-PoC)
 - [eoslvs/CVE-2024-4956](https://github.com/eoslvs/CVE-2024-4956)
 - [GoatSecurity/CVE-2024-4956](https://github.com/GoatSecurity/CVE-2024-4956)
@@ -2300,6 +2299,13 @@
 - [team-MineDEV/CVE-2024-26229](https://github.com/team-MineDEV/CVE-2024-26229)
 - [Cracked5pider/eop24-26229](https://github.com/Cracked5pider/eop24-26229)
 
+### CVE-2024-26230 (2024-04-09)
+
+<code>Windows Telephony Server Elevation of Privilege Vulnerability
+</code>
+
+- [kiwids0220/CVE-2024-26230](https://github.com/kiwids0220/CVE-2024-26230)
+
 ### CVE-2024-26304 (2024-05-01)
 
 <code>There is a buffer overflow vulnerability in the underlying L2/L3 Management service that could lead to unauthenticated remote code execution by sending specially crafted packets destined to the PAPI (Aruba's access point management protocol) UDP port (8211). Successful exploitation of this vulnerability results in the ability to execute arbitrary code as a privileged user on the underlying operating system. \n\n
@@ -3562,6 +3568,9 @@
 ### CVE-2024-36842
 - [abbiy/Backdooring-Oncord-Android-Sterio-](https://github.com/abbiy/Backdooring-Oncord-Android-Sterio-)
 
+### CVE-2024-36877
+- [jjensn/CVE-2024-36877](https://github.com/jjensn/CVE-2024-36877)
+
 ### CVE-2024-36991 (2024-07-01)
 
 <code>In Splunk Enterprise on Windows versions below 9.2.2, 9.1.5, and 9.0.10, an attacker could perform a path traversal on the /modules/messaging/ endpoint in Splunk Enterprise on Windows. This vulnerability should only affect Splunk Enterprise on Windows.
@@ -4005,7 +4014,11 @@
 ### CVE-2024-41302
 - [patrickdeanramos/CVE-2024-41302-Bookea-tu-Mesa-is-vulnerable-to-SQL-Injection](https://github.com/patrickdeanramos/CVE-2024-41302-Bookea-tu-Mesa-is-vulnerable-to-SQL-Injection)
 
-### CVE-2024-41570
+### CVE-2024-41570 (2024-08-09)
+
+<code>An Unauthenticated Server-Side Request Forgery (SSRF) in demon callback handling in Havoc 2 0.7 allows attackers to send arbitrary network traffic originating from the team server.
+</code>
+
 - [chebuya/Havoc-C2-SSRF-poc](https://github.com/chebuya/Havoc-C2-SSRF-poc)
 
 ### CVE-2024-41628 (2024-07-26)
@@ -4052,6 +4065,7 @@
 </code>
 
 - [HwMex0/CVE-2024-43044](https://github.com/HwMex0/CVE-2024-43044)
+- [jenkinsci-cert/SECURITY-3430](https://github.com/jenkinsci-cert/SECURITY-3430)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -5918,13 +5932,6 @@
 - [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
 
-### CVE-2023-21739 (2023-01-10)
-
-<code>Windows Bluetooth Driver Elevation of Privilege Vulnerability
-</code>
-
-- [gmh5225/CVE-2023-21739](https://github.com/gmh5225/CVE-2023-21739)
-
 ### CVE-2023-21742 (2023-01-10)
 
 <code>Microsoft SharePoint Server Remote Code Execution Vulnerability
@@ -6427,13 +6434,6 @@
 - [julesbozouklian/PoC_CVE-2023-24055](https://github.com/julesbozouklian/PoC_CVE-2023-24055)
 - [digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess)
 - [zwlsix/KeePass-CVE-2023-24055](https://github.com/zwlsix/KeePass-CVE-2023-24055)
-
-### CVE-2023-24059 (2023-01-22)
-
-<code>Grand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023.
-</code>
-
-- [gmh5225/CVE-2023-24059](https://github.com/gmh5225/CVE-2023-24059)
 
 ### CVE-2023-24078 (2023-02-17)
 
@@ -14919,7 +14919,7 @@
 
 - [W01fh4cker/Serein](https://github.com/W01fh4cker/Serein)
 - [offlinehoster/CVE-2022-26134](https://github.com/offlinehoster/CVE-2022-26134)
-- [th3b3ginn3r/CVE-2022-26134-Exploit-Detection](https://github.com/th3b3ginn3r/CVE-2022-26134-Exploit-Detection)
+- [ma1am/CVE-2022-26134-Exploit-Detection](https://github.com/ma1am/CVE-2022-26134-Exploit-Detection)
 - [jbaines-r7/through_the_wire](https://github.com/jbaines-r7/through_the_wire)
 - [crowsec-edtech/CVE-2022-26134](https://github.com/crowsec-edtech/CVE-2022-26134)
 - [kyxiaxiang/CVE-2022-26134](https://github.com/kyxiaxiang/CVE-2022-26134)
@@ -16615,13 +16615,6 @@
 
 - [Halcy0nic/CVE-2022-34556](https://github.com/Halcy0nic/CVE-2022-34556)
 
-### CVE-2022-34683 (2022-12-30)
-
-<code>NVIDIA GPU Display Driver for Windows contains a vulnerability in the kernel mode layer (nvlddmkm.sys) handler for DxgkDdiEscape, where a null-pointer dereference occurs, which may lead to denial of service.
-</code>
-
-- [gmh5225/CVE-2022-34683](https://github.com/gmh5225/CVE-2022-34683)
-
 ### CVE-2022-34715 (2022-08-09)
 
 <code>Windows Network File System Remote Code Execution Vulnerability
@@ -16771,7 +16764,6 @@
 <code>SQLite 1.0.12 through 3.39.x before 3.39.2 sometimes allows an array-bounds overflow if billions of bytes are used in a string argument to a C API.
 </code>
 
-- [gmh5225/CVE-2022-35737](https://github.com/gmh5225/CVE-2022-35737)
 - [rvermeulen/codeql-cve-2022-35737](https://github.com/rvermeulen/codeql-cve-2022-35737)
 
 ### CVE-2022-35841 (2022-09-13)
@@ -17582,13 +17574,6 @@
 - [g-gill24/WinRE-Patch](https://github.com/g-gill24/WinRE-Patch)
 - [dsn1321/KB5025175-CVE-2022-41099](https://github.com/dsn1321/KB5025175-CVE-2022-41099)
 
-### CVE-2022-41114 (2022-11-09)
-
-<code>Windows Bind Filter Driver Elevation of Privilege Vulnerability
-</code>
-
-- [gmh5225/CVE-2022-41114](https://github.com/gmh5225/CVE-2022-41114)
-
 ### CVE-2022-41218 (2022-09-21)
 
 <code>In drivers/media/dvb-core/dmxdev.c in the Linux kernel through 5.19.10, there is a use-after-free caused by refcount races, affecting dvb_demux_open and dvb_dmxdev_release.
@@ -18131,9 +18116,6 @@
 </code>
 
 - [j00sean/CVE-2022-44666](https://github.com/j00sean/CVE-2022-44666)
-
-### CVE-2022-44721
-- [gmh5225/CVE-2022-44721-CsFalconUninstaller](https://github.com/gmh5225/CVE-2022-44721-CsFalconUninstaller)
 
 ### CVE-2022-44789 (2022-11-23)
 
@@ -21860,6 +21842,13 @@
 - [jsherman212/iomfb-exploit](https://github.com/jsherman212/iomfb-exploit)
 - [30440r/gex](https://github.com/30440r/gex)
 
+### CVE-2021-30853 (2021-08-24)
+
+<code>This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.6. A malicious application may bypass Gatekeeper checks.
+</code>
+
+- [shubham0d/CVE-2021-30853](https://github.com/shubham0d/CVE-2021-30853)
+
 ### CVE-2021-30858 (2021-08-24)
 
 <code>A use after free issue was addressed with improved memory management. This issue is fixed in iOS 14.8 and iPadOS 14.8, macOS Big Sur 11.6. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
@@ -23914,13 +23903,6 @@
 </code>
 
 - [0xRaw/CVE-2021-42183](https://github.com/0xRaw/CVE-2021-42183)
-
-### CVE-2021-42205 (2022-11-07)
-
-<code>ELAN Miniport touchpad Windows driver before 24.21.51.2, as used in PC hardware from multiple manufacturers, allows local users to cause a system crash by sending a certain IOCTL request, because that request is handled twice.
-</code>
-
-- [gmh5225/CVE-2021-42205](https://github.com/gmh5225/CVE-2021-42205)
 
 ### CVE-2021-42230 (2022-04-15)
 
@@ -30784,13 +30766,6 @@
 </code>
 
 - [ghillert/boot-jackson-cve](https://github.com/ghillert/boot-jackson-cve)
-
-### CVE-2020-36603 (2020-10-15)
-
-<code>The HoYoVerse (formerly miHoYo) Genshin Impact mhyprot2.sys 1.0.0.0 anti-cheat driver does not adequately restrict unprivileged function calls, allowing local, unprivileged users to execute arbitrary code with SYSTEM privileges on Microsoft Windows systems. The mhyprot2.sys driver must first be installed by a user with administrative privileges.
-</code>
-
-- [gmh5225/CVE-2020-36603](https://github.com/gmh5225/CVE-2020-36603)
 
 ### CVE-2020-36730 (2023-06-07)
 
@@ -42307,7 +42282,6 @@
 </code>
 
 - [Tare05/Intel-CVE-2015-2291](https://github.com/Tare05/Intel-CVE-2015-2291)
-- [gmh5225/CVE-2015-2291](https://github.com/gmh5225/CVE-2015-2291)
 
 ### CVE-2015-2315 (2015-03-17)
 
@@ -44327,6 +44301,7 @@
 - [LeDucKhiem/CVE-2012-2982](https://github.com/LeDucKhiem/CVE-2012-2982)
 - [CpyRe/CVE-2012-2982](https://github.com/CpyRe/CVE-2012-2982)
 - [Shadow-Spinner/CVE-2012-2982_python](https://github.com/Shadow-Spinner/CVE-2012-2982_python)
+- [elliotosama/CVE-2012-2982](https://github.com/elliotosama/CVE-2012-2982)
 
 ### CVE-2012-3137 (2012-09-21)
 
@@ -45568,7 +45543,6 @@
 <code>Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.
 </code>
 
-- [gmh5225/CVE-2003-0358](https://github.com/gmh5225/CVE-2003-0358)
 - [fengjixuchui/CVE-2003-0358](https://github.com/fengjixuchui/CVE-2003-0358)
 
 
