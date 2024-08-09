@@ -1128,6 +1128,7 @@
 </code>
 
 - [zangjiahe/CVE-2024-6782](https://github.com/zangjiahe/CVE-2024-6782)
+- [jdpsl/CVE-2024-6782](https://github.com/jdpsl/CVE-2024-6782)
 
 ### CVE-2024-7339 (2024-08-01)
 
@@ -3704,6 +3705,14 @@
 </code>
 
 - [varwara/CVE-2024-38041](https://github.com/varwara/CVE-2024-38041)
+
+### CVE-2024-38077 (2024-07-09)
+
+<code>Windows Remote Desktop Licensing Service Remote Code Execution Vulnerability
+</code>
+
+- [CloudCrowSec001/CVE-2024-38077-POC](https://github.com/CloudCrowSec001/CVE-2024-38077-POC)
+- [qi4L/CVE-2024-38077](https://github.com/qi4L/CVE-2024-38077)
 
 ### CVE-2024-38100 (2024-07-09)
 
@@ -21182,7 +21191,6 @@
 - [rakjong/CVE-2021-26295-Apache-OFBiz](https://github.com/rakjong/CVE-2021-26295-Apache-OFBiz)
 - [dskho/CVE-2021-26295](https://github.com/dskho/CVE-2021-26295)
 - [coolyin001/CVE-2021-26295--](https://github.com/coolyin001/CVE-2021-26295--)
-- [S0por/CVE-2021-26295-Apache-OFBiz-EXP](https://github.com/S0por/CVE-2021-26295-Apache-OFBiz-EXP)
 - [yuaneuro/ofbiz-poc](https://github.com/yuaneuro/ofbiz-poc)
 
 ### CVE-2021-26411 (2021-03-11)
@@ -26232,7 +26240,7 @@
 </code>
 
 - [yardenshafir/CVE-2020-1034](https://github.com/yardenshafir/CVE-2020-1034)
-- [GeorgyFirsov/CVE-2020-1034](https://github.com/GeorgyFirsov/CVE-2020-1034)
+- [GeorgiiFirsov/CVE-2020-1034](https://github.com/GeorgiiFirsov/CVE-2020-1034)
 
 ### CVE-2020-1048 (2020-05-21)
 
@@ -27524,7 +27532,7 @@
 </code>
 
 - [knqyf263/CVE-2020-8617](https://github.com/knqyf263/CVE-2020-8617)
-- [rmkn/cve-2020-8617](https://github.com/rmkn/cve-2020-8617)
+- [gothburz/cve-2020-8617](https://github.com/gothburz/cve-2020-8617)
 
 ### CVE-2020-8635 (2020-03-06)
 
@@ -29832,7 +29840,6 @@
 </code>
 
 - [MzzdToT/CVE-2020-25078](https://github.com/MzzdToT/CVE-2020-25078)
-- [S0por/CVE-2020-25078](https://github.com/S0por/CVE-2020-25078)
 - [chinaYozz/CVE-2020-25078](https://github.com/chinaYozz/CVE-2020-25078)
 
 ### CVE-2020-25134 (2020-09-25)
