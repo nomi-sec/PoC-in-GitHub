@@ -1491,6 +1491,7 @@
 </code>
 
 - [W01fh4cker/CVE-2024-22120-RCE](https://github.com/W01fh4cker/CVE-2024-22120-RCE)
+- [g4nkd/CVE-2024-22120-RCE-with-gopher](https://github.com/g4nkd/CVE-2024-22120-RCE-with-gopher)
 
 ### CVE-2024-22145 (2024-05-17)
 
@@ -3732,6 +3733,8 @@
 - [Sec-Link/CVE-2024-38077](https://github.com/Sec-Link/CVE-2024-38077)
 - [murphysecurity/RDL-detect](https://github.com/murphysecurity/RDL-detect)
 - [Wlibang/CVE-2024-38077](https://github.com/Wlibang/CVE-2024-38077)
+- [psl-b/CVE-2024-38077-check](https://github.com/psl-b/CVE-2024-38077-check)
+- [zhuxi1965/CVE-2024-38077-RDLCheck](https://github.com/zhuxi1965/CVE-2024-38077-RDLCheck)
 
 ### CVE-2024-38100 (2024-07-09)
 
@@ -18030,6 +18033,7 @@
 </code>
 
 - [yerodin/CVE-2022-44149](https://github.com/yerodin/CVE-2022-44149)
+- [geniuszlyy/CVE-2022-44149](https://github.com/geniuszlyy/CVE-2022-44149)
 
 ### CVE-2022-44183 (2022-11-21)
 
@@ -18307,6 +18311,7 @@
 </code>
 
 - [yerodin/CVE-2022-45701](https://github.com/yerodin/CVE-2022-45701)
+- [geniuszlyy/CVE-2022-45701](https://github.com/geniuszlyy/CVE-2022-45701)
 
 ### CVE-2022-45728 (2023-01-12)
 
@@ -18366,6 +18371,7 @@
 </code>
 
 - [yerodin/CVE-2022-46080](https://github.com/yerodin/CVE-2022-46080)
+- [geniuszlyy/CVE-2022-46080](https://github.com/geniuszlyy/CVE-2022-46080)
 
 ### CVE-2022-46087 (2023-01-30)
 
@@ -32367,6 +32373,7 @@
 - [FedericoTorres233/CVE-2019-9053-Fixed](https://github.com/FedericoTorres233/CVE-2019-9053-Fixed)
 - [Dh4nuJ4/SimpleCTF-UpdatedExploit](https://github.com/Dh4nuJ4/SimpleCTF-UpdatedExploit)
 - [TeymurNovruzov/CVE-2019-9053-python3-remastered](https://github.com/TeymurNovruzov/CVE-2019-9053-python3-remastered)
+- [jtoalu/CTF-CVE-2019-9053-GTFOBins](https://github.com/jtoalu/CTF-CVE-2019-9053-GTFOBins)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
