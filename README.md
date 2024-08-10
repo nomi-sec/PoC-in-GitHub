@@ -3258,7 +3258,6 @@
 - [cmsec423/CVE-2024-34102](https://github.com/cmsec423/CVE-2024-34102)
 - [cmsec423/Magento-XXE-CVE-2024-34102](https://github.com/cmsec423/Magento-XXE-CVE-2024-34102)
 - [jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento](https://github.com/jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento)
-- [0xhunster/CVE-2024-34102](https://github.com/0xhunster/CVE-2024-34102)
 - [SamJUK/cosmicsting-validator](https://github.com/SamJUK/cosmicsting-validator)
 - [unknownzerobit/poc](https://github.com/unknownzerobit/poc)
 - [crynomore/CVE-2024-34102](https://github.com/crynomore/CVE-2024-34102)
@@ -3736,6 +3735,7 @@
 - [psl-b/CVE-2024-38077-check](https://github.com/psl-b/CVE-2024-38077-check)
 - [zhuxi1965/CVE-2024-38077-RDLCheck](https://github.com/zhuxi1965/CVE-2024-38077-RDLCheck)
 - [lworld0x00/CVE-2024-38077-notes](https://github.com/lworld0x00/CVE-2024-38077-notes)
+- [BambiZombie/CVE-2024-38077-check](https://github.com/BambiZombie/CVE-2024-38077-check)
 
 ### CVE-2024-38100 (2024-07-09)
 
