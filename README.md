@@ -3735,6 +3735,7 @@
 - [Wlibang/CVE-2024-38077](https://github.com/Wlibang/CVE-2024-38077)
 - [psl-b/CVE-2024-38077-check](https://github.com/psl-b/CVE-2024-38077-check)
 - [zhuxi1965/CVE-2024-38077-RDLCheck](https://github.com/zhuxi1965/CVE-2024-38077-RDLCheck)
+- [lworld0x00/CVE-2024-38077-notes](https://github.com/lworld0x00/CVE-2024-38077-notes)
 
 ### CVE-2024-38100 (2024-07-09)
 
@@ -3784,6 +3785,7 @@
 </code>
 
 - [securelayer7/CVE-2024-38856_Scanner](https://github.com/securelayer7/CVE-2024-38856_Scanner)
+- [ThatNotEasy/CVE-2024-38856](https://github.com/ThatNotEasy/CVE-2024-38856)
 
 ### CVE-2024-39031 (2024-07-09)
 
