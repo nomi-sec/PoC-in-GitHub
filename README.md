@@ -874,7 +874,7 @@
 - [xungzzz/CVE-2024-4956](https://github.com/xungzzz/CVE-2024-4956)
 - [erickfernandox/CVE-2024-4956](https://github.com/erickfernandox/CVE-2024-4956)
 - [thinhap/CVE-2024-4956-PoC](https://github.com/thinhap/CVE-2024-4956-PoC)
-- [eoslvs/CVE-2024-4956](https://github.com/eoslvs/CVE-2024-4956)
+- [yagyuufellinluvv/CVE-2024-4956](https://github.com/yagyuufellinluvv/CVE-2024-4956)
 - [GoatSecurity/CVE-2024-4956](https://github.com/GoatSecurity/CVE-2024-4956)
 - [TypicalModMaker/CVE-2024-4956](https://github.com/TypicalModMaker/CVE-2024-4956)
 - [Praison001/CVE-2024-4956-Sonatype-Nexus-Repository-Manager](https://github.com/Praison001/CVE-2024-4956-Sonatype-Nexus-Repository-Manager)
@@ -2049,6 +2049,7 @@
 - [diegogarciayala/CVE-2024-24590-ClearML-RCE-CMD-POC](https://github.com/diegogarciayala/CVE-2024-24590-ClearML-RCE-CMD-POC)
 - [junnythemarksman/CVE-2024-24590](https://github.com/junnythemarksman/CVE-2024-24590)
 - [sviim/ClearML-CVE-2024-24590-RCE](https://github.com/sviim/ClearML-CVE-2024-24590-RCE)
+- [Bigb972003/cve-2024-24590](https://github.com/Bigb972003/cve-2024-24590)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -2080,7 +2081,7 @@
 - [emanueldosreis/CVE-2024-24919](https://github.com/emanueldosreis/CVE-2024-24919)
 - [hendprw/CVE-2024-24919](https://github.com/hendprw/CVE-2024-24919)
 - [LucasKatashi/CVE-2024-24919](https://github.com/LucasKatashi/CVE-2024-24919)
-- [eoslvs/CVE-2024-24919](https://github.com/eoslvs/CVE-2024-24919)
+- [yagyuufellinluvv/CVE-2024-24919](https://github.com/yagyuufellinluvv/CVE-2024-24919)
 - [Bytenull00/CVE-2024-24919](https://github.com/Bytenull00/CVE-2024-24919)
 - [am-eid/CVE-2024-24919](https://github.com/am-eid/CVE-2024-24919)
 - [P3wc0/CVE-2024-24919](https://github.com/P3wc0/CVE-2024-24919)
@@ -3742,7 +3743,7 @@
 - [psl-b/CVE-2024-38077-check](https://github.com/psl-b/CVE-2024-38077-check)
 - [zhuxi1965/CVE-2024-38077-RDLCheck](https://github.com/zhuxi1965/CVE-2024-38077-RDLCheck)
 - [lworld0x00/CVE-2024-38077-notes](https://github.com/lworld0x00/CVE-2024-38077-notes)
-- [BambiZombie/CVE-2024-38077-check](https://github.com/BambiZombie/CVE-2024-38077-check)
+- [atlassion/CVE-2024-38077-check](https://github.com/atlassion/CVE-2024-38077-check)
 
 ### CVE-2024-38100 (2024-07-09)
 
