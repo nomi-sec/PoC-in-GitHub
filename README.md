@@ -29140,6 +29140,7 @@
 </code>
 
 - [stong/CVE-2020-15368](https://github.com/stong/CVE-2020-15368)
+- [R7flex/asrockploit](https://github.com/R7flex/asrockploit)
 
 ### CVE-2020-15392 (2020-07-07)
 
