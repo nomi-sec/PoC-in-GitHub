@@ -2322,6 +2322,13 @@
 
 - [Roud-Roud-Agency/CVE-2024-26304-RCE-exploits](https://github.com/Roud-Roud-Agency/CVE-2024-26304-RCE-exploits)
 
+### CVE-2024-26308 (2024-02-19)
+
+<code>Allocation of Resources Without Limits or Throttling vulnerability in Apache Commons Compress.This issue affects Apache Commons Compress: from 1.21 before 1.26.\n\nUsers are recommended to upgrade to version 1.26, which fixes the issue.\n\n
+</code>
+
+- [crazycatMyopic/cve](https://github.com/crazycatMyopic/cve)
+
 ### CVE-2024-26475 (2024-03-14)
 
 <code>An issue in radareorg radare2 v.0.9.7 through v.5.8.6 and fixed in v.5.8.8 allows a local attacker to cause a denial of service via the grub_sfs_read_extent function.
@@ -3839,13 +3846,6 @@
 </code>
 
 - [jasonthename/CVE-2024-39248](https://github.com/jasonthename/CVE-2024-39248)
-
-### CVE-2024-39249 (2024-07-01)
-
-<code>Async &lt;= 2.6.4 and &lt;= 3.2.5 are vulnerable to ReDoS (Regular Expression Denial of Service) while parsing function in autoinject function. NOTE: this is disputed by the supplier because there is no realistic threat model: regular expressions are not used with untrusted input.
-</code>
-
-- [zunak/CVE-2024-39249](https://github.com/zunak/CVE-2024-39249)
 
 ### CVE-2024-39250 (2024-07-22)
 
@@ -6413,6 +6413,7 @@
 - [0xx01/CVE-2023-23752](https://github.com/0xx01/CVE-2023-23752)
 - [N3rdyN3xus/CVE-2023-23752](https://github.com/N3rdyN3xus/CVE-2023-23752)
 - [mil4ne/CVE-2023-23752-Joomla-v4.2.8](https://github.com/mil4ne/CVE-2023-23752-Joomla-v4.2.8)
+- [Aureum01/CVE-2023-23752](https://github.com/Aureum01/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -9903,6 +9904,7 @@
 </code>
 
 - [prodigiousMind/CVE-2023-41425](https://github.com/prodigiousMind/CVE-2023-41425)
+- [charlesgargasson/CVE-2023-41425](https://github.com/charlesgargasson/CVE-2023-41425)
 
 ### CVE-2023-41436 (2023-09-15)
 
