@@ -3599,7 +3599,11 @@
 ### CVE-2024-36842
 - [abbiy/Backdooring-Oncord-Android-Sterio-](https://github.com/abbiy/Backdooring-Oncord-Android-Sterio-)
 
-### CVE-2024-36877
+### CVE-2024-36877 (2024-08-12)
+
+<code>Micro-Star International Z-series motherboards (Z590, Z490, and Z790) and B-series motherboards (B760, B560, B660, and B460) with firmware 7D25v14, 7D25v17 to 7D25v19, and 7D25v1A to 7D25v1H was discovered to contain a write-what-where condition in the in the SW handler for SMI 0xE3.
+</code>
+
 - [jjensn/CVE-2024-36877](https://github.com/jjensn/CVE-2024-36877)
 
 ### CVE-2024-36991 (2024-07-01)
@@ -3646,6 +3650,7 @@
 
 - [mahmutaymahmutay/CVE-2024-37085](https://github.com/mahmutaymahmutay/CVE-2024-37085)
 - [Florian-Hoth/CVE-2024-37085-RCE-POC](https://github.com/Florian-Hoth/CVE-2024-37085-RCE-POC)
+- [WTN-arny/Vmware-ESXI](https://github.com/WTN-arny/Vmware-ESXI)
 
 ### CVE-2024-37147 (2024-07-10)
 
@@ -3984,7 +3989,11 @@
 
 - [Dirac231/CVE-2024-40498](https://github.com/Dirac231/CVE-2024-40498)
 
-### CVE-2024-40500
+### CVE-2024-40500 (2024-08-12)
+
+<code>Cross Site Scripting vulnerability in Martin Kucej i-librarian v.5.11.0 and before allows a local attacker to execute arbitrary code via the search function in the import component.
+</code>
+
 - [nitipoom-jar/CVE-2024-40500](https://github.com/nitipoom-jar/CVE-2024-40500)
 
 ### CVE-2024-40506
@@ -4064,7 +4073,11 @@
 
 - [alemusix/CVE-2024-41640](https://github.com/alemusix/CVE-2024-41640)
 
-### CVE-2024-41651
+### CVE-2024-41651 (2024-08-12)
+
+<code>An issue in Prestashop v.8.1.7 and before allows a remote attacker to execute arbitrary code via the module upgrade functionality.
+</code>
+
 - [Fckroun/CVE-2024-41651](https://github.com/Fckroun/CVE-2024-41651)
 
 ### CVE-2024-41662 (2024-07-24)
@@ -16338,6 +16351,7 @@
 - [Chocapikk/CVE-2022-31814](https://github.com/Chocapikk/CVE-2022-31814)
 - [dkstar11q/CVE-2022-31814](https://github.com/dkstar11q/CVE-2022-31814)
 - [Laburity/CVE-2022-31814](https://github.com/Laburity/CVE-2022-31814)
+- [ArunHAtter/CVE-2022-31814](https://github.com/ArunHAtter/CVE-2022-31814)
 
 ### CVE-2022-31854 (2022-07-07)
 
@@ -18063,7 +18077,6 @@
 </code>
 
 - [yerodin/CVE-2022-44149](https://github.com/yerodin/CVE-2022-44149)
-- [geniuszlyy/CVE-2022-44149](https://github.com/geniuszlyy/CVE-2022-44149)
 
 ### CVE-2022-44183 (2022-11-21)
 
@@ -18341,7 +18354,6 @@
 </code>
 
 - [yerodin/CVE-2022-45701](https://github.com/yerodin/CVE-2022-45701)
-- [geniuszlyy/CVE-2022-45701](https://github.com/geniuszlyy/CVE-2022-45701)
 
 ### CVE-2022-45728 (2023-01-12)
 
@@ -18401,7 +18413,6 @@
 </code>
 
 - [yerodin/CVE-2022-46080](https://github.com/yerodin/CVE-2022-46080)
-- [geniuszlyy/CVE-2022-46080](https://github.com/geniuszlyy/CVE-2022-46080)
 
 ### CVE-2022-46087 (2023-01-30)
 
@@ -27088,6 +27099,7 @@
 - [InitRoot/CVE-2020-6308-PoC](https://github.com/InitRoot/CVE-2020-6308-PoC)
 - [freeFV/CVE-2020-6308-mass-exploiter](https://github.com/freeFV/CVE-2020-6308-mass-exploiter)
 - [TheMMMdev/CVE-2020-6308](https://github.com/TheMMMdev/CVE-2020-6308)
+- [MachadoOtto/sap_bo_launchpad-ssrf-timing_attack](https://github.com/MachadoOtto/sap_bo_launchpad-ssrf-timing_attack)
 
 ### CVE-2020-6364 (2020-10-15)
 
