@@ -3464,6 +3464,13 @@
 
 - [julio-cfa/CVE-2024-34832](https://github.com/julio-cfa/CVE-2024-34832)
 
+### CVE-2024-34833 (2024-06-17)
+
+<code>Sourcecodester Payroll Management System v1.0 is vulnerable to File Upload. Users can upload images via the &quot;save_settings&quot; page. An unauthenticated attacker can leverage this functionality to upload a malicious PHP file instead. Successful exploitation of this vulnerability results in the ability to execute arbitrary code as the user running the web server.
+</code>
+
+- [ShellUnease/CVE-2024-34833-payroll-management-system-rce](https://github.com/ShellUnease/CVE-2024-34833-payroll-management-system-rce)
+
 ### CVE-2024-34958 (-)
 
 <code>idccms v1.35 was discovered to contain a Cross-Site Request Forgery (CSRF) via the component admin/banner_deal.php?mudi=add
@@ -18045,7 +18052,6 @@
 </code>
 
 - [yerodin/CVE-2022-44149](https://github.com/yerodin/CVE-2022-44149)
-- [geniuszlyy/CVE-2022-44149](https://github.com/geniuszlyy/CVE-2022-44149)
 
 ### CVE-2022-44183 (2022-11-21)
 
@@ -18323,7 +18329,6 @@
 </code>
 
 - [yerodin/CVE-2022-45701](https://github.com/yerodin/CVE-2022-45701)
-- [geniuszlyy/CVE-2022-45701](https://github.com/geniuszlyy/CVE-2022-45701)
 
 ### CVE-2022-45728 (2023-01-12)
 
@@ -18383,7 +18388,6 @@
 </code>
 
 - [yerodin/CVE-2022-46080](https://github.com/yerodin/CVE-2022-46080)
-- [geniuszlyy/CVE-2022-46080](https://github.com/geniuszlyy/CVE-2022-46080)
 
 ### CVE-2022-46087 (2023-01-30)
 
