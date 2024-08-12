@@ -18063,6 +18063,7 @@
 </code>
 
 - [yerodin/CVE-2022-44149](https://github.com/yerodin/CVE-2022-44149)
+- [geniuszlyy/CVE-2022-44149](https://github.com/geniuszlyy/CVE-2022-44149)
 
 ### CVE-2022-44183 (2022-11-21)
 
@@ -18340,6 +18341,7 @@
 </code>
 
 - [yerodin/CVE-2022-45701](https://github.com/yerodin/CVE-2022-45701)
+- [geniuszlyy/CVE-2022-45701](https://github.com/geniuszlyy/CVE-2022-45701)
 
 ### CVE-2022-45728 (2023-01-12)
 
@@ -18399,6 +18401,7 @@
 </code>
 
 - [yerodin/CVE-2022-46080](https://github.com/yerodin/CVE-2022-46080)
+- [geniuszlyy/CVE-2022-46080](https://github.com/geniuszlyy/CVE-2022-46080)
 
 ### CVE-2022-46087 (2023-01-30)
 
