@@ -156,6 +156,13 @@
 ### CVE-2024-0713
 - [kitodd/CVE-2024-0713](https://github.com/kitodd/CVE-2024-0713)
 
+### CVE-2024-0741 (2024-01-23)
+
+<code>An out of bounds write in ANGLE could have allowed an attacker to corrupt memory leading to a potentially exploitable crash. This vulnerability affects Firefox &lt; 122, Firefox ESR &lt; 115.7, and Thunderbird &lt; 115.7.
+</code>
+
+- [HyHy100/Firefox-CVE-2024-0741](https://github.com/HyHy100/Firefox-CVE-2024-0741)
+
 ### CVE-2024-0757 (2024-06-04)
 
 <code>The Insert or Embed Articulate Content into WordPress plugin through 4.3000000023 is not properly filtering which file extensions are allowed to be imported on the server, allowing the uploading of malicious code within zip files
@@ -1106,6 +1113,7 @@
 - [l-urk/CVE-2024-6387-L](https://github.com/l-urk/CVE-2024-6387-L)
 - [alex14324/ssh_poc2024](https://github.com/alex14324/ssh_poc2024)
 - [X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker](https://github.com/X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker)
+- [niktoproject/CVE-202406387_Check.py](https://github.com/niktoproject/CVE-202406387_Check.py)
 
 ### CVE-2024-6529 (2024-08-01)
 
@@ -2403,6 +2411,7 @@
 - [Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-](https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-)
 - [Stuub/RCity-CVE-2024-27198](https://github.com/Stuub/RCity-CVE-2024-27198)
 - [HPT-Intern-Task-Submission/CVE-2024-27198](https://github.com/HPT-Intern-Task-Submission/CVE-2024-27198)
+- [Pypi-Project/RCity-CVE-2024-27198](https://github.com/Pypi-Project/RCity-CVE-2024-27198)
 
 ### CVE-2024-27282 (-)
 
@@ -6929,6 +6938,7 @@
 </code>
 
 - [FzBacon/CVE-2023-27216_D-Link_DSL-3782_Router_command_injection](https://github.com/FzBacon/CVE-2023-27216_D-Link_DSL-3782_Router_command_injection)
+- [HoangREALER/CVE-2023-27216](https://github.com/HoangREALER/CVE-2023-27216)
 
 ### CVE-2023-27326 (2024-05-03)
 
@@ -9912,6 +9922,7 @@
 
 - [prodigiousMind/CVE-2023-41425](https://github.com/prodigiousMind/CVE-2023-41425)
 - [charlesgargasson/CVE-2023-41425](https://github.com/charlesgargasson/CVE-2023-41425)
+- [insomnia-jacob/CVE-2023-41425](https://github.com/insomnia-jacob/CVE-2023-41425)
 
 ### CVE-2023-41436 (2023-09-15)
 
@@ -26174,6 +26185,7 @@
 - [Ajomix/CVE-2020-0796](https://github.com/Ajomix/CVE-2020-0796)
 - [hungdnvp/POC-CVE-2020-0796](https://github.com/hungdnvp/POC-CVE-2020-0796)
 - [AdamSonov/smbGhostCVE-2020-0796](https://github.com/AdamSonov/smbGhostCVE-2020-0796)
+- [z3ena/Exploiting-and-Mitigating-CVE-2020-0796-SMBGhost-and-Print-Spooler-Vulnerabilities](https://github.com/z3ena/Exploiting-and-Mitigating-CVE-2020-0796-SMBGhost-and-Print-Spooler-Vulnerabilities)
 
 ### CVE-2020-0799 (2020-03-12)
 
