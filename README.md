@@ -4116,6 +4116,9 @@
 - [HwMex0/CVE-2024-43044](https://github.com/HwMex0/CVE-2024-43044)
 - [jenkinsci-cert/SECURITY-3430](https://github.com/jenkinsci-cert/SECURITY-3430)
 
+### CVE-2024-56662
+- [nimosec/cve-2024-56662](https://github.com/nimosec/cve-2024-56662)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
