@@ -49,6 +49,7 @@
 - [Kai2er/CVE-2024-0044-EXP](https://github.com/Kai2er/CVE-2024-0044-EXP)
 - [hunter24x24/cve_2024_0044](https://github.com/hunter24x24/cve_2024_0044)
 - [nexussecelite/EvilDroid](https://github.com/nexussecelite/EvilDroid)
+- [nahid0x1/CVE-2024-0044](https://github.com/nahid0x1/CVE-2024-0044)
 
 ### CVE-2024-0049 (2024-03-11)
 
@@ -353,6 +354,13 @@
 
 - [ox1111/-CVE-2024-1874-](https://github.com/ox1111/-CVE-2024-1874-)
 - [Tgcohce/CVE-2024-1874](https://github.com/Tgcohce/CVE-2024-1874)
+
+### CVE-2024-1931 (2024-03-07)
+
+<code>NLnet Labs Unbound version 1.18.0 up to and including version 1.19.1 contain a vulnerability that can cause denial of service by a certain code path that can lead to an infinite loop. Unbound 1.18.0 introduced a feature that removes EDE records from responses with size higher than the client's advertised buffer size. Before removing all the EDE records however, it would try to see if trimming the extra text fields on those records would result in an acceptable size while still retaining the EDE codes. Due to an unchecked condition, the code that trims the text of the EDE records could loop indefinitely. This happens when Unbound would reply with attached EDE information on a positive reply and the client's buffer size is smaller than the needed space to include EDE records. The vulnerability can only be triggered when the 'ede: yes' option is used; non default configuration. From version 1.19.2 on, the code is fixed to avoid looping indefinitely.
+</code>
+
+- [passer12/CVE-2024-1931-reproduction](https://github.com/passer12/CVE-2024-1931-reproduction)
 
 ### CVE-2024-2054 (2024-03-05)
 
@@ -2425,7 +2433,6 @@
 - [Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-](https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-)
 - [Stuub/RCity-CVE-2024-27198](https://github.com/Stuub/RCity-CVE-2024-27198)
 - [HPT-Intern-Task-Submission/CVE-2024-27198](https://github.com/HPT-Intern-Task-Submission/CVE-2024-27198)
-- [Pypi-Project/RCity-CVE-2024-27198](https://github.com/Pypi-Project/RCity-CVE-2024-27198)
 
 ### CVE-2024-27282 (-)
 
@@ -12162,6 +12169,9 @@
 </code>
 
 - [FoxyProxys/CVE-2023-52654](https://github.com/FoxyProxys/CVE-2023-52654)
+
+### CVE-2023-52709
+- [KevinMitchell-OSWP-CISSP/CVE-2023-52709-PoC](https://github.com/KevinMitchell-OSWP-CISSP/CVE-2023-52709-PoC)
 
 
 ## 2022
@@ -23232,6 +23242,7 @@
 </code>
 
 - [lsw29475/CVE-2021-39863](https://github.com/lsw29475/CVE-2021-39863)
+- [WHS-SEGFAULT/CVE-2021-39863](https://github.com/WHS-SEGFAULT/CVE-2021-39863)
 
 ### CVE-2021-40101 (2021-11-30)
 
@@ -27941,7 +27952,7 @@
 <code>An issue was discovered in Open Source Social Network (OSSN) through 5.3. A user-controlled file path with a weak cryptographic rand() can be used to read any file with the permissions of the webserver. This can lead to further compromise. The attacker must conduct a brute-force attack against the SiteKey to insert into a crafted URL for components/OssnComments/ossn_com.php and/or libraries/ossn.lib.upgrade.php.
 </code>
 
-- [LucidUnicorn/CVE-2020-10560-Key-Recovery](https://github.com/LucidUnicorn/CVE-2020-10560-Key-Recovery)
+- [alex-seymour/CVE-2020-10560-Key-Recovery](https://github.com/alex-seymour/CVE-2020-10560-Key-Recovery)
 - [kevthehermit/CVE-2020-10560](https://github.com/kevthehermit/CVE-2020-10560)
 
 ### CVE-2020-10596 (2020-03-17)
