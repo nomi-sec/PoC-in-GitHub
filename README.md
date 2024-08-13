@@ -1752,6 +1752,13 @@
 
 - [uthrasri/CVE-2024-23708](https://github.com/uthrasri/CVE-2024-23708)
 
+### CVE-2024-23709 (2024-05-07)
+
+<code>In multiple locations, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.
+</code>
+
+- [AbrarKhan/external_sonivox_CVE-2024-23709](https://github.com/AbrarKhan/external_sonivox_CVE-2024-23709)
+
 ### CVE-2024-23722 (2024-03-26)
 
 <code>In Fluent Bit 2.1.8 through 2.2.1, a NULL pointer dereference can be caused via an invalid HTTP payload with the content type of x-www-form-urlencoded. It crashes and does not restart. This could result in logs not being delivered properly.
@@ -2949,6 +2956,13 @@
 
 - [Abdurahmon3236/-CVE-2024-31211](https://github.com/Abdurahmon3236/-CVE-2024-31211)
 
+### CVE-2024-31315 (2024-07-09)
+
+<code>In multiple functions of ManagedServices.java, there is a possible way to hide an app with notification access in the Device &amp; app notifications settings due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.
+</code>
+
+- [uthrasri/frameworks_base_CVE-2024-31315](https://github.com/uthrasri/frameworks_base_CVE-2024-31315)
+
 ### CVE-2024-31351 (2024-05-17)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in Copymatic Copymatic – AI Content Writer &amp; Generator.This issue affects Copymatic – AI Content Writer &amp; Generator: from n/a through 1.6.
@@ -3298,6 +3312,7 @@
 - [etx-Arn/CVE-2024-34102-RCE](https://github.com/etx-Arn/CVE-2024-34102-RCE)
 - [etx-Arn/CVE-2024-34102-RCE-PoC](https://github.com/etx-Arn/CVE-2024-34102-RCE-PoC)
 - [wubinworks/magento2-cosmic-sting-patch](https://github.com/wubinworks/magento2-cosmic-sting-patch)
+- [EQSTSeminar/CVE-2024-34102](https://github.com/EQSTSeminar/CVE-2024-34102)
 
 ### CVE-2024-34144 (2024-05-02)
 
@@ -3574,6 +3589,13 @@
 </code>
 
 - [kva55/CVE-2024-36416](https://github.com/kva55/CVE-2024-36416)
+
+### CVE-2024-36424 (2024-08-06)
+
+<code>K7RKScan.sys in K7 Ultimate Security before 17.0.2019 allows local users to cause a denial of service (BSOD) because of a NULL pointer dereference.
+</code>
+
+- [secunnix/CVE-2024-36424](https://github.com/secunnix/CVE-2024-36424)
 
 ### CVE-2024-36527 (2024-06-17)
 
@@ -4115,6 +4137,7 @@
 
 - [HwMex0/CVE-2024-43044](https://github.com/HwMex0/CVE-2024-43044)
 - [jenkinsci-cert/SECURITY-3430](https://github.com/jenkinsci-cert/SECURITY-3430)
+- [v9d0g/CVE-2024-43044-POC](https://github.com/v9d0g/CVE-2024-43044-POC)
 
 ### CVE-2024-56662
 - [nimosec/cve-2024-56662](https://github.com/nimosec/cve-2024-56662)
@@ -4861,6 +4884,13 @@
 </code>
 
 - [AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research)
+
+### CVE-2023-3897 (2023-07-25)
+
+<code>\nUsername enumeration is possible through Bypassing CAPTCHA in On-premise SureMDM Solution on Windows deployment allows attacker to enumerate local user information via error message.\n\nThis issue affects SureMDM On-premise: 6.31 and below version \n\n
+</code>
+
+- [jFriedli/CVE-2023-3897](https://github.com/jFriedli/CVE-2023-3897)
 
 ### CVE-2023-3971 (2023-10-04)
 
