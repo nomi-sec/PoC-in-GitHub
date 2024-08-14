@@ -39921,7 +39921,6 @@
 
 - [assalielmehdi/CVE-2017-12635](https://github.com/assalielmehdi/CVE-2017-12635)
 - [cyberharsh/Apache-couchdb-CVE-2017-12635](https://github.com/cyberharsh/Apache-couchdb-CVE-2017-12635)
-- [tranmanhdat/couchdb_cve-2017-12635](https://github.com/tranmanhdat/couchdb_cve-2017-12635)
 
 ### CVE-2017-12636 (2017-11-14)
 
@@ -44130,6 +44129,7 @@
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 - [0xl0k1/CVE-2012-1823](https://github.com/0xl0k1/CVE-2012-1823)
+- [0xFatality/CVE-2012-1823](https://github.com/0xFatality/CVE-2012-1823)
 
 ### CVE-2012-1870 (2012-07-10)
 
