@@ -857,6 +857,7 @@
 - [ShadowByte1/CVE-2024-4879](https://github.com/ShadowByte1/CVE-2024-4879)
 - [Praison001/CVE-2024-4879-ServiceNow](https://github.com/Praison001/CVE-2024-4879-ServiceNow)
 - [NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning](https://github.com/NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning)
+- [jdusane/CVE-2024-4879](https://github.com/jdusane/CVE-2024-4879)
 
 ### CVE-2024-4883 (2024-06-25)
 
@@ -1752,6 +1753,13 @@
 - [BBD-YZZ/CVE-2024-23692](https://github.com/BBD-YZZ/CVE-2024-23692)
 - [0x20c/CVE-2024-23692-EXP](https://github.com/0x20c/CVE-2024-23692-EXP)
 - [pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692](https://github.com/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692)
+
+### CVE-2024-23705 (2024-05-07)
+
+<code>In multiple locations, there is a possible failure to persist or enforce user restrictions due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.
+</code>
+
+- [uthrasri/frameworks_base_CVE-2024-23705](https://github.com/uthrasri/frameworks_base_CVE-2024-23705)
 
 ### CVE-2024-23708 (2024-05-07)
 
@@ -2962,13 +2970,6 @@
 </code>
 
 - [Abdurahmon3236/-CVE-2024-31211](https://github.com/Abdurahmon3236/-CVE-2024-31211)
-
-### CVE-2024-31315 (2024-07-09)
-
-<code>In multiple functions of ManagedServices.java, there is a possible way to hide an app with notification access in the Device &amp; app notifications settings due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.
-</code>
-
-- [uthrasri/frameworks_base_CVE-2024-31315](https://github.com/uthrasri/frameworks_base_CVE-2024-31315)
 
 ### CVE-2024-31351 (2024-05-17)
 
@@ -6265,6 +6266,7 @@
 - [pashayogi/CVE-2023-22809](https://github.com/pashayogi/CVE-2023-22809)
 - [asepsaepdin/CVE-2023-22809](https://github.com/asepsaepdin/CVE-2023-22809)
 - [Toothless5143/CVE-2023-22809](https://github.com/Toothless5143/CVE-2023-22809)
+- [AntiVlad/CVE-2023-22809](https://github.com/AntiVlad/CVE-2023-22809)
 
 ### CVE-2023-22855 (2023-02-15)
 
@@ -25494,7 +25496,7 @@
 <code>Tor Browser 9.0.7 on Windows 10 build 10586 is vulnerable to information disclosure. This could allow local attackers to bypass the intended anonymity feature and obtain information regarding the onion services visited by a local user. This can be accomplished by analyzing RAM memory even several hours after the local user used the product. This occurs because the product doesn't properly free memory.
 </code>
 
-- [malakkf/CVE-2021-46702](https://github.com/malakkf/CVE-2021-46702)
+- [Exmak-s/CVE-2021-46702](https://github.com/Exmak-s/CVE-2021-46702)
 
 ### CVE-2021-46703 (2022-03-06)
 
