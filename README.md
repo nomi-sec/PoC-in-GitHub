@@ -531,6 +531,13 @@
 
 - [TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4](https://github.com/TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4)
 
+### CVE-2024-3183 (2024-06-12)
+
+<code>A vulnerability was found in FreeIPA in a way when a Kerberos TGS-REQ is encrypted using the client’s session key. This key is different for each new session, which protects it from brute force attacks. However, the ticket it contains is encrypted using the target principal key directly. For user principals, this key is a hash of a public per-principal randomly-generated salt and the user’s password.\r\n\r\nIf a principal is compromised it means the attacker would be able to retrieve tickets encrypted to any principal, all of them being encrypted by their own key directly. By taking these tickets and salts offline, the attacker could run brute force attacks to find character strings able to decrypt tickets when combined to a principal salt (i.e. find the principal’s password).
+</code>
+
+- [Cyxow/CVE-2024-3183-POC](https://github.com/Cyxow/CVE-2024-3183-POC)
+
 ### CVE-2024-3217 (2024-04-05)
 
 <code>The WP Directory Kit plugin for WordPress is vulnerable to SQL Injection via the 'attribute_value' and 'attribute_id' parameters in all versions up to, and including, 1.3.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -897,6 +904,7 @@
 - [Cappricio-Securities/CVE-2024-4956](https://github.com/Cappricio-Securities/CVE-2024-4956)
 - [fin3ss3g0d/CVE-2024-4956](https://github.com/fin3ss3g0d/CVE-2024-4956)
 - [verylazytech/CVE-2024-4956](https://github.com/verylazytech/CVE-2024-4956)
+- [JolyIrsb/CVE-2024-4956](https://github.com/JolyIrsb/CVE-2024-4956)
 
 ### CVE-2024-5009 (2024-06-25)
 
@@ -1522,6 +1530,7 @@
 </code>
 
 - [W01fh4cker/CVE-2024-22120-RCE](https://github.com/W01fh4cker/CVE-2024-22120-RCE)
+- [isPique/CVE-2024-22120-RCE-with-gopher](https://github.com/isPique/CVE-2024-22120-RCE-with-gopher)
 - [g4nkd/CVE-2024-22120-RCE-with-gopher](https://github.com/g4nkd/CVE-2024-22120-RCE-with-gopher)
 
 ### CVE-2024-22145 (2024-05-17)
