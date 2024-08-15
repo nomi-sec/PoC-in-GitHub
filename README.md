@@ -1374,7 +1374,6 @@
 - [MSeymenD/CVE-2024-21413](https://github.com/MSeymenD/CVE-2024-21413)
 - [Mdusmandasthaheer/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/Mdusmandasthaheer/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
 - [ahmetkarakayaoffical/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/ahmetkarakayaoffical/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
-- [DevAkabari/CVE-2024-21413](https://github.com/DevAkabari/CVE-2024-21413)
 - [dshabani96/CVE-2024-21413](https://github.com/dshabani96/CVE-2024-21413)
 - [X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit](https://github.com/X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit)
 - [th3Hellion/CVE-2024-21413](https://github.com/th3Hellion/CVE-2024-21413)
@@ -3654,7 +3653,7 @@
 
 ### CVE-2024-36877 (2024-08-12)
 
-<code>Micro-Star International Z-series motherboards (Z590, Z490, and Z790) and B-series motherboards (B760, B560, B660, and B460) with firmware 7D25v14, 7D25v17 to 7D25v19, and 7D25v1A to 7D25v1H was discovered to contain a write-what-where condition in the in the SW handler for SMI 0xE3.
+<code>Micro-Star International Z-series motherboards (Z590, Z490, and Z790) and B-series motherboards (B760, B560, B660, and B460) with firmware 7D25v14, 7D25v17 to 7D25v19, and 7D25v1A to 7D25v1H was discovered to contain a write-what-where condition in the in the SW handler for SMI 0xE3. Motherboard's with the following chipsets are affected: Intel 300, Intel 400, Intel 500, Intel 600, Intel 700, AMD 300, AMD 400, AMD 500, AMD 600 and AMD 700.
 </code>
 
 - [jjensn/CVE-2024-36877](https://github.com/jjensn/CVE-2024-36877)
@@ -3810,6 +3809,13 @@
 </code>
 
 - [varwara/CVE-2024-38041](https://github.com/varwara/CVE-2024-38041)
+
+### CVE-2024-38063 (2024-08-13)
+
+<code>Windows TCP/IP Remote Code Execution Vulnerability
+</code>
+
+- [diegoalbuquerque/CVE-2024-38063](https://github.com/diegoalbuquerque/CVE-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -4154,6 +4160,9 @@
 </code>
 
 - [fevar54/CVE-2024-42461](https://github.com/fevar54/CVE-2024-42461)
+
+### CVE-2024-42758
+- [1s1ldur/CVE-2024-42758](https://github.com/1s1ldur/CVE-2024-42758)
 
 ### CVE-2024-43044 (2024-08-07)
 
@@ -20997,7 +21006,7 @@
 <code>The Support Board WordPress plugin before 3.3.4 does not escape multiple POST parameters (such as status_code, department, user_id, conversation_id, conversation_status_code, and recipient_id) before using them in SQL statements, leading to SQL injections which are exploitable by unauthenticated users.
 </code>
 
-- [itsjeffersonli/CVE-2021-24741](https://github.com/itsjeffersonli/CVE-2021-24741)
+- [dldygnl/CVE-2021-24741](https://github.com/dldygnl/CVE-2021-24741)
 
 ### CVE-2021-24750 (2021-12-21)
 
@@ -21011,7 +21020,7 @@
 <code>The Support Board WordPress plugin before 3.3.5 allows Authenticated (Agent+) users to perform Cross-Site Scripting attacks by placing a payload in the notes field, when an administrator or any authenticated user go to the chat the XSS will be automatically executed.
 </code>
 
-- [itsjeffersonli/CVE-2021-24807](https://github.com/itsjeffersonli/CVE-2021-24807)
+- [dldygnl/CVE-2021-24807](https://github.com/dldygnl/CVE-2021-24807)
 
 ### CVE-2021-24884 (2021-10-25)
 
@@ -26985,10 +26994,10 @@
 - [Shu1L/CVE-2020-5902-fofa-scan](https://github.com/Shu1L/CVE-2020-5902-fofa-scan)
 - [d4rk007/F5-Big-IP-CVE-2020-5902-mass-exploiter](https://github.com/d4rk007/F5-Big-IP-CVE-2020-5902-mass-exploiter)
 - [TheCyberViking/CVE-2020-5902-Vuln-Checker](https://github.com/TheCyberViking/CVE-2020-5902-Vuln-Checker)
-- [itsjeffersonli/CVE-2020-5902](https://github.com/itsjeffersonli/CVE-2020-5902)
 - [MrCl0wnLab/checker-CVE-2020-5902](https://github.com/MrCl0wnLab/checker-CVE-2020-5902)
 - [qiong-qi/CVE-2020-5902-POC](https://github.com/qiong-qi/CVE-2020-5902-POC)
 - [theLSA/f5-bigip-rce-cve-2020-5902](https://github.com/theLSA/f5-bigip-rce-cve-2020-5902)
+- [flyopenair/CVE-2020-5902](https://github.com/flyopenair/CVE-2020-5902)
 - [Al1ex/CVE-2020-5902](https://github.com/Al1ex/CVE-2020-5902)
 - [freeFV/CVE-2020-5902-fofa-scan](https://github.com/freeFV/CVE-2020-5902-fofa-scan)
 - [momika233/cve-2020-5902](https://github.com/momika233/cve-2020-5902)
@@ -33862,7 +33871,7 @@
 - [cybervaca/CVE-2019-16113](https://github.com/cybervaca/CVE-2019-16113)
 - [hg8/CVE-2019-16113-PoC](https://github.com/hg8/CVE-2019-16113-PoC)
 - [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
-- [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
+- [dldygnl/CVE-2019-16113](https://github.com/dldygnl/CVE-2019-16113)
 - [0xConstant/CVE-2019-16113](https://github.com/0xConstant/CVE-2019-16113)
 - [DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113)
 - [0xConstant/CVE-2019-16113_](https://github.com/0xConstant/CVE-2019-16113_)
