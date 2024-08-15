@@ -206,6 +206,7 @@
 - [kevcooper/CVE-2024-1086-checker](https://github.com/kevcooper/CVE-2024-1086-checker)
 - [feely666/CVE-2024-1086](https://github.com/feely666/CVE-2024-1086)
 - [xzx482/CVE-2024-1086](https://github.com/xzx482/CVE-2024-1086)
+- [pl0xe/CVE-2024-1086](https://github.com/pl0xe/CVE-2024-1086)
 
 ### CVE-2024-1112 (2024-01-31)
 
@@ -1063,7 +1064,6 @@
 - [ahlfors/CVE-2024-6387](https://github.com/ahlfors/CVE-2024-6387)
 - [Mufti22/CVE-2024-6387-checkher](https://github.com/Mufti22/CVE-2024-6387-checkher)
 - [thegenetic/CVE-2024-6387-exploit](https://github.com/thegenetic/CVE-2024-6387-exploit)
-- [HadesNull123/CVE-2024-6387_Check](https://github.com/HadesNull123/CVE-2024-6387_Check)
 - [R4Tw1z/CVE-2024-6387](https://github.com/R4Tw1z/CVE-2024-6387)
 - [d0rb/CVE-2024-6387](https://github.com/d0rb/CVE-2024-6387)
 - [oliferFord/CVE-2024-6387-SSH-RCE](https://github.com/oliferFord/CVE-2024-6387-SSH-RCE)
