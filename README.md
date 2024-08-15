@@ -1440,6 +1440,13 @@
 - [phucrio/CVE-2024-21683-RCE](https://github.com/phucrio/CVE-2024-21683-RCE)
 - [xh4vm/CVE-2024-21683](https://github.com/xh4vm/CVE-2024-21683)
 
+### CVE-2024-21733 (2024-01-19)
+
+<code>Generation of Error Message Containing Sensitive Information vulnerability in Apache Tomcat.This issue affects Apache Tomcat: from 8.5.7 through 8.5.63, from 9.0.0-M11 through 9.0.43.\n\nUsers are recommended to upgrade to version 8.5.64 onwards or 9.0.44 onwards, which contain a fix for the issue.\n\n
+</code>
+
+- [LtmThink/CVE-2024-21733](https://github.com/LtmThink/CVE-2024-21733)
+
 ### CVE-2024-21754 (2024-06-11)
 
 <code>A use of password hash with insufficient computational effort vulnerability [CWE-916] affecting FortiOS version 7.4.3 and below, 7.2 all versions, 7.0 all versions, 6.4 all versions and FortiProxy version 7.4.2 and below, 7.2 all versions, 7.0 all versions, 2.0 all versions may allow a privileged attacker with super-admin profile and CLI access to decrypting the backup file.
@@ -3809,7 +3816,7 @@
 <code>Windows Remote Desktop Licensing Service Remote Code Execution Vulnerability
 </code>
 
-- [CloudCrowSec001/CVE-2024-38077-POC](https://github.com/CloudCrowSec001/CVE-2024-38077-POC)
+- [SecStarBot/CVE-2024-38077-POC](https://github.com/SecStarBot/CVE-2024-38077-POC)
 - [qi4L/CVE-2024-38077](https://github.com/qi4L/CVE-2024-38077)
 - [Sec-Link/CVE-2024-38077](https://github.com/Sec-Link/CVE-2024-38077)
 - [murphysecurity/RDL-detect](https://github.com/murphysecurity/RDL-detect)
@@ -3818,6 +3825,7 @@
 - [zhuxi1965/CVE-2024-38077-RDLCheck](https://github.com/zhuxi1965/CVE-2024-38077-RDLCheck)
 - [lworld0x00/CVE-2024-38077-notes](https://github.com/lworld0x00/CVE-2024-38077-notes)
 - [atlassion/CVE-2024-38077-check](https://github.com/atlassion/CVE-2024-38077-check)
+- [BBD-YZZ/fyne-gui](https://github.com/BBD-YZZ/fyne-gui)
 
 ### CVE-2024-38100 (2024-07-09)
 
@@ -37276,6 +37284,7 @@
 - [4xolotl/CVE-2018-15473](https://github.com/4xolotl/CVE-2018-15473)
 - [NestyF/SSH_Enum_CVE-2018-15473](https://github.com/NestyF/SSH_Enum_CVE-2018-15473)
 - [yZ1337/CVE-2018-15473](https://github.com/yZ1337/CVE-2018-15473)
+- [MahdiOsman/CVE-2018-15473-SNMPv1-2-Community-String-Vulnerability-Testing](https://github.com/MahdiOsman/CVE-2018-15473-SNMPv1-2-Community-String-Vulnerability-Testing)
 
 ### CVE-2018-15499 (2018-08-24)
 
