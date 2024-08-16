@@ -4176,7 +4176,11 @@
 
 - [fevar54/CVE-2024-42461](https://github.com/fevar54/CVE-2024-42461)
 
-### CVE-2024-42758
+### CVE-2024-42758 (2024-08-16)
+
+<code>A Cross-site Scripting (XSS) vulnerability exists in version v2024-01-05 of the indexmenu plugin when is used and enabled in Dokuwiki (Open Source Wiki Engine). A malicious attacker can input XSS payloads for example when creating or editing existing page, to trigger the XSS on Dokuwiki, which is then stored in .txt file (due to nature of how Dokuwiki is designed), which presents stored XSS.
+</code>
+
 - [1s1ldur/CVE-2024-42758](https://github.com/1s1ldur/CVE-2024-42758)
 
 ### CVE-2024-42849
