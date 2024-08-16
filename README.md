@@ -1175,6 +1175,9 @@
 - [zangjiahe/CVE-2024-6782](https://github.com/zangjiahe/CVE-2024-6782)
 - [jdpsl/CVE-2024-6782](https://github.com/jdpsl/CVE-2024-6782)
 
+### CVE-2024-7313
+- [Wayne-Ker/CVE-2024-7313](https://github.com/Wayne-Ker/CVE-2024-7313)
+
 ### CVE-2024-7339 (2024-08-01)
 
 <code>In TVT DVR TD-2104TS-CL, DVR TD-2108TS-HP, Provision-ISR DVR SH-4050A5-5L(MM) and AVISION DVR AV108T wurde eine problematische Schwachstelle gefunden. Betroffen ist eine unbekannte Verarbeitung der Datei /queryDevInfo. Dank der Manipulation mit unbekannten Daten kann eine information disclosure-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
@@ -2456,6 +2459,7 @@
 - [Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-](https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-)
 - [Stuub/RCity-CVE-2024-27198](https://github.com/Stuub/RCity-CVE-2024-27198)
 - [HPT-Intern-Task-Submission/CVE-2024-27198](https://github.com/HPT-Intern-Task-Submission/CVE-2024-27198)
+- [jrbH4CK/CVE-2024-27198](https://github.com/jrbH4CK/CVE-2024-27198)
 
 ### CVE-2024-27282 (-)
 
@@ -3803,6 +3807,9 @@
 
 - [uname-s/CVE-2024-37889](https://github.com/uname-s/CVE-2024-37889)
 
+### CVE-2024-38036
+- [hnytgl/CVE-2024-38036](https://github.com/hnytgl/CVE-2024-38036)
+
 ### CVE-2024-38041 (2024-07-09)
 
 <code>Windows Kernel Information Disclosure Vulnerability
@@ -3816,6 +3823,7 @@
 </code>
 
 - [diegoalbuquerque/CVE-2024-38063](https://github.com/diegoalbuquerque/CVE-2024-38063)
+- [proxykingdev/CVE-2024-38063](https://github.com/proxykingdev/CVE-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
