@@ -4164,6 +4164,12 @@
 ### CVE-2024-42758
 - [1s1ldur/CVE-2024-42758](https://github.com/1s1ldur/CVE-2024-42758)
 
+### CVE-2024-42849
+- [njmbb8/CVE-2024-42849](https://github.com/njmbb8/CVE-2024-42849)
+
+### CVE-2024-42850
+- [njmbb8/CVE-2024-42850](https://github.com/njmbb8/CVE-2024-42850)
+
 ### CVE-2024-43044 (2024-08-07)
 
 <code>Jenkins 2.470 and earlier, LTS 2.452.3 and earlier allows agent processes to read arbitrary files from the Jenkins controller file system by using the `ClassLoaderProxy#fetchJar` method in the Remoting library.
@@ -7078,6 +7084,7 @@
 - [izzz0/CVE-2023-27372-POC](https://github.com/izzz0/CVE-2023-27372-POC)
 - [ThatNotEasy/CVE-2023-27372](https://github.com/ThatNotEasy/CVE-2023-27372)
 - [redboltsec/CVE-2023-27372-PoC](https://github.com/redboltsec/CVE-2023-27372-PoC)
+- [1amthebest1/CVE-2023-27372](https://github.com/1amthebest1/CVE-2023-27372)
 
 ### CVE-2023-27470 (2023-09-11)
 
