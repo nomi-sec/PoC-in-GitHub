@@ -4183,10 +4183,18 @@
 
 - [1s1ldur/CVE-2024-42758](https://github.com/1s1ldur/CVE-2024-42758)
 
-### CVE-2024-42849
+### CVE-2024-42849 (2024-08-16)
+
+<code>An issue in Silverpeas v.6.4.2 and lower allows a remote attacker to cause a denial of service via the password change function.
+</code>
+
 - [njmbb8/CVE-2024-42849](https://github.com/njmbb8/CVE-2024-42849)
 
-### CVE-2024-42850
+### CVE-2024-42850 (2024-08-16)
+
+<code>An issue in the password change function of Silverpeas v6.4.2 and lower allows for the bypassing of password complexity requirements.
+</code>
+
 - [njmbb8/CVE-2024-42850](https://github.com/njmbb8/CVE-2024-42850)
 
 ### CVE-2024-43044 (2024-08-07)
