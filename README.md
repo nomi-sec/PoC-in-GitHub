@@ -3823,8 +3823,8 @@
 </code>
 
 - [diegoalbuquerque/CVE-2024-38063](https://github.com/diegoalbuquerque/CVE-2024-38063)
-- [proxykingdev/CVE-2024-38063](https://github.com/proxykingdev/CVE-2024-38063)
 - [noradlb1/CVE-2024-38063-VB](https://github.com/noradlb1/CVE-2024-38063-VB)
+- [hanks445/CVE-2024-38063](https://github.com/hanks445/CVE-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -3848,13 +3848,6 @@
 </code>
 
 - [Florian-Hoth/CVE-2024-38100-RCE-POC](https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC)
-
-### CVE-2024-38143 (2024-08-13)
-
-<code>Windows WLAN AutoConfig Service Elevation of Privilege Vulnerability
-</code>
-
-- [hanks445/CVE-2024-38143-poc](https://github.com/hanks445/CVE-2024-38143-poc)
 
 ### CVE-2024-38366 (2024-07-01)
 
@@ -9531,7 +9524,6 @@
 - [Shisones/MetabaseRCE_CVE-2023-38646](https://github.com/Shisones/MetabaseRCE_CVE-2023-38646)
 - [acesoyeo/METABASE-RCE-CVE-2023-38646-](https://github.com/acesoyeo/METABASE-RCE-CVE-2023-38646-)
 - [UserConnecting/Exploit-CVE-2023-38646-Metabase](https://github.com/UserConnecting/Exploit-CVE-2023-38646-Metabase)
-- [xchg-rax-rax/CVE-2023-38646](https://github.com/xchg-rax-rax/CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -12042,6 +12034,7 @@
 
 - [Rai2en/CVE-2023-50564_Pluck-v4.7.18_PoC](https://github.com/Rai2en/CVE-2023-50564_Pluck-v4.7.18_PoC)
 - [ipuig/CVE-2023-50564](https://github.com/ipuig/CVE-2023-50564)
+- [rwexecute/CVE-2023-50564](https://github.com/rwexecute/CVE-2023-50564)
 
 ### CVE-2023-50596
 - [chandraprarikraj/CVE-2023-50596](https://github.com/chandraprarikraj/CVE-2023-50596)
@@ -24529,7 +24522,6 @@
 - [wagneralves/CVE-2021-43798](https://github.com/wagneralves/CVE-2021-43798)
 - [K3ysTr0K3R/CVE-2021-43798-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-43798-EXPLOIT)
 - [ticofookfook/CVE-2021-43798](https://github.com/ticofookfook/CVE-2021-43798)
-- [xchg-rax-rax/CVE-2021-43798](https://github.com/xchg-rax-rax/CVE-2021-43798)
 - [topyagyuu/CVE-2021-43798](https://github.com/topyagyuu/CVE-2021-43798)
 - [MalekAlthubiany/CVE-2021-43798](https://github.com/MalekAlthubiany/CVE-2021-43798)
 - [Sic4rio/Grafana-Decryptor-for-CVE-2021-43798](https://github.com/Sic4rio/Grafana-Decryptor-for-CVE-2021-43798)
@@ -25265,6 +25257,7 @@
 - [jxpsx/CVE-2021-45232-RCE](https://github.com/jxpsx/CVE-2021-45232-RCE)
 - [wuppp/cve-2021-45232-exp](https://github.com/wuppp/cve-2021-45232-exp)
 - [dskho/CVE-2021-45232](https://github.com/dskho/CVE-2021-45232)
+- [xiju2003/-cve-2021-45232](https://github.com/xiju2003/-cve-2021-45232)
 - [GYLQ/CVE-2021-45232-RCE](https://github.com/GYLQ/CVE-2021-45232-RCE)
 - [fany0r/CVE-2021-45232-RCE](https://github.com/fany0r/CVE-2021-45232-RCE)
 - [yggcwhat/Demo](https://github.com/yggcwhat/Demo)
@@ -42367,7 +42360,6 @@
 - [cd6629/CVE-2015-3306-Python-PoC](https://github.com/cd6629/CVE-2015-3306-Python-PoC)
 - [0xm4ud/ProFTPD_CVE-2015-3306](https://github.com/0xm4ud/ProFTPD_CVE-2015-3306)
 - [jptr218/proftpd_bypass](https://github.com/jptr218/proftpd_bypass)
-- [xchg-rax-rax/CVE-2015-3306-](https://github.com/xchg-rax-rax/CVE-2015-3306-)
 - [JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution](https://github.com/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution)
 
 ### CVE-2015-3337 (2015-05-01)
