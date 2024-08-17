@@ -822,7 +822,6 @@
 - [olebris/CVE-2024-4577](https://github.com/olebris/CVE-2024-4577)
 - [AlperenY-cs/CVE-2024-4577](https://github.com/AlperenY-cs/CVE-2024-4577)
 - [charis3306/CVE-2024-4577](https://github.com/charis3306/CVE-2024-4577)
-- [cybersagor/CVE-2024-4577](https://github.com/cybersagor/CVE-2024-4577)
 - [l0n3m4n/CVE-2024-4577-RCE](https://github.com/l0n3m4n/CVE-2024-4577-RCE)
 - [bibo318/CVE-2024-4577-RCE-ATTACK](https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK)
 - [waived/CVE-2024-4577-PHP-RCE](https://github.com/waived/CVE-2024-4577-PHP-RCE)
@@ -831,6 +830,7 @@
 - [a-roshbaik/CVE-2024-4577-PHP-RCE](https://github.com/a-roshbaik/CVE-2024-4577-PHP-RCE)
 - [Jcccccx/CVE-2024-4577](https://github.com/Jcccccx/CVE-2024-4577)
 - [ManuelKy08/CVE-2024-4577---RR](https://github.com/ManuelKy08/CVE-2024-4577---RR)
+- [bughuntar/CVE-2024-4577](https://github.com/bughuntar/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -3824,6 +3824,7 @@
 
 - [diegoalbuquerque/CVE-2024-38063](https://github.com/diegoalbuquerque/CVE-2024-38063)
 - [proxykingdev/CVE-2024-38063](https://github.com/proxykingdev/CVE-2024-38063)
+- [noradlb1/CVE-2024-38063-VB](https://github.com/noradlb1/CVE-2024-38063-VB)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -4175,6 +4176,12 @@
 </code>
 
 - [fevar54/CVE-2024-42461](https://github.com/fevar54/CVE-2024-42461)
+
+### CVE-2024-42657
+- [sudo-subho/CVE-2024-42657](https://github.com/sudo-subho/CVE-2024-42657)
+
+### CVE-2024-42658
+- [sudo-subho/CVE-2024-42658](https://github.com/sudo-subho/CVE-2024-42658)
 
 ### CVE-2024-42758 (2024-08-16)
 
@@ -23970,7 +23977,6 @@
 - [tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway](https://github.com/tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway)
 - [mauricelambert/CVE-2021-42013](https://github.com/mauricelambert/CVE-2021-42013)
 - [honypot/CVE-2021-42013](https://github.com/honypot/CVE-2021-42013)
-- [Adashz/CVE-2021-42013](https://github.com/Adashz/CVE-2021-42013)
 - [hadrian3689/apache_2.4.50](https://github.com/hadrian3689/apache_2.4.50)
 - [viliuspovilaika/cve-2021-42013](https://github.com/viliuspovilaika/cve-2021-42013)
 - [mightysai1997/cve-2021-42013](https://github.com/mightysai1997/cve-2021-42013)
