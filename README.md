@@ -45168,6 +45168,13 @@
 
 - [anthophilee/A2SV--SSL-VUL-Scan](https://github.com/anthophilee/A2SV--SSL-VUL-Scan)
 
+### CVE-2007-2426 (2007-05-02)
+
+<code>PHP remote file inclusion vulnerability in myfunctions/mygallerybrowser.php in the myGallery 1.4b4 and earlier plugin for WordPress allows remote attackers to execute arbitrary PHP code via a URL in the myPath parameter.
+</code>
+
+- [goudunz1/CVE-2007-2426](https://github.com/goudunz1/CVE-2007-2426)
+
 ### CVE-2007-2447 (2007-05-14)
 
 <code>The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
