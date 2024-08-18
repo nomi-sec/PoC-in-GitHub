@@ -1010,6 +1010,13 @@
 
 - [truonghuuphuc/CVE-2024-6028-Poc](https://github.com/truonghuuphuc/CVE-2024-6028-Poc)
 
+### CVE-2024-6043 (2024-06-17)
+
+<code>Es wurde eine Schwachstelle in SourceCodester Best House Rental Management System 1.0 entdeckt. Sie wurde als kritisch eingestuft. Es geht dabei um die Funktion login der Datei admin_class.php. Durch Manipulation des Arguments username mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [lfillaz/CVE-2024-6043](https://github.com/lfillaz/CVE-2024-6043)
+
 ### CVE-2024-6050 (2024-07-01)
 
 <code>Improper Neutralization of Input During Web Page Generation vulnerability in SOKRATES-software SOWA OPAC allows a Reflected Cross-Site Scripting (XSS). An attacker might trick somebody into using a crafted URL, which will cause a script to be run in user's browser. This issue affects SOWA OPAC software in versions from 4.0 before 4.9.10, from 5.0 before 6.2.12.
@@ -3675,6 +3682,7 @@
 </code>
 
 - [jjensn/CVE-2024-36877](https://github.com/jjensn/CVE-2024-36877)
+- [CERTologists/POC-CVE-2024-36877](https://github.com/CERTologists/POC-CVE-2024-36877)
 
 ### CVE-2024-36991 (2024-07-01)
 
