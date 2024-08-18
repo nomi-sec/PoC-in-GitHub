@@ -1182,6 +1182,13 @@
 - [zangjiahe/CVE-2024-6782](https://github.com/zangjiahe/CVE-2024-6782)
 - [jdpsl/CVE-2024-6782](https://github.com/jdpsl/CVE-2024-6782)
 
+### CVE-2024-7094 (2024-08-13)
+
+<code>The JS Help Desk – The Ultimate Help Desk &amp; Support Plugin plugin for WordPress is vulnerable to PHP Code Injection leading to Remote Code Execution in all versions up to, and including, 2.8.6 via the 'storeTheme' function. This is due to a lack of sanitization on user-supplied values, which replace values in the style.php file, along with missing capability checks. This makes it possible for unauthenticated attackers to execute code on the server. This issue was partially patched in 2.8.6 when the code injection issue was resolved, and fully patched in 2.8.7 when the missing authorization and cross-site request forgery protection was added.
+</code>
+
+- [nastar-id/CVE-2024-7094](https://github.com/nastar-id/CVE-2024-7094)
+
 ### CVE-2024-7313
 - [Wayne-Ker/CVE-2024-7313](https://github.com/Wayne-Ker/CVE-2024-7313)
 
@@ -3900,12 +3907,22 @@
 
 - [Abdurahmon3236/CVE-2024-38473](https://github.com/Abdurahmon3236/CVE-2024-38473)
 
+### CVE-2024-38475 (2024-07-01)
+
+<code>Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that are permitted to be served by the server but are not intentionally/directly reachable by any URL, resulting in code execution or source code disclosure. \n\nSubstitutions in server context that use a backreferences or variables as the first segment of the substitution are affected.  Some unsafe RewiteRules will be broken by this change and the rewrite flag &quot;UnsafePrefixStat&quot; can be used to opt back in once ensuring the substitution is appropriately constrained.
+</code>
+
+- [p0in7s/CVE-2024-38475](https://github.com/p0in7s/CVE-2024-38475)
+
 ### CVE-2024-38537 (2024-07-02)
 
 <code>Fides is an open-source privacy engineering platform. `fides.js`, a client-side script used to interact with the consent management features of Fides, used the `polyfill.io` domain in a very limited edge case, when it detected a legacy browser such as IE11 that did not support the fetch standard. Therefore it was possible for users of legacy, pre-2017 browsers who navigate to a page serving `fides.js` to download and execute malicious scripts from the `polyfill.io` domain when the domain was compromised and serving malware. No exploitation of `fides.js` via `polyfill.io` has been identified as of time of publication.\n\nThe vulnerability has been patched in Fides version `2.39.1`. Users are advised to upgrade to this version or later to secure their systems against this threat. On Thursday, June 27, 2024, Cloudflare and Namecheap intervened at a domain level to ensure `polyfill.io` and its subdomains could not resolve to the compromised service, rendering this vulnerability unexploitable. Prior to the domain level intervention, there were no server-side workarounds and the confidentiality, integrity, and availability impacts of this vulnerability were high. Clients could ensure they were not affected by using a modern browser that supported the fetch standard.
 </code>
 
 - [Havoc10-sw/Detect_polyfill_CVE-2024-38537-](https://github.com/Havoc10-sw/Detect_polyfill_CVE-2024-38537-)
+
+### CVE-2024-38793
+- [ret2desync/CVE-2024-38793-PoC](https://github.com/ret2desync/CVE-2024-38793-PoC)
 
 ### CVE-2024-38856 (2024-08-05)
 
