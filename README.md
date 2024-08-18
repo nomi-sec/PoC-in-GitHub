@@ -3609,6 +3609,9 @@
 
 - [efekaanakkar/CVE-2024-35511](https://github.com/efekaanakkar/CVE-2024-35511)
 
+### CVE-2024-35538
+- [cyberaz0r/Typecho-Multiple-Vulnerabilities](https://github.com/cyberaz0r/Typecho-Multiple-Vulnerabilities)
+
 ### CVE-2024-36079 (-)
 
 <code>An issue was discovered in Vaultize 21.07.27. When uploading files, there is no check that the filename parameter is correct. As a result, a temporary file will be created outside the specified directory when the file is downloaded. To exploit this, an authenticated user would upload a file with an incorrect file name, and then download it.
@@ -3736,6 +3739,7 @@
 - [mahmutaymahmutay/CVE-2024-37085](https://github.com/mahmutaymahmutay/CVE-2024-37085)
 - [Florian-Hoth/CVE-2024-37085-RCE-POC](https://github.com/Florian-Hoth/CVE-2024-37085-RCE-POC)
 - [WTN-arny/Vmware-ESXI](https://github.com/WTN-arny/Vmware-ESXI)
+- [WTN-arny/CVE-2024-37085](https://github.com/WTN-arny/CVE-2024-37085)
 
 ### CVE-2024-37147 (2024-07-10)
 
@@ -3931,6 +3935,7 @@
 
 - [securelayer7/CVE-2024-38856_Scanner](https://github.com/securelayer7/CVE-2024-38856_Scanner)
 - [ThatNotEasy/CVE-2024-38856](https://github.com/ThatNotEasy/CVE-2024-38856)
+- [Praison001/CVE-2024-38856-ApacheOfBiz](https://github.com/Praison001/CVE-2024-38856-ApacheOfBiz)
 
 ### CVE-2024-39031 (2024-07-09)
 
@@ -6449,7 +6454,6 @@
 - [Timorlover/CVE-2023-23333](https://github.com/Timorlover/CVE-2023-23333)
 - [Mr-xn/CVE-2023-23333](https://github.com/Mr-xn/CVE-2023-23333)
 - [emanueldosreis/nmap-CVE-2023-23333-exploit](https://github.com/emanueldosreis/nmap-CVE-2023-23333-exploit)
-- [binaryusergearone/SolarView-Compact-6.00-Command-Injection-Exploit-CVE-2023-23333-](https://github.com/binaryusergearone/SolarView-Compact-6.00-Command-Injection-Exploit-CVE-2023-23333-)
 
 ### CVE-2023-23388 (2023-03-14)
 
@@ -14820,6 +14824,7 @@
 </code>
 
 - [convisolabs/CVE-2022-24834](https://github.com/convisolabs/CVE-2022-24834)
+- [DukeSec97/CVE-2022-24834-](https://github.com/DukeSec97/CVE-2022-24834-)
 
 ### CVE-2022-24853 (2022-04-14)
 
