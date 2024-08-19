@@ -3858,7 +3858,6 @@
 
 - [diegoalbuquerque/CVE-2024-38063](https://github.com/diegoalbuquerque/CVE-2024-38063)
 - [noradlb1/CVE-2024-38063-VB](https://github.com/noradlb1/CVE-2024-38063-VB)
-- [hanks445/CVE-2024-38063](https://github.com/hanks445/CVE-2024-38063)
 - [Sachinart/CVE-2024-38063-POC](https://github.com/Sachinart/CVE-2024-38063-POC)
 - [p33d/cve-2024-38063](https://github.com/p33d/cve-2024-38063)
 
@@ -26732,6 +26731,13 @@
 </code>
 
 - [RUB-NDS/CVE-2020-2655-DemoServer](https://github.com/RUB-NDS/CVE-2020-2655-DemoServer)
+
+### CVE-2020-2733 (2020-04-15)
+
+<code>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Monitoring and Diagnostics). The supported version that is affected is 9.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools. Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Tools. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [anmolksachan/CVE-2020-2733](https://github.com/anmolksachan/CVE-2020-2733)
 
 ### CVE-2020-2883 (2020-04-15)
 
