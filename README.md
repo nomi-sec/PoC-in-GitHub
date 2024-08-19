@@ -1139,6 +1139,7 @@
 - [alex14324/ssh_poc2024](https://github.com/alex14324/ssh_poc2024)
 - [X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker](https://github.com/X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker)
 - [niktoproject/CVE-202406387_Check.py](https://github.com/niktoproject/CVE-202406387_Check.py)
+- [s1d6point7bugcrowd/CVE-2024-6387-Race-Condition-in-Signal-Handling-for-OpenSSH](https://github.com/s1d6point7bugcrowd/CVE-2024-6387-Race-Condition-in-Signal-Handling-for-OpenSSH)
 
 ### CVE-2024-6529 (2024-08-01)
 
@@ -1160,13 +1161,6 @@
 </code>
 
 - [labc-dev/CVE-2024-6666](https://github.com/labc-dev/CVE-2024-6666)
-
-### CVE-2024-6738 (2024-07-15)
-
-<code>The tumbnail API of Tronclass from WisdomGarden lacks proper access control, allowing unauthenticated remote attackers to obtain certain specific files by modifying the URL.
-</code>
-
-- [XD3an/CVE-2024-6738](https://github.com/XD3an/CVE-2024-6738)
 
 ### CVE-2024-6768 (2024-08-12)
 
@@ -4216,10 +4210,18 @@
 
 - [fevar54/CVE-2024-42461](https://github.com/fevar54/CVE-2024-42461)
 
-### CVE-2024-42657
+### CVE-2024-42657 (2024-08-19)
+
+<code>An issue in wishnet Nepstech Wifi Router NTPL-XPON1GFEVN v1.0 allows a remote attacker to obtain sensitive information via the lack of encryption during login process
+</code>
+
 - [sudo-subho/CVE-2024-42657](https://github.com/sudo-subho/CVE-2024-42657)
 
-### CVE-2024-42658
+### CVE-2024-42658 (2024-08-19)
+
+<code>An issue in wishnet Nepstech Wifi Router NTPL-XPON1GFEVN v1.0 allows a remote attacker to obtain sensitive information via the cookie's parameter
+</code>
+
 - [sudo-subho/CVE-2024-42658](https://github.com/sudo-subho/CVE-2024-42658)
 
 ### CVE-2024-42758 (2024-08-16)
@@ -18053,7 +18055,6 @@
 - [ReachabilityOrg/cve-2022-42889-text4shell-docker](https://github.com/ReachabilityOrg/cve-2022-42889-text4shell-docker)
 - [dgor2023/cve-2022-42889-text4shell-docker](https://github.com/dgor2023/cve-2022-42889-text4shell-docker)
 - [Dima2021/cve-2022-42889-text4shell](https://github.com/Dima2021/cve-2022-42889-text4shell)
-- [RSA-Demo/cve-2022-42889-text4shell](https://github.com/RSA-Demo/cve-2022-42889-text4shell)
 - [aaronm-sysdig/text4shell-docker](https://github.com/aaronm-sysdig/text4shell-docker)
 - [gustanini/CVE-2022-42889-Text4Shell-POC](https://github.com/gustanini/CVE-2022-42889-Text4Shell-POC)
 - [Sic4rio/CVE-2022-42889](https://github.com/Sic4rio/CVE-2022-42889)
@@ -38063,8 +38064,8 @@
 - [arkangel-dev/CVE-2018-20250-WINRAR-ACE-GUI](https://github.com/arkangel-dev/CVE-2018-20250-WINRAR-ACE-GUI)
 - [AeolusTF/CVE-2018-20250](https://github.com/AeolusTF/CVE-2018-20250)
 - [joydragon/Detect-CVE-2018-20250](https://github.com/joydragon/Detect-CVE-2018-20250)
-- [DANIELVISPOBLOG/WinRar_ACE_exploit_CVE-2018-20250](https://github.com/DANIELVISPOBLOG/WinRar_ACE_exploit_CVE-2018-20250)
 - [likescam/CVE-2018-20250](https://github.com/likescam/CVE-2018-20250)
+- [H4xl0r/WinRar_ACE_exploit_CVE-2018-20250](https://github.com/H4xl0r/WinRar_ACE_exploit_CVE-2018-20250)
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
 - [lxg5763/cve-2018-20250](https://github.com/lxg5763/cve-2018-20250)
 - [zeronohacker/CVE-2018-20250](https://github.com/zeronohacker/CVE-2018-20250)
