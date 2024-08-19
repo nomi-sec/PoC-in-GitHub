@@ -50,6 +50,7 @@
 - [hunter24x24/cve_2024_0044](https://github.com/hunter24x24/cve_2024_0044)
 - [nexussecelite/EvilDroid](https://github.com/nexussecelite/EvilDroid)
 - [nahid0x1/CVE-2024-0044](https://github.com/nahid0x1/CVE-2024-0044)
+- [MrW0l05zyn/cve-2024-0044](https://github.com/MrW0l05zyn/cve-2024-0044)
 
 ### CVE-2024-0049 (2024-03-11)
 
@@ -44237,7 +44238,6 @@
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 - [0xl0k1/CVE-2012-1823](https://github.com/0xl0k1/CVE-2012-1823)
-- [0xFatality/CVE-2012-1823](https://github.com/0xFatality/CVE-2012-1823)
 
 ### CVE-2012-1870 (2012-07-10)
 
