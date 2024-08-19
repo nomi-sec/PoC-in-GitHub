@@ -3859,6 +3859,7 @@
 - [noradlb1/CVE-2024-38063-VB](https://github.com/noradlb1/CVE-2024-38063-VB)
 - [hanks445/CVE-2024-38063](https://github.com/hanks445/CVE-2024-38063)
 - [Sachinart/CVE-2024-38063-POC](https://github.com/Sachinart/CVE-2024-38063-POC)
+- [p33d/cve-2024-38063](https://github.com/p33d/cve-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -5080,6 +5081,7 @@
 - [nr4x4/CVE-2023-4220](https://github.com/nr4x4/CVE-2023-4220)
 - [Al3xGD/CVE-2023-4220-Exploit](https://github.com/Al3xGD/CVE-2023-4220-Exploit)
 - [charchit-subedi/chamilo-lms-unauthenticated-rce-poc](https://github.com/charchit-subedi/chamilo-lms-unauthenticated-rce-poc)
+- [LGenAgul/CVE-2023-4220-Proof-of-concept](https://github.com/LGenAgul/CVE-2023-4220-Proof-of-concept)
 
 ### CVE-2023-4226 (2023-11-28)
 
