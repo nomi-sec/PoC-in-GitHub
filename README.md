@@ -832,6 +832,7 @@
 - [Jcccccx/CVE-2024-4577](https://github.com/Jcccccx/CVE-2024-4577)
 - [ManuelKy08/CVE-2024-4577---RR](https://github.com/ManuelKy08/CVE-2024-4577---RR)
 - [bughuntar/CVE-2024-4577](https://github.com/bughuntar/CVE-2024-4577)
+- [fa-rrel/CVE-2024-4577-RCE](https://github.com/fa-rrel/CVE-2024-4577-RCE)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -1207,6 +1208,13 @@
 </code>
 
 - [lfillaz/CVE-2024-7703](https://github.com/lfillaz/CVE-2024-7703)
+
+### CVE-2024-7928 (2024-08-19)
+
+<code>Eine problematische Schwachstelle wurde in FastAdmin bis 1.3.3.20220121 entdeckt. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei /index/ajax/lang. Durch Manipulation des Arguments lang mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung. Ein Aktualisieren auf die Version 1.3.4.20220530 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [bigb0x/CVE-2024-7928](https://github.com/bigb0x/CVE-2024-7928)
 
 ### CVE-2024-11451
 - [Xiaolqy/CVE-2024-11451](https://github.com/Xiaolqy/CVE-2024-11451)
@@ -12193,6 +12201,7 @@
 - [c0deur/CVE-2023-51385](https://github.com/c0deur/CVE-2023-51385)
 - [endasugrue/CVE-2023-51385_poc](https://github.com/endasugrue/CVE-2023-51385_poc)
 - [MiningBot-eth/CVE-2023-51385-exploit](https://github.com/MiningBot-eth/CVE-2023-51385-exploit)
+- [Featherw1t/CVE-2023-51385_test](https://github.com/Featherw1t/CVE-2023-51385_test)
 
 ### CVE-2023-51409 (2024-04-12)
 
@@ -25224,7 +25233,7 @@
 - [g1thub3r1st4/CVE-2021-44909](https://github.com/g1thub3r1st4/CVE-2021-44909)
 
 ### CVE-2021-44910
-- [dockern/CVE-2021-44910_SpringBlade](https://github.com/dockern/CVE-2021-44910_SpringBlade)
+- [W000i/CVE-2021-44910_SpringBlade](https://github.com/W000i/CVE-2021-44910_SpringBlade)
 
 ### CVE-2021-45007 (2022-02-20)
 
@@ -34730,6 +34739,7 @@
 - [pwn3z/CVE-2019-19781-Citrix](https://github.com/pwn3z/CVE-2019-19781-Citrix)
 - [Vulnmachines/Ctirix_RCE-CVE-2019-19781](https://github.com/Vulnmachines/Ctirix_RCE-CVE-2019-19781)
 - [k-fire/CVE-2019-19781-exploit](https://github.com/k-fire/CVE-2019-19781-exploit)
+- [zerobytesecure/CVE-2019-19781](https://github.com/zerobytesecure/CVE-2019-19781)
 
 ### CVE-2019-19782 (2019-12-13)
 
