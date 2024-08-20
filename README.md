@@ -3363,6 +3363,7 @@
 - [etx-Arn/CVE-2024-34102-RCE-PoC](https://github.com/etx-Arn/CVE-2024-34102-RCE-PoC)
 - [wubinworks/magento2-cosmic-sting-patch](https://github.com/wubinworks/magento2-cosmic-sting-patch)
 - [EQSTSeminar/CVE-2024-34102](https://github.com/EQSTSeminar/CVE-2024-34102)
+- [Jhonsonwannaa/CVE-2024-34102](https://github.com/Jhonsonwannaa/CVE-2024-34102)
 
 ### CVE-2024-34144 (2024-05-02)
 
@@ -3604,7 +3605,11 @@
 
 - [efekaanakkar/CVE-2024-35511](https://github.com/efekaanakkar/CVE-2024-35511)
 
-### CVE-2024-35538
+### CVE-2024-35538 (2024-08-19)
+
+<code>Typecho v1.3.0 was discovered to contain a Client IP Spoofing vulnerability, which allows attackers to falsify their IP addresses by specifying an arbitrary IP as value of X-Forwarded-For or Client-Ip headers while performing HTTP requests.
+</code>
+
 - [cyberaz0r/Typecho-Multiple-Vulnerabilities](https://github.com/cyberaz0r/Typecho-Multiple-Vulnerabilities)
 
 ### CVE-2024-36079 (-)
@@ -3854,6 +3859,7 @@
 - [noradlb1/CVE-2024-38063-VB](https://github.com/noradlb1/CVE-2024-38063-VB)
 - [Sachinart/CVE-2024-38063-POC](https://github.com/Sachinart/CVE-2024-38063-POC)
 - [p33d/cve-2024-38063](https://github.com/p33d/cve-2024-38063)
+- [dweger-scripts/CVE-2024-38063-Remediation](https://github.com/dweger-scripts/CVE-2024-38063-Remediation)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -4244,6 +4250,9 @@
 </code>
 
 - [njmbb8/CVE-2024-42850](https://github.com/njmbb8/CVE-2024-42850)
+
+### CVE-2024-42919
+- [jeyabalaji711/CVE-2024-42919](https://github.com/jeyabalaji711/CVE-2024-42919)
 
 ### CVE-2024-43044 (2024-08-07)
 
@@ -4982,7 +4991,7 @@
 <code>In PHP version 8.0.* before 8.0.30,  8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE. \n\n
 </code>
 
-- [Nfttkcauzy/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK](https://github.com/Nfttkcauzy/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK)
+- [Starla2u/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK](https://github.com/Starla2u/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK)
 - [jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824)
 - [m1sn0w/CVE-2023-3824](https://github.com/m1sn0w/CVE-2023-3824)
 
@@ -5167,6 +5176,13 @@
 </code>
 
 - [Cappricio-Securities/CVE-2023-4568](https://github.com/Cappricio-Securities/CVE-2023-4568)
+
+### CVE-2023-4590 (2023-11-27)
+
+<code>Buffer overflow vulnerability in Frhed hex editor, affecting version 1.6.0. This vulnerability could allow an attacker to execute arbitrary code via a long filename argument through the Structured Exception Handler (SEH) registers.
+</code>
+
+- [dgndrn/CVE-2023-4590](https://github.com/dgndrn/CVE-2023-4590)
 
 ### CVE-2023-4596 (2023-08-30)
 
@@ -23152,7 +23168,6 @@
 - [craig-m-unsw/omigod-lab](https://github.com/craig-m-unsw/omigod-lab)
 - [SimenBai/CVE-2021-38647-POC-and-Demo-environment](https://github.com/SimenBai/CVE-2021-38647-POC-and-Demo-environment)
 - [AlteredSecurity/CVE-2021-38647](https://github.com/AlteredSecurity/CVE-2021-38647)
-- [m1thryn/CVE-2021-38647](https://github.com/m1thryn/CVE-2021-38647)
 - [abousteif/cve-2021-38647](https://github.com/abousteif/cve-2021-38647)
 - [Vulnmachines/OMIGOD_cve-2021-38647](https://github.com/Vulnmachines/OMIGOD_cve-2021-38647)
 - [goofsec/omigod](https://github.com/goofsec/omigod)
