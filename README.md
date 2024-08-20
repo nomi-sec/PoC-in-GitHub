@@ -1216,7 +1216,6 @@
 </code>
 
 - [bigb0x/CVE-2024-7928](https://github.com/bigb0x/CVE-2024-7928)
-- [fa-rrel/CVE-2024-7928](https://github.com/fa-rrel/CVE-2024-7928)
 
 ### CVE-2024-11451
 - [Xiaolqy/CVE-2024-11451](https://github.com/Xiaolqy/CVE-2024-11451)
@@ -2739,12 +2738,12 @@
 <code>\n\n\n\n\n\n\n\n\n\n\n\nSolarWinds Serv-U was susceptible to a directory transversal vulnerability that would allow access to read sensitive files on the host machine.    \n\n\n\n\n\n\n\n
 </code>
 
-- [karkis3c/cves](https://github.com/karkis3c/cves)
 - [krypton-kry/CVE-2024-28995](https://github.com/krypton-kry/CVE-2024-28995)
 - [ggfzx/CVE-2024-28995](https://github.com/ggfzx/CVE-2024-28995)
 - [huseyinstif/CVE-2024-28995-Nuclei-Template](https://github.com/huseyinstif/CVE-2024-28995-Nuclei-Template)
 - [0xc4t/CVE-2024-28995](https://github.com/0xc4t/CVE-2024-28995)
 - [bigb0x/CVE-2024-28995](https://github.com/bigb0x/CVE-2024-28995)
+- [muhammetali20/CVE-2024-28995](https://github.com/muhammetali20/CVE-2024-28995)
 - [Praison001/CVE-2024-28995-SolarWinds-Serv-U](https://github.com/Praison001/CVE-2024-28995-SolarWinds-Serv-U)
 - [Stuub/CVE-2024-28995](https://github.com/Stuub/CVE-2024-28995)
 
@@ -3043,9 +3042,6 @@
 ### CVE-2024-31719
 - [VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability](https://github.com/VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability)
 
-### CVE-2024-31734
-- [HBLocker/CVE-2024-31734](https://github.com/HBLocker/CVE-2024-31734)
-
 ### CVE-2024-31771 (-)
 
 <code>Insecure Permission vulnerability in TotalAV v.6.0.740 allows a local attacker to escalate privileges via a crafted file
@@ -3285,13 +3281,6 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-32709-Poc](https://github.com/truonghuuphuc/CVE-2024-32709-Poc)
-
-### CVE-2024-33078 (2024-05-01)
-
-<code>Tencent Libpag v4.3 is vulnerable to Buffer Overflow. A user can send a crafted image to trigger a overflow leading to remote code execution.
-</code>
-
-- [HBLocker/CVE-2024-33078](https://github.com/HBLocker/CVE-2024-33078)
 
 ### CVE-2024-33111 (2024-05-06)
 
@@ -3896,6 +3885,13 @@
 
 - [Florian-Hoth/CVE-2024-38100-RCE-POC](https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC)
 
+### CVE-2024-38189 (2024-08-13)
+
+<code>Microsoft Project Remote Code Execution Vulnerability
+</code>
+
+- [vx7z/CVE-2024-38189](https://github.com/vx7z/CVE-2024-38189)
+
 ### CVE-2024-38366 (2024-07-01)
 
 <code>trunk.cocoapods.org is the authentication server for the CoacoaPods dependency manager. The part of trunk which verifies whether a user has a real email address on signup used a rfc-822 library which executes a shell command to validate the email domain MX records validity. It works via an DNS MX. This lookup could be manipulated to also execute a command on the trunk server, effectively giving root access to the server and the infrastructure. This issue was patched server-side with commit 001cc3a430e75a16307f5fd6cdff1363ad2f40f3 in September 2023. This RCE triggered a full user-session reset, as an attacker could have used this method to write to any Podspec in trunk.
@@ -4263,7 +4259,11 @@
 
 - [njmbb8/CVE-2024-42850](https://github.com/njmbb8/CVE-2024-42850)
 
-### CVE-2024-42919
+### CVE-2024-42919 (2024-08-20)
+
+<code>eScan Management Console 14.0.1400.2281 is vulnerable to Incorrect Access Control via acteScanAVReport.
+</code>
+
 - [jeyabalaji711/CVE-2024-42919](https://github.com/jeyabalaji711/CVE-2024-42919)
 
 ### CVE-2024-43044 (2024-08-07)
@@ -7530,6 +7530,13 @@
 </code>
 
 - [Nero22k/cve-2023-29360](https://github.com/Nero22k/cve-2023-29360)
+
+### CVE-2023-29384 (2023-12-20)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in HM Plugin WordPress Job Board and Recruitment Plugin – JobWP.This issue affects WordPress Job Board and Recruitment Plugin – JobWP: from n/a through 2.0.\n\n
+</code>
+
+- [nastar-id/CVE-2023-29384](https://github.com/nastar-id/CVE-2023-29384)
 
 ### CVE-2023-29406 (2023-07-11)
 
