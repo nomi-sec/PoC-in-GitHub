@@ -1141,6 +1141,7 @@
 - [X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker](https://github.com/X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker)
 - [niktoproject/CVE-202406387_Check.py](https://github.com/niktoproject/CVE-202406387_Check.py)
 - [s1d6point7bugcrowd/CVE-2024-6387-Race-Condition-in-Signal-Handling-for-OpenSSH](https://github.com/s1d6point7bugcrowd/CVE-2024-6387-Race-Condition-in-Signal-Handling-for-OpenSSH)
+- [almogopp/OpenSSH-CVE-2024-6387-Fix](https://github.com/almogopp/OpenSSH-CVE-2024-6387-Fix)
 
 ### CVE-2024-6529 (2024-08-01)
 
@@ -1215,6 +1216,7 @@
 </code>
 
 - [bigb0x/CVE-2024-7928](https://github.com/bigb0x/CVE-2024-7928)
+- [fa-rrel/CVE-2024-7928](https://github.com/fa-rrel/CVE-2024-7928)
 
 ### CVE-2024-11451
 - [Xiaolqy/CVE-2024-11451](https://github.com/Xiaolqy/CVE-2024-11451)
@@ -2327,6 +2329,7 @@
 - [k3lpi3b4nsh33/CVE-2024-25600](https://github.com/k3lpi3b4nsh33/CVE-2024-25600)
 - [WanLiChangChengWanLiChang/CVE-2024-25600](https://github.com/WanLiChangChengWanLiChang/CVE-2024-25600)
 - [KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress](https://github.com/KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress)
+- [wh6amiGit/CVE-2024-25600](https://github.com/wh6amiGit/CVE-2024-25600)
 
 ### CVE-2024-25723 (2024-02-27)
 
@@ -3868,6 +3871,7 @@
 - [Sachinart/CVE-2024-38063-POC](https://github.com/Sachinart/CVE-2024-38063-POC)
 - [p33d/cve-2024-38063](https://github.com/p33d/cve-2024-38063)
 - [dweger-scripts/CVE-2024-38063-Remediation](https://github.com/dweger-scripts/CVE-2024-38063-Remediation)
+- [almogopp/Disable-IPv6-CVE-2024-38063-Fix](https://github.com/almogopp/Disable-IPv6-CVE-2024-38063-Fix)
 
 ### CVE-2024-38077 (2024-07-09)
 
