@@ -3712,6 +3712,13 @@
 
 - [Abdurahmon3236/CVE-2024-36539](https://github.com/Abdurahmon3236/CVE-2024-36539)
 
+### CVE-2024-36598 (2024-06-14)
+
+<code>An arbitrary file upload vulnerability in Aegon Life v1.0 allows attackers to execute arbitrary code via uploading a crafted image file.
+</code>
+
+- [keruenn/PoC-CVE-2024-36598](https://github.com/keruenn/PoC-CVE-2024-36598)
+
 ### CVE-2024-36821 (2024-06-11)
 
 <code>Insecure permissions in Linksys Velop WiFi 5 (WHW01v1) 1.1.13.202617 allows attackers to escalate privileges from Guest to root.
@@ -4197,6 +4204,13 @@
 
 - [TAM-K592/CVE-2024-40725-CVE-2024-40898](https://github.com/TAM-K592/CVE-2024-40725-CVE-2024-40898)
 
+### CVE-2024-40892 (2024-08-12)
+
+<code>A weak credential vulnerability exists in Firewalla Box Software versions before 1.979. This vulnerability allows a physically close attacker to use the license UUID for authentication and provision SSH credentials over the Bluetooth Low-Energy (BTLE) interface. Once an attacker gains access to the LAN, they could log into the SSH interface using the provisioned credentials. The license UUID can be acquired through plain-text Bluetooth sniffing, reading the QR code on the bottom of the device, or brute-forcing the UUID (though this is less likely).
+</code>
+
+- [xen0bit/fwbt](https://github.com/xen0bit/fwbt)
+
 ### CVE-2024-41107 (2024-07-19)
 
 <code>The CloudStack SAML authentication (disabled by default) does not enforce signature check. In CloudStack environments where SAML authentication is enabled, an attacker that initiates CloudStack SAML single sign-on authentication can bypass SAML authentication by submitting a spoofed SAML response with no signature and known or guessed username and other user details of a SAML-enabled CloudStack user-account. In such environments, this can result in a complete compromise of the resources owned and/or accessible by a SAML enabled user-account.\n\nAffected users are recommended to disable the SAML authentication plugin by setting the &quot;saml2.enabled&quot; global setting to &quot;false&quot;, or upgrade to version 4.18.2.2, 4.19.1.0 or later, which addresses this issue.\n\n
@@ -4523,6 +4537,7 @@
 - [hh-hunter/ml-CVE-2023-1177](https://github.com/hh-hunter/ml-CVE-2023-1177)
 - [iumiro/CVE-2023-1177-MLFlow](https://github.com/iumiro/CVE-2023-1177-MLFlow)
 - [tiyeume25112004/CVE-2023-1177-rebuild](https://github.com/tiyeume25112004/CVE-2023-1177-rebuild)
+- [saimahmed/MLflow-Vuln](https://github.com/saimahmed/MLflow-Vuln)
 
 ### CVE-2023-1326 (2023-04-13)
 
@@ -7460,7 +7475,6 @@
 - [netuseradministrator/CVE-2023-28432](https://github.com/netuseradministrator/CVE-2023-28432)
 - [xk-mt/CVE-2023-28432](https://github.com/xk-mt/CVE-2023-28432)
 - [0xRulez/CVE-2023-28432](https://github.com/0xRulez/CVE-2023-28432)
-- [fhAnso/CVE-2023-28432](https://github.com/fhAnso/CVE-2023-28432)
 
 ### CVE-2023-28434 (2023-03-22)
 
@@ -7684,7 +7698,11 @@
 - [3yujw7njai/CVE-2023-29923-Scan](https://github.com/3yujw7njai/CVE-2023-29923-Scan)
 - [Le1a/CVE-2023-29923](https://github.com/Le1a/CVE-2023-29923)
 
-### CVE-2023-29929
+### CVE-2023-29929 (2024-08-21)
+
+<code>Buffer Overflow vulnerability found in Kemptechnologies Loadmaster before v.7.2.60.0 allows a remote attacker to casue a denial of service via the libkemplink.so, isreverse library.
+</code>
+
 - [YSaxon/CVE-2023-29929](https://github.com/YSaxon/CVE-2023-29929)
 
 ### CVE-2023-29930 (2023-05-10)
@@ -8210,7 +8228,7 @@
 <code>Ghost before 5.42.1 allows remote attackers to read arbitrary files within the active theme's folder via /assets/built%2F..%2F..%2F/ directory traversal. This occurs in frontend/web/middleware/static-theme.js.
 </code>
 
-- [VEEXH/Ghost-Path-Traversal-CVE-2023-32235-](https://github.com/VEEXH/Ghost-Path-Traversal-CVE-2023-32235-)
+- [AXRoux/Ghost-Path-Traversal-CVE-2023-32235-](https://github.com/AXRoux/Ghost-Path-Traversal-CVE-2023-32235-)
 
 ### CVE-2023-32243 (2023-05-12)
 
@@ -16125,7 +16143,7 @@
 </code>
 
 - [fortra/CVE-2022-30136](https://github.com/fortra/CVE-2022-30136)
-- [VEEXH/CVE-2022-30136](https://github.com/VEEXH/CVE-2022-30136)
+- [AXRoux/CVE-2022-30136](https://github.com/AXRoux/CVE-2022-30136)
 
 ### CVE-2022-30190 (2022-06-01)
 
