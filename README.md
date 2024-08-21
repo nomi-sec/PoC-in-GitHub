@@ -1296,6 +1296,13 @@
 
 - [RomanRybachek/CVE-2024-20698](https://github.com/RomanRybachek/CVE-2024-20698)
 
+### CVE-2024-20746 (2024-03-18)
+
+<code>Premiere Pro versions 24.1, 23.6.2 and earlier are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [200101WhoAmI/CVE-2024-20746](https://github.com/200101WhoAmI/CVE-2024-20746)
+
 ### CVE-2024-20767 (2024-03-18)
 
 <code>ColdFusion versions 2023.6, 2021.12 and earlier are affected by an Improper Access Control vulnerability that could lead to arbitrary file system read. An attacker could leverage this vulnerability to bypass security measures and gain unauthorized access to sensitive files and perform arbitrary file system write. Exploitation of this issue does not require user interaction.
@@ -1656,6 +1663,13 @@
 - [Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution](https://github.com/Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution)
 - [Orange-418/CVE-2024-22515-File-Upload-Vulnerability](https://github.com/Orange-418/CVE-2024-22515-File-Upload-Vulnerability)
 
+### CVE-2024-22526 (2024-04-12)
+
+<code>Buffer Overflow vulnerability in bandisoft bandiview v7.0, allows local attackers to cause a denial of service (DoS) via exr image file.
+</code>
+
+- [200101WhoAmI/CVE-2024-22526](https://github.com/200101WhoAmI/CVE-2024-22526)
+
 ### CVE-2024-22532 (2024-02-28)
 
 <code>Buffer Overflow vulnerability in XNSoft NConvert 7.163 (for Windows x86) allows attackers to cause a denial of service via crafted xwd file.
@@ -1781,6 +1795,13 @@
 - [jhonnybonny/CVE-2024-23334](https://github.com/jhonnybonny/CVE-2024-23334)
 - [brian-edgar-re/poc-cve-2024-23334](https://github.com/brian-edgar-re/poc-cve-2024-23334)
 - [binaryninja/CVE-2024-23334](https://github.com/binaryninja/CVE-2024-23334)
+
+### CVE-2024-23339 (2024-01-22)
+
+<code>hoolock is a suite of lightweight utilities designed to maintain a small footprint when bundled. Starting in version 2.0.0 and prior to version 2.2.1, utility functions related to object paths (`get`, `set`, and `update`) did not block attempts to access or alter object prototypes. Starting in version 2.2.1, the `get`, `set` and `update` functions throw a `TypeError` when a user attempts to access or alter inherited properties.
+</code>
+
+- [200101WhoAmI/CVE-2024-23339](https://github.com/200101WhoAmI/CVE-2024-23339)
 
 ### CVE-2024-23652 (2024-01-31)
 
@@ -2461,6 +2482,13 @@
 </code>
 
 - [MaherAzzouzi/CVE-2024-26817-amdkfd](https://github.com/MaherAzzouzi/CVE-2024-26817-amdkfd)
+
+### CVE-2024-27088 (2024-02-26)
+
+<code>es5-ext contains ECMAScript 5 extensions. Passing functions with very long names or complex default argument names into `function#copy` or `function#toStringTokens` may cause the script to stall. The vulnerability is patched in v0.10.63.
+</code>
+
+- [200101WhoAmI/CVE-2024-27088](https://github.com/200101WhoAmI/CVE-2024-27088)
 
 ### CVE-2024-27130 (2024-05-21)
 
@@ -5181,6 +5209,13 @@
 </code>
 
 - [0xn4d/poc-cve-xss-uploading-svg](https://github.com/0xn4d/poc-cve-xss-uploading-svg)
+
+### CVE-2023-4542 (2023-08-25)
+
+<code>Es wurde eine Schwachstelle in D-Link DAR-8000-10 bis 20230809 ausgemacht. Sie wurde als kritisch eingestuft. Es geht dabei um eine nicht klar definierte Funktion der Datei /app/sys1.php. Durch das Manipulieren des Arguments cmd mit der Eingabe id mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [PumpkinBridge/CVE-2023-4542](https://github.com/PumpkinBridge/CVE-2023-4542)
 
 ### CVE-2023-4549 (2023-09-25)
 
@@ -10654,6 +10689,13 @@
 
 - [visudade/CVE-2023-43622](https://github.com/visudade/CVE-2023-43622)
 
+### CVE-2023-43646 (2023-09-26)
+
+<code>get-func-name is a module to retrieve a function's name securely and consistently both in NodeJS and the browser. Versions prior to 2.0.1 are subject to a regular expression denial of service (redos) vulnerability which may lead to a denial of service when parsing malicious input. This vulnerability can be exploited when there is an imbalance in parentheses, which results in excessive backtracking and subsequently increases the CPU load and processing time significantly. This vulnerability can be triggered using the following input: '\t'.repeat(54773) + '\t/function/i'. This issue has been addressed in commit `f934b228b` which has been included in releases from 2.0.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [200101WhoAmI/CVE-2023-43646](https://github.com/200101WhoAmI/CVE-2023-43646)
+
 ### CVE-2023-43654 (2023-09-28)
 
 <code>TorchServe is a tool for serving and scaling PyTorch models in production. TorchServe default configuration lacks proper input validation, enabling third parties to invoke remote HTTP download requests and write files to the disk. This issue could be taken advantage of to compromise the integrity of the system and sensitive data. This issue is present in versions 0.1.0 to 0.8.1. A user is able to load the model of their choice from any URL that they would like to use. The user of TorchServe is responsible for configuring both the allowed_urls and specifying the model URL to be used. A pull request to warn the user when the default value for allowed_urls is used has been merged in PR #2534. TorchServe release 0.8.2 includes this change. Users are advised to upgrade. There are no known workarounds for this issue.
@@ -11038,6 +11080,13 @@
 </code>
 
 - [metaredteam/rtx-cve-2023-45779](https://github.com/metaredteam/rtx-cve-2023-45779)
+
+### CVE-2023-45827 (2023-11-06)
+
+<code>Dot diver is a lightweight, powerful, and dependency-free TypeScript utility library that provides types and functions to work with object paths in dot notation. In versions prior to 1.0.2 there is a Prototype Pollution vulnerability in the `setByPath` function which can leads to remote code execution (RCE). This issue has been addressed in commit `98daf567` which has been included in release 1.0.2. Users are advised to upgrade. There are no known workarounds to this vulnerability.\n
+</code>
+
+- [200101WhoAmI/CVE-2023-45827](https://github.com/200101WhoAmI/CVE-2023-45827)
 
 ### CVE-2023-45828
 - [RandomRobbieBF/CVE-2023-45828](https://github.com/RandomRobbieBF/CVE-2023-45828)
@@ -12090,6 +12139,13 @@
 </code>
 
 - [kn32/parallels-file-move-privesc](https://github.com/kn32/parallels-file-move-privesc)
+
+### CVE-2023-50245 (2023-12-11)
+
+<code>OpenEXR-viewer is a viewer for OpenEXR files with detailed metadata probing. Versions prior to 0.6.1 have a memory overflow vulnerability. This issue is fixed in version 0.6.1.
+</code>
+
+- [200101WhoAmI/CVE-2023-50245](https://github.com/200101WhoAmI/CVE-2023-50245)
 
 ### CVE-2023-50254 (2023-12-22)
 
@@ -13238,6 +13294,7 @@
 
 - [alfarom256/CVE-2022-3699](https://github.com/alfarom256/CVE-2022-3699)
 - [estimated1337/lenovo_exec](https://github.com/estimated1337/lenovo_exec)
+- [Eap2468/CVE-2022-3699](https://github.com/Eap2468/CVE-2022-3699)
 
 ### CVE-2022-3786 (2022-11-01)
 
