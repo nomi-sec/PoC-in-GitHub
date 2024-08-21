@@ -2323,7 +2323,7 @@
 - [hy011121/CVE-2024-25600-wordpress-Exploit-RCE](https://github.com/hy011121/CVE-2024-25600-wordpress-Exploit-RCE)
 - [K3ysTr0K3R/CVE-2024-25600-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-25600-EXPLOIT)
 - [X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE](https://github.com/X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE)
-- [RHYru9/CVE-2024-25600-mass](https://github.com/RHYru9/CVE-2024-25600-mass)
+- [svchostmm/CVE-2024-25600-mass](https://github.com/svchostmm/CVE-2024-25600-mass)
 - [ivanbg2004/0BL1V10N-CVE-2024-25600-Bricks-Builder-plugin-for-WordPress](https://github.com/ivanbg2004/0BL1V10N-CVE-2024-25600-Bricks-Builder-plugin-for-WordPress)
 - [k3lpi3b4nsh33/CVE-2024-25600](https://github.com/k3lpi3b4nsh33/CVE-2024-25600)
 - [WanLiChangChengWanLiChang/CVE-2024-25600](https://github.com/WanLiChangChengWanLiChang/CVE-2024-25600)
@@ -3313,6 +3313,13 @@
 </code>
 
 - [absholi7ly/WordPress-XStore-theme-SQL-Injection](https://github.com/absholi7ly/WordPress-XStore-theme-SQL-Injection)
+
+### CVE-2024-33644 (2024-05-17)
+
+<code>Improper Control of Generation of Code ('Code Injection') vulnerability in WPCustomify Customify Site Library allows Code Injection.This issue affects Customify Site Library: from n/a through 0.0.9.
+</code>
+
+- [Akshath-Nagulapally/ReproducingCVEs_Akshath_Nagulapally](https://github.com/Akshath-Nagulapally/ReproducingCVEs_Akshath_Nagulapally)
 
 ### CVE-2024-33722
 - [fuzzlove/soplanning-1.52-exploits](https://github.com/fuzzlove/soplanning-1.52-exploits)
@@ -7633,6 +7640,9 @@
 - [1820112015/CVE-2023-29923](https://github.com/1820112015/CVE-2023-29923)
 - [3yujw7njai/CVE-2023-29923-Scan](https://github.com/3yujw7njai/CVE-2023-29923-Scan)
 - [Le1a/CVE-2023-29923](https://github.com/Le1a/CVE-2023-29923)
+
+### CVE-2023-29929
+- [YSaxon/CVE-2023-29929](https://github.com/YSaxon/CVE-2023-29929)
 
 ### CVE-2023-29930 (2023-05-10)
 
