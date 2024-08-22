@@ -1610,6 +1610,13 @@
 - [SeanPesce/CVE-2024-22243](https://github.com/SeanPesce/CVE-2024-22243)
 - [shellfeel/CVE-2024-22243-CVE-2024-22234](https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234)
 
+### CVE-2024-22263 (2024-06-19)
+
+<code>Spring Cloud Data Flow is a microservices-based Streaming and Batch data processing in Cloud Foundry and Kubernetes. The Skipper server has the ability to receive upload package requests. However, due to improper sanitization for upload path, a malicious user who has access to skipper server api can use a crafted upload request to write arbitrary file to any location on file system, may even compromises the server.
+</code>
+
+- [securelayer7/CVE-2024-22263_Scanner](https://github.com/securelayer7/CVE-2024-22263_Scanner)
+
 ### CVE-2024-22274 (2024-05-21)
 
 <code>The vCenter Server contains an authenticated remote code execution vulnerability. A malicious actor with administrative privileges on the vCenter appliance shell may exploit this issue to run arbitrary commands on the underlying operating system.
@@ -10707,6 +10714,13 @@
 </code>
 
 - [Mr-xn/CVE-2023-43482](https://github.com/Mr-xn/CVE-2023-43482)
+
+### CVE-2023-43494 (2023-09-20)
+
+<code>Jenkins 2.50 through 2.423 (both inclusive), LTS 2.60.1 through 2.414.1 (both inclusive) does not exclude sensitive build variables (e.g., password parameter values) from the search in the build history widget, allowing attackers with Item/Read permission to obtain values of sensitive variables used in builds by iteratively testing different characters until the correct sequence is discovered.
+</code>
+
+- [mqxmm/CVE-2023-43494](https://github.com/mqxmm/CVE-2023-43494)
 
 ### CVE-2023-43622 (2023-10-23)
 
