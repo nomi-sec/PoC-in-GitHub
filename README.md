@@ -4002,6 +4002,7 @@
 - [securelayer7/CVE-2024-38856_Scanner](https://github.com/securelayer7/CVE-2024-38856_Scanner)
 - [ThatNotEasy/CVE-2024-38856](https://github.com/ThatNotEasy/CVE-2024-38856)
 - [Praison001/CVE-2024-38856-ApacheOfBiz](https://github.com/Praison001/CVE-2024-38856-ApacheOfBiz)
+- [0x20c/CVE-2024-38856-EXP](https://github.com/0x20c/CVE-2024-38856-EXP)
 
 ### CVE-2024-39031 (2024-07-09)
 
@@ -4329,6 +4330,9 @@
 </code>
 
 - [jeyabalaji711/CVE-2024-42919](https://github.com/jeyabalaji711/CVE-2024-42919)
+
+### CVE-2024-42992
+- [juwenyi/CVE-2024-42992](https://github.com/juwenyi/CVE-2024-42992)
 
 ### CVE-2024-43044 (2024-08-07)
 
