@@ -1223,6 +1223,7 @@
 </code>
 
 - [bigb0x/CVE-2024-7928](https://github.com/bigb0x/CVE-2024-7928)
+- [wh6amiGit/CVE-2024-7928](https://github.com/wh6amiGit/CVE-2024-7928)
 
 ### CVE-2024-11451
 - [Xiaolqy/CVE-2024-11451](https://github.com/Xiaolqy/CVE-2024-11451)
@@ -33053,6 +33054,7 @@
 - [0xConstant/CVE-2019-11447](https://github.com/0xConstant/CVE-2019-11447)
 - [substing/CVE-2019-11447_reverse_shell_upload](https://github.com/substing/CVE-2019-11447_reverse_shell_upload)
 - [CRFSlick/CVE-2019-11447-POC](https://github.com/CRFSlick/CVE-2019-11447-POC)
+- [ojo5/CVE-2019-11447.c](https://github.com/ojo5/CVE-2019-11447.c)
 
 ### CVE-2019-11477 (2019-06-17)
 
