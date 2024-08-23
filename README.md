@@ -1218,6 +1218,7 @@
 - [bigb0x/CVE-2024-7928](https://github.com/bigb0x/CVE-2024-7928)
 - [fa-rrel/CVE-2024-7928](https://github.com/fa-rrel/CVE-2024-7928)
 - [wh6amiGit/CVE-2024-7928](https://github.com/wh6amiGit/CVE-2024-7928)
+- [th3gokul/CVE-2024-7928](https://github.com/th3gokul/CVE-2024-7928)
 
 ### CVE-2024-11451
 - [Xiaolqy/CVE-2024-11451](https://github.com/Xiaolqy/CVE-2024-11451)
@@ -1482,6 +1483,13 @@
 - [absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server](https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server)
 - [phucrio/CVE-2024-21683-RCE](https://github.com/phucrio/CVE-2024-21683-RCE)
 - [xh4vm/CVE-2024-21683](https://github.com/xh4vm/CVE-2024-21683)
+
+### CVE-2024-21689 (2024-08-20)
+
+<code>This High severity RCE (Remote Code Execution) vulnerability CVE-2024-21689  was introduced in versions 9.1.0, 9.2.0, 9.3.0, 9.4.0, 9.5.0, and 9.6.0 of Bamboo Data Center and Server.\r\n\r\nThis RCE (Remote Code Execution) vulnerability, with a CVSS Score of 7.6, allows an authenticated attacker to execute arbitrary code which has high impact to confidentiality, high impact to integrity, high impact to availability, and requires user interaction.\r\n\r\nAtlassian recommends that Bamboo Data Center and Server customers upgrade to latest version, if you are unable to do so, upgrade your instance to one of the specified supported fixed versions:\r\n Bamboo Data Center and Server 9.2: Upgrade to a release greater than or equal to 9.2.17\r\n\r\n Bamboo Data Center and Server 9.6: Upgrade to a release greater than or equal to 9.6.5\r\n\r\nSee the release notes ([https://confluence.atlassian.com/bambooreleases/bamboo-release-notes-1189793869.html]). You can download the latest version of Bamboo Data Center and Server from the download center ([https://www.atlassian.com/software/bamboo/download-archives]).\r\n\r\nThis vulnerability was reported via our Bug Bounty program.
+</code>
+
+- [salvadornakamura/CVE-2024-21689](https://github.com/salvadornakamura/CVE-2024-21689)
 
 ### CVE-2024-21733 (2024-01-19)
 
@@ -2695,7 +2703,7 @@
 <code>Incorrect Privilege Assignment vulnerability in LiteSpeed Technologies LiteSpeed Cache litespeed-cache allows Privilege Escalation.This issue affects LiteSpeed Cache: from 1.9 through 6.3.0.1.
 </code>
 
-- [explls/CVE-2024-28000](https://github.com/explls/CVE-2024-28000)
+- [realbotnet/CVE-2024-28000](https://github.com/realbotnet/CVE-2024-28000)
 
 ### CVE-2024-28085 (2024-03-27)
 
@@ -3988,6 +3996,7 @@
 </code>
 
 - [Abdurahmon3236/CVE-2024-38473](https://github.com/Abdurahmon3236/CVE-2024-38473)
+- [juanschallibaum/CVE-2024-38473-Nuclei-Template](https://github.com/juanschallibaum/CVE-2024-38473-Nuclei-Template)
 
 ### CVE-2024-38475 (2024-07-01)
 
@@ -4343,7 +4352,11 @@
 
 - [jeyabalaji711/CVE-2024-42919](https://github.com/jeyabalaji711/CVE-2024-42919)
 
-### CVE-2024-42992
+### CVE-2024-42992 (2024-08-23)
+
+<code>Python Pip Pandas v2.2.2 was discovered to contain an arbitrary file read vulnerability.
+</code>
+
 - [juwenyi/CVE-2024-42992](https://github.com/juwenyi/CVE-2024-42992)
 
 ### CVE-2024-43044 (2024-08-07)
