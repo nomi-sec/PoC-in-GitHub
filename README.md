@@ -1223,6 +1223,7 @@
 </code>
 
 - [bigb0x/CVE-2024-7928](https://github.com/bigb0x/CVE-2024-7928)
+- [fa-rrel/CVE-2024-7928](https://github.com/fa-rrel/CVE-2024-7928)
 - [wh6amiGit/CVE-2024-7928](https://github.com/wh6amiGit/CVE-2024-7928)
 
 ### CVE-2024-11451
@@ -3520,6 +3521,7 @@
 </code>
 
 - [Voorivex/CVE-2024-34351](https://github.com/Voorivex/CVE-2024-34351)
+- [God4n/nextjs-CVE-2024-34351-_exploit](https://github.com/God4n/nextjs-CVE-2024-34351-_exploit)
 
 ### CVE-2024-34361 (2024-07-05)
 
@@ -10217,6 +10219,7 @@
 - [prodigiousMind/CVE-2023-41425](https://github.com/prodigiousMind/CVE-2023-41425)
 - [charlesgargasson/CVE-2023-41425](https://github.com/charlesgargasson/CVE-2023-41425)
 - [insomnia-jacob/CVE-2023-41425](https://github.com/insomnia-jacob/CVE-2023-41425)
+- [tiyeume25112004/CVE-2023-41425](https://github.com/tiyeume25112004/CVE-2023-41425)
 
 ### CVE-2023-41436 (2023-09-15)
 
@@ -42974,7 +42977,7 @@
 </code>
 
 - [G01d3nW01f/CVE-2015-8351](https://github.com/G01d3nW01f/CVE-2015-8351)
-- [igruntplay/exploit-CVE-2015-8351](https://github.com/igruntplay/exploit-CVE-2015-8351)
+- [G4sp4rCS/exploit-CVE-2015-8351](https://github.com/G4sp4rCS/exploit-CVE-2015-8351)
 
 ### CVE-2015-8543 (2015-12-28)
 
