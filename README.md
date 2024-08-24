@@ -4303,6 +4303,9 @@
 
 - [OrangeJuiceHU/CVE-2024-41958-PoC](https://github.com/OrangeJuiceHU/CVE-2024-41958-PoC)
 
+### CVE-2024-41992
+- [fj016/CVE-2024-41992-PoC](https://github.com/fj016/CVE-2024-41992-PoC)
+
 ### CVE-2024-42461 (2024-08-02)
 
 <code>In the Elliptic package 6.5.6 for Node.js, ECDSA signature malleability occurs because BER-encoded signatures are allowed.
@@ -4331,6 +4334,13 @@
 
 - [1s1ldur/CVE-2024-42758](https://github.com/1s1ldur/CVE-2024-42758)
 
+### CVE-2024-42845 (2024-08-23)
+
+<code>An eval Injection vulnerability in the component invesalius/reader/dicom.py of InVesalius 3.1.99991 through 3.1.99998 allows attackers to execute arbitrary code via loading a crafted DICOM file.
+</code>
+
+- [partywavesec/invesalius3_vulnerabilities](https://github.com/partywavesec/invesalius3_vulnerabilities)
+
 ### CVE-2024-42849 (2024-08-16)
 
 <code>An issue in Silverpeas v.6.4.2 and lower allows a remote attacker to cause a denial of service via the password change function.
@@ -4358,6 +4368,9 @@
 </code>
 
 - [juwenyi/CVE-2024-42992](https://github.com/juwenyi/CVE-2024-42992)
+
+### CVE-2024-43035
+- [ZeroPathAI/Fonoster-LFI-PoC](https://github.com/ZeroPathAI/Fonoster-LFI-PoC)
 
 ### CVE-2024-43044 (2024-08-07)
 
@@ -34752,6 +34765,13 @@
 </code>
 
 - [Trinadh465/linux-4.19.72_CVE-2019-19447](https://github.com/Trinadh465/linux-4.19.72_CVE-2019-19447)
+
+### CVE-2019-19470 (2019-12-30)
+
+<code>Unsafe usage of .NET deserialization in Named Pipe message processing allows privilege escalation to NT AUTHORITY\SYSTEM for a local attacker. Affected product is TinyWall, all versions up to and including 2.1.12. Fixed in version 2.1.13.
+</code>
+
+- [juliourena/CVE-2019-19470-RedTeamRD](https://github.com/juliourena/CVE-2019-19470-RedTeamRD)
 
 ### CVE-2019-19492 (2019-12-02)
 
