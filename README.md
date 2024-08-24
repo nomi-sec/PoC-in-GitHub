@@ -2704,6 +2704,7 @@
 </code>
 
 - [realbotnet/CVE-2024-28000](https://github.com/realbotnet/CVE-2024-28000)
+- [Alucard0x1/CVE-2024-28000](https://github.com/Alucard0x1/CVE-2024-28000)
 
 ### CVE-2024-28085 (2024-03-27)
 
@@ -4334,6 +4335,9 @@
 
 - [1s1ldur/CVE-2024-42758](https://github.com/1s1ldur/CVE-2024-42758)
 
+### CVE-2024-42834
+- [CyberSec-Supra/CVE-2024-42834](https://github.com/CyberSec-Supra/CVE-2024-42834)
+
 ### CVE-2024-42845 (2024-08-23)
 
 <code>An eval Injection vulnerability in the component invesalius/reader/dicom.py of InVesalius 3.1.99991 through 3.1.99998 allows attackers to execute arbitrary code via loading a crafted DICOM file.
@@ -5212,6 +5216,7 @@
 - [Al3xGD/CVE-2023-4220-Exploit](https://github.com/Al3xGD/CVE-2023-4220-Exploit)
 - [charchit-subedi/chamilo-lms-unauthenticated-rce-poc](https://github.com/charchit-subedi/chamilo-lms-unauthenticated-rce-poc)
 - [LGenAgul/CVE-2023-4220-Proof-of-concept](https://github.com/LGenAgul/CVE-2023-4220-Proof-of-concept)
+- [VanishedPeople/CVE-2023-4220](https://github.com/VanishedPeople/CVE-2023-4220)
 
 ### CVE-2023-4226 (2023-11-28)
 
