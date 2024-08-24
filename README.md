@@ -741,6 +741,7 @@
 - [Harydhk7/CVE-2024-4358](https://github.com/Harydhk7/CVE-2024-4358)
 - [Sk1dr0wz/CVE-2024-4358_Mass_Exploit](https://github.com/Sk1dr0wz/CVE-2024-4358_Mass_Exploit)
 - [verylazytech/CVE-2024-4358](https://github.com/verylazytech/CVE-2024-4358)
+- [fa-rrel/CVE-2024-4358](https://github.com/fa-rrel/CVE-2024-4358)
 
 ### CVE-2024-4367 (2024-05-14)
 
