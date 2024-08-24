@@ -2800,6 +2800,7 @@
 - [muhammetali20/CVE-2024-28995](https://github.com/muhammetali20/CVE-2024-28995)
 - [Praison001/CVE-2024-28995-SolarWinds-Serv-U](https://github.com/Praison001/CVE-2024-28995-SolarWinds-Serv-U)
 - [Stuub/CVE-2024-28995](https://github.com/Stuub/CVE-2024-28995)
+- [gotr00t0day/CVE-2024-28995](https://github.com/gotr00t0day/CVE-2024-28995)
 
 ### CVE-2024-28999 (2024-06-04)
 
@@ -3216,6 +3217,7 @@
 - [h3xm4n/CVE-2024-32002](https://github.com/h3xm4n/CVE-2024-32002)
 - [charlesgargasson/CVE-2024-32002](https://github.com/charlesgargasson/CVE-2024-32002)
 - [NishanthAnand21/CVE-2024-32002-PoC](https://github.com/NishanthAnand21/CVE-2024-32002-PoC)
+- [FlojBoj/CVE-2024-32002](https://github.com/FlojBoj/CVE-2024-32002)
 - [tiyeume25112004/CVE-2024-32002](https://github.com/tiyeume25112004/CVE-2024-32002)
 - [chrisWalker11/running-CVE-2024-32002-locally-for-tesing](https://github.com/chrisWalker11/running-CVE-2024-32002-locally-for-tesing)
 - [sanan2004/CVE-2024-32002](https://github.com/sanan2004/CVE-2024-32002)
@@ -3939,6 +3941,7 @@
 - [dweger-scripts/CVE-2024-38063-Remediation](https://github.com/dweger-scripts/CVE-2024-38063-Remediation)
 - [almogopp/Disable-IPv6-CVE-2024-38063-Fix](https://github.com/almogopp/Disable-IPv6-CVE-2024-38063-Fix)
 - [Th3Tr1ckst3r/CVE-2024-38063](https://github.com/Th3Tr1ckst3r/CVE-2024-38063)
+- [haroonawanofficial/CVE-2024-38063-Research-Tool](https://github.com/haroonawanofficial/CVE-2024-38063-Research-Tool)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -5218,6 +5221,7 @@
 - [charchit-subedi/chamilo-lms-unauthenticated-rce-poc](https://github.com/charchit-subedi/chamilo-lms-unauthenticated-rce-poc)
 - [LGenAgul/CVE-2023-4220-Proof-of-concept](https://github.com/LGenAgul/CVE-2023-4220-Proof-of-concept)
 - [VanishedPeople/CVE-2023-4220](https://github.com/VanishedPeople/CVE-2023-4220)
+- [thefizzyfish/CVE-2023-4220](https://github.com/thefizzyfish/CVE-2023-4220)
 
 ### CVE-2023-4226 (2023-11-28)
 
@@ -10473,6 +10477,7 @@
 - [Zyad-Elsayed/CVE-2023-42793](https://github.com/Zyad-Elsayed/CVE-2023-42793)
 - [junnythemarksman/CVE-2023-42793](https://github.com/junnythemarksman/CVE-2023-42793)
 - [HusenjanDev/CVE-2023-42793](https://github.com/HusenjanDev/CVE-2023-42793)
+- [FlojBoj/CVE-2023-42793](https://github.com/FlojBoj/CVE-2023-42793)
 
 ### CVE-2023-42819 (2023-09-26)
 
