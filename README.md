@@ -3942,6 +3942,7 @@
 - [almogopp/Disable-IPv6-CVE-2024-38063-Fix](https://github.com/almogopp/Disable-IPv6-CVE-2024-38063-Fix)
 - [Th3Tr1ckst3r/CVE-2024-38063](https://github.com/Th3Tr1ckst3r/CVE-2024-38063)
 - [haroonawanofficial/CVE-2024-38063-Research-Tool](https://github.com/haroonawanofficial/CVE-2024-38063-Research-Tool)
+- [ynwarcs/CVE-2024-38063](https://github.com/ynwarcs/CVE-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -7700,6 +7701,7 @@
 - [Mostafa-Elguerdawi/CVE-2023-29489.yaml](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml)
 - [Mostafa-Elguerdawi/CVE-2023-29489](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489)
 - [whalebone7/EagleEye](https://github.com/whalebone7/EagleEye)
+- [0-d3y/CVE-2023-29489](https://github.com/0-d3y/CVE-2023-29489)
 - [Abdullah7-ma/CVE-2023-29489](https://github.com/Abdullah7-ma/CVE-2023-29489)
 - [tucommenceapousser/CVE-2023-29489](https://github.com/tucommenceapousser/CVE-2023-29489)
 - [tucommenceapousser/CVE-2023-29489.py](https://github.com/tucommenceapousser/CVE-2023-29489.py)
@@ -12278,6 +12280,7 @@
 - [Rai2en/CVE-2023-50564_Pluck-v4.7.18_PoC](https://github.com/Rai2en/CVE-2023-50564_Pluck-v4.7.18_PoC)
 - [ipuig/CVE-2023-50564](https://github.com/ipuig/CVE-2023-50564)
 - [rwexecute/CVE-2023-50564](https://github.com/rwexecute/CVE-2023-50564)
+- [thefizzyfish/CVE-2023-50564-pluck](https://github.com/thefizzyfish/CVE-2023-50564-pluck)
 
 ### CVE-2023-50596
 - [chandraprarikraj/CVE-2023-50596](https://github.com/chandraprarikraj/CVE-2023-50596)
