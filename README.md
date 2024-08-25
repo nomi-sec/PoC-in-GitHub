@@ -434,6 +434,13 @@
 
 - [herculeszxc/CVE-2024-2879](https://github.com/herculeszxc/CVE-2024-2879)
 
+### CVE-2024-2887 (2024-03-26)
+
+<code>Type Confusion in WebAssembly in Google Chrome prior to 123.0.6312.86 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [PumpkinBridge/Chrome-CVE-2024-2887-RCE-Poc](https://github.com/PumpkinBridge/Chrome-CVE-2024-2887-RCE-Poc)
+
 ### CVE-2024-2961 (2024-04-17)
 
 <code>The iconv() function in the GNU C Library versions 2.39 and older may overflow the output buffer passed to it by up to 4 bytes when converting strings to the ISO-2022-CN-EXT character set, which may be used to crash an application or overwrite a neighbouring variable.\n
@@ -992,6 +999,13 @@
 
 - [watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806](https://github.com/watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806)
 
+### CVE-2024-5932 (2024-08-20)
+
+<code>The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.14.1 via deserialization of untrusted input from the 'give_title' parameter. This makes it possible for unauthenticated attackers to inject a PHP Object. The additional presence of a POP chain allows attackers to execute code remotely, and to delete arbitrary files.
+</code>
+
+- [EQSTSeminar/CVE-2024-5932](https://github.com/EQSTSeminar/CVE-2024-5932)
+
 ### CVE-2024-5947 (2024-06-13)
 
 <code>Deep Sea Electronics DSE855 Configuration Backup Missing Authentication Information Disclosure Vulnerability. This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Deep Sea Electronics DSE855 devices. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the web-based UI. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Was ZDI-CAN-22679.
@@ -1220,9 +1234,6 @@
 - [fa-rrel/CVE-2024-7928](https://github.com/fa-rrel/CVE-2024-7928)
 - [wh6amiGit/CVE-2024-7928](https://github.com/wh6amiGit/CVE-2024-7928)
 - [th3gokul/CVE-2024-7928](https://github.com/th3gokul/CVE-2024-7928)
-
-### CVE-2024-11451
-- [Xiaolqy/CVE-2024-11451](https://github.com/Xiaolqy/CVE-2024-11451)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -4389,6 +4400,13 @@
 - [HwMex0/CVE-2024-43044](https://github.com/HwMex0/CVE-2024-43044)
 - [jenkinsci-cert/SECURITY-3430](https://github.com/jenkinsci-cert/SECURITY-3430)
 - [v9d0g/CVE-2024-43044-POC](https://github.com/v9d0g/CVE-2024-43044-POC)
+
+### CVE-2024-44083 (2024-08-19)
+
+<code>ida64.dll in Hex-Rays IDA Pro through 8.4 crashes when there is a section that has many jumps linked, and the final jump corresponds to the payload from where the actual entry point will be invoked. NOTE: in many use cases, this is an inconvenience but not a security issue.
+</code>
+
+- [Azvanzed/CVE-2024-44083](https://github.com/Azvanzed/CVE-2024-44083)
 
 ### CVE-2024-56662
 - [nimosec/cve-2024-56662](https://github.com/nimosec/cve-2024-56662)
