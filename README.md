@@ -364,6 +364,13 @@
 
 - [passer12/CVE-2024-1931-reproduction](https://github.com/passer12/CVE-2024-1931-reproduction)
 
+### CVE-2024-1939 (2024-02-29)
+
+<code>Type Confusion in V8 in Google Chrome prior to 122.0.6261.94 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [rycbar77/CVE-2024-1939](https://github.com/rycbar77/CVE-2024-1939)
+
 ### CVE-2024-2054 (2024-03-05)
 
 <code>The Artica-Proxy administrative web application will deserialize arbitrary PHP objects supplied by unauthenticated users and subsequently enable code execution as the &quot;www-data&quot; user.
@@ -440,6 +447,7 @@
 </code>
 
 - [PumpkinBridge/Chrome-CVE-2024-2887-RCE-Poc](https://github.com/PumpkinBridge/Chrome-CVE-2024-2887-RCE-Poc)
+- [rycbar77/CVE-2024-2887](https://github.com/rycbar77/CVE-2024-2887)
 
 ### CVE-2024-2961 (2024-04-17)
 
@@ -1470,6 +1478,7 @@
 - [Sk3pper/CVE-2024-21626](https://github.com/Sk3pper/CVE-2024-21626)
 - [KubernetesBachelor/CVE-2024-21626](https://github.com/KubernetesBachelor/CVE-2024-21626)
 - [dorser/cve-2024-21626](https://github.com/dorser/cve-2024-21626)
+- [FlojBoj/CVE-2024-21626](https://github.com/FlojBoj/CVE-2024-21626)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -2715,8 +2724,8 @@
 <code>Incorrect Privilege Assignment vulnerability in LiteSpeed Technologies LiteSpeed Cache litespeed-cache allows Privilege Escalation.This issue affects LiteSpeed Cache: from 1.9 through 6.3.0.1.
 </code>
 
-- [realbotnet/CVE-2024-28000](https://github.com/realbotnet/CVE-2024-28000)
 - [Alucard0x1/CVE-2024-28000](https://github.com/Alucard0x1/CVE-2024-28000)
+- [ebrasha/CVE-2024-28000](https://github.com/ebrasha/CVE-2024-28000)
 
 ### CVE-2024-28085 (2024-03-27)
 
@@ -2998,6 +3007,7 @@
 - [Zombie-Kaiser/CVE-2024-30088-Windows-poc](https://github.com/Zombie-Kaiser/CVE-2024-30088-Windows-poc)
 - [exploits-forsale/collateral-damage](https://github.com/exploits-forsale/collateral-damage)
 - [Admin9961/CVE-2024-30088](https://github.com/Admin9961/CVE-2024-30088)
+- [Justintroup85/exploits-forsale-collateral-damage](https://github.com/Justintroup85/exploits-forsale-collateral-damage)
 
 ### CVE-2024-30212 (2024-05-28)
 
@@ -4407,6 +4417,9 @@
 </code>
 
 - [Azvanzed/CVE-2024-44083](https://github.com/Azvanzed/CVE-2024-44083)
+
+### CVE-2024-45241
+- [d4lyw/CVE-2024-45241](https://github.com/d4lyw/CVE-2024-45241)
 
 ### CVE-2024-56662
 - [nimosec/cve-2024-56662](https://github.com/nimosec/cve-2024-56662)
