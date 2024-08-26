@@ -3212,7 +3212,6 @@
 - [Roronoawjd/hook](https://github.com/Roronoawjd/hook)
 - [Roronoawjd/git_rce](https://github.com/Roronoawjd/git_rce)
 - [JJoosh/CVE-2024-32002-Reverse-Shell](https://github.com/JJoosh/CVE-2024-32002-Reverse-Shell)
-- [YuanlooSec/CVE-2024-32002-poc](https://github.com/YuanlooSec/CVE-2024-32002-poc)
 - [1mxml/CVE-2024-32002-poc](https://github.com/1mxml/CVE-2024-32002-poc)
 - [bfengj/CVE-2024-32002-hook](https://github.com/bfengj/CVE-2024-32002-hook)
 - [ycdxsb/CVE-2024-32002-hulk](https://github.com/ycdxsb/CVE-2024-32002-hulk)
@@ -4426,8 +4425,18 @@
 
 - [Azvanzed/CVE-2024-44083](https://github.com/Azvanzed/CVE-2024-44083)
 
-### CVE-2024-45241
+### CVE-2024-45241 (2024-08-26)
+
+<code>A traversal vulnerability in GeneralDocs.aspx in CentralSquare CryWolf (False Alarm Management) through 2024-08-09 allows unauthenticated attackers to read files outside of the working web directory via the rpt parameter, leading to the disclosure of sensitive information.
+</code>
+
 - [d4lyw/CVE-2024-45241](https://github.com/d4lyw/CVE-2024-45241)
+
+### CVE-2024-45264
+- [TheHermione/CVE-2024-45264](https://github.com/TheHermione/CVE-2024-45264)
+
+### CVE-2024-45265
+- [TheHermione/CVE-2024-45265](https://github.com/TheHermione/CVE-2024-45265)
 
 ### CVE-2024-56662
 - [nimosec/cve-2024-56662](https://github.com/nimosec/cve-2024-56662)
@@ -5991,6 +6000,7 @@
 - [netbell/CVE-2023-20198-Fix](https://github.com/netbell/CVE-2023-20198-Fix)
 - [Vulnmachines/Cisco_CVE-2023-20198](https://github.com/Vulnmachines/Cisco_CVE-2023-20198)
 - [W01fh4cker/CVE-2023-20198-RCE](https://github.com/W01fh4cker/CVE-2023-20198-RCE)
+- [sanan2004/CVE-2023-20198](https://github.com/sanan2004/CVE-2023-20198)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -24200,6 +24210,7 @@
 - [belajarqywok/CVE-2021-41773-MSF](https://github.com/belajarqywok/CVE-2021-41773-MSF)
 - [Iris288/CVE-2021-41773](https://github.com/Iris288/CVE-2021-41773)
 - [Maybe4a6f7365/CVE-2021-41773](https://github.com/Maybe4a6f7365/CVE-2021-41773)
+- [0xc4t/CVE-2021-41773](https://github.com/0xc4t/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -25547,7 +25558,6 @@
 - [jxpsx/CVE-2021-45232-RCE](https://github.com/jxpsx/CVE-2021-45232-RCE)
 - [wuppp/cve-2021-45232-exp](https://github.com/wuppp/cve-2021-45232-exp)
 - [dskho/CVE-2021-45232](https://github.com/dskho/CVE-2021-45232)
-- [xiju2003/-cve-2021-45232](https://github.com/xiju2003/-cve-2021-45232)
 - [GYLQ/CVE-2021-45232-RCE](https://github.com/GYLQ/CVE-2021-45232-RCE)
 - [fany0r/CVE-2021-45232-RCE](https://github.com/fany0r/CVE-2021-45232-RCE)
 - [yggcwhat/Demo](https://github.com/yggcwhat/Demo)
