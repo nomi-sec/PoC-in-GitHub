@@ -17216,6 +17216,7 @@
 - [Johnermac/CVE-2022-35914](https://github.com/Johnermac/CVE-2022-35914)
 - [allendemoura/CVE-2022-35914](https://github.com/allendemoura/CVE-2022-35914)
 - [0romos/CVE-2022-35914](https://github.com/0romos/CVE-2022-35914)
+- [noxlumens/CVE-2022-35914_poc](https://github.com/noxlumens/CVE-2022-35914_poc)
 
 ### CVE-2022-35919 (2022-08-01)
 
