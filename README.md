@@ -1165,6 +1165,7 @@
 - [niktoproject/CVE-202406387_Check.py](https://github.com/niktoproject/CVE-202406387_Check.py)
 - [s1d6point7bugcrowd/CVE-2024-6387-Race-Condition-in-Signal-Handling-for-OpenSSH](https://github.com/s1d6point7bugcrowd/CVE-2024-6387-Race-Condition-in-Signal-Handling-for-OpenSSH)
 - [almogopp/OpenSSH-CVE-2024-6387-Fix](https://github.com/almogopp/OpenSSH-CVE-2024-6387-Fix)
+- [HadesNull123/CVE-2024-6387_Check](https://github.com/HadesNull123/CVE-2024-6387_Check)
 
 ### CVE-2024-6529 (2024-08-01)
 
@@ -1209,7 +1210,11 @@
 
 - [nastar-id/CVE-2024-7094](https://github.com/nastar-id/CVE-2024-7094)
 
-### CVE-2024-7313
+### CVE-2024-7313 (2024-08-26)
+
+<code>The Shield Security  WordPress plugin before 20.0.6 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin.
+</code>
+
 - [Wayne-Ker/CVE-2024-7313](https://github.com/Wayne-Ker/CVE-2024-7313)
 
 ### CVE-2024-7339 (2024-08-01)
@@ -4288,6 +4293,9 @@
 ### CVE-2024-41302
 - [patrickdeanramos/CVE-2024-41302-Bookea-tu-Mesa-is-vulnerable-to-SQL-Injection](https://github.com/patrickdeanramos/CVE-2024-41302-Bookea-tu-Mesa-is-vulnerable-to-SQL-Injection)
 
+### CVE-2024-41312
+- [Amal264882/CVE-2024-41312.](https://github.com/Amal264882/CVE-2024-41312.)
+
 ### CVE-2024-41570 (2024-08-09)
 
 <code>An Unauthenticated Server-Side Request Forgery (SSRF) in demon callback handling in Havoc 2 0.7 allows attackers to send arbitrary network traffic originating from the team server.
@@ -6559,6 +6567,7 @@
 - [asepsaepdin/CVE-2023-22809](https://github.com/asepsaepdin/CVE-2023-22809)
 - [Toothless5143/CVE-2023-22809](https://github.com/Toothless5143/CVE-2023-22809)
 - [AntiVlad/CVE-2023-22809](https://github.com/AntiVlad/CVE-2023-22809)
+- [laxmiyamkolu/SUDO-privilege-escalation](https://github.com/laxmiyamkolu/SUDO-privilege-escalation)
 
 ### CVE-2023-22855 (2023-02-15)
 
