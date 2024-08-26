@@ -2394,6 +2394,13 @@
 - [KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress](https://github.com/KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress)
 - [wh6amiGit/CVE-2024-25600](https://github.com/wh6amiGit/CVE-2024-25600)
 
+### CVE-2024-25641 (2024-05-13)
+
+<code>Cacti provides an operational monitoring and fault management framework. Prior to version 1.2.27, an arbitrary file write vulnerability, exploitable through the &quot;Package Import&quot; feature, allows authenticated users having the &quot;Import Templates&quot; permission to execute arbitrary PHP code on the web server. The vulnerability is located within the `import_package()` function defined into the `/lib/import.php` script. The function blindly trusts the filename and file content provided within the XML data, and writes such files into the Cacti base path (or even outside, since path traversal sequences are not filtered). This can be exploited to write or overwrite arbitrary files on the web server, leading to execution of arbitrary PHP code or other security impacts. Version 1.2.27 contains a patch for this issue.
+</code>
+
+- [5ma1l/CVE-2024-25641](https://github.com/5ma1l/CVE-2024-25641)
+
 ### CVE-2024-25723 (2024-02-27)
 
 <code>ZenML Server in the ZenML machine learning package before 0.46.7 for Python allows remote privilege escalation because the /api/v1/users/{user_name_or_id}/activate REST API endpoint allows access on the basis of a valid username along with a new password in the request body. These are also patched versions: 0.44.4, 0.43.1, and 0.42.2.
@@ -3961,7 +3968,7 @@
 
 - [diegoalbuquerque/CVE-2024-38063](https://github.com/diegoalbuquerque/CVE-2024-38063)
 - [noradlb1/CVE-2024-38063-VB](https://github.com/noradlb1/CVE-2024-38063-VB)
-- [Sachinart/CVE-2024-38063-POC](https://github.com/Sachinart/CVE-2024-38063-POC)
+- [Sachinart/CVE-2024-38063-simulation](https://github.com/Sachinart/CVE-2024-38063-simulation)
 - [p33d/cve-2024-38063](https://github.com/p33d/cve-2024-38063)
 - [dweger-scripts/CVE-2024-38063-Remediation](https://github.com/dweger-scripts/CVE-2024-38063-Remediation)
 - [almogopp/Disable-IPv6-CVE-2024-38063-Fix](https://github.com/almogopp/Disable-IPv6-CVE-2024-38063-Fix)
@@ -4399,11 +4406,7 @@
 
 - [jeyabalaji711/CVE-2024-42919](https://github.com/jeyabalaji711/CVE-2024-42919)
 
-### CVE-2024-42992 (2024-08-23)
-
-<code>Python Pip Pandas v2.2.2 was discovered to contain an arbitrary file read vulnerability.
-</code>
-
+### CVE-2024-42992
 - [juwenyi/CVE-2024-42992](https://github.com/juwenyi/CVE-2024-42992)
 
 ### CVE-2024-43035
@@ -4435,7 +4438,11 @@
 ### CVE-2024-45264
 - [TheHermione/CVE-2024-45264](https://github.com/TheHermione/CVE-2024-45264)
 
-### CVE-2024-45265
+### CVE-2024-45265 (2024-08-26)
+
+<code>A SQL injection vulnerability in the poll component in SkySystem Arfa-CMS before 5.1.3124 allows remote attackers to execute arbitrary SQL commands via the psid parameter.
+</code>
+
 - [TheHermione/CVE-2024-45265](https://github.com/TheHermione/CVE-2024-45265)
 
 ### CVE-2024-56662
@@ -33183,7 +33190,6 @@
 - [andripwn/pulse-exploit](https://github.com/andripwn/pulse-exploit)
 - [pwn3z/CVE-2019-11510-PulseVPN](https://github.com/pwn3z/CVE-2019-11510-PulseVPN)
 - [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
-- [0xab01/-CVE-2019-11510-Exploit](https://github.com/0xab01/-CVE-2019-11510-Exploit)
 
 ### CVE-2019-11523 (2019-06-06)
 
@@ -42356,7 +42362,7 @@
 
 - [SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328](https://github.com/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328)
 - [notlikethis/CVE-2015-1328](https://github.com/notlikethis/CVE-2015-1328)
-- [0x1ns4n3/CVE-2015-1328-GoldenEye](https://github.com/0x1ns4n3/CVE-2015-1328-GoldenEye)
+- [elit3pwner/CVE-2015-1328-GoldenEye](https://github.com/elit3pwner/CVE-2015-1328-GoldenEye)
 - [BlackFrog-hub/cve-2015-1328](https://github.com/BlackFrog-hub/cve-2015-1328)
 
 ### CVE-2015-1397 (2015-04-29)
@@ -45526,6 +45532,7 @@
 - [Ooscaar/MALW](https://github.com/Ooscaar/MALW)
 - [davidholiday/CVE-2007-4559](https://github.com/davidholiday/CVE-2007-4559)
 - [luigigubello/trellix-tarslip-patch-bypass](https://github.com/luigigubello/trellix-tarslip-patch-bypass)
+- [JamesDarf/tarpioka](https://github.com/JamesDarf/tarpioka)
 
 ### CVE-2007-4560 (2007-08-28)
 
