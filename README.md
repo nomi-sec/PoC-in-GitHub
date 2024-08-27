@@ -2409,6 +2409,7 @@
 
 - [5ma1l/CVE-2024-25641](https://github.com/5ma1l/CVE-2024-25641)
 - [thisisveryfunny/CVE-2024-25641-RCE-Automated-Exploit-Cacti-1.2.26](https://github.com/thisisveryfunny/CVE-2024-25641-RCE-Automated-Exploit-Cacti-1.2.26)
+- [Safarchand/CVE-2024-25641](https://github.com/Safarchand/CVE-2024-25641)
 
 ### CVE-2024-25723 (2024-02-27)
 
@@ -3754,6 +3755,7 @@
 - [ahisec/geoserver-](https://github.com/ahisec/geoserver-)
 - [Chocapikk/CVE-2024-36401](https://github.com/Chocapikk/CVE-2024-36401)
 - [yisas93/CVE-2024-36401-PoC](https://github.com/yisas93/CVE-2024-36401-PoC)
+- [justin-p/geoexplorer](https://github.com/justin-p/geoexplorer)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -3985,6 +3987,7 @@
 - [Th3Tr1ckst3r/CVE-2024-38063](https://github.com/Th3Tr1ckst3r/CVE-2024-38063)
 - [haroonawanofficial/CVE-2024-38063-Research-Tool](https://github.com/haroonawanofficial/CVE-2024-38063-Research-Tool)
 - [ynwarcs/CVE-2024-38063](https://github.com/ynwarcs/CVE-2024-38063)
+- [patchpoint/CVE-2024-38063](https://github.com/patchpoint/CVE-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -4456,7 +4459,11 @@
 - [shanker-sec/HLF_TxTime_spoofing](https://github.com/shanker-sec/HLF_TxTime_spoofing)
 - [shanker-sec/hlf-time-oracle](https://github.com/shanker-sec/hlf-time-oracle)
 
-### CVE-2024-45264
+### CVE-2024-45264 (2024-08-27)
+
+<code>A cross-site request forgery (CSRF) vulnerability in the admin panel in SkySystem Arfa-CMS before 5.1.3124 allows remote attackers to add a new administrator, leading to escalation of privileges.
+</code>
+
 - [TheHermione/CVE-2024-45264](https://github.com/TheHermione/CVE-2024-45264)
 
 ### CVE-2024-45265 (2024-08-26)
@@ -5290,6 +5297,7 @@
 - [LGenAgul/CVE-2023-4220-Proof-of-concept](https://github.com/LGenAgul/CVE-2023-4220-Proof-of-concept)
 - [VanishedPeople/CVE-2023-4220](https://github.com/VanishedPeople/CVE-2023-4220)
 - [thefizzyfish/CVE-2023-4220](https://github.com/thefizzyfish/CVE-2023-4220)
+- [qrxnz/CVE-2023-4220](https://github.com/qrxnz/CVE-2023-4220)
 
 ### CVE-2023-4226 (2023-11-28)
 
@@ -10329,6 +10337,7 @@
 - [charlesgargasson/CVE-2023-41425](https://github.com/charlesgargasson/CVE-2023-41425)
 - [insomnia-jacob/CVE-2023-41425](https://github.com/insomnia-jacob/CVE-2023-41425)
 - [tiyeume25112004/CVE-2023-41425](https://github.com/tiyeume25112004/CVE-2023-41425)
+- [thefizzyfish/CVE-2023-41425-wonderCMS_RCE](https://github.com/thefizzyfish/CVE-2023-41425-wonderCMS_RCE)
 
 ### CVE-2023-41436 (2023-09-15)
 
@@ -21304,13 +21313,6 @@
 - [hnthuan1998/CVE-2021-24160](https://github.com/hnthuan1998/CVE-2021-24160)
 - [hnthuan1998/Exploit-CVE-2021-24160](https://github.com/hnthuan1998/Exploit-CVE-2021-24160)
 
-### CVE-2021-24307 (2021-05-24)
-
-<code>The All in One SEO – Best WordPress SEO Plugin – Easily Improve Your SEO Rankings before 4.1.0.2 enables authenticated users with &quot;aioseo_tools_settings&quot; privilege (most of the time admin) to execute arbitrary code on the underlying host. Users can restore plugin's configuration by uploading a backup .ini file in the section &quot;Tool &gt; Import/Export&quot;. However, the plugin attempts to unserialize values of the .ini file. Moreover, the plugin embeds Monolog library which can be used to craft a gadget chain and thus trigger system command execution.
-</code>
-
-- [darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce](https://github.com/darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce)
-
 ### CVE-2021-24356 (2021-06-14)
 
 <code>In the Simple 301 Redirects by BetterLinks WordPress plugin before 2.0.4, a lack of capability checks and insufficient nonce check on the AJAX action, simple301redirects/admin/activate_plugin, made it possible for authenticated users to activate arbitrary plugins installed on vulnerable sites.
@@ -24230,6 +24232,7 @@
 - [belajarqywok/CVE-2021-41773-MSF](https://github.com/belajarqywok/CVE-2021-41773-MSF)
 - [Iris288/CVE-2021-41773](https://github.com/Iris288/CVE-2021-41773)
 - [Maybe4a6f7365/CVE-2021-41773](https://github.com/Maybe4a6f7365/CVE-2021-41773)
+- [Zyx2440/Apache-HTTP-Server-2.4.50-RCE](https://github.com/Zyx2440/Apache-HTTP-Server-2.4.50-RCE)
 - [0xc4t/CVE-2021-41773](https://github.com/0xc4t/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
