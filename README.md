@@ -2747,6 +2747,7 @@
 
 - [Alucard0x1/CVE-2024-28000](https://github.com/Alucard0x1/CVE-2024-28000)
 - [ebrasha/CVE-2024-28000](https://github.com/ebrasha/CVE-2024-28000)
+- [arch1m3d/CVE-2024-28000](https://github.com/arch1m3d/CVE-2024-28000)
 
 ### CVE-2024-28085 (2024-03-27)
 
@@ -2754,6 +2755,7 @@
 </code>
 
 - [skyler-ferrante/CVE-2024-28085](https://github.com/skyler-ferrante/CVE-2024-28085)
+- [oditynet/sleepall](https://github.com/oditynet/sleepall)
 
 ### CVE-2024-28088 (2024-03-03)
 
@@ -4429,6 +4431,9 @@
 - [jenkinsci-cert/SECURITY-3430](https://github.com/jenkinsci-cert/SECURITY-3430)
 - [v9d0g/CVE-2024-43044-POC](https://github.com/v9d0g/CVE-2024-43044-POC)
 
+### CVE-2024-43425
+- [RedTeamPentesting/moodle-rce-calculatedquestions](https://github.com/RedTeamPentesting/moodle-rce-calculatedquestions)
+
 ### CVE-2024-44083 (2024-08-19)
 
 <code>ida64.dll in Hex-Rays IDA Pro through 8.4 crashes when there is a section that has many jumps linked, and the final jump corresponds to the payload from where the actual entry point will be invoked. NOTE: in many use cases, this is an inconvenience but not a security issue.
@@ -4442,6 +4447,14 @@
 </code>
 
 - [d4lyw/CVE-2024-45241](https://github.com/d4lyw/CVE-2024-45241)
+
+### CVE-2024-45244 (2024-08-25)
+
+<code>Hyperledger Fabric through 2.5.9 does not verify that a request has a timestamp within the expected time window.
+</code>
+
+- [shanker-sec/HLF_TxTime_spoofing](https://github.com/shanker-sec/HLF_TxTime_spoofing)
+- [shanker-sec/hlf-time-oracle](https://github.com/shanker-sec/hlf-time-oracle)
 
 ### CVE-2024-45264
 - [TheHermione/CVE-2024-45264](https://github.com/TheHermione/CVE-2024-45264)
