@@ -884,6 +884,7 @@
 - [Praison001/CVE-2024-4879-ServiceNow](https://github.com/Praison001/CVE-2024-4879-ServiceNow)
 - [NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning](https://github.com/NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning)
 - [jdusane/CVE-2024-4879](https://github.com/jdusane/CVE-2024-4879)
+- [fa-rrel/CVE-2024-4879](https://github.com/fa-rrel/CVE-2024-4879)
 
 ### CVE-2024-4883 (2024-06-25)
 
@@ -1069,6 +1070,13 @@
 </code>
 
 - [Abdurahmon3236/CVE-2024-6366](https://github.com/Abdurahmon3236/CVE-2024-6366)
+
+### CVE-2024-6386 (2024-08-21)
+
+<code>The WPML plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 4.6.12 via the Twig Server-Side Template Injection. This is due to missing input validation and sanitization on the render function. This makes it possible for authenticated attackers, with Contributor-level access and above, to execute code on the server.
+</code>
+
+- [realbotnet/CVE-2024-6386](https://github.com/realbotnet/CVE-2024-6386)
 
 ### CVE-2024-6387 (2024-07-01)
 
@@ -2400,6 +2408,7 @@
 </code>
 
 - [5ma1l/CVE-2024-25641](https://github.com/5ma1l/CVE-2024-25641)
+- [thisisveryfunny/CVE-2024-25641-RCE-Automated-Exploit-Cacti-1.2.26](https://github.com/thisisveryfunny/CVE-2024-25641-RCE-Automated-Exploit-Cacti-1.2.26)
 
 ### CVE-2024-25723 (2024-02-27)
 
@@ -3239,7 +3248,6 @@
 - [AD-Appledog/wakuwaku](https://github.com/AD-Appledog/wakuwaku)
 - [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
 - [Basyaact/CVE-2024-32002-PoC_Chinese](https://github.com/Basyaact/CVE-2024-32002-PoC_Chinese)
-- [bonnettheo/CVE-2024-32002](https://github.com/bonnettheo/CVE-2024-32002)
 - [EQSTSeminar/git_rce](https://github.com/EQSTSeminar/git_rce)
 - [sysonlai/CVE-2024-32002-hook](https://github.com/sysonlai/CVE-2024-32002-hook)
 - [TSY244/CVE-2024-32002-git-rce-father-poc](https://github.com/TSY244/CVE-2024-32002-git-rce-father-poc)
@@ -4407,7 +4415,7 @@
 - [jeyabalaji711/CVE-2024-42919](https://github.com/jeyabalaji711/CVE-2024-42919)
 
 ### CVE-2024-42992
-- [juwenyi/CVE-2024-42992](https://github.com/juwenyi/CVE-2024-42992)
+- [thanhh23/CVE-2024-42992](https://github.com/thanhh23/CVE-2024-42992)
 
 ### CVE-2024-43035
 - [ZeroPathAI/Fonoster-LFI-PoC](https://github.com/ZeroPathAI/Fonoster-LFI-PoC)
@@ -4447,15 +4455,6 @@
 
 ### CVE-2024-56662
 - [nimosec/cve-2024-56662](https://github.com/nimosec/cve-2024-56662)
-
-### CVE-2024-65230
-- [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
-
-### CVE-2024-206565
-- [sanderswannalive/sumkaluissessss](https://github.com/sanderswannalive/sumkaluissessss)
-
-### CVE-2024-320002
-- [bonnettheo/hook](https://github.com/bonnettheo/hook)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -20476,6 +20475,7 @@
 - [X-Projetion/Exploiting-PwnKit-CVE-2021-4034-](https://github.com/X-Projetion/Exploiting-PwnKit-CVE-2021-4034-)
 - [evkl1d/CVE-2021-4034](https://github.com/evkl1d/CVE-2021-4034)
 - [Typical0day/CVE-2021-4034](https://github.com/Typical0day/CVE-2021-4034)
+- [lsclsclsc/CVE-2021-4034](https://github.com/lsclsclsc/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
