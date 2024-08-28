@@ -1014,6 +1014,8 @@
 </code>
 
 - [EQSTSeminar/CVE-2024-5932](https://github.com/EQSTSeminar/CVE-2024-5932)
+- [niktoproject/CVE-2024-5932](https://github.com/niktoproject/CVE-2024-5932)
+- [sqlmap-projects/CVE-2024-5932](https://github.com/sqlmap-projects/CVE-2024-5932)
 
 ### CVE-2024-5947 (2024-06-13)
 
@@ -3238,6 +3240,7 @@
 - [bfengj/CVE-2024-32002-Exploit](https://github.com/bfengj/CVE-2024-32002-Exploit)
 - [vincepsh/CVE-2024-32002](https://github.com/vincepsh/CVE-2024-32002)
 - [vincepsh/CVE-2024-32002-hook](https://github.com/vincepsh/CVE-2024-32002-hook)
+- [JJoosh/CVE-2024-32002](https://github.com/JJoosh/CVE-2024-32002)
 - [10cks/CVE-2024-32002-EXP](https://github.com/10cks/CVE-2024-32002-EXP)
 - [WOOOOONG/CVE-2024-32002](https://github.com/WOOOOONG/CVE-2024-32002)
 - [WOOOOONG/hook](https://github.com/WOOOOONG/hook)
@@ -4075,6 +4078,7 @@
 - [ThatNotEasy/CVE-2024-38856](https://github.com/ThatNotEasy/CVE-2024-38856)
 - [Praison001/CVE-2024-38856-ApacheOfBiz](https://github.com/Praison001/CVE-2024-38856-ApacheOfBiz)
 - [0x20c/CVE-2024-38856-EXP](https://github.com/0x20c/CVE-2024-38856-EXP)
+- [emanueldosreis/CVE-2024-38856](https://github.com/emanueldosreis/CVE-2024-38856)
 
 ### CVE-2024-39031 (2024-07-09)
 
