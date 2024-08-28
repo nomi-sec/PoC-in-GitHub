@@ -446,7 +446,7 @@
 <code>Type Confusion in WebAssembly in Google Chrome prior to 123.0.6312.86 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)
 </code>
 
-- [PumpkinBridge/Chrome-CVE-2024-2887-RCE-Poc](https://github.com/PumpkinBridge/Chrome-CVE-2024-2887-RCE-Poc)
+- [PumpkinBridge/Chrome-CVE-2024-2887-RCE-POC](https://github.com/PumpkinBridge/Chrome-CVE-2024-2887-RCE-POC)
 - [rycbar77/CVE-2024-2887](https://github.com/rycbar77/CVE-2024-2887)
 
 ### CVE-2024-2961 (2024-04-17)
@@ -613,7 +613,6 @@
 - [index2014/CVE-2024-3400-Checker](https://github.com/index2014/CVE-2024-3400-Checker)
 - [ZephrFish/CVE-2024-3400-Canary](https://github.com/ZephrFish/CVE-2024-3400-Canary)
 - [ak1t4/CVE-2024-3400](https://github.com/ak1t4/CVE-2024-3400)
-- [phantomradar/cve-2024-3400-poc](https://github.com/phantomradar/cve-2024-3400-poc)
 - [retkoussa/CVE-2024-3400](https://github.com/retkoussa/CVE-2024-3400)
 - [schooldropout1337/CVE-2024-3400](https://github.com/schooldropout1337/CVE-2024-3400)
 - [hahasagined/CVE-2024-3400](https://github.com/hahasagined/CVE-2024-3400)
@@ -621,6 +620,7 @@
 - [swaybs/CVE-2024-3400](https://github.com/swaybs/CVE-2024-3400)
 - [sxyrxyy/CVE-2024-3400-Check](https://github.com/sxyrxyy/CVE-2024-3400-Check)
 - [Ravaan21/CVE-2024-3400](https://github.com/Ravaan21/CVE-2024-3400)
+- [tfrederick74656/cve-2024-3400-poc](https://github.com/tfrederick74656/cve-2024-3400-poc)
 - [pwnj0hn/CVE-2024-3400](https://github.com/pwnj0hn/CVE-2024-3400)
 - [HackingLZ/panrapidcheck](https://github.com/HackingLZ/panrapidcheck)
 - [Kr0ff/cve-2024-3400](https://github.com/Kr0ff/cve-2024-3400)
@@ -3991,6 +3991,7 @@
 - [haroonawanofficial/CVE-2024-38063-Research-Tool](https://github.com/haroonawanofficial/CVE-2024-38063-Research-Tool)
 - [ynwarcs/CVE-2024-38063](https://github.com/ynwarcs/CVE-2024-38063)
 - [patchpoint/CVE-2024-38063](https://github.com/patchpoint/CVE-2024-38063)
+- [PumpkinBridge/Windows-CVE-2024-38063](https://github.com/PumpkinBridge/Windows-CVE-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -4079,6 +4080,7 @@
 - [Praison001/CVE-2024-38856-ApacheOfBiz](https://github.com/Praison001/CVE-2024-38856-ApacheOfBiz)
 - [0x20c/CVE-2024-38856-EXP](https://github.com/0x20c/CVE-2024-38856-EXP)
 - [emanueldosreis/CVE-2024-38856](https://github.com/emanueldosreis/CVE-2024-38856)
+- [BBD-YZZ/CVE-2024-38856-RCE](https://github.com/BBD-YZZ/CVE-2024-38856-RCE)
 
 ### CVE-2024-39031 (2024-07-09)
 
@@ -22304,13 +22306,6 @@
 - [jsherman212/iomfb-exploit](https://github.com/jsherman212/iomfb-exploit)
 - [30440r/gex](https://github.com/30440r/gex)
 
-### CVE-2021-30853 (2021-08-24)
-
-<code>This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.6. A malicious application may bypass Gatekeeper checks.
-</code>
-
-- [shubham0d/CVE-2021-30853](https://github.com/shubham0d/CVE-2021-30853)
-
 ### CVE-2021-30858 (2021-08-24)
 
 <code>A use after free issue was addressed with improved memory management. This issue is fixed in iOS 14.8 and iPadOS 14.8, macOS Big Sur 11.6. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
@@ -24238,6 +24233,7 @@
 - [Maybe4a6f7365/CVE-2021-41773](https://github.com/Maybe4a6f7365/CVE-2021-41773)
 - [Zyx2440/Apache-HTTP-Server-2.4.50-RCE](https://github.com/Zyx2440/Apache-HTTP-Server-2.4.50-RCE)
 - [0xc4t/CVE-2021-41773](https://github.com/0xc4t/CVE-2021-41773)
+- [jkska23/Additive-Vulnerability-Analysis-CVE-2021-41773](https://github.com/jkska23/Additive-Vulnerability-Analysis-CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -42229,6 +42225,13 @@
 </code>
 
 - [0xc4t/CVE-2016-10993](https://github.com/0xc4t/CVE-2016-10993)
+
+### CVE-2016-20012 (2021-09-15)
+
+<code>OpenSSH through 8.7 allows remote attackers, who have a suspicion that a certain combination of username and public key is known to an SSH server, to test whether this suspicion is correct. This occurs because a challenge is sent only when that combination could be valid for a login session. NOTE: the vendor does not recognize user enumeration as a vulnerability for this product
+</code>
+
+- [aztec-eagle/cve-2016-20012](https://github.com/aztec-eagle/cve-2016-20012)
 
 ### CVE-2016-1000027 (2020-01-02)
 
