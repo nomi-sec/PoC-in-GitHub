@@ -1015,7 +1015,6 @@
 
 - [EQSTLab/CVE-2024-5932](https://github.com/EQSTLab/CVE-2024-5932)
 - [niktoproject/CVE-2024-5932](https://github.com/niktoproject/CVE-2024-5932)
-- [sqlmap-projects/CVE-2024-5932](https://github.com/sqlmap-projects/CVE-2024-5932)
 
 ### CVE-2024-5947 (2024-06-13)
 
@@ -1176,6 +1175,7 @@
 - [s1d6point7bugcrowd/CVE-2024-6387-Race-Condition-in-Signal-Handling-for-OpenSSH](https://github.com/s1d6point7bugcrowd/CVE-2024-6387-Race-Condition-in-Signal-Handling-for-OpenSSH)
 - [almogopp/OpenSSH-CVE-2024-6387-Fix](https://github.com/almogopp/OpenSSH-CVE-2024-6387-Fix)
 - [HadesNull123/CVE-2024-6387_Check](https://github.com/HadesNull123/CVE-2024-6387_Check)
+- [identity-threat-labs/CVE-2024-6387-Vulnerability-Checker](https://github.com/identity-threat-labs/CVE-2024-6387-Vulnerability-Checker)
 
 ### CVE-2024-6529 (2024-08-01)
 
@@ -1264,6 +1264,14 @@
 - [fa-rrel/CVE-2024-7928](https://github.com/fa-rrel/CVE-2024-7928)
 - [wh6amiGit/CVE-2024-7928](https://github.com/wh6amiGit/CVE-2024-7928)
 - [th3gokul/CVE-2024-7928](https://github.com/th3gokul/CVE-2024-7928)
+
+### CVE-2024-7954 (2024-08-23)
+
+<code>The porte_plume plugin used by SPIP before 4.30-alpha2, 4.2.13, and 4.1.16 is vulnerable to an arbitrary code execution vulnerability. A remote and unauthenticated attacker can execute arbitrary PHP as the SPIP user by sending a crafted HTTP request.
+</code>
+
+- [Chocapikk/CVE-2024-7954](https://github.com/Chocapikk/CVE-2024-7954)
+- [bigb0x/CVE-2024-7954](https://github.com/bigb0x/CVE-2024-7954)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2493,6 +2501,7 @@
 </code>
 
 - [kiwids0220/CVE-2024-26230](https://github.com/kiwids0220/CVE-2024-26230)
+- [Wa1nut4/CVE-2024-26230](https://github.com/Wa1nut4/CVE-2024-26230)
 
 ### CVE-2024-26304 (2024-05-01)
 
@@ -4000,6 +4009,7 @@
 - [patchpoint/CVE-2024-38063](https://github.com/patchpoint/CVE-2024-38063)
 - [PumpkinBridge/Windows-CVE-2024-38063](https://github.com/PumpkinBridge/Windows-CVE-2024-38063)
 - [zenzue/CVE-2024-38063-POC](https://github.com/zenzue/CVE-2024-38063-POC)
+- [AdminPentester/CVE-2024-38063-](https://github.com/AdminPentester/CVE-2024-38063-)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -6618,6 +6628,7 @@
 - [Toothless5143/CVE-2023-22809](https://github.com/Toothless5143/CVE-2023-22809)
 - [AntiVlad/CVE-2023-22809](https://github.com/AntiVlad/CVE-2023-22809)
 - [laxmiyamkolu/SUDO-privilege-escalation](https://github.com/laxmiyamkolu/SUDO-privilege-escalation)
+- [D0rDa4aN919/CVE-2023-22809-Exploiter](https://github.com/D0rDa4aN919/CVE-2023-22809-Exploiter)
 
 ### CVE-2023-22855 (2023-02-15)
 
