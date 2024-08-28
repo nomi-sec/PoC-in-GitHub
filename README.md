@@ -1013,7 +1013,7 @@
 <code>The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.14.1 via deserialization of untrusted input from the 'give_title' parameter. This makes it possible for unauthenticated attackers to inject a PHP Object. The additional presence of a POP chain allows attackers to execute code remotely, and to delete arbitrary files.
 </code>
 
-- [EQSTSeminar/CVE-2024-5932](https://github.com/EQSTSeminar/CVE-2024-5932)
+- [EQSTLab/CVE-2024-5932](https://github.com/EQSTLab/CVE-2024-5932)
 - [niktoproject/CVE-2024-5932](https://github.com/niktoproject/CVE-2024-5932)
 - [sqlmap-projects/CVE-2024-5932](https://github.com/sqlmap-projects/CVE-2024-5932)
 
@@ -1233,6 +1233,13 @@
 </code>
 
 - [RevoltSecurities/CVE-2024-7339](https://github.com/RevoltSecurities/CVE-2024-7339)
+
+### CVE-2024-7593 (2024-08-13)
+
+<code>Incorrect implementation of an authentication algorithm in Ivanti vTM other than versions 22.2R1 or 22.7R2 allows a remote unauthenticated attacker to bypass authentication of the admin panel.
+</code>
+
+- [rxerium/CVE-2024-7593](https://github.com/rxerium/CVE-2024-7593)
 
 ### CVE-2024-7646 (2024-08-16)
 
@@ -3254,7 +3261,7 @@
 - [AD-Appledog/wakuwaku](https://github.com/AD-Appledog/wakuwaku)
 - [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
 - [Basyaact/CVE-2024-32002-PoC_Chinese](https://github.com/Basyaact/CVE-2024-32002-PoC_Chinese)
-- [EQSTSeminar/git_rce](https://github.com/EQSTSeminar/git_rce)
+- [EQSTLab/git_rce](https://github.com/EQSTLab/git_rce)
 - [sysonlai/CVE-2024-32002-hook](https://github.com/sysonlai/CVE-2024-32002-hook)
 - [TSY244/CVE-2024-32002-git-rce-father-poc](https://github.com/TSY244/CVE-2024-32002-git-rce-father-poc)
 - [TSY244/CVE-2024-32002-git-rce](https://github.com/TSY244/CVE-2024-32002-git-rce)
@@ -3479,7 +3486,7 @@
 - [etx-Arn/CVE-2024-34102-RCE](https://github.com/etx-Arn/CVE-2024-34102-RCE)
 - [etx-Arn/CVE-2024-34102-RCE-PoC](https://github.com/etx-Arn/CVE-2024-34102-RCE-PoC)
 - [wubinworks/magento2-cosmic-sting-patch](https://github.com/wubinworks/magento2-cosmic-sting-patch)
-- [EQSTSeminar/CVE-2024-34102](https://github.com/EQSTSeminar/CVE-2024-34102)
+- [EQSTLab/CVE-2024-34102](https://github.com/EQSTLab/CVE-2024-34102)
 - [Jhonsonwannaa/CVE-2024-34102](https://github.com/Jhonsonwannaa/CVE-2024-34102)
 
 ### CVE-2024-34144 (2024-05-02)
@@ -3992,6 +3999,7 @@
 - [ynwarcs/CVE-2024-38063](https://github.com/ynwarcs/CVE-2024-38063)
 - [patchpoint/CVE-2024-38063](https://github.com/patchpoint/CVE-2024-38063)
 - [PumpkinBridge/Windows-CVE-2024-38063](https://github.com/PumpkinBridge/Windows-CVE-2024-38063)
+- [zenzue/CVE-2024-38063-POC](https://github.com/zenzue/CVE-2024-38063-POC)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -6435,7 +6443,6 @@
 - [Firebasky/CVE-2023-21839](https://github.com/Firebasky/CVE-2023-21839)
 - [houqe/POC_CVE-2023-21839](https://github.com/houqe/POC_CVE-2023-21839)
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
-- [MMarch7/weblogic_CVE-2023-21839_POC-EXP](https://github.com/MMarch7/weblogic_CVE-2023-21839_POC-EXP)
 - [Romanc9/Gui-poc-test](https://github.com/Romanc9/Gui-poc-test)
 - [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
 
@@ -6451,7 +6458,7 @@
 <code>Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
 </code>
 
-- [MMarch7/weblogic_CVE-2023-21931_POC-EXP](https://github.com/MMarch7/weblogic_CVE-2023-21931_POC-EXP)
+- [TimeSHU/weblogic_CVE-2023-21931_POC-EXP](https://github.com/TimeSHU/weblogic_CVE-2023-21931_POC-EXP)
 
 ### CVE-2023-21939 (2023-04-18)
 
@@ -11632,7 +11639,6 @@
 <code>UrBackup Server 2.5.31 allows brute-force enumeration of user accounts because a failure message confirms that a username is not valid.
 </code>
 
-- [quantiano/cve-2023-47102](https://github.com/quantiano/cve-2023-47102)
 - [nitipoom-jar/CVE-2023-47102](https://github.com/nitipoom-jar/CVE-2023-47102)
 
 ### CVE-2023-47108 (2023-11-10)
@@ -13671,6 +13677,13 @@
 </code>
 
 - [szymonh/android-gadget](https://github.com/szymonh/android-gadget)
+
+### CVE-2022-20073 (2022-04-11)
+
+<code>In preloader (usb), there is a possible out of bounds write due to a integer underflow. This could lead to local escalation of privilege, for an attacker who has physical access to the device, with no additional execution privileges needed. User interaction is needed for exploitation. Patch ID: ALPS06160841; Issue ID: ALPS06160841.
+</code>
+
+- [m1erphy/CVE-2022-20073](https://github.com/m1erphy/CVE-2022-20073)
 
 ### CVE-2022-20126 (2022-06-15)
 
@@ -18544,6 +18557,7 @@
 - [Vagebondcur/IMAGE-MAGICK-CVE-2022-44268](https://github.com/Vagebondcur/IMAGE-MAGICK-CVE-2022-44268)
 - [NataliSemi/-CVE-2022-44268](https://github.com/NataliSemi/-CVE-2022-44268)
 - [CygnusX-26/CVE-2022-44268-fixed-PoC](https://github.com/CygnusX-26/CVE-2022-44268-fixed-PoC)
+- [PanAdamski/CVE-2022-44268-automated](https://github.com/PanAdamski/CVE-2022-44268-automated)
 
 ### CVE-2022-44276 (2023-06-28)
 
