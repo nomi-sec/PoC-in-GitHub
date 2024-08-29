@@ -957,6 +957,7 @@
 </code>
 
 - [Alchemist3dot14/CVE-2024-5274-Detection](https://github.com/Alchemist3dot14/CVE-2024-5274-Detection)
+- [mistymntncop/CVE-2024-5274](https://github.com/mistymntncop/CVE-2024-5274)
 
 ### CVE-2024-5326 (2024-05-30)
 
@@ -1014,7 +1015,6 @@
 </code>
 
 - [EQSTLab/CVE-2024-5932](https://github.com/EQSTLab/CVE-2024-5932)
-- [niktoproject/CVE-2024-5932](https://github.com/niktoproject/CVE-2024-5932)
 
 ### CVE-2024-5947 (2024-06-13)
 
@@ -1171,7 +1171,6 @@
 - [l-urk/CVE-2024-6387-L](https://github.com/l-urk/CVE-2024-6387-L)
 - [alex14324/ssh_poc2024](https://github.com/alex14324/ssh_poc2024)
 - [X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker](https://github.com/X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker)
-- [niktoproject/CVE-202406387_Check.py](https://github.com/niktoproject/CVE-202406387_Check.py)
 - [s1d6point7bugcrowd/CVE-2024-6387-Race-Condition-in-Signal-Handling-for-OpenSSH](https://github.com/s1d6point7bugcrowd/CVE-2024-6387-Race-Condition-in-Signal-Handling-for-OpenSSH)
 - [almogopp/OpenSSH-CVE-2024-6387-Fix](https://github.com/almogopp/OpenSSH-CVE-2024-6387-Fix)
 - [HadesNull123/CVE-2024-6387_Check](https://github.com/HadesNull123/CVE-2024-6387_Check)
