@@ -1175,6 +1175,7 @@
 - [almogopp/OpenSSH-CVE-2024-6387-Fix](https://github.com/almogopp/OpenSSH-CVE-2024-6387-Fix)
 - [HadesNull123/CVE-2024-6387_Check](https://github.com/HadesNull123/CVE-2024-6387_Check)
 - [identity-threat-labs/CVE-2024-6387-Vulnerability-Checker](https://github.com/identity-threat-labs/CVE-2024-6387-Vulnerability-Checker)
+- [identity-threat-labs/Article-RegreSSHion-CVE-2024-6387](https://github.com/identity-threat-labs/Article-RegreSSHion-CVE-2024-6387)
 
 ### CVE-2024-6529 (2024-08-01)
 
@@ -1211,6 +1212,13 @@
 
 - [zangjiahe/CVE-2024-6782](https://github.com/zangjiahe/CVE-2024-6782)
 - [jdpsl/CVE-2024-6782](https://github.com/jdpsl/CVE-2024-6782)
+
+### CVE-2024-7029 (2024-08-02)
+
+<code>Commands can be injected over the network and executed without authentication.
+</code>
+
+- [K3ysTr0K3R/CVE-2024-7029-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-7029-EXPLOIT)
 
 ### CVE-2024-7094 (2024-08-13)
 
@@ -2036,7 +2044,7 @@
 - [pulentoski/CVE-2024-23897-Arbitrary-file-read](https://github.com/pulentoski/CVE-2024-23897-Arbitrary-file-read)
 - [Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897)
 - [Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897)
-- [Athulya666/CVE-2024-23897](https://github.com/Athulya666/CVE-2024-23897)
+- [JAthulya/CVE-2024-23897](https://github.com/JAthulya/CVE-2024-23897)
 - [murataydemir/CVE-2024-23897](https://github.com/murataydemir/CVE-2024-23897)
 - [mil4ne/CVE-2024-23897-Jenkins-4.441](https://github.com/mil4ne/CVE-2024-23897-Jenkins-4.441)
 - [Maalfer/CVE-2024-23897](https://github.com/Maalfer/CVE-2024-23897)
@@ -2295,6 +2303,7 @@
 - [H3KEY/CVE-2024-24919](https://github.com/H3KEY/CVE-2024-24919)
 - [Jutrm/cve-2024-24919](https://github.com/Jutrm/cve-2024-24919)
 - [smkxt1/CVE-2024-24919](https://github.com/smkxt1/CVE-2024-24919)
+- [LuisMateo1/Arbitrary-File-Read-CVE-2024-24919](https://github.com/LuisMateo1/Arbitrary-File-Read-CVE-2024-24919)
 
 ### CVE-2024-25092 (2024-06-09)
 
@@ -4078,7 +4087,11 @@
 
 - [Havoc10-sw/Detect_polyfill_CVE-2024-38537-](https://github.com/Havoc10-sw/Detect_polyfill_CVE-2024-38537-)
 
-### CVE-2024-38793
+### CVE-2024-38793 (2024-08-29)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in PriceListo Best Restaurant Menu by PriceListo allows SQL Injection.This issue affects Best Restaurant Menu by PriceListo: from n/a through 1.4.1.
+</code>
+
 - [ret2desync/CVE-2024-38793-PoC](https://github.com/ret2desync/CVE-2024-38793-PoC)
 
 ### CVE-2024-38856 (2024-08-05)
@@ -4450,6 +4463,7 @@
 - [HwMex0/CVE-2024-43044](https://github.com/HwMex0/CVE-2024-43044)
 - [jenkinsci-cert/SECURITY-3430](https://github.com/jenkinsci-cert/SECURITY-3430)
 - [v9d0g/CVE-2024-43044-POC](https://github.com/v9d0g/CVE-2024-43044-POC)
+- [convisolabs/CVE-2024-43044-jenkins](https://github.com/convisolabs/CVE-2024-43044-jenkins)
 
 ### CVE-2024-43425
 - [RedTeamPentesting/moodle-rce-calculatedquestions](https://github.com/RedTeamPentesting/moodle-rce-calculatedquestions)
@@ -34102,6 +34116,7 @@
 - [olingo99/CVE-2019-15107](https://github.com/olingo99/CVE-2019-15107)
 - [aamfrk/Webmin-CVE-2019-15107](https://github.com/aamfrk/Webmin-CVE-2019-15107)
 - [0x4r2/Webmin-CVE-2019-15107](https://github.com/0x4r2/Webmin-CVE-2019-15107)
+- [NasrallahBaadi/CVE-2019-15107](https://github.com/NasrallahBaadi/CVE-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
 
