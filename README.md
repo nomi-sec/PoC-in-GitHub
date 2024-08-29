@@ -3999,7 +3999,7 @@
 
 - [diegoalbuquerque/CVE-2024-38063](https://github.com/diegoalbuquerque/CVE-2024-38063)
 - [noradlb1/CVE-2024-38063-VB](https://github.com/noradlb1/CVE-2024-38063-VB)
-- [Sachinart/CVE-2024-38063-simulation](https://github.com/Sachinart/CVE-2024-38063-simulation)
+- [Sachinart/CVE-2024-38063-poc](https://github.com/Sachinart/CVE-2024-38063-poc)
 - [p33d/cve-2024-38063](https://github.com/p33d/cve-2024-38063)
 - [dweger-scripts/CVE-2024-38063-Remediation](https://github.com/dweger-scripts/CVE-2024-38063-Remediation)
 - [almogopp/Disable-IPv6-CVE-2024-38063-Fix](https://github.com/almogopp/Disable-IPv6-CVE-2024-38063-Fix)
@@ -45623,13 +45623,6 @@
 </code>
 
 - [alt3kx/CVE-2007-6638](https://github.com/alt3kx/CVE-2007-6638)
-
-### CVE-2007-6750 (2011-12-27)
-
-<code>The Apache HTTP Server 1.x and 2.x allows remote attackers to cause a denial of service (daemon outage) via partial HTTP requests, as demonstrated by Slowloris, related to the lack of the mod_reqtimeout module in versions before 2.2.15.
-</code>
-
-- [Jeanpseven/slowl0ris](https://github.com/Jeanpseven/slowl0ris)
 
 
 ## 2006
