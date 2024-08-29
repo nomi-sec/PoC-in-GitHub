@@ -1241,13 +1241,6 @@
 
 - [rxerium/CVE-2024-7593](https://github.com/rxerium/CVE-2024-7593)
 
-### CVE-2024-7646 (2024-08-16)
-
-<code>A security issue was discovered in ingress-nginx where an actor with permission to create Ingress objects (in the `networking.k8s.io` or `extensions` API group) can bypass annotation validation to inject arbitrary commands and obtain the credentials of the ingress-nginx controller. In the default configuration, that credential has access to all secrets in the cluster.
-</code>
-
-- [UgOrange/CVE-2024-7646-poc](https://github.com/UgOrange/CVE-2024-7646-poc)
-
 ### CVE-2024-7703 (2024-08-17)
 
 <code>The ARMember – Membership Plugin, Content Restriction, Member Levels, User Profile &amp; User signup plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 4.0.37 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.
@@ -2427,6 +2420,7 @@
 - [5ma1l/CVE-2024-25641](https://github.com/5ma1l/CVE-2024-25641)
 - [thisisveryfunny/CVE-2024-25641-RCE-Automated-Exploit-Cacti-1.2.26](https://github.com/thisisveryfunny/CVE-2024-25641-RCE-Automated-Exploit-Cacti-1.2.26)
 - [Safarchand/CVE-2024-25641](https://github.com/Safarchand/CVE-2024-25641)
+- [StopThatTalace/CVE-2024-25641-CACTI-RCE-1.2.26](https://github.com/StopThatTalace/CVE-2024-25641-CACTI-RCE-1.2.26)
 
 ### CVE-2024-25723 (2024-02-27)
 
