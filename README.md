@@ -1192,12 +1192,12 @@
 
 - [apena-ba/CVE-2024-6536](https://github.com/apena-ba/CVE-2024-6536)
 
-### CVE-2024-6666 (2024-07-11)
+### CVE-2024-6670 (2024-08-29)
 
-<code>The WP ERP plugin for WordPress is vulnerable to SQL Injection via the ‘vendor_id’ parameter in all versions up to, and including, 1.13.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Accounting Manager access (erp_ac_view_sales_summary capability) and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+<code>In WhatsUp Gold versions released before 2024.0.0, a SQL Injection vulnerability allows an unauthenticated attacker to retrieve the users encrypted password.
 </code>
 
-- [labc-dev/CVE-2024-6666](https://github.com/labc-dev/CVE-2024-6666)
+- [sinsinology/CVE-2024-6670](https://github.com/sinsinology/CVE-2024-6670)
 
 ### CVE-2024-6768 (2024-08-12)
 
@@ -1227,6 +1227,13 @@
 </code>
 
 - [nastar-id/CVE-2024-7094](https://github.com/nastar-id/CVE-2024-7094)
+
+### CVE-2024-7120 (2024-07-26)
+
+<code>Es wurde eine kritische Schwachstelle in Raisecom MSG1200, MSG2100E, MSG2200 and MSG2300 3.90 gefunden. Hiervon betroffen ist ein unbekannter Codeblock der Datei list_base_config.php der Komponente Web Interface. Durch die Manipulation des Arguments template mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [fa-rrel/CVE-2024-7120](https://github.com/fa-rrel/CVE-2024-7120)
 
 ### CVE-2024-7313 (2024-08-26)
 
@@ -1348,7 +1355,6 @@
 
 - [nnotwen/Script-For-CVE-2024-20666](https://github.com/nnotwen/Script-For-CVE-2024-20666)
 - [invaderslabs/CVE-2024-20666](https://github.com/invaderslabs/CVE-2024-20666)
-- [HYZ3K/CVE-2024-20666](https://github.com/HYZ3K/CVE-2024-20666)
 
 ### CVE-2024-20696 (2024-01-09)
 
@@ -1491,7 +1497,6 @@
 - [olebris/CVE-2024-21413](https://github.com/olebris/CVE-2024-21413)
 - [DerZiad/CVE-2024-21413](https://github.com/DerZiad/CVE-2024-21413)
 - [Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape](https://github.com/Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape)
-- [HYZ3K/CVE-2024-21413](https://github.com/HYZ3K/CVE-2024-21413)
 
 ### CVE-2024-21514 (2024-06-22)
 
@@ -3680,7 +3685,6 @@
 </code>
 
 - [mbadanoiu/CVE-2024-34693](https://github.com/mbadanoiu/CVE-2024-34693)
-- [labc-dev/CVE-2024-34693](https://github.com/labc-dev/CVE-2024-34693)
 - [Mr-r00t11/CVE-2024-34693](https://github.com/Mr-r00t11/CVE-2024-34693)
 
 ### CVE-2024-34716 (2024-05-14)
@@ -6796,7 +6800,7 @@
 <code>The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an unauthenticated SQL injection vulnerability in the 'code' parameter of the '/pmpro/v1/order' REST route.
 </code>
 
-- [r3nt0n/CVE-2023-23488-PoC](https://github.com/r3nt0n/CVE-2023-23488-PoC)
+- [long-rookie/CVE-2023-23488-PoC](https://github.com/long-rookie/CVE-2023-23488-PoC)
 - [cybfar/CVE-2023-23488-pmpro-2.8](https://github.com/cybfar/CVE-2023-23488-pmpro-2.8)
 
 ### CVE-2023-23531 (2023-02-27)
@@ -8709,7 +8713,7 @@
 <code>Tenda AC8V4.0-V16.03.34.06 was discovered to contain a stack overflow via the timeZone parameter in the sub_44db3c function.
 </code>
 
-- [retr0reg/Tenda-Ac8v4-PoC](https://github.com/retr0reg/Tenda-Ac8v4-PoC)
+- [retr0reg/tenda-ac8v4-rop](https://github.com/retr0reg/tenda-ac8v4-rop)
 
 ### CVE-2023-33730 (2023-05-31)
 
@@ -9952,6 +9956,7 @@
 - [khanhtranngoccva/cve-2023-38831-poc](https://github.com/khanhtranngoccva/cve-2023-38831-poc)
 - [MaorBuskila/Windows-X64-RAT](https://github.com/MaorBuskila/Windows-X64-RAT)
 - [yezzfusl/cve_2023_38831_scanner](https://github.com/yezzfusl/cve_2023_38831_scanner)
+- [FirFirdaus/CVE-2023-38831](https://github.com/FirFirdaus/CVE-2023-38831)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -27750,7 +27755,7 @@
 
 - [lucasallan/CVE-2020-8163](https://github.com/lucasallan/CVE-2020-8163)
 - [h4ms1k/CVE-2020-8163](https://github.com/h4ms1k/CVE-2020-8163)
-- [TK-Elliot/CVE-2020-8163](https://github.com/TK-Elliot/CVE-2020-8163)
+- [RedPhantomRoot/CVE-2020-8163](https://github.com/RedPhantomRoot/CVE-2020-8163)
 
 ### CVE-2020-8165 (2020-06-19)
 
