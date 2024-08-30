@@ -1219,7 +1219,7 @@
 <code>Commands can be injected over the network and executed without authentication.
 </code>
 
-- [K3ysTr0K3R/CVE-2024-7029-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-7029-EXPLOIT)
+- [bigherocenter/CVE-2024-7029-EXPLOIT](https://github.com/bigherocenter/CVE-2024-7029-EXPLOIT)
 
 ### CVE-2024-7094 (2024-08-13)
 
@@ -1283,6 +1283,13 @@
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
+
+### CVE-2024-20017 (2024-03-04)
+
+<code>In wlan service, there is a possible out of bounds write due to improper input validation. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation Patch ID: WCNCR00350938; Issue ID: MSV-1132.
+</code>
+
+- [mellow-hype/cve-2024-20017](https://github.com/mellow-hype/cve-2024-20017)
 
 ### CVE-2024-20291 (2024-02-28)
 
@@ -3813,13 +3820,6 @@
 </code>
 
 - [Abdurahmon3236/CVE-2024-36539](https://github.com/Abdurahmon3236/CVE-2024-36539)
-
-### CVE-2024-36598 (2024-06-14)
-
-<code>An arbitrary file upload vulnerability in Aegon Life v1.0 allows attackers to execute arbitrary code via uploading a crafted image file.
-</code>
-
-- [keruenn/PoC-CVE-2024-36598](https://github.com/keruenn/PoC-CVE-2024-36598)
 
 ### CVE-2024-36821 (2024-06-11)
 
@@ -12491,7 +12491,6 @@
 - [Le1a/CVE-2023-51385](https://github.com/Le1a/CVE-2023-51385)
 - [LtmThink/CVE-2023-51385_test](https://github.com/LtmThink/CVE-2023-51385_test)
 - [WLaoDuo/CVE-2023-51385_poc-test](https://github.com/WLaoDuo/CVE-2023-51385_poc-test)
-- [N0rther/CVE-2023-51385_TT](https://github.com/N0rther/CVE-2023-51385_TT)
 - [power1314520/CVE-2023-51385_test](https://github.com/power1314520/CVE-2023-51385_test)
 - [WOOOOONG/CVE-2023-51385](https://github.com/WOOOOONG/CVE-2023-51385)
 - [uccu99/CVE-2023-51385](https://github.com/uccu99/CVE-2023-51385)
