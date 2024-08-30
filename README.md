@@ -1248,6 +1248,13 @@
 
 - [rxerium/CVE-2024-7593](https://github.com/rxerium/CVE-2024-7593)
 
+### CVE-2024-7646 (2024-08-16)
+
+<code>A security issue was discovered in ingress-nginx where an actor with permission to create Ingress objects (in the `networking.k8s.io` or `extensions` API group) can bypass annotation validation to inject arbitrary commands and obtain the credentials of the ingress-nginx controller. In the default configuration, that credential has access to all secrets in the cluster.
+</code>
+
+- [r0binak/CVE-2024-7646](https://github.com/r0binak/CVE-2024-7646)
+
 ### CVE-2024-7703 (2024-08-17)
 
 <code>The ARMember – Membership Plugin, Content Restriction, Member Levels, User Profile &amp; User signup plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 4.0.37 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.
@@ -4474,6 +4481,13 @@
 </code>
 
 - [Azvanzed/CVE-2024-44083](https://github.com/Azvanzed/CVE-2024-44083)
+
+### CVE-2024-45163 (2024-08-22)
+
+<code>The Mirai botnet through 2024-08-19 mishandles simultaneous TCP connections to the CNC (command and control) server. Unauthenticated sessions remain open, causing resource consumption. For example, an attacker can send a recognized username (such as root), or can send arbitrary data.
+</code>
+
+- [0romos/CVE-2024-45163](https://github.com/0romos/CVE-2024-45163)
 
 ### CVE-2024-45241 (2024-08-26)
 
