@@ -195,6 +195,7 @@
 - [Trackflaw/CVE-2024-1071-Docker](https://github.com/Trackflaw/CVE-2024-1071-Docker)
 - [Matrexdz/CVE-2024-1071](https://github.com/Matrexdz/CVE-2024-1071)
 - [Matrexdz/CVE-2024-1071-Docker](https://github.com/Matrexdz/CVE-2024-1071-Docker)
+- [fa-rrel/CVE-2024-1071-SQL-Injection](https://github.com/fa-rrel/CVE-2024-1071-SQL-Injection)
 
 ### CVE-2024-1086 (2024-01-31)
 
@@ -4448,6 +4449,13 @@
 </code>
 
 - [njmbb8/CVE-2024-42850](https://github.com/njmbb8/CVE-2024-42850)
+
+### CVE-2024-42913 (2024-08-26)
+
+<code>RuoYi CMS v4.7.9 was discovered to contain a SQL injection vulnerability via the job_id parameter at /sasfs1.
+</code>
+
+- [kkll5875/CVE-2024-42913](https://github.com/kkll5875/CVE-2024-42913)
 
 ### CVE-2024-42919 (2024-08-20)
 
@@ -14570,7 +14578,7 @@
 - [t3amj3ff/Spring4ShellPoC](https://github.com/t3amj3ff/Spring4ShellPoC)
 - [CalumHutton/CVE-2022-22965-PoC_Payara](https://github.com/CalumHutton/CVE-2022-22965-PoC_Payara)
 - [fransvanbuul/CVE-2022-22965-susceptibility](https://github.com/fransvanbuul/CVE-2022-22965-susceptibility)
-- [jrgdiaz/Spring4Shell-CVE-2022-22965.py](https://github.com/jrgdiaz/Spring4Shell-CVE-2022-22965.py)
+- [te5t321/Spring4Shell-CVE-2022-22965.py](https://github.com/te5t321/Spring4Shell-CVE-2022-22965.py)
 - [Loneyers/Spring4Shell](https://github.com/Loneyers/Spring4Shell)
 - [p1ckzi/CVE-2022-22965](https://github.com/p1ckzi/CVE-2022-22965)
 - [Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-](https://github.com/Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-)
@@ -22868,7 +22876,7 @@
 - [p2-98/CVE-2021-34473](https://github.com/p2-98/CVE-2021-34473)
 - [horizon3ai/proxyshell](https://github.com/horizon3ai/proxyshell)
 - [je6k/CVE-2021-34473-Exchange-ProxyShell](https://github.com/je6k/CVE-2021-34473-Exchange-ProxyShell)
-- [jrgdiaz/ProxyShell-CVE-2021-34473.py](https://github.com/jrgdiaz/ProxyShell-CVE-2021-34473.py)
+- [learningsurface/ProxyShell-CVE-2021-34473.py](https://github.com/learningsurface/ProxyShell-CVE-2021-34473.py)
 - [kh4sh3i/ProxyShell](https://github.com/kh4sh3i/ProxyShell)
 - [ipsBruno/CVE-2021-34473-NMAP-SCANNER](https://github.com/ipsBruno/CVE-2021-34473-NMAP-SCANNER)
 - [f4alireza/CVE](https://github.com/f4alireza/CVE)
