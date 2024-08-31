@@ -826,7 +826,7 @@
 - [it-t4mpan/check_cve_2024_4577.sh](https://github.com/it-t4mpan/check_cve_2024_4577.sh)
 - [bl4cksku11/CVE-2024-4577](https://github.com/bl4cksku11/CVE-2024-4577)
 - [nemu1k5ma/CVE-2024-4577](https://github.com/nemu1k5ma/CVE-2024-4577)
-- [aaddmin1122345/CVE-2024-4577-POC](https://github.com/aaddmin1122345/CVE-2024-4577-POC)
+- [aaddmin1122345/cve-2024-4577](https://github.com/aaddmin1122345/cve-2024-4577)
 - [d3ck4/Shodan-CVE-2024-4577](https://github.com/d3ck4/Shodan-CVE-2024-4577)
 - [Entropt/CVE-2024-4577_Analysis](https://github.com/Entropt/CVE-2024-4577_Analysis)
 - [XiangDongCJC/CVE-2024-4577-PHP-CGI-RCE](https://github.com/XiangDongCJC/CVE-2024-4577-PHP-CGI-RCE)
@@ -1498,6 +1498,7 @@
 - [olebris/CVE-2024-21413](https://github.com/olebris/CVE-2024-21413)
 - [DerZiad/CVE-2024-21413](https://github.com/DerZiad/CVE-2024-21413)
 - [Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape](https://github.com/Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape)
+- [ThemeHackers/CVE-2024-21413](https://github.com/ThemeHackers/CVE-2024-21413)
 
 ### CVE-2024-21514 (2024-06-22)
 
@@ -2325,6 +2326,7 @@
 - [Jutrm/cve-2024-24919](https://github.com/Jutrm/cve-2024-24919)
 - [smkxt1/CVE-2024-24919](https://github.com/smkxt1/CVE-2024-24919)
 - [LuisMateo1/Arbitrary-File-Read-CVE-2024-24919](https://github.com/LuisMateo1/Arbitrary-File-Read-CVE-2024-24919)
+- [AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-](https://github.com/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-)
 
 ### CVE-2024-25092 (2024-06-09)
 
@@ -4025,6 +4027,7 @@
 - [PumpkinBridge/Windows-CVE-2024-38063](https://github.com/PumpkinBridge/Windows-CVE-2024-38063)
 - [zenzue/CVE-2024-38063-POC](https://github.com/zenzue/CVE-2024-38063-POC)
 - [AdminPentester/CVE-2024-38063-](https://github.com/AdminPentester/CVE-2024-38063-)
+- [ThemeHackers/CVE-2024-38063](https://github.com/ThemeHackers/CVE-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -4494,6 +4497,9 @@
 </code>
 
 - [Azvanzed/CVE-2024-44083](https://github.com/Azvanzed/CVE-2024-44083)
+
+### CVE-2024-44812
+- [b1u3st0rm/CVE-2024-44812-PoC](https://github.com/b1u3st0rm/CVE-2024-44812-PoC)
 
 ### CVE-2024-45163 (2024-08-22)
 
@@ -7790,6 +7796,7 @@
 </code>
 
 - [Nero22k/cve-2023-29360](https://github.com/Nero22k/cve-2023-29360)
+- [0xDivyanshu-new/CVE-2023-29360-](https://github.com/0xDivyanshu-new/CVE-2023-29360-)
 
 ### CVE-2023-29384 (2023-12-20)
 
@@ -8551,7 +8558,7 @@
 - [LeDocteurDesBits/cve-2023-32784](https://github.com/LeDocteurDesBits/cve-2023-32784)
 - [hau-zy/KeePass-dump-py](https://github.com/hau-zy/KeePass-dump-py)
 - [dawnl3ss/CVE-2023-32784](https://github.com/dawnl3ss/CVE-2023-32784)
-- [ValentinPundikov/poc-CVE-2023-32784](https://github.com/ValentinPundikov/poc-CVE-2023-32784)
+- [le01s/poc-CVE-2023-32784](https://github.com/le01s/poc-CVE-2023-32784)
 - [mister-turtle/cve-2023-32784](https://github.com/mister-turtle/cve-2023-32784)
 - [Cmadhushanka/CVE-2023-32784-Exploitation](https://github.com/Cmadhushanka/CVE-2023-32784-Exploitation)
 
