@@ -65,6 +65,7 @@
 </code>
 
 - [Cappricio-Securities/CVE-2024-0195](https://github.com/Cappricio-Securities/CVE-2024-0195)
+- [fa-rrel/CVE-2024-0195-SpiderFlow](https://github.com/fa-rrel/CVE-2024-0195-SpiderFlow)
 
 ### CVE-2024-0197 (2024-02-27)
 
@@ -4972,6 +4973,7 @@
 </code>
 
 - [ysanatomic/io_uring_LPE-CVE-2023-2598](https://github.com/ysanatomic/io_uring_LPE-CVE-2023-2598)
+- [cainiao159357/CVE-2023-2598](https://github.com/cainiao159357/CVE-2023-2598)
 
 ### CVE-2023-2636 (2023-07-17)
 
