@@ -4413,6 +4413,9 @@
 
 - [fevar54/CVE-2024-42461](https://github.com/fevar54/CVE-2024-42461)
 
+### CVE-2024-42642
+- [VL4DR/CVE-2024-42642](https://github.com/VL4DR/CVE-2024-42642)
+
 ### CVE-2024-42657 (2024-08-19)
 
 <code>An issue in wishnet Nepstech Wifi Router NTPL-XPON1GFEVN v1.0 allows a remote attacker to obtain sensitive information via the lack of encryption during login process
@@ -5578,7 +5581,7 @@
 - [LiveOverflow/webp-CVE-2023-4863](https://github.com/LiveOverflow/webp-CVE-2023-4863)
 - [caoweiquan322/NotEnough](https://github.com/caoweiquan322/NotEnough)
 - [CrackerCat/CVE-2023-4863-](https://github.com/CrackerCat/CVE-2023-4863-)
-- [alsaeroth/CVE-2023-4863-POC](https://github.com/alsaeroth/CVE-2023-4863-POC)
+- [sarsaeroth/CVE-2023-4863-POC](https://github.com/sarsaeroth/CVE-2023-4863-POC)
 
 ### CVE-2023-4911 (2023-10-03)
 
@@ -6799,7 +6802,7 @@
 - [Muhammad-Ali007/OutlookNTLM_CVE-2023-23397](https://github.com/Muhammad-Ali007/OutlookNTLM_CVE-2023-23397)
 - [Pushkarup/CVE-2023-23397](https://github.com/Pushkarup/CVE-2023-23397)
 - [ducnorth2712/CVE-2023-23397](https://github.com/ducnorth2712/CVE-2023-23397)
-- [alsaeroth/CVE-2023-23397-POC](https://github.com/alsaeroth/CVE-2023-23397-POC)
+- [sarsaeroth/CVE-2023-23397-POC](https://github.com/sarsaeroth/CVE-2023-23397-POC)
 - [TheUnknownSoul/CVE-2023-23397-PoW](https://github.com/TheUnknownSoul/CVE-2023-23397-PoW)
 - [Symbolexe/CVE-2023-23397](https://github.com/Symbolexe/CVE-2023-23397)
 
@@ -7796,7 +7799,7 @@
 </code>
 
 - [Nero22k/cve-2023-29360](https://github.com/Nero22k/cve-2023-29360)
-- [0xDivyanshu-new/CVE-2023-29360-](https://github.com/0xDivyanshu-new/CVE-2023-29360-)
+- [0xDivyanshu-new/CVE-2023-29360](https://github.com/0xDivyanshu-new/CVE-2023-29360)
 
 ### CVE-2023-29384 (2023-12-20)
 
@@ -10365,7 +10368,7 @@
 
 - [MrR0b0t19/vulnerabilidad-LibWebP-CVE-2023-41064](https://github.com/MrR0b0t19/vulnerabilidad-LibWebP-CVE-2023-41064)
 - [MrR0b0t19/CVE-2023-41064](https://github.com/MrR0b0t19/CVE-2023-41064)
-- [alsaeroth/CVE-2023-41064-POC](https://github.com/alsaeroth/CVE-2023-41064-POC)
+- [sarsaeroth/CVE-2023-41064-POC](https://github.com/sarsaeroth/CVE-2023-41064-POC)
 
 ### CVE-2023-41080 (2023-08-25)
 
