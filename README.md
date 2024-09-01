@@ -1053,6 +1053,13 @@
 
 - [kac89/CVE-2024-6050](https://github.com/kac89/CVE-2024-6050)
 
+### CVE-2024-6095 (2024-07-06)
+
+<code>A vulnerability in the /models/apply endpoint of mudler/localai versions 2.15.0 allows for Server-Side Request Forgery (SSRF) and partial Local File Inclusion (LFI). The endpoint supports both http(s):// and file:// schemes, where the latter can lead to LFI. However, the output is limited due to the length of the error message. This vulnerability can be exploited by an attacker with network access to the LocalAI instance, potentially allowing unauthorized access to internal HTTP(s) servers and partial reading of local files. The issue is fixed in version 2.17.
+</code>
+
+- [Abdurahmon3236/-CVE-2024-6095](https://github.com/Abdurahmon3236/-CVE-2024-6095)
+
 ### CVE-2024-6205 (2024-07-19)
 
 <code>The PayPlus Payment Gateway WordPress plugin before 6.6.9 does not properly sanitise and escape a parameter before using it in a SQL statement via a WooCommerce API route available to unauthenticated users, leading to an SQL injection vulnerability.
@@ -4512,6 +4519,13 @@
 
 ### CVE-2024-44812
 - [b1u3st0rm/CVE-2024-44812-PoC](https://github.com/b1u3st0rm/CVE-2024-44812-PoC)
+
+### CVE-2024-44946 (2024-08-31)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nkcm: Serialise kcm_sendmsg() for the same socket.\n\nsyzkaller reported UAF in kcm_release(). [0]\n\nThe scenario is\n\n  1. Thread A builds a skb with MSG_MORE and sets kcm-&gt;seq_skb.\n\n  2. Thread A resumes building skb from kcm-&gt;seq_skb but is blocked\n     by sk_stream_wait_memory()\n\n  3. Thread B calls sendmsg() concurrently, finishes building kcm-&gt;seq_skb\n     and puts the skb to the write queue\n\n  4. Thread A faces an error and finally frees skb that is already in the\n     write queue\n\n  5. kcm_release() does double-free the skb in the write queue\n\nWhen a thread is building a MSG_MORE skb, another thread must not touch it.\n\nLet's add a per-sk mutex and serialise kcm_sendmsg().\n\n[0]:\nBUG: KASAN: slab-use-after-free in __skb_unlink include/linux/skbuff.h:2366 [inline]\nBUG: KASAN: slab-use-after-free in __skb_dequeue include/linux/skbuff.h:2385 [inline]\nBUG: KASAN: slab-use-after-free in __skb_queue_purge_reason include/linux/skbuff.h:3175 [inline]\nBUG: KASAN: slab-use-after-free in __skb_queue_purge include/linux/skbuff.h:3181 [inline]\nBUG: KASAN: slab-use-after-free in kcm_release+0x170/0x4c8 net/kcm/kcmsock.c:1691\nRead of size 8 at addr ffff0000ced0fc80 by task syz-executor329/6167\n\nCPU: 1 PID: 6167 Comm: syz-executor329 Tainted: G    B              6.8.0-rc5-syzkaller-g9abbc24128bc #0\nHardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 01/25/2024\nCall trace:\n dump_backtrace+0x1b8/0x1e4 arch/arm64/kernel/stacktrace.c:291\n show_stack+0x2c/0x3c arch/arm64/kernel/stacktrace.c:298\n __dump_stack lib/dump_stack.c:88 [inline]\n dump_stack_lvl+0xd0/0x124 lib/dump_stack.c:106\n print_address_description mm/kasan/report.c:377 [inline]\n print_report+0x178/0x518 mm/kasan/report.c:488\n kasan_report+0xd8/0x138 mm/kasan/report.c:601\n __asan_report_load8_noabort+0x20/0x2c mm/kasan/report_generic.c:381\n __skb_unlink include/linux/skbuff.h:2366 [inline]\n __skb_dequeue include/linux/skbuff.h:2385 [inline]\n __skb_queue_purge_reason include/linux/skbuff.h:3175 [inline]\n __skb_queue_purge include/linux/skbuff.h:3181 [inline]\n kcm_release+0x170/0x4c8 net/kcm/kcmsock.c:1691\n __sock_release net/socket.c:659 [inline]\n sock_close+0xa4/0x1e8 net/socket.c:1421\n __fput+0x30c/0x738 fs/file_table.c:376\n ____fput+0x20/0x30 fs/file_table.c:404\n task_work_run+0x230/0x2e0 kernel/task_work.c:180\n exit_task_work include/linux/task_work.h:38 [inline]\n do_exit+0x618/0x1f64 kernel/exit.c:871\n do_group_exit+0x194/0x22c kernel/exit.c:1020\n get_signal+0x1500/0x15ec kernel/signal.c:2893\n do_signal+0x23c/0x3b44 arch/arm64/kernel/signal.c:1249\n do_notify_resume+0x74/0x1f4 arch/arm64/kernel/entry-common.c:148\n exit_to_user_mode_prepare arch/arm64/kernel/entry-common.c:169 [inline]\n exit_to_user_mode arch/arm64/kernel/entry-common.c:178 [inline]\n el0_svc+0xac/0x168 arch/arm64/kernel/entry-common.c:713\n el0t_64_sync_handler+0x84/0xfc arch/arm64/kernel/entry-common.c:730\n el0t_64_sync+0x190/0x194 arch/arm64/kernel/entry.S:598\n\nAllocated by task 6166:\n kasan_save_stack mm/kasan/common.c:47 [inline]\n kasan_save_track+0x40/0x78 mm/kasan/common.c:68\n kasan_save_alloc_info+0x70/0x84 mm/kasan/generic.c:626\n unpoison_slab_object mm/kasan/common.c:314 [inline]\n __kasan_slab_alloc+0x74/0x8c mm/kasan/common.c:340\n kasan_slab_alloc include/linux/kasan.h:201 [inline]\n slab_post_alloc_hook mm/slub.c:3813 [inline]\n slab_alloc_node mm/slub.c:3860 [inline]\n kmem_cache_alloc_node+0x204/0x4c0 mm/slub.c:3903\n __alloc_skb+0x19c/0x3d8 net/core/skbuff.c:641\n alloc_skb include/linux/skbuff.h:1296 [inline]\n kcm_sendmsg+0x1d3c/0x2124 net/kcm/kcmsock.c:783\n sock_sendmsg_nosec net/socket.c:730 [inline]\n __sock_sendmsg net/socket.c:745 [inline]\n sock_sendmsg+0x220/0x2c0 net/socket.c:768\n splice_to_socket+0x7cc/0xd58 fs/splice.c:889\n do_splice_from fs/splice.c:941 [inline]\n direct_splice_actor+0xec/0x1d8 fs/splice.c:1164\n splice_direct_to_actor+0x438/0xa0c fs/splice.c:1108\n do_splice_direct_actor \n---truncated---
+</code>
+
+- [Abdurahmon3236/CVE-2024-44946](https://github.com/Abdurahmon3236/CVE-2024-44946)
 
 ### CVE-2024-45163 (2024-08-22)
 
@@ -13217,7 +13231,7 @@
 - [Luchoane/CVE-2022-1388_refresh](https://github.com/Luchoane/CVE-2022-1388_refresh)
 - [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
 - [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
-- [OnCyberWar/CVE-2022-1388](https://github.com/OnCyberWar/CVE-2022-1388)
+- [forktheplanet/CVE-2022-1388](https://github.com/forktheplanet/CVE-2022-1388)
 - [revanmalang/CVE-2022-1388](https://github.com/revanmalang/CVE-2022-1388)
 - [amitlttwo/CVE-2022-1388](https://github.com/amitlttwo/CVE-2022-1388)
 - [M4fiaB0y/CVE-2022-1388](https://github.com/M4fiaB0y/CVE-2022-1388)
@@ -13659,6 +13673,13 @@
 - [electr0sm0g/CVE-2022-4510](https://github.com/electr0sm0g/CVE-2022-4510)
 - [adhikara13/CVE-2022-4510-WalkingPath](https://github.com/adhikara13/CVE-2022-4510-WalkingPath)
 - [Kalagious/BadPfs-CVE-2022-4510](https://github.com/Kalagious/BadPfs-CVE-2022-4510)
+
+### CVE-2022-4539 (2024-08-31)
+
+<code>The Web Application Firewall plugin for WordPress is vulnerable to IP Address Spoofing in versions up to, and including, 2.1.2. This is due to insufficient restrictions on where the IP Address information is being retrieved for request logging and login restrictions. Attackers can supply the X-Forwarded-For header with with a different IP Address that will be logged and can be used to bypass settings that may have blocked out an IP address or country from logging in.
+</code>
+
+- [Abdurahmon3236/CVE-2022-4539](https://github.com/Abdurahmon3236/CVE-2022-4539)
 
 ### CVE-2022-4543 (2023-01-11)
 
@@ -15703,6 +15724,7 @@
 - [lsecqt/CVE-2022-26923-Powershell-POC](https://github.com/lsecqt/CVE-2022-26923-Powershell-POC)
 - [evilashz/PIGADVulnScanner](https://github.com/evilashz/PIGADVulnScanner)
 - [Gh-Badr/CVE-2022-26923](https://github.com/Gh-Badr/CVE-2022-26923)
+- [Yowise/CVE-2022-26923](https://github.com/Yowise/CVE-2022-26923)
 
 ### CVE-2022-26927 (2022-05-10)
 
@@ -30248,6 +30270,13 @@
 </code>
 
 - [b1nary0x1/CVE-2020-24955](https://github.com/b1nary0x1/CVE-2020-24955)
+
+### CVE-2020-24972 (2020-08-29)
+
+<code>The Kleopatra component before 3.1.12 (and before 20.07.80) for GnuPG allows remote attackers to execute arbitrary code because openpgp4fpr: URLs are supported without safe handling of command-line options. The Qt platformpluginpath command-line option can be used to load an arbitrary DLL.
+</code>
+
+- [SpiralBL0CK/CVE-2020-24972](https://github.com/SpiralBL0CK/CVE-2020-24972)
 
 ### CVE-2020-25068 (2020-09-03)
 
