@@ -2289,7 +2289,7 @@
 - [RevoltSecurities/CVE-2024-24919](https://github.com/RevoltSecurities/CVE-2024-24919)
 - [Vulnpire/CVE-2024-24919](https://github.com/Vulnpire/CVE-2024-24919)
 - [seed1337/CVE-2024-24919-POC](https://github.com/seed1337/CVE-2024-24919-POC)
-- [0x3f3c/CVE-2024-24919](https://github.com/0x3f3c/CVE-2024-24919)
+- [0xYumeko/CVE-2024-24919](https://github.com/0xYumeko/CVE-2024-24919)
 - [Praison001/CVE-2024-24919-Check-Point-Remote-Access-VPN](https://github.com/Praison001/CVE-2024-24919-Check-Point-Remote-Access-VPN)
 - [smackerdodi/CVE-2024-24919-nuclei-templater](https://github.com/smackerdodi/CVE-2024-24919-nuclei-templater)
 - [GoatSecurity/CVE-2024-24919](https://github.com/GoatSecurity/CVE-2024-24919)
@@ -3409,7 +3409,7 @@
 
 ### CVE-2024-32640
 - [Stuub/CVE-2024-32640-SQLI-MuraCMS](https://github.com/Stuub/CVE-2024-32640-SQLI-MuraCMS)
-- [0x3f3c/CVE-2024-32640-SQLI-MuraCMS](https://github.com/0x3f3c/CVE-2024-32640-SQLI-MuraCMS)
+- [0xYumeko/CVE-2024-32640-SQLI-MuraCMS](https://github.com/0xYumeko/CVE-2024-32640-SQLI-MuraCMS)
 - [sammings/CVE-2024-32640](https://github.com/sammings/CVE-2024-32640)
 
 ### CVE-2024-32651 (2024-04-25)
