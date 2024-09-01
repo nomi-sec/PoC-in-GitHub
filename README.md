@@ -1288,6 +1288,7 @@
 
 - [Chocapikk/CVE-2024-7954](https://github.com/Chocapikk/CVE-2024-7954)
 - [bigb0x/CVE-2024-7954](https://github.com/bigb0x/CVE-2024-7954)
+- [fa-rrel/CVE-2024-7954-RCE](https://github.com/fa-rrel/CVE-2024-7954-RCE)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -4028,6 +4029,7 @@
 - [zenzue/CVE-2024-38063-POC](https://github.com/zenzue/CVE-2024-38063-POC)
 - [AdminPentester/CVE-2024-38063-](https://github.com/AdminPentester/CVE-2024-38063-)
 - [ThemeHackers/CVE-2024-38063](https://github.com/ThemeHackers/CVE-2024-38063)
+- [KernelKraze/CVE-2024-38063_PoC](https://github.com/KernelKraze/CVE-2024-38063_PoC)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -4045,6 +4047,13 @@
 - [atlassion/CVE-2024-38077-check](https://github.com/atlassion/CVE-2024-38077-check)
 - [BBD-YZZ/fyne-gui](https://github.com/BBD-YZZ/fyne-gui)
 - [Destiny0991/check_38077](https://github.com/Destiny0991/check_38077)
+
+### CVE-2024-38080 (2024-07-09)
+
+<code>Windows Hyper-V Elevation of Privilege Vulnerability
+</code>
+
+- [pwndorei/CVE-2024-38080](https://github.com/pwndorei/CVE-2024-38080)
 
 ### CVE-2024-38100 (2024-07-09)
 
