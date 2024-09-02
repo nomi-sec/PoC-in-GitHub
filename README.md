@@ -66,6 +66,7 @@
 
 - [Cappricio-Securities/CVE-2024-0195](https://github.com/Cappricio-Securities/CVE-2024-0195)
 - [fa-rrel/CVE-2024-0195-SpiderFlow](https://github.com/fa-rrel/CVE-2024-0195-SpiderFlow)
+- [MuhammadWaseem29/CVE-2024-0195-SpiderFlow](https://github.com/MuhammadWaseem29/CVE-2024-0195-SpiderFlow)
 
 ### CVE-2024-0197 (2024-02-27)
 
@@ -969,6 +970,14 @@
 
 - [truonghuuphuc/CVE-2024-5326-Poc](https://github.com/truonghuuphuc/CVE-2024-5326-Poc)
 - [cve-2024/CVE-2024-5326-Poc](https://github.com/cve-2024/CVE-2024-5326-Poc)
+
+### CVE-2024-5420 (2024-06-04)
+
+<code>Missing input validation in the SEH Computertechnik utnserver Pro, SEH Computertechnik utnserver ProMAX, SEH Computertechnik INU-100 web-interface allows stored Cross-Site Scripting (XSS)..This issue affects utnserver Pro, utnserver ProMAX, INU-100 version 20.1.22 and below.
+</code>
+
+- [fa-rrel/CVE-2024-5420-XSS](https://github.com/fa-rrel/CVE-2024-5420-XSS)
+- [K4yd0/CVE-2024-5420_XSS](https://github.com/K4yd0/CVE-2024-5420_XSS)
 
 ### CVE-2024-5522 (2024-06-20)
 
@@ -4042,6 +4051,7 @@
 - [ThemeHackers/CVE-2024-38063](https://github.com/ThemeHackers/CVE-2024-38063)
 - [KernelKraze/CVE-2024-38063_PoC](https://github.com/KernelKraze/CVE-2024-38063_PoC)
 - [Th3Tr1ckst3r/Denyv6](https://github.com/Th3Tr1ckst3r/Denyv6)
+- [ps-interactive/cve-2024-38063](https://github.com/ps-interactive/cve-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -5214,6 +5224,7 @@
 
 - [yuanjinyuyuyu/CVE-2023-3450](https://github.com/yuanjinyuyuyu/CVE-2023-3450)
 - [caopengyan/CVE-2023-3450](https://github.com/caopengyan/CVE-2023-3450)
+- [inviewp/CVE-2023-3450](https://github.com/inviewp/CVE-2023-3450)
 
 ### CVE-2023-3452 (2023-08-12)
 
