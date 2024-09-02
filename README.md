@@ -4038,6 +4038,7 @@
 - [AdminPentester/CVE-2024-38063-](https://github.com/AdminPentester/CVE-2024-38063-)
 - [ThemeHackers/CVE-2024-38063](https://github.com/ThemeHackers/CVE-2024-38063)
 - [KernelKraze/CVE-2024-38063_PoC](https://github.com/KernelKraze/CVE-2024-38063_PoC)
+- [Th3Tr1ckst3r/Denyv6](https://github.com/Th3Tr1ckst3r/Denyv6)
 
 ### CVE-2024-38077 (2024-07-09)
 
