@@ -1229,6 +1229,7 @@
 </code>
 
 - [bigherocenter/CVE-2024-7029-EXPLOIT](https://github.com/bigherocenter/CVE-2024-7029-EXPLOIT)
+- [ebrasha/CVE-2024-7029](https://github.com/ebrasha/CVE-2024-7029)
 
 ### CVE-2024-7094 (2024-08-13)
 
@@ -1619,7 +1620,6 @@
 - [seajaysec/Ivanti-Connect-Around-Scan](https://github.com/seajaysec/Ivanti-Connect-Around-Scan)
 - [mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped](https://github.com/mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped)
 - [tucommenceapousser/CVE-2024-21887](https://github.com/tucommenceapousser/CVE-2024-21887)
-- [imhunterand/CVE-2024-21887](https://github.com/imhunterand/CVE-2024-21887)
 
 ### CVE-2024-21893 (2024-01-31)
 
@@ -3644,6 +3644,9 @@
 </code>
 
 - [surajhacx/CVE-2024-34452](https://github.com/surajhacx/CVE-2024-34452)
+
+### CVE-2024-34463
+- [yash-chandna/CVE-2024-34463](https://github.com/yash-chandna/CVE-2024-34463)
 
 ### CVE-2024-34469 (2024-05-04)
 
@@ -9525,7 +9528,6 @@
 - [iveresk/CVE-2023-36845-6-](https://github.com/iveresk/CVE-2023-36845-6-)
 - [ak1t4/CVE-2023-36845](https://github.com/ak1t4/CVE-2023-36845)
 - [0xNehru/CVE-2023-36845-Juniper-Vulnerability](https://github.com/0xNehru/CVE-2023-36845-Juniper-Vulnerability)
-- [imhunterand/CVE-2023-36845](https://github.com/imhunterand/CVE-2023-36845)
 - [e11i0t4lders0n/CVE-2023-36845](https://github.com/e11i0t4lders0n/CVE-2023-36845)
 - [Vignesh2712/Automation-for-Juniper-cve-2023-36845](https://github.com/Vignesh2712/Automation-for-Juniper-cve-2023-36845)
 
@@ -10557,6 +10559,13 @@
 - [Mangaia/cve-test](https://github.com/Mangaia/cve-test)
 - [J3Ss0u/CVE-2023-41993](https://github.com/J3Ss0u/CVE-2023-41993)
 
+### CVE-2023-42115 (2024-05-03)
+
+<code>Exim AUTH Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Exim. Authentication is not required to exploit this vulnerability. \n\nThe specific flaw exists within the smtp service, which listens on TCP port 25 by default. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of a buffer. An attacker can leverage this vulnerability to execute code in the context of the service account. Was ZDI-CAN-17434.
+</code>
+
+- [isotaka134/cve-2023-42115](https://github.com/isotaka134/cve-2023-42115)
+
 ### CVE-2023-42222 (2023-09-28)
 
 <code>WebCatalog before 49.0 is vulnerable to Incorrect Access Control. WebCatalog calls the Electron shell.openExternal function without verifying that the URL is for an http or https resource, in some circumstances.
@@ -11378,6 +11387,7 @@
 - [Eason-zz/BluetoothDucky](https://github.com/Eason-zz/BluetoothDucky)
 - [jjjjjjjj987/cve-2023-45866-py](https://github.com/jjjjjjjj987/cve-2023-45866-py)
 - [cisnarfu/Bluepop](https://github.com/cisnarfu/Bluepop)
+- [AvishekDhakal/CVE-2023-45866_EXPLOITS](https://github.com/AvishekDhakal/CVE-2023-45866_EXPLOITS)
 
 ### CVE-2023-45966 (2023-10-23)
 
@@ -12554,7 +12564,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2023-51409](https://github.com/RandomRobbieBF/CVE-2023-51409)
-- [imhunterand/CVE-2023-51409](https://github.com/imhunterand/CVE-2023-51409)
 
 ### CVE-2023-51448 (2023-12-22)
 
@@ -13173,7 +13182,6 @@
 - [ardzz/CVE-2022-1386](https://github.com/ardzz/CVE-2022-1386)
 - [im-hanzou/fubucker](https://github.com/im-hanzou/fubucker)
 - [zycoder0day/CVE-2022-1386-Mass_Vulnerability](https://github.com/zycoder0day/CVE-2022-1386-Mass_Vulnerability)
-- [imhunterand/CVE-2022-1386](https://github.com/imhunterand/CVE-2022-1386)
 - [satyasai1460/CVE-2022-1386](https://github.com/satyasai1460/CVE-2022-1386)
 
 ### CVE-2022-1388 (2022-05-05)
@@ -18648,6 +18656,7 @@
 - [NataliSemi/-CVE-2022-44268](https://github.com/NataliSemi/-CVE-2022-44268)
 - [CygnusX-26/CVE-2022-44268-fixed-PoC](https://github.com/CygnusX-26/CVE-2022-44268-fixed-PoC)
 - [PanAdamski/CVE-2022-44268-automated](https://github.com/PanAdamski/CVE-2022-44268-automated)
+- [FlojBoj/CVE-2022-44268](https://github.com/FlojBoj/CVE-2022-44268)
 
 ### CVE-2022-44276 (2023-06-28)
 
@@ -22410,6 +22419,13 @@
 - [jsherman212/iomfb-exploit](https://github.com/jsherman212/iomfb-exploit)
 - [30440r/gex](https://github.com/30440r/gex)
 
+### CVE-2021-30853 (2021-08-24)
+
+<code>This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.6. A malicious application may bypass Gatekeeper checks.
+</code>
+
+- [shubham0d/CVE-2021-30853](https://github.com/shubham0d/CVE-2021-30853)
+
 ### CVE-2021-30858 (2021-08-24)
 
 <code>A use after free issue was addressed with improved memory management. This issue is fixed in iOS 14.8 and iPadOS 14.8, macOS Big Sur 11.6. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
@@ -24409,7 +24425,6 @@
 - [birdlinux/CVE-2021-42013](https://github.com/birdlinux/CVE-2021-42013)
 - [Hamesawian/CVE-2021-42013](https://github.com/Hamesawian/CVE-2021-42013)
 - [K3ysTr0K3R/CVE-2021-42013-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-42013-EXPLOIT)
-- [imhunterand/CVE-2021-42013](https://github.com/imhunterand/CVE-2021-42013)
 - [BassoNicolas/CVE-2021-42013](https://github.com/BassoNicolas/CVE-2021-42013)
 - [rafifdna/CVE-2021-42013](https://github.com/rafifdna/CVE-2021-42013)
 - [Jhonsonwannaa/cve-2021-42013-apache](https://github.com/Jhonsonwannaa/cve-2021-42013-apache)
@@ -27211,7 +27226,6 @@
 - [Aviksaikat/CVE-2020-3452](https://github.com/Aviksaikat/CVE-2020-3452)
 - [Veids/CVE-2020-3452_auto](https://github.com/Veids/CVE-2020-3452_auto)
 - [iveresk/cve-2020-3452](https://github.com/iveresk/cve-2020-3452)
-- [imhunterand/CVE-2020-3452](https://github.com/imhunterand/CVE-2020-3452)
 - [Cappricio-Securities/CVE-2020-3452](https://github.com/Cappricio-Securities/CVE-2020-3452)
 
 ### CVE-2020-3580 (2020-10-21)
@@ -27223,7 +27237,6 @@
 - [adarshvs/CVE-2020-3580](https://github.com/adarshvs/CVE-2020-3580)
 - [cruxN3T/CVE-2020-3580](https://github.com/cruxN3T/CVE-2020-3580)
 - [catatonicprime/CVE-2020-3580](https://github.com/catatonicprime/CVE-2020-3580)
-- [imhunterand/CVE-2020-3580](https://github.com/imhunterand/CVE-2020-3580)
 
 ### CVE-2020-3766 (2020-03-25)
 
