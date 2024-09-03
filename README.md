@@ -14,6 +14,7 @@
 </code>
 
 - [AbrarKhan/G3_Frameworks_av_CVE-2024-0023](https://github.com/AbrarKhan/G3_Frameworks_av_CVE-2024-0023)
+- [Aakashmom/frameworks_av_android10_r33_CVE-2024-0023](https://github.com/Aakashmom/frameworks_av_android10_r33_CVE-2024-0023)
 
 ### CVE-2024-0030 (2024-02-16)
 
@@ -2090,6 +2091,7 @@
 - [Maalfer/CVE-2024-23897](https://github.com/Maalfer/CVE-2024-23897)
 - [Surko888/Surko-Exploit-Jenkins-CVE-2024-23897](https://github.com/Surko888/Surko-Exploit-Jenkins-CVE-2024-23897)
 - [NoSpaceAvailable/CVE-2024-23897](https://github.com/NoSpaceAvailable/CVE-2024-23897)
+- [BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety](https://github.com/BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety)
 
 ### CVE-2024-24034 (2024-02-08)
 
@@ -3670,7 +3672,11 @@
 
 - [surajhacx/CVE-2024-34452](https://github.com/surajhacx/CVE-2024-34452)
 
-### CVE-2024-34463
+### CVE-2024-34463 (2024-09-03)
+
+<code>BPL Personal Weighing Scale PWS-01BT IND/09/18/599 devices send sensitive information in unencrypted BLE packets. (The packet data also lacks authentication and integrity protection.)
+</code>
+
 - [yash-chandna/CVE-2024-34463](https://github.com/yash-chandna/CVE-2024-34463)
 
 ### CVE-2024-34469 (2024-05-04)
@@ -4068,6 +4074,7 @@
 - [KernelKraze/CVE-2024-38063_PoC](https://github.com/KernelKraze/CVE-2024-38063_PoC)
 - [Th3Tr1ckst3r/Denyv6](https://github.com/Th3Tr1ckst3r/Denyv6)
 - [ps-interactive/cve-2024-38063](https://github.com/ps-interactive/cve-2024-38063)
+- [Brownpanda29/Cve-2024-38063](https://github.com/Brownpanda29/Cve-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -5431,7 +5438,7 @@
 - [VanishedPeople/CVE-2023-4220](https://github.com/VanishedPeople/CVE-2023-4220)
 - [thefizzyfish/CVE-2023-4220](https://github.com/thefizzyfish/CVE-2023-4220)
 - [qrxnz/CVE-2023-4220](https://github.com/qrxnz/CVE-2023-4220)
-- [0x00-null/-Chamilo-CVE-2023-4220-RCE-Exploit](https://github.com/0x00-null/-Chamilo-CVE-2023-4220-RCE-Exploit)
+- [0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit](https://github.com/0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit)
 
 ### CVE-2023-4226 (2023-11-28)
 
@@ -12264,7 +12271,7 @@
 <code>SpaceX Starlink Wi-Fi router Gen 2 before 2023.48.0 allows XSS via the ssid and password parameters on the Setup Page.
 </code>
 
-- [hackintoanetwork/SpaceX-Starlink-Router-Gen-2-XSS](https://github.com/hackintoanetwork/SpaceX-Starlink-Router-Gen-2-XSS)
+- [yoshida-git-ai/SpaceX-Starlink-Router-Gen-2-XSS](https://github.com/yoshida-git-ai/SpaceX-Starlink-Router-Gen-2-XSS)
 
 ### CVE-2023-49968 (2024-03-04)
 
