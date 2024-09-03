@@ -4578,6 +4578,9 @@
 
 - [TheHermione/CVE-2024-45265](https://github.com/TheHermione/CVE-2024-45265)
 
+### CVE-2024-45589
+- [BenRogozinski/CVE-2024-45589](https://github.com/BenRogozinski/CVE-2024-45589)
+
 ### CVE-2024-56662
 - [nimosec/cve-2024-56662](https://github.com/nimosec/cve-2024-56662)
 
@@ -13786,13 +13789,6 @@
 </code>
 
 - [szymonh/android-gadget](https://github.com/szymonh/android-gadget)
-
-### CVE-2022-20073 (2022-04-11)
-
-<code>In preloader (usb), there is a possible out of bounds write due to a integer underflow. This could lead to local escalation of privilege, for an attacker who has physical access to the device, with no additional execution privileges needed. User interaction is needed for exploitation. Patch ID: ALPS06160841; Issue ID: ALPS06160841.
-</code>
-
-- [m1erphy/CVE-2022-20073](https://github.com/m1erphy/CVE-2022-20073)
 
 ### CVE-2022-20126 (2022-06-15)
 
