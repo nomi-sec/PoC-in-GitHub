@@ -7261,6 +7261,7 @@
 
 - [CUCUMBERanOrSNCompany/SealSecurityAssignment](https://github.com/CUCUMBERanOrSNCompany/SealSecurityAssignment)
 - [ronmadar/Open-Source-Seal-Security](https://github.com/ronmadar/Open-Source-Seal-Security)
+- [m-lito13/SealSecurity_Exam](https://github.com/m-lito13/SealSecurity_Exam)
 
 ### CVE-2023-26144 (2023-09-20)
 
@@ -16504,7 +16505,7 @@
 - [melting0256/Enterprise-Cybersecurity](https://github.com/melting0256/Enterprise-Cybersecurity)
 - [yrkuo/CVE-2022-30190](https://github.com/yrkuo/CVE-2022-30190)
 - [ToxicEnvelope/FOLLINA-CVE-2022-30190](https://github.com/ToxicEnvelope/FOLLINA-CVE-2022-30190)
-- [meowhua15/CVE-2022-30190](https://github.com/meowhua15/CVE-2022-30190)
+- [hycheng15/CVE-2022-30190](https://github.com/hycheng15/CVE-2022-30190)
 - [aminetitrofine/CVE-2022-30190](https://github.com/aminetitrofine/CVE-2022-30190)
 - [Muhammad-Ali007/Follina_MSDT_CVE-2022-30190](https://github.com/Muhammad-Ali007/Follina_MSDT_CVE-2022-30190)
 - [Jump-Wang-111/AmzWord](https://github.com/Jump-Wang-111/AmzWord)
@@ -20175,7 +20176,7 @@
 - [Mhackiori/CVE-2021-3156](https://github.com/Mhackiori/CVE-2021-3156)
 - [PhuketIsland/CVE-2021-3156-centos7](https://github.com/PhuketIsland/CVE-2021-3156-centos7)
 - [0x4ndy/clif](https://github.com/0x4ndy/clif)
-- [meowhua15/CVE-2021-3156](https://github.com/meowhua15/CVE-2021-3156)
+- [hycheng15/CVE-2021-3156](https://github.com/hycheng15/CVE-2021-3156)
 - [mutur4/CVE-2021-3156](https://github.com/mutur4/CVE-2021-3156)
 - [PurpleOzone/PE_CVE-CVE-2021-3156](https://github.com/PurpleOzone/PE_CVE-CVE-2021-3156)
 - [asepsaepdin/CVE-2021-3156](https://github.com/asepsaepdin/CVE-2021-3156)
