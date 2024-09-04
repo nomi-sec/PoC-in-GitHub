@@ -5926,6 +5926,13 @@
 
 - [elpe-pinillo/CVE-2023-6246](https://github.com/elpe-pinillo/CVE-2023-6246)
 
+### CVE-2023-6275 (2023-11-24)
+
+<code>Eine problematische Schwachstelle wurde in TOTVS Fluig Platform 1.6.x/1.7.x/1.8.0/1.8.1 ausgemacht. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei /mobileredir/openApp.jsp der Komponente mobileredir. Dank Manipulation des Arguments redirectUrl/user mit der Eingabe &quot;&gt;&lt;script&gt;alert(document.domain)&lt;/script&gt; mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung. Ein Aktualisieren auf die Version 1.7.1-231128, 1.8.0-231127 and 1.8.1-231127 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [erickfernandox/CVE-2023-6275](https://github.com/erickfernandox/CVE-2023-6275)
+
 ### CVE-2023-6289 (2023-12-18)
 
 <code>The Swift Performance Lite WordPress plugin before 2.3.6.15 does not prevent users from exporting the plugin's settings, which may include sensitive information such as Cloudflare API tokens.
