@@ -242,6 +242,7 @@
 </code>
 
 - [Chocapikk/CVE-2024-1212](https://github.com/Chocapikk/CVE-2024-1212)
+- [MuhammadWaseem29/CVE-2024-1212](https://github.com/MuhammadWaseem29/CVE-2024-1212)
 
 ### CVE-2024-1269 (2024-02-07)
 
@@ -7234,6 +7235,13 @@
 
 - [brainkok/CVE-2023-25292](https://github.com/brainkok/CVE-2023-25292)
 - [tucommenceapousser/CVE-2023-25292](https://github.com/tucommenceapousser/CVE-2023-25292)
+
+### CVE-2023-25355 (2023-04-04)
+
+<code>CoreDial sipXcom up to and including 21.04 is vulnerable to Insecure Permissions. A user who has the ability to run commands as the `daemon` user on a sipXcom server can overwrite a service file, and escalate their privileges to `root`.
+</code>
+
+- [glefait/CVE-2023-25355-25356](https://github.com/glefait/CVE-2023-25355-25356)
 
 ### CVE-2023-25610
 - [qi4L/CVE-2023-25610](https://github.com/qi4L/CVE-2023-25610)
@@ -36354,6 +36362,7 @@
 - [Dannners/CVE-2018-6574-go-get-RCE](https://github.com/Dannners/CVE-2018-6574-go-get-RCE)
 - [bme2003/CVE-2018-6574](https://github.com/bme2003/CVE-2018-6574)
 - [iNoSec2/cve-2018-6574](https://github.com/iNoSec2/cve-2018-6574)
+- [ttyA0/cve-2018-6574](https://github.com/ttyA0/cve-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
