@@ -4565,6 +4565,13 @@
 
 - [Abdurahmon3236/CVE-2024-44946](https://github.com/Abdurahmon3236/CVE-2024-44946)
 
+### CVE-2024-44947 (2024-09-02)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nfuse: Initialize beyond-EOF page contents before setting uptodate\n\nfuse_notify_store(), unlike fuse_do_readpage(), does not enable page\nzeroing (because it can be used to change partial page contents).\n\nSo fuse_notify_store() must be more careful to fully initialize page\ncontents (including parts of the page that are beyond end-of-file)\nbefore marking the page uptodate.\n\nThe current code can leave beyond-EOF page contents uninitialized, which\nmakes these uninitialized page contents visible to userspace via mmap().\n\nThis is an information leak, but only affects systems which do not\nenable init-on-alloc (via CONFIG_INIT_ON_ALLOC_DEFAULT_ON=y or the\ncorresponding kernel command line parameter).
+</code>
+
+- [Abdurahmon3236/CVE-2024-44947](https://github.com/Abdurahmon3236/CVE-2024-44947)
+
 ### CVE-2024-45163 (2024-08-22)
 
 <code>The Mirai botnet through 2024-08-19 mishandles simultaneous TCP connections to the CNC (command and control) server. Unauthenticated sessions remain open, causing resource consumption. For example, an attacker can send a recognized username (such as root), or can send arbitrary data.
