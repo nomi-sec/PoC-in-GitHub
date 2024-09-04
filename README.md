@@ -778,6 +778,7 @@
 - [Zombie-Kaiser/cve-2024-4367-PoC-fixed](https://github.com/Zombie-Kaiser/cve-2024-4367-PoC-fixed)
 - [snyk-labs/pdfjs-vuln-demo](https://github.com/snyk-labs/pdfjs-vuln-demo)
 - [UnHackerEnCapital/PDFernetRemotelo](https://github.com/UnHackerEnCapital/PDFernetRemotelo)
+- [Masamuneee/CVE-2024-4367-Analysis](https://github.com/Masamuneee/CVE-2024-4367-Analysis)
 
 ### CVE-2024-4439 (2024-05-03)
 
@@ -7129,13 +7130,6 @@
 </code>
 
 - [ynwarcs/CVE-2023-24871](https://github.com/ynwarcs/CVE-2023-24871)
-
-### CVE-2023-24932 (2023-05-09)
-
-<code>Secure Boot Security Feature Bypass Vulnerability
-</code>
-
-- [ChristelVDH/Invoke-BlackLotusMitigation](https://github.com/ChristelVDH/Invoke-BlackLotusMitigation)
 
 ### CVE-2023-24955 (2023-05-09)
 
