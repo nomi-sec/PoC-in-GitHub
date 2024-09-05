@@ -176,6 +176,13 @@
 
 - [hunThubSpace/CVE-2024-0757-Exploit](https://github.com/hunThubSpace/CVE-2024-0757-Exploit)
 
+### CVE-2024-0762 (2024-05-14)
+
+<code>Potential buffer overflow \nin unsafe UEFI variable handling \n\nin Phoenix SecureCore™ for select Intel platforms\n\nThis issue affects:\n\nPhoenix \n\nSecureCore™ for Intel Kaby Lake: from 4.0.1.1 before 4.0.1.998;\n\nPhoenix \n\nSecureCore™ for Intel Coffee Lake: from 4.1.0.1 before 4.1.0.562;\n\nPhoenix \n\nSecureCore™ for Intel Ice Lake: from 4.2.0.1 before 4.2.0.323;\n\nPhoenix \n\nSecureCore™ for Intel Comet Lake: from 4.2.1.1 before 4.2.1.287;\n\nPhoenix \n\nSecureCore™ for Intel Tiger Lake: from 4.3.0.1 before 4.3.0.236;\n\nPhoenix \n\nSecureCore™ for Intel Jasper Lake: from 4.3.1.1 before 4.3.1.184;\n\nPhoenix \n\nSecureCore™ for Intel Alder Lake: from 4.4.0.1 before 4.4.0.269;\n\nPhoenix \n\nSecureCore™ for Intel Raptor Lake: from 4.5.0.1 before 4.5.0.218;\n\nPhoenix \n\nSecureCore™ for Intel Meteor Lake: from 4.5.1.1 before 4.5.1.15.\n\n
+</code>
+
+- [tadash10/Detect-CVE-2024-0762](https://github.com/tadash10/Detect-CVE-2024-0762)
+
 ### CVE-2024-0783 (2024-01-22)
 
 <code>Eine kritische Schwachstelle wurde in Project Worlds Online Admission System 1.0 gefunden. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei documents.php. Durch Manipulieren mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
@@ -3761,6 +3768,13 @@
 </code>
 
 - [Gr-1m/CVE-2024-34958](https://github.com/Gr-1m/CVE-2024-34958)
+
+### CVE-2024-35205 (-)
+
+<code>The WPS Office (aka cn.wps.moffice_eng) application before 17.0.0 for Android fails to properly sanitize file names before processing them through external application interactions, leading to a form of path traversal. This potentially enables any application to dispatch a crafted library file, aiming to overwrite an existing native library utilized by WPS Office. Successful exploitation could result in the execution of arbitrary commands under the guise of WPS Office's application ID.
+</code>
+
+- [cyb3r-w0lf/Dirty_Stream-Android-POC](https://github.com/cyb3r-w0lf/Dirty_Stream-Android-POC)
 
 ### CVE-2024-35242 (2024-06-10)
 
@@ -29252,6 +29266,7 @@
 
 - [YutuSec/Apisix_Crack](https://github.com/YutuSec/Apisix_Crack)
 - [K3ysTr0K3R/CVE-2020-13945-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2020-13945-EXPLOIT)
+- [Pixelcraftch/CVE-2020-13945-EXPLOIT](https://github.com/Pixelcraftch/CVE-2020-13945-EXPLOIT)
 
 ### CVE-2020-13957 (2020-10-13)
 
@@ -40484,6 +40499,7 @@
 - [w0x68y/CVE-2017-12615-EXP](https://github.com/w0x68y/CVE-2017-12615-EXP)
 - [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
 - [xiaokp7/Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP)
+- [lizhianyuguangming/TomcatWeakPassChecker](https://github.com/lizhianyuguangming/TomcatWeakPassChecker)
 
 ### CVE-2017-12617 (2017-10-03)
 
