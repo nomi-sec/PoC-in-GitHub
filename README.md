@@ -212,7 +212,6 @@
 - [kevcooper/CVE-2024-1086-checker](https://github.com/kevcooper/CVE-2024-1086-checker)
 - [feely666/CVE-2024-1086](https://github.com/feely666/CVE-2024-1086)
 - [xzx482/CVE-2024-1086](https://github.com/xzx482/CVE-2024-1086)
-- [pl0xe/CVE-2024-1086](https://github.com/pl0xe/CVE-2024-1086)
 
 ### CVE-2024-1112 (2024-01-31)
 
@@ -4469,7 +4468,11 @@
 
 - [fevar54/CVE-2024-42461](https://github.com/fevar54/CVE-2024-42461)
 
-### CVE-2024-42642
+### CVE-2024-42642 (2024-09-04)
+
+<code>Micron Crucial MX500 Series Solid State Drives M3CR046 is vulnerable to Buffer Overflow, which can be triggered by sending specially crafted ATA packets from the host to the drive controller.
+</code>
+
 - [VL4DR/CVE-2024-42642](https://github.com/VL4DR/CVE-2024-42642)
 
 ### CVE-2024-42657 (2024-08-19)
@@ -19075,6 +19078,7 @@
 - [0xN7y/CVE-2022-46169](https://github.com/0xN7y/CVE-2022-46169)
 - [mind2hex/CVE-2022-46169](https://github.com/mind2hex/CVE-2022-46169)
 - [HPT-Intern-Task-Submission/CVE-2022-46169](https://github.com/HPT-Intern-Task-Submission/CVE-2022-46169)
+- [rockyroadonline/CVE-2022-46169](https://github.com/rockyroadonline/CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-24)
 
@@ -39393,6 +39397,7 @@
 - [mritunjay-k/CVE-2017-5638](https://github.com/mritunjay-k/CVE-2017-5638)
 - [FredBrave/CVE-2017-5638-ApacheStruts2.3.5](https://github.com/FredBrave/CVE-2017-5638-ApacheStruts2.3.5)
 - [Nithylesh/web-application-firewall-](https://github.com/Nithylesh/web-application-firewall-)
+- [kloutkake/CVE-2017-5638-PoC](https://github.com/kloutkake/CVE-2017-5638-PoC)
 
 ### CVE-2017-5645 (2017-04-17)
 
@@ -45045,6 +45050,7 @@
 - [Tenor-Z/SmileySploit](https://github.com/Tenor-Z/SmileySploit)
 - [AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research)
 - [Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit](https://github.com/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit)
+- [everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-](https://github.com/everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-)
 
 ### CVE-2011-2894 (2011-10-04)
 
