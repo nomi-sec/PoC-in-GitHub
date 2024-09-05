@@ -122,6 +122,13 @@
 
 - [xbz0n/CVE-2024-0399](https://github.com/xbz0n/CVE-2024-0399)
 
+### CVE-2024-0507 (2024-01-16)
+
+<code>An attacker with access to a Management Console user account with the editor role could escalate privileges through a command injection vulnerability in the Management Console. This vulnerability affected all versions of GitHub Enterprise Server and was fixed in versions 3.11.3, 3.10.5, 3.9.8, and 3.8.13 This vulnerability was reported via the GitHub Bug Bounty program.
+</code>
+
+- [convisolabs/CVE-2024-0507_CVE-2024-0200-github](https://github.com/convisolabs/CVE-2024-0507_CVE-2024-0200-github)
+
 ### CVE-2024-0566 (2024-02-12)
 
 <code>The Smart Manager WordPress plugin before 8.28.0 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by high privilege users such as admin.
@@ -560,6 +567,13 @@
 </code>
 
 - [TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4](https://github.com/TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4)
+
+### CVE-2024-3177 (2024-04-22)
+
+<code>A security issue was discovered in Kubernetes where users may be able to launch containers that bypass the mountable secrets policy enforced by the ServiceAccount admission plugin when using containers, init containers, and ephemeral containers with the envFrom field populated. The policy ensures pods running with a service account may only reference secrets specified in the service account’s secrets field. Kubernetes clusters are only affected if the ServiceAccount admission plugin and the kubernetes.io/enforce-mountable-secrets annotation are used together with containers, init containers, and ephemeral containers with the envFrom field populated.\n\n
+</code>
+
+- [Cgv-Dev/Metasploit-Module-TFM](https://github.com/Cgv-Dev/Metasploit-Module-TFM)
 
 ### CVE-2024-3183 (2024-06-12)
 
@@ -1106,6 +1120,7 @@
 </code>
 
 - [realbotnet/CVE-2024-6386](https://github.com/realbotnet/CVE-2024-6386)
+- [Argendo/CVE-2024-6386](https://github.com/Argendo/CVE-2024-6386)
 
 ### CVE-2024-6387 (2024-07-01)
 
@@ -4584,6 +4599,9 @@
 ### CVE-2024-44812
 - [b1u3st0rm/CVE-2024-44812-PoC](https://github.com/b1u3st0rm/CVE-2024-44812-PoC)
 
+### CVE-2024-44902
+- [fru1ts/CVE-2024-44902](https://github.com/fru1ts/CVE-2024-44902)
+
 ### CVE-2024-44946 (2024-08-31)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nkcm: Serialise kcm_sendmsg() for the same socket.\n\nsyzkaller reported UAF in kcm_release(). [0]\n\nThe scenario is\n\n  1. Thread A builds a skb with MSG_MORE and sets kcm-&gt;seq_skb.\n\n  2. Thread A resumes building skb from kcm-&gt;seq_skb but is blocked\n     by sk_stream_wait_memory()\n\n  3. Thread B calls sendmsg() concurrently, finishes building kcm-&gt;seq_skb\n     and puts the skb to the write queue\n\n  4. Thread A faces an error and finally frees skb that is already in the\n     write queue\n\n  5. kcm_release() does double-free the skb in the write queue\n\nWhen a thread is building a MSG_MORE skb, another thread must not touch it.\n\nLet's add a per-sk mutex and serialise kcm_sendmsg().\n\n[0]:\nBUG: KASAN: slab-use-after-free in __skb_unlink include/linux/skbuff.h:2366 [inline]\nBUG: KASAN: slab-use-after-free in __skb_dequeue include/linux/skbuff.h:2385 [inline]\nBUG: KASAN: slab-use-after-free in __skb_queue_purge_reason include/linux/skbuff.h:3175 [inline]\nBUG: KASAN: slab-use-after-free in __skb_queue_purge include/linux/skbuff.h:3181 [inline]\nBUG: KASAN: slab-use-after-free in kcm_release+0x170/0x4c8 net/kcm/kcmsock.c:1691\nRead of size 8 at addr ffff0000ced0fc80 by task syz-executor329/6167\n\nCPU: 1 PID: 6167 Comm: syz-executor329 Tainted: G    B              6.8.0-rc5-syzkaller-g9abbc24128bc #0\nHardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 01/25/2024\nCall trace:\n dump_backtrace+0x1b8/0x1e4 arch/arm64/kernel/stacktrace.c:291\n show_stack+0x2c/0x3c arch/arm64/kernel/stacktrace.c:298\n __dump_stack lib/dump_stack.c:88 [inline]\n dump_stack_lvl+0xd0/0x124 lib/dump_stack.c:106\n print_address_description mm/kasan/report.c:377 [inline]\n print_report+0x178/0x518 mm/kasan/report.c:488\n kasan_report+0xd8/0x138 mm/kasan/report.c:601\n __asan_report_load8_noabort+0x20/0x2c mm/kasan/report_generic.c:381\n __skb_unlink include/linux/skbuff.h:2366 [inline]\n __skb_dequeue include/linux/skbuff.h:2385 [inline]\n __skb_queue_purge_reason include/linux/skbuff.h:3175 [inline]\n __skb_queue_purge include/linux/skbuff.h:3181 [inline]\n kcm_release+0x170/0x4c8 net/kcm/kcmsock.c:1691\n __sock_release net/socket.c:659 [inline]\n sock_close+0xa4/0x1e8 net/socket.c:1421\n __fput+0x30c/0x738 fs/file_table.c:376\n ____fput+0x20/0x30 fs/file_table.c:404\n task_work_run+0x230/0x2e0 kernel/task_work.c:180\n exit_task_work include/linux/task_work.h:38 [inline]\n do_exit+0x618/0x1f64 kernel/exit.c:871\n do_group_exit+0x194/0x22c kernel/exit.c:1020\n get_signal+0x1500/0x15ec kernel/signal.c:2893\n do_signal+0x23c/0x3b44 arch/arm64/kernel/signal.c:1249\n do_notify_resume+0x74/0x1f4 arch/arm64/kernel/entry-common.c:148\n exit_to_user_mode_prepare arch/arm64/kernel/entry-common.c:169 [inline]\n exit_to_user_mode arch/arm64/kernel/entry-common.c:178 [inline]\n el0_svc+0xac/0x168 arch/arm64/kernel/entry-common.c:713\n el0t_64_sync_handler+0x84/0xfc arch/arm64/kernel/entry-common.c:730\n el0t_64_sync+0x190/0x194 arch/arm64/kernel/entry.S:598\n\nAllocated by task 6166:\n kasan_save_stack mm/kasan/common.c:47 [inline]\n kasan_save_track+0x40/0x78 mm/kasan/common.c:68\n kasan_save_alloc_info+0x70/0x84 mm/kasan/generic.c:626\n unpoison_slab_object mm/kasan/common.c:314 [inline]\n __kasan_slab_alloc+0x74/0x8c mm/kasan/common.c:340\n kasan_slab_alloc include/linux/kasan.h:201 [inline]\n slab_post_alloc_hook mm/slub.c:3813 [inline]\n slab_alloc_node mm/slub.c:3860 [inline]\n kmem_cache_alloc_node+0x204/0x4c0 mm/slub.c:3903\n __alloc_skb+0x19c/0x3d8 net/core/skbuff.c:641\n alloc_skb include/linux/skbuff.h:1296 [inline]\n kcm_sendmsg+0x1d3c/0x2124 net/kcm/kcmsock.c:783\n sock_sendmsg_nosec net/socket.c:730 [inline]\n __sock_sendmsg net/socket.c:745 [inline]\n sock_sendmsg+0x220/0x2c0 net/socket.c:768\n splice_to_socket+0x7cc/0xd58 fs/splice.c:889\n do_splice_from fs/splice.c:941 [inline]\n direct_splice_actor+0xec/0x1d8 fs/splice.c:1164\n splice_direct_to_actor+0x438/0xa0c fs/splice.c:1108\n do_splice_direct_actor \n---truncated---
@@ -4634,7 +4652,11 @@
 
 - [TheHermione/CVE-2024-45265](https://github.com/TheHermione/CVE-2024-45265)
 
-### CVE-2024-45589
+### CVE-2024-45589 (2024-09-05)
+
+<code>RapidIdentity LTS through 2023.0.2 and Cloud through 2024.08.0 improperly restricts excessive authentication attempts and allows a remote attacker to cause a denial of service via the username parameters.
+</code>
+
 - [BenRogozinski/CVE-2024-45589](https://github.com/BenRogozinski/CVE-2024-45589)
 
 ### CVE-2024-56662
@@ -5114,6 +5136,13 @@
 </code>
 
 - [hshivhare67/OpenSSL_1.1.1g_CVE-2023-2650](https://github.com/hshivhare67/OpenSSL_1.1.1g_CVE-2023-2650)
+
+### CVE-2023-2728 (2023-07-03)
+
+<code>Users may be able to launch containers that bypass the mountable secrets policy enforced by the ServiceAccount admission plugin when using ephemeral containers. The policy ensures pods running with a service account may only reference secrets specified in the service account’s secrets field. Kubernetes clusters are only affected if the ServiceAccount admission plugin and the `kubernetes.io/enforce-mountable-secrets` annotation are used together with ephemeral containers.\n\n
+</code>
+
+- [Cgv-Dev/Metasploit-Module-TFM](https://github.com/Cgv-Dev/Metasploit-Module-TFM)
 
 ### CVE-2023-2732 (2023-05-25)
 
@@ -8592,6 +8621,7 @@
 - [gibran-abdillah/CVE-2023-32315](https://github.com/gibran-abdillah/CVE-2023-32315)
 - [CN016/Openfire-RCE-CVE-2023-32315-](https://github.com/CN016/Openfire-RCE-CVE-2023-32315-)
 - [K3ysTr0K3R/CVE-2023-32315-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-32315-EXPLOIT)
+- [bryanqb07/CVE-2023-32315](https://github.com/bryanqb07/CVE-2023-32315)
 
 ### CVE-2023-32353 (2023-06-23)
 
@@ -20712,6 +20742,13 @@
 
 - [cyberark/PwnKit-Hunter](https://github.com/cyberark/PwnKit-Hunter)
 
+### CVE-2021-4044 (2021-12-14)
+
+<code>Internally libssl in OpenSSL calls X509_verify_cert() on the client side to verify a certificate supplied by a server. That function may return a negative return value to indicate an internal error (for example out of memory). Such a negative return value is mishandled by OpenSSL and will cause an IO function (such as SSL_connect() or SSL_do_handshake()) to not indicate success and a subsequent call to SSL_get_error() to return the value SSL_ERROR_WANT_RETRY_VERIFY. This return value is only supposed to be returned by OpenSSL if the application has previously called SSL_CTX_set_cert_verify_callback(). Since most applications do not do this the SSL_ERROR_WANT_RETRY_VERIFY return value from SSL_get_error() will be totally unexpected and applications may not behave correctly as a result. The exact behaviour will depend on the application but it could result in crashes, infinite loops or other similar incorrect responses. This issue is made more serious in combination with a separate bug in OpenSSL 3.0 that will cause X509_verify_cert() to indicate an internal error when processing a certificate chain. This will occur where a certificate does not include the Subject Alternative Name extension but where a Certificate Authority has enforced name constraints. This issue can occur even with valid chains. By combining the two issues an attacker could induce incorrect, application dependent behaviour. Fixed in OpenSSL 3.0.1 (Affected 3.0.0).
+</code>
+
+- [phirojshah/CVE-2021-4044](https://github.com/phirojshah/CVE-2021-4044)
+
 ### CVE-2021-4045 (2022-02-11)
 
 <code>TP-Link Tapo C200 IP camera, on its 1.1.15 firmware version and below, is affected by an unauthenticated RCE vulnerability, present in the uhttpd binary running by default as root. The exploitation of this vulnerability allows an attacker to take full control of the camera.
@@ -22505,13 +22542,6 @@
 
 - [jsherman212/iomfb-exploit](https://github.com/jsherman212/iomfb-exploit)
 - [30440r/gex](https://github.com/30440r/gex)
-
-### CVE-2021-30853 (2021-08-24)
-
-<code>This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.6. A malicious application may bypass Gatekeeper checks.
-</code>
-
-- [shubham0d/CVE-2021-30853](https://github.com/shubham0d/CVE-2021-30853)
 
 ### CVE-2021-30858 (2021-08-24)
 
@@ -36382,6 +36412,7 @@
 - [bme2003/CVE-2018-6574](https://github.com/bme2003/CVE-2018-6574)
 - [iNoSec2/cve-2018-6574](https://github.com/iNoSec2/cve-2018-6574)
 - [ttyA0/cve-2018-6574](https://github.com/ttyA0/cve-2018-6574)
+- [faqihudin13/CVE-2018-6574](https://github.com/faqihudin13/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
