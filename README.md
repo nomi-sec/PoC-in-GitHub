@@ -1860,6 +1860,13 @@
 ### CVE-2024-22890
 - [BurakSevben/CVE-2024-22890](https://github.com/BurakSevben/CVE-2024-22890)
 
+### CVE-2024-22891 (2024-03-01)
+
+<code>Nteract v.0.28.0 was discovered to contain a remote code execution (RCE) vulnerability via the Markdown link.
+</code>
+
+- [EQSTLab/CVE-2024-22891](https://github.com/EQSTLab/CVE-2024-22891)
+
 ### CVE-2024-22894 (2024-01-30)
 
 <code>An issue fixed in AIT-Deutschland Alpha Innotec Heatpumps V2.88.3 or later, V3.89.0 or later, V4.81.3 or later and Novelan Heatpumps V2.88.3 or later, V3.89.0 or later, V4.81.3 or later, allows remote attackers to execute arbitrary code via the password component in the shadow file.
@@ -2115,6 +2122,27 @@
 - [Surko888/Surko-Exploit-Jenkins-CVE-2024-23897](https://github.com/Surko888/Surko-Exploit-Jenkins-CVE-2024-23897)
 - [NoSpaceAvailable/CVE-2024-23897](https://github.com/NoSpaceAvailable/CVE-2024-23897)
 - [BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety](https://github.com/BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety)
+
+### CVE-2024-23995 (2024-04-29)
+
+<code>Cross Site Scripting (XSS) in Beekeeper Studio 4.1.13 and earlier allows remote attackers to execute arbitrary code in the column name of a database table in tabulator-popup-container.
+</code>
+
+- [EQSTLab/CVE-2024-23995](https://github.com/EQSTLab/CVE-2024-23995)
+
+### CVE-2024-23997 (2024-07-05)
+
+<code>Lukas Bach yana =&lt;1.0.16 is vulnerable to Cross Site Scripting (XSS) via src/electron-main.ts.
+</code>
+
+- [EQSTLab/CVE-2024-23997](https://github.com/EQSTLab/CVE-2024-23997)
+
+### CVE-2024-23998 (2024-07-05)
+
+<code>goanother Another Redis Desktop Manager =&lt;1.6.1 is vulnerable to Cross Site Scripting (XSS) via src/components/Setting.vue.
+</code>
+
+- [EQSTLab/CVE-2024-23998](https://github.com/EQSTLab/CVE-2024-23998)
 
 ### CVE-2024-24034 (2024-02-08)
 
@@ -2447,6 +2475,27 @@
 ### CVE-2024-25281
 - [sajaljat/CVE-2024-25281](https://github.com/sajaljat/CVE-2024-25281)
 
+### CVE-2024-25291 (2024-02-29)
+
+<code>Deskfiler v1.2.3 allows attackers to execute arbitrary code via uploading a crafted plugin.
+</code>
+
+- [EQSTLab/CVE-2024-25291](https://github.com/EQSTLab/CVE-2024-25291)
+
+### CVE-2024-25292 (2024-02-29)
+
+<code>Cross-site scripting (XSS) vulnerability in RenderTune v1.1.4 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Upload Title parameter.
+</code>
+
+- [EQSTLab/CVE-2024-25292](https://github.com/EQSTLab/CVE-2024-25292)
+
+### CVE-2024-25293 (2024-03-01)
+
+<code>mjml-app versions 3.0.4 and 3.1.0-beta were discovered to contain a remote code execution (RCE) via the href attribute.
+</code>
+
+- [EQSTLab/CVE-2024-25293](https://github.com/EQSTLab/CVE-2024-25293)
+
 ### CVE-2024-25376 (2024-04-11)
 
 <code>An issue discovered in Thesycon Software Solutions Gmbh &amp; Co. KG TUSBAudio MSI-based installers before 5.68.0 allows a local attacker to execute arbitrary code via the msiexec.exe repair mode.
@@ -2474,6 +2523,13 @@
 </code>
 
 - [FixedOctocat/CVE-2024-25466](https://github.com/FixedOctocat/CVE-2024-25466)
+
+### CVE-2024-25503 (2024-04-04)
+
+<code>Cross Site Scripting (XSS) vulnerability in Advanced REST Client v.17.0.9 allows a remote attacker to execute arbitrary code and obtain sensitive information via a crafted script to the edit details parameter of the New Project function.
+</code>
+
+- [EQSTLab/CVE-2024-25503](https://github.com/EQSTLab/CVE-2024-25503)
 
 ### CVE-2024-25600 (2024-06-04)
 
@@ -4602,6 +4658,9 @@
 
 ### CVE-2024-43425
 - [RedTeamPentesting/moodle-rce-calculatedquestions](https://github.com/RedTeamPentesting/moodle-rce-calculatedquestions)
+
+### CVE-2024-44000
+- [absholi7ly/CVE-2024-44000-LiteSpeed-Cache](https://github.com/absholi7ly/CVE-2024-44000-LiteSpeed-Cache)
 
 ### CVE-2024-44083 (2024-08-19)
 
@@ -20475,7 +20534,7 @@
 - [cpu0x00/CVE-2021-3560](https://github.com/cpu0x00/CVE-2021-3560)
 - [BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560)
 - [0dayNinja/CVE-2021-3560](https://github.com/0dayNinja/CVE-2021-3560)
-- [TomMalvoRiddle/CVE-2021-3560](https://github.com/TomMalvoRiddle/CVE-2021-3560)
+- [admin-079/CVE-2021-3560](https://github.com/admin-079/CVE-2021-3560)
 - [chenaotian/CVE-2021-3560](https://github.com/chenaotian/CVE-2021-3560)
 - [NeonWhiteRabbit/CVE-2021-3560](https://github.com/NeonWhiteRabbit/CVE-2021-3560)
 - [f4T1H21/CVE-2021-3560-Polkit-DBus](https://github.com/f4T1H21/CVE-2021-3560-Polkit-DBus)
@@ -27129,6 +27188,7 @@
 - [YounesTasra-R4z3rSw0rd/CVE-2020-1938](https://github.com/YounesTasra-R4z3rSw0rd/CVE-2020-1938)
 - [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
 - [Warelock/cve-2020-1938](https://github.com/Warelock/cve-2020-1938)
+- [lizhianyuguangming/TomcatWeakPassChecker](https://github.com/lizhianyuguangming/TomcatWeakPassChecker)
 
 ### CVE-2020-1947 (2020-03-11)
 
