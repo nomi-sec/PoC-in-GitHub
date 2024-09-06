@@ -4660,6 +4660,7 @@
 
 ### CVE-2024-44000
 - [absholi7ly/CVE-2024-44000-LiteSpeed-Cache](https://github.com/absholi7ly/CVE-2024-44000-LiteSpeed-Cache)
+- [gbrsh/CVE-2024-44000](https://github.com/gbrsh/CVE-2024-44000)
 
 ### CVE-2024-44083 (2024-08-19)
 
@@ -8310,6 +8311,7 @@
 
 - [griffinsectio/CVE-2023-30800_PoC](https://github.com/griffinsectio/CVE-2023-30800_PoC)
 - [griffinsectio/CVE-2023-30800_PoC_go](https://github.com/griffinsectio/CVE-2023-30800_PoC_go)
+- [KhogenTheRabbit/cve-2023-30800-multithread-doser](https://github.com/KhogenTheRabbit/cve-2023-30800-multithread-doser)
 
 ### CVE-2023-30839 (2023-04-25)
 
@@ -10219,6 +10221,9 @@
 </code>
 
 - [jselliott/CVE-2023-38891](https://github.com/jselliott/CVE-2023-38891)
+
+### CVE-2023-39024
+- [BenTheCyberOne/CVE-2023-39024-5-POC](https://github.com/BenTheCyberOne/CVE-2023-39024-5-POC)
 
 ### CVE-2023-39062 (2023-08-28)
 
@@ -33277,6 +33282,7 @@
 - [Stick-U235/CVE-2019-10149-Exploit](https://github.com/Stick-U235/CVE-2019-10149-Exploit)
 - [rahmadsandy/EXIM-4.87-CVE-2019-10149](https://github.com/rahmadsandy/EXIM-4.87-CVE-2019-10149)
 - [hyim0810/CVE-2019-10149](https://github.com/hyim0810/CVE-2019-10149)
+- [qlusec/CVE-2019-10149](https://github.com/qlusec/CVE-2019-10149)
 
 ### CVE-2019-10172 (2019-11-18)
 
