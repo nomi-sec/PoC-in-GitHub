@@ -3117,6 +3117,13 @@
 
 - [W01fh4cker/CVE-2024-30043-XXE](https://github.com/W01fh4cker/CVE-2024-30043-XXE)
 
+### CVE-2024-30051 (2024-05-14)
+
+<code>Windows DWM Core Library Elevation of Privilege Vulnerability
+</code>
+
+- [fortra/CVE-2024-30051](https://github.com/fortra/CVE-2024-30051)
+
 ### CVE-2024-30056 (2024-05-25)
 
 <code>Microsoft Edge (Chromium-based) Information Disclosure Vulnerability
@@ -4186,6 +4193,13 @@
 </code>
 
 - [p0in7s/CVE-2024-38475](https://github.com/p0in7s/CVE-2024-38475)
+
+### CVE-2024-38526 (2024-06-25)
+
+<code>pdoc provides API Documentation for Python Projects. Documentation generated with `pdoc --math` linked to JavaScript files from polyfill.io. The polyfill.io CDN has been sold and now serves malicious code. This issue has been fixed in pdoc 14.5.1.
+</code>
+
+- [putget/pollypull](https://github.com/putget/pollypull)
 
 ### CVE-2024-38537 (2024-07-02)
 
@@ -43428,6 +43442,9 @@
 </code>
 
 - [codeskipper/python-patrol](https://github.com/codeskipper/python-patrol)
+
+### CVE-2015-57115
+- [TrixSec/CVE-2015-57115](https://github.com/TrixSec/CVE-2015-57115)
 
 
 ## 2014
