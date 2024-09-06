@@ -4172,7 +4172,6 @@
 - [AdminPentester/CVE-2024-38063-](https://github.com/AdminPentester/CVE-2024-38063-)
 - [ThemeHackers/CVE-2024-38063](https://github.com/ThemeHackers/CVE-2024-38063)
 - [KernelKraze/CVE-2024-38063_PoC](https://github.com/KernelKraze/CVE-2024-38063_PoC)
-- [Th3Tr1ckst3r/Denyv6](https://github.com/Th3Tr1ckst3r/Denyv6)
 - [ps-interactive/cve-2024-38063](https://github.com/ps-interactive/cve-2024-38063)
 - [Brownpanda29/Cve-2024-38063](https://github.com/Brownpanda29/Cve-2024-38063)
 
@@ -4668,6 +4667,9 @@
 </code>
 
 - [Azvanzed/CVE-2024-44083](https://github.com/Azvanzed/CVE-2024-44083)
+
+### CVE-2024-44450
+- [VoidSecOrg/CVE-2024-44450](https://github.com/VoidSecOrg/CVE-2024-44450)
 
 ### CVE-2024-44812
 - [b1u3st0rm/CVE-2024-44812-PoC](https://github.com/b1u3st0rm/CVE-2024-44812-PoC)
