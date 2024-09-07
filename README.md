@@ -1332,6 +1332,13 @@
 - [bigb0x/CVE-2024-7954](https://github.com/bigb0x/CVE-2024-7954)
 - [fa-rrel/CVE-2024-7954-RCE](https://github.com/fa-rrel/CVE-2024-7954-RCE)
 
+### CVE-2024-8517 (2024-09-06)
+
+<code>SPIP before 4.3.2, 4.2.16, and \n4.1.18 is vulnerable to a command injection issue. A \nremote and unauthenticated attacker can execute arbitrary operating system commands by sending a crafted multipart file upload HTTP request.
+</code>
+
+- [Chocapikk/CVE-2024-8517](https://github.com/Chocapikk/CVE-2024-8517)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -4674,6 +4681,9 @@
 
 ### CVE-2024-44812
 - [b1u3st0rm/CVE-2024-44812-PoC](https://github.com/b1u3st0rm/CVE-2024-44812-PoC)
+
+### CVE-2024-44849
+- [extencil/CVE-2024-44849](https://github.com/extencil/CVE-2024-44849)
 
 ### CVE-2024-44902
 - [fru1ts/CVE-2024-44902](https://github.com/fru1ts/CVE-2024-44902)
