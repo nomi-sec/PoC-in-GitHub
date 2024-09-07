@@ -4190,6 +4190,7 @@
 - [KernelKraze/CVE-2024-38063_PoC](https://github.com/KernelKraze/CVE-2024-38063_PoC)
 - [ps-interactive/cve-2024-38063](https://github.com/ps-interactive/cve-2024-38063)
 - [Brownpanda29/Cve-2024-38063](https://github.com/Brownpanda29/Cve-2024-38063)
+- [FrancescoDiSalesGithub/quick-fix-cve-2024-38063](https://github.com/FrancescoDiSalesGithub/quick-fix-cve-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -4931,6 +4932,9 @@
 </code>
 
 - [seifallahhomrani1/CVE-2023-0861-POC](https://github.com/seifallahhomrani1/CVE-2023-0861-POC)
+
+### CVE-2023-420
+- [WiwiSinta/CVE-2023-420](https://github.com/WiwiSinta/CVE-2023-420)
 
 ### CVE-2023-422
 - [HusenjanDev/CVE-2023-422-Chamilo-LMS-RCE](https://github.com/HusenjanDev/CVE-2023-422-Chamilo-LMS-RCE)
@@ -22592,7 +22596,7 @@
 <code>Use after free in GPU in Google Chrome prior to 92.0.4515.107 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 </code>
 
-- [s4e-lab/CVE-2021-30573-PoC-Google-Chrome](https://github.com/s4e-lab/CVE-2021-30573-PoC-Google-Chrome)
+- [s4e-io/CVE-2021-30573-PoC-Google-Chrome](https://github.com/s4e-io/CVE-2021-30573-PoC-Google-Chrome)
 - [orangmuda/CVE-2021-30573](https://github.com/orangmuda/CVE-2021-30573)
 - [kh4sh3i/CVE-2021-30573](https://github.com/kh4sh3i/CVE-2021-30573)
 
