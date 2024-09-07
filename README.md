@@ -257,6 +257,7 @@
 
 - [Chocapikk/CVE-2024-1212](https://github.com/Chocapikk/CVE-2024-1212)
 - [MuhammadWaseem29/CVE-2024-1212](https://github.com/MuhammadWaseem29/CVE-2024-1212)
+- [hack-with-rohit/CVE-2024-1212](https://github.com/hack-with-rohit/CVE-2024-1212)
 
 ### CVE-2024-1269 (2024-02-07)
 
@@ -6706,7 +6707,7 @@
 - [h1bAna/CVE-2023-21768](https://github.com/h1bAna/CVE-2023-21768)
 - [zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit](https://github.com/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit)
 - [Rosayxy/Recreate-cve-2023-21768](https://github.com/Rosayxy/Recreate-cve-2023-21768)
-- [Ha0-Y/CVE-2023-21768](https://github.com/Ha0-Y/CVE-2023-21768)
+- [ldrx30/CVE-2023-21768](https://github.com/ldrx30/CVE-2023-21768)
 - [xboxoneresearch/CVE-2023-21768-dotnet](https://github.com/xboxoneresearch/CVE-2023-21768-dotnet)
 
 ### CVE-2023-21823 (2023-02-14)
