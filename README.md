@@ -4075,6 +4075,9 @@
 
 - [optistream/securenvoy-cve-2024-37393](https://github.com/optistream/securenvoy-cve-2024-37393)
 
+### CVE-2024-37713
+- [fullbbadda1208/CVE-2024-37713](https://github.com/fullbbadda1208/CVE-2024-37713)
+
 ### CVE-2024-37726 (2024-07-03)
 
 <code>Insecure Permissions vulnerability in Micro-Star International Co., Ltd MSI Center v.2.0.36.0 allows a local attacker to escalate privileges via the Export System Info function in MSI.CentralServer.exe
@@ -10027,6 +10030,7 @@
 - [classic130/CVE-2023-38408](https://github.com/classic130/CVE-2023-38408)
 - [wxrdnx/CVE-2023-38408](https://github.com/wxrdnx/CVE-2023-38408)
 - [mrtacojr/CVE-2023-38408](https://github.com/mrtacojr/CVE-2023-38408)
+- [0xxnum/CVE-2023-38408](https://github.com/0xxnum/CVE-2023-38408)
 
 ### CVE-2023-38434 (2023-07-18)
 
