@@ -1314,6 +1314,13 @@
 
 - [lfillaz/CVE-2024-7703](https://github.com/lfillaz/CVE-2024-7703)
 
+### CVE-2024-7856 (2024-08-29)
+
+<code>The MP3 Audio Player – Music Player, Podcast Player &amp; Radio by Sonaar plugin for WordPress is vulnerable to unauthorized arbitrary file deletion due to a missing capability check on the removeTempFiles() function and insufficient path validation on the 'file' parameter in all versions up to, and including, 5.7.0.1. This makes it possible for authenticated attackers, with subscriber-level access and above, to delete arbitrary files which can make remote code execution possible when wp-config.php is deleted.
+</code>
+
+- [l8BL/CVE-2024-7856](https://github.com/l8BL/CVE-2024-7856)
+
 ### CVE-2024-7928 (2024-08-19)
 
 <code>Eine problematische Schwachstelle wurde in FastAdmin bis 1.3.3.20220121 entdeckt. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei /index/ajax/lang. Durch Manipulation des Arguments lang mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung. Ein Aktualisieren auf die Version 1.3.4.20220530 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
@@ -2910,6 +2917,7 @@
 - [Alucard0x1/CVE-2024-28000](https://github.com/Alucard0x1/CVE-2024-28000)
 - [ebrasha/CVE-2024-28000](https://github.com/ebrasha/CVE-2024-28000)
 - [arch1m3d/CVE-2024-28000](https://github.com/arch1m3d/CVE-2024-28000)
+- [SSSSuperX/CVE-2024-28000](https://github.com/SSSSuperX/CVE-2024-28000)
 
 ### CVE-2024-28085 (2024-03-27)
 
@@ -4649,13 +4657,6 @@
 
 - [njmbb8/CVE-2024-42850](https://github.com/njmbb8/CVE-2024-42850)
 
-### CVE-2024-42913 (2024-08-26)
-
-<code>RuoYi CMS v4.7.9 was discovered to contain a SQL injection vulnerability via the job_id parameter at /sasfs1.
-</code>
-
-- [kkll5875/CVE-2024-42913](https://github.com/kkll5875/CVE-2024-42913)
-
 ### CVE-2024-42919 (2024-08-20)
 
 <code>eScan Management Console 14.0.1400.2281 is vulnerable to Incorrect Access Control via acteScanAVReport.
@@ -4698,6 +4699,9 @@
 
 ### CVE-2024-44812
 - [b1u3st0rm/CVE-2024-44812-PoC](https://github.com/b1u3st0rm/CVE-2024-44812-PoC)
+
+### CVE-2024-44815
+- [nitinronge91/Extracting-User-credentials-For-Web-portal-and-WiFi-AP-For-Hathway-Router-CVE-2024-44815-](https://github.com/nitinronge91/Extracting-User-credentials-For-Web-portal-and-WiFi-AP-For-Hathway-Router-CVE-2024-44815-)
 
 ### CVE-2024-44849
 - [extencil/CVE-2024-44849](https://github.com/extencil/CVE-2024-44849)
@@ -5870,6 +5874,7 @@
 - [byte4RR4Y/CVE-2023-4966](https://github.com/byte4RR4Y/CVE-2023-4966)
 - [jmussmann/cve-2023-4966-iocs](https://github.com/jmussmann/cve-2023-4966-iocs)
 - [morganwdavis/overread](https://github.com/morganwdavis/overread)
+- [LucasOneZ/CVE-2023-4966](https://github.com/LucasOneZ/CVE-2023-4966)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -13254,6 +13259,7 @@
 </code>
 
 - [shhrew/CVE-2022-0944](https://github.com/shhrew/CVE-2022-0944)
+- [Philip-Otter/CVE-2022-0944_RCE_Automation](https://github.com/Philip-Otter/CVE-2022-0944_RCE_Automation)
 
 ### CVE-2022-0952 (2022-05-02)
 
