@@ -1121,7 +1121,6 @@
 <code>The WPML plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 4.6.12 via the Twig Server-Side Template Injection. This is due to missing input validation and sanitization on the render function. This makes it possible for authenticated attackers, with Contributor-level access and above, to execute code on the server.
 </code>
 
-- [realbotnet/CVE-2024-6386](https://github.com/realbotnet/CVE-2024-6386)
 - [Argendo/CVE-2024-6386](https://github.com/Argendo/CVE-2024-6386)
 
 ### CVE-2024-6387 (2024-07-01)
@@ -3851,6 +3850,9 @@
 
 - [aelmokhtar/CVE-2024-34716_PoC](https://github.com/aelmokhtar/CVE-2024-34716_PoC)
 
+### CVE-2024-34831
+- [enzored/CVE-2024-34831](https://github.com/enzored/CVE-2024-34831)
+
 ### CVE-2024-34832 (-)
 
 <code>Directory Traversal vulnerability in CubeCart v.6.5.5 and before allows an attacker to execute arbitrary code via a crafted file uploaded to the _g and node parameters.
@@ -4716,6 +4718,13 @@
 </code>
 
 - [Abdurahmon3236/CVE-2024-44947](https://github.com/Abdurahmon3236/CVE-2024-44947)
+
+### CVE-2024-45058 (2024-08-28)
+
+<code>i-Educar is free, fully online school management software that can be used by school secretaries, teachers, coordinators, and area managers. Prior to the 2.9 branch, an attacker with only minimal viewing privileges in the settings section is able to change their user type to Administrator (or another type with super-permissions) through a specifically crafted POST request to `/intranet/educar_usuario_cad.php`, modifying the `nivel_usuario_` parameter. The vulnerability occurs in the file located at `ieducar/intranet/educar_usuario_cad.php`, which does not check the user's current permission level before allowing changes. Commit c25910cdf11ab50e50162a49dd44bef544422b6e contains a patch for the issue.
+</code>
+
+- [0xbhsu/CVE-2024-45058](https://github.com/0xbhsu/CVE-2024-45058)
 
 ### CVE-2024-45163 (2024-08-22)
 
@@ -13239,6 +13248,13 @@
 </code>
 
 - [NathanMulbrook/CVE-2022-0918](https://github.com/NathanMulbrook/CVE-2022-0918)
+
+### CVE-2022-0944 (2022-03-15)
+
+<code>Template injection in connection test endpoint leads to RCE in GitHub repository sqlpad/sqlpad prior to 6.10.1.
+</code>
+
+- [shhrew/CVE-2022-0944](https://github.com/shhrew/CVE-2022-0944)
 
 ### CVE-2022-0952 (2022-05-02)
 
