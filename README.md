@@ -256,7 +256,7 @@
 </code>
 
 - [Chocapikk/CVE-2024-1212](https://github.com/Chocapikk/CVE-2024-1212)
-- [MuhammadWaseem29/CVE-2024-1212](https://github.com/MuhammadWaseem29/CVE-2024-1212)
+- [nak000/CVE-2024-1212](https://github.com/nak000/CVE-2024-1212)
 - [hack-with-rohit/CVE-2024-1212](https://github.com/hack-with-rohit/CVE-2024-1212)
 
 ### CVE-2024-1269 (2024-02-07)
@@ -4703,7 +4703,11 @@
 ### CVE-2024-44815
 - [nitinronge91/Extracting-User-credentials-For-Web-portal-and-WiFi-AP-For-Hathway-Router-CVE-2024-44815-](https://github.com/nitinronge91/Extracting-User-credentials-For-Web-portal-and-WiFi-AP-For-Hathway-Router-CVE-2024-44815-)
 
-### CVE-2024-44849
+### CVE-2024-44849 (2024-09-09)
+
+<code>Qualitor up to 8.24 is vulnerable to Remote Code Execution (RCE) via Arbitrary File Upload in checkAcesso.php.
+</code>
+
 - [extencil/CVE-2024-44849](https://github.com/extencil/CVE-2024-44849)
 
 ### CVE-2024-44902
@@ -12318,7 +12322,6 @@
 </code>
 
 - [creacitysec/CVE-2023-49103](https://github.com/creacitysec/CVE-2023-49103)
-- [MixColumns/CVE-2023-49103](https://github.com/MixColumns/CVE-2023-49103)
 - [merlin-ke/OwnCloud-CVE-2023-49103](https://github.com/merlin-ke/OwnCloud-CVE-2023-49103)
 - [d0rb/CVE-2023-49103](https://github.com/d0rb/CVE-2023-49103)
 
@@ -21686,6 +21689,13 @@
 - [hnthuan1998/CVE-2021-24160](https://github.com/hnthuan1998/CVE-2021-24160)
 - [hnthuan1998/Exploit-CVE-2021-24160](https://github.com/hnthuan1998/Exploit-CVE-2021-24160)
 
+### CVE-2021-24307 (2021-05-24)
+
+<code>The All in One SEO – Best WordPress SEO Plugin – Easily Improve Your SEO Rankings before 4.1.0.2 enables authenticated users with &quot;aioseo_tools_settings&quot; privilege (most of the time admin) to execute arbitrary code on the underlying host. Users can restore plugin's configuration by uploading a backup .ini file in the section &quot;Tool &gt; Import/Export&quot;. However, the plugin attempts to unserialize values of the .ini file. Moreover, the plugin embeds Monolog library which can be used to craft a gadget chain and thus trigger system command execution.
+</code>
+
+- [darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce](https://github.com/darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce)
+
 ### CVE-2021-24356 (2021-06-14)
 
 <code>In the Simple 301 Redirects by BetterLinks WordPress plugin before 2.0.4, a lack of capability checks and insufficient nonce check on the AJAX action, simple301redirects/admin/activate_plugin, made it possible for authenticated users to activate arbitrary plugins installed on vulnerable sites.
@@ -23680,7 +23690,6 @@
 
 - [maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
 - [Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
-- [TheHermione/CVE-2021-38001](https://github.com/TheHermione/CVE-2021-38001)
 
 ### CVE-2021-38003 (2021-11-23)
 
@@ -36549,6 +36558,7 @@
 - [iNoSec2/cve-2018-6574](https://github.com/iNoSec2/cve-2018-6574)
 - [ttyA0/cve-2018-6574](https://github.com/ttyA0/cve-2018-6574)
 - [faqihudin13/CVE-2018-6574](https://github.com/faqihudin13/CVE-2018-6574)
+- [lisu60/cve-2018-6574](https://github.com/lisu60/cve-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -37914,8 +37924,7 @@
 
 - [tin-z/CVE-2018-14714-POC](https://github.com/tin-z/CVE-2018-14714-POC)
 - [sunn1day/CVE-2018-14714-POC](https://github.com/sunn1day/CVE-2018-14714-POC)
-- [BTtea/CVE-2018-14714-POC](https://github.com/BTtea/CVE-2018-14714-POC)
-- [BTtea/CVE-2018-14714-RCE_exploit](https://github.com/BTtea/CVE-2018-14714-RCE_exploit)
+- [BTtea/CVE-2018-14714-RCE-exploit](https://github.com/BTtea/CVE-2018-14714-RCE-exploit)
 
 ### CVE-2018-14716 (2018-08-06)
 
