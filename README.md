@@ -2702,6 +2702,13 @@
 
 - [Alaatk/CVE-2024-26574](https://github.com/Alaatk/CVE-2024-26574)
 
+### CVE-2024-26581 (2024-02-20)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nft_set_rbtree: skip end interval element from gc\n\nrbtree lazy gc on insert might collect an end interval element that has\nbeen just added in this transactions, skip end interval elements that\nare not yet active.
+</code>
+
+- [madfxr/CVE-2024-26581-Checker](https://github.com/madfxr/CVE-2024-26581-Checker)
+
 ### CVE-2024-26817 (2024-04-13)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\namdkfd: use calloc instead of kzalloc to avoid integer overflow\n\nThis uses calloc instead of doing the multiplication which might\noverflow.
@@ -2919,6 +2926,7 @@
 - [ebrasha/CVE-2024-28000](https://github.com/ebrasha/CVE-2024-28000)
 - [arch1m3d/CVE-2024-28000](https://github.com/arch1m3d/CVE-2024-28000)
 - [SSSSuperX/CVE-2024-28000](https://github.com/SSSSuperX/CVE-2024-28000)
+- [JohnDoeAnonITA/CVE-2024-28000](https://github.com/JohnDoeAnonITA/CVE-2024-28000)
 
 ### CVE-2024-28085 (2024-03-27)
 
@@ -4207,6 +4215,7 @@
 - [ps-interactive/cve-2024-38063](https://github.com/ps-interactive/cve-2024-38063)
 - [Brownpanda29/Cve-2024-38063](https://github.com/Brownpanda29/Cve-2024-38063)
 - [FrancescoDiSalesGithub/quick-fix-cve-2024-38063](https://github.com/FrancescoDiSalesGithub/quick-fix-cve-2024-38063)
+- [Faizan-Khanx/CVE-2024-38063](https://github.com/Faizan-Khanx/CVE-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -13251,6 +13260,7 @@
 - [shhrew/CVE-2022-0944](https://github.com/shhrew/CVE-2022-0944)
 - [Philip-Otter/CVE-2022-0944_RCE_Automation](https://github.com/Philip-Otter/CVE-2022-0944_RCE_Automation)
 - [FlojBoj/CVE-2022-0944](https://github.com/FlojBoj/CVE-2022-0944)
+- [0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944](https://github.com/0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944)
 
 ### CVE-2022-0952 (2022-05-02)
 
@@ -15240,7 +15250,7 @@
 <code>Cross-site scripting (XSS) via Host Header injection in PKP Open Journals System 2.4.8 &gt;= 3.3 allows remote attackers to inject arbitary code via the X-Forwarded-Host Header.
 </code>
 
-- [comrade99/CVE-2022-24181](https://github.com/comrade99/CVE-2022-24181)
+- [cyberhawk000/CVE-2022-24181](https://github.com/cyberhawk000/CVE-2022-24181)
 
 ### CVE-2022-24227 (2022-02-15)
 
@@ -17934,6 +17944,7 @@
 - [AleksPwn/CVE-2022-37706](https://github.com/AleksPwn/CVE-2022-37706)
 - [TACTICAL-HACK/CVE-2022-37706-SUID](https://github.com/TACTICAL-HACK/CVE-2022-37706-SUID)
 - [sanan2004/CVE-2022-37706](https://github.com/sanan2004/CVE-2022-37706)
+- [KaoXx/CVE-2022-37706](https://github.com/KaoXx/CVE-2022-37706)
 
 ### CVE-2022-37708
 - [thekevinday/docker_lightman_exploit](https://github.com/thekevinday/docker_lightman_exploit)
