@@ -198,6 +198,13 @@
 
 - [keru6k/Online-Admission-System-RCE-PoC](https://github.com/keru6k/Online-Admission-System-RCE-PoC)
 
+### CVE-2024-0944 (2024-01-26)
+
+<code>Eine problematische Schwachstelle wurde in Totolink T8 4.1.5cu.833_20220905 ausgemacht. Betroffen davon ist ein unbekannter Prozess der Datei /cgi-bin/cstecgi.cgi. Mit der Manipulation mit unbekannten Daten kann eine session expiration-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Die Komplexität eines Angriffs ist eher hoch. Sie ist schwierig ausnutzbar. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [Artemisxxx37/cve-2024-0944](https://github.com/Artemisxxx37/cve-2024-0944)
+
 ### CVE-2024-0986 (2024-01-28)
 
 <code>Eine Schwachstelle wurde in Issabel PBX 4.0.0 ausgemacht. Sie wurde als kritisch eingestuft. Es geht hierbei um eine nicht näher spezifizierte Funktion der Datei /index.php?menu=asterisk_cli der Komponente Asterisk-Cli. Durch Beeinflussen des Arguments Command mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
@@ -257,7 +264,6 @@
 
 - [Chocapikk/CVE-2024-1212](https://github.com/Chocapikk/CVE-2024-1212)
 - [nak000/CVE-2024-1212](https://github.com/nak000/CVE-2024-1212)
-- [hack-with-rohit/CVE-2024-1212](https://github.com/hack-with-rohit/CVE-2024-1212)
 
 ### CVE-2024-1269 (2024-02-07)
 
@@ -3867,7 +3873,11 @@
 
 - [aelmokhtar/CVE-2024-34716_PoC](https://github.com/aelmokhtar/CVE-2024-34716_PoC)
 
-### CVE-2024-34831
+### CVE-2024-34831 (2024-09-10)
+
+<code>cross-site scripting (XSS) vulnerability in Gibbon Core v26.0.00 allows an attacker to execute arbitrary code via the imageLink parameter in the library_manage_catalog_editProcess.php component.
+</code>
+
 - [enzored/CVE-2024-34831](https://github.com/enzored/CVE-2024-34831)
 
 ### CVE-2024-34832 (-)
@@ -4069,6 +4079,13 @@
 - [Mr-r00t11/CVE-2024-37081](https://github.com/Mr-r00t11/CVE-2024-37081)
 - [CERTologists/-CVE-2024-37081-POC](https://github.com/CERTologists/-CVE-2024-37081-POC)
 - [CERTologists/Modified-CVE-2024-37081-POC](https://github.com/CERTologists/Modified-CVE-2024-37081-POC)
+
+### CVE-2024-37084 (2024-07-25)
+
+<code>In Spring Cloud Data Flow versions prior to 2.11.4,  a malicious user who has access to the Skipper server api can use a crafted upload request to write an arbitrary file to any location on the file system which could lead to compromising the server
+</code>
+
+- [Kayiyan/CVE-2024-37084-Poc](https://github.com/Kayiyan/CVE-2024-37084-Poc)
 
 ### CVE-2024-37085 (2024-06-25)
 
@@ -4710,7 +4727,11 @@
 ### CVE-2024-44812
 - [b1u3st0rm/CVE-2024-44812-PoC](https://github.com/b1u3st0rm/CVE-2024-44812-PoC)
 
-### CVE-2024-44815
+### CVE-2024-44815 (2024-09-10)
+
+<code>An issue in Hathway Skyworth Router CM5100 v.4.1.1.24 allows a physically proximate attacker to obtain sensitive information via SPI flash Firmware W25Q64JV
+</code>
+
 - [nitinronge91/Extracting-User-credentials-For-Web-portal-and-WiFi-AP-For-Hathway-Router-CVE-2024-44815-](https://github.com/nitinronge91/Extracting-User-credentials-For-Web-portal-and-WiFi-AP-For-Hathway-Router-CVE-2024-44815-)
 
 ### CVE-2024-44849 (2024-09-09)
@@ -4720,7 +4741,11 @@
 
 - [extencil/CVE-2024-44849](https://github.com/extencil/CVE-2024-44849)
 
-### CVE-2024-44867
+### CVE-2024-44867 (2024-09-10)
+
+<code>phpok v3.0 was discovered to contain an arbitrary file read vulnerability via the component /autoload/file.php.
+</code>
+
 - [ChengZyin/CVE-2024-44867](https://github.com/ChengZyin/CVE-2024-44867)
 
 ### CVE-2024-44902 (2024-09-09)
@@ -9716,7 +9741,6 @@
 
 - [jakabakos/CVE-2023-36664-Ghostscript-command-injection](https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection)
 - [winkler-winsen/Scan_GhostScript](https://github.com/winkler-winsen/Scan_GhostScript)
-- [jeanchpt/CVE-2023-36664](https://github.com/jeanchpt/CVE-2023-36664)
 - [churamanib/CVE-2023-36664-Ghostscript-command-injection](https://github.com/churamanib/CVE-2023-36664-Ghostscript-command-injection)
 
 ### CVE-2023-36723 (2023-10-10)
@@ -10057,7 +10081,6 @@
 - [classic130/CVE-2023-38408](https://github.com/classic130/CVE-2023-38408)
 - [wxrdnx/CVE-2023-38408](https://github.com/wxrdnx/CVE-2023-38408)
 - [mrtacojr/CVE-2023-38408](https://github.com/mrtacojr/CVE-2023-38408)
-- [0xxnum/CVE-2023-38408](https://github.com/0xxnum/CVE-2023-38408)
 
 ### CVE-2023-38434 (2023-07-18)
 
@@ -11753,6 +11776,13 @@
 </code>
 
 - [vinnie1717/CVE-2023-46344](https://github.com/vinnie1717/CVE-2023-46344)
+
+### CVE-2023-46371 (2023-10-24)
+
+<code>TP-Link device TL-WDR7660 2.0.30 has a stack overflow vulnerability via the function upgradeInfoJsonToBin.
+</code>
+
+- [Jianchun-Ding/CVE-poc-update](https://github.com/Jianchun-Ding/CVE-poc-update)
 
 ### CVE-2023-46404 (2023-11-03)
 
@@ -25492,7 +25522,6 @@
 - [lov3r/cve-2021-44228-log4j-exploits](https://github.com/lov3r/cve-2021-44228-log4j-exploits)
 - [sinakeshmiri/log4jScan](https://github.com/sinakeshmiri/log4jScan)
 - [0xDexter0us/Log4J-Scanner](https://github.com/0xDexter0us/Log4J-Scanner)
-- [LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228](https://github.com/LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228)
 - [0xsyr0/Log4Shell](https://github.com/0xsyr0/Log4Shell)
 - [1hakusai1/log4j-rce-CVE-2021-44228](https://github.com/1hakusai1/log4j-rce-CVE-2021-44228)
 - [jeffli1024/log4j-rce-test](https://github.com/jeffli1024/log4j-rce-test)
@@ -28330,7 +28359,6 @@
 - [zilong3033/CVE-2020-8835](https://github.com/zilong3033/CVE-2020-8835)
 - [SplendidSky/CVE-2020-8835](https://github.com/SplendidSky/CVE-2020-8835)
 - [digamma-ai/CVE-2020-8835-verification](https://github.com/digamma-ai/CVE-2020-8835-verification)
-- [johnatag/INF8602-CVE-2020-8835](https://github.com/johnatag/INF8602-CVE-2020-8835)
 
 ### CVE-2020-8840 (2020-02-10)
 
@@ -39105,6 +39133,7 @@
 - [BRAINIAC22/CVE-2017-0199](https://github.com/BRAINIAC22/CVE-2017-0199)
 - [Sunqiz/CVE-2017-0199-reprofuction](https://github.com/Sunqiz/CVE-2017-0199-reprofuction)
 - [TheCyberWatchers/CVE-2017-0199-v5.0](https://github.com/TheCyberWatchers/CVE-2017-0199-v5.0)
+- [kash-123/CVE-2017-0199](https://github.com/kash-123/CVE-2017-0199)
 
 ### CVE-2017-0204 (2017-04-12)
 
@@ -43535,6 +43564,7 @@
 
 - [whu-enjoy/CVE-2015-8660](https://github.com/whu-enjoy/CVE-2015-8660)
 - [nhamle2/CVE-2015-8660](https://github.com/nhamle2/CVE-2015-8660)
+- [carradolly/CVE-2015-8660](https://github.com/carradolly/CVE-2015-8660)
 
 ### CVE-2015-8710 (2016-04-11)
 
