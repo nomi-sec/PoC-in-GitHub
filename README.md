@@ -4711,6 +4711,9 @@
 
 - [extencil/CVE-2024-44849](https://github.com/extencil/CVE-2024-44849)
 
+### CVE-2024-44867
+- [ChengZyin/CVE-2024-44867](https://github.com/ChengZyin/CVE-2024-44867)
+
 ### CVE-2024-44902 (2024-09-09)
 
 <code>A deserialization vulnerability in Thinkphp v6.1.3 to v8.0.4 allows attackers to execute arbitrary code.
