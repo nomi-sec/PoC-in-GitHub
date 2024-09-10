@@ -2138,6 +2138,7 @@
 - [Surko888/Surko-Exploit-Jenkins-CVE-2024-23897](https://github.com/Surko888/Surko-Exploit-Jenkins-CVE-2024-23897)
 - [NoSpaceAvailable/CVE-2024-23897](https://github.com/NoSpaceAvailable/CVE-2024-23897)
 - [BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety](https://github.com/BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety)
+- [ShieldAuth-PHP/PBL05-CVE-Analsys](https://github.com/ShieldAuth-PHP/PBL05-CVE-Analsys)
 
 ### CVE-2024-23995 (2024-04-29)
 
@@ -4710,7 +4711,11 @@
 
 - [extencil/CVE-2024-44849](https://github.com/extencil/CVE-2024-44849)
 
-### CVE-2024-44902
+### CVE-2024-44902 (2024-09-09)
+
+<code>A deserialization vulnerability in Thinkphp v6.1.3 to v8.0.4 allows attackers to execute arbitrary code.
+</code>
+
 - [fru1ts/CVE-2024-44902](https://github.com/fru1ts/CVE-2024-44902)
 
 ### CVE-2024-44946 (2024-08-31)
@@ -7236,7 +7241,7 @@
 
 - [H4R335HR/CVE-2023-24329-PoC](https://github.com/H4R335HR/CVE-2023-24329-PoC)
 - [Pandante-Central/CVE-2023-24329-codeql-test](https://github.com/Pandante-Central/CVE-2023-24329-codeql-test)
-- [JawadPy/CVE-2023-24329-Exploit](https://github.com/JawadPy/CVE-2023-24329-Exploit)
+- [PenTestMano/CVE-2023-24329-Exploit](https://github.com/PenTestMano/CVE-2023-24329-Exploit)
 
 ### CVE-2023-24488 (2023-07-10)
 
@@ -8378,13 +8383,6 @@
 </code>
 
 - [jmrcsnchz/CVE-2023-30854](https://github.com/jmrcsnchz/CVE-2023-30854)
-
-### CVE-2023-30861 (2023-05-02)
-
-<code>Flask is a lightweight WSGI web application framework. When all of the following conditions are met, a response containing data intended for one client may be cached and subsequently sent by the proxy to other clients. If the proxy also caches `Set-Cookie` headers, it may send one client's `session` cookie to other clients. The severity depends on the application's use of the session and the proxy's behavior regarding cookies. The risk depends on all these conditions being met.\n\n1. The application must be hosted behind a caching proxy that does not strip cookies or ignore responses with cookies.\n2. The application sets `session.permanent = True`\n3. The application does not access or modify the session at any point during a request.\n4. `SESSION_REFRESH_EACH_REQUEST` enabled (the default).\n5. The application does not set a `Cache-Control` header to indicate that a page is private or should not be cached.\n\nThis happens because vulnerable versions of Flask only set the `Vary: Cookie` header when the session is accessed or modified, not when it is refreshed (re-sent to update the expiration) without being accessed or modified. This issue has been fixed in versions 2.3.2 and 2.2.5.
-</code>
-
-- [JawadPy/CVE-2023-30861-Exploit](https://github.com/JawadPy/CVE-2023-30861-Exploit)
 
 ### CVE-2023-30943 (2023-05-02)
 
@@ -10653,13 +10651,6 @@
 
 - [shiomiyan/CVE-2023-41080](https://github.com/shiomiyan/CVE-2023-41080)
 
-### CVE-2023-41105 (2023-08-23)
-
-<code>An issue was discovered in Python 3.11 through 3.11.4. If a path containing '\0' bytes is passed to os.path.normpath(), the path will be truncated unexpectedly at the first '\0' byte. There are plausible cases in which an application would have rejected a filename for security reasons in Python 3.10.x or earlier, but that filename is no longer rejected in Python 3.11.x.
-</code>
-
-- [JawadPy/CVE-2023-41105-Exploit](https://github.com/JawadPy/CVE-2023-41105-Exploit)
-
 ### CVE-2023-41265 (2023-08-29)
 
 <code>An HTTP Request Tunneling vulnerability found in Qlik Sense Enterprise for Windows for versions May 2023 Patch 3 and earlier, February 2023 Patch 7 and earlier, November 2022 Patch 10 and earlier, and August 2022 Patch 12 and earlier allows a remote attacker to elevate their privilege by tunneling HTTP requests in the raw HTTP request. This allows them to send requests that get executed by the backend server hosting the repository application. This is fixed in August 2023 IR, May 2023 Patch 4, February 2023 Patch 8, November 2022 Patch 11, and August 2022 Patch 13.
@@ -11262,13 +11253,6 @@
 </code>
 
 - [jfrog/jfrog-CVE-2023-43786-libX11_DoS](https://github.com/jfrog/jfrog-CVE-2023-43786-libX11_DoS)
-
-### CVE-2023-43804 (2023-10-04)
-
-<code>urllib3 is a user-friendly HTTP client library for Python. urllib3 doesn't treat the `Cookie` HTTP header special or provide any helpers for managing cookies over HTTP, that is the responsibility of the user. However, it is possible for a user to specify a `Cookie` header and unknowingly leak information via HTTP redirects to a different origin if that user doesn't disable redirects explicitly. This issue has been patched in urllib3 version 1.26.17 or 2.0.5.
-</code>
-
-- [JawadPy/CVE-2023-43804-Exploit](https://github.com/JawadPy/CVE-2023-43804-Exploit)
 
 ### CVE-2023-43838 (2023-10-04)
 
@@ -13263,6 +13247,7 @@
 
 - [shhrew/CVE-2022-0944](https://github.com/shhrew/CVE-2022-0944)
 - [Philip-Otter/CVE-2022-0944_RCE_Automation](https://github.com/Philip-Otter/CVE-2022-0944_RCE_Automation)
+- [FlojBoj/CVE-2022-0944](https://github.com/FlojBoj/CVE-2022-0944)
 
 ### CVE-2022-0952 (2022-05-02)
 
@@ -14615,13 +14600,6 @@
 </code>
 
 - [DShankle/CVE-2022-22814_PoC](https://github.com/DShankle/CVE-2022-22814_PoC)
-
-### CVE-2022-22817 (2022-01-07)
-
-<code>PIL.ImageMath.eval in Pillow before 9.0.0 allows evaluation of arbitrary expressions, such as ones that use the Python exec method. A lambda expression could also be used.
-</code>
-
-- [JawadPy/CVE-2022-22817-Exploit](https://github.com/JawadPy/CVE-2022-22817-Exploit)
 
 ### CVE-2022-22818 (2022-02-03)
 
@@ -35630,6 +35608,13 @@
 </code>
 
 - [codewhitesec/UnmarshalPwn](https://github.com/codewhitesec/UnmarshalPwn)
+
+### CVE-2018-0834 (2018-02-13)
+
+<code>Microsoft Edge and ChakraCore in Microsoft Windows 10 Gold, 1511, 1607, 1703, 1709, and Windows Server 2016 allows remote code execution, due to how the scripting engine handles objects in memory, aka &quot;Scripting Engine Memory Corruption Vulnerability&quot;. This CVE ID is unique from CVE-2018-0835, CVE-2018-0836, CVE-2018-0837, CVE-2018-0838, CVE-2018-0840, CVE-2018-0856, CVE-2018-0857, CVE-2018-0858, CVE-2018-0859, CVE-2018-0860, CVE-2018-0861, and CVE-2018-0866.
+</code>
+
+- [SpiralBL0CK/-CVE-2018-0834-aab-aar](https://github.com/SpiralBL0CK/-CVE-2018-0834-aab-aar)
 
 ### CVE-2018-0886 (2018-03-14)
 
