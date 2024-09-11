@@ -2764,6 +2764,7 @@
 </code>
 
 - [madfxr/CVE-2024-26581-Checker](https://github.com/madfxr/CVE-2024-26581-Checker)
+- [laoqin1234/Linux-Root-CVE-2024-26581-PoC](https://github.com/laoqin1234/Linux-Root-CVE-2024-26581-PoC)
 
 ### CVE-2024-26817 (2024-04-13)
 
@@ -4773,6 +4774,9 @@
 ### CVE-2024-44450
 - [VoidSecOrg/CVE-2024-44450](https://github.com/VoidSecOrg/CVE-2024-44450)
 
+### CVE-2024-44541
+- [pointedsec/CVE-2024-44541](https://github.com/pointedsec/CVE-2024-44541)
+
 ### CVE-2024-44812
 - [b1u3st0rm/CVE-2024-44812-PoC](https://github.com/b1u3st0rm/CVE-2024-44812-PoC)
 
@@ -4860,6 +4864,13 @@
 </code>
 
 - [TheHermione/CVE-2024-45265](https://github.com/TheHermione/CVE-2024-45265)
+
+### CVE-2024-45507 (2024-09-04)
+
+<code>Server-Side Request Forgery (SSRF), Improper Control of Generation of Code ('Code Injection') vulnerability in Apache OFBiz.\n\nThis issue affects Apache OFBiz: before 18.12.16.\n\nUsers are recommended to upgrade to version 18.12.16, which fixes the issue.
+</code>
+
+- [Avento/CVE-2024-45507_Behinder_Webshell](https://github.com/Avento/CVE-2024-45507_Behinder_Webshell)
 
 ### CVE-2024-45589 (2024-09-05)
 
@@ -31821,6 +31832,7 @@
 - [tranqtruong/Detect-BlueKeep](https://github.com/tranqtruong/Detect-BlueKeep)
 - [rasan2001/Microsoft-Remote-Desktop-Services-Remote-Code-Execution-Vulnerability-CVE-2019-0708](https://github.com/rasan2001/Microsoft-Remote-Desktop-Services-Remote-Code-Execution-Vulnerability-CVE-2019-0708)
 - [adyanamul/Remote-Code-Execution-RCE-Exploit-BlueKeep-CVE-2019-0708-PoC](https://github.com/adyanamul/Remote-Code-Execution-RCE-Exploit-BlueKeep-CVE-2019-0708-PoC)
+- [DenuwanJayasekara/CVE-Exploitation-Reports](https://github.com/DenuwanJayasekara/CVE-Exploitation-Reports)
 
 ### CVE-2019-0709 (2019-06-12)
 
@@ -39122,6 +39134,7 @@
 - [quynhold/Detect-CVE-2017-0144-attack](https://github.com/quynhold/Detect-CVE-2017-0144-attack)
 - [ducanh2oo3/Vulnerability-Research-CVE-2017-0144](https://github.com/ducanh2oo3/Vulnerability-Research-CVE-2017-0144)
 - [AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research)
+- [DenuwanJayasekara/CVE-Exploitation-Reports](https://github.com/DenuwanJayasekara/CVE-Exploitation-Reports)
 
 ### CVE-2017-0145 (2017-03-17)
 
@@ -45994,6 +46007,13 @@
 - [ShivamDey/Samba-CVE-2007-2447-Exploit](https://github.com/ShivamDey/Samba-CVE-2007-2447-Exploit)
 - [Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447)
 - [IamLucif3r/CVE-2007-2447-Exploit](https://github.com/IamLucif3r/CVE-2007-2447-Exploit)
+
+### CVE-2007-3280 (2007-06-19)
+
+<code>The Database Link library (dblink) in PostgreSQL 8.1 implements functions via CREATE statements that map to arbitrary libraries based on the C programming language, which allows remote authenticated superusers to map and execute a function from any library, as demonstrated by using the system function in libc.so.6 to gain shell access.
+</code>
+
+- [DenuwanJayasekara/CVE-Exploitation-Reports](https://github.com/DenuwanJayasekara/CVE-Exploitation-Reports)
 
 ### CVE-2007-3830 (2007-07-17)
 
