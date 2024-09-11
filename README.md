@@ -109,12 +109,26 @@
 
 - [jidle123/cve-2024-0305exp](https://github.com/jidle123/cve-2024-0305exp)
 
+### CVE-2024-0324 (2024-02-05)
+
+<code>The User Profile Builder – Beautiful User Registration Forms, User Profiles &amp; User Role Editor plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'wppb_two_factor_authentication_settings_update' function in all versions up to, and including, 3.10.8. This makes it possible for unauthenticated attackers to enable or disable the 2FA functionality present in the Premium version of the plugin for arbitrary user roles.
+</code>
+
+- [kodaichodai/CVE-2024-0324](https://github.com/kodaichodai/CVE-2024-0324)
+
 ### CVE-2024-0352 (2024-01-09)
 
 <code>In Likeshop bis 2.5.7.20210311 wurde eine Schwachstelle entdeckt. Sie wurde als kritisch eingestuft. Es geht um die Funktion FileServer::userFormImage der Datei server/application/api/controller/File.php der Komponente HTTP POST Request Handler. Mit der Manipulation des Arguments file mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
 - [Cappricio-Securities/CVE-2024-0352](https://github.com/Cappricio-Securities/CVE-2024-0352)
+
+### CVE-2024-0379 (2024-02-20)
+
+<code>The Custom Twitter Feeds – A Tweets Widget or X Feed Widget plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.2.1. This is due to missing or incorrect nonce validation on the ctf_auto_save_tokens function. This makes it possible for unauthenticated attackers to update the site's twitter API token and secret via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+</code>
+
+- [kodaichodai/CVE-2024-0379](https://github.com/kodaichodai/CVE-2024-0379)
 
 ### CVE-2024-0399 (2024-04-15)
 
@@ -129,6 +143,13 @@
 </code>
 
 - [convisolabs/CVE-2024-0507_CVE-2024-0200-github](https://github.com/convisolabs/CVE-2024-0507_CVE-2024-0200-github)
+
+### CVE-2024-0509 (2024-02-05)
+
+<code>The WP 404 Auto Redirect to Similar Post plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘request’ parameter in all versions up to, and including, 1.0.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
+</code>
+
+- [kodaichodai/CVE-2024-0509](https://github.com/kodaichodai/CVE-2024-0509)
 
 ### CVE-2024-0566 (2024-02-12)
 
@@ -145,6 +166,34 @@
 - [ysanatomic/io_uring_LPE-CVE-2024-0582](https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582)
 - [Forsaken0129/CVE-2024-0582](https://github.com/Forsaken0129/CVE-2024-0582)
 - [0ptyx/cve-2024-0582](https://github.com/0ptyx/cve-2024-0582)
+
+### CVE-2024-0588 (2024-04-09)
+
+<code>The Paid Memberships Pro – Content Restriction, User Registration, &amp; Paid Subscriptions plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.12.10. This is due to missing nonce validation on the pmpro_lifter_save_streamline_option() function. This makes it possible for unauthenticated attackers to enable the streamline setting with Lifter LMS via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+</code>
+
+- [kodaichodai/CVE-2024-0588](https://github.com/kodaichodai/CVE-2024-0588)
+
+### CVE-2024-0590 (2024-02-20)
+
+<code>The Microsoft Clarity plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 0.9.3. This is due to missing nonce validation on the edit_clarity_project_id() function. This makes it possible for unauthenticated attackers to change the project id and add malicious JavaScript via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+</code>
+
+- [kodaichodai/CVE-2024-0590](https://github.com/kodaichodai/CVE-2024-0590)
+
+### CVE-2024-0623 (2024-01-20)
+
+<code>The VK Block Patterns plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.31.1.1. This is due to missing or incorrect nonce validation on the vbp_clear_patterns_cache() function. This makes it possible for unauthenticated attackers to clear the patterns cache via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+</code>
+
+- [kodaichodai/CVE-2024-0623](https://github.com/kodaichodai/CVE-2024-0623)
+
+### CVE-2024-0624 (2024-01-25)
+
+<code>The Paid Memberships Pro – Content Restriction, User Registration, &amp; Paid Subscriptions plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.12.7. This is due to missing or incorrect nonce validation on the pmpro_update_level_order() function. This makes it possible for unauthenticated attackers to update the order of levels via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+</code>
+
+- [kodaichodai/CVE-2024-0624](https://github.com/kodaichodai/CVE-2024-0624)
 
 ### CVE-2024-0679 (2024-01-20)
 
@@ -1016,6 +1065,7 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-5522-Poc](https://github.com/truonghuuphuc/CVE-2024-5522-Poc)
+- [kryptonproject/CVE-2024-5522-PoC](https://github.com/kryptonproject/CVE-2024-5522-PoC)
 
 ### CVE-2024-5633 (2024-07-09)
 
@@ -3436,7 +3486,6 @@
 - [jweny/CVE-2024-32002_HOOK](https://github.com/jweny/CVE-2024-32002_HOOK)
 - [jweny/CVE-2024-32002_EXP](https://github.com/jweny/CVE-2024-32002_EXP)
 - [CrackerCat/CVE-2024-32002_EXP](https://github.com/CrackerCat/CVE-2024-32002_EXP)
-- [KiranKumarK20/CVE-2024-32002](https://github.com/KiranKumarK20/CVE-2024-32002)
 - [Roronoawjd/hook](https://github.com/Roronoawjd/hook)
 - [Roronoawjd/git_rce](https://github.com/Roronoawjd/git_rce)
 - [JJoosh/CVE-2024-32002-Reverse-Shell](https://github.com/JJoosh/CVE-2024-32002-Reverse-Shell)
@@ -21711,13 +21760,6 @@
 - [hnthuan1998/CVE-2021-24160](https://github.com/hnthuan1998/CVE-2021-24160)
 - [hnthuan1998/Exploit-CVE-2021-24160](https://github.com/hnthuan1998/Exploit-CVE-2021-24160)
 
-### CVE-2021-24307 (2021-05-24)
-
-<code>The All in One SEO – Best WordPress SEO Plugin – Easily Improve Your SEO Rankings before 4.1.0.2 enables authenticated users with &quot;aioseo_tools_settings&quot; privilege (most of the time admin) to execute arbitrary code on the underlying host. Users can restore plugin's configuration by uploading a backup .ini file in the section &quot;Tool &gt; Import/Export&quot;. However, the plugin attempts to unserialize values of the .ini file. Moreover, the plugin embeds Monolog library which can be used to craft a gadget chain and thus trigger system command execution.
-</code>
-
-- [darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce](https://github.com/darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce)
-
 ### CVE-2021-24356 (2021-06-14)
 
 <code>In the Simple 301 Redirects by BetterLinks WordPress plugin before 2.0.4, a lack of capability checks and insufficient nonce check on the AJAX action, simple301redirects/admin/activate_plugin, made it possible for authenticated users to activate arbitrary plugins installed on vulnerable sites.
@@ -22704,13 +22746,6 @@
 
 - [jsherman212/iomfb-exploit](https://github.com/jsherman212/iomfb-exploit)
 - [30440r/gex](https://github.com/30440r/gex)
-
-### CVE-2021-30853 (2021-08-24)
-
-<code>This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.6. A malicious application may bypass Gatekeeper checks.
-</code>
-
-- [shubham0d/CVE-2021-30853](https://github.com/shubham0d/CVE-2021-30853)
 
 ### CVE-2021-30858 (2021-08-24)
 
@@ -25785,6 +25820,8 @@
 - [Hoanle396/CVE-2021-44228-demo](https://github.com/Hoanle396/CVE-2021-44228-demo)
 - [tadash10/Exploiting-CVE-2021-44228-Log4Shell-in-a-Banking-Environment](https://github.com/tadash10/Exploiting-CVE-2021-44228-Log4Shell-in-a-Banking-Environment)
 - [asd58584388/CVE-2021-44228](https://github.com/asd58584388/CVE-2021-44228)
+- [OtisSymbos/CVE-2021-44228-Log4Shell-](https://github.com/OtisSymbos/CVE-2021-44228-Log4Shell-)
+- [safeer-accuknox/log4j-shell-poc](https://github.com/safeer-accuknox/log4j-shell-poc)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -44734,6 +44771,7 @@
 - [snoopopsec/vulnerability-CVE-2013-3900](https://github.com/snoopopsec/vulnerability-CVE-2013-3900)
 - [CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln](https://github.com/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln)
 - [Securenetology/CVE-2013-3900](https://github.com/Securenetology/CVE-2013-3900)
+- [OtisSymbos/CVE-2013-3900-WinTrustVerify](https://github.com/OtisSymbos/CVE-2013-3900-WinTrustVerify)
 
 ### CVE-2013-4002 (2013-07-23)
 
