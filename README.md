@@ -933,6 +933,7 @@
 - [ManuelKy08/CVE-2024-4577---RR](https://github.com/ManuelKy08/CVE-2024-4577---RR)
 - [bughuntar/CVE-2024-4577](https://github.com/bughuntar/CVE-2024-4577)
 - [fa-rrel/CVE-2024-4577-RCE](https://github.com/fa-rrel/CVE-2024-4577-RCE)
+- [ywChen-NTUST/PHP-CGI-RCE-Scanner](https://github.com/ywChen-NTUST/PHP-CGI-RCE-Scanner)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -1290,6 +1291,13 @@
 </code>
 
 - [apena-ba/CVE-2024-6536](https://github.com/apena-ba/CVE-2024-6536)
+
+### CVE-2024-6624 (2024-07-11)
+
+<code>The JSON API User plugin for WordPress is vulnerable to privilege escalation in all versions up to, and including, 3.9.3. This is due to improper controls on custom user meta fields. This makes it possible for unauthenticated attackers to register as administrators on the site. The plugin requires the JSON API plugin to also be installed.
+</code>
+
+- [RandomRobbieBF/CVE-2024-6624](https://github.com/RandomRobbieBF/CVE-2024-6624)
 
 ### CVE-2024-6670 (2024-08-29)
 
@@ -3736,8 +3744,6 @@
 - [bughuntar/CVE-2024-34102](https://github.com/bughuntar/CVE-2024-34102)
 - [bughuntar/CVE-2024-34102-Python](https://github.com/bughuntar/CVE-2024-34102-Python)
 - [Phantom-IN/CVE-2024-34102](https://github.com/Phantom-IN/CVE-2024-34102)
-- [etx-Arn/CVE-2024-34102-RCE](https://github.com/etx-Arn/CVE-2024-34102-RCE)
-- [etx-Arn/CVE-2024-34102-RCE-PoC](https://github.com/etx-Arn/CVE-2024-34102-RCE-PoC)
 - [wubinworks/magento2-cosmic-sting-patch](https://github.com/wubinworks/magento2-cosmic-sting-patch)
 - [EQSTLab/CVE-2024-34102](https://github.com/EQSTLab/CVE-2024-34102)
 - [Jhonsonwannaa/CVE-2024-34102](https://github.com/Jhonsonwannaa/CVE-2024-34102)
@@ -4136,6 +4142,7 @@
 </code>
 
 - [Kayiyan/CVE-2024-37084-Poc](https://github.com/Kayiyan/CVE-2024-37084-Poc)
+- [vuhz/CVE-2024-37084](https://github.com/vuhz/CVE-2024-37084)
 
 ### CVE-2024-37085 (2024-06-25)
 
@@ -11839,7 +11846,7 @@
 
 ### CVE-2023-46371 (2023-10-24)
 
-<code>TP-Link device TL-WDR7660 2.0.30 has a stack overflow vulnerability via the function upgradeInfoJsonToBin.
+<code>TP-Link device TL-WDR7660 2.0.30 and TL-WR886N 2.0.12 has a stack overflow vulnerability via the function upgradeInfoJsonToBin.
 </code>
 
 - [Jianchun-Ding/CVE-poc-update](https://github.com/Jianchun-Ding/CVE-poc-update)
@@ -12275,6 +12282,13 @@
 </code>
 
 - [NHPT/CVE-2023-48123](https://github.com/NHPT/CVE-2023-48123)
+
+### CVE-2023-48194 (2024-07-09)
+
+<code>Vulnerability in Tenda AC8v4 .V16.03.34.09 due to sscanf and the last digit of s8 being overwritten with \x0. After executing set_client_qos, control over the gp register can be obtained.
+</code>
+
+- [zt20xx/CVE-2023-48194](https://github.com/zt20xx/CVE-2023-48194)
 
 ### CVE-2023-48197 (2023-11-15)
 
@@ -32626,7 +32640,7 @@
 <code>Incorrect handling of deferred code in V8 in Google Chrome prior to 72.0.3626.96 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 </code>
 
-- [agenericapple/CVE-2019-5784-PoC](https://github.com/agenericapple/CVE-2019-5784-PoC)
+- [rooootdev/CVE-2019-5784-PoC](https://github.com/rooootdev/CVE-2019-5784-PoC)
 
 ### CVE-2019-5786 (2019-06-27)
 
