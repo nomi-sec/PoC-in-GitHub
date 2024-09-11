@@ -578,7 +578,7 @@
 
 ### CVE-2024-3177 (2024-04-22)
 
-<code>A security issue was discovered in Kubernetes where users may be able to launch containers that bypass the mountable secrets policy enforced by the ServiceAccount admission plugin when using containers, init containers, and ephemeral containers with the envFrom field populated. The policy ensures pods running with a service account may only reference secrets specified in the service account’s secrets field. Kubernetes clusters are only affected if the ServiceAccount admission plugin and the kubernetes.io/enforce-mountable-secrets annotation are used together with containers, init containers, and ephemeral containers with the envFrom field populated.\n\n
+<code>A security issue was discovered in Kubernetes where users may be able to launch containers that bypass the mountable secrets policy enforced by the ServiceAccount admission plugin when using containers, init containers, and ephemeral containers with the envFrom field populated. The policy ensures pods running with a service account may only reference secrets specified in the service account’s secrets field. Kubernetes clusters are only affected if the ServiceAccount admission plugin and the kubernetes.io/enforce-mountable-secrets annotation are used together with containers, init containers, and ephemeral containers with the envFrom field populated.
 </code>
 
 - [Cgv-Dev/Metasploit-Module-TFM](https://github.com/Cgv-Dev/Metasploit-Module-TFM)
@@ -4729,7 +4729,7 @@
 
 ### CVE-2024-44815 (2024-09-10)
 
-<code>An issue in Hathway Skyworth Router CM5100 v.4.1.1.24 allows a physically proximate attacker to obtain sensitive information via SPI flash Firmware W25Q64JV
+<code>Vulnerability in Hathway Skyworth Router CM5100 v.4.1.1.24 allows a physically proximate attacker to obtain user credentials via SPI flash Firmware W25Q64JV.
 </code>
 
 - [nitinronge91/Extracting-User-credentials-For-Web-portal-and-WiFi-AP-For-Hathway-Router-CVE-2024-44815-](https://github.com/nitinronge91/Extracting-User-credentials-For-Web-portal-and-WiFi-AP-For-Hathway-Router-CVE-2024-44815-)
@@ -31632,6 +31632,7 @@
 </code>
 
 - [NatteeSetobol/Chakra-CVE-2019-0567](https://github.com/NatteeSetobol/Chakra-CVE-2019-0567)
+- [NatteeSetobol/CVE-2019-0567-MS-Edge](https://github.com/NatteeSetobol/CVE-2019-0567-MS-Edge)
 
 ### CVE-2019-0604 (2019-03-06)
 
