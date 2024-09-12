@@ -1425,6 +1425,13 @@
 
 - [Chocapikk/CVE-2024-8517](https://github.com/Chocapikk/CVE-2024-8517)
 
+### CVE-2024-8522 (2024-09-12)
+
+<code>The LearnPress – WordPress LMS Plugin plugin for WordPress is vulnerable to SQL Injection via the 'c_only_fields' parameter of the /wp-json/learnpress/v1/courses REST API endpoint in all versions up to, and including, 4.2.7 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [realbotnet/CVE-2024-8522](https://github.com/realbotnet/CVE-2024-8522)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -8192,6 +8199,7 @@
 - [KeyStrOke95/CVE-2023-29357-ExE](https://github.com/KeyStrOke95/CVE-2023-29357-ExE)
 - [Guillaume-Risch/cve-2023-29357-Sharepoint](https://github.com/Guillaume-Risch/cve-2023-29357-Sharepoint)
 - [Jev1337/CVE-2023-29357-Check](https://github.com/Jev1337/CVE-2023-29357-Check)
+- [AhmedMansour93/Event-ID-189-Rule-Name-SOC227-CVE-2023-29357](https://github.com/AhmedMansour93/Event-ID-189-Rule-Name-SOC227-CVE-2023-29357)
 
 ### CVE-2023-29360 (2023-06-13)
 
@@ -13635,6 +13643,7 @@
 - [nvk0x/CVE-2022-1388-exploit](https://github.com/nvk0x/CVE-2022-1388-exploit)
 - [nico989/CVE-2022-1388](https://github.com/nico989/CVE-2022-1388)
 - [gotr00t0day/CVE-2022-1388](https://github.com/gotr00t0day/CVE-2022-1388)
+- [impost0r/CVE-2022-1388](https://github.com/impost0r/CVE-2022-1388)
 
 ### CVE-2022-1421 (2022-06-06)
 
