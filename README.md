@@ -1404,6 +1404,13 @@
 - [bigb0x/CVE-2024-7954](https://github.com/bigb0x/CVE-2024-7954)
 - [fa-rrel/CVE-2024-7954-RCE](https://github.com/fa-rrel/CVE-2024-7954-RCE)
 
+### CVE-2024-8277 (2024-09-11)
+
+<code>The WooCommerce Photo Reviews Premium plugin for WordPress is vulnerable to authentication bypass in all versions up to, and including, 1.3.13.2. This is due to the plugin not properly validating what user transient is being used in the login() function and not properly verifying the user's identity. This makes it possible for unauthenticated attackers to log in as user that has dismissed an admin notice in the past 30 days, which is often an administrator. Alternatively, a user can log in as any user with any transient that has a valid user_id as the value, though it would be more difficult to exploit this successfully.
+</code>
+
+- [realbotnet/CVE-2024-8277](https://github.com/realbotnet/CVE-2024-8277)
+
 ### CVE-2024-8517 (2024-09-06)
 
 <code>SPIP before 4.3.2, 4.2.16, and \n4.1.18 is vulnerable to a command injection issue. A \nremote and unauthenticated attacker can execute arbitrary operating system commands by sending a crafted multipart file upload HTTP request.
@@ -2394,7 +2401,6 @@
 <code>Deserialization of untrusted data can occur in versions 0.17.0 to 1.14.2 of the client SDK of Allegro AI’s ClearML platform, enabling a maliciously uploaded artifact to run arbitrary code on an end user’s system when interacted with.\n
 </code>
 
-- [h3xm4n/ClearML-vulnerability-exploit-RCE-2024-CVE-2024-24590-](https://github.com/h3xm4n/ClearML-vulnerability-exploit-RCE-2024-CVE-2024-24590-)
 - [OxyDeV2/ClearML-CVE-2024-24590](https://github.com/OxyDeV2/ClearML-CVE-2024-24590)
 - [xffsec/CVE-2024-24590-ClearML-RCE-Exploit](https://github.com/xffsec/CVE-2024-24590-ClearML-RCE-Exploit)
 - [diegogarciayala/CVE-2024-24590-ClearML-RCE-CMD-POC](https://github.com/diegogarciayala/CVE-2024-24590-ClearML-RCE-CMD-POC)
@@ -3525,7 +3531,6 @@
 - [TSY244/CVE-2024-32002-git-rce](https://github.com/TSY244/CVE-2024-32002-git-rce)
 - [blackninja23/CVE-2024-32002](https://github.com/blackninja23/CVE-2024-32002)
 - [daemon-reconfig/CVE-2024-32002](https://github.com/daemon-reconfig/CVE-2024-32002)
-- [h3xm4n/CVE-2024-32002](https://github.com/h3xm4n/CVE-2024-32002)
 - [charlesgargasson/CVE-2024-32002](https://github.com/charlesgargasson/CVE-2024-32002)
 - [NishanthAnand21/CVE-2024-32002-PoC](https://github.com/NishanthAnand21/CVE-2024-32002-PoC)
 - [FlojBoj/CVE-2024-32002](https://github.com/FlojBoj/CVE-2024-32002)
@@ -4781,7 +4786,11 @@
 ### CVE-2024-44450
 - [VoidSecOrg/CVE-2024-44450](https://github.com/VoidSecOrg/CVE-2024-44450)
 
-### CVE-2024-44541
+### CVE-2024-44541 (2024-09-11)
+
+<code>evilnapsis Inventio Lite Versions v4 and before is vulnerable to SQL Injection via the &quot;username&quot; parameter in &quot;/?action=processlogin.&quot;
+</code>
+
 - [pointedsec/CVE-2024-44541](https://github.com/pointedsec/CVE-2024-44541)
 
 ### CVE-2024-44812
