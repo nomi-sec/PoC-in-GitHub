@@ -3427,6 +3427,13 @@
 - [edutko/cve-2024-31497](https://github.com/edutko/cve-2024-31497)
 - [HugoBond/CVE-2024-31497-POC](https://github.com/HugoBond/CVE-2024-31497-POC)
 
+### CVE-2024-31666 (2024-04-22)
+
+<code>An issue in flusity-CMS v.2.33 allows a remote attacker to execute arbitrary code via a crafted script to the edit_addon_post.php component.
+</code>
+
+- [hapa3/CVE-2024-31666](https://github.com/hapa3/CVE-2024-31666)
+
 ### CVE-2024-31719
 - [VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability](https://github.com/VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability)
 
