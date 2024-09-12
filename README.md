@@ -1052,6 +1052,13 @@
 - [truonghuuphuc/CVE-2024-5326-Poc](https://github.com/truonghuuphuc/CVE-2024-5326-Poc)
 - [cve-2024/CVE-2024-5326-Poc](https://github.com/cve-2024/CVE-2024-5326-Poc)
 
+### CVE-2024-5356 (2024-05-26)
+
+<code>Es wurde eine Schwachstelle in anji-plus AJ-Report bis 1.4.1 gefunden. Sie wurde als kritisch eingestuft. Dabei betrifft es einen unbekannter Codeteil der Datei /dataSet/testTransform;swagger-ui. Mit der Manipulation des Arguments dynSentence mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [droyuu/Aj-Report-sql-CVE-2024-5356-POC](https://github.com/droyuu/Aj-Report-sql-CVE-2024-5356-POC)
+
 ### CVE-2024-5420 (2024-06-04)
 
 <code>Missing input validation in the SEH Computertechnik utnserver Pro, SEH Computertechnik utnserver ProMAX, SEH Computertechnik INU-100 web-interface allows stored Cross-Site Scripting (XSS)..This issue affects utnserver Pro, utnserver ProMAX, INU-100 version 20.1.22 and below.
@@ -18644,6 +18651,7 @@
 
 ### CVE-2022-41852
 - [Warxim/CVE-2022-41852](https://github.com/Warxim/CVE-2022-41852)
+- [xpectomas/CVE-2022-41852-Disable](https://github.com/xpectomas/CVE-2022-41852-Disable)
 
 ### CVE-2022-41853 (2022-10-06)
 
