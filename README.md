@@ -1190,7 +1190,7 @@
 <code>The WPML plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 4.6.12 via the Twig Server-Side Template Injection. This is due to missing input validation and sanitization on the render function. This makes it possible for authenticated attackers, with Contributor-level access and above, to execute code on the server.
 </code>
 
-- [Argendo/CVE-2024-6386](https://github.com/Argendo/CVE-2024-6386)
+- [argendo/CVE-2024-6386](https://github.com/argendo/CVE-2024-6386)
 
 ### CVE-2024-6387 (2024-07-01)
 
@@ -3223,6 +3223,13 @@
 - [horizon3ai/CVE-2024-29824](https://github.com/horizon3ai/CVE-2024-29824)
 - [R4be1/CVE-2024-29824](https://github.com/R4be1/CVE-2024-29824)
 
+### CVE-2024-29847 (2024-09-12)
+
+<code>Deserialization of untrusted data in the agent portal of Ivanti EPM before 2022 SU6, or the 2024 September update allows a remote unauthenticated attacker to achieve remote code execution.
+</code>
+
+- [horizon3ai/CVE-2024-29847](https://github.com/horizon3ai/CVE-2024-29847)
+
 ### CVE-2024-29849 (2024-05-22)
 
 <code>Veeam Backup Enterprise Manager allows unauthenticated users to log in as any user to enterprise manager web interface.
@@ -4827,6 +4834,12 @@
 
 - [pointedsec/CVE-2024-44541](https://github.com/pointedsec/CVE-2024-44541)
 
+### CVE-2024-44542
+- [alphandbelt/CVE-2024-44542](https://github.com/alphandbelt/CVE-2024-44542)
+
+### CVE-2024-44623
+- [merbinr/CVE-2024-44623](https://github.com/merbinr/CVE-2024-44623)
+
 ### CVE-2024-44812
 - [b1u3st0rm/CVE-2024-44812-PoC](https://github.com/b1u3st0rm/CVE-2024-44812-PoC)
 
@@ -6291,13 +6304,6 @@
 </code>
 
 - [Arszilla/CVE-2023-6538](https://github.com/Arszilla/CVE-2023-6538)
-
-### CVE-2023-6548 (2024-01-17)
-
-<code>Improper Control of Generation of Code ('Code Injection') in NetScaler ADC and NetScaler Gateway allows an attacker with access to NSIP, CLIP or SNIP with management interface to perform Authenticated (low privileged) remote code execution on Management Interface.
-</code>
-
-- [Roonye660/CVE-2023-6548-POC](https://github.com/Roonye660/CVE-2023-6548-POC)
 
 ### CVE-2023-6553 (2023-12-15)
 
@@ -25792,7 +25798,7 @@
 - [TotallyNotAHaxxer/f-for-java](https://github.com/TotallyNotAHaxxer/f-for-java)
 - [spasam/log4j2-exploit](https://github.com/spasam/log4j2-exploit)
 - [bumheehan/cve-2021-44228-log4j-test](https://github.com/bumheehan/cve-2021-44228-log4j-test)
-- [JagarYousef/log4j-dork-scanner](https://github.com/JagarYousef/log4j-dork-scanner)
+- [cergo123/log4j-dork-scanner](https://github.com/cergo123/log4j-dork-scanner)
 - [dmitsuo/log4shell-war-fixer](https://github.com/dmitsuo/log4shell-war-fixer)
 - [Y0-kan/Log4jShell-Scan](https://github.com/Y0-kan/Log4jShell-Scan)
 - [julian911015/Log4j-Scanner-Exploit](https://github.com/julian911015/Log4j-Scanner-Exploit)
