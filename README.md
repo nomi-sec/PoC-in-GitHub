@@ -973,6 +973,7 @@
 - [NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning](https://github.com/NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning)
 - [jdusane/CVE-2024-4879](https://github.com/jdusane/CVE-2024-4879)
 - [fa-rrel/CVE-2024-4879](https://github.com/fa-rrel/CVE-2024-4879)
+- [0xWhoami35/CVE-2024-4879](https://github.com/0xWhoami35/CVE-2024-4879)
 
 ### CVE-2024-4883 (2024-06-25)
 
@@ -1118,6 +1119,7 @@
 <code>The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.14.1 via deserialization of untrusted input from the 'give_title' parameter. This makes it possible for unauthenticated attackers to inject a PHP Object. The additional presence of a POP chain allows attackers to execute code remotely, and to delete arbitrary files.
 </code>
 
+- [0xb0mb3r/CVE-2024-5932-PoC](https://github.com/0xb0mb3r/CVE-2024-5932-PoC)
 - [EQSTLab/CVE-2024-5932](https://github.com/EQSTLab/CVE-2024-5932)
 
 ### CVE-2024-5947 (2024-06-13)
@@ -20567,6 +20569,7 @@
 - [SamTruss/LMU-CVE-2021-3156](https://github.com/SamTruss/LMU-CVE-2021-3156)
 - [lypd0/CVE-2021-3156-checker](https://github.com/lypd0/CVE-2021-3156-checker)
 - [Typical0day/CVE-2021-3156](https://github.com/Typical0day/CVE-2021-3156)
+- [acidburn2049/CVE-2021-3156](https://github.com/acidburn2049/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -25402,7 +25405,6 @@
 <code>MinIO is a Kubernetes native application for cloud storage. Prior to version `RELEASE.2021-12-27T07-23-18Z`, a malicious client can hand-craft an HTTP API call that allows for updating policy for a user and gaining higher privileges. The patch in version `RELEASE.2021-12-27T07-23-18Z` changes the accepted request body type and removes the ability to apply policy changes through this API. There is a workaround for this vulnerability: Changing passwords can be disabled by adding an explicit `Deny` rule to disable the API for users.
 </code>
 
-- [0rx1/cve-2021-43858](https://github.com/0rx1/cve-2021-43858)
 - [khuntor/CVE-2021-43858-MinIO](https://github.com/khuntor/CVE-2021-43858-MinIO)
 
 ### CVE-2021-43883 (2021-12-15)
