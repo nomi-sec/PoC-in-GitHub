@@ -417,6 +417,7 @@
 - [HussainFathy/CVE-2024-1709](https://github.com/HussainFathy/CVE-2024-1709)
 - [sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass](https://github.com/sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass)
 - [cjybao/CVE-2024-1709-and-CVE-2024-1708](https://github.com/cjybao/CVE-2024-1709-and-CVE-2024-1708)
+- [AhmedMansour93/Event-ID-229-Rule-Name-SOC262-CVE-2024-1709-](https://github.com/AhmedMansour93/Event-ID-229-Rule-Name-SOC262-CVE-2024-1709-)
 
 ### CVE-2024-1781 (2024-02-23)
 
@@ -934,6 +935,8 @@
 - [bughuntar/CVE-2024-4577](https://github.com/bughuntar/CVE-2024-4577)
 - [fa-rrel/CVE-2024-4577-RCE](https://github.com/fa-rrel/CVE-2024-4577-RCE)
 - [ywChen-NTUST/PHP-CGI-RCE-Scanner](https://github.com/ywChen-NTUST/PHP-CGI-RCE-Scanner)
+- [AhmedMansour93/Event-ID-268-Rule-Name-SOC292-Possible-PHP-Injection-Detected-CVE-2024-4577-](https://github.com/AhmedMansour93/Event-ID-268-Rule-Name-SOC292-Possible-PHP-Injection-Detected-CVE-2024-4577-)
+- [phirojshah/CVE-2024-4577](https://github.com/phirojshah/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -2558,7 +2561,11 @@
 - [thetrueartist/ABO.CMS-Login-SQLi-CVE-2024-25227](https://github.com/thetrueartist/ABO.CMS-Login-SQLi-CVE-2024-25227)
 - [thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227](https://github.com/thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227)
 
-### CVE-2024-25270
+### CVE-2024-25270 (2024-09-12)
+
+<code>An issue in Mirapolis LMS 4.6.XX allows authenticated users to exploit an Insecure Direct Object Reference (IDOR) vulnerability by manipulating the ID parameter and increment STEP parameter, leading to the exposure of sensitive user data.
+</code>
+
 - [fbkcs/CVE-2024-25270](https://github.com/fbkcs/CVE-2024-25270)
 
 ### CVE-2024-25277
@@ -8120,6 +8127,13 @@
 - [uthrasri/CVE-2023-28588_Singlefile](https://github.com/uthrasri/CVE-2023-28588_Singlefile)
 - [uthrasri/G2.5_CVE-2023-28588](https://github.com/uthrasri/G2.5_CVE-2023-28588)
 - [uthrasri/CVE-2023-28588_G2.5_singlefile](https://github.com/uthrasri/CVE-2023-28588_G2.5_singlefile)
+
+### CVE-2023-28753 (2023-05-18)
+
+<code>netconsd prior to v0.2 was vulnerable to an integer overflow in its parse_packet function. A malicious individual could leverage this overflow to create heap memory corruption with attacker controlled data.
+</code>
+
+- [pingjuiliao/CVE-2023-28753](https://github.com/pingjuiliao/CVE-2023-28753)
 
 ### CVE-2023-28771 (2023-04-25)
 
@@ -36752,7 +36766,7 @@
 <code>VMware ESXi 6.7 without ESXi670-201811401-BG and VMware ESXi 6.5 without ESXi650-201811301-BG, VMware ESXi 6.0 without ESXi600-201811401-BG, VMware Workstation 15, VMware Workstation 14.1.3 or below, VMware Fusion 11, VMware Fusion 10.1.3 or below contain uninitialized stack memory usage in the vmxnet3 virtual network adapter which may allow a guest to execute code on the host.
 </code>
 
-- [siovador/vmxnet3Hunter](https://github.com/siovador/vmxnet3Hunter)
+- [LxKxC/vmxnet3Hunter](https://github.com/LxKxC/vmxnet3Hunter)
 
 ### CVE-2018-7171 (2018-03-30)
 
