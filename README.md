@@ -510,6 +510,7 @@
 </code>
 
 - [c0d3zilla/CVE-2024-2876](https://github.com/c0d3zilla/CVE-2024-2876)
+- [Quantum-Hacker/CVE-2024-2876](https://github.com/Quantum-Hacker/CVE-2024-2876)
 
 ### CVE-2024-2879 (2024-04-03)
 
@@ -1005,6 +1006,7 @@
 - [banditzCyber0x/CVE-2024-4956](https://github.com/banditzCyber0x/CVE-2024-4956)
 - [xungzzz/CVE-2024-4956](https://github.com/xungzzz/CVE-2024-4956)
 - [erickfernandox/CVE-2024-4956](https://github.com/erickfernandox/CVE-2024-4956)
+- [gmh5225/CVE-2024-4956](https://github.com/gmh5225/CVE-2024-4956)
 - [thinhap/CVE-2024-4956-PoC](https://github.com/thinhap/CVE-2024-4956-PoC)
 - [yagyuufellinluvv/CVE-2024-4956](https://github.com/yagyuufellinluvv/CVE-2024-4956)
 - [GoatSecurity/CVE-2024-4956](https://github.com/GoatSecurity/CVE-2024-4956)
@@ -6859,6 +6861,13 @@
 - [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
 
+### CVE-2023-21739 (2023-01-10)
+
+<code>Windows Bluetooth Driver Elevation of Privilege Vulnerability
+</code>
+
+- [gmh5225/CVE-2023-21739](https://github.com/gmh5225/CVE-2023-21739)
+
 ### CVE-2023-21742 (2023-01-10)
 
 <code>Microsoft SharePoint Server Remote Code Execution Vulnerability
@@ -7363,6 +7372,13 @@
 - [julesbozouklian/PoC_CVE-2023-24055](https://github.com/julesbozouklian/PoC_CVE-2023-24055)
 - [digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess)
 - [zwlsix/KeePass-CVE-2023-24055](https://github.com/zwlsix/KeePass-CVE-2023-24055)
+
+### CVE-2023-24059 (2023-01-22)
+
+<code>Grand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023.
+</code>
+
+- [gmh5225/CVE-2023-24059](https://github.com/gmh5225/CVE-2023-24059)
 
 ### CVE-2023-24078 (2023-02-17)
 
@@ -17628,6 +17644,13 @@
 
 - [Halcy0nic/CVE-2022-34556](https://github.com/Halcy0nic/CVE-2022-34556)
 
+### CVE-2022-34683 (2022-12-30)
+
+<code>NVIDIA GPU Display Driver for Windows contains a vulnerability in the kernel mode layer (nvlddmkm.sys) handler for DxgkDdiEscape, where a null-pointer dereference occurs, which may lead to denial of service.
+</code>
+
+- [gmh5225/CVE-2022-34683](https://github.com/gmh5225/CVE-2022-34683)
+
 ### CVE-2022-34715 (2022-08-09)
 
 <code>Windows Network File System Remote Code Execution Vulnerability
@@ -17770,6 +17793,7 @@
 <code>SQLite 1.0.12 through 3.39.x before 3.39.2 sometimes allows an array-bounds overflow if billions of bytes are used in a string argument to a C API.
 </code>
 
+- [gmh5225/CVE-2022-35737](https://github.com/gmh5225/CVE-2022-35737)
 - [rvermeulen/codeql-cve-2022-35737](https://github.com/rvermeulen/codeql-cve-2022-35737)
 
 ### CVE-2022-35841 (2022-09-13)
@@ -18576,6 +18600,13 @@
 - [g-gill24/WinRE-Patch](https://github.com/g-gill24/WinRE-Patch)
 - [dsn1321/KB5025175-CVE-2022-41099](https://github.com/dsn1321/KB5025175-CVE-2022-41099)
 
+### CVE-2022-41114 (2022-11-09)
+
+<code>Windows Bind Filter Driver Elevation of Privilege Vulnerability
+</code>
+
+- [gmh5225/CVE-2022-41114](https://github.com/gmh5225/CVE-2022-41114)
+
 ### CVE-2022-41218 (2022-09-21)
 
 <code>In drivers/media/dvb-core/dmxdev.c in the Linux kernel through 5.19.10, there is a use-after-free caused by refcount races, affecting dvb_demux_open and dvb_dmxdev_release.
@@ -19119,6 +19150,9 @@
 </code>
 
 - [j00sean/CVE-2022-44666](https://github.com/j00sean/CVE-2022-44666)
+
+### CVE-2022-44721
+- [gmh5225/CVE-2022-44721-CsFalconUninstaller](https://github.com/gmh5225/CVE-2022-44721-CsFalconUninstaller)
 
 ### CVE-2022-44789 (2022-11-23)
 
@@ -29603,7 +29637,7 @@
 
 - [YutuSec/Apisix_Crack](https://github.com/YutuSec/Apisix_Crack)
 - [K3ysTr0K3R/CVE-2020-13945-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2020-13945-EXPLOIT)
-- [Pixelcraftch/CVE-2020-13945-EXPLOIT](https://github.com/Pixelcraftch/CVE-2020-13945-EXPLOIT)
+- [x0root/CVE-2020-13945-EXPLOIT](https://github.com/x0root/CVE-2020-13945-EXPLOIT)
 
 ### CVE-2020-13957 (2020-10-13)
 
