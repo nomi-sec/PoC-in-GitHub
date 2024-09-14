@@ -1423,6 +1423,13 @@
 
 - [realbotnet/CVE-2024-8277](https://github.com/realbotnet/CVE-2024-8277)
 
+### CVE-2024-8504 (2024-09-10)
+
+<code>An attacker with authenticated access to VICIdial as an &quot;agent&quot; can execute arbitrary shell commands as the &quot;root&quot; user. This attack can be chained with CVE-2024-8503 to execute arbitrary shell commands starting from an unauthenticated perspective.
+</code>
+
+- [Chocapikk/CVE-2024-8504](https://github.com/Chocapikk/CVE-2024-8504)
+
 ### CVE-2024-8517 (2024-09-06)
 
 <code>SPIP before 4.3.2, 4.2.16, and \n4.1.18 is vulnerable to a command injection issue. A \nremote and unauthenticated attacker can execute arbitrary operating system commands by sending a crafted multipart file upload HTTP request.
