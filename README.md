@@ -2923,6 +2923,7 @@
 </code>
 
 - [MuhammadWaseem29/SSRF-Exploit-CVE-2024-27564](https://github.com/MuhammadWaseem29/SSRF-Exploit-CVE-2024-27564)
+- [Quantum-Hacker/CVE-2024-27564](https://github.com/Quantum-Hacker/CVE-2024-27564)
 
 ### CVE-2024-27619 (2024-03-29)
 
@@ -3987,7 +3988,7 @@
 <code>PrestaShop is an open source e-commerce web application. A cross-site scripting (XSS) vulnerability that only affects PrestaShops with customer-thread feature flag enabled is present starting from PrestaShop 8.1.0 and prior to PrestaShop 8.1.6. When the customer thread feature flag is enabled through the front-office contact form, a hacker can upload a malicious file containing an XSS that will be executed when an admin opens the attached file in back office. The script injected can access the session and the security token, which allows it to perform any authenticated action in the scope of the administrator's right. This vulnerability is patched in 8.1.6. A workaround is to disable the customer-thread feature-flag.
 </code>
 
-- [aelmokhtar/CVE-2024-34716_PoC](https://github.com/aelmokhtar/CVE-2024-34716_PoC)
+- [aelmokhtar/CVE-2024-34716](https://github.com/aelmokhtar/CVE-2024-34716)
 
 ### CVE-2024-34831 (2024-09-10)
 
@@ -5042,6 +5043,7 @@
 - [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
 - [JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297)
 - [overgrowncarrot1/CVE-2023-0297](https://github.com/overgrowncarrot1/CVE-2023-0297)
+- [btar1gan/exploit_CVE-2023-0297](https://github.com/btar1gan/exploit_CVE-2023-0297)
 
 ### CVE-2023-0315 (2023-01-16)
 
@@ -31259,6 +31261,7 @@
 </code>
 
 - [synacktiv/CVE-2020-27950](https://github.com/synacktiv/CVE-2020-27950)
+- [lyonzon2/browser-crash-tool](https://github.com/lyonzon2/browser-crash-tool)
 
 ### CVE-2020-27955 (2020-11-05)
 
