@@ -271,6 +271,7 @@
 - [Matrexdz/CVE-2024-1071](https://github.com/Matrexdz/CVE-2024-1071)
 - [Matrexdz/CVE-2024-1071-Docker](https://github.com/Matrexdz/CVE-2024-1071-Docker)
 - [fa-rrel/CVE-2024-1071-SQL-Injection](https://github.com/fa-rrel/CVE-2024-1071-SQL-Injection)
+- [Dogu589/WordPress-Exploit-CVE-2024-1071](https://github.com/Dogu589/WordPress-Exploit-CVE-2024-1071)
 
 ### CVE-2024-1086 (2024-01-31)
 
@@ -2078,6 +2079,7 @@
 - [BBD-YZZ/CVE-2024-23692](https://github.com/BBD-YZZ/CVE-2024-23692)
 - [0x20c/CVE-2024-23692-EXP](https://github.com/0x20c/CVE-2024-23692-EXP)
 - [pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692](https://github.com/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692)
+- [verylazytech/CVE-2024-23692](https://github.com/verylazytech/CVE-2024-23692)
 
 ### CVE-2024-23705 (2024-05-07)
 
@@ -2914,6 +2916,13 @@
 </code>
 
 - [secunnix/CVE-2024-27518](https://github.com/secunnix/CVE-2024-27518)
+
+### CVE-2024-27564 (2024-03-05)
+
+<code>A Server-Side Request Forgery (SSRF) in pictureproxy.php of ChatGPT commit f9f4bbc allows attackers to force the application to make arbitrary requests via injection of crafted URLs into the urlparameter.
+</code>
+
+- [MuhammadWaseem29/SSRF-Exploit-CVE-2024-27564](https://github.com/MuhammadWaseem29/SSRF-Exploit-CVE-2024-27564)
 
 ### CVE-2024-27619 (2024-03-29)
 
@@ -4373,6 +4382,13 @@
 </code>
 
 - [Florian-Hoth/CVE-2024-38100-RCE-POC](https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC)
+
+### CVE-2024-38127 (2024-08-13)
+
+<code>Windows Hyper-V Elevation of Privilege Vulnerability
+</code>
+
+- [pwndorei/CVE-2024-38127](https://github.com/pwndorei/CVE-2024-38127)
 
 ### CVE-2024-38189 (2024-08-13)
 
