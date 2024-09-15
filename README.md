@@ -24919,6 +24919,13 @@
 
 - [0xRaw/CVE-2021-42183](https://github.com/0xRaw/CVE-2021-42183)
 
+### CVE-2021-42205 (2022-11-07)
+
+<code>ELAN Miniport touchpad Windows driver before 24.21.51.2, as used in PC hardware from multiple manufacturers, allows local users to cause a system crash by sending a certain IOCTL request, because that request is handled twice.
+</code>
+
+- [gmh5225/CVE-2021-42205](https://github.com/gmh5225/CVE-2021-42205)
+
 ### CVE-2021-42230 (2022-04-15)
 
 <code>Seowon 130-SLC router all versions as of 2021-09-15 is vulnerable to Remote Code Execution via the queriesCnt parameter.
@@ -25456,7 +25463,6 @@
 <code>Gerapy is a distributed crawler management framework. Gerapy prior to version 0.9.8 is vulnerable to remote code execution, and this issue is patched in version 0.9.8.
 </code>
 
-- [LongWayHomie/CVE-2021-43857](https://github.com/LongWayHomie/CVE-2021-43857)
 - [lowkey0808/CVE-2021-43857](https://github.com/lowkey0808/CVE-2021-43857)
 
 ### CVE-2021-43858 (2021-12-27)
@@ -31693,6 +31699,13 @@
 </code>
 
 - [ghillert/boot-jackson-cve](https://github.com/ghillert/boot-jackson-cve)
+
+### CVE-2020-36603 (2020-10-15)
+
+<code>The HoYoVerse (formerly miHoYo) Genshin Impact mhyprot2.sys 1.0.0.0 anti-cheat driver does not adequately restrict unprivileged function calls, allowing local, unprivileged users to execute arbitrary code with SYSTEM privileges on Microsoft Windows systems. The mhyprot2.sys driver must first be installed by a user with administrative privileges.
+</code>
+
+- [gmh5225/CVE-2020-36603](https://github.com/gmh5225/CVE-2020-36603)
 
 ### CVE-2020-36730 (2023-06-07)
 
@@ -43180,6 +43193,7 @@
 </code>
 
 - [Tare05/Intel-CVE-2015-2291](https://github.com/Tare05/Intel-CVE-2015-2291)
+- [gmh5225/CVE-2015-2291](https://github.com/gmh5225/CVE-2015-2291)
 
 ### CVE-2015-2315 (2015-03-17)
 
@@ -46454,6 +46468,7 @@
 <code>Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.
 </code>
 
+- [gmh5225/CVE-2003-0358](https://github.com/gmh5225/CVE-2003-0358)
 - [fengjixuchui/CVE-2003-0358](https://github.com/fengjixuchui/CVE-2003-0358)
 
 
