@@ -3249,6 +3249,7 @@
 </code>
 
 - [horizon3ai/CVE-2024-29847](https://github.com/horizon3ai/CVE-2024-29847)
+- [sinsinology/CVE-2024-29847](https://github.com/sinsinology/CVE-2024-29847)
 
 ### CVE-2024-29849 (2024-05-22)
 
@@ -20801,6 +20802,7 @@
 - [smallkill/CVE-2021-3493](https://github.com/smallkill/CVE-2021-3493)
 - [ptkhai15/OverlayFS---CVE-2021-3493](https://github.com/ptkhai15/OverlayFS---CVE-2021-3493)
 - [iamz24/CVE-2021-3493_CVE-2022-3357](https://github.com/iamz24/CVE-2021-3493_CVE-2022-3357)
+- [fathallah17/OverlayFS---CVE-2021-3493](https://github.com/fathallah17/OverlayFS---CVE-2021-3493)
 
 ### CVE-2021-3516 (2021-06-01)
 
@@ -21702,7 +21704,6 @@
 - [aaminin/CVE-2021-22214](https://github.com/aaminin/CVE-2021-22214)
 - [Vulnmachines/gitlab-cve-2021-22214](https://github.com/Vulnmachines/gitlab-cve-2021-22214)
 - [antx-code/CVE-2021-22214](https://github.com/antx-code/CVE-2021-22214)
-- [kh4sh3i/GitLab-SSRF-CVE-2021-22214](https://github.com/kh4sh3i/GitLab-SSRF-CVE-2021-22214)
 
 ### CVE-2021-22555 (2021-07-04)
 
@@ -42846,6 +42847,7 @@
 </code>
 
 - [rvizx/CVE-2016-10924](https://github.com/rvizx/CVE-2016-10924)
+- [LGenAgul/Wordpress-ebook-CVE-2016-10924](https://github.com/LGenAgul/Wordpress-ebook-CVE-2016-10924)
 
 ### CVE-2016-10956 (2019-09-16)
 
