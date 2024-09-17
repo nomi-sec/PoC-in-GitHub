@@ -470,6 +470,13 @@
 
 - [douglasbuzatto/G3-Loop-DoS](https://github.com/douglasbuzatto/G3-Loop-DoS)
 
+### CVE-2024-2188 (2024-03-05)
+
+<code>Cross-Site Scripting (XSS) vulnerability stored in TP-Link Archer AX50 affecting firmware version 1.0.11 build 2022052. This vulnerability could allow an unauthenticated attacker to create a port mapping rule via a SOAP request and store a malicious JavaScript payload within that rule, which could result in an execution of the JavaScript payload when the rule is loaded.
+</code>
+
+- [hacefresko/CVE-2024-2188](https://github.com/hacefresko/CVE-2024-2188)
+
 ### CVE-2024-2193 (2024-03-15)
 
 <code>A Speculative Race Condition (SRC) vulnerability that impacts modern CPU architectures supporting speculative execution (related to Spectre V1) has been disclosed. An unauthenticated attacker can exploit this vulnerability to disclose arbitrary data from the CPU using race conditions to access the speculative executable code paths.
@@ -1433,6 +1440,7 @@
 </code>
 
 - [bi-zone/CVE-2024-7965](https://github.com/bi-zone/CVE-2024-7965)
+- [maybeheisenberg/CVE-2024-7965-exploit](https://github.com/maybeheisenberg/CVE-2024-7965-exploit)
 
 ### CVE-2024-8190 (2024-09-10)
 
@@ -1447,6 +1455,9 @@
 </code>
 
 - [realbotnet/CVE-2024-8277](https://github.com/realbotnet/CVE-2024-8277)
+
+### CVE-2024-8349
+- [karlemilnikka/CVE-2024-8349-and-CVE-2024-8350](https://github.com/karlemilnikka/CVE-2024-8349-and-CVE-2024-8350)
 
 ### CVE-2024-8504 (2024-09-10)
 
@@ -4883,6 +4894,7 @@
 
 ### CVE-2024-44346
 - [Shauryae1337/CVE-2024-44346](https://github.com/Shauryae1337/CVE-2024-44346)
+- [sahil3276/CVE-2024-44346](https://github.com/sahil3276/CVE-2024-44346)
 
 ### CVE-2024-44450
 - [VoidSecOrg/CVE-2024-44450](https://github.com/VoidSecOrg/CVE-2024-44450)
@@ -4955,13 +4967,6 @@
 </code>
 
 - [0xbhsu/CVE-2024-45058](https://github.com/0xbhsu/CVE-2024-45058)
-
-### CVE-2024-45163 (2024-08-22)
-
-<code>The Mirai botnet through 2024-08-19 mishandles simultaneous TCP connections to the CNC (command and control) server. Unauthenticated sessions remain open, causing resource consumption. For example, an attacker can send a recognized username (such as root), or can send arbitrary data.
-</code>
-
-- [0romos/CVE-2024-45163](https://github.com/0romos/CVE-2024-45163)
 
 ### CVE-2024-45241 (2024-08-26)
 
@@ -17891,7 +17896,6 @@
 - [0xGabe/CVE-2022-35914](https://github.com/0xGabe/CVE-2022-35914)
 - [Johnermac/CVE-2022-35914](https://github.com/Johnermac/CVE-2022-35914)
 - [allendemoura/CVE-2022-35914](https://github.com/allendemoura/CVE-2022-35914)
-- [0romos/CVE-2022-35914](https://github.com/0romos/CVE-2022-35914)
 - [noxlumens/CVE-2022-35914_poc](https://github.com/noxlumens/CVE-2022-35914_poc)
 
 ### CVE-2022-35919 (2022-08-01)
@@ -21163,7 +21167,7 @@
 <code>TP-Link Tapo C200 IP camera, on its 1.1.15 firmware version and below, is affected by an unauthenticated RCE vulnerability, present in the uhttpd binary running by default as root. The exploitation of this vulnerability allows an attacker to take full control of the camera.
 </code>
 
-- [hacefresko/CVE-2021-4045-PoC](https://github.com/hacefresko/CVE-2021-4045-PoC)
+- [hacefresko/CVE-2021-4045](https://github.com/hacefresko/CVE-2021-4045)
 - [jeffbezosispogg/CVE-2021-4045](https://github.com/jeffbezosispogg/CVE-2021-4045)
 - [pl4int3xt/CVE-2021-4045](https://github.com/pl4int3xt/CVE-2021-4045)
 
@@ -21747,6 +21751,7 @@
 - [aaminin/CVE-2021-22214](https://github.com/aaminin/CVE-2021-22214)
 - [Vulnmachines/gitlab-cve-2021-22214](https://github.com/Vulnmachines/gitlab-cve-2021-22214)
 - [antx-code/CVE-2021-22214](https://github.com/antx-code/CVE-2021-22214)
+- [kh4sh3i/GitLab-SSRF-CVE-2021-22214](https://github.com/kh4sh3i/GitLab-SSRF-CVE-2021-22214)
 
 ### CVE-2021-22555 (2021-07-07)
 
@@ -24950,7 +24955,6 @@
 - [12345qwert123456/CVE-2021-42013](https://github.com/12345qwert123456/CVE-2021-42013)
 - [cybfar/cve-2021-42013-httpd](https://github.com/cybfar/cve-2021-42013-httpd)
 - [vudala/CVE-2021-42013](https://github.com/vudala/CVE-2021-42013)
-- [birdlinux/CVE-2021-42013](https://github.com/birdlinux/CVE-2021-42013)
 - [Hamesawian/CVE-2021-42013](https://github.com/Hamesawian/CVE-2021-42013)
 - [K3ysTr0K3R/CVE-2021-42013-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-42013-EXPLOIT)
 - [BassoNicolas/CVE-2021-42013](https://github.com/BassoNicolas/CVE-2021-42013)
@@ -28816,7 +28820,6 @@
 - [ambalabanov/CVE-2020-9496](https://github.com/ambalabanov/CVE-2020-9496)
 - [s4dbrd/CVE-2020-9496](https://github.com/s4dbrd/CVE-2020-9496)
 - [Ly0nt4r/CVE-2020-9496](https://github.com/Ly0nt4r/CVE-2020-9496)
-- [birdlinux/CVE-2020-9496](https://github.com/birdlinux/CVE-2020-9496)
 
 ### CVE-2020-9547 (2020-03-02)
 
@@ -29799,7 +29802,6 @@
 
 - [c0brabaghdad1/CVE-2020-14179](https://github.com/c0brabaghdad1/CVE-2020-14179)
 - [mrnazu/CVE-2020-14179](https://github.com/mrnazu/CVE-2020-14179)
-- [0romos/CVE-2020-14179](https://github.com/0romos/CVE-2020-14179)
 
 ### CVE-2020-14181 (2020-09-17)
 
