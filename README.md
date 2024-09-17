@@ -1501,13 +1501,6 @@
 - [nettitude/CVE-2024-20356](https://github.com/nettitude/CVE-2024-20356)
 - [SherllyNeo/CVE_2024_20356](https://github.com/SherllyNeo/CVE_2024_20356)
 
-### CVE-2024-20399 (2024-07-01)
-
-<code>A vulnerability in the CLI of Cisco NX-OS Software could allow an authenticated, local attacker to execute arbitrary commands as root on the underlying operating system of an affected device.\r\n\r This vulnerability is due to insufficient validation of arguments that are passed to specific configuration CLI commands. An attacker could exploit this vulnerability by including crafted input as the argument of an affected configuration CLI command. A successful exploit could allow the attacker to execute arbitrary commands on the underlying operating system with the privileges of root.\r\n\r Note: To successfully exploit this vulnerability on a Cisco NX-OS device, an attacker must have Administrator credentials.
-</code>
-
-- [Blootus/CVE-2024-20399-Cisco-RCE](https://github.com/Blootus/CVE-2024-20399-Cisco-RCE)
-
 ### CVE-2024-20404 (2024-06-05)
 
 <code>A vulnerability in the web-based management interface of Cisco Finesse could allow an unauthenticated, remote attacker to conduct an SSRF attack on an affected system.\r\n\r This vulnerability is due to insufficient validation of user-supplied input for specific HTTP requests that are sent to an affected system. An attacker could exploit this vulnerability by sending a crafted HTTP request to the affected device. A successful exploit could allow the attacker to obtain limited sensitive information for services that are associated to the affected device.
@@ -8120,7 +8113,7 @@
 </code>
 
 - [Y3A/CVE-2023-28229](https://github.com/Y3A/CVE-2023-28229)
-- [pxcs/CrackKeyIso](https://github.com/pxcs/CrackKeyIso)
+- [byt3n33dl3/CrackKeyIso](https://github.com/byt3n33dl3/CrackKeyIso)
 
 ### CVE-2023-28231 (2023-04-11)
 
@@ -8146,7 +8139,7 @@
 - [Danasuley/CVE-2023-28252-](https://github.com/Danasuley/CVE-2023-28252-)
 - [bkstephen/Compiled-PoC-Binary-For-CVE-2023-28252](https://github.com/bkstephen/Compiled-PoC-Binary-For-CVE-2023-28252)
 - [duck-sec/CVE-2023-28252-Compiled-exe](https://github.com/duck-sec/CVE-2023-28252-Compiled-exe)
-- [pxcs/CLFS](https://github.com/pxcs/CLFS)
+- [byt3n33dl3/CLFS](https://github.com/byt3n33dl3/CLFS)
 - [Vulmatch/CVE-2023-28252](https://github.com/Vulmatch/CVE-2023-28252)
 
 ### CVE-2023-28324 (2023-06-30)
@@ -14015,7 +14008,7 @@
 </code>
 
 - [Wh04m1001/CVE-2022-3368](https://github.com/Wh04m1001/CVE-2022-3368)
-- [pxcs/CrackAVFee](https://github.com/pxcs/CrackAVFee)
+- [byt3n33dl3/CrackAVFee](https://github.com/byt3n33dl3/CrackAVFee)
 
 ### CVE-2022-3464 (2022-10-12)
 
