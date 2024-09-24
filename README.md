@@ -7104,6 +7104,13 @@
 
 - [Avento/CVE-2023-21971_Analysis](https://github.com/Avento/CVE-2023-21971_Analysis)
 
+### CVE-2023-21987 (2023-04-18)
+
+<code>Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).  Supported versions that are affected are Prior to 6.1.44 and  Prior to 7.0.8. Difficult to exploit vulnerability allows low privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H).
+</code>
+
+- [chunzhennn/cve-2023-21987-poc](https://github.com/chunzhennn/cve-2023-21987-poc)
+
 ### CVE-2023-22074 (2023-10-17)
 
 <code>Vulnerability in the Oracle Database Sharding component of Oracle Database Server.  Supported versions that are affected are 19.3-19.20 and  21.3-21.11. Easily exploitable vulnerability allows high privileged attacker having Create Session, Select Any Dictionary privilege with network access via Oracle Net to compromise Oracle Database Sharding.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Database Sharding. CVSS 3.1 Base Score 2.4 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:N/A:L).
