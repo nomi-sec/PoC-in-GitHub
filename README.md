@@ -5082,6 +5082,9 @@
 ### CVE-2024-46986
 - [vidura2/CVE-2024-46986](https://github.com/vidura2/CVE-2024-46986)
 
+### CVE-2024-47066
+- [l8BL/CVE-2024-47066](https://github.com/l8BL/CVE-2024-47066)
+
 ### CVE-2024-56662
 - [nimosec/cve-2024-56662](https://github.com/nimosec/cve-2024-56662)
 
@@ -46422,6 +46425,99 @@
 
 
 ## 2006
+### CVE-2006-0450 (2006-01-27)
+
+<code>phpBB 2.0.19 and earlier allows remote attackers to cause a denial of service (application crash) by (1) registering many users through profile.php or (2) using search.php to search in a certain way that confuses the database.
+</code>
+
+- [Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities](https://github.com/Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities)
+
+### CVE-2006-0987 (2006-03-03)
+
+<code>The default configuration of ISC BIND before 9.4.1-P1, when configured as a caching name server, allows recursive queries and provides additional delegation information to arbitrary IP addresses, which allows remote attackers to cause a denial of service (traffic amplification) via DNS queries with spoofed source IP addresses.
+</code>
+
+- [pcastagnaro/dns_amplification_scanner](https://github.com/pcastagnaro/dns_amplification_scanner)
+
+### CVE-2006-1236 (2006-03-15)
+
+<code>Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
+</code>
+
+- [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
+
+### CVE-2006-2842 (2006-06-06)
+
+<code>PHP remote file inclusion vulnerability in functions/plugin.php in SquirrelMail 1.4.6 and earlier, if register_globals is enabled and magic_quotes_gpc is disabled, allows remote attackers to execute arbitrary PHP code via a URL in the plugins array parameter.  NOTE: this issue has been disputed by third parties, who state that Squirrelmail provides prominent warnings to the administrator when register_globals is enabled.  Since the varieties of administrator negligence are uncountable, perhaps this type of issue should not be included in CVE.  However, the original developer has posted a security advisory, so there might be relevant real-world environments under which this vulnerability is applicable
+</code>
+
+- [karthi-the-hacker/CVE-2006-2842](https://github.com/karthi-the-hacker/CVE-2006-2842)
+
+### CVE-2006-3392 (2006-07-06)
+
+<code>Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
+</code>
+
+- [0xtz/CVE-2006-3392](https://github.com/0xtz/CVE-2006-3392)
+- [IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392)
+- [Adel-kaka-dz/CVE-2006-3392](https://github.com/Adel-kaka-dz/CVE-2006-3392)
+- [gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin)
+- [kernel-cyber/CVE-2006-3392](https://github.com/kernel-cyber/CVE-2006-3392)
+- [g1vi/CVE-2006-3392](https://github.com/g1vi/CVE-2006-3392)
+- [MrEmpy/CVE-2006-3392](https://github.com/MrEmpy/CVE-2006-3392)
+
+### CVE-2006-3592 (2006-07-14)
+
+<code>Unspecified vulnerability in the command line interface (CLI) in Cisco Unified CallManager (CUCM) 5.0(1) through 5.0(3a) allows local users to execute arbitrary commands with elevated privileges via unspecified vectors, involving &quot;certain CLI commands,&quot; aka bug CSCse11005.
+</code>
+
+- [adenkiewicz/CVE-2006-3592](https://github.com/adenkiewicz/CVE-2006-3592)
+
+### CVE-2006-3747 (2006-07-28)
+
+<code>Off-by-one error in the ldap scheme handling in the Rewrite module (mod_rewrite) in Apache 1.3 from 1.3.28, 2.0.46 and other versions before 2.0.59, and 2.2, when RewriteEngine is enabled, allows remote attackers to cause a denial of service (application crash) and possibly execute arbitrary code via crafted URLs that are not properly handled using certain rewrite rules.
+</code>
+
+- [defensahacker/CVE-2006-3747](https://github.com/defensahacker/CVE-2006-3747)
+
+### CVE-2006-4777 (2006-09-14)
+
+<code>Heap-based buffer overflow in the DirectAnimation Path Control (DirectAnimation.PathControl) COM object (daxctle.ocx) for Internet Explorer 6.0 SP1, on Chinese and possibly other Windows distributions, allows remote attackers to execute arbitrary code via unknown manipulations in arguments to the KeyFrame method, possibly related to an integer overflow, as demonstrated by daxctle2, and a different vulnerability than CVE-2006-4446.
+</code>
+
+- [Mario1234/js-driveby-download-CVE-2006-4777](https://github.com/Mario1234/js-driveby-download-CVE-2006-4777)
+
+### CVE-2006-4814 (2006-12-20)
+
+<code>The mincore function in the Linux kernel before 2.4.33.6 does not properly lock access to user space, which has unspecified impact and attack vectors, possibly related to a deadlock.
+</code>
+
+- [tagatac/linux-CVE-2006-4814](https://github.com/tagatac/linux-CVE-2006-4814)
+
+### CVE-2006-5051 (2006-09-27)
+
+<code>Signal handler race condition in OpenSSH before 4.4 allows remote attackers to cause a denial of service (crash), and possibly execute arbitrary code if GSSAPI authentication is enabled, via unspecified vectors that lead to a double-free.
+</code>
+
+- [bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387)
+- [sardine-web/CVE-2024-6387_Check](https://github.com/sardine-web/CVE-2024-6387_Check)
+- [ThemeHackers/CVE-2024-6387](https://github.com/ThemeHackers/CVE-2024-6387)
+
+### CVE-2006-6184 (2006-12-01)
+
+<code>Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
+</code>
+
+- [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
+- [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
+
+### CVE-2006-20001 (2023-01-17)
+
+<code>A carefully crafted If: request header can cause a memory read, or write of a single zero byte, in a pool (heap) memory location beyond the header value sent. This could cause the process to crash.\n\nThis issue affects Apache HTTP Server 2.4.54 and earlier.\n
+</code>
+
+- [Saksham2002/CVE-2006-20001](https://github.com/Saksham2002/CVE-2006-20001)
+
 
 ## 2005
 ### CVE-2005-0575 (2005-02-27)
@@ -46757,6 +46853,38 @@
 
 
 ## 2000
+### CVE-2000-0114 (2000-02-08)
+
+<code>Frontpage Server Extensions allows remote attackers to determine the name of the anonymous account via an RPC POST request to shtml.dll in the /_vti_bin/ virtual directory.
+</code>
+
+- [Cappricio-Securities/CVE-2000-0114](https://github.com/Cappricio-Securities/CVE-2000-0114)
+- [Josekutty-K/frontpage-server-extensions-vulnerability-scanner](https://github.com/Josekutty-K/frontpage-server-extensions-vulnerability-scanner)
+- [adhamelhansye/CVE-2000-0114](https://github.com/adhamelhansye/CVE-2000-0114)
+
+### CVE-2000-0170 (2000-04-10)
+
+<code>Buffer overflow in the man program in Linux allows local users to gain privileges via the MANPAGER environmental variable.
+</code>
+
+- [mike182/exploit](https://github.com/mike182/exploit)
+
+### CVE-2000-0649 (2000-08-03)
+
+<code>IIS 4.0 allows remote attackers to obtain the internal IP address of the server via an HTTP 1.0 request for a web page which is protected by basic authentication and has no realm defined.
+</code>
+
+- [rafaelh/CVE-2000-0649](https://github.com/rafaelh/CVE-2000-0649)
+- [stevenvegar/cve-2000-0649](https://github.com/stevenvegar/cve-2000-0649)
+- [Downgraderz/PoC-CVE-2000-0649](https://github.com/Downgraderz/PoC-CVE-2000-0649)
+
+### CVE-2000-0979 (2001-01-22)
+
+<code>File and Print Sharing service in Windows 95, Windows 98, and Windows Me does not properly check the password for a file share, which allows remote attackers to bypass share access controls by sending a 1-byte password that matches the first character of the real password, aka the &quot;Share Level Password&quot; vulnerability.
+</code>
+
+- [Z6543/CVE-2000-0979](https://github.com/Z6543/CVE-2000-0979)
+
 
 ## 1999
 ### CVE-1999-0016 (1999-09-29)
