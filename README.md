@@ -1396,6 +1396,7 @@
 </code>
 
 - [rxerium/CVE-2024-7593](https://github.com/rxerium/CVE-2024-7593)
+- [D3N14LD15K/CVE-2024-7593_PoC_Exploit](https://github.com/D3N14LD15K/CVE-2024-7593_PoC_Exploit)
 
 ### CVE-2024-7646 (2024-08-16)
 
