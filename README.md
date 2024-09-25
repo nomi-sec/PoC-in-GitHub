@@ -357,6 +357,13 @@
 
 - [PeterGabaldon/CVE-2024-1346](https://github.com/PeterGabaldon/CVE-2024-1346)
 
+### CVE-2024-1380 (2024-03-13)
+
+<code>The Relevanssi – A Better Search plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the relevanssi_export_log_check() function in all versions up to, and including, 4.22.0. This makes it possible for unauthenticated attackers to export the query log data. The vendor has indicated that they may look into adding a capability check for proper authorization control, however, this vulnerability is theoretically patched as is.
+</code>
+
+- [RandomRobbieBF/CVE-2024-1380](https://github.com/RandomRobbieBF/CVE-2024-1380)
+
 ### CVE-2024-1403 (2024-02-27)
 
 <code>In OpenEdge Authentication Gateway and AdminServer prior to 11.7.19, 12.2.14, 12.8.1 on all platforms supported by the OpenEdge product, an authentication bypass vulnerability has been identified.  The\nvulnerability is a bypass to authentication based on a failure to properly\nhandle username and password.  Certain unexpected\ncontent passed into the credentials can lead to unauthorized access without proper\nauthentication.    \n\n\n\n\n\n\n
@@ -1400,6 +1407,9 @@
 
 - [RevoltSecurities/CVE-2024-7339](https://github.com/RevoltSecurities/CVE-2024-7339)
 
+### CVE-2024-7385
+- [nothe1senberg/CVE-2024-7385](https://github.com/nothe1senberg/CVE-2024-7385)
+
 ### CVE-2024-7593 (2024-08-13)
 
 <code>Incorrect implementation of an authentication algorithm in Ivanti vTM other than versions 22.2R1 or 22.7R2 allows a remote unauthenticated attacker to bypass authentication of the admin panel.
@@ -1407,6 +1417,9 @@
 
 - [rxerium/CVE-2024-7593](https://github.com/rxerium/CVE-2024-7593)
 - [D3N14LD15K/CVE-2024-7593_PoC_Exploit](https://github.com/D3N14LD15K/CVE-2024-7593_PoC_Exploit)
+
+### CVE-2024-7617
+- [maybeheisenberg/CVE-2024-7617](https://github.com/maybeheisenberg/CVE-2024-7617)
 
 ### CVE-2024-7646 (2024-08-16)
 
@@ -1465,6 +1478,9 @@
 
 - [horizon3ai/CVE-2024-8190](https://github.com/horizon3ai/CVE-2024-8190)
 
+### CVE-2024-8275
+- [nothe1senberg/CVE-2024-8275](https://github.com/nothe1senberg/CVE-2024-8275)
+
 ### CVE-2024-8277 (2024-09-11)
 
 <code>The WooCommerce Photo Reviews Premium plugin for WordPress is vulnerable to authentication bypass in all versions up to, and including, 1.3.13.2. This is due to the plugin not properly validating what user transient is being used in the login() function and not properly verifying the user's identity. This makes it possible for unauthenticated attackers to log in as user that has dismissed an admin notice in the past 30 days, which is often an administrator. Alternatively, a user can log in as any user with any transient that has a valid user_id as the value, though it would be more difficult to exploit this successfully.
@@ -1485,6 +1501,9 @@
 
 - [Chocapikk/CVE-2024-8504](https://github.com/Chocapikk/CVE-2024-8504)
 - [havokzero/ViciDial](https://github.com/havokzero/ViciDial)
+
+### CVE-2024-8514
+- [maybeheisenberg/CVE-2024-8514](https://github.com/maybeheisenberg/CVE-2024-8514)
 
 ### CVE-2024-8517 (2024-09-06)
 
@@ -28953,6 +28972,7 @@
 - [ColdFusionX/CVE-2020-9484](https://github.com/ColdFusionX/CVE-2020-9484)
 - [d3fudd/CVE-2020-9484_Exploit](https://github.com/d3fudd/CVE-2020-9484_Exploit)
 - [0dayCTF/CVE-2020-9484](https://github.com/0dayCTF/CVE-2020-9484)
+- [Disturbante/CVE-2020-9484](https://github.com/Disturbante/CVE-2020-9484)
 
 ### CVE-2020-9495 (2020-06-19)
 
@@ -34914,6 +34934,7 @@
 - [aamfrk/Webmin-CVE-2019-15107](https://github.com/aamfrk/Webmin-CVE-2019-15107)
 - [0x4r2/Webmin-CVE-2019-15107](https://github.com/0x4r2/Webmin-CVE-2019-15107)
 - [NasrallahBaadi/CVE-2019-15107](https://github.com/NasrallahBaadi/CVE-2019-15107)
+- [grayorwhite/CVE-2019-15107](https://github.com/grayorwhite/CVE-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
 
