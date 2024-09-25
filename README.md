@@ -1062,6 +1062,13 @@
 - [Alchemist3dot14/CVE-2024-5274-Detection](https://github.com/Alchemist3dot14/CVE-2024-5274-Detection)
 - [mistymntncop/CVE-2024-5274](https://github.com/mistymntncop/CVE-2024-5274)
 
+### CVE-2024-5324 (2024-06-06)
+
+<code>The Login/Signup Popup ( Inline Form + Woocommerce ) plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'import_settings' function in versions 2.7.1 to 2.7.2. This makes it possible for authenticated attackers, with Subscriber-level access and above, to change arbitrary options on affected sites. This can be used to enable new user registration and set the default role for new users to Administrator.
+</code>
+
+- [RandomRobbieBF/CVE-2024-5324](https://github.com/RandomRobbieBF/CVE-2024-5324)
+
 ### CVE-2024-5326 (2024-05-30)
 
 <code>The Post Grid Gutenberg Blocks and WordPress Blog Plugin – PostX plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'postx_presets_callback' function in all versions up to, and including, 4.1.2. This makes it possible for authenticated attackers, with Contributor-level access and above, to change arbitrary options on affected sites. This can be used to enable new user registration and set the default role for new users to Administrator.
@@ -1317,6 +1324,9 @@
 
 - [apena-ba/CVE-2024-6536](https://github.com/apena-ba/CVE-2024-6536)
 
+### CVE-2024-6592
+- [RedTeamPentesting/watchguard-sso-client](https://github.com/RedTeamPentesting/watchguard-sso-client)
+
 ### CVE-2024-6624 (2024-07-11)
 
 <code>The JSON API User plugin for WordPress is vulnerable to privilege escalation in all versions up to, and including, 3.9.3. This is due to improper controls on custom user meta fields. This makes it possible for unauthenticated attackers to register as administrators on the site. The plugin requires the JSON API plugin to also be installed.
@@ -1404,6 +1414,7 @@
 </code>
 
 - [r0binak/CVE-2024-7646](https://github.com/r0binak/CVE-2024-7646)
+- [dovics/cve-2024-7646](https://github.com/dovics/cve-2024-7646)
 
 ### CVE-2024-7703 (2024-08-17)
 
@@ -1463,6 +1474,9 @@
 
 ### CVE-2024-8349
 - [karlemilnikka/CVE-2024-8349-and-CVE-2024-8350](https://github.com/karlemilnikka/CVE-2024-8349-and-CVE-2024-8350)
+
+### CVE-2024-8484
+- [RandomRobbieBF/CVE-2024-8484](https://github.com/RandomRobbieBF/CVE-2024-8484)
 
 ### CVE-2024-8504 (2024-09-10)
 
@@ -3175,6 +3189,7 @@
 </code>
 
 - [fa-rrel/CVE-2024-28987-POC](https://github.com/fa-rrel/CVE-2024-28987-POC)
+- [horizon3ai/CVE-2024-28987](https://github.com/horizon3ai/CVE-2024-28987)
 
 ### CVE-2024-28991 (2024-09-12)
 
@@ -4521,6 +4536,7 @@
 </code>
 
 - [weliveby/cve-2024-38816-demo](https://github.com/weliveby/cve-2024-38816-demo)
+- [masa42/CVE-2024-38816-PoC](https://github.com/masa42/CVE-2024-38816-PoC)
 
 ### CVE-2024-38856 (2024-08-05)
 
@@ -4931,6 +4947,9 @@
 
 - [KTN1990/CVE-2024-43918](https://github.com/KTN1990/CVE-2024-43918)
 
+### CVE-2024-43998
+- [RandomRobbieBF/CVE-2024-43998](https://github.com/RandomRobbieBF/CVE-2024-43998)
+
 ### CVE-2024-44000
 - [absholi7ly/CVE-2024-44000-LiteSpeed-Cache](https://github.com/absholi7ly/CVE-2024-44000-LiteSpeed-Cache)
 - [gbrsh/CVE-2024-44000](https://github.com/gbrsh/CVE-2024-44000)
@@ -5079,6 +5098,9 @@
 </code>
 
 - [vidura2/CVE-2024-46451](https://github.com/vidura2/CVE-2024-46451)
+
+### CVE-2024-46627
+- [d4lyw/CVE-2024-46627](https://github.com/d4lyw/CVE-2024-46627)
 
 ### CVE-2024-46986
 - [vidura2/CVE-2024-46986](https://github.com/vidura2/CVE-2024-46986)
@@ -22169,6 +22191,13 @@
 - [dikalasenjadatang/CVE-2021-24917](https://github.com/dikalasenjadatang/CVE-2021-24917)
 - [Cappricio-Securities/CVE-2021-24917](https://github.com/Cappricio-Securities/CVE-2021-24917)
 
+### CVE-2021-24959 (2022-03-14)
+
+<code>The WP Email Users WordPress plugin through 1.7.6 does not escape the data_raw parameter in the weu_selected_users_1 AJAX action, available to any authenticated users, allowing them to perform SQL injection attacks.
+</code>
+
+- [RandomRobbieBF/CVE-2021-24959](https://github.com/RandomRobbieBF/CVE-2021-24959)
+
 ### CVE-2021-25003 (2022-03-14)
 
 <code>The WPCargo Track &amp; Trace WordPress plugin before 6.9.0 contains a file which could allow unauthenticated attackers to write a PHP file anywhere on the web server, leading to RCE
@@ -25206,7 +25235,6 @@
 </code>
 
 - [kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-](https://github.com/kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-)
-- [Mr-xn/CVE-2021-42342](https://github.com/Mr-xn/CVE-2021-42342)
 - [ijh4723/-zeroboo-Gohead-CVE-2021-42342-1](https://github.com/ijh4723/-zeroboo-Gohead-CVE-2021-42342-1)
 
 ### CVE-2021-42362 (2021-11-17)
@@ -42006,7 +42034,7 @@
 <code>Exim before 4.86.2, when installed setuid root, allows local users to gain privileges via the perl_startup argument.
 </code>
 
-- [N3rdyN3xus/CVE-2016-1531](https://github.com/N3rdyN3xus/CVE-2016-1531)
+- [NyxByt3/CVE-2016-1531](https://github.com/NyxByt3/CVE-2016-1531)
 
 ### CVE-2016-1542 (2016-06-13)
 
@@ -43292,8 +43320,8 @@
 - [bongbongco/MS15-034](https://github.com/bongbongco/MS15-034)
 - [aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC)
 - [limkokholefork/CVE-2015-1635](https://github.com/limkokholefork/CVE-2015-1635)
-- [N3rdyN3xus/CVE-2015-1635-POC](https://github.com/N3rdyN3xus/CVE-2015-1635-POC)
-- [N3rdyN3xus/CVE-2015-1635](https://github.com/N3rdyN3xus/CVE-2015-1635)
+- [NyxByt3/CVE-2015-1635-POC](https://github.com/NyxByt3/CVE-2015-1635-POC)
+- [NyxByt3/CVE-2015-1635](https://github.com/NyxByt3/CVE-2015-1635)
 - [w01ke/CVE-2015-1635-POC](https://github.com/w01ke/CVE-2015-1635-POC)
 - [SkinAir/ms15-034-Scan](https://github.com/SkinAir/ms15-034-Scan)
 - [Cappricio-Securities/CVE-2015-1635](https://github.com/Cappricio-Securities/CVE-2015-1635)
@@ -43792,7 +43820,7 @@
 </code>
 
 - [G01d3nW01f/CVE-2015-6668](https://github.com/G01d3nW01f/CVE-2015-6668)
-- [N3rdyN3xus/CVE-2015-6668](https://github.com/N3rdyN3xus/CVE-2015-6668)
+- [NyxByt3/CVE-2015-6668](https://github.com/NyxByt3/CVE-2015-6668)
 - [jimdiroffii/CVE-2015-6668](https://github.com/jimdiroffii/CVE-2015-6668)
 
 ### CVE-2015-6748 (2017-09-25)
@@ -44113,7 +44141,7 @@
 - [ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us)
 - [BelminD/heartbleed](https://github.com/BelminD/heartbleed)
 - [pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart)
-- [N3rdyN3xus/CVE-2014-0160_Heartbleed](https://github.com/N3rdyN3xus/CVE-2014-0160_Heartbleed)
+- [NyxByt3/CVE-2014-0160_Heartbleed](https://github.com/NyxByt3/CVE-2014-0160_Heartbleed)
 - [GardeniaWhite/fuzzing](https://github.com/GardeniaWhite/fuzzing)
 - [undacmic/heartbleed-proof-of-concept](https://github.com/undacmic/heartbleed-proof-of-concept)
 - [cbk914/heartbleed-checker](https://github.com/cbk914/heartbleed-checker)
@@ -45596,7 +45624,7 @@
 </code>
 
 - [Madusanka99/OHTS](https://github.com/Madusanka99/OHTS)
-- [N3rdyN3xus/CVE-2011-1249](https://github.com/N3rdyN3xus/CVE-2011-1249)
+- [NyxByt3/CVE-2011-1249](https://github.com/NyxByt3/CVE-2011-1249)
 
 ### CVE-2011-1473 (2012-06-16)
 
@@ -46050,7 +46078,7 @@
 </code>
 
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
-- [N3rdyN3xus/CVE-2009-2265](https://github.com/N3rdyN3xus/CVE-2009-2265)
+- [NyxByt3/CVE-2009-2265](https://github.com/NyxByt3/CVE-2009-2265)
 - [p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265)
 - [0xConstant/CVE-2009-2265](https://github.com/0xConstant/CVE-2009-2265)
 
@@ -46349,7 +46377,7 @@
 - [mr-l0n3lly/CVE-2007-2447](https://github.com/mr-l0n3lly/CVE-2007-2447)
 - [HerculesRD/PyUsernameMapScriptRCE](https://github.com/HerculesRD/PyUsernameMapScriptRCE)
 - [Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447)
-- [N3rdyN3xus/CVE-2007-2447](https://github.com/N3rdyN3xus/CVE-2007-2447)
+- [NyxByt3/CVE-2007-2447](https://github.com/NyxByt3/CVE-2007-2447)
 - [bdunlap9/CVE-2007-2447_python](https://github.com/bdunlap9/CVE-2007-2447_python)
 - [MikeRega7/CVE-2007-2447-RCE](https://github.com/MikeRega7/CVE-2007-2447-RCE)
 - [0xTabun/CVE-2007-2447](https://github.com/0xTabun/CVE-2007-2447)
@@ -46634,7 +46662,7 @@
 <code>distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.
 </code>
 
-- [N3rdyN3xus/distccd_rce_CVE-2004-2687](https://github.com/N3rdyN3xus/distccd_rce_CVE-2004-2687)
+- [NyxByt3/distccd_rce_CVE-2004-2687](https://github.com/NyxByt3/distccd_rce_CVE-2004-2687)
 - [k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687)
 - [ss0wl/CVE-2004-2687_distcc_v1](https://github.com/ss0wl/CVE-2004-2687_distcc_v1)
 
