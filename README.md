@@ -1480,6 +1480,7 @@
 
 ### CVE-2024-8275
 - [nothe1senberg/CVE-2024-8275](https://github.com/nothe1senberg/CVE-2024-8275)
+- [p33d/CVE-2024-8275](https://github.com/p33d/CVE-2024-8275)
 
 ### CVE-2024-8277 (2024-09-11)
 
@@ -1526,6 +1527,9 @@
 </code>
 
 - [D3anSPGDMS/CVE-2024-8752](https://github.com/D3anSPGDMS/CVE-2024-8752)
+
+### CVE-2024-9014
+- [EQSTLab/CVE-2024-9014](https://github.com/EQSTLab/CVE-2024-9014)
 
 ### CVE-2024-9043
 - [maybeheisenberg/CVE-2024-9043](https://github.com/maybeheisenberg/CVE-2024-9043)
@@ -5100,6 +5104,9 @@
 </code>
 
 - [SpiralBL0CK/CVE-2024-45383](https://github.com/SpiralBL0CK/CVE-2024-45383)
+
+### CVE-2024-45410
+- [jphetphoumy/traefik-CVE-2024-45410-poc](https://github.com/jphetphoumy/traefik-CVE-2024-45410-poc)
 
 ### CVE-2024-45507 (2024-09-04)
 
@@ -32839,6 +32846,13 @@
 
 - [warferik/CVE-2019-3980](https://github.com/warferik/CVE-2019-3980)
 - [Barbarisch/CVE-2019-3980](https://github.com/Barbarisch/CVE-2019-3980)
+
+### CVE-2019-4650 (2020-06-26)
+
+<code>IBM Maximo Asset Management 7.6.1.1 is vulnerable to SQL injection. A remote attacker could send specially-crafted SQL statements, which could allow the attacker to view, add, modify or delete information in the back-end database. IBM X-Force ID: 170961.
+</code>
+
+- [aneeshanilkumar89/Maximo_Sql_Injection-CVE-2019-4650](https://github.com/aneeshanilkumar89/Maximo_Sql_Injection-CVE-2019-4650)
 
 ### CVE-2019-5010 (2019-10-31)
 
