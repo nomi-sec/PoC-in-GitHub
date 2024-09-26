@@ -1035,6 +1035,7 @@
 - [fin3ss3g0d/CVE-2024-4956](https://github.com/fin3ss3g0d/CVE-2024-4956)
 - [verylazytech/CVE-2024-4956](https://github.com/verylazytech/CVE-2024-4956)
 - [JolyIrsb/CVE-2024-4956](https://github.com/JolyIrsb/CVE-2024-4956)
+- [UMASANKAR-MG/Path-Traversal-CVE-2024-4956](https://github.com/UMASANKAR-MG/Path-Traversal-CVE-2024-4956)
 
 ### CVE-2024-5009 (2024-06-25)
 
@@ -19129,7 +19130,6 @@
 - [pwnb0y/Text4shell-exploit](https://github.com/pwnb0y/Text4shell-exploit)
 - [gokul-ramesh/text4shell-exploit](https://github.com/gokul-ramesh/text4shell-exploit)
 - [f0ng/text4shellburpscanner](https://github.com/f0ng/text4shellburpscanner)
-- [WFS-Mend/vtrade-common](https://github.com/WFS-Mend/vtrade-common)
 - [devenes/text4shell-cve-2022-42889](https://github.com/devenes/text4shell-cve-2022-42889)
 - [hotblac/text4shell](https://github.com/hotblac/text4shell)
 - [necroteddy/CVE-2022-42889](https://github.com/necroteddy/CVE-2022-42889)
@@ -19338,6 +19338,7 @@
 - [Vagebondcur/IMAGE-MAGICK-CVE-2022-44268](https://github.com/Vagebondcur/IMAGE-MAGICK-CVE-2022-44268)
 - [NataliSemi/-CVE-2022-44268](https://github.com/NataliSemi/-CVE-2022-44268)
 - [CygnusX-26/CVE-2022-44268-fixed-PoC](https://github.com/CygnusX-26/CVE-2022-44268-fixed-PoC)
+- [PanAdamski/CVE-2022-44268-automated](https://github.com/PanAdamski/CVE-2022-44268-automated)
 - [FlojBoj/CVE-2022-44268](https://github.com/FlojBoj/CVE-2022-44268)
 
 ### CVE-2022-44276 (2023-06-28)
