@@ -4489,6 +4489,13 @@
 
 - [vx7z/CVE-2024-38189](https://github.com/vx7z/CVE-2024-38189)
 
+### CVE-2024-38200 (2024-08-08)
+
+<code>Microsoft Office Spoofing Vulnerability
+</code>
+
+- [passtheticket/CVE-2024-38200](https://github.com/passtheticket/CVE-2024-38200)
+
 ### CVE-2024-38366 (2024-07-01)
 
 <code>trunk.cocoapods.org is the authentication server for the CoacoaPods dependency manager. The part of trunk which verifies whether a user has a real email address on signup used a rfc-822 library which executes a shell command to validate the email domain MX records validity. It works via an DNS MX. This lookup could be manipulated to also execute a command on the trunk server, effectively giving root access to the server and the infrastructure. This issue was patched server-side with commit 001cc3a430e75a16307f5fd6cdff1363ad2f40f3 in September 2023. This RCE triggered a full user-session reset, as an attacker could have used this method to write to any Podspec in trunk.
@@ -37861,13 +37868,6 @@
 
 - [MrTaherAmine/CVE-2018-10583](https://github.com/MrTaherAmine/CVE-2018-10583)
 - [octodi/CVE-2018-10583](https://github.com/octodi/CVE-2018-10583)
-
-### CVE-2018-10678 (2018-05-13)
-
-<code>MyBB 1.8.15, when accessed with Microsoft Edge, mishandles 'target=&quot;_blank&quot; rel=&quot;noopener&quot;' in A elements, which makes it easier for remote attackers to conduct redirection attacks.
-</code>
-
-- [hbranco/CVE-2018-10678](https://github.com/hbranco/CVE-2018-10678)
 
 ### CVE-2018-10715
 - [alt3kx/CVE-2018-10715](https://github.com/alt3kx/CVE-2018-10715)
