@@ -2718,6 +2718,12 @@
 
 - [Ox130e07d/CVE-2024-25381](https://github.com/Ox130e07d/CVE-2024-25381)
 
+### CVE-2024-25411
+- [paragbagul111/CVE-2024-25411](https://github.com/paragbagul111/CVE-2024-25411)
+
+### CVE-2024-25412
+- [paragbagul111/CVE-2024-25412](https://github.com/paragbagul111/CVE-2024-25412)
+
 ### CVE-2024-25423 (2024-02-22)
 
 <code>An issue in MAXON CINEMA 4D R2024.2.0 allows a local attacker to execute arbitrary code via a crafted c4d_base.xdl64 file.
@@ -3595,6 +3601,9 @@
 
 - [Chocapikk/CVE-2024-31819](https://github.com/Chocapikk/CVE-2024-31819)
 - [Jhonsonwannaa/CVE-2024-31819](https://github.com/Jhonsonwannaa/CVE-2024-31819)
+
+### CVE-2024-31835
+- [paragbagul111/CVE-2024-31835](https://github.com/paragbagul111/CVE-2024-31835)
 
 ### CVE-2024-31848 (2024-04-05)
 
@@ -5144,6 +5153,9 @@
 
 - [vidura2/CVE-2024-46451](https://github.com/vidura2/CVE-2024-46451)
 
+### CVE-2024-46532
+- [KamenRiderDarker/CVE-2024-46532](https://github.com/KamenRiderDarker/CVE-2024-46532)
+
 ### CVE-2024-46627
 - [d4lyw/CVE-2024-46627](https://github.com/d4lyw/CVE-2024-46627)
 
@@ -5155,6 +5167,7 @@
 
 ### CVE-2024-47176
 - [GO0dspeed/spill](https://github.com/GO0dspeed/spill)
+- [workabhiwin09/CVE-2024-47176](https://github.com/workabhiwin09/CVE-2024-47176)
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
@@ -19113,13 +19126,13 @@
 <code>Apache Commons Text performs variable interpolation, allowing properties to be dynamically evaluated and expanded. The standard format for interpolation is &quot;${prefix:name}&quot;, where &quot;prefix&quot; is used to locate an instance of org.apache.commons.text.lookup.StringLookup that performs the interpolation. Starting with version 1.5 and continuing through 1.9, the set of default Lookup instances included interpolators that could result in arbitrary code execution or contact with remote servers. These lookups are: - &quot;script&quot; - execute expressions using the JVM script execution engine (javax.script) - &quot;dns&quot; - resolve dns records - &quot;url&quot; - load values from urls, including from remote servers Applications using the interpolation defaults in the affected versions may be vulnerable to remote code execution or unintentional contact with remote servers if untrusted configuration values are used. Users are recommended to upgrade to Apache Commons Text 1.10.0, which disables the problematic interpolators by default.
 </code>
 
-- [0xst4n/CVE-2022-42889](https://github.com/0xst4n/CVE-2022-42889)
 - [SeanWrightSec/CVE-2022-42889-PoC](https://github.com/SeanWrightSec/CVE-2022-42889-PoC)
 - [chainguard-dev/text4shell-policy](https://github.com/chainguard-dev/text4shell-policy)
 - [tulhan/commons-text-goat](https://github.com/tulhan/commons-text-goat)
 - [karthikuj/cve-2022-42889-text4shell-docker](https://github.com/karthikuj/cve-2022-42889-text4shell-docker)
 - [ClickCyber/cve-2022-42889](https://github.com/ClickCyber/cve-2022-42889)
 - [korteke/CVE-2022-42889-POC](https://github.com/korteke/CVE-2022-42889-POC)
+- [rockmelodies/CVE-2022-42889](https://github.com/rockmelodies/CVE-2022-42889)
 - [eunomie/cve-2022-42889-check](https://github.com/eunomie/cve-2022-42889-check)
 - [kljunowsky/CVE-2022-42889-text4shell](https://github.com/kljunowsky/CVE-2022-42889-text4shell)
 - [securekomodo/text4shell-scan](https://github.com/securekomodo/text4shell-scan)
@@ -19579,13 +19592,6 @@
 - [scabench/jsonorg-fp2](https://github.com/scabench/jsonorg-fp2)
 - [scabench/jsonorg-fp3](https://github.com/scabench/jsonorg-fp3)
 - [scabench/jsonorg-fn1](https://github.com/scabench/jsonorg-fn1)
-
-### CVE-2022-45699 (2023-02-10)
-
-<code>Command injection in the administration interface in APSystems ECU-R version 5203 allows a remote unauthenticated attacker to execute arbitrary commands as root using the timezone parameter.
-</code>
-
-- [0xst4n/APSystems-ECU-R-RCE-Timezone](https://github.com/0xst4n/APSystems-ECU-R-RCE-Timezone)
 
 ### CVE-2022-45701 (2023-02-17)
 
@@ -25876,7 +25882,7 @@
 - [OopsieWoopsie/mc-log4j-patcher](https://github.com/OopsieWoopsie/mc-log4j-patcher)
 - [wheez-y/CVE-2021-44228-kusto](https://github.com/wheez-y/CVE-2021-44228-kusto)
 - [izzyacademy/log4shell-mitigation](https://github.com/izzyacademy/log4shell-mitigation)
-- [0xst4n/CVE-2021-44228-poc](https://github.com/0xst4n/CVE-2021-44228-poc)
+- [Kadantte/CVE-2021-44228-poc](https://github.com/Kadantte/CVE-2021-44228-poc)
 - [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
 - [winnpixie/log4noshell](https://github.com/winnpixie/log4noshell)
 - [Azeemering/CVE-2021-44228-DFIR-Notes](https://github.com/Azeemering/CVE-2021-44228-DFIR-Notes)
