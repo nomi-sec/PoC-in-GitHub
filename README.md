@@ -1363,6 +1363,9 @@
 
 - [fortra/CVE-2024-6768](https://github.com/fortra/CVE-2024-6768)
 
+### CVE-2024-6769
+- [fortra/CVE-2024-6769](https://github.com/fortra/CVE-2024-6769)
+
 ### CVE-2024-6782 (2024-08-06)
 
 <code>Improper access control in Calibre 6.9.0 ~ 7.14.0 allow unauthenticated attackers to achieve remote code execution.
@@ -10636,6 +10639,7 @@
 - [MaorBuskila/Windows-X64-RAT](https://github.com/MaorBuskila/Windows-X64-RAT)
 - [yezzfusl/cve_2023_38831_scanner](https://github.com/yezzfusl/cve_2023_38831_scanner)
 - [FirFirdaus/CVE-2023-38831](https://github.com/FirFirdaus/CVE-2023-38831)
+- [ra3edAJ/LAB-DFIR-cve-2023-38831](https://github.com/ra3edAJ/LAB-DFIR-cve-2023-38831)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -19295,6 +19299,7 @@
 </code>
 
 - [yerodin/CVE-2022-44149](https://github.com/yerodin/CVE-2022-44149)
+- [geniuszlyy/CVE-2022-44149](https://github.com/geniuszlyy/CVE-2022-44149)
 
 ### CVE-2022-44183 (2022-11-21)
 
@@ -19577,6 +19582,7 @@
 </code>
 
 - [yerodin/CVE-2022-45701](https://github.com/yerodin/CVE-2022-45701)
+- [geniuszlyy/CVE-2022-45701](https://github.com/geniuszlyy/CVE-2022-45701)
 
 ### CVE-2022-45728 (2023-01-12)
 
@@ -19636,6 +19642,7 @@
 </code>
 
 - [yerodin/CVE-2022-46080](https://github.com/yerodin/CVE-2022-46080)
+- [geniuszlyy/CVE-2022-46080](https://github.com/geniuszlyy/CVE-2022-46080)
 
 ### CVE-2022-46087 (2023-01-30)
 
