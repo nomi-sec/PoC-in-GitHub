@@ -29009,6 +29009,7 @@
 - [d3fudd/CVE-2020-9484_Exploit](https://github.com/d3fudd/CVE-2020-9484_Exploit)
 - [0dayCTF/CVE-2020-9484](https://github.com/0dayCTF/CVE-2020-9484)
 - [Disturbante/CVE-2020-9484](https://github.com/Disturbante/CVE-2020-9484)
+- [deathquote/CVE-2020-9484](https://github.com/deathquote/CVE-2020-9484)
 
 ### CVE-2020-9495 (2020-06-19)
 
