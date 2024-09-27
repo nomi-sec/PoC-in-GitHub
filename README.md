@@ -1491,7 +1491,7 @@
 <code>The WooCommerce Photo Reviews Premium plugin for WordPress is vulnerable to authentication bypass in all versions up to, and including, 1.3.13.2. This is due to the plugin not properly validating what user transient is being used in the login() function and not properly verifying the user's identity. This makes it possible for unauthenticated attackers to log in as user that has dismissed an admin notice in the past 30 days, which is often an administrator. Alternatively, a user can log in as any user with any transient that has a valid user_id as the value, though it would be more difficult to exploit this successfully.
 </code>
 
-- [realbotnet/CVE-2024-8277](https://github.com/realbotnet/CVE-2024-8277)
+- [PolatBey/CVE-2024-8277](https://github.com/PolatBey/CVE-2024-8277)
 
 ### CVE-2024-8349
 - [karlemilnikka/CVE-2024-8349-and-CVE-2024-8350](https://github.com/karlemilnikka/CVE-2024-8349-and-CVE-2024-8350)
@@ -1522,7 +1522,6 @@
 <code>The LearnPress – WordPress LMS Plugin plugin for WordPress is vulnerable to SQL Injection via the 'c_only_fields' parameter of the /wp-json/learnpress/v1/courses REST API endpoint in all versions up to, and including, 4.2.7 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 </code>
 
-- [realbotnet/CVE-2024-8522](https://github.com/realbotnet/CVE-2024-8522)
 - [Avento/CVE-2024-8522](https://github.com/Avento/CVE-2024-8522)
 
 ### CVE-2024-8752 (2024-09-16)
@@ -3689,6 +3688,9 @@
 - [tiyeume25112004/CVE-2024-32002](https://github.com/tiyeume25112004/CVE-2024-32002)
 - [chrisWalker11/running-CVE-2024-32002-locally-for-tesing](https://github.com/chrisWalker11/running-CVE-2024-32002-locally-for-tesing)
 - [sanan2004/CVE-2024-32002](https://github.com/sanan2004/CVE-2024-32002)
+- [Masamuneee/hook](https://github.com/Masamuneee/hook)
+- [Masamuneee/CVE-2024-32002-POC](https://github.com/Masamuneee/CVE-2024-32002-POC)
+- [th4s1s/CVE-2024-32002-PoC](https://github.com/th4s1s/CVE-2024-32002-PoC)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -5129,6 +5131,9 @@
 
 - [BenRogozinski/CVE-2024-45589](https://github.com/BenRogozinski/CVE-2024-45589)
 
+### CVE-2024-46256
+- [barttran2k/POC_CVE-2024-46256](https://github.com/barttran2k/POC_CVE-2024-46256)
+
 ### CVE-2024-46377
 - [vidura2/CVE-2024-46377](https://github.com/vidura2/CVE-2024-46377)
 
@@ -5147,6 +5152,12 @@
 
 ### CVE-2024-47066
 - [l8BL/CVE-2024-47066](https://github.com/l8BL/CVE-2024-47066)
+
+### CVE-2024-47176
+- [GO0dspeed/spill](https://github.com/GO0dspeed/spill)
+
+### CVE-2024-47177
+- [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
 
 ### CVE-2024-56662
 - [nimosec/cve-2024-56662](https://github.com/nimosec/cve-2024-56662)
