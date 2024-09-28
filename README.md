@@ -3841,6 +3841,12 @@
 - [FaLLenSKiLL1/CVE-2024-33113](https://github.com/FaLLenSKiLL1/CVE-2024-33113)
 - [tekua/CVE-2024-33113](https://github.com/tekua/CVE-2024-33113)
 
+### CVE-2024-33209
+- [paragbagul111/CVE-2024-33209](https://github.com/paragbagul111/CVE-2024-33209)
+
+### CVE-2024-33210
+- [paragbagul111/CVE-2024-33210](https://github.com/paragbagul111/CVE-2024-33210)
+
 ### CVE-2024-33352
 - [mmiszczyk/CVE-2024-33352](https://github.com/mmiszczyk/CVE-2024-33352)
 
@@ -4257,6 +4263,7 @@
 </code>
 
 - [phtcloud-dev/CVE-2024-36837](https://github.com/phtcloud-dev/CVE-2024-36837)
+- [lhc321-source/CVE-2024-36837](https://github.com/lhc321-source/CVE-2024-36837)
 
 ### CVE-2024-36842
 - [abbiy/Backdooring-Oncord-Android-Sterio-](https://github.com/abbiy/Backdooring-Oncord-Android-Sterio-)
@@ -5132,6 +5139,7 @@
 
 ### CVE-2024-45519
 - [TOB1a3/CVE-2024-45519-PoC](https://github.com/TOB1a3/CVE-2024-45519-PoC)
+- [p33d/CVE-2024-45519](https://github.com/p33d/CVE-2024-45519)
 
 ### CVE-2024-45589 (2024-09-05)
 
