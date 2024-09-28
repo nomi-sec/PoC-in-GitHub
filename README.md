@@ -5168,6 +5168,7 @@
 ### CVE-2024-47176
 - [GO0dspeed/spill](https://github.com/GO0dspeed/spill)
 - [workabhiwin09/CVE-2024-47176](https://github.com/workabhiwin09/CVE-2024-47176)
+- [tonyarris/CVE-2024-47176-Scanner](https://github.com/tonyarris/CVE-2024-47176-Scanner)
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
@@ -10664,6 +10665,7 @@
 - [yezzfusl/cve_2023_38831_scanner](https://github.com/yezzfusl/cve_2023_38831_scanner)
 - [FirFirdaus/CVE-2023-38831](https://github.com/FirFirdaus/CVE-2023-38831)
 - [ra3edAJ/LAB-DFIR-cve-2023-38831](https://github.com/ra3edAJ/LAB-DFIR-cve-2023-38831)
+- [technicalcorp2/CVE-2023-38831-exploit-generator](https://github.com/technicalcorp2/CVE-2023-38831-exploit-generator)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -38778,7 +38780,6 @@
 - [wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763)
 - [NyxByt3/CVE-2018-16763](https://github.com/NyxByt3/CVE-2018-16763)
 - [BrunoPincho/cve-2018-16763-rust](https://github.com/BrunoPincho/cve-2018-16763-rust)
-- [Luigi31415/CVE-2018-16763](https://github.com/Luigi31415/CVE-2018-16763)
 - [p0dalirius/CVE-2018-16763-FuelCMS-1.4.1-RCE](https://github.com/p0dalirius/CVE-2018-16763-FuelCMS-1.4.1-RCE)
 - [not1cyyy/CVE-2018-16763](https://github.com/not1cyyy/CVE-2018-16763)
 - [antisecc/CVE-2018-16763](https://github.com/antisecc/CVE-2018-16763)
