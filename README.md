@@ -2625,6 +2625,7 @@
 - [Jutrm/cve-2024-24919](https://github.com/Jutrm/cve-2024-24919)
 - [LuisMateo1/Arbitrary-File-Read-CVE-2024-24919](https://github.com/LuisMateo1/Arbitrary-File-Read-CVE-2024-24919)
 - [AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-](https://github.com/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-)
+- [geniuszlyy/CVE-2024-24919](https://github.com/geniuszlyy/CVE-2024-24919)
 
 ### CVE-2024-25092 (2024-06-09)
 
@@ -4525,6 +4526,13 @@
 </code>
 
 - [pwndorei/CVE-2024-38127](https://github.com/pwndorei/CVE-2024-38127)
+
+### CVE-2024-38144 (2024-08-13)
+
+<code>Kernel Streaming WOW Thunk Service Driver Elevation of Privilege Vulnerability
+</code>
+
+- [Dor00tkit/CVE-2024-38144](https://github.com/Dor00tkit/CVE-2024-38144)
 
 ### CVE-2024-38189 (2024-08-13)
 
@@ -15303,7 +15311,6 @@
 - [randallbanner/Spring-Cloud-Function-Vulnerability-CVE-2022-22963-RCE](https://github.com/randallbanner/Spring-Cloud-Function-Vulnerability-CVE-2022-22963-RCE)
 - [gunzf0x/CVE-2022-22963](https://github.com/gunzf0x/CVE-2022-22963)
 - [nikn0laty/RCE-in-Spring-Cloud-CVE-2022-22963](https://github.com/nikn0laty/RCE-in-Spring-Cloud-CVE-2022-22963)
-- [HenriV-V/Exploit-for-CVE-2022-22963](https://github.com/HenriV-V/Exploit-for-CVE-2022-22963)
 - [BearClaw96/CVE-2022-22963-Poc-Bearcules](https://github.com/BearClaw96/CVE-2022-22963-Poc-Bearcules)
 - [jrbH4CK/CVE-2022-22963](https://github.com/jrbH4CK/CVE-2022-22963)
 
