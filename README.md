@@ -1592,6 +1592,9 @@
 
 - [AbdElRahmanEzzat1995/CVE-2024-20405](https://github.com/AbdElRahmanEzzat1995/CVE-2024-20405)
 
+### CVE-2024-20467
+- [saler-cve/PoC-Exploit-CVE-2024-20467](https://github.com/saler-cve/PoC-Exploit-CVE-2024-20467)
+
 ### CVE-2024-20656 (2024-01-09)
 
 <code>Visual Studio Elevation of Privilege Vulnerability
@@ -5193,6 +5196,7 @@
 - [workabhiwin09/CVE-2024-47176](https://github.com/workabhiwin09/CVE-2024-47176)
 - [tonyarris/CVE-2024-47176-Scanner](https://github.com/tonyarris/CVE-2024-47176-Scanner)
 - [mr-r3b00t/CVE-2024-47176](https://github.com/mr-r3b00t/CVE-2024-47176)
+- [aytackalinci/CVE-2024-47176](https://github.com/aytackalinci/CVE-2024-47176)
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
