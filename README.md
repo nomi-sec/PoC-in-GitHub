@@ -5010,6 +5010,13 @@
 ### CVE-2024-43425
 - [RedTeamPentesting/moodle-rce-calculatedquestions](https://github.com/RedTeamPentesting/moodle-rce-calculatedquestions)
 
+### CVE-2024-43917 (2024-08-29)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in TemplateInvaders TI WooCommerce Wishlist allows SQL Injection.This issue affects TI WooCommerce Wishlist: from n/a through 2.8.2.
+</code>
+
+- [p33d/CVE-2024-43917](https://github.com/p33d/CVE-2024-43917)
+
 ### CVE-2024-43918 (2024-08-29)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WBW WBW Product Table PRO allows SQL Injection.This issue affects WBW Product Table PRO: from n/a through 1.9.4.
@@ -5165,6 +5172,9 @@
 </code>
 
 - [BenRogozinski/CVE-2024-45589](https://github.com/BenRogozinski/CVE-2024-45589)
+
+### CVE-2024-45614
+- [ooooooo-q/puma_header_normalization-CVE-2024-45614](https://github.com/ooooooo-q/puma_header_normalization-CVE-2024-45614)
 
 ### CVE-2024-46256
 - [barttran2k/POC_CVE-2024-46256](https://github.com/barttran2k/POC_CVE-2024-46256)
@@ -10693,6 +10703,7 @@
 - [yezzfusl/cve_2023_38831_scanner](https://github.com/yezzfusl/cve_2023_38831_scanner)
 - [FirFirdaus/CVE-2023-38831](https://github.com/FirFirdaus/CVE-2023-38831)
 - [ra3edAJ/LAB-DFIR-cve-2023-38831](https://github.com/ra3edAJ/LAB-DFIR-cve-2023-38831)
+- [technicalcorp0/CVE-2023-38831-Exploit](https://github.com/technicalcorp0/CVE-2023-38831-Exploit)
 - [technicalcorp2/CVE-2023-38831-exploit-generator](https://github.com/technicalcorp2/CVE-2023-38831-exploit-generator)
 
 ### CVE-2023-38836 (2023-08-21)
@@ -20834,6 +20845,7 @@
 - [Axianke/CVE-2021-3129](https://github.com/Axianke/CVE-2021-3129)
 - [cc3305/CVE-2021-3129](https://github.com/cc3305/CVE-2021-3129)
 - [piperpwn/CVE-2021-3129-](https://github.com/piperpwn/CVE-2021-3129-)
+- [0x0d3ad/CVE-2021-3129](https://github.com/0x0d3ad/CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -25324,7 +25336,6 @@
 </code>
 
 - [kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-](https://github.com/kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-)
-- [Mr-xn/CVE-2021-42342](https://github.com/Mr-xn/CVE-2021-42342)
 - [ijh4723/-zeroboo-Gohead-CVE-2021-42342-1](https://github.com/ijh4723/-zeroboo-Gohead-CVE-2021-42342-1)
 
 ### CVE-2021-42362 (2021-11-17)
