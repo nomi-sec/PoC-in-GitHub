@@ -1496,6 +1496,9 @@
 ### CVE-2024-8349
 - [karlemilnikka/CVE-2024-8349-and-CVE-2024-8350](https://github.com/karlemilnikka/CVE-2024-8349-and-CVE-2024-8350)
 
+### CVE-2024-8353
+- [maybeheisenberg/CVE-2024-8353](https://github.com/maybeheisenberg/CVE-2024-8353)
+
 ### CVE-2024-8484
 - [RandomRobbieBF/CVE-2024-8484](https://github.com/RandomRobbieBF/CVE-2024-8484)
 
@@ -5209,12 +5212,16 @@
 ### CVE-2024-47066
 - [l8BL/CVE-2024-47066](https://github.com/l8BL/CVE-2024-47066)
 
+### CVE-2024-47076
+- [mutkus/CVE-2024-47076](https://github.com/mutkus/CVE-2024-47076)
+
 ### CVE-2024-47176
 - [GO0dspeed/spill](https://github.com/GO0dspeed/spill)
 - [workabhiwin09/CVE-2024-47176](https://github.com/workabhiwin09/CVE-2024-47176)
 - [tonyarris/CVE-2024-47176-Scanner](https://github.com/tonyarris/CVE-2024-47176-Scanner)
 - [mr-r3b00t/CVE-2024-47176](https://github.com/mr-r3b00t/CVE-2024-47176)
 - [aytackalinci/CVE-2024-47176](https://github.com/aytackalinci/CVE-2024-47176)
+- [nma-io/CVE-2024-47176](https://github.com/nma-io/CVE-2024-47176)
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
@@ -6568,6 +6575,13 @@
 </code>
 
 - [illixion/root-my-webos-tv](https://github.com/illixion/root-my-webos-tv)
+
+### CVE-2023-6350 (2023-11-29)
+
+<code>Use after free in libavif in Google Chrome prior to 119.0.6045.199 allowed a remote attacker to potentially exploit heap corruption via a crafted avif file. (Chromium security severity: High)
+</code>
+
+- [dywsy21/CVE-2023-6350_Reproduction](https://github.com/dywsy21/CVE-2023-6350_Reproduction)
 
 ### CVE-2023-6444 (2024-03-11)
 
@@ -15635,6 +15649,12 @@
 </code>
 
 - [Satheesh575555/external_expat_AOSP10_r33_CVE-2022-23852](https://github.com/Satheesh575555/external_expat_AOSP10_r33_CVE-2022-23852)
+
+### CVE-2022-23861
+- [mbadanoiu/CVE-2022-23861](https://github.com/mbadanoiu/CVE-2022-23861)
+
+### CVE-2022-23862
+- [mbadanoiu/CVE-2022-23862](https://github.com/mbadanoiu/CVE-2022-23862)
 
 ### CVE-2022-23884 (2022-03-28)
 
@@ -27797,6 +27817,7 @@
 - [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
 - [Warelock/cve-2020-1938](https://github.com/Warelock/cve-2020-1938)
 - [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro)
+- [technicalcorp2/CVE-2020-1938-Exploit](https://github.com/technicalcorp2/CVE-2020-1938-Exploit)
 
 ### CVE-2020-1947 (2020-03-11)
 
