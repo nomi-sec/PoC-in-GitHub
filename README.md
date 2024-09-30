@@ -803,6 +803,7 @@
 - [olebris/CVE-2024-4040](https://github.com/olebris/CVE-2024-4040)
 - [entroychang/CVE-2024-4040](https://github.com/entroychang/CVE-2024-4040)
 - [safeer-accuknox/CrushFTP-cve-2024-4040-poc](https://github.com/safeer-accuknox/CrushFTP-cve-2024-4040-poc)
+- [geniuszlyy/GenCrushSSTIExploit](https://github.com/geniuszlyy/GenCrushSSTIExploit)
 
 ### CVE-2024-4231 (2024-05-10)
 
@@ -1491,6 +1492,9 @@
 
 ### CVE-2024-8349
 - [karlemilnikka/CVE-2024-8349-and-CVE-2024-8350](https://github.com/karlemilnikka/CVE-2024-8349-and-CVE-2024-8350)
+
+### CVE-2024-8353
+- [EQSTLab/CVE-2024-8353](https://github.com/EQSTLab/CVE-2024-8353)
 
 ### CVE-2024-8484
 - [RandomRobbieBF/CVE-2024-8484](https://github.com/RandomRobbieBF/CVE-2024-8484)
@@ -2330,6 +2334,7 @@
 - [NoSpaceAvailable/CVE-2024-23897](https://github.com/NoSpaceAvailable/CVE-2024-23897)
 - [BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety](https://github.com/BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety)
 - [ShieldAuth-PHP/PBL05-CVE-Analsys](https://github.com/ShieldAuth-PHP/PBL05-CVE-Analsys)
+- [verylazytech/CVE-2024-23897](https://github.com/verylazytech/CVE-2024-23897)
 
 ### CVE-2024-23995 (2024-04-29)
 
@@ -3226,6 +3231,7 @@
 
 - [fa-rrel/CVE-2024-28987-POC](https://github.com/fa-rrel/CVE-2024-28987-POC)
 - [horizon3ai/CVE-2024-28987](https://github.com/horizon3ai/CVE-2024-28987)
+- [PlayerFridei/CVE-2024-28987](https://github.com/PlayerFridei/CVE-2024-28987)
 
 ### CVE-2024-28995 (2024-06-06)
 
@@ -4838,6 +4844,9 @@
 - [vvpoglazov/cve-2024-41110-checker](https://github.com/vvpoglazov/cve-2024-41110-checker)
 - [PauloParoPP/CVE-2024-41110-SCAN](https://github.com/PauloParoPP/CVE-2024-41110-SCAN)
 
+### CVE-2024-41276
+- [artemy-ccrsky/CVE-2024-41276](https://github.com/artemy-ccrsky/CVE-2024-41276)
+
 ### CVE-2024-41301
 - [patrickdeanramos/CVE-2024-41301-Bookea-tu-Mesa-is-vulnerable-to-Stored-Cross-Site-Scripting](https://github.com/patrickdeanramos/CVE-2024-41301-Bookea-tu-Mesa-is-vulnerable-to-Stored-Cross-Site-Scripting)
 
@@ -5032,6 +5041,9 @@
 
 ### CVE-2024-44542
 - [alphandbelt/CVE-2024-44542](https://github.com/alphandbelt/CVE-2024-44542)
+
+### CVE-2024-44610
+- [BertoldVdb/PcanExploit](https://github.com/BertoldVdb/PcanExploit)
 
 ### CVE-2024-44623 (2024-09-16)
 
@@ -11012,6 +11024,13 @@
 </code>
 
 - [ally-petitt/CVE-2023-40362](https://github.com/ally-petitt/CVE-2023-40362)
+
+### CVE-2023-40404 (2023-10-25)
+
+<code>A use-after-free issue was addressed with improved memory management. This issue is fixed in macOS Sonoma 14.1. An app may be able to execute arbitrary code with kernel privileges.
+</code>
+
+- [geniuszlyy/GenEtherExploit](https://github.com/geniuszlyy/GenEtherExploit)
 
 ### CVE-2023-40429 (2023-09-26)
 
