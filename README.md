@@ -5126,6 +5126,9 @@
 
 - [0xbhsu/CVE-2024-45058](https://github.com/0xbhsu/CVE-2024-45058)
 
+### CVE-2024-45200
+- [latte-soft/kartlanpwn](https://github.com/latte-soft/kartlanpwn)
+
 ### CVE-2024-45241 (2024-08-26)
 
 <code>A traversal vulnerability in GeneralDocs.aspx in CentralSquare CryWolf (False Alarm Management) through 2024-08-09 allows unauthenticated attackers to read files outside of the working web directory via the rpt parameter, leading to the disclosure of sensitive information.
