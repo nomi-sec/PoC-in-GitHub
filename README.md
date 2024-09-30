@@ -10726,7 +10726,6 @@
 - [FirFirdaus/CVE-2023-38831](https://github.com/FirFirdaus/CVE-2023-38831)
 - [ra3edAJ/LAB-DFIR-cve-2023-38831](https://github.com/ra3edAJ/LAB-DFIR-cve-2023-38831)
 - [technicalcorp0/CVE-2023-38831-Exploit](https://github.com/technicalcorp0/CVE-2023-38831-Exploit)
-- [technicalcorp2/CVE-2023-38831-exploit-generator](https://github.com/technicalcorp2/CVE-2023-38831-exploit-generator)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -27817,7 +27816,6 @@
 - [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
 - [Warelock/cve-2020-1938](https://github.com/Warelock/cve-2020-1938)
 - [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro)
-- [technicalcorp2/CVE-2020-1938-Exploit](https://github.com/technicalcorp2/CVE-2020-1938-Exploit)
 
 ### CVE-2020-1947 (2020-03-11)
 
