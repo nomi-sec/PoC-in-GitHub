@@ -1422,9 +1422,6 @@
 - [rxerium/CVE-2024-7593](https://github.com/rxerium/CVE-2024-7593)
 - [D3N14LD15K/CVE-2024-7593_PoC_Exploit](https://github.com/D3N14LD15K/CVE-2024-7593_PoC_Exploit)
 
-### CVE-2024-7617
-- [maybeheisenberg/CVE-2024-7617](https://github.com/maybeheisenberg/CVE-2024-7617)
-
 ### CVE-2024-7646 (2024-08-16)
 
 <code>A security issue was discovered in ingress-nginx where an actor with permission to create Ingress objects (in the `networking.k8s.io` or `extensions` API group) can bypass annotation validation to inject arbitrary commands and obtain the credentials of the ingress-nginx controller. In the default configuration, that credential has access to all secrets in the cluster.
@@ -1473,7 +1470,6 @@
 </code>
 
 - [bi-zone/CVE-2024-7965](https://github.com/bi-zone/CVE-2024-7965)
-- [maybeheisenberg/CVE-2024-7965-exploit](https://github.com/maybeheisenberg/CVE-2024-7965-exploit)
 
 ### CVE-2024-8190 (2024-09-10)
 
@@ -1496,9 +1492,6 @@
 ### CVE-2024-8349
 - [karlemilnikka/CVE-2024-8349-and-CVE-2024-8350](https://github.com/karlemilnikka/CVE-2024-8349-and-CVE-2024-8350)
 
-### CVE-2024-8353
-- [maybeheisenberg/CVE-2024-8353](https://github.com/maybeheisenberg/CVE-2024-8353)
-
 ### CVE-2024-8484
 - [RandomRobbieBF/CVE-2024-8484](https://github.com/RandomRobbieBF/CVE-2024-8484)
 
@@ -1509,9 +1502,6 @@
 
 - [Chocapikk/CVE-2024-8504](https://github.com/Chocapikk/CVE-2024-8504)
 - [havokzero/ViciDial](https://github.com/havokzero/ViciDial)
-
-### CVE-2024-8514
-- [maybeheisenberg/CVE-2024-8514](https://github.com/maybeheisenberg/CVE-2024-8514)
 
 ### CVE-2024-8517 (2024-09-06)
 
@@ -1539,12 +1529,6 @@
 
 ### CVE-2024-9014
 - [EQSTLab/CVE-2024-9014](https://github.com/EQSTLab/CVE-2024-9014)
-
-### CVE-2024-9043
-- [maybeheisenberg/CVE-2024-9043](https://github.com/maybeheisenberg/CVE-2024-9043)
-
-### CVE-2024-9079
-- [maybeheisenberg/CVE-2024-9079](https://github.com/maybeheisenberg/CVE-2024-9079)
 
 ### CVE-2024-9080
 - [nothe1senberg/CVE-2024-9080](https://github.com/nothe1senberg/CVE-2024-9080)
@@ -3243,13 +3227,6 @@
 - [fa-rrel/CVE-2024-28987-POC](https://github.com/fa-rrel/CVE-2024-28987-POC)
 - [horizon3ai/CVE-2024-28987](https://github.com/horizon3ai/CVE-2024-28987)
 
-### CVE-2024-28991 (2024-09-12)
-
-<code>SolarWinds Access Rights Manager (ARM) was found to be susceptible to a remote code execution vulnerability. If exploited, this vulnerability would allow an authenticated user to abuse the service, resulting in remote code execution.
-</code>
-
-- [maybeheisenberg/PoC-for-CVE-2024-28991](https://github.com/maybeheisenberg/PoC-for-CVE-2024-28991)
-
 ### CVE-2024-28995 (2024-06-06)
 
 <code>\n\n\n\n\n\n\n\n\n\n\n\nSolarWinds Serv-U was susceptible to a directory transversal vulnerability that would allow access to read sensitive files on the host machine.    \n\n\n\n\n\n\n\n
@@ -4153,13 +4130,6 @@
 
 - [Gr-1m/CVE-2024-34958](https://github.com/Gr-1m/CVE-2024-34958)
 
-### CVE-2024-35205 (-)
-
-<code>The WPS Office (aka cn.wps.moffice_eng) application before 17.0.0 for Android fails to properly sanitize file names before processing them through external application interactions, leading to a form of path traversal. This potentially enables any application to dispatch a crafted library file, aiming to overwrite an existing native library utilized by WPS Office. Successful exploitation could result in the execution of arbitrary commands under the guise of WPS Office's application ID.
-</code>
-
-- [cyb3r-w0lf/Dirty_Stream-Android-POC](https://github.com/cyb3r-w0lf/Dirty_Stream-Android-POC)
-
 ### CVE-2024-35242 (2024-06-10)
 
 <code>Composer is a dependency manager for PHP. On the 2.x branch prior to versions 2.2.24 and 2.7.7, the `composer install` command running inside a git/hg repository which has specially crafted branch names can lead to command injection. This requires cloning untrusted repositories. Patches are available in version 2.2.24 for 2.2 LTS or 2.7.7 for mainline. As a workaround, avoid cloning potentially compromised repositories.\n
@@ -4608,9 +4578,6 @@
 
 - [ret2desync/CVE-2024-38793-PoC](https://github.com/ret2desync/CVE-2024-38793-PoC)
 
-### CVE-2024-38812
-- [maybeheisenberg/CVE-2024-38812](https://github.com/maybeheisenberg/CVE-2024-38812)
-
 ### CVE-2024-38816 (2024-09-13)
 
 <code>Applications serving static resources through the functional web frameworks WebMvc.fn or WebFlux.fn are vulnerable to path traversal attacks. An attacker can craft malicious HTTP requests and obtain any file on the file system that is also accessible to the process in which the Spring application is running.\n\nSpecifically, an application is vulnerable when both of the following are true:\n\n  *  the web application uses RouterFunctions to serve static resources\n  *  resource handling is explicitly configured with a FileSystemResource location\n\n\nHowever, malicious requests are blocked and rejected when any of the following is true:\n\n  *  the  Spring Security HTTP Firewall https://docs.spring.io/spring-security/reference/servlet/exploits/firewall.html  is in use\n  *  the application runs on Tomcat or Jetty
@@ -5016,7 +4983,6 @@
 </code>
 
 - [KTN1990/CVE-2024-43160](https://github.com/KTN1990/CVE-2024-43160)
-- [maybeheisenberg/PoC-for-CVE-2024-43160](https://github.com/maybeheisenberg/PoC-for-CVE-2024-43160)
 
 ### CVE-2024-43425
 - [RedTeamPentesting/moodle-rce-calculatedquestions](https://github.com/RedTeamPentesting/moodle-rce-calculatedquestions)
@@ -5216,6 +5182,7 @@
 - [l8BL/CVE-2024-47066](https://github.com/l8BL/CVE-2024-47066)
 
 ### CVE-2024-47076
+- [lkarlslund/jugular](https://github.com/lkarlslund/jugular)
 - [mutkus/CVE-2024-47076](https://github.com/mutkus/CVE-2024-47076)
 
 ### CVE-2024-47176
@@ -5228,9 +5195,6 @@
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
-
-### CVE-2024-56662
-- [nimosec/cve-2024-56662](https://github.com/nimosec/cve-2024-56662)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -5886,6 +5850,13 @@
 </code>
 
 - [TurtleARM/CVE-2023-3338-DECPwn](https://github.com/TurtleARM/CVE-2023-3338-DECPwn)
+
+### CVE-2023-3390 (2023-06-28)
+
+<code>A use-after-free vulnerability was found in the Linux kernel's netfilter subsystem in net/netfilter/nf_tables_api.c.\n\nMishandled error handling with NFT_MSG_NEWRULE makes it possible to use a dangling pointer in the same transaction causing a use-after-free vulnerability. This flaw allows a local attacker with user access to cause a privilege escalation issue.\n\nWe recommend upgrading past commit 1240eb93f0616b21c675416516ff3d74798fdc97.
+</code>
+
+- [flygonty/CVE-2023-3390_PoC](https://github.com/flygonty/CVE-2023-3390_PoC)
 
 ### CVE-2023-3450 (2023-06-28)
 
@@ -12395,7 +12366,6 @@
 - [Chocapikk/CVE-2023-46805](https://github.com/Chocapikk/CVE-2023-46805)
 - [mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped](https://github.com/mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped)
 - [w2xim3/CVE-2023-46805](https://github.com/w2xim3/CVE-2023-46805)
-- [maybeheisenberg/CVE-2023-46805](https://github.com/maybeheisenberg/CVE-2023-46805)
 
 ### CVE-2023-46813 (2023-10-27)
 
@@ -29895,6 +29865,13 @@
 
 ### CVE-2020-13457
 - [alt3kx/CVE-2020-13457](https://github.com/alt3kx/CVE-2020-13457)
+
+### CVE-2020-13519 (2020-12-18)
+
+<code>A privilege escalation vulnerability exists in the WinRing0x64 Driver IRP 0x9c402088 functionality of NZXT CAM 4.8.0. A specially crafted I/O request packet (IRP) can cause increased privileges. An attacker can send a malicious IRP to trigger this vulnerability.
+</code>
+
+- [SpiralBL0CK/poc-for-CVE-2020-13519-still-under-construction-](https://github.com/SpiralBL0CK/poc-for-CVE-2020-13519-still-under-construction-)
 
 ### CVE-2020-13640 (2020-06-18)
 
