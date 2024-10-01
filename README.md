@@ -1537,6 +1537,9 @@
 ### CVE-2024-9080
 - [nothe1senberg/CVE-2024-9080](https://github.com/nothe1senberg/CVE-2024-9080)
 
+### CVE-2024-9166
+- [Andrysqui/CVE-2024-9166](https://github.com/Andrysqui/CVE-2024-9166)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -5187,6 +5190,9 @@
 ### CVE-2024-46627
 - [d4lyw/CVE-2024-46627](https://github.com/d4lyw/CVE-2024-46627)
 
+### CVE-2024-46635
+- [h1thub/CVE-2024-46635](https://github.com/h1thub/CVE-2024-46635)
+
 ### CVE-2024-46986
 - [vidura2/CVE-2024-46986](https://github.com/vidura2/CVE-2024-46986)
 
@@ -6165,7 +6171,6 @@
 
 - [E1A/CVE-2023-4596](https://github.com/E1A/CVE-2023-4596)
 - [X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version](https://github.com/X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version)
-- [RHYru9/CVE-2023-4596-checker](https://github.com/RHYru9/CVE-2023-4596-checker)
 - [X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker](https://github.com/X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker)
 
 ### CVE-2023-4622 (2023-09-06)
@@ -12406,13 +12411,6 @@
 </code>
 
 - [Chapoly1305/CVE-2023-46870](https://github.com/Chapoly1305/CVE-2023-46870)
-
-### CVE-2023-46918 (2023-12-27)
-
-<code>Phlox com.phlox.simpleserver.plus (aka Simple HTTP Server PLUS) 1.8.1-plus has an Android manifest file that contains an entry with the android:allowBackup attribute set to true. This could be leveraged by an attacker with physical access to the device.
-</code>
-
-- [actuator/com.phlox.simpleserver](https://github.com/actuator/com.phlox.simpleserver)
 
 ### CVE-2023-46948
 - [AzraelsBlade/CVE-2023-46948](https://github.com/AzraelsBlade/CVE-2023-46948)
