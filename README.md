@@ -1108,6 +1108,7 @@
 
 - [truonghuuphuc/CVE-2024-5522-Poc](https://github.com/truonghuuphuc/CVE-2024-5522-Poc)
 - [kryptonproject/CVE-2024-5522-PoC](https://github.com/kryptonproject/CVE-2024-5522-PoC)
+- [geniuszlyy/CVE-2024-5522](https://github.com/geniuszlyy/CVE-2024-5522)
 
 ### CVE-2024-5633 (2024-07-09)
 
@@ -4852,6 +4853,9 @@
 
 ### CVE-2024-41276
 - [artemy-ccrsky/CVE-2024-41276](https://github.com/artemy-ccrsky/CVE-2024-41276)
+
+### CVE-2024-41290
+- [paragbagul111/CVE-2024-41290](https://github.com/paragbagul111/CVE-2024-41290)
 
 ### CVE-2024-41301
 - [patrickdeanramos/CVE-2024-41301-Bookea-tu-Mesa-is-vulnerable-to-Stored-Cross-Site-Scripting](https://github.com/patrickdeanramos/CVE-2024-41301-Bookea-tu-Mesa-is-vulnerable-to-Stored-Cross-Site-Scripting)
@@ -46807,6 +46811,13 @@
 
 
 ## 2003
+### CVE-2003-0001 (2003-01-08)
+
+<code>Multiple ethernet Network Interface Card (NIC) device drivers do not pad frames with null bytes, which allows remote attackers to obtain information from previous packets or kernel memory by using malformed packets, as demonstrated by Etherleak.
+</code>
+
+- [marb08/etherleak-checker](https://github.com/marb08/etherleak-checker)
+
 ### CVE-2003-0172 (2003-03-29)
 
 <code>Buffer overflow in openlog function for PHP 4.3.1 on Windows operating system, and possibly other OSes, allows remote attackers to cause a crash and possibly execute arbitrary code via a long filename argument.
