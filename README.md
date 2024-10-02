@@ -1497,6 +1497,7 @@
 ### CVE-2024-8353
 - [EQSTLab/CVE-2024-8353](https://github.com/EQSTLab/CVE-2024-8353)
 - [p33d/CVE-2024-8353](https://github.com/p33d/CVE-2024-8353)
+- [nothe1senberg/CVE-2024-8353](https://github.com/nothe1senberg/CVE-2024-8353)
 
 ### CVE-2024-8484
 - [RandomRobbieBF/CVE-2024-8484](https://github.com/RandomRobbieBF/CVE-2024-8484)
@@ -4158,6 +4159,9 @@
 
 - [KKkai0315/CVE-2024-35242](https://github.com/KKkai0315/CVE-2024-35242)
 
+### CVE-2024-35293
+- [nothe1senberg/CVE-2024-35293](https://github.com/nothe1senberg/CVE-2024-35293)
+
 ### CVE-2024-35315
 - [ewilded/CVE-2024-35315-POC](https://github.com/ewilded/CVE-2024-35315-POC)
 
@@ -5225,6 +5229,7 @@
 - [mr-r3b00t/CVE-2024-47176](https://github.com/mr-r3b00t/CVE-2024-47176)
 - [aytackalinci/CVE-2024-47176](https://github.com/aytackalinci/CVE-2024-47176)
 - [nma-io/CVE-2024-47176](https://github.com/nma-io/CVE-2024-47176)
+- [pearlmansara/CVE-2024-47176-CUPS](https://github.com/pearlmansara/CVE-2024-47176-CUPS)
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
@@ -11179,6 +11184,7 @@
 - [tiyeume25112004/CVE-2023-41425](https://github.com/tiyeume25112004/CVE-2023-41425)
 - [thefizzyfish/CVE-2023-41425-wonderCMS_RCE](https://github.com/thefizzyfish/CVE-2023-41425-wonderCMS_RCE)
 - [Raffli-Dev/CVE-2023-41425](https://github.com/Raffli-Dev/CVE-2023-41425)
+- [duck-sec/CVE-2023-41425](https://github.com/duck-sec/CVE-2023-41425)
 
 ### CVE-2023-41436 (2023-09-15)
 
@@ -35977,6 +35983,7 @@
 - [Vulnmachines/Ctirix_RCE-CVE-2019-19781](https://github.com/Vulnmachines/Ctirix_RCE-CVE-2019-19781)
 - [k-fire/CVE-2019-19781-exploit](https://github.com/k-fire/CVE-2019-19781-exploit)
 - [zerobytesecure/CVE-2019-19781](https://github.com/zerobytesecure/CVE-2019-19781)
+- [citrixgitoff/-ioc-scanner-CVE-2019-19781](https://github.com/citrixgitoff/-ioc-scanner-CVE-2019-19781)
 
 ### CVE-2019-19782 (2019-12-13)
 
