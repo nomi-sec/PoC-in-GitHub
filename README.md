@@ -35598,6 +35598,7 @@
 - [Tamagaft/CVE-2019-17662](https://github.com/Tamagaft/CVE-2019-17662)
 - [bl4ck574r/CVE-2019-17662](https://github.com/bl4ck574r/CVE-2019-17662)
 - [thomas-osgood/CVE-2019-17662](https://github.com/thomas-osgood/CVE-2019-17662)
+- [medarov411/vnc-lab-cve-2019-17662](https://github.com/medarov411/vnc-lab-cve-2019-17662)
 
 ### CVE-2019-17666 (2019-10-17)
 
