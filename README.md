@@ -1496,6 +1496,7 @@
 
 ### CVE-2024-8353
 - [EQSTLab/CVE-2024-8353](https://github.com/EQSTLab/CVE-2024-8353)
+- [p33d/CVE-2024-8353](https://github.com/p33d/CVE-2024-8353)
 
 ### CVE-2024-8484
 - [RandomRobbieBF/CVE-2024-8484](https://github.com/RandomRobbieBF/CVE-2024-8484)
@@ -4142,6 +4143,13 @@
 </code>
 
 - [Gr-1m/CVE-2024-34958](https://github.com/Gr-1m/CVE-2024-34958)
+
+### CVE-2024-35205 (-)
+
+<code>The WPS Office (aka cn.wps.moffice_eng) application before 17.0.0 for Android fails to properly sanitize file names before processing them through external application interactions, leading to a form of path traversal. This potentially enables any application to dispatch a crafted library file, aiming to overwrite an existing native library utilized by WPS Office. Successful exploitation could result in the execution of arbitrary commands under the guise of WPS Office's application ID.
+</code>
+
+- [cyb3r-w0lf/Dirty_Stream-Android-POC](https://github.com/cyb3r-w0lf/Dirty_Stream-Android-POC)
 
 ### CVE-2024-35242 (2024-06-10)
 
