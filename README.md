@@ -5216,6 +5216,9 @@
 ### CVE-2024-46635
 - [h1thub/CVE-2024-46635](https://github.com/h1thub/CVE-2024-46635)
 
+### CVE-2024-46658
+- [jackalkarlos/CVE-2024-46658](https://github.com/jackalkarlos/CVE-2024-46658)
+
 ### CVE-2024-46986
 - [vidura2/CVE-2024-46986](https://github.com/vidura2/CVE-2024-46986)
 
@@ -5233,7 +5236,7 @@
 - [mr-r3b00t/CVE-2024-47176](https://github.com/mr-r3b00t/CVE-2024-47176)
 - [aytackalinci/CVE-2024-47176](https://github.com/aytackalinci/CVE-2024-47176)
 - [nma-io/CVE-2024-47176](https://github.com/nma-io/CVE-2024-47176)
-- [pearlmansara/CVE-2024-47176-CUPS](https://github.com/pearlmansara/CVE-2024-47176-CUPS)
+- [l0n3m4n/CVE-2024-47176](https://github.com/l0n3m4n/CVE-2024-47176)
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
