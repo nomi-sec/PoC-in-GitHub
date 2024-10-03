@@ -166,6 +166,7 @@
 - [ysanatomic/io_uring_LPE-CVE-2024-0582](https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582)
 - [Forsaken0129/CVE-2024-0582](https://github.com/Forsaken0129/CVE-2024-0582)
 - [0ptyx/cve-2024-0582](https://github.com/0ptyx/cve-2024-0582)
+- [geniuszlyy/CVE-2024-0582](https://github.com/geniuszlyy/CVE-2024-0582)
 
 ### CVE-2024-0588 (2024-04-09)
 
@@ -1545,6 +1546,9 @@
 
 ### CVE-2024-9166
 - [Andrysqui/CVE-2024-9166](https://github.com/Andrysqui/CVE-2024-9166)
+
+### CVE-2024-9441
+- [adhikara13/CVE-2024-9441](https://github.com/adhikara13/CVE-2024-9441)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
