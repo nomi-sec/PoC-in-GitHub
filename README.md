@@ -2844,6 +2844,13 @@
 
 - [gmo-ierae/CVE-2024-26144-test](https://github.com/gmo-ierae/CVE-2024-26144-test)
 
+### CVE-2024-26160 (2024-03-12)
+
+<code>Windows Cloud Files Mini Filter Driver Information Disclosure Vulnerability
+</code>
+
+- [0x00Alchemist/CVE-2024-26160](https://github.com/0x00Alchemist/CVE-2024-26160)
+
 ### CVE-2024-26218 (2024-04-09)
 
 <code>Windows Kernel Elevation of Privilege Vulnerability
@@ -31282,7 +31289,7 @@
 </code>
 
 - [Schira4396/CVE-2020-25540](https://github.com/Schira4396/CVE-2020-25540)
-- [Rajchowdhury420/ThinkAdmin-CVE-2020-25540](https://github.com/Rajchowdhury420/ThinkAdmin-CVE-2020-25540)
+- [RajChowdhury240/ThinkAdmin-CVE-2020-25540](https://github.com/RajChowdhury240/ThinkAdmin-CVE-2020-25540)
 - [lowkey0808/cve-2020-25540](https://github.com/lowkey0808/cve-2020-25540)
 - [simonlee-hello/CVE-2020-25540](https://github.com/simonlee-hello/CVE-2020-25540)
 
@@ -38387,7 +38394,7 @@
 </code>
 
 - [axcheron/crestron_getsudopwd](https://github.com/axcheron/crestron_getsudopwd)
-- [Rajchowdhury420/CVE-2018-13341](https://github.com/Rajchowdhury420/CVE-2018-13341)
+- [RajChowdhury240/CVE-2018-13341](https://github.com/RajChowdhury240/CVE-2018-13341)
 
 ### CVE-2018-13379 (2019-06-04)
 
