@@ -958,6 +958,7 @@
 - [ywChen-NTUST/PHP-CGI-RCE-Scanner](https://github.com/ywChen-NTUST/PHP-CGI-RCE-Scanner)
 - [AhmedMansour93/Event-ID-268-Rule-Name-SOC292-Possible-PHP-Injection-Detected-CVE-2024-4577-](https://github.com/AhmedMansour93/Event-ID-268-Rule-Name-SOC292-Possible-PHP-Injection-Detected-CVE-2024-4577-)
 - [phirojshah/CVE-2024-4577](https://github.com/phirojshah/CVE-2024-4577)
+- [JeninSutradhar/CVE-2024-4577-checker](https://github.com/JeninSutradhar/CVE-2024-4577-checker)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -1442,6 +1443,13 @@
 </code>
 
 - [lfillaz/CVE-2024-7703](https://github.com/lfillaz/CVE-2024-7703)
+
+### CVE-2024-7854 (2024-08-21)
+
+<code>The Woo Inquiry plugin for WordPress is vulnerable to SQL Injection in all versions up to, and including, 0.1 due to insufficient escaping on the user supplied parameter 'dbid' and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [RandomRobbieBF/CVE-2024-7854](https://github.com/RandomRobbieBF/CVE-2024-7854)
 
 ### CVE-2024-7856 (2024-08-29)
 
@@ -4138,6 +4146,13 @@
 
 - [uthrasri/CVE-2024-34739](https://github.com/uthrasri/CVE-2024-34739)
 
+### CVE-2024-34741 (2024-08-15)
+
+<code>In setForceHideNonSystemOverlayWindowIfNeeded of WindowState.java, there is a possible way for message content to be visible on the screensaver while lock screen visibility settings are restricted by the user due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [uthrasri/CVE-2024-34741](https://github.com/uthrasri/CVE-2024-34741)
+
 ### CVE-2024-34831 (2024-09-10)
 
 <code>cross-site scripting (XSS) vulnerability in Gibbon Core v26.0.00 allows an attacker to execute arbitrary code via the imageLink parameter in the library_manage_catalog_editProcess.php component.
@@ -5067,6 +5082,9 @@
 </code>
 
 - [Azvanzed/CVE-2024-44083](https://github.com/Azvanzed/CVE-2024-44083)
+
+### CVE-2024-44193
+- [mbog14/CVE-2024-44193](https://github.com/mbog14/CVE-2024-44193)
 
 ### CVE-2024-44346
 - [Shauryae1337/CVE-2024-44346](https://github.com/Shauryae1337/CVE-2024-44346)
@@ -11247,6 +11265,13 @@
 
 ### CVE-2023-41535
 - [Sh33talUmath/CVE-2023-41535](https://github.com/Sh33talUmath/CVE-2023-41535)
+
+### CVE-2023-41564 (2023-09-08)
+
+<code>An arbitrary file upload vulnerability in the Upload Asset function of Cockpit CMS v2.6.3 allows attackers to execute arbitrary code via uploading a crafted .shtml file.
+</code>
+
+- [sota70/cve-2023-41564-research](https://github.com/sota70/cve-2023-41564-research)
 
 ### CVE-2023-41575 (2023-09-08)
 
@@ -18528,6 +18553,7 @@
 
 - [Pro-me3us/CVE_2022_38181_Raven](https://github.com/Pro-me3us/CVE_2022_38181_Raven)
 - [Pro-me3us/CVE_2022_38181_Gazelle](https://github.com/Pro-me3us/CVE_2022_38181_Gazelle)
+- [R0rt1z2/CVE-2022-38181](https://github.com/R0rt1z2/CVE-2022-38181)
 
 ### CVE-2022-38374 (2022-11-02)
 
@@ -21454,6 +21480,7 @@
 - [evkl1d/CVE-2021-4034](https://github.com/evkl1d/CVE-2021-4034)
 - [Typical0day/CVE-2021-4034](https://github.com/Typical0day/CVE-2021-4034)
 - [lsclsclsc/CVE-2021-4034](https://github.com/lsclsclsc/CVE-2021-4034)
+- [EuJin03/CVE-2021-4034-PoC](https://github.com/EuJin03/CVE-2021-4034-PoC)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -22187,6 +22214,13 @@
 ### CVE-2021-23410
 - [azu/msgpack-CVE-2021-23410-test](https://github.com/azu/msgpack-CVE-2021-23410-test)
 
+### CVE-2021-23639 (2021-12-10)
+
+<code>The package md-to-pdf before 5.0.0 are vulnerable to Remote Code Execution (RCE) due to utilizing the library gray-matter to parse front matter content, without disabling the JS engine.
+</code>
+
+- [MohandAcherir/CVE-2021-23639](https://github.com/MohandAcherir/CVE-2021-23639)
+
 ### CVE-2021-23758 (2021-12-03)
 
 <code>All versions of package ajaxpro.2 are vulnerable to Deserialization of Untrusted Data due to the possibility of deserialization of arbitrary .NET classes, which can be abused to gain remote code execution.
@@ -22456,6 +22490,7 @@
 - [1n7erface/PocList](https://github.com/1n7erface/PocList)
 - [givemefivw/CVE-2021-25646](https://github.com/givemefivw/CVE-2021-25646)
 - [j2ekim/CVE-2021-25646](https://github.com/j2ekim/CVE-2021-25646)
+- [luobai8/CVE-2021-25646-exp](https://github.com/luobai8/CVE-2021-25646-exp)
 
 ### CVE-2021-25679 (2021-04-20)
 
@@ -25375,7 +25410,6 @@
 </code>
 
 - [DarkSprings/CVE-2021-42321](https://github.com/DarkSprings/CVE-2021-42321)
-- [timb-machine-mirrors/testanull-CVE-2021-42321_poc.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-42321_poc.py)
 - [xnyuq/cve-2021-42321](https://github.com/xnyuq/cve-2021-42321)
 - [7BitsTeam/exch_CVE-2021-42321](https://github.com/7BitsTeam/exch_CVE-2021-42321)
 
@@ -26287,8 +26321,6 @@
 - [mklinkj/log4j2-test](https://github.com/mklinkj/log4j2-test)
 - [4jfinder/4jfinder.github.io](https://github.com/4jfinder/4jfinder.github.io)
 - [alexpena5635/CVE-2021-44228_scanner-main-Modified-](https://github.com/alexpena5635/CVE-2021-44228_scanner-main-Modified-)
-- [kanitan/log4j2-web-vulnerable](https://github.com/kanitan/log4j2-web-vulnerable)
-- [mr-r3b00t/CVE-2021-44228](https://github.com/mr-r3b00t/CVE-2021-44228)
 - [ChandanShastri/Log4j_Vulnerability_Demo](https://github.com/ChandanShastri/Log4j_Vulnerability_Demo)
 - [puzzlepeaches/Log4jHorizon](https://github.com/puzzlepeaches/Log4jHorizon)
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
