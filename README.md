@@ -2190,13 +2190,6 @@
 - [pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692](https://github.com/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692)
 - [verylazytech/CVE-2024-23692](https://github.com/verylazytech/CVE-2024-23692)
 
-### CVE-2024-23705 (2024-05-07)
-
-<code>In multiple locations, there is a possible failure to persist or enforce user restrictions due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.
-</code>
-
-- [uthrasri/frameworks_base_CVE-2024-23705](https://github.com/uthrasri/frameworks_base_CVE-2024-23705)
-
 ### CVE-2024-23708 (2024-05-07)
 
 <code>In multiple functions of NotificationManagerService.java, there is a possible way to not show a toast message when a clipboard message has been accessed. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
@@ -3278,6 +3271,13 @@
 
 - [HussainFathy/CVE-2024-28999](https://github.com/HussainFathy/CVE-2024-28999)
 
+### CVE-2024-29050 (2024-04-09)
+
+<code>Windows Cryptographic Services Remote Code Execution Vulnerability
+</code>
+
+- [Akrachli/CVE-2024-29050](https://github.com/Akrachli/CVE-2024-29050)
+
 ### CVE-2024-29059 (2024-03-22)
 
 <code>.NET Framework Information Disclosure Vulnerability
@@ -4130,6 +4130,13 @@
 </code>
 
 - [aelmokhtar/CVE-2024-34716](https://github.com/aelmokhtar/CVE-2024-34716)
+
+### CVE-2024-34739 (2024-08-15)
+
+<code>In shouldRestrictOverlayActivities of UsbProfileGroupSettingsManager.java, there is a possible escape from SUW due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.
+</code>
+
+- [uthrasri/CVE-2024-34739](https://github.com/uthrasri/CVE-2024-34739)
 
 ### CVE-2024-34831 (2024-09-10)
 
@@ -5324,6 +5331,7 @@
 - [JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297)
 - [overgrowncarrot1/CVE-2023-0297](https://github.com/overgrowncarrot1/CVE-2023-0297)
 - [btar1gan/exploit_CVE-2023-0297](https://github.com/btar1gan/exploit_CVE-2023-0297)
+- [S4MY9/CVE-2023-0297](https://github.com/S4MY9/CVE-2023-0297)
 
 ### CVE-2023-0315 (2023-01-16)
 
