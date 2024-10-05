@@ -1478,6 +1478,7 @@
 - [bigb0x/CVE-2024-7954](https://github.com/bigb0x/CVE-2024-7954)
 - [fa-rrel/CVE-2024-7954-RCE](https://github.com/fa-rrel/CVE-2024-7954-RCE)
 - [TheCyberguy-17/RCE_CVE-2024-7954](https://github.com/TheCyberguy-17/RCE_CVE-2024-7954)
+- [MuhammadWaseem29/RCE-CVE-2024-7954](https://github.com/MuhammadWaseem29/RCE-CVE-2024-7954)
 
 ### CVE-2024-7965 (2024-08-21)
 
@@ -3191,6 +3192,7 @@
 
 - [akabe1/Graver](https://github.com/akabe1/Graver)
 - [gunzf0x/Grav-CMS-RCE-Authenticated](https://github.com/gunzf0x/Grav-CMS-RCE-Authenticated)
+- [geniuszlyy/GenGravSSTIExploit](https://github.com/geniuszlyy/GenGravSSTIExploit)
 
 ### CVE-2024-28247 (2024-03-27)
 
@@ -3848,6 +3850,7 @@
 - [Stuub/CVE-2024-32640-SQLI-MuraCMS](https://github.com/Stuub/CVE-2024-32640-SQLI-MuraCMS)
 - [0xYumeko/CVE-2024-32640-SQLI-MuraCMS](https://github.com/0xYumeko/CVE-2024-32640-SQLI-MuraCMS)
 - [sammings/CVE-2024-32640](https://github.com/sammings/CVE-2024-32640)
+- [inviewp/CVE-2024-32640](https://github.com/inviewp/CVE-2024-32640)
 
 ### CVE-2024-32651 (2024-04-25)
 
@@ -4284,6 +4287,7 @@
 - [justin-p/geoexplorer](https://github.com/justin-p/geoexplorer)
 - [daniellowrie/CVE-2024-36401-PoC](https://github.com/daniellowrie/CVE-2024-36401-PoC)
 - [PunitTailor55/GeoServer-CVE-2024-36401](https://github.com/PunitTailor55/GeoServer-CVE-2024-36401)
+- [netuseradministrator/CVE-2024-36401](https://github.com/netuseradministrator/CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -5283,6 +5287,7 @@
 - [aytackalinci/CVE-2024-47176](https://github.com/aytackalinci/CVE-2024-47176)
 - [nma-io/CVE-2024-47176](https://github.com/nma-io/CVE-2024-47176)
 - [l0n3m4n/CVE-2024-47176](https://github.com/l0n3m4n/CVE-2024-47176)
+- [gumerzzzindo/CVE-2024-47176](https://github.com/gumerzzzindo/CVE-2024-47176)
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
@@ -12595,6 +12600,7 @@
 
 - [vnxdtzip/CVE-2023-47253](https://github.com/vnxdtzip/CVE-2023-47253)
 - [OpenXP-Research/CVE-2023-47253](https://github.com/OpenXP-Research/CVE-2023-47253)
+- [inviewp/Qualitor_CVE-2023-47253](https://github.com/inviewp/Qualitor_CVE-2023-47253)
 
 ### CVE-2023-47355 (2024-02-05)
 
@@ -35308,6 +35314,13 @@
 - [mind2hex/CVE-2019-16113](https://github.com/mind2hex/CVE-2019-16113)
 - [tronghoang89/cve-2019-16113](https://github.com/tronghoang89/cve-2019-16113)
 
+### CVE-2019-16172 (2019-09-09)
+
+<code>LimeSurvey before v3.17.14 allows stored XSS for escalating privileges from a low-privileged account to, for example, SuperAdmin. The attack uses a survey group in which the title contains JavaScript that is mishandled upon group deletion.
+</code>
+
+- [TrixSec/CVE-2019-16172](https://github.com/TrixSec/CVE-2019-16172)
+
 ### CVE-2019-16253 (2019-09-25)
 
 <code>The Text-to-speech Engine (aka SamsungTTS) application before 3.0.02.7 and 3.0.00.101 for Android allows a local attacker to escalate privileges, e.g., to system privileges. The Samsung case ID is 101755.
@@ -36319,7 +36332,6 @@
 </code>
 
 - [SpiralBL0CK/-CVE-2018-0834-aab-aar](https://github.com/SpiralBL0CK/-CVE-2018-0834-aab-aar)
-- [SpiralBL0CK/CVE-2018-0834-write-up](https://github.com/SpiralBL0CK/CVE-2018-0834-write-up)
 
 ### CVE-2018-0886 (2018-03-14)
 
