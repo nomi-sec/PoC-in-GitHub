@@ -8926,6 +8926,7 @@
 - [griffinsectio/CVE-2023-30800_PoC](https://github.com/griffinsectio/CVE-2023-30800_PoC)
 - [griffinsectio/CVE-2023-30800_PoC_go](https://github.com/griffinsectio/CVE-2023-30800_PoC_go)
 - [KhogenTheRabbit/cve-2023-30800-multithread-doser](https://github.com/KhogenTheRabbit/cve-2023-30800-multithread-doser)
+- [AxthonyV/MikroTik](https://github.com/AxthonyV/MikroTik)
 
 ### CVE-2023-30839 (2023-04-25)
 
@@ -10076,6 +10077,13 @@
 </code>
 
 - [Lserein/CVE-2023-35844](https://github.com/Lserein/CVE-2023-35844)
+
+### CVE-2023-35854 (2023-06-20)
+
+<code>Zoho ManageEngine ADSelfService Plus through 6113 has an authentication bypass that can be exploited to steal the domain controller session token for identity spoofing, thereby achieving the privileges of the domain controller administrator. NOTE: the vendor's perspective is that they have &quot;found no evidence or detail of a security vulnerability.&quot;
+</code>
+
+- [bluestarry33/exp](https://github.com/bluestarry33/exp)
 
 ### CVE-2023-35885 (2023-06-20)
 
