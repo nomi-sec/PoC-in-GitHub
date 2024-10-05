@@ -1039,6 +1039,7 @@
 - [verylazytech/CVE-2024-4956](https://github.com/verylazytech/CVE-2024-4956)
 - [JolyIrsb/CVE-2024-4956](https://github.com/JolyIrsb/CVE-2024-4956)
 - [UMASANKAR-MG/Path-Traversal-CVE-2024-4956](https://github.com/UMASANKAR-MG/Path-Traversal-CVE-2024-4956)
+- [An00bRektn/shirocrack](https://github.com/An00bRektn/shirocrack)
 
 ### CVE-2024-5009 (2024-06-25)
 
@@ -3188,6 +3189,7 @@
 </code>
 
 - [akabe1/Graver](https://github.com/akabe1/Graver)
+- [gunzf0x/Grav-CMS-RCE-Authenticated](https://github.com/gunzf0x/Grav-CMS-RCE-Authenticated)
 
 ### CVE-2024-28247 (2024-03-27)
 
@@ -3469,6 +3471,13 @@
 </code>
 
 - [fortra/CVE-2024-30051](https://github.com/fortra/CVE-2024-30051)
+
+### CVE-2024-30052 (2024-06-11)
+
+<code>Visual Studio Remote Code Execution Vulnerability
+</code>
+
+- [ynwarcs/CVE-2024-30052](https://github.com/ynwarcs/CVE-2024-30052)
 
 ### CVE-2024-30056 (2024-05-25)
 
@@ -5218,6 +5227,7 @@
 ### CVE-2024-45519
 - [TOB1a3/CVE-2024-45519-PoC](https://github.com/TOB1a3/CVE-2024-45519-PoC)
 - [p33d/CVE-2024-45519](https://github.com/p33d/CVE-2024-45519)
+- [Chocapikk/CVE-2024-45519](https://github.com/Chocapikk/CVE-2024-45519)
 
 ### CVE-2024-45589 (2024-09-05)
 
@@ -5588,6 +5598,13 @@
 </code>
 
 - [lanleft/CVE-2023-1829](https://github.com/lanleft/CVE-2023-1829)
+
+### CVE-2023-1874 (2023-04-12)
+
+<code>The WP Data Access plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 5.3.7. This is due to a lack of authorization checks on the multiple_roles_update function. This makes it possible for authenticated attackers, with minimal permissions such as a subscriber, to modify their user role by supplying the 'wpda_role[]' parameter during a profile update. This requires the 'Enable role management' setting to be enabled for the site.
+</code>
+
+- [thomas-osgood/cve-2023-1874](https://github.com/thomas-osgood/cve-2023-1874)
 
 ### CVE-2023-2002 (2023-05-26)
 
@@ -31994,6 +32011,7 @@
 - [X0UCYB3R/Check-WP-CVE-2020-35489](https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489)
 - [reneoliveirajr/wp_CVE-2020-35489_checker](https://github.com/reneoliveirajr/wp_CVE-2020-35489_checker)
 - [Cappricio-Securities/CVE-2020-35489](https://github.com/Cappricio-Securities/CVE-2020-35489)
+- [aitech66/poc-CVE-2020-35489](https://github.com/aitech66/poc-CVE-2020-35489)
 
 ### CVE-2020-35498 (2021-02-11)
 
@@ -34177,6 +34195,13 @@
 </code>
 
 - [Insecurities/CVE-2019-11224](https://github.com/Insecurities/CVE-2019-11224)
+
+### CVE-2019-11248 (2019-08-29)
+
+<code>The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet healthz port. The go pprof endpoint is exposed over the Kubelet's healthz port. This debugging endpoint can potentially leak sensitive information such as internal Kubelet memory addresses and configuration, or for limited denial of service. Versions prior to 1.15.0, 1.14.4, 1.13.8, and 1.12.10 are affected. The issue is of medium severity, but not exposed by the default configuration.
+</code>
+
+- [masm3264/poc-CVE-2019-11248](https://github.com/masm3264/poc-CVE-2019-11248)
 
 ### CVE-2019-11358 (2019-04-19)
 
@@ -47096,6 +47121,13 @@
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
+
+### CVE-2001-1473 (2005-04-21)
+
+<code>The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target.
+</code>
+
+- [masm3264/poc-CVE-2001-1473](https://github.com/masm3264/poc-CVE-2001-1473)
 
 ### CVE-2001-3389
 - [becrevex/Gaston](https://github.com/becrevex/Gaston)
