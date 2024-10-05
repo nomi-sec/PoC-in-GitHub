@@ -2888,6 +2888,7 @@
 </code>
 
 - [Roud-Roud-Agency/CVE-2024-26304-RCE-exploits](https://github.com/Roud-Roud-Agency/CVE-2024-26304-RCE-exploits)
+- [X-Projetion/CVE-2024-26304-RCE-exploit](https://github.com/X-Projetion/CVE-2024-26304-RCE-exploit)
 
 ### CVE-2024-26308 (2024-02-19)
 
@@ -36318,6 +36319,7 @@
 </code>
 
 - [SpiralBL0CK/-CVE-2018-0834-aab-aar](https://github.com/SpiralBL0CK/-CVE-2018-0834-aab-aar)
+- [SpiralBL0CK/CVE-2018-0834-write-up](https://github.com/SpiralBL0CK/CVE-2018-0834-write-up)
 
 ### CVE-2018-0886 (2018-03-14)
 
