@@ -4616,6 +4616,7 @@
 </code>
 
 - [Abdurahmon3236/CVE-2024-38472](https://github.com/Abdurahmon3236/CVE-2024-38472)
+- [mrmtwoj/apache-vulnerability-testing](https://github.com/mrmtwoj/apache-vulnerability-testing)
 
 ### CVE-2024-38473 (2024-07-01)
 
@@ -10726,6 +10727,13 @@
 - [Shisones/MetabaseRCE_CVE-2023-38646](https://github.com/Shisones/MetabaseRCE_CVE-2023-38646)
 - [acesoyeo/METABASE-RCE-CVE-2023-38646-](https://github.com/acesoyeo/METABASE-RCE-CVE-2023-38646-)
 - [UserConnecting/Exploit-CVE-2023-38646-Metabase](https://github.com/UserConnecting/Exploit-CVE-2023-38646-Metabase)
+
+### CVE-2023-38709 (2024-04-04)
+
+<code>Faulty input validation in the core of Apache allows malicious or exploitable backend/content generators to split HTTP responses.\n\nThis issue affects Apache HTTP Server: through 2.4.58.
+</code>
+
+- [mrmtwoj/apache-vulnerability-testing](https://github.com/mrmtwoj/apache-vulnerability-testing)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -21973,7 +21981,6 @@
 - [tiagob0b/CVE-2021-22005](https://github.com/tiagob0b/CVE-2021-22005)
 - [Jun-5heng/CVE-2021-22005](https://github.com/Jun-5heng/CVE-2021-22005)
 - [shmilylty/cve-2021-22005-exp](https://github.com/shmilylty/cve-2021-22005-exp)
-- [timb-machine-mirrors/testanull-CVE-2021-22005.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-22005.py)
 - [InventorMAO/cve-2021-22005](https://github.com/InventorMAO/cve-2021-22005)
 
 ### CVE-2021-22006 (2021-09-23)
@@ -25891,6 +25898,7 @@
 - [topyagyuu/CVE-2021-43798](https://github.com/topyagyuu/CVE-2021-43798)
 - [MalekAlthubiany/CVE-2021-43798](https://github.com/MalekAlthubiany/CVE-2021-43798)
 - [Sic4rio/Grafana-Decryptor-for-CVE-2021-43798](https://github.com/Sic4rio/Grafana-Decryptor-for-CVE-2021-43798)
+- [sazzad1337/Grafana-CVE-2021-43798](https://github.com/sazzad1337/Grafana-CVE-2021-43798)
 
 ### CVE-2021-43799 (2022-01-25)
 
@@ -46118,6 +46126,13 @@
 - [strainerart/Spring4Shell](https://github.com/strainerart/Spring4Shell)
 - [HandsomeCat00/Spring-CVE-2010-1622](https://github.com/HandsomeCat00/Spring-CVE-2010-1622)
 - [E-bounce/cve-2010-1622_learning_environment](https://github.com/E-bounce/cve-2010-1622_learning_environment)
+
+### CVE-2010-1938 (2010-05-28)
+
+<code>Off-by-one error in the __opiereadrec function in readrec.c in libopie in OPIE 2.4.1-test1 and earlier, as used on FreeBSD 6.4 through 8.1-PRERELEASE and other platforms, allows remote attackers to cause a denial of service (daemon crash) or possibly execute arbitrary code via a long username, as demonstrated by a long USER command to the FreeBSD 8.0 ftpd.
+</code>
+
+- [Nexxus67/cve-2010-1938](https://github.com/Nexxus67/cve-2010-1938)
 
 ### CVE-2010-2075 (2010-06-15)
 
