@@ -7433,6 +7433,7 @@
 - [M0untainShley/CVE-2023-22527-MEMSHELL](https://github.com/M0untainShley/CVE-2023-22527-MEMSHELL)
 - [vulncheck-oss/cve-2023-22527](https://github.com/vulncheck-oss/cve-2023-22527)
 - [BBD-YZZ/Confluence-RCE](https://github.com/BBD-YZZ/Confluence-RCE)
+- [kh4sh3i/CVE-2023-22527](https://github.com/kh4sh3i/CVE-2023-22527)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -33814,6 +33815,7 @@
 - [b4keSn4ke/CVE-2019-9193](https://github.com/b4keSn4ke/CVE-2019-9193)
 - [chromanite/CVE-2019-9193-PostgreSQL-9.3-11.7](https://github.com/chromanite/CVE-2019-9193-PostgreSQL-9.3-11.7)
 - [paulotrindadec/CVE-2019-9193](https://github.com/paulotrindadec/CVE-2019-9193)
+- [geniuszlyy/CVE-2019-9193](https://github.com/geniuszlyy/CVE-2019-9193)
 
 ### CVE-2019-9194 (2019-02-26)
 
@@ -40553,6 +40555,7 @@
 - [denchief1/CVE-2017-7269](https://github.com/denchief1/CVE-2017-7269)
 - [Cappricio-Securities/CVE-2017-7269](https://github.com/Cappricio-Securities/CVE-2017-7269)
 - [VanishedPeople/CVE-2017-7269](https://github.com/VanishedPeople/CVE-2017-7269)
+- [geniuszlyy/CVE-2017-7269](https://github.com/geniuszlyy/CVE-2017-7269)
 
 ### CVE-2017-7308 (2017-03-29)
 
