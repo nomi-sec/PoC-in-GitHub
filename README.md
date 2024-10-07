@@ -1260,7 +1260,7 @@
 - [SecWithMoh/CVE-2024-6387](https://github.com/SecWithMoh/CVE-2024-6387)
 - [PrincipalAnthony/CVE-2024-6387-Updated-x64bit](https://github.com/PrincipalAnthony/CVE-2024-6387-Updated-x64bit)
 - [k4t3pr0/CVE-2024-6387-POC](https://github.com/k4t3pr0/CVE-2024-6387-POC)
-- [DanWiseProgramming/CVE-2024-6387-Mitigation-Ansible-Playbook](https://github.com/DanWiseProgramming/CVE-2024-6387-Mitigation-Ansible-Playbook)
+- [daniel-odrinski/CVE-2024-6387-Mitigation-Ansible-Playbook](https://github.com/daniel-odrinski/CVE-2024-6387-Mitigation-Ansible-Playbook)
 - [rumochnaya/openssh-cve-2024-6387.sh](https://github.com/rumochnaya/openssh-cve-2024-6387.sh)
 - [zenzue/CVE-2024-6387-Mitigation](https://github.com/zenzue/CVE-2024-6387-Mitigation)
 - [devarshishimpi/CVE-2024-6387-Check](https://github.com/devarshishimpi/CVE-2024-6387-Check)
@@ -5098,6 +5098,9 @@
 - [Shauryae1337/CVE-2024-44346](https://github.com/Shauryae1337/CVE-2024-44346)
 - [sahil3276/CVE-2024-44346](https://github.com/sahil3276/CVE-2024-44346)
 
+### CVE-2024-44349
+- [AndreaF17/PoC-CVE-2024-44349](https://github.com/AndreaF17/PoC-CVE-2024-44349)
+
 ### CVE-2024-44450
 - [VoidSecOrg/CVE-2024-44450](https://github.com/VoidSecOrg/CVE-2024-44450)
 
@@ -5213,6 +5216,13 @@
 
 - [SpiralBL0CK/CVE-2024-45383](https://github.com/SpiralBL0CK/CVE-2024-45383)
 
+### CVE-2024-45409 (2024-09-10)
+
+<code>The Ruby SAML library is for implementing the client side of a SAML authorization. Ruby-SAML in &lt;= 12.2 and 1.13.0 &lt;= 1.16.0 does not properly verify the signature of the SAML Response. An unauthenticated attacker with access to any signed saml document (by the IdP) can thus forge a SAML Response/Assertion with arbitrary contents. This would allow the attacker to log in as arbitrary user within the vulnerable system. This vulnerability is fixed in 1.17.0 and 1.12.3.
+</code>
+
+- [synacktiv/CVE-2024-45409](https://github.com/synacktiv/CVE-2024-45409)
+
 ### CVE-2024-45410
 - [jphetphoumy/traefik-CVE-2024-45410-poc](https://github.com/jphetphoumy/traefik-CVE-2024-45410-poc)
 
@@ -5288,6 +5298,7 @@
 - [nma-io/CVE-2024-47176](https://github.com/nma-io/CVE-2024-47176)
 - [l0n3m4n/CVE-2024-47176](https://github.com/l0n3m4n/CVE-2024-47176)
 - [gumerzzzindo/CVE-2024-47176](https://github.com/gumerzzzindo/CVE-2024-47176)
+- [MalwareTech/CVE-2024-47176-Scanner](https://github.com/MalwareTech/CVE-2024-47176-Scanner)
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
@@ -32303,7 +32314,7 @@
 </code>
 
 - [linhlhq/CVE-2019-0604](https://github.com/linhlhq/CVE-2019-0604)
-- [likescam/CVE-2019-0604_sharepoint_CVE](https://github.com/likescam/CVE-2019-0604_sharepoint_CVE)
+- [likekabin/CVE-2019-0604_sharepoint_CVE](https://github.com/likekabin/CVE-2019-0604_sharepoint_CVE)
 - [k8gege/CVE-2019-0604](https://github.com/k8gege/CVE-2019-0604)
 - [m5050/CVE-2019-0604](https://github.com/m5050/CVE-2019-0604)
 - [boxhg/CVE-2019-0604](https://github.com/boxhg/CVE-2019-0604)
@@ -32503,7 +32514,7 @@
 </code>
 
 - [rogue-kdc/CVE-2019-0841](https://github.com/rogue-kdc/CVE-2019-0841)
-- [likescam/CVE-2019-0841](https://github.com/likescam/CVE-2019-0841)
+- [likekabin/CVE-2019-0841](https://github.com/likekabin/CVE-2019-0841)
 - [0x00-0x00/CVE-2019-0841-BYPASS](https://github.com/0x00-0x00/CVE-2019-0841-BYPASS)
 - [mappl3/CVE-2019-0841](https://github.com/mappl3/CVE-2019-0841)
 
@@ -32650,7 +32661,7 @@
 </code>
 
 - [rogue-kdc/CVE-2019-1253](https://github.com/rogue-kdc/CVE-2019-1253)
-- [likescam/CVE-2019-1253](https://github.com/likescam/CVE-2019-1253)
+- [likekabin/CVE-2019-1253](https://github.com/likekabin/CVE-2019-1253)
 - [padovah4ck/CVE-2019-1253](https://github.com/padovah4ck/CVE-2019-1253)
 - [sgabe/CVE-2019-1253](https://github.com/sgabe/CVE-2019-1253)
 
@@ -33204,8 +33215,8 @@
 - [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
 - [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC)
 - [jas502n/CVE-2019-5736](https://github.com/jas502n/CVE-2019-5736)
-- [likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736)
-- [likescam/cve-2019-5736-poc](https://github.com/likescam/cve-2019-5736-poc)
+- [likekabin/CVE-2019-5736](https://github.com/likekabin/CVE-2019-5736)
+- [likekabin/cve-2019-5736-poc](https://github.com/likekabin/cve-2019-5736-poc)
 - [agppp/cve-2019-5736-poc](https://github.com/agppp/cve-2019-5736-poc)
 - [b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
@@ -33821,6 +33832,7 @@
 - [paulotrindadec/CVE-2019-9193](https://github.com/paulotrindadec/CVE-2019-9193)
 - [geniuszlyy/CVE-2019-9193](https://github.com/geniuszlyy/CVE-2019-9193)
 - [AxthonyV/CVE-2019-9193](https://github.com/AxthonyV/CVE-2019-9193)
+- [A0be/CVE-2019-9193](https://github.com/A0be/CVE-2019-9193)
 
 ### CVE-2019-9194 (2019-02-26)
 
@@ -36334,7 +36346,7 @@
 - [zldww2011/CVE-2018-0802_POC](https://github.com/zldww2011/CVE-2018-0802_POC)
 - [rxwx/CVE-2018-0802](https://github.com/rxwx/CVE-2018-0802)
 - [Ridter/RTF_11882_0802](https://github.com/Ridter/RTF_11882_0802)
-- [likescam/CVE-2018-0802_CVE-2017-11882](https://github.com/likescam/CVE-2018-0802_CVE-2017-11882)
+- [likekabin/CVE-2018-0802_CVE-2017-11882](https://github.com/likekabin/CVE-2018-0802_CVE-2017-11882)
 - [roninAPT/CVE-2018-0802](https://github.com/roninAPT/CVE-2018-0802)
 - [Abdibimantara/Maldoc-Analysis](https://github.com/Abdibimantara/Maldoc-Analysis)
 
@@ -36603,7 +36615,7 @@
 - [wrysunny/cve-2018-2628](https://github.com/wrysunny/cve-2018-2628)
 - [jas502n/CVE-2018-2628](https://github.com/jas502n/CVE-2018-2628)
 - [stevenlinfeng/CVE-2018-2628](https://github.com/stevenlinfeng/CVE-2018-2628)
-- [likescam/CVE-2018-2628](https://github.com/likescam/CVE-2018-2628)
+- [likekabin/CVE-2018-2628](https://github.com/likekabin/CVE-2018-2628)
 - [Nervous/WebLogic-RCE-exploit](https://github.com/Nervous/WebLogic-RCE-exploit)
 - [Lighird/CVE-2018-2628](https://github.com/Lighird/CVE-2018-2628)
 - [0xMJ/CVE-2018-2628](https://github.com/0xMJ/CVE-2018-2628)
@@ -36791,7 +36803,7 @@
 </code>
 
 - [FSecureLABS/CVE-2018-4121](https://github.com/FSecureLABS/CVE-2018-4121)
-- [likescam/CVE-2018-4121](https://github.com/likescam/CVE-2018-4121)
+- [likekabin/CVE-2018-4121](https://github.com/likekabin/CVE-2018-4121)
 - [jezzus/CVE-2018-4121](https://github.com/jezzus/CVE-2018-4121)
 
 ### CVE-2018-4124 (2018-04-03)
@@ -37734,7 +37746,7 @@
 - [SyFi/CVE-2018-8174](https://github.com/SyFi/CVE-2018-8174)
 - [orf53975/Rig-Exploit-for-CVE-2018-8174](https://github.com/orf53975/Rig-Exploit-for-CVE-2018-8174)
 - [piotrflorczyk/cve-2018-8174_analysis](https://github.com/piotrflorczyk/cve-2018-8174_analysis)
-- [likescam/CVE-2018-8174-msf](https://github.com/likescam/CVE-2018-8174-msf)
+- [likekabin/CVE-2018-8174-msf](https://github.com/likekabin/CVE-2018-8174-msf)
 - [ruthlezs/ie11_vbscript_exploit](https://github.com/ruthlezs/ie11_vbscript_exploit)
 - [ericisnotrealname/CVE-2018-8174_EXP](https://github.com/ericisnotrealname/CVE-2018-8174_EXP)
 - [www201001/https-github.com-iBearcat-CVE-2018-8174_EXP](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP)
@@ -38147,8 +38159,8 @@
 - [hook-s3c/CVE-2018-10933](https://github.com/hook-s3c/CVE-2018-10933)
 - [kn6869610/CVE-2018-10933](https://github.com/kn6869610/CVE-2018-10933)
 - [jobroche/libssh-scanner](https://github.com/jobroche/libssh-scanner)
-- [likescam/CVE-2018-10933_ssh](https://github.com/likescam/CVE-2018-10933_ssh)
-- [likescam/CVE-2018-10933-libSSH-Authentication-Bypass](https://github.com/likescam/CVE-2018-10933-libSSH-Authentication-Bypass)
+- [likekabin/CVE-2018-10933_ssh](https://github.com/likekabin/CVE-2018-10933_ssh)
+- [likekabin/CVE-2018-10933-libSSH-Authentication-Bypass](https://github.com/likekabin/CVE-2018-10933-libSSH-Authentication-Bypass)
 - [marco-lancini/hunt-for-cve-2018-10933](https://github.com/marco-lancini/hunt-for-cve-2018-10933)
 - [hackerhouse-opensource/cve-2018-10933](https://github.com/hackerhouse-opensource/cve-2018-10933)
 - [cve-2018/cve-2018-10933](https://github.com/cve-2018/cve-2018-10933)
@@ -39057,8 +39069,8 @@
 </code>
 
 - [jas502n/CVE-2018-17182](https://github.com/jas502n/CVE-2018-17182)
-- [likescam/CVE-2018-17182](https://github.com/likescam/CVE-2018-17182)
-- [likescam/vmacache_CVE-2018-17182](https://github.com/likescam/vmacache_CVE-2018-17182)
+- [likekabin/CVE-2018-17182](https://github.com/likekabin/CVE-2018-17182)
+- [likekabin/vmacache_CVE-2018-17182](https://github.com/likekabin/vmacache_CVE-2018-17182)
 - [jedai47/cve-2018-17182](https://github.com/jedai47/cve-2018-17182)
 
 ### CVE-2018-17207 (2018-09-19)
@@ -39450,7 +39462,7 @@
 - [arkangel-dev/CVE-2018-20250-WINRAR-ACE-GUI](https://github.com/arkangel-dev/CVE-2018-20250-WINRAR-ACE-GUI)
 - [AeolusTF/CVE-2018-20250](https://github.com/AeolusTF/CVE-2018-20250)
 - [joydragon/Detect-CVE-2018-20250](https://github.com/joydragon/Detect-CVE-2018-20250)
-- [likescam/CVE-2018-20250](https://github.com/likescam/CVE-2018-20250)
+- [likekabin/CVE-2018-20250](https://github.com/likekabin/CVE-2018-20250)
 - [H4xl0r/WinRar_ACE_exploit_CVE-2018-20250](https://github.com/H4xl0r/WinRar_ACE_exploit_CVE-2018-20250)
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
 - [lxg5763/cve-2018-20250](https://github.com/lxg5763/cve-2018-20250)
@@ -39815,7 +39827,7 @@
 - [nicpenning/RTF-Cleaner](https://github.com/nicpenning/RTF-Cleaner)
 - [herbiezimmerman/2017-11-17-Maldoc-Using-CVE-2017-0199](https://github.com/herbiezimmerman/2017-11-17-Maldoc-Using-CVE-2017-0199)
 - [jacobsoo/RTF-Cleaner](https://github.com/jacobsoo/RTF-Cleaner)
-- [likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199)
+- [likekabin/CVE-2017-0199](https://github.com/likekabin/CVE-2017-0199)
 - [stealth-ronin/CVE-2017-0199-PY-KIT](https://github.com/stealth-ronin/CVE-2017-0199-PY-KIT)
 - [Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199)
 - [BRAINIAC22/CVE-2017-0199](https://github.com/BRAINIAC22/CVE-2017-0199)
@@ -39838,7 +39850,7 @@
 - [shaheemirza/CVE-2017-0213-](https://github.com/shaheemirza/CVE-2017-0213-)
 - [zcgonvh/CVE-2017-0213](https://github.com/zcgonvh/CVE-2017-0213)
 - [billa3283/CVE-2017-0213](https://github.com/billa3283/CVE-2017-0213)
-- [likescam/CVE-2017-0213](https://github.com/likescam/CVE-2017-0213)
+- [likekabin/CVE-2017-0213](https://github.com/likekabin/CVE-2017-0213)
 - [jbooz1/CVE-2017-0213](https://github.com/jbooz1/CVE-2017-0213)
 - [eonrickity/CVE-2017-0213](https://github.com/eonrickity/CVE-2017-0213)
 - [Jos675/CVE-2017-0213-Exploit](https://github.com/Jos675/CVE-2017-0213-Exploit)
@@ -39893,7 +39905,7 @@
 </code>
 
 - [bingghost/CVE-2017-0478](https://github.com/bingghost/CVE-2017-0478)
-- [likescam/CVE-2017-0478](https://github.com/likescam/CVE-2017-0478)
+- [likekabin/CVE-2017-0478](https://github.com/likekabin/CVE-2017-0478)
 
 ### CVE-2017-0505 (2017-03-08)
 
@@ -39908,7 +39920,7 @@
 </code>
 
 - [C0dak/CVE-2017-0541](https://github.com/C0dak/CVE-2017-0541)
-- [likescam/CVE-2017-0541](https://github.com/likescam/CVE-2017-0541)
+- [likekabin/CVE-2017-0541](https://github.com/likekabin/CVE-2017-0541)
 
 ### CVE-2017-0554 (2017-04-07)
 
@@ -41310,8 +41322,8 @@
 - [Shadowshusky/CVE-2017-11882-](https://github.com/Shadowshusky/CVE-2017-11882-)
 - [rxwx/CVE-2018-0802](https://github.com/rxwx/CVE-2018-0802)
 - [Ridter/RTF_11882_0802](https://github.com/Ridter/RTF_11882_0802)
-- [likescam/CVE-2017-11882](https://github.com/likescam/CVE-2017-11882)
-- [likescam/CVE-2018-0802_CVE-2017-11882](https://github.com/likescam/CVE-2018-0802_CVE-2017-11882)
+- [likekabin/CVE-2017-11882](https://github.com/likekabin/CVE-2017-11882)
+- [likekabin/CVE-2018-0802_CVE-2017-11882](https://github.com/likekabin/CVE-2018-0802_CVE-2017-11882)
 - [herbiezimmerman/CVE-2017-11882-Possible-Remcos-Malspam](https://github.com/herbiezimmerman/CVE-2017-11882-Possible-Remcos-Malspam)
 - [ChaitanyaHaritash/CVE-2017-11882](https://github.com/ChaitanyaHaritash/CVE-2017-11882)
 - [qy1202/https-github.com-Ridter-CVE-2017-11882-](https://github.com/qy1202/https-github.com-Ridter-CVE-2017-11882-)
@@ -43967,7 +43979,7 @@
 - [hmlio/vaas-cve-2015-5477](https://github.com/hmlio/vaas-cve-2015-5477)
 - [knqyf263/cve-2015-5477](https://github.com/knqyf263/cve-2015-5477)
 - [ilanyu/cve-2015-5477](https://github.com/ilanyu/cve-2015-5477)
-- [likescam/ShareDoc_cve-2015-5477](https://github.com/likescam/ShareDoc_cve-2015-5477)
+- [likekabin/ShareDoc_cve-2015-5477](https://github.com/likekabin/ShareDoc_cve-2015-5477)
 - [xycloops123/TKEY-remote-DoS-vulnerability-exploit](https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit)
 
 ### CVE-2015-5531 (2015-08-17)
