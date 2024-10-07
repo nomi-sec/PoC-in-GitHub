@@ -5244,6 +5244,9 @@
 ### CVE-2024-46278
 - [ayato-shitomi/CVE-2024-46278-teedy_1.11_account-takeover](https://github.com/ayato-shitomi/CVE-2024-46278-teedy_1.11_account-takeover)
 
+### CVE-2024-46310
+- [UwUtisum/FiveM-CVE-2024-46310-POC](https://github.com/UwUtisum/FiveM-CVE-2024-46310-POC)
+
 ### CVE-2024-46377
 - [vidura2/CVE-2024-46377](https://github.com/vidura2/CVE-2024-46377)
 
@@ -7434,6 +7437,7 @@
 - [vulncheck-oss/cve-2023-22527](https://github.com/vulncheck-oss/cve-2023-22527)
 - [BBD-YZZ/Confluence-RCE](https://github.com/BBD-YZZ/Confluence-RCE)
 - [kh4sh3i/CVE-2023-22527](https://github.com/kh4sh3i/CVE-2023-22527)
+- [AxthonyV/CVE-2023-22527](https://github.com/AxthonyV/CVE-2023-22527)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -33816,6 +33820,7 @@
 - [chromanite/CVE-2019-9193-PostgreSQL-9.3-11.7](https://github.com/chromanite/CVE-2019-9193-PostgreSQL-9.3-11.7)
 - [paulotrindadec/CVE-2019-9193](https://github.com/paulotrindadec/CVE-2019-9193)
 - [geniuszlyy/CVE-2019-9193](https://github.com/geniuszlyy/CVE-2019-9193)
+- [AxthonyV/CVE-2019-9193](https://github.com/AxthonyV/CVE-2019-9193)
 
 ### CVE-2019-9194 (2019-02-26)
 
@@ -40556,6 +40561,7 @@
 - [Cappricio-Securities/CVE-2017-7269](https://github.com/Cappricio-Securities/CVE-2017-7269)
 - [VanishedPeople/CVE-2017-7269](https://github.com/VanishedPeople/CVE-2017-7269)
 - [geniuszlyy/CVE-2017-7269](https://github.com/geniuszlyy/CVE-2017-7269)
+- [AxthonyV/GenWebDavIISExploit](https://github.com/AxthonyV/GenWebDavIISExploit)
 
 ### CVE-2017-7308 (2017-03-29)
 
