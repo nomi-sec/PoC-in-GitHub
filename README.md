@@ -2551,6 +2551,7 @@
 - [junnythemarksman/CVE-2024-24590](https://github.com/junnythemarksman/CVE-2024-24590)
 - [sviim/ClearML-CVE-2024-24590-RCE](https://github.com/sviim/ClearML-CVE-2024-24590-RCE)
 - [Bigb972003/cve-2024-24590](https://github.com/Bigb972003/cve-2024-24590)
+- [j3r1ch0123/CVE-2024-24590](https://github.com/j3r1ch0123/CVE-2024-24590)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -5255,7 +5256,7 @@
 - [ayato-shitomi/CVE-2024-46278-teedy_1.11_account-takeover](https://github.com/ayato-shitomi/CVE-2024-46278-teedy_1.11_account-takeover)
 
 ### CVE-2024-46310
-- [UwUtisum/FiveM-CVE-2024-46310-POC](https://github.com/UwUtisum/FiveM-CVE-2024-46310-POC)
+- [UwUtisum/CVE-2024-46310](https://github.com/UwUtisum/CVE-2024-46310)
 
 ### CVE-2024-46377
 - [vidura2/CVE-2024-46377](https://github.com/vidura2/CVE-2024-46377)
@@ -5286,7 +5287,6 @@
 - [l8BL/CVE-2024-47066](https://github.com/l8BL/CVE-2024-47066)
 
 ### CVE-2024-47076
-- [lkarlslund/jugular](https://github.com/lkarlslund/jugular)
 - [mutkus/CVE-2024-47076](https://github.com/mutkus/CVE-2024-47076)
 
 ### CVE-2024-47176
@@ -5295,10 +5295,12 @@
 - [tonyarris/CVE-2024-47176-Scanner](https://github.com/tonyarris/CVE-2024-47176-Scanner)
 - [mr-r3b00t/CVE-2024-47176](https://github.com/mr-r3b00t/CVE-2024-47176)
 - [aytackalinci/CVE-2024-47176](https://github.com/aytackalinci/CVE-2024-47176)
+- [lkarlslund/jugular](https://github.com/lkarlslund/jugular)
 - [nma-io/CVE-2024-47176](https://github.com/nma-io/CVE-2024-47176)
 - [l0n3m4n/CVE-2024-47176](https://github.com/l0n3m4n/CVE-2024-47176)
 - [gumerzzzindo/CVE-2024-47176](https://github.com/gumerzzzindo/CVE-2024-47176)
 - [MalwareTech/CVE-2024-47176-Scanner](https://github.com/MalwareTech/CVE-2024-47176-Scanner)
+- [AxthonyV/CVE-2024-47176](https://github.com/AxthonyV/CVE-2024-47176)
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
@@ -14259,6 +14261,7 @@
 - [superhac/CVE-2022-2414-POC](https://github.com/superhac/CVE-2022-2414-POC)
 - [amitlttwo/CVE-2022-2414-Proof-Of-Concept](https://github.com/amitlttwo/CVE-2022-2414-Proof-Of-Concept)
 - [satyasai1460/CVE-2022-2414](https://github.com/satyasai1460/CVE-2022-2414)
+- [geniuszlyy/CVE-2022-2414](https://github.com/geniuszlyy/CVE-2022-2414)
 
 ### CVE-2022-2466 (2022-08-31)
 
@@ -28465,6 +28468,7 @@
 - [ynsmroztas/CVE-2020-6287-Sap-Add-User](https://github.com/ynsmroztas/CVE-2020-6287-Sap-Add-User)
 - [murataydemir/CVE-2020-6287](https://github.com/murataydemir/CVE-2020-6287)
 - [qmakake/SAP_CVE-2020-6287_find_mandate](https://github.com/qmakake/SAP_CVE-2020-6287_find_mandate)
+- [dylvie/CVE-2020-6287_SAP-NetWeaver-bypass-auth](https://github.com/dylvie/CVE-2020-6287_SAP-NetWeaver-bypass-auth)
 
 ### CVE-2020-6308 (2020-10-20)
 
@@ -40573,7 +40577,7 @@
 - [Cappricio-Securities/CVE-2017-7269](https://github.com/Cappricio-Securities/CVE-2017-7269)
 - [VanishedPeople/CVE-2017-7269](https://github.com/VanishedPeople/CVE-2017-7269)
 - [geniuszlyy/CVE-2017-7269](https://github.com/geniuszlyy/CVE-2017-7269)
-- [AxthonyV/GenWebDavIISExploit](https://github.com/AxthonyV/GenWebDavIISExploit)
+- [AxthonyV/CVE-2017-7269](https://github.com/AxthonyV/CVE-2017-7269)
 
 ### CVE-2017-7308 (2017-03-29)
 
