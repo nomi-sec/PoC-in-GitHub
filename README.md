@@ -3973,6 +3973,7 @@
 - [wubinworks/magento2-cosmic-sting-patch](https://github.com/wubinworks/magento2-cosmic-sting-patch)
 - [EQSTLab/CVE-2024-34102](https://github.com/EQSTLab/CVE-2024-34102)
 - [Jhonsonwannaa/CVE-2024-34102](https://github.com/Jhonsonwannaa/CVE-2024-34102)
+- [bka/magento-cve-2024-34102-exploit-cosmicstring](https://github.com/bka/magento-cve-2024-34102-exploit-cosmicstring)
 
 ### CVE-2024-34144 (2024-05-02)
 
@@ -22012,7 +22013,6 @@
 - [tiagob0b/CVE-2021-22005](https://github.com/tiagob0b/CVE-2021-22005)
 - [Jun-5heng/CVE-2021-22005](https://github.com/Jun-5heng/CVE-2021-22005)
 - [shmilylty/cve-2021-22005-exp](https://github.com/shmilylty/cve-2021-22005-exp)
-- [timb-machine-mirrors/testanull-CVE-2021-22005.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-22005.py)
 - [InventorMAO/cve-2021-22005](https://github.com/InventorMAO/cve-2021-22005)
 
 ### CVE-2021-22006 (2021-09-23)
@@ -23724,6 +23724,7 @@
 </code>
 
 - [CarlosG13/CVE-2021-33026](https://github.com/CarlosG13/CVE-2021-33026)
+- [Agilevatester/FlaskCache_CVE-2021-33026_POC](https://github.com/Agilevatester/FlaskCache_CVE-2021-33026_POC)
 
 ### CVE-2021-33034 (2021-05-14)
 
@@ -25481,7 +25482,6 @@
 </code>
 
 - [DarkSprings/CVE-2021-42321](https://github.com/DarkSprings/CVE-2021-42321)
-- [timb-machine-mirrors/testanull-CVE-2021-42321_poc.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-42321_poc.py)
 - [xnyuq/cve-2021-42321](https://github.com/xnyuq/cve-2021-42321)
 - [7BitsTeam/exch_CVE-2021-42321](https://github.com/7BitsTeam/exch_CVE-2021-42321)
 
@@ -26462,6 +26462,7 @@
 - [asd58584388/CVE-2021-44228](https://github.com/asd58584388/CVE-2021-44228)
 - [OtisSymbos/CVE-2021-44228-Log4Shell-](https://github.com/OtisSymbos/CVE-2021-44228-Log4Shell-)
 - [safeer-accuknox/log4j-shell-poc](https://github.com/safeer-accuknox/log4j-shell-poc)
+- [Carlos-Mesquita/TPASLog4ShellPoC](https://github.com/Carlos-Mesquita/TPASLog4ShellPoC)
 
 ### CVE-2021-44255 (2022-01-31)
 
