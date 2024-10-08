@@ -52,6 +52,7 @@
 - [nexussecelite/EvilDroid](https://github.com/nexussecelite/EvilDroid)
 - [nahid0x1/CVE-2024-0044](https://github.com/nahid0x1/CVE-2024-0044)
 - [MrW0l05zyn/cve-2024-0044](https://github.com/MrW0l05zyn/cve-2024-0044)
+- [canyie/CVE-2024-0044](https://github.com/canyie/CVE-2024-0044)
 
 ### CVE-2024-0049 (2024-03-11)
 
@@ -1510,7 +1511,6 @@
 
 ### CVE-2024-8353
 - [EQSTLab/CVE-2024-8353](https://github.com/EQSTLab/CVE-2024-8353)
-- [p33d/CVE-2024-8353](https://github.com/p33d/CVE-2024-8353)
 - [nothe1senberg/CVE-2024-8353](https://github.com/nothe1senberg/CVE-2024-8353)
 
 ### CVE-2024-8484
@@ -5060,6 +5060,9 @@
 
 - [KTN1990/CVE-2024-43160](https://github.com/KTN1990/CVE-2024-43160)
 
+### CVE-2024-43363
+- [p33d/CVE-2024-43363](https://github.com/p33d/CVE-2024-43363)
+
 ### CVE-2024-43425
 - [RedTeamPentesting/moodle-rce-calculatedquestions](https://github.com/RedTeamPentesting/moodle-rce-calculatedquestions)
 
@@ -5481,9 +5484,6 @@
 </code>
 
 - [seifallahhomrani1/CVE-2023-0861-POC](https://github.com/seifallahhomrani1/CVE-2023-0861-POC)
-
-### CVE-2023-420
-- [WiwiSinta/CVE-2023-420](https://github.com/WiwiSinta/CVE-2023-420)
 
 ### CVE-2023-422
 - [HusenjanDev/CVE-2023-422-Chamilo-LMS-RCE](https://github.com/HusenjanDev/CVE-2023-422-Chamilo-LMS-RCE)
