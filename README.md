@@ -294,6 +294,13 @@
 
 - [enessakircolak/CVE-2024-1112](https://github.com/enessakircolak/CVE-2024-1112)
 
+### CVE-2024-1207 (2024-02-08)
+
+<code>The WP Booking Calendar plugin for WordPress is vulnerable to SQL Injection via the 'calendar_request_params[dates_ddmmyy_csv]' parameter in all versions up to, and including, 9.9 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [sahar042/CVE-2024-1207](https://github.com/sahar042/CVE-2024-1207)
+
 ### CVE-2024-1208 (2024-02-05)
 
 <code>The LearnDash LMS plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 4.10.2 via API. This makes it possible for unauthenticated attackers to obtain access to quiz questions.
@@ -1388,6 +1395,7 @@
 
 - [bigherocenter/CVE-2024-7029-EXPLOIT](https://github.com/bigherocenter/CVE-2024-7029-EXPLOIT)
 - [ebrasha/CVE-2024-7029](https://github.com/ebrasha/CVE-2024-7029)
+- [geniuszlyy/CVE-2024-7029](https://github.com/geniuszlyy/CVE-2024-7029)
 
 ### CVE-2024-7094 (2024-08-13)
 
@@ -3741,6 +3749,7 @@
 - [Masamuneee/hook](https://github.com/Masamuneee/hook)
 - [Masamuneee/CVE-2024-32002-POC](https://github.com/Masamuneee/CVE-2024-32002-POC)
 - [th4s1s/CVE-2024-32002-PoC](https://github.com/th4s1s/CVE-2024-32002-PoC)
+- [Julian-gmz/hook_CVE-2024-32002](https://github.com/Julian-gmz/hook_CVE-2024-32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -6809,6 +6818,7 @@
 - [mochammadrafi/CVE-2023-7028](https://github.com/mochammadrafi/CVE-2023-7028)
 - [hackeremmen/gitlab-exploit](https://github.com/hackeremmen/gitlab-exploit)
 - [soltanali0/CVE-2023-7028](https://github.com/soltanali0/CVE-2023-7028)
+- [fa-rrel/CVE-2023-7028](https://github.com/fa-rrel/CVE-2023-7028)
 
 ### CVE-2023-7172 (2023-12-30)
 
@@ -12524,6 +12534,13 @@
 
 - [Freax13/cve-2023-46813-poc](https://github.com/Freax13/cve-2023-46813-poc)
 
+### CVE-2023-46818 (2023-10-27)
+
+<code>An issue was discovered in ISPConfig before 3.2.11p1. PHP code injection can be achieved in the language file editor by an admin if admin_allow_langedit is enabled.
+</code>
+
+- [bipbopbup/CVE-2023-46818-python-exploit](https://github.com/bipbopbup/CVE-2023-46818-python-exploit)
+
 ### CVE-2023-46865 (2023-10-30)
 
 <code>/api/v1/company/upload-logo in CompanyController.php in crater through 6.0.6 allows a superadmin to execute arbitrary PHP code by placing this code into an image/png IDAT chunk of a Company Logo image.
@@ -14850,7 +14867,7 @@
 
 - [Audiobahn/CVE-2022-20699](https://github.com/Audiobahn/CVE-2022-20699)
 - [puckiestyle/CVE-2022-20699](https://github.com/puckiestyle/CVE-2022-20699)
-- [rohankumardubey/CVE-2022-20699](https://github.com/rohankumardubey/CVE-2022-20699)
+- [rohan-flutterint/CVE-2022-20699](https://github.com/rohan-flutterint/CVE-2022-20699)
 
 ### CVE-2022-20818 (2022-09-30)
 
@@ -26301,7 +26318,7 @@
 - [obscuritylabs/log4shell-poc-lab](https://github.com/obscuritylabs/log4shell-poc-lab)
 - [Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228](https://github.com/Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228)
 - [Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE](https://github.com/Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE)
-- [rohankumardubey/CVE-2021-44228_scanner](https://github.com/rohankumardubey/CVE-2021-44228_scanner)
+- [rohan-flutterint/CVE-2021-44228_scanner](https://github.com/rohan-flutterint/CVE-2021-44228_scanner)
 - [sysadmin0815/Fix-Log4j-PowershellScript](https://github.com/sysadmin0815/Fix-Log4j-PowershellScript)
 - [RenYuH/log4j-lookups-vulnerability](https://github.com/RenYuH/log4j-lookups-vulnerability)
 - [scheibling/py-log4shellscanner](https://github.com/scheibling/py-log4shellscanner)
