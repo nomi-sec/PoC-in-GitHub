@@ -4530,6 +4530,7 @@
 - [Faizan-Khanx/CVE-2024-38063](https://github.com/Faizan-Khanx/CVE-2024-38063)
 - [ArenaldyP/CVE-2024-38063-Medium](https://github.com/ArenaldyP/CVE-2024-38063-Medium)
 - [lnx-dvlpr/cve-2024-38063](https://github.com/lnx-dvlpr/cve-2024-38063)
+- [becrevex/CVE-2024-38063](https://github.com/becrevex/CVE-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
