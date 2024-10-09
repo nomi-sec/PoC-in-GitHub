@@ -1326,7 +1326,7 @@
 - [Sibijo/mitigate_ssh](https://github.com/Sibijo/mitigate_ssh)
 - [Passyed/regreSSHion-Fix](https://github.com/Passyed/regreSSHion-Fix)
 - [k4t3pr0/CVE-2024-6387-Check](https://github.com/k4t3pr0/CVE-2024-6387-Check)
-- [Jhonsonwannaa/CVE-2024-6387](https://github.com/Jhonsonwannaa/CVE-2024-6387)
+- [dream434/CVE-2024-6387](https://github.com/dream434/CVE-2024-6387)
 - [ThatNotEasy/CVE-2024-6387](https://github.com/ThatNotEasy/CVE-2024-6387)
 - [prelearn-code/CVE-2024-6387](https://github.com/prelearn-code/CVE-2024-6387)
 - [l-urk/CVE-2024-6387](https://github.com/l-urk/CVE-2024-6387)
@@ -1577,6 +1577,12 @@
 
 ### CVE-2024-9441
 - [adhikara13/CVE-2024-9441](https://github.com/adhikara13/CVE-2024-9441)
+
+### CVE-2024-9464
+- [horizon3ai/CVE-2024-9464](https://github.com/horizon3ai/CVE-2024-9464)
+
+### CVE-2024-9465
+- [horizon3ai/CVE-2024-9465](https://github.com/horizon3ai/CVE-2024-9465)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2653,6 +2659,7 @@
 - [LuisMateo1/Arbitrary-File-Read-CVE-2024-24919](https://github.com/LuisMateo1/Arbitrary-File-Read-CVE-2024-24919)
 - [AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-](https://github.com/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-)
 - [geniuszlyy/CVE-2024-24919](https://github.com/geniuszlyy/CVE-2024-24919)
+- [skyrowalker/CVE-2024-24919](https://github.com/skyrowalker/CVE-2024-24919)
 
 ### CVE-2024-25092 (2024-06-09)
 
@@ -3004,6 +3011,7 @@
 - [Stuub/RCity-CVE-2024-27198](https://github.com/Stuub/RCity-CVE-2024-27198)
 - [HPT-Intern-Task-Submission/CVE-2024-27198](https://github.com/HPT-Intern-Task-Submission/CVE-2024-27198)
 - [jrbH4CK/CVE-2024-27198](https://github.com/jrbH4CK/CVE-2024-27198)
+- [geniuszlyy/CVE-2024-27198](https://github.com/geniuszlyy/CVE-2024-27198)
 
 ### CVE-2024-27282 (-)
 
@@ -3322,7 +3330,7 @@
 - [wutalent/CVE-2024-29269](https://github.com/wutalent/CVE-2024-29269)
 - [YongYe-Security/CVE-2024-29269](https://github.com/YongYe-Security/CVE-2024-29269)
 - [Chocapikk/CVE-2024-29269](https://github.com/Chocapikk/CVE-2024-29269)
-- [Jhonsonwannaa/CVE-2024-29269](https://github.com/Jhonsonwannaa/CVE-2024-29269)
+- [dream434/CVE-2024-29269](https://github.com/dream434/CVE-2024-29269)
 - [K3ysTr0K3R/CVE-2024-29269-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-29269-EXPLOIT)
 - [hack-with-rohit/CVE-2024-29269-RCE](https://github.com/hack-with-rohit/CVE-2024-29269-RCE)
 - [Quantum-Hacker/CVE-2024-29269](https://github.com/Quantum-Hacker/CVE-2024-29269)
@@ -3656,7 +3664,7 @@
 </code>
 
 - [Chocapikk/CVE-2024-31819](https://github.com/Chocapikk/CVE-2024-31819)
-- [Jhonsonwannaa/CVE-2024-31819](https://github.com/Jhonsonwannaa/CVE-2024-31819)
+- [dream434/CVE-2024-31819](https://github.com/dream434/CVE-2024-31819)
 
 ### CVE-2024-31835
 - [paragbagul111/CVE-2024-31835](https://github.com/paragbagul111/CVE-2024-31835)
@@ -3979,7 +3987,7 @@
 - [Phantom-IN/CVE-2024-34102](https://github.com/Phantom-IN/CVE-2024-34102)
 - [wubinworks/magento2-cosmic-sting-patch](https://github.com/wubinworks/magento2-cosmic-sting-patch)
 - [EQSTLab/CVE-2024-34102](https://github.com/EQSTLab/CVE-2024-34102)
-- [Jhonsonwannaa/CVE-2024-34102](https://github.com/Jhonsonwannaa/CVE-2024-34102)
+- [dream434/CVE-2024-34102](https://github.com/dream434/CVE-2024-34102)
 - [bka/magento-cve-2024-34102-exploit-cosmicstring](https://github.com/bka/magento-cve-2024-34102-exploit-cosmicstring)
 
 ### CVE-2024-34144 (2024-05-02)
@@ -5091,6 +5099,9 @@
 
 ### CVE-2024-43425
 - [RedTeamPentesting/moodle-rce-calculatedquestions](https://github.com/RedTeamPentesting/moodle-rce-calculatedquestions)
+
+### CVE-2024-43582
+- [jinxongwi/CVE-2024-43582-RCE](https://github.com/jinxongwi/CVE-2024-43582-RCE)
 
 ### CVE-2024-43917 (2024-08-29)
 
@@ -6698,6 +6709,13 @@
 </code>
 
 - [dywsy21/CVE-2023-6350_Reproduction](https://github.com/dywsy21/CVE-2023-6350_Reproduction)
+
+### CVE-2023-6421 (2024-01-01)
+
+<code>The Download Manager WordPress plugin before 3.2.83 does not protect file download's passwords, leaking it upon receiving an invalid one.
+</code>
+
+- [RandomRobbieBF/CVE-2023-6421](https://github.com/RandomRobbieBF/CVE-2023-6421)
 
 ### CVE-2023-6444 (2024-03-11)
 
@@ -8315,7 +8333,7 @@
 
 - [nuts7/CVE-2023-27372](https://github.com/nuts7/CVE-2023-27372)
 - [Chocapikk/CVE-2023-27372](https://github.com/Chocapikk/CVE-2023-27372)
-- [Jhonsonwannaa/CVE-2023-27372](https://github.com/Jhonsonwannaa/CVE-2023-27372)
+- [dream434/CVE-2023-27372](https://github.com/dream434/CVE-2023-27372)
 - [0SPwn/CVE-2023-27372-PoC](https://github.com/0SPwn/CVE-2023-27372-PoC)
 - [izzz0/CVE-2023-27372-POC](https://github.com/izzz0/CVE-2023-27372-POC)
 - [ThatNotEasy/CVE-2023-27372](https://github.com/ThatNotEasy/CVE-2023-27372)
@@ -25399,7 +25417,7 @@
 - [K3ysTr0K3R/CVE-2021-42013-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-42013-EXPLOIT)
 - [BassoNicolas/CVE-2021-42013](https://github.com/BassoNicolas/CVE-2021-42013)
 - [rafifdna/CVE-2021-42013](https://github.com/rafifdna/CVE-2021-42013)
-- [Jhonsonwannaa/cve-2021-42013-apache](https://github.com/Jhonsonwannaa/cve-2021-42013-apache)
+- [dream434/cve-2021-42013-apache](https://github.com/dream434/cve-2021-42013-apache)
 - [bananoname/cve-2021-42013](https://github.com/bananoname/cve-2021-42013)
 
 ### CVE-2021-42056 (2022-06-24)
@@ -40282,7 +40300,7 @@
 - [SeasonLeague/CVE-2017-5487](https://github.com/SeasonLeague/CVE-2017-5487)
 - [Ravindu-Priyankara/CVE-2017-5487-vulnerability-on-NSBM](https://github.com/Ravindu-Priyankara/CVE-2017-5487-vulnerability-on-NSBM)
 - [K3ysTr0K3R/CVE-2017-5487-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-5487-EXPLOIT)
-- [Jhonsonwannaa/CVE-2017-5487](https://github.com/Jhonsonwannaa/CVE-2017-5487)
+- [dream434/CVE-2017-5487](https://github.com/dream434/CVE-2017-5487)
 
 ### CVE-2017-5633 (2017-03-06)
 
@@ -41161,7 +41179,7 @@
 - [p1ckzi/CVE-2017-9841](https://github.com/p1ckzi/CVE-2017-9841)
 - [jax7sec/CVE-2017-9841](https://github.com/jax7sec/CVE-2017-9841)
 - [mileticluka1/eval-stdin](https://github.com/mileticluka1/eval-stdin)
-- [Jhonsonwannaa/CVE-2017-9841-](https://github.com/Jhonsonwannaa/CVE-2017-9841-)
+- [dream434/CVE-2017-9841-](https://github.com/dream434/CVE-2017-9841-)
 - [MadExploits/PHPunit-Exploit](https://github.com/MadExploits/PHPunit-Exploit)
 - [MrG3P5/CVE-2017-9841](https://github.com/MrG3P5/CVE-2017-9841)
 - [Chocapikk/CVE-2017-9841](https://github.com/Chocapikk/CVE-2017-9841)
