@@ -30236,6 +30236,7 @@
 
 - [c0brabaghdad1/CVE-2020-14179](https://github.com/c0brabaghdad1/CVE-2020-14179)
 - [mrnazu/CVE-2020-14179](https://github.com/mrnazu/CVE-2020-14179)
+- [0x0060/CVE-2020-14179](https://github.com/0x0060/CVE-2020-14179)
 
 ### CVE-2020-14181 (2020-09-17)
 
