@@ -536,6 +536,7 @@
 - [c0d3zilla/CVE-2024-2876](https://github.com/c0d3zilla/CVE-2024-2876)
 - [Quantum-Hacker/CVE-2024-2876](https://github.com/Quantum-Hacker/CVE-2024-2876)
 - [0xAgun/CVE-2024-2876](https://github.com/0xAgun/CVE-2024-2876)
+- [skyrowalker/CVE-2024-2876](https://github.com/skyrowalker/CVE-2024-2876)
 
 ### CVE-2024-2879 (2024-04-03)
 
@@ -4681,7 +4682,7 @@
 </code>
 
 - [weliveby/cve-2024-38816-demo](https://github.com/weliveby/cve-2024-38816-demo)
-- [masa42/CVE-2024-38816-PoC](https://github.com/masa42/CVE-2024-38816-PoC)
+- [WULINPIN/CVE-2024-38816-PoC](https://github.com/WULINPIN/CVE-2024-38816-PoC)
 
 ### CVE-2024-38856 (2024-08-05)
 
