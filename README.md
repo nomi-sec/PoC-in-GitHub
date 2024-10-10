@@ -4681,7 +4681,7 @@
 <code>Applications serving static resources through the functional web frameworks WebMvc.fn or WebFlux.fn are vulnerable to path traversal attacks. An attacker can craft malicious HTTP requests and obtain any file on the file system that is also accessible to the process in which the Spring application is running.\n\nSpecifically, an application is vulnerable when both of the following are true:\n\n  *  the web application uses RouterFunctions to serve static resources\n  *  resource handling is explicitly configured with a FileSystemResource location\n\n\nHowever, malicious requests are blocked and rejected when any of the following is true:\n\n  *  the  Spring Security HTTP Firewall https://docs.spring.io/spring-security/reference/servlet/exploits/firewall.html  is in use\n  *  the application runs on Tomcat or Jetty
 </code>
 
-- [weliveby/cve-2024-38816-demo](https://github.com/weliveby/cve-2024-38816-demo)
+- [startsw1th/cve-2024-38816-demo](https://github.com/startsw1th/cve-2024-38816-demo)
 - [WULINPIN/CVE-2024-38816-PoC](https://github.com/WULINPIN/CVE-2024-38816-PoC)
 
 ### CVE-2024-38856 (2024-08-05)
@@ -4800,7 +4800,6 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-39943-Poc](https://github.com/truonghuuphuc/CVE-2024-39943-Poc)
-- [A-little-dragon/CVE-2024-39943-Exploit](https://github.com/A-little-dragon/CVE-2024-39943-Exploit)
 
 ### CVE-2024-40080
 - [perras/CVE-2024-40080](https://github.com/perras/CVE-2024-40080)
@@ -5289,6 +5288,9 @@
 
 ### CVE-2024-45614
 - [ooooooo-q/puma_header_normalization-CVE-2024-45614](https://github.com/ooooooo-q/puma_header_normalization-CVE-2024-45614)
+
+### CVE-2024-46209
+- [h4ckr4v3n/CVE-2024-46209](https://github.com/h4ckr4v3n/CVE-2024-46209)
 
 ### CVE-2024-46256
 - [barttran2k/POC_CVE-2024-46256](https://github.com/barttran2k/POC_CVE-2024-46256)
@@ -29265,6 +29267,7 @@
 - [0dayCTF/CVE-2020-9484](https://github.com/0dayCTF/CVE-2020-9484)
 - [Disturbante/CVE-2020-9484](https://github.com/Disturbante/CVE-2020-9484)
 - [deathquote/CVE-2020-9484](https://github.com/deathquote/CVE-2020-9484)
+- [savsch/PoC_CVE-2020-9484](https://github.com/savsch/PoC_CVE-2020-9484)
 
 ### CVE-2020-9495 (2020-06-19)
 
@@ -32323,6 +32326,13 @@
 </code>
 
 - [ozkanbilge/Apache-Exploit-2019](https://github.com/ozkanbilge/Apache-Exploit-2019)
+
+### CVE-2019-0217 (2019-04-08)
+
+<code>In Apache HTTP Server 2.4 release 2.4.38 and prior, a race condition in mod_auth_digest when running in a threaded server could allow a user with valid credentials to authenticate using another username, bypassing configured access control restrictions.
+</code>
+
+- [savsch/PoC_CVE-2019-0217](https://github.com/savsch/PoC_CVE-2019-0217)
 
 ### CVE-2019-0227 (2019-05-01)
 
