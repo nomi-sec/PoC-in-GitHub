@@ -896,6 +896,7 @@
 - [MielPopsssssss/CVE-2024-4439](https://github.com/MielPopsssssss/CVE-2024-4439)
 - [d0rb/CVE-2024-4439](https://github.com/d0rb/CVE-2024-4439)
 - [xssor-dz/-CVE-2024-4439](https://github.com/xssor-dz/-CVE-2024-4439)
+- [soltanali0/CVE-2024-4439](https://github.com/soltanali0/CVE-2024-4439)
 
 ### CVE-2024-4443 (2024-05-22)
 
@@ -1363,13 +1364,6 @@
 
 - [RandomRobbieBF/CVE-2024-6624](https://github.com/RandomRobbieBF/CVE-2024-6624)
 
-### CVE-2024-6646 (2024-07-10)
-
-<code>Eine problematische Schwachstelle wurde in Netgear WN604 bis 20240710 ausgemacht. Dies betrifft einen unbekannten Teil der Datei /downloadFile.php der Komponente Web Interface. Dank Manipulation des Arguments file mit der Eingabe config mit unbekannten Daten kann eine information disclosure-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [inviewp/CVE-2024-6646](https://github.com/inviewp/CVE-2024-6646)
-
 ### CVE-2024-6670 (2024-08-29)
 
 <code>In WhatsUp Gold versions released before 2024.0.0, a SQL Injection vulnerability allows an unauthenticated attacker to retrieve the users encrypted password.
@@ -1554,6 +1548,9 @@
 
 - [Avento/CVE-2024-8522](https://github.com/Avento/CVE-2024-8522)
 
+### CVE-2024-8698
+- [huydoppaz/CVE-2024-8698-POC](https://github.com/huydoppaz/CVE-2024-8698-POC)
+
 ### CVE-2024-8752 (2024-09-16)
 
 <code>The Windows version of WebIQ 2.15.9 is affected by a directory traversal vulnerability that allows remote attackers to read any file on the system.
@@ -1584,6 +1581,7 @@
 
 ### CVE-2024-9465
 - [horizon3ai/CVE-2024-9465](https://github.com/horizon3ai/CVE-2024-9465)
+- [mustafaakalin/CVE-2024-9465](https://github.com/mustafaakalin/CVE-2024-9465)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -3869,7 +3867,6 @@
 - [Stuub/CVE-2024-32640-SQLI-MuraCMS](https://github.com/Stuub/CVE-2024-32640-SQLI-MuraCMS)
 - [0xYumeko/CVE-2024-32640-SQLI-MuraCMS](https://github.com/0xYumeko/CVE-2024-32640-SQLI-MuraCMS)
 - [sammings/CVE-2024-32640](https://github.com/sammings/CVE-2024-32640)
-- [inviewp/CVE-2024-32640](https://github.com/inviewp/CVE-2024-32640)
 
 ### CVE-2024-32651 (2024-04-25)
 
@@ -6022,7 +6019,6 @@
 
 - [yuanjinyuyuyu/CVE-2023-3450](https://github.com/yuanjinyuyuyu/CVE-2023-3450)
 - [caopengyan/CVE-2023-3450](https://github.com/caopengyan/CVE-2023-3450)
-- [inviewp/CVE-2023-3450](https://github.com/inviewp/CVE-2023-3450)
 
 ### CVE-2023-3452 (2023-08-12)
 
@@ -6147,7 +6143,6 @@
 </code>
 
 - [mvpyyds/CVE-2023-4165](https://github.com/mvpyyds/CVE-2023-4165)
-- [inviewp/CVE-2023-4165](https://github.com/inviewp/CVE-2023-4165)
 
 ### CVE-2023-4166 (2023-08-05)
 
@@ -6155,7 +6150,6 @@
 </code>
 
 - [mvpyyds/CVE-2023-4166](https://github.com/mvpyyds/CVE-2023-4166)
-- [inviewp/CVE-2023-4166](https://github.com/inviewp/CVE-2023-4166)
 
 ### CVE-2023-4169 (2023-08-05)
 
@@ -12689,7 +12683,6 @@
 
 - [vnxdtzip/CVE-2023-47253](https://github.com/vnxdtzip/CVE-2023-47253)
 - [OpenXP-Research/CVE-2023-47253](https://github.com/OpenXP-Research/CVE-2023-47253)
-- [inviewp/Qualitor_CVE-2023-47253](https://github.com/inviewp/Qualitor_CVE-2023-47253)
 
 ### CVE-2023-47355 (2024-02-05)
 
