@@ -1609,6 +1609,12 @@
 - [horizon3ai/CVE-2024-9465](https://github.com/horizon3ai/CVE-2024-9465)
 - [mustafaakalin/CVE-2024-9465](https://github.com/mustafaakalin/CVE-2024-9465)
 
+### CVE-2024-9570
+- [dylvie/CVE-2024-9570_D-Link-DIR-619L-bof](https://github.com/dylvie/CVE-2024-9570_D-Link-DIR-619L-bof)
+
+### CVE-2024-9821
+- [RandomRobbieBF/CVE-2024-9821](https://github.com/RandomRobbieBF/CVE-2024-9821)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -2196,6 +2202,7 @@
 
 - [nothe1senberg/CVE-2024-23113](https://github.com/nothe1senberg/CVE-2024-23113)
 - [OxLmahdi/cve-2024-23113](https://github.com/OxLmahdi/cve-2024-23113)
+- [CheckCve2/CVE-2024-23113](https://github.com/CheckCve2/CVE-2024-23113)
 
 ### CVE-2024-23208 (2024-01-23)
 
@@ -5041,6 +5048,9 @@
 
 - [fevar54/CVE-2024-42461](https://github.com/fevar54/CVE-2024-42461)
 
+### CVE-2024-42640
+- [rvizx/CVE-2024-42640](https://github.com/rvizx/CVE-2024-42640)
+
 ### CVE-2024-42642 (2024-09-04)
 
 <code>Micron Crucial MX500 Series Solid State Drives M3CR046 is vulnerable to Buffer Overflow, which can be triggered by sending specially crafted ATA packets from the host to the drive controller.
@@ -5355,6 +5365,9 @@
 
 ### CVE-2024-46658
 - [jackalkarlos/CVE-2024-46658](https://github.com/jackalkarlos/CVE-2024-46658)
+
+### CVE-2024-46901
+- [devhaozi/CVE-2024-46901](https://github.com/devhaozi/CVE-2024-46901)
 
 ### CVE-2024-46986
 - [vidura2/CVE-2024-46986](https://github.com/vidura2/CVE-2024-46986)
@@ -6086,7 +6099,6 @@
 - [securekomodo/citrixInspector](https://github.com/securekomodo/citrixInspector)
 - [mr-r3b00t/CVE-2023-3519](https://github.com/mr-r3b00t/CVE-2023-3519)
 - [d0rb/CVE-2023-3519](https://github.com/d0rb/CVE-2023-3519)
-- [dorkerdevil/CitrixFall](https://github.com/dorkerdevil/CitrixFall)
 - [BishopFox/CVE-2023-3519](https://github.com/BishopFox/CVE-2023-3519)
 - [SalehLardhi/CVE-2023-3519](https://github.com/SalehLardhi/CVE-2023-3519)
 - [KR0N-SECURITY/CVE-2023-3519](https://github.com/KR0N-SECURITY/CVE-2023-3519)
@@ -10441,6 +10453,7 @@
 - [ifconfig-me/CVE-2023-36845](https://github.com/ifconfig-me/CVE-2023-36845)
 - [e11i0t4lders0n/CVE-2023-36845](https://github.com/e11i0t4lders0n/CVE-2023-36845)
 - [Vignesh2712/Automation-for-Juniper-cve-2023-36845](https://github.com/Vignesh2712/Automation-for-Juniper-cve-2023-36845)
+- [functionofpwnosec/CVE-2023-36845](https://github.com/functionofpwnosec/CVE-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -14132,6 +14145,7 @@
 - [Grazee/CVE-2022-1329-WordPress-Elementor-RCE](https://github.com/Grazee/CVE-2022-1329-WordPress-Elementor-RCE)
 - [dexit/CVE-2022-1329](https://github.com/dexit/CVE-2022-1329)
 - [phanthibichtram12/CVE-2022-1329](https://github.com/phanthibichtram12/CVE-2022-1329)
+- [AgustinESI/CVE-2022-1329](https://github.com/AgustinESI/CVE-2022-1329)
 
 ### CVE-2022-1364 (2022-07-26)
 
@@ -22716,7 +22730,7 @@
 - [GlennPegden2/cve-2021-26084-confluence](https://github.com/GlennPegden2/cve-2021-26084-confluence)
 - [toowoxx/docker-confluence-patched](https://github.com/toowoxx/docker-confluence-patched)
 - [nizar0x1f/CVE-2021-26084-patch-](https://github.com/nizar0x1f/CVE-2021-26084-patch-)
-- [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
+- [attacker-codeninja/CVE-2021-26084](https://github.com/attacker-codeninja/CVE-2021-26084)
 - [ludy-dev/CVE-2021-26084_PoC](https://github.com/ludy-dev/CVE-2021-26084_PoC)
 - [wdjcy/CVE-2021-26084](https://github.com/wdjcy/CVE-2021-26084)
 - [orangmuda/CVE-2021-26084](https://github.com/orangmuda/CVE-2021-26084)
@@ -22764,13 +22778,6 @@
 </code>
 
 - [zwclose/CVE-2021-26258](https://github.com/zwclose/CVE-2021-26258)
-
-### CVE-2021-26294 (2021-03-07)
-
-<code>An issue was discovered in AfterLogic Aurora through 7.7.9 and WebMail Pro through 7.7.9. They allow directory traversal to read files (such as a data/settings/settings.xml file containing admin panel credentials), as demonstrated by dav/server.php/files/personal/%2e%2e when using the caldav_public_user account (with caldav_public_user as its password).
-</code>
-
-- [dorkerdevil/CVE-2021-26294](https://github.com/dorkerdevil/CVE-2021-26294)
 
 ### CVE-2021-26295 (2021-03-22)
 
@@ -23804,7 +23811,7 @@
 </code>
 
 - [bp2008/DahuaLoginBypass](https://github.com/bp2008/DahuaLoginBypass)
-- [dorkerdevil/CVE-2021-33044](https://github.com/dorkerdevil/CVE-2021-33044)
+- [Spy0x7/CVE-2021-33044](https://github.com/Spy0x7/CVE-2021-33044)
 - [Alonzozzz/alonzzzo](https://github.com/Alonzozzz/alonzzzo)
 - [haingn/LoHongCam-CVE-2021-33044](https://github.com/haingn/LoHongCam-CVE-2021-33044)
 
@@ -24266,9 +24273,15 @@
 
 - [sma11new/PocList](https://github.com/sma11new/PocList)
 - [BrucessKING/CVE-2021-36749](https://github.com/BrucessKING/CVE-2021-36749)
-- [dorkerdevil/CVE-2021-36749](https://github.com/dorkerdevil/CVE-2021-36749)
 - [zwlsix/apache_druid_CVE-2021-36749](https://github.com/zwlsix/apache_druid_CVE-2021-36749)
 - [Jun-5heng/CVE-2021-36749](https://github.com/Jun-5heng/CVE-2021-36749)
+
+### CVE-2021-36750 (2021-12-22)
+
+<code>ENC DataVault before 7.2 and VaultAPI v67 mishandle key derivation, making it easier for attackers to determine the passwords of all DataVault users (across USB drives sold under multiple brand names).
+</code>
+
+- [mamba-4-ever/CVE-2021-36750](https://github.com/mamba-4-ever/CVE-2021-36750)
 
 ### CVE-2021-36782 (2022-09-07)
 
@@ -24989,8 +25002,8 @@
 <code>Backdoors were discovered in Auerswald COMpact 5500R 7.8A and 8.0B devices, that allow attackers with access to the web based management application full administrative access to the device.
 </code>
 
-- [dorkerdevil/CVE-2021-40859](https://github.com/dorkerdevil/CVE-2021-40859)
 - [419066074/CVE-2021-40859](https://github.com/419066074/CVE-2021-40859)
+- [0xr001/CVE-2021-40859](https://github.com/0xr001/CVE-2021-40859)
 - [pussycat0x/CVE-2021-40859](https://github.com/pussycat0x/CVE-2021-40859)
 
 ### CVE-2021-40865 (2021-10-25)
@@ -42909,6 +42922,7 @@
 - [KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow)
 - [DanielEbert/CVE-2016-5195](https://github.com/DanielEbert/CVE-2016-5195)
 - [arttnba3/CVE-2016-5195](https://github.com/arttnba3/CVE-2016-5195)
+- [talsim/root-dirtyc0w](https://github.com/talsim/root-dirtyc0w)
 - [KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability](https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability)
 - [th3-5had0w/DirtyCOW-PoC](https://github.com/th3-5had0w/DirtyCOW-PoC)
 - [r1is/CVE-2022-0847](https://github.com/r1is/CVE-2022-0847)
@@ -45264,6 +45278,9 @@
 </code>
 
 - [aimoda/hitron-cfg-decrypter](https://github.com/aimoda/hitron-cfg-decrypter)
+
+### CVE-2014-91371
+- [jamaal001/CVE-2014-91371-Wordpress-](https://github.com/jamaal001/CVE-2014-91371-Wordpress-)
 
 
 ## 2013
