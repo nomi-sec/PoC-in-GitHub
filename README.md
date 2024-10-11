@@ -1582,6 +1582,7 @@
 ### CVE-2024-9441
 - [adhikara13/CVE-2024-9441](https://github.com/adhikara13/CVE-2024-9441)
 - [abhishekrautela/CVE-2024-9441](https://github.com/abhishekrautela/CVE-2024-9441)
+- [p33d/CVE-2024-9441](https://github.com/p33d/CVE-2024-9441)
 
 ### CVE-2024-9463
 - [nothe1senberg/CVE-2024-9463](https://github.com/nothe1senberg/CVE-2024-9463)
@@ -3487,6 +3488,7 @@
 - [k3lpi3b4nsh33/CVE-2024-29973](https://github.com/k3lpi3b4nsh33/CVE-2024-29973)
 - [p0et08/CVE-2024-29973](https://github.com/p0et08/CVE-2024-29973)
 - [RevoltSecurities/CVE-2024-29973](https://github.com/RevoltSecurities/CVE-2024-29973)
+- [skyrowalker/CVE-2024-29973](https://github.com/skyrowalker/CVE-2024-29973)
 
 ### CVE-2024-29988 (2024-04-09)
 
