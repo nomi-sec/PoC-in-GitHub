@@ -1172,6 +1172,7 @@
 
 - [0xb0mb3r/CVE-2024-5932-PoC](https://github.com/0xb0mb3r/CVE-2024-5932-PoC)
 - [EQSTLab/CVE-2024-5932](https://github.com/EQSTLab/CVE-2024-5932)
+- [OxLmahdi/cve-2024-5932](https://github.com/OxLmahdi/cve-2024-5932)
 
 ### CVE-2024-5947 (2024-06-13)
 
@@ -1413,6 +1414,13 @@
 
 - [fa-rrel/CVE-2024-7120](https://github.com/fa-rrel/CVE-2024-7120)
 
+### CVE-2024-7135 (2024-07-31)
+
+<code>The Tainacan plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the 'get_file' function in all versions up to, and including, 0.21.7. The function is also vulnerable to directory traversal. This makes it possible for authenticated attackers, with Subscriber-level access and above, to read the contents of arbitrary files on the server, which can contain sensitive information.
+</code>
+
+- [RandomRobbieBF/CVE-2024-7135](https://github.com/RandomRobbieBF/CVE-2024-7135)
+
 ### CVE-2024-7313 (2024-08-26)
 
 <code>The Shield Security  WordPress plugin before 20.0.6 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin.
@@ -1432,6 +1440,9 @@
 
 ### CVE-2024-7479
 - [PeterGabaldon/CVE-2024-7479_CVE-2024-7481](https://github.com/PeterGabaldon/CVE-2024-7479_CVE-2024-7481)
+
+### CVE-2024-7514
+- [RandomRobbieBF/CVE-2024-7514](https://github.com/RandomRobbieBF/CVE-2024-7514)
 
 ### CVE-2024-7593 (2024-08-13)
 
@@ -1572,6 +1583,9 @@
 
 ### CVE-2024-9166
 - [Andrysqui/CVE-2024-9166](https://github.com/Andrysqui/CVE-2024-9166)
+
+### CVE-2024-9224
+- [RandomRobbieBF/CVE-2024-9224](https://github.com/RandomRobbieBF/CVE-2024-9224)
 
 ### CVE-2024-9379
 - [nothe1senberg/CVE-2024-9379](https://github.com/nothe1senberg/CVE-2024-9379)
@@ -2181,6 +2195,7 @@
 </code>
 
 - [nothe1senberg/CVE-2024-23113](https://github.com/nothe1senberg/CVE-2024-23113)
+- [OxLmahdi/cve-2024-23113](https://github.com/OxLmahdi/cve-2024-23113)
 
 ### CVE-2024-23208 (2024-01-23)
 
@@ -6117,6 +6132,7 @@
 
 - [Starla2u/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK](https://github.com/Starla2u/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK)
 - [jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824)
+- [baesh3r/poc-CVE-2023-3824](https://github.com/baesh3r/poc-CVE-2023-3824)
 
 ### CVE-2023-3836 (2023-07-22)
 
