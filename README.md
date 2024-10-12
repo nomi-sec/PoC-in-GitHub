@@ -1451,6 +1451,7 @@
 
 - [rxerium/CVE-2024-7593](https://github.com/rxerium/CVE-2024-7593)
 - [D3N14LD15K/CVE-2024-7593_PoC_Exploit](https://github.com/D3N14LD15K/CVE-2024-7593_PoC_Exploit)
+- [skyrowalker/CVE-2024-7593](https://github.com/skyrowalker/CVE-2024-7593)
 
 ### CVE-2024-7646 (2024-08-16)
 
@@ -28037,6 +28038,7 @@
 - [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
 - [Warelock/cve-2020-1938](https://github.com/Warelock/cve-2020-1938)
 - [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro)
+- [s3nd3rjz/poc-CVE-2020-1938](https://github.com/s3nd3rjz/poc-CVE-2020-1938)
 
 ### CVE-2020-1947 (2020-03-11)
 
