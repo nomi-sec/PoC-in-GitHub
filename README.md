@@ -2671,7 +2671,7 @@
 - [GlobalsecureAcademy/CVE-2024-24919](https://github.com/GlobalsecureAcademy/CVE-2024-24919)
 - [nexblade12/CVE-2024-24919](https://github.com/nexblade12/CVE-2024-24919)
 - [un9nplayer/CVE-2024-24919](https://github.com/un9nplayer/CVE-2024-24919)
-- [MohamedWagdy7/CVE-2024-24919](https://github.com/MohamedWagdy7/CVE-2024-24919)
+- [0xkalawy/CVE-2024-24919](https://github.com/0xkalawy/CVE-2024-24919)
 - [Cappricio-Securities/CVE-2024-24919](https://github.com/Cappricio-Securities/CVE-2024-24919)
 - [fernandobortotti/CVE-2024-24919](https://github.com/fernandobortotti/CVE-2024-24919)
 - [nicolvsrlr27/CVE-2024-24919](https://github.com/nicolvsrlr27/CVE-2024-24919)
@@ -4474,6 +4474,9 @@
 </code>
 
 - [optistream/securenvoy-cve-2024-37393](https://github.com/optistream/securenvoy-cve-2024-37393)
+
+### CVE-2024-37404
+- [nothe1senberg/CVE-2024-37404](https://github.com/nothe1senberg/CVE-2024-37404)
 
 ### CVE-2024-37713
 - [fullbbadda1208/CVE-2024-37713](https://github.com/fullbbadda1208/CVE-2024-37713)
