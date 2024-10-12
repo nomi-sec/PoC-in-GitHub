@@ -774,6 +774,9 @@
 
 - [alperenugurlu/CVE-2024-3596-Detector](https://github.com/alperenugurlu/CVE-2024-3596-Detector)
 
+### CVE-2024-3656
+- [h4x0r-dz/CVE-2024-3656](https://github.com/h4x0r-dz/CVE-2024-3656)
+
 ### CVE-2024-3806 (2024-05-09)
 
 <code>The Porto theme for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 7.1.0 via the 'porto_ajax_posts' function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where php file type can be uploaded and included.
@@ -22092,7 +22095,6 @@
 - [tiagob0b/CVE-2021-22005](https://github.com/tiagob0b/CVE-2021-22005)
 - [Jun-5heng/CVE-2021-22005](https://github.com/Jun-5heng/CVE-2021-22005)
 - [shmilylty/cve-2021-22005-exp](https://github.com/shmilylty/cve-2021-22005-exp)
-- [timb-machine-mirrors/testanull-CVE-2021-22005.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-22005.py)
 - [InventorMAO/cve-2021-22005](https://github.com/InventorMAO/cve-2021-22005)
 
 ### CVE-2021-22006 (2021-09-23)
@@ -23206,7 +23208,6 @@
 
 - [Shadow0ps/CVE-2021-28482-Exchange-POC](https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC)
 - [KevinWorst/CVE-2021-28482_Exploit](https://github.com/KevinWorst/CVE-2021-28482_Exploit)
-- [timb-machine-mirrors/testanull-CVE-2021-28482.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-28482.py)
 
 ### CVE-2021-28663 (2021-05-10)
 
@@ -24976,6 +24977,8 @@
 
 - [DarkSprings/CVE-2021-40539](https://github.com/DarkSprings/CVE-2021-40539)
 - [synacktiv/CVE-2021-40539](https://github.com/synacktiv/CVE-2021-40539)
+- [lpyzds/CVE-2021-40539](https://github.com/lpyzds/CVE-2021-40539)
+- [lpyydxs/CVE-2021-40539](https://github.com/lpyydxs/CVE-2021-40539)
 
 ### CVE-2021-40822 (2022-05-01)
 
@@ -37377,7 +37380,6 @@
 - [twseptian/cve-2018-6574](https://github.com/twseptian/cve-2018-6574)
 - [the-valluvarsploit/CVE-2018-6574](https://github.com/the-valluvarsploit/CVE-2018-6574)
 - [yavolo/CVE-2018-6574](https://github.com/yavolo/CVE-2018-6574)
-- [ThaFWord/pentesterlab](https://github.com/ThaFWord/pentesterlab)
 - [jftierno/CVE-2018-6574](https://github.com/jftierno/CVE-2018-6574)
 - [Cypheer/exploit_CVE-2018-6574](https://github.com/Cypheer/exploit_CVE-2018-6574)
 - [jftierno/CVE-2018-6574-2](https://github.com/jftierno/CVE-2018-6574-2)
