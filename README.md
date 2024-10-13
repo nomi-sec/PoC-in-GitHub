@@ -2941,6 +2941,7 @@
 - [apkc/CVE-2024-26229-BOF](https://github.com/apkc/CVE-2024-26229-BOF)
 - [team-MineDEV/CVE-2024-26229](https://github.com/team-MineDEV/CVE-2024-26229)
 - [Cracked5pider/eop24-26229](https://github.com/Cracked5pider/eop24-26229)
+- [mqxmm/CVE-2024-26229](https://github.com/mqxmm/CVE-2024-26229)
 
 ### CVE-2024-26230 (2024-04-09)
 
@@ -35106,6 +35107,7 @@
 - [Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287](https://github.com/Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287)
 - [MariliaMeira/CVE-2019-14287](https://github.com/MariliaMeira/CVE-2019-14287)
 - [Ijinleife/CVE-2019-14287](https://github.com/Ijinleife/CVE-2019-14287)
+- [lemonadern/poc-cve-2019-14287](https://github.com/lemonadern/poc-cve-2019-14287)
 
 ### CVE-2019-14314 (2019-08-27)
 
@@ -44405,13 +44407,6 @@
 
 - [aalex954/jwt-key-confusion-poc](https://github.com/aalex954/jwt-key-confusion-poc)
 - [WinDyAlphA/CVE-2015-9235_JWT_key_confusion](https://github.com/WinDyAlphA/CVE-2015-9235_JWT_key_confusion)
-
-### CVE-2015-9238 (2018-05-31)
-
-<code>secure-compare 3.0.0 and below do not actually compare two strings properly. compare was actually comparing the first argument with itself, meaning the check passed for any two strings of the same length.
-</code>
-
-- [JamesDarf/wargame-secure_compare](https://github.com/JamesDarf/wargame-secure_compare)
 
 ### CVE-2015-9251 (2018-01-18)
 
