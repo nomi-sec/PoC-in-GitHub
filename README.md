@@ -13627,6 +13627,9 @@
 
 - [BobTheShoplifter/CVE-2023-52251-POC](https://github.com/BobTheShoplifter/CVE-2023-52251-POC)
 
+### CVE-2023-52268
+- [squ1dw3rm/CVE-2023-52268](https://github.com/squ1dw3rm/CVE-2023-52268)
+
 ### CVE-2023-52654 (2024-05-09)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nio_uring/af_unix: disable sending io_uring over sockets\n\nFile reference cycles have caused lots of problems for io_uring\nin the past, and it still doesn't work exactly right and races with\nunix_stream_read_generic(). The safest fix would be to completely\ndisallow sending io_uring files via sockets via SCM_RIGHT, so there\nare no possible cycles invloving registered files and thus rendering\nSCM accounting on the io_uring side unnecessary.
@@ -42910,7 +42913,6 @@
 - [whu-enjoy/CVE-2016-5195](https://github.com/whu-enjoy/CVE-2016-5195)
 - [firefart/dirtycow](https://github.com/firefart/dirtycow)
 - [ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195)
-- [linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195)
 - [sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195)
 - [esc0rtd3w/org.cowpoop.moooooo](https://github.com/esc0rtd3w/org.cowpoop.moooooo)
 - [hyln9/VIKIROOT](https://github.com/hyln9/VIKIROOT)
@@ -42943,6 +42945,7 @@
 - [LinuxKernelContent/DirtyCow](https://github.com/LinuxKernelContent/DirtyCow)
 - [NguyenCongHaiNam/Research-CVE-2016-5195](https://github.com/NguyenCongHaiNam/Research-CVE-2016-5195)
 - [EDLLT/CVE-2016-5195-master](https://github.com/EDLLT/CVE-2016-5195-master)
+- [ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195](https://github.com/ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195)
 - [sakilahamed/Linux-Kernel-Exploit-LAB](https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB)
 - [ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195)
 
