@@ -16579,6 +16579,7 @@
 - [xsxtw/CVE-2022-26134](https://github.com/xsxtw/CVE-2022-26134)
 - [BBD-YZZ/Confluence-RCE](https://github.com/BBD-YZZ/Confluence-RCE)
 - [cc3305/CVE-2022-26134](https://github.com/cc3305/CVE-2022-26134)
+- [Agentgilspy/CVE-2022-26134](https://github.com/Agentgilspy/CVE-2022-26134)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -30743,6 +30744,13 @@
 </code>
 
 - [S1lkys/CVE-2020-15906](https://github.com/S1lkys/CVE-2020-15906)
+
+### CVE-2020-15916 (2020-07-23)
+
+<code>goform/AdvSetLanip endpoint on Tenda AC15 AC1900 15.03.05.19 devices allows remote attackers to execute arbitrary system commands via shell metacharacters in the lanIp POST parameter.
+</code>
+
+- [geniuszlyy/CVE-2020-15916](https://github.com/geniuszlyy/CVE-2020-15916)
 
 ### CVE-2020-15931 (2020-10-20)
 
