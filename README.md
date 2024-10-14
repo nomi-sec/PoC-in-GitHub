@@ -424,6 +424,7 @@
 </code>
 
 - [kamranhasan/CVE-2024-1698-Exploit](https://github.com/kamranhasan/CVE-2024-1698-Exploit)
+- [shanglyu/CVE-2024-1698](https://github.com/shanglyu/CVE-2024-1698)
 
 ### CVE-2024-1709 (2024-02-21)
 
@@ -1446,9 +1447,6 @@
 
 - [RevoltSecurities/CVE-2024-7339](https://github.com/RevoltSecurities/CVE-2024-7339)
 
-### CVE-2024-7385
-- [nothe1senberg/CVE-2024-7385](https://github.com/nothe1senberg/CVE-2024-7385)
-
 ### CVE-2024-7479
 - [PeterGabaldon/CVE-2024-7479_CVE-2024-7481](https://github.com/PeterGabaldon/CVE-2024-7479_CVE-2024-7481)
 
@@ -1529,7 +1527,6 @@
 - [horizon3ai/CVE-2024-8190](https://github.com/horizon3ai/CVE-2024-8190)
 
 ### CVE-2024-8275
-- [nothe1senberg/CVE-2024-8275](https://github.com/nothe1senberg/CVE-2024-8275)
 - [p33d/CVE-2024-8275](https://github.com/p33d/CVE-2024-8275)
 
 ### CVE-2024-8277 (2024-09-11)
@@ -1544,7 +1541,6 @@
 
 ### CVE-2024-8353
 - [EQSTLab/CVE-2024-8353](https://github.com/EQSTLab/CVE-2024-8353)
-- [nothe1senberg/CVE-2024-8353](https://github.com/nothe1senberg/CVE-2024-8353)
 
 ### CVE-2024-8484
 - [RandomRobbieBF/CVE-2024-8484](https://github.com/RandomRobbieBF/CVE-2024-8484)
@@ -1587,9 +1583,6 @@
 ### CVE-2024-9014
 - [EQSTLab/CVE-2024-9014](https://github.com/EQSTLab/CVE-2024-9014)
 
-### CVE-2024-9080
-- [nothe1senberg/CVE-2024-9080](https://github.com/nothe1senberg/CVE-2024-9080)
-
 ### CVE-2024-9106
 - [RandomRobbieBF/CVE-2024-9106](https://github.com/RandomRobbieBF/CVE-2024-9106)
 
@@ -1599,22 +1592,12 @@
 ### CVE-2024-9224
 - [RandomRobbieBF/CVE-2024-9224](https://github.com/RandomRobbieBF/CVE-2024-9224)
 
-### CVE-2024-9379
-- [nothe1senberg/CVE-2024-9379](https://github.com/nothe1senberg/CVE-2024-9379)
-
-### CVE-2024-9380
-- [nothe1senberg/CVE-2024-9380](https://github.com/nothe1senberg/CVE-2024-9380)
-
 ### CVE-2024-9441
 - [adhikara13/CVE-2024-9441](https://github.com/adhikara13/CVE-2024-9441)
 - [p33d/CVE-2024-9441](https://github.com/p33d/CVE-2024-9441)
 
-### CVE-2024-9463
-- [nothe1senberg/CVE-2024-9463](https://github.com/nothe1senberg/CVE-2024-9463)
-
 ### CVE-2024-9464
 - [horizon3ai/CVE-2024-9464](https://github.com/horizon3ai/CVE-2024-9464)
-- [nothe1senberg/CVE-2024-9464](https://github.com/nothe1senberg/CVE-2024-9464)
 
 ### CVE-2024-9465
 - [horizon3ai/CVE-2024-9465](https://github.com/horizon3ai/CVE-2024-9465)
@@ -2211,7 +2194,6 @@
 <code>A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.
 </code>
 
-- [nothe1senberg/CVE-2024-23113](https://github.com/nothe1senberg/CVE-2024-23113)
 - [OxLmahdi/cve-2024-23113](https://github.com/OxLmahdi/cve-2024-23113)
 - [CheckCve2/CVE-2024-23113](https://github.com/CheckCve2/CVE-2024-23113)
 
@@ -3064,6 +3046,7 @@
 - [HPT-Intern-Task-Submission/CVE-2024-27198](https://github.com/HPT-Intern-Task-Submission/CVE-2024-27198)
 - [jrbH4CK/CVE-2024-27198](https://github.com/jrbH4CK/CVE-2024-27198)
 - [geniuszlyy/CVE-2024-27198](https://github.com/geniuszlyy/CVE-2024-27198)
+- [Cythonic1/CVE-2024-27198_POC](https://github.com/Cythonic1/CVE-2024-27198_POC)
 
 ### CVE-2024-27282 (-)
 
@@ -4286,9 +4269,6 @@
 
 - [varwara/CVE-2024-35250](https://github.com/varwara/CVE-2024-35250)
 
-### CVE-2024-35293
-- [nothe1senberg/CVE-2024-35293](https://github.com/nothe1senberg/CVE-2024-35293)
-
 ### CVE-2024-35315
 - [ewilded/CVE-2024-35315-POC](https://github.com/ewilded/CVE-2024-35315-POC)
 
@@ -4334,6 +4314,9 @@
 
 - [cyberaz0r/Typecho-Multiple-Vulnerabilities](https://github.com/cyberaz0r/Typecho-Multiple-Vulnerabilities)
 
+### CVE-2024-35584
+- [whwhwh96/CVE-2024-35584](https://github.com/whwhwh96/CVE-2024-35584)
+
 ### CVE-2024-36079 (-)
 
 <code>An issue was discovered in Vaultize 21.07.27. When uploading files, there is no check that the filename parameter is correct. As a result, a temporary file will be created outside the specified directory when the file is downloaded. To exploit this, an authenticated user would upload a file with an incorrect file name, and then download it.
@@ -4366,6 +4349,7 @@
 - [daniellowrie/CVE-2024-36401-PoC](https://github.com/daniellowrie/CVE-2024-36401-PoC)
 - [PunitTailor55/GeoServer-CVE-2024-36401](https://github.com/PunitTailor55/GeoServer-CVE-2024-36401)
 - [netuseradministrator/CVE-2024-36401](https://github.com/netuseradministrator/CVE-2024-36401)
+- [kkhackz0013/CVE-2024-36401](https://github.com/kkhackz0013/CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -4489,9 +4473,6 @@
 </code>
 
 - [optistream/securenvoy-cve-2024-37393](https://github.com/optistream/securenvoy-cve-2024-37393)
-
-### CVE-2024-37404
-- [nothe1senberg/CVE-2024-37404](https://github.com/nothe1senberg/CVE-2024-37404)
 
 ### CVE-2024-37713
 - [fullbbadda1208/CVE-2024-37713](https://github.com/fullbbadda1208/CVE-2024-37713)
@@ -4618,6 +4599,7 @@
 - [ArenaldyP/CVE-2024-38063-Medium](https://github.com/ArenaldyP/CVE-2024-38063-Medium)
 - [lnx-dvlpr/cve-2024-38063](https://github.com/lnx-dvlpr/cve-2024-38063)
 - [becrevex/CVE-2024-38063](https://github.com/becrevex/CVE-2024-38063)
+- [idkwastaken/CVE-2024-38063](https://github.com/idkwastaken/CVE-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
