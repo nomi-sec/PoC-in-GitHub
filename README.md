@@ -4272,6 +4272,13 @@
 
 - [KKkai0315/CVE-2024-35242](https://github.com/KKkai0315/CVE-2024-35242)
 
+### CVE-2024-35250 (2024-06-11)
+
+<code>Windows Kernel-Mode Driver Elevation of Privilege Vulnerability
+</code>
+
+- [varwara/CVE-2024-35250](https://github.com/varwara/CVE-2024-35250)
+
 ### CVE-2024-35293
 - [nothe1senberg/CVE-2024-35293](https://github.com/nothe1senberg/CVE-2024-35293)
 
@@ -13996,6 +14003,7 @@
 - [FlojBoj/CVE-2022-0944](https://github.com/FlojBoj/CVE-2022-0944)
 - [0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944](https://github.com/0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944)
 - [Robocopsita/CVE-2022-0944_RCE_POC](https://github.com/Robocopsita/CVE-2022-0944_RCE_POC)
+- [toneillcodes/poc-cve-2022-0944](https://github.com/toneillcodes/poc-cve-2022-0944)
 
 ### CVE-2022-0952 (2022-05-02)
 
