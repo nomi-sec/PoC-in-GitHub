@@ -891,6 +891,13 @@
 - [UnHackerEnCapital/PDFernetRemotelo](https://github.com/UnHackerEnCapital/PDFernetRemotelo)
 - [Masamuneee/CVE-2024-4367-Analysis](https://github.com/Masamuneee/CVE-2024-4367-Analysis)
 
+### CVE-2024-4406 (2024-05-02)
+
+<code>Xiaomi Pro 13 GetApps integral-dialog-page Cross-Site Scripting Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Xiaomi Pro 13 smartphones. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the integral-dialog-page.html file. When parsing the integralInfo parameter, the process does not properly sanitize user-supplied data, which can lead to the injection of an arbitrary script. An attacker can leverage this vulnerability to execute code in the context of the current user. Was ZDI-CAN-22332.
+</code>
+
+- [Yogehi/cve-2024-4406-xiaomi13pro-exploit-files](https://github.com/Yogehi/cve-2024-4406-xiaomi13pro-exploit-files)
+
 ### CVE-2024-4439 (2024-05-03)
 
 <code>WordPress Core is vulnerable to Stored Cross-Site Scripting via user display names in the Avatar block in various versions up to 6.5.2 due to insufficient output escaping on the display name. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. In addition, it also makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that have the comment block present and display the comment author's avatar.
@@ -972,6 +979,7 @@
 - [AhmedMansour93/Event-ID-268-Rule-Name-SOC292-Possible-PHP-Injection-Detected-CVE-2024-4577-](https://github.com/AhmedMansour93/Event-ID-268-Rule-Name-SOC292-Possible-PHP-Injection-Detected-CVE-2024-4577-)
 - [phirojshah/CVE-2024-4577](https://github.com/phirojshah/CVE-2024-4577)
 - [JeninSutradhar/CVE-2024-4577-checker](https://github.com/JeninSutradhar/CVE-2024-4577-checker)
+- [longhoangth18/CVE-2024-4577](https://github.com/longhoangth18/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -1599,7 +1607,6 @@
 
 ### CVE-2024-9441
 - [adhikara13/CVE-2024-9441](https://github.com/adhikara13/CVE-2024-9441)
-- [abhishekrautela/CVE-2024-9441](https://github.com/abhishekrautela/CVE-2024-9441)
 - [p33d/CVE-2024-9441](https://github.com/p33d/CVE-2024-9441)
 
 ### CVE-2024-9463
@@ -5880,13 +5887,6 @@
 - [Nkipohcs/CVE-2023-2640-CVE-2023-32629](https://github.com/Nkipohcs/CVE-2023-2640-CVE-2023-32629)
 - [K5LK/CVE-2023-2640-32629](https://github.com/K5LK/CVE-2023-2640-32629)
 
-### CVE-2023-2648 (2023-05-11)
-
-<code>Es wurde eine Schwachstelle in Weaver E-Office 9.5 ausgemacht. Sie wurde als kritisch eingestuft. Es geht dabei um eine nicht klar definierte Funktion der Datei /inc/jquery/uploadify/uploadify.php. Durch Beeinflussen des Arguments Filedata mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [inviewp/-E-Office_CVE-2023-2648](https://github.com/inviewp/-E-Office_CVE-2023-2648)
-
 ### CVE-2023-2650 (2023-05-30)
 
 <code>Issue summary: Processing some specially crafted ASN.1 object identifiers or\ndata containing them may be very slow.\n\nImpact summary: Applications that use OBJ_obj2txt() directly, or use any of\nthe OpenSSL subsystems OCSP, PKCS7/SMIME, CMS, CMP/CRMF or TS with no message\nsize limit may experience notable to very long delays when processing those\nmessages, which may lead to a Denial of Service.\n\nAn OBJECT IDENTIFIER is composed of a series of numbers - sub-identifiers -\nmost of which have no size limit.  OBJ_obj2txt() may be used to translate\nan ASN.1 OBJECT IDENTIFIER given in DER encoding form (using the OpenSSL\ntype ASN1_OBJECT) to its canonical numeric text form, which are the\nsub-identifiers of the OBJECT IDENTIFIER in decimal form, separated by\nperiods.\n\nWhen one of the sub-identifiers in the OBJECT IDENTIFIER is very large\n(these are sizes that are seen as absurdly large, taking up tens or hundreds\nof KiBs), the translation to a decimal number in text may take a very long\ntime.  The time complexity is O(n^2) with 'n' being the size of the\nsub-identifiers in bytes (*).\n\nWith OpenSSL 3.0, support to fetch cryptographic algorithms using names /\nidentifiers in string form was introduced.  This includes using OBJECT\nIDENTIFIERs in canonical numeric text form as identifiers for fetching\nalgorithms.\n\nSuch OBJECT IDENTIFIERs may be received through the ASN.1 structure\nAlgorithmIdentifier, which is commonly used in multiple protocols to specify\nwhat cryptographic algorithm should be used to sign or verify, encrypt or\ndecrypt, or digest passed data.\n\nApplications that call OBJ_obj2txt() directly with untrusted data are\naffected, with any version of OpenSSL.  If the use is for the mere purpose\nof display, the severity is considered low.\n\nIn OpenSSL 3.0 and newer, this affects the subsystems OCSP, PKCS7/SMIME,\nCMS, CMP/CRMF or TS.  It also impacts anything that processes X.509\ncertificates, including simple things like verifying its signature.\n\nThe impact on TLS is relatively low, because all versions of OpenSSL have a\n100KiB limit on the peer's certificate chain.  Additionally, this only\nimpacts clients, or servers that have explicitly enabled client\nauthentication.\n\nIn OpenSSL 1.1.1 and 1.0.2, this only affects displaying diverse objects,\nsuch as X.509 certificates.  This is assumed to not happen in such a way\nthat it would cause a Denial of Service, so these versions are considered\nnot affected by this issue in such a way that it would be cause for concern,\nand the severity is therefore considered low.
@@ -8400,7 +8400,6 @@
 - [ThatNotEasy/CVE-2023-27372](https://github.com/ThatNotEasy/CVE-2023-27372)
 - [redboltsec/CVE-2023-27372-PoC](https://github.com/redboltsec/CVE-2023-27372-PoC)
 - [1amthebest1/CVE-2023-27372](https://github.com/1amthebest1/CVE-2023-27372)
-- [inviewp/CVE-2023-27372](https://github.com/inviewp/CVE-2023-27372)
 
 ### CVE-2023-27470 (2023-09-11)
 
@@ -10918,7 +10917,6 @@
 - [GOTonyGO/CVE-2023-38831-winrar](https://github.com/GOTonyGO/CVE-2023-38831-winrar)
 - [Malwareman007/CVE-2023-38831](https://github.com/Malwareman007/CVE-2023-38831)
 - [ameerpornillos/CVE-2023-38831-WinRAR-Exploit](https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit)
-- [IMHarman/CVE-2023-38831](https://github.com/IMHarman/CVE-2023-38831)
 - [an040702/CVE-2023-38831](https://github.com/an040702/CVE-2023-38831)
 - [elefantesagradodeluzinfinita/cve-2023-38831](https://github.com/elefantesagradodeluzinfinita/cve-2023-38831)
 - [malvika-thakur/CVE-2023-38831](https://github.com/malvika-thakur/CVE-2023-38831)
@@ -14003,7 +14001,7 @@
 - [FlojBoj/CVE-2022-0944](https://github.com/FlojBoj/CVE-2022-0944)
 - [0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944](https://github.com/0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944)
 - [Robocopsita/CVE-2022-0944_RCE_POC](https://github.com/Robocopsita/CVE-2022-0944_RCE_POC)
-- [toneillcodes/poc-cve-2022-0944](https://github.com/toneillcodes/poc-cve-2022-0944)
+- [toneillcodes/CVE-2022-0944](https://github.com/toneillcodes/CVE-2022-0944)
 
 ### CVE-2022-0952 (2022-05-02)
 
@@ -18152,7 +18150,6 @@
 - [DrLinuxOfficial/CVE-2022-33891](https://github.com/DrLinuxOfficial/CVE-2022-33891)
 - [Vulnmachines/Apache-spark-CVE-2022-33891](https://github.com/Vulnmachines/Apache-spark-CVE-2022-33891)
 - [ps-interactive/lab_security_apache_spark_emulation_detection](https://github.com/ps-interactive/lab_security_apache_spark_emulation_detection)
-- [IMHarman/CVE-2022-33891](https://github.com/IMHarman/CVE-2022-33891)
 - [elsvital/cve-2022-33891-fix](https://github.com/elsvital/cve-2022-33891-fix)
 - [K3ysTr0K3R/CVE-2022-33891-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2022-33891-EXPLOIT)
 
