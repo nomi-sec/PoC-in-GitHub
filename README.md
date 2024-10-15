@@ -4449,6 +4449,7 @@
 
 - [Kayiyan/CVE-2024-37084-Poc](https://github.com/Kayiyan/CVE-2024-37084-Poc)
 - [vuhz/CVE-2024-37084](https://github.com/vuhz/CVE-2024-37084)
+- [Ly4j/CVE-2024-37084-Exp](https://github.com/Ly4j/CVE-2024-37084-Exp)
 
 ### CVE-2024-37085 (2024-06-25)
 
@@ -4727,6 +4728,7 @@
 
 - [startsw1th/cve-2024-38816-demo](https://github.com/startsw1th/cve-2024-38816-demo)
 - [WULINPIN/CVE-2024-38816-PoC](https://github.com/WULINPIN/CVE-2024-38816-PoC)
+- [Galaxy-system/cve-2024-38816](https://github.com/Galaxy-system/cve-2024-38816)
 
 ### CVE-2024-38856 (2024-08-05)
 
@@ -9455,6 +9457,7 @@
 </code>
 
 - [x0rb3l/CVE-2023-32560](https://github.com/x0rb3l/CVE-2023-32560)
+- [idkwastaken/CVE-2023-32560](https://github.com/idkwastaken/CVE-2023-32560)
 
 ### CVE-2023-32571 (2023-06-22)
 
@@ -14045,6 +14048,7 @@
 - [pivik271/CVE-2022-1015](https://github.com/pivik271/CVE-2022-1015)
 - [more-kohii/CVE-2022-1015](https://github.com/more-kohii/CVE-2022-1015)
 - [0range1337/CVE-2022-1015](https://github.com/0range1337/CVE-2022-1015)
+- [hoanghailongvn/CVE-2022-1015](https://github.com/hoanghailongvn/CVE-2022-1015)
 
 ### CVE-2022-1026 (2022-04-04)
 
@@ -34362,13 +34366,6 @@
 
 - [Insecurities/CVE-2019-11224](https://github.com/Insecurities/CVE-2019-11224)
 
-### CVE-2019-11248 (2019-08-29)
-
-<code>The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet healthz port. The go pprof endpoint is exposed over the Kubelet's healthz port. This debugging endpoint can potentially leak sensitive information such as internal Kubelet memory addresses and configuration, or for limited denial of service. Versions prior to 1.15.0, 1.14.4, 1.13.8, and 1.12.10 are affected. The issue is of medium severity, but not exposed by the default configuration.
-</code>
-
-- [masm3264/poc-CVE-2019-11248](https://github.com/masm3264/poc-CVE-2019-11248)
-
 ### CVE-2019-11358 (2019-04-19)
 
 <code>jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution. If an unsanitized source object contained an enumerable __proto__ property, it could extend the native Object.prototype.
@@ -47300,13 +47297,6 @@
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
-
-### CVE-2001-1473 (2005-04-21)
-
-<code>The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target.
-</code>
-
-- [masm3264/poc-CVE-2001-1473](https://github.com/masm3264/poc-CVE-2001-1473)
 
 ### CVE-2001-3389
 - [becrevex/Gaston](https://github.com/becrevex/Gaston)
