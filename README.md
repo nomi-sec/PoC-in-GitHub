@@ -5185,6 +5185,9 @@
 ### CVE-2024-44193
 - [mbog14/CVE-2024-44193](https://github.com/mbog14/CVE-2024-44193)
 
+### CVE-2024-44337
+- [Brinmon/CVE-2024-44337](https://github.com/Brinmon/CVE-2024-44337)
+
 ### CVE-2024-44346
 - [Shauryae1337/CVE-2024-44346](https://github.com/Shauryae1337/CVE-2024-44346)
 - [sahil3276/CVE-2024-44346](https://github.com/sahil3276/CVE-2024-44346)
@@ -13437,6 +13440,7 @@
 - [ipuig/CVE-2023-50564](https://github.com/ipuig/CVE-2023-50564)
 - [rwexecute/CVE-2023-50564](https://github.com/rwexecute/CVE-2023-50564)
 - [thefizzyfish/CVE-2023-50564-pluck](https://github.com/thefizzyfish/CVE-2023-50564-pluck)
+- [Mrterrestrial/CVE-2023-50564](https://github.com/Mrterrestrial/CVE-2023-50564)
 
 ### CVE-2023-50596
 - [chandraprarikraj/CVE-2023-50596](https://github.com/chandraprarikraj/CVE-2023-50596)
