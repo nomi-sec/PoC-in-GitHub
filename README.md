@@ -4395,7 +4395,7 @@
 - [lhc321-source/CVE-2024-36837](https://github.com/lhc321-source/CVE-2024-36837)
 
 ### CVE-2024-36842
-- [abbiy/Backdooring-Oncord-Android-Sterio-](https://github.com/abbiy/Backdooring-Oncord-Android-Sterio-)
+- [abbiy/CVE-2024-36842-Backdooring-Oncord-Android-Sterio-](https://github.com/abbiy/CVE-2024-36842-Backdooring-Oncord-Android-Sterio-)
 
 ### CVE-2024-36877 (2024-08-12)
 
@@ -4600,6 +4600,7 @@
 - [lnx-dvlpr/cve-2024-38063](https://github.com/lnx-dvlpr/cve-2024-38063)
 - [becrevex/CVE-2024-38063](https://github.com/becrevex/CVE-2024-38063)
 - [idkwastaken/CVE-2024-38063](https://github.com/idkwastaken/CVE-2024-38063)
+- [thanawee321/CVE-2024-38063](https://github.com/thanawee321/CVE-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -5647,6 +5648,13 @@
 - [padbergpete47/CVE-2023-1454](https://github.com/padbergpete47/CVE-2023-1454)
 - [Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln](https://github.com/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln)
 - [shad0w0sec/CVE-2023-1454-EXP](https://github.com/shad0w0sec/CVE-2023-1454-EXP)
+
+### CVE-2023-1488 (2023-03-18)
+
+<code>Es wurde eine Schwachstelle in Lespeed WiseCleaner Wise System Monitor 1.5.3.54 gefunden. Sie wurde als problematisch eingestuft. Betroffen hiervon ist die Funktion 0x9C40A0D8/0x9C40A0DC/0x9C40A0E0 in der Bibliothek WiseHDInfo64.dll der Komponente IoControlCode Handler. Durch Manipulieren mit unbekannten Daten kann eine denial of service-Schwachstelle ausgenutzt werden. Der Angriff hat dabei lokal zu erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [bxtshit/CVE-2023-1488](https://github.com/bxtshit/CVE-2023-1488)
 
 ### CVE-2023-1498 (2023-03-19)
 
@@ -10923,6 +10931,7 @@
 - [FirFirdaus/CVE-2023-38831](https://github.com/FirFirdaus/CVE-2023-38831)
 - [ra3edAJ/LAB-DFIR-cve-2023-38831](https://github.com/ra3edAJ/LAB-DFIR-cve-2023-38831)
 - [technicalcorp0/CVE-2023-38831-Exploit](https://github.com/technicalcorp0/CVE-2023-38831-Exploit)
+- [idkwastaken/CVE-2023-38831](https://github.com/idkwastaken/CVE-2023-38831)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -28309,6 +28318,7 @@
 
 - [HynekPetrak/CVE-2019-5544_CVE-2020-3992](https://github.com/HynekPetrak/CVE-2019-5544_CVE-2020-3992)
 - [dgh05t/VMware_ESXI_OpenSLP_PoCs](https://github.com/dgh05t/VMware_ESXI_OpenSLP_PoCs)
+- [vpxuser/VMware-ESXI-OpenSLP-Exploit](https://github.com/vpxuser/VMware-ESXI-OpenSLP-Exploit)
 
 ### CVE-2020-4040 (2020-06-08)
 
@@ -33288,6 +33298,7 @@
 
 - [HynekPetrak/CVE-2019-5544_CVE-2020-3992](https://github.com/HynekPetrak/CVE-2019-5544_CVE-2020-3992)
 - [dgh05t/VMware_ESXI_OpenSLP_PoCs](https://github.com/dgh05t/VMware_ESXI_OpenSLP_PoCs)
+- [vpxuser/VMware-ESXI-OpenSLP-Exploit](https://github.com/vpxuser/VMware-ESXI-OpenSLP-Exploit)
 
 ### CVE-2019-5596 (2019-02-12)
 
