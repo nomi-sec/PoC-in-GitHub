@@ -1600,6 +1600,9 @@
 ### CVE-2024-9224
 - [RandomRobbieBF/CVE-2024-9224](https://github.com/RandomRobbieBF/CVE-2024-9224)
 
+### CVE-2024-9234
+- [RandomRobbieBF/CVE-2024-9234](https://github.com/RandomRobbieBF/CVE-2024-9234)
+
 ### CVE-2024-9441
 - [adhikara13/CVE-2024-9441](https://github.com/adhikara13/CVE-2024-9441)
 - [p33d/CVE-2024-9441](https://github.com/p33d/CVE-2024-9441)
@@ -1613,6 +1616,9 @@
 
 ### CVE-2024-9570
 - [dylvie/CVE-2024-9570_D-Link-DIR-619L-bof](https://github.com/dylvie/CVE-2024-9570_D-Link-DIR-619L-bof)
+
+### CVE-2024-9680
+- [tdonaworth/Firefox-CVE-2024-9680](https://github.com/tdonaworth/Firefox-CVE-2024-9680)
 
 ### CVE-2024-9821
 - [RandomRobbieBF/CVE-2024-9821](https://github.com/RandomRobbieBF/CVE-2024-9821)
@@ -3351,6 +3357,7 @@
 - [fa-rrel/CVE-2024-28987-POC](https://github.com/fa-rrel/CVE-2024-28987-POC)
 - [horizon3ai/CVE-2024-28987](https://github.com/horizon3ai/CVE-2024-28987)
 - [PlayerFridei/CVE-2024-28987](https://github.com/PlayerFridei/CVE-2024-28987)
+- [HazeLook/CVE-2024-28987](https://github.com/HazeLook/CVE-2024-28987)
 
 ### CVE-2024-28995 (2024-06-06)
 
@@ -5457,7 +5464,7 @@
 - [gumerzzzindo/CVE-2024-47176](https://github.com/gumerzzzindo/CVE-2024-47176)
 - [MalwareTech/CVE-2024-47176-Scanner](https://github.com/MalwareTech/CVE-2024-47176-Scanner)
 - [AxthonyV/CVE-2024-47176](https://github.com/AxthonyV/CVE-2024-47176)
-- [gianlu335/CUPS-CVE-2024-47176](https://github.com/gianlu335/CUPS-CVE-2024-47176)
+- [gianlu111/CUPS-CVE-2024-47176](https://github.com/gianlu111/CUPS-CVE-2024-47176)
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
@@ -11008,8 +11015,6 @@
 - [ra3edAJ/LAB-DFIR-cve-2023-38831](https://github.com/ra3edAJ/LAB-DFIR-cve-2023-38831)
 - [technicalcorp0/CVE-2023-38831-Exploit](https://github.com/technicalcorp0/CVE-2023-38831-Exploit)
 - [idkwastaken/CVE-2023-38831](https://github.com/idkwastaken/CVE-2023-38831)
-- [vilonachan/CVE-2023-38831-Winrar-Exploit-Generator-POC](https://github.com/vilonachan/CVE-2023-38831-Winrar-Exploit-Generator-POC)
-- [vilonachan/CVE-2023-38831-winrar-exploit](https://github.com/vilonachan/CVE-2023-38831-winrar-exploit)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -24589,13 +24594,6 @@
 - [gkrishnan724/CVE-2021-38297](https://github.com/gkrishnan724/CVE-2021-38297)
 - [paras98/CVE-2021-38297-Go-wasm-Replication](https://github.com/paras98/CVE-2021-38297-Go-wasm-Replication)
 
-### CVE-2021-38304 (2021-09-17)
-
-<code>Improper input validation in the National Instruments NI-PAL driver in versions 20.0.0 and prior may allow a privileged user to potentially enable escalation of privilege via local access.
-</code>
-
-- [philsajdak/CVE-2021-38304-PoC](https://github.com/philsajdak/CVE-2021-38304-PoC)
-
 ### CVE-2021-38314 (2021-09-02)
 
 <code>The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for WordPress registered several AJAX actions available to unauthenticated users in the `includes` function in `redux-core/class-redux-core.php` that were unique to a given site but deterministic and predictable given that they were based on an md5 hash of the site URL with a known salt value of '-redux' and an md5 hash of the previous hash with a known salt value of '-support'. These AJAX actions could be used to retrieve a list of active plugins and their versions, the site's PHP version, and an unsalted md5 hash of site’s `AUTH_KEY` concatenated with the `SECURE_AUTH_KEY`.
@@ -26087,6 +26085,7 @@
 - [gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798)
 - [halencarjunior/grafana-CVE-2021-43798](https://github.com/halencarjunior/grafana-CVE-2021-43798)
 - [light-Life/CVE-2021-43798](https://github.com/light-Life/CVE-2021-43798)
+- [rnsss/CVE-2021-43798-poc](https://github.com/rnsss/CVE-2021-43798-poc)
 - [rodpwn/CVE-2021-43798-mass_scanner](https://github.com/rodpwn/CVE-2021-43798-mass_scanner)
 - [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
