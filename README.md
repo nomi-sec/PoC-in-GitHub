@@ -1590,6 +1590,9 @@
 ### CVE-2024-9014
 - [EQSTLab/CVE-2024-9014](https://github.com/EQSTLab/CVE-2024-9014)
 
+### CVE-2024-9061
+- [RandomRobbieBF/CVE-2024-9061](https://github.com/RandomRobbieBF/CVE-2024-9061)
+
 ### CVE-2024-9106
 - [RandomRobbieBF/CVE-2024-9106](https://github.com/RandomRobbieBF/CVE-2024-9106)
 
@@ -1615,6 +1618,9 @@
 
 ### CVE-2024-9570
 - [dylvie/CVE-2024-9570_D-Link-DIR-619L-bof](https://github.com/dylvie/CVE-2024-9570_D-Link-DIR-619L-bof)
+
+### CVE-2024-9593
+- [RandomRobbieBF/CVE-2024-9593](https://github.com/RandomRobbieBF/CVE-2024-9593)
 
 ### CVE-2024-9680
 - [tdonaworth/Firefox-CVE-2024-9680](https://github.com/tdonaworth/Firefox-CVE-2024-9680)
@@ -5426,6 +5432,9 @@
 </code>
 
 - [vidura2/CVE-2024-46451](https://github.com/vidura2/CVE-2024-46451)
+
+### CVE-2024-46483
+- [kn32/cve-2024-46483](https://github.com/kn32/cve-2024-46483)
 
 ### CVE-2024-46532
 - [KamenRiderDarker/CVE-2024-46532](https://github.com/KamenRiderDarker/CVE-2024-46532)
@@ -14131,7 +14140,7 @@
 - [pivik271/CVE-2022-1015](https://github.com/pivik271/CVE-2022-1015)
 - [more-kohii/CVE-2022-1015](https://github.com/more-kohii/CVE-2022-1015)
 - [0range1337/CVE-2022-1015](https://github.com/0range1337/CVE-2022-1015)
-- [hoanghailongvn/CVE-2022-1015](https://github.com/hoanghailongvn/CVE-2022-1015)
+- [seadragnol/CVE-2022-1015](https://github.com/seadragnol/CVE-2022-1015)
 
 ### CVE-2022-1026 (2022-04-04)
 
