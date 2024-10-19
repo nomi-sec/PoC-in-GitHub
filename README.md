@@ -1612,6 +1612,9 @@
 ### CVE-2024-9234
 - [RandomRobbieBF/CVE-2024-9234](https://github.com/RandomRobbieBF/CVE-2024-9234)
 
+### CVE-2024-9264
+- [nollium/CVE-2024-9264](https://github.com/nollium/CVE-2024-9264)
+
 ### CVE-2024-9441
 - [adhikara13/CVE-2024-9441](https://github.com/adhikara13/CVE-2024-9441)
 - [p33d/CVE-2024-9441](https://github.com/p33d/CVE-2024-9441)
@@ -5504,6 +5507,9 @@
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
+
+### CVE-2024-47854
+- [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
 
 ### CVE-2024-48415
 - [khaliquesX/CVE-2024-48415](https://github.com/khaliquesX/CVE-2024-48415)
@@ -23904,6 +23910,13 @@
 
 - [nickswink/CVE-2021-32682](https://github.com/nickswink/CVE-2021-32682)
 
+### CVE-2021-32708 (2021-06-24)
+
+<code>Flysystem is an open source file storage library for PHP. The whitespace normalisation using in 1.x and 2.x removes any unicode whitespace. Under certain specific conditions this could potentially allow a malicious user to execute code remotely. The conditions are: A user is allowed to supply the path or filename of an uploaded file, the supplied path or filename is not checked against unicode chars, the supplied pathname checked against an extension deny-list, not an allow-list, the supplied path or filename contains a unicode whitespace char in the extension, the uploaded file is stored in a directory that allows PHP code to be executed. Given these conditions are met a user can upload and execute arbitrary code on the system under attack. The unicode whitespace removal has been replaced with a rejection (exception). For 1.x users, upgrade to 1.1.4. For 2.x users, upgrade to 2.1.1.
+</code>
+
+- [fazilbaig1/CVE-2021-32708](https://github.com/fazilbaig1/CVE-2021-32708)
+
 ### CVE-2021-32724 (2021-09-09)
 
 <code>check-spelling is a github action which provides CI spell checking. In affected versions and for a repository with the [check-spelling action](https://github.com/marketplace/actions/check-spelling) enabled that triggers on `pull_request_target` (or `schedule`), an attacker can send a crafted Pull Request that causes a `GITHUB_TOKEN` to be exposed. With the `GITHUB_TOKEN`, it's possible to push commits to the repository bypassing standard approval processes. Commits to the repository could then steal any/all secrets available to the repository. As a workaround users may can either: [Disable the workflow](https://docs.github.com/en/actions/managing-workflow-runs/disabling-and-enabling-a-workflow) until you've fixed all branches or Set repository to [Allow specific actions](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository#allowing-specific-actions-to-run). check-spelling isn't a verified creator and it certainly won't be anytime soon. You could then explicitly add other actions that your repository uses. Set repository [Workflow permissions](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository#setting-the-permissions-of-the-github_token-for-your-repository) to `Read repository contents permission`. Workflows using `check-spelling/check-spelling@main` will get the fix automatically. Workflows using a pinned sha or tagged version will need to change the affected workflows for all repository branches to the latest version. Users can verify who and which Pull Requests have been running the action by looking up the spelling.yml action in the Actions tab of their repositories, e.g., https://github.com/check-spelling/check-spelling/actions/workflows/spelling.yml - you can filter PRs by adding ?query=event%3Apull_request_target, e.g., https://github.com/check-spelling/check-spelling/actions/workflows/spelling.yml?query=event%3Apull_request_target.
@@ -26886,7 +26899,6 @@
 - [dskho/CVE-2021-45232](https://github.com/dskho/CVE-2021-45232)
 - [GYLQ/CVE-2021-45232-RCE](https://github.com/GYLQ/CVE-2021-45232-RCE)
 - [fany0r/CVE-2021-45232-RCE](https://github.com/fany0r/CVE-2021-45232-RCE)
-- [yggcwhat/Demo](https://github.com/yggcwhat/Demo)
 - [yggcwhat/CVE-2021-45232](https://github.com/yggcwhat/CVE-2021-45232)
 - [YutuSec/Apisix_Crack](https://github.com/YutuSec/Apisix_Crack)
 
