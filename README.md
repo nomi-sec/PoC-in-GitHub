@@ -4011,6 +4011,9 @@
 ### CVE-2024-33210
 - [paragbagul111/CVE-2024-33210](https://github.com/paragbagul111/CVE-2024-33210)
 
+### CVE-2024-33231
+- [fdzdev/CVE-2024-33231](https://github.com/fdzdev/CVE-2024-33231)
+
 ### CVE-2024-33352
 - [mmiszczyk/CVE-2024-33352](https://github.com/mmiszczyk/CVE-2024-33352)
 
