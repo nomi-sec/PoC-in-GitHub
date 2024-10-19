@@ -1623,6 +1623,9 @@
 - [horizon3ai/CVE-2024-9465](https://github.com/horizon3ai/CVE-2024-9465)
 - [mustafaakalin/CVE-2024-9465](https://github.com/mustafaakalin/CVE-2024-9465)
 
+### CVE-2024-9466
+- [holypryx/CVE-2024-9466](https://github.com/holypryx/CVE-2024-9466)
+
 ### CVE-2024-9570
 - [dylvie/CVE-2024-9570_D-Link-DIR-619L-bof](https://github.com/dylvie/CVE-2024-9570_D-Link-DIR-619L-bof)
 
@@ -3609,6 +3612,7 @@
 - [exploits-forsale/collateral-damage](https://github.com/exploits-forsale/collateral-damage)
 - [Admin9961/CVE-2024-30088](https://github.com/Admin9961/CVE-2024-30088)
 - [Justintroup85/exploits-forsale-collateral-damage](https://github.com/Justintroup85/exploits-forsale-collateral-damage)
+- [l0n3m4n/CVE-2024-30088](https://github.com/l0n3m4n/CVE-2024-30088)
 
 ### CVE-2024-30090 (2024-06-11)
 
@@ -5496,12 +5500,19 @@
 - [MalwareTech/CVE-2024-47176-Scanner](https://github.com/MalwareTech/CVE-2024-47176-Scanner)
 - [AxthonyV/CVE-2024-47176](https://github.com/AxthonyV/CVE-2024-47176)
 - [gianlu111/CUPS-CVE-2024-47176](https://github.com/gianlu111/CUPS-CVE-2024-47176)
+- [0x7556/CVE-2024-47176](https://github.com/0x7556/CVE-2024-47176)
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
 
+### CVE-2024-48415
+- [khaliquesX/CVE-2024-48415](https://github.com/khaliquesX/CVE-2024-48415)
+
 ### CVE-2024-48644
 - [rosembergpro/CVE-2024-48644](https://github.com/rosembergpro/CVE-2024-48644)
+
+### CVE-2024-48652
+- [paragbagul111/CVE-2024-48652](https://github.com/paragbagul111/CVE-2024-48652)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -22487,12 +22498,20 @@
 - [EkamSinghWalia/Detection-script-for-cve-2021-23358](https://github.com/EkamSinghWalia/Detection-script-for-cve-2021-23358)
 - [MehdiBoukhobza/SandBox_CVE-2021-23358](https://github.com/MehdiBoukhobza/SandBox_CVE-2021-23358)
 
+### CVE-2021-23369 (2021-04-12)
+
+<code>The package handlebars before 4.7.7 are vulnerable to Remote Code Execution (RCE) when selecting certain compiling options to compile templates coming from an untrusted source.
+</code>
+
+- [fazilbaig1/CVE-2021-23369](https://github.com/fazilbaig1/CVE-2021-23369)
+
 ### CVE-2021-23383 (2021-05-04)
 
 <code>The package handlebars before 4.7.7 are vulnerable to Prototype Pollution when selecting certain compiling options to compile templates coming from an untrusted source.
 </code>
 
 - [dn9uy3n/Check-CVE-2021-23383](https://github.com/dn9uy3n/Check-CVE-2021-23383)
+- [fazilbaig1/CVE-2021-23383](https://github.com/fazilbaig1/CVE-2021-23383)
 
 ### CVE-2021-23410
 - [azu/msgpack-CVE-2021-23410-test](https://github.com/azu/msgpack-CVE-2021-23410-test)
@@ -25569,7 +25588,6 @@
 - [robotsense1337/CVE-2021-42013](https://github.com/robotsense1337/CVE-2021-42013)
 - [xMohamed0/CVE-2021-42013-ApacheRCE](https://github.com/xMohamed0/CVE-2021-42013-ApacheRCE)
 - [asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp](https://github.com/asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp)
-- [rnsss/CVE-2021-42013](https://github.com/rnsss/CVE-2021-42013)
 - [jas9reet/CVE-2021-42013-LAB](https://github.com/jas9reet/CVE-2021-42013-LAB)
 - [mauricelambert/CVE-2021-42013](https://github.com/mauricelambert/CVE-2021-42013)
 - [honypot/CVE-2021-42013](https://github.com/honypot/CVE-2021-42013)
@@ -26119,7 +26137,6 @@
 - [gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798)
 - [halencarjunior/grafana-CVE-2021-43798](https://github.com/halencarjunior/grafana-CVE-2021-43798)
 - [light-Life/CVE-2021-43798](https://github.com/light-Life/CVE-2021-43798)
-- [rnsss/CVE-2021-43798-poc](https://github.com/rnsss/CVE-2021-43798-poc)
 - [rodpwn/CVE-2021-43798-mass_scanner](https://github.com/rodpwn/CVE-2021-43798-mass_scanner)
 - [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
@@ -32074,6 +32091,13 @@
 
 - [jet-pentest/CVE-2020-28415](https://github.com/jet-pentest/CVE-2020-28415)
 
+### CVE-2020-28458 (2020-12-16)
+
+<code>All versions of package datatables.net are vulnerable to Prototype Pollution due to an incomplete fix for https://snyk.io/vuln/SNYK-JS-DATATABLESNET-598806.
+</code>
+
+- [fazilbaig1/CVE-2020-28458](https://github.com/fazilbaig1/CVE-2020-28458)
+
 ### CVE-2020-28478 (2021-01-19)
 
 <code>This affects the package gsap before 3.6.0.
@@ -36392,6 +36416,13 @@
 </code>
 
 - [dpmdpm2/CVE-2019-19905](https://github.com/dpmdpm2/CVE-2019-19905)
+
+### CVE-2019-19919 (2019-12-20)
+
+<code>Versions of handlebars prior to 4.3.0 are vulnerable to Prototype Pollution leading to Remote Code Execution. Templates may alter an Object's __proto__ and __defineGetter__ properties, which may allow an attacker to execute arbitrary code through crafted payloads.
+</code>
+
+- [fazilbaig1/CVE-2019-19919](https://github.com/fazilbaig1/CVE-2019-19919)
 
 ### CVE-2019-19945 (2020-03-16)
 
