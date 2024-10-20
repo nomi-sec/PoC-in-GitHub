@@ -1399,6 +1399,7 @@
 </code>
 
 - [ading2210/CVE-2024-6778-POC](https://github.com/ading2210/CVE-2024-6778-POC)
+- [r00tjunip3r1/POC-CVE-2024-6778](https://github.com/r00tjunip3r1/POC-CVE-2024-6778)
 
 ### CVE-2024-6782 (2024-08-06)
 
@@ -1647,6 +1648,9 @@
 
 ### CVE-2024-9821
 - [RandomRobbieBF/CVE-2024-9821](https://github.com/RandomRobbieBF/CVE-2024-9821)
+
+### CVE-2024-10140
+- [holypryx/CVE-2024-10140](https://github.com/holypryx/CVE-2024-10140)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2257,6 +2261,7 @@
 - [brian-edgar-re/poc-cve-2024-23334](https://github.com/brian-edgar-re/poc-cve-2024-23334)
 - [binaryninja/CVE-2024-23334](https://github.com/binaryninja/CVE-2024-23334)
 - [s4botai/CVE-2024-23334-PoC](https://github.com/s4botai/CVE-2024-23334-PoC)
+- [wizarddos/CVE-2024-23334](https://github.com/wizarddos/CVE-2024-23334)
 
 ### CVE-2024-23339 (2024-01-22)
 
@@ -3616,7 +3621,6 @@
 - [exploits-forsale/collateral-damage](https://github.com/exploits-forsale/collateral-damage)
 - [Admin9961/CVE-2024-30088](https://github.com/Admin9961/CVE-2024-30088)
 - [Justintroup85/exploits-forsale-collateral-damage](https://github.com/Justintroup85/exploits-forsale-collateral-damage)
-- [l0n3m4n/CVE-2024-30088](https://github.com/l0n3m4n/CVE-2024-30088)
 
 ### CVE-2024-30090 (2024-06-11)
 
@@ -35466,7 +35470,7 @@
 - [whokilleddb/CVE-2019-15107](https://github.com/whokilleddb/CVE-2019-15107)
 - [darrenmartyn/CVE-2019-15107](https://github.com/darrenmartyn/CVE-2019-15107)
 - [hacknotes/CVE-2019-15107-Exploit](https://github.com/hacknotes/CVE-2019-15107-Exploit)
-- [Tuz-Wwsd/CVE-2019-15107_detection](https://github.com/Tuz-Wwsd/CVE-2019-15107_detection)
+- [CyberTuz/CVE-2019-15107_detection](https://github.com/CyberTuz/CVE-2019-15107_detection)
 - [hadrian3689/webmin_1.920](https://github.com/hadrian3689/webmin_1.920)
 - [f0rkr/CVE-2019-15107](https://github.com/f0rkr/CVE-2019-15107)
 - [psw01/CVE-2019-15107_webminRCE](https://github.com/psw01/CVE-2019-15107_webminRCE)
