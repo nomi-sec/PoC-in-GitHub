@@ -1614,6 +1614,8 @@
 
 ### CVE-2024-9264
 - [nollium/CVE-2024-9264](https://github.com/nollium/CVE-2024-9264)
+- [z3k0sec/File-Read-CVE-2024-9264](https://github.com/z3k0sec/File-Read-CVE-2024-9264)
+- [zgimszhd61/CVE-2024-9264](https://github.com/zgimszhd61/CVE-2024-9264)
 
 ### CVE-2024-9441
 - [adhikara13/CVE-2024-9441](https://github.com/adhikara13/CVE-2024-9441)
