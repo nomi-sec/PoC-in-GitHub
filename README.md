@@ -5261,6 +5261,9 @@
 ### CVE-2024-43582
 - [jinxongwi/CVE-2024-43582-RCE](https://github.com/jinxongwi/CVE-2024-43582-RCE)
 
+### CVE-2024-43689
+- [fukeriu/CVE-2024-43689-RCE](https://github.com/fukeriu/CVE-2024-43689-RCE)
+
 ### CVE-2024-43917 (2024-08-29)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in TemplateInvaders TI WooCommerce Wishlist allows SQL Injection.This issue affects TI WooCommerce Wishlist: from n/a through 2.8.2.
@@ -11678,7 +11681,7 @@
 <code>Exim AUTH Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Exim. Authentication is not required to exploit this vulnerability. \n\nThe specific flaw exists within the smtp service, which listens on TCP port 25 by default. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of a buffer. An attacker can leverage this vulnerability to execute code in the context of the service account. Was ZDI-CAN-17434.
 </code>
 
-- [isotaka134/cve-2023-42115](https://github.com/isotaka134/cve-2023-42115)
+- [kirinse/cve-2023-42115](https://github.com/kirinse/cve-2023-42115)
 
 ### CVE-2023-42222 (2023-09-28)
 
@@ -36602,6 +36605,7 @@
 
 - [1337g/CVE-2018-0101-DOS-POC](https://github.com/1337g/CVE-2018-0101-DOS-POC)
 - [Cymmetria/ciscoasa_honeypot](https://github.com/Cymmetria/ciscoasa_honeypot)
+- [MikeHorn-git/CVE-2018-0101](https://github.com/MikeHorn-git/CVE-2018-0101)
 
 ### CVE-2018-0114 (2018-01-04)
 
