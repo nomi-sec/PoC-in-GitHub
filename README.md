@@ -1616,6 +1616,7 @@
 - [nollium/CVE-2024-9264](https://github.com/nollium/CVE-2024-9264)
 - [z3k0sec/File-Read-CVE-2024-9264](https://github.com/z3k0sec/File-Read-CVE-2024-9264)
 - [zgimszhd61/CVE-2024-9264](https://github.com/zgimszhd61/CVE-2024-9264)
+- [z3k0sec/CVE-2024-9264-RCE-Exploit](https://github.com/z3k0sec/CVE-2024-9264-RCE-Exploit)
 
 ### CVE-2024-9441
 - [adhikara13/CVE-2024-9441](https://github.com/adhikara13/CVE-2024-9441)
@@ -4346,6 +4347,7 @@
 </code>
 
 - [varwara/CVE-2024-35250](https://github.com/varwara/CVE-2024-35250)
+- [0xjiefeng/CVE-2024-35250-BOF](https://github.com/0xjiefeng/CVE-2024-35250-BOF)
 
 ### CVE-2024-35315
 - [ewilded/CVE-2024-35315-POC](https://github.com/ewilded/CVE-2024-35315-POC)
@@ -5423,6 +5425,13 @@
 
 ### CVE-2024-45410
 - [jphetphoumy/traefik-CVE-2024-45410-poc](https://github.com/jphetphoumy/traefik-CVE-2024-45410-poc)
+
+### CVE-2024-45436 (2024-08-29)
+
+<code>extractFromZipFile in model.go in Ollama before 0.1.47 can extract members of a ZIP archive outside of the parent directory.
+</code>
+
+- [pankass/CVE-2024-45436](https://github.com/pankass/CVE-2024-45436)
 
 ### CVE-2024-45507 (2024-09-04)
 
