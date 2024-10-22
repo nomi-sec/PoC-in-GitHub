@@ -3880,6 +3880,7 @@
 - [Masamuneee/CVE-2024-32002-POC](https://github.com/Masamuneee/CVE-2024-32002-POC)
 - [th4s1s/CVE-2024-32002-PoC](https://github.com/th4s1s/CVE-2024-32002-PoC)
 - [Julian-gmz/hook_CVE-2024-32002](https://github.com/Julian-gmz/hook_CVE-2024-32002)
+- [grecosamuel/CVE-2024-32002](https://github.com/grecosamuel/CVE-2024-32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -5537,6 +5538,9 @@
 
 ### CVE-2024-48415
 - [khaliquesX/CVE-2024-48415](https://github.com/khaliquesX/CVE-2024-48415)
+
+### CVE-2024-48605
+- [surajhacx/HelakuruV.1.1-DLLHijack](https://github.com/surajhacx/HelakuruV.1.1-DLLHijack)
 
 ### CVE-2024-48644
 - [rosembergpro/CVE-2024-48644](https://github.com/rosembergpro/CVE-2024-48644)
@@ -12733,6 +12737,7 @@
 - [thinkycx/activemq-rce-cve-2023-46604](https://github.com/thinkycx/activemq-rce-cve-2023-46604)
 - [mranv/honeypot.rs](https://github.com/mranv/honeypot.rs)
 - [pulentoski/CVE-2023-46604](https://github.com/pulentoski/CVE-2023-46604)
+- [cuanh2333/CVE-2023-46604](https://github.com/cuanh2333/CVE-2023-46604)
 
 ### CVE-2023-46615 (2024-02-12)
 
@@ -12762,6 +12767,7 @@
 - [RevoltSecurities/CVE-2023-46747](https://github.com/RevoltSecurities/CVE-2023-46747)
 - [vidura2/cve-2023-46747](https://github.com/vidura2/cve-2023-46747)
 - [rainbowhatrkn/CVE-2023-46747-RCE](https://github.com/rainbowhatrkn/CVE-2023-46747-RCE)
+- [Rizzler4562/CVE-2023-46747-Mass-RCE](https://github.com/Rizzler4562/CVE-2023-46747-Mass-RCE)
 
 ### CVE-2023-46805 (2024-01-12)
 
