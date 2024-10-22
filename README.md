@@ -16433,7 +16433,6 @@
 </code>
 
 - [s3l33/CVE-2022-25012](https://github.com/s3l33/CVE-2022-25012)
-- [deathflash1411/cve-2022-25012](https://github.com/deathflash1411/cve-2022-25012)
 
 ### CVE-2022-25018 (2022-03-01)
 
@@ -20442,6 +20441,13 @@
 
 - [sapellaniz/CVE-2022-48474_CVE-2022-48475](https://github.com/sapellaniz/CVE-2022-48474_CVE-2022-48475)
 
+### CVE-2022-48656 (2024-04-28)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: ti: k3-udma-private: Fix refcount leak bug in of_xudma_dev_get()\n\nWe should call of_node_put() for the reference returned by\nof_parse_phandle() in fail path or when it is not used anymore.\nHere we only need to move the of_node_put() before the check.
+</code>
+
+- [Einstein2150/CVE-2022-48656-POC](https://github.com/Einstein2150/CVE-2022-48656-POC)
+
 
 ## 2021
 ### CVE-2021-0302 (2021-02-10)
@@ -24318,13 +24324,6 @@
 
 - [afaq1337/CVE-2021-35296](https://github.com/afaq1337/CVE-2021-35296)
 
-### CVE-2021-35448 (2021-06-24)
-
-<code>Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbitrary programs as Administrator by using the Image Transfer Folder feature to navigate to cmd.exe. It binds to local ports to listen for incoming connections.
-</code>
-
-- [deathflash1411/cve-2021-35448](https://github.com/deathflash1411/cve-2021-35448)
-
 ### CVE-2021-35464 (2021-07-22)
 
 <code>ForgeRock AM server before 7.0 has a Java deserialization vulnerability in the jato.pageSession parameter on multiple pages. The exploitation does not require authentication, and remote code execution can be triggered by sending a single crafted /ccversion/* request to the server. The vulnerability exists due to the usage of Sun ONE Application Framework (JATO) found in versions of Java 8 or earlier
@@ -25432,13 +25431,6 @@
 </code>
 
 - [MobiusBinary/CVE-2021-41651](https://github.com/MobiusBinary/CVE-2021-41651)
-
-### CVE-2021-41652 (2022-03-01)
-
-<code>Insecure permissions in the file database.sdb of BatFlat CMS v1.3.6 allows attackers to dump the entire database.
-</code>
-
-- [deathflash1411/cve-2021-41652](https://github.com/deathflash1411/cve-2021-41652)
 
 ### CVE-2021-41653 (2021-11-13)
 
@@ -26928,6 +26920,8 @@
 - [dskho/CVE-2021-45232](https://github.com/dskho/CVE-2021-45232)
 - [GYLQ/CVE-2021-45232-RCE](https://github.com/GYLQ/CVE-2021-45232-RCE)
 - [fany0r/CVE-2021-45232-RCE](https://github.com/fany0r/CVE-2021-45232-RCE)
+- [yggcwhat/Demo](https://github.com/yggcwhat/Demo)
+- [yggcwhat/CVE-2021-45232](https://github.com/yggcwhat/CVE-2021-45232)
 - [YutuSec/Apisix_Crack](https://github.com/YutuSec/Apisix_Crack)
 
 ### CVE-2021-45416 (2022-02-01)
