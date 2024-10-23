@@ -5495,6 +5495,9 @@
 ### CVE-2024-46532
 - [KamenRiderDarker/CVE-2024-46532](https://github.com/KamenRiderDarker/CVE-2024-46532)
 
+### CVE-2024-46538
+- [EQSTLab/CVE-2024-46538](https://github.com/EQSTLab/CVE-2024-46538)
+
 ### CVE-2024-46627
 - [d4lyw/CVE-2024-46627](https://github.com/d4lyw/CVE-2024-46627)
 
