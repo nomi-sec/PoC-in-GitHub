@@ -819,6 +819,7 @@
 - [entroychang/CVE-2024-4040](https://github.com/entroychang/CVE-2024-4040)
 - [safeer-accuknox/CrushFTP-cve-2024-4040-poc](https://github.com/safeer-accuknox/CrushFTP-cve-2024-4040-poc)
 - [geniuszlyy/GenCrushSSTIExploit](https://github.com/geniuszlyy/GenCrushSSTIExploit)
+- [rahisec/CVE-2024-4040](https://github.com/rahisec/CVE-2024-4040)
 
 ### CVE-2024-4231 (2024-05-10)
 
@@ -6405,6 +6406,7 @@
 - [thefizzyfish/CVE-2023-4220](https://github.com/thefizzyfish/CVE-2023-4220)
 - [qrxnz/CVE-2023-4220](https://github.com/qrxnz/CVE-2023-4220)
 - [0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit](https://github.com/0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit)
+- [bueno-armando/CVE-2023-4220-RCE](https://github.com/bueno-armando/CVE-2023-4220-RCE)
 
 ### CVE-2023-4226 (2023-11-28)
 
