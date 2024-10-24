@@ -1043,6 +1043,13 @@
 - [truonghuuphuc/CVE-2024-4898-Poc](https://github.com/truonghuuphuc/CVE-2024-4898-Poc)
 - [cve-2024/CVE-2024-4898-Poc](https://github.com/cve-2024/CVE-2024-4898-Poc)
 
+### CVE-2024-4947 (2024-05-15)
+
+<code>Type Confusion in V8 in Google Chrome prior to 125.0.6422.60 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [uixss/PoC-CVE-2024-4947](https://github.com/uixss/PoC-CVE-2024-4947)
+
 ### CVE-2024-4956 (2024-05-16)
 
 <code>Path Traversal in Sonatype Nexus Repository 3 allows an unauthenticated attacker to read system files. Fixed in version 3.68.1.
@@ -1593,6 +1600,13 @@
 </code>
 
 - [D3anSPGDMS/CVE-2024-8752](https://github.com/D3anSPGDMS/CVE-2024-8752)
+
+### CVE-2024-8868 (2024-09-15)
+
+<code>Eine Schwachstelle wurde in code-projects Crud Operation System 1.0 ausgemacht. Sie wurde als kritisch eingestuft. Davon betroffen ist unbekannter Code der Datei savedata.php. Durch Manipulieren des Arguments sname mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [M0onc/CVE-2024-8868](https://github.com/M0onc/CVE-2024-8868)
 
 ### CVE-2024-8949
 - [fa-rrel/CVE-2024-8949-POC](https://github.com/fa-rrel/CVE-2024-8949-POC)
@@ -2679,6 +2693,13 @@
 </code>
 
 - [SpiralBL0CK/CVE-2024-24686](https://github.com/SpiralBL0CK/CVE-2024-24686)
+
+### CVE-2024-24725 (2024-03-23)
+
+<code>Gibbon through 26.0.00 allows remote authenticated users to conduct PHP deserialization attacks via columnOrder in a POST request to the modules/System%20Admin/import_run.php&amp;type=externalAssessment&amp;step=4 URI.
+</code>
+
+- [MelkorW/CVE-2024-24725-PoC](https://github.com/MelkorW/CVE-2024-24725-PoC)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -4750,6 +4771,13 @@
 
 - [Dor00tkit/CVE-2024-38144](https://github.com/Dor00tkit/CVE-2024-38144)
 
+### CVE-2024-38178 (2024-08-13)
+
+<code>Scripting Engine Memory Corruption Vulnerability
+</code>
+
+- [uixss/PoC-CVE-2024-38178](https://github.com/uixss/PoC-CVE-2024-38178)
+
 ### CVE-2024-38189 (2024-08-13)
 
 <code>Microsoft Project Remote Code Execution Vulnerability
@@ -4821,6 +4849,9 @@
 </code>
 
 - [ret2desync/CVE-2024-38793-PoC](https://github.com/ret2desync/CVE-2024-38793-PoC)
+
+### CVE-2024-38812
+- [groshi/CVE-2024-38812-POC-5-Hands-Private](https://github.com/groshi/CVE-2024-38812-POC-5-Hands-Private)
 
 ### CVE-2024-38816 (2024-09-13)
 
@@ -12790,8 +12821,6 @@
 - [RevoltSecurities/CVE-2023-46747](https://github.com/RevoltSecurities/CVE-2023-46747)
 - [vidura2/cve-2023-46747](https://github.com/vidura2/cve-2023-46747)
 - [rainbowhatrkn/CVE-2023-46747-RCE](https://github.com/rainbowhatrkn/CVE-2023-46747-RCE)
-- [Rizzler4562/CVE-2023-46747-Mass-RCE](https://github.com/Rizzler4562/CVE-2023-46747-Mass-RCE)
-- [Xanexs/CVE-2023-46747-Mass-RCE](https://github.com/Xanexs/CVE-2023-46747-Mass-RCE)
 
 ### CVE-2023-46805 (2024-01-12)
 
@@ -19345,6 +19374,7 @@
 - [bigherocenter/CVE-2022-41082-POC](https://github.com/bigherocenter/CVE-2022-41082-POC)
 - [notareaperbutDR34P3r/vuln-CVE-2022-41082](https://github.com/notareaperbutDR34P3r/vuln-CVE-2022-41082)
 - [SUPRAAA-1337/CVE-2022-41082](https://github.com/SUPRAAA-1337/CVE-2022-41082)
+- [soltanali0/CVE-2022-41082](https://github.com/soltanali0/CVE-2022-41082)
 
 ### CVE-2022-41099 (2022-11-09)
 
@@ -22913,13 +22943,6 @@
 
 - [DShankle/VLC_CVE-2021-25804_Analysis](https://github.com/DShankle/VLC_CVE-2021-25804_Analysis)
 
-### CVE-2021-25837 (2021-02-08)
-
-<code>Cosmos Network Ethermint &lt;= v0.4.0 is affected by cache lifecycle inconsistency in the EVM module. Due to the inconsistency between the Storage caching cycle and the Tx processing cycle, Storage changes caused by a failed transaction are improperly reserved in memory. Although the bad storage cache data will be discarded at EndBlock, it is still valid in the current block, which enables many possible attacks such as an &quot;arbitrary mint token&quot;.
-</code>
-
-- [iczc/Ethermint-CVE-2021-25837](https://github.com/iczc/Ethermint-CVE-2021-25837)
-
 ### CVE-2021-26084 (2021-08-30)
 
 <code>In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5.
@@ -23777,6 +23800,13 @@
 </code>
 
 - [irql/CVE-2021-31728](https://github.com/irql/CVE-2021-31728)
+
+### CVE-2021-31755 (2021-05-07)
+
+<code>An issue was discovered on Tenda AC11 devices with firmware through 02.03.01.104_CN. A stack buffer overflow vulnerability in /goform/setmac allows attackers to execute arbitrary code on the system via a crafted post request.
+</code>
+
+- [r3s3tt/CVE-2021-31755](https://github.com/r3s3tt/CVE-2021-31755)
 
 ### CVE-2021-31760 (2021-04-25)
 
@@ -30710,7 +30740,6 @@
 - [exploitblizzard/CVE-2020-14882-WebLogic](https://github.com/exploitblizzard/CVE-2020-14882-WebLogic)
 - [qianniaoge/CVE-2020-14882_Exploit_Gui](https://github.com/qianniaoge/CVE-2020-14882_Exploit_Gui)
 - [N0Coriander/CVE-2020-14882-14883](https://github.com/N0Coriander/CVE-2020-14882-14883)
-- [Manor99/CVE-2020-14882-](https://github.com/Manor99/CVE-2020-14882-)
 - [lolminerxmrig/CVE-2020-14882_ALL](https://github.com/lolminerxmrig/CVE-2020-14882_ALL)
 - [nik0nz7/CVE-2020-14882](https://github.com/nik0nz7/CVE-2020-14882)
 - [Danny-LLi/CVE-2020-14882](https://github.com/Danny-LLi/CVE-2020-14882)
