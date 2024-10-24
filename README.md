@@ -4562,6 +4562,13 @@
 
 - [0xmupa/CVE-2024-37147-PoC](https://github.com/0xmupa/CVE-2024-37147-PoC)
 
+### CVE-2024-37383 (2024-06-07)
+
+<code>Roundcube Webmail before 1.5.7 and 1.6.x before 1.6.7 allows XSS via SVG animate attributes.
+</code>
+
+- [bartfroklage/CVE-2024-37383-POC](https://github.com/bartfroklage/CVE-2024-37383-POC)
+
 ### CVE-2024-37393 (2024-06-10)
 
 <code>Multiple LDAP injections vulnerabilities exist in SecurEnvoy MFA before 9.4.514 due to improper validation of user-supplied input. An unauthenticated remote attacker could exfiltrate data from Active Directory through blind LDAP injection attacks against the DESKTOP service exposed on the /secserver HTTP endpoint. This may include ms-Mcs-AdmPwd, which has a cleartext password for the Local Administrator Password Solution (LAPS) feature.
@@ -11710,6 +11717,13 @@
 </code>
 
 - [andreysanyuk/CVE-2023-42284](https://github.com/andreysanyuk/CVE-2023-42284)
+
+### CVE-2023-42326 (2023-11-14)
+
+<code>An issue in Netgate pfSense v.2.7.0 allows a remote attacker to execute arbitrary code via a crafted request to the interfaces_gif_edit.php and interfaces_gre_edit.php components.
+</code>
+
+- [bl4ckarch/pf-pwnme](https://github.com/bl4ckarch/pf-pwnme)
 
 ### CVE-2023-42362 (2023-09-14)
 
