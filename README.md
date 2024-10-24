@@ -5551,6 +5551,9 @@
 ### CVE-2024-48415
 - [khaliquesX/CVE-2024-48415](https://github.com/khaliquesX/CVE-2024-48415)
 
+### CVE-2024-48427
+- [vighneshnair7/CVE-2024-48427](https://github.com/vighneshnair7/CVE-2024-48427)
+
 ### CVE-2024-48605
 - [surajhacx/HelakuruV.1.1-DLLHijack](https://github.com/surajhacx/HelakuruV.1.1-DLLHijack)
 
