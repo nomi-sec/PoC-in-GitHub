@@ -5802,7 +5802,7 @@
 
 - [diego-tella/CVE-2023-1326-PoC](https://github.com/diego-tella/CVE-2023-1326-PoC)
 - [Pol-Ruiz/CVE-2023-1326](https://github.com/Pol-Ruiz/CVE-2023-1326)
-- [NyxByt3/CVE-2023-1326](https://github.com/NyxByt3/CVE-2023-1326)
+- [h3xcr4ck3r/CVE-2023-1326](https://github.com/h3xcr4ck3r/CVE-2023-1326)
 - [cve-2024/CVE-2023-1326-PoC](https://github.com/cve-2024/CVE-2023-1326-PoC)
 
 ### CVE-2023-1337 (2023-03-10)
@@ -8019,7 +8019,7 @@
 - [0xWhoami35/CVE-2023-23752](https://github.com/0xWhoami35/CVE-2023-23752)
 - [mariovata/CVE-2023-23752-Python](https://github.com/mariovata/CVE-2023-23752-Python)
 - [0xx01/CVE-2023-23752](https://github.com/0xx01/CVE-2023-23752)
-- [NyxByt3/CVE-2023-23752](https://github.com/NyxByt3/CVE-2023-23752)
+- [h3xcr4ck3r/CVE-2023-23752](https://github.com/h3xcr4ck3r/CVE-2023-23752)
 - [fullaw4ke/CVE-2023-23752-Joomla-v4.2.8](https://github.com/fullaw4ke/CVE-2023-23752-Joomla-v4.2.8)
 - [Aureum01/CVE-2023-23752](https://github.com/Aureum01/CVE-2023-23752)
 
@@ -17454,7 +17454,7 @@
 - [gpiechnik2/nmap-CVE-2022-29464](https://github.com/gpiechnik2/nmap-CVE-2022-29464)
 - [0xAgun/CVE-2022-29464](https://github.com/0xAgun/CVE-2022-29464)
 - [oppsec/WSOB](https://github.com/oppsec/WSOB)
-- [NyxByt3/CVE-2022-29464](https://github.com/NyxByt3/CVE-2022-29464)
+- [h3xcr4ck3r/CVE-2022-29464](https://github.com/h3xcr4ck3r/CVE-2022-29464)
 - [lowkey0808/cve-2022-29464](https://github.com/lowkey0808/cve-2022-29464)
 - [superzerosec/CVE-2022-29464](https://github.com/superzerosec/CVE-2022-29464)
 - [axin2019/CVE-2022-29464](https://github.com/axin2019/CVE-2022-29464)
@@ -19494,7 +19494,7 @@
 </code>
 
 - [yosef0x01/CVE-2022-41544](https://github.com/yosef0x01/CVE-2022-41544)
-- [NyxByt3/CVE-2022-41544](https://github.com/NyxByt3/CVE-2022-41544)
+- [h3xcr4ck3r/CVE-2022-41544](https://github.com/h3xcr4ck3r/CVE-2022-41544)
 
 ### CVE-2022-41622 (2022-12-07)
 
@@ -21744,7 +21744,7 @@
 - [moldabekov/CVE-2021-4034](https://github.com/moldabekov/CVE-2021-4034)
 - [jostmart/-CVE-2021-4034](https://github.com/jostmart/-CVE-2021-4034)
 - [c3l3si4n/pwnkit](https://github.com/c3l3si4n/pwnkit)
-- [NyxByt3/CVE-2021-4034](https://github.com/NyxByt3/CVE-2021-4034)
+- [h3xcr4ck3r/CVE-2021-4034](https://github.com/h3xcr4ck3r/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [san3ncrypt3d/CVE-2021-4034-POC](https://github.com/san3ncrypt3d/CVE-2021-4034-POC)
 - [fdellwing/CVE-2021-4034](https://github.com/fdellwing/CVE-2021-4034)
@@ -21860,7 +21860,7 @@
 - [fei9747/CVE-2021-4034](https://github.com/fei9747/CVE-2021-4034)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [mutur4/CVE-2021-4034](https://github.com/mutur4/CVE-2021-4034)
-- [NyxByt3/CVE-2021-4034_Python3](https://github.com/NyxByt3/CVE-2021-4034_Python3)
+- [h3xcr4ck3r/CVE-2021-4034_Python3](https://github.com/h3xcr4ck3r/CVE-2021-4034_Python3)
 - [TheSermux/CVE-2021-4034](https://github.com/TheSermux/CVE-2021-4034)
 - [ps-interactive/lab_cve-2021-4034-polkit-emulation-and-detection](https://github.com/ps-interactive/lab_cve-2021-4034-polkit-emulation-and-detection)
 - [asepsaepdin/CVE-2021-4034](https://github.com/asepsaepdin/CVE-2021-4034)
