@@ -12821,6 +12821,7 @@
 - [RevoltSecurities/CVE-2023-46747](https://github.com/RevoltSecurities/CVE-2023-46747)
 - [vidura2/cve-2023-46747](https://github.com/vidura2/cve-2023-46747)
 - [rainbowhatrkn/CVE-2023-46747-RCE](https://github.com/rainbowhatrkn/CVE-2023-46747-RCE)
+- [AMELYA13/CVE-2023-46747-Mass-RCE](https://github.com/AMELYA13/CVE-2023-46747-Mass-RCE)
 
 ### CVE-2023-46805 (2024-01-12)
 
