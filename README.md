@@ -2261,6 +2261,7 @@
 - [HazeLook/CVE-2024-23113](https://github.com/HazeLook/CVE-2024-23113)
 - [maybelookis/CVE-2024-23113](https://github.com/maybelookis/CVE-2024-23113)
 - [p33d/CVE-2024-23113](https://github.com/p33d/CVE-2024-23113)
+- [groshi/CVE-2024-23113-Private-POC](https://github.com/groshi/CVE-2024-23113-Private-POC)
 
 ### CVE-2024-23208 (2024-01-23)
 
@@ -5578,6 +5579,9 @@
 
 ### CVE-2024-47854
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
+
+### CVE-2024-48392
+- [Renzusclarke/CVE-2024-48392-PoC](https://github.com/Renzusclarke/CVE-2024-48392-PoC)
 
 ### CVE-2024-48415
 - [khaliquesX/CVE-2024-48415](https://github.com/khaliquesX/CVE-2024-48415)
@@ -14177,7 +14181,6 @@
 - [ayushx007/CVE-2022-0847-dirty-pipe-checker](https://github.com/ayushx007/CVE-2022-0847-dirty-pipe-checker)
 - [ayushx007/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/ayushx007/CVE-2022-0847-DirtyPipe-Exploits)
 - [solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus](https://github.com/solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus)
-- [letsr00t/CVE-2022-0847](https://github.com/letsr00t/CVE-2022-0847)
 - [xsxtw/CVE-2022-0847](https://github.com/xsxtw/CVE-2022-0847)
 - [muhammad1596/CVE-2022-0847-dirty-pipe-checker](https://github.com/muhammad1596/CVE-2022-0847-dirty-pipe-checker)
 - [muhammad1596/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/muhammad1596/CVE-2022-0847-DirtyPipe-Exploits)
@@ -14873,7 +14876,6 @@
 
 - [bjrjk/CVE-2022-4262](https://github.com/bjrjk/CVE-2022-4262)
 - [mistymntncop/CVE-2022-4262](https://github.com/mistymntncop/CVE-2022-4262)
-- [quangnh89/CVE-2022-4262](https://github.com/quangnh89/CVE-2022-4262)
 
 ### CVE-2022-4304 (2023-02-08)
 
@@ -15036,6 +15038,13 @@
 
 - [Bariskizilkaya/CVE-2022-20186_CTXZ](https://github.com/Bariskizilkaya/CVE-2022-20186_CTXZ)
 - [SmileTabLabo/CVE-2022-20186](https://github.com/SmileTabLabo/CVE-2022-20186)
+
+### CVE-2022-20223 (2022-07-13)
+
+<code>In assertSafeToStartCustomActivity of AppRestrictionsFragment.java, there is a possible way to start a phone call without permissions due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-223578534
+</code>
+
+- [xbee9/cve-2022-20223](https://github.com/xbee9/cve-2022-20223)
 
 ### CVE-2022-20224 (2022-07-13)
 
@@ -15501,13 +15510,6 @@
 - [ZZ-SOCMAP/CVE-2022-22536](https://github.com/ZZ-SOCMAP/CVE-2022-22536)
 - [tess-ss/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536](https://github.com/tess-ss/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536)
 
-### CVE-2022-22555 (2022-07-20)
-
-<code>Dell EMC PowerStore, contains an OS command injection Vulnerability. A locally authenticated attacker could potentially exploit this vulnerability, leading to the execution of arbitrary OS commands on the PowerStore underlying OS, with the privileges of the vulnerable application. Exploitation may lead to an elevation of privilege.
-</code>
-
-- [colaoo123/cve-2022-22555](https://github.com/colaoo123/cve-2022-22555)
-
 ### CVE-2022-22582 (2023-02-27)
 
 <code>A validation issue existed in the handling of symlinks. This issue was addressed with improved validation of symlinks. This issue is fixed in Security Update 2022-003 Catalina, macOS Big Sur 11.6.5, macOS Monterey 12.3. A local user may be able to write arbitrary files.
@@ -15940,6 +15942,7 @@
 
 - [Inplex-sys/CVE-2022-23093](https://github.com/Inplex-sys/CVE-2022-23093)
 - [Symbolexe/DrayTek-Exploit](https://github.com/Symbolexe/DrayTek-Exploit)
+- [mpvx/CVE-2022-23093](https://github.com/mpvx/CVE-2022-23093)
 
 ### CVE-2022-23131 (2022-01-13)
 
@@ -16839,6 +16842,7 @@
 
 - [Inplex-sys/CVE-2022-26265](https://github.com/Inplex-sys/CVE-2022-26265)
 - [redteamsecurity2023/CVE-2022-26265](https://github.com/redteamsecurity2023/CVE-2022-26265)
+- [mpvx/CVE-2022-26265](https://github.com/mpvx/CVE-2022-26265)
 
 ### CVE-2022-26269 (2022-03-29)
 
@@ -17103,6 +17107,7 @@
 - [Inplex-sys/CVE-2022-27925](https://github.com/Inplex-sys/CVE-2022-27925)
 - [onlyHerold22/CVE-2022-27925-PoC](https://github.com/onlyHerold22/CVE-2022-27925-PoC)
 - [sanan2004/CVE-2022-27925](https://github.com/sanan2004/CVE-2022-27925)
+- [mpvx/CVE-2022-27925](https://github.com/mpvx/CVE-2022-27925)
 
 ### CVE-2022-27927 (2022-04-19)
 
@@ -17162,7 +17167,6 @@
 </code>
 
 - [cheshireca7/CVE-2022-28117](https://github.com/cheshireca7/CVE-2022-28117)
-- [kimstars/POC-CVE-2022-28117](https://github.com/kimstars/POC-CVE-2022-28117)
 
 ### CVE-2022-28118 (2022-05-03)
 
@@ -17475,6 +17479,7 @@
 - [Pushkarup/CVE-2022-29464](https://github.com/Pushkarup/CVE-2022-29464)
 - [SynixCyberCrimeMy/CVE-2022-29464](https://github.com/SynixCyberCrimeMy/CVE-2022-29464)
 - [cc3305/CVE-2022-29464](https://github.com/cc3305/CVE-2022-29464)
+- [mpvx/CVE-2022-29464](https://github.com/mpvx/CVE-2022-29464)
 
 ### CVE-2022-29465 (2022-08-05)
 
@@ -18371,7 +18376,6 @@
 - [Vulnmachines/Apache-spark-CVE-2022-33891](https://github.com/Vulnmachines/Apache-spark-CVE-2022-33891)
 - [ps-interactive/lab_security_apache_spark_emulation_detection](https://github.com/ps-interactive/lab_security_apache_spark_emulation_detection)
 - [elsvital/cve-2022-33891-fix](https://github.com/elsvital/cve-2022-33891-fix)
-- [K3ysTr0K3R/CVE-2022-33891-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2022-33891-EXPLOIT)
 
 ### CVE-2022-33980 (2022-07-06)
 
@@ -18767,6 +18771,7 @@
 - [devengpk/CVE-2022-36804](https://github.com/devengpk/CVE-2022-36804)
 - [walnutsecurity/cve-2022-36804](https://github.com/walnutsecurity/cve-2022-36804)
 - [imbas007/Atlassian-Bitbucket-CVE-2022-36804](https://github.com/imbas007/Atlassian-Bitbucket-CVE-2022-36804)
+- [mpvx/CVE-2022-36804](https://github.com/mpvx/CVE-2022-36804)
 
 ### CVE-2022-36944 (2022-09-23)
 
@@ -18983,9 +18988,6 @@
 
 - [LucaBarile/CVE-2022-38604](https://github.com/LucaBarile/CVE-2022-38604)
 
-### CVE-2022-38691
-- [TomKing062/CVE-2022-38691_38692](https://github.com/TomKing062/CVE-2022-38691_38692)
-
 ### CVE-2022-38694
 - [TomKing062/CVE-2022-38694_unlock_bootloader](https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader)
 - [TheGammaSqueeze/Bootloader_Unlock_Anbernic_T820](https://github.com/TheGammaSqueeze/Bootloader_Unlock_Anbernic_T820)
@@ -19141,13 +19143,6 @@
 - [miguelc49/CVE-2022-39987-2](https://github.com/miguelc49/CVE-2022-39987-2)
 - [miguelc49/CVE-2022-39987-1](https://github.com/miguelc49/CVE-2022-39987-1)
 - [miguelc49/CVE-2022-39987-3](https://github.com/miguelc49/CVE-2022-39987-3)
-
-### CVE-2022-40032 (2023-02-17)
-
-<code>SQL Injection vulnerability in Simple Task Managing System version 1.0 in login.php in 'username' and 'password' parameters, allows attackers to execute arbitrary code and gain sensitive information.
-</code>
-
-- [h4md153v63n/CVE-2022-40032_Simple-Task-Managing-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/h4md153v63n/CVE-2022-40032_Simple-Task-Managing-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
 
 ### CVE-2022-40126 (2022-09-29)
 
@@ -20248,6 +20243,7 @@
 - [0xN7y/CVE-2022-46169](https://github.com/0xN7y/CVE-2022-46169)
 - [mind2hex/CVE-2022-46169](https://github.com/mind2hex/CVE-2022-46169)
 - [HPT-Intern-Task-Submission/CVE-2022-46169](https://github.com/HPT-Intern-Task-Submission/CVE-2022-46169)
+- [mpvx/CVE-2022-46169](https://github.com/mpvx/CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-24)
 
@@ -20450,6 +20446,7 @@
 - [Inplex-sys/CVE-2022-47966](https://github.com/Inplex-sys/CVE-2022-47966)
 - [ACE-Responder/CVE-2022-47966_checker](https://github.com/ACE-Responder/CVE-2022-47966_checker)
 - [vonahisec/CVE-2022-47966-Scan](https://github.com/vonahisec/CVE-2022-47966-Scan)
+- [mpvx/CVE-2022-47966](https://github.com/mpvx/CVE-2022-47966)
 
 ### CVE-2022-47986 (2023-02-17)
 
@@ -28646,7 +28643,7 @@
 </code>
 
 - [und3sc0n0c1d0/AFR-in-OMSA](https://github.com/und3sc0n0c1d0/AFR-in-OMSA)
-- [NyxByt3/CVE-2020-5377](https://github.com/NyxByt3/CVE-2020-5377)
+- [h3xcr4ck3r/CVE-2020-5377](https://github.com/h3xcr4ck3r/CVE-2020-5377)
 
 ### CVE-2020-5398 (2020-01-16)
 
@@ -33606,7 +33603,7 @@
 - [Billith/CVE-2019-5736-PoC](https://github.com/Billith/CVE-2019-5736-PoC)
 - [BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736)
 - [shen54/IT19172088](https://github.com/shen54/IT19172088)
-- [NyxByt3/CVE-2019-5736](https://github.com/NyxByt3/CVE-2019-5736)
+- [h3xcr4ck3r/CVE-2019-5736](https://github.com/h3xcr4ck3r/CVE-2019-5736)
 - [fahmifj/Docker-breakout-runc](https://github.com/fahmifj/Docker-breakout-runc)
 - [Asbatel/CVE-2019-5736_POC](https://github.com/Asbatel/CVE-2019-5736_POC)
 - [takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer)
@@ -33773,7 +33770,7 @@
 - [fs0c131y/ESFileExplorerOpenPortVuln](https://github.com/fs0c131y/ESFileExplorerOpenPortVuln)
 - [SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447](https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447)
 - [Nehal-Zaman/CVE-2019-6447](https://github.com/Nehal-Zaman/CVE-2019-6447)
-- [NyxByt3/CVE-2019-6447](https://github.com/NyxByt3/CVE-2019-6447)
+- [h3xcr4ck3r/CVE-2019-6447](https://github.com/h3xcr4ck3r/CVE-2019-6447)
 - [julio-cfa/POC-ES-File-Explorer-CVE-2019-6447](https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447)
 - [febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit)
 - [Kayky-cmd/CVE-2019-6447--.](https://github.com/Kayky-cmd/CVE-2019-6447--.)
@@ -34152,7 +34149,7 @@
 </code>
 
 - [SUNNYSAINI01001/46635.py_CVE-2019-9053](https://github.com/SUNNYSAINI01001/46635.py_CVE-2019-9053)
-- [NyxByt3/CVE-2019-9053](https://github.com/NyxByt3/CVE-2019-9053)
+- [h3xcr4ck3r/CVE-2019-9053](https://github.com/h3xcr4ck3r/CVE-2019-9053)
 - [maraspiras/46635.py](https://github.com/maraspiras/46635.py)
 - [e-renna/CVE-2019-9053](https://github.com/e-renna/CVE-2019-9053)
 - [zmiddle/Simple_CMS_SQLi](https://github.com/zmiddle/Simple_CMS_SQLi)
@@ -35353,7 +35350,7 @@
 - [M108Falcon/Sudo-CVE-2019-14287](https://github.com/M108Falcon/Sudo-CVE-2019-14287)
 - [edsonjt81/CVE-2019-14287-](https://github.com/edsonjt81/CVE-2019-14287-)
 - [DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights](https://github.com/DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights)
-- [NyxByt3/CVE-2019-14287](https://github.com/NyxByt3/CVE-2019-14287)
+- [h3xcr4ck3r/CVE-2019-14287](https://github.com/h3xcr4ck3r/CVE-2019-14287)
 - [Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287](https://github.com/Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287)
 - [MariliaMeira/CVE-2019-14287](https://github.com/MariliaMeira/CVE-2019-14287)
 - [Ijinleife/CVE-2019-14287](https://github.com/Ijinleife/CVE-2019-14287)
@@ -35746,7 +35743,7 @@
 - [Kr0ff/cve-2019-16278](https://github.com/Kr0ff/cve-2019-16278)
 - [NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278)
 - [keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278)
-- [NyxByt3/CVE-2019-16278](https://github.com/NyxByt3/CVE-2019-16278)
+- [h3xcr4ck3r/CVE-2019-16278](https://github.com/h3xcr4ck3r/CVE-2019-16278)
 - [alexander-fernandes/CVE-2019-16278](https://github.com/alexander-fernandes/CVE-2019-16278)
 - [FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE](https://github.com/FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE)
 - [0xTabun/CVE-2019-16278](https://github.com/0xTabun/CVE-2019-16278)
@@ -39369,7 +39366,7 @@
 - [kxisxr/Bash-Script-CVE-2018-16763](https://github.com/kxisxr/Bash-Script-CVE-2018-16763)
 - [padsalatushal/CVE-2018-16763](https://github.com/padsalatushal/CVE-2018-16763)
 - [wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763)
-- [NyxByt3/CVE-2018-16763](https://github.com/NyxByt3/CVE-2018-16763)
+- [h3xcr4ck3r/CVE-2018-16763](https://github.com/h3xcr4ck3r/CVE-2018-16763)
 - [BrunoPincho/cve-2018-16763-rust](https://github.com/BrunoPincho/cve-2018-16763-rust)
 - [p0dalirius/CVE-2018-16763-FuelCMS-1.4.1-RCE](https://github.com/p0dalirius/CVE-2018-16763-FuelCMS-1.4.1-RCE)
 - [not1cyyy/CVE-2018-16763](https://github.com/not1cyyy/CVE-2018-16763)
@@ -40149,7 +40146,7 @@
 
 - [valarauco/wannafind](https://github.com/valarauco/wannafind)
 - [NatteeSetobol/Etern-blue-Windows-7-Checker](https://github.com/NatteeSetobol/Etern-blue-Windows-7-Checker)
-- [NyxByt3/MS17-010_CVE-2017-0143](https://github.com/NyxByt3/MS17-010_CVE-2017-0143)
+- [h3xcr4ck3r/MS17-010_CVE-2017-0143](https://github.com/h3xcr4ck3r/MS17-010_CVE-2017-0143)
 - [SampatDhakal/Metasploit-Attack-Report](https://github.com/SampatDhakal/Metasploit-Attack-Report)
 
 ### CVE-2017-0144 (2017-03-17)
@@ -40947,7 +40944,7 @@
 - [mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269)
 - [Al1ex/CVE-2017-7269](https://github.com/Al1ex/CVE-2017-7269)
 - [ThanHuuTuan/CVE-2017-7269](https://github.com/ThanHuuTuan/CVE-2017-7269)
-- [NyxByt3/CVE-2017-7269](https://github.com/NyxByt3/CVE-2017-7269)
+- [h3xcr4ck3r/CVE-2017-7269](https://github.com/h3xcr4ck3r/CVE-2017-7269)
 - [denchief1/CVE-2017-7269_Python3](https://github.com/denchief1/CVE-2017-7269_Python3)
 - [denchief1/CVE-2017-7269](https://github.com/denchief1/CVE-2017-7269)
 - [Cappricio-Securities/CVE-2017-7269](https://github.com/Cappricio-Securities/CVE-2017-7269)
@@ -42692,7 +42689,7 @@
 <code>Exim before 4.86.2, when installed setuid root, allows local users to gain privileges via the perl_startup argument.
 </code>
 
-- [NyxByt3/CVE-2016-1531](https://github.com/NyxByt3/CVE-2016-1531)
+- [h3xcr4ck3r/CVE-2016-1531](https://github.com/h3xcr4ck3r/CVE-2016-1531)
 
 ### CVE-2016-1542 (2016-06-13)
 
@@ -43979,8 +43976,8 @@
 - [bongbongco/MS15-034](https://github.com/bongbongco/MS15-034)
 - [aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC)
 - [limkokholefork/CVE-2015-1635](https://github.com/limkokholefork/CVE-2015-1635)
-- [NyxByt3/CVE-2015-1635-POC](https://github.com/NyxByt3/CVE-2015-1635-POC)
-- [NyxByt3/CVE-2015-1635](https://github.com/NyxByt3/CVE-2015-1635)
+- [h3xcr4ck3r/CVE-2015-1635-POC](https://github.com/h3xcr4ck3r/CVE-2015-1635-POC)
+- [h3xcr4ck3r/CVE-2015-1635](https://github.com/h3xcr4ck3r/CVE-2015-1635)
 - [w01ke/CVE-2015-1635-POC](https://github.com/w01ke/CVE-2015-1635-POC)
 - [SkinAir/ms15-034-Scan](https://github.com/SkinAir/ms15-034-Scan)
 - [Cappricio-Securities/CVE-2015-1635](https://github.com/Cappricio-Securities/CVE-2015-1635)
@@ -44479,7 +44476,7 @@
 </code>
 
 - [G01d3nW01f/CVE-2015-6668](https://github.com/G01d3nW01f/CVE-2015-6668)
-- [NyxByt3/CVE-2015-6668](https://github.com/NyxByt3/CVE-2015-6668)
+- [h3xcr4ck3r/CVE-2015-6668](https://github.com/h3xcr4ck3r/CVE-2015-6668)
 - [jimdiroffii/CVE-2015-6668](https://github.com/jimdiroffii/CVE-2015-6668)
 
 ### CVE-2015-6748 (2017-09-25)
@@ -44800,7 +44797,7 @@
 - [ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us)
 - [belmind/heartbleed](https://github.com/belmind/heartbleed)
 - [pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart)
-- [NyxByt3/CVE-2014-0160_Heartbleed](https://github.com/NyxByt3/CVE-2014-0160_Heartbleed)
+- [h3xcr4ck3r/CVE-2014-0160_Heartbleed](https://github.com/h3xcr4ck3r/CVE-2014-0160_Heartbleed)
 - [GardeniaWhite/fuzzing](https://github.com/GardeniaWhite/fuzzing)
 - [undacmic/heartbleed-proof-of-concept](https://github.com/undacmic/heartbleed-proof-of-concept)
 - [cbk914/heartbleed-checker](https://github.com/cbk914/heartbleed-checker)
@@ -46289,7 +46286,7 @@
 </code>
 
 - [Madusanka99/OHTS](https://github.com/Madusanka99/OHTS)
-- [NyxByt3/CVE-2011-1249](https://github.com/NyxByt3/CVE-2011-1249)
+- [h3xcr4ck3r/CVE-2011-1249](https://github.com/h3xcr4ck3r/CVE-2011-1249)
 
 ### CVE-2011-1473 (2012-06-16)
 
@@ -46750,7 +46747,7 @@
 </code>
 
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
-- [NyxByt3/CVE-2009-2265](https://github.com/NyxByt3/CVE-2009-2265)
+- [h3xcr4ck3r/CVE-2009-2265](https://github.com/h3xcr4ck3r/CVE-2009-2265)
 - [p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265)
 - [0xConstant/CVE-2009-2265](https://github.com/0xConstant/CVE-2009-2265)
 
@@ -47042,7 +47039,7 @@
 - [mr-l0n3lly/CVE-2007-2447](https://github.com/mr-l0n3lly/CVE-2007-2447)
 - [HerculesRD/PyUsernameMapScriptRCE](https://github.com/HerculesRD/PyUsernameMapScriptRCE)
 - [Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447)
-- [NyxByt3/CVE-2007-2447](https://github.com/NyxByt3/CVE-2007-2447)
+- [h3xcr4ck3r/CVE-2007-2447](https://github.com/h3xcr4ck3r/CVE-2007-2447)
 - [bdunlap9/CVE-2007-2447_python](https://github.com/bdunlap9/CVE-2007-2447_python)
 - [MikeRega7/CVE-2007-2447-RCE](https://github.com/MikeRega7/CVE-2007-2447-RCE)
 - [0xTabun/CVE-2007-2447](https://github.com/0xTabun/CVE-2007-2447)
@@ -47327,7 +47324,7 @@
 <code>distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.
 </code>
 
-- [NyxByt3/distccd_rce_CVE-2004-2687](https://github.com/NyxByt3/distccd_rce_CVE-2004-2687)
+- [h3xcr4ck3r/distccd_rce_CVE-2004-2687](https://github.com/h3xcr4ck3r/distccd_rce_CVE-2004-2687)
 - [k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687)
 - [ss0wl/CVE-2004-2687_distcc_v1](https://github.com/ss0wl/CVE-2004-2687_distcc_v1)
 
