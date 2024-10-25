@@ -4758,6 +4758,9 @@
 
 - [Florian-Hoth/CVE-2024-38100-RCE-POC](https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC)
 
+### CVE-2024-38124
+- [tadash10/Detailed-Analysis-and-Mitigation-Strategies-for-CVE-2024-38124-and-CVE-2024-43468](https://github.com/tadash10/Detailed-Analysis-and-Mitigation-Strategies-for-CVE-2024-38124-and-CVE-2024-43468)
+
 ### CVE-2024-38127 (2024-08-13)
 
 <code>Windows Hyper-V Elevation of Privilege Vulnerability
@@ -5300,6 +5303,9 @@
 ### CVE-2024-43425
 - [RedTeamPentesting/moodle-rce-calculatedquestions](https://github.com/RedTeamPentesting/moodle-rce-calculatedquestions)
 
+### CVE-2024-43532
+- [HazeLook/CVE-2024-43532](https://github.com/HazeLook/CVE-2024-43532)
+
 ### CVE-2024-43582
 - [jinxongwi/CVE-2024-43582-RCE](https://github.com/jinxongwi/CVE-2024-43582-RCE)
 
@@ -5576,6 +5582,10 @@
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
+
+### CVE-2024-47575
+- [maybelookis/CVE-2024-47575](https://github.com/maybelookis/CVE-2024-47575)
+- [HazeLook/CVE-2024-47575](https://github.com/HazeLook/CVE-2024-47575)
 
 ### CVE-2024-47854
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
@@ -12826,6 +12836,7 @@
 - [vidura2/cve-2023-46747](https://github.com/vidura2/cve-2023-46747)
 - [rainbowhatrkn/CVE-2023-46747-RCE](https://github.com/rainbowhatrkn/CVE-2023-46747-RCE)
 - [AMELYA13/CVE-2023-46747-Mass-RCE](https://github.com/AMELYA13/CVE-2023-46747-Mass-RCE)
+- [MacTavish2/CVE-2023-46747-Mass-RCE](https://github.com/MacTavish2/CVE-2023-46747-Mass-RCE)
 
 ### CVE-2023-46805 (2024-01-12)
 
@@ -14181,6 +14192,7 @@
 - [ayushx007/CVE-2022-0847-dirty-pipe-checker](https://github.com/ayushx007/CVE-2022-0847-dirty-pipe-checker)
 - [ayushx007/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/ayushx007/CVE-2022-0847-DirtyPipe-Exploits)
 - [solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus](https://github.com/solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus)
+- [letsr00t/CVE-2022-0847](https://github.com/letsr00t/CVE-2022-0847)
 - [xsxtw/CVE-2022-0847](https://github.com/xsxtw/CVE-2022-0847)
 - [muhammad1596/CVE-2022-0847-dirty-pipe-checker](https://github.com/muhammad1596/CVE-2022-0847-dirty-pipe-checker)
 - [muhammad1596/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/muhammad1596/CVE-2022-0847-DirtyPipe-Exploits)
@@ -14876,6 +14888,7 @@
 
 - [bjrjk/CVE-2022-4262](https://github.com/bjrjk/CVE-2022-4262)
 - [mistymntncop/CVE-2022-4262](https://github.com/mistymntncop/CVE-2022-4262)
+- [quangnh89/CVE-2022-4262](https://github.com/quangnh89/CVE-2022-4262)
 
 ### CVE-2022-4304 (2023-02-08)
 
@@ -15510,6 +15523,13 @@
 - [ZZ-SOCMAP/CVE-2022-22536](https://github.com/ZZ-SOCMAP/CVE-2022-22536)
 - [tess-ss/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536](https://github.com/tess-ss/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536)
 
+### CVE-2022-22555 (2022-07-20)
+
+<code>Dell EMC PowerStore, contains an OS command injection Vulnerability. A locally authenticated attacker could potentially exploit this vulnerability, leading to the execution of arbitrary OS commands on the PowerStore underlying OS, with the privileges of the vulnerable application. Exploitation may lead to an elevation of privilege.
+</code>
+
+- [colaoo123/cve-2022-22555](https://github.com/colaoo123/cve-2022-22555)
+
 ### CVE-2022-22582 (2023-02-27)
 
 <code>A validation issue existed in the handling of symlinks. This issue was addressed with improved validation of symlinks. This issue is fixed in Security Update 2022-003 Catalina, macOS Big Sur 11.6.5, macOS Monterey 12.3. A local user may be able to write arbitrary files.
@@ -15942,7 +15962,6 @@
 
 - [Inplex-sys/CVE-2022-23093](https://github.com/Inplex-sys/CVE-2022-23093)
 - [Symbolexe/DrayTek-Exploit](https://github.com/Symbolexe/DrayTek-Exploit)
-- [mpvx/CVE-2022-23093](https://github.com/mpvx/CVE-2022-23093)
 
 ### CVE-2022-23131 (2022-01-13)
 
@@ -15968,6 +15987,7 @@
 - [clearcdq/Zabbix-SAML-SSO-_CVE-2022-23131](https://github.com/clearcdq/Zabbix-SAML-SSO-_CVE-2022-23131)
 - [r10lab/CVE-2022-23131](https://github.com/r10lab/CVE-2022-23131)
 - [fork-bombed/CVE-2022-23131](https://github.com/fork-bombed/CVE-2022-23131)
+- [davidzzo23/CVE-2022-23131](https://github.com/davidzzo23/CVE-2022-23131)
 
 ### CVE-2022-23222 (2022-01-14)
 
@@ -16842,7 +16862,6 @@
 
 - [Inplex-sys/CVE-2022-26265](https://github.com/Inplex-sys/CVE-2022-26265)
 - [redteamsecurity2023/CVE-2022-26265](https://github.com/redteamsecurity2023/CVE-2022-26265)
-- [mpvx/CVE-2022-26265](https://github.com/mpvx/CVE-2022-26265)
 
 ### CVE-2022-26269 (2022-03-29)
 
@@ -17107,7 +17126,6 @@
 - [Inplex-sys/CVE-2022-27925](https://github.com/Inplex-sys/CVE-2022-27925)
 - [onlyHerold22/CVE-2022-27925-PoC](https://github.com/onlyHerold22/CVE-2022-27925-PoC)
 - [sanan2004/CVE-2022-27925](https://github.com/sanan2004/CVE-2022-27925)
-- [mpvx/CVE-2022-27925](https://github.com/mpvx/CVE-2022-27925)
 
 ### CVE-2022-27927 (2022-04-19)
 
@@ -17167,6 +17185,7 @@
 </code>
 
 - [cheshireca7/CVE-2022-28117](https://github.com/cheshireca7/CVE-2022-28117)
+- [kimstars/POC-CVE-2022-28117](https://github.com/kimstars/POC-CVE-2022-28117)
 
 ### CVE-2022-28118 (2022-05-03)
 
@@ -17479,7 +17498,6 @@
 - [Pushkarup/CVE-2022-29464](https://github.com/Pushkarup/CVE-2022-29464)
 - [SynixCyberCrimeMy/CVE-2022-29464](https://github.com/SynixCyberCrimeMy/CVE-2022-29464)
 - [cc3305/CVE-2022-29464](https://github.com/cc3305/CVE-2022-29464)
-- [mpvx/CVE-2022-29464](https://github.com/mpvx/CVE-2022-29464)
 
 ### CVE-2022-29465 (2022-08-05)
 
@@ -18376,6 +18394,7 @@
 - [Vulnmachines/Apache-spark-CVE-2022-33891](https://github.com/Vulnmachines/Apache-spark-CVE-2022-33891)
 - [ps-interactive/lab_security_apache_spark_emulation_detection](https://github.com/ps-interactive/lab_security_apache_spark_emulation_detection)
 - [elsvital/cve-2022-33891-fix](https://github.com/elsvital/cve-2022-33891-fix)
+- [K3ysTr0K3R/CVE-2022-33891-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2022-33891-EXPLOIT)
 
 ### CVE-2022-33980 (2022-07-06)
 
@@ -18771,7 +18790,6 @@
 - [devengpk/CVE-2022-36804](https://github.com/devengpk/CVE-2022-36804)
 - [walnutsecurity/cve-2022-36804](https://github.com/walnutsecurity/cve-2022-36804)
 - [imbas007/Atlassian-Bitbucket-CVE-2022-36804](https://github.com/imbas007/Atlassian-Bitbucket-CVE-2022-36804)
-- [mpvx/CVE-2022-36804](https://github.com/mpvx/CVE-2022-36804)
 
 ### CVE-2022-36944 (2022-09-23)
 
@@ -18988,6 +19006,9 @@
 
 - [LucaBarile/CVE-2022-38604](https://github.com/LucaBarile/CVE-2022-38604)
 
+### CVE-2022-38691
+- [TomKing062/CVE-2022-38691_38692](https://github.com/TomKing062/CVE-2022-38691_38692)
+
 ### CVE-2022-38694
 - [TomKing062/CVE-2022-38694_unlock_bootloader](https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader)
 - [TheGammaSqueeze/Bootloader_Unlock_Anbernic_T820](https://github.com/TheGammaSqueeze/Bootloader_Unlock_Anbernic_T820)
@@ -19143,6 +19164,13 @@
 - [miguelc49/CVE-2022-39987-2](https://github.com/miguelc49/CVE-2022-39987-2)
 - [miguelc49/CVE-2022-39987-1](https://github.com/miguelc49/CVE-2022-39987-1)
 - [miguelc49/CVE-2022-39987-3](https://github.com/miguelc49/CVE-2022-39987-3)
+
+### CVE-2022-40032 (2023-02-17)
+
+<code>SQL Injection vulnerability in Simple Task Managing System version 1.0 in login.php in 'username' and 'password' parameters, allows attackers to execute arbitrary code and gain sensitive information.
+</code>
+
+- [h4md153v63n/CVE-2022-40032_Simple-Task-Managing-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/h4md153v63n/CVE-2022-40032_Simple-Task-Managing-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
 
 ### CVE-2022-40126 (2022-09-29)
 
@@ -20243,7 +20271,6 @@
 - [0xN7y/CVE-2022-46169](https://github.com/0xN7y/CVE-2022-46169)
 - [mind2hex/CVE-2022-46169](https://github.com/mind2hex/CVE-2022-46169)
 - [HPT-Intern-Task-Submission/CVE-2022-46169](https://github.com/HPT-Intern-Task-Submission/CVE-2022-46169)
-- [mpvx/CVE-2022-46169](https://github.com/mpvx/CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-24)
 
@@ -20446,7 +20473,6 @@
 - [Inplex-sys/CVE-2022-47966](https://github.com/Inplex-sys/CVE-2022-47966)
 - [ACE-Responder/CVE-2022-47966_checker](https://github.com/ACE-Responder/CVE-2022-47966_checker)
 - [vonahisec/CVE-2022-47966-Scan](https://github.com/vonahisec/CVE-2022-47966-Scan)
-- [mpvx/CVE-2022-47966](https://github.com/mpvx/CVE-2022-47966)
 
 ### CVE-2022-47986 (2023-02-17)
 
@@ -47120,6 +47146,13 @@
 </code>
 
 - [alt3kx/CVE-2007-6638](https://github.com/alt3kx/CVE-2007-6638)
+
+### CVE-2007-6750 (2011-12-27)
+
+<code>The Apache HTTP Server 1.x and 2.x allows remote attackers to cause a denial of service (daemon outage) via partial HTTP requests, as demonstrated by Slowloris, related to the lack of the mod_reqtimeout module in versions before 2.2.15.
+</code>
+
+- [Jeanpseven/slowl0ris](https://github.com/Jeanpseven/slowl0ris)
 
 
 ## 2006
