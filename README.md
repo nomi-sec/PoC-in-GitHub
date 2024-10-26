@@ -4902,6 +4902,9 @@
 
 - [5r1an/CVE-2024-39203](https://github.com/5r1an/CVE-2024-39203)
 
+### CVE-2024-39205
+- [Marven11/CVE-2024-39205-Pyload-RCE](https://github.com/Marven11/CVE-2024-39205-Pyload-RCE)
+
 ### CVE-2024-39210 (2024-07-05)
 
 <code>Best House Rental Management System v1.0 was discovered to contain an arbitrary file read vulnerability via the Page parameter at index.php. This vulnerability allows attackers to read arbitrary PHP files and access other sensitive information within the application.
@@ -5274,6 +5277,9 @@
 
 - [jeyabalaji711/CVE-2024-42919](https://github.com/jeyabalaji711/CVE-2024-42919)
 
+### CVE-2024-42930
+- [cyb3res3c/CVE-2024-42930](https://github.com/cyb3res3c/CVE-2024-42930)
+
 ### CVE-2024-42992
 - [thanhh23/CVE-2024-42992](https://github.com/thanhh23/CVE-2024-42992)
 
@@ -5590,6 +5596,9 @@
 ### CVE-2024-47854
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
 
+### CVE-2024-48195
+- [cyb3res3c/CVE-2024-48195](https://github.com/cyb3res3c/CVE-2024-48195)
+
 ### CVE-2024-48392
 - [Renzusclarke/CVE-2024-48392-PoC](https://github.com/Renzusclarke/CVE-2024-48392-PoC)
 
@@ -5610,6 +5619,9 @@
 
 ### CVE-2024-48914
 - [EQSTLab/CVE-2024-48914](https://github.com/EQSTLab/CVE-2024-48914)
+
+### CVE-2024-49186
+- [cyb3res3c/CVE-2024-49186](https://github.com/cyb3res3c/CVE-2024-49186)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -14230,7 +14242,6 @@
 - [0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944](https://github.com/0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944)
 - [Robocopsita/CVE-2022-0944_RCE_POC](https://github.com/Robocopsita/CVE-2022-0944_RCE_POC)
 - [toneillcodes/CVE-2022-0944](https://github.com/toneillcodes/CVE-2022-0944)
-- [LipeOzyy/SQLPad-RCE-Exploit-CVE-2022-0944](https://github.com/LipeOzyy/SQLPad-RCE-Exploit-CVE-2022-0944)
 
 ### CVE-2022-0952 (2022-05-02)
 
@@ -33292,7 +33303,7 @@
 
 - [shack2/javaserializetools](https://github.com/shack2/javaserializetools)
 - [SkyBlueEternal/CNVD-C-2019-48814-CNNVD-201904-961](https://github.com/SkyBlueEternal/CNVD-C-2019-48814-CNNVD-201904-961)
-- [iceMatcha/CNTA-2019-0014xCVE-2019-2725](https://github.com/iceMatcha/CNTA-2019-0014xCVE-2019-2725)
+- [tobechenghuai/CNTA-2019-0014xCVE-2019-2725](https://github.com/tobechenghuai/CNTA-2019-0014xCVE-2019-2725)
 - [lasensio/cve-2019-2725](https://github.com/lasensio/cve-2019-2725)
 - [davidmthomsen/CVE-2019-2725](https://github.com/davidmthomsen/CVE-2019-2725)
 - [leerina/CVE-2019-2725](https://github.com/leerina/CVE-2019-2725)
