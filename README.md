@@ -31676,6 +31676,7 @@
 
 - [darrenmartyn/sophucked](https://github.com/darrenmartyn/sophucked)
 - [twentybel0w/CVE-2020-25223](https://github.com/twentybel0w/CVE-2020-25223)
+- [reneww/poc-CVE-2020-25223](https://github.com/reneww/poc-CVE-2020-25223)
 
 ### CVE-2020-25265 (2020-12-02)
 
