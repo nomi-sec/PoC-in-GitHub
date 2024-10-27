@@ -62,6 +62,13 @@
 - [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049)
 - [Aakashmom/frameworks_av_android10_r33_CVE-2024-0049](https://github.com/Aakashmom/frameworks_av_android10_r33_CVE-2024-0049)
 
+### CVE-2024-0113 (2024-08-09)
+
+<code>NVIDIA Mellanox OS, ONYX, Skyway, and MetroX-3 XCC contain a vulnerability in the web support, where an attacker can cause a CGI path traversal by a specially crafted URI. A successful exploit of this vulnerability might lead to escalation of privileges and information disclosure.
+</code>
+
+- [zetraxz/CVE-2024-0113](https://github.com/zetraxz/CVE-2024-0113)
+
 ### CVE-2024-0195 (2024-01-02)
 
 <code>Es wurde eine Schwachstelle in spider-flow 0.4.3 gefunden. Sie wurde als kritisch eingestuft. Es betrifft die Funktion FunctionService.saveFunction der Datei src/main/java/org/spiderflow/controller/FunctionController.java. Durch Manipulieren mit unbekannten Daten kann eine code injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -2271,6 +2278,7 @@
 - [maybelookis/CVE-2024-23113](https://github.com/maybelookis/CVE-2024-23113)
 - [p33d/CVE-2024-23113](https://github.com/p33d/CVE-2024-23113)
 - [groshi/CVE-2024-23113-Private-POC](https://github.com/groshi/CVE-2024-23113-Private-POC)
+- [Jaden1419/CVE-2024-23113](https://github.com/Jaden1419/CVE-2024-23113)
 
 ### CVE-2024-23208 (2024-01-23)
 
@@ -3425,6 +3433,7 @@
 - [horizon3ai/CVE-2024-28987](https://github.com/horizon3ai/CVE-2024-28987)
 - [PlayerFridei/CVE-2024-28987](https://github.com/PlayerFridei/CVE-2024-28987)
 - [HazeLook/CVE-2024-28987](https://github.com/HazeLook/CVE-2024-28987)
+- [Jaden1419/CVE-2024-28987](https://github.com/Jaden1419/CVE-2024-28987)
 
 ### CVE-2024-28995 (2024-06-06)
 
@@ -5320,6 +5329,7 @@
 
 ### CVE-2024-43532
 - [HazeLook/CVE-2024-43532](https://github.com/HazeLook/CVE-2024-43532)
+- [Jaden1419/CVE-2024-43532](https://github.com/Jaden1419/CVE-2024-43532)
 
 ### CVE-2024-43582
 - [jinxongwi/CVE-2024-43582-RCE](https://github.com/jinxongwi/CVE-2024-43582-RCE)
@@ -5601,6 +5611,7 @@
 ### CVE-2024-47575
 - [maybelookis/CVE-2024-47575](https://github.com/maybelookis/CVE-2024-47575)
 - [HazeLook/CVE-2024-47575](https://github.com/HazeLook/CVE-2024-47575)
+- [Jaden1419/CVE-2024-47575](https://github.com/Jaden1419/CVE-2024-47575)
 
 ### CVE-2024-47854
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
@@ -5617,6 +5628,9 @@
 ### CVE-2024-48427
 - [vighneshnair7/CVE-2024-48427](https://github.com/vighneshnair7/CVE-2024-48427)
 
+### CVE-2024-48569
+- [MarioTesoro/CVE-2024-48569](https://github.com/MarioTesoro/CVE-2024-48569)
+
 ### CVE-2024-48605
 - [surajhacx/HelakuruV.1.1-DLLHijack](https://github.com/surajhacx/HelakuruV.1.1-DLLHijack)
 
@@ -5625,6 +5639,9 @@
 
 ### CVE-2024-48652
 - [paragbagul111/CVE-2024-48652](https://github.com/paragbagul111/CVE-2024-48652)
+
+### CVE-2024-48904
+- [zetraxz/CVE-2024-48904](https://github.com/zetraxz/CVE-2024-48904)
 
 ### CVE-2024-48914
 - [EQSTLab/CVE-2024-48914](https://github.com/EQSTLab/CVE-2024-48914)
