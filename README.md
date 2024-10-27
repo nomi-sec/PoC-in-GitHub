@@ -3425,7 +3425,6 @@
 - [horizon3ai/CVE-2024-28987](https://github.com/horizon3ai/CVE-2024-28987)
 - [PlayerFridei/CVE-2024-28987](https://github.com/PlayerFridei/CVE-2024-28987)
 - [HazeLook/CVE-2024-28987](https://github.com/HazeLook/CVE-2024-28987)
-- [GordonPol1/CVE-2024-28987](https://github.com/GordonPol1/CVE-2024-28987)
 
 ### CVE-2024-28995 (2024-06-06)
 
@@ -14252,7 +14251,6 @@
 - [0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944](https://github.com/0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944)
 - [Robocopsita/CVE-2022-0944_RCE_POC](https://github.com/Robocopsita/CVE-2022-0944_RCE_POC)
 - [toneillcodes/CVE-2022-0944](https://github.com/toneillcodes/CVE-2022-0944)
-- [LipeOzyy/SQLPad-RCE-Exploit-CVE-2022-0944](https://github.com/LipeOzyy/SQLPad-RCE-Exploit-CVE-2022-0944)
 
 ### CVE-2022-0952 (2022-05-02)
 
