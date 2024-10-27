@@ -2267,6 +2267,20 @@
 - [horizon3ai/CVE-2024-23108](https://github.com/horizon3ai/CVE-2024-23108)
 - [hitem/CVE-2024-23108](https://github.com/hitem/CVE-2024-23108)
 
+### CVE-2024-23111 (2024-06-11)
+
+<code>An improper neutralization of input during web page Generation ('Cross-site Scripting') vulnerability [CWE-79] in FortiOS version 7.4.3 and below, 7.2 all versions, 7.0 all versions and FortiProxy version 7.4.2 and below, 7.2 all versions, 7.0 all versions reboot page may allow a remote privileged attacker with super-admin access to execute JavaScript code via crafted HTTP GET requests.
+</code>
+
+- [zgimszhd61/CVE-2024-23111](https://github.com/zgimszhd61/CVE-2024-23111)
+
+### CVE-2024-23112 (2024-03-12)
+
+<code>An authorization bypass through user-controlled key vulnerability [CWE-639] in FortiOS version 7.4.0 through 7.4.1, 7.2.0 through 7.2.6, 7.0.1 through 7.0.13, 6.4.7 through 6.4.14, and FortiProxy version 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14 SSL-VPN may allow an authenticated attacker to gain access to another user’s bookmark via URL manipulation.
+</code>
+
+- [zgimszhd61/CVE-2024-23112](https://github.com/zgimszhd61/CVE-2024-23112)
+
 ### CVE-2024-23113 (2024-02-15)
 
 <code>A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.
@@ -2279,6 +2293,35 @@
 - [p33d/CVE-2024-23113](https://github.com/p33d/CVE-2024-23113)
 - [groshi/CVE-2024-23113-Private-POC](https://github.com/groshi/CVE-2024-23113-Private-POC)
 - [Jaden1419/CVE-2024-23113](https://github.com/Jaden1419/CVE-2024-23113)
+- [hatvix1/CVE-2024-23113](https://github.com/hatvix1/CVE-2024-23113)
+
+### CVE-2024-23114 (2024-02-20)
+
+<code>Deserialization of Untrusted Data vulnerability in Apache Camel CassandraQL Component AggregationRepository which is vulnerable to unsafe deserialization. Under specific conditions it is possible to deserialize malicious payload.This issue affects Apache Camel: from 3.0.0 before 3.21.4, from 3.22.0 before 3.22.1, from 4.0.0 before 4.0.4, from 4.1.0 before 4.4.0.\n\nUsers are recommended to upgrade to version 4.4.0, which fixes the issue. If users are on the 4.0.x LTS releases stream, then they are suggested to upgrade to 4.0.4. If users are on 3.x, they are suggested to move to 3.21.4 or 3.22.1\n\n
+</code>
+
+- [zgimszhd61/CVE-2024-23114](https://github.com/zgimszhd61/CVE-2024-23114)
+
+### CVE-2024-23116 (2024-04-01)
+
+<code>Centreon updateLCARelation SQL Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Centreon. Authentication is required to exploit this vulnerability.\n\nThe specific flaw exists within the updateLCARelation function. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of the service account. Was ZDI-CAN-22296.
+</code>
+
+- [zgimszhd61/CVE-2024-23116](https://github.com/zgimszhd61/CVE-2024-23116)
+
+### CVE-2024-23117 (2024-04-01)
+
+<code>Centreon updateContactServiceCommands SQL Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Centreon. Authentication is required to exploit this vulnerability.\n\nThe specific flaw exists within the updateContactServiceCommands function. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of the service account. Was ZDI-CAN-22297.
+</code>
+
+- [zgimszhd61/CVE-2024-23117](https://github.com/zgimszhd61/CVE-2024-23117)
+
+### CVE-2024-23118 (2024-04-01)
+
+<code>Centreon updateContactHostCommands SQL Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Centreon. Authentication is required to exploit this vulnerability.\n\nThe specific flaw exists within the updateContactHostCommands function. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of the service account. Was ZDI-CAN-22298.
+</code>
+
+- [zgimszhd61/CVE-2024-23118](https://github.com/zgimszhd61/CVE-2024-23118)
 
 ### CVE-2024-23208 (2024-01-23)
 
@@ -3434,6 +3477,7 @@
 - [PlayerFridei/CVE-2024-28987](https://github.com/PlayerFridei/CVE-2024-28987)
 - [HazeLook/CVE-2024-28987](https://github.com/HazeLook/CVE-2024-28987)
 - [Jaden1419/CVE-2024-28987](https://github.com/Jaden1419/CVE-2024-28987)
+- [hatvix1/CVE-2024-28987](https://github.com/hatvix1/CVE-2024-28987)
 
 ### CVE-2024-28995 (2024-06-06)
 
@@ -5330,6 +5374,7 @@
 ### CVE-2024-43532
 - [HazeLook/CVE-2024-43532](https://github.com/HazeLook/CVE-2024-43532)
 - [Jaden1419/CVE-2024-43532](https://github.com/Jaden1419/CVE-2024-43532)
+- [hatvix1/CVE-2024-43532](https://github.com/hatvix1/CVE-2024-43532)
 
 ### CVE-2024-43582
 - [jinxongwi/CVE-2024-43582-RCE](https://github.com/jinxongwi/CVE-2024-43582-RCE)
@@ -5612,6 +5657,7 @@
 - [maybelookis/CVE-2024-47575](https://github.com/maybelookis/CVE-2024-47575)
 - [HazeLook/CVE-2024-47575](https://github.com/HazeLook/CVE-2024-47575)
 - [Jaden1419/CVE-2024-47575](https://github.com/Jaden1419/CVE-2024-47575)
+- [hatvix1/CVE-2024-47575](https://github.com/hatvix1/CVE-2024-47575)
 
 ### CVE-2024-47854
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
