@@ -1627,6 +1627,9 @@
 ### CVE-2024-9106
 - [RandomRobbieBF/CVE-2024-9106](https://github.com/RandomRobbieBF/CVE-2024-9106)
 
+### CVE-2024-9162
+- [d0n601/CVE-2024-9162](https://github.com/d0n601/CVE-2024-9162)
+
 ### CVE-2024-9166
 - [Andrysqui/CVE-2024-9166](https://github.com/Andrysqui/CVE-2024-9166)
 
@@ -6550,6 +6553,7 @@
 - [qrxnz/CVE-2023-4220](https://github.com/qrxnz/CVE-2023-4220)
 - [0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit](https://github.com/0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit)
 - [bueno-armando/CVE-2023-4220-RCE](https://github.com/bueno-armando/CVE-2023-4220-RCE)
+- [TanveerS1ngh/Chamilo-LMS-CVE-2023-4220-Exploit](https://github.com/TanveerS1ngh/Chamilo-LMS-CVE-2023-4220-Exploit)
 
 ### CVE-2023-4226 (2023-11-28)
 
@@ -11690,6 +11694,7 @@
 - [thefizzyfish/CVE-2023-41425-wonderCMS_RCE](https://github.com/thefizzyfish/CVE-2023-41425-wonderCMS_RCE)
 - [Raffli-Dev/CVE-2023-41425](https://github.com/Raffli-Dev/CVE-2023-41425)
 - [duck-sec/CVE-2023-41425](https://github.com/duck-sec/CVE-2023-41425)
+- [TanveerS1ngh/WonderCMS-4.3.2-XSS-to-RCE-Exploits-CVE-2023-41425](https://github.com/TanveerS1ngh/WonderCMS-4.3.2-XSS-to-RCE-Exploits-CVE-2023-41425)
 
 ### CVE-2023-41436 (2023-09-15)
 
@@ -13755,6 +13760,7 @@
 - [rwexecute/CVE-2023-50564](https://github.com/rwexecute/CVE-2023-50564)
 - [thefizzyfish/CVE-2023-50564-pluck](https://github.com/thefizzyfish/CVE-2023-50564-pluck)
 - [Mrterrestrial/CVE-2023-50564](https://github.com/Mrterrestrial/CVE-2023-50564)
+- [TanveerS1ngh/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564-](https://github.com/TanveerS1ngh/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564-)
 
 ### CVE-2023-50596
 - [chandraprarikraj/CVE-2023-50596](https://github.com/chandraprarikraj/CVE-2023-50596)
@@ -14314,6 +14320,7 @@
 - [0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944](https://github.com/0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944)
 - [Robocopsita/CVE-2022-0944_RCE_POC](https://github.com/Robocopsita/CVE-2022-0944_RCE_POC)
 - [toneillcodes/CVE-2022-0944](https://github.com/toneillcodes/CVE-2022-0944)
+- [TanveerS1ngh/SQLPad-6.10.0-Exploit-CVE-2022-0944](https://github.com/TanveerS1ngh/SQLPad-6.10.0-Exploit-CVE-2022-0944)
 
 ### CVE-2022-0952 (2022-05-02)
 
@@ -14758,6 +14765,7 @@
 - [bb33bb/CVE-2022-2639-PipeVersion](https://github.com/bb33bb/CVE-2022-2639-PipeVersion)
 - [EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639](https://github.com/EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639)
 - [letsr00t/-2022-LOCALROOT-CVE-2022-2639](https://github.com/letsr00t/-2022-LOCALROOT-CVE-2022-2639)
+- [devetop/CVE-2022-2639-PipeVersion](https://github.com/devetop/CVE-2022-2639-PipeVersion)
 
 ### CVE-2022-2884 (2022-10-17)
 
