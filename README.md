@@ -2298,13 +2298,6 @@
 - [Jaden1419/CVE-2024-23113](https://github.com/Jaden1419/CVE-2024-23113)
 - [hatvix1/CVE-2024-23113](https://github.com/hatvix1/CVE-2024-23113)
 
-### CVE-2024-23114 (2024-02-20)
-
-<code>Deserialization of Untrusted Data vulnerability in Apache Camel CassandraQL Component AggregationRepository which is vulnerable to unsafe deserialization. Under specific conditions it is possible to deserialize malicious payload.This issue affects Apache Camel: from 3.0.0 before 3.21.4, from 3.22.0 before 3.22.1, from 4.0.0 before 4.0.4, from 4.1.0 before 4.4.0.\n\nUsers are recommended to upgrade to version 4.4.0, which fixes the issue. If users are on the 4.0.x LTS releases stream, then they are suggested to upgrade to 4.0.4. If users are on 3.x, they are suggested to move to 3.21.4 or 3.22.1\n\n
-</code>
-
-- [zgimszhd61/CVE-2024-23114](https://github.com/zgimszhd61/CVE-2024-23114)
-
 ### CVE-2024-23116 (2024-04-01)
 
 <code>Centreon updateLCARelation SQL Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Centreon. Authentication is required to exploit this vulnerability.\n\nThe specific flaw exists within the updateLCARelation function. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of the service account. Was ZDI-CAN-22296.
@@ -4377,6 +4370,7 @@
 </code>
 
 - [aelmokhtar/CVE-2024-34716](https://github.com/aelmokhtar/CVE-2024-34716)
+- [TanveerS1ngh/Prestashop-CVE-2024-34716](https://github.com/TanveerS1ngh/Prestashop-CVE-2024-34716)
 
 ### CVE-2024-34739 (2024-08-15)
 
@@ -5662,6 +5656,7 @@
 - [Jaden1419/CVE-2024-47575](https://github.com/Jaden1419/CVE-2024-47575)
 - [hatvix1/CVE-2024-47575](https://github.com/hatvix1/CVE-2024-47575)
 - [hazesecurity/CVE-2024-47575](https://github.com/hazesecurity/CVE-2024-47575)
+- [groshi/CVE-2024-47575-POC](https://github.com/groshi/CVE-2024-47575-POC)
 
 ### CVE-2024-47854
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
@@ -13762,7 +13757,7 @@
 - [rwexecute/CVE-2023-50564](https://github.com/rwexecute/CVE-2023-50564)
 - [thefizzyfish/CVE-2023-50564-pluck](https://github.com/thefizzyfish/CVE-2023-50564-pluck)
 - [Mrterrestrial/CVE-2023-50564](https://github.com/Mrterrestrial/CVE-2023-50564)
-- [TanveerS1ngh/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564-](https://github.com/TanveerS1ngh/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564-)
+- [TanveerS1ngh/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564](https://github.com/TanveerS1ngh/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564)
 
 ### CVE-2023-50596
 - [chandraprarikraj/CVE-2023-50596](https://github.com/chandraprarikraj/CVE-2023-50596)
@@ -20619,12 +20614,12 @@
 
 - [sapellaniz/CVE-2022-48474_CVE-2022-48475](https://github.com/sapellaniz/CVE-2022-48474_CVE-2022-48475)
 
-### CVE-2022-48656 (2024-04-28)
+### CVE-2022-48565 (2023-08-22)
 
-<code>In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: ti: k3-udma-private: Fix refcount leak bug in of_xudma_dev_get()\n\nWe should call of_node_put() for the reference returned by\nof_parse_phandle() in fail path or when it is not used anymore.\nHere we only need to move the of_node_put() before the check.
+<code>An XML External Entity (XXE) issue was discovered in Python through 3.9.1. The plistlib module no longer accepts entity declarations in XML plist files to avoid XML vulnerabilities.
 </code>
 
-- [Einstein2150/CVE-2022-48656-POC](https://github.com/Einstein2150/CVE-2022-48656-POC)
+- [Einstein2150/CVE-2022-48565-POC](https://github.com/Einstein2150/CVE-2022-48565-POC)
 
 
 ## 2021
@@ -36617,6 +36612,13 @@
 </code>
 
 - [Underwood12/CVE-2019-19782](https://github.com/Underwood12/CVE-2019-19782)
+
+### CVE-2019-19842 (2020-01-22)
+
+<code>emfd in Ruckus Wireless Unleashed through 200.7.10.102.64 allows remote attackers to execute OS commands via a POST request with the attribute xcmd=spectra-analysis to admin/_cmdstat.jsp via the mac attribute.
+</code>
+
+- [bdunlap9/CVE-2019-19842](https://github.com/bdunlap9/CVE-2019-19842)
 
 ### CVE-2019-19844 (2019-12-18)
 
