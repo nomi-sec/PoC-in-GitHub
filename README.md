@@ -30027,6 +30027,13 @@
 
 - [Al1ex/CVE-2020-11113](https://github.com/Al1ex/CVE-2020-11113)
 
+### CVE-2020-11179 (2021-01-21)
+
+<code>Arbitrary read and write to kernel addresses by temporarily overwriting ring buffer pointer and creating a race condition. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables
+</code>
+
+- [sparrow-labz/CVE-2020-11179-Adreno-Qualcomm-GPU](https://github.com/sparrow-labz/CVE-2020-11179-Adreno-Qualcomm-GPU)
+
 ### CVE-2020-11444 (2020-04-02)
 
 <code>Sonatype Nexus Repository Manager 3.x up to and including 3.21.2 has Incorrect Access Control.
