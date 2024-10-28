@@ -5661,6 +5661,7 @@
 - [HazeLook/CVE-2024-47575](https://github.com/HazeLook/CVE-2024-47575)
 - [Jaden1419/CVE-2024-47575](https://github.com/Jaden1419/CVE-2024-47575)
 - [hatvix1/CVE-2024-47575](https://github.com/hatvix1/CVE-2024-47575)
+- [hazesecurity/CVE-2024-47575](https://github.com/hazesecurity/CVE-2024-47575)
 
 ### CVE-2024-47854
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
@@ -9984,6 +9985,7 @@
 </code>
 
 - [retr0reg/tenda-ac8v4-rop](https://github.com/retr0reg/tenda-ac8v4-rop)
+- [Mohammaddvd/CVE-2023-33669](https://github.com/Mohammaddvd/CVE-2023-33669)
 
 ### CVE-2023-33730 (2023-05-31)
 
