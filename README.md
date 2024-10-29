@@ -3335,6 +3335,13 @@
 
 - [jprx/CVE-2024-27815](https://github.com/jprx/CVE-2024-27815)
 
+### CVE-2024-27954 (2024-05-17)
+
+<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in WP Automatic Automatic allows Path Traversal, Server Side Request Forgery.This issue affects Automatic: from n/a through 3.92.0.
+</code>
+
+- [fa-rrel/CVE-2024-27954](https://github.com/fa-rrel/CVE-2024-27954)
+
 ### CVE-2024-27956 (2024-03-21)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ValvePress Automatic allows SQL Injection.This issue affects Automatic: from n/a through 3.92.0.\n\n
