@@ -990,6 +990,7 @@
 - [phirojshah/CVE-2024-4577](https://github.com/phirojshah/CVE-2024-4577)
 - [JeninSutradhar/CVE-2024-4577-checker](https://github.com/JeninSutradhar/CVE-2024-4577-checker)
 - [longhoangth18/CVE-2024-4577](https://github.com/longhoangth18/CVE-2024-4577)
+- [0xbd2/CVE-2024-4577](https://github.com/0xbd2/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -1689,6 +1690,9 @@
 
 ### CVE-2024-10410
 - [K1nako0/CVE-2024-10410](https://github.com/K1nako0/CVE-2024-10410)
+
+### CVE-2024-10448
+- [bevennyamande/CVE-2024-10448](https://github.com/bevennyamande/CVE-2024-10448)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2527,6 +2531,7 @@
 - [fullaw4ke/CVE-2024-23897-Jenkins-4.441](https://github.com/fullaw4ke/CVE-2024-23897-Jenkins-4.441)
 - [Maalfer/CVE-2024-23897](https://github.com/Maalfer/CVE-2024-23897)
 - [Surko888/Surko-Exploit-Jenkins-CVE-2024-23897](https://github.com/Surko888/Surko-Exploit-Jenkins-CVE-2024-23897)
+- [cc3305/CVE-2024-23897](https://github.com/cc3305/CVE-2024-23897)
 - [NoSpaceAvailable/CVE-2024-23897](https://github.com/NoSpaceAvailable/CVE-2024-23897)
 - [BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety](https://github.com/BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety)
 - [ShieldAuth-PHP/PBL05-CVE-Analsys](https://github.com/ShieldAuth-PHP/PBL05-CVE-Analsys)
@@ -2844,6 +2849,7 @@
 - [AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-](https://github.com/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-)
 - [geniuszlyy/CVE-2024-24919](https://github.com/geniuszlyy/CVE-2024-24919)
 - [skyrowalker/CVE-2024-24919](https://github.com/skyrowalker/CVE-2024-24919)
+- [sar-3mar/CVE-2024-24919_POC](https://github.com/sar-3mar/CVE-2024-24919_POC)
 
 ### CVE-2024-25092 (2024-06-09)
 
@@ -5693,6 +5699,9 @@
 
 ### CVE-2024-49186
 - [cyb3res3c/CVE-2024-49186](https://github.com/cyb3res3c/CVE-2024-49186)
+
+### CVE-2024-51435
+- [bevennyamande/CVE-2024-51435](https://github.com/bevennyamande/CVE-2024-51435)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -37825,6 +37834,7 @@
 - [beraphin/CVE-2018-6789](https://github.com/beraphin/CVE-2018-6789)
 - [synacktiv/Exim-CVE-2018-6789](https://github.com/synacktiv/Exim-CVE-2018-6789)
 - [martinclauss/exim-rce-cve-2018-6789](https://github.com/martinclauss/exim-rce-cve-2018-6789)
+- [thistehneisen/CVE-2018-6789-Python3](https://github.com/thistehneisen/CVE-2018-6789-Python3)
 
 ### CVE-2018-6791 (2018-02-07)
 
@@ -45942,6 +45952,13 @@
 
 - [defrancescojp/CVE-2013-3664_MAC](https://github.com/defrancescojp/CVE-2013-3664_MAC)
 - [defrancescojp/CVE-2013-3664_BMP](https://github.com/defrancescojp/CVE-2013-3664_BMP)
+
+### CVE-2013-3827 (2013-10-16)
+
+<code>Unspecified vulnerability in the Oracle GlassFish Server component in Oracle Fusion Middleware 2.1.1, 3.0.1, and 3.1.2; the Oracle JDeveloper component in Oracle Fusion Middleware 11.1.2.3.0, 11.1.2.4.0, and 12.1.2.0.0; and the Oracle WebLogic Server component in Oracle Fusion Middleware 10.3.6.0 and 12.1.1 allows remote attackers to affect confidentiality via unknown vectors related to Java Server Faces or Web Container.
+</code>
+
+- [thistehneisen/CVE-2013-3827](https://github.com/thistehneisen/CVE-2013-3827)
 
 ### CVE-2013-3900 (2013-12-11)
 
