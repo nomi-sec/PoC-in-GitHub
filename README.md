@@ -1105,6 +1105,13 @@
 - [k3lpi3b4nsh33/CVE-2024-5084](https://github.com/k3lpi3b4nsh33/CVE-2024-5084)
 - [WOOOOONG/CVE-2024-5084](https://github.com/WOOOOONG/CVE-2024-5084)
 
+### CVE-2024-5124 (2024-06-06)
+
+<code>A timing attack vulnerability exists in the gaizhenbiao/chuanhuchatgpt repository, specifically within the password comparison logic. The vulnerability is present in version 20240310 of the software, where passwords are compared using the '=' operator in Python. This method of comparison allows an attacker to guess passwords based on the timing of each character's comparison. The issue arises from the code segment that checks a password for a particular username, which can lead to the exposure of sensitive information to an unauthorized actor. An attacker exploiting this vulnerability could potentially guess user passwords, compromising the security of the system.
+</code>
+
+- [gogo2464/CVE-2024-5124](https://github.com/gogo2464/CVE-2024-5124)
+
 ### CVE-2024-5246 (2024-05-23)
 
 <code>NETGEAR ProSAFE Network Management System Tomcat Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of NETGEAR ProSAFE Network Management System. Authentication is required to exploit this vulnerability.\n\nThe specific flaw exists within the product installer. The issue results from the use of a vulnerable version of Apache Tomcat. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Was ZDI-CAN-22868.
@@ -1427,6 +1434,13 @@
 - [zangjiahe/CVE-2024-6782](https://github.com/zangjiahe/CVE-2024-6782)
 - [jdpsl/CVE-2024-6782](https://github.com/jdpsl/CVE-2024-6782)
 - [R4idB0Y/CVE-2024-6782-PoC](https://github.com/R4idB0Y/CVE-2024-6782-PoC)
+
+### CVE-2024-6788 (2024-08-13)
+
+<code>A remote unauthenticated attacker can use the firmware update feature on the LAN interface of the device to reset the password for the predefined, low-privileged user “user-app” to the default password.
+</code>
+
+- [zetraxz/CVE-2024-6788](https://github.com/zetraxz/CVE-2024-6788)
 
 ### CVE-2024-7029 (2024-08-02)
 
@@ -1841,6 +1855,13 @@
 
 - [d4rks1d33/C-PoC-for-CVE-2024-21306](https://github.com/d4rks1d33/C-PoC-for-CVE-2024-21306)
 - [PhucHauDeveloper/BadBlue](https://github.com/PhucHauDeveloper/BadBlue)
+
+### CVE-2024-21320 (2024-01-09)
+
+<code>Windows Themes Spoofing Vulnerability
+</code>
+
+- [sxyrxyy/CVE-2024-21320-POC](https://github.com/sxyrxyy/CVE-2024-21320-POC)
 
 ### CVE-2024-21338 (2024-02-13)
 
@@ -3338,6 +3359,7 @@
 </code>
 
 - [fa-rrel/CVE-2024-27954](https://github.com/fa-rrel/CVE-2024-27954)
+- [Quantum-Hacker/CVE-2024-27954](https://github.com/Quantum-Hacker/CVE-2024-27954)
 
 ### CVE-2024-27956 (2024-03-21)
 
@@ -7652,6 +7674,7 @@
 - [JMousqueton/CVE-2023-21716](https://github.com/JMousqueton/CVE-2023-21716)
 - [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
+- [n0s3ns33/poc-cve-2023-21716](https://github.com/n0s3ns33/poc-cve-2023-21716)
 
 ### CVE-2023-21739 (2023-01-10)
 
