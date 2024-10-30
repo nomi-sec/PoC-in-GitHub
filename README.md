@@ -5708,6 +5708,15 @@
 ### CVE-2024-48955
 - [BrotherOfJhonny/CVE-2024-48955_Overview](https://github.com/BrotherOfJhonny/CVE-2024-48955_Overview)
 
+### CVE-2024-50550
+- [AleksaZatezalo/CVE-2024-50550](https://github.com/AleksaZatezalo/CVE-2024-50550)
+
+### CVE-2024-51378
+- [refr4g/CVE-2024-51378](https://github.com/refr4g/CVE-2024-51378)
+
+### CVE-2024-51430
+- [BLACK-SCORP10/CVE-2024-51430](https://github.com/BLACK-SCORP10/CVE-2024-51430)
+
 ### CVE-2024-51435
 - [bevennyamande/CVE-2024-51435](https://github.com/bevennyamande/CVE-2024-51435)
 
