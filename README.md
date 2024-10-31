@@ -62,13 +62,6 @@
 - [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049)
 - [Aakashmom/frameworks_av_android10_r33_CVE-2024-0049](https://github.com/Aakashmom/frameworks_av_android10_r33_CVE-2024-0049)
 
-### CVE-2024-0113 (2024-08-09)
-
-<code>NVIDIA Mellanox OS, ONYX, Skyway, and MetroX-3 XCC contain a vulnerability in the web support, where an attacker can cause a CGI path traversal by a specially crafted URI. A successful exploit of this vulnerability might lead to escalation of privileges and information disclosure.
-</code>
-
-- [zetraxz/CVE-2024-0113](https://github.com/zetraxz/CVE-2024-0113)
-
 ### CVE-2024-0195 (2024-01-02)
 
 <code>Es wurde eine Schwachstelle in spider-flow 0.4.3 gefunden. Sie wurde als kritisch eingestuft. Es betrifft die Funktion FunctionService.saveFunction der Datei src/main/java/org/spiderflow/controller/FunctionController.java. Durch Manipulieren mit unbekannten Daten kann eine code injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -1703,6 +1696,7 @@
 
 ### CVE-2024-9954
 - [zetraxz/CVE-2024-9954](https://github.com/zetraxz/CVE-2024-9954)
+- [famixcm/CVE-2024-9954](https://github.com/famixcm/CVE-2024-9954)
 
 ### CVE-2024-10140
 - [holypryx/CVE-2024-10140](https://github.com/holypryx/CVE-2024-10140)
@@ -1718,6 +1712,9 @@
 
 ### CVE-2024-10448
 - [bevennyamande/CVE-2024-10448](https://github.com/bevennyamande/CVE-2024-10448)
+
+### CVE-2024-10557
+- [bevennyamande/CVE-2024-10557](https://github.com/bevennyamande/CVE-2024-10557)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
