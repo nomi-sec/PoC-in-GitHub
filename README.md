@@ -1088,13 +1088,6 @@
 - [sinsinology/CVE-2024-5009](https://github.com/sinsinology/CVE-2024-5009)
 - [th3gokul/CVE-2024-5009](https://github.com/th3gokul/CVE-2024-5009)
 
-### CVE-2024-5057 (2024-08-29)
-
-<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Easy Digital Downloads allows SQL Injection.This issue affects Easy Digital Downloads: from n/a through 3.2.12.
-</code>
-
-- [enter0x13/poc-CVE-2024-5057](https://github.com/enter0x13/poc-CVE-2024-5057)
-
 ### CVE-2024-5084 (2024-05-23)
 
 <code>The Hash Form – Drag &amp; Drop Form Builder plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'file_upload_action' function in all versions up to, and including, 1.1.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -5416,7 +5409,7 @@
 ### CVE-2024-43532
 - [HazeLook/CVE-2024-43532](https://github.com/HazeLook/CVE-2024-43532)
 - [Jaden1419/CVE-2024-43532](https://github.com/Jaden1419/CVE-2024-43532)
-- [hatvix1/CVE-2024-43532](https://github.com/hatvix1/CVE-2024-43532)
+- [ShawtyTwo/CVE-2024-43532](https://github.com/ShawtyTwo/CVE-2024-43532)
 
 ### CVE-2024-43582
 - [jinxongwi/CVE-2024-43582-RCE](https://github.com/jinxongwi/CVE-2024-43582-RCE)
@@ -5612,7 +5605,6 @@
 - [Avento/CVE-2024-45507_Behinder_Webshell](https://github.com/Avento/CVE-2024-45507_Behinder_Webshell)
 
 ### CVE-2024-45519
-- [TOB1a3/CVE-2024-45519-PoC](https://github.com/TOB1a3/CVE-2024-45519-PoC)
 - [p33d/CVE-2024-45519](https://github.com/p33d/CVE-2024-45519)
 - [Chocapikk/CVE-2024-45519](https://github.com/Chocapikk/CVE-2024-45519)
 
@@ -5704,6 +5696,7 @@
 - [hazesecurity/CVE-2024-47575](https://github.com/hazesecurity/CVE-2024-47575)
 - [groshi/CVE-2024-47575-POC](https://github.com/groshi/CVE-2024-47575-POC)
 - [zgimszhd61/CVE-2024-47575-POC](https://github.com/zgimszhd61/CVE-2024-47575-POC)
+- [ShawtyTwo/CVE-2024-47575](https://github.com/ShawtyTwo/CVE-2024-47575)
 
 ### CVE-2024-47854
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
@@ -28475,7 +28468,6 @@
 - [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
 - [Warelock/cve-2020-1938](https://github.com/Warelock/cve-2020-1938)
 - [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro)
-- [s3nd3rjz/poc-CVE-2020-1938](https://github.com/s3nd3rjz/poc-CVE-2020-1938)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -32609,7 +32601,6 @@
 - [X0UCYB3R/Check-WP-CVE-2020-35489](https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489)
 - [reneoliveirajr/wp_CVE-2020-35489_checker](https://github.com/reneoliveirajr/wp_CVE-2020-35489_checker)
 - [Cappricio-Securities/CVE-2020-35489](https://github.com/Cappricio-Securities/CVE-2020-35489)
-- [aitech66/poc-CVE-2020-35489](https://github.com/aitech66/poc-CVE-2020-35489)
 
 ### CVE-2020-35498 (2021-02-11)
 
@@ -33036,6 +33027,7 @@
 - [rasan2001/Microsoft-Remote-Desktop-Services-Remote-Code-Execution-Vulnerability-CVE-2019-0708](https://github.com/rasan2001/Microsoft-Remote-Desktop-Services-Remote-Code-Execution-Vulnerability-CVE-2019-0708)
 - [adyanamul/Remote-Code-Execution-RCE-Exploit-BlueKeep-CVE-2019-0708-PoC](https://github.com/adyanamul/Remote-Code-Execution-RCE-Exploit-BlueKeep-CVE-2019-0708-PoC)
 - [DenuwanJayasekara/CVE-Exploitation-Reports](https://github.com/DenuwanJayasekara/CVE-Exploitation-Reports)
+- [hualy13/CVE-2019-0708-Check](https://github.com/hualy13/CVE-2019-0708-Check)
 
 ### CVE-2019-0709 (2019-06-12)
 
@@ -34812,13 +34804,6 @@
 </code>
 
 - [Insecurities/CVE-2019-11224](https://github.com/Insecurities/CVE-2019-11224)
-
-### CVE-2019-11248 (2019-08-29)
-
-<code>The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet healthz port. The go pprof endpoint is exposed over the Kubelet's healthz port. This debugging endpoint can potentially leak sensitive information such as internal Kubelet memory addresses and configuration, or for limited denial of service. Versions prior to 1.15.0, 1.14.4, 1.13.8, and 1.12.10 are affected. The issue is of medium severity, but not exposed by the default configuration.
-</code>
-
-- [nod3jzzz/poc-CVE-2019-11248](https://github.com/nod3jzzz/poc-CVE-2019-11248)
 
 ### CVE-2019-11358 (2019-04-19)
 
@@ -47778,13 +47763,6 @@
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
-
-### CVE-2001-1473 (2005-04-21)
-
-<code>The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target.
-</code>
-
-- [p1ton3rr/poc-cve-2001-1473](https://github.com/p1ton3rr/poc-cve-2001-1473)
 
 ### CVE-2001-3389
 - [becrevex/Gaston](https://github.com/becrevex/Gaston)
