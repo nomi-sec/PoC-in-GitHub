@@ -2324,6 +2324,7 @@
 - [Jaden1419/CVE-2024-23113](https://github.com/Jaden1419/CVE-2024-23113)
 - [hatvix1/CVE-2024-23113](https://github.com/hatvix1/CVE-2024-23113)
 - [zgimszhd61/CVE-2024-23113](https://github.com/zgimszhd61/CVE-2024-23113)
+- [puckiestyle/CVE-2024-23113](https://github.com/puckiestyle/CVE-2024-23113)
 
 ### CVE-2024-23116 (2024-04-01)
 
@@ -5449,6 +5450,7 @@
 - [gbrsh/CVE-2024-44000](https://github.com/gbrsh/CVE-2024-44000)
 - [ifqygazhar/CVE-2024-44000-LiteSpeed-Cache](https://github.com/ifqygazhar/CVE-2024-44000-LiteSpeed-Cache)
 - [geniuszlyy/CVE-2024-44000](https://github.com/geniuszlyy/CVE-2024-44000)
+- [zgimszhd61/CVE-2024-44000](https://github.com/zgimszhd61/CVE-2024-44000)
 
 ### CVE-2024-44083 (2024-08-19)
 
@@ -21535,6 +21537,7 @@
 - [cc3305/CVE-2021-3129](https://github.com/cc3305/CVE-2021-3129)
 - [piperpwn/CVE-2021-3129-](https://github.com/piperpwn/CVE-2021-3129-)
 - [0x0d3ad/CVE-2021-3129](https://github.com/0x0d3ad/CVE-2021-3129)
+- [GodOfServer/CVE-2021-3129](https://github.com/GodOfServer/CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -27177,7 +27180,6 @@
 - [dskho/CVE-2021-45232](https://github.com/dskho/CVE-2021-45232)
 - [GYLQ/CVE-2021-45232-RCE](https://github.com/GYLQ/CVE-2021-45232-RCE)
 - [fany0r/CVE-2021-45232-RCE](https://github.com/fany0r/CVE-2021-45232-RCE)
-- [yggcwhat/Demo](https://github.com/yggcwhat/Demo)
 - [yggcwhat/CVE-2021-45232](https://github.com/yggcwhat/CVE-2021-45232)
 - [YutuSec/Apisix_Crack](https://github.com/YutuSec/Apisix_Crack)
 
@@ -42035,7 +42037,7 @@
 
 - [assalielmehdi/CVE-2017-12635](https://github.com/assalielmehdi/CVE-2017-12635)
 - [cyberharsh/Apache-couchdb-CVE-2017-12635](https://github.com/cyberharsh/Apache-couchdb-CVE-2017-12635)
-- [Weisant/CVE-2017-12635-EXP](https://github.com/Weisant/CVE-2017-12635-EXP)
+- [Weisant/CVE-2017-12635-POC](https://github.com/Weisant/CVE-2017-12635-POC)
 
 ### CVE-2017-12636 (2017-11-14)
 
