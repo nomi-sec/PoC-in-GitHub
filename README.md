@@ -281,6 +281,7 @@
 - [Matrexdz/CVE-2024-1071-Docker](https://github.com/Matrexdz/CVE-2024-1071-Docker)
 - [fa-rrel/CVE-2024-1071-SQL-Injection](https://github.com/fa-rrel/CVE-2024-1071-SQL-Injection)
 - [Dogu589/WordPress-Exploit-CVE-2024-1071](https://github.com/Dogu589/WordPress-Exploit-CVE-2024-1071)
+- [Spid3heX/CVE-2024-1071-PoC-Script](https://github.com/Spid3heX/CVE-2024-1071-PoC-Script)
 
 ### CVE-2024-1086 (2024-01-31)
 
@@ -1653,6 +1654,9 @@
 ### CVE-2024-9234
 - [RandomRobbieBF/CVE-2024-9234](https://github.com/RandomRobbieBF/CVE-2024-9234)
 
+### CVE-2024-9263
+- [Jaden1419/CVE-2024-9263](https://github.com/Jaden1419/CVE-2024-9263)
+
 ### CVE-2024-9264
 - [nollium/CVE-2024-9264](https://github.com/nollium/CVE-2024-9264)
 - [z3k0sec/File-Read-CVE-2024-9264](https://github.com/z3k0sec/File-Read-CVE-2024-9264)
@@ -1718,6 +1722,9 @@
 
 ### CVE-2024-10557
 - [bevennyamande/CVE-2024-10557](https://github.com/bevennyamande/CVE-2024-10557)
+
+### CVE-2024-10654
+- [c0nyy/IoT_vuln](https://github.com/c0nyy/IoT_vuln)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2324,7 +2331,6 @@
 - [maybelookis/CVE-2024-23113](https://github.com/maybelookis/CVE-2024-23113)
 - [p33d/CVE-2024-23113](https://github.com/p33d/CVE-2024-23113)
 - [groshi/CVE-2024-23113-Private-POC](https://github.com/groshi/CVE-2024-23113-Private-POC)
-- [Jaden1419/CVE-2024-23113](https://github.com/Jaden1419/CVE-2024-23113)
 - [hatvix1/CVE-2024-23113](https://github.com/hatvix1/CVE-2024-23113)
 - [zgimszhd61/CVE-2024-23113](https://github.com/zgimszhd61/CVE-2024-23113)
 - [puckiestyle/CVE-2024-23113](https://github.com/puckiestyle/CVE-2024-23113)
@@ -4897,6 +4903,13 @@
 
 - [passtheticket/CVE-2024-38200](https://github.com/passtheticket/CVE-2024-38200)
 
+### CVE-2024-38249 (2024-09-10)
+
+<code>Windows Graphics Component Elevation of Privilege Vulnerability
+</code>
+
+- [Jaden1419/CVE-2024-38249](https://github.com/Jaden1419/CVE-2024-38249)
+
 ### CVE-2024-38366 (2024-07-01)
 
 <code>trunk.cocoapods.org is the authentication server for the CoacoaPods dependency manager. The part of trunk which verifies whether a user has a real email address on signup used a rfc-822 library which executes a shell command to validate the email domain MX records validity. It works via an DNS MX. This lookup could be manipulated to also execute a command on the trunk server, effectively giving root access to the server and the infrastructure. This issue was patched server-side with commit 001cc3a430e75a16307f5fd6cdff1363ad2f40f3 in September 2023. This RCE triggered a full user-session reset, as an attacker could have used this method to write to any Podspec in trunk.
@@ -4969,6 +4982,7 @@
 
 ### CVE-2024-38821
 - [mouadk/cve-2024-38821](https://github.com/mouadk/cve-2024-38821)
+- [zetraxz/CVE-2024-38821](https://github.com/zetraxz/CVE-2024-38821)
 
 ### CVE-2024-38856 (2024-08-05)
 
@@ -5419,7 +5433,6 @@
 
 ### CVE-2024-43532
 - [HazeLook/CVE-2024-43532](https://github.com/HazeLook/CVE-2024-43532)
-- [Jaden1419/CVE-2024-43532](https://github.com/Jaden1419/CVE-2024-43532)
 - [ShawtyTwo/CVE-2024-43532](https://github.com/ShawtyTwo/CVE-2024-43532)
 
 ### CVE-2024-43582
@@ -5608,12 +5621,12 @@
 
 - [pankass/CVE-2024-45436](https://github.com/pankass/CVE-2024-45436)
 
-### CVE-2024-45490 (2024-08-30)
+### CVE-2024-45492 (2024-08-30)
 
-<code>An issue was discovered in libexpat before 2.6.3. xmlparse.c does not reject a negative length for XML_ParseBuffer.
+<code>An issue was discovered in libexpat before 2.6.3. nextScaffoldPart in xmlparse.c can have an integer overflow for m_groupSize on 32-bit platforms (where UINT_MAX equals SIZE_MAX).
 </code>
 
-- [nidhihcl75/external_expat_2.6.2_CVE-2024-45490](https://github.com/nidhihcl75/external_expat_2.6.2_CVE-2024-45490)
+- [nidhihcl75/external_expat_2.6.2_CVE-2024-45492](https://github.com/nidhihcl75/external_expat_2.6.2_CVE-2024-45492)
 
 ### CVE-2024-45507 (2024-09-04)
 
@@ -5715,6 +5728,8 @@
 - [groshi/CVE-2024-47575-POC](https://github.com/groshi/CVE-2024-47575-POC)
 - [zgimszhd61/CVE-2024-47575-POC](https://github.com/zgimszhd61/CVE-2024-47575-POC)
 - [ShawtyTwo/CVE-2024-47575](https://github.com/ShawtyTwo/CVE-2024-47575)
+- [Fruktolzzz/CVE-2024-47575](https://github.com/Fruktolzzz/CVE-2024-47575)
+- [krmxd/CVE-2024-47575](https://github.com/krmxd/CVE-2024-47575)
 
 ### CVE-2024-47854
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
@@ -5724,12 +5739,6 @@
 
 ### CVE-2024-48217
 - [ajrielrm/CVE-2024-48217](https://github.com/ajrielrm/CVE-2024-48217)
-
-### CVE-2024-48359
-- [OpenXP-Research/CVE-2024-48359](https://github.com/OpenXP-Research/CVE-2024-48359)
-
-### CVE-2024-48360
-- [OpenXP-Research/CVE-2024-48360](https://github.com/OpenXP-Research/CVE-2024-48360)
 
 ### CVE-2024-48392
 - [Renzusclarke/CVE-2024-48392-PoC](https://github.com/Renzusclarke/CVE-2024-48392-PoC)
@@ -5763,6 +5772,7 @@
 
 ### CVE-2024-48904
 - [zetraxz/CVE-2024-48904](https://github.com/zetraxz/CVE-2024-48904)
+- [famixcm/CVE-2024-48904](https://github.com/famixcm/CVE-2024-48904)
 
 ### CVE-2024-48914
 - [EQSTLab/CVE-2024-48914](https://github.com/EQSTLab/CVE-2024-48914)
@@ -23285,6 +23295,7 @@
 </code>
 
 - [dja2TaqkGEEfA45/CVE-2021-26690](https://github.com/dja2TaqkGEEfA45/CVE-2021-26690)
+- [7own/CVE-2021-26690---Apache-mod_session](https://github.com/7own/CVE-2021-26690---Apache-mod_session)
 
 ### CVE-2021-26691 (2021-06-10)
 
@@ -27203,7 +27214,6 @@
 - [dskho/CVE-2021-45232](https://github.com/dskho/CVE-2021-45232)
 - [GYLQ/CVE-2021-45232-RCE](https://github.com/GYLQ/CVE-2021-45232-RCE)
 - [fany0r/CVE-2021-45232-RCE](https://github.com/fany0r/CVE-2021-45232-RCE)
-- [yggcwhat/CVE-2021-45232](https://github.com/yggcwhat/CVE-2021-45232)
 - [YutuSec/Apisix_Crack](https://github.com/YutuSec/Apisix_Crack)
 
 ### CVE-2021-45416 (2022-02-01)
@@ -44903,6 +44913,7 @@
 </code>
 
 - [halkichi0308/CVE-2015-9251](https://github.com/halkichi0308/CVE-2015-9251)
+- [moften/CVE-2015-9251](https://github.com/moften/CVE-2015-9251)
 
 ### CVE-2015-10034 (2023-01-09)
 
