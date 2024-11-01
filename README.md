@@ -1306,7 +1306,7 @@
 - [paradessia/CVE-2024-6387-nmap](https://github.com/paradessia/CVE-2024-6387-nmap)
 - [SecWithMoh/CVE-2024-6387](https://github.com/SecWithMoh/CVE-2024-6387)
 - [PrincipalAnthony/CVE-2024-6387-Updated-x64bit](https://github.com/PrincipalAnthony/CVE-2024-6387-Updated-x64bit)
-- [k4t3pr0/CVE-2024-6387-POC](https://github.com/k4t3pr0/CVE-2024-6387-POC)
+- [skysaints/CVE-2024-6387-POC](https://github.com/skysaints/CVE-2024-6387-POC)
 - [daniel-odrinski/CVE-2024-6387-Mitigation-Ansible-Playbook](https://github.com/daniel-odrinski/CVE-2024-6387-Mitigation-Ansible-Playbook)
 - [rumochnaya/openssh-cve-2024-6387.sh](https://github.com/rumochnaya/openssh-cve-2024-6387.sh)
 - [zenzue/CVE-2024-6387-Mitigation](https://github.com/zenzue/CVE-2024-6387-Mitigation)
@@ -1357,7 +1357,6 @@
 - [ThemeHackers/CVE-2024-6387](https://github.com/ThemeHackers/CVE-2024-6387)
 - [Sibijo/mitigate_ssh](https://github.com/Sibijo/mitigate_ssh)
 - [Passyed/regreSSHion-Fix](https://github.com/Passyed/regreSSHion-Fix)
-- [k4t3pr0/CVE-2024-6387-Check](https://github.com/k4t3pr0/CVE-2024-6387-Check)
 - [dream434/CVE-2024-6387](https://github.com/dream434/CVE-2024-6387)
 - [ThatNotEasy/CVE-2024-6387](https://github.com/ThatNotEasy/CVE-2024-6387)
 - [prelearn-code/CVE-2024-6387](https://github.com/prelearn-code/CVE-2024-6387)
@@ -1369,6 +1368,13 @@
 - [HadesNull123/CVE-2024-6387_Check](https://github.com/HadesNull123/CVE-2024-6387_Check)
 - [identity-threat-labs/CVE-2024-6387-Vulnerability-Checker](https://github.com/identity-threat-labs/CVE-2024-6387-Vulnerability-Checker)
 - [identity-threat-labs/Article-RegreSSHion-CVE-2024-6387](https://github.com/identity-threat-labs/Article-RegreSSHion-CVE-2024-6387)
+
+### CVE-2024-6473 (2024-09-03)
+
+<code>Yandex Browser for Desktop before 24.7.1.380 has a DLL Hijacking Vulnerability because an untrusted search path is used.
+</code>
+
+- [12345qwert123456/CVE-2024-6473-PoC](https://github.com/12345qwert123456/CVE-2024-6473-PoC)
 
 ### CVE-2024-6529 (2024-08-01)
 
@@ -5601,6 +5607,13 @@
 </code>
 
 - [pankass/CVE-2024-45436](https://github.com/pankass/CVE-2024-45436)
+
+### CVE-2024-45490 (2024-08-30)
+
+<code>An issue was discovered in libexpat before 2.6.3. xmlparse.c does not reject a negative length for XML_ParseBuffer.
+</code>
+
+- [nidhihcl75/external_expat_2.6.2_CVE-2024-45490](https://github.com/nidhihcl75/external_expat_2.6.2_CVE-2024-45490)
 
 ### CVE-2024-45507 (2024-09-04)
 
@@ -13307,6 +13320,7 @@
 </code>
 
 - [NHPT/CVE-2023-48123](https://github.com/NHPT/CVE-2023-48123)
+- [Farzan-Kh/CVE-2023-48123](https://github.com/Farzan-Kh/CVE-2023-48123)
 
 ### CVE-2023-48194 (2024-07-09)
 
