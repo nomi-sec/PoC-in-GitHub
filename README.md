@@ -2557,6 +2557,7 @@
 - [BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety](https://github.com/BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety)
 - [ShieldAuth-PHP/PBL05-CVE-Analsys](https://github.com/ShieldAuth-PHP/PBL05-CVE-Analsys)
 - [verylazytech/CVE-2024-23897](https://github.com/verylazytech/CVE-2024-23897)
+- [zgimszhd61/CVE-2024-23897-poc](https://github.com/zgimszhd61/CVE-2024-23897-poc)
 
 ### CVE-2024-23995 (2024-04-29)
 
@@ -5707,6 +5708,9 @@
 
 ### CVE-2024-48063
 - [zgimszhd61/CVE-2024-48063-poc](https://github.com/zgimszhd61/CVE-2024-48063-poc)
+
+### CVE-2024-48217
+- [ajrielrm/CVE-2024-48217](https://github.com/ajrielrm/CVE-2024-48217)
 
 ### CVE-2024-48359
 - [OpenXP-Research/CVE-2024-48359](https://github.com/OpenXP-Research/CVE-2024-48359)
@@ -13000,6 +13004,7 @@
 - [rainbowhatrkn/CVE-2023-46747-RCE](https://github.com/rainbowhatrkn/CVE-2023-46747-RCE)
 - [AMELYA13/CVE-2023-46747-Mass-RCE](https://github.com/AMELYA13/CVE-2023-46747-Mass-RCE)
 - [MacTavish2/CVE-2023-46747-Mass-RCE](https://github.com/MacTavish2/CVE-2023-46747-Mass-RCE)
+- [zgimszhd61/CVE-2023-46747-RCE-poc](https://github.com/zgimszhd61/CVE-2023-46747-RCE-poc)
 
 ### CVE-2023-46805 (2024-01-12)
 
@@ -45545,7 +45550,6 @@
 - [hanmin0512/CVE-2014-6271_pwnable](https://github.com/hanmin0512/CVE-2014-6271_pwnable)
 - [0xTabun/CVE-2014-6271](https://github.com/0xTabun/CVE-2014-6271)
 - [0xN7y/CVE-2014-6271](https://github.com/0xN7y/CVE-2014-6271)
-- [MY7H404/CVE-2014-6271-Shellshock](https://github.com/MY7H404/CVE-2014-6271-Shellshock)
 - [AlissonFaoli/Shellshock](https://github.com/AlissonFaoli/Shellshock)
 - [hackintoanetwork/shellshock](https://github.com/hackintoanetwork/shellshock)
 - [ajansha/shellshock](https://github.com/ajansha/shellshock)
