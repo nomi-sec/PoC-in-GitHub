@@ -1691,6 +1691,10 @@
 - [zetraxz/CVE-2024-9954](https://github.com/zetraxz/CVE-2024-9954)
 - [famixcm/CVE-2024-9954](https://github.com/famixcm/CVE-2024-9954)
 
+### CVE-2024-9955
+- [amfg145/CVE-2024-9955-POC](https://github.com/amfg145/CVE-2024-9955-POC)
+- [ShawtyTwo/CVE-2024-9955-POC](https://github.com/ShawtyTwo/CVE-2024-9955-POC)
+
 ### CVE-2024-10140
 - [holypryx/CVE-2024-10140](https://github.com/holypryx/CVE-2024-10140)
 
@@ -5701,6 +5705,9 @@
 ### CVE-2024-47854
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
 
+### CVE-2024-48063
+- [zgimszhd61/CVE-2024-48063-poc](https://github.com/zgimszhd61/CVE-2024-48063-poc)
+
 ### CVE-2024-48359
 - [OpenXP-Research/CVE-2024-48359](https://github.com/OpenXP-Research/CVE-2024-48359)
 
@@ -5757,6 +5764,9 @@
 
 ### CVE-2024-51435
 - [bevennyamande/CVE-2024-51435](https://github.com/bevennyamande/CVE-2024-51435)
+
+### CVE-2024-51567
+- [ajayalf/CVE-2024-51567](https://github.com/ajayalf/CVE-2024-51567)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -11924,6 +11934,7 @@
 </code>
 
 - [bl4ckarch/pf-pwnme](https://github.com/bl4ckarch/pf-pwnme)
+- [Farzan-Kh/CVE-2023-42326](https://github.com/Farzan-Kh/CVE-2023-42326)
 
 ### CVE-2023-42362 (2023-09-14)
 
