@@ -5748,6 +5748,9 @@
 ### CVE-2024-48217
 - [ajrielrm/CVE-2024-48217](https://github.com/ajrielrm/CVE-2024-48217)
 
+### CVE-2024-48325
+- [osvaldotenorio/cve-2024-48325](https://github.com/osvaldotenorio/cve-2024-48325)
+
 ### CVE-2024-48392
 - [Renzusclarke/CVE-2024-48392-PoC](https://github.com/Renzusclarke/CVE-2024-48392-PoC)
 
@@ -5781,6 +5784,12 @@
 
 ### CVE-2024-50550
 - [AleksaZatezalo/CVE-2024-50550](https://github.com/AleksaZatezalo/CVE-2024-50550)
+
+### CVE-2024-51132
+- [JAckLosingHeart/CVE-2024-51132-POC](https://github.com/JAckLosingHeart/CVE-2024-51132-POC)
+
+### CVE-2024-51358
+- [Kov404/CVE-2024-51358](https://github.com/Kov404/CVE-2024-51358)
 
 ### CVE-2024-51378
 - [refr4g/CVE-2024-51378](https://github.com/refr4g/CVE-2024-51378)
@@ -6650,6 +6659,7 @@
 - [0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit](https://github.com/0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit)
 - [bueno-armando/CVE-2023-4220-RCE](https://github.com/bueno-armando/CVE-2023-4220-RCE)
 - [TanveerS1ngh/Chamilo-LMS-CVE-2023-4220-Exploit](https://github.com/TanveerS1ngh/Chamilo-LMS-CVE-2023-4220-Exploit)
+- [H4cking4All/CVE-2023-4220](https://github.com/H4cking4All/CVE-2023-4220)
 
 ### CVE-2023-4226 (2023-11-28)
 
