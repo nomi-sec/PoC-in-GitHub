@@ -1697,6 +1697,10 @@
 ### CVE-2024-9821
 - [RandomRobbieBF/CVE-2024-9821](https://github.com/RandomRobbieBF/CVE-2024-9821)
 
+### CVE-2024-9926
+- [m3ssap0/wordpress-jetpack-broken-access-control-vulnerable-application](https://github.com/m3ssap0/wordpress-jetpack-broken-access-control-vulnerable-application)
+- [m3ssap0/wordpress-jetpack-broken-access-control-exploit](https://github.com/m3ssap0/wordpress-jetpack-broken-access-control-exploit)
+
 ### CVE-2024-9954
 - [zetraxz/CVE-2024-9954](https://github.com/zetraxz/CVE-2024-9954)
 - [famixcm/CVE-2024-9954](https://github.com/famixcm/CVE-2024-9954)
@@ -5760,15 +5764,6 @@
 
 ### CVE-2024-48652
 - [paragbagul111/CVE-2024-48652](https://github.com/paragbagul111/CVE-2024-48652)
-
-### CVE-2024-48733
-- [ACN-CVEs/CVE-2024-48733](https://github.com/ACN-CVEs/CVE-2024-48733)
-
-### CVE-2024-48734
-- [ACN-CVEs/CVE-2024-48734](https://github.com/ACN-CVEs/CVE-2024-48734)
-
-### CVE-2024-48735
-- [ACN-CVEs/CVE-2024-48735](https://github.com/ACN-CVEs/CVE-2024-48735)
 
 ### CVE-2024-48904
 - [zetraxz/CVE-2024-48904](https://github.com/zetraxz/CVE-2024-48904)
@@ -45063,6 +45058,7 @@
 </code>
 
 - [ricedu/CVE-2014-0195](https://github.com/ricedu/CVE-2014-0195)
+- [PezwariNaan/CVE-2014-0195](https://github.com/PezwariNaan/CVE-2014-0195)
 
 ### CVE-2014-0196 (2014-05-07)
 
