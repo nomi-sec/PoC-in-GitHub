@@ -1659,6 +1659,15 @@
 
 ### CVE-2024-9263
 - [Jaden1419/CVE-2024-9263](https://github.com/Jaden1419/CVE-2024-9263)
+- [groshi324/CVE-2024-9263](https://github.com/groshi324/CVE-2024-9263)
+- [VIRKiss/CVE-2024-9263](https://github.com/VIRKiss/CVE-2024-9263)
+- [Jomq12/CVE-2024-9263](https://github.com/Jomq12/CVE-2024-9263)
+- [youngwhale21/CVE-2024-9263](https://github.com/youngwhale21/CVE-2024-9263)
+- [gifretg/CVE-2024-9263](https://github.com/gifretg/CVE-2024-9263)
+- [LayNMR/CVE-2024-9263](https://github.com/LayNMR/CVE-2024-9263)
+- [TaliBander/CVE-2024-9263](https://github.com/TaliBander/CVE-2024-9263)
+- [WotleAks/CVE-2024-9263](https://github.com/WotleAks/CVE-2024-9263)
+- [DaresNone/CVE-2024-9263](https://github.com/DaresNone/CVE-2024-9263)
 
 ### CVE-2024-9264
 - [nollium/CVE-2024-9264](https://github.com/nollium/CVE-2024-9264)
@@ -2341,7 +2350,6 @@
 - [hatvix1/CVE-2024-23113](https://github.com/hatvix1/CVE-2024-23113)
 - [zgimszhd61/CVE-2024-23113](https://github.com/zgimszhd61/CVE-2024-23113)
 - [puckiestyle/CVE-2024-23113](https://github.com/puckiestyle/CVE-2024-23113)
-- [radoslavatanasov1/CVE-2024-23113](https://github.com/radoslavatanasov1/CVE-2024-23113)
 
 ### CVE-2024-23116 (2024-04-01)
 
@@ -5487,6 +5495,9 @@
 ### CVE-2024-44193
 - [mbog14/CVE-2024-44193](https://github.com/mbog14/CVE-2024-44193)
 
+### CVE-2024-44258
+- [ifpdz/CVE-2024-44258](https://github.com/ifpdz/CVE-2024-44258)
+
 ### CVE-2024-44337
 - [Brinmon/CVE-2024-44337](https://github.com/Brinmon/CVE-2024-44337)
 
@@ -5738,6 +5749,15 @@
 - [ShawtyTwo/CVE-2024-47575](https://github.com/ShawtyTwo/CVE-2024-47575)
 - [Fruktolzzz/CVE-2024-47575](https://github.com/Fruktolzzz/CVE-2024-47575)
 - [krmxd/CVE-2024-47575](https://github.com/krmxd/CVE-2024-47575)
+- [groshi324/CVE-2024-47575](https://github.com/groshi324/CVE-2024-47575)
+- [VIRKiss/CVE-2024-47575](https://github.com/VIRKiss/CVE-2024-47575)
+- [Jomq12/CVE-2024-47575](https://github.com/Jomq12/CVE-2024-47575)
+- [youngwhale21/CVE-2024-47575](https://github.com/youngwhale21/CVE-2024-47575)
+- [gifretg/CVE-2024-47575](https://github.com/gifretg/CVE-2024-47575)
+- [LayNMR/CVE-2024-47575](https://github.com/LayNMR/CVE-2024-47575)
+- [TaliBander/CVE-2024-47575](https://github.com/TaliBander/CVE-2024-47575)
+- [WotleAks/CVE-2024-47575](https://github.com/WotleAks/CVE-2024-47575)
+- [DaresNone/CVE-2024-47575](https://github.com/DaresNone/CVE-2024-47575)
 
 ### CVE-2024-47854
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
@@ -5750,6 +5770,9 @@
 
 ### CVE-2024-48325
 - [osvaldotenorio/cve-2024-48325](https://github.com/osvaldotenorio/cve-2024-48325)
+
+### CVE-2024-48326
+- [fabiobsj/CVE-2024-48326](https://github.com/fabiobsj/CVE-2024-48326)
 
 ### CVE-2024-48392
 - [Renzusclarke/CVE-2024-48392-PoC](https://github.com/Renzusclarke/CVE-2024-48392-PoC)
