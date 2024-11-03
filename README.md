@@ -991,7 +991,7 @@
 - [phirojshah/CVE-2024-4577](https://github.com/phirojshah/CVE-2024-4577)
 - [JeninSutradhar/CVE-2024-4577-checker](https://github.com/JeninSutradhar/CVE-2024-4577-checker)
 - [longhoangth18/CVE-2024-4577](https://github.com/longhoangth18/CVE-2024-4577)
-- [0xbd2/CVE-2024-4577](https://github.com/0xbd2/CVE-2024-4577)
+- [ahmetramazank/CVE-2024-4577](https://github.com/ahmetramazank/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -1560,6 +1560,13 @@
 </code>
 
 - [bi-zone/CVE-2024-7965](https://github.com/bi-zone/CVE-2024-7965)
+
+### CVE-2024-7988 (2024-08-26)
+
+<code>A remote code execution vulnerability exists in the Rockwell Automation ThinManager® ThinServer™ that allows a threat actor to execute arbitrary code with System privileges. This vulnerability exists due to the lack of proper data input validation, which allows files to be overwritten.
+</code>
+
+- [hatvix1/CVE-2024-7988-Private-POC](https://github.com/hatvix1/CVE-2024-7988-Private-POC)
 
 ### CVE-2024-8190 (2024-09-10)
 
