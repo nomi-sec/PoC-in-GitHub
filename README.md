@@ -1657,18 +1657,6 @@
 ### CVE-2024-9234
 - [RandomRobbieBF/CVE-2024-9234](https://github.com/RandomRobbieBF/CVE-2024-9234)
 
-### CVE-2024-9263
-- [Jaden1419/CVE-2024-9263](https://github.com/Jaden1419/CVE-2024-9263)
-- [groshi324/CVE-2024-9263](https://github.com/groshi324/CVE-2024-9263)
-- [VIRKiss/CVE-2024-9263](https://github.com/VIRKiss/CVE-2024-9263)
-- [Jomq12/CVE-2024-9263](https://github.com/Jomq12/CVE-2024-9263)
-- [youngwhale21/CVE-2024-9263](https://github.com/youngwhale21/CVE-2024-9263)
-- [gifretg/CVE-2024-9263](https://github.com/gifretg/CVE-2024-9263)
-- [LayNMR/CVE-2024-9263](https://github.com/LayNMR/CVE-2024-9263)
-- [TaliBander/CVE-2024-9263](https://github.com/TaliBander/CVE-2024-9263)
-- [WotleAks/CVE-2024-9263](https://github.com/WotleAks/CVE-2024-9263)
-- [DaresNone/CVE-2024-9263](https://github.com/DaresNone/CVE-2024-9263)
-
 ### CVE-2024-9264
 - [nollium/CVE-2024-9264](https://github.com/nollium/CVE-2024-9264)
 - [z3k0sec/File-Read-CVE-2024-9264](https://github.com/z3k0sec/File-Read-CVE-2024-9264)
@@ -1719,7 +1707,6 @@
 
 ### CVE-2024-9955
 - [amfg145/CVE-2024-9955-POC](https://github.com/amfg145/CVE-2024-9955-POC)
-- [ShawtyTwo/CVE-2024-9955-POC](https://github.com/ShawtyTwo/CVE-2024-9955-POC)
 
 ### CVE-2024-10140
 - [holypryx/CVE-2024-10140](https://github.com/holypryx/CVE-2024-10140)
@@ -3536,7 +3523,6 @@
 - [horizon3ai/CVE-2024-28987](https://github.com/horizon3ai/CVE-2024-28987)
 - [PlayerFridei/CVE-2024-28987](https://github.com/PlayerFridei/CVE-2024-28987)
 - [HazeLook/CVE-2024-28987](https://github.com/HazeLook/CVE-2024-28987)
-- [Jaden1419/CVE-2024-28987](https://github.com/Jaden1419/CVE-2024-28987)
 - [hatvix1/CVE-2024-28987](https://github.com/hatvix1/CVE-2024-28987)
 
 ### CVE-2024-28995 (2024-06-06)
@@ -4624,6 +4610,13 @@
 
 - [IvanGlinkin/CVE-2024-36821](https://github.com/IvanGlinkin/CVE-2024-36821)
 
+### CVE-2024-36823 (-)
+
+<code>The encrypt() function of Ninja Core v7.0.0 was discovered to use a weak cryptographic algorithm, leading to a possible leakage of sensitive information.
+</code>
+
+- [JAckLosingHeart/CVE-2024-36823-POC](https://github.com/JAckLosingHeart/CVE-2024-36823-POC)
+
 ### CVE-2024-36837 (2024-06-05)
 
 <code>SQL Injection vulnerability in CRMEB v.5.2.2 allows a remote attacker to obtain sensitive information via the getProductList function in the ProductController.php file.
@@ -4918,13 +4911,6 @@
 </code>
 
 - [passtheticket/CVE-2024-38200](https://github.com/passtheticket/CVE-2024-38200)
-
-### CVE-2024-38249 (2024-09-10)
-
-<code>Windows Graphics Component Elevation of Privilege Vulnerability
-</code>
-
-- [Jaden1419/CVE-2024-38249](https://github.com/Jaden1419/CVE-2024-38249)
 
 ### CVE-2024-38366 (2024-07-01)
 
@@ -5449,7 +5435,6 @@
 
 ### CVE-2024-43532
 - [HazeLook/CVE-2024-43532](https://github.com/HazeLook/CVE-2024-43532)
-- [ShawtyTwo/CVE-2024-43532](https://github.com/ShawtyTwo/CVE-2024-43532)
 
 ### CVE-2024-43582
 - [jinxongwi/CVE-2024-43582-RCE](https://github.com/jinxongwi/CVE-2024-43582-RCE)
@@ -5741,23 +5726,12 @@
 ### CVE-2024-47575
 - [maybelookis/CVE-2024-47575](https://github.com/maybelookis/CVE-2024-47575)
 - [HazeLook/CVE-2024-47575](https://github.com/HazeLook/CVE-2024-47575)
-- [Jaden1419/CVE-2024-47575](https://github.com/Jaden1419/CVE-2024-47575)
 - [hatvix1/CVE-2024-47575](https://github.com/hatvix1/CVE-2024-47575)
 - [hazesecurity/CVE-2024-47575](https://github.com/hazesecurity/CVE-2024-47575)
 - [groshi/CVE-2024-47575-POC](https://github.com/groshi/CVE-2024-47575-POC)
 - [zgimszhd61/CVE-2024-47575-POC](https://github.com/zgimszhd61/CVE-2024-47575-POC)
-- [ShawtyTwo/CVE-2024-47575](https://github.com/ShawtyTwo/CVE-2024-47575)
 - [Fruktolzzz/CVE-2024-47575](https://github.com/Fruktolzzz/CVE-2024-47575)
 - [krmxd/CVE-2024-47575](https://github.com/krmxd/CVE-2024-47575)
-- [groshi324/CVE-2024-47575](https://github.com/groshi324/CVE-2024-47575)
-- [VIRKiss/CVE-2024-47575](https://github.com/VIRKiss/CVE-2024-47575)
-- [Jomq12/CVE-2024-47575](https://github.com/Jomq12/CVE-2024-47575)
-- [youngwhale21/CVE-2024-47575](https://github.com/youngwhale21/CVE-2024-47575)
-- [gifretg/CVE-2024-47575](https://github.com/gifretg/CVE-2024-47575)
-- [LayNMR/CVE-2024-47575](https://github.com/LayNMR/CVE-2024-47575)
-- [TaliBander/CVE-2024-47575](https://github.com/TaliBander/CVE-2024-47575)
-- [WotleAks/CVE-2024-47575](https://github.com/WotleAks/CVE-2024-47575)
-- [DaresNone/CVE-2024-47575](https://github.com/DaresNone/CVE-2024-47575)
 
 ### CVE-2024-47854
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
@@ -16433,7 +16407,6 @@
 - [kavishkagihan/CVE-2022-24112-POC](https://github.com/kavishkagihan/CVE-2022-24112-POC)
 - [twseptian/cve-2022-24112](https://github.com/twseptian/cve-2022-24112)
 - [Acczdy/CVE-2022-24112_POC](https://github.com/Acczdy/CVE-2022-24112_POC)
-- [wshepherd0010/CVE-2022-24112-Lab](https://github.com/wshepherd0010/CVE-2022-24112-Lab)
 - [btar1gan/exploit_CVE-2022-24112](https://github.com/btar1gan/exploit_CVE-2022-24112)
 
 ### CVE-2022-24122 (2022-01-29)
