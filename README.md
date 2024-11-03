@@ -2754,7 +2754,7 @@
 - [aydinnyunus/CVE-2024-24576-Exploit](https://github.com/aydinnyunus/CVE-2024-24576-Exploit)
 - [foxoman/CVE-2024-24576-PoC---Nim](https://github.com/foxoman/CVE-2024-24576-PoC---Nim)
 - [corysabol/batbadbut-demo](https://github.com/corysabol/batbadbut-demo)
-- [mishalhossin/CVE-2024-24576-PoC-Python](https://github.com/mishalhossin/CVE-2024-24576-PoC-Python)
+- [mishl-dev/CVE-2024-24576-PoC-Python](https://github.com/mishl-dev/CVE-2024-24576-PoC-Python)
 - [lpn/CVE-2024-24576.jl](https://github.com/lpn/CVE-2024-24576.jl)
 - [Gaurav1020/CVE-2024-24576-PoC-Rust](https://github.com/Gaurav1020/CVE-2024-24576-PoC-Rust)
 - [SheL3G/CVE-2024-24576-PoC-BatBadBut](https://github.com/SheL3G/CVE-2024-24576-PoC-BatBadBut)
@@ -3523,7 +3523,6 @@
 - [horizon3ai/CVE-2024-28987](https://github.com/horizon3ai/CVE-2024-28987)
 - [PlayerFridei/CVE-2024-28987](https://github.com/PlayerFridei/CVE-2024-28987)
 - [HazeLook/CVE-2024-28987](https://github.com/HazeLook/CVE-2024-28987)
-- [hatvix1/CVE-2024-28987](https://github.com/hatvix1/CVE-2024-28987)
 
 ### CVE-2024-28995 (2024-06-06)
 
@@ -4706,6 +4705,7 @@
 </code>
 
 - [bartfroklage/CVE-2024-37383-POC](https://github.com/bartfroklage/CVE-2024-37383-POC)
+- [amirzargham/CVE-2024-37383-exploit](https://github.com/amirzargham/CVE-2024-37383-exploit)
 
 ### CVE-2024-37393 (2024-06-10)
 
@@ -5726,11 +5726,9 @@
 ### CVE-2024-47575
 - [maybelookis/CVE-2024-47575](https://github.com/maybelookis/CVE-2024-47575)
 - [HazeLook/CVE-2024-47575](https://github.com/HazeLook/CVE-2024-47575)
-- [hatvix1/CVE-2024-47575](https://github.com/hatvix1/CVE-2024-47575)
 - [hazesecurity/CVE-2024-47575](https://github.com/hazesecurity/CVE-2024-47575)
 - [groshi/CVE-2024-47575-POC](https://github.com/groshi/CVE-2024-47575-POC)
 - [zgimszhd61/CVE-2024-47575-POC](https://github.com/zgimszhd61/CVE-2024-47575-POC)
-- [Fruktolzzz/CVE-2024-47575](https://github.com/Fruktolzzz/CVE-2024-47575)
 - [krmxd/CVE-2024-47575](https://github.com/krmxd/CVE-2024-47575)
 
 ### CVE-2024-47854
