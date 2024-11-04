@@ -1715,6 +1715,9 @@
 ### CVE-2024-9955
 - [amfg145/CVE-2024-9955-POC](https://github.com/amfg145/CVE-2024-9955-POC)
 
+### CVE-2024-9988
+- [hatvix1/CVE-2024-9988](https://github.com/hatvix1/CVE-2024-9988)
+
 ### CVE-2024-10140
 - [holypryx/CVE-2024-10140](https://github.com/holypryx/CVE-2024-10140)
 
@@ -5793,6 +5796,12 @@
 
 ### CVE-2024-48955
 - [BrotherOfJhonny/CVE-2024-48955_Overview](https://github.com/BrotherOfJhonny/CVE-2024-48955_Overview)
+
+### CVE-2024-50475
+- [RandomRobbieBF/CVE-2024-50475](https://github.com/RandomRobbieBF/CVE-2024-50475)
+
+### CVE-2024-50476
+- [RandomRobbieBF/CVE-2024-50476](https://github.com/RandomRobbieBF/CVE-2024-50476)
 
 ### CVE-2024-50550
 - [AleksaZatezalo/CVE-2024-50550](https://github.com/AleksaZatezalo/CVE-2024-50550)
@@ -28528,6 +28537,7 @@
 - [YounesTasra-R4z3rSw0rd/CVE-2020-1938](https://github.com/YounesTasra-R4z3rSw0rd/CVE-2020-1938)
 - [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
 - [Warelock/cve-2020-1938](https://github.com/Warelock/cve-2020-1938)
+- [WHtig3r/CVE-2020-1938](https://github.com/WHtig3r/CVE-2020-1938)
 - [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro)
 
 ### CVE-2020-1947 (2020-03-11)
