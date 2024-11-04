@@ -3755,6 +3755,13 @@
 
 - [absholi7ly/Microsoft-Edge-Information-Disclosure](https://github.com/absholi7ly/Microsoft-Edge-Information-Disclosure)
 
+### CVE-2024-30078 (2024-06-11)
+
+<code>Windows Wi-Fi Driver Remote Code Execution Vulnerability
+</code>
+
+- [zgimszhd61/CVE-2024-30078-POC_WIFI](https://github.com/zgimszhd61/CVE-2024-30078-POC_WIFI)
+
 ### CVE-2024-30088 (2024-06-11)
 
 <code>Windows Kernel Elevation of Privilege Vulnerability
@@ -8523,6 +8530,7 @@
 
 - [bde574786/Sequelize-1day-CVE-2023-25813](https://github.com/bde574786/Sequelize-1day-CVE-2023-25813)
 - [White-BAO/CVE-2023-25813](https://github.com/White-BAO/CVE-2023-25813)
+- [pbj2647/CVE-2023-25813](https://github.com/pbj2647/CVE-2023-25813)
 
 ### CVE-2023-25950 (2023-04-11)
 
