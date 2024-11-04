@@ -1686,6 +1686,9 @@
 ### CVE-2024-9466
 - [holypryx/CVE-2024-9466](https://github.com/holypryx/CVE-2024-9466)
 
+### CVE-2024-9537
+- [hatvix1/CVE-2024-9537](https://github.com/hatvix1/CVE-2024-9537)
+
 ### CVE-2024-9570
 - [dylvie/CVE-2024-9570_D-Link-DIR-619L-bof](https://github.com/dylvie/CVE-2024-9570_D-Link-DIR-619L-bof)
 
@@ -1714,9 +1717,6 @@
 
 ### CVE-2024-9955
 - [amfg145/CVE-2024-9955-POC](https://github.com/amfg145/CVE-2024-9955-POC)
-
-### CVE-2024-9988
-- [hatvix1/CVE-2024-9988](https://github.com/hatvix1/CVE-2024-9988)
 
 ### CVE-2024-10140
 - [holypryx/CVE-2024-10140](https://github.com/holypryx/CVE-2024-10140)
@@ -5802,6 +5802,9 @@
 
 ### CVE-2024-50476
 - [RandomRobbieBF/CVE-2024-50476](https://github.com/RandomRobbieBF/CVE-2024-50476)
+
+### CVE-2024-50526
+- [hatvix1/CVE-2024-50526-Private-POC](https://github.com/hatvix1/CVE-2024-50526-Private-POC)
 
 ### CVE-2024-50550
 - [AleksaZatezalo/CVE-2024-50550](https://github.com/AleksaZatezalo/CVE-2024-50550)
@@ -43960,7 +43963,6 @@
 <code>Since &quot;algorithm&quot; isn't enforced in jwt.decode()in jwt-simple 0.3.0 and earlier, a malicious user could choose what algorithm is sent sent to the server. If the server is expecting RSA but is sent HMAC-SHA with RSA's public key, the server will think the public key is actually an HMAC private key. This could be used to forge any data an attacker wants.
 </code>
 
-- [thepcn3rd/jwtToken-CVE-2016-10555](https://github.com/thepcn3rd/jwtToken-CVE-2016-10555)
 - [CircuitSoul/poc-cve-2016-10555](https://github.com/CircuitSoul/poc-cve-2016-10555)
 - [scent2d/PoC-CVE-2016-10555](https://github.com/scent2d/PoC-CVE-2016-10555)
 
@@ -44465,6 +44467,15 @@
 - [0x00-0x00/CVE-2015-3224](https://github.com/0x00-0x00/CVE-2015-3224)
 - [0xEval/cve-2015-3224](https://github.com/0xEval/cve-2015-3224)
 - [n000xy/CVE-2015-3224-](https://github.com/n000xy/CVE-2015-3224-)
+
+### CVE-2015-3239 (2015-08-26)
+
+<code>Off-by-one error in the dwarf_to_unw_regnum function in include/dwarf_i.h in libunwind 1.1 allows local users to have unspecified impact via invalid dwarf opcodes.
+</code>
+
+- [RenukaSelvar/libunwind_CVE-2015-3239](https://github.com/RenukaSelvar/libunwind_CVE-2015-3239)
+- [RenukaSelvar/libunwind_CVE-2015-3239_AfterPatch](https://github.com/RenukaSelvar/libunwind_CVE-2015-3239_AfterPatch)
+- [RenukaSelvar/libunwind_CVE-2015-3239_After](https://github.com/RenukaSelvar/libunwind_CVE-2015-3239_After)
 
 ### CVE-2015-3306 (2015-05-18)
 
