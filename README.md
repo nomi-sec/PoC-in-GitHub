@@ -1733,6 +1733,9 @@
 ### CVE-2024-10557
 - [bevennyamande/CVE-2024-10557](https://github.com/bevennyamande/CVE-2024-10557)
 
+### CVE-2024-10605
+- [bevennyamande/CVE-2024-10605](https://github.com/bevennyamande/CVE-2024-10605)
+
 ### CVE-2024-10654
 - [c0nyy/IoT_vuln](https://github.com/c0nyy/IoT_vuln)
 
