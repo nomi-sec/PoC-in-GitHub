@@ -1711,6 +1711,9 @@
 - [m3ssap0/wordpress-jetpack-broken-access-control-vulnerable-application](https://github.com/m3ssap0/wordpress-jetpack-broken-access-control-vulnerable-application)
 - [m3ssap0/wordpress-jetpack-broken-access-control-exploit](https://github.com/m3ssap0/wordpress-jetpack-broken-access-control-exploit)
 
+### CVE-2024-9932
+- [RandomRobbieBF/CVE-2024-9932](https://github.com/RandomRobbieBF/CVE-2024-9932)
+
 ### CVE-2024-9954
 - [zetraxz/CVE-2024-9954](https://github.com/zetraxz/CVE-2024-9954)
 - [famixcm/CVE-2024-9954](https://github.com/famixcm/CVE-2024-9954)
@@ -2347,7 +2350,6 @@
 - [maybelookis/CVE-2024-23113](https://github.com/maybelookis/CVE-2024-23113)
 - [p33d/CVE-2024-23113](https://github.com/p33d/CVE-2024-23113)
 - [groshi/CVE-2024-23113-Private-POC](https://github.com/groshi/CVE-2024-23113-Private-POC)
-- [hatvix1/CVE-2024-23113](https://github.com/hatvix1/CVE-2024-23113)
 - [zgimszhd61/CVE-2024-23113](https://github.com/zgimszhd61/CVE-2024-23113)
 - [puckiestyle/CVE-2024-23113](https://github.com/puckiestyle/CVE-2024-23113)
 
@@ -2399,6 +2401,13 @@
 </code>
 
 - [200101WhoAmI/CVE-2024-23339](https://github.com/200101WhoAmI/CVE-2024-23339)
+
+### CVE-2024-23346 (2024-02-21)
+
+<code>Pymatgen (Python Materials Genomics) is an open-source Python library for materials analysis. A critical security vulnerability exists in the `JonesFaithfulTransformation.from_transformation_str()` method within the `pymatgen` library prior to version 2024.2.20. This method insecurely utilizes `eval()` for processing input, enabling execution of arbitrary code when parsing untrusted input. Version 2024.2.20 fixes this issue.
+</code>
+
+- [9carlo6/CVE-2024-23346](https://github.com/9carlo6/CVE-2024-23346)
 
 ### CVE-2024-23443 (2024-06-19)
 
@@ -5440,6 +5449,10 @@
 - [v9d0g/CVE-2024-43044-POC](https://github.com/v9d0g/CVE-2024-43044-POC)
 - [convisolabs/CVE-2024-43044-jenkins](https://github.com/convisolabs/CVE-2024-43044-jenkins)
 
+### CVE-2024-43093
+- [exploitsecure/CVE-2024-43093](https://github.com/exploitsecure/CVE-2024-43093)
+- [hatvix1/CVE-2024-43093](https://github.com/hatvix1/CVE-2024-43093)
+
 ### CVE-2024-43160 (2024-08-13)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in BerqWP allows Code Injection.This issue affects BerqWP: from n/a through 1.7.6.
@@ -5805,6 +5818,12 @@
 
 ### CVE-2024-50476
 - [RandomRobbieBF/CVE-2024-50476](https://github.com/RandomRobbieBF/CVE-2024-50476)
+
+### CVE-2024-50482
+- [RandomRobbieBF/CVE-2024-50482](https://github.com/RandomRobbieBF/CVE-2024-50482)
+
+### CVE-2024-50485
+- [RandomRobbieBF/CVE-2024-50485](https://github.com/RandomRobbieBF/CVE-2024-50485)
 
 ### CVE-2024-50490
 - [RandomRobbieBF/CVE-2024-50490](https://github.com/RandomRobbieBF/CVE-2024-50490)
@@ -8243,7 +8262,6 @@
 - [AkbarWiraN/Joomla-Scanner](https://github.com/AkbarWiraN/Joomla-Scanner)
 - [Ge-Per/Scanner-CVE-2023-23752](https://github.com/Ge-Per/Scanner-CVE-2023-23752)
 - [ThatNotEasy/CVE-2023-23752](https://github.com/ThatNotEasy/CVE-2023-23752)
-- [wibuheker/Joomla-CVE-2023-23752](https://github.com/wibuheker/Joomla-CVE-2023-23752)
 - [Sweelg/CVE-2023-23752](https://github.com/Sweelg/CVE-2023-23752)
 - [MrP4nda1337/CVE-2023-23752](https://github.com/MrP4nda1337/CVE-2023-23752)
 - [lainonz/CVE-2023-23752](https://github.com/lainonz/CVE-2023-23752)
@@ -16126,6 +16144,7 @@
 - [sohamsharma966/Spring4Shell-CVE-2022-22965](https://github.com/sohamsharma966/Spring4Shell-CVE-2022-22965)
 - [LucasPDiniz/CVE-2022-22965](https://github.com/LucasPDiniz/CVE-2022-22965)
 - [xsxtw/SpringFramework_CVE-2022-22965_RCE](https://github.com/xsxtw/SpringFramework_CVE-2022-22965_RCE)
+- [guigui237/Expoitation-de-la-vuln-rabilit-CVE-2022-22965](https://github.com/guigui237/Expoitation-de-la-vuln-rabilit-CVE-2022-22965)
 
 ### CVE-2022-22966 (2022-04-14)
 
@@ -39602,13 +39621,6 @@
 
 - [RHYru9/CVE-2018-16431](https://github.com/RHYru9/CVE-2018-16431)
 
-### CVE-2018-16451 (2019-10-03)
-
-<code>The SMB parser in tcpdump before 4.9.3 has buffer over-reads in print-smb.c:print_trans() for \MAILSLOT\BROWSE and \PIPE\LANMAN.
-</code>
-
-- [uthrasri/CVE-2018-16451_tcpdump_AOSP_R33](https://github.com/uthrasri/CVE-2018-16451_tcpdump_AOSP_R33)
-
 ### CVE-2018-16492 (2019-02-01)
 
 <code>A prototype pollution vulnerability was found in module extend &lt;2.0.2, ~&lt;3.0.2 that allows an attacker to inject arbitrary properties onto Object.prototype.
@@ -44635,6 +44647,7 @@
 
 - [jas502n/CVE-2015-5254](https://github.com/jas502n/CVE-2015-5254)
 - [Ma1Dong/ActiveMQ_CVE-2015-5254](https://github.com/Ma1Dong/ActiveMQ_CVE-2015-5254)
+- [guigui237/Exploitation-de-la-vuln-rabilit-CVE-2015-5254-](https://github.com/guigui237/Exploitation-de-la-vuln-rabilit-CVE-2015-5254-)
 
 ### CVE-2015-5347 (2016-04-12)
 
