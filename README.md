@@ -5766,6 +5766,9 @@
 ### CVE-2024-48326
 - [fabiobsj/CVE-2024-48326](https://github.com/fabiobsj/CVE-2024-48326)
 
+### CVE-2024-48336
+- [canyie/MagiskEoP](https://github.com/canyie/MagiskEoP)
+
 ### CVE-2024-48392
 - [Renzusclarke/CVE-2024-48392-PoC](https://github.com/Renzusclarke/CVE-2024-48392-PoC)
 
@@ -5809,11 +5812,11 @@
 ### CVE-2024-50526
 - [hatvix1/CVE-2024-50526-Private-POC](https://github.com/hatvix1/CVE-2024-50526-Private-POC)
 
-### CVE-2024-50550
-- [AleksaZatezalo/CVE-2024-50550](https://github.com/AleksaZatezalo/CVE-2024-50550)
-
 ### CVE-2024-51132
 - [JAckLosingHeart/CVE-2024-51132-POC](https://github.com/JAckLosingHeart/CVE-2024-51132-POC)
+
+### CVE-2024-51136
+- [JAckLosingHeart/CVE-2024-51136-POC](https://github.com/JAckLosingHeart/CVE-2024-51136-POC)
 
 ### CVE-2024-51358
 - [Kov404/CVE-2024-51358](https://github.com/Kov404/CVE-2024-51358)
@@ -6722,6 +6725,13 @@
 </code>
 
 - [b0marek/CVE-2023-4294](https://github.com/b0marek/CVE-2023-4294)
+
+### CVE-2023-4300 (2023-09-25)
+
+<code>The Import XML and RSS Feeds WordPress plugin before 2.1.4 does not filter file extensions for uploaded files, allowing an attacker to upload a malicious PHP file, leading to Remote Code Execution.
+</code>
+
+- [bde574786/CVE-2023-4300](https://github.com/bde574786/CVE-2023-4300)
 
 ### CVE-2023-4357 (2023-08-15)
 
@@ -17622,6 +17632,7 @@
 
 - [miko550/CVE-2022-29078](https://github.com/miko550/CVE-2022-29078)
 - [liam-star-black-master/expluatation_CVE-2022-29078](https://github.com/liam-star-black-master/expluatation_CVE-2022-29078)
+- [l0n3m4n/CVE-2022-29078](https://github.com/l0n3m4n/CVE-2022-29078)
 
 ### CVE-2022-29154 (2022-08-02)
 
