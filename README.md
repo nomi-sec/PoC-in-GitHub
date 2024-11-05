@@ -1433,7 +1433,7 @@
 
 - [zangjiahe/CVE-2024-6782](https://github.com/zangjiahe/CVE-2024-6782)
 - [jdpsl/CVE-2024-6782](https://github.com/jdpsl/CVE-2024-6782)
-- [R4idB0Y/CVE-2024-6782-PoC](https://github.com/R4idB0Y/CVE-2024-6782-PoC)
+- [0xB0y426/CVE-2024-6782-PoC](https://github.com/0xB0y426/CVE-2024-6782-PoC)
 
 ### CVE-2024-6788 (2024-08-13)
 
@@ -5802,6 +5802,9 @@
 
 ### CVE-2024-50476
 - [RandomRobbieBF/CVE-2024-50476](https://github.com/RandomRobbieBF/CVE-2024-50476)
+
+### CVE-2024-50498
+- [RandomRobbieBF/CVE-2024-50498](https://github.com/RandomRobbieBF/CVE-2024-50498)
 
 ### CVE-2024-50526
 - [hatvix1/CVE-2024-50526-Private-POC](https://github.com/hatvix1/CVE-2024-50526-Private-POC)
@@ -40805,7 +40808,7 @@
 <code>In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters for a DHE or ECDHE key exchange then this can result in the client attempting to dereference a NULL pointer leading to a client crash. This could be exploited in a Denial of Service attack.
 </code>
 
-- [guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730)
+- [olivierh59500/CVE-2017-3730](https://github.com/olivierh59500/CVE-2017-3730)
 
 ### CVE-2017-3881 (2017-03-17)
 
@@ -46661,7 +46664,7 @@
 - [4m3rr0r/CVE-2011-2523-poc](https://github.com/4m3rr0r/CVE-2011-2523-poc)
 - [Shubham-2k1/Exploit-CVE-2011-2523](https://github.com/Shubham-2k1/Exploit-CVE-2011-2523)
 - [Tenor-Z/SmileySploit](https://github.com/Tenor-Z/SmileySploit)
-- [R4idB0Y/CVE-2011-2523-PoC](https://github.com/R4idB0Y/CVE-2011-2523-PoC)
+- [0xB0y426/CVE-2011-2523-PoC](https://github.com/0xB0y426/CVE-2011-2523-PoC)
 - [AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research)
 - [Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit](https://github.com/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit)
 - [everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-](https://github.com/everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-)
