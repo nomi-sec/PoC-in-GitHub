@@ -5806,6 +5806,9 @@
 ### CVE-2024-50476
 - [RandomRobbieBF/CVE-2024-50476](https://github.com/RandomRobbieBF/CVE-2024-50476)
 
+### CVE-2024-50490
+- [RandomRobbieBF/CVE-2024-50490](https://github.com/RandomRobbieBF/CVE-2024-50490)
+
 ### CVE-2024-50498
 - [RandomRobbieBF/CVE-2024-50498](https://github.com/RandomRobbieBF/CVE-2024-50498)
 
@@ -12007,7 +12010,7 @@
 <code>An issue in Netgate pfSense v.2.7.0 allows a remote attacker to execute arbitrary code via a crafted request to the interfaces_gif_edit.php and interfaces_gre_edit.php components.
 </code>
 
-- [bl4ckarch/pf-pwnme](https://github.com/bl4ckarch/pf-pwnme)
+- [bl4ckarch/CVE-2023-42326](https://github.com/bl4ckarch/CVE-2023-42326)
 - [Farzan-Kh/CVE-2023-42326](https://github.com/Farzan-Kh/CVE-2023-42326)
 
 ### CVE-2023-42362 (2023-09-14)
@@ -39598,6 +39601,13 @@
 </code>
 
 - [RHYru9/CVE-2018-16431](https://github.com/RHYru9/CVE-2018-16431)
+
+### CVE-2018-16451 (2019-10-03)
+
+<code>The SMB parser in tcpdump before 4.9.3 has buffer over-reads in print-smb.c:print_trans() for \MAILSLOT\BROWSE and \PIPE\LANMAN.
+</code>
+
+- [uthrasri/CVE-2018-16451_tcpdump_AOSP_R33](https://github.com/uthrasri/CVE-2018-16451_tcpdump_AOSP_R33)
 
 ### CVE-2018-16492 (2019-02-01)
 
