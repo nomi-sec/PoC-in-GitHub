@@ -1567,6 +1567,7 @@
 </code>
 
 - [hatvix1/CVE-2024-7988-Private-POC](https://github.com/hatvix1/CVE-2024-7988-Private-POC)
+- [HatvixSupport/CVE-2024-7988-Private-POC](https://github.com/HatvixSupport/CVE-2024-7988-Private-POC)
 
 ### CVE-2024-8190 (2024-09-10)
 
@@ -1714,6 +1715,9 @@
 ### CVE-2024-9932
 - [RandomRobbieBF/CVE-2024-9932](https://github.com/RandomRobbieBF/CVE-2024-9932)
 
+### CVE-2024-9933
+- [RandomRobbieBF/CVE-2024-9933](https://github.com/RandomRobbieBF/CVE-2024-9933)
+
 ### CVE-2024-9954
 - [zetraxz/CVE-2024-9954](https://github.com/zetraxz/CVE-2024-9954)
 - [famixcm/CVE-2024-9954](https://github.com/famixcm/CVE-2024-9954)
@@ -1735,6 +1739,9 @@
 
 ### CVE-2024-10448
 - [bevennyamande/CVE-2024-10448](https://github.com/bevennyamande/CVE-2024-10448)
+
+### CVE-2024-10449
+- [g-u-i-d/CVE-2024-10449-patch](https://github.com/g-u-i-d/CVE-2024-10449-patch)
 
 ### CVE-2024-10557
 - [bevennyamande/CVE-2024-10557](https://github.com/bevennyamande/CVE-2024-10557)
@@ -5452,6 +5459,7 @@
 ### CVE-2024-43093
 - [exploitsecure/CVE-2024-43093](https://github.com/exploitsecure/CVE-2024-43093)
 - [hatvix1/CVE-2024-43093](https://github.com/hatvix1/CVE-2024-43093)
+- [HatvixSupport/CVE-2024-43093](https://github.com/HatvixSupport/CVE-2024-43093)
 
 ### CVE-2024-43160 (2024-08-13)
 
@@ -5695,9 +5703,6 @@
 ### CVE-2024-46278
 - [ayato-shitomi/CVE-2024-46278-teedy_1.11_account-takeover](https://github.com/ayato-shitomi/CVE-2024-46278-teedy_1.11_account-takeover)
 
-### CVE-2024-46310
-- [UwUtisum/CVE-2024-46310](https://github.com/UwUtisum/CVE-2024-46310)
-
 ### CVE-2024-46377
 - [vidura2/CVE-2024-46377](https://github.com/vidura2/CVE-2024-46377)
 
@@ -5782,6 +5787,12 @@
 ### CVE-2024-48336
 - [canyie/MagiskEoP](https://github.com/canyie/MagiskEoP)
 
+### CVE-2024-48359
+- [OpenXP-Research/CVE-2024-48359](https://github.com/OpenXP-Research/CVE-2024-48359)
+
+### CVE-2024-48360
+- [OpenXP-Research/CVE-2024-48360](https://github.com/OpenXP-Research/CVE-2024-48360)
+
 ### CVE-2024-48392
 - [Renzusclarke/CVE-2024-48392-PoC](https://github.com/Renzusclarke/CVE-2024-48392-PoC)
 
@@ -5819,8 +5830,14 @@
 ### CVE-2024-50476
 - [RandomRobbieBF/CVE-2024-50476](https://github.com/RandomRobbieBF/CVE-2024-50476)
 
+### CVE-2024-50478
+- [RandomRobbieBF/CVE-2024-50478](https://github.com/RandomRobbieBF/CVE-2024-50478)
+
 ### CVE-2024-50482
 - [RandomRobbieBF/CVE-2024-50482](https://github.com/RandomRobbieBF/CVE-2024-50482)
+
+### CVE-2024-50483
+- [RandomRobbieBF/CVE-2024-50483](https://github.com/RandomRobbieBF/CVE-2024-50483)
 
 ### CVE-2024-50485
 - [RandomRobbieBF/CVE-2024-50485](https://github.com/RandomRobbieBF/CVE-2024-50485)
@@ -5833,6 +5850,15 @@
 
 ### CVE-2024-50526
 - [hatvix1/CVE-2024-50526-Private-POC](https://github.com/hatvix1/CVE-2024-50526-Private-POC)
+
+### CVE-2024-51030
+- [vighneshnair7/CVE-2024-51030](https://github.com/vighneshnair7/CVE-2024-51030)
+
+### CVE-2024-51031
+- [vighneshnair7/CVE-2024-51031](https://github.com/vighneshnair7/CVE-2024-51031)
+
+### CVE-2024-51032
+- [Shree-Chandragiri/CVE-2024-51032](https://github.com/Shree-Chandragiri/CVE-2024-51032)
 
 ### CVE-2024-51132
 - [JAckLosingHeart/CVE-2024-51132-POC](https://github.com/JAckLosingHeart/CVE-2024-51132-POC)
@@ -23246,6 +23272,13 @@
 
 - [DShankle/VLC_CVE-2021-25804_Analysis](https://github.com/DShankle/VLC_CVE-2021-25804_Analysis)
 
+### CVE-2021-25837 (2021-02-08)
+
+<code>Cosmos Network Ethermint &lt;= v0.4.0 is affected by cache lifecycle inconsistency in the EVM module. Due to the inconsistency between the Storage caching cycle and the Tx processing cycle, Storage changes caused by a failed transaction are improperly reserved in memory. Although the bad storage cache data will be discarded at EndBlock, it is still valid in the current block, which enables many possible attacks such as an &quot;arbitrary mint token&quot;.
+</code>
+
+- [iczc/Ethermint-CVE-2021-25837](https://github.com/iczc/Ethermint-CVE-2021-25837)
+
 ### CVE-2021-26084 (2021-08-30)
 
 <code>In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5.
@@ -27019,7 +27052,6 @@
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [nix-xin/vuln4japi](https://github.com/nix-xin/vuln4japi)
-- [maximofernandezriera/CVE-2021-44228](https://github.com/maximofernandezriera/CVE-2021-44228)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
