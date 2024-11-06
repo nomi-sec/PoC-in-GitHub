@@ -28921,6 +28921,13 @@
 
 - [copethomas/datapower-redis-rce-exploit](https://github.com/copethomas/datapower-redis-rce-exploit)
 
+### CVE-2020-5235 (2020-02-04)
+
+<code>There is a potentially exploitable out of memory condition In Nanopb before 0.4.1, 0.3.9.5, and 0.2.9.4. When nanopb is compiled with PB_ENABLE_MALLOC, the message to be decoded contains a repeated string, bytes or message field and realloc() runs out of memory when expanding the array nanopb can end up calling `free()` on a pointer value that comes from uninitialized memory. Depending on platform this can result in a crash or further memory corruption, which may be exploitable in some cases. This problem is fixed in nanopb-0.4.1, nanopb-0.3.9.5, nanopb-0.2.9.4.
+</code>
+
+- [uthrasri/CVE-2020-5235_nanopb-c_AOSP10_R33](https://github.com/uthrasri/CVE-2020-5235_nanopb-c_AOSP10_R33)
+
 ### CVE-2020-5236 (2020-02-04)
 
 <code>Waitress version 1.4.2 allows a DOS attack When waitress receives a header that contains invalid characters. When a header like &quot;Bad-header: xxxxxxxxxxxxxxx\x10&quot; is received, it will cause the regular expression engine to catastrophically backtrack causing the process to use 100% CPU time and blocking any other interactions. This allows an attacker to send a single request with an invalid header and take the service offline. This issue was introduced in version 1.4.2 when the regular expression was updated to attempt to match the behaviour required by errata associated with RFC7230. The regular expression that is used to validate incoming headers has been updated in version 1.4.3, it is recommended that people upgrade to the new version of Waitress as soon as possible.
@@ -31854,6 +31861,14 @@
 </code>
 
 - [nathunandwani/CVE-2020-24227](https://github.com/nathunandwani/CVE-2020-24227)
+
+### CVE-2020-24370 (2020-08-17)
+
+<code>ldebug.c in Lua 5.4.0 allows a negation overflow and segmentation fault in getlocal and setlocal, as demonstrated by getlocal(3,2^31).
+</code>
+
+- [RenukaSelvar/lua_CVE-2020-24370](https://github.com/RenukaSelvar/lua_CVE-2020-24370)
+- [RenukaSelvar/lua_CVE-2020-24370_AfterPatch](https://github.com/RenukaSelvar/lua_CVE-2020-24370_AfterPatch)
 
 ### CVE-2020-24490 (2021-02-02)
 
@@ -39325,6 +39340,13 @@
 
 - [payatu/CVE-2018-14442](https://github.com/payatu/CVE-2018-14442)
 - [sharmasandeepkr/PS-2018-002---CVE-2018-14442](https://github.com/sharmasandeepkr/PS-2018-002---CVE-2018-14442)
+
+### CVE-2018-14461 (2019-10-03)
+
+<code>The LDP parser in tcpdump before 4.9.3 has a buffer over-read in print-ldp.c:ldp_tlv_print().
+</code>
+
+- [uthrasri/CVE-2018-14461_tcpdump_AOSP10_R33](https://github.com/uthrasri/CVE-2018-14461_tcpdump_AOSP10_R33)
 
 ### CVE-2018-14463 (2019-10-03)
 
