@@ -5825,6 +5825,9 @@
 ### CVE-2024-48955
 - [BrotherOfJhonny/CVE-2024-48955_Overview](https://github.com/BrotherOfJhonny/CVE-2024-48955_Overview)
 
+### CVE-2024-49328
+- [RandomRobbieBF/CVE-2024-49328](https://github.com/RandomRobbieBF/CVE-2024-49328)
+
 ### CVE-2024-50475
 - [RandomRobbieBF/CVE-2024-50475](https://github.com/RandomRobbieBF/CVE-2024-50475)
 
@@ -31943,7 +31946,7 @@
 <code>SUPERAntiSyware Professional X Trial 10.0.1206 is vulnerable to local privilege escalation because it allows unprivileged users to restore a malicious DLL from quarantine into the system32 folder via an NTFS directory junction, as demonstrated by a crafted ualapi.dll file that is detected as malware.
 </code>
 
-- [b1nary0x1/CVE-2020-24955](https://github.com/b1nary0x1/CVE-2020-24955)
+- [nmht3t/CVE-2020-24955](https://github.com/nmht3t/CVE-2020-24955)
 
 ### CVE-2020-24972 (2020-08-29)
 
