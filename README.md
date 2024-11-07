@@ -1518,6 +1518,13 @@
 
 - [lfillaz/CVE-2024-7703](https://github.com/lfillaz/CVE-2024-7703)
 
+### CVE-2024-7808 (2024-08-15)
+
+<code>Es wurde eine kritische Schwachstelle in code-projects Job Portal 1.0 ausgemacht. Betroffen hiervon ist ein unbekannter Ablauf der Datei logindbc.php. Dank Manipulation des Arguments email mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [TheUnknownSoul/CVE-2024-7808](https://github.com/TheUnknownSoul/CVE-2024-7808)
+
 ### CVE-2024-7854 (2024-08-21)
 
 <code>The Woo Inquiry plugin for WordPress is vulnerable to SQL Injection in all versions up to, and including, 0.1 due to insufficient escaping on the user supplied parameter 'dbid' and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -4863,6 +4870,7 @@
 - [BBD-YZZ/fyne-gui](https://github.com/BBD-YZZ/fyne-gui)
 - [Destiny0991/check_38077](https://github.com/Destiny0991/check_38077)
 - [mrmtwoj/CVE-2024-38077](https://github.com/mrmtwoj/CVE-2024-38077)
+- [amfg145/CVE-2024-38077](https://github.com/amfg145/CVE-2024-38077)
 
 ### CVE-2024-38080 (2024-07-09)
 
@@ -5852,6 +5860,7 @@
 
 ### CVE-2024-51567
 - [ajayalf/CVE-2024-51567](https://github.com/ajayalf/CVE-2024-51567)
+- [thehash007/CVE-2024-51567-RCE-EXPLOIT](https://github.com/thehash007/CVE-2024-51567-RCE-EXPLOIT)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -8576,6 +8585,7 @@
 - [bde574786/Sequelize-1day-CVE-2023-25813](https://github.com/bde574786/Sequelize-1day-CVE-2023-25813)
 - [White-BAO/CVE-2023-25813](https://github.com/White-BAO/CVE-2023-25813)
 - [pbj2647/CVE-2023-25813](https://github.com/pbj2647/CVE-2023-25813)
+- [wxuycea/CVE-2023-25813](https://github.com/wxuycea/CVE-2023-25813)
 
 ### CVE-2023-25950 (2023-04-11)
 
@@ -16992,6 +17002,7 @@
 - [hosch3n/FastjsonVulns](https://github.com/hosch3n/FastjsonVulns)
 - [nerowander/CVE-2022-25845-exploit](https://github.com/nerowander/CVE-2022-25845-exploit)
 - [scabench/fastjson-tp1fn1](https://github.com/scabench/fastjson-tp1fn1)
+- [luelueking/CVE-2022-25845-In-Spring](https://github.com/luelueking/CVE-2022-25845-In-Spring)
 
 ### CVE-2022-25927 (2023-01-25)
 
