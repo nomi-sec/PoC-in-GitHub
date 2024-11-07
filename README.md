@@ -1663,6 +1663,7 @@
 
 ### CVE-2024-9234
 - [RandomRobbieBF/CVE-2024-9234](https://github.com/RandomRobbieBF/CVE-2024-9234)
+- [CallMeBatosay/CVE-2024-9234](https://github.com/CallMeBatosay/CVE-2024-9234)
 
 ### CVE-2024-9264
 - [nollium/CVE-2024-9264](https://github.com/nollium/CVE-2024-9264)
@@ -2051,7 +2052,6 @@
 - [h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762)
 - [r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check)
 - [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
-- [lolminerxmrig/multicheck_CVE-2024-21762](https://github.com/lolminerxmrig/multicheck_CVE-2024-21762)
 - [rdoix/cve-2024-21762-checker](https://github.com/rdoix/cve-2024-21762-checker)
 
 ### CVE-2024-21793 (2024-05-08)
@@ -7246,6 +7246,7 @@
 - [motikan2010/CVE-2023-6553-PoC](https://github.com/motikan2010/CVE-2023-6553-PoC)
 - [kiddenta/CVE-2023-6553](https://github.com/kiddenta/CVE-2023-6553)
 - [cc3305/CVE-2023-6553](https://github.com/cc3305/CVE-2023-6553)
+- [Harshit-Mashru/CVE-2023-6553](https://github.com/Harshit-Mashru/CVE-2023-6553)
 
 ### CVE-2023-6567 (2024-01-11)
 
@@ -16016,7 +16017,6 @@
 - [amit-pathak009/CVE-2022-22954](https://github.com/amit-pathak009/CVE-2022-22954)
 - [amit-pathak009/CVE-2022-22954-PoC](https://github.com/amit-pathak009/CVE-2022-22954-PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
-- [lolminerxmrig/CVE-2022-22954_](https://github.com/lolminerxmrig/CVE-2022-22954_)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -17370,7 +17370,6 @@
 - [Josexv1/CVE-2022-27925](https://github.com/Josexv1/CVE-2022-27925)
 - [Chocapikk/CVE-2022-27925-Revshell](https://github.com/Chocapikk/CVE-2022-27925-Revshell)
 - [akincibor/CVE-2022-27925](https://github.com/akincibor/CVE-2022-27925)
-- [lolminerxmrig/CVE-2022-27925-Revshell](https://github.com/lolminerxmrig/CVE-2022-27925-Revshell)
 - [touchmycrazyredhat/CVE-2022-27925-Revshell](https://github.com/touchmycrazyredhat/CVE-2022-27925-Revshell)
 - [jam620/Zimbra](https://github.com/jam620/Zimbra)
 - [Inplex-sys/CVE-2022-27925](https://github.com/Inplex-sys/CVE-2022-27925)
@@ -19724,7 +19723,6 @@
 
 - [segfault-it/cve-2022-41352](https://github.com/segfault-it/cve-2022-41352)
 - [Cr4ckC4t/cve-2022-41352-zimbra-rce](https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce)
-- [lolminerxmrig/cve-2022-41352-zimbra-rce-1](https://github.com/lolminerxmrig/cve-2022-41352-zimbra-rce-1)
 - [qailanet/cve-2022-41352-zimbra-rce](https://github.com/qailanet/cve-2022-41352-zimbra-rce)
 
 ### CVE-2022-41358 (2022-10-20)
@@ -20088,13 +20086,6 @@
 
 - [Trinadh465/external_expat-2.1.0_CVE-2022-43680](https://github.com/Trinadh465/external_expat-2.1.0_CVE-2022-43680)
 - [nidhihcl/external_expat_2.1.0_CVE-2022-43680](https://github.com/nidhihcl/external_expat_2.1.0_CVE-2022-43680)
-
-### CVE-2022-43684 (2023-06-13)
-
-<code>ServiceNow has released patches and an upgrade that address an Access Control List (ACL) bypass issue in ServiceNow Core functionality.\n\n\n\nAdditional Details\n\nThis issue is present in the following supported ServiceNow releases: \n\n\n\n  *  Quebec prior to Patch 10 Hot Fix 8b\n  *  Rome prior to Patch 10 Hot Fix 1\n  *  San Diego prior to Patch 7\n  *  Tokyo prior to Tokyo Patch 1; and \n  *  Utah prior to Utah General Availability \n\n\n\n\nIf this ACL bypass issue were to be successfully exploited, it potentially could allow an authenticated user to obtain sensitive information from tables missing authorization controls.\n\n\n\n
-</code>
-
-- [lolminerxmrig/CVE-2022-43684](https://github.com/lolminerxmrig/CVE-2022-43684)
 
 ### CVE-2022-43704 (2023-01-20)
 
@@ -31056,7 +31047,6 @@
 - [exploitblizzard/CVE-2020-14882-WebLogic](https://github.com/exploitblizzard/CVE-2020-14882-WebLogic)
 - [qianniaoge/CVE-2020-14882_Exploit_Gui](https://github.com/qianniaoge/CVE-2020-14882_Exploit_Gui)
 - [N0Coriander/CVE-2020-14882-14883](https://github.com/N0Coriander/CVE-2020-14882-14883)
-- [lolminerxmrig/CVE-2020-14882_ALL](https://github.com/lolminerxmrig/CVE-2020-14882_ALL)
 - [nik0nz7/CVE-2020-14882](https://github.com/nik0nz7/CVE-2020-14882)
 - [Danny-LLi/CVE-2020-14882](https://github.com/Danny-LLi/CVE-2020-14882)
 - [LucasPDiniz/CVE-2020-14882](https://github.com/LucasPDiniz/CVE-2020-14882)
@@ -35868,7 +35858,6 @@
 - [hadrian3689/webmin_1.920](https://github.com/hadrian3689/webmin_1.920)
 - [f0rkr/CVE-2019-15107](https://github.com/f0rkr/CVE-2019-15107)
 - [psw01/CVE-2019-15107_webminRCE](https://github.com/psw01/CVE-2019-15107_webminRCE)
-- [lolminerxmrig/CVE-2019-15107](https://github.com/lolminerxmrig/CVE-2019-15107)
 - [TheAlpha19/MiniExploit](https://github.com/TheAlpha19/MiniExploit)
 - [wenruoya/CVE-2019-15107](https://github.com/wenruoya/CVE-2019-15107)
 - [g1vi/CVE-2019-15107](https://github.com/g1vi/CVE-2019-15107)
