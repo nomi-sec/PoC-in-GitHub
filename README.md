@@ -614,7 +614,6 @@
 - [Mustafa1986/CVE-2024-3094](https://github.com/Mustafa1986/CVE-2024-3094)
 - [MrBUGLF/XZ-Utils_CVE-2024-3094](https://github.com/MrBUGLF/XZ-Utils_CVE-2024-3094)
 - [galacticquest/cve-2024-3094-detect](https://github.com/galacticquest/cve-2024-3094-detect)
-- [zgimszhd61/cve-2024-3094-detect-tool](https://github.com/zgimszhd61/cve-2024-3094-detect-tool)
 - [mightysai1997/CVE-2024-3094-info](https://github.com/mightysai1997/CVE-2024-3094-info)
 - [mightysai1997/CVE-2024-3094](https://github.com/mightysai1997/CVE-2024-3094)
 - [mesutgungor/xz-backdoor-vulnerability](https://github.com/mesutgungor/xz-backdoor-vulnerability)
@@ -902,6 +901,7 @@
 - [snyk-labs/pdfjs-vuln-demo](https://github.com/snyk-labs/pdfjs-vuln-demo)
 - [UnHackerEnCapital/PDFernetRemotelo](https://github.com/UnHackerEnCapital/PDFernetRemotelo)
 - [Masamuneee/CVE-2024-4367-Analysis](https://github.com/Masamuneee/CVE-2024-4367-Analysis)
+- [pedrochalegre7/CVE-2024-4367-pdf-sample](https://github.com/pedrochalegre7/CVE-2024-4367-pdf-sample)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -1023,7 +1023,6 @@
 - [Brut-Security/CVE-2024-4879](https://github.com/Brut-Security/CVE-2024-4879)
 - [bigb0x/CVE-2024-4879](https://github.com/bigb0x/CVE-2024-4879)
 - [Mr-r00t11/CVE-2024-4879](https://github.com/Mr-r00t11/CVE-2024-4879)
-- [zgimszhd61/CVE-2024-4879](https://github.com/zgimszhd61/CVE-2024-4879)
 - [ShadowByte1/CVE-2024-4879](https://github.com/ShadowByte1/CVE-2024-4879)
 - [Praison001/CVE-2024-4879-ServiceNow](https://github.com/Praison001/CVE-2024-4879-ServiceNow)
 - [NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning](https://github.com/NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning)
@@ -1293,7 +1292,6 @@
 - [wiggels/regresshion-check](https://github.com/wiggels/regresshion-check)
 - [3yujw7njai/CVE-2024-6387](https://github.com/3yujw7njai/CVE-2024-6387)
 - [betancour/OpenSSH-Vulnerability-test](https://github.com/betancour/OpenSSH-Vulnerability-test)
-- [zgimszhd61/cve-2024-6387-poc](https://github.com/zgimszhd61/cve-2024-6387-poc)
 - [muyuanlove/CVE-2024-6387fixshell](https://github.com/muyuanlove/CVE-2024-6387fixshell)
 - [TAM-K592/CVE-2024-6387](https://github.com/TAM-K592/CVE-2024-6387)
 - [teamos-hub/regreSSHion](https://github.com/teamos-hub/regreSSHion)
@@ -1669,10 +1667,8 @@
 ### CVE-2024-9264
 - [nollium/CVE-2024-9264](https://github.com/nollium/CVE-2024-9264)
 - [z3k0sec/File-Read-CVE-2024-9264](https://github.com/z3k0sec/File-Read-CVE-2024-9264)
-- [zgimszhd61/CVE-2024-9264](https://github.com/zgimszhd61/CVE-2024-9264)
 - [z3k0sec/CVE-2024-9264-RCE-Exploit](https://github.com/z3k0sec/CVE-2024-9264-RCE-Exploit)
 - [PunitTailor55/Grafana-CVE-2024-9264](https://github.com/PunitTailor55/Grafana-CVE-2024-9264)
-- [zgimszhd61/CVE-2024-9264-RCE](https://github.com/zgimszhd61/CVE-2024-9264-RCE)
 
 ### CVE-2024-9441
 - [adhikara13/CVE-2024-9441](https://github.com/adhikara13/CVE-2024-9441)
@@ -2340,13 +2336,6 @@
 - [horizon3ai/CVE-2024-23108](https://github.com/horizon3ai/CVE-2024-23108)
 - [hitem/CVE-2024-23108](https://github.com/hitem/CVE-2024-23108)
 
-### CVE-2024-23112 (2024-03-12)
-
-<code>An authorization bypass through user-controlled key vulnerability [CWE-639] in FortiOS version 7.4.0 through 7.4.1, 7.2.0 through 7.2.6, 7.0.1 through 7.0.13, 6.4.7 through 6.4.14, and FortiProxy version 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14 SSL-VPN may allow an authenticated attacker to gain access to another user’s bookmark via URL manipulation.
-</code>
-
-- [zgimszhd61/CVE-2024-23112](https://github.com/zgimszhd61/CVE-2024-23112)
-
 ### CVE-2024-23113 (2024-02-15)
 
 <code>A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.
@@ -2358,29 +2347,7 @@
 - [maybelookis/CVE-2024-23113](https://github.com/maybelookis/CVE-2024-23113)
 - [p33d/CVE-2024-23113](https://github.com/p33d/CVE-2024-23113)
 - [groshi/CVE-2024-23113-Private-POC](https://github.com/groshi/CVE-2024-23113-Private-POC)
-- [zgimszhd61/CVE-2024-23113](https://github.com/zgimszhd61/CVE-2024-23113)
 - [puckiestyle/CVE-2024-23113](https://github.com/puckiestyle/CVE-2024-23113)
-
-### CVE-2024-23116 (2024-04-01)
-
-<code>Centreon updateLCARelation SQL Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Centreon. Authentication is required to exploit this vulnerability.\n\nThe specific flaw exists within the updateLCARelation function. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of the service account. Was ZDI-CAN-22296.
-</code>
-
-- [zgimszhd61/CVE-2024-23116](https://github.com/zgimszhd61/CVE-2024-23116)
-
-### CVE-2024-23117 (2024-04-01)
-
-<code>Centreon updateContactServiceCommands SQL Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Centreon. Authentication is required to exploit this vulnerability.\n\nThe specific flaw exists within the updateContactServiceCommands function. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of the service account. Was ZDI-CAN-22297.
-</code>
-
-- [zgimszhd61/CVE-2024-23117](https://github.com/zgimszhd61/CVE-2024-23117)
-
-### CVE-2024-23118 (2024-04-01)
-
-<code>Centreon updateContactHostCommands SQL Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Centreon. Authentication is required to exploit this vulnerability.\n\nThe specific flaw exists within the updateContactHostCommands function. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of the service account. Was ZDI-CAN-22298.
-</code>
-
-- [zgimszhd61/CVE-2024-23118](https://github.com/zgimszhd61/CVE-2024-23118)
 
 ### CVE-2024-23208 (2024-01-23)
 
@@ -2602,7 +2569,6 @@
 - [BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety](https://github.com/BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety)
 - [ShieldAuth-PHP/PBL05-CVE-Analsys](https://github.com/ShieldAuth-PHP/PBL05-CVE-Analsys)
 - [verylazytech/CVE-2024-23897](https://github.com/verylazytech/CVE-2024-23897)
-- [zgimszhd61/CVE-2024-23897-poc](https://github.com/zgimszhd61/CVE-2024-23897-poc)
 
 ### CVE-2024-23995 (2024-04-29)
 
@@ -3775,13 +3741,6 @@
 
 - [absholi7ly/Microsoft-Edge-Information-Disclosure](https://github.com/absholi7ly/Microsoft-Edge-Information-Disclosure)
 
-### CVE-2024-30078 (2024-06-11)
-
-<code>Windows Wi-Fi Driver Remote Code Execution Vulnerability
-</code>
-
-- [zgimszhd61/CVE-2024-30078-POC_WIFI](https://github.com/zgimszhd61/CVE-2024-30078-POC_WIFI)
-
 ### CVE-2024-30088 (2024-06-11)
 
 <code>Windows Kernel Elevation of Privilege Vulnerability
@@ -4600,7 +4559,6 @@
 - [Niuwoo/CVE-2024-36401](https://github.com/Niuwoo/CVE-2024-36401)
 - [RevoltSecurities/CVE-2024-36401](https://github.com/RevoltSecurities/CVE-2024-36401)
 - [Mr-xn/CVE-2024-36401](https://github.com/Mr-xn/CVE-2024-36401)
-- [zgimszhd61/CVE-2024-36401](https://github.com/zgimszhd61/CVE-2024-36401)
 - [jakabakos/CVE-2024-36401-GeoServer-RCE](https://github.com/jakabakos/CVE-2024-36401-GeoServer-RCE)
 - [ahisec/geoserver-](https://github.com/ahisec/geoserver-)
 - [Chocapikk/CVE-2024-36401](https://github.com/Chocapikk/CVE-2024-36401)
@@ -5510,7 +5468,6 @@
 - [gbrsh/CVE-2024-44000](https://github.com/gbrsh/CVE-2024-44000)
 - [ifqygazhar/CVE-2024-44000-LiteSpeed-Cache](https://github.com/ifqygazhar/CVE-2024-44000-LiteSpeed-Cache)
 - [geniuszlyy/CVE-2024-44000](https://github.com/geniuszlyy/CVE-2024-44000)
-- [zgimszhd61/CVE-2024-44000](https://github.com/zgimszhd61/CVE-2024-44000)
 
 ### CVE-2024-44083 (2024-08-19)
 
@@ -5767,14 +5724,13 @@
 - [HazeLook/CVE-2024-47575](https://github.com/HazeLook/CVE-2024-47575)
 - [hazesecurity/CVE-2024-47575](https://github.com/hazesecurity/CVE-2024-47575)
 - [groshi/CVE-2024-47575-POC](https://github.com/groshi/CVE-2024-47575-POC)
-- [zgimszhd61/CVE-2024-47575-POC](https://github.com/zgimszhd61/CVE-2024-47575-POC)
 - [krmxd/CVE-2024-47575](https://github.com/krmxd/CVE-2024-47575)
 
 ### CVE-2024-47854
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
 
-### CVE-2024-48063
-- [zgimszhd61/CVE-2024-48063-poc](https://github.com/zgimszhd61/CVE-2024-48063-poc)
+### CVE-2024-48208
+- [rohilchaudhry/CVE-2024-48208](https://github.com/rohilchaudhry/CVE-2024-48208)
 
 ### CVE-2024-48217
 - [ajrielrm/CVE-2024-48217](https://github.com/ajrielrm/CVE-2024-48217)
@@ -5827,6 +5783,9 @@
 
 ### CVE-2024-49328
 - [RandomRobbieBF/CVE-2024-49328](https://github.com/RandomRobbieBF/CVE-2024-49328)
+
+### CVE-2024-50340
+- [Nyamort/CVE-2024-50340](https://github.com/Nyamort/CVE-2024-50340)
 
 ### CVE-2024-50475
 - [RandomRobbieBF/CVE-2024-50475](https://github.com/RandomRobbieBF/CVE-2024-50475)
@@ -6342,6 +6301,7 @@
 
 - [ysanatomic/io_uring_LPE-CVE-2023-2598](https://github.com/ysanatomic/io_uring_LPE-CVE-2023-2598)
 - [cainiao159357/CVE-2023-2598](https://github.com/cainiao159357/CVE-2023-2598)
+- [LLfam/CVE-2023-2598](https://github.com/LLfam/CVE-2023-2598)
 
 ### CVE-2023-2636 (2023-07-17)
 
@@ -8012,7 +7972,6 @@
 - [C1ph3rX13/CVE-2023-22518](https://github.com/C1ph3rX13/CVE-2023-22518)
 - [bibo318/CVE-2023-22518](https://github.com/bibo318/CVE-2023-22518)
 - [Lilly-dox/Exploit-CVE-2023-22518](https://github.com/Lilly-dox/Exploit-CVE-2023-22518)
-- [zgimszhd61/CVE-2023-22518](https://github.com/zgimszhd61/CVE-2023-22518)
 
 ### CVE-2023-22524 (2023-12-06)
 
@@ -13125,7 +13084,6 @@
 - [rainbowhatrkn/CVE-2023-46747-RCE](https://github.com/rainbowhatrkn/CVE-2023-46747-RCE)
 - [AMELYA13/CVE-2023-46747-Mass-RCE](https://github.com/AMELYA13/CVE-2023-46747-Mass-RCE)
 - [MacTavish2/CVE-2023-46747-Mass-RCE](https://github.com/MacTavish2/CVE-2023-46747-Mass-RCE)
-- [zgimszhd61/CVE-2023-46747-RCE-poc](https://github.com/zgimszhd61/CVE-2023-46747-RCE-poc)
 
 ### CVE-2023-46805 (2024-01-12)
 
@@ -39343,13 +39301,6 @@
 
 - [payatu/CVE-2018-14442](https://github.com/payatu/CVE-2018-14442)
 - [sharmasandeepkr/PS-2018-002---CVE-2018-14442](https://github.com/sharmasandeepkr/PS-2018-002---CVE-2018-14442)
-
-### CVE-2018-14461 (2019-10-03)
-
-<code>The LDP parser in tcpdump before 4.9.3 has a buffer over-read in print-ldp.c:ldp_tlv_print().
-</code>
-
-- [uthrasri/CVE-2018-14461_tcpdump_AOSP10_R33](https://github.com/uthrasri/CVE-2018-14461_tcpdump_AOSP10_R33)
 
 ### CVE-2018-14463 (2019-10-03)
 
