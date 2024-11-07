@@ -3368,6 +3368,13 @@
 
 - [jprx/CVE-2024-27815](https://github.com/jprx/CVE-2024-27815)
 
+### CVE-2024-27914 (2024-03-18)
+
+<code>GLPI is a Free Asset and IT Management Software package, Data center management, ITIL Service Desk, licenses tracking and software auditing. An unauthenticated user can provide a malicious link to a GLPI administrator in order to exploit a reflected XSS  vulnerability. The XSS will only trigger if the administrator navigates through the debug bar. This issue has been patched in version 10.0.13.\n
+</code>
+
+- [shellkraft/CVE-2024-27914](https://github.com/shellkraft/CVE-2024-27914)
+
 ### CVE-2024-27954 (2024-05-17)
 
 <code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in WP Automatic Automatic allows Path Traversal, Server Side Request Forgery.This issue affects Automatic: from n/a through 3.92.0.
@@ -4332,6 +4339,7 @@
 </code>
 
 - [Voorivex/CVE-2024-34351](https://github.com/Voorivex/CVE-2024-34351)
+- [avergnaud/Next.js_exploit_CVE-2024-34351](https://github.com/avergnaud/Next.js_exploit_CVE-2024-34351)
 - [God4n/nextjs-CVE-2024-34351-_exploit](https://github.com/God4n/nextjs-CVE-2024-34351-_exploit)
 
 ### CVE-2024-34361 (2024-07-05)
@@ -4836,6 +4844,7 @@
 - [becrevex/CVE-2024-38063](https://github.com/becrevex/CVE-2024-38063)
 - [idkwastaken/CVE-2024-38063](https://github.com/idkwastaken/CVE-2024-38063)
 - [thanawee321/CVE-2024-38063](https://github.com/thanawee321/CVE-2024-38063)
+- [AliHj98/cve-2024-38063-Anonyvader](https://github.com/AliHj98/cve-2024-38063-Anonyvader)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -11941,6 +11950,13 @@
 </code>
 
 - [tristao-marinho/CVE-2023-41646](https://github.com/tristao-marinho/CVE-2023-41646)
+
+### CVE-2023-41652 (2023-11-03)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in David F. Carr RSVPMaker rsvpmaker allows SQL Injection.This issue affects RSVPMaker: from n/a through 10.6.6.\n\n
+</code>
+
+- [RandomRobbieBF/CVE-2023-41652](https://github.com/RandomRobbieBF/CVE-2023-41652)
 
 ### CVE-2023-41717 (2023-08-31)
 
