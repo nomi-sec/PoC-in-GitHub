@@ -1973,6 +1973,13 @@
 - [imnotcha0s/CVE-2024-10914](https://github.com/imnotcha0s/CVE-2024-10914)
 - [verylazytech/CVE-2024-10914](https://github.com/verylazytech/CVE-2024-10914)
 
+### CVE-2024-10958 (2024-11-10)
+
+<code>The The WP Photo Album Plus plugin for WordPress is vulnerable to arbitrary shortcode execution via getshortcodedrenderedfenodelay AJAX action in all versions up to, and including, 8.8.08.007 . This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.
+</code>
+
+- [reinh3rz/CVE-2024-10958-WPPA-Exploit](https://github.com/reinh3rz/CVE-2024-10958-WPPA-Exploit)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -5462,6 +5469,9 @@
 
 - [SpiralBL0CK/CVE-2024-40431-CVE-2022-25479-EOP-CHAIN](https://github.com/SpiralBL0CK/CVE-2024-40431-CVE-2022-25479-EOP-CHAIN)
 
+### CVE-2024-40443
+- [Yuma-Tsushima07/CVE-2024-40443](https://github.com/Yuma-Tsushima07/CVE-2024-40443)
+
 ### CVE-2024-40457 (2024-09-12)
 
 <code>No-IP Dynamic Update Client (DUC) v3.x uses cleartext credentials that may occur on a command line or in a file. NOTE: the vendor's position is that cleartext in /etc/default/noip-duc is recommended and is the intentional behavior.
@@ -7403,6 +7413,7 @@
 - [bueno-armando/CVE-2023-4220-RCE](https://github.com/bueno-armando/CVE-2023-4220-RCE)
 - [TanveerS1ngh/Chamilo-LMS-CVE-2023-4220-Exploit](https://github.com/TanveerS1ngh/Chamilo-LMS-CVE-2023-4220-Exploit)
 - [H4cking4All/CVE-2023-4220](https://github.com/H4cking4All/CVE-2023-4220)
+- [oxapavan/CVE-2023-4220-HTB-PermX](https://github.com/oxapavan/CVE-2023-4220-HTB-PermX)
 
 ### CVE-2023-4226 (2023-11-28)
 
@@ -27745,7 +27756,6 @@
 - [4jfinder/4jfinder.github.io](https://github.com/4jfinder/4jfinder.github.io)
 - [alexpena5635/CVE-2021-44228_scanner-main-Modified-](https://github.com/alexpena5635/CVE-2021-44228_scanner-main-Modified-)
 - [ChandanShastri/Log4j_Vulnerability_Demo](https://github.com/ChandanShastri/Log4j_Vulnerability_Demo)
-- [puzzlepeaches/Log4jHorizon](https://github.com/puzzlepeaches/Log4jHorizon)
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
@@ -27811,6 +27821,7 @@
 - [OtisSymbos/CVE-2021-44228-Log4Shell-](https://github.com/OtisSymbos/CVE-2021-44228-Log4Shell-)
 - [safeer-accuknox/log4j-shell-poc](https://github.com/safeer-accuknox/log4j-shell-poc)
 - [Carlos-Mesquita/TPASLog4ShellPoC](https://github.com/Carlos-Mesquita/TPASLog4ShellPoC)
+- [AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-](https://github.com/AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -44972,6 +44983,7 @@
 - [cved-sources/cve-2015-1427](https://github.com/cved-sources/cve-2015-1427)
 - [cyberharsh/Groovy-scripting-engine-CVE-2015-1427](https://github.com/cyberharsh/Groovy-scripting-engine-CVE-2015-1427)
 - [xpgdgit/CVE-2015-1427](https://github.com/xpgdgit/CVE-2015-1427)
+- [Sebikea/CVE-2015-1427-for-trixie](https://github.com/Sebikea/CVE-2015-1427-for-trixie)
 
 ### CVE-2015-1474 (2015-02-16)
 
