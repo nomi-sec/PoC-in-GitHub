@@ -564,6 +564,13 @@
 - [PumpkinBridge/Chrome-CVE-2024-2887-RCE-POC](https://github.com/PumpkinBridge/Chrome-CVE-2024-2887-RCE-POC)
 - [rycbar77/CVE-2024-2887](https://github.com/rycbar77/CVE-2024-2887)
 
+### CVE-2024-2928 (2024-06-06)
+
+<code>A Local File Inclusion (LFI) vulnerability was identified in mlflow/mlflow, specifically in version 2.9.2, which was fixed in version 2.11.3. This vulnerability arises from the application's failure to properly validate URI fragments for directory traversal sequences such as '../'. An attacker can exploit this flaw by manipulating the fragment part of the URI to read arbitrary files on the local file system, including sensitive files like '/etc/passwd'. The vulnerability is a bypass to a previous patch that only addressed similar manipulation within the URI's query string, highlighting the need for comprehensive validation of all parts of a URI to prevent LFI attacks.
+</code>
+
+- [nuridincersaygili/CVE-2024-2928](https://github.com/nuridincersaygili/CVE-2024-2928)
+
 ### CVE-2024-2961 (2024-04-17)
 
 <code>The iconv() function in the GNU C Library versions 2.39 and older may overflow the output buffer passed to it by up to 4 bytes when converting strings to the ISO-2022-CN-EXT character set, which may be used to crash an application or overwrite a neighbouring variable.\n
@@ -1713,6 +1720,9 @@
 ### CVE-2024-9821
 - [RandomRobbieBF/CVE-2024-9821](https://github.com/RandomRobbieBF/CVE-2024-9821)
 
+### CVE-2024-9890
+- [RandomRobbieBF/CVE-2024-9890](https://github.com/RandomRobbieBF/CVE-2024-9890)
+
 ### CVE-2024-9926
 - [m3ssap0/wordpress-jetpack-broken-access-control-vulnerable-application](https://github.com/m3ssap0/wordpress-jetpack-broken-access-control-vulnerable-application)
 - [m3ssap0/wordpress-jetpack-broken-access-control-exploit](https://github.com/m3ssap0/wordpress-jetpack-broken-access-control-exploit)
@@ -1729,6 +1739,9 @@
 
 ### CVE-2024-9955
 - [amfg145/CVE-2024-9955-POC](https://github.com/amfg145/CVE-2024-9955-POC)
+
+### CVE-2024-10008
+- [RandomRobbieBF/CVE-2024-10008](https://github.com/RandomRobbieBF/CVE-2024-10008)
 
 ### CVE-2024-10140
 - [holypryx/CVE-2024-10140](https://github.com/holypryx/CVE-2024-10140)
@@ -1748,6 +1761,9 @@
 ### CVE-2024-10449
 - [g-u-i-d/CVE-2024-10449-patch](https://github.com/g-u-i-d/CVE-2024-10449-patch)
 
+### CVE-2024-10470
+- [RandomRobbieBF/CVE-2024-10470](https://github.com/RandomRobbieBF/CVE-2024-10470)
+
 ### CVE-2024-10557
 - [bevennyamande/CVE-2024-10557](https://github.com/bevennyamande/CVE-2024-10557)
 
@@ -1756,6 +1772,9 @@
 
 ### CVE-2024-10654
 - [c0nyy/IoT_vuln](https://github.com/c0nyy/IoT_vuln)
+
+### CVE-2024-10914
+- [imnotcha0s/CVE-2024-10914](https://github.com/imnotcha0s/CVE-2024-10914)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2002,6 +2021,7 @@
 - [KubernetesBachelor/CVE-2024-21626](https://github.com/KubernetesBachelor/CVE-2024-21626)
 - [dorser/cve-2024-21626](https://github.com/dorser/cve-2024-21626)
 - [FlojBoj/CVE-2024-21626](https://github.com/FlojBoj/CVE-2024-21626)
+- [Sk3pper/CVE-2024-21626-old-docker-versions](https://github.com/Sk3pper/CVE-2024-21626-old-docker-versions)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -2376,6 +2396,8 @@
 - [binaryninja/CVE-2024-23334](https://github.com/binaryninja/CVE-2024-23334)
 - [s4botai/CVE-2024-23334-PoC](https://github.com/s4botai/CVE-2024-23334-PoC)
 - [wizarddos/CVE-2024-23334](https://github.com/wizarddos/CVE-2024-23334)
+- [Pylonet/CVE-2024-23334](https://github.com/Pylonet/CVE-2024-23334)
+- [Arc4he/CVE-2024-23334-PoC](https://github.com/Arc4he/CVE-2024-23334-PoC)
 
 ### CVE-2024-23339 (2024-01-22)
 
@@ -5752,6 +5774,9 @@
 ### CVE-2024-48217
 - [ajrielrm/CVE-2024-48217](https://github.com/ajrielrm/CVE-2024-48217)
 
+### CVE-2024-48322
+- [trqt/CVE-2024-48322](https://github.com/trqt/CVE-2024-48322)
+
 ### CVE-2024-48325
 - [osvaldotenorio/cve-2024-48325](https://github.com/osvaldotenorio/cve-2024-48325)
 
@@ -5801,14 +5826,29 @@
 ### CVE-2024-49328
 - [RandomRobbieBF/CVE-2024-49328](https://github.com/RandomRobbieBF/CVE-2024-49328)
 
+### CVE-2024-49681
+- [RandomRobbieBF/CVE-2024-49681](https://github.com/RandomRobbieBF/CVE-2024-49681)
+
 ### CVE-2024-50340
 - [Nyamort/CVE-2024-50340](https://github.com/Nyamort/CVE-2024-50340)
+
+### CVE-2024-50427
+- [RandomRobbieBF/CVE-2024-50427](https://github.com/RandomRobbieBF/CVE-2024-50427)
+
+### CVE-2024-50450
+- [RandomRobbieBF/CVE-2024-50450](https://github.com/RandomRobbieBF/CVE-2024-50450)
+
+### CVE-2024-50473
+- [RandomRobbieBF/CVE-2024-50473](https://github.com/RandomRobbieBF/CVE-2024-50473)
 
 ### CVE-2024-50475
 - [RandomRobbieBF/CVE-2024-50475](https://github.com/RandomRobbieBF/CVE-2024-50475)
 
 ### CVE-2024-50476
 - [RandomRobbieBF/CVE-2024-50476](https://github.com/RandomRobbieBF/CVE-2024-50476)
+
+### CVE-2024-50477
+- [RandomRobbieBF/CVE-2024-50477](https://github.com/RandomRobbieBF/CVE-2024-50477)
 
 ### CVE-2024-50478
 - [RandomRobbieBF/CVE-2024-50478](https://github.com/RandomRobbieBF/CVE-2024-50478)
@@ -5821,6 +5861,9 @@
 
 ### CVE-2024-50485
 - [RandomRobbieBF/CVE-2024-50485](https://github.com/RandomRobbieBF/CVE-2024-50485)
+
+### CVE-2024-50488
+- [RandomRobbieBF/CVE-2024-50488](https://github.com/RandomRobbieBF/CVE-2024-50488)
 
 ### CVE-2024-50490
 - [RandomRobbieBF/CVE-2024-50490](https://github.com/RandomRobbieBF/CVE-2024-50490)
@@ -5843,8 +5886,14 @@
 ### CVE-2024-51132
 - [JAckLosingHeart/CVE-2024-51132-POC](https://github.com/JAckLosingHeart/CVE-2024-51132-POC)
 
+### CVE-2024-51135
+- [JAckLosingHeart/CVE-2024-51135](https://github.com/JAckLosingHeart/CVE-2024-51135)
+
 ### CVE-2024-51136
 - [JAckLosingHeart/CVE-2024-51136-POC](https://github.com/JAckLosingHeart/CVE-2024-51136-POC)
+
+### CVE-2024-51179
+- [Lakshmirnr/CVE-2024-51179](https://github.com/Lakshmirnr/CVE-2024-51179)
 
 ### CVE-2024-51358
 - [Kov404/CVE-2024-51358](https://github.com/Kov404/CVE-2024-51358)
@@ -6714,7 +6763,7 @@
 - [charchit-subedi/chamilo-lms-unauthenticated-rce-poc](https://github.com/charchit-subedi/chamilo-lms-unauthenticated-rce-poc)
 - [LGenAgul/CVE-2023-4220-Proof-of-concept](https://github.com/LGenAgul/CVE-2023-4220-Proof-of-concept)
 - [VanishedPeople/CVE-2023-4220](https://github.com/VanishedPeople/CVE-2023-4220)
-- [thefizzyfish/CVE-2023-4220](https://github.com/thefizzyfish/CVE-2023-4220)
+- [thefizzyfish/CVE-2023-4220_Chamilo_RCE](https://github.com/thefizzyfish/CVE-2023-4220_Chamilo_RCE)
 - [qrxnz/CVE-2023-4220](https://github.com/qrxnz/CVE-2023-4220)
 - [0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit](https://github.com/0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit)
 - [bueno-armando/CVE-2023-4220-RCE](https://github.com/bueno-armando/CVE-2023-4220-RCE)
@@ -8586,6 +8635,7 @@
 - [White-BAO/CVE-2023-25813](https://github.com/White-BAO/CVE-2023-25813)
 - [pbj2647/CVE-2023-25813](https://github.com/pbj2647/CVE-2023-25813)
 - [wxuycea/CVE-2023-25813](https://github.com/wxuycea/CVE-2023-25813)
+- [sea-middle/cve-2023-25813](https://github.com/sea-middle/cve-2023-25813)
 
 ### CVE-2023-25950 (2023-04-11)
 
@@ -12017,6 +12067,7 @@
 </code>
 
 - [kirinse/cve-2023-42115](https://github.com/kirinse/cve-2023-42115)
+- [AdaHop-Cyber-Security/Pocy](https://github.com/AdaHop-Cyber-Security/Pocy)
 
 ### CVE-2023-42222 (2023-09-28)
 
@@ -14506,6 +14557,7 @@
 - [0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944](https://github.com/0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944)
 - [Robocopsita/CVE-2022-0944_RCE_POC](https://github.com/Robocopsita/CVE-2022-0944_RCE_POC)
 - [toneillcodes/CVE-2022-0944](https://github.com/toneillcodes/CVE-2022-0944)
+- [LipeOzyy/SQLPad-RCE-Exploit-CVE-2022-0944](https://github.com/LipeOzyy/SQLPad-RCE-Exploit-CVE-2022-0944)
 - [TanveerS1ngh/SQLPad-6.10.0-Exploit-CVE-2022-0944](https://github.com/TanveerS1ngh/SQLPad-6.10.0-Exploit-CVE-2022-0944)
 
 ### CVE-2022-0952 (2022-05-02)
@@ -19700,6 +19752,7 @@
 - [o0MattE0o/CVE-2022-41099-Fix](https://github.com/o0MattE0o/CVE-2022-41099-Fix)
 - [g-gill24/WinRE-Patch](https://github.com/g-gill24/WinRE-Patch)
 - [dsn1321/KB5025175-CVE-2022-41099](https://github.com/dsn1321/KB5025175-CVE-2022-41099)
+- [rhett-hislop/PatchWinRE](https://github.com/rhett-hislop/PatchWinRE)
 
 ### CVE-2022-41114 (2022-11-09)
 
@@ -22324,6 +22377,7 @@
 - [orangmuda/CVE-2021-20837](https://github.com/orangmuda/CVE-2021-20837)
 - [Cosemz/CVE-2021-20837](https://github.com/Cosemz/CVE-2021-20837)
 - [bb33bb/CVE-2021-20837](https://github.com/bb33bb/CVE-2021-20837)
+- [lamcodeofpwnosec/CVE-2021-20837](https://github.com/lamcodeofpwnosec/CVE-2021-20837)
 
 ### CVE-2021-21014 (2021-02-11)
 
@@ -22474,6 +22528,13 @@
 
 - [HoangKien1020/CVE-2021-21389](https://github.com/HoangKien1020/CVE-2021-21389)
 
+### CVE-2021-21401 (2021-03-23)
+
+<code>Nanopb is a small code-size Protocol Buffers implementation in ansi C. In Nanopb before versions 0.3.9.8 and 0.4.5, decoding a specifically formed message can cause invalid `free()` or `realloc()` calls if the message type contains an `oneof` field, and the `oneof` directly contains both a pointer field and a non-pointer field. If the message data first contains the non-pointer field and then the pointer field, the data of the non-pointer field is incorrectly treated as if it was a pointer value. Such message data rarely occurs in normal messages, but it is a concern when untrusted data is parsed. This has been fixed in versions 0.3.9.8 and 0.4.5. See referenced GitHub Security Advisory for more information including workarounds.
+</code>
+
+- [uthrasri/CVE-2021-21401_nanopb-c_AOSP10_R33](https://github.com/uthrasri/CVE-2021-21401_nanopb-c_AOSP10_R33)
+
 ### CVE-2021-21402 (2021-03-23)
 
 <code>Jellyfin is a Free Software Media System. In Jellyfin before version 10.7.1, with certain endpoints, well crafted requests will allow arbitrary file read from a Jellyfin server's file system. This issue is more prevalent when Windows is used as the host OS. Servers that are exposed to the public Internet are potentially at risk. This is fixed in version 10.7.1. As a workaround, users may be able to restrict some access by enforcing strict security permissions on their filesystem, however, it is recommended to update as soon as possible.
@@ -22540,7 +22601,6 @@
 - [L-pin/CVE-2021-21972](https://github.com/L-pin/CVE-2021-21972)
 - [B1anda0/CVE-2021-21972](https://github.com/B1anda0/CVE-2021-21972)
 - [renini/CVE-2021-21972](https://github.com/renini/CVE-2021-21972)
-- [stevenp322/cve-2021-21972](https://github.com/stevenp322/cve-2021-21972)
 - [GuayoyoCyber/CVE-2021-21972](https://github.com/GuayoyoCyber/CVE-2021-21972)
 - [JMousqueton/Detect-CVE-2021-21972](https://github.com/JMousqueton/Detect-CVE-2021-21972)
 - [robwillisinfo/VMware_vCenter_CVE-2021-21972](https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972)
@@ -25706,7 +25766,6 @@
 - [Vulnmachines/Metabase_CVE-2021-41277](https://github.com/Vulnmachines/Metabase_CVE-2021-41277)
 - [TheLastVvV/CVE-2021-41277](https://github.com/TheLastVvV/CVE-2021-41277)
 - [zer0yu/CVE-2021-41277](https://github.com/zer0yu/CVE-2021-41277)
-- [sasukeourad/CVE-2021-41277_SSRF](https://github.com/sasukeourad/CVE-2021-41277_SSRF)
 - [frknktlca/Metabase_Nmap_Script](https://github.com/frknktlca/Metabase_Nmap_Script)
 - [chengling-ing/CVE-2021-41277](https://github.com/chengling-ing/CVE-2021-41277)
 - [RubXkuB/PoC-Metabase-CVE-2021-41277](https://github.com/RubXkuB/PoC-Metabase-CVE-2021-41277)
@@ -27031,7 +27090,6 @@
 - [puzzlepeaches/Log4jHorizon](https://github.com/puzzlepeaches/Log4jHorizon)
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
-- [nix-xin/vuln4japi](https://github.com/nix-xin/vuln4japi)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
@@ -28862,7 +28920,6 @@
 
 - [HynekPetrak/CVE-2019-5544_CVE-2020-3992](https://github.com/HynekPetrak/CVE-2019-5544_CVE-2020-3992)
 - [dgh05t/VMware_ESXI_OpenSLP_PoCs](https://github.com/dgh05t/VMware_ESXI_OpenSLP_PoCs)
-- [vpxuser/VMware-ESXI-OpenSLP-Exploit](https://github.com/vpxuser/VMware-ESXI-OpenSLP-Exploit)
 
 ### CVE-2020-4040 (2020-06-08)
 
@@ -28899,13 +28956,6 @@
 </code>
 
 - [copethomas/datapower-redis-rce-exploit](https://github.com/copethomas/datapower-redis-rce-exploit)
-
-### CVE-2020-5235 (2020-02-04)
-
-<code>There is a potentially exploitable out of memory condition In Nanopb before 0.4.1, 0.3.9.5, and 0.2.9.4. When nanopb is compiled with PB_ENABLE_MALLOC, the message to be decoded contains a repeated string, bytes or message field and realloc() runs out of memory when expanding the array nanopb can end up calling `free()` on a pointer value that comes from uninitialized memory. Depending on platform this can result in a crash or further memory corruption, which may be exploitable in some cases. This problem is fixed in nanopb-0.4.1, nanopb-0.3.9.5, nanopb-0.2.9.4.
-</code>
-
-- [uthrasri/CVE-2020-5235_nanopb-c_AOSP10_R33](https://github.com/uthrasri/CVE-2020-5235_nanopb-c_AOSP10_R33)
 
 ### CVE-2020-5236 (2020-02-04)
 
@@ -33883,7 +33933,6 @@
 
 - [HynekPetrak/CVE-2019-5544_CVE-2020-3992](https://github.com/HynekPetrak/CVE-2019-5544_CVE-2020-3992)
 - [dgh05t/VMware_ESXI_OpenSLP_PoCs](https://github.com/dgh05t/VMware_ESXI_OpenSLP_PoCs)
-- [vpxuser/VMware-ESXI-OpenSLP-Exploit](https://github.com/vpxuser/VMware-ESXI-OpenSLP-Exploit)
 
 ### CVE-2019-5596 (2019-02-12)
 
@@ -35212,6 +35261,13 @@
 </code>
 
 - [jas502n/CVE-2019-12409](https://github.com/jas502n/CVE-2019-12409)
+
+### CVE-2019-12422 (2019-11-18)
+
+<code>Apache Shiro before 1.4.2, when using the default &quot;remember me&quot; configuration, cookies could be susceptible to a padding attack.
+</code>
+
+- [BaiHLiu/RuoYI-4.2-Shiro-721-Docker-PoC](https://github.com/BaiHLiu/RuoYI-4.2-Shiro-721-Docker-PoC)
 
 ### CVE-2019-12453 (2019-07-19)
 
@@ -39652,6 +39708,13 @@
 </code>
 
 - [RHYru9/CVE-2018-16431](https://github.com/RHYru9/CVE-2018-16431)
+
+### CVE-2018-16452 (2019-10-03)
+
+<code>The SMB parser in tcpdump before 4.9.3 has stack exhaustion in smbutil.c:smb_fdata() via recursion.
+</code>
+
+- [uthrasri/CVE-2018-16452_tcpdump_AOSP10_R33](https://github.com/uthrasri/CVE-2018-16452_tcpdump_AOSP10_R33)
 
 ### CVE-2018-16492 (2019-02-01)
 
