@@ -1888,13 +1888,6 @@
 
 - [amfg145/CVE-2024-9955-POC](https://github.com/amfg145/CVE-2024-9955-POC)
 
-### CVE-2024-10008 (2024-10-29)
-
-<code>The Masteriyo LMS – eLearning and Online Course Builder for WordPress plugin for WordPress is vulnerable to unauthorized user profile modification due to missing authorization checks on the /wp-json/masteriyo/v1/users/$id REST API endpoint in all versions up to, and including, 1.13.3. This makes it possible for authenticated attackers, with student-level access and above, to modify the roles of arbitrary users. As a result, attackers can escalate their privileges to the Administrator and demote existing administrators to students.
-</code>
-
-- [RandomRobbieBF/CVE-2024-10008](https://github.com/RandomRobbieBF/CVE-2024-10008)
-
 ### CVE-2024-10140 (2024-10-19)
 
 <code>Eine kritische Schwachstelle wurde in code-projects Pharmacy Management System 1.0 entdeckt. Betroffen davon ist ein unbekannter Prozess der Datei /manage_supplier.php. Durch Beeinflussen des Arguments id mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -1951,6 +1944,13 @@
 
 - [bevennyamande/CVE-2024-10557](https://github.com/bevennyamande/CVE-2024-10557)
 
+### CVE-2024-10586 (2024-11-09)
+
+<code>The Debug Tool plugin for WordPress is vulnerable to arbitrary file creation due to a missing capability check on the dbt_pull_image() function and missing file type validation in all versions up to, and including, 2.2. This makes it possible for unauthenticated attackers to to create arbitrary files such as .php files that can be leveraged for remote code execution.
+</code>
+
+- [RandomRobbieBF/CVE-2024-10586](https://github.com/RandomRobbieBF/CVE-2024-10586)
+
 ### CVE-2024-10605 (2024-10-31)
 
 <code>Es wurde eine Schwachstelle in code-projects Blood Bank Management System 1.0 ausgemacht. Sie wurde als problematisch eingestuft. Es betrifft eine unbekannte Funktion der Datei /file/request.php. Durch die Manipulation mit unbekannten Daten kann eine cross-site request forgery-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -1971,6 +1971,7 @@
 </code>
 
 - [imnotcha0s/CVE-2024-10914](https://github.com/imnotcha0s/CVE-2024-10914)
+- [verylazytech/CVE-2024-10914](https://github.com/verylazytech/CVE-2024-10914)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -6345,6 +6346,13 @@
 
 - [RandomRobbieBF/CVE-2024-49681](https://github.com/RandomRobbieBF/CVE-2024-49681)
 
+### CVE-2024-50335 (2024-11-05)
+
+<code>SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. The &quot;Publish Key&quot; field in SuiteCRM's Edit Profile page is vulnerable to Reflected Cross-Site Scripting (XSS), allowing an attacker to inject malicious JavaScript code. This can be exploited to steal CSRF tokens and perform unauthorized actions, such as creating new administrative users without proper authentication. The vulnerability arises due to insufficient input validation and sanitization of the Publish Key field within the SuiteCRM application. When an attacker injects a malicious script, it gets executed within the context of an authenticated user's session. The injected script (o.js) then leverages the captured CSRF token to forge requests that create new administrative users, effectively compromising the integrity and security of the CRM instance. This issue has been addressed in versions 7.14.6 and 8.7.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [shellkraft/CVE-2024-50335](https://github.com/shellkraft/CVE-2024-50335)
+
 ### CVE-2024-50340 (2024-11-06)
 
 <code>symfony/runtime is a module for the Symphony PHP framework which enables decoupling PHP applications from global state. When the `register_argv_argc` php directive is set to `on` , and users call any URL with a special crafted query string, they are able to change the environment or debug mode used by the kernel when handling the request. As of versions 5.4.46, 6.4.14, and 7.1.7 the `SymfonyRuntime` now ignores the `argv` values for non-SAPI PHP runtimes. All users are advised to upgrade. There are no known workarounds for this vulnerability.
@@ -6436,6 +6444,13 @@
 
 - [RandomRobbieBF/CVE-2024-50490](https://github.com/RandomRobbieBF/CVE-2024-50490)
 
+### CVE-2024-50493 (2024-10-29)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in masterhomepage Automatic Translation allows Upload a Web Shell to a Web Server.This issue affects Automatic Translation: from n/a through 1.0.4.
+</code>
+
+- [RandomRobbieBF/CVE-2024-50493](https://github.com/RandomRobbieBF/CVE-2024-50493)
+
 ### CVE-2024-50498 (2024-10-28)
 
 <code>Improper Control of Generation of Code ('Code Injection') vulnerability in LUBUS WP Query Console allows Code Injection.This issue affects WP Query Console: from n/a through 1.0.
@@ -6522,6 +6537,13 @@
 
 - [ajayalf/CVE-2024-51567](https://github.com/ajayalf/CVE-2024-51567)
 - [thehash007/CVE-2024-51567-RCE-EXPLOIT](https://github.com/thehash007/CVE-2024-51567-RCE-EXPLOIT)
+
+### CVE-2024-51665 (2024-11-04)
+
+<code>Server-Side Request Forgery (SSRF) vulnerability in Noor alam Magical Addons For Elementor allows Server Side Request Forgery.This issue affects Magical Addons For Elementor: from n/a through 1.2.1.
+</code>
+
+- [RandomRobbieBF/CVE-2024-51665](https://github.com/RandomRobbieBF/CVE-2024-51665)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
