@@ -1063,13 +1063,6 @@
 - [truonghuuphuc/CVE-2024-4898-Poc](https://github.com/truonghuuphuc/CVE-2024-4898-Poc)
 - [cve-2024/CVE-2024-4898-Poc](https://github.com/cve-2024/CVE-2024-4898-Poc)
 
-### CVE-2024-4947 (2024-05-15)
-
-<code>Type Confusion in V8 in Google Chrome prior to 125.0.6422.60 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)
-</code>
-
-- [uixss/PoC-CVE-2024-4947](https://github.com/uixss/PoC-CVE-2024-4947)
-
 ### CVE-2024-4956 (2024-05-16)
 
 <code>Path Traversal in Sonatype Nexus Repository 3 allows an unauthenticated attacker to read system files. Fixed in version 3.68.1.
@@ -1619,6 +1612,7 @@
 </code>
 
 - [p33d/CVE-2024-8275](https://github.com/p33d/CVE-2024-8275)
+- [whiterose7777/CVE-2024-8275](https://github.com/whiterose7777/CVE-2024-8275)
 
 ### CVE-2024-8277 (2024-09-11)
 
@@ -5186,13 +5180,6 @@
 
 - [Dor00tkit/CVE-2024-38144](https://github.com/Dor00tkit/CVE-2024-38144)
 
-### CVE-2024-38178 (2024-08-13)
-
-<code>Scripting Engine Memory Corruption Vulnerability
-</code>
-
-- [uixss/PoC-CVE-2024-38178](https://github.com/uixss/PoC-CVE-2024-38178)
-
 ### CVE-2024-38189 (2024-08-13)
 
 <code>Microsoft Project Remote Code Execution Vulnerability
@@ -5595,6 +5582,7 @@
 </code>
 
 - [TAM-K592/CVE-2024-40725-CVE-2024-40898](https://github.com/TAM-K592/CVE-2024-40725-CVE-2024-40898)
+- [whiterose7777/CVE-2024-40725-CVE-2024-40898](https://github.com/whiterose7777/CVE-2024-40725-CVE-2024-40898)
 
 ### CVE-2024-40892 (2024-08-12)
 
@@ -6076,6 +6064,7 @@
 
 - [p33d/CVE-2024-45519](https://github.com/p33d/CVE-2024-45519)
 - [Chocapikk/CVE-2024-45519](https://github.com/Chocapikk/CVE-2024-45519)
+- [whiterose7777/CVE-2024-45519](https://github.com/whiterose7777/CVE-2024-45519)
 
 ### CVE-2024-45589 (2024-09-05)
 
@@ -13304,6 +13293,13 @@
 - [sigridou/CVE-2023-44487-](https://github.com/sigridou/CVE-2023-44487-)
 - [TYuan0816/cve-2023-44487](https://github.com/TYuan0816/cve-2023-44487)
 - [sn130hk/CVE-2023-44487](https://github.com/sn130hk/CVE-2023-44487)
+
+### CVE-2023-44488 (2023-09-30)
+
+<code>VP9 in libvpx before 1.13.1 mishandles widths, leading to a crash related to encoding.
+</code>
+
+- [uthrasri/CVE-2023-44488-_libvpx_1.8.0](https://github.com/uthrasri/CVE-2023-44488-_libvpx_1.8.0)
 
 ### CVE-2023-44758 (2023-10-06)
 
