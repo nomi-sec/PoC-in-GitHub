@@ -6299,6 +6299,13 @@
 
 - [RandomRobbieBF/CVE-2024-49681](https://github.com/RandomRobbieBF/CVE-2024-49681)
 
+### CVE-2024-50251 (2024-11-09)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nft_payload: sanitize offset and length before calling skb_checksum()\n\nIf access to offset + length is larger than the skbuff length, then\nskb_checksum() triggers BUG_ON().\n\nskb_checksum() internally subtracts the length parameter while iterating\nover skbuff, BUG_ON(len) at the end of it checks that the expected\nlength to be included in the checksum calculation is fully consumed.
+</code>
+
+- [slavin-ayu/CVE-2024-50251-PoC](https://github.com/slavin-ayu/CVE-2024-50251-PoC)
+
 ### CVE-2024-50335 (2024-11-05)
 
 <code>SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. The &quot;Publish Key&quot; field in SuiteCRM's Edit Profile page is vulnerable to Reflected Cross-Site Scripting (XSS), allowing an attacker to inject malicious JavaScript code. This can be exploited to steal CSRF tokens and perform unauthorized actions, such as creating new administrative users without proper authentication. The vulnerability arises due to insufficient input validation and sanitization of the Publish Key field within the SuiteCRM application. When an attacker injects a malicious script, it gets executed within the context of an authenticated user's session. The injected script (o.js) then leverages the captured CSRF token to forge requests that create new administrative users, effectively compromising the integrity and security of the CRM instance. This issue has been addressed in versions 7.14.6 and 8.7.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.
@@ -6826,6 +6833,13 @@
 
 - [thomas-osgood/cve-2023-1874](https://github.com/thomas-osgood/cve-2023-1874)
 
+### CVE-2023-1999 (2023-06-20)
+
+<code>There exists a use after free/double free in libwebp. An attacker can use the ApplyFiltersAndEncode() function and loop through to free best.bw and assign best = trial pointer. The second loop will then return 0 because of an Out of memory error in VP8 encoder, the pointer is still assigned to trial and the AddressSanitizer will attempt a double free. \n
+</code>
+
+- [Pazhanivelmani/webp_Android10_r33_CVE-2023-1999](https://github.com/Pazhanivelmani/webp_Android10_r33_CVE-2023-1999)
+
 ### CVE-2023-2002 (2023-05-26)
 
 <code>A vulnerability was found in the HCI sockets implementation due to a missing capability check in net/bluetooth/hci_sock.c in the Linux Kernel. This flaw allows an attacker to unauthorized execution of management commands, compromising the confidentiality, integrity, and availability of Bluetooth communication.
@@ -6960,6 +6974,13 @@
 - [ysanatomic/io_uring_LPE-CVE-2023-2598](https://github.com/ysanatomic/io_uring_LPE-CVE-2023-2598)
 - [cainiao159357/CVE-2023-2598](https://github.com/cainiao159357/CVE-2023-2598)
 - [LLfam/CVE-2023-2598](https://github.com/LLfam/CVE-2023-2598)
+
+### CVE-2023-2603 (2023-06-06)
+
+<code>A vulnerability was found in libcap. This issue occurs in the _libcap_strdup() function and can lead to an integer overflow if the input string is close to 4GiB.
+</code>
+
+- [Pazhanivelmani/external_libcap-Android10_r33_CVE-2023-2603](https://github.com/Pazhanivelmani/external_libcap-Android10_r33_CVE-2023-2603)
 
 ### CVE-2023-2636 (2023-07-17)
 
@@ -17730,7 +17751,6 @@
 - [hev0x/CVE-2022-26134](https://github.com/hev0x/CVE-2022-26134)
 - [archanchoudhury/Confluence-CVE-2022-26134](https://github.com/archanchoudhury/Confluence-CVE-2022-26134)
 - [SIFalcon/confluencePot](https://github.com/SIFalcon/confluencePot)
-- [CatAnnaDev/CVE-2022-26134](https://github.com/CatAnnaDev/CVE-2022-26134)
 - [vesperp/CVE-2022-26134-Confluence](https://github.com/vesperp/CVE-2022-26134-Confluence)
 - [li8u99/CVE-2022-26134](https://github.com/li8u99/CVE-2022-26134)
 - [reubensammut/cve-2022-26134](https://github.com/reubensammut/cve-2022-26134)
@@ -32568,6 +32588,13 @@
 
 - [darkvirus-7x/exploit-CVE-2020-24815](https://github.com/darkvirus-7x/exploit-CVE-2020-24815)
 
+### CVE-2020-24881 (2020-11-02)
+
+<code>SSRF exists in osTicket before 1.14.3, where an attacker can add malicious file to server or perform port scanning.
+</code>
+
+- [harshtech123/cve-2020-24881](https://github.com/harshtech123/cve-2020-24881)
+
 ### CVE-2020-24913 (2021-03-04)
 
 <code>A SQL injection vulnerability in qcubed (all versions including 3.1.1) in profile.php via the strQuery parameter allows an unauthenticated attacker to access the database by injecting SQL code via a crafted POST request.
@@ -44333,6 +44360,13 @@
 </code>
 
 - [kavgan/vuln_test_repo_public_ruby_gemfile_cve-2016-6317](https://github.com/kavgan/vuln_test_repo_public_ruby_gemfile_cve-2016-6317)
+
+### CVE-2016-6328 (2018-10-31)
+
+<code>A vulnerability was found in libexif. An integer overflow when parsing the MNOTE entry data of the input file. This can cause Denial-of-Service (DoS) and Information Disclosure (disclosing some critical heap chunk metadata, even other applications' private data).
+</code>
+
+- [Pazhanivelmani/libexif_Android10_r33_CVE-2016-6328](https://github.com/Pazhanivelmani/libexif_Android10_r33_CVE-2016-6328)
 
 ### CVE-2016-6366 (2016-08-18)
 
