@@ -44,7 +44,7 @@
 </code>
 
 - [scs-labrat/android_autorooter](https://github.com/scs-labrat/android_autorooter)
-- [pl4int3xt/cve_2024_0044](https://github.com/pl4int3xt/cve_2024_0044)
+- [pl4int3xt/CVE-2024-0044](https://github.com/pl4int3xt/CVE-2024-0044)
 - [Re13orn/CVE-2024-0044-EXP](https://github.com/Re13orn/CVE-2024-0044-EXP)
 - [007CRIPTOGRAFIA/c-CVE-2024-0044](https://github.com/007CRIPTOGRAFIA/c-CVE-2024-0044)
 - [Kai2er/CVE-2024-0044-EXP](https://github.com/Kai2er/CVE-2024-0044-EXP)
@@ -1929,6 +1929,9 @@
 </code>
 
 - [bevennyamande/CVE-2024-10605](https://github.com/bevennyamande/CVE-2024-10605)
+
+### CVE-2024-10629
+- [RandomRobbieBF/CVE-2024-10629](https://github.com/RandomRobbieBF/CVE-2024-10629)
 
 ### CVE-2024-10654 (2024-11-01)
 
@@ -6417,6 +6420,21 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-50498](https://github.com/RandomRobbieBF/CVE-2024-50498)
+
+### CVE-2024-50968
+- [Akhlak2511/CVE-2024-50968](https://github.com/Akhlak2511/CVE-2024-50968)
+
+### CVE-2024-50969
+- [Akhlak2511/CVE-2024-50969](https://github.com/Akhlak2511/CVE-2024-50969)
+
+### CVE-2024-50970
+- [Akhlak2511/CVE-2024-50970](https://github.com/Akhlak2511/CVE-2024-50970)
+
+### CVE-2024-50971
+- [Akhlak2511/CVE-2024-50971](https://github.com/Akhlak2511/CVE-2024-50971)
+
+### CVE-2024-50972
+- [Akhlak2511/CVE-2024-50972](https://github.com/Akhlak2511/CVE-2024-50972)
 
 ### CVE-2024-51026 (2024-11-11)
 
@@ -16309,6 +16327,7 @@
 - [sealldeveloper/CVE-2022-21661-PoC](https://github.com/sealldeveloper/CVE-2022-21661-PoC)
 - [p4ncontomat3/CVE-2022-21661](https://github.com/p4ncontomat3/CVE-2022-21661)
 - [CharonDefalt/WordPress--CVE-2022-21661](https://github.com/CharonDefalt/WordPress--CVE-2022-21661)
+- [w0r1i0g1ht/CVE-2022-21661](https://github.com/w0r1i0g1ht/CVE-2022-21661)
 
 ### CVE-2022-21668 (2022-01-10)
 
@@ -44946,6 +44965,7 @@
 - [notlikethis/CVE-2015-1328](https://github.com/notlikethis/CVE-2015-1328)
 - [elit3pwner/CVE-2015-1328-GoldenEye](https://github.com/elit3pwner/CVE-2015-1328-GoldenEye)
 - [BlackFrog-hub/cve-2015-1328](https://github.com/BlackFrog-hub/cve-2015-1328)
+- [YastrebX/CVE-2015-1328](https://github.com/YastrebX/CVE-2015-1328)
 
 ### CVE-2015-1397 (2015-04-29)
 
