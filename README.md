@@ -6140,6 +6140,13 @@
 
 - [vidura2/CVE-2024-46986](https://github.com/vidura2/CVE-2024-46986)
 
+### CVE-2024-47062 (2024-09-20)
+
+<code>Navidrome is an open source web-based music collection server and streamer. Navidrome automatically adds parameters in the URL to SQL queries. This can be exploited to access information by adding parameters like `password=...` in the URL (ORM Leak). Furthermore, the names of the parameters are not properly escaped, leading to SQL Injections. Finally, the username is used in a `LIKE` statement, allowing people to log in with `%` instead of their username. When adding parameters to the URL, they are automatically included in an SQL `LIKE` statement (depending on the parameter's name). This allows attackers to potentially retrieve arbitrary information. For example, attackers can use the following request to test whether some encrypted passwords start with `AAA`. This results in an SQL query like `password LIKE 'AAA%'`, allowing attackers to slowly brute-force passwords. When adding parameters to the URL, they are automatically added to an SQL query. The names of the parameters are not properly escaped. This behavior can be used to inject arbitrary SQL code (SQL Injection). These vulnerabilities can be used to leak information and dump the contents of the database and have been addressed in release version 0.53.0. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [saisathvik1/CVE-2024-47062](https://github.com/saisathvik1/CVE-2024-47062)
+
 ### CVE-2024-47066 (2024-09-23)
 
 <code>Lobe Chat is an open-source artificial intelligence chat framework. Prior to version 1.19.13, server-side request forgery protection implemented in `src/app/api/proxy/route.ts` does not consider redirect and could be bypassed when attacker provides an external malicious URL which redirects to internal resources like a private network or loopback address. Version 1.19.13 contains an improved fix for the issue.
@@ -6212,7 +6219,11 @@
 
 - [ajrielrm/CVE-2024-48217](https://github.com/ajrielrm/CVE-2024-48217)
 
-### CVE-2024-48322
+### CVE-2024-48322 (2024-11-11)
+
+<code>UsersController.php in Run.codes 1.5.2 and older has a reset password race condition vulnerability.
+</code>
+
 - [trqt/CVE-2024-48322](https://github.com/trqt/CVE-2024-48322)
 
 ### CVE-2024-48325 (2024-11-06)
@@ -6445,7 +6456,11 @@
 
 - [hatvix1/CVE-2024-50526-Private-POC](https://github.com/hatvix1/CVE-2024-50526-Private-POC)
 
-### CVE-2024-51026
+### CVE-2024-51026 (2024-11-11)
+
+<code>The NetAdmin IAM system (version 4.0.30319) has a Cross Site Scripting (XSS) vulnerability in the /BalloonSave.ashx endpoint, where it is possible to inject a malicious payload into the Content= field.
+</code>
+
 - [BrotherOfJhonny/CVE-2024-51026_Overview](https://github.com/BrotherOfJhonny/CVE-2024-51026_Overview)
 
 ### CVE-2024-51030 (2024-11-08)
@@ -6476,7 +6491,11 @@
 
 - [JAckLosingHeart/CVE-2024-51132-POC](https://github.com/JAckLosingHeart/CVE-2024-51132-POC)
 
-### CVE-2024-51135
+### CVE-2024-51135 (2024-11-11)
+
+<code>An XML External Entity (XXE) vulnerability in the component DocumentBuilderFactory of powertac-server v1.9.0 allows attackers to access sensitive information or execute arbitrary code via supplying a crafted request containing malicious XML entities.
+</code>
+
 - [JAckLosingHeart/CVE-2024-51135](https://github.com/JAckLosingHeart/CVE-2024-51135)
 
 ### CVE-2024-51136 (2024-11-04)
@@ -13646,7 +13665,7 @@
 
 ### CVE-2023-46344 (2024-02-02)
 
-<code>A vulnerability in Solar-Log Base 15 Firmware 6.0.1 Build 161, and possibly other Solar-Log Base products, allows an attacker to escalate their privileges by exploiting a stored cross-site scripting (XSS) vulnerability in the switch group function under /#ilang=DE&amp;b=c_smartenergy_swgroups in the web portal. The vulnerability can be exploited to gain the rights of an installer or PM, which can then be used to gain administrative access to the web portal and execute further attacks. NOTE: The vendor states that this vulnerability has been fixed in version 6.2.0-170.
+<code>A vulnerability in Solar-Log Base 15 Firmware 6.0.1 Build 161, and possibly other Solar-Log Base products, allows an attacker to escalate their privileges by exploiting a stored cross-site scripting (XSS) vulnerability in the switch group function under /#ilang=DE&amp;b=c_smartenergy_swgroups in the web portal. The vulnerability can be exploited to gain the rights of an installer or PM, which can then be used to gain administrative access to the web portal and execute further attacks. NOTE: The vendor states that this vulnerability has been fixed with 3.0.0-60 11.10.2013 for SL 200, 500, 1000 / not existing for SL 250, 300, 1200, 2000, SL 50 Gateway, SL Base.
 </code>
 
 - [vinnie1717/CVE-2023-46344](https://github.com/vinnie1717/CVE-2023-46344)
