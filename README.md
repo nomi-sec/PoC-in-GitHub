@@ -760,6 +760,7 @@
 - [andrelia-hacks/CVE-2024-3400](https://github.com/andrelia-hacks/CVE-2024-3400)
 - [tk-sawada/IPLineFinder](https://github.com/tk-sawada/IPLineFinder)
 - [iwallarm/cve-2024-3400](https://github.com/iwallarm/cve-2024-3400)
+- [workshop748/CVE-2024-3400](https://github.com/workshop748/CVE-2024-3400)
 
 ### CVE-2024-3435 (2024-05-16)
 
@@ -1584,14 +1585,6 @@
 
 - [bi-zone/CVE-2024-7965](https://github.com/bi-zone/CVE-2024-7965)
 
-### CVE-2024-7988 (2024-08-26)
-
-<code>A remote code execution vulnerability exists in the Rockwell Automation ThinManager® ThinServer™ that allows a threat actor to execute arbitrary code with System privileges. This vulnerability exists due to the lack of proper data input validation, which allows files to be overwritten.
-</code>
-
-- [hatvix1/CVE-2024-7988-Private-POC](https://github.com/hatvix1/CVE-2024-7988-Private-POC)
-- [HatvixSupport/CVE-2024-7988-Private-POC](https://github.com/HatvixSupport/CVE-2024-7988-Private-POC)
-
 ### CVE-2024-8190 (2024-09-10)
 
 <code>An OS command injection vulnerability in Ivanti Cloud Services Appliance versions 4.6 Patch 518 and before allows a remote authenticated attacker to obtain remote code execution. The attacker must have admin level privileges to exploit this vulnerability.
@@ -1958,13 +1951,6 @@
 </code>
 
 - [reinh3rz/CVE-2024-10958-WPPA-Exploit](https://github.com/reinh3rz/CVE-2024-10958-WPPA-Exploit)
-
-### CVE-2024-11016 (2024-11-11)
-
-<code>Webopac from Grand Vice info has a SQL Injection vulnerability, allowing unauthenticated remote attacks to inject arbitrary SQL commands to read, modify, and delete database contents.
-</code>
-
-- [hatvix1/CVE-2024-11016](https://github.com/hatvix1/CVE-2024-11016)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2564,10 +2550,7 @@
 
 - [OxLmahdi/cve-2024-23113](https://github.com/OxLmahdi/cve-2024-23113)
 - [CheckCve2/CVE-2024-23113](https://github.com/CheckCve2/CVE-2024-23113)
-- [HazeLook/CVE-2024-23113](https://github.com/HazeLook/CVE-2024-23113)
-- [maybelookis/CVE-2024-23113](https://github.com/maybelookis/CVE-2024-23113)
 - [p33d/CVE-2024-23113](https://github.com/p33d/CVE-2024-23113)
-- [groshi/CVE-2024-23113-Private-POC](https://github.com/groshi/CVE-2024-23113-Private-POC)
 - [puckiestyle/CVE-2024-23113](https://github.com/puckiestyle/CVE-2024-23113)
 
 ### CVE-2024-23208 (2024-01-23)
@@ -3757,7 +3740,6 @@
 - [fa-rrel/CVE-2024-28987-POC](https://github.com/fa-rrel/CVE-2024-28987-POC)
 - [horizon3ai/CVE-2024-28987](https://github.com/horizon3ai/CVE-2024-28987)
 - [PlayerFridei/CVE-2024-28987](https://github.com/PlayerFridei/CVE-2024-28987)
-- [HazeLook/CVE-2024-28987](https://github.com/HazeLook/CVE-2024-28987)
 
 ### CVE-2024-28995 (2024-06-06)
 
@@ -5229,13 +5211,6 @@
 
 - [ret2desync/CVE-2024-38793-PoC](https://github.com/ret2desync/CVE-2024-38793-PoC)
 
-### CVE-2024-38812 (2024-09-17)
-
-<code>The vCenter Server contains a heap-overflow vulnerability in the implementation of the DCERPC protocol. A malicious actor with network access to vCenter Server may trigger this vulnerability by sending a specially crafted network packet potentially leading to remote code execution.
-</code>
-
-- [groshi/CVE-2024-38812-POC-5-Hands-Private](https://github.com/groshi/CVE-2024-38812-POC-5-Hands-Private)
-
 ### CVE-2024-38816 (2024-09-13)
 
 <code>Applications serving static resources through the functional web frameworks WebMvc.fn or WebFlux.fn are vulnerable to path traversal attacks. An attacker can craft malicious HTTP requests and obtain any file on the file system that is also accessible to the process in which the Spring application is running.\n\nSpecifically, an application is vulnerable when both of the following are true:\n\n  *  the web application uses RouterFunctions to serve static resources\n  *  resource handling is explicitly configured with a FileSystemResource location\n\n\nHowever, malicious requests are blocked and rejected when any of the following is true:\n\n  *  the  Spring Security HTTP Firewall https://docs.spring.io/spring-security/reference/servlet/exploits/firewall.html  is in use\n  *  the application runs on Tomcat or Jetty
@@ -5753,8 +5728,6 @@
 
 ### CVE-2024-43093
 - [exploitsecure/CVE-2024-43093](https://github.com/exploitsecure/CVE-2024-43093)
-- [hatvix1/CVE-2024-43093](https://github.com/hatvix1/CVE-2024-43093)
-- [HatvixSupport/CVE-2024-43093](https://github.com/HatvixSupport/CVE-2024-43093)
 
 ### CVE-2024-43160 (2024-08-13)
 
@@ -5776,13 +5749,6 @@
 </code>
 
 - [RedTeamPentesting/moodle-rce-calculatedquestions](https://github.com/RedTeamPentesting/moodle-rce-calculatedquestions)
-
-### CVE-2024-43532 (2024-10-08)
-
-<code>Remote Registry Service Elevation of Privilege Vulnerability
-</code>
-
-- [HazeLook/CVE-2024-43532](https://github.com/HazeLook/CVE-2024-43532)
 
 ### CVE-2024-43582 (2024-10-08)
 
@@ -6187,17 +6153,6 @@
 
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
 
-### CVE-2024-47575 (2024-10-23)
-
-<code>A missing authentication for critical function in FortiManager 7.6.0, FortiManager 7.4.0 through 7.4.4, FortiManager 7.2.0 through 7.2.7, FortiManager 7.0.0 through 7.0.12, FortiManager 6.4.0 through 6.4.14, FortiManager 6.2.0 through 6.2.12, Fortinet FortiManager Cloud 7.4.1 through 7.4.4, FortiManager Cloud 7.2.1 through 7.2.7, FortiManager Cloud 7.0.1 through 7.0.12, FortiManager Cloud 6.4.1 through 6.4.7 allows attacker to execute arbitrary code or commands via specially crafted requests.
-</code>
-
-- [maybelookis/CVE-2024-47575](https://github.com/maybelookis/CVE-2024-47575)
-- [HazeLook/CVE-2024-47575](https://github.com/HazeLook/CVE-2024-47575)
-- [hazesecurity/CVE-2024-47575](https://github.com/hazesecurity/CVE-2024-47575)
-- [groshi/CVE-2024-47575-POC](https://github.com/groshi/CVE-2024-47575-POC)
-- [krmxd/CVE-2024-47575](https://github.com/krmxd/CVE-2024-47575)
-
 ### CVE-2024-47854 (2024-10-04)
 
 <code>An XSS vulnerability was discovered in Veritas Data Insight before 7.1. It allows a remote attacker to inject an arbitrary web script into an HTTP request that could reflect back to an authenticated user without sanitization if executed by that user.
@@ -6330,6 +6285,13 @@
 
 - [RandomRobbieBF/CVE-2024-49328](https://github.com/RandomRobbieBF/CVE-2024-49328)
 
+### CVE-2024-49368 (2024-10-21)
+
+<code>Nginx UI is a web user interface for the Nginx web server. Prior to version 2.0.0-beta.36, when Nginx UI configures logrotate, it does not verify the input and directly passes it to exec.Command, causing arbitrary command execution. Version 2.0.0-beta.36 fixes this issue.
+</code>
+
+- [Aashay221999/CVE-2024-49368](https://github.com/Aashay221999/CVE-2024-49368)
+
 ### CVE-2024-49681 (2024-10-24)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in SWIT WP Sessions Time Monitoring Full Automatic allows SQL Injection.This issue affects WP Sessions Time Monitoring Full Automatic: from n/a through 1.0.9.
@@ -6448,13 +6410,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-50498](https://github.com/RandomRobbieBF/CVE-2024-50498)
-
-### CVE-2024-50526 (2024-11-04)
-
-<code>Unrestricted Upload of File with Dangerous Type vulnerability in mahlamusa Multi Purpose Mail Form allows Upload a Web Shell to a Web Server.This issue affects Multi Purpose Mail Form: from n/a through 1.0.2.
-</code>
-
-- [hatvix1/CVE-2024-50526-Private-POC](https://github.com/hatvix1/CVE-2024-50526-Private-POC)
 
 ### CVE-2024-51026 (2024-11-11)
 
@@ -36801,6 +36756,7 @@
 - [alexander-fernandes/CVE-2019-16278](https://github.com/alexander-fernandes/CVE-2019-16278)
 - [FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE](https://github.com/FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE)
 - [0xTabun/CVE-2019-16278](https://github.com/0xTabun/CVE-2019-16278)
+- [cancela24/CVE-2019-16278-Nostromo-1.9.6-RCE](https://github.com/cancela24/CVE-2019-16278-Nostromo-1.9.6-RCE)
 
 ### CVE-2019-16279 (2019-10-14)
 
