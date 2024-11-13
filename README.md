@@ -2191,6 +2191,13 @@
 
 - [ch4n3-yoon/CVE-2024-21520-Demo](https://github.com/ch4n3-yoon/CVE-2024-21520-Demo)
 
+### CVE-2024-21534 (2024-10-11)
+
+<code>Versions of the package jsonpath-plus before 10.0.7 are vulnerable to Remote Code Execution (RCE) due to improper input sanitization. An attacker can execute aribitrary code on the system by exploiting the unsafe default usage of vm in Node.\r\r**Note:**\r\rThere was an attempt to fix it in version [10.0.0](https://github.com/JSONPath-Plus/JSONPath/commit/6b2f1b4c234292c75912b790bf7e2d7339d4ccd3) but it could still be exploited using [different payloads](https://github.com/JSONPath-Plus/JSONPath/issues/226).
+</code>
+
+- [pabloopez/CVE-2024-21534](https://github.com/pabloopez/CVE-2024-21534)
+
 ### CVE-2024-21626 (2024-01-31)
 
 <code>runc is a CLI tool for spawning and running containers on Linux according to the OCI specification. In runc 1.1.11 and earlier, due to an internal file descriptor leak, an attacker could cause a newly-spawned container process (from runc exec) to have a working directory in the host filesystem namespace, allowing for a container escape by giving access to the host filesystem (&quot;attack 2&quot;). The same attack could be used by a malicious image to allow a container process to gain access to the host filesystem through runc run (&quot;attack 1&quot;). Variants of attacks 1 and 2 could be also be used to overwrite semi-arbitrary host binaries, allowing for complete container escapes (&quot;attack 3a&quot; and &quot;attack 3b&quot;). runc 1.1.12 includes patches for this issue. 
@@ -6426,6 +6433,15 @@
 
 - [RandomRobbieBF/CVE-2024-50498](https://github.com/RandomRobbieBF/CVE-2024-50498)
 
+### CVE-2024-50961
+- [fdzdev/CVE-2024-50961](https://github.com/fdzdev/CVE-2024-50961)
+
+### CVE-2024-50962
+- [fdzdev/CVE-2024-50962](https://github.com/fdzdev/CVE-2024-50962)
+
+### CVE-2024-50964
+- [fdzdev/CVE-2024-50964](https://github.com/fdzdev/CVE-2024-50964)
+
 ### CVE-2024-50968
 - [Akhlak2511/CVE-2024-50968](https://github.com/Akhlak2511/CVE-2024-50968)
 
@@ -7412,6 +7428,7 @@
 - [0xDTC/Chamilo-LMS-CVE-2023-4220-Exploit](https://github.com/0xDTC/Chamilo-LMS-CVE-2023-4220-Exploit)
 - [H4cking4All/CVE-2023-4220](https://github.com/H4cking4All/CVE-2023-4220)
 - [oxapavan/CVE-2023-4220-HTB-PermX](https://github.com/oxapavan/CVE-2023-4220-HTB-PermX)
+- [numaan911098/CVE-2023-4220](https://github.com/numaan911098/CVE-2023-4220)
 
 ### CVE-2023-4226 (2023-11-28)
 
@@ -16344,6 +16361,7 @@
 - [p4ncontomat3/CVE-2022-21661](https://github.com/p4ncontomat3/CVE-2022-21661)
 - [CharonDefalt/WordPress--CVE-2022-21661](https://github.com/CharonDefalt/WordPress--CVE-2022-21661)
 - [w0r1i0g1ht/CVE-2022-21661](https://github.com/w0r1i0g1ht/CVE-2022-21661)
+- [kittypurrnaz/cve-2022-21661](https://github.com/kittypurrnaz/cve-2022-21661)
 
 ### CVE-2022-21668 (2022-01-10)
 
@@ -22477,6 +22495,7 @@
 - [lypd0/CVE-2021-3156-checker](https://github.com/lypd0/CVE-2021-3156-checker)
 - [Typical0day/CVE-2021-3156](https://github.com/Typical0day/CVE-2021-3156)
 - [acidburn2049/CVE-2021-3156](https://github.com/acidburn2049/CVE-2021-3156)
+- [Bad3r/CVE-2021-3156-without-ip-command](https://github.com/Bad3r/CVE-2021-3156-without-ip-command)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -23211,6 +23230,7 @@
 </code>
 
 - [uthrasri/CVE-2021-21401_nanopb-c_AOSP10_R33](https://github.com/uthrasri/CVE-2021-21401_nanopb-c_AOSP10_R33)
+- [HimanshuS67/external_nanopb-c_AOSP10_CVE-2021-21401](https://github.com/HimanshuS67/external_nanopb-c_AOSP10_CVE-2021-21401)
 
 ### CVE-2021-21402 (2021-03-23)
 
@@ -23989,6 +24009,13 @@
 </code>
 
 - [DShankle/VLC_CVE-2021-25804_Analysis](https://github.com/DShankle/VLC_CVE-2021-25804_Analysis)
+
+### CVE-2021-25837 (2021-02-08)
+
+<code>Cosmos Network Ethermint &lt;= v0.4.0 is affected by cache lifecycle inconsistency in the EVM module. Due to the inconsistency between the Storage caching cycle and the Tx processing cycle, Storage changes caused by a failed transaction are improperly reserved in memory. Although the bad storage cache data will be discarded at EndBlock, it is still valid in the current block, which enables many possible attacks such as an &quot;arbitrary mint token&quot;.
+</code>
+
+- [iczc/Ethermint-CVE-2021-25837](https://github.com/iczc/Ethermint-CVE-2021-25837)
 
 ### CVE-2021-26084 (2021-08-30)
 
@@ -27276,7 +27303,6 @@
 - [gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798)
 - [halencarjunior/grafana-CVE-2021-43798](https://github.com/halencarjunior/grafana-CVE-2021-43798)
 - [light-Life/CVE-2021-43798](https://github.com/light-Life/CVE-2021-43798)
-- [rodpwn/CVE-2021-43798-mass_scanner](https://github.com/rodpwn/CVE-2021-43798-mass_scanner)
 - [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
 - [yasindce1998/grafana-cve-2021-43798](https://github.com/yasindce1998/grafana-cve-2021-43798)
@@ -32939,6 +32965,13 @@
 
 - [whr819987540/test_CVE-2020-26233](https://github.com/whr819987540/test_CVE-2020-26233)
 - [an1p3lg5/CVE-2020-26233](https://github.com/an1p3lg5/CVE-2020-26233)
+
+### CVE-2020-26243 (2020-11-25)
+
+<code>Nanopb is a small code-size Protocol Buffers implementation. In Nanopb before versions 0.4.4 and 0.3.9.7, decoding specifically formed message can leak memory if dynamic allocation is enabled and an oneof field contains a static submessage that contains a dynamic field, and the message being decoded contains the submessage multiple times. This is rare in normal messages, but it is a concern when untrusted data is parsed. This is fixed in versions 0.3.9.7 and 0.4.4. The following workarounds are available: 1) Set the option `no_unions` for the oneof field. This will generate fields as separate instead of C union, and avoids triggering the problematic code. 2) Set the type of the submessage field inside oneof to `FT_POINTER`. This way the whole submessage will be dynamically allocated and the problematic code is not executed. 3) Use an arena allocator for nanopb, to make sure all memory can be released afterwards.
+</code>
+
+- [HimanshuS67/external_nanopb-c_AOSP10_CVE-2020-26243](https://github.com/HimanshuS67/external_nanopb-c_AOSP10_CVE-2020-26243)
 
 ### CVE-2020-26258 (2020-12-16)
 
