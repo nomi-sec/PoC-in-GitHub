@@ -1930,7 +1930,11 @@
 
 - [bevennyamande/CVE-2024-10605](https://github.com/bevennyamande/CVE-2024-10605)
 
-### CVE-2024-10629
+### CVE-2024-10629 (2024-11-13)
+
+<code>The GPX Viewer plugin for WordPress is vulnerable to arbitrary file creation due to a missing capability check and file type validation in the gpxv_file_upload() function in all versions up to, and including, 2.2.8. This makes it possible for authenticated attackers, with subscriber-level access and above, to create arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
 - [RandomRobbieBF/CVE-2024-10629](https://github.com/RandomRobbieBF/CVE-2024-10629)
 
 ### CVE-2024-10654 (2024-11-01)
@@ -6436,6 +6440,9 @@
 
 ### CVE-2024-50972
 - [Akhlak2511/CVE-2024-50972](https://github.com/Akhlak2511/CVE-2024-50972)
+
+### CVE-2024-50986
+- [riftsandroses/CVE-2024-50986](https://github.com/riftsandroses/CVE-2024-50986)
 
 ### CVE-2024-51026 (2024-11-11)
 
@@ -23221,6 +23228,7 @@
 
 - [CsEnox/CVE-2021-21425](https://github.com/CsEnox/CVE-2021-21425)
 - [frknktlca/GravCMS_Nmap_Script](https://github.com/frknktlca/GravCMS_Nmap_Script)
+- [bluetoothStrawberry/cve-2021-21425](https://github.com/bluetoothStrawberry/cve-2021-21425)
 
 ### CVE-2021-21514 (2021-03-02)
 
@@ -27750,7 +27758,6 @@
 - [4jfinder/4jfinder.github.io](https://github.com/4jfinder/4jfinder.github.io)
 - [alexpena5635/CVE-2021-44228_scanner-main-Modified-](https://github.com/alexpena5635/CVE-2021-44228_scanner-main-Modified-)
 - [ChandanShastri/Log4j_Vulnerability_Demo](https://github.com/ChandanShastri/Log4j_Vulnerability_Demo)
-- [puzzlepeaches/Log4jHorizon](https://github.com/puzzlepeaches/Log4jHorizon)
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
@@ -46655,6 +46662,7 @@
 - [bsodmike/rails-exploit-cve-2013-0156](https://github.com/bsodmike/rails-exploit-cve-2013-0156)
 - [R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156)
 - [Jjdt12/kuang_grade_mk11](https://github.com/Jjdt12/kuang_grade_mk11)
+- [oxBEN10/CVE-2013-0156](https://github.com/oxBEN10/CVE-2013-0156)
 
 ### CVE-2013-0212 (2013-02-24)
 
