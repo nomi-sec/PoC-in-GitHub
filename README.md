@@ -4336,6 +4336,7 @@
 - [Stuub/CVE-2024-32640-SQLI-MuraCMS](https://github.com/Stuub/CVE-2024-32640-SQLI-MuraCMS)
 - [0xYumeko/CVE-2024-32640-SQLI-MuraCMS](https://github.com/0xYumeko/CVE-2024-32640-SQLI-MuraCMS)
 - [sammings/CVE-2024-32640](https://github.com/sammings/CVE-2024-32640)
+- [pizza-power/CVE-2024-32640](https://github.com/pizza-power/CVE-2024-32640)
 
 ### CVE-2024-32651 (2024-04-25)
 
@@ -4653,7 +4654,7 @@
 </code>
 
 - [aelmokhtar/CVE-2024-34716](https://github.com/aelmokhtar/CVE-2024-34716)
-- [TanveerS1ngh/Prestashop-CVE-2024-34716](https://github.com/TanveerS1ngh/Prestashop-CVE-2024-34716)
+- [0xDTC/Prestashop-CVE-2024-34716](https://github.com/0xDTC/Prestashop-CVE-2024-34716)
 
 ### CVE-2024-34739 (2024-08-15)
 
@@ -6485,7 +6486,11 @@
 
 - [JAckLosingHeart/CVE-2024-51136-POC](https://github.com/JAckLosingHeart/CVE-2024-51136-POC)
 
-### CVE-2024-51179
+### CVE-2024-51179 (2024-11-12)
+
+<code>An issue in Open 5GS v.2.7.1 allows a remote attacker to cause a denial of service via the Network Function Virtualizations (NFVs) such as the User Plane Function (UPF) and the Session Management Function (SMF), The Packet Data Unit (PDU) session establishment process.
+</code>
+
 - [Lakshmirnr/CVE-2024-51179](https://github.com/Lakshmirnr/CVE-2024-51179)
 
 ### CVE-2024-51358 (2024-11-05)
@@ -7397,7 +7402,7 @@
 - [qrxnz/CVE-2023-4220](https://github.com/qrxnz/CVE-2023-4220)
 - [0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit](https://github.com/0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit)
 - [bueno-armando/CVE-2023-4220-RCE](https://github.com/bueno-armando/CVE-2023-4220-RCE)
-- [TanveerS1ngh/Chamilo-LMS-CVE-2023-4220-Exploit](https://github.com/TanveerS1ngh/Chamilo-LMS-CVE-2023-4220-Exploit)
+- [0xDTC/Chamilo-LMS-CVE-2023-4220-Exploit](https://github.com/0xDTC/Chamilo-LMS-CVE-2023-4220-Exploit)
 - [H4cking4All/CVE-2023-4220](https://github.com/H4cking4All/CVE-2023-4220)
 - [oxapavan/CVE-2023-4220-HTB-PermX](https://github.com/oxapavan/CVE-2023-4220-HTB-PermX)
 
@@ -7565,7 +7570,7 @@
 
 ### CVE-2023-4699 (2023-11-06)
 
-<code>Insufficient Verification of Data Authenticity vulnerability in Mitsubishi Electric Corporation MELSEC-F Series main modules and MELSEC iQ-F Series CPU modules allows a remote unauthenticated attacker to reset the memory of the products to factory default state and cause denial-of-service (DoS) condition on the products by sending specific packets.\n\n\n\n\n\n\n
+<code>Missing Authentication for Critical Function vulnerability in Mitsubishi Electric Corporation MELSEC-F Series CPU modules, MELSEC iQ-F Series, MELSEC iQ-R series CPU modules, MELSEC iQ-R series, MELSEC iQ-L series, MELSEC Q series, MELSEC-L series, Mitsubishi Electric CNC M800V/M80V series, Mitsubishi Electric CNC M800/M80/E80 series and Mitsubishi Electric CNC M700V/M70V/E70 series allows a remote unauthenticated attacker to execute arbitrary commands by sending specific packets to the affected products. This could lead to disclose or tamper with information by reading or writing control programs, or cause a denial-of-service (DoS) condition on the products by resetting the memory contents of the products to factory settings or resetting the products remotely.
 </code>
 
 - [Scottzxor/Citrix-Bleed-Buffer-Overread-Demo](https://github.com/Scottzxor/Citrix-Bleed-Buffer-Overread-Demo)
@@ -12562,7 +12567,7 @@
 - [thefizzyfish/CVE-2023-41425-wonderCMS_RCE](https://github.com/thefizzyfish/CVE-2023-41425-wonderCMS_RCE)
 - [Raffli-Dev/CVE-2023-41425](https://github.com/Raffli-Dev/CVE-2023-41425)
 - [duck-sec/CVE-2023-41425](https://github.com/duck-sec/CVE-2023-41425)
-- [TanveerS1ngh/WonderCMS-4.3.2-XSS-to-RCE-Exploits-CVE-2023-41425](https://github.com/TanveerS1ngh/WonderCMS-4.3.2-XSS-to-RCE-Exploits-CVE-2023-41425)
+- [0xDTC/WonderCMS-4.3.2-XSS-to-RCE-Exploits-CVE-2023-41425](https://github.com/0xDTC/WonderCMS-4.3.2-XSS-to-RCE-Exploits-CVE-2023-41425)
 - [h3athen/CVE-2023-41425](https://github.com/h3athen/CVE-2023-41425)
 
 ### CVE-2023-41436 (2023-09-15)
@@ -14650,7 +14655,7 @@
 - [rwexecute/CVE-2023-50564](https://github.com/rwexecute/CVE-2023-50564)
 - [thefizzyfish/CVE-2023-50564-pluck](https://github.com/thefizzyfish/CVE-2023-50564-pluck)
 - [Mrterrestrial/CVE-2023-50564](https://github.com/Mrterrestrial/CVE-2023-50564)
-- [TanveerS1ngh/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564](https://github.com/TanveerS1ngh/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564)
+- [0xDTC/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564](https://github.com/0xDTC/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564)
 
 ### CVE-2023-50596
 - [chandraprarikraj/CVE-2023-50596](https://github.com/chandraprarikraj/CVE-2023-50596)
@@ -14841,7 +14846,11 @@
 
 - [BobTheShoplifter/CVE-2023-52251-POC](https://github.com/BobTheShoplifter/CVE-2023-52251-POC)
 
-### CVE-2023-52268
+### CVE-2023-52268 (2024-11-12)
+
+<code>The End-User Portal module before 1.0.65 for FreeScout sometimes allows an attacker to authenticate as an arbitrary user because a session token can be sent to the /auth endpoint. NOTE: this module is not part of freescout-helpdesk/freescout on GitHub.
+</code>
+
 - [squ1dw3rm/CVE-2023-52268](https://github.com/squ1dw3rm/CVE-2023-52268)
 
 ### CVE-2023-52654 (2024-05-09)
@@ -15211,7 +15220,7 @@
 - [Robocopsita/CVE-2022-0944_RCE_POC](https://github.com/Robocopsita/CVE-2022-0944_RCE_POC)
 - [toneillcodes/CVE-2022-0944](https://github.com/toneillcodes/CVE-2022-0944)
 - [LipeOzyy/SQLPad-RCE-Exploit-CVE-2022-0944](https://github.com/LipeOzyy/SQLPad-RCE-Exploit-CVE-2022-0944)
-- [TanveerS1ngh/SQLPad-6.10.0-Exploit-CVE-2022-0944](https://github.com/TanveerS1ngh/SQLPad-6.10.0-Exploit-CVE-2022-0944)
+- [0xDTC/SQLPad-6.10.0-Exploit-CVE-2022-0944](https://github.com/0xDTC/SQLPad-6.10.0-Exploit-CVE-2022-0944)
 
 ### CVE-2022-0952 (2022-05-02)
 
