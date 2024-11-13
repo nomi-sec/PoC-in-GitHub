@@ -1193,6 +1193,13 @@
 
 - [watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806](https://github.com/watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806)
 
+### CVE-2024-5910 (2024-07-10)
+
+<code>Missing authentication for a critical function in Palo Alto Networks Expedition can lead to an Expedition admin account takeover for attackers with network access to Expedition.\n\nNote: Expedition is a tool aiding in configuration migration, tuning, and enrichment. Configuration secrets, credentials, and other data imported into Expedition is at risk due to this issue.
+</code>
+
+- [zetraxz/CVE-2024-5910](https://github.com/zetraxz/CVE-2024-5910)
+
 ### CVE-2024-5932 (2024-08-20)
 
 <code>The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.14.1 via deserialization of untrusted input from the 'give_title' parameter. This makes it possible for unauthenticated attackers to inject a PHP Object. The additional presence of a POP chain allows attackers to execute code remotely, and to delete arbitrary files.
@@ -1440,13 +1447,6 @@
 - [jdpsl/CVE-2024-6782](https://github.com/jdpsl/CVE-2024-6782)
 - [0xB0y426/CVE-2024-6782-PoC](https://github.com/0xB0y426/CVE-2024-6782-PoC)
 
-### CVE-2024-6788 (2024-08-13)
-
-<code>A remote unauthenticated attacker can use the firmware update feature on the LAN interface of the device to reset the password for the predefined, low-privileged user “user-app” to the default password.
-</code>
-
-- [zetraxz/CVE-2024-6788](https://github.com/zetraxz/CVE-2024-6788)
-
 ### CVE-2024-7029 (2024-08-02)
 
 <code>Commands can be injected over the network and executed without authentication.
@@ -1684,6 +1684,13 @@
 </code>
 
 - [fa-rrel/CVE-2024-8949-POC](https://github.com/fa-rrel/CVE-2024-8949-POC)
+
+### CVE-2024-8963 (2024-09-19)
+
+<code>Path Traversal in the Ivanti CSA before 4.6 Patch 519 allows a remote unauthenticated attacker to access restricted functionality.
+</code>
+
+- [patfire94/CVE-2024-8963](https://github.com/patfire94/CVE-2024-8963)
 
 ### CVE-2024-9014 (2024-09-23)
 
@@ -5241,7 +5248,6 @@
 </code>
 
 - [mouadk/cve-2024-38821](https://github.com/mouadk/cve-2024-38821)
-- [zetraxz/CVE-2024-38821](https://github.com/zetraxz/CVE-2024-38821)
 
 ### CVE-2024-38856 (2024-08-05)
 
@@ -5741,8 +5747,13 @@
 - [v9d0g/CVE-2024-43044-POC](https://github.com/v9d0g/CVE-2024-43044-POC)
 - [convisolabs/CVE-2024-43044-jenkins](https://github.com/convisolabs/CVE-2024-43044-jenkins)
 
-### CVE-2024-43093
+### CVE-2024-43093 (2024-11-13)
+
+<code>In shouldHideDocument of ExternalStorageProvider.java, there is a possible bypass of a file path filter designed to prevent access to sensitive directories due to  incorrect unicode normalization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.
+</code>
+
 - [exploitsecure/CVE-2024-43093](https://github.com/exploitsecure/CVE-2024-43093)
+- [expl0itsecurity/CVE-2024-43093-43047](https://github.com/expl0itsecurity/CVE-2024-43093-43047)
 
 ### CVE-2024-43160 (2024-08-13)
 
@@ -6445,16 +6456,32 @@
 ### CVE-2024-50968
 - [Akhlak2511/CVE-2024-50968](https://github.com/Akhlak2511/CVE-2024-50968)
 
-### CVE-2024-50969
+### CVE-2024-50969 (2024-11-13)
+
+<code>A Reflected cross-site scripting (XSS) vulnerability in browse.php of Code-projects Jonnys Liquor 1.0 allows remote attackers to inject arbitrary web scripts or HTML via the search parameter.
+</code>
+
 - [Akhlak2511/CVE-2024-50969](https://github.com/Akhlak2511/CVE-2024-50969)
 
-### CVE-2024-50970
+### CVE-2024-50970 (2024-11-13)
+
+<code>A SQL injection vulnerability in orderview1.php of Itsourcecode Online Furniture Shopping Project 1.0 allows remote attackers to execute arbitrary SQL commands via the id parameter.
+</code>
+
 - [Akhlak2511/CVE-2024-50970](https://github.com/Akhlak2511/CVE-2024-50970)
 
-### CVE-2024-50971
+### CVE-2024-50971 (2024-11-13)
+
+<code>A SQL injection vulnerability in print.php of Itsourcecode Construction Management System 1.0 allows remote attackers to execute arbitrary SQL commands via the map_id parameter.
+</code>
+
 - [Akhlak2511/CVE-2024-50971](https://github.com/Akhlak2511/CVE-2024-50971)
 
-### CVE-2024-50972
+### CVE-2024-50972 (2024-11-13)
+
+<code>A SQL injection vulnerability in printtool.php of Itsourcecode Construction Management System 1.0 allows remote attackers to execute arbitrary SQL commands via the borrow_id parameter.
+</code>
+
 - [Akhlak2511/CVE-2024-50972](https://github.com/Akhlak2511/CVE-2024-50972)
 
 ### CVE-2024-50986
@@ -22737,6 +22764,13 @@
 </code>
 
 - [d0rb/CVE-2021-3773](https://github.com/d0rb/CVE-2021-3773)
+
+### CVE-2021-3831 (2021-12-14)
+
+<code>gnuboard5 is vulnerable to Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+</code>
+
+- [aratane/CVE-2021-3831](https://github.com/aratane/CVE-2021-3831)
 
 ### CVE-2021-3864 (2022-08-26)
 
