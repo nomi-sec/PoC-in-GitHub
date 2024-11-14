@@ -1469,6 +1469,13 @@
 
 - [fa-rrel/CVE-2024-7120](https://github.com/fa-rrel/CVE-2024-7120)
 
+### CVE-2024-7124 (2024-11-14)
+
+<code>Improper Neutralization of Input During Web Page Generation vulnerability in DInGO dLibra software in the parameter 'filter' in the endpoint 'indexsearch' allows a Reflected Cross-Site Scripting (XSS). An attacker might trick somebody into using a crafted URL, which will cause a script to be run in user's browser. This issue affects DInGO dLibra software in versions from 6.0 before 6.3.20.
+</code>
+
+- [kac89/CVE-2024-7124](https://github.com/kac89/CVE-2024-7124)
+
 ### CVE-2024-7135 (2024-07-31)
 
 <code>The Tainacan plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the 'get_file' function in all versions up to, and including, 0.21.7. The function is also vulnerable to directory traversal. This makes it possible for authenticated attackers, with Subscriber-level access and above, to read the contents of arbitrary files on the server, which can contain sensitive information.
@@ -1957,6 +1964,9 @@
 
 - [imnotcha0s/CVE-2024-10914](https://github.com/imnotcha0s/CVE-2024-10914)
 - [verylazytech/CVE-2024-10914](https://github.com/verylazytech/CVE-2024-10914)
+
+### CVE-2024-10924
+- [RandomRobbieBF/CVE-2024-10924](https://github.com/RandomRobbieBF/CVE-2024-10924)
 
 ### CVE-2024-10958 (2024-11-10)
 
@@ -6192,6 +6202,13 @@
 
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
 
+### CVE-2024-47575 (2024-10-23)
+
+<code>A missing authentication for critical function in FortiManager 7.6.0, FortiManager 7.4.0 through 7.4.4, FortiManager 7.2.0 through 7.2.7, FortiManager 7.0.0 through 7.0.12, FortiManager 6.4.0 through 6.4.14, FortiManager 6.2.0 through 6.2.12, Fortinet FortiManager Cloud 7.4.1 through 7.4.4, FortiManager Cloud 7.2.1 through 7.2.7, FortiManager Cloud 7.0.1 through 7.0.12, FortiManager Cloud 6.4.1 through 6.4.7 allows attacker to execute arbitrary code or commands via specially crafted requests.
+</code>
+
+- [watchtowrlabs/Fortijump-Exploit-CVE-2024-47575](https://github.com/watchtowrlabs/Fortijump-Exploit-CVE-2024-47575)
+
 ### CVE-2024-47854 (2024-10-04)
 
 <code>An XSS vulnerability was discovered in Veritas Data Insight before 7.1. It allows a remote attacker to inject an arbitrary web script into an HTTP request that could reflect back to an authenticated user without sanitization if executed by that user.
@@ -6594,6 +6611,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-51665](https://github.com/RandomRobbieBF/CVE-2024-51665)
+
+### CVE-2024-52302 (2024-11-14)
+
+<code>common-user-management is a robust Spring Boot application featuring user management services designed to control user access dynamically. There is a critical security vulnerability in the application endpoint /api/v1/customer/profile-picture. This endpoint allows file uploads without proper validation or restrictions, enabling attackers to upload malicious files that can lead to Remote Code Execution (RCE).
+</code>
+
+- [d3sca/CVE-2024-52302](https://github.com/d3sca/CVE-2024-52302)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -9738,6 +9762,7 @@
 - [Cyb3rEnthusiast/CVE-2023-27997](https://github.com/Cyb3rEnthusiast/CVE-2023-27997)
 - [lexfo/xortigate-cve-2023-27997](https://github.com/lexfo/xortigate-cve-2023-27997)
 - [delsploit/CVE-2023-27997](https://github.com/delsploit/CVE-2023-27997)
+- [node011/CVE-2023-27997-POC](https://github.com/node011/CVE-2023-27997-POC)
 
 ### CVE-2023-28121 (2023-04-12)
 
@@ -34298,6 +34323,7 @@
 - [dubfr33/CVE-2019-1653](https://github.com/dubfr33/CVE-2019-1653)
 - [shaheemirza/CiscoSpill](https://github.com/shaheemirza/CiscoSpill)
 - [ibrahimzx/CVE-2019-1653](https://github.com/ibrahimzx/CVE-2019-1653)
+- [elzerjp/nuclei-CiscoRV320Dump-CVE-2019-1653](https://github.com/elzerjp/nuclei-CiscoRV320Dump-CVE-2019-1653)
 
 ### CVE-2019-1663 (2019-02-28)
 
