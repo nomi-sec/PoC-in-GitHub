@@ -5898,6 +5898,9 @@
 
 - [merbinr/CVE-2024-44623](https://github.com/merbinr/CVE-2024-44623)
 
+### CVE-2024-44625
+- [Fysac/CVE-2024-44625](https://github.com/Fysac/CVE-2024-44625)
+
 ### CVE-2024-44812 (2024-10-22)
 
 <code>SQL Injection vulnerability in Online Complaint Site v.1.0 allows a remote attacker to escalate privileges via the username and password parameters in the /admin.index.php component.
@@ -35876,6 +35879,14 @@
 </code>
 
 - [alidnf/CVE-2019-11730](https://github.com/alidnf/CVE-2019-11730)
+
+### CVE-2019-11869 (2019-05-09)
+
+<code>The Yuzo Related Posts plugin 5.12.94 for WordPress has XSS because it mistakenly expects that is_admin() verifies that the request comes from an admin user (it actually only verifies that the request is for an admin page). An unauthenticated attacker can inject a payload into the plugin settings, such as the yuzo_related_post_css_and_style setting.
+</code>
+
+- [rix4uni/CVE-2019-11869](https://github.com/rix4uni/CVE-2019-11869)
+- [gitrecon1455/CVE-2019-11869](https://github.com/gitrecon1455/CVE-2019-11869)
 
 ### CVE-2019-11881 (2019-06-10)
 
