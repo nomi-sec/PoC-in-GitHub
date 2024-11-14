@@ -6083,6 +6083,9 @@
 
 - [vidura2/CVE-2024-46377](https://github.com/vidura2/CVE-2024-46377)
 
+### CVE-2024-46383
+- [nitinronge91/Sensitive-Information-disclosure-via-SPI-flash-firmware-for-Hathway-router-CVE-2024-46383](https://github.com/nitinronge91/Sensitive-Information-disclosure-via-SPI-flash-firmware-for-Hathway-router-CVE-2024-46383)
+
 ### CVE-2024-46451 (2024-09-16)
 
 <code>TOTOLINK AC1200 T8 v4.1.5cu.861_B20230220 has a buffer overflow vulnerability in the setWiFiAclRules function via the desc parameter.
@@ -16207,6 +16210,13 @@
 
 - [Trinadh465/frameworks_minikin_AOSP10_r33_CVE-2022-20473](https://github.com/Trinadh465/frameworks_minikin_AOSP10_r33_CVE-2022-20473)
 - [Trinadh465/frameworks_minikin_AOSP10_r33-CVE-2022-20473](https://github.com/Trinadh465/frameworks_minikin_AOSP10_r33-CVE-2022-20473)
+
+### CVE-2022-20474 (2022-12-13)
+
+<code>In readLazyValue of Parcel.java, there is a possible loading of arbitrary code into the System Settings app due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-240138294
+</code>
+
+- [cxxsheng/CVE-2022-20474](https://github.com/cxxsheng/CVE-2022-20474)
 
 ### CVE-2022-20489 (2023-01-24)
 
