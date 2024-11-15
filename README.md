@@ -1185,6 +1185,13 @@
 
 - [afine-com/CVE-2024-5737](https://github.com/afine-com/CVE-2024-5737)
 
+### CVE-2024-5764 (2024-10-23)
+
+<code>Use of Hard-coded Credentials vulnerability in Sonatype Nexus Repository has been discovered in the code responsible for encrypting any secrets stored in the Nexus Repository configuration database (SMTP or HTTP proxy credentials, user tokens, tokens, among others). The affected versions relied on a static hard-coded encryption passphrase. While it was possible for an administrator to define an alternate encryption passphrase, it could only be done at first boot and not updated.\n\nThis issue affects Nexus Repository: from 3.0.0 through 3.72.0.
+</code>
+
+- [fin3ss3g0d/CVE-2024-5764](https://github.com/fin3ss3g0d/CVE-2024-5764)
+
 ### CVE-2024-5806 (2024-06-25)
 
 <code>Improper Authentication vulnerability in Progress MOVEit Transfer (SFTP module) can lead to Authentication Bypass.This issue affects MOVEit Transfer: from 2023.0.0 before 2023.0.11, from 2023.1.0 before 2023.1.6, from 2024.0.0 before 2024.0.2.
@@ -2605,6 +2612,7 @@
 - [wizarddos/CVE-2024-23334](https://github.com/wizarddos/CVE-2024-23334)
 - [Pylonet/CVE-2024-23334](https://github.com/Pylonet/CVE-2024-23334)
 - [Arc4he/CVE-2024-23334-PoC](https://github.com/Arc4he/CVE-2024-23334-PoC)
+- [TheRedP4nther/LFI-aiohttp-CVE-2024-23334-PoC](https://github.com/TheRedP4nther/LFI-aiohttp-CVE-2024-23334-PoC)
 
 ### CVE-2024-23339 (2024-01-22)
 
@@ -6483,7 +6491,11 @@
 ### CVE-2024-50964
 - [fdzdev/CVE-2024-50964](https://github.com/fdzdev/CVE-2024-50964)
 
-### CVE-2024-50968
+### CVE-2024-50968 (2024-11-14)
+
+<code>A business logic vulnerability exists in the Add to Cart function of itsourcecode Agri-Trading Online Shopping System 1.0, which allows remote attackers to manipulate the quant parameter when adding a product to the cart. By setting the quantity value to -0, an attacker can exploit a flaw in the application's total price calculation logic. This vulnerability causes the total price to be reduced to zero, allowing the attacker to add items to the cart and proceed to checkout.
+</code>
+
 - [Akhlak2511/CVE-2024-50968](https://github.com/Akhlak2511/CVE-2024-50968)
 
 ### CVE-2024-50969 (2024-11-13)
@@ -6611,6 +6623,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-51665](https://github.com/RandomRobbieBF/CVE-2024-51665)
+
+### CVE-2024-52301 (2024-11-12)
+
+<code>Laravel is a web application framework. When the register_argc_argv php directive is set to on , and users call any URL with a special crafted query string, they are able to change the environment used by the framework when handling the request. The vulnerability fixed in 6.20.45, 7.30.7, 8.83.28, 9.52.17, 10.48.23, and 11.31.0. The framework now ignores argv values for environment detection on non-cli SAPIs.
+</code>
+
+- [Nyamort/CVE-2024-52301](https://github.com/Nyamort/CVE-2024-52301)
 
 ### CVE-2024-52302 (2024-11-14)
 
@@ -8165,6 +8184,13 @@
 </code>
 
 - [sharathc213/CVE-2023-7173](https://github.com/sharathc213/CVE-2023-7173)
+
+### CVE-2023-7261 (2024-06-07)
+
+<code>Inappropriate implementation in Google Updator prior to 1.3.36.351 in Google Chrome allowed a local attacker to perform privilege escalation via a malicious file. (Chromium security severity: High)
+</code>
+
+- [zerozenxlabs/CVE-2023-7261](https://github.com/zerozenxlabs/CVE-2023-7261)
 
 ### CVE-2023-20025 (2023-01-19)
 
@@ -11621,7 +11647,7 @@
 <code>Windows Common Log File System Driver Elevation of Privilege Vulnerability
 </code>
 
-- [Nassim-Asrir/CVE-2023-36424](https://github.com/Nassim-Asrir/CVE-2023-36424)
+- [zerozenxlabs/CVE-2023-36424](https://github.com/zerozenxlabs/CVE-2023-36424)
 
 ### CVE-2023-36427 (2023-11-14)
 
@@ -17868,7 +17894,6 @@
 - [Brucetg/CVE-2022-26134](https://github.com/Brucetg/CVE-2022-26134)
 - [shamo0/CVE-2022-26134](https://github.com/shamo0/CVE-2022-26134)
 - [SNCKER/CVE-2022-26134](https://github.com/SNCKER/CVE-2022-26134)
-- [Sakura-nee/CVE-2022-26134](https://github.com/Sakura-nee/CVE-2022-26134)
 - [Vulnmachines/Confluence-CVE-2022-26134](https://github.com/Vulnmachines/Confluence-CVE-2022-26134)
 - [axingde/CVE-2022-26134](https://github.com/axingde/CVE-2022-26134)
 - [0xAgun/CVE-2022-26134](https://github.com/0xAgun/CVE-2022-26134)
@@ -26697,7 +26722,6 @@
 - [McSl0vv/CVE-2021-41773](https://github.com/McSl0vv/CVE-2021-41773)
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
 - [justakazh/mass_cve-2021-41773](https://github.com/justakazh/mass_cve-2021-41773)
-- [Sakura-nee/CVE-2021-41773](https://github.com/Sakura-nee/CVE-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [0xRar/CVE-2021-41773](https://github.com/0xRar/CVE-2021-41773)
 - [pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt)
@@ -47050,7 +47074,7 @@
 
 ### CVE-2013-3900 (2013-12-11)
 
-<code>The WinVerifyTrust function in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 does not properly validate PE file digests during Authenticode signature verification, which allows remote attackers to execute arbitrary code via a crafted PE file, aka &quot;WinVerifyTrust Signature Validation Vulnerability.&quot;
+<code>Why is Microsoft republishing a CVE from 2013?\nWe are republishing CVE-2013-3900 in the Security Update Guide to update the Security Updates table and to inform customers that the EnableCertPaddingCheck is available in all currently supported versions of Windows 10 and Windows 11. While the format is different from the original CVE published in 2013, the information herein remains unchanged from the original text published on December 10, 2013.\nMicrosoft does not plan to enforce the stricter verification behavior as a default functionality on supported releases of Microsoft Windows. This behavior remains available as an opt-in feature via reg key setting, and is available on supported editions of Windows released since December 10, 2013. This includes all currently supported versions of Windows 10 and Windows 11. The supporting code for this reg key was incorporated at the time of release for Windows 10 and Windows 11, so no security update is required; however, the reg key must be set. See the Security Updates table for the list of affected software.\nVulnerability Description\nA remote code execution vulnerability exists in the way that the WinVerifyTrust function handles Windows Authenticode signature verification for portable executable (PE) files. An anonymous attacker could exploit the vulnerability by modifying an existing signed executable file to leverage unverified portions of the file in such a way as to add malicious code to the file without invalidating the signature. An attacker who successfully exploited this vulnerability could take complete control of an affected system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.\nIf a user is logged on with administrative user rights, an attacker who successfully exploited this vulnerability could take complete control of an affected system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than users who operate with administrative user rights.\nExploitation of this vulnerability requires that a user or application run or install a specially crafted, signed PE file. An attacker could modify an existing signed file to include malicious code without invalidating the signature. This code would... See more at https://msrc.microsoft.com/update-guide/vulnerability/CVE-2013-3900
 </code>
 
 - [snoopopsec/vulnerability-CVE-2013-3900](https://github.com/snoopopsec/vulnerability-CVE-2013-3900)
