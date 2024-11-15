@@ -1317,7 +1317,7 @@
 - [paradessia/CVE-2024-6387-nmap](https://github.com/paradessia/CVE-2024-6387-nmap)
 - [SecWithMoh/CVE-2024-6387](https://github.com/SecWithMoh/CVE-2024-6387)
 - [PrincipalAnthony/CVE-2024-6387-Updated-x64bit](https://github.com/PrincipalAnthony/CVE-2024-6387-Updated-x64bit)
-- [skysaints/CVE-2024-6387-POC](https://github.com/skysaints/CVE-2024-6387-POC)
+- [skyalliance/CVE-2024-6387-POC](https://github.com/skyalliance/CVE-2024-6387-POC)
 - [daniel-odrinski/CVE-2024-6387-Mitigation-Ansible-Playbook](https://github.com/daniel-odrinski/CVE-2024-6387-Mitigation-Ansible-Playbook)
 - [rumochnaya/openssh-cve-2024-6387.sh](https://github.com/rumochnaya/openssh-cve-2024-6387.sh)
 - [zenzue/CVE-2024-6387-Mitigation](https://github.com/zenzue/CVE-2024-6387-Mitigation)
@@ -1972,7 +1972,11 @@
 - [imnotcha0s/CVE-2024-10914](https://github.com/imnotcha0s/CVE-2024-10914)
 - [verylazytech/CVE-2024-10914](https://github.com/verylazytech/CVE-2024-10914)
 
-### CVE-2024-10924
+### CVE-2024-10924 (2024-11-15)
+
+<code>The Really Simple Security (Free, Pro, and Pro Multisite) plugins for WordPress are vulnerable to authentication bypass in versions 9.0.0 to 9.1.1.1. This is due to improper user check error handling in the two-factor REST API actions with the 'check_login_and_get_user' function. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, when the &quot;Two-Factor Authentication&quot; setting is enabled (disabled by default).
+</code>
+
 - [RandomRobbieBF/CVE-2024-10924](https://github.com/RandomRobbieBF/CVE-2024-10924)
 
 ### CVE-2024-10958 (2024-11-10)
@@ -2812,7 +2816,6 @@
 - [BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety](https://github.com/BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety)
 - [ShieldAuth-PHP/PBL05-CVE-Analsys](https://github.com/ShieldAuth-PHP/PBL05-CVE-Analsys)
 - [verylazytech/CVE-2024-23897](https://github.com/verylazytech/CVE-2024-23897)
-- [safeer-accuknox/Jenkins-Args4j-CVE-2024-23897-POC](https://github.com/safeer-accuknox/Jenkins-Args4j-CVE-2024-23897-POC)
 
 ### CVE-2024-23995 (2024-04-29)
 
@@ -6482,6 +6485,9 @@
 
 - [RandomRobbieBF/CVE-2024-50498](https://github.com/RandomRobbieBF/CVE-2024-50498)
 
+### CVE-2024-50657
+- [SAHALLL/CVE-2024-50657](https://github.com/SAHALLL/CVE-2024-50657)
+
 ### CVE-2024-50961
 - [fdzdev/CVE-2024-50961](https://github.com/fdzdev/CVE-2024-50961)
 
@@ -6623,6 +6629,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-51665](https://github.com/RandomRobbieBF/CVE-2024-51665)
+
+### CVE-2024-51747 (2024-11-11)
+
+<code>Kanboard is project management software that focuses on the Kanban methodology. An authenticated Kanboard admin can read and delete arbitrary files from the server. File attachments, that are viewable or downloadable in Kanboard are resolved through its `path` entry in the `project_has_files`  SQLite db. Thus, an attacker who can upload a modified sqlite.db through the dedicated feature, can set arbitrary file links, by abusing path traversals. Once the modified db is uploaded and the project page is accessed, a file download can be triggered and all files, readable in the context of the Kanboard application permissions, can be downloaded. This issue has been addressed in version 1.2.42 and all users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [l20170217b/CVE-2024-51747](https://github.com/l20170217b/CVE-2024-51747)
 
 ### CVE-2024-52301 (2024-11-12)
 
@@ -27953,6 +27966,7 @@
 - [safeer-accuknox/log4j-shell-poc](https://github.com/safeer-accuknox/log4j-shell-poc)
 - [Carlos-Mesquita/TPASLog4ShellPoC](https://github.com/Carlos-Mesquita/TPASLog4ShellPoC)
 - [AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-](https://github.com/AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-)
+- [Super-Binary/cve-2021-44228](https://github.com/Super-Binary/cve-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
