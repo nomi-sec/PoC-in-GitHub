@@ -2601,6 +2601,7 @@
 - [CheckCve2/CVE-2024-23113](https://github.com/CheckCve2/CVE-2024-23113)
 - [p33d/CVE-2024-23113](https://github.com/p33d/CVE-2024-23113)
 - [puckiestyle/CVE-2024-23113](https://github.com/puckiestyle/CVE-2024-23113)
+- [expl0itsecurity/CVE-2024-23113](https://github.com/expl0itsecurity/CVE-2024-23113)
 
 ### CVE-2024-23208 (2024-01-23)
 
@@ -3789,6 +3790,7 @@
 - [fa-rrel/CVE-2024-28987-POC](https://github.com/fa-rrel/CVE-2024-28987-POC)
 - [horizon3ai/CVE-2024-28987](https://github.com/horizon3ai/CVE-2024-28987)
 - [PlayerFridei/CVE-2024-28987](https://github.com/PlayerFridei/CVE-2024-28987)
+- [expl0itsecurity/CVE-2024-28987](https://github.com/expl0itsecurity/CVE-2024-28987)
 
 ### CVE-2024-28995 (2024-06-06)
 
@@ -5789,7 +5791,6 @@
 </code>
 
 - [exploitsecure/CVE-2024-43093](https://github.com/exploitsecure/CVE-2024-43093)
-- [expl0itsecurity/CVE-2024-43093-43047](https://github.com/expl0itsecurity/CVE-2024-43093-43047)
 
 ### CVE-2024-43160 (2024-08-13)
 
@@ -5811,6 +5812,13 @@
 </code>
 
 - [RedTeamPentesting/moodle-rce-calculatedquestions](https://github.com/RedTeamPentesting/moodle-rce-calculatedquestions)
+
+### CVE-2024-43532 (2024-10-08)
+
+<code>Remote Registry Service Elevation of Privilege Vulnerability
+</code>
+
+- [expl0itsecurity/CVE-2024-43532](https://github.com/expl0itsecurity/CVE-2024-43532)
 
 ### CVE-2024-43582 (2024-10-08)
 
@@ -5927,7 +5935,11 @@
 
 - [merbinr/CVE-2024-44623](https://github.com/merbinr/CVE-2024-44623)
 
-### CVE-2024-44625
+### CVE-2024-44625 (2024-11-15)
+
+<code>Gogs &lt;=0.13.0 is vulnerable to Directory Traversal via the editFilePost function of internal/route/repo/editor.go.
+</code>
+
 - [Fysac/CVE-2024-44625](https://github.com/Fysac/CVE-2024-44625)
 
 ### CVE-2024-44812 (2024-10-22)
@@ -6112,7 +6124,11 @@
 
 - [vidura2/CVE-2024-46377](https://github.com/vidura2/CVE-2024-46377)
 
-### CVE-2024-46383
+### CVE-2024-46383 (2024-11-15)
+
+<code>Hathway Skyworth Router CM5100-511 v4.1.1.24 was discovered to store sensitive information about USB and Wifi connected devices in plaintext.
+</code>
+
 - [nitinronge91/Sensitive-Information-disclosure-via-SPI-flash-firmware-for-Hathway-router-CVE-2024-46383](https://github.com/nitinronge91/Sensitive-Information-disclosure-via-SPI-flash-firmware-for-Hathway-router-CVE-2024-46383)
 
 ### CVE-2024-46451 (2024-09-16)
@@ -6227,6 +6243,7 @@
 </code>
 
 - [watchtowrlabs/Fortijump-Exploit-CVE-2024-47575](https://github.com/watchtowrlabs/Fortijump-Exploit-CVE-2024-47575)
+- [expl0itsecurity/CVE-2024-47575](https://github.com/expl0itsecurity/CVE-2024-47575)
 
 ### CVE-2024-47854 (2024-10-04)
 
@@ -6496,6 +6513,9 @@
 ### CVE-2024-50657
 - [SAHALLL/CVE-2024-50657](https://github.com/SAHALLL/CVE-2024-50657)
 
+### CVE-2024-50803
+- [Praison001/CVE-2024-50803-Redaxo](https://github.com/Praison001/CVE-2024-50803-Redaxo)
+
 ### CVE-2024-50961
 - [fdzdev/CVE-2024-50961](https://github.com/fdzdev/CVE-2024-50961)
 
@@ -6540,7 +6560,11 @@
 
 - [Akhlak2511/CVE-2024-50972](https://github.com/Akhlak2511/CVE-2024-50972)
 
-### CVE-2024-50986
+### CVE-2024-50986 (2024-11-15)
+
+<code>An issue in Clementine v.1.3.1 allows a local attacker to execute arbitrary code via a crafted DLL file.
+</code>
+
 - [riftsandroses/CVE-2024-50986](https://github.com/riftsandroses/CVE-2024-50986)
 
 ### CVE-2024-51026 (2024-11-11)
