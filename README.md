@@ -434,6 +434,7 @@
 
 - [kamranhasan/CVE-2024-1698-Exploit](https://github.com/kamranhasan/CVE-2024-1698-Exploit)
 - [shanglyu/CVE-2024-1698](https://github.com/shanglyu/CVE-2024-1698)
+- [jesicatjan/WordPress-NotificationX-CVE-2024-1698](https://github.com/jesicatjan/WordPress-NotificationX-CVE-2024-1698)
 
 ### CVE-2024-1709 (2024-02-21)
 
@@ -1991,6 +1992,7 @@
 - [verylazytech/CVE-2024-10914](https://github.com/verylazytech/CVE-2024-10914)
 - [Egi08/CVE-2024-10914](https://github.com/Egi08/CVE-2024-10914)
 - [Bu0uCat/D-Link-NAS-CVE-2024-10914-](https://github.com/Bu0uCat/D-Link-NAS-CVE-2024-10914-)
+- [ThemeHackers/CVE-2024-10914](https://github.com/ThemeHackers/CVE-2024-10914)
 
 ### CVE-2024-10924 (2024-11-15)
 
@@ -5155,6 +5157,7 @@
 - [idkwastaken/CVE-2024-38063](https://github.com/idkwastaken/CVE-2024-38063)
 - [thanawee321/CVE-2024-38063](https://github.com/thanawee321/CVE-2024-38063)
 - [AliHj98/cve-2024-38063-Anonyvader](https://github.com/AliHj98/cve-2024-38063-Anonyvader)
+- [Dragkob/CVE-2024-38063](https://github.com/Dragkob/CVE-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -6534,6 +6537,9 @@
 
 ### CVE-2024-50803
 - [Praison001/CVE-2024-50803-Redaxo](https://github.com/Praison001/CVE-2024-50803-Redaxo)
+
+### CVE-2024-50804
+- [g3tsyst3m/CVE-2024-50804](https://github.com/g3tsyst3m/CVE-2024-50804)
 
 ### CVE-2024-50848
 - [Wh1teSnak3/CVE-2024-50848](https://github.com/Wh1teSnak3/CVE-2024-50848)
