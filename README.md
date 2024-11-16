@@ -1982,6 +1982,7 @@
 
 - [imnotcha0s/CVE-2024-10914](https://github.com/imnotcha0s/CVE-2024-10914)
 - [verylazytech/CVE-2024-10914](https://github.com/verylazytech/CVE-2024-10914)
+- [Egi08/CVE-2024-10914](https://github.com/Egi08/CVE-2024-10914)
 - [Bu0uCat/D-Link-NAS-CVE-2024-10914-](https://github.com/Bu0uCat/D-Link-NAS-CVE-2024-10914-)
 
 ### CVE-2024-10924 (2024-11-15)
