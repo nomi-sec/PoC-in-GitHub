@@ -1975,6 +1975,13 @@
 
 - [c0nyy/IoT_vuln](https://github.com/c0nyy/IoT_vuln)
 
+### CVE-2024-10728 (2024-11-16)
+
+<code>The Post Grid Gutenberg Blocks and WordPress Blog Plugin – PostX plugin for WordPress is vulnerable to unauthorized plugin installation/activation due to a missing capability check on the 'install_required_plugin_callback' function in all versions up to, and including, 4.1.16. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install and activate arbitrary plugins which can be leveraged to achieve remote code execution if another vulnerable plugin is installed and activated.
+</code>
+
+- [RandomRobbieBF/CVE-2024-10728](https://github.com/RandomRobbieBF/CVE-2024-10728)
+
 ### CVE-2024-10914 (2024-11-06)
 
 <code>In D-Link DNS-320, DNS-320LW, DNS-325 and DNS-340L bis 20241028 wurde eine kritische Schwachstelle ausgemacht. Hierbei betrifft es die Funktion cgi_user_add der Datei /cgi-bin/account_mgr.cgi?cmd=cgi_user_add. Durch Manipulation des Arguments name mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Die Komplexität eines Angriffs ist eher hoch. Sie gilt als schwierig ausnutzbar. Der Exploit steht zur öffentlichen Verfügung.
@@ -1998,6 +2005,13 @@
 </code>
 
 - [reinh3rz/CVE-2024-10958-WPPA-Exploit](https://github.com/reinh3rz/CVE-2024-10958-WPPA-Exploit)
+
+### CVE-2024-11120 (2024-11-15)
+
+<code>Certain EOL GeoVision devices have an OS Command Injection vulnerability. Unauthenticated remote attackers can exploit this vulnerability to inject and execute arbitrary system commands on the device. Moreover, this vulnerability has already been exploited by attackers, and we have received related reports.
+</code>
+
+- [FoKiiin/CVE-2024-11120](https://github.com/FoKiiin/CVE-2024-11120)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -13986,8 +14000,6 @@
 - [RevoltSecurities/CVE-2023-46747](https://github.com/RevoltSecurities/CVE-2023-46747)
 - [vidura2/cve-2023-46747](https://github.com/vidura2/cve-2023-46747)
 - [rainbowhatrkn/CVE-2023-46747-RCE](https://github.com/rainbowhatrkn/CVE-2023-46747-RCE)
-- [AMELYA13/CVE-2023-46747-Mass-RCE](https://github.com/AMELYA13/CVE-2023-46747-Mass-RCE)
-- [MacTavish2/CVE-2023-46747-Mass-RCE](https://github.com/MacTavish2/CVE-2023-46747-Mass-RCE)
 
 ### CVE-2023-46805 (2024-01-12)
 
