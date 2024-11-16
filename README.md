@@ -555,6 +555,7 @@
 - [Quantum-Hacker/CVE-2024-2876](https://github.com/Quantum-Hacker/CVE-2024-2876)
 - [0xAgun/CVE-2024-2876](https://github.com/0xAgun/CVE-2024-2876)
 - [skyrowalker/CVE-2024-2876](https://github.com/skyrowalker/CVE-2024-2876)
+- [issamiso/CVE-2024-2876](https://github.com/issamiso/CVE-2024-2876)
 
 ### CVE-2024-2879 (2024-04-03)
 
@@ -1212,6 +1213,7 @@
 </code>
 
 - [zetraxz/CVE-2024-5910](https://github.com/zetraxz/CVE-2024-5910)
+- [p33d/Palo-Alto-Expedition-Remote-Code-Execution-Exploit-CVE-2024-5910-CVE-2024-9464](https://github.com/p33d/Palo-Alto-Expedition-Remote-Code-Execution-Exploit-CVE-2024-5910-CVE-2024-9464)
 
 ### CVE-2024-5932 (2024-08-20)
 
@@ -1597,6 +1599,7 @@
 - [fa-rrel/CVE-2024-7954-RCE](https://github.com/fa-rrel/CVE-2024-7954-RCE)
 - [TheCyberguy-17/RCE_CVE-2024-7954](https://github.com/TheCyberguy-17/RCE_CVE-2024-7954)
 - [MuhammadWaseem29/RCE-CVE-2024-7954](https://github.com/MuhammadWaseem29/RCE-CVE-2024-7954)
+- [issamiso/CVE-2024-7954](https://github.com/issamiso/CVE-2024-7954)
 
 ### CVE-2024-7965 (2024-08-21)
 
@@ -1836,6 +1839,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-9796](https://github.com/RandomRobbieBF/CVE-2024-9796)
+- [issamiso/CVE-2024-9796](https://github.com/issamiso/CVE-2024-9796)
 
 ### CVE-2024-9821 (2024-10-12)
 
@@ -3369,7 +3373,7 @@
 <code>Windows Cloud Files Mini Filter Driver Information Disclosure Vulnerability
 </code>
 
-- [0x00Alchemist/CVE-2024-26160](https://github.com/0x00Alchemist/CVE-2024-26160)
+- [xsh3llsh0ck/CVE-2024-26160](https://github.com/xsh3llsh0ck/CVE-2024-26160)
 
 ### CVE-2024-26218 (2024-04-09)
 
@@ -6516,6 +6520,12 @@
 ### CVE-2024-50803
 - [Praison001/CVE-2024-50803-Redaxo](https://github.com/Praison001/CVE-2024-50803-Redaxo)
 
+### CVE-2024-50848
+- [Wh1teSnak3/CVE-2024-50848](https://github.com/Wh1teSnak3/CVE-2024-50848)
+
+### CVE-2024-50849
+- [Wh1teSnak3/CVE-2024-50849](https://github.com/Wh1teSnak3/CVE-2024-50849)
+
 ### CVE-2024-50961
 - [fdzdev/CVE-2024-50961](https://github.com/fdzdev/CVE-2024-50961)
 
@@ -6675,6 +6685,7 @@
 </code>
 
 - [Nyamort/CVE-2024-52301](https://github.com/Nyamort/CVE-2024-52301)
+- [martinhaunschmid/CVE-2024-52301-Research](https://github.com/martinhaunschmid/CVE-2024-52301-Research)
 
 ### CVE-2024-52302 (2024-11-14)
 
@@ -20278,6 +20289,13 @@
 
 - [ssst0n3/docker-cve-2022-39253-poc](https://github.com/ssst0n3/docker-cve-2022-39253-poc)
 - [HiImDarwin/NetworkSecurityFinalProject](https://github.com/HiImDarwin/NetworkSecurityFinalProject)
+
+### CVE-2022-39275 (2022-10-06)
+
+<code>Saleor is a headless, GraphQL commerce platform. In affected versions some GraphQL mutations were not properly checking the ID type input which allowed to access database objects that the authenticated user may not be allowed to access. This vulnerability can be used to expose the following information: Estimating database row counts from tables with a sequential primary key or Exposing staff user and customer email addresses and full name through the `assignNavigation()` mutation. This issue has been patched in main and backported to multiple releases (3.7.17, 3.6.18, 3.5.23, 3.4.24, 3.3.26, 3.2.14, 3.1.24). Users are advised to upgrade. There are no known workarounds for this issue.
+</code>
+
+- [omar2535/CVE-2022-39275](https://github.com/omar2535/CVE-2022-39275)
 
 ### CVE-2022-39299 (2022-10-12)
 
@@ -41294,6 +41312,13 @@
 </code>
 
 - [martinfrancois/CVE-2018-1000529](https://github.com/martinfrancois/CVE-2018-1000529)
+
+### CVE-2018-1000531 (2018-06-26)
+
+<code>inversoft prime-jwt version prior to commit abb0d479389a2509f939452a6767dc424bb5e6ba contains a CWE-20 vulnerability in JWTDecoder.decode that can result in an incorrect signature validation of a JWT token. This attack can be exploitable when an attacker crafts a JWT token with a valid header using 'none' as algorithm and a body to requests it be validated. This vulnerability was fixed after commit abb0d479389a2509f939452a6767dc424bb5e6ba.
+</code>
+
+- [realbatuhan/JWT-Bruteforcer](https://github.com/realbatuhan/JWT-Bruteforcer)
 
 ### CVE-2018-1000542 (2018-06-26)
 
