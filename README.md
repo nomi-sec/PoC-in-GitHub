@@ -1695,6 +1695,13 @@
 
 - [D3anSPGDMS/CVE-2024-8752](https://github.com/D3anSPGDMS/CVE-2024-8752)
 
+### CVE-2024-8856 (2024-11-16)
+
+<code>The Backup and Staging by WP Time Capsule plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the the UploadHandler.php file and no direct file access prevention in all versions up to, and including, 1.22.21. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [ubaii/CVE-2024-8856](https://github.com/ubaii/CVE-2024-8856)
+
 ### CVE-2024-8868 (2024-09-15)
 
 <code>Eine Schwachstelle wurde in code-projects Crud Operation System 1.0 ausgemacht. Sie wurde als kritisch eingestuft. Davon betroffen ist unbekannter Code der Datei savedata.php. Durch Manipulieren des Arguments sname mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -6405,6 +6412,13 @@
 </code>
 
 - [Aashay221999/CVE-2024-49368](https://github.com/Aashay221999/CVE-2024-49368)
+
+### CVE-2024-49379 (2024-11-13)
+
+<code>Umbrel is a home server OS for self-hosting. The login functionality of Umbrel before version 1.2.2 contains a reflected cross-site scripting (XSS) vulnerability in use-auth.tsx. An attacker can specify a malicious redirect query parameter to trigger the vulnerability. If a JavaScript URL is passed to the redirect parameter the attacker provided JavaScript will be executed after the user entered their password and clicked on login. This vulnerability is fixed in 1.2.2.
+</code>
+
+- [OHDUDEOKNICE/CVE-2024-49379](https://github.com/OHDUDEOKNICE/CVE-2024-49379)
 
 ### CVE-2024-49681 (2024-10-24)
 
@@ -33614,7 +33628,6 @@
 </code>
 
 - [wojkos9/arm-CVE-2020-29661](https://github.com/wojkos9/arm-CVE-2020-29661)
-- [TLD1027/CVE-2020-29661](https://github.com/TLD1027/CVE-2020-29661)
 
 ### CVE-2020-29666 (2020-12-10)
 
