@@ -6272,6 +6272,7 @@
 </code>
 
 - [watchtowrlabs/Fortijump-Exploit-CVE-2024-47575](https://github.com/watchtowrlabs/Fortijump-Exploit-CVE-2024-47575)
+- [skyalliance/exploit-cve-2024-47575](https://github.com/skyalliance/exploit-cve-2024-47575)
 - [expl0itsecurity/CVE-2024-47575](https://github.com/expl0itsecurity/CVE-2024-47575)
 
 ### CVE-2024-47854 (2024-10-04)
