@@ -1899,19 +1899,19 @@
 
 - [RandomRobbieBF/CVE-2024-9935](https://github.com/RandomRobbieBF/CVE-2024-9935)
 
-### CVE-2024-9954 (2024-10-15)
-
-<code>Use after free in AI in Google Chrome prior to 130.0.6723.58 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
-</code>
-
-- [famixcm/CVE-2024-9954](https://github.com/famixcm/CVE-2024-9954)
-
 ### CVE-2024-9955 (2024-10-15)
 
 <code>Use after free in WebAuthentication in Google Chrome prior to 130.0.6723.58 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)
 </code>
 
 - [amfg145/CVE-2024-9955-POC](https://github.com/amfg145/CVE-2024-9955-POC)
+
+### CVE-2024-10015 (2024-11-16)
+
+<code>The ConvertCalculator for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'id' and 'type' parameters in all versions up to, and including, 1.1.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
+- [windz3r0day/CVE-2024-10015](https://github.com/windz3r0day/CVE-2024-10015)
 
 ### CVE-2024-10140 (2024-10-19)
 
@@ -1940,6 +1940,13 @@
 </code>
 
 - [K1nako0/CVE-2024-10355](https://github.com/K1nako0/CVE-2024-10355)
+
+### CVE-2024-10386 (2024-10-25)
+
+<code>CVE-2024-10386 IMPACT\n\n\n\nAn authentication\nvulnerability exists in the affected product. The vulnerability could allow a\nthreat actor with network access to send crafted messages to the device, potentially\nresulting in database manipulation.
+</code>
+
+- [zetraxz/CVE-2024-10386](https://github.com/zetraxz/CVE-2024-10386)
 
 ### CVE-2024-10410 (2024-10-27)
 
@@ -5201,6 +5208,7 @@
 - [thanawee321/CVE-2024-38063](https://github.com/thanawee321/CVE-2024-38063)
 - [AliHj98/cve-2024-38063-Anonyvader](https://github.com/AliHj98/cve-2024-38063-Anonyvader)
 - [Dragkob/CVE-2024-38063](https://github.com/Dragkob/CVE-2024-38063)
+- [selenagomez25/CVE-2024-38063](https://github.com/selenagomez25/CVE-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -5749,6 +5757,13 @@
 </code>
 
 - [fj016/CVE-2024-41992-PoC](https://github.com/fj016/CVE-2024-41992-PoC)
+
+### CVE-2024-42346 (2024-09-20)
+
+<code>Galaxy is a free, open-source system for analyzing data, authoring workflows, training and education, publishing tools, managing infrastructure, and more. The editor visualization, /visualizations endpoint, can be used to store HTML tags and trigger javascript execution upon edit operation. All supported branches of Galaxy (and more back to release_20.05) were amended with the supplied patches. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [partywavesec/CVE-2024-42346](https://github.com/partywavesec/CVE-2024-42346)
 
 ### CVE-2024-42461 (2024-08-02)
 
@@ -6415,13 +6430,6 @@
 
 - [paragbagul111/CVE-2024-48652](https://github.com/paragbagul111/CVE-2024-48652)
 
-### CVE-2024-48904 (2024-10-22)
-
-<code>An command injection vulnerability in Trend Micro Cloud Edge could allow a remote attacker to execute arbitrary code on affected appliances.\r\n\r\nPlease note: authentication is not required in order to exploit this vulnerability.
-</code>
-
-- [famixcm/CVE-2024-48904](https://github.com/famixcm/CVE-2024-48904)
-
 ### CVE-2024-48914 (2024-10-15)
 
 <code>Vendure is an open-source headless commerce platform. Prior to versions 3.0.5 and 2.3.3, a vulnerability in Vendure's asset server plugin allows an attacker to craft a request which is able to traverse the server file system and retrieve the contents of arbitrary files, including sensitive data such as configuration files, environment variables, and other critical data stored on the server. In the same code path is an additional vector for crashing the server via a malformed URI. Patches are available in versions 3.0.5 and 2.3.3. Some workarounds are also available. One may use object storage rather than the local file system, e.g. MinIO or S3, or define middleware which detects and blocks requests with urls containing `/../`.
@@ -6765,6 +6773,20 @@
 </code>
 
 - [d3sca/CVE-2024-52302](https://github.com/d3sca/CVE-2024-52302)
+
+### CVE-2024-52316 (2024-11-18)
+
+<code>Unchecked Error Condition vulnerability in Apache Tomcat. If Tomcat is configured to use a custom Jakarta Authentication (formerly JASPIC) ServerAuthContext component which may throw an exception during the authentication process without explicitly setting an HTTP status to indicate failure, the authentication may not fail, allowing the user to bypass the authentication process. There are no known Jakarta Authentication components that behave in this way.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.0-M26, from 10.1.0-M1 through 10.1.30, from 9.0.0-M1 through 9.0.95.\n\nUsers are recommended to upgrade to version 11.0.0, 10.1.31 or 9.0.96, which fix the issue.
+</code>
+
+- [famixcm/CVE-2024-52316](https://github.com/famixcm/CVE-2024-52316)
+
+### CVE-2024-52940 (2024-11-18)
+
+<code>AnyDesk through 8.1.0 on Windows, when Allow Direct Connections is enabled, inadvertently exposes a public IP address within network traffic. The attacker must know the victim's AnyDesk ID.
+</code>
+
+- [ebrasha/abdal-anydesk-remote-ip-detector](https://github.com/ebrasha/abdal-anydesk-remote-ip-detector)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -41608,7 +41630,6 @@
 - [likekabin/CVE-2017-0213](https://github.com/likekabin/CVE-2017-0213)
 - [jbooz1/CVE-2017-0213](https://github.com/jbooz1/CVE-2017-0213)
 - [eonrickity/CVE-2017-0213](https://github.com/eonrickity/CVE-2017-0213)
-- [Jos675/CVE-2017-0213-Exploit](https://github.com/Jos675/CVE-2017-0213-Exploit)
 - [Anonymous-Family/CVE-2017-0213](https://github.com/Anonymous-Family/CVE-2017-0213)
 
 ### CVE-2017-0248 (2017-05-12)
