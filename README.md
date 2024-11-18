@@ -888,6 +888,13 @@
 - [d0rb/CVE-2024-4323](https://github.com/d0rb/CVE-2024-4323)
 - [yuansec/CVE-2024-4323-dos_poc](https://github.com/yuansec/CVE-2024-4323-dos_poc)
 
+### CVE-2024-4351 (2024-05-16)
+
+<code>The Tutor LMS Pro plugin for WordPress is vulnerable to unauthorized access of data, modification of data, loss of data due to a missing capability check on the 'authenticate' function in all versions up to, and including, 2.7.0. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to gain control of an existing administrator account.
+</code>
+
+- [ZSECURE/CVE-2024-4351](https://github.com/ZSECURE/CVE-2024-4351)
+
 ### CVE-2024-4352 (2024-05-16)
 
 <code>The Tutor LMS Pro plugin for WordPress is vulnerable to unauthorized access of data, modification of data, loss of data due to a missing capability check on the 'get_calendar_materials' function. The plugin is also vulnerable to SQL Injection via the ‘year’ parameter of that function due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with subscriber-level permissions and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -2021,6 +2028,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-10924](https://github.com/RandomRobbieBF/CVE-2024-10924)
+- [FoKiiin/CVE-2024-10924](https://github.com/FoKiiin/CVE-2024-10924)
 
 ### CVE-2024-10958 (2024-11-10)
 
@@ -3674,6 +3682,13 @@
 </code>
 
 - [jprx/CVE-2024-27815](https://github.com/jprx/CVE-2024-27815)
+
+### CVE-2024-27821 (2024-05-13)
+
+<code>A path handling issue was addressed with improved validation. This issue is fixed in iOS 17.5 and iPadOS 17.5, watchOS 10.5, macOS Sonoma 14.5. A shortcut may output sensitive user data without consent.
+</code>
+
+- [0xilis/CVE-2024-27821](https://github.com/0xilis/CVE-2024-27821)
 
 ### CVE-2024-27914 (2024-03-18)
 
@@ -23036,7 +23051,6 @@
 - [vilasboasph/CVE-2021-4034](https://github.com/vilasboasph/CVE-2021-4034)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
-- [ch4rum/CVE-2021-4034](https://github.com/ch4rum/CVE-2021-4034)
 - [cd80-ctf/CVE-2021-4034](https://github.com/cd80-ctf/CVE-2021-4034)
 - [Al1ex/CVE-2021-4034](https://github.com/Al1ex/CVE-2021-4034)
 - [ashutoshrohilla/CVE-2021-4034](https://github.com/ashutoshrohilla/CVE-2021-4034)
@@ -23049,6 +23063,7 @@
 - [tahaafarooq/poppy](https://github.com/tahaafarooq/poppy)
 - [DosAmp/pkwned](https://github.com/DosAmp/pkwned)
 - [PwnFunction/CVE-2021-4034](https://github.com/PwnFunction/CVE-2021-4034)
+- [NULL0B/CVE-2021-4034](https://github.com/NULL0B/CVE-2021-4034)
 - [locksec/CVE-2021-4034](https://github.com/locksec/CVE-2021-4034)
 - [deoxykev/CVE-2021-4034-Rust](https://github.com/deoxykev/CVE-2021-4034-Rust)
 - [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
@@ -39007,7 +39022,6 @@
 - [Dannners/CVE-2018-6574-go-get-RCE](https://github.com/Dannners/CVE-2018-6574-go-get-RCE)
 - [bme2003/CVE-2018-6574](https://github.com/bme2003/CVE-2018-6574)
 - [iNoSec2/cve-2018-6574](https://github.com/iNoSec2/cve-2018-6574)
-- [ttyA0/cve-2018-6574](https://github.com/ttyA0/cve-2018-6574)
 - [faqihudin13/CVE-2018-6574](https://github.com/faqihudin13/CVE-2018-6574)
 - [lisu60/cve-2018-6574](https://github.com/lisu60/cve-2018-6574)
 - [Saboor-Hakimi/CVE-2018-6574](https://github.com/Saboor-Hakimi/CVE-2018-6574)
