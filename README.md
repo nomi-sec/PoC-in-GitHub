@@ -1832,6 +1832,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-9593](https://github.com/RandomRobbieBF/CVE-2024-9593)
+- [0x4f5da2-venom/CVE-2024-9593-EXP](https://github.com/0x4f5da2-venom/CVE-2024-9593-EXP)
 
 ### CVE-2024-9680 (2024-10-09)
 
@@ -1890,6 +1891,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-9933](https://github.com/RandomRobbieBF/CVE-2024-9933)
+
+### CVE-2024-9935 (2024-11-16)
+
+<code>The PDF Generator Addon for Elementor Page Builder plugin for WordPress is vulnerable to Path Traversal in all versions up to, and including, 1.7.5 via the rtw_pgaepb_dwnld_pdf() function. This makes it possible for unauthenticated attackers to read the contents of arbitrary files on the server, which can contain sensitive information.
+</code>
+
+- [RandomRobbieBF/CVE-2024-9935](https://github.com/RandomRobbieBF/CVE-2024-9935)
 
 ### CVE-2024-9954 (2024-10-15)
 
@@ -2277,7 +2285,7 @@
 
 ### CVE-2024-21534 (2024-10-11)
 
-<code>Versions of the package jsonpath-plus before 10.0.7 are vulnerable to Remote Code Execution (RCE) due to improper input sanitization. An attacker can execute aribitrary code on the system by exploiting the unsafe default usage of vm in Node.\r\r**Note:**\r\rThere was an attempt to fix it in version [10.0.0](https://github.com/JSONPath-Plus/JSONPath/commit/6b2f1b4c234292c75912b790bf7e2d7339d4ccd3) but it could still be exploited using [different payloads](https://github.com/JSONPath-Plus/JSONPath/issues/226).
+<code>All versions of the package jsonpath-plus are vulnerable to Remote Code Execution (RCE) due to improper input sanitization. An attacker can execute aribitrary code on the system by exploiting the unsafe default usage of vm in Node.\r\r**Note:**\r\rThere were several attempts to fix it in versions [10.0.0-10.1.0](https://github.com/JSONPath-Plus/JSONPath/compare/v9.0.0...v10.1.0) but it could still be exploited using [different payloads](https://github.com/JSONPath-Plus/JSONPath/issues/226).
 </code>
 
 - [pabloopez/CVE-2024-21534](https://github.com/pabloopez/CVE-2024-21534)
@@ -5278,7 +5286,7 @@
 
 ### CVE-2024-38472 (2024-07-01)
 
-<code>SSRF in Apache HTTP Server on Windows allows to potentially leak NTML hashes to a malicious server via SSRF and malicious requests or content \nUsers are recommended to upgrade to version 2.4.60 which fixes this issue.  Note: Existing configurations that access UNC paths will have to configure new directive &quot;UNCList&quot; to allow access during request processing.
+<code>SSRF in Apache HTTP Server on Windows allows to potentially leak NTLM hashes to a malicious server via SSRF and malicious requests or content \nUsers are recommended to upgrade to version 2.4.60 which fixes this issue.  Note: Existing configurations that access UNC paths will have to configure new directive &quot;UNCList&quot; to allow access during request processing.
 </code>
 
 - [Abdurahmon3236/CVE-2024-38472](https://github.com/Abdurahmon3236/CVE-2024-38472)
@@ -38009,7 +38017,6 @@
 
 - [1337g/CVE-2018-0101-DOS-POC](https://github.com/1337g/CVE-2018-0101-DOS-POC)
 - [Cymmetria/ciscoasa_honeypot](https://github.com/Cymmetria/ciscoasa_honeypot)
-- [MikeHorn-git/CVE-2018-0101](https://github.com/MikeHorn-git/CVE-2018-0101)
 
 ### CVE-2018-0114 (2018-01-04)
 
