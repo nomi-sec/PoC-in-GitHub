@@ -980,7 +980,6 @@
 - [dbyMelina/CVE-2024-4577](https://github.com/dbyMelina/CVE-2024-4577)
 - [Chocapikk/CVE-2024-4577](https://github.com/Chocapikk/CVE-2024-4577)
 - [K3ysTr0K3R/CVE-2024-4577-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-4577-EXPLOIT)
-- [it-t4mpan/check_cve_2024_4577.sh](https://github.com/it-t4mpan/check_cve_2024_4577.sh)
 - [bl4cksku11/CVE-2024-4577](https://github.com/bl4cksku11/CVE-2024-4577)
 - [nemu1k5ma/CVE-2024-4577](https://github.com/nemu1k5ma/CVE-2024-4577)
 - [aaddmin1122345/cve-2024-4577](https://github.com/aaddmin1122345/cve-2024-4577)
@@ -34570,6 +34569,7 @@
 - [mutur4/CVE-2019-2215](https://github.com/mutur4/CVE-2019-2215)
 - [R0rt1z2/huawei-unlock](https://github.com/R0rt1z2/huawei-unlock)
 - [raymontag/CVE-2019-2215](https://github.com/raymontag/CVE-2019-2215)
+- [XiaozaYa/CVE-2019-2215](https://github.com/XiaozaYa/CVE-2019-2215)
 
 ### CVE-2019-2525 (2019-01-16)
 
