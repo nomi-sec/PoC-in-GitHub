@@ -1,6 +1,14 @@
 # PoC in GitHub
 
 ## 2024
+### CVE-2024-0012 (2024-11-18)
+
+<code>An authentication bypass in Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to gain PAN-OS administrator privileges to perform administrative actions, tamper with the configuration, or exploit other authenticated privilege escalation vulnerabilities like  CVE-2024-9474 https://security.paloaltonetworks.com/CVE-2024-9474 .\n\nThe risk of this issue is greatly reduced if you secure access to the management web interface by restricting access to only trusted internal IP addresses according to our recommended  best practice deployment guidelines https://live.paloaltonetworks.com/t5/community-blogs/tips-amp-tricks-how-to-secure-the-management-access-of-your-palo/ba-p/464431 .\n\nThis issue is applicable only to PAN-OS 10.2, PAN-OS 11.0, PAN-OS 11.1, and PAN-OS 11.2 software.\n\nCloud NGFW and Prisma Access are not impacted by this vulnerability.
+</code>
+
+- [watchtowrlabs/palo-alto-panos-cve-2024-0012](https://github.com/watchtowrlabs/palo-alto-panos-cve-2024-0012)
+- [Sachinart/CVE-2024-0012-POC](https://github.com/Sachinart/CVE-2024-0012-POC)
+
 ### CVE-2024-0015 (2024-02-16)
 
 <code>In convertToComponentName of DreamService.java, there is a possible way to launch arbitrary protected activities due to intent redirection. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.
@@ -1944,13 +1952,6 @@
 
 - [K1nako0/CVE-2024-10355](https://github.com/K1nako0/CVE-2024-10355)
 
-### CVE-2024-10386 (2024-10-25)
-
-<code>CVE-2024-10386 IMPACT\n\n\n\nAn authentication\nvulnerability exists in the affected product. The vulnerability could allow a\nthreat actor with network access to send crafted messages to the device, potentially\nresulting in database manipulation.
-</code>
-
-- [zetraxz/CVE-2024-10386](https://github.com/zetraxz/CVE-2024-10386)
-
 ### CVE-2024-10410 (2024-10-27)
 
 <code>In SourceCodester Online Hotel Reservation System 1.0 wurde eine kritische Schwachstelle entdeckt. Dabei geht es um die Funktion upload der Datei /admin/mod_room/controller.php?action=add. Dank Manipulation des Arguments image mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -2062,6 +2063,7 @@
 - [FoKiiin/CVE-2024-10924](https://github.com/FoKiiin/CVE-2024-10924)
 - [m3ssap0/wordpress-really-simple-security-authn-bypass-vulnerable-application](https://github.com/m3ssap0/wordpress-really-simple-security-authn-bypass-vulnerable-application)
 - [MattJButler/CVE-2024-10924](https://github.com/MattJButler/CVE-2024-10924)
+- [m3ssap0/wordpress-really-simple-security-authn-bypass-exploit](https://github.com/m3ssap0/wordpress-really-simple-security-authn-bypass-exploit)
 
 ### CVE-2024-10958 (2024-11-10)
 
@@ -2077,8 +2079,18 @@
 
 - [FoKiiin/CVE-2024-11120](https://github.com/FoKiiin/CVE-2024-11120)
 
+### CVE-2024-11319 (2024-11-18)
+
+<code>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in django CMS Association django-cms allows Cross-Site Scripting (XSS).This issue affects django-cms: 3.11.7, 3.11.8, 4.1.2, 4.1.3.
+</code>
+
+- [famixcm/CVE-2024-11319](https://github.com/famixcm/CVE-2024-11319)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
+
+### CVE-2024-19002
+- [adminlove520/cve-2024-19002](https://github.com/adminlove520/cve-2024-19002)
 
 ### CVE-2024-20017 (2024-03-04)
 
@@ -6361,6 +6373,13 @@
 
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
 
+### CVE-2024-47533 (2024-11-18)
+
+<code>Cobbler, a Linux installation server that allows for rapid setup of network installation environments, has an improper authentication vulnerability starting in version 3.0.0 and prior to versions 3.2.3 and 3.3.7. `utils.get_shared_secret()` always returns `-1`, which allows anyone to connect to cobbler XML-RPC as user `''` password `-1` and make any changes. This gives anyone with network access to a cobbler server full control of the server. Versions 3.2.3 and 3.3.7 fix the issue.
+</code>
+
+- [zetraxz/CVE-2024-47533](https://github.com/zetraxz/CVE-2024-47533)
+
 ### CVE-2024-47575 (2024-10-23)
 
 <code>A missing authentication for critical function in FortiManager 7.6.0, FortiManager 7.4.0 through 7.4.4, FortiManager 7.2.0 through 7.2.7, FortiManager 7.0.0 through 7.0.12, FortiManager 6.4.0 through 6.4.14, FortiManager 6.2.0 through 6.2.12, Fortinet FortiManager Cloud 7.4.1 through 7.4.4, FortiManager Cloud 7.2.1 through 7.2.7, FortiManager Cloud 7.0.1 through 7.0.12, FortiManager Cloud 6.4.1 through 6.4.7 allows attacker to execute arbitrary code or commands via specially crafted requests.
@@ -6487,6 +6506,13 @@
 </code>
 
 - [BrotherOfJhonny/CVE-2024-48955_Overview](https://github.com/BrotherOfJhonny/CVE-2024-48955_Overview)
+
+### CVE-2024-49039 (2024-11-12)
+
+<code>Windows Task Scheduler Elevation of Privilege Vulnerability
+</code>
+
+- [je5442804/WPTaskScheduler_CVE-2024-49039](https://github.com/je5442804/WPTaskScheduler_CVE-2024-49039)
 
 ### CVE-2024-49328 (2024-10-20)
 
@@ -38554,6 +38580,7 @@
 
 - [mpgn/CVE-2018-3760](https://github.com/mpgn/CVE-2018-3760)
 - [cyberharsh/Ruby-On-Rails-Path-Traversal-Vulnerability-CVE-2018-3760-](https://github.com/cyberharsh/Ruby-On-Rails-Path-Traversal-Vulnerability-CVE-2018-3760-)
+- [wudidwo/CVE-2018-3760-poc](https://github.com/wudidwo/CVE-2018-3760-poc)
 
 ### CVE-2018-3783 (2018-08-17)
 
@@ -43243,6 +43270,7 @@
 - [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
 - [xiaokp7/Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP)
 - [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro)
+- [wudidwo/CVE-2017-12615-poc](https://github.com/wudidwo/CVE-2017-12615-poc)
 
 ### CVE-2017-12617 (2017-10-03)
 
