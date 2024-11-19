@@ -1830,6 +1830,13 @@
 
 - [holypryx/CVE-2024-9466](https://github.com/holypryx/CVE-2024-9466)
 
+### CVE-2024-9474 (2024-11-18)
+
+<code>A privilege escalation vulnerability in Palo Alto Networks PAN-OS software allows a PAN-OS administrator with access to the management web interface to perform actions on the firewall with root privileges.\n\nCloud NGFW and Prisma Access are not impacted by this vulnerability.
+</code>
+
+- [Chocapikk/CVE-2024-9474](https://github.com/Chocapikk/CVE-2024-9474)
+
 ### CVE-2024-9570 (2024-10-07)
 
 <code>Eine Schwachstelle wurde in D-Link DIR-619L B1 2.06 gefunden. Sie wurde als kritisch eingestuft. Hierbei geht es um die Funktion formEasySetTimezone der Datei /goform/formEasySetTimezone. Durch das Beeinflussen des Arguments curTime mit unbekannten Daten kann eine buffer overflow-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
@@ -6664,7 +6671,11 @@
 ### CVE-2024-50657
 - [SAHALLL/CVE-2024-50657](https://github.com/SAHALLL/CVE-2024-50657)
 
-### CVE-2024-50803
+### CVE-2024-50803 (2024-11-19)
+
+<code>The mediapool feature of the Redaxo Core CMS application v 5.17.1 is vulnerable to Cross Site Scripting(XSS) which allows a remote attacker to escalate privileges
+</code>
+
 - [Praison001/CVE-2024-50803-Redaxo](https://github.com/Praison001/CVE-2024-50803-Redaxo)
 
 ### CVE-2024-50804 (2024-11-18)
@@ -6862,6 +6873,13 @@
 </code>
 
 - [famixcm/CVE-2024-52316](https://github.com/famixcm/CVE-2024-52316)
+
+### CVE-2024-52711 (2024-11-19)
+
+<code>DI-8100 v16.07.26A1 is vulnerable to Buffer Overflow In the ip_position_asp function via the ip parameter.
+</code>
+
+- [14mb1v45h/cyberspace-CVE-2024-52711](https://github.com/14mb1v45h/cyberspace-CVE-2024-52711)
 
 ### CVE-2024-52940 (2024-11-18)
 
@@ -11037,6 +11055,7 @@
 - [le01s/poc-CVE-2023-32784](https://github.com/le01s/poc-CVE-2023-32784)
 - [mister-turtle/cve-2023-32784](https://github.com/mister-turtle/cve-2023-32784)
 - [Cmadhushanka/CVE-2023-32784-Exploitation](https://github.com/Cmadhushanka/CVE-2023-32784-Exploitation)
+- [SarahZimmermann-Schmutzler/exploit_keepass](https://github.com/SarahZimmermann-Schmutzler/exploit_keepass)
 
 ### CVE-2023-32961 (2023-06-12)
 
@@ -14085,13 +14104,6 @@
 </code>
 
 - [mr-xmen786/CVE-2023-46478](https://github.com/mr-xmen786/CVE-2023-46478)
-
-### CVE-2023-46480 (2023-11-27)
-
-<code>An issue in OwnCast v.0.1.1 allows a remote attacker to execute arbitrary code and obtain sensitive information via the authHost parameter of the indieauth function.
-</code>
-
-- [shahzaibak96/CVE-2023-46480](https://github.com/shahzaibak96/CVE-2023-46480)
 
 ### CVE-2023-46501 (2023-11-07)
 
@@ -33470,6 +33482,7 @@
 - [elbiazo/CVE-2020-27786](https://github.com/elbiazo/CVE-2020-27786)
 - [Trinadh465/linux-4.19.72_CVE-2020-27786](https://github.com/Trinadh465/linux-4.19.72_CVE-2020-27786)
 - [ii4gsp/CVE-2020-27786](https://github.com/ii4gsp/CVE-2020-27786)
+- [enlist12/CVE-2020-27786](https://github.com/enlist12/CVE-2020-27786)
 
 ### CVE-2020-27815 (2021-05-26)
 
