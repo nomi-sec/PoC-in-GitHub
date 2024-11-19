@@ -1990,6 +1990,13 @@
 
 - [RandomRobbieBF/CVE-2024-10586](https://github.com/RandomRobbieBF/CVE-2024-10586)
 
+### CVE-2024-10592 (2024-11-16)
+
+<code>The Mapster WP Maps plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the popup class parameter in all versions up to, and including, 1.6.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
+- [windz3r0day/CVE-2024-10592](https://github.com/windz3r0day/CVE-2024-10592)
+
 ### CVE-2024-10605 (2024-10-31)
 
 <code>Es wurde eine Schwachstelle in code-projects Blood Bank Management System 1.0 ausgemacht. Sie wurde als problematisch eingestuft. Es betrifft eine unbekannte Funktion der Datei /file/request.php. Durch die Manipulation mit unbekannten Daten kann eine cross-site request forgery-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -2043,6 +2050,7 @@
 
 - [RandomRobbieBF/CVE-2024-10924](https://github.com/RandomRobbieBF/CVE-2024-10924)
 - [FoKiiin/CVE-2024-10924](https://github.com/FoKiiin/CVE-2024-10924)
+- [m3ssap0/wordpress-really-simple-security-authn-bypass-vulnerable-application](https://github.com/m3ssap0/wordpress-really-simple-security-authn-bypass-vulnerable-application)
 
 ### CVE-2024-10958 (2024-11-10)
 
@@ -4508,7 +4516,11 @@
 
 - [paragbagul111/CVE-2024-33210](https://github.com/paragbagul111/CVE-2024-33210)
 
-### CVE-2024-33231
+### CVE-2024-33231 (2024-11-18)
+
+<code>Cross Site Scripting vulnerability in Ferozo Email version 1.1 allows a local attacker to execute arbitrary code via a crafted payload to the PDF preview component.
+</code>
+
 - [fdzdev/CVE-2024-33231](https://github.com/fdzdev/CVE-2024-33231)
 
 ### CVE-2024-33352
@@ -5271,6 +5283,13 @@
 
 - [vx7z/CVE-2024-38189](https://github.com/vx7z/CVE-2024-38189)
 
+### CVE-2024-38193 (2024-08-13)
+
+<code>Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+</code>
+
+- [Nephster/CVE-2024-38193](https://github.com/Nephster/CVE-2024-38193)
+
 ### CVE-2024-38200 (2024-08-08)
 
 <code>Microsoft Office Spoofing Vulnerability
@@ -5886,6 +5905,13 @@
 
 - [p33d/CVE-2024-43363](https://github.com/p33d/CVE-2024-43363)
 
+### CVE-2024-43416 (2024-11-18)
+
+<code>GLPI is a free asset and IT management software package. Starting in version 0.80 and prior to version 10.0.17, an unauthenticated user can use an application endpoint to check if an email address corresponds to a valid GLPI user. Version 10.0.17 fixes the issue.
+</code>
+
+- [0xmupa/CVE-2024-43416-PoC](https://github.com/0xmupa/CVE-2024-43416-PoC)
+
 ### CVE-2024-43425 (2024-11-07)
 
 <code>A flaw was found in Moodle. Additional restrictions are required to avoid a remote code execution risk in calculated question types. Note: This requires the capability to add/update questions.
@@ -5906,6 +5932,13 @@
 </code>
 
 - [jinxongwi/CVE-2024-43582-RCE](https://github.com/jinxongwi/CVE-2024-43582-RCE)
+
+### CVE-2024-43639 (2024-11-12)
+
+<code>Windows KDC Proxy Remote Code Execution Vulnerability
+</code>
+
+- [exploitsecure/CVE-2024-43639](https://github.com/exploitsecure/CVE-2024-43639)
 
 ### CVE-2024-43917 (2024-08-29)
 
@@ -6597,13 +6630,25 @@
 ### CVE-2024-50803
 - [Praison001/CVE-2024-50803-Redaxo](https://github.com/Praison001/CVE-2024-50803-Redaxo)
 
-### CVE-2024-50804
+### CVE-2024-50804 (2024-11-18)
+
+<code>Insecure Permissions vulnerability in Micro-star International MSI Center Pro 2.1.37.0 allows a local attacker to execute arbitrary code via the Device_DeviceID.dat.bak file within the C:\ProgramData\MSI\One Dragon Center\Data folder
+</code>
+
 - [g3tsyst3m/CVE-2024-50804](https://github.com/g3tsyst3m/CVE-2024-50804)
 
-### CVE-2024-50848
+### CVE-2024-50848 (2024-11-18)
+
+<code>An XML External Entity (XXE) vulnerability in the Import object and Translation Memory import functionalities of WorldServer v11.8.2 to access sensitive information and execute arbitrary commands via supplying a crafted .tmx file.
+</code>
+
 - [Wh1teSnak3/CVE-2024-50848](https://github.com/Wh1teSnak3/CVE-2024-50848)
 
-### CVE-2024-50849
+### CVE-2024-50849 (2024-11-18)
+
+<code>Cross-Site Scripting (XSS) in the &quot;Rules&quot; functionality in WordServer 11.8.2 allows a remote authenticated attacker to execute arbitrary code.
+</code>
+
 - [Wh1teSnak3/CVE-2024-50849](https://github.com/Wh1teSnak3/CVE-2024-50849)
 
 ### CVE-2024-50961
