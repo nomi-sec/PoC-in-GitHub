@@ -8,6 +8,7 @@
 
 - [watchtowrlabs/palo-alto-panos-cve-2024-0012](https://github.com/watchtowrlabs/palo-alto-panos-cve-2024-0012)
 - [Sachinart/CVE-2024-0012-POC](https://github.com/Sachinart/CVE-2024-0012-POC)
+- [greaselovely/CVE-2024-0012](https://github.com/greaselovely/CVE-2024-0012)
 
 ### CVE-2024-0015 (2024-02-16)
 
@@ -2072,6 +2073,8 @@
 - [m3ssap0/wordpress-really-simple-security-authn-bypass-vulnerable-application](https://github.com/m3ssap0/wordpress-really-simple-security-authn-bypass-vulnerable-application)
 - [MattJButler/CVE-2024-10924](https://github.com/MattJButler/CVE-2024-10924)
 - [m3ssap0/wordpress-really-simple-security-authn-bypass-exploit](https://github.com/m3ssap0/wordpress-really-simple-security-authn-bypass-exploit)
+- [julesbsz/CVE-2024-10924](https://github.com/julesbsz/CVE-2024-10924)
+- [Trackflaw/CVE-2024-10924-Wordpress-Docker](https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker)
 
 ### CVE-2024-10958 (2024-11-10)
 
@@ -6516,6 +6519,9 @@
 
 - [je5442804/WPTaskScheduler_CVE-2024-49039](https://github.com/je5442804/WPTaskScheduler_CVE-2024-49039)
 
+### CVE-2024-49203
+- [CSIRTTrizna/CVE-2024-49203](https://github.com/CSIRTTrizna/CVE-2024-49203)
+
 ### CVE-2024-49328 (2024-10-20)
 
 <code>Authentication Bypass Using an Alternate Path or Channel vulnerability in Vivek Tamrakar WP REST API FNS allows Authentication Bypass.This issue affects WP REST API FNS: from n/a through 1.0.0.
@@ -6869,6 +6875,9 @@
 
 - [famixcm/CVE-2024-52316](https://github.com/famixcm/CVE-2024-52316)
 - [TAM-K592/CVE-2024-52316](https://github.com/TAM-K592/CVE-2024-52316)
+
+### CVE-2024-52677
+- [J-0k3r/CVE-2024-52677](https://github.com/J-0k3r/CVE-2024-52677)
 
 ### CVE-2024-52711 (2024-11-19)
 
@@ -10140,6 +10149,9 @@
 - [gobysec/CVE-2023-28343](https://github.com/gobysec/CVE-2023-28343)
 - [superzerosec/CVE-2023-28343](https://github.com/superzerosec/CVE-2023-28343)
 - [hba343434/CVE-2023-28343](https://github.com/hba343434/CVE-2023-28343)
+
+### CVE-2023-28354
+- [stormfleet/CVE-2023-28354](https://github.com/stormfleet/CVE-2023-28354)
 
 ### CVE-2023-28432 (2023-03-22)
 
@@ -14961,6 +14973,7 @@
 - [sunnyvale-it/CVE-2023-50164-PoC](https://github.com/sunnyvale-it/CVE-2023-50164-PoC)
 - [AsfandAliMemon25/CVE-2023-50164Analysis-](https://github.com/AsfandAliMemon25/CVE-2023-50164Analysis-)
 - [NikitaPark/CVE-2023-50164-PoC](https://github.com/NikitaPark/CVE-2023-50164-PoC)
+- [Trackflaw/CVE-2024-10924-Wordpress-Docker](https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker)
 
 ### CVE-2023-50226 (2024-05-03)
 
@@ -39851,7 +39864,11 @@
 
 - [tamirzb/CVE-2018-9411](https://github.com/tamirzb/CVE-2018-9411)
 
-### CVE-2018-9468
+### CVE-2018-9468 (2024-11-20)
+
+<code>In query of DownloadManager.java, there is a possible read/write of arbitrary files due to a permissions bypass. This could lead to local information disclosure and file rewriting with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
 - [IOActive/AOSP-DownloadProviderHijacker](https://github.com/IOActive/AOSP-DownloadProviderHijacker)
 
 ### CVE-2018-9493 (2018-10-02)
@@ -40652,6 +40669,7 @@
 - [NestyF/SSH_Enum_CVE-2018-15473](https://github.com/NestyF/SSH_Enum_CVE-2018-15473)
 - [yZ1337/CVE-2018-15473](https://github.com/yZ1337/CVE-2018-15473)
 - [MahdiOsman/CVE-2018-15473-SNMPv1-2-Community-String-Vulnerability-Testing](https://github.com/MahdiOsman/CVE-2018-15473-SNMPv1-2-Community-String-Vulnerability-Testing)
+- [SUDORM0X/PoC-CVE-2018-15473](https://github.com/SUDORM0X/PoC-CVE-2018-15473)
 
 ### CVE-2018-15499 (2018-08-24)
 
@@ -42524,6 +42542,13 @@
 - [adjaliya/-CVE-2017-7494-Samba-Exploit-POC](https://github.com/adjaliya/-CVE-2017-7494-Samba-Exploit-POC)
 - [00mjk/exploit-CVE-2017-7494](https://github.com/00mjk/exploit-CVE-2017-7494)
 - [d3fudd/CVE-2017-7494_SambaCry](https://github.com/d3fudd/CVE-2017-7494_SambaCry)
+
+### CVE-2017-7504 (2017-05-19)
+
+<code>HTTPServerILServlet.java in JMS over HTTP Invocation Layer of the JbossMQ implementation, which is enabled by default in Red Hat Jboss Application Server &lt;= Jboss 4.X does not restrict the classes for which it performs deserialization, which allows remote attackers to execute arbitrary code via crafted serialized data.
+</code>
+
+- [wudidwo/CVE-2017-7504-poc](https://github.com/wudidwo/CVE-2017-7504-poc)
 
 ### CVE-2017-7525 (2018-02-06)
 
@@ -47107,7 +47132,6 @@
 </code>
 
 - [heroku/heroku-CVE-2013-0269](https://github.com/heroku/heroku-CVE-2013-0269)
-- [danring/heroku-CVE-2013-0269](https://github.com/danring/heroku-CVE-2013-0269)
 
 ### CVE-2013-0303 (2014-03-23)
 
