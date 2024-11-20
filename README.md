@@ -1836,6 +1836,7 @@
 </code>
 
 - [Chocapikk/CVE-2024-9474](https://github.com/Chocapikk/CVE-2024-9474)
+- [k4nfr3/CVE-2024-9474](https://github.com/k4nfr3/CVE-2024-9474)
 
 ### CVE-2024-9570 (2024-10-07)
 
@@ -2505,6 +2506,13 @@
 
 - [SeanPesce/CVE-2024-22243](https://github.com/SeanPesce/CVE-2024-22243)
 - [shellfeel/CVE-2024-22243-CVE-2024-22234](https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234)
+
+### CVE-2024-22262 (2024-04-16)
+
+<code>Applications that use UriComponentsBuilder to parse an externally provided URL (e.g. through a query parameter) AND perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html  attack or to a SSRF attack if the URL is used after passing validation checks.\n\nThis is the same as  CVE-2024-22259 https://spring.io/security/cve-2024-22259  and  CVE-2024-22243 https://spring.io/security/cve-2024-22243 , but with different input.\n\n
+</code>
+
+- [Performant-Labs/CVE-2024-22262](https://github.com/Performant-Labs/CVE-2024-22262)
 
 ### CVE-2024-22263 (2024-06-19)
 
@@ -5827,6 +5835,7 @@
 </code>
 
 - [rvizx/CVE-2024-42640](https://github.com/rvizx/CVE-2024-42640)
+- [KTN1990/CVE-2024-42640](https://github.com/KTN1990/CVE-2024-42640)
 
 ### CVE-2024-42642 (2024-09-04)
 
@@ -5914,13 +5923,6 @@
 - [v9d0g/CVE-2024-43044-POC](https://github.com/v9d0g/CVE-2024-43044-POC)
 - [convisolabs/CVE-2024-43044-jenkins](https://github.com/convisolabs/CVE-2024-43044-jenkins)
 
-### CVE-2024-43093 (2024-11-13)
-
-<code>In shouldHideDocument of ExternalStorageProvider.java, there is a possible bypass of a file path filter designed to prevent access to sensitive directories due to  incorrect unicode normalization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.
-</code>
-
-- [exploitsecure/CVE-2024-43093](https://github.com/exploitsecure/CVE-2024-43093)
-
 ### CVE-2024-43160 (2024-08-13)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in BerqWP allows Code Injection.This issue affects BerqWP: from n/a through 1.7.6.
@@ -5962,13 +5964,6 @@
 </code>
 
 - [jinxongwi/CVE-2024-43582-RCE](https://github.com/jinxongwi/CVE-2024-43582-RCE)
-
-### CVE-2024-43639 (2024-11-12)
-
-<code>Windows KDC Proxy Remote Code Execution Vulnerability
-</code>
-
-- [exploitsecure/CVE-2024-43639](https://github.com/exploitsecure/CVE-2024-43639)
 
 ### CVE-2024-43917 (2024-08-29)
 
@@ -7645,6 +7640,13 @@
 </code>
 
 - [vpxuser/CVE-2023-3712-POC](https://github.com/vpxuser/CVE-2023-3712-POC)
+
+### CVE-2023-3722 (2023-07-19)
+
+<code>An OS command injection vulnerability was found in the Avaya Aura Device Services Web application which could allow remote code execution as the Web server user via a malicious uploaded file. This issue affects Avaya Aura Device Services version 8.1.4.0 and earlier.
+</code>
+
+- [pizza-power/CVE-2023-3722](https://github.com/pizza-power/CVE-2023-3722)
 
 ### CVE-2023-3824 (2023-08-11)
 
@@ -17253,6 +17255,13 @@
 </code>
 
 - [MarcinGadz/spring-rce-poc](https://github.com/MarcinGadz/spring-rce-poc)
+
+### CVE-2022-22970 (2022-05-12)
+
+<code>In spring framework versions prior to 5.3.20+ , 5.2.22+ and old unsupported versions, applications that handle file uploads are vulnerable to DoS attack if they rely on data binding to set a MultipartFile or javax.servlet.Part to a field in a model object.
+</code>
+
+- [Performant-Labs/CVE-2022-22970](https://github.com/Performant-Labs/CVE-2022-22970)
 
 ### CVE-2022-22971 (2022-05-12)
 
@@ -39834,7 +39843,11 @@
 ### CVE-2018-9375
 - [IOActive/AOSP-ExploitUserDictionary](https://github.com/IOActive/AOSP-ExploitUserDictionary)
 
-### CVE-2018-9411
+### CVE-2018-9411 (2024-11-19)
+
+<code>In decrypt of ClearKeyCasPlugin.cpp there is a possible out-of-bounds write due to a missing bounds check. This could lead to remote arbitrary code execution with no additional execution privileges needed. User interaction is needed for exploitation.
+</code>
+
 - [tamirzb/CVE-2018-9411](https://github.com/tamirzb/CVE-2018-9411)
 
 ### CVE-2018-9468
