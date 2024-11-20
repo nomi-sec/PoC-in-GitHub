@@ -6868,6 +6868,7 @@
 </code>
 
 - [famixcm/CVE-2024-52316](https://github.com/famixcm/CVE-2024-52316)
+- [TAM-K592/CVE-2024-52316](https://github.com/TAM-K592/CVE-2024-52316)
 
 ### CVE-2024-52711 (2024-11-19)
 
