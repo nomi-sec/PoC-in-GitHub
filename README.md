@@ -9,6 +9,7 @@
 - [watchtowrlabs/palo-alto-panos-cve-2024-0012](https://github.com/watchtowrlabs/palo-alto-panos-cve-2024-0012)
 - [Sachinart/CVE-2024-0012-POC](https://github.com/Sachinart/CVE-2024-0012-POC)
 - [greaselovely/CVE-2024-0012](https://github.com/greaselovely/CVE-2024-0012)
+- [VegetableLasagne/CVE-2024-0012](https://github.com/VegetableLasagne/CVE-2024-0012)
 
 ### CVE-2024-0015 (2024-02-16)
 
@@ -1122,6 +1123,7 @@
 - [Chocapikk/CVE-2024-5084](https://github.com/Chocapikk/CVE-2024-5084)
 - [k3lpi3b4nsh33/CVE-2024-5084](https://github.com/k3lpi3b4nsh33/CVE-2024-5084)
 - [WOOOOONG/CVE-2024-5084](https://github.com/WOOOOONG/CVE-2024-5084)
+- [z1gazaga/CVE-2024-5084](https://github.com/z1gazaga/CVE-2024-5084)
 
 ### CVE-2024-5124 (2024-06-06)
 
@@ -1719,6 +1721,7 @@
 </code>
 
 - [ubaii/CVE-2024-8856](https://github.com/ubaii/CVE-2024-8856)
+- [Jenderal92/CVE-2024-8856](https://github.com/Jenderal92/CVE-2024-8856)
 
 ### CVE-2024-8868 (2024-09-15)
 
@@ -1996,6 +1999,7 @@
 </code>
 
 - [ubaii/CVE-2024-10508](https://github.com/ubaii/CVE-2024-10508)
+- [Jenderal92/CVE-2024-10508](https://github.com/Jenderal92/CVE-2024-10508)
 
 ### CVE-2024-10557 (2024-10-31)
 
@@ -2070,7 +2074,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-10924](https://github.com/RandomRobbieBF/CVE-2024-10924)
-- [FoKiiin/CVE-2024-10924](https://github.com/FoKiiin/CVE-2024-10924)
 - [m3ssap0/wordpress-really-simple-security-authn-bypass-vulnerable-application](https://github.com/m3ssap0/wordpress-really-simple-security-authn-bypass-vulnerable-application)
 - [MattJButler/CVE-2024-10924](https://github.com/MattJButler/CVE-2024-10924)
 - [m3ssap0/wordpress-really-simple-security-authn-bypass-exploit](https://github.com/m3ssap0/wordpress-really-simple-security-authn-bypass-exploit)
@@ -2084,13 +2087,6 @@
 
 - [reinh3rz/CVE-2024-10958-WPPA-Exploit](https://github.com/reinh3rz/CVE-2024-10958-WPPA-Exploit)
 
-### CVE-2024-11120 (2024-11-15)
-
-<code>Certain EOL GeoVision devices have an OS Command Injection vulnerability. Unauthenticated remote attackers can exploit this vulnerability to inject and execute arbitrary system commands on the device. Moreover, this vulnerability has already been exploited by attackers, and we have received related reports.
-</code>
-
-- [FoKiiin/CVE-2024-11120](https://github.com/FoKiiin/CVE-2024-11120)
-
 ### CVE-2024-11319 (2024-11-18)
 
 <code>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in django CMS Association django-cms allows Cross-Site Scripting (XSS).This issue affects django-cms: 3.11.7, 3.11.8, 4.1.2, 4.1.3.
@@ -2100,9 +2096,6 @@
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
-
-### CVE-2024-19002
-- [adminlove520/cve-2024-19002](https://github.com/adminlove520/cve-2024-19002)
 
 ### CVE-2024-20017 (2024-03-04)
 
@@ -4216,7 +4209,11 @@
 
 - [Ant1sec-ops/CVE-2024-30875](https://github.com/Ant1sec-ops/CVE-2024-30875)
 
-### CVE-2024-30896
+### CVE-2024-30896 (2024-11-21)
+
+<code>InfluxDB through 2.7.10 allows allAccess administrators to retrieve all raw tokens via an &quot;influx auth ls&quot; command. NOTE: the supplier indicates that this is intentional but is a &quot;poor design choice&quot; that will be changed in a future release.
+</code>
+
 - [XenoM0rph97/CVE-2024-30896](https://github.com/XenoM0rph97/CVE-2024-30896)
 
 ### CVE-2024-30956
@@ -6888,12 +6885,12 @@
 - [famixcm/CVE-2024-52316](https://github.com/famixcm/CVE-2024-52316)
 - [TAM-K592/CVE-2024-52316](https://github.com/TAM-K592/CVE-2024-52316)
 
-### CVE-2024-52677 (2024-11-20)
+### CVE-2024-52317 (2024-11-18)
 
-<code>HkCms &lt;= v2.3.2.240702 is vulnerable to file upload in the getFileName method in /app/common/library/Upload.php.
+<code>Incorrect object re-cycling and re-use vulnerability in Apache Tomcat. Incorrect recycling of the request and response used by HTTP/2 requests \ncould lead to request and/or response mix-up between users.\n\nThis issue affects Apache Tomcat: from 11.0.0-M23 through 11.0.0-M26, from 10.1.27 through 10.1.30, from 9.0.92 through 9.0.95.\n\nUsers are recommended to upgrade to version 11.0.0, 10.1.31 or 9.0.96, which fixes the issue.
 </code>
 
-- [J-0k3r/CVE-2024-52677](https://github.com/J-0k3r/CVE-2024-52677)
+- [TAM-K592/CVE-2024-52317](https://github.com/TAM-K592/CVE-2024-52317)
 
 ### CVE-2024-52711 (2024-11-19)
 
@@ -43875,13 +43872,6 @@
 
 ### CVE-2017-1000000
 - [smythtech/DWF-CVE-2017-1000000](https://github.com/smythtech/DWF-CVE-2017-1000000)
-
-### CVE-2017-1000004 (2017-07-13)
-
-<code>ATutor version 2.2.1 and earlier are vulnerable to a SQL injection in the Assignment Dropbox, BasicLTI, Blog Post, Blog, Group Course Email, Course Alumni, Course Enrolment, Group Membership, Course unenrolment, Course Enrolment List Search, Glossary, Social Group Member Search, Social Friend Search, Social Group Search, File Comment, Gradebook Test Title, User Group Membership, Inbox/Sent Items, Sent Messages, Links, Photo Album, Poll, Social Application, Social Profile, Test, Content Menu, Auto-Login, and Gradebook components resulting in information disclosure, database modification, or potential code execution.
-</code>
-
-- [yazan828/CVE-2017-1000004](https://github.com/yazan828/CVE-2017-1000004)
 
 ### CVE-2017-1000028 (2017-07-13)
 
