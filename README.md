@@ -1838,6 +1838,7 @@
 
 - [Chocapikk/CVE-2024-9474](https://github.com/Chocapikk/CVE-2024-9474)
 - [k4nfr3/CVE-2024-9474](https://github.com/k4nfr3/CVE-2024-9474)
+- [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 
 ### CVE-2024-9570 (2024-10-07)
 
@@ -6512,6 +6513,13 @@
 
 - [BrotherOfJhonny/CVE-2024-48955_Overview](https://github.com/BrotherOfJhonny/CVE-2024-48955_Overview)
 
+### CVE-2024-48990 (2024-11-19)
+
+<code>Qualys discovered that needrestart, before version 3.8, allows local attackers to execute arbitrary code as root by tricking needrestart into running the Python interpreter with an attacker-controlled PYTHONPATH environment variable.
+</code>
+
+- [makuga01/CVE-2024-48990-PoC](https://github.com/makuga01/CVE-2024-48990-PoC)
+
 ### CVE-2024-49039 (2024-11-12)
 
 <code>Windows Task Scheduler Elevation of Privilege Vulnerability
@@ -6519,7 +6527,11 @@
 
 - [je5442804/WPTaskScheduler_CVE-2024-49039](https://github.com/je5442804/WPTaskScheduler_CVE-2024-49039)
 
-### CVE-2024-49203
+### CVE-2024-49203 (2024-11-20)
+
+<code>Querydsl 5.1.0 allows SQL/HQL injection in orderBy in JPAQuery.
+</code>
+
 - [CSIRTTrizna/CVE-2024-49203](https://github.com/CSIRTTrizna/CVE-2024-49203)
 
 ### CVE-2024-49328 (2024-10-20)
@@ -6876,7 +6888,11 @@
 - [famixcm/CVE-2024-52316](https://github.com/famixcm/CVE-2024-52316)
 - [TAM-K592/CVE-2024-52316](https://github.com/TAM-K592/CVE-2024-52316)
 
-### CVE-2024-52677
+### CVE-2024-52677 (2024-11-20)
+
+<code>HkCms &lt;= v2.3.2.240702 is vulnerable to file upload in the getFileName method in /app/common/library/Upload.php.
+</code>
+
 - [J-0k3r/CVE-2024-52677](https://github.com/J-0k3r/CVE-2024-52677)
 
 ### CVE-2024-52711 (2024-11-19)
