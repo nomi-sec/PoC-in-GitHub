@@ -959,6 +959,7 @@
 - [d0rb/CVE-2024-4439](https://github.com/d0rb/CVE-2024-4439)
 - [xssor-dz/-CVE-2024-4439](https://github.com/xssor-dz/-CVE-2024-4439)
 - [soltanali0/CVE-2024-4439](https://github.com/soltanali0/CVE-2024-4439)
+- [w0r1i0g1ht/CVE-2024-4439](https://github.com/w0r1i0g1ht/CVE-2024-4439)
 
 ### CVE-2024-4443 (2024-05-22)
 
@@ -6905,6 +6906,13 @@
 </code>
 
 - [TAM-K592/CVE-2024-52318](https://github.com/TAM-K592/CVE-2024-52318)
+
+### CVE-2024-52382 (2024-11-14)
+
+<code>Missing Authorization vulnerability in Medma Technologies Matix Popup Builder allows Privilege Escalation.This issue affects Matix Popup Builder: from n/a through 1.0.0.
+</code>
+
+- [RandomRobbieBF/CVE-2024-52382](https://github.com/RandomRobbieBF/CVE-2024-52382)
 
 ### CVE-2024-52711 (2024-11-19)
 
@@ -25375,6 +25383,7 @@
 <code>A SQL injection vulnerability in the pandora_console component of Artica Pandora FMS 742 allows an unauthenticated attacker to upgrade his unprivileged session via the /include/chart_generator.php session_id parameter, leading to a login bypass.
 </code>
 
+- [zjicmDarkWing/CVE-2021-32099](https://github.com/zjicmDarkWing/CVE-2021-32099)
 - [ibnuuby/CVE-2021-32099](https://github.com/ibnuuby/CVE-2021-32099)
 - [l3eol3eo/CVE-2021-32099_SQLi](https://github.com/l3eol3eo/CVE-2021-32099_SQLi)
 - [akr3ch/CVE-2021-32099](https://github.com/akr3ch/CVE-2021-32099)
@@ -25657,13 +25666,6 @@
 ### CVE-2021-34045
 - [Al1ex/CVE-2021-34045](https://github.com/Al1ex/CVE-2021-34045)
 - [kenuosec/CVE-2021-34045](https://github.com/kenuosec/CVE-2021-34045)
-
-### CVE-2021-34081 (2022-06-01)
-
-<code>OS Command Injection vulnerability in bbultman gitsome through 0.2.3 allows attackers to execute arbitrary commands via a crafted tag name of the target git repository.
-</code>
-
-- [jason-rodrigues/CVEX-Record](https://github.com/jason-rodrigues/CVEX-Record)
 
 ### CVE-2021-34371 (2021-08-05)
 
@@ -35105,7 +35107,6 @@
 - [b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
 - [yyqs2008/CVE-2019-5736-PoC-2](https://github.com/yyqs2008/CVE-2019-5736-PoC-2)
-- [zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC)
 - [stillan00b/CVE-2019-5736](https://github.com/stillan00b/CVE-2019-5736)
 - [milloni/cve-2019-5736-exp](https://github.com/milloni/cve-2019-5736-exp)
 - [panzouh/Docker-Runc-Exploit](https://github.com/panzouh/Docker-Runc-Exploit)
