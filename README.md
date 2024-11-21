@@ -1944,6 +1944,9 @@
 
 - [holypryx/CVE-2024-10140](https://github.com/holypryx/CVE-2024-10140)
 
+### CVE-2024-10220
+- [mochizuki875/CVE-2024-10220-githooks](https://github.com/mochizuki875/CVE-2024-10220-githooks)
+
 ### CVE-2024-10245 (2024-11-12)
 
 <code>The Relais 2FA plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 1.0. This is due to incorrect authentication and capability checking in the 'rl_do_ajax' function. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the email.
@@ -4012,6 +4015,9 @@
 
 - [swsmith2391/CVE-2024-29510](https://github.com/swsmith2391/CVE-2024-29510)
 
+### CVE-2024-29671
+- [laskdjlaskdj12/CVE-2024-29671-POC](https://github.com/laskdjlaskdj12/CVE-2024-29671-POC)
+
 ### CVE-2024-29824 (2024-05-31)
 
 <code>An unspecified SQL Injection vulnerability in Core server of Ivanti EPM 2022 SU5 and prior allows an unauthenticated attacker within the same network to execute arbitrary code.
@@ -4895,7 +4901,7 @@
 </code>
 
 - [varwara/CVE-2024-35250](https://github.com/varwara/CVE-2024-35250)
-- [0xjiefeng/CVE-2024-35250-BOF](https://github.com/0xjiefeng/CVE-2024-35250-BOF)
+- [ro0tmylove/CVE-2024-35250-BOF](https://github.com/ro0tmylove/CVE-2024-35250-BOF)
 
 ### CVE-2024-35315 (2024-10-21)
 
@@ -6201,6 +6207,7 @@
 </code>
 
 - [pankass/CVE-2024-45436](https://github.com/pankass/CVE-2024-45436)
+- [XiaomingX/CVE-2024-45436-exp](https://github.com/XiaomingX/CVE-2024-45436-exp)
 
 ### CVE-2024-45492 (2024-08-30)
 
@@ -6891,6 +6898,13 @@
 </code>
 
 - [TAM-K592/CVE-2024-52317](https://github.com/TAM-K592/CVE-2024-52317)
+
+### CVE-2024-52318 (2024-11-18)
+
+<code>Incorrect object recycling and reuse vulnerability in Apache Tomcat.\n\nThis issue affects Apache Tomcat: 11.0.0, 10.1.31, 9.0.96.\n\nUsers are recommended to upgrade to version 11.0.1, 10.1.32 or 9.0.97, which fixes the issue.
+</code>
+
+- [TAM-K592/CVE-2024-52318](https://github.com/TAM-K592/CVE-2024-52318)
 
 ### CVE-2024-52711 (2024-11-19)
 
@@ -13684,13 +13698,6 @@
 - [TYuan0816/cve-2023-44487](https://github.com/TYuan0816/cve-2023-44487)
 - [sn130hk/CVE-2023-44487](https://github.com/sn130hk/CVE-2023-44487)
 
-### CVE-2023-44488 (2023-09-30)
-
-<code>VP9 in libvpx before 1.13.1 mishandles widths, leading to a crash related to encoding.
-</code>
-
-- [uthrasri/CVE-2023-44488-_libvpx_1.8.0](https://github.com/uthrasri/CVE-2023-44488-_libvpx_1.8.0)
-
 ### CVE-2023-44758 (2023-10-06)
 
 <code>GDidees CMS 3.0 is affected by a Cross-Site Scripting (XSS) vulnerability that allows attackers to execute arbitrary code via a crafted payload to the Page Title.
@@ -19666,6 +19673,13 @@
 
 - [Toxich4/CVE-2022-32199](https://github.com/Toxich4/CVE-2022-32199)
 
+### CVE-2022-32206 (2022-07-07)
+
+<code>curl &lt; 7.84.0 supports &quot;chained&quot; HTTP compression algorithms, meaning that a serverresponse can be compressed multiple times and potentially with different algorithms. The number of acceptable &quot;links&quot; in this &quot;decompression chain&quot; was unbounded, allowing a malicious server to insert a virtually unlimited number of compression steps.The use of such a decompression chain could result in a &quot;malloc bomb&quot;, makingcurl end up spending enormous amounts of allocated heap memory, or trying toand returning out of memory errors.
+</code>
+
+- [HimanshuS67/external_curl_AOSP10_CVE-2022-32206](https://github.com/HimanshuS67/external_curl_AOSP10_CVE-2022-32206)
+
 ### CVE-2022-32223 (2022-07-14)
 
 <code>Node.js is vulnerable to Hijack Execution Flow: DLL Hijacking under certain conditions on Windows platforms.This vulnerability can be exploited if the victim has the following dependencies on a Windows machine:* OpenSSL has been installed and “C:\Program Files\Common Files\SSL\openssl.cnf” exists.Whenever the above conditions are present, `node.exe` will search for `providers.dll` in the current user directory.After that, `node.exe` will try to search for `providers.dll` by the DLL Search Order in Windows.It is possible for an attacker to place the malicious file `providers.dll` under a variety of paths and exploit this vulnerability.
@@ -25101,7 +25115,7 @@
 <code>Use after free in GPU in Google Chrome prior to 92.0.4515.107 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 </code>
 
-- [s4e-io/CVE-2021-30573-PoC-Google-Chrome](https://github.com/s4e-io/CVE-2021-30573-PoC-Google-Chrome)
+- [s4eio/CVE-2021-30573-PoC-Google-Chrome](https://github.com/s4eio/CVE-2021-30573-PoC-Google-Chrome)
 - [orangmuda/CVE-2021-30573](https://github.com/orangmuda/CVE-2021-30573)
 - [kh4sh3i/CVE-2021-30573](https://github.com/kh4sh3i/CVE-2021-30573)
 
@@ -25361,7 +25375,6 @@
 <code>A SQL injection vulnerability in the pandora_console component of Artica Pandora FMS 742 allows an unauthenticated attacker to upgrade his unprivileged session via the /include/chart_generator.php session_id parameter, leading to a login bypass.
 </code>
 
-- [zjicmDarkWing/CVE-2021-32099](https://github.com/zjicmDarkWing/CVE-2021-32099)
 - [ibnuuby/CVE-2021-32099](https://github.com/ibnuuby/CVE-2021-32099)
 - [l3eol3eo/CVE-2021-32099_SQLi](https://github.com/l3eol3eo/CVE-2021-32099_SQLi)
 - [akr3ch/CVE-2021-32099](https://github.com/akr3ch/CVE-2021-32099)
@@ -28239,6 +28252,7 @@
 - [YangHyperData/LOGJ4_PocShell_CVE-2021-44228](https://github.com/YangHyperData/LOGJ4_PocShell_CVE-2021-44228)
 - [Hoanle396/CVE-2021-44228-demo](https://github.com/Hoanle396/CVE-2021-44228-demo)
 - [tadash10/Exploiting-CVE-2021-44228-Log4Shell-in-a-Banking-Environment](https://github.com/tadash10/Exploiting-CVE-2021-44228-Log4Shell-in-a-Banking-Environment)
+- [cve-2021-44228/cve-2021-44228](https://github.com/cve-2021-44228/cve-2021-44228)
 - [asd58584388/CVE-2021-44228](https://github.com/asd58584388/CVE-2021-44228)
 - [OtisSymbos/CVE-2021-44228-Log4Shell-](https://github.com/OtisSymbos/CVE-2021-44228-Log4Shell-)
 - [safeer-accuknox/log4j-shell-poc](https://github.com/safeer-accuknox/log4j-shell-poc)
