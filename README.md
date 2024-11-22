@@ -11,6 +11,7 @@
 - [greaselovely/CVE-2024-0012](https://github.com/greaselovely/CVE-2024-0012)
 - [VegetableLasagne/CVE-2024-0012](https://github.com/VegetableLasagne/CVE-2024-0012)
 - [iSee857/CVE-2024-0012-poc](https://github.com/iSee857/CVE-2024-0012-poc)
+- [XiaomingX/cve-2024-0012-poc](https://github.com/XiaomingX/cve-2024-0012-poc)
 
 ### CVE-2024-0015 (2024-02-16)
 
@@ -1960,7 +1961,11 @@
 
 - [holypryx/CVE-2024-10140](https://github.com/holypryx/CVE-2024-10140)
 
-### CVE-2024-10220
+### CVE-2024-10220 (2024-11-22)
+
+<code>The Kubernetes kubelet component allows arbitrary command execution via specially crafted gitRepo volumes.This issue affects kubelet: through 1.28.11, from 1.29.0 through 1.29.6, from 1.30.0 through 1.30.2.
+</code>
+
 - [mochizuki875/CVE-2024-10220-githooks](https://github.com/mochizuki875/CVE-2024-10220-githooks)
 
 ### CVE-2024-10245 (2024-11-12)
@@ -2112,6 +2117,41 @@
 </code>
 
 - [famixcm/CVE-2024-11319](https://github.com/famixcm/CVE-2024-11319)
+
+### CVE-2024-11381 (2024-11-22)
+
+<code>The Control horas plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'ch_registro' shortcode in all versions up to, and including, 1.0.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
+- [windz3r0day/CVE-2024-11381](https://github.com/windz3r0day/CVE-2024-11381)
+
+### CVE-2024-11388 (2024-11-21)
+
+<code>The Dino Game – Embed Google Chrome Dinosaur Game in WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'dino-game' shortcode in all versions up to, and including, 1.1.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
+- [windz3r0day/CVE-2024-11388](https://github.com/windz3r0day/CVE-2024-11388)
+
+### CVE-2024-11412 (2024-11-21)
+
+<code>The Shine PDF Embeder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'shinepdf' shortcode in all versions up to, and including, 1.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
+- [windz3r0day/CVE-2024-11412](https://github.com/windz3r0day/CVE-2024-11412)
+
+### CVE-2024-11428 (2024-11-21)
+
+<code>The Lazy load videos and sticky control plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'lazy-load-videos-and-sticky-control' shortcode in all versions up to, and including, 3.0.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
+- [windz3r0day/CVE-2024-11428](https://github.com/windz3r0day/CVE-2024-11428)
+
+### CVE-2024-11432 (2024-11-21)
+
+<code>The SuevaFree Essential Kit plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'counter' shortcode in all versions up to, and including, 1.1.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
+- [windz3r0day/CVE-2024-11432](https://github.com/windz3r0day/CVE-2024-11432)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -3441,6 +3481,7 @@
 - [thisisveryfunny/CVE-2024-25641-RCE-Automated-Exploit-Cacti-1.2.26](https://github.com/thisisveryfunny/CVE-2024-25641-RCE-Automated-Exploit-Cacti-1.2.26)
 - [Safarchand/CVE-2024-25641](https://github.com/Safarchand/CVE-2024-25641)
 - [StopThatTalace/CVE-2024-25641-CACTI-RCE-1.2.26](https://github.com/StopThatTalace/CVE-2024-25641-CACTI-RCE-1.2.26)
+- [XiaomingX/cve-2024-25641-poc](https://github.com/XiaomingX/cve-2024-25641-poc)
 
 ### CVE-2024-25723 (2024-02-27)
 
@@ -3606,6 +3647,7 @@
 
 - [watchtowrlabs/CVE-2024-27130](https://github.com/watchtowrlabs/CVE-2024-27130)
 - [d0rb/CVE-2024-27130](https://github.com/d0rb/CVE-2024-27130)
+- [XiaomingX/cve-2024-27130-poc](https://github.com/XiaomingX/cve-2024-27130-poc)
 
 ### CVE-2024-27173 (2024-06-14)
 
@@ -5009,6 +5051,7 @@
 - [netuseradministrator/CVE-2024-36401](https://github.com/netuseradministrator/CVE-2024-36401)
 - [kkhackz0013/CVE-2024-36401](https://github.com/kkhackz0013/CVE-2024-36401)
 - [thestar0/CVE-2024-36401-WoodpeckerPlugin](https://github.com/thestar0/CVE-2024-36401-WoodpeckerPlugin)
+- [XiaomingX/cve-2024-36401-poc](https://github.com/XiaomingX/cve-2024-36401-poc)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -5117,6 +5160,7 @@
 - [vuhz/CVE-2024-37084](https://github.com/vuhz/CVE-2024-37084)
 - [Ly4j/CVE-2024-37084-Exp](https://github.com/Ly4j/CVE-2024-37084-Exp)
 - [A0be/CVE-2024-37084-Exp](https://github.com/A0be/CVE-2024-37084-Exp)
+- [XiaomingX/cve-2024-37084-Poc](https://github.com/XiaomingX/cve-2024-37084-Poc)
 
 ### CVE-2024-37085 (2024-06-25)
 
@@ -6004,6 +6048,13 @@
 
 - [KTN1990/CVE-2024-43918](https://github.com/KTN1990/CVE-2024-43918)
 
+### CVE-2024-43919 (2024-11-01)
+
+<code>Access Control vulnerability in YARPP YARPP allows .\n\nThis issue affects YARPP: from n/a through 5.30.10.
+</code>
+
+- [RandomRobbieBF/CVE-2024-43919](https://github.com/RandomRobbieBF/CVE-2024-43919)
+
 ### CVE-2024-43965 (2024-08-29)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Smackcoders SendGrid for WordPress allows SQL Injection.This issue affects SendGrid for WordPress: from n/a through 1.4.
@@ -6544,6 +6595,7 @@
 
 - [makuga01/CVE-2024-48990-PoC](https://github.com/makuga01/CVE-2024-48990-PoC)
 - [ns989/CVE-2024-48990](https://github.com/ns989/CVE-2024-48990)
+- [felmoltor/CVE-2024-48990](https://github.com/felmoltor/CVE-2024-48990)
 
 ### CVE-2024-49039 (2024-11-12)
 
@@ -6706,7 +6758,11 @@
 
 - [RandomRobbieBF/CVE-2024-50498](https://github.com/RandomRobbieBF/CVE-2024-50498)
 
-### CVE-2024-50657
+### CVE-2024-50657 (2024-11-22)
+
+<code>An issue in Owncloud android apk v.4.3.1 allows a physically proximate attacker to escalate privileges via the PassCodeViewModel class, specifically in the checkPassCodeIsValid method
+</code>
+
 - [SAHALLL/CVE-2024-50657](https://github.com/SAHALLL/CVE-2024-50657)
 
 ### CVE-2024-50803 (2024-11-19)
@@ -6947,6 +7003,9 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-52433](https://github.com/RandomRobbieBF/CVE-2024-52433)
+
+### CVE-2024-52475
+- [ubaii/CVE-2024-52475](https://github.com/ubaii/CVE-2024-52475)
 
 ### CVE-2024-52711 (2024-11-19)
 
@@ -15116,7 +15175,7 @@
 <code>An issue in Hipcam Cameras RealServer v.1.0 allows a remote attacker to cause a denial of service via a crafted script to the client_port parameter.
 </code>
 
-- [UnderwaterCoder/Hipcam-RTSP-Format-Validation-Vulnerability](https://github.com/UnderwaterCoder/Hipcam-RTSP-Format-Validation-Vulnerability)
+- [MaximilianJungblut/Hipcam-RTSP-Format-Validation-Vulnerability](https://github.com/MaximilianJungblut/Hipcam-RTSP-Format-Validation-Vulnerability)
 
 ### CVE-2023-50868 (2024-02-14)
 
