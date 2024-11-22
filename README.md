@@ -2083,6 +2083,7 @@
 - [m3ssap0/wordpress-really-simple-security-authn-bypass-exploit](https://github.com/m3ssap0/wordpress-really-simple-security-authn-bypass-exploit)
 - [julesbsz/CVE-2024-10924](https://github.com/julesbsz/CVE-2024-10924)
 - [Trackflaw/CVE-2024-10924-Wordpress-Docker](https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker)
+- [dua1337/Exploit-for-CVE-2024-10924](https://github.com/dua1337/Exploit-for-CVE-2024-10924)
 
 ### CVE-2024-10958 (2024-11-10)
 
@@ -6524,6 +6525,7 @@
 </code>
 
 - [makuga01/CVE-2024-48990-PoC](https://github.com/makuga01/CVE-2024-48990-PoC)
+- [ns989/CVE-2024-48990](https://github.com/ns989/CVE-2024-48990)
 
 ### CVE-2024-49039 (2024-11-12)
 
@@ -6534,7 +6536,7 @@
 
 ### CVE-2024-49203 (2024-11-20)
 
-<code>Querydsl 5.1.0 allows SQL/HQL injection in orderBy in JPAQuery.
+<code>Querydsl 5.1.0 and OpenFeign Querydsl 6.8 allows SQL/HQL injection in orderBy in JPAQuery.
 </code>
 
 - [CSIRTTrizna/CVE-2024-49203](https://github.com/CSIRTTrizna/CVE-2024-49203)
@@ -6712,7 +6714,7 @@
 
 ### CVE-2024-50849 (2024-11-18)
 
-<code>Cross-Site Scripting (XSS) in the &quot;Rules&quot; functionality in WordServer 11.8.2 allows a remote authenticated attacker to execute arbitrary code.
+<code>A Stored Cross-Site Scripting (XSS) vulnerability in the &quot;Rules&quot; functionality of WorldServer v11.8.2 allows a remote authenticated attacker to execute arbitrary JavaScript code.
 </code>
 
 - [Wh1teSnak3/CVE-2024-50849](https://github.com/Wh1teSnak3/CVE-2024-50849)
