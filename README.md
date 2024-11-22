@@ -280,9 +280,6 @@
 
 - [gunzf0x/Issabel-PBX-4.0.0-RCE-Authenticated](https://github.com/gunzf0x/Issabel-PBX-4.0.0-RCE-Authenticated)
 
-### CVE-2024-111
-- [adminlove520/CVE-2024-111](https://github.com/adminlove520/CVE-2024-111)
-
 ### CVE-2024-1071 (2024-03-13)
 
 <code>The Ultimate Member – User Profile, Registration, Login, Member Directory, Content Restriction &amp; Membership Plugin plugin for WordPress is vulnerable to SQL Injection via the 'sorting' parameter in versions 2.1.3 to 2.8.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -1629,6 +1626,7 @@
 </code>
 
 - [bi-zone/CVE-2024-7965](https://github.com/bi-zone/CVE-2024-7965)
+- [XiaomingX/cve-2024-7965-poc](https://github.com/XiaomingX/cve-2024-7965-poc)
 
 ### CVE-2024-8190 (2024-09-10)
 
@@ -1812,6 +1810,7 @@
 
 - [adhikara13/CVE-2024-9441](https://github.com/adhikara13/CVE-2024-9441)
 - [p33d/CVE-2024-9441](https://github.com/p33d/CVE-2024-9441)
+- [XiaomingX/cve-2024-9441-poc](https://github.com/XiaomingX/cve-2024-9441-poc)
 
 ### CVE-2024-9464 (2024-10-09)
 
@@ -2083,7 +2082,6 @@
 - [m3ssap0/wordpress-really-simple-security-authn-bypass-exploit](https://github.com/m3ssap0/wordpress-really-simple-security-authn-bypass-exploit)
 - [julesbsz/CVE-2024-10924](https://github.com/julesbsz/CVE-2024-10924)
 - [Trackflaw/CVE-2024-10924-Wordpress-Docker](https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker)
-- [dua1337/Exploit-for-CVE-2024-10924](https://github.com/dua1337/Exploit-for-CVE-2024-10924)
 
 ### CVE-2024-10958 (2024-11-10)
 
@@ -2714,6 +2712,7 @@
 - [p33d/CVE-2024-23113](https://github.com/p33d/CVE-2024-23113)
 - [puckiestyle/CVE-2024-23113](https://github.com/puckiestyle/CVE-2024-23113)
 - [expl0itsecurity/CVE-2024-23113](https://github.com/expl0itsecurity/CVE-2024-23113)
+- [XiaomingX/cve-2024-23113-exp](https://github.com/XiaomingX/cve-2024-23113-exp)
 
 ### CVE-2024-23208 (2024-01-23)
 
@@ -4993,6 +4992,7 @@
 - [PunitTailor55/GeoServer-CVE-2024-36401](https://github.com/PunitTailor55/GeoServer-CVE-2024-36401)
 - [netuseradministrator/CVE-2024-36401](https://github.com/netuseradministrator/CVE-2024-36401)
 - [kkhackz0013/CVE-2024-36401](https://github.com/kkhackz0013/CVE-2024-36401)
+- [thestar0/CVE-2024-36401-WoodpeckerPlugin](https://github.com/thestar0/CVE-2024-36401-WoodpeckerPlugin)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -6233,6 +6233,7 @@
 - [p33d/CVE-2024-45519](https://github.com/p33d/CVE-2024-45519)
 - [Chocapikk/CVE-2024-45519](https://github.com/Chocapikk/CVE-2024-45519)
 - [whiterose7777/CVE-2024-45519](https://github.com/whiterose7777/CVE-2024-45519)
+- [XiaomingX/cve-2024-45519-poc](https://github.com/XiaomingX/cve-2024-45519-poc)
 
 ### CVE-2024-45589 (2024-09-05)
 
@@ -6400,6 +6401,7 @@
 - [watchtowrlabs/Fortijump-Exploit-CVE-2024-47575](https://github.com/watchtowrlabs/Fortijump-Exploit-CVE-2024-47575)
 - [skyalliance/exploit-cve-2024-47575](https://github.com/skyalliance/exploit-cve-2024-47575)
 - [expl0itsecurity/CVE-2024-47575](https://github.com/expl0itsecurity/CVE-2024-47575)
+- [XiaomingX/cve-2024-47575-poc](https://github.com/XiaomingX/cve-2024-47575-poc)
 
 ### CVE-2024-47854 (2024-10-04)
 
@@ -8571,6 +8573,7 @@
 - [W01fh4cker/CVE-2023-20198-RCE](https://github.com/W01fh4cker/CVE-2023-20198-RCE)
 - [sanan2004/CVE-2023-20198](https://github.com/sanan2004/CVE-2023-20198)
 - [AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-](https://github.com/AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-)
+- [XiaomingX/CVE-2023-20198-poc](https://github.com/XiaomingX/CVE-2023-20198-poc)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -12441,6 +12444,7 @@
 - [Shisones/MetabaseRCE_CVE-2023-38646](https://github.com/Shisones/MetabaseRCE_CVE-2023-38646)
 - [acesoyeo/METABASE-RCE-CVE-2023-38646-](https://github.com/acesoyeo/METABASE-RCE-CVE-2023-38646-)
 - [UserConnecting/Exploit-CVE-2023-38646-Metabase](https://github.com/UserConnecting/Exploit-CVE-2023-38646-Metabase)
+- [XiaomingX/cve-2023-38646-poc](https://github.com/XiaomingX/cve-2023-38646-poc)
 
 ### CVE-2023-38709 (2024-04-04)
 
@@ -36121,6 +36125,13 @@
 </code>
 
 - [Insecurities/CVE-2019-11224](https://github.com/Insecurities/CVE-2019-11224)
+
+### CVE-2019-11248 (2019-08-29)
+
+<code>The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet healthz port. The go pprof endpoint is exposed over the Kubelet's healthz port. This debugging endpoint can potentially leak sensitive information such as internal Kubelet memory addresses and configuration, or for limited denial of service. Versions prior to 1.15.0, 1.14.4, 1.13.8, and 1.12.10 are affected. The issue is of medium severity, but not exposed by the default configuration.
+</code>
+
+- [g1thubb001/poc-CVE-2019-11248](https://github.com/g1thubb001/poc-CVE-2019-11248)
 
 ### CVE-2019-11358 (2019-04-19)
 
