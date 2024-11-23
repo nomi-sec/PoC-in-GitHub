@@ -307,7 +307,6 @@
 - [kevcooper/CVE-2024-1086-checker](https://github.com/kevcooper/CVE-2024-1086-checker)
 - [feely666/CVE-2024-1086](https://github.com/feely666/CVE-2024-1086)
 - [xzx482/CVE-2024-1086](https://github.com/xzx482/CVE-2024-1086)
-- [matrixvk/CVE-2024-1086-aarch64](https://github.com/matrixvk/CVE-2024-1086-aarch64)
 
 ### CVE-2024-1112 (2024-01-31)
 
@@ -2111,6 +2110,9 @@
 </code>
 
 - [reinh3rz/CVE-2024-10958-WPPA-Exploit](https://github.com/reinh3rz/CVE-2024-10958-WPPA-Exploit)
+
+### CVE-2024-11201
+- [NSQAQ/CVE-2024-11201](https://github.com/NSQAQ/CVE-2024-11201)
 
 ### CVE-2024-11319 (2024-11-18)
 
@@ -4966,6 +4968,7 @@
 
 - [varwara/CVE-2024-35250](https://github.com/varwara/CVE-2024-35250)
 - [ro0tmylove/CVE-2024-35250-BOF](https://github.com/ro0tmylove/CVE-2024-35250-BOF)
+- [yinsel/CVE-2024-35250-BOF](https://github.com/yinsel/CVE-2024-35250-BOF)
 
 ### CVE-2024-35315 (2024-10-21)
 
@@ -20925,6 +20928,7 @@
 - [rjsudlow/proxynotshell-IOC-Checker](https://github.com/rjsudlow/proxynotshell-IOC-Checker)
 - [ITPATJIDR/CVE-2022-41040](https://github.com/ITPATJIDR/CVE-2022-41040)
 - [TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell](https://github.com/TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell)
+- [0-Gram/CVE-2022-41040](https://github.com/0-Gram/CVE-2022-41040)
 
 ### CVE-2022-41049 (2022-11-09)
 
@@ -21621,6 +21625,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2022-45354](https://github.com/RandomRobbieBF/CVE-2022-45354)
+- [NekomataCode/CVE-2022-45354](https://github.com/NekomataCode/CVE-2022-45354)
 
 ### CVE-2022-45436 (2023-02-15)
 
