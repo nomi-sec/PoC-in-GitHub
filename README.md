@@ -2392,6 +2392,7 @@
 </code>
 
 - [pabloopez/CVE-2024-21534](https://github.com/pabloopez/CVE-2024-21534)
+- [XiaomingX/CVE-2024-21534-poc](https://github.com/XiaomingX/CVE-2024-21534-poc)
 
 ### CVE-2024-21626 (2024-01-31)
 
@@ -2839,6 +2840,7 @@
 - [0x20c/CVE-2024-23692-EXP](https://github.com/0x20c/CVE-2024-23692-EXP)
 - [pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692](https://github.com/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692)
 - [verylazytech/CVE-2024-23692](https://github.com/verylazytech/CVE-2024-23692)
+- [XiaomingX/CVE-2024-23692-poc](https://github.com/XiaomingX/CVE-2024-23692-poc)
 
 ### CVE-2024-23708 (2024-05-07)
 
@@ -4466,6 +4468,7 @@
 - [th4s1s/CVE-2024-32002-PoC](https://github.com/th4s1s/CVE-2024-32002-PoC)
 - [Julian-gmz/hook_CVE-2024-32002](https://github.com/Julian-gmz/hook_CVE-2024-32002)
 - [grecosamuel/CVE-2024-32002](https://github.com/grecosamuel/CVE-2024-32002)
+- [XiaomingX/CVE-2024-32002-poc](https://github.com/XiaomingX/CVE-2024-32002-poc)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -5491,6 +5494,7 @@
 - [0x20c/CVE-2024-38856-EXP](https://github.com/0x20c/CVE-2024-38856-EXP)
 - [emanueldosreis/CVE-2024-38856](https://github.com/emanueldosreis/CVE-2024-38856)
 - [BBD-YZZ/CVE-2024-38856-RCE](https://github.com/BBD-YZZ/CVE-2024-38856-RCE)
+- [XiaomingX/cve-2024-38856-poc](https://github.com/XiaomingX/cve-2024-38856-poc)
 
 ### CVE-2024-39031 (2024-07-09)
 
@@ -5783,6 +5787,7 @@
 
 - [watchtowrlabs/CVE-2024-40711](https://github.com/watchtowrlabs/CVE-2024-40711)
 - [realstatus/CVE-2024-40711-Exp](https://github.com/realstatus/CVE-2024-40711-Exp)
+- [XiaomingX/CVE-2024-40711-poc](https://github.com/XiaomingX/CVE-2024-40711-poc)
 
 ### CVE-2024-40725 (2024-07-18)
 
@@ -14452,6 +14457,7 @@
 - [W01fh4cker/CVE-2023-47246-EXP](https://github.com/W01fh4cker/CVE-2023-47246-EXP)
 - [rainbowhatrkn/CVE-2023-47246](https://github.com/rainbowhatrkn/CVE-2023-47246)
 - [tucommenceapousser/CVE-2023-47246](https://github.com/tucommenceapousser/CVE-2023-47246)
+- [XiaomingX/cve-2023-47246-poc](https://github.com/XiaomingX/cve-2023-47246-poc)
 
 ### CVE-2023-47253 (2023-11-06)
 
@@ -15976,6 +15982,7 @@
 - [nico989/CVE-2022-1388](https://github.com/nico989/CVE-2022-1388)
 - [gotr00t0day/CVE-2022-1388](https://github.com/gotr00t0day/CVE-2022-1388)
 - [impost0r/CVE-2022-1388](https://github.com/impost0r/CVE-2022-1388)
+- [XiaomingX/CVE-2022-1388-poc](https://github.com/XiaomingX/CVE-2022-1388-poc)
 
 ### CVE-2022-1421 (2022-06-06)
 
@@ -18347,6 +18354,7 @@
 - [BBD-YZZ/Confluence-RCE](https://github.com/BBD-YZZ/Confluence-RCE)
 - [cc3305/CVE-2022-26134](https://github.com/cc3305/CVE-2022-26134)
 - [Agentgilspy/CVE-2022-26134](https://github.com/Agentgilspy/CVE-2022-26134)
+- [XiaomingX/CVE-2022-26134-poc](https://github.com/XiaomingX/CVE-2022-26134-poc)
 
 ### CVE-2022-26135 (2022-06-30)
 
