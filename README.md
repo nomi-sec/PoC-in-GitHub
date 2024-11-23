@@ -12,6 +12,7 @@
 - [VegetableLasagne/CVE-2024-0012](https://github.com/VegetableLasagne/CVE-2024-0012)
 - [iSee857/CVE-2024-0012-poc](https://github.com/iSee857/CVE-2024-0012-poc)
 - [XiaomingX/cve-2024-0012-poc](https://github.com/XiaomingX/cve-2024-0012-poc)
+- [PunitTailor55/Paloalto-CVE-2024-0012](https://github.com/PunitTailor55/Paloalto-CVE-2024-0012)
 
 ### CVE-2024-0015 (2024-02-16)
 
@@ -2410,6 +2411,7 @@
 - [dorser/cve-2024-21626](https://github.com/dorser/cve-2024-21626)
 - [FlojBoj/CVE-2024-21626](https://github.com/FlojBoj/CVE-2024-21626)
 - [Sk3pper/CVE-2024-21626-old-docker-versions](https://github.com/Sk3pper/CVE-2024-21626-old-docker-versions)
+- [adaammmeeee/little-joke](https://github.com/adaammmeeee/little-joke)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -29858,6 +29860,7 @@
 - [Warelock/cve-2020-1938](https://github.com/Warelock/cve-2020-1938)
 - [WHtig3r/CVE-2020-1938](https://github.com/WHtig3r/CVE-2020-1938)
 - [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro)
+- [aib0litt/poc-CVE-2020-1938](https://github.com/aib0litt/poc-CVE-2020-1938)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -34018,6 +34021,7 @@
 - [X0UCYB3R/Check-WP-CVE-2020-35489](https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489)
 - [reneoliveirajr/wp_CVE-2020-35489_checker](https://github.com/reneoliveirajr/wp_CVE-2020-35489_checker)
 - [Cappricio-Securities/CVE-2020-35489](https://github.com/Cappricio-Securities/CVE-2020-35489)
+- [g1thubb002/poc-CVE-2020-35489](https://github.com/g1thubb002/poc-CVE-2020-35489)
 
 ### CVE-2020-35498 (2021-02-11)
 
@@ -38221,6 +38225,13 @@
 </code>
 
 - [codexlynx/CVE-2019-25024](https://github.com/codexlynx/CVE-2019-25024)
+
+### CVE-2019-25065 (2022-06-09)
+
+<code>A vulnerability was found in OpenNetAdmin 18.1.1. It has been rated as critical. Affected by this issue is some unknown functionality. The manipulation leads to privilege escalation. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+</code>
+
+- [sagisar1/CVE-2019-25065-exploit](https://github.com/sagisar1/CVE-2019-25065-exploit)
 
 ### CVE-2019-25137 (2023-05-18)
 
