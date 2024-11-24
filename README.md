@@ -2480,6 +2480,7 @@
 - [r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check)
 - [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
 - [rdoix/cve-2024-21762-checker](https://github.com/rdoix/cve-2024-21762-checker)
+- [XiaomingX/cve-2024-21762-poc](https://github.com/XiaomingX/cve-2024-21762-poc)
 
 ### CVE-2024-21793 (2024-05-08)
 
@@ -6621,6 +6622,7 @@
 - [ns989/CVE-2024-48990](https://github.com/ns989/CVE-2024-48990)
 - [felmoltor/CVE-2024-48990](https://github.com/felmoltor/CVE-2024-48990)
 - [Cyb3rFr0g/CVE-2024-48990-PoC](https://github.com/Cyb3rFr0g/CVE-2024-48990-PoC)
+- [pentestfunctions/CVE-2024-48990-PoC-Testing](https://github.com/pentestfunctions/CVE-2024-48990-PoC-Testing)
 
 ### CVE-2024-49039 (2024-11-12)
 
