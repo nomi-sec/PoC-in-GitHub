@@ -1417,6 +1417,7 @@
 - [HadesNull123/CVE-2024-6387_Check](https://github.com/HadesNull123/CVE-2024-6387_Check)
 - [identity-threat-labs/CVE-2024-6387-Vulnerability-Checker](https://github.com/identity-threat-labs/CVE-2024-6387-Vulnerability-Checker)
 - [identity-threat-labs/Article-RegreSSHion-CVE-2024-6387](https://github.com/identity-threat-labs/Article-RegreSSHion-CVE-2024-6387)
+- [YassDEV221608/CVE-2024-6387](https://github.com/YassDEV221608/CVE-2024-6387)
 
 ### CVE-2024-6473 (2024-09-03)
 
@@ -4074,6 +4075,9 @@
 
 - [ally-petitt/CVE-2024-29399](https://github.com/ally-petitt/CVE-2024-29399)
 
+### CVE-2024-29404
+- [mansk1es/CVE-2024-29404_Razer](https://github.com/mansk1es/CVE-2024-29404_Razer)
+
 ### CVE-2024-29415 (-)
 
 <code>The ip package through 2.0.1 for Node.js might allow SSRF because some IP addresses (such as 127.1, 01200034567, 012.1.2.3, 000:0:0000::01, and ::fFFf:127.0.0.1) are improperly categorized as globally routable via isPublic. NOTE: this issue exists because of an incomplete fix for CVE-2023-42282.
@@ -6623,6 +6627,7 @@
 - [felmoltor/CVE-2024-48990](https://github.com/felmoltor/CVE-2024-48990)
 - [Cyb3rFr0g/CVE-2024-48990-PoC](https://github.com/Cyb3rFr0g/CVE-2024-48990-PoC)
 - [pentestfunctions/CVE-2024-48990-PoC-Testing](https://github.com/pentestfunctions/CVE-2024-48990-PoC-Testing)
+- [r0xdeadbeef/CVE-2024-48990-exploit](https://github.com/r0xdeadbeef/CVE-2024-48990-exploit)
 
 ### CVE-2024-49039 (2024-11-12)
 
@@ -13114,6 +13119,7 @@
 - [duck-sec/CVE-2023-41425](https://github.com/duck-sec/CVE-2023-41425)
 - [0xDTC/WonderCMS-4.3.2-XSS-to-RCE-Exploits-CVE-2023-41425](https://github.com/0xDTC/WonderCMS-4.3.2-XSS-to-RCE-Exploits-CVE-2023-41425)
 - [h3athen/CVE-2023-41425](https://github.com/h3athen/CVE-2023-41425)
+- [Diegomjx/CVE-2023-41425-WonderCMS-Authenticated-RCE](https://github.com/Diegomjx/CVE-2023-41425-WonderCMS-Authenticated-RCE)
 
 ### CVE-2023-41436 (2023-09-15)
 
@@ -34809,6 +34815,7 @@
 
 - [StealYourCode/CVE-2019-1663](https://github.com/StealYourCode/CVE-2019-1663)
 - [abrumsen/CVE-2019-1663](https://github.com/abrumsen/CVE-2019-1663)
+- [WolffCorentin/CVE-2019-1663-Binary-Analysis](https://github.com/WolffCorentin/CVE-2019-1663-Binary-Analysis)
 
 ### CVE-2019-1698 (2019-02-21)
 
@@ -47079,6 +47086,7 @@
 - [randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution](https://github.com/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution)
 - [0xTabun/CVE-2014-6287](https://github.com/0xTabun/CVE-2014-6287)
 - [zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287)
+- [francescobrina/hfs-cve-2014-6287-exploit](https://github.com/francescobrina/hfs-cve-2014-6287-exploit)
 
 ### CVE-2014-6332 (2014-11-11)
 
