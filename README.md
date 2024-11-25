@@ -2122,6 +2122,13 @@
 ### CVE-2024-11201
 - [NSQAQ/CVE-2024-11201](https://github.com/NSQAQ/CVE-2024-11201)
 
+### CVE-2024-11318 (2024-11-18)
+
+<code>An IDOR (Insecure Direct Object Reference) vulnerability has been discovered in AbsysNet, affecting version 2.3.1. This vulnerability could allow a remote attacker to obtain the session of an unauthenticated user by brute-force attacking the session identifier on the &quot;/cgi-bin/ocap/&quot; endpoint.
+</code>
+
+- [xthalach/CVE-2024-11318](https://github.com/xthalach/CVE-2024-11318)
+
 ### CVE-2024-11319 (2024-11-18)
 
 <code>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in django CMS Association django-cms allows Cross-Site Scripting (XSS).This issue affects django-cms: 3.11.7, 3.11.8, 4.1.2, 4.1.3.
@@ -2135,6 +2142,13 @@
 </code>
 
 - [windz3r0day/CVE-2024-11381](https://github.com/windz3r0day/CVE-2024-11381)
+
+### CVE-2024-11387 (2024-11-23)
+
+<code>The Easy Liveblogs plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'elb_liveblog' shortcode in all versions up to, and including, 2.3.5 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
+- [windz3r0day/CVE-2024-11387](https://github.com/windz3r0day/CVE-2024-11387)
 
 ### CVE-2024-11388 (2024-11-21)
 
@@ -6628,6 +6642,7 @@
 - [Cyb3rFr0g/CVE-2024-48990-PoC](https://github.com/Cyb3rFr0g/CVE-2024-48990-PoC)
 - [pentestfunctions/CVE-2024-48990-PoC-Testing](https://github.com/pentestfunctions/CVE-2024-48990-PoC-Testing)
 - [r0xdeadbeef/CVE-2024-48990-exploit](https://github.com/r0xdeadbeef/CVE-2024-48990-exploit)
+- [njeru-codes/needrestart-vulnerability-poc](https://github.com/njeru-codes/needrestart-vulnerability-poc)
 
 ### CVE-2024-49039 (2024-11-12)
 
@@ -36092,6 +36107,7 @@
 - [rahmadsandy/EXIM-4.87-CVE-2019-10149](https://github.com/rahmadsandy/EXIM-4.87-CVE-2019-10149)
 - [hyim0810/CVE-2019-10149](https://github.com/hyim0810/CVE-2019-10149)
 - [qlusec/CVE-2019-10149](https://github.com/qlusec/CVE-2019-10149)
+- [uyerr/PoC_CVE-2019-10149--rce](https://github.com/uyerr/PoC_CVE-2019-10149--rce)
 
 ### CVE-2019-10172 (2019-11-18)
 
