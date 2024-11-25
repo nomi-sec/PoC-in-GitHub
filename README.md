@@ -2416,7 +2416,7 @@
 </code>
 
 - [pabloopez/CVE-2024-21534](https://github.com/pabloopez/CVE-2024-21534)
-- [XiaomingX/CVE-2024-21534-poc](https://github.com/XiaomingX/CVE-2024-21534-poc)
+- [XiaomingX/cve-2024-21534-poc](https://github.com/XiaomingX/cve-2024-21534-poc)
 
 ### CVE-2024-21626 (2024-01-31)
 
@@ -6643,6 +6643,7 @@
 - [pentestfunctions/CVE-2024-48990-PoC-Testing](https://github.com/pentestfunctions/CVE-2024-48990-PoC-Testing)
 - [r0xdeadbeef/CVE-2024-48990-exploit](https://github.com/r0xdeadbeef/CVE-2024-48990-exploit)
 - [njeru-codes/needrestart-vulnerability-poc](https://github.com/njeru-codes/needrestart-vulnerability-poc)
+- [ally-petitt/CVE-2024-48990-Exploit](https://github.com/ally-petitt/CVE-2024-48990-Exploit)
 
 ### CVE-2024-49039 (2024-11-12)
 
@@ -6706,6 +6707,13 @@
 </code>
 
 - [Nyamort/CVE-2024-50340](https://github.com/Nyamort/CVE-2024-50340)
+
+### CVE-2024-50395 (2024-11-22)
+
+<code>An authorization bypass through user-controlled key vulnerability has been reported to affect Media Streaming add-on. If exploited, the vulnerability could allow local network attackers to gain privilege.\n\nWe have already fixed the vulnerability in the following version:\nMedia Streaming add-on 500.1.1.6 ( 2024/08/02 ) and later
+</code>
+
+- [neko-hat/CVE-2024-50395](https://github.com/neko-hat/CVE-2024-50395)
 
 ### CVE-2024-50427 (2024-10-29)
 
