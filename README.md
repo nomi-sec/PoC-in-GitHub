@@ -3030,7 +3030,6 @@
 - [Maalfer/CVE-2024-23897](https://github.com/Maalfer/CVE-2024-23897)
 - [Surko888/Surko-Exploit-Jenkins-CVE-2024-23897](https://github.com/Surko888/Surko-Exploit-Jenkins-CVE-2024-23897)
 - [cc3305/CVE-2024-23897](https://github.com/cc3305/CVE-2024-23897)
-- [NoSpaceAvailable/CVE-2024-23897](https://github.com/NoSpaceAvailable/CVE-2024-23897)
 - [BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety](https://github.com/BinaryGoodBoy0101/Jenkins-Exploit-CVE-2024-23897-Fsociety)
 - [ShieldAuth-PHP/PBL05-CVE-Analsys](https://github.com/ShieldAuth-PHP/PBL05-CVE-Analsys)
 - [verylazytech/CVE-2024-23897](https://github.com/verylazytech/CVE-2024-23897)
@@ -7058,6 +7057,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-52382](https://github.com/RandomRobbieBF/CVE-2024-52382)
+
+### CVE-2024-52427 (2024-11-18)
+
+<code>Improper Neutralization of Special Elements Used in a Template Engine vulnerability in Saso Nikolov Event Tickets with Ticket Scanner allows Server Side Include (SSI) Injection.This issue affects Event Tickets with Ticket Scanner: from n/a through 2.3.11.
+</code>
+
+- [DoTTak/WP-Event-Tickets-with-Ticket-Scanner-CVE-Report](https://github.com/DoTTak/WP-Event-Tickets-with-Ticket-Scanner-CVE-Report)
 
 ### CVE-2024-52429 (2024-11-18)
 
@@ -18360,6 +18366,7 @@
 - [nerowander/CVE-2022-25845-exploit](https://github.com/nerowander/CVE-2022-25845-exploit)
 - [scabench/fastjson-tp1fn1](https://github.com/scabench/fastjson-tp1fn1)
 - [luelueking/CVE-2022-25845-In-Spring](https://github.com/luelueking/CVE-2022-25845-In-Spring)
+- [ph0ebus/CVE-2022-25845-In-Spring](https://github.com/ph0ebus/CVE-2022-25845-In-Spring)
 
 ### CVE-2022-25927 (2023-01-25)
 
@@ -18839,6 +18846,7 @@
 </code>
 
 - [NyaMeeEain/CVE-2022-28171-POC](https://github.com/NyaMeeEain/CVE-2022-28171-POC)
+- [aengussong/hikvision_probe](https://github.com/aengussong/hikvision_probe)
 
 ### CVE-2022-28219 (2022-04-05)
 
@@ -25595,7 +25603,6 @@
 </code>
 
 - [hzshang/CVE-2021-31956](https://github.com/hzshang/CVE-2021-31956)
-- [aazhuliang/CVE-2021-31956-EXP](https://github.com/aazhuliang/CVE-2021-31956-EXP)
 - [Y3A/CVE-2021-31956](https://github.com/Y3A/CVE-2021-31956)
 - [hoangprod/CVE-2021-31956-POC](https://github.com/hoangprod/CVE-2021-31956-POC)
 
@@ -26168,6 +26175,7 @@
 - [TakenoSite/Simple-CVE-2021-36260](https://github.com/TakenoSite/Simple-CVE-2021-36260)
 - [r3t4k3r/hikvision_brute](https://github.com/r3t4k3r/hikvision_brute)
 - [haingn/HIK-CVE-2021-36260-Exploit](https://github.com/haingn/HIK-CVE-2021-36260-Exploit)
+- [aengussong/hikvision_probe](https://github.com/aengussong/hikvision_probe)
 
 ### CVE-2021-36393 (2023-03-06)
 
@@ -42880,6 +42888,7 @@
 - [b3pwn3d/CVE-2017-7921](https://github.com/b3pwn3d/CVE-2017-7921)
 - [yousouf-Tasfin/cve-2017-7921-Mass-Exploit](https://github.com/yousouf-Tasfin/cve-2017-7921-Mass-Exploit)
 - [kooroshsanaei/HikVision-CVE-2017-7921](https://github.com/kooroshsanaei/HikVision-CVE-2017-7921)
+- [aengussong/hikvision_probe](https://github.com/aengussong/hikvision_probe)
 
 ### CVE-2017-7998 (2018-01-08)
 
