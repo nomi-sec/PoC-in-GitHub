@@ -1115,6 +1115,13 @@
 - [sinsinology/CVE-2024-5009](https://github.com/sinsinology/CVE-2024-5009)
 - [th3gokul/CVE-2024-5009](https://github.com/th3gokul/CVE-2024-5009)
 
+### CVE-2024-5057 (2024-08-29)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Easy Digital Downloads allows SQL Injection.This issue affects Easy Digital Downloads: from n/a through 3.2.12.
+</code>
+
+- [g1thubb004/poc-CVE-2024-5057](https://github.com/g1thubb004/poc-CVE-2024-5057)
+
 ### CVE-2024-5084 (2024-05-23)
 
 <code>The Hash Form – Drag &amp; Drop Form Builder plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'file_upload_action' function in all versions up to, and including, 1.1.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -1875,6 +1882,13 @@
 
 - [RandomRobbieBF/CVE-2024-9593](https://github.com/RandomRobbieBF/CVE-2024-9593)
 - [0x4f5da2-venom/CVE-2024-9593-EXP](https://github.com/0x4f5da2-venom/CVE-2024-9593-EXP)
+
+### CVE-2024-9659 (2024-11-23)
+
+<code>The School Management System for Wordpress plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the mj_smgt_user_avatar_image_upload() function in all versions up to, and including, 91.5.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [zetraxz/CVE-2024-9659](https://github.com/zetraxz/CVE-2024-9659)
 
 ### CVE-2024-9680 (2024-10-09)
 
@@ -7089,6 +7103,9 @@
 </code>
 
 - [ebrasha/abdal-anydesk-remote-ip-detector](https://github.com/ebrasha/abdal-anydesk-remote-ip-detector)
+
+### CVE-2024-53375
+- [ThottySploity/CVE-2024-53375](https://github.com/ThottySploity/CVE-2024-53375)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
