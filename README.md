@@ -1248,7 +1248,6 @@
 <code>Missing authentication for a critical function in Palo Alto Networks Expedition can lead to an Expedition admin account takeover for attackers with network access to Expedition.\n\nNote: Expedition is a tool aiding in configuration migration, tuning, and enrichment. Configuration secrets, credentials, and other data imported into Expedition is at risk due to this issue.
 </code>
 
-- [zetraxz/CVE-2024-5910](https://github.com/zetraxz/CVE-2024-5910)
 - [p33d/Palo-Alto-Expedition-Remote-Code-Execution-Exploit-CVE-2024-5910-CVE-2024-9464](https://github.com/p33d/Palo-Alto-Expedition-Remote-Code-Execution-Exploit-CVE-2024-5910-CVE-2024-9464)
 
 ### CVE-2024-5932 (2024-08-20)
@@ -1883,13 +1882,6 @@
 - [RandomRobbieBF/CVE-2024-9593](https://github.com/RandomRobbieBF/CVE-2024-9593)
 - [0x4f5da2-venom/CVE-2024-9593-EXP](https://github.com/0x4f5da2-venom/CVE-2024-9593-EXP)
 
-### CVE-2024-9659 (2024-11-23)
-
-<code>The School Management System for Wordpress plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the mj_smgt_user_avatar_image_upload() function in all versions up to, and including, 91.5.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
-</code>
-
-- [zetraxz/CVE-2024-9659](https://github.com/zetraxz/CVE-2024-9659)
-
 ### CVE-2024-9680 (2024-10-09)
 
 <code>An attacker was able to achieve code execution in the content process by exploiting a use-after-free in Animation timelines. We have had reports of this vulnerability being exploited in the wild. This vulnerability affects Firefox &lt; 131.0.2, Firefox ESR &lt; 128.3.1, Firefox ESR &lt; 115.16.1, Thunderbird &lt; 131.0.1, Thunderbird &lt; 128.3.1, and Thunderbird &lt; 115.16.0.
@@ -2039,6 +2031,13 @@
 
 - [ubaii/CVE-2024-10508](https://github.com/ubaii/CVE-2024-10508)
 - [Jenderal92/CVE-2024-10508](https://github.com/Jenderal92/CVE-2024-10508)
+
+### CVE-2024-10542 (2024-11-26)
+
+<code>The Spam protection, Anti-Spam, FireWall by CleanTalk plugin for WordPress is vulnerable to unauthorized Arbitrary Plugin Installation due to an authorization bypass via reverse DNS spoofing on the checkWithoutToken function in all versions up to, and including, 6.43.2. This makes it possible for unauthenticated attackers to install and activate arbitrary plugins which can be leveraged to achieve remote code execution if another vulnerable plugin is installed and activated.
+</code>
+
+- [ubaii/CVE-2024-10542](https://github.com/ubaii/CVE-2024-10542)
 
 ### CVE-2024-10557 (2024-10-31)
 
@@ -6510,13 +6509,6 @@
 
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
 
-### CVE-2024-47533 (2024-11-18)
-
-<code>Cobbler, a Linux installation server that allows for rapid setup of network installation environments, has an improper authentication vulnerability starting in version 3.0.0 and prior to versions 3.2.3 and 3.3.7. `utils.get_shared_secret()` always returns `-1`, which allows anyone to connect to cobbler XML-RPC as user `''` password `-1` and make any changes. This gives anyone with network access to a cobbler server full control of the server. Versions 3.2.3 and 3.3.7 fix the issue.
-</code>
-
-- [zetraxz/CVE-2024-47533](https://github.com/zetraxz/CVE-2024-47533)
-
 ### CVE-2024-47575 (2024-10-23)
 
 <code>A missing authentication for critical function in FortiManager 7.6.0, FortiManager 7.4.0 through 7.4.4, FortiManager 7.2.0 through 7.2.7, FortiManager 7.0.0 through 7.0.12, FortiManager 6.4.0 through 6.4.14, FortiManager 6.2.0 through 6.2.12, Fortinet FortiManager Cloud 7.4.1 through 7.4.4, FortiManager Cloud 7.2.1 through 7.2.7, FortiManager Cloud 7.0.1 through 7.0.12, FortiManager Cloud 6.4.1 through 6.4.7 allows attacker to execute arbitrary code or commands via specially crafted requests.
@@ -7104,6 +7096,13 @@
 </code>
 
 - [ebrasha/abdal-anydesk-remote-ip-detector](https://github.com/ebrasha/abdal-anydesk-remote-ip-detector)
+
+### CVE-2024-53255 (2024-11-25)
+
+<code>BoidCMS is a free and open-source flat file CMS for building simple websites and blogs, developed using PHP and uses JSON as a database. In affected versions a reflected Cross-site Scripting (XSS) vulnerability exists in the /admin?page=media endpoint in the file parameter, allowing an attacker to inject arbitrary JavaScript code. This code could be used to steal the user's session cookie, perform phishing attacks, or deface the website. This issue has been addressed in version 2.1.2 and all users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [0x4M3R/CVE-2024-53255](https://github.com/0x4M3R/CVE-2024-53255)
 
 ### CVE-2024-53375
 - [ThottySploity/CVE-2024-53375](https://github.com/ThottySploity/CVE-2024-53375)
@@ -11240,6 +11239,13 @@
 
 - [gergelykalman/CVE-2023-32422-a-macOS-TCC-bypass-in-sqlite](https://github.com/gergelykalman/CVE-2023-32422-a-macOS-TCC-bypass-in-sqlite)
 
+### CVE-2023-32428 (2023-09-06)
+
+<code>This issue was addressed with improved file handling. This issue is fixed in macOS Ventura 13.4, tvOS 16.5, iOS 16.5 and iPadOS 16.5, watchOS 9.5. An app may be able to gain root privileges.
+</code>
+
+- [gergelykalman/CVE-2023-32428-a-macOS-LPE-via-MallocStackLogging](https://github.com/gergelykalman/CVE-2023-32428-a-macOS-LPE-via-MallocStackLogging)
+
 ### CVE-2023-32560 (2023-08-10)
 
 <code>An attacker can send a specially crafted message to the Wavelink Avalanche Manager, which could result in service disruption or arbitrary code execution.\n\nThanks to a Researcher at Tenable for finding and reporting.\n\nFixed in version 6.4.1.
@@ -11349,6 +11355,7 @@
 - [0xKayala/CVE-2023-33246](https://github.com/0xKayala/CVE-2023-33246)
 - [MkJos/CVE-2023-33246_RocketMQ_RCE_EXP](https://github.com/MkJos/CVE-2023-33246_RocketMQ_RCE_EXP)
 - [hanch7274/CVE-2023-33246](https://github.com/hanch7274/CVE-2023-33246)
+- [Sumitpathania03/Apache-RocketMQ-CVE-2023-33246-](https://github.com/Sumitpathania03/Apache-RocketMQ-CVE-2023-33246-)
 - [PavilionQ/CVE-2023-33246-mitigation](https://github.com/PavilionQ/CVE-2023-33246-mitigation)
 
 ### CVE-2023-33253 (2023-06-12)
@@ -17336,6 +17343,7 @@
 - [qq87234770/CVE-2022-22947](https://github.com/qq87234770/CVE-2022-22947)
 - [Zh0um1/CVE-2022-22947](https://github.com/Zh0um1/CVE-2022-22947)
 - [Le1a/CVE-2022-22947](https://github.com/Le1a/CVE-2022-22947)
+- [Sumitpathania03/CVE-2022-22947](https://github.com/Sumitpathania03/CVE-2022-22947)
 - [cc3305/CVE-2022-22947](https://github.com/cc3305/CVE-2022-22947)
 
 ### CVE-2022-22948 (2022-03-29)
@@ -19376,7 +19384,6 @@
 - [shri142/ZipScan](https://github.com/shri142/ZipScan)
 - [alien-keric/CVE-2022-30190](https://github.com/alien-keric/CVE-2022-30190)
 - [ethicalblue/Follina-CVE-2022-30190-Sample](https://github.com/ethicalblue/Follina-CVE-2022-30190-Sample)
-- [madbaiu/CVE-2022-30190](https://github.com/madbaiu/CVE-2022-30190)
 
 ### CVE-2022-30203 (2022-07-12)
 
@@ -26658,13 +26665,6 @@
 ### CVE-2021-39512
 - [guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver](https://github.com/guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver)
 
-### CVE-2021-39623 (2022-01-14)
-
-<code>In doRead of SimpleDecodingSource.cpp, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-9Android ID: A-194105348
-</code>
-
-- [bb33bb/CVE-2021-39623](https://github.com/bb33bb/CVE-2021-39623)
-
 ### CVE-2021-39670 (2022-05-10)
 
 <code>In setStream of WallpaperManager.java, there is a possible way to cause a permanent DoS due to improper input validation. This could lead to local denial of service with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-12 Android-12LAndroid ID: A-204087139
@@ -28451,6 +28451,7 @@
 - [Nexolanta/log4j2_CVE-2021-44228](https://github.com/Nexolanta/log4j2_CVE-2021-44228)
 - [demining/Log4j-Vulnerability](https://github.com/demining/Log4j-Vulnerability)
 - [pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC](https://github.com/pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC)
+- [Sumitpathania03/LOG4J-CVE-2021-44228](https://github.com/Sumitpathania03/LOG4J-CVE-2021-44228)
 - [Sma-Das/Log4j-PoC](https://github.com/Sma-Das/Log4j-PoC)
 - [53buahapel/log4shell-vulnweb](https://github.com/53buahapel/log4shell-vulnweb)
 - [demonrvm/Log4ShellRemediation](https://github.com/demonrvm/Log4ShellRemediation)
@@ -35482,6 +35483,7 @@
 - [jas502n/CVE-2019-6340](https://github.com/jas502n/CVE-2019-6340)
 - [ludy-dev/drupal8-REST-RCE](https://github.com/ludy-dev/drupal8-REST-RCE)
 - [nobodyatall648/CVE-2019-6340](https://github.com/nobodyatall648/CVE-2019-6340)
+- [Sumitpathania03/Drupal-cve-2019-6340](https://github.com/Sumitpathania03/Drupal-cve-2019-6340)
 
 ### CVE-2019-6440 (2019-01-16)
 
@@ -41075,13 +41077,6 @@
 </code>
 
 - [RHYru9/CVE-2018-16431](https://github.com/RHYru9/CVE-2018-16431)
-
-### CVE-2018-16452 (2019-10-03)
-
-<code>The SMB parser in tcpdump before 4.9.3 has stack exhaustion in smbutil.c:smb_fdata() via recursion.
-</code>
-
-- [uthrasri/CVE-2018-16452_tcpdump_AOSP10_R33](https://github.com/uthrasri/CVE-2018-16452_tcpdump_AOSP10_R33)
 
 ### CVE-2018-16492 (2019-02-01)
 
@@ -47140,6 +47135,7 @@
 - [ajansha/shellshock](https://github.com/ajansha/shellshock)
 - [K3ysTr0K3R/CVE-2014-6271-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2014-6271-EXPLOIT)
 - [TheRealCiscoo/Shellshock-Exploit](https://github.com/TheRealCiscoo/Shellshock-Exploit)
+- [RadYio/CVE-2014-6271](https://github.com/RadYio/CVE-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
 
@@ -47860,6 +47856,13 @@
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 - [0xl0k1/CVE-2012-1823](https://github.com/0xl0k1/CVE-2012-1823)
+
+### CVE-2012-1831 (2012-07-05)
+
+<code>Heap-based buffer overflow in WellinTech KingView 6.53 allows remote attackers to execute arbitrary code via a crafted packet to TCP port 555.
+</code>
+
+- [Astrowmist/POC-CVE-2012-1831](https://github.com/Astrowmist/POC-CVE-2012-1831)
 
 ### CVE-2012-1870 (2012-07-10)
 
