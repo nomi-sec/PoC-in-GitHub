@@ -7058,13 +7058,6 @@
 
 - [RandomRobbieBF/CVE-2024-52382](https://github.com/RandomRobbieBF/CVE-2024-52382)
 
-### CVE-2024-52427 (2024-11-18)
-
-<code>Improper Neutralization of Special Elements Used in a Template Engine vulnerability in Saso Nikolov Event Tickets with Ticket Scanner allows Server Side Include (SSI) Injection.This issue affects Event Tickets with Ticket Scanner: from n/a through 2.3.11.
-</code>
-
-- [DoTTak/WP-Event-Tickets-with-Ticket-Scanner-CVE-Report](https://github.com/DoTTak/WP-Event-Tickets-with-Ticket-Scanner-CVE-Report)
-
 ### CVE-2024-52429 (2024-11-18)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in Anton Hoelstad WP Quick Setup allows Upload a Web Shell to a Web Server.This issue affects WP Quick Setup: from n/a through 2.0.
