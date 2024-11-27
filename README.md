@@ -2106,6 +2106,13 @@
 - [Bu0uCat/D-Link-NAS-CVE-2024-10914-](https://github.com/Bu0uCat/D-Link-NAS-CVE-2024-10914-)
 - [ThemeHackers/CVE-2024-10914](https://github.com/ThemeHackers/CVE-2024-10914)
 
+### CVE-2024-10920 (2024-11-06)
+
+<code>Eine Schwachstelle wurde in mariazevedo88 travels-java-api bis 5.0.1 gefunden. Sie wurde als problematisch eingestuft. Es geht hierbei um die Funktion doFilterInternal der Datei travels-java-api-master\src\main\java\io\github\mariazevedo88\travelsjavaapi\filters\JwtAuthenticationTokenFilter.java der Komponente JWT Secret Handler. Dank der Manipulation mit unbekannten Daten kann eine use of hard-coded cryptographic key\r -Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Die Komplexität eines Angriffs ist eher hoch. Sie ist schwierig ausnutzbar. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [Maalfer/CVE-2024-10920-PoC](https://github.com/Maalfer/CVE-2024-10920-PoC)
+
 ### CVE-2024-10924 (2024-11-15)
 
 <code>The Really Simple Security (Free, Pro, and Pro Multisite) plugins for WordPress are vulnerable to authentication bypass in versions 9.0.0 to 9.1.1.1. This is due to improper user check error handling in the two-factor REST API actions with the 'check_login_and_get_user' function. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, when the &quot;Two-Factor Authentication&quot; setting is enabled (disabled by default).
@@ -45677,6 +45684,7 @@
 - [elit3pwner/CVE-2015-1328-GoldenEye](https://github.com/elit3pwner/CVE-2015-1328-GoldenEye)
 - [BlackFrog-hub/cve-2015-1328](https://github.com/BlackFrog-hub/cve-2015-1328)
 - [YastrebX/CVE-2015-1328](https://github.com/YastrebX/CVE-2015-1328)
+- [devtz007/overlayfs_CVE-2015-1328](https://github.com/devtz007/overlayfs_CVE-2015-1328)
 
 ### CVE-2015-1397 (2015-04-29)
 
@@ -45686,6 +45694,7 @@
 - [tmatejicek/CVE-2015-1397](https://github.com/tmatejicek/CVE-2015-1397)
 - [WHOISshuvam/CVE-2015-1397](https://github.com/WHOISshuvam/CVE-2015-1397)
 - [Wytchwulf/CVE-2015-1397-Magento-Shoplift](https://github.com/Wytchwulf/CVE-2015-1397-Magento-Shoplift)
+- [0xDTC/Magento-eCommerce-RCE-CVE-2015-1397](https://github.com/0xDTC/Magento-eCommerce-RCE-CVE-2015-1397)
 
 ### CVE-2015-1427 (2015-02-17)
 
