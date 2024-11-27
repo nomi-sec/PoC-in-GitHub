@@ -1827,6 +1827,13 @@
 - [z3k0sec/CVE-2024-9264-RCE-Exploit](https://github.com/z3k0sec/CVE-2024-9264-RCE-Exploit)
 - [PunitTailor55/Grafana-CVE-2024-9264](https://github.com/PunitTailor55/Grafana-CVE-2024-9264)
 
+### CVE-2024-9326 (2024-09-29)
+
+<code>In PHPGurukul Online Shopping Portal 2.0 wurde eine Schwachstelle entdeckt. Sie wurde als kritisch eingestuft. Es geht um eine nicht näher bekannte Funktion der Datei /shopping/admin/index.php der Komponente Admin Panel. Mit der Manipulation des Arguments username mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [ghostwirez/CVE-2024-9326-PoC](https://github.com/ghostwirez/CVE-2024-9326-PoC)
+
 ### CVE-2024-9441 (2024-10-02)
 
 <code>The Linear eMerge e3-Series through version 1.00-07 is vulnerable to an OS command injection vulnerability. A remote and unauthenticated attacker can execute arbitrary OS commands via the login_id parameter when invoking the forgot_password functionality over HTTP.
@@ -2106,13 +2113,6 @@
 - [Bu0uCat/D-Link-NAS-CVE-2024-10914-](https://github.com/Bu0uCat/D-Link-NAS-CVE-2024-10914-)
 - [ThemeHackers/CVE-2024-10914](https://github.com/ThemeHackers/CVE-2024-10914)
 
-### CVE-2024-10920 (2024-11-06)
-
-<code>Eine Schwachstelle wurde in mariazevedo88 travels-java-api bis 5.0.1 gefunden. Sie wurde als problematisch eingestuft. Es geht hierbei um die Funktion doFilterInternal der Datei travels-java-api-master\src\main\java\io\github\mariazevedo88\travelsjavaapi\filters\JwtAuthenticationTokenFilter.java der Komponente JWT Secret Handler. Dank der Manipulation mit unbekannten Daten kann eine use of hard-coded cryptographic key\r -Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Die Komplexität eines Angriffs ist eher hoch. Sie ist schwierig ausnutzbar. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [Maalfer/CVE-2024-10920-PoC](https://github.com/Maalfer/CVE-2024-10920-PoC)
-
 ### CVE-2024-10924 (2024-11-15)
 
 <code>The Really Simple Security (Free, Pro, and Pro Multisite) plugins for WordPress are vulnerable to authentication bypass in versions 9.0.0 to 9.1.1.1. This is due to improper user check error handling in the two-factor REST API actions with the 'check_login_and_get_user' function. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, when the &quot;Two-Factor Authentication&quot; setting is enabled (disabled by default).
@@ -2124,6 +2124,7 @@
 - [m3ssap0/wordpress-really-simple-security-authn-bypass-exploit](https://github.com/m3ssap0/wordpress-really-simple-security-authn-bypass-exploit)
 - [julesbsz/CVE-2024-10924](https://github.com/julesbsz/CVE-2024-10924)
 - [Trackflaw/CVE-2024-10924-Wordpress-Docker](https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker)
+- [Maalfer/CVE-2024-10924-PoC](https://github.com/Maalfer/CVE-2024-10924-PoC)
 
 ### CVE-2024-10958 (2024-11-10)
 
@@ -2197,6 +2198,13 @@
 </code>
 
 - [windz3r0day/CVE-2024-11432](https://github.com/windz3r0day/CVE-2024-11432)
+
+### CVE-2024-11680 (2024-11-26)
+
+<code>ProjectSend versions prior to r1720 are affected by an improper authentication vulnerability. Remote, unauthenticated attackers can exploit this flaw by sending crafted HTTP requests to options.php, enabling unauthorized modification of the application's configuration. Successful exploitation allows attackers to create accounts, upload webshells, and embed malicious JavaScript.
+</code>
+
+- [famixcm/CVE-2024-11680](https://github.com/famixcm/CVE-2024-11680)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -5572,6 +5580,13 @@
 
 - [Amirasaiyad/BLE-TPMS](https://github.com/Amirasaiyad/BLE-TPMS)
 
+### CVE-2024-39090 (2024-07-18)
+
+<code>The PHPGurukul Online Shopping Portal Project version 2.0 contains a vulnerability that allows Cross-Site Request Forgery (CSRF) to lead to Stored Cross-Site Scripting (XSS). An attacker can exploit this vulnerability to execute arbitrary JavaScript code in the context of a user's session, potentially leading to account takeover.
+</code>
+
+- [ghostwirez/CVE-2024-39090-PoC](https://github.com/ghostwirez/CVE-2024-39090-PoC)
+
 ### CVE-2024-39203 (2024-07-08)
 
 <code>A cross-site scripting (XSS) vulnerability in the Backend Theme Management module of Z-BlogPHP v1.7.3 allows attackers to execute arbitrary web scripts or HTML via a crafted payload.
@@ -7497,6 +7512,13 @@
 </code>
 
 - [0xn4d/poc-cve-xss-encoded-wp-inventory-manager-plugin](https://github.com/0xn4d/poc-cve-xss-encoded-wp-inventory-manager-plugin)
+
+### CVE-2023-2163 (2023-09-20)
+
+<code>Incorrect verifier pruning in BPF in Linux Kernel &gt;=5.4 leads to unsafe\ncode paths being incorrectly marked as safe, resulting in arbitrary read/write in\nkernel memory, lateral privilege escalation, and container escape.
+</code>
+
+- [letsr00t/CVE-2023-2163](https://github.com/letsr00t/CVE-2023-2163)
 
 ### CVE-2023-2215 (2023-04-21)
 
@@ -21368,7 +21390,6 @@
 - [0xmaximus/Apache-Commons-Text-CVE-2022-42889](https://github.com/0xmaximus/Apache-Commons-Text-CVE-2022-42889)
 - [smileostrich/Text4Shell-Scanner](https://github.com/smileostrich/Text4Shell-Scanner)
 - [cxzero/CVE-2022-42889-text4shell](https://github.com/cxzero/CVE-2022-42889-text4shell)
-- [west-wind/CVE-2022-42889](https://github.com/west-wind/CVE-2022-42889)
 - [Vulnmachines/text4shell-CVE-2022-42889](https://github.com/Vulnmachines/text4shell-CVE-2022-42889)
 - [Gotcha-1G/CVE-2022-42889](https://github.com/Gotcha-1G/CVE-2022-42889)
 - [cryxnet/CVE-2022-42889-RCE](https://github.com/cryxnet/CVE-2022-42889-RCE)
@@ -23251,6 +23272,7 @@
 
 - [chompie1337/Linux_LPE_eBPF_CVE-2021-3490](https://github.com/chompie1337/Linux_LPE_eBPF_CVE-2021-3490)
 - [pivik271/CVE-2021-3490](https://github.com/pivik271/CVE-2021-3490)
+- [BanaxavSplit/CVE-2021-3490](https://github.com/BanaxavSplit/CVE-2021-3490)
 
 ### CVE-2021-3492 (2021-04-17)
 
@@ -28417,7 +28439,6 @@
 - [mklinkj/log4j2-test](https://github.com/mklinkj/log4j2-test)
 - [4jfinder/4jfinder.github.io](https://github.com/4jfinder/4jfinder.github.io)
 - [alexpena5635/CVE-2021-44228_scanner-main-Modified-](https://github.com/alexpena5635/CVE-2021-44228_scanner-main-Modified-)
-- [ChandanShastri/Log4j_Vulnerability_Demo](https://github.com/ChandanShastri/Log4j_Vulnerability_Demo)
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
