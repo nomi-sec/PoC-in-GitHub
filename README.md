@@ -12650,6 +12650,7 @@
 - [acesoyeo/METABASE-RCE-CVE-2023-38646-](https://github.com/acesoyeo/METABASE-RCE-CVE-2023-38646-)
 - [UserConnecting/Exploit-CVE-2023-38646-Metabase](https://github.com/UserConnecting/Exploit-CVE-2023-38646-Metabase)
 - [XiaomingX/cve-2023-38646-poc](https://github.com/XiaomingX/cve-2023-38646-poc)
+- [JayRyz/CVE-2023-38646-PoC-Metabase](https://github.com/JayRyz/CVE-2023-38646-PoC-Metabase)
 
 ### CVE-2023-38709 (2024-04-04)
 
