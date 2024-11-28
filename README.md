@@ -2135,6 +2135,13 @@
 
 - [reinh3rz/CVE-2024-10958-WPPA-Exploit](https://github.com/reinh3rz/CVE-2024-10958-WPPA-Exploit)
 
+### CVE-2024-11003 (2024-11-19)
+
+<code>Qualys discovered that needrestart, before version 3.8, passes unsanitized data to a library (Modules::ScanDeps) which expects safe input. This could allow a local attacker to execute arbitrary shell commands. Please see the related CVE-2024-10224 in Modules::ScanDeps.
+</code>
+
+- [unknown-user-from/CVE-2024-11003-PoC](https://github.com/unknown-user-from/CVE-2024-11003-PoC)
+
 ### CVE-2024-11199 (2024-11-23)
 
 <code>The Rescue Shortcodes plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's rescue_progressbar shortcode in all versions up to, and including, 2.9 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
@@ -2207,7 +2214,6 @@
 </code>
 
 - [famixcm/CVE-2024-11680](https://github.com/famixcm/CVE-2024-11680)
-- [exploitboom/CVE-2024-11680](https://github.com/exploitboom/CVE-2024-11680)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2828,6 +2834,7 @@
 - [puckiestyle/CVE-2024-23113](https://github.com/puckiestyle/CVE-2024-23113)
 - [expl0itsecurity/CVE-2024-23113](https://github.com/expl0itsecurity/CVE-2024-23113)
 - [XiaomingX/cve-2024-23113-exp](https://github.com/XiaomingX/cve-2024-23113-exp)
+- [XiaomingX/CVE-2024-23113-poc](https://github.com/XiaomingX/CVE-2024-23113-poc)
 
 ### CVE-2024-23208 (2024-01-23)
 
@@ -35378,6 +35385,7 @@
 - [Asbatel/CVE-2019-5736_POC](https://github.com/Asbatel/CVE-2019-5736_POC)
 - [takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer)
 - [si1ent-le/CVE-2019-5736](https://github.com/si1ent-le/CVE-2019-5736)
+- [sonyavalo/CVE-2019-5736-attack-and-security-mechanism](https://github.com/sonyavalo/CVE-2019-5736-attack-and-security-mechanism)
 
 ### CVE-2019-5737 (2019-03-28)
 
