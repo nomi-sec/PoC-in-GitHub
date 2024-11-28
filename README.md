@@ -2112,6 +2112,8 @@
 - [Egi08/CVE-2024-10914](https://github.com/Egi08/CVE-2024-10914)
 - [Bu0uCat/D-Link-NAS-CVE-2024-10914-](https://github.com/Bu0uCat/D-Link-NAS-CVE-2024-10914-)
 - [ThemeHackers/CVE-2024-10914](https://github.com/ThemeHackers/CVE-2024-10914)
+- [retuci0/cve-2024-10914-port](https://github.com/retuci0/cve-2024-10914-port)
+- [K3ysTr0K3R/CVE-2024-10914-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-10914-EXPLOIT)
 
 ### CVE-2024-10924 (2024-11-15)
 
@@ -2205,6 +2207,7 @@
 </code>
 
 - [famixcm/CVE-2024-11680](https://github.com/famixcm/CVE-2024-11680)
+- [exploitboom/CVE-2024-11680](https://github.com/exploitboom/CVE-2024-11680)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -5120,6 +5123,7 @@
 - [kkhackz0013/CVE-2024-36401](https://github.com/kkhackz0013/CVE-2024-36401)
 - [thestar0/CVE-2024-36401-WoodpeckerPlugin](https://github.com/thestar0/CVE-2024-36401-WoodpeckerPlugin)
 - [XiaomingX/cve-2024-36401-poc](https://github.com/XiaomingX/cve-2024-36401-poc)
+- [0x0d3ad/CVE-2024-36401](https://github.com/0x0d3ad/CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
