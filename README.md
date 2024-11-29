@@ -1350,7 +1350,6 @@
 - [muyuanlove/CVE-2024-6387fixshell](https://github.com/muyuanlove/CVE-2024-6387fixshell)
 - [TAM-K592/CVE-2024-6387](https://github.com/TAM-K592/CVE-2024-6387)
 - [teamos-hub/regreSSHion](https://github.com/teamos-hub/regreSSHion)
-- [Maikefee/CVE-2024-6387_Check.py](https://github.com/Maikefee/CVE-2024-6387_Check.py)
 - [ahlfors/CVE-2024-6387](https://github.com/ahlfors/CVE-2024-6387)
 - [Mufti22/CVE-2024-6387-checkher](https://github.com/Mufti22/CVE-2024-6387-checkher)
 - [thegenetic/CVE-2024-6387-exploit](https://github.com/thegenetic/CVE-2024-6387-exploit)
@@ -1988,6 +1987,7 @@
 </code>
 
 - [mochizuki875/CVE-2024-10220-githooks](https://github.com/mochizuki875/CVE-2024-10220-githooks)
+- [any2sec/cve-2024-10220](https://github.com/any2sec/cve-2024-10220)
 
 ### CVE-2024-10245 (2024-11-12)
 
@@ -2214,6 +2214,9 @@
 </code>
 
 - [TheN00bBuilder/cve-2024-11477-writeup](https://github.com/TheN00bBuilder/cve-2024-11477-writeup)
+
+### CVE-2024-12345
+- [RoyaRadin/CVE-2024-12345-POC](https://github.com/RoyaRadin/CVE-2024-12345-POC)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -6710,6 +6713,13 @@
 </code>
 
 - [Aashay221999/CVE-2024-49368](https://github.com/Aashay221999/CVE-2024-49368)
+
+### CVE-2024-49369 (2024-11-12)
+
+<code>Icinga is a monitoring system which checks the availability of network resources, notifies users of outages, and generates performance data for reporting. The TLS certificate validation in all Icinga 2 versions starting from 2.4.0 was flawed, allowing an attacker to impersonate both trusted cluster nodes as well as any API users that use TLS client certificates for authentication (ApiUser objects with the client_cn attribute set). This vulnerability has been fixed in v2.14.3, v2.13.10, v2.12.11, and v2.11.12.
+</code>
+
+- [Quantum-Sicarius/CVE-2024-49369](https://github.com/Quantum-Sicarius/CVE-2024-49369)
 
 ### CVE-2024-49379 (2024-11-13)
 
@@ -12668,7 +12678,6 @@
 - [m3m0o/metabase-pre-auth-rce-poc](https://github.com/m3m0o/metabase-pre-auth-rce-poc)
 - [CN016/Metabase-H2-CVE-2023-38646-](https://github.com/CN016/Metabase-H2-CVE-2023-38646-)
 - [Boogipop/MetabaseRceTools](https://github.com/Boogipop/MetabaseRceTools)
-- [SUT0L/CVE-2023-38646](https://github.com/SUT0L/CVE-2023-38646)
 - [nickswink/CVE-2023-38646](https://github.com/nickswink/CVE-2023-38646)
 - [passwa11/CVE-2023-38646](https://github.com/passwa11/CVE-2023-38646)
 - [threatHNTR/CVE-2023-38646](https://github.com/threatHNTR/CVE-2023-38646)
@@ -12685,6 +12694,7 @@
 - [Shisones/MetabaseRCE_CVE-2023-38646](https://github.com/Shisones/MetabaseRCE_CVE-2023-38646)
 - [acesoyeo/METABASE-RCE-CVE-2023-38646-](https://github.com/acesoyeo/METABASE-RCE-CVE-2023-38646-)
 - [UserConnecting/Exploit-CVE-2023-38646-Metabase](https://github.com/UserConnecting/Exploit-CVE-2023-38646-Metabase)
+- [DaniTheHack3r/CVE-2023-38646](https://github.com/DaniTheHack3r/CVE-2023-38646)
 - [XiaomingX/cve-2023-38646-poc](https://github.com/XiaomingX/cve-2023-38646-poc)
 - [JayRyz/CVE-2023-38646-PoC-Metabase](https://github.com/JayRyz/CVE-2023-38646-PoC-Metabase)
 
@@ -24820,6 +24830,7 @@
 
 - [dja2TaqkGEEfA45/CVE-2021-26690](https://github.com/dja2TaqkGEEfA45/CVE-2021-26690)
 - [7own/CVE-2021-26690---Apache-mod_session](https://github.com/7own/CVE-2021-26690---Apache-mod_session)
+- [0xdeviner/CVE-2021-26690](https://github.com/0xdeviner/CVE-2021-26690)
 
 ### CVE-2021-26691 (2021-06-10)
 
@@ -25656,7 +25667,6 @@
 <code>A SQL injection vulnerability in the pandora_console component of Artica Pandora FMS 742 allows an unauthenticated attacker to upgrade his unprivileged session via the /include/chart_generator.php session_id parameter, leading to a login bypass.
 </code>
 
-- [ibnuuby/CVE-2021-32099](https://github.com/ibnuuby/CVE-2021-32099)
 - [l3eol3eo/CVE-2021-32099_SQLi](https://github.com/l3eol3eo/CVE-2021-32099_SQLi)
 - [akr3ch/CVE-2021-32099](https://github.com/akr3ch/CVE-2021-32099)
 
