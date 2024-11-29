@@ -57,7 +57,7 @@
 </code>
 
 - [scs-labrat/android_autorooter](https://github.com/scs-labrat/android_autorooter)
-- [pl4int3xt/CVE-2024-0044](https://github.com/pl4int3xt/CVE-2024-0044)
+- [0xbinder/CVE-2024-0044](https://github.com/0xbinder/CVE-2024-0044)
 - [Re13orn/CVE-2024-0044-EXP](https://github.com/Re13orn/CVE-2024-0044-EXP)
 - [007CRIPTOGRAFIA/c-CVE-2024-0044](https://github.com/007CRIPTOGRAFIA/c-CVE-2024-0044)
 - [Kai2er/CVE-2024-0044-EXP](https://github.com/Kai2er/CVE-2024-0044-EXP)
@@ -2503,6 +2503,7 @@
 - [absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server](https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server)
 - [phucrio/CVE-2024-21683-RCE](https://github.com/phucrio/CVE-2024-21683-RCE)
 - [xh4vm/CVE-2024-21683](https://github.com/xh4vm/CVE-2024-21683)
+- [XiaomingX/cve-2024-21683-rce](https://github.com/XiaomingX/cve-2024-21683-rce)
 
 ### CVE-2024-21689 (2024-08-20)
 
@@ -7151,6 +7152,9 @@
 
 ### CVE-2024-53375
 - [ThottySploity/CVE-2024-53375](https://github.com/ThottySploity/CVE-2024-53375)
+
+### CVE-2024-53617
+- [ii5mai1/CVE-2024-53617](https://github.com/ii5mai1/CVE-2024-53617)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -19079,7 +19083,7 @@
 </code>
 
 - [miko550/CVE-2022-29078](https://github.com/miko550/CVE-2022-29078)
-- [liam-star-black-master/expluatation_CVE-2022-29078](https://github.com/liam-star-black-master/expluatation_CVE-2022-29078)
+- [shurochka1396/expluatation_CVE-2022-29078](https://github.com/shurochka1396/expluatation_CVE-2022-29078)
 - [l0n3m4n/CVE-2022-29078](https://github.com/l0n3m4n/CVE-2022-29078)
 
 ### CVE-2022-29154 (2022-08-02)
@@ -23651,7 +23655,7 @@
 
 - [hacefresko/CVE-2021-4045](https://github.com/hacefresko/CVE-2021-4045)
 - [jeffbezosispogg/CVE-2021-4045](https://github.com/jeffbezosispogg/CVE-2021-4045)
-- [pl4int3xt/CVE-2021-4045](https://github.com/pl4int3xt/CVE-2021-4045)
+- [0xbinder/CVE-2021-4045](https://github.com/0xbinder/CVE-2021-4045)
 
 ### CVE-2021-4104 (2021-12-14)
 
