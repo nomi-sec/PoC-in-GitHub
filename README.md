@@ -2208,6 +2208,13 @@
 
 - [windz3r0day/CVE-2024-11432](https://github.com/windz3r0day/CVE-2024-11432)
 
+### CVE-2024-11477 (2024-11-22)
+
+<code>7-Zip Zstandard Decompression Integer Underflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of 7-Zip. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.\n\nThe specific flaw exists within the implementation of Zstandard decompression. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-24346.
+</code>
+
+- [TheN00bBuilder/cve-2024-11477-writeup](https://github.com/TheN00bBuilder/cve-2024-11477-writeup)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -38547,6 +38554,7 @@
 </code>
 
 - [preempt/credssp](https://github.com/preempt/credssp)
+- [andychao/Remote_code_execution_vulnerability_CVE-2018-0886_vulnerability_fixing_resources_download](https://github.com/andychao/Remote_code_execution_vulnerability_CVE-2018-0886_vulnerability_fixing_resources_download)
 
 ### CVE-2018-0952 (2018-08-15)
 
@@ -41002,7 +41010,7 @@
 <code>upc.exe in Ubisoft Uplay Desktop Client versions 63.0.5699.0 allows remote attackers to execute arbitrary code. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of URI handlers. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of the current process.
 </code>
 
-- [JacksonKuo/Ubisoft-Uplay-Desktop-Client-63.0.5699.0](https://github.com/JacksonKuo/Ubisoft-Uplay-Desktop-Client-63.0.5699.0)
+- [JacksonKuo/ubisoft-uplay-desktop-client-63.0.5699.0](https://github.com/JacksonKuo/ubisoft-uplay-desktop-client-63.0.5699.0)
 
 ### CVE-2018-15835 (2018-11-30)
 
