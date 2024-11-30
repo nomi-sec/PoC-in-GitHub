@@ -781,6 +781,7 @@
 - [tk-sawada/IPLineFinder](https://github.com/tk-sawada/IPLineFinder)
 - [iwallarm/cve-2024-3400](https://github.com/iwallarm/cve-2024-3400)
 - [workshop748/CVE-2024-3400](https://github.com/workshop748/CVE-2024-3400)
+- [nanwinata/CVE-2024-3400](https://github.com/nanwinata/CVE-2024-3400)
 
 ### CVE-2024-3435 (2024-05-16)
 
@@ -2037,6 +2038,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-10470](https://github.com/RandomRobbieBF/CVE-2024-10470)
+- [0xshoriful/CVE-2024-10470](https://github.com/0xshoriful/CVE-2024-10470)
 
 ### CVE-2024-10508 (2024-11-09)
 
@@ -7058,6 +7060,7 @@
 
 - [Nyamort/CVE-2024-52301](https://github.com/Nyamort/CVE-2024-52301)
 - [martinhaunschmid/CVE-2024-52301-Research](https://github.com/martinhaunschmid/CVE-2024-52301-Research)
+- [nanwinata/CVE-2024-52301](https://github.com/nanwinata/CVE-2024-52301)
 
 ### CVE-2024-52302 (2024-11-14)
 
@@ -7093,6 +7096,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-52380](https://github.com/RandomRobbieBF/CVE-2024-52380)
+- [0xshoriful/CVE-2024-52380](https://github.com/0xshoriful/CVE-2024-52380)
 
 ### CVE-2024-52382 (2024-11-14)
 
@@ -17671,6 +17675,7 @@
 - [r10lab/CVE-2022-23131](https://github.com/r10lab/CVE-2022-23131)
 - [fork-bombed/CVE-2022-23131](https://github.com/fork-bombed/CVE-2022-23131)
 - [davidzzo23/CVE-2022-23131](https://github.com/davidzzo23/CVE-2022-23131)
+- [dagowda/Zabbix-cve-2022-23131-SSO-bypass](https://github.com/dagowda/Zabbix-cve-2022-23131-SSO-bypass)
 
 ### CVE-2022-23222 (2022-01-14)
 
@@ -42943,6 +42948,7 @@
 - [yousouf-Tasfin/cve-2017-7921-Mass-Exploit](https://github.com/yousouf-Tasfin/cve-2017-7921-Mass-Exploit)
 - [kooroshsanaei/HikVision-CVE-2017-7921](https://github.com/kooroshsanaei/HikVision-CVE-2017-7921)
 - [aengussong/hikvision_probe](https://github.com/aengussong/hikvision_probe)
+- [andychao/CVE-2017-7921_reproduces_decrypted_file_sharing](https://github.com/andychao/CVE-2017-7921_reproduces_decrypted_file_sharing)
 
 ### CVE-2017-7998 (2018-01-08)
 
