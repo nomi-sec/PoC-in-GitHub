@@ -3608,7 +3608,7 @@
 <code>Windows Cloud Files Mini Filter Driver Information Disclosure Vulnerability
 </code>
 
-- [xsh3llsh0ck/CVE-2024-26160](https://github.com/xsh3llsh0ck/CVE-2024-26160)
+- [CrackerCat/CVE-2024-26160](https://github.com/CrackerCat/CVE-2024-26160)
 
 ### CVE-2024-26218 (2024-04-09)
 
