@@ -13,6 +13,7 @@
 - [iSee857/CVE-2024-0012-poc](https://github.com/iSee857/CVE-2024-0012-poc)
 - [XiaomingX/cve-2024-0012-poc](https://github.com/XiaomingX/cve-2024-0012-poc)
 - [PunitTailor55/Paloalto-CVE-2024-0012](https://github.com/PunitTailor55/Paloalto-CVE-2024-0012)
+- [0xjessie21/CVE-2024-0012](https://github.com/0xjessie21/CVE-2024-0012)
 
 ### CVE-2024-0015 (2024-02-16)
 
@@ -2161,6 +2162,13 @@
 
 ### CVE-2024-11201
 - [NSQAQ/CVE-2024-11201](https://github.com/NSQAQ/CVE-2024-11201)
+
+### CVE-2024-11252 (2024-11-30)
+
+<code>The Social Sharing Plugin – Sassy Social Share plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the heateor_mastodon_share parameter in all versions up to, and including, 3.3.69 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
+</code>
+
+- [reinh3rz/CVE-2024-11252-Sassy-Social-Share-XSS](https://github.com/reinh3rz/CVE-2024-11252-Sassy-Social-Share-XSS)
 
 ### CVE-2024-11318 (2024-11-18)
 
@@ -6194,6 +6202,13 @@
 </code>
 
 - [ifpdz/CVE-2024-44258](https://github.com/ifpdz/CVE-2024-44258)
+
+### CVE-2024-44285 (2024-10-28)
+
+<code>A use-after-free issue was addressed with improved memory management. This issue is fixed in iOS 18.1 and iPadOS 18.1, watchOS 11.1, visionOS 2.1, tvOS 18.1. An app may be able to cause unexpected system termination or corrupt kernel memory.
+</code>
+
+- [slds1/explt](https://github.com/slds1/explt)
 
 ### CVE-2024-44337 (2024-10-15)
 
