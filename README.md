@@ -1133,6 +1133,7 @@
 - [k3lpi3b4nsh33/CVE-2024-5084](https://github.com/k3lpi3b4nsh33/CVE-2024-5084)
 - [WOOOOONG/CVE-2024-5084](https://github.com/WOOOOONG/CVE-2024-5084)
 - [z1gazaga/CVE-2024-5084](https://github.com/z1gazaga/CVE-2024-5084)
+- [Raeezrbr/CVE-2024-5084](https://github.com/Raeezrbr/CVE-2024-5084)
 
 ### CVE-2024-5124 (2024-06-06)
 
@@ -7139,6 +7140,13 @@
 </code>
 
 - [14mb1v45h/cyberspace-CVE-2024-52711](https://github.com/14mb1v45h/cyberspace-CVE-2024-52711)
+
+### CVE-2024-52800 (2024-11-29)
+
+<code>veraPDF is an open source PDF/A validation library. Executing policy checks using custom schematron files via the CLI invokes an XSL transformation that may theoretically lead to a remote code execution (RCE) vulnerability. This doesn't affect the standard validation and policy checks functionality, veraPDF's common use cases. Most veraPDF users don't insert any custom XSLT code into policy profiles, which are based on Schematron syntax rather than direct XSL transforms. For users who do, only load custom policy files from sources you trust. This issue has not yet been patched. Users are advised to be cautious of XSLT code until a patch is available.
+</code>
+
+- [JAckLosingHeart/GHSA-4cx5-89vm-833x-POC](https://github.com/JAckLosingHeart/GHSA-4cx5-89vm-833x-POC)
 
 ### CVE-2024-52940 (2024-11-18)
 
@@ -17848,6 +17856,7 @@
 - [dpbe32/CVE-2022-23935-PoC-Exploit](https://github.com/dpbe32/CVE-2022-23935-PoC-Exploit)
 - [cowsecurity/CVE-2022-23935](https://github.com/cowsecurity/CVE-2022-23935)
 - [BKreisel/CVE-2022-23935](https://github.com/BKreisel/CVE-2022-23935)
+- [antisecc/CVE-2022-23935](https://github.com/antisecc/CVE-2022-23935)
 
 ### CVE-2022-23940 (2022-03-07)
 
