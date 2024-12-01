@@ -675,6 +675,7 @@
 - [shefirot/CVE-2024-3094](https://github.com/shefirot/CVE-2024-3094)
 - [DANO-AMP/CVE-2024-3094](https://github.com/DANO-AMP/CVE-2024-3094)
 - [robertdfrench/ifuncd-up](https://github.com/robertdfrench/ifuncd-up)
+- [XiaomingX/cve-2024-3094-xz-backdoor-exploit](https://github.com/XiaomingX/cve-2024-3094-xz-backdoor-exploit)
 
 ### CVE-2024-3105 (2024-06-15)
 
@@ -1992,6 +1993,7 @@
 
 - [mochizuki875/CVE-2024-10220-githooks](https://github.com/mochizuki875/CVE-2024-10220-githooks)
 - [any2sec/cve-2024-10220](https://github.com/any2sec/cve-2024-10220)
+- [XiaomingX/cve-2024-10220-githooks](https://github.com/XiaomingX/cve-2024-10220-githooks)
 
 ### CVE-2024-10245 (2024-11-12)
 
@@ -38483,6 +38485,13 @@
 </code>
 
 - [chaizeg/CSRF-breach](https://github.com/chaizeg/CSRF-breach)
+
+### CVE-2019-1010174 (2019-07-25)
+
+<code>CImg The CImg Library v.2.3.3 and earlier is affected by: command injection. The impact is: RCE. The component is: load_network() function. The attack vector is: Loading an image from a user-controllable url can lead to command injection, because no string sanitization is done on the url. The fixed version is: v.2.3.4.
+</code>
+
+- [NketiahGodfred/CVE-2019-1010174](https://github.com/NketiahGodfred/CVE-2019-1010174)
 
 ### CVE-2019-1010268 (2019-07-18)
 
