@@ -2141,6 +2141,7 @@
 - [julesbsz/CVE-2024-10924](https://github.com/julesbsz/CVE-2024-10924)
 - [Trackflaw/CVE-2024-10924-Wordpress-Docker](https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker)
 - [Maalfer/CVE-2024-10924-PoC](https://github.com/Maalfer/CVE-2024-10924-PoC)
+- [D1se0/CVE-2024-10924-Bypass-MFA-Wordpress-LAB](https://github.com/D1se0/CVE-2024-10924-Bypass-MFA-Wordpress-LAB)
 
 ### CVE-2024-10958 (2024-11-10)
 
@@ -2179,6 +2180,13 @@
 </code>
 
 - [xthalach/CVE-2024-11318](https://github.com/xthalach/CVE-2024-11318)
+
+### CVE-2024-11320 (2024-11-21)
+
+<code>Arbitrary commands execution on the server by exploiting a command injection vulnerability in the LDAP authentication mechanism. This issue affects Pandora FMS: from 700 through &lt;=777.4
+</code>
+
+- [mhaskar/CVE-2024-11320](https://github.com/mhaskar/CVE-2024-11320)
 
 ### CVE-2024-11381 (2024-11-22)
 
@@ -2751,6 +2759,13 @@
 </code>
 
 - [zunak/CVE-2024-22641](https://github.com/zunak/CVE-2024-22641)
+
+### CVE-2024-22734 (2024-04-12)
+
+<code>An issue was discovered in AMCS Group Trux Waste Management Software before version 7.19.0018.26912, allows local attackers to obtain sensitive information via a static, hard-coded AES Key-IV pair in the TxUtilities.dll and TruxUser.cfg components.
+</code>
+
+- [securekomodo/CVE-2024-22734](https://github.com/securekomodo/CVE-2024-22734)
 
 ### CVE-2024-22752 (2024-03-07)
 
@@ -6711,9 +6726,9 @@
 - [felmoltor/CVE-2024-48990](https://github.com/felmoltor/CVE-2024-48990)
 - [Cyb3rFr0g/CVE-2024-48990-PoC](https://github.com/Cyb3rFr0g/CVE-2024-48990-PoC)
 - [pentestfunctions/CVE-2024-48990-PoC-Testing](https://github.com/pentestfunctions/CVE-2024-48990-PoC-Testing)
-- [r0xdeadbeef/CVE-2024-48990-exploit](https://github.com/r0xdeadbeef/CVE-2024-48990-exploit)
 - [njeru-codes/needrestart-vulnerability-poc](https://github.com/njeru-codes/needrestart-vulnerability-poc)
 - [ally-petitt/CVE-2024-48990-Exploit](https://github.com/ally-petitt/CVE-2024-48990-Exploit)
+- [r0xdeadbeef/CVE-2024-48990-exploit](https://github.com/r0xdeadbeef/CVE-2024-48990-exploit)
 
 ### CVE-2024-49039 (2024-11-12)
 
@@ -10388,6 +10403,13 @@
 </code>
 
 - [spotlightishere/inputcontrol](https://github.com/spotlightishere/inputcontrol)
+
+### CVE-2023-28205 (2023-04-10)
+
+<code>A use after free issue was addressed with improved memory management. This issue is fixed in Safari 16.4.1, iOS 15.7.5 and iPadOS 15.7.5, iOS 16.4.1 and iPadOS 16.4.1, macOS Ventura 13.3.1. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
+</code>
+
+- [ntfargo/uaf-2023-28205](https://github.com/ntfargo/uaf-2023-28205)
 
 ### CVE-2023-28206 (2023-04-10)
 
