@@ -16460,7 +16460,7 @@
 <code>Unrestricted Upload of File with Dangerous Type in GitHub repository boxbilling/boxbilling prior to 0.0.1.
 </code>
 
-- [kabir0x23/CVE-2022-3552](https://github.com/kabir0x23/CVE-2022-3552)
+- [0xk4b1r/CVE-2022-3552](https://github.com/0xk4b1r/CVE-2022-3552)
 
 ### CVE-2022-3564 (2022-10-17)
 
