@@ -1426,6 +1426,7 @@
 - [identity-threat-labs/CVE-2024-6387-Vulnerability-Checker](https://github.com/identity-threat-labs/CVE-2024-6387-Vulnerability-Checker)
 - [identity-threat-labs/Article-RegreSSHion-CVE-2024-6387](https://github.com/identity-threat-labs/Article-RegreSSHion-CVE-2024-6387)
 - [YassDEV221608/CVE-2024-6387](https://github.com/YassDEV221608/CVE-2024-6387)
+- [oxapavan/CVE-2024-6387](https://github.com/oxapavan/CVE-2024-6387)
 
 ### CVE-2024-6473 (2024-09-03)
 
@@ -5987,6 +5988,13 @@
 
 - [fj016/CVE-2024-41992-PoC](https://github.com/fj016/CVE-2024-41992-PoC)
 
+### CVE-2024-42327 (2024-11-27)
+
+<code>A non-admin user account on the Zabbix frontend with the default User role, or with any other role that gives API access can exploit this vulnerability. An SQLi exists in the CUser class in the addRelatedObjects function, this function is being called from the CUser.get function which is available for every user who has API access.
+</code>
+
+- [aramosf/cve-2024-42327](https://github.com/aramosf/cve-2024-42327)
+
 ### CVE-2024-42346 (2024-09-20)
 
 <code>Galaxy is a free, open-source system for analyzing data, authoring workflows, training and education, publishing tools, managing infrastructure, and more. The editor visualization, /visualizations endpoint, can be used to store HTML tags and trigger javascript execution upon edit operation. All supported branches of Galaxy (and more back to release_20.05) were amended with the supplied patches. Users are advised to upgrade. There are no known workarounds for this vulnerability.
@@ -7257,6 +7265,7 @@
 - [overgrowncarrot1/CVE-2023-0297](https://github.com/overgrowncarrot1/CVE-2023-0297)
 - [btar1gan/exploit_CVE-2023-0297](https://github.com/btar1gan/exploit_CVE-2023-0297)
 - [S4MY9/CVE-2023-0297](https://github.com/S4MY9/CVE-2023-0297)
+- [oxapavan/CVE-2023-0297](https://github.com/oxapavan/CVE-2023-0297)
 
 ### CVE-2023-0315 (2023-01-16)
 
@@ -13276,6 +13285,7 @@
 - [0xDTC/WonderCMS-4.3.2-XSS-to-RCE-Exploits-CVE-2023-41425](https://github.com/0xDTC/WonderCMS-4.3.2-XSS-to-RCE-Exploits-CVE-2023-41425)
 - [h3athen/CVE-2023-41425](https://github.com/h3athen/CVE-2023-41425)
 - [Diegomjx/CVE-2023-41425-WonderCMS-Authenticated-RCE](https://github.com/Diegomjx/CVE-2023-41425-WonderCMS-Authenticated-RCE)
+- [0x0d3ad/CVE-2023-41425](https://github.com/0x0d3ad/CVE-2023-41425)
 
 ### CVE-2023-41436 (2023-09-15)
 
@@ -20564,6 +20574,7 @@
 - [GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925](https://github.com/GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925)
 - [aels/CVE-2022-37042](https://github.com/aels/CVE-2022-37042)
 - [0xf4n9x/CVE-2022-37042](https://github.com/0xf4n9x/CVE-2022-37042)
+- [romero-javi/zimbra8_lab](https://github.com/romero-javi/zimbra8_lab)
 
 ### CVE-2022-37177 (2022-08-29)
 
@@ -48396,7 +48407,7 @@
 <code>The JMX-Console web application in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 performs access control only for the GET and POST methods, which allows remote attackers to send requests to this application's GET handler by using a different method.
 </code>
 
-- [ChristianPapathanasiou/jboss-autopwn](https://github.com/ChristianPapathanasiou/jboss-autopwn)
+- [1872892142/jboss-autopwn-1](https://github.com/1872892142/jboss-autopwn-1)
 - [gitcollect/jboss-autopwn](https://github.com/gitcollect/jboss-autopwn)
 
 ### CVE-2010-1205 (2010-06-30)
