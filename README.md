@@ -5582,6 +5582,7 @@
 - [startsw1th/cve-2024-38816-demo](https://github.com/startsw1th/cve-2024-38816-demo)
 - [WULINPIN/CVE-2024-38816-PoC](https://github.com/WULINPIN/CVE-2024-38816-PoC)
 - [Galaxy-system/cve-2024-38816](https://github.com/Galaxy-system/cve-2024-38816)
+- [Anthony1078/App-vulnerable](https://github.com/Anthony1078/App-vulnerable)
 
 ### CVE-2024-38821 (2024-10-28)
 
@@ -6354,6 +6355,13 @@
 
 - [latte-soft/kartlanpwn](https://github.com/latte-soft/kartlanpwn)
 
+### CVE-2024-45216 (2024-10-16)
+
+<code>Improper Authentication vulnerability in Apache Solr.\n\nSolr instances using the PKIAuthenticationPlugin, which is enabled by default when Solr Authentication is used, are vulnerable to Authentication bypass.\nA fake ending at the end of any Solr API URL path, will allow requests to skip Authentication while maintaining the API contract with the original URL Path.\nThis fake ending looks like an unprotected API path, however it is stripped off internally after authentication but before API routing.\n\n\nThis issue affects Apache Solr: from 5.3.0 before 8.11.4, from 9.0.0 before 9.7.0.\n\nUsers are recommended to upgrade to version 9.7.0, or 8.11.4, which fix the issue.
+</code>
+
+- [congdong007/CVE-2024-45216-Poc](https://github.com/congdong007/CVE-2024-45216-Poc)
+
 ### CVE-2024-45241 (2024-08-26)
 
 <code>A traversal vulnerability in GeneralDocs.aspx in CentralSquare CryWolf (False Alarm Management) through 2024-08-09 allows unauthenticated attackers to read files outside of the working web directory via the rpt parameter, leading to the disclosure of sensitive information.
@@ -6618,6 +6626,13 @@
 </code>
 
 - [ajrielrm/CVE-2024-48217](https://github.com/ajrielrm/CVE-2024-48217)
+
+### CVE-2024-48307 (2024-10-31)
+
+<code>JeecgBoot v3.7.1 was discovered to contain a SQL injection vulnerability via the component /onlDragDatasetHead/getTotalData.
+</code>
+
+- [iSee857/CVE-2024-48307-poc](https://github.com/iSee857/CVE-2024-48307-poc)
 
 ### CVE-2024-48322 (2024-11-11)
 
@@ -7194,6 +7209,7 @@
 </code>
 
 - [ebrasha/abdal-anydesk-remote-ip-detector](https://github.com/ebrasha/abdal-anydesk-remote-ip-detector)
+- [MKultra6969/AnySniff](https://github.com/MKultra6969/AnySniff)
 
 ### CVE-2024-53255 (2024-11-25)
 
