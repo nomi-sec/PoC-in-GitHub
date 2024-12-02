@@ -6736,7 +6736,7 @@
 - [pentestfunctions/CVE-2024-48990-PoC-Testing](https://github.com/pentestfunctions/CVE-2024-48990-PoC-Testing)
 - [njeru-codes/needrestart-vulnerability-poc](https://github.com/njeru-codes/needrestart-vulnerability-poc)
 - [ally-petitt/CVE-2024-48990-Exploit](https://github.com/ally-petitt/CVE-2024-48990-Exploit)
-- [r0xdeadbeef/CVE-2024-48990-exploit](https://github.com/r0xdeadbeef/CVE-2024-48990-exploit)
+- [r0xdeadbeef/CVE-2024-48990](https://github.com/r0xdeadbeef/CVE-2024-48990)
 
 ### CVE-2024-49039 (2024-11-12)
 
@@ -20165,7 +20165,7 @@
 
 - [W01fh4cker/cve-2022-33891](https://github.com/W01fh4cker/cve-2022-33891)
 - [HuskyHacks/cve-2022-33891](https://github.com/HuskyHacks/cve-2022-33891)
-- [west-wind/CVE-2022-33891](https://github.com/west-wind/CVE-2022-33891)
+- [nanaao/CVE-2022-33891](https://github.com/nanaao/CVE-2022-33891)
 - [AkbarTrilaksana/cve-2022-33891](https://github.com/AkbarTrilaksana/cve-2022-33891)
 - [llraudseppll/cve-2022-33891](https://github.com/llraudseppll/cve-2022-33891)
 - [AmoloHT/CVE-2022-33891](https://github.com/AmoloHT/CVE-2022-33891)
