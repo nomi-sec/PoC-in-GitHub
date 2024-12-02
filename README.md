@@ -2868,7 +2868,7 @@
 - [puckiestyle/CVE-2024-23113](https://github.com/puckiestyle/CVE-2024-23113)
 - [expl0itsecurity/CVE-2024-23113](https://github.com/expl0itsecurity/CVE-2024-23113)
 - [XiaomingX/cve-2024-23113-exp](https://github.com/XiaomingX/cve-2024-23113-exp)
-- [XiaomingX/CVE-2024-23113-poc](https://github.com/XiaomingX/CVE-2024-23113-poc)
+- [XiaomingX/cve-2024-23113-poc](https://github.com/XiaomingX/cve-2024-23113-poc)
 
 ### CVE-2024-23208 (2024-01-23)
 
@@ -20598,7 +20598,6 @@
 - [GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925](https://github.com/GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925)
 - [aels/CVE-2022-37042](https://github.com/aels/CVE-2022-37042)
 - [0xf4n9x/CVE-2022-37042](https://github.com/0xf4n9x/CVE-2022-37042)
-- [romero-javi/zimbra8_lab](https://github.com/romero-javi/zimbra8_lab)
 
 ### CVE-2022-37177 (2022-08-29)
 
@@ -38639,7 +38638,6 @@
 </code>
 
 - [preempt/credssp](https://github.com/preempt/credssp)
-- [andychao/Remote_code_execution_vulnerability_CVE-2018-0886_vulnerability_fixing_resources_download](https://github.com/andychao/Remote_code_execution_vulnerability_CVE-2018-0886_vulnerability_fixing_resources_download)
 
 ### CVE-2018-0952 (2018-08-15)
 
@@ -43014,7 +43012,6 @@
 - [yousouf-Tasfin/cve-2017-7921-Mass-Exploit](https://github.com/yousouf-Tasfin/cve-2017-7921-Mass-Exploit)
 - [kooroshsanaei/HikVision-CVE-2017-7921](https://github.com/kooroshsanaei/HikVision-CVE-2017-7921)
 - [aengussong/hikvision_probe](https://github.com/aengussong/hikvision_probe)
-- [andychao/CVE-2017-7921_reproduces_decrypted_file_sharing](https://github.com/andychao/CVE-2017-7921_reproduces_decrypted_file_sharing)
 
 ### CVE-2017-7998 (2018-01-08)
 
