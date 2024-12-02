@@ -2007,21 +2007,21 @@
 <code>In SourceCodester Petrol Pump Management Software 1.0 wurde eine kritische Schwachstelle entdeckt. Das betrifft eine unbekannte Funktionalität der Datei /admin/print.php. Mit der Manipulation des Arguments id mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [K1nako0/CVE-2024-10354](https://github.com/K1nako0/CVE-2024-10354)
+- [K1nakoo/CVE-2024-10354](https://github.com/K1nakoo/CVE-2024-10354)
 
 ### CVE-2024-10355 (2024-10-25)
 
 <code>Eine kritische Schwachstelle wurde in SourceCodester Petrol Pump Management Software 1.0 entdeckt. Dies betrifft einen unbekannten Teil der Datei /admin/invoice.php. Durch die Manipulation des Arguments id mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [K1nako0/CVE-2024-10355](https://github.com/K1nako0/CVE-2024-10355)
+- [K1nakoo/CVE-2024-10355](https://github.com/K1nakoo/CVE-2024-10355)
 
 ### CVE-2024-10410 (2024-10-27)
 
 <code>In SourceCodester Online Hotel Reservation System 1.0 wurde eine kritische Schwachstelle entdeckt. Dabei geht es um die Funktion upload der Datei /admin/mod_room/controller.php?action=add. Dank Manipulation des Arguments image mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [K1nako0/CVE-2024-10410](https://github.com/K1nako0/CVE-2024-10410)
+- [K1nakoo/CVE-2024-10410](https://github.com/K1nakoo/CVE-2024-10410)
 
 ### CVE-2024-10448 (2024-10-28)
 
@@ -4558,7 +4558,7 @@
 - [charlesgargasson/CVE-2024-32002](https://github.com/charlesgargasson/CVE-2024-32002)
 - [NishanthAnand21/CVE-2024-32002-PoC](https://github.com/NishanthAnand21/CVE-2024-32002-PoC)
 - [FlojBoj/CVE-2024-32002](https://github.com/FlojBoj/CVE-2024-32002)
-- [tiyeume25112004/CVE-2024-32002](https://github.com/tiyeume25112004/CVE-2024-32002)
+- [SpycioKon/CVE-2024-32002](https://github.com/SpycioKon/CVE-2024-32002)
 - [chrisWalker11/running-CVE-2024-32002-locally-for-tesing](https://github.com/chrisWalker11/running-CVE-2024-32002-locally-for-tesing)
 - [sanan2004/CVE-2024-32002](https://github.com/sanan2004/CVE-2024-32002)
 - [Masamuneee/hook](https://github.com/Masamuneee/hook)
@@ -6627,13 +6627,6 @@
 
 - [ajrielrm/CVE-2024-48217](https://github.com/ajrielrm/CVE-2024-48217)
 
-### CVE-2024-48307 (2024-10-31)
-
-<code>JeecgBoot v3.7.1 was discovered to contain a SQL injection vulnerability via the component /onlDragDatasetHead/getTotalData.
-</code>
-
-- [iSee857/CVE-2024-48307-poc](https://github.com/iSee857/CVE-2024-48307-poc)
-
 ### CVE-2024-48322 (2024-11-11)
 
 <code>UsersController.php in Run.codes 1.5.2 and older has a reset password race condition vulnerability.
@@ -7419,7 +7412,7 @@
 
 - [hh-hunter/ml-CVE-2023-1177](https://github.com/hh-hunter/ml-CVE-2023-1177)
 - [iumiro/CVE-2023-1177-MLFlow](https://github.com/iumiro/CVE-2023-1177-MLFlow)
-- [tiyeume25112004/CVE-2023-1177-rebuild](https://github.com/tiyeume25112004/CVE-2023-1177-rebuild)
+- [SpycioKon/CVE-2023-1177-rebuild](https://github.com/SpycioKon/CVE-2023-1177-rebuild)
 - [saimahmed/MLflow-Vuln](https://github.com/saimahmed/MLflow-Vuln)
 - [charlesgargasson/CVE-2023-1177](https://github.com/charlesgargasson/CVE-2023-1177)
 
@@ -13318,7 +13311,7 @@
 - [prodigiousMind/CVE-2023-41425](https://github.com/prodigiousMind/CVE-2023-41425)
 - [charlesgargasson/CVE-2023-41425](https://github.com/charlesgargasson/CVE-2023-41425)
 - [insomnia-jacob/CVE-2023-41425](https://github.com/insomnia-jacob/CVE-2023-41425)
-- [tiyeume25112004/CVE-2023-41425](https://github.com/tiyeume25112004/CVE-2023-41425)
+- [SpycioKon/CVE-2023-41425](https://github.com/SpycioKon/CVE-2023-41425)
 - [thefizzyfish/CVE-2023-41425-wonderCMS_RCE](https://github.com/thefizzyfish/CVE-2023-41425-wonderCMS_RCE)
 - [Raffli-Dev/CVE-2023-41425](https://github.com/Raffli-Dev/CVE-2023-41425)
 - [duck-sec/CVE-2023-41425](https://github.com/duck-sec/CVE-2023-41425)
@@ -38494,6 +38487,13 @@
 </code>
 
 - [Ickarah/CVE-2019-25137-Version-Research](https://github.com/Ickarah/CVE-2019-25137-Version-Research)
+
+### CVE-2019-25162 (2024-02-26)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\ni2c: Fix a potential use after free\n\nFree the adap structure only after we are done using it.\nThis patch just moves the put_device() down a bit to avoid the\nuse after free.\n\n[wsa: added comment to the code, added Fixes tag]
+</code>
+
+- [uthrasri/CVE-2019-25162](https://github.com/uthrasri/CVE-2019-25162)
 
 ### CVE-2019-48814
 - [wucj001/cve-2019-48814](https://github.com/wucj001/cve-2019-48814)
