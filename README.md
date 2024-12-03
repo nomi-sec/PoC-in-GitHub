@@ -1735,6 +1735,13 @@
 
 - [RandomRobbieBF/CVE-2024-8529](https://github.com/RandomRobbieBF/CVE-2024-8529)
 
+### CVE-2024-8672 (2024-11-28)
+
+<code>The Widget Options – The #1 WordPress Widget &amp; Block Control Plugin plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 4.0.7 via the display logic functionality that extends several page builders. This is due to the plugin allowing users to supply input that will be passed through eval() without any filtering or capability checks. This makes it possible for authenticated attackers, with contributor-level access and above, to execute code on the server. Special note: We suggested the vendor implement an allowlist of functions and limit the ability to execute commands to just administrators, however, they did not take our advice. We are considering this patched, however, we believe it could still be further hardened and there may be residual risk with how the issue is currently patched.
+</code>
+
+- [Chocapikk/CVE-2024-8672](https://github.com/Chocapikk/CVE-2024-8672)
+
 ### CVE-2024-8698 (2024-09-19)
 
 <code>A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is for the full document or only for specific assertions based on the position of the signature in the XML document, rather than the Reference element used to specify the signed element. This flaw allows attackers to create crafted responses that can bypass the validation, potentially leading to privilege escalation or impersonation attacks.
@@ -7211,10 +7218,18 @@
 
 - [0x4M3R/CVE-2024-53255](https://github.com/0x4M3R/CVE-2024-53255)
 
-### CVE-2024-53375
+### CVE-2024-53375 (2024-12-02)
+
+<code>Authenticated remote code execution (RCE) vulnerabilities affect TP-Link Archer, Deco, and Tapo series routers. A vulnerability exists in the &quot;tmp_get_sites&quot; function of the HomeShield functionality provided by TP-Link. This vulnerability is still exploitable without the installation or activation of the HomeShield functionality.
+</code>
+
 - [ThottySploity/CVE-2024-53375](https://github.com/ThottySploity/CVE-2024-53375)
 
-### CVE-2024-53617
+### CVE-2024-53617 (2024-12-02)
+
+<code>A Cross Site Scripting vulnerability in LibrePhotos before commit 32237 allows attackers to takeover any account via uploading an HTML file on behalf of the admin user using IDOR in file upload.
+</code>
+
 - [ii5mai1/CVE-2024-53617](https://github.com/ii5mai1/CVE-2024-53617)
 
 ### CVE-2024-1642470
@@ -18543,6 +18558,7 @@
 - [hev0x/CVE-2022-26134](https://github.com/hev0x/CVE-2022-26134)
 - [archanchoudhury/Confluence-CVE-2022-26134](https://github.com/archanchoudhury/Confluence-CVE-2022-26134)
 - [SIFalcon/confluencePot](https://github.com/SIFalcon/confluencePot)
+- [CatAnnaDev/CVE-2022-26134](https://github.com/CatAnnaDev/CVE-2022-26134)
 - [vesperp/CVE-2022-26134-Confluence](https://github.com/vesperp/CVE-2022-26134-Confluence)
 - [li8u99/CVE-2022-26134](https://github.com/li8u99/CVE-2022-26134)
 - [reubensammut/cve-2022-26134](https://github.com/reubensammut/cve-2022-26134)
