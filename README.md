@@ -1876,6 +1876,7 @@
 
 - [horizon3ai/CVE-2024-9465](https://github.com/horizon3ai/CVE-2024-9465)
 - [mustafaakalin/CVE-2024-9465](https://github.com/mustafaakalin/CVE-2024-9465)
+- [XiaomingX/cve-2024-9465-poc](https://github.com/XiaomingX/cve-2024-9465-poc)
 
 ### CVE-2024-9466 (2024-10-09)
 
@@ -12882,6 +12883,7 @@
 - [technicalcorp0/CVE-2023-38831-Exploit](https://github.com/technicalcorp0/CVE-2023-38831-Exploit)
 - [idkwastaken/CVE-2023-38831](https://github.com/idkwastaken/CVE-2023-38831)
 - [RonF98/CVE-2023-38831-POC](https://github.com/RonF98/CVE-2023-38831-POC)
+- [VictoriousKnight/CVE-2023-38831_Exploit](https://github.com/VictoriousKnight/CVE-2023-38831_Exploit)
 
 ### CVE-2023-38836 (2023-08-21)
 
