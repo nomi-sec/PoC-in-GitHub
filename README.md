@@ -1143,6 +1143,7 @@
 </code>
 
 - [gogo2464/CVE-2024-5124](https://github.com/gogo2464/CVE-2024-5124)
+- [XiaomingX/CVE-2024-5124-poc](https://github.com/XiaomingX/CVE-2024-5124-poc)
 
 ### CVE-2024-5246 (2024-05-23)
 
@@ -7189,6 +7190,9 @@
 
 - [ubaii/CVE-2024-52475](https://github.com/ubaii/CVE-2024-52475)
 
+### CVE-2024-52680
+- [cyb3res3c/CVE-2024-52680](https://github.com/cyb3res3c/CVE-2024-52680)
+
 ### CVE-2024-52711 (2024-11-19)
 
 <code>DI-8100 v16.07.26A1 is vulnerable to Buffer Overflow In the ip_position_asp function via the ip parameter.
@@ -7488,7 +7492,7 @@
 <code>Es wurde eine Schwachstelle in Lespeed WiseCleaner Wise System Monitor 1.5.3.54 gefunden. Sie wurde als problematisch eingestuft. Betroffen hiervon ist die Funktion 0x9C40A0D8/0x9C40A0DC/0x9C40A0E0 in der Bibliothek WiseHDInfo64.dll der Komponente IoControlCode Handler. Durch Manipulieren mit unbekannten Daten kann eine denial of service-Schwachstelle ausgenutzt werden. Der Angriff hat dabei lokal zu erfolgen. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [bxtshit/CVE-2023-1488](https://github.com/bxtshit/CVE-2023-1488)
+- [involuntairly/CVE-2023-1488](https://github.com/involuntairly/CVE-2023-1488)
 
 ### CVE-2023-1498 (2023-03-19)
 
@@ -23275,6 +23279,7 @@
 - [Typical0day/CVE-2021-3156](https://github.com/Typical0day/CVE-2021-3156)
 - [acidburn2049/CVE-2021-3156](https://github.com/acidburn2049/CVE-2021-3156)
 - [Bad3r/CVE-2021-3156-without-ip-command](https://github.com/Bad3r/CVE-2021-3156-without-ip-command)
+- [Sebastianbedoya25/CVE-2021-3156](https://github.com/Sebastianbedoya25/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -23751,7 +23756,6 @@
 </code>
 
 - [cckuailong/log4shell_1.x](https://github.com/cckuailong/log4shell_1.x)
-- [open-AIMS/log4j](https://github.com/open-AIMS/log4j)
 
 ### CVE-2021-4154 (2022-02-04)
 
