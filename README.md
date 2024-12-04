@@ -1254,6 +1254,7 @@
 </code>
 
 - [p33d/Palo-Alto-Expedition-Remote-Code-Execution-Exploit-CVE-2024-5910-CVE-2024-9464](https://github.com/p33d/Palo-Alto-Expedition-Remote-Code-Execution-Exploit-CVE-2024-5910-CVE-2024-9464)
+- [Farzan-Kh/CVE-2024-5910](https://github.com/Farzan-Kh/CVE-2024-5910)
 
 ### CVE-2024-5932 (2024-08-20)
 
@@ -2469,6 +2470,7 @@
 - [DerZiad/CVE-2024-21413](https://github.com/DerZiad/CVE-2024-21413)
 - [Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape](https://github.com/Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape)
 - [ThemeHackers/CVE-2024-21413](https://github.com/ThemeHackers/CVE-2024-21413)
+- [D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB](https://github.com/D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB)
 
 ### CVE-2024-21514 (2024-06-22)
 
@@ -7232,6 +7234,13 @@
 
 - [0x4M3R/CVE-2024-53255](https://github.com/0x4M3R/CVE-2024-53255)
 
+### CVE-2024-53259 (2024-12-02)
+
+<code>quic-go is an implementation of the QUIC protocol in Go. An off-path attacker can inject an ICMP Packet Too Large packet. Since affected quic-go versions used IP_PMTUDISC_DO, the kernel would then return a &quot;message too large&quot; error on sendmsg, i.e. when quic-go attempts to send a packet that exceeds the MTU claimed in that ICMP packet. By setting this value to smaller than 1200 bytes (the minimum MTU for QUIC), the attacker can disrupt a QUIC connection. Crucially, this can be done after completion of the handshake, thereby circumventing any TCP fallback that might be implemented on the application layer (for example, many browsers fall back to HTTP over TCP if they're unable to establish a QUIC connection). The attacker needs to at least know the client's IP and port tuple to mount an attack. This vulnerability is fixed in 0.48.2.
+</code>
+
+- [kota-yata/cve-2024-53259](https://github.com/kota-yata/cve-2024-53259)
+
 ### CVE-2024-53375 (2024-12-02)
 
 <code>Authenticated remote code execution (RCE) vulnerabilities affect TP-Link Archer, Deco, and Tapo series routers. A vulnerability exists in the &quot;tmp_get_sites&quot; function of the HomeShield functionality provided by TP-Link. This vulnerability is still exploitable without the installation or activation of the HomeShield functionality.
@@ -11463,6 +11472,7 @@
 - [mister-turtle/cve-2023-32784](https://github.com/mister-turtle/cve-2023-32784)
 - [Cmadhushanka/CVE-2023-32784-Exploitation](https://github.com/Cmadhushanka/CVE-2023-32784-Exploitation)
 - [SarahZimmermann-Schmutzler/exploit_keepass](https://github.com/SarahZimmermann-Schmutzler/exploit_keepass)
+- [dev0558/CVE-2023-32784-EXPLOIT-REPORT](https://github.com/dev0558/CVE-2023-32784-EXPLOIT-REPORT)
 
 ### CVE-2023-32961 (2023-06-12)
 
@@ -11804,6 +11814,13 @@
 
 - [overgrowncarrot1/ImageTragick_CVE-2023-34152](https://github.com/overgrowncarrot1/ImageTragick_CVE-2023-34152)
 - [SudoIndividual/CVE-2023-34152](https://github.com/SudoIndividual/CVE-2023-34152)
+
+### CVE-2023-34194 (2023-12-13)
+
+<code>StringEqual in TiXmlDeclaration::Parse in tinyxmlparser.cpp in TinyXML through 2.6.2 has a reachable assertion (and application exit) via a crafted XML document with a '\0' located after whitespace.
+</code>
+
+- [vm2mv/tinyxml](https://github.com/vm2mv/tinyxml)
 
 ### CVE-2023-34212 (2023-06-12)
 
@@ -12413,7 +12430,6 @@
 - [ifconfig-me/CVE-2023-36845](https://github.com/ifconfig-me/CVE-2023-36845)
 - [e11i0t4lders0n/CVE-2023-36845](https://github.com/e11i0t4lders0n/CVE-2023-36845)
 - [Vignesh2712/Automation-for-Juniper-cve-2023-36845](https://github.com/Vignesh2712/Automation-for-Juniper-cve-2023-36845)
-- [functionofpwnosec/CVE-2023-36845](https://github.com/functionofpwnosec/CVE-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -15412,6 +15428,7 @@
 
 - [knqyf263/CVE-2023-50387](https://github.com/knqyf263/CVE-2023-50387)
 - [Meirelez/SSR-DNSSEC](https://github.com/Meirelez/SSR-DNSSEC)
+- [Pablodiz/CVE-2023-50387](https://github.com/Pablodiz/CVE-2023-50387)
 
 ### CVE-2023-50465 (2023-12-11)
 
@@ -25407,6 +25424,7 @@
 
 - [hh-hunter/nacos-cve-2021-29441](https://github.com/hh-hunter/nacos-cve-2021-29441)
 - [bysinks/CVE-2021-29441](https://github.com/bysinks/CVE-2021-29441)
+- [azhao1981/CVE-2021-29441](https://github.com/azhao1981/CVE-2021-29441)
 
 ### CVE-2021-29442 (2021-04-27)
 
@@ -27450,7 +27468,6 @@
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
-- [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
 - [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
 - [skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773)
 - [mauricelambert/CVE-2021-41773](https://github.com/mauricelambert/CVE-2021-41773)
@@ -27627,6 +27644,13 @@
 - [ItsIgnacioPortal/CVE-2021-42237](https://github.com/ItsIgnacioPortal/CVE-2021-42237)
 - [vesperp/CVE-2021-42237-SiteCore-XP](https://github.com/vesperp/CVE-2021-42237-SiteCore-XP)
 - [crankyyash/SiteCore-RCE-Detection](https://github.com/crankyyash/SiteCore-RCE-Detection)
+
+### CVE-2021-42260 (2021-10-11)
+
+<code>TinyXML through 2.6.2 has an infinite loop in TiXmlParsingData::Stamp in tinyxmlparser.cpp via the TIXML_UTF_LEAD_0 case. It can be triggered by a crafted XML message and leads to a denial of service.
+</code>
+
+- [vm2mv/tinyxml](https://github.com/vm2mv/tinyxml)
 
 ### CVE-2021-42261 (2021-10-19)
 
@@ -28584,7 +28608,6 @@
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
-- [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
