@@ -4835,6 +4835,7 @@
 - [EQSTLab/CVE-2024-34102](https://github.com/EQSTLab/CVE-2024-34102)
 - [dream434/CVE-2024-34102](https://github.com/dream434/CVE-2024-34102)
 - [bka/magento-cve-2024-34102-exploit-cosmicstring](https://github.com/bka/magento-cve-2024-34102-exploit-cosmicstring)
+- [wubinworks/magento2-encryption-key-manager-cli](https://github.com/wubinworks/magento2-encryption-key-manager-cli)
 
 ### CVE-2024-34144 (2024-05-02)
 
@@ -6536,6 +6537,7 @@
 </code>
 
 - [EQSTLab/CVE-2024-46538](https://github.com/EQSTLab/CVE-2024-46538)
+- [LauLeysen/CVE-2024-46538](https://github.com/LauLeysen/CVE-2024-46538)
 
 ### CVE-2024-46627 (2024-09-26)
 
@@ -16192,6 +16194,7 @@
 - [im-hanzou/fubucker](https://github.com/im-hanzou/fubucker)
 - [zycoder0day/CVE-2022-1386-Mass_Vulnerability](https://github.com/zycoder0day/CVE-2022-1386-Mass_Vulnerability)
 - [satyasai1460/CVE-2022-1386](https://github.com/satyasai1460/CVE-2022-1386)
+- [lamcodeofpwnosec/CVE-2022-1386](https://github.com/lamcodeofpwnosec/CVE-2022-1386)
 
 ### CVE-2022-1388 (2022-05-05)
 
@@ -21215,13 +21218,6 @@
 - [TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell](https://github.com/TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell)
 - [0-Gram/CVE-2022-41040](https://github.com/0-Gram/CVE-2022-41040)
 
-### CVE-2022-41049 (2022-11-09)
-
-<code>Windows Mark of the Web Security Feature Bypass Vulnerability
-</code>
-
-- [Nathan01110011/CVE-2022-41049-POC](https://github.com/Nathan01110011/CVE-2022-41049-POC)
-
 ### CVE-2022-41080 (2022-11-09)
 
 <code>Microsoft Exchange Server Elevation of Privilege Vulnerability
@@ -23206,6 +23202,7 @@
 - [piperpwn/CVE-2021-3129-](https://github.com/piperpwn/CVE-2021-3129-)
 - [0x0d3ad/CVE-2021-3129](https://github.com/0x0d3ad/CVE-2021-3129)
 - [GodOfServer/CVE-2021-3129](https://github.com/GodOfServer/CVE-2021-3129)
+- [Prabesh01/hoh4](https://github.com/Prabesh01/hoh4)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -24876,7 +24873,6 @@
 - [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
 - [30579096/Confluence-CVE-2021-26084](https://github.com/30579096/Confluence-CVE-2021-26084)
-- [ZZ-SOCMAP/CVE-2021-26084](https://github.com/ZZ-SOCMAP/CVE-2021-26084)
 - [vpxuser/CVE-2021-26084-EXP](https://github.com/vpxuser/CVE-2021-26084-EXP)
 - [nahcusira/CVE-2021-26084](https://github.com/nahcusira/CVE-2021-26084)
 - [BBD-YZZ/Confluence-RCE](https://github.com/BBD-YZZ/Confluence-RCE)
@@ -36674,7 +36670,7 @@
 
 ### CVE-2019-11881 (2019-06-10)
 
-<code>A vulnerability exists in Rancher 2.1.4 in the login component, where the errorMsg parameter can be tampered to display arbitrary content, filtering tags but not special characters or symbols. There's no other limitation of the message, allowing malicious users to lure legitimate users to visit phishing sites with scare tactics, e.g., displaying a &quot;This version of Rancher is outdated, please visit https://malicious.rancher.site/upgrading&quot; message.
+<code>A vulnerability exists in Rancher before 2.2.4 in the login component, where the errorMsg parameter can be tampered to display arbitrary content, filtering tags but not special characters or symbols. There's no other limitation of the message, allowing malicious users to lure legitimate users to visit phishing sites with scare tactics, e.g., displaying a &quot;This version of Rancher is outdated, please visit https://malicious.rancher.site/upgrading&quot; message.
 </code>
 
 - [MauroEldritch/VanCleef](https://github.com/MauroEldritch/VanCleef)
