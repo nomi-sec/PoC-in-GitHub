@@ -4393,7 +4393,7 @@
 
 ### CVE-2024-30896 (2024-11-21)
 
-<code>InfluxDB through 2.7.10 allows allAccess administrators to retrieve all raw tokens via an &quot;influx auth ls&quot; command. NOTE: the supplier indicates that this is intentional but is a &quot;poor design choice&quot; that will be changed in a future release.
+<code>InfluxDB OSS 2.x through 2.7.11 stores the administrative operator token under the default organization which allows authorized users with read access to the authorization resource of the default organization to retrieve the operator token. InfluxDB OSS 1.x, Enterprise, Cloud, Cloud Dedicated and Clustered are not affected. NOTE: The researcher states that InfluxDB allows allAccess administrators to retrieve all raw tokens via an &quot;influx auth ls&quot; command. The supplier indicates that the organizations feature is operating as intended and that users may choose to add users to non-default organizations. A future release of InfluxDB 2.x will remove the ability to retrieve tokens from the API.
 </code>
 
 - [XenoM0rph97/CVE-2024-30896](https://github.com/XenoM0rph97/CVE-2024-30896)
