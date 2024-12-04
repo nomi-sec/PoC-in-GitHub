@@ -2137,6 +2137,7 @@
 - [ThemeHackers/CVE-2024-10914](https://github.com/ThemeHackers/CVE-2024-10914)
 - [retuci0/cve-2024-10914-port](https://github.com/retuci0/cve-2024-10914-port)
 - [K3ysTr0K3R/CVE-2024-10914-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-10914-EXPLOIT)
+- [jahithoque/CVE-2024-10914-Exploit](https://github.com/jahithoque/CVE-2024-10914-Exploit)
 
 ### CVE-2024-10924 (2024-11-15)
 
@@ -6928,6 +6929,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-50498](https://github.com/RandomRobbieBF/CVE-2024-50498)
+- [p0et08/CVE-2024-50498](https://github.com/p0et08/CVE-2024-50498)
 
 ### CVE-2024-50657 (2024-11-22)
 
@@ -41319,6 +41321,7 @@
 - [not1cyyy/CVE-2018-16763](https://github.com/not1cyyy/CVE-2018-16763)
 - [antisecc/CVE-2018-16763](https://github.com/antisecc/CVE-2018-16763)
 - [VitoBonetti/CVE-2018-16763](https://github.com/VitoBonetti/CVE-2018-16763)
+- [saccles/CVE-2018-16763-Proof-of-Concept](https://github.com/saccles/CVE-2018-16763-Proof-of-Concept)
 
 ### CVE-2018-16809 (2019-03-07)
 
