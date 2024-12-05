@@ -2250,6 +2250,13 @@
 
 - [TheN00bBuilder/cve-2024-11477-writeup](https://github.com/TheN00bBuilder/cve-2024-11477-writeup)
 
+### CVE-2024-11680 (2024-11-26)
+
+<code>ProjectSend versions prior to r1720 are affected by an improper authentication vulnerability. Remote, unauthenticated attackers can exploit this flaw by sending crafted HTTP requests to options.php, enabling unauthorized modification of the application's configuration. Successful exploitation allows attackers to create accounts, upload webshells, and embed malicious JavaScript.
+</code>
+
+- [D3N14LD15K/CVE-2024-11680_PoC_Exploit](https://github.com/D3N14LD15K/CVE-2024-11680_PoC_Exploit)
+
 ### CVE-2024-12345
 - [RoyaRadin/CVE-2024-12345-POC](https://github.com/RoyaRadin/CVE-2024-12345-POC)
 
@@ -5526,7 +5533,7 @@
 <code>Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
 </code>
 
-- [Nephster/CVE-2024-38193](https://github.com/Nephster/CVE-2024-38193)
+- [killvxk/CVE-2024-38193-Nephster](https://github.com/killvxk/CVE-2024-38193-Nephster)
 
 ### CVE-2024-38200 (2024-08-08)
 
@@ -7204,9 +7211,6 @@
 
 - [ubaii/CVE-2024-52475](https://github.com/ubaii/CVE-2024-52475)
 
-### CVE-2024-52680
-- [cyb3res3c/CVE-2024-52680](https://github.com/cyb3res3c/CVE-2024-52680)
-
 ### CVE-2024-52711 (2024-11-19)
 
 <code>DI-8100 v16.07.26A1 is vulnerable to Buffer Overflow In the ip_position_asp function via the ip parameter.
@@ -8146,6 +8150,7 @@
 - [H4cking4All/CVE-2023-4220](https://github.com/H4cking4All/CVE-2023-4220)
 - [oxapavan/CVE-2023-4220-HTB-PermX](https://github.com/oxapavan/CVE-2023-4220-HTB-PermX)
 - [numaan911098/CVE-2023-4220](https://github.com/numaan911098/CVE-2023-4220)
+- [MikeyPPPPPPPP/CVE-2023-4220](https://github.com/MikeyPPPPPPPP/CVE-2023-4220)
 
 ### CVE-2023-4226 (2023-11-28)
 
