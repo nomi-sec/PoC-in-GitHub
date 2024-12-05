@@ -1143,7 +1143,7 @@
 </code>
 
 - [gogo2464/CVE-2024-5124](https://github.com/gogo2464/CVE-2024-5124)
-- [XiaomingX/CVE-2024-5124-poc](https://github.com/XiaomingX/CVE-2024-5124-poc)
+- [XiaomingX/cve-2024-5124-poc](https://github.com/XiaomingX/cve-2024-5124-poc)
 
 ### CVE-2024-5246 (2024-05-23)
 
@@ -4431,6 +4431,13 @@
 </code>
 
 - [Abdurahmon3236/-CVE-2024-31211](https://github.com/Abdurahmon3236/-CVE-2024-31211)
+
+### CVE-2024-31317 (2024-07-09)
+
+<code>In multiple functions of ZygoteProcess.java, there is a possible way to achieve code execution as any app via WRITE_SECURE_SETTINGS due to unsafe deserialization. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [fuhei/CVE-2024-31317](https://github.com/fuhei/CVE-2024-31317)
 
 ### CVE-2024-31319 (2024-07-09)
 
