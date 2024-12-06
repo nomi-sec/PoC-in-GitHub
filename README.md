@@ -2177,7 +2177,11 @@
 
 - [windz3r0day/CVE-2024-11199](https://github.com/windz3r0day/CVE-2024-11199)
 
-### CVE-2024-11201
+### CVE-2024-11201 (2024-12-06)
+
+<code>The myCred – Loyalty Points and Rewards plugin for WordPress and WooCommerce – Give Points, Ranks, Badges, Cashback, WooCommerce rewards, and WooCommerce credits for Gamification plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's mycred_send shortcode in all versions up to, and including, 2.7.5.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
 - [NSQAQ/CVE-2024-11201](https://github.com/NSQAQ/CVE-2024-11201)
 
 ### CVE-2024-11252 (2024-11-30)
@@ -6969,6 +6973,9 @@
 
 - [SAHALLL/CVE-2024-50657](https://github.com/SAHALLL/CVE-2024-50657)
 
+### CVE-2024-50677
+- [ZumiYumi/CVE-2024-50677](https://github.com/ZumiYumi/CVE-2024-50677)
+
 ### CVE-2024-50803 (2024-11-19)
 
 <code>The mediapool feature of the Redaxo Core CMS application v 5.17.1 is vulnerable to Cross Site Scripting(XSS) which allows a remote attacker to escalate privileges
@@ -7280,6 +7287,13 @@
 </code>
 
 - [ii5mai1/CVE-2024-53617](https://github.com/ii5mai1/CVE-2024-53617)
+
+### CVE-2024-54679 (2024-12-05)
+
+<code>CyberPanel (aka Cyber Panel) before 6778ad1 does not require the FilemanagerAdmin capability for restartMySQL actions.
+</code>
+
+- [hotplugin0x01/CVE-2024-54679](https://github.com/hotplugin0x01/CVE-2024-54679)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
