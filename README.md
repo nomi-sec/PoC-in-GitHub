@@ -2064,6 +2064,13 @@
 - [ubaii/CVE-2024-10508](https://github.com/ubaii/CVE-2024-10508)
 - [Jenderal92/CVE-2024-10508](https://github.com/Jenderal92/CVE-2024-10508)
 
+### CVE-2024-10516 (2024-12-06)
+
+<code>The Swift Performance Lite plugin for WordPress is vulnerable to Local PHP File Inclusion in all versions up to, and including, 2.3.7.1 via the 'ajaxify' function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
+</code>
+
+- [RandomRobbieBF/CVE-2024-10516](https://github.com/RandomRobbieBF/CVE-2024-10516)
+
 ### CVE-2024-10542 (2024-11-26)
 
 <code>The Spam protection, Anti-Spam, FireWall by CleanTalk plugin for WordPress is vulnerable to unauthorized Arbitrary Plugin Installation due to an authorization bypass via reverse DNS spoofing on the checkWithoutToken function in all versions up to, and including, 6.43.2. This makes it possible for unauthenticated attackers to install and activate arbitrary plugins which can be leveraged to achieve remote code execution if another vulnerable plugin is installed and activated.
@@ -2260,6 +2267,13 @@
 </code>
 
 - [D3N14LD15K/CVE-2024-11680_PoC_Exploit](https://github.com/D3N14LD15K/CVE-2024-11680_PoC_Exploit)
+
+### CVE-2024-12155 (2024-12-06)
+
+<code>The SV100 Companion plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the settings_import() function in all versions up to, and including, 2.0.02. This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
+</code>
+
+- [McTavishSue/CVE-2024-12155](https://github.com/McTavishSue/CVE-2024-12155)
 
 ### CVE-2024-12345
 - [RoyaRadin/CVE-2024-12345-POC](https://github.com/RoyaRadin/CVE-2024-12345-POC)
@@ -6057,6 +6071,7 @@
 
 - [aramosf/cve-2024-42327](https://github.com/aramosf/cve-2024-42327)
 - [compr00t/CVE-2024-42327](https://github.com/compr00t/CVE-2024-42327)
+- [depers-rus/CVE-2024-42327](https://github.com/depers-rus/CVE-2024-42327)
 
 ### CVE-2024-42346 (2024-09-20)
 
@@ -6973,7 +6988,11 @@
 
 - [SAHALLL/CVE-2024-50657](https://github.com/SAHALLL/CVE-2024-50657)
 
-### CVE-2024-50677
+### CVE-2024-50677 (2024-12-06)
+
+<code>A cross-site scripting (XSS) vulnerability in OroPlatform CMS v5.1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Search parameter.
+</code>
+
 - [ZumiYumi/CVE-2024-50677](https://github.com/ZumiYumi/CVE-2024-50677)
 
 ### CVE-2024-50803 (2024-11-19)
@@ -15928,7 +15947,6 @@
 - [xndpxs/CVE-2022-0847](https://github.com/xndpxs/CVE-2022-0847)
 - [r1is/CVE-2022-0847](https://github.com/r1is/CVE-2022-0847)
 - [Arinerron/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit)
-- [2xYuan/CVE-2022-0847](https://github.com/2xYuan/CVE-2022-0847)
 - [crowsec-edtech/Dirty-Pipe](https://github.com/crowsec-edtech/Dirty-Pipe)
 - [lucksec/CVE-2022-0847](https://github.com/lucksec/CVE-2022-0847)
 - [si1ent-le/CVE-2022-0847](https://github.com/si1ent-le/CVE-2022-0847)
@@ -20154,6 +20172,7 @@
 - [ysanatomic/CVE-2022-32250-LPE](https://github.com/ysanatomic/CVE-2022-32250-LPE)
 - [Decstor5/2022-32250LPE](https://github.com/Decstor5/2022-32250LPE)
 - [Kristal-g/CVE-2022-32250](https://github.com/Kristal-g/CVE-2022-32250)
+- [seadragnol/CVE-2022-32250](https://github.com/seadragnol/CVE-2022-32250)
 
 ### CVE-2022-32532 (2022-06-28)
 
