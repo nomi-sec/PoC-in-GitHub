@@ -1429,7 +1429,6 @@
 - [identity-threat-labs/CVE-2024-6387-Vulnerability-Checker](https://github.com/identity-threat-labs/CVE-2024-6387-Vulnerability-Checker)
 - [identity-threat-labs/Article-RegreSSHion-CVE-2024-6387](https://github.com/identity-threat-labs/Article-RegreSSHion-CVE-2024-6387)
 - [YassDEV221608/CVE-2024-6387](https://github.com/YassDEV221608/CVE-2024-6387)
-- [oxapavan/CVE-2024-6387](https://github.com/oxapavan/CVE-2024-6387)
 
 ### CVE-2024-6473 (2024-09-03)
 
@@ -5124,6 +5123,13 @@
 - [ro0tmylove/CVE-2024-35250-BOF](https://github.com/ro0tmylove/CVE-2024-35250-BOF)
 - [yinsel/CVE-2024-35250-BOF](https://github.com/yinsel/CVE-2024-35250-BOF)
 
+### CVE-2024-35286 (2024-10-21)
+
+<code>A vulnerability in NuPoint Messenger (NPM) of Mitel MiCollab through 9.8.0.33 allows an unauthenticated attacker to conduct a SQL injection attack due to insufficient sanitization of user input. A successful exploit could allow an attacker to access sensitive information and execute arbitrary database and management operations.
+</code>
+
+- [lu4m575/CVE-2024-35286_scan.nse](https://github.com/lu4m575/CVE-2024-35286_scan.nse)
+
 ### CVE-2024-35315 (2024-10-21)
 
 <code>A vulnerability in the Desktop Client of Mitel MiCollab through 9.7.1.110, and MiVoice Business Solution Virtual Instance (MiVB SVI) 1.0.0.25, could allow an authenticated attacker to conduct a privilege escalation attack due to improper file validation. A successful exploit could allow an attacker to run arbitrary code with elevated privileges.
@@ -5491,6 +5497,7 @@
 - [AliHj98/cve-2024-38063-Anonyvader](https://github.com/AliHj98/cve-2024-38063-Anonyvader)
 - [Dragkob/CVE-2024-38063](https://github.com/Dragkob/CVE-2024-38063)
 - [selenagomez25/CVE-2024-38063](https://github.com/selenagomez25/CVE-2024-38063)
+- [Laukage/Windows-CVE-2024-38063](https://github.com/Laukage/Windows-CVE-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -7214,6 +7221,13 @@
 
 - [TAM-K592/CVE-2024-52318](https://github.com/TAM-K592/CVE-2024-52318)
 
+### CVE-2024-52335 (2024-12-06)
+
+<code>A vulnerability has been identified in syngo.plaza VB30E (All versions &lt; VB30E_HF05). The affected application do not properly sanitize input data before sending it to the SQL server. This could allow an attacker with access to the application could use this vulnerability to execute malicious SQL commands to compromise the whole database.
+</code>
+
+- [cloudefence/CVE-2024-52335](https://github.com/cloudefence/CVE-2024-52335)
+
 ### CVE-2024-52380 (2024-11-14)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in Softpulse Infotech Picsmize allows Upload a Web Shell to a Web Server.This issue affects Picsmize: from n/a through 1.0.0.
@@ -7388,7 +7402,6 @@
 - [overgrowncarrot1/CVE-2023-0297](https://github.com/overgrowncarrot1/CVE-2023-0297)
 - [btar1gan/exploit_CVE-2023-0297](https://github.com/btar1gan/exploit_CVE-2023-0297)
 - [S4MY9/CVE-2023-0297](https://github.com/S4MY9/CVE-2023-0297)
-- [oxapavan/CVE-2023-0297](https://github.com/oxapavan/CVE-2023-0297)
 
 ### CVE-2023-0315 (2023-01-16)
 
