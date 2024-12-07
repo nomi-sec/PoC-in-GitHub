@@ -1501,6 +1501,7 @@
 - [zangjiahe/CVE-2024-6782](https://github.com/zangjiahe/CVE-2024-6782)
 - [jdpsl/CVE-2024-6782](https://github.com/jdpsl/CVE-2024-6782)
 - [0xB0y426/CVE-2024-6782-PoC](https://github.com/0xB0y426/CVE-2024-6782-PoC)
+- [NketiahGodfred/CVE-2024-6782](https://github.com/NketiahGodfred/CVE-2024-6782)
 
 ### CVE-2024-7029 (2024-08-02)
 
@@ -20871,7 +20872,6 @@
 - [MaherAzzouzi/CVE-2022-37706-LPE-exploit](https://github.com/MaherAzzouzi/CVE-2022-37706-LPE-exploit)
 - [ECU-10525611-Xander/CVE-2022-37706](https://github.com/ECU-10525611-Xander/CVE-2022-37706)
 - [junnythemarksman/CVE-2022-37706](https://github.com/junnythemarksman/CVE-2022-37706)
-- [AleksPwn/CVE-2022-37706](https://github.com/AleksPwn/CVE-2022-37706)
 - [TACTICAL-HACK/CVE-2022-37706-SUID](https://github.com/TACTICAL-HACK/CVE-2022-37706-SUID)
 - [sanan2004/CVE-2022-37706](https://github.com/sanan2004/CVE-2022-37706)
 - [KaoXx/CVE-2022-37706](https://github.com/KaoXx/CVE-2022-37706)
