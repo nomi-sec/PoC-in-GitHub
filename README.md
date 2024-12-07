@@ -1254,7 +1254,6 @@
 </code>
 
 - [p33d/Palo-Alto-Expedition-Remote-Code-Execution-Exploit-CVE-2024-5910-CVE-2024-9464](https://github.com/p33d/Palo-Alto-Expedition-Remote-Code-Execution-Exploit-CVE-2024-5910-CVE-2024-9464)
-- [Farzan-Kh/CVE-2024-5910](https://github.com/Farzan-Kh/CVE-2024-5910)
 
 ### CVE-2024-5932 (2024-08-20)
 
@@ -1877,7 +1876,6 @@
 - [horizon3ai/CVE-2024-9465](https://github.com/horizon3ai/CVE-2024-9465)
 - [mustafaakalin/CVE-2024-9465](https://github.com/mustafaakalin/CVE-2024-9465)
 - [XiaomingX/cve-2024-9465-poc](https://github.com/XiaomingX/cve-2024-9465-poc)
-- [Farzan-Kh/CVE-2024-9465](https://github.com/Farzan-Kh/CVE-2024-9465)
 
 ### CVE-2024-9466 (2024-10-09)
 
@@ -2146,6 +2144,7 @@
 - [retuci0/cve-2024-10914-port](https://github.com/retuci0/cve-2024-10914-port)
 - [K3ysTr0K3R/CVE-2024-10914-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-10914-EXPLOIT)
 - [jahithoque/CVE-2024-10914-Exploit](https://github.com/jahithoque/CVE-2024-10914-Exploit)
+- [redspy-sec/D-Link](https://github.com/redspy-sec/D-Link)
 
 ### CVE-2024-10924 (2024-11-15)
 
@@ -2231,6 +2230,27 @@
 </code>
 
 - [windz3r0day/CVE-2024-11388](https://github.com/windz3r0day/CVE-2024-11388)
+
+### CVE-2024-11392 (2024-11-22)
+
+<code>Hugging Face Transformers MobileViTV2 Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hugging Face Transformers. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the handling of configuration files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current user. Was ZDI-CAN-24322.
+</code>
+
+- [Piyush-Bhor/CVE-2024-11392](https://github.com/Piyush-Bhor/CVE-2024-11392)
+
+### CVE-2024-11393 (2024-11-22)
+
+<code>Hugging Face Transformers MaskFormer Model Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hugging Face Transformers. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of model files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current user. Was ZDI-CAN-25191.
+</code>
+
+- [Piyush-Bhor/CVE-2024-11393](https://github.com/Piyush-Bhor/CVE-2024-11393)
+
+### CVE-2024-11394 (2024-11-22)
+
+<code>Hugging Face Transformers Trax Model Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hugging Face Transformers. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the handling of model files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current user. Was ZDI-CAN-25012.
+</code>
+
+- [Piyush-Bhor/CVE-2024-11394](https://github.com/Piyush-Bhor/CVE-2024-11394)
 
 ### CVE-2024-11412 (2024-11-21)
 
@@ -13611,7 +13631,6 @@
 </code>
 
 - [bl4ckarch/CVE-2023-42326](https://github.com/bl4ckarch/CVE-2023-42326)
-- [Farzan-Kh/CVE-2023-42326](https://github.com/Farzan-Kh/CVE-2023-42326)
 
 ### CVE-2023-42362 (2023-09-14)
 
@@ -14977,7 +14996,6 @@
 </code>
 
 - [NHPT/CVE-2023-48123](https://github.com/NHPT/CVE-2023-48123)
-- [Farzan-Kh/CVE-2023-48123](https://github.com/Farzan-Kh/CVE-2023-48123)
 
 ### CVE-2023-48194 (2024-07-09)
 
@@ -34838,7 +34856,7 @@
 <code>A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2019-0739, CVE-2019-0753, CVE-2019-0862.
 </code>
 
-- [ZwCreatePhoton/CVE-2019-0752](https://github.com/ZwCreatePhoton/CVE-2019-0752)
+- [edxsh/CVE-2019-0752](https://github.com/edxsh/CVE-2019-0752)
 
 ### CVE-2019-0768 (2019-04-09)
 
@@ -35017,7 +35035,7 @@
 <code>A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'.
 </code>
 
-- [ZwCreatePhoton/CVE-2019-1221](https://github.com/ZwCreatePhoton/CVE-2019-1221)
+- [edxsh/CVE-2019-1221](https://github.com/edxsh/CVE-2019-1221)
 
 ### CVE-2019-1253 (2019-09-11)
 
@@ -35619,7 +35637,7 @@
 <code>Incorrect optimization assumptions in V8 in Google Chrome prior to 72.0.3626.81 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.
 </code>
 
-- [ZwCreatePhoton/CVE-2019-5782_CVE-2019-13768](https://github.com/ZwCreatePhoton/CVE-2019-5782_CVE-2019-13768)
+- [edxsh/CVE-2019-5782_CVE-2019-13768](https://github.com/edxsh/CVE-2019-5782_CVE-2019-13768)
 
 ### CVE-2019-5784 (2019-06-27)
 
@@ -40931,7 +40949,6 @@
 - [Zeop-CyberSec/fortios_vpnssl_traversal_leak](https://github.com/Zeop-CyberSec/fortios_vpnssl_traversal_leak)
 - [B1anda0/CVE-2018-13379](https://github.com/B1anda0/CVE-2018-13379)
 - [nivdolgin/CVE-2018-13379](https://github.com/nivdolgin/CVE-2018-13379)
-- [Farzan-Kh/CVE-2018-13379](https://github.com/Farzan-Kh/CVE-2018-13379)
 
 ### CVE-2018-13382 (2019-06-04)
 
