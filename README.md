@@ -42766,6 +42766,7 @@
 - [FredBrave/CVE-2017-5638-ApacheStruts2.3.5](https://github.com/FredBrave/CVE-2017-5638-ApacheStruts2.3.5)
 - [Nithylesh/web-application-firewall-](https://github.com/Nithylesh/web-application-firewall-)
 - [kloutkake/CVE-2017-5638-PoC](https://github.com/kloutkake/CVE-2017-5638-PoC)
+- [Xernary/CVE-2017-5638-POC](https://github.com/Xernary/CVE-2017-5638-POC)
 
 ### CVE-2017-5645 (2017-04-17)
 
