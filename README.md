@@ -6100,6 +6100,7 @@
 - [aramosf/cve-2024-42327](https://github.com/aramosf/cve-2024-42327)
 - [compr00t/CVE-2024-42327](https://github.com/compr00t/CVE-2024-42327)
 - [depers-rus/CVE-2024-42327](https://github.com/depers-rus/CVE-2024-42327)
+- [watchdog1337/CVE-2024-42327_Zabbix_SQLI](https://github.com/watchdog1337/CVE-2024-42327_Zabbix_SQLI)
 
 ### CVE-2024-42346 (2024-09-20)
 
