@@ -3326,6 +3326,7 @@
 </code>
 
 - [Abdurahmon3236/CVE-2024-24549](https://github.com/Abdurahmon3236/CVE-2024-24549)
+- [JFOZ1010/CVE-2024-24549](https://github.com/JFOZ1010/CVE-2024-24549)
 
 ### CVE-2024-24576 (2024-04-09)
 
@@ -6834,6 +6835,7 @@
 - [njeru-codes/needrestart-vulnerability-poc](https://github.com/njeru-codes/needrestart-vulnerability-poc)
 - [ally-petitt/CVE-2024-48990-Exploit](https://github.com/ally-petitt/CVE-2024-48990-Exploit)
 - [r0xdeadbeef/CVE-2024-48990](https://github.com/r0xdeadbeef/CVE-2024-48990)
+- [CyberCrowCC/CVE-2024-48990](https://github.com/CyberCrowCC/CVE-2024-48990)
 
 ### CVE-2024-49039 (2024-11-12)
 
@@ -49396,6 +49398,7 @@
 - [ratiros01/CVE-2004-1561](https://github.com/ratiros01/CVE-2004-1561)
 - [darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561)
 - [thel1nus/CVE-2004-1561-Notes](https://github.com/thel1nus/CVE-2004-1561-Notes)
+- [Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-](https://github.com/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-)
 
 ### CVE-2004-1769 (2005-03-10)
 
