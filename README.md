@@ -1861,6 +1861,7 @@
 - [adhikara13/CVE-2024-9441](https://github.com/adhikara13/CVE-2024-9441)
 - [p33d/CVE-2024-9441](https://github.com/p33d/CVE-2024-9441)
 - [XiaomingX/cve-2024-9441-poc](https://github.com/XiaomingX/cve-2024-9441-poc)
+- [jk-mayne/CVE-2024-9441-Checker](https://github.com/jk-mayne/CVE-2024-9441-Checker)
 
 ### CVE-2024-9464 (2024-10-09)
 
@@ -2294,6 +2295,20 @@
 </code>
 
 - [McTavishSue/CVE-2024-12155](https://github.com/McTavishSue/CVE-2024-12155)
+
+### CVE-2024-12209 (2024-12-08)
+
+<code>The WP Umbrella: Update Backup Restore &amp; Monitoring plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.17.0 via the 'filename' parameter of the 'umbrella-restore' action. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
+</code>
+
+- [RandomRobbieBF/CVE-2024-12209](https://github.com/RandomRobbieBF/CVE-2024-12209)
+
+### CVE-2024-12270 (2024-12-07)
+
+<code>The Beautiful taxonomy filters plugin for WordPress is vulnerable to SQL Injection via the 'selects[0][term]' parameter in all versions up to, and including, 2.4.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [RandomRobbieBF/CVE-2024-12270](https://github.com/RandomRobbieBF/CVE-2024-12270)
 
 ### CVE-2024-12345
 - [RoyaRadin/CVE-2024-12345-POC](https://github.com/RoyaRadin/CVE-2024-12345-POC)
@@ -42003,6 +42018,7 @@
 - [h2oa/CVE-2018-25031](https://github.com/h2oa/CVE-2018-25031)
 - [natpakun/SSRF-CVE-2018-25031-](https://github.com/natpakun/SSRF-CVE-2018-25031-)
 - [KonEch0/CVE-2018-25031-SG](https://github.com/KonEch0/CVE-2018-25031-SG)
+- [Proklinius897/CVE-2018-25031-tests](https://github.com/Proklinius897/CVE-2018-25031-tests)
 
 ### CVE-2018-25032 (2022-03-25)
 
