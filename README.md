@@ -2952,6 +2952,7 @@
 - [Pylonet/CVE-2024-23334](https://github.com/Pylonet/CVE-2024-23334)
 - [Arc4he/CVE-2024-23334-PoC](https://github.com/Arc4he/CVE-2024-23334-PoC)
 - [TheRedP4nther/LFI-aiohttp-CVE-2024-23334-PoC](https://github.com/TheRedP4nther/LFI-aiohttp-CVE-2024-23334-PoC)
+- [Betan423/CVE-2024-23334-PoC](https://github.com/Betan423/CVE-2024-23334-PoC)
 
 ### CVE-2024-23339 (2024-01-22)
 
@@ -6634,7 +6635,11 @@
 
 - [jackalkarlos/CVE-2024-46658](https://github.com/jackalkarlos/CVE-2024-46658)
 
-### CVE-2024-46901
+### CVE-2024-46901 (2024-12-09)
+
+<code>Insufficient validation of filenames against control characters in Apache Subversion repositories served via mod_dav_svn allows authenticated users with commit access to commit a corrupted revision, leading to disruption for users of the repository.\n\nAll versions of Subversion up to and including Subversion 1.14.4 are affected if serving repositories via mod_dav_svn. Users are recommended to upgrade to version 1.14.5, which fixes this issue.\n\nRepositories served via other access methods are not affected.
+</code>
+
 - [devhaozi/CVE-2024-46901](https://github.com/devhaozi/CVE-2024-46901)
 
 ### CVE-2024-46986 (2024-09-18)
@@ -11040,7 +11045,11 @@
 
 - [Toxich4/CVE-2023-30459](https://github.com/Toxich4/CVE-2023-30459)
 
-### CVE-2023-30486
+### CVE-2023-30486 (2024-12-09)
+
+<code>Missing Authorization vulnerability in HashThemes Square allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Square: from n/a through 2.0.0.
+</code>
+
 - [RandomRobbieBF/CVE-2023-30486](https://github.com/RandomRobbieBF/CVE-2023-30486)
 
 ### CVE-2023-30533 (2023-04-24)
@@ -11390,7 +11399,11 @@
 
 - [jmrcsnchz/CVE-2023-32073](https://github.com/jmrcsnchz/CVE-2023-32073)
 
-### CVE-2023-32117
+### CVE-2023-32117 (2024-12-09)
+
+<code>Missing Authorization vulnerability in SoftLab Integrate Google Drive allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Integrate Google Drive: from n/a through 1.1.99.
+</code>
+
 - [RandomRobbieBF/CVE-2023-32117](https://github.com/RandomRobbieBF/CVE-2023-32117)
 
 ### CVE-2023-32162 (2023-09-06)
@@ -36126,7 +36139,7 @@
 <code>WordPress through 5.0.3 allows Path Traversal in wp_crop_image(). An attacker (who has privileges to crop an image) can write the output image to an arbitrary directory via a filename containing two image extensions and ../ sequences, such as a filename ending with the .jpg?/../../file.jpg substring.
 </code>
 
-- [v0lck3r/CVE-2019-8943](https://github.com/v0lck3r/CVE-2019-8943)
+- [oussama-rahali/CVE-2019-8943](https://github.com/oussama-rahali/CVE-2019-8943)
 - [hadrian3689/wordpress_cropimage](https://github.com/hadrian3689/wordpress_cropimage)
 
 ### CVE-2019-8956 (2019-04-01)
@@ -48152,6 +48165,7 @@
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 - [0xl0k1/CVE-2012-1823](https://github.com/0xl0k1/CVE-2012-1823)
+- [Jimmy01240397/CVE-2012-1823-Analyze](https://github.com/Jimmy01240397/CVE-2012-1823-Analyze)
 
 ### CVE-2012-1831 (2012-07-05)
 
