@@ -7375,7 +7375,11 @@
 
 - [hotplugin0x01/CVE-2024-54679](https://github.com/hotplugin0x01/CVE-2024-54679)
 
-### CVE-2024-55586
+### CVE-2024-55586 (2024-12-10)
+
+<code>Nette Database through 3.2.4 allows SQL injection in certain situations involving an untrusted filter that is directly passed to the where method.
+</code>
+
 - [CSIRTTrizna/CVE-2024-55586](https://github.com/CSIRTTrizna/CVE-2024-55586)
 
 ### CVE-2024-1642470
@@ -17480,7 +17484,7 @@
 <code>A buffer overflow issue was addressed with improved memory handling. This issue is fixed in macOS Monterey 12.3, Safari 15.4, watchOS 8.5, iTunes 12.12.3 for Windows, iOS 15.4 and iPadOS 15.4, tvOS 15.4. Processing maliciously crafted web content may lead to arbitrary code execution.
 </code>
 
-- [parsdefense/CVE-2022-22629](https://github.com/parsdefense/CVE-2022-22629)
+- [lck0/CVE-2022-22629](https://github.com/lck0/CVE-2022-22629)
 
 ### CVE-2022-22639 (2022-03-18)
 
@@ -20913,6 +20917,7 @@
 - [TACTICAL-HACK/CVE-2022-37706-SUID](https://github.com/TACTICAL-HACK/CVE-2022-37706-SUID)
 - [sanan2004/CVE-2022-37706](https://github.com/sanan2004/CVE-2022-37706)
 - [KaoXx/CVE-2022-37706](https://github.com/KaoXx/CVE-2022-37706)
+- [d3ndr1t30x/CVE-2022-37706](https://github.com/d3ndr1t30x/CVE-2022-37706)
 
 ### CVE-2022-37708
 - [thekevinday/docker_lightman_exploit](https://github.com/thekevinday/docker_lightman_exploit)
@@ -23168,7 +23173,7 @@
 <code>Possible buffer overflow due to lack of parameter length check during MBSSID scan IE parse in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Mobile, Snapdragon Wired Infrastructure and Networking
 </code>
 
-- [parsdefense/CVE-2021-1965](https://github.com/parsdefense/CVE-2021-1965)
+- [sqrtrev/CVE-2021-1965](https://github.com/sqrtrev/CVE-2021-1965)
 - [foxtrot/CVE-2021-1965](https://github.com/foxtrot/CVE-2021-1965)
 
 ### CVE-2021-1994 (2021-01-20)
