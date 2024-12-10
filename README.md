@@ -7375,6 +7375,9 @@
 
 - [hotplugin0x01/CVE-2024-54679](https://github.com/hotplugin0x01/CVE-2024-54679)
 
+### CVE-2024-55586
+- [CSIRTTrizna/CVE-2024-55586](https://github.com/CSIRTTrizna/CVE-2024-55586)
+
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
 
@@ -13206,6 +13209,7 @@
 </code>
 
 - [0xyassine/CVE-2023-40028](https://github.com/0xyassine/CVE-2023-40028)
+- [BBSynapse/CVE-2023-40028](https://github.com/BBSynapse/CVE-2023-40028)
 
 ### CVE-2023-40031 (2023-08-25)
 
