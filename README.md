@@ -26958,7 +26958,6 @@
 </code>
 
 - [PinkDraconian/CVE-2021-39433](https://github.com/PinkDraconian/CVE-2021-39433)
-- [ibnurusdianto/CVE-2021-39433](https://github.com/ibnurusdianto/CVE-2021-39433)
 
 ### CVE-2021-39473 (2022-11-04)
 
@@ -28728,6 +28727,7 @@
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
+- [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
