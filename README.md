@@ -67,6 +67,7 @@
 - [nahid0x1/CVE-2024-0044](https://github.com/nahid0x1/CVE-2024-0044)
 - [MrW0l05zyn/cve-2024-0044](https://github.com/MrW0l05zyn/cve-2024-0044)
 - [canyie/CVE-2024-0044](https://github.com/canyie/CVE-2024-0044)
+- [Dit-Developers/CVE-2024-0044-](https://github.com/Dit-Developers/CVE-2024-0044-)
 
 ### CVE-2024-0049 (2024-03-11)
 
@@ -2982,6 +2983,7 @@
 </code>
 
 - [9carlo6/CVE-2024-23346](https://github.com/9carlo6/CVE-2024-23346)
+- [MAWK0235/CVE-2024-23346](https://github.com/MAWK0235/CVE-2024-23346)
 
 ### CVE-2024-23443 (2024-06-19)
 
@@ -24161,6 +24163,7 @@
 </code>
 
 - [HoangKien1020/CVE-2021-21389](https://github.com/HoangKien1020/CVE-2021-21389)
+- [mynameSumin/CVE-2021-21389](https://github.com/mynameSumin/CVE-2021-21389)
 
 ### CVE-2021-21401 (2021-03-23)
 
@@ -28725,7 +28728,6 @@
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
-- [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
