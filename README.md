@@ -4665,6 +4665,7 @@
 - [Julian-gmz/hook_CVE-2024-32002](https://github.com/Julian-gmz/hook_CVE-2024-32002)
 - [grecosamuel/CVE-2024-32002](https://github.com/grecosamuel/CVE-2024-32002)
 - [XiaomingX/cve-2024-32002-poc](https://github.com/XiaomingX/cve-2024-32002-poc)
+- [jolibb55/donald](https://github.com/jolibb55/donald)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -6129,7 +6130,6 @@
 - [compr00t/CVE-2024-42327](https://github.com/compr00t/CVE-2024-42327)
 - [depers-rus/CVE-2024-42327](https://github.com/depers-rus/CVE-2024-42327)
 - [watchdog1337/CVE-2024-42327_Zabbix_SQLI](https://github.com/watchdog1337/CVE-2024-42327_Zabbix_SQLI)
-- [itform-fr/Zabbix---CVE-2024-42327](https://github.com/itform-fr/Zabbix---CVE-2024-42327)
 
 ### CVE-2024-42346 (2024-09-20)
 
@@ -16576,7 +16576,7 @@
 - [ASkyeye/2022-LPE-UAF](https://github.com/ASkyeye/2022-LPE-UAF)
 - [pirenga/2022-LPE-UAF](https://github.com/pirenga/2022-LPE-UAF)
 - [konoha279/2022-LPE-UAF](https://github.com/konoha279/2022-LPE-UAF)
-- [snackbauer/CVE-2022-2588](https://github.com/snackbauer/CVE-2022-2588)
+- [PolymorphicOpcode/CVE-2022-2588](https://github.com/PolymorphicOpcode/CVE-2022-2588)
 - [BassamGraini/CVE-2022-2588](https://github.com/BassamGraini/CVE-2022-2588)
 - [veritas501/CVE-2022-2588](https://github.com/veritas501/CVE-2022-2588)
 - [dom4570/CVE-2022-2588](https://github.com/dom4570/CVE-2022-2588)
@@ -17976,7 +17976,7 @@
 <code>The implementations of SAE in hostapd before 2.10 and wpa_supplicant before 2.10 are vulnerable to side channel attacks as a result of cache access patterns. NOTE: this issue exists because of an incomplete fix for CVE-2019-9494.
 </code>
 
-- [skulkarni-mv/hostapd_mirror](https://github.com/skulkarni-mv/hostapd_mirror)
+- [web-logs2/hostapd_mirror](https://github.com/web-logs2/hostapd_mirror)
 
 ### CVE-2022-23305 (2022-01-18)
 
