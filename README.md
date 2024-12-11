@@ -3490,6 +3490,13 @@
 - [skyrowalker/CVE-2024-24919](https://github.com/skyrowalker/CVE-2024-24919)
 - [sar-3mar/CVE-2024-24919_POC](https://github.com/sar-3mar/CVE-2024-24919_POC)
 
+### CVE-2024-24926 (2024-02-12)
+
+<code>Deserialization of Untrusted Data vulnerability in UnitedThemes Brooklyn | Creative Multi-Purpose Responsive WordPress Theme.This issue affects Brooklyn | Creative Multi-Purpose Responsive WordPress Theme: from n/a through 4.9.7.6.\n\n
+</code>
+
+- [moften/CVE-2024-24926](https://github.com/moften/CVE-2024-24926)
+
 ### CVE-2024-25092 (2024-06-09)
 
 <code>Missing Authorization vulnerability in XLPlugins NextMove Lite.This issue affects NextMove Lite: from n/a through 2.17.0.
@@ -7374,6 +7381,12 @@
 </code>
 
 - [hotplugin0x01/CVE-2024-54679](https://github.com/hotplugin0x01/CVE-2024-54679)
+
+### CVE-2024-55099
+- [kuzgunaka/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-](https://github.com/kuzgunaka/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-)
+
+### CVE-2024-55557
+- [partywavesec/CVE-2024-55557](https://github.com/partywavesec/CVE-2024-55557)
 
 ### CVE-2024-55586 (2024-12-10)
 
@@ -39518,13 +39531,6 @@
 
 - [huzhenghui/Test-7-2-0-PHP-CVE-2018-5711](https://github.com/huzhenghui/Test-7-2-0-PHP-CVE-2018-5711)
 - [huzhenghui/Test-7-2-1-PHP-CVE-2018-5711](https://github.com/huzhenghui/Test-7-2-1-PHP-CVE-2018-5711)
-
-### CVE-2018-5728 (2018-01-16)
-
-<code>Cobham Sea Tel 121 build 222701 devices allow remote attackers to obtain potentially sensitive information via a /cgi-bin/getSysStatus request, as demonstrated by the Latitude/Longitude of the ship, or satellite details.
-</code>
-
-- [ezelf/seatel_terminals](https://github.com/ezelf/seatel_terminals)
 
 ### CVE-2018-5740 (2019-01-16)
 
