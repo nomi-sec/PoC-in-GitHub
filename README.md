@@ -14,6 +14,7 @@
 - [XiaomingX/cve-2024-0012-poc](https://github.com/XiaomingX/cve-2024-0012-poc)
 - [punitdarji/Paloalto-CVE-2024-0012](https://github.com/punitdarji/Paloalto-CVE-2024-0012)
 - [0xjessie21/CVE-2024-0012](https://github.com/0xjessie21/CVE-2024-0012)
+- [TalatumLabs/CVE-2024-0012_CVE-2024-9474_PoC](https://github.com/TalatumLabs/CVE-2024-0012_CVE-2024-9474_PoC)
 
 ### CVE-2024-0015 (2024-02-16)
 
@@ -2290,6 +2291,13 @@
 </code>
 
 - [D3N14LD15K/CVE-2024-11680_PoC_Exploit](https://github.com/D3N14LD15K/CVE-2024-11680_PoC_Exploit)
+
+### CVE-2024-11728 (2024-12-06)
+
+<code>The KiviCare – Clinic &amp; Patient Management System (EHR) plugin for WordPress is vulnerable to SQL Injection via the 'visit_type[service_id]' parameter of the tax_calculated_data AJAX action in all versions up to, and including, 3.6.4 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [samogod/CVE-2024-11728](https://github.com/samogod/CVE-2024-11728)
 
 ### CVE-2024-12155 (2024-12-06)
 
@@ -6277,13 +6285,6 @@
 
 - [expl0itsecurity/CVE-2024-43532](https://github.com/expl0itsecurity/CVE-2024-43532)
 
-### CVE-2024-43582 (2024-10-08)
-
-<code>Remote Desktop Protocol Server Remote Code Execution Vulnerability
-</code>
-
-- [jinxongwi/CVE-2024-43582-RCE](https://github.com/jinxongwi/CVE-2024-43582-RCE)
-
 ### CVE-2024-43917 (2024-08-29)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in TemplateInvaders TI WooCommerce Wishlist allows SQL Injection.This issue affects TI WooCommerce Wishlist: from n/a through 2.8.2.
@@ -7044,6 +7045,13 @@
 - [RandomRobbieBF/CVE-2024-50498](https://github.com/RandomRobbieBF/CVE-2024-50498)
 - [p0et08/CVE-2024-50498](https://github.com/p0et08/CVE-2024-50498)
 
+### CVE-2024-50623 (2024-10-27)
+
+<code>In Cleo Harmony before 5.8.0.21, VLTrader before 5.8.0.21, and LexiCom before 5.8.0.21, there is an unrestricted file upload and download that could lead to remote code execution.
+</code>
+
+- [watchtowrlabs/CVE-2024-50623](https://github.com/watchtowrlabs/CVE-2024-50623)
+
 ### CVE-2024-50657 (2024-11-22)
 
 <code>An issue in Owncloud android apk v.4.3.1 allows a physically proximate attacker to escalate privileges via the PassCodeViewModel class, specifically in the checkPassCodeIsValid method
@@ -7390,12 +7398,8 @@
 ### CVE-2024-55557
 - [partywavesec/CVE-2024-55557](https://github.com/partywavesec/CVE-2024-55557)
 
-### CVE-2024-55586 (2024-12-10)
-
-<code>Nette Database through 3.2.4 allows SQL injection in certain situations involving an untrusted filter that is directly passed to the where method.
-</code>
-
-- [CSIRTTrizna/CVE-2024-55586](https://github.com/CSIRTTrizna/CVE-2024-55586)
+### CVE-2024-55587
+- [CSIRTTrizna/CVE-2024-55587](https://github.com/CSIRTTrizna/CVE-2024-55587)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -14705,7 +14709,7 @@
 - [NKeshawarz/CVE-2023-46604-RCE](https://github.com/NKeshawarz/CVE-2023-46604-RCE)
 - [minhangxiaohui/ActiveMQ_CVE-2023-46604](https://github.com/minhangxiaohui/ActiveMQ_CVE-2023-46604)
 - [nitzanoligo/CVE-2023-46604-demo](https://github.com/nitzanoligo/CVE-2023-46604-demo)
-- [tomasmussi-mulesoft/activemq-cve-2023-46604](https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604)
+- [tomasmussi-mulesoft/activemq-cve-2023-46604-duplicate](https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604-duplicate)
 - [dcm2406/CVE-Lab](https://github.com/dcm2406/CVE-Lab)
 - [mrpentst/CVE-2023-46604](https://github.com/mrpentst/CVE-2023-46604)
 - [dcm2406/CVE-2023-46604](https://github.com/dcm2406/CVE-2023-46604)
@@ -38241,6 +38245,7 @@
 - [TheJoyOfHacking/saleemrashid-sudo-cve-2019-18634](https://github.com/TheJoyOfHacking/saleemrashid-sudo-cve-2019-18634)
 - [DDayLuong/CVE-2019-18634](https://github.com/DDayLuong/CVE-2019-18634)
 - [chanbakjsd/CVE-2019-18634](https://github.com/chanbakjsd/CVE-2019-18634)
+- [l0w3/CVE-2019-18634](https://github.com/l0w3/CVE-2019-18634)
 
 ### CVE-2019-18655 (2019-11-12)
 
