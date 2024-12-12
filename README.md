@@ -6146,7 +6146,11 @@
 
 - [partywavesec/CVE-2024-42346](https://github.com/partywavesec/CVE-2024-42346)
 
-### CVE-2024-42448
+### CVE-2024-42448 (2024-12-11)
+
+<code>From the VSPC management agent machine, under condition that the management agent is authorized on the server, it is possible to perform Remote Code Execution (RCE) on the VSPC server machine.
+</code>
+
 - [h3lye/CVE-2024-42448-RCE](https://github.com/h3lye/CVE-2024-42448-RCE)
 
 ### CVE-2024-42461 (2024-08-02)
@@ -7398,7 +7402,11 @@
 ### CVE-2024-55557
 - [partywavesec/CVE-2024-55557](https://github.com/partywavesec/CVE-2024-55557)
 
-### CVE-2024-55587
+### CVE-2024-55587 (2024-12-11)
+
+<code>python-libarchive through 4.2.1 allows directory traversal (to create files) in extract in zip.py for ZipFile.extractall and ZipFile.extract.
+</code>
+
 - [CSIRTTrizna/CVE-2024-55587](https://github.com/CSIRTTrizna/CVE-2024-55587)
 
 ### CVE-2024-1642470
@@ -44610,13 +44618,6 @@
 
 
 ## 2016
-### CVE-2016-0034 (2016-01-13)
-
-<code>Microsoft Silverlight 5 before 5.1.41212.0 mishandles negative offsets during decoding, which allows remote attackers to execute arbitrary code or cause a denial of service (object-header corruption) via a crafted web site, aka &quot;Silverlight Runtime Remote Code Execution Vulnerability.&quot;
-</code>
-
-- [hybridious/CVE-2016-0034-Decompile](https://github.com/hybridious/CVE-2016-0034-Decompile)
-
 ### CVE-2016-0040 (2016-02-10)
 
 <code>The kernel in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, and Windows 7 SP1 allows local users to gain privileges via a crafted application, aka &quot;Windows Elevation of Privilege Vulnerability.&quot;
@@ -45163,7 +45164,6 @@
 </code>
 
 - [amit-raut/CVE-2016-4117-Report](https://github.com/amit-raut/CVE-2016-4117-Report)
-- [hybridious/CVE-2016-4117](https://github.com/hybridious/CVE-2016-4117)
 
 ### CVE-2016-4437 (2016-06-07)
 
@@ -45974,13 +45974,6 @@
 </code>
 
 - [betalphafai/CVE-2015-0568](https://github.com/betalphafai/CVE-2015-0568)
-
-### CVE-2015-0816 (2015-04-01)
-
-<code>Mozilla Firefox before 37.0, Firefox ESR 31.x before 31.6, and Thunderbird before 31.6 do not properly restrict resource: URLs, which makes it easier for remote attackers to execute arbitrary JavaScript code with chrome privileges by leveraging the ability to bypass the Same Origin Policy, as demonstrated by the resource: URL associated with PDF.js.
-</code>
-
-- [Afudadi/Firefox-35-37-Exploit](https://github.com/Afudadi/Firefox-35-37-Exploit)
 
 ### CVE-2015-1130 (2015-04-10)
 
