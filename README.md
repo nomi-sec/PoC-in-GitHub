@@ -1111,6 +1111,7 @@
 - [JolyIrsb/CVE-2024-4956](https://github.com/JolyIrsb/CVE-2024-4956)
 - [UMASANKAR-MG/Path-Traversal-CVE-2024-4956](https://github.com/UMASANKAR-MG/Path-Traversal-CVE-2024-4956)
 - [An00bRektn/shirocrack](https://github.com/An00bRektn/shirocrack)
+- [XiaomingX/cve-2024-4956](https://github.com/XiaomingX/cve-2024-4956)
 
 ### CVE-2024-5009 (2024-06-25)
 
@@ -6138,6 +6139,7 @@
 - [compr00t/CVE-2024-42327](https://github.com/compr00t/CVE-2024-42327)
 - [depers-rus/CVE-2024-42327](https://github.com/depers-rus/CVE-2024-42327)
 - [watchdog1337/CVE-2024-42327_Zabbix_SQLI](https://github.com/watchdog1337/CVE-2024-42327_Zabbix_SQLI)
+- [igorbf495/CVE-2024-42327](https://github.com/igorbf495/CVE-2024-42327)
 
 ### CVE-2024-42346 (2024-09-20)
 
@@ -8126,6 +8128,7 @@
 - [Rajneeshkarya/CVE-2023-3460](https://github.com/Rajneeshkarya/CVE-2023-3460)
 - [DiMarcoSK/CVE-2023-3460_POC](https://github.com/DiMarcoSK/CVE-2023-3460_POC)
 - [julienbrs/exploit-CVE-2023-3460](https://github.com/julienbrs/exploit-CVE-2023-3460)
+- [TranKuBao/CVE-2023-3460_FIX](https://github.com/TranKuBao/CVE-2023-3460_FIX)
 
 ### CVE-2023-3519 (2023-07-19)
 
