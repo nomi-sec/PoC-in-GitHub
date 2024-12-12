@@ -1121,13 +1121,6 @@
 - [sinsinology/CVE-2024-5009](https://github.com/sinsinology/CVE-2024-5009)
 - [th3gokul/CVE-2024-5009](https://github.com/th3gokul/CVE-2024-5009)
 
-### CVE-2024-5057 (2024-08-29)
-
-<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Easy Digital Downloads allows SQL Injection.This issue affects Easy Digital Downloads: from n/a through 3.2.12.
-</code>
-
-- [g1thubb004/poc-CVE-2024-5057](https://github.com/g1thubb004/poc-CVE-2024-5057)
-
 ### CVE-2024-5084 (2024-05-23)
 
 <code>The Hash Form – Drag &amp; Drop Form Builder plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'file_upload_action' function in all versions up to, and including, 1.1.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -5669,6 +5662,7 @@
 </code>
 
 - [p0in7s/CVE-2024-38475](https://github.com/p0in7s/CVE-2024-38475)
+- [soltanali0/CVE-2024-38475](https://github.com/soltanali0/CVE-2024-38475)
 
 ### CVE-2024-38526 (2024-06-25)
 
@@ -7391,6 +7385,13 @@
 
 - [ii5mai1/CVE-2024-53617](https://github.com/ii5mai1/CVE-2024-53617)
 
+### CVE-2024-53677 (2024-12-11)
+
+<code>File upload logic is flawed vulnerability in Apache Struts.\n\nThis issue affects Apache Struts: from 2.0.0 before 6.4.0.\n\nUsers are recommended to upgrade to version 6.4.0, which fixes the issue.\n\nYou can find more details in  https://cwiki.apache.org/confluence/display/WW/S2-067
+</code>
+
+- [cloudwafs/s2-067-CVE-2024-53677](https://github.com/cloudwafs/s2-067-CVE-2024-53677)
+
 ### CVE-2024-54679 (2024-12-05)
 
 <code>CyberPanel (aka Cyber Panel) before 6778ad1 does not require the FilemanagerAdmin capability for restartMySQL actions.
@@ -8650,7 +8651,6 @@
 - [tucommenceapousser/CVE-2023-5360](https://github.com/tucommenceapousser/CVE-2023-5360)
 - [Jenderal92/WP-CVE-2023-5360](https://github.com/Jenderal92/WP-CVE-2023-5360)
 - [Pushkarup/CVE-2023-5360](https://github.com/Pushkarup/CVE-2023-5360)
-- [angkerithhack001/CVE-2023-5360-PoC](https://github.com/angkerithhack001/CVE-2023-5360-PoC)
 
 ### CVE-2023-5412 (2023-10-31)
 
@@ -9399,7 +9399,6 @@
 - [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
 - [RonF98/CVE-2023-21716-POC](https://github.com/RonF98/CVE-2023-21716-POC)
-- [n0s3ns33/poc-cve-2023-21716](https://github.com/n0s3ns33/poc-cve-2023-21716)
 
 ### CVE-2023-21739 (2023-01-10)
 
@@ -23590,7 +23589,6 @@
 
 - [chompie1337/Linux_LPE_eBPF_CVE-2021-3490](https://github.com/chompie1337/Linux_LPE_eBPF_CVE-2021-3490)
 - [pivik271/CVE-2021-3490](https://github.com/pivik271/CVE-2021-3490)
-- [BanaxavSplit/CVE-2021-3490](https://github.com/BanaxavSplit/CVE-2021-3490)
 
 ### CVE-2021-3492 (2021-04-17)
 
@@ -25038,6 +25036,7 @@
 - [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
 - [30579096/Confluence-CVE-2021-26084](https://github.com/30579096/Confluence-CVE-2021-26084)
+- [ZZ-SOCMAP/CVE-2021-26084](https://github.com/ZZ-SOCMAP/CVE-2021-26084)
 - [vpxuser/CVE-2021-26084-EXP](https://github.com/vpxuser/CVE-2021-26084-EXP)
 - [nahcusira/CVE-2021-26084](https://github.com/nahcusira/CVE-2021-26084)
 - [BBD-YZZ/Confluence-RCE](https://github.com/BBD-YZZ/Confluence-RCE)
@@ -25860,13 +25859,6 @@
 
 - [irql/CVE-2021-31728](https://github.com/irql/CVE-2021-31728)
 
-### CVE-2021-31755 (2021-05-07)
-
-<code>An issue was discovered on Tenda AC11 devices with firmware through 02.03.01.104_CN. A stack buffer overflow vulnerability in /goform/setmac allows attackers to execute arbitrary code on the system via a crafted post request.
-</code>
-
-- [r3s3tt/CVE-2021-31755](https://github.com/r3s3tt/CVE-2021-31755)
-
 ### CVE-2021-31760 (2021-04-25)
 
 <code>Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to achieve Remote Command Execution (RCE) through Webmin's running process feature.
@@ -26417,6 +26409,7 @@
 
 - [NattiSamson/Serv-U-CVE-2021-35211](https://github.com/NattiSamson/Serv-U-CVE-2021-35211)
 - [0xhaggis/CVE-2021-35211](https://github.com/0xhaggis/CVE-2021-35211)
+- [BishopFox/CVE-2021-35211](https://github.com/BishopFox/CVE-2021-35211)
 
 ### CVE-2021-35215 (2021-09-01)
 
@@ -30325,7 +30318,6 @@
 - [Warelock/cve-2020-1938](https://github.com/Warelock/cve-2020-1938)
 - [WHtig3r/CVE-2020-1938](https://github.com/WHtig3r/CVE-2020-1938)
 - [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro)
-- [aib0litt/poc-CVE-2020-1938](https://github.com/aib0litt/poc-CVE-2020-1938)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -33716,7 +33708,6 @@
 
 - [darrenmartyn/sophucked](https://github.com/darrenmartyn/sophucked)
 - [twentybel0w/CVE-2020-25223](https://github.com/twentybel0w/CVE-2020-25223)
-- [reneww/poc-CVE-2020-25223](https://github.com/reneww/poc-CVE-2020-25223)
 
 ### CVE-2020-25265 (2020-12-02)
 
@@ -34486,7 +34477,6 @@
 - [X0UCYB3R/Check-WP-CVE-2020-35489](https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489)
 - [reneoliveirajr/wp_CVE-2020-35489_checker](https://github.com/reneoliveirajr/wp_CVE-2020-35489_checker)
 - [Cappricio-Securities/CVE-2020-35489](https://github.com/Cappricio-Securities/CVE-2020-35489)
-- [g1thubb002/poc-CVE-2020-35489](https://github.com/g1thubb002/poc-CVE-2020-35489)
 
 ### CVE-2020-35498 (2021-02-11)
 
@@ -49722,13 +49712,6 @@
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
-
-### CVE-2001-1473 (2005-04-21)
-
-<code>The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target.
-</code>
-
-- [m00n3rrr/poc-CVE-2001-1473](https://github.com/m00n3rrr/poc-CVE-2001-1473)
 
 ### CVE-2001-3389
 - [becrevex/Gaston](https://github.com/becrevex/Gaston)
