@@ -2408,7 +2408,7 @@
 
 ### CVE-2024-20767 (2024-03-18)
 
-<code>ColdFusion versions 2023.6, 2021.12 and earlier are affected by an Improper Access Control vulnerability that could lead to arbitrary file system read. An attacker could leverage this vulnerability to bypass security measures and gain unauthorized access to sensitive files and perform arbitrary file system write. Exploitation of this issue does not require user interaction.
+<code>ColdFusion versions 2023.6, 2021.12 and earlier are affected by an Improper Access Control vulnerability that could result in arbitrary file system read. An attacker could leverage this vulnerability to access or modify restricted files. Exploitation of this issue does not require user interaction. Exploitation of this issue requires the admin panel be exposed to the internet.
 </code>
 
 - [yoryio/CVE-2024-20767](https://github.com/yoryio/CVE-2024-20767)
@@ -6133,6 +6133,7 @@
 - [compr00t/CVE-2024-42327](https://github.com/compr00t/CVE-2024-42327)
 - [depers-rus/CVE-2024-42327](https://github.com/depers-rus/CVE-2024-42327)
 - [watchdog1337/CVE-2024-42327_Zabbix_SQLI](https://github.com/watchdog1337/CVE-2024-42327_Zabbix_SQLI)
+- [itform-fr/Zabbix---CVE-2024-42327](https://github.com/itform-fr/Zabbix---CVE-2024-42327)
 - [igorbf495/CVE-2024-42327](https://github.com/igorbf495/CVE-2024-42327)
 
 ### CVE-2024-42346 (2024-09-20)
@@ -7399,7 +7400,11 @@
 
 - [hotplugin0x01/CVE-2024-54679](https://github.com/hotplugin0x01/CVE-2024-54679)
 
-### CVE-2024-55099
+### CVE-2024-55099 (2024-12-12)
+
+<code>A SQL Injection vulnerability was found in /admin/index.php in phpgurukul Online Nurse Hiring System v1.0, which allows remote attackers to execute arbitrary SQL commands to get unauthorized database access via the username parameter.
+</code>
+
 - [kuzgunaka/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-](https://github.com/kuzgunaka/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-)
 
 ### CVE-2024-55557
@@ -9789,7 +9794,7 @@
 - [SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397)
 - [tiepologian/CVE-2023-23397](https://github.com/tiepologian/CVE-2023-23397)
 - [BronzeBee/cve-2023-23397](https://github.com/BronzeBee/cve-2023-23397)
-- [shaolinsec/CVE-2023-23397](https://github.com/shaolinsec/CVE-2023-23397)
+- [stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397)
 - [Cyb3rMaddy/CVE-2023-23397-Report](https://github.com/Cyb3rMaddy/CVE-2023-23397-Report)
 - [Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch)
 - [jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397)
