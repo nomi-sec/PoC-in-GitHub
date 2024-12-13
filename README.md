@@ -5715,6 +5715,13 @@
 - [BBD-YZZ/CVE-2024-38856-RCE](https://github.com/BBD-YZZ/CVE-2024-38856-RCE)
 - [XiaomingX/cve-2024-38856-poc](https://github.com/XiaomingX/cve-2024-38856-poc)
 
+### CVE-2024-38998 (2024-07-01)
+
+<code>jrburke requirejs v2.3.6 was discovered to contain a prototype pollution via the function config. This vulnerability allows attackers to execute arbitrary code or cause a Denial of Service (DoS) via injecting arbitrary properties.
+</code>
+
+- [AlbedoPrime/PP_CVE-2024-38998](https://github.com/AlbedoPrime/PP_CVE-2024-38998)
+
 ### CVE-2024-39031 (2024-07-09)
 
 <code>In Silverpeas Core &lt;= 6.3.5, in Mes Agendas, a user can create new events and add them to their calendar. Additionally, users can invite others from the same domain, including administrators, to these events. A standard user can inject an XSS payload into the &quot;Titre&quot; and &quot;Description&quot; fields when creating an event and then add the administrator or any user to the event. When the invited user (victim) views their own profile, the payload will be executed on their side, even if they do not click on the event.
@@ -13248,6 +13255,7 @@
 
 - [0xyassine/CVE-2023-40028](https://github.com/0xyassine/CVE-2023-40028)
 - [BBSynapse/CVE-2023-40028](https://github.com/BBSynapse/CVE-2023-40028)
+- [0xDTC/Ghost-5.58-Arbitrary-File-Read-CVE-2023-40028](https://github.com/0xDTC/Ghost-5.58-Arbitrary-File-Read-CVE-2023-40028)
 
 ### CVE-2023-40031 (2023-08-25)
 
