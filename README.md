@@ -1986,6 +1986,13 @@
 
 - [windz3r0day/CVE-2024-10015](https://github.com/windz3r0day/CVE-2024-10015)
 
+### CVE-2024-10124 (2024-12-12)
+
+<code>The Vayu Blocks – Gutenberg Blocks for WordPress &amp; WooCommerce plugin for WordPress is vulnerable to unauthorized arbitrary plugin installation and activation due to a missing capability check on the tp_install() function in all versions up to, and including, 1.1.1. This makes it possible for unauthenticated attackers to install and activate arbitrary plugins which can be leveraged to achieve remote code execution if another vulnerable plugin is installed and activated. This vulnerability was partially patched in version 1.1.1.
+</code>
+
+- [RandomRobbieBF/CVE-2024-10124](https://github.com/RandomRobbieBF/CVE-2024-10124)
+
 ### CVE-2024-10140 (2024-10-19)
 
 <code>Eine kritische Schwachstelle wurde in code-projects Pharmacy Management System 1.0 entdeckt. Betroffen davon ist ein unbekannter Prozess der Datei /manage_supplier.php. Durch Beeinflussen des Arguments id mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -2001,6 +2008,7 @@
 - [mochizuki875/CVE-2024-10220-githooks](https://github.com/mochizuki875/CVE-2024-10220-githooks)
 - [any2sec/cve-2024-10220](https://github.com/any2sec/cve-2024-10220)
 - [XiaomingX/cve-2024-10220-githooks](https://github.com/XiaomingX/cve-2024-10220-githooks)
+- [filipzag/CVE-2024-10220](https://github.com/filipzag/CVE-2024-10220)
 
 ### CVE-2024-10245 (2024-11-12)
 
@@ -13263,6 +13271,7 @@
 - [0xyassine/CVE-2023-40028](https://github.com/0xyassine/CVE-2023-40028)
 - [BBSynapse/CVE-2023-40028](https://github.com/BBSynapse/CVE-2023-40028)
 - [0xDTC/Ghost-5.58-Arbitrary-File-Read-CVE-2023-40028](https://github.com/0xDTC/Ghost-5.58-Arbitrary-File-Read-CVE-2023-40028)
+- [sudlit/CVE-2023-40028](https://github.com/sudlit/CVE-2023-40028)
 
 ### CVE-2023-40031 (2023-08-25)
 
@@ -43958,6 +43967,7 @@
 - [K3ysTr0K3R/CVE-2017-12617-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-12617-EXPLOIT)
 - [scirusvulgaris/CVE-2017-12617](https://github.com/scirusvulgaris/CVE-2017-12617)
 - [yZ1337/CVE-2017-12617](https://github.com/yZ1337/CVE-2017-12617)
+- [DevaDJ/CVE-2017-12617](https://github.com/DevaDJ/CVE-2017-12617)
 
 ### CVE-2017-12624 (2017-11-14)
 
