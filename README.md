@@ -1400,7 +1400,6 @@
 - [sardine-web/CVE-2024-6387-template](https://github.com/sardine-web/CVE-2024-6387-template)
 - [imv7/CVE-2024-6387](https://github.com/imv7/CVE-2024-6387)
 - [SiberianHacker/CVE-2024-6387-Finder](https://github.com/SiberianHacker/CVE-2024-6387-Finder)
-- [dgicloud/patch_regreSSHion](https://github.com/dgicloud/patch_regreSSHion)
 - [azurejoga/CVE-2024-6387-how-to-fix](https://github.com/azurejoga/CVE-2024-6387-how-to-fix)
 - [asterictnl-lvdw/CVE-2024-6387](https://github.com/asterictnl-lvdw/CVE-2024-6387)
 - [vkaushik-chef/regreSSHion](https://github.com/vkaushik-chef/regreSSHion)
@@ -7407,6 +7406,7 @@
 </code>
 
 - [cloudwafs/s2-067-CVE-2024-53677](https://github.com/cloudwafs/s2-067-CVE-2024-53677)
+- [TAM-K592/CVE-2024-53677-S2-067](https://github.com/TAM-K592/CVE-2024-53677-S2-067)
 
 ### CVE-2024-54679 (2024-12-05)
 
@@ -12522,7 +12522,11 @@
 
 - [tandasat/CVE-2023-36427](https://github.com/tandasat/CVE-2023-36427)
 
-### CVE-2023-36531
+### CVE-2023-36531 (2024-12-13)
+
+<code>Missing Authorization vulnerability in LiquidPoll LiquidPoll – Advanced Polls for Creators and Brands allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects LiquidPoll – Advanced Polls for Creators and Brands: from n/a through 3.3.68.
+</code>
+
 - [RandomRobbieBF/CVE-2023-36531](https://github.com/RandomRobbieBF/CVE-2023-36531)
 
 ### CVE-2023-36643 (2024-04-04)
@@ -40048,6 +40052,7 @@
 </code>
 
 - [jm33-m0/CVE-2018-7750](https://github.com/jm33-m0/CVE-2018-7750)
+- [tlavi00/CVE-2018-7750](https://github.com/tlavi00/CVE-2018-7750)
 
 ### CVE-2018-7842 (2019-05-22)
 
