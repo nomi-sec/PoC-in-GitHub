@@ -5709,6 +5709,9 @@
 - [Galaxy-system/cve-2024-38816](https://github.com/Galaxy-system/cve-2024-38816)
 - [Anthony1078/App-vulnerable](https://github.com/Anthony1078/App-vulnerable)
 
+### CVE-2024-38819
+- [masa42/CVE-2024-38819-POC](https://github.com/masa42/CVE-2024-38819-POC)
+
 ### CVE-2024-38821 (2024-10-28)
 
 <code>Spring WebFlux applications that have Spring Security authorization rules on static resources can be bypassed under certain circumstances.\n\nFor this to impact an application, all of the following must be true:\n\n  *  It must be a WebFlux application\n  *  It must be using Spring's static resources support\n  *  It must have a non-permitAll authorization rule applied to the static resources support
@@ -6690,6 +6693,13 @@
 </code>
 
 - [devhaozi/CVE-2024-46901](https://github.com/devhaozi/CVE-2024-46901)
+
+### CVE-2024-46982 (2024-09-17)
+
+<code>Next.js is a React framework for building full-stack web applications. By sending a crafted HTTP request, it is possible to poison the cache of a non-dynamic server-side rendered route in the pages router (this does not affect the app router). When this crafted request is sent it could coerce Next.js to cache a route that is meant to not be cached and send a `Cache-Control: s-maxage=1, stale-while-revalidate` header which some upstream CDNs may cache as well. To be potentially affected all of the following must apply: 1. Next.js between 13.5.1 and 14.2.9, 2. Using pages router, &amp; 3. Using non-dynamic server-side rendered routes e.g. `pages/dashboard.tsx` not `pages/blog/[slug].tsx`. This vulnerability was resolved in Next.js v13.5.7, v14.2.10, and later. We recommend upgrading regardless of whether you can reproduce the issue or not. There are no official or recommended workarounds for this issue, we recommend that users patch to a safe version.
+</code>
+
+- [CodePontiff/next_js_poisoning](https://github.com/CodePontiff/next_js_poisoning)
 
 ### CVE-2024-46986 (2024-09-18)
 
@@ -40583,7 +40593,6 @@
 - [kienquoc102/CVE-2018-9995-2](https://github.com/kienquoc102/CVE-2018-9995-2)
 - [dearpan/cve-2018-9995](https://github.com/dearpan/cve-2018-9995)
 - [LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995](https://github.com/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995)
-- [hoaan1995/CVE-2018-9995](https://github.com/hoaan1995/CVE-2018-9995)
 - [ST0PL/DVRFaultNET](https://github.com/ST0PL/DVRFaultNET)
 - [K3ysTr0K3R/CVE-2018-9995-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2018-9995-EXPLOIT)
 - [Pab450/CVE-2018-9995](https://github.com/Pab450/CVE-2018-9995)
