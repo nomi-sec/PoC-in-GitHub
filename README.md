@@ -823,6 +823,13 @@
 
 - [h4x0r-dz/CVE-2024-3656](https://github.com/h4x0r-dz/CVE-2024-3656)
 
+### CVE-2024-3690 (2024-04-12)
+
+<code>In PHPGurukul Small CRM 3.0 wurde eine kritische Schwachstelle entdeckt. Hierbei betrifft es unbekannten Programmcode der Komponente Change Password Handler. Durch Beeinflussen mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [taeseongk/CVE-2024-3690](https://github.com/taeseongk/CVE-2024-3690)
+
 ### CVE-2024-3806 (2024-05-09)
 
 <code>The Porto theme for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 7.1.0 via the 'porto_ajax_posts' function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where php file type can be uploaded and included.
