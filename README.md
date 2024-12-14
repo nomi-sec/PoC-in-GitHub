@@ -17788,6 +17788,7 @@
 - [nikn0laty/RCE-in-Spring-Cloud-CVE-2022-22963](https://github.com/nikn0laty/RCE-in-Spring-Cloud-CVE-2022-22963)
 - [BearClaw96/CVE-2022-22963-Poc-Bearcules](https://github.com/BearClaw96/CVE-2022-22963-Poc-Bearcules)
 - [jrbH4CK/CVE-2022-22963](https://github.com/jrbH4CK/CVE-2022-22963)
+- [Shayz614/CVE-2022-22963](https://github.com/Shayz614/CVE-2022-22963)
 
 ### CVE-2022-22965 (2022-04-01)
 
