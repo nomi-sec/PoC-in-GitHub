@@ -12922,6 +12922,7 @@
 - [wxrdnx/CVE-2023-38408](https://github.com/wxrdnx/CVE-2023-38408)
 - [mrtacojr/CVE-2023-38408](https://github.com/mrtacojr/CVE-2023-38408)
 - [fazilbaig1/cve_2023_38408_scanner](https://github.com/fazilbaig1/cve_2023_38408_scanner)
+- [Nick-Morbid/cve-2023-38408](https://github.com/Nick-Morbid/cve-2023-38408)
 
 ### CVE-2023-38434 (2023-07-18)
 
