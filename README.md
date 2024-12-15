@@ -2479,6 +2479,7 @@
 
 - [d4rks1d33/C-PoC-for-CVE-2024-21306](https://github.com/d4rks1d33/C-PoC-for-CVE-2024-21306)
 - [PhucHauDeveloper/BadBlue](https://github.com/PhucHauDeveloper/BadBlue)
+- [Danyw24/blueXploit](https://github.com/Danyw24/blueXploit)
 
 ### CVE-2024-21320 (2024-01-09)
 
@@ -5435,9 +5436,6 @@
 </code>
 
 - [optistream/securenvoy-cve-2024-37393](https://github.com/optistream/securenvoy-cve-2024-37393)
-
-### CVE-2024-37713
-- [fullbbadda1208/CVE-2024-37713](https://github.com/fullbbadda1208/CVE-2024-37713)
 
 ### CVE-2024-37726 (2024-07-03)
 
@@ -14560,6 +14558,7 @@
 - [cisnarfu/Bluepop](https://github.com/cisnarfu/Bluepop)
 - [AvishekDhakal/CVE-2023-45866_EXPLOITS](https://github.com/AvishekDhakal/CVE-2023-45866_EXPLOITS)
 - [Chedrian07/CVE-2023-45866-POC](https://github.com/Chedrian07/CVE-2023-45866-POC)
+- [Danyw24/blueXploit](https://github.com/Danyw24/blueXploit)
 
 ### CVE-2023-45966 (2023-10-23)
 
