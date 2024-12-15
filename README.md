@@ -3016,6 +3016,13 @@
 
 - [abian2/CVE-2024-23652](https://github.com/abian2/CVE-2024-23652)
 
+### CVE-2024-23653 (2024-01-31)
+
+<code>BuildKit is a toolkit for converting source code to build artifacts in an efficient, expressive and repeatable manner. In addition to running containers as build steps, BuildKit also provides APIs for running interactive containers based on built images. It was possible to use these APIs to ask BuildKit to run a container with elevated privileges. Normally, running such containers is only allowed if special `security.insecure` entitlement is enabled both by buildkitd configuration and allowed by the user initializing the build request. The issue has been fixed in v0.12.5 . Avoid using BuildKit frontends from untrusted sources. \n
+</code>
+
+- [666asd/CVE-2024-23653](https://github.com/666asd/CVE-2024-23653)
+
 ### CVE-2024-23692 (2024-05-31)
 
 <code>Rejetto HTTP File Server, up to and including version 2.3m, is vulnerable to a template injection vulnerability. This vulnerability allows a remote, unauthenticated attacker to execute arbitrary commands on the affected system by sending a specially crafted HTTP request. As of the CVE assignment date, Rejetto HFS 2.3m is no longer supported.
@@ -17888,7 +17895,7 @@
 - [sohamsharma966/Spring4Shell-CVE-2022-22965](https://github.com/sohamsharma966/Spring4Shell-CVE-2022-22965)
 - [LucasPDiniz/CVE-2022-22965](https://github.com/LucasPDiniz/CVE-2022-22965)
 - [xsxtw/SpringFramework_CVE-2022-22965_RCE](https://github.com/xsxtw/SpringFramework_CVE-2022-22965_RCE)
-- [BlackBird63030/Block-Spring4Shell](https://github.com/BlackBird63030/Block-Spring4Shell)
+- [SkyM1raj/Block-Spring4Shell](https://github.com/SkyM1raj/Block-Spring4Shell)
 - [guigui237/Expoitation-de-la-vuln-rabilit-CVE-2022-22965](https://github.com/guigui237/Expoitation-de-la-vuln-rabilit-CVE-2022-22965)
 
 ### CVE-2022-22966 (2022-04-14)
