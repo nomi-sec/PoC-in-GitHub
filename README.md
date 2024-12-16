@@ -5727,6 +5727,7 @@
 
 ### CVE-2024-38819
 - [masa42/CVE-2024-38819-POC](https://github.com/masa42/CVE-2024-38819-POC)
+- [GhostS3c/CVE-2024-38819](https://github.com/GhostS3c/CVE-2024-38819)
 
 ### CVE-2024-38821 (2024-10-28)
 
@@ -7442,7 +7443,7 @@
 
 ### CVE-2024-53677 (2024-12-11)
 
-<code>File upload logic is flawed vulnerability in Apache Struts.\n\nThis issue affects Apache Struts: from 2.0.0 before 6.4.0.\n\nUsers are recommended to upgrade to version 6.4.0, which fixes the issue.\n\nYou can find more details in  https://cwiki.apache.org/confluence/display/WW/S2-067
+<code>File upload logic is flawed vulnerability in Apache Struts.\n\nThis issue affects Apache Struts: from 2.0.0 before 6.4.0.\n\nUsers are recommended to upgrade to version 6.4.0 migrate to the new  file upload mechanism https://struts.apache.org/core-developers/file-upload .\n\nYou can find more details in  https://cwiki.apache.org/confluence/display/WW/S2-067
 </code>
 
 - [cloudwafs/s2-067-CVE-2024-53677](https://github.com/cloudwafs/s2-067-CVE-2024-53677)
@@ -7478,6 +7479,12 @@
 </code>
 
 - [JAckLosingHeart/CVE-2024-55875](https://github.com/JAckLosingHeart/CVE-2024-55875)
+
+### CVE-2024-56115
+- [ComplianceControl/CVE-2024-56115](https://github.com/ComplianceControl/CVE-2024-56115)
+
+### CVE-2024-56116
+- [ComplianceControl/CVE-2024-56116](https://github.com/ComplianceControl/CVE-2024-56116)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -9640,7 +9647,7 @@
 - [s1d6point7bugcrowd/CVE-2023-22515-check](https://github.com/s1d6point7bugcrowd/CVE-2023-22515-check)
 - [xorbbo/cve-2023-22515](https://github.com/xorbbo/cve-2023-22515)
 - [spareack/CVE-2023-22515-NSE](https://github.com/spareack/CVE-2023-22515-NSE)
-- [Onedy1703/CVE-2023-22515](https://github.com/Onedy1703/CVE-2023-22515)
+- [Onedy1703/CVE-2023-22515-Confluence](https://github.com/Onedy1703/CVE-2023-22515-Confluence)
 
 ### CVE-2023-22518 (2023-10-31)
 
@@ -18061,7 +18068,6 @@
 </code>
 
 - [7BitsTeam/CVE-2022-23277](https://github.com/7BitsTeam/CVE-2022-23277)
-- [gmeier909/exchange_tools](https://github.com/gmeier909/exchange_tools)
 
 ### CVE-2022-23303 (2022-01-17)
 
@@ -27925,7 +27931,6 @@
 - [DarkSprings/CVE-2021-42321](https://github.com/DarkSprings/CVE-2021-42321)
 - [xnyuq/cve-2021-42321](https://github.com/xnyuq/cve-2021-42321)
 - [7BitsTeam/exch_CVE-2021-42321](https://github.com/7BitsTeam/exch_CVE-2021-42321)
-- [gmeier909/exchange_tools](https://github.com/gmeier909/exchange_tools)
 
 ### CVE-2021-42325 (2021-10-12)
 
@@ -28838,6 +28843,7 @@
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
+- [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
@@ -49454,7 +49460,7 @@
 <code>A carefully crafted If: request header can cause a memory read, or write of a single zero byte, in a pool (heap) memory location beyond the header value sent. This could cause the process to crash.\n\nThis issue affects Apache HTTP Server 2.4.54 and earlier.\n
 </code>
 
-- [Saksham2002/CVE-2006-20001](https://github.com/Saksham2002/CVE-2006-20001)
+- [r1az4r/CVE-2006-20001](https://github.com/r1az4r/CVE-2006-20001)
 
 
 ## 2005
