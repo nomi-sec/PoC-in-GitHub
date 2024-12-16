@@ -311,6 +311,7 @@
 - [kevcooper/CVE-2024-1086-checker](https://github.com/kevcooper/CVE-2024-1086-checker)
 - [feely666/CVE-2024-1086](https://github.com/feely666/CVE-2024-1086)
 - [xzx482/CVE-2024-1086](https://github.com/xzx482/CVE-2024-1086)
+- [LLfam/CVE-2024-1086](https://github.com/LLfam/CVE-2024-1086)
 
 ### CVE-2024-1112 (2024-01-31)
 
@@ -5754,7 +5755,7 @@
 <code>jrburke requirejs v2.3.6 was discovered to contain a prototype pollution via the function config. This vulnerability allows attackers to execute arbitrary code or cause a Denial of Service (DoS) via injecting arbitrary properties.
 </code>
 
-- [AlbedoPrime/PP_CVE-2024-38998](https://github.com/AlbedoPrime/PP_CVE-2024-38998)
+- [z3ldr1/PP_CVE-2024-38998](https://github.com/z3ldr1/PP_CVE-2024-38998)
 
 ### CVE-2024-39031 (2024-07-09)
 
@@ -6924,6 +6925,14 @@
 </code>
 
 - [je5442804/WPTaskScheduler_CVE-2024-49039](https://github.com/je5442804/WPTaskScheduler_CVE-2024-49039)
+- [Alexandr-bit253/CVE-2024-49039](https://github.com/Alexandr-bit253/CVE-2024-49039)
+
+### CVE-2024-49112 (2024-12-10)
+
+<code>Windows Lightweight Directory Access Protocol (LDAP) Remote Code Execution Vulnerability
+</code>
+
+- [tnkr/poc_monitor](https://github.com/tnkr/poc_monitor)
 
 ### CVE-2024-49203 (2024-11-20)
 
