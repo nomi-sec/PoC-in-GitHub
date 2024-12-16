@@ -7426,7 +7426,11 @@
 
 - [ThottySploity/CVE-2024-53375](https://github.com/ThottySploity/CVE-2024-53375)
 
-### CVE-2024-53376
+### CVE-2024-53376 (2024-12-16)
+
+<code>CyberPanel before 2.3.8 allows remote authenticated users to execute arbitrary commands via shell metacharacters in the phpSelection field to the websites/submitWebsiteCreation URI.
+</code>
+
 - [ThottySploity/CVE-2024-53376](https://github.com/ThottySploity/CVE-2024-53376)
 
 ### CVE-2024-53617 (2024-12-02)
@@ -9417,6 +9421,7 @@
 
 - [zoemurmure/CVE-2023-21554-PoC](https://github.com/zoemurmure/CVE-2023-21554-PoC)
 - [3tternp/CVE-2023-21554](https://github.com/3tternp/CVE-2023-21554)
+- [Rahul-Thakur7/CVE-2023-21554](https://github.com/Rahul-Thakur7/CVE-2023-21554)
 
 ### CVE-2023-21560 (2023-01-10)
 
@@ -18056,6 +18061,7 @@
 </code>
 
 - [7BitsTeam/CVE-2022-23277](https://github.com/7BitsTeam/CVE-2022-23277)
+- [gmeier909/exchange_tools](https://github.com/gmeier909/exchange_tools)
 
 ### CVE-2022-23303 (2022-01-17)
 
@@ -26480,7 +26486,6 @@
 
 - [NattiSamson/Serv-U-CVE-2021-35211](https://github.com/NattiSamson/Serv-U-CVE-2021-35211)
 - [0xhaggis/CVE-2021-35211](https://github.com/0xhaggis/CVE-2021-35211)
-- [BishopFox/CVE-2021-35211](https://github.com/BishopFox/CVE-2021-35211)
 
 ### CVE-2021-35215 (2021-09-01)
 
@@ -27737,6 +27742,7 @@
 - [Zyx2440/Apache-HTTP-Server-2.4.50-RCE](https://github.com/Zyx2440/Apache-HTTP-Server-2.4.50-RCE)
 - [0xc4t/CVE-2021-41773](https://github.com/0xc4t/CVE-2021-41773)
 - [jkska23/Additive-Vulnerability-Analysis-CVE-2021-41773](https://github.com/jkska23/Additive-Vulnerability-Analysis-CVE-2021-41773)
+- [redspy-sec/CVE-2021-41773](https://github.com/redspy-sec/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -27919,6 +27925,7 @@
 - [DarkSprings/CVE-2021-42321](https://github.com/DarkSprings/CVE-2021-42321)
 - [xnyuq/cve-2021-42321](https://github.com/xnyuq/cve-2021-42321)
 - [7BitsTeam/exch_CVE-2021-42321](https://github.com/7BitsTeam/exch_CVE-2021-42321)
+- [gmeier909/exchange_tools](https://github.com/gmeier909/exchange_tools)
 
 ### CVE-2021-42325 (2021-10-12)
 
@@ -28831,7 +28838,6 @@
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
-- [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
@@ -37137,6 +37143,8 @@
 - [sma11new/PocList](https://github.com/sma11new/PocList)
 - [hev0x/CVE-2019-12725-Command-Injection](https://github.com/hev0x/CVE-2019-12725-Command-Injection)
 - [gougou123-hash/CVE-2019-12725](https://github.com/gougou123-hash/CVE-2019-12725)
+- [YZS17/CVE-2019-12725](https://github.com/YZS17/CVE-2019-12725)
+- [nowindows9/CVE-2019-12725-modified-exp](https://github.com/nowindows9/CVE-2019-12725-modified-exp)
 
 ### CVE-2019-12735 (2019-06-05)
 
