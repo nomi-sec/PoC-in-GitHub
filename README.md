@@ -191,6 +191,7 @@
 - [Forsaken0129/CVE-2024-0582](https://github.com/Forsaken0129/CVE-2024-0582)
 - [0ptyx/cve-2024-0582](https://github.com/0ptyx/cve-2024-0582)
 - [geniuszlyy/CVE-2024-0582](https://github.com/geniuszlyy/CVE-2024-0582)
+- [101010zyl/CVE-2024-0582](https://github.com/101010zyl/CVE-2024-0582)
 
 ### CVE-2024-0588 (2024-04-09)
 
@@ -2307,6 +2308,9 @@
 
 - [samogod/CVE-2024-11728](https://github.com/samogod/CVE-2024-11728)
 
+### CVE-2024-11972
+- [JunTakemura/exploit-CVE-2024-11972](https://github.com/JunTakemura/exploit-CVE-2024-11972)
+
 ### CVE-2024-12155 (2024-12-06)
 
 <code>The SV100 Companion plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the settings_import() function in all versions up to, and including, 2.0.02. This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
@@ -2573,6 +2577,13 @@
 - [pabloopez/CVE-2024-21534](https://github.com/pabloopez/CVE-2024-21534)
 - [XiaomingX/cve-2024-21534-poc](https://github.com/XiaomingX/cve-2024-21534-poc)
 - [verylazytech/cve-2024-21534](https://github.com/verylazytech/cve-2024-21534)
+
+### CVE-2024-21542 (2024-12-10)
+
+<code>Versions of the package luigi before 3.6.0 are vulnerable to Arbitrary File Write via Archive Extraction (Zip Slip) due to improper destination file path validation in the _extract_packages_archive function.
+</code>
+
+- [L3ster1337/Poc-CVE-2024-21542](https://github.com/L3ster1337/Poc-CVE-2024-21542)
 
 ### CVE-2024-21626 (2024-01-31)
 
@@ -7414,6 +7425,9 @@
 </code>
 
 - [ThottySploity/CVE-2024-53375](https://github.com/ThottySploity/CVE-2024-53375)
+
+### CVE-2024-53376
+- [ThottySploity/CVE-2024-53376](https://github.com/ThottySploity/CVE-2024-53376)
 
 ### CVE-2024-53617 (2024-12-02)
 
