@@ -2344,6 +2344,13 @@
 ### CVE-2024-12345
 - [RoyaRadin/CVE-2024-12345-POC](https://github.com/RoyaRadin/CVE-2024-12345-POC)
 
+### CVE-2024-12356 (2024-12-17)
+
+<code>A critical vulnerability has been discovered in Privileged Remote Access (PRA) and Remote Support (RS) products which can allow an unauthenticated attacker to inject commands that are run as a site user.
+</code>
+
+- [cloudefence/CVE-2024-12356](https://github.com/cloudefence/CVE-2024-12356)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -6461,6 +6468,13 @@
 </code>
 
 - [Fysac/CVE-2024-44625](https://github.com/Fysac/CVE-2024-44625)
+
+### CVE-2024-44765 (2024-11-08)
+
+<code>An Improper Authorization (Access Control Misconfiguration) vulnerability in MGT-COMMERCE GmbH CloudPanel v2.0.0 to v2.4.2 allows low-privilege users to bypass access controls and gain unauthorized access to sensitive configuration files and administrative functionality.
+</code>
+
+- [josephgodwinkimani/CVE-2024-44765](https://github.com/josephgodwinkimani/CVE-2024-44765)
 
 ### CVE-2024-44812 (2024-10-22)
 
@@ -14580,6 +14594,13 @@
 </code>
 
 - [metaredteam/rtx-cve-2023-45779](https://github.com/metaredteam/rtx-cve-2023-45779)
+
+### CVE-2023-45819 (2023-10-19)
+
+<code>TinyMCE is an open source rich text editor. A cross-site scripting (XSS) vulnerability was discovered in TinyMCE’s Notification Manager API. The vulnerability exploits TinyMCE's unfiltered notification system, which is used in error handling. The conditions for this exploit requires carefully crafted malicious content to have been inserted into the editor and a notification to have been triggered. When a notification was opened, the HTML within the text argument was displayed unfiltered in the notification. The vulnerability allowed arbitrary JavaScript execution when an notification presented in the TinyMCE UI for the current user.  This issue could also be exploited by any integration which uses a TinyMCE notification to display unfiltered HTML content. This vulnerability has been patched in TinyMCE 5.10.8 and TinyMCE 6.7.1 by ensuring that the HTML displayed in the notification is sanitized, preventing the exploit. Users are advised to upgrade. There are no known workarounds for this vulnerability.\n
+</code>
+
+- [philipsinnott/cve-2023-45819](https://github.com/philipsinnott/cve-2023-45819)
 
 ### CVE-2023-45827 (2023-11-06)
 
@@ -25146,6 +25167,7 @@
 - [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
 - [30579096/Confluence-CVE-2021-26084](https://github.com/30579096/Confluence-CVE-2021-26084)
+- [ZZ-SOCMAP/CVE-2021-26084](https://github.com/ZZ-SOCMAP/CVE-2021-26084)
 - [vpxuser/CVE-2021-26084-EXP](https://github.com/vpxuser/CVE-2021-26084-EXP)
 - [nahcusira/CVE-2021-26084](https://github.com/nahcusira/CVE-2021-26084)
 - [BBD-YZZ/Confluence-RCE](https://github.com/BBD-YZZ/Confluence-RCE)
@@ -27725,7 +27747,6 @@
 - [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
 - [skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773)
 - [mauricelambert/CVE-2021-41773](https://github.com/mauricelambert/CVE-2021-41773)
-- [the29a/CVE-2021-41773](https://github.com/the29a/CVE-2021-41773)
 - [thehackersbrain/CVE-2021-41773](https://github.com/thehackersbrain/CVE-2021-41773)
 - [honypot/CVE-2021-41773](https://github.com/honypot/CVE-2021-41773)
 - [Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773)
