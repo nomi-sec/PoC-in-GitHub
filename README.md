@@ -1850,6 +1850,13 @@
 - [z3k0sec/CVE-2024-9264-RCE-Exploit](https://github.com/z3k0sec/CVE-2024-9264-RCE-Exploit)
 - [punitdarji/Grafana-CVE-2024-9264](https://github.com/punitdarji/Grafana-CVE-2024-9264)
 
+### CVE-2024-9290 (2024-12-13)
+
+<code>The Super Backup &amp; Clone - Migrate for WordPress plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation and a missing capability check on the ibk_restore_migrate_check() function in all versions up to, and including, 2.3.3. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [RandomRobbieBF/CVE-2024-9290](https://github.com/RandomRobbieBF/CVE-2024-9290)
+
 ### CVE-2024-9326 (2024-09-29)
 
 <code>In PHPGurukul Online Shopping Portal 2.0 wurde eine Schwachstelle entdeckt. Sie wurde als kritisch eingestuft. Es geht um eine nicht näher bekannte Funktion der Datei /shopping/admin/index.php der Komponente Admin Panel. Mit der Manipulation des Arguments username mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -2017,6 +2024,7 @@
 - [any2sec/cve-2024-10220](https://github.com/any2sec/cve-2024-10220)
 - [XiaomingX/cve-2024-10220-githooks](https://github.com/XiaomingX/cve-2024-10220-githooks)
 - [filipzag/CVE-2024-10220](https://github.com/filipzag/CVE-2024-10220)
+- [candranapits/poc-CVE-2024-10220](https://github.com/candranapits/poc-CVE-2024-10220)
 
 ### CVE-2024-10245 (2024-11-12)
 
@@ -3584,13 +3592,6 @@
 
 - [thetrueartist/ABO.CMS-Login-SQLi-CVE-2024-25227](https://github.com/thetrueartist/ABO.CMS-Login-SQLi-CVE-2024-25227)
 - [thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227](https://github.com/thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227)
-
-### CVE-2024-25270 (2024-09-12)
-
-<code>An issue in Mirapolis LMS 4.6.XX allows authenticated users to exploit an Insecure Direct Object Reference (IDOR) vulnerability by manipulating the ID parameter and increment STEP parameter, leading to the exposure of sensitive user data.
-</code>
-
-- [fbkcs/CVE-2024-25270](https://github.com/fbkcs/CVE-2024-25270)
 
 ### CVE-2024-25277
 - [maen08/CVE-2024-25277](https://github.com/maen08/CVE-2024-25277)
@@ -7106,6 +7107,13 @@
 - [RandomRobbieBF/CVE-2024-50498](https://github.com/RandomRobbieBF/CVE-2024-50498)
 - [p0et08/CVE-2024-50498](https://github.com/p0et08/CVE-2024-50498)
 
+### CVE-2024-50509 (2024-10-30)
+
+<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Chetan Khandla Woocommerce Product Design allows Path Traversal.This issue affects Woocommerce Product Design: from n/a through 1.0.0.
+</code>
+
+- [RandomRobbieBF/CVE-2024-50509](https://github.com/RandomRobbieBF/CVE-2024-50509)
+
 ### CVE-2024-50623 (2024-10-27)
 
 <code>In Cleo Harmony before 5.8.0.21, VLTrader before 5.8.0.21, and LexiCom before 5.8.0.21, there is an unrestricted file upload and download that could lead to remote code execution.
@@ -7461,6 +7469,7 @@
 - [cloudwafs/s2-067-CVE-2024-53677](https://github.com/cloudwafs/s2-067-CVE-2024-53677)
 - [TAM-K592/CVE-2024-53677-S2-067](https://github.com/TAM-K592/CVE-2024-53677-S2-067)
 - [yangyanglo/CVE-2024-53677](https://github.com/yangyanglo/CVE-2024-53677)
+- [c4oocO/CVE-2024-53677-Docker](https://github.com/c4oocO/CVE-2024-53677-Docker)
 
 ### CVE-2024-54679 (2024-12-05)
 
@@ -26509,6 +26518,7 @@
 
 - [NattiSamson/Serv-U-CVE-2021-35211](https://github.com/NattiSamson/Serv-U-CVE-2021-35211)
 - [0xhaggis/CVE-2021-35211](https://github.com/0xhaggis/CVE-2021-35211)
+- [BishopFox/CVE-2021-35211](https://github.com/BishopFox/CVE-2021-35211)
 
 ### CVE-2021-35215 (2021-09-01)
 
@@ -26588,13 +26598,6 @@
 
 - [miguelc49/CVE-2021-35958-2](https://github.com/miguelc49/CVE-2021-35958-2)
 - [miguelc49/CVE-2021-35958-1](https://github.com/miguelc49/CVE-2021-35958-1)
-
-### CVE-2021-35975 (2023-11-30)
-
-<code>Absolute path traversal vulnerability in the Systematica SMTP Adapter component (up to v2.0.1.101) in Systematica Radius (up to v.3.9.256.777) allows remote attackers to read arbitrary files via a full pathname in GET parameter &quot;file&quot; in URL. Also: affected components in same product - HTTP Adapter (up to v.1.8.0.15), MSSQL MessageBus Proxy (up to v.1.1.06), Financial Calculator (up to v.1.3.05), FIX Adapter (up to v.2.4.0.25)
-</code>
-
-- [fbkcs/CVE-2021-35975](https://github.com/fbkcs/CVE-2021-35975)
 
 ### CVE-2021-36260 (2021-09-22)
 
@@ -33708,13 +33711,6 @@
 </code>
 
 - [Al1ex/CVE-2020-24750](https://github.com/Al1ex/CVE-2020-24750)
-
-### CVE-2020-24765 (2020-10-20)
-
-<code>InterMind iMind Server through 3.13.65 allows remote unauthenticated attackers to read the self-diagnostic archive via a direct api/rs/monitoring/rs/api/system/dump-diagnostic-info?server=127.0.0.1 request.
-</code>
-
-- [fbkcs/CVE-2020-24765](https://github.com/fbkcs/CVE-2020-24765)
 
 ### CVE-2020-24815 (2020-11-24)
 
