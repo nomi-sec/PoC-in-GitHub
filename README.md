@@ -4303,7 +4303,11 @@
 
 - [swsmith2391/CVE-2024-29510](https://github.com/swsmith2391/CVE-2024-29510)
 
-### CVE-2024-29671
+### CVE-2024-29671 (2024-12-16)
+
+<code>Buffer Overflow vulnerability in NEXTU FLATA AX1500 Router v.1.0.2 allows a remote attacker to execute arbitrary code via the POST request handler component.
+</code>
+
 - [laskdjlaskdj12/CVE-2024-29671-POC](https://github.com/laskdjlaskdj12/CVE-2024-29671-POC)
 
 ### CVE-2024-29824 (2024-05-31)
@@ -6914,7 +6918,6 @@
 - [felmoltor/CVE-2024-48990](https://github.com/felmoltor/CVE-2024-48990)
 - [Cyb3rFr0g/CVE-2024-48990-PoC](https://github.com/Cyb3rFr0g/CVE-2024-48990-PoC)
 - [pentestfunctions/CVE-2024-48990-PoC-Testing](https://github.com/pentestfunctions/CVE-2024-48990-PoC-Testing)
-- [njeru-codes/needrestart-vulnerability-poc](https://github.com/njeru-codes/needrestart-vulnerability-poc)
 - [ally-petitt/CVE-2024-48990-Exploit](https://github.com/ally-petitt/CVE-2024-48990-Exploit)
 - [r0xdeadbeef/CVE-2024-48990](https://github.com/r0xdeadbeef/CVE-2024-48990)
 - [CyberCrowCC/CVE-2024-48990](https://github.com/CyberCrowCC/CVE-2024-48990)
@@ -7472,7 +7475,11 @@
 
 - [kuzgunaka/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-](https://github.com/kuzgunaka/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-)
 
-### CVE-2024-55557
+### CVE-2024-55557 (2024-12-16)
+
+<code>ui/pref/ProxyPrefView.java in weasis-core in Weasis 4.5.1 has a hardcoded key for symmetric encryption of proxy credentials.
+</code>
+
 - [partywavesec/CVE-2024-55557](https://github.com/partywavesec/CVE-2024-55557)
 
 ### CVE-2024-55587 (2024-12-11)
