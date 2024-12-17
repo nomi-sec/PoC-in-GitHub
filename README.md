@@ -7460,6 +7460,7 @@
 
 - [cloudwafs/s2-067-CVE-2024-53677](https://github.com/cloudwafs/s2-067-CVE-2024-53677)
 - [TAM-K592/CVE-2024-53677-S2-067](https://github.com/TAM-K592/CVE-2024-53677-S2-067)
+- [yangyanglo/CVE-2024-53677](https://github.com/yangyanglo/CVE-2024-53677)
 
 ### CVE-2024-54679 (2024-12-05)
 
