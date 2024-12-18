@@ -8700,6 +8700,7 @@
 - [jmussmann/cve-2023-4966-iocs](https://github.com/jmussmann/cve-2023-4966-iocs)
 - [morganwdavis/overread](https://github.com/morganwdavis/overread)
 - [LucasOneZ/CVE-2023-4966](https://github.com/LucasOneZ/CVE-2023-4966)
+- [akshthejo/CVE-2023-4966-exploit](https://github.com/akshthejo/CVE-2023-4966-exploit)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -17108,6 +17109,13 @@
 </code>
 
 - [szymonh/android-gadget](https://github.com/szymonh/android-gadget)
+
+### CVE-2022-20120 (2022-05-10)
+
+<code>Product: AndroidVersions: Android kernelAndroid ID: A-203213034References: N/A
+</code>
+
+- [boredpentester/ABL_ROP](https://github.com/boredpentester/ABL_ROP)
 
 ### CVE-2022-20126 (2022-06-15)
 
@@ -27773,6 +27781,7 @@
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
+- [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
 - [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
 - [skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773)
 - [mauricelambert/CVE-2021-41773](https://github.com/mauricelambert/CVE-2021-41773)
@@ -28971,7 +28980,6 @@
 - [YangHyperData/LOGJ4_PocShell_CVE-2021-44228](https://github.com/YangHyperData/LOGJ4_PocShell_CVE-2021-44228)
 - [Hoanle396/CVE-2021-44228-demo](https://github.com/Hoanle396/CVE-2021-44228-demo)
 - [tadash10/Exploiting-CVE-2021-44228-Log4Shell-in-a-Banking-Environment](https://github.com/tadash10/Exploiting-CVE-2021-44228-Log4Shell-in-a-Banking-Environment)
-- [cve-2021-44228/cve-2021-44228](https://github.com/cve-2021-44228/cve-2021-44228)
 - [asd58584388/CVE-2021-44228](https://github.com/asd58584388/CVE-2021-44228)
 - [OtisSymbos/CVE-2021-44228-Log4Shell-](https://github.com/OtisSymbos/CVE-2021-44228-Log4Shell-)
 - [safeer-accuknox/log4j-shell-poc](https://github.com/safeer-accuknox/log4j-shell-poc)
