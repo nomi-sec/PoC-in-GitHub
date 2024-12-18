@@ -5474,7 +5474,7 @@
 <code>Insecure Access Control in Safe Exam Browser (SEB) = 3.5.0 on Windows. The vulnerability allows an attacker to share clipboard data between the SEB kiosk mode and the underlying system, compromising exam integrity. By exploiting this flaw, an attacker can bypass exam controls and gain an unfair advantage during exams.
 </code>
 
-- [Eteblue/CVE-2024-37742](https://github.com/Eteblue/CVE-2024-37742)
+- [Shadow3ore/CVE-2024-37742](https://github.com/Shadow3ore/CVE-2024-37742)
 
 ### CVE-2024-37759 (2024-06-24)
 
@@ -6576,6 +6576,14 @@
 
 - [TheHermione/CVE-2024-45265](https://github.com/TheHermione/CVE-2024-45265)
 
+### CVE-2024-45337 (2024-12-11)
+
+<code>Applications and libraries which misuse the ServerConfig.PublicKeyCallback callback may be susceptible to an authorization bypass. The documentation for ServerConfig.PublicKeyCallback says that &quot;A call to this function does not guarantee that the key offered is in fact used to authenticate.&quot; Specifically, the SSH protocol allows clients to inquire about whether a public key is acceptable before proving control of the corresponding private key. PublicKeyCallback may be called with multiple keys, and the order in which the keys were provided cannot be used to infer which key the client successfully authenticated with, if any. Some applications, which store the key(s) passed to PublicKeyCallback (or derived information) and make security relevant determinations based on it once the connection is established, may make incorrect assumptions. For example, an attacker may send public keys A and B, and then authenticate with A. PublicKeyCallback would be called only twice, first with A and then with B. A vulnerable application may then make authorization decisions based on key B for which the attacker does not actually control the private key. Since this API is widely misused, as a partial mitigation golang.org/x/cry...@v0.31.0 enforces the property that, when successfully authenticating via public key, the last key passed to ServerConfig.PublicKeyCallback will be the key used to authenticate the connection. PublicKeyCallback will now be called multiple times with the same key, if necessary. Note that the client may still not control the last key passed to PublicKeyCallback if the connection is then authenticated with a different method, such as PasswordCallback, KeyboardInteractiveCallback, or NoClientAuth. Users should be using the Extensions field of the Permissions return value from the various authentication callbacks to record data associated with the authentication attempt instead of referencing external state. Once the connection is established the state corresponding to the successful authentication attempt can be retrieved via the ServerConn.Permissions field. Note that some third-party libraries misuse the Permissions type by sharing it across authentication attempts; users of third-party libraries should refer to the relevant projects for guidance.
+</code>
+
+- [NHAS/CVE-2024-45337-POC](https://github.com/NHAS/CVE-2024-45337-POC)
+- [NHAS/VULNERABLE-CVE-2024-45337](https://github.com/NHAS/VULNERABLE-CVE-2024-45337)
+
 ### CVE-2024-45383 (2024-09-12)
 
 <code>A mishandling of IRP requests vulnerability exists in the HDAudBus_DMA interface of Microsoft High Definition Audio Bus Driver 10.0.19041.3636 (WinBuild.160101.0800). A specially crafted application can issue multiple IRP Complete requests which leads to a local denial-of-service. An attacker can execute malicious script/application to trigger this vulnerability.
@@ -6951,6 +6959,14 @@
 </code>
 
 - [tnkr/poc_monitor](https://github.com/tnkr/poc_monitor)
+- [b0l1o/CVE-2024-49112-PoC](https://github.com/b0l1o/CVE-2024-49112-PoC)
+
+### CVE-2024-49117 (2024-12-10)
+
+<code>Windows Hyper-V Remote Code Execution Vulnerability
+</code>
+
+- [mutkus/Microsoft-2024-December-Update-Control](https://github.com/mutkus/Microsoft-2024-December-Update-Control)
 
 ### CVE-2024-49203 (2024-11-20)
 
@@ -7456,7 +7472,7 @@
 
 ### CVE-2024-53375 (2024-12-02)
 
-<code>Authenticated remote code execution (RCE) vulnerabilities affect TP-Link Archer, Deco, and Tapo series routers. A vulnerability exists in the &quot;tmp_get_sites&quot; function of the HomeShield functionality provided by TP-Link. This vulnerability is still exploitable without the installation or activation of the HomeShield functionality.
+<code>An Authenticated Remote Code Execution (RCE) vulnerability affects the TP-Link Archer router series. A vulnerability exists in the &quot;tmp_get_sites&quot; function of the HomeShield functionality provided by TP-Link. This vulnerability is still exploitable without the activation of the HomeShield functionality.
 </code>
 
 - [ThottySploity/CVE-2024-53375](https://github.com/ThottySploity/CVE-2024-53375)
@@ -7519,6 +7535,10 @@
 </code>
 
 - [JAckLosingHeart/CVE-2024-55875](https://github.com/JAckLosingHeart/CVE-2024-55875)
+
+### CVE-2024-55968
+- [Wi1DN00B/CVE-2024-55968](https://github.com/Wi1DN00B/CVE-2024-55968)
+- [null-event/CVE-2024-55968](https://github.com/null-event/CVE-2024-55968)
 
 ### CVE-2024-56115
 - [ComplianceControl/CVE-2024-56115](https://github.com/ComplianceControl/CVE-2024-56115)
