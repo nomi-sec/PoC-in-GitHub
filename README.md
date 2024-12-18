@@ -5474,7 +5474,7 @@
 <code>Insecure Access Control in Safe Exam Browser (SEB) = 3.5.0 on Windows. The vulnerability allows an attacker to share clipboard data between the SEB kiosk mode and the underlying system, compromising exam integrity. By exploiting this flaw, an attacker can bypass exam controls and gain an unfair advantage during exams.
 </code>
 
-- [Shadow3ore/CVE-2024-37742](https://github.com/Shadow3ore/CVE-2024-37742)
+- [Nyxr0ot/CVE-2024-37742](https://github.com/Nyxr0ot/CVE-2024-37742)
 
 ### CVE-2024-37759 (2024-06-24)
 
@@ -6944,6 +6944,7 @@
 - [ally-petitt/CVE-2024-48990-Exploit](https://github.com/ally-petitt/CVE-2024-48990-Exploit)
 - [r0xdeadbeef/CVE-2024-48990](https://github.com/r0xdeadbeef/CVE-2024-48990)
 - [CyberCrowCC/CVE-2024-48990](https://github.com/CyberCrowCC/CVE-2024-48990)
+- [NullByte-7w7/CVE-2024-48990](https://github.com/NullByte-7w7/CVE-2024-48990)
 
 ### CVE-2024-49039 (2024-11-12)
 
@@ -7493,13 +7494,14 @@
 
 ### CVE-2024-53677 (2024-12-11)
 
-<code>File upload logic is flawed vulnerability in Apache Struts.\n\nThis issue affects Apache Struts: from 2.0.0 before 6.4.0.\n\nUsers are recommended to upgrade to version 6.4.0 migrate to the new  file upload mechanism https://struts.apache.org/core-developers/file-upload .\n\nYou can find more details in  https://cwiki.apache.org/confluence/display/WW/S2-067
+<code>File upload logic is flawed vulnerability in Apache Struts.\n\nThis issue affects Apache Struts: from 2.0.0 before 6.4.0.\n\nUsers are recommended to upgrade to version 6.4.0 and migrate to the new  file upload mechanism https://struts.apache.org/core-developers/file-upload .\n\nYou can find more details in  https://cwiki.apache.org/confluence/display/WW/S2-067
 </code>
 
 - [cloudwafs/s2-067-CVE-2024-53677](https://github.com/cloudwafs/s2-067-CVE-2024-53677)
 - [TAM-K592/CVE-2024-53677-S2-067](https://github.com/TAM-K592/CVE-2024-53677-S2-067)
 - [yangyanglo/CVE-2024-53677](https://github.com/yangyanglo/CVE-2024-53677)
 - [c4oocO/CVE-2024-53677-Docker](https://github.com/c4oocO/CVE-2024-53677-Docker)
+- [XiaomingX/CVE-2024-53677-S2-067](https://github.com/XiaomingX/CVE-2024-53677-S2-067)
 
 ### CVE-2024-54679 (2024-12-05)
 
@@ -15777,6 +15779,13 @@
 </code>
 
 - [MaximilianJungblut/Hipcam-RTSP-Format-Validation-Vulnerability](https://github.com/MaximilianJungblut/Hipcam-RTSP-Format-Validation-Vulnerability)
+
+### CVE-2023-50780 (2024-10-14)
+
+<code>Apache ActiveMQ Artemis allows access to diagnostic information and controls through MBeans, which are also exposed through the authenticated Jolokia endpoint. Before version 2.29.0, this also included the Log4J2 MBean. This MBean is not meant for exposure to non-administrative users. This could eventually allow an authenticated attacker to write arbitrary files to the filesystem and indirectly achieve RCE.\n\n\nUsers are recommended to upgrade to version 2.29.0 or later, which fixes the issue.
+</code>
+
+- [mbadanoiu/CVE-2023-50780](https://github.com/mbadanoiu/CVE-2023-50780)
 
 ### CVE-2023-50868 (2024-02-14)
 
