@@ -2997,6 +2997,13 @@
 
 - [hrtowii/CVE-2024-23208-test](https://github.com/hrtowii/CVE-2024-23208-test)
 
+### CVE-2024-23298 (2024-03-15)
+
+<code>A logic issue was addressed with improved state management.
+</code>
+
+- [p1tsi/CVE-2024-23298.app](https://github.com/p1tsi/CVE-2024-23298.app)
+
 ### CVE-2024-23334 (2024-01-29)
 
 <code>aiohttp is an asynchronous HTTP client/server framework for asyncio and Python. When using aiohttp as a web server and configuring static routes, it is necessary to specify the root path for static files. Additionally, the option 'follow_symlinks' can be used to determine whether to follow symbolic links outside the static root directory. When 'follow_symlinks' is set to True, there is no validation to check if reading a file is within the root directory. This can lead to directory traversal vulnerabilities, resulting in unauthorized access to arbitrary files on the system, even when symlinks are not present.  Disabling follow_symlinks and using a reverse proxy are encouraged mitigations.  Version 3.9.2 fixes this issue.
@@ -6076,6 +6083,7 @@
 
 - [TAM-K592/CVE-2024-40725-CVE-2024-40898](https://github.com/TAM-K592/CVE-2024-40725-CVE-2024-40898)
 - [whiterose7777/CVE-2024-40725-CVE-2024-40898](https://github.com/whiterose7777/CVE-2024-40725-CVE-2024-40898)
+- [soltanali0/CVE-2024-40725](https://github.com/soltanali0/CVE-2024-40725)
 
 ### CVE-2024-40892 (2024-08-12)
 
@@ -6917,6 +6925,9 @@
 ### CVE-2024-48705
 - [L41KAA/CVE-2024-48705](https://github.com/L41KAA/CVE-2024-48705)
 
+### CVE-2024-48762
+- [YZS17/CVE-2024-48762](https://github.com/YZS17/CVE-2024-48762)
+
 ### CVE-2024-48914 (2024-10-15)
 
 <code>Vendure is an open-source headless commerce platform. Prior to versions 3.0.5 and 2.3.3, a vulnerability in Vendure's asset server plugin allows an attacker to craft a request which is able to traverse the server file system and retrieve the contents of arbitrary files, including sensitive data such as configuration files, environment variables, and other critical data stored on the server. In the same code path is an additional vector for crashing the server via a malformed URI. Patches are available in versions 3.0.5 and 2.3.3. Some workarounds are also available. One may use object storage rather than the local file system, e.g. MinIO or S3, or define middleware which detects and blocks requests with urls containing `/../`.
@@ -7515,7 +7526,7 @@
 <code>A SQL Injection vulnerability was found in /admin/index.php in phpgurukul Online Nurse Hiring System v1.0, which allows remote attackers to execute arbitrary SQL commands to get unauthorized database access via the username parameter.
 </code>
 
-- [kuzgunaka/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-](https://github.com/kuzgunaka/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-)
+- [ugurkarakoc1/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-](https://github.com/ugurkarakoc1/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-)
 
 ### CVE-2024-55557 (2024-12-16)
 
@@ -10799,6 +10810,13 @@
 - [duck-sec/CVE-2023-28252-Compiled-exe](https://github.com/duck-sec/CVE-2023-28252-Compiled-exe)
 - [byt3n33dl3/CLFS](https://github.com/byt3n33dl3/CLFS)
 - [Vulmatch/CVE-2023-28252](https://github.com/Vulmatch/CVE-2023-28252)
+
+### CVE-2023-28293 (2023-04-11)
+
+<code>Windows Kernel Elevation of Privilege Vulnerability
+</code>
+
+- [Cr4zyDave/CVE-2023-28293](https://github.com/Cr4zyDave/CVE-2023-28293)
 
 ### CVE-2023-28324 (2023-06-30)
 
