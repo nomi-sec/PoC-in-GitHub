@@ -1432,6 +1432,7 @@
 - [identity-threat-labs/CVE-2024-6387-Vulnerability-Checker](https://github.com/identity-threat-labs/CVE-2024-6387-Vulnerability-Checker)
 - [identity-threat-labs/Article-RegreSSHion-CVE-2024-6387](https://github.com/identity-threat-labs/Article-RegreSSHion-CVE-2024-6387)
 - [YassDEV221608/CVE-2024-6387](https://github.com/YassDEV221608/CVE-2024-6387)
+- [zql-gif/CVE-2024-6387](https://github.com/zql-gif/CVE-2024-6387)
 
 ### CVE-2024-6473 (2024-09-03)
 
@@ -39691,7 +39692,6 @@
 <code>The PDF viewer does not sufficiently sanitize PostScript calculator functions, allowing malicious JavaScript to be injected through a crafted PDF file. This JavaScript can then be run with the permissions of the PDF viewer by its worker. This vulnerability affects Firefox ESR &lt; 52.8 and Firefox &lt; 60.
 </code>
 
-- [ppcrab/CVE-2018-5158](https://github.com/ppcrab/CVE-2018-5158)
 - [puzzle-tools/-CVE-2018-5158.pdf](https://github.com/puzzle-tools/-CVE-2018-5158.pdf)
 
 ### CVE-2018-5234 (2018-04-30)
