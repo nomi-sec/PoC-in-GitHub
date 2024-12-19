@@ -1433,6 +1433,7 @@
 - [identity-threat-labs/Article-RegreSSHion-CVE-2024-6387](https://github.com/identity-threat-labs/Article-RegreSSHion-CVE-2024-6387)
 - [YassDEV221608/CVE-2024-6387](https://github.com/YassDEV221608/CVE-2024-6387)
 - [zql-gif/CVE-2024-6387](https://github.com/zql-gif/CVE-2024-6387)
+- [awusan125/test_for6387](https://github.com/awusan125/test_for6387)
 
 ### CVE-2024-6473 (2024-09-03)
 
@@ -1987,6 +1988,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-9935](https://github.com/RandomRobbieBF/CVE-2024-9935)
+- [verylazytech/CVE-2024-9935](https://github.com/verylazytech/CVE-2024-9935)
 
 ### CVE-2024-9955 (2024-10-15)
 
@@ -37833,6 +37835,7 @@
 - [0x4r2/Webmin-CVE-2019-15107](https://github.com/0x4r2/Webmin-CVE-2019-15107)
 - [NasrallahBaadi/CVE-2019-15107](https://github.com/NasrallahBaadi/CVE-2019-15107)
 - [grayorwhite/CVE-2019-15107](https://github.com/grayorwhite/CVE-2019-15107)
+- [MasterCode112/CVE-2019-15107](https://github.com/MasterCode112/CVE-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
 
