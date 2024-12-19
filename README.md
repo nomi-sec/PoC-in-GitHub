@@ -2156,6 +2156,7 @@
 </code>
 
 - [windz3r0day/CVE-2024-10793](https://github.com/windz3r0day/CVE-2024-10793)
+- [MAHajian/CVE-2024-10793](https://github.com/MAHajian/CVE-2024-10793)
 
 ### CVE-2024-10914 (2024-11-06)
 
@@ -2322,6 +2323,13 @@
 
 ### CVE-2024-11972
 - [JunTakemura/exploit-CVE-2024-11972](https://github.com/JunTakemura/exploit-CVE-2024-11972)
+
+### CVE-2024-12025 (2024-12-18)
+
+<code>The Collapsing Categories plugin for WordPress is vulnerable to SQL Injection via the 'taxonomy' parameter of the /wp-json/collapsing-categories/v1/get REST API in all versions up to, and including, 3.0.8 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [RandomRobbieBF/CVE-2024-12025](https://github.com/RandomRobbieBF/CVE-2024-12025)
 
 ### CVE-2024-12155 (2024-12-06)
 
@@ -5748,7 +5756,11 @@
 - [Galaxy-system/cve-2024-38816](https://github.com/Galaxy-system/cve-2024-38816)
 - [Anthony1078/App-vulnerable](https://github.com/Anthony1078/App-vulnerable)
 
-### CVE-2024-38819
+### CVE-2024-38819 (2024-12-19)
+
+<code>Applications serving static resources through the functional web frameworks WebMvc.fn or WebFlux.fn are vulnerable to path traversal attacks. An attacker can craft malicious HTTP requests and obtain any file on the file system that is also accessible to the process in which the Spring application is running.
+</code>
+
 - [masa42/CVE-2024-38819-POC](https://github.com/masa42/CVE-2024-38819-POC)
 - [GhostS3c/CVE-2024-38819](https://github.com/GhostS3c/CVE-2024-38819)
 
@@ -7048,10 +7060,10 @@
 
 ### CVE-2024-50379 (2024-12-17)
 
-<code>Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability during JSP compilation in Apache Tomcat permits an RCE on case insensitive file systems when the default servlet is enabled for write (non-default configuration).\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.1, from 10.1.0-M1 through 10.1.33, from 9.0.0.M1 through 9.0.97.\n\nUsers are recommended to upgrade to version 11.0.2, 10.1.34 or 9.0.08, which fixes the issue.
+<code>Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability during JSP compilation in Apache Tomcat permits an RCE on case insensitive file systems when the default servlet is enabled for write (non-default configuration).\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.1, from 10.1.0-M1 through 10.1.33, from 9.0.0.M1 through 9.0.97.\n\nUsers are recommended to upgrade to version 11.0.2, 10.1.34 or 9.0.98, which fixes the issue.
 </code>
 
-- [v3153/CVE-2024-50379-POC](https://github.com/v3153/CVE-2024-50379-POC)
+- [yiliufeng168/CVE-2024-50379-POC](https://github.com/yiliufeng168/CVE-2024-50379-POC)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -7524,6 +7536,13 @@
 - [c4oocO/CVE-2024-53677-Docker](https://github.com/c4oocO/CVE-2024-53677-Docker)
 - [XiaomingX/CVE-2024-53677-S2-067](https://github.com/XiaomingX/CVE-2024-53677-S2-067)
 - [dustblessnotdust/CVE-2024-53677-S2-067-thread](https://github.com/dustblessnotdust/CVE-2024-53677-S2-067-thread)
+
+### CVE-2024-54262 (2024-12-13)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Siddharth Nagar Import Export For WooCommerce allows Upload a Web Shell to a Web Server.This issue affects Import Export For WooCommerce: from n/a through 1.5.
+</code>
+
+- [RandomRobbieBF/CVE-2024-54262](https://github.com/RandomRobbieBF/CVE-2024-54262)
 
 ### CVE-2024-54679 (2024-12-05)
 
@@ -25268,7 +25287,11 @@
 
 - [theogobinet/CVE-2021-26088](https://github.com/theogobinet/CVE-2021-26088)
 
-### CVE-2021-26102
+### CVE-2021-26102 (2024-12-19)
+
+<code>A relative path traversal vulnerability (CWE-23) in FortiWAN version 4.5.7 and below, 4.4 all versions may allow a remote non-authenticated attacker to delete files on the system by sending a crafted POST request. In particular, deleting specific configuration files will reset the Admin password to its default value.
+</code>
+
 - [SleepyCofe/CVE-2021-26102](https://github.com/SleepyCofe/CVE-2021-26102)
 
 ### CVE-2021-26121
