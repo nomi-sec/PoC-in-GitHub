@@ -7043,6 +7043,13 @@
 
 - [Nyamort/CVE-2024-50340](https://github.com/Nyamort/CVE-2024-50340)
 
+### CVE-2024-50379 (2024-12-17)
+
+<code>Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability during JSP compilation in Apache Tomcat permits an RCE on case insensitive file systems when the default servlet is enabled for write (non-default configuration).\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.1, from 10.1.0-M1 through 10.1.33, from 9.0.0.M1 through 9.0.97.\n\nUsers are recommended to upgrade to version 11.0.2, 10.1.34 or 9.0.08, which fixes the issue.
+</code>
+
+- [v3153/CVE-2024-50379-POC](https://github.com/v3153/CVE-2024-50379-POC)
+
 ### CVE-2024-50395 (2024-11-22)
 
 <code>An authorization bypass through user-controlled key vulnerability has been reported to affect Media Streaming add-on. If exploited, the vulnerability could allow local network attackers to gain privilege.\n\nWe have already fixed the vulnerability in the following version:\nMedia Streaming add-on 500.1.1.6 ( 2024/08/02 ) and later
@@ -7513,6 +7520,7 @@
 - [yangyanglo/CVE-2024-53677](https://github.com/yangyanglo/CVE-2024-53677)
 - [c4oocO/CVE-2024-53677-Docker](https://github.com/c4oocO/CVE-2024-53677-Docker)
 - [XiaomingX/CVE-2024-53677-S2-067](https://github.com/XiaomingX/CVE-2024-53677-S2-067)
+- [dustblessnotdust/CVE-2024-53677-S2-067-thread](https://github.com/dustblessnotdust/CVE-2024-53677-S2-067-thread)
 
 ### CVE-2024-54679 (2024-12-05)
 
@@ -7553,10 +7561,18 @@
 - [Wi1DN00B/CVE-2024-55968](https://github.com/Wi1DN00B/CVE-2024-55968)
 - [null-event/CVE-2024-55968](https://github.com/null-event/CVE-2024-55968)
 
-### CVE-2024-56115
+### CVE-2024-56115 (2024-12-18)
+
+<code>A vulnerability in Amiro.CMS before 7.8.4 exists due to the failure to take measures to neutralize special elements. It allows remote attackers to conduct a Cross-Site Scripting (XSS) attack.
+</code>
+
 - [ComplianceControl/CVE-2024-56115](https://github.com/ComplianceControl/CVE-2024-56115)
 
-### CVE-2024-56116
+### CVE-2024-56116 (2024-12-18)
+
+<code>A Cross-Site Request Forgery vulnerability in Amiro.CMS before 7.8.4 allows remote attackers to create an administrator account.
+</code>
+
 - [ComplianceControl/CVE-2024-56116](https://github.com/ComplianceControl/CVE-2024-56116)
 
 ### CVE-2024-1642470
@@ -49078,6 +49094,7 @@
 - [n3rdh4x0r/CVE-2009-2265](https://github.com/n3rdh4x0r/CVE-2009-2265)
 - [p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265)
 - [0xConstant/CVE-2009-2265](https://github.com/0xConstant/CVE-2009-2265)
+- [0xDTC/Adobe-ColdFusion-8-RCE-CVE-2009-2265](https://github.com/0xDTC/Adobe-ColdFusion-8-RCE-CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
 
