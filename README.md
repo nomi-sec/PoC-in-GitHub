@@ -4090,6 +4090,7 @@
 - [cve-2024/CVE-2024-27956-RCE](https://github.com/cve-2024/CVE-2024-27956-RCE)
 - [ThatNotEasy/CVE-2024-27956](https://github.com/ThatNotEasy/CVE-2024-27956)
 - [CERTologists/EXPLOITING-CVE-2024-27956](https://github.com/CERTologists/EXPLOITING-CVE-2024-27956)
+- [7aRanchi/CVE-2024-27956-for-fscan](https://github.com/7aRanchi/CVE-2024-27956-for-fscan)
 
 ### CVE-2024-27971 (2024-05-17)
 
@@ -5965,6 +5966,7 @@
 </code>
 
 - [bigb0x/CVE-2024-40348](https://github.com/bigb0x/CVE-2024-40348)
+- [NingXin2002/Bazaar_poc](https://github.com/NingXin2002/Bazaar_poc)
 
 ### CVE-2024-40422 (2024-07-24)
 
@@ -6158,6 +6160,13 @@
 
 ### CVE-2024-41312
 - [Amal264882/CVE-2024-41312.](https://github.com/Amal264882/CVE-2024-41312.)
+
+### CVE-2024-41319 (2024-07-23)
+
+<code>TOTOLINK A6000R V1.0.1-B20201211.2000 was discovered to contain a command injection vulnerability via the cmd parameter in the webcmd function.
+</code>
+
+- [NingXin2002/TOTOLINK_poc](https://github.com/NingXin2002/TOTOLINK_poc)
 
 ### CVE-2024-41570 (2024-08-09)
 
@@ -43989,7 +43998,7 @@
 
 - [lexfo/cve-2017-11176](https://github.com/lexfo/cve-2017-11176)
 - [DoubleMice/cve-2017-11176](https://github.com/DoubleMice/cve-2017-11176)
-- [HckEX/CVE-2017-11176](https://github.com/HckEX/CVE-2017-11176)
+- [hckex/CVE-2017-11176](https://github.com/hckex/CVE-2017-11176)
 - [leonardo1101/cve-2017-11176](https://github.com/leonardo1101/cve-2017-11176)
 - [c3r34lk1ll3r/CVE-2017-11176](https://github.com/c3r34lk1ll3r/CVE-2017-11176)
 - [Sama-Ayman-Mokhtar/CVE-2017-11176](https://github.com/Sama-Ayman-Mokhtar/CVE-2017-11176)
