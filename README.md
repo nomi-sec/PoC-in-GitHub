@@ -7078,6 +7078,8 @@
 </code>
 
 - [yiliufeng168/CVE-2024-50379-POC](https://github.com/yiliufeng168/CVE-2024-50379-POC)
+- [JFOZ1010/Nuclei-Template-CVE-2024-50379](https://github.com/JFOZ1010/Nuclei-Template-CVE-2024-50379)
+- [iSee857/CVE-2024-50379-PoC](https://github.com/iSee857/CVE-2024-50379-PoC)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -7243,6 +7245,9 @@
 
 ### CVE-2024-50944
 - [AbdullahAlmutawa/CVE-2024-50944](https://github.com/AbdullahAlmutawa/CVE-2024-50944)
+
+### CVE-2024-50945
+- [AbdullahAlmutawa/CVE-2024-50945](https://github.com/AbdullahAlmutawa/CVE-2024-50945)
 
 ### CVE-2024-50961
 - [fdzdev/CVE-2024-50961](https://github.com/fdzdev/CVE-2024-50961)
@@ -7616,6 +7621,13 @@
 </code>
 
 - [ComplianceControl/CVE-2024-56116](https://github.com/ComplianceControl/CVE-2024-56116)
+
+### CVE-2024-56145 (2024-12-18)
+
+<code>Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Users of affected versions are affected by this vulnerability if their php.ini configuration has `register_argc_argv` enabled. For these users an unspecified remote code execution vector is present. Users are advised to update to version 3.9.14, 4.13.2, or 5.5.2. Users unable to upgrade should disable `register_argc_argv` to mitigate the issue.
+</code>
+
+- [Chocapikk/CVE-2024-56145](https://github.com/Chocapikk/CVE-2024-56145)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -46169,7 +46181,6 @@
 - [fser/ghost-checker](https://github.com/fser/ghost-checker)
 - [mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook)
 - [aaronfay/CVE-2015-0235-test](https://github.com/aaronfay/CVE-2015-0235-test)
-- [piyokango/ghost](https://github.com/piyokango/ghost)
 - [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
 - [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
 - [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
