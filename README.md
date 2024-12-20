@@ -5216,6 +5216,13 @@
 
 - [Ozozuz/Ozozuz-IBM-Security-Verify-CVE-2024-35133](https://github.com/Ozozuz/Ozozuz-IBM-Security-Verify-CVE-2024-35133)
 
+### CVE-2024-35176 (2024-05-16)
+
+<code> REXML is an XML toolkit for Ruby. The REXML gem before 3.2.6 has a denial of service vulnerability when it parses an XML that has many `&lt;`s in an attribute value. Those who need to parse untrusted XMLs may be impacted to this vulnerability. The REXML gem 3.2.7 or later include the patch to fix this vulnerability. As a workaround, don't parse untrusted XMLs.
+</code>
+
+- [SpiralBL0CK/CVE-2024-35176](https://github.com/SpiralBL0CK/CVE-2024-35176)
+
 ### CVE-2024-35205 (-)
 
 <code>The WPS Office (aka cn.wps.moffice_eng) application before 17.0.0 for Android fails to properly sanitize file names before processing them through external application interactions, leading to a form of path traversal. This potentially enables any application to dispatch a crafted library file, aiming to overwrite an existing native library utilized by WPS Office. Successful exploitation could result in the execution of arbitrary commands under the guise of WPS Office's application ID.
@@ -5898,6 +5905,13 @@
 </code>
 
 - [ph1ns/CVE-2024-39844](https://github.com/ph1ns/CVE-2024-39844)
+
+### CVE-2024-39908 (2024-07-16)
+
+<code> REXML is an XML toolkit for Ruby. The REXML gem before 3.3.1 has some DoS vulnerabilities when it parses an XML that has many specific characters such as `&lt;`, `0` and `%&gt;`. If you need to parse untrusted XMLs, you many be impacted to these vulnerabilities. The REXML gem 3.3.2 or later include the patches to fix these vulnerabilities. Users are advised to upgrade. Users unable to upgrade should avoid parsing untrusted XML strings.
+</code>
+
+- [SpiralBL0CK/CVE-2024-39908](https://github.com/SpiralBL0CK/CVE-2024-39908)
 
 ### CVE-2024-39929 (2024-07-04)
 
@@ -7227,6 +7241,9 @@
 
 - [Wh1teSnak3/CVE-2024-50849](https://github.com/Wh1teSnak3/CVE-2024-50849)
 
+### CVE-2024-50944
+- [AbdullahAlmutawa/CVE-2024-50944](https://github.com/AbdullahAlmutawa/CVE-2024-50944)
+
 ### CVE-2024-50961
 - [fdzdev/CVE-2024-50961](https://github.com/fdzdev/CVE-2024-50961)
 
@@ -7517,6 +7534,9 @@
 </code>
 
 - [ThottySploity/CVE-2024-53376](https://github.com/ThottySploity/CVE-2024-53376)
+
+### CVE-2024-53476
+- [AbdullahAlmutawa/CVE-2024-53476](https://github.com/AbdullahAlmutawa/CVE-2024-53476)
 
 ### CVE-2024-53617 (2024-12-02)
 
@@ -20557,6 +20577,13 @@
 </code>
 
 - [asahilina/agx-exploit](https://github.com/asahilina/agx-exploit)
+
+### CVE-2022-32981 (2022-06-10)
+
+<code>An issue was discovered in the Linux kernel through 5.18.3 on powerpc 32-bit platforms. There is a buffer overflow in ptrace PEEKUSER and POKEUSER (aka PEEKUSR and POKEUSR) when accessing floating point registers.
+</code>
+
+- [SpiralBL0CK/CVE-2022-32981](https://github.com/SpiralBL0CK/CVE-2022-32981)
 
 ### CVE-2022-32988 (2022-06-30)
 
