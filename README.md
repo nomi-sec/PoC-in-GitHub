@@ -1647,6 +1647,7 @@
 - [TheCyberguy-17/RCE_CVE-2024-7954](https://github.com/TheCyberguy-17/RCE_CVE-2024-7954)
 - [MuhammadWaseem29/RCE-CVE-2024-7954](https://github.com/MuhammadWaseem29/RCE-CVE-2024-7954)
 - [issamjr/CVE-2024-7954](https://github.com/issamjr/CVE-2024-7954)
+- [zxj-hub/CVE-2024-7954POC](https://github.com/zxj-hub/CVE-2024-7954POC)
 
 ### CVE-2024-7965 (2024-08-21)
 
@@ -7561,7 +7562,7 @@
 
 ### CVE-2024-53677 (2024-12-11)
 
-<code>File upload logic is flawed vulnerability in Apache Struts.\n\nThis issue affects Apache Struts: from 2.0.0 before 6.4.0.\n\nUsers are recommended to upgrade to version 6.4.0 and migrate to the new  file upload mechanism https://struts.apache.org/core-developers/file-upload .\n\nYou can find more details in  https://cwiki.apache.org/confluence/display/WW/S2-067
+<code>File upload logic in Apache Struts is flawed. An attacker can manipulate file upload params to enable paths traversal and under some circumstances this can lead to uploading a malicious file which can be used to perform Remote Code Execution.\n\nThis issue affects Apache Struts: from 2.0.0 before 6.4.0.\n\nUsers are recommended to upgrade to version 6.4.0 at least and migrate to the new  file upload mechanism https://struts.apache.org/core-developers/file-upload . If you are not using an old file upload logic based on FileuploadInterceptor your application is safe.\n\nYou can find more details in  https://cwiki.apache.org/confluence/display/WW/S2-067
 </code>
 
 - [cloudwafs/s2-067-CVE-2024-53677](https://github.com/cloudwafs/s2-067-CVE-2024-53677)
@@ -14753,6 +14754,7 @@
 - [AvishekDhakal/CVE-2023-45866_EXPLOITS](https://github.com/AvishekDhakal/CVE-2023-45866_EXPLOITS)
 - [Chedrian07/CVE-2023-45866-POC](https://github.com/Chedrian07/CVE-2023-45866-POC)
 - [Danyw24/blueXploit](https://github.com/Danyw24/blueXploit)
+- [xG3nesis/RustyInjector](https://github.com/xG3nesis/RustyInjector)
 
 ### CVE-2023-45966 (2023-10-23)
 
