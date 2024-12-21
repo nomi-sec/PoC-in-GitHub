@@ -3560,6 +3560,7 @@
 - [geniuszlyy/CVE-2024-24919](https://github.com/geniuszlyy/CVE-2024-24919)
 - [skyrowalker/CVE-2024-24919](https://github.com/skyrowalker/CVE-2024-24919)
 - [sar-3mar/CVE-2024-24919_POC](https://github.com/sar-3mar/CVE-2024-24919_POC)
+- [NingXin2002/Check-Point_poc](https://github.com/NingXin2002/Check-Point_poc)
 
 ### CVE-2024-24926 (2024-02-12)
 
@@ -3930,6 +3931,7 @@
 </code>
 
 - [th3gokul/CVE-2024-27292](https://github.com/th3gokul/CVE-2024-27292)
+- [NingXin2002/Docassemble_poc](https://github.com/NingXin2002/Docassemble_poc)
 
 ### CVE-2024-27316 (2024-04-04)
 
@@ -6210,6 +6212,7 @@
 </code>
 
 - [watchtowrlabs/Mitel-MiCollab-Auth-Bypass_CVE-2024-41713](https://github.com/watchtowrlabs/Mitel-MiCollab-Auth-Bypass_CVE-2024-41713)
+- [zxj-hub/CVE-2024-41713POC](https://github.com/zxj-hub/CVE-2024-41713POC)
 
 ### CVE-2024-41958 (2024-08-05)
 
@@ -13487,6 +13490,7 @@
 - [BBSynapse/CVE-2023-40028](https://github.com/BBSynapse/CVE-2023-40028)
 - [0xDTC/Ghost-5.58-Arbitrary-File-Read-CVE-2023-40028](https://github.com/0xDTC/Ghost-5.58-Arbitrary-File-Read-CVE-2023-40028)
 - [sudlit/CVE-2023-40028](https://github.com/sudlit/CVE-2023-40028)
+- [monke443/CVE-2023-40028-Ghost-Arbitrary-File-Read](https://github.com/monke443/CVE-2023-40028-Ghost-Arbitrary-File-Read)
 
 ### CVE-2023-40031 (2023-08-25)
 
