@@ -2363,7 +2363,11 @@
 
 - [cloudefence/CVE-2024-12356](https://github.com/cloudefence/CVE-2024-12356)
 
-### CVE-2024-12883
+### CVE-2024-12883 (2024-12-21)
+
+<code>In code-projects Job Recruitment 1.0 wurde eine problematische Schwachstelle ausgemacht. Das betrifft eine unbekannte Funktionalität der Datei /_email.php. Mittels Manipulieren des Arguments email mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
 ### CVE-2024-20017 (2024-03-04)
@@ -6875,6 +6879,9 @@
 </code>
 
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
+
+### CVE-2024-48197
+- [GCatt-AS/CVE-2024-48197](https://github.com/GCatt-AS/CVE-2024-48197)
 
 ### CVE-2024-48208 (2024-10-24)
 
