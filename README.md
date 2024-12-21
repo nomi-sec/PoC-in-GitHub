@@ -3086,6 +3086,7 @@
 - [pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692](https://github.com/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692)
 - [verylazytech/CVE-2024-23692](https://github.com/verylazytech/CVE-2024-23692)
 - [XiaomingX/cve-2024-23692-poc](https://github.com/XiaomingX/cve-2024-23692-poc)
+- [NingXin2002/HFS2.3_poc](https://github.com/NingXin2002/HFS2.3_poc)
 
 ### CVE-2024-23708 (2024-05-07)
 
@@ -5917,6 +5918,13 @@
 
 - [SpiralBL0CK/CVE-2024-39908](https://github.com/SpiralBL0CK/CVE-2024-39908)
 
+### CVE-2024-39914 (2024-07-12)
+
+<code>FOG is a cloning/imaging/rescue suite/inventory management system. Prior to 1.5.10.34, packages/web/lib/fog/reportmaker.class.php in FOG was affected by a command injection via the filename parameter to /fog/management/export.php. This vulnerability is fixed in 1.5.10.34.
+</code>
+
+- [9874621368/FOG-Project](https://github.com/9874621368/FOG-Project)
+
 ### CVE-2024-39929 (2024-07-04)
 
 <code>Exim through 4.97.1 misparses a multiline RFC 2231 header filename, and thus remote attackers can bypass a $mime_filename extension-blocking protection mechanism, and potentially deliver executable attachments to the mailboxes of end users.
@@ -6213,6 +6221,7 @@
 
 - [watchtowrlabs/Mitel-MiCollab-Auth-Bypass_CVE-2024-41713](https://github.com/watchtowrlabs/Mitel-MiCollab-Auth-Bypass_CVE-2024-41713)
 - [zxj-hub/CVE-2024-41713POC](https://github.com/zxj-hub/CVE-2024-41713POC)
+- [Sanandd/cve-2024-CVE-2024-41713](https://github.com/Sanandd/cve-2024-CVE-2024-41713)
 
 ### CVE-2024-41958 (2024-08-05)
 
@@ -7094,6 +7103,7 @@
 - [JFOZ1010/Nuclei-Template-CVE-2024-50379](https://github.com/JFOZ1010/Nuclei-Template-CVE-2024-50379)
 - [iSee857/CVE-2024-50379-PoC](https://github.com/iSee857/CVE-2024-50379-PoC)
 - [Alchemist3dot14/CVE-2024-50379](https://github.com/Alchemist3dot14/CVE-2024-50379)
+- [ph0ebus/Tomcat-CVE-2024-50379-Poc](https://github.com/ph0ebus/Tomcat-CVE-2024-50379-Poc)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -33075,6 +33085,7 @@
 - [Danny-LLi/CVE-2020-14882](https://github.com/Danny-LLi/CVE-2020-14882)
 - [LucasPDiniz/CVE-2020-14882](https://github.com/LucasPDiniz/CVE-2020-14882)
 - [xMr110/CVE-2020-14882](https://github.com/xMr110/CVE-2020-14882)
+- [zesnd/CVE-2020-14882-POC](https://github.com/zesnd/CVE-2020-14882-POC)
 
 ### CVE-2020-14883 (2020-10-21)
 
@@ -44144,6 +44155,7 @@
 - [VVeakee/CVE-2017-12149](https://github.com/VVeakee/CVE-2017-12149)
 - [MrE-Fog/jboss-_CVE-2017-12149](https://github.com/MrE-Fog/jboss-_CVE-2017-12149)
 - [JesseClarkND/CVE-2017-12149](https://github.com/JesseClarkND/CVE-2017-12149)
+- [zesnd/cve-2017-12149](https://github.com/zesnd/cve-2017-12149)
 
 ### CVE-2017-12426 (2017-08-14)
 
