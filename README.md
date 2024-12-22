@@ -7660,6 +7660,7 @@
 </code>
 
 - [Chocapikk/CVE-2024-56145](https://github.com/Chocapikk/CVE-2024-56145)
+- [Sachinart/CVE-2024-56145-craftcms-rce](https://github.com/Sachinart/CVE-2024-56145-craftcms-rce)
 
 ### CVE-2024-56331 (2024-12-20)
 
@@ -13802,6 +13803,7 @@
 - [h3athen/CVE-2023-41425](https://github.com/h3athen/CVE-2023-41425)
 - [Diegomjx/CVE-2023-41425-WonderCMS-Authenticated-RCE](https://github.com/Diegomjx/CVE-2023-41425-WonderCMS-Authenticated-RCE)
 - [0x0d3ad/CVE-2023-41425](https://github.com/0x0d3ad/CVE-2023-41425)
+- [xpltive/CVE-2023-41425](https://github.com/xpltive/CVE-2023-41425)
 
 ### CVE-2023-41436 (2023-09-15)
 
