@@ -7660,6 +7660,13 @@
 
 - [Chocapikk/CVE-2024-56145](https://github.com/Chocapikk/CVE-2024-56145)
 
+### CVE-2024-56331 (2024-12-20)
+
+<code>Uptime Kuma is an open source, self-hosted monitoring tool. An **Improper URL Handling Vulnerability** allows an attacker to access sensitive local files on the server by exploiting the `file:///` protocol. This vulnerability is triggered via the **&quot;real-browser&quot;** request type, which takes a screenshot of the URL provided by the attacker. By supplying local file paths, such as `file:///etc/passwd`, an attacker can read sensitive data from the server. This vulnerability arises because the system does not properly validate or sanitize the user input for the URL field. Specifically: 1. The URL input (`&lt;input data-v-5f5c86d7=&quot;&quot; id=&quot;url&quot; type=&quot;url&quot; class=&quot;form-control&quot; pattern=&quot;https?://.+&quot; required=&quot;&quot;&gt;`) allows users to input arbitrary file paths, including those using the `file:///` protocol, without server-side validation. 2. The server then uses the user-provided URL to make a request, passing it to a browser instance that performs the &quot;real-browser&quot; request, which takes a screenshot of the content at the given URL. If a local file path is entered (e.g., `file:///etc/passwd`), the browser fetches and captures the file’s content. Since the user input is not validated, an attacker can manipulate the URL to request local files (e.g., `file:///etc/passwd`), and the system will capture a screenshot of the file's content, potentially exposing sensitive data. Any **authenticated user** who can submit a URL in &quot;real-browser&quot; mode is at risk of exposing sensitive data through screenshots of these files. This issue has been addressed in version 1.23.16 and all users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [griisemine/CVE-2024-56331](https://github.com/griisemine/CVE-2024-56331)
+
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
 
@@ -42575,6 +42582,7 @@
 - [ducanh2oo3/Vulnerability-Research-CVE-2017-0144](https://github.com/ducanh2oo3/Vulnerability-Research-CVE-2017-0144)
 - [AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research)
 - [DenuwanJayasekara/CVE-Exploitation-Reports](https://github.com/DenuwanJayasekara/CVE-Exploitation-Reports)
+- [sethwhy/BlueDoor](https://github.com/sethwhy/BlueDoor)
 
 ### CVE-2017-0145 (2017-03-17)
 
