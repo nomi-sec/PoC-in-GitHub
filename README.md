@@ -5627,6 +5627,7 @@
 - [Dragkob/CVE-2024-38063](https://github.com/Dragkob/CVE-2024-38063)
 - [selenagomez25/CVE-2024-38063](https://github.com/selenagomez25/CVE-2024-38063)
 - [Laukage/Windows-CVE-2024-38063](https://github.com/Laukage/Windows-CVE-2024-38063)
+- [jamesbishop785/CVE-2024-38063](https://github.com/jamesbishop785/CVE-2024-38063)
 
 ### CVE-2024-38077 (2024-07-09)
 
