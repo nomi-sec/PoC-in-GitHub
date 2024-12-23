@@ -3407,13 +3407,6 @@
 
 - [minj-ae/CVE-2024-24488](https://github.com/minj-ae/CVE-2024-24488)
 
-### CVE-2024-24520 (2024-02-29)
-
-<code>An issue in Lepton CMS v.7.0.0 allows a local attacker to execute arbitrary code via the upgrade.php file in the languages place.
-</code>
-
-- [xF-9979/CVE-2024-24520](https://github.com/xF-9979/CVE-2024-24520)
-
 ### CVE-2024-24549 (2024-03-13)
 
 <code>Denial of Service due to improper input validation vulnerability for HTTP/2 requests in Apache Tomcat. When processing an HTTP/2 request, if the request exceeded any of the configured limits for headers, the associated HTTP/2 stream was not reset until after all of the headers had been processed.This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.0-M16, from 10.1.0-M1 through 10.1.18, from 9.0.0-M1 through 9.0.85, from 8.5.0 through 8.5.98.\n\nUsers are recommended to upgrade to version 11.0.0-M17, 10.1.19, 9.0.86 or 8.5.99 which fix the issue.\n\n
