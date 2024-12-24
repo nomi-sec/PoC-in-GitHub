@@ -1859,6 +1859,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-9290](https://github.com/RandomRobbieBF/CVE-2024-9290)
+- [Jenderal92/CVE-2024-9290](https://github.com/Jenderal92/CVE-2024-9290)
 
 ### CVE-2024-9326 (2024-09-29)
 
@@ -7443,6 +7444,13 @@
 </code>
 
 - [l20170217b/CVE-2024-51747](https://github.com/l20170217b/CVE-2024-51747)
+
+### CVE-2024-52002 (2024-11-08)
+
+<code>Combodo iTop is a simple, web based IT Service Management tool. Several url endpoints are subject to a Cross-Site Request Forgery (CSRF) vulnerability. Please refer to the linked GHSA for the complete list. This issue has been addressed in version 3.2.0 and all users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [Harshit-Mashru/iTop-CVEs-exploit](https://github.com/Harshit-Mashru/iTop-CVEs-exploit)
 
 ### CVE-2024-52301 (2024-11-12)
 
@@ -22402,7 +22410,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2022-45354](https://github.com/RandomRobbieBF/CVE-2022-45354)
-- [NekomataCode/CVE-2022-45354](https://github.com/NekomataCode/CVE-2022-45354)
 
 ### CVE-2022-45436 (2023-02-15)
 
@@ -26181,7 +26188,7 @@
 - [mind2hex/CVE-2021-31630](https://github.com/mind2hex/CVE-2021-31630)
 - [sealldeveloper/CVE-2021-31630-PoC](https://github.com/sealldeveloper/CVE-2021-31630-PoC)
 - [junnythemarksman/CVE-2021-31630](https://github.com/junnythemarksman/CVE-2021-31630)
-- [adibabdala123/cve-2021-31630](https://github.com/adibabdala123/cve-2021-31630)
+- [ttps-byte/cve-2021-31630](https://github.com/ttps-byte/cve-2021-31630)
 - [manuelsantosiglesias/CVE-2021-31630](https://github.com/manuelsantosiglesias/CVE-2021-31630)
 - [FlojBoj/CVE-2021-31630](https://github.com/FlojBoj/CVE-2021-31630)
 
