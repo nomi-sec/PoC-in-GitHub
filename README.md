@@ -2174,6 +2174,7 @@
 - [K3ysTr0K3R/CVE-2024-10914-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-10914-EXPLOIT)
 - [jahithoque/CVE-2024-10914-Exploit](https://github.com/jahithoque/CVE-2024-10914-Exploit)
 - [redspy-sec/D-Link](https://github.com/redspy-sec/D-Link)
+- [dragonXZH/CVE-2024-10914](https://github.com/dragonXZH/CVE-2024-10914)
 
 ### CVE-2024-10924 (2024-11-15)
 
@@ -2371,6 +2372,13 @@
 </code>
 
 - [cloudefence/CVE-2024-12356](https://github.com/cloudefence/CVE-2024-12356)
+
+### CVE-2024-12484 (2024-12-11)
+
+<code>In Codezips Technical Discussion Forum 1.0 wurde eine Schwachstelle entdeckt. Sie wurde als kritisch eingestuft. Das betrifft eine unbekannte Funktionalität der Datei /signuppost.php. Durch das Manipulieren des Arguments Username mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [LiChaser/CVE-2024-12484](https://github.com/LiChaser/CVE-2024-12484)
 
 ### CVE-2024-12883 (2024-12-21)
 
@@ -4774,6 +4782,7 @@
 - [RacerZ-fighting/CVE-2024-32113-POC](https://github.com/RacerZ-fighting/CVE-2024-32113-POC)
 - [Mr-xn/CVE-2024-32113](https://github.com/Mr-xn/CVE-2024-32113)
 - [YongYe-Security/CVE-2024-32113](https://github.com/YongYe-Security/CVE-2024-32113)
+- [MikeyPPPPPPPP/CVE-2024-32113](https://github.com/MikeyPPPPPPPP/CVE-2024-32113)
 
 ### CVE-2024-32136 (2024-04-15)
 
@@ -7038,7 +7047,6 @@
 </code>
 
 - [tnkr/poc_monitor](https://github.com/tnkr/poc_monitor)
-- [b0l1o/CVE-2024-49112-PoC](https://github.com/b0l1o/CVE-2024-49112-PoC)
 
 ### CVE-2024-49117 (2024-12-10)
 
@@ -19370,7 +19378,7 @@
 <code>Premature release of resource during expected lifetime in the Intel(R) SGX SDK software may allow a privileged user to potentially enable information disclosure via local access.
 </code>
 
-- [StanPlatinum/snapshot-attack-demo](https://github.com/StanPlatinum/snapshot-attack-demo)
+- [web-logs2/snapshot-demo](https://github.com/web-logs2/snapshot-demo)
 
 ### CVE-2022-27502 (2022-06-10)
 
@@ -40761,6 +40769,7 @@
 - [Stahlz/JQShell](https://github.com/Stahlz/JQShell)
 - [cved-sources/cve-2018-9206](https://github.com/cved-sources/cve-2018-9206)
 - [mi-hood/CVE-2018-9206](https://github.com/mi-hood/CVE-2018-9206)
+- [MikeyPPPPPPPP/CVE-2018-9206](https://github.com/MikeyPPPPPPPP/CVE-2018-9206)
 
 ### CVE-2018-9207 (2018-11-19)
 
