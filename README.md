@@ -2089,6 +2089,13 @@
 - [ubaii/CVE-2024-10508](https://github.com/ubaii/CVE-2024-10508)
 - [Jenderal92/CVE-2024-10508](https://github.com/Jenderal92/CVE-2024-10508)
 
+### CVE-2024-10511 (2024-12-11)
+
+<code>CWE-287: Improper Authentication vulnerability exists that could cause Denial of access to the web interface\nwhen someone on the local network repeatedly requests the /accessdenied URL.
+</code>
+
+- [revengsmK/CVE-2024-10511](https://github.com/revengsmK/CVE-2024-10511)
+
 ### CVE-2024-10516 (2024-12-06)
 
 <code>The Swift Performance Lite plugin for WordPress is vulnerable to Local PHP File Inclusion in all versions up to, and including, 2.3.7.1 via the 'ajaxify' function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
