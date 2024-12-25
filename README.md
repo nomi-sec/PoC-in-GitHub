@@ -228,6 +228,13 @@
 
 - [RandomRobbieBF/CVE-2024-0679](https://github.com/RandomRobbieBF/CVE-2024-0679)
 
+### CVE-2024-0683 (2024-03-13)
+
+<code>The Bulgarisation for WooCommerce plugin for WordPress is vulnerable to unauthorized access due to missing capability checks on several functions in all versions up to, and including, 3.0.14. This makes it possible for unauthenticated and authenticated attackers, with subscriber-level access and above, to generate and delete labels.
+</code>
+
+- [3474458191/CVE-2024-0683](https://github.com/3474458191/CVE-2024-0683)
+
 ### CVE-2024-0684 (2024-02-06)
 
 <code>A flaw was found in the GNU coreutils &quot;split&quot; program. A heap overflow with user-controlled data of multiple hundred bytes in length could occur in the line_bytes_split() function, potentially leading to an application crash and denial of service.
@@ -1799,6 +1806,13 @@
 </code>
 
 - [EQSTLab/CVE-2024-9014](https://github.com/EQSTLab/CVE-2024-9014)
+
+### CVE-2024-9047 (2024-10-12)
+
+<code>The WordPress File Upload plugin for WordPress is vulnerable to Path Traversal in all versions up to, and including, 4.24.11 via wfu_file_downloader.php. This makes it possible for unauthenticated attackers to read or delete files outside of the originally intended directory. Successful exploitation requires the targeted WordPress installation to be using PHP 7.4 or earlier.
+</code>
+
+- [iSee857/CVE-2024-9047-PoC](https://github.com/iSee857/CVE-2024-9047-PoC)
 
 ### CVE-2024-9061 (2024-10-16)
 
@@ -4477,6 +4491,13 @@
 
 - [absholi7ly/Microsoft-Edge-Information-Disclosure](https://github.com/absholi7ly/Microsoft-Edge-Information-Disclosure)
 
+### CVE-2024-30085 (2024-06-11)
+
+<code>Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability
+</code>
+
+- [Adamkadaban/CVE-2024-30085](https://github.com/Adamkadaban/CVE-2024-30085)
+
 ### CVE-2024-30088 (2024-06-11)
 
 <code>Windows Kernel Elevation of Privilege Vulnerability
@@ -7054,6 +7075,7 @@
 </code>
 
 - [tnkr/poc_monitor](https://github.com/tnkr/poc_monitor)
+- [BOl1o/CVE-2024-49112-PoC](https://github.com/BOl1o/CVE-2024-49112-PoC)
 
 ### CVE-2024-49117 (2024-12-10)
 
@@ -7130,6 +7152,7 @@
 <code>Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability during JSP compilation in Apache Tomcat permits an RCE on case insensitive file systems when the default servlet is enabled for write (non-default configuration).\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.1, from 10.1.0-M1 through 10.1.33, from 9.0.0.M1 through 9.0.97.\n\nUsers are recommended to upgrade to version 11.0.2, 10.1.34 or 9.0.98, which fixes the issue.
 </code>
 
+- [v3153/CVE-2024-50379-POC](https://github.com/v3153/CVE-2024-50379-POC)
 - [yiliufeng168/CVE-2024-50379-POC](https://github.com/yiliufeng168/CVE-2024-50379-POC)
 - [JFOZ1010/Nuclei-Template-CVE-2024-50379](https://github.com/JFOZ1010/Nuclei-Template-CVE-2024-50379)
 - [iSee857/CVE-2024-50379-PoC](https://github.com/iSee857/CVE-2024-50379-PoC)
@@ -7137,6 +7160,7 @@
 - [ph0ebus/Tomcat-CVE-2024-50379-Poc](https://github.com/ph0ebus/Tomcat-CVE-2024-50379-Poc)
 - [SleepingBag945/CVE-2024-50379](https://github.com/SleepingBag945/CVE-2024-50379)
 - [dear-cell/CVE-2024-50379](https://github.com/dear-cell/CVE-2024-50379)
+- [lizhianyuguangming/CVE-2024-50379-exp](https://github.com/lizhianyuguangming/CVE-2024-50379-exp)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -7706,6 +7730,9 @@
 </code>
 
 - [griisemine/CVE-2024-56331](https://github.com/griisemine/CVE-2024-56331)
+
+### CVE-2024-56431
+- [UnionTech-Software/libtheora-CVE-2024-56431-PoC](https://github.com/UnionTech-Software/libtheora-CVE-2024-56431-PoC)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
