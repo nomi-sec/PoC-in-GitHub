@@ -356,6 +356,7 @@
 
 - [Chocapikk/CVE-2024-1212](https://github.com/Chocapikk/CVE-2024-1212)
 - [nak000/CVE-2024-1212](https://github.com/nak000/CVE-2024-1212)
+- [Rehan07-Human/Exploiting-RCE-Cyber_Project_CVE-2024-1212](https://github.com/Rehan07-Human/Exploiting-RCE-Cyber_Project_CVE-2024-1212)
 
 ### CVE-2024-1269 (2024-02-07)
 
@@ -2415,6 +2416,13 @@
 
 - [mellow-hype/cve-2024-20017](https://github.com/mellow-hype/cve-2024-20017)
 
+### CVE-2024-20137 (2024-12-02)
+
+<code>In wlan driver, there is a possible client disconnection due to improper handling of exceptional conditions. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: WCNCR00384543; Issue ID: MSV-1727.
+</code>
+
+- [takistmr/CVE-2024-20137](https://github.com/takistmr/CVE-2024-20137)
+
 ### CVE-2024-20291 (2024-02-28)
 
 <code>A vulnerability in the access control list (ACL) programming for port channel subinterfaces of Cisco Nexus 3000 and 9000 Series Switches in standalone NX-OS mode could allow an unauthenticated, remote attacker to send traffic that should be blocked through an affected device.\r\n\r This vulnerability is due to incorrect hardware programming that occurs when configuration changes are made to port channel member ports. An attacker could exploit this vulnerability by attempting to send traffic through an affected device. A successful exploit could allow the attacker to access network resources that should be protected by an ACL that was applied on port channel subinterfaces.
@@ -3075,6 +3083,7 @@
 - [Arc4he/CVE-2024-23334-PoC](https://github.com/Arc4he/CVE-2024-23334-PoC)
 - [TheRedP4nther/LFI-aiohttp-CVE-2024-23334-PoC](https://github.com/TheRedP4nther/LFI-aiohttp-CVE-2024-23334-PoC)
 - [Betan423/CVE-2024-23334-PoC](https://github.com/Betan423/CVE-2024-23334-PoC)
+- [BestDevOfc/CVE-2024-23334-PoC](https://github.com/BestDevOfc/CVE-2024-23334-PoC)
 
 ### CVE-2024-23339 (2024-01-22)
 
@@ -7731,7 +7740,11 @@
 
 - [griisemine/CVE-2024-56331](https://github.com/griisemine/CVE-2024-56331)
 
-### CVE-2024-56431
+### CVE-2024-56431 (2024-12-25)
+
+<code>oc_huff_tree_unpack in huffdec.c in libtheora in Theora through 1.0 7180717 has an invalid negative left shift.
+</code>
+
 - [UnionTech-Software/libtheora-CVE-2024-56431-PoC](https://github.com/UnionTech-Software/libtheora-CVE-2024-56431-PoC)
 
 ### CVE-2024-1642470
