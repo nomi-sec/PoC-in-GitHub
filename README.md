@@ -33199,6 +33199,7 @@
 - [LucasPDiniz/CVE-2020-14882](https://github.com/LucasPDiniz/CVE-2020-14882)
 - [xMr110/CVE-2020-14882](https://github.com/xMr110/CVE-2020-14882)
 - [zesnd/CVE-2020-14882-POC](https://github.com/zesnd/CVE-2020-14882-POC)
+- [AleksaZatezalo/CVE-2020-14882-HoaxShell](https://github.com/AleksaZatezalo/CVE-2020-14882-HoaxShell)
 
 ### CVE-2020-14883 (2020-10-21)
 
