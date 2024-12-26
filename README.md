@@ -2006,6 +2006,7 @@
 
 - [RandomRobbieBF/CVE-2024-9935](https://github.com/RandomRobbieBF/CVE-2024-9935)
 - [verylazytech/CVE-2024-9935](https://github.com/verylazytech/CVE-2024-9935)
+- [Nxploited/CVE-2024-9935](https://github.com/Nxploited/CVE-2024-9935)
 
 ### CVE-2024-9955 (2024-10-15)
 
@@ -2247,6 +2248,13 @@
 </code>
 
 - [reinh3rz/CVE-2024-11252-Sassy-Social-Share-XSS](https://github.com/reinh3rz/CVE-2024-11252-Sassy-Social-Share-XSS)
+
+### CVE-2024-11281 (2024-12-25)
+
+<code>The WooCommerce Point of Sale plugin for WordPress is vulnerable to privilege escalation in all versions up to, and including, 6.1.0. This is due to insufficient validation on the 'logged_in_user_id' value when option values are empty and the ability for attackers to change the email of arbitrary user accounts. This makes it possible for unauthenticated attackers to change the email of arbitrary user accounts, including administrators, and reset their password to gain access to the account.
+</code>
+
+- [McTavishSue/CVE-2024-11281](https://github.com/McTavishSue/CVE-2024-11281)
 
 ### CVE-2024-11318 (2024-11-18)
 
@@ -7170,6 +7178,8 @@
 - [SleepingBag945/CVE-2024-50379](https://github.com/SleepingBag945/CVE-2024-50379)
 - [dear-cell/CVE-2024-50379](https://github.com/dear-cell/CVE-2024-50379)
 - [lizhianyuguangming/CVE-2024-50379-exp](https://github.com/lizhianyuguangming/CVE-2024-50379-exp)
+- [dragonked2/CVE-2024-50379-POC](https://github.com/dragonked2/CVE-2024-50379-POC)
+- [bigb0x/CVE-2024-50379](https://github.com/bigb0x/CVE-2024-50379)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -48910,6 +48920,7 @@
 - [AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research)
 - [Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit](https://github.com/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit)
 - [everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-](https://github.com/everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-)
+- [NullBrunk/CVE-2011-2523](https://github.com/NullBrunk/CVE-2011-2523)
 
 ### CVE-2011-2894 (2011-10-04)
 
