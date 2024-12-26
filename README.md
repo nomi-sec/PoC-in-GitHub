@@ -6733,6 +6733,13 @@
 - [pankass/CVE-2024-45436](https://github.com/pankass/CVE-2024-45436)
 - [XiaomingX/cve-2024-45436-exp](https://github.com/XiaomingX/cve-2024-45436-exp)
 
+### CVE-2024-45440 (2024-08-29)
+
+<code>core/authorize.php in Drupal 11.x-dev allows Full Path Disclosure (even when error logging is None) if the value of hash_salt is file_get_contents of a file that does not exist.
+</code>
+
+- [w0r1i0g1ht/CVE-2024-45440](https://github.com/w0r1i0g1ht/CVE-2024-45440)
+
 ### CVE-2024-45492 (2024-08-30)
 
 <code>An issue was discovered in libexpat before 2.6.3. nextScaffoldPart in xmlparse.c can have an integer overflow for m_groupSize on 32-bit platforms (where UINT_MAX equals SIZE_MAX).
