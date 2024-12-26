@@ -24983,6 +24983,7 @@
 - [MrDottt/CVE-2021-22911](https://github.com/MrDottt/CVE-2021-22911)
 - [overgrowncarrot1/CVE-2021-22911](https://github.com/overgrowncarrot1/CVE-2021-22911)
 - [Weisant/CVE-2021-22911-EXP](https://github.com/Weisant/CVE-2021-22911-EXP)
+- [yoohhuu/Rocket-Chat-3.12.1-PoC-CVE-2021-22911-](https://github.com/yoohhuu/Rocket-Chat-3.12.1-PoC-CVE-2021-22911-)
 
 ### CVE-2021-22924 (2021-08-05)
 
@@ -28019,7 +28020,6 @@
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
-- [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
 - [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
 - [skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773)
 - [mauricelambert/CVE-2021-41773](https://github.com/mauricelambert/CVE-2021-41773)
@@ -44248,6 +44248,7 @@
 - [n18dcat053-luuvannga/DetectPacket-CVE-2017-11882](https://github.com/n18dcat053-luuvannga/DetectPacket-CVE-2017-11882)
 - [nhuynhuy/cve-2017-11882](https://github.com/nhuynhuy/cve-2017-11882)
 - [jadeapar/Dragonfish-s-Malware-Cyber-Analysis](https://github.com/jadeapar/Dragonfish-s-Malware-Cyber-Analysis)
+- [yaseenibnakhtar/Malware-Analysis-CVE-2017-11882](https://github.com/yaseenibnakhtar/Malware-Analysis-CVE-2017-11882)
 
 ### CVE-2017-11907 (2017-12-12)
 
