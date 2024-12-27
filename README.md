@@ -1998,6 +1998,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-9933](https://github.com/RandomRobbieBF/CVE-2024-9933)
+- [Nxploited/CVE-2024-9933](https://github.com/Nxploited/CVE-2024-9933)
 
 ### CVE-2024-9935 (2024-11-16)
 
