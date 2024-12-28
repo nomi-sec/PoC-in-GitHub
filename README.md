@@ -1858,6 +1858,7 @@
 
 - [RandomRobbieBF/CVE-2024-9234](https://github.com/RandomRobbieBF/CVE-2024-9234)
 - [CallMeBatosay/CVE-2024-9234](https://github.com/CallMeBatosay/CVE-2024-9234)
+- [Nxploited/CVE-2024-9234](https://github.com/Nxploited/CVE-2024-9234)
 
 ### CVE-2024-9264 (2024-10-18)
 
@@ -2348,6 +2349,13 @@
 </code>
 
 - [TheN00bBuilder/cve-2024-11477-writeup](https://github.com/TheN00bBuilder/cve-2024-11477-writeup)
+
+### CVE-2024-11616 (2024-12-19)
+
+<code>Netskope was made aware of a security vulnerability in Netskope Endpoint DLP’s Content Control Driver where a double-fetch issue leads to heap overflow. The vulnerability arises from the fact that the NumberOfBytes argument to ExAllocatePoolWithTag, and the Length argument for RtlCopyMemory, both independently dereference their value from the user supplied input buffer inside the EpdlpSetUsbAction function, known as a double-fetch. If this length value grows to a higher value in between these two calls, it will result in the RtlCopyMemory call copying user-supplied memory contents outside the range of the allocated buffer, resulting in a heap overflow. A malicious attacker will need admin privileges to exploit the issue.\nThis issue affects Endpoint DLP version below R119.
+</code>
+
+- [inb1ts/CVE-2024-11616](https://github.com/inb1ts/CVE-2024-11616)
 
 ### CVE-2024-11680 (2024-11-26)
 
@@ -4516,6 +4524,7 @@
 </code>
 
 - [Adamkadaban/CVE-2024-30085](https://github.com/Adamkadaban/CVE-2024-30085)
+- [murdok1982/Exploit-PoC-para-CVE-2024-30085](https://github.com/murdok1982/Exploit-PoC-para-CVE-2024-30085)
 
 ### CVE-2024-30088 (2024-06-11)
 
@@ -47794,7 +47803,7 @@
 <code>Unrestricted file upload vulnerability in the Tribulant Slideshow Gallery plugin before 1.4.7 for WordPress allows remote authenticated users to execute arbitrary code by uploading a PHP file, then accessing it via a direct request to the file in wp-content/uploads/slideshow-gallery/.
 </code>
 
-- [brookeses69/CVE-2014-5460](https://github.com/brookeses69/CVE-2014-5460)
+- [F-0x57/CVE-2014-5460](https://github.com/F-0x57/CVE-2014-5460)
 
 ### CVE-2014-6271 (2014-09-24)
 
