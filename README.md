@@ -1656,6 +1656,7 @@
 - [MuhammadWaseem29/RCE-CVE-2024-7954](https://github.com/MuhammadWaseem29/RCE-CVE-2024-7954)
 - [issamjr/CVE-2024-7954](https://github.com/issamjr/CVE-2024-7954)
 - [zxj-hub/CVE-2024-7954POC](https://github.com/zxj-hub/CVE-2024-7954POC)
+- [0dayan0n/RCE_CVE-2024-7954-](https://github.com/0dayan0n/RCE_CVE-2024-7954-)
 
 ### CVE-2024-7965 (2024-08-21)
 
@@ -30659,6 +30660,7 @@
 - [whoami-chmod777/Zerologon-Attack-CVE-2020-1472-POC](https://github.com/whoami-chmod777/Zerologon-Attack-CVE-2020-1472-POC)
 - [JolynNgSC/Zerologon_CVE-2020-1472](https://github.com/JolynNgSC/Zerologon_CVE-2020-1472)
 - [blackh00d/zerologon-poc](https://github.com/blackh00d/zerologon-poc)
+- [TuanCui22/ZerologonWithImpacket-CVE2020-1472](https://github.com/TuanCui22/ZerologonWithImpacket-CVE2020-1472)
 
 ### CVE-2020-1493 (2020-08-17)
 
