@@ -2565,6 +2565,13 @@
 - [10cks/CVE-2024-21111-del](https://github.com/10cks/CVE-2024-21111-del)
 - [x0rsys/CVE-2024-21111](https://github.com/x0rsys/CVE-2024-21111)
 
+### CVE-2024-21182 (2024-07-16)
+
+<code>Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+</code>
+
+- [k4it0k1d/CVE-2024-21182](https://github.com/k4it0k1d/CVE-2024-21182)
+
 ### CVE-2024-21305 (2024-01-09)
 
 <code>Hypervisor-Protected Code Integrity (HVCI) Security Feature Bypass Vulnerability
@@ -30430,7 +30437,7 @@
 - [TweatherQ/CVE-2020-0796](https://github.com/TweatherQ/CVE-2020-0796)
 - [krizzz07/CVE-2020-0796](https://github.com/krizzz07/CVE-2020-0796)
 - [OldDream666/cve-2020-0796](https://github.com/OldDream666/cve-2020-0796)
-- [Ajomix/CVE-2020-0796](https://github.com/Ajomix/CVE-2020-0796)
+- [dungnm24/CVE-2020-0796](https://github.com/dungnm24/CVE-2020-0796)
 - [hungdnvp/POC-CVE-2020-0796](https://github.com/hungdnvp/POC-CVE-2020-0796)
 - [AdamSonov/smbGhostCVE-2020-0796](https://github.com/AdamSonov/smbGhostCVE-2020-0796)
 - [z3ena/Exploiting-and-Mitigating-CVE-2020-0796-SMBGhost-and-Print-Spooler-Vulnerabilities](https://github.com/z3ena/Exploiting-and-Mitigating-CVE-2020-0796-SMBGhost-and-Print-Spooler-Vulnerabilities)
