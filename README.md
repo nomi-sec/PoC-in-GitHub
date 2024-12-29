@@ -35150,6 +35150,7 @@
 - [Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232](https://github.com/Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232)
 - [jaiguptanick/CVE-2019-0232](https://github.com/jaiguptanick/CVE-2019-0232)
 - [xsxtw/CVE-2019-0232](https://github.com/xsxtw/CVE-2019-0232)
+- [Dharan10/CVE-2019-0232](https://github.com/Dharan10/CVE-2019-0232)
 
 ### CVE-2019-0539 (2019-01-08)
 
