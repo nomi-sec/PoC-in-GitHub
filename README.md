@@ -7698,6 +7698,13 @@
 - [0xdeviner/CVE-2024-53677](https://github.com/0xdeviner/CVE-2024-53677)
 - [Q0LT/VM-CVE-2024-53677](https://github.com/Q0LT/VM-CVE-2024-53677)
 
+### CVE-2024-54152 (2024-12-10)
+
+<code>Angular Expressions provides expressions for the Angular.JS web framework as a standalone module. Prior to version 1.4.3, an attacker can write a malicious expression that escapes the sandbox to execute arbitrary code on the system. With a more complex (undisclosed) payload, one can get full access to Arbitrary code execution on the system. The problem has been patched in version 1.4.3 of Angular Expressions. Two possible workarounds are available. One may either disable access to `__proto__` globally or make sure that one uses the function with just one argument.
+</code>
+
+- [math-x-io/CVE-2024-54152-poc](https://github.com/math-x-io/CVE-2024-54152-poc)
+
 ### CVE-2024-54262 (2024-12-13)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in Siddharth Nagar Import Export For WooCommerce allows Upload a Web Shell to a Web Server.This issue affects Import Export For WooCommerce: from n/a through 1.5.
@@ -13462,6 +13469,7 @@
 - [idkwastaken/CVE-2023-38831](https://github.com/idkwastaken/CVE-2023-38831)
 - [RonF98/CVE-2023-38831-POC](https://github.com/RonF98/CVE-2023-38831-POC)
 - [VictoriousKnight/CVE-2023-38831_Exploit](https://github.com/VictoriousKnight/CVE-2023-38831_Exploit)
+- [kuyrathdaro/winrar-cve-2023-38831](https://github.com/kuyrathdaro/winrar-cve-2023-38831)
 
 ### CVE-2023-38836 (2023-08-21)
 
