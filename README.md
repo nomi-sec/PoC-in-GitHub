@@ -8607,6 +8607,13 @@
 - [miguelc49/CVE-2023-4145-1](https://github.com/miguelc49/CVE-2023-4145-1)
 - [miguelc49/CVE-2023-4145-3](https://github.com/miguelc49/CVE-2023-4145-3)
 
+### CVE-2023-4147 (2023-08-07)
+
+<code>A use-after-free flaw was found in the Linux kernel’s Netfilter functionality when adding a rule with NFTA_RULE_CHAIN_ID. This flaw allows a local user to crash or escalate their privileges on the system.
+</code>
+
+- [murdok1982/Exploit-en-Python-para-CVE-2023-4147](https://github.com/murdok1982/Exploit-en-Python-para-CVE-2023-4147)
+
 ### CVE-2023-4165 (2023-08-05)
 
 <code>Es wurde eine kritische Schwachstelle in Tongda OA gefunden. Hiervon betroffen ist ein unbekannter Codeblock der Datei general/system/seal_manage/iweboffice/delete_seal.php. Dank der Manipulation des Arguments DELETE_STR mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Exploit steht zur öffentlichen Verfügung. Ein Aktualisieren auf die Version 11.10 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
@@ -42716,6 +42723,7 @@
 - [AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research)
 - [DenuwanJayasekara/CVE-Exploitation-Reports](https://github.com/DenuwanJayasekara/CVE-Exploitation-Reports)
 - [sethwhy/BlueDoor](https://github.com/sethwhy/BlueDoor)
+- [AtithKhawas/autoblue](https://github.com/AtithKhawas/autoblue)
 
 ### CVE-2017-0145 (2017-03-17)
 
@@ -43204,6 +43212,7 @@
 - [opt9/Strutshock](https://github.com/opt9/Strutshock)
 - [falcon-lnhg/StrutsShell](https://github.com/falcon-lnhg/StrutsShell)
 - [bhagdave/CVE-2017-5638](https://github.com/bhagdave/CVE-2017-5638)
+- [jas502n/st2-046-poc](https://github.com/jas502n/st2-046-poc)
 - [KarzsGHR/S2-046_S2-045_POC](https://github.com/KarzsGHR/S2-046_S2-045_POC)
 - [gsfish/S2-Reaper](https://github.com/gsfish/S2-Reaper)
 - [mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638)
