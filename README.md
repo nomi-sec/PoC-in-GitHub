@@ -47588,6 +47588,13 @@
 - [elongl/CVE-2014-3153](https://github.com/elongl/CVE-2014-3153)
 - [c4mx/Linux-kernel-code-injection_CVE-2014-3153](https://github.com/c4mx/Linux-kernel-code-injection_CVE-2014-3153)
 
+### CVE-2014-3206 (2018-02-23)
+
+<code>Seagate BlackArmor NAS allows remote attackers to execute arbitrary code via the session parameter to localhost/backupmgt/localJob.php or the auth_name parameter to localhost/backupmgmt/pre_connect_check.php.
+</code>
+
+- [laccart/CVE-2014-3206](https://github.com/laccart/CVE-2014-3206)
+
 ### CVE-2014-3341 (2014-08-19)
 
 <code>The SNMP module in Cisco NX-OS 7.0(3)N1(1) and earlier on Nexus 5000 and 6000 devices provides different error messages for invalid requests depending on whether the VLAN ID exists, which allows remote attackers to enumerate VLANs via a series of requests, aka Bug ID CSCup85616.
