@@ -989,6 +989,9 @@
 
 - [truonghuuphuc/CVE-2024-4443-Poc](https://github.com/truonghuuphuc/CVE-2024-4443-Poc)
 
+### CVE-2024-4573
+- [Castro-Ian/CVE-2024-4573-Mitigation-Script](https://github.com/Castro-Ian/CVE-2024-4573-Mitigation-Script)
+
 ### CVE-2024-4577 (2024-06-09)
 
 <code>In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use &quot;Best-Fit&quot; behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
@@ -7719,6 +7722,9 @@
 
 - [hotplugin0x01/CVE-2024-54679](https://github.com/hotplugin0x01/CVE-2024-54679)
 
+### CVE-2024-54819
+- [partywavesec/CVE-2024-54819](https://github.com/partywavesec/CVE-2024-54819)
+
 ### CVE-2024-55099 (2024-12-12)
 
 <code>A SQL Injection vulnerability was found in /admin/index.php in phpgurukul Online Nurse Hiring System v1.0, which allows remote attackers to execute arbitrary SQL commands to get unauthorized database access via the username parameter.
@@ -13877,6 +13883,7 @@
 </code>
 
 - [sealldeveloper/CVE-2023-40931-PoC](https://github.com/sealldeveloper/CVE-2023-40931-PoC)
+- [datboi6942/Nagios-XI-s-CVE-2023-40931-Exploit](https://github.com/datboi6942/Nagios-XI-s-CVE-2023-40931-Exploit)
 
 ### CVE-2023-40933 (2023-09-19)
 
