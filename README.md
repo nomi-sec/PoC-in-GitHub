@@ -190,7 +190,7 @@
 - [ysanatomic/io_uring_LPE-CVE-2024-0582](https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582)
 - [Forsaken0129/CVE-2024-0582](https://github.com/Forsaken0129/CVE-2024-0582)
 - [0ptyx/cve-2024-0582](https://github.com/0ptyx/cve-2024-0582)
-- [geniuszlyy/CVE-2024-0582](https://github.com/geniuszlyy/CVE-2024-0582)
+- [geniuszly/CVE-2024-0582](https://github.com/geniuszly/CVE-2024-0582)
 - [101010zyl/CVE-2024-0582](https://github.com/101010zyl/CVE-2024-0582)
 
 ### CVE-2024-0588 (2024-04-09)
@@ -880,7 +880,7 @@
 - [olebris/CVE-2024-4040](https://github.com/olebris/CVE-2024-4040)
 - [entroychang/CVE-2024-4040](https://github.com/entroychang/CVE-2024-4040)
 - [safeer-accuknox/CrushFTP-cve-2024-4040-poc](https://github.com/safeer-accuknox/CrushFTP-cve-2024-4040-poc)
-- [geniuszlyy/GenCrushSSTIExploit](https://github.com/geniuszlyy/GenCrushSSTIExploit)
+- [geniuszly/GenCrushSSTIExploit](https://github.com/geniuszly/GenCrushSSTIExploit)
 - [rahisec/CVE-2024-4040](https://github.com/rahisec/CVE-2024-4040)
 
 ### CVE-2024-4231 (2024-05-10)
@@ -1220,7 +1220,7 @@
 
 - [truonghuuphuc/CVE-2024-5522-Poc](https://github.com/truonghuuphuc/CVE-2024-5522-Poc)
 - [kryptonproject/CVE-2024-5522-PoC](https://github.com/kryptonproject/CVE-2024-5522-PoC)
-- [geniuszlyy/CVE-2024-5522](https://github.com/geniuszlyy/CVE-2024-5522)
+- [geniuszly/CVE-2024-5522](https://github.com/geniuszly/CVE-2024-5522)
 
 ### CVE-2024-5633 (2024-07-09)
 
@@ -1527,7 +1527,7 @@
 
 - [bigherocenter/CVE-2024-7029-EXPLOIT](https://github.com/bigherocenter/CVE-2024-7029-EXPLOIT)
 - [ebrasha/CVE-2024-7029](https://github.com/ebrasha/CVE-2024-7029)
-- [geniuszlyy/CVE-2024-7029](https://github.com/geniuszlyy/CVE-2024-7029)
+- [geniuszly/CVE-2024-7029](https://github.com/geniuszly/CVE-2024-7029)
 
 ### CVE-2024-7094 (2024-08-13)
 
@@ -2374,7 +2374,11 @@
 
 - [samogod/CVE-2024-11728](https://github.com/samogod/CVE-2024-11728)
 
-### CVE-2024-11972
+### CVE-2024-11972 (2024-12-31)
+
+<code>The Hunk Companion WordPress plugin before 1.9.0 does not correctly authorize some REST API endpoints, allowing unauthenticated requests to install and activate arbitrary Hunk Companion WordPress plugin before 1.9.0 from the WordPress.org repo, including vulnerable Hunk Companion WordPress plugin before 1.9.0 that have been closed.
+</code>
+
 - [JunTakemura/exploit-CVE-2024-11972](https://github.com/JunTakemura/exploit-CVE-2024-11972)
 
 ### CVE-2024-12025 (2024-12-18)
@@ -3630,7 +3634,7 @@
 - [Jutrm/cve-2024-24919](https://github.com/Jutrm/cve-2024-24919)
 - [LuisMateo1/Arbitrary-File-Read-CVE-2024-24919](https://github.com/LuisMateo1/Arbitrary-File-Read-CVE-2024-24919)
 - [AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-](https://github.com/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-)
-- [geniuszlyy/CVE-2024-24919](https://github.com/geniuszlyy/CVE-2024-24919)
+- [geniuszly/CVE-2024-24919](https://github.com/geniuszly/CVE-2024-24919)
 - [skyrowalker/CVE-2024-24919](https://github.com/skyrowalker/CVE-2024-24919)
 - [sar-3mar/CVE-2024-24919_POC](https://github.com/sar-3mar/CVE-2024-24919_POC)
 - [NingXin2002/Check-Point_poc](https://github.com/NingXin2002/Check-Point_poc)
@@ -3995,7 +3999,7 @@
 - [Stuub/RCity-CVE-2024-27198](https://github.com/Stuub/RCity-CVE-2024-27198)
 - [HPT-Intern-Task-Submission/CVE-2024-27198](https://github.com/HPT-Intern-Task-Submission/CVE-2024-27198)
 - [jrbH4CK/CVE-2024-27198](https://github.com/jrbH4CK/CVE-2024-27198)
-- [geniuszlyy/CVE-2024-27198](https://github.com/geniuszlyy/CVE-2024-27198)
+- [geniuszly/CVE-2024-27198](https://github.com/geniuszly/CVE-2024-27198)
 - [Cythonic1/CVE-2024-27198_POC](https://github.com/Cythonic1/CVE-2024-27198_POC)
 
 ### CVE-2024-27292 (2024-02-29)
@@ -4222,7 +4226,7 @@
 
 - [akabe1/Graver](https://github.com/akabe1/Graver)
 - [gunzf0x/Grav-CMS-RCE-Authenticated](https://github.com/gunzf0x/Grav-CMS-RCE-Authenticated)
-- [geniuszlyy/GenGravSSTIExploit](https://github.com/geniuszlyy/GenGravSSTIExploit)
+- [geniuszly/GenGravSSTIExploit](https://github.com/geniuszly/GenGravSSTIExploit)
 
 ### CVE-2024-28247 (2024-03-27)
 
@@ -6510,7 +6514,7 @@
 - [absholi7ly/CVE-2024-44000-LiteSpeed-Cache](https://github.com/absholi7ly/CVE-2024-44000-LiteSpeed-Cache)
 - [gbrsh/CVE-2024-44000](https://github.com/gbrsh/CVE-2024-44000)
 - [ifqygazhar/CVE-2024-44000-LiteSpeed-Cache](https://github.com/ifqygazhar/CVE-2024-44000-LiteSpeed-Cache)
-- [geniuszlyy/CVE-2024-44000](https://github.com/geniuszlyy/CVE-2024-44000)
+- [geniuszly/CVE-2024-44000](https://github.com/geniuszly/CVE-2024-44000)
 
 ### CVE-2024-44083 (2024-08-19)
 
@@ -6844,6 +6848,13 @@
 
 - [EQSTLab/CVE-2024-46538](https://github.com/EQSTLab/CVE-2024-46538)
 - [LauLeysen/CVE-2024-46538](https://github.com/LauLeysen/CVE-2024-46538)
+
+### CVE-2024-46542 (2024-12-30)
+
+<code>Veritas / Arctera Data Insight before 7.1.1 allows Application Administrators to conduct SQL injection attacks.
+</code>
+
+- [MarioTesoro/CVE-2024-46542](https://github.com/MarioTesoro/CVE-2024-46542)
 
 ### CVE-2024-46627 (2024-09-26)
 
@@ -7315,6 +7326,7 @@
 
 - [watchtowrlabs/CVE-2024-50623](https://github.com/watchtowrlabs/CVE-2024-50623)
 - [verylazytech/CVE-2024-50623](https://github.com/verylazytech/CVE-2024-50623)
+- [iSee857/Cleo-CVE-2024-50623-PoC](https://github.com/iSee857/Cleo-CVE-2024-50623-PoC)
 
 ### CVE-2024-50657 (2024-11-22)
 
@@ -13811,7 +13823,7 @@
 <code>A use-after-free issue was addressed with improved memory management. This issue is fixed in macOS Sonoma 14.1. An app may be able to execute arbitrary code with kernel privileges.
 </code>
 
-- [geniuszlyy/GenEtherExploit](https://github.com/geniuszlyy/GenEtherExploit)
+- [geniuszly/GenEtherExploit](https://github.com/geniuszly/GenEtherExploit)
 
 ### CVE-2023-40429 (2023-09-26)
 
@@ -16992,7 +17004,7 @@
 - [superhac/CVE-2022-2414-POC](https://github.com/superhac/CVE-2022-2414-POC)
 - [amitlttwo/CVE-2022-2414-Proof-Of-Concept](https://github.com/amitlttwo/CVE-2022-2414-Proof-Of-Concept)
 - [satyasai1460/CVE-2022-2414](https://github.com/satyasai1460/CVE-2022-2414)
-- [geniuszlyy/CVE-2022-2414](https://github.com/geniuszlyy/CVE-2022-2414)
+- [geniuszly/CVE-2022-2414](https://github.com/geniuszly/CVE-2022-2414)
 
 ### CVE-2022-2466 (2022-08-31)
 
@@ -22322,7 +22334,7 @@
 </code>
 
 - [yerodin/CVE-2022-44149](https://github.com/yerodin/CVE-2022-44149)
-- [geniuszlyy/CVE-2022-44149](https://github.com/geniuszlyy/CVE-2022-44149)
+- [geniuszly/CVE-2022-44149](https://github.com/geniuszly/CVE-2022-44149)
 
 ### CVE-2022-44183 (2022-11-21)
 
@@ -22598,7 +22610,7 @@
 </code>
 
 - [yerodin/CVE-2022-45701](https://github.com/yerodin/CVE-2022-45701)
-- [geniuszlyy/CVE-2022-45701](https://github.com/geniuszlyy/CVE-2022-45701)
+- [geniuszly/CVE-2022-45701](https://github.com/geniuszly/CVE-2022-45701)
 
 ### CVE-2022-45728 (2023-01-12)
 
@@ -22658,7 +22670,7 @@
 </code>
 
 - [yerodin/CVE-2022-46080](https://github.com/yerodin/CVE-2022-46080)
-- [geniuszlyy/CVE-2022-46080](https://github.com/geniuszlyy/CVE-2022-46080)
+- [geniuszly/CVE-2022-46080](https://github.com/geniuszly/CVE-2022-46080)
 
 ### CVE-2022-46087 (2023-01-30)
 
@@ -33486,7 +33498,7 @@
 <code>goform/AdvSetLanip endpoint on Tenda AC15 AC1900 15.03.05.19 devices allows remote attackers to execute arbitrary system commands via shell metacharacters in the lanIp POST parameter.
 </code>
 
-- [geniuszlyy/CVE-2020-15916](https://github.com/geniuszlyy/CVE-2020-15916)
+- [geniuszly/CVE-2020-15916](https://github.com/geniuszly/CVE-2020-15916)
 
 ### CVE-2020-15931 (2020-10-20)
 
@@ -36729,7 +36741,7 @@
 - [b4keSn4ke/CVE-2019-9193](https://github.com/b4keSn4ke/CVE-2019-9193)
 - [chromanite/CVE-2019-9193-PostgreSQL-9.3-11.7](https://github.com/chromanite/CVE-2019-9193-PostgreSQL-9.3-11.7)
 - [paulotrindadec/CVE-2019-9193](https://github.com/paulotrindadec/CVE-2019-9193)
-- [geniuszlyy/CVE-2019-9193](https://github.com/geniuszlyy/CVE-2019-9193)
+- [geniuszly/CVE-2019-9193](https://github.com/geniuszly/CVE-2019-9193)
 - [AxthonyV/CVE-2019-9193](https://github.com/AxthonyV/CVE-2019-9193)
 - [A0be/CVE-2019-9193](https://github.com/A0be/CVE-2019-9193)
 
@@ -43527,7 +43539,7 @@
 - [denchief1/CVE-2017-7269](https://github.com/denchief1/CVE-2017-7269)
 - [Cappricio-Securities/CVE-2017-7269](https://github.com/Cappricio-Securities/CVE-2017-7269)
 - [VanishedPeople/CVE-2017-7269](https://github.com/VanishedPeople/CVE-2017-7269)
-- [geniuszlyy/CVE-2017-7269](https://github.com/geniuszlyy/CVE-2017-7269)
+- [geniuszly/CVE-2017-7269](https://github.com/geniuszly/CVE-2017-7269)
 - [AxthonyV/CVE-2017-7269](https://github.com/AxthonyV/CVE-2017-7269)
 
 ### CVE-2017-7308 (2017-03-29)
