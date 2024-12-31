@@ -13483,6 +13483,7 @@
 - [RonF98/CVE-2023-38831-POC](https://github.com/RonF98/CVE-2023-38831-POC)
 - [VictoriousKnight/CVE-2023-38831_Exploit](https://github.com/VictoriousKnight/CVE-2023-38831_Exploit)
 - [kuyrathdaro/winrar-cve-2023-38831](https://github.com/kuyrathdaro/winrar-cve-2023-38831)
+- [chaos198800/CVE-2023-38831WinRAR-dai-ma-zhi-xing-lou-dong-fu-xian-zi-yuan-wen-jian](https://github.com/chaos198800/CVE-2023-38831WinRAR-dai-ma-zhi-xing-lou-dong-fu-xian-zi-yuan-wen-jian)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -24702,6 +24703,13 @@
 ### CVE-2021-21716
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
 
+### CVE-2021-21772 (2021-03-10)
+
+<code>A use-after-free vulnerability exists in the NMR::COpcPackageReader::releaseZIP() functionality of 3MF Consortium lib3mf 2.0.0. A specially crafted 3MF file can lead to code execution. An attacker can provide a malicious file to trigger this vulnerability.
+</code>
+
+- [3dluvr/New-lib3mf.dll-for-MeshMixer](https://github.com/3dluvr/New-lib3mf.dll-for-MeshMixer)
+
 ### CVE-2021-21809 (2021-06-23)
 
 <code>A command execution vulnerability exists in the default legacy spellchecker plugin in Moodle 3.10. A specially crafted series of HTTP requests can lead to command execution. An attacker must have administrator privileges to exploit this vulnerabilities.
@@ -26863,7 +26871,6 @@
 
 - [NattiSamson/Serv-U-CVE-2021-35211](https://github.com/NattiSamson/Serv-U-CVE-2021-35211)
 - [0xhaggis/CVE-2021-35211](https://github.com/0xhaggis/CVE-2021-35211)
-- [BishopFox/CVE-2021-35211](https://github.com/BishopFox/CVE-2021-35211)
 
 ### CVE-2021-35215 (2021-09-01)
 
