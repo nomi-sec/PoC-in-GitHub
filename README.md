@@ -1946,6 +1946,7 @@
 
 - [RandomRobbieBF/CVE-2024-9593](https://github.com/RandomRobbieBF/CVE-2024-9593)
 - [0x4f5da2-venom/CVE-2024-9593-EXP](https://github.com/0x4f5da2-venom/CVE-2024-9593-EXP)
+- [Nxploited/CVE-2024-9593-Exploit](https://github.com/Nxploited/CVE-2024-9593-Exploit)
 
 ### CVE-2024-9680 (2024-10-09)
 
@@ -6317,6 +6318,7 @@
 - [watchdog1337/CVE-2024-42327_Zabbix_SQLI](https://github.com/watchdog1337/CVE-2024-42327_Zabbix_SQLI)
 - [itform-fr/Zabbix---CVE-2024-42327](https://github.com/itform-fr/Zabbix---CVE-2024-42327)
 - [igorbf495/CVE-2024-42327](https://github.com/igorbf495/CVE-2024-42327)
+- [BridgerAlderson/Zabbix-CVE-2024-42327](https://github.com/BridgerAlderson/Zabbix-CVE-2024-42327)
 
 ### CVE-2024-42346 (2024-09-20)
 
@@ -7115,6 +7117,7 @@
 
 - [tnkr/poc_monitor](https://github.com/tnkr/poc_monitor)
 - [BOl1o/CVE-2024-49112-PoC](https://github.com/BOl1o/CVE-2024-49112-PoC)
+- [SafeBreach-Labs/CVE-2024-49112](https://github.com/SafeBreach-Labs/CVE-2024-49112)
 
 ### CVE-2024-49117 (2024-12-10)
 
@@ -25811,6 +25814,9 @@
 
 - [synacktiv/CVE-2021-27246_Pwn2Own2020](https://github.com/synacktiv/CVE-2021-27246_Pwn2Own2020)
 
+### CVE-2021-27285
+- [fjh1997/CVE-2021-27285](https://github.com/fjh1997/CVE-2021-27285)
+
 ### CVE-2021-27328 (2021-02-19)
 
 <code>Yeastar NeoGate TG400 91.3.0.3 devices are affected by Directory Traversal. An authenticated user can decrypt firmware and can read sensitive information, such as a password or decryption key.
@@ -29233,7 +29239,6 @@
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
-- [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
@@ -47690,6 +47695,7 @@
 - [cloudpassage/mangy-beast](https://github.com/cloudpassage/mangy-beast)
 - [mpgn/poodle-PoC](https://github.com/mpgn/poodle-PoC)
 - [uthrasri/openssl_g2.5_CVE-2014-3566](https://github.com/uthrasri/openssl_g2.5_CVE-2014-3566)
+- [GoRuGoo/poodle-attack-sandbox](https://github.com/GoRuGoo/poodle-attack-sandbox)
 
 ### CVE-2014-3570 (2015-01-09)
 
