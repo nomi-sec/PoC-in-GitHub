@@ -9748,6 +9748,13 @@
 
 - [Trinadh465/platform_frameworks_base_CVE-2023-21288](https://github.com/Trinadh465/platform_frameworks_base_CVE-2023-21288)
 
+### CVE-2023-21537 (2023-01-10)
+
+<code>Microsoft Message Queuing (MSMQ) Elevation of Privilege Vulnerability
+</code>
+
+- [stevenjoezhang/CVE-2023-21537](https://github.com/stevenjoezhang/CVE-2023-21537)
+
 ### CVE-2023-21554 (2023-04-11)
 
 <code>Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
