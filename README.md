@@ -1556,6 +1556,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-7135](https://github.com/RandomRobbieBF/CVE-2024-7135)
+- [Nxploited/CVE-2024-7135](https://github.com/Nxploited/CVE-2024-7135)
 
 ### CVE-2024-7313 (2024-08-26)
 
@@ -2729,11 +2730,7 @@
 
 - [ltranquility/CVE-2024-21644-Poc](https://github.com/ltranquility/CVE-2024-21644-Poc)
 
-### CVE-2024-21683 (2024-05-21)
-
-<code>This High severity RCE (Remote Code Execution) vulnerability was introduced in version 5.2 of Confluence Data Center and Server.\n\nThis RCE (Remote Code Execution) vulnerability, with a CVSS Score of 7.2, allows an authenticated attacker to execute arbitrary code which has high impact to confidentiality, high impact to integrity, high impact to availability, and requires no user interaction. \n\nAtlassian recommends that Confluence Data Center and Server customers upgrade to latest version. If you are unable to do so, upgrade your instance to one of the specified supported fixed versions. See the release notes https://confluence.atlassian.com/doc/confluence-release-notes-327.html\n\nYou can download the latest version of Confluence Data Center and Server from the download center https://www.atlassian.com/software/confluence/download-archives.\n\nThis vulnerability was found internally.
-</code>
-
+### CVE-2024-21683
 - [r00t7oo2jm/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server](https://github.com/r00t7oo2jm/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server)
 - [W01fh4cker/CVE-2024-21683-RCE](https://github.com/W01fh4cker/CVE-2024-21683-RCE)
 - [absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server](https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server)
