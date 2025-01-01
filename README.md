@@ -7515,6 +7515,9 @@
 ### CVE-2024-51435
 - [bevennyamande/CVE-2024-51435](https://github.com/bevennyamande/CVE-2024-51435)
 
+### CVE-2024-51442
+- [mselbrede/CVE-2024-51442](https://github.com/mselbrede/CVE-2024-51442)
+
 ### CVE-2024-51567 (2024-10-29)
 
 <code>upgrademysqlstatus in databases/views.py in CyberPanel (aka Cyber Panel) before 5b08cd6 allows remote attackers to bypass authentication and execute arbitrary commands via /dataBases/upgrademysqlstatus by bypassing secMiddleware (which is only for a POST request) and using shell metacharacters in the statusfile property, as exploited in the wild in October 2024 by PSAUX. Versions through 2.3.6 and (unpatched) 2.3.7 are affected.
