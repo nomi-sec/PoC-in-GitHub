@@ -2076,6 +2076,13 @@
 
 - [K1nakoo/CVE-2024-10355](https://github.com/K1nakoo/CVE-2024-10355)
 
+### CVE-2024-10400 (2024-11-21)
+
+<code>The Tutor LMS plugin for WordPress is vulnerable to SQL Injection via the ‘rating_filter’ parameter in all versions up to, and including, 2.7.6 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [k0ns0l/CVE-2024-10400](https://github.com/k0ns0l/CVE-2024-10400)
+
 ### CVE-2024-10410 (2024-10-27)
 
 <code>In SourceCodester Online Hotel Reservation System 1.0 wurde eine kritische Schwachstelle entdeckt. Dabei geht es um die Funktion upload der Datei /admin/mod_room/controller.php?action=add. Dank Manipulation des Arguments image mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -3323,6 +3330,7 @@
 - [ShieldAuth-PHP/PBL05-CVE-Analsys](https://github.com/ShieldAuth-PHP/PBL05-CVE-Analsys)
 - [verylazytech/CVE-2024-23897](https://github.com/verylazytech/CVE-2024-23897)
 - [D1se0/CVE-2024-23897-Vulnerabilidad-Jenkins](https://github.com/D1se0/CVE-2024-23897-Vulnerabilidad-Jenkins)
+- [Marouane133/jenkins-lfi](https://github.com/Marouane133/jenkins-lfi)
 
 ### CVE-2024-23995 (2024-04-29)
 
@@ -7120,6 +7128,7 @@
 - [tnkr/poc_monitor](https://github.com/tnkr/poc_monitor)
 - [BOl1o/CVE-2024-49112-PoC](https://github.com/BOl1o/CVE-2024-49112-PoC)
 - [SafeBreach-Labs/CVE-2024-49112](https://github.com/SafeBreach-Labs/CVE-2024-49112)
+- [BOl1o/CVE-2024-49112-RCE-PoC](https://github.com/BOl1o/CVE-2024-49112-RCE-PoC)
 
 ### CVE-2024-49117 (2024-12-10)
 
