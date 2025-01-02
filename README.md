@@ -1954,6 +1954,7 @@
 </code>
 
 - [tdonaworth/Firefox-CVE-2024-9680](https://github.com/tdonaworth/Firefox-CVE-2024-9680)
+- [PraiseImafidon/Version_Vulnerability_Scanner](https://github.com/PraiseImafidon/Version_Vulnerability_Scanner)
 
 ### CVE-2024-9707 (2024-10-11)
 
@@ -2586,7 +2587,7 @@
 <code>Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
 </code>
 
-- [k4it0k1d/CVE-2024-21182](https://github.com/k4it0k1d/CVE-2024-21182)
+- [kursadalsan/CVE-2024-21182](https://github.com/kursadalsan/CVE-2024-21182)
 
 ### CVE-2024-21305 (2024-01-09)
 
@@ -5845,6 +5846,7 @@
 - [WULINPIN/CVE-2024-38816-PoC](https://github.com/WULINPIN/CVE-2024-38816-PoC)
 - [Galaxy-system/cve-2024-38816](https://github.com/Galaxy-system/cve-2024-38816)
 - [Anthony1078/App-vulnerable](https://github.com/Anthony1078/App-vulnerable)
+- [wdragondragon/spring-framework](https://github.com/wdragondragon/spring-framework)
 
 ### CVE-2024-38819 (2024-12-19)
 
@@ -7126,9 +7128,7 @@
 </code>
 
 - [tnkr/poc_monitor](https://github.com/tnkr/poc_monitor)
-- [BOl1o/CVE-2024-49112-PoC](https://github.com/BOl1o/CVE-2024-49112-PoC)
 - [SafeBreach-Labs/CVE-2024-49112](https://github.com/SafeBreach-Labs/CVE-2024-49112)
-- [BOl1o/CVE-2024-49112-RCE-PoC](https://github.com/BOl1o/CVE-2024-49112-RCE-PoC)
 
 ### CVE-2024-49117 (2024-12-10)
 
@@ -7480,20 +7480,6 @@
 </code>
 
 - [JAckLosingHeart/CVE-2024-51132-POC](https://github.com/JAckLosingHeart/CVE-2024-51132-POC)
-
-### CVE-2024-51135 (2024-11-11)
-
-<code>An XML External Entity (XXE) vulnerability in the component DocumentBuilderFactory of powertac-server v1.9.0 allows attackers to access sensitive information or execute arbitrary code via supplying a crafted request containing malicious XML entities.
-</code>
-
-- [JAckLosingHeart/CVE-2024-51135](https://github.com/JAckLosingHeart/CVE-2024-51135)
-
-### CVE-2024-51136 (2024-11-04)
-
-<code>An XML External Entity (XXE) vulnerability in Dmoz2CSV in openimaj v1.3.10 allows attackers to access sensitive information or execute arbitrary code via supplying a crafted XML file.
-</code>
-
-- [JAckLosingHeart/CVE-2024-51136-POC](https://github.com/JAckLosingHeart/CVE-2024-51136-POC)
 
 ### CVE-2024-51179 (2024-11-12)
 
@@ -10391,7 +10377,7 @@
 <code>Squidex before 7.4.0 was discovered to contain a squid.svg cross-site scripting (XSS) vulnerability.
 </code>
 
-- [NeCr00/CVE-2023-24278_XSS-in-Squidex](https://github.com/NeCr00/CVE-2023-24278_XSS-in-Squidex)
+- [NeCr00/CVE-2023-24278](https://github.com/NeCr00/CVE-2023-24278)
 
 ### CVE-2023-24317 (2023-02-23)
 
@@ -42987,6 +42973,9 @@
 
 - [emcalv/tivoli-poc](https://github.com/emcalv/tivoli-poc)
 - [bcdannyboy/cve-2017-1635-PoC](https://github.com/bcdannyboy/cve-2017-1635-PoC)
+
+### CVE-2017-2024
+- [FarizDevloper/CVE-2017-2024](https://github.com/FarizDevloper/CVE-2017-2024)
 
 ### CVE-2017-2368 (2017-02-20)
 
