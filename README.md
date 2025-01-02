@@ -5582,7 +5582,7 @@
 <code>Insecure Access Control in Safe Exam Browser (SEB) = 3.5.0 on Windows. The vulnerability allows an attacker to share clipboard data between the SEB kiosk mode and the underlying system, compromising exam integrity. By exploiting this flaw, an attacker can bypass exam controls and gain an unfair advantage during exams.
 </code>
 
-- [Nyxr0ot/CVE-2024-37742](https://github.com/Nyxr0ot/CVE-2024-37742)
+- [Cha0sK3rn3l/CVE-2024-37742](https://github.com/Cha0sK3rn3l/CVE-2024-37742)
 
 ### CVE-2024-37759 (2024-06-24)
 
@@ -5875,6 +5875,7 @@
 - [emanueldosreis/CVE-2024-38856](https://github.com/emanueldosreis/CVE-2024-38856)
 - [BBD-YZZ/CVE-2024-38856-RCE](https://github.com/BBD-YZZ/CVE-2024-38856-RCE)
 - [XiaomingX/cve-2024-38856-poc](https://github.com/XiaomingX/cve-2024-38856-poc)
+- [FakesiteSecurity/CVE-2024-38856_Scen](https://github.com/FakesiteSecurity/CVE-2024-38856_Scen)
 
 ### CVE-2024-38998 (2024-07-01)
 
@@ -7128,7 +7129,14 @@
 </code>
 
 - [tnkr/poc_monitor](https://github.com/tnkr/poc_monitor)
-- [SafeBreach-Labs/CVE-2024-49112](https://github.com/SafeBreach-Labs/CVE-2024-49112)
+- [CCIEVoice2009/CVE-2024-49112](https://github.com/CCIEVoice2009/CVE-2024-49112)
+
+### CVE-2024-49113 (2024-12-10)
+
+<code>Windows Lightweight Directory Access Protocol (LDAP) Denial of Service Vulnerability
+</code>
+
+- [SafeBreach-Labs/CVE-2024-49113](https://github.com/SafeBreach-Labs/CVE-2024-49113)
 
 ### CVE-2024-49117 (2024-12-10)
 
@@ -14019,7 +14027,7 @@
 <code>Multiple stored cross-site scripting (XSS) vulnerabilities in /bbdms/sign-up.php of Blood Bank &amp; Donor Management v2.2 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Full Name, Message, or Address parameters.
 </code>
 
-- [soundarkutty/Stored-xss](https://github.com/soundarkutty/Stored-xss)
+- [soundarhacks/Stored-xss](https://github.com/soundarhacks/Stored-xss)
 
 ### CVE-2023-41592 (2023-09-14)
 
@@ -14655,7 +14663,7 @@
 <code>File Upload vulnerability in Simple and Nice Shopping Cart Script v.1.0 allows a remote attacker to execute arbitrary code via the upload function in the edit profile component.
 </code>
 
-- [soundarkutty/CVE-2023-44061](https://github.com/soundarkutty/CVE-2023-44061)
+- [soundarhacks/CVE-2023-44061](https://github.com/soundarhacks/CVE-2023-44061)
 
 ### CVE-2023-44451 (2024-05-03)
 
@@ -14883,7 +14891,7 @@
 <code>An issue in Jorani Leave Management System 1.0.3 allows a remote attacker to execute arbitrary HTML code via a crafted script to the comment field of the List of Leave requests page.
 </code>
 
-- [soundarkutty/CVE-2023-45540](https://github.com/soundarkutty/CVE-2023-45540)
+- [soundarhacks/CVE-2023-45540](https://github.com/soundarhacks/CVE-2023-45540)
 
 ### CVE-2023-45542 (2023-10-16)
 
@@ -14927,7 +14935,11 @@
 
 - [200101WhoAmI/CVE-2023-45827](https://github.com/200101WhoAmI/CVE-2023-45827)
 
-### CVE-2023-45828
+### CVE-2023-45828 (2025-01-02)
+
+<code>Missing Authorization vulnerability in RumbleTalk Ltd RumbleTalk Live Group Chat allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects RumbleTalk Live Group Chat: from n/a through 6.2.5.
+</code>
+
 - [RandomRobbieBF/CVE-2023-45828](https://github.com/RandomRobbieBF/CVE-2023-45828)
 
 ### CVE-2023-45857 (2023-11-08)
@@ -15324,7 +15336,11 @@
 
 - [Cyber-Wo0dy/CVE-2023-47129](https://github.com/Cyber-Wo0dy/CVE-2023-47129)
 
-### CVE-2023-47179
+### CVE-2023-47179 (2025-01-02)
+
+<code>Missing Authorization vulnerability in ByConsole WooODT Lite allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WooODT Lite: from n/a through 2.4.6.
+</code>
+
 - [RandomRobbieBF/CVE-2023-47179](https://github.com/RandomRobbieBF/CVE-2023-47179)
 
 ### CVE-2023-47218 (2024-02-13)
