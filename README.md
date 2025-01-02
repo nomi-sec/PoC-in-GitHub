@@ -6318,7 +6318,6 @@
 - [watchdog1337/CVE-2024-42327_Zabbix_SQLI](https://github.com/watchdog1337/CVE-2024-42327_Zabbix_SQLI)
 - [itform-fr/Zabbix---CVE-2024-42327](https://github.com/itform-fr/Zabbix---CVE-2024-42327)
 - [igorbf495/CVE-2024-42327](https://github.com/igorbf495/CVE-2024-42327)
-- [BridgerAlderson/Zabbix-CVE-2024-42327](https://github.com/BridgerAlderson/Zabbix-CVE-2024-42327)
 
 ### CVE-2024-42346 (2024-09-20)
 
@@ -6804,6 +6803,9 @@
 </code>
 
 - [ayato-shitomi/CVE-2024-46278-teedy_1.11_account-takeover](https://github.com/ayato-shitomi/CVE-2024-46278-teedy_1.11_account-takeover)
+
+### CVE-2024-46310
+- [PRX5Y/CVE-2024-46310](https://github.com/PRX5Y/CVE-2024-46310)
 
 ### CVE-2024-46377 (2024-09-18)
 
@@ -7694,6 +7696,9 @@
 </code>
 
 - [AbdullahAlmutawa/CVE-2024-53476](https://github.com/AbdullahAlmutawa/CVE-2024-53476)
+
+### CVE-2024-53522
+- [Safecloudth/CVE-2024-53522](https://github.com/Safecloudth/CVE-2024-53522)
 
 ### CVE-2024-53617 (2024-12-02)
 
@@ -15431,6 +15436,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2023-47668](https://github.com/RandomRobbieBF/CVE-2023-47668)
+- [Nxploited/CVE-2023-47668](https://github.com/Nxploited/CVE-2023-47668)
 
 ### CVE-2023-47840 (2023-12-29)
 
@@ -18484,7 +18490,6 @@
 - [TheGetch/CVE-2022-23378](https://github.com/TheGetch/CVE-2022-23378)
 
 ### CVE-2022-23529
-- [despossivel/CVE-2022-23529-lab](https://github.com/despossivel/CVE-2022-23529-lab)
 - [hackintoanetwork/CVE-2022-23529-PoC](https://github.com/hackintoanetwork/CVE-2022-23529-PoC)
 
 ### CVE-2022-23614 (2022-02-04)
