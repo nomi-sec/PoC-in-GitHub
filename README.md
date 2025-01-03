@@ -5582,7 +5582,7 @@
 <code>Insecure Access Control in Safe Exam Browser (SEB) = 3.5.0 on Windows. The vulnerability allows an attacker to share clipboard data between the SEB kiosk mode and the underlying system, compromising exam integrity. By exploiting this flaw, an attacker can bypass exam controls and gain an unfair advantage during exams.
 </code>
 
-- [Cha0sK3rn3l/CVE-2024-37742](https://github.com/Cha0sK3rn3l/CVE-2024-37742)
+- [cha0sk3rn3l/CVE-2024-37742](https://github.com/cha0sk3rn3l/CVE-2024-37742)
 
 ### CVE-2024-37759 (2024-06-24)
 
@@ -6329,6 +6329,7 @@
 - [watchdog1337/CVE-2024-42327_Zabbix_SQLI](https://github.com/watchdog1337/CVE-2024-42327_Zabbix_SQLI)
 - [itform-fr/Zabbix---CVE-2024-42327](https://github.com/itform-fr/Zabbix---CVE-2024-42327)
 - [igorbf495/CVE-2024-42327](https://github.com/igorbf495/CVE-2024-42327)
+- [BridgerAlderson/Zabbix-CVE-2024-42327-SQL-Injection-RCE](https://github.com/BridgerAlderson/Zabbix-CVE-2024-42327-SQL-Injection-RCE)
 
 ### CVE-2024-42346 (2024-09-20)
 
@@ -6974,7 +6975,11 @@
 
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
 
-### CVE-2024-48197
+### CVE-2024-48197 (2025-01-02)
+
+<code>Cross Site Scripting vulnerability in Audiocodes MP-202b v.4.4.3 allows a remote attacker to escalate privileges via the login page of the web interface.
+</code>
+
 - [GCatt-AS/CVE-2024-48197](https://github.com/GCatt-AS/CVE-2024-48197)
 
 ### CVE-2024-48208 (2024-10-24)
@@ -20123,7 +20128,7 @@
 
 ### CVE-2022-30190 (2022-06-01)
 
-<code>A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run arbitrary code with the privileges of the calling application. The attacker can then install programs, view, change, or delete data, or create new accounts in the context allowed by the user’s rights.\nPlease see the MSRC Blog Entry for important information about steps you can take to protect your system from this vulnerability.\n
+<code>A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run arbitrary code with the privileges of the calling application. The attacker can then install programs, view, change, or delete data, or create new accounts in the context allowed by the user’s rights.\nPlease see the MSRC Blog Entry for important information about steps you can take to protect your system from this vulnerability.
 </code>
 
 - [JMousqueton/PoC-CVE-2022-30190](https://github.com/JMousqueton/PoC-CVE-2022-30190)
@@ -48464,7 +48469,7 @@
 
 ### CVE-2013-3900 (2013-12-11)
 
-<code>Why is Microsoft republishing a CVE from 2013?\nWe are republishing CVE-2013-3900 in the Security Update Guide to update the Security Updates table and to inform customers that the EnableCertPaddingCheck is available in all currently supported versions of Windows 10 and Windows 11. While the format is different from the original CVE published in 2013, the information herein remains unchanged from the original text published on December 10, 2013.\nMicrosoft does not plan to enforce the stricter verification behavior as a default functionality on supported releases of Microsoft Windows. This behavior remains available as an opt-in feature via reg key setting, and is available on supported editions of Windows released since December 10, 2013. This includes all currently supported versions of Windows 10 and Windows 11. The supporting code for this reg key was incorporated at the time of release for Windows 10 and Windows 11, so no security update is required; however, the reg key must be set. See the Security Updates table for the list of affected software.\nVulnerability Description\nA remote code execution vulnerability exists in the way that the WinVerifyTrust function handles Windows Authenticode signature verification for portable executable (PE) files. An anonymous attacker could exploit the vulnerability by modifying an existing signed executable file to leverage unverified portions of the file in such a way as to add malicious code to the file without invalidating the signature. An attacker who successfully exploited this vulnerability could take complete control of an affected system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.\nIf a user is logged on with administrative user rights, an attacker who successfully exploited this vulnerability could take complete control of an affected system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than users who operate with administrative user rights.\nExploitation of this vulnerability requires that a user or application run or install a specially crafted, signed PE file. An attacker could modify an existing signed file to include malicious code without invalidating the signature. This code would... See more at https://msrc.microsoft.com/update-guide/vulnerability/CVE-2013-3900
+<code>Why is Microsoft republishing a CVE from 2013?\nWe are republishing CVE-2013-3900 in the Security Update Guide to update the Security Updates table and to inform customers that the EnableCertPaddingCheck is available in all currently supported versions of Windows 10 and Windows 11. While the format is different from the original CVE published in 2013, except for clarifications about how to configure the EnableCertPaddingCheck registry value, the information herein remains unchanged from the original text published on December 10, 2013,\nMicrosoft does not plan to enforce the stricter verification behavior as a default functionality on supported releases of Microsoft Windows. This behavior remains available as an opt-in feature via reg key setting, and is available on supported editions of Windows released since December 10, 2013. This includes all currently supported versions of Windows 10 and Windows 11. The supporting code for this reg key was incorporated at the time of release for Windows 10 and Windows 11, so no security update is required; however, the reg key must be set. See the Security Updates table for the list of affected software.\nVulnerability Description\nA remote code execution vulnerability exists in the way that the WinVerifyTrust function handles Windows Authenticode signature verification for portable executable (PE) files. An anonymous attacker could exploit the vulnerability by modifying an existing signed executable file to leverage unverified portions of the file in such a way as to add malicious code to the file without invalidating the signature. An attacker who successfully exploited this vulnerability could take complete control of an affected system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.\nIf a user is logged on with administrative user rights, an attacker who successfully exploited this vulnerability could take complete control of an affected system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than users who operate with administrative user rights.\nExploitation of this vulnerability requires that a user or application run or install a specially crafted, signed PE file. An attacker could modify an... See more at https://msrc.microsoft.com/update-guide/vulnerability/CVE-2013-3900
 </code>
 
 - [snoopopsec/vulnerability-CVE-2013-3900](https://github.com/snoopopsec/vulnerability-CVE-2013-3900)
