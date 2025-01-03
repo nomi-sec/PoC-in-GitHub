@@ -2444,6 +2444,9 @@
 
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
+### CVE-2024-12970
+- [osmancanvural/CVE-2024-12970](https://github.com/osmancanvural/CVE-2024-12970)
+
 ### CVE-2024-20017 (2024-03-04)
 
 <code>In wlan service, there is a possible out of bounds write due to improper input validation. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation Patch ID: WCNCR00350938; Issue ID: MSV-1132.
@@ -7142,6 +7145,7 @@
 </code>
 
 - [SafeBreach-Labs/CVE-2024-49113](https://github.com/SafeBreach-Labs/CVE-2024-49113)
+- [barcrange/CVE-2024-49113-Checker](https://github.com/barcrange/CVE-2024-49113-Checker)
 
 ### CVE-2024-49117 (2024-12-10)
 
@@ -7514,6 +7518,7 @@
 </code>
 
 - [refr4g/CVE-2024-51378](https://github.com/refr4g/CVE-2024-51378)
+- [i0x29A/CVE-2024-51378](https://github.com/i0x29A/CVE-2024-51378)
 
 ### CVE-2024-51430 (2024-10-31)
 
@@ -16191,6 +16196,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2023-51409](https://github.com/RandomRobbieBF/CVE-2023-51409)
+- [Nxploited/CVE-2023-51409](https://github.com/Nxploited/CVE-2023-51409)
 
 ### CVE-2023-51448 (2023-12-22)
 
@@ -29323,6 +29329,7 @@
 - [Carlos-Mesquita/TPASLog4ShellPoC](https://github.com/Carlos-Mesquita/TPASLog4ShellPoC)
 - [AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-](https://github.com/AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-)
 - [Super-Binary/cve-2021-44228](https://github.com/Super-Binary/cve-2021-44228)
+- [JanICT/poc-ldap-cve-2021-44228](https://github.com/JanICT/poc-ldap-cve-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -29559,7 +29566,6 @@
 </code>
 
 - [plsanu/Bludit-3.13.1-TAGS-Field-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Bludit-3.13.1-TAGS-Field-Stored-Cross-Site-Scripting-XSS)
-- [plsanu/CVE-2021-45744](https://github.com/plsanu/CVE-2021-45744)
 
 ### CVE-2021-45745 (2022-01-06)
 
@@ -37312,7 +37318,6 @@
 <code>The Yuzo Related Posts plugin 5.12.94 for WordPress has XSS because it mistakenly expects that is_admin() verifies that the request comes from an admin user (it actually only verifies that the request is for an admin page). An unauthenticated attacker can inject a payload into the plugin settings, such as the yuzo_related_post_css_and_style setting.
 </code>
 
-- [rix4uni/CVE-2019-11869](https://github.com/rix4uni/CVE-2019-11869)
 - [gitrecon1455/CVE-2019-11869](https://github.com/gitrecon1455/CVE-2019-11869)
 
 ### CVE-2019-11881 (2019-06-10)
@@ -43753,6 +43758,13 @@
 - [cved-sources/cve-2017-8046](https://github.com/cved-sources/cve-2017-8046)
 - [jsotiro/VulnerableSpringDataRest](https://github.com/jsotiro/VulnerableSpringDataRest)
 - [guanjivip/CVE-2017-8046](https://github.com/guanjivip/CVE-2017-8046)
+
+### CVE-2017-8056 (2017-04-22)
+
+<code>WatchGuard Fireware v11.12.1 and earlier mishandles requests referring to an XML External Entity (XXE), in the XML-RPC agent. This causes the Firebox wgagent process to crash. This process crash ends all authenticated sessions to the Firebox, including management connections, and prevents new authenticated sessions until the process has recovered. The Firebox may also experience an overall degradation in performance while the wgagent process recovers. An attacker could continuously send XML-RPC requests that contain references to external entities to perform a limited Denial of Service (DoS) attack against an affected Firebox.
+</code>
+
+- [itzexploit/CVE-2017-8056](https://github.com/itzexploit/CVE-2017-8056)
 
 ### CVE-2017-8225 (2017-04-25)
 
