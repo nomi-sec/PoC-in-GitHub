@@ -1428,7 +1428,6 @@
 - [filipi86/CVE-2024-6387-Vulnerability-Checker](https://github.com/filipi86/CVE-2024-6387-Vulnerability-Checker)
 - [kubota/CVE-2024-6387-Vulnerability-Checker](https://github.com/kubota/CVE-2024-6387-Vulnerability-Checker)
 - [DimaMend/cve-2024-6387-poc](https://github.com/DimaMend/cve-2024-6387-poc)
-- [ThemeHackers/CVE-2024-6387](https://github.com/ThemeHackers/CVE-2024-6387)
 - [Sibijo/mitigate_ssh](https://github.com/Sibijo/mitigate_ssh)
 - [Passyed/regreSSHion-Fix](https://github.com/Passyed/regreSSHion-Fix)
 - [dream434/CVE-2024-6387](https://github.com/dream434/CVE-2024-6387)
@@ -1442,6 +1441,7 @@
 - [HadesNull123/CVE-2024-6387_Check](https://github.com/HadesNull123/CVE-2024-6387_Check)
 - [identity-threat-labs/CVE-2024-6387-Vulnerability-Checker](https://github.com/identity-threat-labs/CVE-2024-6387-Vulnerability-Checker)
 - [identity-threat-labs/Article-RegreSSHion-CVE-2024-6387](https://github.com/identity-threat-labs/Article-RegreSSHion-CVE-2024-6387)
+- [anhvutuan/CVE-2024-6387-poc-1](https://github.com/anhvutuan/CVE-2024-6387-poc-1)
 - [YassDEV221608/CVE-2024-6387](https://github.com/YassDEV221608/CVE-2024-6387)
 - [zql-gif/CVE-2024-6387](https://github.com/zql-gif/CVE-2024-6387)
 - [awusan125/test_for6387](https://github.com/awusan125/test_for6387)
@@ -7728,6 +7728,7 @@
 - [dustblessnotdust/CVE-2024-53677-S2-067-thread](https://github.com/dustblessnotdust/CVE-2024-53677-S2-067-thread)
 - [0xdeviner/CVE-2024-53677](https://github.com/0xdeviner/CVE-2024-53677)
 - [Q0LT/VM-CVE-2024-53677](https://github.com/Q0LT/VM-CVE-2024-53677)
+- [EQSTLab/CVE-2024-53677](https://github.com/EQSTLab/CVE-2024-53677)
 
 ### CVE-2024-54152 (2024-12-10)
 
@@ -14032,7 +14033,7 @@
 <code>Multiple stored cross-site scripting (XSS) vulnerabilities in /bbdms/sign-up.php of Blood Bank &amp; Donor Management v2.2 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Full Name, Message, or Address parameters.
 </code>
 
-- [soundarhacks/Stored-xss](https://github.com/soundarhacks/Stored-xss)
+- [SoundarXploit/Stored-xss](https://github.com/SoundarXploit/Stored-xss)
 
 ### CVE-2023-41592 (2023-09-14)
 
@@ -14668,7 +14669,7 @@
 <code>File Upload vulnerability in Simple and Nice Shopping Cart Script v.1.0 allows a remote attacker to execute arbitrary code via the upload function in the edit profile component.
 </code>
 
-- [soundarhacks/CVE-2023-44061](https://github.com/soundarhacks/CVE-2023-44061)
+- [SoundarXploit/CVE-2023-44061](https://github.com/SoundarXploit/CVE-2023-44061)
 
 ### CVE-2023-44451 (2024-05-03)
 
@@ -14896,7 +14897,7 @@
 <code>An issue in Jorani Leave Management System 1.0.3 allows a remote attacker to execute arbitrary HTML code via a crafted script to the comment field of the List of Leave requests page.
 </code>
 
-- [soundarhacks/CVE-2023-45540](https://github.com/soundarhacks/CVE-2023-45540)
+- [SoundarXploit/CVE-2023-45540](https://github.com/SoundarXploit/CVE-2023-45540)
 
 ### CVE-2023-45542 (2023-10-16)
 
@@ -17717,7 +17718,6 @@
 <code>Vulnerability in the Oracle Application Development Framework (ADF) product of Oracle Fusion Middleware (component: ADF Faces).  Supported versions that are affected are 12.2.1.3.0 and  12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Application Development Framework (ADF).  Successful attacks of this vulnerability can result in takeover of Oracle Application Development Framework (ADF). Note: Oracle Application Development Framework (ADF) is downloaded via Oracle JDeveloper Product. Please refer to Fusion Middleware Patch Advisor for more details. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [M0chae1/CVE-2022-21445](https://github.com/M0chae1/CVE-2022-21445)
 - [hienkiet/CVE-2022-21445-for-12.2.1.3.0-Weblogic](https://github.com/hienkiet/CVE-2022-21445-for-12.2.1.3.0-Weblogic)
 
 ### CVE-2022-21449 (2022-04-19)
@@ -49872,7 +49872,7 @@
 
 - [bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387)
 - [sardine-web/CVE-2024-6387_Check](https://github.com/sardine-web/CVE-2024-6387_Check)
-- [ThemeHackers/CVE-2024-6387](https://github.com/ThemeHackers/CVE-2024-6387)
+- [anhvutuan/CVE-2024-6387-poc-1](https://github.com/anhvutuan/CVE-2024-6387-poc-1)
 
 ### CVE-2006-6184 (2006-12-01)
 
