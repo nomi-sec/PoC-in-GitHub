@@ -1445,6 +1445,7 @@
 - [YassDEV221608/CVE-2024-6387](https://github.com/YassDEV221608/CVE-2024-6387)
 - [zql-gif/CVE-2024-6387](https://github.com/zql-gif/CVE-2024-6387)
 - [awusan125/test_for6387](https://github.com/awusan125/test_for6387)
+- [YassDEV221608/CVE-2024-6387_PoC](https://github.com/YassDEV221608/CVE-2024-6387_PoC)
 
 ### CVE-2024-6473 (2024-09-03)
 
@@ -7339,6 +7340,7 @@
 
 - [RandomRobbieBF/CVE-2024-50498](https://github.com/RandomRobbieBF/CVE-2024-50498)
 - [p0et08/CVE-2024-50498](https://github.com/p0et08/CVE-2024-50498)
+- [Nxploited/CVE-2024-50498](https://github.com/Nxploited/CVE-2024-50498)
 
 ### CVE-2024-50509 (2024-10-30)
 
@@ -26576,7 +26578,6 @@
 <code>octobercms in a CMS platform based on the Laravel PHP Framework. In affected versions of the october/system package an attacker can request an account password reset and then gain access to the account using a specially crafted request. The issue has been patched in Build 472 and v1.1.5.
 </code>
 
-- [Immersive-Labs-Sec/CVE-2021-32648](https://github.com/Immersive-Labs-Sec/CVE-2021-32648)
 - [daftspunk/CVE-2021-32648](https://github.com/daftspunk/CVE-2021-32648)
 
 ### CVE-2021-32682 (2021-06-14)
@@ -28193,6 +28194,7 @@
 - [0xc4t/CVE-2021-41773](https://github.com/0xc4t/CVE-2021-41773)
 - [jkska23/Additive-Vulnerability-Analysis-CVE-2021-41773](https://github.com/jkska23/Additive-Vulnerability-Analysis-CVE-2021-41773)
 - [redspy-sec/CVE-2021-41773](https://github.com/redspy-sec/CVE-2021-41773)
+- [FakesiteSecurity/CVE-2021-41773](https://github.com/FakesiteSecurity/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
