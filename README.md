@@ -2294,13 +2294,6 @@
 
 - [mhaskar/CVE-2024-11320](https://github.com/mhaskar/CVE-2024-11320)
 
-### CVE-2024-11349 (2024-12-21)
-
-<code>The AdForest theme for WordPress is vulnerable to authentication bypass in all versions up to, and including, 5.1.6. This is due to the plugin not properly verifying a user's identity prior to authenticating them through the sb_login_user_with_otp_fun() function. This makes it possible for unauthenticated attackers to log in as arbitrary users, including administrators.
-</code>
-
-- [linunyang/CVE-2024-11349](https://github.com/linunyang/CVE-2024-11349)
-
 ### CVE-2024-11381 (2024-11-22)
 
 <code>The Control horas plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'ch_registro' shortcode in all versions up to, and including, 1.0.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
@@ -2454,6 +2447,13 @@
 
 ### CVE-2024-12970
 - [osmancanvural/CVE-2024-12970](https://github.com/osmancanvural/CVE-2024-12970)
+
+### CVE-2024-12986 (2024-12-27)
+
+<code>Eine Schwachstelle wurde in DrayTek Vigor2960 and Vigor300B 1.5.1.3/1.5.1.4 entdeckt. Sie wurde als kritisch eingestuft. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei /cgi-bin/mainfunction.cgi/apmcfgupptim der Komponente Web Management Interface. Mit der Manipulation des Arguments session mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung. Ein Aktualisieren auf die Version 1.5.1.5 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [Aether-0/CVE-2024-12986](https://github.com/Aether-0/CVE-2024-12986)
 
 ### CVE-2024-20017 (2024-03-04)
 
@@ -4683,7 +4683,7 @@
 <code>In updateNotificationChannelFromPrivilegedListener of NotificationManagerService.java, there is a possible cross-user data leak due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
 </code>
 
-- [23Nero/fix-02-failure-CVE-2024-31319-CVE-2024-0039](https://github.com/23Nero/fix-02-failure-CVE-2024-31319-CVE-2024-0039)
+- [MssGmz99/fix-02-failure-CVE-2024-31319-CVE-2024-0039](https://github.com/MssGmz99/fix-02-failure-CVE-2024-31319-CVE-2024-0039)
 
 ### CVE-2024-31351 (2024-05-17)
 
@@ -5578,7 +5578,7 @@
 <code>Multiple LDAP injections vulnerabilities exist in SecurEnvoy MFA before 9.4.514 due to improper validation of user-supplied input. An unauthenticated remote attacker could exfiltrate data from Active Directory through blind LDAP injection attacks against the DESKTOP service exposed on the /secserver HTTP endpoint. This may include ms-Mcs-AdmPwd, which has a cleartext password for the Local Administrator Password Solution (LAPS) feature.
 </code>
 
-- [optistream/securenvoy-cve-2024-37393](https://github.com/optistream/securenvoy-cve-2024-37393)
+- [noways-io/securenvoy-cve-2024-37393](https://github.com/noways-io/securenvoy-cve-2024-37393)
 
 ### CVE-2024-37726 (2024-07-03)
 
@@ -6942,6 +6942,13 @@
 </code>
 
 - [mutkus/CVE-2024-47076](https://github.com/mutkus/CVE-2024-47076)
+
+### CVE-2024-47138 (2024-11-22)
+
+<code>The administrative interface listens by default on all interfaces on a TCP port and does not require authentication when being accessed.
+</code>
+
+- [wilguard/CVE-2024-47138](https://github.com/wilguard/CVE-2024-47138)
 
 ### CVE-2024-47176 (2024-09-26)
 
@@ -17137,6 +17144,13 @@
 - [letsr00t/-2022-LOCALROOT-CVE-2022-2639](https://github.com/letsr00t/-2022-LOCALROOT-CVE-2022-2639)
 - [devetop/CVE-2022-2639-PipeVersion](https://github.com/devetop/CVE-2022-2639-PipeVersion)
 
+### CVE-2022-2825 (2023-03-29)
+
+<code>This vulnerability allows remote attackers to execute arbitrary code on affected installations of Kepware KEPServerEX 6.11.718.0. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of text encoding conversions. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Was ZDI-CAN-18411.
+</code>
+
+- [alej6/MassCyberCenter-Mentorship-Project-](https://github.com/alej6/MassCyberCenter-Mentorship-Project-)
+
 ### CVE-2022-2884 (2022-10-17)
 
 <code>A vulnerability in GitLab CE/EE affecting all versions from 11.3.4 prior to 15.1.5, 15.2 to 15.2.3, 15.3 to 15.3 to 15.3.1 allows an an authenticated user to achieve remote code execution via the Import from GitHub API endpoint
@@ -22115,6 +22129,13 @@
 </code>
 
 - [grails/GSSC-CVE-2022-41923](https://github.com/grails/GSSC-CVE-2022-41923)
+
+### CVE-2022-41924 (2022-11-23)
+
+<code>A vulnerability identified in the Tailscale Windows client allows a malicious website to reconfigure the Tailscale daemon `tailscaled`, which can then be used to remotely execute code. In the Tailscale Windows client, the local API was bound to a local TCP socket, and communicated with the Windows client GUI in cleartext with no Host header verification. This allowed an attacker-controlled website visited by the node to rebind DNS to an attacker-controlled DNS server, and then make local API requests in the client, including changing the coordination server to an attacker-controlled coordination server. An attacker-controlled coordination server can send malicious URL responses to the client, including pushing executables or installing an SMB share. These allow the attacker to remotely execute code on the node. All Windows clients prior to version v.1.32.3 are affected. If you are running Tailscale on Windows, upgrade to v1.32.3 or later to remediate the issue.
+</code>
+
+- [oalieno/CVE-2022-41924](https://github.com/oalieno/CVE-2022-41924)
 
 ### CVE-2022-41966 (2022-12-27)
 
@@ -35731,6 +35752,13 @@
 
 - [securifera/CVE-2019-1579](https://github.com/securifera/CVE-2019-1579)
 - [Elsfa7-110/CVE-2019-1579](https://github.com/Elsfa7-110/CVE-2019-1579)
+
+### CVE-2019-1619 (2019-06-27)
+
+<code>A vulnerability in the web-based management interface of Cisco Data Center Network Manager (DCNM) could allow an unauthenticated, remote attacker to bypass authentication and execute arbitrary actions with administrative privileges on an affected device. The vulnerability is due to improper session management on affected DCNM software. An attacker could exploit this vulnerability by sending a crafted HTTP request to the affected device. A successful exploit could allow the attacker to gain administrative access on the affected device.
+</code>
+
+- [Cipolone95/CVE-2019-1619](https://github.com/Cipolone95/CVE-2019-1619)
 
 ### CVE-2019-1652 (2019-01-24)
 
