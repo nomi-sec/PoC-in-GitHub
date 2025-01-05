@@ -571,6 +571,7 @@
 </code>
 
 - [Puvipavan/CVE-2024-2667](https://github.com/Puvipavan/CVE-2024-2667)
+- [Nxploited/CVE-2024-2667-Poc](https://github.com/Nxploited/CVE-2024-2667-Poc)
 
 ### CVE-2024-2876 (2024-05-02)
 
@@ -970,6 +971,7 @@
 - [UnHackerEnCapital/PDFernetRemotelo](https://github.com/UnHackerEnCapital/PDFernetRemotelo)
 - [Masamuneee/CVE-2024-4367-Analysis](https://github.com/Masamuneee/CVE-2024-4367-Analysis)
 - [pedrochalegre7/CVE-2024-4367-pdf-sample](https://github.com/pedrochalegre7/CVE-2024-4367-pdf-sample)
+- [exfil0/WEAPONIZING-CVE-2024-4367](https://github.com/exfil0/WEAPONIZING-CVE-2024-4367)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -29497,6 +29499,13 @@
 ### CVE-2021-44910
 - [W000i/CVE-2021-44910_SpringBlade](https://github.com/W000i/CVE-2021-44910_SpringBlade)
 
+### CVE-2021-44967 (2022-02-22)
+
+<code>A Remote Code Execution (RCE) vulnerabilty exists in LimeSurvey 5.2.4 via the upload and install plugins function, which could let a remote malicious user upload an arbitrary PHP code file.
+</code>
+
+- [D3Ext/LimeSurvey-RCE](https://github.com/D3Ext/LimeSurvey-RCE)
+
 ### CVE-2021-45007 (2022-02-20)
 
 <code>Plesk 18.0.37 is affected by a Cross Site Request Forgery (CSRF) vulnerability that allows an attacker to insert data on the user and admin panel. NOTE: the vendor states that this is only a site-specific problem on websites of one or more Plesk users
@@ -29636,7 +29645,6 @@
 </code>
 
 - [plsanu/Bludit-3.13.1-About-Plugin-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Bludit-3.13.1-About-Plugin-Stored-Cross-Site-Scripting-XSS)
-- [plsanu/CVE-2021-45745](https://github.com/plsanu/CVE-2021-45745)
 
 ### CVE-2021-45897 (2022-01-28)
 
