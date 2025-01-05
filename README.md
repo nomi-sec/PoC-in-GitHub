@@ -7791,6 +7791,9 @@
 
 - [ugurkarakoc1/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-](https://github.com/ugurkarakoc1/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-)
 
+### CVE-2024-55457
+- [h13nh04ng/CVE-2024-55457-PoC](https://github.com/h13nh04ng/CVE-2024-55457-PoC)
+
 ### CVE-2024-55557 (2024-12-16)
 
 <code>ui/pref/ProxyPrefView.java in weasis-core in Weasis 4.5.1 has a hardcoded key for symmetric encryption of proxy credentials.
@@ -33094,7 +33097,6 @@
 
 - [YutuSec/Apisix_Crack](https://github.com/YutuSec/Apisix_Crack)
 - [K3ysTr0K3R/CVE-2020-13945-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2020-13945-EXPLOIT)
-- [x0root/CVE-2020-13945-EXPLOIT](https://github.com/x0root/CVE-2020-13945-EXPLOIT)
 
 ### CVE-2020-13957 (2020-10-13)
 
