@@ -22821,6 +22821,7 @@
 - [0xN7y/CVE-2022-46169](https://github.com/0xN7y/CVE-2022-46169)
 - [mind2hex/CVE-2022-46169](https://github.com/mind2hex/CVE-2022-46169)
 - [HPT-Intern-Task-Submission/CVE-2022-46169](https://github.com/HPT-Intern-Task-Submission/CVE-2022-46169)
+- [lof1sec/CVE-2022-46169](https://github.com/lof1sec/CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-24)
 
