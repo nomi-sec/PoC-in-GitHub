@@ -6985,6 +6985,7 @@
 - [skyalliance/exploit-cve-2024-47575](https://github.com/skyalliance/exploit-cve-2024-47575)
 - [expl0itsecurity/CVE-2024-47575](https://github.com/expl0itsecurity/CVE-2024-47575)
 - [XiaomingX/cve-2024-47575-exp](https://github.com/XiaomingX/cve-2024-47575-exp)
+- [Axi0n1ze/CVE-2024-47575-POC](https://github.com/Axi0n1ze/CVE-2024-47575-POC)
 
 ### CVE-2024-47854 (2024-10-04)
 
@@ -7161,6 +7162,7 @@
 
 - [SafeBreach-Labs/CVE-2024-49113](https://github.com/SafeBreach-Labs/CVE-2024-49113)
 - [barcrange/CVE-2024-49113-Checker](https://github.com/barcrange/CVE-2024-49113-Checker)
+- [YoonJae-rep/CVE-2024-49113](https://github.com/YoonJae-rep/CVE-2024-49113)
 
 ### CVE-2024-49117 (2024-12-10)
 
@@ -9385,6 +9387,13 @@
 
 - [FuBoLuSec/CVE-2023-6895](https://github.com/FuBoLuSec/CVE-2023-6895)
 - [nles-crt/CVE-2023-6895](https://github.com/nles-crt/CVE-2023-6895)
+
+### CVE-2023-6931 (2023-12-19)
+
+<code>A heap out-of-bounds write vulnerability in the Linux kernel's Performance Events system component can be exploited to achieve local privilege escalation.\n\nA perf_event's read_size can overflow, leading to an heap out-of-bounds increment or write in perf_read_group().\n\nWe recommend upgrading past commit 382c27f4ed28f803b1f1473ac2d8db0afc795a1b.\n\n
+</code>
+
+- [jungju817/CVE-2023-6931](https://github.com/jungju817/CVE-2023-6931)
 
 ### CVE-2023-6933 (2024-02-05)
 
@@ -25581,7 +25590,6 @@
 - [Xc1Ym/cve_2021_26084](https://github.com/Xc1Ym/cve_2021_26084)
 - [wolf1892/confluence-rce-poc](https://github.com/wolf1892/confluence-rce-poc)
 - [smadi0x86/CVE-2021-26084](https://github.com/smadi0x86/CVE-2021-26084)
-- [kkin77/CVE-2021-26084-Confluence-OGNL](https://github.com/kkin77/CVE-2021-26084-Confluence-OGNL)
 - [1ZRR4H/CVE-2021-26084](https://github.com/1ZRR4H/CVE-2021-26084)
 - [GlennPegden2/cve-2021-26084-confluence](https://github.com/GlennPegden2/cve-2021-26084-confluence)
 - [toowoxx/docker-confluence-patched](https://github.com/toowoxx/docker-confluence-patched)
@@ -34261,6 +34269,7 @@
 
 - [darrenmartyn/sophucked](https://github.com/darrenmartyn/sophucked)
 - [twentybel0w/CVE-2020-25223](https://github.com/twentybel0w/CVE-2020-25223)
+- [gh-2025-02/poc-cve-2020-25223](https://github.com/gh-2025-02/poc-cve-2020-25223)
 
 ### CVE-2020-25265 (2020-12-02)
 
