@@ -854,6 +854,7 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc](https://github.com/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc)
+- [RandomRobbieBF/CVE-2024-3806](https://github.com/RandomRobbieBF/CVE-2024-3806)
 
 ### CVE-2024-3867 (2024-04-16)
 
@@ -1344,6 +1345,13 @@
 </code>
 
 - [Florian-Hoth/CVE-2024-6222](https://github.com/Florian-Hoth/CVE-2024-6222)
+
+### CVE-2024-6330 (2024-08-19)
+
+<code>The GEO my WP WordPress plugin before 4.5.0.2 does not prevent unauthenticated attackers from including arbitrary files in PHP's execution context, which leads to Remote Code Execution.
+</code>
+
+- [RandomRobbieBF/CVE-2024-6330](https://github.com/RandomRobbieBF/CVE-2024-6330)
 
 ### CVE-2024-6366 (2024-07-29)
 
@@ -1988,6 +1996,13 @@
 
 - [RandomRobbieBF/CVE-2024-9821](https://github.com/RandomRobbieBF/CVE-2024-9821)
 
+### CVE-2024-9822 (2024-10-11)
+
+<code>The Pedalo Connector plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.0.5. This is due to insufficient restriction on the 'login_admin_user' function. This makes it possible for unauthenticated attackers to log to the first user, who is usually the administrator, or if it does not exist, then to the first administrator.
+</code>
+
+- [RandomRobbieBF/CVE-2024-9822](https://github.com/RandomRobbieBF/CVE-2024-9822)
+
 ### CVE-2024-9890 (2024-10-26)
 
 <code>The User Toolkit plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 1.2.3. This is due to an improper capability check in the 'switchUser' function. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to log in as any existing user on the site, such as an administrator.
@@ -2374,6 +2389,13 @@
 
 - [inb1ts/CVE-2024-11616](https://github.com/inb1ts/CVE-2024-11616)
 
+### CVE-2024-11643 (2024-12-04)
+
+<code>The Accessibility by AllAccessible plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the 'AllAccessible_save_settings' function in all versions up to, and including, 1.3.4. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
+</code>
+
+- [RandomRobbieBF/CVE-2024-11643](https://github.com/RandomRobbieBF/CVE-2024-11643)
+
 ### CVE-2024-11680 (2024-11-26)
 
 <code>ProjectSend versions prior to r1720 are affected by an improper authentication vulnerability. Remote, unauthenticated attackers can exploit this flaw by sending crafted HTTP requests to options.php, enabling unauthorized modification of the application's configuration. Successful exploitation allows attackers to create accounts, upload webshells, and embed malicious JavaScript.
@@ -2408,6 +2430,13 @@
 </code>
 
 - [McTavishSue/CVE-2024-12155](https://github.com/McTavishSue/CVE-2024-12155)
+
+### CVE-2024-12172 (2024-12-12)
+
+<code>The WP Courses LMS – Online Courses Builder, eLearning Courses, Courses Solution, Education Courses plugin for WordPress is vulnerable to unauthorized access due to a missing capability check on the wpc_update_user_meta_option() function in all versions up to, and including, 3.2.21. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update arbitrary user's metadata which can be levereged to block an administrator from accessing their site when wp_capabilities is set to 0.
+</code>
+
+- [RandomRobbieBF/CVE-2024-12172](https://github.com/RandomRobbieBF/CVE-2024-12172)
 
 ### CVE-2024-12209 (2024-12-08)
 
@@ -7214,6 +7243,13 @@
 
 - [OHDUDEOKNICE/CVE-2024-49379](https://github.com/OHDUDEOKNICE/CVE-2024-49379)
 
+### CVE-2024-49607 (2024-10-20)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Redwan Hilali WP Dropbox Dropins allows Upload a Web Shell to a Web Server.This issue affects WP Dropbox Dropins: from n/a through 1.0.
+</code>
+
+- [RandomRobbieBF/CVE-2024-49607](https://github.com/RandomRobbieBF/CVE-2024-49607)
+
 ### CVE-2024-49681 (2024-10-24)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in SWIT WP Sessions Time Monitoring Full Automatic allows SQL Injection.This issue affects WP Sessions Time Monitoring Full Automatic: from n/a through 1.0.9.
@@ -7366,12 +7402,33 @@
 - [p0et08/CVE-2024-50498](https://github.com/p0et08/CVE-2024-50498)
 - [Nxploited/CVE-2024-50498](https://github.com/Nxploited/CVE-2024-50498)
 
+### CVE-2024-50507 (2024-10-30)
+
+<code>Deserialization of Untrusted Data vulnerability in Daniel Schmitzer DS.DownloadList allows Object Injection.This issue affects DS.DownloadList: from n/a through 1.3.
+</code>
+
+- [RandomRobbieBF/CVE-2024-50507](https://github.com/RandomRobbieBF/CVE-2024-50507)
+
+### CVE-2024-50508 (2024-10-30)
+
+<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Chetan Khandla Woocommerce Product Design allows Path Traversal.This issue affects Woocommerce Product Design: from n/a through 1.0.0.
+</code>
+
+- [RandomRobbieBF/CVE-2024-50508](https://github.com/RandomRobbieBF/CVE-2024-50508)
+
 ### CVE-2024-50509 (2024-10-30)
 
 <code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Chetan Khandla Woocommerce Product Design allows Path Traversal.This issue affects Woocommerce Product Design: from n/a through 1.0.0.
 </code>
 
 - [RandomRobbieBF/CVE-2024-50509](https://github.com/RandomRobbieBF/CVE-2024-50509)
+
+### CVE-2024-50510 (2024-10-30)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Web and Print Design AR For Woocommerce allows Upload a Web Shell to a Web Server.This issue affects AR For Woocommerce: from n/a through 6.2.
+</code>
+
+- [RandomRobbieBF/CVE-2024-50510](https://github.com/RandomRobbieBF/CVE-2024-50510)
 
 ### CVE-2024-50623 (2024-10-27)
 
@@ -7782,12 +7839,40 @@
 
 - [RandomRobbieBF/CVE-2024-54330](https://github.com/RandomRobbieBF/CVE-2024-54330)
 
+### CVE-2024-54363 (2024-12-16)
+
+<code>Incorrect Privilege Assignment vulnerability in nssTheme Wp NssUser Register allows Privilege Escalation.This issue affects Wp NssUser Register: from n/a through 1.0.0.
+</code>
+
+- [RandomRobbieBF/CVE-2024-54363](https://github.com/RandomRobbieBF/CVE-2024-54363)
+
 ### CVE-2024-54369 (2024-12-16)
 
 <code>Missing Authorization vulnerability in ThemeHunk Zita Site Builder allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Zita Site Builder: from n/a through 1.0.2.
 </code>
 
 - [RandomRobbieBF/CVE-2024-54369](https://github.com/RandomRobbieBF/CVE-2024-54369)
+
+### CVE-2024-54374 (2024-12-16)
+
+<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Sabri Taieb Sogrid allows PHP Local File Inclusion.This issue affects Sogrid: from n/a through 1.5.6.
+</code>
+
+- [RandomRobbieBF/CVE-2024-54374](https://github.com/RandomRobbieBF/CVE-2024-54374)
+
+### CVE-2024-54378 (2024-12-16)
+
+<code>Missing Authorization vulnerability in Quietly Quietly Insights allows Privilege Escalation.This issue affects Quietly Insights: from n/a through 1.2.2.
+</code>
+
+- [RandomRobbieBF/CVE-2024-54378](https://github.com/RandomRobbieBF/CVE-2024-54378)
+
+### CVE-2024-54385 (2024-12-16)
+
+<code>Server-Side Request Forgery (SSRF) vulnerability in SoftLab Radio Player allows Server Side Request Forgery.This issue affects Radio Player: from n/a through 2.0.82.
+</code>
+
+- [RandomRobbieBF/CVE-2024-54385](https://github.com/RandomRobbieBF/CVE-2024-54385)
 
 ### CVE-2024-54679 (2024-12-05)
 
@@ -7847,6 +7932,20 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-55976](https://github.com/RandomRobbieBF/CVE-2024-55976)
+
+### CVE-2024-55978 (2024-12-16)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WalletStation.com Code Generator Pro allows SQL Injection.This issue affects Code Generator Pro: from n/a through 1.2.
+</code>
+
+- [RandomRobbieBF/CVE-2024-55978](https://github.com/RandomRobbieBF/CVE-2024-55978)
+
+### CVE-2024-55980 (2024-12-16)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Webriderz Wr Age Verification allows SQL Injection.This issue affects Wr Age Verification: from n/a through 2.0.0.
+</code>
+
+- [RandomRobbieBF/CVE-2024-55980](https://github.com/RandomRobbieBF/CVE-2024-55980)
 
 ### CVE-2024-55981 (2024-12-16)
 
@@ -7911,6 +8010,13 @@
 </code>
 
 - [JonnyWhatshisface/CVE-2024-56433](https://github.com/JonnyWhatshisface/CVE-2024-56433)
+
+### CVE-2024-56512 (2024-12-28)
+
+<code>Apache NiFi 1.10.0 through 2.0.0 are missing fine-grained authorization checking for Parameter Contexts, referenced Controller Services, and referenced Parameter Providers, when creating new Process Groups.\n\nCreating a new Process Group can include binding to a Parameter Context, but in cases where the Process Group did not reference any Parameter values, the framework did not check user authorization for the bound Parameter Context. Missing authorization for a bound Parameter Context enabled clients to download non-sensitive Parameter values after creating the Process Group.\n\nCreating a new Process Group can also include referencing existing Controller Services or Parameter Providers. The framework did not check user authorization for referenced Controller Services or Parameter Providers, enabling clients to create Process Groups and use these components that were otherwise unauthorized.\n\nThis vulnerability is limited in scope to authenticated users authorized to create Process Groups. The scope is further limited to deployments with component-based authorization policies. Upgrading to Apache NiFi 2.1.0 is the recommended mitigation, which includes authorization checking for Parameter and Controller Service references on Process Group creation.
+</code>
+
+- [absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit](https://github.com/absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -25781,6 +25887,7 @@
 </code>
 
 - [hev0x/CVE-2021-26828_ScadaBR_RCE](https://github.com/hev0x/CVE-2021-26828_ScadaBR_RCE)
+- [voidvxvt/CVE-2021-26828](https://github.com/voidvxvt/CVE-2021-26828)
 
 ### CVE-2021-26832 (2021-04-14)
 
@@ -29750,7 +29857,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Mechanic-List-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Mechanic-List-Stored-Cross-Site-Scripting-XSS)
-- [plsanu/CVE-2021-46069](https://github.com/plsanu/CVE-2021-46069)
 
 ### CVE-2021-46070 (2022-01-06)
 
@@ -35753,13 +35859,6 @@
 
 - [mandarenmanman/CVE-2019-1367](https://github.com/mandarenmanman/CVE-2019-1367)
 
-### CVE-2019-1385 (2019-11-12)
-
-<code>An elevation of privilege vulnerability exists when the Windows AppX Deployment Extensions improperly performs privilege management, resulting in access to system files.To exploit this vulnerability, an authenticated attacker would need to run a specially crafted application to elevate privileges.The security update addresses the vulnerability by correcting how AppX Deployment Extensions manages privileges., aka 'Windows AppX Deployment Extensions Elevation of Privilege Vulnerability'.
-</code>
-
-- [0x413x4/CVE-2019-1385](https://github.com/0x413x4/CVE-2019-1385)
-
 ### CVE-2019-1388 (2019-11-12)
 
 <code>An elevation of privilege vulnerability exists in the Windows Certificate Dialog when it does not properly enforce user privileges, aka 'Windows Certificate Dialog Elevation of Privilege Vulnerability'.
@@ -37343,7 +37442,7 @@
 - [dinesh876/CVE-2019-11447-POC](https://github.com/dinesh876/CVE-2019-11447-POC)
 - [ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE](https://github.com/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE)
 - [thewhiteh4t/cve-2019-11447](https://github.com/thewhiteh4t/cve-2019-11447)
-- [0xConstant/CVE-2019-11447](https://github.com/0xConstant/CVE-2019-11447)
+- [banomaly/CVE-2019-11447](https://github.com/banomaly/CVE-2019-11447)
 - [substing/CVE-2019-11447_reverse_shell_upload](https://github.com/substing/CVE-2019-11447_reverse_shell_upload)
 - [CRFSlick/CVE-2019-11447-POC](https://github.com/CRFSlick/CVE-2019-11447-POC)
 - [ojo5/CVE-2019-11447.c](https://github.com/ojo5/CVE-2019-11447.c)
@@ -38414,9 +38513,9 @@
 - [hg8/CVE-2019-16113-PoC](https://github.com/hg8/CVE-2019-16113-PoC)
 - [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [dldygnl/CVE-2019-16113](https://github.com/dldygnl/CVE-2019-16113)
-- [0xConstant/CVE-2019-16113](https://github.com/0xConstant/CVE-2019-16113)
+- [banomaly/CVE-2019-16113](https://github.com/banomaly/CVE-2019-16113)
 - [DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113)
-- [0xConstant/CVE-2019-16113_](https://github.com/0xConstant/CVE-2019-16113_)
+- [banomaly/CVE-2019-16113_](https://github.com/banomaly/CVE-2019-16113_)
 - [mind2hex/CVE-2019-16113](https://github.com/mind2hex/CVE-2019-16113)
 - [tronghoang89/cve-2019-16113](https://github.com/tronghoang89/cve-2019-16113)
 
@@ -40589,7 +40688,7 @@
 - [0xAJ2K/CVE-2018-7600](https://github.com/0xAJ2K/CVE-2018-7600)
 - [rafaelcaria/drupalgeddon2-CVE-2018-7600](https://github.com/rafaelcaria/drupalgeddon2-CVE-2018-7600)
 - [vphnguyen/ANM_CVE-2018-7600](https://github.com/vphnguyen/ANM_CVE-2018-7600)
-- [0xConstant/CVE-2018-7600](https://github.com/0xConstant/CVE-2018-7600)
+- [banomaly/CVE-2018-7600](https://github.com/banomaly/CVE-2018-7600)
 - [anldori/CVE-2018-7600](https://github.com/anldori/CVE-2018-7600)
 - [r0lh/CVE-2018-7600](https://github.com/r0lh/CVE-2018-7600)
 - [killeveee/CVE-2018-7600](https://github.com/killeveee/CVE-2018-7600)
@@ -43444,7 +43543,7 @@
 - [testpilot031/vulnerability_struts-2.3.31](https://github.com/testpilot031/vulnerability_struts-2.3.31)
 - [readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638)
 - [Tankirat/CVE-2017-5638](https://github.com/Tankirat/CVE-2017-5638)
-- [0xConstant/CVE-2017-5638](https://github.com/0xConstant/CVE-2017-5638)
+- [banomaly/CVE-2017-5638](https://github.com/banomaly/CVE-2017-5638)
 - [mfdev-solution/Exploit-CVE-2017-5638](https://github.com/mfdev-solution/Exploit-CVE-2017-5638)
 - [mritunjay-k/CVE-2017-5638](https://github.com/mritunjay-k/CVE-2017-5638)
 - [FredBrave/CVE-2017-5638-ApacheStruts2.3.5](https://github.com/FredBrave/CVE-2017-5638-ApacheStruts2.3.5)
@@ -47269,7 +47368,7 @@
 </code>
 
 - [dix0nym/CVE-2015-6967](https://github.com/dix0nym/CVE-2015-6967)
-- [0xConstant/CVE-2015-6967](https://github.com/0xConstant/CVE-2015-6967)
+- [banomaly/CVE-2015-6967](https://github.com/banomaly/CVE-2015-6967)
 - [FredBrave/CVE-2015-6967](https://github.com/FredBrave/CVE-2015-6967)
 - [3mpir3Albert/HTB_Nibbles](https://github.com/3mpir3Albert/HTB_Nibbles)
 
@@ -48100,7 +48199,7 @@
 - [b4keSn4ke/CVE-2014-6271](https://github.com/b4keSn4ke/CVE-2014-6271)
 - [hadrian3689/shellshock](https://github.com/hadrian3689/shellshock)
 - [akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271)
-- [0xConstant/CVE-2014-6271](https://github.com/0xConstant/CVE-2014-6271)
+- [banomaly/CVE-2014-6271](https://github.com/banomaly/CVE-2014-6271)
 - [Gurguii/cgi-bin-shellshock](https://github.com/Gurguii/cgi-bin-shellshock)
 - [anujbhan/shellshock-victim-host](https://github.com/anujbhan/shellshock-victim-host)
 - [FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-](https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-)
@@ -48975,7 +49074,7 @@
 </code>
 
 - [bitc0de/Elastix-Remote-Code-Execution](https://github.com/bitc0de/Elastix-Remote-Code-Execution)
-- [0xConstant/CVE-2012-4869](https://github.com/0xConstant/CVE-2012-4869)
+- [banomaly/CVE-2012-4869](https://github.com/banomaly/CVE-2012-4869)
 
 ### CVE-2012-4929 (2012-09-15)
 
@@ -49547,7 +49646,7 @@
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
 - [n3rdh4x0r/CVE-2009-2265](https://github.com/n3rdh4x0r/CVE-2009-2265)
 - [p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265)
-- [0xConstant/CVE-2009-2265](https://github.com/0xConstant/CVE-2009-2265)
+- [banomaly/CVE-2009-2265](https://github.com/banomaly/CVE-2009-2265)
 - [0xDTC/Adobe-ColdFusion-8-RCE-CVE-2009-2265](https://github.com/0xDTC/Adobe-ColdFusion-8-RCE-CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
@@ -49832,7 +49931,7 @@
 - [3t4n/samba-3.0.24-CVE-2007-2447-vunerable-](https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-)
 - [xbufu/CVE-2007-2447](https://github.com/xbufu/CVE-2007-2447)
 - [s4msec/CVE-2007-2447](https://github.com/s4msec/CVE-2007-2447)
-- [0xConstant/CVE-2007-2447](https://github.com/0xConstant/CVE-2007-2447)
+- [banomaly/CVE-2007-2447](https://github.com/banomaly/CVE-2007-2447)
 - [Nosferatuvjr/Samba-Usermap-exploit](https://github.com/Nosferatuvjr/Samba-Usermap-exploit)
 - [testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447)
 - [mr-l0n3lly/CVE-2007-2447](https://github.com/mr-l0n3lly/CVE-2007-2447)
