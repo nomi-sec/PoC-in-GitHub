@@ -2047,6 +2047,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-10124](https://github.com/RandomRobbieBF/CVE-2024-10124)
+- [Nxploited/CVE-2024-10124-Poc](https://github.com/Nxploited/CVE-2024-10124-Poc)
 
 ### CVE-2024-10140 (2024-10-19)
 
