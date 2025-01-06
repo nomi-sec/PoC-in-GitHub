@@ -2448,7 +2448,11 @@
 
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
-### CVE-2024-12970
+### CVE-2024-12970 (2025-01-06)
+
+<code>Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in TUBITAK BILGEM Pardus OS My Computer allows OS Command Injection.This issue affects Pardus OS My Computer: before 0.7.2.
+</code>
+
 - [osmancanvural/CVE-2024-12970](https://github.com/osmancanvural/CVE-2024-12970)
 
 ### CVE-2024-12986 (2024-12-27)
@@ -7166,6 +7170,7 @@
 - [SafeBreach-Labs/CVE-2024-49113](https://github.com/SafeBreach-Labs/CVE-2024-49113)
 - [barcrange/CVE-2024-49113-Checker](https://github.com/barcrange/CVE-2024-49113-Checker)
 - [YoonJae-rep/CVE-2024-49113](https://github.com/YoonJae-rep/CVE-2024-49113)
+- [Sachinart/CVE-2024-49113-Checker](https://github.com/Sachinart/CVE-2024-49113-Checker)
 
 ### CVE-2024-49117 (2024-12-10)
 
@@ -7777,6 +7782,13 @@
 
 - [RandomRobbieBF/CVE-2024-54330](https://github.com/RandomRobbieBF/CVE-2024-54330)
 
+### CVE-2024-54369 (2024-12-16)
+
+<code>Missing Authorization vulnerability in ThemeHunk Zita Site Builder allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Zita Site Builder: from n/a through 1.0.2.
+</code>
+
+- [RandomRobbieBF/CVE-2024-54369](https://github.com/RandomRobbieBF/CVE-2024-54369)
+
 ### CVE-2024-54679 (2024-12-05)
 
 <code>CyberPanel (aka Cyber Panel) before 6778ad1 does not require the FilemanagerAdmin capability for restartMySQL actions.
@@ -7821,6 +7833,34 @@
 ### CVE-2024-55968
 - [Wi1DN00B/CVE-2024-55968](https://github.com/Wi1DN00B/CVE-2024-55968)
 - [null-event/CVE-2024-55968](https://github.com/null-event/CVE-2024-55968)
+
+### CVE-2024-55972 (2024-12-16)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Chris Carvache eTemplates allows SQL Injection.This issue affects eTemplates: from n/a through 0.2.1.
+</code>
+
+- [RandomRobbieBF/CVE-2024-55972](https://github.com/RandomRobbieBF/CVE-2024-55972)
+
+### CVE-2024-55976 (2024-12-16)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Mike Leembruggen Critical Site Intel allows SQL Injection.This issue affects Critical Site Intel: from n/a through 1.0.
+</code>
+
+- [RandomRobbieBF/CVE-2024-55976](https://github.com/RandomRobbieBF/CVE-2024-55976)
+
+### CVE-2024-55981 (2024-12-16)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Nabajit Roy Nabz Image Gallery allows SQL Injection.This issue affects Nabz Image Gallery: from n/a through v1.00.
+</code>
+
+- [RandomRobbieBF/CVE-2024-55981](https://github.com/RandomRobbieBF/CVE-2024-55981)
+
+### CVE-2024-55982 (2024-12-16)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in richteam Share Buttons – Social Media allows Blind SQL Injection.This issue affects Share Buttons – Social Media: from n/a through 1.0.2.
+</code>
+
+- [RandomRobbieBF/CVE-2024-55982](https://github.com/RandomRobbieBF/CVE-2024-55982)
 
 ### CVE-2024-55988 (2024-12-16)
 
