@@ -16241,6 +16241,8 @@
 - [endasugrue/CVE-2023-51385_poc](https://github.com/endasugrue/CVE-2023-51385_poc)
 - [MiningBot-eth/CVE-2023-51385-exploit](https://github.com/MiningBot-eth/CVE-2023-51385-exploit)
 - [Featherw1t/CVE-2023-51385_test](https://github.com/Featherw1t/CVE-2023-51385_test)
+- [GroundCTL2MajorTom/CVE-2023-51385POC](https://github.com/GroundCTL2MajorTom/CVE-2023-51385POC)
+- [GroundCTL2MajorTom/CVE-2023-51385P-POC](https://github.com/GroundCTL2MajorTom/CVE-2023-51385P-POC)
 
 ### CVE-2023-51409 (2024-04-12)
 
