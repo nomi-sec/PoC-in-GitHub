@@ -7822,6 +7822,7 @@
 - [0xdeviner/CVE-2024-53677](https://github.com/0xdeviner/CVE-2024-53677)
 - [Q0LT/VM-CVE-2024-53677](https://github.com/Q0LT/VM-CVE-2024-53677)
 - [EQSTLab/CVE-2024-53677](https://github.com/EQSTLab/CVE-2024-53677)
+- [0xPThree/struts_cve-2024-53677](https://github.com/0xPThree/struts_cve-2024-53677)
 
 ### CVE-2024-54152 (2024-12-10)
 
@@ -8522,6 +8523,13 @@
 - [SanjayRagavendar/Ubuntu-GameOver-Lay](https://github.com/SanjayRagavendar/Ubuntu-GameOver-Lay)
 - [Nkipohcs/CVE-2023-2640-CVE-2023-32629](https://github.com/Nkipohcs/CVE-2023-2640-CVE-2023-32629)
 - [K5LK/CVE-2023-2640-32629](https://github.com/K5LK/CVE-2023-2640-32629)
+
+### CVE-2023-2645 (2023-05-11)
+
+<code>Es wurde eine Schwachstelle in USR USR-G806 1.0.41 gefunden. Sie wurde als kritisch eingestuft. Betroffen hiervon ist ein unbekannter Ablauf der Komponente Web Management Page. Durch das Manipulieren des Arguments username/password mit der Eingabe root mit unbekannten Daten kann eine use of hard-coded password-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung. Als bestmögliche Massnahme werden Anpassungen an der Konfiguration empfohlen.
+</code>
+
+- [xymbiot-solution/CVE-2023-2645](https://github.com/xymbiot-solution/CVE-2023-2645)
 
 ### CVE-2023-2650 (2023-05-30)
 
@@ -18013,13 +18021,6 @@
 </code>
 
 - [sreeram281997/CVE-2022-21668-Pipenv-RCE-vulnerability](https://github.com/sreeram281997/CVE-2022-21668-Pipenv-RCE-vulnerability)
-
-### CVE-2022-21724 (2022-02-02)
-
-<code>pgjdbc is the offical PostgreSQL JDBC Driver. A security hole was found in the jdbc driver for postgresql database while doing security research. The system using the postgresql library will be attacked when attacker control the jdbc url or properties. pgjdbc instantiates plugin instances based on class names provided via `authenticationPluginClassName`, `sslhostnameverifier`, `socketFactory`, `sslfactory`, `sslpasswordcallback` connection properties. However, the driver did not verify if the class implements the expected interface before instantiating the class. This can lead to code execution loaded via arbitrary classes. Users using plugins are advised to upgrade. There are no known workarounds for this issue.
-</code>
-
-- [ToontjeM/CVE-2022-21724](https://github.com/ToontjeM/CVE-2022-21724)
 
 ### CVE-2022-21728 (2022-02-03)
 
@@ -28397,6 +28398,7 @@
 - [jkska23/Additive-Vulnerability-Analysis-CVE-2021-41773](https://github.com/jkska23/Additive-Vulnerability-Analysis-CVE-2021-41773)
 - [redspy-sec/CVE-2021-41773](https://github.com/redspy-sec/CVE-2021-41773)
 - [FakesiteSecurity/CVE-2021-41773](https://github.com/FakesiteSecurity/CVE-2021-41773)
+- [Taldrid1/cve-2021-41773](https://github.com/Taldrid1/cve-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -29867,7 +29869,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Mechanic-List-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Mechanic-List-Stored-Cross-Site-Scripting-XSS)
-- [plsanu/CVE-2021-46069](https://github.com/plsanu/CVE-2021-46069)
 
 ### CVE-2021-46070 (2022-01-06)
 
@@ -44472,6 +44473,13 @@
 
 - [afbase/CVE-2017-10952](https://github.com/afbase/CVE-2017-10952)
 
+### CVE-2017-11165 (2017-07-12)
+
+<code>dataTaker DT80 dEX 1.50.012 allows remote attackers to obtain sensitive credential and configuration information via a direct request for the /services/getFile.cmd?userfile=config.xml URI.
+</code>
+
+- [xymbiot-solution/CVE-2017-11165](https://github.com/xymbiot-solution/CVE-2017-11165)
+
 ### CVE-2017-11176 (2017-07-11)
 
 <code>The mq_notify function in the Linux kernel through 4.11.9 does not set the sock pointer to NULL upon entry into the retry logic. During a user-space close of a Netlink socket, it allows attackers to cause a denial of service (use-after-free) or possibly have unspecified other impact.
@@ -47990,7 +47998,7 @@
 
 - [happynote3966/CVE-2014-3704](https://github.com/happynote3966/CVE-2014-3704)
 - [AleDiBen/Drupalgeddon](https://github.com/AleDiBen/Drupalgeddon)
-- [RasmusKnothNielsen/Drupalgeddon-Python3](https://github.com/RasmusKnothNielsen/Drupalgeddon-Python3)
+- [Neldeborg/Drupalgeddon-Python3](https://github.com/Neldeborg/Drupalgeddon-Python3)
 
 ### CVE-2014-4014 (2014-06-23)
 
