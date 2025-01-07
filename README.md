@@ -3864,6 +3864,7 @@
 - [Safarchand/CVE-2024-25641](https://github.com/Safarchand/CVE-2024-25641)
 - [StopThatTalace/CVE-2024-25641-CACTI-RCE-1.2.26](https://github.com/StopThatTalace/CVE-2024-25641-CACTI-RCE-1.2.26)
 - [XiaomingX/cve-2024-25641-poc](https://github.com/XiaomingX/cve-2024-25641-poc)
+- [D3Ext/CVE-2024-25641](https://github.com/D3Ext/CVE-2024-25641)
 
 ### CVE-2024-25723 (2024-02-27)
 
@@ -6846,7 +6847,11 @@
 
 - [ooooooo-q/puma_header_normalization-CVE-2024-45614](https://github.com/ooooooo-q/puma_header_normalization-CVE-2024-45614)
 
-### CVE-2024-46209
+### CVE-2024-46209 (2025-01-06)
+
+<code>A stored cross-site scripting (XSS) vulnerability in the component /media/test.html of REDAXO CMS v5.17.1 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the password parameter.
+</code>
+
 - [h4ckr4v3n/CVE-2024-46209](https://github.com/h4ckr4v3n/CVE-2024-46209)
 
 ### CVE-2024-46256 (2024-09-27)
@@ -9545,7 +9550,7 @@
 <code>A heap out-of-bounds write vulnerability in the Linux kernel's Performance Events system component can be exploited to achieve local privilege escalation.\n\nA perf_event's read_size can overflow, leading to an heap out-of-bounds increment or write in perf_read_group().\n\nWe recommend upgrading past commit 382c27f4ed28f803b1f1473ac2d8db0afc795a1b.\n\n
 </code>
 
-- [jungju817/CVE-2023-6931](https://github.com/jungju817/CVE-2023-6931)
+- [K0n9-log/CVE-2023-6931](https://github.com/K0n9-log/CVE-2023-6931)
 
 ### CVE-2023-6933 (2024-02-05)
 
@@ -14186,6 +14191,7 @@
 - [Diegomjx/CVE-2023-41425-WonderCMS-Authenticated-RCE](https://github.com/Diegomjx/CVE-2023-41425-WonderCMS-Authenticated-RCE)
 - [0x0d3ad/CVE-2023-41425](https://github.com/0x0d3ad/CVE-2023-41425)
 - [xpltive/CVE-2023-41425](https://github.com/xpltive/CVE-2023-41425)
+- [samu21req/CVE-2023-41425](https://github.com/samu21req/CVE-2023-41425)
 
 ### CVE-2023-41436 (2023-09-15)
 
@@ -16824,6 +16830,7 @@
 - [xsxtw/CVE-2022-0847](https://github.com/xsxtw/CVE-2022-0847)
 - [muhammad1596/CVE-2022-0847-dirty-pipe-checker](https://github.com/muhammad1596/CVE-2022-0847-dirty-pipe-checker)
 - [muhammad1596/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/muhammad1596/CVE-2022-0847-DirtyPipe-Exploits)
+- [JustinYe377/CTF-CVE-2022-0847](https://github.com/JustinYe377/CTF-CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -25887,7 +25894,6 @@
 </code>
 
 - [hev0x/CVE-2021-26828_ScadaBR_RCE](https://github.com/hev0x/CVE-2021-26828_ScadaBR_RCE)
-- [voidvxvt/CVE-2021-26828](https://github.com/voidvxvt/CVE-2021-26828)
 
 ### CVE-2021-26832 (2021-04-14)
 
@@ -26056,7 +26062,11 @@
 
 - [synacktiv/CVE-2021-27246_Pwn2Own2020](https://github.com/synacktiv/CVE-2021-27246_Pwn2Own2020)
 
-### CVE-2021-27285
+### CVE-2021-27285 (2025-01-06)
+
+<code>An issue was discovered in Inspur ClusterEngine v4.0 that allows attackers to gain escalated Local privileges and execute arbitrary commands via /opt/tsce4/torque6/bin/getJobsByShell.
+</code>
+
 - [fjh1997/CVE-2021-27285](https://github.com/fjh1997/CVE-2021-27285)
 
 ### CVE-2021-27328 (2021-02-19)
@@ -29857,6 +29867,7 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Mechanic-List-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Mechanic-List-Stored-Cross-Site-Scripting-XSS)
+- [plsanu/CVE-2021-46069](https://github.com/plsanu/CVE-2021-46069)
 
 ### CVE-2021-46070 (2022-01-06)
 
@@ -35198,6 +35209,7 @@
 - [X0UCYB3R/Check-WP-CVE-2020-35489](https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489)
 - [reneoliveirajr/wp_CVE-2020-35489_checker](https://github.com/reneoliveirajr/wp_CVE-2020-35489_checker)
 - [Cappricio-Securities/CVE-2020-35489](https://github.com/Cappricio-Securities/CVE-2020-35489)
+- [gh202503/poc-cve-2020-35489](https://github.com/gh202503/poc-cve-2020-35489)
 
 ### CVE-2020-35498 (2021-02-11)
 
@@ -47978,6 +47990,7 @@
 
 - [happynote3966/CVE-2014-3704](https://github.com/happynote3966/CVE-2014-3704)
 - [AleDiBen/Drupalgeddon](https://github.com/AleDiBen/Drupalgeddon)
+- [RasmusKnothNielsen/Drupalgeddon-Python3](https://github.com/RasmusKnothNielsen/Drupalgeddon-Python3)
 
 ### CVE-2014-4014 (2014-06-23)
 
