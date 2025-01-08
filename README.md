@@ -2384,6 +2384,13 @@
 
 - [windz3r0day/CVE-2024-11412](https://github.com/windz3r0day/CVE-2024-11412)
 
+### CVE-2024-11423 (2025-01-08)
+
+<code>The Ultimate Gift Cards for WooCommerce – Create WooCommerce Gift Cards, Gift Vouchers, Redeem &amp; Manage Digital Gift Coupons. Offer Gift Certificates, Schedule Gift Cards, and Use Advance Coupons With Personalized Templates plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on several REST API endpoints such as /wp-json/gifting/recharge-giftcard in all versions up to, and including, 3.0.6. This makes it possible for unauthenticated attackers to recharge a gift card balance, without making a payment along with reducing gift card balances without purchasing anything.
+</code>
+
+- [RandomRobbieBF/CVE-2024-11423](https://github.com/RandomRobbieBF/CVE-2024-11423)
+
 ### CVE-2024-11428 (2024-11-21)
 
 <code>The Lazy load videos and sticky control plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'lazy-load-videos-and-sticky-control' shortcode in all versions up to, and including, 3.0.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
@@ -7681,7 +7688,11 @@
 ### CVE-2024-51435
 - [bevennyamande/CVE-2024-51435](https://github.com/bevennyamande/CVE-2024-51435)
 
-### CVE-2024-51442
+### CVE-2024-51442 (2025-01-08)
+
+<code>Command Injection in Minidlna version v1.3.3 and before allows an attacker to execute arbitrary OS commands via a specially crafted minidlna.conf configuration file.
+</code>
+
 - [mselbrede/CVE-2024-51442](https://github.com/mselbrede/CVE-2024-51442)
 
 ### CVE-2024-51567 (2024-10-29)
@@ -18651,7 +18662,7 @@
 - [sohamsharma966/Spring4Shell-CVE-2022-22965](https://github.com/sohamsharma966/Spring4Shell-CVE-2022-22965)
 - [LucasPDiniz/CVE-2022-22965](https://github.com/LucasPDiniz/CVE-2022-22965)
 - [xsxtw/SpringFramework_CVE-2022-22965_RCE](https://github.com/xsxtw/SpringFramework_CVE-2022-22965_RCE)
-- [SkyM1raj/Block-Spring4Shell](https://github.com/SkyM1raj/Block-Spring4Shell)
+- [Aur3ns/Block-Spring4Shell](https://github.com/Aur3ns/Block-Spring4Shell)
 - [guigui237/Expoitation-de-la-vuln-rabilit-CVE-2022-22965](https://github.com/guigui237/Expoitation-de-la-vuln-rabilit-CVE-2022-22965)
 
 ### CVE-2022-22966 (2022-04-14)
@@ -34204,6 +34215,13 @@
 
 - [sukusec301/SeaCMS-v10.1](https://github.com/sukusec301/SeaCMS-v10.1)
 
+### CVE-2020-23127 (2021-05-05)
+
+<code>Chamilo LMS 1.11.10 is affected by Cross Site Request Forgery (CSRF) via the edit_user function by targeting an admin user.
+</code>
+
+- [patrickhalasik/cve-2020-23127-PoC](https://github.com/patrickhalasik/cve-2020-23127-PoC)
+
 ### CVE-2020-23160 (2021-01-22)
 
 <code>Remote code execution in Pyrescom Termod4 time management devices before 10.04k allows authenticated remote attackers to arbitrary commands as root on the devices.
@@ -45925,7 +45943,7 @@
 <code>The kernel-mode drivers in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607 allow local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability,&quot; a different vulnerability than CVE-2016-3309, CVE-2016-3310, and CVE-2016-3311.
 </code>
 
-- [55-AA/CVE-2016-3308](https://github.com/55-AA/CVE-2016-3308)
+- [jackhuyh/CVE-2016-3308](https://github.com/jackhuyh/CVE-2016-3308)
 
 ### CVE-2016-3309 (2016-08-09)
 
@@ -46748,7 +46766,7 @@
 <code>win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability.&quot;
 </code>
 
-- [55-AA/CVE-2015-0057](https://github.com/55-AA/CVE-2015-0057)
+- [highandhigh/CVE-2015-0057](https://github.com/highandhigh/CVE-2015-0057)
 
 ### CVE-2015-0072 (2015-02-07)
 
