@@ -1,5 +1,17 @@
 # PoC in GitHub
 
+## 2025
+### CVE-2025-22352 (2025-01-07)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ELEXtensions ELEX WooCommerce Advanced Bulk Edit Products, Prices &amp; Attributes allows Blind SQL Injection.This issue affects ELEX WooCommerce Advanced Bulk Edit Products, Prices &amp; Attributes: from n/a through 1.4.8.
+</code>
+
+- [DoTTak/CVE-2025-22352](https://github.com/DoTTak/CVE-2025-22352)
+
+### CVE-2025-22510
+- [DoTTak/CVE-2025-22510](https://github.com/DoTTak/CVE-2025-22510)
+
+
 ## 2024
 ### CVE-2024-0012 (2024-11-18)
 
@@ -1051,7 +1063,6 @@
 - [l0n3m4n/CVE-2024-4577-RCE](https://github.com/l0n3m4n/CVE-2024-4577-RCE)
 - [bibo318/CVE-2024-4577-RCE-ATTACK](https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK)
 - [waived/CVE-2024-4577-PHP-RCE](https://github.com/waived/CVE-2024-4577-PHP-RCE)
-- [nNoSuger/CVE-2024-4577](https://github.com/nNoSuger/CVE-2024-4577)
 - [a-roshbaik/CVE-2024-4577](https://github.com/a-roshbaik/CVE-2024-4577)
 - [a-roshbaik/CVE-2024-4577-PHP-RCE](https://github.com/a-roshbaik/CVE-2024-4577-PHP-RCE)
 - [Jcccccx/CVE-2024-4577](https://github.com/Jcccccx/CVE-2024-4577)
@@ -1622,6 +1633,13 @@
 - [rxerium/CVE-2024-7593](https://github.com/rxerium/CVE-2024-7593)
 - [D3N14LD15K/CVE-2024-7593_PoC_Exploit](https://github.com/D3N14LD15K/CVE-2024-7593_PoC_Exploit)
 - [skyrowalker/CVE-2024-7593](https://github.com/skyrowalker/CVE-2024-7593)
+
+### CVE-2024-7627 (2024-09-05)
+
+<code>The Bit File Manager plugin for WordPress is vulnerable to Remote Code Execution in versions 6.0 to 6.5.5 via the 'checkSyntax' function. This is due to writing a temporary file to a publicly accessible directory before performing file validation. This makes it possible for unauthenticated attackers to execute code on the server if an administrator has allowed Guest User read permissions.
+</code>
+
+- [siunam321/CVE-2024-7627-PoC](https://github.com/siunam321/CVE-2024-7627-PoC)
 
 ### CVE-2024-7646 (2024-08-16)
 
@@ -7215,6 +7233,7 @@
 
 - [tnkr/poc_monitor](https://github.com/tnkr/poc_monitor)
 - [CCIEVoice2009/CVE-2024-49112](https://github.com/CCIEVoice2009/CVE-2024-49112)
+- [bo0l3an/CVE-2024-49112-PoC](https://github.com/bo0l3an/CVE-2024-49112-PoC)
 
 ### CVE-2024-49113 (2024-12-10)
 
@@ -7915,6 +7934,9 @@
 
 - [hotplugin0x01/CVE-2024-54679](https://github.com/hotplugin0x01/CVE-2024-54679)
 
+### CVE-2024-54761
+- [nscan9/CVE-2024-54761-BigAnt-Office-Messenger-5.6.06-RCE-via-SQL-Injection](https://github.com/nscan9/CVE-2024-54761-BigAnt-Office-Messenger-5.6.06-RCE-via-SQL-Injection)
+
 ### CVE-2024-54819 (2025-01-07)
 
 <code>I, Librarian before and including 5.11.1 is vulnerable to Server-Side Request Forgery (SSRF) due to improper input validation in classes/security/validation.php
@@ -8030,6 +8052,20 @@
 
 - [Chocapikk/CVE-2024-56145](https://github.com/Chocapikk/CVE-2024-56145)
 - [Sachinart/CVE-2024-56145-craftcms-rce](https://github.com/Sachinart/CVE-2024-56145-craftcms-rce)
+
+### CVE-2024-56278 (2025-01-07)
+
+<code>Improper Control of Generation of Code ('Code Injection') vulnerability in Smackcoders WP Ultimate Exporter allows PHP Remote File Inclusion.This issue affects WP Ultimate Exporter: from n/a through 2.9.1.
+</code>
+
+- [DoTTak/CVE-2024-56278](https://github.com/DoTTak/CVE-2024-56278)
+
+### CVE-2024-56289 (2025-01-07)
+
+<code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Groundhogg Inc. Groundhogg allows Reflected XSS.This issue affects Groundhogg: from n/a through 3.7.3.3.
+</code>
+
+- [DoTTak/CVE-2024-56289](https://github.com/DoTTak/CVE-2024-56289)
 
 ### CVE-2024-56331 (2024-12-20)
 
@@ -8846,6 +8882,7 @@
 </code>
 
 - [jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824)
+- [fr33c0d3/poc-cve-2023-3824](https://github.com/fr33c0d3/poc-cve-2023-3824)
 
 ### CVE-2023-3836 (2023-07-22)
 
@@ -42251,6 +42288,7 @@
 - [antisecc/CVE-2018-16763](https://github.com/antisecc/CVE-2018-16763)
 - [VitoBonetti/CVE-2018-16763](https://github.com/VitoBonetti/CVE-2018-16763)
 - [saccles/CVE-2018-16763-Proof-of-Concept](https://github.com/saccles/CVE-2018-16763-Proof-of-Concept)
+- [altsun/CVE-2018-16763-FuelCMS-1.4.1-RCE](https://github.com/altsun/CVE-2018-16763-FuelCMS-1.4.1-RCE)
 
 ### CVE-2018-16809 (2019-03-07)
 
