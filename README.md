@@ -1,6 +1,13 @@
 # PoC in GitHub
 
 ## 2025
+### CVE-2025-0282 (2025-01-08)
+
+<code>A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2, and Ivanti Neurons for ZTA gateways before version 22.7R2.3 allows a remote unauthenticated attacker to achieve remote code execution.
+</code>
+
+- [securexploit1/CVE-2025-0282](https://github.com/securexploit1/CVE-2025-0282)
+
 ### CVE-2025-22352 (2025-01-07)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ELEXtensions ELEX WooCommerce Advanced Bulk Edit Products, Prices &amp; Attributes allows Blind SQL Injection.This issue affects ELEX WooCommerce Advanced Bulk Edit Products, Prices &amp; Attributes: from n/a through 1.4.8.
@@ -8,7 +15,11 @@
 
 - [DoTTak/CVE-2025-22352](https://github.com/DoTTak/CVE-2025-22352)
 
-### CVE-2025-22510
+### CVE-2025-22510 (2025-01-09)
+
+<code>Deserialization of Untrusted Data vulnerability in Konrad Karpieszuk WC Price History for Omnibus allows Object Injection.This issue affects WC Price History for Omnibus: from n/a through 2.1.4.
+</code>
+
 - [DoTTak/CVE-2025-22510](https://github.com/DoTTak/CVE-2025-22510)
 
 
@@ -332,6 +343,7 @@
 - [CCIEVoice2009/CVE-2024-1086](https://github.com/CCIEVoice2009/CVE-2024-1086)
 - [kevcooper/CVE-2024-1086-checker](https://github.com/kevcooper/CVE-2024-1086-checker)
 - [feely666/CVE-2024-1086](https://github.com/feely666/CVE-2024-1086)
+- [xzx482/CVE-2024-1086](https://github.com/xzx482/CVE-2024-1086)
 - [LLfam/CVE-2024-1086](https://github.com/LLfam/CVE-2024-1086)
 
 ### CVE-2024-1112 (2024-01-31)
@@ -919,6 +931,7 @@
 </code>
 
 - [Redfox-Secuirty/Digisol-DG-GR1321-s-Password-Storage-in-Plaintext-CVE-2024-4232](https://github.com/Redfox-Secuirty/Digisol-DG-GR1321-s-Password-Storage-in-Plaintext-CVE-2024-4232)
+- [Redfox-Secuirty/Digisol-DG--GR1321-s-Password-Storage-in-Plaintext--CVE-2024-4232](https://github.com/Redfox-Secuirty/Digisol-DG--GR1321-s-Password-Storage-in-Plaintext--CVE-2024-4232)
 
 ### CVE-2024-4295 (2024-06-05)
 
@@ -1057,6 +1070,7 @@
 - [ggfzx/CVE-2024-4577](https://github.com/ggfzx/CVE-2024-4577)
 - [olebris/CVE-2024-4577](https://github.com/olebris/CVE-2024-4577)
 - [AlperenY-cs/CVE-2024-4577](https://github.com/AlperenY-cs/CVE-2024-4577)
+- [charis3306/CVE-2024-4577](https://github.com/charis3306/CVE-2024-4577)
 - [l0n3m4n/CVE-2024-4577-RCE](https://github.com/l0n3m4n/CVE-2024-4577-RCE)
 - [bibo318/CVE-2024-4577-RCE-ATTACK](https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK)
 - [waived/CVE-2024-4577-PHP-RCE](https://github.com/waived/CVE-2024-4577-PHP-RCE)
@@ -1171,6 +1185,7 @@
 - [KTN1990/CVE-2024-5084](https://github.com/KTN1990/CVE-2024-5084)
 - [Chocapikk/CVE-2024-5084](https://github.com/Chocapikk/CVE-2024-5084)
 - [k3lpi3b4nsh33/CVE-2024-5084](https://github.com/k3lpi3b4nsh33/CVE-2024-5084)
+- [WOOOOONG/CVE-2024-5084](https://github.com/WOOOOONG/CVE-2024-5084)
 - [z1gazaga/CVE-2024-5084](https://github.com/z1gazaga/CVE-2024-5084)
 - [Raeezrbr/CVE-2024-5084](https://github.com/Raeezrbr/CVE-2024-5084)
 
@@ -1308,6 +1323,13 @@
 
 - [Cappricio-Securities/CVE-2024-5947](https://github.com/Cappricio-Securities/CVE-2024-5947)
 
+### CVE-2024-5961 (2024-06-14)
+
+<code>Improper neutralization of input during web page generation vulnerability in 2ClickPortal software allows reflected cross-site scripting (XSS). An attacker might trick somebody into using a crafted URL, which will cause a script to be run in user's browser. This issue affects 2ClickPortal software versions from 7.2.31 through 7.6.4.
+</code>
+
+- [kac89/CVE-2024-5961](https://github.com/kac89/CVE-2024-5961)
+
 ### CVE-2024-6028 (2024-06-25)
 
 <code>The Quiz Maker plugin for WordPress is vulnerable to time-based SQL Injection via the 'ays_questions' parameter in all versions up to, and including, 6.5.8.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -1321,6 +1343,13 @@
 </code>
 
 - [lfillaz/CVE-2024-6043](https://github.com/lfillaz/CVE-2024-6043)
+
+### CVE-2024-6050 (2024-07-01)
+
+<code>Improper Neutralization of Input During Web Page Generation vulnerability in SOKRATES-software SOWA OPAC allows a Reflected Cross-Site Scripting (XSS). An attacker might trick somebody into using a crafted URL, which will cause a script to be run in user's browser. This issue affects SOWA OPAC software in versions from 4.0 before 4.9.10, from 5.0 before 6.2.12.
+</code>
+
+- [kac89/CVE-2024-6050](https://github.com/kac89/CVE-2024-6050)
 
 ### CVE-2024-6095 (2024-07-06)
 
@@ -1369,15 +1398,68 @@
 <code>A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period.
 </code>
 
+- [zgzhang/cve-2024-6387-poc](https://github.com/zgzhang/cve-2024-6387-poc)
+- [acrono/cve-2024-6387-poc](https://github.com/acrono/cve-2024-6387-poc)
 - [lflare/cve-2024-6387-poc](https://github.com/lflare/cve-2024-6387-poc)
+- [shyrwall/cve-2024-6387-poc](https://github.com/shyrwall/cve-2024-6387-poc)
+- [getdrive/CVE-2024-6387-PoC](https://github.com/getdrive/CVE-2024-6387-PoC)
+- [FerasAlrimali/CVE-2024-6387-POC](https://github.com/FerasAlrimali/CVE-2024-6387-POC)
+- [passwa11/cve-2024-6387-poc](https://github.com/passwa11/cve-2024-6387-poc)
+- [jack0we/CVE-2024-6387](https://github.com/jack0we/CVE-2024-6387)
 - [xaitax/CVE-2024-6387_Check](https://github.com/xaitax/CVE-2024-6387_Check)
 - [bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387)
 - [wiggels/regresshion-check](https://github.com/wiggels/regresshion-check)
+- [3yujw7njai/CVE-2024-6387](https://github.com/3yujw7njai/CVE-2024-6387)
+- [betancour/OpenSSH-Vulnerability-test](https://github.com/betancour/OpenSSH-Vulnerability-test)
+- [muyuanlove/CVE-2024-6387fixshell](https://github.com/muyuanlove/CVE-2024-6387fixshell)
+- [TAM-K592/CVE-2024-6387](https://github.com/TAM-K592/CVE-2024-6387)
+- [teamos-hub/regreSSHion](https://github.com/teamos-hub/regreSSHion)
+- [ahlfors/CVE-2024-6387](https://github.com/ahlfors/CVE-2024-6387)
+- [Mufti22/CVE-2024-6387-checkher](https://github.com/Mufti22/CVE-2024-6387-checkher)
+- [thegenetic/CVE-2024-6387-exploit](https://github.com/thegenetic/CVE-2024-6387-exploit)
+- [R4Tw1z/CVE-2024-6387](https://github.com/R4Tw1z/CVE-2024-6387)
+- [d0rb/CVE-2024-6387](https://github.com/d0rb/CVE-2024-6387)
+- [CiderAndWhisky/regression-scanner](https://github.com/CiderAndWhisky/regression-scanner)
+- [shamo0/CVE-2024-6387_PoC](https://github.com/shamo0/CVE-2024-6387_PoC)
+- [paradessia/CVE-2024-6387-nmap](https://github.com/paradessia/CVE-2024-6387-nmap)
+- [SecWithMoh/CVE-2024-6387](https://github.com/SecWithMoh/CVE-2024-6387)
+- [PrincipalAnthony/CVE-2024-6387-Updated-x64bit](https://github.com/PrincipalAnthony/CVE-2024-6387-Updated-x64bit)
+- [skyalliance/CVE-2024-6387-POC](https://github.com/skyalliance/CVE-2024-6387-POC)
+- [daniel-odrinski/CVE-2024-6387-Mitigation-Ansible-Playbook](https://github.com/daniel-odrinski/CVE-2024-6387-Mitigation-Ansible-Playbook)
+- [rumochnaya/openssh-cve-2024-6387.sh](https://github.com/rumochnaya/openssh-cve-2024-6387.sh)
+- [zenzue/CVE-2024-6387-Mitigation](https://github.com/zenzue/CVE-2024-6387-Mitigation)
 - [devarshishimpi/CVE-2024-6387-Check](https://github.com/devarshishimpi/CVE-2024-6387-Check)
+- [hssmo/cve-2024-6387_AImade](https://github.com/hssmo/cve-2024-6387_AImade)
+- [ACHUX21/checker-CVE-2024-6387](https://github.com/ACHUX21/checker-CVE-2024-6387)
+- [AiGptCode/ssh_exploiter_CVE-2024-6387](https://github.com/AiGptCode/ssh_exploiter_CVE-2024-6387)
+- [xristos8574/regreSSHion-nmap-scanner](https://github.com/xristos8574/regreSSHion-nmap-scanner)
+- [xonoxitron/regreSSHion](https://github.com/xonoxitron/regreSSHion)
+- [no-one-sec/CVE-2024-6387](https://github.com/no-one-sec/CVE-2024-6387)
+- [dawnl3ss/CVE-2024-6387](https://github.com/dawnl3ss/CVE-2024-6387)
+- [MrR0b0t19/CVE-2024-6387-Exploit-POC](https://github.com/MrR0b0t19/CVE-2024-6387-Exploit-POC)
+- [th3gokul/CVE-2024-6387](https://github.com/th3gokul/CVE-2024-6387)
+- [n1cks0n/Test_CVE-2024-6387](https://github.com/n1cks0n/Test_CVE-2024-6387)
 - [l0n3m4n/CVE-2024-6387](https://github.com/l0n3m4n/CVE-2024-6387)
+- [RickGeex/CVE-2024-6387-Checker](https://github.com/RickGeex/CVE-2024-6387-Checker)
+- [xonoxitron/regreSSHion-checker](https://github.com/xonoxitron/regreSSHion-checker)
+- [BrandonLynch2402/cve-2024-6387-nuclei-template](https://github.com/BrandonLynch2402/cve-2024-6387-nuclei-template)
+- [edsonjt81/CVE-2024-6387_Check](https://github.com/edsonjt81/CVE-2024-6387_Check)
+- [grupooruss/CVE-2024-6387](https://github.com/grupooruss/CVE-2024-6387)
+- [CognisysGroup/CVE-2024-6387-Checker](https://github.com/CognisysGroup/CVE-2024-6387-Checker)
+- [sxlmnwb/CVE-2024-6387](https://github.com/sxlmnwb/CVE-2024-6387)
+- [Symbolexe/CVE-2024-6387](https://github.com/Symbolexe/CVE-2024-6387)
 - [harshinsecurity/sentinelssh](https://github.com/harshinsecurity/sentinelssh)
+- [t3rry327/cve-2024-6387-poc](https://github.com/t3rry327/cve-2024-6387-poc)
 - [jocker2410/CVE-2024-6387_poc](https://github.com/jocker2410/CVE-2024-6387_poc)
 - [liqhtnd/sshd-logingracetime0](https://github.com/liqhtnd/sshd-logingracetime0)
+- [JackSparrowhk/ssh-CVE-2024-6387-poc](https://github.com/JackSparrowhk/ssh-CVE-2024-6387-poc)
+- [turbobit/CVE-2024-6387-OpenSSH-Vulnerability-Checker](https://github.com/turbobit/CVE-2024-6387-OpenSSH-Vulnerability-Checker)
+- [sms2056/CVE-2024-6387](https://github.com/sms2056/CVE-2024-6387)
+- [invaderslabs/regreSSHion-CVE-2024-6387-](https://github.com/invaderslabs/regreSSHion-CVE-2024-6387-)
+- [lala-amber/CVE-2024-6387](https://github.com/lala-amber/CVE-2024-6387)
+- [4lxprime/regreSSHive](https://github.com/4lxprime/regreSSHive)
+- [sardine-web/CVE-2024-6387_Check](https://github.com/sardine-web/CVE-2024-6387_Check)
+- [0x4D31/cve-2024-6387_hassh](https://github.com/0x4D31/cve-2024-6387_hassh)
 - [sardine-web/CVE-2024-6387-template](https://github.com/sardine-web/CVE-2024-6387-template)
 - [imv7/CVE-2024-6387](https://github.com/imv7/CVE-2024-6387)
 - [SiberianHacker/CVE-2024-6387-Finder](https://github.com/SiberianHacker/CVE-2024-6387-Finder)
@@ -2692,6 +2774,7 @@
 - [ShubhamKanhere307/CVE-2024-21413](https://github.com/ShubhamKanhere307/CVE-2024-21413)
 - [olebris/CVE-2024-21413](https://github.com/olebris/CVE-2024-21413)
 - [DerZiad/CVE-2024-21413](https://github.com/DerZiad/CVE-2024-21413)
+- [Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape](https://github.com/Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape)
 - [ThemeHackers/CVE-2024-21413](https://github.com/ThemeHackers/CVE-2024-21413)
 - [D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB](https://github.com/D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB)
 
@@ -4042,6 +4125,7 @@
 <code>Docassemble is an expert system for guided interviews and document assembly. The vulnerability allows attackers to gain unauthorized access to information on the system through URL manipulation. It affects versions 1.4.53 to 1.4.96. The vulnerability has been patched in version 1.4.97 of the master branch.
 </code>
 
+- [th3gokul/CVE-2024-27292](https://github.com/th3gokul/CVE-2024-27292)
 - [NingXin2002/Docassemble_poc](https://github.com/NingXin2002/Docassemble_poc)
 
 ### CVE-2024-27316 (2024-04-04)
@@ -4343,6 +4427,7 @@
 - [bigb0x/CVE-2024-28995](https://github.com/bigb0x/CVE-2024-28995)
 - [muhammetali20/CVE-2024-28995](https://github.com/muhammetali20/CVE-2024-28995)
 - [Praison001/CVE-2024-28995-SolarWinds-Serv-U](https://github.com/Praison001/CVE-2024-28995-SolarWinds-Serv-U)
+- [Stuub/CVE-2024-28995](https://github.com/Stuub/CVE-2024-28995)
 - [gotr00t0day/CVE-2024-28995](https://github.com/gotr00t0day/CVE-2024-28995)
 
 ### CVE-2024-28999 (2024-06-04)
@@ -4375,6 +4460,7 @@
 - [YongYe-Security/CVE-2024-29269](https://github.com/YongYe-Security/CVE-2024-29269)
 - [Chocapikk/CVE-2024-29269](https://github.com/Chocapikk/CVE-2024-29269)
 - [dream434/CVE-2024-29269](https://github.com/dream434/CVE-2024-29269)
+- [K3ysTr0K3R/CVE-2024-29269-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-29269-EXPLOIT)
 - [hack-with-rohit/CVE-2024-29269-RCE](https://github.com/hack-with-rohit/CVE-2024-29269-RCE)
 - [Quantum-Hacker/CVE-2024-29269](https://github.com/Quantum-Hacker/CVE-2024-29269)
 
@@ -5084,6 +5170,8 @@
 - [d0rb/CVE-2024-34102](https://github.com/d0rb/CVE-2024-34102)
 - [Chocapikk/CVE-2024-34102](https://github.com/Chocapikk/CVE-2024-34102)
 - [0x0d3ad/CVE-2024-34102](https://github.com/0x0d3ad/CVE-2024-34102)
+- [cmsec423/CVE-2024-34102](https://github.com/cmsec423/CVE-2024-34102)
+- [cmsec423/Magento-XXE-CVE-2024-34102](https://github.com/cmsec423/Magento-XXE-CVE-2024-34102)
 - [jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento](https://github.com/jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento)
 - [SamJUK/cosmicsting-validator](https://github.com/SamJUK/cosmicsting-validator)
 - [unknownzerobit/poc](https://github.com/unknownzerobit/poc)
@@ -5435,6 +5523,8 @@
 <code>GeoServer is an open source server that allows users to share and edit geospatial data. Prior to versions 2.23.6, 2.24.4, and 2.25.2, multiple OGC request parameters allow Remote Code Execution (RCE) by unauthenticated users through specially crafted input against a default GeoServer installation due to unsafely evaluating property names as XPath expressions.\n\nThe GeoTools library API that GeoServer calls evaluates property/attribute names for feature types in a way that unsafely passes them to the commons-jxpath library which can execute arbitrary code when evaluating XPath expressions. This XPath evaluation is intended to be used only by complex feature types (i.e., Application Schema data stores) but is incorrectly being applied to simple feature types as well which makes this vulnerability apply to **ALL** GeoServer instances. No public PoC is provided but this vulnerability has been confirmed to be exploitable through WFS GetFeature, WFS GetPropertyValue, WMS GetMap, WMS GetFeatureInfo, WMS GetLegendGraphic and WPS Execute requests. This vulnerability can lead to executing arbitrary code.\n\nVersions 2.23.6, 2.24.4, and 2.25.2 contain a patch for the issue. A workaround exists by removing the `gt-complex-x.y.jar` file from the GeoServer where `x.y` is the GeoTools version (e.g., `gt-complex-31.1.jar` if running GeoServer 2.25.1). This will remove the vulnerable code from GeoServer but may break some GeoServer functionality or prevent GeoServer from deploying if the gt-complex module is needed.
 </code>
 
+- [bigb0x/CVE-2024-36401](https://github.com/bigb0x/CVE-2024-36401)
+- [Niuwoo/CVE-2024-36401](https://github.com/Niuwoo/CVE-2024-36401)
 - [RevoltSecurities/CVE-2024-36401](https://github.com/RevoltSecurities/CVE-2024-36401)
 - [Mr-xn/CVE-2024-36401](https://github.com/Mr-xn/CVE-2024-36401)
 - [jakabakos/CVE-2024-36401-GeoServer-RCE](https://github.com/jakabakos/CVE-2024-36401-GeoServer-RCE)
@@ -5612,6 +5702,34 @@
 </code>
 
 - [crumbledwall/CVE-2024-37759_PoC](https://github.com/crumbledwall/CVE-2024-37759_PoC)
+
+### CVE-2024-37762 (2024-07-01)
+
+<code>MachForm up to version 21 is affected by an authenticated unrestricted file upload which leads to a remote code execution.
+</code>
+
+- [Atreb92/cve-2024-37762](https://github.com/Atreb92/cve-2024-37762)
+
+### CVE-2024-37763 (2024-07-01)
+
+<code>MachForm up to version 19 is affected by an unauthenticated stored cross-site scripting which affects users with valid sessions whom can view compiled forms results.
+</code>
+
+- [Atreb92/cve-2024-37763](https://github.com/Atreb92/cve-2024-37763)
+
+### CVE-2024-37764 (2024-07-01)
+
+<code>MachForm up to version 19 is affected by an authenticated stored cross-site scripting.
+</code>
+
+- [Atreb92/cve-2024-37764](https://github.com/Atreb92/cve-2024-37764)
+
+### CVE-2024-37765 (2024-07-01)
+
+<code>Machform up to version 19 is affected by an authenticated Blind SQL injection in the user account settings page.
+</code>
+
+- [Atreb92/cve-2024-37765](https://github.com/Atreb92/cve-2024-37765)
 
 ### CVE-2024-37770 (2024-07-10)
 
@@ -5907,6 +6025,13 @@
 
 - [ghostwirez/CVE-2024-39090-PoC](https://github.com/ghostwirez/CVE-2024-39090-PoC)
 
+### CVE-2024-39203 (2024-07-08)
+
+<code>A cross-site scripting (XSS) vulnerability in the Backend Theme Management module of Z-BlogPHP v1.7.3 allows attackers to execute arbitrary web scripts or HTML via a crafted payload.
+</code>
+
+- [5r1an/CVE-2024-39203](https://github.com/5r1an/CVE-2024-39203)
+
 ### CVE-2024-39205 (2024-10-28)
 
 <code>An issue in pyload-ng v0.5.0b3.dev85 running under python3.11 or below allows attackers to execute arbitrary code via a crafted HTTP request.
@@ -5972,6 +6097,13 @@
 </code>
 
 - [LOURC0D3/CVE-2024-39700-PoC](https://github.com/LOURC0D3/CVE-2024-39700-PoC)
+
+### CVE-2024-39844 (2024-07-03)
+
+<code>In ZNC before 1.9.1, remote code execution can occur in modtcl via a KICK.
+</code>
+
+- [ph1ns/CVE-2024-39844](https://github.com/ph1ns/CVE-2024-39844)
 
 ### CVE-2024-39908 (2024-07-16)
 
@@ -6956,7 +7088,7 @@
 - [skyalliance/exploit-cve-2024-47575](https://github.com/skyalliance/exploit-cve-2024-47575)
 - [expl0itsecurity/CVE-2024-47575](https://github.com/expl0itsecurity/CVE-2024-47575)
 - [XiaomingX/cve-2024-47575-exp](https://github.com/XiaomingX/cve-2024-47575-exp)
-- [Axi0n1ze/CVE-2024-47575-POC](https://github.com/Axi0n1ze/CVE-2024-47575-POC)
+- [Laonhearts/CVE-2024-47575-POC](https://github.com/Laonhearts/CVE-2024-47575-POC)
 
 ### CVE-2024-47854 (2024-10-04)
 
@@ -10654,7 +10786,7 @@
 <code>An issue found in Paradox Security Systems IPR512 allows attackers to cause a denial of service via the login.html and login.xml parameters.
 </code>
 
-- [DRAGOWN/Injection-vulnerability-in-Paradox-Security-Systems-IPR512-CVE-2023-24709-PoC](https://github.com/DRAGOWN/Injection-vulnerability-in-Paradox-Security-Systems-IPR512-CVE-2023-24709-PoC)
+- [DRAGOWN/CVE-2023-24709-PoC](https://github.com/DRAGOWN/CVE-2023-24709-PoC)
 
 ### CVE-2023-24749
 - [mahaloz/netgear-pwnagent](https://github.com/mahaloz/netgear-pwnagent)
