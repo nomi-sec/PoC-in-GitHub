@@ -7905,6 +7905,7 @@
 - [Q0LT/VM-CVE-2024-53677](https://github.com/Q0LT/VM-CVE-2024-53677)
 - [EQSTLab/CVE-2024-53677](https://github.com/EQSTLab/CVE-2024-53677)
 - [0xPThree/struts_cve-2024-53677](https://github.com/0xPThree/struts_cve-2024-53677)
+- [punitdarji/Apache-struts-cve-2024-53677](https://github.com/punitdarji/Apache-struts-cve-2024-53677)
 
 ### CVE-2024-54152 (2024-12-10)
 
@@ -29675,6 +29676,7 @@
 - [AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-](https://github.com/AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-)
 - [Super-Binary/cve-2021-44228](https://github.com/Super-Binary/cve-2021-44228)
 - [JanICT/poc-ldap-cve-2021-44228](https://github.com/JanICT/poc-ldap-cve-2021-44228)
+- [Kz0x-337/CVE-2021-44228](https://github.com/Kz0x-337/CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -30002,7 +30004,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Category-List-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Category-List-Stored-Cross-Site-Scripting-XSS)
-- [plsanu/CVE-2021-46071](https://github.com/plsanu/CVE-2021-46071)
 
 ### CVE-2021-46072 (2022-01-06)
 
