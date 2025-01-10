@@ -1180,6 +1180,13 @@
 - [sinsinology/CVE-2024-5009](https://github.com/sinsinology/CVE-2024-5009)
 - [th3gokul/CVE-2024-5009](https://github.com/th3gokul/CVE-2024-5009)
 
+### CVE-2024-5057 (2024-08-29)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Easy Digital Downloads allows SQL Injection.This issue affects Easy Digital Downloads: from n/a through 3.2.12.
+</code>
+
+- [bash3rt3am/poc-cve](https://github.com/bash3rt3am/poc-cve)
+
 ### CVE-2024-5084 (2024-05-23)
 
 <code>The Hash Form – Drag &amp; Drop Form Builder plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'file_upload_action' function in all versions up to, and including, 1.1.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -2520,6 +2527,13 @@
 </code>
 
 - [LiChaser/CVE-2024-12484](https://github.com/LiChaser/CVE-2024-12484)
+
+### CVE-2024-12542 (2025-01-09)
+
+<code>The linkID plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check when including the 'phpinfo' function in all versions up to, and including, 0.1.2. This makes it possible for unauthenticated attackers to read configuration settings and predefined variables on the site's server. The plugin does not need to be activated for the vulnerability to be exploited.
+</code>
+
+- [RandomRobbieBF/CVE-2024-12542](https://github.com/RandomRobbieBF/CVE-2024-12542)
 
 ### CVE-2024-12849 (2025-01-07)
 
@@ -7521,6 +7535,9 @@
 - [verylazytech/CVE-2024-50623](https://github.com/verylazytech/CVE-2024-50623)
 - [iSee857/Cleo-CVE-2024-50623-PoC](https://github.com/iSee857/Cleo-CVE-2024-50623-PoC)
 
+### CVE-2024-50633
+- [cetinbaldwin/CVE-2024-50633](https://github.com/cetinbaldwin/CVE-2024-50633)
+
 ### CVE-2024-50657 (2024-11-22)
 
 <code>An issue in Owncloud android apk v.4.3.1 allows a physically proximate attacker to escalate privileges via the PassCodeViewModel class, specifically in the checkPassCodeIsValid method
@@ -10161,6 +10178,7 @@
 - [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
 - [RonF98/CVE-2023-21716-POC](https://github.com/RonF98/CVE-2023-21716-POC)
+- [bash3rt3am/poc-cve](https://github.com/bash3rt3am/poc-cve)
 
 ### CVE-2023-21739 (2023-01-10)
 
@@ -26732,6 +26750,13 @@
 
 - [irql/CVE-2021-31728](https://github.com/irql/CVE-2021-31728)
 
+### CVE-2021-31755 (2021-05-07)
+
+<code>An issue was discovered on Tenda AC11 devices with firmware through 02.03.01.104_CN. A stack buffer overflow vulnerability in /goform/setmac allows attackers to execute arbitrary code on the system via a crafted post request.
+</code>
+
+- [bash3rt3am/poc-cve](https://github.com/bash3rt3am/poc-cve)
+
 ### CVE-2021-31760 (2021-04-25)
 
 <code>Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to achieve Remote Command Execution (RCE) through Webmin's running process feature.
@@ -29799,7 +29824,7 @@
 <code>A Remote Code Execution (RCE) vulnerabilty exists in LimeSurvey 5.2.4 via the upload and install plugins function, which could let a remote malicious user upload an arbitrary PHP code file.
 </code>
 
-- [D3Ext/LimeSurvey-RCE](https://github.com/D3Ext/LimeSurvey-RCE)
+- [D3Ext/CVE-2021-44967](https://github.com/D3Ext/CVE-2021-44967)
 
 ### CVE-2021-45007 (2022-02-20)
 
@@ -30017,7 +30042,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Category-List-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Category-List-Stored-Cross-Site-Scripting-XSS)
-- [plsanu/CVE-2021-46071](https://github.com/plsanu/CVE-2021-46071)
 
 ### CVE-2021-46072 (2022-01-06)
 
@@ -50623,6 +50647,13 @@
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
+
+### CVE-2001-1473 (2005-04-21)
+
+<code>The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target.
+</code>
+
+- [bash3rt3am/poc-cve](https://github.com/bash3rt3am/poc-cve)
 
 ### CVE-2001-3389
 - [becrevex/Gaston](https://github.com/becrevex/Gaston)
