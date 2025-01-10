@@ -787,6 +787,7 @@
 </code>
 
 - [FelixFoxf/-CVE-2024-3393](https://github.com/FelixFoxf/-CVE-2024-3393)
+- [waived/CVE-2024-3393](https://github.com/waived/CVE-2024-3393)
 
 ### CVE-2024-3400 (2024-04-12)
 
@@ -7973,7 +7974,11 @@
 
 - [hotplugin0x01/CVE-2024-54679](https://github.com/hotplugin0x01/CVE-2024-54679)
 
-### CVE-2024-54761
+### CVE-2024-54761 (2025-01-09)
+
+<code>BigAnt Office Messenger 5.6.06 is vulnerable to SQL Injection via the 'dev_code' parameter.
+</code>
+
 - [nscan9/CVE-2024-54761-BigAnt-Office-Messenger-5.6.06-RCE-via-SQL-Injection](https://github.com/nscan9/CVE-2024-54761-BigAnt-Office-Messenger-5.6.06-RCE-via-SQL-Injection)
 
 ### CVE-2024-54819 (2025-01-07)
@@ -11461,7 +11466,11 @@
 - [superzerosec/CVE-2023-28343](https://github.com/superzerosec/CVE-2023-28343)
 - [hba343434/CVE-2023-28343](https://github.com/hba343434/CVE-2023-28343)
 
-### CVE-2023-28354
+### CVE-2023-28354 (2025-01-09)
+
+<code>An issue was discovered in Opsview Monitor Agent 6.8. An unauthenticated remote attacker can call check_nrpe against affected targets, specifying known NRPE plugins, which in default installations are configured to accept command control characters and pass them to command-line interpreters for NRPE plugin execution. This allows the attacker to escape NRPE plugin execution and execute commands remotely on the target as NT_AUTHORITY\SYSTEM.
+</code>
+
 - [stormfleet/CVE-2023-28354](https://github.com/stormfleet/CVE-2023-28354)
 
 ### CVE-2023-28432 (2023-03-22)
@@ -19968,6 +19977,13 @@
 </code>
 
 - [IbrahimEkimIsik/CVE-2022-28099](https://github.com/IbrahimEkimIsik/CVE-2022-28099)
+
+### CVE-2022-28108 (2022-04-19)
+
+<code>Selenium Server (Grid) before 4 allows CSRF because it permits non-JSON content types such as application/x-www-form-urlencoded, multipart/form-data, and text/plain.
+</code>
+
+- [ZeroEthical/CVE-2022-28108](https://github.com/ZeroEthical/CVE-2022-28108)
 
 ### CVE-2022-28113 (2022-04-15)
 
@@ -29672,7 +29688,6 @@
 - [AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-](https://github.com/AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-)
 - [Super-Binary/cve-2021-44228](https://github.com/Super-Binary/cve-2021-44228)
 - [JanICT/poc-ldap-cve-2021-44228](https://github.com/JanICT/poc-ldap-cve-2021-44228)
-- [Kz0x-337/CVE-2021-44228](https://github.com/Kz0x-337/CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -30000,6 +30015,7 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Category-List-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Category-List-Stored-Cross-Site-Scripting-XSS)
+- [plsanu/CVE-2021-46071](https://github.com/plsanu/CVE-2021-46071)
 
 ### CVE-2021-46072 (2022-01-06)
 
@@ -31171,6 +31187,7 @@
 - [Warelock/cve-2020-1938](https://github.com/Warelock/cve-2020-1938)
 - [WHtig3r/CVE-2020-1938](https://github.com/WHtig3r/CVE-2020-1938)
 - [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro)
+- [bash3rt3am/poc-cve](https://github.com/bash3rt3am/poc-cve)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -37539,6 +37556,13 @@
 </code>
 
 - [Insecurities/CVE-2019-11224](https://github.com/Insecurities/CVE-2019-11224)
+
+### CVE-2019-11248 (2019-08-29)
+
+<code>The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet healthz port. The go pprof endpoint is exposed over the Kubelet's healthz port. This debugging endpoint can potentially leak sensitive information such as internal Kubelet memory addresses and configuration, or for limited denial of service. Versions prior to 1.15.0, 1.14.4, 1.13.8, and 1.12.10 are affected. The issue is of medium severity, but not exposed by the default configuration.
+</code>
+
+- [bash3rt3am/poc-cve](https://github.com/bash3rt3am/poc-cve)
 
 ### CVE-2019-11358 (2019-04-19)
 
