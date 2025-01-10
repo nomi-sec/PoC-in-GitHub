@@ -7,6 +7,7 @@
 </code>
 
 - [securexploit1/CVE-2025-0282](https://github.com/securexploit1/CVE-2025-0282)
+- [NyxanGoat/CVE-2025-0282-PoC](https://github.com/NyxanGoat/CVE-2025-0282-PoC)
 
 ### CVE-2025-22352 (2025-01-07)
 
@@ -831,6 +832,7 @@
 - [iwallarm/cve-2024-3400](https://github.com/iwallarm/cve-2024-3400)
 - [workshop748/CVE-2024-3400](https://github.com/workshop748/CVE-2024-3400)
 - [nanwinata/CVE-2024-3400](https://github.com/nanwinata/CVE-2024-3400)
+- [XiaomingX/CVE-2024-3400-poc](https://github.com/XiaomingX/CVE-2024-3400-poc)
 
 ### CVE-2024-3435 (2024-05-16)
 
@@ -6804,6 +6806,7 @@
 </code>
 
 - [congdong007/CVE-2024-45216-Poc](https://github.com/congdong007/CVE-2024-45216-Poc)
+- [qhoko/CVE-2024-45216](https://github.com/qhoko/CVE-2024-45216)
 
 ### CVE-2024-45241 (2024-08-26)
 
@@ -13857,7 +13860,6 @@
 - [RonF98/CVE-2023-38831-POC](https://github.com/RonF98/CVE-2023-38831-POC)
 - [VictoriousKnight/CVE-2023-38831_Exploit](https://github.com/VictoriousKnight/CVE-2023-38831_Exploit)
 - [kuyrathdaro/winrar-cve-2023-38831](https://github.com/kuyrathdaro/winrar-cve-2023-38831)
-- [chaos198800/CVE-2023-38831WinRAR-dai-ma-zhi-xing-lou-dong-fu-xian-zi-yuan-wen-jian](https://github.com/chaos198800/CVE-2023-38831WinRAR-dai-ma-zhi-xing-lou-dong-fu-xian-zi-yuan-wen-jian)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -50403,13 +50405,6 @@
 - [n3rdh4x0r/distccd_rce_CVE-2004-2687](https://github.com/n3rdh4x0r/distccd_rce_CVE-2004-2687)
 - [k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687)
 - [ss0wl/CVE-2004-2687_distcc_v1](https://github.com/ss0wl/CVE-2004-2687_distcc_v1)
-
-### CVE-2004-2761 (2009-01-05)
-
-<code>The MD5 Message-Digest Algorithm is not collision resistant, which makes it easier for context-dependent attackers to conduct spoofing attacks, as demonstrated by attacks on the use of MD5 in the signature algorithm of an X.509 certificate.
-</code>
-
-- [chaos198800/Windows-xia-SSL-zheng-shu-zhi-zuo-gong-ju--CVE-2004-2761-lou-dong-xiu-fu](https://github.com/chaos198800/Windows-xia-SSL-zheng-shu-zhi-zuo-gong-ju--CVE-2004-2761-lou-dong-xiu-fu)
 
 ### CVE-2004-6768
 - [yougboiz/Metasploit-CVE-2004-6768](https://github.com/yougboiz/Metasploit-CVE-2004-6768)
