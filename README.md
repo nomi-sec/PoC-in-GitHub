@@ -4981,6 +4981,7 @@
 - [grecosamuel/CVE-2024-32002](https://github.com/grecosamuel/CVE-2024-32002)
 - [XiaomingX/cve-2024-32002-poc](https://github.com/XiaomingX/cve-2024-32002-poc)
 - [jolibb55/donald](https://github.com/jolibb55/donald)
+- [Katherine-song/CVE-2024-32002](https://github.com/Katherine-song/CVE-2024-32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
