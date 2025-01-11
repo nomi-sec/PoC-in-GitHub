@@ -7,6 +7,7 @@
 </code>
 
 - [securexploit1/CVE-2025-0282](https://github.com/securexploit1/CVE-2025-0282)
+- [BishopFox/CVE-2025-0282-check](https://github.com/BishopFox/CVE-2025-0282-check)
 - [NyxanGoat/CVE-2025-0282-PoC](https://github.com/NyxanGoat/CVE-2025-0282-PoC)
 
 ### CVE-2025-22352 (2025-01-07)
@@ -2301,6 +2302,7 @@
 - [m3ssap0/wordpress-really-simple-security-authn-bypass-vulnerable-application](https://github.com/m3ssap0/wordpress-really-simple-security-authn-bypass-vulnerable-application)
 - [MattJButler/CVE-2024-10924](https://github.com/MattJButler/CVE-2024-10924)
 - [m3ssap0/wordpress-really-simple-security-authn-bypass-exploit](https://github.com/m3ssap0/wordpress-really-simple-security-authn-bypass-exploit)
+- [julesbsz/CVE-2024-10924](https://github.com/julesbsz/CVE-2024-10924)
 - [Trackflaw/CVE-2024-10924-Wordpress-Docker](https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker)
 - [Maalfer/CVE-2024-10924-PoC](https://github.com/Maalfer/CVE-2024-10924-PoC)
 - [D1se0/CVE-2024-10924-Bypass-MFA-Wordpress-LAB](https://github.com/D1se0/CVE-2024-10924-Bypass-MFA-Wordpress-LAB)
@@ -5141,13 +5143,25 @@
 
 - [fdzdev/CVE-2024-33231](https://github.com/fdzdev/CVE-2024-33231)
 
-### CVE-2024-33297
+### CVE-2024-33297 (2025-01-10)
+
+<code>Cross Site Scripting vulnerability in Microweber v.2.0.9 allows a remote attacker to execute arbitrary code via the campaign Name (Internal Name) field in the Add new campaign function
+</code>
+
 - [MathSabo/CVE-2024-33297](https://github.com/MathSabo/CVE-2024-33297)
 
-### CVE-2024-33298
+### CVE-2024-33298 (2025-01-10)
+
+<code>Microweber Cross Site Scripting vulnerability in Microweber v.2.0.9 allows a remote attacker to execute arbitrary code via the create new backup function in the endpoint /admin/module/view?type=admin__backup
+</code>
+
 - [MathSabo/CVE-2024-33298](https://github.com/MathSabo/CVE-2024-33298)
 
-### CVE-2024-33299
+### CVE-2024-33299 (2025-01-10)
+
+<code>Cross Site Scripting vulnerability in Microweber v.2.0.9 allows a remote attacker to execute arbitrary code via the First Name and Last Name parameters in the endpoint /admin/module/view?type=users
+</code>
+
 - [MathSabo/CVE-2024-33299](https://github.com/MathSabo/CVE-2024-33299)
 
 ### CVE-2024-33352
@@ -6079,6 +6093,13 @@
 
 - [ghostwirez/CVE-2024-39090-PoC](https://github.com/ghostwirez/CVE-2024-39090-PoC)
 
+### CVE-2024-39123 (2024-07-19)
+
+<code>In janeczku Calibre-Web 0.6.0 to 0.6.21, the edit_book_comments function is vulnerable to Cross Site Scripting (XSS) due to improper sanitization performed by the clean_string function. The vulnerability arises from the way the clean_string function handles HTML sanitization.
+</code>
+
+- [theexploiters/CVE-2024-39123-Exploit](https://github.com/theexploiters/CVE-2024-39123-Exploit)
+
 ### CVE-2024-39203 (2024-07-08)
 
 <code>A cross-site scripting (XSS) vulnerability in the Backend Theme Management module of Z-BlogPHP v1.7.3 allows attackers to execute arbitrary web scripts or HTML via a crafted payload.
@@ -6197,6 +6218,13 @@
 </code>
 
 - [Abdurahmon3236/CVE-2024-40110](https://github.com/Abdurahmon3236/CVE-2024-40110)
+
+### CVE-2024-40111 (2024-08-23)
+
+<code>A persistent (stored) cross-site scripting (XSS) vulnerability has been identified in Automad 2.0.0-alpha.4. This vulnerability enables an attacker to inject malicious JavaScript code into the template body. The injected code is stored within the flat file CMS and is executed in the browser of any user visiting the forum.
+</code>
+
+- [theexploiters/CVE-2024-40111-Exploit](https://github.com/theexploiters/CVE-2024-40111-Exploit)
 
 ### CVE-2024-40119 (2024-07-17)
 
@@ -6568,6 +6596,7 @@
 </code>
 
 - [partywavesec/invesalius3_vulnerabilities](https://github.com/partywavesec/invesalius3_vulnerabilities)
+- [theexploiters/CVE-2024-42845-Exploit](https://github.com/theexploiters/CVE-2024-42845-Exploit)
 
 ### CVE-2024-42849 (2024-08-16)
 
@@ -8053,7 +8082,11 @@
 
 - [partywavesec/CVE-2024-54819](https://github.com/partywavesec/CVE-2024-54819)
 
-### CVE-2024-54910
+### CVE-2024-54910 (2025-01-10)
+
+<code>Hasleo Backup Suite Free v4.9.4 and before is vulnerable to Insecure Permissions via the File recovery function.
+</code>
+
 - [KrakenEU/CVE-2024-54910](https://github.com/KrakenEU/CVE-2024-54910)
 
 ### CVE-2024-55099 (2024-12-12)
@@ -41041,7 +41074,7 @@
 <code>\nThere is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote attackers could exploit this vulnerability to make the network where the E5573Cs-322 is running temporarily unavailable.\n\n
 </code>
 
-- [lawrenceamer/CVE-2018-7935](https://github.com/lawrenceamer/CVE-2018-7935)
+- [zux0x3a/CVE-2018-7935](https://github.com/zux0x3a/CVE-2018-7935)
 
 ### CVE-2018-8004 (2018-08-29)
 
