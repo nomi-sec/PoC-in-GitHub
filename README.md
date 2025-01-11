@@ -2568,6 +2568,13 @@
 - [RandomRobbieBF/CVE-2024-12849](https://github.com/RandomRobbieBF/CVE-2024-12849)
 - [Nxploited/CVE-2024-12849-Poc](https://github.com/Nxploited/CVE-2024-12849-Poc)
 
+### CVE-2024-12856 (2024-12-27)
+
+<code>The Four-Faith router models F3x24 and F3x36 are affected by an operating system (OS) command injection vulnerability. At least firmware version 2.0 allows authenticated and remote attackers to execute arbitrary OS commands over HTTP when modifying the system time via apply.cgi. Additionally, this firmware version has default credentials which, if not changed, would effectively change this vulnerability into an unauthenticated and remote OS command execution issue.
+</code>
+
+- [nu113d/CVE-2024-12856](https://github.com/nu113d/CVE-2024-12856)
+
 ### CVE-2024-12883 (2024-12-21)
 
 <code>In code-projects Job Recruitment 1.0 wurde eine problematische Schwachstelle ausgemacht. Das betrifft eine unbekannte Funktionalität der Datei /_email.php. Mittels Manipulieren des Arguments email mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
@@ -4981,7 +4988,6 @@
 - [grecosamuel/CVE-2024-32002](https://github.com/grecosamuel/CVE-2024-32002)
 - [XiaomingX/cve-2024-32002-poc](https://github.com/XiaomingX/cve-2024-32002-poc)
 - [jolibb55/donald](https://github.com/jolibb55/donald)
-- [Katherine-song/CVE-2024-32002](https://github.com/Katherine-song/CVE-2024-32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -7380,6 +7386,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-49328](https://github.com/RandomRobbieBF/CVE-2024-49328)
+- [Nxploited/CVE-2024-49328-exploit](https://github.com/Nxploited/CVE-2024-49328-exploit)
 
 ### CVE-2024-49368 (2024-10-21)
 
@@ -9032,6 +9039,7 @@
 
 - [jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824)
 - [fr33c0d3/poc-cve-2023-3824](https://github.com/fr33c0d3/poc-cve-2023-3824)
+- [bluefish3r/poc-cve](https://github.com/bluefish3r/poc-cve)
 
 ### CVE-2023-3836 (2023-07-22)
 
@@ -39025,6 +39033,7 @@
 - [brunosergi/bloodit](https://github.com/brunosergi/bloodit)
 - [spyx/cve-2019-17240](https://github.com/spyx/cve-2019-17240)
 - [mind2hex/CVE-2019-17240](https://github.com/mind2hex/CVE-2019-17240)
+- [0xDTC/Bludit-3.9.2-Auth-Bruteforce-Bypass-CVE-2019-17240](https://github.com/0xDTC/Bludit-3.9.2-Auth-Bruteforce-Bypass-CVE-2019-17240)
 
 ### CVE-2019-17382 (2019-10-09)
 
