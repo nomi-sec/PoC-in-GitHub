@@ -9,6 +9,7 @@
 - [securexploit1/CVE-2025-0282](https://github.com/securexploit1/CVE-2025-0282)
 - [BishopFox/CVE-2025-0282-check](https://github.com/BishopFox/CVE-2025-0282-check)
 - [NyxanGoat/CVE-2025-0282-PoC](https://github.com/NyxanGoat/CVE-2025-0282-PoC)
+- [absholi7ly/CVE-2025-0282-Ivanti-exploit](https://github.com/absholi7ly/CVE-2025-0282-Ivanti-exploit)
 
 ### CVE-2025-22352 (2025-01-07)
 
@@ -2550,6 +2551,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-12558](https://github.com/RandomRobbieBF/CVE-2024-12558)
+- [Nxploited/CVE-2024-12558-exploit](https://github.com/Nxploited/CVE-2024-12558-exploit)
 
 ### CVE-2024-12594 (2024-12-24)
 
@@ -6498,6 +6500,7 @@
 - [watchtowrlabs/Mitel-MiCollab-Auth-Bypass_CVE-2024-41713](https://github.com/watchtowrlabs/Mitel-MiCollab-Auth-Bypass_CVE-2024-41713)
 - [zxj-hub/CVE-2024-41713POC](https://github.com/zxj-hub/CVE-2024-41713POC)
 - [Sanandd/cve-2024-CVE-2024-41713](https://github.com/Sanandd/cve-2024-CVE-2024-41713)
+- [amanverma-wsu/CVE-2024-41713-Scan](https://github.com/amanverma-wsu/CVE-2024-41713-Scan)
 
 ### CVE-2024-41958 (2024-08-05)
 
