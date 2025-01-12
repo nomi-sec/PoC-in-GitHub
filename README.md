@@ -10,6 +10,7 @@
 - [BishopFox/CVE-2025-0282-check](https://github.com/BishopFox/CVE-2025-0282-check)
 - [NyxanGoat/CVE-2025-0282-PoC](https://github.com/NyxanGoat/CVE-2025-0282-PoC)
 - [absholi7ly/CVE-2025-0282-Ivanti-exploit](https://github.com/absholi7ly/CVE-2025-0282-Ivanti-exploit)
+- [anonzoli/CVE-2025-0282-Full-version](https://github.com/anonzoli/CVE-2025-0282-Full-version)
 
 ### CVE-2025-22352 (2025-01-07)
 
@@ -25220,6 +25221,7 @@
 - [tijme/kernel-mii](https://github.com/tijme/kernel-mii)
 - [nanabingies/CVE-2021-21551](https://github.com/nanabingies/CVE-2021-21551)
 - [Eap2468/CVE-2021-21551](https://github.com/Eap2468/CVE-2021-21551)
+- [IlanDudnik/CVE-2021-21551](https://github.com/IlanDudnik/CVE-2021-21551)
 
 ### CVE-2021-21716
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
@@ -30118,7 +30120,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-MyAccount-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-MyAccount-Stored-Cross-Site-Scripting-XSS)
-- [plsanu/CVE-2021-46068](https://github.com/plsanu/CVE-2021-46068)
 
 ### CVE-2021-46069 (2022-01-06)
 
@@ -36623,6 +36624,13 @@
 </code>
 
 - [raymontag/CVE-2019-5596](https://github.com/raymontag/CVE-2019-5596)
+
+### CVE-2019-5602 (2019-07-03)
+
+<code>In FreeBSD 12.0-STABLE before r349628, 12.0-RELEASE before 12.0-RELEASE-p7, 11.3-PRERELEASE before r349629, 11.3-RC3 before 11.3-RC3-p1, and 11.2-RELEASE before 11.2-RELEASE-p11, a bug in the cdrom driver allows users with read access to the cdrom device to arbitrarily overwrite kernel memory when media is present thereby allowing a malicious user in the operator group to gain root privileges.
+</code>
+
+- [test-one9/CVE-2019-5602-poc](https://github.com/test-one9/CVE-2019-5602-poc)
 
 ### CVE-2019-5603 (2019-07-26)
 
