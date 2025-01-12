@@ -10,7 +10,7 @@
 - [BishopFox/CVE-2025-0282-check](https://github.com/BishopFox/CVE-2025-0282-check)
 - [NyxanGoat/CVE-2025-0282-PoC](https://github.com/NyxanGoat/CVE-2025-0282-PoC)
 - [absholi7ly/CVE-2025-0282-Ivanti-exploit](https://github.com/absholi7ly/CVE-2025-0282-Ivanti-exploit)
-- [anonzoli/CVE-2025-0282-Full-version](https://github.com/anonzoli/CVE-2025-0282-Full-version)
+- [AnonStorks/CVE-2025-0282-Full-version](https://github.com/AnonStorks/CVE-2025-0282-Full-version)
 
 ### CVE-2025-22352 (2025-01-07)
 
@@ -2985,6 +2985,13 @@
 </code>
 
 - [0xkickit/iCUE_DllHijack_LPE-CVE-2024-22002](https://github.com/0xkickit/iCUE_DllHijack_LPE-CVE-2024-22002)
+
+### CVE-2024-22017 (2024-03-19)
+
+<code>setuid() does not affect libuv's internal io_uring operations if initialized before the call to setuid().\nThis allows the process to perform privileged operations despite presumably having dropped such privileges through a call to setuid().\nThis vulnerability affects all users using version greater or equal than Node.js 18.18.0, Node.js 20.4.0 and Node.js 21.
+</code>
+
+- [SpiralBL0CK/cve-2024-22017_to_test](https://github.com/SpiralBL0CK/cve-2024-22017_to_test)
 
 ### CVE-2024-22024 (2024-02-13)
 
@@ -7606,6 +7613,7 @@
 </code>
 
 - [newlinesec/CVE-2024-50603](https://github.com/newlinesec/CVE-2024-50603)
+- [th3gokul/CVE-2024-50603](https://github.com/th3gokul/CVE-2024-50603)
 
 ### CVE-2024-50623 (2024-10-27)
 
@@ -20666,7 +20674,7 @@
 - [MalwareTech/FollinaExtractor](https://github.com/MalwareTech/FollinaExtractor)
 - [notherealhazard/follina-CVE-2022-30190](https://github.com/notherealhazard/follina-CVE-2022-30190)
 - [Cerebrovinny/follina-CVE-2022-30190](https://github.com/Cerebrovinny/follina-CVE-2022-30190)
-- [Lucaskrell/go_follina](https://github.com/Lucaskrell/go_follina)
+- [Zitchev/go_follina](https://github.com/Zitchev/go_follina)
 - [Gra3s/CVE-2022-30190_EXP_PowerPoint](https://github.com/Gra3s/CVE-2022-30190_EXP_PowerPoint)
 - [EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-](https://github.com/EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-)
 - [jeffreybxu/five-nights-at-follina-s](https://github.com/jeffreybxu/five-nights-at-follina-s)
