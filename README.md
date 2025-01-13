@@ -2034,6 +2034,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-9707](https://github.com/RandomRobbieBF/CVE-2024-9707)
+- [Nxploited/CVE-2024-9707-Poc](https://github.com/Nxploited/CVE-2024-9707-Poc)
 
 ### CVE-2024-9796 (2024-10-10)
 
@@ -6662,6 +6663,7 @@
 - [jenkinsci-cert/SECURITY-3430](https://github.com/jenkinsci-cert/SECURITY-3430)
 - [v9d0g/CVE-2024-43044-POC](https://github.com/v9d0g/CVE-2024-43044-POC)
 - [convisolabs/CVE-2024-43044-jenkins](https://github.com/convisolabs/CVE-2024-43044-jenkins)
+- [DACC4/CVE-2024-43044-jenkins-creds](https://github.com/DACC4/CVE-2024-43044-jenkins-creds)
 
 ### CVE-2024-43160 (2024-08-13)
 
@@ -31995,7 +31997,7 @@
 </code>
 
 - [nikhil1232/CVE-2020-7384](https://github.com/nikhil1232/CVE-2020-7384)
-- [0xCarsonS/CVE-2020-7384](https://github.com/0xCarsonS/CVE-2020-7384)
+- [CarsonShaffer/CVE-2020-7384](https://github.com/CarsonShaffer/CVE-2020-7384)
 
 ### CVE-2020-7388 (2021-07-22)
 
