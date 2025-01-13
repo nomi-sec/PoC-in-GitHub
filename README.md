@@ -7481,6 +7481,13 @@
 
 - [neko-hat/CVE-2024-50395](https://github.com/neko-hat/CVE-2024-50395)
 
+### CVE-2024-50404 (2024-12-06)
+
+<code>A link following vulnerability has been reported to affect Qsync Central. If exploited, the vulnerability could allow remote attackers who have gained user access to traverse the file system to unintended locations.\n\nWe have already fixed the vulnerability in the following versions:\nQsync Central 4.4.0.16_20240819 ( 2024/08/19 ) and later
+</code>
+
+- [C411e/CVE-2024-50404](https://github.com/C411e/CVE-2024-50404)
+
 ### CVE-2024-50427 (2024-10-29)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in Devsoft Baltic OÜ SurveyJS: Drag &amp; Drop WordPress Form Builder.This issue affects SurveyJS: Drag &amp; Drop WordPress Form Builder: from n/a through 1.9.136.
@@ -8015,6 +8022,13 @@
 - [0xPThree/struts_cve-2024-53677](https://github.com/0xPThree/struts_cve-2024-53677)
 - [punitdarji/Apache-struts-cve-2024-53677](https://github.com/punitdarji/Apache-struts-cve-2024-53677)
 - [SeanRickerd/CVE-2024-53677](https://github.com/SeanRickerd/CVE-2024-53677)
+
+### CVE-2024-53691 (2024-12-06)
+
+<code>A link following vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained user access to traverse the file system to unintended locations.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.8.2823 build 20240712 and later\nQTS 5.2.0.2802 build 20240620 and later\nQuTS hero h5.1.8.2823 build 20240712 and later\nQuTS hero h5.2.0.2802 build 20240620 and later
+</code>
+
+- [C411e/CVE-2024-53691](https://github.com/C411e/CVE-2024-53691)
 
 ### CVE-2024-54152 (2024-12-10)
 
