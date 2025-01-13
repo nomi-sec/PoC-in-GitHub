@@ -5522,6 +5522,7 @@
 - [varwara/CVE-2024-35250](https://github.com/varwara/CVE-2024-35250)
 - [ro0tmylove/CVE-2024-35250-BOF](https://github.com/ro0tmylove/CVE-2024-35250-BOF)
 - [yinsel/CVE-2024-35250-BOF](https://github.com/yinsel/CVE-2024-35250-BOF)
+- [Brentlyw/GiveMeKernel](https://github.com/Brentlyw/GiveMeKernel)
 
 ### CVE-2024-35286 (2024-10-21)
 
@@ -8279,7 +8280,11 @@
 
 - [absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit](https://github.com/absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit)
 
-### CVE-2024-57487
+### CVE-2024-57487 (2025-01-13)
+
+<code>In Code-Projects Online Car Rental System 1.0, the file upload feature does not validate file extensions or MIME types allowing an attacker to upload a PHP shell without any restrictions and execute commands on the server.
+</code>
+
 - [aaryan-11-x/CVE-2024-57487-and-CVE-2024-57488](https://github.com/aaryan-11-x/CVE-2024-57487-and-CVE-2024-57488)
 
 ### CVE-2024-1642470
@@ -24821,7 +24826,6 @@
 - [galoget/PwnKit-CVE-2021-4034](https://github.com/galoget/PwnKit-CVE-2021-4034)
 - [Yakumwamba/POC-CVE-2021-4034](https://github.com/Yakumwamba/POC-CVE-2021-4034)
 - [ayoub-elbouzi/CVE-2021-4034-Pwnkit](https://github.com/ayoub-elbouzi/CVE-2021-4034-Pwnkit)
-- [Sakura-nee/CVE-2021-4034](https://github.com/Sakura-nee/CVE-2021-4034)
 - [oreosec/pwnkit](https://github.com/oreosec/pwnkit)
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [Rvn0xsy/CVE-2021-4034](https://github.com/Rvn0xsy/CVE-2021-4034)
@@ -26794,8 +26798,8 @@
 - [verygenericname/CVE-2021-30955-POC-IPA](https://github.com/verygenericname/CVE-2021-30955-POC-IPA)
 - [b1n4r1b01/desc_race](https://github.com/b1n4r1b01/desc_race)
 - [markie-dev/desc_race_A15](https://github.com/markie-dev/desc_race_A15)
-- [Dylbin/desc_race](https://github.com/Dylbin/desc_race)
 - [GeoSn0w/Pentagram-exploit-tester](https://github.com/GeoSn0w/Pentagram-exploit-tester)
+- [st-rnd/desc_race-1](https://github.com/st-rnd/desc_race-1)
 
 ### CVE-2021-30956 (2021-08-24)
 
@@ -30144,6 +30148,7 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-MyAccount-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-MyAccount-Stored-Cross-Site-Scripting-XSS)
+- [plsanu/CVE-2021-46068](https://github.com/plsanu/CVE-2021-46068)
 
 ### CVE-2021-46069 (2022-01-06)
 
