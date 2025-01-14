@@ -40807,7 +40807,6 @@
 - [antunesmpedro/CVE-2018-6574](https://github.com/antunesmpedro/CVE-2018-6574)
 - [jahwni/CVE-2018-6574](https://github.com/jahwni/CVE-2018-6574)
 - [NsByte/CVE-2018-6574](https://github.com/NsByte/CVE-2018-6574)
-- [Zeeshan12340/CVE-2018-6574](https://github.com/Zeeshan12340/CVE-2018-6574)
 - [moTorky/CVE-2018-6574-POC](https://github.com/moTorky/CVE-2018-6574-POC)
 - [Ashved9/Orange](https://github.com/Ashved9/Orange)
 - [zerbaliy3v/cve-2018-6574-exploit](https://github.com/zerbaliy3v/cve-2018-6574-exploit)
