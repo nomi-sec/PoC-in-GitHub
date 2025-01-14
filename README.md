@@ -7045,7 +7045,11 @@
 
 - [ayato-shitomi/CVE-2024-46278-teedy_1.11_account-takeover](https://github.com/ayato-shitomi/CVE-2024-46278-teedy_1.11_account-takeover)
 
-### CVE-2024-46310
+### CVE-2024-46310 (2025-01-13)
+
+<code>Incorrect Access Control in Cfx.re FXServer v9601 and earlier allows unauthenticated users to modify and read arbitrary user data via exposed API endpoint
+</code>
+
 - [PRX5Y/CVE-2024-46310](https://github.com/PRX5Y/CVE-2024-46310)
 
 ### CVE-2024-46377 (2024-09-18)
