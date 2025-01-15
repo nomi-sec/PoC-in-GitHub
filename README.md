@@ -396,6 +396,13 @@
 - [nak000/CVE-2024-1212](https://github.com/nak000/CVE-2024-1212)
 - [Rehan07-Human/Exploiting-RCE-Cyber_Project_CVE-2024-1212](https://github.com/Rehan07-Human/Exploiting-RCE-Cyber_Project_CVE-2024-1212)
 
+### CVE-2024-1247 (2024-02-09)
+
+<code>Concrete CMS version 9 before 9.2.5 is vulnerable to  stored XSS via the Role Name field since there is insufficient validation of administrator provided data for that field. A rogue administrator could inject malicious code into the Role Name field which might be executed when users visit the affected page. The Concrete CMS Security team scored this 2 with CVSS v3 vector  AV:N/AC:H/PR:H/UI:R/S:U/C:N/I:L/A:N https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator . Concrete versions below 9 do not include group types so they are not affected by this vulnerability. \n
+</code>
+
+- [Nxploited/CVE-2024-1247-PoC](https://github.com/Nxploited/CVE-2024-1247-PoC)
+
 ### CVE-2024-1269 (2024-02-07)
 
 <code>In SourceCodester Product Management System 1.0 wurde eine problematische Schwachstelle gefunden. Betroffen ist eine unbekannte Verarbeitung der Datei /supplier.php. Dank Manipulation des Arguments supplier_name/supplier_contact mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
@@ -8064,6 +8071,9 @@
 
 - [ThottySploity/CVE-2024-53376](https://github.com/ThottySploity/CVE-2024-53376)
 
+### CVE-2024-53407
+- [SyFi/CVE-2024-53407](https://github.com/SyFi/CVE-2024-53407)
+
 ### CVE-2024-53476 (2024-12-27)
 
 <code>A race condition vulnerability in SimplCommerce at commit 230310c8d7a0408569b292c5a805c459d47a1d8f allows attackers to bypass inventory restrictions by simultaneously submitting purchase requests from multiple accounts for the same product. This can lead to overselling when stock is limited, as the system fails to accurately track inventory under high concurrency, resulting in potential loss and unfulfilled orders.
@@ -8594,7 +8604,6 @@
 </code>
 
 - [hh-hunter/ml-CVE-2023-1177](https://github.com/hh-hunter/ml-CVE-2023-1177)
-- [iumiro/CVE-2023-1177-MLFlow](https://github.com/iumiro/CVE-2023-1177-MLFlow)
 - [SpycioKon/CVE-2023-1177-rebuild](https://github.com/SpycioKon/CVE-2023-1177-rebuild)
 - [saimahmed/MLflow-Vuln](https://github.com/saimahmed/MLflow-Vuln)
 - [charlesgargasson/CVE-2023-1177](https://github.com/charlesgargasson/CVE-2023-1177)
@@ -8751,7 +8760,6 @@
 <code>The Custom 404 Pro WordPress plugin before 3.7.3 does not escape some URLs before outputting them in attributes, leading to Reflected Cross-Site Scripting.
 </code>
 
-- [thatformat/Hvv2023](https://github.com/thatformat/Hvv2023)
 - [druxter-x/PHP-CVE-2023-2023-2640-POC-Escalation](https://github.com/druxter-x/PHP-CVE-2023-2023-2640-POC-Escalation)
 
 ### CVE-2023-2024 (2023-05-18)
@@ -8769,8 +8777,6 @@
 - [insoxin/CVE-2023-2033](https://github.com/insoxin/CVE-2023-2033)
 - [sandumjacob/CVE-2023-2033-Analysis](https://github.com/sandumjacob/CVE-2023-2033-Analysis)
 - [gretchenfrage/CVE-2023-2033-analysis](https://github.com/gretchenfrage/CVE-2023-2033-analysis)
-- [mistymntncop/CVE-2023-2033](https://github.com/mistymntncop/CVE-2023-2033)
-- [tianstcht/CVE-2023-2033](https://github.com/tianstcht/CVE-2023-2033)
 
 ### CVE-2023-2114 (2023-05-08)
 
@@ -8812,7 +8818,6 @@
 <code>Improper access control in editor components of The Document Foundation LibreOffice allowed an attacker to craft a document that would cause external links to be loaded without prompt. In the affected versions of LibreOffice documents that used &quot;floating frames&quot; linked to external files, would load the contents of those frames without prompting the user for permission to do so. This was inconsistent with the treatment of other linked content in LibreOffice. This issue affects: The Document Foundation LibreOffice 7.4 versions prior to 7.4.7; 7.5 versions prior to 7.5.3.
 </code>
 
-- [elweth-sec/CVE-2023-2255](https://github.com/elweth-sec/CVE-2023-2255)
 - [SaintMichae64/CVE-2023-2255](https://github.com/SaintMichae64/CVE-2023-2255)
 
 ### CVE-2023-2375 (2023-04-28)
@@ -8841,7 +8846,6 @@
 <code>Eine kritische Schwachstelle wurde in Weaver E-Office 9.5 ausgemacht. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei App/Ajax/ajax.php?action=mobile_upload_save. Mittels Manipulieren des Arguments upload_quwan mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [bingtangbanli/cve-2023-2523-and-cve-2023-2648](https://github.com/bingtangbanli/cve-2023-2523-and-cve-2023-2648)
 - [Any3ite/CVE-2023-2523](https://github.com/Any3ite/CVE-2023-2523)
 
 ### CVE-2023-2579 (2023-07-17)
@@ -8893,7 +8897,6 @@
 <code>On Ubuntu kernels carrying both c914c0e27eb0 and &quot;UBUNTU: SAUCE: overlayfs: Skip permission checking for trusted.overlayfs.* xattrs&quot;, an unprivileged user may set privileged extended attributes on the mounted files, leading them to be set on the upper files without the appropriate security checks.
 </code>
 
-- [OllaPapito/gameoverlay](https://github.com/OllaPapito/gameoverlay)
 - [luanoliveira350/GameOverlayFS](https://github.com/luanoliveira350/GameOverlayFS)
 - [g1vi/CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629)
 - [musorblyat/CVE-2023-2640-CVE-2023-32629](https://github.com/musorblyat/CVE-2023-2640-CVE-2023-32629)
@@ -8929,7 +8932,6 @@
 
 - [RandomRobbieBF/CVE-2023-2732](https://github.com/RandomRobbieBF/CVE-2023-2732)
 - [Jenderal92/WP-CVE-2023-2732](https://github.com/Jenderal92/WP-CVE-2023-2732)
-- [ThatNotEasy/CVE-2023-2732](https://github.com/ThatNotEasy/CVE-2023-2732)
 
 ### CVE-2023-2744 (2023-06-27)
 
@@ -8978,8 +8980,6 @@
 </code>
 
 - [cfielding-r7/poc-cve-2023-2868](https://github.com/cfielding-r7/poc-cve-2023-2868)
-- [cashapp323232/CVE-2023-2868CVE-2023-2868](https://github.com/cashapp323232/CVE-2023-2868CVE-2023-2868)
-- [krmxd/CVE-2023-2868](https://github.com/krmxd/CVE-2023-2868)
 
 ### CVE-2023-2877 (2023-06-27)
 
@@ -8987,13 +8987,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2023-2877](https://github.com/RandomRobbieBF/CVE-2023-2877)
-
-### CVE-2023-2916 (2023-08-15)
-
-<code>The InfiniteWP Client plugin for WordPress is vulnerable to Sensitive Information Exposure in versions up to, and including, 1.11.1 via the 'admin_notice' function. This can allow authenticated attackers with subscriber-level permissions or above to extract sensitive data including configuration. It can only be exploited if the plugin has not been configured yet. If combined with another arbitrary plugin installation and activation vulnerability, it may be possible to connect a site to InfiniteWP which would make remote management possible and allow for elevation of privileges.
-</code>
-
-- [d0rb/CVE-2023-2916](https://github.com/d0rb/CVE-2023-2916)
 
 ### CVE-2023-2928 (2023-05-27)
 
@@ -9016,7 +9009,6 @@
 
 - [RandomRobbieBF/CVE-2023-2982](https://github.com/RandomRobbieBF/CVE-2023-2982)
 - [H4K6/CVE-2023-2982-POC](https://github.com/H4K6/CVE-2023-2982-POC)
-- [LoaiEsam37/CVE-2023-2982](https://github.com/LoaiEsam37/CVE-2023-2982)
 - [wshinkle/CVE-2023-2982](https://github.com/wshinkle/CVE-2023-2982)
 
 ### CVE-2023-2986 (2023-06-08)
@@ -9048,13 +9040,6 @@
 </code>
 
 - [im-hanzou/MSAPer](https://github.com/im-hanzou/MSAPer)
-
-### CVE-2023-3079 (2023-06-05)
-
-<code>Type confusion in V8 in Google Chrome prior to 114.0.5735.110 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
-</code>
-
-- [mistymntncop/CVE-2023-3079](https://github.com/mistymntncop/CVE-2023-3079)
 
 ### CVE-2023-3124 (2023-06-07)
 
@@ -9118,13 +9103,7 @@
 <code>The Ultimate Member WordPress plugin before 2.6.7 does not prevent visitors from creating user accounts with arbitrary capabilities, effectively allowing attackers to create administrator accounts at will. This is actively being exploited in the wild.
 </code>
 
-- [gbrsh/CVE-2023-3460](https://github.com/gbrsh/CVE-2023-3460)
-- [rizqimaulanaa/CVE-2023-3460](https://github.com/rizqimaulanaa/CVE-2023-3460)
-- [yon3zu/Mass-CVE-2023-3460](https://github.com/yon3zu/Mass-CVE-2023-3460)
-- [EmadYaY/CVE-2023-3460](https://github.com/EmadYaY/CVE-2023-3460)
-- [diego-tella/CVE-2023-3460](https://github.com/diego-tella/CVE-2023-3460)
 - [Rajneeshkarya/CVE-2023-3460](https://github.com/Rajneeshkarya/CVE-2023-3460)
-- [DiMarcoSK/CVE-2023-3460_POC](https://github.com/DiMarcoSK/CVE-2023-3460_POC)
 - [julienbrs/exploit-CVE-2023-3460](https://github.com/julienbrs/exploit-CVE-2023-3460)
 - [TranKuBao/CVE-2023-3460_FIX](https://github.com/TranKuBao/CVE-2023-3460_FIX)
 
@@ -9133,15 +9112,6 @@
 <code>Unauthenticated remote code execution\n
 </code>
 
-- [telekom-security/cve-2023-3519-citrix-scanner](https://github.com/telekom-security/cve-2023-3519-citrix-scanner)
-- [securekomodo/citrixInspector](https://github.com/securekomodo/citrixInspector)
-- [mr-r3b00t/CVE-2023-3519](https://github.com/mr-r3b00t/CVE-2023-3519)
-- [d0rb/CVE-2023-3519](https://github.com/d0rb/CVE-2023-3519)
-- [BishopFox/CVE-2023-3519](https://github.com/BishopFox/CVE-2023-3519)
-- [SalehLardhi/CVE-2023-3519](https://github.com/SalehLardhi/CVE-2023-3519)
-- [KR0N-SECURITY/CVE-2023-3519](https://github.com/KR0N-SECURITY/CVE-2023-3519)
-- [passwa11/CVE-2023-3519](https://github.com/passwa11/CVE-2023-3519)
-- [rwincey/cve-2023-3519](https://github.com/rwincey/cve-2023-3519)
 - [mandiant/citrix-ioc-scanner-cve-2023-3519](https://github.com/mandiant/citrix-ioc-scanner-cve-2023-3519)
 - [Chocapikk/CVE-2023-3519](https://github.com/Chocapikk/CVE-2023-3519)
 - [JonaNeidhart/CVE-2023-3519-BackdoorCheck](https://github.com/JonaNeidhart/CVE-2023-3519-BackdoorCheck)
@@ -9259,13 +9229,6 @@
 
 - [thedarknessdied/CVE-2023-4169_CVE-2023-3306_CVE-2023-4415](https://github.com/thedarknessdied/CVE-2023-4169_CVE-2023-3306_CVE-2023-4415)
 
-### CVE-2023-4174 (2023-08-06)
-
-<code>In mooSocial mooStore 3.1.6 wurde eine Schwachstelle gefunden. Sie wurde als problematisch eingestuft. Hierbei betrifft es unbekannten Programmcode. Mittels Manipulieren mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk.
-</code>
-
-- [d0rb/CVE-2023-4174](https://github.com/d0rb/CVE-2023-4174)
-
 ### CVE-2023-4197 (2023-11-01)
 
 <code>Improper input validation in Dolibarr ERP CRM &lt;= v18.0.1 fails to strip certain PHP code from user-supplied input when creating a Website, allowing an attacker to inject and evaluate arbitrary PHP code.
@@ -9376,13 +9339,6 @@
 </code>
 
 - [ilikeoyt/CVE-2023-4450-Attack](https://github.com/ilikeoyt/CVE-2023-4450-Attack)
-
-### CVE-2023-4460 (2023-12-04)
-
-<code>The Uploading SVG, WEBP and ICO files WordPress plugin through 1.2.1 does not sanitise uploaded SVG files, which could allow users with a role as low as Author to upload a malicious SVG containing XSS payloads.
-</code>
-
-- [0xn4d/poc-cve-xss-uploading-svg](https://github.com/0xn4d/poc-cve-xss-uploading-svg)
 
 ### CVE-2023-4542 (2023-08-25)
 
@@ -9693,13 +9649,6 @@
 </code>
 
 - [cli-ish/CVE-2023-5540](https://github.com/cli-ish/CVE-2023-5540)
-
-### CVE-2023-5546 (2023-11-09)
-
-<code>ID numbers displayed in the quiz grading report required additional sanitizing to prevent a stored XSS risk.
-</code>
-
-- [obelia01/CVE-2023-5546](https://github.com/obelia01/CVE-2023-5546)
 
 ### CVE-2023-5561 (2023-10-16)
 
@@ -10023,20 +9972,6 @@
 - [nokn0wthing/CVE-2023-20052](https://github.com/nokn0wthing/CVE-2023-20052)
 - [cY83rR0H1t/CVE-2023-20052](https://github.com/cY83rR0H1t/CVE-2023-20052)
 
-### CVE-2023-20073 (2023-04-05)
-
-<code>A vulnerability in the web-based management interface of Cisco RV340, RV340W, RV345, and RV345P Dual WAN Gigabit VPN Routers could allow an unauthenticated, remote attacker to upload arbitrary files to an affected device. This vulnerability is due to insufficient authorization enforcement mechanisms in the context of file uploads. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device. A successful exploit could allow the attacker to upload arbitrary files to the affected device.
-</code>
-
-- [RegularITCat/CVE-2023-20073](https://github.com/RegularITCat/CVE-2023-20073)
-
-### CVE-2023-20110 (2023-05-18)
-
-<code>A vulnerability in the web-based management interface of Cisco Smart Software Manager On-Prem (SSM On-Prem) could allow an authenticated, remote attacker to conduct SQL injection attacks on an affected system. This vulnerability exists because the web-based management interface inadequately validates user input. An attacker could exploit this vulnerability by authenticating to the application as a low-privileged user and sending crafted SQL queries to an affected system. A successful exploit could allow the attacker to read sensitive data on the underlying database.
-</code>
-
-- [redfr0g/CVE-2023-20110](https://github.com/redfr0g/CVE-2023-20110)
-
 ### CVE-2023-20126 (2023-05-04)
 
 <code>A vulnerability in the web-based management interface of Cisco SPA112 2-Port Phone Adapters could allow an unauthenticated, remote attacker to execute arbitrary code on an affected device. This vulnerability is due to a missing authentication process within the firmware upgrade function. An attacker could exploit this vulnerability by upgrading an affected device to a crafted version of firmware. A successful exploit could allow the attacker to execute arbitrary code on the affected device with full privileges. Cisco has not released firmware updates to address this vulnerability.
@@ -10097,27 +10032,12 @@
 
 - [smokeintheshell/CVE-2023-20273](https://github.com/smokeintheshell/CVE-2023-20273)
 
-### CVE-2023-20562 (2023-08-08)
-
-<code>\n\n\nInsufficient validation in the IOCTL (Input Output Control) input buffer in AMD uProf may allow an authenticated user to load an unsigned driver potentially leading to arbitrary kernel execution.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
-</code>
-
-- [zeze-zeze/HITCON-2023-Demo-CVE-2023-20562](https://github.com/zeze-zeze/HITCON-2023-Demo-CVE-2023-20562)
-- [passwa11/HITCON-2023-Demo-CVE-2023-20562](https://github.com/passwa11/HITCON-2023-Demo-CVE-2023-20562)
-
 ### CVE-2023-20573 (2024-01-11)
 
 <code>A privileged attacker\ncan prevent delivery of debug exceptions to SEV-SNP guests potentially\nresulting in guests not receiving expected debug information.\n\n\n\n
 </code>
 
 - [Freax13/cve-2023-20573-poc](https://github.com/Freax13/cve-2023-20573-poc)
-
-### CVE-2023-20593 (2023-07-24)
-
-<code>\nAn issue in “Zen 2” CPUs, under specific microarchitectural circumstances, may allow an attacker to potentially access sensitive information.\n\n\n\n\n\n\n
-</code>
-
-- [sbaresearch/stop-zenbleed-win](https://github.com/sbaresearch/stop-zenbleed-win)
 
 ### CVE-2023-20598 (2023-10-17)
 
@@ -10374,7 +10294,6 @@
 </code>
 
 - [zoemurmure/CVE-2023-21554-PoC](https://github.com/zoemurmure/CVE-2023-21554-PoC)
-- [3tternp/CVE-2023-21554](https://github.com/3tternp/CVE-2023-21554)
 - [Rahul-Thakur7/CVE-2023-21554](https://github.com/Rahul-Thakur7/CVE-2023-21554)
 
 ### CVE-2023-21560 (2023-01-10)
@@ -10437,20 +10356,12 @@
 
 - [ohnonoyesyes/CVE-2023-21742](https://github.com/ohnonoyesyes/CVE-2023-21742)
 
-### CVE-2023-21746 (2023-01-10)
-
-<code>Windows NTLM Elevation of Privilege Vulnerability
-</code>
-
-- [Muhammad-Ali007/LocalPotato_CVE-2023-21746](https://github.com/Muhammad-Ali007/LocalPotato_CVE-2023-21746)
-
 ### CVE-2023-21752 (2023-01-10)
 
 <code>Windows Backup Service Elevation of Privilege Vulnerability
 </code>
 
 - [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
-- [yosef0x01/CVE-2023-21752](https://github.com/yosef0x01/CVE-2023-21752)
 
 ### CVE-2023-21766 (2023-01-10)
 
@@ -10517,13 +10428,6 @@
 </code>
 
 - [TimeSHU/weblogic_CVE-2023-21931_POC-EXP](https://github.com/TimeSHU/weblogic_CVE-2023-21931_POC-EXP)
-
-### CVE-2023-21939 (2023-04-18)
-
-<code>Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Swing).  Supported versions that are affected are Oracle Java SE: 8u361, 8u361-perf, 11.0.18, 17.0.6, 20; Oracle GraalVM Enterprise Edition: 20.3.9, 21.3.5 and  22.3.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).
-</code>
-
-- [Y4Sec-Team/CVE-2023-21939](https://github.com/Y4Sec-Team/CVE-2023-21939)
 
 ### CVE-2023-21971 (2023-04-18)
 
@@ -10688,7 +10592,6 @@
 - [hello4r1end/patch_CVE-2023-22809](https://github.com/hello4r1end/patch_CVE-2023-22809)
 - [Chan9Yan9/CVE-2023-22809](https://github.com/Chan9Yan9/CVE-2023-22809)
 - [pashayogi/CVE-2023-22809](https://github.com/pashayogi/CVE-2023-22809)
-- [asepsaepdin/CVE-2023-22809](https://github.com/asepsaepdin/CVE-2023-22809)
 - [Toothless5143/CVE-2023-22809](https://github.com/Toothless5143/CVE-2023-22809)
 - [AntiVlad/CVE-2023-22809](https://github.com/AntiVlad/CVE-2023-22809)
 - [laxmiyamkolu/SUDO-privilege-escalation](https://github.com/laxmiyamkolu/SUDO-privilege-escalation)
@@ -10775,7 +10678,6 @@
 
 - [Timorlover/CVE-2023-23333](https://github.com/Timorlover/CVE-2023-23333)
 - [Mr-xn/CVE-2023-23333](https://github.com/Mr-xn/CVE-2023-23333)
-- [emanueldosreis/nmap-CVE-2023-23333-exploit](https://github.com/emanueldosreis/nmap-CVE-2023-23333-exploit)
 
 ### CVE-2023-23388 (2023-03-14)
 
@@ -10819,7 +10721,6 @@
 - [jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397)
 - [3yujw7njai/CVE-2023-23397-POC](https://github.com/3yujw7njai/CVE-2023-23397-POC)
 - [vlad-a-man/CVE-2023-23397](https://github.com/vlad-a-man/CVE-2023-23397)
-- [Muhammad-Ali007/OutlookNTLM_CVE-2023-23397](https://github.com/Muhammad-Ali007/OutlookNTLM_CVE-2023-23397)
 - [Pushkarup/CVE-2023-23397](https://github.com/Pushkarup/CVE-2023-23397)
 - [ducnorth2712/CVE-2023-23397](https://github.com/ducnorth2712/CVE-2023-23397)
 - [sarsaeroth/CVE-2023-23397-POC](https://github.com/sarsaeroth/CVE-2023-23397-POC)
@@ -10890,7 +10791,6 @@
 - [Ge-Per/Scanner-CVE-2023-23752](https://github.com/Ge-Per/Scanner-CVE-2023-23752)
 - [ThatNotEasy/CVE-2023-23752](https://github.com/ThatNotEasy/CVE-2023-23752)
 - [Sweelg/CVE-2023-23752](https://github.com/Sweelg/CVE-2023-23752)
-- [MrP4nda1337/CVE-2023-23752](https://github.com/MrP4nda1337/CVE-2023-23752)
 - [lainonz/CVE-2023-23752](https://github.com/lainonz/CVE-2023-23752)
 - [yTxZx/CVE-2023-23752](https://github.com/yTxZx/CVE-2023-23752)
 - [AlissonFaoli/CVE-2023-23752](https://github.com/AlissonFaoli/CVE-2023-23752)
@@ -11003,27 +10903,7 @@
 <code>An issue in the urllib.parse component of Python before 3.11.4 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.
 </code>
 
-- [H4R335HR/CVE-2023-24329-PoC](https://github.com/H4R335HR/CVE-2023-24329-PoC)
-- [Pandante-Central/CVE-2023-24329-codeql-test](https://github.com/Pandante-Central/CVE-2023-24329-codeql-test)
 - [PenTestMano/CVE-2023-24329-Exploit](https://github.com/PenTestMano/CVE-2023-24329-Exploit)
-
-### CVE-2023-24488 (2023-07-10)
-
-<code>Cross site scripting vulnerability in Citrix ADC and Citrix Gateway  in allows and attacker to perform cross site scripting
-</code>
-
-- [SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC)
-- [securitycipher/CVE-2023-24488](https://github.com/securitycipher/CVE-2023-24488)
-- [NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule](https://github.com/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule)
-- [raytheon0x21/CVE-2023-24488](https://github.com/raytheon0x21/CVE-2023-24488)
-
-### CVE-2023-24489 (2023-07-10)
-
-<code>\nA vulnerability has been discovered in the customer-managed ShareFile storage zones controller which, if exploited, could allow an unauthenticated attacker to remotely compromise the customer-managed ShareFile storage zones controller.
-</code>
-
-- [adhikara13/CVE-2023-24489-ShareFile](https://github.com/adhikara13/CVE-2023-24489-ShareFile)
-- [whalebone7/CVE-2023-24489-poc](https://github.com/whalebone7/CVE-2023-24489-poc)
 
 ### CVE-2023-24517 (2023-08-22)
 
@@ -11112,7 +10992,6 @@
 - [0x2458bughunt/CVE-2023-25157](https://github.com/0x2458bughunt/CVE-2023-25157)
 - [murataydemir/CVE-2023-25157-and-CVE-2023-25158](https://github.com/murataydemir/CVE-2023-25157-and-CVE-2023-25158)
 - [7imbitz/CVE-2023-25157-checker](https://github.com/7imbitz/CVE-2023-25157-checker)
-- [Rubikcuv5/CVE-2023-25157](https://github.com/Rubikcuv5/CVE-2023-25157)
 - [dr-cable-tv/Geoserver-CVE-2023-25157](https://github.com/dr-cable-tv/Geoserver-CVE-2023-25157)
 
 ### CVE-2023-25194 (2023-02-07)
@@ -11199,13 +11078,6 @@
 - [dhmosfunk/CVE-2023-25690-POC](https://github.com/dhmosfunk/CVE-2023-25690-POC)
 - [thanhlam-attt/CVE-2023-25690](https://github.com/thanhlam-attt/CVE-2023-25690)
 
-### CVE-2023-25725 (2023-02-14)
-
-<code>HAProxy before 2.7.3 may allow a bypass of access control because HTTP/1 headers are inadvertently lost in some situations, aka &quot;request smuggling.&quot; The HTTP header parsers in HAProxy may accept empty header field names, which could be used to truncate the list of HTTP headers and thus make some headers disappear after being parsed and processed for HTTP/1.0 and HTTP/1.1. For HTTP/2 and HTTP/3, the impact is limited because the headers disappear before being parsed and processed, as if they had not been sent by the client. The fixed versions are 2.7.3, 2.6.9, 2.5.12, 2.4.22, 2.2.29, and 2.0.31.
-</code>
-
-- [sgwgsw/LAB-CVE-2023-25725](https://github.com/sgwgsw/LAB-CVE-2023-25725)
-
 ### CVE-2023-25813 (2023-02-22)
 
 <code>Sequelize is a Node.js ORM tool. In versions prior to 6.19.1 a SQL injection exploit exists related to replacements. Parameters which are passed through replacements are not properly escaped which can lead to arbitrary SQL injection depending on the specific queries in use. The issue has been fixed in Sequelize 6.19.1. Users are advised to upgrade. Users unable to upgrade should not use the `replacements` and the `where` option in the same query.
@@ -11250,13 +11122,6 @@
 
 - [hshivhare67/Jetty_v9.4.31_CVE-2023-26049](https://github.com/hshivhare67/Jetty_v9.4.31_CVE-2023-26049)
 
-### CVE-2023-26067 (2023-04-10)
-
-<code>Certain Lexmark devices through 2023-02-19 mishandle Input Validation (issue 1 of 4).
-</code>
-
-- [horizon3ai/CVE-2023-26067](https://github.com/horizon3ai/CVE-2023-26067)
-
 ### CVE-2023-26136 (2023-07-01)
 
 <code>Versions of the package tough-cookie before 4.1.3 are vulnerable to Prototype Pollution due to improper handling of Cookies when using CookieJar in rejectPublicSuffixes=false mode. This issue arises from the manner in which the objects are initialized.
@@ -11278,7 +11143,6 @@
 <code>An unauthenticated path traversal vulnerability affects the &quot;STAGIL Navigation for Jira - Menu &amp; Themes&quot; plugin before 2.0.52 for Jira. By modifying the fileName parameter to the snjCustomDesignConfig endpoint, it is possible to traverse and read the file system.
 </code>
 
-- [tucommenceapousser/CVE-2023-26255-Exp](https://github.com/tucommenceapousser/CVE-2023-26255-Exp)
 - [Nian-Stars/CVE-2023-26255-6](https://github.com/Nian-Stars/CVE-2023-26255-6)
 
 ### CVE-2023-26256 (2023-02-28)
@@ -11286,8 +11150,6 @@
 <code>An unauthenticated path traversal vulnerability affects the &quot;STAGIL Navigation for Jira - Menu &amp; Themes&quot; plugin before 2.0.52 for Jira. By modifying the fileName parameter to the snjFooterNavigationConfig endpoint, it is possible to traverse and read the file system.
 </code>
 
-- [0x7eTeam/CVE-2023-26256](https://github.com/0x7eTeam/CVE-2023-26256)
-- [xhs-d/CVE-2023-26256](https://github.com/xhs-d/CVE-2023-26256)
 - [qs119/CVE-2023-26256](https://github.com/qs119/CVE-2023-26256)
 - [jcad123/CVE-2023-26256](https://github.com/jcad123/CVE-2023-26256)
 
@@ -11434,16 +11296,6 @@
 <code>request-baskets up to v1.2.1 was discovered to contain a Server-Side Request Forgery (SSRF) via the component /api/baskets/{name}. This vulnerability allows attackers to access network resources and sensitive information via a crafted API request.
 </code>
 
-- [entr0pie/CVE-2023-27163](https://github.com/entr0pie/CVE-2023-27163)
-- [seanrdev/cve-2023-27163](https://github.com/seanrdev/cve-2023-27163)
-- [overgrowncarrot1/CVE-2023-27163](https://github.com/overgrowncarrot1/CVE-2023-27163)
-- [ThickCoco/CVE-2023-27163-POC](https://github.com/ThickCoco/CVE-2023-27163-POC)
-- [davuXVI/CVE-2023-27163](https://github.com/davuXVI/CVE-2023-27163)
-- [HusenjanDev/CVE-2023-27163-AND-Mailtrail-v0.53](https://github.com/HusenjanDev/CVE-2023-27163-AND-Mailtrail-v0.53)
-- [rvizx/CVE-2023-27163](https://github.com/rvizx/CVE-2023-27163)
-- [thomas-osgood/CVE-2023-27163](https://github.com/thomas-osgood/CVE-2023-27163)
-- [cowsecurity/CVE-2023-27163](https://github.com/cowsecurity/CVE-2023-27163)
-- [samh4cks/CVE-2023-27163-InternalProber](https://github.com/samh4cks/CVE-2023-27163-InternalProber)
 - [Hamibubu/CVE-2023-27163](https://github.com/Hamibubu/CVE-2023-27163)
 - [KharimMchatta/basketcraft](https://github.com/KharimMchatta/basketcraft)
 - [MasterCode112/CVE-2023-27163](https://github.com/MasterCode112/CVE-2023-27163)
@@ -11506,9 +11358,6 @@
 - [nuts7/CVE-2023-27372](https://github.com/nuts7/CVE-2023-27372)
 - [Chocapikk/CVE-2023-27372](https://github.com/Chocapikk/CVE-2023-27372)
 - [dream434/CVE-2023-27372](https://github.com/dream434/CVE-2023-27372)
-- [0SPwn/CVE-2023-27372-PoC](https://github.com/0SPwn/CVE-2023-27372-PoC)
-- [izzz0/CVE-2023-27372-POC](https://github.com/izzz0/CVE-2023-27372-POC)
-- [ThatNotEasy/CVE-2023-27372](https://github.com/ThatNotEasy/CVE-2023-27372)
 - [redboltsec/CVE-2023-27372-PoC](https://github.com/redboltsec/CVE-2023-27372-PoC)
 - [1amthebest1/CVE-2023-27372](https://github.com/1amthebest1/CVE-2023-27372)
 
@@ -11612,7 +11461,6 @@
 - [BishopFox/CVE-2023-27997-check](https://github.com/BishopFox/CVE-2023-27997-check)
 - [imbas007/CVE-2023-27997-Check](https://github.com/imbas007/CVE-2023-27997-Check)
 - [puckiestyle/cve-2023-27997](https://github.com/puckiestyle/cve-2023-27997)
-- [TechinsightsPro/ShodanFortiOS](https://github.com/TechinsightsPro/ShodanFortiOS)
 - [Cyb3rEnthusiast/CVE-2023-27997](https://github.com/Cyb3rEnthusiast/CVE-2023-27997)
 - [lexfo/xortigate-cve-2023-27997](https://github.com/lexfo/xortigate-cve-2023-27997)
 - [delsploit/CVE-2023-27997](https://github.com/delsploit/CVE-2023-27997)
@@ -11624,9 +11472,6 @@
 </code>
 
 - [gbrsh/CVE-2023-28121](https://github.com/gbrsh/CVE-2023-28121)
-- [im-hanzou/Mass-CVE-2023-28121](https://github.com/im-hanzou/Mass-CVE-2023-28121)
-- [rio128128/Mass-CVE-2023-28121-kdoec](https://github.com/rio128128/Mass-CVE-2023-28121-kdoec)
-- [C04LA/CVE-2023-28121](https://github.com/C04LA/CVE-2023-28121)
 - [Jenderal92/WP-CVE-2023-28121](https://github.com/Jenderal92/WP-CVE-2023-28121)
 - [1337nemojj/CVE-2023-28121](https://github.com/1337nemojj/CVE-2023-28121)
 
@@ -11686,7 +11531,6 @@
 </code>
 
 - [fortra/CVE-2023-28252](https://github.com/fortra/CVE-2023-28252)
-- [726232111/CVE-2023-28252](https://github.com/726232111/CVE-2023-28252)
 - [Danasuley/CVE-2023-28252-](https://github.com/Danasuley/CVE-2023-28252-)
 - [bkstephen/Compiled-PoC-Binary-For-CVE-2023-28252](https://github.com/bkstephen/Compiled-PoC-Binary-For-CVE-2023-28252)
 - [duck-sec/CVE-2023-28252-Compiled-exe](https://github.com/duck-sec/CVE-2023-28252-Compiled-exe)
@@ -11728,7 +11572,6 @@
 
 - [gobysec/CVE-2023-28343](https://github.com/gobysec/CVE-2023-28343)
 - [superzerosec/CVE-2023-28343](https://github.com/superzerosec/CVE-2023-28343)
-- [hba343434/CVE-2023-28343](https://github.com/hba343434/CVE-2023-28343)
 
 ### CVE-2023-28354 (2025-01-09)
 
@@ -11753,7 +11596,6 @@
 - [h0ng10/CVE-2023-28432_docker](https://github.com/h0ng10/CVE-2023-28432_docker)
 - [CHINA-china/MinIO_CVE-2023-28432_EXP](https://github.com/CHINA-china/MinIO_CVE-2023-28432_EXP)
 - [TaroballzChen/CVE-2023-28432-metasploit-scanner](https://github.com/TaroballzChen/CVE-2023-28432-metasploit-scanner)
-- [bingtangbanli/CVE-2023-28432](https://github.com/bingtangbanli/CVE-2023-28432)
 - [Chocapikk/CVE-2023-28432](https://github.com/Chocapikk/CVE-2023-28432)
 - [yTxZx/CVE-2023-28432](https://github.com/yTxZx/CVE-2023-28432)
 - [unam4/CVE-2023-28432-minio_update_rce](https://github.com/unam4/CVE-2023-28432-minio_update_rce)
@@ -11775,13 +11617,6 @@
 </code>
 
 - [drkbcn/lblfixer_cve_2023_28447](https://github.com/drkbcn/lblfixer_cve_2023_28447)
-
-### CVE-2023-28467 (2023-05-22)
-
-<code>In MyBB before 1.8.34, there is XSS in the User CP module via the user email field.
-</code>
-
-- [ahmetaltuntas/CVE-2023-28467](https://github.com/ahmetaltuntas/CVE-2023-28467)
 
 ### CVE-2023-28588 (2023-12-05)
 
@@ -11840,7 +11675,6 @@
 </code>
 
 - [timb-machine-mirrors/seongil-wi-CVE-2023-29017](https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017)
-- [passwa11/CVE-2023-29017-reverse-shell](https://github.com/passwa11/CVE-2023-29017-reverse-shell)
 
 ### CVE-2023-29084 (2023-04-13)
 
@@ -11904,20 +11738,6 @@
 
 - [LuizGustavoP/EP3_Redes](https://github.com/LuizGustavoP/EP3_Redes)
 
-### CVE-2023-29409 (2023-08-02)
-
-<code>Extremely large RSA keys in certificate chains can cause a client/server to expend significant CPU time verifying signatures. With fix, the size of RSA keys transmitted during handshakes is restricted to &lt;= 8192 bits. Based on a survey of publicly trusted RSA keys, there are currently only three certificates in circulation with keys larger than this, and all three appear to be test certificates that are not actively deployed. It is possible there are larger keys in use in private PKIs, but we target the web PKI, so causing breakage here in the interests of increasing the default safety of users of crypto/tls seems reasonable.
-</code>
-
-- [mateusz834/CVE-2023-29409](https://github.com/mateusz834/CVE-2023-29409)
-
-### CVE-2023-29439 (2023-05-16)
-
-<code>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in FooPlugins FooGallery plugin &lt;= 2.2.35 versions.
-</code>
-
-- [LOURC0D3/CVE-2023-29439](https://github.com/LOURC0D3/CVE-2023-29439)
-
 ### CVE-2023-29478 (2023-04-07)
 
 <code>BiblioCraft before 2.4.6 does not sanitize path-traversal characters in filenames, allowing restricted write access to almost anywhere on the filesystem. This includes the Minecraft mods folder, which results in code execution.
@@ -11940,7 +11760,6 @@
 - [Abdullah7-ma/CVE-2023-29489](https://github.com/Abdullah7-ma/CVE-2023-29489)
 - [tucommenceapousser/CVE-2023-29489](https://github.com/tucommenceapousser/CVE-2023-29489)
 - [tucommenceapousser/CVE-2023-29489.py](https://github.com/tucommenceapousser/CVE-2023-29489.py)
-- [ViperM4sk/cpanel-xss-177](https://github.com/ViperM4sk/cpanel-xss-177)
 - [S4muraiMelayu1337/CVE-2023-29489](https://github.com/S4muraiMelayu1337/CVE-2023-29489)
 - [SynixCyberCrimeMy/CVE-2023-29489](https://github.com/SynixCyberCrimeMy/CVE-2023-29489)
 - [Makurorororororororo/Validate-CVE-2023-29489-scanner-](https://github.com/Makurorororororororo/Validate-CVE-2023-29489-scanner-)
@@ -12071,13 +11890,6 @@
 - [AAsh035/CVE-2023-30212](https://github.com/AAsh035/CVE-2023-30212)
 - [JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-](https://github.com/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-)
 
-### CVE-2023-30226 (2023-07-12)
-
-<code>An issue was discovered in function get_gnu_verneed in rizinorg Rizin prior to 0.5.0 verneed_entry allows attackers to cause a denial of service via crafted elf file.
-</code>
-
-- [ifyGecko/CVE-2023-30226](https://github.com/ifyGecko/CVE-2023-30226)
-
 ### CVE-2023-30253 (2023-05-29)
 
 <code>Dolibarr before 17.0.1 allows remote code execution by an authenticated user via an uppercase manipulation: &lt;?PHP instead of &lt;?php in injected data.
@@ -12119,13 +11931,6 @@
 
 - [S1lkys/CVE-2023-30367-mRemoteNG-password-dumper](https://github.com/S1lkys/CVE-2023-30367-mRemoteNG-password-dumper)
 
-### CVE-2023-30383 (2023-07-18)
-
-<code>TP-LINK Archer C50v2 Archer C50(US)_V2_160801, TP-LINK Archer C20v1 Archer_C20_V1_150707, and TP-LINK Archer C2v1 Archer_C2_US__V1_170228 were discovered to contain a buffer overflow which may lead to a Denial of Service (DoS) when parsing crafted data.
-</code>
-
-- [a2ure123/CVE-2023-30383](https://github.com/a2ure123/CVE-2023-30383)
-
 ### CVE-2023-30458 (2023-04-24)
 
 <code>A username enumeration issue was discovered in Medicine Tracker System 1.0. The login functionality allows a malicious user to guess a valid username due to a different response time from invalid usernames. When one enters a valid username, the response time increases depending on the length of the supplied password.
@@ -12147,13 +11952,6 @@
 
 - [RandomRobbieBF/CVE-2023-30486](https://github.com/RandomRobbieBF/CVE-2023-30486)
 
-### CVE-2023-30533 (2023-04-24)
-
-<code>SheetJS Community Edition before 0.19.3 allows Prototype Pollution via a crafted file. In other words. 0.19.2 and earlier are affected, whereas 0.19.3 and later are unaffected.
-</code>
-
-- [BenEdridge/CVE-2023-30533](https://github.com/BenEdridge/CVE-2023-30533)
-
 ### CVE-2023-30547 (2023-04-17)
 
 <code>vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. There exists a vulnerability in exception sanitization of vm2 for versions up to 3.9.16, allowing attackers to raise an unsanitized host exception inside `handleException()` which can be used to escape the sandbox and run arbitrary code in host context. This vulnerability was patched in the release of version `3.9.17` of `vm2`. There are no known workarounds for this vulnerability. Users are advised to upgrade.
@@ -12163,13 +11961,6 @@
 - [user0x1337/CVE-2023-30547](https://github.com/user0x1337/CVE-2023-30547)
 - [Cur1iosity/CVE-2023-30547](https://github.com/Cur1iosity/CVE-2023-30547)
 - [junnythemarksman/CVE-2023-30547](https://github.com/junnythemarksman/CVE-2023-30547)
-
-### CVE-2023-30765 (2023-07-10)
-
-<code>\n​Delta Electronics InfraSuite Device Master versions prior to 1.0.7 contain improper access controls that could allow an attacker to alter privilege management configurations, resulting in privilege escalation.\n\n
-</code>
-
-- [0xfml/CVE-2023-30765](https://github.com/0xfml/CVE-2023-30765)
 
 ### CVE-2023-30777 (2023-05-10)
 
@@ -12372,20 +12163,6 @@
 
 - [sahiloj/CVE-2023-31703](https://github.com/sahiloj/CVE-2023-31703)
 
-### CVE-2023-31704 (2023-07-13)
-
-<code>Sourcecodester Online Computer and Laptop Store 1.0 is vulnerable to Incorrect Access Control, which allows remote attackers to elevate privileges to the administrator's role.
-</code>
-
-- [d34dun1c02n/CVE-2023-31704](https://github.com/d34dun1c02n/CVE-2023-31704)
-
-### CVE-2023-31705 (2023-07-13)
-
-<code>A Reflected Cross-site scripting (XSS) vulnerability in Sourcecodester Task Reminder System 1.0 allows an authenticated user to inject malicious javascript into the page parameter.
-</code>
-
-- [d34dun1c02n/CVE-2023-31705](https://github.com/d34dun1c02n/CVE-2023-31705)
-
 ### CVE-2023-31711
 - [HritikThapa7/CVE-2023-31711](https://github.com/HritikThapa7/CVE-2023-31711)
 
@@ -12438,13 +12215,6 @@
 
 - [msd0pe-1/CVE-2023-31747](https://github.com/msd0pe-1/CVE-2023-31747)
 
-### CVE-2023-31753 (2023-07-20)
-
-<code>SQL injection vulnerability in diskusi.php in eNdonesia 8.7, allows an attacker to execute arbitrary SQL commands via the &quot;rid=&quot; parameter.
-</code>
-
-- [khmk2k/CVE-2023-31753](https://github.com/khmk2k/CVE-2023-31753)
-
 ### CVE-2023-31756 (2023-05-19)
 
 <code>A command injection vulnerability exists in the administrative web portal in TP-Link Archer VR1600V devices running firmware Versions &lt;= 0.1.0. 0.9.1 v5006.0 Build 220518 Rel.32480n which allows remote attackers, authenticated to the administrative web portal as an administrator user to open an operating system level shell via the 'X_TP_IfName' parameter.
@@ -12494,13 +12264,6 @@
 
 - [jmrcsnchz/CVE-2023-32073](https://github.com/jmrcsnchz/CVE-2023-32073)
 
-### CVE-2023-32117 (2024-12-09)
-
-<code>Missing Authorization vulnerability in SoftLab Integrate Google Drive allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Integrate Google Drive: from n/a through 1.1.99.
-</code>
-
-- [RandomRobbieBF/CVE-2023-32117](https://github.com/RandomRobbieBF/CVE-2023-32117)
-
 ### CVE-2023-32162 (2023-09-06)
 
 <code>Wacom Drivers for Windows Incorrect Permission Assignment Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of Wacom Drivers for Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\n\nThe specific flaw exists within the handling of the WacomInstallI.txt file by the PrefUtil.exe utility. The issue results from incorrect permissions on the WacomInstallI.txt file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-16318.
@@ -12526,13 +12289,6 @@
 - [RogelioPumajulca/TEST-CVE-2023-32233](https://github.com/RogelioPumajulca/TEST-CVE-2023-32233)
 - [void0red/CVE-2023-32233](https://github.com/void0red/CVE-2023-32233)
 
-### CVE-2023-32235 (2023-05-05)
-
-<code>Ghost before 5.42.1 allows remote attackers to read arbitrary files within the active theme's folder via /assets/built%2F..%2F..%2F/ directory traversal. This occurs in frontend/web/middleware/static-theme.js.
-</code>
-
-- [AXRoux/Ghost-Path-Traversal-CVE-2023-32235-](https://github.com/AXRoux/Ghost-Path-Traversal-CVE-2023-32235-)
-
 ### CVE-2023-32243 (2023-05-12)
 
 <code>Improper Authentication vulnerability in WPDeveloper Essential Addons for Elementor allows Privilege Escalation. This issue affects Essential Addons for Elementor: from 5.4.0 through 5.7.1.
@@ -12547,7 +12303,6 @@
 - [thatonesecguy/Wordpress-Vulnerability-Identification-Scripts](https://github.com/thatonesecguy/Wordpress-Vulnerability-Identification-Scripts)
 - [manavvedawala/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept)
 - [Jenderal92/WP-CVE-2023-32243](https://github.com/Jenderal92/WP-CVE-2023-32243)
-- [shaoyu521/Mass-CVE-2023-32243](https://github.com/shaoyu521/Mass-CVE-2023-32243)
 
 ### CVE-2023-32314 (2023-05-15)
 
@@ -12565,8 +12320,6 @@
 - [tangxiaofeng7/CVE-2023-32315-Openfire-Bypass](https://github.com/tangxiaofeng7/CVE-2023-32315-Openfire-Bypass)
 - [5rGJ5aCh5oCq5YW9/CVE-2023-32315exp](https://github.com/5rGJ5aCh5oCq5YW9/CVE-2023-32315exp)
 - [miko550/CVE-2023-32315](https://github.com/miko550/CVE-2023-32315)
-- [ThatNotEasy/CVE-2023-32315](https://github.com/ThatNotEasy/CVE-2023-32315)
-- [izzz0/CVE-2023-32315-POC](https://github.com/izzz0/CVE-2023-32315-POC)
 - [gibran-abdillah/CVE-2023-32315](https://github.com/gibran-abdillah/CVE-2023-32315)
 - [CN016/Openfire-RCE-CVE-2023-32315-](https://github.com/CN016/Openfire-RCE-CVE-2023-32315-)
 - [K3ysTr0K3R/CVE-2023-32315-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-32315-EXPLOIT)
@@ -12647,13 +12400,6 @@
 - [k4but0/Ubuntu-LPE](https://github.com/k4but0/Ubuntu-LPE)
 - [xS9NTX/CVE-2023-32629-CVE-2023-2640-Ubuntu-Privilege-Escalation-POC](https://github.com/xS9NTX/CVE-2023-32629-CVE-2023-2640-Ubuntu-Privilege-Escalation-POC)
 
-### CVE-2023-32681 (2023-05-26)
-
-<code>Requests is a HTTP library. Since Requests 2.3.0, Requests has been leaking Proxy-Authorization headers to destination servers when redirected to an HTTPS endpoint. This is a product of how we use `rebuild_proxies` to reattach the `Proxy-Authorization` header to requests. For HTTP connections sent through the tunnel, the proxy will identify the header in the request itself and remove it prior to forwarding to the destination server. However when sent over HTTPS, the `Proxy-Authorization` header must be sent in the CONNECT request as the proxy has no visibility into the tunneled request. This results in Requests forwarding proxy credentials to the destination server unintentionally, allowing a malicious actor to potentially exfiltrate sensitive information. This issue has been patched in version 2.31.0.\n\n
-</code>
-
-- [hardikmodha/POC-CVE-2023-32681](https://github.com/hardikmodha/POC-CVE-2023-32681)
-
 ### CVE-2023-32707 (2023-06-01)
 
 <code>In versions of Splunk Enterprise below 9.0.5, 8.2.11, and 8.1.14, and Splunk Cloud Platform below version 9.0.2303.100, a low-privileged user who holds a role that has the ‘edit_user’ capability assigned to it can escalate their privileges to that of the admin user by providing specially crafted web requests.
@@ -12686,26 +12432,12 @@
 - [SarahZimmermann-Schmutzler/exploit_keepass](https://github.com/SarahZimmermann-Schmutzler/exploit_keepass)
 - [dev0558/CVE-2023-32784-EXPLOIT-REPORT](https://github.com/dev0558/CVE-2023-32784-EXPLOIT-REPORT)
 
-### CVE-2023-32961 (2023-06-12)
-
-<code>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Katie Seaborn Zotpress plugin &lt;= 7.3.3 versions.
-</code>
-
-- [LOURC0D3/CVE-2023-32961](https://github.com/LOURC0D3/CVE-2023-32961)
-
 ### CVE-2023-33105 (2024-03-04)
 
 <code>Transient DOS in WLAN Host and Firmware when large number of open authentication frames are sent with an invalid transaction sequence number.
 </code>
 
 - [D3adP3nguin/CVE-2023-33105-Transient-DOS-in-WLAN-Host-and-Firmware](https://github.com/D3adP3nguin/CVE-2023-33105-Transient-DOS-in-WLAN-Host-and-Firmware)
-
-### CVE-2023-33242 (2023-08-09)
-
-<code>Crypto wallets implementing the Lindell17 TSS protocol might allow an attacker to extract the full ECDSA private key by exfiltrating a single bit in every signature attempt (256 in total) because of not adhering to the paper's security proof's assumption regarding handling aborts after a failed signature.
-</code>
-
-- [d0rb/CVE-2023-33242](https://github.com/d0rb/CVE-2023-33242)
 
 ### CVE-2023-33243 (2023-06-15)
 
@@ -12726,7 +12458,6 @@
 - [Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT](https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT)
 - [3yujw7njai/CVE-2023-33246](https://github.com/3yujw7njai/CVE-2023-33246)
 - [Devil0ll/CVE-2023-33246](https://github.com/Devil0ll/CVE-2023-33246)
-- [d0rb/CVE-2023-33246](https://github.com/d0rb/CVE-2023-33246)
 - [vulncheck-oss/fetch-broker-conf](https://github.com/vulncheck-oss/fetch-broker-conf)
 - [0xKayala/CVE-2023-33246](https://github.com/0xKayala/CVE-2023-33246)
 - [MkJos/CVE-2023-33246_RocketMQ_RCE_EXP](https://github.com/MkJos/CVE-2023-33246_RocketMQ_RCE_EXP)
@@ -12820,13 +12551,6 @@
 
 - [sudovivek/My-CVE](https://github.com/sudovivek/My-CVE)
 
-### CVE-2023-33592 (2023-06-28)
-
-<code>Lost and Found Information System v1.0 was discovered to contain a SQL injection vulnerability via the component /php-lfis/admin/?page=system_info/contact_information.
-</code>
-
-- [ChineseOldboy/CVE-2023-33592](https://github.com/ChineseOldboy/CVE-2023-33592)
-
 ### CVE-2023-33617 (2023-05-23)
 
 <code>An OS Command Injection vulnerability in Parks Fiberlink 210 firmware version V2.1.14_X000 was found via the /boaform/admin/formPing target_addr parameter.
@@ -12834,13 +12558,6 @@
 
 - [Chocapikk/CVE-2023-33617](https://github.com/Chocapikk/CVE-2023-33617)
 - [tucommenceapousser/CVE-2023-33617](https://github.com/tucommenceapousser/CVE-2023-33617)
-
-### CVE-2023-33668 (2023-07-12)
-
-<code>DigiExam up to v14.0.2 lacks integrity checks for native modules, allowing attackers to access PII and takeover accounts on shared computers.
-</code>
-
-- [lodi-g/CVE-2023-33668](https://github.com/lodi-g/CVE-2023-33668)
 
 ### CVE-2023-33669 (2023-06-02)
 
@@ -12895,7 +12612,6 @@
 </code>
 
 - [purseclab/CVE-2023-33768](https://github.com/purseclab/CVE-2023-33768)
-- [Fr0stM0urne/CVE-2023-33768](https://github.com/Fr0stM0urne/CVE-2023-33768)
 
 ### CVE-2023-33781 (2023-06-07)
 
@@ -12968,7 +12684,6 @@
 </code>
 
 - [mouadk/CVE-2023-34035-Poc](https://github.com/mouadk/CVE-2023-34035-Poc)
-- [jzheaux/cve-2023-34035-mitigations](https://github.com/jzheaux/cve-2023-34035-mitigations)
 
 ### CVE-2023-34039 (2023-08-29)
 
@@ -12986,7 +12701,6 @@
 <code>In Spring for Apache Kafka 3.0.9 and earlier and versions 2.9.10 and earlier, a possible deserialization attack vector existed, but only if unusual configuration was applied. An attacker would have to construct a malicious serialized object in one of the deserialization exception record headers.\n\nSpecifically, an application is vulnerable when all of the following are true:\n\n  *  The user does not configure an ErrorHandlingDeserializer for the key and/or value of the record\n  *  The user explicitly sets container properties checkDeserExWhenKeyNull and/or checkDeserExWhenValueNull container properties to true.\n  *  The user allows untrusted sources to publish to a Kafka topic\n\n\nBy default, these properties are false, and the container only attempts to deserialize the headers if an ErrorHandlingDeserializer is configured. The ErrorHandlingDeserializer prevents the vulnerability by removing any such malicious headers before processing the record.\n\n\n
 </code>
 
-- [Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040](https://github.com/Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040)
 - [pyn3rd/CVE-2023-34040](https://github.com/pyn3rd/CVE-2023-34040)
 - [buiduchoang24/CVE-2023-34040](https://github.com/buiduchoang24/CVE-2023-34040)
 - [huyennhat-dev/cve-2023-34040](https://github.com/huyennhat-dev/cve-2023-34040)
@@ -13047,7 +12761,6 @@
 </code>
 
 - [vi3t1/qq-tim-elevation](https://github.com/vi3t1/qq-tim-elevation)
-- [lan1oc/CVE-2023-34312-exp](https://github.com/lan1oc/CVE-2023-34312-exp)
 
 ### CVE-2023-34362 (2023-06-02)
 
@@ -13058,8 +12771,6 @@
 - [horizon3ai/CVE-2023-34362](https://github.com/horizon3ai/CVE-2023-34362)
 - [sfewer-r7/CVE-2023-34362](https://github.com/sfewer-r7/CVE-2023-34362)
 - [kenbuckler/MOVEit-CVE-2023-34362](https://github.com/kenbuckler/MOVEit-CVE-2023-34362)
-- [Malwareman007/CVE-2023-34362](https://github.com/Malwareman007/CVE-2023-34362)
-- [toorandom/moveit-payload-decrypt-CVE-2023-34362](https://github.com/toorandom/moveit-payload-decrypt-CVE-2023-34362)
 - [errorfiathck/MOVEit-Exploit](https://github.com/errorfiathck/MOVEit-Exploit)
 - [Chinyemba-ck/MOVEit-CVE-2023-34362](https://github.com/Chinyemba-ck/MOVEit-CVE-2023-34362)
 - [glen-pearson/MoveIT-CVE-2023-34362-RCE](https://github.com/glen-pearson/MoveIT-CVE-2023-34362-RCE)
@@ -13112,13 +12823,6 @@
 </code>
 
 - [costacoco/Adiscon](https://github.com/costacoco/Adiscon)
-
-### CVE-2023-34634 (2023-08-01)
-
-<code>Greenshot 1.2.10 and below allows arbitrary code execution because .NET content is insecurely deserialized when a .greenshot file is opened.
-</code>
-
-- [radman404/CVE-2023-34634](https://github.com/radman404/CVE-2023-34634)
 
 ### CVE-2023-34830 (2023-06-27)
 
@@ -13190,13 +12894,6 @@
 
 - [funny-kill/CVE-2023-34852](https://github.com/funny-kill/CVE-2023-34852)
 
-### CVE-2023-34853 (2023-08-22)
-
-<code>Buffer Overflow vulnerability in Supermicro motherboard X12DPG-QR 1.4b allows local attackers to hijack control flow via manipulation of SmcSecurityEraseSetupVar variable.
-</code>
-
-- [risuxx/CVE-2023-34853](https://github.com/risuxx/CVE-2023-34853)
-
 ### CVE-2023-34924 (2023-06-26)
 
 <code>H3C Magic B1STW B1STV100R012 was discovered to contain a stack overflow via the function SetAPInfoById. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request.
@@ -13211,10 +12908,7 @@
 
 - [Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960)
 - [Jenderal92/CHAMILO-CVE-2023-34960](https://github.com/Jenderal92/CHAMILO-CVE-2023-34960)
-- [YongYe-Security/CVE-2023-34960](https://github.com/YongYe-Security/CVE-2023-34960)
-- [ThatNotEasy/CVE-2023-34960](https://github.com/ThatNotEasy/CVE-2023-34960)
 - [Mantodkaz/CVE-2023-34960](https://github.com/Mantodkaz/CVE-2023-34960)
-- [tucommenceapousser/CVE-2023-34960-ex](https://github.com/tucommenceapousser/CVE-2023-34960-ex)
 - [dvtarsoul/ChExp](https://github.com/dvtarsoul/ChExp)
 
 ### CVE-2023-34965 (2023-06-13)
@@ -13246,12 +12940,6 @@
 <code>An authentication bypass vulnerability in Ivanti EPMM allows unauthorized users to access restricted functionality or resources of the application without proper authentication.
 </code>
 
-- [vchan-in/CVE-2023-35078-Exploit-POC](https://github.com/vchan-in/CVE-2023-35078-Exploit-POC)
-- [lager1/CVE-2023-35078](https://github.com/lager1/CVE-2023-35078)
-- [raytheon0x21/CVE-2023-35078](https://github.com/raytheon0x21/CVE-2023-35078)
-- [synfinner/CVE-2023-35078](https://github.com/synfinner/CVE-2023-35078)
-- [emanueldosreis/nmap-CVE-2023-35078-Exploit](https://github.com/emanueldosreis/nmap-CVE-2023-35078-Exploit)
-- [Blue-number/CVE-2023-35078](https://github.com/Blue-number/CVE-2023-35078)
 - [0nsec/CVE-2023-35078](https://github.com/0nsec/CVE-2023-35078)
 
 ### CVE-2023-35080 (2023-11-14)
@@ -13260,20 +12948,6 @@
 </code>
 
 - [HopHouse/Ivanti-Pulse_VPN-Client_Exploit-CVE-2023-35080_Privilege-escalation](https://github.com/HopHouse/Ivanti-Pulse_VPN-Client_Exploit-CVE-2023-35080_Privilege-escalation)
-
-### CVE-2023-35082 (2023-08-15)
-
-<code>An authentication bypass vulnerability in Ivanti EPMM 11.10 and older, allows unauthorized users to access restricted functionality or resources of the application without proper authentication. This vulnerability is unique to CVE-2023-35078 announced earlier.
-</code>
-
-- [Chocapikk/CVE-2023-35082](https://github.com/Chocapikk/CVE-2023-35082)
-
-### CVE-2023-35086 (2023-07-21)
-
-<code>\nIt is identified a format string vulnerability in ASUS RT-AX56U V2 &amp; RT-AC86U. This vulnerability is caused by directly using input as a format string when calling syslog in logmessage_normal function, in the do_detwan_cgi module of httpd. A remote attacker with administrator privilege can exploit this vulnerability to perform remote arbitrary code execution, arbitrary system operation or disrupt service.\n\nThis issue affects RT-AX56U V2: 3.0.0.4.386_50460; RT-AC86U: 3.0.0.4_386_51529.\n\n
-</code>
-
-- [tin-z/CVE-2023-35086-POC](https://github.com/tin-z/CVE-2023-35086-POC)
 
 ### CVE-2023-35636 (2023-12-12)
 
@@ -13304,13 +12978,6 @@
 
 - [pazhanivel07/frameworks_av_AOSP_10_r33_CVE-2023-35687_CVE-2023-35679](https://github.com/pazhanivel07/frameworks_av_AOSP_10_r33_CVE-2023-35687_CVE-2023-35679)
 
-### CVE-2023-35744 (2024-05-03)
-
-<code>D-Link DAP-2622 DDP Configuration Restore Server IPv6 Address Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of D-Link DAP-2622 routers. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the DDP service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.\n. Was ZDI-CAN-20071.
-</code>
-
-- [ADSSA-IT/CVE-2023-35744](https://github.com/ADSSA-IT/CVE-2023-35744)
-
 ### CVE-2023-35793 (2023-09-26)
 
 <code>An issue was discovered in Cassia Access Controller 2.1.1.2303271039. Establishing a web SSH session to gateways is vulnerable to Cross Site Request Forgery (CSRF) attacks.
@@ -13325,20 +12992,6 @@
 
 - [Dodge-MPTC/CVE-2023-35794-WebSSH-Hijacking](https://github.com/Dodge-MPTC/CVE-2023-35794-WebSSH-Hijacking)
 
-### CVE-2023-35801 (2023-06-23)
-
-<code>A directory traversal vulnerability in Safe Software FME Server before 2022.2.5 allows an attacker to bypass validation when editing a network-based resource connection, resulting in the unauthorized reading and writing of arbitrary files. Successful exploitation requires an attacker to have access to a user account with write privileges. FME Flow 2023.0 is also a fixed version.
-</code>
-
-- [trustcves/CVE-2023-35801](https://github.com/trustcves/CVE-2023-35801)
-
-### CVE-2023-35803 (2023-10-04)
-
-<code>IQ Engine before 10.6r2 on Extreme Network AP devices has a Buffer Overflow.
-</code>
-
-- [lachlan2k/CVE-2023-35803](https://github.com/lachlan2k/CVE-2023-35803)
-
 ### CVE-2023-35813 (2023-06-17)
 
 <code>Multiple Sitecore products allow remote code execution. This affects Experience Manager, Experience Platform, and Experience Commerce through 10.3.
@@ -13346,13 +12999,6 @@
 
 - [aalexpereira/CVE-2023-35813](https://github.com/aalexpereira/CVE-2023-35813)
 - [BagheeraAltered/CVE-2023-35813-PoC](https://github.com/BagheeraAltered/CVE-2023-35813-PoC)
-
-### CVE-2023-35828 (2023-06-18)
-
-<code>An issue was discovered in the Linux kernel before 6.3.2. A use-after-free was found in renesas_usb3_remove in drivers/usb/gadget/udc/renesas_usb3.c.
-</code>
-
-- [Trinadh465/linux-4.19.72_CVE-2023-35828](https://github.com/Trinadh465/linux-4.19.72_CVE-2023-35828)
 
 ### CVE-2023-35840 (2023-06-19)
 
@@ -13367,7 +13013,6 @@
 </code>
 
 - [Lserein/CVE-2023-35843](https://github.com/Lserein/CVE-2023-35843)
-- [b3nguang/CVE-2023-35843](https://github.com/b3nguang/CVE-2023-35843)
 
 ### CVE-2023-35844 (2023-06-19)
 
@@ -13389,7 +13034,6 @@
 </code>
 
 - [datackmy/FallingSkies-CVE-2023-35885](https://github.com/datackmy/FallingSkies-CVE-2023-35885)
-- [Chocapikk/CVE-2023-35885](https://github.com/Chocapikk/CVE-2023-35885)
 
 ### CVE-2023-35985 (2023-11-27)
 
@@ -13466,39 +13110,6 @@
 
 - [leonardobg/CVE-2023-36146](https://github.com/leonardobg/CVE-2023-36146)
 
-### CVE-2023-36158 (2023-08-03)
-
-<code>Cross Site Scripting (XSS) vulnerability in sourcecodester Toll Tax Management System 1.0 allows remote attackers to run arbitrary code via the First Name and Last Name fields on the My Account page.
-</code>
-
-- [unknown00759/CVE-2023-36158](https://github.com/unknown00759/CVE-2023-36158)
-
-### CVE-2023-36159 (2023-08-03)
-
-<code>Cross Site Scripting (XSS) vulnerability in sourcecodester Lost and Found Information System 1.0 allows remote attackers to run arbitrary code via the First Name, Middle Name and Last Name fields on the Create User page.
-</code>
-
-- [unknown00759/CVE-2023-36159](https://github.com/unknown00759/CVE-2023-36159)
-
-### CVE-2023-36163 (2023-07-11)
-
-<code>Cross Site Scripting vulnerability in IP-DOT BuildaGate v.BuildaGate5 allows a remote attacker to execute arbitrary code via a crafted script to the mc parameter of the URL.
-</code>
-
-- [TraiLeR2/CVE-2023-36163](https://github.com/TraiLeR2/CVE-2023-36163)
-
-### CVE-2023-36164
-- [TraiLeR2/CVE-2023-36164](https://github.com/TraiLeR2/CVE-2023-36164)
-
-### CVE-2023-36165
-- [TraiLeR2/CVE-2023-36165](https://github.com/TraiLeR2/CVE-2023-36165)
-
-### CVE-2023-36168
-- [TraiLeR2/CVE-2023-36168](https://github.com/TraiLeR2/CVE-2023-36168)
-
-### CVE-2023-36169
-- [TraiLeR2/CVE-2023-36169](https://github.com/TraiLeR2/CVE-2023-36169)
-
 ### CVE-2023-36250 (2023-09-14)
 
 <code>CSV Injection vulnerability in GNOME time tracker version 3.0.2, allows local attackers to execute arbitrary code via crafted .tsv file when creating a new record.
@@ -13544,13 +13155,6 @@
 
 - [tandasat/CVE-2023-36427](https://github.com/tandasat/CVE-2023-36427)
 
-### CVE-2023-36531 (2024-12-13)
-
-<code>Missing Authorization vulnerability in LiquidPoll LiquidPoll – Advanced Polls for Creators and Brands allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects LiquidPoll – Advanced Polls for Creators and Brands: from n/a through 3.3.68.
-</code>
-
-- [RandomRobbieBF/CVE-2023-36531](https://github.com/RandomRobbieBF/CVE-2023-36531)
-
 ### CVE-2023-36643 (2024-04-04)
 
 <code>Incorrect Access Control in ITB-GmbH TradePro v9.5, allows remote attackers to receive all orders from the online shop via oordershow component in customer function.
@@ -13578,7 +13182,6 @@
 </code>
 
 - [jakabakos/CVE-2023-36664-Ghostscript-command-injection](https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection)
-- [winkler-winsen/Scan_GhostScript](https://github.com/winkler-winsen/Scan_GhostScript)
 - [jeanchpt/CVE-2023-36664](https://github.com/jeanchpt/CVE-2023-36664)
 - [churamanib/CVE-2023-36664-Ghostscript-command-injection](https://github.com/churamanib/CVE-2023-36664-Ghostscript-command-injection)
 
@@ -13619,7 +13222,6 @@
 <code>A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to control certain, important environment variables.\n\nUsing a crafted request an attacker is able to modify \n\ncertain PHP environment variables leading to partial loss of integrity, which may allow chaining to other vulnerabilities.\nThis issue affects Juniper Networks Junos OS on EX Series:\n\n\n\n  *  All versions prior to 20.4R3-S9;\n  *  21.1 versions 21.1R1 and later;\n  *  21.2 versions prior to 21.2R3-S7;\n  *  21.3 versions \n\nprior to \n\n 21.3R3-S5;\n  *  21.4 versions \n\nprior to \n\n21.4R3-S5;\n  *  22.1 versions \n\nprior to \n\n22.1R3-S4;\n  *  22.2 versions \n\nprior to \n\n22.2R3-S2;\n  *  22.3 versions \n\nprior to 22.3R3-S1;\n  *  22.4 versions \n\nprior to \n\n22.4R2-S2, 22.4R3;\n  *  23.2 versions prior to \n\n23.2R1-S1, 23.2R2.\n\n\n\n\n
 </code>
 
-- [watchtowrlabs/juniper-rce_cve-2023-36844](https://github.com/watchtowrlabs/juniper-rce_cve-2023-36844)
 - [ThatNotEasy/CVE-2023-36844](https://github.com/ThatNotEasy/CVE-2023-36844)
 - [r3dcl1ff/CVE-2023-36844_Juniper_RCE](https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE)
 
@@ -13647,45 +13249,19 @@
 - [e11i0t4lders0n/CVE-2023-36845](https://github.com/e11i0t4lders0n/CVE-2023-36845)
 - [Vignesh2712/Automation-for-Juniper-cve-2023-36845](https://github.com/Vignesh2712/Automation-for-Juniper-cve-2023-36845)
 
-### CVE-2023-36846 (2023-08-17)
-
-<code>A Missing Authentication for Critical Function vulnerability in Juniper Networks Junos OS on SRX Series allows an unauthenticated, network-based attacker to cause limited impact to the file system integrity.\n\n\n\nWith a specific request to user.php that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of \n\nintegrity\n\nfor a certain \n\npart of the file system, which may allow chaining to other vulnerabilities.\n\n\nThis issue affects Juniper Networks Junos OS on SRX Series:\n\n\n\n  *  All versions prior to 20.4R3-S8;\n  *  21.1 versions 21.1R1 and later;\n  *  21.2 versions prior to 21.2R3-S6;\n  *  21.3 versions \n\nprior to \n\n 21.3R3-S5;\n  *  21.4 versions \n\nprior to \n\n21.4R3-S5;\n  *  22.1 versions \n\nprior to \n\n22.1R3-S3;\n  *  22.2 versions \n\nprior to \n\n22.2R3-S2;\n  *  22.3 versions \n\nprior to \n\n22.3R2-S2, 22.3R3;\n  *  22.4 versions \n\nprior to \n\n22.4R2-S1, 22.4R3.\n\n\n\n\n
-</code>
-
-- [Chocapikk/CVE-2023-36846](https://github.com/Chocapikk/CVE-2023-36846)
-
 ### CVE-2023-36874 (2023-07-11)
 
 <code>Windows Error Reporting Service Elevation of Privilege Vulnerability
 </code>
 
 - [d0rb/CVE-2023-36874](https://github.com/d0rb/CVE-2023-36874)
-- [crisprss/CVE-2023-36874](https://github.com/crisprss/CVE-2023-36874)
-- [Wh04m1001/CVE-2023-36874](https://github.com/Wh04m1001/CVE-2023-36874)
-- [Octoberfest7/CVE-2023-36874_BOF](https://github.com/Octoberfest7/CVE-2023-36874_BOF)
 
 ### CVE-2023-36884 (2023-07-11)
 
 <code>Windows Search Remote Code Execution Vulnerability
 </code>
 
-- [Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline](https://github.com/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline)
-- [deepinstinct/Storm0978-RomCom-Campaign](https://github.com/deepinstinct/Storm0978-RomCom-Campaign)
-- [zerosorai/CVE-2023-36884](https://github.com/zerosorai/CVE-2023-36884)
-- [tarraschk/CVE-2023-36884-Checker](https://github.com/tarraschk/CVE-2023-36884-Checker)
-- [or2me/CVE-2023-36884_patcher](https://github.com/or2me/CVE-2023-36884_patcher)
-- [ToddMaxey/CVE-2023-36884](https://github.com/ToddMaxey/CVE-2023-36884)
-- [ridsoliveira/Fix-CVE-2023-36884](https://github.com/ridsoliveira/Fix-CVE-2023-36884)
-- [raresteak/CVE-2023-36884](https://github.com/raresteak/CVE-2023-36884)
 - [jakabakos/CVE-2023-36884-MS-Office-HTML-RCE](https://github.com/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE)
-
-### CVE-2023-36899 (2023-08-08)
-
-<code>ASP.NET Elevation of Privilege Vulnerability
-</code>
-
-- [d0rb/CVE-2023-36899](https://github.com/d0rb/CVE-2023-36899)
-- [midisec/CVE-2023-36899](https://github.com/midisec/CVE-2023-36899)
 
 ### CVE-2023-36900 (2023-08-08)
 
@@ -13697,47 +13273,12 @@
 ### CVE-2023-37073
 - [Hamza0X/CVE-2023-37073](https://github.com/Hamza0X/CVE-2023-37073)
 
-### CVE-2023-37164 (2023-07-20)
-
-<code>Diafan CMS v6.0 was discovered to contain a reflected cross-site scripting via the cat_id parameter at /shop/?module=shop&amp;action=search.
-</code>
-
-- [ilqarli27/CVE-2023-37164](https://github.com/ilqarli27/CVE-2023-37164)
-
-### CVE-2023-37189 (2023-07-11)
-
-<code>A stored cross site scripting (XSS) vulnerability in index.php?menu=billing_rates of Issabel PBX version 4 allows attackers to execute arbitrary web scripts or HTML via a crafted payload entered into the Name or Prefix fields under the Create New Rate module.
-</code>
-
-- [sahiloj/CVE-2023-37189](https://github.com/sahiloj/CVE-2023-37189)
-
-### CVE-2023-37190 (2023-07-11)
-
-<code>A stored cross-site scripting (XSS) vulnerability in Issabel issabel-pbx v.4.0.0-6 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Virtual Fax Name and Caller ID Name parameters under the New Virtual Fax feature.
-</code>
-
-- [sahiloj/CVE-2023-37190](https://github.com/sahiloj/CVE-2023-37190)
-
-### CVE-2023-37191 (2023-07-11)
-
-<code>A stored cross-site scripting (XSS) vulnerability in Issabel issabel-pbx v.4.0.0-6 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Group and Description parameters.
-</code>
-
-- [sahiloj/CVE-2023-37191](https://github.com/sahiloj/CVE-2023-37191)
-
 ### CVE-2023-37250 (2023-08-20)
 
 <code>Unity Parsec has a TOCTOU race condition that permits local attackers to escalate privileges to SYSTEM if Parsec was installed in &quot;Per User&quot; mode. The application intentionally launches DLLs from a user-owned directory but intended to always perform integrity verification of those DLLs. This affects Parsec Loader versions through 8. Parsec Loader 9 is a fixed version.
 </code>
 
 - [ewilded/CVE-2023-37250-POC](https://github.com/ewilded/CVE-2023-37250-POC)
-
-### CVE-2023-37474 (2023-07-14)
-
-<code>Copyparty is a portable file server. Versions prior to 1.8.2 are subject to a path traversal vulnerability detected in the `.cpr` subfolder. The Path Traversal attack technique allows an attacker access to files, directories, and commands that reside outside the web document root directory. This issue has been addressed in commit `043e3c7d` which has been included in release 1.8.2. Users are advised to upgrade. There are no known workarounds for this vulnerability.
-</code>
-
-- [ilqarli27/CVE-2023-37474](https://github.com/ilqarli27/CVE-2023-37474)
 
 ### CVE-2023-37478 (2023-08-01)
 
@@ -13747,50 +13288,8 @@
 - [TrevorGKann/CVE-2023-37478_npm_vs_pnpm](https://github.com/TrevorGKann/CVE-2023-37478_npm_vs_pnpm)
 - [li-minhao/CVE-2023-37478-Demo](https://github.com/li-minhao/CVE-2023-37478-Demo)
 
-### CVE-2023-37582 (2023-07-12)
-
-<code>The RocketMQ NameServer component still has a remote command execution vulnerability as the CVE-2023-33246 issue was not completely fixed in version 5.1.1. \n\nWhen NameServer address are leaked on the extranet and lack permission verification, an attacker can exploit this vulnerability by using the update configuration function on the NameServer component to execute commands as the system users that RocketMQ is running as. \n\nIt is recommended for users to upgrade their NameServer version to 5.1.2 or above for RocketMQ 5.x or 4.9.7 or above for RocketMQ 4.x to prevent these attacks.\n
-</code>
-
-- [Malayke/CVE-2023-37582_EXPLOIT](https://github.com/Malayke/CVE-2023-37582_EXPLOIT)
-
-### CVE-2023-37596 (2023-07-11)
-
-<code>Cross Site Request Forgery (CSRF) vulnerability in issabel-pbx v.4.0.0-6 allows a remote attacker to cause a denial of service via a crafted script to the deleteuser function.
-</code>
-
-- [sahiloj/CVE-2023-37596](https://github.com/sahiloj/CVE-2023-37596)
-
-### CVE-2023-37597 (2023-07-11)
-
-<code>Cross Site Request Forgery (CSRF) vulnerability in issabel-pbx v.4.0.0-6 allows a remote attacker to cause a denial of service via the delete user grouplist function.
-</code>
-
-- [sahiloj/CVE-2023-37597](https://github.com/sahiloj/CVE-2023-37597)
-
-### CVE-2023-37598 (2023-07-13)
-
-<code>A Cross Site Request Forgery (CSRF) vulnerability in issabel-pbx v.4.0.0-6 allows a remote attacker to cause a denial of service via the delete new virtual fax function.
-</code>
-
-- [sahiloj/CVE-2023-37598](https://github.com/sahiloj/CVE-2023-37598)
-
-### CVE-2023-37599 (2023-07-13)
-
-<code>An issue in issabel-pbx v.4.0.0-6 allows a remote attacker to obtain sensitive information via the modules directory
-</code>
-
-- [sahiloj/CVE-2023-37599](https://github.com/sahiloj/CVE-2023-37599)
-
 ### CVE-2023-37621
 - [MY0723/CNVD-2022-27366__CVE-2023-37621](https://github.com/MY0723/CNVD-2022-27366__CVE-2023-37621)
-
-### CVE-2023-37625 (2023-08-10)
-
-<code>A stored cross-site scripting (XSS) vulnerability in Netbox v3.4.7 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Custom Link templates.
-</code>
-
-- [benjaminpsinclair/Netbox-CVE-2023-37625](https://github.com/benjaminpsinclair/Netbox-CVE-2023-37625)
 
 ### CVE-2023-37739 (2023-09-14)
 
@@ -13813,42 +13312,12 @@
 
 - [leekenghwa/CVE-2023-37756-CWE-521-lead-to-malicious-plugin-upload-in-the-i-doit-Pro-25-and-below](https://github.com/leekenghwa/CVE-2023-37756-CWE-521-lead-to-malicious-plugin-upload-in-the-i-doit-Pro-25-and-below)
 
-### CVE-2023-37771 (2023-07-31)
-
-<code>Art Gallery Management System v1.0 contains a SQL injection vulnerability via the cid parameter at /agms/product.php.
-</code>
-
-- [anky-123/CVE-2023-37771](https://github.com/anky-123/CVE-2023-37771)
-
-### CVE-2023-37772 (2023-08-01)
-
-<code>Online Shopping Portal Project v3.1 was discovered to contain a SQL injection vulnerability via the Email parameter at /shopping/login.php.
-</code>
-
-- [anky-123/CVE-2023-37772](https://github.com/anky-123/CVE-2023-37772)
-
-### CVE-2023-37778
-- [jyoti818680/CVE-2023-37778](https://github.com/jyoti818680/CVE-2023-37778)
-
-### CVE-2023-37779
-- [jyoti818680/CVE-2023-37779](https://github.com/jyoti818680/CVE-2023-37779)
-
-### CVE-2023-37786 (2023-07-13)
-
-<code>Multiple cross-site scripting (XSS) vulnerabilities in Geeklog v2.2.2 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Mail Settings[backend], Mail Settings[host], Mail Settings[port] and Mail Settings[auth] parameters of the /admin/configuration.php.
-</code>
-
-- [Phamchie/CVE-2023-37786](https://github.com/Phamchie/CVE-2023-37786)
-
 ### CVE-2023-37790 (2023-11-08)
 
 <code>Jaspersoft Clarity PPM version 14.3.0.298 was discovered to contain an arbitrary file upload vulnerability via the Profile Picture Upload function.
 </code>
 
 - [kaizensecurity/CVE-2023-37790](https://github.com/kaizensecurity/CVE-2023-37790)
-
-### CVE-2023-37800
-- [TraiLeR2/CVE-2023-37800](https://github.com/TraiLeR2/CVE-2023-37800)
 
 ### CVE-2023-37903 (2023-07-21)
 
@@ -13864,21 +13333,11 @@
 
 - [Barroqueiro/CVE-2023-37941](https://github.com/Barroqueiro/CVE-2023-37941)
 
-### CVE-2023-37979 (2023-07-27)
-
-<code>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Saturday Drive Ninja Forms Contact Form plugin &lt;= 3.6.25 versions.
-</code>
-
-- [Mehran-Seifalinia/CVE-2023-37979](https://github.com/Mehran-Seifalinia/CVE-2023-37979)
-- [d0rb/CVE-2023-37979](https://github.com/d0rb/CVE-2023-37979)
-
 ### CVE-2023-38035 (2023-08-21)
 
 <code>A security vulnerability in MICS Admin Portal in Ivanti MobileIron Sentry versions 9.18.0 and below, which may allow an attacker to bypass authentication controls on the administrative interface due to an insufficiently restrictive Apache HTTPD configuration. 
 </code>
 
-- [horizon3ai/CVE-2023-38035](https://github.com/horizon3ai/CVE-2023-38035)
-- [LeakIX/sentryexploit](https://github.com/LeakIX/sentryexploit)
 - [mind2hex/CVE-2023-38035](https://github.com/mind2hex/CVE-2023-38035)
 
 ### CVE-2023-38039 (2023-09-15)
@@ -13923,20 +13382,6 @@
 - [mrtacojr/CVE-2023-38408](https://github.com/mrtacojr/CVE-2023-38408)
 - [fazilbaig1/cve_2023_38408_scanner](https://github.com/fazilbaig1/cve_2023_38408_scanner)
 - [Nick-Morbid/cve-2023-38408](https://github.com/Nick-Morbid/cve-2023-38408)
-
-### CVE-2023-38434 (2023-07-18)
-
-<code>xHTTP 72f812d has a double free in close_connection in xhttp.c via a malformed HTTP request method.
-</code>
-
-- [Halcy0nic/CVE-2023-38434](https://github.com/Halcy0nic/CVE-2023-38434)
-
-### CVE-2023-38490 (2023-07-27)
-
-<code>Kirby is a content management system. A vulnerability in versions prior to 3.5.8.3, 3.6.6.3, 3.7.5.2, 3.8.4.1, and 3.9.6 only affects Kirby sites that use the `Xml` data handler (e.g. `Data::decode($string, 'xml')`) or the `Xml::parse()` method in site or plugin code. The Kirby core does not use any of the affected methods.\n\nXML External Entities (XXE) is a little used feature in the XML markup language that allows to include data from external files in an XML structure. If the name of the external file can be controlled by an attacker, this becomes a vulnerability that can be abused for various system impacts like the disclosure of internal or confidential data that is stored on the server (arbitrary file disclosure) or to perform network requests on behalf of the server (server-side request forgery, SSRF).\n\nKirby's `Xml::parse()` method used PHP's `LIBXML_NOENT` constant, which enabled the processing of XML external entities during the parsing operation. The `Xml::parse()` method is used in the `Xml` data handler (e.g. `Data::decode($string, 'xml')`). Both the vulnerable method and the data handler are not used in the Kirby core. However they may be used in site or plugin code, e.g. to parse RSS feeds or other XML files. If those files are of an external origin (e.g. uploaded by a user or retrieved from an external URL), attackers may be able to include an external entity in the XML file that will then be processed in the parsing process. Kirby sites that don't use XML parsing in site or plugin code are *not* affected.\n\nThe problem has been patched in Kirby 3.5.8.3, 3.6.6.3, 3.7.5.2, 3.8.4.1, and 3.9.6. In all of the mentioned releases, the maintainers have removed the `LIBXML_NOENT` constant as processing of external entities is out of scope of the parsing logic. This protects all uses of the method against the described vulnerability.
-</code>
-
-- [Acceis/exploit-CVE-2023-38490](https://github.com/Acceis/exploit-CVE-2023-38490)
 
 ### CVE-2023-38497 (2023-08-04)
 
@@ -13983,31 +13428,13 @@
 
 - [mc-17/CVE-2023-38609](https://github.com/mc-17/CVE-2023-38609)
 
-### CVE-2023-38632 (2023-07-21)
-
-<code>async-sockets-cpp through 0.3.1 has a stack-based buffer overflow in tcpsocket.hpp when processing malformed TCP packets.
-</code>
-
-- [Halcy0nic/CVE-2023-38632](https://github.com/Halcy0nic/CVE-2023-38632)
-
 ### CVE-2023-38646 (2023-07-21)
 
 <code>Metabase open source before 0.46.6.1 and Metabase Enterprise before 1.46.6.1 allow attackers to execute arbitrary commands on the server, at the server's privilege level. Authentication is not required for exploitation. The other fixed versions are 0.45.4.1, 1.45.4.1, 0.44.7.1, 1.44.7.1, 0.43.7.2, and 1.43.7.2.
 </code>
 
-- [adriyansyah-mf/CVE-2023-38646--Metabase-](https://github.com/adriyansyah-mf/CVE-2023-38646--Metabase-)
-- [Pumpkin-Garden/POC_Metabase_CVE-2023-38646](https://github.com/Pumpkin-Garden/POC_Metabase_CVE-2023-38646)
-- [0xrobiul/CVE-2023-38646](https://github.com/0xrobiul/CVE-2023-38646)
-- [Chocapikk/CVE-2023-38646](https://github.com/Chocapikk/CVE-2023-38646)
-- [Xuxfff/CVE-2023-38646-Poc](https://github.com/Xuxfff/CVE-2023-38646-Poc)
 - [securezeron/CVE-2023-38646](https://github.com/securezeron/CVE-2023-38646)
-- [raytheon0x21/CVE-2023-38646](https://github.com/raytheon0x21/CVE-2023-38646)
 - [Zenmovie/CVE-2023-38646](https://github.com/Zenmovie/CVE-2023-38646)
-- [shamo0/CVE-2023-38646-PoC](https://github.com/shamo0/CVE-2023-38646-PoC)
-- [fidjiw/CVE-2023-38646-POC](https://github.com/fidjiw/CVE-2023-38646-POC)
-- [Any3ite/cve-2023-38646-metabase-ReverseShell](https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell)
-- [robotmikhro/CVE-2023-38646](https://github.com/robotmikhro/CVE-2023-38646)
-- [kh4sh3i/CVE-2023-38646](https://github.com/kh4sh3i/CVE-2023-38646)
 - [yxl2001/CVE-2023-38646](https://github.com/yxl2001/CVE-2023-38646)
 - [alexandre-pecorilla/CVE-2023-38646](https://github.com/alexandre-pecorilla/CVE-2023-38646)
 - [m3m0o/metabase-pre-auth-rce-poc](https://github.com/m3m0o/metabase-pre-auth-rce-poc)
@@ -14054,15 +13481,6 @@
 
 - [vxcall/kur](https://github.com/vxcall/kur)
 
-### CVE-2023-38820
-- [TraiLeR2/DLL-Planting-Slack-4.33.73-CVE-2023-38820](https://github.com/TraiLeR2/DLL-Planting-Slack-4.33.73-CVE-2023-38820)
-
-### CVE-2023-38821
-- [TraiLeR2/CoD-MW-Warzone-2---CVE-2023-38821](https://github.com/TraiLeR2/CoD-MW-Warzone-2---CVE-2023-38821)
-
-### CVE-2023-38822
-- [TraiLeR2/Corsair---DLL-Planting-CVE-2023-38822](https://github.com/TraiLeR2/Corsair---DLL-Planting-CVE-2023-38822)
-
 ### CVE-2023-38829 (2023-09-11)
 
 <code>An issue in NETIS SYSTEMS WF2409E v.3.6.42541 allows a remote attacker to execute arbitrary code via the ping and traceroute functions of the diagnostic tools component in the admin management interface.
@@ -14076,21 +13494,10 @@
 <code>RARLAB WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through October 2023.
 </code>
 
-- [BoredHackerBlog/winrar_CVE-2023-38831_lazy_poc](https://github.com/BoredHackerBlog/winrar_CVE-2023-38831_lazy_poc)
 - [b1tg/CVE-2023-38831-winrar-exploit](https://github.com/b1tg/CVE-2023-38831-winrar-exploit)
-- [IR-HuntGuardians/CVE-2023-38831-HUNT](https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT)
-- [Garck3h/cve-2023-38831](https://github.com/Garck3h/cve-2023-38831)
-- [ignis-sec/CVE-2023-38831-RaRCE](https://github.com/ignis-sec/CVE-2023-38831-RaRCE)
 - [HDCE-inc/CVE-2023-38831](https://github.com/HDCE-inc/CVE-2023-38831)
 - [Maalfer/CVE-2023-38831_ReverseShell_Winrar-RCE](https://github.com/Maalfer/CVE-2023-38831_ReverseShell_Winrar-RCE)
-- [knight0x07/WinRAR-Code-Execution-Vulnerability-CVE-2023-38831](https://github.com/knight0x07/WinRAR-Code-Execution-Vulnerability-CVE-2023-38831)
-- [akhomlyuk/cve-2023-38831](https://github.com/akhomlyuk/cve-2023-38831)
-- [PascalAsch/CVE-2023-38831-KQL](https://github.com/PascalAsch/CVE-2023-38831-KQL)
-- [ahmed-fa7im/CVE-2023-38831-winrar-expoit-simple-Poc](https://github.com/ahmed-fa7im/CVE-2023-38831-winrar-expoit-simple-Poc)
-- [thegr1ffyn/CVE-2023-38831](https://github.com/thegr1ffyn/CVE-2023-38831)
-- [MortySecurity/CVE-2023-38831-Exploit-and-Detection](https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection)
 - [z3r0sw0rd/CVE-2023-38831-PoC](https://github.com/z3r0sw0rd/CVE-2023-38831-PoC)
-- [sh770/CVE-2023-38831](https://github.com/sh770/CVE-2023-38831)
 - [BeniB3astt/CVE-2023-38831_ReverseShell_Winrar](https://github.com/BeniB3astt/CVE-2023-38831_ReverseShell_Winrar)
 - [MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC](https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC)
 - [Mich-ele/CVE-2023-38831-winrar](https://github.com/Mich-ele/CVE-2023-38831-winrar)
@@ -14143,13 +13550,6 @@
 
 - [markuta/bw-dump](https://github.com/markuta/bw-dump)
 
-### CVE-2023-38890 (2023-08-18)
-
-<code>Online Shopping Portal Project 3.1 allows remote attackers to execute arbitrary SQL commands/queries via the login form, leading to unauthorized access and potential data manipulation. This vulnerability arises due to insufficient validation of user-supplied input in the username field, enabling SQL Injection attacks.
-</code>
-
-- [akshadjoshi/CVE-2023-38890](https://github.com/akshadjoshi/CVE-2023-38890)
-
 ### CVE-2023-38891 (2023-09-14)
 
 <code>SQL injection vulnerability in Vtiger CRM v.7.5.0 allows a remote authenticated attacker to escalate privileges via the getQueryColumnsList function in ReportRun.php.
@@ -14159,34 +13559,6 @@
 
 ### CVE-2023-39024
 - [BenTheCyberOne/CVE-2023-39024-5-POC](https://github.com/BenTheCyberOne/CVE-2023-39024-5-POC)
-
-### CVE-2023-39062 (2023-08-28)
-
-<code>Cross Site Scripting vulnerability in Spipu HTML2PDF before v.5.2.8 allows a remote attacker to execute arbitrary code via a crafted script to the forms.php.
-</code>
-
-- [afine-com/CVE-2023-39062](https://github.com/afine-com/CVE-2023-39062)
-
-### CVE-2023-39063 (2023-09-11)
-
-<code>Buffer Overflow vulnerability in RaidenFTPD 2.4.4005 allows a local attacker to execute arbitrary code via the Server name field of the Step by step setup wizard.
-</code>
-
-- [AndreGNogueira/CVE-2023-39063](https://github.com/AndreGNogueira/CVE-2023-39063)
-
-### CVE-2023-39115 (2023-08-16)
-
-<code>install/aiz-uploader/upload in Campcodes Online Matrimonial Website System Script 3.3 allows XSS via a crafted SVG document.
-</code>
-
-- [Raj789-sec/CVE-2023-39115](https://github.com/Raj789-sec/CVE-2023-39115)
-
-### CVE-2023-39144 (2023-08-03)
-
-<code>Element55 KnowMore appliances version 21 and older was discovered to store passwords in plaintext.
-</code>
-
-- [cduram/CVE-2023-39144](https://github.com/cduram/CVE-2023-39144)
 
 ### CVE-2023-39320 (2023-09-08)
 
@@ -14210,13 +13582,6 @@
 - [m3ssap0/cacti-rce-snmp-options-vulnerable-application](https://github.com/m3ssap0/cacti-rce-snmp-options-vulnerable-application)
 - [jakabakos/CVE-2023-39362-cacti-snmp-command-injection-poc](https://github.com/jakabakos/CVE-2023-39362-cacti-snmp-command-injection-poc)
 
-### CVE-2023-39526 (2023-08-07)
-
-<code>PrestaShop is an open source e-commerce web application. Versions prior to 1.7.8.10, 8.0.5, and 8.1.1 are vulnerable to remote code execution through SQL injection and arbitrary file write in the back office. Versions 1.7.8.10, 8.0.5, and 8.1.1 contain a patch. There are no known workarounds.
-</code>
-
-- [dnkhack/fixcve2023_39526_2023_39527](https://github.com/dnkhack/fixcve2023_39526_2023_39527)
-
 ### CVE-2023-39539 (2023-12-06)
 
 <code>\nAMI AptioV contains a vulnerability in BIOS where a User may cause an unrestricted upload of a PNG Logo file with dangerous type by Local access. A successful exploit of this vulnerability may lead to a loss of Confidentiality, Integrity, and/or Availability. \n\n\n\n\n\n
@@ -14230,55 +13595,6 @@
 </code>
 
 - [Ant1sec-ops/CVE-2023-39593](https://github.com/Ant1sec-ops/CVE-2023-39593)
-
-### CVE-2023-39707 (2023-08-25)
-
-<code>A stored cross-site scripting (XSS) vulnerability in Free and Open Source Inventory Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Add Expense parameter under the Expense section.
-</code>
-
-- [Arajawat007/CVE-2023-39707](https://github.com/Arajawat007/CVE-2023-39707)
-
-### CVE-2023-39708 (2023-08-28)
-
-<code>A stored cross-site scripting (XSS) vulnerability in Free and Open Source Inventory Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Add New parameter under the New Buy section.
-</code>
-
-- [Arajawat007/CVE-2023-39708](https://github.com/Arajawat007/CVE-2023-39708)
-
-### CVE-2023-39709 (2023-08-28)
-
-<code>Multiple cross-site scripting (XSS) vulnerabilities in Free and Open Source Inventory Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Name, Address, and Company parameters under the Add Member section.
-</code>
-
-- [Arajawat007/CVE-2023-39709](https://github.com/Arajawat007/CVE-2023-39709)
-
-### CVE-2023-39710 (2023-09-01)
-
-<code>Multiple cross-site scripting (XSS) vulnerabilities in Free and Open Source Inventory Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Name, Address, and Company parameters under the Add Customer section.
-</code>
-
-- [Arajawat007/CVE-2023-39710](https://github.com/Arajawat007/CVE-2023-39710)
-
-### CVE-2023-39711 (2023-09-07)
-
-<code>Multiple cross-site scripting (XSS) vulnerabilities in Free and Open Source Inventory Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Subtotal and Paidbill parameters under the Add New Put section.
-</code>
-
-- [Arajawat007/CVE-2023-39711](https://github.com/Arajawat007/CVE-2023-39711)
-
-### CVE-2023-39712 (2023-09-08)
-
-<code>Multiple cross-site scripting (XSS) vulnerabilities in Free and Open Source Inventory Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Name, Address, and Company parameters under the Add New Put section.
-</code>
-
-- [Arajawat007/CVE-2023-39712](https://github.com/Arajawat007/CVE-2023-39712)
-
-### CVE-2023-39714 (2023-09-01)
-
-<code>Multiple cross-site scripting (XSS) vulnerabilities in Free and Open Source Inventory Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Name, Address, and Company parameters under the Add New Member section.
-</code>
-
-- [Arajawat007/CVE-2023-39714](https://github.com/Arajawat007/CVE-2023-39714)
 
 ### CVE-2023-39725
 - [anky-123/CVE-2023-39725](https://github.com/anky-123/CVE-2023-39725)
@@ -14415,20 +13731,6 @@
 
 - [BugBountyHunterCVE/CVE-2023-40280](https://github.com/BugBountyHunterCVE/CVE-2023-40280)
 
-### CVE-2023-40294 (2023-08-14)
-
-<code>libboron in Boron 2.0.8 has a heap-based buffer overflow in ur_parseBlockI at i_parse_blk.c.
-</code>
-
-- [Halcy0nic/CVE-2023-40294-and-CVE-2023-40295](https://github.com/Halcy0nic/CVE-2023-40294-and-CVE-2023-40295)
-
-### CVE-2023-40296 (2023-08-14)
-
-<code>async-sockets-cpp through 0.3.1 has a stack-based buffer overflow in ReceiveFrom and Receive in udpsocket.hpp when processing malformed UDP packets.
-</code>
-
-- [Halcy0nic/CVE-2023-40296](https://github.com/Halcy0nic/CVE-2023-40296)
-
 ### CVE-2023-40297 (-)
 
 <code>Stakater Forecastle 1.0.139 and before allows %5C../ directory traversal in the website component.
@@ -14477,7 +13779,6 @@
 <code>RARLAB WinRAR Recovery Volume Improper Validation of Array Index Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of RARLAB WinRAR. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the processing of recovery volumes. The issue results from the lack of proper validation of user-supplied data, which can result in a memory access past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-21233.
 </code>
 
-- [winkler-winsen/Scan_WinRAR](https://github.com/winkler-winsen/Scan_WinRAR)
 - [wildptr-io/Winrar-CVE-2023-40477-POC](https://github.com/wildptr-io/Winrar-CVE-2023-40477-POC)
 
 ### CVE-2023-40600 (2023-11-30)
@@ -15785,7 +15086,6 @@
 - [JaneMandy/ActiveMQ_RCE_Pro_Max](https://github.com/JaneMandy/ActiveMQ_RCE_Pro_Max)
 - [SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ](https://github.com/SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ)
 - [evkl1d/CVE-2023-46604](https://github.com/evkl1d/CVE-2023-46604)
-- [sule01u/CVE-2023-46604](https://github.com/sule01u/CVE-2023-46604)
 - [justdoit-cai/CVE-2023-46604-Apache-ActiveMQ-RCE-exp](https://github.com/justdoit-cai/CVE-2023-46604-Apache-ActiveMQ-RCE-exp)
 - [h3x3h0g/ActiveMQ-RCE-CVE-2023-46604-Write-up](https://github.com/h3x3h0g/ActiveMQ-RCE-CVE-2023-46604-Write-up)
 - [duck-sec/CVE-2023-46604-ActiveMQ-RCE-pseudoshell](https://github.com/duck-sec/CVE-2023-46604-ActiveMQ-RCE-pseudoshell)
@@ -42647,7 +41947,6 @@
 - [VitoBonetti/CVE-2018-16763](https://github.com/VitoBonetti/CVE-2018-16763)
 - [saccles/CVE-2018-16763-Proof-of-Concept](https://github.com/saccles/CVE-2018-16763-Proof-of-Concept)
 - [altsun/CVE-2018-16763-FuelCMS-1.4.1-RCE](https://github.com/altsun/CVE-2018-16763-FuelCMS-1.4.1-RCE)
-- [Kz0x-337/CVE-2018-16763](https://github.com/Kz0x-337/CVE-2018-16763)
 
 ### CVE-2018-16809 (2019-03-07)
 
