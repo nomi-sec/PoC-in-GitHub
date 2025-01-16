@@ -32,6 +32,9 @@
 
 - [DoTTak/CVE-2025-22510](https://github.com/DoTTak/CVE-2025-22510)
 
+### CVE-2025-22710
+- [DoTTak/CVE-2025-22710](https://github.com/DoTTak/CVE-2025-22710)
+
 ### CVE-2025-22783
 - [DoTTak/CVE-2025-22783](https://github.com/DoTTak/CVE-2025-22783)
 
@@ -7491,7 +7494,6 @@
 </code>
 
 - [MrAle98/CVE-2024-49138-POC](https://github.com/MrAle98/CVE-2024-49138-POC)
-- [aspire20x/CVE-2024-49138-POC](https://github.com/aspire20x/CVE-2024-49138-POC)
 
 ### CVE-2024-49203 (2024-11-20)
 
@@ -11156,6 +11158,7 @@
 - [H4K6/CVE-2023-25136](https://github.com/H4K6/CVE-2023-25136)
 - [Business1sg00d/CVE-2023-25136](https://github.com/Business1sg00d/CVE-2023-25136)
 - [malvika-thakur/CVE-2023-25136](https://github.com/malvika-thakur/CVE-2023-25136)
+- [mrmtwoj/CVE-2023-25136](https://github.com/mrmtwoj/CVE-2023-25136)
 
 ### CVE-2023-25157 (2023-02-21)
 
@@ -31015,7 +31018,6 @@
 - [exploitblizzard/CVE-2020-0601-spoofkey](https://github.com/exploitblizzard/CVE-2020-0601-spoofkey)
 - [ShayNehmad/twoplustwo](https://github.com/ShayNehmad/twoplustwo)
 - [okanulkr/CurveBall-CVE-2020-0601-PoC](https://github.com/okanulkr/CurveBall-CVE-2020-0601-PoC)
-- [cimashiro/-Awesome-CVE-2020-0601-](https://github.com/cimashiro/-Awesome-CVE-2020-0601-)
 - [tyj956413282/curveball-plus](https://github.com/tyj956413282/curveball-plus)
 - [JoelBts/CVE-2020-0601_PoC](https://github.com/JoelBts/CVE-2020-0601_PoC)
 
