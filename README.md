@@ -11,6 +11,13 @@
 - [AnonStorks/CVE-2025-0282-Full-version](https://github.com/AnonStorks/CVE-2025-0282-Full-version)
 - [rxwx/pulse-meter](https://github.com/rxwx/pulse-meter)
 
+### CVE-2025-21385 (2025-01-09)
+
+<code>A Server-Side Request Forgery (SSRF) vulnerability in Microsoft Purview allows an authorized attacker to disclose information over a network.
+</code>
+
+- [Pauloxc6/CVE-2025-21385](https://github.com/Pauloxc6/CVE-2025-21385)
+
 ### CVE-2025-22352 (2025-01-07)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ELEXtensions ELEX WooCommerce Advanced Bulk Edit Products, Prices &amp; Attributes allows Blind SQL Injection.This issue affects ELEX WooCommerce Advanced Bulk Edit Products, Prices &amp; Attributes: from n/a through 1.4.8.
@@ -28,7 +35,11 @@
 ### CVE-2025-22783
 - [DoTTak/CVE-2025-22783](https://github.com/DoTTak/CVE-2025-22783)
 
-### CVE-2025-22964
+### CVE-2025-22964 (2025-01-15)
+
+<code>SQL Injection vulnerability in DDSN Net Pty Ltd (DDSN Interactive) DDSN Interactive cm3 Acora CMS 10.1.1 allows an attacker to execute arbitrary code via the table parameter.
+</code>
+
 - [padayali-JD/CVE-2025-22964](https://github.com/padayali-JD/CVE-2025-22964)
 
 ### CVE-2025-22968 (2025-01-15)
@@ -6501,6 +6512,13 @@
 
 - [xen0bit/fwbt](https://github.com/xen0bit/fwbt)
 
+### CVE-2024-41018 (2024-07-29)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nfs/ntfs3: Add a check for attr_names and oatbl\n\nAdded out-of-bound checking for *ane (ATTR_NAME_ENTRY).
+</code>
+
+- [LLfam/CVE-2024-41018](https://github.com/LLfam/CVE-2024-41018)
+
 ### CVE-2024-41107 (2024-07-19)
 
 <code>The CloudStack SAML authentication (disabled by default) does not enforce signature check. In CloudStack environments where SAML authentication is enabled, an attacker that initiates CloudStack SAML single sign-on authentication can bypass SAML authentication by submitting a spoofed SAML response with no signature and known or guessed username and other user details of a SAML-enabled CloudStack user-account. In such environments, this can result in a complete compromise of the resources owned and/or accessible by a SAML enabled user-account.\n\nAffected users are recommended to disable the SAML authentication plugin by setting the &quot;saml2.enabled&quot; global setting to &quot;false&quot;, or upgrade to version 4.18.2.2, 4.19.1.0 or later, which addresses this issue.\n\n
@@ -8083,7 +8101,11 @@
 
 - [ThottySploity/CVE-2024-53376](https://github.com/ThottySploity/CVE-2024-53376)
 
-### CVE-2024-53407
+### CVE-2024-53407 (2025-01-15)
+
+<code>In Phiewer 4.1.0, a dylib injection leads to Command Execution which allow attackers to inject dylib file potentially leading to remote control and unauthorized access to sensitive user data.
+</code>
+
 - [SyFi/CVE-2024-53407](https://github.com/SyFi/CVE-2024-53407)
 
 ### CVE-2024-53476 (2024-12-27)
@@ -8247,7 +8269,11 @@
 ### CVE-2024-55457
 - [h13nh04ng/CVE-2024-55457-PoC](https://github.com/h13nh04ng/CVE-2024-55457-PoC)
 
-### CVE-2024-55503
+### CVE-2024-55503 (2025-01-15)
+
+<code>An issue in termius before v.9.9.0 allows a local attacker to execute arbitrary code via a crafted script to the DYLD_INSERT_LIBRARIES component.
+</code>
+
 - [SyFi/CVE-2024-55503](https://github.com/SyFi/CVE-2024-55503)
 
 ### CVE-2024-55557 (2024-12-16)
@@ -8422,6 +8448,12 @@
 </code>
 
 - [aaryan-11-x/CVE-2024-57487-and-CVE-2024-57488](https://github.com/aaryan-11-x/CVE-2024-57487-and-CVE-2024-57488)
+
+### CVE-2024-57522
+- [HackWidMaddy/CVE-2024-57522](https://github.com/HackWidMaddy/CVE-2024-57522)
+
+### CVE-2024-57523
+- [HackWidMaddy/CVE-2024-57523.](https://github.com/HackWidMaddy/CVE-2024-57523.)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -42668,6 +42700,7 @@
 - [VitoBonetti/CVE-2018-16763](https://github.com/VitoBonetti/CVE-2018-16763)
 - [saccles/CVE-2018-16763-Proof-of-Concept](https://github.com/saccles/CVE-2018-16763-Proof-of-Concept)
 - [altsun/CVE-2018-16763-FuelCMS-1.4.1-RCE](https://github.com/altsun/CVE-2018-16763-FuelCMS-1.4.1-RCE)
+- [Kz0x-337/CVE-2018-16763](https://github.com/Kz0x-337/CVE-2018-16763)
 
 ### CVE-2018-16809 (2019-03-07)
 
