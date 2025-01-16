@@ -1475,7 +1475,6 @@
 - [CiderAndWhisky/regression-scanner](https://github.com/CiderAndWhisky/regression-scanner)
 - [shamo0/CVE-2024-6387_PoC](https://github.com/shamo0/CVE-2024-6387_PoC)
 - [paradessia/CVE-2024-6387-nmap](https://github.com/paradessia/CVE-2024-6387-nmap)
-- [SecWithMoh/CVE-2024-6387](https://github.com/SecWithMoh/CVE-2024-6387)
 - [PrincipalAnthony/CVE-2024-6387-Updated-x64bit](https://github.com/PrincipalAnthony/CVE-2024-6387-Updated-x64bit)
 - [skyalliance/CVE-2024-6387-POC](https://github.com/skyalliance/CVE-2024-6387-POC)
 - [daniel-odrinski/CVE-2024-6387-Mitigation-Ansible-Playbook](https://github.com/daniel-odrinski/CVE-2024-6387-Mitigation-Ansible-Playbook)
@@ -2542,6 +2541,7 @@
 </code>
 
 - [JunTakemura/exploit-CVE-2024-11972](https://github.com/JunTakemura/exploit-CVE-2024-11972)
+- [RonF98/CVE-2024-11972-POC](https://github.com/RonF98/CVE-2024-11972-POC)
 
 ### CVE-2024-12025 (2024-12-18)
 
@@ -5987,6 +5987,7 @@
 - [selenagomez25/CVE-2024-38063](https://github.com/selenagomez25/CVE-2024-38063)
 - [Laukage/Windows-CVE-2024-38063](https://github.com/Laukage/Windows-CVE-2024-38063)
 - [jamesbishop785/CVE-2024-38063](https://github.com/jamesbishop785/CVE-2024-38063)
+- [jip-0-0-0-0-0/CVE-2024-38063-scanner](https://github.com/jip-0-0-0-0-0/CVE-2024-38063-scanner)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -6515,13 +6516,6 @@
 
 - [xen0bit/fwbt](https://github.com/xen0bit/fwbt)
 
-### CVE-2024-41018 (2024-07-29)
-
-<code>In the Linux kernel, the following vulnerability has been resolved:\n\nfs/ntfs3: Add a check for attr_names and oatbl\n\nAdded out-of-bound checking for *ane (ATTR_NAME_ENTRY).
-</code>
-
-- [LLfam/CVE-2024-41018](https://github.com/LLfam/CVE-2024-41018)
-
 ### CVE-2024-41107 (2024-07-19)
 
 <code>The CloudStack SAML authentication (disabled by default) does not enforce signature check. In CloudStack environments where SAML authentication is enabled, an attacker that initiates CloudStack SAML single sign-on authentication can bypass SAML authentication by submitting a spoofed SAML response with no signature and known or guessed username and other user details of a SAML-enabled CloudStack user-account. In such environments, this can result in a complete compromise of the resources owned and/or accessible by a SAML enabled user-account.\n\nAffected users are recommended to disable the SAML authentication plugin by setting the &quot;saml2.enabled&quot; global setting to &quot;false&quot;, or upgrade to version 4.18.2.2, 4.19.1.0 or later, which addresses this issue.\n\n
@@ -6566,6 +6560,13 @@
 </code>
 
 - [NingXin2002/TOTOLINK_poc](https://github.com/NingXin2002/TOTOLINK_poc)
+
+### CVE-2024-41453 (2025-01-15)
+
+<code>A cross-site scripting (XSS) vulnerability in Process Maker pm4core-docker 4.1.21-RC7 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Name parameter.
+</code>
+
+- [php-lover-boy/CVE-2024-41453_CVE-2024-41454](https://github.com/php-lover-boy/CVE-2024-41453_CVE-2024-41454)
 
 ### CVE-2024-41570 (2024-08-09)
 
@@ -7752,6 +7753,9 @@
 - [verylazytech/CVE-2024-50623](https://github.com/verylazytech/CVE-2024-50623)
 - [iSee857/Cleo-CVE-2024-50623-PoC](https://github.com/iSee857/Cleo-CVE-2024-50623-PoC)
 
+### CVE-2024-50633
+- [cetinpy/CVE-2024-50633](https://github.com/cetinpy/CVE-2024-50633)
+
 ### CVE-2024-50657 (2024-11-22)
 
 <code>An issue in Owncloud android apk v.4.3.1 allows a physically proximate attacker to escalate privileges via the PassCodeViewModel class, specifically in the checkPassCodeIsValid method
@@ -8190,6 +8194,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-54363](https://github.com/RandomRobbieBF/CVE-2024-54363)
+- [Nxploited/CVE-2024-54363-Exploit](https://github.com/Nxploited/CVE-2024-54363-Exploit)
 
 ### CVE-2024-54369 (2024-12-16)
 
@@ -8291,6 +8296,13 @@
 </code>
 
 - [CSIRTTrizna/CVE-2024-55587](https://github.com/CSIRTTrizna/CVE-2024-55587)
+
+### CVE-2024-55591 (2025-01-14)
+
+<code>An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS version 7.0.0 through 7.0.16 and FortiProxy version 7.0.0 through 7.0.19 and 7.2.0 through 7.2.12 allows a remote attacker to gain super-admin privileges via crafted requests to Node.js websocket module.
+</code>
+
+- [watchtowrlabs/fortios-auth-bypass-check-CVE-2024-55591](https://github.com/watchtowrlabs/fortios-auth-bypass-check-CVE-2024-55591)
 
 ### CVE-2024-55875 (2024-12-12)
 
@@ -17872,7 +17884,7 @@
 <code>WordPress is affected by an unauthenticated blind SSRF in the pingback feature. Because of a TOCTOU race condition between the validation checks and the HTTP request, attackers can reach internal hosts that are explicitly forbidden.
 </code>
 
-- [hxlxmjxbbxs/CVE-2022-3590-WordPress-Vulnerability-Scanner](https://github.com/hxlxmjxbbxs/CVE-2022-3590-WordPress-Vulnerability-Scanner)
+- [hxlxmj/CVE-2022-3590-WordPress-Vulnerability-Scanner](https://github.com/hxlxmj/CVE-2022-3590-WordPress-Vulnerability-Scanner)
 - [huynhvanphuc/CVE-2022-3590-WordPress-Vulnerability-Scanner](https://github.com/huynhvanphuc/CVE-2022-3590-WordPress-Vulnerability-Scanner)
 
 ### CVE-2022-3602 (2022-11-01)
@@ -22490,6 +22502,7 @@
 - [notareaperbutDR34P3r/CVE-2022-40684-Rust](https://github.com/notareaperbutDR34P3r/CVE-2022-40684-Rust)
 - [z-bool/CVE-2022-40684](https://github.com/z-bool/CVE-2022-40684)
 - [Anthony1500/CVE-2022-40684](https://github.com/Anthony1500/CVE-2022-40684)
+- [arsolutioner/fortigate-belsen-leak](https://github.com/arsolutioner/fortigate-belsen-leak)
 
 ### CVE-2022-40687 (2022-11-18)
 
@@ -36738,6 +36751,7 @@
 </code>
 
 - [thehunt1s0n/Exihibitor-RCE](https://github.com/thehunt1s0n/Exihibitor-RCE)
+- [yZ1337/CVE-2019-5029](https://github.com/yZ1337/CVE-2019-5029)
 
 ### CVE-2019-5096 (2019-12-03)
 
