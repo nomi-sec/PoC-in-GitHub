@@ -10,6 +10,8 @@
 - [absholi7ly/CVE-2025-0282-Ivanti-exploit](https://github.com/absholi7ly/CVE-2025-0282-Ivanti-exploit)
 - [AnonStorks/CVE-2025-0282-Full-version](https://github.com/AnonStorks/CVE-2025-0282-Full-version)
 - [rxwx/pulse-meter](https://github.com/rxwx/pulse-meter)
+- [watchtowrlabs/CVE-2025-0282](https://github.com/watchtowrlabs/CVE-2025-0282)
+- [sfewer-r7/CVE-2025-0282](https://github.com/sfewer-r7/CVE-2025-0282)
 
 ### CVE-2025-21385 (2025-01-09)
 
@@ -6785,6 +6787,13 @@
 
 - [RedTeamPentesting/moodle-rce-calculatedquestions](https://github.com/RedTeamPentesting/moodle-rce-calculatedquestions)
 
+### CVE-2024-43468 (2024-10-08)
+
+<code>Microsoft Configuration Manager Remote Code Execution Vulnerability
+</code>
+
+- [synacktiv/CVE-2024-43468](https://github.com/synacktiv/CVE-2024-43468)
+
 ### CVE-2024-43532 (2024-10-08)
 
 <code>Remote Registry Service Elevation of Privilege Vulnerability
@@ -7753,7 +7762,11 @@
 - [verylazytech/CVE-2024-50623](https://github.com/verylazytech/CVE-2024-50623)
 - [iSee857/Cleo-CVE-2024-50623-PoC](https://github.com/iSee857/Cleo-CVE-2024-50623-PoC)
 
-### CVE-2024-50633
+### CVE-2024-50633 (2025-01-16)
+
+<code>A Broken Object Level Authorization (BOLA) vulnerability in Indico v3.2.9 allows attackers to access sensitive information via sending a crafted POST request to the component /api/principals.
+</code>
+
 - [cetinpy/CVE-2024-50633](https://github.com/cetinpy/CVE-2024-50633)
 
 ### CVE-2024-50657 (2024-11-22)
@@ -7820,6 +7833,9 @@
 
 ### CVE-2024-50964
 - [fdzdev/CVE-2024-50964](https://github.com/fdzdev/CVE-2024-50964)
+
+### CVE-2024-50967
+- [0xByteHunter/CVE-2024-50967](https://github.com/0xByteHunter/CVE-2024-50967)
 
 ### CVE-2024-50968 (2024-11-14)
 
@@ -21305,6 +21321,7 @@
 - [dkstar11q/CVE-2022-31814](https://github.com/dkstar11q/CVE-2022-31814)
 - [Laburity/CVE-2022-31814](https://github.com/Laburity/CVE-2022-31814)
 - [ArunHAtter/CVE-2022-31814](https://github.com/ArunHAtter/CVE-2022-31814)
+- [Inplex-sys/CVE-2022-31814](https://github.com/Inplex-sys/CVE-2022-31814)
 
 ### CVE-2022-31854 (2022-07-07)
 
@@ -26892,7 +26909,6 @@
 </code>
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
-- [JHVIW/jhviw.github.io](https://github.com/JHVIW/jhviw.github.io)
 
 ### CVE-2021-30551 (2021-06-15)
 
@@ -30360,6 +30376,7 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Category-List-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Category-List-Stored-Cross-Site-Scripting-XSS)
+- [plsanu/CVE-2021-46071](https://github.com/plsanu/CVE-2021-46071)
 
 ### CVE-2021-46072 (2022-01-06)
 
@@ -34913,7 +34930,6 @@
 - [b1ackros337/CVE-2020-25213](https://github.com/b1ackros337/CVE-2020-25213)
 - [BLY-Coder/Python-exploit-CVE-2020-25213](https://github.com/BLY-Coder/Python-exploit-CVE-2020-25213)
 - [E1tex/Python-CVE-2020-25213](https://github.com/E1tex/Python-CVE-2020-25213)
-- [Nguyen-id/CVE-2020-25213](https://github.com/Nguyen-id/CVE-2020-25213)
 
 ### CVE-2020-25223 (2020-09-25)
 
