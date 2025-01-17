@@ -589,7 +589,7 @@
 <code>Implementations of UDP application protocol are vulnerable to network loops.   An unauthenticated attacker can use maliciously-crafted packets against a vulnerable implementation that can lead to Denial of Service (DOS) and/or abuse of resources.
 </code>
 
-- [douglasbuzatto/G3-Loop-DoS](https://github.com/douglasbuzatto/G3-Loop-DoS)
+- [renancesarr/G3-Loop-DoS](https://github.com/renancesarr/G3-Loop-DoS)
 
 ### CVE-2024-2188 (2024-03-05)
 
@@ -7845,7 +7845,11 @@
 ### CVE-2024-50964
 - [fdzdev/CVE-2024-50964](https://github.com/fdzdev/CVE-2024-50964)
 
-### CVE-2024-50967
+### CVE-2024-50967 (2025-01-17)
+
+<code>The /rest/rights/ REST API endpoint in Becon DATAGerry through 2.2.0 contains an Incorrect Access Control vulnerability. An attacker can remotely access this endpoint without authentication, leading to unauthorized disclosure of sensitive information.
+</code>
+
 - [0xByteHunter/CVE-2024-50967](https://github.com/0xByteHunter/CVE-2024-50967)
 
 ### CVE-2024-50968 (2024-11-14)
@@ -8484,6 +8488,9 @@
 
 - [absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit](https://github.com/absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit)
 
+### CVE-2024-57252
+- [J-0k3r/CVE-2024-57252](https://github.com/J-0k3r/CVE-2024-57252)
+
 ### CVE-2024-57487 (2025-01-13)
 
 <code>In Code-Projects Online Car Rental System 1.0, the file upload feature does not validate file extensions or MIME types allowing an attacker to upload a PHP shell without any restrictions and execute commands on the server.
@@ -8496,6 +8503,13 @@
 
 ### CVE-2024-57523
 - [HackWidMaddy/CVE-2024-57523.](https://github.com/HackWidMaddy/CVE-2024-57523.)
+
+### CVE-2024-57727 (2025-01-15)
+
+<code>SimpleHelp remote support software v5.5.7 and before is vulnerable to multiple path traversal vulnerabilities that enable unauthenticated remote attackers to download arbitrary files from the SimpleHelp host via crafted HTTP requests. These files include server configuration files containing various secrets and hashed user passwords.
+</code>
+
+- [imjdl/CVE-2024-57727](https://github.com/imjdl/CVE-2024-57727)
 
 ### CVE-2024-57784 (2025-01-16)
 
@@ -19629,6 +19643,13 @@
 
 - [Acceis/exploit-CVE-2022-24780](https://github.com/Acceis/exploit-CVE-2022-24780)
 
+### CVE-2022-24816 (2022-04-13)
+
+<code>JAI-EXT is an open-source project which aims to extend the Java Advanced Imaging (JAI) API. Programs allowing Jiffle script to be provided via network request can lead to a Remote Code Execution as the Jiffle script is compiled into Java code via Janino, and executed. In particular, this affects the downstream GeoServer project. Version 1.2.22 will contain a patch that disables the ability to inject malicious code into the resulting script. Users unable to upgrade may negate the ability to compile Jiffle scripts from the final application, by removing janino-x.y.z.jar from the classpath.
+</code>
+
+- [c1ph3rbyt3/CVE-2022-24816](https://github.com/c1ph3rbyt3/CVE-2022-24816)
+
 ### CVE-2022-24818 (2022-04-13)
 
 <code>GeoTools is an open source Java library that provides tools for geospatial data. The GeoTools library has a number of data sources that can perform unchecked JNDI lookups, which in turn can be used to perform class deserialization and result in arbitrary code execution. Similar to the Log4J case, the vulnerability can be triggered if the JNDI names are user-provided, but requires admin-level login to be triggered. The lookups are now restricted in GeoTools 26.4, GeoTools 25.6, and GeoTools 24.6. Users unable to upgrade should ensure that any downstream application should not allow usage of remotely provided JNDI strings.
@@ -20701,6 +20722,7 @@
 - [Pushkarup/CVE-2022-29464](https://github.com/Pushkarup/CVE-2022-29464)
 - [SynixCyberCrimeMy/CVE-2022-29464](https://github.com/SynixCyberCrimeMy/CVE-2022-29464)
 - [cc3305/CVE-2022-29464](https://github.com/cc3305/CVE-2022-29464)
+- [c1ph3rbyt3/CVE-2022-29464](https://github.com/c1ph3rbyt3/CVE-2022-29464)
 
 ### CVE-2022-29465 (2022-08-05)
 
@@ -21640,6 +21662,7 @@
 
 - [bor8/CVE-2022-34169](https://github.com/bor8/CVE-2022-34169)
 - [flowerwind/AutoGenerateXalanPayload](https://github.com/flowerwind/AutoGenerateXalanPayload)
+- [Disnaming/CVE-2022-34169](https://github.com/Disnaming/CVE-2022-34169)
 
 ### CVE-2022-34265 (2022-07-04)
 
