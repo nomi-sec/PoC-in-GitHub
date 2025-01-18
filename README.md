@@ -2046,6 +2046,7 @@
 - [k4nfr3/CVE-2024-9474](https://github.com/k4nfr3/CVE-2024-9474)
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
+- [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
 
 ### CVE-2024-9570 (2024-10-07)
 
@@ -2685,6 +2686,13 @@
 </code>
 
 - [Aether-0/CVE-2024-12986](https://github.com/Aether-0/CVE-2024-12986)
+
+### CVE-2024-13375 (2025-01-18)
+
+<code>The Adifier System plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 3.1.7. This is due to the plugin not properly validating a user's identity prior to updating their details like password through the adifier_recover() function. This makes it possible for unauthenticated attackers to change arbitrary user's passwords, including administrators, and leverage that to gain access to their account.
+</code>
+
+- [McTavishSue/CVE-2024-13375](https://github.com/McTavishSue/CVE-2024-13375)
 
 ### CVE-2024-20017 (2024-03-04)
 
@@ -8234,6 +8242,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-54369](https://github.com/RandomRobbieBF/CVE-2024-54369)
+- [Nxploited/CVE-2024-54369-PoC](https://github.com/Nxploited/CVE-2024-54369-PoC)
 
 ### CVE-2024-54374 (2024-12-16)
 
@@ -15434,6 +15443,7 @@
 - [TYuan0816/cve-2023-44487](https://github.com/TYuan0816/cve-2023-44487)
 - [sn130hk/CVE-2023-44487](https://github.com/sn130hk/CVE-2023-44487)
 - [threatlabindonesia/CVE-2023-44487-HTTP-2-Rapid-Reset-Exploit-PoC](https://github.com/threatlabindonesia/CVE-2023-44487-HTTP-2-Rapid-Reset-Exploit-PoC)
+- [aulauniversal/CVE-2023-44487](https://github.com/aulauniversal/CVE-2023-44487)
 
 ### CVE-2023-44758 (2023-10-06)
 
