@@ -13,6 +13,9 @@
 - [watchtowrlabs/CVE-2025-0282](https://github.com/watchtowrlabs/CVE-2025-0282)
 - [sfewer-r7/CVE-2025-0282](https://github.com/sfewer-r7/CVE-2025-0282)
 
+### CVE-2025-510
+- [g0v3lla/CVE-2025-510T](https://github.com/g0v3lla/CVE-2025-510T)
+
 ### CVE-2025-21385 (2025-01-09)
 
 <code>A Server-Side Request Forgery (SSRF) vulnerability in Microsoft Purview allows an authorized attacker to disclose information over a network.
@@ -351,9 +354,6 @@
 
 ### CVE-2024-436
 - [Julian-gmz/CVE-2024-436_Exploit](https://github.com/Julian-gmz/CVE-2024-436_Exploit)
-
-### CVE-2024-510
-- [g0v3lla/CVE-2024-510T](https://github.com/g0v3lla/CVE-2024-510T)
 
 ### CVE-2024-1071 (2024-03-13)
 
@@ -1508,7 +1508,7 @@
 - [harshinsecurity/sentinelssh](https://github.com/harshinsecurity/sentinelssh)
 - [t3rry327/cve-2024-6387-poc](https://github.com/t3rry327/cve-2024-6387-poc)
 - [jocker2410/CVE-2024-6387_poc](https://github.com/jocker2410/CVE-2024-6387_poc)
-- [liqhtnd/sshd-logingracetime0](https://github.com/liqhtnd/sshd-logingracetime0)
+- [liqhtnd/sshd-logingracetime](https://github.com/liqhtnd/sshd-logingracetime)
 - [JackSparrowhk/ssh-CVE-2024-6387-poc](https://github.com/JackSparrowhk/ssh-CVE-2024-6387-poc)
 - [turbobit/CVE-2024-6387-OpenSSH-Vulnerability-Checker](https://github.com/turbobit/CVE-2024-6387-OpenSSH-Vulnerability-Checker)
 - [sms2056/CVE-2024-6387](https://github.com/sms2056/CVE-2024-6387)
@@ -8488,7 +8488,11 @@
 
 - [absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit](https://github.com/absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit)
 
-### CVE-2024-57252
+### CVE-2024-57252 (2025-01-17)
+
+<code>OtCMS &lt;=V7.46 is vulnerable to Server-Side Request Forgery (SSRF) in /admin/read.php, which can Read system files arbitrarily.
+</code>
+
 - [J-0k3r/CVE-2024-57252](https://github.com/J-0k3r/CVE-2024-57252)
 
 ### CVE-2024-57487 (2025-01-13)
@@ -41751,7 +41755,11 @@
 - [andyfeili/CVE-2018-9276](https://github.com/andyfeili/CVE-2018-9276)
 - [alvinsmith-eroad/CVE-2018-9276](https://github.com/alvinsmith-eroad/CVE-2018-9276)
 
-### CVE-2018-9375
+### CVE-2018-9375 (2025-01-17)
+
+<code>In multiple functions of UserDictionaryProvider.java, there is a possible way to add and delete words in the user dictionary due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
 - [IOActive/AOSP-ExploitUserDictionary](https://github.com/IOActive/AOSP-ExploitUserDictionary)
 
 ### CVE-2018-9411 (2024-11-19)
@@ -49018,7 +49026,7 @@
 - [bsodmike/rails-exploit-cve-2013-0156](https://github.com/bsodmike/rails-exploit-cve-2013-0156)
 - [R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156)
 - [Jjdt12/kuang_grade_mk11](https://github.com/Jjdt12/kuang_grade_mk11)
-- [oxBEN10/CVE-2013-0156](https://github.com/oxBEN10/CVE-2013-0156)
+- [oxben10/CVE-2013-0156](https://github.com/oxben10/CVE-2013-0156)
 
 ### CVE-2013-0212 (2013-02-24)
 
