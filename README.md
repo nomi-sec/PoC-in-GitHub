@@ -6160,6 +6160,7 @@
 </code>
 
 - [mouadk/cve-2024-38821](https://github.com/mouadk/cve-2024-38821)
+- [masa42/CVE-2024-38821-POC](https://github.com/masa42/CVE-2024-38821-POC)
 
 ### CVE-2024-38856 (2024-08-05)
 
@@ -8293,6 +8294,15 @@
 
 - [nscan9/CVE-2024-54761-BigAnt-Office-Messenger-5.6.06-RCE-via-SQL-Injection](https://github.com/nscan9/CVE-2024-54761-BigAnt-Office-Messenger-5.6.06-RCE-via-SQL-Injection)
 
+### CVE-2024-54792
+- [MarioTesoro/CVE-2024-54792](https://github.com/MarioTesoro/CVE-2024-54792)
+
+### CVE-2024-54794
+- [MarioTesoro/CVE-2024-54794](https://github.com/MarioTesoro/CVE-2024-54794)
+
+### CVE-2024-54795
+- [MarioTesoro/CVE-2024-54795](https://github.com/MarioTesoro/CVE-2024-54795)
+
 ### CVE-2024-54819 (2025-01-07)
 
 <code>I, Librarian before and including 5.11.1 is vulnerable to Server-Side Request Forgery (SSRF) due to improper input validation in classes/security/validation.php
@@ -8344,6 +8354,7 @@
 </code>
 
 - [watchtowrlabs/fortios-auth-bypass-check-CVE-2024-55591](https://github.com/watchtowrlabs/fortios-auth-bypass-check-CVE-2024-55591)
+- [souzatyler/fortios-auth-bypass-check-CVE-2024-55591](https://github.com/souzatyler/fortios-auth-bypass-check-CVE-2024-55591)
 
 ### CVE-2024-55875 (2024-12-12)
 
@@ -13390,6 +13401,7 @@
 <code>A vulnerability has been identified in the Ivanti Secure Access Windows client, which could allow a locally authenticated attacker to exploit a vulnerable configuration, potentially leading to various security risks, including the escalation of privileges, denial of service, or information disclosure.
 </code>
 
+- [tijme/ivanti-cve-2023-35080-privilege-escalation-bof](https://github.com/tijme/ivanti-cve-2023-35080-privilege-escalation-bof)
 - [HopHouse/Ivanti-Pulse_VPN-Client_Exploit-CVE-2023-35080_Privilege-escalation](https://github.com/HopHouse/Ivanti-Pulse_VPN-Client_Exploit-CVE-2023-35080_Privilege-escalation)
 
 ### CVE-2023-35082 (2023-08-15)
@@ -22577,6 +22589,7 @@
 - [Anthony1500/CVE-2022-40684](https://github.com/Anthony1500/CVE-2022-40684)
 - [arsolutioner/fortigate-belsen-leak](https://github.com/arsolutioner/fortigate-belsen-leak)
 - [Rofell0s/Fortigate-Leak-CVE-2022-40684](https://github.com/Rofell0s/Fortigate-Leak-CVE-2022-40684)
+- [AKboss1221/fortigate-belsen-leak](https://github.com/AKboss1221/fortigate-belsen-leak)
 
 ### CVE-2022-40687 (2022-11-18)
 
