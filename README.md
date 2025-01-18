@@ -6,7 +6,6 @@
 <code>A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2, and Ivanti Neurons for ZTA gateways before version 22.7R2.3 allows a remote unauthenticated attacker to achieve remote code execution.
 </code>
 
-- [BishopFox/CVE-2025-0282-check](https://github.com/BishopFox/CVE-2025-0282-check)
 - [absholi7ly/CVE-2025-0282-Ivanti-exploit](https://github.com/absholi7ly/CVE-2025-0282-Ivanti-exploit)
 - [AnonStorks/CVE-2025-0282-Full-version](https://github.com/AnonStorks/CVE-2025-0282-Full-version)
 - [rxwx/pulse-meter](https://github.com/rxwx/pulse-meter)
@@ -8045,6 +8044,7 @@
 
 - [RandomRobbieBF/CVE-2024-52380](https://github.com/RandomRobbieBF/CVE-2024-52380)
 - [0xshoriful/CVE-2024-52380](https://github.com/0xshoriful/CVE-2024-52380)
+- [Nxploited/CVE-2024-52380-Exploit](https://github.com/Nxploited/CVE-2024-52380-Exploit)
 
 ### CVE-2024-52382 (2024-11-14)
 
@@ -8487,13 +8487,6 @@
 </code>
 
 - [absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit](https://github.com/absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit)
-
-### CVE-2024-57252 (2025-01-17)
-
-<code>OtCMS &lt;=V7.46 is vulnerable to Server-Side Request Forgery (SSRF) in /admin/read.php, which can Read system files arbitrarily.
-</code>
-
-- [J-0k3r/CVE-2024-57252](https://github.com/J-0k3r/CVE-2024-57252)
 
 ### CVE-2024-57487 (2025-01-13)
 
