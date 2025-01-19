@@ -3462,6 +3462,13 @@
 
 - [alexcote1/CVE-2024-23722-poc](https://github.com/alexcote1/CVE-2024-23722-poc)
 
+### CVE-2024-23724 (2024-02-11)
+
+<code>Ghost through 5.76.0 allows stored XSS, and resultant privilege escalation in which a contributor can take over any account, via an SVG profile picture that contains JavaScript code to interact with the API on localhost TCP port 3001. NOTE: The discoverer reports that &quot;The vendor does not view this as a valid vector.&quot;
+</code>
+
+- [Youssefdds/CVE-2024-23724](https://github.com/Youssefdds/CVE-2024-23724)
+
 ### CVE-2024-23727 (2024-03-28)
 
 <code>The YI Smart Kami Vision com.kamivision.yismart application through 1.0.0_20231219 for Android allows a remote attacker to execute arbitrary JavaScript code via an implicit intent to the com.ants360.yicamera.activity.WebViewActivity component.
@@ -6599,6 +6606,7 @@
 </code>
 
 - [chebuya/Havoc-C2-SSRF-poc](https://github.com/chebuya/Havoc-C2-SSRF-poc)
+- [HimmeL-Byte/CVE-2024-41570-SSRF-RCE](https://github.com/HimmeL-Byte/CVE-2024-41570-SSRF-RCE)
 
 ### CVE-2024-41628 (2024-07-26)
 
@@ -30073,6 +30081,7 @@
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
+- [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
 - [arnaudluti/PS-CVE-2021-44228](https://github.com/arnaudluti/PS-CVE-2021-44228)
 - [ColdFusionX/CVE-2021-44228-Log4Shell-POC](https://github.com/ColdFusionX/CVE-2021-44228-Log4Shell-POC)
@@ -30134,7 +30143,6 @@
 - [Carlos-Mesquita/TPASLog4ShellPoC](https://github.com/Carlos-Mesquita/TPASLog4ShellPoC)
 - [AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-](https://github.com/AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-)
 - [Super-Binary/cve-2021-44228](https://github.com/Super-Binary/cve-2021-44228)
-- [JanICT/poc-ldap-cve-2021-44228](https://github.com/JanICT/poc-ldap-cve-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
