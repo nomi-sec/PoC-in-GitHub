@@ -36,6 +36,9 @@
 
 - [DoTTak/CVE-2025-22510](https://github.com/DoTTak/CVE-2025-22510)
 
+### CVE-2025-22620
+- [EliahKagan/checkout-index](https://github.com/EliahKagan/checkout-index)
+
 ### CVE-2025-22710
 - [DoTTak/CVE-2025-22710](https://github.com/DoTTak/CVE-2025-22710)
 
@@ -8334,6 +8337,9 @@
 
 - [SyFi/CVE-2024-55503](https://github.com/SyFi/CVE-2024-55503)
 
+### CVE-2024-55504
+- [SyFi/CVE-2024-55504](https://github.com/SyFi/CVE-2024-55504)
+
 ### CVE-2024-55557 (2024-12-16)
 
 <code>ui/pref/ProxyPrefView.java in weasis-core in Weasis 4.5.1 has a hardcoded key for symmetric encryption of proxy credentials.
@@ -11742,7 +11748,7 @@
 <code>Insecure Permissions vulnerability found in Extplorer File manager eXtplorer v.2.1.15 allows a remote attacker to execute arbitrary code via the index.php compenent
 </code>
 
-- [tristao-marinho/CVE-2023-27842](https://github.com/tristao-marinho/CVE-2023-27842)
+- [tristao-io/CVE-2023-27842](https://github.com/tristao-io/CVE-2023-27842)
 - [cowsecurity/CVE-2023-27842](https://github.com/cowsecurity/CVE-2023-27842)
 
 ### CVE-2023-27997 (2023-06-13)
@@ -14821,7 +14827,7 @@
 <code>Buttercup v2.20.3 allows attackers to obtain the hash of the master password for the password manager via accessing the file /vaults.json/
 </code>
 
-- [tristao-marinho/CVE-2023-41646](https://github.com/tristao-marinho/CVE-2023-41646)
+- [tristao-io/CVE-2023-41646](https://github.com/tristao-io/CVE-2023-41646)
 
 ### CVE-2023-41652 (2023-11-03)
 
@@ -16385,13 +16391,13 @@
 - [vinnie1717/CVE-2023-48974](https://github.com/vinnie1717/CVE-2023-48974)
 
 ### CVE-2023-48981
-- [tristao-marinho/CVE-2023-48981](https://github.com/tristao-marinho/CVE-2023-48981)
+- [tristao-io/CVE-2023-48981](https://github.com/tristao-io/CVE-2023-48981)
 
 ### CVE-2023-48982
-- [tristao-marinho/CVE-2023-48982](https://github.com/tristao-marinho/CVE-2023-48982)
+- [tristao-io/CVE-2023-48982](https://github.com/tristao-io/CVE-2023-48982)
 
 ### CVE-2023-48983
-- [tristao-marinho/CVE-2023-48983](https://github.com/tristao-marinho/CVE-2023-48983)
+- [tristao-io/CVE-2023-48983](https://github.com/tristao-io/CVE-2023-48983)
 
 ### CVE-2023-49002 (2023-12-27)
 
@@ -23393,7 +23399,7 @@
 <code>Insecure Permission vulnerability in Schlix Web Inc SCHLIX CMS 2.2.7-2 allows attacker to upload arbitrary files and execute arbitrary code via the tristao parameter. NOTE: this is disputed by the vendor because an admin is intentionally allowed to upload new executable PHP code, such as a theme that was obtained from a trusted source or was developed for their own website. Only an admin can upload such code, not someone else in an &quot;attacker&quot; role.
 </code>
 
-- [tristao-marinho/CVE-2022-45544](https://github.com/tristao-marinho/CVE-2022-45544)
+- [tristao-io/CVE-2022-45544](https://github.com/tristao-io/CVE-2022-45544)
 
 ### CVE-2022-45599 (2023-02-22)
 
@@ -34513,7 +34519,7 @@
 </code>
 
 - [uf0o/CVE-2020-17382](https://github.com/uf0o/CVE-2020-17382)
-- [houseofxyz/CVE-2020-17382](https://github.com/houseofxyz/CVE-2020-17382)
+- [houseofint3/CVE-2020-17382](https://github.com/houseofint3/CVE-2020-17382)
 
 ### CVE-2020-17453 (2021-04-05)
 
