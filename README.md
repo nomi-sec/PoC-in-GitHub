@@ -11,6 +11,7 @@
 - [rxwx/pulse-meter](https://github.com/rxwx/pulse-meter)
 - [watchtowrlabs/CVE-2025-0282](https://github.com/watchtowrlabs/CVE-2025-0282)
 - [sfewer-r7/CVE-2025-0282](https://github.com/sfewer-r7/CVE-2025-0282)
+- [Hexastrike/Ivanti-Secure-Connect-Logs-Parser](https://github.com/Hexastrike/Ivanti-Secure-Connect-Logs-Parser)
 
 ### CVE-2025-510
 - [g0v3lla/CVE-2025-510T](https://github.com/g0v3lla/CVE-2025-510T)
@@ -3055,6 +3056,7 @@
 - [mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped](https://github.com/mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped)
 - [tucommenceapousser/CVE-2024-21887](https://github.com/tucommenceapousser/CVE-2024-21887)
 - [rxwx/pulse-meter](https://github.com/rxwx/pulse-meter)
+- [Hexastrike/Ivanti-Secure-Connect-Logs-Parser](https://github.com/Hexastrike/Ivanti-Secure-Connect-Logs-Parser)
 
 ### CVE-2024-21893 (2024-01-31)
 
@@ -16000,6 +16002,7 @@
 - [mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped](https://github.com/mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped)
 - [w2xim3/CVE-2023-46805](https://github.com/w2xim3/CVE-2023-46805)
 - [rxwx/pulse-meter](https://github.com/rxwx/pulse-meter)
+- [Hexastrike/Ivanti-Secure-Connect-Logs-Parser](https://github.com/Hexastrike/Ivanti-Secure-Connect-Logs-Parser)
 
 ### CVE-2023-46813 (2023-10-27)
 
