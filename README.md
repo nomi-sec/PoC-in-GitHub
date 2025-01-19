@@ -23665,6 +23665,13 @@
 
 - [JacobEbben/CVE-2022-46836_remote_code_execution](https://github.com/JacobEbben/CVE-2022-46836_remote_code_execution)
 
+### CVE-2022-47052 (2023-01-25)
+
+<code>The web interface of the 'Nighthawk R6220 AC1200 Smart Wi-Fi Router' is vulnerable to a CRLF Injection attack that can be leveraged to perform Reflected XSS and HTML Injection. A malicious unauthenticated attacker can exploit this vulnerability using a specially crafted URL. This affects firmware versions: V1.1.0.112_1.0.1, V1.1.0.114_1.0.1.
+</code>
+
+- [dest-3/CVE-2022-47052](https://github.com/dest-3/CVE-2022-47052)
+
 ### CVE-2022-47102 (2023-01-12)
 
 <code>A cross-site scripting (XSS) vulnerability in Student Study Center Management System V 1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.
