@@ -16,6 +16,13 @@
 ### CVE-2025-510
 - [g0v3lla/CVE-2025-510T](https://github.com/g0v3lla/CVE-2025-510T)
 
+### CVE-2025-21298 (2025-01-14)
+
+<code>Windows OLE Remote Code Execution Vulnerability
+</code>
+
+- [ynwarcs/CVE-2025-21298](https://github.com/ynwarcs/CVE-2025-21298)
+
 ### CVE-2025-21385 (2025-01-09)
 
 <code>A Server-Side Request Forgery (SSRF) vulnerability in Microsoft Purview allows an authorized attacker to disclose information over a network.
@@ -37,7 +44,11 @@
 
 - [DoTTak/CVE-2025-22510](https://github.com/DoTTak/CVE-2025-22510)
 
-### CVE-2025-22620
+### CVE-2025-22620 (2025-01-20)
+
+<code>gitoxide is an implementation of git written in Rust. Prior to 0.17.0, gix-worktree-state specifies 0777 permissions when checking out executable files, intending that the umask will restrict them appropriately. But one of the strategies it uses to set permissions is not subject to the umask. This causes files in a repository to be world-writable in some situations. This vulnerability is fixed in 0.17.0.
+</code>
+
 - [EliahKagan/checkout-index](https://github.com/EliahKagan/checkout-index)
 
 ### CVE-2025-22710
@@ -6869,6 +6880,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-43998](https://github.com/RandomRobbieBF/CVE-2024-43998)
+- [Nxploited/CVE-2024-43998](https://github.com/Nxploited/CVE-2024-43998)
 
 ### CVE-2024-44000 (2024-10-20)
 
@@ -8332,6 +8344,13 @@
 
 - [ailenye/CVE-2024-54879](https://github.com/ailenye/CVE-2024-54879)
 
+### CVE-2024-54880 (2025-01-06)
+
+<code>SeaCMS V13.1 is vulnerable to Incorrect Access Control. A logic flaw can be exploited by an attacker to allow any user to register accounts in bulk.
+</code>
+
+- [ailenye/CVE-2024-54880](https://github.com/ailenye/CVE-2024-54880)
+
 ### CVE-2024-54910 (2025-01-10)
 
 <code>Hasleo Backup Suite Free v4.9.4 and before is vulnerable to Insecure Permissions via the File recovery function.
@@ -8358,6 +8377,13 @@
 
 ### CVE-2024-55504
 - [SyFi/CVE-2024-55504](https://github.com/SyFi/CVE-2024-55504)
+
+### CVE-2024-55511 (2025-01-16)
+
+<code>A null pointer dereference vulnerability in Macrium Reflect prior to 8.1.8017 allows an attacker to elevate their privileges via executing a specially crafted executable.
+</code>
+
+- [sleepingniko/CVE-2024-55511](https://github.com/sleepingniko/CVE-2024-55511)
 
 ### CVE-2024-55557 (2024-12-16)
 
@@ -23845,6 +23871,9 @@
 
 - [Einstein2150/CVE-2022-48565-POC](https://github.com/Einstein2150/CVE-2022-48565-POC)
 
+### CVE-2022-218882
+- [Sausageinforest/CVE-2022-218882](https://github.com/Sausageinforest/CVE-2022-218882)
+
 
 ## 2021
 ### CVE-2021-0302 (2021-02-10)
@@ -24471,6 +24500,7 @@
 - [4dp/CVE-2021-1732](https://github.com/4dp/CVE-2021-1732)
 - [yangshifan-git/CVE-2021-1732](https://github.com/yangshifan-git/CVE-2021-1732)
 - [asepsaepdin/CVE-2021-1732](https://github.com/asepsaepdin/CVE-2021-1732)
+- [Sausageinforest/CVE-2021-1732](https://github.com/Sausageinforest/CVE-2021-1732)
 
 ### CVE-2021-1748 (2021-04-02)
 
@@ -30479,7 +30509,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Category-List-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Category-List-Stored-Cross-Site-Scripting-XSS)
-- [plsanu/CVE-2021-46071](https://github.com/plsanu/CVE-2021-46071)
 
 ### CVE-2021-46072 (2022-01-06)
 
