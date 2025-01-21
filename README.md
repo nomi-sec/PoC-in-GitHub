@@ -263,7 +263,7 @@
 - [Forsaken0129/CVE-2024-0582](https://github.com/Forsaken0129/CVE-2024-0582)
 - [0ptyx/cve-2024-0582](https://github.com/0ptyx/cve-2024-0582)
 - [geniuszly/CVE-2024-0582](https://github.com/geniuszly/CVE-2024-0582)
-- [101010zyl/CVE-2024-0582](https://github.com/101010zyl/CVE-2024-0582)
+- [101010zyl/CVE-2024-0582-dataonly](https://github.com/101010zyl/CVE-2024-0582-dataonly)
 
 ### CVE-2024-0588 (2024-04-09)
 
@@ -8383,7 +8383,7 @@
 <code>A null pointer dereference vulnerability in Macrium Reflect prior to 8.1.8017 allows an attacker to elevate their privileges via executing a specially crafted executable.
 </code>
 
-- [sleepingniko/CVE-2024-55511](https://github.com/sleepingniko/CVE-2024-55511)
+- [nikosecurity/CVE-2024-55511](https://github.com/nikosecurity/CVE-2024-55511)
 
 ### CVE-2024-55557 (2024-12-16)
 
@@ -14497,6 +14497,7 @@
 - [sudlit/CVE-2023-40028](https://github.com/sudlit/CVE-2023-40028)
 - [monke443/CVE-2023-40028-Ghost-Arbitrary-File-Read](https://github.com/monke443/CVE-2023-40028-Ghost-Arbitrary-File-Read)
 - [rvizx/CVE-2023-40028](https://github.com/rvizx/CVE-2023-40028)
+- [godylockz/CVE-2023-40028](https://github.com/godylockz/CVE-2023-40028)
 
 ### CVE-2023-40031 (2023-08-25)
 
