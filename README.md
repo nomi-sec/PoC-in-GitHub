@@ -51,7 +51,11 @@
 
 - [EliahKagan/checkout-index](https://github.com/EliahKagan/checkout-index)
 
-### CVE-2025-22710
+### CVE-2025-22710 (2025-01-21)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in StoreApps Smart Manager allows Blind SQL Injection. This issue affects Smart Manager: from n/a through 8.52.0.
+</code>
+
 - [DoTTak/CVE-2025-22710](https://github.com/DoTTak/CVE-2025-22710)
 
 ### CVE-2025-22783
@@ -1561,6 +1565,13 @@
 - [awusan125/test_for6387](https://github.com/awusan125/test_for6387)
 - [YassDEV221608/CVE-2024-6387_PoC](https://github.com/YassDEV221608/CVE-2024-6387_PoC)
 - [AzrDll/CVE-2024-6387](https://github.com/AzrDll/CVE-2024-6387)
+
+### CVE-2024-6460 (2024-08-16)
+
+<code>The Grow by Tradedoubler  WordPress plugin through 2.0.21 is vulnerable to Local File Inclusion via the component parameter. This makes it possible for attackers to include and execute PHP files on the server, allowing the execution of any PHP code in those files.
+</code>
+
+- [Nxploited/CVE-2024-6460](https://github.com/Nxploited/CVE-2024-6460)
 
 ### CVE-2024-6473 (2024-09-03)
 
@@ -3495,6 +3506,9 @@
 </code>
 
 - [actuator/yi](https://github.com/actuator/yi)
+
+### CVE-2024-23733
+- [ekcrsm/CVE-2024-23733](https://github.com/ekcrsm/CVE-2024-23733)
 
 ### CVE-2024-23738 (2024-01-28)
 
@@ -7618,7 +7632,11 @@
 
 - [RandomRobbieBF/CVE-2024-49681](https://github.com/RandomRobbieBF/CVE-2024-49681)
 
-### CVE-2024-49699
+### CVE-2024-49699 (2025-01-21)
+
+<code>Deserialization of Untrusted Data vulnerability in NotFound ARPrice allows Object Injection. This issue affects ARPrice: from n/a through 4.0.3.
+</code>
+
 - [RandomRobbieBF/CVE-2024-49699](https://github.com/RandomRobbieBF/CVE-2024-49699)
 
 ### CVE-2024-50251 (2024-11-09)
@@ -7827,7 +7845,7 @@
 
 ### CVE-2024-50633 (2025-01-16)
 
-<code>A Broken Object Level Authorization (BOLA) vulnerability in Indico v3.2.9 allows attackers to access sensitive information via sending a crafted POST request to the component /api/principals.
+<code>A Broken Object Level Authorization (BOLA) vulnerability in Indico through 3.3.5 allows attackers to read information by sending a crafted POST request to the component /api/principals. NOTE: this is disputed by the Supplier because the product intentionally lets all users retrieve certain information about other user accounts (this functionality is, in the current design, not restricted to any privileged roles such as event organizer).
 </code>
 
 - [cetinpy/CVE-2024-50633](https://github.com/cetinpy/CVE-2024-50633)
@@ -8043,7 +8061,11 @@
 
 - [l20170217b/CVE-2024-51747](https://github.com/l20170217b/CVE-2024-51747)
 
-### CVE-2024-51818
+### CVE-2024-51818 (2025-01-21)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in NotFound Fancy Product Designer. This issue affects Fancy Product Designer: from n/a through 6.4.3.
+</code>
+
 - [RandomRobbieBF/CVE-2024-51818](https://github.com/RandomRobbieBF/CVE-2024-51818)
 
 ### CVE-2024-52002 (2024-11-08)
@@ -28551,6 +28573,7 @@
 - [gassara-kys/CVE-2021-40438](https://github.com/gassara-kys/CVE-2021-40438)
 - [sergiovks/CVE-2021-40438-Apache-2.4.48-SSRF-exploit](https://github.com/sergiovks/CVE-2021-40438-Apache-2.4.48-SSRF-exploit)
 - [Cappricio-Securities/CVE-2021-40438](https://github.com/Cappricio-Securities/CVE-2021-40438)
+- [element-security/check-point-gateways-rce](https://github.com/element-security/check-point-gateways-rce)
 
 ### CVE-2021-40444 (2021-09-15)
 
@@ -30521,7 +30544,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Service-Requests-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Service-Requests-Stored-Cross-Site-Scripting-XSS)
-- [plsanu/CVE-2021-46070](https://github.com/plsanu/CVE-2021-46070)
 
 ### CVE-2021-46071 (2022-01-06)
 
