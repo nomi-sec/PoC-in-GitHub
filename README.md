@@ -2572,6 +2572,13 @@
 
 - [RandomRobbieBF/CVE-2024-12025](https://github.com/RandomRobbieBF/CVE-2024-12025)
 
+### CVE-2024-12084 (2025-01-15)
+
+<code>A heap-based buffer overflow flaw was found in the rsync daemon. This issue is due to improper handling of attacker-controlled checksum lengths (s2length) in the code. When MAX_DIGEST_LEN exceeds the fixed SUM_LENGTH (16 bytes), an attacker can write out of bounds in the sum2 buffer.
+</code>
+
+- [themirze/cve-2024-12084](https://github.com/themirze/cve-2024-12084)
+
 ### CVE-2024-12155 (2024-12-06)
 
 <code>The SV100 Companion plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the settings_import() function in all versions up to, and including, 2.0.02. This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
@@ -6620,6 +6627,7 @@
 
 - [chebuya/Havoc-C2-SSRF-poc](https://github.com/chebuya/Havoc-C2-SSRF-poc)
 - [HimmeL-Byte/CVE-2024-41570-SSRF-RCE](https://github.com/HimmeL-Byte/CVE-2024-41570-SSRF-RCE)
+- [sebr-dev/Havoc-C2-SSRF-to-RCE](https://github.com/sebr-dev/Havoc-C2-SSRF-to-RCE)
 
 ### CVE-2024-41628 (2024-07-26)
 
@@ -7550,6 +7558,7 @@
 </code>
 
 - [MrAle98/CVE-2024-49138-POC](https://github.com/MrAle98/CVE-2024-49138-POC)
+- [bananoname/CVE-2024-49138-POC](https://github.com/bananoname/CVE-2024-49138-POC)
 
 ### CVE-2024-49203 (2024-11-20)
 
