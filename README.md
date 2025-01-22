@@ -4321,6 +4321,7 @@
 - [jrbH4CK/CVE-2024-27198](https://github.com/jrbH4CK/CVE-2024-27198)
 - [geniuszly/CVE-2024-27198](https://github.com/geniuszly/CVE-2024-27198)
 - [Cythonic1/CVE-2024-27198_POC](https://github.com/Cythonic1/CVE-2024-27198_POC)
+- [ArtemCyberLab/Project-Exploiting-CVE-2024-27198-RCE-Vulnerability](https://github.com/ArtemCyberLab/Project-Exploiting-CVE-2024-27198-RCE-Vulnerability)
 
 ### CVE-2024-27292 (2024-02-29)
 
@@ -7461,7 +7462,11 @@
 
 - [OpenXP-Research/CVE-2024-48360](https://github.com/OpenXP-Research/CVE-2024-48360)
 
-### CVE-2024-48392
+### CVE-2024-48392 (2025-01-21)
+
+<code>OrangeScrum v2.0.11 is vulnerable to Cross Site Scripting (XSS). An attacker can inject malicious JavaScript code into user email due to lack of input validation, which could lead to account takeover.
+</code>
+
 - [Renzusclarke/CVE-2024-48392-PoC](https://github.com/Renzusclarke/CVE-2024-48392-PoC)
 
 ### CVE-2024-48415 (2024-10-22)
@@ -8360,13 +8365,25 @@
 
 - [nscan9/CVE-2024-54761-BigAnt-Office-Messenger-5.6.06-RCE-via-SQL-Injection](https://github.com/nscan9/CVE-2024-54761-BigAnt-Office-Messenger-5.6.06-RCE-via-SQL-Injection)
 
-### CVE-2024-54792
+### CVE-2024-54792 (2025-01-21)
+
+<code>A Cross-Site Request Forgery (CSRF) vulnerability has been found in SpagoBI v3.5.1 in the user administration panel. An authenticated user can lead another user into executing unwanted actions inside the application they are logged in, like adding, editing or deleting users.
+</code>
+
 - [MarioTesoro/CVE-2024-54792](https://github.com/MarioTesoro/CVE-2024-54792)
 
-### CVE-2024-54794
+### CVE-2024-54794 (2025-01-21)
+
+<code>The script input feature of SpagoBI 3.5.1 allows arbitrary code execution.
+</code>
+
 - [MarioTesoro/CVE-2024-54794](https://github.com/MarioTesoro/CVE-2024-54794)
 
-### CVE-2024-54795
+### CVE-2024-54795 (2025-01-21)
+
+<code>SpagoBI v3.5.1 contains multiple Stored Cross-Site Scripting (XSS) vulnerabilities in the create/edit forms of the worksheet designer function.
+</code>
+
 - [MarioTesoro/CVE-2024-54795](https://github.com/MarioTesoro/CVE-2024-54795)
 
 ### CVE-2024-54819 (2025-01-07)
@@ -8414,7 +8431,11 @@
 
 - [SyFi/CVE-2024-55503](https://github.com/SyFi/CVE-2024-55503)
 
-### CVE-2024-55504
+### CVE-2024-55504 (2025-01-21)
+
+<code>An issue in RAR Extractor - Unarchiver Free and Pro v.6.4.0 allows local attackers to inject arbitrary code potentially leading to remote control and unauthorized access to sensitive user data via the exploit_combined.dylib component on MacOS.
+</code>
+
 - [SyFi/CVE-2024-55504](https://github.com/SyFi/CVE-2024-55504)
 
 ### CVE-2024-55511 (2025-01-16)
@@ -16029,11 +16050,11 @@
 - [NKeshawarz/CVE-2023-46604-RCE](https://github.com/NKeshawarz/CVE-2023-46604-RCE)
 - [minhangxiaohui/ActiveMQ_CVE-2023-46604](https://github.com/minhangxiaohui/ActiveMQ_CVE-2023-46604)
 - [nitzanoligo/CVE-2023-46604-demo](https://github.com/nitzanoligo/CVE-2023-46604-demo)
-- [tomasmussi-mulesoft/activemq-cve-2023-46604-duplicate](https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604-duplicate)
 - [dcm2406/CVE-Lab](https://github.com/dcm2406/CVE-Lab)
 - [mrpentst/CVE-2023-46604](https://github.com/mrpentst/CVE-2023-46604)
 - [dcm2406/CVE-2023-46604](https://github.com/dcm2406/CVE-2023-46604)
 - [Mudoleto/Broker_ApacheMQ](https://github.com/Mudoleto/Broker_ApacheMQ)
+- [tomasmussi/activemq-cve-2023-46604](https://github.com/tomasmussi/activemq-cve-2023-46604)
 - [hh-hunter/cve-2023-46604](https://github.com/hh-hunter/cve-2023-46604)
 - [stegano5/ExploitScript-CVE-2023-46604](https://github.com/stegano5/ExploitScript-CVE-2023-46604)
 - [Arlenhiack/ActiveMQ-RCE-Exploit](https://github.com/Arlenhiack/ActiveMQ-RCE-Exploit)
