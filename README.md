@@ -1729,6 +1729,9 @@
 - [D3N14LD15K/CVE-2024-7593_PoC_Exploit](https://github.com/D3N14LD15K/CVE-2024-7593_PoC_Exploit)
 - [skyrowalker/CVE-2024-7593](https://github.com/skyrowalker/CVE-2024-7593)
 
+### CVE-2024-7595
+- [PapayaJackal/ipeeyoupeewepee](https://github.com/PapayaJackal/ipeeyoupeewepee)
+
 ### CVE-2024-7627 (2024-09-05)
 
 <code>The Bit File Manager plugin for WordPress is vulnerable to Remote Code Execution in versions 6.0 to 6.5.5 via the 'checkSyntax' function. This is due to writing a temporary file to a publicly accessible directory before performing file validation. This makes it possible for unauthenticated attackers to execute code on the server if an administrator has allowed Guest User read permissions.
@@ -33144,6 +33147,13 @@
 </code>
 
 - [m4rm0k/CVE-2020-10135-BIAS](https://github.com/m4rm0k/CVE-2020-10135-BIAS)
+
+### CVE-2020-10136 (2020-06-02)
+
+<code>IP-in-IP protocol specifies IP Encapsulation within IP standard (RFC 2003, STD 1) that decapsulate and route IP-in-IP traffic is vulnerable to spoofing, access-control bypass and other unexpected behavior due to the lack of validation to verify network packets before decapsulation and routing.
+</code>
+
+- [PapayaJackal/ipeeyoupeewepee](https://github.com/PapayaJackal/ipeeyoupeewepee)
 
 ### CVE-2020-10148 (2020-12-29)
 
