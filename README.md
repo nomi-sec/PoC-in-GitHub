@@ -12,6 +12,7 @@
 - [watchtowrlabs/CVE-2025-0282](https://github.com/watchtowrlabs/CVE-2025-0282)
 - [sfewer-r7/CVE-2025-0282](https://github.com/sfewer-r7/CVE-2025-0282)
 - [Hexastrike/Ivanti-Connect-Secure-Logs-Parser](https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser)
+- [chiefchainer/CVE-2025-0282](https://github.com/chiefchainer/CVE-2025-0282)
 
 ### CVE-2025-510
 - [g0v3lla/CVE-2025-510T](https://github.com/g0v3lla/CVE-2025-510T)
@@ -8623,6 +8624,9 @@
 
 - [absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit](https://github.com/absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit)
 
+### CVE-2024-56924
+- [ipratheep/CVE-2024-56924](https://github.com/ipratheep/CVE-2024-56924)
+
 ### CVE-2024-57487 (2025-01-13)
 
 <code>In Code-Projects Online Car Rental System 1.0, the file upload feature does not validate file extensions or MIME types allowing an attacker to upload a PHP shell without any restrictions and execute commands on the server.
@@ -14917,13 +14921,6 @@
 </code>
 
 - [MATRIXDEVIL/CVE](https://github.com/MATRIXDEVIL/CVE)
-
-### CVE-2023-41613 (2023-12-04)
-
-<code>EzViz Studio v2.2.0 is vulnerable to DLL hijacking.
-</code>
-
-- [Eafz/cve-2023-41613](https://github.com/Eafz/cve-2023-41613)
 
 ### CVE-2023-41623 (2023-12-12)
 
