@@ -14,6 +14,9 @@
 - [Hexastrike/Ivanti-Connect-Secure-Logs-Parser](https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser)
 - [chiefchainer/CVE-2025-0282](https://github.com/chiefchainer/CVE-2025-0282)
 
+### CVE-2025-0411
+- [dhmosfunk/7-Zip-CVE-2025-0411-POC](https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC)
+
 ### CVE-2025-510
 - [g0v3lla/CVE-2025-510T](https://github.com/g0v3lla/CVE-2025-510T)
 
@@ -1573,6 +1576,7 @@
 </code>
 
 - [Nxploited/CVE-2024-6460](https://github.com/Nxploited/CVE-2024-6460)
+- [E1-Bot141/CVE-2024-6460](https://github.com/E1-Bot141/CVE-2024-6460)
 
 ### CVE-2024-6473 (2024-09-03)
 
@@ -2173,6 +2177,13 @@
 - [RandomRobbieBF/CVE-2024-9935](https://github.com/RandomRobbieBF/CVE-2024-9935)
 - [verylazytech/CVE-2024-9935](https://github.com/verylazytech/CVE-2024-9935)
 - [Nxploited/CVE-2024-9935](https://github.com/Nxploited/CVE-2024-9935)
+
+### CVE-2024-9950 (2025-01-02)
+
+<code>A vulnerability in Forescout SecureConnector v11.3.07.0109 on Windows allows \n\nunauthenticated user to modify compliance scripts due to insecure temporary directory.
+</code>
+
+- [0Nightsedge0/CVE-2024-9950-PoC](https://github.com/0Nightsedge0/CVE-2024-9950-PoC)
 
 ### CVE-2024-9955 (2024-10-15)
 
@@ -6646,6 +6657,7 @@
 
 - [chebuya/Havoc-C2-SSRF-poc](https://github.com/chebuya/Havoc-C2-SSRF-poc)
 - [HimmeL-Byte/CVE-2024-41570-SSRF-RCE](https://github.com/HimmeL-Byte/CVE-2024-41570-SSRF-RCE)
+- [thisisveryfunny/CVE-2024-41570-Havoc-C2-RCE](https://github.com/thisisveryfunny/CVE-2024-41570-Havoc-C2-RCE)
 - [sebr-dev/Havoc-C2-SSRF-to-RCE](https://github.com/sebr-dev/Havoc-C2-SSRF-to-RCE)
 - [kit4py/CVE-2024-41570](https://github.com/kit4py/CVE-2024-41570)
 
@@ -8471,6 +8483,7 @@
 - [watchtowrlabs/fortios-auth-bypass-check-CVE-2024-55591](https://github.com/watchtowrlabs/fortios-auth-bypass-check-CVE-2024-55591)
 - [souzatyler/fortios-auth-bypass-check-CVE-2024-55591](https://github.com/souzatyler/fortios-auth-bypass-check-CVE-2024-55591)
 - [sysirq/fortios-auth-bypass-poc-CVE-2024-55591](https://github.com/sysirq/fortios-auth-bypass-poc-CVE-2024-55591)
+- [sysirq/fortios-auth-bypass-exploit-CVE-2024-55591](https://github.com/sysirq/fortios-auth-bypass-exploit-CVE-2024-55591)
 
 ### CVE-2024-55875 (2024-12-12)
 
@@ -8660,6 +8673,9 @@
 </code>
 
 - [s4fv4n/CVE-2024-57785](https://github.com/s4fv4n/CVE-2024-57785)
+
+### CVE-2024-415770
+- [muhmad-umair/CVE-2024-415770-ssrf-rce](https://github.com/muhmad-umair/CVE-2024-415770-ssrf-rce)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
