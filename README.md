@@ -7698,6 +7698,7 @@
 - [lizhianyuguangming/CVE-2024-50379-exp](https://github.com/lizhianyuguangming/CVE-2024-50379-exp)
 - [dragonked2/CVE-2024-50379-POC](https://github.com/dragonked2/CVE-2024-50379-POC)
 - [bigb0x/CVE-2024-50379](https://github.com/bigb0x/CVE-2024-50379)
+- [pwnosec/CVE-2024-50379](https://github.com/pwnosec/CVE-2024-50379)
 
 ### CVE-2024-50395 (2024-11-22)
 
