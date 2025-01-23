@@ -7336,6 +7336,7 @@
 </code>
 
 - [CodePontiff/next_js_poisoning](https://github.com/CodePontiff/next_js_poisoning)
+- [Lercas/CVE-2024-46982](https://github.com/Lercas/CVE-2024-46982)
 
 ### CVE-2024-46986 (2024-09-18)
 
