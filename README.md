@@ -6081,6 +6081,7 @@
 - [Destiny0991/check_38077](https://github.com/Destiny0991/check_38077)
 - [mrmtwoj/CVE-2024-38077](https://github.com/mrmtwoj/CVE-2024-38077)
 - [amfg145/CVE-2024-38077](https://github.com/amfg145/CVE-2024-38077)
+- [Accord96/CVE-2024-38077-POC](https://github.com/Accord96/CVE-2024-38077-POC)
 
 ### CVE-2024-38080 (2024-07-09)
 
@@ -8483,7 +8484,6 @@
 </code>
 
 - [watchtowrlabs/fortios-auth-bypass-check-CVE-2024-55591](https://github.com/watchtowrlabs/fortios-auth-bypass-check-CVE-2024-55591)
-- [souzatyler/fortios-auth-bypass-check-CVE-2024-55591](https://github.com/souzatyler/fortios-auth-bypass-check-CVE-2024-55591)
 - [sysirq/fortios-auth-bypass-poc-CVE-2024-55591](https://github.com/sysirq/fortios-auth-bypass-poc-CVE-2024-55591)
 - [sysirq/fortios-auth-bypass-exploit-CVE-2024-55591](https://github.com/sysirq/fortios-auth-bypass-exploit-CVE-2024-55591)
 
@@ -22726,6 +22726,7 @@
 - [arsolutioner/fortigate-belsen-leak](https://github.com/arsolutioner/fortigate-belsen-leak)
 - [Rofell0s/Fortigate-Leak-CVE-2022-40684](https://github.com/Rofell0s/Fortigate-Leak-CVE-2022-40684)
 - [AKboss1221/fortigate-belsen-leak](https://github.com/AKboss1221/fortigate-belsen-leak)
+- [XalfiE/Fortigate-Belsen-Leak-Dump-CVE-2022-40684-](https://github.com/XalfiE/Fortigate-Belsen-Leak-Dump-CVE-2022-40684-)
 
 ### CVE-2022-40687 (2022-11-18)
 
@@ -28615,7 +28616,7 @@
 - [gassara-kys/CVE-2021-40438](https://github.com/gassara-kys/CVE-2021-40438)
 - [sergiovks/CVE-2021-40438-Apache-2.4.48-SSRF-exploit](https://github.com/sergiovks/CVE-2021-40438-Apache-2.4.48-SSRF-exploit)
 - [Cappricio-Securities/CVE-2021-40438](https://github.com/Cappricio-Securities/CVE-2021-40438)
-- [element-security/check-point-gateways-rce](https://github.com/element-security/check-point-gateways-rce)
+- [yakir2b/check-point-gateways-rce](https://github.com/yakir2b/check-point-gateways-rce)
 
 ### CVE-2021-40444 (2021-09-15)
 
