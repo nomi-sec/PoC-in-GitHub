@@ -8637,7 +8637,11 @@
 
 - [absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit](https://github.com/absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit)
 
-### CVE-2024-56924
+### CVE-2024-56924 (2025-01-22)
+
+<code>A Cross Site Request Forgery (CSRF) vulnerability in Code Astro Internet banking system 2.0.0 allows remote attackers to execute arbitrary JavaScript on the admin page (pages_account), potentially leading to unauthorized actions such as changing account settings or stealing sensitive user information. This vulnerability occurs due to improper validation of user requests, which enables attackers to exploit the system by tricking the admin user into executing malicious scripts.
+</code>
+
 - [ipratheep/CVE-2024-56924](https://github.com/ipratheep/CVE-2024-56924)
 
 ### CVE-2024-57487 (2025-01-13)
@@ -18734,7 +18738,6 @@
 - [L4ys/CVE-2022-21882](https://github.com/L4ys/CVE-2022-21882)
 - [sailay1996/cve-2022-21882-poc](https://github.com/sailay1996/cve-2022-21882-poc)
 - [r1l4-i3pur1l4/CVE-2022-21882](https://github.com/r1l4-i3pur1l4/CVE-2022-21882)
-- [dishfwk/CVE-2022-21882](https://github.com/dishfwk/CVE-2022-21882)
 
 ### CVE-2022-21894 (2022-01-11)
 
