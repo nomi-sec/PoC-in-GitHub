@@ -67,7 +67,7 @@
 
 ### CVE-2025-22964 (2025-01-15)
 
-<code>SQL Injection vulnerability in DDSN Net Pty Ltd (DDSN Interactive) DDSN Interactive cm3 Acora CMS 10.1.1 allows an attacker to execute arbitrary code via the table parameter.
+<code>DDSN Interactive cm3 Acora CMS version 10.1.1 has an unauthenticated time-based blind SQL Injection vulnerability caused by insufficient input sanitization and validation in the &quot;table&quot; parameter. This flaw allows attackers to inject malicious SQL queries by directly incorporating user-supplied input into database queries without proper escaping or validation. Exploiting this issue enables unauthorized access, manipulation of data, or exposure of sensitive information, posing significant risks to the integrity and confidentiality of the application.
 </code>
 
 - [padayali-JD/CVE-2025-22964](https://github.com/padayali-JD/CVE-2025-22964)
@@ -1736,6 +1736,7 @@
 
 ### CVE-2024-7595
 - [PapayaJackal/ipeeyoupeewepee](https://github.com/PapayaJackal/ipeeyoupeewepee)
+- [GustavoHGP/ipeeyoupeewepee](https://github.com/GustavoHGP/ipeeyoupeewepee)
 
 ### CVE-2024-7627 (2024-09-05)
 
@@ -8369,6 +8370,9 @@
 </code>
 
 - [wh1te4ever/CVE-2024-54498-PoC](https://github.com/wh1te4ever/CVE-2024-54498-PoC)
+
+### CVE-2024-54507
+- [jprx/CVE-2024-54507](https://github.com/jprx/CVE-2024-54507)
 
 ### CVE-2024-54679 (2024-12-05)
 
@@ -33173,6 +33177,7 @@
 </code>
 
 - [PapayaJackal/ipeeyoupeewepee](https://github.com/PapayaJackal/ipeeyoupeewepee)
+- [GustavoHGP/ipeeyoupeewepee](https://github.com/GustavoHGP/ipeeyoupeewepee)
 
 ### CVE-2020-10148 (2020-12-29)
 
