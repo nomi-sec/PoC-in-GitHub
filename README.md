@@ -5244,6 +5244,9 @@
 
 - [NN0b0dy/CVE-2024-32399](https://github.com/NN0b0dy/CVE-2024-32399)
 
+### CVE-2024-32444
+- [rxerium/CVE-2024-32444](https://github.com/rxerium/CVE-2024-32444)
+
 ### CVE-2024-32459 (2024-04-22)
 
 <code>FreeRDP is a free implementation of the Remote Desktop Protocol. FreeRDP based clients and servers that use a version of FreeRDP prior to 3.5.0 or 2.11.6 are vulnerable to out-of-bounds read. Versions 3.5.0 and 2.11.6 patch the issue. No known workarounds are available.
@@ -6662,6 +6665,7 @@
 - [thisisveryfunny/CVE-2024-41570-Havoc-C2-RCE](https://github.com/thisisveryfunny/CVE-2024-41570-Havoc-C2-RCE)
 - [sebr-dev/Havoc-C2-SSRF-to-RCE](https://github.com/sebr-dev/Havoc-C2-SSRF-to-RCE)
 - [kit4py/CVE-2024-41570](https://github.com/kit4py/CVE-2024-41570)
+- [0xLynk/CVE-2024-41570-POC](https://github.com/0xLynk/CVE-2024-41570-POC)
 
 ### CVE-2024-41628 (2024-07-26)
 
@@ -7151,6 +7155,7 @@
 
 - [NHAS/CVE-2024-45337-POC](https://github.com/NHAS/CVE-2024-45337-POC)
 - [NHAS/VULNERABLE-CVE-2024-45337](https://github.com/NHAS/VULNERABLE-CVE-2024-45337)
+- [peace-maker/CVE-2024-45337](https://github.com/peace-maker/CVE-2024-45337)
 
 ### CVE-2024-45383 (2024-09-12)
 
@@ -8490,6 +8495,7 @@
 - [watchtowrlabs/fortios-auth-bypass-check-CVE-2024-55591](https://github.com/watchtowrlabs/fortios-auth-bypass-check-CVE-2024-55591)
 - [sysirq/fortios-auth-bypass-poc-CVE-2024-55591](https://github.com/sysirq/fortios-auth-bypass-poc-CVE-2024-55591)
 - [sysirq/fortios-auth-bypass-exploit-CVE-2024-55591](https://github.com/sysirq/fortios-auth-bypass-exploit-CVE-2024-55591)
+- [amfg145/Private-CVE-2024-55591.](https://github.com/amfg145/Private-CVE-2024-55591.)
 
 ### CVE-2024-55875 (2024-12-12)
 
@@ -9593,6 +9599,7 @@
 - [numaan911098/CVE-2023-4220](https://github.com/numaan911098/CVE-2023-4220)
 - [MikeyPPPPPPPP/CVE-2023-4220](https://github.com/MikeyPPPPPPPP/CVE-2023-4220)
 - [Pr1or95/CVE-2023-4220-exploit](https://github.com/Pr1or95/CVE-2023-4220-exploit)
+- [zora-beep/CVE-2023-4220](https://github.com/zora-beep/CVE-2023-4220)
 
 ### CVE-2023-4226 (2023-11-28)
 
@@ -10070,7 +10077,7 @@
 
 - [motikan2010/CVE-2023-6063-PoC](https://github.com/motikan2010/CVE-2023-6063-PoC)
 - [hackersroot/CVE-2023-6063-PoC](https://github.com/hackersroot/CVE-2023-6063-PoC)
-- [thesafdari/CVE-2023-6063](https://github.com/thesafdari/CVE-2023-6063)
+- [Eulex0x/CVE-2023-6063](https://github.com/Eulex0x/CVE-2023-6063)
 
 ### CVE-2023-6241 (2024-03-04)
 
@@ -17863,7 +17870,7 @@
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
 - [0xSojalSec/CVE-2022-1609](https://github.com/0xSojalSec/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
-- [w4r3s/cve-2022-1609-exploit](https://github.com/w4r3s/cve-2022-1609-exploit)
+- [iaaaannn0/cve-2022-1609-exploit](https://github.com/iaaaannn0/cve-2022-1609-exploit)
 
 ### CVE-2022-1679 (2022-05-16)
 
@@ -22731,6 +22738,7 @@
 - [Rofell0s/Fortigate-Leak-CVE-2022-40684](https://github.com/Rofell0s/Fortigate-Leak-CVE-2022-40684)
 - [AKboss1221/fortigate-belsen-leak](https://github.com/AKboss1221/fortigate-belsen-leak)
 - [XalfiE/Fortigate-Belsen-Leak-Dump-CVE-2022-40684-](https://github.com/XalfiE/Fortigate-Belsen-Leak-Dump-CVE-2022-40684-)
+- [niklasmato/fortileak-01-2025-Be](https://github.com/niklasmato/fortileak-01-2025-Be)
 
 ### CVE-2022-40687 (2022-11-18)
 
