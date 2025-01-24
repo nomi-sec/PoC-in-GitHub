@@ -42680,6 +42680,13 @@
 
 - [Trinadh465/external_tcpdump_CVE-2018-14880](https://github.com/Trinadh465/external_tcpdump_CVE-2018-14880)
 
+### CVE-2018-14881 (2019-10-03)
+
+<code>The BGP parser in tcpdump before 4.9.3 has a buffer over-read in print-bgp.c:bgp_capabilities_print() (BGP_CAPCODE_RESTART).
+</code>
+
+- [uthrasri/CVE-2018-14881_no_patch](https://github.com/uthrasri/CVE-2018-14881_no_patch)
+
 ### CVE-2018-15131 (2019-05-30)
 
 <code>An issue was discovered in Synacor Zimbra Collaboration Suite 8.6.x before 8.6.0 Patch 11, 8.7.x before 8.7.11 Patch 6, 8.8.x before 8.8.8 Patch 9, and 8.8.9 before 8.8.9 Patch 3. Account number enumeration is possible via inconsistent responses for specific types of authentication requests.
