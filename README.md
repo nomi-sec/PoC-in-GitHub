@@ -14,7 +14,11 @@
 - [Hexastrike/Ivanti-Connect-Secure-Logs-Parser](https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser)
 - [chiefchainer/CVE-2025-0282](https://github.com/chiefchainer/CVE-2025-0282)
 
-### CVE-2025-0411
+### CVE-2025-0411 (2025-01-25)
+
+<code>7-Zip Mark-of-the-Web Bypass Vulnerability. This vulnerability allows remote attackers to bypass the Mark-of-the-Web protection mechanism on affected installations of 7-Zip. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the handling of archived files. When extracting files from a crafted archive that bears the Mark-of-the-Web, 7-Zip does not propagate the Mark-of-the-Web to the extracted files. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user. Was ZDI-CAN-25456.
+</code>
+
 - [dhmosfunk/7-Zip-CVE-2025-0411-POC](https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC)
 
 ### CVE-2025-510
@@ -1977,6 +1981,7 @@
 
 - [iSee857/CVE-2024-9047-PoC](https://github.com/iSee857/CVE-2024-9047-PoC)
 - [verylazytech/CVE-2024-9047](https://github.com/verylazytech/CVE-2024-9047)
+- [Nxploited/CVE-2024-9047-Exploit](https://github.com/Nxploited/CVE-2024-9047-Exploit)
 
 ### CVE-2024-9061 (2024-10-16)
 
@@ -14606,6 +14611,13 @@
 - [monke443/CVE-2023-40028-Ghost-Arbitrary-File-Read](https://github.com/monke443/CVE-2023-40028-Ghost-Arbitrary-File-Read)
 - [rvizx/CVE-2023-40028](https://github.com/rvizx/CVE-2023-40028)
 - [godylockz/CVE-2023-40028](https://github.com/godylockz/CVE-2023-40028)
+
+### CVE-2023-40029 (2023-09-07)
+
+<code>Argo CD is a declarative continuous deployment for Kubernetes. Argo CD Cluster secrets might be managed declaratively using Argo CD / kubectl apply. As a result, the full secret body is stored in`kubectl.kubernetes.io/last-applied-configuration` annotation. pull request #7139 introduced the ability to manage cluster labels and annotations. Since clusters are stored as secrets it also exposes the `kubectl.kubernetes.io/last-applied-configuration` annotation which includes full secret body. In order to view the cluster annotations via the Argo CD API, the user must have `clusters, get` RBAC access. **Note:** In many cases, cluster secrets do not contain any actually-secret information. But sometimes, as in bearer-token auth, the contents might be very sensitive. The bug has been patched in versions 2.8.3, 2.7.14, and 2.6.15. Users are advised to upgrade. Users unable to upgrade should update/deploy cluster secret with `server-side-apply` flag which does not use or rely on `kubectl.kubernetes.io/last-applied-configuration` annotation. Note: annotation for existing secrets will require manual removal.\n\n
+</code>
+
+- [guobei233/CVE-2023-40029](https://github.com/guobei233/CVE-2023-40029)
 
 ### CVE-2023-40031 (2023-08-25)
 
