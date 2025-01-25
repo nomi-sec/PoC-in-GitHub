@@ -940,6 +940,13 @@
 
 - [h4x0r-dz/CVE-2024-3656](https://github.com/h4x0r-dz/CVE-2024-3656)
 
+### CVE-2024-3673 (2024-08-30)
+
+<code>The Web Directory Free WordPress plugin before 1.7.3 does not validate a parameter before using it in an include(), which could lead to Local File Inclusion issues.
+</code>
+
+- [Nxploited/CVE-2024-3673](https://github.com/Nxploited/CVE-2024-3673)
+
 ### CVE-2024-3690 (2024-04-12)
 
 <code>In PHPGurukul Small CRM 3.0 wurde eine kritische Schwachstelle entdeckt. Hierbei betrifft es unbekannten Programmcode der Komponente Change Password Handler. Durch Beeinflussen mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
@@ -47292,7 +47299,6 @@
 - [j4k0m/CVE-2016-10033](https://github.com/j4k0m/CVE-2016-10033)
 - [zeeshanbhattined/exploit-CVE-2016-10033](https://github.com/zeeshanbhattined/exploit-CVE-2016-10033)
 - [CAOlvchonger/CVE-2016-10033](https://github.com/CAOlvchonger/CVE-2016-10033)
-- [eb613819/CTF_CVE-2016-10033](https://github.com/eb613819/CTF_CVE-2016-10033)
 - [ElnurBDa/CVE-2016-10033](https://github.com/ElnurBDa/CVE-2016-10033)
 - [Astrowmist/POC-CVE-2016-10033](https://github.com/Astrowmist/POC-CVE-2016-10033)
 
