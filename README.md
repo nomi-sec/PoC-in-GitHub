@@ -8670,6 +8670,9 @@
 
 - [ipratheep/CVE-2024-56924](https://github.com/ipratheep/CVE-2024-56924)
 
+### CVE-2024-57373
+- [cypherdavy/CVE-2024-57373](https://github.com/cypherdavy/CVE-2024-57373)
+
 ### CVE-2024-57487 (2025-01-13)
 
 <code>In Code-Projects Online Car Rental System 1.0, the file upload feature does not validate file extensions or MIME types allowing an attacker to upload a PHP shell without any restrictions and execute commands on the server.
