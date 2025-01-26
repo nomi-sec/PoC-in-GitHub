@@ -46540,6 +46540,7 @@
 
 - [shadofren/CVE-2016-2555](https://github.com/shadofren/CVE-2016-2555)
 - [maximilianmarx/atutor-blind-sqli](https://github.com/maximilianmarx/atutor-blind-sqli)
+- [HussainFathy/CVE-2016-2555](https://github.com/HussainFathy/CVE-2016-2555)
 
 ### CVE-2016-2569 (2016-02-27)
 
