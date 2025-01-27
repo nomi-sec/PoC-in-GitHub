@@ -21,6 +21,7 @@
 
 - [dhmosfunk/7-Zip-CVE-2025-0411-POC](https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC)
 - [CastroJared/7-Zip-CVE-2025-0411-POC](https://github.com/CastroJared/7-Zip-CVE-2025-0411-POC)
+- [iSee857/CVE-2025-0411-PoC](https://github.com/iSee857/CVE-2025-0411-PoC)
 
 ### CVE-2025-510
 - [g0v3lla/CVE-2025-510T](https://github.com/g0v3lla/CVE-2025-510T)
@@ -2663,7 +2664,11 @@
 
 - [RandomRobbieBF/CVE-2024-12270](https://github.com/RandomRobbieBF/CVE-2024-12270)
 
-### CVE-2024-12345
+### CVE-2024-12345 (2025-01-27)
+
+<code>In INW Krbyyyzo 25.2002 wurde eine problematische Schwachstelle entdeckt. Hierbei betrifft es unbekannten Programmcode der Datei /gbo.aspx der Komponente Daily Huddle Site. Durch das Manipulieren des Arguments s mit unbekannten Daten kann eine resource consumption-Schwachstelle ausgenutzt werden. Der Angriff muss lokal angegangen werden.
+</code>
+
 - [RoyaRadin/CVE-2024-12345-POC](https://github.com/RoyaRadin/CVE-2024-12345-POC)
 
 ### CVE-2024-12404 (2025-01-11)
