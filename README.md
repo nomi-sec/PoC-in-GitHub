@@ -713,6 +713,7 @@
 - [exfil0/test_iconv](https://github.com/exfil0/test_iconv)
 - [tnishiox/cve-2024-2961](https://github.com/tnishiox/cve-2024-2961)
 - [kjdfklha/CVE-2024-2961_poc](https://github.com/kjdfklha/CVE-2024-2961_poc)
+- [kyotozx/CVE-2024-2961-Remote-File-Read](https://github.com/kyotozx/CVE-2024-2961-Remote-File-Read)
 
 ### CVE-2024-2997 (2024-03-27)
 
@@ -6678,7 +6679,6 @@
 - [thisisveryfunny/CVE-2024-41570-Havoc-C2-RCE](https://github.com/thisisveryfunny/CVE-2024-41570-Havoc-C2-RCE)
 - [sebr-dev/Havoc-C2-SSRF-to-RCE](https://github.com/sebr-dev/Havoc-C2-SSRF-to-RCE)
 - [kit4py/CVE-2024-41570](https://github.com/kit4py/CVE-2024-41570)
-- [0xLynk/CVE-2024-41570-POC](https://github.com/0xLynk/CVE-2024-41570-POC)
 
 ### CVE-2024-41628 (2024-07-26)
 
