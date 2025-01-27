@@ -8515,6 +8515,7 @@
 - [sysirq/fortios-auth-bypass-exploit-CVE-2024-55591](https://github.com/sysirq/fortios-auth-bypass-exploit-CVE-2024-55591)
 - [amfg145/Private-CVE-2024-55591.](https://github.com/amfg145/Private-CVE-2024-55591.)
 - [robomusk52/exp-cmd-add-admin-vpn-CVE-2024-55591](https://github.com/robomusk52/exp-cmd-add-admin-vpn-CVE-2024-55591)
+- [watchtowrlabs/fortios-auth-bypass-poc-CVE-2024-55591](https://github.com/watchtowrlabs/fortios-auth-bypass-poc-CVE-2024-55591)
 
 ### CVE-2024-55875 (2024-12-12)
 
@@ -12482,7 +12483,7 @@
 
 ### CVE-2023-30765 (2023-07-10)
 
-<code>\n​Delta Electronics InfraSuite Device Master versions prior to 1.0.7 contain improper access controls that could allow an attacker to alter privilege management configurations, resulting in privilege escalation.\n\n
+<code>​Delta Electronics InfraSuite Device Master versions prior to 1.0.7 contain improper access controls that could allow an attacker to alter privilege management configurations, resulting in privilege escalation.
 </code>
 
 - [0xfml/CVE-2023-30765](https://github.com/0xfml/CVE-2023-30765)
@@ -35705,6 +35706,13 @@
 
 - [nth347/CVE-2020-28032_PoC](https://github.com/nth347/CVE-2020-28032_PoC)
 
+### CVE-2020-28042 (2020-11-01)
+
+<code>ServiceStack before 5.9.2 mishandles JWT signature verification unless an application has a custom ValidateToken function that establishes a valid minimum length for a signature.
+</code>
+
+- [z-bool/Venom-JWT](https://github.com/z-bool/Venom-JWT)
+
 ### CVE-2020-28052 (2020-12-18)
 
 <code>An issue was discovered in Legion of the Bouncy Castle BC Java 1.65 and 1.66. The OpenBSDBCrypt.checkPassword utility method compared incorrect data when checking the password, allowing incorrect passwords to indicate they were matching with previously hashed ones that were different.
@@ -36806,6 +36814,7 @@
 - [c3r34lk1ll3r/CVE-2019-2215](https://github.com/c3r34lk1ll3r/CVE-2019-2215)
 - [Byte-Master-101/CVE-2019-2215](https://github.com/Byte-Master-101/CVE-2019-2215)
 - [mufidmb38/CVE-2019-2215](https://github.com/mufidmb38/CVE-2019-2215)
+- [nicchongwb/Rootsmart-v2.0](https://github.com/nicchongwb/Rootsmart-v2.0)
 - [CrackerCat/Rootsmart-v2.0](https://github.com/CrackerCat/Rootsmart-v2.0)
 - [enceka/cve-2019-2215-3.18](https://github.com/enceka/cve-2019-2215-3.18)
 - [elbiazo/CVE-2019-2215](https://github.com/elbiazo/CVE-2019-2215)
@@ -40301,6 +40310,7 @@
 - [mmeza-developer/CVE-2018-0114](https://github.com/mmeza-developer/CVE-2018-0114)
 - [Pandora-research/CVE-2018-0114-Exploit](https://github.com/Pandora-research/CVE-2018-0114-Exploit)
 - [amr9k8/jwt-spoof-tool](https://github.com/amr9k8/jwt-spoof-tool)
+- [z-bool/Venom-JWT](https://github.com/z-bool/Venom-JWT)
 
 ### CVE-2018-0171 (2018-03-28)
 
@@ -47368,6 +47378,7 @@
 
 - [CircuitSoul/poc-cve-2016-10555](https://github.com/CircuitSoul/poc-cve-2016-10555)
 - [scent2d/PoC-CVE-2016-10555](https://github.com/scent2d/PoC-CVE-2016-10555)
+- [z-bool/Venom-JWT](https://github.com/z-bool/Venom-JWT)
 
 ### CVE-2016-10709 (2018-01-22)
 
@@ -48347,6 +48358,7 @@
 
 - [aalex954/jwt-key-confusion-poc](https://github.com/aalex954/jwt-key-confusion-poc)
 - [WinDyAlphA/CVE-2015-9235_JWT_key_confusion](https://github.com/WinDyAlphA/CVE-2015-9235_JWT_key_confusion)
+- [z-bool/Venom-JWT](https://github.com/z-bool/Venom-JWT)
 
 ### CVE-2015-9251 (2018-01-18)
 
