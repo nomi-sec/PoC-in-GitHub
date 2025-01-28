@@ -86,6 +86,13 @@
 
 - [CRUNZEX/CVE-2025-22968](https://github.com/CRUNZEX/CVE-2025-22968)
 
+### CVE-2025-24085 (2025-01-27)
+
+<code>A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
+</code>
+
+- [clidanc/CVE-2025-24085](https://github.com/clidanc/CVE-2025-24085)
+
 
 ## 2024
 ### CVE-2024-0012 (2024-11-18)
@@ -25278,7 +25285,6 @@
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [Anonymous-Family/CVE-2021-4034](https://github.com/Anonymous-Family/CVE-2021-4034)
 - [phvilasboas/CVE-2021-4034](https://github.com/phvilasboas/CVE-2021-4034)
-- [hackingyseguridad/CVE-2021-4034](https://github.com/hackingyseguridad/CVE-2021-4034)
 - [vilasboasph/CVE-2021-4034](https://github.com/vilasboasph/CVE-2021-4034)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
@@ -25373,6 +25379,7 @@
 - [Pixailz/CVE-2021-4034](https://github.com/Pixailz/CVE-2021-4034)
 - [toecesws/CVE-2021-4034](https://github.com/toecesws/CVE-2021-4034)
 - [jehovah2002/CVE-2021-4034-pwnkit](https://github.com/jehovah2002/CVE-2021-4034-pwnkit)
+- [deep-know/CVE-2021-4034](https://github.com/deep-know/CVE-2021-4034)
 - [fei9747/CVE-2021-4034](https://github.com/fei9747/CVE-2021-4034)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [mutur4/CVE-2021-4034](https://github.com/mutur4/CVE-2021-4034)
