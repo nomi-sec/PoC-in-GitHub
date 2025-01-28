@@ -8394,7 +8394,11 @@
 
 - [wh1te4ever/CVE-2024-54498-PoC](https://github.com/wh1te4ever/CVE-2024-54498-PoC)
 
-### CVE-2024-54507
+### CVE-2024-54507 (2025-01-27)
+
+<code>A type confusion issue was addressed with improved memory handling. This issue is fixed in macOS Sequoia 15.2, iOS 18.2 and iPadOS 18.2. An attacker with user privileges may be able to read kernel memory.
+</code>
+
 - [jprx/CVE-2024-54507](https://github.com/jprx/CVE-2024-54507)
 
 ### CVE-2024-54679 (2024-12-05)
@@ -8514,6 +8518,7 @@
 - [sysirq/fortios-auth-bypass-poc-CVE-2024-55591](https://github.com/sysirq/fortios-auth-bypass-poc-CVE-2024-55591)
 - [sysirq/fortios-auth-bypass-exploit-CVE-2024-55591](https://github.com/sysirq/fortios-auth-bypass-exploit-CVE-2024-55591)
 - [amfg145/Private-CVE-2024-55591.](https://github.com/amfg145/Private-CVE-2024-55591.)
+- [virus-or-not/CVE-2024-55591](https://github.com/virus-or-not/CVE-2024-55591)
 - [robomusk52/exp-cmd-add-admin-vpn-CVE-2024-55591](https://github.com/robomusk52/exp-cmd-add-admin-vpn-CVE-2024-55591)
 - [watchtowrlabs/fortios-auth-bypass-poc-CVE-2024-55591](https://github.com/watchtowrlabs/fortios-auth-bypass-poc-CVE-2024-55591)
 
@@ -8676,7 +8681,11 @@
 
 - [ipratheep/CVE-2024-56924](https://github.com/ipratheep/CVE-2024-56924)
 
-### CVE-2024-57373
+### CVE-2024-57373 (2025-01-27)
+
+<code>Cross Site Request Forgery vulnerability in LifestyleStore v.1.0 allows a remote attacker to execute arbitrary cod and obtain sensitive information.
+</code>
+
 - [cypherdavy/CVE-2024-57373](https://github.com/cypherdavy/CVE-2024-57373)
 
 ### CVE-2024-57487 (2025-01-13)
@@ -21534,7 +21543,11 @@
 
 - [s0duku/cve-2022-31705](https://github.com/s0duku/cve-2022-31705)
 
-### CVE-2022-31749
+### CVE-2022-31749 (2025-01-27)
+
+<code>An argument injection vulnerability in the diagnose and import pac commands in WatchGuard Fireware OS before 12.8.1, 12.1.4, and 12.5.10 allows an authenticated remote attacker with unprivileged credentials to upload or read files to limited, arbitrary locations on WatchGuard Firebox and XTM appliances
+</code>
+
 - [jbaines-r7/hook](https://github.com/jbaines-r7/hook)
 - [iveresk/cve-2022-31749](https://github.com/iveresk/cve-2022-31749)
 
@@ -25381,6 +25394,7 @@
 - [Typical0day/CVE-2021-4034](https://github.com/Typical0day/CVE-2021-4034)
 - [lsclsclsc/CVE-2021-4034](https://github.com/lsclsclsc/CVE-2021-4034)
 - [EuJin03/CVE-2021-4034-PoC](https://github.com/EuJin03/CVE-2021-4034-PoC)
+- [dh4r4/PwnKit-CVE-2021-4034-](https://github.com/dh4r4/PwnKit-CVE-2021-4034-)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -30643,7 +30657,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Service-List-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Service-List-Stored-Cross-Site-Scripting-XSS)
-- [plsanu/CVE-2021-46072](https://github.com/plsanu/CVE-2021-46072)
 
 ### CVE-2021-46073 (2022-01-06)
 
