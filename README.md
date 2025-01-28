@@ -13,6 +13,7 @@
 - [sfewer-r7/CVE-2025-0282](https://github.com/sfewer-r7/CVE-2025-0282)
 - [Hexastrike/Ivanti-Connect-Secure-Logs-Parser](https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser)
 - [chiefchainer/CVE-2025-0282](https://github.com/chiefchainer/CVE-2025-0282)
+- [AdaniKamal/CVE-2025-0282](https://github.com/AdaniKamal/CVE-2025-0282)
 
 ### CVE-2025-0411 (2025-01-25)
 
@@ -22779,7 +22780,6 @@
 - [Anthony1500/CVE-2022-40684](https://github.com/Anthony1500/CVE-2022-40684)
 - [arsolutioner/fortigate-belsen-leak](https://github.com/arsolutioner/fortigate-belsen-leak)
 - [Rofell0s/Fortigate-Leak-CVE-2022-40684](https://github.com/Rofell0s/Fortigate-Leak-CVE-2022-40684)
-- [AKboss1221/fortigate-belsen-leak](https://github.com/AKboss1221/fortigate-belsen-leak)
 - [XalfiE/Fortigate-Belsen-Leak-Dump-CVE-2022-40684-](https://github.com/XalfiE/Fortigate-Belsen-Leak-Dump-CVE-2022-40684-)
 - [niklasmato/fortileak-01-2025-Be](https://github.com/niklasmato/fortileak-01-2025-Be)
 
@@ -35219,7 +35219,6 @@
 
 - [darrenmartyn/sophucked](https://github.com/darrenmartyn/sophucked)
 - [twentybel0w/CVE-2020-25223](https://github.com/twentybel0w/CVE-2020-25223)
-- [gh-2025-02/poc-cve-2020-25223](https://github.com/gh-2025-02/poc-cve-2020-25223)
 
 ### CVE-2020-25265 (2020-12-02)
 
