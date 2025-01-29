@@ -86,13 +86,6 @@
 
 - [CRUNZEX/CVE-2025-22968](https://github.com/CRUNZEX/CVE-2025-22968)
 
-### CVE-2025-24085 (2025-01-27)
-
-<code>A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
-</code>
-
-- [clidanc/CVE-2025-24085](https://github.com/clidanc/CVE-2025-24085)
-
 
 ## 2024
 ### CVE-2024-0012 (2024-11-18)
@@ -723,6 +716,7 @@
 - [tnishiox/cve-2024-2961](https://github.com/tnishiox/cve-2024-2961)
 - [kjdfklha/CVE-2024-2961_poc](https://github.com/kjdfklha/CVE-2024-2961_poc)
 - [kyotozx/CVE-2024-2961-Remote-File-Read](https://github.com/kyotozx/CVE-2024-2961-Remote-File-Read)
+- [4wayhandshake/CVE-2024-2961](https://github.com/4wayhandshake/CVE-2024-2961)
 
 ### CVE-2024-2997 (2024-03-27)
 
@@ -8296,6 +8290,9 @@
 
 - [Safecloudth/CVE-2024-53522](https://github.com/Safecloudth/CVE-2024-53522)
 
+### CVE-2024-53615
+- [beune/CVE-2024-53615](https://github.com/beune/CVE-2024-53615)
+
 ### CVE-2024-53617 (2024-12-02)
 
 <code>A Cross Site Scripting vulnerability in LibrePhotos before commit 32237 allows attackers to takeover any account via uploading an HTML file on behalf of the admin user using IDOR in file upload.
@@ -8535,6 +8532,7 @@
 - [virus-or-not/CVE-2024-55591](https://github.com/virus-or-not/CVE-2024-55591)
 - [robomusk52/exp-cmd-add-admin-vpn-CVE-2024-55591](https://github.com/robomusk52/exp-cmd-add-admin-vpn-CVE-2024-55591)
 - [watchtowrlabs/fortios-auth-bypass-poc-CVE-2024-55591](https://github.com/watchtowrlabs/fortios-auth-bypass-poc-CVE-2024-55591)
+- [exfil0/CVE-2024-55591-POC](https://github.com/exfil0/CVE-2024-55591-POC)
 
 ### CVE-2024-55875 (2024-12-12)
 
