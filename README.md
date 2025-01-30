@@ -86,6 +86,13 @@
 
 - [CRUNZEX/CVE-2025-22968](https://github.com/CRUNZEX/CVE-2025-22968)
 
+### CVE-2025-24085 (2025-01-27)
+
+<code>A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
+</code>
+
+- [bronsoneaver/CVE-2025-24085](https://github.com/bronsoneaver/CVE-2025-24085)
+
 
 ## 2024
 ### CVE-2024-0012 (2024-11-18)
@@ -116,7 +123,6 @@
 </code>
 
 - [AbrarKhan/G3_Frameworks_av_CVE-2024-0023](https://github.com/AbrarKhan/G3_Frameworks_av_CVE-2024-0023)
-- [Aakashmom/frameworks_av_android10_r33_CVE-2024-0023](https://github.com/Aakashmom/frameworks_av_android10_r33_CVE-2024-0023)
 
 ### CVE-2024-0030 (2024-02-16)
 
@@ -163,7 +169,6 @@
 </code>
 
 - [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049)
-- [Aakashmom/frameworks_av_android10_r33_CVE-2024-0049](https://github.com/Aakashmom/frameworks_av_android10_r33_CVE-2024-0049)
 
 ### CVE-2024-0195 (2024-01-02)
 
@@ -6587,29 +6592,14 @@
 <code>In scheme of Uri.java, there is a possible way to craft a malformed Uri object due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
 </code>
 
-- [Aakashmom/net_G2.5_CVE-2024-40662](https://github.com/Aakashmom/net_G2.5_CVE-2024-40662)
-
-### CVE-2024-40673 (2025-01-28)
-
-<code>In Source of ZipFile.java, there is a possible way for an attacker to execute arbitrary code by manipulating Dynamic Code Loading due to improper input validation. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.
-</code>
-
-- [Aakashmom/G3_libcore_native_CVE-2024-40673](https://github.com/Aakashmom/G3_libcore_native_CVE-2024-40673)
-
-### CVE-2024-40675 (2025-01-28)
-
-<code>In parseUriInternal of Intent.java, there is a possible infinite loop due to improper input validation. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.
-</code>
-
-- [Aakashmom/intent_CVE-2024-40675](https://github.com/Aakashmom/intent_CVE-2024-40675)
+- [bb33bb/net_G2.5_CVE-2024-40662](https://github.com/bb33bb/net_G2.5_CVE-2024-40662)
 
 ### CVE-2024-40676 (2025-01-28)
 
 <code>In checkKeyIntent of AccountManagerService.java, there is a possible way to bypass intent security check and install an unknown app due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
 </code>
 
-- [Aakashmom/frameworks_base_accounts_CVE-2024-40676](https://github.com/Aakashmom/frameworks_base_accounts_CVE-2024-40676)
-- [Aakashmom/accounts_CVE-2024-40676-](https://github.com/Aakashmom/accounts_CVE-2024-40676-)
+- [CrackerCat/accounts_CVE-2024-40676-](https://github.com/CrackerCat/accounts_CVE-2024-40676-)
 
 ### CVE-2024-40711 (2024-09-07)
 
@@ -21711,13 +21701,6 @@
 
 - [Toxich4/CVE-2022-32199](https://github.com/Toxich4/CVE-2022-32199)
 
-### CVE-2022-32206 (2022-07-07)
-
-<code>curl &lt; 7.84.0 supports &quot;chained&quot; HTTP compression algorithms, meaning that a serverresponse can be compressed multiple times and potentially with different algorithms. The number of acceptable &quot;links&quot; in this &quot;decompression chain&quot; was unbounded, allowing a malicious server to insert a virtually unlimited number of compression steps.The use of such a decompression chain could result in a &quot;malloc bomb&quot;, makingcurl end up spending enormous amounts of allocated heap memory, or trying toand returning out of memory errors.
-</code>
-
-- [HimanshuS67/external_curl_AOSP10_CVE-2022-32206](https://github.com/HimanshuS67/external_curl_AOSP10_CVE-2022-32206)
-
 ### CVE-2022-32223 (2022-07-14)
 
 <code>Node.js is vulnerable to Hijack Execution Flow: DLL Hijacking under certain conditions on Windows platforms.This vulnerability can be exploited if the victim has the following dependencies on a Windows machine:* OpenSSL has been installed and “C:\Program Files\Common Files\SSL\openssl.cnf” exists.Whenever the above conditions are present, `node.exe` will search for `providers.dll` in the current user directory.After that, `node.exe` will try to search for `providers.dll` by the DLL Search Order in Windows.It is possible for an attacker to place the malicious file `providers.dll` under a variety of paths and exploit this vulnerability.
@@ -24862,6 +24845,7 @@
 - [0x0d3ad/CVE-2021-3129](https://github.com/0x0d3ad/CVE-2021-3129)
 - [GodOfServer/CVE-2021-3129](https://github.com/GodOfServer/CVE-2021-3129)
 - [Prabesh01/hoh4](https://github.com/Prabesh01/hoh4)
+- [lukwagoasuman/CVE-2021-3129---Laravel-RCE](https://github.com/lukwagoasuman/CVE-2021-3129---Laravel-RCE)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -24909,7 +24893,6 @@
 - [Q4n/CVE-2021-3156](https://github.com/Q4n/CVE-2021-3156)
 - [kal1gh0st/CVE-2021-3156](https://github.com/kal1gh0st/CVE-2021-3156)
 - [apogiatzis/docker-CVE-2021-3156](https://github.com/apogiatzis/docker-CVE-2021-3156)
-- [voidlsd/CVE-2021-3156](https://github.com/voidlsd/CVE-2021-3156)
 - [Ashish-dawani/CVE-2021-3156-Patch](https://github.com/Ashish-dawani/CVE-2021-3156-Patch)
 - [SantiagoSerrao/ScannerCVE-2021-3156](https://github.com/SantiagoSerrao/ScannerCVE-2021-3156)
 - [DanielAzulayy/CTF-2021](https://github.com/DanielAzulayy/CTF-2021)
@@ -25705,7 +25688,6 @@
 </code>
 
 - [uthrasri/CVE-2021-21401_nanopb-c_AOSP10_R33](https://github.com/uthrasri/CVE-2021-21401_nanopb-c_AOSP10_R33)
-- [HimanshuS67/external_nanopb-c_AOSP10_CVE-2021-21401](https://github.com/HimanshuS67/external_nanopb-c_AOSP10_CVE-2021-21401)
 
 ### CVE-2021-21402 (2021-03-23)
 
@@ -26134,6 +26116,7 @@
 - [lakshit1212/CVE-2021-23017-PoC](https://github.com/lakshit1212/CVE-2021-23017-PoC)
 - [ShivamDey/CVE-2021-23017](https://github.com/ShivamDey/CVE-2021-23017)
 - [z3usx01/CVE-2021-23017-POC](https://github.com/z3usx01/CVE-2021-23017-POC)
+- [lukwagoasuman/-home-lukewago-Downloads-CVE-2021-23017-Nginx-1.14](https://github.com/lukwagoasuman/-home-lukewago-Downloads-CVE-2021-23017-Nginx-1.14)
 
 ### CVE-2021-23132 (2021-03-04)
 
@@ -30687,7 +30670,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Settings-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Settings-Stored-Cross-Site-Scripting-XSS)
-- [plsanu/CVE-2021-46074](https://github.com/plsanu/CVE-2021-46074)
 
 ### CVE-2021-46075 (2022-01-06)
 
@@ -35467,13 +35449,6 @@
 
 - [whr819987540/test_CVE-2020-26233](https://github.com/whr819987540/test_CVE-2020-26233)
 - [an1p3lg5/CVE-2020-26233](https://github.com/an1p3lg5/CVE-2020-26233)
-
-### CVE-2020-26243 (2020-11-25)
-
-<code>Nanopb is a small code-size Protocol Buffers implementation. In Nanopb before versions 0.4.4 and 0.3.9.7, decoding specifically formed message can leak memory if dynamic allocation is enabled and an oneof field contains a static submessage that contains a dynamic field, and the message being decoded contains the submessage multiple times. This is rare in normal messages, but it is a concern when untrusted data is parsed. This is fixed in versions 0.3.9.7 and 0.4.4. The following workarounds are available: 1) Set the option `no_unions` for the oneof field. This will generate fields as separate instead of C union, and avoids triggering the problematic code. 2) Set the type of the submessage field inside oneof to `FT_POINTER`. This way the whole submessage will be dynamically allocated and the problematic code is not executed. 3) Use an arena allocator for nanopb, to make sure all memory can be released afterwards.
-</code>
-
-- [HimanshuS67/external_nanopb-c_AOSP10_CVE-2020-26243](https://github.com/HimanshuS67/external_nanopb-c_AOSP10_CVE-2020-26243)
 
 ### CVE-2020-26258 (2020-12-16)
 
