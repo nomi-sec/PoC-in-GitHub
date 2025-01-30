@@ -86,6 +86,13 @@
 
 - [CRUNZEX/CVE-2025-22968](https://github.com/CRUNZEX/CVE-2025-22968)
 
+### CVE-2025-24085 (2025-01-27)
+
+<code>A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
+</code>
+
+- [clidancc1/CVE-2025-24085](https://github.com/clidancc1/CVE-2025-24085)
+
 
 ## 2024
 ### CVE-2024-0012 (2024-11-18)
@@ -2607,6 +2614,7 @@
 
 - [JunTakemura/exploit-CVE-2024-11972](https://github.com/JunTakemura/exploit-CVE-2024-11972)
 - [RonF98/CVE-2024-11972-POC](https://github.com/RonF98/CVE-2024-11972-POC)
+- [Nxploited/CVE-2024-11972-PoC](https://github.com/Nxploited/CVE-2024-11972-PoC)
 
 ### CVE-2024-12025 (2024-12-18)
 
@@ -2621,6 +2629,7 @@
 </code>
 
 - [themirze/cve-2024-12084](https://github.com/themirze/cve-2024-12084)
+- [rxerium/CVE-2024-12084](https://github.com/rxerium/CVE-2024-12084)
 
 ### CVE-2024-12155 (2024-12-06)
 
@@ -3543,7 +3552,11 @@
 
 - [actuator/yi](https://github.com/actuator/yi)
 
-### CVE-2024-23733
+### CVE-2024-23733 (2025-01-29)
+
+<code>The /WmAdmin/,/invoke/vm.server/login login page in the Integration Server in Software AG webMethods 10.15.0 before Core_Fix7 allows remote attackers to reach the administration panel and discover hostname and version information by sending an arbitrary username and a blank password to the /WmAdmin/#/login/ URI.
+</code>
+
 - [ekcrsm/CVE-2024-23733](https://github.com/ekcrsm/CVE-2024-23733)
 
 ### CVE-2024-23738 (2024-01-28)
@@ -8533,6 +8546,7 @@
 - [robomusk52/exp-cmd-add-admin-vpn-CVE-2024-55591](https://github.com/robomusk52/exp-cmd-add-admin-vpn-CVE-2024-55591)
 - [watchtowrlabs/fortios-auth-bypass-poc-CVE-2024-55591](https://github.com/watchtowrlabs/fortios-auth-bypass-poc-CVE-2024-55591)
 - [exfil0/CVE-2024-55591-POC](https://github.com/exfil0/CVE-2024-55591-POC)
+- [rawtips/CVE-2024-55591](https://github.com/rawtips/CVE-2024-55591)
 
 ### CVE-2024-55875 (2024-12-12)
 
