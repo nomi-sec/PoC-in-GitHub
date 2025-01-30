@@ -210,6 +210,7 @@
 </code>
 
 - [Cappricio-Securities/CVE-2024-0235](https://github.com/Cappricio-Securities/CVE-2024-0235)
+- [Nxploited/CVE-2024-0235-PoC](https://github.com/Nxploited/CVE-2024-0235-PoC)
 
 ### CVE-2024-0305 (2024-01-08)
 
@@ -8286,7 +8287,11 @@
 
 - [Safecloudth/CVE-2024-53522](https://github.com/Safecloudth/CVE-2024-53522)
 
-### CVE-2024-53615
+### CVE-2024-53615 (2025-01-30)
+
+<code>A command injection vulnerability in the video thumbnail rendering component of Karl Ward's files.gallery v0.3.0 through 0.11.0 allows remote attackers to execute arbitrary code via a crafted video file.
+</code>
+
 - [beune/CVE-2024-53615](https://github.com/beune/CVE-2024-53615)
 
 ### CVE-2024-53617 (2024-12-02)
@@ -12910,6 +12915,7 @@
 - [CN016/Openfire-RCE-CVE-2023-32315-](https://github.com/CN016/Openfire-RCE-CVE-2023-32315-)
 - [K3ysTr0K3R/CVE-2023-32315-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-32315-EXPLOIT)
 - [bryanqb07/CVE-2023-32315](https://github.com/bryanqb07/CVE-2023-32315)
+- [asepsaepdin/CVE-2023-32315](https://github.com/asepsaepdin/CVE-2023-32315)
 
 ### CVE-2023-32353 (2023-06-23)
 
@@ -17852,7 +17858,6 @@
 - [sashka3076/F5-BIG-IP-exploit](https://github.com/sashka3076/F5-BIG-IP-exploit)
 - [Chocapikk/CVE-2022-1388](https://github.com/Chocapikk/CVE-2022-1388)
 - [li8u99/CVE-2022-1388](https://github.com/li8u99/CVE-2022-1388)
-- [electr0lulz/Mass-CVE-2022-1388](https://github.com/electr0lulz/Mass-CVE-2022-1388)
 - [Luchoane/CVE-2022-1388_refresh](https://github.com/Luchoane/CVE-2022-1388_refresh)
 - [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
 - [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
@@ -20920,8 +20925,8 @@
 - [Inplex-sys/CVE-2022-29464-loader](https://github.com/Inplex-sys/CVE-2022-29464-loader)
 - [Chocapikk/CVE-2022-29464](https://github.com/Chocapikk/CVE-2022-29464)
 - [jimidk/Better-CVE-2022-29464](https://github.com/jimidk/Better-CVE-2022-29464)
-- [electr0lulz/Mass-exploit-CVE-2022-29464](https://github.com/electr0lulz/Mass-exploit-CVE-2022-29464)
 - [g0dxing/CVE-2022-29464](https://github.com/g0dxing/CVE-2022-29464)
+- [hxlxmj/Mass-exploit-CVE-2022-29464](https://github.com/hxlxmj/Mass-exploit-CVE-2022-29464)
 - [Pasch0/WSO2RCE](https://github.com/Pasch0/WSO2RCE)
 - [r4x0r1337/-CVE-2022-29464](https://github.com/r4x0r1337/-CVE-2022-29464)
 - [amit-pathak009/CVE-2022-29464](https://github.com/amit-pathak009/CVE-2022-29464)
@@ -21844,6 +21849,7 @@
 - [ps-interactive/lab_security_apache_spark_emulation_detection](https://github.com/ps-interactive/lab_security_apache_spark_emulation_detection)
 - [elsvital/cve-2022-33891-fix](https://github.com/elsvital/cve-2022-33891-fix)
 - [K3ysTr0K3R/CVE-2022-33891-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2022-33891-EXPLOIT)
+- [asepsaepdin/CVE-2022-33891](https://github.com/asepsaepdin/CVE-2022-33891)
 
 ### CVE-2022-33980 (2022-07-06)
 
@@ -22240,6 +22246,7 @@
 - [devengpk/CVE-2022-36804](https://github.com/devengpk/CVE-2022-36804)
 - [walnutsecurity/cve-2022-36804](https://github.com/walnutsecurity/cve-2022-36804)
 - [imbas007/Atlassian-Bitbucket-CVE-2022-36804](https://github.com/imbas007/Atlassian-Bitbucket-CVE-2022-36804)
+- [asepsaepdin/CVE-2022-36804](https://github.com/asepsaepdin/CVE-2022-36804)
 
 ### CVE-2022-36944 (2022-09-23)
 
@@ -29238,7 +29245,7 @@
 - [BassoNicolas/CVE-2021-42013](https://github.com/BassoNicolas/CVE-2021-42013)
 - [dream434/cve-2021-42013-apache](https://github.com/dream434/cve-2021-42013-apache)
 - [bananoname/cve-2021-42013](https://github.com/bananoname/cve-2021-42013)
-- [asepsaepdin/cve-2021-42013](https://github.com/asepsaepdin/cve-2021-42013)
+- [asepsaepdin/CVE-2021-42013](https://github.com/asepsaepdin/CVE-2021-42013)
 
 ### CVE-2021-42056 (2022-06-24)
 
@@ -33425,6 +33432,7 @@
 - [Snorlyd/https-nj.gov---CVE-2020-11023](https://github.com/Snorlyd/https-nj.gov---CVE-2020-11023)
 - [Cybernegro/CVE-2020-11023](https://github.com/Cybernegro/CVE-2020-11023)
 - [andreassundstrom/cve-2020-11023-demonstration](https://github.com/andreassundstrom/cve-2020-11023-demonstration)
+- [honeyb33z/cve-2020-11023](https://github.com/honeyb33z/cve-2020-11023)
 
 ### CVE-2020-11060 (2020-05-12)
 
