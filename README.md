@@ -86,13 +86,6 @@
 
 - [CRUNZEX/CVE-2025-22968](https://github.com/CRUNZEX/CVE-2025-22968)
 
-### CVE-2025-24085 (2025-01-27)
-
-<code>A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
-</code>
-
-- [clidancc1/CVE-2025-24085](https://github.com/clidancc1/CVE-2025-24085)
-
 
 ## 2024
 ### CVE-2024-0012 (2024-11-18)
@@ -29262,6 +29255,7 @@
 - [BassoNicolas/CVE-2021-42013](https://github.com/BassoNicolas/CVE-2021-42013)
 - [dream434/cve-2021-42013-apache](https://github.com/dream434/cve-2021-42013-apache)
 - [bananoname/cve-2021-42013](https://github.com/bananoname/cve-2021-42013)
+- [asepsaepdin/cve-2021-42013](https://github.com/asepsaepdin/cve-2021-42013)
 
 ### CVE-2021-42056 (2022-06-24)
 
@@ -30686,7 +30680,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-User-List-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-User-List-Stored-Cross-Site-Scripting-XSS)
-- [plsanu/CVE-2021-46073](https://github.com/plsanu/CVE-2021-46073)
 
 ### CVE-2021-46074 (2022-01-06)
 
