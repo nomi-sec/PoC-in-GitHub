@@ -72,6 +72,13 @@
 ### CVE-2025-22783
 - [DoTTak/CVE-2025-22783](https://github.com/DoTTak/CVE-2025-22783)
 
+### CVE-2025-22828 (2025-01-13)
+
+<code>CloudStack users can add and read comments (annotations) on resources they are authorised to access. \n\nDue to an access validation issue that affects Apache CloudStack versions from 4.16.0, users who have access, prior access or knowledge of resource UUIDs can list and add comments (annotations) to such resources. \n\nAn attacker with a user-account and access or prior knowledge of resource UUIDs may exploit this issue to read contents of the comments (annotations) or add malicious comments (annotations) to such resources. \n\nThis may cause potential loss of confidentiality of CloudStack environments and resources if the comments (annotations) contain any privileged information. However, guessing or brute-forcing resource UUIDs are generally hard to impossible and access to listing or adding comments isn't same as access to CloudStack resources, making this issue of very low severity and general low impact.\n\n\nCloudStack admins may also disallow listAnnotations and addAnnotation API access to non-admin roles in their environment as an interim measure.
+</code>
+
+- [Stolichnayer/CVE-2025-22828](https://github.com/Stolichnayer/CVE-2025-22828)
+
 ### CVE-2025-22964 (2025-01-15)
 
 <code>DDSN Interactive cm3 Acora CMS version 10.1.1 has an unauthenticated time-based blind SQL Injection vulnerability caused by insufficient input sanitization and validation in the &quot;table&quot; parameter. This flaw allows attackers to inject malicious SQL queries by directly incorporating user-supplied input into database queries without proper escaping or validation. Exploiting this issue enables unauthorized access, manipulation of data, or exposure of sensitive information, posing significant risks to the integrity and confidentiality of the application.
@@ -6619,6 +6626,13 @@
 - [TAM-K592/CVE-2024-40725-CVE-2024-40898](https://github.com/TAM-K592/CVE-2024-40725-CVE-2024-40898)
 - [whiterose7777/CVE-2024-40725-CVE-2024-40898](https://github.com/whiterose7777/CVE-2024-40725-CVE-2024-40898)
 - [soltanali0/CVE-2024-40725](https://github.com/soltanali0/CVE-2024-40725)
+
+### CVE-2024-40815 (2024-07-29)
+
+<code>A race condition was addressed with additional validation. This issue is fixed in macOS Ventura 13.6.8, iOS 17.6 and iPadOS 17.6, watchOS 10.6, tvOS 17.6, macOS Sonoma 14.6. A malicious attacker with arbitrary read and write capability may be able to bypass Pointer Authentication.
+</code>
+
+- [w0wbox/CVE-2024-40815](https://github.com/w0wbox/CVE-2024-40815)
 
 ### CVE-2024-40892 (2024-08-12)
 
@@ -14817,6 +14831,13 @@
 </code>
 
 - [biscuitehh/cve-2023-40429-ez-device-name](https://github.com/biscuitehh/cve-2023-40429-ez-device-name)
+
+### CVE-2023-40448 (2023-09-26)
+
+<code>The issue was addressed with improved handling of protocols. This issue is fixed in tvOS 17, iOS 16.7 and iPadOS 16.7, watchOS 10, iOS 17 and iPadOS 17, macOS Sonoma 14. A remote attacker may be able to break out of Web Content sandbox.
+</code>
+
+- [w0wbox/CVE-2023-40448](https://github.com/w0wbox/CVE-2023-40448)
 
 ### CVE-2023-40459 (2023-12-04)
 
@@ -45701,6 +45722,7 @@
 </code>
 
 - [TheDarthMole/CVE-2017-14980](https://github.com/TheDarthMole/CVE-2017-14980)
+- [xn0kkx/Exploit_Sync_Breezev10.0.28_CVE-2017-14980](https://github.com/xn0kkx/Exploit_Sync_Breezev10.0.28_CVE-2017-14980)
 
 ### CVE-2017-15099 (2017-11-22)
 
