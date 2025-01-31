@@ -100,6 +100,20 @@
 
 - [bronsoneaver/CVE-2025-24085](https://github.com/bronsoneaver/CVE-2025-24085)
 
+### CVE-2025-24587 (2025-01-24)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in I Thirteen Web Solution Email Subscription Popup allows Blind SQL Injection. This issue affects Email Subscription Popup: from n/a through 1.2.23.
+</code>
+
+- [DoTTak/CVE-2025-24587](https://github.com/DoTTak/CVE-2025-24587)
+
+### CVE-2025-24659 (2025-01-24)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WordPress Download Manager Premium Packages allows Blind SQL Injection. This issue affects Premium Packages: from n/a through 5.9.6.
+</code>
+
+- [DoTTak/CVE-2025-24659](https://github.com/DoTTak/CVE-2025-24659)
+
 
 ## 2024
 ### CVE-2024-0012 (2024-11-18)
@@ -36286,6 +36300,7 @@
 - [jaiguptanick/CVE-2019-0232](https://github.com/jaiguptanick/CVE-2019-0232)
 - [xsxtw/CVE-2019-0232](https://github.com/xsxtw/CVE-2019-0232)
 - [Dharan10/CVE-2019-0232](https://github.com/Dharan10/CVE-2019-0232)
+- [iumiro/CVE-2019-0232](https://github.com/iumiro/CVE-2019-0232)
 
 ### CVE-2019-0539 (2019-01-08)
 
