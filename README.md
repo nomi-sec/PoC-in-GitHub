@@ -100,6 +100,13 @@
 
 - [bronsoneaver/CVE-2025-24085](https://github.com/bronsoneaver/CVE-2025-24085)
 
+### CVE-2025-24118 (2025-01-27)
+
+<code>The issue was addressed with improved memory handling. This issue is fixed in iPadOS 17.7.4, macOS Sequoia 15.3, macOS Sonoma 14.7.3. An app may be able to cause unexpected system termination or write kernel memory.
+</code>
+
+- [jprx/CVE-2025-24118](https://github.com/jprx/CVE-2025-24118)
+
 ### CVE-2025-24587 (2025-01-24)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in I Thirteen Web Solution Email Subscription Popup allows Blind SQL Injection. This issue affects Email Subscription Popup: from n/a through 1.2.23.
@@ -50526,6 +50533,13 @@
 - [n3rdh4x0r/CVE-2009-2265](https://github.com/n3rdh4x0r/CVE-2009-2265)
 - [p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265)
 - [0xDTC/Adobe-ColdFusion-8-RCE-CVE-2009-2265](https://github.com/0xDTC/Adobe-ColdFusion-8-RCE-CVE-2009-2265)
+
+### CVE-2009-2685 (2009-11-06)
+
+<code>Stack-based buffer overflow in the login form in the management web server in HP Power Manager allows remote attackers to execute arbitrary code via the Login variable.
+</code>
+
+- [rflemen/CVE-2009-2685](https://github.com/rflemen/CVE-2009-2685)
 
 ### CVE-2009-2692 (2009-08-14)
 
