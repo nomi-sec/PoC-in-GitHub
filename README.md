@@ -1919,6 +1919,13 @@
 
 - [EQSTLab/CVE-2024-8353](https://github.com/EQSTLab/CVE-2024-8353)
 
+### CVE-2024-8381 (2024-09-03)
+
+<code>A potentially exploitable type confusion could be triggered when looking up a property name on an object being used as the `with` environment. This vulnerability affects Firefox &lt; 130, Firefox ESR &lt; 128.2, Firefox ESR &lt; 115.15, Thunderbird &lt; 128.2, and Thunderbird &lt; 115.15.
+</code>
+
+- [bjrjk/CVE-2024-8381](https://github.com/bjrjk/CVE-2024-8381)
+
 ### CVE-2024-8484 (2024-09-25)
 
 <code>The REST API TO MiniProgram plugin for WordPress is vulnerable to SQL Injection via the 'order' parameter of the /wp-json/watch-life-net/v1/comment/getcomments REST API endpoint in all versions up to, and including, 4.7.1 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -8758,6 +8765,13 @@
 
 - [aaryan-11-x/CVE-2024-57487-and-CVE-2024-57488](https://github.com/aaryan-11-x/CVE-2024-57487-and-CVE-2024-57488)
 
+### CVE-2024-57514 (2025-01-28)
+
+<code>The TP-Link Archer A20 v3 router is vulnerable to Cross-site Scripting (XSS) due to improper handling of directory listing paths in the web interface. When a specially crafted URL is visited, the router's web page renders the directory listing and executes arbitrary JavaScript embedded in the URL. This allows the attacker to inject malicious code into the page, executing JavaScript on the victim's browser, which could then be used for further malicious actions. The vulnerability was identified in the 1.0.6 Build 20231011 rel.85717(5553) version.
+</code>
+
+- [rvizx/CVE-2024-57514](https://github.com/rvizx/CVE-2024-57514)
+
 ### CVE-2024-57522
 - [HackWidMaddy/CVE-2024-57522](https://github.com/HackWidMaddy/CVE-2024-57522)
 
@@ -10236,6 +10250,13 @@
 </code>
 
 - [Arszilla/CVE-2023-6538](https://github.com/Arszilla/CVE-2023-6538)
+
+### CVE-2023-6546 (2023-12-21)
+
+<code>A race condition was found in the GSM 0710 tty multiplexor in the Linux kernel. This issue occurs when two threads execute the GSMIOC_SETCONF ioctl on the same tty file descriptor with the gsm line discipline enabled, and can lead to a use-after-free problem on a struct gsm_dlci while restarting the gsm mux. This could allow a local unprivileged user to escalate their privileges on the system.
+</code>
+
+- [harithlab/CVE-2023-6546](https://github.com/harithlab/CVE-2023-6546)
 
 ### CVE-2023-6553 (2023-12-15)
 
@@ -34365,6 +34386,7 @@
 - [qianniaoge/CVE-2020-14882_Exploit_Gui](https://github.com/qianniaoge/CVE-2020-14882_Exploit_Gui)
 - [N0Coriander/CVE-2020-14882-14883](https://github.com/N0Coriander/CVE-2020-14882-14883)
 - [nik0nz7/CVE-2020-14882](https://github.com/nik0nz7/CVE-2020-14882)
+- [Root-Shells/CVE-2020-14882](https://github.com/Root-Shells/CVE-2020-14882)
 - [Danny-LLi/CVE-2020-14882](https://github.com/Danny-LLi/CVE-2020-14882)
 - [LucasPDiniz/CVE-2020-14882](https://github.com/LucasPDiniz/CVE-2020-14882)
 - [xMr110/CVE-2020-14882](https://github.com/xMr110/CVE-2020-14882)
