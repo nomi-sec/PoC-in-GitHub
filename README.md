@@ -93,6 +93,13 @@
 
 - [CRUNZEX/CVE-2025-22968](https://github.com/CRUNZEX/CVE-2025-22968)
 
+### CVE-2025-23040 (2025-01-15)
+
+<code>GitHub Desktop is an open-source Electron-based GitHub app designed for git development. An attacker convincing a user to clone a repository directly or through a submodule can allow the attacker access to the user's credentials through the use of maliciously crafted remote URL. GitHub Desktop relies on Git to perform all network related operations (such as cloning, fetching, and pushing). When a user attempts to clone a repository GitHub Desktop will invoke `git clone` and when Git encounters a remote which requires authentication it will request the credentials for that remote host from GitHub Desktop using the git-credential protocol. Using a maliciously crafted URL it's possible to cause the credential request coming from Git to be misinterpreted by Github Desktop such that it will send credentials for a different host than the host that Git is currently communicating with thereby allowing for secret exfiltration. GitHub username and OAuth token, or credentials for other Git remote hosts stored in GitHub Desktop could be improperly transmitted to an unrelated host. Users should update to GitHub Desktop 3.4.12 or greater which fixes this vulnerability. Users who suspect they may be affected should revoke any relevant credentials.
+</code>
+
+- [GabrieleDattile/CVE-2025-23040](https://github.com/GabrieleDattile/CVE-2025-23040)
+
 ### CVE-2025-24085 (2025-01-27)
 
 <code>A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
@@ -8733,6 +8740,9 @@
 </code>
 
 - [ipratheep/CVE-2024-56924](https://github.com/ipratheep/CVE-2024-56924)
+
+### CVE-2024-57175
+- [Ajmal101/CVE-2024-57175](https://github.com/Ajmal101/CVE-2024-57175)
 
 ### CVE-2024-57373 (2025-01-27)
 
@@ -50533,13 +50543,6 @@
 - [n3rdh4x0r/CVE-2009-2265](https://github.com/n3rdh4x0r/CVE-2009-2265)
 - [p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265)
 - [0xDTC/Adobe-ColdFusion-8-RCE-CVE-2009-2265](https://github.com/0xDTC/Adobe-ColdFusion-8-RCE-CVE-2009-2265)
-
-### CVE-2009-2685 (2009-11-06)
-
-<code>Stack-based buffer overflow in the login form in the management web server in HP Power Manager allows remote attackers to execute arbitrary code via the Login variable.
-</code>
-
-- [rflemen/CVE-2009-2685](https://github.com/rflemen/CVE-2009-2685)
 
 ### CVE-2009-2692 (2009-08-14)
 
