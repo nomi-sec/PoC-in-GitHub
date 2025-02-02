@@ -955,6 +955,7 @@
 - [workshop748/CVE-2024-3400](https://github.com/workshop748/CVE-2024-3400)
 - [nanwinata/CVE-2024-3400](https://github.com/nanwinata/CVE-2024-3400)
 - [XiaomingX/CVE-2024-3400-poc](https://github.com/XiaomingX/CVE-2024-3400-poc)
+- [drake044/SOC274-Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-CVE-2024-3400](https://github.com/drake044/SOC274-Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-CVE-2024-3400)
 
 ### CVE-2024-3435 (2024-05-16)
 
@@ -8324,6 +8325,9 @@
 
 - [ThottySploity/CVE-2024-53376](https://github.com/ThottySploity/CVE-2024-53376)
 
+### CVE-2024-53393
+- [alirezac0/CVE-2024-53393](https://github.com/alirezac0/CVE-2024-53393)
+
 ### CVE-2024-53407 (2025-01-15)
 
 <code>In Phiewer 4.1.0, a dylib injection leads to Command Execution which allow attackers to inject dylib file potentially leading to remote control and unauthorized access to sensitive user data.
@@ -8749,6 +8753,9 @@
 </code>
 
 - [absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit](https://github.com/absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit)
+
+### CVE-2024-56898
+- [DRAGOWN/CVE-2024-56898](https://github.com/DRAGOWN/CVE-2024-56898)
 
 ### CVE-2024-56924 (2025-01-22)
 
