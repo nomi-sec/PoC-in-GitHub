@@ -1532,6 +1532,7 @@
 </code>
 
 - [Abdurahmon3236/CVE-2024-6366](https://github.com/Abdurahmon3236/CVE-2024-6366)
+- [Nxploited/CVE-2024-6366-PoC](https://github.com/Nxploited/CVE-2024-6366-PoC)
 
 ### CVE-2024-6386 (2024-08-21)
 
@@ -8757,6 +8758,15 @@
 ### CVE-2024-56898
 - [DRAGOWN/CVE-2024-56898](https://github.com/DRAGOWN/CVE-2024-56898)
 
+### CVE-2024-56901
+- [DRAGOWN/CVE-2024-56901](https://github.com/DRAGOWN/CVE-2024-56901)
+
+### CVE-2024-56902
+- [DRAGOWN/CVE-2024-56902](https://github.com/DRAGOWN/CVE-2024-56902)
+
+### CVE-2024-56903
+- [DRAGOWN/CVE-2024-56903](https://github.com/DRAGOWN/CVE-2024-56903)
+
 ### CVE-2024-56924 (2025-01-22)
 
 <code>A Cross Site Request Forgery (CSRF) vulnerability in Code Astro Internet banking system 2.0.0 allows remote attackers to execute arbitrary JavaScript on the admin page (pages_account), potentially leading to unauthorized actions such as changing account settings or stealing sensitive user information. This vulnerability occurs due to improper validation of user requests, which enables attackers to exploit the system by tricking the admin user into executing malicious scripts.
@@ -14739,6 +14749,7 @@
 - [monke443/CVE-2023-40028-Ghost-Arbitrary-File-Read](https://github.com/monke443/CVE-2023-40028-Ghost-Arbitrary-File-Read)
 - [rvizx/CVE-2023-40028](https://github.com/rvizx/CVE-2023-40028)
 - [godylockz/CVE-2023-40028](https://github.com/godylockz/CVE-2023-40028)
+- [rehan6658/CVE-2023-40028](https://github.com/rehan6658/CVE-2023-40028)
 
 ### CVE-2023-40029 (2023-09-07)
 
@@ -45062,6 +45073,13 @@
 
 - [motikan2010/CVE-2017-8809_MediaWiki_RFD](https://github.com/motikan2010/CVE-2017-8809_MediaWiki_RFD)
 
+### CVE-2017-8869 (2017-07-27)
+
+<code>Buffer overflow in MediaCoder 0.8.48.5888 allows remote attackers to execute arbitrary code via a crafted .m3u file.
+</code>
+
+- [tankist0x01/CVE-2017-8869](https://github.com/tankist0x01/CVE-2017-8869)
+
 ### CVE-2017-8890 (2017-05-10)
 
 <code>The inet_csk_clone_lock function in net/ipv4/inet_connection_sock.c in the Linux kernel through 4.10.15 allows attackers to cause a denial of service (double free) or possibly have unspecified other impact by leveraging use of the accept system call.
@@ -48920,6 +48938,7 @@
 - [happynote3966/CVE-2014-3704](https://github.com/happynote3966/CVE-2014-3704)
 - [AleDiBen/Drupalgeddon](https://github.com/AleDiBen/Drupalgeddon)
 - [Neldeborg/Drupalgeddon-Python3](https://github.com/Neldeborg/Drupalgeddon-Python3)
+- [joaomorenorf/CVE-2014-3704](https://github.com/joaomorenorf/CVE-2014-3704)
 
 ### CVE-2014-4014 (2014-06-23)
 
