@@ -766,6 +766,7 @@
 - [kjdfklha/CVE-2024-2961_poc](https://github.com/kjdfklha/CVE-2024-2961_poc)
 - [kyotozx/CVE-2024-2961-Remote-File-Read](https://github.com/kyotozx/CVE-2024-2961-Remote-File-Read)
 - [4wayhandshake/CVE-2024-2961](https://github.com/4wayhandshake/CVE-2024-2961)
+- [omarelshopky/exploit_cve-2023-26326_using_cve-2024-2961](https://github.com/omarelshopky/exploit_cve-2023-26326_using_cve-2024-2961)
 
 ### CVE-2024-2997 (2024-03-27)
 
@@ -11730,6 +11731,13 @@
 
 - [mbadanoiu/CVE-2023-26269](https://github.com/mbadanoiu/CVE-2023-26269)
 
+### CVE-2023-26326 (2023-02-23)
+
+<code>The BuddyForms WordPress plugin, in versions prior to 2.7.8, was affected by an unauthenticated insecure deserialization issue. An unauthenticated attacker could leverage this issue to call files using a PHAR wrapper that will deserialize the data and call arbitrary PHP Objects that can be used to perform a variety of malicious actions granted a POP chain is also present.
+</code>
+
+- [omarelshopky/exploit_cve-2023-26326_using_cve-2024-2961](https://github.com/omarelshopky/exploit_cve-2023-26326_using_cve-2024-2961)
+
 ### CVE-2023-26360 (2023-03-23)
 
 <code>Adobe ColdFusion versions 2018 Update 15 (and earlier) and 2021 Update 5 (and earlier) are affected by an Improper Access Control vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue does not require user interaction.
@@ -15164,7 +15172,6 @@
 </code>
 
 - [kirinse/cve-2023-42115](https://github.com/kirinse/cve-2023-42115)
-- [AdaHop-Cyber-Security/Pocy](https://github.com/AdaHop-Cyber-Security/Pocy)
 
 ### CVE-2023-42222 (2023-09-28)
 
