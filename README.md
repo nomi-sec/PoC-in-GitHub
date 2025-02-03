@@ -24,13 +24,6 @@
 - [CastroJared/7-Zip-CVE-2025-0411-POC](https://github.com/CastroJared/7-Zip-CVE-2025-0411-POC)
 - [iSee857/CVE-2025-0411-PoC](https://github.com/iSee857/CVE-2025-0411-PoC)
 
-### CVE-2025-0929 (2025-01-31)
-
-<code>SQL injection vulnerability in TeamCal Neo, version 3.8.2. This could allow an attacker to retrieve, update and delete all database information by injecting a malicious SQL statement via the ‘abs’ parameter in ‘/teamcal/src/index.php’.
-</code>
-
-- [McTavishSue/CVE-2025-0929](https://github.com/McTavishSue/CVE-2025-0929)
-
 ### CVE-2025-510
 - [g0v3lla/CVE-2025-510T](https://github.com/g0v3lla/CVE-2025-510T)
 
@@ -19394,6 +19387,7 @@
 - [xsxtw/SpringFramework_CVE-2022-22965_RCE](https://github.com/xsxtw/SpringFramework_CVE-2022-22965_RCE)
 - [Aur3ns/Block-Spring4Shell](https://github.com/Aur3ns/Block-Spring4Shell)
 - [guigui237/Expoitation-de-la-vuln-rabilit-CVE-2022-22965](https://github.com/guigui237/Expoitation-de-la-vuln-rabilit-CVE-2022-22965)
+- [jashan-lefty/Spring4Shell](https://github.com/jashan-lefty/Spring4Shell)
 
 ### CVE-2022-22966 (2022-04-14)
 
