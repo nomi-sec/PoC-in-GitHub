@@ -8768,7 +8768,11 @@
 
 - [ipratheep/CVE-2024-56924](https://github.com/ipratheep/CVE-2024-56924)
 
-### CVE-2024-57175
+### CVE-2024-57175 (2025-02-03)
+
+<code>A Stored Cross-Site Scripting (XSS) vulnerability was identified in the PHPGURUKUL Online Birth Certificate System v1.0 via the profile name to /user/certificate-form.php.
+</code>
+
 - [Ajmal101/CVE-2024-57175](https://github.com/Ajmal101/CVE-2024-57175)
 
 ### CVE-2024-57373 (2025-01-27)
@@ -8792,7 +8796,11 @@
 
 - [rvizx/CVE-2024-57514](https://github.com/rvizx/CVE-2024-57514)
 
-### CVE-2024-57522
+### CVE-2024-57522 (2025-02-03)
+
+<code>SourceCodester Packers and Movers Management System v1.0 is vulnerable to Cross Site Scripting (XSS) in Users.php. An attacker can inject a malicious script into the username or name field during user creation.
+</code>
+
 - [HackWidMaddy/CVE-2024-57522](https://github.com/HackWidMaddy/CVE-2024-57522)
 
 ### CVE-2024-57523
@@ -43953,6 +43961,7 @@
 - [DenuwanJayasekara/CVE-Exploitation-Reports](https://github.com/DenuwanJayasekara/CVE-Exploitation-Reports)
 - [sethwhy/BlueDoor](https://github.com/sethwhy/BlueDoor)
 - [AtithKhawas/autoblue](https://github.com/AtithKhawas/autoblue)
+- [MedX267/EternalBlue-Vulnerability-Scanner](https://github.com/MedX267/EternalBlue-Vulnerability-Scanner)
 
 ### CVE-2017-0145 (2017-03-17)
 
@@ -50044,6 +50053,13 @@
 
 - [mpgn/CRIME-poc](https://github.com/mpgn/CRIME-poc)
 - [anthophilee/A2SV--SSL-VUL-Scan](https://github.com/anthophilee/A2SV--SSL-VUL-Scan)
+
+### CVE-2012-4960 (2013-06-20)
+
+<code>The Huawei NE5000E, MA5200G, NE40E, NE80E, ATN, NE40, NE80, NE20E-X6, NE20, ME60, CX600, CX200, CX300, ACU, WLAN AC 6605, S9300, S7700, S2300, S3300, S5300, S3300HI, S5300HI, S5306, S6300, S2700, S3700, S5700, S6700, AR G3, H3C AR(OEM IN), AR 19, AR 29, AR 49, Eudemon100E, Eudemon200, Eudemon300, Eudemon500, Eudemon1000, Eudemon1000E-U/USG5300, Eudemon1000E-X/USG5500, Eudemon8080E/USG9300, Eudemon8160E/USG9300, Eudemon8000E-X/USG9500, E200E-C/USG2200, E200E-X3/USG2200, E200E-X5/USG2200, E200E-X7/USG2200, E200E-C/USG5100, E200E-X3/USG5100, E200E-X5/USG5100, E200E-X7/USG5100, E200E-B/USG2100, E200E-X1/USG2100, E200E-X2/USG2100, SVN5300, SVN2000, SVN5000, SVN3000, NIP100, NIP200, NIP1000, NIP2100, NIP2200, and NIP5100 use the DES algorithm for stored passwords, which makes it easier for context-dependent attackers to obtain cleartext passwords via a brute-force attack.
+</code>
+
+- [ghcohu/Decrypt-passwords-for-Huawei-routers-and-switches-CVE-2012-4960](https://github.com/ghcohu/Decrypt-passwords-for-Huawei-routers-and-switches-CVE-2012-4960)
 
 ### CVE-2012-5106 (2014-06-20)
 
