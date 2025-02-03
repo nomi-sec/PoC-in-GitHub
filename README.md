@@ -2483,6 +2483,7 @@
 - [D1se0/CVE-2024-10924-Bypass-MFA-Wordpress-LAB](https://github.com/D1se0/CVE-2024-10924-Bypass-MFA-Wordpress-LAB)
 - [Hunt3r850/CVE-2024-10924-PoC](https://github.com/Hunt3r850/CVE-2024-10924-PoC)
 - [Hunt3r850/CVE-2024-10924-Wordpress-Docker](https://github.com/Hunt3r850/CVE-2024-10924-Wordpress-Docker)
+- [Nxploited/CVE-2024-10924-Exploit](https://github.com/Nxploited/CVE-2024-10924-Exploit)
 
 ### CVE-2024-10958 (2024-11-10)
 
@@ -29279,6 +29280,7 @@
 - [redspy-sec/CVE-2021-41773](https://github.com/redspy-sec/CVE-2021-41773)
 - [FakesiteSecurity/CVE-2021-41773](https://github.com/FakesiteSecurity/CVE-2021-41773)
 - [Taldrid1/cve-2021-41773](https://github.com/Taldrid1/cve-2021-41773)
+- [tiemio/SSH-key-and-RCE-PoC-for-CVE-2021-41773](https://github.com/tiemio/SSH-key-and-RCE-PoC-for-CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -30790,7 +30792,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Multiple-Privilege-Escalation-Leads-to-CRUD-Operations](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Privilege-Escalation-Leads-to-CRUD-Operations)
-- [plsanu/CVE-2021-46075](https://github.com/plsanu/CVE-2021-46075)
 
 ### CVE-2021-46076 (2022-01-06)
 
@@ -43385,6 +43386,13 @@
 
 - [cyberharsh/Mini_httpd-CVE-2018-18778](https://github.com/cyberharsh/Mini_httpd-CVE-2018-18778)
 - [auk0x01/CVE-2018-18778-Scanner](https://github.com/auk0x01/CVE-2018-18778-Scanner)
+
+### CVE-2018-18820 (2018-11-05)
+
+<code>A buffer overflow was discovered in the URL-authentication backend of the Icecast before 2.4.4. If the backend is enabled, then any malicious HTTP client can send a request for that specific resource including a crafted header, leading to denial of service and potentially remote code execution.
+</code>
+
+- [impulsiveness/CVE-2018-18820](https://github.com/impulsiveness/CVE-2018-18820)
 
 ### CVE-2018-18852 (2019-06-18)
 
