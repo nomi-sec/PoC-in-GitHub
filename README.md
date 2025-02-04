@@ -2768,6 +2768,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-12542](https://github.com/RandomRobbieBF/CVE-2024-12542)
+- [Nxploited/CVE-2024-12542-PoC](https://github.com/Nxploited/CVE-2024-12542-PoC)
 
 ### CVE-2024-12558 (2024-12-21)
 
@@ -7492,7 +7493,7 @@
 - [skyalliance/exploit-cve-2024-47575](https://github.com/skyalliance/exploit-cve-2024-47575)
 - [expl0itsecurity/CVE-2024-47575](https://github.com/expl0itsecurity/CVE-2024-47575)
 - [XiaomingX/cve-2024-47575-exp](https://github.com/XiaomingX/cve-2024-47575-exp)
-- [Laonhearts/CVE-2024-47575-POC](https://github.com/Laonhearts/CVE-2024-47575-POC)
+- [Raygrants/CVE-2024-47575-POC](https://github.com/Raygrants/CVE-2024-47575-POC)
 
 ### CVE-2024-47854 (2024-10-04)
 
@@ -45850,7 +45851,7 @@
 </code>
 
 - [TheDarthMole/CVE-2017-14980](https://github.com/TheDarthMole/CVE-2017-14980)
-- [xn0kkx/Exploit_Sync_Breezev10.0.28_CVE-2017-14980](https://github.com/xn0kkx/Exploit_Sync_Breezev10.0.28_CVE-2017-14980)
+- [xn0kkx/Exploit_Sync_Breeze_v10.0.28_CVE-2017-14980](https://github.com/xn0kkx/Exploit_Sync_Breeze_v10.0.28_CVE-2017-14980)
 
 ### CVE-2017-15099 (2017-11-22)
 
