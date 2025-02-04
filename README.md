@@ -4039,7 +4039,7 @@
 - [0xans/CVE-2024-24919](https://github.com/0xans/CVE-2024-24919)
 - [Tim-Hoekstra/CVE-2024-24919](https://github.com/Tim-Hoekstra/CVE-2024-24919)
 - [starlox0/CVE-2024-24919-POC](https://github.com/starlox0/CVE-2024-24919-POC)
-- [ronniensale/CVE-2024-24919-Exploit](https://github.com/ronniensale/CVE-2024-24919-Exploit)
+- [nullcult/CVE-2024-24919-Exploit](https://github.com/nullcult/CVE-2024-24919-Exploit)
 - [satchhacker/cve-2024-24919](https://github.com/satchhacker/cve-2024-24919)
 - [verylazytech/CVE-2024-24919](https://github.com/verylazytech/CVE-2024-24919)
 - [protonnegativo/CVE-2024-24919](https://github.com/protonnegativo/CVE-2024-24919)
@@ -8806,6 +8806,18 @@
 
 - [cypherdavy/CVE-2024-57373](https://github.com/cypherdavy/CVE-2024-57373)
 
+### CVE-2024-57427
+- [ahrixia/CVE-2024-57427](https://github.com/ahrixia/CVE-2024-57427)
+
+### CVE-2024-57428
+- [ahrixia/CVE-2024-57428](https://github.com/ahrixia/CVE-2024-57428)
+
+### CVE-2024-57429
+- [ahrixia/CVE-2024-57429](https://github.com/ahrixia/CVE-2024-57429)
+
+### CVE-2024-57430
+- [ahrixia/CVE-2024-57430](https://github.com/ahrixia/CVE-2024-57430)
+
 ### CVE-2024-57487 (2025-01-13)
 
 <code>In Code-Projects Online Car Rental System 1.0, the file upload feature does not validate file extensions or MIME types allowing an attacker to upload a PHP shell without any restrictions and execute commands on the server.
@@ -11727,6 +11739,7 @@
 - [CUCUMBERanOrSNCompany/SealSecurityAssignment](https://github.com/CUCUMBERanOrSNCompany/SealSecurityAssignment)
 - [ronmadar/Open-Source-Seal-Security](https://github.com/ronmadar/Open-Source-Seal-Security)
 - [m-lito13/SealSecurity_Exam](https://github.com/m-lito13/SealSecurity_Exam)
+- [dani33339/tough-cookie-Seal-Security](https://github.com/dani33339/tough-cookie-Seal-Security)
 
 ### CVE-2023-26144 (2023-09-20)
 
@@ -30465,6 +30478,7 @@
 - [AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-](https://github.com/AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-)
 - [Super-Binary/cve-2021-44228](https://github.com/Super-Binary/cve-2021-44228)
 - [ZacharyZcR/CVE-2021-44228](https://github.com/ZacharyZcR/CVE-2021-44228)
+- [qw3rtyou/CVE-2021-44228_dockernize](https://github.com/qw3rtyou/CVE-2021-44228_dockernize)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -30825,7 +30839,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Code-Execution](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Code-Execution)
-- [plsanu/CVE-2021-46076](https://github.com/plsanu/CVE-2021-46076)
 
 ### CVE-2021-46078 (2022-01-06)
 
@@ -36973,6 +36986,7 @@
 - [R0rt1z2/huawei-unlock](https://github.com/R0rt1z2/huawei-unlock)
 - [raymontag/CVE-2019-2215](https://github.com/raymontag/CVE-2019-2215)
 - [XiaozaYa/CVE-2019-2215](https://github.com/XiaozaYa/CVE-2019-2215)
+- [llccd/TempRoot-Huawei](https://github.com/llccd/TempRoot-Huawei)
 
 ### CVE-2019-2525 (2019-01-16)
 
