@@ -21,7 +21,6 @@
 </code>
 
 - [dhmosfunk/7-Zip-CVE-2025-0411-POC](https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC)
-- [CastroJared/7-Zip-CVE-2025-0411-POC](https://github.com/CastroJared/7-Zip-CVE-2025-0411-POC)
 - [iSee857/CVE-2025-0411-PoC](https://github.com/iSee857/CVE-2025-0411-PoC)
 
 ### CVE-2025-510
@@ -767,6 +766,7 @@
 - [kyotozx/CVE-2024-2961-Remote-File-Read](https://github.com/kyotozx/CVE-2024-2961-Remote-File-Read)
 - [4wayhandshake/CVE-2024-2961](https://github.com/4wayhandshake/CVE-2024-2961)
 - [omarelshopky/exploit_cve-2023-26326_using_cve-2024-2961](https://github.com/omarelshopky/exploit_cve-2023-26326_using_cve-2024-2961)
+- [suce0155/CVE-2024-2961_buddyforms_2.7.7](https://github.com/suce0155/CVE-2024-2961_buddyforms_2.7.7)
 
 ### CVE-2024-2997 (2024-03-27)
 
@@ -1316,13 +1316,6 @@
 
 - [sinsinology/CVE-2024-5009](https://github.com/sinsinology/CVE-2024-5009)
 - [th3gokul/CVE-2024-5009](https://github.com/th3gokul/CVE-2024-5009)
-
-### CVE-2024-5057 (2024-08-29)
-
-<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Easy Digital Downloads allows SQL Injection.This issue affects Easy Digital Downloads: from n/a through 3.2.12.
-</code>
-
-- [bash3rt3am/poc-cve](https://github.com/bash3rt3am/poc-cve)
 
 ### CVE-2024-5084 (2024-05-23)
 
@@ -8842,6 +8835,12 @@
 ### CVE-2024-57523
 - [HackWidMaddy/CVE-2024-57523.](https://github.com/HackWidMaddy/CVE-2024-57523.)
 
+### CVE-2024-57609
+- [nca785/CVE-2024-57609](https://github.com/nca785/CVE-2024-57609)
+
+### CVE-2024-57610
+- [nca785/CVE-2024-57610](https://github.com/nca785/CVE-2024-57610)
+
 ### CVE-2024-57727 (2025-01-15)
 
 <code>SimpleHelp remote support software v5.5.7 and before is vulnerable to multiple path traversal vulnerabilities that enable unauthenticated remote attackers to download arbitrary files from the SimpleHelp host via crafted HTTP requests. These files include server configuration files containing various secrets and hashed user passwords.
@@ -9822,7 +9821,6 @@
 </code>
 
 - [xcanwin/CVE-2023-4357-Chrome-XXE](https://github.com/xcanwin/CVE-2023-4357-Chrome-XXE)
-- [OgulcanUnveren/CVE-2023-4357-APT-Style-exploitation](https://github.com/OgulcanUnveren/CVE-2023-4357-APT-Style-exploitation)
 - [passwa11/CVE-2023-4357-APT-Style-exploitation](https://github.com/passwa11/CVE-2023-4357-APT-Style-exploitation)
 - [sunu11/chrome-CVE-2023-4357](https://github.com/sunu11/chrome-CVE-2023-4357)
 - [WinnieZy/CVE-2023-4357](https://github.com/WinnieZy/CVE-2023-4357)
@@ -10894,7 +10892,6 @@
 - [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
 - [RonF98/CVE-2023-21716-POC](https://github.com/RonF98/CVE-2023-21716-POC)
-- [bash3rt3am/poc-cve](https://github.com/bash3rt3am/poc-cve)
 
 ### CVE-2023-21739 (2023-01-10)
 
@@ -27511,13 +27508,6 @@
 
 - [irql/CVE-2021-31728](https://github.com/irql/CVE-2021-31728)
 
-### CVE-2021-31755 (2021-05-07)
-
-<code>An issue was discovered on Tenda AC11 devices with firmware through 02.03.01.104_CN. A stack buffer overflow vulnerability in /goform/setmac allows attackers to execute arbitrary code on the system via a crafted post request.
-</code>
-
-- [bash3rt3am/poc-cve](https://github.com/bash3rt3am/poc-cve)
-
 ### CVE-2021-31760 (2021-04-25)
 
 <code>Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to achieve Remote Command Execution (RCE) through Webmin's running process feature.
@@ -30839,6 +30829,7 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Code-Execution](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Code-Execution)
+- [plsanu/CVE-2021-46076](https://github.com/plsanu/CVE-2021-46076)
 
 ### CVE-2021-46078 (2022-01-06)
 
@@ -31973,7 +31964,6 @@
 - [Warelock/cve-2020-1938](https://github.com/Warelock/cve-2020-1938)
 - [WHtig3r/CVE-2020-1938](https://github.com/WHtig3r/CVE-2020-1938)
 - [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro)
-- [bash3rt3am/poc-cve](https://github.com/bash3rt3am/poc-cve)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -38369,13 +38359,6 @@
 </code>
 
 - [Insecurities/CVE-2019-11224](https://github.com/Insecurities/CVE-2019-11224)
-
-### CVE-2019-11248 (2019-08-29)
-
-<code>The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet healthz port. The go pprof endpoint is exposed over the Kubelet's healthz port. This debugging endpoint can potentially leak sensitive information such as internal Kubelet memory addresses and configuration, or for limited denial of service. Versions prior to 1.15.0, 1.14.4, 1.13.8, and 1.12.10 are affected. The issue is of medium severity, but not exposed by the default configuration.
-</code>
-
-- [bash3rt3am/poc-cve](https://github.com/bash3rt3am/poc-cve)
 
 ### CVE-2019-11358 (2019-04-19)
 
@@ -51465,13 +51448,6 @@
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
-
-### CVE-2001-1473 (2005-04-21)
-
-<code>The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target.
-</code>
-
-- [bash3rt3am/poc-cve](https://github.com/bash3rt3am/poc-cve)
 
 ### CVE-2001-3389
 - [becrevex/Gaston](https://github.com/becrevex/Gaston)
