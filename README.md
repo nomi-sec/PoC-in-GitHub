@@ -129,6 +129,13 @@
 
 - [DoTTak/CVE-2025-24659](https://github.com/DoTTak/CVE-2025-24659)
 
+### CVE-2025-25062 (2025-02-03)
+
+<code>An XSS issue was discovered in Backdrop CMS 1.28.x before 1.28.5 and 1.29.x before 1.29.3. It doesn't sufficiently isolate long text content when the CKEditor 5 rich text editor is used. This allows a potential attacker to craft specialized HTML and JavaScript that may be executed when an administrator attempts to edit a piece of content. This vulnerability is mitigated by the fact that an attacker must have the ability to create long text content (such as through the node or comment forms) and an administrator must edit (not view) the content that contains the malicious content. This problem only exists when using the CKEditor 5 module.
+</code>
+
+- [rhburt/CVE-2025-25062](https://github.com/rhburt/CVE-2025-25062)
+
 
 ## 2024
 ### CVE-2024-0012 (2024-11-18)
@@ -4031,7 +4038,7 @@
 - [0xans/CVE-2024-24919](https://github.com/0xans/CVE-2024-24919)
 - [Tim-Hoekstra/CVE-2024-24919](https://github.com/Tim-Hoekstra/CVE-2024-24919)
 - [starlox0/CVE-2024-24919-POC](https://github.com/starlox0/CVE-2024-24919-POC)
-- [nullcult/CVE-2024-24919-Exploit](https://github.com/nullcult/CVE-2024-24919-Exploit)
+- [ronniensale/CVE-2024-24919-Exploit](https://github.com/ronniensale/CVE-2024-24919-Exploit)
 - [satchhacker/cve-2024-24919](https://github.com/satchhacker/cve-2024-24919)
 - [verylazytech/CVE-2024-24919](https://github.com/verylazytech/CVE-2024-24919)
 - [protonnegativo/CVE-2024-24919](https://github.com/protonnegativo/CVE-2024-24919)
@@ -8749,16 +8756,32 @@
 
 - [absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit](https://github.com/absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit)
 
-### CVE-2024-56898
+### CVE-2024-56898 (2025-02-03)
+
+<code>Incorrect access control in Geovision GV-ASWeb version 6.1.0.0 or less allows unauthorized attackers with low-level privileges to manage and create new user accounts via supplying a crafted HTTP request.
+</code>
+
 - [DRAGOWN/CVE-2024-56898](https://github.com/DRAGOWN/CVE-2024-56898)
 
-### CVE-2024-56901
+### CVE-2024-56901 (2025-02-03)
+
+<code>A Cross-Site Request Forgery (CSRF) in the Account Management component of Geovision GV-ASWeb version 6.1.1.0 or less allows attackers to arbitrarily create Admin accounts via a crafted GET request method.
+</code>
+
 - [DRAGOWN/CVE-2024-56901](https://github.com/DRAGOWN/CVE-2024-56901)
 
-### CVE-2024-56902
+### CVE-2024-56902 (2025-02-03)
+
+<code>An issue in Geovision GV-ASWeb with version 6.1.0.0 or less allows unauthorized attackers with low-level privileges to be able to request information about other accounts via a crafted HTTP request.
+</code>
+
 - [DRAGOWN/CVE-2024-56902](https://github.com/DRAGOWN/CVE-2024-56902)
 
-### CVE-2024-56903
+### CVE-2024-56903 (2025-02-03)
+
+<code>A Cross-Site Request Forgery (CSRF) in Geovision GV-ASWeb with the version 6.1.1.0 or less allows attackers to execute arbitrary operations via supplying a crafted HTTP request.
+</code>
+
 - [DRAGOWN/CVE-2024-56903](https://github.com/DRAGOWN/CVE-2024-56903)
 
 ### CVE-2024-56924 (2025-01-22)
