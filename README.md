@@ -11737,6 +11737,7 @@
 - [ronmadar/Open-Source-Seal-Security](https://github.com/ronmadar/Open-Source-Seal-Security)
 - [m-lito13/SealSecurity_Exam](https://github.com/m-lito13/SealSecurity_Exam)
 - [dani33339/tough-cookie-Seal-Security](https://github.com/dani33339/tough-cookie-Seal-Security)
+- [dani33339/tough-cookie-SealSecurity](https://github.com/dani33339/tough-cookie-SealSecurity)
 
 ### CVE-2023-26144 (2023-09-20)
 
@@ -45968,14 +45969,14 @@
 
 ### CVE-2017-16567 (2017-11-09)
 
-<code>Cross-site scripting (XSS) vulnerability in Logitech Media Server 7.9.0 allows remote attackers to inject arbitrary web script or HTML via a &quot;favorite.&quot;
+<code>Persistent Cross-Site Scripting (XSS) vulnerability in Logitech Media Server 7.9.0, affecting the &quot;Favorites&quot; feature. This vulnerability allows remote attackers to inject and permanently store malicious JavaScript payloads, which are executed when users access the affected functionality. Exploitation of this vulnerability can lead to Session Hijacking and Credential Theft, Execution of unauthorized actions on behalf of users, and Exfiltration of sensitive data. This vulnerability presents a potential risk for widespread exploitation in connected IoT environments.
 </code>
 
 - [dewankpant/CVE-2017-16567](https://github.com/dewankpant/CVE-2017-16567)
 
 ### CVE-2017-16568 (2017-11-09)
 
-<code>Cross-site scripting (XSS) vulnerability in Logitech Media Server 7.9.0 allows remote attackers to inject arbitrary web script or HTML via a radio URL.
+<code>Persistent Cross-Site Scripting (XSS) vulnerability in Logitech Media Server 7.9.0, affecting the &quot;Radio&quot; functionality. This vulnerability allows attackers to inject malicious JavaScript payloads, which become permanently stored on the server and execute when a user plays the compromised radio stream. Exploitation of this vulnerability can lead to Session hijacking and unauthorized access, Persistent manipulation of web content within the application, and Phishing or malicious redirects to external domains. This vulnerability can be exploited to manipulate media server behavior in enterprise and home network environments.
 </code>
 
 - [dewankpant/CVE-2017-16568](https://github.com/dewankpant/CVE-2017-16568)
