@@ -618,6 +618,13 @@
 - [AhmedMansour93/Event-ID-229-Rule-Name-SOC262-CVE-2024-1709-](https://github.com/AhmedMansour93/Event-ID-229-Rule-Name-SOC262-CVE-2024-1709-)
 - [AMRICHASFUCK/Mass-CVE-2024-1709](https://github.com/AMRICHASFUCK/Mass-CVE-2024-1709)
 
+### CVE-2024-1728 (2024-04-10)
+
+<code>gradio-app/gradio is vulnerable to a local file inclusion vulnerability due to improper validation of user-supplied input in the UploadButton component. Attackers can exploit this vulnerability to read arbitrary files on the filesystem, such as private SSH keys, by manipulating the file path in the request to the `/queue/join` endpoint. This issue could potentially lead to remote code execution. The vulnerability is present in the handling of file upload paths, allowing attackers to redirect file uploads to unintended locations on the server.
+</code>
+
+- [yuanmeng-MINGI/CVE-2024-1728](https://github.com/yuanmeng-MINGI/CVE-2024-1728)
+
 ### CVE-2024-1781 (2024-02-23)
 
 <code>Eine Schwachstelle wurde in Totolink X6000R AX3000 9.4.0cu.852_20230719 ausgemacht. Sie wurde als kritisch eingestuft. Betroffen davon ist die Funktion setWizardCfg der Datei /cgi-bin/cstecgi.cgi der Komponente shttpd. Dank der Manipulation mit unbekannten Daten kann eine command injection-Schwachstelle ausgenutzt werden. Der Exploit steht zur öffentlichen Verfügung.
@@ -2477,6 +2484,7 @@
 - [Hunt3r850/CVE-2024-10924-PoC](https://github.com/Hunt3r850/CVE-2024-10924-PoC)
 - [Hunt3r850/CVE-2024-10924-Wordpress-Docker](https://github.com/Hunt3r850/CVE-2024-10924-Wordpress-Docker)
 - [Nxploited/CVE-2024-10924-Exploit](https://github.com/Nxploited/CVE-2024-10924-Exploit)
+- [cy3erdr4g0n/CVE-2024-10924](https://github.com/cy3erdr4g0n/CVE-2024-10924)
 
 ### CVE-2024-10958 (2024-11-10)
 
@@ -4046,6 +4054,7 @@
 - [skyrowalker/CVE-2024-24919](https://github.com/skyrowalker/CVE-2024-24919)
 - [sar-3mar/CVE-2024-24919_POC](https://github.com/sar-3mar/CVE-2024-24919_POC)
 - [NingXin2002/Check-Point_poc](https://github.com/NingXin2002/Check-Point_poc)
+- [drake044/SOC_287](https://github.com/drake044/SOC_287)
 
 ### CVE-2024-24926 (2024-02-12)
 
@@ -7501,6 +7510,13 @@
 </code>
 
 - [MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854)
+
+### CVE-2024-47875 (2024-10-11)
+
+<code>DOMPurify is a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMpurify was vulnerable to nesting-based mXSS. This vulnerability is fixed in 2.5.0 and 3.1.3.
+</code>
+
+- [daikinitanda/-CVE-2024-47875-](https://github.com/daikinitanda/-CVE-2024-47875-)
 
 ### CVE-2024-48197 (2025-01-02)
 
@@ -43766,6 +43782,7 @@
 - [natpakun/SSRF-CVE-2018-25031-](https://github.com/natpakun/SSRF-CVE-2018-25031-)
 - [KonEch0/CVE-2018-25031-SG](https://github.com/KonEch0/CVE-2018-25031-SG)
 - [Proklinius897/CVE-2018-25031-tests](https://github.com/Proklinius897/CVE-2018-25031-tests)
+- [MMAKINGDOM/CVE-2018-25031](https://github.com/MMAKINGDOM/CVE-2018-25031)
 
 ### CVE-2018-25032 (2022-03-25)
 
