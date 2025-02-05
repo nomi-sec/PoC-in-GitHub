@@ -1512,13 +1512,6 @@
 
 - [j3r1ch0123/CVE-2024-6205](https://github.com/j3r1ch0123/CVE-2024-6205)
 
-### CVE-2024-6222 (2024-07-09)
-
-<code>In Docker Desktop before v4.29.0, an attacker who has gained access to the Docker Desktop VM through a container breakout can further escape to the host by passing extensions and dashboard related IPC messages.\n\nDocker Desktop  v4.29.0 https://docs.docker.com/desktop/release-notes/#4290  fixes the issue on MacOS, Linux and Windows with Hyper-V backend.\n\nAs exploitation requires &quot;Allow only extensions distributed through the Docker Marketplace&quot; to be disabled, Docker Desktop  v4.31.0 https://docs.docker.com/desktop/release-notes/#4310  additionally changes the default configuration to enable this setting by default.
-</code>
-
-- [Florian-Hoth/CVE-2024-6222](https://github.com/Florian-Hoth/CVE-2024-6222)
-
 ### CVE-2024-6330 (2024-08-19)
 
 <code>The GEO my WP WordPress plugin before 4.5.0.2 does not prevent unauthenticated attackers from including arbitrary files in PHP's execution context, which leads to Remote Code Execution.
@@ -1801,7 +1794,11 @@
 - [D3N14LD15K/CVE-2024-7593_PoC_Exploit](https://github.com/D3N14LD15K/CVE-2024-7593_PoC_Exploit)
 - [skyrowalker/CVE-2024-7593](https://github.com/skyrowalker/CVE-2024-7593)
 
-### CVE-2024-7595
+### CVE-2024-7595 (2025-02-05)
+
+<code>GRE and GRE6 Protocols (RFC2784) do not validate or verify the source of a network packet allowing an attacker to spoof and route arbitrary traffic via an exposed network interface that can lead to spoofing, access control bypass, and other unexpected network behaviors.\r\n\r\nThis can be considered similar to CVE-2020-10136.
+</code>
+
 - [PapayaJackal/ipeeyoupeewepee](https://github.com/PapayaJackal/ipeeyoupeewepee)
 - [GustavoHGP/ipeeyoupeewepee](https://github.com/GustavoHGP/ipeeyoupeewepee)
 
@@ -1871,6 +1868,7 @@
 - [issamjr/CVE-2024-7954](https://github.com/issamjr/CVE-2024-7954)
 - [zxj-hub/CVE-2024-7954POC](https://github.com/zxj-hub/CVE-2024-7954POC)
 - [0dayan0n/RCE_CVE-2024-7954-](https://github.com/0dayan0n/RCE_CVE-2024-7954-)
+- [Arthikw3b/RCE-CVE-2024-7954](https://github.com/Arthikw3b/RCE-CVE-2024-7954)
 
 ### CVE-2024-7965 (2024-08-21)
 
@@ -6002,7 +6000,6 @@
 </code>
 
 - [mahmutaymahmutay/CVE-2024-37085](https://github.com/mahmutaymahmutay/CVE-2024-37085)
-- [Florian-Hoth/CVE-2024-37085-RCE-POC](https://github.com/Florian-Hoth/CVE-2024-37085-RCE-POC)
 - [WTN-arny/Vmware-ESXI](https://github.com/WTN-arny/Vmware-ESXI)
 - [WTN-arny/CVE-2024-37085](https://github.com/WTN-arny/CVE-2024-37085)
 
@@ -6190,13 +6187,6 @@
 
 - [pwndorei/CVE-2024-38080](https://github.com/pwndorei/CVE-2024-38080)
 
-### CVE-2024-38100 (2024-07-09)
-
-<code>Windows File Explorer Elevation of Privilege Vulnerability
-</code>
-
-- [Florian-Hoth/CVE-2024-38100-RCE-POC](https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC)
-
 ### CVE-2024-38124 (2024-10-08)
 
 <code>Windows Netlogon Elevation of Privilege Vulnerability
@@ -6210,6 +6200,13 @@
 </code>
 
 - [pwndorei/CVE-2024-38127](https://github.com/pwndorei/CVE-2024-38127)
+
+### CVE-2024-38143 (2024-08-13)
+
+<code>Windows WLAN AutoConfig Service Elevation of Privilege Vulnerability
+</code>
+
+- [johnjhacking/CVE-2024-38143](https://github.com/johnjhacking/CVE-2024-38143)
 
 ### CVE-2024-38144 (2024-08-13)
 
@@ -15125,6 +15122,7 @@
 - [Diegomjx/CVE-2023-41425-WonderCMS-Authenticated-RCE](https://github.com/Diegomjx/CVE-2023-41425-WonderCMS-Authenticated-RCE)
 - [0x0d3ad/CVE-2023-41425](https://github.com/0x0d3ad/CVE-2023-41425)
 - [xpltive/CVE-2023-41425](https://github.com/xpltive/CVE-2023-41425)
+- [KGorbakon/CVE-2023-41425](https://github.com/KGorbakon/CVE-2023-41425)
 
 ### CVE-2023-41436 (2023-09-15)
 
@@ -33611,7 +33609,7 @@
 - [Snorlyd/https-nj.gov---CVE-2020-11023](https://github.com/Snorlyd/https-nj.gov---CVE-2020-11023)
 - [Cybernegro/CVE-2020-11023](https://github.com/Cybernegro/CVE-2020-11023)
 - [andreassundstrom/cve-2020-11023-demonstration](https://github.com/andreassundstrom/cve-2020-11023-demonstration)
-- [honeyb33z/cve-2020-11023](https://github.com/honeyb33z/cve-2020-11023)
+- [honeyb33z/cve-2020-11023-scanner](https://github.com/honeyb33z/cve-2020-11023-scanner)
 
 ### CVE-2020-11060 (2020-05-12)
 
