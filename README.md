@@ -8830,21 +8830,37 @@
 
 ### CVE-2024-57373 (2025-01-27)
 
-<code>Cross Site Request Forgery vulnerability in LifestyleStore v.1.0 allows a remote attacker to execute arbitrary cod and obtain sensitive information.
+<code>Cross Site Request Forgery (CSRF) vulnerability in LifestyleStore v1.0 allows a remote attacker to execute unauthorized actions on behalf of an authenticated user, potentially leading to account modifications or data compromise.
 </code>
 
 - [cypherdavy/CVE-2024-57373](https://github.com/cypherdavy/CVE-2024-57373)
 
-### CVE-2024-57427
+### CVE-2024-57427 (2025-02-06)
+
+<code>PHPJabbers Cinema Booking System v2.0 is vulnerable to reflected cross-site scripting (XSS). Multiple endpoints improperly handle user input, allowing malicious scripts to execute in a victim’s browser. Attackers can craft malicious links to steal session cookies or conduct phishing attacks.
+</code>
+
 - [ahrixia/CVE-2024-57427](https://github.com/ahrixia/CVE-2024-57427)
 
-### CVE-2024-57428
+### CVE-2024-57428 (2025-02-06)
+
+<code>A stored cross-site scripting (XSS) vulnerability in PHPJabbers Cinema Booking System v2.0 exists due to unsanitized input in file upload fields (event_img, seat_maps) and seat number configurations (number[new_X] in pjActionCreate). Attackers can inject persistent JavaScript, leading to phishing, malware injection, and session hijacking.
+</code>
+
 - [ahrixia/CVE-2024-57428](https://github.com/ahrixia/CVE-2024-57428)
 
-### CVE-2024-57429
+### CVE-2024-57429 (2025-02-06)
+
+<code>A cross-site request forgery (CSRF) vulnerability in the pjActionUpdate function of PHPJabbers Cinema Booking System v2.0 allows remote attackers to escalate privileges by tricking an authenticated admin into submitting an unauthorized request.
+</code>
+
 - [ahrixia/CVE-2024-57429](https://github.com/ahrixia/CVE-2024-57429)
 
-### CVE-2024-57430
+### CVE-2024-57430 (2025-02-06)
+
+<code>An SQL injection vulnerability in the pjActionGetUser function of PHPJabbers Cinema Booking System v2.0 allows attackers to manipulate database queries via the column parameter. Exploiting this flaw can lead to unauthorized information disclosure, privilege escalation, or database manipulation.
+</code>
+
 - [ahrixia/CVE-2024-57430](https://github.com/ahrixia/CVE-2024-57430)
 
 ### CVE-2024-57487 (2025-01-13)
@@ -8874,7 +8890,11 @@
 ### CVE-2024-57609
 - [nca785/CVE-2024-57609](https://github.com/nca785/CVE-2024-57609)
 
-### CVE-2024-57610
+### CVE-2024-57610 (2025-02-06)
+
+<code>A rate limiting issue in Sylius v2.0.2 allows a remote attacker to perform unrestricted brute-force attacks on user accounts, significantly increasing the risk of account compromise and denial of service for legitimate users.
+</code>
+
 - [nca785/CVE-2024-57610](https://github.com/nca785/CVE-2024-57610)
 
 ### CVE-2024-57727 (2025-01-15)
@@ -22911,7 +22931,11 @@
 
 - [RashidKhanPathan/CVE-2022-40471](https://github.com/RashidKhanPathan/CVE-2022-40471)
 
-### CVE-2022-40490
+### CVE-2022-40490 (2025-02-06)
+
+<code>Tiny File Manager v2.4.7 and below was discovered to contain a Cross Site Scripting (XSS) vulnerability. This vulnerability allows attackers to execute arbitrary code via a crafted payload injected into the name of an uploaded or already existing file.
+</code>
+
 - [whitej3rry/CVE-2022-40490](https://github.com/whitej3rry/CVE-2022-40490)
 
 ### CVE-2022-40494 (2022-10-06)
@@ -23003,7 +23027,11 @@
 
 - [yilin1203/CVE-2022-40881](https://github.com/yilin1203/CVE-2022-40881)
 
-### CVE-2022-40916
+### CVE-2022-40916 (2025-02-06)
+
+<code>Tiny File Manager v2.4.7 and below is vulnerable to session fixation.
+</code>
+
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
 
 ### CVE-2022-41032 (2022-10-11)
