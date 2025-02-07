@@ -23,6 +23,13 @@
 - [dhmosfunk/7-Zip-CVE-2025-0411-POC](https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC)
 - [iSee857/CVE-2025-0411-PoC](https://github.com/iSee857/CVE-2025-0411-PoC)
 
+### CVE-2025-0994 (2025-02-06)
+
+<code>Trimble Cityworks versions prior to 15.8.9 and Cityworks with office companion versions prior to 23.10 are vulnerable to a deserialization vulnerability. This could allow an authenticated user to perform a remote code execution attack against a customer’s Microsoft Internet Information Services (IIS) web server.
+</code>
+
+- [rxerium/CVE-2025-0994](https://github.com/rxerium/CVE-2025-0994)
+
 ### CVE-2025-510
 - [g0v3lla/CVE-2025-510T](https://github.com/g0v3lla/CVE-2025-510T)
 
@@ -5220,7 +5227,7 @@
 - [CrackerCat/CVE-2024-32002_EXP](https://github.com/CrackerCat/CVE-2024-32002_EXP)
 - [Roronoawjd/hook](https://github.com/Roronoawjd/hook)
 - [Roronoawjd/git_rce](https://github.com/Roronoawjd/git_rce)
-- [JJoosh/CVE-2024-32002-Reverse-Shell](https://github.com/JJoosh/CVE-2024-32002-Reverse-Shell)
+- [YukaFake/CVE-2024-32002-Reverse-Shell](https://github.com/YukaFake/CVE-2024-32002-Reverse-Shell)
 - [1mxml/CVE-2024-32002-poc](https://github.com/1mxml/CVE-2024-32002-poc)
 - [bfengj/CVE-2024-32002-hook](https://github.com/bfengj/CVE-2024-32002-hook)
 - [ycdxsb/CVE-2024-32002-hulk](https://github.com/ycdxsb/CVE-2024-32002-hulk)
@@ -5228,7 +5235,7 @@
 - [bfengj/CVE-2024-32002-Exploit](https://github.com/bfengj/CVE-2024-32002-Exploit)
 - [vincepsh/CVE-2024-32002](https://github.com/vincepsh/CVE-2024-32002)
 - [vincepsh/CVE-2024-32002-hook](https://github.com/vincepsh/CVE-2024-32002-hook)
-- [JJoosh/CVE-2024-32002](https://github.com/JJoosh/CVE-2024-32002)
+- [YukaFake/CVE-2024-32002](https://github.com/YukaFake/CVE-2024-32002)
 - [10cks/CVE-2024-32002-EXP](https://github.com/10cks/CVE-2024-32002-EXP)
 - [WOOOOONG/CVE-2024-32002](https://github.com/WOOOOONG/CVE-2024-32002)
 - [WOOOOONG/hook](https://github.com/WOOOOONG/hook)
@@ -5750,7 +5757,11 @@
 
 - [Gr-1m/CVE-2024-34958](https://github.com/Gr-1m/CVE-2024-34958)
 
-### CVE-2024-35106
+### CVE-2024-35106 (2025-02-07)
+
+<code>NEXTU FLETA AX1500 WIFI6 v1.0.3 was discovered to contain a buffer overflow at /boafrm/formIpQoS. This vulnerability allows attackers to cause a Denial of Service (DoS) or potentially arbitrary code execution via a crafted POST request.
+</code>
+
 - [laskdjlaskdj12/CVE-2024-35106-POC](https://github.com/laskdjlaskdj12/CVE-2024-35106-POC)
 
 ### CVE-2024-35133 (2024-08-29)
@@ -6460,6 +6471,13 @@
 </code>
 
 - [LOURC0D3/CVE-2024-39700-PoC](https://github.com/LOURC0D3/CVE-2024-39700-PoC)
+
+### CVE-2024-39713 (2024-08-05)
+
+<code>A Server-Side Request Forgery (SSRF) affects Rocket.Chat's Twilio webhook endpoint before version 6.10.1.
+</code>
+
+- [typical-pashochek/CVE-2024-39713](https://github.com/typical-pashochek/CVE-2024-39713)
 
 ### CVE-2024-39844 (2024-07-03)
 
@@ -8916,7 +8934,7 @@
 
 ### CVE-2024-57610 (2025-02-06)
 
-<code>A rate limiting issue in Sylius v2.0.2 allows a remote attacker to perform unrestricted brute-force attacks on user accounts, significantly increasing the risk of account compromise and denial of service for legitimate users.
+<code>A rate limiting issue in Sylius v2.0.2 allows a remote attacker to perform unrestricted brute-force attacks on user accounts, significantly increasing the risk of account compromise and denial of service for legitimate users. The Supplier's position is that the Sylius core software is not intended to address brute-force attacks; instead, customers deploying a Sylius-based system are supposed to use &quot;firewalls, rate-limiting middleware, or authentication providers&quot; for that functionality.
 </code>
 
 - [nca785/CVE-2024-57610](https://github.com/nca785/CVE-2024-57610)
@@ -51091,7 +51109,7 @@
 - [Ooscaar/MALW](https://github.com/Ooscaar/MALW)
 - [davidholiday/CVE-2007-4559](https://github.com/davidholiday/CVE-2007-4559)
 - [luigigubello/trellix-tarslip-patch-bypass](https://github.com/luigigubello/trellix-tarslip-patch-bypass)
-- [JamesDarf/tarpioka](https://github.com/JamesDarf/tarpioka)
+- [JamesDarf/wargame-tarpioka](https://github.com/JamesDarf/wargame-tarpioka)
 
 ### CVE-2007-4560 (2007-08-28)
 
