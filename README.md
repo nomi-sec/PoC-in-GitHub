@@ -5889,6 +5889,7 @@
 - [thestar0/CVE-2024-36401-WoodpeckerPlugin](https://github.com/thestar0/CVE-2024-36401-WoodpeckerPlugin)
 - [XiaomingX/cve-2024-36401-poc](https://github.com/XiaomingX/cve-2024-36401-poc)
 - [0x0d3ad/CVE-2024-36401](https://github.com/0x0d3ad/CVE-2024-36401)
+- [whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -11629,6 +11630,13 @@
 </code>
 
 - [ynwarcs/CVE-2023-24871](https://github.com/ynwarcs/CVE-2023-24871)
+
+### CVE-2023-24932 (2023-05-09)
+
+<code>Secure Boot Security Feature Bypass Vulnerability
+</code>
+
+- [helleflo1312/Orchestrated-Powerhell-for-CVE-2023-24932](https://github.com/helleflo1312/Orchestrated-Powerhell-for-CVE-2023-24932)
 
 ### CVE-2023-24955 (2023-05-09)
 
@@ -23802,6 +23810,13 @@
 </code>
 
 - [alfarom256/CVE-2022-45451](https://github.com/alfarom256/CVE-2022-45451)
+
+### CVE-2022-45460 (2023-03-28)
+
+<code>Multiple Xiongmai NVR devices, including MBD6304T V4.02.R11.00000117.10001.131900.00000 and NBD6808T-PL V4.02.R11.C7431119.12001.130000.00000, allow an unauthenticated and remote user to exploit a stack-based buffer overflow and crash the web server, resulting in a system reboot. An unauthenticated and remote attacker can execute arbitrary code by sending a crafted HTTP request that triggers the overflow condition via a long URI passed to a sprintf call. NOTE: this is different than CVE-2018-10088, but this may overlap CVE-2017-16725.
+</code>
+
+- [born0monday/CVE-2022-45460](https://github.com/born0monday/CVE-2022-45460)
 
 ### CVE-2022-45472 (2022-11-23)
 
