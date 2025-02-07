@@ -158,6 +158,7 @@
 - [punitdarji/Paloalto-CVE-2024-0012](https://github.com/punitdarji/Paloalto-CVE-2024-0012)
 - [0xjessie21/CVE-2024-0012](https://github.com/0xjessie21/CVE-2024-0012)
 - [TalatumLabs/CVE-2024-0012_CVE-2024-9474_PoC](https://github.com/TalatumLabs/CVE-2024-0012_CVE-2024-9474_PoC)
+- [dcollaoa/cve-2024-0012-gui-poc](https://github.com/dcollaoa/cve-2024-0012-gui-poc)
 
 ### CVE-2024-0015 (2024-02-16)
 
@@ -5610,7 +5611,7 @@
 
 ### CVE-2024-34329 (2024-07-22)
 
-<code>Insecure permissions in Entrust Datacard XPS Card Printer Driver 8.4 and earlier allows unauthenticated attackers to execute arbitrary code as SYSTEM via a crafted DLL payload.
+<code>Insecure permissions in Entrust Datacard XPS Card Printer Driver 8.5 and earlier without the dxp1-patch-E24-004 patch allows unauthenticated attackers to execute arbitrary code as SYSTEM via a crafted DLL payload.
 </code>
 
 - [pamoutaf/CVE-2024-34329](https://github.com/pamoutaf/CVE-2024-34329)
@@ -5748,6 +5749,9 @@
 </code>
 
 - [Gr-1m/CVE-2024-34958](https://github.com/Gr-1m/CVE-2024-34958)
+
+### CVE-2024-35106
+- [laskdjlaskdj12/CVE-2024-35106-POC](https://github.com/laskdjlaskdj12/CVE-2024-35106-POC)
 
 ### CVE-2024-35133 (2024-08-29)
 
@@ -7620,7 +7624,11 @@
 
 - [MarioTesoro/CVE-2024-48569](https://github.com/MarioTesoro/CVE-2024-48569)
 
-### CVE-2024-48589
+### CVE-2024-48589 (2025-02-06)
+
+<code>Cross Site Scripting vulnerability in Gilnei Moraes phpABook v.0.9 allows a remote attacker to execute arbitrary code via the rol parameter in index.php
+</code>
+
 - [Exek1el/CVE-2024-48589](https://github.com/Exek1el/CVE-2024-48589)
 
 ### CVE-2024-48605 (2024-10-22)
@@ -8783,7 +8791,11 @@
 
 - [absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit](https://github.com/absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit)
 
-### CVE-2024-56889
+### CVE-2024-56889 (2025-02-06)
+
+<code>Incorrect access control in the endpoint /admin/m_delete.php of CodeAstro Complaint Management System v1.0 allows unauthorized attackers to arbitrarily delete complaints via modification of the id parameter.
+</code>
+
 - [vigneshr232/CVE-2024-56889](https://github.com/vigneshr232/CVE-2024-56889)
 
 ### CVE-2024-56898 (2025-02-03)
@@ -8884,10 +8896,18 @@
 
 - [HackWidMaddy/CVE-2024-57522](https://github.com/HackWidMaddy/CVE-2024-57522)
 
-### CVE-2024-57523
+### CVE-2024-57523 (2025-02-06)
+
+<code>Cross Site Request Forgery (CSRF) in Users.php in SourceCodester Packers and Movers Management System 1.0 allows attackers to create unauthorized admin accounts via crafted requests sent to an authenticated admin user.
+</code>
+
 - [HackWidMaddy/CVE-2024-57523.](https://github.com/HackWidMaddy/CVE-2024-57523.)
 
-### CVE-2024-57609
+### CVE-2024-57609 (2025-02-06)
+
+<code>An issue in Kanaries Inc Pygwalker before v.0.4.9.9 allows a remote attacker to obtain sensitive information and execute arbitrary code via the redirect_path parameter of the login redirection function.
+</code>
+
 - [nca785/CVE-2024-57609](https://github.com/nca785/CVE-2024-57609)
 
 ### CVE-2024-57610 (2025-02-06)
