@@ -8595,6 +8595,9 @@
 
 - [KrakenEU/CVE-2024-54910](https://github.com/KrakenEU/CVE-2024-54910)
 
+### CVE-2024-54916
+- [SAHALLL/CVE-2024-54916](https://github.com/SAHALLL/CVE-2024-54916)
+
 ### CVE-2024-55040
 - [tcbutler320/CVE-2024-55040-Sensaphone-XSS](https://github.com/tcbutler320/CVE-2024-55040-Sensaphone-XSS)
 
@@ -32924,7 +32927,7 @@
 
 - [lucasallan/CVE-2020-8163](https://github.com/lucasallan/CVE-2020-8163)
 - [h4ms1k/CVE-2020-8163](https://github.com/h4ms1k/CVE-2020-8163)
-- [RedPhantomRoot/CVE-2020-8163](https://github.com/RedPhantomRoot/CVE-2020-8163)
+- [RedBinaryRabbit/CVE-2020-8163](https://github.com/RedBinaryRabbit/CVE-2020-8163)
 
 ### CVE-2020-8165 (2020-06-19)
 
