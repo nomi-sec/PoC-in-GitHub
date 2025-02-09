@@ -5916,6 +5916,7 @@
 - [XiaomingX/cve-2024-36401-poc](https://github.com/XiaomingX/cve-2024-36401-poc)
 - [0x0d3ad/CVE-2024-36401](https://github.com/0x0d3ad/CVE-2024-36401)
 - [whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit)
+- [wellwornele/CVE-2024-36401](https://github.com/wellwornele/CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -8682,6 +8683,7 @@
 - [watchtowrlabs/fortios-auth-bypass-poc-CVE-2024-55591](https://github.com/watchtowrlabs/fortios-auth-bypass-poc-CVE-2024-55591)
 - [exfil0/CVE-2024-55591-POC](https://github.com/exfil0/CVE-2024-55591-POC)
 - [rawtips/CVE-2024-55591](https://github.com/rawtips/CVE-2024-55591)
+- [0x7556/CVE-2024-55591](https://github.com/0x7556/CVE-2024-55591)
 
 ### CVE-2024-55875 (2024-12-12)
 
