@@ -113,6 +113,13 @@
 
 - [GabrieleDattile/CVE-2025-23040](https://github.com/GabrieleDattile/CVE-2025-23040)
 
+### CVE-2025-23369 (2025-01-21)
+
+<code>An improper verification of cryptographic signature vulnerability was identified in GitHub Enterprise Server that allowed signature spoofing for unauthorized internal users.  Instances not utilizing SAML single sign-on or where the attacker is not already an existing user were not impacted. This vulnerability affected all versions of GitHub Enterprise Server prior to 3.12.14, 3.13.10, 3.14.7, 3.15.2, and 3.16.0. This vulnerability was reported via the GitHub Bug Bounty program.
+</code>
+
+- [hakivvi/CVE-2025-23369](https://github.com/hakivvi/CVE-2025-23369)
+
 ### CVE-2025-24085 (2025-01-27)
 
 <code>A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
@@ -1533,6 +1540,13 @@
 </code>
 
 - [j3r1ch0123/CVE-2024-6205](https://github.com/j3r1ch0123/CVE-2024-6205)
+
+### CVE-2024-6244 (2024-07-22)
+
+<code>The PZ Frontend Manager WordPress plugin before 1.0.6 does not have CSRF checks in some places, which could allow attackers to make logged in users perform unwanted actions via CSRF attacks
+</code>
+
+- [Nxploited/CVE-2024-6244](https://github.com/Nxploited/CVE-2024-6244)
 
 ### CVE-2024-6330 (2024-08-19)
 
