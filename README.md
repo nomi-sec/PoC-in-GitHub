@@ -119,6 +119,7 @@
 </code>
 
 - [hakivvi/CVE-2025-23369](https://github.com/hakivvi/CVE-2025-23369)
+- [Arian91/CVE-2025-23369_SAML_bypass](https://github.com/Arian91/CVE-2025-23369_SAML_bypass)
 
 ### CVE-2025-24085 (2025-01-27)
 
@@ -27015,7 +27016,7 @@
 - [kh4sh3i/ProxyLogon](https://github.com/kh4sh3i/ProxyLogon)
 - [ssrsec/Microsoft-Exchange-RCE](https://github.com/ssrsec/Microsoft-Exchange-RCE)
 - [glen-pearson/ProxyLogon-CVE-2021-26855](https://github.com/glen-pearson/ProxyLogon-CVE-2021-26855)
-- [MacAsure/cve-2021-26855](https://github.com/MacAsure/cve-2021-26855)
+- [ShyTangerine/cve-2021-26855](https://github.com/ShyTangerine/cve-2021-26855)
 - [timb-machine-mirrors/testanull-CVE-2021-26855_read_poc.txt](https://github.com/timb-machine-mirrors/testanull-CVE-2021-26855_read_poc.txt)
 
 ### CVE-2021-26856
@@ -32569,7 +32570,6 @@
 - [ar0dd/CVE-2020-5902](https://github.com/ar0dd/CVE-2020-5902)
 - [yassineaboukir/CVE-2020-5902](https://github.com/yassineaboukir/CVE-2020-5902)
 - [rwincey/CVE-2020-5902-NSE](https://github.com/rwincey/CVE-2020-5902-NSE)
-- [un4gi/CVE-2020-5902](https://github.com/un4gi/CVE-2020-5902)
 - [nsflabs/CVE-2020-5902](https://github.com/nsflabs/CVE-2020-5902)
 - [yasserjanah/CVE-2020-5902](https://github.com/yasserjanah/CVE-2020-5902)
 - [JSec1337/RCE-CVE-2020-5902](https://github.com/JSec1337/RCE-CVE-2020-5902)
@@ -40780,7 +40780,6 @@
 </code>
 
 - [mgargiullo/cve-2018-1207](https://github.com/mgargiullo/cve-2018-1207)
-- [un4gi/CVE-2018-1207](https://github.com/un4gi/CVE-2018-1207)
 
 ### CVE-2018-1235 (2018-05-29)
 
@@ -51083,7 +51082,6 @@
 - [Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python)
 - [0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447)
 - [ozuma/CVE-2007-2447](https://github.com/ozuma/CVE-2007-2447)
-- [un4gi/CVE-2007-2447](https://github.com/un4gi/CVE-2007-2447)
 - [G01d3nW01f/CVE-2007-2447](https://github.com/G01d3nW01f/CVE-2007-2447)
 - [cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447)
 - [Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447)
