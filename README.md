@@ -7155,7 +7155,7 @@
 <code>SQL Injection vulnerability in todesk v.1.1 allows a remote attacker to execute arbitrary code via the /todesk.com/news.html parameter.
 </code>
 
-- [alphandbelt/CVE-2024-44542](https://github.com/alphandbelt/CVE-2024-44542)
+- [sshipanoo/CVE-2024-44542](https://github.com/sshipanoo/CVE-2024-44542)
 
 ### CVE-2024-44610 (2024-10-01)
 
@@ -21820,14 +21820,14 @@
 <code>Spring Tools 4 for Eclipse version 4.16.0 and below as well as VSCode extensions such as Spring Boot Tools, Concourse CI Pipeline Editor, Bosh Editor and Cloudfoundry Manifest YML Support version 1.39.0 and below all use Snakeyaml library for YAML editing support. This library allows for some special syntax in the YAML that under certain circumstances allows for potentially harmful remote code execution by the attacker.
 </code>
 
-- [SpindleSec/CVE-2022-31691](https://github.com/SpindleSec/CVE-2022-31691)
+- [blipzip/CVE-2022-31691](https://github.com/blipzip/CVE-2022-31691)
 
 ### CVE-2022-31692 (2022-10-31)
 
 <code>Spring Security, versions 5.7 prior to 5.7.5 and 5.6 prior to 5.6.9 could be susceptible to authorization rules bypass via forward or include dispatcher types. Specifically, an application is vulnerable when all of the following are true: The application expects that Spring Security applies security to forward and include dispatcher types. The application uses the AuthorizationFilter either manually or via the authorizeHttpRequests() method. The application configures the FilterChainProxy to apply to forward and/or include requests (e.g. spring.security.filter.dispatcher-types = request, error, async, forward, include). The application may forward or include the request to a higher privilege-secured endpoint.The application configures Spring Security to apply to every dispatcher type via authorizeHttpRequests().shouldFilterAllDispatcherTypes(true)
 </code>
 
-- [SpindleSec/cve-2022-31692](https://github.com/SpindleSec/cve-2022-31692)
+- [blipzip/cve-2022-31692](https://github.com/blipzip/cve-2022-31692)
 - [hotblac/cve-2022-31692](https://github.com/hotblac/cve-2022-31692)
 
 ### CVE-2022-31705 (2022-12-14)
