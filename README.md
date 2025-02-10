@@ -75,6 +75,9 @@
 
 - [EliahKagan/checkout-index](https://github.com/EliahKagan/checkout-index)
 
+### CVE-2025-22652
+- [DoTTak/CVE-2025-22652](https://github.com/DoTTak/CVE-2025-22652)
+
 ### CVE-2025-22710 (2025-01-21)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in StoreApps Smart Manager allows Blind SQL Injection. This issue affects Smart Manager: from n/a through 8.52.0.
@@ -11881,6 +11884,7 @@
 - [ronmadar/Open-Source-Seal-Security](https://github.com/ronmadar/Open-Source-Seal-Security)
 - [m-lito13/SealSecurity_Exam](https://github.com/m-lito13/SealSecurity_Exam)
 - [dani33339/tough-cookie-Seal-Security](https://github.com/dani33339/tough-cookie-Seal-Security)
+- [morrisel/CVE-2023-26136](https://github.com/morrisel/CVE-2023-26136)
 
 ### CVE-2023-26144 (2023-09-20)
 
@@ -24216,6 +24220,13 @@
 </code>
 
 - [Argonx21/CVE-2022-47373](https://github.com/Argonx21/CVE-2022-47373)
+
+### CVE-2022-47522 (2023-04-15)
+
+<code>The IEEE 802.11 specifications through 802.11ax allow physically proximate attackers to intercept (possibly cleartext) target-destined frames by spoofing a target's MAC address, sending Power Save frames to the access point, and then sending other frames to the access point (such as authentication frames or re-association frames) to remove the target's original security context. This behavior occurs because the specifications do not require an access point to purge its transmit queue before removing a client's pairwise encryption key.
+</code>
+
+- [toffeenutt/CVE-2022-47522-exploit](https://github.com/toffeenutt/CVE-2022-47522-exploit)
 
 ### CVE-2022-47529 (2023-03-28)
 
