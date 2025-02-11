@@ -3099,6 +3099,7 @@
 - [Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape](https://github.com/Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape)
 - [ThemeHackers/CVE-2024-21413](https://github.com/ThemeHackers/CVE-2024-21413)
 - [D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB](https://github.com/D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB)
+- [Cyber-Trambon/CVE-2024-21413-exploit](https://github.com/Cyber-Trambon/CVE-2024-21413-exploit)
 
 ### CVE-2024-21514 (2024-06-22)
 
@@ -18568,6 +18569,13 @@
 </code>
 
 - [aminetitrofine/CVE-2022-4096](https://github.com/aminetitrofine/CVE-2022-4096)
+
+### CVE-2022-4174 (2022-11-29)
+
+<code>Type confusion in V8 in Google Chrome prior to 108.0.5359.71 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [moften/CVE-2022-4174_CVE-2022-41742](https://github.com/moften/CVE-2022-4174_CVE-2022-41742)
 
 ### CVE-2022-4262 (2022-12-02)
 
@@ -40528,6 +40536,7 @@
 
 - [vuongnv3389-sec/CVE-2019-20372](https://github.com/vuongnv3389-sec/CVE-2019-20372)
 - [0xleft/CVE-2019-20372](https://github.com/0xleft/CVE-2019-20372)
+- [moften/CVE-2019-20372](https://github.com/moften/CVE-2019-20372)
 
 ### CVE-2019-20933 (2020-11-19)
 
