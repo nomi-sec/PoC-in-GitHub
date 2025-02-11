@@ -2525,6 +2525,9 @@
 - [Nxploited/CVE-2024-10924-Exploit](https://github.com/Nxploited/CVE-2024-10924-Exploit)
 - [cy3erdr4g0n/CVE-2024-10924](https://github.com/cy3erdr4g0n/CVE-2024-10924)
 
+### CVE-2024-10930
+- [sahil3276/CVE-2024-10930](https://github.com/sahil3276/CVE-2024-10930)
+
 ### CVE-2024-10958 (2024-11-10)
 
 <code>The The WP Photo Album Plus plugin for WordPress is vulnerable to arbitrary shortcode execution via getshortcodedrenderedfenodelay AJAX action in all versions up to, and including, 8.8.08.007 . This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.
@@ -8639,6 +8642,9 @@
 </code>
 
 - [ainrm/Jrohy-trojan-unauth-poc](https://github.com/ainrm/Jrohy-trojan-unauth-poc)
+
+### CVE-2024-55347
+- [sahil3276/CVE-2024-55347](https://github.com/sahil3276/CVE-2024-55347)
 
 ### CVE-2024-55457
 - [h13nh04ng/CVE-2024-55457-PoC](https://github.com/h13nh04ng/CVE-2024-55457-PoC)
