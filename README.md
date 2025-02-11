@@ -139,6 +139,13 @@
 - [jprx/CVE-2025-24118](https://github.com/jprx/CVE-2025-24118)
 - [rawtips/-CVE-2025-24118](https://github.com/rawtips/-CVE-2025-24118)
 
+### CVE-2025-24200 (2025-02-10)
+
+<code>An authorization issue was addressed with improved state management. This issue is fixed in iPadOS 17.7.5, iOS 18.3.1 and iPadOS 18.3.1. A physical attack may disable USB Restricted Mode on a locked device. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals.
+</code>
+
+- [McTavishSue/CVE-2025-24200](https://github.com/McTavishSue/CVE-2025-24200)
+
 ### CVE-2025-24587 (2025-01-24)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in I Thirteen Web Solution Email Subscription Popup allows Blind SQL Injection. This issue affects Email Subscription Popup: from n/a through 1.2.23.
@@ -2563,13 +2570,6 @@
 
 - [reinh3rz/CVE-2024-11252-Sassy-Social-Share-XSS](https://github.com/reinh3rz/CVE-2024-11252-Sassy-Social-Share-XSS)
 
-### CVE-2024-11281 (2024-12-25)
-
-<code>The WooCommerce Point of Sale plugin for WordPress is vulnerable to privilege escalation in all versions up to, and including, 6.1.0. This is due to insufficient validation on the 'logged_in_user_id' value when option values are empty and the ability for attackers to change the email of arbitrary user accounts. This makes it possible for unauthenticated attackers to change the email of arbitrary user accounts, including administrators, and reset their password to gain access to the account.
-</code>
-
-- [McTavishSue/CVE-2024-11281](https://github.com/McTavishSue/CVE-2024-11281)
-
 ### CVE-2024-11318 (2024-11-18)
 
 <code>An IDOR (Insecure Direct Object Reference) vulnerability has been discovered in AbsysNet, affecting version 2.3.1. This vulnerability could allow a remote attacker to obtain the session of an unauthenticated user by brute-force attacking the session identifier on the &quot;/cgi-bin/ocap/&quot; endpoint.
@@ -2726,13 +2726,6 @@
 
 - [themirze/cve-2024-12084](https://github.com/themirze/cve-2024-12084)
 - [rxerium/CVE-2024-12084](https://github.com/rxerium/CVE-2024-12084)
-
-### CVE-2024-12155 (2024-12-06)
-
-<code>The SV100 Companion plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the settings_import() function in all versions up to, and including, 2.0.02. This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
-</code>
-
-- [McTavishSue/CVE-2024-12155](https://github.com/McTavishSue/CVE-2024-12155)
 
 ### CVE-2024-12157 (2025-01-07)
 
@@ -7148,6 +7141,9 @@
 </code>
 
 - [AndreaF17/PoC-CVE-2024-44349](https://github.com/AndreaF17/PoC-CVE-2024-44349)
+
+### CVE-2024-44378
+- [aezdmr/CVE-2024-44378](https://github.com/aezdmr/CVE-2024-44378)
 
 ### CVE-2024-44450 (2025-01-07)
 
@@ -36343,7 +36339,6 @@
 - [X0UCYB3R/Check-WP-CVE-2020-35489](https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489)
 - [reneoliveirajr/wp_CVE-2020-35489_checker](https://github.com/reneoliveirajr/wp_CVE-2020-35489_checker)
 - [Cappricio-Securities/CVE-2020-35489](https://github.com/Cappricio-Securities/CVE-2020-35489)
-- [gh202503/poc-cve-2020-35489](https://github.com/gh202503/poc-cve-2020-35489)
 
 ### CVE-2020-35498 (2021-02-11)
 
