@@ -2045,7 +2045,7 @@
 <code>The Backup and Staging by WP Time Capsule plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the the UploadHandler.php file and no direct file access prevention in all versions up to, and including, 1.22.21. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
 </code>
 
-- [ubaii/CVE-2024-8856](https://github.com/ubaii/CVE-2024-8856)
+- [ubaydev/CVE-2024-8856](https://github.com/ubaydev/CVE-2024-8856)
 - [Jenderal92/CVE-2024-8856](https://github.com/Jenderal92/CVE-2024-8856)
 
 ### CVE-2024-8868 (2024-09-15)
@@ -2402,7 +2402,7 @@
 <code>The RegistrationMagic – User Registration Plugin with Custom Registration Forms plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 6.0.2.6. This is due to the plugin not properly validating the password reset token prior to updating a user's password. This makes it possible for unauthenticated attackers to reset the password of arbitrary users, including administrators, and gain access to these accounts.
 </code>
 
-- [ubaii/CVE-2024-10508](https://github.com/ubaii/CVE-2024-10508)
+- [ubaydev/CVE-2024-10508](https://github.com/ubaydev/CVE-2024-10508)
 - [Jenderal92/CVE-2024-10508](https://github.com/Jenderal92/CVE-2024-10508)
 
 ### CVE-2024-10511 (2024-12-11)
@@ -2424,7 +2424,7 @@
 <code>The Spam protection, Anti-Spam, FireWall by CleanTalk plugin for WordPress is vulnerable to unauthorized Arbitrary Plugin Installation due to an authorization bypass via reverse DNS spoofing on the checkWithoutToken function in all versions up to, and including, 6.43.2. This makes it possible for unauthenticated attackers to install and activate arbitrary plugins which can be leveraged to achieve remote code execution if another vulnerable plugin is installed and activated.
 </code>
 
-- [ubaii/CVE-2024-10542](https://github.com/ubaii/CVE-2024-10542)
+- [ubaydev/CVE-2024-10542](https://github.com/ubaydev/CVE-2024-10542)
 
 ### CVE-2024-10557 (2024-10-31)
 
@@ -6380,6 +6380,7 @@
 - [BBD-YZZ/CVE-2024-38856-RCE](https://github.com/BBD-YZZ/CVE-2024-38856-RCE)
 - [XiaomingX/cve-2024-38856-poc](https://github.com/XiaomingX/cve-2024-38856-poc)
 - [FakesiteSecurity/CVE-2024-38856_Scen](https://github.com/FakesiteSecurity/CVE-2024-38856_Scen)
+- [AlissonFaoli/Apache-OFBiz-Exploit](https://github.com/AlissonFaoli/Apache-OFBiz-Exploit)
 
 ### CVE-2024-38998
 - [z3ldr1/PP_CVE-2024-38998](https://github.com/z3ldr1/PP_CVE-2024-38998)
@@ -8345,7 +8346,7 @@
 <code>Authentication Bypass Using an Alternate Path or Channel vulnerability in Automation Web Platform Wawp allows Authentication Bypass.This issue affects Wawp: from n/a before 3.0.18.
 </code>
 
-- [ubaii/CVE-2024-52475](https://github.com/ubaii/CVE-2024-52475)
+- [ubaydev/CVE-2024-52475](https://github.com/ubaydev/CVE-2024-52475)
 
 ### CVE-2024-52711 (2024-11-19)
 
@@ -25281,6 +25282,7 @@
 - [acidburn2049/CVE-2021-3156](https://github.com/acidburn2049/CVE-2021-3156)
 - [Bad3r/CVE-2021-3156-without-ip-command](https://github.com/Bad3r/CVE-2021-3156-without-ip-command)
 - [Sebastianbedoya25/CVE-2021-3156](https://github.com/Sebastianbedoya25/CVE-2021-3156)
+- [ten-ops/baron-samedit](https://github.com/ten-ops/baron-samedit)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -31018,7 +31020,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Code-Execution](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Code-Execution)
-- [plsanu/CVE-2021-46076](https://github.com/plsanu/CVE-2021-46076)
 
 ### CVE-2021-46078 (2022-01-06)
 
@@ -36253,7 +36254,6 @@
 
 - [0xAbbarhSF/CVE-2020-29607](https://github.com/0xAbbarhSF/CVE-2020-29607)
 - [0xN7y/CVE-2020-29607](https://github.com/0xN7y/CVE-2020-29607)
-- [Alienfader/CVE-2020-29607](https://github.com/Alienfader/CVE-2020-29607)
 
 ### CVE-2020-29661 (2020-12-09)
 
