@@ -7571,7 +7571,7 @@
 - [SkyGodling/exploit-cve-2024-47575](https://github.com/SkyGodling/exploit-cve-2024-47575)
 - [expl0itsecurity/CVE-2024-47575](https://github.com/expl0itsecurity/CVE-2024-47575)
 - [XiaomingX/cve-2024-47575-exp](https://github.com/XiaomingX/cve-2024-47575-exp)
-- [Raygrants/CVE-2024-47575-POC](https://github.com/Raygrants/CVE-2024-47575-POC)
+- [KaztoRay/CVE-2024-47575-POC](https://github.com/KaztoRay/CVE-2024-47575-POC)
 
 ### CVE-2024-47854 (2024-10-04)
 
@@ -30161,6 +30161,7 @@
 - [0xSAZZAD/Grafana-CVE-2021-43798](https://github.com/0xSAZZAD/Grafana-CVE-2021-43798)
 - [wezoomagency/GrafXploit](https://github.com/wezoomagency/GrafXploit)
 - [davidr-io/Grafana-8.3-Directory-Traversal](https://github.com/davidr-io/Grafana-8.3-Directory-Traversal)
+- [ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux](https://github.com/ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux)
 
 ### CVE-2021-43799 (2022-01-25)
 
@@ -31057,7 +31058,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Stored-Cross-Site-Scripting](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Stored-Cross-Site-Scripting)
-- [plsanu/CVE-2021-46078](https://github.com/plsanu/CVE-2021-46078)
 
 ### CVE-2021-46079 (2022-01-06)
 
