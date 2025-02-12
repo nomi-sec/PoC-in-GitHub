@@ -250,6 +250,7 @@
 <code>NVIDIA Container Toolkit 1.16.1 or earlier contains a Time-of-check Time-of-Use (TOCTOU) vulnerability when used with default configuration where a specifically crafted container image may gain access to the host file system. This does not impact use cases where CDI is used. A successful exploit of this vulnerability may lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.
 </code>
 
+- [ssst0n3/poc-cve-2024-0132](https://github.com/ssst0n3/poc-cve-2024-0132)
 - [r0binak/CVE-2024-0132](https://github.com/r0binak/CVE-2024-0132)
 
 ### CVE-2024-0195 (2024-01-02)
@@ -8226,6 +8227,7 @@
 
 - [refr4g/CVE-2024-51378](https://github.com/refr4g/CVE-2024-51378)
 - [i0x29A/CVE-2024-51378](https://github.com/i0x29A/CVE-2024-51378)
+- [qnole000/CVE-2024-51378](https://github.com/qnole000/CVE-2024-51378)
 
 ### CVE-2024-51430 (2024-10-31)
 
@@ -8494,6 +8496,9 @@
 </code>
 
 - [math-x-io/CVE-2024-54152-poc](https://github.com/math-x-io/CVE-2024-54152-poc)
+
+### CVE-2024-54160
+- [Jflye/CVE-2024-54160--Opensearch-HTML-Injection](https://github.com/Jflye/CVE-2024-54160--Opensearch-HTML-Injection)
 
 ### CVE-2024-54262 (2024-12-13)
 
@@ -13667,13 +13672,6 @@
 </code>
 
 - [horizon3ai/CVE-2023-34051](https://github.com/horizon3ai/CVE-2023-34051)
-
-### CVE-2023-34092 (2023-06-01)
-
-<code>Vite provides frontend tooling. Prior to versions 2.9.16, 3.2.7, 4.0.5, 4.1.5, 4.2.3, and 4.3.9, Vite Server Options (`server.fs.deny`) can be bypassed using double forward-slash (//) allows any unauthenticated user to read file from the Vite root-path of the application including the default `fs.deny` settings (`['.env', '.env.*', '*.{crt,pem}']`). Only users explicitly exposing the Vite dev server to the network (using `--host` or `server.host` config option) are affected, and only files in the immediate Vite project root folder could be exposed. This issue is fixed in vite@4.3.9, vite@4.2.3, vite@4.1.5, vite@4.0.5, vite@3.2.7, and vite@2.9.16.
-</code>
-
-- [FlapyPan/test-cve-2023-34092](https://github.com/FlapyPan/test-cve-2023-34092)
 
 ### CVE-2023-34096 (2023-06-08)
 
@@ -39734,6 +39732,7 @@
 - [FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE](https://github.com/FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE)
 - [0xTabun/CVE-2019-16278](https://github.com/0xTabun/CVE-2019-16278)
 - [cancela24/CVE-2019-16278-Nostromo-1.9.6-RCE](https://github.com/cancela24/CVE-2019-16278-Nostromo-1.9.6-RCE)
+- [CybermonkX/CVE-2019-16278_Nostromo-1.9.6---Remote-Code-Execution](https://github.com/CybermonkX/CVE-2019-16278_Nostromo-1.9.6---Remote-Code-Execution)
 
 ### CVE-2019-16279 (2019-10-14)
 
