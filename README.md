@@ -245,6 +245,13 @@
 
 - [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049)
 
+### CVE-2024-0132 (2024-09-26)
+
+<code>NVIDIA Container Toolkit 1.16.1 or earlier contains a Time-of-check Time-of-Use (TOCTOU) vulnerability when used with default configuration where a specifically crafted container image may gain access to the host file system. This does not impact use cases where CDI is used. A successful exploit of this vulnerability may lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.
+</code>
+
+- [r0binak/CVE-2024-0132](https://github.com/r0binak/CVE-2024-0132)
+
 ### CVE-2024-0195 (2024-01-02)
 
 <code>Es wurde eine Schwachstelle in spider-flow 0.4.3 gefunden. Sie wurde als kritisch eingestuft. Es betrifft die Funktion FunctionService.saveFunction der Datei src/main/java/org/spiderflow/controller/FunctionController.java. Durch Manipulieren mit unbekannten Daten kann eine code injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -2513,6 +2520,7 @@
 - [jahithoque/CVE-2024-10914-Exploit](https://github.com/jahithoque/CVE-2024-10914-Exploit)
 - [redspy-sec/D-Link](https://github.com/redspy-sec/D-Link)
 - [dragonXZH/CVE-2024-10914](https://github.com/dragonXZH/CVE-2024-10914)
+- [yenyangmjaze/cve-2024-10914](https://github.com/yenyangmjaze/cve-2024-10914)
 
 ### CVE-2024-10924 (2024-11-15)
 
@@ -6862,6 +6870,13 @@
 
 - [fj016/CVE-2024-41992-PoC](https://github.com/fj016/CVE-2024-41992-PoC)
 
+### CVE-2024-42009 (2024-08-05)
+
+<code>A Cross-Site Scripting vulnerability in Roundcube through 1.5.7 and 1.6.x through 1.6.7 allows a remote attacker to steal and send emails of a victim via a crafted e-mail message that abuses a Desanitization issue in message_body() in program/actions/mail/show.php.
+</code>
+
+- [0xbassiouny1337/CVE-2024-42009](https://github.com/0xbassiouny1337/CVE-2024-42009)
+
 ### CVE-2024-42327 (2024-11-27)
 
 <code>A non-admin user account on the Zabbix frontend with the default User role, or with any other role that gives API access can exploit this vulnerability. An SQLi exists in the CUser class in the addRelatedObjects function, this function is being called from the CUser.get function which is available for every user who has API access.
@@ -8466,6 +8481,13 @@
 
 - [C411e/CVE-2024-53691](https://github.com/C411e/CVE-2024-53691)
 
+### CVE-2024-53704 (2025-01-09)
+
+<code>An Improper Authentication vulnerability in the SSLVPN authentication mechanism allows a remote attacker to bypass authentication.
+</code>
+
+- [istagmbh/CVE-2024-53704](https://github.com/istagmbh/CVE-2024-53704)
+
 ### CVE-2024-54152 (2024-12-10)
 
 <code>Angular Expressions provides expressions for the Angular.JS web framework as a standalone module. Prior to version 1.4.3, an attacker can write a malicious expression that escapes the sandbox to execute arbitrary code on the system. With a more complex (undisclosed) payload, one can get full access to Arbitrary code execution on the system. The problem has been patched in version 1.4.3 of Angular Expressions. Two possible workarounds are available. One may either disable access to `__proto__` globally or make sure that one uses the function with just one argument.
@@ -8567,7 +8589,11 @@
 
 - [nscan9/CVE-2024-54761-BigAnt-Office-Messenger-5.6.06-RCE-via-SQL-Injection](https://github.com/nscan9/CVE-2024-54761-BigAnt-Office-Messenger-5.6.06-RCE-via-SQL-Injection)
 
-### CVE-2024-54772
+### CVE-2024-54772 (2025-02-11)
+
+<code>An issue was discovered in the Winbox service of MikroTik RouterOS v6.43 through v7.16.1. A discrepancy in response times between connection attempts made with a valid username and those with an invalid username allows attackers to enumerate for valid accounts.
+</code>
+
 - [deauther890/CVE-2024-54772](https://github.com/deauther890/CVE-2024-54772)
 
 ### CVE-2024-54792 (2025-01-21)
@@ -8619,7 +8645,11 @@
 
 - [KrakenEU/CVE-2024-54910](https://github.com/KrakenEU/CVE-2024-54910)
 
-### CVE-2024-54916
+### CVE-2024-54916 (2025-02-11)
+
+<code>An issue in the SharedConfig class of Telegram Android APK v.11.7.0 allows a physically proximate attacker to bypass authentication and escalate privileges by manipulating the return value of the checkPasscode method.
+</code>
+
 - [SAHALLL/CVE-2024-54916](https://github.com/SAHALLL/CVE-2024-54916)
 
 ### CVE-2024-55040
@@ -36256,6 +36286,7 @@
 
 - [0xAbbarhSF/CVE-2020-29607](https://github.com/0xAbbarhSF/CVE-2020-29607)
 - [0xN7y/CVE-2020-29607](https://github.com/0xN7y/CVE-2020-29607)
+- [Alienfader/CVE-2020-29607](https://github.com/Alienfader/CVE-2020-29607)
 
 ### CVE-2020-29661 (2020-12-09)
 
