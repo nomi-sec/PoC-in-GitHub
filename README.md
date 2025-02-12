@@ -3076,6 +3076,13 @@
 
 - [d0rb/CVE-2024-21388](https://github.com/d0rb/CVE-2024-21388)
 
+### CVE-2024-21409 (2024-04-09)
+
+<code>.NET, .NET Framework, and Visual Studio Remote Code Execution Vulnerability
+</code>
+
+- [vkairy/cve-2024-21409-repro](https://github.com/vkairy/cve-2024-21409-repro)
+
 ### CVE-2024-21412 (2024-02-13)
 
 <code>Internet Shortcut Files Security Feature Bypass Vulnerability
@@ -8497,7 +8504,11 @@
 
 - [math-x-io/CVE-2024-54152-poc](https://github.com/math-x-io/CVE-2024-54152-poc)
 
-### CVE-2024-54160
+### CVE-2024-54160 (2025-02-12)
+
+<code>dashboards-reporting (aka Dashboards Reports) before 2.19.0.0, as shipped in OpenSearch before 2.19, allows XSS because Markdown is not sanitized when previewing a header or footer.
+</code>
+
 - [Jflye/CVE-2024-54160--Opensearch-HTML-Injection](https://github.com/Jflye/CVE-2024-54160--Opensearch-HTML-Injection)
 
 ### CVE-2024-54262 (2024-12-13)
@@ -8887,6 +8898,12 @@
 
 - [absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit](https://github.com/absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit)
 
+### CVE-2024-56882
+- [trustcves/CVE-2024-56882](https://github.com/trustcves/CVE-2024-56882)
+
+### CVE-2024-56883
+- [trustcves/CVE-2024-56883](https://github.com/trustcves/CVE-2024-56883)
+
 ### CVE-2024-56889 (2025-02-06)
 
 <code>Incorrect access control in the endpoint /admin/m_delete.php of CodeAstro Complaint Management System v1.0 allows unauthorized attackers to arbitrarily delete complaints via modification of the id parameter.
@@ -8935,6 +8952,13 @@
 </code>
 
 - [Ajmal101/CVE-2024-57175](https://github.com/Ajmal101/CVE-2024-57175)
+
+### CVE-2024-57241 (2025-02-11)
+
+<code>Dedecms 5.71sp1 and earlier is vulnerable to URL redirect. In the web application, a logic error does not judge the input GET request resulting in URL redirection.
+</code>
+
+- [woshidaheike/CVE-2024-57241](https://github.com/woshidaheike/CVE-2024-57241)
 
 ### CVE-2024-57373 (2025-01-27)
 
@@ -11978,6 +12002,7 @@
 </code>
 
 - [omarelshopky/exploit_cve-2023-26326_using_cve-2024-2961](https://github.com/omarelshopky/exploit_cve-2023-26326_using_cve-2024-2961)
+- [mesudmammad1/CVE-2023-26326_Buddyform_exploit](https://github.com/mesudmammad1/CVE-2023-26326_Buddyform_exploit)
 
 ### CVE-2023-26360 (2023-03-23)
 
@@ -20592,6 +20617,7 @@
 - [cc3305/CVE-2022-26134](https://github.com/cc3305/CVE-2022-26134)
 - [Agentgilspy/CVE-2022-26134](https://github.com/Agentgilspy/CVE-2022-26134)
 - [XiaomingX/cve-2022-26134-poc](https://github.com/XiaomingX/cve-2022-26134-poc)
+- [Khalidhaimur/CVE-2022-26134](https://github.com/Khalidhaimur/CVE-2022-26134)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -39730,7 +39756,6 @@
 - [n3rdh4x0r/CVE-2019-16278](https://github.com/n3rdh4x0r/CVE-2019-16278)
 - [alexander-fernandes/CVE-2019-16278](https://github.com/alexander-fernandes/CVE-2019-16278)
 - [FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE](https://github.com/FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE)
-- [0xTabun/CVE-2019-16278](https://github.com/0xTabun/CVE-2019-16278)
 - [cancela24/CVE-2019-16278-Nostromo-1.9.6-RCE](https://github.com/cancela24/CVE-2019-16278-Nostromo-1.9.6-RCE)
 - [CybermonkX/CVE-2019-16278_Nostromo-1.9.6---Remote-Code-Execution](https://github.com/CybermonkX/CVE-2019-16278_Nostromo-1.9.6---Remote-Code-Execution)
 
@@ -49438,7 +49463,6 @@
 - [Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271)
 - [Jsmoreira02/CVE-2014-6271](https://github.com/Jsmoreira02/CVE-2014-6271)
 - [hanmin0512/CVE-2014-6271_pwnable](https://github.com/hanmin0512/CVE-2014-6271_pwnable)
-- [0xTabun/CVE-2014-6271](https://github.com/0xTabun/CVE-2014-6271)
 - [0xN7y/CVE-2014-6271](https://github.com/0xN7y/CVE-2014-6271)
 - [AlissonFaoli/Shellshock](https://github.com/AlissonFaoli/Shellshock)
 - [hackintoanetwork/shellshock](https://github.com/hackintoanetwork/shellshock)
@@ -49458,8 +49482,8 @@
 - [mrintern/thm_steelmountain_CVE-2014-6287](https://github.com/mrintern/thm_steelmountain_CVE-2014-6287)
 - [hadrian3689/rejetto_hfs_rce](https://github.com/hadrian3689/rejetto_hfs_rce)
 - [randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution](https://github.com/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution)
-- [0xTabun/CVE-2014-6287](https://github.com/0xTabun/CVE-2014-6287)
 - [zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287)
+- [10cks/CVE-2014-6287](https://github.com/10cks/CVE-2014-6287)
 - [francescobrina/hfs-cve-2014-6287-exploit](https://github.com/francescobrina/hfs-cve-2014-6287-exploit)
 
 ### CVE-2014-6332 (2014-11-11)
@@ -51174,7 +51198,6 @@
 - [n3rdh4x0r/CVE-2007-2447](https://github.com/n3rdh4x0r/CVE-2007-2447)
 - [bdunlap9/CVE-2007-2447_python](https://github.com/bdunlap9/CVE-2007-2447_python)
 - [MikeRega7/CVE-2007-2447-RCE](https://github.com/MikeRega7/CVE-2007-2447-RCE)
-- [0xTabun/CVE-2007-2447](https://github.com/0xTabun/CVE-2007-2447)
 - [ShivamDey/Samba-CVE-2007-2447-Exploit](https://github.com/ShivamDey/Samba-CVE-2007-2447-Exploit)
 - [Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447)
 - [IamLucif3r/CVE-2007-2447-Exploit](https://github.com/IamLucif3r/CVE-2007-2447-Exploit)
