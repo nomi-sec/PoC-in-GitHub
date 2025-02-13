@@ -458,7 +458,7 @@
 
 ### CVE-2024-0762 (2024-05-14)
 
-<code>Potential buffer overflow \nin unsafe UEFI variable handling \n\nin Phoenix SecureCore™ for select Intel platforms\n\nThis issue affects:\n\nPhoenix \n\nSecureCore™ for Intel Kaby Lake: from 4.0.1.1 before 4.0.1.998;\n\nPhoenix \n\nSecureCore™ for Intel Coffee Lake: from 4.1.0.1 before 4.1.0.562;\n\nPhoenix \n\nSecureCore™ for Intel Ice Lake: from 4.2.0.1 before 4.2.0.323;\n\nPhoenix \n\nSecureCore™ for Intel Comet Lake: from 4.2.1.1 before 4.2.1.287;\n\nPhoenix \n\nSecureCore™ for Intel Tiger Lake: from 4.3.0.1 before 4.3.0.236;\n\nPhoenix \n\nSecureCore™ for Intel Jasper Lake: from 4.3.1.1 before 4.3.1.184;\n\nPhoenix \n\nSecureCore™ for Intel Alder Lake: from 4.4.0.1 before 4.4.0.269;\n\nPhoenix \n\nSecureCore™ for Intel Raptor Lake: from 4.5.0.1 before 4.5.0.218;\n\nPhoenix \n\nSecureCore™ for Intel Meteor Lake: from 4.5.1.1 before 4.5.1.15.\n\n
+<code>Potential buffer overflow \nin unsafe UEFI variable handling \n\nin Phoenix SecureCore™ for select Intel platforms\n\nThis issue affects:\n\nPhoenix \n\nSecureCore™ for Intel Kaby Lake: from 4.0.1.1 before 4.0.1.998;\n\nPhoenix \n\nSecureCore™ for Intel Coffee Lake: from 4.1.0.1 before 4.1.0.562;\n\nPhoenix \n\nSecureCore™ for Intel Ice Lake: from 4.2.0.1 before 4.2.0.323;\n\nPhoenix \n\nSecureCore™ for Intel Comet Lake: from 4.2.1.1 before 4.2.1.287;\n\nPhoenix \n\nSecureCore™ for Intel Tiger Lake: from 4.3.0.1 before 4.3.0.236;\n\nPhoenix \n\nSecureCore™ for Intel Jasper Lake: from 4.3.1.1 before 4.3.1.184;\n\nPhoenix \n\nSecureCore™ for Intel Alder Lake: from 4.4.0.1 before 4.4.0.269;\n\nPhoenix \n\nSecureCore™ for Intel Raptor Lake: from 4.5.0.1 before 4.5.0.218;\n\nPhoenix \n\nSecureCore™ for Intel Meteor Lake: from 4.5.1.1 before 4.5.1.15.
 </code>
 
 - [tadash10/Detect-CVE-2024-0762](https://github.com/tadash10/Detect-CVE-2024-0762)
@@ -502,7 +502,7 @@
 
 ### CVE-2024-1086 (2024-01-31)
 
-<code>A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nThe nft_verdict_init() function allows positive values as drop error within the hook verdict, and hence the nf_hook_slow() function can cause a double free vulnerability when NF_DROP is issued with a drop error which resembles NF_ACCEPT.\n\nWe recommend upgrading past commit f342de4e2f33e0e39165d8639387aa6c19dff660.\n\n
+<code>A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nThe nft_verdict_init() function allows positive values as drop error within the hook verdict, and hence the nf_hook_slow() function can cause a double free vulnerability when NF_DROP is issued with a drop error which resembles NF_ACCEPT.\n\nWe recommend upgrading past commit f342de4e2f33e0e39165d8639387aa6c19dff660.
 </code>
 
 - [Notselwyn/CVE-2024-1086](https://github.com/Notselwyn/CVE-2024-1086)
@@ -689,7 +689,7 @@
 
 ### CVE-2024-1874 (2024-04-29)
 
-<code>In PHP versions 8.1.* before 8.1.28, 8.2.* before 8.2.18, 8.3.* before 8.3.5, when using proc_open() command with array syntax, due to insufficient escaping, if the arguments of the executed command are controlled by a malicious user, the user can supply arguments that would execute arbitrary commands in Windows shell. \n\n
+<code>In PHP versions 8.1.* before 8.1.28, 8.2.* before 8.2.18, 8.3.* before 8.3.5, when using proc_open() command with array syntax, due to insufficient escaping, if the arguments of the executed command are controlled by a malicious user, the user can supply arguments that would execute arbitrary commands in Windows shell.
 </code>
 
 - [ox1111/-CVE-2024-1874-](https://github.com/ox1111/-CVE-2024-1874-)
@@ -815,7 +815,7 @@
 
 ### CVE-2024-2961 (2024-04-17)
 
-<code>The iconv() function in the GNU C Library versions 2.39 and older may overflow the output buffer passed to it by up to 4 bytes when converting strings to the ISO-2022-CN-EXT character set, which may be used to crash an application or overwrite a neighbouring variable.\n
+<code>The iconv() function in the GNU C Library versions 2.39 and older may overflow the output buffer passed to it by up to 4 bytes when converting strings to the ISO-2022-CN-EXT character set, which may be used to crash an application or overwrite a neighbouring variable.
 </code>
 
 - [mattaperkins/FIX-CVE-2024-2961](https://github.com/mattaperkins/FIX-CVE-2024-2961)
@@ -910,7 +910,7 @@
 
 ### CVE-2024-3116 (2024-04-04)
 
-<code>pgAdmin &lt;= 8.4 is affected by a  Remote Code Execution (RCE) vulnerability through the validate binary path API. This vulnerability allows attackers to execute arbitrary code on the server hosting PGAdmin, posing a severe risk to the database management system's integrity and the security of the underlying data.\n
+<code>pgAdmin &lt;= 8.4 is affected by a  Remote Code Execution (RCE) vulnerability through the validate binary path API. This vulnerability allows attackers to execute arbitrary code on the server hosting PGAdmin, posing a severe risk to the database management system's integrity and the security of the underlying data.
 </code>
 
 - [TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4](https://github.com/TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4)
@@ -3159,7 +3159,7 @@
 
 ### CVE-2024-21626 (2024-01-31)
 
-<code>runc is a CLI tool for spawning and running containers on Linux according to the OCI specification. In runc 1.1.11 and earlier, due to an internal file descriptor leak, an attacker could cause a newly-spawned container process (from runc exec) to have a working directory in the host filesystem namespace, allowing for a container escape by giving access to the host filesystem (&quot;attack 2&quot;). The same attack could be used by a malicious image to allow a container process to gain access to the host filesystem through runc run (&quot;attack 1&quot;). Variants of attacks 1 and 2 could be also be used to overwrite semi-arbitrary host binaries, allowing for complete container escapes (&quot;attack 3a&quot; and &quot;attack 3b&quot;). runc 1.1.12 includes patches for this issue. 
+<code>runc is a CLI tool for spawning and running containers on Linux according to the OCI specification. In runc 1.1.11 and earlier, due to an internal file descriptor leak, an attacker could cause a newly-spawned container process (from runc exec) to have a working directory in the host filesystem namespace, allowing for a container escape by giving access to the host filesystem (&quot;attack 2&quot;). The same attack could be used by a malicious image to allow a container process to gain access to the host filesystem through runc run (&quot;attack 1&quot;). Variants of attacks 1 and 2 could be also be used to overwrite semi-arbitrary host binaries, allowing for complete container escapes (&quot;attack 3a&quot; and &quot;attack 3b&quot;). runc 1.1.12 includes patches for this issue.
 </code>
 
 - [zpxlz/CVE-2024-21626-POC](https://github.com/zpxlz/CVE-2024-21626-POC)
@@ -3208,7 +3208,7 @@
 
 ### CVE-2024-21733 (2024-01-19)
 
-<code>Generation of Error Message Containing Sensitive Information vulnerability in Apache Tomcat.This issue affects Apache Tomcat: from 8.5.7 through 8.5.63, from 9.0.0-M11 through 9.0.43.\n\nUsers are recommended to upgrade to version 8.5.64 onwards or 9.0.44 onwards, which contain a fix for the issue.\n\n
+<code>Generation of Error Message Containing Sensitive Information vulnerability in Apache Tomcat.This issue affects Apache Tomcat: from 8.5.7 through 8.5.63, from 9.0.0-M11 through 9.0.43.\n\nUsers are recommended to upgrade to version 8.5.64 onwards or 9.0.44 onwards, which contain a fix for the issue.
 </code>
 
 - [LtmThink/CVE-2024-21733](https://github.com/LtmThink/CVE-2024-21733)
@@ -3330,7 +3330,7 @@
 
 ### CVE-2024-22243 (2024-02-23)
 
-<code>Applications that use UriComponentsBuilder to parse an externally provided URL (e.g. through a query parameter) AND perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html  attack or to a SSRF attack if the URL is used after passing validation checks.\n
+<code>Applications that use UriComponentsBuilder to parse an externally provided URL (e.g. through a query parameter) AND perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html  attack or to a SSRF attack if the URL is used after passing validation checks.
 </code>
 
 - [SeanPesce/CVE-2024-22243](https://github.com/SeanPesce/CVE-2024-22243)
@@ -3338,7 +3338,7 @@
 
 ### CVE-2024-22262 (2024-04-16)
 
-<code>Applications that use UriComponentsBuilder to parse an externally provided URL (e.g. through a query parameter) AND perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html  attack or to a SSRF attack if the URL is used after passing validation checks.\n\nThis is the same as  CVE-2024-22259 https://spring.io/security/cve-2024-22259  and  CVE-2024-22243 https://spring.io/security/cve-2024-22243 , but with different input.\n\n
+<code>Applications that use UriComponentsBuilder to parse an externally provided URL (e.g. through a query parameter) AND perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html  attack or to a SSRF attack if the URL is used after passing validation checks.\n\nThis is the same as  CVE-2024-22259 https://spring.io/security/cve-2024-22259  and  CVE-2024-22243 https://spring.io/security/cve-2024-22243 , but with different input.
 </code>
 
 - [Performant-Labs/CVE-2024-22262](https://github.com/Performant-Labs/CVE-2024-22262)
@@ -3376,7 +3376,7 @@
 
 ### CVE-2024-22393 (2024-02-22)
 
-<code>Unrestricted Upload of File with Dangerous Type vulnerability in Apache Answer.This issue affects Apache Answer: through 1.2.1.\n\nPixel Flood Attack by uploading large pixel files will cause server out of memory. A logged-in user can cause such an attack by uploading an image when posting content.\nUsers are recommended to upgrade to version [1.2.5], which fixes the issue.\n\n
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Apache Answer.This issue affects Apache Answer: through 1.2.1.\n\nPixel Flood Attack by uploading large pixel files will cause server out of memory. A logged-in user can cause such an attack by uploading an image when posting content.\nUsers are recommended to upgrade to version [1.2.5], which fixes the issue.
 </code>
 
 - [omranisecurity/CVE-2024-22393](https://github.com/omranisecurity/CVE-2024-22393)
@@ -3434,7 +3434,7 @@
 
 - [zunak/CVE-2024-22640](https://github.com/zunak/CVE-2024-22640)
 
-### CVE-2024-22641 (-)
+### CVE-2024-22641 (2024-05-28)
 
 <code>TCPDF version 6.6.5 and before is vulnerable to ReDoS (Regular Expression Denial of Service) if parsing an untrusted SVG file.
 </code>
@@ -3455,7 +3455,7 @@
 
 - [hacker625/CVE-2024-22752](https://github.com/hacker625/CVE-2024-22752)
 
-### CVE-2024-22774 (-)
+### CVE-2024-22774 (2024-05-13)
 
 <code>An issue in Panoramic Corporation Digital Imaging Software v.9.1.2.7600 allows a local attacker to escalate privileges via the ccsservice.exe component.
 </code>
@@ -3970,7 +3970,7 @@
 
 ### CVE-2024-24549 (2024-03-13)
 
-<code>Denial of Service due to improper input validation vulnerability for HTTP/2 requests in Apache Tomcat. When processing an HTTP/2 request, if the request exceeded any of the configured limits for headers, the associated HTTP/2 stream was not reset until after all of the headers had been processed.This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.0-M16, from 10.1.0-M1 through 10.1.18, from 9.0.0-M1 through 9.0.85, from 8.5.0 through 8.5.98.\n\nUsers are recommended to upgrade to version 11.0.0-M17, 10.1.19, 9.0.86 or 8.5.99 which fix the issue.\n\n
+<code>Denial of Service due to improper input validation vulnerability for HTTP/2 requests in Apache Tomcat. When processing an HTTP/2 request, if the request exceeded any of the configured limits for headers, the associated HTTP/2 stream was not reset until after all of the headers had been processed.This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.0-M16, from 10.1.0-M1 through 10.1.18, from 9.0.0-M1 through 9.0.85, from 8.5.0 through 8.5.98.\n\nUsers are recommended to upgrade to version 11.0.0-M17, 10.1.19, 9.0.86 or 8.5.99 which fix the issue.
 </code>
 
 - [Abdurahmon3236/CVE-2024-24549](https://github.com/Abdurahmon3236/CVE-2024-24549)
@@ -3978,7 +3978,7 @@
 
 ### CVE-2024-24576 (2024-04-09)
 
-<code>Rust is a programming language. The Rust Security Response WG was notified that the Rust standard library prior to version 1.77.2 did not properly escape arguments when invoking batch files (with the `bat` and `cmd` extensions) on Windows using the `Command`. An attacker able to control the arguments passed to the spawned process could execute arbitrary shell commands by bypassing the escaping. The severity of this vulnerability is critical for those who invoke batch files on Windows with untrusted arguments. No other platform or use is affected.\n\nThe `Command::arg` and `Command::args` APIs state in their documentation that the arguments will be passed to the spawned process as-is, regardless of the content of the arguments, and will not be evaluated by a shell. This means it should be safe to pass untrusted input as an argument.\n\nOn Windows, the implementation of this is more complex than other platforms, because the Windows API only provides a single string containing all the arguments to the spawned process, and it's up to the spawned process to split them. Most programs use the standard C run-time argv, which in practice results in a mostly consistent way arguments are splitted.\n\nOne exception though is `cmd.exe` (used among other things to execute batch files), which has its own argument splitting logic. That forces the standard library to implement custom escaping for arguments passed to batch files. Unfortunately it was reported that our escaping logic was not thorough enough, and it was possible to pass malicious arguments that would result in arbitrary shell execution.\n\nDue to the complexity of `cmd.exe`, we didn't identify a solution that would correctly escape arguments in all cases. To maintain our API guarantees, we improved the robustness of the escaping code, and changed the `Command` API to return an `InvalidInput` error when it cannot safely escape an argument. This error will be emitted when spawning the process.\n\nThe fix is included in Rust 1.77.2. Note that the new escaping logic for batch files errs on the conservative side, and could reject valid arguments. Those who implement the escaping themselves or only handle trusted inputs on Windows can also use the `CommandExt::raw_arg` method to bypass the standard library's escaping logic. 
+<code>Rust is a programming language. The Rust Security Response WG was notified that the Rust standard library prior to version 1.77.2 did not properly escape arguments when invoking batch files (with the `bat` and `cmd` extensions) on Windows using the `Command`. An attacker able to control the arguments passed to the spawned process could execute arbitrary shell commands by bypassing the escaping. The severity of this vulnerability is critical for those who invoke batch files on Windows with untrusted arguments. No other platform or use is affected.\n\nThe `Command::arg` and `Command::args` APIs state in their documentation that the arguments will be passed to the spawned process as-is, regardless of the content of the arguments, and will not be evaluated by a shell. This means it should be safe to pass untrusted input as an argument.\n\nOn Windows, the implementation of this is more complex than other platforms, because the Windows API only provides a single string containing all the arguments to the spawned process, and it's up to the spawned process to split them. Most programs use the standard C run-time argv, which in practice results in a mostly consistent way arguments are splitted.\n\nOne exception though is `cmd.exe` (used among other things to execute batch files), which has its own argument splitting logic. That forces the standard library to implement custom escaping for arguments passed to batch files. Unfortunately it was reported that our escaping logic was not thorough enough, and it was possible to pass malicious arguments that would result in arbitrary shell execution.\n\nDue to the complexity of `cmd.exe`, we didn't identify a solution that would correctly escape arguments in all cases. To maintain our API guarantees, we improved the robustness of the escaping code, and changed the `Command` API to return an `InvalidInput` error when it cannot safely escape an argument. This error will be emitted when spawning the process.\n\nThe fix is included in Rust 1.77.2. Note that the new escaping logic for batch files errs on the conservative side, and could reject valid arguments. Those who implement the escaping themselves or only handle trusted inputs on Windows can also use the `CommandExt::raw_arg` method to bypass the standard library's escaping logic.
 </code>
 
 - [frostb1ten/CVE-2024-24576-PoC](https://github.com/frostb1ten/CVE-2024-24576-PoC)
@@ -4388,7 +4388,7 @@
 
 ### CVE-2024-26308 (2024-02-19)
 
-<code>Allocation of Resources Without Limits or Throttling vulnerability in Apache Commons Compress.This issue affects Apache Commons Compress: from 1.21 before 1.26.\n\nUsers are recommended to upgrade to version 1.26, which fixes the issue.\n\n
+<code>Allocation of Resources Without Limits or Throttling vulnerability in Apache Commons Compress.This issue affects Apache Commons Compress: from 1.21 before 1.26.\n\nUsers are recommended to upgrade to version 1.26, which fixes the issue.
 </code>
 
 - [crazycatMyopic/cve](https://github.com/crazycatMyopic/cve)
@@ -4513,7 +4513,7 @@
 
 ### CVE-2024-27348 (2024-04-22)
 
-<code>RCE-Remote Command Execution vulnerability in Apache HugeGraph-Server.This issue affects Apache HugeGraph-Server: from 1.0.0 before 1.3.0 in Java8 &amp; Java11\n\nUsers are recommended to upgrade to version 1.3.0 with Java11 &amp; enable the Auth system, which fixes the issue.\n\n
+<code>RCE-Remote Command Execution vulnerability in Apache HugeGraph-Server.This issue affects Apache HugeGraph-Server: from 1.0.0 before 1.3.0 in Java8 &amp; Java11\n\nUsers are recommended to upgrade to version 1.3.0 with Java11 &amp; enable the Auth system, which fixes the issue.
 </code>
 
 - [Zeyad-Azima/CVE-2024-27348](https://github.com/Zeyad-Azima/CVE-2024-27348)
@@ -4896,7 +4896,7 @@
 
 - [mansk1es/CVE-2024-29404_Razer](https://github.com/mansk1es/CVE-2024-29404_Razer)
 
-### CVE-2024-29415 (-)
+### CVE-2024-29415 (2024-05-27)
 
 <code>The ip package through 2.0.1 for Node.js might allow SSRF because some IP addresses (such as 127.1, 01200034567, 012.1.2.3, 000:0:0000::01, and ::fFFf:127.0.0.1) are improperly categorized as globally routable via isPublic. NOTE: this issue exists because of an incomplete fix for CVE-2023-42282.
 </code>
@@ -5193,7 +5193,7 @@
 ### CVE-2024-31719
 - [VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability](https://github.com/VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability)
 
-### CVE-2024-31771 (-)
+### CVE-2024-31771 (2024-05-13)
 
 <code>Insecure Permission vulnerability in TotalAV v.6.0.740 allows a local attacker to escalate privileges via a crafted file
 </code>
@@ -5229,7 +5229,7 @@
 
 - [Stuub/CVE-2024-31848-PoC](https://github.com/Stuub/CVE-2024-31848-PoC)
 
-### CVE-2024-31974 (-)
+### CVE-2024-31974 (2024-05-17)
 
 <code>The com.solarized.firedown (aka Solarized FireDown Browser &amp; Downloader) application 1.0.76 for Android allows a remote attacker to execute arbitrary JavaScript code via a crafted intent. com.solarized.firedown.IntentActivity uses a WebView component to display web content and doesn't adequately sanitize the URI or any extra data passed in the intent by any installed application (with no permissions).
 </code>
@@ -5346,7 +5346,7 @@
 
 ### CVE-2024-32113 (2024-05-08)
 
-<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache OFBiz.This issue affects Apache OFBiz: before 18.12.13.\n\nUsers are recommended to upgrade to version 18.12.13, which fixes the issue.\n\n
+<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache OFBiz.This issue affects Apache OFBiz: before 18.12.13.\n\nUsers are recommended to upgrade to version 18.12.13, which fixes the issue.
 </code>
 
 - [RacerZ-fighting/CVE-2024-32113-POC](https://github.com/RacerZ-fighting/CVE-2024-32113-POC)
@@ -5550,7 +5550,7 @@
 
 - [Grantzile/PoC-CVE-2024-33883](https://github.com/Grantzile/PoC-CVE-2024-33883)
 
-### CVE-2024-33901 (-)
+### CVE-2024-33901 (2024-05-20)
 
 <code>Issue in KeePassXC 2.7.7 allows an attacker (who has the privileges of the victim) to recover some passwords stored in the .kdbx database via a memory dump. NOTE: the vendor disputes this because memory-management constraints make this unavoidable in the current design and other realistic designs.
 </code>
@@ -5599,56 +5599,56 @@
 
 - [MXWXZ/CVE-2024-34144](https://github.com/MXWXZ/CVE-2024-34144)
 
-### CVE-2024-34220 (-)
+### CVE-2024-34220 (2024-05-09)
 
 <code>Sourcecodester Human Resource Management System 1.0 is vulnerable to SQL Injection via the 'leave' parameter.
 </code>
 
 - [dovankha/CVE-2024-34220](https://github.com/dovankha/CVE-2024-34220)
 
-### CVE-2024-34221 (-)
+### CVE-2024-34221 (2024-05-13)
 
 <code>Sourcecodester Human Resource Management System 1.0 is vulnerable to Insecure Permissions resulting in privilege escalation.
 </code>
 
 - [dovankha/CVE-2024-34221](https://github.com/dovankha/CVE-2024-34221)
 
-### CVE-2024-34222 (-)
+### CVE-2024-34222 (2024-05-13)
 
 <code>Sourcecodester Human Resource Management System 1.0 is vulnerable to SQL Injection via the searccountry parameter.
 </code>
 
 - [dovankha/CVE-2024-34222](https://github.com/dovankha/CVE-2024-34222)
 
-### CVE-2024-34223 (-)
+### CVE-2024-34223 (2024-05-13)
 
 <code>Insecure permission vulnerability in /hrm/leaverequest.php in SourceCodester Human Resource Management System 1.0 allow attackers to approve or reject leave ticket.
 </code>
 
 - [dovankha/CVE-2024-34223](https://github.com/dovankha/CVE-2024-34223)
 
-### CVE-2024-34224 (-)
+### CVE-2024-34224 (2024-05-13)
 
 <code>Cross Site Scripting vulnerability in /php-lms/classes/Users.php?f=save in Computer Laboratory Management System using PHP and MySQL 1.0 allow remote attackers to inject arbitrary web script or HTML via the firstname, middlename, lastname parameters.
 </code>
 
 - [dovankha/CVE-2024-34224](https://github.com/dovankha/CVE-2024-34224)
 
-### CVE-2024-34225 (-)
+### CVE-2024-34225 (2024-05-13)
 
 <code>Cross Site Scripting vulnerability in php-lms/admin/?page=system_info in Computer Laboratory Management System using PHP and MySQL 1.0 allow remote attackers to inject arbitrary web script or HTML via the name, shortname parameters.
 </code>
 
 - [dovankha/CVE-2024-34225](https://github.com/dovankha/CVE-2024-34225)
 
-### CVE-2024-34226 (-)
+### CVE-2024-34226 (2024-05-13)
 
 <code>SQL injection vulnerability in /php-sqlite-vms/?page=manage_visitor&amp;id=1 in SourceCodester Visitor Management System 1.0 allow attackers to execute arbitrary SQL commands via the id parameters.
 </code>
 
 - [dovankha/CVE-2024-34226](https://github.com/dovankha/CVE-2024-34226)
 
-### CVE-2024-34310 (-)
+### CVE-2024-34310 (2024-05-10)
 
 <code>Jin Fang Times Content Management System v3.2.3 was discovered to contain a SQL injection vulnerability via the id parameter.
 </code>
@@ -5752,7 +5752,7 @@
 
 - [Alaatk/CVE-2024-34474](https://github.com/Alaatk/CVE-2024-34474)
 
-### CVE-2024-34582 (-)
+### CVE-2024-34582 (2024-05-16)
 
 <code>Sunhillo SureLine through 8.10.0 on RICI 5000 devices allows cgi/usrPasswd.cgi userid_change XSS within the Forgot Password feature.
 </code>
@@ -5761,7 +5761,7 @@
 
 ### CVE-2024-34693 (2024-06-20)
 
-<code>Improper Input Validation vulnerability in Apache Superset, allows for an authenticated attacker to create a MariaDB connection with local_infile enabled. If both the MariaDB server (off by default) and the local mysql client on the web server are set to allow for local infile, it's possible for the attacker to execute a specific MySQL/MariaDB SQL command that is able to read files from the server and insert their content on a MariaDB database table.This issue affects Apache Superset: before 3.1.3 and version 4.0.0\n\nUsers are recommended to upgrade to version 4.0.1 or 3.1.3, which fixes the issue.\n\n
+<code>Improper Input Validation vulnerability in Apache Superset, allows for an authenticated attacker to create a MariaDB connection with local_infile enabled. If both the MariaDB server (off by default) and the local mysql client on the web server are set to allow for local infile, it's possible for the attacker to execute a specific MySQL/MariaDB SQL command that is able to read files from the server and insert their content on a MariaDB database table.This issue affects Apache Superset: before 3.1.3 and version 4.0.0\n\nUsers are recommended to upgrade to version 4.0.1 or 3.1.3, which fixes the issue.
 </code>
 
 - [mbadanoiu/CVE-2024-34693](https://github.com/mbadanoiu/CVE-2024-34693)
@@ -5803,7 +5803,7 @@
 
 - [ShellUnease/CVE-2024-34833-payroll-management-system-rce](https://github.com/ShellUnease/CVE-2024-34833-payroll-management-system-rce)
 
-### CVE-2024-34958 (-)
+### CVE-2024-34958 (2024-05-16)
 
 <code>idccms v1.35 was discovered to contain a Cross-Site Request Forgery (CSRF) via the component admin/banner_deal.php?mudi=add
 </code>
@@ -5831,7 +5831,7 @@
 
 - [SpiralBL0CK/CVE-2024-35176](https://github.com/SpiralBL0CK/CVE-2024-35176)
 
-### CVE-2024-35205 (-)
+### CVE-2024-35205 (2024-05-13)
 
 <code>The WPS Office (aka cn.wps.moffice_eng) application before 17.0.0 for Android fails to properly sanitize file names before processing them through external application interactions, leading to a form of path traversal. This potentially enables any application to dispatch a crafted library file, aiming to overwrite an existing native library utilized by WPS Office. Successful exploitation could result in the execution of arbitrary commands under the guise of WPS Office's application ID.
 </code>
@@ -5840,7 +5840,7 @@
 
 ### CVE-2024-35242 (2024-06-10)
 
-<code>Composer is a dependency manager for PHP. On the 2.x branch prior to versions 2.2.24 and 2.7.7, the `composer install` command running inside a git/hg repository which has specially crafted branch names can lead to command injection. This requires cloning untrusted repositories. Patches are available in version 2.2.24 for 2.2 LTS or 2.7.7 for mainline. As a workaround, avoid cloning potentially compromised repositories.\n
+<code>Composer is a dependency manager for PHP. On the 2.x branch prior to versions 2.2.24 and 2.7.7, the `composer install` command running inside a git/hg repository which has specially crafted branch names can lead to command injection. This requires cloning untrusted repositories. Patches are available in version 2.2.24 for 2.2 LTS or 2.7.7 for mainline. As a workaround, avoid cloning potentially compromised repositories.
 </code>
 
 - [KKkai0315/CVE-2024-35242](https://github.com/KKkai0315/CVE-2024-35242)
@@ -5869,35 +5869,35 @@
 
 - [ewilded/CVE-2024-35315-POC](https://github.com/ewilded/CVE-2024-35315-POC)
 
-### CVE-2024-35333 (-)
+### CVE-2024-35333 (2024-05-29)
 
 <code>A stack-buffer-overflow vulnerability exists in the read_charset_decl function of html2xhtml 1.3. This vulnerability occurs due to improper bounds checking when copying data into a fixed-size stack buffer. An attacker can exploit this vulnerability by providing a specially crafted input to the vulnerable function, causing a buffer overflow and potentially leading to arbitrary code execution, denial of service, or data corruption.
 </code>
 
 - [momo1239/CVE-2024-35333](https://github.com/momo1239/CVE-2024-35333)
 
-### CVE-2024-35468 (-)
+### CVE-2024-35468 (2024-05-30)
 
 <code>A SQL injection vulnerability in /hrm/index.php in SourceCodester Human Resource Management System 1.0 allows attackers to execute arbitrary SQL commands via the password parameter.
 </code>
 
 - [dovankha/CVE-2024-35468](https://github.com/dovankha/CVE-2024-35468)
 
-### CVE-2024-35469 (-)
+### CVE-2024-35469 (2024-05-30)
 
 <code>A SQL injection vulnerability in /hrm/user/ in SourceCodester Human Resource Management System 1.0 allows attackers to execute arbitrary SQL commands via the password parameter.
 </code>
 
 - [dovankha/CVE-2024-35469](https://github.com/dovankha/CVE-2024-35469)
 
-### CVE-2024-35475 (-)
+### CVE-2024-35475 (2024-05-22)
 
 <code>A Cross-Site Request Forgery (CSRF) vulnerability was discovered in OpenKM Community Edition on or before version 6.3.12. The vulnerability exists in /admin/DatabaseQuery, which allows an attacker to manipulate a victim with administrative privileges to execute arbitrary SQL commands.
 </code>
 
 - [carsonchan12345/CVE-2024-35475](https://github.com/carsonchan12345/CVE-2024-35475)
 
-### CVE-2024-35511 (-)
+### CVE-2024-35511 (2024-05-28)
 
 <code>phpgurukul Men Salon Management System v2.0 is vulnerable to SQL Injection via the &quot;username&quot; parameter of /msms/admin/index.php.
 </code>
@@ -5918,7 +5918,7 @@
 
 - [whwhwh96/CVE-2024-35584](https://github.com/whwhwh96/CVE-2024-35584)
 
-### CVE-2024-36079 (-)
+### CVE-2024-36079 (2024-05-24)
 
 <code>An issue was discovered in Vaultize 21.07.27. When uploading files, there is no check that the filename parameter is correct. As a result, a temporary file will be created outside the specified directory when the file is downloaded. To exploit this, an authenticated user would upload a file with an incorrect file name, and then download it.
 </code>
@@ -5927,7 +5927,7 @@
 
 ### CVE-2024-36104 (2024-06-04)
 
-<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache OFBiz. This issue affects Apache OFBiz: before 18.12.14.\n\nUsers are recommended to upgrade to version 18.12.14, which fixes the issue.\n\n
+<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache OFBiz. This issue affects Apache OFBiz: before 18.12.14.\n\nUsers are recommended to upgrade to version 18.12.14, which fixes the issue.
 </code>
 
 - [ggfzx/CVE-2024-36104](https://github.com/ggfzx/CVE-2024-36104)
@@ -5991,7 +5991,7 @@
 
 - [IvanGlinkin/CVE-2024-36821](https://github.com/IvanGlinkin/CVE-2024-36821)
 
-### CVE-2024-36823 (-)
+### CVE-2024-36823 (2024-06-06)
 
 <code>The encrypt() function of Ninja Core v7.0.0 was discovered to use a weak cryptographic algorithm, leading to a possible leakage of sensitive information.
 </code>
@@ -6284,7 +6284,7 @@
 <code>Windows WLAN AutoConfig Service Elevation of Privilege Vulnerability
 </code>
 
-- [johnjhacking/CVE-2024-38143](https://github.com/johnjhacking/CVE-2024-38143)
+- [redr0nin/CVE-2024-38143](https://github.com/redr0nin/CVE-2024-38143)
 
 ### CVE-2024-38144 (2024-08-13)
 
@@ -6786,7 +6786,7 @@
 
 ### CVE-2024-41107 (2024-07-19)
 
-<code>The CloudStack SAML authentication (disabled by default) does not enforce signature check. In CloudStack environments where SAML authentication is enabled, an attacker that initiates CloudStack SAML single sign-on authentication can bypass SAML authentication by submitting a spoofed SAML response with no signature and known or guessed username and other user details of a SAML-enabled CloudStack user-account. In such environments, this can result in a complete compromise of the resources owned and/or accessible by a SAML enabled user-account.\n\nAffected users are recommended to disable the SAML authentication plugin by setting the &quot;saml2.enabled&quot; global setting to &quot;false&quot;, or upgrade to version 4.18.2.2, 4.19.1.0 or later, which addresses this issue.\n\n
+<code>The CloudStack SAML authentication (disabled by default) does not enforce signature check. In CloudStack environments where SAML authentication is enabled, an attacker that initiates CloudStack SAML single sign-on authentication can bypass SAML authentication by submitting a spoofed SAML response with no signature and known or guessed username and other user details of a SAML-enabled CloudStack user-account. In such environments, this can result in a complete compromise of the resources owned and/or accessible by a SAML enabled user-account.\n\nAffected users are recommended to disable the SAML authentication plugin by setting the &quot;saml2.enabled&quot; global setting to &quot;false&quot;, or upgrade to version 4.18.2.2, 4.19.1.0 or later, which addresses this issue.
 </code>
 
 - [d0rb/CVE-2024-41107](https://github.com/d0rb/CVE-2024-41107)
@@ -6898,6 +6898,13 @@
 </code>
 
 - [fj016/CVE-2024-41992-PoC](https://github.com/fj016/CVE-2024-41992-PoC)
+
+### CVE-2024-42008 (2024-08-05)
+
+<code>A Cross-Site Scripting vulnerability in rcmail_action_mail_get-&gt;run() in Roundcube through 1.5.7 and 1.6.x through 1.6.7 allows a remote attacker to steal and send emails of a victim via a malicious e-mail attachment served with a dangerous Content-Type header.
+</code>
+
+- [victoni/Roundcube-CVE-2024-42008-and-CVE-2024-42010-POC](https://github.com/victoni/Roundcube-CVE-2024-42008-and-CVE-2024-42010-POC)
 
 ### CVE-2024-42009 (2024-08-05)
 
@@ -7818,7 +7825,7 @@
 
 ### CVE-2024-49203 (2024-11-20)
 
-<code>Querydsl 5.1.0 and OpenFeign Querydsl 6.8 allows SQL/HQL injection in orderBy in JPAQuery.
+<code>Querydsl 5.1.0 and OpenFeign Querydsl 6.8 allows SQL/HQL injection in orderBy in JPAQuery. NOTE: this is disputed by a Querydsl community member because the product is not intended to defend against a developer who uses untrusted input directly in query construction.
 </code>
 
 - [CSIRTTrizna/CVE-2024-49203](https://github.com/CSIRTTrizna/CVE-2024-49203)
@@ -8531,7 +8538,7 @@
 <code>dashboards-reporting (aka Dashboards Reports) before 2.19.0.0, as shipped in OpenSearch before 2.19, allows XSS because Markdown is not sanitized when previewing a header or footer.
 </code>
 
-- [Jflye/CVE-2024-54160--Opensearch-HTML-Injection](https://github.com/Jflye/CVE-2024-54160--Opensearch-HTML-Injection)
+- [Jflye/CVE-2024-54160-Opensearch-HTML-And-Injection-Stored-XSS](https://github.com/Jflye/CVE-2024-54160-Opensearch-HTML-And-Injection-Stored-XSS)
 
 ### CVE-2024-54262 (2024-12-13)
 
@@ -9059,6 +9066,9 @@
 
 - [nca785/CVE-2024-57610](https://github.com/nca785/CVE-2024-57610)
 
+### CVE-2024-57725
+- [pointedsec/CVE-2024-57725](https://github.com/pointedsec/CVE-2024-57725)
+
 ### CVE-2024-57727 (2025-01-15)
 
 <code>SimpleHelp remote support software v5.5.7 and before is vulnerable to multiple path traversal vulnerabilities that enable unauthenticated remote attackers to download arbitrary files from the SimpleHelp host via crafted HTTP requests. These files include server configuration files containing various secrets and hashed user passwords.
@@ -9090,7 +9100,7 @@
 ## 2023
 ### CVE-2023-0045 (2023-04-25)
 
-<code>The current implementation of the prctl syscall does not issue an IBPB immediately during the syscall. The ib_prctl_set  function updates the Thread Information Flags (TIFs) for the task and updates the SPEC_CTRL MSR on the function __speculation_ctrl_update, but the IBPB is only issued on the next schedule, when the TIF bits are checked. This leaves the victim vulnerable to values already injected on the BTB, prior to the prctl syscall.  The patch that added the support for the conditional mitigation via prctl (ib_prctl_set) dates back to the kernel 4.9.176.\n\nWe recommend upgrading past commit a664ec9158eeddd75121d39c9a0758016097fa96\n\n
+<code>The current implementation of the prctl syscall does not issue an IBPB immediately during the syscall. The ib_prctl_set  function updates the Thread Information Flags (TIFs) for the task and updates the SPEC_CTRL MSR on the function __speculation_ctrl_update, but the IBPB is only issued on the next schedule, when the TIF bits are checked. This leaves the victim vulnerable to values already injected on the BTB, prior to the prctl syscall.  The patch that added the support for the conditional mitigation via prctl (ib_prctl_set) dates back to the kernel 4.9.176.\n\nWe recommend upgrading past commit a664ec9158eeddd75121d39c9a0758016097fa96
 </code>
 
 - [ASkyeye/CVE-2023-0045](https://github.com/ASkyeye/CVE-2023-0045)
@@ -9141,7 +9151,7 @@
 
 ### CVE-2023-0266 (2023-01-30)
 
-<code>A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ|WRITE}32 is missing locks that can be used in a use-after-free that can result in a priviledge escalation to gain ring0 access from the system user. We recommend upgrading past commit 56b88b50565cd8b946a2d00b0c83927b7ebb055e\n
+<code>A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ|WRITE}32 is missing locks that can be used in a use-after-free that can result in a priviledge escalation to gain ring0 access from the system user. We recommend upgrading past commit 56b88b50565cd8b946a2d00b0c83927b7ebb055e
 </code>
 
 - [SeanHeelan/claude_opus_cve_2023_0266](https://github.com/SeanHeelan/claude_opus_cve_2023_0266)
@@ -9395,7 +9405,7 @@
 
 ### CVE-2023-1829 (2023-04-12)
 
-<code>A use-after-free vulnerability in the Linux Kernel traffic control index filter (tcindex) can be exploited to achieve local privilege escalation. The tcindex_delete function which does not properly deactivate filters in case of a perfect hashes while deleting the underlying structure which can later lead to double freeing the structure. A local attacker user can use this vulnerability to elevate its privileges to root.\nWe recommend upgrading past commit 8c710f75256bb3cf05ac7b1672c82b92c43f3d28.\n\n
+<code>A use-after-free vulnerability in the Linux Kernel traffic control index filter (tcindex) can be exploited to achieve local privilege escalation. The tcindex_delete function which does not properly deactivate filters in case of a perfect hashes while deleting the underlying structure which can later lead to double freeing the structure. A local attacker user can use this vulnerability to elevate its privileges to root.\nWe recommend upgrading past commit 8c710f75256bb3cf05ac7b1672c82b92c43f3d28.
 </code>
 
 - [lanleft/CVE-2023-1829](https://github.com/lanleft/CVE-2023-1829)
@@ -9409,7 +9419,7 @@
 
 ### CVE-2023-1999 (2023-06-20)
 
-<code>There exists a use after free/double free in libwebp. An attacker can use the ApplyFiltersAndEncode() function and loop through to free best.bw and assign best = trial pointer. The second loop will then return 0 because of an Out of memory error in VP8 encoder, the pointer is still assigned to trial and the AddressSanitizer will attempt a double free. \n
+<code>There exists a use after free/double free in libwebp. An attacker can use the ApplyFiltersAndEncode() function and loop through to free best.bw and assign best = trial pointer. The second loop will then return 0 because of an Out of memory error in VP8 encoder, the pointer is still assigned to trial and the AddressSanitizer will attempt a double free.
 </code>
 
 - [Pazhanivelmani/webp_Android10_r33_CVE-2023-1999](https://github.com/Pazhanivelmani/webp_Android10_r33_CVE-2023-1999)
@@ -9606,7 +9616,7 @@
 
 ### CVE-2023-2728 (2023-07-03)
 
-<code>Users may be able to launch containers that bypass the mountable secrets policy enforced by the ServiceAccount admission plugin when using ephemeral containers. The policy ensures pods running with a service account may only reference secrets specified in the service account’s secrets field. Kubernetes clusters are only affected if the ServiceAccount admission plugin and the `kubernetes.io/enforce-mountable-secrets` annotation are used together with ephemeral containers.\n\n
+<code>Users may be able to launch containers that bypass the mountable secrets policy enforced by the ServiceAccount admission plugin when using ephemeral containers. The policy ensures pods running with a service account may only reference secrets specified in the service account’s secrets field. Kubernetes clusters are only affected if the ServiceAccount admission plugin and the `kubernetes.io/enforce-mountable-secrets` annotation are used together with ephemeral containers.
 </code>
 
 - [Cgv-Dev/Metasploit-Module-TFM](https://github.com/Cgv-Dev/Metasploit-Module-TFM)
@@ -9819,7 +9829,7 @@
 
 ### CVE-2023-3519 (2023-07-19)
 
-<code>Unauthenticated remote code execution\n
+<code>Unauthenticated remote code execution
 </code>
 
 - [telekom-security/cve-2023-3519-citrix-scanner](https://github.com/telekom-security/cve-2023-3519-citrix-scanner)
@@ -9873,7 +9883,7 @@
 
 ### CVE-2023-3824 (2023-08-11)
 
-<code>In PHP version 8.0.* before 8.0.30,  8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE. \n\n
+<code>In PHP version 8.0.* before 8.0.30,  8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE.
 </code>
 
 - [jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824)
@@ -9897,7 +9907,7 @@
 
 ### CVE-2023-3897 (2023-07-25)
 
-<code>\nUsername enumeration is possible through Bypassing CAPTCHA in On-premise SureMDM Solution on Windows deployment allows attacker to enumerate local user information via error message.\n\nThis issue affects SureMDM On-premise: 6.31 and below version \n\n
+<code>Username enumeration is possible through Bypassing CAPTCHA in On-premise SureMDM Solution on Windows deployment allows attacker to enumerate local user information via error message.\n\nThis issue affects SureMDM On-premise: 6.31 and below version
 </code>
 
 - [jFriedli/CVE-2023-3897](https://github.com/jFriedli/CVE-2023-3897)
@@ -9965,7 +9975,7 @@
 
 ### CVE-2023-4206 (2023-09-06)
 
-<code>A use-after-free vulnerability in the Linux kernel's net/sched: cls_route component can be exploited to achieve local privilege escalation.\n\nWhen route4_change() is called on an existing filter, the whole tcf_result struct is always copied into the new instance of the filter. This causes a problem when updating a filter bound to a class, as tcf_unbind_filter() is always called on the old instance in the success path, decreasing filter_cnt of the still referenced class and allowing it to be deleted, leading to a use-after-free.\n\nWe recommend upgrading past commit b80b829e9e2c1b3f7aae34855e04d8f6ecaf13c8.\n\n
+<code>A use-after-free vulnerability in the Linux kernel's net/sched: cls_route component can be exploited to achieve local privilege escalation.\n\nWhen route4_change() is called on an existing filter, the whole tcf_result struct is always copied into the new instance of the filter. This causes a problem when updating a filter bound to a class, as tcf_unbind_filter() is always called on the old instance in the success path, decreasing filter_cnt of the still referenced class and allowing it to be deleted, leading to a use-after-free.\n\nWe recommend upgrading past commit b80b829e9e2c1b3f7aae34855e04d8f6ecaf13c8.
 </code>
 
 - [hshivhare67/Kernel_4.1.15_CVE-2023-4206_CVE-2023-4207_CVE-2023-4208](https://github.com/hshivhare67/Kernel_4.1.15_CVE-2023-4206_CVE-2023-4207_CVE-2023-4208)
@@ -10113,7 +10123,7 @@
 
 ### CVE-2023-4622 (2023-09-06)
 
-<code>A use-after-free vulnerability in the Linux kernel's af_unix component can be exploited to achieve local privilege escalation.\n\nThe unix_stream_sendpage() function tries to add data to the last skb in the peer's recv queue without locking the queue. Thus there is a race where unix_stream_sendpage() could access an skb locklessly that is being released by garbage collection, resulting in use-after-free.\n\nWe recommend upgrading past commit 790c2f9d15b594350ae9bca7b236f2b1859de02c.\n\n
+<code>A use-after-free vulnerability in the Linux kernel's af_unix component can be exploited to achieve local privilege escalation.\n\nThe unix_stream_sendpage() function tries to add data to the last skb in the peer's recv queue without locking the queue. Thus there is a race where unix_stream_sendpage() could access an skb locklessly that is being released by garbage collection, resulting in use-after-free.\n\nWe recommend upgrading past commit 790c2f9d15b594350ae9bca7b236f2b1859de02c.
 </code>
 
 - [0range1337/CVE-CVE-2023-4622](https://github.com/0range1337/CVE-CVE-2023-4622)
@@ -10244,7 +10254,7 @@
 
 ### CVE-2023-4966 (2023-10-10)
 
-<code>Sensitive information disclosure in NetScaler ADC and NetScaler Gateway when configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA  virtual server. \n\n\n\n
+<code>Sensitive information disclosure in NetScaler ADC and NetScaler Gateway when configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA  virtual server.
 </code>
 
 - [Chocapikk/CVE-2023-4966](https://github.com/Chocapikk/CVE-2023-4966)
@@ -10271,14 +10281,14 @@
 
 ### CVE-2023-5043 (2023-10-25)
 
-<code>Ingress nginx annotation injection causes arbitrary command execution.\n
+<code>Ingress nginx annotation injection causes arbitrary command execution.
 </code>
 
 - [r0binak/CVE-2023-5043](https://github.com/r0binak/CVE-2023-5043)
 
 ### CVE-2023-5044 (2023-10-25)
 
-<code>Code injection via nginx.ingress.kubernetes.io/permanent-redirect annotation.\n
+<code>Code injection via nginx.ingress.kubernetes.io/permanent-redirect annotation.
 </code>
 
 - [r0binak/CVE-2023-5044](https://github.com/r0binak/CVE-2023-5044)
@@ -10400,7 +10410,7 @@
 
 ### CVE-2023-5717 (2023-10-25)
 
-<code>A heap out-of-bounds write vulnerability in the Linux kernel's Linux Kernel Performance Events (perf) component can be exploited to achieve local privilege escalation.\n\nIf perf_read_group() is called while an event's sibling_list is smaller than its child's sibling_list, it can increment or write to memory locations outside of the allocated buffer.\n\nWe recommend upgrading past commit 32671e3799ca2e4590773fd0e63aaa4229e50c06.\n\n
+<code>A heap out-of-bounds write vulnerability in the Linux kernel's Linux Kernel Performance Events (perf) component can be exploited to achieve local privilege escalation.\n\nIf perf_read_group() is called while an event's sibling_list is smaller than its child's sibling_list, it can increment or write to memory locations outside of the allocated buffer.\n\nWe recommend upgrading past commit 32671e3799ca2e4590773fd0e63aaa4229e50c06.
 </code>
 
 - [uthrasri/CVE-2023-5717](https://github.com/uthrasri/CVE-2023-5717)
@@ -10632,7 +10642,7 @@
 
 ### CVE-2023-6931 (2023-12-19)
 
-<code>A heap out-of-bounds write vulnerability in the Linux kernel's Performance Events system component can be exploited to achieve local privilege escalation.\n\nA perf_event's read_size can overflow, leading to an heap out-of-bounds increment or write in perf_read_group().\n\nWe recommend upgrading past commit 382c27f4ed28f803b1f1473ac2d8db0afc795a1b.\n\n
+<code>A heap out-of-bounds write vulnerability in the Linux kernel's Performance Events system component can be exploited to achieve local privilege escalation.\n\nA perf_event's read_size can overflow, leading to an heap out-of-bounds increment or write in perf_read_group().\n\nWe recommend upgrading past commit 382c27f4ed28f803b1f1473ac2d8db0afc795a1b.
 </code>
 
 - [K0n9-log/CVE-2023-6931](https://github.com/K0n9-log/CVE-2023-6931)
@@ -10811,7 +10821,7 @@
 
 ### CVE-2023-20593 (2023-07-24)
 
-<code>\nAn issue in “Zen 2” CPUs, under specific microarchitectural circumstances, may allow an attacker to potentially access sensitive information.\n\n\n\n\n\n\n
+<code>An issue in “Zen 2” CPUs, under specific microarchitectural circumstances, may allow an attacker to potentially access sensitive information.
 </code>
 
 - [sbaresearch/stop-zenbleed-win](https://github.com/sbaresearch/stop-zenbleed-win)
@@ -11666,7 +11676,7 @@
 ### CVE-2023-24100
 - [badboycxcc/CVE-2023-24100](https://github.com/badboycxcc/CVE-2023-24100)
 
-### CVE-2023-24203 (-)
+### CVE-2023-24203 (2024-05-14)
 
 <code>Cross Site Scripting vulnerability in SourceCodester Simple Customer Relationship Management System v1.0 allows attacker to execute arbitary code via the company or query parameter(s).
 </code>
@@ -11786,7 +11796,7 @@
 
 ### CVE-2023-24998 (2023-02-20)
 
-<code>Apache Commons FileUpload before 1.5 does not limit the number of request parts to be processed resulting in the possibility of an attacker triggering a DoS with a malicious upload or series of uploads.\n\n\n\n\nNote that, like all of the file upload limits, the\n          new configuration option (FileUploadBase#setFileCountMax) is not\n          enabled by default and must be explicitly configured.\n\n\n
+<code>Apache Commons FileUpload before 1.5 does not limit the number of request parts to be processed resulting in the possibility of an attacker triggering a DoS with a malicious upload or series of uploads.\n\n\n\n\nNote that, like all of the file upload limits, the\n          new configuration option (FileUploadBase#setFileCountMax) is not\n          enabled by default and must be explicitly configured.
 </code>
 
 - [nice1st/CVE-2023-24998](https://github.com/nice1st/CVE-2023-24998)
@@ -11896,7 +11906,7 @@
 
 ### CVE-2023-25690 (2023-03-07)
 
-<code>Some mod_proxy configurations on Apache HTTP Server versions 2.4.0 through 2.4.55 allow a HTTP Request Smuggling attack.\n\n\n\n\nConfigurations are affected when mod_proxy is enabled along with some form of RewriteRule\n or ProxyPassMatch in which a non-specific pattern matches\n some portion of the user-supplied request-target (URL) data and is then\n re-inserted into the proxied request-target using variable \nsubstitution. For example, something like:\n\n\n\n\nRewriteEngine on\nRewriteRule &quot;^/here/(.*)&quot; &quot;http://example.com:8080/elsewhere?$1&quot;; [P]\nProxyPassReverse /here/ http://example.com:8080/\n\n\nRequest splitting/smuggling could result in bypass of access controls in the proxy server, proxying unintended URLs to existing origin servers, and cache poisoning. Users are recommended to update to at least version 2.4.56 of Apache HTTP Server.\n\n\n
+<code>Some mod_proxy configurations on Apache HTTP Server versions 2.4.0 through 2.4.55 allow a HTTP Request Smuggling attack.\n\n\n\n\nConfigurations are affected when mod_proxy is enabled along with some form of RewriteRule\n or ProxyPassMatch in which a non-specific pattern matches\n some portion of the user-supplied request-target (URL) data and is then\n re-inserted into the proxied request-target using variable \nsubstitution. For example, something like:\n\n\n\n\nRewriteEngine on\nRewriteRule &quot;^/here/(.*)&quot; &quot;http://example.com:8080/elsewhere?$1&quot;; [P]\nProxyPassReverse /here/ http://example.com:8080/\n\n\nRequest splitting/smuggling could result in bypass of access controls in the proxy server, proxying unintended URLs to existing origin servers, and cache poisoning. Users are recommended to update to at least version 2.4.56 of Apache HTTP Server.
 </code>
 
 - [tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL](https://github.com/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL)
@@ -12013,7 +12023,7 @@
 
 ### CVE-2023-26269 (2023-04-03)
 
-<code>Apache James server version 3.7.3 and earlier provides a JMX management service without authentication by default. This allows privilege escalation by a \nmalicious local user.\n\nAdministrators are advised to disable JMX, or set up a JMX password.\n\nNote that version 3.7.4 onward will set up a JMX password automatically for Guice users.\n\n\n
+<code>Apache James server version 3.7.3 and earlier provides a JMX management service without authentication by default. This allows privilege escalation by a \nmalicious local user.\n\nAdministrators are advised to disable JMX, or set up a JMX password.\n\nNote that version 3.7.4 onward will set up a JMX password automatically for Guice users.
 </code>
 
 - [mbadanoiu/CVE-2023-26269](https://github.com/mbadanoiu/CVE-2023-26269)
@@ -12965,7 +12975,7 @@
 
 ### CVE-2023-31419 (2023-10-26)
 
-<code>A flaw was discovered in Elasticsearch, affecting the _search API that allowed a specially crafted query string to cause a Stack Overflow and ultimately a Denial of Service.\n\n\n\n\n
+<code>A flaw was discovered in Elasticsearch, affecting the _search API that allowed a specially crafted query string to cause a Stack Overflow and ultimately a Denial of Service.
 </code>
 
 - [sqrtZeroKnowledge/Elasticsearch-Exploit-CVE-2023-31419](https://github.com/sqrtZeroKnowledge/Elasticsearch-Exploit-CVE-2023-31419)
@@ -13364,7 +13374,7 @@
 
 ### CVE-2023-32681 (2023-05-26)
 
-<code>Requests is a HTTP library. Since Requests 2.3.0, Requests has been leaking Proxy-Authorization headers to destination servers when redirected to an HTTPS endpoint. This is a product of how we use `rebuild_proxies` to reattach the `Proxy-Authorization` header to requests. For HTTP connections sent through the tunnel, the proxy will identify the header in the request itself and remove it prior to forwarding to the destination server. However when sent over HTTPS, the `Proxy-Authorization` header must be sent in the CONNECT request as the proxy has no visibility into the tunneled request. This results in Requests forwarding proxy credentials to the destination server unintentionally, allowing a malicious actor to potentially exfiltrate sensitive information. This issue has been patched in version 2.31.0.\n\n
+<code>Requests is a HTTP library. Since Requests 2.3.0, Requests has been leaking Proxy-Authorization headers to destination servers when redirected to an HTTPS endpoint. This is a product of how we use `rebuild_proxies` to reattach the `Proxy-Authorization` header to requests. For HTTP connections sent through the tunnel, the proxy will identify the header in the request itself and remove it prior to forwarding to the destination server. However when sent over HTTPS, the `Proxy-Authorization` header must be sent in the CONNECT request as the proxy has no visibility into the tunneled request. This results in Requests forwarding proxy credentials to the destination server unintentionally, allowing a malicious actor to potentially exfiltrate sensitive information. This issue has been patched in version 2.31.0.
 </code>
 
 - [hardikmodha/POC-CVE-2023-32681](https://github.com/hardikmodha/POC-CVE-2023-32681)
@@ -13431,7 +13441,7 @@
 
 ### CVE-2023-33246 (2023-05-24)
 
-<code>For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk of remote command execution. \n\nSeveral components of RocketMQ, including NameServer, Broker, and Controller, are leaked on the extranet and lack permission verification, an attacker can exploit this vulnerability by using the update configuration function to execute commands as the system users that RocketMQ is running as. Additionally, an attacker can achieve the same effect by forging the RocketMQ protocol content. \n\nTo prevent these attacks, users are recommended to upgrade to version 5.1.1 or above for using RocketMQ 5.x or 4.9.6 or above for using RocketMQ 4.x .\n\n\n\n\n\n\n\n\n\n\n\n
+<code>For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk of remote command execution. \n\nSeveral components of RocketMQ, including NameServer, Broker, and Controller, are leaked on the extranet and lack permission verification, an attacker can exploit this vulnerability by using the update configuration function to execute commands as the system users that RocketMQ is running as. Additionally, an attacker can achieve the same effect by forging the RocketMQ protocol content. \n\nTo prevent these attacks, users are recommended to upgrade to version 5.1.1 or above for using RocketMQ 5.x or 4.9.6 or above for using RocketMQ 4.x .
 </code>
 
 - [I5N0rth/CVE-2023-33246](https://github.com/I5N0rth/CVE-2023-33246)
@@ -13744,7 +13754,7 @@
 
 ### CVE-2023-34212 (2023-06-12)
 
-<code>The JndiJmsConnectionFactoryProvider Controller Service, along with the ConsumeJMS and PublishJMS Processors, in Apache NiFi 1.8.0 through 1.21.0 allow an authenticated and authorized user to configure URL and library properties that enable deserialization of untrusted data from a remote location.\n\nThe resolution validates the JNDI URL and restricts locations to a set of allowed schemes.\n\nYou are recommended to upgrade to version 1.22.0 or later which fixes this issue.\n\n\n
+<code>The JndiJmsConnectionFactoryProvider Controller Service, along with the ConsumeJMS and PublishJMS Processors, in Apache NiFi 1.8.0 through 1.21.0 allow an authenticated and authorized user to configure URL and library properties that enable deserialization of untrusted data from a remote location.\n\nThe resolution validates the JNDI URL and restricts locations to a set of allowed schemes.\n\nYou are recommended to upgrade to version 1.22.0 or later which fixes this issue.
 </code>
 
 - [mbadanoiu/CVE-2023-34212](https://github.com/mbadanoiu/CVE-2023-34212)
@@ -13784,7 +13794,7 @@
 
 ### CVE-2023-34468 (2023-06-12)
 
-<code>The DBCPConnectionPool and HikariCPConnectionPool Controller Services in Apache NiFi 0.0.2 through 1.21.0 allow an authenticated and authorized user to configure a Database URL with the H2 driver that enables custom code execution.\n\nThe resolution validates the Database URL and rejects H2 JDBC locations.\n\nYou are recommended to upgrade to version 1.22.0 or later which fixes this issue.\n\n\n
+<code>The DBCPConnectionPool and HikariCPConnectionPool Controller Services in Apache NiFi 0.0.2 through 1.21.0 allow an authenticated and authorized user to configure a Database URL with the H2 driver that enables custom code execution.\n\nThe resolution validates the Database URL and rejects H2 JDBC locations.\n\nYou are recommended to upgrade to version 1.22.0 or later which fixes this issue.
 </code>
 
 - [mbadanoiu/CVE-2023-34468](https://github.com/mbadanoiu/CVE-2023-34468)
@@ -14325,7 +14335,7 @@
 
 ### CVE-2023-36844 (2023-08-17)
 
-<code>A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to control certain, important environment variables.\n\nUsing a crafted request an attacker is able to modify \n\ncertain PHP environment variables leading to partial loss of integrity, which may allow chaining to other vulnerabilities.\nThis issue affects Juniper Networks Junos OS on EX Series:\n\n\n\n  *  All versions prior to 20.4R3-S9;\n  *  21.1 versions 21.1R1 and later;\n  *  21.2 versions prior to 21.2R3-S7;\n  *  21.3 versions \n\nprior to \n\n 21.3R3-S5;\n  *  21.4 versions \n\nprior to \n\n21.4R3-S5;\n  *  22.1 versions \n\nprior to \n\n22.1R3-S4;\n  *  22.2 versions \n\nprior to \n\n22.2R3-S2;\n  *  22.3 versions \n\nprior to 22.3R3-S1;\n  *  22.4 versions \n\nprior to \n\n22.4R2-S2, 22.4R3;\n  *  23.2 versions prior to \n\n23.2R1-S1, 23.2R2.\n\n\n\n\n
+<code>A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to control certain, important environment variables.\n\nUsing a crafted request an attacker is able to modify \n\ncertain PHP environment variables leading to partial loss of integrity, which may allow chaining to other vulnerabilities.\nThis issue affects Juniper Networks Junos OS on EX Series:\n\n\n\n  *  All versions prior to 20.4R3-S9;\n  *  21.1 versions 21.1R1 and later;\n  *  21.2 versions prior to 21.2R3-S7;\n  *  21.3 versions \n\nprior to \n\n 21.3R3-S5;\n  *  21.4 versions \n\nprior to \n\n21.4R3-S5;\n  *  22.1 versions \n\nprior to \n\n22.1R3-S4;\n  *  22.2 versions \n\nprior to \n\n22.2R3-S2;\n  *  22.3 versions \n\nprior to 22.3R3-S1;\n  *  22.4 versions \n\nprior to \n\n22.4R2-S2, 22.4R3;\n  *  23.2 versions prior to \n\n23.2R1-S1, 23.2R2.
 </code>
 
 - [watchtowrlabs/juniper-rce_cve-2023-36844](https://github.com/watchtowrlabs/juniper-rce_cve-2023-36844)
@@ -14334,7 +14344,7 @@
 
 ### CVE-2023-36845 (2023-08-17)
 
-<code>A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series \n\nand SRX Series \n\nallows an unauthenticated, network-based attacker to remotely execute code.\n\nUsing a crafted request which sets the variable PHPRC an attacker is able to modify the PHP execution environment allowing the injection und execution of code.\n\n\nThis issue affects Juniper Networks Junos OS on EX Series\n\n\nand \n\n\nSRX Series:\n\n\n\n  *  All versions prior to \n\n20.4R3-S9;\n  *  21.1 versions 21.1R1 and later;\n  *  21.2 versions prior to 21.2R3-S7;\n  *  21.3 versions prior to 21.3R3-S5;\n  *  21.4 versions prior to 21.4R3-S5;\n  *  22.1 versions \n\nprior to \n\n22.1R3-S4;\n  *  22.2 versions \n\nprior to \n\n22.2R3-S2;\n  *  22.3 versions \n\nprior to \n\n22.3R2-S2, 22.3R3-S1;\n  *  22.4 versions \n\nprior to \n\n22.4R2-S1, 22.4R3;\n  *  23.2 versions prior to 23.2R1-S1, 23.2R2.\n\n\n\n\n
+<code>A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series \n\nand SRX Series \n\nallows an unauthenticated, network-based attacker to remotely execute code.\n\nUsing a crafted request which sets the variable PHPRC an attacker is able to modify the PHP execution environment allowing the injection und execution of code.\n\n\nThis issue affects Juniper Networks Junos OS on EX Series\n\n\nand \n\n\nSRX Series:\n\n\n\n  *  All versions prior to \n\n20.4R3-S9;\n  *  21.1 versions 21.1R1 and later;\n  *  21.2 versions prior to 21.2R3-S7;\n  *  21.3 versions prior to 21.3R3-S5;\n  *  21.4 versions prior to 21.4R3-S5;\n  *  22.1 versions \n\nprior to \n\n22.1R3-S4;\n  *  22.2 versions \n\nprior to \n\n22.2R3-S2;\n  *  22.3 versions \n\nprior to \n\n22.3R2-S2, 22.3R3-S1;\n  *  22.4 versions \n\nprior to \n\n22.4R2-S1, 22.4R3;\n  *  23.2 versions prior to 23.2R1-S1, 23.2R2.
 </code>
 
 - [vulncheck-oss/cve-2023-36845-scanner](https://github.com/vulncheck-oss/cve-2023-36845-scanner)
@@ -14458,7 +14468,7 @@
 
 ### CVE-2023-37582 (2023-07-12)
 
-<code>The RocketMQ NameServer component still has a remote command execution vulnerability as the CVE-2023-33246 issue was not completely fixed in version 5.1.1. \n\nWhen NameServer address are leaked on the extranet and lack permission verification, an attacker can exploit this vulnerability by using the update configuration function on the NameServer component to execute commands as the system users that RocketMQ is running as. \n\nIt is recommended for users to upgrade their NameServer version to 5.1.2 or above for RocketMQ 5.x or 4.9.7 or above for RocketMQ 4.x to prevent these attacks.\n
+<code>The RocketMQ NameServer component still has a remote command execution vulnerability as the CVE-2023-33246 issue was not completely fixed in version 5.1.1. \n\nWhen NameServer address are leaked on the extranet and lack permission verification, an attacker can exploit this vulnerability by using the update configuration function on the NameServer component to execute commands as the system users that RocketMQ is running as. \n\nIt is recommended for users to upgrade their NameServer version to 5.1.2 or above for RocketMQ 5.x or 4.9.7 or above for RocketMQ 4.x to prevent these attacks.
 </code>
 
 - [Malayke/CVE-2023-37582_EXPLOIT](https://github.com/Malayke/CVE-2023-37582_EXPLOIT)
@@ -14568,7 +14578,7 @@
 
 ### CVE-2023-37941 (2023-09-06)
 
-<code>If an attacker gains write access to the Apache Superset metadata database, they could persist a specifically crafted Python object that may lead to remote code execution on Superset's web backend.\n\nThe Superset metadata db is an 'internal' component that is typically \nonly accessible directly by the system administrator and the superset \nprocess itself. Gaining access to that database should\n be difficult and require significant privileges.\n\nThis vulnerability impacts Apache Superset versions 1.5.0 up to and including 2.1.0. Users are recommended to upgrade to version 2.1.1 or later.\n\n
+<code>If an attacker gains write access to the Apache Superset metadata database, they could persist a specifically crafted Python object that may lead to remote code execution on Superset's web backend.\n\nThe Superset metadata db is an 'internal' component that is typically \nonly accessible directly by the system administrator and the superset \nprocess itself. Gaining access to that database should\n be difficult and require significant privileges.\n\nThis vulnerability impacts Apache Superset versions 1.5.0 up to and including 2.1.0. Users are recommended to upgrade to version 2.1.1 or later.
 </code>
 
 - [Barroqueiro/CVE-2023-37941](https://github.com/Barroqueiro/CVE-2023-37941)
@@ -14583,7 +14593,7 @@
 
 ### CVE-2023-38035 (2023-08-21)
 
-<code>A security vulnerability in MICS Admin Portal in Ivanti MobileIron Sentry versions 9.18.0 and below, which may allow an attacker to bypass authentication controls on the administrative interface due to an insufficiently restrictive Apache HTTPD configuration. 
+<code>A security vulnerability in MICS Admin Portal in Ivanti MobileIron Sentry versions 9.18.0 and below, which may allow an attacker to bypass authentication controls on the administrative interface due to an insufficiently restrictive Apache HTTPD configuration.
 </code>
 
 - [horizon3ai/CVE-2023-38035](https://github.com/horizon3ai/CVE-2023-38035)
@@ -14665,7 +14675,7 @@
 
 ### CVE-2023-38545 (2023-10-18)
 
-<code>This flaw makes curl overflow a heap based buffer in the SOCKS5 proxy\nhandshake.\n\nWhen curl is asked to pass along the host name to the SOCKS5 proxy to allow\nthat to resolve the address instead of it getting done by curl itself, the\nmaximum length that host name can be is 255 bytes.\n\nIf the host name is detected to be longer, curl switches to local name\nresolving and instead passes on the resolved address only. Due to this bug,\nthe local variable that means &quot;let the host resolve the name&quot; could get the\nwrong value during a slow SOCKS5 handshake, and contrary to the intention,\ncopy the too long host name to the target buffer instead of copying just the\nresolved address there.\n\nThe target buffer being a heap based buffer, and the host name coming from the\nURL that curl has been told to operate with.\n
+<code>This flaw makes curl overflow a heap based buffer in the SOCKS5 proxy\nhandshake.\n\nWhen curl is asked to pass along the host name to the SOCKS5 proxy to allow\nthat to resolve the address instead of it getting done by curl itself, the\nmaximum length that host name can be is 255 bytes.\n\nIf the host name is detected to be longer, curl switches to local name\nresolving and instead passes on the resolved address only. Due to this bug,\nthe local variable that means &quot;let the host resolve the name&quot; could get the\nwrong value during a slow SOCKS5 handshake, and contrary to the intention,\ncopy the too long host name to the target buffer instead of copying just the\nresolved address there.\n\nThe target buffer being a heap based buffer, and the host name coming from the\nURL that curl has been told to operate with.
 </code>
 
 - [UTsweetyfish/CVE-2023-38545](https://github.com/UTsweetyfish/CVE-2023-38545)
@@ -15038,14 +15048,14 @@
 
 ### CVE-2023-40037 (2023-08-18)
 
-<code>Apache NiFi 1.21.0 through 1.23.0 support JDBC and JNDI JMS access in several Processors and Controller Services with connection URL validation that does not provide sufficient protection against crafted inputs. An authenticated and authorized user can bypass connection URL validation using custom input formatting. The resolution enhances connection URL validation and introduces validation for additional related properties. Upgrading to Apache NiFi 1.23.1 is the recommended mitigation.\n
+<code>Apache NiFi 1.21.0 through 1.23.0 support JDBC and JNDI JMS access in several Processors and Controller Services with connection URL validation that does not provide sufficient protection against crafted inputs. An authenticated and authorized user can bypass connection URL validation using custom input formatting. The resolution enhances connection URL validation and introduces validation for additional related properties. Upgrading to Apache NiFi 1.23.1 is the recommended mitigation.
 </code>
 
 - [mbadanoiu/CVE-2023-40037](https://github.com/mbadanoiu/CVE-2023-40037)
 
 ### CVE-2023-40044 (2023-09-27)
 
-<code>\nIn WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer module to execute remote commands on the underlying WS_FTP Server operating system.  \n\n
+<code>In WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer module to execute remote commands on the underlying WS_FTP Server operating system.
 </code>
 
 - [kenbuckler/WS_FTP-CVE-2023-40044](https://github.com/kenbuckler/WS_FTP-CVE-2023-40044)
@@ -15154,7 +15164,7 @@
 
 - [Halcy0nic/CVE-2023-40296](https://github.com/Halcy0nic/CVE-2023-40296)
 
-### CVE-2023-40297 (-)
+### CVE-2023-40297 (2024-05-15)
 
 <code>Stakater Forecastle 1.0.139 and before allows %5C../ directory traversal in the website component.
 </code>
@@ -15869,7 +15879,7 @@
 
 ### CVE-2023-43622 (2023-10-23)
 
-<code>An attacker, opening a HTTP/2 connection with an initial window size of 0, was able to block handling of that connection indefinitely in Apache HTTP Server. This could be used to exhaust worker resources in the server, similar to the well known &quot;slow loris&quot; attack pattern.\nThis has been fixed in version 2.4.58, so that such connection are terminated properly after the configured connection timeout.\n\nThis issue affects Apache HTTP Server: from 2.4.55 through 2.4.57.\n\nUsers are recommended to upgrade to version 2.4.58, which fixes the issue.\n\n
+<code>An attacker, opening a HTTP/2 connection with an initial window size of 0, was able to block handling of that connection indefinitely in Apache HTTP Server. This could be used to exhaust worker resources in the server, similar to the well known &quot;slow loris&quot; attack pattern.\nThis has been fixed in version 2.4.58, so that such connection are terminated properly after the configured connection timeout.\n\nThis issue affects Apache HTTP Server: from 2.4.55 through 2.4.57.\n\nUsers are recommended to upgrade to version 2.4.58, which fixes the issue.
 </code>
 
 - [visudade/CVE-2023-43622](https://github.com/visudade/CVE-2023-43622)
@@ -16438,7 +16448,7 @@
 
 - [windecks/CVE-2023-46404](https://github.com/windecks/CVE-2023-46404)
 
-### CVE-2023-46442 (-)
+### CVE-2023-46442 (2024-05-24)
 
 <code>An infinite loop in the retrieveActiveBody function of Soot before v4.4.1 under Java 8 allows attackers to cause a Denial of Service (DoS).
 </code>
@@ -16503,7 +16513,7 @@
 
 ### CVE-2023-46604 (2023-10-27)
 
-<code>The Java OpenWire protocol marshaller is vulnerable to Remote Code \nExecution. This vulnerability may allow a remote attacker with network \naccess to either a Java-based OpenWire broker or client to run arbitrary\n shell commands by manipulating serialized class types in the OpenWire \nprotocol to cause either the client or the broker (respectively) to \ninstantiate any class on the classpath.\n\nUsers are recommended to upgrade\n both brokers and clients to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3 \nwhich fixes this issue.\n\n
+<code>The Java OpenWire protocol marshaller is vulnerable to Remote Code \nExecution. This vulnerability may allow a remote attacker with network \naccess to either a Java-based OpenWire broker or client to run arbitrary\n shell commands by manipulating serialized class types in the OpenWire \nprotocol to cause either the client or the broker (respectively) to \ninstantiate any class on the classpath.\n\nUsers are recommended to upgrade\n both brokers and clients to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3 \nwhich fixes this issue.
 </code>
 
 - [trganda/ActiveMQ-RCE](https://github.com/trganda/ActiveMQ-RCE)
@@ -16540,7 +16550,7 @@
 
 - [RandomRobbieBF/CVE-2023-46615](https://github.com/RandomRobbieBF/CVE-2023-46615)
 
-### CVE-2023-46694 (-)
+### CVE-2023-46694 (2024-05-28)
 
 <code>Vtenext 21.02 allows an authenticated attacker to upload arbitrary files, potentially enabling them to execute remote commands. This flaw exists due to the application's failure to enforce proper authentication controls when accessing the Ckeditor file manager functionality.
 </code>
@@ -16549,7 +16559,7 @@
 
 ### CVE-2023-46747 (2023-10-26)
 
-<code>\n\n\nUndisclosed requests may bypass configuration utility authentication, allowing an attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated\n\n
+<code>Undisclosed requests may bypass configuration utility authentication, allowing an attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated
 </code>
 
 - [bijaysenihang/CVE-2023-46747-Mass-RCE](https://github.com/bijaysenihang/CVE-2023-46747-Mass-RCE)
@@ -16599,7 +16609,7 @@
 
 - [asylumdx/Crater-CVE-2023-46865-RCE](https://github.com/asylumdx/Crater-CVE-2023-46865-RCE)
 
-### CVE-2023-46870 (-)
+### CVE-2023-46870 (2024-05-13)
 
 <code>extcap/nrf_sniffer_ble.py, extcap/nrf_sniffer_ble.sh, extcap/SnifferAPI/*.py in Nordic Semiconductor nRF Sniffer for Bluetooth LE 3.0.0, 3.1.0, 4.0.0, 4.1.0, and 4.1.1 have set incorrect file permission, which allows attackers to do code execution via modified bash and python scripts.
 </code>
@@ -16686,7 +16696,7 @@
 
 ### CVE-2023-47218 (2024-02-13)
 
-<code>An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.5.2645 build 20240116 and later\nQuTS hero h5.1.5.2647 build 20240118 and later\nQuTScloud c5.1.5.2651 and later\n
+<code>An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.5.2645 build 20240116 and later\nQuTS hero h5.1.5.2647 build 20240118 and later\nQuTScloud c5.1.5.2651 and later
 </code>
 
 - [passwa11/CVE-2023-47218](https://github.com/passwa11/CVE-2023-47218)
@@ -17006,7 +17016,7 @@
 
 ### CVE-2023-49070 (2023-12-05)
 
-<code>\nPre-auth RCE in Apache Ofbiz 18.12.09.\n\nIt's due to XML-RPC no longer maintained still present.\nThis issue affects Apache OFBiz: before 18.12.10. \nUsers are recommended to upgrade to version 18.12.10\n\n
+<code>Pre-auth RCE in Apache Ofbiz 18.12.09.\n\nIt's due to XML-RPC no longer maintained still present.\nThis issue affects Apache OFBiz: before 18.12.10. \nUsers are recommended to upgrade to version 18.12.10
 </code>
 
 - [abdoghazy2015/ofbiz-CVE-2023-49070-RCE-POC](https://github.com/abdoghazy2015/ofbiz-CVE-2023-49070-RCE-POC)
@@ -17351,7 +17361,7 @@
 
 ### CVE-2023-50164 (2023-12-07)
 
-<code>An attacker can manipulate file upload params to enable paths traversal and under some circumstances this can lead to uploading a malicious file which can be used to perform Remote Code Execution.\nUsers are recommended to upgrade to versions Struts 2.5.33 or Struts 6.3.0.2 or greater to fix this issue.\n
+<code>An attacker can manipulate file upload params to enable paths traversal and under some circumstances this can lead to uploading a malicious file which can be used to perform Remote Code Execution.\nUsers are recommended to upgrade to versions Struts 2.5.33 or Struts 6.3.0.2 or greater to fix this issue.
 </code>
 
 - [minhbao15677/CVE-2023-50164](https://github.com/minhbao15677/CVE-2023-50164)
@@ -17392,7 +17402,7 @@
 
 ### CVE-2023-50386 (2024-02-09)
 
-<code>Improper Control of Dynamically-Managed Code Resources, Unrestricted Upload of File with Dangerous Type, Inclusion of Functionality from Untrusted Control Sphere vulnerability in Apache Solr.This issue affects Apache Solr: from 6.0.0 through 8.11.2, from 9.0.0 before 9.4.1.\n\nIn the affected versions, Solr ConfigSets accepted Java jar and class files to be uploaded through the ConfigSets API.\nWhen backing up Solr Collections, these configSet files would be saved to disk when using the LocalFileSystemRepository (the default for backups).\nIf the backup was saved to a directory that Solr uses in its ClassPath/ClassLoaders, then the jar and class files would be available to use with any ConfigSet, trusted or untrusted.\n\nWhen Solr is run in a secure way (Authorization enabled), as is strongly suggested, this vulnerability is limited to extending the Backup permissions with the ability to add libraries.\nUsers are recommended to upgrade to version 8.11.3 or 9.4.1, which fix the issue.\nIn these versions, the following protections have been added:\n\n  *  Users are no longer able to upload files to a configSet that could be executed via a Java ClassLoader.\n  *  The Backup API restricts saving backups to directories that are used in the ClassLoader.\n\n
+<code>Improper Control of Dynamically-Managed Code Resources, Unrestricted Upload of File with Dangerous Type, Inclusion of Functionality from Untrusted Control Sphere vulnerability in Apache Solr.This issue affects Apache Solr: from 6.0.0 through 8.11.2, from 9.0.0 before 9.4.1.\n\nIn the affected versions, Solr ConfigSets accepted Java jar and class files to be uploaded through the ConfigSets API.\nWhen backing up Solr Collections, these configSet files would be saved to disk when using the LocalFileSystemRepository (the default for backups).\nIf the backup was saved to a directory that Solr uses in its ClassPath/ClassLoaders, then the jar and class files would be available to use with any ConfigSet, trusted or untrusted.\n\nWhen Solr is run in a secure way (Authorization enabled), as is strongly suggested, this vulnerability is limited to extending the Backup permissions with the ability to add libraries.\nUsers are recommended to upgrade to version 8.11.3 or 9.4.1, which fix the issue.\nIn these versions, the following protections have been added:\n\n  *  Users are no longer able to upload files to a configSet that could be executed via a Java ClassLoader.\n  *  The Backup API restricts saving backups to directories that are used in the ClassLoader.
 </code>
 
 - [vvmdx/Apache-Solr-RCE_CVE-2023-50386_POC](https://github.com/vvmdx/Apache-Solr-RCE_CVE-2023-50386_POC)
@@ -17985,7 +17995,7 @@
 
 ### CVE-2022-0918 (2022-03-16)
 
-<code>A vulnerability was discovered in the 389 Directory Server that allows an unauthenticated attacker with network access to the LDAP port to cause a denial of service. The denial of service is triggered by a single message sent over a TCP connection, no bind or other authentication is required. The message triggers a segmentation fault that results in slapd crashing.\n\n
+<code>A vulnerability was discovered in the 389 Directory Server that allows an unauthenticated attacker with network access to the LDAP port to cause a denial of service. The denial of service is triggered by a single message sent over a TCP connection, no bind or other authentication is required. The message triggers a segmentation fault that results in slapd crashing.
 </code>
 
 - [NathanMulbrook/CVE-2022-0918](https://github.com/NathanMulbrook/CVE-2022-0918)
@@ -18271,7 +18281,7 @@
 
 ### CVE-2022-1471 (2022-12-01)
 
-<code>SnakeYaml's Constructor() class does not restrict types which can be instantiated during deserialization. Deserializing yaml content provided by an attacker can lead to remote code execution. We recommend using SnakeYaml's SafeConsturctor when parsing untrusted content to restrict deserialization. We recommend upgrading to version 2.0 and beyond.\n
+<code>SnakeYaml's Constructor() class does not restrict types which can be instantiated during deserialization. Deserializing yaml content provided by an attacker can lead to remote code execution. We recommend using SnakeYaml's SafeConsturctor when parsing untrusted content to restrict deserialization. We recommend upgrading to version 2.0 and beyond.
 </code>
 
 - [1fabunicorn/SnakeYAML-CVE-2022-1471-POC](https://github.com/1fabunicorn/SnakeYAML-CVE-2022-1471-POC)
@@ -18469,7 +18479,7 @@
 
 ### CVE-2022-3172 (2023-11-03)
 
-<code>A security issue was discovered in kube-apiserver that allows an \naggregated API server to redirect client traffic to any URL.  This could\n lead to the client performing unexpected actions as well as forwarding \nthe client's API server credentials to third parties.\n
+<code>A security issue was discovered in kube-apiserver that allows an \naggregated API server to redirect client traffic to any URL.  This could\n lead to the client performing unexpected actions as well as forwarding \nthe client's API server credentials to third parties.
 </code>
 
 - [UgOrange/CVE-2022-3172](https://github.com/UgOrange/CVE-2022-3172)
@@ -18673,7 +18683,7 @@
 
 ### CVE-2022-4304 (2023-02-08)
 
-<code>A timing based side channel exists in the OpenSSL RSA Decryption implementation\nwhich could be sufficient to recover a plaintext across a network in a\nBleichenbacher style attack. To achieve a successful decryption an attacker\nwould have to be able to send a very large number of trial messages for\ndecryption. The vulnerability affects all RSA padding modes: PKCS#1 v1.5,\nRSA-OEAP and RSASVE.\n\nFor example, in a TLS connection, RSA is commonly used by a client to send an\nencrypted pre-master secret to the server. An attacker that had observed a\ngenuine connection between a client and a server could use this flaw to send\ntrial messages to the server and record the time taken to process them. After a\nsufficiently large number of messages the attacker could recover the pre-master\nsecret used for the original connection and thus be able to decrypt the\napplication data sent over that connection.\n\n
+<code>A timing based side channel exists in the OpenSSL RSA Decryption implementation\nwhich could be sufficient to recover a plaintext across a network in a\nBleichenbacher style attack. To achieve a successful decryption an attacker\nwould have to be able to send a very large number of trial messages for\ndecryption. The vulnerability affects all RSA padding modes: PKCS#1 v1.5,\nRSA-OEAP and RSASVE.\n\nFor example, in a TLS connection, RSA is commonly used by a client to send an\nencrypted pre-master secret to the server. An attacker that had observed a\ngenuine connection between a client and a server could use this flaw to send\ntrial messages to the server and record the time taken to process them. After a\nsufficiently large number of messages the attacker could recover the pre-master\nsecret used for the original connection and thus be able to decrypt the\napplication data sent over that connection.
 </code>
 
 - [Trinadh465/Openssl-1.1.1g_CVE-2022-4304](https://github.com/Trinadh465/Openssl-1.1.1g_CVE-2022-4304)
@@ -18687,7 +18697,7 @@
 
 ### CVE-2022-4510 (2023-01-25)
 
-<code>\nA path traversal vulnerability was identified in ReFirm Labs binwalk from version 2.1.2b through 2.3.3 included. By crafting a malicious PFS filesystem file, an attacker can get binwalk's PFS extractor to extract files at arbitrary locations when binwalk is run in extraction mode (-e option). Remote code execution can be achieved by building a PFS filesystem that, upon extraction, would extract a malicious binwalk module into the folder .config/binwalk/plugins.\n This vulnerability is associated with program files src/binwalk/plugins/unpfs.py.\n\nThis issue affects binwalk from 2.1.2b through 2.3.3 included.\n\n
+<code>A path traversal vulnerability was identified in ReFirm Labs binwalk from version 2.1.2b through 2.3.3 included. By crafting a malicious PFS filesystem file, an attacker can get binwalk's PFS extractor to extract files at arbitrary locations when binwalk is run in extraction mode (-e option). Remote code execution can be achieved by building a PFS filesystem that, upon extraction, would extract a malicious binwalk module into the folder .config/binwalk/plugins.\n This vulnerability is associated with program files src/binwalk/plugins/unpfs.py.\n\nThis issue affects binwalk from 2.1.2b through 2.3.3 included.
 </code>
 
 - [electr0sm0g/CVE-2022-4510](https://github.com/electr0sm0g/CVE-2022-4510)
@@ -24372,7 +24382,7 @@
 
 ### CVE-2022-47986 (2023-02-17)
 
-<code>\nIBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw. By sending a specially crafted obsolete API call, an attacker could exploit this vulnerability to execute arbitrary code on the system. The obsolete API call was removed in Faspex 4.4.2 PL2. IBM X-Force ID: 243512.\n\n
+<code>IBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw. By sending a specially crafted obsolete API call, an attacker could exploit this vulnerability to execute arbitrary code on the system. The obsolete API call was removed in Faspex 4.4.2 PL2. IBM X-Force ID: 243512.
 </code>
 
 - [ohnonoyesyes/CVE-2022-47986](https://github.com/ohnonoyesyes/CVE-2022-47986)
@@ -26148,6 +26158,7 @@
 - [nanabingies/CVE-2021-21551](https://github.com/nanabingies/CVE-2021-21551)
 - [Eap2468/CVE-2021-21551](https://github.com/Eap2468/CVE-2021-21551)
 - [IlanDudnik/CVE-2021-21551](https://github.com/IlanDudnik/CVE-2021-21551)
+- [luke0x90/CVE-2021-21551](https://github.com/luke0x90/CVE-2021-21551)
 
 ### CVE-2021-21716
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
@@ -31120,7 +31131,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Html-Injection](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Html-Injection)
-- [plsanu/CVE-2021-46079](https://github.com/plsanu/CVE-2021-46079)
 
 ### CVE-2021-46080 (2022-01-06)
 
@@ -37201,6 +37211,13 @@
 </code>
 
 - [Shadawks/Strapi-CVE-2019-1881](https://github.com/Shadawks/Strapi-CVE-2019-1881)
+
+### CVE-2019-2019 (2019-06-19)
+
+<code>In ce_t4t_data_cback of ce_t4t.cc, there is a possible out-of-bound read due to a missing bounds check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-7.0 Android-7.1.1 Android-7.1.2 Android-8.0 Android-8.1 Android-9Android ID: A-115635871
+</code>
+
+- [Yzhacker/CVE-2019-2019-9053--CMS46635](https://github.com/Yzhacker/CVE-2019-2019-9053--CMS46635)
 
 ### CVE-2019-2107 (2019-07-08)
 
@@ -51228,7 +51245,7 @@
 - [s4msec/CVE-2007-2447](https://github.com/s4msec/CVE-2007-2447)
 - [Nosferatuvjr/Samba-Usermap-exploit](https://github.com/Nosferatuvjr/Samba-Usermap-exploit)
 - [testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447)
-- [b3m0x00/CVE-2007-2447](https://github.com/b3m0x00/CVE-2007-2447)
+- [b33m0x00/CVE-2007-2447](https://github.com/b33m0x00/CVE-2007-2447)
 - [HerculesRD/PyUsernameMapScriptRCE](https://github.com/HerculesRD/PyUsernameMapScriptRCE)
 - [Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447)
 - [n3rdh4x0r/CVE-2007-2447](https://github.com/n3rdh4x0r/CVE-2007-2447)
@@ -51410,7 +51427,7 @@
 
 ### CVE-2006-20001 (2023-01-17)
 
-<code>A carefully crafted If: request header can cause a memory read, or write of a single zero byte, in a pool (heap) memory location beyond the header value sent. This could cause the process to crash.\n\nThis issue affects Apache HTTP Server 2.4.54 and earlier.\n
+<code>A carefully crafted If: request header can cause a memory read, or write of a single zero byte, in a pool (heap) memory location beyond the header value sent. This could cause the process to crash.\n\nThis issue affects Apache HTTP Server 2.4.54 and earlier.
 </code>
 
 - [r1az4r/CVE-2006-20001](https://github.com/r1az4r/CVE-2006-20001)
