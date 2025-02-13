@@ -4507,6 +4507,13 @@
 - [jakabakos/CVE-2024-27348-Apache-HugeGraph-RCE](https://github.com/jakabakos/CVE-2024-27348-Apache-HugeGraph-RCE)
 - [p0et08/CVE-2024-27348](https://github.com/p0et08/CVE-2024-27348)
 
+### CVE-2024-27448 (2024-04-05)
+
+<code>MailDev 2 through 2.1.0 allows Remote Code Execution via a crafted Content-ID header for an e-mail attachment, leading to lib/mailserver.js writing arbitrary code into the routes.js file.
+</code>
+
+- [rawtips/CVE-2024-27448-poc](https://github.com/rawtips/CVE-2024-27448-poc)
+
 ### CVE-2024-27460 (2024-05-10)
 
 <code>A privilege escalation exists in the updater for Plantronics Hub 3.25.1 and below.
@@ -26760,7 +26767,7 @@
 <code>A remote execution of arbitrary commands vulnerability was discovered in some Aruba Instant Access Point (IAP) products in version(s): Aruba Instant 6.4.x: 6.4.4.8-4.2.4.17 and below; Aruba Instant 6.5.x: 6.5.4.18 and below; Aruba Instant 8.3.x: 8.3.0.14 and below; Aruba Instant 8.5.x: 8.5.0.11 and below; Aruba Instant 8.6.x: 8.6.0.7 and below; Aruba Instant 8.7.x: 8.7.1.1 and below. Aruba has released patches for Aruba Instant that address this security vulnerability.
 </code>
 
-- [twentybel0w/CVE-2021-25162](https://github.com/twentybel0w/CVE-2021-25162)
+- [maguireja/CVE-2021-25162](https://github.com/maguireja/CVE-2021-25162)
 
 ### CVE-2021-25253 (2021-04-13)
 
@@ -35616,7 +35623,7 @@
 </code>
 
 - [darrenmartyn/sophucked](https://github.com/darrenmartyn/sophucked)
-- [twentybel0w/CVE-2020-25223](https://github.com/twentybel0w/CVE-2020-25223)
+- [maguireja/CVE-2020-25223](https://github.com/maguireja/CVE-2020-25223)
 
 ### CVE-2020-25265 (2020-12-02)
 
@@ -51192,7 +51199,7 @@
 - [s4msec/CVE-2007-2447](https://github.com/s4msec/CVE-2007-2447)
 - [Nosferatuvjr/Samba-Usermap-exploit](https://github.com/Nosferatuvjr/Samba-Usermap-exploit)
 - [testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447)
-- [mr-l0n3lly/CVE-2007-2447](https://github.com/mr-l0n3lly/CVE-2007-2447)
+- [b3m0x00/CVE-2007-2447](https://github.com/b3m0x00/CVE-2007-2447)
 - [HerculesRD/PyUsernameMapScriptRCE](https://github.com/HerculesRD/PyUsernameMapScriptRCE)
 - [Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447)
 - [n3rdh4x0r/CVE-2007-2447](https://github.com/n3rdh4x0r/CVE-2007-2447)
