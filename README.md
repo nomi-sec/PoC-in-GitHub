@@ -14837,6 +14837,13 @@
 
 - [markuta/bw-dump](https://github.com/markuta/bw-dump)
 
+### CVE-2023-38873 (2023-09-28)
+
+<code>The commit 3730880 (April 2023) and v.0.9-beta1 of gugoan Economizzer is vulnerable to Clickjacking. Clickjacking, also known as a &quot;UI redress attack&quot;, is when an attacker uses multiple transparent or opaque layers to trick a user into clicking on a button or link on another page when they were intending to click on the top-level page. Thus, the attacker is &quot;hijacking&quot; clicks meant for their page and routing them to another page, most likely owned by another application, domain, or both.
+</code>
+
+- [K9-Modz/CVE-2023-38873-G1](https://github.com/K9-Modz/CVE-2023-38873-G1)
+
 ### CVE-2023-38890 (2023-08-18)
 
 <code>Online Shopping Portal Project 3.1 allows remote attackers to execute arbitrary SQL commands/queries via the login form, leading to unauthorized access and potential data manipulation. This vulnerability arises due to insufficient validation of user-supplied input in the username field, enabling SQL Injection attacks.
