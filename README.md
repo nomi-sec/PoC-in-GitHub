@@ -1289,6 +1289,7 @@
 - [ahmetramazank/CVE-2024-4577](https://github.com/ahmetramazank/CVE-2024-4577)
 - [BTtea/CVE-2024-4577-RCE-PoC](https://github.com/BTtea/CVE-2024-4577-RCE-PoC)
 - [Dejavu666/CVE-2024-4577](https://github.com/Dejavu666/CVE-2024-4577)
+- [chihyeonwon/php-cgi-cve-2024-4577](https://github.com/chihyeonwon/php-cgi-cve-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -1457,6 +1458,7 @@
 </code>
 
 - [XiaomingX/cve-2024-5452-poc](https://github.com/XiaomingX/cve-2024-5452-poc)
+- [skrkcb2/CVE-2024-5452](https://github.com/skrkcb2/CVE-2024-5452)
 
 ### CVE-2024-5522 (2024-06-20)
 
@@ -2536,6 +2538,7 @@
 - [redspy-sec/D-Link](https://github.com/redspy-sec/D-Link)
 - [dragonXZH/CVE-2024-10914](https://github.com/dragonXZH/CVE-2024-10914)
 - [yenyangmjaze/cve-2024-10914](https://github.com/yenyangmjaze/cve-2024-10914)
+- [silverxpymaster/CVE-2024-10914-Exploit](https://github.com/silverxpymaster/CVE-2024-10914-Exploit)
 
 ### CVE-2024-10924 (2024-11-15)
 
@@ -6391,6 +6394,7 @@
 
 - [masa42/CVE-2024-38819-POC](https://github.com/masa42/CVE-2024-38819-POC)
 - [GhostS3c/CVE-2024-38819](https://github.com/GhostS3c/CVE-2024-38819)
+- [skrkcb2/cve-2024-38819](https://github.com/skrkcb2/cve-2024-38819)
 
 ### CVE-2024-38821 (2024-10-28)
 
