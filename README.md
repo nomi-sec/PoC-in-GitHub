@@ -7,6 +7,7 @@
 </code>
 
 - [iSee857/CVE-2025-0108-PoC](https://github.com/iSee857/CVE-2025-0108-PoC)
+- [FOLKS-iwd/CVE-2025-0108-PoC](https://github.com/FOLKS-iwd/CVE-2025-0108-PoC)
 
 ### CVE-2025-0282 (2025-01-08)
 
@@ -2557,6 +2558,7 @@
 - [Hunt3r850/CVE-2024-10924-Wordpress-Docker](https://github.com/Hunt3r850/CVE-2024-10924-Wordpress-Docker)
 - [Nxploited/CVE-2024-10924-Exploit](https://github.com/Nxploited/CVE-2024-10924-Exploit)
 - [cy3erdr4g0n/CVE-2024-10924](https://github.com/cy3erdr4g0n/CVE-2024-10924)
+- [h8sU/wordpress-cve-2024-10924-exploit](https://github.com/h8sU/wordpress-cve-2024-10924-exploit)
 
 ### CVE-2024-10930
 - [sahil3276/CVE-2024-10930](https://github.com/sahil3276/CVE-2024-10930)
@@ -5958,6 +5960,7 @@
 - [0x0d3ad/CVE-2024-36401](https://github.com/0x0d3ad/CVE-2024-36401)
 - [whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit)
 - [wellwornele/CVE-2024-36401](https://github.com/wellwornele/CVE-2024-36401)
+- [unlinedvol/CVE-2024-36401](https://github.com/unlinedvol/CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -9071,7 +9074,11 @@
 
 - [nca785/CVE-2024-57610](https://github.com/nca785/CVE-2024-57610)
 
-### CVE-2024-57725
+### CVE-2024-57725 (2025-02-14)
+
+<code>An issue in the Arcadyan Livebox Fibra PRV3399B_B_LT allows a remote or local attacker to modify the GPON link value without authentication, causing an internet service disruption via the /firstconnection.cgi endpoint.
+</code>
+
 - [pointedsec/CVE-2024-57725](https://github.com/pointedsec/CVE-2024-57725)
 
 ### CVE-2024-57727 (2025-01-15)
@@ -9081,7 +9088,11 @@
 
 - [imjdl/CVE-2024-57727](https://github.com/imjdl/CVE-2024-57727)
 
-### CVE-2024-57778
+### CVE-2024-57778 (2025-02-14)
+
+<code>An issue in Orbe ONetView Roeador Onet-1200 Orbe 1680210096 allows a remote attacker to escalate privileges via the servers response from status code 500 to status code 200.
+</code>
+
 - [KUK3N4N/CVE-2024-57778](https://github.com/KUK3N4N/CVE-2024-57778)
 
 ### CVE-2024-57784 (2025-01-16)
