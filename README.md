@@ -6912,6 +6912,7 @@
 </code>
 
 - [0xbassiouny1337/CVE-2024-42009](https://github.com/0xbassiouny1337/CVE-2024-42009)
+- [Bhanunamikaze/CVE-2024-42009](https://github.com/Bhanunamikaze/CVE-2024-42009)
 
 ### CVE-2024-42327 (2024-11-27)
 
@@ -9075,6 +9076,9 @@
 </code>
 
 - [imjdl/CVE-2024-57727](https://github.com/imjdl/CVE-2024-57727)
+
+### CVE-2024-57778
+- [KUK3N4N/CVE-2024-57778](https://github.com/KUK3N4N/CVE-2024-57778)
 
 ### CVE-2024-57784 (2025-01-16)
 
@@ -37212,13 +37216,6 @@
 
 - [Shadawks/Strapi-CVE-2019-1881](https://github.com/Shadawks/Strapi-CVE-2019-1881)
 
-### CVE-2019-2019 (2019-06-19)
-
-<code>In ce_t4t_data_cback of ce_t4t.cc, there is a possible out-of-bound read due to a missing bounds check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-7.0 Android-7.1.1 Android-7.1.2 Android-8.0 Android-8.1 Android-9Android ID: A-115635871
-</code>
-
-- [Yzhacker/CVE-2019-2019-9053--CMS46635](https://github.com/Yzhacker/CVE-2019-2019-9053--CMS46635)
-
 ### CVE-2019-2107 (2019-07-08)
 
 <code>In ihevcd_parse_pps of ihevcd_parse_headers.c, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation. Product: Android. Versions: Android-7.0 Android-7.1.1 Android-7.1.2 Android-8.0 Android-8.1 Android-9. Android ID: A-130024844.
@@ -38225,6 +38222,7 @@
 - [jtoalu/CTF-CVE-2019-9053-GTFOBins](https://github.com/jtoalu/CTF-CVE-2019-9053-GTFOBins)
 - [Azrenom/CMS-Made-Simple-2.2.9-CVE-2019-9053](https://github.com/Azrenom/CMS-Made-Simple-2.2.9-CVE-2019-9053)
 - [louisthedonothing/CVE-2019-9053](https://github.com/louisthedonothing/CVE-2019-9053)
+- [Yzhacker/CVE-2019-9053-CMS46635-python3](https://github.com/Yzhacker/CVE-2019-9053-CMS46635-python3)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
