@@ -1291,6 +1291,7 @@
 - [BTtea/CVE-2024-4577-RCE-PoC](https://github.com/BTtea/CVE-2024-4577-RCE-PoC)
 - [Dejavu666/CVE-2024-4577](https://github.com/Dejavu666/CVE-2024-4577)
 - [chihyeonwon/php-cgi-cve-2024-4577](https://github.com/chihyeonwon/php-cgi-cve-2024-4577)
+- [Didarul342/CVE-2024-4577](https://github.com/Didarul342/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -6525,7 +6526,7 @@
 
 ### CVE-2024-39689 (2024-07-05)
 
-<code>Certifi is a curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. Certifi starting in 2021.05.30 and prior to 2024.07.4 recognized root certificates from `GLOBALTRUST`. Certifi 2024.07.04 removes root certificates from `GLOBALTRUST` from the root store. These are in the process of being removed from Mozilla's trust store. `GLOBALTRUST`'s root certificates are being removed pursuant to an investigation which identified &quot;long-running and unresolved compliance issues.&quot;
+<code>Certifi is a curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. Certifi starting in 2021.5.30 and prior to 2024.7.4 recognized root certificates from `GLOBALTRUST`. Certifi 2024.7.04 removes root certificates from `GLOBALTRUST` from the root store. These are in the process of being removed from Mozilla's trust store. `GLOBALTRUST`'s root certificates are being removed pursuant to an investigation which identified &quot;long-running and unresolved compliance issues.&quot;
 </code>
 
 - [roy-aladin/InfraTest](https://github.com/roy-aladin/InfraTest)
