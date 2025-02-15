@@ -189,6 +189,12 @@
 
 - [yelang123/Zimbra10_SQL_Injection](https://github.com/yelang123/Zimbra10_SQL_Injection)
 
+### CVE-2025-25964
+- [Sudo-Sakib/CVE-2025-25964](https://github.com/Sudo-Sakib/CVE-2025-25964)
+
+### CVE-2025-25965
+- [Sudo-Sakib/CVE-2025-25965](https://github.com/Sudo-Sakib/CVE-2025-25965)
+
 
 ## 2024
 ### CVE-2024-0012 (2024-11-18)
