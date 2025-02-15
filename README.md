@@ -182,6 +182,13 @@
 
 - [rhburt/CVE-2025-25062](https://github.com/rhburt/CVE-2025-25062)
 
+### CVE-2025-25064 (2025-02-03)
+
+<code>SQL injection vulnerability in the ZimbraSync Service SOAP endpoint in Zimbra Collaboration 10.0.x before 10.0.12 and 10.1.x before 10.1.4 due to insufficient sanitization of a user-supplied parameter. Authenticated attackers can exploit this vulnerability by manipulating a specific parameter in the request, allowing them to inject arbitrary SQL queries that could retrieve email metadata.
+</code>
+
+- [yelang123/Zimbra10_SQL_Injection](https://github.com/yelang123/Zimbra10_SQL_Injection)
+
 
 ## 2024
 ### CVE-2024-0012 (2024-11-18)
