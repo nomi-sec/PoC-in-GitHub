@@ -29568,7 +29568,7 @@
 - [5gstudent/cve-2021-41773-and-cve-2021-42013](https://github.com/5gstudent/cve-2021-41773-and-cve-2021-42013)
 - [EagleTube/CVE-2021-41773](https://github.com/EagleTube/CVE-2021-41773)
 - [apapedulimu/Apachuk](https://github.com/apapedulimu/Apachuk)
-- [scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773)
+- [ch4os443/CVE-2021-41773](https://github.com/ch4os443/CVE-2021-41773)
 - [ksanchezcld/httpd-2.4.49](https://github.com/ksanchezcld/httpd-2.4.49)
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
 - [theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker)
