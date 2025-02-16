@@ -138,6 +138,7 @@
 </code>
 
 - [huseyinstif/CVE-2025-24016-Nuclei-Template](https://github.com/huseyinstif/CVE-2025-24016-Nuclei-Template)
+- [0xjessie21/CVE-2025-24016](https://github.com/0xjessie21/CVE-2025-24016)
 
 ### CVE-2025-24085 (2025-01-27)
 
@@ -6954,6 +6955,7 @@
 - [itform-fr/Zabbix---CVE-2024-42327](https://github.com/itform-fr/Zabbix---CVE-2024-42327)
 - [igorbf495/CVE-2024-42327](https://github.com/igorbf495/CVE-2024-42327)
 - [BridgerAlderson/Zabbix-CVE-2024-42327-SQL-Injection-RCE](https://github.com/BridgerAlderson/Zabbix-CVE-2024-42327-SQL-Injection-RCE)
+- [godylockz/CVE-2024-42327](https://github.com/godylockz/CVE-2024-42327)
 
 ### CVE-2024-42346 (2024-09-20)
 
