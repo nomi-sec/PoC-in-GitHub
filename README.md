@@ -31,6 +31,13 @@
 - [dhmosfunk/7-Zip-CVE-2025-0411-POC](https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC)
 - [iSee857/CVE-2025-0411-PoC](https://github.com/iSee857/CVE-2025-0411-PoC)
 
+### CVE-2025-0851 (2025-01-29)
+
+<code>A path traversal issue in ZipUtils.unzip and TarUtils.untar in Deep Java Library (DJL) on all platforms allows a bad actor to write files to arbitrary locations.
+</code>
+
+- [skrkcb2/CVE-2025-0851](https://github.com/skrkcb2/CVE-2025-0851)
+
 ### CVE-2025-0994 (2025-02-06)
 
 <code>Trimble Cityworks versions prior to 15.8.9 and Cityworks with office companion versions prior to 23.10 are vulnerable to a deserialization vulnerability. This could allow an authenticated user to perform a remote code execution attack against a customer’s Microsoft Internet Information Services (IIS) web server.
@@ -1223,6 +1230,7 @@
 - [Masamuneee/CVE-2024-4367-Analysis](https://github.com/Masamuneee/CVE-2024-4367-Analysis)
 - [pedrochalegre7/CVE-2024-4367-pdf-sample](https://github.com/pedrochalegre7/CVE-2024-4367-pdf-sample)
 - [exfil0/WEAPONIZING-CVE-2024-4367](https://github.com/exfil0/WEAPONIZING-CVE-2024-4367)
+- [inpentest/CVE-2024-4367-PoC](https://github.com/inpentest/CVE-2024-4367-PoC)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -3655,6 +3663,13 @@
 </code>
 
 - [666asd/CVE-2024-23653](https://github.com/666asd/CVE-2024-23653)
+
+### CVE-2024-23666 (2024-11-12)
+
+<code>A client-side enforcement of server-side security in Fortinet FortiAnalyzer-BigData \r\nat least version 7.4.0 and 7.2.0 through 7.2.6 and 7.0.1 through 7.0.6 and 6.4.5 through 6.4.7 and 6.2.5, FortiManager version 7.4.0 through 7.4.1 and 7.2.0 through 7.2.4 and 7.0.0 through 7.0.11 and 6.4.0 through 6.4.14, FortiAnalyzer version 7.4.0 through 7.4.1 and 7.2.0 through 7.2.4 and 7.0.0 through 7.0.11 and 6.4.0 through 6.4.14 allows attacker to improper access control via crafted requests.
+</code>
+
+- [synacktiv/CVE-2023-42791_CVE-2024-23666](https://github.com/synacktiv/CVE-2023-42791_CVE-2024-23666)
 
 ### CVE-2024-23692 (2024-05-31)
 
@@ -8968,6 +8983,13 @@
 </code>
 
 - [JonnyWhatshisface/CVE-2024-56433](https://github.com/JonnyWhatshisface/CVE-2024-56433)
+
+### CVE-2024-56477 (2025-02-14)
+
+<code>IBM Power Hardware Management Console V10.3.1050.0 could allow an authenticated user to traverse directories on the system. An attacker could send a specially crafted URL request containing &quot;dot dot&quot; sequences (/../) to view arbitrary files on the system.
+</code>
+
+- [0xbughunter/CVE-2024-56477](https://github.com/0xbughunter/CVE-2024-56477)
 
 ### CVE-2024-56512 (2024-12-28)
 
@@ -14923,13 +14945,6 @@
 
 - [markuta/bw-dump](https://github.com/markuta/bw-dump)
 
-### CVE-2023-38873 (2023-09-28)
-
-<code>The commit 3730880 (April 2023) and v.0.9-beta1 of gugoan Economizzer is vulnerable to Clickjacking. Clickjacking, also known as a &quot;UI redress attack&quot;, is when an attacker uses multiple transparent or opaque layers to trick a user into clicking on a button or link on another page when they were intending to click on the top-level page. Thus, the attacker is &quot;hijacking&quot; clicks meant for their page and routing them to another page, most likely owned by another application, domain, or both.
-</code>
-
-- [K9-Modz/CVE-2023-38873-G1](https://github.com/K9-Modz/CVE-2023-38873-G1)
-
 ### CVE-2023-38890 (2023-08-18)
 
 <code>Online Shopping Portal Project 3.1 allows remote attackers to execute arbitrary SQL commands/queries via the login form, leading to unauthorized access and potential data manipulation. This vulnerability arises due to insufficient validation of user-supplied input in the username field, enabling SQL Injection attacks.
@@ -15622,6 +15637,13 @@
 </code>
 
 - [jhonnybonny/CVE-2023-42789](https://github.com/jhonnybonny/CVE-2023-42789)
+
+### CVE-2023-42791 (2024-02-20)
+
+<code>A relative path traversal in Fortinet FortiManager version 7.4.0 and 7.2.0 through 7.2.3 and 7.0.0 through 7.0.8 and 6.4.0 through 6.4.12 and 6.2.0 through 6.2.11 allows attacker to execute unauthorized code or commands via crafted HTTP requests.
+</code>
+
+- [synacktiv/CVE-2023-42791_CVE-2024-23666](https://github.com/synacktiv/CVE-2023-42791_CVE-2024-23666)
 
 ### CVE-2023-42793 (2023-09-19)
 
