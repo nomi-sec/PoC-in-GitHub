@@ -7813,6 +7813,7 @@
 - [r0xdeadbeef/CVE-2024-48990](https://github.com/r0xdeadbeef/CVE-2024-48990)
 - [CyberCrowCC/CVE-2024-48990](https://github.com/CyberCrowCC/CVE-2024-48990)
 - [NullByte-7w7/CVE-2024-48990](https://github.com/NullByte-7w7/CVE-2024-48990)
+- [ten-ops/CVE-2024-48990_needrestart](https://github.com/ten-ops/CVE-2024-48990_needrestart)
 
 ### CVE-2024-49039 (2024-11-12)
 
@@ -40287,6 +40288,7 @@
 - [rasyidfox/CVE-2019-18818](https://github.com/rasyidfox/CVE-2019-18818)
 - [hadrian3689/strapi_cms_3.0.0-beta.17.7](https://github.com/hadrian3689/strapi_cms_3.0.0-beta.17.7)
 - [Hackhoven/Strapi-RCE](https://github.com/Hackhoven/Strapi-RCE)
+- [abelsrzz/CVE-2019-18818_CVE-2019-19609](https://github.com/abelsrzz/CVE-2019-18818_CVE-2019-19609)
 
 ### CVE-2019-18845 (2019-11-09)
 
@@ -50284,6 +50286,7 @@
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 - [0xl0k1/CVE-2012-1823](https://github.com/0xl0k1/CVE-2012-1823)
 - [Jimmy01240397/CVE-2012-1823-Analyze](https://github.com/Jimmy01240397/CVE-2012-1823-Analyze)
+- [JasonHobs/CVE-2012-1823-exploit-for-https-user-password-web](https://github.com/JasonHobs/CVE-2012-1823-exploit-for-https-user-password-web)
 
 ### CVE-2012-1831 (2012-07-05)
 
