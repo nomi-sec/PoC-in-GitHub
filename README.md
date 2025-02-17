@@ -2582,6 +2582,7 @@
 - [Nxploited/CVE-2024-10924-Exploit](https://github.com/Nxploited/CVE-2024-10924-Exploit)
 - [cy3erdr4g0n/CVE-2024-10924](https://github.com/cy3erdr4g0n/CVE-2024-10924)
 - [h8sU/wordpress-cve-2024-10924-exploit](https://github.com/h8sU/wordpress-cve-2024-10924-exploit)
+- [sariamubeen/CVE-2024-10924](https://github.com/sariamubeen/CVE-2024-10924)
 
 ### CVE-2024-10930
 - [sahil3276/CVE-2024-10930](https://github.com/sahil3276/CVE-2024-10930)
@@ -10731,6 +10732,7 @@
 - [hackeremmen/gitlab-exploit](https://github.com/hackeremmen/gitlab-exploit)
 - [soltanali0/CVE-2023-7028](https://github.com/soltanali0/CVE-2023-7028)
 - [gh-ost00/CVE-2023-7028](https://github.com/gh-ost00/CVE-2023-7028)
+- [sariamubeen/CVE-2023-7028](https://github.com/sariamubeen/CVE-2023-7028)
 
 ### CVE-2023-7172 (2023-12-30)
 
@@ -30912,6 +30914,7 @@
 </code>
 
 - [D3Ext/CVE-2021-44967](https://github.com/D3Ext/CVE-2021-44967)
+- [godylockz/CVE-2021-44967](https://github.com/godylockz/CVE-2021-44967)
 
 ### CVE-2021-45007 (2022-02-20)
 
@@ -31183,7 +31186,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Multiple-Cross-Site-Request-Forgery-CSRF-Leads-to-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Cross-Site-Request-Forgery-CSRF-Leads-to-XSS)
-- [plsanu/CVE-2021-46080](https://github.com/plsanu/CVE-2021-46080)
 
 ### CVE-2021-46108 (2022-02-18)
 
