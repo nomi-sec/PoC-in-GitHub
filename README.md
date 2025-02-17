@@ -62,6 +62,13 @@
 
 - [Pauloxc6/CVE-2025-21385](https://github.com/Pauloxc6/CVE-2025-21385)
 
+### CVE-2025-21420 (2025-02-11)
+
+<code>Windows Disk Cleanup Tool Elevation of Privilege Vulnerability
+</code>
+
+- [Network-Sec/CVE-2025-21420-PoC](https://github.com/Network-Sec/CVE-2025-21420-PoC)
+
 ### CVE-2025-22352 (2025-01-07)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ELEXtensions ELEX WooCommerce Advanced Bulk Edit Products, Prices &amp; Attributes allows Blind SQL Injection.This issue affects ELEX WooCommerce Advanced Bulk Edit Products, Prices &amp; Attributes: from n/a through 1.4.8.
@@ -7127,6 +7134,13 @@
 
 - [expl0itsecurity/CVE-2024-43532](https://github.com/expl0itsecurity/CVE-2024-43532)
 
+### CVE-2024-43762 (2025-01-02)
+
+<code>In multiple locations, there is a possible way to avoid unbinding of a service from the system due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [Mahesh-970/CVE-2024-43762](https://github.com/Mahesh-970/CVE-2024-43762)
+
 ### CVE-2024-43917 (2024-08-29)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in TemplateInvaders TI WooCommerce Wishlist allows SQL Injection.This issue affects TI WooCommerce Wishlist: from n/a through 2.8.2.
@@ -13590,7 +13604,7 @@
 <code>Phpgurukul Student Study Center Management System V1.0 is vulnerable to Cross Site Scripting (XSS) in the &quot;Admin Name&quot; field on Admin Profile page.
 </code>
 
-- [sudovivek/My-CVE](https://github.com/sudovivek/My-CVE)
+- [sudovivek/Published-CVE](https://github.com/sudovivek/Published-CVE)
 
 ### CVE-2023-33592 (2023-06-28)
 
@@ -30804,6 +30818,7 @@
 - [Super-Binary/cve-2021-44228](https://github.com/Super-Binary/cve-2021-44228)
 - [ZacharyZcR/CVE-2021-44228](https://github.com/ZacharyZcR/CVE-2021-44228)
 - [qw3rtyou/CVE-2021-44228_dockernize](https://github.com/qw3rtyou/CVE-2021-44228_dockernize)
+- [yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-](https://github.com/yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -31101,7 +31116,6 @@
 </code>
 
 - [plsanu/Vehicle-Service-Management-System-Multiple-Cookie-Stealing-Leads-to-Full-Account-Takeover](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Cookie-Stealing-Leads-to-Full-Account-Takeover)
-- [plsanu/CVE-2021-46067](https://github.com/plsanu/CVE-2021-46067)
 
 ### CVE-2021-46068 (2022-01-06)
 
