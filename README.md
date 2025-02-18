@@ -220,6 +220,12 @@
 ### CVE-2025-25965
 - [Sudo-Sakib/CVE-2025-25965](https://github.com/Sudo-Sakib/CVE-2025-25965)
 
+### CVE-2025-26465
+- [rxerium/CVE-2025-26465](https://github.com/rxerium/CVE-2025-26465)
+
+### CVE-2025-26466
+- [rxerium/CVE-2025-26466](https://github.com/rxerium/CVE-2025-26466)
+
 
 ## 2024
 ### CVE-2024-0012 (2024-11-18)
@@ -9009,10 +9015,18 @@
 
 - [absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit](https://github.com/absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit)
 
-### CVE-2024-56882
+### CVE-2024-56882 (2025-02-18)
+
+<code>Sage DPW before 2024_12_000 is vulnerable to Cross Site Scripting (XSS). Low-privileged Sage users with employee role privileges can permanently store JavaScript code in the Kurstitel and Kurzinfo input fields. The injected payload is executed for each authenticated user who views and interacts with the modified data elements.
+</code>
+
 - [trustcves/CVE-2024-56882](https://github.com/trustcves/CVE-2024-56882)
 
-### CVE-2024-56883
+### CVE-2024-56883 (2025-02-18)
+
+<code>Sage DPW before 2024_12_001 is vulnerable to Incorrect Access Control. The implemented role-based access controls are not always enforced on the server side. Low-privileged Sage users with employee role privileges can create external courses for other employees, even though they do not have the option to do so in the user interface. To do this, a valid request to create a course simply needs to be modified, so that the current user ID in the &quot;id&quot; parameter is replaced with the ID of another user.
+</code>
+
 - [trustcves/CVE-2024-56883](https://github.com/trustcves/CVE-2024-56883)
 
 ### CVE-2024-56889 (2025-02-06)
@@ -10344,6 +10358,7 @@
 - [puckiestyle/CVE-2023-4911](https://github.com/puckiestyle/CVE-2023-4911)
 - [yanfernandess/Looney-Tunables-CVE-2023-4911](https://github.com/yanfernandess/Looney-Tunables-CVE-2023-4911)
 - [NishanthAnand21/CVE-2023-4911-PoC](https://github.com/NishanthAnand21/CVE-2023-4911-PoC)
+- [Billar42/CVE-2023-4911](https://github.com/Billar42/CVE-2023-4911)
 
 ### CVE-2023-4966 (2023-10-10)
 
