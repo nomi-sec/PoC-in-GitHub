@@ -6410,6 +6410,7 @@
 </code>
 
 - [putget/pollypull](https://github.com/putget/pollypull)
+- [padayali-JD/pollyscan](https://github.com/padayali-JD/pollyscan)
 
 ### CVE-2024-38537 (2024-07-02)
 
@@ -8983,13 +8984,6 @@
 </code>
 
 - [JonnyWhatshisface/CVE-2024-56433](https://github.com/JonnyWhatshisface/CVE-2024-56433)
-
-### CVE-2024-56477 (2025-02-14)
-
-<code>IBM Power Hardware Management Console V10.3.1050.0 could allow an authenticated user to traverse directories on the system. An attacker could send a specially crafted URL request containing &quot;dot dot&quot; sequences (/../) to view arbitrary files on the system.
-</code>
-
-- [0xbughunter/CVE-2024-56477](https://github.com/0xbughunter/CVE-2024-56477)
 
 ### CVE-2024-56512 (2024-12-28)
 
@@ -24415,7 +24409,7 @@
 <code>The IEEE 802.11 specifications through 802.11ax allow physically proximate attackers to intercept (possibly cleartext) target-destined frames by spoofing a target's MAC address, sending Power Save frames to the access point, and then sending other frames to the access point (such as authentication frames or re-association frames) to remove the target's original security context. This behavior occurs because the specifications do not require an access point to purge its transmit queue before removing a client's pairwise encryption key.
 </code>
 
-- [toffeenutt/CVE-2022-47522-exploit](https://github.com/toffeenutt/CVE-2022-47522-exploit)
+- [toffeenutt/CVE-2022-47522-PoC](https://github.com/toffeenutt/CVE-2022-47522-PoC)
 
 ### CVE-2022-47529 (2023-03-28)
 
