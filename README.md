@@ -9,7 +9,7 @@
 - [iSee857/CVE-2025-0108-PoC](https://github.com/iSee857/CVE-2025-0108-PoC)
 - [FOLKS-iwd/CVE-2025-0108-PoC](https://github.com/FOLKS-iwd/CVE-2025-0108-PoC)
 - [fr4nc1stein/CVE-2025-0108-SCAN](https://github.com/fr4nc1stein/CVE-2025-0108-SCAN)
-- [barcrange/PAN-OS-Authentication-Bypass-Checker-CVE-2025-0108-](https://github.com/barcrange/PAN-OS-Authentication-Bypass-Checker-CVE-2025-0108-)
+- [barcrange/CVE-2025-0108-Authentication-Bypass-checker](https://github.com/barcrange/CVE-2025-0108-Authentication-Bypass-checker)
 
 ### CVE-2025-0282 (2025-01-08)
 
@@ -47,9 +47,6 @@
 </code>
 
 - [rxerium/CVE-2025-0994](https://github.com/rxerium/CVE-2025-0994)
-
-### CVE-2025-510
-- [g0v3lla/CVE-2025-510T](https://github.com/g0v3lla/CVE-2025-510T)
 
 ### CVE-2025-1015 (2025-02-04)
 
@@ -2951,6 +2948,13 @@
 
 - [Aether-0/CVE-2024-12986](https://github.com/Aether-0/CVE-2024-12986)
 
+### CVE-2024-13159 (2025-01-14)
+
+<code>Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated attacker to leak sensitive information.
+</code>
+
+- [horizon3ai/Ivanti-EPM-Coercion-Vulnerabilities](https://github.com/horizon3ai/Ivanti-EPM-Coercion-Vulnerabilities)
+
 ### CVE-2024-13375 (2025-01-18)
 
 <code>The Adifier System plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 3.1.7. This is due to the plugin not properly validating a user's identity prior to updating their details like password through the adifier_recover() function. This makes it possible for unauthenticated attackers to change arbitrary user's passwords, including administrators, and leverage that to gain access to their account.
@@ -5380,7 +5384,6 @@
 - [AD-Appledog/wakuwaku](https://github.com/AD-Appledog/wakuwaku)
 - [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
 - [Basyaact/CVE-2024-32002-PoC_Chinese](https://github.com/Basyaact/CVE-2024-32002-PoC_Chinese)
-- [EQSTLab/git_rce](https://github.com/EQSTLab/git_rce)
 - [sysonlai/CVE-2024-32002-hook](https://github.com/sysonlai/CVE-2024-32002-hook)
 - [TSY244/CVE-2024-32002-git-rce-father-poc](https://github.com/TSY244/CVE-2024-32002-git-rce-father-poc)
 - [TSY244/CVE-2024-32002-git-rce](https://github.com/TSY244/CVE-2024-32002-git-rce)
@@ -7132,6 +7135,13 @@
 </code>
 
 - [nidhihcl75/packages_apps_Settings_AOSP10_r33_CVE-2024-43088](https://github.com/nidhihcl75/packages_apps_Settings_AOSP10_r33_CVE-2024-43088)
+
+### CVE-2024-43090 (2024-11-13)
+
+<code>In multiple locations, there is a possible cross-user image read due to a missing permission check. This could lead to local information disclosure with User execution privileges needed. User interaction is needed for exploitation.
+</code>
+
+- [nidhihcl75/frameworks_base_AOSP10_r33_CVE-2024-43090](https://github.com/nidhihcl75/frameworks_base_AOSP10_r33_CVE-2024-43090)
 
 ### CVE-2024-43160 (2024-08-13)
 
@@ -16171,6 +16181,7 @@
 - [sn130hk/CVE-2023-44487](https://github.com/sn130hk/CVE-2023-44487)
 - [threatlabindonesia/CVE-2023-44487-HTTP-2-Rapid-Reset-Exploit-PoC](https://github.com/threatlabindonesia/CVE-2023-44487-HTTP-2-Rapid-Reset-Exploit-PoC)
 - [aulauniversal/CVE-2023-44487](https://github.com/aulauniversal/CVE-2023-44487)
+- [BMG-Black-Magic/CVE-2023-44487](https://github.com/BMG-Black-Magic/CVE-2023-44487)
 
 ### CVE-2023-44758 (2023-10-06)
 
@@ -37306,7 +37317,6 @@
 </code>
 
 - [StealYourCode/CVE-2019-1663](https://github.com/StealYourCode/CVE-2019-1663)
-- [abrumsen/CVE-2019-1663](https://github.com/abrumsen/CVE-2019-1663)
 - [WolffCorentin/CVE-2019-1663-Binary-Analysis](https://github.com/WolffCorentin/CVE-2019-1663-Binary-Analysis)
 
 ### CVE-2019-1698 (2019-02-21)
