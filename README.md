@@ -10,6 +10,8 @@
 - [FOLKS-iwd/CVE-2025-0108-PoC](https://github.com/FOLKS-iwd/CVE-2025-0108-PoC)
 - [fr4nc1stein/CVE-2025-0108-SCAN](https://github.com/fr4nc1stein/CVE-2025-0108-SCAN)
 - [barcrange/CVE-2025-0108-Authentication-Bypass-checker](https://github.com/barcrange/CVE-2025-0108-Authentication-Bypass-checker)
+- [sohaibeb/CVE-2025-0108](https://github.com/sohaibeb/CVE-2025-0108)
+- [becrevex/CVE-2025-0108](https://github.com/becrevex/CVE-2025-0108)
 
 ### CVE-2025-0282 (2025-01-08)
 
@@ -55,9 +57,6 @@
 
 - [r3m0t3nu11/CVE-2025-1015](https://github.com/r3m0t3nu11/CVE-2025-1015)
 
-### CVE-2025-10792
-- [ZackSecurity/CVE-2025-10792-test](https://github.com/ZackSecurity/CVE-2025-10792-test)
-
 ### CVE-2025-21298 (2025-01-14)
 
 <code>Windows OLE Remote Code Execution Vulnerability
@@ -102,6 +101,13 @@
 
 ### CVE-2025-22652
 - [DoTTak/CVE-2025-22652](https://github.com/DoTTak/CVE-2025-22652)
+
+### CVE-2025-22654 (2025-02-18)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in kodeshpa Simplified allows Using Malicious Files. This issue affects Simplified: from n/a through 1.0.6.
+</code>
+
+- [McTavishSue/CVE-2025-22654](https://github.com/McTavishSue/CVE-2025-22654)
 
 ### CVE-2025-22710 (2025-01-21)
 
@@ -1928,7 +1934,6 @@
 </code>
 
 - [PapayaJackal/ipeeyoupeewepee](https://github.com/PapayaJackal/ipeeyoupeewepee)
-- [GustavoHGP/ipeeyoupeewepee](https://github.com/GustavoHGP/ipeeyoupeewepee)
 
 ### CVE-2024-7627 (2024-09-05)
 
@@ -5855,6 +5860,7 @@
 
 - [aelmokhtar/CVE-2024-34716](https://github.com/aelmokhtar/CVE-2024-34716)
 - [0xDTC/Prestashop-CVE-2024-34716](https://github.com/0xDTC/Prestashop-CVE-2024-34716)
+- [TU-M/Trickster-HTB](https://github.com/TU-M/Trickster-HTB)
 
 ### CVE-2024-34739 (2024-08-15)
 
@@ -7143,6 +7149,13 @@
 
 - [nidhihcl75/frameworks_base_AOSP10_r33_CVE-2024-43090](https://github.com/nidhihcl75/frameworks_base_AOSP10_r33_CVE-2024-43090)
 
+### CVE-2024-43097 (2025-01-02)
+
+<code>In resizeToAtLeast of SkRegion.cpp, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [Mahesh-970/external_skia_CVE-2024-43097](https://github.com/Mahesh-970/external_skia_CVE-2024-43097)
+
 ### CVE-2024-43160 (2024-08-13)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in BerqWP allows Code Injection.This issue affects BerqWP: from n/a through 1.7.6.
@@ -7535,6 +7548,13 @@
 </code>
 
 - [ooooooo-q/puma_header_normalization-CVE-2024-45614](https://github.com/ooooooo-q/puma_header_normalization-CVE-2024-45614)
+
+### CVE-2024-45870 (2024-10-03)
+
+<code>Bandisoft BandiView 7.05 is vulnerable to Incorrect Access Control in sub_0x3d80fc via a crafted POC file.
+</code>
+
+- [bshyuunn/Bandiview-7.05-Vuln-PoC](https://github.com/bshyuunn/Bandiview-7.05-Vuln-PoC)
 
 ### CVE-2024-46209 (2025-01-06)
 
@@ -9112,6 +9132,9 @@
 </code>
 
 - [cypherdavy/CVE-2024-57373](https://github.com/cypherdavy/CVE-2024-57373)
+
+### CVE-2024-57401
+- [aksingh82/CVE-2024-57401](https://github.com/aksingh82/CVE-2024-57401)
 
 ### CVE-2024-57427 (2025-02-06)
 
@@ -16852,6 +16875,9 @@
 
 - [OpenXP-Research/CVE-2023-47253](https://github.com/OpenXP-Research/CVE-2023-47253)
 - [gmh5225/CVE-2023-47253](https://github.com/gmh5225/CVE-2023-47253)
+
+### CVE-2023-47268
+- [TU-M/Trickster-HTB](https://github.com/TU-M/Trickster-HTB)
 
 ### CVE-2023-47355 (2024-02-05)
 
@@ -27133,6 +27159,13 @@
 
 - [zwclose/CVE-2021-26258](https://github.com/zwclose/CVE-2021-26258)
 
+### CVE-2021-26291 (2021-04-23)
+
+<code>Apache Maven will follow repositories that are defined in a dependency’s Project Object Model (pom) which may be surprising to some users, resulting in potential risk if a malicious actor takes over that repository or is able to insert themselves into a position to pretend to be that repository. Maven is changing the default behavior in 3.8.1+ to no longer follow http (non-SSL) repository references by default. More details available in the referenced urls. If you are currently using a repository manager to govern the repositories used by your builds, you are unaffected by the risks present in the legacy behavior, and are unaffected by this vulnerability and change to default behavior. See this link for more information about repository management: https://maven.apache.org/repository-management.html
+</code>
+
+- [jpmartins/MinimalReproducer](https://github.com/jpmartins/MinimalReproducer)
+
 ### CVE-2021-26295 (2021-03-22)
 
 <code>Apache OFBiz has unsafe deserialization prior to 17.12.06. An unauthenticated attacker can use this vulnerability to successfully take over Apache OFBiz.
@@ -27550,7 +27583,6 @@
 - [0vercl0k/CVE-2021-28476](https://github.com/0vercl0k/CVE-2021-28476)
 - [bluefrostsecurity/CVE-2021-28476](https://github.com/bluefrostsecurity/CVE-2021-28476)
 - [LaCeeKa/CVE-2021-28476-tools-env](https://github.com/LaCeeKa/CVE-2021-28476-tools-env)
-- [australeo/CVE-2021-28476](https://github.com/australeo/CVE-2021-28476)
 - [2273852279qqs/0vercl0k](https://github.com/2273852279qqs/0vercl0k)
 - [dengyang123x/0vercl0k](https://github.com/dengyang123x/0vercl0k)
 
@@ -33798,7 +33830,6 @@
 </code>
 
 - [PapayaJackal/ipeeyoupeewepee](https://github.com/PapayaJackal/ipeeyoupeewepee)
-- [GustavoHGP/ipeeyoupeewepee](https://github.com/GustavoHGP/ipeeyoupeewepee)
 
 ### CVE-2020-10148 (2020-12-29)
 
@@ -37432,6 +37463,13 @@
 - [ianxtianxt/cve-2019-2618](https://github.com/ianxtianxt/cve-2019-2618)
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 
+### CVE-2019-2706 (2019-04-23)
+
+<code>Vulnerability in the Oracle Business Process Management Suite component of Oracle Fusion Middleware (subcomponent: BPM Foundation Services). The supported version that is affected is 11.1.1.9.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Business Process Management Suite. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Business Process Management Suite, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle Business Process Management Suite accessible data as well as unauthorized update, insert or delete access to some of Oracle Business Process Management Suite accessible data. CVSS 3.0 Base Score 8.2 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N).
+</code>
+
+- [athuljayaram/Oracle-CVE-2019-2706](https://github.com/athuljayaram/Oracle-CVE-2019-2706)
+
 ### CVE-2019-2725 (2019-04-26)
 
 <code>Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: Web Services). Supported versions that are affected are 10.3.6.0.0 and 12.1.3.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
@@ -40288,7 +40326,6 @@
 - [Tamagaft/CVE-2019-17662](https://github.com/Tamagaft/CVE-2019-17662)
 - [bl4ck574r/CVE-2019-17662](https://github.com/bl4ck574r/CVE-2019-17662)
 - [thomas-osgood/CVE-2019-17662](https://github.com/thomas-osgood/CVE-2019-17662)
-- [medarov411/vnc-lab-cve-2019-17662](https://github.com/medarov411/vnc-lab-cve-2019-17662)
 
 ### CVE-2019-17666 (2019-10-17)
 
