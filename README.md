@@ -9,6 +9,7 @@
 - [iSee857/CVE-2025-0108-PoC](https://github.com/iSee857/CVE-2025-0108-PoC)
 - [FOLKS-iwd/CVE-2025-0108-PoC](https://github.com/FOLKS-iwd/CVE-2025-0108-PoC)
 - [fr4nc1stein/CVE-2025-0108-SCAN](https://github.com/fr4nc1stein/CVE-2025-0108-SCAN)
+- [barcrange/PAN-OS-Authentication-Bypass-Checker-CVE-2025-0108-](https://github.com/barcrange/PAN-OS-Authentication-Bypass-Checker-CVE-2025-0108-)
 
 ### CVE-2025-0282 (2025-01-08)
 
@@ -31,6 +32,7 @@
 
 - [dhmosfunk/7-Zip-CVE-2025-0411-POC](https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC)
 - [iSee857/CVE-2025-0411-PoC](https://github.com/iSee857/CVE-2025-0411-PoC)
+- [ishwardeepp/CVE-2025-0411-MoTW-PoC](https://github.com/ishwardeepp/CVE-2025-0411-MoTW-PoC)
 
 ### CVE-2025-0851 (2025-01-29)
 
@@ -214,12 +216,16 @@
 </code>
 
 - [RandomRobbieBF/CVE-2025-25163](https://github.com/RandomRobbieBF/CVE-2025-25163)
+- [rootharpy/CVE-2025-25163-Nuclei-Template](https://github.com/rootharpy/CVE-2025-25163-Nuclei-Template)
 
 ### CVE-2025-25964
 - [Sudo-Sakib/CVE-2025-25964](https://github.com/Sudo-Sakib/CVE-2025-25964)
 
 ### CVE-2025-25965
 - [Sudo-Sakib/CVE-2025-25965](https://github.com/Sudo-Sakib/CVE-2025-25965)
+
+### CVE-2025-25968
+- [padayali-JD/CVE-2025-25968](https://github.com/padayali-JD/CVE-2025-25968)
 
 ### CVE-2025-26465 (2025-02-18)
 
