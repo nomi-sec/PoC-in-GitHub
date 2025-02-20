@@ -704,6 +704,7 @@
 - [sharpicx/CVE-2024-1651-PoC](https://github.com/sharpicx/CVE-2024-1651-PoC)
 - [hy011121/CVE-2024-1651-exploit-RCE](https://github.com/hy011121/CVE-2024-1651-exploit-RCE)
 - [Whiteh4tWolf/CVE-2024-1651-PoC](https://github.com/Whiteh4tWolf/CVE-2024-1651-PoC)
+- [killukeren/cve-2024-1651](https://github.com/killukeren/cve-2024-1651)
 
 ### CVE-2024-1655 (2024-04-15)
 
@@ -889,6 +890,7 @@
 - [4wayhandshake/CVE-2024-2961](https://github.com/4wayhandshake/CVE-2024-2961)
 - [omarelshopky/exploit_cve-2023-26326_using_cve-2024-2961](https://github.com/omarelshopky/exploit_cve-2023-26326_using_cve-2024-2961)
 - [suce0155/CVE-2024-2961_buddyforms_2.7.7](https://github.com/suce0155/CVE-2024-2961_buddyforms_2.7.7)
+- [regantemudo/PHP-file-read-to-RCE-CVE-2024-2961-](https://github.com/regantemudo/PHP-file-read-to-RCE-CVE-2024-2961-)
 
 ### CVE-2024-2997 (2024-03-27)
 
@@ -1477,13 +1479,6 @@
 
 - [Alchemist3dot14/CVE-2024-5274-Detection](https://github.com/Alchemist3dot14/CVE-2024-5274-Detection)
 - [mistymntncop/CVE-2024-5274](https://github.com/mistymntncop/CVE-2024-5274)
-
-### CVE-2024-5290 (2024-08-07)
-
-<code>An issue was discovered in Ubuntu wpa_supplicant that resulted in loading of arbitrary shared objects, which allows a local unprivileged attacker to escalate privileges to the user that wpa_supplicant runs as (usually root).\n\n\n\n\nMembership in the netdev group or access to the dbus interface of wpa_supplicant allow an unprivileged user to specify an arbitrary path to a module to be loaded by the wpa_supplicant process; other escalation paths might exist.
-</code>
-
-- [zrax-x/CVE-2024-5290-exp](https://github.com/zrax-x/CVE-2024-5290-exp)
 
 ### CVE-2024-5324 (2024-06-06)
 
@@ -3679,6 +3674,7 @@
 
 - [9carlo6/CVE-2024-23346](https://github.com/9carlo6/CVE-2024-23346)
 - [MAWK0235/CVE-2024-23346](https://github.com/MAWK0235/CVE-2024-23346)
+- [Sanity-Archive/CVE-2024-23346](https://github.com/Sanity-Archive/CVE-2024-23346)
 
 ### CVE-2024-23443 (2024-06-19)
 
@@ -7155,7 +7151,7 @@
 <code>In resizeToAtLeast of SkRegion.cpp, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
 </code>
 
-- [Mahesh-970/external_skia_CVE-2024-43097](https://github.com/Mahesh-970/external_skia_CVE-2024-43097)
+- [Mahesh-970/CVE-2024-43097](https://github.com/Mahesh-970/CVE-2024-43097)
 
 ### CVE-2024-43160 (2024-08-13)
 
@@ -7214,6 +7210,13 @@
 </code>
 
 - [Mahesh-970/CVE-2024-43762](https://github.com/Mahesh-970/CVE-2024-43762)
+
+### CVE-2024-43768 (2025-01-02)
+
+<code>In skia_alloc_func of SkDeflate.cpp, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [Mahesh-970/CVE-2024-43768](https://github.com/Mahesh-970/CVE-2024-43768)
 
 ### CVE-2024-43917 (2024-08-29)
 
@@ -10140,6 +10143,7 @@
 <code>Unrestricted file upload in big file upload functionality in `/main/inc/lib/javascript/bigupload/inc/bigUpload.php` in Chamilo LMS &lt;= v1.11.24 allows unauthenticated attackers to perform stored cross-site scripting attacks and obtain remote code execution via uploading of web shell.
 </code>
 
+- [N1ghtfallXxX/CVE-2023-4220](https://github.com/N1ghtfallXxX/CVE-2023-4220)
 - [m3m0o/chamilo-lms-unauthenticated-big-upload-rce-poc](https://github.com/m3m0o/chamilo-lms-unauthenticated-big-upload-rce-poc)
 - [dollarboysushil/Chamilo-LMS-Unauthenticated-File-Upload-CVE-2023-4220](https://github.com/dollarboysushil/Chamilo-LMS-Unauthenticated-File-Upload-CVE-2023-4220)
 - [charlesgargasson/CVE-2023-4220](https://github.com/charlesgargasson/CVE-2023-4220)
@@ -16427,13 +16431,6 @@
 </code>
 
 - [metaredteam/rtx-cve-2023-45779](https://github.com/metaredteam/rtx-cve-2023-45779)
-
-### CVE-2023-45819 (2023-10-19)
-
-<code>TinyMCE is an open source rich text editor. A cross-site scripting (XSS) vulnerability was discovered in TinyMCE’s Notification Manager API. The vulnerability exploits TinyMCE's unfiltered notification system, which is used in error handling. The conditions for this exploit requires carefully crafted malicious content to have been inserted into the editor and a notification to have been triggered. When a notification was opened, the HTML within the text argument was displayed unfiltered in the notification. The vulnerability allowed arbitrary JavaScript execution when an notification presented in the TinyMCE UI for the current user.  This issue could also be exploited by any integration which uses a TinyMCE notification to display unfiltered HTML content. This vulnerability has been patched in TinyMCE 5.10.8 and TinyMCE 6.7.1 by ensuring that the HTML displayed in the notification is sanitized, preventing the exploit. Users are advised to upgrade. There are no known workarounds for this vulnerability.\n
-</code>
-
-- [philipsinnott/cve-2023-45819](https://github.com/philipsinnott/cve-2023-45819)
 
 ### CVE-2023-45827 (2023-11-06)
 
@@ -25430,7 +25427,7 @@
 - [banyaksepuh/Mass-CVE-2021-3129-Scanner](https://github.com/banyaksepuh/Mass-CVE-2021-3129-Scanner)
 - [Axianke/CVE-2021-3129](https://github.com/Axianke/CVE-2021-3129)
 - [cc3305/CVE-2021-3129](https://github.com/cc3305/CVE-2021-3129)
-- [piperpwn/CVE-2021-3129-](https://github.com/piperpwn/CVE-2021-3129-)
+- [piperpwn/CVE-2021-3129-piperpwn](https://github.com/piperpwn/CVE-2021-3129-piperpwn)
 - [0x0d3ad/CVE-2021-3129](https://github.com/0x0d3ad/CVE-2021-3129)
 - [GodOfServer/CVE-2021-3129](https://github.com/GodOfServer/CVE-2021-3129)
 - [Prabesh01/hoh4](https://github.com/Prabesh01/hoh4)
@@ -44207,7 +44204,6 @@
 - [natpakun/SSRF-CVE-2018-25031-](https://github.com/natpakun/SSRF-CVE-2018-25031-)
 - [KonEch0/CVE-2018-25031-SG](https://github.com/KonEch0/CVE-2018-25031-SG)
 - [Proklinius897/CVE-2018-25031-tests](https://github.com/Proklinius897/CVE-2018-25031-tests)
-- [MMAKINGDOM/CVE-2018-25031](https://github.com/MMAKINGDOM/CVE-2018-25031)
 
 ### CVE-2018-25032 (2022-03-25)
 
