@@ -77,6 +77,7 @@
 </code>
 
 - [Network-Sec/CVE-2025-21420-PoC](https://github.com/Network-Sec/CVE-2025-21420-PoC)
+- [toxy4ny/edge-maradeur](https://github.com/toxy4ny/edge-maradeur)
 
 ### CVE-2025-22352 (2025-01-07)
 
@@ -199,6 +200,13 @@
 
 - [DoTTak/CVE-2025-24659](https://github.com/DoTTak/CVE-2025-24659)
 
+### CVE-2025-24971 (2025-02-04)
+
+<code>DumpDrop is a stupid simple file upload application that provides an interface for dragging and dropping files. An OS Command Injection vulnerability was discovered in the DumbDrop application, `/upload/init` endpoint. This vulnerability could allow an attacker to execute arbitrary code remotely when the **Apprise Notification** enabled. This issue has been addressed in commit `4ff8469d` and all users are advised to patch. There are no known workarounds for this vulnerability.
+</code>
+
+- [be4zad/CVE-2025-24971](https://github.com/be4zad/CVE-2025-24971)
+
 ### CVE-2025-25062 (2025-02-03)
 
 <code>An XSS issue was discovered in Backdrop CMS 1.28.x before 1.28.5 and 1.29.x before 1.29.3. It doesn't sufficiently isolate long text content when the CKEditor 5 rich text editor is used. This allows a potential attacker to craft specialized HTML and JavaScript that may be executed when an administrator attempts to edit a piece of content. This vulnerability is mitigated by the fact that an attacker must have the ability to create long text content (such as through the node or comment forms) and an administrator must edit (not view) the content that contains the malicious content. This problem only exists when using the CKEditor 5 module.
@@ -227,7 +235,11 @@
 ### CVE-2025-25965
 - [Sudo-Sakib/CVE-2025-25965](https://github.com/Sudo-Sakib/CVE-2025-25965)
 
-### CVE-2025-25968
+### CVE-2025-25968 (2025-02-20)
+
+<code>DDSN Interactive cm3 Acora CMS version 10.1.1 contains an improper access control vulnerability. An editor-privileged user can access sensitive information, such as system administrator credentials, by force browsing the endpoint and exploiting the 'file' parameter. By referencing specific files (e.g., cm3.xml), attackers can bypass access controls, leading to account takeover and potential privilege escalation.
+</code>
+
 - [padayali-JD/CVE-2025-25968](https://github.com/padayali-JD/CVE-2025-25968)
 
 ### CVE-2025-26465 (2025-02-18)
@@ -2962,6 +2974,55 @@
 </code>
 
 - [McTavishSue/CVE-2024-13375](https://github.com/McTavishSue/CVE-2024-13375)
+
+### CVE-2024-13478 (2025-02-19)
+
+<code>The LTL Freight Quotes – TForce Edition plugin for WordPress is vulnerable to SQL Injection via the 'dropship_edit_id' and 'edit_id' parameters in all versions up to, and including, 3.6.4 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [RandomRobbieBF/CVE-2024-13478](https://github.com/RandomRobbieBF/CVE-2024-13478)
+
+### CVE-2024-13479 (2025-02-19)
+
+<code>The LTL Freight Quotes – SEFL Edition plugin for WordPress is vulnerable to SQL Injection via the 'dropship_edit_id' and 'edit_id' parameters in all versions up to, and including, 3.2.4 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [RandomRobbieBF/CVE-2024-13479](https://github.com/RandomRobbieBF/CVE-2024-13479)
+
+### CVE-2024-13481 (2025-02-19)
+
+<code>The LTL Freight Quotes – R+L Carriers Edition plugin for WordPress is vulnerable to SQL Injection via the 'edit_id' and 'dropship_edit_id' parameters in all versions up to, and including, 3.3.4 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [RandomRobbieBF/CVE-2024-13481](https://github.com/RandomRobbieBF/CVE-2024-13481)
+
+### CVE-2024-13483 (2025-02-19)
+
+<code>The LTL Freight Quotes – SAIA Edition plugin for WordPress is vulnerable to SQL Injection via the 'edit_id' and 'dropship_edit_id' parameters in all versions up to, and including, 2.2.10 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [RandomRobbieBF/CVE-2024-13483](https://github.com/RandomRobbieBF/CVE-2024-13483)
+
+### CVE-2024-13485 (2025-02-19)
+
+<code>The LTL Freight Quotes – ABF Freight Edition plugin for WordPress is vulnerable to SQL Injection via the 'edit_id' and 'dropship_edit_id' parameters in all versions up to, and including, 3.3.7 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [RandomRobbieBF/CVE-2024-13485](https://github.com/RandomRobbieBF/CVE-2024-13485)
+
+### CVE-2024-13488 (2025-02-15)
+
+<code>The LTL Freight Quotes – Estes Edition plugin for WordPress is vulnerable to SQL Injection via the 'dropship_edit_id' and 'edit_id' parameters in all versions up to, and including, 3.3.7 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [RandomRobbieBF/CVE-2024-13488](https://github.com/RandomRobbieBF/CVE-2024-13488)
+
+### CVE-2024-13489 (2025-02-19)
+
+<code>The LTL Freight Quotes – Old Dominion Edition plugin for WordPress is vulnerable to SQL Injection via the 'edit_id' and 'dropship_edit_id' parameters in all versions up to, and including, 4.2.10 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [RandomRobbieBF/CVE-2024-13489](https://github.com/RandomRobbieBF/CVE-2024-13489)
 
 ### CVE-2024-20017 (2024-03-04)
 
@@ -8850,7 +8911,11 @@
 ### CVE-2024-55347
 - [sahil3276/CVE-2024-55347](https://github.com/sahil3276/CVE-2024-55347)
 
-### CVE-2024-55457
+### CVE-2024-55457 (2025-02-20)
+
+<code>MasterSAM Star Gate 11 is vulnerable to directory traversal via /adama/adama/downloadService. An attacker can exploit this vulnerability by manipulating the file parameter to access arbitrary files on the server, potentially exposing sensitive information.
+</code>
+
 - [h13nh04ng/CVE-2024-55457-PoC](https://github.com/h13nh04ng/CVE-2024-55457-PoC)
 
 ### CVE-2024-55503 (2025-01-15)
@@ -9137,7 +9202,11 @@
 
 - [cypherdavy/CVE-2024-57373](https://github.com/cypherdavy/CVE-2024-57373)
 
-### CVE-2024-57401
+### CVE-2024-57401 (2025-02-20)
+
+<code>SQL Injection vulnerability in Uniclare Student portal v.2 and before allows a remote attacker to execute arbitrary code via the Forgot Password function.
+</code>
+
 - [aksingh82/CVE-2024-57401](https://github.com/aksingh82/CVE-2024-57401)
 
 ### CVE-2024-57427 (2025-02-06)
