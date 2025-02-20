@@ -239,6 +239,7 @@
 
 ### CVE-2025-26466
 - [rxerium/CVE-2025-26466](https://github.com/rxerium/CVE-2025-26466)
+- [jhonnybonny/CVE-2025-26466](https://github.com/jhonnybonny/CVE-2025-26466)
 
 
 ## 2024
@@ -50750,6 +50751,7 @@
 - [Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit](https://github.com/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit)
 - [everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-](https://github.com/everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-)
 - [NullBrunk/CVE-2011-2523](https://github.com/NullBrunk/CVE-2011-2523)
+- [Lychi3/vsftpd-backdoor](https://github.com/Lychi3/vsftpd-backdoor)
 
 ### CVE-2011-2894 (2011-10-04)
 
@@ -51309,6 +51311,7 @@
 - [bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654)
 - [KernelErr/VLC-CVE-2008-4654-Exploit](https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit)
 - [rnnsz/CVE-2008-4654](https://github.com/rnnsz/CVE-2008-4654)
+- [Hexastrike/CVE-2008-4654](https://github.com/Hexastrike/CVE-2008-4654)
 
 ### CVE-2008-4687 (2008-10-22)
 
