@@ -43,6 +43,13 @@
 
 - [skrkcb2/CVE-2025-0851](https://github.com/skrkcb2/CVE-2025-0851)
 
+### CVE-2025-0924 (2025-02-17)
+
+<code>The WP Activity Log plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘message’ parameter in all versions up to, and including, 5.2.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
+- [skrkcb2/CVE-2025-0924](https://github.com/skrkcb2/CVE-2025-0924)
+
 ### CVE-2025-0994 (2025-02-06)
 
 <code>Trimble Cityworks versions prior to 15.8.9 and Cityworks with office companion versions prior to 23.10 are vulnerable to a deserialization vulnerability. This could allow an authenticated user to perform a remote code execution attack against a customer’s Microsoft Internet Information Services (IIS) web server.
@@ -3474,6 +3481,7 @@
 
 - [SeanPesce/CVE-2024-22243](https://github.com/SeanPesce/CVE-2024-22243)
 - [shellfeel/CVE-2024-22243-CVE-2024-22234](https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234)
+- [Reivap/CVE-2024-22243](https://github.com/Reivap/CVE-2024-22243)
 
 ### CVE-2024-22262 (2024-04-16)
 
