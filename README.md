@@ -256,6 +256,7 @@
 </code>
 
 - [rxerium/CVE-2025-26465](https://github.com/rxerium/CVE-2025-26465)
+- [dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466](https://github.com/dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466)
 
 ### CVE-2025-26466
 - [rxerium/CVE-2025-26466](https://github.com/rxerium/CVE-2025-26466)
@@ -5383,6 +5384,13 @@
 </code>
 
 - [Stuub/CVE-2024-31848-PoC](https://github.com/Stuub/CVE-2024-31848-PoC)
+
+### CVE-2024-31903 (2025-01-22)
+
+<code>IBM Sterling B2B Integrator Standard Edition 6.0.0.0 through 6.1.2.5 and 6.2.0.0 through 6.2.0.2 allow an attacker on the local network to execute arbitrary code on the system, caused by the deserialization of untrusted data.
+</code>
+
+- [WithSecureLabs/ibm-sterling-b2b-integrator-poc](https://github.com/WithSecureLabs/ibm-sterling-b2b-integrator-poc)
 
 ### CVE-2024-31974 (2024-05-17)
 
