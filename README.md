@@ -237,6 +237,9 @@
 - [RandomRobbieBF/CVE-2025-25163](https://github.com/RandomRobbieBF/CVE-2025-25163)
 - [rootharpy/CVE-2025-25163-Nuclei-Template](https://github.com/rootharpy/CVE-2025-25163-Nuclei-Template)
 
+### CVE-2025-25460
+- [RoNiXxCybSeC0101/CVE-2025-25460](https://github.com/RoNiXxCybSeC0101/CVE-2025-25460)
+
 ### CVE-2025-25964
 - [Sudo-Sakib/CVE-2025-25964](https://github.com/Sudo-Sakib/CVE-2025-25964)
 
@@ -3033,6 +3036,9 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-13489](https://github.com/RandomRobbieBF/CVE-2024-13489)
+
+### CVE-2024-13869
+- [d0n601/CVE-2024-13869](https://github.com/d0n601/CVE-2024-13869)
 
 ### CVE-2024-20017 (2024-03-04)
 
@@ -6400,7 +6406,6 @@
 - [Dragkob/CVE-2024-38063](https://github.com/Dragkob/CVE-2024-38063)
 - [selenagomez25/CVE-2024-38063](https://github.com/selenagomez25/CVE-2024-38063)
 - [Laukage/Windows-CVE-2024-38063](https://github.com/Laukage/Windows-CVE-2024-38063)
-- [jamesbishop785/CVE-2024-38063](https://github.com/jamesbishop785/CVE-2024-38063)
 - [jip-0-0-0-0-0/CVE-2024-38063-scanner](https://github.com/jip-0-0-0-0-0/CVE-2024-38063-scanner)
 
 ### CVE-2024-38077 (2024-07-09)
