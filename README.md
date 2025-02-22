@@ -265,6 +265,13 @@
 - [rxerium/CVE-2025-26466](https://github.com/rxerium/CVE-2025-26466)
 - [jhonnybonny/CVE-2025-26466](https://github.com/jhonnybonny/CVE-2025-26466)
 
+### CVE-2025-26794 (2025-02-21)
+
+<code>Exim 4.98 before 4.98.1, when SQLite hints and ETRN serialization are used, allows remote SQL injection.
+</code>
+
+- [OscarBataille/CVE-2025-26794](https://github.com/OscarBataille/CVE-2025-26794)
+
 
 ## 2024
 ### CVE-2024-0012 (2024-11-18)
@@ -3037,7 +3044,11 @@
 
 - [RandomRobbieBF/CVE-2024-13489](https://github.com/RandomRobbieBF/CVE-2024-13489)
 
-### CVE-2024-13869
+### CVE-2024-13869 (2025-02-22)
+
+<code>The Migration, Backup, Staging – WPvivid Backup &amp; Migration plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'upload_files' function in all versions up to, and including, 0.9.112. This makes it possible for authenticated attackers, with Administrator-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible. NOTE: Uploaded files are only accessible on WordPress instances running on the NGINX web server as the existing .htaccess within the target file upload folder prevents access on Apache servers.
+</code>
+
 - [d0n601/CVE-2024-13869](https://github.com/d0n601/CVE-2024-13869)
 
 ### CVE-2024-20017 (2024-03-04)
