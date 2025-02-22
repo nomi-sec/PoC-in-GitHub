@@ -7284,6 +7284,13 @@
 
 - [expl0itsecurity/CVE-2024-43532](https://github.com/expl0itsecurity/CVE-2024-43532)
 
+### CVE-2024-43583 (2024-10-08)
+
+<code>Winlogon Elevation of Privilege Vulnerability
+</code>
+
+- [Kvngtheta/CVE-2024-43583-PoC](https://github.com/Kvngtheta/CVE-2024-43583-PoC)
+
 ### CVE-2024-43762 (2025-01-02)
 
 <code>In multiple locations, there is a possible way to avoid unbinding of a service from the system due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
