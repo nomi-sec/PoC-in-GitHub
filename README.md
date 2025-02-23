@@ -8905,6 +8905,9 @@
 
 - [partywavesec/CVE-2024-54819](https://github.com/partywavesec/CVE-2024-54819)
 
+### CVE-2024-54820
+- [jcarabantes/CVE-2024-54820](https://github.com/jcarabantes/CVE-2024-54820)
+
 ### CVE-2024-54879 (2025-01-06)
 
 <code>SeaCMS V13.1 is vulnerable to Incorrect Access Control. A logic flaw can be exploited by an attacker to allow any user to recharge members indefinitely.
@@ -9625,6 +9628,13 @@
 </code>
 
 - [Decemberus/BugHub](https://github.com/Decemberus/BugHub)
+
+### CVE-2023-1545 (2023-03-21)
+
+<code>SQL Injection in GitHub repository nilsteampassnet/teampass prior to 3.0.0.23.
+</code>
+
+- [HarshRajSinghania/CVE-2023-1545-Exploit](https://github.com/HarshRajSinghania/CVE-2023-1545-Exploit)
 
 ### CVE-2023-1665 (2023-03-27)
 
@@ -49262,7 +49272,7 @@
 - [cbk914/heartbleed-checker](https://github.com/cbk914/heartbleed-checker)
 - [MrE-Fog/CVE-2014-0160-Chrome-Plugin](https://github.com/MrE-Fog/CVE-2014-0160-Chrome-Plugin)
 - [timsonner/cve-2014-0160-heartbleed](https://github.com/timsonner/cve-2014-0160-heartbleed)
-- [Yash-Thakkar77/CVE-2014-0160-HeartBleed](https://github.com/Yash-Thakkar77/CVE-2014-0160-HeartBleed)
+- [yashfren/CVE-2014-0160-HeartBleed](https://github.com/yashfren/CVE-2014-0160-HeartBleed)
 
 ### CVE-2014-0166 (2014-04-09)
 
