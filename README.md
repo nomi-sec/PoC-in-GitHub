@@ -35,6 +35,7 @@
 - [dhmosfunk/7-Zip-CVE-2025-0411-POC](https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC)
 - [iSee857/CVE-2025-0411-PoC](https://github.com/iSee857/CVE-2025-0411-PoC)
 - [ishwardeepp/CVE-2025-0411-MoTW-PoC](https://github.com/ishwardeepp/CVE-2025-0411-MoTW-PoC)
+- [cesarbtakeda/7-Zip-CVE-2025-0411-POC](https://github.com/cesarbtakeda/7-Zip-CVE-2025-0411-POC)
 
 ### CVE-2025-0851 (2025-01-29)
 
@@ -48,7 +49,7 @@
 <code>The WP Activity Log plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘message’ parameter in all versions up to, and including, 5.2.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 </code>
 
-- [skrkcb2/CVE-2025-0924](https://github.com/skrkcb2/CVE-2025-0924)
+- [skrkcb2/CVE-2025-0924-different](https://github.com/skrkcb2/CVE-2025-0924-different)
 
 ### CVE-2025-0994 (2025-02-06)
 
@@ -27568,6 +27569,13 @@
 
 - [mavlevin/D-Link-CVE-2021-27342-exploit](https://github.com/mavlevin/D-Link-CVE-2021-27342-exploit)
 
+### CVE-2021-27365 (2021-03-07)
+
+<code>An issue was discovered in the Linux kernel through 5.11.3. Certain iSCSI data structures do not have appropriate length constraints or checks, and can exceed the PAGE_SIZE value. An unprivileged user can send a Netlink message that is associated with iSCSI, and has a length up to the maximum length of a Netlink message.
+</code>
+
+- [coderzawad/Kernel-CVE-2021-27365-hotfix](https://github.com/coderzawad/Kernel-CVE-2021-27365-hotfix)
+
 ### CVE-2021-27403 (2021-02-19)
 
 <code>Askey RTF8115VW BR_SV_g11.11_RTF_TEF001_V6.54_V014 devices allow cgi-bin/te_acceso_router.cgi curWebPage XSS.
@@ -30011,7 +30019,6 @@
 <code>Sitecore XP 7.5 Initial Release to Sitecore XP 8.2 Update-7 is vulnerable to an insecure deserialization attack where it is possible to achieve remote command execution on the machine. No authentication or special configuration is required to exploit this vulnerability.
 </code>
 
-- [ItsIgnacioPortal/CVE-2021-42237](https://github.com/ItsIgnacioPortal/CVE-2021-42237)
 - [vesperp/CVE-2021-42237-SiteCore-XP](https://github.com/vesperp/CVE-2021-42237-SiteCore-XP)
 - [crankyyash/SiteCore-RCE-Detection](https://github.com/crankyyash/SiteCore-RCE-Detection)
 
@@ -49296,6 +49303,13 @@
 
 - [SunRain/CVE-2014-0196](https://github.com/SunRain/CVE-2014-0196)
 - [tempbottle/CVE-2014-0196](https://github.com/tempbottle/CVE-2014-0196)
+
+### CVE-2014-0221 (2014-06-05)
+
+<code>The dtls1_get_message_fragment function in d1_both.c in OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h allows remote attackers to cause a denial of service (recursion and client crash) via a DTLS hello message in an invalid DTLS handshake.
+</code>
+
+- [chihyeonwon/OpenSSL_DTLS_CVE_2014_0221](https://github.com/chihyeonwon/OpenSSL_DTLS_CVE_2014_0221)
 
 ### CVE-2014-0224 (2014-06-05)
 
