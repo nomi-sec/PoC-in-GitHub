@@ -2656,6 +2656,7 @@
 - [cy3erdr4g0n/CVE-2024-10924](https://github.com/cy3erdr4g0n/CVE-2024-10924)
 - [h8sU/wordpress-cve-2024-10924-exploit](https://github.com/h8sU/wordpress-cve-2024-10924-exploit)
 - [sariamubeen/CVE-2024-10924](https://github.com/sariamubeen/CVE-2024-10924)
+- [MaleeshaUdan/wordpress-CVE-2024-10924--exploit](https://github.com/MaleeshaUdan/wordpress-CVE-2024-10924--exploit)
 
 ### CVE-2024-10930
 - [sahil3276/CVE-2024-10930](https://github.com/sahil3276/CVE-2024-10930)
@@ -3839,6 +3840,7 @@
 </code>
 
 - [Youssefdds/CVE-2024-23724](https://github.com/Youssefdds/CVE-2024-23724)
+- [gl1tch0x1/Ghost-CMS-Exploit](https://github.com/gl1tch0x1/Ghost-CMS-Exploit)
 
 ### CVE-2024-23727 (2024-03-28)
 
