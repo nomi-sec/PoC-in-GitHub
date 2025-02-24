@@ -8760,6 +8760,7 @@
 - [punitdarji/Apache-struts-cve-2024-53677](https://github.com/punitdarji/Apache-struts-cve-2024-53677)
 - [SeanRickerd/CVE-2024-53677](https://github.com/SeanRickerd/CVE-2024-53677)
 - [hopsypopsy8/CVE-2024-53677-Exploitation](https://github.com/hopsypopsy8/CVE-2024-53677-Exploitation)
+- [shishirghimir/CVE-2024-53677-Exploit](https://github.com/shishirghimir/CVE-2024-53677-Exploit)
 
 ### CVE-2024-53691 (2024-12-06)
 
@@ -11505,6 +11506,7 @@
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
 - [Romanc9/Gui-poc-test](https://github.com/Romanc9/Gui-poc-test)
 - [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
+- [outgoingcon/CVE-2023-21839](https://github.com/outgoingcon/CVE-2023-21839)
 
 ### CVE-2023-21887 (2023-01-17)
 
@@ -11599,6 +11601,7 @@
 - [xorbbo/cve-2023-22515](https://github.com/xorbbo/cve-2023-22515)
 - [spareack/CVE-2023-22515-NSE](https://github.com/spareack/CVE-2023-22515-NSE)
 - [Onedy1703/CVE-2023-22515-Confluence](https://github.com/Onedy1703/CVE-2023-22515-Confluence)
+- [vivigotnotime/CVE-2023-22515-Exploit-Script](https://github.com/vivigotnotime/CVE-2023-22515-Exploit-Script)
 
 ### CVE-2023-22518 (2023-10-31)
 
@@ -22533,7 +22536,6 @@
 - [HuskyHacks/cve-2022-33891](https://github.com/HuskyHacks/cve-2022-33891)
 - [nanaao/CVE-2022-33891](https://github.com/nanaao/CVE-2022-33891)
 - [AkbarTrilaksana/cve-2022-33891](https://github.com/AkbarTrilaksana/cve-2022-33891)
-- [llraudseppll/cve-2022-33891](https://github.com/llraudseppll/cve-2022-33891)
 - [AmoloHT/CVE-2022-33891](https://github.com/AmoloHT/CVE-2022-33891)
 - [DrLinuxOfficial/CVE-2022-33891](https://github.com/DrLinuxOfficial/CVE-2022-33891)
 - [Vulnmachines/Apache-spark-CVE-2022-33891](https://github.com/Vulnmachines/Apache-spark-CVE-2022-33891)
