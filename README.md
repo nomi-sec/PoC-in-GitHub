@@ -65,6 +65,13 @@
 
 - [r3m0t3nu11/CVE-2025-1015](https://github.com/r3m0t3nu11/CVE-2025-1015)
 
+### CVE-2025-20029 (2025-02-05)
+
+<code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [mbadanoiu/CVE-2025-20029](https://github.com/mbadanoiu/CVE-2025-20029)
+
 ### CVE-2025-21298 (2025-01-14)
 
 <code>Windows OLE Remote Code Execution Vulnerability
@@ -50324,6 +50331,7 @@
 - [CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln](https://github.com/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln)
 - [Securenetology/CVE-2013-3900](https://github.com/Securenetology/CVE-2013-3900)
 - [OtisSymbos/CVE-2013-3900-WinTrustVerify](https://github.com/OtisSymbos/CVE-2013-3900-WinTrustVerify)
+- [AdenilsonSantos/WinVerifyTrust](https://github.com/AdenilsonSantos/WinVerifyTrust)
 
 ### CVE-2013-4002 (2013-07-23)
 
