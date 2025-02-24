@@ -261,6 +261,9 @@
 
 - [padayali-JD/CVE-2025-25968](https://github.com/padayali-JD/CVE-2025-25968)
 
+### CVE-2025-26206
+- [xibhi/CVE-2025-26206](https://github.com/xibhi/CVE-2025-26206)
+
 ### CVE-2025-26465 (2025-02-18)
 
 <code>A vulnerability was found in OpenSSH when the VerifyHostKeyDNS option is enabled. A machine-in-the-middle attack can be performed by a malicious machine impersonating a legit server. This issue occurs due to how OpenSSH mishandles error codes in specific conditions when verifying the host key. For an attack to be considered successful, the attacker needs to manage to exhaust the client's memory resource first, turning the attack complexity high.
