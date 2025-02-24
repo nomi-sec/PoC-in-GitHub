@@ -135,6 +135,13 @@
 ### CVE-2025-22783
 - [DoTTak/CVE-2025-22783](https://github.com/DoTTak/CVE-2025-22783)
 
+### CVE-2025-22785 (2025-01-15)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ComMotion Course Booking System allows SQL Injection.This issue affects Course Booking System: from n/a through 6.0.5.
+</code>
+
+- [RandomRobbieBF/CVE-2025-22785](https://github.com/RandomRobbieBF/CVE-2025-22785)
+
 ### CVE-2025-22828 (2025-01-13)
 
 <code>CloudStack users can add and read comments (annotations) on resources they are authorised to access. \n\nDue to an access validation issue that affects Apache CloudStack versions from 4.16.0, users who have access, prior access or knowledge of resource UUIDs can list and add comments (annotations) to such resources. \n\nAn attacker with a user-account and access or prior knowledge of resource UUIDs may exploit this issue to read contents of the comments (annotations) or add malicious comments (annotations) to such resources. \n\nThis may cause potential loss of confidentiality of CloudStack environments and resources if the comments (annotations) contain any privileged information. However, guessing or brute-forcing resource UUIDs are generally hard to impossible and access to listing or adding comments isn't same as access to CloudStack resources, making this issue of very low severity and general low impact.\n\n\nCloudStack admins may also disallow listAnnotations and addAnnotation API access to non-admin roles in their environment as an interim measure.
@@ -245,7 +252,11 @@
 - [RandomRobbieBF/CVE-2025-25163](https://github.com/RandomRobbieBF/CVE-2025-25163)
 - [rootharpy/CVE-2025-25163-Nuclei-Template](https://github.com/rootharpy/CVE-2025-25163-Nuclei-Template)
 
-### CVE-2025-25460
+### CVE-2025-25460 (2025-02-24)
+
+<code>A stored Cross-Site Scripting (XSS) vulnerability was identified in FlatPress 1.3.1 within the &quot;Add Entry&quot; feature. This vulnerability allows authenticated attackers to inject malicious JavaScript payloads into blog posts, which are executed when other users view the posts. The issue arises due to improper input sanitization of the &quot;TextArea&quot; field in the blog entry submission form.
+</code>
+
 - [RoNiXxCybSeC0101/CVE-2025-25460](https://github.com/RoNiXxCybSeC0101/CVE-2025-25460)
 
 ### CVE-2025-25964
@@ -2360,6 +2371,13 @@
 - [tdonaworth/Firefox-CVE-2024-9680](https://github.com/tdonaworth/Firefox-CVE-2024-9680)
 - [PraiseImafidon/Version_Vulnerability_Scanner](https://github.com/PraiseImafidon/Version_Vulnerability_Scanner)
 
+### CVE-2024-9698 (2024-12-14)
+
+<code>The Crafthemes Demo Import plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'process_uploaded_files' function in all versions up to, and including, 3.3. This makes it possible for authenticated attackers, with Administrator-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [Nxploited/CVE-2024-9698](https://github.com/Nxploited/CVE-2024-9698)
+
 ### CVE-2024-9707 (2024-10-11)
 
 <code>The Hunk Companion plugin for WordPress is vulnerable to unauthorized plugin installation/activation due to a missing capability check on the /wp-json/hc/v1/themehunk-import REST API endpoint in all versions up to, and including, 1.8.4. This makes it possible for unauthenticated attackers to install and activate arbitrary plugins which can be leveraged to achieve remote code execution if another vulnerable plugin is installed and activated.
@@ -2838,6 +2856,13 @@
 </code>
 
 - [samogod/CVE-2024-11728](https://github.com/samogod/CVE-2024-11728)
+
+### CVE-2024-11848 (2025-01-15)
+
+<code>The NitroPack plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'nitropack_dismiss_notice_forever' AJAX action in all versions up to, and including, 1.17.0. This makes it possible for authenticated attackers, with subscriber-level access and above, to update arbitrary options to a fixed value of '1' which can activate certain options (e.g., enable user registration) or modify certain options in a way that leads to a denial of service condition.
+</code>
+
+- [RandomRobbieBF/CVE-2024-11848](https://github.com/RandomRobbieBF/CVE-2024-11848)
 
 ### CVE-2024-11972 (2024-12-31)
 
@@ -8790,6 +8815,13 @@
 
 - [Jflye/CVE-2024-54160-Opensearch-HTML-And-Injection-Stored-XSS](https://github.com/Jflye/CVE-2024-54160-Opensearch-HTML-And-Injection-Stored-XSS)
 
+### CVE-2024-54239 (2024-12-13)
+
+<code>Missing Authorization vulnerability in dugudlabs Eyewear prescription form allows Privilege Escalation.This issue affects Eyewear prescription form: from n/a through 4.0.18.
+</code>
+
+- [RandomRobbieBF/CVE-2024-54239](https://github.com/RandomRobbieBF/CVE-2024-54239)
+
 ### CVE-2024-54262 (2024-12-13)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in Siddharth Nagar Import Export For WooCommerce allows Upload a Web Shell to a Web Server.This issue affects Import Export For WooCommerce: from n/a through 1.5.
@@ -8886,7 +8918,7 @@
 
 ### CVE-2024-54772 (2025-02-11)
 
-<code>An issue was discovered in the Winbox service of MikroTik RouterOS v6.43 through v7.16.1. A discrepancy in response times between connection attempts made with a valid username and those with an invalid username allows attackers to enumerate for valid accounts.
+<code>An issue was discovered in the Winbox service of MikroTik RouterOS long-term release v6.43.13 through v6.49.13 and stable v6.43 through v7.17.2. A patch is available in the stable release v6.49.18. A discrepancy in response size between connection attempts made with a valid username and those with an invalid username allows attackers to enumerate for valid accounts.
 </code>
 
 - [deauther890/CVE-2024-54772](https://github.com/deauther890/CVE-2024-54772)
@@ -8919,7 +8951,11 @@
 
 - [partywavesec/CVE-2024-54819](https://github.com/partywavesec/CVE-2024-54819)
 
-### CVE-2024-54820
+### CVE-2024-54820 (2025-02-24)
+
+<code>XOne Web Monitor v02.10.2024.530 framework 1.0.4.9 was discovered to contain a SQL injection vulnerability in the login page. This vulnerability allows attackers to extract all usernames and passwords via a crafted input.
+</code>
+
 - [jcarabantes/CVE-2024-54820](https://github.com/jcarabantes/CVE-2024-54820)
 
 ### CVE-2024-54879 (2025-01-06)
@@ -9649,6 +9685,7 @@
 </code>
 
 - [HarshRajSinghania/CVE-2023-1545-Exploit](https://github.com/HarshRajSinghania/CVE-2023-1545-Exploit)
+- [zer0-dave/CVE-2023-1545-POC](https://github.com/zer0-dave/CVE-2023-1545-POC)
 
 ### CVE-2023-1665 (2023-03-27)
 
@@ -17294,6 +17331,9 @@
 </code>
 
 - [actuator/com.simplemobiletools.dialer](https://github.com/actuator/com.simplemobiletools.dialer)
+
+### CVE-2023-49031
+- [Yoshik0xF6/CVE-2023-49031](https://github.com/Yoshik0xF6/CVE-2023-49031)
 
 ### CVE-2023-49038 (2024-01-29)
 
@@ -26117,6 +26157,7 @@
 - [lsclsclsc/CVE-2021-4034](https://github.com/lsclsclsc/CVE-2021-4034)
 - [EuJin03/CVE-2021-4034-PoC](https://github.com/EuJin03/CVE-2021-4034-PoC)
 - [dh4r4/PwnKit-CVE-2021-4034-](https://github.com/dh4r4/PwnKit-CVE-2021-4034-)
+- [12bijaya/CVE-2021-4034-PwnKit-](https://github.com/12bijaya/CVE-2021-4034-PwnKit-)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -27588,7 +27629,7 @@
 <code>An issue was discovered in the Linux kernel through 5.11.3. Certain iSCSI data structures do not have appropriate length constraints or checks, and can exceed the PAGE_SIZE value. An unprivileged user can send a Netlink message that is associated with iSCSI, and has a length up to the maximum length of a Netlink message.
 </code>
 
-- [coderzawad/Kernel-CVE-2021-27365-hotfix](https://github.com/coderzawad/Kernel-CVE-2021-27365-hotfix)
+- [Iweisc/Kernel-CVE-2021-27365-hotfix](https://github.com/Iweisc/Kernel-CVE-2021-27365-hotfix)
 
 ### CVE-2021-27403 (2021-02-19)
 
@@ -30117,13 +30158,6 @@
 
 - [simonecris/CVE-2021-42362-PoC](https://github.com/simonecris/CVE-2021-42362-PoC)
 
-### CVE-2021-42392 (2022-01-07)
-
-<code>The org.h2.util.JdbcUtils.getConnection method of the H2 database takes as parameters the class name of the driver and URL of the database. An attacker may pass a JNDI driver name and a URL leading to a LDAP or RMI servers, causing remote code execution. This can be exploited through various attack vectors, most notably through the H2 Console which leads to unauthenticated remote code execution.
-</code>
-
-- [cybersecurityworks553/CVE-2021-42392-Detect](https://github.com/cybersecurityworks553/CVE-2021-42392-Detect)
-
 ### CVE-2021-42558 (2022-01-12)
 
 <code>An issue was discovered in CALDERA 2.8.1. It contains multiple reflected, stored, and self XSS vulnerabilities that may be exploited by authenticated and unauthenticated attackers.
@@ -32556,6 +32590,7 @@
 - [WHtig3r/CVE-2020-1938](https://github.com/WHtig3r/CVE-2020-1938)
 - [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro)
 - [hopsypopsy8/CVE-2020-1938-Exploitation](https://github.com/hopsypopsy8/CVE-2020-1938-Exploitation)
+- [erickrr-bd/Apache-Tomcat-Ghostcat-Vulnerability](https://github.com/erickrr-bd/Apache-Tomcat-Ghostcat-Vulnerability)
 
 ### CVE-2020-1947 (2020-03-11)
 
