@@ -223,6 +223,13 @@
 
 - [DoTTak/CVE-2025-24659](https://github.com/DoTTak/CVE-2025-24659)
 
+### CVE-2025-24893 (2025-02-20)
+
+<code>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution through a request to `SolrSearch`. This impacts the confidentiality, integrity and availability of the whole XWiki installation. To reproduce on an instance, without being logged in, go to `&lt;host&gt;/xwiki/bin/get/Main/SolrSearch?media=rss&amp;text=%7D%7D%7D%7B%7Basync%20async%3Dfalse%7D%7D%7B%7Bgroovy%7D%7Dprintln%28&quot;Hello%20from&quot;%20%2B%20&quot;%20search%20text%3A&quot;%20%2B%20%2823%20%2B%2019%29%29%7B%7B%2Fgroovy%7D%7D%7B%7B%2Fasync%7D%7D%20`. If there is an output, and the title of the RSS feed contains `Hello from search text:42`, then the instance is vulnerable. This vulnerability has been patched in XWiki 15.10.11, 16.4.1 and 16.5.0RC1. Users are advised to upgrade. Users unable to upgrade may edit `Main.SolrSearchMacros` in `SolrSearchMacros.xml` on line 955 to match the `rawResponse` macro in `macros.vm#L2824` with a content type of `application/xml`, instead of simply outputting the content of the feed.
+</code>
+
+- [sug4r-wr41th/CVE-2025-24893](https://github.com/sug4r-wr41th/CVE-2025-24893)
+
 ### CVE-2025-24971 (2025-02-04)
 
 <code>DumpDrop is a stupid simple file upload application that provides an interface for dragging and dropping files. An OS Command Injection vulnerability was discovered in the DumbDrop application, `/upload/init` endpoint. This vulnerability could allow an attacker to execute arbitrary code remotely when the **Apprise Notification** enabled. This issue has been addressed in commit `4ff8469d` and all users are advised to patch. There are no known workarounds for this vulnerability.
@@ -251,6 +258,13 @@
 
 - [RandomRobbieBF/CVE-2025-25163](https://github.com/RandomRobbieBF/CVE-2025-25163)
 - [rootharpy/CVE-2025-25163-Nuclei-Template](https://github.com/rootharpy/CVE-2025-25163-Nuclei-Template)
+
+### CVE-2025-25279 (2025-02-24)
+
+<code>Mattermost versions 10.4.x &lt;= 10.4.1, 9.11.x &lt;= 9.11.7, 10.3.x &lt;= 10.3.2, 10.2.x &lt;= 10.2.2 fail to properly validate board blocks when importing boards which allows an attacker could read any arbitrary file on the system via importing and exporting a specially crafted import archive in Boards.
+</code>
+
+- [numanturle/CVE-2025-25279](https://github.com/numanturle/CVE-2025-25279)
 
 ### CVE-2025-25460 (2025-02-24)
 
@@ -8986,6 +9000,13 @@
 
 - [SAHALLL/CVE-2024-54916](https://github.com/SAHALLL/CVE-2024-54916)
 
+### CVE-2024-54951 (2025-02-13)
+
+<code>Monica 4.1.2 is vulnerable to Cross Site Scripting (XSS). A malicious user can create a malformed contact and use that contact in the &quot;HOW YOU MET&quot; customization options to trigger the XSS.
+</code>
+
+- [Allevon412/CVE-2024-54951](https://github.com/Allevon412/CVE-2024-54951)
+
 ### CVE-2024-55040
 - [tcbutler320/CVE-2024-55040-Sensaphone-XSS](https://github.com/tcbutler320/CVE-2024-55040-Sensaphone-XSS)
 
@@ -9177,6 +9198,13 @@
 
 - [Chocapikk/CVE-2024-56145](https://github.com/Chocapikk/CVE-2024-56145)
 - [Sachinart/CVE-2024-56145-craftcms-rce](https://github.com/Sachinart/CVE-2024-56145-craftcms-rce)
+
+### CVE-2024-56264 (2025-01-02)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Beee ACF City Selector allows Upload a Web Shell to a Web Server.This issue affects ACF City Selector: from n/a through 1.14.0.
+</code>
+
+- [Nxploited/CVE-2024-56264](https://github.com/Nxploited/CVE-2024-56264)
 
 ### CVE-2024-56278 (2025-01-07)
 
@@ -15145,7 +15173,7 @@
 - [ML-K-eng/CVE-2023-38831-Exploit-and-Detection](https://github.com/ML-K-eng/CVE-2023-38831-Exploit-and-Detection)
 - [z3r0sw0rd/CVE-2023-38831-PoC](https://github.com/z3r0sw0rd/CVE-2023-38831-PoC)
 - [sh770/CVE-2023-38831](https://github.com/sh770/CVE-2023-38831)
-- [BeniB3astt/CVE-2023-38831_ReverseShell_Winrar](https://github.com/BeniB3astt/CVE-2023-38831_ReverseShell_Winrar)
+- [Ben1B3astt/CVE-2023-38831_ReverseShell_Winrar](https://github.com/Ben1B3astt/CVE-2023-38831_ReverseShell_Winrar)
 - [MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC](https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC)
 - [Mich-ele/CVE-2023-38831-winrar](https://github.com/Mich-ele/CVE-2023-38831-winrar)
 - [asepsaepdin/CVE-2023-38831](https://github.com/asepsaepdin/CVE-2023-38831)
