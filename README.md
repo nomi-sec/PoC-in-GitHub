@@ -26,6 +26,7 @@
 - [Hexastrike/Ivanti-Connect-Secure-Logs-Parser](https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser)
 - [chiefchainer/CVE-2025-0282](https://github.com/chiefchainer/CVE-2025-0282)
 - [AdaniKamal/CVE-2025-0282](https://github.com/AdaniKamal/CVE-2025-0282)
+- [44xo/CVE-2025-0282](https://github.com/44xo/CVE-2025-0282)
 
 ### CVE-2025-0411 (2025-01-25)
 
@@ -307,6 +308,9 @@
 </code>
 
 - [padayali-JD/CVE-2025-25968](https://github.com/padayali-JD/CVE-2025-25968)
+
+### CVE-2025-25979
+- [padayali-JD/CVE-2025-25979](https://github.com/padayali-JD/CVE-2025-25979)
 
 ### CVE-2025-26206
 - [xibhi/CVE-2025-26206](https://github.com/xibhi/CVE-2025-26206)
@@ -3837,6 +3841,7 @@
 - [9carlo6/CVE-2024-23346](https://github.com/9carlo6/CVE-2024-23346)
 - [MAWK0235/CVE-2024-23346](https://github.com/MAWK0235/CVE-2024-23346)
 - [Sanity-Archive/CVE-2024-23346](https://github.com/Sanity-Archive/CVE-2024-23346)
+- [szyth/CVE-2024-23346-rust-exploit](https://github.com/szyth/CVE-2024-23346-rust-exploit)
 
 ### CVE-2024-23443 (2024-06-19)
 
