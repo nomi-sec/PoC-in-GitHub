@@ -250,7 +250,6 @@
 <code>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution through a request to `SolrSearch`. This impacts the confidentiality, integrity and availability of the whole XWiki installation. To reproduce on an instance, without being logged in, go to `&lt;host&gt;/xwiki/bin/get/Main/SolrSearch?media=rss&amp;text=%7D%7D%7D%7B%7Basync%20async%3Dfalse%7D%7D%7B%7Bgroovy%7D%7Dprintln%28&quot;Hello%20from&quot;%20%2B%20&quot;%20search%20text%3A&quot;%20%2B%20%2823%20%2B%2019%29%29%7B%7B%2Fgroovy%7D%7D%7B%7B%2Fasync%7D%7D%20`. If there is an output, and the title of the RSS feed contains `Hello from search text:42`, then the instance is vulnerable. This vulnerability has been patched in XWiki 15.10.11, 16.4.1 and 16.5.0RC1. Users are advised to upgrade. Users unable to upgrade may edit `Main.SolrSearchMacros` in `SolrSearchMacros.xml` on line 955 to match the `rawResponse` macro in `macros.vm#L2824` with a content type of `application/xml`, instead of simply outputting the content of the feed.
 </code>
 
-- [sug4r-wr41th/CVE-2025-24893](https://github.com/sug4r-wr41th/CVE-2025-24893)
 - [iSee857/CVE-2025-24893-PoC](https://github.com/iSee857/CVE-2025-24893-PoC)
 
 ### CVE-2025-24971 (2025-02-04)
@@ -314,6 +313,9 @@
 
 ### CVE-2025-26206
 - [xibhi/CVE-2025-26206](https://github.com/xibhi/CVE-2025-26206)
+
+### CVE-2025-26326
+- [azurejoga/CVE-2025-26326](https://github.com/azurejoga/CVE-2025-26326)
 
 ### CVE-2025-26465 (2025-02-18)
 
@@ -11945,13 +11947,6 @@
 
 - [Mav3r1ck0x1/CVE-2023-23583-Reptar-](https://github.com/Mav3r1ck0x1/CVE-2023-23583-Reptar-)
 
-### CVE-2023-23607 (2023-01-20)
-
-<code>erohtar/Dasherr is a dashboard for self-hosted services. In affected versions unrestricted file upload allows any unauthenticated user to execute arbitrary code on the server. The file /www/include/filesave.php allows for any file to uploaded to anywhere. If an attacker uploads a php file they can execute code on the server. This issue has been addressed in version 1.05.00. Users are advised to upgrade. There are no known workarounds for this issue.\n
-</code>
-
-- [Pylonet/CVE-2023-23607](https://github.com/Pylonet/CVE-2023-23607)
-
 ### CVE-2023-23638 (2023-03-08)
 
 <code>A deserialization vulnerability existed when dubbo generic invoke, which could lead to malicious code execution. \n\nThis issue affects Apache Dubbo 2.7.x version 2.7.21 and prior versions; Apache Dubbo 3.0.x version 3.0.13 and prior versions; Apache Dubbo 3.1.x version 3.1.5 and prior versions. 
@@ -12743,6 +12738,7 @@
 - [C04LA/CVE-2023-28121](https://github.com/C04LA/CVE-2023-28121)
 - [Jenderal92/WP-CVE-2023-28121](https://github.com/Jenderal92/WP-CVE-2023-28121)
 - [1337nemojj/CVE-2023-28121](https://github.com/1337nemojj/CVE-2023-28121)
+- [sug4r-wr41th/CVE-2023-28121](https://github.com/sug4r-wr41th/CVE-2023-28121)
 
 ### CVE-2023-28197 (2024-01-10)
 
@@ -25725,7 +25721,6 @@
 - [gmldbd94/cve-2021-3156](https://github.com/gmldbd94/cve-2021-3156)
 - [jm33-m0/CVE-2021-3156](https://github.com/jm33-m0/CVE-2021-3156)
 - [Rvn0xsy/CVE-2021-3156-plus](https://github.com/Rvn0xsy/CVE-2021-3156-plus)
-- [r3k4t/how-to-solve-sudo-heap-based-bufferoverflow-vulnerability](https://github.com/r3k4t/how-to-solve-sudo-heap-based-bufferoverflow-vulnerability)
 - [oneoy/CVE-2021-3156](https://github.com/oneoy/CVE-2021-3156)
 - [worawit/CVE-2021-3156](https://github.com/worawit/CVE-2021-3156)
 - [lmol/CVE-2021-3156](https://github.com/lmol/CVE-2021-3156)
