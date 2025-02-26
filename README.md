@@ -245,6 +245,9 @@
 
 - [DoTTak/CVE-2025-24659](https://github.com/DoTTak/CVE-2025-24659)
 
+### CVE-2025-24752
+- [Sachinart/essential-addons-for-elementor-xss-poc](https://github.com/Sachinart/essential-addons-for-elementor-xss-poc)
+
 ### CVE-2025-24893 (2025-02-20)
 
 <code>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution through a request to `SolrSearch`. This impacts the confidentiality, integrity and availability of the whole XWiki installation. To reproduce on an instance, without being logged in, go to `&lt;host&gt;/xwiki/bin/get/Main/SolrSearch?media=rss&amp;text=%7D%7D%7D%7B%7Basync%20async%3Dfalse%7D%7D%7B%7Bgroovy%7D%7Dprintln%28&quot;Hello%20from&quot;%20%2B%20&quot;%20search%20text%3A&quot;%20%2B%20%2823%20%2B%2019%29%29%7B%7B%2Fgroovy%7D%7D%7B%7B%2Fasync%7D%7D%20`. If there is an output, and the title of the RSS feed contains `Hello from search text:42`, then the instance is vulnerable. This vulnerability has been patched in XWiki 15.10.11, 16.4.1 and 16.5.0RC1. Users are advised to upgrade. Users unable to upgrade may edit `Main.SolrSearchMacros` in `SolrSearchMacros.xml` on line 955 to match the `rawResponse` macro in `macros.vm#L2824` with a content type of `application/xml`, instead of simply outputting the content of the feed.
@@ -287,6 +290,9 @@
 </code>
 
 - [numanturle/CVE-2025-25279](https://github.com/numanturle/CVE-2025-25279)
+
+### CVE-2025-25369
+- [lkasjkasj/CVE-2025-25369](https://github.com/lkasjkasj/CVE-2025-25369)
 
 ### CVE-2025-25460 (2025-02-24)
 
@@ -2391,6 +2397,7 @@
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
+- [uniformince/CVE-2024-9474](https://github.com/uniformince/CVE-2024-9474)
 
 ### CVE-2024-9570 (2024-10-07)
 
@@ -7971,6 +7978,9 @@
 
 ### CVE-2024-48246
 - [ShadowByte1/CVE-2024-48246](https://github.com/ShadowByte1/CVE-2024-48246)
+
+### CVE-2024-48248
+- [watchtowrlabs/nakivo-arbitrary-file-read-poc-CVE-2024-48248](https://github.com/watchtowrlabs/nakivo-arbitrary-file-read-poc-CVE-2024-48248)
 
 ### CVE-2024-48322 (2024-11-11)
 
@@ -49935,6 +49945,7 @@
 - [K3ysTr0K3R/CVE-2014-6271-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2014-6271-EXPLOIT)
 - [TheRealCiscoo/Shellshock-Exploit](https://github.com/TheRealCiscoo/Shellshock-Exploit)
 - [RadYio/CVE-2014-6271](https://github.com/RadYio/CVE-2014-6271)
+- [YunchoHang/CVE-2014-6271-SHELLSHOCK](https://github.com/YunchoHang/CVE-2014-6271-SHELLSHOCK)
 
 ### CVE-2014-6287 (2014-10-07)
 
