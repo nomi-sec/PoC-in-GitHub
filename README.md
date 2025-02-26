@@ -323,6 +323,12 @@
 ### CVE-2025-26206
 - [xibhi/CVE-2025-26206](https://github.com/xibhi/CVE-2025-26206)
 
+### CVE-2025-26263
+- [DRAGOWN/CVE-2025-26263](https://github.com/DRAGOWN/CVE-2025-26263)
+
+### CVE-2025-26264
+- [DRAGOWN/CVE-2025-26264](https://github.com/DRAGOWN/CVE-2025-26264)
+
 ### CVE-2025-26326
 - [azurejoga/CVE-2025-26326](https://github.com/azurejoga/CVE-2025-26326)
 
@@ -6877,7 +6883,7 @@
 <code>Nepstech Wifi Router xpon (terminal) model NTPL-Xpon1GFEVN v.1.0 Firmware V2.0.1 contains a Cross-Site Request Forgery (CSRF) vulnerability in the password change function, which allows remote attackers to change the admin password without the user's consent, leading to a potential account takeover.
 </code>
 
-- [sudo-subho/nepstech-xpon-router-CVE-2024-40119](https://github.com/sudo-subho/nepstech-xpon-router-CVE-2024-40119)
+- [baroi-ai/nepstech-xpon-router-CVE-2024-40119](https://github.com/baroi-ai/nepstech-xpon-router-CVE-2024-40119)
 
 ### CVE-2024-40318 (2024-07-25)
 
@@ -7244,14 +7250,14 @@
 <code>An issue in wishnet Nepstech Wifi Router NTPL-XPON1GFEVN v1.0 allows a remote attacker to obtain sensitive information via the lack of encryption during login process
 </code>
 
-- [sudo-subho/CVE-2024-42657](https://github.com/sudo-subho/CVE-2024-42657)
+- [baroi-ai/CVE-2024-42657](https://github.com/baroi-ai/CVE-2024-42657)
 
 ### CVE-2024-42658 (2024-08-19)
 
 <code>An issue in wishnet Nepstech Wifi Router NTPL-XPON1GFEVN v1.0 allows a remote attacker to obtain sensitive information via the cookie's parameter
 </code>
 
-- [sudo-subho/CVE-2024-42658](https://github.com/sudo-subho/CVE-2024-42658)
+- [baroi-ai/CVE-2024-42658](https://github.com/baroi-ai/CVE-2024-42658)
 
 ### CVE-2024-42758 (2024-08-16)
 
@@ -8249,6 +8255,7 @@
 - [dragonked2/CVE-2024-50379-POC](https://github.com/dragonked2/CVE-2024-50379-POC)
 - [dkstar11q/CVE-2024-50379-nuclei](https://github.com/dkstar11q/CVE-2024-50379-nuclei)
 - [pwnosec/CVE-2024-50379](https://github.com/pwnosec/CVE-2024-50379)
+- [paltrybelly/CVE-2024-50379](https://github.com/paltrybelly/CVE-2024-50379)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -12378,7 +12385,7 @@
 - [CUCUMBERanOrSNCompany/SealSecurityAssignment](https://github.com/CUCUMBERanOrSNCompany/SealSecurityAssignment)
 - [ronmadar/Open-Source-Seal-Security](https://github.com/ronmadar/Open-Source-Seal-Security)
 - [m-lito13/SealSecurity_Exam](https://github.com/m-lito13/SealSecurity_Exam)
-- [dani33339/tough-cookie-Seal-Security](https://github.com/dani33339/tough-cookie-Seal-Security)
+- [dani33339/Tough-Cookie-v2.5.0-Patched](https://github.com/dani33339/Tough-Cookie-v2.5.0-Patched)
 - [morrisel/CVE-2023-26136](https://github.com/morrisel/CVE-2023-26136)
 
 ### CVE-2023-26144 (2023-09-20)
@@ -28617,7 +28624,6 @@
 - [p2-98/CVE-2021-34473](https://github.com/p2-98/CVE-2021-34473)
 - [horizon3ai/proxyshell](https://github.com/horizon3ai/proxyshell)
 - [je6k/CVE-2021-34473-Exchange-ProxyShell](https://github.com/je6k/CVE-2021-34473-Exchange-ProxyShell)
-- [learningsurface/ProxyShell-CVE-2021-34473.py](https://github.com/learningsurface/ProxyShell-CVE-2021-34473.py)
 - [kh4sh3i/ProxyShell](https://github.com/kh4sh3i/ProxyShell)
 - [ipsBruno/CVE-2021-34473-NMAP-SCANNER](https://github.com/ipsBruno/CVE-2021-34473-NMAP-SCANNER)
 - [f4alireza/CVE](https://github.com/f4alireza/CVE)
@@ -31164,6 +31170,7 @@
 - [ZacharyZcR/CVE-2021-44228](https://github.com/ZacharyZcR/CVE-2021-44228)
 - [qw3rtyou/CVE-2021-44228_dockernize](https://github.com/qw3rtyou/CVE-2021-44228_dockernize)
 - [yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-](https://github.com/yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-)
+- [blackmidnig/log4shell-tools](https://github.com/blackmidnig/log4shell-tools)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -43408,6 +43415,7 @@
 
 - [milo2012/CVE-2018-13382](https://github.com/milo2012/CVE-2018-13382)
 - [tumikoto/Exploit-FortinetMagicBackdoor](https://github.com/tumikoto/Exploit-FortinetMagicBackdoor)
+- [cojoben/CVE-2018-13382](https://github.com/cojoben/CVE-2018-13382)
 
 ### CVE-2018-13410 (2018-07-06)
 
