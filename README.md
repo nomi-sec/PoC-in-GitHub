@@ -12369,6 +12369,7 @@
 </code>
 
 - [hshivhare67/Jetty_v9.4.31_CVE-2023-26049](https://github.com/hshivhare67/Jetty_v9.4.31_CVE-2023-26049)
+- [nidhihcl75/jetty-9.4.31.v20200723_G3_CVE-2023-26049](https://github.com/nidhihcl75/jetty-9.4.31.v20200723_G3_CVE-2023-26049)
 
 ### CVE-2023-26067 (2023-04-10)
 
@@ -16952,6 +16953,7 @@
 - [mranv/honeypot.rs](https://github.com/mranv/honeypot.rs)
 - [pulentoski/CVE-2023-46604](https://github.com/pulentoski/CVE-2023-46604)
 - [cuanh2333/CVE-2023-46604](https://github.com/cuanh2333/CVE-2023-46604)
+- [skrkcb2/CVE-2023-46604](https://github.com/skrkcb2/CVE-2023-46604)
 
 ### CVE-2023-46615 (2024-02-12)
 
@@ -17794,6 +17796,7 @@
 - [AsfandAliMemon25/CVE-2023-50164Analysis-](https://github.com/AsfandAliMemon25/CVE-2023-50164Analysis-)
 - [NikitaPark/CVE-2023-50164-PoC](https://github.com/NikitaPark/CVE-2023-50164-PoC)
 - [Trackflaw/CVE-2024-10924-Wordpress-Docker](https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker)
+- [powerlesssta/cve-2023-50164-poc](https://github.com/powerlesssta/cve-2023-50164-poc)
 
 ### CVE-2023-50226 (2024-05-03)
 
