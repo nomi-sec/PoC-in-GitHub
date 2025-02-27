@@ -66,6 +66,13 @@
 
 - [r3m0t3nu11/CVE-2025-1015](https://github.com/r3m0t3nu11/CVE-2025-1015)
 
+### CVE-2025-1094 (2025-02-13)
+
+<code>Improper neutralization of quoting syntax in PostgreSQL libpq functions PQescapeLiteral(), PQescapeIdentifier(), PQescapeString(), and PQescapeStringConn() allows a database input provider to achieve SQL injection in certain usage patterns.  Specifically, SQL injection requires the application to use the function result to construct input to psql, the PostgreSQL interactive terminal.  Similarly, improper neutralization of quoting syntax in PostgreSQL command line utility programs allows a source of command line arguments to achieve SQL injection when client_encoding is BIG5 and server_encoding is one of EUC_TW or MULE_INTERNAL.  Versions before PostgreSQL 17.3, 16.7, 15.11, 14.16, and 13.19 are affected.
+</code>
+
+- [soltanali0/CVE-2025-1094-Exploit](https://github.com/soltanali0/CVE-2025-1094-Exploit)
+
 ### CVE-2025-1302 (2025-02-15)
 
 <code>Versions of the package jsonpath-plus before 10.3.0 are vulnerable to Remote Code Execution (RCE) due to improper input sanitization. An attacker can execute aribitrary code on the system by exploiting the unsafe default usage of eval='safe' mode.\r\r**Note:**\r\rThis is caused by an incomplete fix for [CVE-2024-21534](https://security.snyk.io/vuln/SNYK-JS-JSONPATHPLUS-7945884).
@@ -20217,6 +20224,7 @@
 - [fork-bombed/CVE-2022-23131](https://github.com/fork-bombed/CVE-2022-23131)
 - [davidzzo23/CVE-2022-23131](https://github.com/davidzzo23/CVE-2022-23131)
 - [dagowda/Zabbix-cve-2022-23131-SSO-bypass](https://github.com/dagowda/Zabbix-cve-2022-23131-SSO-bypass)
+- [motherlytig/CVE-2022-23131](https://github.com/motherlytig/CVE-2022-23131)
 
 ### CVE-2022-23222 (2022-01-14)
 
@@ -22913,6 +22921,13 @@
 
 - [ifulxploit/Minio-Security-Vulnerability-Checker](https://github.com/ifulxploit/Minio-Security-Vulnerability-Checker)
 
+### CVE-2022-35978 (2022-08-15)
+
+<code>Minetest is a free open-source voxel game engine with easy modding and game creation. In **single player**, a mod can set a global setting that controls the Lua script loaded to display the main menu. The script is then loaded as soon as the game session is exited. The Lua environment the menu runs in is not sandboxed and can directly interfere with the user's system. There are currently no known workarounds.
+</code>
+
+- [CanVo/CVE-2022-35978-POC](https://github.com/CanVo/CVE-2022-35978-POC)
+
 ### CVE-2022-36067 (2022-09-06)
 
 <code>vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. In versions prior to version 3.9.11, a threat actor can bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version 3.9.11 of vm2. There are no known workarounds.
@@ -23293,6 +23308,7 @@
 ### CVE-2022-38694
 - [TomKing062/CVE-2022-38694_unlock_bootloader](https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader)
 - [TheGammaSqueeze/Bootloader_Unlock_Anbernic_T820](https://github.com/TheGammaSqueeze/Bootloader_Unlock_Anbernic_T820)
+- [Seriousattempts/Bootloader_Unlock_Retroid_Pocket_3Plus](https://github.com/Seriousattempts/Bootloader_Unlock_Retroid_Pocket_3Plus)
 
 ### CVE-2022-38725 (2023-01-23)
 
@@ -36402,6 +36418,7 @@
 - [ttestoo/Jetty-CVE-2020-27223](https://github.com/ttestoo/Jetty-CVE-2020-27223)
 - [hshivhare67/Jetty_v9.4.31_CVE-2020-27223_beforepatch](https://github.com/hshivhare67/Jetty_v9.4.31_CVE-2020-27223_beforepatch)
 - [hshivhare67/Jetty_v9.4.31_CVE-2020-27223](https://github.com/hshivhare67/Jetty_v9.4.31_CVE-2020-27223)
+- [Mahesh-970/G3_Jetty.project_CVE-2020-27223](https://github.com/Mahesh-970/G3_Jetty.project_CVE-2020-27223)
 
 ### CVE-2020-27252 (2020-12-14)
 
