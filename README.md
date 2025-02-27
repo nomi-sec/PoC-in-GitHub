@@ -94,6 +94,13 @@
 
 - [ynwarcs/CVE-2025-21298](https://github.com/ynwarcs/CVE-2025-21298)
 
+### CVE-2025-21333 (2025-01-14)
+
+<code>Windows Hyper-V NT Kernel Integration VSP Elevation of Privilege Vulnerability
+</code>
+
+- [MrAle98/CVE-2025-21333-POC](https://github.com/MrAle98/CVE-2025-21333-POC)
+
 ### CVE-2025-21385 (2025-01-09)
 
 <code>A Server-Side Request Forgery (SSRF) vulnerability in Microsoft Purview allows an authorized attacker to disclose information over a network.
@@ -1687,6 +1694,13 @@
 
 - [watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806](https://github.com/watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806)
 
+### CVE-2024-5909 (2024-06-12)
+
+<code>A problem with a protection mechanism in the Palo Alto Networks Cortex XDR agent on Windows devices allows a low privileged local Windows user to disable the agent. This issue may be leveraged by malware to disable the Cortex XDR agent and then to perform malicious activity.
+</code>
+
+- [ig-labs/EDR-ALPC-Block-POC](https://github.com/ig-labs/EDR-ALPC-Block-POC)
+
 ### CVE-2024-5910 (2024-07-10)
 
 <code>Missing authentication for a critical function in Palo Alto Networks Expedition can lead to an Expedition admin account takeover for attackers with network access to Expedition.\n\nNote: Expedition is a tool aiding in configuration migration, tuning, and enrichment. Configuration secrets, credentials, and other data imported into Expedition is at risk due to this issue.
@@ -1850,7 +1864,7 @@
 - [imv7/CVE-2024-6387](https://github.com/imv7/CVE-2024-6387)
 - [SiberianHacker/CVE-2024-6387-Finder](https://github.com/SiberianHacker/CVE-2024-6387-Finder)
 - [azurejoga/CVE-2024-6387-how-to-fix](https://github.com/azurejoga/CVE-2024-6387-how-to-fix)
-- [asterictnl-lvdw/CVE-2024-6387](https://github.com/asterictnl-lvdw/CVE-2024-6387)
+- [Karmakstylez/CVE-2024-6387](https://github.com/Karmakstylez/CVE-2024-6387)
 - [vkaushik-chef/regreSSHion](https://github.com/vkaushik-chef/regreSSHion)
 - [dgourillon/mitigate-CVE-2024-6387](https://github.com/dgourillon/mitigate-CVE-2024-6387)
 - [mrmtwoj/CVE-2024-6387](https://github.com/mrmtwoj/CVE-2024-6387)
@@ -6242,6 +6256,7 @@
 - [whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit)
 - [wellwornele/CVE-2024-36401](https://github.com/wellwornele/CVE-2024-36401)
 - [unlinedvol/CVE-2024-36401](https://github.com/unlinedvol/CVE-2024-36401)
+- [wingedmicroph/CVE-2024-36401](https://github.com/wingedmicroph/CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -9262,6 +9277,7 @@
 </code>
 
 - [Nxploited/CVE-2024-56264](https://github.com/Nxploited/CVE-2024-56264)
+- [dpakmrya/CVE-2024-56264](https://github.com/dpakmrya/CVE-2024-56264)
 
 ### CVE-2024-56278 (2025-01-07)
 
@@ -10198,6 +10214,13 @@
 </code>
 
 - [lrh2000/StackRot](https://github.com/lrh2000/StackRot)
+
+### CVE-2023-3280 (2023-09-13)
+
+<code>A problem with a protection mechanism in the Palo Alto Networks Cortex XDR agent on Windows devices allows a local user to disable the agent.\n\n
+</code>
+
+- [ig-labs/EDR-ALPC-Block-POC](https://github.com/ig-labs/EDR-ALPC-Block-POC)
 
 ### CVE-2023-3338 (2023-06-30)
 
@@ -49287,6 +49310,13 @@
 - [aalex954/jwt-key-confusion-poc](https://github.com/aalex954/jwt-key-confusion-poc)
 - [WinDyAlphA/CVE-2015-9235_JWT_key_confusion](https://github.com/WinDyAlphA/CVE-2015-9235_JWT_key_confusion)
 - [z-bool/Venom-JWT](https://github.com/z-bool/Venom-JWT)
+
+### CVE-2015-9238 (2018-05-31)
+
+<code>secure-compare 3.0.0 and below do not actually compare two strings properly. compare was actually comparing the first argument with itself, meaning the check passed for any two strings of the same length.
+</code>
+
+- [JamesDarf/wargame-turkey_in_2](https://github.com/JamesDarf/wargame-turkey_in_2)
 
 ### CVE-2015-9251 (2018-01-18)
 
