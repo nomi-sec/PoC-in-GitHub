@@ -16002,6 +16002,13 @@
 - [C1ph3rX13/CVE-2023-42820](https://github.com/C1ph3rX13/CVE-2023-42820)
 - [Startr4ck/cve-2023-42820](https://github.com/Startr4ck/cve-2023-42820)
 
+### CVE-2023-42829 (2024-01-10)
+
+<code>The issue was addressed with additional restrictions on the observability of app states. This issue is fixed in macOS Big Sur 11.7.9, macOS Monterey 12.6.8, macOS Ventura 13.5. An app may be able to access SSH passphrases.
+</code>
+
+- [JamesD4/CVE-2023-42829](https://github.com/JamesD4/CVE-2023-42829)
+
 ### CVE-2023-42860 (2024-02-21)
 
 <code>A permissions issue was addressed with additional restrictions. This issue is fixed in macOS Sonoma 14.1, macOS Monterey 12.7.1, macOS Ventura 13.6.1. An app may be able to modify protected parts of the file system.
@@ -20735,7 +20742,7 @@
 <code>A vulnerability in the component process.php of QR Code Generator v5.2.7 allows attackers to perform directory traversal.
 </code>
 
-- [n0lsecurity/CVE-2022-24992](https://github.com/n0lsecurity/CVE-2022-24992)
+- [n0lpointer/CVE-2022-24992](https://github.com/n0lpointer/CVE-2022-24992)
 
 ### CVE-2022-24999 (2022-11-26)
 
@@ -28624,6 +28631,7 @@
 - [p2-98/CVE-2021-34473](https://github.com/p2-98/CVE-2021-34473)
 - [horizon3ai/proxyshell](https://github.com/horizon3ai/proxyshell)
 - [je6k/CVE-2021-34473-Exchange-ProxyShell](https://github.com/je6k/CVE-2021-34473-Exchange-ProxyShell)
+- [learningsurface/ProxyShell-CVE-2021-34473.py](https://github.com/learningsurface/ProxyShell-CVE-2021-34473.py)
 - [kh4sh3i/ProxyShell](https://github.com/kh4sh3i/ProxyShell)
 - [ipsBruno/CVE-2021-34473-NMAP-SCANNER](https://github.com/ipsBruno/CVE-2021-34473-NMAP-SCANNER)
 - [f4alireza/CVE](https://github.com/f4alireza/CVE)
@@ -31170,7 +31178,6 @@
 - [ZacharyZcR/CVE-2021-44228](https://github.com/ZacharyZcR/CVE-2021-44228)
 - [qw3rtyou/CVE-2021-44228_dockernize](https://github.com/qw3rtyou/CVE-2021-44228_dockernize)
 - [yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-](https://github.com/yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-)
-- [blackmidnig/log4shell-tools](https://github.com/blackmidnig/log4shell-tools)
 
 ### CVE-2021-44255 (2022-01-31)
 
