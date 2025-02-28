@@ -28,6 +28,13 @@
 - [AdaniKamal/CVE-2025-0282](https://github.com/AdaniKamal/CVE-2025-0282)
 - [44xo/CVE-2025-0282](https://github.com/44xo/CVE-2025-0282)
 
+### CVE-2025-0364 (2025-02-04)
+
+<code>BigAntSoft BigAnt Server, up to and including version 5.6.06, is vulnerable to unauthenticated remote code execution via account registration. An unauthenticated remote attacker can create an administrative user through the default exposed SaaS registration mechanism. Once an administrator, the attacker can upload and execute arbitrary PHP code using the &quot;Cloud Storage Addin,&quot; leading to unauthenticated code execution.
+</code>
+
+- [vulncheck-oss/cve-2025-0364](https://github.com/vulncheck-oss/cve-2025-0364)
+
 ### CVE-2025-0411 (2025-01-25)
 
 <code>7-Zip Mark-of-the-Web Bypass Vulnerability. This vulnerability allows remote attackers to bypass the Mark-of-the-Web protection mechanism on affected installations of 7-Zip. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the handling of archived files. When extracting files from a crafted archive that bears the Mark-of-the-Web, 7-Zip does not propagate the Mark-of-the-Web to the extracted files. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user. Was ZDI-CAN-25456.
@@ -340,7 +347,11 @@
 ### CVE-2025-26263
 - [DRAGOWN/CVE-2025-26263](https://github.com/DRAGOWN/CVE-2025-26263)
 
-### CVE-2025-26264
+### CVE-2025-26264 (2025-02-27)
+
+<code>GeoVision GV-ASWeb with the version 6.1.2.0 or less, contains a Remote Code Execution (RCE) vulnerability within its Notification Settings feature. An authenticated attacker with &quot;System Settings&quot; privileges in ASWeb can exploit this flaw to execute arbitrary commands on the server, leading to a full system compromise.
+</code>
+
 - [DRAGOWN/CVE-2025-26264](https://github.com/DRAGOWN/CVE-2025-26264)
 
 ### CVE-2025-26326
@@ -1453,7 +1464,6 @@
 - [hexedbyte/cve-2024-4577](https://github.com/hexedbyte/cve-2024-4577)
 - [Sh0ckFR/CVE-2024-4577](https://github.com/Sh0ckFR/CVE-2024-4577)
 - [gotr00t0day/CVE-2024-4577](https://github.com/gotr00t0day/CVE-2024-4577)
-- [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
 - [VictorShem/CVE-2024-4577](https://github.com/VictorShem/CVE-2024-4577)
 - [jakabakos/CVE-2024-4577-PHP-CGI-argument-injection-RCE](https://github.com/jakabakos/CVE-2024-4577-PHP-CGI-argument-injection-RCE)
 - [PhinehasNarh/CVE-2024-4577-LetsDefend-walkthrough](https://github.com/PhinehasNarh/CVE-2024-4577-LetsDefend-walkthrough)
@@ -1479,6 +1489,7 @@
 - [Dejavu666/CVE-2024-4577](https://github.com/Dejavu666/CVE-2024-4577)
 - [chihyeonwon/php-cgi-cve-2024-4577](https://github.com/chihyeonwon/php-cgi-cve-2024-4577)
 - [Didarul342/CVE-2024-4577](https://github.com/Didarul342/CVE-2024-4577)
+- [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -8277,7 +8288,6 @@
 - [dragonked2/CVE-2024-50379-POC](https://github.com/dragonked2/CVE-2024-50379-POC)
 - [dkstar11q/CVE-2024-50379-nuclei](https://github.com/dkstar11q/CVE-2024-50379-nuclei)
 - [pwnosec/CVE-2024-50379](https://github.com/pwnosec/CVE-2024-50379)
-- [paltrybelly/CVE-2024-50379](https://github.com/paltrybelly/CVE-2024-50379)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -11231,6 +11241,7 @@
 - [sanan2004/CVE-2023-20198](https://github.com/sanan2004/CVE-2023-20198)
 - [AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-](https://github.com/AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-)
 - [XiaomingX/cve-2023-20198-poc](https://github.com/XiaomingX/cve-2023-20198-poc)
+- [unsightlyabol/cisco-ios-xe-implant-scanner](https://github.com/unsightlyabol/cisco-ios-xe-implant-scanner)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -16495,7 +16506,6 @@
 - [threatlabindonesia/CVE-2023-44487-HTTP-2-Rapid-Reset-Exploit-PoC](https://github.com/threatlabindonesia/CVE-2023-44487-HTTP-2-Rapid-Reset-Exploit-PoC)
 - [aulauniversal/CVE-2023-44487](https://github.com/aulauniversal/CVE-2023-44487)
 - [BMG-Black-Magic/CVE-2023-44487](https://github.com/BMG-Black-Magic/CVE-2023-44487)
-- [internalwhel/rapidresetclient](https://github.com/internalwhel/rapidresetclient)
 
 ### CVE-2023-44758 (2023-10-06)
 
@@ -20247,7 +20257,6 @@
 - [fork-bombed/CVE-2022-23131](https://github.com/fork-bombed/CVE-2022-23131)
 - [davidzzo23/CVE-2022-23131](https://github.com/davidzzo23/CVE-2022-23131)
 - [dagowda/Zabbix-cve-2022-23131-SSO-bypass](https://github.com/dagowda/Zabbix-cve-2022-23131-SSO-bypass)
-- [motherlytig/CVE-2022-23131](https://github.com/motherlytig/CVE-2022-23131)
 
 ### CVE-2022-23222 (2022-01-14)
 
@@ -51067,12 +51076,12 @@
 - [Shubham-2k1/Exploit-CVE-2011-2523](https://github.com/Shubham-2k1/Exploit-CVE-2011-2523)
 - [Tenor-Z/SmileySploit](https://github.com/Tenor-Z/SmileySploit)
 - [0xB0y426/CVE-2011-2523-PoC](https://github.com/0xB0y426/CVE-2011-2523-PoC)
-- [sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523)
 - [AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research)
 - [Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit](https://github.com/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit)
 - [everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-](https://github.com/everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-)
 - [NullBrunk/CVE-2011-2523](https://github.com/NullBrunk/CVE-2011-2523)
 - [Lychi3/vsftpd-backdoor](https://github.com/Lychi3/vsftpd-backdoor)
+- [sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523)
 
 ### CVE-2011-2894 (2011-10-04)
 
@@ -51239,6 +51248,7 @@
 - [chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution)
 - [FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1](https://github.com/FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1)
 - [JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution)
+- [abhinavcybersec/PenTest-Lab](https://github.com/abhinavcybersec/PenTest-Lab)
 
 ### CVE-2010-2387 (2012-12-21)
 
