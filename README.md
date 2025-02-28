@@ -331,15 +331,15 @@
 ### CVE-2025-25965
 - [Sudo-Sakib/CVE-2025-25965](https://github.com/Sudo-Sakib/CVE-2025-25965)
 
+### CVE-2025-25967
+- [padayali-JD/CVE-2025-25967](https://github.com/padayali-JD/CVE-2025-25967)
+
 ### CVE-2025-25968 (2025-02-20)
 
 <code>DDSN Interactive cm3 Acora CMS version 10.1.1 contains an improper access control vulnerability. An editor-privileged user can access sensitive information, such as system administrator credentials, by force browsing the endpoint and exploiting the 'file' parameter. By referencing specific files (e.g., cm3.xml), attackers can bypass access controls, leading to account takeover and potential privilege escalation.
 </code>
 
 - [padayali-JD/CVE-2025-25968](https://github.com/padayali-JD/CVE-2025-25968)
-
-### CVE-2025-25979
-- [padayali-JD/CVE-2025-25979](https://github.com/padayali-JD/CVE-2025-25979)
 
 ### CVE-2025-26206
 - [xibhi/CVE-2025-26206](https://github.com/xibhi/CVE-2025-26206)
@@ -2435,7 +2435,6 @@
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
-- [uniformince/CVE-2024-9474](https://github.com/uniformince/CVE-2024-9474)
 
 ### CVE-2024-9570 (2024-10-07)
 
@@ -6265,7 +6264,6 @@
 - [XiaomingX/cve-2024-36401-poc](https://github.com/XiaomingX/cve-2024-36401-poc)
 - [0x0d3ad/CVE-2024-36401](https://github.com/0x0d3ad/CVE-2024-36401)
 - [whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit)
-- [wellwornele/CVE-2024-36401](https://github.com/wellwornele/CVE-2024-36401)
 - [unlinedvol/CVE-2024-36401](https://github.com/unlinedvol/CVE-2024-36401)
 - [wingedmicroph/CVE-2024-36401](https://github.com/wingedmicroph/CVE-2024-36401)
 
@@ -7914,6 +7912,13 @@
 </code>
 
 - [vidura2/CVE-2024-46986](https://github.com/vidura2/CVE-2024-46986)
+
+### CVE-2024-47051 (2025-02-26)
+
+<code>This advisory addresses two critical security vulnerabilities present in Mautic versions before 5.2.3. These vulnerabilities could be exploited by authenticated users.\n\n  *  Remote Code Execution (RCE) via Asset Upload: A Remote Code Execution vulnerability has been identified in the asset upload functionality. Insufficient enforcement of allowed file extensions allows an attacker to bypass restrictions and upload executable files, such as PHP scripts.\n\n\n  *  Path Traversal File Deletion: A Path Traversal vulnerability exists in the upload validation process. Due to improper handling of path components, an authenticated user can manipulate the file deletion process to delete arbitrary files on the host system.
+</code>
+
+- [mallo-m/CVE-2024-47051](https://github.com/mallo-m/CVE-2024-47051)
 
 ### CVE-2024-47062 (2024-09-20)
 
@@ -17836,7 +17841,6 @@
 - [AsfandAliMemon25/CVE-2023-50164Analysis-](https://github.com/AsfandAliMemon25/CVE-2023-50164Analysis-)
 - [NikitaPark/CVE-2023-50164-PoC](https://github.com/NikitaPark/CVE-2023-50164-PoC)
 - [Trackflaw/CVE-2024-10924-Wordpress-Docker](https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker)
-- [powerlesssta/cve-2023-50164-poc](https://github.com/powerlesssta/cve-2023-50164-poc)
 
 ### CVE-2023-50226 (2024-05-03)
 
