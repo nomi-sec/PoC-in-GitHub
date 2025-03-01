@@ -268,6 +268,7 @@
 
 ### CVE-2025-24752
 - [Sachinart/essential-addons-for-elementor-xss-poc](https://github.com/Sachinart/essential-addons-for-elementor-xss-poc)
+- [bartfroklage/CVE-2025-24752-POC](https://github.com/bartfroklage/CVE-2025-24752-POC)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -351,6 +352,9 @@
 </code>
 
 - [padayali-JD/CVE-2025-25968](https://github.com/padayali-JD/CVE-2025-25968)
+
+### CVE-2025-26202
+- [A17-ba/CVE-2025-26202-Details](https://github.com/A17-ba/CVE-2025-26202-Details)
 
 ### CVE-2025-26206
 - [xibhi/CVE-2025-26206](https://github.com/xibhi/CVE-2025-26206)
@@ -9817,6 +9821,7 @@
 
 - [HarshRajSinghania/CVE-2023-1545-Exploit](https://github.com/HarshRajSinghania/CVE-2023-1545-Exploit)
 - [zer0-dave/CVE-2023-1545-POC](https://github.com/zer0-dave/CVE-2023-1545-POC)
+- [sternstundes/CVE-2023-1545-POC-python](https://github.com/sternstundes/CVE-2023-1545-POC-python)
 
 ### CVE-2023-1665 (2023-03-27)
 
