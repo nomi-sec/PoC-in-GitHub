@@ -6298,7 +6298,6 @@
 - [0x0d3ad/CVE-2024-36401](https://github.com/0x0d3ad/CVE-2024-36401)
 - [whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit)
 - [unlinedvol/CVE-2024-36401](https://github.com/unlinedvol/CVE-2024-36401)
-- [wingedmicroph/CVE-2024-36401](https://github.com/wingedmicroph/CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -18400,7 +18399,7 @@
 - [edsonjt81/CVE-2022-0847-Linux](https://github.com/edsonjt81/CVE-2022-0847-Linux)
 - [chenaotian/CVE-2022-0847](https://github.com/chenaotian/CVE-2022-0847)
 - [V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit)
-- [al4xs/CVE-2022-0847-Dirty-Pipe](https://github.com/al4xs/CVE-2022-0847-Dirty-Pipe)
+- [osungjinwoo/CVE-2022-0847-Dirty-Pipe](https://github.com/osungjinwoo/CVE-2022-0847-Dirty-Pipe)
 - [Greetdawn/CVE-2022-0847-DirtyPipe-](https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-)
 - [crusoe112/DirtyPipePython](https://github.com/crusoe112/DirtyPipePython)
 - [nanaao/dirtyPipe-automaticRoot](https://github.com/nanaao/dirtyPipe-automaticRoot)
@@ -23338,6 +23337,13 @@
 - [azhurtanov/CVE-2022-38374](https://github.com/azhurtanov/CVE-2022-38374)
 - [M4fiaB0y/CVE-2022-38374](https://github.com/M4fiaB0y/CVE-2022-38374)
 
+### CVE-2022-38532 (2022-09-19)
+
+<code>Micro-Star International Co., Ltd MSI Center 1.0.50.0 was discovered to contain a vulnerability in the component C_Features of MSI.CentralServer.exe. This vulnerability allows attackers to escalate privileges via running a crafted executable.
+</code>
+
+- [nam3lum/msi-central_privesc](https://github.com/nam3lum/msi-central_privesc)
+
 ### CVE-2022-38553 (2022-09-26)
 
 <code>Academy Learning Management System before v5.9.1 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the Search parameter.
@@ -26909,7 +26915,7 @@
 - [pizza-power/Golang-CVE-2021-22205-POC](https://github.com/pizza-power/Golang-CVE-2021-22205-POC)
 - [DIVD-NL/GitLab-cve-2021-22205-nse](https://github.com/DIVD-NL/GitLab-cve-2021-22205-nse)
 - [w0x68y/Gitlab-CVE-2021-22205](https://github.com/w0x68y/Gitlab-CVE-2021-22205)
-- [al4xs/CVE-2021-22205-gitlab](https://github.com/al4xs/CVE-2021-22205-gitlab)
+- [osungjinwoo/CVE-2021-22205-gitlab](https://github.com/osungjinwoo/CVE-2021-22205-gitlab)
 - [honypot/CVE-2021-22205](https://github.com/honypot/CVE-2021-22205)
 - [momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-](https://github.com/momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-)
 - [keven1z/CVE-2021-22205](https://github.com/keven1z/CVE-2021-22205)
