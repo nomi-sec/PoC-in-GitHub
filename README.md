@@ -383,7 +383,11 @@
 - [rxerium/CVE-2025-26465](https://github.com/rxerium/CVE-2025-26465)
 - [dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466](https://github.com/dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466)
 
-### CVE-2025-26466
+### CVE-2025-26466 (2025-02-28)
+
+<code>A flaw was found in the OpenSSH package. For each ping packet the SSH server receives, a pong packet is allocated in a memory buffer and stored in a queue of packages. It is only freed when the server/client key exchange has finished. A malicious client may keep sending such packages, leading to an uncontrolled increase in memory consumption on the server side. Consequently, the server may become unavailable, resulting in a denial of service attack.
+</code>
+
 - [rxerium/CVE-2025-26466](https://github.com/rxerium/CVE-2025-26466)
 - [jhonnybonny/CVE-2025-26466](https://github.com/jhonnybonny/CVE-2025-26466)
 
@@ -2643,7 +2647,7 @@
 <code>Eine problematische Schwachstelle wurde in code-projects Blood Bank Management System 1.0 entdeckt. Betroffen davon ist ein unbekannter Prozess der Datei /file/delete.php. Dank Manipulation des Arguments bid mit unbekannten Daten kann eine cross-site request forgery-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [bevennyamande/CVE-2024-10448](https://github.com/bevennyamande/CVE-2024-10448)
+- [0xbeven/CVE-2024-10448](https://github.com/0xbeven/CVE-2024-10448)
 
 ### CVE-2024-10449 (2024-10-28)
 
@@ -2694,7 +2698,7 @@
 <code>In code-projects Blood Bank Management System 1.0 wurde eine Schwachstelle gefunden. Sie wurde als problematisch eingestuft. Hierbei betrifft es unbekannten Programmcode der Datei /file/updateprofile.php. Mit der Manipulation mit unbekannten Daten kann eine cross-site request forgery-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [bevennyamande/CVE-2024-10557](https://github.com/bevennyamande/CVE-2024-10557)
+- [0xbeven/CVE-2024-10557](https://github.com/0xbeven/CVE-2024-10557)
 
 ### CVE-2024-10571 (2024-11-14)
 
@@ -2723,7 +2727,7 @@
 <code>Es wurde eine Schwachstelle in code-projects Blood Bank Management System 1.0 ausgemacht. Sie wurde als problematisch eingestuft. Es betrifft eine unbekannte Funktion der Datei /file/request.php. Durch die Manipulation mit unbekannten Daten kann eine cross-site request forgery-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [bevennyamande/CVE-2024-10605](https://github.com/bevennyamande/CVE-2024-10605)
+- [0xbeven/CVE-2024-10605](https://github.com/0xbeven/CVE-2024-10605)
 
 ### CVE-2024-10629 (2024-11-13)
 
@@ -8658,7 +8662,7 @@
 - [BLACK-SCORP10/CVE-2024-51430](https://github.com/BLACK-SCORP10/CVE-2024-51430)
 
 ### CVE-2024-51435
-- [bevennyamande/CVE-2024-51435](https://github.com/bevennyamande/CVE-2024-51435)
+- [0xbeven/CVE-2024-51435](https://github.com/0xbeven/CVE-2024-51435)
 
 ### CVE-2024-51442 (2025-01-08)
 
@@ -10946,6 +10950,13 @@
 - [hackersroot/CVE-2023-6063-PoC](https://github.com/hackersroot/CVE-2023-6063-PoC)
 - [Eulex0x/CVE-2023-6063](https://github.com/Eulex0x/CVE-2023-6063)
 
+### CVE-2023-6199 (2023-11-20)
+
+<code>Book Stack version 23.10.2 allows filtering local files on the server. This is possible because the application is vulnerable to SSRF.\n
+</code>
+
+- [AbdrrahimDahmani/php_filter_chains_oracle_exploit_for_CVE-2023-6199](https://github.com/AbdrrahimDahmani/php_filter_chains_oracle_exploit_for_CVE-2023-6199)
+
 ### CVE-2023-6241 (2024-03-04)
 
 <code>Use After Free vulnerability in Arm Ltd Midgard GPU Kernel Driver, Arm Ltd Bifrost GPU Kernel Driver, Arm Ltd Valhall GPU Kernel Driver, Arm Ltd Arm 5th Gen GPU Architecture Kernel Driver allows a local non-privileged user to exploit a software race condition to perform improper memory processing operations. If the system’s memory is carefully prepared by the user, then this in turn cause a use-after-free.This issue affects Midgard GPU Kernel Driver: from r13p0 through r32p0; Bifrost GPU Kernel Driver: from r11p0 through r25p0; Valhall GPU Kernel Driver: from r19p0 through r25p0, from r29p0 through r46p0; Arm 5th Gen GPU Architecture Kernel Driver: from r41p0 through r46p0.\n\n
@@ -11670,7 +11681,6 @@
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
 - [Romanc9/Gui-poc-test](https://github.com/Romanc9/Gui-poc-test)
 - [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
-- [outgoingcon/CVE-2023-21839](https://github.com/outgoingcon/CVE-2023-21839)
 
 ### CVE-2023-21887 (2023-01-17)
 
