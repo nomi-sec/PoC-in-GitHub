@@ -312,6 +312,13 @@
 
 - [numanturle/CVE-2025-25279](https://github.com/numanturle/CVE-2025-25279)
 
+### CVE-2025-25296 (2025-02-14)
+
+<code>Label Studio is an open source data labeling tool. Prior to version 1.16.0, Label Studio's `/projects/upload-example` endpoint allows injection of arbitrary HTML through a `GET` request with an appropriately crafted `label_config` query parameter. By crafting a specially formatted XML label config with inline task data containing malicious HTML/JavaScript, an attacker can achieve Cross-Site Scripting (XSS). While the application has a Content Security Policy (CSP), it is only set in report-only mode, making it ineffective at preventing script execution. The vulnerability exists because the upload-example endpoint renders user-provided HTML content without proper sanitization on a GET request. This allows attackers to inject and execute arbitrary JavaScript in victims' browsers by getting them to visit a maliciously crafted URL. This is considered vulnerable because it enables attackers to execute JavaScript in victims' contexts, potentially allowing theft of sensitive data, session hijacking, or other malicious actions. Version 1.16.0 contains a patch for the issue.
+</code>
+
+- [math-x-io/CVE-2025-25296-POC](https://github.com/math-x-io/CVE-2025-25296-POC)
+
 ### CVE-2025-25369
 - [lkasjkasj/CVE-2025-25369](https://github.com/lkasjkasj/CVE-2025-25369)
 
@@ -40783,6 +40790,7 @@
 - [0xAgun/CVE-2019-18935-checker](https://github.com/0xAgun/CVE-2019-18935-checker)
 - [KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation](https://github.com/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation)
 - [dust-life/CVE-2019-18935-memShell](https://github.com/dust-life/CVE-2019-18935-memShell)
+- [clarkvoss/telerik](https://github.com/clarkvoss/telerik)
 
 ### CVE-2019-18988 (2020-02-07)
 
@@ -41187,6 +41195,13 @@
 - [slowmistio/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins](https://github.com/slowmistio/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins)
 - [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
 - [purple-WL/Jenkins_CVE-2019-1003000](https://github.com/purple-WL/Jenkins_CVE-2019-1003000)
+
+### CVE-2019-1003030 (2019-03-08)
+
+<code>A sandbox bypass vulnerability exists in Jenkins Pipeline: Groovy Plugin 2.63 and earlier in pom.xml, src/main/java/org/jenkinsci/plugins/workflow/cps/CpsGroovyShell.java that allows attackers able to control pipeline scripts to execute arbitrary code on the Jenkins master JVM.
+</code>
+
+- [overgrowncarrot1/CVE-2019-1003030](https://github.com/overgrowncarrot1/CVE-2019-1003030)
 
 ### CVE-2019-1010054 (2019-07-18)
 
