@@ -9804,7 +9804,7 @@
 <code>Es wurde eine Schwachstelle in Lespeed WiseCleaner Wise System Monitor 1.5.3.54 gefunden. Sie wurde als problematisch eingestuft. Betroffen hiervon ist die Funktion 0x9C40A0D8/0x9C40A0DC/0x9C40A0E0 in der Bibliothek WiseHDInfo64.dll der Komponente IoControlCode Handler. Durch Manipulieren mit unbekannten Daten kann eine denial of service-Schwachstelle ausgenutzt werden. Der Angriff hat dabei lokal zu erfolgen. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [involuntairly/CVE-2023-1488](https://github.com/involuntairly/CVE-2023-1488)
+- [sqqrky/CVE-2023-1488](https://github.com/sqqrky/CVE-2023-1488)
 
 ### CVE-2023-1498 (2023-03-19)
 
@@ -10726,7 +10726,6 @@
 - [yanfernandess/Looney-Tunables-CVE-2023-4911](https://github.com/yanfernandess/Looney-Tunables-CVE-2023-4911)
 - [NishanthAnand21/CVE-2023-4911-PoC](https://github.com/NishanthAnand21/CVE-2023-4911-PoC)
 - [Billar42/CVE-2023-4911](https://github.com/Billar42/CVE-2023-4911)
-- [dungNHVhust/CVE-2023-4911](https://github.com/dungNHVhust/CVE-2023-4911)
 
 ### CVE-2023-4966 (2023-10-10)
 
@@ -22078,6 +22077,7 @@
 - [alien-keric/CVE-2022-30190](https://github.com/alien-keric/CVE-2022-30190)
 - [ethicalblue/Follina-CVE-2022-30190-Sample](https://github.com/ethicalblue/Follina-CVE-2022-30190-Sample)
 - [Potato-9257/CVE-2022-30190_page](https://github.com/Potato-9257/CVE-2022-30190_page)
+- [yeep1115/ICT287_CVE-2022-30190_Exploit](https://github.com/yeep1115/ICT287_CVE-2022-30190_Exploit)
 
 ### CVE-2022-30203 (2022-07-12)
 
