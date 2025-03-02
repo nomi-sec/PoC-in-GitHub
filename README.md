@@ -10726,6 +10726,7 @@
 - [yanfernandess/Looney-Tunables-CVE-2023-4911](https://github.com/yanfernandess/Looney-Tunables-CVE-2023-4911)
 - [NishanthAnand21/CVE-2023-4911-PoC](https://github.com/NishanthAnand21/CVE-2023-4911-PoC)
 - [Billar42/CVE-2023-4911](https://github.com/Billar42/CVE-2023-4911)
+- [dungNHVhust/CVE-2023-4911](https://github.com/dungNHVhust/CVE-2023-4911)
 
 ### CVE-2023-4966 (2023-10-10)
 
@@ -13816,6 +13817,13 @@
 </code>
 
 - [gergelykalman/CVE-2023-32428-a-macOS-LPE-via-MallocStackLogging](https://github.com/gergelykalman/CVE-2023-32428-a-macOS-LPE-via-MallocStackLogging)
+
+### CVE-2023-32434 (2023-06-23)
+
+<code>An integer overflow was addressed with improved input validation. This issue is fixed in watchOS 9.5.2, macOS Big Sur 11.7.8, iOS 15.7.7 and iPadOS 15.7.7, macOS Monterey 12.6.7, watchOS 8.8.1, iOS 16.5.1 and iPadOS 16.5.1, macOS Ventura 13.4.1. An app may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.7.
+</code>
+
+- [alfiecg24/Trigon](https://github.com/alfiecg24/Trigon)
 
 ### CVE-2023-32560 (2023-08-10)
 
