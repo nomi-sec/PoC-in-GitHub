@@ -31059,7 +31059,6 @@
 - [fox-it/log4j-finder](https://github.com/fox-it/log4j-finder)
 - [34zY/JNDI-Exploit-1.2-log4shell](https://github.com/34zY/JNDI-Exploit-1.2-log4shell)
 - [didoatanasov/cve-2021-44228](https://github.com/didoatanasov/cve-2021-44228)
-- [ReynerGonzalez/Security-Log4J-Tester](https://github.com/ReynerGonzalez/Security-Log4J-Tester)
 - [ShaneKingBlog/org.shaneking.demo.cve.y2021.s44228](https://github.com/ShaneKingBlog/org.shaneking.demo.cve.y2021.s44228)
 - [wortell/log4j](https://github.com/wortell/log4j)
 - [municipalparkingservices/CVE-2021-44228-Scanner](https://github.com/municipalparkingservices/CVE-2021-44228-Scanner)
@@ -35719,6 +35718,7 @@
 - [givemefivw/CVE-2020-17519](https://github.com/givemefivw/CVE-2020-17519)
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
 - [zhangweijie11/CVE-2020-17519](https://github.com/zhangweijie11/CVE-2020-17519)
+- [GazettEl/CVE-2020-17519](https://github.com/GazettEl/CVE-2020-17519)
 
 ### CVE-2020-17523 (2021-02-03)
 
@@ -36924,6 +36924,7 @@
 
 - [dumitory-dev/CVE-2020-35391-POC](https://github.com/dumitory-dev/CVE-2020-35391-POC)
 - [H454NSec/CVE-2020-35391](https://github.com/H454NSec/CVE-2020-35391)
+- [4d000/Tenda-F3-V4](https://github.com/4d000/Tenda-F3-V4)
 
 ### CVE-2020-35476 (2020-12-16)
 
