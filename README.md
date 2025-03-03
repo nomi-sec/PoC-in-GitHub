@@ -28,6 +28,9 @@
 - [AdaniKamal/CVE-2025-0282](https://github.com/AdaniKamal/CVE-2025-0282)
 - [44xo/CVE-2025-0282](https://github.com/44xo/CVE-2025-0282)
 
+### CVE-2025-03
+- [NeseOSCorp/CVE-2025-03](https://github.com/NeseOSCorp/CVE-2025-03)
+
 ### CVE-2025-0364 (2025-02-04)
 
 <code>BigAntSoft BigAnt Server, up to and including version 5.6.06, is vulnerable to unauthenticated remote code execution via account registration. An unauthenticated remote attacker can create an administrative user through the default exposed SaaS registration mechanism. Once an administrator, the attacker can upload and execute arbitrary PHP code using the &quot;Cloud Storage Addin,&quot; leading to unauthenticated code execution.
@@ -2468,6 +2471,7 @@
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
+- [concretesign/CVE-2024-9474](https://github.com/concretesign/CVE-2024-9474)
 
 ### CVE-2024-9570 (2024-10-07)
 
@@ -2658,7 +2662,7 @@
 <code>Eine problematische Schwachstelle wurde in code-projects Blood Bank Management System 1.0 entdeckt. Betroffen davon ist ein unbekannter Prozess der Datei /file/delete.php. Dank Manipulation des Arguments bid mit unbekannten Daten kann eine cross-site request forgery-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [0xbeven/CVE-2024-10448](https://github.com/0xbeven/CVE-2024-10448)
+- [bevennyamande/CVE-2024-10448](https://github.com/bevennyamande/CVE-2024-10448)
 
 ### CVE-2024-10449 (2024-10-28)
 
@@ -2709,7 +2713,7 @@
 <code>In code-projects Blood Bank Management System 1.0 wurde eine Schwachstelle gefunden. Sie wurde als problematisch eingestuft. Hierbei betrifft es unbekannten Programmcode der Datei /file/updateprofile.php. Mit der Manipulation mit unbekannten Daten kann eine cross-site request forgery-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [0xbeven/CVE-2024-10557](https://github.com/0xbeven/CVE-2024-10557)
+- [bevennyamande/CVE-2024-10557](https://github.com/bevennyamande/CVE-2024-10557)
 
 ### CVE-2024-10571 (2024-11-14)
 
@@ -2738,7 +2742,7 @@
 <code>Es wurde eine Schwachstelle in code-projects Blood Bank Management System 1.0 ausgemacht. Sie wurde als problematisch eingestuft. Es betrifft eine unbekannte Funktion der Datei /file/request.php. Durch die Manipulation mit unbekannten Daten kann eine cross-site request forgery-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [0xbeven/CVE-2024-10605](https://github.com/0xbeven/CVE-2024-10605)
+- [bevennyamande/CVE-2024-10605](https://github.com/bevennyamande/CVE-2024-10605)
 
 ### CVE-2024-10629 (2024-11-13)
 
@@ -8672,7 +8676,7 @@
 - [BLACK-SCORP10/CVE-2024-51430](https://github.com/BLACK-SCORP10/CVE-2024-51430)
 
 ### CVE-2024-51435
-- [0xbeven/CVE-2024-51435](https://github.com/0xbeven/CVE-2024-51435)
+- [bevennyamande/CVE-2024-51435](https://github.com/bevennyamande/CVE-2024-51435)
 
 ### CVE-2024-51442 (2025-01-08)
 
@@ -9339,6 +9343,13 @@
 </code>
 
 - [griisemine/CVE-2024-56331](https://github.com/griisemine/CVE-2024-56331)
+
+### CVE-2024-56340 (2025-02-28)
+
+<code>IBM Cognos Analytics 11.2.0 through 11.2.4 FP5 is vulnerable to local file inclusion vulnerability, allowing an attacker to access sensitive files by inserting path traversal payloads inside the deficon parameter.
+</code>
+
+- [MarioTesoro/CVE-2024-56340](https://github.com/MarioTesoro/CVE-2024-56340)
 
 ### CVE-2024-56431 (2024-12-25)
 
@@ -11692,6 +11703,7 @@
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
 - [Romanc9/Gui-poc-test](https://github.com/Romanc9/Gui-poc-test)
 - [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
+- [thishistorian/CVE-2023-21839](https://github.com/thishistorian/CVE-2023-21839)
 
 ### CVE-2023-21887 (2023-01-17)
 
@@ -12438,6 +12450,7 @@
 <code>Jetty is a java based web server and servlet engine. Nonstandard cookie parsing in Jetty may allow an attacker to smuggle cookies within other cookies, or otherwise perform unintended behavior by tampering with the cookie parsing mechanism. If Jetty sees a cookie VALUE that starts with `&quot;` (double quote), it will continue to read the cookie string until it sees a closing quote -- even if a semicolon is encountered. So, a cookie header such as: `DISPLAY_LANGUAGE=&quot;b; JSESSIONID=1337; c=d&quot;` will be parsed as one cookie, with the name DISPLAY_LANGUAGE and a value of b; JSESSIONID=1337; c=d instead of 3 separate cookies. This has security implications because if, say, JSESSIONID is an HttpOnly cookie, and the DISPLAY_LANGUAGE cookie value is rendered on the page, an attacker can smuggle the JSESSIONID cookie into the DISPLAY_LANGUAGE cookie and thereby exfiltrate it. This is significant when an intermediary is enacting some policy based on cookies, so a smuggled cookie can bypass that policy yet still be seen by the Jetty server or its logging system. This issue has been addressed in versions 9.4.51, 10.0.14, 11.0.14, and 12.0.0.beta0 and users are advised to upgrade. There are no known workarounds for this issue.
 </code>
 
+- [uthrasri/jetty-9.4.31.v20200723_CVE-2023-26049](https://github.com/uthrasri/jetty-9.4.31.v20200723_CVE-2023-26049)
 - [hshivhare67/Jetty_v9.4.31_CVE-2023-26049](https://github.com/hshivhare67/Jetty_v9.4.31_CVE-2023-26049)
 - [nidhihcl75/jetty-9.4.31.v20200723_G3_CVE-2023-26049](https://github.com/nidhihcl75/jetty-9.4.31.v20200723_G3_CVE-2023-26049)
 
@@ -15586,6 +15599,13 @@
 - [hshivhare67/platform_frameworks_base_android-4.2.2_r1_CVE-2023-40140](https://github.com/hshivhare67/platform_frameworks_base_android-4.2.2_r1_CVE-2023-40140)
 - [hshivhare67/platform_frameworks_base_AOSP6_r22_CVE-2023-40140](https://github.com/hshivhare67/platform_frameworks_base_AOSP6_r22_CVE-2023-40140)
 
+### CVE-2023-40167 (2023-09-15)
+
+<code>Jetty is a Java based web server and servlet engine. Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty accepts the `+` character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response. Versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1 contain a patch for this issue. There is no workaround as there is no known exploit scenario.
+</code>
+
+- [uthrasri/Jetty-v9.4.31_CVE-2023-40167-](https://github.com/uthrasri/Jetty-v9.4.31_CVE-2023-40167-)
+
 ### CVE-2023-40275 (2024-03-19)
 
 <code>An issue was discovered in OpenClinic GA 5.247.01. It allows retrieval of patient lists via queries such as findFirstname= to _common/search/searchByAjax/patientslistShow.jsp.
@@ -17491,7 +17511,11 @@
 
 - [actuator/com.simplemobiletools.dialer](https://github.com/actuator/com.simplemobiletools.dialer)
 
-### CVE-2023-49031
+### CVE-2023-49031 (2025-03-03)
+
+<code>Directory Traversal (Local File Inclusion) vulnerability in Tikit (now Advanced) eMarketing platform 6.8.3.0 allows a remote attacker to read arbitrary files and obtain sensitive information via a crafted payload to the filename parameter to the OpenLogFile endpoint.
+</code>
+
 - [Yoshik0xF6/CVE-2023-49031](https://github.com/Yoshik0xF6/CVE-2023-49031)
 
 ### CVE-2023-49038 (2024-01-29)
