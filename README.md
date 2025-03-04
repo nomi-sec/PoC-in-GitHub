@@ -24,7 +24,7 @@
 - [watchtowrlabs/CVE-2025-0282](https://github.com/watchtowrlabs/CVE-2025-0282)
 - [sfewer-r7/CVE-2025-0282](https://github.com/sfewer-r7/CVE-2025-0282)
 - [Hexastrike/Ivanti-Connect-Secure-Logs-Parser](https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser)
-- [chiefchainer/CVE-2025-0282](https://github.com/chiefchainer/CVE-2025-0282)
+- [almanatra/CVE-2025-0282](https://github.com/almanatra/CVE-2025-0282)
 - [AdaniKamal/CVE-2025-0282](https://github.com/AdaniKamal/CVE-2025-0282)
 - [44xo/CVE-2025-0282](https://github.com/44xo/CVE-2025-0282)
 
@@ -7885,6 +7885,9 @@
 
 - [kn32/cve-2024-46483](https://github.com/kn32/cve-2024-46483)
 
+### CVE-2024-46507
+- [Somchandra17/CVE-2024-46507](https://github.com/Somchandra17/CVE-2024-46507)
+
 ### CVE-2024-46532 (2024-10-11)
 
 <code>SQL Injection vulnerability in OpenHIS v.1.0 allows an attacker to execute arbitrary code via the refund function in the PayController.class.php component.
@@ -11712,7 +11715,6 @@
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
 - [Romanc9/Gui-poc-test](https://github.com/Romanc9/Gui-poc-test)
 - [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
-- [thishistorian/CVE-2023-21839](https://github.com/thishistorian/CVE-2023-21839)
 
 ### CVE-2023-21887 (2023-01-17)
 
@@ -15613,7 +15615,7 @@
 <code>Jetty is a Java based web server and servlet engine. Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty accepts the `+` character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response. Versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1 contain a patch for this issue. There is no workaround as there is no known exploit scenario.
 </code>
 
-- [uthrasri/Jetty-v9.4.31_CVE-2023-40167-](https://github.com/uthrasri/Jetty-v9.4.31_CVE-2023-40167-)
+- [uthrasri/Jetty-v9.4.31_CVE-2023-40167](https://github.com/uthrasri/Jetty-v9.4.31_CVE-2023-40167)
 
 ### CVE-2023-40275 (2024-03-19)
 
@@ -21561,7 +21563,7 @@
 <code>The web module in some Hikvision Hybrid SAN/Cluster Storage products have the following security vulnerability. Due to the insufficient input validation, attacker can exploit the vulnerability to execute restricted commands by sending messages with malicious commands to the affected device.
 </code>
 
-- [NyaMeeEain/CVE-2022-28171-POC](https://github.com/NyaMeeEain/CVE-2022-28171-POC)
+- [Sapphire2017/CVE-2022-28171-POC](https://github.com/Sapphire2017/CVE-2022-28171-POC)
 - [aengussong/hikvision_probe](https://github.com/aengussong/hikvision_probe)
 
 ### CVE-2022-28219 (2022-04-05)
