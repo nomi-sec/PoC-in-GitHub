@@ -90,6 +90,20 @@
 
 - [EQSTLab/CVE-2025-1302](https://github.com/EQSTLab/CVE-2025-1302)
 
+### CVE-2025-1307 (2025-03-04)
+
+<code>The Newscrunch theme for WordPress is vulnerable to arbitrary file uploads due to a missing capability check in the newscrunch_install_and_activate_plugin() function in all versions up to, and including, 1.8.4.1. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [McTavishSue/CVE-2025-1307](https://github.com/McTavishSue/CVE-2025-1307)
+
+### CVE-2025-1716 (2025-02-26)
+
+<code>picklescan before 0.0.21 does not treat 'pip' as an unsafe global. An attacker could craft a malicious model that uses Pickle to pull in a malicious PyPI package (hosted, for example, on pypi.org or GitHub) via `pip.main()`. Because pip is not a restricted global, the model, when scanned with picklescan, would pass security checks and appear to be safe, when it could instead prove to be problematic.
+</code>
+
+- [shybu9/poc_CVE-2025-1716](https://github.com/shybu9/poc_CVE-2025-1716)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -125,6 +139,13 @@
 
 - [Network-Sec/CVE-2025-21420-PoC](https://github.com/Network-Sec/CVE-2025-21420-PoC)
 - [toxy4ny/edge-maradeur](https://github.com/toxy4ny/edge-maradeur)
+
+### CVE-2025-21624 (2025-01-07)
+
+<code>ClipBucket V5 provides open source video hosting with PHP. Prior to 5.5.1 - 239, a file upload vulnerability exists in the Manage Playlist functionality of the application, specifically surrounding the uploading of playlist cover images. Without proper checks, an attacker can upload a PHP script file instead of an image file, thus allowing a webshell or other malicious files to be stored and executed on the server. This attack vector exists in both the admin area and low-level user area. This vulnerability is fixed in 5.5.1 - 239.
+</code>
+
+- [shreyas-malhotra/CVE-2025-21624](https://github.com/shreyas-malhotra/CVE-2025-21624)
 
 ### CVE-2025-22352 (2025-01-07)
 
@@ -339,6 +360,9 @@
 </code>
 
 - [RoNiXxCybSeC0101/CVE-2025-25461](https://github.com/RoNiXxCybSeC0101/CVE-2025-25461)
+
+### CVE-2025-25612
+- [secmuzz/CVE-2025-25612](https://github.com/secmuzz/CVE-2025-25612)
 
 ### CVE-2025-25964
 - [Sudo-Sakib/CVE-2025-25964](https://github.com/Sudo-Sakib/CVE-2025-25964)
@@ -2821,7 +2845,11 @@
 - [sariamubeen/CVE-2024-10924](https://github.com/sariamubeen/CVE-2024-10924)
 - [MaleeshaUdan/wordpress-CVE-2024-10924--exploit](https://github.com/MaleeshaUdan/wordpress-CVE-2024-10924--exploit)
 
-### CVE-2024-10930
+### CVE-2024-10930 (2025-03-04)
+
+<code>An Uncontrolled Search Path Element vulnerability exists which could allow a malicious actor to perform DLL hijacking and execute arbitrary code with escalated privileges.
+</code>
+
 - [sahil3276/CVE-2024-10930](https://github.com/sahil3276/CVE-2024-10930)
 
 ### CVE-2024-10958 (2024-11-10)
@@ -3462,6 +3490,13 @@
 - [ThemeHackers/CVE-2024-21413](https://github.com/ThemeHackers/CVE-2024-21413)
 - [D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB](https://github.com/D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB)
 - [Cyber-Trambon/CVE-2024-21413-exploit](https://github.com/Cyber-Trambon/CVE-2024-21413-exploit)
+
+### CVE-2024-21513 (2024-07-15)
+
+<code>Versions of the package langchain-experimental from 0.0.15 and before 0.0.21 are vulnerable to Arbitrary Code Execution when retrieving values from the database, the code will attempt to call 'eval' on all values. An attacker can exploit this vulnerability and execute arbitrary python code if they can control the input prompt and the server is configured with VectorSQLDatabaseChain.\r\r**Notes:**\r\rImpact on the Confidentiality, Integrity and Availability of the vulnerable component:\r\rConfidentiality: Code execution happens within the impacted component, in this case langchain-experimental, so all resources are necessarily accessible.\r\rIntegrity: There is nothing protected by the impacted component inherently. Although anything returned from the component counts as 'information' for which the trustworthiness can be compromised.\r\rAvailability: The loss of availability isn't caused by the attack itself, but it happens as a result during the attacker's post-exploitation steps.\r\r\rImpact on the Confidentiality, Integrity and Availability of the subsequent system:\r\rAs a legitimate low-privileged user of the package (PR:L) the attacker does not have more access to data owned by the package as a result of this vulnerability than they did with normal usage (e.g. can query the DB). The unintended action that one can perform by breaking out of the app environment and exfiltrating files, making remote connections etc. happens during the post exploitation phase in the subsequent system - in this case, the OS.\r\rAT:P: An attacker needs to be able to influence the input prompt, whilst the server is configured with the VectorSQLDatabaseChain plugin.
+</code>
+
+- [SavageSanta11/Reproduce-CVE-2024-21513](https://github.com/SavageSanta11/Reproduce-CVE-2024-21513)
 
 ### CVE-2024-21514 (2024-06-22)
 
@@ -20150,7 +20185,7 @@
 - [Mr-xn/spring-core-rce](https://github.com/Mr-xn/spring-core-rce)
 - [TheGejr/SpringShell](https://github.com/TheGejr/SpringShell)
 - [reznok/Spring4Shell-POC](https://github.com/reznok/Spring4Shell-POC)
-- [light-Life/CVE-2022-22965-GUItools](https://github.com/light-Life/CVE-2022-22965-GUItools)
+- [Bouquets-ai/CVE-2022-22965-GUItools](https://github.com/Bouquets-ai/CVE-2022-22965-GUItools)
 - [DDuarte/springshell-rce-poc](https://github.com/DDuarte/springshell-rce-poc)
 - [k3rwin/spring-core-rce](https://github.com/k3rwin/spring-core-rce)
 - [liangyueliangyue/spring-core-rce](https://github.com/liangyueliangyue/spring-core-rce)
