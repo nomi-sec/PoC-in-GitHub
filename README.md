@@ -346,7 +346,11 @@
 ### CVE-2025-25965
 - [Sudo-Sakib/CVE-2025-25965](https://github.com/Sudo-Sakib/CVE-2025-25965)
 
-### CVE-2025-25967
+### CVE-2025-25967 (2025-03-03)
+
+<code>Acora CMS version 10.1.1 is vulnerable to Cross-Site Request Forgery (CSRF). This flaw enables attackers to trick authenticated users into performing unauthorized actions, such as account deletion or user creation, by embedding malicious requests in external content. The lack of CSRF protections allows exploitation via crafted requests.
+</code>
+
 - [padayali-JD/CVE-2025-25967](https://github.com/padayali-JD/CVE-2025-25967)
 
 ### CVE-2025-25968 (2025-02-20)
@@ -359,7 +363,11 @@
 ### CVE-2025-26202
 - [A17-ba/CVE-2025-26202-Details](https://github.com/A17-ba/CVE-2025-26202-Details)
 
-### CVE-2025-26206
+### CVE-2025-26206 (2025-03-03)
+
+<code>Cross Site Request Forgery vulnerability in sell done storefront v.1.0 allows a remote attacker to escalate privileges via the index.html component
+</code>
+
 - [xibhi/CVE-2025-26206](https://github.com/xibhi/CVE-2025-26206)
 
 ### CVE-2025-26263 (2025-02-28)
@@ -8322,6 +8330,7 @@
 - [dragonked2/CVE-2024-50379-POC](https://github.com/dragonked2/CVE-2024-50379-POC)
 - [dkstar11q/CVE-2024-50379-nuclei](https://github.com/dkstar11q/CVE-2024-50379-nuclei)
 - [pwnosec/CVE-2024-50379](https://github.com/pwnosec/CVE-2024-50379)
+- [shoddykilom/CVE-2024-50379](https://github.com/shoddykilom/CVE-2024-50379)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -9395,28 +9404,28 @@
 
 ### CVE-2024-56898 (2025-02-03)
 
-<code>Incorrect access control in Geovision GV-ASWeb version 6.1.0.0 or less allows unauthorized attackers with low-level privileges to manage and create new user accounts via supplying a crafted HTTP request.
+<code>Broken access control vulnerability in Geovision GV-ASWeb with version v6.1.0.0 or less. This vulnerability allows low privilege users perform actions that they aren't authorized to, which can be leveraged to escalate privileges, create, modify or delete accounts.
 </code>
 
 - [DRAGOWN/CVE-2024-56898](https://github.com/DRAGOWN/CVE-2024-56898)
 
 ### CVE-2024-56901 (2025-02-03)
 
-<code>A Cross-Site Request Forgery (CSRF) in the Account Management component of Geovision GV-ASWeb version 6.1.1.0 or less allows attackers to arbitrarily create Admin accounts via a crafted GET request method.
+<code>A Cross-Site Request Forgery (CSRF) vulnerability in Geovision GV-ASWeb application with the version 6.1.1.0 or less that allows attackers to arbitrarily create Administrator accounts via a crafted GET request method. This vulnerability is used in chain with CVE-2024-56903 for a successful CSRF attack.
 </code>
 
 - [DRAGOWN/CVE-2024-56901](https://github.com/DRAGOWN/CVE-2024-56901)
 
 ### CVE-2024-56902 (2025-02-03)
 
-<code>An issue in Geovision GV-ASWeb with version 6.1.0.0 or less allows unauthorized attackers with low-level privileges to be able to request information about other accounts via a crafted HTTP request.
+<code>Information disclosure vulnerability in Geovision GV-ASManager web application with the version v6.1.0.0 or less, which discloses account information, including cleartext password.
 </code>
 
 - [DRAGOWN/CVE-2024-56902](https://github.com/DRAGOWN/CVE-2024-56902)
 
 ### CVE-2024-56903 (2025-02-03)
 
-<code>A Cross-Site Request Forgery (CSRF) in Geovision GV-ASWeb with the version 6.1.1.0 or less allows attackers to execute arbitrary operations via supplying a crafted HTTP request.
+<code>Geovision GV-ASWeb with the version 6.1.1.0 or less allows attackers to modify POST request method with the GET against critical functionalities, such as account management. This vulnerability is used in chain with CVE-2024-56901 for a successful CSRF attack.
 </code>
 
 - [DRAGOWN/CVE-2024-56903](https://github.com/DRAGOWN/CVE-2024-56903)
