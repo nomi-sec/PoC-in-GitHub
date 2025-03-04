@@ -1028,7 +1028,7 @@
 - [c0d3zilla/CVE-2024-2876](https://github.com/c0d3zilla/CVE-2024-2876)
 - [Quantum-Hacker/CVE-2024-2876](https://github.com/Quantum-Hacker/CVE-2024-2876)
 - [0xAgun/CVE-2024-2876](https://github.com/0xAgun/CVE-2024-2876)
-- [skyrowalker/CVE-2024-2876](https://github.com/skyrowalker/CVE-2024-2876)
+- [0xlf/CVE-2024-2876](https://github.com/0xlf/CVE-2024-2876)
 - [issamjr/CVE-2024-2876](https://github.com/issamjr/CVE-2024-2876)
 
 ### CVE-2024-2879 (2024-04-03)
@@ -2109,7 +2109,7 @@
 
 - [rxerium/CVE-2024-7593](https://github.com/rxerium/CVE-2024-7593)
 - [D3N14LD15K/CVE-2024-7593_PoC_Exploit](https://github.com/D3N14LD15K/CVE-2024-7593_PoC_Exploit)
-- [skyrowalker/CVE-2024-7593](https://github.com/skyrowalker/CVE-2024-7593)
+- [0xlf/CVE-2024-7593](https://github.com/0xlf/CVE-2024-7593)
 
 ### CVE-2024-7595 (2025-02-05)
 
@@ -2214,6 +2214,7 @@
 </code>
 
 - [horizon3ai/CVE-2024-8190](https://github.com/horizon3ai/CVE-2024-8190)
+- [flyingllama87/CVE-2024-8190-unauth](https://github.com/flyingllama87/CVE-2024-8190-unauth)
 
 ### CVE-2024-8275 (2024-09-25)
 
@@ -4463,7 +4464,7 @@
 - [LuisMateo1/Arbitrary-File-Read-CVE-2024-24919](https://github.com/LuisMateo1/Arbitrary-File-Read-CVE-2024-24919)
 - [AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-](https://github.com/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-)
 - [geniuszly/CVE-2024-24919](https://github.com/geniuszly/CVE-2024-24919)
-- [skyrowalker/CVE-2024-24919](https://github.com/skyrowalker/CVE-2024-24919)
+- [0xlf/CVE-2024-24919](https://github.com/0xlf/CVE-2024-24919)
 - [sar-3mar/CVE-2024-24919_POC](https://github.com/sar-3mar/CVE-2024-24919_POC)
 - [NingXin2002/Check-Point_poc](https://github.com/NingXin2002/Check-Point_poc)
 - [hashdr1ft/SOC_287](https://github.com/hashdr1ft/SOC_287)
@@ -5343,7 +5344,7 @@
 - [k3lpi3b4nsh33/CVE-2024-29973](https://github.com/k3lpi3b4nsh33/CVE-2024-29973)
 - [p0et08/CVE-2024-29973](https://github.com/p0et08/CVE-2024-29973)
 - [RevoltSecurities/CVE-2024-29973](https://github.com/RevoltSecurities/CVE-2024-29973)
-- [skyrowalker/CVE-2024-29973](https://github.com/skyrowalker/CVE-2024-29973)
+- [0xlf/CVE-2024-29973](https://github.com/0xlf/CVE-2024-29973)
 
 ### CVE-2024-29988 (2024-04-09)
 
@@ -8063,7 +8064,11 @@
 ### CVE-2024-48246
 - [ShadowByte1/CVE-2024-48246](https://github.com/ShadowByte1/CVE-2024-48246)
 
-### CVE-2024-48248
+### CVE-2024-48248 (2025-03-04)
+
+<code>NAKIVO Backup &amp; Replication before 11.0.0.88174 allows absolute path traversal for reading files via getImageByPath to /c/router (this may lead to remote code execution across the enterprise because PhysicalDiscovery has cleartext credentials).
+</code>
+
 - [watchtowrlabs/nakivo-arbitrary-file-read-poc-CVE-2024-48248](https://github.com/watchtowrlabs/nakivo-arbitrary-file-read-poc-CVE-2024-48248)
 
 ### CVE-2024-48322 (2024-11-11)
@@ -9383,6 +9388,13 @@
 </code>
 
 - [absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit](https://github.com/absholi7ly/CVE-2024-56512-Apache-NiFi-Exploit)
+
+### CVE-2024-56801 (2024-12-30)
+
+<code>Tasklists provides plugin tasklists for GLPI. Versions prior to 2.0.4 have a blind SQL injection vulnerability. Version 2.0.4 contains a patch for the vulnerability.
+</code>
+
+- [kz0xpwn/CVE-2024-56801](https://github.com/kz0xpwn/CVE-2024-56801)
 
 ### CVE-2024-56882 (2025-02-18)
 
@@ -21336,6 +21348,7 @@
 - [evilashz/PIGADVulnScanner](https://github.com/evilashz/PIGADVulnScanner)
 - [Gh-Badr/CVE-2022-26923](https://github.com/Gh-Badr/CVE-2022-26923)
 - [Yowise/CVE-2022-26923](https://github.com/Yowise/CVE-2022-26923)
+- [rayngnpc/CVE-2022-26923-rayng](https://github.com/rayngnpc/CVE-2022-26923-rayng)
 
 ### CVE-2022-26927 (2022-05-10)
 
@@ -30360,13 +30373,6 @@
 
 - [simonecris/CVE-2021-42362-PoC](https://github.com/simonecris/CVE-2021-42362-PoC)
 
-### CVE-2021-42392 (2022-01-07)
-
-<code>The org.h2.util.JdbcUtils.getConnection method of the H2 database takes as parameters the class name of the driver and URL of the database. An attacker may pass a JNDI driver name and a URL leading to a LDAP or RMI servers, causing remote code execution. This can be exploited through various attack vectors, most notably through the H2 Console which leads to unauthenticated remote code execution.
-</code>
-
-- [cybersecurityworks553/CVE-2021-42392-Detect](https://github.com/cybersecurityworks553/CVE-2021-42392-Detect)
-
 ### CVE-2021-42558 (2022-01-12)
 
 <code>An issue was discovered in CALDERA 2.8.1. It contains multiple reflected, stored, and self XSS vulnerabilities that may be exploited by authenticated and unauthenticated attackers.
@@ -31306,6 +31312,7 @@
 - [ZacharyZcR/CVE-2021-44228](https://github.com/ZacharyZcR/CVE-2021-44228)
 - [qw3rtyou/CVE-2021-44228_dockernize](https://github.com/qw3rtyou/CVE-2021-44228_dockernize)
 - [yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-](https://github.com/yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-)
+- [lustrouscave/log4shell-tools](https://github.com/lustrouscave/log4shell-tools)
 
 ### CVE-2021-44255 (2022-01-31)
 
