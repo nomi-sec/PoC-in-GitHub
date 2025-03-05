@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2025
+### CVE-2025-0087
+- [SpiralBL0CK/CVE-2025-0087-](https://github.com/SpiralBL0CK/CVE-2025-0087-)
+
 ### CVE-2025-0108 (2025-02-12)
 
 <code>An authentication bypass in the Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to bypass the authentication otherwise required by the PAN-OS management web interface and invoke certain PHP scripts. While invoking these PHP scripts does not enable remote code execution, it can negatively impact integrity and confidentiality of PAN-OS.\n\nYou can greatly reduce the risk of this issue by restricting access to the management web interface to only trusted internal IP addresses according to our recommended  best practices deployment guidelines https://live.paloaltonetworks.com/t5/community-blogs/tips-amp-tricks-how-to-secure-the-management-access-of-your-palo/ba-p/464431 .\n\nThis issue does not affect Cloud NGFW or Prisma Access software.
@@ -2517,7 +2520,6 @@
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
-- [concretesign/CVE-2024-9474](https://github.com/concretesign/CVE-2024-9474)
 
 ### CVE-2024-9570 (2024-10-07)
 
@@ -5724,6 +5726,8 @@
 - [grecosamuel/CVE-2024-32002](https://github.com/grecosamuel/CVE-2024-32002)
 - [XiaomingX/cve-2024-32002-poc](https://github.com/XiaomingX/cve-2024-32002-poc)
 - [jolibb55/donald](https://github.com/jolibb55/donald)
+- [razenkovv/captain](https://github.com/razenkovv/captain)
+- [razenkovv/hook](https://github.com/razenkovv/hook)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -8248,6 +8252,13 @@
 - [CyberCrowCC/CVE-2024-48990](https://github.com/CyberCrowCC/CVE-2024-48990)
 - [NullByte-7w7/CVE-2024-48990](https://github.com/NullByte-7w7/CVE-2024-48990)
 - [ten-ops/CVE-2024-48990_needrestart](https://github.com/ten-ops/CVE-2024-48990_needrestart)
+
+### CVE-2024-49019 (2024-11-12)
+
+<code>Active Directory Certificate Services Elevation of Privilege Vulnerability
+</code>
+
+- [rayngnpc/CVE-2024-49019-rayng](https://github.com/rayngnpc/CVE-2024-49019-rayng)
 
 ### CVE-2024-49039 (2024-11-12)
 
@@ -17973,6 +17984,7 @@
 - [Trackflaw/CVE-2024-10924-Wordpress-Docker](https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker)
 - [separatefailu/cve-2023-50164-poc](https://github.com/separatefailu/cve-2023-50164-poc)
 - [Pixel-DefaultBR/CVE-2023-50164](https://github.com/Pixel-DefaultBR/CVE-2023-50164)
+- [heavyyeast/cve-2023-50164-poc](https://github.com/heavyyeast/cve-2023-50164-poc)
 
 ### CVE-2023-50226 (2024-05-03)
 
@@ -20393,6 +20405,7 @@
 - [fork-bombed/CVE-2022-23131](https://github.com/fork-bombed/CVE-2022-23131)
 - [davidzzo23/CVE-2022-23131](https://github.com/davidzzo23/CVE-2022-23131)
 - [dagowda/Zabbix-cve-2022-23131-SSO-bypass](https://github.com/dagowda/Zabbix-cve-2022-23131-SSO-bypass)
+- [worstundersh/CVE-2022-23131](https://github.com/worstundersh/CVE-2022-23131)
 
 ### CVE-2022-23222 (2022-01-14)
 
@@ -26134,6 +26147,7 @@
 - [ptkhai15/OverlayFS---CVE-2021-3493](https://github.com/ptkhai15/OverlayFS---CVE-2021-3493)
 - [iamz24/CVE-2021-3493_CVE-2022-3357](https://github.com/iamz24/CVE-2021-3493_CVE-2022-3357)
 - [fathallah17/OverlayFS-CVE-2021-3493](https://github.com/fathallah17/OverlayFS-CVE-2021-3493)
+- [Sornphut/OverlayFS---CVE-2021-3493](https://github.com/Sornphut/OverlayFS---CVE-2021-3493)
 
 ### CVE-2021-3516 (2021-06-01)
 
@@ -28820,7 +28834,6 @@
 - [p2-98/CVE-2021-34473](https://github.com/p2-98/CVE-2021-34473)
 - [horizon3ai/proxyshell](https://github.com/horizon3ai/proxyshell)
 - [je6k/CVE-2021-34473-Exchange-ProxyShell](https://github.com/je6k/CVE-2021-34473-Exchange-ProxyShell)
-- [learningsurface/ProxyShell-CVE-2021-34473.py](https://github.com/learningsurface/ProxyShell-CVE-2021-34473.py)
 - [kh4sh3i/ProxyShell](https://github.com/kh4sh3i/ProxyShell)
 - [ipsBruno/CVE-2021-34473-NMAP-SCANNER](https://github.com/ipsBruno/CVE-2021-34473-NMAP-SCANNER)
 - [f4alireza/CVE](https://github.com/f4alireza/CVE)
@@ -38848,6 +38861,7 @@
 - [Azrenom/CMS-Made-Simple-2.2.9-CVE-2019-9053](https://github.com/Azrenom/CMS-Made-Simple-2.2.9-CVE-2019-9053)
 - [louisthedonothing/CVE-2019-9053](https://github.com/louisthedonothing/CVE-2019-9053)
 - [Yzhacker/CVE-2019-9053-CMS46635-python3](https://github.com/Yzhacker/CVE-2019-9053-CMS46635-python3)
+- [hf3cyber/CMS-Made-Simple-2.2.9-Unauthenticated-SQL-Injection-Exploit-CVE-2019-9053-](https://github.com/hf3cyber/CMS-Made-Simple-2.2.9-Unauthenticated-SQL-Injection-Exploit-CVE-2019-9053-)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
@@ -45818,6 +45832,7 @@
 - [Shehzadcyber/CVE-2017-7529](https://github.com/Shehzadcyber/CVE-2017-7529)
 - [coolman6942o/-Exploit-CVE-2017-7529](https://github.com/coolman6942o/-Exploit-CVE-2017-7529)
 - [SirEagIe/CVE-2017-7529](https://github.com/SirEagIe/CVE-2017-7529)
+- [Fenil2511/CVE-2017-7529-POC](https://github.com/Fenil2511/CVE-2017-7529-POC)
 
 ### CVE-2017-7648 (2017-04-10)
 
@@ -50977,6 +50992,7 @@
 - [CpyRe/CVE-2012-2982](https://github.com/CpyRe/CVE-2012-2982)
 - [Shadow-Spinner/CVE-2012-2982_python](https://github.com/Shadow-Spinner/CVE-2012-2982_python)
 - [elliotosama/CVE-2012-2982](https://github.com/elliotosama/CVE-2012-2982)
+- [SieGer05/CVE-2012-2982-Webmin-Exploit](https://github.com/SieGer05/CVE-2012-2982-Webmin-Exploit)
 
 ### CVE-2012-3137 (2012-09-21)
 
