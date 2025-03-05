@@ -82,6 +82,7 @@
 </code>
 
 - [soltanali0/CVE-2025-1094-Exploit](https://github.com/soltanali0/CVE-2025-1094-Exploit)
+- [shacojx/CVE-2025-1094-Exploit](https://github.com/shacojx/CVE-2025-1094-Exploit)
 
 ### CVE-2025-1302 (2025-02-15)
 
@@ -11048,6 +11049,7 @@
 </code>
 
 - [AbdrrahimDahmani/php_filter_chains_oracle_exploit_for_CVE-2023-6199](https://github.com/AbdrrahimDahmani/php_filter_chains_oracle_exploit_for_CVE-2023-6199)
+- [4xura/php_filter_chain_oracle_poc](https://github.com/4xura/php_filter_chain_oracle_poc)
 
 ### CVE-2023-6241 (2024-03-04)
 
@@ -36113,6 +36115,7 @@
 - [meicookies/CVE-2020-24186](https://github.com/meicookies/CVE-2020-24186)
 - [Sakura-501/CVE-2020-24186-exploit](https://github.com/Sakura-501/CVE-2020-24186-exploit)
 - [substing/CVE-2020-24186_reverse_shell_upload](https://github.com/substing/CVE-2020-24186_reverse_shell_upload)
+- [GazettEl/CVE-2020-24186](https://github.com/GazettEl/CVE-2020-24186)
 
 ### CVE-2020-24227 (2020-11-23)
 
