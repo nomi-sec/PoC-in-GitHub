@@ -384,7 +384,11 @@
 
 - [padayali-JD/CVE-2025-25968](https://github.com/padayali-JD/CVE-2025-25968)
 
-### CVE-2025-26202
+### CVE-2025-26202 (2025-03-04)
+
+<code>Cross-Site Scripting (XSS) vulnerability exists in the WPA/WAPI Passphrase field of the Wireless Security settings (2.4GHz &amp; 5GHz bands) in DZS Router Web Interface. An authenticated attacker can inject malicious JavaScript into the passphrase field, which is stored and later executed when an administrator views the passphrase via the &quot;Click here to display&quot; option on the Status page
+</code>
+
 - [A17-ba/CVE-2025-26202-Details](https://github.com/A17-ba/CVE-2025-26202-Details)
 
 ### CVE-2025-26206 (2025-03-03)
@@ -408,10 +412,18 @@
 
 - [DRAGOWN/CVE-2025-26264](https://github.com/DRAGOWN/CVE-2025-26264)
 
-### CVE-2025-26318
+### CVE-2025-26318 (2025-03-04)
+
+<code>Insecure permissions in TSplus Remote Access v17.30 allow attackers to retrieve a list of all domain accounts currently connected to the application.
+</code>
+
 - [Frozenka/CVE-2025-26318](https://github.com/Frozenka/CVE-2025-26318)
 
-### CVE-2025-26319
+### CVE-2025-26319 (2025-03-04)
+
+<code>FlowiseAI Flowise v2.2.6 was discovered to contain an arbitrary file upload vulnerability in /api/v1/attachments.
+</code>
+
 - [dorattias/CVE-2025-26319](https://github.com/dorattias/CVE-2025-26319)
 
 ### CVE-2025-26326 (2025-02-28)
@@ -1951,7 +1963,6 @@
 - [kubota/CVE-2024-6387-Vulnerability-Checker](https://github.com/kubota/CVE-2024-6387-Vulnerability-Checker)
 - [DimaMend/cve-2024-6387-poc](https://github.com/DimaMend/cve-2024-6387-poc)
 - [Sibijo/mitigate_ssh](https://github.com/Sibijo/mitigate_ssh)
-- [Passyed/regreSSHion-Fix](https://github.com/Passyed/regreSSHion-Fix)
 - [dream434/CVE-2024-6387](https://github.com/dream434/CVE-2024-6387)
 - [ThatNotEasy/CVE-2024-6387](https://github.com/ThatNotEasy/CVE-2024-6387)
 - [prelearn-code/CVE-2024-6387](https://github.com/prelearn-code/CVE-2024-6387)
@@ -17954,6 +17965,7 @@
 - [AsfandAliMemon25/CVE-2023-50164Analysis-](https://github.com/AsfandAliMemon25/CVE-2023-50164Analysis-)
 - [NikitaPark/CVE-2023-50164-PoC](https://github.com/NikitaPark/CVE-2023-50164-PoC)
 - [Trackflaw/CVE-2024-10924-Wordpress-Docker](https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker)
+- [separatefailu/cve-2023-50164-poc](https://github.com/separatefailu/cve-2023-50164-poc)
 
 ### CVE-2023-50226 (2024-05-03)
 
@@ -20902,7 +20914,7 @@
 <code>A vulnerability in the component process.php of QR Code Generator v5.2.7 allows attackers to perform directory traversal.
 </code>
 
-- [n0lpointer/CVE-2022-24992](https://github.com/n0lpointer/CVE-2022-24992)
+- [n0lsecurity/CVE-2022-24992](https://github.com/n0lsecurity/CVE-2022-24992)
 
 ### CVE-2022-24999 (2022-11-26)
 
@@ -37200,6 +37212,13 @@
 
 - [miguelc49/CVE-2020-36732-2](https://github.com/miguelc49/CVE-2020-36732-2)
 - [miguelc49/CVE-2020-36732-1](https://github.com/miguelc49/CVE-2020-36732-1)
+
+### CVE-2020-36842 (2024-10-16)
+
+<code>The Migration, Backup, Staging – WPvivid plugin for WordPress is vulnerable to arbitrary file uploads due to a missing capability check on the wpvivid_upload_import_files and wpvivid_upload_files AJAX actions that allows low-level authenticated attackers to upload zip files that can be subsequently extracted. This affects versions up to, and including 0.9.35.
+</code>
+
+- [Nxploited/CVE-2020-36842](https://github.com/Nxploited/CVE-2020-36842)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
