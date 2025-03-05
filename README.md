@@ -329,7 +329,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2025-25163](https://github.com/RandomRobbieBF/CVE-2025-25163)
-- [rootharpy/CVE-2025-25163-Nuclei-Template](https://github.com/rootharpy/CVE-2025-25163-Nuclei-Template)
+- [RootHarpy/CVE-2025-25163-Nuclei-Template](https://github.com/RootHarpy/CVE-2025-25163-Nuclei-Template)
 
 ### CVE-2025-25279 (2025-02-24)
 
@@ -456,6 +456,7 @@
 </code>
 
 - [OscarBataille/CVE-2025-26794](https://github.com/OscarBataille/CVE-2025-26794)
+- [ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi](https://github.com/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi)
 
 
 ## 2024
@@ -8709,6 +8710,9 @@
 
 - [JAckLosingHeart/CVE-2024-51132-POC](https://github.com/JAckLosingHeart/CVE-2024-51132-POC)
 
+### CVE-2024-51144
+- [nitipoom-jar/CVE-2024-51144](https://github.com/nitipoom-jar/CVE-2024-51144)
+
 ### CVE-2024-51179 (2024-11-12)
 
 <code>An issue in Open 5GS v.2.7.1 allows a remote attacker to cause a denial of service via the Network Function Virtualizations (NFVs) such as the User Plane Function (UPF) and the Session Management Function (SMF), The Packet Data Unit (PDU) session establishment process.
@@ -9259,7 +9263,6 @@
 - [sysirq/fortios-auth-bypass-exploit-CVE-2024-55591](https://github.com/sysirq/fortios-auth-bypass-exploit-CVE-2024-55591)
 - [amfg145/Private-CVE-2024-55591.](https://github.com/amfg145/Private-CVE-2024-55591.)
 - [virus-or-not/CVE-2024-55591](https://github.com/virus-or-not/CVE-2024-55591)
-- [robomusk52/exp-cmd-add-admin-vpn-CVE-2024-55591](https://github.com/robomusk52/exp-cmd-add-admin-vpn-CVE-2024-55591)
 - [watchtowrlabs/fortios-auth-bypass-poc-CVE-2024-55591](https://github.com/watchtowrlabs/fortios-auth-bypass-poc-CVE-2024-55591)
 - [exfil0/CVE-2024-55591-POC](https://github.com/exfil0/CVE-2024-55591-POC)
 - [rawtips/CVE-2024-55591](https://github.com/rawtips/CVE-2024-55591)
@@ -11775,6 +11778,7 @@
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
 - [Romanc9/Gui-poc-test](https://github.com/Romanc9/Gui-poc-test)
 - [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
+- [juniorinter/CVE-2023-21839](https://github.com/juniorinter/CVE-2023-21839)
 
 ### CVE-2023-21887 (2023-01-17)
 
@@ -17968,6 +17972,7 @@
 - [NikitaPark/CVE-2023-50164-PoC](https://github.com/NikitaPark/CVE-2023-50164-PoC)
 - [Trackflaw/CVE-2024-10924-Wordpress-Docker](https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker)
 - [separatefailu/cve-2023-50164-poc](https://github.com/separatefailu/cve-2023-50164-poc)
+- [Pixel-DefaultBR/CVE-2023-50164](https://github.com/Pixel-DefaultBR/CVE-2023-50164)
 
 ### CVE-2023-50226 (2024-05-03)
 
