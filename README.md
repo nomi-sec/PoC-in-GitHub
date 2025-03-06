@@ -94,6 +94,13 @@
 
 - [EQSTLab/CVE-2025-1302](https://github.com/EQSTLab/CVE-2025-1302)
 
+### CVE-2025-1306 (2025-03-04)
+
+<code>The Newscrunch theme for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.8.4. This is due to missing or incorrect nonce validation on the newscrunch_install_and_activate_plugin() function. This makes it possible for unauthenticated attackers to upload arbitrary files via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+</code>
+
+- [Nxploited/CVE-2025-1306](https://github.com/Nxploited/CVE-2025-1306)
+
 ### CVE-2025-1307 (2025-03-04)
 
 <code>The Newscrunch theme for WordPress is vulnerable to arbitrary file uploads due to a missing capability check in the newscrunch_install_and_activate_plugin() function in all versions up to, and including, 1.8.4.1. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -144,13 +151,6 @@
 
 - [Network-Sec/CVE-2025-21420-PoC](https://github.com/Network-Sec/CVE-2025-21420-PoC)
 - [toxy4ny/edge-maradeur](https://github.com/toxy4ny/edge-maradeur)
-
-### CVE-2025-21624 (2025-01-07)
-
-<code>ClipBucket V5 provides open source video hosting with PHP. Prior to 5.5.1 - 239, a file upload vulnerability exists in the Manage Playlist functionality of the application, specifically surrounding the uploading of playlist cover images. Without proper checks, an attacker can upload a PHP script file instead of an image file, thus allowing a webshell or other malicious files to be stored and executed on the server. This attack vector exists in both the admin area and low-level user area. This vulnerability is fixed in 5.5.1 - 239.
-</code>
-
-- [shreyas-malhotra/CVE-2025-21624](https://github.com/shreyas-malhotra/CVE-2025-21624)
 
 ### CVE-2025-22352 (2025-01-07)
 
@@ -389,6 +389,9 @@
 
 ### CVE-2025-25621
 - [armaansidana2003/CVE-2025-25621](https://github.com/armaansidana2003/CVE-2025-25621)
+
+### CVE-2025-25763
+- [J-0k3r/CVE-2025-25763](https://github.com/J-0k3r/CVE-2025-25763)
 
 ### CVE-2025-25964
 - [Sudo-Sakib/CVE-2025-25964](https://github.com/Sudo-Sakib/CVE-2025-25964)
@@ -10858,6 +10861,7 @@
 - [yanfernandess/Looney-Tunables-CVE-2023-4911](https://github.com/yanfernandess/Looney-Tunables-CVE-2023-4911)
 - [NishanthAnand21/CVE-2023-4911-PoC](https://github.com/NishanthAnand21/CVE-2023-4911-PoC)
 - [Billar42/CVE-2023-4911](https://github.com/Billar42/CVE-2023-4911)
+- [shacojx/CVE-2023-4911-Exploit](https://github.com/shacojx/CVE-2023-4911-Exploit)
 
 ### CVE-2023-4966 (2023-10-10)
 
@@ -15070,6 +15074,13 @@
 </code>
 
 - [ewilded/CVE-2023-37250-POC](https://github.com/ewilded/CVE-2023-37250-POC)
+
+### CVE-2023-37456 (2023-07-12)
+
+<code>The session restore helper crashed whenever there was no parameter sent to the message handler. This vulnerability affects Firefox for iOS &lt; 115.
+</code>
+
+- [SpiralBL0CK/cve-2023-37456](https://github.com/SpiralBL0CK/cve-2023-37456)
 
 ### CVE-2023-37474 (2023-07-14)
 
