@@ -100,6 +100,7 @@
 </code>
 
 - [McTavishSue/CVE-2025-1307](https://github.com/McTavishSue/CVE-2025-1307)
+- [Nxploited/CVE-2025-1307](https://github.com/Nxploited/CVE-2025-1307)
 
 ### CVE-2025-1716 (2025-02-26)
 
@@ -367,6 +368,27 @@
 
 ### CVE-2025-25612
 - [secmuzz/CVE-2025-25612](https://github.com/secmuzz/CVE-2025-25612)
+
+### CVE-2025-25614
+- [armaansidana2003/CVE-2025-25614](https://github.com/armaansidana2003/CVE-2025-25614)
+
+### CVE-2025-25615
+- [armaansidana2003/CVE-2025-25615](https://github.com/armaansidana2003/CVE-2025-25615)
+
+### CVE-2025-25616
+- [armaansidana2003/CVE-2025-25616](https://github.com/armaansidana2003/CVE-2025-25616)
+
+### CVE-2025-25617
+- [armaansidana2003/CVE-2025-25617](https://github.com/armaansidana2003/CVE-2025-25617)
+
+### CVE-2025-25618
+- [armaansidana2003/CVE-2025-25618](https://github.com/armaansidana2003/CVE-2025-25618)
+
+### CVE-2025-25620
+- [armaansidana2003/CVE-2025-25620](https://github.com/armaansidana2003/CVE-2025-25620)
+
+### CVE-2025-25621
+- [armaansidana2003/CVE-2025-25621](https://github.com/armaansidana2003/CVE-2025-25621)
 
 ### CVE-2025-25964
 - [Sudo-Sakib/CVE-2025-25964](https://github.com/Sudo-Sakib/CVE-2025-25964)
@@ -5566,6 +5588,13 @@
 
 - [MssGmz99/fix-02-failure-CVE-2024-31319-CVE-2024-0039](https://github.com/MssGmz99/fix-02-failure-CVE-2024-31319-CVE-2024-0039)
 
+### CVE-2024-31320 (2024-07-09)
+
+<code>In setSkipPrompt of AssociationRequest.java , there is a possible way to establish a companion device association without any confirmation due to CDM. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [SpiralBL0CK/CVE-2024-31320-](https://github.com/SpiralBL0CK/CVE-2024-31320-)
+
 ### CVE-2024-31351 (2024-05-17)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in Copymatic Copymatic – AI Content Writer &amp; Generator.This issue affects Copymatic – AI Content Writer &amp; Generator: from n/a through 1.6.
@@ -8113,7 +8142,11 @@
 
 - [ShadowByte1/CVE-2024-48245](https://github.com/ShadowByte1/CVE-2024-48245)
 
-### CVE-2024-48246
+### CVE-2024-48246 (2025-03-05)
+
+<code>Vehicle Management System 1.0 contains a Stored Cross-Site Scripting (XSS) vulnerability in the &quot;Name&quot; parameter of /vehicle-management/booking.php.
+</code>
+
 - [ShadowByte1/CVE-2024-48246](https://github.com/ShadowByte1/CVE-2024-48246)
 
 ### CVE-2024-48248 (2025-03-04)
@@ -8721,7 +8754,11 @@
 
 - [JAckLosingHeart/CVE-2024-51132-POC](https://github.com/JAckLosingHeart/CVE-2024-51132-POC)
 
-### CVE-2024-51144
+### CVE-2024-51144 (2025-03-05)
+
+<code>Cross Site Request Forgery (CSRF) vulnerability exists in the 'pvmsg.php?action=add_message', pvmsg.php?action=confirm_delete , and ajax.server.php?page=user&amp;action=flip_follow endpoints in Ampache &lt;= 6.6.0.
+</code>
+
 - [nitipoom-jar/CVE-2024-51144](https://github.com/nitipoom-jar/CVE-2024-51144)
 
 ### CVE-2024-51179 (2024-11-12)
@@ -10458,7 +10495,6 @@
 - [jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824)
 - [fr33c0d3/poc-cve-2023-3824](https://github.com/fr33c0d3/poc-cve-2023-3824)
 - [bluefish3r/poc-cve](https://github.com/bluefish3r/poc-cve)
-- [exploitdevelop/CVE-2023-3824](https://github.com/exploitdevelop/CVE-2023-3824)
 
 ### CVE-2023-3836 (2023-07-22)
 
@@ -28905,13 +28941,6 @@
 
 - [alexzorin/cve-2021-34558](https://github.com/alexzorin/cve-2021-34558)
 
-### CVE-2021-34600 (2022-01-20)
-
-<code>Telenot CompasX versions prior to 32.0 use a weak seed for random number generation leading to predictable AES keys used in the NFC tags used for local authorization of users. This may lead to total loss of trustworthiness of the installation.
-</code>
-
-- [x41sec/CVE-2021-34600](https://github.com/x41sec/CVE-2021-34600)
-
 ### CVE-2021-34621 (2021-07-07)
 
 <code>A vulnerability in the user registration component found in the ~/src/Classes/RegistrationAuth.php file of the ProfilePress WordPress plugin made it possible for users to register on sites as an administrator. This issue affects versions 3.0.0 - 3.1.3. .
@@ -37329,6 +37358,7 @@
 - [xsxtw/CVE-2019-0232](https://github.com/xsxtw/CVE-2019-0232)
 - [Dharan10/CVE-2019-0232](https://github.com/Dharan10/CVE-2019-0232)
 - [iumiro/CVE-2019-0232](https://github.com/iumiro/CVE-2019-0232)
+- [k3Pn1c/CVE-2019-0232_tomcat_cgi_exploit](https://github.com/k3Pn1c/CVE-2019-0232_tomcat_cgi_exploit)
 
 ### CVE-2019-0539 (2019-01-08)
 
@@ -48167,6 +48197,7 @@
 - [Ashrafdev/MySQL-Remote-Root-Code-Execution](https://github.com/Ashrafdev/MySQL-Remote-Root-Code-Execution)
 - [boompig/cve-2016-6662](https://github.com/boompig/cve-2016-6662)
 - [MAYASEVEN/CVE-2016-6662](https://github.com/MAYASEVEN/CVE-2016-6662)
+- [LSQUARE14/SQL_to_RCE_Lab](https://github.com/LSQUARE14/SQL_to_RCE_Lab)
 
 ### CVE-2016-6663 (2016-12-13)
 
