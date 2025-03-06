@@ -4058,6 +4058,7 @@
 - [verylazytech/CVE-2024-23692](https://github.com/verylazytech/CVE-2024-23692)
 - [XiaomingX/cve-2024-23692-poc](https://github.com/XiaomingX/cve-2024-23692-poc)
 - [NingXin2002/HFS2.3_poc](https://github.com/NingXin2002/HFS2.3_poc)
+- [999gawkboyy/CVE-2024-23692_Exploit](https://github.com/999gawkboyy/CVE-2024-23692_Exploit)
 
 ### CVE-2024-23708 (2024-05-07)
 
@@ -5760,6 +5761,8 @@
 - [jolibb55/donald](https://github.com/jolibb55/donald)
 - [razenkovv/captain](https://github.com/razenkovv/captain)
 - [razenkovv/hook](https://github.com/razenkovv/hook)
+- [ashutosh0408/CVE-2024-32002](https://github.com/ashutosh0408/CVE-2024-32002)
+- [ashutosh0408/Cve-2024-32002-poc](https://github.com/ashutosh0408/Cve-2024-32002-poc)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -8433,7 +8436,6 @@
 - [dragonked2/CVE-2024-50379-POC](https://github.com/dragonked2/CVE-2024-50379-POC)
 - [dkstar11q/CVE-2024-50379-nuclei](https://github.com/dkstar11q/CVE-2024-50379-nuclei)
 - [pwnosec/CVE-2024-50379](https://github.com/pwnosec/CVE-2024-50379)
-- [shoddykilom/CVE-2024-50379](https://github.com/shoddykilom/CVE-2024-50379)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -18029,7 +18031,6 @@
 - [AsfandAliMemon25/CVE-2023-50164Analysis-](https://github.com/AsfandAliMemon25/CVE-2023-50164Analysis-)
 - [NikitaPark/CVE-2023-50164-PoC](https://github.com/NikitaPark/CVE-2023-50164-PoC)
 - [Trackflaw/CVE-2024-10924-Wordpress-Docker](https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker)
-- [separatefailu/cve-2023-50164-poc](https://github.com/separatefailu/cve-2023-50164-poc)
 - [Pixel-DefaultBR/CVE-2023-50164](https://github.com/Pixel-DefaultBR/CVE-2023-50164)
 - [heavyyeast/cve-2023-50164-poc](https://github.com/heavyyeast/cve-2023-50164-poc)
 
