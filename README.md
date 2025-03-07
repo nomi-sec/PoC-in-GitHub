@@ -15675,6 +15675,7 @@
 - [rvizx/CVE-2023-40028](https://github.com/rvizx/CVE-2023-40028)
 - [godylockz/CVE-2023-40028](https://github.com/godylockz/CVE-2023-40028)
 - [rehan6658/CVE-2023-40028](https://github.com/rehan6658/CVE-2023-40028)
+- [syogod/CVE-2023-40028](https://github.com/syogod/CVE-2023-40028)
 
 ### CVE-2023-40029 (2023-09-07)
 
@@ -32859,6 +32860,7 @@
 - [JolynNgSC/Zerologon_CVE-2020-1472](https://github.com/JolynNgSC/Zerologon_CVE-2020-1472)
 - [blackh00d/zerologon-poc](https://github.com/blackh00d/zerologon-poc)
 - [TuanCui22/ZerologonWithImpacket-CVE2020-1472](https://github.com/TuanCui22/ZerologonWithImpacket-CVE2020-1472)
+- [PakwanSK/Simulating-and-preventing-Zerologon-CVE-2020-1472-vulnerability-attacks.](https://github.com/PakwanSK/Simulating-and-preventing-Zerologon-CVE-2020-1472-vulnerability-attacks.)
 
 ### CVE-2020-1493 (2020-08-17)
 
@@ -38592,6 +38594,7 @@
 
 - [devzspy/CVE-2019-7214](https://github.com/devzspy/CVE-2019-7214)
 - [andyfeili/-CVE-2019-7214](https://github.com/andyfeili/-CVE-2019-7214)
+- [Drew-Alleman/CVE-2019-7214](https://github.com/Drew-Alleman/CVE-2019-7214)
 
 ### CVE-2019-7216 (2019-01-31)
 
