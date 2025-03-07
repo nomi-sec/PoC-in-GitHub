@@ -129,6 +129,7 @@
 </code>
 
 - [ynwarcs/CVE-2025-21298](https://github.com/ynwarcs/CVE-2025-21298)
+- [Dit-Developers/CVE-2025-21298](https://github.com/Dit-Developers/CVE-2025-21298)
 
 ### CVE-2025-21333 (2025-01-14)
 
@@ -378,7 +379,11 @@
 ### CVE-2025-25616
 - [armaansidana2003/CVE-2025-25616](https://github.com/armaansidana2003/CVE-2025-25616)
 
-### CVE-2025-25617
+### CVE-2025-25617 (2025-03-07)
+
+<code>Incorrect Access Control in Unifiedtransform 2.X leads to Privilege Escalation allowing teachers to create syllabus.
+</code>
+
 - [armaansidana2003/CVE-2025-25617](https://github.com/armaansidana2003/CVE-2025-25617)
 
 ### CVE-2025-25618
@@ -389,6 +394,15 @@
 
 ### CVE-2025-25621
 - [armaansidana2003/CVE-2025-25621](https://github.com/armaansidana2003/CVE-2025-25621)
+
+### CVE-2025-25747
+- [huyvo2910/CVE-2025-25747-HotelDruid-3-0-7-Reflected-XSS](https://github.com/huyvo2910/CVE-2025-25747-HotelDruid-3-0-7-Reflected-XSS)
+
+### CVE-2025-25748
+- [huyvo2910/CVE-2525-25748-Cross-Site-Request-Forgery-CSRF-Vulnerability-in-HotelDruid-3.0.7](https://github.com/huyvo2910/CVE-2525-25748-Cross-Site-Request-Forgery-CSRF-Vulnerability-in-HotelDruid-3.0.7)
+
+### CVE-2025-25749
+- [huyvo2910/CVE-2025-25749-Weak-Password-Policy-in-HotelDruid-3.0.7](https://github.com/huyvo2910/CVE-2025-25749-Weak-Password-Policy-in-HotelDruid-3.0.7)
 
 ### CVE-2025-25964
 - [Sudo-Sakib/CVE-2025-25964](https://github.com/Sudo-Sakib/CVE-2025-25964)
@@ -409,6 +423,15 @@
 </code>
 
 - [padayali-JD/CVE-2025-25968](https://github.com/padayali-JD/CVE-2025-25968)
+
+### CVE-2025-26054
+- [rohan-pt/CVE-2025-26054](https://github.com/rohan-pt/CVE-2025-26054)
+
+### CVE-2025-26055
+- [rohan-pt/CVE-2025-26055](https://github.com/rohan-pt/CVE-2025-26055)
+
+### CVE-2025-26056
+- [rohan-pt/CVE-2025-26056](https://github.com/rohan-pt/CVE-2025-26056)
 
 ### CVE-2025-26202 (2025-03-04)
 
@@ -42455,6 +42478,7 @@
 - [faqihudin13/CVE-2018-6574](https://github.com/faqihudin13/CVE-2018-6574)
 - [lisu60/cve-2018-6574](https://github.com/lisu60/cve-2018-6574)
 - [Saboor-Hakimi/CVE-2018-6574](https://github.com/Saboor-Hakimi/CVE-2018-6574)
+- [elw0od/PentesterLab](https://github.com/elw0od/PentesterLab)
 
 ### CVE-2018-6622 (2018-08-17)
 
