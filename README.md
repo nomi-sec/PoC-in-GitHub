@@ -390,13 +390,6 @@
 ### CVE-2025-25621
 - [armaansidana2003/CVE-2025-25621](https://github.com/armaansidana2003/CVE-2025-25621)
 
-### CVE-2025-25763 (2025-03-06)
-
-<code>crmeb CRMEB-KY v5.4.0 and before has a SQL Injection vulnerability at getRead() in /system/SystemDatabackupServices.php
-</code>
-
-- [J-0k3r/CVE-2025-25763](https://github.com/J-0k3r/CVE-2025-25763)
-
 ### CVE-2025-25964
 - [Sudo-Sakib/CVE-2025-25964](https://github.com/Sudo-Sakib/CVE-2025-25964)
 
@@ -5770,8 +5763,6 @@
 - [grecosamuel/CVE-2024-32002](https://github.com/grecosamuel/CVE-2024-32002)
 - [XiaomingX/cve-2024-32002-poc](https://github.com/XiaomingX/cve-2024-32002-poc)
 - [jolibb55/donald](https://github.com/jolibb55/donald)
-- [razenkovv/captain](https://github.com/razenkovv/captain)
-- [razenkovv/hook](https://github.com/razenkovv/hook)
 - [ashutosh0408/CVE-2024-32002](https://github.com/ashutosh0408/CVE-2024-32002)
 - [ashutosh0408/Cve-2024-32002-poc](https://github.com/ashutosh0408/Cve-2024-32002-poc)
 
@@ -9701,6 +9692,13 @@
 </code>
 
 - [s4fv4n/CVE-2024-57785](https://github.com/s4fv4n/CVE-2024-57785)
+
+### CVE-2024-57972 (2025-03-06)
+
+<code>The pairing API request handler in Microsoft HoloLens 1 (Windows Holographic) through 10.0.17763.3046 and HoloLens 2 (Windows Holographic) through 10.0.22621.1244 allows remote attackers to cause a Denial of Service (resource consumption and device unusability) by sending many requests through the Device Portal framework.
+</code>
+
+- [tania-silva/CVE-2024-57972](https://github.com/tania-silva/CVE-2024-57972)
 
 ### CVE-2024-415770
 - [muhmad-umair/CVE-2024-415770-ssrf-rce](https://github.com/muhmad-umair/CVE-2024-415770-ssrf-rce)
