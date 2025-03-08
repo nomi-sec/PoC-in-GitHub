@@ -45479,6 +45479,7 @@
 - [Ravindu-Priyankara/CVE-2017-5487-vulnerability-on-NSBM](https://github.com/Ravindu-Priyankara/CVE-2017-5487-vulnerability-on-NSBM)
 - [K3ysTr0K3R/CVE-2017-5487-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-5487-EXPLOIT)
 - [dream434/CVE-2017-5487](https://github.com/dream434/CVE-2017-5487)
+- [chihyeonwon/cve-2017-5487](https://github.com/chihyeonwon/cve-2017-5487)
 
 ### CVE-2017-5633 (2017-03-06)
 
@@ -51071,7 +51072,7 @@
 - [AlexJS6/CVE-2012-2982_Python](https://github.com/AlexJS6/CVE-2012-2982_Python)
 - [Ari-Weinberg/CVE-2012-2982](https://github.com/Ari-Weinberg/CVE-2012-2982)
 - [JohnHammond/CVE-2012-2982](https://github.com/JohnHammond/CVE-2012-2982)
-- [R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982)
+- [SpoofIMEI/CVE-2012-2982](https://github.com/SpoofIMEI/CVE-2012-2982)
 - [blu3ming/CVE-2012-2982](https://github.com/blu3ming/CVE-2012-2982)
 - [0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982)
 - [0xTas/CVE-2012-2982](https://github.com/0xTas/CVE-2012-2982)
@@ -52015,6 +52016,7 @@
 - [Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447)
 - [IamLucif3r/CVE-2007-2447-Exploit](https://github.com/IamLucif3r/CVE-2007-2447-Exploit)
 - [foudadev/CVE-2007-2447](https://github.com/foudadev/CVE-2007-2447)
+- [elphon/CVE-2007-2447-Exploit](https://github.com/elphon/CVE-2007-2447-Exploit)
 
 ### CVE-2007-3280 (2007-06-19)
 
