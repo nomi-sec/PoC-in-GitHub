@@ -29347,6 +29347,9 @@
 
 - [SECFORCE/CVE-2021-37748](https://github.com/SECFORCE/CVE-2021-37748)
 
+### CVE-2021-37787
+- [vasykor/CVE-2021-37787](https://github.com/vasykor/CVE-2021-37787)
+
 ### CVE-2021-37832 (2021-08-03)
 
 <code>A SQL injection vulnerability exists in version 3.0.2 of Hotel Druid when SQLite is being used as the application database. A malicious attacker can issue SQL commands to the SQLite database through the vulnerable idappartamenti parameter.
@@ -30779,7 +30782,6 @@
 </code>
 
 - [bitterzzZZ/CVE-2021-43297-POC](https://github.com/bitterzzZZ/CVE-2021-43297-POC)
-- [longofo/Apache-Dubbo-Hessian2-CVE-2021-43297](https://github.com/longofo/Apache-Dubbo-Hessian2-CVE-2021-43297)
 
 ### CVE-2021-43326 (2021-12-15)
 
@@ -33068,7 +33070,6 @@
 - [wsfengfan/CVE-2020-2555](https://github.com/wsfengfan/CVE-2020-2555)
 - [Y4er/CVE-2020-2555](https://github.com/Y4er/CVE-2020-2555)
 - [Maskhe/cve-2020-2555](https://github.com/Maskhe/cve-2020-2555)
-- [Uvemode/CVE-2020-2555](https://github.com/Uvemode/CVE-2020-2555)
 - [Qynklee/POC_CVE-2020-2555](https://github.com/Qynklee/POC_CVE-2020-2555)
 
 ### CVE-2020-2655 (2020-01-15)
