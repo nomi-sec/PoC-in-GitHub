@@ -29934,7 +29934,6 @@
 </code>
 
 - [419066074/CVE-2021-40859](https://github.com/419066074/CVE-2021-40859)
-- [0xr001/CVE-2021-40859](https://github.com/0xr001/CVE-2021-40859)
 - [pussycat0x/CVE-2021-40859](https://github.com/pussycat0x/CVE-2021-40859)
 
 ### CVE-2021-40865 (2021-10-25)
