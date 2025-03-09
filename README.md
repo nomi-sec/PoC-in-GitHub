@@ -11879,7 +11879,6 @@
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
 - [Romanc9/Gui-poc-test](https://github.com/Romanc9/Gui-poc-test)
 - [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
-- [juniorinter/CVE-2023-21839](https://github.com/juniorinter/CVE-2023-21839)
 
 ### CVE-2023-21887 (2023-01-17)
 
