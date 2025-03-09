@@ -513,6 +513,13 @@
 - [OscarBataille/CVE-2025-26794](https://github.com/OscarBataille/CVE-2025-26794)
 - [ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi](https://github.com/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi)
 
+### CVE-2025-27840 (2025-03-08)
+
+<code>Espressif ESP32 chips allow 29 hidden HCI commands, such as 0xFC02 (Write memory).
+</code>
+
+- [em0gi/CVE-2025-27840](https://github.com/em0gi/CVE-2025-27840)
+
 
 ## 2024
 ### CVE-2024-0012 (2024-11-18)
@@ -12884,6 +12891,7 @@
 - [Jenderal92/CVE-2023-27350](https://github.com/Jenderal92/CVE-2023-27350)
 - [ASG-CASTLE/CVE-2023-27350](https://github.com/ASG-CASTLE/CVE-2023-27350)
 - [rasan2001/CVE-2023-27350-Ongoing-Exploitation-of-PaperCut-Remote-Code-Execution-Vulnerability](https://github.com/rasan2001/CVE-2023-27350-Ongoing-Exploitation-of-PaperCut-Remote-Code-Execution-Vulnerability)
+- [monke443/CVE-2023-27350](https://github.com/monke443/CVE-2023-27350)
 
 ### CVE-2023-27363 (2024-05-03)
 
@@ -13501,6 +13509,7 @@
 </code>
 
 - [gy741/CVE-2023-30258-setup](https://github.com/gy741/CVE-2023-30258-setup)
+- [sk00l/CVE-2023-30258](https://github.com/sk00l/CVE-2023-30258)
 
 ### CVE-2023-30347 (2023-06-22)
 
@@ -15707,7 +15716,7 @@
 - [BBSynapse/CVE-2023-40028](https://github.com/BBSynapse/CVE-2023-40028)
 - [0xDTC/Ghost-5.58-Arbitrary-File-Read-CVE-2023-40028](https://github.com/0xDTC/Ghost-5.58-Arbitrary-File-Read-CVE-2023-40028)
 - [sudlit/CVE-2023-40028](https://github.com/sudlit/CVE-2023-40028)
-- [monke443/CVE-2023-40028-Ghost-Arbitrary-File-Read](https://github.com/monke443/CVE-2023-40028-Ghost-Arbitrary-File-Read)
+- [monke443/CVE-2023-40028](https://github.com/monke443/CVE-2023-40028)
 - [rvizx/CVE-2023-40028](https://github.com/rvizx/CVE-2023-40028)
 - [godylockz/CVE-2023-40028](https://github.com/godylockz/CVE-2023-40028)
 - [rehan6658/CVE-2023-40028](https://github.com/rehan6658/CVE-2023-40028)
@@ -30949,7 +30958,7 @@
 - [wezoomagency/GrafXploit](https://github.com/wezoomagency/GrafXploit)
 - [davidr-io/Grafana-8.3-Directory-Traversal](https://github.com/davidr-io/Grafana-8.3-Directory-Traversal)
 - [ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux](https://github.com/ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux)
-- [monke443/CVE-2021-43798-Grafana-Arbitrary-File-Read](https://github.com/monke443/CVE-2021-43798-Grafana-Arbitrary-File-Read)
+- [monke443/CVE-2021-43798](https://github.com/monke443/CVE-2021-43798)
 
 ### CVE-2021-43799 (2022-01-25)
 
