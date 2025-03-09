@@ -1834,6 +1834,7 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806](https://github.com/watchtowrlabs/watchTowr-vs-progress-moveit_CVE-2024-5806)
+- [sec13b/CVE-2024-5806](https://github.com/sec13b/CVE-2024-5806)
 
 ### CVE-2024-5909 (2024-06-12)
 
@@ -4973,6 +4974,13 @@
 - [jakabakos/CVE-2024-27348-Apache-HugeGraph-RCE](https://github.com/jakabakos/CVE-2024-27348-Apache-HugeGraph-RCE)
 - [p0et08/CVE-2024-27348](https://github.com/p0et08/CVE-2024-27348)
 
+### CVE-2024-27398 (2024-05-13)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: Fix use-after-free bugs caused by sco_sock_timeout\n\nWhen the sco connection is established and then, the sco socket\nis releasing, timeout_work will be scheduled to judge whether\nthe sco disconnection is timeout. The sock will be deallocated\nlater, but it is dereferenced again in sco_sock_timeout. As a\nresult, the use-after-free bugs will happen. The root cause is\nshown below:\n\n    Cleanup Thread               |      Worker Thread\nsco_sock_release                 |\n  sco_sock_close                 |\n    __sco_sock_close             |\n      sco_sock_set_timer         |\n        schedule_delayed_work    |\n  sco_sock_kill                  |    (wait a time)\n    sock_put(sk) //FREE          |  sco_sock_timeout\n                                 |    sock_hold(sk) //USE\n\nThe KASAN report triggered by POC is shown below:\n\n[   95.890016] ==================================================================\n[   95.890496] BUG: KASAN: slab-use-after-free in sco_sock_timeout+0x5e/0x1c0\n[   95.890755] Write of size 4 at addr ffff88800c388080 by task kworker/0:0/7\n...\n[   95.890755] Workqueue: events sco_sock_timeout\n[   95.890755] Call Trace:\n[   95.890755]  &lt;TASK&gt;\n[   95.890755]  dump_stack_lvl+0x45/0x110\n[   95.890755]  print_address_description+0x78/0x390\n[   95.890755]  print_report+0x11b/0x250\n[   95.890755]  ? __virt_addr_valid+0xbe/0xf0\n[   95.890755]  ? sco_sock_timeout+0x5e/0x1c0\n[   95.890755]  kasan_report+0x139/0x170\n[   95.890755]  ? update_load_avg+0xe5/0x9f0\n[   95.890755]  ? sco_sock_timeout+0x5e/0x1c0\n[   95.890755]  kasan_check_range+0x2c3/0x2e0\n[   95.890755]  sco_sock_timeout+0x5e/0x1c0\n[   95.890755]  process_one_work+0x561/0xc50\n[   95.890755]  worker_thread+0xab2/0x13c0\n[   95.890755]  ? pr_cont_work+0x490/0x490\n[   95.890755]  kthread+0x279/0x300\n[   95.890755]  ? pr_cont_work+0x490/0x490\n[   95.890755]  ? kthread_blkcg+0xa0/0xa0\n[   95.890755]  ret_from_fork+0x34/0x60\n[   95.890755]  ? kthread_blkcg+0xa0/0xa0\n[   95.890755]  ret_from_fork_asm+0x11/0x20\n[   95.890755]  &lt;/TASK&gt;\n[   95.890755]\n[   95.890755] Allocated by task 506:\n[   95.890755]  kasan_save_track+0x3f/0x70\n[   95.890755]  __kasan_kmalloc+0x86/0x90\n[   95.890755]  __kmalloc+0x17f/0x360\n[   95.890755]  sk_prot_alloc+0xe1/0x1a0\n[   95.890755]  sk_alloc+0x31/0x4e0\n[   95.890755]  bt_sock_alloc+0x2b/0x2a0\n[   95.890755]  sco_sock_create+0xad/0x320\n[   95.890755]  bt_sock_create+0x145/0x320\n[   95.890755]  __sock_create+0x2e1/0x650\n[   95.890755]  __sys_socket+0xd0/0x280\n[   95.890755]  __x64_sys_socket+0x75/0x80\n[   95.890755]  do_syscall_64+0xc4/0x1b0\n[   95.890755]  entry_SYSCALL_64_after_hwframe+0x67/0x6f\n[   95.890755]\n[   95.890755] Freed by task 506:\n[   95.890755]  kasan_save_track+0x3f/0x70\n[   95.890755]  kasan_save_free_info+0x40/0x50\n[   95.890755]  poison_slab_object+0x118/0x180\n[   95.890755]  __kasan_slab_free+0x12/0x30\n[   95.890755]  kfree+0xb2/0x240\n[   95.890755]  __sk_destruct+0x317/0x410\n[   95.890755]  sco_sock_release+0x232/0x280\n[   95.890755]  sock_close+0xb2/0x210\n[   95.890755]  __fput+0x37f/0x770\n[   95.890755]  task_work_run+0x1ae/0x210\n[   95.890755]  get_signal+0xe17/0xf70\n[   95.890755]  arch_do_signal_or_restart+0x3f/0x520\n[   95.890755]  syscall_exit_to_user_mode+0x55/0x120\n[   95.890755]  do_syscall_64+0xd1/0x1b0\n[   95.890755]  entry_SYSCALL_64_after_hwframe+0x67/0x6f\n[   95.890755]\n[   95.890755] The buggy address belongs to the object at ffff88800c388000\n[   95.890755]  which belongs to the cache kmalloc-1k of size 1024\n[   95.890755] The buggy address is located 128 bytes inside of\n[   95.890755]  freed 1024-byte region [ffff88800c388000, ffff88800c388400)\n[   95.890755]\n[   95.890755] The buggy address belongs to the physical page:\n[   95.890755] page: refcount:1 mapcount:0 mapping:0000000000000000 index:0xffff88800c38a800 pfn:0xc388\n[   95.890755] head: order:3 entire_mapcount:0 nr_pages_mapped:0 pincount:0\n[   95.890755] ano\n---truncated---
+</code>
+
+- [secunnix/CVE-2024-27398](https://github.com/secunnix/CVE-2024-27398)
+
 ### CVE-2024-27448 (2024-04-05)
 
 <code>MailDev 2 through 2.1.0 allows Remote Code Execution via a crafted Content-ID header for an e-mail attachment, leading to lib/mailserver.js writing arbitrary code into the routes.js file.
@@ -7927,6 +7935,7 @@
 - [Chocapikk/CVE-2024-45519](https://github.com/Chocapikk/CVE-2024-45519)
 - [whiterose7777/CVE-2024-45519](https://github.com/whiterose7777/CVE-2024-45519)
 - [XiaomingX/cve-2024-45519-poc](https://github.com/XiaomingX/cve-2024-45519-poc)
+- [sec13b/CVE-2024-45519](https://github.com/sec13b/CVE-2024-45519)
 
 ### CVE-2024-45589 (2024-09-05)
 
