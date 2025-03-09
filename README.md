@@ -109,6 +109,13 @@
 - [McTavishSue/CVE-2025-1307](https://github.com/McTavishSue/CVE-2025-1307)
 - [Nxploited/CVE-2025-1307](https://github.com/Nxploited/CVE-2025-1307)
 
+### CVE-2025-1316 (2025-03-04)
+
+<code>Edimax IC-7100 does not properly neutralize requests. An attacker can create specially crafted requests to achieve remote code execution on the device
+</code>
+
+- [Rimasue/CVE-2025-1316](https://github.com/Rimasue/CVE-2025-1316)
+
 ### CVE-2025-1716 (2025-02-26)
 
 <code>picklescan before 0.0.21 does not treat 'pip' as an unsafe global. An attacker could craft a malicious model that uses Pickle to pull in a malicious PyPI package (hosted, for example, on pypi.org or GitHub) via `pip.main()`. Because pip is not a restricted global, the model, when scanned with picklescan, would pass security checks and appear to be safe, when it could instead prove to be problematic.
@@ -6518,6 +6525,7 @@
 
 - [Bi0x/CVE-2024-37032](https://github.com/Bi0x/CVE-2024-37032)
 - [ahboon/CVE-2024-37032-scanner](https://github.com/ahboon/CVE-2024-37032-scanner)
+- [pankass/CVE-2024-37032_CVE-2024-45436](https://github.com/pankass/CVE-2024-37032_CVE-2024-45436)
 
 ### CVE-2024-37051 (2024-06-10)
 
@@ -7902,7 +7910,6 @@
 <code>extractFromZipFile in model.go in Ollama before 0.1.47 can extract members of a ZIP archive outside of the parent directory.
 </code>
 
-- [pankass/CVE-2024-45436](https://github.com/pankass/CVE-2024-45436)
 - [XiaomingX/cve-2024-45436-exp](https://github.com/XiaomingX/cve-2024-45436-exp)
 
 ### CVE-2024-45440 (2024-08-29)
@@ -18673,6 +18680,7 @@
 - [ayushx007/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/ayushx007/CVE-2022-0847-DirtyPipe-Exploits)
 - [solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus](https://github.com/solomon12354/LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus)
 - [letsr00t/CVE-2022-0847](https://github.com/letsr00t/CVE-2022-0847)
+- [karanlvm/DirtyPipe-Exploit](https://github.com/karanlvm/DirtyPipe-Exploit)
 - [xsxtw/CVE-2022-0847](https://github.com/xsxtw/CVE-2022-0847)
 - [muhammad1596/CVE-2022-0847-dirty-pipe-checker](https://github.com/muhammad1596/CVE-2022-0847-dirty-pipe-checker)
 - [muhammad1596/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/muhammad1596/CVE-2022-0847-DirtyPipe-Exploits)
