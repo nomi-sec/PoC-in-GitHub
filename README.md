@@ -2588,6 +2588,7 @@
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
+- [optimistickn/CVE-2024-9474](https://github.com/optimistickn/CVE-2024-9474)
 
 ### CVE-2024-9570 (2024-10-07)
 
@@ -20520,7 +20521,6 @@
 - [fork-bombed/CVE-2022-23131](https://github.com/fork-bombed/CVE-2022-23131)
 - [davidzzo23/CVE-2022-23131](https://github.com/davidzzo23/CVE-2022-23131)
 - [dagowda/Zabbix-cve-2022-23131-SSO-bypass](https://github.com/dagowda/Zabbix-cve-2022-23131-SSO-bypass)
-- [worstundersh/CVE-2022-23131](https://github.com/worstundersh/CVE-2022-23131)
 
 ### CVE-2022-23222 (2022-01-14)
 
@@ -45245,6 +45245,13 @@
 
 ### CVE-2017-75
 - [CalebFIN/EXP-CVE-2017-75](https://github.com/CalebFIN/EXP-CVE-2017-75)
+
+### CVE-2017-1182 (2017-07-14)
+
+<code>IBM Tivoli Monitoring Portal v6 could allow a local (network adjacent) attacker to execute arbitrary commands on the system, when default client-server default communications, HTTP, are being used. IBM X-Force ID: 123493.
+</code>
+
+- [Morfeen01/cve-2017-1182-TN](https://github.com/Morfeen01/cve-2017-1182-TN)
 
 ### CVE-2017-1235 (2017-09-25)
 
