@@ -378,13 +378,25 @@
 ### CVE-2025-25612
 - [secmuzz/CVE-2025-25612](https://github.com/secmuzz/CVE-2025-25612)
 
-### CVE-2025-25614
+### CVE-2025-25614 (2025-03-10)
+
+<code>Incorrect Access Control in Unifiedtransform 2.0 leads to Privilege Escalation, which allows teachers to update the personal data of fellow teachers.
+</code>
+
 - [armaansidana2003/CVE-2025-25614](https://github.com/armaansidana2003/CVE-2025-25614)
 
-### CVE-2025-25615
+### CVE-2025-25615 (2025-03-10)
+
+<code>Unifiedtransform 2.0 is vulnerable to Incorrect Access Control which allows viewing attendance list for all class sections.
+</code>
+
 - [armaansidana2003/CVE-2025-25615](https://github.com/armaansidana2003/CVE-2025-25615)
 
-### CVE-2025-25616
+### CVE-2025-25616 (2025-03-10)
+
+<code>Unifiedtransform 2.0 is vulnerable to Incorrect Access Control, which allows students to modify rules for exams. The affected endpoint is /exams/edit-rule?exam_rule_id=1.
+</code>
+
 - [armaansidana2003/CVE-2025-25616](https://github.com/armaansidana2003/CVE-2025-25616)
 
 ### CVE-2025-25617 (2025-03-07)
@@ -397,7 +409,11 @@
 ### CVE-2025-25618
 - [armaansidana2003/CVE-2025-25618](https://github.com/armaansidana2003/CVE-2025-25618)
 
-### CVE-2025-25620
+### CVE-2025-25620 (2025-03-10)
+
+<code>Unifiedtransform 2.0 is vulnerable to Cross Site Scripting (XSS) in the Create assignment function.
+</code>
+
 - [armaansidana2003/CVE-2025-25620](https://github.com/armaansidana2003/CVE-2025-25620)
 
 ### CVE-2025-25621
@@ -514,12 +530,22 @@
 - [OscarBataille/CVE-2025-26794](https://github.com/OscarBataille/CVE-2025-26794)
 - [ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi](https://github.com/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi)
 
+### CVE-2025-27636 (2025-03-09)
+
+<code>Bypass/Injection vulnerability in Apache Camel-Bean component under particular conditions.\n\nThis issue affects Apache Camel: from 4.10.0 through &lt;= 4.10.1, from 4.8.0 through &lt;= 4.8.4, from 3.10.0 through &lt;= 3.22.3.\n\nUsers are recommended to upgrade to version 4.10.2 for 4.10.x LTS, 4.8.5 for 4.8.x LTS and 3.22.4 for 3.x releases.\n\nThis vulnerability is only present in the following situation. The user is using one of the following HTTP Servers via one the of the following Camel components\n\n  *  camel-servlet\n  *  camel-jetty\n  *  camel-undertow\n  *  camel-platform-http\n  *  camel-netty-http\n\n\nand in the route, the exchange will be routed to a camel-bean producer. So ONLY camel-bean component is affected. In particular: \n\n  *  The bean invocation (is only affected if you use any of the above together with camel-bean component).\n\n  *  The bean that can be called, has more than 1 method implemented.\nIn these conditions an attacker could be able to forge a Camel header name and make the bean component invoking other methods in the same bean.\n\nThe vulnerability arises due to a bug in the default filtering mechanism that only blocks headers starting with &quot;Camel&quot;, &quot;camel&quot;, or &quot;org.apache.camel.&quot;. \n\n\nMitigation: You can easily work around this in your Camel applications by removing the headers in your Camel routes. There are many ways of doing this, also globally or per route. This means you could use the removeHeaders EIP, to filter out anything like &quot;cAmel, cAMEL&quot; etc, or in general everything not starting with &quot;Camel&quot;, &quot;camel&quot; or &quot;org.apache.camel.&quot;.
+</code>
+
+- [akamai/CVE-2025-27636-Apache-Camel-PoC](https://github.com/akamai/CVE-2025-27636-Apache-Camel-PoC)
+
 ### CVE-2025-27840 (2025-03-08)
 
 <code>Espressif ESP32 chips allow 29 hidden HCI commands, such as 0xFC02 (Write memory).
 </code>
 
 - [em0gi/CVE-2025-27840](https://github.com/em0gi/CVE-2025-27840)
+
+### CVE-2025-27893
+- [NastyCrow/CVE-2025-27893](https://github.com/NastyCrow/CVE-2025-27893)
 
 
 ## 2024
@@ -8494,6 +8520,7 @@
 - [dragonked2/CVE-2024-50379-POC](https://github.com/dragonked2/CVE-2024-50379-POC)
 - [dkstar11q/CVE-2024-50379-nuclei](https://github.com/dkstar11q/CVE-2024-50379-nuclei)
 - [pwnosec/CVE-2024-50379](https://github.com/pwnosec/CVE-2024-50379)
+- [unkemptpanc/CVE-2024-50379](https://github.com/unkemptpanc/CVE-2024-50379)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -19151,7 +19178,7 @@
 - [ASkyeye/2022-LPE-UAF](https://github.com/ASkyeye/2022-LPE-UAF)
 - [pirenga/2022-LPE-UAF](https://github.com/pirenga/2022-LPE-UAF)
 - [konoha279/2022-LPE-UAF](https://github.com/konoha279/2022-LPE-UAF)
-- [PolymorphicOpcode/CVE-2022-2588](https://github.com/PolymorphicOpcode/CVE-2022-2588)
+- [nopgadget/CVE-2022-2588](https://github.com/nopgadget/CVE-2022-2588)
 - [BassamGraini/CVE-2022-2588](https://github.com/BassamGraini/CVE-2022-2588)
 - [veritas501/CVE-2022-2588](https://github.com/veritas501/CVE-2022-2588)
 - [dom4570/CVE-2022-2588](https://github.com/dom4570/CVE-2022-2588)
@@ -31119,7 +31146,7 @@
 - [greymd/CVE-2021-44228](https://github.com/greymd/CVE-2021-44228)
 - [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
 - [OopsieWoopsie/mc-log4j-patcher](https://github.com/OopsieWoopsie/mc-log4j-patcher)
-- [wheez-y/CVE-2021-44228-kusto](https://github.com/wheez-y/CVE-2021-44228-kusto)
+- [wheezysec/CVE-2021-44228-kusto](https://github.com/wheezysec/CVE-2021-44228-kusto)
 - [izzyacademy/log4shell-mitigation](https://github.com/izzyacademy/log4shell-mitigation)
 - [Kadantte/CVE-2021-44228-poc](https://github.com/Kadantte/CVE-2021-44228-poc)
 - [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
