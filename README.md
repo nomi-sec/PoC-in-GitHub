@@ -144,6 +144,7 @@
 </code>
 
 - [MrAle98/CVE-2025-21333-POC](https://github.com/MrAle98/CVE-2025-21333-POC)
+- [Mukesh-blend/CVE-2025-21333-POC](https://github.com/Mukesh-blend/CVE-2025-21333-POC)
 
 ### CVE-2025-21385 (2025-01-09)
 
@@ -2865,6 +2866,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-10629](https://github.com/RandomRobbieBF/CVE-2024-10629)
+- [Nxploited/CVE-2024-10629](https://github.com/Nxploited/CVE-2024-10629)
 
 ### CVE-2024-10654 (2024-11-01)
 
