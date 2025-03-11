@@ -30,6 +30,7 @@
 - [almanatra/CVE-2025-0282](https://github.com/almanatra/CVE-2025-0282)
 - [AdaniKamal/CVE-2025-0282](https://github.com/AdaniKamal/CVE-2025-0282)
 - [44xo/CVE-2025-0282](https://github.com/44xo/CVE-2025-0282)
+- [punitdarji/Ivanti-CVE-2025-0282](https://github.com/punitdarji/Ivanti-CVE-2025-0282)
 
 ### CVE-2025-03
 - [NeseOSCorp/CVE-2025-03](https://github.com/NeseOSCorp/CVE-2025-03)
@@ -74,7 +75,7 @@
 
 ### CVE-2025-1015 (2025-02-04)
 
-<code>The Thunderbird Address Book URI fields contained unsanitized links. This could be used by an attacker to create and export an address book containing a malicious payload in a field. For example, in the “Other” field of the Instant Messaging section. If another user imported the address book, clicking on the link could result in opening a web page inside Thunderbird, and that page could execute (unprivileged) JavaScript. This vulnerability affects Thunderbird &lt; 128.7.
+<code>The Thunderbird Address Book URI fields contained unsanitized links. This could be used by an attacker to create and export an address book containing a malicious payload in a field. For example, in the “Other” field of the Instant Messaging section. If another user imported the address book, clicking on the link could result in opening a web page inside Thunderbird, and that page could execute (unprivileged) JavaScript. This vulnerability affects Thunderbird &lt; 128.7 and Thunderbird &lt; 135.
 </code>
 
 - [r3m0t3nu11/CVE-2025-1015](https://github.com/r3m0t3nu11/CVE-2025-1015)
@@ -129,6 +130,13 @@
 </code>
 
 - [mbadanoiu/CVE-2025-20029](https://github.com/mbadanoiu/CVE-2025-20029)
+
+### CVE-2025-21293 (2025-01-14)
+
+<code>Active Directory Domain Services Elevation of Privilege Vulnerability
+</code>
+
+- [ahmedumarehman/CVE-2025-21293](https://github.com/ahmedumarehman/CVE-2025-21293)
 
 ### CVE-2025-21298 (2025-01-14)
 
@@ -25800,6 +25808,7 @@
 - [whoami-chmod777/CVE-2021-1675-CVE-2021-34527](https://github.com/whoami-chmod777/CVE-2021-1675-CVE-2021-34527)
 - [whoami-chmod777/CVE-2021-1675---PrintNightmare-LPE-PowerShell-](https://github.com/whoami-chmod777/CVE-2021-1675---PrintNightmare-LPE-PowerShell-)
 - [0xSs0rZ/Windows_Exploit](https://github.com/0xSs0rZ/Windows_Exploit)
+- [Sp4ceDogy/NPE-CS-V-CVE-2021-1675](https://github.com/Sp4ceDogy/NPE-CS-V-CVE-2021-1675)
 
 ### CVE-2021-1678 (2021-01-12)
 
@@ -26142,6 +26151,7 @@
 - [Bad3r/CVE-2021-3156-without-ip-command](https://github.com/Bad3r/CVE-2021-3156-without-ip-command)
 - [Sebastianbedoya25/CVE-2021-3156](https://github.com/Sebastianbedoya25/CVE-2021-3156)
 - [ten-ops/baron-samedit](https://github.com/ten-ops/baron-samedit)
+- [Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-](https://github.com/Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -27495,13 +27505,6 @@
 </code>
 
 - [dldygnl/CVE-2021-24741](https://github.com/dldygnl/CVE-2021-24741)
-
-### CVE-2021-24750 (2021-12-21)
-
-<code>The WP Visitor Statistics (Real Time Traffic) WordPress plugin before 4.8 does not properly sanitise and escape the refUrl in the refDetails AJAX action, available to any authenticated user, which could allow users with a role as low as subscriber to perform SQL injection attacks
-</code>
-
-- [fimtow/CVE-2021-24750](https://github.com/fimtow/CVE-2021-24750)
 
 ### CVE-2021-24807 (2021-11-08)
 
@@ -30126,7 +30129,6 @@
 - [Vulnmachines/Metabase_CVE-2021-41277](https://github.com/Vulnmachines/Metabase_CVE-2021-41277)
 - [TheLastVvV/CVE-2021-41277](https://github.com/TheLastVvV/CVE-2021-41277)
 - [zer0yu/CVE-2021-41277](https://github.com/zer0yu/CVE-2021-41277)
-- [grey-master-a/Metabase_Nmap_Script](https://github.com/grey-master-a/Metabase_Nmap_Script)
 - [chengling-ing/CVE-2021-41277](https://github.com/chengling-ing/CVE-2021-41277)
 - [RubXkuB/PoC-Metabase-CVE-2021-41277](https://github.com/RubXkuB/PoC-Metabase-CVE-2021-41277)
 
@@ -31453,7 +31455,6 @@
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
-- [arnaudluti/PS-CVE-2021-44228](https://github.com/arnaudluti/PS-CVE-2021-44228)
 - [ColdFusionX/CVE-2021-44228-Log4Shell-POC](https://github.com/ColdFusionX/CVE-2021-44228-Log4Shell-POC)
 - [robrankin/cve-2021-44228-waf-tests](https://github.com/robrankin/cve-2021-44228-waf-tests)
 - [0xalwayslucky/log4j-polkit-poc](https://github.com/0xalwayslucky/log4j-polkit-poc)
@@ -31517,6 +31518,7 @@
 - [qw3rtyou/CVE-2021-44228_dockernize](https://github.com/qw3rtyou/CVE-2021-44228_dockernize)
 - [yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-](https://github.com/yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-)
 - [lustrouscave/log4shell-tools](https://github.com/lustrouscave/log4shell-tools)
+- [surprisedmo/log4shell-tools](https://github.com/surprisedmo/log4shell-tools)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -48768,7 +48770,7 @@
 - [fser/ghost-checker](https://github.com/fser/ghost-checker)
 - [mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook)
 - [aaronfay/CVE-2015-0235-test](https://github.com/aaronfay/CVE-2015-0235-test)
-- [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
+- [furyutei/CVE-2015-0235_GHOST](https://github.com/furyutei/CVE-2015-0235_GHOST)
 - [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
 - [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
 - [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
