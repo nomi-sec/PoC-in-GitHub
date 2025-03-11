@@ -2002,7 +2002,7 @@
 - [xaitax/CVE-2024-6387_Check](https://github.com/xaitax/CVE-2024-6387_Check)
 - [bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387)
 - [wiggels/regresshion-check](https://github.com/wiggels/regresshion-check)
-- [3yujw7njai/CVE-2024-6387](https://github.com/3yujw7njai/CVE-2024-6387)
+- [AiK1d/CVE-2024-6387](https://github.com/AiK1d/CVE-2024-6387)
 - [betancour/OpenSSH-Vulnerability-test](https://github.com/betancour/OpenSSH-Vulnerability-test)
 - [muyuanlove/CVE-2024-6387fixshell](https://github.com/muyuanlove/CVE-2024-6387fixshell)
 - [TAM-K592/CVE-2024-6387](https://github.com/TAM-K592/CVE-2024-6387)
@@ -2662,6 +2662,13 @@
 
 - [RandomRobbieBF/CVE-2024-9707](https://github.com/RandomRobbieBF/CVE-2024-9707)
 - [Nxploited/CVE-2024-9707-Poc](https://github.com/Nxploited/CVE-2024-9707-Poc)
+
+### CVE-2024-9756 (2024-10-12)
+
+<code>The Order Attachments for WooCommerce plugin for WordPress is vulnerable to unauthorized limited arbitrary file uploads due to a missing capability check on the wcoa_add_attachment AJAX action in versions 2.0 to 2.4.1. This makes it possible for authenticated attackers, with subscriber-level access and above, to upload limited file types.
+</code>
+
+- [Nxploited/CVE-2024-9756](https://github.com/Nxploited/CVE-2024-9756)
 
 ### CVE-2024-9796 (2024-10-10)
 
@@ -4280,7 +4287,7 @@
 - [xaitax/CVE-2024-23897](https://github.com/xaitax/CVE-2024-23897)
 - [vmtyan/poc-cve-2024-23897](https://github.com/vmtyan/poc-cve-2024-23897)
 - [yoryio/CVE-2024-23897](https://github.com/yoryio/CVE-2024-23897)
-- [3yujw7njai/CVE-2024-23897](https://github.com/3yujw7njai/CVE-2024-23897)
+- [AiK1d/CVE-2024-23897](https://github.com/AiK1d/CVE-2024-23897)
 - [10T4/PoC-Fix-jenkins-rce_CVE-2024-23897](https://github.com/10T4/PoC-Fix-jenkins-rce_CVE-2024-23897)
 - [wjlin0/CVE-2024-23897](https://github.com/wjlin0/CVE-2024-23897)
 - [Vozec/CVE-2024-23897](https://github.com/Vozec/CVE-2024-23897)
@@ -9878,7 +9885,7 @@
 - [Satheesh575555/linux-4.19.72_CVE-2023-0386](https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386)
 - [xkaneiki/CVE-2023-0386](https://github.com/xkaneiki/CVE-2023-0386)
 - [chenaotian/CVE-2023-0386](https://github.com/chenaotian/CVE-2023-0386)
-- [3yujw7njai/CVE-2023-0386](https://github.com/3yujw7njai/CVE-2023-0386)
+- [AiK1d/CVE-2023-0386](https://github.com/AiK1d/CVE-2023-0386)
 - [hshivhare67/kernel_v4.19.72_CVE-2023-0386](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0386)
 - [sxlmnwb/CVE-2023-0386](https://github.com/sxlmnwb/CVE-2023-0386)
 - [Fanxiaoyao66/CVE-2023-0386](https://github.com/Fanxiaoyao66/CVE-2023-0386)
@@ -10031,7 +10038,7 @@
 
 - [gobysec/CVE-2023-1454](https://github.com/gobysec/CVE-2023-1454)
 - [cjybao/CVE-2023-1454](https://github.com/cjybao/CVE-2023-1454)
-- [3yujw7njai/CVE-2023-1454-EXP](https://github.com/3yujw7njai/CVE-2023-1454-EXP)
+- [AiK1d/CVE-2023-1454-EXP](https://github.com/AiK1d/CVE-2023-1454-EXP)
 - [BugFor-Pings/CVE-2023-1454](https://github.com/BugFor-Pings/CVE-2023-1454)
 - [padbergpete47/CVE-2023-1454](https://github.com/padbergpete47/CVE-2023-1454)
 - [Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln](https://github.com/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln)
@@ -11844,7 +11851,7 @@
 - [Xnuvers007/CVE-2023-21716](https://github.com/Xnuvers007/CVE-2023-21716)
 - [gyaansastra/CVE-2023-21716](https://github.com/gyaansastra/CVE-2023-21716)
 - [mikesxrs/CVE-2023-21716_YARA_Results](https://github.com/mikesxrs/CVE-2023-21716_YARA_Results)
-- [3yujw7njai/CVE-2023-21716-POC](https://github.com/3yujw7njai/CVE-2023-21716-POC)
+- [AiK1d/CVE-2023-21716-POC](https://github.com/AiK1d/CVE-2023-21716-POC)
 - [hv0l/CVE-2023-21716_exploit](https://github.com/hv0l/CVE-2023-21716_exploit)
 - [JMousqueton/CVE-2023-21716](https://github.com/JMousqueton/CVE-2023-21716)
 - [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
@@ -11897,7 +11904,7 @@
 - [SamuelTulach/nullmap](https://github.com/SamuelTulach/nullmap)
 - [Malwareman007/CVE-2023-21768](https://github.com/Malwareman007/CVE-2023-21768)
 - [HKxiaoli/Windows_AFD_LPE_CVE-2023-21768](https://github.com/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768)
-- [3yujw7njai/CVE-2023-21768-POC](https://github.com/3yujw7njai/CVE-2023-21768-POC)
+- [AiK1d/CVE-2023-21768-POC](https://github.com/AiK1d/CVE-2023-21768-POC)
 - [h1bAna/CVE-2023-21768](https://github.com/h1bAna/CVE-2023-21768)
 - [zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit](https://github.com/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit)
 - [Rosayxy/Recreate-cve-2023-21768](https://github.com/Rosayxy/Recreate-cve-2023-21768)
@@ -12113,7 +12120,7 @@
 
 - [n3m1sys/CVE-2023-22809-sudoedit-privesc](https://github.com/n3m1sys/CVE-2023-22809-sudoedit-privesc)
 - [M4fiaB0y/CVE-2023-22809](https://github.com/M4fiaB0y/CVE-2023-22809)
-- [3yujw7njai/CVE-2023-22809-sudo-POC](https://github.com/3yujw7njai/CVE-2023-22809-sudo-POC)
+- [AiK1d/CVE-2023-22809-sudo-POC](https://github.com/AiK1d/CVE-2023-22809-sudo-POC)
 - [hello4r1end/patch_CVE-2023-22809](https://github.com/hello4r1end/patch_CVE-2023-22809)
 - [Chan9Yan9/CVE-2023-22809](https://github.com/Chan9Yan9/CVE-2023-22809)
 - [pashayogi/CVE-2023-22809](https://github.com/pashayogi/CVE-2023-22809)
@@ -12246,7 +12253,7 @@
 - [Cyb3rMaddy/CVE-2023-23397-Report](https://github.com/Cyb3rMaddy/CVE-2023-23397-Report)
 - [Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch)
 - [jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397)
-- [3yujw7njai/CVE-2023-23397-POC](https://github.com/3yujw7njai/CVE-2023-23397-POC)
+- [AiK1d/CVE-2023-23397-POC](https://github.com/AiK1d/CVE-2023-23397-POC)
 - [vlad-a-man/CVE-2023-23397](https://github.com/vlad-a-man/CVE-2023-23397)
 - [Muhammad-Ali007/OutlookNTLM_CVE-2023-23397](https://github.com/Muhammad-Ali007/OutlookNTLM_CVE-2023-23397)
 - [Pushkarup/CVE-2023-23397](https://github.com/Pushkarup/CVE-2023-23397)
@@ -12284,7 +12291,7 @@
 
 - [X1r0z/Dubbo-RCE](https://github.com/X1r0z/Dubbo-RCE)
 - [YYHYlh/Apache-Dubbo-CVE-2023-23638-exp](https://github.com/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp)
-- [3yujw7njai/CVE-2023-23638-Tools](https://github.com/3yujw7njai/CVE-2023-23638-Tools)
+- [AiK1d/CVE-2023-23638-Tools](https://github.com/AiK1d/CVE-2023-23638-Tools)
 
 ### CVE-2023-23752 (2023-02-16)
 
@@ -13434,7 +13441,7 @@
 </code>
 
 - [1820112015/CVE-2023-29923](https://github.com/1820112015/CVE-2023-29923)
-- [3yujw7njai/CVE-2023-29923-Scan](https://github.com/3yujw7njai/CVE-2023-29923-Scan)
+- [AiK1d/CVE-2023-29923-Scan](https://github.com/AiK1d/CVE-2023-29923-Scan)
 - [Le1a/CVE-2023-29923](https://github.com/Le1a/CVE-2023-29923)
 
 ### CVE-2023-29929 (2024-08-21)
@@ -14176,7 +14183,7 @@
 - [Le1a/CVE-2023-33246](https://github.com/Le1a/CVE-2023-33246)
 - [SuperZero/CVE-2023-33246](https://github.com/SuperZero/CVE-2023-33246)
 - [Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT](https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT)
-- [3yujw7njai/CVE-2023-33246](https://github.com/3yujw7njai/CVE-2023-33246)
+- [AiK1d/CVE-2023-33246](https://github.com/AiK1d/CVE-2023-33246)
 - [Devil0ll/CVE-2023-33246](https://github.com/Devil0ll/CVE-2023-33246)
 - [d0rb/CVE-2023-33246](https://github.com/d0rb/CVE-2023-33246)
 - [vulncheck-oss/fetch-broker-conf](https://github.com/vulncheck-oss/fetch-broker-conf)
@@ -14383,7 +14390,7 @@
 </code>
 
 - [n3gox/CVE-2023-33829](https://github.com/n3gox/CVE-2023-33829)
-- [3yujw7njai/CVE-2023-33829-POC](https://github.com/3yujw7njai/CVE-2023-33829-POC)
+- [AiK1d/CVE-2023-33829-POC](https://github.com/AiK1d/CVE-2023-33829-POC)
 
 ### CVE-2023-33831 (2023-09-18)
 
@@ -15081,7 +15088,7 @@
 - [zaenhaxor/CVE-2023-36845](https://github.com/zaenhaxor/CVE-2023-36845)
 - [simrotion13/CVE-2023-36845](https://github.com/simrotion13/CVE-2023-36845)
 - [cyberh3als/CVE-2023-36845-POC](https://github.com/cyberh3als/CVE-2023-36845-POC)
-- [3yujw7njai/ansible-cve-2023-36845](https://github.com/3yujw7njai/ansible-cve-2023-36845)
+- [AiK1d/ansible-cve-2023-36845](https://github.com/AiK1d/ansible-cve-2023-36845)
 - [Asbawy/Automation-for-Juniper-cve-2023-36845](https://github.com/Asbawy/Automation-for-Juniper-cve-2023-36845)
 - [jahithoque/Juniper-CVE-2023-36845-Mass-Hunting](https://github.com/jahithoque/Juniper-CVE-2023-36845-Mass-Hunting)
 - [cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845](https://github.com/cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845)
@@ -15244,6 +15251,13 @@
 </code>
 
 - [benjaminpsinclair/Netbox-CVE-2023-37625](https://github.com/benjaminpsinclair/Netbox-CVE-2023-37625)
+
+### CVE-2023-37635 (2023-10-23)
+
+<code>UVDesk Community Skeleton v1.1.1 allows unauthenticated attackers to perform brute force attacks on the login page to gain access to the application.
+</code>
+
+- [oussama-binike/cve-2023-37635](https://github.com/oussama-binike/cve-2023-37635)
 
 ### CVE-2023-37739 (2023-09-14)
 
@@ -24316,7 +24330,7 @@
 - [scrt/cve-2022-42475](https://github.com/scrt/cve-2022-42475)
 - [Amir-hy/cve-2022-42475](https://github.com/Amir-hy/cve-2022-42475)
 - [Mustafa1986/cve-2022-42475-Fortinet](https://github.com/Mustafa1986/cve-2022-42475-Fortinet)
-- [3yujw7njai/CVE-2022-42475-RCE-POC](https://github.com/3yujw7njai/CVE-2022-42475-RCE-POC)
+- [AiK1d/CVE-2022-42475-RCE-POC](https://github.com/AiK1d/CVE-2022-42475-RCE-POC)
 - [natceil/cve-2022-42475](https://github.com/natceil/cve-2022-42475)
 - [0xhaggis/CVE-2022-42475](https://github.com/0xhaggis/CVE-2022-42475)
 
@@ -38036,6 +38050,7 @@
 - [raymontag/CVE-2019-2215](https://github.com/raymontag/CVE-2019-2215)
 - [XiaozaYa/CVE-2019-2215](https://github.com/XiaozaYa/CVE-2019-2215)
 - [llccd/TempRoot-Huawei](https://github.com/llccd/TempRoot-Huawei)
+- [0xbinder/android-kernel-exploitation-cve-2019-2215](https://github.com/0xbinder/android-kernel-exploitation-cve-2019-2215)
 
 ### CVE-2019-2525 (2019-01-16)
 
