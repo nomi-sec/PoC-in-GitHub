@@ -552,7 +552,11 @@
 
 - [em0gi/CVE-2025-27840](https://github.com/em0gi/CVE-2025-27840)
 
-### CVE-2025-27893
+### CVE-2025-27893 (2025-03-11)
+
+<code>In Archer Platform 6 through 6.14.00202.10024, an authenticated user with record creation privileges can manipulate immutable fields, such as the creation date, by intercepting and modifying a Copy request via a GenericContent/Record.aspx?id= URI. This enables unauthorized modification of system-generated metadata, compromising data integrity and potentially impacting auditing, compliance, and security controls.
+</code>
+
 - [NastyCrow/CVE-2025-27893](https://github.com/NastyCrow/CVE-2025-27893)
 
 
@@ -1949,6 +1953,13 @@
 </code>
 
 - [Abdurahmon3236/-CVE-2024-6095](https://github.com/Abdurahmon3236/-CVE-2024-6095)
+
+### CVE-2024-6132 (2024-06-19)
+
+<code>The Pexels: Free Stock Photos plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'pexels_fsp_images_options_validate' function in all versions up to, and including, 1.2.2. This makes it possible for authenticated attackers, with contributor-level and above permissions, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [Nxploited/CVE-2024-6132](https://github.com/Nxploited/CVE-2024-6132)
 
 ### CVE-2024-6205 (2024-07-19)
 
@@ -26924,7 +26935,6 @@
 </code>
 
 - [CsEnox/CVE-2021-21425](https://github.com/CsEnox/CVE-2021-21425)
-- [grey-master-a/GravCMS_Nmap_Script](https://github.com/grey-master-a/GravCMS_Nmap_Script)
 - [bluetoothStrawberry/cve-2021-21425](https://github.com/bluetoothStrawberry/cve-2021-21425)
 
 ### CVE-2021-21514 (2021-03-02)
@@ -30381,6 +30391,7 @@
 - [FakesiteSecurity/CVE-2021-41773](https://github.com/FakesiteSecurity/CVE-2021-41773)
 - [Taldrid1/cve-2021-41773](https://github.com/Taldrid1/cve-2021-41773)
 - [tiemio/SSH-key-and-RCE-PoC-for-CVE-2021-41773](https://github.com/tiemio/SSH-key-and-RCE-PoC-for-CVE-2021-41773)
+- [Vanshuk-Bhagat/Apache-HTTP-Server-Vulnerabilities-CVE-2021-41773-and-CVE-2021-42013](https://github.com/Vanshuk-Bhagat/Apache-HTTP-Server-Vulnerabilities-CVE-2021-41773-and-CVE-2021-42013)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -47045,7 +47056,7 @@
 - [xxnbyy/CVE-2017-15944-POC](https://github.com/xxnbyy/CVE-2017-15944-POC)
 - [surajraghuvanshi/PaloAltoRceDetectionAndExploit](https://github.com/surajraghuvanshi/PaloAltoRceDetectionAndExploit)
 - [yukar1z0e/CVE-2017-15944](https://github.com/yukar1z0e/CVE-2017-15944)
-- [3yujw7njai/PaloAlto_EXP](https://github.com/3yujw7njai/PaloAlto_EXP)
+- [AiK1d/PaloAlto_EXP](https://github.com/AiK1d/PaloAlto_EXP)
 
 ### CVE-2017-15950 (2017-10-31)
 
