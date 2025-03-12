@@ -485,6 +485,9 @@
 
 - [xibhi/CVE-2025-26206](https://github.com/xibhi/CVE-2025-26206)
 
+### CVE-2025-26240
+- [Habuon/CVE-2025-26240](https://github.com/Habuon/CVE-2025-26240)
+
 ### CVE-2025-26263 (2025-02-28)
 
 <code>GeoVision ASManager Windows desktop application with the version 6.1.2.0 or less, is vulnerable to credentials disclosure due to improper memory handling in the ASManagerService.exe process.
@@ -5656,6 +5659,13 @@
 
 - [Alchemist3dot14/CVE-2024-30270-PoC](https://github.com/Alchemist3dot14/CVE-2024-30270-PoC)
 
+### CVE-2024-30485 (2024-06-09)
+
+<code>Missing Authorization vulnerability in XLPlugins Finale Lite.This issue affects Finale Lite: from n/a through 2.18.0.
+</code>
+
+- [Nxploited/CVE-2024-30485](https://github.com/Nxploited/CVE-2024-30485)
+
 ### CVE-2024-30491 (2024-03-29)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid.This issue affects ProfileGrid : from n/a through 5.7.8.\n\n
@@ -9419,6 +9429,9 @@
 ### CVE-2024-55040
 - [tcbutler320/CVE-2024-55040-Sensaphone-XSS](https://github.com/tcbutler320/CVE-2024-55040-Sensaphone-XSS)
 
+### CVE-2024-55060
+- [bigzooooz/CVE-2024-55060](https://github.com/bigzooooz/CVE-2024-55060)
+
 ### CVE-2024-55099 (2024-12-12)
 
 <code>A SQL Injection vulnerability was found in /admin/index.php in phpgurukul Online Nurse Hiring System v1.0, which allows remote attackers to execute arbitrary SQL commands to get unauthorized database access via the username parameter.
@@ -11518,7 +11531,7 @@
 
 ### CVE-2023-20025 (2023-01-19)
 
-<code>A vulnerability in the web-based management interface of Cisco Small Business RV042 Series Routers could allow an unauthenticated, remote attacker to bypass authentication on the affected device.\r\n\r This vulnerability is due to incorrect user input validation of incoming HTTP packets. An attacker could exploit this vulnerability by sending crafted requests to the web-based management interface. A successful exploit could allow the attacker to gain root privileges on the affected device.\r\n
+<code>A vulnerability in the web-based management interface of Cisco Small Business RV016, RV042, RV042G, and RV082 Routers could allow an unauthenticated, remote attacker to bypass authentication on an affected device.\r\n\r This vulnerability is due to improper validation of user input within incoming HTTP packets. An attacker could exploit this vulnerability by sending a crafted HTTP request to the web-based management interface. A successful exploit could allow the attacker to bypass authentication and gain root access on the underlying operating system.
 </code>
 
 - [lnversed/CVE-2023-20025](https://github.com/lnversed/CVE-2023-20025)
