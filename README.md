@@ -124,6 +124,13 @@
 
 - [shybu9/poc_CVE-2025-1716](https://github.com/shybu9/poc_CVE-2025-1716)
 
+### CVE-2025-2233 (2025-03-11)
+
+<code>Samsung SmartThings Improper Verification of Cryptographic Signature Authentication Bypass Vulnerability. This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Samsung SmartThings. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the Hub Local API service, which listens on TCP port 8766 by default. The issue results from the lack of proper verification of a cryptographic signature. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-25615.
+</code>
+
+- [McTavishSue/CVE-2025-2233](https://github.com/McTavishSue/CVE-2025-2233)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -194,13 +201,6 @@
 ### CVE-2025-22652
 - [DoTTak/CVE-2025-22652](https://github.com/DoTTak/CVE-2025-22652)
 
-### CVE-2025-22654 (2025-02-18)
-
-<code>Unrestricted Upload of File with Dangerous Type vulnerability in kodeshpa Simplified allows Using Malicious Files. This issue affects Simplified: from n/a through 1.0.6.
-</code>
-
-- [McTavishSue/CVE-2025-22654](https://github.com/McTavishSue/CVE-2025-22654)
-
 ### CVE-2025-22710 (2025-01-21)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in StoreApps Smart Manager allows Blind SQL Injection. This issue affects Smart Manager: from n/a through 8.52.0.
@@ -269,13 +269,6 @@
 - [huseyinstif/CVE-2025-24016-Nuclei-Template](https://github.com/huseyinstif/CVE-2025-24016-Nuclei-Template)
 - [0xjessie21/CVE-2025-24016](https://github.com/0xjessie21/CVE-2025-24016)
 - [MuhammadWaseem29/CVE-2025-24016](https://github.com/MuhammadWaseem29/CVE-2025-24016)
-
-### CVE-2025-24085 (2025-01-27)
-
-<code>A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
-</code>
-
-- [bronsoneaver/CVE-2025-24085](https://github.com/bronsoneaver/CVE-2025-24085)
 
 ### CVE-2025-24104 (2025-01-27)
 
@@ -553,7 +546,7 @@
 
 ### CVE-2025-27636 (2025-03-09)
 
-<code>Bypass/Injection vulnerability in Apache Camel-Bean component under particular conditions.\n\nThis issue affects Apache Camel: from 4.10.0 through &lt;= 4.10.1, from 4.8.0 through &lt;= 4.8.4, from 3.10.0 through &lt;= 3.22.3.\n\nUsers are recommended to upgrade to version 4.10.2 for 4.10.x LTS, 4.8.5 for 4.8.x LTS and 3.22.4 for 3.x releases.\n\nThis vulnerability is only present in the following situation. The user is using one of the following HTTP Servers via one the of the following Camel components\n\n  *  camel-servlet\n  *  camel-jetty\n  *  camel-undertow\n  *  camel-platform-http\n  *  camel-netty-http\n\n\nand in the route, the exchange will be routed to a camel-bean producer. So ONLY camel-bean component is affected. In particular: \n\n  *  The bean invocation (is only affected if you use any of the above together with camel-bean component).\n\n  *  The bean that can be called, has more than 1 method implemented.\nIn these conditions an attacker could be able to forge a Camel header name and make the bean component invoking other methods in the same bean.\n\nThe vulnerability arises due to a bug in the default filtering mechanism that only blocks headers starting with &quot;Camel&quot;, &quot;camel&quot;, or &quot;org.apache.camel.&quot;. \n\n\nMitigation: You can easily work around this in your Camel applications by removing the headers in your Camel routes. There are many ways of doing this, also globally or per route. This means you could use the removeHeaders EIP, to filter out anything like &quot;cAmel, cAMEL&quot; etc, or in general everything not starting with &quot;Camel&quot;, &quot;camel&quot; or &quot;org.apache.camel.&quot;.
+<code>Bypass/Injection vulnerability in Apache Camel components under particular conditions.\n\nThis issue affects Apache Camel: from 4.10.0 through &lt;= 4.10.1, from 4.8.0 through &lt;= 4.8.4, from 3.10.0 through &lt;= 3.22.3.\n\nUsers are recommended to upgrade to version 4.10.2 for 4.10.x LTS, 4.8.5 for 4.8.x LTS and 3.22.4 for 3.x releases.\n\n\n\nThis vulnerability is present in Camel's default incoming header filter, that allows an attacker to include Camel specific\n\nheaders that for some Camel components can alter the behaviours such as the camel-bean component, to call another method\n\non the bean, than was coded in the application. In the camel-jms component, then a mallicous header can be used to send\n\nthe message to another queue (on the same broker) than was coded in the application.\n\n\n\n\nThe attacker would need to inject custom headers, such as HTTP protocols. So if you have Camel applications that are\n\ndirectly connected to the internet via HTTP, then an attacker could include malicious HTTP headers in the HTTP requests\n\nthat are send to the Camel application.\n\n\n\n\nAll the known Camel HTTP component such as camel-servlet, camel-jetty, camel-undertow, camel-platform-http, and camel-netty-http would be vulnerable out of the box.\n\nIn these conditions an attacker could be able to forge a Camel header name and make the bean component invoking other methods in the same bean.\n\nIn terms of usage of the default header filter strategy the list of components using that is: \n\n\n  *  camel-activemq\n  *  camel-activemq6\n  *  camel-amqp\n  *  camel-aws2-sqs\n  *  camel-azure-servicebus\n  *  camel-cxf-rest\n  *  camel-cxf-soap\n  *  camel-http\n  *  camel-jetty\n  *  camel-jms\n  *  camel-kafka\n  *  camel-knative\n  *  camel-mail\n  *  camel-nats\n  *  camel-netty-http\n  *  camel-platform-http\n  *  camel-rest\n  *  camel-sjms\n  *  camel-spring-rabbitmq\n  *  camel-stomp\n  *  camel-tahu\n  *  camel-undertow\n  *  camel-xmpp\n\n\n\n\n\n\nThe vulnerability arises due to a bug in the default filtering mechanism that only blocks headers starting with &quot;Camel&quot;, &quot;camel&quot;, or &quot;org.apache.camel.&quot;. \n\n\nMitigation: You can easily work around this in your Camel applications by removing the headers in your Camel routes. There are many ways of doing this, also globally or per route. This means you could use the removeHeaders EIP, to filter out anything like &quot;cAmel, cAMEL&quot; etc, or in general everything not starting with &quot;Camel&quot;, &quot;camel&quot; or &quot;org.apache.camel.&quot;.
 </code>
 
 - [akamai/CVE-2025-27636-Apache-Camel-PoC](https://github.com/akamai/CVE-2025-27636-Apache-Camel-PoC)
@@ -1365,7 +1358,6 @@
 - [mrrobot0o/CVE-2024-3273-](https://github.com/mrrobot0o/CVE-2024-3273-)
 - [OIivr/Turvan6rkus-CVE-2024-3273](https://github.com/OIivr/Turvan6rkus-CVE-2024-3273)
 - [X-Projetion/CVE-2024-3273-D-Link-Remote-Code-Execution-RCE](https://github.com/X-Projetion/CVE-2024-3273-D-Link-Remote-Code-Execution-RCE)
-- [GSTEINF/CVE-2024-3273](https://github.com/GSTEINF/CVE-2024-3273)
 
 ### CVE-2024-3293 (2024-04-23)
 
@@ -2962,6 +2954,13 @@
 
 - [c0nyy/IoT_vuln](https://github.com/c0nyy/IoT_vuln)
 
+### CVE-2024-10673 (2024-11-09)
+
+<code>The Top Store theme for WordPress is vulnerable to unauthorized arbitrary plugin installation due to a missing capability check on the top_store_install_and_activate_callback() function in all versions up to, and including, 1.5.4. This makes it possible for authenticated attackers, with subscriber-level access and above, to install arbitrary plugins which can contain other exploitable vulnerabilities to elevate privileges and gain remote code execution.
+</code>
+
+- [Nxploited/CVE-2024-10673](https://github.com/Nxploited/CVE-2024-10673)
+
 ### CVE-2024-10728 (2024-11-16)
 
 <code>The Post Grid Gutenberg Blocks and WordPress Blog Plugin – PostX plugin for WordPress is vulnerable to unauthorized plugin installation/activation due to a missing capability check on the 'install_required_plugin_callback' function in all versions up to, and including, 4.1.16. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install and activate arbitrary plugins which can be leveraged to achieve remote code execution if another vulnerable plugin is installed and activated.
@@ -3675,7 +3674,6 @@
 - [Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape](https://github.com/Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape)
 - [ThemeHackers/CVE-2024-21413](https://github.com/ThemeHackers/CVE-2024-21413)
 - [D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB](https://github.com/D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB)
-- [Cyber-Trambon/CVE-2024-21413-exploit](https://github.com/Cyber-Trambon/CVE-2024-21413-exploit)
 
 ### CVE-2024-21513 (2024-07-15)
 
@@ -13636,6 +13634,7 @@
 
 - [gy741/CVE-2023-30258-setup](https://github.com/gy741/CVE-2023-30258-setup)
 - [sk00l/CVE-2023-30258](https://github.com/sk00l/CVE-2023-30258)
+- [tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit](https://github.com/tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit)
 
 ### CVE-2023-30347 (2023-06-22)
 
@@ -27377,7 +27376,6 @@
 - [ChrisPritchard/CVE-2021-22911-rust](https://github.com/ChrisPritchard/CVE-2021-22911-rust)
 - [MrDottt/CVE-2021-22911](https://github.com/MrDottt/CVE-2021-22911)
 - [overgrowncarrot1/CVE-2021-22911](https://github.com/overgrowncarrot1/CVE-2021-22911)
-- [Weisant/CVE-2021-22911-EXP](https://github.com/Weisant/CVE-2021-22911-EXP)
 - [yoohhuu/Rocket-Chat-3.12.1-PoC-CVE-2021-22911-](https://github.com/yoohhuu/Rocket-Chat-3.12.1-PoC-CVE-2021-22911-)
 
 ### CVE-2021-22924 (2021-08-05)
@@ -27730,6 +27728,7 @@
 - [givemefivw/CVE-2021-25646](https://github.com/givemefivw/CVE-2021-25646)
 - [j2ekim/CVE-2021-25646](https://github.com/j2ekim/CVE-2021-25646)
 - [luobai8/CVE-2021-25646-exp](https://github.com/luobai8/CVE-2021-25646-exp)
+- [gps1949/CVE-2021-25646](https://github.com/gps1949/CVE-2021-25646)
 
 ### CVE-2021-25679 (2021-04-20)
 
@@ -31072,7 +31071,6 @@
 - [gixxyboy/CVE-2021-43798](https://github.com/gixxyboy/CVE-2021-43798)
 - [Ryze-T/CVE-2021-43798](https://github.com/Ryze-T/CVE-2021-43798)
 - [k3rwin/CVE-2021-43798-Grafana](https://github.com/k3rwin/CVE-2021-43798-Grafana)
-- [gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798)
 - [halencarjunior/grafana-CVE-2021-43798](https://github.com/halencarjunior/grafana-CVE-2021-43798)
 - [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
@@ -31590,7 +31588,7 @@
 - [ocastel/log4j-shell-poc](https://github.com/ocastel/log4j-shell-poc)
 - [bcdunbar/CVE-2021-44228-poc](https://github.com/bcdunbar/CVE-2021-44228-poc)
 - [srcporter/CVE-2021-44228](https://github.com/srcporter/CVE-2021-44228)
-- [Nexolanta/log4j2_CVE-2021-44228](https://github.com/Nexolanta/log4j2_CVE-2021-44228)
+- [Rainyseason-c/log4j2_CVE-2021-44228](https://github.com/Rainyseason-c/log4j2_CVE-2021-44228)
 - [demining/Log4j-Vulnerability](https://github.com/demining/Log4j-Vulnerability)
 - [pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC](https://github.com/pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC)
 - [Sumitpathania03/LOG4J-CVE-2021-44228](https://github.com/Sumitpathania03/LOG4J-CVE-2021-44228)
@@ -46890,7 +46888,6 @@
 
 - [assalielmehdi/CVE-2017-12635](https://github.com/assalielmehdi/CVE-2017-12635)
 - [cyberharsh/Apache-couchdb-CVE-2017-12635](https://github.com/cyberharsh/Apache-couchdb-CVE-2017-12635)
-- [Weisant/CVE-2017-12635-POC](https://github.com/Weisant/CVE-2017-12635-POC)
 
 ### CVE-2017-12636 (2017-11-14)
 
