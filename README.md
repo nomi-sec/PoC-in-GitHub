@@ -572,6 +572,13 @@
 
 - [NastyCrow/CVE-2025-27893](https://github.com/NastyCrow/CVE-2025-27893)
 
+### CVE-2025-28915 (2025-03-11)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Theme Egg ThemeEgg ToolKit allows Upload a Web Shell to a Web Server. This issue affects ThemeEgg ToolKit: from n/a through 1.2.9.
+</code>
+
+- [Nxploited/CVE-2025-28915](https://github.com/Nxploited/CVE-2025-28915)
+
 
 ## 2024
 ### CVE-2024-0012 (2024-11-18)
@@ -741,6 +748,13 @@
 </code>
 
 - [xbz0n/CVE-2024-0399](https://github.com/xbz0n/CVE-2024-0399)
+
+### CVE-2024-0406 (2024-04-06)
+
+<code>A flaw was discovered in the mholt/archiver package. This flaw allows an attacker to create a specially crafted tar file, which, when unpacked, may allow access to restricted files or directories. This issue can allow the creation or overwriting of files with the user's or application's privileges using the library.
+</code>
+
+- [walidpyh/CVE-2024-0406-POC](https://github.com/walidpyh/CVE-2024-0406-POC)
 
 ### CVE-2024-0507 (2024-01-16)
 
@@ -22036,6 +22050,13 @@
 
 - [sudoninja-noob/CVE-2022-29009](https://github.com/sudoninja-noob/CVE-2022-29009)
 
+### CVE-2022-29056 (2023-03-09)
+
+<code>A improper restriction of excessive authentication attempts vulnerability [CWE-307] in Fortinet FortiMail version 6.4.0, version 6.2.0 through 6.2.4 and before 6.0.9 allows  a remote unauthenticated attacker to partially exhaust CPU and memory via sending numerous HTTP requests to the login form.
+</code>
+
+- [cnetsec/CVE-2022-29056](https://github.com/cnetsec/CVE-2022-29056)
+
 ### CVE-2022-29063 (2022-09-02)
 
 <code>The Solr plugin of Apache OFBiz is configured by default to automatically make a RMI request on localhost, port 1099. In version 18.12.05 and earlier, by hosting a malicious RMI server on localhost, an attacker may exploit this behavior, at server start-up or on a server restart, in order to run arbitrary code. Upgrade to at least 18.12.06 or apply patches at https://issues.apache.org/jira/browse/OFBIZ-12646.
@@ -27729,7 +27750,6 @@
 <code>A security issue was discovered in Kubernetes where a user may be able to create a container with subpath volume mounts to access files &amp; directories outside of the volume, including on the host filesystem.
 </code>
 
-- [Betep0k/CVE-2021-25741](https://github.com/Betep0k/CVE-2021-25741)
 - [cdxiaodong/CVE-2021-25741](https://github.com/cdxiaodong/CVE-2021-25741)
 
 ### CVE-2021-25790 (2021-07-23)
@@ -31604,6 +31624,7 @@
 - [yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-](https://github.com/yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-)
 - [lustrouscave/log4shell-tools](https://github.com/lustrouscave/log4shell-tools)
 - [surprisedmo/log4shell-tools](https://github.com/surprisedmo/log4shell-tools)
+- [chihyeonwon/Log4shell](https://github.com/chihyeonwon/Log4shell)
 
 ### CVE-2021-44255 (2022-01-31)
 
