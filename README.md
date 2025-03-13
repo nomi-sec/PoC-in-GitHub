@@ -378,7 +378,7 @@
 - [RoNiXxCybSeC0101/CVE-2025-25461](https://github.com/RoNiXxCybSeC0101/CVE-2025-25461)
 
 ### CVE-2025-25500
-- [nca785/CVE-2025-25500](https://github.com/nca785/CVE-2025-25500)
+- [H3T76/CVE-2025-25500](https://github.com/H3T76/CVE-2025-25500)
 
 ### CVE-2025-25612
 - [secmuzz/CVE-2025-25612](https://github.com/secmuzz/CVE-2025-25612)
@@ -9360,6 +9360,13 @@
 
 - [hotplugin0x01/CVE-2024-54679](https://github.com/hotplugin0x01/CVE-2024-54679)
 
+### CVE-2024-54756 (2025-02-20)
+
+<code>A remote code execution (RCE) vulnerability in the ZScript function of ZDoom Team GZDoom v4.13.1 allows attackers to execute arbitrary code via supplying a crafted PK3 file containing a malicious ZScript source file.
+</code>
+
+- [Chainmanner/GZDoom-Arbitrary-Code-Execution-via-ZScript-PoC](https://github.com/Chainmanner/GZDoom-Arbitrary-Code-Execution-via-ZScript-PoC)
+
 ### CVE-2024-54761 (2025-01-09)
 
 <code>BigAnt Office Messenger 5.6.06 is vulnerable to SQL Injection via the 'dev_code' parameter.
@@ -9843,14 +9850,14 @@
 <code>An issue in Kanaries Inc Pygwalker before v.0.4.9.9 allows a remote attacker to obtain sensitive information and execute arbitrary code via the redirect_path parameter of the login redirection function.
 </code>
 
-- [nca785/CVE-2024-57609](https://github.com/nca785/CVE-2024-57609)
+- [H3T76/CVE-2024-57609](https://github.com/H3T76/CVE-2024-57609)
 
 ### CVE-2024-57610 (2025-02-06)
 
 <code>A rate limiting issue in Sylius v2.0.2 allows a remote attacker to perform unrestricted brute-force attacks on user accounts, significantly increasing the risk of account compromise and denial of service for legitimate users. The Supplier's position is that the Sylius core software is not intended to address brute-force attacks; instead, customers deploying a Sylius-based system are supposed to use &quot;firewalls, rate-limiting middleware, or authentication providers&quot; for that functionality.
 </code>
 
-- [nca785/CVE-2024-57610](https://github.com/nca785/CVE-2024-57610)
+- [H3T76/CVE-2024-57610](https://github.com/H3T76/CVE-2024-57610)
 
 ### CVE-2024-57725 (2025-02-14)
 
