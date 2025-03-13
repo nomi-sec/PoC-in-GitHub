@@ -117,6 +117,13 @@
 
 - [Rimasue/CVE-2025-1316](https://github.com/Rimasue/CVE-2025-1316)
 
+### CVE-2025-1639 (2025-03-04)
+
+<code>The Animation Addons for Elementor Pro plugin for WordPress is vulnerable to unauthorized arbitrary plugin installation due to a missing capability check on the install_elementor_plugin_handler() function in all versions up to, and including, 1.6. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install and activate arbitrary plugins which can be leveraged to further infect a victim when Elementor is not activated on a vulnerable site.
+</code>
+
+- [Nxploited/CVE-2025-1639](https://github.com/Nxploited/CVE-2025-1639)
+
 ### CVE-2025-1716 (2025-02-26)
 
 <code>picklescan before 0.0.21 does not treat 'pip' as an unsafe global. An attacker could craft a malicious model that uses Pickle to pull in a malicious PyPI package (hosted, for example, on pypi.org or GitHub) via `pip.main()`. Because pip is not a restricted global, the model, when scanned with picklescan, would pass security checks and appear to be safe, when it could instead prove to be problematic.
@@ -310,6 +317,13 @@
 - [Sachinart/essential-addons-for-elementor-xss-poc](https://github.com/Sachinart/essential-addons-for-elementor-xss-poc)
 - [bartfroklage/CVE-2025-24752-POC](https://github.com/bartfroklage/CVE-2025-24752-POC)
 
+### CVE-2025-24813 (2025-03-10)
+
+<code>Path Equivalence: 'file.Name' (Internal Dot) leading to Remote Code Execution and/or Information disclosure and/or malicious content added to uploaded files via write enabled Default Servlet in Apache Tomcat.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.2, from 10.1.0-M1 through 10.1.34, from 9.0.0.M1 through 9.0.98.\n\nIf all of the following were true, a malicious user was able to view       security sensitive files and/or inject content into those files:\n- writes enabled for the default servlet (disabled by default)\n- support for partial PUT (enabled by default)\n- a target URL for security sensitive uploads that was a sub-directory of a target URL for public uploads\n- attacker knowledge of the names of security sensitive files being uploaded\n- the security sensitive files also being uploaded via partial PUT\n\nIf all of the following were true, a malicious user was able to       perform remote code execution:\n- writes enabled for the default servlet (disabled by default)\n- support for partial PUT (enabled by default)\n- application was using Tomcat's file based session persistence with the default storage location\n- application included a library that may be leveraged in a deserialization attack\n\nUsers are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.98, which fixes the issue.
+</code>
+
+- [iSee857/CVE-2025-24813-PoC](https://github.com/iSee857/CVE-2025-24813-PoC)
+
 ### CVE-2025-24893 (2025-02-20)
 
 <code>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution through a request to `SolrSearch`. This impacts the confidentiality, integrity and availability of the whole XWiki installation. To reproduce on an instance, without being logged in, go to `&lt;host&gt;/xwiki/bin/get/Main/SolrSearch?media=rss&amp;text=%7D%7D%7D%7B%7Basync%20async%3Dfalse%7D%7D%7B%7Bgroovy%7D%7Dprintln%28&quot;Hello%20from&quot;%20%2B%20&quot;%20search%20text%3A&quot;%20%2B%20%2823%20%2B%2019%29%29%7B%7B%2Fgroovy%7D%7D%7B%7B%2Fasync%7D%7D%20`. If there is an output, and the title of the RSS feed contains `Hello from search text:42`, then the instance is vulnerable. This vulnerability has been patched in XWiki 15.10.11, 16.4.1 and 16.5.0RC1. Users are advised to upgrade. Users unable to upgrade may edit `Main.SolrSearchMacros` in `SolrSearchMacros.xml` on line 955 to match the `rawResponse` macro in `macros.vm#L2824` with a content type of `application/xml`, instead of simply outputting the content of the feed.
@@ -379,6 +393,9 @@
 
 ### CVE-2025-25500
 - [H3T76/CVE-2025-25500](https://github.com/H3T76/CVE-2025-25500)
+
+### CVE-2025-25599
+- [Certitude-Consulting/CVE-2025-25599](https://github.com/Certitude-Consulting/CVE-2025-25599)
 
 ### CVE-2025-25612
 - [secmuzz/CVE-2025-25612](https://github.com/secmuzz/CVE-2025-25612)
@@ -518,6 +535,7 @@
 </code>
 
 - [dorattias/CVE-2025-26319](https://github.com/dorattias/CVE-2025-26319)
+- [YuoLuo/CVE-2025-26319](https://github.com/YuoLuo/CVE-2025-26319)
 
 ### CVE-2025-26326 (2025-02-28)
 
@@ -4724,6 +4742,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
+- [Nxploited/CVE-2024-25092](https://github.com/Nxploited/CVE-2024-25092)
 
 ### CVE-2024-25153 (2024-03-13)
 
@@ -5901,8 +5920,6 @@
 - [YukaFake/CVE-2024-32002-Reverse-Shell](https://github.com/YukaFake/CVE-2024-32002-Reverse-Shell)
 - [1mxml/CVE-2024-32002-poc](https://github.com/1mxml/CVE-2024-32002-poc)
 - [bfengj/CVE-2024-32002-hook](https://github.com/bfengj/CVE-2024-32002-hook)
-- [ycdxsb/CVE-2024-32002-hulk](https://github.com/ycdxsb/CVE-2024-32002-hulk)
-- [ycdxsb/CVE-2024-32002-submod](https://github.com/ycdxsb/CVE-2024-32002-submod)
 - [bfengj/CVE-2024-32002-Exploit](https://github.com/bfengj/CVE-2024-32002-Exploit)
 - [vincepsh/CVE-2024-32002](https://github.com/vincepsh/CVE-2024-32002)
 - [vincepsh/CVE-2024-32002-hook](https://github.com/vincepsh/CVE-2024-32002-hook)
@@ -6816,13 +6833,6 @@
 
 - [uname-s/CVE-2024-37889](https://github.com/uname-s/CVE-2024-37889)
 
-### CVE-2024-38014 (2024-09-10)
-
-<code>Windows Installer Elevation of Privilege Vulnerability
-</code>
-
-- [Anurag-Chevendra/CVE-2024-38014](https://github.com/Anurag-Chevendra/CVE-2024-38014)
-
 ### CVE-2024-38036 (2024-10-04)
 
 <code>There is a reflected XSS vulnerability in Esri Portal for ArcGIS versions 10.9.1, 10.8.1 and 10.7.1 which may allow a remote, unauthenticated attacker to create a crafted link which when clicked could potentially execute arbitrary JavaScript code in the victim’s browser.
@@ -6898,6 +6908,13 @@
 </code>
 
 - [pwndorei/CVE-2024-38080](https://github.com/pwndorei/CVE-2024-38080)
+
+### CVE-2024-38112 (2024-07-09)
+
+<code>Windows MSHTML Platform Spoofing Vulnerability
+</code>
+
+- [Anurag-Chevendra/CVE-2024-38112](https://github.com/Anurag-Chevendra/CVE-2024-38112)
 
 ### CVE-2024-38124 (2024-10-08)
 
