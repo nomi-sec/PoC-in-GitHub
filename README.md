@@ -377,6 +377,9 @@
 
 - [RoNiXxCybSeC0101/CVE-2025-25461](https://github.com/RoNiXxCybSeC0101/CVE-2025-25461)
 
+### CVE-2025-25500
+- [nca785/CVE-2025-25500](https://github.com/nca785/CVE-2025-25500)
+
 ### CVE-2025-25612
 - [secmuzz/CVE-2025-25612](https://github.com/secmuzz/CVE-2025-25612)
 
@@ -856,6 +859,13 @@
 </code>
 
 - [hunThubSpace/CVE-2024-0757-Exploit](https://github.com/hunThubSpace/CVE-2024-0757-Exploit)
+
+### CVE-2024-0760 (2024-07-23)
+
+<code>A malicious client can send many DNS messages over TCP, potentially causing the server to become unstable while the attack is in progress. The server may recover after the attack ceases. Use of ACLs will not mitigate the attack. \nThis issue affects BIND 9 versions 9.18.1 through 9.18.27, 9.19.0 through 9.19.24, and 9.18.11-S1 through 9.18.27-S1.
+</code>
+
+- [SpiralBL0CK/CVE-2024-0760](https://github.com/SpiralBL0CK/CVE-2024-0760)
 
 ### CVE-2024-0762 (2024-05-14)
 
@@ -2964,6 +2974,13 @@
 
 - [Nxploited/CVE-2024-10673](https://github.com/Nxploited/CVE-2024-10673)
 
+### CVE-2024-10674 (2024-11-09)
+
+<code>The Th Shop Mania theme for WordPress is vulnerable to unauthorized arbitrary plugin installation due to a missing capability check on the th_shop_mania_install_and_activate_callback() function in all versions up to, and including, 1.4.9. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install arbitrary plugins which can be leveraged to exploit other vulnerabilities and achieve remote code execution and privilege escalation.
+</code>
+
+- [Nxploited/CVE-2024-10674](https://github.com/Nxploited/CVE-2024-10674)
+
 ### CVE-2024-10728 (2024-11-16)
 
 <code>The Post Grid Gutenberg Blocks and WordPress Blog Plugin – PostX plugin for WordPress is vulnerable to unauthorized plugin installation/activation due to a missing capability check on the 'install_required_plugin_callback' function in all versions up to, and including, 4.1.16. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install and activate arbitrary plugins which can be leveraged to achieve remote code execution if another vulnerable plugin is installed and activated.
@@ -4942,6 +4959,7 @@
 - [team-MineDEV/CVE-2024-26229](https://github.com/team-MineDEV/CVE-2024-26229)
 - [Cracked5pider/eop24-26229](https://github.com/Cracked5pider/eop24-26229)
 - [mqxmm/CVE-2024-26229](https://github.com/mqxmm/CVE-2024-26229)
+- [shinspace92/cve-2024-26229](https://github.com/shinspace92/cve-2024-26229)
 
 ### CVE-2024-26230 (2024-04-09)
 
@@ -38105,6 +38123,13 @@
 - [CrackerCat/CVE-2019-2107](https://github.com/CrackerCat/CVE-2019-2107)
 - [infiniteLoopers/CVE-2019-2107](https://github.com/infiniteLoopers/CVE-2019-2107)
 
+### CVE-2019-2115 (2019-09-05)
+
+<code>In GateKeeper::MintAuthToken of gatekeeper.cpp in Android 7.1.1, 7.1.2, 8.0, 8.1 and 9, there is possible memory corruption due to a double free. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [Fred12301/CVE-2019-2115-Pixel-2-2-XL](https://github.com/Fred12301/CVE-2019-2115-Pixel-2-2-XL)
+
 ### CVE-2019-2196 (2019-11-13)
 
 <code>In Download Provider, there is possible SQL injection. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-135269143
@@ -45180,6 +45205,7 @@
 - [NatteeSetobol/Etern-blue-Windows-7-Checker](https://github.com/NatteeSetobol/Etern-blue-Windows-7-Checker)
 - [n3rdh4x0r/MS17-010_CVE-2017-0143](https://github.com/n3rdh4x0r/MS17-010_CVE-2017-0143)
 - [SampatDhakal/Metasploit-Attack-Report](https://github.com/SampatDhakal/Metasploit-Attack-Report)
+- [n3rdh4x0r/MS17-010](https://github.com/n3rdh4x0r/MS17-010)
 
 ### CVE-2017-0144 (2017-03-17)
 
@@ -48840,6 +48866,13 @@
 </code>
 
 - [bugch3ck/imposter](https://github.com/bugch3ck/imposter)
+
+### CVE-2015-0009 (2015-02-11)
+
+<code>The Group Policy Security Configuration policy implementation in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows man-in-the-middle attackers to disable a signing requirement and trigger a revert-to-default action by spoofing domain-controller responses, aka &quot;Group Policy Security Feature Bypass Vulnerability.&quot;
+</code>
+
+- [PhoenixC46/ExploitPOC_MS15-014_CVE-2015-0009](https://github.com/PhoenixC46/ExploitPOC_MS15-014_CVE-2015-0009)
 
 ### CVE-2015-0057 (2015-02-11)
 
