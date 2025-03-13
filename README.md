@@ -124,6 +124,13 @@
 
 - [Nxploited/CVE-2025-1639](https://github.com/Nxploited/CVE-2025-1639)
 
+### CVE-2025-1661 (2025-03-11)
+
+<code>The HUSKY – Products Filter Professional for WooCommerce plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 1.3.6.5 via the 'template' parameter of the woof_text_search AJAX action. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
+</code>
+
+- [gbrsh/CVE-2025-1661](https://github.com/gbrsh/CVE-2025-1661)
+
 ### CVE-2025-1716 (2025-02-26)
 
 <code>picklescan before 0.0.21 does not treat 'pip' as an unsafe global. An attacker could craft a malicious model that uses Pickle to pull in a malicious PyPI package (hosted, for example, on pypi.org or GitHub) via `pip.main()`. Because pip is not a restricted global, the model, when scanned with picklescan, would pass security checks and appear to be safe, when it could instead prove to be problematic.
@@ -539,7 +546,7 @@
 
 ### CVE-2025-26326 (2025-02-28)
 
-<code>A vulnerability in the remote connection complements of the NVDA (Nonvisual Desktop Access) 2024.4.1 and 2024.4.2 was identified, which allows an attacker to obtain total control of the remote system when guessing a weak password. The problem occurs because the complements accept any password typed by the user and do not have an additional authentication or checking mechanism by the computer that will be accessed. Tests indicate that over 1,000 systems use easy to guess passwords, many with less than 4 to 6 characters, including common sequences. This enables brute strength or attempt and error attacks on the part of malicious invaders. Vulnerability can be explored by a remote striker who knows or can guess the password used in the connection. As a result, the invader gets complete access to the affected system and can run commands, modify files and compromise user security.
+<code>A vulnerability was identified in the NVDA Remote (version 2.6.4) and Tele NVDA Remote (version 2025.3.3) remote connection add-ons, which allows an attacker to obtain total control of the remote system by guessing a weak password. The problem occurs because these add-ons accept any password entered by the user and do not have an additional authentication or computer verification mechanism. Tests indicate that more than 1,000 systems use easy-to-guess passwords, many with less than 4 to 6 characters, including common sequences. This allows brute force attacks or trial-and-error attempts by malicious invaders. The vulnerability can be exploited by a remote attacker who knows or can guess the password used in the connection. As a result, the attacker gains complete access to the affected system and can execute commands, modify files, and compromise user security.
 </code>
 
 - [azurejoga/CVE-2025-26326](https://github.com/azurejoga/CVE-2025-26326)
@@ -2690,7 +2697,6 @@
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
-- [optimistickn/CVE-2024-9474](https://github.com/optimistickn/CVE-2024-9474)
 
 ### CVE-2024-9570 (2024-10-07)
 
@@ -24505,8 +24511,8 @@
 - [rockmelodies/CVE-2022-42889](https://github.com/rockmelodies/CVE-2022-42889)
 - [eunomie/cve-2022-42889-check](https://github.com/eunomie/cve-2022-42889-check)
 - [kljunowsky/CVE-2022-42889-text4shell](https://github.com/kljunowsky/CVE-2022-42889-text4shell)
-- [securekomodo/text4shell-scan](https://github.com/securekomodo/text4shell-scan)
 - [neerazz/CVE-2022-42889](https://github.com/neerazz/CVE-2022-42889)
+- [kiralab/text4shell-scan](https://github.com/kiralab/text4shell-scan)
 - [uk0/cve-2022-42889-intercept](https://github.com/uk0/cve-2022-42889-intercept)
 - [securekomodo/text4shell-poc](https://github.com/securekomodo/text4shell-poc)
 - [humbss/CVE-2022-42889](https://github.com/humbss/CVE-2022-42889)
