@@ -51,6 +51,7 @@
 - [iSee857/CVE-2025-0411-PoC](https://github.com/iSee857/CVE-2025-0411-PoC)
 - [ishwardeepp/CVE-2025-0411-MoTW-PoC](https://github.com/ishwardeepp/CVE-2025-0411-MoTW-PoC)
 - [cesarbtakeda/7-Zip-CVE-2025-0411-POC](https://github.com/cesarbtakeda/7-Zip-CVE-2025-0411-POC)
+- [dpextreme/7-Zip-CVE-2025-0411-POC](https://github.com/dpextreme/7-Zip-CVE-2025-0411-POC)
 
 ### CVE-2025-0851 (2025-01-29)
 
@@ -4571,6 +4572,20 @@
 </code>
 
 - [passtheticket/CVE-2024-24409](https://github.com/passtheticket/CVE-2024-24409)
+
+### CVE-2024-24450 (2024-11-15)
+
+<code>Stack-based memcpy buffer overflow in the ngap_handle_pdu_session_resource_setup_response routine in OpenAirInterface CN5G AMF &lt;= 2.0.0 allows a remote attacker with access to the N2 interface to carry out denial of service against the AMF and potentially execute code by sending a PDU Session Resource Setup Response with a suffciently large FailedToSetupList IE.
+</code>
+
+- [SpiralBL0CK/-CVE-2024-24450-](https://github.com/SpiralBL0CK/-CVE-2024-24450-)
+
+### CVE-2024-24451 (2025-01-21)
+
+<code>A stack overflow in the sctp_server::sctp_receiver_thread component of OpenAirInterface CN5G AMF (oai-cn5g-amf) up to v2.0.0 allows attackers to cause a Denial of Service (DoS) by repeatedly establishing SCTP connections with the N2 interface.
+</code>
+
+- [SpiralBL0CK/CVE-2024-24451](https://github.com/SpiralBL0CK/CVE-2024-24451)
 
 ### CVE-2024-24488 (2024-02-07)
 
@@ -9477,7 +9492,11 @@
 ### CVE-2024-55040
 - [tcbutler320/CVE-2024-55040-Sensaphone-XSS](https://github.com/tcbutler320/CVE-2024-55040-Sensaphone-XSS)
 
-### CVE-2024-55060
+### CVE-2024-55060 (2025-03-13)
+
+<code>A cross-site scripting (XSS) vulnerability in the component index.php of Rafed CMS Website v1.44 allows attackers to execute arbitrary web scripts or HTML via a crafted payload.
+</code>
+
 - [bigzooooz/CVE-2024-55060](https://github.com/bigzooooz/CVE-2024-55060)
 
 ### CVE-2024-55099 (2024-12-12)
@@ -37626,7 +37645,7 @@
 - [xsxtw/CVE-2019-0232](https://github.com/xsxtw/CVE-2019-0232)
 - [Dharan10/CVE-2019-0232](https://github.com/Dharan10/CVE-2019-0232)
 - [iumiro/CVE-2019-0232](https://github.com/iumiro/CVE-2019-0232)
-- [k3Pn1c/CVE-2019-0232_tomcat_cgi_exploit](https://github.com/k3Pn1c/CVE-2019-0232_tomcat_cgi_exploit)
+- [0xD3vNu1l/CVE-2019-0232_tomcat_cgi_exploit](https://github.com/0xD3vNu1l/CVE-2019-0232_tomcat_cgi_exploit)
 
 ### CVE-2019-0539 (2019-01-08)
 
