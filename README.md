@@ -331,6 +331,8 @@
 </code>
 
 - [iSee857/CVE-2025-24813-PoC](https://github.com/iSee857/CVE-2025-24813-PoC)
+- [N0c1or/CVE-2025-24813_POC](https://github.com/N0c1or/CVE-2025-24813_POC)
+- [gregk4sec/CVE-2025-24813](https://github.com/gregk4sec/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -359,6 +361,13 @@
 </code>
 
 - [yelang123/Zimbra10_SQL_Injection](https://github.com/yelang123/Zimbra10_SQL_Injection)
+
+### CVE-2025-25101 (2025-02-07)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in MetricThemes Munk Sites allows Cross Site Request Forgery. This issue affects Munk Sites: from n/a through 1.0.7.
+</code>
+
+- [Nxploited/CVE-2025-25101](https://github.com/Nxploited/CVE-2025-25101)
 
 ### CVE-2025-25163 (2025-02-07)
 
