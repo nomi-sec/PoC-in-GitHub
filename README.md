@@ -333,6 +333,8 @@
 - [iSee857/CVE-2025-24813-PoC](https://github.com/iSee857/CVE-2025-24813-PoC)
 - [N0c1or/CVE-2025-24813_POC](https://github.com/N0c1or/CVE-2025-24813_POC)
 - [gregk4sec/CVE-2025-24813](https://github.com/gregk4sec/CVE-2025-24813)
+- [absholi7ly/POC-CVE-2025-24813](https://github.com/absholi7ly/POC-CVE-2025-24813)
+- [FY036/cve-2025-24813_poc](https://github.com/FY036/cve-2025-24813_poc)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -585,6 +587,13 @@
 - [OscarBataille/CVE-2025-26794](https://github.com/OscarBataille/CVE-2025-26794)
 - [ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi](https://github.com/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi)
 
+### CVE-2025-27607 (2025-03-07)
+
+<code>Python JSON Logger is a JSON Formatter for Python Logging. Between 30 December 2024 and 4 March 2025 Python JSON Logger was vulnerable to RCE through a missing dependency. This occurred because msgspec-python313-pre was deleted by the owner leaving the name open to being claimed by a third party. If the package was claimed, it would allow them RCE on any Python JSON Logger user who installed the development dependencies on Python 3.13 (e.g. pip install python-json-logger[dev]). This issue has been resolved with 3.3.0.
+</code>
+
+- [Barsug/msgspec-python313-pre](https://github.com/Barsug/msgspec-python313-pre)
+
 ### CVE-2025-27636 (2025-03-09)
 
 <code>Bypass/Injection vulnerability in Apache Camel components under particular conditions.\n\nThis issue affects Apache Camel: from 4.10.0 through &lt;= 4.10.1, from 4.8.0 through &lt;= 4.8.4, from 3.10.0 through &lt;= 3.22.3.\n\nUsers are recommended to upgrade to version 4.10.2 for 4.10.x LTS, 4.8.5 for 4.8.x LTS and 3.22.4 for 3.x releases.\n\n\n\nThis vulnerability is present in Camel's default incoming header filter, that allows an attacker to include Camel specific\n\nheaders that for some Camel components can alter the behaviours such as the camel-bean component, to call another method\n\non the bean, than was coded in the application. In the camel-jms component, then a mallicous header can be used to send\n\nthe message to another queue (on the same broker) than was coded in the application.\n\n\n\n\nThe attacker would need to inject custom headers, such as HTTP protocols. So if you have Camel applications that are\n\ndirectly connected to the internet via HTTP, then an attacker could include malicious HTTP headers in the HTTP requests\n\nthat are send to the Camel application.\n\n\n\n\nAll the known Camel HTTP component such as camel-servlet, camel-jetty, camel-undertow, camel-platform-http, and camel-netty-http would be vulnerable out of the box.\n\nIn these conditions an attacker could be able to forge a Camel header name and make the bean component invoking other methods in the same bean.\n\nIn terms of usage of the default header filter strategy the list of components using that is: \n\n\n  *  camel-activemq\n  *  camel-activemq6\n  *  camel-amqp\n  *  camel-aws2-sqs\n  *  camel-azure-servicebus\n  *  camel-cxf-rest\n  *  camel-cxf-soap\n  *  camel-http\n  *  camel-jetty\n  *  camel-jms\n  *  camel-kafka\n  *  camel-knative\n  *  camel-mail\n  *  camel-nats\n  *  camel-netty-http\n  *  camel-platform-http\n  *  camel-rest\n  *  camel-sjms\n  *  camel-spring-rabbitmq\n  *  camel-stomp\n  *  camel-tahu\n  *  camel-undertow\n  *  camel-xmpp\n\n\n\n\n\n\nThe vulnerability arises due to a bug in the default filtering mechanism that only blocks headers starting with &quot;Camel&quot;, &quot;camel&quot;, or &quot;org.apache.camel.&quot;. \n\n\nMitigation: You can easily work around this in your Camel applications by removing the headers in your Camel routes. There are many ways of doing this, also globally or per route. This means you could use the removeHeaders EIP, to filter out anything like &quot;cAmel, cAMEL&quot; etc, or in general everything not starting with &quot;Camel&quot;, &quot;camel&quot; or &quot;org.apache.camel.&quot;.
@@ -612,6 +621,7 @@
 </code>
 
 - [Nxploited/CVE-2025-28915](https://github.com/Nxploited/CVE-2025-28915)
+- [Pei4AN/CVE-2025-28915](https://github.com/Pei4AN/CVE-2025-28915)
 
 
 ## 2024
@@ -8579,6 +8589,7 @@
 
 - [MrAle98/CVE-2024-49138-POC](https://github.com/MrAle98/CVE-2024-49138-POC)
 - [bananoname/CVE-2024-49138-POC](https://github.com/bananoname/CVE-2024-49138-POC)
+- [DeividasTerechovas/SOC335-CVE-2024-49138-Exploitation-Detected](https://github.com/DeividasTerechovas/SOC335-CVE-2024-49138-Exploitation-Detected)
 
 ### CVE-2024-49203 (2024-11-20)
 
@@ -8675,7 +8686,6 @@
 - [dragonked2/CVE-2024-50379-POC](https://github.com/dragonked2/CVE-2024-50379-POC)
 - [dkstar11q/CVE-2024-50379-nuclei](https://github.com/dkstar11q/CVE-2024-50379-nuclei)
 - [pwnosec/CVE-2024-50379](https://github.com/pwnosec/CVE-2024-50379)
-- [unkemptpanc/CVE-2024-50379](https://github.com/unkemptpanc/CVE-2024-50379)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -11423,6 +11433,13 @@
 </code>
 
 - [dywsy21/CVE-2023-6350_Reproduction](https://github.com/dywsy21/CVE-2023-6350_Reproduction)
+
+### CVE-2023-6387 (2024-02-02)
+
+<code>A potential buffer overflow exists in the Bluetooth LE HCI CPC sample application in the Gecko SDK which may result in a denial of service or remote code execution
+</code>
+
+- [A3ST1CODE/CVE_6387](https://github.com/A3ST1CODE/CVE_6387)
 
 ### CVE-2023-6421 (2024-01-01)
 
@@ -17203,6 +17220,13 @@
 </code>
 
 - [metaredteam/rtx-cve-2023-45779](https://github.com/metaredteam/rtx-cve-2023-45779)
+
+### CVE-2023-45806 (2023-11-10)
+
+<code>Discourse is an open source platform for community discussion. Prior to version 3.1.3 of the `stable` branch and version 3.2.0.beta3 of the `beta` and `tests-passed` branches, if a user has been quoted and uses a `|` in their full name, they might be able to trigger a bug that generates a lot of duplicate content in all the posts they've been quoted by updating their full name again. Version 3.1.3 of the `stable` branch and version 3.2.0.beta3 of the `beta` and `tests-passed` branches contain a patch for this issue. No known workaround exists, although one can stop the &quot;bleeding&quot; by ensuring users only use alphanumeric characters in their full name field.
+</code>
+
+- [pikariop/yksivaihde-CVE-2023-45806](https://github.com/pikariop/yksivaihde-CVE-2023-45806)
 
 ### CVE-2023-45827 (2023-11-06)
 
