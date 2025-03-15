@@ -207,6 +207,13 @@
 
 - [DoTTak/CVE-2025-22510](https://github.com/DoTTak/CVE-2025-22510)
 
+### CVE-2025-22604 (2025-01-27)
+
+<code>Cacti is an open source performance and fault management framework. Due to a flaw in multi-line SNMP result parser, authenticated users can inject malformed OIDs in the response. When processed by ss_net_snmp_disk_io() or ss_net_snmp_disk_bytes(), a part of each OID will be used as a key in an array that is used as part of a system command, causing a command execution vulnerability. This vulnerability is fixed in 1.2.29.
+</code>
+
+- [ishwardeepp/CVE-2025-22604-Cacti-RCE](https://github.com/ishwardeepp/CVE-2025-22604-Cacti-RCE)
+
 ### CVE-2025-22620 (2025-01-20)
 
 <code>gitoxide is an implementation of git written in Rust. Prior to 0.17.0, gix-worktree-state specifies 0777 permissions when checking out executable files, intending that the umask will restrict them appropriately. But one of the strategies it uses to set permissions is not subject to the umask. This causes files in a repository to be world-writable in some situations. This vulnerability is fixed in 0.17.0.
@@ -2716,6 +2723,7 @@
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
+- [dazzlingteap/CVE-2024-9474](https://github.com/dazzlingteap/CVE-2024-9474)
 
 ### CVE-2024-9513 (2024-10-04)
 
@@ -8696,6 +8704,7 @@
 - [dragonked2/CVE-2024-50379-POC](https://github.com/dragonked2/CVE-2024-50379-POC)
 - [dkstar11q/CVE-2024-50379-nuclei](https://github.com/dkstar11q/CVE-2024-50379-nuclei)
 - [pwnosec/CVE-2024-50379](https://github.com/pwnosec/CVE-2024-50379)
+- [whimsicalsubw/CVE-2024-50379](https://github.com/whimsicalsubw/CVE-2024-50379)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -12140,6 +12149,7 @@
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
 - [Romanc9/Gui-poc-test](https://github.com/Romanc9/Gui-poc-test)
 - [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
+- [lovingpot/CVE-2023-21839](https://github.com/lovingpot/CVE-2023-21839)
 
 ### CVE-2023-21887 (2023-01-17)
 
@@ -27879,6 +27889,7 @@
 <code>A security issue was discovered in Kubernetes where a user may be able to create a container with subpath volume mounts to access files &amp; directories outside of the volume, including on the host filesystem.
 </code>
 
+- [Betep0k/CVE-2021-25741](https://github.com/Betep0k/CVE-2021-25741)
 - [cdxiaodong/CVE-2021-25741](https://github.com/cdxiaodong/CVE-2021-25741)
 
 ### CVE-2021-25790 (2021-07-23)
@@ -31751,7 +31762,6 @@
 - [qw3rtyou/CVE-2021-44228_dockernize](https://github.com/qw3rtyou/CVE-2021-44228_dockernize)
 - [yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-](https://github.com/yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-)
 - [lustrouscave/log4shell-tools](https://github.com/lustrouscave/log4shell-tools)
-- [surprisedmo/log4shell-tools](https://github.com/surprisedmo/log4shell-tools)
 - [chihyeonwon/Log4shell](https://github.com/chihyeonwon/Log4shell)
 
 ### CVE-2021-44255 (2022-01-31)
