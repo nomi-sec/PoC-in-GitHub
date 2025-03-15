@@ -1748,6 +1748,7 @@
 - [chihyeonwon/php-cgi-cve-2024-4577](https://github.com/chihyeonwon/php-cgi-cve-2024-4577)
 - [Didarul342/CVE-2024-4577](https://github.com/Didarul342/CVE-2024-4577)
 - [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
+- [Night-have-dreams/php-cgi-Injector](https://github.com/Night-have-dreams/php-cgi-Injector)
 
 ### CVE-2024-4701 (2024-05-10)
 
