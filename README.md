@@ -9088,6 +9088,13 @@
 
 - [l20170217b/CVE-2024-51747](https://github.com/l20170217b/CVE-2024-51747)
 
+### CVE-2024-51788 (2024-11-11)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Joshua Wolfe The Novel Design Store Directory allows Upload a Web Shell to a Web Server.This issue affects The Novel Design Store Directory: from n/a through 4.3.0.
+</code>
+
+- [Nxploited/CVE-2024-51788](https://github.com/Nxploited/CVE-2024-51788)
+
 ### CVE-2024-51818 (2025-01-21)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in NotFound Fancy Product Designer. This issue affects Fancy Product Designer: from n/a through 6.4.3.
