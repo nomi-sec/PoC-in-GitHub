@@ -88,6 +88,7 @@
 
 - [soltanali0/CVE-2025-1094-Exploit](https://github.com/soltanali0/CVE-2025-1094-Exploit)
 - [shacojx/CVE-2025-1094-Exploit](https://github.com/shacojx/CVE-2025-1094-Exploit)
+- [ishwardeepp/CVE-2025-1094-PoC-Postgre-SQLi](https://github.com/ishwardeepp/CVE-2025-1094-PoC-Postgre-SQLi)
 
 ### CVE-2025-1302 (2025-02-15)
 
@@ -409,9 +410,6 @@
 </code>
 
 - [RoNiXxCybSeC0101/CVE-2025-25461](https://github.com/RoNiXxCybSeC0101/CVE-2025-25461)
-
-### CVE-2025-25500
-- [H3T76/CVE-2025-25500](https://github.com/H3T76/CVE-2025-25500)
 
 ### CVE-2025-25599
 - [Certitude-Consulting/CVE-2025-25599](https://github.com/Certitude-Consulting/CVE-2025-25599)
@@ -2718,6 +2716,13 @@
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
 
+### CVE-2024-9513 (2024-10-04)
+
+<code>Eine Schwachstelle wurde in Netadmin Software NetAdmin IAM bis 3.5 gefunden. Sie wurde als problematisch eingestuft. Dies betrifft einen unbekannten Teil der Datei /controller/api/Answer/ReturnUserQuestionsFilled der Komponente HTTP POST Request Handler. Durch Beeinflussen des Arguments username mit unbekannten Daten kann eine information exposure through discrepancy-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Die Komplexität eines Angriffs ist eher hoch. Sie ist schwierig ausnutzbar. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [ELIZEUOPAIN/Exploit-CVE-2024-9513-NetAdmin-IAM-Allows-User-Enumeration-In-Active-Directory](https://github.com/ELIZEUOPAIN/Exploit-CVE-2024-9513-NetAdmin-IAM-Allows-User-Enumeration-In-Active-Directory)
+
 ### CVE-2024-9570 (2024-10-07)
 
 <code>Eine Schwachstelle wurde in D-Link DIR-619L B1 2.06 gefunden. Sie wurde als kritisch eingestuft. Hierbei geht es um die Funktion formEasySetTimezone der Datei /goform/formEasySetTimezone. Durch das Beeinflussen des Arguments curTime mit unbekannten Daten kann eine buffer overflow-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
@@ -4469,14 +4474,14 @@
 <code>Setor Informatica S.I.L version 3.0 is vulnerable to Open Redirect via the hprinter parameter, allows remote attackers to execute arbitrary code.
 </code>
 
-- [ELIZEUOPAIN/CVE-2024-24034](https://github.com/ELIZEUOPAIN/CVE-2024-24034)
+- [ELIZEUOPAIN/PoC-CVE-2024-24034](https://github.com/ELIZEUOPAIN/PoC-CVE-2024-24034)
 
 ### CVE-2024-24035 (2024-03-07)
 
 <code>Cross Site Scripting (XSS) vulnerability in Setor Informatica SIL 3.1 allows attackers to run arbitrary code via the hmessage parameter.
 </code>
 
-- [ELIZEUOPAIN/CVE-2024-24035](https://github.com/ELIZEUOPAIN/CVE-2024-24035)
+- [ELIZEUOPAIN/PoC-CVE-2024-24035](https://github.com/ELIZEUOPAIN/PoC-CVE-2024-24035)
 
 ### CVE-2024-24134 (2024-01-29)
 
@@ -22477,7 +22482,7 @@
 </code>
 
 - [JMousqueton/PoC-CVE-2022-30190](https://github.com/JMousqueton/PoC-CVE-2022-30190)
-- [zkl21hoang/msdt-follina-office-rce](https://github.com/zkl21hoang/msdt-follina-office-rce)
+- [0x7a6b4c/msdt-follina-office-rce](https://github.com/0x7a6b4c/msdt-follina-office-rce)
 - [onecloudemoji/CVE-2022-30190](https://github.com/onecloudemoji/CVE-2022-30190)
 - [2867a0/CVE-2022-30190](https://github.com/2867a0/CVE-2022-30190)
 - [doocop/CVE-2022-30190](https://github.com/doocop/CVE-2022-30190)
@@ -48481,6 +48486,7 @@
 - [justlce/CVE-2016-6210-Exploit](https://github.com/justlce/CVE-2016-6210-Exploit)
 - [goomdan/CVE-2016-6210-exploit](https://github.com/goomdan/CVE-2016-6210-exploit)
 - [samh4cks/CVE-2016-6210-OpenSSH-User-Enumeration](https://github.com/samh4cks/CVE-2016-6210-OpenSSH-User-Enumeration)
+- [coolbabayaga/CVE-2016-6210](https://github.com/coolbabayaga/CVE-2016-6210)
 
 ### CVE-2016-6271 (2017-01-18)
 
