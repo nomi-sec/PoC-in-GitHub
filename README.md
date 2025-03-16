@@ -2264,6 +2264,7 @@
 </code>
 
 - [hexspectrum1/CVE-2024-7014](https://github.com/hexspectrum1/CVE-2024-7014)
+- [absholi7ly/PoC-for-CVE-2024-7014-Exploit](https://github.com/absholi7ly/PoC-for-CVE-2024-7014-Exploit)
 
 ### CVE-2024-7029 (2024-08-02)
 
@@ -8703,7 +8704,6 @@
 - [dragonked2/CVE-2024-50379-POC](https://github.com/dragonked2/CVE-2024-50379-POC)
 - [dkstar11q/CVE-2024-50379-nuclei](https://github.com/dkstar11q/CVE-2024-50379-nuclei)
 - [pwnosec/CVE-2024-50379](https://github.com/pwnosec/CVE-2024-50379)
-- [whimsicalsubw/CVE-2024-50379](https://github.com/whimsicalsubw/CVE-2024-50379)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -51101,6 +51101,7 @@
 - [Securenetology/CVE-2013-3900](https://github.com/Securenetology/CVE-2013-3900)
 - [OtisSymbos/CVE-2013-3900-WinTrustVerify](https://github.com/OtisSymbos/CVE-2013-3900-WinTrustVerify)
 - [AdenilsonSantos/WinVerifyTrust](https://github.com/AdenilsonSantos/WinVerifyTrust)
+- [DavidBr27/CVE-2013-3900-Remediation-Script](https://github.com/DavidBr27/CVE-2013-3900-Remediation-Script)
 
 ### CVE-2013-4002 (2013-07-23)
 
