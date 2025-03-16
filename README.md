@@ -2615,6 +2615,7 @@
 - [iSee857/CVE-2024-9047-PoC](https://github.com/iSee857/CVE-2024-9047-PoC)
 - [verylazytech/CVE-2024-9047](https://github.com/verylazytech/CVE-2024-9047)
 - [Nxploited/CVE-2024-9047-Exploit](https://github.com/Nxploited/CVE-2024-9047-Exploit)
+- [chihyeonwon/CVE-2024-9047](https://github.com/chihyeonwon/CVE-2024-9047)
 
 ### CVE-2024-9061 (2024-10-16)
 
@@ -6660,7 +6661,6 @@
 - [XiaomingX/cve-2024-36401-poc](https://github.com/XiaomingX/cve-2024-36401-poc)
 - [0x0d3ad/CVE-2024-36401](https://github.com/0x0d3ad/CVE-2024-36401)
 - [whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit)
-- [unlinedvol/CVE-2024-36401](https://github.com/unlinedvol/CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -41565,6 +41565,7 @@
 - [k-fire/CVE-2019-19781-exploit](https://github.com/k-fire/CVE-2019-19781-exploit)
 - [zerobytesecure/CVE-2019-19781](https://github.com/zerobytesecure/CVE-2019-19781)
 - [citrixgitoff/-ioc-scanner-CVE-2019-19781](https://github.com/citrixgitoff/-ioc-scanner-CVE-2019-19781)
+- [chihyeonwon/CVE-2019-19781](https://github.com/chihyeonwon/CVE-2019-19781)
 
 ### CVE-2019-19782 (2019-12-13)
 
