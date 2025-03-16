@@ -343,6 +343,7 @@
 - [gregk4sec/CVE-2025-24813](https://github.com/gregk4sec/CVE-2025-24813)
 - [absholi7ly/POC-CVE-2025-24813](https://github.com/absholi7ly/POC-CVE-2025-24813)
 - [FY036/cve-2025-24813_poc](https://github.com/FY036/cve-2025-24813_poc)
+- [charis3306/CVE-2025-24813](https://github.com/charis3306/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -464,6 +465,9 @@
 
 ### CVE-2025-25621
 - [armaansidana2003/CVE-2025-25621](https://github.com/armaansidana2003/CVE-2025-25621)
+
+### CVE-2025-25650
+- [AbhijithAJ/Dorset_SmartLock_Vulnerability](https://github.com/AbhijithAJ/Dorset_SmartLock_Vulnerability)
 
 ### CVE-2025-25747 (2025-03-11)
 
@@ -38229,13 +38233,6 @@
 
 - [CrackerCat/CVE-2019-2107](https://github.com/CrackerCat/CVE-2019-2107)
 - [infiniteLoopers/CVE-2019-2107](https://github.com/infiniteLoopers/CVE-2019-2107)
-
-### CVE-2019-2115 (2019-09-05)
-
-<code>In GateKeeper::MintAuthToken of gatekeeper.cpp in Android 7.1.1, 7.1.2, 8.0, 8.1 and 9, there is possible memory corruption due to a double free. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.
-</code>
-
-- [Fred12301/CVE-2019-2115-Pixel-2-2-XL](https://github.com/Fred12301/CVE-2019-2115-Pixel-2-2-XL)
 
 ### CVE-2019-2196 (2019-11-13)
 
