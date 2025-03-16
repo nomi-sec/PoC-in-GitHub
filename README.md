@@ -2723,7 +2723,6 @@
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
-- [dazzlingteap/CVE-2024-9474](https://github.com/dazzlingteap/CVE-2024-9474)
 
 ### CVE-2024-9513 (2024-10-04)
 
@@ -12149,7 +12148,6 @@
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
 - [Romanc9/Gui-poc-test](https://github.com/Romanc9/Gui-poc-test)
 - [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
-- [lovingpot/CVE-2023-21839](https://github.com/lovingpot/CVE-2023-21839)
 
 ### CVE-2023-21887 (2023-01-17)
 
