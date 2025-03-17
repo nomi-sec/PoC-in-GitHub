@@ -33,7 +33,7 @@
 - [punitdarji/Ivanti-CVE-2025-0282](https://github.com/punitdarji/Ivanti-CVE-2025-0282)
 
 ### CVE-2025-03
-- [NeseOSCorp/CVE-2025-03](https://github.com/NeseOSCorp/CVE-2025-03)
+- [NeseOS-Corporation/CVE-2025-03](https://github.com/NeseOS-Corporation/CVE-2025-03)
 
 ### CVE-2025-0364 (2025-02-04)
 
@@ -581,6 +581,9 @@
 
 - [azurejoga/CVE-2025-26326](https://github.com/azurejoga/CVE-2025-26326)
 
+### CVE-2025-26417
+- [uthrasri/CVE-2025-26417](https://github.com/uthrasri/CVE-2025-26417)
+
 ### CVE-2025-26465 (2025-02-18)
 
 <code>A vulnerability was found in OpenSSH when the VerifyHostKeyDNS option is enabled. A machine-in-the-middle attack can be performed by a malicious machine impersonating a legit server. This issue occurs due to how OpenSSH mishandles error codes in specific conditions when verifying the host key. For an attack to be considered successful, the attacker needs to manage to exhaust the client's memory resource first, turning the attack complexity high.
@@ -640,6 +643,13 @@
 
 - [Nxploited/CVE-2025-28915](https://github.com/Nxploited/CVE-2025-28915)
 - [Pei4AN/CVE-2025-28915](https://github.com/Pei4AN/CVE-2025-28915)
+
+### CVE-2025-30066 (2025-03-15)
+
+<code>tj-actions changed-files before 46 allows remote attackers to discover secrets by reading actions logs. (The tags v1 through v45.0.7 were affected on 2025-03-14 and 2025-03-15 because they were modified by a threat actor to point at commit 0e58ed8, which contained malicious updateFeatures code.)
+</code>
+
+- [OS-pedrogustavobilro/test-changed-files](https://github.com/OS-pedrogustavobilro/test-changed-files)
 
 
 ## 2024
@@ -10103,6 +10113,7 @@
 - [letsr00t/CVE-2023-0386](https://github.com/letsr00t/CVE-2023-0386)
 - [churamanib/CVE-2023-0386](https://github.com/churamanib/CVE-2023-0386)
 - [EstamelGG/CVE-2023-0386-libs](https://github.com/EstamelGG/CVE-2023-0386-libs)
+- [orilevy8/cve-2023-0386](https://github.com/orilevy8/cve-2023-0386)
 
 ### CVE-2023-0400 (2023-02-01)
 
@@ -11181,6 +11192,7 @@
 - [NishanthAnand21/CVE-2023-4911-PoC](https://github.com/NishanthAnand21/CVE-2023-4911-PoC)
 - [Billar42/CVE-2023-4911](https://github.com/Billar42/CVE-2023-4911)
 - [shacojx/CVE-2023-4911-Exploit](https://github.com/shacojx/CVE-2023-4911-Exploit)
+- [KillReal01/CVE-2023-4911](https://github.com/KillReal01/CVE-2023-4911)
 
 ### CVE-2023-4966 (2023-10-10)
 
@@ -14776,6 +14788,7 @@
 
 - [maddsec/CVE-2023-34598](https://github.com/maddsec/CVE-2023-34598)
 - [Lserein/CVE-2023-34598](https://github.com/Lserein/CVE-2023-34598)
+- [Zer0F8th/CVE-2023-34598](https://github.com/Zer0F8th/CVE-2023-34598)
 
 ### CVE-2023-34599 (2023-06-29)
 
