@@ -345,6 +345,7 @@
 - [absholi7ly/POC-CVE-2025-24813](https://github.com/absholi7ly/POC-CVE-2025-24813)
 - [FY036/cve-2025-24813_poc](https://github.com/FY036/cve-2025-24813_poc)
 - [charis3306/CVE-2025-24813](https://github.com/charis3306/CVE-2025-24813)
+- [issamjr/CVE-2025-24813-Scanner](https://github.com/issamjr/CVE-2025-24813-Scanner)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -490,6 +491,13 @@
 </code>
 
 - [huyvo2910/CVE-2025-25749-Weak-Password-Policy-in-HotelDruid-3.0.7](https://github.com/huyvo2910/CVE-2025-25749-Weak-Password-Policy-in-HotelDruid-3.0.7)
+
+### CVE-2025-25763 (2025-03-06)
+
+<code>crmeb CRMEB-KY v5.4.0 and before has a SQL Injection vulnerability at getRead() in /system/SystemDatabackupServices.php
+</code>
+
+- [Oyst3r1ng/CVE-2025-25763](https://github.com/Oyst3r1ng/CVE-2025-25763)
 
 ### CVE-2025-25964
 - [Sudo-Sakib/CVE-2025-25964](https://github.com/Sudo-Sakib/CVE-2025-25964)
@@ -1757,7 +1765,7 @@
 - [ahmetramazank/CVE-2024-4577](https://github.com/ahmetramazank/CVE-2024-4577)
 - [BTtea/CVE-2024-4577-RCE-PoC](https://github.com/BTtea/CVE-2024-4577-RCE-PoC)
 - [Dejavu666/CVE-2024-4577](https://github.com/Dejavu666/CVE-2024-4577)
-- [chihyeonwon/php-cgi-cve-2024-4577](https://github.com/chihyeonwon/php-cgi-cve-2024-4577)
+- [mr-won/php-cgi-cve-2024-4577](https://github.com/mr-won/php-cgi-cve-2024-4577)
 - [Didarul342/CVE-2024-4577](https://github.com/Didarul342/CVE-2024-4577)
 - [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
 - [Night-have-dreams/php-cgi-Injector](https://github.com/Night-have-dreams/php-cgi-Injector)
@@ -2616,7 +2624,7 @@
 - [iSee857/CVE-2024-9047-PoC](https://github.com/iSee857/CVE-2024-9047-PoC)
 - [verylazytech/CVE-2024-9047](https://github.com/verylazytech/CVE-2024-9047)
 - [Nxploited/CVE-2024-9047-Exploit](https://github.com/Nxploited/CVE-2024-9047-Exploit)
-- [chihyeonwon/CVE-2024-9047](https://github.com/chihyeonwon/CVE-2024-9047)
+- [mr-won/CVE-2024-9047](https://github.com/mr-won/CVE-2024-9047)
 
 ### CVE-2024-9061 (2024-10-16)
 
@@ -5846,6 +5854,7 @@
 </code>
 
 - [fuhei/CVE-2024-31317](https://github.com/fuhei/CVE-2024-31317)
+- [jmywh1/CVE-2024-31317](https://github.com/jmywh1/CVE-2024-31317)
 
 ### CVE-2024-31319 (2024-07-09)
 
@@ -10409,7 +10418,7 @@
 <code>In hansunCMS 1.4.3 wurde eine Schwachstelle ausgemacht. Sie wurde als kritisch eingestuft. Es geht um eine nicht näher bekannte Funktion der Datei /ueditor/net/controller.ashx?action=catchimage. Durch die Manipulation mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [chihyeonwon/2023-2245](https://github.com/chihyeonwon/2023-2245)
+- [mr-won/2023-2245](https://github.com/mr-won/2023-2245)
 
 ### CVE-2023-2249 (2023-06-09)
 
@@ -31766,7 +31775,7 @@
 - [ZacharyZcR/CVE-2021-44228](https://github.com/ZacharyZcR/CVE-2021-44228)
 - [qw3rtyou/CVE-2021-44228_dockernize](https://github.com/qw3rtyou/CVE-2021-44228_dockernize)
 - [yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-](https://github.com/yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-)
-- [chihyeonwon/Log4shell](https://github.com/chihyeonwon/Log4shell)
+- [mr-won/Log4shell](https://github.com/mr-won/Log4shell)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -41567,7 +41576,7 @@
 - [k-fire/CVE-2019-19781-exploit](https://github.com/k-fire/CVE-2019-19781-exploit)
 - [zerobytesecure/CVE-2019-19781](https://github.com/zerobytesecure/CVE-2019-19781)
 - [citrixgitoff/-ioc-scanner-CVE-2019-19781](https://github.com/citrixgitoff/-ioc-scanner-CVE-2019-19781)
-- [chihyeonwon/CVE-2019-19781](https://github.com/chihyeonwon/CVE-2019-19781)
+- [mr-won/CVE-2019-19781](https://github.com/mr-won/CVE-2019-19781)
 
 ### CVE-2019-19782 (2019-12-13)
 
@@ -45793,7 +45802,7 @@
 - [Ravindu-Priyankara/CVE-2017-5487-vulnerability-on-NSBM](https://github.com/Ravindu-Priyankara/CVE-2017-5487-vulnerability-on-NSBM)
 - [K3ysTr0K3R/CVE-2017-5487-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-5487-EXPLOIT)
 - [dream434/CVE-2017-5487](https://github.com/dream434/CVE-2017-5487)
-- [chihyeonwon/cve-2017-5487](https://github.com/chihyeonwon/cve-2017-5487)
+- [mr-won/cve-2017-5487](https://github.com/mr-won/cve-2017-5487)
 
 ### CVE-2017-5633 (2017-03-06)
 
@@ -50079,7 +50088,7 @@
 <code>The dtls1_get_message_fragment function in d1_both.c in OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h allows remote attackers to cause a denial of service (recursion and client crash) via a DTLS hello message in an invalid DTLS handshake.
 </code>
 
-- [chihyeonwon/OpenSSL_DTLS_CVE_2014_0221](https://github.com/chihyeonwon/OpenSSL_DTLS_CVE_2014_0221)
+- [mr-won/OpenSSL_DTLS_CVE_2014_0221](https://github.com/mr-won/OpenSSL_DTLS_CVE_2014_0221)
 
 ### CVE-2014-0224 (2014-06-05)
 
