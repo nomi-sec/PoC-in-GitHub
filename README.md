@@ -287,6 +287,13 @@
 - [0xjessie21/CVE-2025-24016](https://github.com/0xjessie21/CVE-2025-24016)
 - [MuhammadWaseem29/CVE-2025-24016](https://github.com/MuhammadWaseem29/CVE-2025-24016)
 
+### CVE-2025-24071 (2025-03-11)
+
+<code>Exposure of sensitive information to an unauthorized actor in Windows File Explorer allows an unauthorized attacker to perform spoofing over a network.
+</code>
+
+- [0x6rss/CVE-2025-24071_PoC](https://github.com/0x6rss/CVE-2025-24071_PoC)
+
 ### CVE-2025-24104 (2025-01-27)
 
 <code>This issue was addressed with improved handling of symlinks. This issue is fixed in iPadOS 17.7.4, iOS 18.3 and iPadOS 18.3. Restoring a maliciously crafted backup file may lead to modification of protected system files.
@@ -340,6 +347,7 @@
 - [charis3306/CVE-2025-24813](https://github.com/charis3306/CVE-2025-24813)
 - [issamjr/CVE-2025-24813-Scanner](https://github.com/issamjr/CVE-2025-24813-Scanner)
 - [imbas007/CVE-2025-24813-apache-tomcat](https://github.com/imbas007/CVE-2025-24813-apache-tomcat)
+- [msadeghkarimi/CVE-2025-24813-Exploit](https://github.com/msadeghkarimi/CVE-2025-24813-Exploit)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -844,6 +852,13 @@
 </code>
 
 - [xbz0n/CVE-2024-0399](https://github.com/xbz0n/CVE-2024-0399)
+
+### CVE-2024-0402 (2024-01-26)
+
+<code>An issue has been discovered in GitLab CE/EE affecting all versions from 16.0 prior to 16.6.6, 16.7 prior to 16.7.4, and 16.8 prior to 16.8.1 which allows an authenticated user to write files to arbitrary locations on the GitLab server while creating a workspace.
+</code>
+
+- [doyensec/malicious-devfile-registry](https://github.com/doyensec/malicious-devfile-registry)
 
 ### CVE-2024-0406 (2024-04-06)
 
@@ -8427,7 +8442,7 @@
 - [SkyGodling/exploit-cve-2024-47575](https://github.com/SkyGodling/exploit-cve-2024-47575)
 - [expl0itsecurity/CVE-2024-47575](https://github.com/expl0itsecurity/CVE-2024-47575)
 - [XiaomingX/cve-2024-47575-exp](https://github.com/XiaomingX/cve-2024-47575-exp)
-- [KaztoRay/CVE-2024-47575-POC](https://github.com/KaztoRay/CVE-2024-47575-POC)
+- [revanslbw/CVE-2024-47575-POC](https://github.com/revanslbw/CVE-2024-47575-POC)
 
 ### CVE-2024-47854 (2024-10-04)
 
@@ -9226,6 +9241,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-52382](https://github.com/RandomRobbieBF/CVE-2024-52382)
+
+### CVE-2024-52402 (2024-11-19)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in Cliconomics Exclusive Content Password Protect allows Upload a Web Shell to a Web Server.This issue affects Exclusive Content Password Protect: from n/a through 1.1.0.
+</code>
+
+- [Nxploited/CVE-2024-52402](https://github.com/Nxploited/CVE-2024-52402)
 
 ### CVE-2024-52429 (2024-11-18)
 
@@ -12009,6 +12031,13 @@
 
 - [hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144_old](https://github.com/hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144_old)
 - [hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144](https://github.com/hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144)
+
+### CVE-2023-21173 (2023-06-28)
+
+<code>In multiple methods of DataUsageList.java, there is a possible way to learn about admin user's network activities due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-262741858
+</code>
+
+- [vesu-nights/MultiExploit](https://github.com/vesu-nights/MultiExploit)
 
 ### CVE-2023-21238 (2023-07-12)
 
@@ -52786,7 +52815,7 @@
 <code>Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
 </code>
 
-- [silasol/cve-2003-0282](https://github.com/silasol/cve-2003-0282)
+- [angus-cx/cve-2003-0282](https://github.com/angus-cx/cve-2003-0282)
 
 ### CVE-2003-0358 (2003-05-30)
 
