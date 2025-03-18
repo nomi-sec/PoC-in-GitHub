@@ -169,6 +169,8 @@
 - [MrAle98/CVE-2025-21333-POC](https://github.com/MrAle98/CVE-2025-21333-POC)
 - [Mukesh-blend/CVE-2025-21333-POC](https://github.com/Mukesh-blend/CVE-2025-21333-POC)
 - [aleongx/KQL_sentinel_CVE-2025-21333](https://github.com/aleongx/KQL_sentinel_CVE-2025-21333)
+- [SerabiLem/CVE-2025-21333-POC](https://github.com/SerabiLem/CVE-2025-21333-POC)
+- [160102/CVE-2025-21333-POC](https://github.com/160102/CVE-2025-21333-POC)
 
 ### CVE-2025-21385 (2025-01-09)
 
@@ -658,6 +660,13 @@
 
 - [Nxploited/CVE-2025-28915](https://github.com/Nxploited/CVE-2025-28915)
 - [Pei4AN/CVE-2025-28915](https://github.com/Pei4AN/CVE-2025-28915)
+
+### CVE-2025-29384 (2025-03-14)
+
+<code>In Tenda AC9 v1.0 V15.03.05.14_multi, the wanMTU parameter of /goform/AdvSetMacMtuWan has a stack overflow vulnerability, which can lead to remote arbitrary code execution.
+</code>
+
+- [Otsmane-Ahmed/cve-2025-29384-poc](https://github.com/Otsmane-Ahmed/cve-2025-29384-poc)
 
 ### CVE-2025-30066 (2025-03-15)
 
@@ -9778,6 +9787,13 @@
 - [Chocapikk/CVE-2024-56145](https://github.com/Chocapikk/CVE-2024-56145)
 - [Sachinart/CVE-2024-56145-craftcms-rce](https://github.com/Sachinart/CVE-2024-56145-craftcms-rce)
 
+### CVE-2024-56249 (2025-01-02)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Webdeclic WPMasterToolKit allows Upload a Web Shell to a Web Server.This issue affects WPMasterToolKit: from n/a through 1.13.1.
+</code>
+
+- [Nxploited/CVE-2024-56249](https://github.com/Nxploited/CVE-2024-56249)
+
 ### CVE-2024-56264 (2025-01-02)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in Beee ACF City Selector allows Upload a Web Shell to a Web Server.This issue affects ACF City Selector: from n/a through 1.14.0.
@@ -9897,6 +9913,13 @@
 </code>
 
 - [ipratheep/CVE-2024-56924](https://github.com/ipratheep/CVE-2024-56924)
+
+### CVE-2024-57040 (2025-02-26)
+
+<code>TL-WR845N(UN)_V4_200909 and TL-WR845N(UN)_V4_190219 was discovered to contain a hardcoded password for the root account which can be obtained via a brute force attack.
+</code>
+
+- [absholi7ly/Poc-CVE-2024-57040](https://github.com/absholi7ly/Poc-CVE-2024-57040)
 
 ### CVE-2024-57175 (2025-02-03)
 
@@ -11507,6 +11530,13 @@
 </code>
 
 - [dywsy21/CVE-2023-6350_Reproduction](https://github.com/dywsy21/CVE-2023-6350_Reproduction)
+
+### CVE-2023-6360 (2023-11-30)
+
+<code>The 'My Calendar' WordPress Plugin, version &lt; 3.4.22 is affected by an unauthenticated SQL injection vulnerability in the 'from' and 'to' parameters in the '/my-calendar/v1/events' rest route.
+</code>
+
+- [mr-won/CVE-2023-6360](https://github.com/mr-won/CVE-2023-6360)
 
 ### CVE-2023-6387 (2024-02-02)
 
@@ -17344,6 +17374,13 @@
 - [Danyw24/blueXploit](https://github.com/Danyw24/blueXploit)
 - [xG3nesis/RustyInjector](https://github.com/xG3nesis/RustyInjector)
 
+### CVE-2023-45878 (2023-11-14)
+
+<code>GibbonEdu Gibbon version 25.0.1 and before allows Arbitrary File Write because rubrics_visualise_saveAjax.phps does not require authentication. The endpoint accepts the img, path, and gibbonPersonID parameters. The img parameter is expected to be a base64 encoded image. If the path parameter is set, the defined path is used as the destination folder, concatenated with the absolute path of the installation directory. The content of the img parameter is base64 decoded and written to the defined file path. This allows creation of PHP files that permit Remote Code Execution (unauthenticated).
+</code>
+
+- [dgoorden/CVE-2023-45878](https://github.com/dgoorden/CVE-2023-45878)
+
 ### CVE-2023-45966 (2023-10-23)
 
 <code>umputun remark42 version 1.12.1 and before has a Blind Server-Side Request Forgery (SSRF) vulnerability.
@@ -19620,6 +19657,13 @@
 </code>
 
 - [momika233/CVE-2022-3656](https://github.com/momika233/CVE-2022-3656)
+
+### CVE-2022-3689 (2022-11-28)
+
+<code>The HTML Forms WordPress plugin before 1.3.25 does not properly properly escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by high privilege users
+</code>
+
+- [mr-won/CVE-2022-3689](https://github.com/mr-won/CVE-2022-3689)
 
 ### CVE-2022-3699 (2023-10-24)
 
