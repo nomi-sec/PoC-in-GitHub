@@ -52,7 +52,6 @@
 - [ishwardeepp/CVE-2025-0411-MoTW-PoC](https://github.com/ishwardeepp/CVE-2025-0411-MoTW-PoC)
 - [cesarbtakeda/7-Zip-CVE-2025-0411-POC](https://github.com/cesarbtakeda/7-Zip-CVE-2025-0411-POC)
 - [dpextreme/7-Zip-CVE-2025-0411-POC](https://github.com/dpextreme/7-Zip-CVE-2025-0411-POC)
-- [SalehAlgnay/7-Zip-CVE-2025-0411-POC](https://github.com/SalehAlgnay/7-Zip-CVE-2025-0411-POC)
 
 ### CVE-2025-0851 (2025-01-29)
 
@@ -338,6 +337,7 @@
 - [FY036/cve-2025-24813_poc](https://github.com/FY036/cve-2025-24813_poc)
 - [charis3306/CVE-2025-24813](https://github.com/charis3306/CVE-2025-24813)
 - [issamjr/CVE-2025-24813-Scanner](https://github.com/issamjr/CVE-2025-24813-Scanner)
+- [imbas007/CVE-2025-24813-apache-tomcat](https://github.com/imbas007/CVE-2025-24813-apache-tomcat)
 
 ### CVE-2025-24893 (2025-02-20)
 
