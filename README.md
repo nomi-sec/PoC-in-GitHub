@@ -242,6 +242,13 @@
 
 - [Stolichnayer/CVE-2025-22828](https://github.com/Stolichnayer/CVE-2025-22828)
 
+### CVE-2025-22954 (2025-03-12)
+
+<code>GetLateOrMissingIssues in C4/Serials.pm in Koha before 24.11.02 allows SQL Injection in /serials/lateissues-export.pl via the supplierid or serialid parameter.
+</code>
+
+- [RandomRobbieBF/CVE-2025-22954](https://github.com/RandomRobbieBF/CVE-2025-22954)
+
 ### CVE-2025-22964 (2025-01-15)
 
 <code>DDSN Interactive cm3 Acora CMS version 10.1.1 has an unauthenticated time-based blind SQL Injection vulnerability caused by insufficient input sanitization and validation in the &quot;table&quot; parameter. This flaw allows attackers to inject malicious SQL queries by directly incorporating user-supplied input into database queries without proper escaping or validation. Exploiting this issue enables unauthorized access, manipulation of data, or exposure of sensitive information, posing significant risks to the integrity and confidentiality of the application.
@@ -46832,7 +46839,7 @@
 - [p1ckzi/CVE-2017-9841](https://github.com/p1ckzi/CVE-2017-9841)
 - [jax7sec/CVE-2017-9841](https://github.com/jax7sec/CVE-2017-9841)
 - [mileticluka1/eval-stdin](https://github.com/mileticluka1/eval-stdin)
-- [dream434/CVE-2017-9841-](https://github.com/dream434/CVE-2017-9841-)
+- [dream434/CVE-2017-9841](https://github.com/dream434/CVE-2017-9841)
 - [MadExploits/PHPunit-Exploit](https://github.com/MadExploits/PHPunit-Exploit)
 - [MrG3P5/CVE-2017-9841](https://github.com/MrG3P5/CVE-2017-9841)
 - [Chocapikk/CVE-2017-9841](https://github.com/Chocapikk/CVE-2017-9841)
