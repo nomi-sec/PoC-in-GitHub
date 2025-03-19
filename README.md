@@ -170,7 +170,6 @@
 - [MrAle98/CVE-2025-21333-POC](https://github.com/MrAle98/CVE-2025-21333-POC)
 - [Mukesh-blend/CVE-2025-21333-POC](https://github.com/Mukesh-blend/CVE-2025-21333-POC)
 - [aleongx/KQL_sentinel_CVE-2025-21333](https://github.com/aleongx/KQL_sentinel_CVE-2025-21333)
-- [SerabiLem/CVE-2025-21333-POC](https://github.com/SerabiLem/CVE-2025-21333-POC)
 - [160102/CVE-2025-21333-POC](https://github.com/160102/CVE-2025-21333-POC)
 
 ### CVE-2025-21385 (2025-01-09)
@@ -350,7 +349,6 @@
 - [issamjr/CVE-2025-24813-Scanner](https://github.com/issamjr/CVE-2025-24813-Scanner)
 - [imbas007/CVE-2025-24813-apache-tomcat](https://github.com/imbas007/CVE-2025-24813-apache-tomcat)
 - [msadeghkarimi/CVE-2025-24813-Exploit](https://github.com/msadeghkarimi/CVE-2025-24813-Exploit)
-- [naikordian/CVE-2025-24813](https://github.com/naikordian/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -43120,6 +43118,7 @@
 - [r0lh/CVE-2018-7600](https://github.com/r0lh/CVE-2018-7600)
 - [killeveee/CVE-2018-7600](https://github.com/killeveee/CVE-2018-7600)
 - [raytran54/CVE-2018-7600](https://github.com/raytran54/CVE-2018-7600)
+- [mr-won/CVE-2018-7600.](https://github.com/mr-won/CVE-2018-7600.)
 
 ### CVE-2018-7602 (2018-07-19)
 
