@@ -124,6 +124,7 @@
 </code>
 
 - [gbrsh/CVE-2025-1661](https://github.com/gbrsh/CVE-2025-1661)
+- [MuhammadWaseem29/CVE-2025-1661](https://github.com/MuhammadWaseem29/CVE-2025-1661)
 
 ### CVE-2025-1716 (2025-02-26)
 
@@ -19131,7 +19132,6 @@
 - [0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944](https://github.com/0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944)
 - [Robocopsita/CVE-2022-0944_RCE_POC](https://github.com/Robocopsita/CVE-2022-0944_RCE_POC)
 - [toneillcodes/CVE-2022-0944](https://github.com/toneillcodes/CVE-2022-0944)
-- [LipeOzyy/SQLPad-RCE-Exploit-CVE-2022-0944](https://github.com/LipeOzyy/SQLPad-RCE-Exploit-CVE-2022-0944)
 - [0xDTC/SQLPad-6.10.0-Exploit-CVE-2022-0944](https://github.com/0xDTC/SQLPad-6.10.0-Exploit-CVE-2022-0944)
 
 ### CVE-2022-0952 (2022-05-02)
