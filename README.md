@@ -8615,6 +8615,12 @@
 
 - [Exek1el/CVE-2024-48589](https://github.com/Exek1el/CVE-2024-48589)
 
+### CVE-2024-48590
+- [GCatt-AS/CVE-2024-48590](https://github.com/GCatt-AS/CVE-2024-48590)
+
+### CVE-2024-48591
+- [GCatt-AS/CVE-2024-48591](https://github.com/GCatt-AS/CVE-2024-48591)
+
 ### CVE-2024-48605 (2024-10-22)
 
 <code>An issue in Helakuru Desktop Application v1.1 allows a local attacker to execute arbitrary code via the lack of proper validation of the wow64log.dll file.
@@ -17451,6 +17457,7 @@
 </code>
 
 - [dgoorden/CVE-2023-45878](https://github.com/dgoorden/CVE-2023-45878)
+- [PaulDHaes/CVE-2023-45878-POC](https://github.com/PaulDHaes/CVE-2023-45878-POC)
 
 ### CVE-2023-45966 (2023-10-23)
 
@@ -34061,6 +34068,7 @@
 - [f4T1H21/CVE-2020-7247](https://github.com/f4T1H21/CVE-2020-7247)
 - [SimonSchoeni/CVE-2020-7247-POC](https://github.com/SimonSchoeni/CVE-2020-7247-POC)
 - [presentdaypresenttime/shai_hulud](https://github.com/presentdaypresenttime/shai_hulud)
+- [minhluannguyen/CVE-2020-7247-reproducer](https://github.com/minhluannguyen/CVE-2020-7247-reproducer)
 
 ### CVE-2020-7283 (2020-07-03)
 
