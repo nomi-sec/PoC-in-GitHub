@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2025
+### CVE-2025-0086
+- [Mahesh-970/CVE-2025-0086](https://github.com/Mahesh-970/CVE-2025-0086)
+
 ### CVE-2025-0087
 - [SpiralBL0CK/CVE-2025-0087-](https://github.com/SpiralBL0CK/CVE-2025-0087-)
 
@@ -1485,7 +1488,6 @@
 <code>Eine Schwachstelle wurde in D-Link DNS-320L, DNS-325, DNS-327L and DNS-340L bis 20240403 entdeckt. Sie wurde als sehr kritisch eingestuft. Betroffen davon ist ein unbekannter Prozess der Datei /cgi-bin/nas_sharing.cgi der Komponente HTTP GET Request Handler. Mit der Manipulation des Arguments user mit der Eingabe messagebus mit unbekannten Daten kann eine hard-coded credentials-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [nickswink/D-Link-NAS-Devices-Unauthenticated-RCE](https://github.com/nickswink/D-Link-NAS-Devices-Unauthenticated-RCE)
 - [aliask/dinkleberry](https://github.com/aliask/dinkleberry)
 
 ### CVE-2024-3273 (2024-04-04)
@@ -5320,7 +5322,7 @@
 
 ### CVE-2024-27564 (2024-03-05)
 
-<code>A Server-Side Request Forgery (SSRF) in pictureproxy.php of ChatGPT commit f9f4bbc allows attackers to force the application to make arbitrary requests via injection of crafted URLs into the urlparameter.
+<code>pictureproxy.php in the dirk1983 mm1.ltd source code f9f4bbc allows SSRF via the url parameter. NOTE: the references section has an archived copy of pictureproxy.php from its original GitHub location, but the repository name might later change because it is misleading.
 </code>
 
 - [MuhammadWaseem29/SSRF-Exploit-CVE-2024-27564](https://github.com/MuhammadWaseem29/SSRF-Exploit-CVE-2024-27564)
@@ -6236,6 +6238,13 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-32709-Poc](https://github.com/truonghuuphuc/CVE-2024-32709-Poc)
+
+### CVE-2024-32962 (2024-05-02)
+
+<code>xml-crypto is an xml digital signature and encryption library for Node.js. In affected versions the default configuration does not check authorization of the signer, it only checks the validity of the signature per section 3.2.2 of the w3 xmldsig-core-20080610 spec. As such, without additional validation steps, the default configuration allows a malicious actor to re-sign an XML document, place the certificate in a `&lt;KeyInfo /&gt;` element, and pass `xml-crypto` default validation checks. As a result `xml-crypto` trusts by default any certificate provided via digitally signed XML document's `&lt;KeyInfo /&gt;`. `xml-crypto` prefers to use any certificate provided via digitally signed XML document's `&lt;KeyInfo /&gt;` even if library was configured to use specific certificate (`publicCert`) for signature verification purposes.  An attacker can spoof signature verification by modifying XML document and replacing existing signature with signature generated with malicious private key (created by attacker) and by attaching that private key's certificate to `&lt;KeyInfo /&gt;` element. This vulnerability is combination of changes introduced to `4.0.0` on pull request 301 / commit `c2b83f98` and has been addressed in version 6.0.0 with pull request 445 / commit `21201723d`. Users are advised to upgrade. Users unable to upgrade may either check the certificate extracted via `getCertFromKeyInfo` against trusted certificates before accepting the results of the validation or set `xml-crypto's getCertFromKeyInfo` to `() =&gt; undefined` forcing `xml-crypto` to use an explicitly configured `publicCert` or `privateKey` for signature verification.
+</code>
+
+- [absholi7ly/Poc-CVE-2024-32962-xml-crypto](https://github.com/absholi7ly/Poc-CVE-2024-32962-xml-crypto)
 
 ### CVE-2024-33111 (2024-05-06)
 
@@ -28046,6 +28055,7 @@
 <code>A security issue was discovered in Kubernetes where a user may be able to create a container with subpath volume mounts to access files &amp; directories outside of the volume, including on the host filesystem.
 </code>
 
+- [Betep0k/CVE-2021-25741](https://github.com/Betep0k/CVE-2021-25741)
 - [cdxiaodong/CVE-2021-25741](https://github.com/cdxiaodong/CVE-2021-25741)
 
 ### CVE-2021-25790 (2021-07-23)
@@ -29158,13 +29168,6 @@
 </code>
 
 - [daftspunk/CVE-2021-32648](https://github.com/daftspunk/CVE-2021-32648)
-
-### CVE-2021-32682 (2021-06-14)
-
-<code>elFinder is an open-source file manager for web, written in JavaScript using jQuery UI. Several vulnerabilities affect elFinder 2.1.58. These vulnerabilities can allow an attacker to execute arbitrary code and commands on the server hosting the elFinder PHP connector, even with minimal configuration. The issues were patched in version 2.1.59. As a workaround, ensure the connector is not exposed without authentication.
-</code>
-
-- [nickswink/CVE-2021-32682](https://github.com/nickswink/CVE-2021-32682)
 
 ### CVE-2021-32708 (2021-06-24)
 
