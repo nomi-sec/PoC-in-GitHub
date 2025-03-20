@@ -143,6 +143,13 @@
 
 - [McTavishSue/CVE-2025-2233](https://github.com/McTavishSue/CVE-2025-2233)
 
+### CVE-2025-2476 (2025-03-19)
+
+<code>Use after free in Lens in Google Chrome prior to 134.0.6998.117 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Critical)
+</code>
+
+- [McTavishSue/CVE-2025-2476](https://github.com/McTavishSue/CVE-2025-2476)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -600,7 +607,7 @@
 
 ### CVE-2025-26318 (2025-03-04)
 
-<code>Insecure permissions in TSplus Remote Access v17.30 allow attackers to retrieve a list of all domain accounts currently connected to the application.
+<code>hb.exe in TSplus Remote Access before 17.30 2024-10-30 allows remote attackers to retrieve a list of all domain accounts currently connected to the application.
 </code>
 
 - [Frozenka/CVE-2025-26318](https://github.com/Frozenka/CVE-2025-26318)
@@ -8615,10 +8622,18 @@
 
 - [Exek1el/CVE-2024-48589](https://github.com/Exek1el/CVE-2024-48589)
 
-### CVE-2024-48590
+### CVE-2024-48590 (2025-03-20)
+
+<code>Inflectra SpiraTeam 7.2.00 is vulnerable to Server-Side Request Forgery (SSRF) via the NewsReaderService. This allows an attacker to escalate privileges and obtain sensitive information.
+</code>
+
 - [GCatt-AS/CVE-2024-48590](https://github.com/GCatt-AS/CVE-2024-48590)
 
-### CVE-2024-48591
+### CVE-2024-48591 (2025-03-20)
+
+<code>Inflectra SpiraTeam 7.2.00 is vulnerable to Cross Site Scripting (XSS). A specially crafted SVG file can be uploaded that will render and execute JavaScript upon direct viewing.
+</code>
+
 - [GCatt-AS/CVE-2024-48591](https://github.com/GCatt-AS/CVE-2024-48591)
 
 ### CVE-2024-48605 (2024-10-22)
@@ -18535,7 +18550,6 @@
 - [NikitaPark/CVE-2023-50164-PoC](https://github.com/NikitaPark/CVE-2023-50164-PoC)
 - [Trackflaw/CVE-2024-10924-Wordpress-Docker](https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker)
 - [Pixel-DefaultBR/CVE-2023-50164](https://github.com/Pixel-DefaultBR/CVE-2023-50164)
-- [heavyyeast/cve-2023-50164-poc](https://github.com/heavyyeast/cve-2023-50164-poc)
 
 ### CVE-2023-50226 (2024-05-03)
 
@@ -22726,8 +22740,8 @@
 - [k508/CVE-2022-30190](https://github.com/k508/CVE-2022-30190)
 - [amitniz/follina_cve_2022-30190](https://github.com/amitniz/follina_cve_2022-30190)
 - [Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab](https://github.com/Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab)
-- [SrCroqueta/CVE-2022-30190_Temporary_Fix](https://github.com/SrCroqueta/CVE-2022-30190_Temporary_Fix)
-- [SrCroqueta/CVE-2022-30190_Temporary_Fix_Source_Code](https://github.com/SrCroqueta/CVE-2022-30190_Temporary_Fix_Source_Code)
+- [JotaQC/CVE-2022-30190_Temporary_Fix](https://github.com/JotaQC/CVE-2022-30190_Temporary_Fix)
+- [JotaQC/CVE-2022-30190_Temporary_Fix_Source_Code](https://github.com/JotaQC/CVE-2022-30190_Temporary_Fix_Source_Code)
 - [SonicWave21/Follina-CVE-2022-30190-Unofficial-patch](https://github.com/SonicWave21/Follina-CVE-2022-30190-Unofficial-patch)
 - [nanaao/PicusSecurity4.Week.Repo](https://github.com/nanaao/PicusSecurity4.Week.Repo)
 - [XxToxicScriptxX/CVE-2022-30190](https://github.com/XxToxicScriptxX/CVE-2022-30190)
@@ -49136,6 +49150,13 @@
 - [artem-smotrakov/cve-2016-1000027-poc](https://github.com/artem-smotrakov/cve-2016-1000027-poc)
 - [tina94happy/Spring-Web-5xx-Mitigated-version](https://github.com/tina94happy/Spring-Web-5xx-Mitigated-version)
 - [yihtserns/spring-web-without-remoting](https://github.com/yihtserns/spring-web-without-remoting)
+
+### CVE-2016-1000229 (2019-12-20)
+
+<code>swagger-ui has XSS in key names
+</code>
+
+- [barteeees/SwaggerUI-CVE-2016-1000229](https://github.com/barteeees/SwaggerUI-CVE-2016-1000229)
 
 
 ## 2015
