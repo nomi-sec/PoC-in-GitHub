@@ -300,6 +300,8 @@
 
 - [0x6rss/CVE-2025-24071_PoC](https://github.com/0x6rss/CVE-2025-24071_PoC)
 - [FOLKS-iwd/CVE-2025-24071-msfvenom](https://github.com/FOLKS-iwd/CVE-2025-24071-msfvenom)
+- [aleongx/CVE-2025-24071](https://github.com/aleongx/CVE-2025-24071)
+- [ctabango/CVE-2025-24071_PoCExtra](https://github.com/ctabango/CVE-2025-24071_PoCExtra)
 
 ### CVE-2025-24104 (2025-01-27)
 
@@ -356,6 +358,7 @@
 - [imbas007/CVE-2025-24813-apache-tomcat](https://github.com/imbas007/CVE-2025-24813-apache-tomcat)
 - [msadeghkarimi/CVE-2025-24813-Exploit](https://github.com/msadeghkarimi/CVE-2025-24813-Exploit)
 - [michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813](https://github.com/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813)
+- [ps-interactive/lab-cve-2025-24813](https://github.com/ps-interactive/lab-cve-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -8017,6 +8020,13 @@
 
 - [slds1/explt](https://github.com/slds1/explt)
 
+### CVE-2024-44313 (2025-03-18)
+
+<code>TastyIgniter 3.7.6 contains an Incorrect Access Control vulnerability in the invoice() function within Orders.php which allows unauthorized users to access and generate invoices due to missing permission checks.
+</code>
+
+- [cnetsec/CVE-2024-44313](https://github.com/cnetsec/CVE-2024-44313)
+
 ### CVE-2024-44337 (2024-10-15)
 
 <code>The package `github.com/gomarkdown/markdown` is a Go library for parsing Markdown text and rendering as HTML. Prior to pseudoversion `v0.0.0-20240729232818-a2a9c4f`, which corresponds with commit `a2a9c4f76ef5a5c32108e36f7c47f8d310322252`, there was a logical problem in the paragraph function of the parser/block.go file, which allowed a remote attacker to cause a denial of service (DoS) condition by providing a tailor-made input that caused an infinite loop, causing the program to hang and consume resources indefinitely. Submit `a2a9c4f76ef5a5c32108e36f7c47f8d310322252` contains fixes to this problem.
@@ -9961,7 +9971,7 @@
 
 ### CVE-2024-57040 (2025-02-26)
 
-<code>TL-WR845N(UN)_V4_200909 and TL-WR845N(UN)_V4_190219 was discovered to contain a hardcoded password for the root account which can be obtained via a brute force attack.
+<code>TL-WR845N(UN)_V4_200909 and TL-WR845N(UN)_V4_190219 was discovered to contain a hardcoded password for the root account which can be obtained via a brute force attack through physical access to the router.
 </code>
 
 - [absholi7ly/Poc-CVE-2024-57040](https://github.com/absholi7ly/Poc-CVE-2024-57040)
@@ -28036,7 +28046,6 @@
 <code>A security issue was discovered in Kubernetes where a user may be able to create a container with subpath volume mounts to access files &amp; directories outside of the volume, including on the host filesystem.
 </code>
 
-- [Betep0k/CVE-2021-25741](https://github.com/Betep0k/CVE-2021-25741)
 - [cdxiaodong/CVE-2021-25741](https://github.com/cdxiaodong/CVE-2021-25741)
 
 ### CVE-2021-25790 (2021-07-23)
@@ -30766,6 +30775,7 @@
 - [Taldrid1/cve-2021-41773](https://github.com/Taldrid1/cve-2021-41773)
 - [tiemio/SSH-key-and-RCE-PoC-for-CVE-2021-41773](https://github.com/tiemio/SSH-key-and-RCE-PoC-for-CVE-2021-41773)
 - [Vanshuk-Bhagat/Apache-HTTP-Server-Vulnerabilities-CVE-2021-41773-and-CVE-2021-42013](https://github.com/Vanshuk-Bhagat/Apache-HTTP-Server-Vulnerabilities-CVE-2021-41773-and-CVE-2021-42013)
+- [javaamo/CVE-2021-41773](https://github.com/javaamo/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
