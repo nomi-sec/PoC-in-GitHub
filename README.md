@@ -369,6 +369,7 @@
 - [msadeghkarimi/CVE-2025-24813-Exploit](https://github.com/msadeghkarimi/CVE-2025-24813-Exploit)
 - [michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813](https://github.com/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813)
 - [ps-interactive/lab-cve-2025-24813](https://github.com/ps-interactive/lab-cve-2025-24813)
+- [n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813](https://github.com/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -8412,6 +8413,13 @@
 </code>
 
 - [devhaozi/CVE-2024-46901](https://github.com/devhaozi/CVE-2024-46901)
+
+### CVE-2024-46981 (2025-01-06)
+
+<code>Redis is an open source, in-memory database that persists on disk. An authenticated user may use a specially crafted Lua script to manipulate the garbage collector and potentially lead to remote code execution. The problem is fixed in 7.4.2, 7.2.7, and 6.2.17. An additional workaround to mitigate the problem without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to restrict EVAL and EVALSHA commands.
+</code>
+
+- [publicqi/CVE-2024-46981](https://github.com/publicqi/CVE-2024-46981)
 
 ### CVE-2024-46982 (2024-09-17)
 
@@ -17473,6 +17481,7 @@
 
 - [dgoorden/CVE-2023-45878](https://github.com/dgoorden/CVE-2023-45878)
 - [PaulDHaes/CVE-2023-45878-POC](https://github.com/PaulDHaes/CVE-2023-45878-POC)
+- [killercd/CVE-2023-45878](https://github.com/killercd/CVE-2023-45878)
 
 ### CVE-2023-45966 (2023-10-23)
 
@@ -28076,7 +28085,6 @@
 <code>A security issue was discovered in Kubernetes where a user may be able to create a container with subpath volume mounts to access files &amp; directories outside of the volume, including on the host filesystem.
 </code>
 
-- [Betep0k/CVE-2021-25741](https://github.com/Betep0k/CVE-2021-25741)
 - [cdxiaodong/CVE-2021-25741](https://github.com/cdxiaodong/CVE-2021-25741)
 
 ### CVE-2021-25790 (2021-07-23)
@@ -30800,6 +30808,7 @@
 - [tiemio/SSH-key-and-RCE-PoC-for-CVE-2021-41773](https://github.com/tiemio/SSH-key-and-RCE-PoC-for-CVE-2021-41773)
 - [Vanshuk-Bhagat/Apache-HTTP-Server-Vulnerabilities-CVE-2021-41773-and-CVE-2021-42013](https://github.com/Vanshuk-Bhagat/Apache-HTTP-Server-Vulnerabilities-CVE-2021-41773-and-CVE-2021-42013)
 - [javaamo/CVE-2021-41773](https://github.com/javaamo/CVE-2021-41773)
+- [ashique-thaha/CVE-2021-41773-POC](https://github.com/ashique-thaha/CVE-2021-41773-POC)
 
 ### CVE-2021-41784 (2022-08-29)
 
