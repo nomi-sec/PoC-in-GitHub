@@ -1,9 +1,6 @@
 # PoC in GitHub
 
 ## 2025
-### CVE-2025-0000000
-- [nsvizp/cve-2025-0000000](https://github.com/nsvizp/cve-2025-0000000)
-
 ### CVE-2025-0086
 - [Mahesh-970/CVE-2025-0086](https://github.com/Mahesh-970/CVE-2025-0086)
 
@@ -290,12 +287,26 @@
 - [hakivvi/CVE-2025-23369](https://github.com/hakivvi/CVE-2025-23369)
 - [Arian91/CVE-2025-23369_SAML_bypass](https://github.com/Arian91/CVE-2025-23369_SAML_bypass)
 
+### CVE-2025-23922 (2025-01-16)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in Harsh iSpring Embedder allows Upload a Web Shell to a Web Server.This issue affects iSpring Embedder: from n/a through 1.0.
+</code>
+
+- [Nxploited/CVE-2025-23922](https://github.com/Nxploited/CVE-2025-23922)
+
 ### CVE-2025-23942 (2025-01-22)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in NgocCode WP Load Gallery allows Upload a Web Shell to a Web Server. This issue affects WP Load Gallery: from n/a through 2.1.6.
 </code>
 
 - [Nxploited/CVE-2025-23942-poc](https://github.com/Nxploited/CVE-2025-23942-poc)
+
+### CVE-2025-24011 (2025-01-21)
+
+<code>Umbraco is a free and open source .NET content management system. Starting in version 14.0.0 and prior to versions 14.3.2 and 15.1.2, it's possible to determine whether an account exists based on an analysis of response codes and timing of Umbraco management API responses. Versions 14.3.2 and 15.1.2 contain a patch. No known workarounds are available.
+</code>
+
+- [Puben/CVE-2025-24011-PoC](https://github.com/Puben/CVE-2025-24011-PoC)
 
 ### CVE-2025-24016 (2025-02-10)
 
@@ -708,6 +719,13 @@
 </code>
 
 - [Otsmane-Ahmed/cve-2025-29384-poc](https://github.com/Otsmane-Ahmed/cve-2025-29384-poc)
+
+### CVE-2025-29814 (2025-03-21)
+
+<code>Improper authorization in Microsoft Partner Center allows an authorized attacker to elevate privileges over a network.
+</code>
+
+- [SatiresHashi/CVE-2025-29814](https://github.com/SatiresHashi/CVE-2025-29814)
 
 ### CVE-2025-30066 (2025-03-15)
 
@@ -12335,6 +12353,7 @@
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
 - [Romanc9/Gui-poc-test](https://github.com/Romanc9/Gui-poc-test)
 - [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
+- [illegalbrea/CVE-2023-21839](https://github.com/illegalbrea/CVE-2023-21839)
 
 ### CVE-2023-21887 (2023-01-17)
 
@@ -49133,6 +49152,7 @@
 
 - [rvizx/CVE-2016-10924](https://github.com/rvizx/CVE-2016-10924)
 - [LGenAgul/Wordpress-ebook-CVE-2016-10924](https://github.com/LGenAgul/Wordpress-ebook-CVE-2016-10924)
+- [808ale/cve-2016-10924-POC](https://github.com/808ale/cve-2016-10924-POC)
 
 ### CVE-2016-10956 (2019-09-16)
 
