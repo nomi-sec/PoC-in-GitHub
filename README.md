@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2025
+### CVE-2025-0000000
+- [nsvizp/cve-2025-0000000](https://github.com/nsvizp/cve-2025-0000000)
+
 ### CVE-2025-0086
 - [Mahesh-970/CVE-2025-0086](https://github.com/Mahesh-970/CVE-2025-0086)
 
@@ -312,6 +315,7 @@
 - [FOLKS-iwd/CVE-2025-24071-msfvenom](https://github.com/FOLKS-iwd/CVE-2025-24071-msfvenom)
 - [aleongx/CVE-2025-24071](https://github.com/aleongx/CVE-2025-24071)
 - [ctabango/CVE-2025-24071_PoCExtra](https://github.com/ctabango/CVE-2025-24071_PoCExtra)
+- [shacojx/CVE-2025-24071-Exploit](https://github.com/shacojx/CVE-2025-24071-Exploit)
 
 ### CVE-2025-24104 (2025-01-27)
 
@@ -1847,6 +1851,7 @@
 - [Didarul342/CVE-2024-4577](https://github.com/Didarul342/CVE-2024-4577)
 - [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
 - [Night-have-dreams/php-cgi-Injector](https://github.com/Night-have-dreams/php-cgi-Injector)
+- [mistakes1337/CVE-2024-4577](https://github.com/mistakes1337/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
