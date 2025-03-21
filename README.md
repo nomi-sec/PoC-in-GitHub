@@ -2839,6 +2839,7 @@
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
+- [experiencedt/CVE-2024-9474](https://github.com/experiencedt/CVE-2024-9474)
 
 ### CVE-2024-9513 (2024-10-04)
 
@@ -3229,6 +3230,20 @@
 </code>
 
 - [unknown-user-from/CVE-2024-11003-PoC](https://github.com/unknown-user-from/CVE-2024-11003-PoC)
+
+### CVE-2024-11040 (2025-03-20)
+
+<code>vllm-project vllm version 0.5.2.2 is vulnerable to Denial of Service attacks. The issue occurs in the 'POST /v1/completions' and 'POST /v1/embeddings' endpoints. For 'POST /v1/completions', enabling 'use_beam_search' and setting 'best_of' to a high value causes the HTTP connection to time out, with vllm ceasing effective work and the request remaining in a 'pending' state, blocking new completion requests. For 'POST /v1/embeddings', supplying invalid inputs to the JSON object causes an issue in the background loop, resulting in all further completion requests returning a 500 HTTP error code ('Internal Server Error') until vllm is restarted.
+</code>
+
+- [gothburz/CVE-2024-11040](https://github.com/gothburz/CVE-2024-11040)
+
+### CVE-2024-11042 (2025-03-20)
+
+<code>In invoke-ai/invokeai version v5.0.2, the web API `POST /api/v1/images/delete` is vulnerable to Arbitrary File Deletion. This vulnerability allows unauthorized attackers to delete arbitrary files on the server, potentially including critical or sensitive system files such as SSH keys, SQLite databases, and configuration files. This can impact the integrity and availability of applications relying on these files.
+</code>
+
+- [gothburz/CVE-2024-11042](https://github.com/gothburz/CVE-2024-11042)
 
 ### CVE-2024-11199 (2024-11-23)
 
@@ -8869,6 +8884,7 @@
 - [dragonked2/CVE-2024-50379-POC](https://github.com/dragonked2/CVE-2024-50379-POC)
 - [dkstar11q/CVE-2024-50379-nuclei](https://github.com/dkstar11q/CVE-2024-50379-nuclei)
 - [pwnosec/CVE-2024-50379](https://github.com/pwnosec/CVE-2024-50379)
+- [carefreegarb/CVE-2024-50379](https://github.com/carefreegarb/CVE-2024-50379)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -11611,6 +11627,7 @@
 </code>
 
 - [s1204IT/CVE-2023-6241](https://github.com/s1204IT/CVE-2023-6241)
+- [ilGobbo00/CVE-2023-6241-Pixel7_Adaptation](https://github.com/ilGobbo00/CVE-2023-6241-Pixel7_Adaptation)
 
 ### CVE-2023-6246 (2024-01-31)
 
@@ -51625,7 +51642,7 @@
 
 - [cd6629/CVE-2012-2982-Python-PoC](https://github.com/cd6629/CVE-2012-2982-Python-PoC)
 - [OstojaOfficial/CVE-2012-2982](https://github.com/OstojaOfficial/CVE-2012-2982)
-- [AlexJS6/CVE-2012-2982_Python](https://github.com/AlexJS6/CVE-2012-2982_Python)
+- [Gvmyz/CVE-2012-2982_Python](https://github.com/Gvmyz/CVE-2012-2982_Python)
 - [Ari-Weinberg/CVE-2012-2982](https://github.com/Ari-Weinberg/CVE-2012-2982)
 - [JohnHammond/CVE-2012-2982](https://github.com/JohnHammond/CVE-2012-2982)
 - [SpoofIMEI/CVE-2012-2982](https://github.com/SpoofIMEI/CVE-2012-2982)
