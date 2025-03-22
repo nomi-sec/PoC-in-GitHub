@@ -114,6 +114,13 @@
 
 - [Nxploited/CVE-2025-1307](https://github.com/Nxploited/CVE-2025-1307)
 
+### CVE-2025-1316 (2025-03-04)
+
+<code>Edimax IC-7100 does not properly neutralize requests. An attacker can create specially crafted requests to achieve remote code execution on the device
+</code>
+
+- [slockit/CVE-2025-1316](https://github.com/slockit/CVE-2025-1316)
+
 ### CVE-2025-1639 (2025-03-04)
 
 <code>The Animation Addons for Elementor Pro plugin for WordPress is vulnerable to unauthorized arbitrary plugin installation due to a missing capability check on the install_elementor_plugin_handler() function in all versions up to, and including, 1.6. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install and activate arbitrary plugins which can be leveraged to further infect a victim when Elementor is not activated on a vulnerable site.
@@ -9344,6 +9351,13 @@
 </code>
 
 - [TAM-K592/CVE-2024-52318](https://github.com/TAM-K592/CVE-2024-52318)
+
+### CVE-2024-52375 (2024-11-14)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Arttia Creative Datasets Manager by Arttia Creative.This issue affects Datasets Manager by Arttia Creative: from n/a through 1.5.
+</code>
+
+- [Nxploited/CVE-2024-52375](https://github.com/Nxploited/CVE-2024-52375)
 
 ### CVE-2024-52380 (2024-11-14)
 
