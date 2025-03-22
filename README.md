@@ -157,6 +157,13 @@
 
 - [McTavishSue/CVE-2025-2476](https://github.com/McTavishSue/CVE-2025-2476)
 
+### CVE-2025-2620 (2025-03-22)
+
+<code>In D-Link DAP-1620 1.03 wurde eine kritische Schwachstelle gefunden. Betroffen ist die Funktion mod_graph_auth_uri_handler der Datei /storage der Komponente Authentication Handler. Durch die Manipulation mit unbekannten Daten kann eine stack-based buffer overflow-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [Otsmane-Ahmed/CVE-2025-2620-poc](https://github.com/Otsmane-Ahmed/CVE-2025-2620-poc)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -394,6 +401,7 @@
 - [n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813](https://github.com/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813)
 - [Alaatk/CVE-2025-24813-POC](https://github.com/Alaatk/CVE-2025-24813-POC)
 - [MuhammadWaseem29/CVE-2025-24813](https://github.com/MuhammadWaseem29/CVE-2025-24813)
+- [tonyarris/CVE-2025-24813-PoC](https://github.com/tonyarris/CVE-2025-24813-PoC)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -735,6 +743,13 @@
 </code>
 
 - [SatiresHashi/CVE-2025-29814](https://github.com/SatiresHashi/CVE-2025-29814)
+
+### CVE-2025-29927 (2025-03-21)
+
+<code>Next.js is a React framework for building full-stack web applications. Prior to 14.2.25 and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 14.2.25 and 15.2.3.
+</code>
+
+- [serhalp/test-cve-2025-29927](https://github.com/serhalp/test-cve-2025-29927)
 
 ### CVE-2025-30066 (2025-03-15)
 
