@@ -3604,6 +3604,13 @@
 
 - [horizon3ai/Ivanti-EPM-Coercion-Vulnerabilities](https://github.com/horizon3ai/Ivanti-EPM-Coercion-Vulnerabilities)
 
+### CVE-2024-13346 (2025-02-13)
+
+<code>The Avada | Website Builder For WordPress &amp; WooCommerce theme for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 7.11.13. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.
+</code>
+
+- [tausifzaman/CVE-2024-13346](https://github.com/tausifzaman/CVE-2024-13346)
+
 ### CVE-2024-13375 (2025-01-18)
 
 <code>The Adifier System plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 3.1.7. This is due to the plugin not properly validating a user's identity prior to updating their details like password through the adifier_recover() function. This makes it possible for unauthenticated attackers to change arbitrary user's passwords, including administrators, and leverage that to gain access to their account.
@@ -48665,6 +48672,7 @@
 - [ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195](https://github.com/ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195)
 - [sakilahamed/Linux-Kernel-Exploit-LAB](https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB)
 - [ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195)
+- [LiEnby/PSSRoot](https://github.com/LiEnby/PSSRoot)
 
 ### CVE-2016-5345 (2018-01-23)
 
