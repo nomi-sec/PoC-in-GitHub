@@ -385,6 +385,8 @@
 - [michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813](https://github.com/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813)
 - [ps-interactive/lab-cve-2025-24813](https://github.com/ps-interactive/lab-cve-2025-24813)
 - [n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813](https://github.com/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813)
+- [Alaatk/CVE-2025-24813-POC](https://github.com/Alaatk/CVE-2025-24813-POC)
+- [MuhammadWaseem29/CVE-2025-24813](https://github.com/MuhammadWaseem29/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -734,6 +736,13 @@
 
 - [OS-pedrogustavobilro/test-changed-files](https://github.com/OS-pedrogustavobilro/test-changed-files)
 - [Checkmarx/Checkmarx-CVE-2025-30066-Detection-Tool](https://github.com/Checkmarx/Checkmarx-CVE-2025-30066-Detection-Tool)
+
+### CVE-2025-30144 (2025-03-19)
+
+<code>fast-jwt provides fast JSON Web Token (JWT) implementation. Prior to 5.0.6, the fast-jwt library does not properly validate the iss claim based on the RFC 7519. The iss (issuer) claim validation within the fast-jwt library permits an array of strings as a valid iss value. This design flaw enables a potential attack where a malicious actor crafts a JWT with an iss claim structured as ['https://attacker-domain/', 'https://valid-iss']. Due to the permissive validation, the JWT will be deemed valid. Furthermore, if the application relies on external libraries like get-jwks that do not independently validate the iss claim, the attacker can leverage this vulnerability to forge a JWT that will be accepted by the victim application. Essentially, the attacker can insert their own domain into the iss array, alongside the legitimate issuer, and bypass the intended security checks. This issue is fixed in 5.0.6.
+</code>
+
+- [tibrn/CVE-2025-30144](https://github.com/tibrn/CVE-2025-30144)
 
 
 ## 2024
@@ -8457,7 +8466,7 @@
 <code>Redis is an open source, in-memory database that persists on disk. An authenticated user may use a specially crafted Lua script to manipulate the garbage collector and potentially lead to remote code execution. The problem is fixed in 7.4.2, 7.2.7, and 6.2.17. An additional workaround to mitigate the problem without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to restrict EVAL and EVALSHA commands.
 </code>
 
-- [publicqi/CVE-2024-46981](https://github.com/publicqi/CVE-2024-46981)
+- [xsshk/CVE-2024-46981](https://github.com/xsshk/CVE-2024-46981)
 
 ### CVE-2024-46982 (2024-09-17)
 
@@ -48005,13 +48014,6 @@
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 - [zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln)
 - [BabyTeam1024/CVE-2016-0638](https://github.com/BabyTeam1024/CVE-2016-0638)
-
-### CVE-2016-0701 (2016-02-15)
-
-<code>The DH_check_pub_key function in crypto/dh/dh_check.c in OpenSSL 1.0.2 before 1.0.2f does not ensure that prime numbers are appropriate for Diffie-Hellman (DH) key exchange, which makes it easier for remote attackers to discover a private DH exponent by making multiple handshakes with a peer that chose an inappropriate number, as demonstrated by a number in an X9.42 file.
-</code>
-
-- [luanjampa/cve-2016-0701](https://github.com/luanjampa/cve-2016-0701)
 
 ### CVE-2016-0702 (2016-03-03)
 
