@@ -751,6 +751,10 @@
 
 - [serhalp/test-cve-2025-29927](https://github.com/serhalp/test-cve-2025-29927)
 - [Ademking/CVE-2025-29927](https://github.com/Ademking/CVE-2025-29927)
+- [6mile/nextjs-CVE-2025-29927](https://github.com/6mile/nextjs-CVE-2025-29927)
+- [azu/nextjs-cve-2025-29927-poc](https://github.com/azu/nextjs-cve-2025-29927-poc)
+- [lirantal/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/lirantal/vulnerable-nextjs-14-CVE-2025-29927)
+- [aydinnyunus/CVE-2025-29927](https://github.com/aydinnyunus/CVE-2025-29927)
 
 ### CVE-2025-30066 (2025-03-15)
 
@@ -2872,6 +2876,7 @@
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
 - [experiencedt/CVE-2024-9474](https://github.com/experiencedt/CVE-2024-9474)
+- [stupidgossi/CVE-2024-9474](https://github.com/stupidgossi/CVE-2024-9474)
 
 ### CVE-2024-9513 (2024-10-04)
 
@@ -4632,6 +4637,7 @@
 - [verylazytech/CVE-2024-23897](https://github.com/verylazytech/CVE-2024-23897)
 - [D1se0/CVE-2024-23897-Vulnerabilidad-Jenkins](https://github.com/D1se0/CVE-2024-23897-Vulnerabilidad-Jenkins)
 - [Marouane133/jenkins-lfi](https://github.com/Marouane133/jenkins-lfi)
+- [slytechroot/CVE-2024-23897](https://github.com/slytechroot/CVE-2024-23897)
 
 ### CVE-2024-23995 (2024-04-29)
 
@@ -9683,6 +9689,13 @@
 </code>
 
 - [jprx/CVE-2024-54507](https://github.com/jprx/CVE-2024-54507)
+
+### CVE-2024-54525 (2025-03-17)
+
+<code>A logic issue was addressed with improved file handling. This issue is fixed in visionOS 2.2, watchOS 11.2, tvOS 18.2, macOS Sequoia 15.2, iOS 18.2 and iPadOS 18.2. Restoring a maliciously crafted backup file may lead to modification of protected system files.
+</code>
+
+- [skadz108/MyBallsItch](https://github.com/skadz108/MyBallsItch)
 
 ### CVE-2024-54679 (2024-12-05)
 
