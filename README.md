@@ -8496,6 +8496,7 @@
 <code>Redis is an open source, in-memory database that persists on disk. An authenticated user may use a specially crafted Lua script to manipulate the garbage collector and potentially lead to remote code execution. The problem is fixed in 7.4.2, 7.2.7, and 6.2.17. An additional workaround to mitigate the problem without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to restrict EVAL and EVALSHA commands.
 </code>
 
+- [publicqi/CVE-2024-46981](https://github.com/publicqi/CVE-2024-46981)
 - [xsshk/CVE-2024-46981](https://github.com/xsshk/CVE-2024-46981)
 
 ### CVE-2024-46982 (2024-09-17)
@@ -21087,6 +21088,13 @@
 - [fork-bombed/CVE-2022-23131](https://github.com/fork-bombed/CVE-2022-23131)
 - [davidzzo23/CVE-2022-23131](https://github.com/davidzzo23/CVE-2022-23131)
 - [dagowda/Zabbix-cve-2022-23131-SSO-bypass](https://github.com/dagowda/Zabbix-cve-2022-23131-SSO-bypass)
+
+### CVE-2022-23134 (2022-01-13)
+
+<code>After the initial setup process, some steps of setup.php file are reachable not only by super-administrators, but by unauthenticated users as well. Malicious actor can pass step checks and potentially change the configuration of Zabbix Frontend.
+</code>
+
+- [TheN00bBuilder/cve-2022-23134-poc-and-writeup](https://github.com/TheN00bBuilder/cve-2022-23134-poc-and-writeup)
 
 ### CVE-2022-23222 (2022-01-14)
 
