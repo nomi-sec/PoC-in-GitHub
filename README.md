@@ -750,6 +750,7 @@
 </code>
 
 - [serhalp/test-cve-2025-29927](https://github.com/serhalp/test-cve-2025-29927)
+- [Ademking/CVE-2025-29927](https://github.com/Ademking/CVE-2025-29927)
 
 ### CVE-2025-30066 (2025-03-15)
 
@@ -8869,6 +8870,20 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-49607](https://github.com/RandomRobbieBF/CVE-2024-49607)
+
+### CVE-2024-49653 (2024-10-23)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in James Eggers Portfolleo portfolleo allows Upload a Web Shell to a Web Server.This issue affects Portfolleo: from n/a through 1.2.
+</code>
+
+- [Nxploited/CVE-2024-49653](https://github.com/Nxploited/CVE-2024-49653)
+
+### CVE-2024-49668 (2024-10-23)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Admin Verbalize WP Upload a Web Shell to a Web Server.This issue affects Verbalize WP: from n/a through 1.0.
+</code>
+
+- [Nxploited/CVE-2024-49668](https://github.com/Nxploited/CVE-2024-49668)
 
 ### CVE-2024-49681 (2024-10-24)
 
