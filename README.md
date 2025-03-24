@@ -687,6 +687,13 @@
 - [OscarBataille/CVE-2025-26794](https://github.com/OscarBataille/CVE-2025-26794)
 - [ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi](https://github.com/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi)
 
+### CVE-2025-27363 (2025-03-11)
+
+<code>An out of bounds write exists in FreeType versions 2.13.0 and below (newer versions of FreeType are not vulnerable) when attempting to parse font subglyph structures related to TrueType GX and variable font files. The vulnerable code assigns a signed short value to an unsigned long and then adds a static value causing it to wrap around and allocate too small of a heap buffer. The code then writes up to 6 signed long integers out of bounds relative to this buffer. This may result in arbitrary code execution. This vulnerability may have been exploited in the wild.
+</code>
+
+- [zhuowei/CVE-2025-27363-proof-of-concept](https://github.com/zhuowei/CVE-2025-27363-proof-of-concept)
+
 ### CVE-2025-27410 (2025-02-28)
 
 <code>PwnDoc is a penetration test reporting application. Prior to version 1.2.0, the backup restore functionality is vulnerable to path traversal in the TAR entry's name, allowing an attacker to overwrite any file on the system with their content. By overwriting an included `.js` file and restarting the container, this allows for Remote Code Execution as an administrator. The remote code execution occurs because any user with the `backups:create` and `backups:update` (only administrators by default) is able to overwrite any file on the system. Version 1.2.0 fixes the issue.
@@ -757,6 +764,8 @@
 - [aydinnyunus/CVE-2025-29927](https://github.com/aydinnyunus/CVE-2025-29927)
 - [ticofookfook/poc-nextjs-CVE-2025-29927](https://github.com/ticofookfook/poc-nextjs-CVE-2025-29927)
 - [t3tra-dev/cve-2025-29927-demo](https://github.com/t3tra-dev/cve-2025-29927-demo)
+- [websecnl/CVE-2025-29927-PoC-Exploit](https://github.com/websecnl/CVE-2025-29927-PoC-Exploit)
+- [MuhammadWaseem29/CVE-2025-29927-POC](https://github.com/MuhammadWaseem29/CVE-2025-29927-POC)
 
 ### CVE-2025-30066 (2025-03-15)
 
@@ -1908,6 +1917,7 @@
 - [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
 - [Night-have-dreams/php-cgi-Injector](https://github.com/Night-have-dreams/php-cgi-Injector)
 - [mistakes1337/CVE-2024-4577](https://github.com/mistakes1337/CVE-2024-4577)
+- [creamylegum/CVE-2024-4577-PHP-RCE](https://github.com/creamylegum/CVE-2024-4577-PHP-RCE)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -2080,6 +2090,13 @@
 - [truonghuuphuc/CVE-2024-5522-Poc](https://github.com/truonghuuphuc/CVE-2024-5522-Poc)
 - [kryptonproject/CVE-2024-5522-PoC](https://github.com/kryptonproject/CVE-2024-5522-PoC)
 - [geniuszly/CVE-2024-5522](https://github.com/geniuszly/CVE-2024-5522)
+
+### CVE-2024-5535 (2024-06-27)
+
+<code>Issue summary: Calling the OpenSSL API function SSL_select_next_proto with an\nempty supported client protocols buffer may cause a crash or memory contents to\nbe sent to the peer.\n\nImpact summary: A buffer overread can have a range of potential consequences\nsuch as unexpected application beahviour or a crash. In particular this issue\ncould result in up to 255 bytes of arbitrary private data from memory being sent\nto the peer leading to a loss of confidentiality. However, only applications\nthat directly call the SSL_select_next_proto function with a 0 length list of\nsupported client protocols are affected by this issue. This would normally never\nbe a valid scenario and is typically not under attacker control but may occur by\naccident in the case of a configuration or programming error in the calling\napplication.\n\nThe OpenSSL API function SSL_select_next_proto is typically used by TLS\napplications that support ALPN (Application Layer Protocol Negotiation) or NPN\n(Next Protocol Negotiation). NPN is older, was never standardised and\nis deprecated in favour of ALPN. We believe that ALPN is significantly more\nwidely deployed than NPN. The SSL_select_next_proto function accepts a list of\nprotocols from the server and a list of protocols from the client and returns\nthe first protocol that appears in the server list that also appears in the\nclient list. In the case of no overlap between the two lists it returns the\nfirst item in the client list. In either case it will signal whether an overlap\nbetween the two lists was found. In the case where SSL_select_next_proto is\ncalled with a zero length client list it fails to notice this condition and\nreturns the memory immediately following the client list pointer (and reports\nthat there was no overlap in the lists).\n\nThis function is typically called from a server side application callback for\nALPN or a client side application callback for NPN. In the case of ALPN the list\nof protocols supplied by the client is guaranteed by libssl to never be zero in\nlength. The list of server protocols comes from the application and should never\nnormally be expected to be of zero length. In this case if the\nSSL_select_next_proto function has been called as expected (with the list\nsupplied by the client passed in the client/client_len parameters), then the\napplication will not be vulnerable to this issue. If the application has\naccidentally been configured with a zero length server list, and has\naccidentally passed that zero length server list in the client/client_len\nparameters, and has additionally failed to correctly handle a &quot;no overlap&quot;\nresponse (which would normally result in a handshake failure in ALPN) then it\nwill be vulnerable to this problem.\n\nIn the case of NPN, the protocol permits the client to opportunistically select\na protocol when there is no overlap. OpenSSL returns the first client protocol\nin the no overlap case in support of this. The list of client protocols comes\nfrom the application and should never normally be expected to be of zero length.\nHowever if the SSL_select_next_proto function is accidentally called with a\nclient_len of 0 then an invalid memory pointer will be returned instead. If the\napplication uses this output as the opportunistic protocol then the loss of\nconfidentiality will occur.\n\nThis issue has been assessed as Low severity because applications are most\nlikely to be vulnerable if they are using NPN instead of ALPN - but NPN is not\nwidely used. It also requires an application configuration or programming error.\nFinally, this issue would not typically be under attacker control making active\nexploitation unlikely.\n\nThe FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by this issue.\n\nDue to the low severity of this issue we are not issuing new releases of\nOpenSSL at this time. The fix will be included in the next releases when they\nbecome available.
+</code>
+
+- [websecnl/CVE-2024-5535](https://github.com/websecnl/CVE-2024-5535)
 
 ### CVE-2024-5633 (2024-07-09)
 
@@ -3142,6 +3159,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-10571](https://github.com/RandomRobbieBF/CVE-2024-10571)
+
+### CVE-2024-10578 (2024-12-06)
+
+<code>The Pubnews theme for WordPress is vulnerable to unauthorized arbitrary plugin installation due to a missing capability check on the pubnews_importer_plugin_action_for_notice() function in all versions up to, and including, 1.0.7. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install arbitrary plugins that can be leveraged to exploit other vulnerabilities.
+</code>
+
+- [Nxploited/CVE-2024-10578](https://github.com/Nxploited/CVE-2024-10578)
 
 ### CVE-2024-10586 (2024-11-09)
 
@@ -18211,6 +18235,13 @@
 
 - [nitipoom-jar/CVE-2023-48200](https://github.com/nitipoom-jar/CVE-2023-48200)
 
+### CVE-2023-48292 (2023-11-20)
+
+<code>The XWiki Admin Tools Application provides tools to help the administration of XWiki. Starting in version 4.4 and prior to version 4.5.1, a cross site request forgery vulnerability in the admin tool for executing shell commands on the server allows an attacker to execute arbitrary shell commands by tricking an admin into loading the URL with the shell command. A very simple possibility for an attack are comments. When the attacker can leave a comment on any page in the wiki it is sufficient to include an image with an URL like  `/xwiki/bin/view/Admin/RunShellCommand?command=touch%20/tmp/attacked` in the comment. When an admin views the comment, the file `/tmp/attacked` will be created on the server. The output of the command is also vulnerable to XWiki syntax injection which offers a simple way to execute Groovy in the context of the XWiki installation and thus an even easier way to compromise the integrity and confidentiality of the whole XWiki installation. This has been patched by adding a form token check in version 4.5.1 of the admin tools. Some workarounds are available. The patch can be applied manually to the affected wiki pages. Alternatively, the document `Admin.RunShellCommand` can also be deleted if the possibility to run shell commands isn't needed.
+</code>
+
+- [Mehran-Seifalinia/CVE-2023-48292](https://github.com/Mehran-Seifalinia/CVE-2023-48292)
+
 ### CVE-2023-48777 (2024-03-26)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in Elementor.Com Elementor Website Builder.This issue affects Elementor Website Builder: from 3.3.0 through 3.18.1.\n\n
@@ -23965,6 +23996,7 @@
 - [walnutsecurity/cve-2022-36804](https://github.com/walnutsecurity/cve-2022-36804)
 - [imbas007/Atlassian-Bitbucket-CVE-2022-36804](https://github.com/imbas007/Atlassian-Bitbucket-CVE-2022-36804)
 - [asepsaepdin/CVE-2022-36804](https://github.com/asepsaepdin/CVE-2022-36804)
+- [ui-bootstrap/CVE-2022-36804](https://github.com/ui-bootstrap/CVE-2022-36804)
 
 ### CVE-2022-36944 (2022-09-23)
 
@@ -44827,7 +44859,7 @@
 - [not1cyyy/CVE-2018-16763](https://github.com/not1cyyy/CVE-2018-16763)
 - [antisecc/CVE-2018-16763](https://github.com/antisecc/CVE-2018-16763)
 - [VitoBonetti/CVE-2018-16763](https://github.com/VitoBonetti/CVE-2018-16763)
-- [saccles/CVE-2018-16763-Proof-of-Concept](https://github.com/saccles/CVE-2018-16763-Proof-of-Concept)
+- [saccles/CVE_2018_16763_Proof_of_Concept](https://github.com/saccles/CVE_2018_16763_Proof_of_Concept)
 - [altsun/CVE-2018-16763-FuelCMS-1.4.1-RCE](https://github.com/altsun/CVE-2018-16763-FuelCMS-1.4.1-RCE)
 
 ### CVE-2018-16809 (2019-03-07)
