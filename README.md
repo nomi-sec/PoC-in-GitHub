@@ -402,6 +402,7 @@
 - [Alaatk/CVE-2025-24813-POC](https://github.com/Alaatk/CVE-2025-24813-POC)
 - [MuhammadWaseem29/CVE-2025-24813](https://github.com/MuhammadWaseem29/CVE-2025-24813)
 - [tonyarris/CVE-2025-24813-PoC](https://github.com/tonyarris/CVE-2025-24813-PoC)
+- [beyond-devsecops/CVE-2025-24813](https://github.com/beyond-devsecops/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -770,6 +771,11 @@
 - [RoyCampos/CVE-2025-29927](https://github.com/RoyCampos/CVE-2025-29927)
 - [fourcube/nextjs-middleware-bypass-demo](https://github.com/fourcube/nextjs-middleware-bypass-demo)
 - [iSee857/CVE-2025-29927](https://github.com/iSee857/CVE-2025-29927)
+- [arvion-agent/next-CVE-2025-29927](https://github.com/arvion-agent/next-CVE-2025-29927)
+- [Oyst3r1ng/CVE-2025-29927](https://github.com/Oyst3r1ng/CVE-2025-29927)
+- [lediusa/CVE-2025-29927](https://github.com/lediusa/CVE-2025-29927)
+- [lem0n817/CVE-2025-29927](https://github.com/lem0n817/CVE-2025-29927)
+- [kuzushiki/CVE-2025-29927-test](https://github.com/kuzushiki/CVE-2025-29927-test)
 
 ### CVE-2025-30066 (2025-03-15)
 
@@ -5012,6 +5018,7 @@
 - [hashdr1ft/SOC_287](https://github.com/hashdr1ft/SOC_287)
 - [funixone/CVE-2024-24919---Exploit-Script](https://github.com/funixone/CVE-2024-24919---Exploit-Script)
 - [spider00009/CVE-2024-24919-POC](https://github.com/spider00009/CVE-2024-24919-POC)
+- [ejaboz/cve-2024-24919](https://github.com/ejaboz/cve-2024-24919)
 
 ### CVE-2024-24926 (2024-02-12)
 
@@ -13182,7 +13189,11 @@
 
 - [p33d/CVE-2023-25581](https://github.com/p33d/CVE-2023-25581)
 
-### CVE-2023-25610
+### CVE-2023-25610 (2025-03-24)
+
+<code>A buffer underwrite ('buffer underflow') vulnerability in the administrative interface of Fortinet FortiOS version 7.2.0 through 7.2.3, version 7.0.0 through 7.0.6, version 6.4.0 through 6.4.11 and version 6.2.12 and below, FortiProxy version 7.2.0 through 7.2.2, version 7.0.0 through 7.0.8, version 2.0.12 and below and FortiOS-6K7K version 7.0.5, version 6.4.0 through 6.4.10 and version 6.2.0 through 6.2.10 and below allows a remote unauthenticated attacker to execute arbitrary code or commands via specifically crafted requests.
+</code>
+
 - [qi4L/CVE-2023-25610](https://github.com/qi4L/CVE-2023-25610)
 
 ### CVE-2023-25690 (2023-03-07)
@@ -24994,6 +25005,7 @@
 - [DimaMend/cve-2022-42889-text4shell](https://github.com/DimaMend/cve-2022-42889-text4shell)
 - [joshbnewton31080/cve-2022-42889-text4shell](https://github.com/joshbnewton31080/cve-2022-42889-text4shell)
 - [MendDemo-josh/cve-2022-42889-text4shell](https://github.com/MendDemo-josh/cve-2022-42889-text4shell)
+- [chaudharyarjun/text4shell-exploit](https://github.com/chaudharyarjun/text4shell-exploit)
 
 ### CVE-2022-42896 (2022-11-23)
 
@@ -41932,7 +41944,6 @@
 - [Vulnmachines/Ctirix_RCE-CVE-2019-19781](https://github.com/Vulnmachines/Ctirix_RCE-CVE-2019-19781)
 - [k-fire/CVE-2019-19781-exploit](https://github.com/k-fire/CVE-2019-19781-exploit)
 - [zerobytesecure/CVE-2019-19781](https://github.com/zerobytesecure/CVE-2019-19781)
-- [citrixgitoff/-ioc-scanner-CVE-2019-19781](https://github.com/citrixgitoff/-ioc-scanner-CVE-2019-19781)
 - [mr-won/CVE-2019-19781](https://github.com/mr-won/CVE-2019-19781)
 
 ### CVE-2019-19782 (2019-12-13)
