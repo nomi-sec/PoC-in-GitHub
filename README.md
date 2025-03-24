@@ -766,6 +766,8 @@
 - [t3tra-dev/cve-2025-29927-demo](https://github.com/t3tra-dev/cve-2025-29927-demo)
 - [websecnl/CVE-2025-29927-PoC-Exploit](https://github.com/websecnl/CVE-2025-29927-PoC-Exploit)
 - [MuhammadWaseem29/CVE-2025-29927-POC](https://github.com/MuhammadWaseem29/CVE-2025-29927-POC)
+- [strobes-security/nextjs-vulnerable-app](https://github.com/strobes-security/nextjs-vulnerable-app)
+- [RoyCampos/CVE-2025-29927](https://github.com/RoyCampos/CVE-2025-29927)
 
 ### CVE-2025-30066 (2025-03-15)
 
@@ -4664,6 +4666,13 @@
 - [D1se0/CVE-2024-23897-Vulnerabilidad-Jenkins](https://github.com/D1se0/CVE-2024-23897-Vulnerabilidad-Jenkins)
 - [Marouane133/jenkins-lfi](https://github.com/Marouane133/jenkins-lfi)
 - [slytechroot/CVE-2024-23897](https://github.com/slytechroot/CVE-2024-23897)
+
+### CVE-2024-23898 (2024-01-24)
+
+<code>Jenkins 2.217 through 2.441 (both inclusive), LTS 2.222.1 through 2.426.2 (both inclusive) does not perform origin validation of requests made through the CLI WebSocket endpoint, resulting in a cross-site WebSocket hijacking (CSWSH) vulnerability, allowing attackers to execute CLI commands on the Jenkins controller.
+</code>
+
+- [davidmgaviria/CVE2_Jenkins_RCE](https://github.com/davidmgaviria/CVE2_Jenkins_RCE)
 
 ### CVE-2024-23995 (2024-04-29)
 
@@ -9370,6 +9379,13 @@
 </code>
 
 - [Nxploited/CVE-2024-51788](https://github.com/Nxploited/CVE-2024-51788)
+
+### CVE-2024-51793 (2024-11-11)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Webful Creations Computer Repair Shop allows Upload a Web Shell to a Web Server.This issue affects Computer Repair Shop: from n/a through 3.8115.
+</code>
+
+- [Nxploited/CVE-2024-51793](https://github.com/Nxploited/CVE-2024-51793)
 
 ### CVE-2024-51818 (2025-01-21)
 
@@ -53044,6 +53060,13 @@
 
 
 ## 2002
+### CVE-2002-0082 (2002-06-25)
+
+<code>The dbm and shm session cache code in mod_ssl before 2.8.7-1.3.23, and Apache-SSL before 1.3.22+1.46, does not properly initialize memory using the i2d_SSL_SESSION function, which allows remote attackers to use a buffer overflow to execute arbitrary code via a large client certificate that is signed by a trusted Certificate Authority (CA), which produces a large serialized session.
+</code>
+
+- [ratiros01/CVE-2002-0082](https://github.com/ratiros01/CVE-2002-0082)
+
 ### CVE-2002-0200 (2002-05-03)
 
 <code>Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service via an HTTP request for an MS-DOS device name.
