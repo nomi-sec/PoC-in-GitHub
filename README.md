@@ -768,6 +768,8 @@
 - [MuhammadWaseem29/CVE-2025-29927-POC](https://github.com/MuhammadWaseem29/CVE-2025-29927-POC)
 - [strobes-security/nextjs-vulnerable-app](https://github.com/strobes-security/nextjs-vulnerable-app)
 - [RoyCampos/CVE-2025-29927](https://github.com/RoyCampos/CVE-2025-29927)
+- [fourcube/nextjs-middleware-bypass-demo](https://github.com/fourcube/nextjs-middleware-bypass-demo)
+- [iSee857/CVE-2025-29927](https://github.com/iSee857/CVE-2025-29927)
 
 ### CVE-2025-30066 (2025-03-15)
 
@@ -1382,6 +1384,13 @@
 </code>
 
 - [Redfox-Secuirty/Digisol-DG-GR1321-s-Password-Policy-Bypass-CVE-2024-2257](https://github.com/Redfox-Secuirty/Digisol-DG-GR1321-s-Password-Policy-Bypass-CVE-2024-2257)
+
+### CVE-2024-2387 (2024-03-20)
+
+<code>The Advanced Form Integration – Connect WooCommerce and Contact Form 7 to Google Sheets and other platforms plugin for WordPress is vulnerable to SQL Injection via the ‘integration_id’ parameter in all versions up to, and including, 1.82.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries and subsequently inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
+</code>
+
+- [RandomRobbieBF/CVE-2024-2387](https://github.com/RandomRobbieBF/CVE-2024-2387)
 
 ### CVE-2024-2389 (2024-04-02)
 
@@ -28249,6 +28258,7 @@
 <code>A security issue was discovered in Kubernetes where a user may be able to create a container with subpath volume mounts to access files &amp; directories outside of the volume, including on the host filesystem.
 </code>
 
+- [Betep0k/CVE-2021-25741](https://github.com/Betep0k/CVE-2021-25741)
 - [cdxiaodong/CVE-2021-25741](https://github.com/cdxiaodong/CVE-2021-25741)
 
 ### CVE-2021-25790 (2021-07-23)
@@ -28414,7 +28424,6 @@
 
 - [dja2TaqkGEEfA45/CVE-2021-26690](https://github.com/dja2TaqkGEEfA45/CVE-2021-26690)
 - [7own/CVE-2021-26690---Apache-mod_session](https://github.com/7own/CVE-2021-26690---Apache-mod_session)
-- [0xdeviner/CVE-2021-26690](https://github.com/0xdeviner/CVE-2021-26690)
 - [danielduan2002/CVE-2021-26690](https://github.com/danielduan2002/CVE-2021-26690)
 
 ### CVE-2021-26691 (2021-06-10)
