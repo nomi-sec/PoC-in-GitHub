@@ -149,6 +149,7 @@
 </code>
 
 - [sandumjacob/IngressNightmare-POCs](https://github.com/sandumjacob/IngressNightmare-POCs)
+- [yoshino-s/CVE-2025-1974](https://github.com/yoshino-s/CVE-2025-1974)
 
 ### CVE-2025-2233 (2025-03-11)
 
@@ -271,6 +272,9 @@
 </code>
 
 - [Stolichnayer/CVE-2025-22828](https://github.com/Stolichnayer/CVE-2025-22828)
+
+### CVE-2025-22953
+- [maliktawfiq/CVE-2025-22953](https://github.com/maliktawfiq/CVE-2025-22953)
 
 ### CVE-2025-22954 (2025-03-12)
 
@@ -798,6 +802,12 @@
 - [jeymo092/cve-2025-29927](https://github.com/jeymo092/cve-2025-29927)
 - [alihussainzada/CVE-2025-29927-PoC](https://github.com/alihussainzada/CVE-2025-29927-PoC)
 - [TheresAFewConors/CVE-2025-29927-Testing](https://github.com/TheresAFewConors/CVE-2025-29927-Testing)
+- [0xPThree/next.js_cve-2025-29927](https://github.com/0xPThree/next.js_cve-2025-29927)
+- [0xcucumbersalad/cve-2025-29927](https://github.com/0xcucumbersalad/cve-2025-29927)
+- [c0dejump/CVE-2025-29927-check](https://github.com/c0dejump/CVE-2025-29927-check)
+
+### CVE-2025-29972
+- [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
 
 ### CVE-2025-30066 (2025-03-15)
 
@@ -1864,6 +1874,7 @@
 - [pedrochalegre7/CVE-2024-4367-pdf-sample](https://github.com/pedrochalegre7/CVE-2024-4367-pdf-sample)
 - [exfil0/WEAPONIZING-CVE-2024-4367](https://github.com/exfil0/WEAPONIZING-CVE-2024-4367)
 - [inpentest/CVE-2024-4367-PoC](https://github.com/inpentest/CVE-2024-4367-PoC)
+- [elamani-drawing/CVE-2024-4367-POC-PDFJS](https://github.com/elamani-drawing/CVE-2024-4367-POC-PDFJS)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -14154,6 +14165,7 @@
 - [sk00l/CVE-2023-30258](https://github.com/sk00l/CVE-2023-30258)
 - [tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit](https://github.com/tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit)
 - [Chocapikk/CVE-2023-30258](https://github.com/Chocapikk/CVE-2023-30258)
+- [n00o00b/CVE-2023-30258-RCE-POC](https://github.com/n00o00b/CVE-2023-30258-RCE-POC)
 
 ### CVE-2023-30347 (2023-06-22)
 
@@ -44702,6 +44714,7 @@
 - [MahdiOsman/CVE-2018-15473-SNMPv1-2-Community-String-Vulnerability-Testing](https://github.com/MahdiOsman/CVE-2018-15473-SNMPv1-2-Community-String-Vulnerability-Testing)
 - [SUDORM0X/PoC-CVE-2018-15473](https://github.com/SUDORM0X/PoC-CVE-2018-15473)
 - [OmarV4066/SSHEnumKL](https://github.com/OmarV4066/SSHEnumKL)
+- [moften/cve-2018-15473-poc](https://github.com/moften/cve-2018-15473-poc)
 
 ### CVE-2018-15499 (2018-08-24)
 
