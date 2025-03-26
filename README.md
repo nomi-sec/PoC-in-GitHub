@@ -808,6 +808,7 @@
 - [c0dejump/CVE-2025-29927-check](https://github.com/c0dejump/CVE-2025-29927-check)
 - [maronnjapan/claude-create-CVE-2025-29927](https://github.com/maronnjapan/claude-create-CVE-2025-29927)
 - [kOaDT/poc-cve-2025-29927](https://github.com/kOaDT/poc-cve-2025-29927)
+- [yugo-eliatrope/test-cve-2025-29927](https://github.com/yugo-eliatrope/test-cve-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -3581,6 +3582,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-12252](https://github.com/RandomRobbieBF/CVE-2024-12252)
+- [Nxploited/CVE-2024-12252](https://github.com/Nxploited/CVE-2024-12252)
 
 ### CVE-2024-12270 (2024-12-07)
 
@@ -9145,6 +9147,13 @@
 
 - [RandomRobbieBF/CVE-2024-50491](https://github.com/RandomRobbieBF/CVE-2024-50491)
 
+### CVE-2024-50492 (2024-10-28)
+
+<code>Improper Control of Generation of Code ('Code Injection') vulnerability in Scott Paterson ScottCart allows Code Injection.This issue affects ScottCart: from n/a through 1.1.
+</code>
+
+- [Nxploited/CVE-2024-50492](https://github.com/Nxploited/CVE-2024-50492)
+
 ### CVE-2024-50493 (2024-10-29)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in masterhomepage Automatic Translation allows Upload a Web Shell to a Web Server.This issue affects Automatic Translation: from n/a through 1.0.4.
@@ -10825,8 +10834,8 @@
 <code>Eine kritische Schwachstelle wurde in Weaver E-Office 9.5 ausgemacht. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei App/Ajax/ajax.php?action=mobile_upload_save. Mittels Manipulieren des Arguments upload_quwan mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [bingtangbanli/cve-2023-2523-and-cve-2023-2648](https://github.com/bingtangbanli/cve-2023-2523-and-cve-2023-2648)
 - [Any3ite/CVE-2023-2523](https://github.com/Any3ite/CVE-2023-2523)
+- [werwolfz/cve-2023-2523-and-cve-2023-2648](https://github.com/werwolfz/cve-2023-2523-and-cve-2023-2648)
 
 ### CVE-2023-2579 (2023-07-17)
 
@@ -13815,7 +13824,7 @@
 - [h0ng10/CVE-2023-28432_docker](https://github.com/h0ng10/CVE-2023-28432_docker)
 - [CHINA-china/MinIO_CVE-2023-28432_EXP](https://github.com/CHINA-china/MinIO_CVE-2023-28432_EXP)
 - [TaroballzChen/CVE-2023-28432-metasploit-scanner](https://github.com/TaroballzChen/CVE-2023-28432-metasploit-scanner)
-- [bingtangbanli/CVE-2023-28432](https://github.com/bingtangbanli/CVE-2023-28432)
+- [NET-Flowers/CVE-2023-28432](https://github.com/NET-Flowers/CVE-2023-28432)
 - [Chocapikk/CVE-2023-28432](https://github.com/Chocapikk/CVE-2023-28432)
 - [yTxZx/CVE-2023-28432](https://github.com/yTxZx/CVE-2023-28432)
 - [unam4/CVE-2023-28432-minio_update_rce](https://github.com/unam4/CVE-2023-28432-minio_update_rce)
