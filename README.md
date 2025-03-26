@@ -35,9 +35,6 @@
 - [44xo/CVE-2025-0282](https://github.com/44xo/CVE-2025-0282)
 - [punitdarji/Ivanti-CVE-2025-0282](https://github.com/punitdarji/Ivanti-CVE-2025-0282)
 
-### CVE-2025-03
-- [NeseOS-Corporation/CVE-2025-03](https://github.com/NeseOS-Corporation/CVE-2025-03)
-
 ### CVE-2025-0364 (2025-02-04)
 
 <code>BigAntSoft BigAnt Server, up to and including version 5.6.06, is vulnerable to unauthenticated remote code execution via account registration. An unauthenticated remote attacker can create an administrative user through the default exposed SaaS registration mechanism. Once an administrator, the attacker can upload and execute arbitrary PHP code using the &quot;Cloud Storage Addin,&quot; leading to unauthenticated code execution.
@@ -152,8 +149,10 @@
 - [yoshino-s/CVE-2025-1974](https://github.com/yoshino-s/CVE-2025-1974)
 - [yanmarques/CVE-2025-1974](https://github.com/yanmarques/CVE-2025-1974)
 - [Esonhugh/nginxnightmare](https://github.com/Esonhugh/nginxnightmare)
-- [justmorpheus/IngressNightmare-CVE-2025-1974](https://github.com/justmorpheus/IngressNightmare-CVE-2025-1974)
 - [dttuss/IngressNightmare-RCE-POC](https://github.com/dttuss/IngressNightmare-RCE-POC)
+- [zwxxb/CVE-2025-1974](https://github.com/zwxxb/CVE-2025-1974)
+- [m-q-t/ingressnightmare-detection-poc](https://github.com/m-q-t/ingressnightmare-detection-poc)
+- [hi-unc1e/CVE-2025-1974-poc](https://github.com/hi-unc1e/CVE-2025-1974-poc)
 
 ### CVE-2025-2233 (2025-03-11)
 
@@ -790,6 +789,7 @@
 - [RoyCampos/CVE-2025-29927](https://github.com/RoyCampos/CVE-2025-29927)
 - [fourcube/nextjs-middleware-bypass-demo](https://github.com/fourcube/nextjs-middleware-bypass-demo)
 - [iSee857/CVE-2025-29927](https://github.com/iSee857/CVE-2025-29927)
+- [Eve-SatOrU/POC-CVE-2025-29927](https://github.com/Eve-SatOrU/POC-CVE-2025-29927)
 - [arvion-agent/next-CVE-2025-29927](https://github.com/arvion-agent/next-CVE-2025-29927)
 - [Oyst3r1ng/CVE-2025-29927](https://github.com/Oyst3r1ng/CVE-2025-29927)
 - [lediusa/CVE-2025-29927](https://github.com/lediusa/CVE-2025-29927)
@@ -812,6 +812,8 @@
 - [maronnjapan/claude-create-CVE-2025-29927](https://github.com/maronnjapan/claude-create-CVE-2025-29927)
 - [kOaDT/poc-cve-2025-29927](https://github.com/kOaDT/poc-cve-2025-29927)
 - [yugo-eliatrope/test-cve-2025-29927](https://github.com/yugo-eliatrope/test-cve-2025-29927)
+- [Slvignesh05/CVE-2025-29927](https://github.com/Slvignesh05/CVE-2025-29927)
+- [gotcadumitru/test-cve-2025-29927](https://github.com/gotcadumitru/test-cve-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -837,6 +839,24 @@
 </code>
 
 - [xuemian168/CVE-2025-30208](https://github.com/xuemian168/CVE-2025-30208)
+- [ThumpBo/CVE-2025-30208-EXP](https://github.com/ThumpBo/CVE-2025-30208-EXP)
+- [xaitx/CVE-2025-30208](https://github.com/xaitx/CVE-2025-30208)
+- [kk12-30/CVE-2025-30208](https://github.com/kk12-30/CVE-2025-30208)
+- [YuanBenSir/CVE-2025-30208POCcn](https://github.com/YuanBenSir/CVE-2025-30208POCcn)
+
+### CVE-2025-30216 (2025-03-25)
+
+<code>CryptoLib provides a software-only solution using the CCSDS Space Data Link Security Protocol - Extended Procedures (SDLS-EP) to secure communications between a spacecraft running the core Flight System (cFS) and a ground station. In versions 1.3.3 and prior, a Heap Overflow vulnerability occurs in the `Crypto_TM_ProcessSecurity` function (`crypto_tm.c:1735:8`). When processing the Secondary Header Length of a TM protocol packet, if the Secondary Header Length exceeds the packet's total length, a heap overflow is triggered during the memcpy operation that copies packet data into the dynamically allocated buffer `p_new_dec_frame`. This allows an attacker to overwrite adjacent heap memory, potentially leading to arbitrary code execution or system instability. A patch is available at commit 810fd66d592c883125272fef123c3240db2f170f.
+</code>
+
+- [oliviaisntcringe/CVE-2025-30216-PoC](https://github.com/oliviaisntcringe/CVE-2025-30216-PoC)
+
+### CVE-2025-30567 (2025-03-25)
+
+<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in wp01ru WP01 allows Path Traversal. This issue affects WP01: from n/a through 2.6.2.
+</code>
+
+- [Oyst3r1ng/CVE-2025-30567](https://github.com/Oyst3r1ng/CVE-2025-30567)
 
 
 ## 2024
@@ -2063,6 +2083,7 @@
 - [UMASANKAR-MG/Path-Traversal-CVE-2024-4956](https://github.com/UMASANKAR-MG/Path-Traversal-CVE-2024-4956)
 - [An00bRektn/shirocrack](https://github.com/An00bRektn/shirocrack)
 - [XiaomingX/cve-2024-4956](https://github.com/XiaomingX/cve-2024-4956)
+- [art-of-defence/CVE-2024-4956](https://github.com/art-of-defence/CVE-2024-4956)
 
 ### CVE-2024-5009 (2024-06-25)
 
