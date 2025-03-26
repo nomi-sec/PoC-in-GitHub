@@ -150,6 +150,7 @@
 
 - [sandumjacob/IngressNightmare-POCs](https://github.com/sandumjacob/IngressNightmare-POCs)
 - [yoshino-s/CVE-2025-1974](https://github.com/yoshino-s/CVE-2025-1974)
+- [yanmarques/CVE-2025-1974](https://github.com/yanmarques/CVE-2025-1974)
 
 ### CVE-2025-2233 (2025-03-11)
 
@@ -805,6 +806,8 @@
 - [0xPThree/next.js_cve-2025-29927](https://github.com/0xPThree/next.js_cve-2025-29927)
 - [0xcucumbersalad/cve-2025-29927](https://github.com/0xcucumbersalad/cve-2025-29927)
 - [c0dejump/CVE-2025-29927-check](https://github.com/c0dejump/CVE-2025-29927-check)
+- [maronnjapan/claude-create-CVE-2025-29927](https://github.com/maronnjapan/claude-create-CVE-2025-29927)
+- [kOaDT/poc-cve-2025-29927](https://github.com/kOaDT/poc-cve-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -4009,6 +4012,7 @@
 - [Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape](https://github.com/Redfox-Secuirty/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape)
 - [ThemeHackers/CVE-2024-21413](https://github.com/ThemeHackers/CVE-2024-21413)
 - [D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB](https://github.com/D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB)
+- [ArtemCyberLab/Project-NTLM-Hash-Capture-and-Phishing-Email-Exploitation-for-CVE-2024-21413](https://github.com/ArtemCyberLab/Project-NTLM-Hash-Capture-and-Phishing-Email-Exploitation-for-CVE-2024-21413)
 
 ### CVE-2024-21513 (2024-07-15)
 
@@ -19369,6 +19373,7 @@
 - [mithunmadhukuttan/Dirty-Pipe-Exploit](https://github.com/mithunmadhukuttan/Dirty-Pipe-Exploit)
 - [Mephierr/DirtyPipe_exploit](https://github.com/Mephierr/DirtyPipe_exploit)
 - [RogelioPumajulca/CVE-2022-0847](https://github.com/RogelioPumajulca/CVE-2022-0847)
+- [cypherlobo/DirtyPipe-BSI](https://github.com/cypherlobo/DirtyPipe-BSI)
 
 ### CVE-2022-0848 (2022-03-04)
 
