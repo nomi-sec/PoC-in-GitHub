@@ -151,6 +151,9 @@
 - [sandumjacob/IngressNightmare-POCs](https://github.com/sandumjacob/IngressNightmare-POCs)
 - [yoshino-s/CVE-2025-1974](https://github.com/yoshino-s/CVE-2025-1974)
 - [yanmarques/CVE-2025-1974](https://github.com/yanmarques/CVE-2025-1974)
+- [Esonhugh/nginxnightmare](https://github.com/Esonhugh/nginxnightmare)
+- [justmorpheus/IngressNightmare-CVE-2025-1974](https://github.com/justmorpheus/IngressNightmare-CVE-2025-1974)
+- [dttuss/IngressNightmare-RCE-POC](https://github.com/dttuss/IngressNightmare-RCE-POC)
 
 ### CVE-2025-2233 (2025-03-11)
 
@@ -827,6 +830,13 @@
 </code>
 
 - [tibrn/CVE-2025-30144](https://github.com/tibrn/CVE-2025-30144)
+
+### CVE-2025-30208 (2025-03-24)
+
+<code>Vite, a provider of frontend development tooling, has a vulnerability in versions prior to 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10. `@fs` denies access to files outside of Vite serving allow list. Adding `?raw??` or `?import&amp;raw??` to the URL bypasses this limitation and returns the file content if it exists. This bypass exists because trailing separators such as `?` are removed in several places, but are not accounted for in query string regexes. The contents of arbitrary files can be returned to the browser. Only apps explicitly exposing the Vite dev server to the network (using `--host` or `server.host` config option) are affected. Versions 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10 fix the issue.
+</code>
+
+- [xuemian168/CVE-2025-30208](https://github.com/xuemian168/CVE-2025-30208)
 
 
 ## 2024
@@ -2948,7 +2958,6 @@
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
-- [experiencedt/CVE-2024-9474](https://github.com/experiencedt/CVE-2024-9474)
 - [stupidgossi/CVE-2024-9474](https://github.com/stupidgossi/CVE-2024-9474)
 
 ### CVE-2024-9513 (2024-10-04)
@@ -9564,6 +9573,13 @@
 
 - [ubaydev/CVE-2024-52475](https://github.com/ubaydev/CVE-2024-52475)
 
+### CVE-2024-52510 (2024-11-15)
+
+<code>The Nextcloud Desktop Client is a tool to synchronize files from Nextcloud Server with your computer. The Desktop client did not stop with an error but allowed by-passing the signature validation, if a manipulated server sends an empty initial signature. It is recommended that the Nextcloud Desktop client is upgraded to 3.14.2 or later.
+</code>
+
+- [d-xuan/CVE-2024-52510](https://github.com/d-xuan/CVE-2024-52510)
+
 ### CVE-2024-52711 (2024-11-19)
 
 <code>DI-8100 v16.07.26A1 is vulnerable to Buffer Overflow In the ip_position_asp function via the ip parameter.
@@ -10640,6 +10656,13 @@
 </code>
 
 - [Decemberus/BugHub](https://github.com/Decemberus/BugHub)
+
+### CVE-2023-1521 (2024-11-26)
+
+<code>On Linux the sccache client can execute arbitrary code with the privileges of a local sccache server, by preloading the code in a shared library passed to LD_PRELOAD.\n\n\nIf the server is run as root (which is the default when installing the  snap package https://snapcraft.io/sccache ), this means a user running the sccache client can get root privileges.
+</code>
+
+- [rubbxalc/CVE-2023-1521](https://github.com/rubbxalc/CVE-2023-1521)
 
 ### CVE-2023-1545 (2023-03-21)
 
@@ -12554,7 +12577,6 @@
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
 - [Romanc9/Gui-poc-test](https://github.com/Romanc9/Gui-poc-test)
 - [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
-- [illegalbrea/CVE-2023-21839](https://github.com/illegalbrea/CVE-2023-21839)
 
 ### CVE-2023-21887 (2023-01-17)
 
@@ -17710,6 +17732,7 @@
 </code>
 
 - [dgoorden/CVE-2023-45878](https://github.com/dgoorden/CVE-2023-45878)
+- [nrazv/CVE-2023-45878](https://github.com/nrazv/CVE-2023-45878)
 - [PaulDHaes/CVE-2023-45878-POC](https://github.com/PaulDHaes/CVE-2023-45878-POC)
 - [killercd/CVE-2023-45878](https://github.com/killercd/CVE-2023-45878)
 
@@ -30986,6 +31009,7 @@
 - [Hydragyrum/CVE-2021-41773-Playground](https://github.com/Hydragyrum/CVE-2021-41773-Playground)
 - [IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit](https://github.com/IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit)
 - [pirenga/CVE-2021-41773](https://github.com/pirenga/CVE-2021-41773)
+- [Soliux/CVE-2021-41773](https://github.com/Soliux/CVE-2021-41773)
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
@@ -44728,6 +44752,7 @@
 - [MahdiOsman/CVE-2018-15473-SNMPv1-2-Community-String-Vulnerability-Testing](https://github.com/MahdiOsman/CVE-2018-15473-SNMPv1-2-Community-String-Vulnerability-Testing)
 - [SUDORM0X/PoC-CVE-2018-15473](https://github.com/SUDORM0X/PoC-CVE-2018-15473)
 - [OmarV4066/SSHEnumKL](https://github.com/OmarV4066/SSHEnumKL)
+- [0xNehru/ssh_Enum_vaild](https://github.com/0xNehru/ssh_Enum_vaild)
 - [moften/cve-2018-15473-poc](https://github.com/moften/cve-2018-15473-poc)
 
 ### CVE-2018-15499 (2018-08-24)
