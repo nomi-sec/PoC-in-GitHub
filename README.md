@@ -160,6 +160,7 @@
 - [zwxxb/CVE-2025-1974](https://github.com/zwxxb/CVE-2025-1974)
 - [m-q-t/ingressnightmare-detection-poc](https://github.com/m-q-t/ingressnightmare-detection-poc)
 - [hi-unc1e/CVE-2025-1974-poc](https://github.com/hi-unc1e/CVE-2025-1974-poc)
+- [0xBingo/CVE-2025-1974](https://github.com/0xBingo/CVE-2025-1974)
 
 ### CVE-2025-2233 (2025-03-11)
 
@@ -830,6 +831,8 @@
 - [gotcadumitru/test-cve-2025-29927](https://github.com/gotcadumitru/test-cve-2025-29927)
 - [aleongx/CVE-2025-29927](https://github.com/aleongx/CVE-2025-29927)
 - [nicknisi/next-attack](https://github.com/nicknisi/next-attack)
+- [jmbowes/NextSecureScan](https://github.com/jmbowes/NextSecureScan)
+- [ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927](https://github.com/ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -860,6 +863,7 @@
 - [kk12-30/CVE-2025-30208](https://github.com/kk12-30/CVE-2025-30208)
 - [YuanBenSir/CVE-2025-30208_POC](https://github.com/YuanBenSir/CVE-2025-30208_POC)
 - [marino-admin/Vite-CVE-2025-30208-Scanner](https://github.com/marino-admin/Vite-CVE-2025-30208-Scanner)
+- [iSee857/CVE-2025-30208-PoC](https://github.com/iSee857/CVE-2025-30208-PoC)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -874,9 +878,6 @@
 </code>
 
 - [Oyst3r1ng/CVE-2025-30567](https://github.com/Oyst3r1ng/CVE-2025-30567)
-
-### CVE-2025-50000
-- [NotItsSixtyN3in/CVE-2025-50000](https://github.com/NotItsSixtyN3in/CVE-2025-50000)
 
 
 ## 2024
@@ -2014,7 +2015,6 @@
 - [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
 - [Night-have-dreams/php-cgi-Injector](https://github.com/Night-have-dreams/php-cgi-Injector)
 - [mistakes1337/CVE-2024-4577](https://github.com/mistakes1337/CVE-2024-4577)
-- [creamylegum/CVE-2024-4577-PHP-RCE](https://github.com/creamylegum/CVE-2024-4577-PHP-RCE)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -2993,7 +2993,6 @@
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
-- [stupidgossi/CVE-2024-9474](https://github.com/stupidgossi/CVE-2024-9474)
 
 ### CVE-2024-9513 (2024-10-04)
 
