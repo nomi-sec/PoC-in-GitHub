@@ -90,6 +90,13 @@
 - [shacojx/CVE-2025-1094-Exploit](https://github.com/shacojx/CVE-2025-1094-Exploit)
 - [ishwardeepp/CVE-2025-1094-PoC-Postgre-SQLi](https://github.com/ishwardeepp/CVE-2025-1094-PoC-Postgre-SQLi)
 
+### CVE-2025-1097 (2025-03-24)
+
+<code>A security issue was discovered in  ingress-nginx https://github.com/kubernetes/ingress-nginx  where the `auth-tls-match-cn` Ingress annotation can be used to inject configuration into nginx. This can lead to arbitrary code execution in the context of the ingress-nginx controller, and disclosure of Secrets accessible to the controller. (Note that in the default installation, the controller can access all Secrets cluster-wide.)
+</code>
+
+- [hakaioffsec/IngressNightmare-PoC](https://github.com/hakaioffsec/IngressNightmare-PoC)
+
 ### CVE-2025-1302 (2025-02-15)
 
 <code>Versions of the package jsonpath-plus before 10.3.0 are vulnerable to Remote Code Execution (RCE) due to improper input sanitization. An attacker can execute aribitrary code on the system by exploiting the unsafe default usage of eval='safe' mode.\r\r**Note:**\r\rThis is caused by an incomplete fix for [CVE-2024-21534](https://security.snyk.io/vuln/SNYK-JS-JSONPATHPLUS-7945884).
@@ -174,6 +181,13 @@
 </code>
 
 - [Otsmane-Ahmed/CVE-2025-2620-poc](https://github.com/Otsmane-Ahmed/CVE-2025-2620-poc)
+
+### CVE-2025-2783 (2025-03-26)
+
+<code>Incorrect handle provided in unspecified circumstances in Mojo in Google Chrome on Windows prior to 134.0.6998.177 allowed a remote attacker to perform a sandbox escape via a malicious file. (Chromium security severity: High)
+</code>
+
+- [raulchung/CVE-2025-2783](https://github.com/raulchung/CVE-2025-2783)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -814,6 +828,8 @@
 - [yugo-eliatrope/test-cve-2025-29927](https://github.com/yugo-eliatrope/test-cve-2025-29927)
 - [Slvignesh05/CVE-2025-29927](https://github.com/Slvignesh05/CVE-2025-29927)
 - [gotcadumitru/test-cve-2025-29927](https://github.com/gotcadumitru/test-cve-2025-29927)
+- [aleongx/CVE-2025-29927](https://github.com/aleongx/CVE-2025-29927)
+- [nicknisi/next-attack](https://github.com/nicknisi/next-attack)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -842,7 +858,8 @@
 - [ThumpBo/CVE-2025-30208-EXP](https://github.com/ThumpBo/CVE-2025-30208-EXP)
 - [xaitx/CVE-2025-30208](https://github.com/xaitx/CVE-2025-30208)
 - [kk12-30/CVE-2025-30208](https://github.com/kk12-30/CVE-2025-30208)
-- [YuanBenSir/CVE-2025-30208POCcn](https://github.com/YuanBenSir/CVE-2025-30208POCcn)
+- [YuanBenSir/CVE-2025-30208_POC](https://github.com/YuanBenSir/CVE-2025-30208_POC)
+- [marino-admin/Vite-CVE-2025-30208-Scanner](https://github.com/marino-admin/Vite-CVE-2025-30208-Scanner)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -857,6 +874,9 @@
 </code>
 
 - [Oyst3r1ng/CVE-2025-30567](https://github.com/Oyst3r1ng/CVE-2025-30567)
+
+### CVE-2025-50000
+- [NotItsSixtyN3in/CVE-2025-50000](https://github.com/NotItsSixtyN3in/CVE-2025-50000)
 
 
 ## 2024
@@ -1167,13 +1187,6 @@
 </code>
 
 - [keru6k/Online-Admission-System-RCE-PoC](https://github.com/keru6k/Online-Admission-System-RCE-PoC)
-
-### CVE-2024-0944 (2024-01-26)
-
-<code>Eine problematische Schwachstelle wurde in Totolink T8 4.1.5cu.833_20220905 ausgemacht. Betroffen davon ist ein unbekannter Prozess der Datei /cgi-bin/cstecgi.cgi. Mit der Manipulation mit unbekannten Daten kann eine session expiration-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Die Komplexität eines Angriffs ist eher hoch. Sie ist schwierig ausnutzbar. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [Artemisxxx37/cve-2024-0944](https://github.com/Artemisxxx37/cve-2024-0944)
 
 ### CVE-2024-0986 (2024-01-28)
 
@@ -2585,6 +2598,7 @@
 </code>
 
 - [PeterGabaldon/CVE-2024-7479_CVE-2024-7481](https://github.com/PeterGabaldon/CVE-2024-7479_CVE-2024-7481)
+- [fortra/CVE-2024-7479](https://github.com/fortra/CVE-2024-7479)
 
 ### CVE-2024-7514 (2024-10-11)
 
@@ -19459,6 +19473,7 @@
 - [Philip-Otter/CVE-2022-0944_RCE_Automation](https://github.com/Philip-Otter/CVE-2022-0944_RCE_Automation)
 - [FlojBoj/CVE-2022-0944](https://github.com/FlojBoj/CVE-2022-0944)
 - [0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944](https://github.com/0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944)
+- [Artemisxxx37/OverlayFS-PrivEsc-CVE-2022-0944](https://github.com/Artemisxxx37/OverlayFS-PrivEsc-CVE-2022-0944)
 - [Robocopsita/CVE-2022-0944_RCE_POC](https://github.com/Robocopsita/CVE-2022-0944_RCE_POC)
 - [toneillcodes/CVE-2022-0944](https://github.com/toneillcodes/CVE-2022-0944)
 - [0xDTC/SQLPad-6.10.0-Exploit-CVE-2022-0944](https://github.com/0xDTC/SQLPad-6.10.0-Exploit-CVE-2022-0944)
