@@ -155,7 +155,7 @@
 - [sandumjacob/IngressNightmare-POCs](https://github.com/sandumjacob/IngressNightmare-POCs)
 - [yoshino-s/CVE-2025-1974](https://github.com/yoshino-s/CVE-2025-1974)
 - [yanmarques/CVE-2025-1974](https://github.com/yanmarques/CVE-2025-1974)
-- [Esonhugh/nginxnightmare](https://github.com/Esonhugh/nginxnightmare)
+- [Esonhugh/ingressNightmare-CVE-2025-1974-exps](https://github.com/Esonhugh/ingressNightmare-CVE-2025-1974-exps)
 - [dttuss/IngressNightmare-RCE-POC](https://github.com/dttuss/IngressNightmare-RCE-POC)
 - [zwxxb/CVE-2025-1974](https://github.com/zwxxb/CVE-2025-1974)
 - [m-q-t/ingressnightmare-detection-poc](https://github.com/m-q-t/ingressnightmare-detection-poc)
@@ -370,6 +370,8 @@
 - [aleongx/CVE-2025-24071](https://github.com/aleongx/CVE-2025-24071)
 - [ctabango/CVE-2025-24071_PoCExtra](https://github.com/ctabango/CVE-2025-24071_PoCExtra)
 - [shacojx/CVE-2025-24071-Exploit](https://github.com/shacojx/CVE-2025-24071-Exploit)
+- [ThemeHackers/CVE-2025-24071](https://github.com/ThemeHackers/CVE-2025-24071)
+- [rubbxalc/CVE-2025-24071](https://github.com/rubbxalc/CVE-2025-24071)
 
 ### CVE-2025-24104 (2025-01-27)
 
@@ -828,11 +830,14 @@
 - [kOaDT/poc-cve-2025-29927](https://github.com/kOaDT/poc-cve-2025-29927)
 - [yugo-eliatrope/test-cve-2025-29927](https://github.com/yugo-eliatrope/test-cve-2025-29927)
 - [Slvignesh05/CVE-2025-29927](https://github.com/Slvignesh05/CVE-2025-29927)
-- [gotcadumitru/test-cve-2025-29927](https://github.com/gotcadumitru/test-cve-2025-29927)
 - [aleongx/CVE-2025-29927](https://github.com/aleongx/CVE-2025-29927)
 - [nicknisi/next-attack](https://github.com/nicknisi/next-attack)
 - [jmbowes/NextSecureScan](https://github.com/jmbowes/NextSecureScan)
 - [ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927](https://github.com/ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927)
+- [aleongx/CVE-2025-29927_Scanner](https://github.com/aleongx/CVE-2025-29927_Scanner)
+- [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
+- [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
+- [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -857,6 +862,7 @@
 <code>Vite, a provider of frontend development tooling, has a vulnerability in versions prior to 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10. `@fs` denies access to files outside of Vite serving allow list. Adding `?raw??` or `?import&amp;raw??` to the URL bypasses this limitation and returns the file content if it exists. This bypass exists because trailing separators such as `?` are removed in several places, but are not accounted for in query string regexes. The contents of arbitrary files can be returned to the browser. Only apps explicitly exposing the Vite dev server to the network (using `--host` or `server.host` config option) are affected. Versions 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10 fix the issue.
 </code>
 
+- [LiChaser/CVE-2025-30208](https://github.com/LiChaser/CVE-2025-30208)
 - [xuemian168/CVE-2025-30208](https://github.com/xuemian168/CVE-2025-30208)
 - [ThumpBo/CVE-2025-30208-EXP](https://github.com/ThumpBo/CVE-2025-30208-EXP)
 - [xaitx/CVE-2025-30208](https://github.com/xaitx/CVE-2025-30208)
@@ -878,6 +884,9 @@
 </code>
 
 - [Oyst3r1ng/CVE-2025-30567](https://github.com/Oyst3r1ng/CVE-2025-30567)
+
+### CVE-2025-50000
+- [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
 
 
 ## 2024
@@ -2993,6 +3002,7 @@
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
+- [worthytop/CVE-2024-9474](https://github.com/worthytop/CVE-2024-9474)
 
 ### CVE-2024-9513 (2024-10-04)
 
@@ -7295,13 +7305,6 @@
 </code>
 
 - [pwndorei/CVE-2024-38080](https://github.com/pwndorei/CVE-2024-38080)
-
-### CVE-2024-38112 (2024-07-09)
-
-<code>Windows MSHTML Platform Spoofing Vulnerability
-</code>
-
-- [Anurag-Chevendra/CVE-2024-38112](https://github.com/Anurag-Chevendra/CVE-2024-38112)
 
 ### CVE-2024-38124 (2024-10-08)
 
@@ -25763,6 +25766,7 @@
 - [enty8080/MacDirtyCow](https://github.com/enty8080/MacDirtyCow)
 - [tdquang266/MDC](https://github.com/tdquang266/MDC)
 - [69camau/sw1tch](https://github.com/69camau/sw1tch)
+- [Code2Crusader/46689](https://github.com/Code2Crusader/46689)
 
 ### CVE-2022-46718 (2023-06-23)
 
