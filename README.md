@@ -264,7 +264,11 @@
 
 - [EliahKagan/checkout-index](https://github.com/EliahKagan/checkout-index)
 
-### CVE-2025-22652
+### CVE-2025-22652 (2025-03-27)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in kendysond Payment Forms for Paystack allows SQL Injection.This issue affects Payment Forms for Paystack: from n/a through 4.0.1.
+</code>
+
 - [DoTTak/CVE-2025-22652](https://github.com/DoTTak/CVE-2025-22652)
 
 ### CVE-2025-22710 (2025-01-21)
@@ -274,7 +278,11 @@
 
 - [DoTTak/CVE-2025-22710](https://github.com/DoTTak/CVE-2025-22710)
 
-### CVE-2025-22783
+### CVE-2025-22783 (2025-03-27)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in SEO Squirrly SEO Plugin by Squirrly SEO allows SQL Injection.This issue affects SEO Plugin by Squirrly SEO: from n/a through 12.4.03.
+</code>
+
 - [DoTTak/CVE-2025-22783](https://github.com/DoTTak/CVE-2025-22783)
 
 ### CVE-2025-22785 (2025-01-15)
@@ -372,6 +380,7 @@
 - [shacojx/CVE-2025-24071-Exploit](https://github.com/shacojx/CVE-2025-24071-Exploit)
 - [ThemeHackers/CVE-2025-24071](https://github.com/ThemeHackers/CVE-2025-24071)
 - [rubbxalc/CVE-2025-24071](https://github.com/rubbxalc/CVE-2025-24071)
+- [Marcejr117/CVE-2025-24071_PoC](https://github.com/Marcejr117/CVE-2025-24071_PoC)
 
 ### CVE-2025-24104 (2025-01-27)
 
@@ -780,13 +789,6 @@
 
 - [Otsmane-Ahmed/cve-2025-29384-poc](https://github.com/Otsmane-Ahmed/cve-2025-29384-poc)
 
-### CVE-2025-29814 (2025-03-21)
-
-<code>Improper authorization in Microsoft Partner Center allows an authorized attacker to elevate privileges over a network.
-</code>
-
-- [SatiresHashi/CVE-2025-29814](https://github.com/SatiresHashi/CVE-2025-29814)
-
 ### CVE-2025-29927 (2025-03-21)
 
 <code>Next.js is a React framework for building full-stack web applications. Prior to 14.2.25 and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 14.2.25 and 15.2.3.
@@ -838,6 +840,8 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
+- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
+- [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -849,6 +853,9 @@
 
 - [OS-pedrogustavobilro/test-changed-files](https://github.com/OS-pedrogustavobilro/test-changed-files)
 - [Checkmarx/Checkmarx-CVE-2025-30066-Detection-Tool](https://github.com/Checkmarx/Checkmarx-CVE-2025-30066-Detection-Tool)
+
+### CVE-2025-30108
+- [4xura/CVE-2025-30108](https://github.com/4xura/CVE-2025-30108)
 
 ### CVE-2025-30144 (2025-03-19)
 
@@ -870,6 +877,7 @@
 - [YuanBenSir/CVE-2025-30208_POC](https://github.com/YuanBenSir/CVE-2025-30208_POC)
 - [marino-admin/Vite-CVE-2025-30208-Scanner](https://github.com/marino-admin/Vite-CVE-2025-30208-Scanner)
 - [iSee857/CVE-2025-30208-PoC](https://github.com/iSee857/CVE-2025-30208-PoC)
+- [On1onss/CVE-2025-30208-LFI](https://github.com/On1onss/CVE-2025-30208-LFI)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -2024,6 +2032,7 @@
 - [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
 - [Night-have-dreams/php-cgi-Injector](https://github.com/Night-have-dreams/php-cgi-Injector)
 - [mistakes1337/CVE-2024-4577](https://github.com/mistakes1337/CVE-2024-4577)
+- [fabulouscounc/CVE-2024-4577-PHP-RCE](https://github.com/fabulouscounc/CVE-2024-4577-PHP-RCE)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -17724,7 +17733,7 @@
 <code>Discourse is an open source platform for community discussion. Prior to version 3.1.3 of the `stable` branch and version 3.2.0.beta3 of the `beta` and `tests-passed` branches, if a user has been quoted and uses a `|` in their full name, they might be able to trigger a bug that generates a lot of duplicate content in all the posts they've been quoted by updating their full name again. Version 3.1.3 of the `stable` branch and version 3.2.0.beta3 of the `beta` and `tests-passed` branches contain a patch for this issue. No known workaround exists, although one can stop the &quot;bleeding&quot; by ensuring users only use alphanumeric characters in their full name field.
 </code>
 
-- [pikariop/yksivaihde-CVE-2023-45806](https://github.com/pikariop/yksivaihde-CVE-2023-45806)
+- [yksivaihde/discourse-CVE-2023-45806](https://github.com/yksivaihde/discourse-CVE-2023-45806)
 
 ### CVE-2023-45827 (2023-11-06)
 
@@ -42809,7 +42818,7 @@
 </code>
 
 - [Jailbreaks/CVE-2018-4150](https://github.com/Jailbreaks/CVE-2018-4150)
-- [rpwnage/LovelySn0w](https://github.com/rpwnage/LovelySn0w)
+- [mirdhan/LovelySn0w](https://github.com/mirdhan/LovelySn0w)
 - [littlelailo/incomplete-exploit-for-CVE-2018-4150-bpf-filter-poc-](https://github.com/littlelailo/incomplete-exploit-for-CVE-2018-4150-bpf-filter-poc-)
 
 ### CVE-2018-4185 (2019-01-11)
@@ -43932,6 +43941,7 @@
 - [cved-sources/cve-2018-9206](https://github.com/cved-sources/cve-2018-9206)
 - [mi-hood/CVE-2018-9206](https://github.com/mi-hood/CVE-2018-9206)
 - [MikeyPPPPPPPP/CVE-2018-9206](https://github.com/MikeyPPPPPPPP/CVE-2018-9206)
+- [liemkaka/CVE-2018-9206](https://github.com/liemkaka/CVE-2018-9206)
 
 ### CVE-2018-9207 (2018-11-19)
 
