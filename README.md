@@ -171,7 +171,11 @@
 
 - [McTavishSue/CVE-2025-2233](https://github.com/McTavishSue/CVE-2025-2233)
 
-### CVE-2025-2294
+### CVE-2025-2294 (2025-03-28)
+
+<code>The Kubio AI Page Builder plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.5.1 via thekubio_hybrid_theme_load_template function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
+</code>
+
 - [Nxploited/CVE-2025-2294](https://github.com/Nxploited/CVE-2025-2294)
 
 ### CVE-2025-2476 (2025-03-19)
@@ -216,6 +220,7 @@
 
 - [ynwarcs/CVE-2025-21298](https://github.com/ynwarcs/CVE-2025-21298)
 - [Dit-Developers/CVE-2025-21298](https://github.com/Dit-Developers/CVE-2025-21298)
+- [Denyningbow/rtf-ctf-cve-2025-21298](https://github.com/Denyningbow/rtf-ctf-cve-2025-21298)
 
 ### CVE-2025-21333 (2025-01-14)
 
@@ -851,6 +856,7 @@
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
 - [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
+- [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -918,6 +924,12 @@
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
+
+### CVE-2025-3272025
+- [itssixtyn3in/CVE-2025-3272025](https://github.com/itssixtyn3in/CVE-2025-3272025)
+
+### CVE-2025-3282025
+- [itssixtyn3in/CVE-2025-3282025](https://github.com/itssixtyn3in/CVE-2025-3282025)
 
 
 ## 2024
@@ -13424,6 +13436,20 @@
 </code>
 
 - [tadhglewis/apollo-koa-minimal](https://github.com/tadhglewis/apollo-koa-minimal)
+
+### CVE-2023-26208 (2023-03-09)
+
+<code>A improper restriction of excessive authentication attempts vulnerability [CWE-307] in Fortinet FortiAuthenticator 6.4.x and before allows  a remote unauthenticated attacker to partially exhaust CPU and memory via sending numerous HTTP requests to the login form.
+</code>
+
+- [cnetsec/CVE-2023-26208](https://github.com/cnetsec/CVE-2023-26208)
+
+### CVE-2023-26209 (2023-03-09)
+
+<code>A improper restriction of excessive authentication attempts vulnerability [CWE-307] in Fortinet FortiDeceptor 3.1.x and before allows  a remote unauthenticated attacker to partially exhaust CPU and memory via sending numerous HTTP requests to the login form.
+</code>
+
+- [cnetsec/CVE-2023-26209](https://github.com/cnetsec/CVE-2023-26209)
 
 ### CVE-2023-26255 (2023-02-28)
 
@@ -28148,6 +28174,13 @@
 
 - [Trinadh465/external_boringssl_openssl_1.1.0g_CVE-2021-23841](https://github.com/Trinadh465/external_boringssl_openssl_1.1.0g_CVE-2021-23841)
 - [Satheesh575555/Openssl_1_1_0_CVE-2021-23841](https://github.com/Satheesh575555/Openssl_1_1_0_CVE-2021-23841)
+
+### CVE-2021-24019 (2021-10-06)
+
+<code>An insufficient session expiration vulnerability [CWE- 613] in FortiClientEMS versions 6.4.2 and below, 6.2.8 and below may allow an attacker to reuse the unexpired admin user session IDs to gain admin privileges, should the attacker be able to obtain that session ID (via other, hypothetical attacks)
+</code>
+
+- [cnetsec/CVE-2021-24019](https://github.com/cnetsec/CVE-2021-24019)
 
 ### CVE-2021-24027 (2021-04-06)
 
@@ -52365,7 +52398,7 @@
 - [chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution)
 - [FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1](https://github.com/FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1)
 - [JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution)
-- [abhinavcybersec/PenTest-Lab](https://github.com/abhinavcybersec/PenTest-Lab)
+- [abhinavsinghx/PenTest-Lab](https://github.com/abhinavsinghx/PenTest-Lab)
 
 ### CVE-2010-2387 (2012-12-21)
 
