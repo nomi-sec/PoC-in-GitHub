@@ -163,6 +163,7 @@
 - [hi-unc1e/CVE-2025-1974-poc](https://github.com/hi-unc1e/CVE-2025-1974-poc)
 - [0xBingo/CVE-2025-1974](https://github.com/0xBingo/CVE-2025-1974)
 - [tuladhar/ingress-nightmare](https://github.com/tuladhar/ingress-nightmare)
+- [rjhaikal/POC-IngressNightmare-CVE-2025-1974](https://github.com/rjhaikal/POC-IngressNightmare-CVE-2025-1974)
 
 ### CVE-2025-2233 (2025-03-11)
 
@@ -191,13 +192,6 @@
 </code>
 
 - [Otsmane-Ahmed/CVE-2025-2620-poc](https://github.com/Otsmane-Ahmed/CVE-2025-2620-poc)
-
-### CVE-2025-2783 (2025-03-26)
-
-<code>Incorrect handle provided in unspecified circumstances in Mojo in Google Chrome on Windows prior to 134.0.6998.177 allowed a remote attacker to perform a sandbox escape via a malicious file. (Chromium security severity: High)
-</code>
-
-- [raulchung/CVE-2025-2783](https://github.com/raulchung/CVE-2025-2783)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -740,6 +734,13 @@
 - [OscarBataille/CVE-2025-26794](https://github.com/OscarBataille/CVE-2025-26794)
 - [ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi](https://github.com/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi)
 
+### CVE-2025-26909 (2025-03-27)
+
+<code>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in John Darrel Hide My WP Ghost allows PHP Local File Inclusion.This issue affects Hide My WP Ghost: from n/a through 5.4.01.
+</code>
+
+- [ZeroDayx/CVE-2025-26909](https://github.com/ZeroDayx/CVE-2025-26909)
+
 ### CVE-2025-27363 (2025-03-11)
 
 <code>An out of bounds write exists in FreeType versions 2.13.0 and below (newer versions of FreeType are not vulnerable) when attempting to parse font subglyph structures related to TrueType GX and variable font files. The vulnerable code assigns a signed short value to an unsigned long and then adds a static value causing it to wrap around and allocate too small of a heap buffer. The code then writes up to 6 signed long integers out of bounds relative to this buffer. This may result in arbitrary code execution. This vulnerability may have been exploited in the wild.
@@ -866,7 +867,6 @@
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
 - [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
-- [CEAarab/CVE-2025-29927_env](https://github.com/CEAarab/CVE-2025-29927_env)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [0x0Luk/0xMiddleware](https://github.com/0x0Luk/0xMiddleware)
 - [AnonKryptiQuz/NextSploit](https://github.com/AnonKryptiQuz/NextSploit)
@@ -11937,7 +11937,7 @@
 <code>Use After Free vulnerability in Arm Ltd Midgard GPU Kernel Driver, Arm Ltd Bifrost GPU Kernel Driver, Arm Ltd Valhall GPU Kernel Driver, Arm Ltd Arm 5th Gen GPU Architecture Kernel Driver allows a local non-privileged user to exploit a software race condition to perform improper memory processing operations. If the system’s memory is carefully prepared by the user, then this in turn cause a use-after-free.This issue affects Midgard GPU Kernel Driver: from r13p0 through r32p0; Bifrost GPU Kernel Driver: from r11p0 through r25p0; Valhall GPU Kernel Driver: from r19p0 through r25p0, from r29p0 through r46p0; Arm 5th Gen GPU Architecture Kernel Driver: from r41p0 through r46p0.\n\n
 </code>
 
-- [s1204IT/CVE-2023-6241](https://github.com/s1204IT/CVE-2023-6241)
+- [SmileTabLabo/CVE-2023-6241](https://github.com/SmileTabLabo/CVE-2023-6241)
 - [ilGobbo00/CVE-2023-6241-Pixel7_Adaptation](https://github.com/ilGobbo00/CVE-2023-6241-Pixel7_Adaptation)
 
 ### CVE-2023-6246 (2024-01-31)
@@ -17688,7 +17688,7 @@
 <code>File Upload vulnerability in Koha Library Software 23.05.04 and before allows a remote attacker to read arbitrary files via the upload-cover-image.pl component.
 </code>
 
-- [ggb0n/CVE-2023-44962](https://github.com/ggb0n/CVE-2023-44962)
+- [LadyDarwe/Links.a](https://github.com/LadyDarwe/Links.a)
 
 ### CVE-2023-44976
 - [keowu/BadRentdrv2](https://github.com/keowu/BadRentdrv2)
@@ -28460,7 +28460,6 @@
 <code>A security issue was discovered in Kubernetes where a user may be able to create a container with subpath volume mounts to access files &amp; directories outside of the volume, including on the host filesystem.
 </code>
 
-- [Betep0k/CVE-2021-25741](https://github.com/Betep0k/CVE-2021-25741)
 - [cdxiaodong/CVE-2021-25741](https://github.com/cdxiaodong/CVE-2021-25741)
 
 ### CVE-2021-25790 (2021-07-23)
@@ -31179,6 +31178,7 @@
 - [0xc4t/CVE-2021-41773](https://github.com/0xc4t/CVE-2021-41773)
 - [jkska23/Additive-Vulnerability-Analysis-CVE-2021-41773](https://github.com/jkska23/Additive-Vulnerability-Analysis-CVE-2021-41773)
 - [redspy-sec/CVE-2021-41773](https://github.com/redspy-sec/CVE-2021-41773)
+- [luongchivi/CVE-2021-41773](https://github.com/luongchivi/CVE-2021-41773)
 - [FakesiteSecurity/CVE-2021-41773](https://github.com/FakesiteSecurity/CVE-2021-41773)
 - [Taldrid1/cve-2021-41773](https://github.com/Taldrid1/cve-2021-41773)
 - [tiemio/SSH-key-and-RCE-PoC-for-CVE-2021-41773](https://github.com/tiemio/SSH-key-and-RCE-PoC-for-CVE-2021-41773)
