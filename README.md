@@ -454,6 +454,7 @@
 - [tonyarris/CVE-2025-24813-PoC](https://github.com/tonyarris/CVE-2025-24813-PoC)
 - [beyond-devsecops/CVE-2025-24813](https://github.com/beyond-devsecops/CVE-2025-24813)
 - [u238/Tomcat-CVE_2025_24813](https://github.com/u238/Tomcat-CVE_2025_24813)
+- [AlperenY-cs/CVE-2025-24813](https://github.com/AlperenY-cs/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -789,6 +790,15 @@
 - [Nxploited/CVE-2025-28915](https://github.com/Nxploited/CVE-2025-28915)
 - [Pei4AN/CVE-2025-28915](https://github.com/Pei4AN/CVE-2025-28915)
 
+### CVE-2025-29015
+- [b1tm4r/CVE-2025-29015](https://github.com/b1tm4r/CVE-2025-29015)
+
+### CVE-2025-29017
+- [b1tm4r/CVE-2025-29017](https://github.com/b1tm4r/CVE-2025-29017)
+
+### CVE-2025-29018
+- [b1tm4r/CVE-2025-29018](https://github.com/b1tm4r/CVE-2025-29018)
+
 ### CVE-2025-29306 (2025-03-27)
 
 <code>An issue in FoxCMS v.1.2.5 allows a remote attacker to execute arbitrary code via the case display page in the index.html component.
@@ -856,7 +866,10 @@
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
 - [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
+- [CEAarab/CVE-2025-29927_env](https://github.com/CEAarab/CVE-2025-29927_env)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
+- [0x0Luk/0xMiddleware](https://github.com/0x0Luk/0xMiddleware)
+- [AnonKryptiQuz/NextSploit](https://github.com/AnonKryptiQuz/NextSploit)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -893,6 +906,8 @@
 - [marino-admin/Vite-CVE-2025-30208-Scanner](https://github.com/marino-admin/Vite-CVE-2025-30208-Scanner)
 - [iSee857/CVE-2025-30208-PoC](https://github.com/iSee857/CVE-2025-30208-PoC)
 - [On1onss/CVE-2025-30208-LFI](https://github.com/On1onss/CVE-2025-30208-LFI)
+- [sadhfdw129/CVE-2025-30208-Vite](https://github.com/sadhfdw129/CVE-2025-30208-Vite)
+- [keklick1337/CVE-2025-30208-ViteVulnScanner](https://github.com/keklick1337/CVE-2025-30208-ViteVulnScanner)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -921,6 +936,13 @@
 </code>
 
 - [Oyst3r1ng/CVE-2025-30567](https://github.com/Oyst3r1ng/CVE-2025-30567)
+
+### CVE-2025-30772 (2025-03-27)
+
+<code>Missing Authorization vulnerability in WPClever WPC Smart Upsell Funnel for WooCommerce allows Privilege Escalation. This issue affects WPC Smart Upsell Funnel for WooCommerce: from n/a through 3.0.4.
+</code>
+
+- [Nxploited/CVE-2025-30772](https://github.com/Nxploited/CVE-2025-30772)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -4816,6 +4838,7 @@
 - [D1se0/CVE-2024-23897-Vulnerabilidad-Jenkins](https://github.com/D1se0/CVE-2024-23897-Vulnerabilidad-Jenkins)
 - [Marouane133/jenkins-lfi](https://github.com/Marouane133/jenkins-lfi)
 - [slytechroot/CVE-2024-23897](https://github.com/slytechroot/CVE-2024-23897)
+- [brandonhjh/Jenkins-CVE-2024-23897-Exploit-Demo](https://github.com/brandonhjh/Jenkins-CVE-2024-23897-Exploit-Demo)
 
 ### CVE-2024-23898 (2024-01-24)
 
@@ -17659,13 +17682,6 @@
 </code>
 
 - [ahrixia/CVE-2023-44813](https://github.com/ahrixia/CVE-2023-44813)
-
-### CVE-2023-44961 (2023-10-11)
-
-<code>SQL Injection vulnerability in Koha Library Software 23.0.5.04 and before allows a remote attacker to obtain sensitive information via the intranet/cgi bin/cataloging/ysearch.pl. component.
-</code>
-
-- [ggb0n/CVE-2023-44961](https://github.com/ggb0n/CVE-2023-44961)
 
 ### CVE-2023-44962 (2023-10-11)
 
@@ -33325,6 +33341,7 @@
 - [euphrat1ca/CVE-2020-0618](https://github.com/euphrat1ca/CVE-2020-0618)
 - [wortell/cve-2020-0618](https://github.com/wortell/cve-2020-0618)
 - [itstarsec/CVE-2020-0618](https://github.com/itstarsec/CVE-2020-0618)
+- [N3xtGenH4cker/CVE-2020-0618_DETECTION](https://github.com/N3xtGenH4cker/CVE-2020-0618_DETECTION)
 
 ### CVE-2020-0624 (2020-01-14)
 
