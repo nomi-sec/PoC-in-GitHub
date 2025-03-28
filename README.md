@@ -6,6 +6,7 @@
 
 ### CVE-2025-0087
 - [SpiralBL0CK/CVE-2025-0087-](https://github.com/SpiralBL0CK/CVE-2025-0087-)
+- [SpiralBL0CK/CVE-2025-0087](https://github.com/SpiralBL0CK/CVE-2025-0087)
 
 ### CVE-2025-0108 (2025-02-12)
 
@@ -161,6 +162,7 @@
 - [m-q-t/ingressnightmare-detection-poc](https://github.com/m-q-t/ingressnightmare-detection-poc)
 - [hi-unc1e/CVE-2025-1974-poc](https://github.com/hi-unc1e/CVE-2025-1974-poc)
 - [0xBingo/CVE-2025-1974](https://github.com/0xBingo/CVE-2025-1974)
+- [tuladhar/ingress-nightmare](https://github.com/tuladhar/ingress-nightmare)
 
 ### CVE-2025-2233 (2025-03-11)
 
@@ -168,6 +170,9 @@
 </code>
 
 - [McTavishSue/CVE-2025-2233](https://github.com/McTavishSue/CVE-2025-2233)
+
+### CVE-2025-2294
+- [Nxploited/CVE-2025-2294](https://github.com/Nxploited/CVE-2025-2294)
 
 ### CVE-2025-2476 (2025-03-19)
 
@@ -779,7 +784,11 @@
 - [Nxploited/CVE-2025-28915](https://github.com/Nxploited/CVE-2025-28915)
 - [Pei4AN/CVE-2025-28915](https://github.com/Pei4AN/CVE-2025-28915)
 
-### CVE-2025-29306
+### CVE-2025-29306 (2025-03-27)
+
+<code>An issue in FoxCMS v.1.2.5 allows a remote attacker to execute arbitrary code via the case display page in the index.html component.
+</code>
+
 - [somatrasss/CVE-2025-29306](https://github.com/somatrasss/CVE-2025-29306)
 
 ### CVE-2025-29384 (2025-03-14)
@@ -885,6 +894,20 @@
 </code>
 
 - [oliviaisntcringe/CVE-2025-30216-PoC](https://github.com/oliviaisntcringe/CVE-2025-30216-PoC)
+
+### CVE-2025-30349 (2025-03-21)
+
+<code>Horde IMP through 6.2.27, as used with Horde Application Framework through 5.2.23, allows XSS that leads to account takeover via a crafted text/html e-mail message with an onerror attribute (that may use base64-encoded JavaScript code), as exploited in the wild in March 2025.
+</code>
+
+- [natasaka/CVE-2025-30349](https://github.com/natasaka/CVE-2025-30349)
+
+### CVE-2025-30355 (2025-03-27)
+
+<code>Synapse is an open source Matrix homeserver implementation. A malicious server can craft events which, when received, prevent Synapse version up to 1.127.0 from federating with other servers. The vulnerability has been exploited in the wild and has been fixed in Synapse v1.127.1. No known workarounds are available.
+</code>
+
+- [ui-bootstrap/CVE-2025-30355](https://github.com/ui-bootstrap/CVE-2025-30355)
 
 ### CVE-2025-30567 (2025-03-25)
 
@@ -39953,6 +39976,7 @@
 - [h8handles/CVE-2019-9978-Python3](https://github.com/h8handles/CVE-2019-9978-Python3)
 - [0xMoonrise/cve-2019-9978](https://github.com/0xMoonrise/cve-2019-9978)
 - [MAHajian/CVE-2019-9978](https://github.com/MAHajian/CVE-2019-9978)
+- [echoosso/CVE-2019-9978](https://github.com/echoosso/CVE-2019-9978)
 
 ### CVE-2019-10008 (2019-04-24)
 
