@@ -133,6 +133,13 @@
 
 - [Nxploited/CVE-2025-1639](https://github.com/Nxploited/CVE-2025-1639)
 
+### CVE-2025-1653 (2025-03-15)
+
+<code>The Directory Listings WordPress plugin – uListing plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.1.7. This is due to the stm_listing_profile_edit AJAX action not having enough restriction on the user meta that can be updated. This makes it possible for authenticated attackers, with Subscriber-level access and above, to elevate their privileges to that of an administrator.
+</code>
+
+- [realcodeb0ss/CVE-2025-1653-poc](https://github.com/realcodeb0ss/CVE-2025-1653-poc)
+
 ### CVE-2025-1661 (2025-03-11)
 
 <code>The HUSKY – Products Filter Professional for WooCommerce plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 1.3.6.5 via the 'template' parameter of the woof_text_search AJAX action. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
@@ -172,6 +179,9 @@
 
 - [McTavishSue/CVE-2025-2233](https://github.com/McTavishSue/CVE-2025-2233)
 
+### CVE-2025-2249
+- [Nxploited/CVE-2025-2249](https://github.com/Nxploited/CVE-2025-2249)
+
 ### CVE-2025-2294 (2025-03-28)
 
 <code>The Kubio AI Page Builder plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.5.1 via thekubio_hybrid_theme_load_template function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
@@ -192,6 +202,13 @@
 </code>
 
 - [Otsmane-Ahmed/CVE-2025-2620-poc](https://github.com/Otsmane-Ahmed/CVE-2025-2620-poc)
+
+### CVE-2025-2857 (2025-03-27)
+
+<code>Following the recent Chrome sandbox escape (CVE-2025-2783), various Firefox developers identified a similar pattern in our IPC code. A compromised child process could cause the parent process to return an unintentionally powerful handle, leading to a sandbox escape. \nThe original vulnerability was being exploited in the wild. \n*This only affects Firefox on Windows. Other operating systems are unaffected.* This vulnerability affects Firefox &lt; 136.0.4, Firefox ESR &lt; 128.8.1, and Firefox ESR &lt; 115.21.1.
+</code>
+
+- [RimaRuer/CVE-2025-2857-Exploit](https://github.com/RimaRuer/CVE-2025-2857-Exploit)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -303,7 +320,11 @@
 
 - [Stolichnayer/CVE-2025-22828](https://github.com/Stolichnayer/CVE-2025-22828)
 
-### CVE-2025-22953
+### CVE-2025-22953 (2025-03-28)
+
+<code>A SQL injection vulnerability exists in the Epicor HCM 2021 1.9, specifically in the filter parameter of the JsonFetcher.svc endpoint. An attacker can exploit this vulnerability by injecting malicious SQL payloads into the filter parameter, enabling the unauthorized execution of arbitrary SQL commands on the backend database. If certain features (like xp_cmdshell) are enabled, this may lead to remote code execution.
+</code>
+
 - [maliktawfiq/CVE-2025-22953](https://github.com/maliktawfiq/CVE-2025-22953)
 
 ### CVE-2025-22954 (2025-03-12)
@@ -943,6 +964,9 @@
 </code>
 
 - [Nxploited/CVE-2025-30772](https://github.com/Nxploited/CVE-2025-30772)
+
+### CVE-2025-31336
+- [coleleavitt/AAMVA-PDF417-Vulnerability-Research](https://github.com/coleleavitt/AAMVA-PDF417-Vulnerability-Research)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -12148,6 +12172,7 @@
 - [soltanali0/CVE-2023-7028](https://github.com/soltanali0/CVE-2023-7028)
 - [gh-ost00/CVE-2023-7028](https://github.com/gh-ost00/CVE-2023-7028)
 - [sariamubeen/CVE-2023-7028](https://github.com/sariamubeen/CVE-2023-7028)
+- [Sornphut/CVE-2023-7028-GitLab](https://github.com/Sornphut/CVE-2023-7028-GitLab)
 
 ### CVE-2023-7172 (2023-12-30)
 
