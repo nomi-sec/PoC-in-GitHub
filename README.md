@@ -179,7 +179,11 @@
 
 - [McTavishSue/CVE-2025-2233](https://github.com/McTavishSue/CVE-2025-2233)
 
-### CVE-2025-2249
+### CVE-2025-2249 (2025-03-29)
+
+<code>The SoJ SoundSlides plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the soj_soundslides_options_subpanel() function in all versions up to, and including, 1.2.2. This makes it possible for authenticated attackers, with Contributor-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
 - [Nxploited/CVE-2025-2249](https://github.com/Nxploited/CVE-2025-2249)
 
 ### CVE-2025-2294 (2025-03-28)
@@ -195,6 +199,9 @@
 </code>
 
 - [McTavishSue/CVE-2025-2476](https://github.com/McTavishSue/CVE-2025-2476)
+
+### CVE-2025-2563
+- [ubaydev/CVE-2025-2563](https://github.com/ubaydev/CVE-2025-2563)
 
 ### CVE-2025-2620 (2025-03-22)
 
@@ -892,6 +899,7 @@
 - [AnonKryptiQuz/NextSploit](https://github.com/AnonKryptiQuz/NextSploit)
 - [w2hcorp/CVE-2025-29927-Exploit](https://github.com/w2hcorp/CVE-2025-29927-Exploit)
 - [ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927](https://github.com/ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927)
+- [dante01yoon/CVE-2025-29927](https://github.com/dante01yoon/CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -5243,6 +5251,13 @@
 </code>
 
 - [jet-pentest/CVE-2024-25175](https://github.com/jet-pentest/CVE-2024-25175)
+
+### CVE-2024-25180 (2024-02-29)
+
+<code>An issue discovered in pdfmake 0.2.9 allows remote attackers to run arbitrary code via crafted POST request to the /pdf endpoint. NOTE: this is disputed because the behavior of the /pdf endpoint is intentional. The /pdf endpoint is only available after installing a test framework (that lives outside of the pdfmake applicaton). Anyone installing this is responsible for ensuring that it is only available to authorized testers.
+</code>
+
+- [dustblessnotdust/CVE-2024-25180](https://github.com/dustblessnotdust/CVE-2024-25180)
 
 ### CVE-2024-25202 (2024-02-28)
 
@@ -27703,6 +27718,13 @@
 
 - [s-index/CVE-2021-21349](https://github.com/s-index/CVE-2021-21349)
 
+### CVE-2021-21353 (2021-03-03)
+
+<code>Pug is an npm package which is a high-performance template engine. In pug before version 3.0.1, if a remote attacker was able to control the `pretty` option of the pug compiler, e.g. if you spread a user provided object such as the query parameters of a request into the pug template inputs, it was possible for them to achieve remote code execution on the node.js backend. This is fixed in version 3.0.1. This advisory applies to multiple pug packages including &quot;pug&quot;, &quot;pug-code-gen&quot;. pug-code-gen has a backported fix at version 2.0.3. This advisory is not exploitable if there is no way for un-trusted input to be passed to pug as the `pretty` option, e.g. if you compile templates in advance before applying user input to them, you do not need to upgrade.
+</code>
+
+- [jinsu9758/PUG-RCE-CVE-2021-21353-POC](https://github.com/jinsu9758/PUG-RCE-CVE-2021-21353-POC)
+
 ### CVE-2021-21380 (2021-03-23)
 
 <code>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. In affected versions of XWiki Platform (and only those with the Ratings API installed), the Rating Script Service expose an API to perform SQL requests without escaping the from and where search arguments. This might lead to an SQL script injection quite easily for any user having Script rights on XWiki. The problem has been patched in XWiki 12.9RC1. The only workaround besides upgrading XWiki would be to uninstall the Ratings API in XWiki from the Extension Manager.
@@ -29589,13 +29611,6 @@
 </code>
 
 - [dnr6419/CVE-2021-32644](https://github.com/dnr6419/CVE-2021-32644)
-
-### CVE-2021-32648 (2021-08-26)
-
-<code>octobercms in a CMS platform based on the Laravel PHP Framework. In affected versions of the october/system package an attacker can request an account password reset and then gain access to the account using a specially crafted request. The issue has been patched in Build 472 and v1.1.5.
-</code>
-
-- [daftspunk/CVE-2021-32648](https://github.com/daftspunk/CVE-2021-32648)
 
 ### CVE-2021-32708 (2021-06-24)
 
@@ -32298,7 +32313,6 @@
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
 - [ColdFusionX/CVE-2021-44228-Log4Shell-POC](https://github.com/ColdFusionX/CVE-2021-44228-Log4Shell-POC)
-- [robrankin/cve-2021-44228-waf-tests](https://github.com/robrankin/cve-2021-44228-waf-tests)
 - [0xalwayslucky/log4j-polkit-poc](https://github.com/0xalwayslucky/log4j-polkit-poc)
 - [y-security/yLog4j](https://github.com/y-security/yLog4j)
 - [FeryaelJustice/Log4Shell](https://github.com/FeryaelJustice/Log4Shell)
