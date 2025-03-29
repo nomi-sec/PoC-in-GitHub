@@ -881,7 +881,6 @@
 - [aleongx/CVE-2025-29927](https://github.com/aleongx/CVE-2025-29927)
 - [nicknisi/next-attack](https://github.com/nicknisi/next-attack)
 - [jmbowes/NextSecureScan](https://github.com/jmbowes/NextSecureScan)
-- [ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927](https://github.com/ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927)
 - [aleongx/CVE-2025-29927_Scanner](https://github.com/aleongx/CVE-2025-29927_Scanner)
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
@@ -891,6 +890,8 @@
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [0x0Luk/0xMiddleware](https://github.com/0x0Luk/0xMiddleware)
 - [AnonKryptiQuz/NextSploit](https://github.com/AnonKryptiQuz/NextSploit)
+- [w2hcorp/CVE-2025-29927-Exploit](https://github.com/w2hcorp/CVE-2025-29927-Exploit)
+- [ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927](https://github.com/ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -964,9 +965,6 @@
 </code>
 
 - [Nxploited/CVE-2025-30772](https://github.com/Nxploited/CVE-2025-30772)
-
-### CVE-2025-31336
-- [coleleavitt/AAMVA-PDF417-Vulnerability-Research](https://github.com/coleleavitt/AAMVA-PDF417-Vulnerability-Research)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -17124,6 +17122,7 @@
 - [HusenjanDev/CVE-2023-42793](https://github.com/HusenjanDev/CVE-2023-42793)
 - [FlojBoj/CVE-2023-42793](https://github.com/FlojBoj/CVE-2023-42793)
 - [SwiftSecur/teamcity-exploit-cve-2023-42793](https://github.com/SwiftSecur/teamcity-exploit-cve-2023-42793)
+- [becrevex/CVE-2023-42793](https://github.com/becrevex/CVE-2023-42793)
 
 ### CVE-2023-42819 (2023-09-26)
 
@@ -21784,6 +21783,7 @@
 - [sadshade/CVE-2022-24706-CouchDB-Exploit](https://github.com/sadshade/CVE-2022-24706-CouchDB-Exploit)
 - [ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-](https://github.com/ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-)
 - [superzerosec/CVE-2022-24706](https://github.com/superzerosec/CVE-2022-24706)
+- [becrevex/CVE-2022-24706](https://github.com/becrevex/CVE-2022-24706)
 
 ### CVE-2022-24707 (2022-02-23)
 
