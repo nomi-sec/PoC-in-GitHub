@@ -186,6 +186,13 @@
 
 - [Nxploited/CVE-2025-2249](https://github.com/Nxploited/CVE-2025-2249)
 
+### CVE-2025-2266 (2025-03-29)
+
+<code>The Checkout Mestres do WP for WooCommerce plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the cwmpUpdateOptions() function in versions 8.6.5 to 8.7.5. This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
+</code>
+
+- [Nxploited/CVE-2025-2266](https://github.com/Nxploited/CVE-2025-2266)
+
 ### CVE-2025-2294 (2025-03-28)
 
 <code>The Kubio AI Page Builder plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.5.1 via thekubio_hybrid_theme_load_template function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
@@ -216,6 +223,7 @@
 </code>
 
 - [RimaRuer/CVE-2025-2857-Exploit](https://github.com/RimaRuer/CVE-2025-2857-Exploit)
+- [ubisoftinc/CVE-2025-2857](https://github.com/ubisoftinc/CVE-2025-2857)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -986,6 +994,9 @@
 
 ### CVE-2025-3292025
 - [itssixtyn3in/CVE-2025-3292025](https://github.com/itssixtyn3in/CVE-2025-3292025)
+
+### CVE-2025-3292026
+- [itssixtyn3in/CVE-2025-3292026](https://github.com/itssixtyn3in/CVE-2025-3292026)
 
 
 ## 2024
