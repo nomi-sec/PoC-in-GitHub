@@ -97,6 +97,7 @@
 </code>
 
 - [hakaioffsec/IngressNightmare-PoC](https://github.com/hakaioffsec/IngressNightmare-PoC)
+- [lufeirider/IngressNightmare-PoC](https://github.com/lufeirider/IngressNightmare-PoC)
 
 ### CVE-2025-1302 (2025-02-15)
 
@@ -486,6 +487,7 @@
 - [beyond-devsecops/CVE-2025-24813](https://github.com/beyond-devsecops/CVE-2025-24813)
 - [u238/Tomcat-CVE_2025_24813](https://github.com/u238/Tomcat-CVE_2025_24813)
 - [AlperenY-cs/CVE-2025-24813](https://github.com/AlperenY-cs/CVE-2025-24813)
+- [manjula-aw/CVE-2025-24813](https://github.com/manjula-aw/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -778,6 +780,13 @@
 
 - [ZeroDayx/CVE-2025-26909](https://github.com/ZeroDayx/CVE-2025-26909)
 
+### CVE-2025-27152 (2025-03-07)
+
+<code>axios is a promise based HTTP client for the browser and node.js. The issue occurs when passing absolute URLs rather than protocol-relative URLs to axios. Even if ⁠baseURL is set, axios sends the request to the specified absolute URL, potentially causing SSRF and credential leakage. This issue impacts both server-side and client-side usage of axios. This issue is fixed in 1.8.2.
+</code>
+
+- [andreglock/axios-ssrf](https://github.com/andreglock/axios-ssrf)
+
 ### CVE-2025-27363 (2025-03-11)
 
 <code>An out of bounds write exists in FreeType versions 2.13.0 and below (newer versions of FreeType are not vulnerable) when attempting to parse font subglyph structures related to TrueType GX and variable font files. The vulnerable code assigns a signed short value to an unsigned long and then adds a static value causing it to wrap around and allocate too small of a heap buffer. The code then writes up to 6 signed long integers out of bounds relative to this buffer. This may result in arbitrary code execution. This vulnerability may have been exploited in the wild.
@@ -910,6 +919,7 @@
 - [ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927](https://github.com/ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927)
 - [dante01yoon/CVE-2025-29927](https://github.com/dante01yoon/CVE-2025-29927)
 - [ayato-shitomi/WebLab_CVE-2025-29927](https://github.com/ayato-shitomi/WebLab_CVE-2025-29927)
+- [Kamal-418/CVE-2025-29927-NextJs-Lab](https://github.com/Kamal-418/CVE-2025-29927-NextJs-Lab)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -948,6 +958,7 @@
 - [On1onss/CVE-2025-30208-LFI](https://github.com/On1onss/CVE-2025-30208-LFI)
 - [sadhfdw129/CVE-2025-30208-Vite](https://github.com/sadhfdw129/CVE-2025-30208-Vite)
 - [keklick1337/CVE-2025-30208-ViteVulnScanner](https://github.com/keklick1337/CVE-2025-30208-ViteVulnScanner)
+- [Ahmed-mostafa03/CVE-2025-30208-EXP](https://github.com/Ahmed-mostafa03/CVE-2025-30208-EXP)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -17910,6 +17921,7 @@
 - [nrazv/CVE-2023-45878](https://github.com/nrazv/CVE-2023-45878)
 - [PaulDHaes/CVE-2023-45878-POC](https://github.com/PaulDHaes/CVE-2023-45878-POC)
 - [killercd/CVE-2023-45878](https://github.com/killercd/CVE-2023-45878)
+- [0xyy66/CVE-2023-45878_to_RCE](https://github.com/0xyy66/CVE-2023-45878_to_RCE)
 
 ### CVE-2023-45966 (2023-10-23)
 
@@ -26039,7 +26051,7 @@
 <code>Shopware v5.5.10 was discovered to contain a cross-site scripting (XSS) vulnerability via the recovery/install/ URI.
 </code>
 
-- [sahilop123/-CVE-2022-48150](https://github.com/sahilop123/-CVE-2022-48150)
+- [SahilH4ck4you/-CVE-2022-48150](https://github.com/SahilH4ck4you/-CVE-2022-48150)
 
 ### CVE-2022-48194 (2022-12-30)
 
@@ -35632,6 +35644,7 @@
 - [RakhithJK/CVE-2020-11651](https://github.com/RakhithJK/CVE-2020-11651)
 - [appcheck-ng/salt-rce-scanner-CVE-2020-11651-CVE-2020-11652](https://github.com/appcheck-ng/salt-rce-scanner-CVE-2020-11651-CVE-2020-11652)
 - [hardsoftsecurity/CVE-2020-11651-PoC](https://github.com/hardsoftsecurity/CVE-2020-11651-PoC)
+- [Drew-Alleman/CVE-2020-11651](https://github.com/Drew-Alleman/CVE-2020-11651)
 
 ### CVE-2020-11652 (2020-04-30)
 
@@ -52113,6 +52126,7 @@
 </code>
 
 - [bitc0de/Elastix-Remote-Code-Execution](https://github.com/bitc0de/Elastix-Remote-Code-Execution)
+- [cyberdesu/Elastix-2.2.0-CVE-2012-4869](https://github.com/cyberdesu/Elastix-2.2.0-CVE-2012-4869)
 
 ### CVE-2012-4929 (2012-09-15)
 
