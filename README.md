@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2025
+### CVE-2025-0011
+- [binarywarm/kentico-xperience13-AuthBypass-CVE-2025-0011](https://github.com/binarywarm/kentico-xperience13-AuthBypass-CVE-2025-0011)
+
 ### CVE-2025-0086
 - [Mahesh-970/CVE-2025-0086](https://github.com/Mahesh-970/CVE-2025-0086)
 
@@ -821,6 +824,7 @@
 </code>
 
 - [em0gi/CVE-2025-27840](https://github.com/em0gi/CVE-2025-27840)
+- [demining/Bluetooth-Attacks-CVE-2025-27840](https://github.com/demining/Bluetooth-Attacks-CVE-2025-27840)
 
 ### CVE-2025-27893 (2025-03-11)
 
@@ -919,7 +923,7 @@
 - [ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927](https://github.com/ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927)
 - [dante01yoon/CVE-2025-29927](https://github.com/dante01yoon/CVE-2025-29927)
 - [ayato-shitomi/WebLab_CVE-2025-29927](https://github.com/ayato-shitomi/WebLab_CVE-2025-29927)
-- [Kamal-418/CVE-2025-29927-NextJs-Lab](https://github.com/Kamal-418/CVE-2025-29927-NextJs-Lab)
+- [Kamal-418/Vulnerable-Lab-NextJS-CVE-2025-29927](https://github.com/Kamal-418/Vulnerable-Lab-NextJS-CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -7216,6 +7220,7 @@
 - [th3gokul/CVE-2024-36991](https://github.com/th3gokul/CVE-2024-36991)
 - [sardine-web/CVE-2024-36991](https://github.com/sardine-web/CVE-2024-36991)
 - [Cappricio-Securities/CVE-2024-36991](https://github.com/Cappricio-Securities/CVE-2024-36991)
+- [jaytiwari05/CVE-2024-36991](https://github.com/jaytiwari05/CVE-2024-36991)
 
 ### CVE-2024-37032 (2024-05-31)
 
@@ -9227,6 +9232,7 @@
 - [dragonked2/CVE-2024-50379-POC](https://github.com/dragonked2/CVE-2024-50379-POC)
 - [dkstar11q/CVE-2024-50379-nuclei](https://github.com/dkstar11q/CVE-2024-50379-nuclei)
 - [pwnosec/CVE-2024-50379](https://github.com/pwnosec/CVE-2024-50379)
+- [thunww/CVE-2024-50379](https://github.com/thunww/CVE-2024-50379)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -17922,6 +17928,7 @@
 - [PaulDHaes/CVE-2023-45878-POC](https://github.com/PaulDHaes/CVE-2023-45878-POC)
 - [killercd/CVE-2023-45878](https://github.com/killercd/CVE-2023-45878)
 - [0xyy66/CVE-2023-45878_to_RCE](https://github.com/0xyy66/CVE-2023-45878_to_RCE)
+- [davidzzo23/CVE-2023-45878](https://github.com/davidzzo23/CVE-2023-45878)
 
 ### CVE-2023-45966 (2023-10-23)
 
@@ -43414,8 +43421,8 @@
 - [tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574)
 - [markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574)
 - [hasharmujahid/CVE-2018-6574-go-get-RCE](https://github.com/hasharmujahid/CVE-2018-6574-go-get-RCE)
-- [jeyaseelans86/CVE-2018-6574](https://github.com/jeyaseelans86/CVE-2018-6574)
-- [jeyaseelans86/new-CVE-2018-6574](https://github.com/jeyaseelans86/new-CVE-2018-6574)
+- [rootxjs/CVE-2018-6574](https://github.com/rootxjs/CVE-2018-6574)
+- [rootxjs/new-CVE-2018-6574](https://github.com/rootxjs/new-CVE-2018-6574)
 - [chr1sM/CVE-2018-6574](https://github.com/chr1sM/CVE-2018-6574)
 - [mux0x/CVE-2018-6574](https://github.com/mux0x/CVE-2018-6574)
 - [seoqqq/CVE-2018-6574](https://github.com/seoqqq/CVE-2018-6574)
