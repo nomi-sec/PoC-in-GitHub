@@ -895,7 +895,6 @@
 - [elshaheedy/CVE-2025-29927-Sigma-Rule](https://github.com/elshaheedy/CVE-2025-29927-Sigma-Rule)
 - [furmak331/CVE-2025-29927](https://github.com/furmak331/CVE-2025-29927)
 - [takumade/ghost-route](https://github.com/takumade/ghost-route)
-- [memmedrehimzade/CVE-2025-29927-vuln-app](https://github.com/memmedrehimzade/CVE-2025-29927-vuln-app)
 - [0xPb1/Next.js-CVE-2025-29927](https://github.com/0xPb1/Next.js-CVE-2025-29927)
 - [jeymo092/cve-2025-29927](https://github.com/jeymo092/cve-2025-29927)
 - [alihussainzada/CVE-2025-29927-PoC](https://github.com/alihussainzada/CVE-2025-29927-PoC)
@@ -7221,6 +7220,7 @@
 - [sardine-web/CVE-2024-36991](https://github.com/sardine-web/CVE-2024-36991)
 - [Cappricio-Securities/CVE-2024-36991](https://github.com/Cappricio-Securities/CVE-2024-36991)
 - [jaytiwari05/CVE-2024-36991](https://github.com/jaytiwari05/CVE-2024-36991)
+- [TcchSquad/CVE-2024-36991-Tool](https://github.com/TcchSquad/CVE-2024-36991-Tool)
 
 ### CVE-2024-37032 (2024-05-31)
 
@@ -15513,6 +15513,7 @@
 - [Mantodkaz/CVE-2023-34960](https://github.com/Mantodkaz/CVE-2023-34960)
 - [tucommenceapousser/CVE-2023-34960-ex](https://github.com/tucommenceapousser/CVE-2023-34960-ex)
 - [dvtarsoul/ChExp](https://github.com/dvtarsoul/ChExp)
+- [mr-won/cve-2023-34960](https://github.com/mr-won/cve-2023-34960)
 
 ### CVE-2023-34965 (2023-06-13)
 
@@ -22294,6 +22295,7 @@
 - [Agentgilspy/CVE-2022-26134](https://github.com/Agentgilspy/CVE-2022-26134)
 - [XiaomingX/cve-2022-26134-poc](https://github.com/XiaomingX/cve-2022-26134-poc)
 - [Khalidhaimur/CVE-2022-26134](https://github.com/Khalidhaimur/CVE-2022-26134)
+- [mr-won/cve-2022-26134](https://github.com/mr-won/cve-2022-26134)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -27512,6 +27514,7 @@
 - [hacefresko/CVE-2021-4045](https://github.com/hacefresko/CVE-2021-4045)
 - [jeffbezosispogg/CVE-2021-4045](https://github.com/jeffbezosispogg/CVE-2021-4045)
 - [0xbinder/CVE-2021-4045](https://github.com/0xbinder/CVE-2021-4045)
+- [DorskFR/tapodate](https://github.com/DorskFR/tapodate)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -32357,7 +32360,6 @@
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
-- [ColdFusionX/CVE-2021-44228-Log4Shell-POC](https://github.com/ColdFusionX/CVE-2021-44228-Log4Shell-POC)
 - [0xalwayslucky/log4j-polkit-poc](https://github.com/0xalwayslucky/log4j-polkit-poc)
 - [y-security/yLog4j](https://github.com/y-security/yLog4j)
 - [FeryaelJustice/Log4Shell](https://github.com/FeryaelJustice/Log4Shell)
@@ -42471,6 +42473,13 @@
 </code>
 
 - [dima5455/Cve-2018-0208](https://github.com/dima5455/Cve-2018-0208)
+
+### CVE-2018-0239 (2018-04-19)
+
+<code>A vulnerability in the egress packet processing functionality of the Cisco StarOS operating system for Cisco Aggregation Services Router (ASR) 5700 Series devices and Virtualized Packet Core (VPC) System Software could allow an unauthenticated, remote attacker to cause an interface on the device to cease forwarding packets. The device may need to be manually reloaded to clear this Interface Forwarding Denial of Service condition. The vulnerability is due to the failure to properly check that the length of a packet to transmit does not exceed the maximum supported length of the network interface card (NIC). An attacker could exploit this vulnerability by sending a crafted IP packet or a series of crafted IP fragments through an interface on the targeted device. A successful exploit could allow the attacker to cause the network interface to cease forwarding packets. This vulnerability could be triggered by either IPv4 or IPv6 network traffic. This vulnerability affects the following Cisco products when they are running the StarOS operating system and a virtual interface card is installed on the device: Aggregation Services Router (ASR) 5700 Series, Virtualized Packet Core-Distributed Instance (VPC-DI) System Software, Virtualized Packet Core-Single Instance (VPC-SI) System Software. Cisco Bug IDs: CSCvf32385.
+</code>
+
+- [mr-won/CVE-2018-0239](https://github.com/mr-won/CVE-2018-0239)
 
 ### CVE-2018-0296 (2018-06-07)
 
@@ -52668,6 +52677,7 @@
 
 - [pagvac/pocs](https://github.com/pagvac/pocs)
 - [e-Thug/PhpMyAdmin](https://github.com/e-Thug/PhpMyAdmin)
+- [mr-won/ZmEu](https://github.com/mr-won/ZmEu)
 
 ### CVE-2009-1244 (2009-04-13)
 
