@@ -123,13 +123,6 @@
 
 - [Nxploited/CVE-2025-1307](https://github.com/Nxploited/CVE-2025-1307)
 
-### CVE-2025-1316 (2025-03-04)
-
-<code>Edimax IC-7100 does not properly neutralize requests. An attacker can create specially crafted requests to achieve remote code execution on the device
-</code>
-
-- [slockit/CVE-2025-1316](https://github.com/slockit/CVE-2025-1316)
-
 ### CVE-2025-1639 (2025-03-04)
 
 <code>The Animation Addons for Elementor Pro plugin for WordPress is vulnerable to unauthorized arbitrary plugin installation due to a missing capability check on the install_elementor_plugin_handler() function in all versions up to, and including, 1.6. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install and activate arbitrary plugins which can be leveraged to further infect a victim when Elementor is not activated on a vulnerable site.
@@ -229,7 +222,6 @@
 </code>
 
 - [RimaRuer/CVE-2025-2857-Exploit](https://github.com/RimaRuer/CVE-2025-2857-Exploit)
-- [ubisoftinc/CVE-2025-2857](https://github.com/ubisoftinc/CVE-2025-2857)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -468,6 +460,13 @@
 ### CVE-2025-24752
 - [Sachinart/essential-addons-for-elementor-xss-poc](https://github.com/Sachinart/essential-addons-for-elementor-xss-poc)
 - [bartfroklage/CVE-2025-24752-POC](https://github.com/bartfroklage/CVE-2025-24752-POC)
+
+### CVE-2025-24799 (2025-03-18)
+
+<code>GLPI is a free asset and IT management software package. An unauthenticated user can perform a SQL injection through the inventory endpoint. This vulnerability is fixed in 10.0.18.
+</code>
+
+- [realcodeb0ss/CVE-2025-24799-PoC](https://github.com/realcodeb0ss/CVE-2025-24799-PoC)
 
 ### CVE-2025-24813 (2025-03-10)
 
@@ -964,6 +963,7 @@
 - [sadhfdw129/CVE-2025-30208-Vite](https://github.com/sadhfdw129/CVE-2025-30208-Vite)
 - [keklick1337/CVE-2025-30208-ViteVulnScanner](https://github.com/keklick1337/CVE-2025-30208-ViteVulnScanner)
 - [Ahmed-mostafa03/CVE-2025-30208-EXP](https://github.com/Ahmed-mostafa03/CVE-2025-30208-EXP)
+- [jackieya/CVE-2025-30208](https://github.com/jackieya/CVE-2025-30208)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -978,13 +978,6 @@
 </code>
 
 - [natasaka/CVE-2025-30349](https://github.com/natasaka/CVE-2025-30349)
-
-### CVE-2025-30355 (2025-03-27)
-
-<code>Synapse is an open source Matrix homeserver implementation. A malicious server can craft events which, when received, prevent Synapse version up to 1.127.0 from federating with other servers. The vulnerability has been exploited in the wild and has been fixed in Synapse v1.127.1. No known workarounds are available.
-</code>
-
-- [ui-bootstrap/CVE-2025-30355](https://github.com/ui-bootstrap/CVE-2025-30355)
 
 ### CVE-2025-30567 (2025-03-25)
 
@@ -3140,7 +3133,6 @@
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
-- [worthytop/CVE-2024-9474](https://github.com/worthytop/CVE-2024-9474)
 
 ### CVE-2024-9513 (2024-10-04)
 
@@ -14993,6 +14985,7 @@
 - [Cmadhushanka/CVE-2023-32784-Exploitation](https://github.com/Cmadhushanka/CVE-2023-32784-Exploitation)
 - [SarahZimmermann-Schmutzler/exploit_keepass](https://github.com/SarahZimmermann-Schmutzler/exploit_keepass)
 - [dev0558/CVE-2023-32784-EXPLOIT-REPORT](https://github.com/dev0558/CVE-2023-32784-EXPLOIT-REPORT)
+- [G4sp4rCS/CVE-2023-32784-password-combinator-fixer](https://github.com/G4sp4rCS/CVE-2023-32784-password-combinator-fixer)
 
 ### CVE-2023-32961 (2023-06-12)
 
@@ -24305,7 +24298,6 @@
 - [walnutsecurity/cve-2022-36804](https://github.com/walnutsecurity/cve-2022-36804)
 - [imbas007/Atlassian-Bitbucket-CVE-2022-36804](https://github.com/imbas007/Atlassian-Bitbucket-CVE-2022-36804)
 - [asepsaepdin/CVE-2022-36804](https://github.com/asepsaepdin/CVE-2022-36804)
-- [ui-bootstrap/CVE-2022-36804](https://github.com/ui-bootstrap/CVE-2022-36804)
 
 ### CVE-2022-36944 (2022-09-23)
 
