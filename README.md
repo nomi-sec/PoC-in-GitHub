@@ -5417,6 +5417,7 @@
 - [KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress](https://github.com/KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress)
 - [wh6amiGit/CVE-2024-25600](https://github.com/wh6amiGit/CVE-2024-25600)
 - [Sibul-Dan-Glokta/test-task-CVE-2024-25600](https://github.com/Sibul-Dan-Glokta/test-task-CVE-2024-25600)
+- [so1icitx/CVE-2024-25600](https://github.com/so1icitx/CVE-2024-25600)
 
 ### CVE-2024-25641 (2024-05-13)
 
@@ -7221,6 +7222,7 @@
 - [Cappricio-Securities/CVE-2024-36991](https://github.com/Cappricio-Securities/CVE-2024-36991)
 - [jaytiwari05/CVE-2024-36991](https://github.com/jaytiwari05/CVE-2024-36991)
 - [TcchSquad/CVE-2024-36991-Tool](https://github.com/TcchSquad/CVE-2024-36991-Tool)
+- [gunzf0x/CVE-2024-36991](https://github.com/gunzf0x/CVE-2024-36991)
 
 ### CVE-2024-37032 (2024-05-31)
 
@@ -39903,6 +39905,7 @@
 - [louisthedonothing/CVE-2019-9053](https://github.com/louisthedonothing/CVE-2019-9053)
 - [Yzhacker/CVE-2019-9053-CMS46635-python3](https://github.com/Yzhacker/CVE-2019-9053-CMS46635-python3)
 - [hf3cyber/CMS-Made-Simple-2.2.9-Unauthenticated-SQL-Injection-Exploit-CVE-2019-9053-](https://github.com/hf3cyber/CMS-Made-Simple-2.2.9-Unauthenticated-SQL-Injection-Exploit-CVE-2019-9053-)
+- [so1icitx/CVE-2019-9053](https://github.com/so1icitx/CVE-2019-9053)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
@@ -44295,6 +44298,7 @@
 - [Choudai/GPON-LOADER](https://github.com/Choudai/GPON-LOADER)
 - [c0ld1/GPON_RCE](https://github.com/c0ld1/GPON_RCE)
 - [ATpiu/CVE-2018-10562](https://github.com/ATpiu/CVE-2018-10562)
+- [mr-won/backdoor.mirai.helloworld](https://github.com/mr-won/backdoor.mirai.helloworld)
 
 ### CVE-2018-10583 (2018-05-01)
 
