@@ -175,6 +175,7 @@
 - [0xBingo/CVE-2025-1974](https://github.com/0xBingo/CVE-2025-1974)
 - [tuladhar/ingress-nightmare](https://github.com/tuladhar/ingress-nightmare)
 - [rjhaikal/POC-IngressNightmare-CVE-2025-1974](https://github.com/rjhaikal/POC-IngressNightmare-CVE-2025-1974)
+- [zulloper/CVE-2025-1974](https://github.com/zulloper/CVE-2025-1974)
 
 ### CVE-2025-2233 (2025-03-11)
 
@@ -203,6 +204,7 @@
 </code>
 
 - [Nxploited/CVE-2025-2294](https://github.com/Nxploited/CVE-2025-2294)
+- [mrrivaldo/CVE-2025-2294](https://github.com/mrrivaldo/CVE-2025-2294)
 
 ### CVE-2025-2476 (2025-03-19)
 
@@ -8443,7 +8445,7 @@
 <code>Multiple functions are vulnerable to Authorization Bypass in AIMS eCrew. The issue was fixed in version JUN23 #190.
 </code>
 
-- [VoidSecOrg/CVE-2024-44450](https://github.com/VoidSecOrg/CVE-2024-44450)
+- [NaunetEU/CVE-2024-44450](https://github.com/NaunetEU/CVE-2024-44450)
 
 ### CVE-2024-44541 (2024-09-11)
 
@@ -12637,6 +12639,7 @@
 - [zoemurmure/CVE-2023-21554-PoC](https://github.com/zoemurmure/CVE-2023-21554-PoC)
 - [3tternp/CVE-2023-21554](https://github.com/3tternp/CVE-2023-21554)
 - [Rahul-Thakur7/CVE-2023-21554](https://github.com/Rahul-Thakur7/CVE-2023-21554)
+- [leongxudong/MSMQ-Vulnerbaility](https://github.com/leongxudong/MSMQ-Vulnerbaility)
 
 ### CVE-2023-21560 (2023-01-10)
 
