@@ -64,6 +64,13 @@
 
 - [skrkcb2/CVE-2025-0851](https://github.com/skrkcb2/CVE-2025-0851)
 
+### CVE-2025-0868 (2025-02-20)
+
+<code>A vulnerability, that could result in Remote Code Execution (RCE), has been found in DocsGPT. Due to improper parsing of JSON data using eval() an unauthorized attacker could send arbitrary Python code to be executed via /api/remote endpoint.\n\nThis issue affects DocsGPT: from 0.8.1 through 0.12.0.
+</code>
+
+- [shreyas-malhotra/PoC_CVE-2025-0868](https://github.com/shreyas-malhotra/PoC_CVE-2025-0868)
+
 ### CVE-2025-0924 (2025-02-17)
 
 <code>The WP Activity Log plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘message’ parameter in all versions up to, and including, 5.2.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
@@ -492,6 +499,7 @@
 - [u238/Tomcat-CVE_2025_24813](https://github.com/u238/Tomcat-CVE_2025_24813)
 - [AlperenY-cs/CVE-2025-24813](https://github.com/AlperenY-cs/CVE-2025-24813)
 - [manjula-aw/CVE-2025-24813](https://github.com/manjula-aw/CVE-2025-24813)
+- [B1gN0Se/Tomcat-CVE-2025-24813](https://github.com/B1gN0Se/Tomcat-CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -632,6 +640,12 @@
 </code>
 
 - [AbhijithAJ/Dorset_SmartLock_Vulnerability](https://github.com/AbhijithAJ/Dorset_SmartLock_Vulnerability)
+
+### CVE-2025-25705
+- [Cotherm/CVE-2025-25705](https://github.com/Cotherm/CVE-2025-25705)
+
+### CVE-2025-25706
+- [Cotherm/CVE-2025-25706](https://github.com/Cotherm/CVE-2025-25706)
 
 ### CVE-2025-25747 (2025-03-11)
 
@@ -51772,6 +51786,7 @@
 - [OtisSymbos/CVE-2013-3900-WinTrustVerify](https://github.com/OtisSymbos/CVE-2013-3900-WinTrustVerify)
 - [AdenilsonSantos/WinVerifyTrust](https://github.com/AdenilsonSantos/WinVerifyTrust)
 - [DavidBr27/CVE-2013-3900-Remediation-Script](https://github.com/DavidBr27/CVE-2013-3900-Remediation-Script)
+- [piranhap/CVE-2013-3900_Remediation_PowerShell](https://github.com/piranhap/CVE-2013-3900_Remediation_PowerShell)
 
 ### CVE-2013-4002 (2013-07-23)
 
