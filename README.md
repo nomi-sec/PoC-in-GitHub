@@ -46,6 +46,13 @@
 
 - [vulncheck-oss/cve-2025-0364](https://github.com/vulncheck-oss/cve-2025-0364)
 
+### CVE-2025-0401 (2025-01-12)
+
+<code>Es wurde eine kritische Schwachstelle in 1902756969 reggie 1.0 entdeckt. Hiervon betroffen ist die Funktion download der Datei src/main/java/com/itheima/reggie/controller/CommonController.java. Durch das Manipulieren des Arguments name mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [CyberSecurityUP/CVE-2025-0401](https://github.com/CyberSecurityUP/CVE-2025-0401)
+
 ### CVE-2025-0411 (2025-01-25)
 
 <code>7-Zip Mark-of-the-Web Bypass Vulnerability. This vulnerability allows remote attackers to bypass the Mark-of-the-Web protection mechanism on affected installations of 7-Zip. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the handling of archived files. When extracting files from a crafted archive that bears the Mark-of-the-Web, 7-Zip does not propagate the Mark-of-the-Web to the extracted files. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user. Was ZDI-CAN-25456.
@@ -865,6 +872,9 @@
 
 - [Otsmane-Ahmed/cve-2025-29384-poc](https://github.com/Otsmane-Ahmed/cve-2025-29384-poc)
 
+### CVE-2025-29602
+- [harish0x/CVE-2025-29602](https://github.com/harish0x/CVE-2025-29602)
+
 ### CVE-2025-29927 (2025-03-21)
 
 <code>Next.js is a React framework for building full-stack web applications. Prior to 14.2.25 and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 14.2.25 and 15.2.3.
@@ -925,6 +935,7 @@
 - [ayato-shitomi/WebLab_CVE-2025-29927](https://github.com/ayato-shitomi/WebLab_CVE-2025-29927)
 - [Kamal-418/Vulnerable-Lab-NextJS-CVE-2025-29927](https://github.com/Kamal-418/Vulnerable-Lab-NextJS-CVE-2025-29927)
 - [a9v8i/CVE-2025-29927](https://github.com/a9v8i/CVE-2025-29927)
+- [alastair66/CVE-2025-29927](https://github.com/alastair66/CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -993,6 +1004,20 @@
 </code>
 
 - [Nxploited/CVE-2025-30772](https://github.com/Nxploited/CVE-2025-30772)
+
+### CVE-2025-31125 (2025-03-31)
+
+<code>Vite is a frontend tooling framework for javascript. Vite exposes content of non-allowed files using ?inline&amp;import or ?raw?import. Only apps explicitly exposing the Vite dev server to the network (using --host or server.host config option) are affected. This vulnerability is fixed in 6.2.4, 6.1.3, 6.0.13, 5.4.16, and 4.5.11.
+</code>
+
+- [sunhuiHi666/CVE-2025-31125](https://github.com/sunhuiHi666/CVE-2025-31125)
+
+### CVE-2025-31129 (2025-03-31)
+
+<code>Jooby is a web framework for Java and Kotlin. The pac4j io.jooby.internal.pac4j.SessionStoreImpl#get module deserializes untrusted data. This vulnerability is fixed in 2.17.0 (2.x) and 3.7.0 (3.x).
+</code>
+
+- [cwm1123/CVE-2025-31129](https://github.com/cwm1123/CVE-2025-31129)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -10435,7 +10460,7 @@
 
 ### CVE-2024-57040 (2025-02-26)
 
-<code>TL-WR845N(UN)_V4_200909 and TL-WR845N(UN)_V4_190219 was discovered to contain a hardcoded password for the root account which can be obtained via a brute force attack through physical access to the router.
+<code>TL-WR845N(UN)_V4_200909 and TL-WR845N(UN)_V4_190219 was discovered to contain a hardcoded password for the root account which can be obtained by analyzing downloaded firmware or via a brute force attack through physical access to the router.
 </code>
 
 - [absholi7ly/Poc-CVE-2024-57040](https://github.com/absholi7ly/Poc-CVE-2024-57040)
@@ -15519,7 +15544,6 @@
 - [ThatNotEasy/CVE-2023-34960](https://github.com/ThatNotEasy/CVE-2023-34960)
 - [Mantodkaz/CVE-2023-34960](https://github.com/Mantodkaz/CVE-2023-34960)
 - [tucommenceapousser/CVE-2023-34960-ex](https://github.com/tucommenceapousser/CVE-2023-34960-ex)
-- [dvtarsoul/ChExp](https://github.com/dvtarsoul/ChExp)
 - [mr-won/cve-2023-34960](https://github.com/mr-won/cve-2023-34960)
 
 ### CVE-2023-34965 (2023-06-13)
