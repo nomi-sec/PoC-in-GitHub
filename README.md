@@ -695,13 +695,25 @@
 
 - [padayali-JD/CVE-2025-25968](https://github.com/padayali-JD/CVE-2025-25968)
 
-### CVE-2025-26054
+### CVE-2025-26054 (2025-04-01)
+
+<code>Infinxt iEdge 100 2.1.32 is vulnerable to Cross Site Scripting (XSS) via the &quot;Description&quot; field during LAN configuration.
+</code>
+
 - [rohan-pt/CVE-2025-26054](https://github.com/rohan-pt/CVE-2025-26054)
 
-### CVE-2025-26055
+### CVE-2025-26055 (2025-04-01)
+
+<code>An OS Command Injection vulnerability exists in the Infinxt iEdge 100 2.1.32 Troubleshoot module, specifically in the tracertVal parameter of the Tracert function.
+</code>
+
 - [rohan-pt/CVE-2025-26055](https://github.com/rohan-pt/CVE-2025-26055)
 
-### CVE-2025-26056
+### CVE-2025-26056 (2025-04-01)
+
+<code>A command injection vulnerability exists in the Infinxt iEdge 100 2.1.32 in the Troubleshoot module &quot;MTR&quot; functionality. The vulnerability is due to improper validation of user-supplied input in the mtrIp parameter. An attacker can exploit this flaw to execute arbitrary operating system commands on the underlying system with the same privileges as the web application process.
+</code>
+
 - [rohan-pt/CVE-2025-26056](https://github.com/rohan-pt/CVE-2025-26056)
 
 ### CVE-2025-26125 (2025-03-17)
@@ -934,8 +946,9 @@
 - [dante01yoon/CVE-2025-29927](https://github.com/dante01yoon/CVE-2025-29927)
 - [ayato-shitomi/WebLab_CVE-2025-29927](https://github.com/ayato-shitomi/WebLab_CVE-2025-29927)
 - [Kamal-418/Vulnerable-Lab-NextJS-CVE-2025-29927](https://github.com/Kamal-418/Vulnerable-Lab-NextJS-CVE-2025-29927)
-- [a9v8i/CVE-2025-29927](https://github.com/a9v8i/CVE-2025-29927)
 - [alastair66/CVE-2025-29927](https://github.com/alastair66/CVE-2025-29927)
+- [BilalGns/CVE-2025-29927](https://github.com/BilalGns/CVE-2025-29927)
+- [nyctophile0969/CVE-2025-29927](https://github.com/nyctophile0969/CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -9435,6 +9448,7 @@
 - [watchtowrlabs/CVE-2024-50623](https://github.com/watchtowrlabs/CVE-2024-50623)
 - [verylazytech/CVE-2024-50623](https://github.com/verylazytech/CVE-2024-50623)
 - [iSee857/Cleo-CVE-2024-50623-PoC](https://github.com/iSee857/Cleo-CVE-2024-50623-PoC)
+- [congdong007/CVE-2024-50623-poc](https://github.com/congdong007/CVE-2024-50623-poc)
 
 ### CVE-2024-50633 (2025-01-16)
 
@@ -14875,6 +14889,13 @@
 - [manavvedawala/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept)
 - [Jenderal92/WP-CVE-2023-32243](https://github.com/Jenderal92/WP-CVE-2023-32243)
 - [shaoyu521/Mass-CVE-2023-32243](https://github.com/shaoyu521/Mass-CVE-2023-32243)
+
+### CVE-2023-32309 (2023-05-15)
+
+<code>PyMdown Extensions is a set of extensions for the `Python-Markdown` markdown project. In affected versions an arbitrary file read is possible when using include file syntax. By using the syntax `--8&lt;--&quot;/etc/passwd&quot;` or `--8&lt;--&quot;/proc/self/environ&quot;` the content of these files will be rendered in the generated documentation. Additionally, a path relative to a specified, allowed base path can also be used to render the content of a file outside the specified base paths: `--8&lt;-- &quot;../../../../etc/passwd&quot;`. Within the Snippets extension, there exists a `base_path` option but the implementation is vulnerable to Directory Traversal. The vulnerable section exists in `get_snippet_path(self, path)` lines 155 to 174 in snippets.py. Any readable file on the host where the plugin is executing may have its content exposed. This can impact any use of Snippets that exposes the use of Snippets to external users. It is never recommended to use Snippets to process user-facing, dynamic content. It is designed to process known content on the backend under the control of the host, but if someone were to accidentally enable it for user-facing content, undesired information could be exposed. This issue has been addressed in version 10.0. Users are advised to upgrade. Users unable to upgrade may restrict relative paths by filtering input.
+</code>
+
+- [itlabbet/CVE-2023-32309](https://github.com/itlabbet/CVE-2023-32309)
 
 ### CVE-2023-32314 (2023-05-15)
 
@@ -20982,6 +21003,7 @@
 
 - [ZZ-SOCMAP/CVE-2022-22536](https://github.com/ZZ-SOCMAP/CVE-2022-22536)
 - [tess-ss/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536](https://github.com/tess-ss/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536)
+- [BecodoExploit-mrCAT/SAPGateBreaker-Exploit](https://github.com/BecodoExploit-mrCAT/SAPGateBreaker-Exploit)
 
 ### CVE-2022-22555 (2022-07-20)
 
