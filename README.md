@@ -109,6 +109,13 @@
 - [hakaioffsec/IngressNightmare-PoC](https://github.com/hakaioffsec/IngressNightmare-PoC)
 - [lufeirider/IngressNightmare-PoC](https://github.com/lufeirider/IngressNightmare-PoC)
 
+### CVE-2025-1219 (2025-03-30)
+
+<code>In PHP from 8.1.* before 8.1.32, from 8.2.* before 8.2.28, from 8.3.* before 8.3.19, from 8.4.* before 8.4.5, when requesting a HTTP resource using the DOM or SimpleXML extensions, the wrong content-type header is used to determine the charset when the requested resource performs a redirect. This may cause the resulting document to be parsed incorrectly or bypass validations.
+</code>
+
+- [ediop3SquadALT/ediop3PHP](https://github.com/ediop3SquadALT/ediop3PHP)
+
 ### CVE-2025-1302 (2025-02-15)
 
 <code>Versions of the package jsonpath-plus before 10.3.0 are vulnerable to Remote Code Execution (RCE) due to improper input sanitization. An attacker can execute aribitrary code on the system by exploiting the unsafe default usage of eval='safe' mode.\r\r**Note:**\r\rThis is caused by an incomplete fix for [CVE-2024-21534](https://security.snyk.io/vuln/SNYK-JS-JSONPATHPLUS-7945884).
@@ -232,13 +239,6 @@
 </code>
 
 - [Otsmane-Ahmed/CVE-2025-2620-poc](https://github.com/Otsmane-Ahmed/CVE-2025-2620-poc)
-
-### CVE-2025-2825 (2025-03-26)
-
-<code>CrushFTP versions 10.0.0 through 10.8.3 and 11.0.0 through 11.3.0 are affected by a vulnerability in the S3 authorization header processing that allows authentication bypass. Remote and unauthenticated HTTP requests to CrushFTP with known usernames can be used to impersonate a user and conduct actions on their behalf, including administrative actions and data retrieval.
-</code>
-
-- [h0ld1rs/CVE-2025-2825](https://github.com/h0ld1rs/CVE-2025-2825)
 
 ### CVE-2025-2857 (2025-03-27)
 
@@ -967,6 +967,7 @@
 - [BilalGns/CVE-2025-29927](https://github.com/BilalGns/CVE-2025-29927)
 - [nyctophile0969/CVE-2025-29927](https://github.com/nyctophile0969/CVE-2025-29927)
 - [Naveen-005/Next.Js-middleware-bypass-vulnerability-CVE-2025-29927](https://github.com/Naveen-005/Next.Js-middleware-bypass-vulnerability-CVE-2025-29927)
+- [Gokul-Krishnan-V-R/cve-2025-29927](https://github.com/Gokul-Krishnan-V-R/cve-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -1063,6 +1064,24 @@
 
 ### CVE-2025-412027
 - [itssixtyn3in/CVE-2025-412027](https://github.com/itssixtyn3in/CVE-2025-412027)
+
+### CVE-2025-422025
+- [NotItsSixtyN3in/CVE-2025-422025](https://github.com/NotItsSixtyN3in/CVE-2025-422025)
+
+### CVE-2025-422026
+- [NotItsSixtyN3in/CVE-2025-422026](https://github.com/NotItsSixtyN3in/CVE-2025-422026)
+
+### CVE-2025-422027
+- [NotItsSixtyN3in/CVE-2025-422027](https://github.com/NotItsSixtyN3in/CVE-2025-422027)
+
+### CVE-2025-422029
+- [NotItsSixtyN3in/CVE-2025-422029](https://github.com/NotItsSixtyN3in/CVE-2025-422029)
+
+### CVE-2025-422030
+- [NotItsSixtyN3in/CVE-2025-422030](https://github.com/NotItsSixtyN3in/CVE-2025-422030)
+
+### CVE-2025-422031
+- [NotItsSixtyN3in/CVE-2025-422031](https://github.com/NotItsSixtyN3in/CVE-2025-422031)
 
 ### CVE-2025-3272025
 - [itssixtyn3in/CVE-2025-3272025](https://github.com/itssixtyn3in/CVE-2025-3272025)
@@ -10654,6 +10673,9 @@
 ### CVE-2024-415770
 - [muhmad-umair/CVE-2024-415770-ssrf-rce](https://github.com/muhmad-umair/CVE-2024-415770-ssrf-rce)
 
+### CVE-2024-422028
+- [NotItsSixtyN3in/CVE-2024-422028](https://github.com/NotItsSixtyN3in/CVE-2024-422028)
+
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
 
@@ -13828,6 +13850,7 @@
 - [madhavmehndiratta/CVE-2023-27163](https://github.com/madhavmehndiratta/CVE-2023-27163)
 - [Rishabh-Kumar-Cyber-Sec/CVE-2023-27163-ssrf-to-port-scanning](https://github.com/Rishabh-Kumar-Cyber-Sec/CVE-2023-27163-ssrf-to-port-scanning)
 - [btar1gan/exploit_CVE-2023-27163](https://github.com/btar1gan/exploit_CVE-2023-27163)
+- [G4sp4rCS/htb-sau-automated](https://github.com/G4sp4rCS/htb-sau-automated)
 
 ### CVE-2023-27216 (2023-04-12)
 
@@ -19869,7 +19892,7 @@
 <code>A privilege escalation flaw was found in Podman. This flaw allows an attacker to publish a malicious image to a public registry. Once this image is downloaded by a potential victim, the vulnerability is triggered after a user runs the 'podman top' command. This action gives the attacker access to the host filesystem, leading to information disclosure or denial of service.
 </code>
 
-- [iridium-soda/CVE-2022-1227_Exploit](https://github.com/iridium-soda/CVE-2022-1227_Exploit)
+- [LouisLiuNova/CVE-2022-1227_Exploit](https://github.com/LouisLiuNova/CVE-2022-1227_Exploit)
 
 ### CVE-2022-1292 (2022-05-03)
 
@@ -36220,6 +36243,7 @@
 - [yaunsky/Unomi-CVE-2020-13942](https://github.com/yaunsky/Unomi-CVE-2020-13942)
 - [hoanx4/apche_unomi_rce](https://github.com/hoanx4/apche_unomi_rce)
 - [Prodrious/CVE-2020-13942](https://github.com/Prodrious/CVE-2020-13942)
+- [corsisechero/CVE-2020-13942byVulHub](https://github.com/corsisechero/CVE-2020-13942byVulHub)
 
 ### CVE-2020-13945 (2020-12-07)
 
@@ -40029,6 +40053,7 @@
 - [geniuszly/CVE-2019-9193](https://github.com/geniuszly/CVE-2019-9193)
 - [AxthonyV/CVE-2019-9193](https://github.com/AxthonyV/CVE-2019-9193)
 - [A0be/CVE-2019-9193](https://github.com/A0be/CVE-2019-9193)
+- [corsisechero/CVE-2019-9193byVulHub](https://github.com/corsisechero/CVE-2019-9193byVulHub)
 
 ### CVE-2019-9194 (2019-02-26)
 
@@ -41152,7 +41177,7 @@
 <code>In Docker 19.03.x before 19.03.1 linked against the GNU C Library (aka glibc), code injection can occur when the nsswitch facility dynamically loads a library inside a chroot that contains the contents of the container.
 </code>
 
-- [iridium-soda/CVE-2019-14271_Exploit](https://github.com/iridium-soda/CVE-2019-14271_Exploit)
+- [LouisLiuNova/CVE-2019-14271_Exploit](https://github.com/LouisLiuNova/CVE-2019-14271_Exploit)
 
 ### CVE-2019-14287 (2019-10-17)
 
