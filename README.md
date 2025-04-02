@@ -177,7 +177,11 @@
 - [rjhaikal/POC-IngressNightmare-CVE-2025-1974](https://github.com/rjhaikal/POC-IngressNightmare-CVE-2025-1974)
 - [zulloper/CVE-2025-1974](https://github.com/zulloper/CVE-2025-1974)
 
-### CVE-2025-2005
+### CVE-2025-2005 (2025-04-02)
+
+<code>The Front End Users plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the file uploads field of the registration form in all versions up to, and including, 3.2.32. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
 - [Nxploited/CVE-2025-2005](https://github.com/Nxploited/CVE-2025-2005)
 
 ### CVE-2025-2233 (2025-03-11)
@@ -219,12 +223,22 @@
 ### CVE-2025-2563
 - [ubaydev/CVE-2025-2563](https://github.com/ubaydev/CVE-2025-2563)
 
+### CVE-2025-2594
+- [ubaydev/CVE-2025-2594](https://github.com/ubaydev/CVE-2025-2594)
+
 ### CVE-2025-2620 (2025-03-22)
 
 <code>In D-Link DAP-1620 1.03 wurde eine kritische Schwachstelle gefunden. Betroffen ist die Funktion mod_graph_auth_uri_handler der Datei /storage der Komponente Authentication Handler. Durch die Manipulation mit unbekannten Daten kann eine stack-based buffer overflow-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
 - [Otsmane-Ahmed/CVE-2025-2620-poc](https://github.com/Otsmane-Ahmed/CVE-2025-2620-poc)
+
+### CVE-2025-2825 (2025-03-26)
+
+<code>CrushFTP versions 10.0.0 through 10.8.3 and 11.0.0 through 11.3.0 are affected by a vulnerability in the S3 authorization header processing that allows authentication bypass. Remote and unauthenticated HTTP requests to CrushFTP with known usernames can be used to impersonate a user and conduct actions on their behalf, including administrative actions and data retrieval.
+</code>
+
+- [h0ld1rs/CVE-2025-2825](https://github.com/h0ld1rs/CVE-2025-2825)
 
 ### CVE-2025-2857 (2025-03-27)
 
@@ -992,7 +1006,7 @@
 - [sadhfdw129/CVE-2025-30208-Vite](https://github.com/sadhfdw129/CVE-2025-30208-Vite)
 - [keklick1337/CVE-2025-30208-ViteVulnScanner](https://github.com/keklick1337/CVE-2025-30208-ViteVulnScanner)
 - [Ahmed-mostafa03/CVE-2025-30208-EXP](https://github.com/Ahmed-mostafa03/CVE-2025-30208-EXP)
-- [jackieya/CVE-2025-30208](https://github.com/jackieya/CVE-2025-30208)
+- [jackieya/CVE-2025-30208-and-CVE-2025-31125](https://github.com/jackieya/CVE-2025-30208-and-CVE-2025-31125)
 - [0xshaheen/CVE-2025-30208](https://github.com/0xshaheen/CVE-2025-30208)
 - [sumeet-darekar/CVE-2025-30208](https://github.com/sumeet-darekar/CVE-2025-30208)
 
@@ -2906,6 +2920,13 @@
 </code>
 
 - [XiaomingX/cve-2024-8069-exp-Citrix-Virtual-Apps-XEN](https://github.com/XiaomingX/cve-2024-8069-exp-Citrix-Virtual-Apps-XEN)
+
+### CVE-2024-8176 (2025-03-14)
+
+<code>A stack overflow vulnerability exists in the libexpat library due to the way it handles recursive entity expansion in XML documents. When parsing an XML document with deeply nested entity references, libexpat can be forced to recurse indefinitely, exhausting the stack space and causing a crash. This issue could lead to denial of service (DoS) or, in some cases, exploitable memory corruption, depending on the environment and library usage.
+</code>
+
+- [uthrasri/Expat_2.6.2_CVE-2024-8176](https://github.com/uthrasri/Expat_2.6.2_CVE-2024-8176)
 
 ### CVE-2024-8190 (2024-09-10)
 
@@ -31338,7 +31359,7 @@
 - [0xc4t/CVE-2021-41773](https://github.com/0xc4t/CVE-2021-41773)
 - [jkska23/Additive-Vulnerability-Analysis-CVE-2021-41773](https://github.com/jkska23/Additive-Vulnerability-Analysis-CVE-2021-41773)
 - [redspy-sec/CVE-2021-41773](https://github.com/redspy-sec/CVE-2021-41773)
-- [luongchivi/CVE-2021-41773](https://github.com/luongchivi/CVE-2021-41773)
+- [luongchivi/Preproduce-CVE-2021-41773](https://github.com/luongchivi/Preproduce-CVE-2021-41773)
 - [FakesiteSecurity/CVE-2021-41773](https://github.com/FakesiteSecurity/CVE-2021-41773)
 - [Taldrid1/cve-2021-41773](https://github.com/Taldrid1/cve-2021-41773)
 - [tiemio/SSH-key-and-RCE-PoC-for-CVE-2021-41773](https://github.com/tiemio/SSH-key-and-RCE-PoC-for-CVE-2021-41773)
