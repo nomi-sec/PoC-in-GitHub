@@ -190,6 +190,7 @@
 </code>
 
 - [Nxploited/CVE-2025-2005](https://github.com/Nxploited/CVE-2025-2005)
+- [h4ckxel/CVE-2025-2005](https://github.com/h4ckxel/CVE-2025-2005)
 
 ### CVE-2025-2233 (2025-03-11)
 
@@ -505,6 +506,7 @@
 </code>
 
 - [realcodeb0ss/CVE-2025-24799-PoC](https://github.com/realcodeb0ss/CVE-2025-24799-PoC)
+- [MuhammadWaseem29/CVE-2025-24799](https://github.com/MuhammadWaseem29/CVE-2025-24799)
 
 ### CVE-2025-24813 (2025-03-10)
 
@@ -981,6 +983,7 @@
 - [nyctophile0969/CVE-2025-29927](https://github.com/nyctophile0969/CVE-2025-29927)
 - [Naveen-005/Next.Js-middleware-bypass-vulnerability-CVE-2025-29927](https://github.com/Naveen-005/Next.Js-middleware-bypass-vulnerability-CVE-2025-29927)
 - [Gokul-Krishnan-V-R/cve-2025-29927](https://github.com/Gokul-Krishnan-V-R/cve-2025-29927)
+- [fahimalshihab/NextBypass](https://github.com/fahimalshihab/NextBypass)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -1082,6 +1085,13 @@
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
+- [NotItsSixtyN3in/CVE-2025-50000](https://github.com/NotItsSixtyN3in/CVE-2025-50000)
+
+### CVE-2025-50001
+- [NotItsSixtyN3in/CVE-2025-50001](https://github.com/NotItsSixtyN3in/CVE-2025-50001)
+
+### CVE-2025-50002
+- [NotItsSixtyN3in/CVE-2025-50002](https://github.com/NotItsSixtyN3in/CVE-2025-50002)
 
 ### CVE-2025-412025
 - [itssixtyn3in/CVE-2025-412025](https://github.com/itssixtyn3in/CVE-2025-412025)
@@ -5540,6 +5550,7 @@
 - [wh6amiGit/CVE-2024-25600](https://github.com/wh6amiGit/CVE-2024-25600)
 - [Sibul-Dan-Glokta/test-task-CVE-2024-25600](https://github.com/Sibul-Dan-Glokta/test-task-CVE-2024-25600)
 - [so1icitx/CVE-2024-25600](https://github.com/so1icitx/CVE-2024-25600)
+- [cboss43/CVE-2024-25600](https://github.com/cboss43/CVE-2024-25600)
 
 ### CVE-2024-25641 (2024-05-13)
 
@@ -10015,6 +10026,13 @@
 </code>
 
 - [istagmbh/CVE-2024-53704](https://github.com/istagmbh/CVE-2024-53704)
+
+### CVE-2024-53900 (2024-12-02)
+
+<code>Mongoose before 8.8.3 can improperly use $where in match, leading to search injection.
+</code>
+
+- [Gokul-Krishnan-V-R/CVE-2024-53900](https://github.com/Gokul-Krishnan-V-R/CVE-2024-53900)
 
 ### CVE-2024-54152 (2024-12-10)
 
@@ -24789,7 +24807,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
