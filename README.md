@@ -1039,6 +1039,13 @@
 
 - [Nxploited/CVE-2025-30772](https://github.com/Nxploited/CVE-2025-30772)
 
+### CVE-2025-30921 (2025-03-27)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Tribulant Software Newsletters allows SQL Injection. This issue affects Newsletters: from n/a through 4.9.9.7.
+</code>
+
+- [DoTTak/CVE-2025-30921](https://github.com/DoTTak/CVE-2025-30921)
+
 ### CVE-2025-31125 (2025-03-31)
 
 <code>Vite is a frontend tooling framework for javascript. Vite exposes content of non-allowed files using ?inline&amp;import or ?raw?import. Only apps explicitly exposing the Vite dev server to the network (using --host or server.host config option) are affected. This vulnerability is fixed in 6.2.4, 6.1.3, 6.0.13, 5.4.16, and 4.5.11.
