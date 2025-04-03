@@ -240,6 +240,13 @@
 
 - [Otsmane-Ahmed/CVE-2025-2620-poc](https://github.com/Otsmane-Ahmed/CVE-2025-2620-poc)
 
+### CVE-2025-2825 (2025-03-26)
+
+<code>CrushFTP versions 10.0.0 through 10.8.3 and 11.0.0 through 11.3.0 are affected by a vulnerability in the S3 authorization header processing that allows authentication bypass. Remote and unauthenticated HTTP requests to CrushFTP with known usernames can be used to impersonate a user and conduct actions on their behalf, including administrative actions and data retrieval.
+</code>
+
+- [WOOOOONG/CVE-2025-2825](https://github.com/WOOOOONG/CVE-2025-2825)
+
 ### CVE-2025-2857 (2025-03-27)
 
 <code>Following the recent Chrome sandbox escape (CVE-2025-2783), various Firefox developers identified a similar pattern in our IPC code. A compromised child process could cause the parent process to return an unintentionally powerful handle, leading to a sandbox escape. \nThe original vulnerability was being exploited in the wild. \n*This only affects Firefox on Windows. Other operating systems are unaffected.* This vulnerability affects Firefox &lt; 136.0.4, Firefox ESR &lt; 128.8.1, and Firefox ESR &lt; 115.21.1.
@@ -1059,6 +1066,13 @@
 </code>
 
 - [cwm1123/CVE-2025-31129](https://github.com/cwm1123/CVE-2025-31129)
+
+### CVE-2025-31864 (2025-04-01)
+
+<code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Out the Box Beam me up Scotty – Back to Top Button allows Stored XSS. This issue affects Beam me up Scotty – Back to Top Button: from n/a through 1.0.23.
+</code>
+
+- [DoTTak/CVE-2025-31864](https://github.com/DoTTak/CVE-2025-31864)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
