@@ -248,6 +248,7 @@
 </code>
 
 - [WOOOOONG/CVE-2025-2825](https://github.com/WOOOOONG/CVE-2025-2825)
+- [punitdarji/crushftp-CVE-2025-2825](https://github.com/punitdarji/crushftp-CVE-2025-2825)
 
 ### CVE-2025-2857 (2025-03-27)
 
@@ -989,6 +990,14 @@
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
 
+### CVE-2025-30065 (2025-04-01)
+
+<code>Schema parsing in the parquet-avro module of Apache Parquet 1.15.0 and previous versions allows bad actors to execute arbitrary code\n\n\nUsers are recommended to upgrade to version 1.15.1, which fixes the issue.
+</code>
+
+- [h3st4k3r/CVE-2025-30065](https://github.com/h3st4k3r/CVE-2025-30065)
+- [bjornhels/CVE-2025-30065](https://github.com/bjornhels/CVE-2025-30065)
+
 ### CVE-2025-30066 (2025-03-15)
 
 <code>tj-actions changed-files before 46 allows remote attackers to discover secrets by reading actions logs. (The tags v1 through v45.0.7 were affected on 2025-03-14 and 2025-03-15 because they were modified by a threat actor to point at commit 0e58ed8, which contained malicious updateFeatures code.)
@@ -1057,6 +1066,13 @@
 
 - [Nxploited/CVE-2025-30772](https://github.com/Nxploited/CVE-2025-30772)
 
+### CVE-2025-30911 (2025-04-01)
+
+<code>Improper Control of Generation of Code ('Code Injection') vulnerability in Rometheme RomethemeKit For Elementor allows Command Injection. This issue affects RomethemeKit For Elementor: from n/a through 1.5.4.
+</code>
+
+- [Nxploited/CVE-2025-30911](https://github.com/Nxploited/CVE-2025-30911)
+
 ### CVE-2025-30921 (2025-03-27)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Tribulant Software Newsletters allows SQL Injection. This issue affects Newsletters: from n/a through 4.9.9.7.
@@ -1121,6 +1137,9 @@
 
 ### CVE-2025-422031
 - [NotItsSixtyN3in/CVE-2025-422031](https://github.com/NotItsSixtyN3in/CVE-2025-422031)
+
+### CVE-2025-666666
+- [anderruiz/CVE-2025-666666](https://github.com/anderruiz/CVE-2025-666666)
 
 ### CVE-2025-3272025
 - [itssixtyn3in/CVE-2025-3272025](https://github.com/itssixtyn3in/CVE-2025-3272025)
@@ -5043,6 +5062,7 @@
 - [Marouane133/jenkins-lfi](https://github.com/Marouane133/jenkins-lfi)
 - [slytechroot/CVE-2024-23897](https://github.com/slytechroot/CVE-2024-23897)
 - [brandonhjh/Jenkins-CVE-2024-23897-Exploit-Demo](https://github.com/brandonhjh/Jenkins-CVE-2024-23897-Exploit-Demo)
+- [tvasari/CVE-2024-23897](https://github.com/tvasari/CVE-2024-23897)
 
 ### CVE-2024-23898 (2024-01-24)
 
@@ -24809,6 +24829,7 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
+- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
