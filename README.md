@@ -220,6 +220,7 @@
 
 - [Nxploited/CVE-2025-2294](https://github.com/Nxploited/CVE-2025-2294)
 - [mrrivaldo/CVE-2025-2294](https://github.com/mrrivaldo/CVE-2025-2294)
+- [realcodeb0ss/CVE-2025-2294-PoC](https://github.com/realcodeb0ss/CVE-2025-2294-PoC)
 
 ### CVE-2025-2476 (2025-03-19)
 
@@ -1047,6 +1048,7 @@
 </code>
 
 - [Oyst3r1ng/CVE-2025-30567](https://github.com/Oyst3r1ng/CVE-2025-30567)
+- [realcodeb0ss/CVE-2025-30567-PoC](https://github.com/realcodeb0ss/CVE-2025-30567-PoC)
 
 ### CVE-2025-30772 (2025-03-27)
 
@@ -28048,7 +28050,6 @@
 - [ZTK-009/CVE-2021-21972](https://github.com/ZTK-009/CVE-2021-21972)
 - [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
 - [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
-- [haidv35/CVE-2021-21972](https://github.com/haidv35/CVE-2021-21972)
 - [TAI-REx/CVE-2021-21972](https://github.com/TAI-REx/CVE-2021-21972)
 - [orangmuda/CVE-2021-21972](https://github.com/orangmuda/CVE-2021-21972)
 - [user16-et/cve-2021-21972_PoC](https://github.com/user16-et/cve-2021-21972_PoC)
@@ -28122,7 +28123,6 @@
 - [xnianq/cve-2021-21985_exp](https://github.com/xnianq/cve-2021-21985_exp)
 - [daedalus/CVE-2021-21985](https://github.com/daedalus/CVE-2021-21985)
 - [testanull/Project_CVE-2021-21985_PoC](https://github.com/testanull/Project_CVE-2021-21985_PoC)
-- [haidv35/CVE-2021-21985](https://github.com/haidv35/CVE-2021-21985)
 - [aristosMiliaressis/CVE-2021-21985](https://github.com/aristosMiliaressis/CVE-2021-21985)
 - [sknux/CVE-2021-21985_PoC](https://github.com/sknux/CVE-2021-21985_PoC)
 
