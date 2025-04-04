@@ -30539,6 +30539,7 @@
 </code>
 
 - [core1impact/CVE-2021-38163](https://github.com/core1impact/CVE-2021-38163)
+- [purpleteam-ru/CVE-2021-38163](https://github.com/purpleteam-ru/CVE-2021-38163)
 
 ### CVE-2021-38185 (2021-08-07)
 
@@ -32621,13 +32622,6 @@
 </code>
 
 - [warmachine-57/CVE-2021-44582](https://github.com/warmachine-57/CVE-2021-44582)
-
-### CVE-2021-44593 (2022-01-21)
-
-<code>Simple College Website 1.0 is vulnerable to unauthenticated file upload &amp; remote code execution via UNION-based SQL injection in the username parameter on /admin/login.php.
-</code>
-
-- [Mister-Joe/CVE-2021-44593](https://github.com/Mister-Joe/CVE-2021-44593)
 
 ### CVE-2021-44731 (2022-02-17)
 
@@ -45712,6 +45706,7 @@
 
 - [hev0x/CVE-2018-19422-SubrionCMS-RCE](https://github.com/hev0x/CVE-2018-19422-SubrionCMS-RCE)
 - [Swammers8/SubrionCMS-4.2.1-File-upload-RCE-auth-](https://github.com/Swammers8/SubrionCMS-4.2.1-File-upload-RCE-auth-)
+- [Drew-Alleman/CVE-2018-19422](https://github.com/Drew-Alleman/CVE-2018-19422)
 
 ### CVE-2018-19466 (2019-03-27)
 
