@@ -830,6 +830,13 @@
 - [rxerium/CVE-2025-26466](https://github.com/rxerium/CVE-2025-26466)
 - [jhonnybonny/CVE-2025-26466](https://github.com/jhonnybonny/CVE-2025-26466)
 
+### CVE-2025-26529 (2025-02-24)
+
+<code>Description information displayed in the site administration live log \nrequired additional sanitizing to prevent a stored XSS risk.
+</code>
+
+- [NightBloodz/moodleTestingEnv](https://github.com/NightBloodz/moodleTestingEnv)
+
 ### CVE-2025-26794 (2025-02-21)
 
 <code>Exim 4.98 before 4.98.1, when SQLite hints and ETRN serialization are used, allows remote SQL injection.
@@ -986,6 +993,7 @@
 - [Naveen-005/Next.Js-middleware-bypass-vulnerability-CVE-2025-29927](https://github.com/Naveen-005/Next.Js-middleware-bypass-vulnerability-CVE-2025-29927)
 - [Gokul-Krishnan-V-R/cve-2025-29927](https://github.com/Gokul-Krishnan-V-R/cve-2025-29927)
 - [fahimalshihab/NextBypass](https://github.com/fahimalshihab/NextBypass)
+- [sn1p3rt3s7/NextJS_CVE-2025-29927](https://github.com/sn1p3rt3s7/NextJS_CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -1093,6 +1101,13 @@
 </code>
 
 - [cwm1123/CVE-2025-31129](https://github.com/cwm1123/CVE-2025-31129)
+
+### CVE-2025-31131 (2025-04-01)
+
+<code>YesWiki is a wiki system written in PHP. The squelette parameter is vulnerable to path traversal attacks, enabling read access to arbitrary files on the server. This vulnerability is fixed in 4.5.2.
+</code>
+
+- [MuhammadWaseem29/CVE-2025-31131](https://github.com/MuhammadWaseem29/CVE-2025-31131)
 
 ### CVE-2025-31864 (2025-04-01)
 
@@ -5573,6 +5588,7 @@
 - [Sibul-Dan-Glokta/test-task-CVE-2024-25600](https://github.com/Sibul-Dan-Glokta/test-task-CVE-2024-25600)
 - [so1icitx/CVE-2024-25600](https://github.com/so1icitx/CVE-2024-25600)
 - [cboss43/CVE-2024-25600](https://github.com/cboss43/CVE-2024-25600)
+- [meli0dasH4ck3r/cve-2024-25600](https://github.com/meli0dasH4ck3r/cve-2024-25600)
 
 ### CVE-2024-25641 (2024-05-13)
 
@@ -13655,6 +13671,7 @@
 - [bde574786/Sequelize-1day-CVE-2023-25813](https://github.com/bde574786/Sequelize-1day-CVE-2023-25813)
 - [White-BAO/CVE-2023-25813](https://github.com/White-BAO/CVE-2023-25813)
 - [pbj2647/CVE-2023-25813](https://github.com/pbj2647/CVE-2023-25813)
+- [wxuycea/CVE-2023-25813](https://github.com/wxuycea/CVE-2023-25813)
 - [sea-middle/cve-2023-25813](https://github.com/sea-middle/cve-2023-25813)
 
 ### CVE-2023-25950 (2023-04-11)
@@ -17051,6 +17068,7 @@
 
 - [sealldeveloper/CVE-2023-40931-PoC](https://github.com/sealldeveloper/CVE-2023-40931-PoC)
 - [datboi6942/Nagios-XI-s-CVE-2023-40931-Exploit](https://github.com/datboi6942/Nagios-XI-s-CVE-2023-40931-Exploit)
+- [G4sp4rCS/CVE-2023-40931-POC](https://github.com/G4sp4rCS/CVE-2023-40931-POC)
 
 ### CVE-2023-40933 (2023-09-19)
 
@@ -24829,7 +24847,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
