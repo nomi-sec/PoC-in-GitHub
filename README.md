@@ -253,6 +253,9 @@
 
 - [RimaRuer/CVE-2025-2857-Exploit](https://github.com/RimaRuer/CVE-2025-2857-Exploit)
 
+### CVE-2025-12654
+- [ThoristKaw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/ThoristKaw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -991,6 +994,7 @@
 - [Gokul-Krishnan-V-R/cve-2025-29927](https://github.com/Gokul-Krishnan-V-R/cve-2025-29927)
 - [fahimalshihab/NextBypass](https://github.com/fahimalshihab/NextBypass)
 - [sn1p3rt3s7/NextJS_CVE-2025-29927](https://github.com/sn1p3rt3s7/NextJS_CVE-2025-29927)
+- [Balajih4kr/cve-2025-29927](https://github.com/Balajih4kr/cve-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
