@@ -531,6 +531,7 @@
 - [AlperenY-cs/CVE-2025-24813](https://github.com/AlperenY-cs/CVE-2025-24813)
 - [manjula-aw/CVE-2025-24813](https://github.com/manjula-aw/CVE-2025-24813)
 - [B1gN0Se/Tomcat-CVE-2025-24813](https://github.com/B1gN0Se/Tomcat-CVE-2025-24813)
+- [AsaL1n/CVE-2025-24813](https://github.com/AsaL1n/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -1001,6 +1002,7 @@
 
 - [h3st4k3r/CVE-2025-30065](https://github.com/h3st4k3r/CVE-2025-30065)
 - [bjornhels/CVE-2025-30065](https://github.com/bjornhels/CVE-2025-30065)
+- [ron-imperva/CVE-2025-30065-PoC](https://github.com/ron-imperva/CVE-2025-30065-PoC)
 
 ### CVE-2025-30066 (2025-03-15)
 
@@ -1040,6 +1042,7 @@
 - [0xshaheen/CVE-2025-30208](https://github.com/0xshaheen/CVE-2025-30208)
 - [sumeet-darekar/CVE-2025-30208](https://github.com/sumeet-darekar/CVE-2025-30208)
 - [4m3rr0r/CVE-2025-30208-PoC](https://github.com/4m3rr0r/CVE-2025-30208-PoC)
+- [lilil3333/Vite-CVE-2025-30208-EXP](https://github.com/lilil3333/Vite-CVE-2025-30208-EXP)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -1111,6 +1114,17 @@
 </code>
 
 - [DoTTak/CVE-2025-31864](https://github.com/DoTTak/CVE-2025-31864)
+
+### CVE-2025-32118 (2025-04-04)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in NiteoThemes CMP – Coming Soon &amp; Maintenance allows Using Malicious Files. This issue affects CMP – Coming Soon &amp; Maintenance: from n/a through 4.1.13.
+</code>
+
+- [Nxploited/CVE-2025-32118](https://github.com/Nxploited/CVE-2025-32118)
+
+### CVE-2025-44228
+- [Kariaoston/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Kariaoston/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
+- [Karitosmuan/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Karitosmuan/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -2710,7 +2724,6 @@
 - [0x4D31/cve-2024-6387_hassh](https://github.com/0x4D31/cve-2024-6387_hassh)
 - [sardine-web/CVE-2024-6387-template](https://github.com/sardine-web/CVE-2024-6387-template)
 - [imv7/CVE-2024-6387](https://github.com/imv7/CVE-2024-6387)
-- [SiberianHacker/CVE-2024-6387-Finder](https://github.com/SiberianHacker/CVE-2024-6387-Finder)
 - [azurejoga/CVE-2024-6387-how-to-fix](https://github.com/azurejoga/CVE-2024-6387-how-to-fix)
 - [Karmakstylez/CVE-2024-6387](https://github.com/Karmakstylez/CVE-2024-6387)
 - [vkaushik-chef/regreSSHion](https://github.com/vkaushik-chef/regreSSHion)
@@ -52559,6 +52572,7 @@
 - [NullBrunk/CVE-2011-2523](https://github.com/NullBrunk/CVE-2011-2523)
 - [Lychi3/vsftpd-backdoor](https://github.com/Lychi3/vsftpd-backdoor)
 - [sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523)
+- [vedpakhare/vsftpd-234-vuln-report](https://github.com/vedpakhare/vsftpd-234-vuln-report)
 
 ### CVE-2011-2894 (2011-10-04)
 
