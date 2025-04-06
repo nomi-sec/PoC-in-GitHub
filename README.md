@@ -985,7 +985,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
-- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [0x0Luk/0xMiddleware](https://github.com/0x0Luk/0xMiddleware)
@@ -1003,6 +1002,7 @@
 - [fahimalshihab/NextBypass](https://github.com/fahimalshihab/NextBypass)
 - [sn1p3rt3s7/NextJS_CVE-2025-29927](https://github.com/sn1p3rt3s7/NextJS_CVE-2025-29927)
 - [Balajih4kr/cve-2025-29927](https://github.com/Balajih4kr/cve-2025-29927)
+- [YEONDG/nextjs-cve-2025-29927](https://github.com/YEONDG/nextjs-cve-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -10511,6 +10511,7 @@
 
 - [Chocapikk/CVE-2024-56145](https://github.com/Chocapikk/CVE-2024-56145)
 - [Sachinart/CVE-2024-56145-craftcms-rce](https://github.com/Sachinart/CVE-2024-56145-craftcms-rce)
+- [hmhlol/craft-cms-RCE-CVE-2024-56145](https://github.com/hmhlol/craft-cms-RCE-CVE-2024-56145)
 
 ### CVE-2024-56249 (2025-01-02)
 
@@ -24876,7 +24877,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -45065,6 +45065,7 @@
 - [tin-z/CVE-2018-14714-POC](https://github.com/tin-z/CVE-2018-14714-POC)
 - [sunn1day/CVE-2018-14714-POC](https://github.com/sunn1day/CVE-2018-14714-POC)
 - [BTtea/CVE-2018-14714-RCE-exploit](https://github.com/BTtea/CVE-2018-14714-RCE-exploit)
+- [ediop3SquadALT/TimeInjector](https://github.com/ediop3SquadALT/TimeInjector)
 
 ### CVE-2018-14716 (2018-08-06)
 
@@ -52587,6 +52588,7 @@
 - [Lychi3/vsftpd-backdoor](https://github.com/Lychi3/vsftpd-backdoor)
 - [sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523)
 - [vedpakhare/vsftpd-234-vuln-report](https://github.com/vedpakhare/vsftpd-234-vuln-report)
+- [madanokr001/CVE-2011-2523](https://github.com/madanokr001/CVE-2011-2523)
 
 ### CVE-2011-2894 (2011-10-04)
 
