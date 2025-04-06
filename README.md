@@ -191,6 +191,7 @@
 
 - [Nxploited/CVE-2025-2005](https://github.com/Nxploited/CVE-2025-2005)
 - [h4ckxel/CVE-2025-2005](https://github.com/h4ckxel/CVE-2025-2005)
+- [mrmtwoj/CVE-2025-2005](https://github.com/mrmtwoj/CVE-2025-2005)
 
 ### CVE-2025-2233 (2025-03-11)
 
@@ -1077,6 +1078,7 @@
 
 - [Oyst3r1ng/CVE-2025-30567](https://github.com/Oyst3r1ng/CVE-2025-30567)
 - [realcodeb0ss/CVE-2025-30567-PoC](https://github.com/realcodeb0ss/CVE-2025-30567-PoC)
+- [KaxuFF/CVE-2025-30567-PoC](https://github.com/KaxuFF/CVE-2025-30567-PoC)
 
 ### CVE-2025-30772 (2025-03-27)
 
@@ -6963,6 +6965,7 @@
 - [bka/magento-cve-2024-34102-exploit-cosmicstring](https://github.com/bka/magento-cve-2024-34102-exploit-cosmicstring)
 - [wubinworks/magento2-encryption-key-manager-cli](https://github.com/wubinworks/magento2-encryption-key-manager-cli)
 - [mksundaram69/CVE-2024-34102](https://github.com/mksundaram69/CVE-2024-34102)
+- [Koray123-debug/CVE-2024-34102](https://github.com/Koray123-debug/CVE-2024-34102)
 
 ### CVE-2024-34144 (2024-05-02)
 
@@ -8282,6 +8285,13 @@
 </code>
 
 - [fj016/CVE-2024-41992-PoC](https://github.com/fj016/CVE-2024-41992-PoC)
+
+### CVE-2024-42007 (2024-07-26)
+
+<code>SPX (aka php-spx) through 0.4.15 allows SPX_UI_URI Directory Traversal to read arbitrary files.
+</code>
+
+- [BubblyCola/CVE_2024_42007](https://github.com/BubblyCola/CVE_2024_42007)
 
 ### CVE-2024-42008 (2024-08-05)
 
@@ -11729,6 +11739,7 @@
 - [MikeyPPPPPPPP/CVE-2023-4220](https://github.com/MikeyPPPPPPPP/CVE-2023-4220)
 - [Pr1or95/CVE-2023-4220-exploit](https://github.com/Pr1or95/CVE-2023-4220-exploit)
 - [zora-beep/CVE-2023-4220](https://github.com/zora-beep/CVE-2023-4220)
+- [insomnia-jacob/CVE-2023-4220](https://github.com/insomnia-jacob/CVE-2023-4220)
 
 ### CVE-2023-4226 (2023-11-28)
 
@@ -17162,6 +17173,7 @@
 - [0x0d3ad/CVE-2023-41425](https://github.com/0x0d3ad/CVE-2023-41425)
 - [xpltive/CVE-2023-41425](https://github.com/xpltive/CVE-2023-41425)
 - [KGorbakon/CVE-2023-41425](https://github.com/KGorbakon/CVE-2023-41425)
+- [insomnia-jacob/CVE-2023-41425](https://github.com/insomnia-jacob/CVE-2023-41425)
 
 ### CVE-2023-41436 (2023-09-15)
 
@@ -21611,6 +21623,7 @@
 - [Raghvendra1207/CVE-2022-22978](https://github.com/Raghvendra1207/CVE-2022-22978)
 - [wan9xx/CVE-2022-22978-demo](https://github.com/wan9xx/CVE-2022-22978-demo)
 - [BoB13-Opensource-Contribution-Team9/CVE-2022-22978](https://github.com/BoB13-Opensource-Contribution-Team9/CVE-2022-22978)
+- [he-ewo/CVE-2022-22978](https://github.com/he-ewo/CVE-2022-22978)
 
 ### CVE-2022-22980 (2022-06-22)
 
@@ -25491,7 +25504,7 @@
 - [smileostrich/Text4Shell-Scanner](https://github.com/smileostrich/Text4Shell-Scanner)
 - [cxzero/CVE-2022-42889-text4shell](https://github.com/cxzero/CVE-2022-42889-text4shell)
 - [Vulnmachines/text4shell-CVE-2022-42889](https://github.com/Vulnmachines/text4shell-CVE-2022-42889)
-- [Gotcha-1G/CVE-2022-42889](https://github.com/Gotcha-1G/CVE-2022-42889)
+- [Gotcha1G/CVE-2022-42889](https://github.com/Gotcha1G/CVE-2022-42889)
 - [cryxnet/CVE-2022-42889-RCE](https://github.com/cryxnet/CVE-2022-42889-RCE)
 - [sunnyvale-it/CVE-2022-42889-PoC](https://github.com/sunnyvale-it/CVE-2022-42889-PoC)
 - [QAInsights/cve-2022-42889-jmeter](https://github.com/QAInsights/cve-2022-42889-jmeter)
