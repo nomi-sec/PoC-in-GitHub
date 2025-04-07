@@ -551,6 +551,7 @@
 - [AsaL1n/CVE-2025-24813](https://github.com/AsaL1n/CVE-2025-24813)
 - [MuhammadWaseem29/CVE-2025-24813](https://github.com/MuhammadWaseem29/CVE-2025-24813)
 - [La3B0z/CVE-2025-24813-POC](https://github.com/La3B0z/CVE-2025-24813-POC)
+- [Heimd411/CVE-2025-24813-noPoC](https://github.com/Heimd411/CVE-2025-24813-noPoC)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -2349,7 +2350,6 @@
 - [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
 - [Night-have-dreams/php-cgi-Injector](https://github.com/Night-have-dreams/php-cgi-Injector)
 - [mistakes1337/CVE-2024-4577](https://github.com/mistakes1337/CVE-2024-4577)
-- [fabulouscounc/CVE-2024-4577-PHP-RCE](https://github.com/fabulouscounc/CVE-2024-4577-PHP-RCE)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -8728,6 +8728,13 @@
 </code>
 
 - [ChengZyin/CVE-2024-44867](https://github.com/ChengZyin/CVE-2024-44867)
+
+### CVE-2024-44871 (2024-09-10)
+
+<code>An arbitrary file upload vulnerability in the component /admin/index.php of moziloCMS v3.0 allows attackers to execute arbitrary code via uploading a crafted file.
+</code>
+
+- [vances25/CVE-2024-44871](https://github.com/vances25/CVE-2024-44871)
 
 ### CVE-2024-44902 (2024-09-09)
 
@@ -23412,7 +23419,6 @@
 </code>
 
 - [JMousqueton/PoC-CVE-2022-30190](https://github.com/JMousqueton/PoC-CVE-2022-30190)
-- [0x7a6b4c/msdt-follina-office-rce](https://github.com/0x7a6b4c/msdt-follina-office-rce)
 - [onecloudemoji/CVE-2022-30190](https://github.com/onecloudemoji/CVE-2022-30190)
 - [2867a0/CVE-2022-30190](https://github.com/2867a0/CVE-2022-30190)
 - [doocop/CVE-2022-30190](https://github.com/doocop/CVE-2022-30190)
@@ -37157,6 +37163,7 @@
 - [killmonday/CVE-2020-17530-s2-061](https://github.com/killmonday/CVE-2020-17530-s2-061)
 - [keyuan15/CVE-2020-17530](https://github.com/keyuan15/CVE-2020-17530)
 - [nth347/CVE-2020-17530](https://github.com/nth347/CVE-2020-17530)
+- [daehyeok0618/CVE-2020-17530](https://github.com/daehyeok0618/CVE-2020-17530)
 
 ### CVE-2020-17531 (2020-12-08)
 
@@ -39466,6 +39473,7 @@
 - [ztgrace/CVE-2019-5418-Rails3](https://github.com/ztgrace/CVE-2019-5418-Rails3)
 - [random-robbie/CVE-2019-5418](https://github.com/random-robbie/CVE-2019-5418)
 - [kailing0220/CVE-2019-5418](https://github.com/kailing0220/CVE-2019-5418)
+- [daehyeok0618/CVE-2019-5418](https://github.com/daehyeok0618/CVE-2019-5418)
 
 ### CVE-2019-5420 (2019-03-27)
 
@@ -40600,6 +40608,13 @@
 
 - [Insecurities/CVE-2019-11224](https://github.com/Insecurities/CVE-2019-11224)
 
+### CVE-2019-11287 (2019-11-22)
+
+<code>Pivotal RabbitMQ, versions 3.7.x prior to 3.7.21 and 3.8.x prior to 3.8.1, and RabbitMQ for Pivotal Platform, 1.16.x versions prior to 1.16.7 and 1.17.x versions prior to 1.17.4, contain a web management plugin that is vulnerable to a denial of service attack. The &quot;X-Reason&quot; HTTP Header can be leveraged to insert a malicious Erlang format string that will expand and consume the heap, resulting in the server crashing.
+</code>
+
+- [mbadanoiu/CVE-2019-11287](https://github.com/mbadanoiu/CVE-2019-11287)
+
 ### CVE-2019-11358 (2019-04-19)
 
 <code>jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution. If an unsanitized source object contained an enumerable __proto__ property, it could extend the native Object.prototype.
@@ -40864,12 +40879,20 @@
 - [jas502n/CVE-2019-12384](https://github.com/jas502n/CVE-2019-12384)
 - [MagicZer0/Jackson_RCE-CVE-2019-12384](https://github.com/MagicZer0/Jackson_RCE-CVE-2019-12384)
 
+### CVE-2019-12401 (2019-09-10)
+
+<code>Solr versions 1.3.0 to 1.4.1, 3.1.0 to 3.6.2 and 4.0.0 to 4.10.4 are vulnerable to an XML resource consumption attack (a.k.a. Lol Bomb) via it’s update handler.?By leveraging XML DOCTYPE and ENTITY type elements, the attacker can create a pattern that will expand when the server parses the XML causing OOMs.
+</code>
+
+- [mbadanoiu/CVE-2019-12401](https://github.com/mbadanoiu/CVE-2019-12401)
+
 ### CVE-2019-12409 (2019-11-18)
 
 <code>The 8.1.1 and 8.2.0 releases of Apache Solr contain an insecure setting for the ENABLE_REMOTE_JMX_OPTS configuration option in the default solr.in.sh configuration file shipping with Solr. If you use the default solr.in.sh file from the affected releases, then JMX monitoring will be enabled and exposed on RMI_PORT (default=18983), without any authentication. If this port is opened for inbound traffic in your firewall, then anyone with network access to your Solr nodes will be able to access JMX, which may in turn allow them to upload malicious code for execution on the Solr server.
 </code>
 
 - [jas502n/CVE-2019-12409](https://github.com/jas502n/CVE-2019-12409)
+- [mbadanoiu/CVE-2019-12409](https://github.com/mbadanoiu/CVE-2019-12409)
 
 ### CVE-2019-12422 (2019-11-18)
 
@@ -41314,6 +41337,13 @@
 </code>
 
 - [mbadanoiu/CVE-2019-14223](https://github.com/mbadanoiu/CVE-2019-14223)
+
+### CVE-2019-14224 (2019-09-05)
+
+<code>An issue was discovered in Alfresco Community Edition 5.2 201707. By leveraging multiple components in the Alfresco Software applications, an exploit chain was observed that allows an attacker to achieve remote code execution on the victim machine. The attacker must upload malicious Solr configuration files and then receive a JMX connection from the victim, and serve a Java object that results in deserialization and code execution.
+</code>
+
+- [mbadanoiu/CVE-2019-14224](https://github.com/mbadanoiu/CVE-2019-14224)
 
 ### CVE-2019-14234 (2019-08-09)
 
