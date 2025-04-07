@@ -861,13 +861,6 @@
 - [OscarBataille/CVE-2025-26794](https://github.com/OscarBataille/CVE-2025-26794)
 - [ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi](https://github.com/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi)
 
-### CVE-2025-26909 (2025-03-27)
-
-<code>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in John Darrel Hide My WP Ghost allows PHP Local File Inclusion.This issue affects Hide My WP Ghost: from n/a through 5.4.01.
-</code>
-
-- [ZeroDayx/CVE-2025-26909](https://github.com/ZeroDayx/CVE-2025-26909)
-
 ### CVE-2025-27152 (2025-03-07)
 
 <code>axios is a promise based HTTP client for the browser and node.js. The issue occurs when passing absolute URLs rather than protocol-relative URLs to axios. Even if ⁠baseURL is set, axios sends the request to the specified absolute URL, potentially causing SSRF and credential leakage. This issue impacts both server-side and client-side usage of axios. This issue is fixed in 1.8.2.
@@ -1013,6 +1006,7 @@
 - [Balajih4kr/cve-2025-29927](https://github.com/Balajih4kr/cve-2025-29927)
 - [YEONDG/nextjs-cve-2025-29927](https://github.com/YEONDG/nextjs-cve-2025-29927)
 - [gotr00t0day/CVE-2025-29927](https://github.com/gotr00t0day/CVE-2025-29927)
+- [pixilated730/NextJS-Exploit-](https://github.com/pixilated730/NextJS-Exploit-)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -1130,6 +1124,13 @@
 </code>
 
 - [MuhammadWaseem29/CVE-2025-31131](https://github.com/MuhammadWaseem29/CVE-2025-31131)
+
+### CVE-2025-31486 (2025-04-03)
+
+<code>Vite is a frontend tooling framework for javascript. The contents of arbitrary files can be returned to the browser. By adding ?.svg with ?.wasm?init or with sec-fetch-dest: script header, the server.fs.deny restriction was able to bypass. This bypass is only possible if the file is smaller than build.assetsInlineLimit (default: 4kB) and when using Vite 6.0+. Only apps explicitly exposing the Vite dev server to the network (using --host or server.host config option) are affected. This vulnerability is fixed in 4.5.12, 5.4.17, 6.0.14, 6.1.4, and 6.2.5.
+</code>
+
+- [iSee857/CVE-2025-31486-PoC](https://github.com/iSee857/CVE-2025-31486-PoC)
 
 ### CVE-2025-31864 (2025-04-01)
 
@@ -28173,7 +28174,6 @@
 - [Henry4E36/VMWare-vRealize-SSRF](https://github.com/Henry4E36/VMWare-vRealize-SSRF)
 - [dorkerdevil/CVE-2021-21975](https://github.com/dorkerdevil/CVE-2021-21975)
 - [Al1ex/CVE-2021-21975](https://github.com/Al1ex/CVE-2021-21975)
-- [TheTh1nk3r/exp_hub](https://github.com/TheTh1nk3r/exp_hub)
 - [GuayoyoCyber/CVE-2021-21975](https://github.com/GuayoyoCyber/CVE-2021-21975)
 - [murataydemir/CVE-2021-21975](https://github.com/murataydemir/CVE-2021-21975)
 - [rabidwh0re/REALITY_SMASHER](https://github.com/rabidwh0re/REALITY_SMASHER)
@@ -41300,6 +41300,20 @@
 </code>
 
 - [seqred-s-a/cve-2019-14220](https://github.com/seqred-s-a/cve-2019-14220)
+
+### CVE-2019-14222 (2019-09-05)
+
+<code>An issue was discovered in Alfresco Community Edition versions 6.0 and lower. An unauthenticated, remote attacker could authenticate to Alfresco's Solr Web Admin Interface. The vulnerability is due to the presence of a default private key that is present in all default installations. An attacker could exploit this vulnerability by using the extracted private key and bundling it into a PKCS12. A successful exploit could allow the attacker to gain information about the target system (e.g., OS type, system file locations, Java version, Solr version, etc.) as well as the ability to launch further attacks by leveraging the access to Alfresco's Solr Web Admin Interface.
+</code>
+
+- [mbadanoiu/CVE-2019-14222](https://github.com/mbadanoiu/CVE-2019-14222)
+
+### CVE-2019-14223 (2019-09-06)
+
+<code>An issue was discovered in Alfresco Community Edition versions below 5.2.6, 6.0.N and 6.1.N. The Alfresco Share application is vulnerable to an Open Redirect attack via a crafted POST request. By manipulating the POST parameters, an attacker can redirect a victim to a malicious website over any protocol the attacker desires (e.g.,http, https, ftp, smb, etc.).
+</code>
+
+- [mbadanoiu/CVE-2019-14223](https://github.com/mbadanoiu/CVE-2019-14223)
 
 ### CVE-2019-14234 (2019-08-09)
 
