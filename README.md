@@ -261,6 +261,13 @@
 
 - [RimaRuer/CVE-2025-2857-Exploit](https://github.com/RimaRuer/CVE-2025-2857-Exploit)
 
+### CVE-2025-3047 (2025-03-31)
+
+<code>When running the AWS Serverless Application Model Command Line Interface (SAM CLI) build process with Docker and symlinks are included in the build files, the container environment allows a user to access privileged files on the host by leveraging the elevated permissions granted to the tool. A user could leverage the elevated permissions to access restricted files via symlinks and copy them to a more permissive location on the container. \n\nUsers should upgrade to v1.133.0 or newer and ensure any forked or derivative code is patched to incorporate the new fixes.
+</code>
+
+- [murataydemir/AWS-SAM-CLI-Vulnerabilities](https://github.com/murataydemir/AWS-SAM-CLI-Vulnerabilities)
+
 ### CVE-2025-12654
 - [ThoristKaw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/ThoristKaw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 
@@ -13321,6 +13328,7 @@
 - [sarsaeroth/CVE-2023-23397-POC](https://github.com/sarsaeroth/CVE-2023-23397-POC)
 - [TheUnknownSoul/CVE-2023-23397-PoW](https://github.com/TheUnknownSoul/CVE-2023-23397-PoW)
 - [Symbolexe/CVE-2023-23397](https://github.com/Symbolexe/CVE-2023-23397)
+- [Agentgilspy/CVE-2023-23397](https://github.com/Agentgilspy/CVE-2023-23397)
 
 ### CVE-2023-23488 (2023-01-20)
 
@@ -28538,6 +28546,13 @@
 - [Trinadh465/external_boringssl_openssl_1.1.0g_CVE-2021-23841](https://github.com/Trinadh465/external_boringssl_openssl_1.1.0g_CVE-2021-23841)
 - [Satheesh575555/Openssl_1_1_0_CVE-2021-23841](https://github.com/Satheesh575555/Openssl_1_1_0_CVE-2021-23841)
 
+### CVE-2021-24006 (2021-09-06)
+
+<code>An improper access control vulnerability in FortiManager versions 6.4.0 to 6.4.3 may allow an authenticated attacker with a restricted user profile to access the SD-WAN Orchestrator panel via directly visiting its URL.
+</code>
+
+- [cnetsec/CVE-2021-24006](https://github.com/cnetsec/CVE-2021-24006)
+
 ### CVE-2021-24019 (2021-10-06)
 
 <code>An insufficient session expiration vulnerability [CWE- 613] in FortiClientEMS versions 6.4.2 and below, 6.2.8 and below may allow an attacker to reuse the unexpired admin user session IDs to gain admin privileges, should the attacker be able to obtain that session ID (via other, hypothetical attacks)
@@ -32126,7 +32141,6 @@
 - [Ryze-T/CVE-2021-43798](https://github.com/Ryze-T/CVE-2021-43798)
 - [k3rwin/CVE-2021-43798-Grafana](https://github.com/k3rwin/CVE-2021-43798-Grafana)
 - [halencarjunior/grafana-CVE-2021-43798](https://github.com/halencarjunior/grafana-CVE-2021-43798)
-- [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
 - [yasindce1998/grafana-cve-2021-43798](https://github.com/yasindce1998/grafana-cve-2021-43798)
 - [hupe1980/CVE-2021-43798](https://github.com/hupe1980/CVE-2021-43798)
