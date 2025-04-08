@@ -250,6 +250,13 @@
 
 - [Alchemist3dot14/CVE-2025-2783](https://github.com/Alchemist3dot14/CVE-2025-2783)
 
+### CVE-2025-2807 (2025-04-08)
+
+<code>The Motors – Car Dealership &amp; Classified Listings Plugin plugin for WordPress is vulnerable to arbitrary plugin installations due to a missing capability check in the mvl_setup_wizard_install_plugin() function in all versions up to, and including, 1.4.64. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install and activate arbitrary plugins on the affected site's server which may make remote code execution possible.
+</code>
+
+- [Nxploited/CVE-2025-2807](https://github.com/Nxploited/CVE-2025-2807)
+
 ### CVE-2025-2825
 - [WOOOOONG/CVE-2025-2825](https://github.com/WOOOOONG/CVE-2025-2825)
 - [punitdarji/crushftp-CVE-2025-2825](https://github.com/punitdarji/crushftp-CVE-2025-2825)
@@ -331,6 +338,14 @@
 </code>
 
 - [DoTTak/CVE-2025-22352](https://github.com/DoTTak/CVE-2025-22352)
+
+### CVE-2025-22457 (2025-04-03)
+
+<code>A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.6, Ivanti Policy Secure before version 22.7R1.4, and Ivanti ZTA Gateways before version 22.8R2.2 allows a remote unauthenticated attacker to achieve remote code execution.
+</code>
+
+- [Vinylrider/ivantiunlocker](https://github.com/Vinylrider/ivantiunlocker)
+- [N4SL1/CVE-2025-22457-PoC](https://github.com/N4SL1/CVE-2025-22457-PoC)
 
 ### CVE-2025-22510 (2025-01-09)
 
@@ -1009,6 +1024,8 @@
 - [YEONDG/nextjs-cve-2025-29927](https://github.com/YEONDG/nextjs-cve-2025-29927)
 - [gotr00t0day/CVE-2025-29927](https://github.com/gotr00t0day/CVE-2025-29927)
 - [pixilated730/NextJS-Exploit-](https://github.com/pixilated730/NextJS-Exploit-)
+- [ValGrace/middleware-auth-bypass](https://github.com/ValGrace/middleware-auth-bypass)
+- [goncalocsousa1/CVE-2025-29927](https://github.com/goncalocsousa1/CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -3462,13 +3479,6 @@
 </code>
 
 - [0Nightsedge0/CVE-2024-9950-PoC](https://github.com/0Nightsedge0/CVE-2024-9950-PoC)
-
-### CVE-2024-9955 (2024-10-15)
-
-<code>Use after free in WebAuthentication in Google Chrome prior to 130.0.6723.58 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)
-</code>
-
-- [amfg145/CVE-2024-9955-POC](https://github.com/amfg145/CVE-2024-9955-POC)
 
 ### CVE-2024-10015 (2024-11-16)
 
@@ -7656,7 +7666,6 @@
 - [BBD-YZZ/fyne-gui](https://github.com/BBD-YZZ/fyne-gui)
 - [Destiny0991/check_38077](https://github.com/Destiny0991/check_38077)
 - [mrmtwoj/CVE-2024-38077](https://github.com/mrmtwoj/CVE-2024-38077)
-- [amfg145/CVE-2024-38077](https://github.com/amfg145/CVE-2024-38077)
 - [Accord96/CVE-2024-38077-POC](https://github.com/Accord96/CVE-2024-38077-POC)
 
 ### CVE-2024-38080 (2024-07-09)
@@ -10364,6 +10373,9 @@
 
 - [ugurkarakoc1/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-](https://github.com/ugurkarakoc1/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-)
 
+### CVE-2024-55210
+- [c4cnm/CVE-2024-55210](https://github.com/c4cnm/CVE-2024-55210)
+
 ### CVE-2024-55215 (2025-02-07)
 
 <code>An issue in trojan v.2.0.0 through v.2.15.3 allows a remote attacker to escalate privileges via the initialization interface /auth/register.
@@ -10424,7 +10436,6 @@
 - [watchtowrlabs/fortios-auth-bypass-check-CVE-2024-55591](https://github.com/watchtowrlabs/fortios-auth-bypass-check-CVE-2024-55591)
 - [sysirq/fortios-auth-bypass-poc-CVE-2024-55591](https://github.com/sysirq/fortios-auth-bypass-poc-CVE-2024-55591)
 - [sysirq/fortios-auth-bypass-exploit-CVE-2024-55591](https://github.com/sysirq/fortios-auth-bypass-exploit-CVE-2024-55591)
-- [amfg145/Private-CVE-2024-55591.](https://github.com/amfg145/Private-CVE-2024-55591.)
 - [virus-or-not/CVE-2024-55591](https://github.com/virus-or-not/CVE-2024-55591)
 - [watchtowrlabs/fortios-auth-bypass-poc-CVE-2024-55591](https://github.com/watchtowrlabs/fortios-auth-bypass-poc-CVE-2024-55591)
 - [exfil0/CVE-2024-55591-POC](https://github.com/exfil0/CVE-2024-55591-POC)
@@ -15036,6 +15047,13 @@
 
 - [CalfCrusher/CVE-2023-31853](https://github.com/CalfCrusher/CVE-2023-31853)
 
+### CVE-2023-32007 (2023-05-02)
+
+<code>** UNSUPPORTED WHEN ASSIGNED ** The Apache Spark UI offers the possibility to enable ACLs via the configuration option spark.acls.enable. With an authentication filter, this checks whether a user has access permissions to view or modify the application. If ACLs are enabled, a code path in HttpSecurityFilter can allow someone to perform impersonation by providing an arbitrary user name. A malicious user might then be able to reach a permission check function that will ultimately build a Unix shell command based on their input, and execute it. This will result in arbitrary shell command execution as the user Spark is currently running as. This issue was disclosed earlier as CVE-2022-33891, but incorrectly claimed version 3.1.3 (which has since gone EOL) would not be affected.\n\nNOTE: This vulnerability only affects products that are no longer supported by the maintainer.\n\nUsers are recommended to upgrade to a supported version of Apache Spark, such as version 3.4.0.
+</code>
+
+- [Lee0568/CVE-2023-32007](https://github.com/Lee0568/CVE-2023-32007)
+
 ### CVE-2023-32031 (2023-06-14)
 
 <code>Microsoft Exchange Server Remote Code Execution Vulnerability
@@ -18447,7 +18465,6 @@
 <code>Undisclosed requests may bypass configuration utility authentication, allowing an attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated
 </code>
 
-- [bijaysenihang/CVE-2023-46747-Mass-RCE](https://github.com/bijaysenihang/CVE-2023-46747-Mass-RCE)
 - [W01fh4cker/CVE-2023-46747-RCE](https://github.com/W01fh4cker/CVE-2023-46747-RCE)
 - [fu2x2000/CVE-2023-46747](https://github.com/fu2x2000/CVE-2023-46747)
 - [maniak-academy/Mitigate-CVE-2023-46747](https://github.com/maniak-academy/Mitigate-CVE-2023-46747)
@@ -23508,6 +23525,7 @@
 - [ethicalblue/Follina-CVE-2022-30190-Sample](https://github.com/ethicalblue/Follina-CVE-2022-30190-Sample)
 - [Potato-9257/CVE-2022-30190_page](https://github.com/Potato-9257/CVE-2022-30190_page)
 - [yeep1115/ICT287_CVE-2022-30190_Exploit](https://github.com/yeep1115/ICT287_CVE-2022-30190_Exploit)
+- [RathoreAbhiii/Folina-Vulnerability-Exploitation-Detection-and-Mitigation](https://github.com/RathoreAbhiii/Folina-Vulnerability-Exploitation-Detection-and-Mitigation)
 
 ### CVE-2022-30203 (2022-07-12)
 
@@ -53428,6 +53446,99 @@
 
 
 ## 2006
+### CVE-2006-0450 (2006-01-27)
+
+<code>phpBB 2.0.19 and earlier allows remote attackers to cause a denial of service (application crash) by (1) registering many users through profile.php or (2) using search.php to search in a certain way that confuses the database.
+</code>
+
+- [Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities](https://github.com/Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities)
+
+### CVE-2006-0987 (2006-03-03)
+
+<code>The default configuration of ISC BIND before 9.4.1-P1, when configured as a caching name server, allows recursive queries and provides additional delegation information to arbitrary IP addresses, which allows remote attackers to cause a denial of service (traffic amplification) via DNS queries with spoofed source IP addresses.
+</code>
+
+- [pcastagnaro/dns_amplification_scanner](https://github.com/pcastagnaro/dns_amplification_scanner)
+
+### CVE-2006-1236 (2006-03-15)
+
+<code>Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
+</code>
+
+- [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
+
+### CVE-2006-2842 (2006-06-06)
+
+<code>PHP remote file inclusion vulnerability in functions/plugin.php in SquirrelMail 1.4.6 and earlier, if register_globals is enabled and magic_quotes_gpc is disabled, allows remote attackers to execute arbitrary PHP code via a URL in the plugins array parameter.  NOTE: this issue has been disputed by third parties, who state that Squirrelmail provides prominent warnings to the administrator when register_globals is enabled.  Since the varieties of administrator negligence are uncountable, perhaps this type of issue should not be included in CVE.  However, the original developer has posted a security advisory, so there might be relevant real-world environments under which this vulnerability is applicable
+</code>
+
+- [karthi-the-hacker/CVE-2006-2842](https://github.com/karthi-the-hacker/CVE-2006-2842)
+
+### CVE-2006-3392 (2006-07-06)
+
+<code>Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
+</code>
+
+- [0xtz/CVE-2006-3392](https://github.com/0xtz/CVE-2006-3392)
+- [IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392)
+- [Adel-kaka-dz/CVE-2006-3392](https://github.com/Adel-kaka-dz/CVE-2006-3392)
+- [gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin)
+- [kernel-cyber/CVE-2006-3392](https://github.com/kernel-cyber/CVE-2006-3392)
+- [g1vi/CVE-2006-3392](https://github.com/g1vi/CVE-2006-3392)
+- [brosck/CVE-2006-3392](https://github.com/brosck/CVE-2006-3392)
+
+### CVE-2006-3592 (2006-07-14)
+
+<code>Unspecified vulnerability in the command line interface (CLI) in Cisco Unified CallManager (CUCM) 5.0(1) through 5.0(3a) allows local users to execute arbitrary commands with elevated privileges via unspecified vectors, involving &quot;certain CLI commands,&quot; aka bug CSCse11005.
+</code>
+
+- [adenkiewicz/CVE-2006-3592](https://github.com/adenkiewicz/CVE-2006-3592)
+
+### CVE-2006-3747 (2006-07-28)
+
+<code>Off-by-one error in the ldap scheme handling in the Rewrite module (mod_rewrite) in Apache 1.3 from 1.3.28, 2.0.46 and other versions before 2.0.59, and 2.2, when RewriteEngine is enabled, allows remote attackers to cause a denial of service (application crash) and possibly execute arbitrary code via crafted URLs that are not properly handled using certain rewrite rules.
+</code>
+
+- [defensahacker/CVE-2006-3747](https://github.com/defensahacker/CVE-2006-3747)
+
+### CVE-2006-4777 (2006-09-14)
+
+<code>Heap-based buffer overflow in the DirectAnimation Path Control (DirectAnimation.PathControl) COM object (daxctle.ocx) for Internet Explorer 6.0 SP1, on Chinese and possibly other Windows distributions, allows remote attackers to execute arbitrary code via unknown manipulations in arguments to the KeyFrame method, possibly related to an integer overflow, as demonstrated by daxctle2, and a different vulnerability than CVE-2006-4446.
+</code>
+
+- [Mario1234/js-driveby-download-CVE-2006-4777](https://github.com/Mario1234/js-driveby-download-CVE-2006-4777)
+
+### CVE-2006-4814 (2006-12-20)
+
+<code>The mincore function in the Linux kernel before 2.4.33.6 does not properly lock access to user space, which has unspecified impact and attack vectors, possibly related to a deadlock.
+</code>
+
+- [tagatac/linux-CVE-2006-4814](https://github.com/tagatac/linux-CVE-2006-4814)
+
+### CVE-2006-5051 (2006-09-27)
+
+<code>Signal handler race condition in OpenSSH before 4.4 allows remote attackers to cause a denial of service (crash), and possibly execute arbitrary code if GSSAPI authentication is enabled, via unspecified vectors that lead to a double-free.
+</code>
+
+- [bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387)
+- [sardine-web/CVE-2024-6387_Check](https://github.com/sardine-web/CVE-2024-6387_Check)
+- [anhvutuan/CVE-2024-6387-poc-1](https://github.com/anhvutuan/CVE-2024-6387-poc-1)
+
+### CVE-2006-6184 (2006-12-01)
+
+<code>Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
+</code>
+
+- [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
+- [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
+
+### CVE-2006-20001 (2023-01-17)
+
+<code>A carefully crafted If: request header can cause a memory read, or write of a single zero byte, in a pool (heap) memory location beyond the header value sent. This could cause the process to crash.\n\nThis issue affects Apache HTTP Server 2.4.54 and earlier.
+</code>
+
+- [r1az4r/CVE-2006-20001](https://github.com/r1az4r/CVE-2006-20001)
+
 
 ## 2005
 ### CVE-2005-0575 (2005-02-27)
