@@ -552,6 +552,7 @@
 - [MuhammadWaseem29/CVE-2025-24813](https://github.com/MuhammadWaseem29/CVE-2025-24813)
 - [La3B0z/CVE-2025-24813-POC](https://github.com/La3B0z/CVE-2025-24813-POC)
 - [Heimd411/CVE-2025-24813-noPoC](https://github.com/Heimd411/CVE-2025-24813-noPoC)
+- [horsehacks/CVE-2025-24813-checker](https://github.com/horsehacks/CVE-2025-24813-checker)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -1020,6 +1021,7 @@
 - [h3st4k3r/CVE-2025-30065](https://github.com/h3st4k3r/CVE-2025-30065)
 - [bjornhels/CVE-2025-30065](https://github.com/bjornhels/CVE-2025-30065)
 - [ron-imperva/CVE-2025-30065-PoC](https://github.com/ron-imperva/CVE-2025-30065-PoC)
+- [mouadk/parquet-rce-poc-CVE-2025-30065](https://github.com/mouadk/parquet-rce-poc-CVE-2025-30065)
 
 ### CVE-2025-30066 (2025-03-15)
 
