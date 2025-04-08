@@ -568,6 +568,7 @@
 - [La3B0z/CVE-2025-24813-POC](https://github.com/La3B0z/CVE-2025-24813-POC)
 - [Heimd411/CVE-2025-24813-noPoC](https://github.com/Heimd411/CVE-2025-24813-noPoC)
 - [horsehacks/CVE-2025-24813-checker](https://github.com/horsehacks/CVE-2025-24813-checker)
+- [GadaLuBau1337/CVE-2025-24813](https://github.com/GadaLuBau1337/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -913,6 +914,7 @@
 
 - [em0gi/CVE-2025-27840](https://github.com/em0gi/CVE-2025-27840)
 - [demining/Bluetooth-Attacks-CVE-2025-27840](https://github.com/demining/Bluetooth-Attacks-CVE-2025-27840)
+- [ladyg00se/CVE-2025-27840-WIP](https://github.com/ladyg00se/CVE-2025-27840-WIP)
 
 ### CVE-2025-27893 (2025-03-11)
 
@@ -957,7 +959,7 @@
 
 ### CVE-2025-29927 (2025-03-21)
 
-<code>Next.js is a React framework for building full-stack web applications. Prior to 14.2.25 and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 14.2.25 and 15.2.3.
+<code>Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
 </code>
 
 - [serhalp/test-cve-2025-29927](https://github.com/serhalp/test-cve-2025-29927)
@@ -1145,6 +1147,13 @@
 
 - [MuhammadWaseem29/CVE-2025-31131](https://github.com/MuhammadWaseem29/CVE-2025-31131)
 
+### CVE-2025-31161 (2025-04-03)
+
+<code>CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as exploited in the wild in March and April 2025, aka &quot;Unauthenticated HTTP(S) port access.&quot; A race condition exists in the AWS4-HMAC (compatible with S3) authorization method of the HTTP component of the FTP server. The server first verifies the existence of the user by performing a call to login_user_pass() with no password requirement. This will authenticate the session through the HMAC verification process and up until the server checks for user verification once more. The vulnerability can be further stabilized, eliminating the need for successfully triggering a race condition, by sending a mangled AWS4-HMAC header. By providing only the username and a following slash (/), the server will successfully find a username, which triggers the successful anypass authentication process, but the server will fail to find the expected SignedHeaders entry, resulting in an index-out-of-bounds error that stops the code from reaching the session cleanup. Together, these issues make it trivial to authenticate as any known or guessable user (e.g., crushadmin), and can lead to a full compromise of the system by obtaining an administrative account.
+</code>
+
+- [Immersive-Labs-Sec/CVE-2025-31161](https://github.com/Immersive-Labs-Sec/CVE-2025-31161)
+
 ### CVE-2025-31486 (2025-04-03)
 
 <code>Vite is a frontend tooling framework for javascript. The contents of arbitrary files can be returned to the browser. By adding ?.svg with ?.wasm?init or with sec-fetch-dest: script header, the server.fs.deny restriction was able to bypass. This bypass is only possible if the file is smaller than build.assetsInlineLimit (default: 4kB) and when using Vite 6.0+. Only apps explicitly exposing the Vite dev server to the network (using --host or server.host config option) are affected. This vulnerability is fixed in 4.5.12, 5.4.17, 6.0.14, 6.1.4, and 6.2.5.
@@ -1172,6 +1181,7 @@
 ### CVE-2025-44228
 - [Kariaoston/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Kariaoston/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
 - [Karitosmuan/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Karitosmuan/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
+- [housam123456789/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/housam123456789/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -10030,6 +10040,13 @@
 - [ebrasha/abdal-anydesk-remote-ip-detector](https://github.com/ebrasha/abdal-anydesk-remote-ip-detector)
 - [MKultra6969/AnySniff](https://github.com/MKultra6969/AnySniff)
 
+### CVE-2024-53027 (2025-03-03)
+
+<code>Transient DOS may occur while processing the country IE.
+</code>
+
+- [ladyg00se/CVE-2024-53027-WIP](https://github.com/ladyg00se/CVE-2024-53027-WIP)
+
 ### CVE-2024-53255 (2024-11-25)
 
 <code>BoidCMS is a free and open-source flat file CMS for building simple websites and blogs, developed using PHP and uses JSON as a database. In affected versions a reflected Cross-site Scripting (XSS) vulnerability exists in the /admin?page=media endpoint in the file parameter, allowing an attacker to inject arbitrary JavaScript code. This code could be used to steal the user's session cookie, perform phishing attacks, or deface the website. This issue has been addressed in version 2.1.2 and all users are advised to upgrade. There are no known workarounds for this vulnerability.
@@ -11271,6 +11288,7 @@
 
 - [elweth-sec/CVE-2023-2255](https://github.com/elweth-sec/CVE-2023-2255)
 - [SaintMichae64/CVE-2023-2255](https://github.com/SaintMichae64/CVE-2023-2255)
+- [G4sp4rCS/CVE-2023-2255](https://github.com/G4sp4rCS/CVE-2023-2255)
 
 ### CVE-2023-2375 (2023-04-28)
 
@@ -18204,6 +18222,7 @@
 - [Chedrian07/CVE-2023-45866-POC](https://github.com/Chedrian07/CVE-2023-45866-POC)
 - [Danyw24/blueXploit](https://github.com/Danyw24/blueXploit)
 - [xG3nesis/RustyInjector](https://github.com/xG3nesis/RustyInjector)
+- [ladyg00se/CVE-2023-45866_WIP](https://github.com/ladyg00se/CVE-2023-45866_WIP)
 
 ### CVE-2023-45878 (2023-11-14)
 
