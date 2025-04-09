@@ -513,6 +513,13 @@
 
 - [McTavishSue/CVE-2025-24200](https://github.com/McTavishSue/CVE-2025-24200)
 
+### CVE-2025-24221 (2025-03-31)
+
+<code>This issue was addressed with improved data access restriction. This issue is fixed in visionOS 2.4, iOS 18.4 and iPadOS 18.4, iPadOS 17.7.6. Sensitive keychain data may be accessible from an iOS backup.
+</code>
+
+- [AnonymousDeveloper69/CVE-2025-24221](https://github.com/AnonymousDeveloper69/CVE-2025-24221)
+
 ### CVE-2025-24587 (2025-01-24)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in I Thirteen Web Solution Email Subscription Popup allows Blind SQL Injection. This issue affects Email Subscription Popup: from n/a through 1.2.23.
@@ -1082,7 +1089,7 @@
 - [4xura/CVE-2025-30208](https://github.com/4xura/CVE-2025-30208)
 - [sadhfdw129/CVE-2025-30208-Vite](https://github.com/sadhfdw129/CVE-2025-30208-Vite)
 - [keklick1337/CVE-2025-30208-ViteVulnScanner](https://github.com/keklick1337/CVE-2025-30208-ViteVulnScanner)
-- [jackieya/CVE-2025-30208-and-CVE-2025-31125](https://github.com/jackieya/CVE-2025-30208-and-CVE-2025-31125)
+- [jackieya/ViteVulScan](https://github.com/jackieya/ViteVulScan)
 - [0xshaheen/CVE-2025-30208](https://github.com/0xshaheen/CVE-2025-30208)
 - [sumeet-darekar/CVE-2025-30208](https://github.com/sumeet-darekar/CVE-2025-30208)
 - [4m3rr0r/CVE-2025-30208-PoC](https://github.com/4m3rr0r/CVE-2025-30208-PoC)
@@ -2153,6 +2160,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-3605](https://github.com/RandomRobbieBF/CVE-2024-3605)
+
+### CVE-2024-3640 (2024-05-16)
+
+<code>An unquoted executable path exists in the Rockwell Automation FactoryTalk® Remote Access™ possibly resulting in remote code execution if exploited. While running the FTRA installer package, the executable path is not properly quoted, which could allow a threat actor to enter a malicious executable and run it as a System user. A threat actor needs admin privileges to exploit this vulnerability.
+</code>
+
+- [H1ng007/CVE-2024-3640_WafBypass](https://github.com/H1ng007/CVE-2024-3640_WafBypass)
 
 ### CVE-2024-3656 (2024-10-09)
 
@@ -16809,6 +16823,13 @@
 </code>
 
 - [Raj789-sec/CVE-2023-39115](https://github.com/Raj789-sec/CVE-2023-39115)
+
+### CVE-2023-39141 (2023-08-22)
+
+<code>webui-aria2 commit 4fe2e was discovered to contain a path traversal vulnerability.
+</code>
+
+- [MartiSabate/CVE-2023-39141-LFI-enumerator](https://github.com/MartiSabate/CVE-2023-39141-LFI-enumerator)
 
 ### CVE-2023-39144 (2023-08-03)
 
