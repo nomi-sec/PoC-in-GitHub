@@ -1058,9 +1058,6 @@
 - [OS-pedrogustavobilro/test-changed-files](https://github.com/OS-pedrogustavobilro/test-changed-files)
 - [Checkmarx/Checkmarx-CVE-2025-30066-Detection-Tool](https://github.com/Checkmarx/Checkmarx-CVE-2025-30066-Detection-Tool)
 
-### CVE-2025-30108
-- [4xura/CVE-2025-30108](https://github.com/4xura/CVE-2025-30108)
-
 ### CVE-2025-30144 (2025-03-19)
 
 <code>fast-jwt provides fast JSON Web Token (JWT) implementation. Prior to 5.0.6, the fast-jwt library does not properly validate the iss claim based on the RFC 7519. The iss (issuer) claim validation within the fast-jwt library permits an array of strings as a valid iss value. This design flaw enables a potential attack where a malicious actor crafts a JWT with an iss claim structured as ['https://attacker-domain/', 'https://valid-iss']. Due to the permissive validation, the JWT will be deemed valid. Furthermore, if the application relies on external libraries like get-jwks that do not independently validate the iss claim, the attacker can leverage this vulnerability to forge a JWT that will be accepted by the victim application. Essentially, the attacker can insert their own domain into the iss array, alongside the legitimate issuer, and bypass the intended security checks. This issue is fixed in 5.0.6.
@@ -1082,6 +1079,7 @@
 - [marino-admin/Vite-CVE-2025-30208-Scanner](https://github.com/marino-admin/Vite-CVE-2025-30208-Scanner)
 - [iSee857/CVE-2025-30208-PoC](https://github.com/iSee857/CVE-2025-30208-PoC)
 - [On1onss/CVE-2025-30208-LFI](https://github.com/On1onss/CVE-2025-30208-LFI)
+- [4xura/CVE-2025-30208](https://github.com/4xura/CVE-2025-30208)
 - [sadhfdw129/CVE-2025-30208-Vite](https://github.com/sadhfdw129/CVE-2025-30208-Vite)
 - [keklick1337/CVE-2025-30208-ViteVulnScanner](https://github.com/keklick1337/CVE-2025-30208-ViteVulnScanner)
 - [jackieya/CVE-2025-30208-and-CVE-2025-31125](https://github.com/jackieya/CVE-2025-30208-and-CVE-2025-31125)
