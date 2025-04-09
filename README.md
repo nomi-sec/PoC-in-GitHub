@@ -871,6 +871,13 @@
 
 - [NightBloodz/moodleTestingEnv](https://github.com/NightBloodz/moodleTestingEnv)
 
+### CVE-2025-26633 (2025-03-11)
+
+<code>Improper neutralization in Microsoft Management Console allows an unauthorized attacker to bypass a security feature locally.
+</code>
+
+- [sandsoncosta/CVE-2025-26633](https://github.com/sandsoncosta/CVE-2025-26633)
+
 ### CVE-2025-26794 (2025-02-21)
 
 <code>Exim 4.98 before 4.98.1, when SQLite hints and ETRN serialization are used, allows remote SQL injection.
@@ -1028,6 +1035,7 @@
 - [pixilated730/NextJS-Exploit-](https://github.com/pixilated730/NextJS-Exploit-)
 - [ValGrace/middleware-auth-bypass](https://github.com/ValGrace/middleware-auth-bypass)
 - [goncalocsousa1/CVE-2025-29927](https://github.com/goncalocsousa1/CVE-2025-29927)
+- [pickovven/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/pickovven/vulnerable-nextjs-14-CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -1170,6 +1178,13 @@
 </code>
 
 - [DoTTak/CVE-2025-31864](https://github.com/DoTTak/CVE-2025-31864)
+
+### CVE-2025-32013 (2025-04-06)
+
+<code>LNbits is a Lightning wallet and accounts system. A Server-Side Request Forgery (SSRF) vulnerability has been discovered in LNbits' LNURL authentication handling functionality. When processing LNURL authentication requests, the application accepts a callback URL parameter and makes an HTTP request to that URL using the httpx library with redirect following enabled. The application doesn't properly validate the callback URL, allowing attackers to specify internal network addresses and access internal resources.
+</code>
+
+- [Mohith-T/CVE-2025-32013](https://github.com/Mohith-T/CVE-2025-32013)
 
 ### CVE-2025-32118 (2025-04-04)
 
