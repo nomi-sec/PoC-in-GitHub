@@ -307,7 +307,6 @@
 </code>
 
 - [MrAle98/CVE-2025-21333-POC](https://github.com/MrAle98/CVE-2025-21333-POC)
-- [Mukesh-blend/CVE-2025-21333-POC](https://github.com/Mukesh-blend/CVE-2025-21333-POC)
 - [aleongx/KQL_sentinel_CVE-2025-21333](https://github.com/aleongx/KQL_sentinel_CVE-2025-21333)
 
 ### CVE-2025-21385 (2025-01-09)
@@ -576,6 +575,7 @@
 - [Heimd411/CVE-2025-24813-noPoC](https://github.com/Heimd411/CVE-2025-24813-noPoC)
 - [horsehacks/CVE-2025-24813-checker](https://github.com/horsehacks/CVE-2025-24813-checker)
 - [GadaLuBau1337/CVE-2025-24813](https://github.com/GadaLuBau1337/CVE-2025-24813)
+- [f8l124/CVE-2025-24813-POC](https://github.com/f8l124/CVE-2025-24813-POC)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -590,6 +590,13 @@
 </code>
 
 - [be4zad/CVE-2025-24971](https://github.com/be4zad/CVE-2025-24971)
+
+### CVE-2025-24985 (2025-03-11)
+
+<code>Integer overflow or wraparound in Windows Fast FAT Driver allows an unauthorized attacker to execute code locally.
+</code>
+
+- [airbus-cert/cve-2025-24985](https://github.com/airbus-cert/cve-2025-24985)
 
 ### CVE-2025-25062 (2025-02-03)
 
@@ -885,6 +892,13 @@
 
 - [sandsoncosta/CVE-2025-26633](https://github.com/sandsoncosta/CVE-2025-26633)
 
+### CVE-2025-26647 (2025-04-08)
+
+<code>Improper input validation in Windows Kerberos allows an unauthorized attacker to elevate privileges over a network.
+</code>
+
+- [groshi215/CVE-2025-26647-Exploit](https://github.com/groshi215/CVE-2025-26647-Exploit)
+
 ### CVE-2025-26794 (2025-02-21)
 
 <code>Exim 4.98 before 4.98.1, when SQLite hints and ETRN serialization are used, allows remote SQL injection.
@@ -892,6 +906,13 @@
 
 - [OscarBataille/CVE-2025-26794](https://github.com/OscarBataille/CVE-2025-26794)
 - [ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi](https://github.com/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi)
+
+### CVE-2025-26909 (2025-03-27)
+
+<code>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in John Darrel Hide My WP Ghost allows PHP Local File Inclusion.This issue affects Hide My WP Ghost: from n/a through 5.4.01.
+</code>
+
+- [ZeroDayx/CVE-2025-26909](https://github.com/ZeroDayx/CVE-2025-26909)
 
 ### CVE-2025-27152 (2025-03-07)
 
@@ -971,6 +992,13 @@
 ### CVE-2025-29602
 - [harish0x/CVE-2025-29602](https://github.com/harish0x/CVE-2025-29602)
 
+### CVE-2025-29810 (2025-04-08)
+
+<code>Improper access control in Active Directory Domain Services allows an authorized attacker to elevate privileges over a network.
+</code>
+
+- [aleongx/CVE-2025-29810-check](https://github.com/aleongx/CVE-2025-29810-check)
+
 ### CVE-2025-29927 (2025-03-21)
 
 <code>Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
@@ -1043,6 +1071,7 @@
 - [ValGrace/middleware-auth-bypass](https://github.com/ValGrace/middleware-auth-bypass)
 - [goncalocsousa1/CVE-2025-29927](https://github.com/goncalocsousa1/CVE-2025-29927)
 - [pickovven/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/pickovven/vulnerable-nextjs-14-CVE-2025-29927)
+- [l1uk/nextjs-middleware-exploit](https://github.com/l1uk/nextjs-middleware-exploit)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -1166,6 +1195,7 @@
 </code>
 
 - [Immersive-Labs-Sec/CVE-2025-31161](https://github.com/Immersive-Labs-Sec/CVE-2025-31161)
+- [llussiess/CVE-2025-31161](https://github.com/llussiess/CVE-2025-31161)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -4466,6 +4496,7 @@
 </code>
 
 - [SavageSanta11/Reproduce-CVE-2024-21513](https://github.com/SavageSanta11/Reproduce-CVE-2024-21513)
+- [nskath/CVE-2024-21513](https://github.com/nskath/CVE-2024-21513)
 
 ### CVE-2024-21514 (2024-06-22)
 
@@ -9324,6 +9355,14 @@
 ### CVE-2024-48762
 - [YZS17/CVE-2024-48762](https://github.com/YZS17/CVE-2024-48762)
 
+### CVE-2024-48887 (2025-04-08)
+
+<code>A  unverified password change vulnerability in Fortinet FortiSwitch GUI may allow a remote unauthenticated attacker to change admin passwords via a specially crafted request
+</code>
+
+- [IndominusRexes/CVE-2024-48887-Exploit](https://github.com/IndominusRexes/CVE-2024-48887-Exploit)
+- [cybersecplayground/CVE-2024-48887-FortiSwitch-Exploit](https://github.com/cybersecplayground/CVE-2024-48887-FortiSwitch-Exploit)
+
 ### CVE-2024-48914 (2024-10-15)
 
 <code>Vendure is an open-source headless commerce platform. Prior to versions 3.0.5 and 2.3.3, a vulnerability in Vendure's asset server plugin allows an attacker to craft a request which is able to traverse the server file system and retrieve the contents of arbitrary files, including sensitive data such as configuration files, environment variables, and other critical data stored on the server. In the same code path is an additional vector for crashing the server via a malformed URI. Patches are available in versions 3.0.5 and 2.3.3. Some workarounds are also available. One may use object storage rather than the local file system, e.g. MinIO or S3, or define middleware which detects and blocks requests with urls containing `/../`.
@@ -10578,6 +10617,13 @@
 
 - [RandomRobbieBF/CVE-2024-56067](https://github.com/RandomRobbieBF/CVE-2024-56067)
 
+### CVE-2024-56071 (2024-12-31)
+
+<code>Incorrect Privilege Assignment vulnerability in Mike Leembruggen Simple Dashboard allows Privilege Escalation.This issue affects Simple Dashboard: from n/a through 2.0.
+</code>
+
+- [Nxploited/CVE-2024-56071](https://github.com/Nxploited/CVE-2024-56071)
+
 ### CVE-2024-56115 (2024-12-18)
 
 <code>A vulnerability in Amiro.CMS before 7.8.4 exists due to the failure to take measures to neutralize special elements. It allows remote attackers to conduct a Cross-Site Scripting (XSS) attack.
@@ -11127,13 +11173,6 @@
 - [padbergpete47/CVE-2023-1454](https://github.com/padbergpete47/CVE-2023-1454)
 - [Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln](https://github.com/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln)
 - [shad0w0sec/CVE-2023-1454-EXP](https://github.com/shad0w0sec/CVE-2023-1454-EXP)
-
-### CVE-2023-1488 (2023-03-18)
-
-<code>Es wurde eine Schwachstelle in Lespeed WiseCleaner Wise System Monitor 1.5.3.54 gefunden. Sie wurde als problematisch eingestuft. Betroffen hiervon ist die Funktion 0x9C40A0D8/0x9C40A0DC/0x9C40A0E0 in der Bibliothek WiseHDInfo64.dll der Komponente IoControlCode Handler. Durch Manipulieren mit unbekannten Daten kann eine denial of service-Schwachstelle ausgenutzt werden. Der Angriff hat dabei lokal zu erfolgen. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [sqqrky/CVE-2023-1488](https://github.com/sqqrky/CVE-2023-1488)
 
 ### CVE-2023-1498 (2023-03-19)
 
@@ -23308,7 +23347,7 @@
 - [hev0x/CVE-2022-29464](https://github.com/hev0x/CVE-2022-29464)
 - [gpiechnik2/nmap-CVE-2022-29464](https://github.com/gpiechnik2/nmap-CVE-2022-29464)
 - [0xAgun/CVE-2022-29464](https://github.com/0xAgun/CVE-2022-29464)
-- [oppsec/WSOB](https://github.com/oppsec/WSOB)
+- [000pp/WSOB](https://github.com/000pp/WSOB)
 - [n3rdh4x0r/CVE-2022-29464](https://github.com/n3rdh4x0r/CVE-2022-29464)
 - [lowkey0808/cve-2022-29464](https://github.com/lowkey0808/cve-2022-29464)
 - [superzerosec/CVE-2022-29464](https://github.com/superzerosec/CVE-2022-29464)
@@ -29291,6 +29330,9 @@
 
 - [fjh1997/CVE-2021-27285](https://github.com/fjh1997/CVE-2021-27285)
 
+### CVE-2021-27289
+- [TheMalwareGuardian/CVE-2021-27289](https://github.com/TheMalwareGuardian/CVE-2021-27289)
+
 ### CVE-2021-27328 (2021-02-19)
 
 <code>Yeastar NeoGate TG400 91.3.0.3 devices are affected by Directory Traversal. An authenticated user can decrypt firmware and can read sensitive information, such as a password or decryption key.
@@ -32085,13 +32127,6 @@
 </code>
 
 - [Wrin9/CVE-2021-43287](https://github.com/Wrin9/CVE-2021-43287)
-
-### CVE-2021-43297 (2022-01-10)
-
-<code>A deserialization vulnerability existed in dubbo hessian-lite 3.2.11 and its earlier versions, which could lead to malicious code execution. Most Dubbo users use Hessian2 as the default serialization/deserialization protocol, during Hessian catch unexpected exceptions, Hessian will log out some imformation for users, which may cause remote command execution. This issue affects Apache Dubbo Apache Dubbo 2.6.x versions prior to 2.6.12; Apache Dubbo 2.7.x versions prior to 2.7.15; Apache Dubbo 3.0.x versions prior to 3.0.5.
-</code>
-
-- [bitterzzZZ/CVE-2021-43297-POC](https://github.com/bitterzzZZ/CVE-2021-43297-POC)
 
 ### CVE-2021-43326 (2021-12-15)
 
@@ -40359,8 +40394,8 @@
 
 - [rek7/Zimbra-RCE](https://github.com/rek7/Zimbra-RCE)
 - [attackgithub/Zimbra-RCE](https://github.com/attackgithub/Zimbra-RCE)
-- [oppsec/arbimz](https://github.com/oppsec/arbimz)
-- [oppsec/zaber](https://github.com/oppsec/zaber)
+- [000pp/arbimz](https://github.com/000pp/arbimz)
+- [000pp/zaber](https://github.com/000pp/zaber)
 - [Cappricio-Securities/CVE-2019-9670](https://github.com/Cappricio-Securities/CVE-2019-9670)
 - [OracleNep/CVE-2019-9670-DtdFilegeneration](https://github.com/OracleNep/CVE-2019-9670-DtdFilegeneration)
 
@@ -48732,7 +48767,7 @@
 - [mogwailabs/CVE-2017-1000486](https://github.com/mogwailabs/CVE-2017-1000486)
 - [cved-sources/cve-2017-1000486](https://github.com/cved-sources/cve-2017-1000486)
 - [Pastea/CVE-2017-1000486](https://github.com/Pastea/CVE-2017-1000486)
-- [oppsec/pwnfaces](https://github.com/oppsec/pwnfaces)
+- [000pp/pwnfaces](https://github.com/000pp/pwnfaces)
 - [LongWayHomie/CVE-2017-1000486](https://github.com/LongWayHomie/CVE-2017-1000486)
 - [jam620/primefaces](https://github.com/jam620/primefaces)
 
