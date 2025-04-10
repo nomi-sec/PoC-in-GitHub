@@ -282,6 +282,7 @@
 </code>
 
 - [xuemian168/CVE-2025-3248](https://github.com/xuemian168/CVE-2025-3248)
+- [PuddinCat/CVE-2025-3248-POC](https://github.com/PuddinCat/CVE-2025-3248-POC)
 
 ### CVE-2025-12654
 - [ThoristKaw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/ThoristKaw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
@@ -353,6 +354,7 @@
 
 - [Vinylrider/ivantiunlocker](https://github.com/Vinylrider/ivantiunlocker)
 - [N4SL1/CVE-2025-22457-PoC](https://github.com/N4SL1/CVE-2025-22457-PoC)
+- [sfewer-r7/CVE-2025-22457](https://github.com/sfewer-r7/CVE-2025-22457)
 - [securekomodo/CVE-2025-22457](https://github.com/securekomodo/CVE-2025-22457)
 
 ### CVE-2025-22510 (2025-01-09)
@@ -585,6 +587,7 @@
 - [horsehacks/CVE-2025-24813-checker](https://github.com/horsehacks/CVE-2025-24813-checker)
 - [GadaLuBau1337/CVE-2025-24813](https://github.com/GadaLuBau1337/CVE-2025-24813)
 - [f8l124/CVE-2025-24813-POC](https://github.com/f8l124/CVE-2025-24813-POC)
+- [Franconyu/Poc_for_CVE-2025-24813](https://github.com/Franconyu/Poc_for_CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -964,7 +967,11 @@
 ### CVE-2025-29015
 - [b1tm4r/CVE-2025-29015](https://github.com/b1tm4r/CVE-2025-29015)
 
-### CVE-2025-29017
+### CVE-2025-29017 (2025-04-10)
+
+<code>A Remote Code Execution (RCE) vulnerability exists in Code Astro Internet Banking System 2.0.0 due to improper file upload validation in the profile_pic parameter within pages_view_client.php.
+</code>
+
 - [b1tm4r/CVE-2025-29017](https://github.com/b1tm4r/CVE-2025-29017)
 
 ### CVE-2025-29018 (2025-04-09)
@@ -990,6 +997,9 @@
 
 ### CVE-2025-29602
 - [harish0x/CVE-2025-29602](https://github.com/harish0x/CVE-2025-29602)
+
+### CVE-2025-29705
+- [yxzrw/CVE-2025-29705](https://github.com/yxzrw/CVE-2025-29705)
 
 ### CVE-2025-29810 (2025-04-08)
 
@@ -1047,6 +1057,7 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
+- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [0x0Luk/0xMiddleware](https://github.com/0x0Luk/0xMiddleware)
@@ -1237,7 +1248,6 @@
 ### CVE-2025-44228
 - [Kariaoston/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Kariaoston/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
 - [Karitosmuan/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Karitosmuan/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
-- [housam123456789/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/housam123456789/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -12337,6 +12347,7 @@
 - [motikan2010/CVE-2023-6063-PoC](https://github.com/motikan2010/CVE-2023-6063-PoC)
 - [hackersroot/CVE-2023-6063-PoC](https://github.com/hackersroot/CVE-2023-6063-PoC)
 - [Eulex0x/CVE-2023-6063](https://github.com/Eulex0x/CVE-2023-6063)
+- [incommatose/CVE-2023-6063](https://github.com/incommatose/CVE-2023-6063)
 
 ### CVE-2023-6199 (2023-11-20)
 
@@ -25021,6 +25032,7 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
+- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -34252,7 +34264,6 @@
 
 - [xindongzhuaizhuai/CVE-2020-1938](https://github.com/xindongzhuaizhuai/CVE-2020-1938)
 - [sgdream/CVE-2020-1938](https://github.com/sgdream/CVE-2020-1938)
-- [nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC](https://github.com/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC)
 - [bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner](https://github.com/bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner)
 - [laolisafe/CVE-2020-1938](https://github.com/laolisafe/CVE-2020-1938)
 - [h7hac9/CVE-2020-1938](https://github.com/h7hac9/CVE-2020-1938)
