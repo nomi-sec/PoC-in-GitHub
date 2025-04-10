@@ -907,13 +907,6 @@
 - [OscarBataille/CVE-2025-26794](https://github.com/OscarBataille/CVE-2025-26794)
 - [ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi](https://github.com/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi)
 
-### CVE-2025-26909 (2025-03-27)
-
-<code>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in John Darrel Hide My WP Ghost allows PHP Local File Inclusion.This issue affects Hide My WP Ghost: from n/a through 5.4.01.
-</code>
-
-- [ZeroDayx/CVE-2025-26909](https://github.com/ZeroDayx/CVE-2025-26909)
-
 ### CVE-2025-27152 (2025-03-07)
 
 <code>axios is a promise based HTTP client for the browser and node.js. The issue occurs when passing absolute URLs rather than protocol-relative URLs to axios. Even if ⁠baseURL is set, axios sends the request to the specified absolute URL, potentially causing SSRF and credential leakage. This issue impacts both server-side and client-side usage of axios. This issue is fixed in 1.8.2.
@@ -972,7 +965,11 @@
 ### CVE-2025-29017
 - [b1tm4r/CVE-2025-29017](https://github.com/b1tm4r/CVE-2025-29017)
 
-### CVE-2025-29018
+### CVE-2025-29018 (2025-04-09)
+
+<code>A Stored Cross-Site Scripting (XSS) vulnerability exists in the name parameter of pages_add_acc_type.php in Code Astro Internet Banking System 2.0.0.
+</code>
+
 - [b1tm4r/CVE-2025-29018](https://github.com/b1tm4r/CVE-2025-29018)
 
 ### CVE-2025-29306 (2025-03-27)
@@ -1235,13 +1232,6 @@
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
-- [NotItsSixtyN3in/CVE-2025-50000](https://github.com/NotItsSixtyN3in/CVE-2025-50000)
-
-### CVE-2025-50001
-- [NotItsSixtyN3in/CVE-2025-50001](https://github.com/NotItsSixtyN3in/CVE-2025-50001)
-
-### CVE-2025-50002
-- [NotItsSixtyN3in/CVE-2025-50002](https://github.com/NotItsSixtyN3in/CVE-2025-50002)
 
 ### CVE-2025-412025
 - [itssixtyn3in/CVE-2025-412025](https://github.com/itssixtyn3in/CVE-2025-412025)
@@ -1252,23 +1242,14 @@
 ### CVE-2025-412027
 - [itssixtyn3in/CVE-2025-412027](https://github.com/itssixtyn3in/CVE-2025-412027)
 
-### CVE-2025-422025
-- [NotItsSixtyN3in/CVE-2025-422025](https://github.com/NotItsSixtyN3in/CVE-2025-422025)
+### CVE-2025-492025
+- [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
 
-### CVE-2025-422026
-- [NotItsSixtyN3in/CVE-2025-422026](https://github.com/NotItsSixtyN3in/CVE-2025-422026)
+### CVE-2025-492026
+- [ImTheCopilotNow/CVE-2025-492026](https://github.com/ImTheCopilotNow/CVE-2025-492026)
 
-### CVE-2025-422027
-- [NotItsSixtyN3in/CVE-2025-422027](https://github.com/NotItsSixtyN3in/CVE-2025-422027)
-
-### CVE-2025-422029
-- [NotItsSixtyN3in/CVE-2025-422029](https://github.com/NotItsSixtyN3in/CVE-2025-422029)
-
-### CVE-2025-422030
-- [NotItsSixtyN3in/CVE-2025-422030](https://github.com/NotItsSixtyN3in/CVE-2025-422030)
-
-### CVE-2025-422031
-- [NotItsSixtyN3in/CVE-2025-422031](https://github.com/NotItsSixtyN3in/CVE-2025-422031)
+### CVE-2025-492030
+- [ImTheCopilotNow/CVE-2025-492030](https://github.com/ImTheCopilotNow/CVE-2025-492030)
 
 ### CVE-2025-666666
 - [anderruiz/CVE-2025-666666](https://github.com/anderruiz/CVE-2025-666666)
@@ -5698,7 +5679,6 @@
 - [K3ysTr0K3R/CVE-2024-25600-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-25600-EXPLOIT)
 - [X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE](https://github.com/X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE)
 - [svchostmm/CVE-2024-25600-mass](https://github.com/svchostmm/CVE-2024-25600-mass)
-- [ivanbg2004/0BL1V10N-CVE-2024-25600-Bricks-Builder-plugin-for-WordPress](https://github.com/ivanbg2004/0BL1V10N-CVE-2024-25600-Bricks-Builder-plugin-for-WordPress)
 - [k3lpi3b4nsh33/CVE-2024-25600](https://github.com/k3lpi3b4nsh33/CVE-2024-25600)
 - [WanLiChangChengWanLiChang/CVE-2024-25600](https://github.com/WanLiChangChengWanLiChang/CVE-2024-25600)
 - [KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress](https://github.com/KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress)
@@ -5707,6 +5687,7 @@
 - [so1icitx/CVE-2024-25600](https://github.com/so1icitx/CVE-2024-25600)
 - [cboss43/CVE-2024-25600](https://github.com/cboss43/CVE-2024-25600)
 - [meli0dasH4ck3r/cve-2024-25600](https://github.com/meli0dasH4ck3r/cve-2024-25600)
+- [ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM](https://github.com/ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM)
 
 ### CVE-2024-25641 (2024-05-13)
 
@@ -10456,7 +10437,11 @@
 
 - [ugurkarakoc1/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-](https://github.com/ugurkarakoc1/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-)
 
-### CVE-2024-55210
+### CVE-2024-55210 (2025-04-09)
+
+<code>An issue in TOTVS Framework (Linha Protheus) 12.1.2310 allows attackers to bypass multi-factor authentication (MFA) via a crafted websocket message.
+</code>
+
 - [c4cnm/CVE-2024-55210](https://github.com/c4cnm/CVE-2024-55210)
 
 ### CVE-2024-55215 (2025-02-07)
@@ -10919,9 +10904,6 @@
 
 ### CVE-2024-415770
 - [muhmad-umair/CVE-2024-415770-ssrf-rce](https://github.com/muhmad-umair/CVE-2024-415770-ssrf-rce)
-
-### CVE-2024-422028
-- [NotItsSixtyN3in/CVE-2024-422028](https://github.com/NotItsSixtyN3in/CVE-2024-422028)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
