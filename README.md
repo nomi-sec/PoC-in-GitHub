@@ -345,6 +345,7 @@
 
 - [Vinylrider/ivantiunlocker](https://github.com/Vinylrider/ivantiunlocker)
 - [N4SL1/CVE-2025-22457-PoC](https://github.com/N4SL1/CVE-2025-22457-PoC)
+- [securekomodo/CVE-2025-22457](https://github.com/securekomodo/CVE-2025-22457)
 
 ### CVE-2025-22510 (2025-01-09)
 
@@ -24836,6 +24837,13 @@
 ### CVE-2022-37708
 - [thekevinday/docker_lightman_exploit](https://github.com/thekevinday/docker_lightman_exploit)
 
+### CVE-2022-37932 (2022-11-30)
+
+<code>A potential security vulnerability has been identified in Hewlett Packard Enterprise OfficeConnect 1820, 1850, and 1920S Network switches. The vulnerability could be remotely exploited to allow authentication bypass. HPE has made the following software updates to resolve the vulnerability in Hewlett Packard Enterprise OfficeConnect 1820, 1850 and 1920S Network switches versions: Prior to PT.02.14; Prior to PC.01.22; Prior to PO.01.21; Prior to PD.02.22;\n\n
+</code>
+
+- [Tim-Hoekstra/CVE-2022-37932](https://github.com/Tim-Hoekstra/CVE-2022-37932)
+
 ### CVE-2022-37969 (2022-09-13)
 
 <code>Windows Common Log File System Driver Elevation of Privilege Vulnerability
@@ -48411,7 +48419,6 @@
 </code>
 
 - [ropbear/CVE-2017-16651](https://github.com/ropbear/CVE-2017-16651)
-- [sephiroth950911/CVE-2017-16651-Exploit](https://github.com/sephiroth950911/CVE-2017-16651-Exploit)
 
 ### CVE-2017-16720 (2018-01-05)
 
