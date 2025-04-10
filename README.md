@@ -183,6 +183,7 @@
 - [tuladhar/ingress-nightmare](https://github.com/tuladhar/ingress-nightmare)
 - [rjhaikal/POC-IngressNightmare-CVE-2025-1974](https://github.com/rjhaikal/POC-IngressNightmare-CVE-2025-1974)
 - [zulloper/CVE-2025-1974](https://github.com/zulloper/CVE-2025-1974)
+- [Rubby2001/CVE-2025-1974-go](https://github.com/Rubby2001/CVE-2025-1974-go)
 
 ### CVE-2025-2005 (2025-04-02)
 
@@ -274,6 +275,13 @@
 </code>
 
 - [murataydemir/AWS-SAM-CLI-Vulnerabilities](https://github.com/murataydemir/AWS-SAM-CLI-Vulnerabilities)
+
+### CVE-2025-3248 (2025-04-07)
+
+<code>Langflow versions prior to 1.3.0 are susceptible to code injection in \nthe /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send crafted HTTP requests to execute arbitrary\ncode.
+</code>
+
+- [xuemian168/CVE-2025-3248](https://github.com/xuemian168/CVE-2025-3248)
 
 ### CVE-2025-12654
 - [ThoristKaw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/ThoristKaw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
@@ -893,13 +901,6 @@
 
 - [sandsoncosta/CVE-2025-26633](https://github.com/sandsoncosta/CVE-2025-26633)
 
-### CVE-2025-26647 (2025-04-08)
-
-<code>Improper input validation in Windows Kerberos allows an unauthorized attacker to elevate privileges over a network.
-</code>
-
-- [groshi215/CVE-2025-26647-Exploit](https://github.com/groshi215/CVE-2025-26647-Exploit)
-
 ### CVE-2025-26794 (2025-02-21)
 
 <code>Exim 4.98 before 4.98.1, when SQLite hints and ETRN serialization are used, allows remote SQL injection.
@@ -1165,6 +1166,13 @@
 </code>
 
 - [DoTTak/CVE-2025-30921](https://github.com/DoTTak/CVE-2025-30921)
+
+### CVE-2025-31033 (2025-04-09)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in Adam Nowak Buddypress Humanity allows Cross Site Request Forgery. This issue affects Buddypress Humanity: from n/a through 1.2.
+</code>
+
+- [Nxploited/CVE-2025-31033](https://github.com/Nxploited/CVE-2025-31033)
 
 ### CVE-2025-31125 (2025-03-31)
 
@@ -2421,6 +2429,7 @@
 - [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
 - [Night-have-dreams/php-cgi-Injector](https://github.com/Night-have-dreams/php-cgi-Injector)
 - [mistakes1337/CVE-2024-4577](https://github.com/mistakes1337/CVE-2024-4577)
+- [deadlybangle/CVE-2024-4577-PHP-RCE](https://github.com/deadlybangle/CVE-2024-4577-PHP-RCE)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -2493,7 +2502,6 @@
 - [thinhap/CVE-2024-4956-PoC](https://github.com/thinhap/CVE-2024-4956-PoC)
 - [yagyuufellinluvv/CVE-2024-4956](https://github.com/yagyuufellinluvv/CVE-2024-4956)
 - [GoatSecurity/CVE-2024-4956](https://github.com/GoatSecurity/CVE-2024-4956)
-- [TypicalModMaker/CVE-2024-4956](https://github.com/TypicalModMaker/CVE-2024-4956)
 - [Praison001/CVE-2024-4956-Sonatype-Nexus-Repository-Manager](https://github.com/Praison001/CVE-2024-4956-Sonatype-Nexus-Repository-Manager)
 - [Cappricio-Securities/CVE-2024-4956](https://github.com/Cappricio-Securities/CVE-2024-4956)
 - [fin3ss3g0d/CVE-2024-4956](https://github.com/fin3ss3g0d/CVE-2024-4956)
@@ -9342,8 +9350,8 @@
 <code>A  unverified password change vulnerability in Fortinet FortiSwitch GUI may allow a remote unauthenticated attacker to change admin passwords via a specially crafted request
 </code>
 
-- [IndominusRexes/CVE-2024-48887-Exploit](https://github.com/IndominusRexes/CVE-2024-48887-Exploit)
 - [cybersecplayground/CVE-2024-48887-FortiSwitch-Exploit](https://github.com/cybersecplayground/CVE-2024-48887-FortiSwitch-Exploit)
+- [groshi215/CVE-2024-48887-Exploit](https://github.com/groshi215/CVE-2024-48887-Exploit)
 
 ### CVE-2024-48914 (2024-10-15)
 
