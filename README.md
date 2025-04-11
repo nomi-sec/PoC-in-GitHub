@@ -261,6 +261,7 @@
 ### CVE-2025-2825
 - [WOOOOONG/CVE-2025-2825](https://github.com/WOOOOONG/CVE-2025-2825)
 - [punitdarji/crushftp-CVE-2025-2825](https://github.com/punitdarji/crushftp-CVE-2025-2825)
+- [ghostsec420/ShatteredFTP](https://github.com/ghostsec420/ShatteredFTP)
 
 ### CVE-2025-2857 (2025-03-27)
 
@@ -1220,6 +1221,7 @@
 </code>
 
 - [iSee857/CVE-2025-31486-PoC](https://github.com/iSee857/CVE-2025-31486-PoC)
+- [Ly4j/CVE-2025-31486](https://github.com/Ly4j/CVE-2025-31486)
 
 ### CVE-2025-31651
 - [gregk4sec/CVE-2025-31651](https://github.com/gregk4sec/CVE-2025-31651)
@@ -1244,6 +1246,13 @@
 </code>
 
 - [Nxploited/CVE-2025-32118](https://github.com/Nxploited/CVE-2025-32118)
+
+### CVE-2025-32641 (2025-04-09)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in anantaddons Anant Addons for Elementor allows Cross Site Request Forgery. This issue affects Anant Addons for Elementor: from n/a through 1.1.5.
+</code>
+
+- [Nxploited/CVE-2025-32641](https://github.com/Nxploited/CVE-2025-32641)
 
 ### CVE-2025-44228
 - [Kariaoston/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Kariaoston/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
@@ -10459,13 +10468,6 @@
 </code>
 
 - [ugurkarakoc1/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-](https://github.com/ugurkarakoc1/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-)
-
-### CVE-2024-55210 (2025-04-09)
-
-<code>An issue in TOTVS Framework (Linha Protheus) 12.1.2310 allows attackers to bypass multi-factor authentication (MFA) via a crafted websocket message.
-</code>
-
-- [c4cnm/CVE-2024-55210](https://github.com/c4cnm/CVE-2024-55210)
 
 ### CVE-2024-55215 (2025-02-07)
 
@@ -38763,7 +38765,7 @@
 - [xsxtw/CVE-2019-0232](https://github.com/xsxtw/CVE-2019-0232)
 - [Dharan10/CVE-2019-0232](https://github.com/Dharan10/CVE-2019-0232)
 - [iumiro/CVE-2019-0232](https://github.com/iumiro/CVE-2019-0232)
-- [0xD3vNu1l/CVE-2019-0232_tomcat_cgi_exploit](https://github.com/0xD3vNu1l/CVE-2019-0232_tomcat_cgi_exploit)
+- [x3m1Sec/CVE-2019-0232_tomcat_cgi_exploit](https://github.com/x3m1Sec/CVE-2019-0232_tomcat_cgi_exploit)
 
 ### CVE-2019-0539 (2019-01-08)
 
@@ -42346,6 +42348,7 @@
 - [DDayLuong/CVE-2019-18634](https://github.com/DDayLuong/CVE-2019-18634)
 - [chanbakjsd/CVE-2019-18634](https://github.com/chanbakjsd/CVE-2019-18634)
 - [l0w3/CVE-2019-18634](https://github.com/l0w3/CVE-2019-18634)
+- [ngyinkit/cve-2019-18634](https://github.com/ngyinkit/cve-2019-18634)
 
 ### CVE-2019-18655 (2019-11-12)
 
