@@ -1294,6 +1294,9 @@
 ### CVE-2025-3292029
 - [itssixtyn3in/CVE-2025-3292029](https://github.com/itssixtyn3in/CVE-2025-3292029)
 
+### CVE-2025-4102025
+- [ImTheCopilotNow/CVE-2025-4102025](https://github.com/ImTheCopilotNow/CVE-2025-4102025)
+
 
 ## 2024
 ### CVE-2024-0012 (2024-11-18)
@@ -7670,7 +7673,7 @@
 
 ### CVE-2024-38036 (2024-10-04)
 
-<code>There is a reflected XSS vulnerability in Esri Portal for ArcGIS versions 10.9.1, 10.8.1 and 10.7.1 which may allow a remote, unauthenticated attacker to create a crafted link which when clicked could potentially execute arbitrary JavaScript code in the victim’s browser.
+<code>There is a reflected XSS vulnerability in Esri Portal for ArcGIS versions 10.9.1 and below which may allow a remote, unauthenticated attacker to create a crafted link which when clicked could potentially execute arbitrary JavaScript code in the victim’s browser.
 </code>
 
 - [hnytgl/CVE-2024-38036](https://github.com/hnytgl/CVE-2024-38036)
@@ -40753,6 +40756,7 @@
 
 - [RedAlien00/CVE-2019-11395](https://github.com/RedAlien00/CVE-2019-11395)
 - [caioprince/CVE-2019-11395](https://github.com/caioprince/CVE-2019-11395)
+- [RafaelBicas/CVE-2019-11395](https://github.com/RafaelBicas/CVE-2019-11395)
 
 ### CVE-2019-11408 (2019-06-17)
 
@@ -41720,6 +41724,8 @@
 - [NasrallahBaadi/CVE-2019-15107](https://github.com/NasrallahBaadi/CVE-2019-15107)
 - [grayorwhite/CVE-2019-15107](https://github.com/grayorwhite/CVE-2019-15107)
 - [MasterCode112/CVE-2019-15107](https://github.com/MasterCode112/CVE-2019-15107)
+- [Mattb709/CVE-2019-15107-Scanner](https://github.com/Mattb709/CVE-2019-15107-Scanner)
+- [Mattb709/CVE-2019-15107-Webmin-RCE-PoC](https://github.com/Mattb709/CVE-2019-15107-Webmin-RCE-PoC)
 
 ### CVE-2019-15120 (2019-08-16)
 
