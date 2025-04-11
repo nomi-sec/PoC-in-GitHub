@@ -913,6 +913,13 @@
 - [OscarBataille/CVE-2025-26794](https://github.com/OscarBataille/CVE-2025-26794)
 - [ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi](https://github.com/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi)
 
+### CVE-2025-26865 (2025-03-10)
+
+<code>Improper Neutralization of Special Elements Used in a Template Engine vulnerability in Apache OFBiz.\n\nThis issue affects Apache OFBiz: from 18.12.17 before 18.12.18.  \n\nIt's a regression between 18.12.17 and 18.12.18.\nIn case you use something like that, which is not recommended!\nFor security, only official releases should be used.\n\nIn other words, if you use 18.12.17 you are still safe.\nThe version 18.12.17 is not a affected.\nBut something between 18.12.17 and 18.12.18 is.\n\nIn that case, users are recommended to upgrade to version 18.12.18, which fixes the issue.
+</code>
+
+- [mbadanoiu/CVE-2025-26865](https://github.com/mbadanoiu/CVE-2025-26865)
+
 ### CVE-2025-27152 (2025-03-07)
 
 <code>axios is a promise based HTTP client for the browser and node.js. The issue occurs when passing absolute URLs rather than protocol-relative URLs to axios. Even if ⁠baseURL is set, axios sends the request to the specified absolute URL, potentially causing SSRF and credential leakage. This issue impacts both server-side and client-side usage of axios. This issue is fixed in 1.8.2.
@@ -956,6 +963,9 @@
 </code>
 
 - [NastyCrow/CVE-2025-27893](https://github.com/NastyCrow/CVE-2025-27893)
+
+### CVE-2025-28346
+- [Shubham03007/CVE-2025-28346](https://github.com/Shubham03007/CVE-2025-28346)
 
 ### CVE-2025-28915 (2025-03-11)
 
@@ -1246,6 +1256,13 @@
 </code>
 
 - [Nxploited/CVE-2025-32118](https://github.com/Nxploited/CVE-2025-32118)
+
+### CVE-2025-32206 (2025-04-10)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in LABCAT Processing Projects allows Upload a Web Shell to a Web Server. This issue affects Processing Projects: from n/a through 1.0.2.
+</code>
+
+- [Nxploited/CVE-2025-32206](https://github.com/Nxploited/CVE-2025-32206)
 
 ### CVE-2025-32641 (2025-04-09)
 
@@ -9096,13 +9113,6 @@
 
 - [jackalkarlos/CVE-2024-46658](https://github.com/jackalkarlos/CVE-2024-46658)
 
-### CVE-2024-46901 (2024-12-09)
-
-<code>Insufficient validation of filenames against control characters in Apache Subversion repositories served via mod_dav_svn allows authenticated users with commit access to commit a corrupted revision, leading to disruption for users of the repository.\n\nAll versions of Subversion up to and including Subversion 1.14.4 are affected if serving repositories via mod_dav_svn. Users are recommended to upgrade to version 1.14.5, which fixes this issue.\n\nRepositories served via other access methods are not affected.
-</code>
-
-- [devhaozi/CVE-2024-46901](https://github.com/devhaozi/CVE-2024-46901)
-
 ### CVE-2024-46981 (2025-01-06)
 
 <code>Redis is an open source, in-memory database that persists on disk. An authenticated user may use a specially crafted Lua script to manipulate the garbage collector and potentially lead to remote code execution. The problem is fixed in 7.4.2, 7.2.7, and 6.2.17. An additional workaround to mitigate the problem without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to restrict EVAL and EVALSHA commands.
@@ -10534,6 +10544,7 @@
 - [exfil0/CVE-2024-55591-POC](https://github.com/exfil0/CVE-2024-55591-POC)
 - [rawtips/CVE-2024-55591](https://github.com/rawtips/CVE-2024-55591)
 - [0x7556/CVE-2024-55591](https://github.com/0x7556/CVE-2024-55591)
+- [binarywarm/exp-cmd-add-admin-vpn-CVE-2024-55591](https://github.com/binarywarm/exp-cmd-add-admin-vpn-CVE-2024-55591)
 
 ### CVE-2024-55875 (2024-12-12)
 
@@ -12683,6 +12694,7 @@
 - [sanan2004/CVE-2023-20198](https://github.com/sanan2004/CVE-2023-20198)
 - [AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-](https://github.com/AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-)
 - [XiaomingX/cve-2023-20198-poc](https://github.com/XiaomingX/cve-2023-20198-poc)
+- [G4sul1n/Cisco-IOS-XE-CVE-2023-20198](https://github.com/G4sul1n/Cisco-IOS-XE-CVE-2023-20198)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -28696,6 +28708,7 @@
 </code>
 
 - [cnetsec/CVE-2021-24006](https://github.com/cnetsec/CVE-2021-24006)
+- [cnetsec/CVE-2021-24006-Fortimanager-Exploit](https://github.com/cnetsec/CVE-2021-24006-Fortimanager-Exploit)
 
 ### CVE-2021-24019 (2021-10-06)
 
@@ -31136,7 +31149,6 @@
 - [donky16/CVE-2021-40346-POC](https://github.com/donky16/CVE-2021-40346-POC)
 - [alikarimi999/CVE-2021-40346](https://github.com/alikarimi999/CVE-2021-40346)
 - [Vulnmachines/HAProxy_CVE-2021-40346](https://github.com/Vulnmachines/HAProxy_CVE-2021-40346)
-- [alexOarga/CVE-2021-40346](https://github.com/alexOarga/CVE-2021-40346)
 
 ### CVE-2021-40352 (2021-09-01)
 
@@ -40560,6 +40572,7 @@
 - [hyim0810/CVE-2019-10149](https://github.com/hyim0810/CVE-2019-10149)
 - [qlusec/CVE-2019-10149](https://github.com/qlusec/CVE-2019-10149)
 - [uyerr/PoC_CVE-2019-10149--rce](https://github.com/uyerr/PoC_CVE-2019-10149--rce)
+- [VoyagerOnne/Exim-CVE-2019-10149](https://github.com/VoyagerOnne/Exim-CVE-2019-10149)
 
 ### CVE-2019-10172 (2019-11-18)
 
