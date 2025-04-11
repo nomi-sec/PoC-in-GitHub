@@ -7434,6 +7434,7 @@
 - [XiaomingX/cve-2024-36401-poc](https://github.com/XiaomingX/cve-2024-36401-poc)
 - [0x0d3ad/CVE-2024-36401](https://github.com/0x0d3ad/CVE-2024-36401)
 - [whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit)
+- [bmth666/GeoServer-Tools-CVE-2024-36401](https://github.com/bmth666/GeoServer-Tools-CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -12746,6 +12747,13 @@
 - [sinsinology/CVE-2023-20887](https://github.com/sinsinology/CVE-2023-20887)
 - [miko550/CVE-2023-20887](https://github.com/miko550/CVE-2023-20887)
 - [Malwareman007/CVE-2023-20887](https://github.com/Malwareman007/CVE-2023-20887)
+
+### CVE-2023-20904 (2023-01-24)
+
+<code>In getTrampolineIntent of SettingsActivity.java, there is a possible launch of arbitrary activity due to an Intent mismatch in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-12L Android-13Android ID: A-246300272
+</code>
+
+- [FishMan132/CVE-2023-20904](https://github.com/FishMan132/CVE-2023-20904)
 
 ### CVE-2023-20909 (2023-04-19)
 
