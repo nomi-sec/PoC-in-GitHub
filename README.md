@@ -364,6 +364,7 @@
 - [N4SL1/CVE-2025-22457-PoC](https://github.com/N4SL1/CVE-2025-22457-PoC)
 - [sfewer-r7/CVE-2025-22457](https://github.com/sfewer-r7/CVE-2025-22457)
 - [securekomodo/CVE-2025-22457](https://github.com/securekomodo/CVE-2025-22457)
+- [llussiess/CVE-2025-22457](https://github.com/llussiess/CVE-2025-22457)
 
 ### CVE-2025-22510 (2025-01-09)
 
@@ -596,6 +597,7 @@
 - [GadaLuBau1337/CVE-2025-24813](https://github.com/GadaLuBau1337/CVE-2025-24813)
 - [f8l124/CVE-2025-24813-POC](https://github.com/f8l124/CVE-2025-24813-POC)
 - [Franconyu/Poc_for_CVE-2025-24813](https://github.com/Franconyu/Poc_for_CVE-2025-24813)
+- [Mattb709/CVE-2025-24813-PoC-Apache-Tomcat-RCE](https://github.com/Mattb709/CVE-2025-24813-PoC-Apache-Tomcat-RCE)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -4632,6 +4634,7 @@
 </code>
 
 - [CyberSecuritist/CVE-2024-21754-Forti-RCE](https://github.com/CyberSecuritist/CVE-2024-21754-Forti-RCE)
+- [llussiess/CVE-2024-21754](https://github.com/llussiess/CVE-2024-21754)
 
 ### CVE-2024-21762 (2024-02-09)
 
@@ -14312,6 +14315,7 @@
 - [C04LA/CVE-2023-28121](https://github.com/C04LA/CVE-2023-28121)
 - [Jenderal92/WP-CVE-2023-28121](https://github.com/Jenderal92/WP-CVE-2023-28121)
 - [1337nemojj/CVE-2023-28121](https://github.com/1337nemojj/CVE-2023-28121)
+- [sug4r-wr41th/CVE-2023-28121](https://github.com/sug4r-wr41th/CVE-2023-28121)
 
 ### CVE-2023-28197 (2024-01-10)
 
@@ -50646,6 +50650,13 @@
 
 - [fatlan/HAProxy-Keepalived-Sec-HighLoads](https://github.com/fatlan/HAProxy-Keepalived-Sec-HighLoads)
 
+### CVE-2015-4133 (2015-05-28)
+
+<code>Unrestricted file upload vulnerability in admin/scripts/FileUploader/php.php in the ReFlex Gallery plugin before 3.1.4 for WordPress allows remote attackers to execute arbitrary PHP code by uploading a file with a PHP extension, then accessing it via a direct request to the file in uploads/ directory.
+</code>
+
+- [sug4r-wr41th/CVE-2015-4133](https://github.com/sug4r-wr41th/CVE-2015-4133)
+
 ### CVE-2015-4495 (2015-08-08)
 
 <code>The PDF reader in Mozilla Firefox before 39.0.3, Firefox ESR 38.x before 38.1.1, and Firefox OS before 2.2 allows remote attackers to bypass the Same Origin Policy, and read arbitrary files or gain privileges, via vectors involving crafted JavaScript code and a native setter, as exploited in the wild in August 2015.
@@ -51739,6 +51750,7 @@
 - [TheRealCiscoo/Shellshock-Exploit](https://github.com/TheRealCiscoo/Shellshock-Exploit)
 - [RadYio/CVE-2014-6271](https://github.com/RadYio/CVE-2014-6271)
 - [YunchoHang/CVE-2014-6271-SHELLSHOCK](https://github.com/YunchoHang/CVE-2014-6271-SHELLSHOCK)
+- [Isidoro4-kor/bash-CVE-2014-6271](https://github.com/Isidoro4-kor/bash-CVE-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
 
@@ -52821,6 +52833,7 @@
 - [Lychi3/vsftpd-backdoor](https://github.com/Lychi3/vsftpd-backdoor)
 - [vedpakhare/vsftpd-234-vuln-report](https://github.com/vedpakhare/vsftpd-234-vuln-report)
 - [madanokr001/CVE-2011-2523](https://github.com/madanokr001/CVE-2011-2523)
+- [sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523)
 
 ### CVE-2011-2894 (2011-10-04)
 
