@@ -1093,6 +1093,7 @@
 - [goncalocsousa1/CVE-2025-29927](https://github.com/goncalocsousa1/CVE-2025-29927)
 - [pickovven/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/pickovven/vulnerable-nextjs-14-CVE-2025-29927)
 - [l1uk/nextjs-middleware-exploit](https://github.com/l1uk/nextjs-middleware-exploit)
+- [darklotuskdb/nextjs-CVE-2025-29927-hunter](https://github.com/darklotuskdb/nextjs-CVE-2025-29927-hunter)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
