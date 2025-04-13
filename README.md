@@ -317,6 +317,7 @@
 - [ynwarcs/CVE-2025-21298](https://github.com/ynwarcs/CVE-2025-21298)
 - [Dit-Developers/CVE-2025-21298](https://github.com/Dit-Developers/CVE-2025-21298)
 - [Denyningbow/rtf-ctf-cve-2025-21298](https://github.com/Denyningbow/rtf-ctf-cve-2025-21298)
+- [mr-big-leach/CVE-2025-21298](https://github.com/mr-big-leach/CVE-2025-21298)
 
 ### CVE-2025-21333 (2025-01-14)
 
@@ -1551,6 +1552,7 @@
 - [0ptyx/cve-2024-0582](https://github.com/0ptyx/cve-2024-0582)
 - [geniuszly/CVE-2024-0582](https://github.com/geniuszly/CVE-2024-0582)
 - [101010zyl/CVE-2024-0582-dataonly](https://github.com/101010zyl/CVE-2024-0582-dataonly)
+- [kuzeyardabulut/CVE-2024-0582](https://github.com/kuzeyardabulut/CVE-2024-0582)
 
 ### CVE-2024-0588 (2024-04-09)
 
@@ -7564,6 +7566,7 @@
 - [jaytiwari05/CVE-2024-36991](https://github.com/jaytiwari05/CVE-2024-36991)
 - [TcchSquad/CVE-2024-36991-Tool](https://github.com/TcchSquad/CVE-2024-36991-Tool)
 - [gunzf0x/CVE-2024-36991](https://github.com/gunzf0x/CVE-2024-36991)
+- [xploitnik/CVE-2024-36991-modified](https://github.com/xploitnik/CVE-2024-36991-modified)
 
 ### CVE-2024-37032 (2024-05-31)
 
@@ -11646,6 +11649,13 @@
 </code>
 
 - [AmirWhiteHat/CVE-2023-3124](https://github.com/AmirWhiteHat/CVE-2023-3124)
+
+### CVE-2023-3128 (2023-06-22)
+
+<code>Grafana is validating Azure AD accounts based on the email claim. \n\nOn Azure AD, the profile email field is not unique and can be easily modified. \n\nThis leads to account takeover and authentication bypass when Azure AD OAuth is configured with a multi-tenant app.
+</code>
+
+- [spyata123/CVE-2023-3128](https://github.com/spyata123/CVE-2023-3128)
 
 ### CVE-2023-3163 (2023-06-08)
 
@@ -15988,6 +15998,13 @@
 
 - [Chocapikk/CVE-2023-35082](https://github.com/Chocapikk/CVE-2023-35082)
 
+### CVE-2023-35085 (2023-08-10)
+
+<code>An integer overflow vulnerability in all UniFi Access Points and Switches, excluding the Switch Flex Mini, with SNMP Monitoring and default settings enabled could allow a Remote Code Execution (RCE).\n\n \n\nAffected Products:\nAll UniFi Access Points (Version 6.5.50 and earlier)\nAll UniFi Switches (Version 6.5.32 and earlier) \n-USW Flex Mini excluded.\n \n\nMitigation:\nUpdate UniFi Access Points to Version 6.5.62 or later.\nUpdate the UniFi Switches to Version 6.5.59 or later.
+</code>
+
+- [maoruiQa/CVE-2023-35085-POC-EXP](https://github.com/maoruiQa/CVE-2023-35085-POC-EXP)
+
 ### CVE-2023-35086 (2023-07-21)
 
 <code>\nIt is identified a format string vulnerability in ASUS RT-AX56U V2 &amp; RT-AC86U. This vulnerability is caused by directly using input as a format string when calling syslog in logmessage_normal function, in the do_detwan_cgi module of httpd. A remote attacker with administrator privilege can exploit this vulnerability to perform remote arbitrary code execution, arbitrary system operation or disrupt service.\n\nThis issue affects RT-AX56U V2: 3.0.0.4.386_50460; RT-AC86U: 3.0.0.4_386_51529.\n\n
@@ -18648,6 +18665,7 @@
 </code>
 
 - [bipbopbup/CVE-2023-46818-python-exploit](https://github.com/bipbopbup/CVE-2023-46818-python-exploit)
+- [blindma1den/CVE-2023-46818-Exploit](https://github.com/blindma1den/CVE-2023-46818-Exploit)
 
 ### CVE-2023-46865 (2023-10-30)
 
@@ -27773,10 +27791,8 @@
 <code>A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
 </code>
 
-- [ryaagard/CVE-2021-4034](https://github.com/ryaagard/CVE-2021-4034)
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [clubby789/CVE-2021-4034](https://github.com/clubby789/CVE-2021-4034)
-- [gbrsh/CVE-2021-4034](https://github.com/gbrsh/CVE-2021-4034)
 - [arthepsy/CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034)
 - [JohnHammond/CVE-2021-4034](https://github.com/JohnHammond/CVE-2021-4034)
 - [Audiobahn/CVE-2021-4034](https://github.com/Audiobahn/CVE-2021-4034)
@@ -27936,6 +27952,8 @@
 - [dh4r4/PwnKit-CVE-2021-4034-](https://github.com/dh4r4/PwnKit-CVE-2021-4034-)
 - [12bijaya/CVE-2021-4034-PwnKit-](https://github.com/12bijaya/CVE-2021-4034-PwnKit-)
 - [nagorealbisu/CVE-2021-4034](https://github.com/nagorealbisu/CVE-2021-4034)
+- [igonzalez357/CVE-2021-4034-PwnKit-](https://github.com/igonzalez357/CVE-2021-4034-PwnKit-)
+- [marcosChoucino/CVE-2021-4034](https://github.com/marcosChoucino/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
