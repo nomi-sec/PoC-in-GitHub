@@ -598,6 +598,7 @@
 - [f8l124/CVE-2025-24813-POC](https://github.com/f8l124/CVE-2025-24813-POC)
 - [Franconyu/Poc_for_CVE-2025-24813](https://github.com/Franconyu/Poc_for_CVE-2025-24813)
 - [Mattb709/CVE-2025-24813-PoC-Apache-Tomcat-RCE](https://github.com/Mattb709/CVE-2025-24813-PoC-Apache-Tomcat-RCE)
+- [Mattb709/CVE-2025-24813-Scanner](https://github.com/Mattb709/CVE-2025-24813-Scanner)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -906,6 +907,7 @@
 </code>
 
 - [NightBloodz/moodleTestingEnv](https://github.com/NightBloodz/moodleTestingEnv)
+- [Astroo18/PoC-CVE-2025-26529](https://github.com/Astroo18/PoC-CVE-2025-26529)
 
 ### CVE-2025-26633 (2025-03-11)
 
@@ -1077,7 +1079,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
-- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [0x0Luk/0xMiddleware](https://github.com/0x0Luk/0xMiddleware)
@@ -3161,6 +3162,13 @@
 
 - [bi-zone/CVE-2024-7965](https://github.com/bi-zone/CVE-2024-7965)
 - [XiaomingX/cve-2024-7965-poc](https://github.com/XiaomingX/cve-2024-7965-poc)
+
+### CVE-2024-7971 (2024-08-21)
+
+<code>Type confusion in V8 in Google Chrome prior to 128.0.6613.84 allowed a remote attacker to exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [mistymntncop/CVE-2024-7971](https://github.com/mistymntncop/CVE-2024-7971)
 
 ### CVE-2024-7985 (2024-10-29)
 
@@ -21736,6 +21744,7 @@
 - [jakabakos/CVE-2022-22965-Spring4Shell](https://github.com/jakabakos/CVE-2022-22965-Spring4Shell)
 - [sohamsharma966/Spring4Shell-CVE-2022-22965](https://github.com/sohamsharma966/Spring4Shell-CVE-2022-22965)
 - [LucasPDiniz/CVE-2022-22965](https://github.com/LucasPDiniz/CVE-2022-22965)
+- [ESSAFAR/Firewall-Rules](https://github.com/ESSAFAR/Firewall-Rules)
 - [xsxtw/SpringFramework_CVE-2022-22965_RCE](https://github.com/xsxtw/SpringFramework_CVE-2022-22965_RCE)
 - [Aur3ns/Block-Spring4Shell](https://github.com/Aur3ns/Block-Spring4Shell)
 - [guigui237/Expoitation-de-la-vuln-rabilit-CVE-2022-22965](https://github.com/guigui237/Expoitation-de-la-vuln-rabilit-CVE-2022-22965)
@@ -25071,7 +25080,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -51750,7 +51758,6 @@
 - [TheRealCiscoo/Shellshock-Exploit](https://github.com/TheRealCiscoo/Shellshock-Exploit)
 - [RadYio/CVE-2014-6271](https://github.com/RadYio/CVE-2014-6271)
 - [YunchoHang/CVE-2014-6271-SHELLSHOCK](https://github.com/YunchoHang/CVE-2014-6271-SHELLSHOCK)
-- [Isidoro4-kor/bash-CVE-2014-6271](https://github.com/Isidoro4-kor/bash-CVE-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
 
