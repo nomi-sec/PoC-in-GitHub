@@ -1104,6 +1104,7 @@
 - [pickovven/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/pickovven/vulnerable-nextjs-14-CVE-2025-29927)
 - [l1uk/nextjs-middleware-exploit](https://github.com/l1uk/nextjs-middleware-exploit)
 - [darklotuskdb/nextjs-CVE-2025-29927-hunter](https://github.com/darklotuskdb/nextjs-CVE-2025-29927-hunter)
+- [ethanol1310/POC-CVE-2025-29927-](https://github.com/ethanol1310/POC-CVE-2025-29927-)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -10215,6 +10216,9 @@
 
 - [Safecloudth/CVE-2024-53522](https://github.com/Safecloudth/CVE-2024-53522)
 
+### CVE-2024-53591
+- [aljoharasubaie/CVE-2024-53591](https://github.com/aljoharasubaie/CVE-2024-53591)
+
 ### CVE-2024-53615 (2025-01-30)
 
 <code>A command injection vulnerability in the video thumbnail rendering component of Karl Ward's files.gallery v0.3.0 through 0.11.0 allows remote attackers to execute arbitrary code via a crafted video file.
@@ -18356,6 +18360,7 @@
 - [killercd/CVE-2023-45878](https://github.com/killercd/CVE-2023-45878)
 - [0xyy66/CVE-2023-45878_to_RCE](https://github.com/0xyy66/CVE-2023-45878_to_RCE)
 - [davidzzo23/CVE-2023-45878](https://github.com/davidzzo23/CVE-2023-45878)
+- [Can0I0Ever0Enter/CVE-2023-45878](https://github.com/Can0I0Ever0Enter/CVE-2023-45878)
 
 ### CVE-2023-45966 (2023-10-23)
 
@@ -27784,7 +27789,6 @@
 - [ayypril/CVE-2021-4034](https://github.com/ayypril/CVE-2021-4034)
 - [wongwaituck/CVE-2021-4034](https://github.com/wongwaituck/CVE-2021-4034)
 - [0x05a/my-cve-2021-4034-poc](https://github.com/0x05a/my-cve-2021-4034-poc)
-- [silocityit/cve-2021-4034-playground](https://github.com/silocityit/cve-2021-4034-playground)
 - [zhzyker/CVE-2021-4034](https://github.com/zhzyker/CVE-2021-4034)
 - [J0hnbX/CVE-2021-4034-new](https://github.com/J0hnbX/CVE-2021-4034-new)
 - [Immersive-Labs-Sec/CVE-2021-4034](https://github.com/Immersive-Labs-Sec/CVE-2021-4034)
@@ -27931,6 +27935,7 @@
 - [EuJin03/CVE-2021-4034-PoC](https://github.com/EuJin03/CVE-2021-4034-PoC)
 - [dh4r4/PwnKit-CVE-2021-4034-](https://github.com/dh4r4/PwnKit-CVE-2021-4034-)
 - [12bijaya/CVE-2021-4034-PwnKit-](https://github.com/12bijaya/CVE-2021-4034-PwnKit-)
+- [nagorealbisu/CVE-2021-4034](https://github.com/nagorealbisu/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
