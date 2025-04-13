@@ -7563,7 +7563,6 @@
 - [jaytiwari05/CVE-2024-36991](https://github.com/jaytiwari05/CVE-2024-36991)
 - [TcchSquad/CVE-2024-36991-Tool](https://github.com/TcchSquad/CVE-2024-36991-Tool)
 - [gunzf0x/CVE-2024-36991](https://github.com/gunzf0x/CVE-2024-36991)
-- [xploitnik/CVE-2024-36991-modified](https://github.com/xploitnik/CVE-2024-36991-modified)
 
 ### CVE-2024-37032 (2024-05-31)
 
@@ -45667,6 +45666,7 @@
 - [VitoBonetti/CVE-2018-16763](https://github.com/VitoBonetti/CVE-2018-16763)
 - [saccles/CVE_2018_16763_Proof_of_Concept](https://github.com/saccles/CVE_2018_16763_Proof_of_Concept)
 - [altsun/CVE-2018-16763-FuelCMS-1.4.1-RCE](https://github.com/altsun/CVE-2018-16763-FuelCMS-1.4.1-RCE)
+- [ArtemCyberLab/Project-Exploiting-a-Vulnerability-in-Fuel-CMS-CVE-2018-16763-](https://github.com/ArtemCyberLab/Project-Exploiting-a-Vulnerability-in-Fuel-CMS-CVE-2018-16763-)
 
 ### CVE-2018-16809 (2019-03-07)
 
