@@ -231,7 +231,11 @@
 
 - [McTavishSue/CVE-2025-2476](https://github.com/McTavishSue/CVE-2025-2476)
 
-### CVE-2025-2563
+### CVE-2025-2563 (2025-04-14)
+
+<code>The User Registration &amp; Membership  WordPress plugin before 4.1.2 does not prevent users to set their account role when the Membership Addon is enabled, leading to a privilege escalation issue and allowing unauthenticated users to gain admin privileges
+</code>
+
 - [ubaydev/CVE-2025-2563](https://github.com/ubaydev/CVE-2025-2563)
 
 ### CVE-2025-2594
@@ -283,6 +287,7 @@
 </code>
 
 - [xxmarcosrobertoxx/vanda-CVE-2025-3102](https://github.com/xxmarcosrobertoxx/vanda-CVE-2025-3102)
+- [Nxploited/CVE-2025-3102](https://github.com/Nxploited/CVE-2025-3102)
 
 ### CVE-2025-3248 (2025-04-07)
 
@@ -532,13 +537,6 @@
 </code>
 
 - [McTavishSue/CVE-2025-24200](https://github.com/McTavishSue/CVE-2025-24200)
-
-### CVE-2025-24221 (2025-03-31)
-
-<code>This issue was addressed with improved data access restriction. This issue is fixed in visionOS 2.4, iOS 18.4 and iPadOS 18.4, iPadOS 17.7.6. Sensitive keychain data may be accessible from an iOS backup.
-</code>
-
-- [AnonymousDeveloper69/CVE-2025-24221](https://github.com/AnonymousDeveloper69/CVE-2025-24221)
 
 ### CVE-2025-24587 (2025-01-24)
 
@@ -10916,14 +10914,14 @@
 <code>An issue in Kanaries Inc Pygwalker before v.0.4.9.9 allows a remote attacker to obtain sensitive information and execute arbitrary code via the redirect_path parameter of the login redirection function.
 </code>
 
-- [H3T76/CVE-2024-57609](https://github.com/H3T76/CVE-2024-57609)
+- [str4ng3r-0x7/CVE-2024-57609](https://github.com/str4ng3r-0x7/CVE-2024-57609)
 
 ### CVE-2024-57610 (2025-02-06)
 
 <code>A rate limiting issue in Sylius v2.0.2 allows a remote attacker to perform unrestricted brute-force attacks on user accounts, significantly increasing the risk of account compromise and denial of service for legitimate users. The Supplier's position is that the Sylius core software is not intended to address brute-force attacks; instead, customers deploying a Sylius-based system are supposed to use &quot;firewalls, rate-limiting middleware, or authentication providers&quot; for that functionality.
 </code>
 
-- [H3T76/CVE-2024-57610](https://github.com/H3T76/CVE-2024-57610)
+- [str4ng3r-0x7/CVE-2024-57610](https://github.com/str4ng3r-0x7/CVE-2024-57610)
 
 ### CVE-2024-57725 (2025-02-14)
 
@@ -27796,7 +27794,6 @@
 
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [arthepsy/CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034)
-- [Audiobahn/CVE-2021-4034](https://github.com/Audiobahn/CVE-2021-4034)
 - [dzonerzy/poc-cve-2021-4034](https://github.com/dzonerzy/poc-cve-2021-4034)
 - [nikaiw/CVE-2021-4034](https://github.com/nikaiw/CVE-2021-4034)
 - [mebeim/CVE-2021-4034](https://github.com/mebeim/CVE-2021-4034)
@@ -27956,6 +27953,7 @@
 - [igonzalez357/CVE-2021-4034-PwnKit-](https://github.com/igonzalez357/CVE-2021-4034-PwnKit-)
 - [marcosChoucino/CVE-2021-4034](https://github.com/marcosChoucino/CVE-2021-4034)
 - [ikerSandoval003/CVE-2021-4034](https://github.com/ikerSandoval003/CVE-2021-4034)
+- [AsierEgana/cve-2021-4034](https://github.com/AsierEgana/cve-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
