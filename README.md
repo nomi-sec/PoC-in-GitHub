@@ -286,8 +286,9 @@
 <code>The SureTriggers: All-in-One Automation Platform plugin for WordPress is vulnerable to an authentication bypass leading to administrative account creation due to a missing empty value check on the 'secret_key' value in the 'autheticate_user' function in all versions up to, and including, 1.0.78. This makes it possible for unauthenticated attackers to create administrator accounts on the target website when the plugin is installed and activated but not configured with an API key.
 </code>
 
-- [xxmarcosrobertoxx/vanda-CVE-2025-3102](https://github.com/xxmarcosrobertoxx/vanda-CVE-2025-3102)
+- [itsismarcos/vanda-CVE-2025-3102](https://github.com/itsismarcos/vanda-CVE-2025-3102)
 - [Nxploited/CVE-2025-3102](https://github.com/Nxploited/CVE-2025-3102)
+- [rhz0d/CVE-2025-3102](https://github.com/rhz0d/CVE-2025-3102)
 
 ### CVE-2025-3248 (2025-04-07)
 
@@ -1274,6 +1275,13 @@
 </code>
 
 - [Nxploited/CVE-2025-32206](https://github.com/Nxploited/CVE-2025-32206)
+
+### CVE-2025-32579 (2025-04-11)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in SoftClever Limited Sync Posts allows Upload a Web Shell to a Web Server. This issue affects Sync Posts: from n/a through 1.0.
+</code>
+
+- [Nxploited/CVE-2025-32579](https://github.com/Nxploited/CVE-2025-32579)
 
 ### CVE-2025-32641 (2025-04-09)
 
@@ -15299,6 +15307,7 @@
 - [K3ysTr0K3R/CVE-2023-32315-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-32315-EXPLOIT)
 - [bryanqb07/CVE-2023-32315](https://github.com/bryanqb07/CVE-2023-32315)
 - [asepsaepdin/CVE-2023-32315](https://github.com/asepsaepdin/CVE-2023-32315)
+- [pulentoski/Explotaci-n-de-CVE-2023-32315-en-Openfire](https://github.com/pulentoski/Explotaci-n-de-CVE-2023-32315-en-Openfire)
 
 ### CVE-2023-32353 (2023-06-23)
 
@@ -17064,6 +17073,7 @@
 - [godylockz/CVE-2023-40028](https://github.com/godylockz/CVE-2023-40028)
 - [rehan6658/CVE-2023-40028](https://github.com/rehan6658/CVE-2023-40028)
 - [syogod/CVE-2023-40028](https://github.com/syogod/CVE-2023-40028)
+- [buutt3rf1y/CVE-2023-40028](https://github.com/buutt3rf1y/CVE-2023-40028)
 
 ### CVE-2023-40029 (2023-09-07)
 
@@ -27795,12 +27805,10 @@
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [arthepsy/CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034)
 - [dzonerzy/poc-cve-2021-4034](https://github.com/dzonerzy/poc-cve-2021-4034)
-- [nikaiw/CVE-2021-4034](https://github.com/nikaiw/CVE-2021-4034)
 - [mebeim/CVE-2021-4034](https://github.com/mebeim/CVE-2021-4034)
 - [Ayrx/CVE-2021-4034](https://github.com/Ayrx/CVE-2021-4034)
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
 - [An00bRektn/CVE-2021-4034](https://github.com/An00bRektn/CVE-2021-4034)
-- [ayypril/CVE-2021-4034](https://github.com/ayypril/CVE-2021-4034)
 - [wongwaituck/CVE-2021-4034](https://github.com/wongwaituck/CVE-2021-4034)
 - [0x05a/my-cve-2021-4034-poc](https://github.com/0x05a/my-cve-2021-4034-poc)
 - [zhzyker/CVE-2021-4034](https://github.com/zhzyker/CVE-2021-4034)
@@ -31743,6 +31751,7 @@
 - [Vanshuk-Bhagat/Apache-HTTP-Server-Vulnerabilities-CVE-2021-41773-and-CVE-2021-42013](https://github.com/Vanshuk-Bhagat/Apache-HTTP-Server-Vulnerabilities-CVE-2021-41773-and-CVE-2021-42013)
 - [javaamo/CVE-2021-41773](https://github.com/javaamo/CVE-2021-41773)
 - [ashique-thaha/CVE-2021-41773-POC](https://github.com/ashique-thaha/CVE-2021-41773-POC)
+- [khaidtraivch/CVE-2021-41773-Apache-2.4.49-](https://github.com/khaidtraivch/CVE-2021-41773-Apache-2.4.49-)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -32883,6 +32892,7 @@
 - [qw3rtyou/CVE-2021-44228_dockernize](https://github.com/qw3rtyou/CVE-2021-44228_dockernize)
 - [yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-](https://github.com/yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-)
 - [mr-won/Log4shell](https://github.com/mr-won/Log4shell)
+- [khaidtraivch/CVE-2021-44228-Log4Shell-](https://github.com/khaidtraivch/CVE-2021-44228-Log4Shell-)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -36568,6 +36578,13 @@
 - [yaunsky/CVE-2020-13937](https://github.com/yaunsky/CVE-2020-13937)
 - [Al1ex/CVE-2020-13937](https://github.com/Al1ex/CVE-2020-13937)
 - [kailing0220/CVE-2020-13937](https://github.com/kailing0220/CVE-2020-13937)
+
+### CVE-2020-13941 (2020-08-17)
+
+<code>Reported in SOLR-14515 (private) and fixed in SOLR-14561 (public), released in Solr version 8.6.0. The Replication handler (https://lucene.apache.org/solr/guide/8_6/index-replication.html#http-api-commands-for-the-replicationhandler) allows commands backup, restore and deleteBackup. Each of these take a location parameter, which was not validated, i.e you could read/write to any location the solr user can access.
+</code>
+
+- [mbadanoiu/CVE-2020-13941](https://github.com/mbadanoiu/CVE-2020-13941)
 
 ### CVE-2020-13942 (2020-11-24)
 
@@ -52864,6 +52881,7 @@
 - [vedpakhare/vsftpd-234-vuln-report](https://github.com/vedpakhare/vsftpd-234-vuln-report)
 - [madanokr001/CVE-2011-2523](https://github.com/madanokr001/CVE-2011-2523)
 - [sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523)
+- [JohanMV/explotacion-vsftpd-nmap_Laboratorio_1](https://github.com/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1)
 
 ### CVE-2011-2894 (2011-10-04)
 
