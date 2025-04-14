@@ -2391,6 +2391,7 @@
 - [elamani-drawing/CVE-2024-4367-POC-PDFJS](https://github.com/elamani-drawing/CVE-2024-4367-POC-PDFJS)
 - [VVeakee/CVE-2024-4367](https://github.com/VVeakee/CVE-2024-4367)
 - [BektiHandoyo/cve-pdf-host](https://github.com/BektiHandoyo/cve-pdf-host)
+- [Bhavyakcwestern/Hacking-pdf.js-vulnerability](https://github.com/Bhavyakcwestern/Hacking-pdf.js-vulnerability)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -18666,6 +18667,7 @@
 
 - [bipbopbup/CVE-2023-46818-python-exploit](https://github.com/bipbopbup/CVE-2023-46818-python-exploit)
 - [blindma1den/CVE-2023-46818-Exploit](https://github.com/blindma1den/CVE-2023-46818-Exploit)
+- [ajdumanhug/CVE-2023-46818](https://github.com/ajdumanhug/CVE-2023-46818)
 
 ### CVE-2023-46865 (2023-10-30)
 
@@ -27792,9 +27794,7 @@
 </code>
 
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
-- [clubby789/CVE-2021-4034](https://github.com/clubby789/CVE-2021-4034)
 - [arthepsy/CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034)
-- [JohnHammond/CVE-2021-4034](https://github.com/JohnHammond/CVE-2021-4034)
 - [Audiobahn/CVE-2021-4034](https://github.com/Audiobahn/CVE-2021-4034)
 - [dzonerzy/poc-cve-2021-4034](https://github.com/dzonerzy/poc-cve-2021-4034)
 - [nikaiw/CVE-2021-4034](https://github.com/nikaiw/CVE-2021-4034)
@@ -27954,6 +27954,7 @@
 - [nagorealbisu/CVE-2021-4034](https://github.com/nagorealbisu/CVE-2021-4034)
 - [igonzalez357/CVE-2021-4034-PwnKit-](https://github.com/igonzalez357/CVE-2021-4034-PwnKit-)
 - [marcosChoucino/CVE-2021-4034](https://github.com/marcosChoucino/CVE-2021-4034)
+- [ikerSandoval003/CVE-2021-4034](https://github.com/ikerSandoval003/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
