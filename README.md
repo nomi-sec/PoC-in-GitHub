@@ -7910,6 +7910,7 @@
 - [Galaxy-system/cve-2024-38816](https://github.com/Galaxy-system/cve-2024-38816)
 - [Anthony1078/App-vulnerable](https://github.com/Anthony1078/App-vulnerable)
 - [wdragondragon/spring-framework](https://github.com/wdragondragon/spring-framework)
+- [jaloon/spring-webmvc5](https://github.com/jaloon/spring-webmvc5)
 
 ### CVE-2024-38819 (2024-12-19)
 
@@ -8362,7 +8363,7 @@
 <code>A cross-site scripting (XSS) vulnerability in Process Maker pm4core-docker 4.1.21-RC7 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Name parameter.
 </code>
 
-- [php-lover-boy/CVE-2024-41453_CVE-2024-41454](https://github.com/php-lover-boy/CVE-2024-41453_CVE-2024-41454)
+- [code5ecure/CVE-2024-41453_CVE-2024-41454](https://github.com/code5ecure/CVE-2024-41453_CVE-2024-41454)
 
 ### CVE-2024-41570 (2024-08-09)
 
@@ -11911,7 +11912,6 @@
 - [MikeyPPPPPPPP/CVE-2023-4220](https://github.com/MikeyPPPPPPPP/CVE-2023-4220)
 - [Pr1or95/CVE-2023-4220-exploit](https://github.com/Pr1or95/CVE-2023-4220-exploit)
 - [zora-beep/CVE-2023-4220](https://github.com/zora-beep/CVE-2023-4220)
-- [insomnia-jacob/CVE-2023-4220](https://github.com/insomnia-jacob/CVE-2023-4220)
 
 ### CVE-2023-4226 (2023-11-28)
 
@@ -14196,6 +14196,7 @@
 - [ASG-CASTLE/CVE-2023-27350](https://github.com/ASG-CASTLE/CVE-2023-27350)
 - [rasan2001/CVE-2023-27350-Ongoing-Exploitation-of-PaperCut-Remote-Code-Execution-Vulnerability](https://github.com/rasan2001/CVE-2023-27350-Ongoing-Exploitation-of-PaperCut-Remote-Code-Execution-Vulnerability)
 - [monke443/CVE-2023-27350](https://github.com/monke443/CVE-2023-27350)
+- [0xB0y426/CVE-2023-27350-PoC](https://github.com/0xB0y426/CVE-2023-27350-PoC)
 
 ### CVE-2023-27363 (2024-05-03)
 
@@ -17376,7 +17377,6 @@
 - [0x0d3ad/CVE-2023-41425](https://github.com/0x0d3ad/CVE-2023-41425)
 - [xpltive/CVE-2023-41425](https://github.com/xpltive/CVE-2023-41425)
 - [KGorbakon/CVE-2023-41425](https://github.com/KGorbakon/CVE-2023-41425)
-- [insomnia-jacob/CVE-2023-41425](https://github.com/insomnia-jacob/CVE-2023-41425)
 
 ### CVE-2023-41436 (2023-09-15)
 
@@ -17629,6 +17629,7 @@
 - [FlojBoj/CVE-2023-42793](https://github.com/FlojBoj/CVE-2023-42793)
 - [SwiftSecur/teamcity-exploit-cve-2023-42793](https://github.com/SwiftSecur/teamcity-exploit-cve-2023-42793)
 - [becrevex/CVE-2023-42793](https://github.com/becrevex/CVE-2023-42793)
+- [jakehomb/cve-2023-42793](https://github.com/jakehomb/cve-2023-42793)
 
 ### CVE-2023-42819 (2023-09-26)
 
