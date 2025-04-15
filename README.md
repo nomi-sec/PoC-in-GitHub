@@ -431,7 +431,7 @@
 
 ### CVE-2025-22953 (2025-03-28)
 
-<code>A SQL injection vulnerability exists in the Epicor HCM 2021 1.9, specifically in the filter parameter of the JsonFetcher.svc endpoint. An attacker can exploit this vulnerability by injecting malicious SQL payloads into the filter parameter, enabling the unauthorized execution of arbitrary SQL commands on the backend database. If certain features (like xp_cmdshell) are enabled, this may lead to remote code execution.
+<code>A SQL injection vulnerability exists in Epicor HCM 2021 1.9, with patches available: 5.16.0.1033/HCM2022, 5.17.0.1146/HCM2023, and 5.18.0.573/HCM2024. The injection is specifically in the filter parameter of the JsonFetcher.svc endpoint. An attacker can exploit this vulnerability by injecting malicious SQL payloads into the filter parameter, enabling the unauthorized execution of arbitrary SQL commands on the backend database. If certain features (like xp_cmdshell) are enabled, this may lead to remote code execution.
 </code>
 
 - [maliktawfiq/CVE-2025-22953](https://github.com/maliktawfiq/CVE-2025-22953)
@@ -501,6 +501,7 @@
 - [huseyinstif/CVE-2025-24016-Nuclei-Template](https://github.com/huseyinstif/CVE-2025-24016-Nuclei-Template)
 - [0xjessie21/CVE-2025-24016](https://github.com/0xjessie21/CVE-2025-24016)
 - [MuhammadWaseem29/CVE-2025-24016](https://github.com/MuhammadWaseem29/CVE-2025-24016)
+- [celsius026/poc_CVE-2025-24016](https://github.com/celsius026/poc_CVE-2025-24016)
 
 ### CVE-2025-24071 (2025-03-11)
 
@@ -1021,8 +1022,15 @@
 ### CVE-2025-29602
 - [harish0x/CVE-2025-29602](https://github.com/harish0x/CVE-2025-29602)
 
-### CVE-2025-29705
+### CVE-2025-29705 (2025-04-15)
+
+<code>code-gen &lt;=2.0.6 is vulnerable to Incorrect Access Control. The project does not have permission control allowing anyone to access such projects.
+</code>
+
 - [yxzrw/CVE-2025-29705](https://github.com/yxzrw/CVE-2025-29705)
+
+### CVE-2025-29722
+- [cypherdavy/CVE-2025-29722](https://github.com/cypherdavy/CVE-2025-29722)
 
 ### CVE-2025-29810 (2025-04-08)
 
@@ -3881,11 +3889,7 @@
 
 - [unknown-user-from/CVE-2024-11003-PoC](https://github.com/unknown-user-from/CVE-2024-11003-PoC)
 
-### CVE-2024-11040 (2025-03-20)
-
-<code>vllm-project vllm version 0.5.2.2 is vulnerable to Denial of Service attacks. The issue occurs in the 'POST /v1/completions' and 'POST /v1/embeddings' endpoints. For 'POST /v1/completions', enabling 'use_beam_search' and setting 'best_of' to a high value causes the HTTP connection to time out, with vllm ceasing effective work and the request remaining in a 'pending' state, blocking new completion requests. For 'POST /v1/embeddings', supplying invalid inputs to the JSON object causes an issue in the background loop, resulting in all further completion requests returning a 500 HTTP error code ('Internal Server Error') until vllm is restarted.
-</code>
-
+### CVE-2024-11040
 - [gothburz/CVE-2024-11040](https://github.com/gothburz/CVE-2024-11040)
 
 ### CVE-2024-11042 (2025-03-20)
@@ -7390,7 +7394,7 @@
 - [varwara/CVE-2024-35250](https://github.com/varwara/CVE-2024-35250)
 - [ro0tmylove/CVE-2024-35250-BOF](https://github.com/ro0tmylove/CVE-2024-35250-BOF)
 - [yinsel/CVE-2024-35250-BOF](https://github.com/yinsel/CVE-2024-35250-BOF)
-- [Brentlyw/GiveMeKernel](https://github.com/Brentlyw/GiveMeKernel)
+- [0xROOTPLS/GiveMeKernel](https://github.com/0xROOTPLS/GiveMeKernel)
 
 ### CVE-2024-35286 (2024-10-21)
 
@@ -7550,7 +7554,11 @@
 
 - [theexploiters/CVE-2024-36840-Exploit](https://github.com/theexploiters/CVE-2024-36840-Exploit)
 
-### CVE-2024-36842
+### CVE-2024-36842 (2025-04-15)
+
+<code>An issue in Oncord+ Android Infotainment Systems OS Android 12, Model Hardware TS17,Hardware part Number F57L_V3.2_20220301, and Build Number PlatformVER:K24-2023/05/09-v0.01 allows a remote attacker to execute arbitrary code via the ADB port component.
+</code>
+
 - [abbiy/CVE-2024-36842-Backdooring-Oncord-Android-Sterio-](https://github.com/abbiy/CVE-2024-36842-Backdooring-Oncord-Android-Sterio-)
 
 ### CVE-2024-36877 (2024-08-12)
@@ -7776,7 +7784,7 @@
 - [AliHj98/cve-2024-38063-Anonyvader](https://github.com/AliHj98/cve-2024-38063-Anonyvader)
 - [Dragkob/CVE-2024-38063](https://github.com/Dragkob/CVE-2024-38063)
 - [selenagomez25/CVE-2024-38063](https://github.com/selenagomez25/CVE-2024-38063)
-- [Laukage/Windows-CVE-2024-38063](https://github.com/Laukage/Windows-CVE-2024-38063)
+- [fredagsguf/Windows-CVE-2024-38063](https://github.com/fredagsguf/Windows-CVE-2024-38063)
 - [jip-0-0-0-0-0/CVE-2024-38063-scanner](https://github.com/jip-0-0-0-0-0/CVE-2024-38063-scanner)
 
 ### CVE-2024-38077 (2024-07-09)
@@ -10153,6 +10161,13 @@
 </code>
 
 - [d-xuan/CVE-2024-52510](https://github.com/d-xuan/CVE-2024-52510)
+
+### CVE-2024-52550 (2024-11-13)
+
+<code>Jenkins Pipeline: Groovy Plugin 3990.vd281dd77a_388 and earlier, except 3975.3977.v478dd9e956c3 does not check whether the main (Jenkinsfile) script for a rebuilt build is approved, allowing attackers with Item/Build permission to rebuild a previous build whose (Jenkinsfile) script is no longer approved.
+</code>
+
+- [Anton-ai111/CVE-2024-52550](https://github.com/Anton-ai111/CVE-2024-52550)
 
 ### CVE-2024-52711 (2024-11-19)
 
@@ -29446,7 +29461,11 @@
 
 - [fjh1997/CVE-2021-27285](https://github.com/fjh1997/CVE-2021-27285)
 
-### CVE-2021-27289
+### CVE-2021-27289 (2025-04-15)
+
+<code>A replay attack vulnerability was discovered in a Zigbee smart home kit manufactured by Ksix (Zigbee Gateway Module = v1.0.3, Door Sensor = v1.0.7, Motion Sensor = v1.0.12), where the Zigbee anti-replay mechanism - based on the frame counter field - is improperly implemented. As a result, an attacker within wireless range can resend captured packets with a higher sequence number, which the devices incorrectly accept as legitimate messages. This allows spoofed commands to be injected without authentication, triggering false alerts and misleading the user through notifications in the mobile application used to monitor the network.
+</code>
+
 - [TheMalwareGuardian/CVE-2021-27289](https://github.com/TheMalwareGuardian/CVE-2021-27289)
 
 ### CVE-2021-27328 (2021-02-19)
@@ -39676,7 +39695,7 @@
 </code>
 
 - [thehunt1s0n/Exihibitor-RCE](https://github.com/thehunt1s0n/Exihibitor-RCE)
-- [yZ1337/CVE-2019-5029](https://github.com/yZ1337/CVE-2019-5029)
+- [yZeetje/CVE-2019-5029](https://github.com/yZeetje/CVE-2019-5029)
 
 ### CVE-2019-5096 (2019-12-03)
 
@@ -40407,6 +40426,7 @@
 - [hf3cyber/CMS-Made-Simple-2.2.9-Unauthenticated-SQL-Injection-Exploit-CVE-2019-9053-](https://github.com/hf3cyber/CMS-Made-Simple-2.2.9-Unauthenticated-SQL-Injection-Exploit-CVE-2019-9053-)
 - [so1icitx/CVE-2019-9053](https://github.com/so1icitx/CVE-2019-9053)
 - [del0x3/CVE-2019-9053-port-py3](https://github.com/del0x3/CVE-2019-9053-port-py3)
+- [kaizoku73/CVE-2019-9053](https://github.com/kaizoku73/CVE-2019-9053)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
@@ -45513,7 +45533,7 @@
 - [GaboLC98/userenum-CVE-2018-15473](https://github.com/GaboLC98/userenum-CVE-2018-15473)
 - [4xolotl/CVE-2018-15473](https://github.com/4xolotl/CVE-2018-15473)
 - [NestyF/SSH_Enum_CVE-2018-15473](https://github.com/NestyF/SSH_Enum_CVE-2018-15473)
-- [yZ1337/CVE-2018-15473](https://github.com/yZ1337/CVE-2018-15473)
+- [yZeetje/CVE-2018-15473](https://github.com/yZeetje/CVE-2018-15473)
 - [MahdiOsman/CVE-2018-15473-SNMPv1-2-Community-String-Vulnerability-Testing](https://github.com/MahdiOsman/CVE-2018-15473-SNMPv1-2-Community-String-Vulnerability-Testing)
 - [SUDORM0X/PoC-CVE-2018-15473](https://github.com/SUDORM0X/PoC-CVE-2018-15473)
 - [OmarV4066/SSHEnumKL](https://github.com/OmarV4066/SSHEnumKL)
@@ -48236,7 +48256,7 @@
 - [LongWayHomie/CVE-2017-12617](https://github.com/LongWayHomie/CVE-2017-12617)
 - [K3ysTr0K3R/CVE-2017-12617-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-12617-EXPLOIT)
 - [scirusvulgaris/CVE-2017-12617](https://github.com/scirusvulgaris/CVE-2017-12617)
-- [yZ1337/CVE-2017-12617](https://github.com/yZ1337/CVE-2017-12617)
+- [yZeetje/CVE-2017-12617](https://github.com/yZeetje/CVE-2017-12617)
 - [DevaDJ/CVE-2017-12617](https://github.com/DevaDJ/CVE-2017-12617)
 
 ### CVE-2017-12624 (2017-11-14)
