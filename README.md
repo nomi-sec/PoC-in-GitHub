@@ -40406,6 +40406,7 @@
 - [Yzhacker/CVE-2019-9053-CMS46635-python3](https://github.com/Yzhacker/CVE-2019-9053-CMS46635-python3)
 - [hf3cyber/CMS-Made-Simple-2.2.9-Unauthenticated-SQL-Injection-Exploit-CVE-2019-9053-](https://github.com/hf3cyber/CMS-Made-Simple-2.2.9-Unauthenticated-SQL-Injection-Exploit-CVE-2019-9053-)
 - [so1icitx/CVE-2019-9053](https://github.com/so1icitx/CVE-2019-9053)
+- [del0x3/CVE-2019-9053-port-py3](https://github.com/del0x3/CVE-2019-9053-port-py3)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
