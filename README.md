@@ -1057,7 +1057,6 @@
 - [kuzushiki/CVE-2025-29927-test](https://github.com/kuzushiki/CVE-2025-29927-test)
 - [ricsirigu/CVE-2025-29927](https://github.com/ricsirigu/CVE-2025-29927)
 - [0xWhoknows/CVE-2025-29927](https://github.com/0xWhoknows/CVE-2025-29927)
-- [tobiasGuta/CVE-2025-29927-POC](https://github.com/tobiasGuta/CVE-2025-29927-POC)
 - [elshaheedy/CVE-2025-29927-Sigma-Rule](https://github.com/elshaheedy/CVE-2025-29927-Sigma-Rule)
 - [furmak331/CVE-2025-29927](https://github.com/furmak331/CVE-2025-29927)
 - [takumade/ghost-route](https://github.com/takumade/ghost-route)
@@ -1105,6 +1104,7 @@
 - [l1uk/nextjs-middleware-exploit](https://github.com/l1uk/nextjs-middleware-exploit)
 - [darklotuskdb/nextjs-CVE-2025-29927-hunter](https://github.com/darklotuskdb/nextjs-CVE-2025-29927-hunter)
 - [ethanol1310/POC-CVE-2025-29927-](https://github.com/ethanol1310/POC-CVE-2025-29927-)
+- [UNICORDev/exploit-CVE-2025-29927](https://github.com/UNICORDev/exploit-CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -7935,6 +7935,13 @@
 - [mouadk/cve-2024-38821](https://github.com/mouadk/cve-2024-38821)
 - [masa42/CVE-2024-38821-POC](https://github.com/masa42/CVE-2024-38821-POC)
 
+### CVE-2024-38828 (2024-11-18)
+
+<code>Spring MVC controller methods with an @RequestBody byte[] method parameter are vulnerable to a DoS attack.
+</code>
+
+- [First-Roman/sprig-mvc-demo-patch](https://github.com/First-Roman/sprig-mvc-demo-patch)
+
 ### CVE-2024-38856 (2024-08-05)
 
 <code>Incorrect Authorization vulnerability in Apache OFBiz.\n\nThis issue affects Apache OFBiz: through 18.12.14.\n\nUsers are recommended to upgrade to version 18.12.15, which fixes the issue.\n\nUnauthenticated endpoints could allow execution of screen rendering code of screens if some preconditions are met (such as when the screen definitions don't explicitly check user's permissions because they rely on the configuration of their endpoints).
@@ -10029,6 +10036,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-51818](https://github.com/RandomRobbieBF/CVE-2024-51818)
+
+### CVE-2024-51996 (2024-11-13)
+
+<code>Symphony process is a module for the Symphony PHP framework which executes commands in sub-processes. When consuming a persisted remember-me cookie, Symfony does not check if the username persisted in the database matches the username attached with the cookie, leading to authentication bypass. This vulnerability is fixed in 5.4.47, 6.4.15, and 7.1.8.
+</code>
+
+- [moften/CVE-2024-51996](https://github.com/moften/CVE-2024-51996)
 
 ### CVE-2024-52002 (2024-11-08)
 
@@ -15307,7 +15321,7 @@
 - [K3ysTr0K3R/CVE-2023-32315-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-32315-EXPLOIT)
 - [bryanqb07/CVE-2023-32315](https://github.com/bryanqb07/CVE-2023-32315)
 - [asepsaepdin/CVE-2023-32315](https://github.com/asepsaepdin/CVE-2023-32315)
-- [pulentoski/Explotaci-n-de-CVE-2023-32315-en-Openfire](https://github.com/pulentoski/Explotaci-n-de-CVE-2023-32315-en-Openfire)
+- [pulentoski/Explotacion-CVE-2023-32315-Openfire](https://github.com/pulentoski/Explotacion-CVE-2023-32315-Openfire)
 
 ### CVE-2023-32353 (2023-06-23)
 
@@ -18115,6 +18129,7 @@
 - [threatlabindonesia/CVE-2023-44487-HTTP-2-Rapid-Reset-Exploit-PoC](https://github.com/threatlabindonesia/CVE-2023-44487-HTTP-2-Rapid-Reset-Exploit-PoC)
 - [aulauniversal/CVE-2023-44487](https://github.com/aulauniversal/CVE-2023-44487)
 - [BMG-Black-Magic/CVE-2023-44487](https://github.com/BMG-Black-Magic/CVE-2023-44487)
+- [moften/CVE-2023-44487](https://github.com/moften/CVE-2023-44487)
 
 ### CVE-2023-44758 (2023-10-06)
 
@@ -27809,8 +27824,6 @@
 - [Ayrx/CVE-2021-4034](https://github.com/Ayrx/CVE-2021-4034)
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
 - [An00bRektn/CVE-2021-4034](https://github.com/An00bRektn/CVE-2021-4034)
-- [wongwaituck/CVE-2021-4034](https://github.com/wongwaituck/CVE-2021-4034)
-- [0x05a/my-cve-2021-4034-poc](https://github.com/0x05a/my-cve-2021-4034-poc)
 - [zhzyker/CVE-2021-4034](https://github.com/zhzyker/CVE-2021-4034)
 - [J0hnbX/CVE-2021-4034-new](https://github.com/J0hnbX/CVE-2021-4034-new)
 - [Immersive-Labs-Sec/CVE-2021-4034](https://github.com/Immersive-Labs-Sec/CVE-2021-4034)
@@ -28274,6 +28287,13 @@
 - [jiaocoll/CVE-2021-21402-Jellyfin](https://github.com/jiaocoll/CVE-2021-21402-Jellyfin)
 - [somatrasss/CVE-2021-21402](https://github.com/somatrasss/CVE-2021-21402)
 - [givemefivw/CVE-2021-21402](https://github.com/givemefivw/CVE-2021-21402)
+
+### CVE-2021-21424 (2021-05-13)
+
+<code>Symfony is a PHP framework for web and console applications and a set of reusable PHP components. The ability to enumerate users was possible without relevant permissions due to different handling depending on whether the user existed or not when attempting to use the switch users functionality. We now ensure that 403s are returned whether the user exists or not if a user cannot switch to a user or if the user does not exist. The patch for this issue is available for branch 3.4.
+</code>
+
+- [moften/CVE-2021-21424](https://github.com/moften/CVE-2021-21424)
 
 ### CVE-2021-21425 (2021-04-07)
 
@@ -31963,6 +31983,7 @@
 </code>
 
 - [simonecris/CVE-2021-42362-PoC](https://github.com/simonecris/CVE-2021-42362-PoC)
+- [samiba6/CVE-2021-42362](https://github.com/samiba6/CVE-2021-42362)
 
 ### CVE-2021-42558 (2022-01-12)
 
@@ -50474,7 +50495,7 @@
 <code>The server in IBM Tivoli Storage Manager FastBack 6.1 before 6.1.12 allows remote attackers to execute arbitrary commands via unspecified vectors, a different vulnerability than CVE-2015-1938.
 </code>
 
-- [3t3rn4lv01d/CVE-2015-1986](https://github.com/3t3rn4lv01d/CVE-2015-1986)
+- [MayaOfVeil/CVE-2015-1986](https://github.com/MayaOfVeil/CVE-2015-1986)
 
 ### CVE-2015-2153 (2015-03-24)
 
@@ -53743,7 +53764,7 @@
 <code>Buffer overflow in Stormy Studios Knet 1.04c and earlier allows remote attackers to cause a denial of service and possibly execute arbitrary code via a long HTTP GET request.
 </code>
 
-- [3t3rn4lv01d/CVE-2005-0575](https://github.com/3t3rn4lv01d/CVE-2005-0575)
+- [MayaOfVeil/CVE-2005-0575](https://github.com/MayaOfVeil/CVE-2005-0575)
 
 ### CVE-2005-0603 (2005-03-01)
 
