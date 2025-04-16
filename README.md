@@ -298,6 +298,7 @@
 
 - [xuemian168/CVE-2025-3248](https://github.com/xuemian168/CVE-2025-3248)
 - [PuddinCat/CVE-2025-3248-POC](https://github.com/PuddinCat/CVE-2025-3248-POC)
+- [verylazytech/CVE-2025-3248](https://github.com/verylazytech/CVE-2025-3248)
 
 ### CVE-2025-12654
 - [ThoristKaw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/ThoristKaw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
@@ -1228,6 +1229,13 @@
 
 - [DoTTak/CVE-2025-30921](https://github.com/DoTTak/CVE-2025-30921)
 
+### CVE-2025-30967 (2025-04-15)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in NotFound WPJobBoard allows Upload a Web Shell to a Web Server. This issue affects WPJobBoard: from n/a through n/a.
+</code>
+
+- [Anton-ai111/CVE-2025-30967](https://github.com/Anton-ai111/CVE-2025-30967)
+
 ### CVE-2025-31033 (2025-04-09)
 
 <code>Cross-Site Request Forgery (CSRF) vulnerability in Adam Nowak Buddypress Humanity allows Cross Site Request Forgery. This issue affects Buddypress Humanity: from n/a through 1.2.
@@ -1316,6 +1324,13 @@
 </code>
 
 - [Nxploited/CVE-2025-32641](https://github.com/Nxploited/CVE-2025-32641)
+
+### CVE-2025-39601 (2025-04-16)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in WPFactory Custom CSS, JS &amp; PHP allows Remote Code Inclusion. This issue affects Custom CSS, JS &amp; PHP: from n/a through 2.4.1.
+</code>
+
+- [Nxploited/CVE-2025-39601](https://github.com/Nxploited/CVE-2025-39601)
 
 ### CVE-2025-44228
 - [Kariaoston/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Kariaoston/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
@@ -2113,6 +2128,7 @@
 - [DANO-AMP/CVE-2024-3094](https://github.com/DANO-AMP/CVE-2024-3094)
 - [robertdfrench/ifuncd-up](https://github.com/robertdfrench/ifuncd-up)
 - [XiaomingX/cve-2024-3094-xz-backdoor-exploit](https://github.com/XiaomingX/cve-2024-3094-xz-backdoor-exploit)
+- [been22426/CVE-2024-3094](https://github.com/been22426/CVE-2024-3094)
 
 ### CVE-2024-3105 (2024-06-15)
 
@@ -10908,6 +10924,9 @@
 </code>
 
 - [cypherdavy/CVE-2024-57373](https://github.com/cypherdavy/CVE-2024-57373)
+
+### CVE-2024-57394
+- [cwjchoi01/CVE-2024-57394](https://github.com/cwjchoi01/CVE-2024-57394)
 
 ### CVE-2024-57427 (2025-02-06)
 
@@ -20091,7 +20110,7 @@
 - [jxpsx/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/jxpsx/CVE-2022-0847-DirtyPipe-Exploits)
 - [Asbatel/CBDS_CVE-2022-0847_POC](https://github.com/Asbatel/CBDS_CVE-2022-0847_POC)
 - [airbus-cert/dirtypipe-ebpf_detection](https://github.com/airbus-cert/dirtypipe-ebpf_detection)
-- [edr1412/Dirty-Pipe](https://github.com/edr1412/Dirty-Pipe)
+- [zzzchuu/Dirty-Pipe](https://github.com/zzzchuu/Dirty-Pipe)
 - [eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits)
 - [EagleTube/CVE-2022-0847](https://github.com/EagleTube/CVE-2022-0847)
 - [yoeelingBin/CVE-2022-0847-Container-Escape](https://github.com/yoeelingBin/CVE-2022-0847-Container-Escape)
@@ -45864,6 +45883,14 @@
 
 - [cved-sources/cve-2018-17207](https://github.com/cved-sources/cve-2018-17207)
 
+### CVE-2018-17229 (2018-09-19)
+
+<code>Exiv2::d2Data in types.cpp in Exiv2 v0.26 allows remote attackers to cause a denial of service (heap-based buffer overflow) via a crafted image file.
+</code>
+
+- [ZeeshanGondal0007/c-cpp_CVE-2018-17229](https://github.com/ZeeshanGondal0007/c-cpp_CVE-2018-17229)
+- [zeeshangondal/c-cpp_CVE-2018-17229](https://github.com/zeeshangondal/c-cpp_CVE-2018-17229)
+
 ### CVE-2018-17240 (2022-06-10)
 
 <code>There is a memory dump vulnerability on Netwave IP camera devices at //proc/kcore that allows an unauthenticated attacker to exfiltrate sensitive information from the network configuration (e.g., username and password).
@@ -51424,7 +51451,7 @@
 </code>
 
 - [landonf/Testability-CVE-2014-1266](https://github.com/landonf/Testability-CVE-2014-1266)
-- [linusyang/SSLPatch](https://github.com/linusyang/SSLPatch)
+- [macressler/SSLPatch](https://github.com/macressler/SSLPatch)
 - [gabrielg/CVE-2014-1266-poc](https://github.com/gabrielg/CVE-2014-1266-poc)
 - [meetlight942/PentesterLab-Intercept-CVE-2014-1266](https://github.com/meetlight942/PentesterLab-Intercept-CVE-2014-1266)
 
