@@ -1130,6 +1130,8 @@
 - [darklotuskdb/nextjs-CVE-2025-29927-hunter](https://github.com/darklotuskdb/nextjs-CVE-2025-29927-hunter)
 - [ethanol1310/POC-CVE-2025-29927-](https://github.com/ethanol1310/POC-CVE-2025-29927-)
 - [UNICORDev/exploit-CVE-2025-29927](https://github.com/UNICORDev/exploit-CVE-2025-29927)
+- [Knotsecurity/CVE-2025-29927-NextJs-Middleware-Simulation](https://github.com/Knotsecurity/CVE-2025-29927-NextJs-Middleware-Simulation)
+- [mhamzakhattak/CVE-2025-29927](https://github.com/mhamzakhattak/CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -33967,6 +33969,13 @@
 </code>
 
 - [james0x40/CVE-2020-0624](https://github.com/james0x40/CVE-2020-0624)
+
+### CVE-2020-0665 (2020-02-11)
+
+<code>An elevation of privilege vulnerability exists in Active Directory Forest trusts due to a default setting that lets an attacker in the trusting forest request delegation of a TGT for an identity from the trusted forest, aka 'Active Directory Elevation of Privilege Vulnerability'.
+</code>
+
+- [gunzf0x/CVE-2020-0665](https://github.com/gunzf0x/CVE-2020-0665)
 
 ### CVE-2020-0668 (2020-02-11)
 
