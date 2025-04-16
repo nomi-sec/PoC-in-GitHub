@@ -23200,7 +23200,7 @@
 <code>The web module in some Hikvision Hybrid SAN/Cluster Storage products have the following security vulnerability. Due to the insufficient input validation, attacker can exploit the vulnerability to execute restricted commands by sending messages with malicious commands to the affected device.
 </code>
 
-- [Sapphire2017/CVE-2022-28171-POC](https://github.com/Sapphire2017/CVE-2022-28171-POC)
+- [NyaMeeEain/CVE-2022-28171-POC](https://github.com/NyaMeeEain/CVE-2022-28171-POC)
 - [aengussong/hikvision_probe](https://github.com/aengussong/hikvision_probe)
 
 ### CVE-2022-28219 (2022-04-05)
@@ -34209,6 +34209,7 @@
 - [Iamgublin/CVE-2020-1054](https://github.com/Iamgublin/CVE-2020-1054)
 - [KaLendsi/CVE-2020-1054](https://github.com/KaLendsi/CVE-2020-1054)
 - [Graham382/CVE-2020-1054](https://github.com/Graham382/CVE-2020-1054)
+- [Naman2701B/CVE-2020-1054](https://github.com/Naman2701B/CVE-2020-1054)
 
 ### CVE-2020-1066 (2020-05-21)
 
@@ -50914,6 +50915,13 @@
 </code>
 
 - [mattimustang/firepwner](https://github.com/mattimustang/firepwner)
+
+### CVE-2015-6420 (2015-12-15)
+
+<code>Serialized-object interfaces in certain Cisco Collaboration and Social Media; Endpoint Clients and Client Software; Network Application, Service, and Acceleration; Network and Content Security Devices; Network Management and Provisioning; Routing and Switching - Enterprise and Service Provider; Unified Computing; Voice and Unified Communications Devices; Video, Streaming, TelePresence, and Transcoding Devices; Wireless; and Cisco Hosted Services products allow remote attackers to execute arbitrary commands via a crafted serialized Java object, related to the Apache Commons Collections (ACC) library.
+</code>
+
+- [Leeziao/CVE-2015-6420](https://github.com/Leeziao/CVE-2015-6420)
 
 ### CVE-2015-6576 (2017-10-02)
 
