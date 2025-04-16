@@ -223,6 +223,7 @@
 - [Nxploited/CVE-2025-2294](https://github.com/Nxploited/CVE-2025-2294)
 - [mrrivaldo/CVE-2025-2294](https://github.com/mrrivaldo/CVE-2025-2294)
 - [realcodeb0ss/CVE-2025-2294-PoC](https://github.com/realcodeb0ss/CVE-2025-2294-PoC)
+- [rhz0d/CVE-2025-2294](https://github.com/rhz0d/CVE-2025-2294)
 
 ### CVE-2025-2476 (2025-03-19)
 
@@ -1004,6 +1005,21 @@
 </code>
 
 - [b1tm4r/CVE-2025-29018](https://github.com/b1tm4r/CVE-2025-29018)
+
+### CVE-2025-29275
+- [0xBl4nk/CVE-2025-29275](https://github.com/0xBl4nk/CVE-2025-29275)
+
+### CVE-2025-29276
+- [0xBl4nk/CVE-2025-29276](https://github.com/0xBl4nk/CVE-2025-29276)
+
+### CVE-2025-29277
+- [0xBl4nk/CVE-2025-29277](https://github.com/0xBl4nk/CVE-2025-29277)
+
+### CVE-2025-29278
+- [0xBl4nk/CVE-2025-29278](https://github.com/0xBl4nk/CVE-2025-29278)
+
+### CVE-2025-29279
+- [0xBl4nk/CVE-2025-29279](https://github.com/0xBl4nk/CVE-2025-29279)
 
 ### CVE-2025-29306 (2025-03-27)
 
@@ -10544,6 +10560,9 @@
 
 - [ugurkarakoc1/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-](https://github.com/ugurkarakoc1/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-)
 
+### CVE-2024-55211
+- [micaelmaciel/CVE-2024-55211](https://github.com/micaelmaciel/CVE-2024-55211)
+
 ### CVE-2024-55215 (2025-02-07)
 
 <code>An issue in trojan v.2.0.0 through v.2.15.3 allows a remote attacker to escalate privileges via the initialization interface /auth/register.
@@ -18760,7 +18779,7 @@
 
 ### CVE-2023-46988 (2025-04-01)
 
-<code>Directory Traversal vulnerability in ONLYOFFICE Document Server v.7.5.0 and before allows a remote attacker to obtain sensitive information via a crafted file upload.
+<code>Path Traversal vulnerability in ONLYOFFICE Document Server before v8.0.1 allows a remote attacker to copy arbitrary files by manipulating the fileExt parameter in the /example/editor endpoint, leading to unauthorized access to sensitive files and potential Denial of Service (DoS).
 </code>
 
 - [mihat2/OnlyOffice-path-traversal](https://github.com/mihat2/OnlyOffice-path-traversal)
@@ -27847,6 +27866,7 @@
 - [Ayrx/CVE-2021-4034](https://github.com/Ayrx/CVE-2021-4034)
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
 - [An00bRektn/CVE-2021-4034](https://github.com/An00bRektn/CVE-2021-4034)
+- [0x05a/my-cve-2021-4034-poc](https://github.com/0x05a/my-cve-2021-4034-poc)
 - [zhzyker/CVE-2021-4034](https://github.com/zhzyker/CVE-2021-4034)
 - [J0hnbX/CVE-2021-4034-new](https://github.com/J0hnbX/CVE-2021-4034-new)
 - [Immersive-Labs-Sec/CVE-2021-4034](https://github.com/Immersive-Labs-Sec/CVE-2021-4034)
@@ -27910,7 +27930,6 @@
 - [Kirill89/CVE-2021-4034](https://github.com/Kirill89/CVE-2021-4034)
 - [qq224015/CVE-2021-4034](https://github.com/qq224015/CVE-2021-4034)
 - [NeonWhiteRabbit/CVE-2021-4034](https://github.com/NeonWhiteRabbit/CVE-2021-4034)
-- [glowbase/PwnKit-CVE-2021-4034](https://github.com/glowbase/PwnKit-CVE-2021-4034)
 - [sofire/polkit-0.96-CVE-2021-4034](https://github.com/sofire/polkit-0.96-CVE-2021-4034)
 - [codiobert/pwnkit-scanner](https://github.com/codiobert/pwnkit-scanner)
 - [v-rzh/CVE-2021-4034](https://github.com/v-rzh/CVE-2021-4034)
@@ -38594,13 +38613,6 @@
 - [H454NSec/CVE-2020-35391](https://github.com/H454NSec/CVE-2020-35391)
 - [4d000/Tenda-F3-V4](https://github.com/4d000/Tenda-F3-V4)
 
-### CVE-2020-35476 (2020-12-16)
-
-<code>A remote code execution vulnerability occurs in OpenTSDB through 2.4.0 via command injection in the yrange parameter. The yrange value is written to a gnuplot file in the /tmp directory. This file is then executed via the mygnuplot.sh shell script. (tsd/GraphHandler.java attempted to prevent command injections by blocking backticks but this is insufficient.)
-</code>
-
-- [glowbase/CVE-2020-35476](https://github.com/glowbase/CVE-2020-35476)
-
 ### CVE-2020-35488 (2021-01-05)
 
 <code>The fileop module of the NXLog service in NXLog Community Edition 2.10.2150 allows remote attackers to cause a denial of service (daemon crash) via a crafted Syslog payload to the Syslog service. This attack requires a specific configuration. Also, the name of the directory created must use a Syslog field. (For example, on Linux it is not possible to create a .. directory. On Windows, it is not possible to create a CON directory.)
@@ -40427,6 +40439,7 @@
 - [so1icitx/CVE-2019-9053](https://github.com/so1icitx/CVE-2019-9053)
 - [del0x3/CVE-2019-9053-port-py3](https://github.com/del0x3/CVE-2019-9053-port-py3)
 - [kaizoku73/CVE-2019-9053](https://github.com/kaizoku73/CVE-2019-9053)
+- [Hackheart-tech/-exploit-lab](https://github.com/Hackheart-tech/-exploit-lab)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
@@ -42707,7 +42720,6 @@
 - [D3m0nicw0lf/CVE-2019-19609](https://github.com/D3m0nicw0lf/CVE-2019-19609)
 - [n000xy/CVE-2019-19609-POC-Python](https://github.com/n000xy/CVE-2019-19609-POC-Python)
 - [RamPanic/CVE-2019-19609-EXPLOIT](https://github.com/RamPanic/CVE-2019-19609-EXPLOIT)
-- [glowbase/CVE-2019-19609](https://github.com/glowbase/CVE-2019-19609)
 
 ### CVE-2019-19633
 - [jra89/CVE-2019-19633](https://github.com/jra89/CVE-2019-19633)
