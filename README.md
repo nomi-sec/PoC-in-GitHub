@@ -563,7 +563,11 @@
 
 - [DoTTak/CVE-2025-24659](https://github.com/DoTTak/CVE-2025-24659)
 
-### CVE-2025-24752
+### CVE-2025-24752 (2025-04-17)
+
+<code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPDeveloper Essential Addons for Elementor allows Reflected XSS. This issue affects Essential Addons for Elementor: from n/a through 6.0.14.
+</code>
+
 - [Sachinart/essential-addons-for-elementor-xss-poc](https://github.com/Sachinart/essential-addons-for-elementor-xss-poc)
 - [bartfroklage/CVE-2025-24752-POC](https://github.com/bartfroklage/CVE-2025-24752-POC)
 
@@ -1010,7 +1014,11 @@
 - [Nxploited/CVE-2025-28915](https://github.com/Nxploited/CVE-2025-28915)
 - [Pei4AN/CVE-2025-28915](https://github.com/Pei4AN/CVE-2025-28915)
 
-### CVE-2025-29015
+### CVE-2025-29015 (2025-04-17)
+
+<code>Code Astro Internet Banking System 2.0.0 is vulnerable to Cross Site Scripting (XSS) via the name parameter in /admin/pages_account.php.
+</code>
+
 - [b1tm4r/CVE-2025-29015](https://github.com/b1tm4r/CVE-2025-29015)
 
 ### CVE-2025-29017 (2025-04-10)
@@ -1067,7 +1075,11 @@
 
 - [yxzrw/CVE-2025-29705](https://github.com/yxzrw/CVE-2025-29705)
 
-### CVE-2025-29722
+### CVE-2025-29722 (2025-04-17)
+
+<code>A CSRF vulnerability in Commercify v1.0 allows remote attackers to perform unauthorized actions on behalf of authenticated users. The issue exists due to missing CSRF protection on sensitive endpoints.
+</code>
+
 - [cypherdavy/CVE-2025-29722](https://github.com/cypherdavy/CVE-2025-29722)
 
 ### CVE-2025-29810 (2025-04-08)
@@ -1434,6 +1446,12 @@
 
 ### CVE-2025-4162030
 - [NotItsSixtyN3in/CVE-2025-4162030](https://github.com/NotItsSixtyN3in/CVE-2025-4162030)
+
+### CVE-2025-4172025
+- [NotItsSixtyN3in/CVE-2025-4172025](https://github.com/NotItsSixtyN3in/CVE-2025-4172025)
+
+### CVE-2025-4172026
+- [NotItsSixtyN3in/CVE-2025-4172026](https://github.com/NotItsSixtyN3in/CVE-2025-4172026)
 
 
 ## 2024
@@ -6754,6 +6772,7 @@
 
 - [fuhei/CVE-2024-31317](https://github.com/fuhei/CVE-2024-31317)
 - [jmywh1/CVE-2024-31317](https://github.com/jmywh1/CVE-2024-31317)
+- [Anonymous941/zygote-injection-toolkit](https://github.com/Anonymous941/zygote-injection-toolkit)
 
 ### CVE-2024-31319 (2024-07-09)
 
@@ -9087,6 +9106,7 @@
 </code>
 
 - [XiaomingX/cve-2024-45436-exp](https://github.com/XiaomingX/cve-2024-45436-exp)
+- [srcx404/CVE-2024-45436](https://github.com/srcx404/CVE-2024-45436)
 
 ### CVE-2024-45440 (2024-08-29)
 
@@ -9161,13 +9181,6 @@
 </code>
 
 - [ayato-shitomi/CVE-2024-46278-teedy_1.11_account-takeover](https://github.com/ayato-shitomi/CVE-2024-46278-teedy_1.11_account-takeover)
-
-### CVE-2024-46310 (2025-01-13)
-
-<code>Incorrect Access Control in Cfx.re FXServer v9601 and earlier allows unauthenticated users to modify and read arbitrary user data via exposed API endpoint
-</code>
-
-- [PRX5Y/CVE-2024-46310](https://github.com/PRX5Y/CVE-2024-46310)
 
 ### CVE-2024-46377 (2024-09-18)
 
@@ -10626,7 +10639,11 @@
 
 - [ugurkarakoc1/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-](https://github.com/ugurkarakoc1/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-)
 
-### CVE-2024-55211
+### CVE-2024-55211 (2025-04-17)
+
+<code>An issue in Think Router Tk-Rt-Wr135G V3.0.2-X000 allows attackers to bypass authentication via a crafted cookie.
+</code>
+
 - [micaelmaciel/CVE-2024-55211](https://github.com/micaelmaciel/CVE-2024-55211)
 
 ### CVE-2024-55215 (2025-02-07)
@@ -14289,6 +14306,7 @@
 - [Rishabh-Kumar-Cyber-Sec/CVE-2023-27163-ssrf-to-port-scanning](https://github.com/Rishabh-Kumar-Cyber-Sec/CVE-2023-27163-ssrf-to-port-scanning)
 - [btar1gan/exploit_CVE-2023-27163](https://github.com/btar1gan/exploit_CVE-2023-27163)
 - [G4sp4rCS/htb-sau-automated](https://github.com/G4sp4rCS/htb-sau-automated)
+- [lukehebe/CVE-2023-27163](https://github.com/lukehebe/CVE-2023-27163)
 
 ### CVE-2023-27216 (2023-04-12)
 
