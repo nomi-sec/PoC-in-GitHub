@@ -560,6 +560,13 @@
 - [Sachinart/essential-addons-for-elementor-xss-poc](https://github.com/Sachinart/essential-addons-for-elementor-xss-poc)
 - [bartfroklage/CVE-2025-24752-POC](https://github.com/bartfroklage/CVE-2025-24752-POC)
 
+### CVE-2025-24797 (2025-04-14)
+
+<code>Meshtastic is an open source mesh networking solution. A fault in the handling of mesh packets containing invalid protobuf data can result in an attacker-controlled buffer overflow, allowing an attacker to hijack execution flow, potentially resulting in remote code execution. This attack does not require authentication or user interaction, as long as the target device rebroadcasts packets on the default channel. This vulnerability fixed in 2.6.2.
+</code>
+
+- [Alainx277/CVE-2025-24797](https://github.com/Alainx277/CVE-2025-24797)
+
 ### CVE-2025-24799 (2025-03-18)
 
 <code>GLPI is a free asset and IT management software package. An unauthenticated user can perform a SQL injection through the inventory endpoint. This vulnerability is fixed in 10.0.18.
@@ -850,6 +857,9 @@
 ### CVE-2025-26240
 - [Habuon/CVE-2025-26240](https://github.com/Habuon/CVE-2025-26240)
 
+### CVE-2025-26244
+- [JaRm222/CVE-2025-26244](https://github.com/JaRm222/CVE-2025-26244)
+
 ### CVE-2025-26263 (2025-02-28)
 
 <code>GeoVision ASManager Windows desktop application with the version 6.1.2.0 or less (fixed in 6.2.0), is vulnerable to credentials disclosure due to improper memory handling in the ASManagerService.exe process.
@@ -1104,6 +1114,7 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
+- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [0x0Luk/0xMiddleware](https://github.com/0x0Luk/0xMiddleware)
@@ -1207,6 +1218,13 @@
 - [Oyst3r1ng/CVE-2025-30567](https://github.com/Oyst3r1ng/CVE-2025-30567)
 - [realcodeb0ss/CVE-2025-30567-PoC](https://github.com/realcodeb0ss/CVE-2025-30567-PoC)
 - [KaxuFF/CVE-2025-30567-PoC](https://github.com/KaxuFF/CVE-2025-30567-PoC)
+
+### CVE-2025-30727 (2025-04-15)
+
+<code>Vulnerability in the Oracle Scripting product of Oracle E-Business Suite (component: iSurvey Module).  Supported versions that are affected are 12.2.3-12.2.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Scripting.  Successful attacks of this vulnerability can result in takeover of Oracle Scripting. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [HExploited/CVE-2025-30727-Exploit](https://github.com/HExploited/CVE-2025-30727-Exploit)
 
 ### CVE-2025-30772 (2025-03-27)
 
@@ -1348,6 +1366,9 @@
 ### CVE-2025-412027
 - [itssixtyn3in/CVE-2025-412027](https://github.com/itssixtyn3in/CVE-2025-412027)
 
+### CVE-2025-442025
+- [joey-melo/CVE-2025-442025](https://github.com/joey-melo/CVE-2025-442025)
+
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
 
@@ -1383,6 +1404,24 @@
 
 ### CVE-2025-4102025
 - [ImTheCopilotNow/CVE-2025-4102025](https://github.com/ImTheCopilotNow/CVE-2025-4102025)
+
+### CVE-2025-4162025
+- [NotItsSixtyN3in/CVE-2025-4162025](https://github.com/NotItsSixtyN3in/CVE-2025-4162025)
+
+### CVE-2025-4162026
+- [NotItsSixtyN3in/CVE-2025-4162026](https://github.com/NotItsSixtyN3in/CVE-2025-4162026)
+
+### CVE-2025-4162027
+- [NotItsSixtyN3in/CVE-2025-4162027](https://github.com/NotItsSixtyN3in/CVE-2025-4162027)
+
+### CVE-2025-4162028
+- [NotItsSixtyN3in/CVE-2025-4162028](https://github.com/NotItsSixtyN3in/CVE-2025-4162028)
+
+### CVE-2025-4162029
+- [NotItsSixtyN3in/CVE-2025-4162029](https://github.com/NotItsSixtyN3in/CVE-2025-4162029)
+
+### CVE-2025-4162030
+- [NotItsSixtyN3in/CVE-2025-4162030](https://github.com/NotItsSixtyN3in/CVE-2025-4162030)
 
 
 ## 2024
@@ -7817,7 +7856,6 @@
 - [thanawee321/CVE-2024-38063](https://github.com/thanawee321/CVE-2024-38063)
 - [AliHj98/cve-2024-38063-Anonyvader](https://github.com/AliHj98/cve-2024-38063-Anonyvader)
 - [Dragkob/CVE-2024-38063](https://github.com/Dragkob/CVE-2024-38063)
-- [selenagomez25/CVE-2024-38063](https://github.com/selenagomez25/CVE-2024-38063)
 - [fredagsguf/Windows-CVE-2024-38063](https://github.com/fredagsguf/Windows-CVE-2024-38063)
 - [jip-0-0-0-0-0/CVE-2024-38063-scanner](https://github.com/jip-0-0-0-0-0/CVE-2024-38063-scanner)
 
@@ -18466,6 +18504,7 @@
 - [0xyy66/CVE-2023-45878_to_RCE](https://github.com/0xyy66/CVE-2023-45878_to_RCE)
 - [davidzzo23/CVE-2023-45878](https://github.com/davidzzo23/CVE-2023-45878)
 - [Can0I0Ever0Enter/CVE-2023-45878](https://github.com/Can0I0Ever0Enter/CVE-2023-45878)
+- [ulricvbs/gibbonlms-filewrite_rce](https://github.com/ulricvbs/gibbonlms-filewrite_rce)
 
 ### CVE-2023-45966 (2023-10-23)
 
@@ -25191,6 +25230,7 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
+- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -28315,7 +28355,7 @@
 
 ### CVE-2021-21353 (2021-03-03)
 
-<code>Pug is an npm package which is a high-performance template engine. In pug before version 3.0.1, if a remote attacker was able to control the `pretty` option of the pug compiler, e.g. if you spread a user provided object such as the query parameters of a request into the pug template inputs, it was possible for them to achieve remote code execution on the node.js backend. This is fixed in version 3.0.1. This advisory applies to multiple pug packages including &quot;pug&quot;, &quot;pug-code-gen&quot;. pug-code-gen has a backported fix at version 2.0.3. This advisory is not exploitable if there is no way for un-trusted input to be passed to pug as the `pretty` option, e.g. if you compile templates in advance before applying user input to them, you do not need to upgrade.
+<code>Pug is an npm package which is a high-performance template engine.  In pug before version 3.0.1, if a remote attacker was able to control the `pretty` option of the pug compiler, e.g. if you spread a user provided object such as the query parameters of a request into the pug template inputs, it was possible for them to achieve remote code execution on the node.js backend. This is fixed in version 3.0.1.  This advisory applies to multiple pug packages including &quot;pug&quot;, &quot;pug-code-gen&quot;.  pug-code-gen has a backported fix at version 2.0.3. This advisory is not exploitable if there is no way for un-trusted input to be passed to pug as the `pretty` option, e.g. if you compile templates in advance before applying user input to them, you do not need to upgrade.
 </code>
 
 - [jinsu9758/PUG-RCE-CVE-2021-21353-POC](https://github.com/jinsu9758/PUG-RCE-CVE-2021-21353-POC)
@@ -45479,6 +45519,7 @@
 - [hacker30468/Mikrotik-router-hack](https://github.com/hacker30468/Mikrotik-router-hack)
 - [babyshen/routeros-CVE-2018-14847-bytheway](https://github.com/babyshen/routeros-CVE-2018-14847-bytheway)
 - [K3ysTr0K3R/CVE-2018-14847-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2018-14847-EXPLOIT)
+- [tausifzaman/CVE-2018-14847](https://github.com/tausifzaman/CVE-2018-14847)
 
 ### CVE-2018-14879 (2019-10-03)
 
