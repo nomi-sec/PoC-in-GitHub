@@ -300,6 +300,13 @@
 - [PuddinCat/CVE-2025-3248-POC](https://github.com/PuddinCat/CVE-2025-3248-POC)
 - [verylazytech/CVE-2025-3248](https://github.com/verylazytech/CVE-2025-3248)
 
+### CVE-2025-3568 (2025-04-14)
+
+<code>In Webkul Krayin CRM bis 2.1.0 wurde eine Schwachstelle gefunden. Sie wurde als problematisch eingestuft. Hierbei betrifft es unbekannten Programmcode der Datei /admin/settings/users/edit/ der Komponente SVG File Handler. Durch Manipulieren mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [shellkraft/CVE-2025-3568](https://github.com/shellkraft/CVE-2025-3568)
+
 ### CVE-2025-12654
 - [ThoristKaw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/ThoristKaw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 
@@ -1041,6 +1048,7 @@
 </code>
 
 - [somatrasss/CVE-2025-29306](https://github.com/somatrasss/CVE-2025-29306)
+- [verylazytech/CVE-2025-29306](https://github.com/verylazytech/CVE-2025-29306)
 
 ### CVE-2025-29384 (2025-03-14)
 
@@ -27930,7 +27938,6 @@
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
 - [An00bRektn/CVE-2021-4034](https://github.com/An00bRektn/CVE-2021-4034)
 - [zhzyker/CVE-2021-4034](https://github.com/zhzyker/CVE-2021-4034)
-- [J0hnbX/CVE-2021-4034-new](https://github.com/J0hnbX/CVE-2021-4034-new)
 - [Immersive-Labs-Sec/CVE-2021-4034](https://github.com/Immersive-Labs-Sec/CVE-2021-4034)
 - [kimusan/pkwner](https://github.com/kimusan/pkwner)
 - [N1et/CVE-2021-4034](https://github.com/N1et/CVE-2021-4034)
@@ -28816,6 +28823,7 @@
 - [ShivamDey/CVE-2021-23017](https://github.com/ShivamDey/CVE-2021-23017)
 - [z3usx01/CVE-2021-23017-POC](https://github.com/z3usx01/CVE-2021-23017-POC)
 - [lukwagoasuman/-home-lukewago-Downloads-CVE-2021-23017-Nginx-1.14](https://github.com/lukwagoasuman/-home-lukewago-Downloads-CVE-2021-23017-Nginx-1.14)
+- [Cybervixy/Vulnerability-Management](https://github.com/Cybervixy/Vulnerability-Management)
 
 ### CVE-2021-23132 (2021-03-04)
 
@@ -47573,6 +47581,7 @@
 - [coolman6942o/-Exploit-CVE-2017-7529](https://github.com/coolman6942o/-Exploit-CVE-2017-7529)
 - [SirEagIe/CVE-2017-7529](https://github.com/SirEagIe/CVE-2017-7529)
 - [Fenil2511/CVE-2017-7529-POC](https://github.com/Fenil2511/CVE-2017-7529-POC)
+- [youngmin0104/CVE-2017-7529-](https://github.com/youngmin0104/CVE-2017-7529-)
 
 ### CVE-2017-7648 (2017-04-10)
 
