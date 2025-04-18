@@ -1172,6 +1172,7 @@
 - [Knotsecurity/CVE-2025-29927-NextJs-Middleware-Simulation](https://github.com/Knotsecurity/CVE-2025-29927-NextJs-Middleware-Simulation)
 - [mhamzakhattak/CVE-2025-29927](https://github.com/mhamzakhattak/CVE-2025-29927)
 - [enochgitgamefied/NextJS-CVE-2025-29927](https://github.com/enochgitgamefied/NextJS-CVE-2025-29927)
+- [Grand-Moomin/Vuln-Next.js-CVE-2025-29927](https://github.com/Grand-Moomin/Vuln-Next.js-CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -1356,6 +1357,13 @@
 </code>
 
 - [Nxploited/CVE-2025-32206](https://github.com/Nxploited/CVE-2025-32206)
+
+### CVE-2025-32433 (2025-04-16)
+
+<code>Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.
+</code>
+
+- [ProDefense/CVE-2025-32433](https://github.com/ProDefense/CVE-2025-32433)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -46460,6 +46468,7 @@
 - [natpakun/SSRF-CVE-2018-25031-](https://github.com/natpakun/SSRF-CVE-2018-25031-)
 - [KonEch0/CVE-2018-25031-SG](https://github.com/KonEch0/CVE-2018-25031-SG)
 - [Proklinius897/CVE-2018-25031-tests](https://github.com/Proklinius897/CVE-2018-25031-tests)
+- [nigartest/CVE-2018-25031](https://github.com/nigartest/CVE-2018-25031)
 
 ### CVE-2018-25032 (2022-03-25)
 
