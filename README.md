@@ -512,6 +512,13 @@
 - [MuhammadWaseem29/CVE-2025-24016](https://github.com/MuhammadWaseem29/CVE-2025-24016)
 - [celsius026/poc_CVE-2025-24016](https://github.com/celsius026/poc_CVE-2025-24016)
 
+### CVE-2025-24054 (2025-03-11)
+
+<code>External control of file name or path in Windows NTLM allows an unauthorized attacker to perform spoofing over a network.
+</code>
+
+- [xigney/CVE-2025-24054_PoC](https://github.com/xigney/CVE-2025-24054_PoC)
+
 ### CVE-2025-24071 (2025-03-11)
 
 <code>Exposure of sensitive information to an unauthorized actor in Windows File Explorer allows an unauthorized attacker to perform spoofing over a network.
@@ -621,6 +628,7 @@
 - [Franconyu/Poc_for_CVE-2025-24813](https://github.com/Franconyu/Poc_for_CVE-2025-24813)
 - [Mattb709/CVE-2025-24813-PoC-Apache-Tomcat-RCE](https://github.com/Mattb709/CVE-2025-24813-PoC-Apache-Tomcat-RCE)
 - [Mattb709/CVE-2025-24813-Scanner](https://github.com/Mattb709/CVE-2025-24813-Scanner)
+- [Erosion2020/CVE-2025-24813-vulhub](https://github.com/Erosion2020/CVE-2025-24813-vulhub)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -1010,6 +1018,9 @@
 ### CVE-2025-28346
 - [Shubham03007/CVE-2025-28346](https://github.com/Shubham03007/CVE-2025-28346)
 
+### CVE-2025-28355
+- [abbisQQ/CVE-2025-28355](https://github.com/abbisQQ/CVE-2025-28355)
+
 ### CVE-2025-28915 (2025-03-11)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in Theme Egg ThemeEgg ToolKit allows Upload a Web Shell to a Web Server. This issue affects ThemeEgg ToolKit: from n/a through 1.2.9.
@@ -1358,12 +1369,22 @@
 
 - [Nxploited/CVE-2025-32206](https://github.com/Nxploited/CVE-2025-32206)
 
+### CVE-2025-32395 (2025-04-10)
+
+<code>Vite is a frontend tooling framework for javascript. Prior to 6.2.6, 6.1.5, 6.0.15, 5.4.18, and 4.5.13, the contents of arbitrary files can be returned to the browser if the dev server is running on Node or Bun. HTTP 1.1 spec (RFC 9112) does not allow # in request-target. Although an attacker can send such a request. For those requests with an invalid request-line (it includes request-target), the spec recommends to reject them with 400 or 301. The same can be said for HTTP 2. On Node and Bun, those requests are not rejected internally and is passed to the user land. For those requests, the value of http.IncomingMessage.url contains #. Vite assumed req.url won't contain # when checking server.fs.deny, allowing those kinds of requests to bypass the check. Only apps explicitly exposing the Vite dev server to the network (using --host or server.host config option) and running the Vite dev server on runtimes that are not Deno (e.g. Node, Bun) are affected. This vulnerability is fixed in 6.2.6, 6.1.5, 6.0.15, 5.4.18, and 4.5.13.
+</code>
+
+- [ruiwenya/CVE-2025-32395](https://github.com/ruiwenya/CVE-2025-32395)
+
 ### CVE-2025-32433 (2025-04-16)
 
 <code>Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.
 </code>
 
 - [ProDefense/CVE-2025-32433](https://github.com/ProDefense/CVE-2025-32433)
+- [Epivalent/CVE-2025-32433-detection](https://github.com/Epivalent/CVE-2025-32433-detection)
+- [darses/CVE-2025-32433](https://github.com/darses/CVE-2025-32433)
+- [LemieOne/CVE-2025-32433](https://github.com/LemieOne/CVE-2025-32433)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -1378,6 +1399,13 @@
 </code>
 
 - [Nxploited/CVE-2025-32641](https://github.com/Nxploited/CVE-2025-32641)
+
+### CVE-2025-32682 (2025-04-17)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in RomanCode MapSVG Lite allows Upload a Web Shell to a Web Server. This issue affects MapSVG Lite: from n/a through 8.5.34.
+</code>
+
+- [Nxploited/CVE-2025-32682](https://github.com/Nxploited/CVE-2025-32682)
 
 ### CVE-2025-39601 (2025-04-16)
 
@@ -2615,6 +2643,7 @@
 - [mistakes1337/CVE-2024-4577](https://github.com/mistakes1337/CVE-2024-4577)
 - [deadlybangle/CVE-2024-4577-PHP-RCE](https://github.com/deadlybangle/CVE-2024-4577-PHP-RCE)
 - [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
+- [Gill-Singh-A/CVE-2024-4577-Exploit](https://github.com/Gill-Singh-A/CVE-2024-4577-Exploit)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -19726,9 +19755,6 @@
 
 - [Chocapikk/CVE-2023-50917](https://github.com/Chocapikk/CVE-2023-50917)
 
-### CVE-2023-51000
-- [Team-Byerus/CVE-2023-51000](https://github.com/Team-Byerus/CVE-2023-51000)
-
 ### CVE-2023-51073 (2024-01-11)
 
 <code>An issue in Buffalo LS210D v.1.78-0.03 allows a remote attacker to execute arbitrary code via the Firmware Update Script at /etc/init.d/update_notifications.sh.
@@ -27975,7 +28001,6 @@
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
 - [An00bRektn/CVE-2021-4034](https://github.com/An00bRektn/CVE-2021-4034)
 - [zhzyker/CVE-2021-4034](https://github.com/zhzyker/CVE-2021-4034)
-- [Immersive-Labs-Sec/CVE-2021-4034](https://github.com/Immersive-Labs-Sec/CVE-2021-4034)
 - [kimusan/pkwner](https://github.com/kimusan/pkwner)
 - [N1et/CVE-2021-4034](https://github.com/N1et/CVE-2021-4034)
 - [Nero22k/CVE-2021-4034](https://github.com/Nero22k/CVE-2021-4034)
@@ -29179,7 +29204,7 @@
 - [1n7erface/PocList](https://github.com/1n7erface/PocList)
 - [givemefivw/CVE-2021-25646](https://github.com/givemefivw/CVE-2021-25646)
 - [j2ekim/CVE-2021-25646](https://github.com/j2ekim/CVE-2021-25646)
-- [luobai8/CVE-2021-25646-exp](https://github.com/luobai8/CVE-2021-25646-exp)
+- [k7pro/CVE-2021-25646-exp](https://github.com/k7pro/CVE-2021-25646-exp)
 - [gps1949/CVE-2021-25646](https://github.com/gps1949/CVE-2021-25646)
 
 ### CVE-2021-25679 (2021-04-20)
@@ -33165,6 +33190,7 @@
 
 - [D3Ext/CVE-2021-44967](https://github.com/D3Ext/CVE-2021-44967)
 - [godylockz/CVE-2021-44967](https://github.com/godylockz/CVE-2021-44967)
+- [monke443/CVE-2021-44967](https://github.com/monke443/CVE-2021-44967)
 
 ### CVE-2021-45007 (2022-02-20)
 
@@ -47595,7 +47621,6 @@
 - [SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095](https://github.com/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095)
 - [Nazicc/S2-055](https://github.com/Nazicc/S2-055)
 - [JavanXD/Demo-Exploit-Jackson-RCE](https://github.com/JavanXD/Demo-Exploit-Jackson-RCE)
-- [BassinD/jackson-RCE](https://github.com/BassinD/jackson-RCE)
 - [Dannners/jackson-deserialization-2017-7525](https://github.com/Dannners/jackson-deserialization-2017-7525)
 - [Ingenuity-Fainting-Goats/CVE-2017-7525-Jackson-Deserialization-Lab](https://github.com/Ingenuity-Fainting-Goats/CVE-2017-7525-Jackson-Deserialization-Lab)
 
