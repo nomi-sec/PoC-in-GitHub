@@ -357,6 +357,13 @@
 - [Network-Sec/CVE-2025-21420-PoC](https://github.com/Network-Sec/CVE-2025-21420-PoC)
 - [toxy4ny/edge-maradeur](https://github.com/toxy4ny/edge-maradeur)
 
+### CVE-2025-21756 (2025-02-27)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nvsock: Keep the binding until socket destruction\n\nPreserve sockets bindings; this includes both resulting from an explicit\nbind() and those implicitly bound through autobind during connect().\n\nPrevents socket unbinding during a transport reassignment, which fixes a\nuse-after-free:\n\n    1. vsock_create() (refcnt=1) calls vsock_insert_unbound() (refcnt=2)\n    2. transport-&gt;release() calls vsock_remove_bound() without checking if\n       sk was bound and moved to bound list (refcnt=1)\n    3. vsock_bind() assumes sk is in unbound list and before\n       __vsock_insert_bound(vsock_bound_sockets()) calls\n       __vsock_remove_bound() which does:\n           list_del_init(&amp;vsk-&gt;bound_table); // nop\n           sock_put(&amp;vsk-&gt;sk);               // refcnt=0\n\nBUG: KASAN: slab-use-after-free in __vsock_bind+0x62e/0x730\nRead of size 4 at addr ffff88816b46a74c by task a.out/2057\n dump_stack_lvl+0x68/0x90\n print_report+0x174/0x4f6\n kasan_report+0xb9/0x190\n __vsock_bind+0x62e/0x730\n vsock_bind+0x97/0xe0\n __sys_bind+0x154/0x1f0\n __x64_sys_bind+0x6e/0xb0\n do_syscall_64+0x93/0x1b0\n entry_SYSCALL_64_after_hwframe+0x76/0x7e\n\nAllocated by task 2057:\n kasan_save_stack+0x1e/0x40\n kasan_save_track+0x10/0x30\n __kasan_slab_alloc+0x85/0x90\n kmem_cache_alloc_noprof+0x131/0x450\n sk_prot_alloc+0x5b/0x220\n sk_alloc+0x2c/0x870\n __vsock_create.constprop.0+0x2e/0xb60\n vsock_create+0xe4/0x420\n __sock_create+0x241/0x650\n __sys_socket+0xf2/0x1a0\n __x64_sys_socket+0x6e/0xb0\n do_syscall_64+0x93/0x1b0\n entry_SYSCALL_64_after_hwframe+0x76/0x7e\n\nFreed by task 2057:\n kasan_save_stack+0x1e/0x40\n kasan_save_track+0x10/0x30\n kasan_save_free_info+0x37/0x60\n __kasan_slab_free+0x4b/0x70\n kmem_cache_free+0x1a1/0x590\n __sk_destruct+0x388/0x5a0\n __vsock_bind+0x5e1/0x730\n vsock_bind+0x97/0xe0\n __sys_bind+0x154/0x1f0\n __x64_sys_bind+0x6e/0xb0\n do_syscall_64+0x93/0x1b0\n entry_SYSCALL_64_after_hwframe+0x76/0x7e\n\nrefcount_t: addition on 0; use-after-free.\nWARNING: CPU: 7 PID: 2057 at lib/refcount.c:25 refcount_warn_saturate+0xce/0x150\nRIP: 0010:refcount_warn_saturate+0xce/0x150\n __vsock_bind+0x66d/0x730\n vsock_bind+0x97/0xe0\n __sys_bind+0x154/0x1f0\n __x64_sys_bind+0x6e/0xb0\n do_syscall_64+0x93/0x1b0\n entry_SYSCALL_64_after_hwframe+0x76/0x7e\n\nrefcount_t: underflow; use-after-free.\nWARNING: CPU: 7 PID: 2057 at lib/refcount.c:28 refcount_warn_saturate+0xee/0x150\nRIP: 0010:refcount_warn_saturate+0xee/0x150\n vsock_remove_bound+0x187/0x1e0\n __vsock_release+0x383/0x4a0\n vsock_release+0x90/0x120\n __sock_release+0xa3/0x250\n sock_close+0x14/0x20\n __fput+0x359/0xa80\n task_work_run+0x107/0x1d0\n do_exit+0x847/0x2560\n do_group_exit+0xb8/0x250\n __x64_sys_exit_group+0x3a/0x50\n x64_sys_call+0xfec/0x14f0\n do_syscall_64+0x93/0x1b0\n entry_SYSCALL_64_after_hwframe+0x76/0x7e
+</code>
+
+- [hoefler02/CVE-2025-21756](https://github.com/hoefler02/CVE-2025-21756)
+
 ### CVE-2025-22223 (2025-03-24)
 
 <code>Spring Security 6.4.0 - 6.4.3 may not correctly locate method security annotations on parameterized types or methods. This may cause an authorization bypass. \n\nYou are not affected if you are not using @EnableMethodSecurity, or\nyou do not have method security annotations on parameterized types or methods, or all method security annotations are attached to target methods
@@ -1385,6 +1392,7 @@
 - [Epivalent/CVE-2025-32433-detection](https://github.com/Epivalent/CVE-2025-32433-detection)
 - [darses/CVE-2025-32433](https://github.com/darses/CVE-2025-32433)
 - [LemieOne/CVE-2025-32433](https://github.com/LemieOne/CVE-2025-32433)
+- [teamtopkarl/CVE-2025-32433](https://github.com/teamtopkarl/CVE-2025-32433)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -1558,7 +1566,7 @@
 - [007CRIPTOGRAFIA/c-CVE-2024-0044](https://github.com/007CRIPTOGRAFIA/c-CVE-2024-0044)
 - [Kai2er/CVE-2024-0044-EXP](https://github.com/Kai2er/CVE-2024-0044-EXP)
 - [hunter24x24/cve_2024_0044](https://github.com/hunter24x24/cve_2024_0044)
-- [nexussecelite/EvilDroid](https://github.com/nexussecelite/EvilDroid)
+- [sridhar-sec/EvilDroid](https://github.com/sridhar-sec/EvilDroid)
 - [nahid0x1/CVE-2024-0044](https://github.com/nahid0x1/CVE-2024-0044)
 - [MrW0l05zyn/cve-2024-0044](https://github.com/MrW0l05zyn/cve-2024-0044)
 - [canyie/CVE-2024-0044](https://github.com/canyie/CVE-2024-0044)
@@ -7725,7 +7733,6 @@
 - [jaytiwari05/CVE-2024-36991](https://github.com/jaytiwari05/CVE-2024-36991)
 - [TcchSquad/CVE-2024-36991-Tool](https://github.com/TcchSquad/CVE-2024-36991-Tool)
 - [gunzf0x/CVE-2024-36991](https://github.com/gunzf0x/CVE-2024-36991)
-- [xploitnik/CVE-2024-36991-modified](https://github.com/xploitnik/CVE-2024-36991-modified)
 
 ### CVE-2024-37032 (2024-05-31)
 
@@ -10449,6 +10456,13 @@
 </code>
 
 - [Gokul-Krishnan-V-R/CVE-2024-53900](https://github.com/Gokul-Krishnan-V-R/CVE-2024-53900)
+
+### CVE-2024-53924 (2025-04-17)
+
+<code>Pycel through 1.0b30, when operating on an untrusted spreadsheet, allows code execution via a crafted formula in a cell, such as one beginning with the =IF(A1=200, eval(&quot;__import__('os').system( substring.
+</code>
+
+- [aelmosalamy/CVE-2024-53924](https://github.com/aelmosalamy/CVE-2024-53924)
 
 ### CVE-2024-54152 (2024-12-10)
 
@@ -14516,6 +14530,7 @@
 - [lexfo/xortigate-cve-2023-27997](https://github.com/lexfo/xortigate-cve-2023-27997)
 - [delsploit/CVE-2023-27997](https://github.com/delsploit/CVE-2023-27997)
 - [node011/CVE-2023-27997-POC](https://github.com/node011/CVE-2023-27997-POC)
+- [onurkerembozkurt/fgt-cve-2023-27997-exploit](https://github.com/onurkerembozkurt/fgt-cve-2023-27997-exploit)
 
 ### CVE-2023-28121 (2023-04-12)
 
@@ -44305,7 +44320,6 @@
 </code>
 
 - [0x00-0x00/CVE-2018-7422](https://github.com/0x00-0x00/CVE-2018-7422)
-- [jessisec/CVE-2018-7422](https://github.com/jessisec/CVE-2018-7422)
 - [JacobEbben/CVE-2018-7422](https://github.com/JacobEbben/CVE-2018-7422)
 
 ### CVE-2018-7448 (2018-02-26)
