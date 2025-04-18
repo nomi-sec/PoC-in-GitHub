@@ -1000,7 +1000,11 @@
 
 - [NastyCrow/CVE-2025-27893](https://github.com/NastyCrow/CVE-2025-27893)
 
-### CVE-2025-28009
+### CVE-2025-28009 (2025-04-17)
+
+<code>A SQL Injection vulnerability exists in the `u` parameter of the progress-body-weight.php endpoint of Dietiqa App v1.0.20.
+</code>
+
 - [beardenx/CVE-2025-28009](https://github.com/beardenx/CVE-2025-28009)
 
 ### CVE-2025-28346
@@ -14558,6 +14562,13 @@
 </code>
 
 - [CrazyDaveX86/CVE-2023-28293](https://github.com/CrazyDaveX86/CVE-2023-28293)
+
+### CVE-2023-28303 (2023-06-13)
+
+<code>Windows Snipping Tool Information Disclosure Vulnerability
+</code>
+
+- [m31r0n/SnipRecover-CLI](https://github.com/m31r0n/SnipRecover-CLI)
 
 ### CVE-2023-28324 (2023-06-30)
 
