@@ -601,6 +601,13 @@
 - [MuhammadWaseem29/CVE-2025-24799](https://github.com/MuhammadWaseem29/CVE-2025-24799)
 - [MatheuZSecurity/Exploit-CVE-2025-24799](https://github.com/MatheuZSecurity/Exploit-CVE-2025-24799)
 
+### CVE-2025-24801 (2025-03-18)
+
+<code>GLPI is a free asset and IT management software package. An authenticated user can upload and force the execution of *.php files located on the GLPI server. This vulnerability is fixed in 10.0.18.
+</code>
+
+- [r1beirin/CVE-2025-24801](https://github.com/r1beirin/CVE-2025-24801)
+
 ### CVE-2025-24813 (2025-03-10)
 
 <code>Path Equivalence: 'file.Name' (Internal Dot) leading to Remote Code Execution and/or Information disclosure and/or malicious content added to uploaded files via write enabled Default Servlet in Apache Tomcat.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.2, from 10.1.0-M1 through 10.1.34, from 9.0.0.M1 through 9.0.98.\n\nIf all of the following were true, a malicious user was able to view       security sensitive files and/or inject content into those files:\n- writes enabled for the default servlet (disabled by default)\n- support for partial PUT (enabled by default)\n- a target URL for security sensitive uploads that was a sub-directory of a target URL for public uploads\n- attacker knowledge of the names of security sensitive files being uploaded\n- the security sensitive files also being uploaded via partial PUT\n\nIf all of the following were true, a malicious user was able to       perform remote code execution:\n- writes enabled for the default servlet (disabled by default)\n- support for partial PUT (enabled by default)\n- application was using Tomcat's file based session persistence with the default storage location\n- application included a library that may be leveraged in a deserialization attack\n\nUsers are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.
@@ -1393,6 +1400,7 @@
 </code>
 
 - [ProDefense/CVE-2025-32433](https://github.com/ProDefense/CVE-2025-32433)
+- [ekomsSavior/POC_CVE-2025-32433](https://github.com/ekomsSavior/POC_CVE-2025-32433)
 - [Epivalent/CVE-2025-32433-detection](https://github.com/Epivalent/CVE-2025-32433-detection)
 - [darses/CVE-2025-32433](https://github.com/darses/CVE-2025-32433)
 - [LemieOne/CVE-2025-32433](https://github.com/LemieOne/CVE-2025-32433)
@@ -3425,6 +3433,13 @@
 </code>
 
 - [bjrjk/CVE-2024-8381](https://github.com/bjrjk/CVE-2024-8381)
+
+### CVE-2024-8425 (2025-02-28)
+
+<code>The WooCommerce Ultimate Gift Card plugin for WordPress is vulnerable to arbitrary file uploads due to insufficient file type validation in the 'mwb_wgm_preview_mail' and 'mwb_wgm_woocommerce_add_cart_item_data' functions in all versions up to, and including, 2.6.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [KTN1990/CVE-2024-8425](https://github.com/KTN1990/CVE-2024-8425)
 
 ### CVE-2024-8484 (2024-09-25)
 
@@ -8279,6 +8294,7 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-39943-Poc](https://github.com/truonghuuphuc/CVE-2024-39943-Poc)
+- [JenmrR/Node.js-CVE-2024-39943](https://github.com/JenmrR/Node.js-CVE-2024-39943)
 
 ### CVE-2024-40080
 - [perras/CVE-2024-40080](https://github.com/perras/CVE-2024-40080)
@@ -8648,6 +8664,7 @@
 - [igorbf495/CVE-2024-42327](https://github.com/igorbf495/CVE-2024-42327)
 - [BridgerAlderson/Zabbix-CVE-2024-42327-SQL-Injection-RCE](https://github.com/BridgerAlderson/Zabbix-CVE-2024-42327-SQL-Injection-RCE)
 - [godylockz/CVE-2024-42327](https://github.com/godylockz/CVE-2024-42327)
+- [874anthony/CVE-2024-42327_Zabbix_SQLi](https://github.com/874anthony/CVE-2024-42327_Zabbix_SQLi)
 
 ### CVE-2024-42346 (2024-09-20)
 
@@ -34310,6 +34327,7 @@
 - [z3ena/Exploiting-and-Mitigating-CVE-2020-0796-SMBGhost-and-Print-Spooler-Vulnerabilities](https://github.com/z3ena/Exploiting-and-Mitigating-CVE-2020-0796-SMBGhost-and-Print-Spooler-Vulnerabilities)
 - [Kaizzzo1/CVE-2020-0796](https://github.com/Kaizzzo1/CVE-2020-0796)
 - [monjheta/CVE-2020-0796](https://github.com/monjheta/CVE-2020-0796)
+- [madanokr001/CVE-2020-0796](https://github.com/madanokr001/CVE-2020-0796)
 
 ### CVE-2020-0887 (2020-03-12)
 
