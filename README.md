@@ -1411,6 +1411,8 @@
 - [m0usem0use/erl_mouse](https://github.com/m0usem0use/erl_mouse)
 - [exa-offsec/ssh_erlangotp_rce](https://github.com/exa-offsec/ssh_erlangotp_rce)
 - [omer-efe-curkus/CVE-2025-32433-Erlang-OTP-SSH-RCE-PoC](https://github.com/omer-efe-curkus/CVE-2025-32433-Erlang-OTP-SSH-RCE-PoC)
+- [0xPThree/cve-2025-32433](https://github.com/0xPThree/cve-2025-32433)
+- [meloppeitreet/CVE-2025-32433-Remote-Shell](https://github.com/meloppeitreet/CVE-2025-32433-Remote-Shell)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -6847,6 +6849,7 @@
 - [fuhei/CVE-2024-31317](https://github.com/fuhei/CVE-2024-31317)
 - [jmywh1/CVE-2024-31317](https://github.com/jmywh1/CVE-2024-31317)
 - [Anonymous941/zygote-injection-toolkit](https://github.com/Anonymous941/zygote-injection-toolkit)
+- [Webldix/CVE-2024-31317-PoC-Deployer](https://github.com/Webldix/CVE-2024-31317-PoC-Deployer)
 
 ### CVE-2024-31319 (2024-07-09)
 
@@ -20310,6 +20313,7 @@
 - [Mephierr/DirtyPipe_exploit](https://github.com/Mephierr/DirtyPipe_exploit)
 - [RogelioPumajulca/CVE-2022-0847](https://github.com/RogelioPumajulca/CVE-2022-0847)
 - [cypherlobo/DirtyPipe-BSI](https://github.com/cypherlobo/DirtyPipe-BSI)
+- [byteReaper77/Dirty-Pipe](https://github.com/byteReaper77/Dirty-Pipe)
 
 ### CVE-2022-0848 (2022-03-04)
 
