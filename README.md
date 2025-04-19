@@ -1025,7 +1025,11 @@
 ### CVE-2025-28346
 - [Shubham03007/CVE-2025-28346](https://github.com/Shubham03007/CVE-2025-28346)
 
-### CVE-2025-28355
+### CVE-2025-28355 (2025-04-18)
+
+<code>Volmarg Personal Management System 1.4.65 is vulnerable to Cross Site Request Forgery (CSRF) allowing attackers to execute arbitrary code and obtain sensitive information via the SameSite cookie attribute defaults value set to none
+</code>
+
 - [abbisQQ/CVE-2025-28355](https://github.com/abbisQQ/CVE-2025-28355)
 
 ### CVE-2025-28915 (2025-03-11)
@@ -1393,6 +1397,9 @@
 - [darses/CVE-2025-32433](https://github.com/darses/CVE-2025-32433)
 - [LemieOne/CVE-2025-32433](https://github.com/LemieOne/CVE-2025-32433)
 - [teamtopkarl/CVE-2025-32433](https://github.com/teamtopkarl/CVE-2025-32433)
+- [m0usem0use/erl_mouse](https://github.com/m0usem0use/erl_mouse)
+- [exa-offsec/ssh_erlangotp_rce](https://github.com/exa-offsec/ssh_erlangotp_rce)
+- [omer-efe-curkus/CVE-2025-32433-Erlang-OTP-SSH-RCE-PoC](https://github.com/omer-efe-curkus/CVE-2025-32433-Erlang-OTP-SSH-RCE-PoC)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -9304,6 +9311,13 @@
 
 - [jackalkarlos/CVE-2024-46658](https://github.com/jackalkarlos/CVE-2024-46658)
 
+### CVE-2024-46713 (2024-09-13)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nperf/aux: Fix AUX buffer serialization\n\nOle reported that event-&gt;mmap_mutex is strictly insufficient to\nserialize the AUX buffer, add a per RB mutex to fully serialize it.\n\nNote that in the lock order comment the perf_event::mmap_mutex order\nwas already wrong, that is, it nesting under mmap_lock is not new with\nthis patch.
+</code>
+
+- [enlist12/CVE-2024-46713](https://github.com/enlist12/CVE-2024-46713)
+
 ### CVE-2024-46981 (2025-01-06)
 
 <code>Redis is an open source, in-memory database that persists on disk. An authenticated user may use a specially crafted Lua script to manipulate the garbage collector and potentially lead to remote code execution. The problem is fixed in 7.4.2, 7.2.7, and 6.2.17. An additional workaround to mitigate the problem without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to restrict EVAL and EVALSHA commands.
@@ -10400,7 +10414,11 @@
 
 - [Safecloudth/CVE-2024-53522](https://github.com/Safecloudth/CVE-2024-53522)
 
-### CVE-2024-53591
+### CVE-2024-53591 (2025-04-18)
+
+<code>An issue in the login page of Seclore v3.27.5.0 allows attackers to bypass authentication via a brute force attack.
+</code>
+
 - [aljoharasubaie/CVE-2024-53591](https://github.com/aljoharasubaie/CVE-2024-53591)
 
 ### CVE-2024-53615 (2025-01-30)
