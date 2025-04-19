@@ -1029,6 +1029,9 @@
 
 - [beardenx/CVE-2025-28009](https://github.com/beardenx/CVE-2025-28009)
 
+### CVE-2025-28121
+- [pruthuraut/CVE-2025-28121](https://github.com/pruthuraut/CVE-2025-28121)
+
 ### CVE-2025-28346
 - [Shubham03007/CVE-2025-28346](https://github.com/Shubham03007/CVE-2025-28346)
 
