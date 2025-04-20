@@ -1413,6 +1413,7 @@
 - [omer-efe-curkus/CVE-2025-32433-Erlang-OTP-SSH-RCE-PoC](https://github.com/omer-efe-curkus/CVE-2025-32433-Erlang-OTP-SSH-RCE-PoC)
 - [0xPThree/cve-2025-32433](https://github.com/0xPThree/cve-2025-32433)
 - [meloppeitreet/CVE-2025-32433-Remote-Shell](https://github.com/meloppeitreet/CVE-2025-32433-Remote-Shell)
+- [SDX442/CVE-2025-32433](https://github.com/SDX442/CVE-2025-32433)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -1435,12 +1436,28 @@
 
 - [Nxploited/CVE-2025-32682](https://github.com/Nxploited/CVE-2025-32682)
 
+### CVE-2025-39436 (2025-04-17)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in aidraw I Draw allows Using Malicious Files. This issue affects I Draw: from n/a through 1.0.
+</code>
+
+- [Nxploited/CVE-2025-39436](https://github.com/Nxploited/CVE-2025-39436)
+
 ### CVE-2025-39601 (2025-04-16)
 
 <code>Cross-Site Request Forgery (CSRF) vulnerability in WPFactory Custom CSS, JS &amp; PHP allows Remote Code Inclusion. This issue affects Custom CSS, JS &amp; PHP: from n/a through 2.4.1.
 </code>
 
 - [Nxploited/CVE-2025-39601](https://github.com/Nxploited/CVE-2025-39601)
+
+### CVE-2025-43919
+- [0NYX-MY7H/CVE-2025-43919](https://github.com/0NYX-MY7H/CVE-2025-43919)
+
+### CVE-2025-43920
+- [0NYX-MY7H/CVE-2025-43920](https://github.com/0NYX-MY7H/CVE-2025-43920)
+
+### CVE-2025-43921
+- [0NYX-MY7H/CVE-2025-43921](https://github.com/0NYX-MY7H/CVE-2025-43921)
 
 ### CVE-2025-44228
 - [Kariaoston/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Kariaoston/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
@@ -2669,7 +2686,6 @@
 - [Didarul342/CVE-2024-4577](https://github.com/Didarul342/CVE-2024-4577)
 - [Night-have-dreams/php-cgi-Injector](https://github.com/Night-have-dreams/php-cgi-Injector)
 - [mistakes1337/CVE-2024-4577](https://github.com/mistakes1337/CVE-2024-4577)
-- [deadlybangle/CVE-2024-4577-PHP-RCE](https://github.com/deadlybangle/CVE-2024-4577-PHP-RCE)
 - [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
 - [Gill-Singh-A/CVE-2024-4577-Exploit](https://github.com/Gill-Singh-A/CVE-2024-4577-Exploit)
 
@@ -16930,6 +16946,7 @@
 - [mrtacojr/CVE-2023-38408](https://github.com/mrtacojr/CVE-2023-38408)
 - [fazilbaig1/cve_2023_38408_scanner](https://github.com/fazilbaig1/cve_2023_38408_scanner)
 - [Nick-Morbid/cve-2023-38408](https://github.com/Nick-Morbid/cve-2023-38408)
+- [TX-One/CVE-2023-38408](https://github.com/TX-One/CVE-2023-38408)
 
 ### CVE-2023-38434 (2023-07-18)
 
