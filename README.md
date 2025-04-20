@@ -18272,6 +18272,7 @@
 
 - [s3cb0y/CVE-2023-43770-POC](https://github.com/s3cb0y/CVE-2023-43770-POC)
 - [knight0x07/CVE-2023-43770-PoC](https://github.com/knight0x07/CVE-2023-43770-PoC)
+- [skyllpro/CVE-2021-44026-PoC](https://github.com/skyllpro/CVE-2021-44026-PoC)
 
 ### CVE-2023-43786 (2023-10-10)
 
@@ -19772,6 +19773,13 @@
 </code>
 
 - [febinrev/deepin-linux_reader_RCE-exploit](https://github.com/febinrev/deepin-linux_reader_RCE-exploit)
+
+### CVE-2023-50257 (2024-02-19)
+
+<code>eProsima Fast DDS (formerly Fast RTPS) is a C++ implementation of the Data Distribution Service standard of the Object Management Group. Even with the application of SROS2, due to the issue where the data (`p[UD]`) and `guid` values used to disconnect between nodes are not encrypted, a vulnerability has been discovered where a malicious attacker can forcibly disconnect a Subscriber and can deny a Subscriber attempting to connect. Afterwards, if the attacker sends the packet for disconnecting, which is data (`p[UD]`), to the Global Data Space (`239.255.0.1:7400`) using the said Publisher ID, all the Subscribers (Listeners) connected to the Publisher (Talker) will not receive any data and their connection will be disconnected. Moreover, if this disconnection packet is sent continuously, the Subscribers (Listeners) trying to connect will not be able to do so. Since the initial commit of the `SecurityManager.cpp` code (`init`, `on_process_handshake`) on Nov 8, 2016, the Disconnect Vulnerability in RTPS Packets Used by SROS2 has been present prior to versions 2.13.0, 2.12.2, 2.11.3, 2.10.3, and 2.6.7.
+</code>
+
+- [Jminis/CVE-2023-50257](https://github.com/Jminis/CVE-2023-50257)
 
 ### CVE-2023-50386 (2024-02-09)
 
@@ -28095,7 +28103,6 @@
 - [An00bRektn/CVE-2021-4034](https://github.com/An00bRektn/CVE-2021-4034)
 - [zhzyker/CVE-2021-4034](https://github.com/zhzyker/CVE-2021-4034)
 - [kimusan/pkwner](https://github.com/kimusan/pkwner)
-- [N1et/CVE-2021-4034](https://github.com/N1et/CVE-2021-4034)
 - [Nero22k/CVE-2021-4034](https://github.com/Nero22k/CVE-2021-4034)
 - [LukeGix/CVE-2021-4034](https://github.com/LukeGix/CVE-2021-4034)
 - [aus-mate/CVE-2021-4034-POC](https://github.com/aus-mate/CVE-2021-4034-POC)
@@ -32743,6 +32750,7 @@
 </code>
 
 - [pentesttoolscom/roundcube-cve-2021-44026](https://github.com/pentesttoolscom/roundcube-cve-2021-44026)
+- [skyllpro/CVE-2021-44026-PoC](https://github.com/skyllpro/CVE-2021-44026-PoC)
 
 ### CVE-2021-44077 (2021-11-29)
 
@@ -38952,6 +38960,13 @@
 
 - [Al1ex/CVE-2020-35729](https://github.com/Al1ex/CVE-2020-35729)
 
+### CVE-2020-35730 (2020-12-28)
+
+<code>An XSS issue was discovered in Roundcube Webmail before 1.2.13, 1.3.x before 1.3.16, and 1.4.x before 1.4.10. The attacker can send a plain text e-mail message, with JavaScript in a link reference element that is mishandled by linkref_addindex in rcube_string_replacer.php.
+</code>
+
+- [skyllpro/CVE-2021-44026-PoC](https://github.com/skyllpro/CVE-2021-44026-PoC)
+
 ### CVE-2020-35749 (2021-01-15)
 
 <code>Directory traversal vulnerability in class-simple_job_board_resume_download_handler.php in the Simple Board Job plugin 2.9.3 and earlier for WordPress allows remote attackers to read arbitrary files via the sjb_file parameter to wp-admin/post.php.
@@ -39717,6 +39732,7 @@
 - [XiaozaYa/CVE-2019-2215](https://github.com/XiaozaYa/CVE-2019-2215)
 - [llccd/TempRoot-Huawei](https://github.com/llccd/TempRoot-Huawei)
 - [0xbinder/android-kernel-exploitation-lab](https://github.com/0xbinder/android-kernel-exploitation-lab)
+- [mouseos/cve-2019-2215_SH-M08](https://github.com/mouseos/cve-2019-2215_SH-M08)
 
 ### CVE-2019-2525 (2019-01-16)
 
