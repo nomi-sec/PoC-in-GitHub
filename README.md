@@ -315,9 +315,6 @@
 
 - [shellkraft/CVE-2025-3568](https://github.com/shellkraft/CVE-2025-3568)
 
-### CVE-2025-12654
-- [ThoristKaw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/ThoristKaw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
-
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -1037,7 +1034,11 @@
 
 - [beardenx/CVE-2025-28009](https://github.com/beardenx/CVE-2025-28009)
 
-### CVE-2025-28121
+### CVE-2025-28121 (2025-04-21)
+
+<code>code-projects Online Exam Mastering System 1.0 is vulnerable to Cross Site Scripting (XSS) in feedback.php via the &quot;q&quot; parameter allowing remote attackers to execute arbitrary code.
+</code>
+
 - [pruthuraut/CVE-2025-28121](https://github.com/pruthuraut/CVE-2025-28121)
 
 ### CVE-2025-28346
@@ -1227,6 +1228,7 @@
 - [bjornhels/CVE-2025-30065](https://github.com/bjornhels/CVE-2025-30065)
 - [ron-imperva/CVE-2025-30065-PoC](https://github.com/ron-imperva/CVE-2025-30065-PoC)
 - [mouadk/parquet-rce-poc-CVE-2025-30065](https://github.com/mouadk/parquet-rce-poc-CVE-2025-30065)
+- [ThreatRadarAI/TRA-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation-](https://github.com/ThreatRadarAI/TRA-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation-)
 
 ### CVE-2025-30066 (2025-03-15)
 
@@ -1475,7 +1477,7 @@
 
 ### CVE-2025-43920 (2025-04-20)
 
-<code>GNU Mailman 2.1.39, as bundled in cPanel (and WHM), allows unauthenticated attackers to execute arbitrary OS commands via shell metacharacters in an email Subject line.
+<code>GNU Mailman 2.1.39, as bundled in cPanel (and WHM), in certain external archiver configurations, allows unauthenticated attackers to execute arbitrary OS commands via shell metacharacters in an email Subject line.
 </code>
 
 - [0NYX-MY7H/CVE-2025-43920](https://github.com/0NYX-MY7H/CVE-2025-43920)
@@ -1494,10 +1496,6 @@
 
 - [0xBenCantCode/CVE-2025-43929](https://github.com/0xBenCantCode/CVE-2025-43929)
 
-### CVE-2025-44228
-- [Kariaoston/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Kariaoston/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
-- [Karitosmuan/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Karitosmuan/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
-
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
 
@@ -1506,9 +1504,6 @@
 
 ### CVE-2025-412026
 - [itssixtyn3in/CVE-2025-412026](https://github.com/itssixtyn3in/CVE-2025-412026)
-
-### CVE-2025-412027
-- [itssixtyn3in/CVE-2025-412027](https://github.com/itssixtyn3in/CVE-2025-412027)
 
 ### CVE-2025-442025
 - [joey-melo/CVE-2025-442025](https://github.com/joey-melo/CVE-2025-442025)
@@ -7883,6 +7878,13 @@
 
 - [noways-io/securenvoy-cve-2024-37393](https://github.com/noways-io/securenvoy-cve-2024-37393)
 
+### CVE-2024-37606 (2024-12-17)
+
+<code>A Stack overflow vulnerability in D-Link DCS-932L REVB_FIRMWARE_2.18.01 allows attackers to cause a Denial of Service (DoS) via a crafted HTTP request.
+</code>
+
+- [itwizardo/DCS932L-Emulation-CVE-2024-37606-Attack](https://github.com/itwizardo/DCS932L-Emulation-CVE-2024-37606-Attack)
+
 ### CVE-2024-37726 (2024-07-03)
 
 <code>Insecure Permissions vulnerability in Micro-Star International Co., Ltd MSI Center v.2.0.36.0 allows a local attacker to escalate privileges via the Export System Info function in MSI.CentralServer.exe
@@ -8427,6 +8429,9 @@
 </code>
 
 - [Yuma-Tsushima07/CVE-2024-40443](https://github.com/Yuma-Tsushima07/CVE-2024-40443)
+
+### CVE-2024-40445
+- [TaiYou-TW/CVE-2024-40445_CVE-2024-40446](https://github.com/TaiYou-TW/CVE-2024-40445_CVE-2024-40446)
 
 ### CVE-2024-40457 (2024-09-12)
 
@@ -11138,7 +11143,11 @@
 
 - [cypherdavy/CVE-2024-57373](https://github.com/cypherdavy/CVE-2024-57373)
 
-### CVE-2024-57394
+### CVE-2024-57394 (2025-04-21)
+
+<code>The quarantine - restore function in Qi-ANXIN Tianqing Endpoint Security Management System v10.0 allows user to restore a malicious file to an arbitrary file path. Attackers can write malicious DLL to system path and perform privilege escalation by leveraging Windows DLL hijacking vulnerabilities.
+</code>
+
 - [cwjchoi01/CVE-2024-57394](https://github.com/cwjchoi01/CVE-2024-57394)
 
 ### CVE-2024-57427 (2025-02-06)
@@ -14086,6 +14095,7 @@
 - [7imbitz/CVE-2023-25157-checker](https://github.com/7imbitz/CVE-2023-25157-checker)
 - [Rubikcuv5/CVE-2023-25157](https://github.com/Rubikcuv5/CVE-2023-25157)
 - [dr-cable-tv/Geoserver-CVE-2023-25157](https://github.com/dr-cable-tv/Geoserver-CVE-2023-25157)
+- [custiya/geoserver-CVE-2023-25157](https://github.com/custiya/geoserver-CVE-2023-25157)
 
 ### CVE-2023-25194 (2023-02-07)
 
