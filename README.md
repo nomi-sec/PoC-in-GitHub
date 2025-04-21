@@ -1264,6 +1264,7 @@
 - [sumeet-darekar/CVE-2025-30208](https://github.com/sumeet-darekar/CVE-2025-30208)
 - [4m3rr0r/CVE-2025-30208-PoC](https://github.com/4m3rr0r/CVE-2025-30208-PoC)
 - [lilil3333/Vite-CVE-2025-30208-EXP](https://github.com/lilil3333/Vite-CVE-2025-30208-EXP)
+- [imbas007/CVE-2025-30208-template](https://github.com/imbas007/CVE-2025-30208-template)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -1358,6 +1359,13 @@
 
 - [Immersive-Labs-Sec/CVE-2025-31161](https://github.com/Immersive-Labs-Sec/CVE-2025-31161)
 - [llussiess/CVE-2025-31161](https://github.com/llussiess/CVE-2025-31161)
+
+### CVE-2025-31200 (2025-04-16)
+
+<code>A memory corruption issue was addressed with improved bounds checking. This issue is fixed in tvOS 18.4.1, visionOS 2.4.1, iOS iOS 18.4.1 and iPadOS 18.4.1, macOS Sequoia 15.4.1. Processing an audio stream in a maliciously crafted media file may result in code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS.
+</code>
+
+- [zhuowei/apple-positional-audio-codec-invalid-header](https://github.com/zhuowei/apple-positional-audio-codec-invalid-header)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -13329,7 +13337,7 @@
 - [zoemurmure/CVE-2023-21554-PoC](https://github.com/zoemurmure/CVE-2023-21554-PoC)
 - [3tternp/CVE-2023-21554](https://github.com/3tternp/CVE-2023-21554)
 - [Rahul-Thakur7/CVE-2023-21554](https://github.com/Rahul-Thakur7/CVE-2023-21554)
-- [leongxudong/MSMQ-Vulnerbaility](https://github.com/leongxudong/MSMQ-Vulnerbaility)
+- [leongxudong/MSMQ-Vulnerability](https://github.com/leongxudong/MSMQ-Vulnerability)
 
 ### CVE-2023-21560 (2023-01-10)
 
