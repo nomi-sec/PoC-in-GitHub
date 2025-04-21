@@ -1213,6 +1213,7 @@
 - [mhamzakhattak/CVE-2025-29927](https://github.com/mhamzakhattak/CVE-2025-29927)
 - [enochgitgamefied/NextJS-CVE-2025-29927](https://github.com/enochgitgamefied/NextJS-CVE-2025-29927)
 - [Grand-Moomin/Vuln-Next.js-CVE-2025-29927](https://github.com/Grand-Moomin/Vuln-Next.js-CVE-2025-29927)
+- [pouriam23/Next.js-Middleware-Bypass-CVE-2025-29927-](https://github.com/pouriam23/Next.js-Middleware-Bypass-CVE-2025-29927-)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -28122,7 +28123,6 @@
 - [kimusan/pkwner](https://github.com/kimusan/pkwner)
 - [Nero22k/CVE-2021-4034](https://github.com/Nero22k/CVE-2021-4034)
 - [LukeGix/CVE-2021-4034](https://github.com/LukeGix/CVE-2021-4034)
-- [aus-mate/CVE-2021-4034-POC](https://github.com/aus-mate/CVE-2021-4034-POC)
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [moldabekov/CVE-2021-4034](https://github.com/moldabekov/CVE-2021-4034)
 - [jostmart/-CVE-2021-4034](https://github.com/jostmart/-CVE-2021-4034)
@@ -28266,6 +28266,7 @@
 - [marcosChoucino/CVE-2021-4034](https://github.com/marcosChoucino/CVE-2021-4034)
 - [ikerSandoval003/CVE-2021-4034](https://github.com/ikerSandoval003/CVE-2021-4034)
 - [AsierEgana/cve-2021-4034](https://github.com/AsierEgana/cve-2021-4034)
+- [fzlaziz/-CVE-2021-4034](https://github.com/fzlaziz/-CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
