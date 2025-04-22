@@ -246,7 +246,11 @@
 
 - [ubaydev/CVE-2025-2563](https://github.com/ubaydev/CVE-2025-2563)
 
-### CVE-2025-2594
+### CVE-2025-2594 (2025-04-22)
+
+<code>The User Registration &amp; Membership  WordPress plugin before 4.1.3 does not properly validate data in an AJAX action when the Membership Addon is enabled, allowing attackers to authenticate as any user, including administrators, by simply using the target account's user ID.
+</code>
+
 - [ubaydev/CVE-2025-2594](https://github.com/ubaydev/CVE-2025-2594)
 
 ### CVE-2025-2620 (2025-03-22)
@@ -880,6 +884,9 @@
 
 - [ZeroMemoryEx/CVE-2025-26125](https://github.com/ZeroMemoryEx/CVE-2025-26125)
 
+### CVE-2025-26159
+- [godBADTRY/CVE-2025-26159](https://github.com/godBADTRY/CVE-2025-26159)
+
 ### CVE-2025-26202 (2025-03-04)
 
 <code>Cross-Site Scripting (XSS) vulnerability exists in the WPA/WAPI Passphrase field of the Wireless Security settings (2.4GHz &amp; 5GHz bands) in DZS Router Web Interface. An authenticated attacker can inject malicious JavaScript into the passphrase field, which is stored and later executed when an administrator views the passphrase via the &quot;Click here to display&quot; option on the Status page
@@ -1104,6 +1111,7 @@
 
 - [somatrasss/CVE-2025-29306](https://github.com/somatrasss/CVE-2025-29306)
 - [verylazytech/CVE-2025-29306](https://github.com/verylazytech/CVE-2025-29306)
+- [inok009/FOXCMS-CVE-2025-29306-POC](https://github.com/inok009/FOXCMS-CVE-2025-29306-POC)
 
 ### CVE-2025-29384 (2025-03-14)
 
@@ -18917,7 +18925,7 @@
 
 - [trganda/ActiveMQ-RCE](https://github.com/trganda/ActiveMQ-RCE)
 - [X1r0z/ActiveMQ-RCE](https://github.com/X1r0z/ActiveMQ-RCE)
-- [JaneMandy/ActiveMQ_RCE_Pro_Max](https://github.com/JaneMandy/ActiveMQ_RCE_Pro_Max)
+- [ImuSpirit/ActiveMQ_RCE_Pro_Max](https://github.com/ImuSpirit/ActiveMQ_RCE_Pro_Max)
 - [SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ](https://github.com/SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ)
 - [evkl1d/CVE-2023-46604](https://github.com/evkl1d/CVE-2023-46604)
 - [justdoit-cai/CVE-2023-46604-Apache-ActiveMQ-RCE-exp](https://github.com/justdoit-cai/CVE-2023-46604-Apache-ActiveMQ-RCE-exp)
@@ -19976,12 +19984,12 @@
 <code>The vulnerability permits attackers to circumvent authentication processes, enabling them to remotely execute arbitrary code\n\n
 </code>
 
-- [JaneMandy/CVE-2023-51467](https://github.com/JaneMandy/CVE-2023-51467)
+- [ImuSpirit/CVE-2023-51467](https://github.com/ImuSpirit/CVE-2023-51467)
 - [Chocapikk/CVE-2023-51467](https://github.com/Chocapikk/CVE-2023-51467)
 - [K3ysTr0K3R/CVE-2023-51467-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-51467-EXPLOIT)
 - [jakabakos/Apache-OFBiz-Authentication-Bypass](https://github.com/jakabakos/Apache-OFBiz-Authentication-Bypass)
 - [Subha-BOO7/Exploit_CVE-2023-51467](https://github.com/Subha-BOO7/Exploit_CVE-2023-51467)
-- [JaneMandy/CVE-2023-51467-Exploit](https://github.com/JaneMandy/CVE-2023-51467-Exploit)
+- [ImuSpirit/CVE-2023-51467-Exploit](https://github.com/ImuSpirit/CVE-2023-51467-Exploit)
 - [vulncheck-oss/cve-2023-51467](https://github.com/vulncheck-oss/cve-2023-51467)
 - [2ptr/BadBizness-CVE-2023-51467](https://github.com/2ptr/BadBizness-CVE-2023-51467)
 - [AhmedMansour93/Event-ID-217-Rule-Name-SOC254-Apache-OFBiz-Auth-Bypass-and-Code-Injection-0Day-CVE-2023-51467-](https://github.com/AhmedMansour93/Event-ID-217-Rule-Name-SOC254-Apache-OFBiz-Auth-Bypass-and-Code-Injection-0Day-CVE-2023-51467-)
@@ -31298,7 +31306,7 @@
 </code>
 
 - [DarkSprings/CVE-2021-38666-poc](https://github.com/DarkSprings/CVE-2021-38666-poc)
-- [JaneMandy/CVE-2021-38666](https://github.com/JaneMandy/CVE-2021-38666)
+- [ImuSpirit/CVE-2021-38666](https://github.com/ImuSpirit/CVE-2021-38666)
 
 ### CVE-2021-38699 (2021-08-15)
 
@@ -31868,7 +31876,7 @@
 <code>Microsoft Edge (Chrome based) Spoofing on IE Mode
 </code>
 
-- [JaneMandy/CVE-2021-41351-POC](https://github.com/JaneMandy/CVE-2021-41351-POC)
+- [ImuSpirit/CVE-2021-41351-POC](https://github.com/ImuSpirit/CVE-2021-41351-POC)
 
 ### CVE-2021-41381 (2021-09-23)
 
