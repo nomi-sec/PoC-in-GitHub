@@ -1236,7 +1236,7 @@
 - [bjornhels/CVE-2025-30065](https://github.com/bjornhels/CVE-2025-30065)
 - [ron-imperva/CVE-2025-30065-PoC](https://github.com/ron-imperva/CVE-2025-30065-PoC)
 - [mouadk/parquet-rce-poc-CVE-2025-30065](https://github.com/mouadk/parquet-rce-poc-CVE-2025-30065)
-- [ThreatRadarAI/TRA-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation-](https://github.com/ThreatRadarAI/TRA-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation-)
+- [ThreatRadarAI/TRAI-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation](https://github.com/ThreatRadarAI/TRAI-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation)
 
 ### CVE-2025-30066 (2025-03-15)
 
@@ -1483,6 +1483,7 @@
 </code>
 
 - [0NYX-MY7H/CVE-2025-43919](https://github.com/0NYX-MY7H/CVE-2025-43919)
+- [cybersecplayground/CVE-2025-43919-POC](https://github.com/cybersecplayground/CVE-2025-43919-POC)
 
 ### CVE-2025-43920 (2025-04-20)
 
@@ -8006,7 +8007,7 @@
 - [dweger-scripts/CVE-2024-38063-Remediation](https://github.com/dweger-scripts/CVE-2024-38063-Remediation)
 - [almogopp/Disable-IPv6-CVE-2024-38063-Fix](https://github.com/almogopp/Disable-IPv6-CVE-2024-38063-Fix)
 - [Th3Tr1ckst3r/CVE-2024-38063](https://github.com/Th3Tr1ckst3r/CVE-2024-38063)
-- [haroonawanofficial/CVE-2024-38063-Research-Tool](https://github.com/haroonawanofficial/CVE-2024-38063-Research-Tool)
+- [haroonawanofficial/AI-CVE-2024-38063-0-DAY](https://github.com/haroonawanofficial/AI-CVE-2024-38063-0-DAY)
 - [ynwarcs/CVE-2024-38063](https://github.com/ynwarcs/CVE-2024-38063)
 - [patchpoint/CVE-2024-38063](https://github.com/patchpoint/CVE-2024-38063)
 - [PumpkinBridge/Windows-CVE-2024-38063](https://github.com/PumpkinBridge/Windows-CVE-2024-38063)
