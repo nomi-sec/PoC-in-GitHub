@@ -535,6 +535,7 @@
 </code>
 
 - [xigney/CVE-2025-24054_PoC](https://github.com/xigney/CVE-2025-24054_PoC)
+- [helidem/CVE-2025-24054-PoC](https://github.com/helidem/CVE-2025-24054-PoC)
 
 ### CVE-2025-24071 (2025-03-11)
 
@@ -1120,6 +1121,9 @@
 
 - [Otsmane-Ahmed/cve-2025-29384-poc](https://github.com/Otsmane-Ahmed/cve-2025-29384-poc)
 
+### CVE-2025-29529
+- [Yoshik0xF6/CVE-2025-29529](https://github.com/Yoshik0xF6/CVE-2025-29529)
+
 ### CVE-2025-29602
 - [harish0x/CVE-2025-29602](https://github.com/harish0x/CVE-2025-29602)
 
@@ -1418,6 +1422,13 @@
 </code>
 
 - [Nxploited/CVE-2025-32118](https://github.com/Nxploited/CVE-2025-32118)
+
+### CVE-2025-32140 (2025-04-10)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Nirmal Kumar Ram WP Remote Thumbnail allows Upload a Web Shell to a Web Server. This issue affects WP Remote Thumbnail: from n/a through 1.3.1.
+</code>
+
+- [Nxploited/CVE-2025-32140](https://github.com/Nxploited/CVE-2025-32140)
 
 ### CVE-2025-32206 (2025-04-10)
 
@@ -8200,6 +8211,7 @@
 </code>
 
 - [First-Roman/sprig-mvc-demo-patch](https://github.com/First-Roman/sprig-mvc-demo-patch)
+- [funcid/CVE-2024-38828](https://github.com/funcid/CVE-2024-38828)
 
 ### CVE-2024-38856 (2024-08-05)
 
@@ -8449,7 +8461,11 @@
 
 - [Yuma-Tsushima07/CVE-2024-40443](https://github.com/Yuma-Tsushima07/CVE-2024-40443)
 
-### CVE-2024-40445
+### CVE-2024-40445 (2025-04-22)
+
+<code>Directory Traversal vulnerability in forkosh Mime Tex before v.1.77 allows an attacker to execute arbitrary code via a crafted file upload
+</code>
+
 - [TaiYou-TW/CVE-2024-40445_CVE-2024-40446](https://github.com/TaiYou-TW/CVE-2024-40445_CVE-2024-40446)
 
 ### CVE-2024-40457 (2024-09-12)
@@ -18447,6 +18463,7 @@
 - [aulauniversal/CVE-2023-44487](https://github.com/aulauniversal/CVE-2023-44487)
 - [BMG-Black-Magic/CVE-2023-44487](https://github.com/BMG-Black-Magic/CVE-2023-44487)
 - [moften/CVE-2023-44487](https://github.com/moften/CVE-2023-44487)
+- [zanks08/cve-2023-44487-demo](https://github.com/zanks08/cve-2023-44487-demo)
 
 ### CVE-2023-44758 (2023-10-06)
 
