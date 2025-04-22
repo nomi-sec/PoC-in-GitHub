@@ -523,6 +523,7 @@
 - [0xjessie21/CVE-2025-24016](https://github.com/0xjessie21/CVE-2025-24016)
 - [MuhammadWaseem29/CVE-2025-24016](https://github.com/MuhammadWaseem29/CVE-2025-24016)
 - [celsius026/poc_CVE-2025-24016](https://github.com/celsius026/poc_CVE-2025-24016)
+- [cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC](https://github.com/cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC)
 
 ### CVE-2025-24054 (2025-03-11)
 
@@ -545,6 +546,7 @@
 - [rubbxalc/CVE-2025-24071](https://github.com/rubbxalc/CVE-2025-24071)
 - [Marcejr117/CVE-2025-24071_PoC](https://github.com/Marcejr117/CVE-2025-24071_PoC)
 - [cesarbtakeda/Windows-Explorer-CVE-2025-24071](https://github.com/cesarbtakeda/Windows-Explorer-CVE-2025-24071)
+- [pswalia2u/CVE-2025-24071_POC](https://github.com/pswalia2u/CVE-2025-24071_POC)
 
 ### CVE-2025-24104 (2025-01-27)
 
@@ -1120,6 +1122,12 @@
 
 - [yxzrw/CVE-2025-29705](https://github.com/yxzrw/CVE-2025-29705)
 
+### CVE-2025-29711
+- [SteamPunk424/CVE-2025-29711-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Incorrect-Access-Control](https://github.com/SteamPunk424/CVE-2025-29711-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Incorrect-Access-Control)
+
+### CVE-2025-29712
+- [SteamPunk424/CVE-2025-29712-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Authenticated-Stored-XSS](https://github.com/SteamPunk424/CVE-2025-29712-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Authenticated-Stored-XSS)
+
 ### CVE-2025-29722 (2025-04-17)
 
 <code>A CSRF vulnerability in Commercify v1.0 allows remote attackers to perform unauthorized actions on behalf of authenticated users. The issue exists due to missing CSRF protection on sensitive endpoints.
@@ -1362,6 +1370,7 @@
 
 - [Immersive-Labs-Sec/CVE-2025-31161](https://github.com/Immersive-Labs-Sec/CVE-2025-31161)
 - [llussiess/CVE-2025-31161](https://github.com/llussiess/CVE-2025-31161)
+- [TX-One/CVE-2025-31161](https://github.com/TX-One/CVE-2025-31161)
 
 ### CVE-2025-31200 (2025-04-16)
 
@@ -6517,6 +6526,7 @@
 - [gh-ost00/CVE-2024-28987-POC](https://github.com/gh-ost00/CVE-2024-28987-POC)
 - [horizon3ai/CVE-2024-28987](https://github.com/horizon3ai/CVE-2024-28987)
 - [expl0itsecurity/CVE-2024-28987](https://github.com/expl0itsecurity/CVE-2024-28987)
+- [alecclyde/CVE-2024-28987](https://github.com/alecclyde/CVE-2024-28987)
 
 ### CVE-2024-28995 (2024-06-06)
 
@@ -28134,7 +28144,6 @@
 - [Nero22k/CVE-2021-4034](https://github.com/Nero22k/CVE-2021-4034)
 - [LukeGix/CVE-2021-4034](https://github.com/LukeGix/CVE-2021-4034)
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
-- [moldabekov/CVE-2021-4034](https://github.com/moldabekov/CVE-2021-4034)
 - [jostmart/-CVE-2021-4034](https://github.com/jostmart/-CVE-2021-4034)
 - [c3l3si4n/pwnkit](https://github.com/c3l3si4n/pwnkit)
 - [n3rdh4x0r/CVE-2021-4034](https://github.com/n3rdh4x0r/CVE-2021-4034)
@@ -30649,6 +30658,7 @@
 </code>
 
 - [zwjjustdoit/CVE-2021-34371.jar](https://github.com/zwjjustdoit/CVE-2021-34371.jar)
+- [tavgar/CVE-2021-34371](https://github.com/tavgar/CVE-2021-34371)
 
 ### CVE-2021-34428 (2021-06-22)
 
