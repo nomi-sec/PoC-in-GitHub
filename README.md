@@ -9798,6 +9798,7 @@
 - [MrAle98/CVE-2024-49138-POC](https://github.com/MrAle98/CVE-2024-49138-POC)
 - [bananoname/CVE-2024-49138-POC](https://github.com/bananoname/CVE-2024-49138-POC)
 - [DeividasTerechovas/SOC335-CVE-2024-49138-Exploitation-Detected](https://github.com/DeividasTerechovas/SOC335-CVE-2024-49138-Exploitation-Detected)
+- [CyprianAtsyor/letsdefend-cve-2024-49138-investigation](https://github.com/CyprianAtsyor/letsdefend-cve-2024-49138-investigation)
 
 ### CVE-2024-49203 (2024-11-20)
 
@@ -28324,7 +28325,7 @@
 - [marcosChoucino/CVE-2021-4034](https://github.com/marcosChoucino/CVE-2021-4034)
 - [ikerSandoval003/CVE-2021-4034](https://github.com/ikerSandoval003/CVE-2021-4034)
 - [AsierEgana/cve-2021-4034](https://github.com/AsierEgana/cve-2021-4034)
-- [fzlaziz/-CVE-2021-4034](https://github.com/fzlaziz/-CVE-2021-4034)
+- [fzlaziz/CVE-2021-4034](https://github.com/fzlaziz/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
