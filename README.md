@@ -613,13 +613,6 @@
 - [MuhammadWaseem29/CVE-2025-24799](https://github.com/MuhammadWaseem29/CVE-2025-24799)
 - [MatheuZSecurity/Exploit-CVE-2025-24799](https://github.com/MatheuZSecurity/Exploit-CVE-2025-24799)
 
-### CVE-2025-24801 (2025-03-18)
-
-<code>GLPI is a free asset and IT management software package. An authenticated user can upload and force the execution of *.php files located on the GLPI server. This vulnerability is fixed in 10.0.18.
-</code>
-
-- [r1beirin/CVE-2025-24801](https://github.com/r1beirin/CVE-2025-24801)
-
 ### CVE-2025-24813 (2025-03-10)
 
 <code>Path Equivalence: 'file.Name' (Internal Dot) leading to Remote Code Execution and/or Information disclosure and/or malicious content added to uploaded files via write enabled Default Servlet in Apache Tomcat.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.2, from 10.1.0-M1 through 10.1.34, from 9.0.0.M1 through 9.0.98.\n\nIf all of the following were true, a malicious user was able to view       security sensitive files and/or inject content into those files:\n- writes enabled for the default servlet (disabled by default)\n- support for partial PUT (enabled by default)\n- a target URL for security sensitive uploads that was a sub-directory of a target URL for public uploads\n- attacker knowledge of the names of security sensitive files being uploaded\n- the security sensitive files also being uploaded via partial PUT\n\nIf all of the following were true, a malicious user was able to       perform remote code execution:\n- writes enabled for the default servlet (disabled by default)\n- support for partial PUT (enabled by default)\n- application was using Tomcat's file based session persistence with the default storage location\n- application included a library that may be leveraged in a deserialization attack\n\nUsers are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.
@@ -885,7 +878,11 @@
 
 - [ZeroMemoryEx/CVE-2025-26125](https://github.com/ZeroMemoryEx/CVE-2025-26125)
 
-### CVE-2025-26159
+### CVE-2025-26159 (2025-04-22)
+
+<code>Laravel Starter 11.11.0 is vulnerable to Cross Site Scripting (XSS) in the tags feature. Any user with the ability of create or modify tags can inject malicious JavaScript code in the name field.
+</code>
+
 - [godBADTRY/CVE-2025-26159](https://github.com/godBADTRY/CVE-2025-26159)
 
 ### CVE-2025-26202 (2025-03-04)
@@ -1527,12 +1524,6 @@
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
-
-### CVE-2025-412025
-- [itssixtyn3in/CVE-2025-412025](https://github.com/itssixtyn3in/CVE-2025-412025)
-
-### CVE-2025-412026
-- [itssixtyn3in/CVE-2025-412026](https://github.com/itssixtyn3in/CVE-2025-412026)
 
 ### CVE-2025-442025
 - [joey-melo/CVE-2025-442025](https://github.com/joey-melo/CVE-2025-442025)
@@ -45510,6 +45501,7 @@
 
 - [llamaonsecurity/CVE-2018-12533](https://github.com/llamaonsecurity/CVE-2018-12533)
 - [Pastea/CVE-2018-12533](https://github.com/Pastea/CVE-2018-12533)
+- [mhagnumdw/richfaces-vulnerability-cve-2018-12533-rf-14310](https://github.com/mhagnumdw/richfaces-vulnerability-cve-2018-12533-rf-14310)
 
 ### CVE-2018-12537 (2018-08-14)
 
