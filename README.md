@@ -319,7 +319,11 @@
 
 - [shellkraft/CVE-2025-3568](https://github.com/shellkraft/CVE-2025-3568)
 
-### CVE-2025-3776
+### CVE-2025-3776 (2025-04-24)
+
+<code>The Verification SMS with TargetSMS plugin for WordPress is vulnerable to limited Remote Code Execution in all versions up to, and including, 1.5 via the 'targetvr_ajax_handler' function. This is due to a lack of validation on the type of function that can be called. This makes it possible for unauthenticated attackers to execute any callable function on the site, such as phpinfo().
+</code>
+
 - [Nxploited/CVE-2025-3776](https://github.com/Nxploited/CVE-2025-3776)
 
 ### CVE-2025-20029 (2025-02-05)
@@ -1296,6 +1300,7 @@
 - [4m3rr0r/CVE-2025-30208-PoC](https://github.com/4m3rr0r/CVE-2025-30208-PoC)
 - [lilil3333/Vite-CVE-2025-30208-EXP](https://github.com/lilil3333/Vite-CVE-2025-30208-EXP)
 - [imbas007/CVE-2025-30208-template](https://github.com/imbas007/CVE-2025-30208-template)
+- [r0ngy40/CVE-2025-30208-Series](https://github.com/r0ngy40/CVE-2025-30208-Series)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -1310,6 +1315,13 @@
 </code>
 
 - [natasaka/CVE-2025-30349](https://github.com/natasaka/CVE-2025-30349)
+
+### CVE-2025-30406 (2025-04-03)
+
+<code>Gladinet CentreStack through 16.1.10296.56315 (fixed in 16.4.10315.56368) has a deserialization vulnerability due to the CentreStack portal's hardcoded machineKey use, as exploited in the wild in March 2025. This enables threat actors (who know the machineKey) to serialize a payload for server-side deserialization to achieve remote code execution. NOTE: a CentreStack admin can manually delete the machineKey defined in portal\web.config.
+</code>
+
+- [W01fh4cker/CVE-2025-30406](https://github.com/W01fh4cker/CVE-2025-30406)
 
 ### CVE-2025-30567 (2025-03-25)
 
@@ -1398,6 +1410,8 @@
 - [Immersive-Labs-Sec/CVE-2025-31161](https://github.com/Immersive-Labs-Sec/CVE-2025-31161)
 - [llussiess/CVE-2025-31161](https://github.com/llussiess/CVE-2025-31161)
 - [TX-One/CVE-2025-31161](https://github.com/TX-One/CVE-2025-31161)
+- [SUPRAAA-1337/CVE-2025-31161](https://github.com/SUPRAAA-1337/CVE-2025-31161)
+- [SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825](https://github.com/SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825)
 
 ### CVE-2025-31200 (2025-04-16)
 
@@ -1504,6 +1518,13 @@
 </code>
 
 - [yusufdalbudak/CVE-2025-32965-xrpl-js-poc](https://github.com/yusufdalbudak/CVE-2025-32965-xrpl-js-poc)
+
+### CVE-2025-34028 (2025-04-22)
+
+<code>A path traversal vulnerability in Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files, which, when expanded by the target server, result in Remote Code Execution.\n\n\n\n\n\nThis issue affects Command Center Innovation Release: 11.38.
+</code>
+
+- [watchtowrlabs/watchTowr-vs-Commvault-PreAuth-RCE-CVE-2025-34028](https://github.com/watchtowrlabs/watchTowr-vs-Commvault-PreAuth-RCE-CVE-2025-34028)
 
 ### CVE-2025-39436 (2025-04-17)
 
@@ -14148,6 +14169,7 @@
 - [Rubikcuv5/CVE-2023-25157](https://github.com/Rubikcuv5/CVE-2023-25157)
 - [dr-cable-tv/Geoserver-CVE-2023-25157](https://github.com/dr-cable-tv/Geoserver-CVE-2023-25157)
 - [custiya/geoserver-CVE-2023-25157](https://github.com/custiya/geoserver-CVE-2023-25157)
+- [charis3306/CVE-2023-25157](https://github.com/charis3306/CVE-2023-25157)
 
 ### CVE-2023-25194 (2023-02-07)
 
@@ -16461,6 +16483,13 @@
 </code>
 
 - [Trinadh465/linux-4.19.72_CVE-2023-35828](https://github.com/Trinadh465/linux-4.19.72_CVE-2023-35828)
+
+### CVE-2023-35829 (2023-06-18)
+
+<code>An issue was discovered in the Linux kernel before 6.3.2. A use-after-free was found in rkvdec_remove in drivers/staging/media/rkvdec/rkvdec.c.
+</code>
+
+- [JIYUN02/CVE-2023-35829](https://github.com/JIYUN02/CVE-2023-35829)
 
 ### CVE-2023-35840 (2023-06-19)
 
@@ -45433,6 +45462,7 @@
 - [ArunBhandarii/Apache-Struts-0Day-Exploit](https://github.com/ArunBhandarii/Apache-Struts-0Day-Exploit)
 - [freshdemo/ApacheStruts-CVE-2018-11776](https://github.com/freshdemo/ApacheStruts-CVE-2018-11776)
 - [sonpt-afk/CVE-2018-11776-FIS](https://github.com/sonpt-afk/CVE-2018-11776-FIS)
+- [JIYUN02/cve-2018-11776](https://github.com/JIYUN02/cve-2018-11776)
 
 ### CVE-2018-11784 (2018-10-04)
 
