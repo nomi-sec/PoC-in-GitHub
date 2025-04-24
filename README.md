@@ -1472,6 +1472,7 @@
 - [omer-efe-curkus/CVE-2025-32433-Erlang-OTP-SSH-RCE-PoC](https://github.com/omer-efe-curkus/CVE-2025-32433-Erlang-OTP-SSH-RCE-PoC)
 - [0xPThree/cve-2025-32433](https://github.com/0xPThree/cve-2025-32433)
 - [meloppeitreet/CVE-2025-32433-Remote-Shell](https://github.com/meloppeitreet/CVE-2025-32433-Remote-Shell)
+- [tobiasGuta/Erlang-OTP-CVE-2025-32433](https://github.com/tobiasGuta/Erlang-OTP-CVE-2025-32433)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -2760,7 +2761,6 @@
 - [mistakes1337/CVE-2024-4577](https://github.com/mistakes1337/CVE-2024-4577)
 - [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
 - [Gill-Singh-A/CVE-2024-4577-Exploit](https://github.com/Gill-Singh-A/CVE-2024-4577-Exploit)
-- [cheerfulempl/CVE-2024-4577-PHP-RCE](https://github.com/cheerfulempl/CVE-2024-4577-PHP-RCE)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -6400,6 +6400,13 @@
 </code>
 
 - [0xilis/CVE-2024-27821](https://github.com/0xilis/CVE-2024-27821)
+
+### CVE-2024-27876 (2024-09-16)
+
+<code>A race condition was addressed with improved locking. This issue is fixed in macOS Ventura 13.7, iOS 17.7 and iPadOS 17.7, visionOS 2, iOS 18 and iPadOS 18, macOS Sonoma 14.7, macOS Sequoia 15. Unpacking a maliciously crafted archive may allow an attacker to write arbitrary files.
+</code>
+
+- [0xilis/CVE-2024-27876](https://github.com/0xilis/CVE-2024-27876)
 
 ### CVE-2024-27914 (2024-03-18)
 
