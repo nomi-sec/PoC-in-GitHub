@@ -201,6 +201,13 @@
 - [h4ckxel/CVE-2025-2005](https://github.com/h4ckxel/CVE-2025-2005)
 - [mrmtwoj/CVE-2025-2005](https://github.com/mrmtwoj/CVE-2025-2005)
 
+### CVE-2025-2120 (2025-03-09)
+
+<code>Eine Schwachstelle wurde in Thinkware Car Dashcam F800 Pro bis 20250226 ausgemacht. Sie wurde als problematisch eingestuft. Betroffen davon ist ein unbekannter Prozess der Datei /tmp/hostapd.conf der Komponente Configuration File Handler. Durch das Beeinflussen mit unbekannten Daten kann eine cleartext storage in a file or on disk-Schwachstelle ausgenutzt werden. Ein Angriff setzt physischen Zugriff auf dem Zielobjekt voraus. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [mmotti/Reset-inetpub](https://github.com/mmotti/Reset-inetpub)
+
 ### CVE-2025-2233 (2025-03-11)
 
 <code>Samsung SmartThings Improper Verification of Cryptographic Signature Authentication Bypass Vulnerability. This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Samsung SmartThings. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the Hub Local API service, which listens on TCP port 8766 by default. The issue results from the lack of proper verification of a cryptographic signature. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-25615.
@@ -279,13 +286,6 @@
 - [punitdarji/crushftp-CVE-2025-2825](https://github.com/punitdarji/crushftp-CVE-2025-2825)
 - [ghostsec420/ShatteredFTP](https://github.com/ghostsec420/ShatteredFTP)
 
-### CVE-2025-2857 (2025-03-27)
-
-<code>Following the recent Chrome sandbox escape (CVE-2025-2783), various Firefox developers identified a similar pattern in our IPC code. A compromised child process could cause the parent process to return an unintentionally powerful handle, leading to a sandbox escape. \nThe original vulnerability was being exploited in the wild. \n*This only affects Firefox on Windows. Other operating systems are unaffected.* This vulnerability affects Firefox &lt; 136.0.4, Firefox ESR &lt; 128.8.1, and Firefox ESR &lt; 115.21.1.
-</code>
-
-- [RimaRuer/CVE-2025-2857-Exploit](https://github.com/RimaRuer/CVE-2025-2857-Exploit)
-
 ### CVE-2025-3047 (2025-03-31)
 
 <code>When running the AWS Serverless Application Model Command Line Interface (SAM CLI) build process with Docker and symlinks are included in the build files, the container environment allows a user to access privileged files on the host by leveraging the elevated permissions granted to the tool. A user could leverage the elevated permissions to access restricted files via symlinks and copy them to a more permissive location on the container. \n\nUsers should upgrade to v1.133.0 or newer and ensure any forked or derivative code is patched to incorporate the new fixes.
@@ -325,6 +325,9 @@
 </code>
 
 - [Nxploited/CVE-2025-3776](https://github.com/Nxploited/CVE-2025-3776)
+
+### CVE-2025-12654
+- [ThreeMens/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/ThreeMens/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -372,6 +375,13 @@
 
 - [Network-Sec/CVE-2025-21420-PoC](https://github.com/Network-Sec/CVE-2025-21420-PoC)
 - [toxy4ny/edge-maradeur](https://github.com/toxy4ny/edge-maradeur)
+
+### CVE-2025-21497 (2025-01-21)
+
+<code>Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB).  Supported versions that are affected are 8.0.40 and prior, 8.4.3 and prior and  9.1.0 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server as well as  unauthorized update, insert or delete access to some of MySQL Server accessible data. CVSS 3.1 Base Score 5.5 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H).
+</code>
+
+- [Urbank-61/cve-2025-21497-lab](https://github.com/Urbank-61/cve-2025-21497-lab)
 
 ### CVE-2025-21756 (2025-02-27)
 
@@ -1213,7 +1223,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
-- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [0x0Luk/0xMiddleware](https://github.com/0x0Luk/0xMiddleware)
@@ -1490,6 +1499,7 @@
 - [0xPThree/cve-2025-32433](https://github.com/0xPThree/cve-2025-32433)
 - [meloppeitreet/CVE-2025-32433-Remote-Shell](https://github.com/meloppeitreet/CVE-2025-32433-Remote-Shell)
 - [tobiasGuta/Erlang-OTP-CVE-2025-32433](https://github.com/tobiasGuta/Erlang-OTP-CVE-2025-32433)
+- [ps-interactive/lab_CVE-2025-32433](https://github.com/ps-interactive/lab_CVE-2025-32433)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -1525,6 +1535,7 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-Commvault-PreAuth-RCE-CVE-2025-34028](https://github.com/watchtowrlabs/watchTowr-vs-Commvault-PreAuth-RCE-CVE-2025-34028)
+- [tinkerlev/commvault-cve2025-34028-check](https://github.com/tinkerlev/commvault-cve2025-34028-check)
 
 ### CVE-2025-39436 (2025-04-17)
 
@@ -3322,6 +3333,7 @@
 </code>
 
 - [gh-ost00/CVE-2024-7120](https://github.com/gh-ost00/CVE-2024-7120)
+- [jokeir07x/CVE-2024-7120-Exploit-by-Dark-07x](https://github.com/jokeir07x/CVE-2024-7120-Exploit-by-Dark-07x)
 
 ### CVE-2024-7124 (2024-11-14)
 
@@ -4512,6 +4524,13 @@
 </code>
 
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
+
+### CVE-2024-12905 (2025-03-27)
+
+<code>An Improper Link Resolution Before File Access (&quot;Link Following&quot;) and Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Traversal&quot;). This vulnerability occurs when extracting a maliciously crafted tar file, which can result in unauthorized file writes or overwrites outside the intended extraction directory. The issue is associated with index.js in the tar-fs package.\n\nThis issue affects tar-fs: from 0.0.0 before 1.16.4, from 2.0.0 before 2.1.2, from 3.0.0 before 3.0.8.
+</code>
+
+- [theMcSam/CVE-2024-12905-PoC](https://github.com/theMcSam/CVE-2024-12905-PoC)
 
 ### CVE-2024-12970 (2025-01-06)
 
@@ -8828,6 +8847,13 @@
 </code>
 
 - [fevar54/CVE-2024-42461](https://github.com/fevar54/CVE-2024-42461)
+
+### CVE-2024-42471 (2024-09-02)
+
+<code>actions/artifact is the GitHub ToolKit for developing GitHub Actions.  Versions of `actions/artifact` on the 2.x branch before 2.1.2 are vulnerable to arbitrary file write when using `downloadArtifactInternal`, `downloadArtifactPublic`, or `streamExtractExternal` for extracting a specifically crafted artifact that contains path traversal filenames. Users are advised to upgrade to version 2.1.2 or higher. There are no known workarounds for this issue.
+</code>
+
+- [theMcSam/CVE-2024-42471-PoC](https://github.com/theMcSam/CVE-2024-42471-PoC)
 
 ### CVE-2024-42640 (2024-10-11)
 
@@ -15170,6 +15196,7 @@
 - [VisDev23/Vulnerable-Docker--CVE-2023-30212-](https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-)
 - [AAsh035/CVE-2023-30212](https://github.com/AAsh035/CVE-2023-30212)
 - [JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-](https://github.com/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-)
+- [sungmin20/cve-2023-30212](https://github.com/sungmin20/cve-2023-30212)
 
 ### CVE-2023-30226 (2023-07-12)
 
@@ -16483,13 +16510,6 @@
 </code>
 
 - [Trinadh465/linux-4.19.72_CVE-2023-35828](https://github.com/Trinadh465/linux-4.19.72_CVE-2023-35828)
-
-### CVE-2023-35829 (2023-06-18)
-
-<code>An issue was discovered in the Linux kernel before 6.3.2. A use-after-free was found in rkvdec_remove in drivers/staging/media/rkvdec/rkvdec.c.
-</code>
-
-- [JIYUN02/CVE-2023-35829](https://github.com/JIYUN02/CVE-2023-35829)
 
 ### CVE-2023-35840 (2023-06-19)
 
@@ -25514,7 +25534,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -28214,7 +28233,6 @@
 - [zhzyker/CVE-2021-4034](https://github.com/zhzyker/CVE-2021-4034)
 - [kimusan/pkwner](https://github.com/kimusan/pkwner)
 - [Nero22k/CVE-2021-4034](https://github.com/Nero22k/CVE-2021-4034)
-- [LukeGix/CVE-2021-4034](https://github.com/LukeGix/CVE-2021-4034)
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [jostmart/-CVE-2021-4034](https://github.com/jostmart/-CVE-2021-4034)
 - [c3l3si4n/pwnkit](https://github.com/c3l3si4n/pwnkit)
@@ -32161,6 +32179,7 @@
 - [javaamo/CVE-2021-41773](https://github.com/javaamo/CVE-2021-41773)
 - [ashique-thaha/CVE-2021-41773-POC](https://github.com/ashique-thaha/CVE-2021-41773-POC)
 - [khaidtraivch/CVE-2021-41773-Apache-2.4.49-](https://github.com/khaidtraivch/CVE-2021-41773-Apache-2.4.49-)
+- [JIYUN02/cve-2021-41773](https://github.com/JIYUN02/cve-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -45462,7 +45481,6 @@
 - [ArunBhandarii/Apache-Struts-0Day-Exploit](https://github.com/ArunBhandarii/Apache-Struts-0Day-Exploit)
 - [freshdemo/ApacheStruts-CVE-2018-11776](https://github.com/freshdemo/ApacheStruts-CVE-2018-11776)
 - [sonpt-afk/CVE-2018-11776-FIS](https://github.com/sonpt-afk/CVE-2018-11776-FIS)
-- [JIYUN02/cve-2018-11776](https://github.com/JIYUN02/cve-2018-11776)
 
 ### CVE-2018-11784 (2018-10-04)
 
