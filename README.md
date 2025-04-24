@@ -319,6 +319,9 @@
 
 - [shellkraft/CVE-2025-3568](https://github.com/shellkraft/CVE-2025-3568)
 
+### CVE-2025-3776
+- [Nxploited/CVE-2025-3776](https://github.com/Nxploited/CVE-2025-3776)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -9445,13 +9448,6 @@
 </code>
 
 - [jackalkarlos/CVE-2024-46658](https://github.com/jackalkarlos/CVE-2024-46658)
-
-### CVE-2024-46713 (2024-09-13)
-
-<code>In the Linux kernel, the following vulnerability has been resolved:\n\nperf/aux: Fix AUX buffer serialization\n\nOle reported that event-&gt;mmap_mutex is strictly insufficient to\nserialize the AUX buffer, add a per RB mutex to fully serialize it.\n\nNote that in the lock order comment the perf_event::mmap_mutex order\nwas already wrong, that is, it nesting under mmap_lock is not new with\nthis patch.
-</code>
-
-- [enlist12/CVE-2024-46713](https://github.com/enlist12/CVE-2024-46713)
 
 ### CVE-2024-46981 (2025-01-06)
 
@@ -38569,7 +38565,6 @@
 - [elbiazo/CVE-2020-27786](https://github.com/elbiazo/CVE-2020-27786)
 - [Trinadh465/linux-4.19.72_CVE-2020-27786](https://github.com/Trinadh465/linux-4.19.72_CVE-2020-27786)
 - [ii4gsp/CVE-2020-27786](https://github.com/ii4gsp/CVE-2020-27786)
-- [enlist12/CVE-2020-27786](https://github.com/enlist12/CVE-2020-27786)
 
 ### CVE-2020-27815 (2021-05-26)
 
