@@ -1147,6 +1147,7 @@
 - [somatrasss/CVE-2025-29306](https://github.com/somatrasss/CVE-2025-29306)
 - [verylazytech/CVE-2025-29306](https://github.com/verylazytech/CVE-2025-29306)
 - [inok009/FOXCMS-CVE-2025-29306-POC](https://github.com/inok009/FOXCMS-CVE-2025-29306-POC)
+- [Mattb709/CVE-2025-29306-PoC-FoxCMS-RCE](https://github.com/Mattb709/CVE-2025-29306-PoC-FoxCMS-RCE)
 
 ### CVE-2025-29384 (2025-03-14)
 
