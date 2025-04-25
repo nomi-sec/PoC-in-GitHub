@@ -239,6 +239,12 @@
 - [realcodeb0ss/CVE-2025-2294-PoC](https://github.com/realcodeb0ss/CVE-2025-2294-PoC)
 - [rhz0d/CVE-2025-2294](https://github.com/rhz0d/CVE-2025-2294)
 
+### CVE-2025-2301
+- [sahici/CVE-2025-2301](https://github.com/sahici/CVE-2025-2301)
+
+### CVE-2025-2404
+- [sahici/CVE-2025-2404](https://github.com/sahici/CVE-2025-2404)
+
 ### CVE-2025-2476 (2025-03-19)
 
 <code>Use after free in Lens in Google Chrome prior to 134.0.6998.117 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Critical)
@@ -281,6 +287,9 @@
 
 - [Nxploited/CVE-2025-2807](https://github.com/Nxploited/CVE-2025-2807)
 
+### CVE-2025-2812
+- [sahici/CVE-2025-2812](https://github.com/sahici/CVE-2025-2812)
+
 ### CVE-2025-2825
 - [WOOOOONG/CVE-2025-2825](https://github.com/WOOOOONG/CVE-2025-2825)
 - [punitdarji/crushftp-CVE-2025-2825](https://github.com/punitdarji/crushftp-CVE-2025-2825)
@@ -302,6 +311,13 @@
 - [Nxploited/CVE-2025-3102](https://github.com/Nxploited/CVE-2025-3102)
 - [rhz0d/CVE-2025-3102](https://github.com/rhz0d/CVE-2025-3102)
 - [dennisec/CVE-2025-3102](https://github.com/dennisec/CVE-2025-3102)
+
+### CVE-2025-3243 (2025-04-04)
+
+<code>Eine kritische Schwachstelle wurde in code-projects Patient Record Management System 1.0 gefunden. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei /dental_form.php. Durch Beeinflussen des Arguments itr_no mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [TeneBrae93/CVE-2025-3243](https://github.com/TeneBrae93/CVE-2025-3243)
 
 ### CVE-2025-3248 (2025-04-07)
 
@@ -325,9 +341,6 @@
 </code>
 
 - [Nxploited/CVE-2025-3776](https://github.com/Nxploited/CVE-2025-3776)
-
-### CVE-2025-12654
-- [ThreeMens/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/ThreeMens/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -1142,7 +1155,11 @@
 
 - [Otsmane-Ahmed/cve-2025-29384-poc](https://github.com/Otsmane-Ahmed/cve-2025-29384-poc)
 
-### CVE-2025-29529
+### CVE-2025-29529 (2025-04-24)
+
+<code>ITC Systems Multiplan/Matrix OneCard platform v3.7.4.1002 was discovered to contain a SQL injection vulnerability via the component Forgotpassword.aspx.
+</code>
+
 - [Yoshik0xF6/CVE-2025-29529](https://github.com/Yoshik0xF6/CVE-2025-29529)
 
 ### CVE-2025-29602
@@ -1421,6 +1438,7 @@
 - [TX-One/CVE-2025-31161](https://github.com/TX-One/CVE-2025-31161)
 - [SUPRAAA-1337/CVE-2025-31161](https://github.com/SUPRAAA-1337/CVE-2025-31161)
 - [SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825](https://github.com/SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825)
+- [SUPRAAA-1337/CVE-2025-31161_exploit](https://github.com/SUPRAAA-1337/CVE-2025-31161_exploit)
 
 ### CVE-2025-31200 (2025-04-16)
 
@@ -1500,6 +1518,7 @@
 - [meloppeitreet/CVE-2025-32433-Remote-Shell](https://github.com/meloppeitreet/CVE-2025-32433-Remote-Shell)
 - [tobiasGuta/Erlang-OTP-CVE-2025-32433](https://github.com/tobiasGuta/Erlang-OTP-CVE-2025-32433)
 - [ps-interactive/lab_CVE-2025-32433](https://github.com/ps-interactive/lab_CVE-2025-32433)
+- [rizky412/CVE-2025-32433](https://github.com/rizky412/CVE-2025-32433)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -28234,7 +28253,6 @@
 - [kimusan/pkwner](https://github.com/kimusan/pkwner)
 - [Nero22k/CVE-2021-4034](https://github.com/Nero22k/CVE-2021-4034)
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
-- [jostmart/-CVE-2021-4034](https://github.com/jostmart/-CVE-2021-4034)
 - [c3l3si4n/pwnkit](https://github.com/c3l3si4n/pwnkit)
 - [n3rdh4x0r/CVE-2021-4034](https://github.com/n3rdh4x0r/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
@@ -28630,7 +28648,6 @@
 </code>
 
 - [ForbiddenProgrammer/CVE-2021-21315-PoC](https://github.com/ForbiddenProgrammer/CVE-2021-21315-PoC)
-- [cherrera0001/CVE-2021-21315v2](https://github.com/cherrera0001/CVE-2021-21315v2)
 - [MazX0p/CVE-2021-21315-exploit](https://github.com/MazX0p/CVE-2021-21315-exploit)
 - [alikarimi999/CVE-2021-21315](https://github.com/alikarimi999/CVE-2021-21315)
 - [G01d3nW01f/CVE-2021-21315](https://github.com/G01d3nW01f/CVE-2021-21315)
@@ -32830,6 +32847,7 @@
 </code>
 
 - [lowkey0808/CVE-2021-43857](https://github.com/lowkey0808/CVE-2021-43857)
+- [G4sp4rCS/CVE-2021-43857-POC](https://github.com/G4sp4rCS/CVE-2021-43857-POC)
 
 ### CVE-2021-43858 (2021-12-27)
 
@@ -45972,6 +45990,13 @@
 - [u238/grafana-CVE-2018-15727](https://github.com/u238/grafana-CVE-2018-15727)
 - [grimbelhax/CVE-2018-15727](https://github.com/grimbelhax/CVE-2018-15727)
 
+### CVE-2018-15745 (2018-08-30)
+
+<code>Argus Surveillance DVR 4.0.0.0 devices allow Unauthenticated Directory Traversal, leading to File Disclosure via a ..%2F in the WEBACCOUNT.CGI RESULTPAGE parameter.
+</code>
+
+- [Jasurbek-Masimov/CVE-2018-15745](https://github.com/Jasurbek-Masimov/CVE-2018-15745)
+
 ### CVE-2018-15832 (2018-09-20)
 
 <code>upc.exe in Ubisoft Uplay Desktop Client versions 63.0.5699.0 allows remote attackers to execute arbitrary code. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of URI handlers. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of the current process.
@@ -54010,7 +54035,6 @@
 - [0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447)
 - [ozuma/CVE-2007-2447](https://github.com/ozuma/CVE-2007-2447)
 - [G01d3nW01f/CVE-2007-2447](https://github.com/G01d3nW01f/CVE-2007-2447)
-- [cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447)
 - [Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447)
 - [3t4n/samba-3.0.24-CVE-2007-2447-vunerable-](https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-)
 - [xbufu/CVE-2007-2447](https://github.com/xbufu/CVE-2007-2447)
