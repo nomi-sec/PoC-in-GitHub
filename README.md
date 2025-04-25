@@ -85,6 +85,9 @@
 
 - [skrkcb2/CVE-2025-0924-different](https://github.com/skrkcb2/CVE-2025-0924-different)
 
+### CVE-2025-0927
+- [mr-spongebob/CVE-2025-0927](https://github.com/mr-spongebob/CVE-2025-0927)
+
 ### CVE-2025-0994 (2025-02-06)
 
 <code>Trimble Cityworks versions prior to 15.8.9 and Cityworks with office companion versions prior to 23.10 are vulnerable to a deserialization vulnerability. This could allow an authenticated user to perform a remote code execution attack against a customer’s Microsoft Internet Information Services (IIS) web server.
@@ -644,6 +647,13 @@
 - [realcodeb0ss/CVE-2025-24799-PoC](https://github.com/realcodeb0ss/CVE-2025-24799-PoC)
 - [MuhammadWaseem29/CVE-2025-24799](https://github.com/MuhammadWaseem29/CVE-2025-24799)
 - [MatheuZSecurity/Exploit-CVE-2025-24799](https://github.com/MatheuZSecurity/Exploit-CVE-2025-24799)
+
+### CVE-2025-24801 (2025-03-18)
+
+<code>GLPI is a free asset and IT management software package. An authenticated user can upload and force the execution of *.php files located on the GLPI server. This vulnerability is fixed in 10.0.18.
+</code>
+
+- [r1beirin/CVE-2025-24801](https://github.com/r1beirin/CVE-2025-24801)
 
 ### CVE-2025-24813 (2025-03-10)
 
@@ -1451,6 +1461,13 @@
 
 - [zhuowei/apple-positional-audio-codec-invalid-header](https://github.com/zhuowei/apple-positional-audio-codec-invalid-header)
 
+### CVE-2025-31324 (2025-04-24)
+
+<code>SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system.
+</code>
+
+- [rxerium/CVE-2025-31324](https://github.com/rxerium/CVE-2025-31324)
+
 ### CVE-2025-31486 (2025-04-03)
 
 <code>Vite is a frontend tooling framework for javascript. The contents of arbitrary files can be returned to the browser. By adding ?.svg with ?.wasm?init or with sec-fetch-dest: script header, the server.fs.deny restriction was able to bypass. This bypass is only possible if the file is smaller than build.assetsInlineLimit (default: 4kB) and when using Vite 6.0+. Only apps explicitly exposing the Vite dev server to the network (using --host or server.host config option) are affected. This vulnerability is fixed in 4.5.12, 5.4.17, 6.0.14, 6.1.4, and 6.2.5.
@@ -1523,6 +1540,8 @@
 - [tobiasGuta/Erlang-OTP-CVE-2025-32433](https://github.com/tobiasGuta/Erlang-OTP-CVE-2025-32433)
 - [ps-interactive/lab_CVE-2025-32433](https://github.com/ps-interactive/lab_CVE-2025-32433)
 - [rizky412/CVE-2025-32433](https://github.com/rizky412/CVE-2025-32433)
+- [0x7556/CVE-2025-32433](https://github.com/0x7556/CVE-2025-32433)
+- [becrevex/CVE-2025-32433](https://github.com/becrevex/CVE-2025-32433)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -7319,6 +7338,13 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-32709-Poc](https://github.com/truonghuuphuc/CVE-2024-32709-Poc)
+
+### CVE-2024-32830 (2024-05-17)
+
+<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in ThemeKraft BuddyForms allows Server Side Request Forgery, Relative Path Traversal.This issue affects BuddyForms: from n/a through 2.8.8.
+</code>
+
+- [ptrstr/CVE-2024-32830-poc](https://github.com/ptrstr/CVE-2024-32830-poc)
 
 ### CVE-2024-32962 (2024-05-02)
 
@@ -15694,7 +15720,7 @@
 - [oferchen/POC-CVE-2023-32233](https://github.com/oferchen/POC-CVE-2023-32233)
 - [RogelioPumajulca/TEST-CVE-2023-32233](https://github.com/RogelioPumajulca/TEST-CVE-2023-32233)
 - [void0red/CVE-2023-32233](https://github.com/void0red/CVE-2023-32233)
-- [mr-spongebob/a-CVE-2023-32233](https://github.com/mr-spongebob/a-CVE-2023-32233)
+- [mr-spongebob/CVE-2023-32233](https://github.com/mr-spongebob/CVE-2023-32233)
 
 ### CVE-2023-32235 (2023-05-05)
 
@@ -17788,6 +17814,7 @@
 - [MrR0b0t19/vulnerabilidad-LibWebP-CVE-2023-41064](https://github.com/MrR0b0t19/vulnerabilidad-LibWebP-CVE-2023-41064)
 - [MrR0b0t19/CVE-2023-41064](https://github.com/MrR0b0t19/CVE-2023-41064)
 - [sarsaeroth/CVE-2023-41064-POC](https://github.com/sarsaeroth/CVE-2023-41064-POC)
+- [K4Der11000/k4_cve-2023-41064](https://github.com/K4Der11000/k4_cve-2023-41064)
 
 ### CVE-2023-41080 (2023-08-25)
 
@@ -17828,6 +17855,7 @@
 - [0x0d3ad/CVE-2023-41425](https://github.com/0x0d3ad/CVE-2023-41425)
 - [xpltive/CVE-2023-41425](https://github.com/xpltive/CVE-2023-41425)
 - [KGorbakon/CVE-2023-41425](https://github.com/KGorbakon/CVE-2023-41425)
+- [becrevex/CVE-2023-41425](https://github.com/becrevex/CVE-2023-41425)
 
 ### CVE-2023-41436 (2023-09-15)
 
@@ -40174,6 +40202,7 @@
 - [PenTestical/CVE-2019-5420](https://github.com/PenTestical/CVE-2019-5420)
 - [laffray/ruby-RCE-CVE-2019-5420-](https://github.com/laffray/ruby-RCE-CVE-2019-5420-)
 - [WildWestCyberSecurity/cve-2019-5420-POC](https://github.com/WildWestCyberSecurity/cve-2019-5420-POC)
+- [sealldeveloper/CVE-2019-5420-PoC](https://github.com/sealldeveloper/CVE-2019-5420-PoC)
 
 ### CVE-2019-5427 (2019-04-22)
 
@@ -43450,6 +43479,7 @@
 - [Pandora-research/CVE-2018-0114-Exploit](https://github.com/Pandora-research/CVE-2018-0114-Exploit)
 - [amr9k8/jwt-spoof-tool](https://github.com/amr9k8/jwt-spoof-tool)
 - [z-bool/Venom-JWT](https://github.com/z-bool/Venom-JWT)
+- [sealldeveloper/CVE-2018-0114-PoC](https://github.com/sealldeveloper/CVE-2018-0114-PoC)
 
 ### CVE-2018-0171 (2018-03-28)
 
@@ -49670,6 +49700,7 @@
 - [j4k0m/CVE-2016-2098](https://github.com/j4k0m/CVE-2016-2098)
 - [Shakun8/CVE-2016-2098](https://github.com/Shakun8/CVE-2016-2098)
 - [JoseLRC97/Ruby-on-Rails-ActionPack-Inline-ERB-Remote-Code-Execution](https://github.com/JoseLRC97/Ruby-on-Rails-ActionPack-Inline-ERB-Remote-Code-Execution)
+- [sealldeveloper/CVE-2016-2098-PoC](https://github.com/sealldeveloper/CVE-2016-2098-PoC)
 
 ### CVE-2016-2107 (2016-05-05)
 
@@ -50548,6 +50579,7 @@
 - [CAOlvchonger/CVE-2016-10033](https://github.com/CAOlvchonger/CVE-2016-10033)
 - [ElnurBDa/CVE-2016-10033](https://github.com/ElnurBDa/CVE-2016-10033)
 - [Astrowmist/POC-CVE-2016-10033](https://github.com/Astrowmist/POC-CVE-2016-10033)
+- [sealldeveloper/CVE-2016-10033-PoC](https://github.com/sealldeveloper/CVE-2016-10033-PoC)
 
 ### CVE-2016-10034 (2016-12-30)
 
