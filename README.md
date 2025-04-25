@@ -311,6 +311,8 @@
 - [Nxploited/CVE-2025-3102](https://github.com/Nxploited/CVE-2025-3102)
 - [rhz0d/CVE-2025-3102](https://github.com/rhz0d/CVE-2025-3102)
 - [dennisec/CVE-2025-3102](https://github.com/dennisec/CVE-2025-3102)
+- [SUPRAAA-1337/CVE-2025-3102](https://github.com/SUPRAAA-1337/CVE-2025-3102)
+- [SUPRAAA-1337/CVE-2025-3102_v2](https://github.com/SUPRAAA-1337/CVE-2025-3102_v2)
 
 ### CVE-2025-3243 (2025-04-04)
 
@@ -1274,6 +1276,7 @@
 - [Grand-Moomin/Vuln-Next.js-CVE-2025-29927](https://github.com/Grand-Moomin/Vuln-Next.js-CVE-2025-29927)
 - [pouriam23/Next.js-Middleware-Bypass-CVE-2025-29927-](https://github.com/pouriam23/Next.js-Middleware-Bypass-CVE-2025-29927-)
 - [kh4sh3i/CVE-2025-29927](https://github.com/kh4sh3i/CVE-2025-29927)
+- [EQSTLab/CVE-2025-29927](https://github.com/EQSTLab/CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -5927,6 +5930,7 @@
 - [funixone/CVE-2024-24919---Exploit-Script](https://github.com/funixone/CVE-2024-24919---Exploit-Script)
 - [spider00009/CVE-2024-24919-POC](https://github.com/spider00009/CVE-2024-24919-POC)
 - [ejaboz/cve-2024-24919](https://github.com/ejaboz/cve-2024-24919)
+- [CyprianAtsyor/CVE-2024-24919-Incident-Report.md](https://github.com/CyprianAtsyor/CVE-2024-24919-Incident-Report.md)
 
 ### CVE-2024-24926 (2024-02-12)
 
@@ -15359,6 +15363,13 @@
 </code>
 
 - [jmrcsnchz/CVE-2023-30854](https://github.com/jmrcsnchz/CVE-2023-30854)
+
+### CVE-2023-30861 (2023-05-02)
+
+<code>Flask is a lightweight WSGI web application framework. When all of the following conditions are met, a response containing data intended for one client may be cached and subsequently sent by the proxy to other clients. If the proxy also caches `Set-Cookie` headers, it may send one client's `session` cookie to other clients. The severity depends on the application's use of the session and the proxy's behavior regarding cookies. The risk depends on all these conditions being met.\n\n1. The application must be hosted behind a caching proxy that does not strip cookies or ignore responses with cookies.\n2. The application sets `session.permanent = True`\n3. The application does not access or modify the session at any point during a request.\n4. `SESSION_REFRESH_EACH_REQUEST` enabled (the default).\n5. The application does not set a `Cache-Control` header to indicate that a page is private or should not be cached.\n\nThis happens because vulnerable versions of Flask only set the `Vary: Cookie` header when the session is accessed or modified, not when it is refreshed (re-sent to update the expiration) without being accessed or modified. This issue has been fixed in versions 2.3.2 and 2.2.5.
+</code>
+
+- [fromitive/cve-2023-30861-poc](https://github.com/fromitive/cve-2023-30861-poc)
 
 ### CVE-2023-30943 (2023-05-02)
 
@@ -46748,7 +46759,6 @@
 </code>
 
 - [afine-com/CVE-2018-25031](https://github.com/afine-com/CVE-2018-25031)
-- [kriso4os/CVE-2018-25031](https://github.com/kriso4os/CVE-2018-25031)
 - [rafaelcintralopes/SwaggerUI-CVE-2018-25031](https://github.com/rafaelcintralopes/SwaggerUI-CVE-2018-25031)
 - [mathis2001/CVE-2018-25031](https://github.com/mathis2001/CVE-2018-25031)
 - [wrkk112/CVE-2018-25031](https://github.com/wrkk112/CVE-2018-25031)
