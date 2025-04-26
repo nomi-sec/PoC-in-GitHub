@@ -316,6 +316,7 @@
 - [dennisec/CVE-2025-3102](https://github.com/dennisec/CVE-2025-3102)
 - [SUPRAAA-1337/CVE-2025-3102](https://github.com/SUPRAAA-1337/CVE-2025-3102)
 - [SUPRAAA-1337/CVE-2025-3102_v2](https://github.com/SUPRAAA-1337/CVE-2025-3102_v2)
+- [SUPRAAA-1337/CVE-2025-3102-exploit](https://github.com/SUPRAAA-1337/CVE-2025-3102-exploit)
 
 ### CVE-2025-3243 (2025-04-04)
 
@@ -1450,7 +1451,6 @@
 - [Immersive-Labs-Sec/CVE-2025-31161](https://github.com/Immersive-Labs-Sec/CVE-2025-31161)
 - [llussiess/CVE-2025-31161](https://github.com/llussiess/CVE-2025-31161)
 - [TX-One/CVE-2025-31161](https://github.com/TX-One/CVE-2025-31161)
-- [SUPRAAA-1337/CVE-2025-31161](https://github.com/SUPRAAA-1337/CVE-2025-31161)
 - [SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825](https://github.com/SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825)
 - [SUPRAAA-1337/CVE-2025-31161_exploit](https://github.com/SUPRAAA-1337/CVE-2025-31161_exploit)
 
@@ -11182,7 +11182,7 @@
 
 ### CVE-2024-56431 (2024-12-25)
 
-<code>oc_huff_tree_unpack in huffdec.c in libtheora in Theora through 1.0 7180717 has an invalid negative left shift.
+<code>oc_huff_tree_unpack in huffdec.c in libtheora in Theora through 1.0 7180717 has an invalid negative left shift. NOTE: this is disputed by third parties because there is no evidence of a security impact, e.g., an application would not crash.
 </code>
 
 - [UnionTech-Software/libtheora-CVE-2024-56431-PoC](https://github.com/UnionTech-Software/libtheora-CVE-2024-56431-PoC)
@@ -11698,6 +11698,7 @@
 - [HarshRajSinghania/CVE-2023-1545-Exploit](https://github.com/HarshRajSinghania/CVE-2023-1545-Exploit)
 - [zer0-dave/CVE-2023-1545-POC](https://github.com/zer0-dave/CVE-2023-1545-POC)
 - [sternstundes/CVE-2023-1545-POC-python](https://github.com/sternstundes/CVE-2023-1545-POC-python)
+- [gunzf0x/CVE-2023-1545](https://github.com/gunzf0x/CVE-2023-1545)
 
 ### CVE-2023-1665 (2023-03-27)
 
