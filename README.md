@@ -242,6 +242,7 @@
 - [mrrivaldo/CVE-2025-2294](https://github.com/mrrivaldo/CVE-2025-2294)
 - [realcodeb0ss/CVE-2025-2294-PoC](https://github.com/realcodeb0ss/CVE-2025-2294-PoC)
 - [rhz0d/CVE-2025-2294](https://github.com/rhz0d/CVE-2025-2294)
+- [romanedutov/CVE-2025-2294](https://github.com/romanedutov/CVE-2025-2294)
 
 ### CVE-2025-2301
 - [sahici/CVE-2025-2301](https://github.com/sahici/CVE-2025-2301)
@@ -1229,7 +1230,6 @@
 - [Eve-SatOrU/POC-CVE-2025-29927](https://github.com/Eve-SatOrU/POC-CVE-2025-29927)
 - [arvion-agent/next-CVE-2025-29927](https://github.com/arvion-agent/next-CVE-2025-29927)
 - [Oyst3r1ng/CVE-2025-29927](https://github.com/Oyst3r1ng/CVE-2025-29927)
-- [lediusa/CVE-2025-29927](https://github.com/lediusa/CVE-2025-29927)
 - [lem0n817/CVE-2025-29927](https://github.com/lem0n817/CVE-2025-29927)
 - [kuzushiki/CVE-2025-29927-test](https://github.com/kuzushiki/CVE-2025-29927-test)
 - [ricsirigu/CVE-2025-29927](https://github.com/ricsirigu/CVE-2025-29927)
@@ -1247,6 +1247,7 @@
 - [maronnjapan/claude-create-CVE-2025-29927](https://github.com/maronnjapan/claude-create-CVE-2025-29927)
 - [kOaDT/poc-cve-2025-29927](https://github.com/kOaDT/poc-cve-2025-29927)
 - [yugo-eliatrope/test-cve-2025-29927](https://github.com/yugo-eliatrope/test-cve-2025-29927)
+- [emadshanab/CVE-2025-29927](https://github.com/emadshanab/CVE-2025-29927)
 - [Slvignesh05/CVE-2025-29927](https://github.com/Slvignesh05/CVE-2025-29927)
 - [aleongx/CVE-2025-29927](https://github.com/aleongx/CVE-2025-29927)
 - [nicknisi/next-attack](https://github.com/nicknisi/next-attack)
@@ -1324,7 +1325,6 @@
 <code>Vite, a provider of frontend development tooling, has a vulnerability in versions prior to 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10. `@fs` denies access to files outside of Vite serving allow list. Adding `?raw??` or `?import&amp;raw??` to the URL bypasses this limitation and returns the file content if it exists. This bypass exists because trailing separators such as `?` are removed in several places, but are not accounted for in query string regexes. The contents of arbitrary files can be returned to the browser. Only apps explicitly exposing the Vite dev server to the network (using `--host` or `server.host` config option) are affected. Versions 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10 fix the issue.
 </code>
 
-- [LiChaser/CVE-2025-30208](https://github.com/LiChaser/CVE-2025-30208)
 - [xuemian168/CVE-2025-30208](https://github.com/xuemian168/CVE-2025-30208)
 - [ThumpBo/CVE-2025-30208-EXP](https://github.com/ThumpBo/CVE-2025-30208-EXP)
 - [xaitx/CVE-2025-30208](https://github.com/xaitx/CVE-2025-30208)
@@ -6474,6 +6474,13 @@
 
 - [R00tkitSMM/CVE-2024-27804](https://github.com/R00tkitSMM/CVE-2024-27804)
 
+### CVE-2024-27808 (2024-06-10)
+
+<code>The issue was addressed with improved memory handling. This issue is fixed in tvOS 17.5, visionOS 1.2, Safari 17.5, iOS 17.5 and iPadOS 17.5, watchOS 10.5, macOS Sonoma 14.5. Processing web content may lead to arbitrary code execution.
+</code>
+
+- [Leandrobts/CVE-2024-27808.github.io](https://github.com/Leandrobts/CVE-2024-27808.github.io)
+
 ### CVE-2024-27815 (2024-06-10)
 
 <code>An out-of-bounds write issue was addressed with improved input validation. This issue is fixed in tvOS 17.5, visionOS 1.2, iOS 17.5 and iPadOS 17.5, watchOS 10.5, macOS Sonoma 14.5. An app may be able to execute arbitrary code with kernel privileges.
@@ -7034,6 +7041,7 @@
 - [jmywh1/CVE-2024-31317](https://github.com/jmywh1/CVE-2024-31317)
 - [Anonymous941/zygote-injection-toolkit](https://github.com/Anonymous941/zygote-injection-toolkit)
 - [Webldix/CVE-2024-31317-PoC-Deployer](https://github.com/Webldix/CVE-2024-31317-PoC-Deployer)
+- [agg23/cve-2024-31317](https://github.com/agg23/cve-2024-31317)
 
 ### CVE-2024-31319 (2024-07-09)
 
@@ -15940,7 +15948,6 @@
 - [SuperZero/CVE-2023-33246](https://github.com/SuperZero/CVE-2023-33246)
 - [Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT](https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT)
 - [AiK1d/CVE-2023-33246](https://github.com/AiK1d/CVE-2023-33246)
-- [Devil0ll/CVE-2023-33246](https://github.com/Devil0ll/CVE-2023-33246)
 - [d0rb/CVE-2023-33246](https://github.com/d0rb/CVE-2023-33246)
 - [vulncheck-oss/fetch-broker-conf](https://github.com/vulncheck-oss/fetch-broker-conf)
 - [0xKayala/CVE-2023-33246](https://github.com/0xKayala/CVE-2023-33246)
@@ -28298,7 +28305,6 @@
 - [Nero22k/CVE-2021-4034](https://github.com/Nero22k/CVE-2021-4034)
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [c3l3si4n/pwnkit](https://github.com/c3l3si4n/pwnkit)
-- [n3rdh4x0r/CVE-2021-4034](https://github.com/n3rdh4x0r/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [san3ncrypt3d/CVE-2021-4034-POC](https://github.com/san3ncrypt3d/CVE-2021-4034-POC)
 - [fdellwing/CVE-2021-4034](https://github.com/fdellwing/CVE-2021-4034)
@@ -32407,6 +32413,7 @@
 - [knightswd/NoPacScan](https://github.com/knightswd/NoPacScan)
 - [XiaoliChan/Invoke-sAMSpoofing](https://github.com/XiaoliChan/Invoke-sAMSpoofing)
 - [TryA9ain/noPac](https://github.com/TryA9ain/noPac)
+- [DanielFEXKEX/CVE-Scanner](https://github.com/DanielFEXKEX/CVE-Scanner)
 
 ### CVE-2021-42292 (2021-11-10)
 
@@ -47606,6 +47613,7 @@
 - [Nithylesh/web-application-firewall-](https://github.com/Nithylesh/web-application-firewall-)
 - [kloutkake/CVE-2017-5638-PoC](https://github.com/kloutkake/CVE-2017-5638-PoC)
 - [Xernary/CVE-2017-5638-POC](https://github.com/Xernary/CVE-2017-5638-POC)
+- [JuniorJANG/cve-2017-5638](https://github.com/JuniorJANG/cve-2017-5638)
 
 ### CVE-2017-5645 (2017-04-17)
 
