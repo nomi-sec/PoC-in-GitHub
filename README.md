@@ -194,6 +194,7 @@
 - [rjhaikal/POC-IngressNightmare-CVE-2025-1974](https://github.com/rjhaikal/POC-IngressNightmare-CVE-2025-1974)
 - [zulloper/CVE-2025-1974](https://github.com/zulloper/CVE-2025-1974)
 - [Rubby2001/CVE-2025-1974-go](https://github.com/Rubby2001/CVE-2025-1974-go)
+- [chhhd/CVE-2025-1974](https://github.com/chhhd/CVE-2025-1974)
 
 ### CVE-2025-2005 (2025-04-02)
 
@@ -11641,6 +11642,7 @@
 
 - [Voyag3r-Security/CVE-2023-1389](https://github.com/Voyag3r-Security/CVE-2023-1389)
 - [Terminal1337/CVE-2023-1389](https://github.com/Terminal1337/CVE-2023-1389)
+- [ibrahimsql/CVE2023-1389](https://github.com/ibrahimsql/CVE2023-1389)
 
 ### CVE-2023-1415 (2023-03-15)
 
@@ -17438,6 +17440,7 @@
 </code>
 
 - [HPT-Intern-Task-Submission/CVE-2023-39361](https://github.com/HPT-Intern-Task-Submission/CVE-2023-39361)
+- [ChoDeokCheol/CVE-2023-39361](https://github.com/ChoDeokCheol/CVE-2023-39361)
 
 ### CVE-2023-39362 (2023-09-05)
 
