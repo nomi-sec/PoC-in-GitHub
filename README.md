@@ -195,6 +195,7 @@
 - [zulloper/CVE-2025-1974](https://github.com/zulloper/CVE-2025-1974)
 - [Rubby2001/CVE-2025-1974-go](https://github.com/Rubby2001/CVE-2025-1974-go)
 - [chhhd/CVE-2025-1974](https://github.com/chhhd/CVE-2025-1974)
+- [salt318/CVE-2025-1974](https://github.com/salt318/CVE-2025-1974)
 
 ### CVE-2025-2005 (2025-04-02)
 
@@ -575,6 +576,7 @@
 
 - [xigney/CVE-2025-24054_PoC](https://github.com/xigney/CVE-2025-24054_PoC)
 - [helidem/CVE-2025-24054-PoC](https://github.com/helidem/CVE-2025-24054-PoC)
+- [ClementNjeru/CVE-2025-24054-PoC](https://github.com/ClementNjeru/CVE-2025-24054-PoC)
 
 ### CVE-2025-24071 (2025-03-11)
 
@@ -1469,6 +1471,7 @@
 </code>
 
 - [rxerium/CVE-2025-31324](https://github.com/rxerium/CVE-2025-31324)
+- [redrays-io/CVE-2025-31324](https://github.com/redrays-io/CVE-2025-31324)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -1529,6 +1532,7 @@
 </code>
 
 - [Chocapikk/CVE-2025-32432](https://github.com/Chocapikk/CVE-2025-32432)
+- [Sachinart/CVE-2025-32432](https://github.com/Sachinart/CVE-2025-32432)
 
 ### CVE-2025-32433 (2025-04-16)
 
@@ -1602,6 +1606,20 @@
 </code>
 
 - [Nxploited/CVE-2025-39601](https://github.com/Nxploited/CVE-2025-39601)
+
+### CVE-2025-43864 (2025-04-25)
+
+<code>React Router is a router for React. Starting in version 7.2.0 and prior to version 7.5.2, it is possible to force an application to switch to SPA mode by adding a header to the request. If the application uses SSR and is forced to switch to SPA, this causes an error that completely corrupts the page. If a cache system is in place, this allows the response containing the error to be cached, resulting in a cache poisoning that strongly impacts the availability of the application. This issue has been patched in version 7.5.2.
+</code>
+
+- [pouriam23/DoS-via-cache-poisoning-by-forcing-SPA-mode-CVE-2025-43864-](https://github.com/pouriam23/DoS-via-cache-poisoning-by-forcing-SPA-mode-CVE-2025-43864-)
+
+### CVE-2025-43865 (2025-04-25)
+
+<code>React Router is a router for React. In versions on the 7.0 branch prior to version 7.5.2, it's possible to modify pre-rendered data by adding a header to the request. This allows to completely spoof its contents and modify all the values ​​of the data object passed to the HTML. This issue has been patched in version 7.5.2.
+</code>
+
+- [pouriam23/Pre-render-data-spoofing-on-React-Router-framework-mode-CVE-2025-43865](https://github.com/pouriam23/Pre-render-data-spoofing-on-React-Router-framework-mode-CVE-2025-43865)
 
 ### CVE-2025-43919 (2025-04-20)
 
@@ -2949,7 +2967,7 @@
 - [Chocapikk/CVE-2024-5084](https://github.com/Chocapikk/CVE-2024-5084)
 - [k3lpi3b4nsh33/CVE-2024-5084](https://github.com/k3lpi3b4nsh33/CVE-2024-5084)
 - [WOOOOONG/CVE-2024-5084](https://github.com/WOOOOONG/CVE-2024-5084)
-- [z1gazaga/CVE-2024-5084](https://github.com/z1gazaga/CVE-2024-5084)
+- [BREUSBOSS/CVE-2024-5084](https://github.com/BREUSBOSS/CVE-2024-5084)
 - [Raeezrbr/CVE-2024-5084](https://github.com/Raeezrbr/CVE-2024-5084)
 - [ModeBrutal/CVE-2024-5084-Auto-Exploit](https://github.com/ModeBrutal/CVE-2024-5084-Auto-Exploit)
 
@@ -6485,6 +6503,13 @@
 </code>
 
 - [R00tkitSMM/CVE-2024-27804](https://github.com/R00tkitSMM/CVE-2024-27804)
+
+### CVE-2024-27808 (2024-06-10)
+
+<code>The issue was addressed with improved memory handling. This issue is fixed in tvOS 17.5, visionOS 1.2, Safari 17.5, iOS 17.5 and iPadOS 17.5, watchOS 10.5, macOS Sonoma 14.5. Processing web content may lead to arbitrary code execution.
+</code>
+
+- [Leandrobts/CVE-2024-27808.github.io](https://github.com/Leandrobts/CVE-2024-27808.github.io)
 
 ### CVE-2024-27815 (2024-06-10)
 
@@ -34747,7 +34772,7 @@
 <code>An elevation of privilege vulnerability exists in the way that the Windows WalletService handles objects in memory, aka 'Windows WalletService Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-1344, CVE-2020-1369.
 </code>
 
-- [Q4n/CVE-2020-1362](https://github.com/Q4n/CVE-2020-1362)
+- [asdyxcyxc/CVE-2020-1362](https://github.com/asdyxcyxc/CVE-2020-1362)
 
 ### CVE-2020-1472 (2020-08-17)
 
@@ -43276,6 +43301,7 @@
 - [k-fire/CVE-2019-19781-exploit](https://github.com/k-fire/CVE-2019-19781-exploit)
 - [zerobytesecure/CVE-2019-19781](https://github.com/zerobytesecure/CVE-2019-19781)
 - [user20252228/CVE-2019-19781](https://github.com/user20252228/CVE-2019-19781)
+- [hyunjin0334/CVE-2019-19781](https://github.com/hyunjin0334/CVE-2019-19781)
 
 ### CVE-2019-19782 (2019-12-13)
 
@@ -44699,6 +44725,7 @@
 - [killeveee/CVE-2018-7600](https://github.com/killeveee/CVE-2018-7600)
 - [raytran54/CVE-2018-7600](https://github.com/raytran54/CVE-2018-7600)
 - [user20252228/CVE-2018-7600.](https://github.com/user20252228/CVE-2018-7600.)
+- [Dowonkwon/drupal-cve-2018-7600-poc](https://github.com/Dowonkwon/drupal-cve-2018-7600-poc)
 
 ### CVE-2018-7602 (2018-07-19)
 
@@ -45969,6 +45996,7 @@
 - [NatteeSetobol/CVE-2018-15133-Lavel-Expliot](https://github.com/NatteeSetobol/CVE-2018-15133-Lavel-Expliot)
 - [Cr4zyD14m0nd137/Lab-for-cve-2018-15133](https://github.com/Cr4zyD14m0nd137/Lab-for-cve-2018-15133)
 - [0xSalle/cve-2018-15133](https://github.com/0xSalle/cve-2018-15133)
+- [yeahhbean/Laravel-CVE-2018-15133](https://github.com/yeahhbean/Laravel-CVE-2018-15133)
 
 ### CVE-2018-15139 (2018-08-13)
 
@@ -48062,6 +48090,14 @@
 
 - [kienquoc102/CVE-2017-8225](https://github.com/kienquoc102/CVE-2017-8225)
 - [K3ysTr0K3R/CVE-2017-8225-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-8225-EXPLOIT)
+
+### CVE-2017-8291 (2017-04-27)
+
+<code>Artifex Ghostscript through 2017-04-26 allows -dSAFER bypass and remote command execution via .rsdparams type confusion with a &quot;/OutputFile (%pipe%&quot; substring in a crafted .eps document that is an input to the gs program, as exploited in the wild in April 2017.
+</code>
+
+- [shun1403/CVE-2017-8291](https://github.com/shun1403/CVE-2017-8291)
+- [shun1403/PIL-CVE-2017-8291-study](https://github.com/shun1403/PIL-CVE-2017-8291-study)
 
 ### CVE-2017-8295 (2017-05-04)
 
@@ -51082,6 +51118,13 @@
 
 - [styx00/DNN_CVE-2015-2794](https://github.com/styx00/DNN_CVE-2015-2794)
 - [wilsc0w/CVE-2015-2794-finder](https://github.com/wilsc0w/CVE-2015-2794-finder)
+
+### CVE-2015-2797 (2015-06-19)
+
+<code>Stack-based buffer overflow in AirTies Air 6372, 5760, 5750, 5650TT, 5453, 5444TT, 5443, 5442, 5343, 5342, 5341, and 5021 DSL modems with firmware 1.0.2.0 and earlier allows remote attackers to execute arbitrary code via a long string in the redirect parameter to cgi-bin/login.
+</code>
+
+- [Bariskizilkaya/CVE-2015-2797-PoC](https://github.com/Bariskizilkaya/CVE-2015-2797-PoC)
 
 ### CVE-2015-2900 (2015-10-29)
 
