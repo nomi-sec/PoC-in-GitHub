@@ -352,6 +352,13 @@
 
 - [Nxploited/CVE-2025-3776](https://github.com/Nxploited/CVE-2025-3776)
 
+### CVE-2025-3914 (2025-04-26)
+
+<code>The Aeropage Sync for Airtable plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'aeropage_media_downloader' function in all versions up to, and including, 3.2.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [LvL23HT/PoC-CVE-2025-3914-Aeropage-WordPress-File-Upload](https://github.com/LvL23HT/PoC-CVE-2025-3914-Aeropage-WordPress-File-Upload)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -696,6 +703,7 @@
 - [Mattb709/CVE-2025-24813-PoC-Apache-Tomcat-RCE](https://github.com/Mattb709/CVE-2025-24813-PoC-Apache-Tomcat-RCE)
 - [Mattb709/CVE-2025-24813-Scanner](https://github.com/Mattb709/CVE-2025-24813-Scanner)
 - [Erosion2020/CVE-2025-24813-vulhub](https://github.com/Erosion2020/CVE-2025-24813-vulhub)
+- [hakankarabacak/CVE-2025-24813](https://github.com/hakankarabacak/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -1533,6 +1541,7 @@
 
 - [Chocapikk/CVE-2025-32432](https://github.com/Chocapikk/CVE-2025-32432)
 - [Sachinart/CVE-2025-32432](https://github.com/Sachinart/CVE-2025-32432)
+- [ibrahimsql/CVE-2025-32432](https://github.com/ibrahimsql/CVE-2025-32432)
 
 ### CVE-2025-32433 (2025-04-16)
 
@@ -1650,7 +1659,11 @@
 
 - [0xBenCantCode/CVE-2025-43929](https://github.com/0xBenCantCode/CVE-2025-43929)
 
-### CVE-2025-46657
+### CVE-2025-46657 (2025-04-27)
+
+<code>Karaz Karazal through 2025-04-14 allows reflected XSS via the lang parameter to the default URI.
+</code>
+
 - [nov-1337/CVE-2025-46657](https://github.com/nov-1337/CVE-2025-46657)
 
 ### CVE-2025-50000
@@ -7094,6 +7107,13 @@
 
 - [KTN1990/CVE-2024-31351_wordpress_exploit](https://github.com/KTN1990/CVE-2024-31351_wordpress_exploit)
 
+### CVE-2024-31449 (2024-10-07)
+
+<code>Redis is an open source, in-memory database that persists on disk. An authenticated user may use a specially crafted Lua script to trigger a stack buffer overflow in the bit library, which may potentially lead to remote code execution. The problem exists in all versions of Redis with Lua scripting. This problem has been fixed in Redis versions 6.2.16, 7.2.6, and 7.4.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [daeseong1209/CVE-2024-31449](https://github.com/daeseong1209/CVE-2024-31449)
+
 ### CVE-2024-31497 (2024-04-15)
 
 <code>In PuTTY 0.68 through 0.80 before 0.81, biased ECDSA nonce generation allows an attacker to recover a user's NIST P-521 secret key via a quick attack in approximately 60 signatures. This is especially important in a scenario where an adversary is able to read messages signed by PuTTY or Pageant. The required set of signed messages may be publicly readable because they are stored in a public Git service that supports use of SSH for commit signing, and the signatures were made by Pageant through an agent-forwarding mechanism. In other words, an adversary may already have enough signature information to compromise a victim's private key, even if there is no further use of vulnerable PuTTY versions. After a key compromise, an adversary may be able to conduct supply-chain attacks on software maintained in Git. A second, independent scenario is that the adversary is an operator of an SSH server to which the victim authenticates (for remote login or file copy), even though this server is not fully trusted by the victim, and the victim uses the same private key for SSH connections to other services operated by other entities. Here, the rogue server operator (who would otherwise have no way to determine the victim's private key) can derive the victim's private key, and then use it for unauthorized access to those other services. If the other services include Git services, then again it may be possible to conduct supply-chain attacks on software maintained in Git. This also affects, for example, FileZilla before 3.67.0, WinSCP before 6.3.3, TortoiseGit before 2.15.0.1, and TortoiseSVN through 1.14.6.
@@ -7932,6 +7952,13 @@
 </code>
 
 - [Abdurahmon3236/CVE-2024-36539](https://github.com/Abdurahmon3236/CVE-2024-36539)
+
+### CVE-2024-36587 (2024-06-13)
+
+<code>Insecure permissions in DNSCrypt-proxy v2.0.0alpha9 to v2.1.5 allows non-privileged attackers to escalate privileges to root via overwriting the binary dnscrypt-proxy.
+</code>
+
+- [meeeeing/CVE-2024-36587](https://github.com/meeeeing/CVE-2024-36587)
 
 ### CVE-2024-36821 (2024-06-11)
 
@@ -13751,7 +13778,6 @@
 - [iveresk/CVE-2023-22515](https://github.com/iveresk/CVE-2023-22515)
 - [youcannotseemeagain/CVE-2023-22515_RCE](https://github.com/youcannotseemeagain/CVE-2023-22515_RCE)
 - [DsaHen/cve-2023-22515-exp](https://github.com/DsaHen/cve-2023-22515-exp)
-- [joaoviictorti/CVE-2023-22515](https://github.com/joaoviictorti/CVE-2023-22515)
 - [C1ph3rX13/CVE-2023-22515](https://github.com/C1ph3rX13/CVE-2023-22515)
 - [AIex-3/confluence-hack](https://github.com/AIex-3/confluence-hack)
 - [LucasPDiniz/CVE-2023-22515](https://github.com/LucasPDiniz/CVE-2023-22515)
@@ -13765,6 +13791,7 @@
 - [xorbbo/cve-2023-22515](https://github.com/xorbbo/cve-2023-22515)
 - [spareack/CVE-2023-22515-NSE](https://github.com/spareack/CVE-2023-22515-NSE)
 - [Onedy1703/CVE-2023-22515-Confluence](https://github.com/Onedy1703/CVE-2023-22515-Confluence)
+- [killvxk/CVE-2023-22515-joaoviictorti](https://github.com/killvxk/CVE-2023-22515-joaoviictorti)
 - [vivigotnotime/CVE-2023-22515-Exploit-Script](https://github.com/vivigotnotime/CVE-2023-22515-Exploit-Script)
 
 ### CVE-2023-22518 (2023-10-31)
@@ -19193,6 +19220,7 @@
 - [bipbopbup/CVE-2023-46818-python-exploit](https://github.com/bipbopbup/CVE-2023-46818-python-exploit)
 - [blindma1den/CVE-2023-46818-Exploit](https://github.com/blindma1den/CVE-2023-46818-Exploit)
 - [ajdumanhug/CVE-2023-46818](https://github.com/ajdumanhug/CVE-2023-46818)
+- [ajdumanhug/CVE-2022-42092](https://github.com/ajdumanhug/CVE-2022-42092)
 
 ### CVE-2023-46865 (2023-10-30)
 
@@ -26149,6 +26177,13 @@
 </code>
 
 - [kkent030315/CVE-2022-42046](https://github.com/kkent030315/CVE-2022-42046)
+
+### CVE-2022-42092 (2022-10-07)
+
+<code>Backdrop CMS 1.22.0 has Unrestricted File Upload vulnerability via 'themes' that allows attackers to Remote Code Execution. Note: Third parties dispute this and argue that advanced permissions are required.
+</code>
+
+- [ajdumanhug/CVE-2022-42092](https://github.com/ajdumanhug/CVE-2022-42092)
 
 ### CVE-2022-42094 (2022-11-22)
 
@@ -48002,6 +48037,7 @@
 - [SirEagIe/CVE-2017-7529](https://github.com/SirEagIe/CVE-2017-7529)
 - [Fenil2511/CVE-2017-7529-POC](https://github.com/Fenil2511/CVE-2017-7529-POC)
 - [youngmin0104/CVE-2017-7529-](https://github.com/youngmin0104/CVE-2017-7529-)
+- [portfolio10/nginx](https://github.com/portfolio10/nginx)
 
 ### CVE-2017-7648 (2017-04-10)
 
@@ -48121,6 +48157,13 @@
 </code>
 
 - [faizzaidi/Admidio-3.2.8-CSRF-POC-by-Provensec-llc](https://github.com/faizzaidi/Admidio-3.2.8-CSRF-POC-by-Provensec-llc)
+
+### CVE-2017-8386 (2017-06-01)
+
+<code>git-shell in git before 2.4.12, 2.5.x before 2.5.6, 2.6.x before 2.6.7, 2.7.x before 2.7.5, 2.8.x before 2.8.5, 2.9.x before 2.9.4, 2.10.x before 2.10.3, 2.11.x before 2.11.2, and 2.12.x before 2.12.3 might allow remote authenticated users to gain privileges via a repository name that starts with a - (dash) character.
+</code>
+
+- [suz1n/WHS3_vulhub](https://github.com/suz1n/WHS3_vulhub)
 
 ### CVE-2017-8464 (2017-06-15)
 
