@@ -335,6 +335,7 @@
 - [xuemian168/CVE-2025-3248](https://github.com/xuemian168/CVE-2025-3248)
 - [PuddinCat/CVE-2025-3248-POC](https://github.com/PuddinCat/CVE-2025-3248-POC)
 - [verylazytech/CVE-2025-3248](https://github.com/verylazytech/CVE-2025-3248)
+- [minxxcozy/CVE-2025-3248-langflow-RCE](https://github.com/minxxcozy/CVE-2025-3248-langflow-RCE)
 
 ### CVE-2025-3568 (2025-04-14)
 
@@ -1550,6 +1551,7 @@
 - [rizky412/CVE-2025-32433](https://github.com/rizky412/CVE-2025-32433)
 - [0x7556/CVE-2025-32433](https://github.com/0x7556/CVE-2025-32433)
 - [becrevex/CVE-2025-32433](https://github.com/becrevex/CVE-2025-32433)
+- [MrDreamReal/CVE-2025-32433](https://github.com/MrDreamReal/CVE-2025-32433)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -1629,6 +1631,9 @@
 </code>
 
 - [0xBenCantCode/CVE-2025-43929](https://github.com/0xBenCantCode/CVE-2025-43929)
+
+### CVE-2025-46657
+- [nov-1337/CVE-2025-46657](https://github.com/nov-1337/CVE-2025-46657)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -6480,13 +6485,6 @@
 </code>
 
 - [R00tkitSMM/CVE-2024-27804](https://github.com/R00tkitSMM/CVE-2024-27804)
-
-### CVE-2024-27808 (2024-06-10)
-
-<code>The issue was addressed with improved memory handling. This issue is fixed in tvOS 17.5, visionOS 1.2, Safari 17.5, iOS 17.5 and iPadOS 17.5, watchOS 10.5, macOS Sonoma 14.5. Processing web content may lead to arbitrary code execution.
-</code>
-
-- [Leandrobts/CVE-2024-27808.github.io](https://github.com/Leandrobts/CVE-2024-27808.github.io)
 
 ### CVE-2024-27815 (2024-06-10)
 
