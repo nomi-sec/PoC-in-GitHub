@@ -1522,6 +1522,13 @@
 
 - [ruiwenya/CVE-2025-32395](https://github.com/ruiwenya/CVE-2025-32395)
 
+### CVE-2025-32432 (2025-04-25)
+
+<code>Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.
+</code>
+
+- [Chocapikk/CVE-2025-32432](https://github.com/Chocapikk/CVE-2025-32432)
+
 ### CVE-2025-32433 (2025-04-16)
 
 <code>Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.
@@ -47613,7 +47620,6 @@
 - [Nithylesh/web-application-firewall-](https://github.com/Nithylesh/web-application-firewall-)
 - [kloutkake/CVE-2017-5638-PoC](https://github.com/kloutkake/CVE-2017-5638-PoC)
 - [Xernary/CVE-2017-5638-POC](https://github.com/Xernary/CVE-2017-5638-POC)
-- [JuniorJANG/cve-2017-5638](https://github.com/JuniorJANG/cve-2017-5638)
 
 ### CVE-2017-5645 (2017-04-17)
 
