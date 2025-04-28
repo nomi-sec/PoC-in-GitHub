@@ -359,6 +359,13 @@
 
 - [LvL23HT/PoC-CVE-2025-3914-Aeropage-WordPress-File-Upload](https://github.com/LvL23HT/PoC-CVE-2025-3914-Aeropage-WordPress-File-Upload)
 
+### CVE-2025-3971 (2025-04-27)
+
+<code>In PHPGurukul COVID19 Testing Management System 1.0 wurde eine kritische Schwachstelle entdeckt. Betroffen ist eine unbekannte Verarbeitung der Datei /add-phlebotomist.php. Dank Manipulation des Arguments empid mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [cyruscostini/CVE-2025-3971](https://github.com/cyruscostini/CVE-2025-3971)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -1480,6 +1487,8 @@
 
 - [rxerium/CVE-2025-31324](https://github.com/rxerium/CVE-2025-31324)
 - [redrays-io/CVE-2025-31324](https://github.com/redrays-io/CVE-2025-31324)
+- [Onapsis/Onapsis_CVE-2025-31324_Scanner_Tools](https://github.com/Onapsis/Onapsis_CVE-2025-31324_Scanner_Tools)
+- [Totunm/CVE-2025-31324](https://github.com/Totunm/CVE-2025-31324)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -6579,6 +6588,7 @@
 - [ThatNotEasy/CVE-2024-27956](https://github.com/ThatNotEasy/CVE-2024-27956)
 - [CERTologists/EXPLOITING-CVE-2024-27956](https://github.com/CERTologists/EXPLOITING-CVE-2024-27956)
 - [7aRanchi/CVE-2024-27956-for-fscan](https://github.com/7aRanchi/CVE-2024-27956-for-fscan)
+- [m4nInTh3mIdDle/wordpress-CVE-2024-27956](https://github.com/m4nInTh3mIdDle/wordpress-CVE-2024-27956)
 
 ### CVE-2024-27971 (2024-05-17)
 
@@ -21179,6 +21189,7 @@
 </code>
 
 - [0xk4b1r/CVE-2022-3552](https://github.com/0xk4b1r/CVE-2022-3552)
+- [BakalMode/CVE-2022-3552](https://github.com/BakalMode/CVE-2022-3552)
 
 ### CVE-2022-3564 (2022-10-17)
 
@@ -28367,7 +28378,6 @@
 - [An00bRektn/CVE-2021-4034](https://github.com/An00bRektn/CVE-2021-4034)
 - [zhzyker/CVE-2021-4034](https://github.com/zhzyker/CVE-2021-4034)
 - [kimusan/pkwner](https://github.com/kimusan/pkwner)
-- [Nero22k/CVE-2021-4034](https://github.com/Nero22k/CVE-2021-4034)
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [c3l3si4n/pwnkit](https://github.com/c3l3si4n/pwnkit)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
@@ -32928,6 +32938,7 @@
 - [davidr-io/Grafana-8.3-Directory-Traversal](https://github.com/davidr-io/Grafana-8.3-Directory-Traversal)
 - [ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux](https://github.com/ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux)
 - [monke443/CVE-2021-43798](https://github.com/monke443/CVE-2021-43798)
+- [suljov/Grafana-LFI-exploit](https://github.com/suljov/Grafana-LFI-exploit)
 
 ### CVE-2021-43799 (2022-01-25)
 
