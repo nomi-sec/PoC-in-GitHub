@@ -1315,6 +1315,8 @@
 - [pouriam23/Next.js-Middleware-Bypass-CVE-2025-29927-](https://github.com/pouriam23/Next.js-Middleware-Bypass-CVE-2025-29927-)
 - [kh4sh3i/CVE-2025-29927](https://github.com/kh4sh3i/CVE-2025-29927)
 - [EQSTLab/CVE-2025-29927](https://github.com/EQSTLab/CVE-2025-29927)
+- [Hirainsingadia/CVE-2025-29927](https://github.com/Hirainsingadia/CVE-2025-29927)
+- [hed1ad/my-CVE-2025-29927](https://github.com/hed1ad/my-CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -3667,6 +3669,13 @@
 </code>
 
 - [bjrjk/CVE-2024-8381](https://github.com/bjrjk/CVE-2024-8381)
+
+### CVE-2024-8418 (2024-09-04)
+
+<code>A flaw was found in Aardvark-dns, which is vulnerable to a Denial of Service attack due to the serial processing of TCP DNS queries. An attacker can exploit this flaw by keeping a TCP connection open indefinitely, causing the server to become unresponsive and resulting in other DNS queries timing out. This issue prevents legitimate users from accessing DNS services, thereby disrupting normal operations and causing service downtime.
+</code>
+
+- [goma0x2/CVE-2024-8418](https://github.com/goma0x2/CVE-2024-8418)
 
 ### CVE-2024-8425 (2025-02-28)
 
