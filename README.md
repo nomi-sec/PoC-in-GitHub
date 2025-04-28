@@ -1316,7 +1316,7 @@
 - [kh4sh3i/CVE-2025-29927](https://github.com/kh4sh3i/CVE-2025-29927)
 - [EQSTLab/CVE-2025-29927](https://github.com/EQSTLab/CVE-2025-29927)
 - [Hirainsingadia/CVE-2025-29927](https://github.com/Hirainsingadia/CVE-2025-29927)
-- [hed1ad/my-CVE-2025-29927](https://github.com/hed1ad/my-CVE-2025-29927)
+- [hed1ad/CVE-2025-29927](https://github.com/hed1ad/CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -1331,6 +1331,7 @@
 - [ron-imperva/CVE-2025-30065-PoC](https://github.com/ron-imperva/CVE-2025-30065-PoC)
 - [mouadk/parquet-rce-poc-CVE-2025-30065](https://github.com/mouadk/parquet-rce-poc-CVE-2025-30065)
 - [ThreatRadarAI/TRAI-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation](https://github.com/ThreatRadarAI/TRAI-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation)
+- [F5-Labs/parquet-canary-exploit-rce-poc-CVE-2025-30065](https://github.com/F5-Labs/parquet-canary-exploit-rce-poc-CVE-2025-30065)
 
 ### CVE-2025-30066 (2025-03-15)
 
@@ -1500,6 +1501,7 @@
 - [Totunm/CVE-2025-31324](https://github.com/Totunm/CVE-2025-31324)
 - [moften/CVE-2025-31324](https://github.com/moften/CVE-2025-31324)
 - [moften/CVE-2025-31324-NUCLEI](https://github.com/moften/CVE-2025-31324-NUCLEI)
+- [Alizngnc/SAP-CVE-2025-31324](https://github.com/Alizngnc/SAP-CVE-2025-31324)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -1652,7 +1654,7 @@
 
 ### CVE-2025-43919 (2025-04-20)
 
-<code>GNU Mailman 2.1.39, as bundled in cPanel (and WHM), allows unauthenticated attackers to read arbitrary files via ../ directory traversal at /mailman/private/mailman (aka the private archive authentication endpoint) via the username parameter.
+<code>GNU Mailman 2.1.39, as bundled in cPanel (and WHM), allows unauthenticated attackers to read arbitrary files via ../ directory traversal at /mailman/private/mailman (aka the private archive authentication endpoint) via the username parameter. NOTE: multiple third parties report that they are unable to reproduce this, regardless of whether cPanel or WHM is used.
 </code>
 
 - [0NYX-MY7H/CVE-2025-43919](https://github.com/0NYX-MY7H/CVE-2025-43919)
@@ -1660,14 +1662,14 @@
 
 ### CVE-2025-43920 (2025-04-20)
 
-<code>GNU Mailman 2.1.39, as bundled in cPanel (and WHM), in certain external archiver configurations, allows unauthenticated attackers to execute arbitrary OS commands via shell metacharacters in an email Subject line.
+<code>GNU Mailman 2.1.39, as bundled in cPanel (and WHM), in certain external archiver configurations, allows unauthenticated attackers to execute arbitrary OS commands via shell metacharacters in an email Subject line. NOTE: multiple third parties report that they are unable to reproduce this, regardless of whether cPanel or WHM is used.
 </code>
 
 - [0NYX-MY7H/CVE-2025-43920](https://github.com/0NYX-MY7H/CVE-2025-43920)
 
 ### CVE-2025-43921 (2025-04-20)
 
-<code>GNU Mailman 2.1.39, as bundled in cPanel (and WHM), allows unauthenticated attackers to create lists via the /mailman/create endpoint.
+<code>GNU Mailman 2.1.39, as bundled in cPanel (and WHM), allows unauthenticated attackers to create lists via the /mailman/create endpoint. NOTE: multiple third parties report that they are unable to reproduce this, regardless of whether cPanel or WHM is used.
 </code>
 
 - [0NYX-MY7H/CVE-2025-43921](https://github.com/0NYX-MY7H/CVE-2025-43921)
@@ -6543,13 +6545,6 @@
 </code>
 
 - [R00tkitSMM/CVE-2024-27804](https://github.com/R00tkitSMM/CVE-2024-27804)
-
-### CVE-2024-27808 (2024-06-10)
-
-<code>The issue was addressed with improved memory handling. This issue is fixed in tvOS 17.5, visionOS 1.2, Safari 17.5, iOS 17.5 and iPadOS 17.5, watchOS 10.5, macOS Sonoma 14.5. Processing web content may lead to arbitrary code execution.
-</code>
-
-- [Leandrobts/CVE-2024-27808.github.io](https://github.com/Leandrobts/CVE-2024-27808.github.io)
 
 ### CVE-2024-27815 (2024-06-10)
 
@@ -14773,6 +14768,7 @@
 - [ThatNotEasy/CVE-2023-27372](https://github.com/ThatNotEasy/CVE-2023-27372)
 - [redboltsec/CVE-2023-27372-PoC](https://github.com/redboltsec/CVE-2023-27372-PoC)
 - [1amthebest1/CVE-2023-27372](https://github.com/1amthebest1/CVE-2023-27372)
+- [1Ronkkeli/spip-cve-2023-27372-rce](https://github.com/1Ronkkeli/spip-cve-2023-27372-rce)
 
 ### CVE-2023-27470 (2023-09-11)
 
@@ -22446,7 +22442,7 @@
 <code>ping reads raw IP packets from the network to process responses in the pr_pack() function.  As part of processing a response ping has to reconstruct the IP header, the ICMP header and if present a &quot;quoted packet,&quot; which represents the packet that generated an ICMP error.  The quoted packet again has an IP header and an ICMP header.\n\nThe pr_pack() copies received IP and ICMP headers into stack buffers for further processing.  In so doing, it fails to take into account the possible presence of IP option headers following the IP header in either the response or the quoted packet.  When IP options are present, pr_pack() overflows the destination buffer by up to 40 bytes.\n\nThe memory safety bugs described above can be triggered by a remote host, causing the ping program to crash.\n\nThe ping process runs in a capability mode sandbox on all affected versions of FreeBSD and is thus very constrained in how it can interact with the rest of the system at the point where the bug can occur.
 </code>
 
-- [Inplex-sys/CVE-2022-23093](https://github.com/Inplex-sys/CVE-2022-23093)
+- [SystemVll/CVE-2022-23093](https://github.com/SystemVll/CVE-2022-23093)
 - [Symbolexe/DrayTek-Exploit](https://github.com/Symbolexe/DrayTek-Exploit)
 
 ### CVE-2022-23131 (2022-01-13)
@@ -23374,7 +23370,7 @@
 <code>Contao Managed Edition v1.5.0 was discovered to contain a remote command execution (RCE) vulnerability via the component php_cli parameter.
 </code>
 
-- [Inplex-sys/CVE-2022-26265](https://github.com/Inplex-sys/CVE-2022-26265)
+- [SystemVll/CVE-2022-26265](https://github.com/SystemVll/CVE-2022-26265)
 - [redteamsecurity2023/CVE-2022-26265](https://github.com/redteamsecurity2023/CVE-2022-26265)
 
 ### CVE-2022-26269 (2022-03-29)
@@ -23638,7 +23634,7 @@
 - [akincibor/CVE-2022-27925](https://github.com/akincibor/CVE-2022-27925)
 - [touchmycrazyredhat/CVE-2022-27925-Revshell](https://github.com/touchmycrazyredhat/CVE-2022-27925-Revshell)
 - [jam620/Zimbra](https://github.com/jam620/Zimbra)
-- [Inplex-sys/CVE-2022-27925](https://github.com/Inplex-sys/CVE-2022-27925)
+- [SystemVll/CVE-2022-27925](https://github.com/SystemVll/CVE-2022-27925)
 - [onlyHerold22/CVE-2022-27925-PoC](https://github.com/onlyHerold22/CVE-2022-27925-PoC)
 - [sanan2004/CVE-2022-27925](https://github.com/sanan2004/CVE-2022-27925)
 
@@ -24014,7 +24010,7 @@
 - [superzerosec/CVE-2022-29464](https://github.com/superzerosec/CVE-2022-29464)
 - [axin2019/CVE-2022-29464](https://github.com/axin2019/CVE-2022-29464)
 - [LinJacck/CVE-2022-29464](https://github.com/LinJacck/CVE-2022-29464)
-- [Inplex-sys/CVE-2022-29464-loader](https://github.com/Inplex-sys/CVE-2022-29464-loader)
+- [SystemVll/CVE-2022-29464-loader](https://github.com/SystemVll/CVE-2022-29464-loader)
 - [Chocapikk/CVE-2022-29464](https://github.com/Chocapikk/CVE-2022-29464)
 - [jimidk/Better-CVE-2022-29464](https://github.com/jimidk/Better-CVE-2022-29464)
 - [g0dxing/CVE-2022-29464](https://github.com/g0dxing/CVE-2022-29464)
@@ -24110,6 +24106,13 @@
 </code>
 
 - [TyeYeah/DIR-890L-1.20-RCE](https://github.com/TyeYeah/DIR-890L-1.20-RCE)
+
+### CVE-2022-29806 (2022-04-26)
+
+<code>ZoneMinder before 1.36.13 allows remote code execution via an invalid language. Ability to create a debug log file at an arbitrary pathname contributes to exploitability.
+</code>
+
+- [OP3R4T0R/CVE-2022-29806](https://github.com/OP3R4T0R/CVE-2022-29806)
 
 ### CVE-2022-29856 (2022-04-29)
 
@@ -24683,7 +24686,7 @@
 - [dkstar11q/CVE-2022-31814](https://github.com/dkstar11q/CVE-2022-31814)
 - [Laburity/CVE-2022-31814](https://github.com/Laburity/CVE-2022-31814)
 - [ArunHAtter/CVE-2022-31814](https://github.com/ArunHAtter/CVE-2022-31814)
-- [Inplex-sys/CVE-2022-31814](https://github.com/Inplex-sys/CVE-2022-31814)
+- [SystemVll/CVE-2022-31814](https://github.com/SystemVll/CVE-2022-31814)
 
 ### CVE-2022-31854 (2022-07-07)
 
@@ -25341,7 +25344,7 @@
 - [khal4n1/CVE-2022-36804](https://github.com/khal4n1/CVE-2022-36804)
 - [0xEleven/CVE-2022-36804-ReverseShell](https://github.com/0xEleven/CVE-2022-36804-ReverseShell)
 - [tahtaciburak/cve-2022-36804](https://github.com/tahtaciburak/cve-2022-36804)
-- [Inplex-sys/CVE-2022-36804](https://github.com/Inplex-sys/CVE-2022-36804)
+- [SystemVll/CVE-2022-36804](https://github.com/SystemVll/CVE-2022-36804)
 - [ColdFusionX/CVE-2022-36804](https://github.com/ColdFusionX/CVE-2022-36804)
 - [devengpk/CVE-2022-36804](https://github.com/devengpk/CVE-2022-36804)
 - [walnutsecurity/cve-2022-36804](https://github.com/walnutsecurity/cve-2022-36804)
@@ -26856,7 +26859,7 @@
 - [imjdl/CVE-2022-46169](https://github.com/imjdl/CVE-2022-46169)
 - [0xf4n9x/CVE-2022-46169](https://github.com/0xf4n9x/CVE-2022-46169)
 - [taythebot/CVE-2022-46169](https://github.com/taythebot/CVE-2022-46169)
-- [Inplex-sys/CVE-2022-46169](https://github.com/Inplex-sys/CVE-2022-46169)
+- [SystemVll/CVE-2022-46169](https://github.com/SystemVll/CVE-2022-46169)
 - [sAsPeCt488/CVE-2022-46169](https://github.com/sAsPeCt488/CVE-2022-46169)
 - [c3rrberu5/CVE-2022-46169](https://github.com/c3rrberu5/CVE-2022-46169)
 - [Habib0x0/CVE-2022-46169](https://github.com/Habib0x0/CVE-2022-46169)
@@ -27101,7 +27104,7 @@
 
 - [horizon3ai/CVE-2022-47966](https://github.com/horizon3ai/CVE-2022-47966)
 - [shameem-testing/PoC-for-ME-SAML-Vulnerability](https://github.com/shameem-testing/PoC-for-ME-SAML-Vulnerability)
-- [Inplex-sys/CVE-2022-47966](https://github.com/Inplex-sys/CVE-2022-47966)
+- [SystemVll/CVE-2022-47966](https://github.com/SystemVll/CVE-2022-47966)
 - [ACE-Responder/CVE-2022-47966_checker](https://github.com/ACE-Responder/CVE-2022-47966_checker)
 - [vonahisec/CVE-2022-47966-Scan](https://github.com/vonahisec/CVE-2022-47966-Scan)
 
@@ -38077,7 +38080,7 @@
 <code>The import.json.php file before 8.9 for Avideo is vulnerable to a File Deletion vulnerability. This allows the deletion of configuration.php, which leads to certain privilege checks not being in place, and therefore a user can escalate privileges to admin.
 </code>
 
-- [ahussam/AVideo3xploit](https://github.com/ahussam/AVideo3xploit)
+- [al-sultani/AVideo3xploit](https://github.com/al-sultani/AVideo3xploit)
 
 ### CVE-2020-23582 (2022-11-21)
 
@@ -40423,7 +40426,6 @@
 - [shen54/IT19172088](https://github.com/shen54/IT19172088)
 - [n3rdh4x0r/CVE-2019-5736](https://github.com/n3rdh4x0r/CVE-2019-5736)
 - [fahmifj/Docker-breakout-runc](https://github.com/fahmifj/Docker-breakout-runc)
-- [Asbatel/CVE-2019-5736_POC](https://github.com/Asbatel/CVE-2019-5736_POC)
 - [takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer)
 - [si1ent-le/CVE-2019-5736](https://github.com/si1ent-le/CVE-2019-5736)
 - [sonyavalo/CVE-2019-5736-Dockerattack-and-security-mechanism](https://github.com/sonyavalo/CVE-2019-5736-Dockerattack-and-security-mechanism)
