@@ -668,13 +668,6 @@
 - [MuhammadWaseem29/CVE-2025-24799](https://github.com/MuhammadWaseem29/CVE-2025-24799)
 - [MatheuZSecurity/Exploit-CVE-2025-24799](https://github.com/MatheuZSecurity/Exploit-CVE-2025-24799)
 
-### CVE-2025-24801 (2025-03-18)
-
-<code>GLPI is a free asset and IT management software package. An authenticated user can upload and force the execution of *.php files located on the GLPI server. This vulnerability is fixed in 10.0.18.
-</code>
-
-- [r1beirin/CVE-2025-24801](https://github.com/r1beirin/CVE-2025-24801)
-
 ### CVE-2025-24813 (2025-03-10)
 
 <code>Path Equivalence: 'file.Name' (Internal Dot) leading to Remote Code Execution and/or Information disclosure and/or malicious content added to uploaded files via write enabled Default Servlet in Apache Tomcat.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.2, from 10.1.0-M1 through 10.1.34, from 9.0.0.M1 through 9.0.98.\n\nIf all of the following were true, a malicious user was able to view       security sensitive files and/or inject content into those files:\n- writes enabled for the default servlet (disabled by default)\n- support for partial PUT (enabled by default)\n- a target URL for security sensitive uploads that was a sub-directory of a target URL for public uploads\n- attacker knowledge of the names of security sensitive files being uploaded\n- the security sensitive files also being uploaded via partial PUT\n\nIf all of the following were true, a malicious user was able to       perform remote code execution:\n- writes enabled for the default servlet (disabled by default)\n- support for partial PUT (enabled by default)\n- application was using Tomcat's file based session persistence with the default storage location\n- application included a library that may be leveraged in a deserialization attack\n\nUsers are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.
@@ -1502,6 +1495,8 @@
 - [moften/CVE-2025-31324](https://github.com/moften/CVE-2025-31324)
 - [moften/CVE-2025-31324-NUCLEI](https://github.com/moften/CVE-2025-31324-NUCLEI)
 - [Alizngnc/SAP-CVE-2025-31324](https://github.com/Alizngnc/SAP-CVE-2025-31324)
+- [ODST-Forge/CVE-2025-31324_PoC](https://github.com/ODST-Forge/CVE-2025-31324_PoC)
+- [abrewer251/CVE-2025-31324_PoC_SAP](https://github.com/abrewer251/CVE-2025-31324_PoC_SAP)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -1511,7 +1506,11 @@
 - [iSee857/CVE-2025-31486-PoC](https://github.com/iSee857/CVE-2025-31486-PoC)
 - [Ly4j/CVE-2025-31486](https://github.com/Ly4j/CVE-2025-31486)
 
-### CVE-2025-31651
+### CVE-2025-31651 (2025-04-28)
+
+<code>Improper Neutralization of Escape, Meta, or Control Sequences vulnerability in Apache Tomcat. For a subset of unlikely rewrite rule configurations, it was possible \nfor a specially crafted request to bypass some rewrite rules. If those \nrewrite rules effectively enforced security constraints, those \nconstraints could be bypassed.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.5, from 10.1.0-M1 through 10.1.39, from 9.0.0.M1 through 9.0.102.\n\nUsers are recommended to upgrade to version [FIXED_VERSION], which fixes the issue.
+</code>
+
 - [gregk4sec/CVE-2025-31651](https://github.com/gregk4sec/CVE-2025-31651)
 
 ### CVE-2025-31864 (2025-04-01)
@@ -1587,6 +1586,7 @@
 - [0x7556/CVE-2025-32433](https://github.com/0x7556/CVE-2025-32433)
 - [becrevex/CVE-2025-32433](https://github.com/becrevex/CVE-2025-32433)
 - [MrDreamReal/CVE-2025-32433](https://github.com/MrDreamReal/CVE-2025-32433)
+- [Know56/CVE-2025-32433](https://github.com/Know56/CVE-2025-32433)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3908,6 +3908,13 @@
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
 - [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
+
+### CVE-2024-9506 (2024-10-15)
+
+<code>Improper regular expression in Vue's parseHTML function leads to a potential regular expression denial of service vulnerability.
+</code>
+
+- [bio/vue-template-compiler-patched](https://github.com/bio/vue-template-compiler-patched)
 
 ### CVE-2024-9513 (2024-10-04)
 
@@ -8605,6 +8612,7 @@
 </code>
 
 - [Abdurahmon3236/CVE-2024-40110](https://github.com/Abdurahmon3236/CVE-2024-40110)
+- [thiagosmith/CVE-2024-40110](https://github.com/thiagosmith/CVE-2024-40110)
 
 ### CVE-2024-40111 (2024-08-23)
 
