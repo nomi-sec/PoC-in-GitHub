@@ -59,6 +59,7 @@
 </code>
 
 - [CyberSecurityUP/CVE-2025-0401](https://github.com/CyberSecurityUP/CVE-2025-0401)
+- [Darabium/Gombruc](https://github.com/Darabium/Gombruc)
 
 ### CVE-2025-0411 (2025-01-25)
 
@@ -916,6 +917,13 @@
 
 - [padayali-JD/CVE-2025-25968](https://github.com/padayali-JD/CVE-2025-25968)
 
+### CVE-2025-26014 (2025-02-21)
+
+<code>A Remote Code Execution (RCE) vulnerability in Loggrove v.1.0 allows a remote attacker to execute arbitrary code via the path parameter.
+</code>
+
+- [vigilante-1337/CVE-2025-26014](https://github.com/vigilante-1337/CVE-2025-26014)
+
 ### CVE-2025-26054 (2025-04-01)
 
 <code>Infinxt iEdge 100 2.1.32 is vulnerable to Cross Site Scripting (XSS) via the &quot;Description&quot; field during LAN configuration.
@@ -1313,6 +1321,8 @@
 - [EQSTLab/CVE-2025-29927](https://github.com/EQSTLab/CVE-2025-29927)
 - [Hirainsingadia/CVE-2025-29927](https://github.com/Hirainsingadia/CVE-2025-29927)
 - [hed1ad/CVE-2025-29927](https://github.com/hed1ad/CVE-2025-29927)
+- [HoumanPashaei/CVE-2025-29927](https://github.com/HoumanPashaei/CVE-2025-29927)
+- [rubbxalc/CVE-2025-29927](https://github.com/rubbxalc/CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -1396,7 +1406,6 @@
 
 - [Oyst3r1ng/CVE-2025-30567](https://github.com/Oyst3r1ng/CVE-2025-30567)
 - [realcodeb0ss/CVE-2025-30567-PoC](https://github.com/realcodeb0ss/CVE-2025-30567-PoC)
-- [KaxuFF/CVE-2025-30567-PoC](https://github.com/KaxuFF/CVE-2025-30567-PoC)
 
 ### CVE-2025-30727 (2025-04-15)
 
@@ -1500,6 +1509,7 @@
 - [Alizngnc/SAP-CVE-2025-31324](https://github.com/Alizngnc/SAP-CVE-2025-31324)
 - [ODST-Forge/CVE-2025-31324_PoC](https://github.com/ODST-Forge/CVE-2025-31324_PoC)
 - [abrewer251/CVE-2025-31324_PoC_SAP](https://github.com/abrewer251/CVE-2025-31324_PoC_SAP)
+- [Pengrey/CVE-2025-31324](https://github.com/Pengrey/CVE-2025-31324)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -2622,6 +2632,7 @@
 - [nanwinata/CVE-2024-3400](https://github.com/nanwinata/CVE-2024-3400)
 - [XiaomingX/CVE-2024-3400-poc](https://github.com/XiaomingX/CVE-2024-3400-poc)
 - [hashdr1ft/SOC274-Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-CVE-2024-3400](https://github.com/hashdr1ft/SOC274-Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-CVE-2024-3400)
+- [CyprianAtsyor/letsdefend-cve2024-3400-case-study](https://github.com/CyprianAtsyor/letsdefend-cve2024-3400-case-study)
 
 ### CVE-2024-3435 (2024-05-16)
 
@@ -28417,7 +28428,6 @@
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [c3l3si4n/pwnkit](https://github.com/c3l3si4n/pwnkit)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
-- [san3ncrypt3d/CVE-2021-4034-POC](https://github.com/san3ncrypt3d/CVE-2021-4034-POC)
 - [fdellwing/CVE-2021-4034](https://github.com/fdellwing/CVE-2021-4034)
 - [xcanwin/CVE-2021-4034-UniontechOS](https://github.com/xcanwin/CVE-2021-4034-UniontechOS)
 - [azminawwar/CVE-2021-4034](https://github.com/azminawwar/CVE-2021-4034)
@@ -32525,6 +32535,7 @@
 - [XiaoliChan/Invoke-sAMSpoofing](https://github.com/XiaoliChan/Invoke-sAMSpoofing)
 - [TryA9ain/noPac](https://github.com/TryA9ain/noPac)
 - [DanielFEXKEX/CVE-Scanner](https://github.com/DanielFEXKEX/CVE-Scanner)
+- [Chrisync/CVE-Scanner](https://github.com/Chrisync/CVE-Scanner)
 
 ### CVE-2021-42292 (2021-11-10)
 
