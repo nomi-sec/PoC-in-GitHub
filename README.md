@@ -608,6 +608,9 @@
 - [cesarbtakeda/Windows-Explorer-CVE-2025-24071](https://github.com/cesarbtakeda/Windows-Explorer-CVE-2025-24071)
 - [pswalia2u/CVE-2025-24071_POC](https://github.com/pswalia2u/CVE-2025-24071_POC)
 
+### CVE-2025-24091
+- [cyruscostini/CVE-2025-24091](https://github.com/cyruscostini/CVE-2025-24091)
+
 ### CVE-2025-24104 (2025-01-27)
 
 <code>This issue was addressed with improved handling of symlinks. This issue is fixed in iPadOS 17.7.4, iOS 18.3 and iPadOS 18.3. Restoring a maliciously crafted backup file may lead to modification of protected system files.
@@ -1687,6 +1690,9 @@
 </code>
 
 - [nov-1337/CVE-2025-46657](https://github.com/nov-1337/CVE-2025-46657)
+
+### CVE-2025-46701
+- [gregk4sec/CVE-2025-46701](https://github.com/gregk4sec/CVE-2025-46701)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -23030,6 +23036,7 @@
 </code>
 
 - [s3l33/CVE-2022-25012](https://github.com/s3l33/CVE-2022-25012)
+- [G4sp4rCS/CVE-2022-25012-POC](https://github.com/G4sp4rCS/CVE-2022-25012-POC)
 
 ### CVE-2022-25018 (2022-03-01)
 
