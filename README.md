@@ -48894,6 +48894,7 @@
 - [scirusvulgaris/CVE-2017-12617](https://github.com/scirusvulgaris/CVE-2017-12617)
 - [yZeetje/CVE-2017-12617](https://github.com/yZeetje/CVE-2017-12617)
 - [DevaDJ/CVE-2017-12617](https://github.com/DevaDJ/CVE-2017-12617)
+- [ducknuts/network-forensics-cve-2017-12617](https://github.com/ducknuts/network-forensics-cve-2017-12617)
 
 ### CVE-2017-12624 (2017-11-14)
 
