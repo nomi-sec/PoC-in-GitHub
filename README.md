@@ -427,6 +427,7 @@
 </code>
 
 - [hoefler02/CVE-2025-21756](https://github.com/hoefler02/CVE-2025-21756)
+- [mr-spongebob/CVE-2025-21756](https://github.com/mr-spongebob/CVE-2025-21756)
 
 ### CVE-2025-22223 (2025-03-24)
 
@@ -1525,6 +1526,7 @@
 - [ODST-Forge/CVE-2025-31324_PoC](https://github.com/ODST-Forge/CVE-2025-31324_PoC)
 - [abrewer251/CVE-2025-31324_PoC_SAP](https://github.com/abrewer251/CVE-2025-31324_PoC_SAP)
 - [Pengrey/CVE-2025-31324](https://github.com/Pengrey/CVE-2025-31324)
+- [BlueOWL-overlord/Burp_CVE-2025-31324](https://github.com/BlueOWL-overlord/Burp_CVE-2025-31324)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -1540,6 +1542,7 @@
 </code>
 
 - [absholi7ly/TomcatKiller-CVE-2025-31650](https://github.com/absholi7ly/TomcatKiller-CVE-2025-31650)
+- [tunahantekeoglu/CVE-2025-31650](https://github.com/tunahantekeoglu/CVE-2025-31650)
 
 ### CVE-2025-31651 (2025-04-28)
 
@@ -8003,6 +8006,7 @@
 - [0x0d3ad/CVE-2024-36401](https://github.com/0x0d3ad/CVE-2024-36401)
 - [whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit)
 - [bmth666/GeoServer-Tools-CVE-2024-36401](https://github.com/bmth666/GeoServer-Tools-CVE-2024-36401)
+- [amoy6228/CVE-2024-36401_Geoserver_RCE_POC](https://github.com/amoy6228/CVE-2024-36401_Geoserver_RCE_POC)
 
 ### CVE-2024-36416 (2024-06-10)
 
