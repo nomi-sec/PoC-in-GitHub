@@ -1534,6 +1534,13 @@
 - [iSee857/CVE-2025-31486-PoC](https://github.com/iSee857/CVE-2025-31486-PoC)
 - [Ly4j/CVE-2025-31486](https://github.com/Ly4j/CVE-2025-31486)
 
+### CVE-2025-31650 (2025-04-28)
+
+<code>Improper Input Validation vulnerability in Apache Tomcat. Incorrect error handling for some invalid HTTP priority headers resulted in incomplete clean-up of the failed request which created a memory leak. A large number of such requests could trigger an OutOfMemoryException resulting in a denial of service.\n\nThis issue affects Apache Tomcat: from 9.0.76 through 9.0.102, from 10.1.10 through 10.1.39, from 11.0.0-M2 through 11.0.5.\n\nUsers are recommended to upgrade to version 9.0.104, 10.1.40 or 11.0.6 which fix the issue.
+</code>
+
+- [absholi7ly/TomcatKiller-CVE-2025-31650](https://github.com/absholi7ly/TomcatKiller-CVE-2025-31650)
+
 ### CVE-2025-31651 (2025-04-28)
 
 <code>Improper Neutralization of Escape, Meta, or Control Sequences vulnerability in Apache Tomcat. For a subset of unlikely rewrite rule configurations, it was possible \nfor a specially crafted request to bypass some rewrite rules. If those \nrewrite rules effectively enforced security constraints, those \nconstraints could be bypassed.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.5, from 10.1.0-M1 through 10.1.39, from 9.0.0.M1 through 9.0.102.\n\nUsers are recommended to upgrade to version [FIXED_VERSION], which fixes the issue.
