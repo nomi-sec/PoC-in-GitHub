@@ -634,6 +634,13 @@
 
 - [McTavishSue/CVE-2025-24200](https://github.com/McTavishSue/CVE-2025-24200)
 
+### CVE-2025-24252 (2025-04-29)
+
+<code>A use-after-free issue was addressed with improved memory management. This issue is fixed in macOS Sequoia 15.4, tvOS 18.4, macOS Ventura 13.7.5, iPadOS 17.7.6, macOS Sonoma 14.7.5, iOS 18.4 and iPadOS 18.4, visionOS 2.4. An attacker on the local network may be able to corrupt process memory.
+</code>
+
+- [ekomsSavior/AirBorne-PoC](https://github.com/ekomsSavior/AirBorne-PoC)
+
 ### CVE-2025-24587 (2025-01-24)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in I Thirteen Web Solution Email Subscription Popup allows Blind SQL Injection. This issue affects Email Subscription Popup: from n/a through 1.2.23.
@@ -671,6 +678,13 @@
 - [realcodeb0ss/CVE-2025-24799-PoC](https://github.com/realcodeb0ss/CVE-2025-24799-PoC)
 - [MuhammadWaseem29/CVE-2025-24799](https://github.com/MuhammadWaseem29/CVE-2025-24799)
 - [MatheuZSecurity/Exploit-CVE-2025-24799](https://github.com/MatheuZSecurity/Exploit-CVE-2025-24799)
+
+### CVE-2025-24801 (2025-03-18)
+
+<code>GLPI is a free asset and IT management software package. An authenticated user can upload and force the execution of *.php files located on the GLPI server. This vulnerability is fixed in 10.0.18.
+</code>
+
+- [r1beirin/CVE-2025-24801](https://github.com/r1beirin/CVE-2025-24801)
 
 ### CVE-2025-24813 (2025-03-10)
 
@@ -1229,6 +1243,7 @@
 </code>
 
 - [ethicalPap/CVE-2025-29775](https://github.com/ethicalPap/CVE-2025-29775)
+- [twypsy/cve-2025-29775](https://github.com/twypsy/cve-2025-29775)
 
 ### CVE-2025-29810 (2025-04-08)
 
@@ -1600,6 +1615,9 @@
 - [becrevex/CVE-2025-32433](https://github.com/becrevex/CVE-2025-32433)
 - [MrDreamReal/CVE-2025-32433](https://github.com/MrDreamReal/CVE-2025-32433)
 - [Know56/CVE-2025-32433](https://github.com/Know56/CVE-2025-32433)
+- [abrewer251/CVE-2025-32433_Erlang-OTP](https://github.com/abrewer251/CVE-2025-32433_Erlang-OTP)
+- [ODST-Forge/CVE-2025-32433_PoC](https://github.com/ODST-Forge/CVE-2025-32433_PoC)
+- [C9b3rD3vi1/Erlang-OTP-SSH-CVE-2025-32433](https://github.com/C9b3rD3vi1/Erlang-OTP-SSH-CVE-2025-32433)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -4569,6 +4587,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-12270](https://github.com/RandomRobbieBF/CVE-2024-12270)
+
+### CVE-2024-12342 (2024-12-08)
+
+<code>Eine Schwachstelle wurde in TP-Link VN020 F3v(T) TT_V6.2.1021 ausgemacht. Sie wurde als kritisch eingestuft. Es geht hierbei um eine nicht näher spezifizierte Funktion der Datei /control/WANIPConnection der Komponente Incomplete SOAP Request Handler. Durch das Manipulieren mit unbekannten Daten kann eine denial of service-Schwachstelle ausgenutzt werden. Der Angriff kann im lokalen Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [becrevex/TPLink-VN020-DoS](https://github.com/becrevex/TPLink-VN020-DoS)
 
 ### CVE-2024-12345 (2025-01-27)
 
@@ -15861,6 +15886,7 @@
 - [manavvedawala/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept)
 - [Jenderal92/WP-CVE-2023-32243](https://github.com/Jenderal92/WP-CVE-2023-32243)
 - [shaoyu521/Mass-CVE-2023-32243](https://github.com/shaoyu521/Mass-CVE-2023-32243)
+- [dev0558/CVE-2023-32243-Detection-and-Mitigation-in-WordPress](https://github.com/dev0558/CVE-2023-32243-Detection-and-Mitigation-in-WordPress)
 
 ### CVE-2023-32309 (2023-05-15)
 
@@ -44716,14 +44742,14 @@
 <code>An issue was discovered in secdrv.sys as shipped in Microsoft Windows Vista, Windows 7, Windows 8, and Windows 8.1 before KB3086255, and as shipped in Macrovision SafeDisc. Two carefully timed calls to IOCTL 0xCA002813 can cause a race condition that leads to a use-after-free. When exploited, an unprivileged attacker can run arbitrary code in the kernel.
 </code>
 
-- [Elvin9/NotSecDrv](https://github.com/Elvin9/NotSecDrv)
+- [alonhr/NotSecDrv](https://github.com/alonhr/NotSecDrv)
 
 ### CVE-2018-7250 (2018-02-26)
 
 <code>An issue was discovered in secdrv.sys as shipped in Microsoft Windows Vista, Windows 7, Windows 8, and Windows 8.1 before KB3086255, and as shipped in Macrovision SafeDisc. An uninitialized kernel pool allocation in IOCTL 0xCA002813 allows a local unprivileged attacker to leak 16 bits of uninitialized kernel PagedPool data.
 </code>
 
-- [Elvin9/SecDrvPoolLeak](https://github.com/Elvin9/SecDrvPoolLeak)
+- [alonhr/SecDrvPoolLeak](https://github.com/alonhr/SecDrvPoolLeak)
 
 ### CVE-2018-7273 (2018-02-21)
 
