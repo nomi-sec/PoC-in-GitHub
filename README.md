@@ -610,7 +610,11 @@
 - [cesarbtakeda/Windows-Explorer-CVE-2025-24071](https://github.com/cesarbtakeda/Windows-Explorer-CVE-2025-24071)
 - [pswalia2u/CVE-2025-24071_POC](https://github.com/pswalia2u/CVE-2025-24071_POC)
 
-### CVE-2025-24091
+### CVE-2025-24091 (2025-04-30)
+
+<code>An app could impersonate system notifications. Sensitive notifications now require restricted entitlements. This issue is fixed in iOS 18.3 and iPadOS 18.3, iPadOS 17.7.3. An app may be able to cause a denial-of-service.
+</code>
+
 - [cyruscostini/CVE-2025-24091](https://github.com/cyruscostini/CVE-2025-24091)
 
 ### CVE-2025-24104 (2025-01-27)
@@ -1527,6 +1531,8 @@
 - [abrewer251/CVE-2025-31324_PoC_SAP](https://github.com/abrewer251/CVE-2025-31324_PoC_SAP)
 - [Pengrey/CVE-2025-31324](https://github.com/Pengrey/CVE-2025-31324)
 - [BlueOWL-overlord/Burp_CVE-2025-31324](https://github.com/BlueOWL-overlord/Burp_CVE-2025-31324)
+- [nullcult/CVE-2025-31324-File-Upload](https://github.com/nullcult/CVE-2025-31324-File-Upload)
+- [respondiq/jsp-webshell-scanner](https://github.com/respondiq/jsp-webshell-scanner)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -1671,6 +1677,13 @@
 </code>
 
 - [Nxploited/CVE-2025-39436](https://github.com/Nxploited/CVE-2025-39436)
+
+### CVE-2025-39538 (2025-04-16)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Mathieu Chartier WP-Advanced-Search allows Upload a Web Shell to a Web Server. This issue affects WP-Advanced-Search: from n/a through 3.3.9.3.
+</code>
+
+- [Nxploited/CVE-2025-39538](https://github.com/Nxploited/CVE-2025-39538)
 
 ### CVE-2025-39601 (2025-04-16)
 
@@ -8726,7 +8739,7 @@
 
 ### CVE-2024-40445 (2025-04-22)
 
-<code>Directory Traversal vulnerability in forkosh Mime Tex before v.1.77 allows an attacker to execute arbitrary code via a crafted file upload
+<code>A directory traversal vulnerability in forkosh Mime TeX before version 1.77 allows attackers on Windows systems to read or append arbitrary files by manipulating crafted input paths.
 </code>
 
 - [TaiYou-TW/CVE-2024-40445_CVE-2024-40446](https://github.com/TaiYou-TW/CVE-2024-40445_CVE-2024-40446)
@@ -8814,6 +8827,13 @@
 </code>
 
 - [KyssK00L/CVE-2024-40617](https://github.com/KyssK00L/CVE-2024-40617)
+
+### CVE-2024-40635 (2025-03-17)
+
+<code>containerd is an open-source container runtime. A bug was found in containerd prior to versions 1.6.38, 1.7.27, and 2.0.4 where containers launched with a User set as a `UID:GID` larger than the maximum 32-bit signed integer can cause an overflow condition where the container ultimately runs as root (UID 0). This could cause unexpected behavior for environments that require containers to run as a non-root user. This bug has been fixed in containerd 1.6.38, 1.7.27, and 2.04. As a workaround, ensure that only trusted images are used and that only trusted users have permissions to import images.
+</code>
+
+- [yen5004/CVE-2024-40635_POC](https://github.com/yen5004/CVE-2024-40635_POC)
 
 ### CVE-2024-40658 (2024-09-11)
 
@@ -39689,6 +39709,7 @@
 - [adyanamul/Remote-Code-Execution-RCE-Exploit-BlueKeep-CVE-2019-0708-PoC](https://github.com/adyanamul/Remote-Code-Execution-RCE-Exploit-BlueKeep-CVE-2019-0708-PoC)
 - [DenuwanJayasekara/CVE-Exploitation-Reports](https://github.com/DenuwanJayasekara/CVE-Exploitation-Reports)
 - [hualy13/CVE-2019-0708-Check](https://github.com/hualy13/CVE-2019-0708-Check)
+- [isabelacostaz/CVE-2019-0708-POC](https://github.com/isabelacostaz/CVE-2019-0708-POC)
 
 ### CVE-2019-0709 (2019-06-12)
 
