@@ -86,9 +86,6 @@
 
 - [skrkcb2/CVE-2025-0924-different](https://github.com/skrkcb2/CVE-2025-0924-different)
 
-### CVE-2025-0927
-- [mr-spongebob/CVE-2025-0927](https://github.com/mr-spongebob/CVE-2025-0927)
-
 ### CVE-2025-0994 (2025-02-06)
 
 <code>Trimble Cityworks versions prior to 15.8.9 and Cityworks with office companion versions prior to 23.10 are vulnerable to a deserialization vulnerability. This could allow an authenticated user to perform a remote code execution attack against a customer’s Microsoft Internet Information Services (IIS) web server.
@@ -324,7 +321,7 @@
 
 ### CVE-2025-3243 (2025-04-04)
 
-<code>Eine kritische Schwachstelle wurde in code-projects Patient Record Management System 1.0 gefunden. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei /dental_form.php. Durch Beeinflussen des Arguments itr_no mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+<code>Eine kritische Schwachstelle wurde in code-projects Patient Record Management System 1.0 gefunden. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei /dental_form.php. Durch Beeinflussen des Arguments itr_no/dental_no mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
 - [TeneBrae93/CVE-2025-3243](https://github.com/TeneBrae93/CVE-2025-3243)
@@ -366,6 +363,9 @@
 </code>
 
 - [cyruscostini/CVE-2025-3971](https://github.com/cyruscostini/CVE-2025-3971)
+
+### CVE-2025-12654
+- [Yuweixn/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Yuweixn/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -428,7 +428,6 @@
 </code>
 
 - [hoefler02/CVE-2025-21756](https://github.com/hoefler02/CVE-2025-21756)
-- [mr-spongebob/CVE-2025-21756](https://github.com/mr-spongebob/CVE-2025-21756)
 
 ### CVE-2025-22223 (2025-03-24)
 
@@ -1256,7 +1255,6 @@
 </code>
 
 - [ethicalPap/CVE-2025-29775](https://github.com/ethicalPap/CVE-2025-29775)
-- [twypsy/cve-2025-29775](https://github.com/twypsy/cve-2025-29775)
 
 ### CVE-2025-29810 (2025-04-08)
 
@@ -1757,6 +1755,10 @@
 </code>
 
 - [0xBenCantCode/CVE-2025-43929](https://github.com/0xBenCantCode/CVE-2025-43929)
+
+### CVE-2025-44228
+- [Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
+- [Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
 
 ### CVE-2025-46657 (2025-04-27)
 
@@ -2697,6 +2699,7 @@
 - [XiaomingX/CVE-2024-3400-poc](https://github.com/XiaomingX/CVE-2024-3400-poc)
 - [hashdr1ft/SOC274-Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-CVE-2024-3400](https://github.com/hashdr1ft/SOC274-Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-CVE-2024-3400)
 - [CyprianAtsyor/letsdefend-cve2024-3400-case-study](https://github.com/CyprianAtsyor/letsdefend-cve2024-3400-case-study)
+- [Rohith-Reddy-Y/Zero-Day-Vulnerability-Exploitation-Detection-Tool](https://github.com/Rohith-Reddy-Y/Zero-Day-Vulnerability-Exploitation-Detection-Tool)
 
 ### CVE-2024-3435 (2024-05-16)
 
@@ -15914,7 +15917,6 @@
 - [oferchen/POC-CVE-2023-32233](https://github.com/oferchen/POC-CVE-2023-32233)
 - [RogelioPumajulca/TEST-CVE-2023-32233](https://github.com/RogelioPumajulca/TEST-CVE-2023-32233)
 - [void0red/CVE-2023-32233](https://github.com/void0red/CVE-2023-32233)
-- [mr-spongebob/CVE-2023-32233](https://github.com/mr-spongebob/CVE-2023-32233)
 
 ### CVE-2023-32235 (2023-05-05)
 
@@ -17884,6 +17886,13 @@
 </code>
 
 - [sahar042/CVE-2023-40297](https://github.com/sahar042/CVE-2023-40297)
+
+### CVE-2023-40355 (2024-02-07)
+
+<code>Cross Site Scripting (XSS) vulnerability in Axigen versions 10.3.3.0 before 10.3.3.59, 10.4.0 before 10.4.19, and 10.5.0 before 10.5.5, allows authenticated attackers to execute arbitrary code and obtain sensitive information via the logic for switching between the Standard and Ajax versions.
+</code>
+
+- [ace-83/CVE-2023-40355](https://github.com/ace-83/CVE-2023-40355)
 
 ### CVE-2023-40361 (2023-10-20)
 
