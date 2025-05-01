@@ -7202,6 +7202,7 @@
 - [Anonymous941/zygote-injection-toolkit](https://github.com/Anonymous941/zygote-injection-toolkit)
 - [mianliupindao/CVE-2024-31317-PoC-Deployer](https://github.com/mianliupindao/CVE-2024-31317-PoC-Deployer)
 - [agg23/cve-2024-31317](https://github.com/agg23/cve-2024-31317)
+- [JadeByteZen/CVE-2024-31317-PoC-Deployer](https://github.com/JadeByteZen/CVE-2024-31317-PoC-Deployer)
 
 ### CVE-2024-31319 (2024-07-09)
 
