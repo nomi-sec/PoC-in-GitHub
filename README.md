@@ -373,6 +373,7 @@
 </code>
 
 - [mbadanoiu/CVE-2025-20029](https://github.com/mbadanoiu/CVE-2025-20029)
+- [schoi1337/CVE-2025-20029-simulation](https://github.com/schoi1337/CVE-2025-20029-simulation)
 
 ### CVE-2025-21293 (2025-01-14)
 
@@ -7199,7 +7200,7 @@
 - [fuhei/CVE-2024-31317](https://github.com/fuhei/CVE-2024-31317)
 - [jmywh1/CVE-2024-31317](https://github.com/jmywh1/CVE-2024-31317)
 - [Anonymous941/zygote-injection-toolkit](https://github.com/Anonymous941/zygote-injection-toolkit)
-- [Webldix/CVE-2024-31317-PoC-Deployer](https://github.com/Webldix/CVE-2024-31317-PoC-Deployer)
+- [mianliupindao/CVE-2024-31317-PoC-Deployer](https://github.com/mianliupindao/CVE-2024-31317-PoC-Deployer)
 - [agg23/cve-2024-31317](https://github.com/agg23/cve-2024-31317)
 
 ### CVE-2024-31319 (2024-07-09)
@@ -36174,6 +36175,7 @@
 - [zilong3033/CVE-2020-8835](https://github.com/zilong3033/CVE-2020-8835)
 - [SplendidSky/CVE-2020-8835](https://github.com/SplendidSky/CVE-2020-8835)
 - [digamma-ai/CVE-2020-8835-verification](https://github.com/digamma-ai/CVE-2020-8835-verification)
+- [johnatag/INF8602-CVE-2020-8835](https://github.com/johnatag/INF8602-CVE-2020-8835)
 
 ### CVE-2020-8840 (2020-02-10)
 
