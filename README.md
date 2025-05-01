@@ -646,6 +646,13 @@
 
 - [ekomsSavior/AirBorne-PoC](https://github.com/ekomsSavior/AirBorne-PoC)
 
+### CVE-2025-24271 (2025-04-29)
+
+<code>An access issue was addressed with improved access restrictions. This issue is fixed in macOS Sequoia 15.4, tvOS 18.4, macOS Ventura 13.7.5, iPadOS 17.7.6, macOS Sonoma 14.7.5, iOS 18.4 and iPadOS 18.4, visionOS 2.4. An unauthenticated user on the same network as a signed-in Mac could send it AirPlay commands without pairing.
+</code>
+
+- [moften/CVE-2025-24271](https://github.com/moften/CVE-2025-24271)
+
 ### CVE-2025-24587 (2025-01-24)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in I Thirteen Web Solution Email Subscription Popup allows Blind SQL Injection. This issue affects Email Subscription Popup: from n/a through 1.2.23.
@@ -1412,6 +1419,13 @@
 
 - [natasaka/CVE-2025-30349](https://github.com/natasaka/CVE-2025-30349)
 
+### CVE-2025-30392 (2025-04-30)
+
+<code>Improper authorization in Azure Bot Framework SDK allows an unauthorized attacker to elevate privileges over a network.
+</code>
+
+- [Totunm/CVE-2025-30392](https://github.com/Totunm/CVE-2025-30392)
+
 ### CVE-2025-30406 (2025-04-03)
 
 <code>Gladinet CentreStack through 16.1.10296.56315 (fixed in 16.4.10315.56368) has a deserialization vulnerability due to the CentreStack portal's hardcoded machineKey use, as exploited in the wild in March 2025. This enables threat actors (who know the machineKey) to serialize a payload for server-side deserialization to achieve remote code execution. NOTE: a CentreStack admin can manually delete the machineKey defined in portal\web.config.
@@ -1533,6 +1547,7 @@
 - [BlueOWL-overlord/Burp_CVE-2025-31324](https://github.com/BlueOWL-overlord/Burp_CVE-2025-31324)
 - [nullcult/CVE-2025-31324-File-Upload](https://github.com/nullcult/CVE-2025-31324-File-Upload)
 - [respondiq/jsp-webshell-scanner](https://github.com/respondiq/jsp-webshell-scanner)
+- [JonathanStross/CVE-2025-31324](https://github.com/JonathanStross/CVE-2025-31324)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -1691,6 +1706,13 @@
 </code>
 
 - [Nxploited/CVE-2025-39601](https://github.com/Nxploited/CVE-2025-39601)
+
+### CVE-2025-42599 (2025-04-18)
+
+<code>Active! mail 6 BuildInfo: 6.60.05008561 and earlier contains a stack-based buffer overflow vulnerability. Receiving a specially crafted request created and sent by a remote unauthenticated attacker may lead to arbitrary code execution and/or a denial-of-service (DoS) condition.
+</code>
+
+- [cyruscostini/CVE-2025-42599](https://github.com/cyruscostini/CVE-2025-42599)
 
 ### CVE-2025-43864 (2025-04-25)
 
@@ -3686,7 +3708,6 @@
 </code>
 
 - [p33d/CVE-2024-8275](https://github.com/p33d/CVE-2024-8275)
-- [whiterose7777/CVE-2024-8275](https://github.com/whiterose7777/CVE-2024-8275)
 
 ### CVE-2024-8277 (2024-09-11)
 
@@ -8871,7 +8892,6 @@
 </code>
 
 - [TAM-K592/CVE-2024-40725-CVE-2024-40898](https://github.com/TAM-K592/CVE-2024-40725-CVE-2024-40898)
-- [whiterose7777/CVE-2024-40725-CVE-2024-40898](https://github.com/whiterose7777/CVE-2024-40725-CVE-2024-40898)
 - [soltanali0/CVE-2024-40725](https://github.com/soltanali0/CVE-2024-40725)
 
 ### CVE-2024-40815 (2024-07-29)
@@ -9596,7 +9616,6 @@
 
 - [p33d/CVE-2024-45519](https://github.com/p33d/CVE-2024-45519)
 - [Chocapikk/CVE-2024-45519](https://github.com/Chocapikk/CVE-2024-45519)
-- [whiterose7777/CVE-2024-45519](https://github.com/whiterose7777/CVE-2024-45519)
 - [XiaomingX/cve-2024-45519-poc](https://github.com/XiaomingX/cve-2024-45519-poc)
 - [sec13b/CVE-2024-45519](https://github.com/sec13b/CVE-2024-45519)
 
