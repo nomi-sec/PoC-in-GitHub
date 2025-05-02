@@ -368,6 +368,13 @@
 
 - [LvL23HT/PoC-CVE-2025-3914-Aeropage-WordPress-File-Upload](https://github.com/LvL23HT/PoC-CVE-2025-3914-Aeropage-WordPress-File-Upload)
 
+### CVE-2025-3928 (2025-04-25)
+
+<code>Commvault Web Server has an unspecified vulnerability that can be exploited by a remote, authenticated attacker. According to the Commvault advisory: &quot;Webservers can be compromised through bad actors creating and executing webshells.&quot; Fixed in version 11.36.46, 11.32.89, 11.28.141, and 11.20.217 for Windows and Linux platforms. This vulnerability was added to the CISA Known Exploited Vulnerabilities (KEV) Catalog on 2025-04-28.
+</code>
+
+- [Totunm/CVE-2025-3928](https://github.com/Totunm/CVE-2025-3928)
+
 ### CVE-2025-3971 (2025-04-27)
 
 <code>In PHPGurukul COVID19 Testing Management System 1.0 wurde eine kritische Schwachstelle entdeckt. Betroffen ist eine unbekannte Verarbeitung der Datei /add-phlebotomist.php. Dank Manipulation des Arguments empid mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
@@ -377,6 +384,7 @@
 
 ### CVE-2025-12654
 - [Yuweixn/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Yuweixn/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
+- [Subha-coder-hash/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Subha-coder-hash/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -1549,7 +1557,6 @@
 - [rxerium/CVE-2025-31324](https://github.com/rxerium/CVE-2025-31324)
 - [redrays-io/CVE-2025-31324](https://github.com/redrays-io/CVE-2025-31324)
 - [Onapsis/Onapsis_CVE-2025-31324_Scanner_Tools](https://github.com/Onapsis/Onapsis_CVE-2025-31324_Scanner_Tools)
-- [Totunm/CVE-2025-31324](https://github.com/Totunm/CVE-2025-31324)
 - [moften/CVE-2025-31324](https://github.com/moften/CVE-2025-31324)
 - [moften/CVE-2025-31324-NUCLEI](https://github.com/moften/CVE-2025-31324-NUCLEI)
 - [Alizngnc/SAP-CVE-2025-31324](https://github.com/Alizngnc/SAP-CVE-2025-31324)
@@ -1560,6 +1567,7 @@
 - [nullcult/CVE-2025-31324-File-Upload](https://github.com/nullcult/CVE-2025-31324-File-Upload)
 - [respondiq/jsp-webshell-scanner](https://github.com/respondiq/jsp-webshell-scanner)
 - [JonathanStross/CVE-2025-31324](https://github.com/JonathanStross/CVE-2025-31324)
+- [Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment](https://github.com/Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -3101,7 +3109,6 @@
 - [Chocapikk/CVE-2024-5084](https://github.com/Chocapikk/CVE-2024-5084)
 - [k3lpi3b4nsh33/CVE-2024-5084](https://github.com/k3lpi3b4nsh33/CVE-2024-5084)
 - [WOOOOONG/CVE-2024-5084](https://github.com/WOOOOONG/CVE-2024-5084)
-- [BREUSBOSS/CVE-2024-5084](https://github.com/BREUSBOSS/CVE-2024-5084)
 - [Raeezrbr/CVE-2024-5084](https://github.com/Raeezrbr/CVE-2024-5084)
 - [ModeBrutal/CVE-2024-5084-Auto-Exploit](https://github.com/ModeBrutal/CVE-2024-5084-Auto-Exploit)
 
