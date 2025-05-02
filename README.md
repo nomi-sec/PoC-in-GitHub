@@ -131,6 +131,13 @@
 
 - [EQSTLab/CVE-2025-1302](https://github.com/EQSTLab/CVE-2025-1302)
 
+### CVE-2025-1304 (2025-05-01)
+
+<code>The NewsBlogger theme for WordPress is vulnerable to arbitrary file uploads due to a missing capability check on the newsblogger_install_and_activate_plugin() function in all versions up to, and including, 0.2.5.1. This makes it possible for authenticated attackers, with subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [Nxploited/CVE-2025-1304](https://github.com/Nxploited/CVE-2025-1304)
+
 ### CVE-2025-1306 (2025-03-04)
 
 <code>The Newscrunch theme for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.8.4. This is due to missing or incorrect nonce validation on the newscrunch_install_and_activate_plugin() function. This makes it possible for unauthenticated attackers to upload arbitrary files via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
@@ -291,7 +298,11 @@
 
 - [Nxploited/CVE-2025-2807](https://github.com/Nxploited/CVE-2025-2807)
 
-### CVE-2025-2812
+### CVE-2025-2812 (2025-05-02)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Mydata Informatics Ticket Sales Automation allows Blind SQL Injection.This issue affects Ticket Sales Automation: before 03.04.2025 (DD.MM.YYYY).
+</code>
+
 - [sahici/CVE-2025-2812](https://github.com/sahici/CVE-2025-2812)
 
 ### CVE-2025-2825
@@ -50374,6 +50385,7 @@
 - [sakilahamed/Linux-Kernel-Exploit-LAB](https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB)
 - [ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195)
 - [LiEnby/PSSRoot](https://github.com/LiEnby/PSSRoot)
+- [0x3n19m4/CVE-2016-5195](https://github.com/0x3n19m4/CVE-2016-5195)
 
 ### CVE-2016-5345 (2018-01-23)
 
@@ -53426,6 +53438,13 @@
 </code>
 
 - [Mekanismen/pwnacle-fusion](https://github.com/Mekanismen/pwnacle-fusion)
+
+### CVE-2012-3576 (2012-06-16)
+
+<code>Unrestricted file upload vulnerability in php/upload.php in the wpStoreCart plugin before 2.5.30 for WordPress allows remote attackers to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in uploads/wpstorecart.
+</code>
+
+- [Ydvmtzv/wpstorecart-exploit](https://github.com/Ydvmtzv/wpstorecart-exploit)
 
 ### CVE-2012-3716 (2012-09-20)
 
