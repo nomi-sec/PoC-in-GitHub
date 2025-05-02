@@ -1565,6 +1565,7 @@
 
 - [absholi7ly/TomcatKiller-CVE-2025-31650](https://github.com/absholi7ly/TomcatKiller-CVE-2025-31650)
 - [tunahantekeoglu/CVE-2025-31650](https://github.com/tunahantekeoglu/CVE-2025-31650)
+- [sattarbug/Analysis-of-TomcatKiller---CVE-2025-31650-Exploit-Tool](https://github.com/sattarbug/Analysis-of-TomcatKiller---CVE-2025-31650-Exploit-Tool)
 
 ### CVE-2025-31651 (2025-04-28)
 
@@ -1650,6 +1651,7 @@
 - [abrewer251/CVE-2025-32433_Erlang-OTP](https://github.com/abrewer251/CVE-2025-32433_Erlang-OTP)
 - [ODST-Forge/CVE-2025-32433_PoC](https://github.com/ODST-Forge/CVE-2025-32433_PoC)
 - [C9b3rD3vi1/Erlang-OTP-SSH-CVE-2025-32433](https://github.com/C9b3rD3vi1/Erlang-OTP-SSH-CVE-2025-32433)
+- [bilalz5-github/Erlang-OTP-SSH-CVE-2025-32433](https://github.com/bilalz5-github/Erlang-OTP-SSH-CVE-2025-32433)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3757,13 +3759,6 @@
 
 - [bjrjk/CVE-2024-8381](https://github.com/bjrjk/CVE-2024-8381)
 
-### CVE-2024-8418 (2024-09-04)
-
-<code>A flaw was found in Aardvark-dns, which is vulnerable to a Denial of Service attack due to the serial processing of TCP DNS queries. An attacker can exploit this flaw by keeping a TCP connection open indefinitely, causing the server to become unresponsive and resulting in other DNS queries timing out. This issue prevents legitimate users from accessing DNS services, thereby disrupting normal operations and causing service downtime.
-</code>
-
-- [goma0x2/CVE-2024-8418](https://github.com/goma0x2/CVE-2024-8418)
-
 ### CVE-2024-8425 (2025-02-28)
 
 <code>The WooCommerce Ultimate Gift Card plugin for WordPress is vulnerable to arbitrary file uploads due to insufficient file type validation in the 'mwb_wgm_preview_mail' and 'mwb_wgm_woocommerce_add_cart_item_data' functions in all versions up to, and including, 2.6.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -5513,6 +5508,7 @@
 - [expl0itsecurity/CVE-2024-23113](https://github.com/expl0itsecurity/CVE-2024-23113)
 - [XiaomingX/cve-2024-23113-exp](https://github.com/XiaomingX/cve-2024-23113-exp)
 - [XiaomingX/cve-2024-23113-poc](https://github.com/XiaomingX/cve-2024-23113-poc)
+- [valornode/CVE-2024-23113](https://github.com/valornode/CVE-2024-23113)
 
 ### CVE-2024-23208 (2024-01-23)
 
@@ -19361,6 +19357,7 @@
 - [blindma1den/CVE-2023-46818-Exploit](https://github.com/blindma1den/CVE-2023-46818-Exploit)
 - [ajdumanhug/CVE-2023-46818](https://github.com/ajdumanhug/CVE-2023-46818)
 - [ajdumanhug/CVE-2022-42092](https://github.com/ajdumanhug/CVE-2022-42092)
+- [rvizx/CVE-2023-46818](https://github.com/rvizx/CVE-2023-46818)
 
 ### CVE-2023-46865 (2023-10-30)
 
