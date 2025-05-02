@@ -593,6 +593,7 @@
 - [xigney/CVE-2025-24054_PoC](https://github.com/xigney/CVE-2025-24054_PoC)
 - [helidem/CVE-2025-24054-PoC](https://github.com/helidem/CVE-2025-24054-PoC)
 - [ClementNjeru/CVE-2025-24054-PoC](https://github.com/ClementNjeru/CVE-2025-24054-PoC)
+- [S4mma3l/CVE-2025-24054](https://github.com/S4mma3l/CVE-2025-24054)
 
 ### CVE-2025-24071 (2025-03-11)
 
@@ -1520,6 +1521,7 @@
 - [TX-One/CVE-2025-31161](https://github.com/TX-One/CVE-2025-31161)
 - [SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825](https://github.com/SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825)
 - [SUPRAAA-1337/CVE-2025-31161_exploit](https://github.com/SUPRAAA-1337/CVE-2025-31161_exploit)
+- [ibrahimsql/CVE-2025-31161](https://github.com/ibrahimsql/CVE-2025-31161)
 
 ### CVE-2025-31200 (2025-04-16)
 
@@ -6699,6 +6701,7 @@
 - [CERTologists/EXPLOITING-CVE-2024-27956](https://github.com/CERTologists/EXPLOITING-CVE-2024-27956)
 - [7aRanchi/CVE-2024-27956-for-fscan](https://github.com/7aRanchi/CVE-2024-27956-for-fscan)
 - [m4nInTh3mIdDle/wordpress-CVE-2024-27956](https://github.com/m4nInTh3mIdDle/wordpress-CVE-2024-27956)
+- [devsec23/CVE-2024-27956](https://github.com/devsec23/CVE-2024-27956)
 
 ### CVE-2024-27971 (2024-05-17)
 
@@ -12569,6 +12572,7 @@
 </code>
 
 - [krishnan-tech/CVE-2023-4226-POC](https://github.com/krishnan-tech/CVE-2023-4226-POC)
+- [SkyW4r33x/CVE-2023-4226](https://github.com/SkyW4r33x/CVE-2023-4226)
 
 ### CVE-2023-4278 (2023-09-11)
 
