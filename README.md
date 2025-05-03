@@ -1779,6 +1779,9 @@
 
 - [0xBenCantCode/CVE-2025-43929](https://github.com/0xBenCantCode/CVE-2025-43929)
 
+### CVE-2025-44039
+- [Yashodhanvivek/CP-XR-DE21-S--4G-Router-Vulnerabilities](https://github.com/Yashodhanvivek/CP-XR-DE21-S--4G-Router-Vulnerabilities)
+
 ### CVE-2025-44228
 - [Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
 - [Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
@@ -26660,6 +26663,7 @@
 - [CygnusX-26/CVE-2022-44268-fixed-PoC](https://github.com/CygnusX-26/CVE-2022-44268-fixed-PoC)
 - [PanAdamski/CVE-2022-44268-automated](https://github.com/PanAdamski/CVE-2022-44268-automated)
 - [FlojBoj/CVE-2022-44268](https://github.com/FlojBoj/CVE-2022-44268)
+- [katseyres2/CVE-2022-44268-pilgrimage](https://github.com/katseyres2/CVE-2022-44268-pilgrimage)
 
 ### CVE-2022-44276 (2023-06-28)
 
@@ -47845,6 +47849,7 @@
 - [Nithylesh/web-application-firewall-](https://github.com/Nithylesh/web-application-firewall-)
 - [kloutkake/CVE-2017-5638-PoC](https://github.com/kloutkake/CVE-2017-5638-PoC)
 - [Xernary/CVE-2017-5638-POC](https://github.com/Xernary/CVE-2017-5638-POC)
+- [toothbrushsoapflannelbiscuits/cve-2017-5638](https://github.com/toothbrushsoapflannelbiscuits/cve-2017-5638)
 
 ### CVE-2017-5645 (2017-04-17)
 
