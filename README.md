@@ -611,7 +611,6 @@
 
 - [xigney/CVE-2025-24054_PoC](https://github.com/xigney/CVE-2025-24054_PoC)
 - [helidem/CVE-2025-24054-PoC](https://github.com/helidem/CVE-2025-24054-PoC)
-- [ClementNjeru/CVE-2025-24054-PoC](https://github.com/ClementNjeru/CVE-2025-24054-PoC)
 - [S4mma3l/CVE-2025-24054](https://github.com/S4mma3l/CVE-2025-24054)
 
 ### CVE-2025-24071 (2025-03-11)
