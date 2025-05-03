@@ -1368,6 +1368,7 @@
 - [hed1ad/CVE-2025-29927](https://github.com/hed1ad/CVE-2025-29927)
 - [HoumanPashaei/CVE-2025-29927](https://github.com/HoumanPashaei/CVE-2025-29927)
 - [rubbxalc/CVE-2025-29927](https://github.com/rubbxalc/CVE-2025-29927)
+- [olimpiofreitas/CVE-2025-29927_scanner](https://github.com/olimpiofreitas/CVE-2025-29927_scanner)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -1670,6 +1671,7 @@
 - [ODST-Forge/CVE-2025-32433_PoC](https://github.com/ODST-Forge/CVE-2025-32433_PoC)
 - [C9b3rD3vi1/Erlang-OTP-SSH-CVE-2025-32433](https://github.com/C9b3rD3vi1/Erlang-OTP-SSH-CVE-2025-32433)
 - [bilalz5-github/Erlang-OTP-SSH-CVE-2025-32433](https://github.com/bilalz5-github/Erlang-OTP-SSH-CVE-2025-32433)
+- [vigilante-1337/CVE-2025-32433](https://github.com/vigilante-1337/CVE-2025-32433)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -1794,6 +1796,13 @@
 
 ### CVE-2025-46701
 - [gregk4sec/CVE-2025-46701](https://github.com/gregk4sec/CVE-2025-46701)
+
+### CVE-2025-47226 (2025-05-02)
+
+<code>Grokability Snipe-IT before 8.1.0 has incorrect authorization for accessing asset information.
+</code>
+
+- [koyomihack00/CVE-2025-47226](https://github.com/koyomihack00/CVE-2025-47226)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -24595,7 +24604,7 @@
 <code>Pharmacy Management System v1.0 was discovered to contain a remote code execution (RCE) vulnerability via the component /php_action/editProductImage.php. This vulnerability allows attackers to execute arbitrary code via a crafted image file.
 </code>
 
-- [MuallimNaci/CVE-2022-30887](https://github.com/MuallimNaci/CVE-2022-30887)
+- [Sonerctnkya/CVE-2022-30887](https://github.com/Sonerctnkya/CVE-2022-30887)
 
 ### CVE-2022-30929 (2022-07-06)
 
