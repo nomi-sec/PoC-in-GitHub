@@ -9390,6 +9390,13 @@
 
 - [slds1/explt](https://github.com/slds1/explt)
 
+### CVE-2024-44308 (2024-11-19)
+
+<code>The issue was addressed with improved checks. This issue is fixed in Safari 18.1.1, iOS 17.7.2 and iPadOS 17.7.2, macOS Sequoia 15.1.1, iOS 18.1.1 and iPadOS 18.1.1, visionOS 2.1.1. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited on Intel-based Mac systems.
+</code>
+
+- [migopp/cve-2024-44308](https://github.com/migopp/cve-2024-44308)
+
 ### CVE-2024-44313 (2025-03-18)
 
 <code>TastyIgniter 3.7.6 contains an Incorrect Access Control vulnerability in the invoice() function within Orders.php which allows unauthorized users to access and generate invoices due to missing permission checks.
@@ -37164,6 +37171,7 @@
 </code>
 
 - [b4ny4n/CVE-2020-13151](https://github.com/b4ny4n/CVE-2020-13151)
+- [ByteMe1001/CVE-2020-13151-POC-Aerospike-Server-Host-Command-Execution-RCE-](https://github.com/ByteMe1001/CVE-2020-13151-POC-Aerospike-Server-Host-Command-Execution-RCE-)
 
 ### CVE-2020-13158 (2020-06-22)
 
