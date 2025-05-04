@@ -382,13 +382,6 @@
 
 - [Totunm/CVE-2025-3928](https://github.com/Totunm/CVE-2025-3928)
 
-### CVE-2025-3971 (2025-04-27)
-
-<code>In PHPGurukul COVID19 Testing Management System 1.0 wurde eine kritische Schwachstelle entdeckt. Betroffen ist eine unbekannte Verarbeitung der Datei /add-phlebotomist.php. Dank Manipulation des Arguments empid mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [cyruscostini/CVE-2025-3971](https://github.com/cyruscostini/CVE-2025-3971)
-
 ### CVE-2025-12654
 - [Yuweixn/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Yuweixn/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 - [Subha-coder-hash/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Subha-coder-hash/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
@@ -635,13 +628,6 @@
 - [Marcejr117/CVE-2025-24071_PoC](https://github.com/Marcejr117/CVE-2025-24071_PoC)
 - [cesarbtakeda/Windows-Explorer-CVE-2025-24071](https://github.com/cesarbtakeda/Windows-Explorer-CVE-2025-24071)
 - [pswalia2u/CVE-2025-24071_POC](https://github.com/pswalia2u/CVE-2025-24071_POC)
-
-### CVE-2025-24091 (2025-04-30)
-
-<code>An app could impersonate system notifications. Sensitive notifications now require restricted entitlements. This issue is fixed in iOS 18.3 and iPadOS 18.3, iPadOS 17.7.3. An app may be able to cause a denial-of-service.
-</code>
-
-- [cyruscostini/CVE-2025-24091](https://github.com/cyruscostini/CVE-2025-24091)
 
 ### CVE-2025-24104 (2025-01-27)
 
@@ -1744,13 +1730,6 @@
 </code>
 
 - [Nxploited/CVE-2025-39601](https://github.com/Nxploited/CVE-2025-39601)
-
-### CVE-2025-42599 (2025-04-18)
-
-<code>Active! mail 6 BuildInfo: 6.60.05008561 and earlier contains a stack-based buffer overflow vulnerability. Receiving a specially crafted request created and sent by a remote unauthenticated attacker may lead to arbitrary code execution and/or a denial-of-service (DoS) condition.
-</code>
-
-- [cyruscostini/CVE-2025-42599](https://github.com/cyruscostini/CVE-2025-42599)
 
 ### CVE-2025-43864 (2025-04-25)
 
