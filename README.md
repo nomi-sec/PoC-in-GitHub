@@ -152,6 +152,13 @@
 
 - [Nxploited/CVE-2025-1307](https://github.com/Nxploited/CVE-2025-1307)
 
+### CVE-2025-1323 (2025-03-08)
+
+<code>The WP-Recall – Registration, Profile, Commerce &amp; More plugin for WordPress is vulnerable to SQL Injection via the 'databeat' parameter in all versions up to, and including, 16.26.10 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [p33d/cve-2025-1323](https://github.com/p33d/cve-2025-1323)
+
 ### CVE-2025-1639 (2025-03-04)
 
 <code>The Animation Addons for Elementor Pro plugin for WordPress is vulnerable to unauthorized arbitrary plugin installation due to a missing capability check on the install_elementor_plugin_handler() function in all versions up to, and including, 1.6. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install and activate arbitrary plugins which can be leveraged to further infect a victim when Elementor is not activated on a vulnerable site.
@@ -1086,6 +1093,7 @@
 
 - [NightBloodz/moodleTestingEnv](https://github.com/NightBloodz/moodleTestingEnv)
 - [Astroo18/PoC-CVE-2025-26529](https://github.com/Astroo18/PoC-CVE-2025-26529)
+- [exfil0/UNISA_CVE-2025-26529](https://github.com/exfil0/UNISA_CVE-2025-26529)
 
 ### CVE-2025-26633 (2025-03-11)
 
@@ -1628,6 +1636,13 @@
 
 - [Nxploited/CVE-2025-32206](https://github.com/Nxploited/CVE-2025-32206)
 
+### CVE-2025-32375 (2025-04-09)
+
+<code>BentoML is a Python library for building online serving systems optimized for AI apps and model inference. Prior to 1.4.8, there was an insecure deserialization in BentoML's runner server. By setting specific headers and parameters in the POST request, it is possible to execute any unauthorized arbitrary code on the server, which will grant the attackers to have the initial access and information disclosure on the server. This vulnerability is fixed in 1.4.8.
+</code>
+
+- [theGEBIRGE/CVE-2025-32375](https://github.com/theGEBIRGE/CVE-2025-32375)
+
 ### CVE-2025-32395 (2025-04-10)
 
 <code>Vite is a frontend tooling framework for javascript. Prior to 6.2.6, 6.1.5, 6.0.15, 5.4.18, and 4.5.13, the contents of arbitrary files can be returned to the browser if the dev server is running on Node or Bun. HTTP 1.1 spec (RFC 9112) does not allow # in request-target. Although an attacker can send such a request. For those requests with an invalid request-line (it includes request-target), the spec recommends to reject them with 400 or 301. The same can be said for HTTP 2. On Node and Bun, those requests are not rejected internally and is passed to the user land. For those requests, the value of http.IncomingMessage.url contains #. Vite assumed req.url won't contain # when checking server.fs.deny, allowing those kinds of requests to bypass the check. Only apps explicitly exposing the Vite dev server to the network (using --host or server.host config option) and running the Vite dev server on runtimes that are not Deno (e.g. Node, Bun) are affected. This vulnerability is fixed in 6.2.6, 6.1.5, 6.0.15, 5.4.18, and 4.5.13.
@@ -1803,6 +1818,9 @@
 </code>
 
 - [koyomihack00/CVE-2025-47226](https://github.com/koyomihack00/CVE-2025-47226)
+
+### CVE-2025-47240
+- [Oblivionsage/fastify-cve-2025-47240](https://github.com/Oblivionsage/fastify-cve-2025-47240)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
