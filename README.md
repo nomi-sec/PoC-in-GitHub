@@ -8071,6 +8071,7 @@
 - [whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit)
 - [bmth666/GeoServer-Tools-CVE-2024-36401](https://github.com/bmth666/GeoServer-Tools-CVE-2024-36401)
 - [amoy6228/CVE-2024-36401_Geoserver_RCE_POC](https://github.com/amoy6228/CVE-2024-36401_Geoserver_RCE_POC)
+- [cochaviz/cve-2024-36401-poc](https://github.com/cochaviz/cve-2024-36401-poc)
 
 ### CVE-2024-36416 (2024-06-10)
 
