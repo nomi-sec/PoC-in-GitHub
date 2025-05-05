@@ -382,6 +382,13 @@
 
 - [Totunm/CVE-2025-3928](https://github.com/Totunm/CVE-2025-3928)
 
+### CVE-2025-3969 (2025-04-27)
+
+<code>Eine Schwachstelle wurde in codeprojects News Publishing Site Dashboard 1.0 ausgemacht. Sie wurde als kritisch eingestuft. Davon betroffen ist unbekannter Code der Datei /edit-category.php der Komponente Edit Category Page. Durch Beeinflussen des Arguments category_image mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [Stuub/CVE-2025-3969-Exploit](https://github.com/Stuub/CVE-2025-3969-Exploit)
+
 ### CVE-2025-12654
 - [Yuweixn/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Yuweixn/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 - [Subha-coder-hash/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Subha-coder-hash/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
@@ -753,7 +760,6 @@
 </code>
 
 - [iSee857/CVE-2025-24893-PoC](https://github.com/iSee857/CVE-2025-24893-PoC)
-- [Wormwdcold/CVE-2025-24893-EXP](https://github.com/Wormwdcold/CVE-2025-24893-EXP)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -1154,6 +1160,9 @@
 </code>
 
 - [beardenx/CVE-2025-28009](https://github.com/beardenx/CVE-2025-28009)
+
+### CVE-2025-28062
+- [Thvt0ne/CVE-2025-28062](https://github.com/Thvt0ne/CVE-2025-28062)
 
 ### CVE-2025-28121 (2025-04-21)
 
@@ -5135,6 +5144,13 @@
 </code>
 
 - [L3ster1337/Poc-CVE-2024-21542](https://github.com/L3ster1337/Poc-CVE-2024-21542)
+
+### CVE-2024-21546 (2024-12-18)
+
+<code>Versions of the package unisharp/laravel-filemanager before 2.9.1 are vulnerable to Remote Code Execution (RCE) through using a valid mimetype and inserting the . character after the php file extension. This allows the attacker to execute malicious code.
+</code>
+
+- [ajdumanhug/CVE-2024-21546](https://github.com/ajdumanhug/CVE-2024-21546)
 
 ### CVE-2024-21626 (2024-01-31)
 
@@ -14270,6 +14286,7 @@
 - [n3rdh4x0r/CVE-2023-23752](https://github.com/n3rdh4x0r/CVE-2023-23752)
 - [mil4ne/CVE-2023-23752-Joomla-v4.2.8](https://github.com/mil4ne/CVE-2023-23752-Joomla-v4.2.8)
 - [Aureum01/CVE-2023-23752](https://github.com/Aureum01/CVE-2023-23752)
+- [m4nInTh3mIdDle/joomla-CVE-2023](https://github.com/m4nInTh3mIdDle/joomla-CVE-2023)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -37243,6 +37260,7 @@
 </code>
 
 - [mrnazu/CVE-2020-13405](https://github.com/mrnazu/CVE-2020-13405)
+- [Moniruzzaman995/CVE-2020-13405](https://github.com/Moniruzzaman995/CVE-2020-13405)
 
 ### CVE-2020-13424 (2020-05-23)
 
