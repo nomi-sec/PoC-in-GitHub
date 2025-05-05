@@ -753,6 +753,7 @@
 </code>
 
 - [iSee857/CVE-2025-24893-PoC](https://github.com/iSee857/CVE-2025-24893-PoC)
+- [Wormwdcold/CVE-2025-24893-EXP](https://github.com/Wormwdcold/CVE-2025-24893-EXP)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -13968,6 +13969,7 @@
 - [C1ph3rX13/CVE-2023-22518](https://github.com/C1ph3rX13/CVE-2023-22518)
 - [bibo318/CVE-2023-22518](https://github.com/bibo318/CVE-2023-22518)
 - [Lilly-dox/Exploit-CVE-2023-22518](https://github.com/Lilly-dox/Exploit-CVE-2023-22518)
+- [ductink98lhp/analyze-Exploit-CVE-2023-22518-Confluence](https://github.com/ductink98lhp/analyze-Exploit-CVE-2023-22518-Confluence)
 
 ### CVE-2023-22524 (2023-12-06)
 
