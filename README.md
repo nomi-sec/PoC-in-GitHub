@@ -353,6 +353,7 @@
 - [PuddinCat/CVE-2025-3248-POC](https://github.com/PuddinCat/CVE-2025-3248-POC)
 - [verylazytech/CVE-2025-3248](https://github.com/verylazytech/CVE-2025-3248)
 - [minxxcozy/CVE-2025-3248-langflow-RCE](https://github.com/minxxcozy/CVE-2025-3248-langflow-RCE)
+- [Praison001/CVE-2025-3248](https://github.com/Praison001/CVE-2025-3248)
 
 ### CVE-2025-3568 (2025-04-14)
 
@@ -367,6 +368,7 @@
 </code>
 
 - [Nxploited/CVE-2025-3776](https://github.com/Nxploited/CVE-2025-3776)
+- [Totunm/CVE-2025-3776](https://github.com/Totunm/CVE-2025-3776)
 
 ### CVE-2025-3914 (2025-04-26)
 
@@ -1161,7 +1163,11 @@
 
 - [beardenx/CVE-2025-28009](https://github.com/beardenx/CVE-2025-28009)
 
-### CVE-2025-28062
+### CVE-2025-28062 (2025-05-05)
+
+<code>A Cross-Site Request Forgery (CSRF) vulnerability was discovered in ERPNEXT 14.82.1 and 14.74.3. The vulnerability allows an attacker to perform unauthorized actions such as user deletion, password resets, and privilege escalation due to missing CSRF protections.
+</code>
+
 - [Thvt0ne/CVE-2025-28062](https://github.com/Thvt0ne/CVE-2025-28062)
 
 ### CVE-2025-28121 (2025-04-21)
@@ -1241,6 +1247,9 @@
 </code>
 
 - [Otsmane-Ahmed/cve-2025-29384-poc](https://github.com/Otsmane-Ahmed/cve-2025-29384-poc)
+
+### CVE-2025-29448
+- [Abdullah4eb/CVE-2025-29448](https://github.com/Abdullah4eb/CVE-2025-29448)
 
 ### CVE-2025-29529 (2025-04-24)
 
@@ -1808,8 +1817,8 @@
 
 - [koyomihack00/CVE-2025-47226](https://github.com/koyomihack00/CVE-2025-47226)
 
-### CVE-2025-47240
-- [Oblivionsage/fastify-cve-2025-47240](https://github.com/Oblivionsage/fastify-cve-2025-47240)
+### CVE-2025-47256
+- [SexyShoelessGodofWar/CVE-2025-47256](https://github.com/SexyShoelessGodofWar/CVE-2025-47256)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
