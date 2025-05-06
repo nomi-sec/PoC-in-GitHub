@@ -673,6 +673,7 @@
 </code>
 
 - [ekomsSavior/AirBorne-PoC](https://github.com/ekomsSavior/AirBorne-PoC)
+- [apwlq/AirBorne-PoC](https://github.com/apwlq/AirBorne-PoC)
 
 ### CVE-2025-24271 (2025-04-29)
 
@@ -770,6 +771,7 @@
 </code>
 
 - [iSee857/CVE-2025-24893-PoC](https://github.com/iSee857/CVE-2025-24893-PoC)
+- [Artemir7/CVE-2025-24893-EXP](https://github.com/Artemir7/CVE-2025-24893-EXP)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -1389,6 +1391,7 @@
 - [hed1ad/CVE-2025-29927](https://github.com/hed1ad/CVE-2025-29927)
 - [HoumanPashaei/CVE-2025-29927](https://github.com/HoumanPashaei/CVE-2025-29927)
 - [rubbxalc/CVE-2025-29927](https://github.com/rubbxalc/CVE-2025-29927)
+- [0xpr4bin/vulnerable-next_js_cve-2025-29927](https://github.com/0xpr4bin/vulnerable-next_js_cve-2025-29927)
 - [olimpiofreitas/CVE-2025-29927_scanner](https://github.com/olimpiofreitas/CVE-2025-29927_scanner)
 
 ### CVE-2025-29972
@@ -1589,6 +1592,7 @@
 - [respondiq/jsp-webshell-scanner](https://github.com/respondiq/jsp-webshell-scanner)
 - [JonathanStross/CVE-2025-31324](https://github.com/JonathanStross/CVE-2025-31324)
 - [Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment](https://github.com/Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment)
+- [rf-peixoto/sap_netweaver_cve-2025-31324-](https://github.com/rf-peixoto/sap_netweaver_cve-2025-31324-)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -1737,6 +1741,7 @@
 - [watchtowrlabs/watchTowr-vs-Commvault-PreAuth-RCE-CVE-2025-34028](https://github.com/watchtowrlabs/watchTowr-vs-Commvault-PreAuth-RCE-CVE-2025-34028)
 - [tinkerlev/commvault-cve2025-34028-check](https://github.com/tinkerlev/commvault-cve2025-34028-check)
 - [becrevex/Commvault-CVE-2025-34028](https://github.com/becrevex/Commvault-CVE-2025-34028)
+- [Mattb709/CVE-2025-34028-PoC-Commvault-RCE](https://github.com/Mattb709/CVE-2025-34028-PoC-Commvault-RCE)
 
 ### CVE-2025-39436 (2025-04-17)
 
@@ -1808,6 +1813,13 @@
 ### CVE-2025-44228
 - [Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
 - [Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
+
+### CVE-2025-45250 (2025-05-06)
+
+<code>MrDoc v0.95 and before is vulnerable to Server-Side Request Forgery (SSRF) in the validate_url function of the app_doc/utils.py file.
+</code>
+
+- [Anike-x/CVE-2025-45250](https://github.com/Anike-x/CVE-2025-45250)
 
 ### CVE-2025-46657 (2025-04-27)
 
@@ -14311,7 +14323,6 @@
 - [n3rdh4x0r/CVE-2023-23752](https://github.com/n3rdh4x0r/CVE-2023-23752)
 - [mil4ne/CVE-2023-23752-Joomla-v4.2.8](https://github.com/mil4ne/CVE-2023-23752-Joomla-v4.2.8)
 - [Aureum01/CVE-2023-23752](https://github.com/Aureum01/CVE-2023-23752)
-- [m4nInTh3mIdDle/joomla-CVE-2023](https://github.com/m4nInTh3mIdDle/joomla-CVE-2023)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -28606,7 +28617,6 @@
 - [xcanwin/CVE-2021-4034-UniontechOS](https://github.com/xcanwin/CVE-2021-4034-UniontechOS)
 - [azminawwar/CVE-2021-4034](https://github.com/azminawwar/CVE-2021-4034)
 - [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
-- [sunny0day/CVE-2021-4034](https://github.com/sunny0day/CVE-2021-4034)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [whokilleddb/CVE-2021-4034](https://github.com/whokilleddb/CVE-2021-4034)
 - [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
@@ -29475,6 +29485,7 @@
 - [z3usx01/CVE-2021-23017-POC](https://github.com/z3usx01/CVE-2021-23017-POC)
 - [lukwagoasuman/-home-lukewago-Downloads-CVE-2021-23017-Nginx-1.14](https://github.com/lukwagoasuman/-home-lukewago-Downloads-CVE-2021-23017-Nginx-1.14)
 - [Cybervixy/Vulnerability-Management](https://github.com/Cybervixy/Vulnerability-Management)
+- [moften/CVE-2021-23017](https://github.com/moften/CVE-2021-23017)
 
 ### CVE-2021-23132 (2021-03-04)
 
@@ -43577,7 +43588,6 @@
 - [k-fire/CVE-2019-19781-exploit](https://github.com/k-fire/CVE-2019-19781-exploit)
 - [zerobytesecure/CVE-2019-19781](https://github.com/zerobytesecure/CVE-2019-19781)
 - [user20252228/CVE-2019-19781](https://github.com/user20252228/CVE-2019-19781)
-- [hyunjin0334/CVE-2019-19781](https://github.com/hyunjin0334/CVE-2019-19781)
 
 ### CVE-2019-19782 (2019-12-13)
 
