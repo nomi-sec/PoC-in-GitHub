@@ -362,6 +362,13 @@
 
 - [shellkraft/CVE-2025-3568](https://github.com/shellkraft/CVE-2025-3568)
 
+### CVE-2025-3604 (2025-04-24)
+
+<code>The Flynax Bridge plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 2.2.0. This is due to the plugin not properly validating a user's identity prior to updating their details like email. This makes it possible for unauthenticated attackers to change arbitrary user's email addresses, including administrators, and leverage that to reset the user's password and gain access to their account.
+</code>
+
+- [Nxploited/CVE-2025-3604](https://github.com/Nxploited/CVE-2025-3604)
+
 ### CVE-2025-3776 (2025-04-24)
 
 <code>The Verification SMS with TargetSMS plugin for WordPress is vulnerable to limited Remote Code Execution in all versions up to, and including, 1.5 via the 'targetvr_ajax_handler' function. This is due to a lack of validation on the type of function that can be called. This makes it possible for unauthenticated attackers to execute any callable function on the site, such as phpinfo().
@@ -1729,6 +1736,7 @@
 
 - [watchtowrlabs/watchTowr-vs-Commvault-PreAuth-RCE-CVE-2025-34028](https://github.com/watchtowrlabs/watchTowr-vs-Commvault-PreAuth-RCE-CVE-2025-34028)
 - [tinkerlev/commvault-cve2025-34028-check](https://github.com/tinkerlev/commvault-cve2025-34028-check)
+- [becrevex/Commvault-CVE-2025-34028](https://github.com/becrevex/Commvault-CVE-2025-34028)
 
 ### CVE-2025-39436 (2025-04-17)
 
@@ -1810,6 +1818,13 @@
 
 ### CVE-2025-46701
 - [gregk4sec/CVE-2025-46701](https://github.com/gregk4sec/CVE-2025-46701)
+
+### CVE-2025-46731 (2025-05-05)
+
+<code>Craft is a content management system. Versions of Craft CMS on the 4.x branch prior to 4.14.13 and on the 5.x branch prior to 5.6.16 contains a potential remote code execution vulnerability via Twig SSTI. One must have administrator access and `ALLOW_ADMIN_CHANGES` must be enabled for this to work. Users should update to the patched versions 4.14.13 or 5.6.15 to mitigate the issue.
+</code>
+
+- [singetu0096/CVE-2025-46731](https://github.com/singetu0096/CVE-2025-46731)
 
 ### CVE-2025-47226 (2025-05-02)
 
@@ -42922,6 +42937,13 @@
 </code>
 
 - [grampae/CVE-2019-16889-poc](https://github.com/grampae/CVE-2019-16889-poc)
+
+### CVE-2019-16891 (2019-10-04)
+
+<code>Liferay Portal CE 6.2.5 allows remote command execution because of deserialization of a JSON payload.
+</code>
+
+- [hackaholicguy/CVE-2019-16891-Liferay-deserialization-RCE](https://github.com/hackaholicguy/CVE-2019-16891-Liferay-deserialization-RCE)
 
 ### CVE-2019-16920 (2019-09-27)
 
