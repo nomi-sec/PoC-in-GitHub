@@ -54687,6 +54687,13 @@
 
 - [fibonascii/CVE-2004-0558](https://github.com/fibonascii/CVE-2004-0558)
 
+### CVE-2004-0789 (2005-09-01)
+
+<code>Multiple implementations of the DNS protocol, including (1) Poslib 1.0.2-1 and earlier as used by Posadis, (2) Axis Network products before firmware 3.13, and (3) Men &amp; Mice Suite 2.2x before 2.2.3 and 3.5.x before 3.5.2, allow remote attackers to cause a denial of service (CPU and network bandwidth consumption) by triggering a communications loop via (a) DNS query packets with localhost as a spoofed source address, or (b) a response packet that triggers a response packet.
+</code>
+
+- [HimmeL-Byte/CVE-2004-0789-DDOS](https://github.com/HimmeL-Byte/CVE-2004-0789-DDOS)
+
 ### CVE-2004-1561 (2005-02-20)
 
 <code>Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute arbitrary code via an HTTP request with a large number of headers.
@@ -54898,6 +54905,13 @@
 </code>
 
 - [wlensinas/CVE-2002-1614](https://github.com/wlensinas/CVE-2002-1614)
+
+### CVE-2002-2154 (2005-11-16)
+
+<code>Directory traversal vulnerability in Monkey HTTP Daemon 0.1.4 allows remote attackers to read arbitrary files via .. (dot dot) sequences.
+</code>
+
+- [Hirainsingadia/CVE-2002-2154](https://github.com/Hirainsingadia/CVE-2002-2154)
 
 ### CVE-2002-2420 (2007-11-01)
 
