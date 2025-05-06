@@ -718,6 +718,7 @@
 </code>
 
 - [r1beirin/CVE-2025-24801](https://github.com/r1beirin/CVE-2025-24801)
+- [fatkz/CVE-2025-24801](https://github.com/fatkz/CVE-2025-24801)
 
 ### CVE-2025-24813 (2025-03-10)
 
@@ -52665,6 +52666,7 @@
 - [TheRealCiscoo/Shellshock-Exploit](https://github.com/TheRealCiscoo/Shellshock-Exploit)
 - [RadYio/CVE-2014-6271](https://github.com/RadYio/CVE-2014-6271)
 - [YunchoHang/CVE-2014-6271-SHELLSHOCK](https://github.com/YunchoHang/CVE-2014-6271-SHELLSHOCK)
+- [moften/CVE-2014-6271](https://github.com/moften/CVE-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
 
