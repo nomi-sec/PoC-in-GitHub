@@ -208,6 +208,7 @@
 - [Rubby2001/CVE-2025-1974-go](https://github.com/Rubby2001/CVE-2025-1974-go)
 - [chhhd/CVE-2025-1974](https://github.com/chhhd/CVE-2025-1974)
 - [salt318/CVE-2025-1974](https://github.com/salt318/CVE-2025-1974)
+- [abrewer251/CVE-2025-1974_IngressNightmare_PoC](https://github.com/abrewer251/CVE-2025-1974_IngressNightmare_PoC)
 
 ### CVE-2025-2005 (2025-04-02)
 
@@ -217,6 +218,13 @@
 - [Nxploited/CVE-2025-2005](https://github.com/Nxploited/CVE-2025-2005)
 - [h4ckxel/CVE-2025-2005](https://github.com/h4ckxel/CVE-2025-2005)
 - [mrmtwoj/CVE-2025-2005](https://github.com/mrmtwoj/CVE-2025-2005)
+
+### CVE-2025-2011 (2025-05-06)
+
+<code>The Slider &amp; Popup Builder by Depicter plugin for WordPress is vulnerable to generic SQL Injection via the ‘s' parameter in all versions up to, and including, 3.6.1 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [datagoboom/CVE-2025-2011](https://github.com/datagoboom/CVE-2025-2011)
 
 ### CVE-2025-2120 (2025-03-09)
 
@@ -1393,6 +1401,7 @@
 - [rubbxalc/CVE-2025-29927](https://github.com/rubbxalc/CVE-2025-29927)
 - [0xpr4bin/vulnerable-next_js_cve-2025-29927](https://github.com/0xpr4bin/vulnerable-next_js_cve-2025-29927)
 - [olimpiofreitas/CVE-2025-29927_scanner](https://github.com/olimpiofreitas/CVE-2025-29927_scanner)
+- [moften/CVE-2025-29927](https://github.com/moften/CVE-2025-29927)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -1699,7 +1708,7 @@
 - [becrevex/CVE-2025-32433](https://github.com/becrevex/CVE-2025-32433)
 - [MrDreamReal/CVE-2025-32433](https://github.com/MrDreamReal/CVE-2025-32433)
 - [Know56/CVE-2025-32433](https://github.com/Know56/CVE-2025-32433)
-- [abrewer251/CVE-2025-32433_Erlang-OTP](https://github.com/abrewer251/CVE-2025-32433_Erlang-OTP)
+- [abrewer251/CVE-2025-32433_Erlang-OTP_PoC](https://github.com/abrewer251/CVE-2025-32433_Erlang-OTP_PoC)
 - [ODST-Forge/CVE-2025-32433_PoC](https://github.com/ODST-Forge/CVE-2025-32433_PoC)
 - [C9b3rD3vi1/Erlang-OTP-SSH-CVE-2025-32433](https://github.com/C9b3rD3vi1/Erlang-OTP-SSH-CVE-2025-32433)
 - [bilalz5-github/Erlang-OTP-SSH-CVE-2025-32433](https://github.com/bilalz5-github/Erlang-OTP-SSH-CVE-2025-32433)
@@ -1845,7 +1854,11 @@
 
 - [koyomihack00/CVE-2025-47226](https://github.com/koyomihack00/CVE-2025-47226)
 
-### CVE-2025-47256
+### CVE-2025-47256 (2025-05-06)
+
+<code>Libxmp through 4.6.2 has a stack-based buffer overflow in depack_pha in loaders/prowizard/pha.c via a malformed Pha format tracker module in a .mod file.
+</code>
+
 - [SexyShoelessGodofWar/CVE-2025-47256](https://github.com/SexyShoelessGodofWar/CVE-2025-47256)
 
 ### CVE-2025-50000
@@ -8125,6 +8138,7 @@
 - [bmth666/GeoServer-Tools-CVE-2024-36401](https://github.com/bmth666/GeoServer-Tools-CVE-2024-36401)
 - [amoy6228/CVE-2024-36401_Geoserver_RCE_POC](https://github.com/amoy6228/CVE-2024-36401_Geoserver_RCE_POC)
 - [cochaviz/cve-2024-36401-poc](https://github.com/cochaviz/cve-2024-36401-poc)
+- [lowsuet/CVE-2024-36401](https://github.com/lowsuet/CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -8533,6 +8547,7 @@
 
 - [p0in7s/CVE-2024-38475](https://github.com/p0in7s/CVE-2024-38475)
 - [soltanali0/CVE-2024-38475](https://github.com/soltanali0/CVE-2024-38475)
+- [abrewer251/CVE-2024-38475_SonicBoom_Apache_URL_Traversal_PoC](https://github.com/abrewer251/CVE-2024-38475_SonicBoom_Apache_URL_Traversal_PoC)
 
 ### CVE-2024-38526 (2024-06-25)
 
