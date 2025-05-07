@@ -292,6 +292,9 @@
 
 - [Otsmane-Ahmed/CVE-2025-2620-poc](https://github.com/Otsmane-Ahmed/CVE-2025-2620-poc)
 
+### CVE-2025-2775
+- [watchtowrlabs/watchTowr-vs-SysAid-PreAuth-RCE-Chain](https://github.com/watchtowrlabs/watchTowr-vs-SysAid-PreAuth-RCE-Chain)
+
 ### CVE-2025-2783 (2025-03-26)
 
 <code>Incorrect handle provided in unspecified circumstances in Mojo in Google Chrome on Windows prior to 134.0.6998.177 allowed a remote attacker to perform a sandbox escape via a malicious file. (Chromium security severity: High)
@@ -398,6 +401,9 @@
 </code>
 
 - [Stuub/CVE-2025-3969-Exploit](https://github.com/Stuub/CVE-2025-3969-Exploit)
+
+### CVE-2025-4190
+- [Nxploited/CVE-2025-4190](https://github.com/Nxploited/CVE-2025-4190)
 
 ### CVE-2025-12654
 - [Yuweixn/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Yuweixn/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
@@ -801,6 +807,13 @@
 </code>
 
 - [airbus-cert/cve-2025-24985](https://github.com/airbus-cert/cve-2025-24985)
+
+### CVE-2025-25014 (2025-05-06)
+
+<code>A Prototype pollution vulnerability in Kibana leads to arbitrary code execution via crafted HTTP requests to machine learning and reporting endpoints.
+</code>
+
+- [Sratet/CVE-2025-25014](https://github.com/Sratet/CVE-2025-25014)
 
 ### CVE-2025-25062 (2025-02-03)
 
@@ -1548,6 +1561,7 @@
 </code>
 
 - [sunhuiHi666/CVE-2025-31125](https://github.com/sunhuiHi666/CVE-2025-31125)
+- [0xgh057r3c0n/CVE-2025-31125](https://github.com/0xgh057r3c0n/CVE-2025-31125)
 
 ### CVE-2025-31129 (2025-03-31)
 
@@ -1609,7 +1623,7 @@
 - [JonathanStross/CVE-2025-31324](https://github.com/JonathanStross/CVE-2025-31324)
 - [Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment](https://github.com/Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment)
 - [rf-peixoto/sap_netweaver_cve-2025-31324-](https://github.com/rf-peixoto/sap_netweaver_cve-2025-31324-)
-- [NULLTRACE0X/-CVE-2025-31324](https://github.com/NULLTRACE0X/-CVE-2025-31324)
+- [NULLTRACE0X/CVE-2025-31324](https://github.com/NULLTRACE0X/CVE-2025-31324)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -4920,6 +4934,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-13489](https://github.com/RandomRobbieBF/CVE-2024-13489)
+
+### CVE-2024-13800 (2025-02-12)
+
+<code>The ConvertPlus plugin for WordPress is vulnerable to unauthorized modification of data that can lead to a denial of service due to a missing capability check on the 'cp_dismiss_notice' AJAX endpoint in all versions up to, and including, 3.5.30. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update option values to '1' on the WordPress site. This can be leveraged to update an option that would create an error on the site and deny service to legitimate users or be used to set some values to true such as registration.
+</code>
+
+- [RandomRobbieBF/CVE-2024-13800](https://github.com/RandomRobbieBF/CVE-2024-13800)
 
 ### CVE-2024-13869 (2025-02-22)
 
@@ -8754,6 +8775,13 @@
 </code>
 
 - [typical-pashochek/CVE-2024-39713](https://github.com/typical-pashochek/CVE-2024-39713)
+
+### CVE-2024-39722 (2024-10-31)
+
+<code>An issue was discovered in Ollama before 0.1.46. It exposes which files exist on the server on which it is deployed via path traversal in the api/push route.
+</code>
+
+- [srcx404/CVE-2024-39722](https://github.com/srcx404/CVE-2024-39722)
 
 ### CVE-2024-39844 (2024-07-03)
 
@@ -28640,7 +28668,6 @@
 - [c3l3si4n/pwnkit](https://github.com/c3l3si4n/pwnkit)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [xcanwin/CVE-2021-4034-UniontechOS](https://github.com/xcanwin/CVE-2021-4034-UniontechOS)
-- [azminawwar/CVE-2021-4034](https://github.com/azminawwar/CVE-2021-4034)
 - [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [whokilleddb/CVE-2021-4034](https://github.com/whokilleddb/CVE-2021-4034)
@@ -33724,6 +33751,7 @@
 - [yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-](https://github.com/yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-)
 - [user20252228/Log4shell](https://github.com/user20252228/Log4shell)
 - [khaidtraivch/CVE-2021-44228-Log4Shell-](https://github.com/khaidtraivch/CVE-2021-44228-Log4Shell-)
+- [separatecalo/log4j-remediation-tools](https://github.com/separatecalo/log4j-remediation-tools)
 
 ### CVE-2021-44255 (2022-01-31)
 
