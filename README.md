@@ -292,7 +292,11 @@
 
 - [Otsmane-Ahmed/CVE-2025-2620-poc](https://github.com/Otsmane-Ahmed/CVE-2025-2620-poc)
 
-### CVE-2025-2775
+### CVE-2025-2775 (2025-05-07)
+
+<code>SysAid On-Prem versions &lt;= 23.3.40 are vulnerable to an unauthenticated XML External Entity (XXE) vulnerability in the Checkin processing functionality,  allowing for administrator account takeover and file read primitives.
+</code>
+
 - [watchtowrlabs/watchTowr-vs-SysAid-PreAuth-RCE-Chain](https://github.com/watchtowrlabs/watchTowr-vs-SysAid-PreAuth-RCE-Chain)
 
 ### CVE-2025-2783 (2025-03-26)
@@ -1208,6 +1212,12 @@
 
 - [Thvt0ne/CVE-2025-28062](https://github.com/Thvt0ne/CVE-2025-28062)
 
+### CVE-2025-28073
+- [mLniumm/CVE-2025-28073](https://github.com/mLniumm/CVE-2025-28073)
+
+### CVE-2025-28074
+- [mLniumm/CVE-2025-28074](https://github.com/mLniumm/CVE-2025-28074)
+
 ### CVE-2025-28121 (2025-04-21)
 
 <code>code-projects Online Exam Mastering System 1.0 is vulnerable to Cross Site Scripting (XSS) in feedback.php via the &quot;q&quot; parameter allowing remote attackers to execute arbitrary code.
@@ -1286,7 +1296,11 @@
 
 - [Otsmane-Ahmed/cve-2025-29384-poc](https://github.com/Otsmane-Ahmed/cve-2025-29384-poc)
 
-### CVE-2025-29448
+### CVE-2025-29448 (2025-05-07)
+
+<code>A business logic vulnerability in Easy Appointments v1.5.1 allows attackers to cause a Denial of Service (DoS) via unspecified vectors.
+</code>
+
 - [Abdullah4eb/CVE-2025-29448](https://github.com/Abdullah4eb/CVE-2025-29448)
 
 ### CVE-2025-29529 (2025-04-24)
@@ -1296,7 +1310,11 @@
 
 - [Yoshik0xF6/CVE-2025-29529](https://github.com/Yoshik0xF6/CVE-2025-29529)
 
-### CVE-2025-29602
+### CVE-2025-29602 (2025-05-07)
+
+<code>flatpress 1.3.1 is vulnerable to Cross Site Scripting (XSS) in Administration area via Manage categories.
+</code>
+
 - [harish0x/CVE-2025-29602](https://github.com/harish0x/CVE-2025-29602)
 
 ### CVE-2025-29705 (2025-04-15)
@@ -1850,6 +1868,7 @@
 <code>MrDoc v0.95 and before is vulnerable to Server-Side Request Forgery (SSRF) in the validate_url function of the app_doc/utils.py file.
 </code>
 
+- [xp3s/CVE-2025-45250](https://github.com/xp3s/CVE-2025-45250)
 - [Anike-x/CVE-2025-45250](https://github.com/Anike-x/CVE-2025-45250)
 
 ### CVE-2025-46657 (2025-04-27)
@@ -1883,7 +1902,11 @@
 
 - [SexyShoelessGodofWar/CVE-2025-47256](https://github.com/SexyShoelessGodofWar/CVE-2025-47256)
 
-### CVE-2025-47423
+### CVE-2025-47423 (2025-05-07)
+
+<code>Personal Weather Station Dashboard 12_lts allows unauthenticated remote attackers to read arbitrary files via ../ directory traversal in the test parameter to /others/_test.php, as demonstrated by reading the server's private SSL key in cleartext.
+</code>
+
 - [Haluka92/CVE-2025-47423](https://github.com/Haluka92/CVE-2025-47423)
 
 ### CVE-2025-50000
@@ -18202,6 +18225,7 @@
 - [xpltive/CVE-2023-41425](https://github.com/xpltive/CVE-2023-41425)
 - [KGorbakon/CVE-2023-41425](https://github.com/KGorbakon/CVE-2023-41425)
 - [becrevex/CVE-2023-41425](https://github.com/becrevex/CVE-2023-41425)
+- [heraclitan/CVE-2023-41425-WonderCMS-XSS-RCE](https://github.com/heraclitan/CVE-2023-41425-WonderCMS-XSS-RCE)
 
 ### CVE-2023-41436 (2023-09-15)
 
@@ -28668,6 +28692,7 @@
 - [c3l3si4n/pwnkit](https://github.com/c3l3si4n/pwnkit)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [xcanwin/CVE-2021-4034-UniontechOS](https://github.com/xcanwin/CVE-2021-4034-UniontechOS)
+- [azminawwar/CVE-2021-4034](https://github.com/azminawwar/CVE-2021-4034)
 - [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [whokilleddb/CVE-2021-4034](https://github.com/whokilleddb/CVE-2021-4034)
@@ -33751,7 +33776,6 @@
 - [yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-](https://github.com/yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-)
 - [user20252228/Log4shell](https://github.com/user20252228/Log4shell)
 - [khaidtraivch/CVE-2021-44228-Log4Shell-](https://github.com/khaidtraivch/CVE-2021-44228-Log4Shell-)
-- [separatecalo/log4j-remediation-tools](https://github.com/separatecalo/log4j-remediation-tools)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -49143,7 +49167,6 @@
 - [scirusvulgaris/CVE-2017-12617](https://github.com/scirusvulgaris/CVE-2017-12617)
 - [yZeetje/CVE-2017-12617](https://github.com/yZeetje/CVE-2017-12617)
 - [DevaDJ/CVE-2017-12617](https://github.com/DevaDJ/CVE-2017-12617)
-- [ducknuts/network-forensics-cve-2017-12617](https://github.com/ducknuts/network-forensics-cve-2017-12617)
 
 ### CVE-2017-12624 (2017-11-14)
 
