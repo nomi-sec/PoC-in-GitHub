@@ -226,13 +226,6 @@
 
 - [datagoboom/CVE-2025-2011](https://github.com/datagoboom/CVE-2025-2011)
 
-### CVE-2025-2120 (2025-03-09)
-
-<code>Eine Schwachstelle wurde in Thinkware Car Dashcam F800 Pro bis 20250226 ausgemacht. Sie wurde als problematisch eingestuft. Betroffen davon ist ein unbekannter Prozess der Datei /tmp/hostapd.conf der Komponente Configuration File Handler. Durch das Beeinflussen mit unbekannten Daten kann eine cleartext storage in a file or on disk-Schwachstelle ausgenutzt werden. Ein Angriff setzt physischen Zugriff auf dem Zielobjekt voraus. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [mmotti/Reset-inetpub](https://github.com/mmotti/Reset-inetpub)
-
 ### CVE-2025-2233 (2025-03-11)
 
 <code>Samsung SmartThings Improper Verification of Cryptographic Signature Authentication Bypass Vulnerability. This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Samsung SmartThings. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the Hub Local API service, which listens on TCP port 8766 by default. The issue results from the lack of proper verification of a cryptographic signature. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-25615.
@@ -417,6 +410,13 @@
 
 - [mbadanoiu/CVE-2025-20029](https://github.com/mbadanoiu/CVE-2025-20029)
 - [schoi1337/CVE-2025-20029-simulation](https://github.com/schoi1337/CVE-2025-20029-simulation)
+
+### CVE-2025-21204 (2025-04-08)
+
+<code>Improper link resolution before file access ('link following') in Windows Update Stack allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [mmotti/Reset-inetpub](https://github.com/mmotti/Reset-inetpub)
 
 ### CVE-2025-21293 (2025-01-14)
 
@@ -1130,6 +1130,13 @@
 
 - [mbadanoiu/CVE-2025-26865](https://github.com/mbadanoiu/CVE-2025-26865)
 
+### CVE-2025-27007 (2025-05-01)
+
+<code>Incorrect Privilege Assignment vulnerability in Brainstorm Force SureTriggers allows Privilege Escalation.This issue affects SureTriggers: from n/a through 1.0.82.
+</code>
+
+- [absholi7ly/CVE-2025-27007-OttoKit-exploit](https://github.com/absholi7ly/CVE-2025-27007-OttoKit-exploit)
+
 ### CVE-2025-27152 (2025-03-07)
 
 <code>axios is a promise based HTTP client for the browser and node.js. The issue occurs when passing absolute URLs rather than protocol-relative URLs to axios. Even if ⁠baseURL is set, axios sends the request to the specified absolute URL, potentially causing SSRF and credential leakage. This issue impacts both server-side and client-side usage of axios. This issue is fixed in 1.8.2.
@@ -1602,6 +1609,7 @@
 - [JonathanStross/CVE-2025-31324](https://github.com/JonathanStross/CVE-2025-31324)
 - [Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment](https://github.com/Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment)
 - [rf-peixoto/sap_netweaver_cve-2025-31324-](https://github.com/rf-peixoto/sap_netweaver_cve-2025-31324-)
+- [NULLTRACE0X/-CVE-2025-31324](https://github.com/NULLTRACE0X/-CVE-2025-31324)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -1860,6 +1868,9 @@
 </code>
 
 - [SexyShoelessGodofWar/CVE-2025-47256](https://github.com/SexyShoelessGodofWar/CVE-2025-47256)
+
+### CVE-2025-47423
+- [Haluka92/CVE-2025-47423](https://github.com/Haluka92/CVE-2025-47423)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -8138,7 +8149,6 @@
 - [bmth666/GeoServer-Tools-CVE-2024-36401](https://github.com/bmth666/GeoServer-Tools-CVE-2024-36401)
 - [amoy6228/CVE-2024-36401_Geoserver_RCE_POC](https://github.com/amoy6228/CVE-2024-36401_Geoserver_RCE_POC)
 - [cochaviz/cve-2024-36401-poc](https://github.com/cochaviz/cve-2024-36401-poc)
-- [lowsuet/CVE-2024-36401](https://github.com/lowsuet/CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -49291,6 +49301,7 @@
 
 - [TheDarthMole/CVE-2017-14980](https://github.com/TheDarthMole/CVE-2017-14980)
 - [xn0kkx/Exploit_Sync_Breeze_v10.0.28_CVE-2017-14980](https://github.com/xn0kkx/Exploit_Sync_Breeze_v10.0.28_CVE-2017-14980)
+- [LipeOzyy/CVE-2017-14980_syncbreeze_10.0.28_bof](https://github.com/LipeOzyy/CVE-2017-14980_syncbreeze_10.0.28_bof)
 
 ### CVE-2017-15099 (2017-11-22)
 
