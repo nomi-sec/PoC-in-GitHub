@@ -3602,6 +3602,9 @@
 - [RandomRobbieBF/CVE-2024-6624](https://github.com/RandomRobbieBF/CVE-2024-6624)
 - [Jenderal92/CVE-2024-6624](https://github.com/Jenderal92/CVE-2024-6624)
 
+### CVE-2024-6648
+- [n0d0n/CVE-2024-6648](https://github.com/n0d0n/CVE-2024-6648)
+
 ### CVE-2024-6670 (2024-08-29)
 
 <code>In WhatsUp Gold versions released before 2024.0.0, a SQL Injection vulnerability allows an unauthenticated attacker to retrieve the users encrypted password.
@@ -7599,7 +7602,7 @@
 <code>The network server of fceux 2.7.0 has a path traversal vulnerability, allowing attackers to overwrite any files on the server without authentication by fake ROM.
 </code>
 
-- [liyansong2018/CVE-2024-32258](https://github.com/liyansong2018/CVE-2024-32258)
+- [secnotes/CVE-2024-32258](https://github.com/secnotes/CVE-2024-32258)
 
 ### CVE-2024-32369 (2024-05-07)
 
@@ -8800,6 +8803,13 @@
 </code>
 
 - [typical-pashochek/CVE-2024-39713](https://github.com/typical-pashochek/CVE-2024-39713)
+
+### CVE-2024-39719 (2024-10-31)
+
+<code>An issue was discovered in Ollama through 0.3.14. File existence disclosure can occur via api/create. When calling the CreateModel route with a path parameter that does not exist, it reflects the &quot;File does not exist&quot; error message to the attacker, providing a primitive for file existence on the server.
+</code>
+
+- [srcx404/CVE-2024-39719](https://github.com/srcx404/CVE-2024-39719)
 
 ### CVE-2024-39722 (2024-10-31)
 
@@ -13564,6 +13574,7 @@
 - [AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-](https://github.com/AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-)
 - [XiaomingX/cve-2023-20198-poc](https://github.com/XiaomingX/cve-2023-20198-poc)
 - [G4sul1n/Cisco-IOS-XE-CVE-2023-20198](https://github.com/G4sul1n/Cisco-IOS-XE-CVE-2023-20198)
+- [punyconspir/cisco-ios-xe-implant-scanner](https://github.com/punyconspir/cisco-ios-xe-implant-scanner)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -16325,7 +16336,6 @@
 - [hanch7274/CVE-2023-33246](https://github.com/hanch7274/CVE-2023-33246)
 - [Sumitpathania03/Apache-RocketMQ-CVE-2023-33246-](https://github.com/Sumitpathania03/Apache-RocketMQ-CVE-2023-33246-)
 - [PavilionQ/CVE-2023-33246-mitigation](https://github.com/PavilionQ/CVE-2023-33246-mitigation)
-- [Devil0ll/CVE-2023-33246](https://github.com/Devil0ll/CVE-2023-33246)
 
 ### CVE-2023-33253 (2023-06-12)
 
@@ -28709,7 +28719,6 @@
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [arthepsy/CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034)
 - [dzonerzy/poc-cve-2021-4034](https://github.com/dzonerzy/poc-cve-2021-4034)
-- [mebeim/CVE-2021-4034](https://github.com/mebeim/CVE-2021-4034)
 - [Ayrx/CVE-2021-4034](https://github.com/Ayrx/CVE-2021-4034)
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
 - [An00bRektn/CVE-2021-4034](https://github.com/An00bRektn/CVE-2021-4034)
@@ -33803,6 +33812,7 @@
 - [yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-](https://github.com/yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-)
 - [user20252228/Log4shell](https://github.com/user20252228/Log4shell)
 - [khaidtraivch/CVE-2021-44228-Log4Shell-](https://github.com/khaidtraivch/CVE-2021-44228-Log4Shell-)
+- [Fauzan-Aldi/Log4j-_Vulnerability](https://github.com/Fauzan-Aldi/Log4j-_Vulnerability)
 
 ### CVE-2021-44255 (2022-01-31)
 
