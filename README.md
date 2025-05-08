@@ -411,7 +411,6 @@
 
 ### CVE-2025-12654
 - [Yuweixn/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Yuweixn/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
-- [Subha-coder-hash/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Subha-coder-hash/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -1298,7 +1297,7 @@
 
 ### CVE-2025-29448 (2025-05-07)
 
-<code>A business logic vulnerability in Easy Appointments v1.5.1 allows attackers to cause a Denial of Service (DoS) via unspecified vectors.
+<code>Booking logic flaw in Easy!Appointments v1.5.1 allows unauthenticated attackers to create appointments with excessively long durations, causing a denial of service by blocking all future booking availability.
 </code>
 
 - [Abdullah4eb/CVE-2025-29448](https://github.com/Abdullah4eb/CVE-2025-29448)
@@ -1391,7 +1390,7 @@
 - [kOaDT/poc-cve-2025-29927](https://github.com/kOaDT/poc-cve-2025-29927)
 - [yugo-eliatrope/test-cve-2025-29927](https://github.com/yugo-eliatrope/test-cve-2025-29927)
 - [emadshanab/CVE-2025-29927](https://github.com/emadshanab/CVE-2025-29927)
-- [Slvignesh05/CVE-2025-29927](https://github.com/Slvignesh05/CVE-2025-29927)
+- [att-cloud/CVE-2025-29927](https://github.com/att-cloud/CVE-2025-29927)
 - [aleongx/CVE-2025-29927](https://github.com/aleongx/CVE-2025-29927)
 - [nicknisi/next-attack](https://github.com/nicknisi/next-attack)
 - [jmbowes/NextSecureScan](https://github.com/jmbowes/NextSecureScan)
@@ -3602,7 +3601,11 @@
 - [RandomRobbieBF/CVE-2024-6624](https://github.com/RandomRobbieBF/CVE-2024-6624)
 - [Jenderal92/CVE-2024-6624](https://github.com/Jenderal92/CVE-2024-6624)
 
-### CVE-2024-6648
+### CVE-2024-6648 (2025-05-08)
+
+<code>Absolute Path Traversal vulnerability in AP Page Builder versions prior to 4.0.0 could allow an unauthenticated remote user to modify the 'product_item_path' within the 'config' JSON file, allowing them to read any file on the system.
+</code>
+
 - [n0d0n/CVE-2024-6648](https://github.com/n0d0n/CVE-2024-6648)
 
 ### CVE-2024-6670 (2024-08-29)
@@ -7453,7 +7456,7 @@
 <code>IBM Sterling B2B Integrator Standard Edition 6.0.0.0 through 6.1.2.5 and 6.2.0.0 through 6.2.0.2 allow an attacker on the local network to execute arbitrary code on the system, caused by the deserialization of untrusted data.
 </code>
 
-- [WithSecureLabs/ibm-sterling-b2b-integrator-poc](https://github.com/WithSecureLabs/ibm-sterling-b2b-integrator-poc)
+- [ReversecLabs/ibm-sterling-b2b-integrator-poc](https://github.com/ReversecLabs/ibm-sterling-b2b-integrator-poc)
 
 ### CVE-2024-31974 (2024-05-17)
 
@@ -9986,7 +9989,7 @@
 
 ### CVE-2024-47177 (2024-09-26)
 
-<code>CUPS is a standards-based, open-source printing system, and cups-filters provides backends, filters, and other software for CUPS 2.x to use on non-Mac OS systems. Any value passed to `FoomaticRIPCommandLine` via a PPD file will be executed as a user controlled command. When combined with other logic bugs as described in CVE_2024-47176, this can lead to remote command execution.
+<code>CUPS is a standards-based, open-source printing system, and cups-filters provides backends, filters, and other software for CUPS 2.x to use on non-Mac OS systems. Any value passed to `FoomaticRIPCommandLine` via a PPD file will be executed as a user controlled command. When combined with other logic bugs as described in CVE-2024-47176, this can lead to remote command execution.\n\nThis vulnerability has been disputed by a third party because `FoomaticRIPCommandLine` is functionality that is intended to execute administrator specified code.
 </code>
 
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
@@ -28732,7 +28735,6 @@
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [whokilleddb/CVE-2021-4034](https://github.com/whokilleddb/CVE-2021-4034)
 - [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
-- [zcrosman/cve-2021-4034](https://github.com/zcrosman/cve-2021-4034)
 - [robemmerson/CVE-2021-4034](https://github.com/robemmerson/CVE-2021-4034)
 - [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
@@ -29881,7 +29883,7 @@
 <code>An improper authorization vulnerability in Samsung Members &quot;samsungrewards&quot; scheme for deeplink in versions 2.4.83.9 in Android O(8.1) and below, and 3.9.00.9 in Android P(9.0) and above allows remote attackers to access a user data related with Samsung Account.
 </code>
 
-- [WithSecureLabs/CVE-2021-25374_Samsung-Account-Access](https://github.com/WithSecureLabs/CVE-2021-25374_Samsung-Account-Access)
+- [ReversecLabs/CVE-2021-25374_Samsung-Account-Access](https://github.com/ReversecLabs/CVE-2021-25374_Samsung-Account-Access)
 
 ### CVE-2021-25461 (2021-09-09)
 
@@ -32880,6 +32882,13 @@
 
 - [simonecris/CVE-2021-42362-PoC](https://github.com/simonecris/CVE-2021-42362-PoC)
 - [samiba6/CVE-2021-42362](https://github.com/samiba6/CVE-2021-42362)
+
+### CVE-2021-42392 (2022-01-07)
+
+<code>The org.h2.util.JdbcUtils.getConnection method of the H2 database takes as parameters the class name of the driver and URL of the database. An attacker may pass a JNDI driver name and a URL leading to a LDAP or RMI servers, causing remote code execution. This can be exploited through various attack vectors, most notably through the H2 Console which leads to unauthenticated remote code execution.
+</code>
+
+- [Be-Innova/CVE-2021-42392-exploit-lab](https://github.com/Be-Innova/CVE-2021-42392-exploit-lab)
 
 ### CVE-2021-42558 (2022-01-12)
 
