@@ -1440,6 +1440,7 @@
 - [0xpr4bin/vulnerable-next_js_cve-2025-29927](https://github.com/0xpr4bin/vulnerable-next_js_cve-2025-29927)
 - [olimpiofreitas/CVE-2025-29927_scanner](https://github.com/olimpiofreitas/CVE-2025-29927_scanner)
 - [moften/CVE-2025-29927](https://github.com/moften/CVE-2025-29927)
+- [EarthAngel666/x-middleware-exploit](https://github.com/EarthAngel666/x-middleware-exploit)
 
 ### CVE-2025-29972
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
@@ -1642,6 +1643,7 @@
 - [Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment](https://github.com/Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment)
 - [rf-peixoto/sap_netweaver_cve-2025-31324-](https://github.com/rf-peixoto/sap_netweaver_cve-2025-31324-)
 - [NULLTRACE0X/CVE-2025-31324](https://github.com/NULLTRACE0X/CVE-2025-31324)
+- [nairuzabulhul/nuclei-template-cve-2025-31324-check](https://github.com/nairuzabulhul/nuclei-template-cve-2025-31324-check)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -11649,6 +11651,13 @@
 
 - [cypherdavy/CVE-2024-57373](https://github.com/cypherdavy/CVE-2024-57373)
 
+### CVE-2024-57376 (2025-01-28)
+
+<code>Buffer Overflow vulnerability in D-Link DSR-150, DSR-150N, DSR-250, DSR-250N, DSR-500N, DSR-1000N from 3.13 to 3.17B901C allows unauthenticated users to execute remote code execution.
+</code>
+
+- [DelspoN/CVE-2024-57376](https://github.com/DelspoN/CVE-2024-57376)
+
 ### CVE-2024-57394 (2025-04-21)
 
 <code>The quarantine - restore function in Qi-ANXIN Tianqing Endpoint Security Management System v10.0 allows user to restore a malicious file to an arbitrary file path. Attackers can write malicious DLL to system path and perform privilege escalation by leveraging Windows DLL hijacking vulnerabilities.
@@ -11997,7 +12006,7 @@
 </code>
 
 - [Voyag3r-Security/CVE-2023-1389](https://github.com/Voyag3r-Security/CVE-2023-1389)
-- [Terminal1337/CVE-2023-1389](https://github.com/Terminal1337/CVE-2023-1389)
+- [werwolfz/CVE-2023-1389](https://github.com/werwolfz/CVE-2023-1389)
 - [ibrahimsql/CVE2023-1389](https://github.com/ibrahimsql/CVE2023-1389)
 
 ### CVE-2023-1415 (2023-03-15)
@@ -12802,6 +12811,13 @@
 
 - [0xn4d/poc-cve-xss-uploading-svg](https://github.com/0xn4d/poc-cve-xss-uploading-svg)
 
+### CVE-2023-4504 (2023-09-21)
+
+<code>Due to failure in validating the length provided by an attacker-crafted PPD PostScript document, CUPS and libppd are susceptible to a heap-based buffer overflow and possibly code execution. This issue has been fixed in CUPS version 2.4.7, released in September of 2023.
+</code>
+
+- [djjohnson565/CUPS-Exploit](https://github.com/djjohnson565/CUPS-Exploit)
+
 ### CVE-2023-4542 (2023-08-25)
 
 <code>Es wurde eine Schwachstelle in D-Link DAR-8000-10 bis 20230809 ausgemacht. Sie wurde als kritisch eingestuft. Es geht dabei um eine nicht klar definierte Funktion der Datei /app/sys1.php. Durch das Manipulieren des Arguments cmd mit der Eingabe id mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
@@ -13455,6 +13471,9 @@
 </code>
 
 - [sharathc213/CVE-2023-7173](https://github.com/sharathc213/CVE-2023-7173)
+
+### CVE-2023-7231
+- [BBO513/CVE-2023-7231](https://github.com/BBO513/CVE-2023-7231)
 
 ### CVE-2023-7261 (2024-06-07)
 
@@ -16306,6 +16325,7 @@
 - [hanch7274/CVE-2023-33246](https://github.com/hanch7274/CVE-2023-33246)
 - [Sumitpathania03/Apache-RocketMQ-CVE-2023-33246-](https://github.com/Sumitpathania03/Apache-RocketMQ-CVE-2023-33246-)
 - [PavilionQ/CVE-2023-33246-mitigation](https://github.com/PavilionQ/CVE-2023-33246-mitigation)
+- [Devil0ll/CVE-2023-33246](https://github.com/Devil0ll/CVE-2023-33246)
 
 ### CVE-2023-33253 (2023-06-12)
 
@@ -47063,6 +47083,13 @@
 
 - [BradyDonovan/CVE-2018-19592](https://github.com/BradyDonovan/CVE-2018-19592)
 
+### CVE-2018-19664 (2018-11-29)
+
+<code>libjpeg-turbo 2.0.1 has a heap-based buffer over-read in the put_pixel_rows function in wrbmp.c, as demonstrated by djpeg.
+</code>
+
+- [h31md4llr/libjpeg_cve-2018-19664](https://github.com/h31md4llr/libjpeg_cve-2018-19664)
+
 ### CVE-2018-19788 (2018-12-03)
 
 <code>A flaw was found in PolicyKit (aka polkit) 0.115 that allows a user with a uid greater than INT_MAX to successfully execute any systemctl command.
@@ -54292,7 +54319,6 @@
 - [sooklalad/ms09050](https://github.com/sooklalad/ms09050)
 - [sec13b/ms09-050_CVE-2009-3103](https://github.com/sec13b/ms09-050_CVE-2009-3103)
 - [Sic4rio/CVE-2009-3103---srv2.sys-SMB-Code-Execution-Python-MS09-050-](https://github.com/Sic4rio/CVE-2009-3103---srv2.sys-SMB-Code-Execution-Python-MS09-050-)
-- [Bakr-Ht/samba-trans2open-exploit-report](https://github.com/Bakr-Ht/samba-trans2open-exploit-report)
 
 ### CVE-2009-3555 (2009-11-09)
 
@@ -54880,6 +54906,7 @@
 </code>
 
 - [KernelPan1k/trans2open-CVE-2003-0201](https://github.com/KernelPan1k/trans2open-CVE-2003-0201)
+- [Bakr-Ht/samba-trans2open-exploit-report](https://github.com/Bakr-Ht/samba-trans2open-exploit-report)
 
 ### CVE-2003-0222 (2003-04-30)
 
