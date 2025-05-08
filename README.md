@@ -1784,7 +1784,7 @@
 
 ### CVE-2025-34028 (2025-04-22)
 
-<code>A path traversal vulnerability in Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files, which, when expanded by the target server, result in Remote Code Execution.\n\n\n\n\n\nThis issue affects Command Center Innovation Release: 11.38.
+<code>The Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files that represent install packages that, when expanded by the target server, are vulnerable to path traversal vulnerability that can result in Remote Code Execution via malicious JSP.\n\n\n\n\n\nThis issue affects Command Center Innovation Release: 11.38.
 </code>
 
 - [watchtowrlabs/watchTowr-vs-Commvault-PreAuth-RCE-CVE-2025-34028](https://github.com/watchtowrlabs/watchTowr-vs-Commvault-PreAuth-RCE-CVE-2025-34028)
@@ -1870,6 +1870,13 @@
 
 - [xp3s/CVE-2025-45250](https://github.com/xp3s/CVE-2025-45250)
 - [Anike-x/CVE-2025-45250](https://github.com/Anike-x/CVE-2025-45250)
+
+### CVE-2025-46271 (2025-04-24)
+
+<code>UNI-NMS-Lite is vulnerable to a command injection attack that could \nallow an unauthenticated attacker to read or manipulate device data.
+</code>
+
+- [1Altruist/CVE-2025-46271-Reverse-Shell-PoC](https://github.com/1Altruist/CVE-2025-46271-Reverse-Shell-PoC)
 
 ### CVE-2025-46657 (2025-04-27)
 
@@ -8440,13 +8447,6 @@
 </code>
 
 - [7Ragnarok7/CVE-2024-37888](https://github.com/7Ragnarok7/CVE-2024-37888)
-
-### CVE-2024-37889 (2024-06-14)
-
-<code>MyFinances is a web application for managing finances. MyFinances has a way to access other customer invoices while signed in as a user. This method allows an actor to access PII and financial information from another account. The vulnerability is fixed in 0.4.6.
-</code>
-
-- [uname-s/CVE-2024-37889](https://github.com/uname-s/CVE-2024-37889)
 
 ### CVE-2024-38036 (2024-10-04)
 
@@ -18225,7 +18225,6 @@
 - [xpltive/CVE-2023-41425](https://github.com/xpltive/CVE-2023-41425)
 - [KGorbakon/CVE-2023-41425](https://github.com/KGorbakon/CVE-2023-41425)
 - [becrevex/CVE-2023-41425](https://github.com/becrevex/CVE-2023-41425)
-- [heraclitan/CVE-2023-41425-WonderCMS-XSS-RCE](https://github.com/heraclitan/CVE-2023-41425-WonderCMS-XSS-RCE)
 
 ### CVE-2023-41436 (2023-09-15)
 
@@ -23253,6 +23252,13 @@
 
 - [secure-77/CVE-2022-24853](https://github.com/secure-77/CVE-2022-24853)
 
+### CVE-2022-24894 (2023-02-03)
+
+<code>Symfony is a PHP framework for web and console applications and a set of reusable PHP components. The Symfony HTTP cache system, acts as a reverse proxy: It caches entire responses (including headers) and returns them to the clients. In a recent change in the `AbstractSessionListener`, the response might contain a `Set-Cookie` header. If the Symfony HTTP cache system is enabled, this response might bill stored and return to the next clients. An attacker can use this vulnerability to retrieve the victim's session. This issue has been patched and is available for branch 4.4.
+</code>
+
+- [moften/Symfony-CVE-Scanner-PoC-](https://github.com/moften/Symfony-CVE-Scanner-PoC-)
+
 ### CVE-2022-24924 (2022-02-11)
 
 <code>An improper access control in LiveWallpaperService prior to versions 3.0.9.0 allows to create a specific named system directory without a proper permission.
@@ -26423,6 +26429,7 @@
 </code>
 
 - [dumbbutt0/evilMP4](https://github.com/dumbbutt0/evilMP4)
+- [moften/CVE-2022-41741-742-Nginx-Vulnerability-Scanner](https://github.com/moften/CVE-2022-41741-742-Nginx-Vulnerability-Scanner)
 
 ### CVE-2022-41828 (2022-09-29)
 
@@ -28692,7 +28699,6 @@
 - [c3l3si4n/pwnkit](https://github.com/c3l3si4n/pwnkit)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [xcanwin/CVE-2021-4034-UniontechOS](https://github.com/xcanwin/CVE-2021-4034-UniontechOS)
-- [azminawwar/CVE-2021-4034](https://github.com/azminawwar/CVE-2021-4034)
 - [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [whokilleddb/CVE-2021-4034](https://github.com/whokilleddb/CVE-2021-4034)
@@ -29144,6 +29150,7 @@
 </code>
 
 - [moften/CVE-2021-21424](https://github.com/moften/CVE-2021-21424)
+- [moften/Symfony-CVE-Scanner-PoC-](https://github.com/moften/Symfony-CVE-Scanner-PoC-)
 
 ### CVE-2021-21425 (2021-04-07)
 
@@ -41644,6 +41651,13 @@
 </code>
 
 - [KTN1990/CVE-2019-10869](https://github.com/KTN1990/CVE-2019-10869)
+
+### CVE-2019-10909 (2019-05-16)
+
+<code>In Symfony before 2.7.51, 2.8.x before 2.8.50, 3.x before 3.4.26, 4.x before 4.1.12, and 4.2.x before 4.2.7, validation messages are not escaped, which can lead to XSS when user input is included. This is related to symfony/framework-bundle.
+</code>
+
+- [moften/Symfony-CVE-Scanner-PoC-](https://github.com/moften/Symfony-CVE-Scanner-PoC-)
 
 ### CVE-2019-10915 (2019-07-11)
 
@@ -54278,6 +54292,7 @@
 - [sooklalad/ms09050](https://github.com/sooklalad/ms09050)
 - [sec13b/ms09-050_CVE-2009-3103](https://github.com/sec13b/ms09-050_CVE-2009-3103)
 - [Sic4rio/CVE-2009-3103---srv2.sys-SMB-Code-Execution-Python-MS09-050-](https://github.com/Sic4rio/CVE-2009-3103---srv2.sys-SMB-Code-Execution-Python-MS09-050-)
+- [Bakr-Ht/samba-trans2open-exploit-report](https://github.com/Bakr-Ht/samba-trans2open-exploit-report)
 
 ### CVE-2009-3555 (2009-11-09)
 
