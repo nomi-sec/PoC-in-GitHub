@@ -1167,6 +1167,13 @@
 
 - [zhuowei/CVE-2025-27363-proof-of-concept](https://github.com/zhuowei/CVE-2025-27363-proof-of-concept)
 
+### CVE-2025-27533 (2025-05-07)
+
+<code>Memory Allocation with Excessive Size Value vulnerability in Apache ActiveMQ.\n\nDuring unmarshalling of OpenWire commands the size value of buffers was not properly validated which could lead to excessive memory allocation and be exploited to cause a denial of service (DoS) by depleting process memory, thereby affecting applications and services that rely on the availability of the ActiveMQ broker when not using mutual TLS connections.\nThis issue affects Apache ActiveMQ: from 6.0.0 before 6.1.6, from 5.18.0 before 5.18.7, from 5.17.0 before 5.17.7, before 5.16.8. ActiveMQ 5.19.0 is not affected.\n\nUsers are recommended to upgrade to version 6.1.6+, 5.19.0+,  5.18.7+, 5.17.7, or 5.16.8 or which fixes the issue.\n\nExisting users may implement mutual TLS to mitigate the risk on affected brokers.
+</code>
+
+- [absholi7ly/CVE-2025-27533-Exploit-for-Apache-ActiveMQ](https://github.com/absholi7ly/CVE-2025-27533-Exploit-for-Apache-ActiveMQ)
+
 ### CVE-2025-27607 (2025-03-07)
 
 <code>Python JSON Logger is a JSON Formatter for Python Logging. Between 30 December 2024 and 4 March 2025 Python JSON Logger was vulnerable to RCE through a missing dependency. This occurred because msgspec-python313-pre was deleted by the owner leaving the name open to being claimed by a third party. If the package was claimed, it would allow them RCE on any Python JSON Logger user who installed the development dependencies on Python 3.13 (e.g. pip install python-json-logger[dev]). This issue has been resolved with 3.3.0.
@@ -4998,6 +5005,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-13489](https://github.com/RandomRobbieBF/CVE-2024-13489)
+
+### CVE-2024-13513 (2025-02-15)
+
+<code>The Oliver POS – A WooCommerce Point of Sale (POS) plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.4.2.3 via the logging functionality. This makes it possible for unauthenticated attackers to extract sensitive data including the plugin's clientToken, which in turn can be used to change user account information including emails and account type. This allows attackers to then change account passwords resulting in a complete site takeover. Version 2.4.2.3 disabled logging but left sites with existing log files vulnerable.
+</code>
+
+- [KTN1990/CVE-2024-13513](https://github.com/KTN1990/CVE-2024-13513)
 
 ### CVE-2024-13800 (2025-02-12)
 
@@ -44338,7 +44352,7 @@
 <code>Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0, 12.2.1.2 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [sry309/CVE-2018-2893](https://github.com/sry309/CVE-2018-2893)
+- [Draven996/CVE-2018-2893](https://github.com/Draven996/CVE-2018-2893)
 - [artofwar344/CVE-2018-2893](https://github.com/artofwar344/CVE-2018-2893)
 - [bigsizeme/CVE-2018-2893](https://github.com/bigsizeme/CVE-2018-2893)
 - [pyn3rd/CVE-2018-2893](https://github.com/pyn3rd/CVE-2018-2893)
@@ -46828,6 +46842,7 @@
 </code>
 
 - [mpgn/CVE-2018-17246](https://github.com/mpgn/CVE-2018-17246)
+- [Almandev/Sub-folderFetcher](https://github.com/Almandev/Sub-folderFetcher)
 
 ### CVE-2018-17254 (2018-09-20)
 
