@@ -1211,10 +1211,18 @@
 
 - [Thvt0ne/CVE-2025-28062](https://github.com/Thvt0ne/CVE-2025-28062)
 
-### CVE-2025-28073
+### CVE-2025-28073 (2025-05-08)
+
+<code>phpList 3.6.3 is vulnerable to Reflected Cross-Site Scripting (XSS) via the /lists/dl.php endpoint. An attacker can inject arbitrary JavaScript code by manipulating the id parameter, which is improperly sanitized.
+</code>
+
 - [mLniumm/CVE-2025-28073](https://github.com/mLniumm/CVE-2025-28073)
 
-### CVE-2025-28074
+### CVE-2025-28074 (2025-05-08)
+
+<code>phpList prior to 3.6.3 is vulnerable to Cross-Site Scripting (XSS) due to improper input sanitization in lt.php. The vulnerability is exploitable when the application dynamically references internal paths and processes untrusted input without escaping, allowing an attacker to inject malicious JavaScript.
+</code>
+
 - [mLniumm/CVE-2025-28074](https://github.com/mLniumm/CVE-2025-28074)
 
 ### CVE-2025-28121 (2025-04-21)
@@ -1441,7 +1449,11 @@
 - [moften/CVE-2025-29927](https://github.com/moften/CVE-2025-29927)
 - [EarthAngel666/x-middleware-exploit](https://github.com/EarthAngel666/x-middleware-exploit)
 
-### CVE-2025-29972
+### CVE-2025-29972 (2025-05-08)
+
+<code>Server-Side Request Forgery (SSRF) in Azure allows an authorized attacker to perform spoofing over a network.
+</code>
+
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
 
 ### CVE-2025-30065 (2025-04-01)
@@ -1916,6 +1928,20 @@
 </code>
 
 - [Haluka92/CVE-2025-47423](https://github.com/Haluka92/CVE-2025-47423)
+
+### CVE-2025-47549 (2025-05-07)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Themefic BEAF allows Upload a Web Shell to a Web Server. This issue affects BEAF: from n/a through 4.6.10.
+</code>
+
+- [d0n601/CVE-2025-47549](https://github.com/d0n601/CVE-2025-47549)
+
+### CVE-2025-47550 (2025-05-07)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Themefic Instantio allows Upload a Web Shell to a Web Server. This issue affects Instantio: from n/a through 3.3.16.
+</code>
+
+- [d0n601/CVE-2025-47550](https://github.com/d0n601/CVE-2025-47550)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -9989,7 +10015,7 @@
 
 ### CVE-2024-47177 (2024-09-26)
 
-<code>CUPS is a standards-based, open-source printing system, and cups-filters provides backends, filters, and other software for CUPS 2.x to use on non-Mac OS systems. Any value passed to `FoomaticRIPCommandLine` via a PPD file will be executed as a user controlled command. When combined with other logic bugs as described in CVE-2024-47176, this can lead to remote command execution.\n\nThis vulnerability has been disputed by a third party because `FoomaticRIPCommandLine` is functionality that is intended to execute administrator specified code.
+<code>** DISPUTED ** CUPS is a standards-based, open-source printing system, and cups-filters provides backends, filters, and other software for CUPS 2.x to use on non-Mac OS systems. Any value passed to `FoomaticRIPCommandLine` via a PPD file will be executed as a user controlled command. When combined with other logic bugs as described in CVE-2024-47176, this can lead to remote command execution.\n\nThis vulnerability has been disputed by a third party because `FoomaticRIPCommandLine` is functionality that is intended to execute administrator specified code.
 </code>
 
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
@@ -28739,7 +28765,6 @@
 - [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [Anonymous-Family/CVE-2021-4034](https://github.com/Anonymous-Family/CVE-2021-4034)
-- [phvilasboas/CVE-2021-4034](https://github.com/phvilasboas/CVE-2021-4034)
 - [vilasboasph/CVE-2021-4034](https://github.com/vilasboasph/CVE-2021-4034)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
@@ -29921,6 +29946,7 @@
 - [j2ekim/CVE-2021-25646](https://github.com/j2ekim/CVE-2021-25646)
 - [k7pro/CVE-2021-25646-exp](https://github.com/k7pro/CVE-2021-25646-exp)
 - [gps1949/CVE-2021-25646](https://github.com/gps1949/CVE-2021-25646)
+- [tiemio/RCE-PoC-CVE-2021-25646](https://github.com/tiemio/RCE-PoC-CVE-2021-25646)
 
 ### CVE-2021-25679 (2021-04-20)
 
