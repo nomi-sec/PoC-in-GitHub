@@ -455,6 +455,13 @@
 - [Denyningbow/rtf-ctf-cve-2025-21298](https://github.com/Denyningbow/rtf-ctf-cve-2025-21298)
 - [mr-big-leach/CVE-2025-21298](https://github.com/mr-big-leach/CVE-2025-21298)
 
+### CVE-2025-21307 (2025-01-14)
+
+<code>Windows Reliable Multicast Transport Driver (RMCAST) Remote Code Execution Vulnerability
+</code>
+
+- [git-account7/CVE-2025-21307](https://github.com/git-account7/CVE-2025-21307)
+
 ### CVE-2025-21333 (2025-01-14)
 
 <code>Windows Hyper-V NT Kernel Integration VSP Elevation of Privilege Vulnerability
@@ -7026,6 +7033,13 @@
 
 - [chebuya/CVE-2024-28741-northstar-agent-rce-poc](https://github.com/chebuya/CVE-2024-28741-northstar-agent-rce-poc)
 
+### CVE-2024-28752 (2024-03-15)
+
+<code>A SSRF vulnerability using the Aegis DataBinding in versions of Apache CXF before 4.0.4, 3.6.3 and 3.5.8 allows an attacker to perform SSRF style attacks on webservices that take at least one parameter of any type. Users of other data bindings (including the default databinding) are not impacted.
+</code>
+
+- [ReaJason/CVE-2024-28752](https://github.com/ReaJason/CVE-2024-28752)
+
 ### CVE-2024-28757 (2024-03-10)
 
 <code>libexpat through 2.6.1 allows an XML Entity Expansion attack when there is isolated use of external parsers (created via XML_ExternalEntityParserCreate).
@@ -11395,6 +11409,9 @@
 </code>
 
 - [h13nh04ng/CVE-2024-55457-PoC](https://github.com/h13nh04ng/CVE-2024-55457-PoC)
+
+### CVE-2024-55466
+- [cybsecsid/ThingsBoard-CVE-2024-55466](https://github.com/cybsecsid/ThingsBoard-CVE-2024-55466)
 
 ### CVE-2024-55503 (2025-01-15)
 
