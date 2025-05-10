@@ -423,6 +423,13 @@
 ### CVE-2025-4190
 - [Nxploited/CVE-2025-4190](https://github.com/Nxploited/CVE-2025-4190)
 
+### CVE-2025-4403 (2025-05-09)
+
+<code>The Drag and Drop Multiple File Upload for WooCommerce plugin for WordPress is vulnerable to arbitrary file uploads in all versions up to, and including, 1.1.6 due to accepting a user‐supplied supported_type string and the uploaded filename without enforcing real extension or MIME checks within the upload() function. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [Yucaerin/CVE-2025-4403](https://github.com/Yucaerin/CVE-2025-4403)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -430,6 +437,13 @@
 
 - [mbadanoiu/CVE-2025-20029](https://github.com/mbadanoiu/CVE-2025-20029)
 - [schoi1337/CVE-2025-20029-simulation](https://github.com/schoi1337/CVE-2025-20029-simulation)
+
+### CVE-2025-20188 (2025-05-07)
+
+<code>A vulnerability in the Out-of-Band Access Point (AP) Image Download feature of Cisco IOS XE Software for Wireless LAN Controllers (WLCs) could allow an unauthenticated, remote attacker to upload arbitrary files to an affected system.\r\n\r This vulnerability is due to the presence of a hard-coded JSON Web Token (JWT) on an affected system. An attacker could exploit this vulnerability by sending crafted HTTPS requests to the AP image download interface. A successful exploit could allow the attacker to upload files, perform path traversal, and execute arbitrary commands with root privileges. \r\n\r Note: For exploitation to be successful, the Out-of-Band AP Image Download feature must be enabled on the device. It is not enabled by default.
+</code>
+
+- [Sratet/CVE-2025-20188](https://github.com/Sratet/CVE-2025-20188)
 
 ### CVE-2025-21204 (2025-04-08)
 
@@ -806,6 +820,7 @@
 - [Mattb709/CVE-2025-24813-Scanner](https://github.com/Mattb709/CVE-2025-24813-Scanner)
 - [Erosion2020/CVE-2025-24813-vulhub](https://github.com/Erosion2020/CVE-2025-24813-vulhub)
 - [hakankarabacak/CVE-2025-24813](https://github.com/hakankarabacak/CVE-2025-24813)
+- [Eduardo-hardvester/CVE-2025-24813](https://github.com/Eduardo-hardvester/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -1327,6 +1342,7 @@
 - [verylazytech/CVE-2025-29306](https://github.com/verylazytech/CVE-2025-29306)
 - [inok009/FOXCMS-CVE-2025-29306-POC](https://github.com/inok009/FOXCMS-CVE-2025-29306-POC)
 - [Mattb709/CVE-2025-29306-PoC-FoxCMS-RCE](https://github.com/Mattb709/CVE-2025-29306-PoC-FoxCMS-RCE)
+- [congdong007/CVE-2025-29306_poc](https://github.com/congdong007/CVE-2025-29306_poc)
 
 ### CVE-2025-29384 (2025-03-14)
 
@@ -5313,6 +5329,20 @@
 </code>
 
 - [ch4n3-yoon/CVE-2024-21520-Demo](https://github.com/ch4n3-yoon/CVE-2024-21520-Demo)
+
+### CVE-2024-21532 (2024-10-08)
+
+<code>All versions of the package ggit are vulnerable to Command Injection via the fetchTags(branch) API, which allows user input to specify the branch to be fetched and then concatenates this string along with a git command which is then passed to the unsafe exec() Node.js child process API.
+</code>
+
+- [lirantal/CVE-2024-21532-PoC-ggit](https://github.com/lirantal/CVE-2024-21532-PoC-ggit)
+
+### CVE-2024-21533 (2024-10-08)
+
+<code>All versions of the package ggit are vulnerable to Arbitrary Argument Injection via the clone() API, which allows specifying the remote URL to clone and the file on disk to clone to. The library does not sanitize for user input or validate a given URL scheme, nor does it properly pass command-line flags to the git binary using the double-dash POSIX characters (--) to communicate the end of options.
+</code>
+
+- [lirantal/CVE-2024-21533-PoC-ggit](https://github.com/lirantal/CVE-2024-21533-PoC-ggit)
 
 ### CVE-2024-21534 (2024-10-11)
 
@@ -48062,6 +48092,7 @@
 - [K3ysTr0K3R/CVE-2017-5487-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-5487-EXPLOIT)
 - [dream434/CVE-2017-5487](https://github.com/dream434/CVE-2017-5487)
 - [user20252228/cve-2017-5487](https://github.com/user20252228/cve-2017-5487)
+- [ndr-repo/CVE-2017-5487](https://github.com/ndr-repo/CVE-2017-5487)
 
 ### CVE-2017-5633 (2017-03-06)
 
