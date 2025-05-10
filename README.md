@@ -292,6 +292,13 @@
 
 - [Otsmane-Ahmed/CVE-2025-2620-poc](https://github.com/Otsmane-Ahmed/CVE-2025-2620-poc)
 
+### CVE-2025-2748 (2025-03-24)
+
+<code>The Kentico Xperience application does not fully validate or filter files uploaded via the multiple-file upload functionality, which allows for stored XSS.This issue affects Kentico Xperience through 13.0.178.
+</code>
+
+- [xirtam2669/Kentico-Xperience-before-13.0.178---XSS-POC](https://github.com/xirtam2669/Kentico-Xperience-before-13.0.178---XSS-POC)
+
 ### CVE-2025-2775 (2025-05-07)
 
 <code>SysAid On-Prem versions &lt;= 23.3.40 are vulnerable to an unauthenticated XML External Entity (XXE) vulnerability in the Checkin processing functionality,  allowing for administrator account takeover and file read primitives.
@@ -376,6 +383,13 @@
 </code>
 
 - [Nxploited/CVE-2025-3604](https://github.com/Nxploited/CVE-2025-3604)
+
+### CVE-2025-3605 (2025-05-09)
+
+<code>The Frontend Login and Registration Blocks plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 1.0.7. This is due to the plugin not properly validating a user's identity prior to updating their details like email via the flr_blocks_user_settings_handle_ajax_callback() function. This makes it possible for unauthenticated attackers to change arbitrary user's email addresses, including administrators, and leverage that to reset the user's password and gain access to their account.
+</code>
+
+- [Nxploited/CVE-2025-3605](https://github.com/Nxploited/CVE-2025-3605)
 
 ### CVE-2025-3776 (2025-04-24)
 
