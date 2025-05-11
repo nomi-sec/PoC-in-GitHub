@@ -1716,6 +1716,13 @@
 - [iSee857/CVE-2025-31486-PoC](https://github.com/iSee857/CVE-2025-31486-PoC)
 - [Ly4j/CVE-2025-31486](https://github.com/Ly4j/CVE-2025-31486)
 
+### CVE-2025-31644 (2025-05-07)
+
+<code>When running in Appliance mode, a command injection vulnerability exists in an undisclosed iControl REST and BIG-IP TMOS Shell (tmsh) command which may allow an authenticated attacker with administrator role privileges to execute arbitrary system commands. A successful exploit can allow the attacker to cross a security boundary.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [mbadanoiu/CVE-2025-31644](https://github.com/mbadanoiu/CVE-2025-31644)
+
 ### CVE-2025-31650 (2025-04-28)
 
 <code>Improper Input Validation vulnerability in Apache Tomcat. Incorrect error handling for some invalid HTTP priority headers resulted in incomplete clean-up of the failed request which created a memory leak. A large number of such requests could trigger an OutOfMemoryException resulting in a denial of service.\n\nThis issue affects Apache Tomcat: from 9.0.76 through 9.0.102, from 10.1.10 through 10.1.39, from 11.0.0-M2 through 11.0.5.\n\nUsers are recommended to upgrade to version 9.0.104, 10.1.40 or 11.0.6 which fix the issue.
