@@ -722,6 +722,8 @@
 </code>
 
 - [jailbreakdotparty/dirtyZero](https://github.com/jailbreakdotparty/dirtyZero)
+- [BlueDiamond2021/iOS-CVE-2025-24203-Paths](https://github.com/BlueDiamond2021/iOS-CVE-2025-24203-Paths)
+- [Ravibr87/dirtyZero](https://github.com/Ravibr87/dirtyZero)
 
 ### CVE-2025-24252 (2025-04-29)
 
@@ -730,6 +732,7 @@
 
 - [ekomsSavior/AirBorne-PoC](https://github.com/ekomsSavior/AirBorne-PoC)
 - [apwlq/AirBorne-PoC](https://github.com/apwlq/AirBorne-PoC)
+- [cakescats/airborn-IOS-CVE-2025-24252](https://github.com/cakescats/airborn-IOS-CVE-2025-24252)
 
 ### CVE-2025-24271 (2025-04-29)
 
@@ -1703,6 +1706,7 @@
 - [rf-peixoto/sap_netweaver_cve-2025-31324-](https://github.com/rf-peixoto/sap_netweaver_cve-2025-31324-)
 - [NULLTRACE0X/CVE-2025-31324](https://github.com/NULLTRACE0X/CVE-2025-31324)
 - [nairuzabulhul/nuclei-template-cve-2025-31324-check](https://github.com/nairuzabulhul/nuclei-template-cve-2025-31324-check)
+- [sug4r-wr41th/CVE-2025-31324](https://github.com/sug4r-wr41th/CVE-2025-31324)
 
 ### CVE-2025-31486 (2025-04-03)
 
@@ -1821,6 +1825,13 @@
 </code>
 
 - [Nxploited/CVE-2025-32579](https://github.com/Nxploited/CVE-2025-32579)
+
+### CVE-2025-32583 (2025-04-17)
+
+<code>Improper Control of Generation of Code ('Code Injection') vulnerability in termel PDF 2 Post allows Remote Code Inclusion. This issue affects PDF 2 Post: from n/a through 2.4.0.
+</code>
+
+- [Nxploited/CVE-2025-32583](https://github.com/Nxploited/CVE-2025-32583)
 
 ### CVE-2025-32641 (2025-04-09)
 
@@ -1990,6 +2001,9 @@
 </code>
 
 - [d0n601/CVE-2025-47550](https://github.com/d0n601/CVE-2025-47550)
+
+### CVE-2025-47810
+- [ptrstr/CVE-2025-47810](https://github.com/ptrstr/CVE-2025-47810)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
