@@ -2029,9 +2029,6 @@
 ### CVE-2025-492030
 - [ImTheCopilotNow/CVE-2025-492030](https://github.com/ImTheCopilotNow/CVE-2025-492030)
 
-### CVE-2025-666666
-- [anderruiz/CVE-2025-666666](https://github.com/anderruiz/CVE-2025-666666)
-
 ### CVE-2025-3272025
 - [itssixtyn3in/CVE-2025-3272025](https://github.com/itssixtyn3in/CVE-2025-3272025)
 
@@ -9583,6 +9580,13 @@
 </code>
 
 - [Mahesh-970/CVE-2024-43768](https://github.com/Mahesh-970/CVE-2024-43768)
+
+### CVE-2024-43788 (2024-08-27)
+
+<code>Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset. The webpack developers have discovered a DOM Clobbering vulnerability in Webpack’s `AutoPublicPathRuntimeModule`. The DOM Clobbering gadget in the module can lead to cross-site scripting (XSS) in web pages where scriptless attacker-controlled HTML elements (e.g., an `img` tag with an unsanitized `name` attribute) are present. Real-world exploitation of this gadget has been observed in the Canvas LMS which allows a XSS attack to happen through a javascript code compiled by Webpack (the vulnerable part is from Webpack). DOM Clobbering is a type of code-reuse attack where the attacker first embeds a piece of non-script, seemingly benign HTML markups in the webpage (e.g. through a post or comment) and leverages the gadgets (pieces of js code) living in the existing javascript code to transform it into executable code. This vulnerability can lead to cross-site scripting (XSS) on websites that include Webpack-generated files and allow users to inject certain scriptless HTML tags with improperly sanitized name or id attributes. This issue has been addressed in release version 5.94.0. All users are advised to upgrade. There are no known workarounds for this issue.
+</code>
+
+- [batzionb/webpack-cve-2024-43788](https://github.com/batzionb/webpack-cve-2024-43788)
 
 ### CVE-2024-43917 (2024-08-29)
 
@@ -18507,6 +18511,13 @@
 </code>
 
 - [Zenyith/CVE-2023-41991](https://github.com/Zenyith/CVE-2023-41991)
+
+### CVE-2023-41992 (2023-09-21)
+
+<code>The issue was addressed with improved checks. This issue is fixed in macOS Monterey 12.7, iOS 16.7 and iPadOS 16.7, macOS Ventura 13.6. A local attacker may be able to elevate their privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.
+</code>
+
+- [karzanWang/CVE-2023-41992](https://github.com/karzanWang/CVE-2023-41992)
 
 ### CVE-2023-41993 (2023-09-21)
 
@@ -28564,6 +28575,7 @@
 - [Sebastianbedoya25/CVE-2021-3156](https://github.com/Sebastianbedoya25/CVE-2021-3156)
 - [ten-ops/baron-samedit](https://github.com/ten-ops/baron-samedit)
 - [Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-](https://github.com/Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-)
+- [shishirpandey18/CVE-2021-3156](https://github.com/shishirpandey18/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -28868,7 +28880,6 @@
 - [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [Anonymous-Family/CVE-2021-4034](https://github.com/Anonymous-Family/CVE-2021-4034)
-- [phvilasboas/CVE-2021-4034](https://github.com/phvilasboas/CVE-2021-4034)
 - [vilasboasph/CVE-2021-4034](https://github.com/vilasboasph/CVE-2021-4034)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
@@ -48406,6 +48417,13 @@
 
 - [xuechiyaobai/CVE-2017-7092-PoC](https://github.com/xuechiyaobai/CVE-2017-7092-PoC)
 
+### CVE-2017-7117 (2017-10-23)
+
+<code>An issue was discovered in certain Apple products. iOS before 11 is affected. Safari before 11 is affected. iCloud before 7.0 on Windows is affected. iTunes before 12.7 on Windows is affected. tvOS before 11 is affected. The issue involves the &quot;WebKit&quot; component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site.
+</code>
+
+- [rebelle3/cve-2017-7117](https://github.com/rebelle3/cve-2017-7117)
+
 ### CVE-2017-7173 (2018-04-03)
 
 <code>An issue was discovered in certain Apple products. macOS before 10.13.2 is affected. The issue involves the &quot;Kernel&quot; component. It allows attackers to bypass intended memory-read restrictions via a crafted app.
@@ -48830,6 +48848,7 @@
 - [ionutbaltariu/joomla_CVE-2017-8917](https://github.com/ionutbaltariu/joomla_CVE-2017-8917)
 - [BaptisteContreras/CVE-2017-8917-Joomla](https://github.com/BaptisteContreras/CVE-2017-8917-Joomla)
 - [gloliveira1701/Joomblah](https://github.com/gloliveira1701/Joomblah)
+- [xcalts/CVE-2017-8917](https://github.com/xcalts/CVE-2017-8917)
 
 ### CVE-2017-9096 (2017-11-08)
 
