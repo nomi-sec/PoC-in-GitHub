@@ -1,9 +1,6 @@
 # PoC in GitHub
 
 ## 2025
-### CVE-2025-0011
-- [binarywarm/kentico-xperience13-AuthBypass-CVE-2025-0011](https://github.com/binarywarm/kentico-xperience13-AuthBypass-CVE-2025-0011)
-
 ### CVE-2025-0054 (2025-02-11)
 
 <code>SAP NetWeaver Application Server Java does not sufficiently handle user input, resulting in a stored cross-site scripting vulnerability. The application allows attackers with basic user privileges to store a Javascript payload on the server, which could be later executed in the victim's web browser. With this the attacker might be able to read or modify information associated with the vulnerable web page.
@@ -725,6 +722,7 @@
 - [jailbreakdotparty/dirtyZero](https://github.com/jailbreakdotparty/dirtyZero)
 - [BlueDiamond2021/iOS-CVE-2025-24203-Paths](https://github.com/BlueDiamond2021/iOS-CVE-2025-24203-Paths)
 - [Ravibr87/dirtyZero](https://github.com/Ravibr87/dirtyZero)
+- [GeoSn0w/CVE-2025-24203-iOS-Exploit-in-Swift](https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-in-Swift)
 
 ### CVE-2025-24252 (2025-04-29)
 
@@ -4392,6 +4390,7 @@
 - [XiaomingX/cve-2024-10220-githooks](https://github.com/XiaomingX/cve-2024-10220-githooks)
 - [filipzag/CVE-2024-10220](https://github.com/filipzag/CVE-2024-10220)
 - [candranapits/poc-CVE-2024-10220](https://github.com/candranapits/poc-CVE-2024-10220)
+- [orgC/CVE-2024-10220-demo](https://github.com/orgC/CVE-2024-10220-demo)
 
 ### CVE-2024-10245 (2024-11-12)
 
@@ -11467,6 +11466,7 @@
 
 ### CVE-2024-55466
 - [cybsecsid/ThingsBoard-CVE-2024-55466](https://github.com/cybsecsid/ThingsBoard-CVE-2024-55466)
+- [cybsecsid/ThingsBoard-IoT-Platform-CVE-2024-55466](https://github.com/cybsecsid/ThingsBoard-IoT-Platform-CVE-2024-55466)
 
 ### CVE-2024-55503 (2025-01-15)
 
@@ -11516,7 +11516,6 @@
 - [exfil0/CVE-2024-55591-POC](https://github.com/exfil0/CVE-2024-55591-POC)
 - [rawtips/CVE-2024-55591](https://github.com/rawtips/CVE-2024-55591)
 - [0x7556/CVE-2024-55591](https://github.com/0x7556/CVE-2024-55591)
-- [binarywarm/exp-cmd-add-admin-vpn-CVE-2024-55591](https://github.com/binarywarm/exp-cmd-add-admin-vpn-CVE-2024-55591)
 
 ### CVE-2024-55875 (2024-12-12)
 
@@ -13708,7 +13707,6 @@
 - [AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-](https://github.com/AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-)
 - [XiaomingX/cve-2023-20198-poc](https://github.com/XiaomingX/cve-2023-20198-poc)
 - [G4sul1n/Cisco-IOS-XE-CVE-2023-20198](https://github.com/G4sul1n/Cisco-IOS-XE-CVE-2023-20198)
-- [punyconspir/cisco-ios-xe-implant-scanner](https://github.com/punyconspir/cisco-ios-xe-implant-scanner)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -15893,7 +15891,7 @@
 
 - [griffinsectio/CVE-2023-30800_PoC](https://github.com/griffinsectio/CVE-2023-30800_PoC)
 - [griffinsectio/CVE-2023-30800_PoC_go](https://github.com/griffinsectio/CVE-2023-30800_PoC_go)
-- [KhogenTheRabbit/cve-2023-30800-multithread-doser](https://github.com/KhogenTheRabbit/cve-2023-30800-multithread-doser)
+- [diemaxxing/cve-2023-30800-multithread-doser](https://github.com/diemaxxing/cve-2023-30800-multithread-doser)
 - [AxthonyV/MikroTik](https://github.com/AxthonyV/MikroTik)
 
 ### CVE-2023-30839 (2023-04-25)
@@ -16851,6 +16849,13 @@
 </code>
 
 - [radman404/CVE-2023-34634](https://github.com/radman404/CVE-2023-34634)
+
+### CVE-2023-34732 (2025-05-12)
+
+<code>An issue in the userId parameter in the change password function of Flytxt NEON-dX v0.0.1-SNAPSHOT-6.9-qa-2-9-g5502a0c allows attackers to execute brute force attacks to discover user passwords.
+</code>
+
+- [saykino/CVE-2023-34732](https://github.com/saykino/CVE-2023-34732)
 
 ### CVE-2023-34830 (2023-06-27)
 
@@ -46425,6 +46430,13 @@
 </code>
 
 - [Trinadh465/external_tcpdump_CVE-2018-14469](https://github.com/Trinadh465/external_tcpdump_CVE-2018-14469)
+
+### CVE-2018-14498 (2019-03-07)
+
+<code>get_8bit_row in rdbmp.c in libjpeg-turbo through 1.5.90 and MozJPEG through 3.3.1 allows attackers to cause a denial of service (heap-based buffer over-read and application crash) via a crafted 8-bit BMP in which one or more of the color indices is out of range for the number of palette entries.
+</code>
+
+- [h31md4llr/libjpeg_cve-2018-14498](https://github.com/h31md4llr/libjpeg_cve-2018-14498)
 
 ### CVE-2018-14634 (2018-09-25)
 
