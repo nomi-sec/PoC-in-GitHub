@@ -825,6 +825,7 @@
 - [Erosion2020/CVE-2025-24813-vulhub](https://github.com/Erosion2020/CVE-2025-24813-vulhub)
 - [hakankarabacak/CVE-2025-24813](https://github.com/hakankarabacak/CVE-2025-24813)
 - [Eduardo-hardvester/CVE-2025-24813](https://github.com/Eduardo-hardvester/CVE-2025-24813)
+- [fatkz/CVE-2025-24813](https://github.com/fatkz/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -14721,6 +14722,7 @@
 </code>
 
 - [helleflo1312/Orchestrated-Powershell-for-CVE-2023-24932](https://github.com/helleflo1312/Orchestrated-Powershell-for-CVE-2023-24932)
+- [ajf8729/BlackLotus](https://github.com/ajf8729/BlackLotus)
 
 ### CVE-2023-24955 (2023-05-09)
 
@@ -38794,6 +38796,7 @@
 </code>
 
 - [agarma/CVE-2020-24913-PoC](https://github.com/agarma/CVE-2020-24913-PoC)
+- [shpaw415/CVE-2020-24913-exploit](https://github.com/shpaw415/CVE-2020-24913-exploit)
 
 ### CVE-2020-24949 (2020-09-03)
 
@@ -49804,7 +49807,7 @@
 - [ivanitlearning/CVE-2017-17562](https://github.com/ivanitlearning/CVE-2017-17562)
 - [crispy-peppers/Goahead-CVE-2017-17562](https://github.com/crispy-peppers/Goahead-CVE-2017-17562)
 - [nu11pointer/goahead-rce-exploit](https://github.com/nu11pointer/goahead-rce-exploit)
-- [freitzzz/bash-CVE-2017-17562](https://github.com/freitzzz/bash-CVE-2017-17562)
+- [joaomagfreitas/bash-CVE-2017-17562](https://github.com/joaomagfreitas/bash-CVE-2017-17562)
 
 ### CVE-2017-17692 (2017-12-21)
 
