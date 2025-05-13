@@ -360,6 +360,7 @@
 - [verylazytech/CVE-2025-3248](https://github.com/verylazytech/CVE-2025-3248)
 - [minxxcozy/CVE-2025-3248-langflow-RCE](https://github.com/minxxcozy/CVE-2025-3248-langflow-RCE)
 - [Praison001/CVE-2025-3248](https://github.com/Praison001/CVE-2025-3248)
+- [vigilante-1337/CVE-2025-3248](https://github.com/vigilante-1337/CVE-2025-3248)
 
 ### CVE-2025-3568 (2025-04-14)
 
@@ -684,6 +685,13 @@
 - [Marcejr117/CVE-2025-24071_PoC](https://github.com/Marcejr117/CVE-2025-24071_PoC)
 - [cesarbtakeda/Windows-Explorer-CVE-2025-24071](https://github.com/cesarbtakeda/Windows-Explorer-CVE-2025-24071)
 - [pswalia2u/CVE-2025-24071_POC](https://github.com/pswalia2u/CVE-2025-24071_POC)
+
+### CVE-2025-24085 (2025-01-27)
+
+<code>A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
+</code>
+
+- [pxx917144686/12345](https://github.com/pxx917144686/12345)
 
 ### CVE-2025-24104 (2025-01-27)
 
@@ -1935,7 +1943,11 @@
 
 - [0xBenCantCode/CVE-2025-43929](https://github.com/0xBenCantCode/CVE-2025-43929)
 
-### CVE-2025-44039
+### CVE-2025-44039 (2025-05-13)
+
+<code>CP-XR-DE21-S -4G Router Firmware version 1.031.022 was discovered to contain insecure protections for its UART console. This vulnerability allows local attackers to connect to the UART port via a serial connection, read all boot sequence, and revealing internal system details and sensitive information without any authentication.
+</code>
+
 - [Yashodhanvivek/CP-XR-DE21-S--4G-Router-Vulnerabilities](https://github.com/Yashodhanvivek/CP-XR-DE21-S--4G-Router-Vulnerabilities)
 
 ### CVE-2025-44228
@@ -1967,7 +1979,11 @@
 ### CVE-2025-46701
 - [gregk4sec/CVE-2025-46701](https://github.com/gregk4sec/CVE-2025-46701)
 
-### CVE-2025-46721
+### CVE-2025-46721 (2025-05-13)
+
+<code>nosurf is cross-site request forgery (CSRF) protection middleware for Go. A vulnerability in versions prior to 1.2.0 allows an attacker who controls content on the target site, or on a subdomain of the target site (either via XSS, or otherwise) to bypass CSRF checks and issue requests on user's behalf. Due to misuse of the Go `net/http` library, nosurf categorizes all incoming requests as plain-text HTTP requests, in which case the `Referer` header is not checked to have the same origin as the target webpage. If the attacker has control over HTML contents on either the target website (e.g. `example.com`), or on a website hosted on a subdomain of the target (e.g. `attacker.example.com`), they will also be able to manipulate cookies set for the target website. By acquiring the secret CSRF token from the cookie, or overriding the cookie with a new token known to the attacker, `attacker.example.com` is able to craft cross-site requests to `example.com`. A patch for the issue was released in nosurf 1.2.0. In lieu of upgrading to a patched version of nosurf, users may additionally use another HTTP middleware to ensure that a non-safe HTTP request is coming from the same origin (e.g. by requiring a `Sec-Fetch-Site: same-origin` header in the request).
+</code>
+
 - [justinas/nosurf-cve-2025-46721](https://github.com/justinas/nosurf-cve-2025-46721)
 
 ### CVE-2025-46731 (2025-05-05)
@@ -28772,6 +28788,7 @@
 - [markyu0401/CVE-2021-3560-Polkit-Privilege-Escalation](https://github.com/markyu0401/CVE-2021-3560-Polkit-Privilege-Escalation)
 - [Kyyomaa/CVE-2021-3560-EXPLOIT](https://github.com/Kyyomaa/CVE-2021-3560-EXPLOIT)
 - [arcslash/exploit_CVE-2021-3560](https://github.com/arcslash/exploit_CVE-2021-3560)
+- [MandipJoshi/CVE-2021-3560](https://github.com/MandipJoshi/CVE-2021-3560)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -28888,7 +28905,6 @@
 - [robemmerson/CVE-2021-4034](https://github.com/robemmerson/CVE-2021-4034)
 - [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
-- [Anonymous-Family/CVE-2021-4034](https://github.com/Anonymous-Family/CVE-2021-4034)
 - [vilasboasph/CVE-2021-4034](https://github.com/vilasboasph/CVE-2021-4034)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
@@ -46441,6 +46457,7 @@
 </code>
 
 - [h31md4llr/libjpeg_cve-2018-14498](https://github.com/h31md4llr/libjpeg_cve-2018-14498)
+- [h31md4llr/libjpeg_cve-2018-14498_2](https://github.com/h31md4llr/libjpeg_cve-2018-14498_2)
 
 ### CVE-2018-14634 (2018-09-25)
 
