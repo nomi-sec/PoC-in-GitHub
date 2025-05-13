@@ -22280,6 +22280,7 @@
 - [CharonDefalt/WordPress--CVE-2022-21661](https://github.com/CharonDefalt/WordPress--CVE-2022-21661)
 - [w0r1i0g1ht/CVE-2022-21661](https://github.com/w0r1i0g1ht/CVE-2022-21661)
 - [kittypurrnaz/cve-2022-21661](https://github.com/kittypurrnaz/cve-2022-21661)
+- [Fauzan-Aldi/CVE-2022-21661](https://github.com/Fauzan-Aldi/CVE-2022-21661)
 
 ### CVE-2022-21668 (2022-01-10)
 
