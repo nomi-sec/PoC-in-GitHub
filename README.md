@@ -1967,6 +1967,9 @@
 ### CVE-2025-46701
 - [gregk4sec/CVE-2025-46701](https://github.com/gregk4sec/CVE-2025-46701)
 
+### CVE-2025-46721
+- [justinas/nosurf-cve-2025-46721](https://github.com/justinas/nosurf-cve-2025-46721)
+
 ### CVE-2025-46731 (2025-05-05)
 
 <code>Craft is a content management system. Versions of Craft CMS on the 4.x branch prior to 4.14.13 and on the 5.x branch prior to 5.6.16 contains a potential remote code execution vulnerability via Twig SSTI. One must have administrator access and `ALLOW_ADMIN_CHANGES` must be enabled for this to work. Users should update to the patched versions 4.14.13 or 5.6.15 to mitigate the issue.
