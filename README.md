@@ -1411,6 +1411,13 @@
 
 - [aleongx/CVE-2025-29810-check](https://github.com/aleongx/CVE-2025-29810-check)
 
+### CVE-2025-29824 (2025-04-08)
+
+<code>Use after free in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [encrypter15/CVE-2025-29824](https://github.com/encrypter15/CVE-2025-29824)
+
 ### CVE-2025-29927 (2025-03-21)
 
 <code>Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
@@ -28906,7 +28913,6 @@
 - [robemmerson/CVE-2021-4034](https://github.com/robemmerson/CVE-2021-4034)
 - [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
-- [vilasboasph/CVE-2021-4034](https://github.com/vilasboasph/CVE-2021-4034)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
 - [cd80-ctf/CVE-2021-4034](https://github.com/cd80-ctf/CVE-2021-4034)
@@ -29029,6 +29035,7 @@
 - [ikerSandoval003/CVE-2021-4034](https://github.com/ikerSandoval003/CVE-2021-4034)
 - [AsierEgana/cve-2021-4034](https://github.com/AsierEgana/cve-2021-4034)
 - [fzlaziz/CVE-2021-4034](https://github.com/fzlaziz/CVE-2021-4034)
+- [Z3R0-0x30/CVE-2021-4034](https://github.com/Z3R0-0x30/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
