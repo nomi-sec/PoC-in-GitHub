@@ -255,6 +255,7 @@
 - [realcodeb0ss/CVE-2025-2294-PoC](https://github.com/realcodeb0ss/CVE-2025-2294-PoC)
 - [rhz0d/CVE-2025-2294](https://github.com/rhz0d/CVE-2025-2294)
 - [romanedutov/CVE-2025-2294](https://github.com/romanedutov/CVE-2025-2294)
+- [Yucaerin/CVE-2025-2294](https://github.com/Yucaerin/CVE-2025-2294)
 
 ### CVE-2025-2301
 - [sahici/CVE-2025-2301](https://github.com/sahici/CVE-2025-2301)
@@ -723,7 +724,7 @@
 - [jailbreakdotparty/dirtyZero](https://github.com/jailbreakdotparty/dirtyZero)
 - [BlueDiamond2021/iOS-CVE-2025-24203-Paths](https://github.com/BlueDiamond2021/iOS-CVE-2025-24203-Paths)
 - [Ravibr87/dirtyZero](https://github.com/Ravibr87/dirtyZero)
-- [GeoSn0w/CVE-2025-24203-iOS-Exploit-in-Swift](https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-in-Swift)
+- [GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging](https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging)
 
 ### CVE-2025-24252 (2025-04-29)
 
