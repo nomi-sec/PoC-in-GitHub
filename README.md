@@ -709,6 +709,13 @@
 - [jprx/CVE-2025-24118](https://github.com/jprx/CVE-2025-24118)
 - [rawtips/-CVE-2025-24118](https://github.com/rawtips/-CVE-2025-24118)
 
+### CVE-2025-24132 (2025-04-30)
+
+<code>The issue was addressed with improved memory handling. This issue is fixed in AirPlay audio SDK 2.7.1, AirPlay video SDK 3.6.0.126, CarPlay Communication Plug-in R18.1. An attacker on the local network may cause an unexpected app termination.
+</code>
+
+- [Feralthedogg/CVE-2025-24132-Scanner](https://github.com/Feralthedogg/CVE-2025-24132-Scanner)
+
 ### CVE-2025-24200 (2025-02-10)
 
 <code>An authorization issue was addressed with improved state management. This issue is fixed in iPadOS 17.7.5, iOS 18.3.1 and iPadOS 18.3.1. A physical attack may disable USB Restricted Mode on a locked device. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals.
@@ -1232,7 +1239,7 @@
 </code>
 
 - [akamai/CVE-2025-27636-Apache-Camel-PoC](https://github.com/akamai/CVE-2025-27636-Apache-Camel-PoC)
-- [enochgitgamefied/CVE-2025-27636-Pratctical-Lab](https://github.com/enochgitgamefied/CVE-2025-27636-Pratctical-Lab)
+- [enochgitgamefied/CVE-2025-27636-Practical-Lab](https://github.com/enochgitgamefied/CVE-2025-27636-Practical-Lab)
 
 ### CVE-2025-27840 (2025-03-08)
 
@@ -8450,6 +8457,9 @@
 - [jaytiwari05/CVE-2024-36991](https://github.com/jaytiwari05/CVE-2024-36991)
 - [TcchSquad/CVE-2024-36991-Tool](https://github.com/TcchSquad/CVE-2024-36991-Tool)
 - [gunzf0x/CVE-2024-36991](https://github.com/gunzf0x/CVE-2024-36991)
+
+### CVE-2024-37010
+- [SarpantKeltiek/CVE-2024-37010](https://github.com/SarpantKeltiek/CVE-2024-37010)
 
 ### CVE-2024-37032 (2024-05-31)
 
