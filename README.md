@@ -383,6 +383,7 @@
 </code>
 
 - [Nxploited/CVE-2025-3605](https://github.com/Nxploited/CVE-2025-3605)
+- [GadaLuBau1337/CVE-2025-3605](https://github.com/GadaLuBau1337/CVE-2025-3605)
 
 ### CVE-2025-3776 (2025-04-24)
 
@@ -415,9 +416,11 @@
 
 ### CVE-2025-4094
 - [starawneh/CVE-2025-4094](https://github.com/starawneh/CVE-2025-4094)
+- [POCPioneer/CVE-2025-4094-POC](https://github.com/POCPioneer/CVE-2025-4094-POC)
 
 ### CVE-2025-4190
 - [Nxploited/CVE-2025-4190](https://github.com/Nxploited/CVE-2025-4190)
+- [GadaLuBau1337/CVE-2025-4190](https://github.com/GadaLuBau1337/CVE-2025-4190)
 
 ### CVE-2025-4403 (2025-05-09)
 
@@ -425,6 +428,22 @@
 </code>
 
 - [Yucaerin/CVE-2025-4403](https://github.com/Yucaerin/CVE-2025-4403)
+
+### CVE-2025-4427 (2025-05-13)
+
+<code>An authentication bypass in the API component of Ivanti Endpoint Manager Mobile 12.5.0.0 and prior allows attackers to access protected resources without proper credentials via the API.
+</code>
+
+- [watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428](https://github.com/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428)
+
+### CVE-2025-4686
+- [sahici/CVE-2025-4686](https://github.com/sahici/CVE-2025-4686)
+
+### CVE-2025-4688
+- [sahici/CVE-2025-4688](https://github.com/sahici/CVE-2025-4688)
+
+### CVE-2025-4784
+- [sahici/CVE-2025-4784](https://github.com/sahici/CVE-2025-4784)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -10986,6 +11005,7 @@
 </code>
 
 - [Nxploited/CVE-2024-51793](https://github.com/Nxploited/CVE-2024-51793)
+- [KTN1990/CVE-2024-51793](https://github.com/KTN1990/CVE-2024-51793)
 
 ### CVE-2024-51818 (2025-01-21)
 
@@ -26854,7 +26874,7 @@
 - [sunnyvale-it/CVE-2022-42889-PoC](https://github.com/sunnyvale-it/CVE-2022-42889-PoC)
 - [QAInsights/cve-2022-42889-jmeter](https://github.com/QAInsights/cve-2022-42889-jmeter)
 - [adarshpv9746/Text4shell--Automated-exploit---CVE-2022-42889](https://github.com/adarshpv9746/Text4shell--Automated-exploit---CVE-2022-42889)
-- [pwnb0y/Text4shell-exploit](https://github.com/pwnb0y/Text4shell-exploit)
+- [vickyaryan7/Text4shell-exploit](https://github.com/vickyaryan7/Text4shell-exploit)
 - [gokul-ramesh/text4shell-exploit](https://github.com/gokul-ramesh/text4shell-exploit)
 - [f0ng/text4shellburpscanner](https://github.com/f0ng/text4shellburpscanner)
 - [devenes/text4shell-cve-2022-42889](https://github.com/devenes/text4shell-cve-2022-42889)
@@ -39920,9 +39940,6 @@
 
 ### CVE-2020-256480
 - [dim0x69/cve-2022-25640-exploit](https://github.com/dim0x69/cve-2022-25640-exploit)
-
-### CVE-2020-999999
-- [ghost-zz/test](https://github.com/ghost-zz/test)
 
 
 ## 2019
