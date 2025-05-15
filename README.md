@@ -413,6 +413,9 @@
 
 - [Stuub/CVE-2025-3969-Exploit](https://github.com/Stuub/CVE-2025-3969-Exploit)
 
+### CVE-2025-4094
+- [starawneh/CVE-2025-4094](https://github.com/starawneh/CVE-2025-4094)
+
 ### CVE-2025-4190
 - [Nxploited/CVE-2025-4190](https://github.com/Nxploited/CVE-2025-4190)
 
@@ -1707,6 +1710,7 @@
 </code>
 
 - [wh1te4ever/CVE-2025-31258-PoC](https://github.com/wh1te4ever/CVE-2025-31258-PoC)
+- [BODE987/CVE-2025-31258-PoC](https://github.com/BODE987/CVE-2025-31258-PoC)
 
 ### CVE-2025-31324 (2025-04-24)
 
@@ -2254,6 +2258,13 @@
 </code>
 
 - [jidle123/cve-2024-0305exp](https://github.com/jidle123/cve-2024-0305exp)
+
+### CVE-2024-0311 (2024-03-14)
+
+<code>A malicious insider can bypass the existing policy of Skyhigh Client Proxy without a valid release code.
+</code>
+
+- [calligraf0/CVE-2024-0311](https://github.com/calligraf0/CVE-2024-0311)
 
 ### CVE-2024-0324 (2024-02-05)
 
@@ -6546,7 +6557,7 @@
 <code>There is a Stored XSS Vulnerability in Emlog Pro 2.2.8 Article Publishing, due to non-filtering of quoted content.
 </code>
 
-- [Ox130e07d/CVE-2024-25381](https://github.com/Ox130e07d/CVE-2024-25381)
+- [OoO7ce/CVE-2024-25381](https://github.com/OoO7ce/CVE-2024-25381)
 
 ### CVE-2024-25411 (2024-09-27)
 
@@ -10012,6 +10023,13 @@
 
 - [ayato-shitomi/CVE-2024-46278-teedy_1.11_account-takeover](https://github.com/ayato-shitomi/CVE-2024-46278-teedy_1.11_account-takeover)
 
+### CVE-2024-46310 (2025-01-13)
+
+<code>Incorrect Access Control in Cfx.re FXServer v9601 and earlier allows unauthenticated users to modify and read arbitrary user data via exposed API endpoint
+</code>
+
+- [PRX5Y/CVE-2024-46310](https://github.com/PRX5Y/CVE-2024-46310)
+
 ### CVE-2024-46377 (2024-09-18)
 
 <code>Best House Rental Management System 1.0 contains an arbitrary file upload vulnerability in the save_settings() function of the file rental/admin_class.php.
@@ -10609,6 +10627,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-50478](https://github.com/RandomRobbieBF/CVE-2024-50478)
+
+### CVE-2024-50482 (2024-10-29)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Chetan Khandla Woocommerce Product Design allows Upload a Web Shell to a Web Server.This issue affects Woocommerce Product Design: from n/a through 1.0.0.
+</code>
+
+- [RandomRobbieBF/CVE-2024-50482](https://github.com/RandomRobbieBF/CVE-2024-50482)
 
 ### CVE-2024-50483 (2024-10-28)
 
@@ -39886,6 +39911,9 @@
 
 ### CVE-2020-256480
 - [dim0x69/cve-2022-25640-exploit](https://github.com/dim0x69/cve-2022-25640-exploit)
+
+### CVE-2020-999999
+- [ghost-zz/test](https://github.com/ghost-zz/test)
 
 
 ## 2019
