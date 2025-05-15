@@ -1812,6 +1812,9 @@
 
 - [ruiwenya/CVE-2025-32395](https://github.com/ruiwenya/CVE-2025-32395)
 
+### CVE-2025-32407
+- [diegovargasj/CVE-2025-32407](https://github.com/diegovargasj/CVE-2025-32407)
+
 ### CVE-2025-32432 (2025-04-25)
 
 <code>Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.
@@ -1877,6 +1880,13 @@
 </code>
 
 - [Nxploited/CVE-2025-32682](https://github.com/Nxploited/CVE-2025-32682)
+
+### CVE-2025-32756 (2025-05-13)
+
+<code>A stack-based buffer overflow vulnerability [CWE-121] in Fortinet FortiVoice versions 7.2.0, 7.0.0 through 7.0.6, 6.4.0 through 6.4.10, FortiRecorder versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.5, 6.4.0 through 6.4.5, FortiMail versions 7.6.0 through 7.6.2, 7.4.0 through 7.4.4, 7.2.0 through 7.2.7, 7.0.0 through 7.0.8, FortiNDR versions 7.6.0, 7.4.0 through 7.4.7, 7.2.0 through 7.2.4, 7.0.0 through 7.0.6, FortiCamera versions 2.1.0 through 2.1.3, 2.0 all versions, 1.1 all versions, allows a remote unauthenticated attacker to execute arbitrary code or commands via sending HTTP requests with specially crafted hash cookie.
+</code>
+
+- [m4s1um/CVE-2025-32756-RCE-PoC](https://github.com/m4s1um/CVE-2025-32756-RCE-PoC)
 
 ### CVE-2025-32965 (2025-04-22)
 
@@ -2244,13 +2254,6 @@
 </code>
 
 - [jidle123/cve-2024-0305exp](https://github.com/jidle123/cve-2024-0305exp)
-
-### CVE-2024-0311 (2024-03-14)
-
-<code>A malicious insider can bypass the existing policy of Skyhigh Client Proxy without a valid release code.
-</code>
-
-- [calligraf0/CVE-2024-0311](https://github.com/calligraf0/CVE-2024-0311)
 
 ### CVE-2024-0324 (2024-02-05)
 
@@ -10606,13 +10609,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-50478](https://github.com/RandomRobbieBF/CVE-2024-50478)
-
-### CVE-2024-50482 (2024-10-29)
-
-<code>Unrestricted Upload of File with Dangerous Type vulnerability in Chetan Khandla Woocommerce Product Design allows Upload a Web Shell to a Web Server.This issue affects Woocommerce Product Design: from n/a through 1.0.0.
-</code>
-
-- [RandomRobbieBF/CVE-2024-50482](https://github.com/RandomRobbieBF/CVE-2024-50482)
 
 ### CVE-2024-50483 (2024-10-28)
 
@@ -38496,6 +38492,7 @@
 - [killmonday/CVE-2020-17530-s2-061](https://github.com/killmonday/CVE-2020-17530-s2-061)
 - [keyuan15/CVE-2020-17530](https://github.com/keyuan15/CVE-2020-17530)
 - [nth347/CVE-2020-17530](https://github.com/nth347/CVE-2020-17530)
+- [fatkz/CVE-2020-17530](https://github.com/fatkz/CVE-2020-17530)
 
 ### CVE-2020-17531 (2020-12-08)
 
@@ -44990,6 +44987,7 @@
 - [vineetkia/Wordpress-DOS-Attack-CVE-2018-6389](https://github.com/vineetkia/Wordpress-DOS-Attack-CVE-2018-6389)
 - [ianxtianxt/CVE-2018-6389](https://github.com/ianxtianxt/CVE-2018-6389)
 - [amit-pathak009/CVE-2018-6389-FIX](https://github.com/amit-pathak009/CVE-2018-6389-FIX)
+- [NemesisCyberForce/WordPress-CVE-2018-6389](https://github.com/NemesisCyberForce/WordPress-CVE-2018-6389)
 
 ### CVE-2018-6396 (2018-02-17)
 
