@@ -836,6 +836,7 @@
 - [hakankarabacak/CVE-2025-24813](https://github.com/hakankarabacak/CVE-2025-24813)
 - [Eduardo-hardvester/CVE-2025-24813](https://github.com/Eduardo-hardvester/CVE-2025-24813)
 - [fatkz/CVE-2025-24813](https://github.com/fatkz/CVE-2025-24813)
+- [maliqto/PoC-CVE-2025-24813](https://github.com/maliqto/PoC-CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -1598,6 +1599,13 @@
 </code>
 
 - [Totunm/CVE-2025-30392](https://github.com/Totunm/CVE-2025-30392)
+
+### CVE-2025-30397 (2025-05-13)
+
+<code>Access of resource using incompatible type ('type confusion') in Microsoft Scripting Engine allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [Sratet/CVE-2025-30397-RCE](https://github.com/Sratet/CVE-2025-30397-RCE)
 
 ### CVE-2025-30406 (2025-04-03)
 
@@ -28634,6 +28642,7 @@
 - [ten-ops/baron-samedit](https://github.com/ten-ops/baron-samedit)
 - [Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-](https://github.com/Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-)
 - [shishirpandey18/CVE-2021-3156](https://github.com/shishirpandey18/CVE-2021-3156)
+- [duongdz96/CVE-2021-3156-main](https://github.com/duongdz96/CVE-2021-3156-main)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -28934,7 +28943,6 @@
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [whokilleddb/CVE-2021-4034](https://github.com/whokilleddb/CVE-2021-4034)
 - [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
-- [robemmerson/CVE-2021-4034](https://github.com/robemmerson/CVE-2021-4034)
 - [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
@@ -38290,6 +38298,7 @@
 </code>
 
 - [aleksejspopovs/cve-2020-16012](https://github.com/aleksejspopovs/cve-2020-16012)
+- [helidem/CVE-2020-16012-PoC](https://github.com/helidem/CVE-2020-16012-PoC)
 
 ### CVE-2020-16125 (2020-11-10)
 
