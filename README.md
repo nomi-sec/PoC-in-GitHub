@@ -331,6 +331,13 @@
 - [punitdarji/crushftp-CVE-2025-2825](https://github.com/punitdarji/crushftp-CVE-2025-2825)
 - [ghostsec420/ShatteredFTP](https://github.com/ghostsec420/ShatteredFTP)
 
+### CVE-2025-3047 (2025-03-31)
+
+<code>When running the AWS Serverless Application Model Command Line Interface (SAM CLI) build process with Docker and symlinks are included in the build files, the container environment allows a user to access privileged files on the host by leveraging the elevated permissions granted to the tool. A user could leverage the elevated permissions to access restricted files via symlinks and copy them to a more permissive location on the container. \n\nUsers should upgrade to v1.133.0 or newer and ensure any forked or derivative code is patched to incorporate the new fixes.
+</code>
+
+- [murataydemir/AWS-SAM-CLI-Vulnerabilities](https://github.com/murataydemir/AWS-SAM-CLI-Vulnerabilities)
+
 ### CVE-2025-3102 (2025-04-10)
 
 <code>The SureTriggers: All-in-One Automation Platform plugin for WordPress is vulnerable to an authentication bypass leading to administrative account creation due to a missing empty value check on the 'secret_key' value in the 'autheticate_user' function in all versions up to, and including, 1.0.78. This makes it possible for unauthenticated attackers to create administrator accounts on the target website when the plugin is installed and activated but not configured with an API key.
@@ -451,6 +458,9 @@
 
 ### CVE-2025-4784
 - [sahici/CVE-2025-4784](https://github.com/sahici/CVE-2025-4784)
+
+### CVE-2025-4822
+- [sahici/CVE-2025-4822](https://github.com/sahici/CVE-2025-4822)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -3075,6 +3085,13 @@
 </code>
 
 - [h4x0r-dz/CVE-2024-3656](https://github.com/h4x0r-dz/CVE-2024-3656)
+
+### CVE-2024-3661 (2024-05-06)
+
+<code>DHCP can add routes to a client’s routing table via the classless static route option (121). VPN-based security solutions that rely on routes to redirect traffic can be forced to leak traffic over the physical interface. An attacker on the same local network can read, disrupt, or possibly modify network traffic that was expected to be protected by the VPN.
+</code>
+
+- [Wh1t3Fox/CVE-2024-3661](https://github.com/Wh1t3Fox/CVE-2024-3661)
 
 ### CVE-2024-3673 (2024-08-30)
 
@@ -26479,6 +26496,7 @@
 - [notareaperbutDR34P3r/vuln-CVE-2022-41082](https://github.com/notareaperbutDR34P3r/vuln-CVE-2022-41082)
 - [SUPRAAA-1337/CVE-2022-41082](https://github.com/SUPRAAA-1337/CVE-2022-41082)
 - [soltanali0/CVE-2022-41082](https://github.com/soltanali0/CVE-2022-41082)
+- [CyprianAtsyor/LetsDefend-CVE-2022-41082-Exploitation-Attempt](https://github.com/CyprianAtsyor/LetsDefend-CVE-2022-41082-Exploitation-Attempt)
 
 ### CVE-2022-41099 (2022-11-09)
 
@@ -28892,6 +28910,7 @@
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [whokilleddb/CVE-2021-4034](https://github.com/whokilleddb/CVE-2021-4034)
 - [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
+- [robemmerson/CVE-2021-4034](https://github.com/robemmerson/CVE-2021-4034)
 - [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
@@ -29079,7 +29098,6 @@
 </code>
 
 - [CERT-hr/Log4Shell](https://github.com/CERT-hr/Log4Shell)
-- [GianlucaSanfi/cve-2021-4428](https://github.com/GianlucaSanfi/cve-2021-4428)
 
 ### CVE-2021-6857
 - [zi0n8/CVE-2021-6857](https://github.com/zi0n8/CVE-2021-6857)
