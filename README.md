@@ -1499,7 +1499,7 @@
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
-- [0x0Luk/0xMiddleware](https://github.com/0x0Luk/0xMiddleware)
+- [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
 - [AnonKryptiQuz/NextSploit](https://github.com/AnonKryptiQuz/NextSploit)
 - [w2hcorp/CVE-2025-29927-PoC](https://github.com/w2hcorp/CVE-2025-29927-PoC)
 - [ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927](https://github.com/ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927)
@@ -13702,7 +13702,11 @@
 
 - [sharathc213/CVE-2023-7173](https://github.com/sharathc213/CVE-2023-7173)
 
-### CVE-2023-7231
+### CVE-2023-7231 (2025-05-15)
+
+<code>The illi Link Party! WordPress plugin through 1.0 lacks proper access controls, allowing unauthenticated visitors to delete links.
+</code>
+
 - [BBO513/CVE-2023-7231](https://github.com/BBO513/CVE-2023-7231)
 
 ### CVE-2023-7261 (2024-06-07)
@@ -13794,6 +13798,7 @@
 - [AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-](https://github.com/AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-)
 - [XiaomingX/cve-2023-20198-poc](https://github.com/XiaomingX/cve-2023-20198-poc)
 - [G4sul1n/Cisco-IOS-XE-CVE-2023-20198](https://github.com/G4sul1n/Cisco-IOS-XE-CVE-2023-20198)
+- [DOMINIC471/qub-network-security-cve-2023-20198](https://github.com/DOMINIC471/qub-network-security-cve-2023-20198)
 
 ### CVE-2023-20209 (2023-08-16)
 
