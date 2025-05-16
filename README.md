@@ -436,6 +436,13 @@
 
 - [watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428](https://github.com/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428)
 
+### CVE-2025-4428 (2025-05-13)
+
+<code>Remote Code Execution in API component in Ivanti Endpoint Manager Mobile 12.5.0.0 and prior on unspecified platforms allows authenticated attackers to execute arbitrary code via crafted API requests.
+</code>
+
+- [xie-22/CVE-2025-4428](https://github.com/xie-22/CVE-2025-4428)
+
 ### CVE-2025-4686
 - [sahici/CVE-2025-4686](https://github.com/sahici/CVE-2025-4686)
 
@@ -2084,6 +2091,9 @@
 </code>
 
 - [d0n601/CVE-2025-47550](https://github.com/d0n601/CVE-2025-47550)
+
+### CVE-2025-47646
+- [Nxploited/CVE-2025-47646](https://github.com/Nxploited/CVE-2025-47646)
 
 ### CVE-2025-47810
 - [ptrstr/CVE-2025-47810](https://github.com/ptrstr/CVE-2025-47810)
@@ -24030,7 +24040,7 @@
 - [websecnl/CVE-2022-26809](https://github.com/websecnl/CVE-2022-26809)
 - [auduongxuan/CVE-2022-26809](https://github.com/auduongxuan/CVE-2022-26809)
 - [corelight/cve-2022-26809](https://github.com/corelight/cve-2022-26809)
-- [quijadajose/CVE-2022-26809-RCE](https://github.com/quijadajose/CVE-2022-26809-RCE)
+- [Lay0us/CVE-2022-26809-RCE](https://github.com/Lay0us/CVE-2022-26809-RCE)
 - [oppongjohn/CVE-2022-26809-RCE](https://github.com/oppongjohn/CVE-2022-26809-RCE)
 - [yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809)
 - [s1ckb017/PoC-CVE-2022-26809](https://github.com/s1ckb017/PoC-CVE-2022-26809)
@@ -55218,118 +55228,6 @@
 
 
 ## 2002
-### CVE-2002-0082 (2002-06-25)
-
-<code>The dbm and shm session cache code in mod_ssl before 2.8.7-1.3.23, and Apache-SSL before 1.3.22+1.46, does not properly initialize memory using the i2d_SSL_SESSION function, which allows remote attackers to use a buffer overflow to execute arbitrary code via a large client certificate that is signed by a trusted Certificate Authority (CA), which produces a large serialized session.
-</code>
-
-- [ratiros01/CVE-2002-0082](https://github.com/ratiros01/CVE-2002-0082)
-
-### CVE-2002-0200 (2002-05-03)
-
-<code>Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service via an HTTP request for an MS-DOS device name.
-</code>
-
-- [alt3kx/CVE-2002-0200](https://github.com/alt3kx/CVE-2002-0200)
-
-### CVE-2002-0201 (2002-05-03)
-
-<code>Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a long HTTP GET request, possibly triggering a buffer overflow.
-</code>
-
-- [alt3kx/CVE-2002-0201](https://github.com/alt3kx/CVE-2002-0201)
-
-### CVE-2002-0288 (2002-05-03)
-
-<code>Directory traversal vulnerability in Phusion web server 1.0 allows remote attackers to read arbitrary files via a ... (triple dot dot) in the HTTP request.
-</code>
-
-- [alt3kx/CVE-2002-0288](https://github.com/alt3kx/CVE-2002-0288)
-
-### CVE-2002-0289 (2002-05-03)
-
-<code>Buffer overflow in Phusion web server 1.0 allows remote attackers to cause a denial of service and execute arbitrary code via a long HTTP request.
-</code>
-
-- [alt3kx/CVE-2002-0289](https://github.com/alt3kx/CVE-2002-0289)
-
-### CVE-2002-0346 (2002-05-03)
-
-<code>Cross-site scripting vulnerability in Cobalt RAQ 4 allows remote attackers to execute arbitrary script as other Cobalt users via Javascript in a URL to (1) service.cgi or (2) alert.cgi.
-</code>
-
-- [alt3kx/CVE-2002-0346](https://github.com/alt3kx/CVE-2002-0346)
-
-### CVE-2002-0347 (2002-05-03)
-
-<code>Directory traversal vulnerability in Cobalt RAQ 4 allows remote attackers to read password-protected files, and possibly files outside the web root, via a .. (dot dot) in an HTTP request.
-</code>
-
-- [alt3kx/CVE-2002-0347](https://github.com/alt3kx/CVE-2002-0347)
-
-### CVE-2002-0348 (2002-05-03)
-
-<code>service.cgi in Cobalt RAQ 4 allows remote attackers to cause a denial of service, and possibly execute arbitrary code, via a long service argument.
-</code>
-
-- [alt3kx/CVE-2002-0348](https://github.com/alt3kx/CVE-2002-0348)
-
-### CVE-2002-0448 (2002-06-11)
-
-<code>Xerver Free Web Server 2.10 and earlier allows remote attackers to cause a denial of service (crash) via an HTTP request that contains many &quot;C:/&quot; sequences.
-</code>
-
-- [alt3kx/CVE-2002-0448](https://github.com/alt3kx/CVE-2002-0448)
-
-### CVE-2002-0740 (2002-07-26)
-
-<code>Buffer overflow in slrnpull for the SLRN package, when installed setuid or setgid, allows local users to gain privileges via a long -d (SPOOLDIR) argument.
-</code>
-
-- [alt3kx/CVE-2002-0740](https://github.com/alt3kx/CVE-2002-0740)
-
-### CVE-2002-0748 (2003-04-02)
-
-<code>LabVIEW Web Server 5.1.1 through 6.1 allows remote attackers to cause a denial of service (crash) via an HTTP GET request that ends in two newline characters, instead of the expected carriage return/newline combinations.
-</code>
-
-- [fauzanwijaya/CVE-2002-0748](https://github.com/fauzanwijaya/CVE-2002-0748)
-
-### CVE-2002-0991 (2002-08-31)
-
-<code>Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and earlier, based on the Sharity package, allows local users to gain root privileges via long (1) -U, (2) -D, (3) -P, (4) -S, (5) -N, or (6) -u parameters.
-</code>
-
-- [alt3kx/CVE-2002-0991](https://github.com/alt3kx/CVE-2002-0991)
-
-### CVE-2002-1614 (2005-03-25)
-
-<code>Buffer overflow in HP Tru64 UNIX allows local users to execute arbitrary code via a long argument to /usr/bin/at.
-</code>
-
-- [wlensinas/CVE-2002-1614](https://github.com/wlensinas/CVE-2002-1614)
-
-### CVE-2002-2154 (2005-11-16)
-
-<code>Directory traversal vulnerability in Monkey HTTP Daemon 0.1.4 allows remote attackers to read arbitrary files via .. (dot dot) sequences.
-</code>
-
-- [Hirainsingadia/CVE-2002-2154](https://github.com/Hirainsingadia/CVE-2002-2154)
-
-### CVE-2002-2420 (2007-11-01)
-
-<code>site_searcher.cgi in Super Site Searcher allows remote attackers to execute arbitrary commands via shell metacharacters in the page parameter.
-</code>
-
-- [krdsploit/CVE-2002-2420](https://github.com/krdsploit/CVE-2002-2420)
-
-### CVE-2002-20001 (2021-11-11)
-
-<code>The Diffie-Hellman Key Agreement Protocol allows remote attackers (from the client side) to send arbitrary numbers that are actually not public keys, and trigger expensive server-side DHE modular-exponentiation calculations, aka a D(HE)at or D(HE)ater attack. The client needs very little CPU resources and network bandwidth. The attack may be more disruptive in cases where a client can require a server to select its largest supported key size. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE.
-</code>
-
-- [c0r0n3r/dheater](https://github.com/c0r0n3r/dheater)
-
 
 ## 2001
 ### CVE-2001-0550 (2002-06-25)
