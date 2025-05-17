@@ -425,7 +425,11 @@
 - [starawneh/CVE-2025-4094](https://github.com/starawneh/CVE-2025-4094)
 - [POCPioneer/CVE-2025-4094-POC](https://github.com/POCPioneer/CVE-2025-4094-POC)
 
-### CVE-2025-4190
+### CVE-2025-4190 (2025-05-17)
+
+<code>The CSV Mass Importer WordPress plugin through 1.2 does not properly validate uploaded files, allowing high privilege users such as admin to upload arbitrary files on the server even when they should not be allowed to (for example in multisite setup)
+</code>
+
 - [Nxploited/CVE-2025-4190](https://github.com/Nxploited/CVE-2025-4190)
 - [GadaLuBau1337/CVE-2025-4190](https://github.com/GadaLuBau1337/CVE-2025-4190)
 
@@ -3033,7 +3037,6 @@
 - [0xr2r/CVE-2024-3400-Palo-Alto-OS-Command-Injection](https://github.com/0xr2r/CVE-2024-3400-Palo-Alto-OS-Command-Injection)
 - [marconesler/CVE-2024-3400](https://github.com/marconesler/CVE-2024-3400)
 - [andrelia-hacks/CVE-2024-3400](https://github.com/andrelia-hacks/CVE-2024-3400)
-- [tk-sawada/IPLineFinder](https://github.com/tk-sawada/IPLineFinder)
 - [iwallarm/cve-2024-3400](https://github.com/iwallarm/cve-2024-3400)
 - [workshop748/CVE-2024-3400](https://github.com/workshop748/CVE-2024-3400)
 - [nanwinata/CVE-2024-3400](https://github.com/nanwinata/CVE-2024-3400)
@@ -14969,6 +14972,7 @@
 - [pbj2647/CVE-2023-25813](https://github.com/pbj2647/CVE-2023-25813)
 - [wxuycea/CVE-2023-25813](https://github.com/wxuycea/CVE-2023-25813)
 - [sea-middle/cve-2023-25813](https://github.com/sea-middle/cve-2023-25813)
+- [platypus-perry03/CVE-2023-25813](https://github.com/platypus-perry03/CVE-2023-25813)
 
 ### CVE-2023-25950 (2023-04-11)
 
@@ -29030,7 +29034,7 @@
 - [X-Projetion/Exploiting-PwnKit-CVE-2021-4034-](https://github.com/X-Projetion/Exploiting-PwnKit-CVE-2021-4034-)
 - [evkl1d/CVE-2021-4034](https://github.com/evkl1d/CVE-2021-4034)
 - [Typical0day/CVE-2021-4034](https://github.com/Typical0day/CVE-2021-4034)
-- [lsclsclsc/CVE-2021-4034](https://github.com/lsclsclsc/CVE-2021-4034)
+- [zxybfq/CVE-2021-4034](https://github.com/zxybfq/CVE-2021-4034)
 - [EuJin03/CVE-2021-4034-PoC](https://github.com/EuJin03/CVE-2021-4034-PoC)
 - [dh4r4/PwnKit-CVE-2021-4034-](https://github.com/dh4r4/PwnKit-CVE-2021-4034-)
 - [12bijaya/CVE-2021-4034-PwnKit-](https://github.com/12bijaya/CVE-2021-4034-PwnKit-)
