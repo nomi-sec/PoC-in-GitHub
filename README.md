@@ -446,7 +446,7 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428](https://github.com/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428)
-- [cdrom0/CVE-2025-4427](https://github.com/cdrom0/CVE-2025-4427)
+- [doomygloom/CVE-2025-4427](https://github.com/doomygloom/CVE-2025-4427)
 
 ### CVE-2025-4428 (2025-05-13)
 
@@ -466,6 +466,9 @@
 
 ### CVE-2025-4822
 - [sahici/CVE-2025-4822](https://github.com/sahici/CVE-2025-4822)
+
+### CVE-2025-12654
+- [Taonauz/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Taonauz/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 
 ### CVE-2025-20029 (2025-02-05)
 
