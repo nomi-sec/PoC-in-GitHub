@@ -442,6 +442,7 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428](https://github.com/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428)
+- [cdrom0/CVE-2025-4427](https://github.com/cdrom0/CVE-2025-4427)
 
 ### CVE-2025-4428 (2025-05-13)
 
@@ -1860,7 +1861,11 @@
 
 - [ruiwenya/CVE-2025-32395](https://github.com/ruiwenya/CVE-2025-32395)
 
-### CVE-2025-32407
+### CVE-2025-32407 (2025-05-16)
+
+<code>Samsung Internet for Galaxy Watch version 5.0.9, available up until Samsung Galaxy Watch 3, does not properly validate TLS certificates, allowing for an attacker to impersonate any and all websites visited by the user. This is a critical misconfiguration in the way the browser validates the identity of the server. It negates the use of HTTPS as a secure channel, allowing for Man-in-the-Middle attacks, stealing sensitive information or modifying incoming and outgoing traffic. NOTE: This vulnerability is in an end-of-life product that is no longer maintained by the vendor.
+</code>
+
 - [diegovargasj/CVE-2025-32407](https://github.com/diegovargasj/CVE-2025-32407)
 
 ### CVE-2025-32432 (2025-04-25)
@@ -48472,6 +48477,7 @@
 
 - [rockl/cve-2017-7184](https://github.com/rockl/cve-2017-7184)
 - [rockl/cve-2017-7184-bak](https://github.com/rockl/cve-2017-7184-bak)
+- [b1nhack/CVE-2017-7184](https://github.com/b1nhack/CVE-2017-7184)
 
 ### CVE-2017-7188 (2017-04-14)
 
