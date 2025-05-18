@@ -1755,6 +1755,7 @@
 </code>
 
 - [zhuowei/apple-positional-audio-codec-invalid-header](https://github.com/zhuowei/apple-positional-audio-codec-invalid-header)
+- [JGoyd/CVE-2025-31200-iOS-AudioConverter-RCE](https://github.com/JGoyd/CVE-2025-31200-iOS-AudioConverter-RCE)
 
 ### CVE-2025-31258 (2025-05-12)
 
@@ -2100,6 +2101,9 @@
 </code>
 
 - [Haluka92/CVE-2025-47423](https://github.com/Haluka92/CVE-2025-47423)
+
+### CVE-2025-47539
+- [Nxploited/CVE-2025-47539](https://github.com/Nxploited/CVE-2025-47539)
 
 ### CVE-2025-47549 (2025-05-07)
 
@@ -8432,7 +8436,7 @@
 - [jakabakos/CVE-2024-36401-GeoServer-RCE](https://github.com/jakabakos/CVE-2024-36401-GeoServer-RCE)
 - [ahisec/geoserver-](https://github.com/ahisec/geoserver-)
 - [Chocapikk/CVE-2024-36401](https://github.com/Chocapikk/CVE-2024-36401)
-- [yisas93/CVE-2024-36401-PoC](https://github.com/yisas93/CVE-2024-36401-PoC)
+- [y1s4s/CVE-2024-36401-PoC](https://github.com/y1s4s/CVE-2024-36401-PoC)
 - [justin-p/geoexplorer](https://github.com/justin-p/geoexplorer)
 - [daniellowrie/CVE-2024-36401-PoC](https://github.com/daniellowrie/CVE-2024-36401-PoC)
 - [punitdarji/GeoServer-CVE-2024-36401](https://github.com/punitdarji/GeoServer-CVE-2024-36401)
