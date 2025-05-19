@@ -473,9 +473,6 @@
 ### CVE-2025-4822
 - [sahici/CVE-2025-4822](https://github.com/sahici/CVE-2025-4822)
 
-### CVE-2025-12654
-- [Taonauz/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Taonauz/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
-
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -1472,6 +1469,13 @@
 </code>
 
 - [aleongx/CVE-2025-29810-check](https://github.com/aleongx/CVE-2025-29810-check)
+
+### CVE-2025-29813 (2025-05-08)
+
+<code>[Spoofable identity claims] Authentication Bypass by Assumed-Immutable Data in Azure DevOps allows an unauthorized attacker to elevate privileges over a network.
+</code>
+
+- [Sratet/CVE-2025-29813-PE](https://github.com/Sratet/CVE-2025-29813-PE)
 
 ### CVE-2025-29824 (2025-04-08)
 
@@ -8926,6 +8930,7 @@
 </code>
 
 - [First-Roman/sprig-mvc-demo-patch](https://github.com/First-Roman/sprig-mvc-demo-patch)
+- [topilov/axiom-jdk](https://github.com/topilov/axiom-jdk)
 - [funcid/CVE-2024-38828](https://github.com/funcid/CVE-2024-38828)
 
 ### CVE-2024-38856 (2024-08-05)
@@ -28945,7 +28950,6 @@
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [whokilleddb/CVE-2021-4034](https://github.com/whokilleddb/CVE-2021-4034)
 - [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
-- [robemmerson/CVE-2021-4034](https://github.com/robemmerson/CVE-2021-4034)
 - [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
@@ -33502,6 +33506,7 @@
 - [ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux](https://github.com/ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux)
 - [monke443/CVE-2021-43798](https://github.com/monke443/CVE-2021-43798)
 - [suljov/Grafana-LFI-exploit](https://github.com/suljov/Grafana-LFI-exploit)
+- [abuyazeen/CVE-2021-43798-Grafana-path-traversal-tester](https://github.com/abuyazeen/CVE-2021-43798-Grafana-path-traversal-tester)
 
 ### CVE-2021-43799 (2022-01-25)
 
