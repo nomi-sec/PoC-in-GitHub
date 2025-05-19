@@ -454,6 +454,7 @@
 </code>
 
 - [xie-22/CVE-2025-4428](https://github.com/xie-22/CVE-2025-4428)
+- [doomygloom/CVE-2025-4428](https://github.com/doomygloom/CVE-2025-4428)
 
 ### CVE-2025-4664 (2025-05-14)
 
@@ -474,11 +475,7 @@
 ### CVE-2025-4822
 - [sahici/CVE-2025-4822](https://github.com/sahici/CVE-2025-4822)
 
-### CVE-2025-4921 (2025-05-17)
-
-<code>An attacker was able to perform an out-of-bounds read or write on a JavaScript object by confusing array index sizes. This vulnerability affects Firefox &lt; 138.0.4 and Firefox ESR &lt; 128.10.1.
-</code>
-
+### CVE-2025-4921
 - [doomygloom/CVE-2025-4921](https://github.com/doomygloom/CVE-2025-4921)
 
 ### CVE-2025-12654
