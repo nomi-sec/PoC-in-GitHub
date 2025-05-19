@@ -2146,9 +2146,6 @@
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
 
-### CVE-2025-442025
-- [joey-melo/CVE-2025-442025](https://github.com/joey-melo/CVE-2025-442025)
-
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
 
@@ -13507,7 +13504,7 @@
 
 ### CVE-2023-6199 (2023-11-20)
 
-<code>Book Stack version 23.10.2 allows filtering local files on the server. This is possible because the application is vulnerable to SSRF.\n
+<code>Book Stack version 23.10.2 allows filtering local files on the server. This is possible because the application is vulnerable to SSRF.
 </code>
 
 - [AbdrrahimDahmani/php_filter_chains_oracle_exploit_for_CVE-2023-6199](https://github.com/AbdrrahimDahmani/php_filter_chains_oracle_exploit_for_CVE-2023-6199)
@@ -28954,7 +28951,6 @@
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
-- [cd80-ctf/CVE-2021-4034](https://github.com/cd80-ctf/CVE-2021-4034)
 - [Al1ex/CVE-2021-4034](https://github.com/Al1ex/CVE-2021-4034)
 - [ashutoshrohilla/CVE-2021-4034](https://github.com/ashutoshrohilla/CVE-2021-4034)
 - [nikip72/CVE-2021-4034](https://github.com/nikip72/CVE-2021-4034)
@@ -32881,6 +32877,7 @@
 - [javaamo/CVE-2021-41773](https://github.com/javaamo/CVE-2021-41773)
 - [ashique-thaha/CVE-2021-41773-POC](https://github.com/ashique-thaha/CVE-2021-41773-POC)
 - [khaidtraivch/CVE-2021-41773-Apache-2.4.49-](https://github.com/khaidtraivch/CVE-2021-41773-Apache-2.4.49-)
+- [qalvynn/CVE-2021-41773](https://github.com/qalvynn/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -41764,6 +41761,7 @@
 - [0xMoonrise/cve-2019-9978](https://github.com/0xMoonrise/cve-2019-9978)
 - [MAHajian/CVE-2019-9978](https://github.com/MAHajian/CVE-2019-9978)
 - [echoosso/CVE-2019-9978](https://github.com/echoosso/CVE-2019-9978)
+- [Housma/CVE-2019-9978-Social-Warfare-WordPress-Plugin-RCE](https://github.com/Housma/CVE-2019-9978-Social-Warfare-WordPress-Plugin-RCE)
 
 ### CVE-2019-10008 (2019-04-24)
 
