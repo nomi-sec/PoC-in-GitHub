@@ -224,6 +224,13 @@
 
 - [datagoboom/CVE-2025-2011](https://github.com/datagoboom/CVE-2025-2011)
 
+### CVE-2025-2135 (2025-03-10)
+
+<code>Type Confusion in V8 in Google Chrome prior to 134.0.6998.88 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [Wa1nut4/CVE-2025-2135](https://github.com/Wa1nut4/CVE-2025-2135)
+
 ### CVE-2025-2233 (2025-03-11)
 
 <code>Samsung SmartThings Improper Verification of Cryptographic Signature Authentication Bypass Vulnerability. This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Samsung SmartThings. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the Hub Local API service, which listens on TCP port 8766 by default. The issue results from the lack of proper verification of a cryptographic signature. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-25615.
@@ -446,7 +453,6 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428](https://github.com/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428)
-- [doomygloom/CVE-2025-4427](https://github.com/doomygloom/CVE-2025-4427)
 
 ### CVE-2025-4428 (2025-05-13)
 
@@ -454,14 +460,6 @@
 </code>
 
 - [xie-22/CVE-2025-4428](https://github.com/xie-22/CVE-2025-4428)
-- [doomygloom/CVE-2025-4428](https://github.com/doomygloom/CVE-2025-4428)
-
-### CVE-2025-4664 (2025-05-14)
-
-<code>Insufficient policy enforcement in Loader in Google Chrome prior to 136.0.7103.113 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)
-</code>
-
-- [doomygloom/CVE-2025-4664](https://github.com/doomygloom/CVE-2025-4664)
 
 ### CVE-2025-4686
 - [sahici/CVE-2025-4686](https://github.com/sahici/CVE-2025-4686)
@@ -474,9 +472,6 @@
 
 ### CVE-2025-4822
 - [sahici/CVE-2025-4822](https://github.com/sahici/CVE-2025-4822)
-
-### CVE-2025-4921
-- [doomygloom/CVE-2025-4921](https://github.com/doomygloom/CVE-2025-4921)
 
 ### CVE-2025-12654
 - [Taonauz/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Taonauz/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
@@ -1225,7 +1220,6 @@
 </code>
 
 - [rxerium/CVE-2025-26466](https://github.com/rxerium/CVE-2025-26466)
-- [jhonnybonny/CVE-2025-26466](https://github.com/jhonnybonny/CVE-2025-26466)
 
 ### CVE-2025-26529 (2025-02-24)
 
@@ -46859,6 +46853,13 @@
 - [cved-sources/cve-2018-16509](https://github.com/cved-sources/cve-2018-16509)
 - [rhpco/CVE-2018-16509](https://github.com/rhpco/CVE-2018-16509)
 
+### CVE-2018-16621 (2018-11-15)
+
+<code>Sonatype Nexus Repository Manager before 3.14 allows Java Expression Language Injection.
+</code>
+
+- [Loucy1231/Nexus-Repository-Manager3-EL-CVE-2018-16621-https-www.cve.org-CVERecord-id-CVE-2018-16621-](https://github.com/Loucy1231/Nexus-Repository-Manager3-EL-CVE-2018-16621-https-www.cve.org-CVERecord-id-CVE-2018-16621-)
+
 ### CVE-2018-16706 (2018-09-14)
 
 <code>LG SuperSign CMS allows TVs to be rebooted remotely without authentication via a direct HTTP request to /qsr_server/device/reboot on port 9080.
@@ -54043,6 +54044,13 @@
 </code>
 
 - [jan0/isslfix](https://github.com/jan0/isslfix)
+
+### CVE-2011-0762 (2011-03-02)
+
+<code>The vsf_filename_passes_filter function in ls.c in vsftpd before 2.3.3 allows remote authenticated users to cause a denial of service (CPU consumption and process slot exhaustion) via crafted glob expressions in STAT commands in multiple FTP sessions, a different vulnerability than CVE-2010-2632.
+</code>
+
+- [AndreyFreitax/CVE-2011-0762](https://github.com/AndreyFreitax/CVE-2011-0762)
 
 ### CVE-2011-1237 (2011-04-13)
 
