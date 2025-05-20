@@ -374,7 +374,6 @@
 - [xuemian168/CVE-2025-3248](https://github.com/xuemian168/CVE-2025-3248)
 - [PuddinCat/CVE-2025-3248-POC](https://github.com/PuddinCat/CVE-2025-3248-POC)
 - [verylazytech/CVE-2025-3248](https://github.com/verylazytech/CVE-2025-3248)
-- [minxxcozy/CVE-2025-3248-langflow-RCE](https://github.com/minxxcozy/CVE-2025-3248-langflow-RCE)
 - [Praison001/CVE-2025-3248](https://github.com/Praison001/CVE-2025-3248)
 - [vigilante-1337/CVE-2025-3248](https://github.com/vigilante-1337/CVE-2025-3248)
 
@@ -7253,7 +7252,7 @@
 <code>\n\n\n\n\n\n\n\n\n\n\n\nSolarWinds Serv-U was susceptible to a directory transversal vulnerability that would allow access to read sensitive files on the host machine.    \n\n\n\n\n\n\n\n
 </code>
 
-- [krypton-kry/CVE-2024-28995](https://github.com/krypton-kry/CVE-2024-28995)
+- [demoAlitalia/CVE-2024-28995](https://github.com/demoAlitalia/CVE-2024-28995)
 - [ggfzx/CVE-2024-28995](https://github.com/ggfzx/CVE-2024-28995)
 - [huseyinstif/CVE-2024-28995-Nuclei-Template](https://github.com/huseyinstif/CVE-2024-28995-Nuclei-Template)
 - [0xc4t/CVE-2024-28995](https://github.com/0xc4t/CVE-2024-28995)
