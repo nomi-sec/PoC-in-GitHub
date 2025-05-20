@@ -480,6 +480,13 @@
 ### CVE-2025-4822
 - [sahici/CVE-2025-4822](https://github.com/sahici/CVE-2025-4822)
 
+### CVE-2025-4918 (2025-05-17)
+
+<code>An attacker was able to perform an out-of-bounds read or write on a JavaScript `Promise` object. This vulnerability affects Firefox &lt; 138.0.4, Firefox ESR &lt; 128.10.1, and Firefox ESR &lt; 115.23.1.
+</code>
+
+- [Totunm/CVE-2025-4918](https://github.com/Totunm/CVE-2025-4918)
+
 ### CVE-2025-4919 (2025-05-17)
 
 <code>An attacker was able to perform an out-of-bounds read or write on a JavaScript object by confusing array index sizes. This vulnerability affects Firefox &lt; 138.0.4, Firefox ESR &lt; 128.10.1, and Firefox ESR &lt; 115.23.1.
@@ -2014,6 +2021,13 @@
 
 - [Nxploited/CVE-2025-39601](https://github.com/Nxploited/CVE-2025-39601)
 
+### CVE-2025-40634 (2025-05-20)
+
+<code>Stack-based buffer overflow vulnerability in the 'conn-indicator' binary running as root on the TP-Link Archer AX50 router, in firmware versions prior to 1.0.15 build 241203 rel61480. This vulnerability allows an attacker to execute arbitrary code on the device over LAN and WAN networks.
+</code>
+
+- [hacefresko/CVE-2025-40634](https://github.com/hacefresko/CVE-2025-40634)
+
 ### CVE-2025-43864 (2025-04-25)
 
 <code>React Router is a router for React. Starting in version 7.2.0 and prior to version 7.5.2, it is possible to force an application to switch to SPA mode by adding a header to the request. If the application uses SSR and is forced to switch to SPA, this causes an error that completely corrupts the page. If a cache system is in place, this allows the response containing the error to be cached, resulting in a cache poisoning that strongly impacts the availability of the application. This issue has been patched in version 7.5.2.
@@ -2106,6 +2120,13 @@
 </code>
 
 - [singetu0096/CVE-2025-46731](https://github.com/singetu0096/CVE-2025-46731)
+
+### CVE-2025-46801 (2025-05-19)
+
+<code>Pgpool-II provided by PgPool Global Development Group contains an authentication bypass by primary weakness vulnerability. if the vulnerability is exploited, an attacker may be able to log in to the system as an arbitrary user, allowing them to read or tamper with data in the database, and/or disable the database.
+</code>
+
+- [Sratet/CVE-2025-46801](https://github.com/Sratet/CVE-2025-46801)
 
 ### CVE-2025-47226 (2025-05-02)
 
@@ -40197,7 +40218,7 @@
 
 ### CVE-2019-0709 (2019-06-12)
 
-<code>A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka 'Windows Hyper-V Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-0620, CVE-2019-0722.
+<code>A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system. To exploit the vulnerability, an attacker could run a specially crafted application on a guest operating system that could cause the Hyper-V host operating system to execute arbitrary code.\nAn attacker who successfully exploited the vulnerability could execute arbitrary code on the host operating system.\nThe security update addresses the vulnerability by correcting how Hyper-V validates guest operating system user input.
 </code>
 
 - [YHZX2013/CVE-2019-0709](https://github.com/YHZX2013/CVE-2019-0709)
@@ -40270,14 +40291,14 @@
 
 ### CVE-2019-0888 (2019-06-12)
 
-<code>A remote code execution vulnerability exists in the way that ActiveX Data Objects (ADO) handle objects in memory, aka 'ActiveX Data Objects (ADO) Remote Code Execution Vulnerability'.
+<code>A remote code execution vulnerability exists in the way that ActiveX Data Objects (ADO) handle objects in memory. An attacker who successfully exploited the vulnerability could execute arbitrary code with the victim user’s privileges.\nAn attacker could craft a website that exploits the vulnerability and then convince a victim user to visit the website.\nThe security update addresses the vulnerability by modifying how ActiveX Data Objects handle objects in memory.
 </code>
 
 - [sophoslabs/CVE-2019-0888](https://github.com/sophoslabs/CVE-2019-0888)
 
 ### CVE-2019-0986 (2019-06-12)
 
-<code>An elevation of privilege vulnerability exists when the Windows User Profile Service (ProfSvc) improperly handles symlinks, aka 'Windows User Profile Service Elevation of Privilege Vulnerability'.
+<code>An elevation of privilege vulnerability exists when the Windows User Profile Service (ProfSvc) improperly handles symlinks. An attacker who successfully exploited this vulnerability could delete files and folders in an elevated context.\nTo exploit this vulnerability, an attacker would first have to log on to the system. An attacker could then run a specially crafted application that could exploit the vulnerability and delete files or folders of their choosing.\nThe security update addresses the vulnerability by correcting how the Windows User Profile Service handles symlinks.
 </code>
 
 - [padovah4ck/CVE-2019-0986](https://github.com/padovah4ck/CVE-2019-0986)
@@ -40294,7 +40315,7 @@
 
 ### CVE-2019-1040 (2019-06-12)
 
-<code>A tampering vulnerability exists in Microsoft Windows when a man-in-the-middle attacker is able to successfully bypass the NTLM MIC (Message Integrity Check) protection, aka 'Windows NTLM Tampering Vulnerability'.
+<code>A tampering vulnerability exists in Microsoft Windows when a man-in-the-middle attacker is able to successfully bypass the NTLM MIC (Message Integrity Check) protection. An attacker who successfully exploited this vulnerability could gain the ability to downgrade NTLM security features.\nTo exploit this vulnerability, the attacker would need to tamper with the NTLM exchange. The attacker could then modify flags of the NTLM packet without invalidating the signature.\nThe update addresses the vulnerability by hardening NTLM MIC protection on the server-side.
 </code>
 
 - [Ridter/CVE-2019-1040](https://github.com/Ridter/CVE-2019-1040)
@@ -40305,7 +40326,7 @@
 
 ### CVE-2019-1064 (2019-06-12)
 
-<code>An elevation of privilege vulnerability exists when Windows AppX Deployment Service (AppXSVC) improperly handles hard links, aka 'Windows Elevation of Privilege Vulnerability'.
+<code>An elevation of privilege vulnerability exists when Windows AppX Deployment Service (AppXSVC) improperly handles hard links. An attacker who successfully exploited this vulnerability could run processes in an elevated context. An attacker could then install programs; view, change or delete data.\nTo exploit this vulnerability, an attacker would first have to log on to the system. An attacker could then run a specially crafted application that could exploit the vulnerability and take control of an affected system.\nThe security update addresses the vulnerability by correcting how Windows AppX Deployment Service handles hard links.
 </code>
 
 - [RythmStick/CVE-2019-1064](https://github.com/RythmStick/CVE-2019-1064)
@@ -40321,7 +40342,7 @@
 
 ### CVE-2019-1069 (2019-06-12)
 
-<code>An elevation of privilege vulnerability exists in the way the Task Scheduler Service validates certain file operations, aka 'Task Scheduler Elevation of Privilege Vulnerability'.
+<code>An elevation of privilege vulnerability exists in the way the Task Scheduler Service validates certain file operations. An attacker who successfully exploited the vulnerability could gain elevated privileges on a victim system.\nTo exploit the vulnerability, an attacker would require unprivileged code execution on a victim system.\nThe security update addresses the vulnerability by correctly validating file operations.
 </code>
 
 - [S3cur3Th1sSh1t/SharpPolarBear](https://github.com/S3cur3Th1sSh1t/SharpPolarBear)
