@@ -440,6 +440,13 @@
 - [Nxploited/CVE-2025-4190](https://github.com/Nxploited/CVE-2025-4190)
 - [GadaLuBau1337/CVE-2025-4190](https://github.com/GadaLuBau1337/CVE-2025-4190)
 
+### CVE-2025-4322 (2025-05-20)
+
+<code>The Motors theme for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 5.6.67. This is due to the theme not properly validating a user's identity prior to updating their password. This makes it possible for unauthenticated attackers to change arbitrary user passwords, including those of administrators, and leverage that to gain access to their account.
+</code>
+
+- [IndominusRexes/CVE-2025-4322-Exploit](https://github.com/IndominusRexes/CVE-2025-4322-Exploit)
+
 ### CVE-2025-4403 (2025-05-09)
 
 <code>The Drag and Drop Multiple File Upload for WooCommerce plugin for WordPress is vulnerable to arbitrary file uploads in all versions up to, and including, 1.1.6 due to accepting a user‐supplied supported_type string and the uploaded filename without enforcing real extension or MIME checks within the upload() function. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -2140,9 +2147,13 @@
 
 ### CVE-2025-47646
 - [Nxploited/CVE-2025-47646](https://github.com/Nxploited/CVE-2025-47646)
+- [RootHarpy/CVE-2025-47646](https://github.com/RootHarpy/CVE-2025-47646)
 
 ### CVE-2025-47810
 - [ptrstr/CVE-2025-47810](https://github.com/ptrstr/CVE-2025-47810)
+
+### CVE-2025-47827
+- [Zedeldi/CVE-2025-47827](https://github.com/Zedeldi/CVE-2025-47827)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -2950,6 +2961,7 @@
 - [robertdfrench/ifuncd-up](https://github.com/robertdfrench/ifuncd-up)
 - [XiaomingX/cve-2024-3094-xz-backdoor-exploit](https://github.com/XiaomingX/cve-2024-3094-xz-backdoor-exploit)
 - [been22426/CVE-2024-3094](https://github.com/been22426/CVE-2024-3094)
+- [laxmikumari615/Linux---Security---Detect-and-Mitigate-CVE-2024-3094](https://github.com/laxmikumari615/Linux---Security---Detect-and-Mitigate-CVE-2024-3094)
 
 ### CVE-2024-3105 (2024-06-15)
 
@@ -11332,6 +11344,7 @@
 - [SeanRickerd/CVE-2024-53677](https://github.com/SeanRickerd/CVE-2024-53677)
 - [hopsypopsy8/CVE-2024-53677-Exploitation](https://github.com/hopsypopsy8/CVE-2024-53677-Exploitation)
 - [shishirghimir/CVE-2024-53677-Exploit](https://github.com/shishirghimir/CVE-2024-53677-Exploit)
+- [WhoisBulud/CVE-2024-53677](https://github.com/WhoisBulud/CVE-2024-53677)
 
 ### CVE-2024-53691 (2024-12-06)
 
@@ -22682,7 +22695,7 @@
 - [lucksec/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/lucksec/Spring-Cloud-Gateway-CVE-2022-22947)
 - [scopion/cve-2022-22947](https://github.com/scopion/cve-2022-22947)
 - [Vulnmachines/spring-cve-2022-22947](https://github.com/Vulnmachines/spring-cve-2022-22947)
-- [Axx8/CVE-2022-22947_Rce_Exp](https://github.com/Axx8/CVE-2022-22947_Rce_Exp)
+- [SecNN/CVE-2022-22947_Rce_Exp](https://github.com/SecNN/CVE-2022-22947_Rce_Exp)
 - [crowsec-edtech/CVE-2022-22947](https://github.com/crowsec-edtech/CVE-2022-22947)
 - [Tas9er/SpringCloudGatewayRCE](https://github.com/Tas9er/SpringCloudGatewayRCE)
 - [Greetdawn/CVE-2022-22947](https://github.com/Greetdawn/CVE-2022-22947)
@@ -22830,7 +22843,7 @@
 - [viniciuspereiras/CVE-2022-22965-poc](https://github.com/viniciuspereiras/CVE-2022-22965-poc)
 - [mebibite/springhound](https://github.com/mebibite/springhound)
 - [likewhite/CVE-2022-22965](https://github.com/likewhite/CVE-2022-22965)
-- [Axx8/SpringFramework_CVE-2022-22965_RCE](https://github.com/Axx8/SpringFramework_CVE-2022-22965_RCE)
+- [SecNN/SpringFramework_CVE-2022-22965_RCE](https://github.com/SecNN/SpringFramework_CVE-2022-22965_RCE)
 - [snicoll-scratches/spring-boot-cve-2022-22965](https://github.com/snicoll-scratches/spring-boot-cve-2022-22965)
 - [nu0l/CVE-2022-22965](https://github.com/nu0l/CVE-2022-22965)
 - [tangxiaofeng7/CVE-2022-22965-Spring-Core-Rce](https://github.com/tangxiaofeng7/CVE-2022-22965-Spring-Core-Rce)
@@ -23237,7 +23250,7 @@
 
 - [Mr-xn/CVE-2022-24112](https://github.com/Mr-xn/CVE-2022-24112)
 - [CrackerCat/CVE-2022-24112](https://github.com/CrackerCat/CVE-2022-24112)
-- [Axx8/CVE-2022-24112](https://github.com/Axx8/CVE-2022-24112)
+- [SecNN/CVE-2022-24112](https://github.com/SecNN/CVE-2022-24112)
 - [Mah1ndra/CVE-2022-24112](https://github.com/Mah1ndra/CVE-2022-24112)
 - [M4xSec/Apache-APISIX-CVE-2022-24112](https://github.com/M4xSec/Apache-APISIX-CVE-2022-24112)
 - [kavishkagihan/CVE-2022-24112-POC](https://github.com/kavishkagihan/CVE-2022-24112-POC)
@@ -31138,7 +31151,7 @@
 
 - [pyroxenites/s2-062](https://github.com/pyroxenites/s2-062)
 - [Wrin9/CVE-2021-31805](https://github.com/Wrin9/CVE-2021-31805)
-- [Axx8/Struts2_S2-062_CVE-2021-31805](https://github.com/Axx8/Struts2_S2-062_CVE-2021-31805)
+- [SecNN/Struts2_S2-062_CVE-2021-31805](https://github.com/SecNN/Struts2_S2-062_CVE-2021-31805)
 - [jax7sec/S2-062](https://github.com/jax7sec/S2-062)
 - [aeyesec/CVE-2021-31805](https://github.com/aeyesec/CVE-2021-31805)
 - [fleabane1/CVE-2021-31805-POC](https://github.com/fleabane1/CVE-2021-31805-POC)
