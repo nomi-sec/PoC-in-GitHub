@@ -468,6 +468,9 @@
 
 - [xie-22/CVE-2025-4428](https://github.com/xie-22/CVE-2025-4428)
 
+### CVE-2025-4524
+- [ptrstr/CVE-2025-4524](https://github.com/ptrstr/CVE-2025-4524)
+
 ### CVE-2025-4686
 - [sahici/CVE-2025-4686](https://github.com/sahici/CVE-2025-4686)
 
@@ -765,6 +768,7 @@
 </code>
 
 - [pxx917144686/12345](https://github.com/pxx917144686/12345)
+- [windz3r0day/CVE-2025-24085](https://github.com/windz3r0day/CVE-2025-24085)
 
 ### CVE-2025-24104 (2025-01-27)
 
