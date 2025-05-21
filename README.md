@@ -405,7 +405,6 @@
 </code>
 
 - [Nxploited/CVE-2025-3776](https://github.com/Nxploited/CVE-2025-3776)
-- [Totunm/CVE-2025-3776](https://github.com/Totunm/CVE-2025-3776)
 
 ### CVE-2025-3914 (2025-04-26)
 
@@ -413,13 +412,6 @@
 </code>
 
 - [LvL23HT/PoC-CVE-2025-3914-Aeropage-WordPress-File-Upload](https://github.com/LvL23HT/PoC-CVE-2025-3914-Aeropage-WordPress-File-Upload)
-
-### CVE-2025-3928 (2025-04-25)
-
-<code>Commvault Web Server has an unspecified vulnerability that can be exploited by a remote, authenticated attacker. According to the Commvault advisory: &quot;Webservers can be compromised through bad actors creating and executing webshells.&quot; Fixed in version 11.36.46, 11.32.89, 11.28.141, and 11.20.217 for Windows and Linux platforms. This vulnerability was added to the CISA Known Exploited Vulnerabilities (KEV) Catalog on 2025-04-28.
-</code>
-
-- [Totunm/CVE-2025-3928](https://github.com/Totunm/CVE-2025-3928)
 
 ### CVE-2025-3969 (2025-04-27)
 
@@ -483,13 +475,6 @@
 ### CVE-2025-4822
 - [sahici/CVE-2025-4822](https://github.com/sahici/CVE-2025-4822)
 
-### CVE-2025-4918 (2025-05-17)
-
-<code>An attacker was able to perform an out-of-bounds read or write on a JavaScript `Promise` object. This vulnerability affects Firefox &lt; 138.0.4, Firefox ESR &lt; 128.10.1, and Firefox ESR &lt; 115.23.1.
-</code>
-
-- [Totunm/CVE-2025-4918](https://github.com/Totunm/CVE-2025-4918)
-
 ### CVE-2025-4919 (2025-05-17)
 
 <code>An attacker was able to perform an out-of-bounds read or write on a JavaScript object by confusing array index sizes. This vulnerability affects Firefox &lt; 138.0.4, Firefox ESR &lt; 128.10.1, and Firefox ESR &lt; 115.23.1.
@@ -504,13 +489,6 @@
 
 - [mbadanoiu/CVE-2025-20029](https://github.com/mbadanoiu/CVE-2025-20029)
 - [schoi1337/CVE-2025-20029-simulation](https://github.com/schoi1337/CVE-2025-20029-simulation)
-
-### CVE-2025-20188 (2025-05-07)
-
-<code>A vulnerability in the Out-of-Band Access Point (AP) Image Download feature of Cisco IOS XE Software for Wireless LAN Controllers (WLCs) could allow an unauthenticated, remote attacker to upload arbitrary files to an affected system.\r\n\r This vulnerability is due to the presence of a hard-coded JSON Web Token (JWT) on an affected system. An attacker could exploit this vulnerability by sending crafted HTTPS requests to the AP image download interface. A successful exploit could allow the attacker to upload files, perform path traversal, and execute arbitrary commands with root privileges. \r\n\r Note: For exploitation to be successful, the Out-of-Band AP Image Download feature must be enabled on the device. It is not enabled by default.
-</code>
-
-- [Sratet/CVE-2025-20188](https://github.com/Sratet/CVE-2025-20188)
 
 ### CVE-2025-21204 (2025-04-08)
 
@@ -940,13 +918,6 @@
 </code>
 
 - [airbus-cert/cve-2025-24985](https://github.com/airbus-cert/cve-2025-24985)
-
-### CVE-2025-25014 (2025-05-06)
-
-<code>A Prototype pollution vulnerability in Kibana leads to arbitrary code execution via crafted HTTP requests to machine learning and reporting endpoints.
-</code>
-
-- [Sratet/CVE-2025-25014](https://github.com/Sratet/CVE-2025-25014)
 
 ### CVE-2025-25062 (2025-02-03)
 
@@ -1496,13 +1467,6 @@
 
 - [aleongx/CVE-2025-29810-check](https://github.com/aleongx/CVE-2025-29810-check)
 
-### CVE-2025-29813 (2025-05-08)
-
-<code>[Spoofable identity claims] Authentication Bypass by Assumed-Immutable Data in Azure DevOps allows an unauthorized attacker to elevate privileges over a network.
-</code>
-
-- [Sratet/CVE-2025-29813-PE](https://github.com/Sratet/CVE-2025-29813-PE)
-
 ### CVE-2025-29824 (2025-04-08)
 
 <code>Use after free in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally.
@@ -1673,20 +1637,6 @@
 </code>
 
 - [natasaka/CVE-2025-30349](https://github.com/natasaka/CVE-2025-30349)
-
-### CVE-2025-30392 (2025-04-30)
-
-<code>Improper authorization in Azure Bot Framework SDK allows an unauthorized attacker to elevate privileges over a network.
-</code>
-
-- [Totunm/CVE-2025-30392](https://github.com/Totunm/CVE-2025-30392)
-
-### CVE-2025-30397 (2025-05-13)
-
-<code>Access of resource using incompatible type ('type confusion') in Microsoft Scripting Engine allows an unauthorized attacker to execute code over a network.
-</code>
-
-- [Sratet/CVE-2025-30397-RCE](https://github.com/Sratet/CVE-2025-30397-RCE)
 
 ### CVE-2025-30406 (2025-04-03)
 
@@ -2124,13 +2074,6 @@
 </code>
 
 - [singetu0096/CVE-2025-46731](https://github.com/singetu0096/CVE-2025-46731)
-
-### CVE-2025-46801 (2025-05-19)
-
-<code>Pgpool-II provided by PgPool Global Development Group contains an authentication bypass by primary weakness vulnerability. if the vulnerability is exploited, an attacker may be able to log in to the system as an arbitrary user, allowing them to read or tamper with data in the database, and/or disable the database.
-</code>
-
-- [Sratet/CVE-2025-46801](https://github.com/Sratet/CVE-2025-46801)
 
 ### CVE-2025-47226 (2025-05-02)
 
@@ -18066,6 +18009,7 @@
 </code>
 
 - [markuta/bw-dump](https://github.com/markuta/bw-dump)
+- [windingacqui/bw-dump](https://github.com/windingacqui/bw-dump)
 
 ### CVE-2023-38890 (2023-08-18)
 
@@ -27452,7 +27396,7 @@
 - [yassinebk/CVE-2022-46169](https://github.com/yassinebk/CVE-2022-46169)
 - [ruycr4ft/CVE-2022-46169](https://github.com/ruycr4ft/CVE-2022-46169)
 - [FredBrave/CVE-2022-46169-CACTI-1.2.22](https://github.com/FredBrave/CVE-2022-46169-CACTI-1.2.22)
-- [sha-16/RCE-Cacti-1.2.22](https://github.com/sha-16/RCE-Cacti-1.2.22)
+- [r1nzleer/RCE-Cacti-1.2.22](https://github.com/r1nzleer/RCE-Cacti-1.2.22)
 - [Safarchand/CVE-2022-46169](https://github.com/Safarchand/CVE-2022-46169)
 - [MarkStrendin/CVE-2022-46169](https://github.com/MarkStrendin/CVE-2022-46169)
 - [BKreisel/CVE-2022-46169](https://github.com/BKreisel/CVE-2022-46169)
@@ -37017,6 +36961,7 @@
 - [zhzyker/CVE-2020-10199_POC-EXP](https://github.com/zhzyker/CVE-2020-10199_POC-EXP)
 - [aleenzz/CVE-2020-10199](https://github.com/aleenzz/CVE-2020-10199)
 - [hugosg97/CVE-2020-10199-Nexus-3.21.01](https://github.com/hugosg97/CVE-2020-10199-Nexus-3.21.01)
+- [finn79426/CVE-2020-10199](https://github.com/finn79426/CVE-2020-10199)
 
 ### CVE-2020-10204 (2020-04-01)
 
