@@ -483,12 +483,22 @@
 ### CVE-2025-4822
 - [sahici/CVE-2025-4822](https://github.com/sahici/CVE-2025-4822)
 
+### CVE-2025-4918 (2025-05-17)
+
+<code>An attacker was able to perform an out-of-bounds read or write on a JavaScript `Promise` object. This vulnerability affects Firefox &lt; 138.0.4, Firefox ESR &lt; 128.10.1, and Firefox ESR &lt; 115.23.1.
+</code>
+
+- [hendrewna/CVE-2025-4918](https://github.com/hendrewna/CVE-2025-4918)
+
 ### CVE-2025-4919 (2025-05-17)
 
 <code>An attacker was able to perform an out-of-bounds read or write on a JavaScript object by confusing array index sizes. This vulnerability affects Firefox &lt; 138.0.4, Firefox ESR &lt; 128.10.1, and Firefox ESR &lt; 115.23.1.
 </code>
 
 - [HExploited/CVE-2025-4919-Exploit](https://github.com/HExploited/CVE-2025-4919-Exploit)
+
+### CVE-2025-12654
+- [Laertharaz/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Laertharaz/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -2082,6 +2092,13 @@
 </code>
 
 - [singetu0096/CVE-2025-46731](https://github.com/singetu0096/CVE-2025-46731)
+
+### CVE-2025-46801 (2025-05-19)
+
+<code>Pgpool-II provided by PgPool Global Development Group contains an authentication bypass by primary weakness vulnerability. if the vulnerability is exploited, an attacker may be able to log in to the system as an arbitrary user, allowing them to read or tamper with data in the database, and/or disable the database.
+</code>
+
+- [hendrewna/CVE-2025-46801](https://github.com/hendrewna/CVE-2025-46801)
 
 ### CVE-2025-47226 (2025-05-02)
 
@@ -5065,6 +5082,13 @@
 
 - [RandomRobbieBF/CVE-2024-12558](https://github.com/RandomRobbieBF/CVE-2024-12558)
 - [Nxploited/CVE-2024-12558-exploit](https://github.com/Nxploited/CVE-2024-12558-exploit)
+
+### CVE-2024-12583 (2025-01-04)
+
+<code>The Dynamics 365 Integration plugin for WordPress is vulnerable to Remote Code Execution and Arbitrary File Read in all versions up to, and including, 1.3.23 via Twig Server-Side Template Injection. This is due to missing input validation and sanitization on the render function. This makes it possible for authenticated attackers, with Contributor-level access and above, to execute code on the server.
+</code>
+
+- [pouriam23/CVE-2024-12583-](https://github.com/pouriam23/CVE-2024-12583-)
 
 ### CVE-2024-12594 (2024-12-24)
 
@@ -11827,10 +11851,18 @@
 
 - [MarioTesoro/CVE-2024-56340](https://github.com/MarioTesoro/CVE-2024-56340)
 
-### CVE-2024-56428
+### CVE-2024-56428 (2025-05-21)
+
+<code>The local iLabClient database in itech iLabClient 3.7.1 allows local attackers to read cleartext credentials (from the CONFIGS table) for their servers configured in the client.
+</code>
+
 - [lisa-2905/CVE-2024-56428](https://github.com/lisa-2905/CVE-2024-56428)
 
-### CVE-2024-56429
+### CVE-2024-56429 (2025-05-21)
+
+<code>itech iLabClient 3.7.1 relies on the hard-coded YngAYdgAE/kKZYu2F2wm6w== key (found in iLabClient.jar) for local users to read or write to the database.
+</code>
+
 - [lisa-2905/CVE-2024-56429](https://github.com/lisa-2905/CVE-2024-56429)
 
 ### CVE-2024-56431 (2024-12-25)
@@ -27426,6 +27458,7 @@
 - [mind2hex/CVE-2022-46169](https://github.com/mind2hex/CVE-2022-46169)
 - [HPT-Intern-Task-Submission/CVE-2022-46169](https://github.com/HPT-Intern-Task-Submission/CVE-2022-46169)
 - [lof1sec/CVE-2022-46169](https://github.com/lof1sec/CVE-2022-46169)
+- [RdBBB3/SHELL-POC-CVE-2022-46169](https://github.com/RdBBB3/SHELL-POC-CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-24)
 
