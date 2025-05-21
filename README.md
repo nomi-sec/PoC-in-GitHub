@@ -420,7 +420,11 @@
 
 - [Stuub/CVE-2025-3969-Exploit](https://github.com/Stuub/CVE-2025-3969-Exploit)
 
-### CVE-2025-4094
+### CVE-2025-4094 (2025-05-21)
+
+<code>The DIGITS: WordPress Mobile Number Signup and Login WordPress plugin before 8.4.6.1 does not rate limit OTP validation attempts, making it straightforward for attackers to bruteforce them.
+</code>
+
 - [starawneh/CVE-2025-4094](https://github.com/starawneh/CVE-2025-4094)
 - [POCPioneer/CVE-2025-4094-POC](https://github.com/POCPioneer/CVE-2025-4094-POC)
 
@@ -460,7 +464,11 @@
 
 - [xie-22/CVE-2025-4428](https://github.com/xie-22/CVE-2025-4428)
 
-### CVE-2025-4524
+### CVE-2025-4524 (2025-05-21)
+
+<code>The Madara – Responsive and modern WordPress theme for manga sites theme for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.2.2 via the 'template' parameter. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
+</code>
+
 - [ptrstr/CVE-2025-4524](https://github.com/ptrstr/CVE-2025-4524)
 
 ### CVE-2025-4686
@@ -1544,7 +1552,7 @@
 - [gotr00t0day/CVE-2025-29927](https://github.com/gotr00t0day/CVE-2025-29927)
 - [pixilated730/NextJS-Exploit-](https://github.com/pixilated730/NextJS-Exploit-)
 - [ValGrace/middleware-auth-bypass](https://github.com/ValGrace/middleware-auth-bypass)
-- [goncalocsousa1/CVE-2025-29927](https://github.com/goncalocsousa1/CVE-2025-29927)
+- [0xnxt1me/CVE-2025-29927](https://github.com/0xnxt1me/CVE-2025-29927)
 - [pickovven/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/pickovven/vulnerable-nextjs-14-CVE-2025-29927)
 - [l1uk/nextjs-middleware-exploit](https://github.com/l1uk/nextjs-middleware-exploit)
 - [darklotuskdb/nextjs-CVE-2025-29927-hunter](https://github.com/darklotuskdb/nextjs-CVE-2025-29927-hunter)
@@ -2200,6 +2208,7 @@
 - [0xjessie21/CVE-2024-0012](https://github.com/0xjessie21/CVE-2024-0012)
 - [TalatumLabs/CVE-2024-0012_CVE-2024-9474_PoC](https://github.com/TalatumLabs/CVE-2024-0012_CVE-2024-9474_PoC)
 - [dcollaoa/cve-2024-0012-gui-poc](https://github.com/dcollaoa/cve-2024-0012-gui-poc)
+- [Regent8SH/PanOsExploitMultitool](https://github.com/Regent8SH/PanOsExploitMultitool)
 
 ### CVE-2024-0015 (2024-02-16)
 
@@ -11817,6 +11826,12 @@
 </code>
 
 - [MarioTesoro/CVE-2024-56340](https://github.com/MarioTesoro/CVE-2024-56340)
+
+### CVE-2024-56428
+- [lisa-2905/CVE-2024-56428](https://github.com/lisa-2905/CVE-2024-56428)
+
+### CVE-2024-56429
+- [lisa-2905/CVE-2024-56429](https://github.com/lisa-2905/CVE-2024-56429)
 
 ### CVE-2024-56431 (2024-12-25)
 
@@ -22290,6 +22305,7 @@
 - [davwwwx/CVE-2022-21449](https://github.com/davwwwx/CVE-2022-21449)
 - [AlexanderZinoni/CVE-2022-21449](https://github.com/AlexanderZinoni/CVE-2022-21449)
 - [HeyMrSalt/AIS3-2024-Project-D5Team](https://github.com/HeyMrSalt/AIS3-2024-Project-D5Team)
+- [volodymyr-hladkyi-symphony/demo-cve-2022-21449](https://github.com/volodymyr-hladkyi-symphony/demo-cve-2022-21449)
 
 ### CVE-2022-21500 (2022-05-19)
 
