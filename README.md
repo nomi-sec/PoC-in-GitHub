@@ -435,6 +435,13 @@
 - [starawneh/CVE-2025-4094](https://github.com/starawneh/CVE-2025-4094)
 - [POCPioneer/CVE-2025-4094-POC](https://github.com/POCPioneer/CVE-2025-4094-POC)
 
+### CVE-2025-4123 (2025-05-22)
+
+<code>A cross-site scripting (XSS) vulnerability exists in Grafana caused by combining a client path traversal and open redirect. This allows attackers to redirect users to a website that hosts a frontend plugin that will execute arbitrary JavaScript. This vulnerability does not require editor permissions and if anonymous access is enabled, the XSS will work. If the Grafana Image Renderer plugin is installed, it is possible to exploit the open redirect to achieve a full read SSRF.\n\nThe default Content-Security-Policy (CSP) in Grafana will block the XSS though the `connect-src` directive.
+</code>
+
+- [NightBloodz/CVE-2025-4123](https://github.com/NightBloodz/CVE-2025-4123)
+
 ### CVE-2025-4190 (2025-05-17)
 
 <code>The CSV Mass Importer WordPress plugin through 1.2 does not properly validate uploaded files, allowing high privilege users such as admin to upload arbitrary files on the server even when they should not be allowed to (for example in multisite setup)
@@ -450,6 +457,7 @@
 
 - [IndominusRexes/CVE-2025-4322-Exploit](https://github.com/IndominusRexes/CVE-2025-4322-Exploit)
 - [maximo896/CVE-2025-4322](https://github.com/maximo896/CVE-2025-4322)
+- [Yucaerin/CVE-2025-4322](https://github.com/Yucaerin/CVE-2025-4322)
 
 ### CVE-2025-4403 (2025-05-09)
 
@@ -493,7 +501,7 @@
 
 ### CVE-2025-4919 (2025-05-17)
 
-<code>An attacker was able to perform an out-of-bounds read or write on a JavaScript object by confusing array index sizes. This vulnerability affects Firefox &lt; 138.0.4, Firefox ESR &lt; 128.10.1, and Firefox ESR &lt; 115.23.1.
+<code>An attacker was able to perform an out-of-bounds read or write on a JavaScript object by confusing array index sizes. This vulnerability affects Firefox &lt; 138.0.4, Firefox ESR &lt; 128.10.1, Firefox ESR &lt; 115.23.1, Thunderbird &lt; 128.10.2, and Thunderbird &lt; 138.0.2.
 </code>
 
 - [HExploited/CVE-2025-4919-Exploit](https://github.com/HExploited/CVE-2025-4919-Exploit)
@@ -1530,7 +1538,7 @@
 - [kOaDT/poc-cve-2025-29927](https://github.com/kOaDT/poc-cve-2025-29927)
 - [yugo-eliatrope/test-cve-2025-29927](https://github.com/yugo-eliatrope/test-cve-2025-29927)
 - [emadshanab/CVE-2025-29927](https://github.com/emadshanab/CVE-2025-29927)
-- [att-cloud/CVE-2025-29927](https://github.com/att-cloud/CVE-2025-29927)
+- [hyperledger-web3j/CVE-2025-29927](https://github.com/hyperledger-web3j/CVE-2025-29927)
 - [aleongx/CVE-2025-29927](https://github.com/aleongx/CVE-2025-29927)
 - [nicknisi/next-attack](https://github.com/nicknisi/next-attack)
 - [jmbowes/NextSecureScan](https://github.com/jmbowes/NextSecureScan)
@@ -5623,6 +5631,7 @@
 - [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
 - [rdoix/cve-2024-21762-checker](https://github.com/rdoix/cve-2024-21762-checker)
 - [XiaomingX/cve-2024-21762-poc](https://github.com/XiaomingX/cve-2024-21762-poc)
+- [abrewer251/CVE-2024-21762_FortiNet_PoC](https://github.com/abrewer251/CVE-2024-21762_FortiNet_PoC)
 
 ### CVE-2024-21793 (2024-05-08)
 
@@ -45198,7 +45207,6 @@
 - [lisu60/cve-2018-6574](https://github.com/lisu60/cve-2018-6574)
 - [Saboor-Hakimi/CVE-2018-6574](https://github.com/Saboor-Hakimi/CVE-2018-6574)
 - [elw0od/PentesterLab](https://github.com/elw0od/PentesterLab)
-- [Saptaktdk/go-get-RCE](https://github.com/Saptaktdk/go-get-RCE)
 
 ### CVE-2018-6622 (2018-08-17)
 
