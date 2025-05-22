@@ -491,22 +491,12 @@
 ### CVE-2025-4822
 - [sahici/CVE-2025-4822](https://github.com/sahici/CVE-2025-4822)
 
-### CVE-2025-4918 (2025-05-17)
-
-<code>An attacker was able to perform an out-of-bounds read or write on a JavaScript `Promise` object. This vulnerability affects Firefox &lt; 138.0.4, Firefox ESR &lt; 128.10.1, and Firefox ESR &lt; 115.23.1.
-</code>
-
-- [hendrewna/CVE-2025-4918](https://github.com/hendrewna/CVE-2025-4918)
-
 ### CVE-2025-4919 (2025-05-17)
 
 <code>An attacker was able to perform an out-of-bounds read or write on a JavaScript object by confusing array index sizes. This vulnerability affects Firefox &lt; 138.0.4, Firefox ESR &lt; 128.10.1, and Firefox ESR &lt; 115.23.1.
 </code>
 
 - [HExploited/CVE-2025-4919-Exploit](https://github.com/HExploited/CVE-2025-4919-Exploit)
-
-### CVE-2025-12654
-- [Laertharaz/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Laertharaz/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -1980,6 +1970,13 @@
 - [becrevex/Commvault-CVE-2025-34028](https://github.com/becrevex/Commvault-CVE-2025-34028)
 - [Mattb709/CVE-2025-34028-PoC-Commvault-RCE](https://github.com/Mattb709/CVE-2025-34028-PoC-Commvault-RCE)
 
+### CVE-2025-37899 (2025-05-20)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix use-after-free in session logoff\n\nThe sess-&gt;user object can currently be in use by another thread, for\nexample if another connection has sent a session setup request to\nbind to the session being free'd. The handler for that connection could\nbe in the smb2_sess_setup function which makes use of sess-&gt;user.
+</code>
+
+- [SeanHeelan/o3_finds_cve-2025-37899](https://github.com/SeanHeelan/o3_finds_cve-2025-37899)
+
 ### CVE-2025-39436 (2025-04-17)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in aidraw I Draw allows Using Malicious Files. This issue affects I Draw: from n/a through 1.0.
@@ -2107,13 +2104,6 @@
 </code>
 
 - [singetu0096/CVE-2025-46731](https://github.com/singetu0096/CVE-2025-46731)
-
-### CVE-2025-46801 (2025-05-19)
-
-<code>Pgpool-II provided by PgPool Global Development Group contains an authentication bypass by primary weakness vulnerability. if the vulnerability is exploited, an attacker may be able to log in to the system as an arbitrary user, allowing them to read or tamper with data in the database, and/or disable the database.
-</code>
-
-- [hendrewna/CVE-2025-46801](https://github.com/hendrewna/CVE-2025-46801)
 
 ### CVE-2025-47226 (2025-05-02)
 
@@ -9592,13 +9582,6 @@
 </code>
 
 - [baroi-ai/CVE-2024-42658](https://github.com/baroi-ai/CVE-2024-42658)
-
-### CVE-2024-42758 (2024-08-16)
-
-<code>A Cross-site Scripting (XSS) vulnerability exists in version v2024-01-05 of the indexmenu plugin when is used and enabled in Dokuwiki (Open Source Wiki Engine). A malicious attacker can input XSS payloads for example when creating or editing existing page, to trigger the XSS on Dokuwiki, which is then stored in .txt file (due to nature of how Dokuwiki is designed), which presents stored XSS.
-</code>
-
-- [1s1ldur/CVE-2024-42758](https://github.com/1s1ldur/CVE-2024-42758)
 
 ### CVE-2024-42834 (2024-11-13)
 
@@ -45215,6 +45198,7 @@
 - [lisu60/cve-2018-6574](https://github.com/lisu60/cve-2018-6574)
 - [Saboor-Hakimi/CVE-2018-6574](https://github.com/Saboor-Hakimi/CVE-2018-6574)
 - [elw0od/PentesterLab](https://github.com/elw0od/PentesterLab)
+- [Saptaktdk/go-get-RCE](https://github.com/Saptaktdk/go-get-RCE)
 
 ### CVE-2018-6622 (2018-08-17)
 
