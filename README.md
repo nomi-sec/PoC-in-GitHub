@@ -115,6 +115,13 @@
 - [hakaioffsec/IngressNightmare-PoC](https://github.com/hakaioffsec/IngressNightmare-PoC)
 - [lufeirider/IngressNightmare-PoC](https://github.com/lufeirider/IngressNightmare-PoC)
 
+### CVE-2025-1122 (2025-04-15)
+
+<code>Out-Of-Bounds Write in TPM2 Reference Library in Google ChromeOS 15753.50.0  stable on Cr50 Boards allows an attacker with root access to gain persistence and \nBypass operating system verification via exploiting the NV_Read functionality during the Challenge-Response process.
+</code>
+
+- [FWNavy/RMASmoke](https://github.com/FWNavy/RMASmoke)
+
 ### CVE-2025-1219 (2025-03-30)
 
 <code>In PHP from 8.1.* before 8.1.32, from 8.2.* before 8.2.28, from 8.3.* before 8.3.19, from 8.4.* before 8.4.5, when requesting a HTTP resource using the DOM or SimpleXML extensions, the wrong content-type header is used to determine the charset when the requested resource performs a redirect. This may cause the resulting document to be parsed incorrectly or bypass validations.
@@ -442,6 +449,7 @@
 </code>
 
 - [IndominusRexes/CVE-2025-4322-Exploit](https://github.com/IndominusRexes/CVE-2025-4322-Exploit)
+- [maximo896/CVE-2025-4322](https://github.com/maximo896/CVE-2025-4322)
 
 ### CVE-2025-4403 (2025-05-09)
 
@@ -763,7 +771,7 @@
 <code>A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
 </code>
 
-- [pxx917144686/12345](https://github.com/pxx917144686/12345)
+- [apt-007/12345](https://github.com/apt-007/12345)
 - [windz3r0day/CVE-2025-24085](https://github.com/windz3r0day/CVE-2025-24085)
 
 ### CVE-2025-24104 (2025-01-27)
@@ -25247,6 +25255,13 @@
 
 - [omarhashem123/CVE-2022-31798](https://github.com/omarhashem123/CVE-2022-31798)
 
+### CVE-2022-31813 (2022-06-08)
+
+<code>Apache HTTP Server 2.4.53 and earlier may not send the X-Forwarded-* headers to the origin server based on client side Connection header hop-by-hop mechanism. This may be used to bypass IP based authentication on the origin server/application.
+</code>
+
+- [dodiorne/cve-2022-31813](https://github.com/dodiorne/cve-2022-31813)
+
 ### CVE-2022-31814 (2022-09-05)
 
 <code>pfSense pfBlockerNG through 2.1.4_26 allows remote attackers to execute arbitrary OS commands as root via shell metacharacters in the HTTP Host header. NOTE: 3.x is unaffected.
@@ -28989,7 +29004,6 @@
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
-- [Al1ex/CVE-2021-4034](https://github.com/Al1ex/CVE-2021-4034)
 - [ashutoshrohilla/CVE-2021-4034](https://github.com/ashutoshrohilla/CVE-2021-4034)
 - [nikip72/CVE-2021-4034](https://github.com/nikip72/CVE-2021-4034)
 - [NiS3x/CVE-2021-4034](https://github.com/NiS3x/CVE-2021-4034)
@@ -31579,6 +31593,7 @@
 - [d0rb/CVE-2021-34527](https://github.com/d0rb/CVE-2021-34527)
 - [TieuLong21Prosper/detect_bruteforce](https://github.com/TieuLong21Prosper/detect_bruteforce)
 - [Hirusha-N/CVE-2021-34527-CVE-2023-38831-and-CVE-2023-32784](https://github.com/Hirusha-N/CVE-2021-34527-CVE-2023-38831-and-CVE-2023-32784)
+- [AUSK1LL9/CVE-2021-34527](https://github.com/AUSK1LL9/CVE-2021-34527)
 
 ### CVE-2021-34558 (2021-07-15)
 
