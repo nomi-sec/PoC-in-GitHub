@@ -2058,6 +2058,13 @@
 
 - [Yashodhanvivek/CP-XR-DE21-S--4G-Router-Vulnerabilities](https://github.com/Yashodhanvivek/CP-XR-DE21-S--4G-Router-Vulnerabilities)
 
+### CVE-2025-44108 (2025-05-19)
+
+<code>A stored Cross-Site Scripting (XSS) vulnerability exists in the administration panel of Flatpress CMS before 1.4 via the gallery captions component. An attacker with admin privileges can inject a malicious JavaScript payload into the system, which is then stored persistently.
+</code>
+
+- [harish0x/CVE-2025-44108-SXSS](https://github.com/harish0x/CVE-2025-44108-SXSS)
+
 ### CVE-2025-44228
 - [Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
 - [Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
@@ -28991,7 +28998,6 @@
 - [Ayrx/CVE-2021-4034](https://github.com/Ayrx/CVE-2021-4034)
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
 - [An00bRektn/CVE-2021-4034](https://github.com/An00bRektn/CVE-2021-4034)
-- [zhzyker/CVE-2021-4034](https://github.com/zhzyker/CVE-2021-4034)
 - [kimusan/pkwner](https://github.com/kimusan/pkwner)
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
@@ -33550,6 +33556,7 @@
 - [ticofookfook/CVE-2021-43798](https://github.com/ticofookfook/CVE-2021-43798)
 - [MalekAlthubiany/CVE-2021-43798](https://github.com/MalekAlthubiany/CVE-2021-43798)
 - [Sic4rio/Grafana-Decryptor-for-CVE-2021-43798](https://github.com/Sic4rio/Grafana-Decryptor-for-CVE-2021-43798)
+- [hxlxmj/Grafxploit](https://github.com/hxlxmj/Grafxploit)
 - [0xSAZZAD/Grafana-CVE-2021-43798](https://github.com/0xSAZZAD/Grafana-CVE-2021-43798)
 - [wezoomagency/GrafXploit](https://github.com/wezoomagency/GrafXploit)
 - [davidr-io/Grafana-8.3-Directory-Traversal](https://github.com/davidr-io/Grafana-8.3-Directory-Traversal)
