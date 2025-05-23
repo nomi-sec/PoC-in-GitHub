@@ -487,6 +487,13 @@
 
 - [ptrstr/CVE-2025-4524](https://github.com/ptrstr/CVE-2025-4524)
 
+### CVE-2025-4611 (2025-05-21)
+
+<code>The Slim SEO – Fast &amp; Automated WordPress SEO Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's slim_seo_breadcrumbs shortcode in all versions up to, and including, 4.5.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
+- [x6vrn/CVE-2025-4611-PoC](https://github.com/x6vrn/CVE-2025-4611-PoC)
+
 ### CVE-2025-4686
 - [sahici/CVE-2025-4686](https://github.com/sahici/CVE-2025-4686)
 
@@ -498,6 +505,13 @@
 
 ### CVE-2025-4822
 - [sahici/CVE-2025-4822](https://github.com/sahici/CVE-2025-4822)
+
+### CVE-2025-4918 (2025-05-17)
+
+<code>An attacker was able to perform an out-of-bounds read or write on a JavaScript `Promise` object. This vulnerability affects Firefox &lt; 138.0.4, Firefox ESR &lt; 128.10.1, Firefox ESR &lt; 115.23.1, Thunderbird &lt; 128.10.2, and Thunderbird &lt; 138.0.2.
+</code>
+
+- [korden-c/CVE-2025-4918](https://github.com/korden-c/CVE-2025-4918)
 
 ### CVE-2025-4919 (2025-05-17)
 
@@ -1590,6 +1604,7 @@
 - [olimpiofreitas/CVE-2025-29927_scanner](https://github.com/olimpiofreitas/CVE-2025-29927_scanner)
 - [moften/CVE-2025-29927](https://github.com/moften/CVE-2025-29927)
 - [EarthAngel666/x-middleware-exploit](https://github.com/EarthAngel666/x-middleware-exploit)
+- [enochgitgamefied/NextJS-CVE-2025-29927-Docker-Lab](https://github.com/enochgitgamefied/NextJS-CVE-2025-29927-Docker-Lab)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -2082,6 +2097,9 @@
 - [Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
 - [Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
 
+### CVE-2025-44998
+- [l8BL/CVE-2025-44998](https://github.com/l8BL/CVE-2025-44998)
+
 ### CVE-2025-45250 (2025-05-06)
 
 <code>MrDoc v0.95 and before is vulnerable to Server-Side Request Forgery (SSRF) in the validate_url function of the app_doc/utils.py file.
@@ -2120,6 +2138,21 @@
 </code>
 
 - [singetu0096/CVE-2025-46731](https://github.com/singetu0096/CVE-2025-46731)
+
+### CVE-2025-46801 (2025-05-19)
+
+<code>Pgpool-II provided by PgPool Global Development Group contains an authentication bypass by primary weakness vulnerability. if the vulnerability is exploited, an attacker may be able to log in to the system as an arbitrary user, allowing them to read or tamper with data in the database, and/or disable the database.
+</code>
+
+- [korden-c/CVE-2025-46801](https://github.com/korden-c/CVE-2025-46801)
+
+### CVE-2025-46822 (2025-05-21)
+
+<code>OsamaTaher/Java-springboot-codebase is a collection of Java and Spring Boot code snippets, applications, and projects. Prior to commit c835c6f7799eacada4c0fc77e0816f250af01ad2, insufficient path traversal mechanisms make absolute path traversal possible. This vulnerability allows unauthorized access to sensitive internal files. Commit c835c6f7799eacada4c0fc77e0816f250af01ad2 contains a patch for the issue.
+</code>
+
+- [d3sca/-CVE-2025-46822-](https://github.com/d3sca/-CVE-2025-46822-)
+- [d3sca/CVE-2025-46822](https://github.com/d3sca/CVE-2025-46822)
 
 ### CVE-2025-47226 (2025-05-02)
 
@@ -3151,6 +3184,7 @@
 </code>
 
 - [Wh1t3Fox/CVE-2024-3661](https://github.com/Wh1t3Fox/CVE-2024-3661)
+- [Roundthe-clock/CVE-2024-3661VPN](https://github.com/Roundthe-clock/CVE-2024-3661VPN)
 
 ### CVE-2024-3673 (2024-08-30)
 
@@ -20215,7 +20249,6 @@
 </code>
 
 - [TrixSec/CVE-2023-48795](https://github.com/TrixSec/CVE-2023-48795)
-- [Eros-Adrian-Figueroa-Cortes/CVE-2023-48795-](https://github.com/Eros-Adrian-Figueroa-Cortes/CVE-2023-48795-)
 - [Eros-Adrian-Figueroa-Cortes/CVE-2023-48795](https://github.com/Eros-Adrian-Figueroa-Cortes/CVE-2023-48795)
 
 ### CVE-2023-48842 (2023-12-01)
@@ -48331,7 +48364,6 @@
 - [Xhendos/CVE-2017-5638](https://github.com/Xhendos/CVE-2017-5638)
 - [TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner](https://github.com/TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner)
 - [invisiblethreat/strutser](https://github.com/invisiblethreat/strutser)
-- [lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638)
 - [c002/Apache-Struts](https://github.com/c002/Apache-Struts)
 - [donaldashdown/Common-Vulnerability-and-Exploit](https://github.com/donaldashdown/Common-Vulnerability-and-Exploit)
 - [sighup1/cybersecurity-struts2](https://github.com/sighup1/cybersecurity-struts2)
@@ -50851,6 +50883,14 @@
 </code>
 
 - [shanika04/dashbuilder](https://github.com/shanika04/dashbuilder)
+
+### CVE-2016-5180 (2016-10-03)
+
+<code>Heap-based buffer overflow in the ares_create_query function in c-ares 1.x before 1.12.0 allows remote attackers to cause a denial of service (out-of-bounds write) or possibly execute arbitrary code via a hostname with an escaped trailing dot.
+</code>
+
+- [pouriam23/CVE-2016-5180](https://github.com/pouriam23/CVE-2016-5180)
+- [pouriam23/CVE-2016-5180-docker-](https://github.com/pouriam23/CVE-2016-5180-docker-)
 
 ### CVE-2016-5195 (2016-11-10)
 
@@ -53717,6 +53757,7 @@
 </code>
 
 - [fin3ss3g0d/CosmicRakp](https://github.com/fin3ss3g0d/CosmicRakp)
+- [tallperennial/CosmicRakp](https://github.com/tallperennial/CosmicRakp)
 
 ### CVE-2013-5065 (2013-11-27)
 
