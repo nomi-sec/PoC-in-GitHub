@@ -27,6 +27,13 @@
 - [sohaibeb/CVE-2025-0108](https://github.com/sohaibeb/CVE-2025-0108)
 - [becrevex/CVE-2025-0108](https://github.com/becrevex/CVE-2025-0108)
 
+### CVE-2025-0133 (2025-05-14)
+
+<code>A reflected cross-site scripting (XSS) vulnerability in the GlobalProtect™ gateway and portal features of Palo Alto Networks PAN-OS® software enables execution of malicious JavaScript in the context of an authenticated Captive Portal user's browser when they click on a specially crafted link. The primary risk is phishing attacks that can lead to credential theft—particularly if you enabled Clientless VPN.\n\nThere is no availability impact to GlobalProtect features or GlobalProtect users. Attackers cannot use this vulnerability to tamper with or modify contents or configurations of the GlobalProtect portal or gateways. The integrity impact of this vulnerability is limited to enabling an attacker to create phishing and credential-stealing links that appear to be hosted on the GlobalProtect portal.\n\n\n\nFor GlobalProtect users with Clientless VPN enabled, there is a limited impact on confidentiality due to inherent risks of Clientless VPN that facilitate credential theft. You can read more about this risk in the informational bulletin  PAN-SA-2025-0005 https://security.paloaltonetworks.com/PAN-SA-2025-0005   https://security.paloaltonetworks.com/PAN-SA-2025-0005 . There is no impact to confidentiality for GlobalProtect users if you did not enable (or you disable) Clientless VPN.
+</code>
+
+- [dodiorne/cve-2025-0133](https://github.com/dodiorne/cve-2025-0133)
+
 ### CVE-2025-0282 (2025-01-08)
 
 <code>A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2, and Ivanti Neurons for ZTA gateways before version 22.7R2.3 allows a remote unauthenticated attacker to achieve remote code execution.
@@ -441,6 +448,7 @@
 </code>
 
 - [NightBloodz/CVE-2025-4123](https://github.com/NightBloodz/CVE-2025-4123)
+- [kk12-30/CVE-2025-4123](https://github.com/kk12-30/CVE-2025-4123)
 
 ### CVE-2025-4190 (2025-05-17)
 
@@ -458,6 +466,9 @@
 - [IndominusRexes/CVE-2025-4322-Exploit](https://github.com/IndominusRexes/CVE-2025-4322-Exploit)
 - [maximo896/CVE-2025-4322](https://github.com/maximo896/CVE-2025-4322)
 - [Yucaerin/CVE-2025-4322](https://github.com/Yucaerin/CVE-2025-4322)
+
+### CVE-2025-4336
+- [d0n601/CVE-2025-4336](https://github.com/d0n601/CVE-2025-4336)
 
 ### CVE-2025-4403 (2025-05-09)
 
@@ -486,6 +497,12 @@
 </code>
 
 - [ptrstr/CVE-2025-4524](https://github.com/ptrstr/CVE-2025-4524)
+
+### CVE-2025-4602
+- [d0n601/CVE-2025-4602](https://github.com/d0n601/CVE-2025-4602)
+
+### CVE-2025-4603
+- [d0n601/CVE-2025-4603](https://github.com/d0n601/CVE-2025-4603)
 
 ### CVE-2025-4611 (2025-05-21)
 
@@ -519,6 +536,9 @@
 </code>
 
 - [HExploited/CVE-2025-4919-Exploit](https://github.com/HExploited/CVE-2025-4919-Exploit)
+
+### CVE-2025-5058
+- [d0n601/CVE-2025-5058](https://github.com/d0n601/CVE-2025-5058)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -1678,6 +1698,13 @@
 
 - [natasaka/CVE-2025-30349](https://github.com/natasaka/CVE-2025-30349)
 
+### CVE-2025-30400 (2025-05-13)
+
+<code>Use after free in Windows DWM allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [encrypter15/CVE-2025-30400](https://github.com/encrypter15/CVE-2025-30400)
+
 ### CVE-2025-30406 (2025-04-03)
 
 <code>Gladinet CentreStack through 16.1.10296.56315 (fixed in 16.4.10315.56368) has a deserialization vulnerability due to the CentreStack portal's hardcoded machineKey use, as exploited in the wild in March 2025. This enables threat actors (who know the machineKey) to serialize a payload for server-side deserialization to achieve remote code execution. NOTE: a CentreStack admin can manually delete the machineKey defined in portal\web.config.
@@ -1986,7 +2013,7 @@
 
 ### CVE-2025-34028 (2025-04-22)
 
-<code>The Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files that represent install packages that, when expanded by the target server, are vulnerable to path traversal vulnerability that can result in Remote Code Execution via malicious JSP.\n\n\n\n\n\nThis issue affects Command Center Innovation Release: 11.38.
+<code>The Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files that represent install packages that, when expanded by the target server, are vulnerable to path traversal vulnerability that can result in Remote Code Execution via malicious JSP.\n\n\n\n\n\nThis issue affects Command Center Innovation Release: 11.38.0 to 11.38.20. The vulnerability is fixed in 11.38.20 with SP38-CU20-433 and SP38-CU20-436 and also fixed in 11.38.25 with SP38-CU25-434 and SP38-CU25-438.
 </code>
 
 - [watchtowrlabs/watchTowr-vs-Commvault-PreAuth-RCE-CVE-2025-34028](https://github.com/watchtowrlabs/watchTowr-vs-Commvault-PreAuth-RCE-CVE-2025-34028)
@@ -2154,6 +2181,13 @@
 - [d3sca/-CVE-2025-46822-](https://github.com/d3sca/-CVE-2025-46822-)
 - [d3sca/CVE-2025-46822](https://github.com/d3sca/CVE-2025-46822)
 
+### CVE-2025-47181 (2025-05-22)
+
+<code>Improper link resolution before file access ('link following') in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [encrypter15/CVE-2025-47181](https://github.com/encrypter15/CVE-2025-47181)
+
 ### CVE-2025-47226 (2025-05-02)
 
 <code>Grokability Snipe-IT before 8.1.0 has incorrect authorization for accessing asset information.
@@ -2175,7 +2209,11 @@
 
 - [Haluka92/CVE-2025-47423](https://github.com/Haluka92/CVE-2025-47423)
 
-### CVE-2025-47539
+### CVE-2025-47539 (2025-05-23)
+
+<code>Incorrect Privilege Assignment vulnerability in Themewinter Eventin allows Privilege Escalation. This issue affects Eventin: from n/a through 4.0.26.
+</code>
+
 - [Nxploited/CVE-2025-47539](https://github.com/Nxploited/CVE-2025-47539)
 
 ### CVE-2025-47549 (2025-05-07)
@@ -2192,7 +2230,11 @@
 
 - [d0n601/CVE-2025-47550](https://github.com/d0n601/CVE-2025-47550)
 
-### CVE-2025-47646
+### CVE-2025-47646 (2025-05-23)
+
+<code>Weak Password Recovery Mechanism for Forgotten Password vulnerability in Gilblas Ngunte Possi PSW Front-end Login &amp;amp; Registration allows Password Recovery Exploitation. This issue affects PSW Front-end Login &amp;amp; Registration: from n/a through 1.13.
+</code>
+
 - [Nxploited/CVE-2025-47646](https://github.com/Nxploited/CVE-2025-47646)
 - [RootHarpy/CVE-2025-47646](https://github.com/RootHarpy/CVE-2025-47646)
 
@@ -5150,7 +5192,7 @@
 <code>The Dynamics 365 Integration plugin for WordPress is vulnerable to Remote Code Execution and Arbitrary File Read in all versions up to, and including, 1.3.23 via Twig Server-Side Template Injection. This is due to missing input validation and sanitization on the render function. This makes it possible for authenticated attackers, with Contributor-level access and above, to execute code on the server.
 </code>
 
-- [pouriam23/CVE-2024-12583-](https://github.com/pouriam23/CVE-2024-12583-)
+- [pouriam23/CVE-2024-12583](https://github.com/pouriam23/CVE-2024-12583)
 
 ### CVE-2024-12594 (2024-12-24)
 
@@ -28749,6 +28791,7 @@
 - [Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-](https://github.com/Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-)
 - [shishirpandey18/CVE-2021-3156](https://github.com/shishirpandey18/CVE-2021-3156)
 - [duongdz96/CVE-2021-3156-main](https://github.com/duongdz96/CVE-2021-3156-main)
+- [Shuhaib88/Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156](https://github.com/Shuhaib88/Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -29052,7 +29095,6 @@
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
-- [ashutoshrohilla/CVE-2021-4034](https://github.com/ashutoshrohilla/CVE-2021-4034)
 - [nikip72/CVE-2021-4034](https://github.com/nikip72/CVE-2021-4034)
 - [NiS3x/CVE-2021-4034](https://github.com/NiS3x/CVE-2021-4034)
 - [thatstraw/CVE-2021-4034](https://github.com/thatstraw/CVE-2021-4034)
