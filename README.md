@@ -865,6 +865,7 @@
 - [realcodeb0ss/CVE-2025-24799-PoC](https://github.com/realcodeb0ss/CVE-2025-24799-PoC)
 - [MuhammadWaseem29/CVE-2025-24799](https://github.com/MuhammadWaseem29/CVE-2025-24799)
 - [MatheuZSecurity/Exploit-CVE-2025-24799](https://github.com/MatheuZSecurity/Exploit-CVE-2025-24799)
+- [galletitaconpate/CVE-2025-24799](https://github.com/galletitaconpate/CVE-2025-24799)
 
 ### CVE-2025-24801 (2025-03-18)
 
@@ -2112,6 +2113,13 @@
 </code>
 
 - [singetu0096/CVE-2025-46731](https://github.com/singetu0096/CVE-2025-46731)
+
+### CVE-2025-46801 (2025-05-19)
+
+<code>Pgpool-II provided by PgPool Global Development Group contains an authentication bypass by primary weakness vulnerability. if the vulnerability is exploited, an attacker may be able to log in to the system as an arbitrary user, allowing them to read or tamper with data in the database, and/or disable the database.
+</code>
+
+- [xplitter/CVE-2025-46801](https://github.com/xplitter/CVE-2025-46801)
 
 ### CVE-2025-47226 (2025-05-02)
 
@@ -4351,6 +4359,13 @@
 - [p33d/CVE-2024-9441](https://github.com/p33d/CVE-2024-9441)
 - [XiaomingX/cve-2024-9441-poc](https://github.com/XiaomingX/cve-2024-9441-poc)
 - [jk-mayne/CVE-2024-9441-Checker](https://github.com/jk-mayne/CVE-2024-9441-Checker)
+
+### CVE-2024-9463 (2024-10-09)
+
+<code>An OS command injection vulnerability in Palo Alto Networks Expedition allows an unauthenticated attacker to run arbitrary OS commands as root in Expedition, resulting in disclosure of usernames, cleartext passwords, device configurations, and device API keys of PAN-OS firewalls.
+</code>
+
+- [momo1239/CVE-2024-9463-Proof-of-Concept](https://github.com/momo1239/CVE-2024-9463-Proof-of-Concept)
 
 ### CVE-2024-9464 (2024-10-09)
 
@@ -39322,7 +39337,7 @@
 
 ### CVE-2020-27252 (2020-12-14)
 
-<code>Medtronic MyCareLink Smart 25000 all versions are vulnerable to a race condition in the MCL Smart Patient Reader software update system, which allows unsigned firmware to be uploaded and executed on the Patient Reader. If exploited an attacker could remotely execute code on the MCL Smart Patient Reader device, leading to control of the device.
+<code>Medtronic MyCareLink Smart 25000 is \n\nvulnerable to a race condition in the MCL Smart Patient Reader software update system, which allows unsigned firmware to be uploaded and executed on the Patient Reader. If exploited, an attacker could remotely execute code on the MCL Smart Patient Reader device, leading to control of the device.
 </code>
 
 - [OccultSlolem/GatorMed](https://github.com/OccultSlolem/GatorMed)
