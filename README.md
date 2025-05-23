@@ -1539,7 +1539,7 @@
 - [kOaDT/poc-cve-2025-29927](https://github.com/kOaDT/poc-cve-2025-29927)
 - [yugo-eliatrope/test-cve-2025-29927](https://github.com/yugo-eliatrope/test-cve-2025-29927)
 - [emadshanab/CVE-2025-29927](https://github.com/emadshanab/CVE-2025-29927)
-- [hyperledger-web3j/CVE-2025-29927](https://github.com/hyperledger-web3j/CVE-2025-29927)
+- [w3shi/CVE-2025-29927](https://github.com/w3shi/CVE-2025-29927)
 - [aleongx/CVE-2025-29927](https://github.com/aleongx/CVE-2025-29927)
 - [nicknisi/next-attack](https://github.com/nicknisi/next-attack)
 - [jmbowes/NextSecureScan](https://github.com/jmbowes/NextSecureScan)
@@ -2014,6 +2014,13 @@
 
 - [hacefresko/CVE-2025-40634](https://github.com/hacefresko/CVE-2025-40634)
 
+### CVE-2025-40775 (2025-05-21)
+
+<code>When an incoming DNS protocol message includes a Transaction Signature (TSIG), BIND always checks it.  If the TSIG contains an invalid value in the algorithm field, BIND immediately aborts with an assertion failure.\nThis issue affects BIND 9 versions 9.20.0 through 9.20.8 and 9.21.0 through 9.21.7.
+</code>
+
+- [AlexSvobo/nhi-zero-trust-bypass](https://github.com/AlexSvobo/nhi-zero-trust-bypass)
+
 ### CVE-2025-43864 (2025-04-25)
 
 <code>React Router is a router for React. Starting in version 7.2.0 and prior to version 7.5.2, it is possible to force an application to switch to SPA mode by adding a header to the request. If the application uses SSR and is forced to switch to SPA, this causes an error that completely corrupts the page. If a cache system is in place, this allows the response containing the error to be cached, resulting in a cache poisoning that strongly impacts the availability of the application. This issue has been patched in version 7.5.2.
@@ -2113,13 +2120,6 @@
 </code>
 
 - [singetu0096/CVE-2025-46731](https://github.com/singetu0096/CVE-2025-46731)
-
-### CVE-2025-46801 (2025-05-19)
-
-<code>Pgpool-II provided by PgPool Global Development Group contains an authentication bypass by primary weakness vulnerability. if the vulnerability is exploited, an attacker may be able to log in to the system as an arbitrary user, allowing them to read or tamper with data in the database, and/or disable the database.
-</code>
-
-- [xplitter/CVE-2025-46801](https://github.com/xplitter/CVE-2025-46801)
 
 ### CVE-2025-47226 (2025-05-02)
 
@@ -18683,7 +18683,7 @@
 <code>The issue was addressed with improved checks. This issue is fixed in macOS Monterey 12.7, iOS 16.7 and iPadOS 16.7, macOS Ventura 13.6. A local attacker may be able to elevate their privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.
 </code>
 
-- [karzanWang/CVE-2023-41992](https://github.com/karzanWang/CVE-2023-41992)
+- [WHW0x455/CVE-2023-41992](https://github.com/WHW0x455/CVE-2023-41992)
 
 ### CVE-2023-41993 (2023-09-21)
 
@@ -20215,6 +20215,8 @@
 </code>
 
 - [TrixSec/CVE-2023-48795](https://github.com/TrixSec/CVE-2023-48795)
+- [Eros-Adrian-Figueroa-Cortes/CVE-2023-48795-](https://github.com/Eros-Adrian-Figueroa-Cortes/CVE-2023-48795-)
+- [Eros-Adrian-Figueroa-Cortes/CVE-2023-48795](https://github.com/Eros-Adrian-Figueroa-Cortes/CVE-2023-48795)
 
 ### CVE-2023-48842 (2023-12-01)
 
@@ -49030,7 +49032,6 @@
 - [oldboysonnt/dp](https://github.com/oldboysonnt/dp)
 - [blacklanternsecurity/dp_cryptomg](https://github.com/blacklanternsecurity/dp_cryptomg)
 - [cehamod/UI_CVE-2017-9248](https://github.com/cehamod/UI_CVE-2017-9248)
-- [hlong12042/CVE-2017-9248](https://github.com/hlong12042/CVE-2017-9248)
 
 ### CVE-2017-9417 (2017-06-03)
 
@@ -49331,7 +49332,6 @@
 - [bao7uo/RAU_crypto](https://github.com/bao7uo/RAU_crypto)
 - [KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut](https://github.com/KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut)
 - [KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation](https://github.com/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation)
-- [hlong12042/CVE-2017-11317-and-CVE-2017-11357-in-Telerik](https://github.com/hlong12042/CVE-2017-11317-and-CVE-2017-11357-in-Telerik)
 
 ### CVE-2017-11366 (2017-08-21)
 
