@@ -73,7 +73,7 @@
 - [dhmosfunk/7-Zip-CVE-2025-0411-POC](https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC)
 - [iSee857/CVE-2025-0411-PoC](https://github.com/iSee857/CVE-2025-0411-PoC)
 - [ishwardeepp/CVE-2025-0411-MoTW-PoC](https://github.com/ishwardeepp/CVE-2025-0411-MoTW-PoC)
-- [cesarbtakeda/7-Zip-CVE-2025-0411-POC](https://github.com/cesarbtakeda/7-Zip-CVE-2025-0411-POC)
+- [Cesar-http/7-Zip-CVE-2025-0411-POC](https://github.com/Cesar-http/7-Zip-CVE-2025-0411-POC)
 - [dpextreme/7-Zip-CVE-2025-0411-POC](https://github.com/dpextreme/7-Zip-CVE-2025-0411-POC)
 - [betulssahin/CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass](https://github.com/betulssahin/CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass)
 
@@ -795,7 +795,7 @@
 - [ThemeHackers/CVE-2025-24071](https://github.com/ThemeHackers/CVE-2025-24071)
 - [rubbxalc/CVE-2025-24071](https://github.com/rubbxalc/CVE-2025-24071)
 - [Marcejr117/CVE-2025-24071_PoC](https://github.com/Marcejr117/CVE-2025-24071_PoC)
-- [cesarbtakeda/Windows-Explorer-CVE-2025-24071](https://github.com/cesarbtakeda/Windows-Explorer-CVE-2025-24071)
+- [Cesar-http/Windows-Explorer-CVE-2025-24071](https://github.com/Cesar-http/Windows-Explorer-CVE-2025-24071)
 - [pswalia2u/CVE-2025-24071_POC](https://github.com/pswalia2u/CVE-2025-24071_POC)
 
 ### CVE-2025-24085 (2025-01-27)
@@ -1795,6 +1795,7 @@
 - [SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825](https://github.com/SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825)
 - [SUPRAAA-1337/CVE-2025-31161_exploit](https://github.com/SUPRAAA-1337/CVE-2025-31161_exploit)
 - [ibrahimsql/CVE-2025-31161](https://github.com/ibrahimsql/CVE-2025-31161)
+- [0xgh057r3c0n/CVE-2025-31161](https://github.com/0xgh057r3c0n/CVE-2025-31161)
 
 ### CVE-2025-31200 (2025-04-16)
 
@@ -2124,7 +2125,11 @@
 - [Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
 - [Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
 
-### CVE-2025-44998
+### CVE-2025-44998 (2025-05-23)
+
+<code>A stored cross-site scripting (XSS) vulnerability in the component /tinyfilemanager.php of TinyFileManager v2.4.7 allows attackers to execute arbitrary JavaScript or HTML via injecting a crafted payload into the js-theme-3 parameter.
+</code>
+
 - [l8BL/CVE-2025-44998](https://github.com/l8BL/CVE-2025-44998)
 
 ### CVE-2025-45250 (2025-05-06)
@@ -9070,7 +9075,7 @@
 
 ### CVE-2024-38998
 - [z3ldr1/PP_CVE-2024-38998](https://github.com/z3ldr1/PP_CVE-2024-38998)
-- [cesarbtakeda/PP_CVE-2024-38998](https://github.com/cesarbtakeda/PP_CVE-2024-38998)
+- [Cesar-http/PP_CVE-2024-38998](https://github.com/Cesar-http/PP_CVE-2024-38998)
 
 ### CVE-2024-39031 (2024-07-09)
 
@@ -23373,6 +23378,7 @@
 - [twseptian/cve-2022-24112](https://github.com/twseptian/cve-2022-24112)
 - [Acczdy/CVE-2022-24112_POC](https://github.com/Acczdy/CVE-2022-24112_POC)
 - [btar1gan/exploit_CVE-2022-24112](https://github.com/btar1gan/exploit_CVE-2022-24112)
+- [fatkz/CVE-2022-24112](https://github.com/fatkz/CVE-2022-24112)
 
 ### CVE-2022-24122 (2022-01-29)
 
@@ -42741,6 +42747,7 @@
 
 - [gleaming0/CVE-2019-13288](https://github.com/gleaming0/CVE-2019-13288)
 - [Fineas/CVE-2019-13288-POC](https://github.com/Fineas/CVE-2019-13288-POC)
+- [WildWestCyberSecurity/CVE-2019-13288](https://github.com/WildWestCyberSecurity/CVE-2019-13288)
 
 ### CVE-2019-13292 (2019-07-04)
 
@@ -44202,6 +44209,7 @@
 </code>
 
 - [Ickarah/CVE-2019-25137-Version-Research](https://github.com/Ickarah/CVE-2019-25137-Version-Research)
+- [dact91/CVE-2019-25137-RCE](https://github.com/dact91/CVE-2019-25137-RCE)
 
 ### CVE-2019-25162 (2024-02-26)
 
