@@ -995,6 +995,13 @@
 
 - [airbus-cert/cve-2025-24985](https://github.com/airbus-cert/cve-2025-24985)
 
+### CVE-2025-25014 (2025-05-06)
+
+<code>A Prototype pollution vulnerability in Kibana leads to arbitrary code execution via crafted HTTP requests to machine learning and reporting endpoints.
+</code>
+
+- [davidxbors/CVE-2025-25014](https://github.com/davidxbors/CVE-2025-25014)
+
 ### CVE-2025-25062 (2025-02-03)
 
 <code>An XSS issue was discovered in Backdrop CMS 1.28.x before 1.28.5 and 1.29.x before 1.29.3. It doesn't sufficiently isolate long text content when the CKEditor 5 rich text editor is used. This allows a potential attacker to craft specialized HTML and JavaScript that may be executed when an administrator attempts to edit a piece of content. This vulnerability is mitigated by the fact that an attacker must have the ability to create long text content (such as through the node or comment forms) and an administrator must edit (not view) the content that contains the malicious content. This problem only exists when using the CKEditor 5 module.
@@ -1590,7 +1597,7 @@
 - [kOaDT/poc-cve-2025-29927](https://github.com/kOaDT/poc-cve-2025-29927)
 - [yugo-eliatrope/test-cve-2025-29927](https://github.com/yugo-eliatrope/test-cve-2025-29927)
 - [emadshanab/CVE-2025-29927](https://github.com/emadshanab/CVE-2025-29927)
-- [w3shi/CVE-2025-29927](https://github.com/w3shi/CVE-2025-29927)
+- [hyperledger-web3j/CVE-2025-29927](https://github.com/hyperledger-web3j/CVE-2025-29927)
 - [aleongx/CVE-2025-29927](https://github.com/aleongx/CVE-2025-29927)
 - [nicknisi/next-attack](https://github.com/nicknisi/next-attack)
 - [jmbowes/NextSecureScan](https://github.com/jmbowes/NextSecureScan)
@@ -20816,6 +20823,7 @@
 - [Mrterrestrial/CVE-2023-50564](https://github.com/Mrterrestrial/CVE-2023-50564)
 - [0xDTC/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564](https://github.com/0xDTC/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564)
 - [xpltive/CVE-2023-50564](https://github.com/xpltive/CVE-2023-50564)
+- [glynzr/CVE-2023-50564](https://github.com/glynzr/CVE-2023-50564)
 
 ### CVE-2023-50596
 - [chandraprarikraj/CVE-2023-50596](https://github.com/chandraprarikraj/CVE-2023-50596)
@@ -50957,6 +50965,7 @@
 
 - [pouriam23/CVE-2016-5180](https://github.com/pouriam23/CVE-2016-5180)
 - [pouriam23/CVE-2016-5180-docker-](https://github.com/pouriam23/CVE-2016-5180-docker-)
+- [pouriam23/final-CVE-2016-5180](https://github.com/pouriam23/final-CVE-2016-5180)
 
 ### CVE-2016-5195 (2016-11-10)
 
