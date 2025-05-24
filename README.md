@@ -467,7 +467,11 @@
 - [maximo896/CVE-2025-4322](https://github.com/maximo896/CVE-2025-4322)
 - [Yucaerin/CVE-2025-4322](https://github.com/Yucaerin/CVE-2025-4322)
 
-### CVE-2025-4336
+### CVE-2025-4336 (2025-05-24)
+
+<code>The eMagicOne Store Manager for WooCommerce plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the set_file() function in all versions up to, and including, 1.2.5. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible. This is only exploitable by unauthenticated attackers in default configurations where the the default password is left as 1:1, or where the attacker gains access to the credentials.
+</code>
+
 - [d0n601/CVE-2025-4336](https://github.com/d0n601/CVE-2025-4336)
 
 ### CVE-2025-4403 (2025-05-09)
@@ -498,10 +502,18 @@
 
 - [ptrstr/CVE-2025-4524](https://github.com/ptrstr/CVE-2025-4524)
 
-### CVE-2025-4602
+### CVE-2025-4602 (2025-05-24)
+
+<code>The eMagicOne Store Manager for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Reads in all versions up to, and including, 1.2.5 via the get_file() function. This makes it possible for unauthenticated attackers to read the contents of arbitrary files on the server, which can contain sensitive information. This is only exploitable by unauthenticated attackers in default configurations where the the default password is left as 1:1, or where the attacker gains access to the credentials.
+</code>
+
 - [d0n601/CVE-2025-4602](https://github.com/d0n601/CVE-2025-4602)
 
-### CVE-2025-4603
+### CVE-2025-4603 (2025-05-24)
+
+<code>The eMagicOne Store Manager for WooCommerce plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the delete_file() function in all versions up to, and including, 1.2.5. This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). This is only exploitable by unauthenticated attackers in default configurations where the the default password is left as 1:1, or where the attacker gains access to the credentials.
+</code>
+
 - [d0n601/CVE-2025-4603](https://github.com/d0n601/CVE-2025-4603)
 
 ### CVE-2025-4611 (2025-05-21)
@@ -537,7 +549,11 @@
 
 - [HExploited/CVE-2025-4919-Exploit](https://github.com/HExploited/CVE-2025-4919-Exploit)
 
-### CVE-2025-5058
+### CVE-2025-5058 (2025-05-24)
+
+<code>The eMagicOne Store Manager for WooCommerce plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the set_image() function in all versions up to, and including, 1.2.5. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible. This is only exploitable by unauthenticated attackers in default configurations where the the default password is left as 1:1, or where the attacker gains access to the credentials.
+</code>
+
 - [d0n601/CVE-2025-5058](https://github.com/d0n601/CVE-2025-5058)
 
 ### CVE-2025-20029 (2025-02-05)
@@ -41812,8 +41828,7 @@
 
 - [rek7/Zimbra-RCE](https://github.com/rek7/Zimbra-RCE)
 - [attackgithub/Zimbra-RCE](https://github.com/attackgithub/Zimbra-RCE)
-- [000pp/arbimz](https://github.com/000pp/arbimz)
-- [000pp/zaber](https://github.com/000pp/zaber)
+- [Phuong39/zaber](https://github.com/Phuong39/zaber)
 - [Cappricio-Securities/CVE-2019-9670](https://github.com/Cappricio-Securities/CVE-2019-9670)
 - [OracleNep/CVE-2019-9670-DtdFilegeneration](https://github.com/OracleNep/CVE-2019-9670-DtdFilegeneration)
 
