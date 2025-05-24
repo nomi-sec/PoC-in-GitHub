@@ -278,6 +278,7 @@
 - [rhz0d/CVE-2025-2294](https://github.com/rhz0d/CVE-2025-2294)
 - [romanedutov/CVE-2025-2294](https://github.com/romanedutov/CVE-2025-2294)
 - [Yucaerin/CVE-2025-2294](https://github.com/Yucaerin/CVE-2025-2294)
+- [0xWhoami35/CVE-2025-2294](https://github.com/0xWhoami35/CVE-2025-2294)
 
 ### CVE-2025-2301
 - [sahici/CVE-2025-2301](https://github.com/sahici/CVE-2025-2301)
