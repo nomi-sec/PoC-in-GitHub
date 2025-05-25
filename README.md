@@ -84,6 +84,13 @@
 
 - [skrkcb2/CVE-2025-0851](https://github.com/skrkcb2/CVE-2025-0851)
 
+### CVE-2025-0868 (2025-02-20)
+
+<code>A vulnerability, that could result in Remote Code Execution (RCE), has been found in DocsGPT. Due to improper parsing of JSON data using eval() an unauthorized attacker could send arbitrary Python code to be executed via /api/remote endpoint.\n\nThis issue affects DocsGPT: from 0.8.1 through 0.12.0.
+</code>
+
+- [aidana-gift/CVE-2025-0868](https://github.com/aidana-gift/CVE-2025-0868)
+
 ### CVE-2025-0924 (2025-02-17)
 
 <code>The WP Activity Log plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘message’ parameter in all versions up to, and including, 5.2.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
@@ -524,6 +531,13 @@
 
 - [x6vrn/CVE-2025-4611-PoC](https://github.com/x6vrn/CVE-2025-4611-PoC)
 
+### CVE-2025-4664 (2025-05-14)
+
+<code>Insufficient policy enforcement in Loader in Google Chrome prior to 136.0.7103.113 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [korden-c/CVE-2025-4664](https://github.com/korden-c/CVE-2025-4664)
+
 ### CVE-2025-4686
 - [sahici/CVE-2025-4686](https://github.com/sahici/CVE-2025-4686)
 
@@ -862,6 +876,7 @@
 - [BlueDiamond2021/iOS-CVE-2025-24203-Paths](https://github.com/BlueDiamond2021/iOS-CVE-2025-24203-Paths)
 - [Ravibr87/dirtyZero](https://github.com/Ravibr87/dirtyZero)
 - [GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging](https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging)
+- [pxx917144686/iDevice_ZH](https://github.com/pxx917144686/iDevice_ZH)
 
 ### CVE-2025-24252 (2025-04-29)
 
@@ -965,6 +980,7 @@
 - [Eduardo-hardvester/CVE-2025-24813](https://github.com/Eduardo-hardvester/CVE-2025-24813)
 - [fatkz/CVE-2025-24813](https://github.com/fatkz/CVE-2025-24813)
 - [maliqto/PoC-CVE-2025-24813](https://github.com/maliqto/PoC-CVE-2025-24813)
+- [mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-](https://github.com/mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -2046,13 +2062,6 @@
 - [becrevex/Commvault-CVE-2025-34028](https://github.com/becrevex/Commvault-CVE-2025-34028)
 - [Mattb709/CVE-2025-34028-PoC-Commvault-RCE](https://github.com/Mattb709/CVE-2025-34028-PoC-Commvault-RCE)
 
-### CVE-2025-36535 (2025-05-21)
-
-<code>The embedded web server lacks authentication and access controls, allowing unrestricted remote access. This could lead to configuration changes, operational disruption, or arbitrary code execution depending on the environment and exposed functionality.
-</code>
-
-- [korden-c/CVE-2025-36535](https://github.com/korden-c/CVE-2025-36535)
-
 ### CVE-2025-37899 (2025-05-20)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix use-after-free in session logoff\n\nThe sess-&gt;user object can currently be in use by another thread, for\nexample if another connection has sent a session setup request to\nbind to the session being free'd. The handler for that connection could\nbe in the smb2_sess_setup function which makes use of sess-&gt;user.
@@ -2278,6 +2287,13 @@
 
 ### CVE-2025-47827
 - [Zedeldi/CVE-2025-47827](https://github.com/Zedeldi/CVE-2025-47827)
+
+### CVE-2025-48708 (2025-05-23)
+
+<code>gs_lib_ctx_stash_sanitized_arg in base/gslibctx.c in Artifex Ghostscript before 10.05.1 lacks argument sanitization for the # case. A created PDF document includes its password in cleartext.
+</code>
+
+- [B1tBreaker/CVE-2025-48708](https://github.com/B1tBreaker/CVE-2025-48708)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -37791,6 +37807,13 @@
 </code>
 
 - [EXP-Docs/CVE-2020-13277](https://github.com/EXP-Docs/CVE-2020-13277)
+
+### CVE-2020-13398 (2020-05-22)
+
+<code>An issue was discovered in FreeRDP before 2.1.1. An out-of-bounds (OOB) write vulnerability has been detected in crypto_rsa_common in libfreerdp/crypto/crypto.c.
+</code>
+
+- [SpiralBL0CK/PoC-crash-CVE-2020-13398-](https://github.com/SpiralBL0CK/PoC-crash-CVE-2020-13398-)
 
 ### CVE-2020-13401 (2020-06-02)
 
