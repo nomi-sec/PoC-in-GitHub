@@ -14759,7 +14759,7 @@
 - [sarsaeroth/CVE-2023-23397-POC](https://github.com/sarsaeroth/CVE-2023-23397-POC)
 - [TheUnknownSoul/CVE-2023-23397-PoW](https://github.com/TheUnknownSoul/CVE-2023-23397-PoW)
 - [Symbolexe/CVE-2023-23397](https://github.com/Symbolexe/CVE-2023-23397)
-- [Agentgilspy/CVE-2023-23397](https://github.com/Agentgilspy/CVE-2023-23397)
+- [Gilospy/CVE-2023-23397](https://github.com/Gilospy/CVE-2023-23397)
 
 ### CVE-2023-23488 (2023-01-20)
 
@@ -24040,7 +24040,7 @@
 - [xsxtw/CVE-2022-26134](https://github.com/xsxtw/CVE-2022-26134)
 - [BBD-YZZ/Confluence-RCE](https://github.com/BBD-YZZ/Confluence-RCE)
 - [cc3305/CVE-2022-26134](https://github.com/cc3305/CVE-2022-26134)
-- [Agentgilspy/CVE-2022-26134](https://github.com/Agentgilspy/CVE-2022-26134)
+- [Gilospy/CVE-2022-26134](https://github.com/Gilospy/CVE-2022-26134)
 - [XiaomingX/cve-2022-26134-poc](https://github.com/XiaomingX/cve-2022-26134-poc)
 - [Khalidhaimur/CVE-2022-26134](https://github.com/Khalidhaimur/CVE-2022-26134)
 - [user20252228/cve-2022-26134](https://github.com/user20252228/cve-2022-26134)
