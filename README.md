@@ -2046,6 +2046,13 @@
 - [becrevex/Commvault-CVE-2025-34028](https://github.com/becrevex/Commvault-CVE-2025-34028)
 - [Mattb709/CVE-2025-34028-PoC-Commvault-RCE](https://github.com/Mattb709/CVE-2025-34028-PoC-Commvault-RCE)
 
+### CVE-2025-36535 (2025-05-21)
+
+<code>The embedded web server lacks authentication and access controls, allowing unrestricted remote access. This could lead to configuration changes, operational disruption, or arbitrary code execution depending on the environment and exposed functionality.
+</code>
+
+- [korden-c/CVE-2025-36535](https://github.com/korden-c/CVE-2025-36535)
+
 ### CVE-2025-37899 (2025-05-20)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix use-after-free in session logoff\n\nThe sess-&gt;user object can currently be in use by another thread, for\nexample if another connection has sent a session setup request to\nbind to the session being free'd. The handler for that connection could\nbe in the smb2_sess_setup function which makes use of sess-&gt;user.
@@ -2207,7 +2214,6 @@
 <code>OsamaTaher/Java-springboot-codebase is a collection of Java and Spring Boot code snippets, applications, and projects. Prior to commit c835c6f7799eacada4c0fc77e0816f250af01ad2, insufficient path traversal mechanisms make absolute path traversal possible. This vulnerability allows unauthorized access to sensitive internal files. Commit c835c6f7799eacada4c0fc77e0816f250af01ad2 contains a patch for the issue.
 </code>
 
-- [d3sca/-CVE-2025-46822-](https://github.com/d3sca/-CVE-2025-46822-)
 - [d3sca/CVE-2025-46822](https://github.com/d3sca/CVE-2025-46822)
 
 ### CVE-2025-47181 (2025-05-22)
@@ -14148,6 +14154,7 @@
 - [pwnipc/BadParcel](https://github.com/pwnipc/BadParcel)
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20963](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20963)
 - [Ailenchick/CVE-2023-20963](https://github.com/Ailenchick/CVE-2023-20963)
+- [black7024/BadParcel](https://github.com/black7024/BadParcel)
 
 ### CVE-2023-21036 (2023-03-24)
 
@@ -19776,13 +19783,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2023-46197](https://github.com/RandomRobbieBF/CVE-2023-46197)
-
-### CVE-2023-46303 (2023-10-22)
-
-<code>link_to_local_path in ebooks/conversion/plugins/html_input.py in calibre before 6.19.0 can, by default, add resources outside of the document root.
-</code>
-
-- [0x1717/ssrf-via-img](https://github.com/0x1717/ssrf-via-img)
 
 ### CVE-2023-46304 (2024-04-30)
 
@@ -29127,7 +29127,6 @@
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
-- [nikip72/CVE-2021-4034](https://github.com/nikip72/CVE-2021-4034)
 - [NiS3x/CVE-2021-4034](https://github.com/NiS3x/CVE-2021-4034)
 - [thatstraw/CVE-2021-4034](https://github.com/thatstraw/CVE-2021-4034)
 - [luckythandel/CVE-2021-4034](https://github.com/luckythandel/CVE-2021-4034)
@@ -30091,6 +30090,7 @@
 
 - [0vercl0k/CVE-2021-24086](https://github.com/0vercl0k/CVE-2021-24086)
 - [lisinan988/CVE-2021-24086-exp](https://github.com/lisinan988/CVE-2021-24086-exp)
+- [personnumber3377/windows_tcpip_fuzz](https://github.com/personnumber3377/windows_tcpip_fuzz)
 
 ### CVE-2021-24096 (2021-02-25)
 
