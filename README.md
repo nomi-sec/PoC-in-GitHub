@@ -474,6 +474,7 @@
 - [IndominusRexes/CVE-2025-4322-Exploit](https://github.com/IndominusRexes/CVE-2025-4322-Exploit)
 - [maximo896/CVE-2025-4322](https://github.com/maximo896/CVE-2025-4322)
 - [Yucaerin/CVE-2025-4322](https://github.com/Yucaerin/CVE-2025-4322)
+- [darkDev-kirosky/CVE-2025-4322](https://github.com/darkDev-kirosky/CVE-2025-4322)
 
 ### CVE-2025-4336 (2025-05-24)
 
@@ -537,6 +538,7 @@
 </code>
 
 - [korden-c/CVE-2025-4664](https://github.com/korden-c/CVE-2025-4664)
+- [speinador/CVE-2025-4664-](https://github.com/speinador/CVE-2025-4664-)
 
 ### CVE-2025-4686
 - [sahici/CVE-2025-4686](https://github.com/sahici/CVE-2025-4686)
@@ -671,6 +673,7 @@
 - [sfewer-r7/CVE-2025-22457](https://github.com/sfewer-r7/CVE-2025-22457)
 - [securekomodo/CVE-2025-22457](https://github.com/securekomodo/CVE-2025-22457)
 - [llussiess/CVE-2025-22457](https://github.com/llussiess/CVE-2025-22457)
+- [TRone-ux/CVE-2025-22457](https://github.com/TRone-ux/CVE-2025-22457)
 
 ### CVE-2025-22510 (2025-01-09)
 
@@ -2468,6 +2471,7 @@
 - [cbeek-r7/CVE-2024-0204](https://github.com/cbeek-r7/CVE-2024-0204)
 - [m-cetin/CVE-2024-0204](https://github.com/m-cetin/CVE-2024-0204)
 - [adminlove520/CVE-2024-0204](https://github.com/adminlove520/CVE-2024-0204)
+- [ibrahimsql/CVE-2024-0204](https://github.com/ibrahimsql/CVE-2024-0204)
 
 ### CVE-2024-0230 (2024-01-12)
 
@@ -9653,6 +9657,7 @@
 </code>
 
 - [victoni/Roundcube-CVE-2024-42008-and-CVE-2024-42010-POC](https://github.com/victoni/Roundcube-CVE-2024-42008-and-CVE-2024-42010-POC)
+- [Foxer131/CVE-2024-42008-9-exploit](https://github.com/Foxer131/CVE-2024-42008-9-exploit)
 
 ### CVE-2024-42009 (2024-08-05)
 
@@ -37348,6 +37353,13 @@
 </code>
 
 - [dentarg/cougar](https://github.com/dentarg/cougar)
+
+### CVE-2020-11097 (2020-06-22)
+
+<code>In FreeRDP before version 2.1.2, an out of bounds read occurs resulting in accessing a memory location that is outside of the boundaries of the static array PRIMARY_DRAWING_ORDER_FIELD_BYTES. This is fixed in version 2.1.2.
+</code>
+
+- [SpiralBL0CK/CVE-2020-11097-POC](https://github.com/SpiralBL0CK/CVE-2020-11097-POC)
 
 ### CVE-2020-11107 (2020-04-02)
 
