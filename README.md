@@ -361,6 +361,13 @@
 - [punitdarji/crushftp-CVE-2025-2825](https://github.com/punitdarji/crushftp-CVE-2025-2825)
 - [ghostsec420/ShatteredFTP](https://github.com/ghostsec420/ShatteredFTP)
 
+### CVE-2025-2907 (2025-04-26)
+
+<code>The Order Delivery Date WordPress plugin before 12.3.1 does not have authorization and CSRF checks when importing settings. Furthermore it also lacks proper checks to only update options relevant to the Order Delivery Date WordPress plugin before 12.3.1. This leads to attackers being able to modify the default_user_role to administrator and users_can_register, allowing them to register as an administrator of the site for complete site takeover.
+</code>
+
+- [Yucaerin/CVE-2025-2907](https://github.com/Yucaerin/CVE-2025-2907)
+
 ### CVE-2025-3047 (2025-03-31)
 
 <code>When running the AWS Serverless Application Model Command Line Interface (SAM CLI) build process with Docker and symlinks are included in the build files, the container environment allows a user to access privileged files on the host by leveraging the elevated permissions granted to the tool. A user could leverage the elevated permissions to access restricted files via symlinks and copy them to a more permissive location on the container. \n\nUsers should upgrade to v1.133.0 or newer and ensure any forked or derivative code is patched to incorporate the new fixes.
@@ -831,6 +838,7 @@
 - [Marcejr117/CVE-2025-24071_PoC](https://github.com/Marcejr117/CVE-2025-24071_PoC)
 - [Cesar-http/Windows-Explorer-CVE-2025-24071](https://github.com/Cesar-http/Windows-Explorer-CVE-2025-24071)
 - [pswalia2u/CVE-2025-24071_POC](https://github.com/pswalia2u/CVE-2025-24071_POC)
+- [f4dee-backup/CVE-2025-24071](https://github.com/f4dee-backup/CVE-2025-24071)
 
 ### CVE-2025-24085 (2025-01-27)
 
@@ -11789,7 +11797,6 @@
 <code>An arbitrary file upload vulnerability in the Image Gallery of ThingsBoard Community, ThingsBoard Cloud and ThingsBoard Professional v3.8.1 allows attackers to execute arbitrary code via uploading a crafted file.
 </code>
 
-- [cybsecsid/ThingsBoard-CVE-2024-55466](https://github.com/cybsecsid/ThingsBoard-CVE-2024-55466)
 - [cybsecsid/ThingsBoard-IoT-Platform-CVE-2024-55466](https://github.com/cybsecsid/ThingsBoard-IoT-Platform-CVE-2024-55466)
 
 ### CVE-2024-55503 (2025-01-15)
