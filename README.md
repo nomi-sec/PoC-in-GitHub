@@ -819,7 +819,7 @@
 </code>
 
 - [xigney/CVE-2025-24054_PoC](https://github.com/xigney/CVE-2025-24054_PoC)
-- [helidem/CVE-2025-24054-PoC](https://github.com/helidem/CVE-2025-24054-PoC)
+- [helidem/CVE-2025-24054_CVE-2025-24071-PoC](https://github.com/helidem/CVE-2025-24054_CVE-2025-24071-PoC)
 - [S4mma3l/CVE-2025-24054](https://github.com/S4mma3l/CVE-2025-24054)
 - [moften/CVE-2025-24054](https://github.com/moften/CVE-2025-24054)
 
@@ -1376,6 +1376,7 @@
 </code>
 
 - [zhuowei/CVE-2025-27363-proof-of-concept](https://github.com/zhuowei/CVE-2025-27363-proof-of-concept)
+- [ov3rf1ow/CVE-2025-27363](https://github.com/ov3rf1ow/CVE-2025-27363)
 
 ### CVE-2025-27533 (2025-05-07)
 
@@ -1676,6 +1677,7 @@
 - [moften/CVE-2025-29927](https://github.com/moften/CVE-2025-29927)
 - [EarthAngel666/x-middleware-exploit](https://github.com/EarthAngel666/x-middleware-exploit)
 - [enochgitgamefied/NextJS-CVE-2025-29927-Docker-Lab](https://github.com/enochgitgamefied/NextJS-CVE-2025-29927-Docker-Lab)
+- [sagsooz/CVE-2025-29927](https://github.com/sagsooz/CVE-2025-29927)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -2190,6 +2192,9 @@
 
 - [xp3s/CVE-2025-45250](https://github.com/xp3s/CVE-2025-45250)
 - [Anike-x/CVE-2025-45250](https://github.com/Anike-x/CVE-2025-45250)
+
+### CVE-2025-46173
+- [pruthuraut/CVE-2025-46173](https://github.com/pruthuraut/CVE-2025-46173)
 
 ### CVE-2025-46271 (2025-04-24)
 
@@ -4519,7 +4524,7 @@
 </code>
 
 - [horizon3ai/CVE-2024-9465](https://github.com/horizon3ai/CVE-2024-9465)
-- [mustafaakalin/CVE-2024-9465](https://github.com/mustafaakalin/CVE-2024-9465)
+- [0gitusername/CVE-2024-9465](https://github.com/0gitusername/CVE-2024-9465)
 - [XiaomingX/cve-2024-9465-poc](https://github.com/XiaomingX/cve-2024-9465-poc)
 
 ### CVE-2024-9466 (2024-10-09)
@@ -11847,6 +11852,7 @@
 - [exfil0/CVE-2024-55591-POC](https://github.com/exfil0/CVE-2024-55591-POC)
 - [rawtips/CVE-2024-55591](https://github.com/rawtips/CVE-2024-55591)
 - [0x7556/CVE-2024-55591](https://github.com/0x7556/CVE-2024-55591)
+- [UMChacker/CVE-2024-55591-POC](https://github.com/UMChacker/CVE-2024-55591-POC)
 
 ### CVE-2024-55875 (2024-12-12)
 
