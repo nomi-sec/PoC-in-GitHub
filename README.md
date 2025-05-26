@@ -546,6 +546,7 @@
 
 - [korden-c/CVE-2025-4664](https://github.com/korden-c/CVE-2025-4664)
 - [speinador/CVE-2025-4664-](https://github.com/speinador/CVE-2025-4664-)
+- [Leviticus-Triage/ChromSploit-Framework](https://github.com/Leviticus-Triage/ChromSploit-Framework)
 
 ### CVE-2025-4686
 - [sahici/CVE-2025-4686](https://github.com/sahici/CVE-2025-4686)
@@ -579,6 +580,13 @@
 </code>
 
 - [d0n601/CVE-2025-5058](https://github.com/d0n601/CVE-2025-5058)
+
+### CVE-2025-5196 (2025-05-26)
+
+<code>In Wing FTP Server bis 7.4.3 wurde eine Schwachstelle gefunden. Sie wurde als kritisch eingestuft. Hierbei betrifft es unbekannten Programmcode der Komponente Lua Admin Console. Mit der Manipulation mit unbekannten Daten kann eine execution with unnecessary privileges-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Die Komplexität eines Angriffs ist eher hoch. Sie gilt als schwierig ausnutzbar. Ein Aktualisieren auf die Version 7.4.4 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [Nouvexr/Wing-FTP-Server-7.4.4-RCE-Authenticated](https://github.com/Nouvexr/Wing-FTP-Server-7.4.4-RCE-Authenticated)
 
 ### CVE-2025-20029 (2025-02-05)
 
