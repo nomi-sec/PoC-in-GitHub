@@ -405,6 +405,7 @@
 - [verylazytech/CVE-2025-3248](https://github.com/verylazytech/CVE-2025-3248)
 - [Praison001/CVE-2025-3248](https://github.com/Praison001/CVE-2025-3248)
 - [vigilante-1337/CVE-2025-3248](https://github.com/vigilante-1337/CVE-2025-3248)
+- [Vip3rLi0n/CVE-2025-3248](https://github.com/Vip3rLi0n/CVE-2025-3248)
 
 ### CVE-2025-3568 (2025-04-14)
 
@@ -434,6 +435,13 @@
 </code>
 
 - [Nxploited/CVE-2025-3776](https://github.com/Nxploited/CVE-2025-3776)
+
+### CVE-2025-3855 (2025-04-22)
+
+<code>Eine Schwachstelle wurde in CodeCanyon RISE Ultimate Project Manager 3.8.2 gefunden. Sie wurde als problematisch eingestuft. Davon betroffen ist unbekannter Code der Datei /index.php/team_members/save_profile_image/ der Komponente Profile Picture Handler. Mit der Manipulation des Arguments profile_image_file mit unbekannten Daten kann eine improper control of resource identifiers-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [L4zyFox/RISE-Ultimate_Project_Manager_e_CRM](https://github.com/L4zyFox/RISE-Ultimate_Project_Manager_e_CRM)
 
 ### CVE-2025-3914 (2025-04-26)
 
@@ -29184,7 +29192,6 @@
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
-- [NiS3x/CVE-2021-4034](https://github.com/NiS3x/CVE-2021-4034)
 - [thatstraw/CVE-2021-4034](https://github.com/thatstraw/CVE-2021-4034)
 - [luckythandel/CVE-2021-4034](https://github.com/luckythandel/CVE-2021-4034)
 - [Plethore/CVE-2021-4034](https://github.com/Plethore/CVE-2021-4034)
@@ -34266,6 +34273,7 @@
 - [user20252228/Log4shell](https://github.com/user20252228/Log4shell)
 - [khaidtraivch/CVE-2021-44228-Log4Shell-](https://github.com/khaidtraivch/CVE-2021-44228-Log4Shell-)
 - [Fauzan-Aldi/Log4j-_Vulnerability](https://github.com/Fauzan-Aldi/Log4j-_Vulnerability)
+- [SerpilRivas/log4shell-homework9](https://github.com/SerpilRivas/log4shell-homework9)
 
 ### CVE-2021-44255 (2022-01-31)
 
