@@ -490,6 +490,13 @@
 
 - [d0n601/CVE-2025-4336](https://github.com/d0n601/CVE-2025-4336)
 
+### CVE-2025-4389 (2025-05-17)
+
+<code>The Crawlomatic Multipage Scraper Post Generator plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the crawlomatic_generate_featured_image() function in all versions up to, and including, 2.6.8.1. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [Yucaerin/CVE-2025-4389](https://github.com/Yucaerin/CVE-2025-4389)
+
 ### CVE-2025-4403 (2025-05-09)
 
 <code>The Drag and Drop Multiple File Upload for WooCommerce plugin for WordPress is vulnerable to arbitrary file uploads in all versions up to, and including, 1.1.6 due to accepting a user‐supplied supported_type string and the uploaded filename without enforcing real extension or MIME checks within the upload() function. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -8913,6 +8920,14 @@
 </code>
 
 - [7Ragnarok7/CVE-2024-37888](https://github.com/7Ragnarok7/CVE-2024-37888)
+
+### CVE-2024-38014 (2024-09-10)
+
+<code>Windows Installer Elevation of Privilege Vulnerability
+</code>
+
+- [Naman2701B/CVE-2024-38014](https://github.com/Naman2701B/CVE-2024-38014)
+- [Naman2701B/DLL-for-2024-38014](https://github.com/Naman2701B/DLL-for-2024-38014)
 
 ### CVE-2024-38036 (2024-10-04)
 
@@ -38041,6 +38056,13 @@
 </code>
 
 - [mkelepce/CVE-2020-13996](https://github.com/mkelepce/CVE-2020-13996)
+
+### CVE-2020-14008 (2020-09-04)
+
+<code>Zoho ManageEngine Applications Manager 14710 and before allows an authenticated admin user to upload a vulnerable jar in a specific location, which leads to remote code execution.
+</code>
+
+- [JackHars/cve-2020-14008](https://github.com/JackHars/cve-2020-14008)
 
 ### CVE-2020-14064 (2020-07-15)
 
