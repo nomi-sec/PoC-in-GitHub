@@ -489,7 +489,6 @@
 - [IndominusRexes/CVE-2025-4322-Exploit](https://github.com/IndominusRexes/CVE-2025-4322-Exploit)
 - [maximo896/CVE-2025-4322](https://github.com/maximo896/CVE-2025-4322)
 - [Yucaerin/CVE-2025-4322](https://github.com/Yucaerin/CVE-2025-4322)
-- [darkDev-kirosky/CVE-2025-4322](https://github.com/darkDev-kirosky/CVE-2025-4322)
 
 ### CVE-2025-4336 (2025-05-24)
 
@@ -559,7 +558,6 @@
 <code>Insufficient policy enforcement in Loader in Google Chrome prior to 136.0.7103.113 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)
 </code>
 
-- [korden-c/CVE-2025-4664](https://github.com/korden-c/CVE-2025-4664)
 - [speinador/CVE-2025-4664-](https://github.com/speinador/CVE-2025-4664-)
 - [Leviticus-Triage/ChromSploit-Framework](https://github.com/Leviticus-Triage/ChromSploit-Framework)
 
@@ -574,13 +572,6 @@
 
 ### CVE-2025-4822
 - [sahici/CVE-2025-4822](https://github.com/sahici/CVE-2025-4822)
-
-### CVE-2025-4918 (2025-05-17)
-
-<code>An attacker was able to perform an out-of-bounds read or write on a JavaScript `Promise` object. This vulnerability affects Firefox &lt; 138.0.4, Firefox ESR &lt; 128.10.1, Firefox ESR &lt; 115.23.1, Thunderbird &lt; 128.10.2, and Thunderbird &lt; 138.0.2.
-</code>
-
-- [korden-c/CVE-2025-4918](https://github.com/korden-c/CVE-2025-4918)
 
 ### CVE-2025-4919 (2025-05-17)
 
@@ -2249,13 +2240,6 @@
 </code>
 
 - [singetu0096/CVE-2025-46731](https://github.com/singetu0096/CVE-2025-46731)
-
-### CVE-2025-46801 (2025-05-19)
-
-<code>Pgpool-II provided by PgPool Global Development Group contains an authentication bypass by primary weakness vulnerability. if the vulnerability is exploited, an attacker may be able to log in to the system as an arbitrary user, allowing them to read or tamper with data in the database, and/or disable the database.
-</code>
-
-- [korden-c/CVE-2025-46801](https://github.com/korden-c/CVE-2025-46801)
 
 ### CVE-2025-46822 (2025-05-21)
 
@@ -4380,6 +4364,13 @@
 </code>
 
 - [Chocapikk/CVE-2024-8672](https://github.com/Chocapikk/CVE-2024-8672)
+
+### CVE-2024-8682 (2025-03-05)
+
+<code>The JNews - WordPress Newspaper Magazine Blog AMP Theme theme for WordPress is vulnerable to unauthorized user registration in all versions up to, and including, 11.6.6. This is due to the plugin not properly validate if the user can register option is enabled prior to creating a user though the register_handler() function. This makes it possible for unauthenticated attackers to register as a user even when user registration is disabled.
+</code>
+
+- [4minx/CVE-2024-8682](https://github.com/4minx/CVE-2024-8682)
 
 ### CVE-2024-8698 (2024-09-19)
 
@@ -18483,6 +18474,13 @@
 - [saurabh2088/platform_packages_providers_MediaProvider_CVE-2023-40127](https://github.com/saurabh2088/platform_packages_providers_MediaProvider_CVE-2023-40127)
 - [RenukaSelvar/platform_packages_providers_MediaProvider_CVE-2023-40127](https://github.com/RenukaSelvar/platform_packages_providers_MediaProvider_CVE-2023-40127)
 - [RenukaSelvar/packages_providers_MediaProvider_CVE-2023-40127](https://github.com/RenukaSelvar/packages_providers_MediaProvider_CVE-2023-40127)
+
+### CVE-2023-40130 (2023-10-27)
+
+<code>In onBindingDied of CallRedirectionProcessor.java, there is a possible permission bypass due to a logic error in the code. This could lead to local escalation of privilege and background activity launch with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [wrlu/CVE-2023-40130](https://github.com/wrlu/CVE-2023-40130)
 
 ### CVE-2023-40133 (2023-10-27)
 
@@ -55688,6 +55686,7 @@
 </code>
 
 - [threatlabindonesia/CVE-1999-0524-ICMP-Timestamp-and-Address-Mask-Request-Exploit](https://github.com/threatlabindonesia/CVE-1999-0524-ICMP-Timestamp-and-Address-Mask-Request-Exploit)
+- [Ransc0rp1on/ICMP-Timestamp-POC](https://github.com/Ransc0rp1on/ICMP-Timestamp-POC)
 
 ### CVE-1999-0532 (2000-02-04)
 
