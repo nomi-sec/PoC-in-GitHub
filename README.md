@@ -178,6 +178,13 @@
 
 - [p33d/cve-2025-1323](https://github.com/p33d/cve-2025-1323)
 
+### CVE-2025-1461 (2025-05-28)
+
+<code>Improper neutralization of the value of the 'eventMoreText' property of the 'VCalendar' component in Vuetify allows unsanitized HTML to be inserted into the page. This can lead to a  Cross-Site Scripting (XSS) https://owasp.org/www-community/attacks/xss  attack. The vulnerability occurs because the default Vuetify translator will return the translation key as the translation, if it can't find an actual translation.\n\nThis issue affects Vuetify versions greater than or equal to 2.0.0 and less than 3.0.0.\n\nNote:\nVersion 2.x of Vuetify is End-of-Life and will not receive any updates to address this issue. For more information see  here https://v2.vuetifyjs.com/en/about/eol/ .
+</code>
+
+- [neverendingsupport/nes-vuetify-cve-2025-1461](https://github.com/neverendingsupport/nes-vuetify-cve-2025-1461)
+
 ### CVE-2025-1639 (2025-03-04)
 
 <code>The Animation Addons for Elementor Pro plugin for WordPress is vulnerable to unauthorized arbitrary plugin installation due to a missing capability check on the install_elementor_plugin_handler() function in all versions up to, and including, 1.6. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install and activate arbitrary plugins which can be leveraged to further infect a victim when Elementor is not activated on a vulnerable site.
@@ -199,7 +206,6 @@
 
 - [gbrsh/CVE-2025-1661](https://github.com/gbrsh/CVE-2025-1661)
 - [MuhammadWaseem29/CVE-2025-1661](https://github.com/MuhammadWaseem29/CVE-2025-1661)
-- [exploit-machine/PoC-EXPLOIT-CVE-2025-1661-Critical-Vulnerability-in-HUSKY-WooCommerce-Filter-Plugin](https://github.com/exploit-machine/PoC-EXPLOIT-CVE-2025-1661-Critical-Vulnerability-in-HUSKY-WooCommerce-Filter-Plugin)
 
 ### CVE-2025-1716 (2025-02-26)
 
@@ -293,13 +299,6 @@
 
 ### CVE-2025-2404
 - [sahici/CVE-2025-2404](https://github.com/sahici/CVE-2025-2404)
-
-### CVE-2025-2476 (2025-03-19)
-
-<code>Use after free in Lens in Google Chrome prior to 134.0.6998.117 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Critical)
-</code>
-
-- [McTavishSue/CVE-2025-2476](https://github.com/McTavishSue/CVE-2025-2476)
 
 ### CVE-2025-2539 (2025-03-20)
 
@@ -1965,7 +1964,6 @@
 </code>
 
 - [Mohith-T/CVE-2025-32013](https://github.com/Mohith-T/CVE-2025-32013)
-- [exploit-machine/PoC-EXPLOIT-CVE-2025-32013-SSRF-in-LNbits-Lightning-Network-Payment-System](https://github.com/exploit-machine/PoC-EXPLOIT-CVE-2025-32013-SSRF-in-LNbits-Lightning-Network-Payment-System)
 
 ### CVE-2025-32118 (2025-04-04)
 
@@ -18110,6 +18108,13 @@
 
 - [gergelykalman/CVE-2023-38571-a-macOS-TCC-bypass-in-Music-and-TV](https://github.com/gergelykalman/CVE-2023-38571-a-macOS-TCC-bypass-in-Music-and-TV)
 
+### CVE-2023-38600 (2023-07-27)
+
+<code>The issue was addressed with improved checks. This issue is fixed in iOS 16.6 and iPadOS 16.6, tvOS 16.6, macOS Ventura 13.5, Safari 16.6, watchOS 9.6. Processing web content may lead to arbitrary code execution.
+</code>
+
+- [afrojack1/cve202338600test.github.io](https://github.com/afrojack1/cve202338600test.github.io)
+
 ### CVE-2023-38609 (2023-07-28)
 
 <code>An injection issue was addressed with improved input validation. This issue is fixed in macOS Ventura 13.5. An app may be able to bypass certain Privacy preferences.
@@ -20061,6 +20066,7 @@
 - [ajdumanhug/CVE-2023-46818](https://github.com/ajdumanhug/CVE-2023-46818)
 - [ajdumanhug/CVE-2022-42092](https://github.com/ajdumanhug/CVE-2022-42092)
 - [rvizx/CVE-2023-46818](https://github.com/rvizx/CVE-2023-46818)
+- [engranaabubakar/CVE-2023-46818](https://github.com/engranaabubakar/CVE-2023-46818)
 
 ### CVE-2023-46865 (2023-10-30)
 
@@ -22596,7 +22602,6 @@
 <code>WordPress is a free and open-source content management system written in PHP and paired with a MariaDB database. Due to improper sanitization in WP_Query, there can be cases where SQL injection is possible through plugins or themes that use it in a certain way. This has been patched in WordPress version 5.8.3. Older affected versions are also fixed via security release, that go back till 3.7.37. We strongly recommend that you keep auto-updates enabled. There are no known workarounds for this vulnerability.
 </code>
 
-- [TAPESH-TEAM/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection](https://github.com/TAPESH-TEAM/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection)
 - [purple-WL/wordpress-CVE-2022-21661](https://github.com/purple-WL/wordpress-CVE-2022-21661)
 - [0x4E0x650x6F/Wordpress-cve-CVE-2022-21661](https://github.com/0x4E0x650x6F/Wordpress-cve-CVE-2022-21661)
 - [z92g/CVE-2022-21661](https://github.com/z92g/CVE-2022-21661)
@@ -27112,7 +27117,7 @@
 - [uk0/cve-2022-42889-intercept](https://github.com/uk0/cve-2022-42889-intercept)
 - [securekomodo/text4shell-poc](https://github.com/securekomodo/text4shell-poc)
 - [humbss/CVE-2022-42889](https://github.com/humbss/CVE-2022-42889)
-- [stavrosgns/Text4ShellPayloads](https://github.com/stavrosgns/Text4ShellPayloads)
+- [purpl3ph03n1x/Text4ShellPayloads](https://github.com/purpl3ph03n1x/Text4ShellPayloads)
 - [s3l33/CVE-2022-42889](https://github.com/s3l33/CVE-2022-42889)
 - [galoget/CVE-2022-42889-Text4Shell-Docker](https://github.com/galoget/CVE-2022-42889-Text4Shell-Docker)
 - [rhitikwadhvana/CVE-2022-42889-Text4Shell-Exploit-POC](https://github.com/rhitikwadhvana/CVE-2022-42889-Text4Shell-Exploit-POC)
@@ -28913,6 +28918,7 @@
 - [ten-ops/baron-samedit](https://github.com/ten-ops/baron-samedit)
 - [Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-](https://github.com/Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-)
 - [shishirpandey18/CVE-2021-3156](https://github.com/shishirpandey18/CVE-2021-3156)
+- [duongdz96/CVE-2021-3156-main](https://github.com/duongdz96/CVE-2021-3156-main)
 - [Shuhaib88/Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156](https://github.com/Shuhaib88/Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156)
 
 ### CVE-2021-3157
@@ -29218,7 +29224,6 @@
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
 - [thatstraw/CVE-2021-4034](https://github.com/thatstraw/CVE-2021-4034)
-- [luckythandel/CVE-2021-4034](https://github.com/luckythandel/CVE-2021-4034)
 - [Plethore/CVE-2021-4034](https://github.com/Plethore/CVE-2021-4034)
 - [evdenis/lsm_bpf_check_argc0](https://github.com/evdenis/lsm_bpf_check_argc0)
 - [tahaafarooq/poppy](https://github.com/tahaafarooq/poppy)
@@ -33258,13 +33263,6 @@
 </code>
 
 - [gmh5225/CVE-2021-42205](https://github.com/gmh5225/CVE-2021-42205)
-
-### CVE-2021-42230 (2022-04-15)
-
-<code>Seowon 130-SLC router all versions as of 2021-09-15 is vulnerable to Remote Code Execution via the queriesCnt parameter.
-</code>
-
-- [TAPESH-TEAM/CVE-2021-42230-Seowon-130-SLC-router-queriesCnt-Remote-Code-Execution-Unauthenticated](https://github.com/TAPESH-TEAM/CVE-2021-42230-Seowon-130-SLC-router-queriesCnt-Remote-Code-Execution-Unauthenticated)
 
 ### CVE-2021-42237 (2021-11-05)
 
@@ -38750,7 +38748,6 @@
 </code>
 
 - [Al1ex/CVE-2020-17456](https://github.com/Al1ex/CVE-2020-17456)
-- [TAPESH-TEAM/CVE-2020-17456-Seowon-SLR-120S42G-RCE-Exploit-Unauthenticated](https://github.com/TAPESH-TEAM/CVE-2020-17456-Seowon-SLR-120S42G-RCE-Exploit-Unauthenticated)
 
 ### CVE-2020-17496 (2020-08-12)
 
@@ -45850,6 +45847,7 @@
 </code>
 
 - [SilentVoid13/CVE-2018-8097](https://github.com/SilentVoid13/CVE-2018-8097)
+- [StellarDriftLabs/CVE-2018-8097-PoC](https://github.com/StellarDriftLabs/CVE-2018-8097-PoC)
 
 ### CVE-2018-8108 (2018-03-14)
 
@@ -49250,6 +49248,7 @@
 - [oldboysonnt/dp](https://github.com/oldboysonnt/dp)
 - [blacklanternsecurity/dp_cryptomg](https://github.com/blacklanternsecurity/dp_cryptomg)
 - [cehamod/UI_CVE-2017-9248](https://github.com/cehamod/UI_CVE-2017-9248)
+- [0xsharz/telerik-scanner-cve-2017-9248](https://github.com/0xsharz/telerik-scanner-cve-2017-9248)
 
 ### CVE-2017-9417 (2017-06-03)
 
