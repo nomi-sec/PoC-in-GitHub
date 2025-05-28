@@ -301,6 +301,13 @@
 
 - [McTavishSue/CVE-2025-2476](https://github.com/McTavishSue/CVE-2025-2476)
 
+### CVE-2025-2539 (2025-03-20)
+
+<code>The File Away plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the ajax() function in all versions up to, and including, 3.9.9.0.1. This makes it possible for unauthenticated attackers, leveraging the use of a reversible weak algorithm,  to read the contents of arbitrary files on the server, which can contain sensitive information.
+</code>
+
+- [verylazytech/CVE-2025-2539](https://github.com/verylazytech/CVE-2025-2539)
+
 ### CVE-2025-2563 (2025-04-14)
 
 <code>The User Registration &amp; Membership  WordPress plugin before 4.1.2 does not prevent users to set their account role when the Membership Addon is enabled, leading to a privilege escalation issue and allowing unauthenticated users to gain admin privileges
@@ -594,6 +601,13 @@
 </code>
 
 - [Nouvexr/Wing-FTP-Server-7.4.4-RCE-Authenticated](https://github.com/Nouvexr/Wing-FTP-Server-7.4.4-RCE-Authenticated)
+
+### CVE-2025-5287 (2025-05-28)
+
+<code>The Likes and Dislikes Plugin plugin for WordPress is vulnerable to SQL Injection via the 'post' parameter in all versions up to, and including, 1.0.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [Nxploited/CVE-2025-5287](https://github.com/Nxploited/CVE-2025-5287)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -7470,6 +7484,7 @@
 - [Praison001/CVE-2024-28995-SolarWinds-Serv-U](https://github.com/Praison001/CVE-2024-28995-SolarWinds-Serv-U)
 - [Stuub/CVE-2024-28995](https://github.com/Stuub/CVE-2024-28995)
 - [gotr00t0day/CVE-2024-28995](https://github.com/gotr00t0day/CVE-2024-28995)
+- [ibrahimsql/CVE-2024-28995](https://github.com/ibrahimsql/CVE-2024-28995)
 
 ### CVE-2024-28999 (2024-06-04)
 
@@ -8934,14 +8949,6 @@
 </code>
 
 - [7Ragnarok7/CVE-2024-37888](https://github.com/7Ragnarok7/CVE-2024-37888)
-
-### CVE-2024-38014 (2024-09-10)
-
-<code>Windows Installer Elevation of Privilege Vulnerability
-</code>
-
-- [Naman2701B/CVE-2024-38014](https://github.com/Naman2701B/CVE-2024-38014)
-- [Naman2701B/DLL-for-2024-38014](https://github.com/Naman2701B/DLL-for-2024-38014)
 
 ### CVE-2024-38036 (2024-10-04)
 
@@ -35550,7 +35557,6 @@
 - [Iamgublin/CVE-2020-1054](https://github.com/Iamgublin/CVE-2020-1054)
 - [KaLendsi/CVE-2020-1054](https://github.com/KaLendsi/CVE-2020-1054)
 - [Graham382/CVE-2020-1054](https://github.com/Graham382/CVE-2020-1054)
-- [Naman2701B/CVE-2020-1054](https://github.com/Naman2701B/CVE-2020-1054)
 
 ### CVE-2020-1066 (2020-05-21)
 
