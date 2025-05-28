@@ -8115,6 +8115,13 @@
 
 - [absholi7ly/FreeRDP-Out-of-Bounds-Read-CVE-2024-32459-](https://github.com/absholi7ly/FreeRDP-Out-of-Bounds-Read-CVE-2024-32459-)
 
+### CVE-2024-32462 (2024-04-18)
+
+<code>Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux. in versions before 1.10.9, 1.12.9, 1.14.6, and 1.15.8, a malicious or compromised Flatpak app could execute arbitrary code outside its sandbox. Normally, the `--command` argument of `flatpak run` expects to be given a command to run in the specified Flatpak app, optionally along with some arguments. However it is possible to instead pass `bwrap` arguments to `--command=`, such as `--bind`. It's possible to pass an arbitrary `commandline` to the portal interface `org.freedesktop.portal.Background.RequestBackground` from within a Flatpak app. When this is converted into a `--command` and arguments, it achieves the same effect of passing arguments directly to `bwrap`, and thus can be used for a sandbox escape. The solution is to pass the `--` argument to `bwrap`, which makes it stop processing options. This has been supported since bubblewrap 0.3.0. All supported versions of Flatpak require at least that version of bubblewrap. xdg-desktop-portal version 1.18.4 will mitigate this vulnerability by only allowing Flatpak apps to create .desktop files for commands that do not start with --. The vulnerability is patched in 1.15.8, 1.10.9, 1.12.9, and 1.14.6.
+</code>
+
+- [SpiralBL0CK/CVE-2024-32462](https://github.com/SpiralBL0CK/CVE-2024-32462)
+
 ### CVE-2024-32523 (2024-05-17)
 
 <code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in EverPress Mailster allows PHP Local File Inclusion.This issue affects Mailster: from n/a through 4.0.6.
@@ -29203,7 +29210,6 @@
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
-- [NiS3x/CVE-2021-4034](https://github.com/NiS3x/CVE-2021-4034)
 - [thatstraw/CVE-2021-4034](https://github.com/thatstraw/CVE-2021-4034)
 - [luckythandel/CVE-2021-4034](https://github.com/luckythandel/CVE-2021-4034)
 - [Plethore/CVE-2021-4034](https://github.com/Plethore/CVE-2021-4034)
@@ -33129,6 +33135,7 @@
 - [ashique-thaha/CVE-2021-41773-POC](https://github.com/ashique-thaha/CVE-2021-41773-POC)
 - [khaidtraivch/CVE-2021-41773-Apache-2.4.49-](https://github.com/khaidtraivch/CVE-2021-41773-Apache-2.4.49-)
 - [qalvynn/CVE-2021-41773](https://github.com/qalvynn/CVE-2021-41773)
+- [Ask-os/CVE-2021-41773](https://github.com/Ask-os/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
