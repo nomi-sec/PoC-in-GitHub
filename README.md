@@ -199,6 +199,7 @@
 
 - [gbrsh/CVE-2025-1661](https://github.com/gbrsh/CVE-2025-1661)
 - [MuhammadWaseem29/CVE-2025-1661](https://github.com/MuhammadWaseem29/CVE-2025-1661)
+- [exploit-machine/PoC-EXPLOIT-CVE-2025-1661-Critical-Vulnerability-in-HUSKY-WooCommerce-Filter-Plugin](https://github.com/exploit-machine/PoC-EXPLOIT-CVE-2025-1661-Critical-Vulnerability-in-HUSKY-WooCommerce-Filter-Plugin)
 
 ### CVE-2025-1716 (2025-02-26)
 
@@ -854,6 +855,7 @@
 - [pswalia2u/CVE-2025-24071_POC](https://github.com/pswalia2u/CVE-2025-24071_POC)
 - [f4dee-backup/CVE-2025-24071](https://github.com/f4dee-backup/CVE-2025-24071)
 - [LOOKY243/CVE-2025-24071-PoC](https://github.com/LOOKY243/CVE-2025-24071-PoC)
+- [ex-cal1bur/SMB_CVE-2025-24071](https://github.com/ex-cal1bur/SMB_CVE-2025-24071)
 
 ### CVE-2025-24085 (2025-01-27)
 
@@ -1949,6 +1951,7 @@
 </code>
 
 - [Mohith-T/CVE-2025-32013](https://github.com/Mohith-T/CVE-2025-32013)
+- [exploit-machine/PoC-EXPLOIT-CVE-2025-32013-SSRF-in-LNbits-Lightning-Network-Payment-System](https://github.com/exploit-machine/PoC-EXPLOIT-CVE-2025-32013-SSRF-in-LNbits-Lightning-Network-Payment-System)
 
 ### CVE-2025-32118 (2025-04-04)
 
@@ -2208,7 +2211,11 @@
 - [xp3s/CVE-2025-45250](https://github.com/xp3s/CVE-2025-45250)
 - [Anike-x/CVE-2025-45250](https://github.com/Anike-x/CVE-2025-45250)
 
-### CVE-2025-46173
+### CVE-2025-46173 (2025-05-27)
+
+<code>code-projects Online Exam Mastering System 1.0 is vulnerable to Cross Site Scripting (XSS) via the name field in the feedback form.
+</code>
+
 - [pruthuraut/CVE-2025-46173](https://github.com/pruthuraut/CVE-2025-46173)
 
 ### CVE-2025-46271 (2025-04-24)
@@ -3543,6 +3550,7 @@
 - [Gill-Singh-A/CVE-2024-4577-Exploit](https://github.com/Gill-Singh-A/CVE-2024-4577-Exploit)
 - [tntrock/CVE-2024-4577_PowerShell](https://github.com/tntrock/CVE-2024-4577_PowerShell)
 - [shockingbonu/CVE-2024-4577-PHP-RCE](https://github.com/shockingbonu/CVE-2024-4577-PHP-RCE)
+- [KimJuhyeong95/cve-2024-4577](https://github.com/KimJuhyeong95/cve-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -8669,7 +8677,6 @@
 - [whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit)
 - [bmth666/GeoServer-Tools-CVE-2024-36401](https://github.com/bmth666/GeoServer-Tools-CVE-2024-36401)
 - [amoy6228/CVE-2024-36401_Geoserver_RCE_POC](https://github.com/amoy6228/CVE-2024-36401_Geoserver_RCE_POC)
-- [cochaviz/cve-2024-36401-poc](https://github.com/cochaviz/cve-2024-36401-poc)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -11876,6 +11883,13 @@
 - [rawtips/CVE-2024-55591](https://github.com/rawtips/CVE-2024-55591)
 - [0x7556/CVE-2024-55591](https://github.com/0x7556/CVE-2024-55591)
 - [UMChacker/CVE-2024-55591-POC](https://github.com/UMChacker/CVE-2024-55591-POC)
+
+### CVE-2024-55656 (2025-01-08)
+
+<code>RedisBloom adds a set of probabilistic data structures to Redis. There is an integer overflow vulnerability in RedisBloom, which is a module used in Redis. The integer overflow vulnerability allows an attacker (a redis client which knows the password) to allocate memory in the heap lesser than the required memory due to wraparound. Then read and write can be performed beyond this allocated memory, leading to info leak and OOB write. The integer overflow is in CMS.INITBYDIM command, which initialize a Count-Min Sketch to dimensions specified by user. It accepts two values (width and depth) and uses them to allocate memory in NewCMSketch(). This vulnerability is fixed in 2.2.19, 2.4.12, 2.6.14, and 2.8.2.
+</code>
+
+- [rick2600/redis-stack-CVE-2024-55656](https://github.com/rick2600/redis-stack-CVE-2024-55656)
 
 ### CVE-2024-55875 (2024-12-12)
 
@@ -19995,7 +20009,6 @@
 - [W01fh4cker/CVE-2023-46747-RCE](https://github.com/W01fh4cker/CVE-2023-46747-RCE)
 - [fu2x2000/CVE-2023-46747](https://github.com/fu2x2000/CVE-2023-46747)
 - [maniak-academy/Mitigate-CVE-2023-46747](https://github.com/maniak-academy/Mitigate-CVE-2023-46747)
-- [y4v4z/CVE-2023-46747-POC](https://github.com/y4v4z/CVE-2023-46747-POC)
 - [nvansluis/test_cve-2023-46747](https://github.com/nvansluis/test_cve-2023-46747)
 - [RevoltSecurities/CVE-2023-46747](https://github.com/RevoltSecurities/CVE-2023-46747)
 - [vidura2/cve-2023-46747](https://github.com/vidura2/cve-2023-46747)
