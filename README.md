@@ -10780,6 +10780,7 @@
 - [DeividasTerechovas/SOC335-CVE-2024-49138-Exploitation-Detected](https://github.com/DeividasTerechovas/SOC335-CVE-2024-49138-Exploitation-Detected)
 - [CyprianAtsyor/letsdefend-cve-2024-49138-investigation](https://github.com/CyprianAtsyor/letsdefend-cve-2024-49138-investigation)
 - [Glitch-ao/SOC335-CVE-2024-49138-Exploitation-Detected](https://github.com/Glitch-ao/SOC335-CVE-2024-49138-Exploitation-Detected)
+- [Humbug52542/DLang-file-encryptor](https://github.com/Humbug52542/DLang-file-encryptor)
 
 ### CVE-2024-49203 (2024-11-20)
 
@@ -14681,6 +14682,7 @@
 - [BBD-YZZ/Confluence-RCE](https://github.com/BBD-YZZ/Confluence-RCE)
 - [kh4sh3i/CVE-2023-22527](https://github.com/kh4sh3i/CVE-2023-22527)
 - [AxthonyV/CVE-2023-22527](https://github.com/AxthonyV/CVE-2023-22527)
+- [thompson005/CVE-2023-22527](https://github.com/thompson005/CVE-2023-22527)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -29233,7 +29235,6 @@
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
 - [thatstraw/CVE-2021-4034](https://github.com/thatstraw/CVE-2021-4034)
-- [Plethore/CVE-2021-4034](https://github.com/Plethore/CVE-2021-4034)
 - [evdenis/lsm_bpf_check_argc0](https://github.com/evdenis/lsm_bpf_check_argc0)
 - [tahaafarooq/poppy](https://github.com/tahaafarooq/poppy)
 - [DosAmp/pkwned](https://github.com/DosAmp/pkwned)
@@ -30037,6 +30038,7 @@
 - [MrDottt/CVE-2021-22911](https://github.com/MrDottt/CVE-2021-22911)
 - [overgrowncarrot1/CVE-2021-22911](https://github.com/overgrowncarrot1/CVE-2021-22911)
 - [yoohhuu/Rocket-Chat-3.12.1-PoC-CVE-2021-22911-](https://github.com/yoohhuu/Rocket-Chat-3.12.1-PoC-CVE-2021-22911-)
+- [octodi/CVE-2021-22911](https://github.com/octodi/CVE-2021-22911)
 
 ### CVE-2021-22924 (2021-08-05)
 
