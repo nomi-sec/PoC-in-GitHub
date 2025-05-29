@@ -1574,6 +1574,9 @@
 
 - [harish0x/CVE-2025-29602](https://github.com/harish0x/CVE-2025-29602)
 
+### CVE-2025-29632
+- [OHnogood/CVE-2025-29632](https://github.com/OHnogood/CVE-2025-29632)
+
 ### CVE-2025-29705 (2025-04-15)
 
 <code>code-gen &lt;=2.0.6 is vulnerable to Incorrect Access Control. The project does not have permission control allowing anyone to access such projects.
@@ -2222,6 +2225,12 @@
 
 - [xp3s/CVE-2025-45250](https://github.com/xp3s/CVE-2025-45250)
 - [Anike-x/CVE-2025-45250](https://github.com/Anike-x/CVE-2025-45250)
+
+### CVE-2025-46078
+- [yggcwhat/CVE-2025-46078](https://github.com/yggcwhat/CVE-2025-46078)
+
+### CVE-2025-46080
+- [yggcwhat/CVE-2025-46080](https://github.com/yggcwhat/CVE-2025-46080)
 
 ### CVE-2025-46173 (2025-05-27)
 
