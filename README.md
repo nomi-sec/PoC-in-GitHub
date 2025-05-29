@@ -1574,7 +1574,11 @@
 
 - [harish0x/CVE-2025-29602](https://github.com/harish0x/CVE-2025-29602)
 
-### CVE-2025-29632
+### CVE-2025-29632 (2025-05-29)
+
+<code>Buffer Overflow vulnerability in Free5gc v.4.0.0 allows a remote attacker to cause a denial of service via the AMF, NGAP, security.go, handler_generated.go, handleInitialUEMessageMain, DecodePlainNasNoIntegrityCheck, GetSecurityHeaderType components
+</code>
+
 - [OHnogood/CVE-2025-29632](https://github.com/OHnogood/CVE-2025-29632)
 
 ### CVE-2025-29705 (2025-04-15)
@@ -1666,7 +1670,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
-- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -1711,6 +1714,7 @@
 - [EarthAngel666/x-middleware-exploit](https://github.com/EarthAngel666/x-middleware-exploit)
 - [enochgitgamefied/NextJS-CVE-2025-29927-Docker-Lab](https://github.com/enochgitgamefied/NextJS-CVE-2025-29927-Docker-Lab)
 - [sagsooz/CVE-2025-29927](https://github.com/sagsooz/CVE-2025-29927)
+- [SugiB3o/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/SugiB3o/vulnerable-nextjs-14-CVE-2025-29927)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -1769,6 +1773,7 @@
 - [lilil3333/Vite-CVE-2025-30208-EXP](https://github.com/lilil3333/Vite-CVE-2025-30208-EXP)
 - [imbas007/CVE-2025-30208-template](https://github.com/imbas007/CVE-2025-30208-template)
 - [r0ngy40/CVE-2025-30208-Series](https://github.com/r0ngy40/CVE-2025-30208-Series)
+- [nkuty/CVE-2025-30208-31125-31486-32395](https://github.com/nkuty/CVE-2025-30208-31125-31486-32395)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -2226,10 +2231,18 @@
 - [xp3s/CVE-2025-45250](https://github.com/xp3s/CVE-2025-45250)
 - [Anike-x/CVE-2025-45250](https://github.com/Anike-x/CVE-2025-45250)
 
-### CVE-2025-46078
+### CVE-2025-46078 (2025-05-29)
+
+<code>HuoCMS V3.5.1 and before is vulnerable to file upload, which allows attackers to take control of the target server
+</code>
+
 - [yggcwhat/CVE-2025-46078](https://github.com/yggcwhat/CVE-2025-46078)
 
-### CVE-2025-46080
+### CVE-2025-46080 (2025-05-29)
+
+<code>HuoCMS V3.5.1 has a File Upload Vulnerability. An attacker can exploit this flaw to bypass whitelist restrictions and craft malicious files with specific suffixes, thereby gaining control of the server.
+</code>
+
 - [yggcwhat/CVE-2025-46080](https://github.com/yggcwhat/CVE-2025-46080)
 
 ### CVE-2025-46173 (2025-05-27)
@@ -2238,6 +2251,9 @@
 </code>
 
 - [pruthuraut/CVE-2025-46173](https://github.com/pruthuraut/CVE-2025-46173)
+
+### CVE-2025-46203
+- [spbavarva/CVE-2025-46203](https://github.com/spbavarva/CVE-2025-46203)
 
 ### CVE-2025-46271 (2025-04-24)
 
@@ -12527,6 +12543,13 @@
 - [saimahmed/MLflow-Vuln](https://github.com/saimahmed/MLflow-Vuln)
 - [charlesgargasson/CVE-2023-1177](https://github.com/charlesgargasson/CVE-2023-1177)
 - [paultheal1en/CVE-2023-1177-PoC-reproduce](https://github.com/paultheal1en/CVE-2023-1177-PoC-reproduce)
+
+### CVE-2023-1234 (2023-03-07)
+
+<code>Inappropriate implementation in Intents in Google Chrome on Android prior to 111.0.5563.64 allowed a remote attacker to perform domain spoofing via a crafted HTML page. (Chromium security severity: Low)
+</code>
+
+- [Yuri08loveElaina/CVE-2023-1234](https://github.com/Yuri08loveElaina/CVE-2023-1234)
 
 ### CVE-2023-1326 (2023-04-13)
 
@@ -26513,7 +26536,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
