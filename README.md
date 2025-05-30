@@ -5056,6 +5056,13 @@
 
 - [NSQAQ/CVE-2024-11201](https://github.com/NSQAQ/CVE-2024-11201)
 
+### CVE-2024-11234 (2024-11-24)
+
+<code>In PHP versions 8.1.* before 8.1.31, 8.2.* before 8.2.26, 8.3.* before 8.3.14, when using streams with configured proxy and &quot;request_fulluri&quot; option, the URI is not properly sanitized which can lead to HTTP request smuggling and allow the attacker to use the proxy to perform arbitrary HTTP requests originating from the server, thus potentially gaining access to resources not normally available to the external user.
+</code>
+
+- [cyivor/CVE-2024-11234](https://github.com/cyivor/CVE-2024-11234)
+
 ### CVE-2024-11252 (2024-11-30)
 
 <code>The Social Sharing Plugin – Sassy Social Share plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the heateor_mastodon_share parameter in all versions up to, and including, 3.3.69 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
@@ -20618,7 +20625,7 @@
 - [zunak/CVE-2023-49471](https://github.com/zunak/CVE-2023-49471)
 
 ### CVE-2023-49496
-- [HuangYanQwQ/CVE-2023-49496](https://github.com/HuangYanQwQ/CVE-2023-49496)
+- [HuangYanQwQ/CVE-2023-49496_PoC](https://github.com/HuangYanQwQ/CVE-2023-49496_PoC)
 
 ### CVE-2023-49539 (2024-03-01)
 
@@ -29277,7 +29284,6 @@
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
-- [thatstraw/CVE-2021-4034](https://github.com/thatstraw/CVE-2021-4034)
 - [evdenis/lsm_bpf_check_argc0](https://github.com/evdenis/lsm_bpf_check_argc0)
 - [tahaafarooq/poppy](https://github.com/tahaafarooq/poppy)
 - [DosAmp/pkwned](https://github.com/DosAmp/pkwned)
@@ -30685,6 +30691,7 @@
 </code>
 
 - [hev0x/CVE-2021-26828_ScadaBR_RCE](https://github.com/hev0x/CVE-2021-26828_ScadaBR_RCE)
+- [ridpath/CVE-2021-26828-Ultimate](https://github.com/ridpath/CVE-2021-26828-Ultimate)
 
 ### CVE-2021-26832 (2021-04-14)
 
