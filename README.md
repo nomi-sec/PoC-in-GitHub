@@ -608,6 +608,13 @@
 
 - [Nxploited/CVE-2025-5287](https://github.com/Nxploited/CVE-2025-5287)
 
+### CVE-2025-5328 (2025-05-29)
+
+<code>In chshcms mccms 2.7 wurde eine Schwachstelle ausgemacht. Sie wurde als kritisch eingestuft. Dabei geht es um die Funktion restore_del der Datei /sys/apps/controllers/admin/Backups.php. Dank Manipulation des Arguments dirs mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [voyagken/CVE-2025-5328](https://github.com/voyagken/CVE-2025-5328)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -2255,6 +2262,9 @@
 ### CVE-2025-46203
 - [spbavarva/CVE-2025-46203](https://github.com/spbavarva/CVE-2025-46203)
 
+### CVE-2025-46204
+- [spbavarva/CVE-2025-46204](https://github.com/spbavarva/CVE-2025-46204)
+
 ### CVE-2025-46271 (2025-04-24)
 
 <code>UNI-NMS-Lite is vulnerable to a command injection attack that could \nallow an unauthenticated attacker to read or manipulate device data.
@@ -2269,7 +2279,11 @@
 
 - [nov-1337/CVE-2025-46657](https://github.com/nov-1337/CVE-2025-46657)
 
-### CVE-2025-46701
+### CVE-2025-46701 (2025-05-29)
+
+<code>Improper Handling of Case Sensitivity vulnerability in Apache Tomcat's GCI servlet allows security constraint bypass of security constraints that apply to the pathInfo component of a URI mapped to the CGI servlet.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.6, from 10.1.0-M1 through 10.1.40, from 9.0.0.M1 through 9.0.104.\n\nUsers are recommended to upgrade to version 11.0.7, 10.1.41 or 9.0.105, which fixes the issue.
+</code>
+
 - [gregk4sec/CVE-2025-46701](https://github.com/gregk4sec/CVE-2025-46701)
 
 ### CVE-2025-46721 (2025-05-13)
@@ -2362,6 +2376,13 @@
 </code>
 
 - [B1tBreaker/CVE-2025-48708](https://github.com/B1tBreaker/CVE-2025-48708)
+
+### CVE-2025-48827 (2025-05-27)
+
+<code>vBulletin 5.0.0 through 5.7.5 and 6.0.0 through 6.0.3 allows unauthenticated users to invoke protected API controllers' methods when running on PHP 8.1 or later, as demonstrated by the /api.php?method=protectedMethod pattern, as exploited in the wild in May 2025.
+</code>
+
+- [0xgh057r3c0n/CVE-2025-48827](https://github.com/0xgh057r3c0n/CVE-2025-48827)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -54381,7 +54402,7 @@
 <code>The vsf_filename_passes_filter function in ls.c in vsftpd before 2.3.3 allows remote authenticated users to cause a denial of service (CPU consumption and process slot exhaustion) via crafted glob expressions in STAT commands in multiple FTP sessions, a different vulnerability than CVE-2010-2632.
 </code>
 
-- [AndreyFreitax/CVE-2011-0762](https://github.com/AndreyFreitax/CVE-2011-0762)
+- [AndreyFreitass/CVE-2011-0762](https://github.com/AndreyFreitass/CVE-2011-0762)
 
 ### CVE-2011-1237 (2011-04-13)
 
