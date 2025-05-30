@@ -608,12 +608,18 @@
 
 - [Nxploited/CVE-2025-5287](https://github.com/Nxploited/CVE-2025-5287)
 
+### CVE-2025-5319
+- [sahici/CVE-2025-5319](https://github.com/sahici/CVE-2025-5319)
+
 ### CVE-2025-5328 (2025-05-29)
 
 <code>In chshcms mccms 2.7 wurde eine Schwachstelle ausgemacht. Sie wurde als kritisch eingestuft. Dabei geht es um die Funktion restore_del der Datei /sys/apps/controllers/admin/Backups.php. Dank Manipulation des Arguments dirs mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
 - [voyagken/CVE-2025-5328](https://github.com/voyagken/CVE-2025-5328)
+
+### CVE-2025-5329
+- [sahici/CVE-2025-5329](https://github.com/sahici/CVE-2025-5329)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -5738,6 +5744,7 @@
 - [D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB](https://github.com/D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB)
 - [ArtemCyberLab/Project-NTLM-Hash-Capture-and-Phishing-Email-Exploitation-for-CVE-2024-21413](https://github.com/ArtemCyberLab/Project-NTLM-Hash-Capture-and-Phishing-Email-Exploitation-for-CVE-2024-21413)
 - [PolarisXSec/CVE-2024-21413](https://github.com/PolarisXSec/CVE-2024-21413)
+- [MQKGitHub/Moniker-Link-CVE-2024-21413](https://github.com/MQKGitHub/Moniker-Link-CVE-2024-21413)
 
 ### CVE-2024-21513 (2024-07-15)
 
@@ -8297,6 +8304,13 @@
 ### CVE-2024-33352
 - [mmiszczyk/CVE-2024-33352](https://github.com/mmiszczyk/CVE-2024-33352)
 
+### CVE-2024-33438 (2024-04-29)
+
+<code>File Upload vulnerability in CubeCart before 6.5.5 allows an authenticated user to execute arbitrary code via a crafted .phar file.
+</code>
+
+- [julio-cfa/CVE-2024-33438](https://github.com/julio-cfa/CVE-2024-33438)
+
 ### CVE-2024-33453 (2024-10-17)
 
 <code>Buffer Overflow vulnerability in esp-idf v.5.1 allows a remote attacker to obtain sensitive information via the externalId component.
@@ -8589,6 +8603,13 @@
 </code>
 
 - [enzored/CVE-2024-34831](https://github.com/enzored/CVE-2024-34831)
+
+### CVE-2024-34832 (2024-06-06)
+
+<code>Directory Traversal vulnerability in CubeCart v.6.5.5 and before allows an attacker to execute arbitrary code via a crafted file uploaded to the _g and node parameters.
+</code>
+
+- [julio-cfa/CVE-2024-34832](https://github.com/julio-cfa/CVE-2024-34832)
 
 ### CVE-2024-34833 (2024-06-17)
 
@@ -35543,6 +35564,7 @@
 - [monjheta/CVE-2020-0796](https://github.com/monjheta/CVE-2020-0796)
 - [madanokr001/CVE-2020-0796](https://github.com/madanokr001/CVE-2020-0796)
 - [DannyRavi/nmap-scripts](https://github.com/DannyRavi/nmap-scripts)
+- [tdevworks/CVE-2020-0796-SMBGhost-Exploit-Demo](https://github.com/tdevworks/CVE-2020-0796-SMBGhost-Exploit-Demo)
 
 ### CVE-2020-0887 (2020-03-12)
 
@@ -35781,6 +35803,7 @@
 - [blackh00d/zerologon-poc](https://github.com/blackh00d/zerologon-poc)
 - [TuanCui22/ZerologonWithImpacket-CVE2020-1472](https://github.com/TuanCui22/ZerologonWithImpacket-CVE2020-1472)
 - [PakwanSK/Simulating-and-preventing-Zerologon-CVE-2020-1472-vulnerability-attacks.](https://github.com/PakwanSK/Simulating-and-preventing-Zerologon-CVE-2020-1472-vulnerability-attacks.)
+- [tdevworks/CVE-2020-1472-ZeroLogon-Demo-Detection-Mitigation](https://github.com/tdevworks/CVE-2020-1472-ZeroLogon-Demo-Detection-Mitigation)
 
 ### CVE-2020-1493 (2020-08-17)
 
@@ -41487,6 +41510,7 @@
 - [SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447](https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447)
 - [Nehal-Zaman/CVE-2019-6447](https://github.com/Nehal-Zaman/CVE-2019-6447)
 - [n3rdh4x0r/CVE-2019-6447](https://github.com/n3rdh4x0r/CVE-2019-6447)
+- [julio-cfa/POC-ES-File-Explorer-CVE-2019-6447](https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447)
 - [febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit)
 - [Kayky-cmd/CVE-2019-6447--.](https://github.com/Kayky-cmd/CVE-2019-6447--.)
 - [VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer](https://github.com/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer)
