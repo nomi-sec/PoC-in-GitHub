@@ -611,13 +611,6 @@
 ### CVE-2025-5319
 - [sahici/CVE-2025-5319](https://github.com/sahici/CVE-2025-5319)
 
-### CVE-2025-5328 (2025-05-29)
-
-<code>In chshcms mccms 2.7 wurde eine Schwachstelle ausgemacht. Sie wurde als kritisch eingestuft. Dabei geht es um die Funktion restore_del der Datei /sys/apps/controllers/admin/Backups.php. Dank Manipulation des Arguments dirs mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [voyagken/CVE-2025-5328](https://github.com/voyagken/CVE-2025-5328)
-
 ### CVE-2025-5329
 - [sahici/CVE-2025-5329](https://github.com/sahici/CVE-2025-5329)
 
@@ -1532,6 +1525,12 @@
 </code>
 
 - [b1tm4r/CVE-2025-29018](https://github.com/b1tm4r/CVE-2025-29018)
+
+### CVE-2025-29093
+- [FraMarcuccio/CVE-2025-29093-Arbitrary-File-Upload](https://github.com/FraMarcuccio/CVE-2025-29093-Arbitrary-File-Upload)
+
+### CVE-2025-29094
+- [FraMarcuccio/CVE-2025-29094-Multiple-Stored-Cross-Site-Scripting-XSS](https://github.com/FraMarcuccio/CVE-2025-29094-Multiple-Stored-Cross-Site-Scripting-XSS)
 
 ### CVE-2025-29275
 - [0xBl4nk/CVE-2025-29275](https://github.com/0xBl4nk/CVE-2025-29275)
@@ -4188,6 +4187,13 @@
 </code>
 
 - [RevoltSecurities/CVE-2024-7339](https://github.com/RevoltSecurities/CVE-2024-7339)
+
+### CVE-2024-7399 (2024-08-09)
+
+<code>Improper limitation of a pathname to a restricted directory vulnerability in Samsung MagicINFO 9 Server version before 21.1050 allows attackers to write arbitrary file as system authority.
+</code>
+
+- [davidxbors/CVE-2024-7399-POC](https://github.com/davidxbors/CVE-2024-7399-POC)
 
 ### CVE-2024-7456 (2024-11-01)
 
@@ -21546,6 +21552,7 @@
 - [RogelioPumajulca/CVE-2022-0847](https://github.com/RogelioPumajulca/CVE-2022-0847)
 - [cypherlobo/DirtyPipe-BSI](https://github.com/cypherlobo/DirtyPipe-BSI)
 - [byteReaper77/Dirty-Pipe](https://github.com/byteReaper77/Dirty-Pipe)
+- [DelphineTan/Murdoch-CVE-2022-0847](https://github.com/DelphineTan/Murdoch-CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -28818,6 +28825,9 @@
 - [cckuailong/CVE-2021-2471](https://github.com/cckuailong/CVE-2021-2471)
 - [DrunkenShells/CVE-2021-2471](https://github.com/DrunkenShells/CVE-2021-2471)
 
+### CVE-2021-2560
+- [DelphineTan/Murdoch-CVE-2021-2560](https://github.com/DelphineTan/Murdoch-CVE-2021-2560)
+
 ### CVE-2021-3007 (2021-01-04)
 
 <code>Laminas Project laminas-http before 2.14.2, and Zend Framework 3.0.0, has a deserialization vulnerability that can lead to remote code execution if the content is controllable, related to the __destruct method of the Zend\Http\Response\Stream class in Stream.php. NOTE: Zend Framework is no longer supported by the maintainer. NOTE: the laminas-http vendor considers this a &quot;vulnerability in the PHP language itself&quot; but has added certain type checking as a way to prevent exploitation in (unrecommended) use cases where attacker-supplied data can be deserialized
@@ -29293,7 +29303,6 @@
 - [Ayrx/CVE-2021-4034](https://github.com/Ayrx/CVE-2021-4034)
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
 - [An00bRektn/CVE-2021-4034](https://github.com/An00bRektn/CVE-2021-4034)
-- [kimusan/pkwner](https://github.com/kimusan/pkwner)
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [xcanwin/CVE-2021-4034-UniontechOS](https://github.com/xcanwin/CVE-2021-4034-UniontechOS)
@@ -48113,6 +48122,7 @@
 - [sethwhy/BlueDoor](https://github.com/sethwhy/BlueDoor)
 - [AtithKhawas/autoblue](https://github.com/AtithKhawas/autoblue)
 - [MedX267/EternalBlue-Vulnerability-Scanner](https://github.com/MedX267/EternalBlue-Vulnerability-Scanner)
+- [pelagornisandersi/WIndows-7-automated-exploitation-using-metasploit-framework-](https://github.com/pelagornisandersi/WIndows-7-automated-exploitation-using-metasploit-framework-)
 
 ### CVE-2017-0145 (2017-03-17)
 
