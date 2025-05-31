@@ -567,6 +567,13 @@
 
 - [x6vrn/CVE-2025-4611-PoC](https://github.com/x6vrn/CVE-2025-4611-PoC)
 
+### CVE-2025-4631 (2025-05-31)
+
+<code>The Profitori plugin for WordPress is vulnerable to Privilege Escalation due to a missing capability check on the stocktend_object endpoint in versions 2.0.6.0 to 2.1.1.3. This makes it possible to trigger the save_object_as_user() function for objects whose '_datatype' is set to 'users',. This allows unauthenticated attackers to write arbitrary strings straight into the user’s wp_capabilities meta field, potentially elevating the privileges of an existing user account or a newly created one to that of an administrator.
+</code>
+
+- [Nxploited/CVE-2025-4631](https://github.com/Nxploited/CVE-2025-4631)
+
 ### CVE-2025-4664 (2025-05-14)
 
 <code>Insufficient policy enforcement in Loader in Google Chrome prior to 136.0.7103.113 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)
@@ -614,6 +621,7 @@
 </code>
 
 - [Nxploited/CVE-2025-5287](https://github.com/Nxploited/CVE-2025-5287)
+- [wiseep/CVE-2025-5287](https://github.com/wiseep/CVE-2025-5287)
 
 ### CVE-2025-5319
 - [sahici/CVE-2025-5319](https://github.com/sahici/CVE-2025-5319)
@@ -1807,6 +1815,13 @@
 </code>
 
 - [natasaka/CVE-2025-30349](https://github.com/natasaka/CVE-2025-30349)
+
+### CVE-2025-30397 (2025-05-13)
+
+<code>Access of resource using incompatible type ('type confusion') in Microsoft Scripting Engine allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [mbanyamer/CVE-2025-30397---Windows-Server-2025-JScript-RCE-Use-After-Free-](https://github.com/mbanyamer/CVE-2025-30397---Windows-Server-2025-JScript-RCE-Use-After-Free-)
 
 ### CVE-2025-30400 (2025-05-13)
 
