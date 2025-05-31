@@ -375,6 +375,13 @@
 
 - [Yucaerin/CVE-2025-2907](https://github.com/Yucaerin/CVE-2025-2907)
 
+### CVE-2025-2995 (2025-03-31)
+
+<code>In Tenda FH1202 1.2.0.14(408) wurde eine kritische Schwachstelle gefunden. Hierbei betrifft es unbekannten Programmcode der Datei /goform/SysToolChangePwd der Komponente Web Management Interface. Mittels Manipulieren mit unbekannten Daten kann eine improper access controls-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [huynguyen12536/CVE-2025-2995](https://github.com/huynguyen12536/CVE-2025-2995)
+
 ### CVE-2025-3047 (2025-03-31)
 
 <code>When running the AWS Serverless Application Model Command Line Interface (SAM CLI) build process with Docker and symlinks are included in the build files, the container environment allows a user to access privileged files on the host by leveraging the elevated permissions granted to the tool. A user could leverage the elevated permissions to access restricted files via symlinks and copy them to a more permissive location on the container. \n\nUsers should upgrade to v1.133.0 or newer and ensure any forked or derivative code is patched to incorporate the new fixes.
