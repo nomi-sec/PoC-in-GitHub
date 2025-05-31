@@ -73,7 +73,7 @@
 - [dhmosfunk/7-Zip-CVE-2025-0411-POC](https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC)
 - [iSee857/CVE-2025-0411-PoC](https://github.com/iSee857/CVE-2025-0411-PoC)
 - [ishwardeepp/CVE-2025-0411-MoTW-PoC](https://github.com/ishwardeepp/CVE-2025-0411-MoTW-PoC)
-- [Cesar-http/7-Zip-CVE-2025-0411-POC](https://github.com/Cesar-http/7-Zip-CVE-2025-0411-POC)
+- [cesarbtakeda/7-Zip-CVE-2025-0411-POC](https://github.com/cesarbtakeda/7-Zip-CVE-2025-0411-POC)
 - [dpextreme/7-Zip-CVE-2025-0411-POC](https://github.com/dpextreme/7-Zip-CVE-2025-0411-POC)
 - [betulssahin/CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass](https://github.com/betulssahin/CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass)
 
@@ -870,7 +870,7 @@
 - [ThemeHackers/CVE-2025-24071](https://github.com/ThemeHackers/CVE-2025-24071)
 - [rubbxalc/CVE-2025-24071](https://github.com/rubbxalc/CVE-2025-24071)
 - [Marcejr117/CVE-2025-24071_PoC](https://github.com/Marcejr117/CVE-2025-24071_PoC)
-- [Cesar-http/Windows-Explorer-CVE-2025-24071](https://github.com/Cesar-http/Windows-Explorer-CVE-2025-24071)
+- [cesarbtakeda/Windows-Explorer-CVE-2025-24071](https://github.com/cesarbtakeda/Windows-Explorer-CVE-2025-24071)
 - [pswalia2u/CVE-2025-24071_POC](https://github.com/pswalia2u/CVE-2025-24071_POC)
 - [f4dee-backup/CVE-2025-24071](https://github.com/f4dee-backup/CVE-2025-24071)
 - [LOOKY243/CVE-2025-24071-PoC](https://github.com/LOOKY243/CVE-2025-24071-PoC)
@@ -2360,6 +2360,13 @@
 </code>
 
 - [d0n601/CVE-2025-47550](https://github.com/d0n601/CVE-2025-47550)
+
+### CVE-2025-47577 (2025-05-19)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in TemplateInvaders TI WooCommerce Wishlist allows Upload a Web Shell to a Web Server.This issue affects TI WooCommerce Wishlist: from n/a through 2.9.2.
+</code>
+
+- [Yucaerin/CVE-2025-47577](https://github.com/Yucaerin/CVE-2025-47577)
 
 ### CVE-2025-47646 (2025-05-23)
 
@@ -9260,7 +9267,7 @@
 
 ### CVE-2024-38998
 - [z3ldr1/PP_CVE-2024-38998](https://github.com/z3ldr1/PP_CVE-2024-38998)
-- [Cesar-http/PP_CVE-2024-38998](https://github.com/Cesar-http/PP_CVE-2024-38998)
+- [cesarbtakeda/PP_CVE-2024-38998](https://github.com/cesarbtakeda/PP_CVE-2024-38998)
 
 ### CVE-2024-39031 (2024-07-09)
 
