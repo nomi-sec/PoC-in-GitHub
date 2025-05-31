@@ -1436,6 +1436,13 @@
 
 - [absholi7ly/CVE-2025-27533-Exploit-for-Apache-ActiveMQ](https://github.com/absholi7ly/CVE-2025-27533-Exploit-for-Apache-ActiveMQ)
 
+### CVE-2025-27590 (2025-03-03)
+
+<code>In oxidized-web (aka Oxidized Web) before 0.15.0, the RANCID migration page allows an unauthenticated user to gain control over the Linux user account that is running oxidized-web.
+</code>
+
+- [fatkz/CVE-2025-27590](https://github.com/fatkz/CVE-2025-27590)
+
 ### CVE-2025-27607 (2025-03-07)
 
 <code>Python JSON Logger is a JSON Formatter for Python Logging. Between 30 December 2024 and 4 March 2025 Python JSON Logger was vulnerable to RCE through a missing dependency. This occurred because msgspec-python313-pre was deleted by the owner leaving the name open to being claimed by a third party. If the package was claimed, it would allow them RCE on any Python JSON Logger user who installed the development dependencies on Python 3.13 (e.g. pip install python-json-logger[dev]). This issue has been resolved with 3.3.0.
@@ -1697,6 +1704,7 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
+- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -2417,6 +2425,7 @@
 </code>
 
 - [0xgh057r3c0n/CVE-2025-48827](https://github.com/0xgh057r3c0n/CVE-2025-48827)
+- [wiseep/CVE-2025-48827](https://github.com/wiseep/CVE-2025-48827)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -3618,7 +3627,6 @@
 - [olebris/CVE-2024-4577](https://github.com/olebris/CVE-2024-4577)
 - [AlperenY-cs/CVE-2024-4577](https://github.com/AlperenY-cs/CVE-2024-4577)
 - [charis3306/CVE-2024-4577](https://github.com/charis3306/CVE-2024-4577)
-- [l0n3m4n/CVE-2024-4577-RCE](https://github.com/l0n3m4n/CVE-2024-4577-RCE)
 - [bibo318/CVE-2024-4577-RCE-ATTACK](https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK)
 - [gmh5225/CVE-2024-4577-PHP-RCE](https://github.com/gmh5225/CVE-2024-4577-PHP-RCE)
 - [a-roshbaik/CVE-2024-4577](https://github.com/a-roshbaik/CVE-2024-4577)
@@ -4017,7 +4025,6 @@
 - [MrR0b0t19/CVE-2024-6387-Exploit-POC](https://github.com/MrR0b0t19/CVE-2024-6387-Exploit-POC)
 - [th3gokul/CVE-2024-6387](https://github.com/th3gokul/CVE-2024-6387)
 - [n1cks0n/Test_CVE-2024-6387](https://github.com/n1cks0n/Test_CVE-2024-6387)
-- [l0n3m4n/CVE-2024-6387](https://github.com/l0n3m4n/CVE-2024-6387)
 - [RickGeex/CVE-2024-6387-Checker](https://github.com/RickGeex/CVE-2024-6387-Checker)
 - [xonoxitron/regreSSHion-checker](https://github.com/xonoxitron/regreSSHion-checker)
 - [BrandonLynch2402/cve-2024-6387-nuclei-template](https://github.com/BrandonLynch2402/cve-2024-6387-nuclei-template)
@@ -6047,7 +6054,6 @@
 
 - [mbadanoiu/CVE-2024-22274](https://github.com/mbadanoiu/CVE-2024-22274)
 - [ninhpn1337/CVE-2024-22274](https://github.com/ninhpn1337/CVE-2024-22274)
-- [l0n3m4n/CVE-2024-22274-RCE](https://github.com/l0n3m4n/CVE-2024-22274-RCE)
 - [Mustafa1986/CVE-2024-22274-RCE](https://github.com/Mustafa1986/CVE-2024-22274-RCE)
 
 ### CVE-2024-22275 (2024-05-21)
@@ -10593,7 +10599,6 @@
 - [aytackalinci/CVE-2024-47176](https://github.com/aytackalinci/CVE-2024-47176)
 - [lkarlslund/jugular](https://github.com/lkarlslund/jugular)
 - [nma-io/CVE-2024-47176](https://github.com/nma-io/CVE-2024-47176)
-- [l0n3m4n/CVE-2024-47176](https://github.com/l0n3m4n/CVE-2024-47176)
 - [gumerzzzindo/CVE-2024-47176](https://github.com/gumerzzzindo/CVE-2024-47176)
 - [MalwareTech/CVE-2024-47176-Scanner](https://github.com/MalwareTech/CVE-2024-47176-Scanner)
 - [AxthonyV/CVE-2024-47176](https://github.com/AxthonyV/CVE-2024-47176)
@@ -24831,7 +24836,6 @@
 
 - [miko550/CVE-2022-29078](https://github.com/miko550/CVE-2022-29078)
 - [shurochka1396/expluatation_CVE-2022-29078](https://github.com/shurochka1396/expluatation_CVE-2022-29078)
-- [l0n3m4n/CVE-2022-29078](https://github.com/l0n3m4n/CVE-2022-29078)
 - [chuckdu21/CVE-2022-29078](https://github.com/chuckdu21/CVE-2022-29078)
 
 ### CVE-2022-29154 (2022-08-02)
@@ -26621,6 +26625,7 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
+- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -27235,7 +27240,7 @@
 - [uk0/cve-2022-42889-intercept](https://github.com/uk0/cve-2022-42889-intercept)
 - [securekomodo/text4shell-poc](https://github.com/securekomodo/text4shell-poc)
 - [humbss/CVE-2022-42889](https://github.com/humbss/CVE-2022-42889)
-- [purpl3ph03n1x/Text4ShellPayloads](https://github.com/purpl3ph03n1x/Text4ShellPayloads)
+- [stavrosgns/Text4ShellPayloads](https://github.com/stavrosgns/Text4ShellPayloads)
 - [s3l33/CVE-2022-42889](https://github.com/s3l33/CVE-2022-42889)
 - [galoget/CVE-2022-42889-Text4Shell-Docker](https://github.com/galoget/CVE-2022-42889-Text4Shell-Docker)
 - [rhitikwadhvana/CVE-2022-42889-Text4Shell-Exploit-POC](https://github.com/rhitikwadhvana/CVE-2022-42889-Text4Shell-Exploit-POC)
@@ -54472,6 +54477,7 @@
 <code>The vsf_filename_passes_filter function in ls.c in vsftpd before 2.3.3 allows remote authenticated users to cause a denial of service (CPU consumption and process slot exhaustion) via crafted glob expressions in STAT commands in multiple FTP sessions, a different vulnerability than CVE-2010-2632.
 </code>
 
+- [s3mPr1linux/CVE-2011-0762](https://github.com/s3mPr1linux/CVE-2011-0762)
 - [AndreyFreitass/CVE-2011-0762](https://github.com/AndreyFreitass/CVE-2011-0762)
 
 ### CVE-2011-1237 (2011-04-13)
