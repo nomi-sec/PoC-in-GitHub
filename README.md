@@ -4657,7 +4657,7 @@
 </code>
 
 - [horizon3ai/CVE-2024-9465](https://github.com/horizon3ai/CVE-2024-9465)
-- [0gitusername/CVE-2024-9465](https://github.com/0gitusername/CVE-2024-9465)
+- [Qlng/CVE-2024-9465](https://github.com/Qlng/CVE-2024-9465)
 - [XiaomingX/cve-2024-9465-poc](https://github.com/XiaomingX/cve-2024-9465-poc)
 
 ### CVE-2024-9466 (2024-10-09)
@@ -10605,7 +10605,6 @@
 - [nma-io/CVE-2024-47176](https://github.com/nma-io/CVE-2024-47176)
 - [gumerzzzindo/CVE-2024-47176](https://github.com/gumerzzzindo/CVE-2024-47176)
 - [MalwareTech/CVE-2024-47176-Scanner](https://github.com/MalwareTech/CVE-2024-47176-Scanner)
-- [AxthonyV/CVE-2024-47176](https://github.com/AxthonyV/CVE-2024-47176)
 - [gianlu111/CUPS-CVE-2024-47176](https://github.com/gianlu111/CUPS-CVE-2024-47176)
 - [0x7556/CVE-2024-47176](https://github.com/0x7556/CVE-2024-47176)
 
@@ -14797,7 +14796,6 @@
 - [vulncheck-oss/cve-2023-22527](https://github.com/vulncheck-oss/cve-2023-22527)
 - [BBD-YZZ/Confluence-RCE](https://github.com/BBD-YZZ/Confluence-RCE)
 - [kh4sh3i/CVE-2023-22527](https://github.com/kh4sh3i/CVE-2023-22527)
-- [AxthonyV/CVE-2023-22527](https://github.com/AxthonyV/CVE-2023-22527)
 - [thompson005/CVE-2023-22527](https://github.com/thompson005/CVE-2023-22527)
 
 ### CVE-2023-22551 (2023-01-01)
@@ -15358,6 +15356,7 @@
 - [tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL](https://github.com/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL)
 - [dhmosfunk/CVE-2023-25690-POC](https://github.com/dhmosfunk/CVE-2023-25690-POC)
 - [thanhlam-attt/CVE-2023-25690](https://github.com/thanhlam-attt/CVE-2023-25690)
+- [oOCyginXOo/CVE-2023-25690-POC](https://github.com/oOCyginXOo/CVE-2023-25690-POC)
 
 ### CVE-2023-25725 (2023-02-14)
 
@@ -41995,8 +41994,8 @@
 - [chromanite/CVE-2019-9193-PostgreSQL-9.3-11.7](https://github.com/chromanite/CVE-2019-9193-PostgreSQL-9.3-11.7)
 - [paulotrindadec/CVE-2019-9193](https://github.com/paulotrindadec/CVE-2019-9193)
 - [geniuszly/CVE-2019-9193](https://github.com/geniuszly/CVE-2019-9193)
-- [AxthonyV/CVE-2019-9193](https://github.com/AxthonyV/CVE-2019-9193)
 - [A0be/CVE-2019-9193](https://github.com/A0be/CVE-2019-9193)
+- [jhnhnck/CVE-2019-9193](https://github.com/jhnhnck/CVE-2019-9193)
 - [corsisechero/CVE-2019-9193byVulHub](https://github.com/corsisechero/CVE-2019-9193byVulHub)
 
 ### CVE-2019-9194 (2019-02-26)
@@ -48969,7 +48968,6 @@
 - [Cappricio-Securities/CVE-2017-7269](https://github.com/Cappricio-Securities/CVE-2017-7269)
 - [VanishedPeople/CVE-2017-7269](https://github.com/VanishedPeople/CVE-2017-7269)
 - [geniuszly/CVE-2017-7269](https://github.com/geniuszly/CVE-2017-7269)
-- [AxthonyV/CVE-2017-7269](https://github.com/AxthonyV/CVE-2017-7269)
 
 ### CVE-2017-7308 (2017-03-29)
 
