@@ -420,6 +420,7 @@
 - [Praison001/CVE-2025-3248](https://github.com/Praison001/CVE-2025-3248)
 - [vigilante-1337/CVE-2025-3248](https://github.com/vigilante-1337/CVE-2025-3248)
 - [Vip3rLi0n/CVE-2025-3248](https://github.com/Vip3rLi0n/CVE-2025-3248)
+- [tiemio/RCE-CVE-2025-3248](https://github.com/tiemio/RCE-CVE-2025-3248)
 
 ### CVE-2025-3568 (2025-04-14)
 
@@ -579,7 +580,7 @@
 <code>Insufficient policy enforcement in Loader in Google Chrome prior to 136.0.7103.113 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)
 </code>
 
-- [speinador/CVE-2025-4664-](https://github.com/speinador/CVE-2025-4664-)
+- [speinador/CVE-2025-4664](https://github.com/speinador/CVE-2025-4664)
 - [Leviticus-Triage/ChromSploit-Framework](https://github.com/Leviticus-Triage/ChromSploit-Framework)
 
 ### CVE-2025-4686
@@ -628,6 +629,9 @@
 
 ### CVE-2025-5329
 - [sahici/CVE-2025-5329](https://github.com/sahici/CVE-2025-5329)
+
+### CVE-2025-12654
+- [Quelvara/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Quelvara/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -4607,6 +4611,7 @@
 - [z3k0sec/File-Read-CVE-2024-9264](https://github.com/z3k0sec/File-Read-CVE-2024-9264)
 - [z3k0sec/CVE-2024-9264-RCE-Exploit](https://github.com/z3k0sec/CVE-2024-9264-RCE-Exploit)
 - [punitdarji/Grafana-CVE-2024-9264](https://github.com/punitdarji/Grafana-CVE-2024-9264)
+- [Cythonic1/CVE-2024-9264](https://github.com/Cythonic1/CVE-2024-9264)
 
 ### CVE-2024-9290 (2024-12-13)
 
