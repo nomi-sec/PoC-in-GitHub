@@ -901,7 +901,6 @@
 </code>
 
 - [apt-007/12345](https://github.com/apt-007/12345)
-- [windz3r0day/CVE-2025-24085](https://github.com/windz3r0day/CVE-2025-24085)
 
 ### CVE-2025-24104 (2025-01-27)
 
