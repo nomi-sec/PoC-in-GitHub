@@ -16391,7 +16391,6 @@
 - [griffinsectio/CVE-2023-30800_PoC](https://github.com/griffinsectio/CVE-2023-30800_PoC)
 - [griffinsectio/CVE-2023-30800_PoC_go](https://github.com/griffinsectio/CVE-2023-30800_PoC_go)
 - [diemaxxing/cve-2023-30800-multithread-doser](https://github.com/diemaxxing/cve-2023-30800-multithread-doser)
-- [AxthonyV/MikroTik](https://github.com/AxthonyV/MikroTik)
 
 ### CVE-2023-30839 (2023-04-25)
 
