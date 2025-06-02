@@ -2257,6 +2257,9 @@
 
 - [harish0x/CVE-2025-44108-SXSS](https://github.com/harish0x/CVE-2025-44108-SXSS)
 
+### CVE-2025-44148
+- [barisbaydur/CVE-2025-44148](https://github.com/barisbaydur/CVE-2025-44148)
+
 ### CVE-2025-44228
 - [Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
 - [Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
@@ -3412,7 +3415,6 @@
 <code>DHCP can add routes to a client’s routing table via the classless static route option (121). VPN-based security solutions that rely on routes to redirect traffic can be forced to leak traffic over the physical interface. An attacker on the same local network can read, disrupt, or possibly modify network traffic that was expected to be protected by the VPN.
 </code>
 
-- [Wh1t3Fox/CVE-2024-3661](https://github.com/Wh1t3Fox/CVE-2024-3661)
 - [Roundthe-clock/CVE-2024-3661VPN](https://github.com/Roundthe-clock/CVE-2024-3661VPN)
 
 ### CVE-2024-3673 (2024-08-30)
@@ -9456,6 +9458,13 @@
 </code>
 
 - [9874621368/FOG-Project](https://github.com/9874621368/FOG-Project)
+
+### CVE-2024-39924 (2024-09-13)
+
+<code>An issue was discovered in Vaultwarden (formerly Bitwarden_RS) 1.30.3. A vulnerability has been identified in the authentication and authorization process of the endpoint responsible for altering the metadata of an emergency access. It permits an attacker with granted emergency access to escalate their privileges by changing the access level and modifying the wait time. Consequently, the attacker can gain full control over the vault (when only intended to have read access) while bypassing the necessary wait period.
+</code>
+
+- [l4rm4nd/PoC-CVE-2024-39924](https://github.com/l4rm4nd/PoC-CVE-2024-39924)
 
 ### CVE-2024-39929 (2024-07-04)
 
@@ -29341,7 +29350,6 @@
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [arthepsy/CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034)
 - [dzonerzy/poc-cve-2021-4034](https://github.com/dzonerzy/poc-cve-2021-4034)
-- [Ayrx/CVE-2021-4034](https://github.com/Ayrx/CVE-2021-4034)
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
 - [An00bRektn/CVE-2021-4034](https://github.com/An00bRektn/CVE-2021-4034)
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
@@ -34416,6 +34424,7 @@
 - [KirkDJohnson/Wireshark](https://github.com/KirkDJohnson/Wireshark)
 - [YangHyperData/LOGJ4_PocShell_CVE-2021-44228](https://github.com/YangHyperData/LOGJ4_PocShell_CVE-2021-44228)
 - [Hoanle396/CVE-2021-44228-demo](https://github.com/Hoanle396/CVE-2021-44228-demo)
+- [NikitaPark/Log4Shell-PoC-Application](https://github.com/NikitaPark/Log4Shell-PoC-Application)
 - [tadash10/Exploiting-CVE-2021-44228-Log4Shell-in-a-Banking-Environment](https://github.com/tadash10/Exploiting-CVE-2021-44228-Log4Shell-in-a-Banking-Environment)
 - [asd58584388/CVE-2021-44228](https://github.com/asd58584388/CVE-2021-44228)
 - [OtisSymbos/CVE-2021-44228-Log4Shell-](https://github.com/OtisSymbos/CVE-2021-44228-Log4Shell-)
