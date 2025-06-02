@@ -54479,7 +54479,7 @@
 </code>
 
 - [s3mPr1linux/CVE-2011-0762](https://github.com/s3mPr1linux/CVE-2011-0762)
-- [AndreyFreitass/CVE-2011-0762](https://github.com/AndreyFreitass/CVE-2011-0762)
+- [AndreyFreitazz/CVE-2011-0762](https://github.com/AndreyFreitazz/CVE-2011-0762)
 
 ### CVE-2011-1237 (2011-04-13)
 
