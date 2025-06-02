@@ -3630,6 +3630,7 @@
 - [olebris/CVE-2024-4577](https://github.com/olebris/CVE-2024-4577)
 - [AlperenY-cs/CVE-2024-4577](https://github.com/AlperenY-cs/CVE-2024-4577)
 - [charis3306/CVE-2024-4577](https://github.com/charis3306/CVE-2024-4577)
+- [l0n3m4n/CVE-2024-4577-RCE](https://github.com/l0n3m4n/CVE-2024-4577-RCE)
 - [bibo318/CVE-2024-4577-RCE-ATTACK](https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK)
 - [gmh5225/CVE-2024-4577-PHP-RCE](https://github.com/gmh5225/CVE-2024-4577-PHP-RCE)
 - [a-roshbaik/CVE-2024-4577](https://github.com/a-roshbaik/CVE-2024-4577)
@@ -3894,7 +3895,6 @@
 <code>The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.14.1 via deserialization of untrusted input from the 'give_title' parameter. This makes it possible for unauthenticated attackers to inject a PHP Object. The additional presence of a POP chain allows attackers to execute code remotely, and to delete arbitrary files.
 </code>
 
-- [0xb0mb3r/CVE-2024-5932-PoC](https://github.com/0xb0mb3r/CVE-2024-5932-PoC)
 - [EQSTLab/CVE-2024-5932](https://github.com/EQSTLab/CVE-2024-5932)
 - [OxLmahdi/cve-2024-5932](https://github.com/OxLmahdi/cve-2024-5932)
 
@@ -4028,6 +4028,7 @@
 - [MrR0b0t19/CVE-2024-6387-Exploit-POC](https://github.com/MrR0b0t19/CVE-2024-6387-Exploit-POC)
 - [th3gokul/CVE-2024-6387](https://github.com/th3gokul/CVE-2024-6387)
 - [n1cks0n/Test_CVE-2024-6387](https://github.com/n1cks0n/Test_CVE-2024-6387)
+- [l0n3m4n/CVE-2024-6387](https://github.com/l0n3m4n/CVE-2024-6387)
 - [RickGeex/CVE-2024-6387-Checker](https://github.com/RickGeex/CVE-2024-6387-Checker)
 - [xonoxitron/regreSSHion-checker](https://github.com/xonoxitron/regreSSHion-checker)
 - [BrandonLynch2402/cve-2024-6387-nuclei-template](https://github.com/BrandonLynch2402/cve-2024-6387-nuclei-template)
@@ -4424,6 +4425,7 @@
 <code>The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.16.1 via deserialization of untrusted input via several parameters like 'give_title' and 'card_address'. This makes it possible for unauthenticated attackers to inject a PHP Object. The additional presence of a POP chain allows attackers to delete arbitrary files and achieve remote code execution. This is essentially the same vulnerability as CVE-2024-5932, however, it was discovered the the presence of stripslashes_deep on user_info allows the is_serialized check to be bypassed. This issue was mostly patched in 3.16.1, but further hardening was added in 3.16.2.
 </code>
 
+- [0xb0mb3r/CVE-2024-8353-PoC](https://github.com/0xb0mb3r/CVE-2024-8353-PoC)
 - [EQSTLab/CVE-2024-8353](https://github.com/EQSTLab/CVE-2024-8353)
 
 ### CVE-2024-8381 (2024-09-03)
@@ -6058,6 +6060,7 @@
 
 - [mbadanoiu/CVE-2024-22274](https://github.com/mbadanoiu/CVE-2024-22274)
 - [ninhpn1337/CVE-2024-22274](https://github.com/ninhpn1337/CVE-2024-22274)
+- [l0n3m4n/CVE-2024-22274-RCE](https://github.com/l0n3m4n/CVE-2024-22274-RCE)
 - [Mustafa1986/CVE-2024-22274-RCE](https://github.com/Mustafa1986/CVE-2024-22274-RCE)
 
 ### CVE-2024-22275 (2024-05-21)
@@ -10603,6 +10606,7 @@
 - [aytackalinci/CVE-2024-47176](https://github.com/aytackalinci/CVE-2024-47176)
 - [lkarlslund/jugular](https://github.com/lkarlslund/jugular)
 - [nma-io/CVE-2024-47176](https://github.com/nma-io/CVE-2024-47176)
+- [l0n3m4n/CVE-2024-47176](https://github.com/l0n3m4n/CVE-2024-47176)
 - [gumerzzzindo/CVE-2024-47176](https://github.com/gumerzzzindo/CVE-2024-47176)
 - [MalwareTech/CVE-2024-47176-Scanner](https://github.com/MalwareTech/CVE-2024-47176-Scanner)
 - [gianlu111/CUPS-CVE-2024-47176](https://github.com/gianlu111/CUPS-CVE-2024-47176)
@@ -24838,6 +24842,7 @@
 
 - [miko550/CVE-2022-29078](https://github.com/miko550/CVE-2022-29078)
 - [shurochka1396/expluatation_CVE-2022-29078](https://github.com/shurochka1396/expluatation_CVE-2022-29078)
+- [l0n3m4n/CVE-2022-29078](https://github.com/l0n3m4n/CVE-2022-29078)
 - [chuckdu21/CVE-2022-29078](https://github.com/chuckdu21/CVE-2022-29078)
 
 ### CVE-2022-29154 (2022-08-02)
@@ -44306,9 +44311,7 @@
 - [oways/CVE-2019-19781](https://github.com/oways/CVE-2019-19781)
 - [becrevex/Citrix_CVE-2019-19781](https://github.com/becrevex/Citrix_CVE-2019-19781)
 - [unknowndevice64/Exploits_CVE-2019-19781](https://github.com/unknowndevice64/Exploits_CVE-2019-19781)
-- [haxrob/citrixmash_scanner](https://github.com/haxrob/citrixmash_scanner)
 - [jamesjguthrie/Shitrix-CVE-2019-19781](https://github.com/jamesjguthrie/Shitrix-CVE-2019-19781)
-- [haxrob/CVE-2019-19781](https://github.com/haxrob/CVE-2019-19781)
 - [hollerith/CVE-2019-19781](https://github.com/hollerith/CVE-2019-19781)
 - [aqhmal/CVE-2019-19781](https://github.com/aqhmal/CVE-2019-19781)
 - [MalwareTech/CitrixHoneypot](https://github.com/MalwareTech/CitrixHoneypot)
@@ -44319,6 +44322,7 @@
 - [DanielWep/CVE-NetScalerFileSystemCheck](https://github.com/DanielWep/CVE-NetScalerFileSystemCheck)
 - [Castaldio86/Detect-CVE-2019-19781](https://github.com/Castaldio86/Detect-CVE-2019-19781)
 - [j81blog/ADC-19781](https://github.com/j81blog/ADC-19781)
+- [awesome-security/citrixmash_scanner](https://github.com/awesome-security/citrixmash_scanner)
 - [b510/CVE-2019-19781](https://github.com/b510/CVE-2019-19781)
 - [redscan/CVE-2019-19781](https://github.com/redscan/CVE-2019-19781)
 - [digitalgangst/massCitrix](https://github.com/digitalgangst/massCitrix)
@@ -46360,6 +46364,7 @@
 - [batmoshka55/CVE-2018-9995_dvr_credentials](https://github.com/batmoshka55/CVE-2018-9995_dvr_credentials)
 - [dego905/Cam](https://github.com/dego905/Cam)
 - [A-Alabdoo/CVE-DVr](https://github.com/A-Alabdoo/CVE-DVr)
+- [its-anya/DVR_Credential_Scanner](https://github.com/its-anya/DVR_Credential_Scanner)
 
 ### CVE-2018-10097 (2018-04-13)
 
@@ -48724,8 +48729,8 @@
 </code>
 
 - [CerberusSecurity/CVE-2017-5689](https://github.com/CerberusSecurity/CVE-2017-5689)
-- [haxrob/amthoneypot](https://github.com/haxrob/amthoneypot)
 - [Bijaye/intel_amt_bypass](https://github.com/Bijaye/intel_amt_bypass)
+- [MlSebrell/amthoneypot](https://github.com/MlSebrell/amthoneypot)
 - [embedi/amt_auth_bypass_poc](https://github.com/embedi/amt_auth_bypass_poc)
 - [TheWay-hue/CVE-2017-5689-Checker](https://github.com/TheWay-hue/CVE-2017-5689-Checker)
 
@@ -54479,7 +54484,7 @@
 </code>
 
 - [s3mPr1linux/CVE-2011-0762](https://github.com/s3mPr1linux/CVE-2011-0762)
-- [AndreyFreitazz/CVE-2011-0762](https://github.com/AndreyFreitazz/CVE-2011-0762)
+- [AndreyFreitax/CVE-2011-0762](https://github.com/AndreyFreitax/CVE-2011-0762)
 
 ### CVE-2011-1237 (2011-04-13)
 
