@@ -487,6 +487,7 @@
 
 - [NightBloodz/CVE-2025-4123](https://github.com/NightBloodz/CVE-2025-4123)
 - [kk12-30/CVE-2025-4123](https://github.com/kk12-30/CVE-2025-4123)
+- [imbas007/CVE-2025-4123-template](https://github.com/imbas007/CVE-2025-4123-template)
 
 ### CVE-2025-4190 (2025-05-17)
 
@@ -2306,6 +2307,9 @@
 ### CVE-2025-46204
 - [spbavarva/CVE-2025-46204](https://github.com/spbavarva/CVE-2025-46204)
 
+### CVE-2025-46206
+- [Landw-hub/CVE-2025-46206](https://github.com/Landw-hub/CVE-2025-46206)
+
 ### CVE-2025-46271 (2025-04-24)
 
 <code>UNI-NMS-Lite is vulnerable to a command injection attack that could \nallow an unauthenticated attacker to read or manipulate device data.
@@ -2319,13 +2323,6 @@
 </code>
 
 - [nov-1337/CVE-2025-46657](https://github.com/nov-1337/CVE-2025-46657)
-
-### CVE-2025-46701 (2025-05-29)
-
-<code>Improper Handling of Case Sensitivity vulnerability in Apache Tomcat's GCI servlet allows security constraint bypass of security constraints that apply to the pathInfo component of a URI mapped to the CGI servlet.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.6, from 10.1.0-M1 through 10.1.40, from 9.0.0.M1 through 9.0.104.\n\nUsers are recommended to upgrade to version 11.0.7, 10.1.41 or 9.0.105, which fixes the issue.
-</code>
-
-- [gregk4sec/CVE-2025-46701](https://github.com/gregk4sec/CVE-2025-46701)
 
 ### CVE-2025-46721 (2025-05-13)
 
@@ -53380,6 +53377,7 @@
 </code>
 
 - [andyfeili/CVE-2014-4688](https://github.com/andyfeili/CVE-2014-4688)
+- [fenix0499/CVE-2014-4688-NodeJs-Exploit](https://github.com/fenix0499/CVE-2014-4688-NodeJs-Exploit)
 
 ### CVE-2014-4699 (2014-07-09)
 
