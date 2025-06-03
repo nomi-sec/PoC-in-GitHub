@@ -375,6 +375,13 @@
 
 - [Yucaerin/CVE-2025-2907](https://github.com/Yucaerin/CVE-2025-2907)
 
+### CVE-2025-2945 (2025-04-03)
+
+<code>Remote Code Execution security vulnerability in pgAdmin 4  (Query Tool and Cloud Deployment modules).\n\nThe vulnerability is associated with the 2 POST endpoints; /sqleditor/query_tool/download, where the query_commited parameter and /cloud/deploy endpoint, where the high_availability parameter is unsafely passed to the Python eval() function, allowing arbitrary code execution.\n\n\nThis issue affects pgAdmin 4: before 9.2.
+</code>
+
+- [abrewer251/CVE-2025-2945_PoC](https://github.com/abrewer251/CVE-2025-2945_PoC)
+
 ### CVE-2025-2995 (2025-03-31)
 
 <code>In Tenda FH1202 1.2.0.14(408) wurde eine kritische Schwachstelle gefunden. Hierbei betrifft es unbekannten Programmcode der Datei /goform/SysToolChangePwd der Komponente Web Management Interface. Mittels Manipulieren mit unbekannten Daten kann eine improper access controls-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
@@ -632,6 +639,13 @@
 ### CVE-2025-5329
 - [sahici/CVE-2025-5329](https://github.com/sahici/CVE-2025-5329)
 
+### CVE-2025-5419 (2025-06-02)
+
+<code>Out of bounds read and write in V8 in Google Chrome prior to 137.0.7151.68 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [takeshirisulu/CVE-2025-5419](https://github.com/takeshirisulu/CVE-2025-5419)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -639,6 +653,13 @@
 
 - [mbadanoiu/CVE-2025-20029](https://github.com/mbadanoiu/CVE-2025-20029)
 - [schoi1337/CVE-2025-20029-simulation](https://github.com/schoi1337/CVE-2025-20029-simulation)
+
+### CVE-2025-20188 (2025-05-07)
+
+<code>A vulnerability in the Out-of-Band Access Point (AP) Image Download feature of Cisco IOS XE Software for Wireless LAN Controllers (WLCs) could allow an unauthenticated, remote attacker to upload arbitrary files to an affected system.\r\n\r This vulnerability is due to the presence of a hard-coded JSON Web Token (JWT) on an affected system. An attacker could exploit this vulnerability by sending crafted HTTPS requests to the AP image download interface. A successful exploit could allow the attacker to upload files, perform path traversal, and execute arbitrary commands with root privileges. \r\n\r Note: For exploitation to be successful, the Out-of-Band AP Image Download feature must be enabled on the device. It is not enabled by default.
+</code>
+
+- [takeshirisulu/CVE-2025-20188](https://github.com/takeshirisulu/CVE-2025-20188)
 
 ### CVE-2025-21204 (2025-04-08)
 
@@ -714,6 +735,13 @@
 </code>
 
 - [1ucky7/cve-2025-22223-demo-1.0.0](https://github.com/1ucky7/cve-2025-22223-demo-1.0.0)
+
+### CVE-2025-22224 (2025-03-04)
+
+<code>VMware ESXi, and Workstation contain a TOCTOU (Time-of-Check Time-of-Use) vulnerability that leads to an out-of-bounds write. A malicious actor with local administrative privileges on a virtual machine may exploit this issue to execute code as the virtual machine's VMX process running on the host.
+</code>
+
+- [takeshirisulu/CVE-2025-22224](https://github.com/takeshirisulu/CVE-2025-22224)
 
 ### CVE-2025-22352 (2025-01-07)
 
@@ -1697,7 +1725,7 @@
 - [kOaDT/poc-cve-2025-29927](https://github.com/kOaDT/poc-cve-2025-29927)
 - [yugo-eliatrope/test-cve-2025-29927](https://github.com/yugo-eliatrope/test-cve-2025-29927)
 - [emadshanab/CVE-2025-29927](https://github.com/emadshanab/CVE-2025-29927)
-- [hyperledger-web3j/CVE-2025-29927](https://github.com/hyperledger-web3j/CVE-2025-29927)
+- [w3shi/CVE-2025-29927](https://github.com/w3shi/CVE-2025-29927)
 - [aleongx/CVE-2025-29927](https://github.com/aleongx/CVE-2025-29927)
 - [nicknisi/next-attack](https://github.com/nicknisi/next-attack)
 - [jmbowes/NextSecureScan](https://github.com/jmbowes/NextSecureScan)
@@ -2261,7 +2289,11 @@
 
 - [harish0x/CVE-2025-44108-SXSS](https://github.com/harish0x/CVE-2025-44108-SXSS)
 
-### CVE-2025-44148
+### CVE-2025-44148 (2025-06-03)
+
+<code>Cross Site Scripting (XSS) vulnerability in MailEnable before v10 allows a remote attacker to execute arbitrary code via the failure.aspx component
+</code>
+
 - [barisbaydur/CVE-2025-44148](https://github.com/barisbaydur/CVE-2025-44148)
 
 ### CVE-2025-44228
@@ -11697,6 +11729,7 @@
 - [hopsypopsy8/CVE-2024-53677-Exploitation](https://github.com/hopsypopsy8/CVE-2024-53677-Exploitation)
 - [shishirghimir/CVE-2024-53677-Exploit](https://github.com/shishirghimir/CVE-2024-53677-Exploit)
 - [WhoisBulud/CVE-2024-53677](https://github.com/WhoisBulud/CVE-2024-53677)
+- [r007sec/CVE-2024-53677](https://github.com/r007sec/CVE-2024-53677)
 
 ### CVE-2024-53691 (2024-12-06)
 
@@ -15660,6 +15693,7 @@
 - [btar1gan/exploit_CVE-2023-27163](https://github.com/btar1gan/exploit_CVE-2023-27163)
 - [G4sp4rCS/htb-sau-automated](https://github.com/G4sp4rCS/htb-sau-automated)
 - [lukehebe/CVE-2023-27163](https://github.com/lukehebe/CVE-2023-27163)
+- [J0ey17/Exploit_CVE-2023-27163](https://github.com/J0ey17/Exploit_CVE-2023-27163)
 
 ### CVE-2023-27216 (2023-04-12)
 
@@ -29883,6 +29917,7 @@
 - [ZTK-009/CVE-2021-21972](https://github.com/ZTK-009/CVE-2021-21972)
 - [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
 - [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
+- [haidv35/CVE-2021-21972](https://github.com/haidv35/CVE-2021-21972)
 - [TAI-REx/CVE-2021-21972](https://github.com/TAI-REx/CVE-2021-21972)
 - [orangmuda/CVE-2021-21972](https://github.com/orangmuda/CVE-2021-21972)
 - [user16-et/cve-2021-21972_PoC](https://github.com/user16-et/cve-2021-21972_PoC)
@@ -29955,6 +29990,7 @@
 - [xnianq/cve-2021-21985_exp](https://github.com/xnianq/cve-2021-21985_exp)
 - [daedalus/CVE-2021-21985](https://github.com/daedalus/CVE-2021-21985)
 - [testanull/Project_CVE-2021-21985_PoC](https://github.com/testanull/Project_CVE-2021-21985_PoC)
+- [haidv35/CVE-2021-21985](https://github.com/haidv35/CVE-2021-21985)
 - [aristosMiliaressis/CVE-2021-21985](https://github.com/aristosMiliaressis/CVE-2021-21985)
 - [sknux/CVE-2021-21985_PoC](https://github.com/sknux/CVE-2021-21985_PoC)
 
@@ -41659,6 +41695,7 @@
 - [devzspy/CVE-2019-7214](https://github.com/devzspy/CVE-2019-7214)
 - [andyfeili/-CVE-2019-7214](https://github.com/andyfeili/-CVE-2019-7214)
 - [Drew-Alleman/CVE-2019-7214](https://github.com/Drew-Alleman/CVE-2019-7214)
+- [ElusiveHacker/CVE-2019-7214](https://github.com/ElusiveHacker/CVE-2019-7214)
 
 ### CVE-2019-7216 (2019-01-31)
 
