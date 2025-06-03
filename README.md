@@ -7568,6 +7568,13 @@
 - [saurabh2088/expat_2_1_0_CVE-2024-28757](https://github.com/saurabh2088/expat_2_1_0_CVE-2024-28757)
 - [saurabh2088/expat_2_1_1_CVE-2024-28757](https://github.com/saurabh2088/expat_2_1_1_CVE-2024-28757)
 
+### CVE-2024-28784 (2024-03-27)
+
+<code>IBM QRadar SIEM 7.5 is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.  IBM X-Force ID:  285893.
+</code>
+
+- [CainSoulless/CVE-2024-28784](https://github.com/CainSoulless/CVE-2024-28784)
+
 ### CVE-2024-28987 (2024-08-21)
 
 <code>The SolarWinds Web Help Desk (WHD) software is affected by a hardcoded credential vulnerability, allowing remote unauthenticated user to access internal functionality and modify data.
@@ -15902,7 +15909,7 @@
 <code>Windows Kernel Elevation of Privilege Vulnerability
 </code>
 
-- [CrazyDaveX86/CVE-2023-28293](https://github.com/CrazyDaveX86/CVE-2023-28293)
+- [HexilionLabs/CVE-2023-28293](https://github.com/HexilionLabs/CVE-2023-28293)
 
 ### CVE-2023-28303 (2023-06-13)
 
@@ -55143,6 +55150,7 @@
 </code>
 
 - [thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts)
+- [NoTrustedx/Exploit_MS08-067](https://github.com/NoTrustedx/Exploit_MS08-067)
 
 ### CVE-2008-4609 (2008-10-20)
 
