@@ -401,6 +401,7 @@
 - [SUPRAAA-1337/CVE-2025-3102](https://github.com/SUPRAAA-1337/CVE-2025-3102)
 - [SUPRAAA-1337/CVE-2025-3102_v2](https://github.com/SUPRAAA-1337/CVE-2025-3102_v2)
 - [SUPRAAA-1337/CVE-2025-3102-exploit](https://github.com/SUPRAAA-1337/CVE-2025-3102-exploit)
+- [0xgh057r3c0n/CVE-2025-3102](https://github.com/0xgh057r3c0n/CVE-2025-3102)
 
 ### CVE-2025-3243 (2025-04-04)
 
@@ -631,9 +632,6 @@
 ### CVE-2025-5329
 - [sahici/CVE-2025-5329](https://github.com/sahici/CVE-2025-5329)
 
-### CVE-2025-12654
-- [Quelvara/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Quelvara/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
-
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -733,7 +731,6 @@
 - [N4SL1/CVE-2025-22457-PoC](https://github.com/N4SL1/CVE-2025-22457-PoC)
 - [sfewer-r7/CVE-2025-22457](https://github.com/sfewer-r7/CVE-2025-22457)
 - [securekomodo/CVE-2025-22457](https://github.com/securekomodo/CVE-2025-22457)
-- [llussiess/CVE-2025-22457](https://github.com/llussiess/CVE-2025-22457)
 - [TRone-ux/CVE-2025-22457](https://github.com/TRone-ux/CVE-2025-22457)
 
 ### CVE-2025-22510 (2025-01-09)
@@ -1927,7 +1924,6 @@
 </code>
 
 - [Immersive-Labs-Sec/CVE-2025-31161](https://github.com/Immersive-Labs-Sec/CVE-2025-31161)
-- [llussiess/CVE-2025-31161](https://github.com/llussiess/CVE-2025-31161)
 - [TX-One/CVE-2025-31161](https://github.com/TX-One/CVE-2025-31161)
 - [SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825](https://github.com/SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825)
 - [SUPRAAA-1337/CVE-2025-31161_exploit](https://github.com/SUPRAAA-1337/CVE-2025-31161_exploit)
@@ -2142,6 +2138,13 @@
 
 - [exfil0/CVE-2025-32756-POC](https://github.com/exfil0/CVE-2025-32756-POC)
 
+### CVE-2025-32873 (2025-05-08)
+
+<code>An issue was discovered in Django 4.2 before 4.2.21, 5.1 before 5.1.9, and 5.2 before 5.2.1. The django.utils.html.strip_tags() function is vulnerable to a potential denial-of-service (slow performance) when processing inputs containing large sequences of incomplete HTML tags. The template filter striptags is also vulnerable, because it is built on top of strip_tags().
+</code>
+
+- [Apollo-R3bot/django-vulnerability-CVE-2025-32873](https://github.com/Apollo-R3bot/django-vulnerability-CVE-2025-32873)
+
 ### CVE-2025-32965 (2025-04-22)
 
 <code>xrpl.js is a JavaScript/TypeScript API for interacting with the XRP Ledger in Node.js and the browser. Versions 4.2.1, 4.2.2, 4.2.3, and 4.2.4 of xrpl.js were compromised and contained malicious code designed to exfiltrate private keys. Version 2.14.2 is also malicious, though it is less likely to lead to exploitation as it is not compatible with other 2.x versions. Anyone who used one of these versions should stop immediately and rotate any private keys or secrets used with affected systems. Users of xrpl.js should pgrade to version 4.2.5 or 2.14.3 to receive a patch. To secure funds, think carefully about whether any keys may have been compromised by this supply chain attack, and mitigate by sending funds to secure wallets, and/or rotating keys. If any account's master key is potentially compromised, disable the key.
@@ -2279,6 +2282,9 @@
 
 - [xp3s/CVE-2025-45250](https://github.com/xp3s/CVE-2025-45250)
 - [Anike-x/CVE-2025-45250](https://github.com/Anike-x/CVE-2025-45250)
+
+### CVE-2025-45781
+- [ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC](https://github.com/ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC)
 
 ### CVE-2025-46078 (2025-05-29)
 
@@ -3239,6 +3245,7 @@
 - [XiaomingX/cve-2024-3094-xz-backdoor-exploit](https://github.com/XiaomingX/cve-2024-3094-xz-backdoor-exploit)
 - [been22426/CVE-2024-3094](https://github.com/been22426/CVE-2024-3094)
 - [laxmikumari615/Linux---Security---Detect-and-Mitigate-CVE-2024-3094](https://github.com/laxmikumari615/Linux---Security---Detect-and-Mitigate-CVE-2024-3094)
+- [valeriot30/cve-2024-3094](https://github.com/valeriot30/cve-2024-3094)
 
 ### CVE-2024-3105 (2024-06-15)
 
@@ -5918,7 +5925,6 @@
 </code>
 
 - [CyberSecuritist/CVE-2024-21754-Forti-RCE](https://github.com/CyberSecuritist/CVE-2024-21754-Forti-RCE)
-- [llussiess/CVE-2024-21754](https://github.com/llussiess/CVE-2024-21754)
 
 ### CVE-2024-21762 (2024-02-09)
 
