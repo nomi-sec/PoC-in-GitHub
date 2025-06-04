@@ -306,6 +306,7 @@
 </code>
 
 - [verylazytech/CVE-2025-2539](https://github.com/verylazytech/CVE-2025-2539)
+- [RootHarpy/CVE-2025-2539](https://github.com/RootHarpy/CVE-2025-2539)
 
 ### CVE-2025-2563 (2025-04-14)
 
@@ -639,13 +640,6 @@
 ### CVE-2025-5329
 - [sahici/CVE-2025-5329](https://github.com/sahici/CVE-2025-5329)
 
-### CVE-2025-5419 (2025-06-02)
-
-<code>Out of bounds read and write in V8 in Google Chrome prior to 137.0.7151.68 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
-</code>
-
-- [takeshirisulu/CVE-2025-5419](https://github.com/takeshirisulu/CVE-2025-5419)
-
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -653,13 +647,6 @@
 
 - [mbadanoiu/CVE-2025-20029](https://github.com/mbadanoiu/CVE-2025-20029)
 - [schoi1337/CVE-2025-20029-simulation](https://github.com/schoi1337/CVE-2025-20029-simulation)
-
-### CVE-2025-20188 (2025-05-07)
-
-<code>A vulnerability in the Out-of-Band Access Point (AP) Image Download feature of Cisco IOS XE Software for Wireless LAN Controllers (WLCs) could allow an unauthenticated, remote attacker to upload arbitrary files to an affected system.\r\n\r This vulnerability is due to the presence of a hard-coded JSON Web Token (JWT) on an affected system. An attacker could exploit this vulnerability by sending crafted HTTPS requests to the AP image download interface. A successful exploit could allow the attacker to upload files, perform path traversal, and execute arbitrary commands with root privileges. \r\n\r Note: For exploitation to be successful, the Out-of-Band AP Image Download feature must be enabled on the device. It is not enabled by default.
-</code>
-
-- [takeshirisulu/CVE-2025-20188](https://github.com/takeshirisulu/CVE-2025-20188)
 
 ### CVE-2025-21204 (2025-04-08)
 
@@ -729,19 +716,19 @@
 
 - [hoefler02/CVE-2025-21756](https://github.com/hoefler02/CVE-2025-21756)
 
+### CVE-2025-22056 (2025-04-16)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nft_tunnel: fix geneve_opt type confusion addition\n\nWhen handling multiple NFTA_TUNNEL_KEY_OPTS_GENEVE attributes, the\nparsing logic should place every geneve_opt structure one by one\ncompactly. Hence, when deciding the next geneve_opt position, the\npointer addition should be in units of char *.\n\nHowever, the current implementation erroneously does type conversion\nbefore the addition, which will lead to heap out-of-bounds write.\n\n[    6.989857] ==================================================================\n[    6.990293] BUG: KASAN: slab-out-of-bounds in nft_tunnel_obj_init+0x977/0xa70\n[    6.990725] Write of size 124 at addr ffff888005f18974 by task poc/178\n[    6.991162]\n[    6.991259] CPU: 0 PID: 178 Comm: poc-oob-write Not tainted 6.1.132 #1\n[    6.991655] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.0-0-gd239552ce722-prebuilt.qemu.org 04/01/2014\n[    6.992281] Call Trace:\n[    6.992423]  &lt;TASK&gt;\n[    6.992586]  dump_stack_lvl+0x44/0x5c\n[    6.992801]  print_report+0x184/0x4be\n[    6.993790]  kasan_report+0xc5/0x100\n[    6.994252]  kasan_check_range+0xf3/0x1a0\n[    6.994486]  memcpy+0x38/0x60\n[    6.994692]  nft_tunnel_obj_init+0x977/0xa70\n[    6.995677]  nft_obj_init+0x10c/0x1b0\n[    6.995891]  nf_tables_newobj+0x585/0x950\n[    6.996922]  nfnetlink_rcv_batch+0xdf9/0x1020\n[    6.998997]  nfnetlink_rcv+0x1df/0x220\n[    6.999537]  netlink_unicast+0x395/0x530\n[    7.000771]  netlink_sendmsg+0x3d0/0x6d0\n[    7.001462]  __sock_sendmsg+0x99/0xa0\n[    7.001707]  ____sys_sendmsg+0x409/0x450\n[    7.002391]  ___sys_sendmsg+0xfd/0x170\n[    7.003145]  __sys_sendmsg+0xea/0x170\n[    7.004359]  do_syscall_64+0x5e/0x90\n[    7.005817]  entry_SYSCALL_64_after_hwframe+0x6e/0xd8\n[    7.006127] RIP: 0033:0x7ec756d4e407\n[    7.006339] Code: 48 89 fa 4c 89 df e8 38 aa 00 00 8b 93 08 03 00 00 59 5e 48 83 f8 fc 74 1a 5b c3 0f 1f 84 00 00 00 00 00 48 8b 44 24 10 0f 05 &lt;5b&gt; c3 0f 1f 80 00 00 00 00 83 e2 39 83 faf\n[    7.007364] RSP: 002b:00007ffed5d46760 EFLAGS: 00000202 ORIG_RAX: 000000000000002e\n[    7.007827] RAX: ffffffffffffffda RBX: 00007ec756cc4740 RCX: 00007ec756d4e407\n[    7.008223] RDX: 0000000000000000 RSI: 00007ffed5d467f0 RDI: 0000000000000003\n[    7.008620] RBP: 00007ffed5d468a0 R08: 0000000000000000 R09: 0000000000000000\n[    7.009039] R10: 0000000000000000 R11: 0000000000000202 R12: 0000000000000000\n[    7.009429] R13: 00007ffed5d478b0 R14: 00007ec756ee5000 R15: 00005cbd4e655cb8\n\nFix this bug with correct pointer addition and conversion in parse\nand dump code.
+</code>
+
+- [henrymartin262/CVE-2025-22056-exploit](https://github.com/henrymartin262/CVE-2025-22056-exploit)
+
 ### CVE-2025-22223 (2025-03-24)
 
 <code>Spring Security 6.4.0 - 6.4.3 may not correctly locate method security annotations on parameterized types or methods. This may cause an authorization bypass. \n\nYou are not affected if you are not using @EnableMethodSecurity, or\nyou do not have method security annotations on parameterized types or methods, or all method security annotations are attached to target methods
 </code>
 
 - [1ucky7/cve-2025-22223-demo-1.0.0](https://github.com/1ucky7/cve-2025-22223-demo-1.0.0)
-
-### CVE-2025-22224 (2025-03-04)
-
-<code>VMware ESXi, and Workstation contain a TOCTOU (Time-of-Check Time-of-Use) vulnerability that leads to an out-of-bounds write. A malicious actor with local administrative privileges on a virtual machine may exploit this issue to execute code as the virtual machine's VMX process running on the host.
-</code>
-
-- [takeshirisulu/CVE-2025-22224](https://github.com/takeshirisulu/CVE-2025-22224)
 
 ### CVE-2025-22352 (2025-01-07)
 
@@ -2476,6 +2463,13 @@
 
 - [rxerium/CVE-2025-49113](https://github.com/rxerium/CVE-2025-49113)
 - [Ademking/CVE-2025-49113-nuclei-template](https://github.com/Ademking/CVE-2025-49113-nuclei-template)
+
+### CVE-2025-49223 (2025-06-04)
+
+<code>billboard.js before 3.15.1 was discovered to contain a prototype pollution via the function generate, which could allow attackers to execute arbitrary code or cause a Denial of Service (DoS) via injecting arbitrary properties.
+</code>
+
+- [louay-075/CVE-2025-49223-BillboardJS-PoC](https://github.com/louay-075/CVE-2025-49223-BillboardJS-PoC)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -44394,10 +44388,10 @@
 - [digitalgangst/massCitrix](https://github.com/digitalgangst/massCitrix)
 - [mandiant/ioc-scanner-CVE-2019-19781](https://github.com/mandiant/ioc-scanner-CVE-2019-19781)
 - [citrix/ioc-scanner-CVE-2019-19781](https://github.com/citrix/ioc-scanner-CVE-2019-19781)
-- [haxrob/citrix-honeypot](https://github.com/haxrob/citrix-honeypot)
 - [L4r1k/CitrixNetscalerAnalysis](https://github.com/L4r1k/CitrixNetscalerAnalysis)
 - [Azeemering/CVE-2019-19781-DFIR-Notes](https://github.com/Azeemering/CVE-2019-19781-DFIR-Notes)
 - [0xams/citrixvulncheck](https://github.com/0xams/citrixvulncheck)
+- [EliusHHimel/citrix-honeypot](https://github.com/EliusHHimel/citrix-honeypot)
 - [r4ulcl/CVE-2019-19781](https://github.com/r4ulcl/CVE-2019-19781)
 - [nmanzi/webcvescanner](https://github.com/nmanzi/webcvescanner)
 - [darren646/CVE-2019-19781POC](https://github.com/darren646/CVE-2019-19781POC)
