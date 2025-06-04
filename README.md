@@ -2063,6 +2063,7 @@
 </code>
 
 - [Nxploited/CVE-2025-32206](https://github.com/Nxploited/CVE-2025-32206)
+- [postal-filled-zap/CVE](https://github.com/postal-filled-zap/CVE)
 
 ### CVE-2025-32259 (2025-04-10)
 
@@ -2474,6 +2475,7 @@
 </code>
 
 - [rxerium/CVE-2025-49113](https://github.com/rxerium/CVE-2025-49113)
+- [Ademking/CVE-2025-49113-nuclei-template](https://github.com/Ademking/CVE-2025-49113-nuclei-template)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -5154,13 +5156,6 @@
 </code>
 
 - [NSQAQ/CVE-2024-11201](https://github.com/NSQAQ/CVE-2024-11201)
-
-### CVE-2024-11234 (2024-11-24)
-
-<code>In PHP versions 8.1.* before 8.1.31, 8.2.* before 8.2.26, 8.3.* before 8.3.14, when using streams with configured proxy and &quot;request_fulluri&quot; option, the URI is not properly sanitized which can lead to HTTP request smuggling and allow the attacker to use the proxy to perform arbitrary HTTP requests originating from the server, thus potentially gaining access to resources not normally available to the external user.
-</code>
-
-- [cyivor/CVE-2024-11234](https://github.com/cyivor/CVE-2024-11234)
 
 ### CVE-2024-11252 (2024-11-30)
 
@@ -18620,6 +18615,13 @@
 ### CVE-2023-39725
 - [anky-123/CVE-2023-39725](https://github.com/anky-123/CVE-2023-39725)
 
+### CVE-2023-39910 (2023-08-09)
+
+<code>The cryptocurrency wallet entropy seeding mechanism used in Libbitcoin Explorer 3.0.0 through 3.6.0 is weak, aka the Milk Sad issue. The use of an mt19937 Mersenne Twister PRNG restricts the internal entropy to 32 bits regardless of settings. This allows remote attackers to recover any wallet private keys generated from &quot;bx seed&quot; entropy output and steal funds. (Affected users need to move funds to a secure new cryptocurrency wallet.) NOTE: the vendor's position is that there was sufficient documentation advising against &quot;bx seed&quot; but others disagree. NOTE: this was exploited in the wild in June and July 2023.
+</code>
+
+- [z1ph1us/MilkSad-Mnemonic-Generator](https://github.com/z1ph1us/MilkSad-Mnemonic-Generator)
+
 ### CVE-2023-40000 (2024-04-16)
 
 <code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in LiteSpeed Technologies LiteSpeed Cache allows Stored XSS.This issue affects LiteSpeed Cache: from n/a through 5.7.\n\n
@@ -24617,7 +24619,7 @@
 </code>
 
 - [vnhacker1337/CVE-2022-27925-PoC](https://github.com/vnhacker1337/CVE-2022-27925-PoC)
-- [mohamedbenchikh/CVE-2022-27925](https://github.com/mohamedbenchikh/CVE-2022-27925)
+- [huahuatzt/CVE-2022-27925](https://github.com/huahuatzt/CVE-2022-27925)
 - [miko550/CVE-2022-27925](https://github.com/miko550/CVE-2022-27925)
 - [navokus/CVE-2022-27925](https://github.com/navokus/CVE-2022-27925)
 - [Josexv1/CVE-2022-27925](https://github.com/Josexv1/CVE-2022-27925)
@@ -26890,7 +26892,6 @@
 - [mhd108/CVE-2022-40684](https://github.com/mhd108/CVE-2022-40684)
 - [ClickCyber/cve-2022-40684](https://github.com/ClickCyber/cve-2022-40684)
 - [Chocapikk/CVE-2022-40684](https://github.com/Chocapikk/CVE-2022-40684)
-- [mohamedbenchikh/CVE-2022-40684](https://github.com/mohamedbenchikh/CVE-2022-40684)
 - [HAWA771/CVE-2022-40684](https://github.com/HAWA771/CVE-2022-40684)
 - [NeriaBasha/CVE-2022-40684](https://github.com/NeriaBasha/CVE-2022-40684)
 - [Grapphy/fortipwn](https://github.com/Grapphy/fortipwn)
@@ -26902,6 +26903,7 @@
 - [gustavorobertux/gotigate](https://github.com/gustavorobertux/gotigate)
 - [hughink/CVE-2022-40684](https://github.com/hughink/CVE-2022-40684)
 - [notareaperbutDR34P3r/CVE-2022-40684-Rust](https://github.com/notareaperbutDR34P3r/CVE-2022-40684-Rust)
+- [dkstar11q/CVE-2022-40684](https://github.com/dkstar11q/CVE-2022-40684)
 - [z-bool/CVE-2022-40684](https://github.com/z-bool/CVE-2022-40684)
 - [Anthony1500/CVE-2022-40684](https://github.com/Anthony1500/CVE-2022-40684)
 - [arsolutioner/fortigate-belsen-leak](https://github.com/arsolutioner/fortigate-belsen-leak)
@@ -42933,6 +42935,7 @@
 - [zAbuQasem/CVE-2019-12840](https://github.com/zAbuQasem/CVE-2019-12840)
 - [WizzzStark/CVE-2019-12840.py](https://github.com/WizzzStark/CVE-2019-12840.py)
 - [Pol-Ruiz/PoC-CVE-2019-12840](https://github.com/Pol-Ruiz/PoC-CVE-2019-12840)
+- [fenix0499/CVE-2019-12840-NodeJs-Exploit](https://github.com/fenix0499/CVE-2019-12840-NodeJs-Exploit)
 
 ### CVE-2019-12889 (2019-08-20)
 
@@ -44472,6 +44475,7 @@
 
 - [AleDiBen/NVMS1000-Exploit](https://github.com/AleDiBen/NVMS1000-Exploit)
 - [0hmsec/NVMS-1000-Directory-Traversal-Bash](https://github.com/0hmsec/NVMS-1000-Directory-Traversal-Bash)
+- [Z3R0-0x30/CVE-2019-20085](https://github.com/Z3R0-0x30/CVE-2019-20085)
 
 ### CVE-2019-20197 (2019-12-31)
 
@@ -54548,7 +54552,6 @@
 </code>
 
 - [s3mPr1linux/CVE-2011-0762](https://github.com/s3mPr1linux/CVE-2011-0762)
-- [AndreyFreitax/CVE-2011-0762](https://github.com/AndreyFreitax/CVE-2011-0762)
 
 ### CVE-2011-1237 (2011-04-13)
 
