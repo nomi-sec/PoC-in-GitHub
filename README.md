@@ -397,6 +397,13 @@
 
 - [murataydemir/AWS-SAM-CLI-Vulnerabilities](https://github.com/murataydemir/AWS-SAM-CLI-Vulnerabilities)
 
+### CVE-2025-3054 (2025-06-05)
+
+<code>The WP User Frontend Pro plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the upload_files() function in all versions up to, and including, 4.1.3. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible. Please note that this requires the 'Private Message' module to be enabled and the Business version of the PRO software to be in use.
+</code>
+
+- [frogchung/CVE-2025-3054-Exploit](https://github.com/frogchung/CVE-2025-3054-Exploit)
+
 ### CVE-2025-3102 (2025-04-10)
 
 <code>The SureTriggers: All-in-One Automation Platform plugin for WordPress is vulnerable to an authentication bypass leading to administrative account creation due to a missing empty value check on the 'secret_key' value in the 'autheticate_user' function in all versions up to, and including, 1.0.78. This makes it possible for unauthenticated attackers to create administrator accounts on the target website when the plugin is installed and activated but not configured with an API key.
@@ -648,6 +655,13 @@
 ### CVE-2025-5329
 - [sahici/CVE-2025-5329](https://github.com/sahici/CVE-2025-5329)
 
+### CVE-2025-5419 (2025-06-02)
+
+<code>Out of bounds read and write in V8 in Google Chrome prior to 137.0.7151.68 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [takerishunte/CVE-2025-5419](https://github.com/takerishunte/CVE-2025-5419)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -737,6 +751,13 @@
 </code>
 
 - [1ucky7/cve-2025-22223-demo-1.0.0](https://github.com/1ucky7/cve-2025-22223-demo-1.0.0)
+
+### CVE-2025-22224 (2025-03-04)
+
+<code>VMware ESXi, and Workstation contain a TOCTOU (Time-of-Check Time-of-Use) vulnerability that leads to an out-of-bounds write. A malicious actor with local administrative privileges on a virtual machine may exploit this issue to execute code as the virtual machine's VMX process running on the host.
+</code>
+
+- [takerishunte/CVE-2025-22224](https://github.com/takerishunte/CVE-2025-22224)
 
 ### CVE-2025-22352 (2025-01-07)
 
@@ -2465,7 +2486,7 @@
 
 ### CVE-2025-47577 (2025-05-19)
 
-<code>Unrestricted Upload of File with Dangerous Type vulnerability in TemplateInvaders TI WooCommerce Wishlist allows Upload a Web Shell to a Web Server.This issue affects TI WooCommerce Wishlist: from n/a through 2.9.2.
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in TemplateInvaders TI WooCommerce Wishlist allows Upload a Web Shell to a Web Server.This issue affects TI WooCommerce Wishlist: from n/a before 2.10.0.
 </code>
 
 - [Yucaerin/CVE-2025-47577](https://github.com/Yucaerin/CVE-2025-47577)
@@ -2506,6 +2527,7 @@
 
 - [rxerium/CVE-2025-49113](https://github.com/rxerium/CVE-2025-49113)
 - [Ademking/CVE-2025-49113-nuclei-template](https://github.com/Ademking/CVE-2025-49113-nuclei-template)
+- [fearsoff-org/CVE-2025-49113](https://github.com/fearsoff-org/CVE-2025-49113)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -3714,6 +3736,7 @@
 - [olebris/CVE-2024-4577](https://github.com/olebris/CVE-2024-4577)
 - [AlperenY-cs/CVE-2024-4577](https://github.com/AlperenY-cs/CVE-2024-4577)
 - [charis3306/CVE-2024-4577](https://github.com/charis3306/CVE-2024-4577)
+- [l0n3m4n/CVE-2024-4577-RCE](https://github.com/l0n3m4n/CVE-2024-4577-RCE)
 - [bibo318/CVE-2024-4577-RCE-ATTACK](https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK)
 - [gmh5225/CVE-2024-4577-PHP-RCE](https://github.com/gmh5225/CVE-2024-4577-PHP-RCE)
 - [a-roshbaik/CVE-2024-4577](https://github.com/a-roshbaik/CVE-2024-4577)
@@ -4111,6 +4134,7 @@
 - [MrR0b0t19/CVE-2024-6387-Exploit-POC](https://github.com/MrR0b0t19/CVE-2024-6387-Exploit-POC)
 - [th3gokul/CVE-2024-6387](https://github.com/th3gokul/CVE-2024-6387)
 - [n1cks0n/Test_CVE-2024-6387](https://github.com/n1cks0n/Test_CVE-2024-6387)
+- [l0n3m4n/CVE-2024-6387](https://github.com/l0n3m4n/CVE-2024-6387)
 - [RickGeex/CVE-2024-6387-Checker](https://github.com/RickGeex/CVE-2024-6387-Checker)
 - [xonoxitron/regreSSHion-checker](https://github.com/xonoxitron/regreSSHion-checker)
 - [BrandonLynch2402/cve-2024-6387-nuclei-template](https://github.com/BrandonLynch2402/cve-2024-6387-nuclei-template)
@@ -6134,6 +6158,7 @@
 
 - [mbadanoiu/CVE-2024-22274](https://github.com/mbadanoiu/CVE-2024-22274)
 - [ninhpn1337/CVE-2024-22274](https://github.com/ninhpn1337/CVE-2024-22274)
+- [l0n3m4n/CVE-2024-22274-RCE](https://github.com/l0n3m4n/CVE-2024-22274-RCE)
 - [Mustafa1986/CVE-2024-22274-RCE](https://github.com/Mustafa1986/CVE-2024-22274-RCE)
 
 ### CVE-2024-22275 (2024-05-21)
@@ -10693,6 +10718,7 @@
 - [aytackalinci/CVE-2024-47176](https://github.com/aytackalinci/CVE-2024-47176)
 - [lkarlslund/jugular](https://github.com/lkarlslund/jugular)
 - [nma-io/CVE-2024-47176](https://github.com/nma-io/CVE-2024-47176)
+- [l0n3m4n/CVE-2024-47176](https://github.com/l0n3m4n/CVE-2024-47176)
 - [gumerzzzindo/CVE-2024-47176](https://github.com/gumerzzzindo/CVE-2024-47176)
 - [MalwareTech/CVE-2024-47176-Scanner](https://github.com/MalwareTech/CVE-2024-47176-Scanner)
 - [gianlu111/CUPS-CVE-2024-47176](https://github.com/gianlu111/CUPS-CVE-2024-47176)
@@ -11772,6 +11798,13 @@
 </code>
 
 - [C411e/CVE-2024-53691](https://github.com/C411e/CVE-2024-53691)
+
+### CVE-2024-53703 (2024-12-05)
+
+<code>A vulnerability in the SonicWall SMA100 SSLVPN firmware 10.2.1.13-72sv and earlier versions mod_httprp library loaded by the Apache web server allows remote attackers to cause Stack-based buffer overflow and potentially lead to code execution.
+</code>
+
+- [scrt/cve-2024-53703-poc](https://github.com/scrt/cve-2024-53703-poc)
 
 ### CVE-2024-53704 (2025-01-09)
 
@@ -13889,6 +13922,13 @@
 
 - [pog007/CVE-2023-5561-PoC](https://github.com/pog007/CVE-2023-5561-PoC)
 - [rootxsushant/CVE-2023-5561-POC-Updated](https://github.com/rootxsushant/CVE-2023-5561-POC-Updated)
+
+### CVE-2023-5612 (2024-01-26)
+
+<code>An issue has been discovered in GitLab affecting all versions before 16.6.6, 16.7 prior to 16.7.4, and 16.8 prior to 16.8.1. It was possible to read the user email address via tags feed although the visibility in the user profile has been disabled.
+</code>
+
+- [TopskiyPavelQwertyGang/Review.CVE-2023-5612](https://github.com/TopskiyPavelQwertyGang/Review.CVE-2023-5612)
 
 ### CVE-2023-5717 (2023-10-25)
 
@@ -16239,6 +16279,7 @@
 - [some-man1/CVE-2023-29489](https://github.com/some-man1/CVE-2023-29489)
 - [Cappricio-Securities/CVE-2023-29489](https://github.com/Cappricio-Securities/CVE-2023-29489)
 - [md-thalal/CVE-2023-29489](https://github.com/md-thalal/CVE-2023-29489)
+- [Thuankobtcode/CVE-2023-29489](https://github.com/Thuankobtcode/CVE-2023-29489)
 
 ### CVE-2023-29808 (2023-05-12)
 
@@ -24937,6 +24978,7 @@
 
 - [miko550/CVE-2022-29078](https://github.com/miko550/CVE-2022-29078)
 - [shurochka1396/expluatation_CVE-2022-29078](https://github.com/shurochka1396/expluatation_CVE-2022-29078)
+- [l0n3m4n/CVE-2022-29078](https://github.com/l0n3m4n/CVE-2022-29078)
 - [chuckdu21/CVE-2022-29078](https://github.com/chuckdu21/CVE-2022-29078)
 
 ### CVE-2022-29154 (2022-08-02)
