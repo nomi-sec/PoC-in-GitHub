@@ -2303,6 +2303,9 @@
 - [Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
 - [Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
 
+### CVE-2025-44603
+- [Moulish2004/CVE-2025-44603-CSRF-Leads_to_Create_FakeUsers](https://github.com/Moulish2004/CVE-2025-44603-CSRF-Leads_to_Create_FakeUsers)
+
 ### CVE-2025-44998 (2025-05-23)
 
 <code>A stored cross-site scripting (XSS) vulnerability in the component /tinyfilemanager.php of TinyFileManager v2.4.7 allows attackers to execute arbitrary JavaScript or HTML via injecting a crafted payload into the js-theme-3 parameter.
@@ -2375,6 +2378,13 @@
 </code>
 
 - [nov-1337/CVE-2025-46657](https://github.com/nov-1337/CVE-2025-46657)
+
+### CVE-2025-46701 (2025-05-29)
+
+<code>Improper Handling of Case Sensitivity vulnerability in Apache Tomcat's GCI servlet allows security constraint bypass of security constraints that apply to the pathInfo component of a URI mapped to the CGI servlet.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.6, from 10.1.0-M1 through 10.1.40, from 9.0.0.M1 through 9.0.104.\n\nUsers are recommended to upgrade to version 11.0.7, 10.1.41 or 9.0.105, which fixes the issue.
+</code>
+
+- [gregk4sec/CVE-2025-46701](https://github.com/gregk4sec/CVE-2025-46701)
 
 ### CVE-2025-46721 (2025-05-13)
 
@@ -27971,7 +27981,6 @@
 </code>
 
 - [galoget/ResponsiveFileManager-CVE-2022-46604](https://github.com/galoget/ResponsiveFileManager-CVE-2022-46604)
-- [SakshiVelampudi/CVE-2022-46604-Responsive-File-Manager](https://github.com/SakshiVelampudi/CVE-2022-46604-Responsive-File-Manager)
 - [CyberQuestor-infosec/CVE-2022-46604-Responsive-File-Manager](https://github.com/CyberQuestor-infosec/CVE-2022-46604-Responsive-File-Manager)
 
 ### CVE-2022-46622 (2023-01-12)
@@ -30512,7 +30521,7 @@
 <code>The WPS Hide Login WordPress plugin before 1.9.1 has a bug which allows to get the secret login page by setting a random referer string and making a request to /wp-admin/options.php as an unauthenticated user.
 </code>
 
-- [dikalasenjadatang/CVE-2021-24917](https://github.com/dikalasenjadatang/CVE-2021-24917)
+- [buildwithlian/CVE-2021-24917](https://github.com/buildwithlian/CVE-2021-24917)
 - [Cappricio-Securities/CVE-2021-24917](https://github.com/Cappricio-Securities/CVE-2021-24917)
 
 ### CVE-2021-24959 (2022-03-14)
