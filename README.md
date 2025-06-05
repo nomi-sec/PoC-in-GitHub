@@ -2066,7 +2066,6 @@
 </code>
 
 - [Nxploited/CVE-2025-32206](https://github.com/Nxploited/CVE-2025-32206)
-- [postal-filled-zap/CVE](https://github.com/postal-filled-zap/CVE)
 
 ### CVE-2025-32259 (2025-04-10)
 
@@ -2346,10 +2345,18 @@
 
 - [pruthuraut/CVE-2025-46173](https://github.com/pruthuraut/CVE-2025-46173)
 
-### CVE-2025-46203
+### CVE-2025-46203 (2025-06-04)
+
+<code>An issue in Unifiedtransform v2.0 allows a remote attacker to escalate privileges via the /students/edit/{id} endpoint.
+</code>
+
 - [spbavarva/CVE-2025-46203](https://github.com/spbavarva/CVE-2025-46203)
 
-### CVE-2025-46204
+### CVE-2025-46204 (2025-06-04)
+
+<code>An issue in Unifiedtransform v2.0 allows a remote attacker to escalate privileges via the /course/edit/{id} endpoint.
+</code>
+
 - [spbavarva/CVE-2025-46204](https://github.com/spbavarva/CVE-2025-46204)
 
 ### CVE-2025-46206
@@ -27545,6 +27552,7 @@
 - [PanAdamski/CVE-2022-44268-automated](https://github.com/PanAdamski/CVE-2022-44268-automated)
 - [FlojBoj/CVE-2022-44268](https://github.com/FlojBoj/CVE-2022-44268)
 - [katseyres2/CVE-2022-44268-pilgrimage](https://github.com/katseyres2/CVE-2022-44268-pilgrimage)
+- [J0ey17/Automate_Exploit_CVE-2022-44268](https://github.com/J0ey17/Automate_Exploit_CVE-2022-44268)
 
 ### CVE-2022-44276 (2023-06-28)
 
@@ -27963,6 +27971,8 @@
 </code>
 
 - [galoget/ResponsiveFileManager-CVE-2022-46604](https://github.com/galoget/ResponsiveFileManager-CVE-2022-46604)
+- [SakshiVelampudi/CVE-2022-46604-Responsive-File-Manager](https://github.com/SakshiVelampudi/CVE-2022-46604-Responsive-File-Manager)
+- [CyberQuestor-infosec/CVE-2022-46604-Responsive-File-Manager](https://github.com/CyberQuestor-infosec/CVE-2022-46604-Responsive-File-Manager)
 
 ### CVE-2022-46622 (2023-01-12)
 
@@ -29418,7 +29428,6 @@
 
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [arthepsy/CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034)
-- [dzonerzy/poc-cve-2021-4034](https://github.com/dzonerzy/poc-cve-2021-4034)
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
 - [An00bRektn/CVE-2021-4034](https://github.com/An00bRektn/CVE-2021-4034)
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
@@ -29784,6 +29793,7 @@
 - [Roboterh/CVE-2021-21300](https://github.com/Roboterh/CVE-2021-21300)
 - [henry861010/Network_Security_NYCU](https://github.com/henry861010/Network_Security_NYCU)
 - [Saboor-Hakimi-23/CVE-2021-21300](https://github.com/Saboor-Hakimi-23/CVE-2021-21300)
+- [Sizvy/CVE-2021-21300](https://github.com/Sizvy/CVE-2021-21300)
 
 ### CVE-2021-21311 (2021-02-11)
 
@@ -54567,6 +54577,7 @@
 </code>
 
 - [s3mPr1linux/CVE-2011-0762](https://github.com/s3mPr1linux/CVE-2011-0762)
+- [Andreyfts7/CVE-2011-0762](https://github.com/Andreyfts7/CVE-2011-0762)
 
 ### CVE-2011-1237 (2011-04-13)
 
