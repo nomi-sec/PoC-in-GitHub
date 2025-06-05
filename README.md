@@ -417,6 +417,7 @@
 - [SUPRAAA-1337/CVE-2025-3102_v2](https://github.com/SUPRAAA-1337/CVE-2025-3102_v2)
 - [SUPRAAA-1337/CVE-2025-3102-exploit](https://github.com/SUPRAAA-1337/CVE-2025-3102-exploit)
 - [0xgh057r3c0n/CVE-2025-3102](https://github.com/0xgh057r3c0n/CVE-2025-3102)
+- [B1ack4sh/CVE-2025-3102](https://github.com/B1ack4sh/CVE-2025-3102)
 
 ### CVE-2025-3243 (2025-04-04)
 
@@ -661,6 +662,14 @@
 </code>
 
 - [takerishunte/CVE-2025-5419](https://github.com/takerishunte/CVE-2025-5419)
+
+### CVE-2025-5701 (2025-06-05)
+
+<code>The HyperComments plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the hc_request_handler function in all versions up to, and including, 1.2.2. This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
+</code>
+
+- [Harley21211/CVE-2025-5701-Exploit](https://github.com/Harley21211/CVE-2025-5701-Exploit)
+- [Nxploited/CVE-2025-5701](https://github.com/Nxploited/CVE-2025-5701)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -1096,6 +1105,7 @@
 
 - [iSee857/CVE-2025-24893-PoC](https://github.com/iSee857/CVE-2025-24893-PoC)
 - [Artemir7/CVE-2025-24893-EXP](https://github.com/Artemir7/CVE-2025-24893-EXP)
+- [ibrahimsql/cve-2025-24893](https://github.com/ibrahimsql/cve-2025-24893)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -2189,6 +2199,7 @@
 </code>
 
 - [exfil0/CVE-2025-32756-POC](https://github.com/exfil0/CVE-2025-32756-POC)
+- [kn0x0x/CVE-2025-32756-POC](https://github.com/kn0x0x/CVE-2025-32756-POC)
 
 ### CVE-2025-32873 (2025-05-08)
 
@@ -2502,7 +2513,11 @@
 ### CVE-2025-47810
 - [ptrstr/CVE-2025-47810](https://github.com/ptrstr/CVE-2025-47810)
 
-### CVE-2025-47827
+### CVE-2025-47827 (2025-06-05)
+
+<code>In IGEL OS before 11, Secure Boot can be bypassed because the igel-flash-driver module improperly verifies a cryptographic signature. Ultimately, a crafted root filesystem can be mounted from an unverified SquashFS image.
+</code>
+
 - [Zedeldi/CVE-2025-47827](https://github.com/Zedeldi/CVE-2025-47827)
 
 ### CVE-2025-48708 (2025-05-23)
@@ -54628,7 +54643,6 @@
 </code>
 
 - [s3mPr1linux/CVE-2011-0762](https://github.com/s3mPr1linux/CVE-2011-0762)
-- [Andreyfts7/CVE-2011-0762](https://github.com/Andreyfts7/CVE-2011-0762)
 
 ### CVE-2011-1237 (2011-04-13)
 
