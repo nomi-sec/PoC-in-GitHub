@@ -50,6 +50,14 @@
 - [44xo/CVE-2025-0282](https://github.com/44xo/CVE-2025-0282)
 - [punitdarji/Ivanti-CVE-2025-0282](https://github.com/punitdarji/Ivanti-CVE-2025-0282)
 
+### CVE-2025-0316 (2025-02-08)
+
+<code>The WP Directorybox Manager plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.5. This is due to incorrect authentication in the 'wp_dp_enquiry_agent_contact_form_submit_callback' function. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the username.
+</code>
+
+- [zorvithonleon/CVE-2025-0316-Exploit](https://github.com/zorvithonleon/CVE-2025-0316-Exploit)
+- [AvonBorn/CVE-2025-0316-Exploit](https://github.com/AvonBorn/CVE-2025-0316-Exploit)
+
 ### CVE-2025-0364 (2025-02-04)
 
 <code>BigAntSoft BigAnt Server, up to and including version 5.6.06, is vulnerable to unauthenticated remote code execution via account registration. An unauthenticated remote attacker can create an administrative user through the default exposed SaaS registration mechanism. Once an administrator, the attacker can upload and execute arbitrary PHP code using the &quot;Cloud Storage Addin,&quot; leading to unauthenticated code execution.
@@ -438,6 +446,13 @@
 - [vigilante-1337/CVE-2025-3248](https://github.com/vigilante-1337/CVE-2025-3248)
 - [Vip3rLi0n/CVE-2025-3248](https://github.com/Vip3rLi0n/CVE-2025-3248)
 - [tiemio/RCE-CVE-2025-3248](https://github.com/tiemio/RCE-CVE-2025-3248)
+
+### CVE-2025-3419 (2025-05-08)
+
+<code>The Event Manager, Events Calendar, Tickets, Registrations – Eventin plugin for WordPress is vulnerable to arbitrary file read in all versions up to, and including, 4.0.26 via the proxy_image() function. This makes it possible for unauthenticated attackers to read the contents of arbitrary files on the server, which can contain sensitive information.
+</code>
+
+- [Yucaerin/CVE-2025-3419](https://github.com/Yucaerin/CVE-2025-3419)
 
 ### CVE-2025-3568 (2025-04-14)
 
@@ -2543,6 +2558,7 @@
 - [rxerium/CVE-2025-49113](https://github.com/rxerium/CVE-2025-49113)
 - [Ademking/CVE-2025-49113-nuclei-template](https://github.com/Ademking/CVE-2025-49113-nuclei-template)
 - [fearsoff-org/CVE-2025-49113](https://github.com/fearsoff-org/CVE-2025-49113)
+- [rasool13x/exploit-CVE-2025-49113](https://github.com/rasool13x/exploit-CVE-2025-49113)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -31539,7 +31555,7 @@
 <code>A validation issue was addressed with improved input sanitization. This issue is fixed in iTunes U 3.8.3. Processing a maliciously crafted URL may lead to arbitrary javascript code execution.
 </code>
 
-- [Umarovm/CVE-2021-30862](https://github.com/Umarovm/CVE-2021-30862)
+- [3h6-1/CVE-2021-30862](https://github.com/3h6-1/CVE-2021-30862)
 
 ### CVE-2021-30937 (2021-08-24)
 
@@ -54643,6 +54659,7 @@
 </code>
 
 - [s3mPr1linux/CVE-2011-0762](https://github.com/s3mPr1linux/CVE-2011-0762)
+- [Andreyfrtz/CVE-2011-0762](https://github.com/Andreyfrtz/CVE-2011-0762)
 
 ### CVE-2011-1237 (2011-04-13)
 
