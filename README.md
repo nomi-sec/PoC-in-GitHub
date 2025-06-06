@@ -425,7 +425,6 @@
 - [SUPRAAA-1337/CVE-2025-3102_v2](https://github.com/SUPRAAA-1337/CVE-2025-3102_v2)
 - [SUPRAAA-1337/CVE-2025-3102-exploit](https://github.com/SUPRAAA-1337/CVE-2025-3102-exploit)
 - [0xgh057r3c0n/CVE-2025-3102](https://github.com/0xgh057r3c0n/CVE-2025-3102)
-- [B1ack4sh/CVE-2025-3102](https://github.com/B1ack4sh/CVE-2025-3102)
 
 ### CVE-2025-3243 (2025-04-04)
 
@@ -678,13 +677,6 @@
 ### CVE-2025-5329
 - [sahici/CVE-2025-5329](https://github.com/sahici/CVE-2025-5329)
 
-### CVE-2025-5419 (2025-06-02)
-
-<code>Out of bounds read and write in V8 in Google Chrome prior to 137.0.7151.68 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
-</code>
-
-- [takerishunte/CVE-2025-5419](https://github.com/takerishunte/CVE-2025-5419)
-
 ### CVE-2025-5701 (2025-06-05)
 
 <code>The HyperComments plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the hc_request_handler function in all versions up to, and including, 1.2.2. This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
@@ -782,13 +774,6 @@
 </code>
 
 - [1ucky7/cve-2025-22223-demo-1.0.0](https://github.com/1ucky7/cve-2025-22223-demo-1.0.0)
-
-### CVE-2025-22224 (2025-03-04)
-
-<code>VMware ESXi, and Workstation contain a TOCTOU (Time-of-Check Time-of-Use) vulnerability that leads to an out-of-bounds write. A malicious actor with local administrative privileges on a virtual machine may exploit this issue to execute code as the virtual machine's VMX process running on the host.
-</code>
-
-- [takerishunte/CVE-2025-22224](https://github.com/takerishunte/CVE-2025-22224)
 
 ### CVE-2025-22352 (2025-01-07)
 
@@ -1894,6 +1879,7 @@
 - [imbas007/CVE-2025-30208-template](https://github.com/imbas007/CVE-2025-30208-template)
 - [r0ngy40/CVE-2025-30208-Series](https://github.com/r0ngy40/CVE-2025-30208-Series)
 - [nkuty/CVE-2025-30208-31125-31486-32395](https://github.com/nkuty/CVE-2025-30208-31125-31486-32395)
+- [HaGsec/CVE-2025-30208](https://github.com/HaGsec/CVE-2025-30208)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -2013,6 +1999,7 @@
 - [SUPRAAA-1337/CVE-2025-31161_exploit](https://github.com/SUPRAAA-1337/CVE-2025-31161_exploit)
 - [ibrahimsql/CVE-2025-31161](https://github.com/ibrahimsql/CVE-2025-31161)
 - [0xgh057r3c0n/CVE-2025-31161](https://github.com/0xgh057r3c0n/CVE-2025-31161)
+- [B1ack4sh/Blackash-CVE-2025-31161](https://github.com/B1ack4sh/Blackash-CVE-2025-31161)
 
 ### CVE-2025-31200 (2025-04-16)
 
@@ -2567,6 +2554,7 @@
 - [fearsoff-org/CVE-2025-49113](https://github.com/fearsoff-org/CVE-2025-49113)
 - [rasool13x/exploit-CVE-2025-49113](https://github.com/rasool13x/exploit-CVE-2025-49113)
 - [SyFi/CVE-2025-49113](https://github.com/SyFi/CVE-2025-49113)
+- [hakaioffsec/CVE-2025-49113-exploit](https://github.com/hakaioffsec/CVE-2025-49113-exploit)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -23919,7 +23907,7 @@
 <code>Windows SMB Remote Code Execution Vulnerability
 </code>
 
-- [0xZipp0/CVE-2022-24500](https://github.com/0xZipp0/CVE-2022-24500)
+- [0x7n6/CVE-2022-24500](https://github.com/0x7n6/CVE-2022-24500)
 
 ### CVE-2022-24611 (2022-05-17)
 
@@ -38605,6 +38593,7 @@
 </code>
 
 - [robidev/CVE-2020-14871-Exploit](https://github.com/robidev/CVE-2020-14871-Exploit)
+- [FromPartsUnknown/EvilSunCheck](https://github.com/FromPartsUnknown/EvilSunCheck)
 
 ### CVE-2020-14882 (2020-10-21)
 
