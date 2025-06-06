@@ -1498,6 +1498,13 @@
 
 - [absholi7ly/CVE-2025-27533-Exploit-for-Apache-ActiveMQ](https://github.com/absholi7ly/CVE-2025-27533-Exploit-for-Apache-ActiveMQ)
 
+### CVE-2025-27580 (2025-04-23)
+
+<code>NIH BRICS (aka Biomedical Research Informatics Computing System) through 14.0.0-67 generates predictable tokens (that depend on username, time, and the fixed 7Dl9#dj- string) and thus allows unauthenticated users with a Common Access Card (CAC) to escalate privileges and compromise any account, including administrators.
+</code>
+
+- [TrustStackSecurity/CVE-2025-27580](https://github.com/TrustStackSecurity/CVE-2025-27580)
+
 ### CVE-2025-27590 (2025-03-03)
 
 <code>In oxidized-web (aka Oxidized Web) before 0.15.0, the RANCID migration page allows an unauthenticated user to gain control over the Linux user account that is running oxidized-web.
@@ -2072,6 +2079,13 @@
 
 - [gregk4sec/CVE-2025-31651](https://github.com/gregk4sec/CVE-2025-31651)
 
+### CVE-2025-31710 (2025-06-03)
+
+<code>In engineermode service, there is a possible command injection due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed.
+</code>
+
+- [Skorpion96/unisoc-su](https://github.com/Skorpion96/unisoc-su)
+
 ### CVE-2025-31864 (2025-04-01)
 
 <code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Out the Box Beam me up Scotty – Back to Top Button allows Stored XSS. This issue affects Beam me up Scotty – Back to Top Button: from n/a through 1.0.23.
@@ -2388,6 +2402,9 @@
 </code>
 
 - [pruthuraut/CVE-2025-46173](https://github.com/pruthuraut/CVE-2025-46173)
+
+### CVE-2025-46178
+- [SacX-7/CVE-2025-46178](https://github.com/SacX-7/CVE-2025-46178)
 
 ### CVE-2025-46203 (2025-06-04)
 
@@ -5749,6 +5766,13 @@
 
 - [nnotwen/Script-For-CVE-2024-20666](https://github.com/nnotwen/Script-For-CVE-2024-20666)
 - [invaderslabs/CVE-2024-20666](https://github.com/invaderslabs/CVE-2024-20666)
+
+### CVE-2024-20674 (2024-01-09)
+
+<code>Windows Kerberos Security Feature Bypass Vulnerability
+</code>
+
+- [gpotter2/CVE-2024-20674](https://github.com/gpotter2/CVE-2024-20674)
 
 ### CVE-2024-20696 (2024-01-09)
 
@@ -25332,7 +25356,6 @@
 - [tej7gandhi/CVE-2022-30190-Zero-Click-Zero-Day-in-msdt](https://github.com/tej7gandhi/CVE-2022-30190-Zero-Click-Zero-Day-in-msdt)
 - [ItsNee/Follina-CVE-2022-30190-POC](https://github.com/ItsNee/Follina-CVE-2022-30190-POC)
 - [IamVSM/msdt-follina](https://github.com/IamVSM/msdt-follina)
-- [Rojacur/FollinaPatcherCLI](https://github.com/Rojacur/FollinaPatcherCLI)
 - [joshuavanderpoll/CVE-2022-30190](https://github.com/joshuavanderpoll/CVE-2022-30190)
 - [abhirules27/Follina](https://github.com/abhirules27/Follina)
 - [dsibilio/follina-spring](https://github.com/dsibilio/follina-spring)
