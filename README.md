@@ -425,6 +425,7 @@
 - [SUPRAAA-1337/CVE-2025-3102_v2](https://github.com/SUPRAAA-1337/CVE-2025-3102_v2)
 - [SUPRAAA-1337/CVE-2025-3102-exploit](https://github.com/SUPRAAA-1337/CVE-2025-3102-exploit)
 - [0xgh057r3c0n/CVE-2025-3102](https://github.com/0xgh057r3c0n/CVE-2025-3102)
+- [baribut/CVE-2025-3102](https://github.com/baribut/CVE-2025-3102)
 
 ### CVE-2025-3243 (2025-04-04)
 
@@ -520,6 +521,7 @@
 - [kk12-30/CVE-2025-4123](https://github.com/kk12-30/CVE-2025-4123)
 - [imbas007/CVE-2025-4123-template](https://github.com/imbas007/CVE-2025-4123-template)
 - [ynsmroztas/CVE-2025-4123-Exploit-Tool-Grafana-](https://github.com/ynsmroztas/CVE-2025-4123-Exploit-Tool-Grafana-)
+- [B1ack4sh/Blackash-CVE-2025-4123](https://github.com/B1ack4sh/Blackash-CVE-2025-4123)
 
 ### CVE-2025-4190 (2025-05-17)
 
@@ -952,6 +954,13 @@
 - [f4dee-backup/CVE-2025-24071](https://github.com/f4dee-backup/CVE-2025-24071)
 - [LOOKY243/CVE-2025-24071-PoC](https://github.com/LOOKY243/CVE-2025-24071-PoC)
 - [ex-cal1bur/SMB_CVE-2025-24071](https://github.com/ex-cal1bur/SMB_CVE-2025-24071)
+
+### CVE-2025-24076 (2025-03-11)
+
+<code>Improper access control in Windows Cross Device Service allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [mbanyamer/CVE-2025-24076](https://github.com/mbanyamer/CVE-2025-24076)
 
 ### CVE-2025-24085 (2025-01-27)
 
@@ -1482,6 +1491,7 @@
 </code>
 
 - [andreglock/axios-ssrf](https://github.com/andreglock/axios-ssrf)
+- [davidblakecoe/axios-CVE-2025-27152-PoC](https://github.com/davidblakecoe/axios-CVE-2025-27152-PoC)
 
 ### CVE-2025-27363 (2025-03-11)
 
@@ -5823,6 +5833,7 @@
 - [momika233/CVE-2024-21006](https://github.com/momika233/CVE-2024-21006)
 - [lightr3d/CVE-2024-21006_jar](https://github.com/lightr3d/CVE-2024-21006_jar)
 - [dadvlingd/CVE-2024-21006](https://github.com/dadvlingd/CVE-2024-21006)
+- [d3fudd/CVE-2024-21006_POC](https://github.com/d3fudd/CVE-2024-21006_POC)
 
 ### CVE-2024-21107 (2024-04-16)
 
@@ -54687,7 +54698,6 @@
 </code>
 
 - [s3mPr1linux/CVE-2011-0762](https://github.com/s3mPr1linux/CVE-2011-0762)
-- [Andreyfrtz/CVE-2011-0762](https://github.com/Andreyfrtz/CVE-2011-0762)
 
 ### CVE-2011-1237 (2011-04-13)
 
