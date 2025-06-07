@@ -1997,6 +1997,7 @@
 </code>
 
 - [MuhammadWaseem29/CVE-2025-31131](https://github.com/MuhammadWaseem29/CVE-2025-31131)
+- [B1ack4sh/Blackash-CVE-2025-31131](https://github.com/B1ack4sh/Blackash-CVE-2025-31131)
 
 ### CVE-2025-31137 (2025-04-01)
 
@@ -8124,7 +8125,7 @@
 - [Anonymous941/zygote-injection-toolkit](https://github.com/Anonymous941/zygote-injection-toolkit)
 - [mianliupindao/CVE-2024-31317-PoC-Deployer](https://github.com/mianliupindao/CVE-2024-31317-PoC-Deployer)
 - [agg23/cve-2024-31317](https://github.com/agg23/cve-2024-31317)
-- [JadeByteZen/CVE-2024-31317-PoC-Deployer](https://github.com/JadeByteZen/CVE-2024-31317-PoC-Deployer)
+- [WebLDix/CVE-2024-31317-PoC-Deployer](https://github.com/WebLDix/CVE-2024-31317-PoC-Deployer)
 
 ### CVE-2024-31319 (2024-07-09)
 
@@ -10222,6 +10223,13 @@
 </code>
 
 - [expl0itsecurity/CVE-2024-43532](https://github.com/expl0itsecurity/CVE-2024-43532)
+
+### CVE-2024-43535 (2024-10-08)
+
+<code>Windows Kernel-Mode Driver Elevation of Privilege Vulnerability
+</code>
+
+- [jayesther/KTM_POCS](https://github.com/jayesther/KTM_POCS)
 
 ### CVE-2024-43583 (2024-10-08)
 
