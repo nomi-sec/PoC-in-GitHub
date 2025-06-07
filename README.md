@@ -522,6 +522,7 @@
 - [imbas007/CVE-2025-4123-template](https://github.com/imbas007/CVE-2025-4123-template)
 - [ynsmroztas/CVE-2025-4123-Exploit-Tool-Grafana-](https://github.com/ynsmroztas/CVE-2025-4123-Exploit-Tool-Grafana-)
 - [B1ack4sh/Blackash-CVE-2025-4123](https://github.com/B1ack4sh/Blackash-CVE-2025-4123)
+- [Nowafen/cve-2025-4123](https://github.com/Nowafen/cve-2025-4123)
 
 ### CVE-2025-4190 (2025-05-17)
 
@@ -776,6 +777,13 @@
 </code>
 
 - [1ucky7/cve-2025-22223-demo-1.0.0](https://github.com/1ucky7/cve-2025-22223-demo-1.0.0)
+
+### CVE-2025-22224 (2025-03-04)
+
+<code>VMware ESXi, and Workstation contain a TOCTOU (Time-of-Check Time-of-Use) vulnerability that leads to an out-of-bounds write. A malicious actor with local administrative privileges on a virtual machine may exploit this issue to execute code as the virtual machine's VMX process running on the host.
+</code>
+
+- [lacelruz/CVE-2025-22224](https://github.com/lacelruz/CVE-2025-22224)
 
 ### CVE-2025-22352 (2025-01-07)
 
@@ -1576,7 +1584,7 @@
 
 ### CVE-2025-28074 (2025-05-08)
 
-<code>phpList prior to 3.6.3 is vulnerable to Cross-Site Scripting (XSS) due to improper input sanitization in lt.php. The vulnerability is exploitable when the application dynamically references internal paths and processes untrusted input without escaping, allowing an attacker to inject malicious JavaScript.
+<code>phpList before 3.6.15 is vulnerable to Cross-Site Scripting (XSS) due to improper input sanitization in lt.php. The vulnerability is exploitable when the application dynamically references internal paths and processes untrusted input without escaping, allowing an attacker to inject malicious JavaScript.
 </code>
 
 - [mLniumm/CVE-2025-28074](https://github.com/mLniumm/CVE-2025-28074)
@@ -1791,7 +1799,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
-- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -12966,7 +12973,7 @@
 <code>In Rockoa 2.3.2 wurde eine Schwachstelle ausgemacht. Sie wurde als kritisch eingestuft. Hierbei betrifft es unbekannten Programmcode der Datei webmainConfig.php der Komponente Configuration File Handler. Durch Beeinflussen mit unbekannten Daten kann eine code injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [CTF-Archives/xinhu-v2.3.2](https://github.com/CTF-Archives/xinhu-v2.3.2)
+- [CRONUS-Develop/xinhu-v2.3.2](https://github.com/CRONUS-Develop/xinhu-v2.3.2)
 
 ### CVE-2023-1829 (2023-04-12)
 
@@ -19222,6 +19229,7 @@
 </code>
 
 - [WHW0x455/CVE-2023-41992](https://github.com/WHW0x455/CVE-2023-41992)
+- [xcbjky/cve-2023-41992-test](https://github.com/xcbjky/cve-2023-41992-test)
 
 ### CVE-2023-41993 (2023-09-21)
 
@@ -26830,7 +26838,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
