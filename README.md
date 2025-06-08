@@ -49,6 +49,7 @@
 - [AdaniKamal/CVE-2025-0282](https://github.com/AdaniKamal/CVE-2025-0282)
 - [44xo/CVE-2025-0282](https://github.com/44xo/CVE-2025-0282)
 - [punitdarji/Ivanti-CVE-2025-0282](https://github.com/punitdarji/Ivanti-CVE-2025-0282)
+- [B1ack4sh/Blackash-CVE-2025-0282](https://github.com/B1ack4sh/Blackash-CVE-2025-0282)
 
 ### CVE-2025-0316 (2025-02-08)
 
@@ -522,7 +523,6 @@
 - [imbas007/CVE-2025-4123-template](https://github.com/imbas007/CVE-2025-4123-template)
 - [ynsmroztas/CVE-2025-4123-Exploit-Tool-Grafana-](https://github.com/ynsmroztas/CVE-2025-4123-Exploit-Tool-Grafana-)
 - [B1ack4sh/Blackash-CVE-2025-4123](https://github.com/B1ack4sh/Blackash-CVE-2025-4123)
-- [Nowafen/cve-2025-4123](https://github.com/Nowafen/cve-2025-4123)
 
 ### CVE-2025-4190 (2025-05-17)
 
@@ -1577,7 +1577,7 @@
 
 ### CVE-2025-28073 (2025-05-08)
 
-<code>phpList 3.6.3 is vulnerable to Reflected Cross-Site Scripting (XSS) via the /lists/dl.php endpoint. An attacker can inject arbitrary JavaScript code by manipulating the id parameter, which is improperly sanitized.
+<code>phpList before 3.6.15 is vulnerable to Reflected Cross-Site Scripting (XSS) via the /lists/dl.php endpoint. An attacker can inject arbitrary JavaScript code by manipulating the id parameter, which is improperly sanitized.
 </code>
 
 - [mLniumm/CVE-2025-28073](https://github.com/mLniumm/CVE-2025-28073)
@@ -1844,6 +1844,7 @@
 - [enochgitgamefied/NextJS-CVE-2025-29927-Docker-Lab](https://github.com/enochgitgamefied/NextJS-CVE-2025-29927-Docker-Lab)
 - [sagsooz/CVE-2025-29927](https://github.com/sagsooz/CVE-2025-29927)
 - [SugiB3o/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/SugiB3o/vulnerable-nextjs-14-CVE-2025-29927)
+- [B1ack4sh/Blackash-CVE-2025-29927](https://github.com/B1ack4sh/Blackash-CVE-2025-29927)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -11571,6 +11572,13 @@
 
 - [mselbrede/CVE-2024-51442](https://github.com/mselbrede/CVE-2024-51442)
 
+### CVE-2024-51482 (2024-10-31)
+
+<code>ZoneMinder is a free, open source closed-circuit television software application. ZoneMinder v1.37.* &lt;= 1.37.64 is vulnerable to boolean-based SQL Injection in function of web/ajax/event.php. This is fixed in 1.37.65.
+</code>
+
+- [BwithE/CVE-2024-51482](https://github.com/BwithE/CVE-2024-51482)
+
 ### CVE-2024-51567 (2024-10-29)
 
 <code>upgrademysqlstatus in databases/views.py in CyberPanel (aka Cyber Panel) before 5b08cd6 allows remote attackers to bypass authentication and execute arbitrary commands via /dataBases/upgrademysqlstatus by bypassing secMiddleware (which is only for a POST request) and using shell metacharacters in the statusfile property, as exploited in the wild in October 2024 by PSAUX. Versions through 2.3.6 and (unpatched) 2.3.7 are affected.
@@ -19229,7 +19237,6 @@
 </code>
 
 - [WHW0x455/CVE-2023-41992](https://github.com/WHW0x455/CVE-2023-41992)
-- [xcbjky/cve-2023-41992-test](https://github.com/xcbjky/cve-2023-41992-test)
 
 ### CVE-2023-41993 (2023-09-21)
 
@@ -48934,6 +48941,7 @@
 - [kloutkake/CVE-2017-5638-PoC](https://github.com/kloutkake/CVE-2017-5638-PoC)
 - [Xernary/CVE-2017-5638-POC](https://github.com/Xernary/CVE-2017-5638-POC)
 - [toothbrushsoapflannelbiscuits/cve-2017-5638](https://github.com/toothbrushsoapflannelbiscuits/cve-2017-5638)
+- [haxerr9/CVE-2017-5638](https://github.com/haxerr9/CVE-2017-5638)
 
 ### CVE-2017-5645 (2017-04-17)
 
