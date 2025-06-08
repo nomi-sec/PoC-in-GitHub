@@ -680,6 +680,13 @@
 ### CVE-2025-5329
 - [sahici/CVE-2025-5329](https://github.com/sahici/CVE-2025-5329)
 
+### CVE-2025-5419 (2025-06-02)
+
+<code>Out of bounds read and write in V8 in Google Chrome prior to 137.0.7151.68 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [lacelruz/CVE-2025-5419](https://github.com/lacelruz/CVE-2025-5419)
+
 ### CVE-2025-5701 (2025-06-05)
 
 <code>The HyperComments plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the hc_request_handler function in all versions up to, and including, 1.2.2. This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
@@ -2249,6 +2256,7 @@
 
 - [exfil0/CVE-2025-32756-POC](https://github.com/exfil0/CVE-2025-32756-POC)
 - [kn0x0x/CVE-2025-32756-POC](https://github.com/kn0x0x/CVE-2025-32756-POC)
+- [B1ack4sh/Blackash-CVE-2025-32756](https://github.com/B1ack4sh/Blackash-CVE-2025-32756)
 
 ### CVE-2025-32873 (2025-05-08)
 
@@ -2404,6 +2412,9 @@
 
 ### CVE-2025-45781
 - [ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC](https://github.com/ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC)
+
+### CVE-2025-46041
+- [binneko/CVE-2025-46041](https://github.com/binneko/CVE-2025-46041)
 
 ### CVE-2025-46047
 - [J0ey17/CVE-2025-46047](https://github.com/J0ey17/CVE-2025-46047)
@@ -7038,6 +7049,7 @@
 - [spider00009/CVE-2024-24919-POC](https://github.com/spider00009/CVE-2024-24919-POC)
 - [ejaboz/cve-2024-24919](https://github.com/ejaboz/cve-2024-24919)
 - [CyprianAtsyor/CVE-2024-24919-Incident-Report.md](https://github.com/CyprianAtsyor/CVE-2024-24919-Incident-Report.md)
+- [CyberBibs/Event-ID-263-Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-](https://github.com/CyberBibs/Event-ID-263-Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-)
 
 ### CVE-2024-24926 (2024-02-12)
 
@@ -15868,7 +15880,7 @@
 - [G4sp4rCS/htb-sau-automated](https://github.com/G4sp4rCS/htb-sau-automated)
 - [lukehebe/CVE-2023-27163](https://github.com/lukehebe/CVE-2023-27163)
 - [J0ey17/Exploit_CVE-2023-27163](https://github.com/J0ey17/Exploit_CVE-2023-27163)
-- [theopaid/CVE-2023-27163-Request-Baskets](https://github.com/theopaid/CVE-2023-27163-Request-Baskets)
+- [theopaid/CVE-2023-27163-Request-Baskets-Local-Ports-Bruteforcer](https://github.com/theopaid/CVE-2023-27163-Request-Baskets-Local-Ports-Bruteforcer)
 
 ### CVE-2023-27216 (2023-04-12)
 
@@ -19253,6 +19265,7 @@
 </code>
 
 - [WHW0x455/CVE-2023-41992](https://github.com/WHW0x455/CVE-2023-41992)
+- [xcbjky/cve-2023-41992-test](https://github.com/xcbjky/cve-2023-41992-test)
 
 ### CVE-2023-41993 (2023-09-21)
 
