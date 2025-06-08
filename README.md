@@ -859,6 +859,13 @@
 
 - [Stolichnayer/CVE-2025-22828](https://github.com/Stolichnayer/CVE-2025-22828)
 
+### CVE-2025-22870 (2025-03-12)
+
+<code>Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to &quot;*.example.com&quot;, a request to &quot;[::1%25.example.com]:80` will incorrectly match and not be proxied.
+</code>
+
+- [JoshuaProvoste/CVE-2025-22870](https://github.com/JoshuaProvoste/CVE-2025-22870)
+
 ### CVE-2025-22953 (2025-03-28)
 
 <code>A SQL injection vulnerability exists in Epicor HCM 2021 1.9, with patches available: 5.16.0.1033/HCM2022, 5.17.0.1146/HCM2023, and 5.18.0.573/HCM2024. The injection is specifically in the filter parameter of the JsonFetcher.svc endpoint. An attacker can exploit this vulnerability by injecting malicious SQL payloads into the filter parameter, enabling the unauthorized execution of arbitrary SQL commands on the backend database. If certain features (like xp_cmdshell) are enabled, this may lead to remote code execution.
@@ -9738,6 +9745,13 @@
 
 - [TaiYou-TW/CVE-2024-40445_CVE-2024-40446](https://github.com/TaiYou-TW/CVE-2024-40445_CVE-2024-40446)
 
+### CVE-2024-40453 (2024-08-21)
+
+<code>squirrellyjs squirrelly v9.0.0 and fixed in v.9.0.1 was discovered to contain a code injection vulnerability via the component options.varName.
+</code>
+
+- [BwithE/CVE-2024-40453](https://github.com/BwithE/CVE-2024-40453)
+
 ### CVE-2024-40457 (2024-09-12)
 
 <code>No-IP Dynamic Update Client (DUC) v3.x uses cleartext credentials that may occur on a command line or in a file. NOTE: the vendor's position is that cleartext in /etc/default/noip-duc is recommended and is the intentional behavior.
@@ -12981,7 +12995,7 @@
 <code>In Rockoa 2.3.2 wurde eine Schwachstelle ausgemacht. Sie wurde als kritisch eingestuft. Hierbei betrifft es unbekannten Programmcode der Datei webmainConfig.php der Komponente Configuration File Handler. Durch Beeinflussen mit unbekannten Daten kann eine code injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [CRONUS-Develop/xinhu-v2.3.2](https://github.com/CRONUS-Develop/xinhu-v2.3.2)
+- [CRONUS-Security/xinhu-v2.3.2](https://github.com/CRONUS-Security/xinhu-v2.3.2)
 
 ### CVE-2023-1829 (2023-04-12)
 
@@ -15854,6 +15868,7 @@
 - [G4sp4rCS/htb-sau-automated](https://github.com/G4sp4rCS/htb-sau-automated)
 - [lukehebe/CVE-2023-27163](https://github.com/lukehebe/CVE-2023-27163)
 - [J0ey17/Exploit_CVE-2023-27163](https://github.com/J0ey17/Exploit_CVE-2023-27163)
+- [theopaid/CVE-2023-27163-Request-Baskets](https://github.com/theopaid/CVE-2023-27163-Request-Baskets)
 
 ### CVE-2023-27216 (2023-04-12)
 
@@ -18065,6 +18080,7 @@
 - [x0rb3l/CVE-2023-36802-MSKSSRV-LPE](https://github.com/x0rb3l/CVE-2023-36802-MSKSSRV-LPE)
 - [Nero22k/cve-2023-36802](https://github.com/Nero22k/cve-2023-36802)
 - [ISH2YU/CVE-2023-36802](https://github.com/ISH2YU/CVE-2023-36802)
+- [sahil-mpatki/CVE-2023-36802-MSKSSRV](https://github.com/sahil-mpatki/CVE-2023-36802-MSKSSRV)
 
 ### CVE-2023-36812 (2023-06-30)
 
@@ -22022,7 +22038,7 @@
 - [im-hanzou/fubucker](https://github.com/im-hanzou/fubucker)
 - [zycoder0day/CVE-2022-1386-Mass_Vulnerability](https://github.com/zycoder0day/CVE-2022-1386-Mass_Vulnerability)
 - [satyasai1460/CVE-2022-1386](https://github.com/satyasai1460/CVE-2022-1386)
-- [cur1pro/CVE-2022-1386](https://github.com/cur1pro/CVE-2022-1386)
+- [cur1y-dev/CVE-2022-1386](https://github.com/cur1y-dev/CVE-2022-1386)
 
 ### CVE-2022-1388 (2022-05-05)
 
