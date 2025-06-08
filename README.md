@@ -695,6 +695,13 @@
 - [Harley21211/CVE-2025-5701-Exploit](https://github.com/Harley21211/CVE-2025-5701-Exploit)
 - [Nxploited/CVE-2025-5701](https://github.com/Nxploited/CVE-2025-5701)
 
+### CVE-2025-5840 (2025-06-07)
+
+<code>Es wurde eine kritische Schwachstelle in SourceCodester Client Database Management System 1.0 gefunden. Dabei betrifft es einen unbekannter Codeteil der Datei /user_update_customer_order.php. Durch Manipulieren des Arguments uploaded_file mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen.
+</code>
+
+- [haxerr9/CVE-2025-5840](https://github.com/haxerr9/CVE-2025-5840)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -3544,6 +3551,7 @@
 - [hashdr1ft/SOC274-Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-CVE-2024-3400](https://github.com/hashdr1ft/SOC274-Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-CVE-2024-3400)
 - [CyprianAtsyor/letsdefend-cve2024-3400-case-study](https://github.com/CyprianAtsyor/letsdefend-cve2024-3400-case-study)
 - [Rohith-Reddy-Y/Zero-Day-Vulnerability-Exploitation-Detection-Tool](https://github.com/Rohith-Reddy-Y/Zero-Day-Vulnerability-Exploitation-Detection-Tool)
+- [CyberBibs/SOC274---Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-CVE-2024-3400-](https://github.com/CyberBibs/SOC274---Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-CVE-2024-3400-)
 
 ### CVE-2024-3435 (2024-05-16)
 
@@ -13015,6 +13023,7 @@
 </code>
 
 - [lanleft/CVE-2023-1829](https://github.com/lanleft/CVE-2023-1829)
+- [flmarrero/CVE-2023-1829](https://github.com/flmarrero/CVE-2023-1829)
 
 ### CVE-2023-1874 (2023-04-12)
 
@@ -18092,7 +18101,6 @@
 - [x0rb3l/CVE-2023-36802-MSKSSRV-LPE](https://github.com/x0rb3l/CVE-2023-36802-MSKSSRV-LPE)
 - [Nero22k/cve-2023-36802](https://github.com/Nero22k/cve-2023-36802)
 - [ISH2YU/CVE-2023-36802](https://github.com/ISH2YU/CVE-2023-36802)
-- [sahil-mpatki/CVE-2023-36802-MSKSSRV](https://github.com/sahil-mpatki/CVE-2023-36802-MSKSSRV)
 
 ### CVE-2023-36812 (2023-06-30)
 
@@ -47658,6 +47666,13 @@
 
 - [iioch/ban-exploitable-bitcoin-nodes](https://github.com/iioch/ban-exploitable-bitcoin-nodes)
 - [hikame/CVE-2018-17144_POC](https://github.com/hikame/CVE-2018-17144_POC)
+
+### CVE-2018-17179 (2019-05-17)
+
+<code>An issue was discovered in OpenEMR before 5.0.1 Patch 7. There is SQL Injection in the make_task function in /interface/forms/eye_mag/php/taskman_functions.php via /interface/forms/eye_mag/taskman.php.
+</code>
+
+- [CyberQuestor-infosec/CVE-2018-17179-OpenEMR](https://github.com/CyberQuestor-infosec/CVE-2018-17179-OpenEMR)
 
 ### CVE-2018-17182 (2018-09-19)
 
