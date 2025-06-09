@@ -10062,6 +10062,13 @@
 - [Bhanunamikaze/CVE-2024-42009](https://github.com/Bhanunamikaze/CVE-2024-42009)
 - [DaniTheHack3r/CVE-2024-42009-PoC](https://github.com/DaniTheHack3r/CVE-2024-42009-PoC)
 
+### CVE-2024-42049 (2024-07-28)
+
+<code>TightVNC (Server for Windows) before 2.8.84 allows attackers to connect to the control pipe via a network connection.
+</code>
+
+- [zeved/CVE-2024-42049-PoC](https://github.com/zeved/CVE-2024-42049-PoC)
+
 ### CVE-2024-42327 (2024-11-27)
 
 <code>A non-admin user account on the Zabbix frontend with the default User role, or with any other role that gives API access can exploit this vulnerability. An SQLi exists in the CUser class in the addRelatedObjects function, this function is being called from the CUser.get function which is available for every user who has API access.
@@ -13023,7 +13030,6 @@
 </code>
 
 - [lanleft/CVE-2023-1829](https://github.com/lanleft/CVE-2023-1829)
-- [flmarrero/CVE-2023-1829](https://github.com/flmarrero/CVE-2023-1829)
 
 ### CVE-2023-1874 (2023-04-12)
 
@@ -21802,7 +21808,7 @@
 - [CPT-Jack-A-Castle/CVE-2022-0847](https://github.com/CPT-Jack-A-Castle/CVE-2022-0847)
 - [isaiahsimeone/COMP3320-VAPT](https://github.com/isaiahsimeone/COMP3320-VAPT)
 - [VinuKalana/DirtyPipe-CVE-2022-0847](https://github.com/VinuKalana/DirtyPipe-CVE-2022-0847)
-- [ih3na/debian11-dirty_pipe-patcher](https://github.com/ih3na/debian11-dirty_pipe-patcher)
+- [ihenakaarachchi/debian11-dirty_pipe-patcher](https://github.com/ihenakaarachchi/debian11-dirty_pipe-patcher)
 - [greenhandatsjtu/CVE-2022-0847-Container-Escape](https://github.com/greenhandatsjtu/CVE-2022-0847-Container-Escape)
 - [jxpsx/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/jxpsx/CVE-2022-0847-DirtyPipe-Exploits)
 - [Asbatel/CBDS_CVE-2022-0847_POC](https://github.com/Asbatel/CBDS_CVE-2022-0847_POC)
@@ -53270,6 +53276,9 @@
 
 ### CVE-2014-0291
 - [niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204)
+
+### CVE-2014-0346
+- [Songul-Kizilay/CVE-2014-0346-](https://github.com/Songul-Kizilay/CVE-2014-0346-)
 
 ### CVE-2014-0472 (2014-04-23)
 
