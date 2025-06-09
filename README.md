@@ -659,6 +659,13 @@
 
 - [d0n601/CVE-2025-5058](https://github.com/d0n601/CVE-2025-5058)
 
+### CVE-2025-5068 (2025-06-02)
+
+<code>Use after free in Blink in Google Chrome prior to 137.0.7151.68 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)
+</code>
+
+- [amandanegefa/CVE-2025-5068](https://github.com/amandanegefa/CVE-2025-5068)
+
 ### CVE-2025-5196 (2025-05-26)
 
 <code>In Wing FTP Server bis 7.4.3 wurde eine Schwachstelle gefunden. Sie wurde als kritisch eingestuft. Hierbei betrifft es unbekannten Programmcode der Komponente Lua Admin Console. Mit der Manipulation mit unbekannten Daten kann eine execution with unnecessary privileges-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Die Komplexität eines Angriffs ist eher hoch. Sie gilt als schwierig ausnutzbar. Ein Aktualisieren auf die Version 7.4.4 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
@@ -679,13 +686,6 @@
 
 ### CVE-2025-5329
 - [sahici/CVE-2025-5329](https://github.com/sahici/CVE-2025-5329)
-
-### CVE-2025-5419 (2025-06-02)
-
-<code>Out of bounds read and write in V8 in Google Chrome prior to 137.0.7151.68 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
-</code>
-
-- [lacelruz/CVE-2025-5419](https://github.com/lacelruz/CVE-2025-5419)
 
 ### CVE-2025-5701 (2025-06-05)
 
@@ -791,13 +791,6 @@
 </code>
 
 - [1ucky7/cve-2025-22223-demo-1.0.0](https://github.com/1ucky7/cve-2025-22223-demo-1.0.0)
-
-### CVE-2025-22224 (2025-03-04)
-
-<code>VMware ESXi, and Workstation contain a TOCTOU (Time-of-Check Time-of-Use) vulnerability that leads to an out-of-bounds write. A malicious actor with local administrative privileges on a virtual machine may exploit this issue to execute code as the virtual machine's VMX process running on the host.
-</code>
-
-- [lacelruz/CVE-2025-22224](https://github.com/lacelruz/CVE-2025-22224)
 
 ### CVE-2025-22352 (2025-01-07)
 
@@ -983,6 +976,8 @@
 - [f4dee-backup/CVE-2025-24071](https://github.com/f4dee-backup/CVE-2025-24071)
 - [LOOKY243/CVE-2025-24071-PoC](https://github.com/LOOKY243/CVE-2025-24071-PoC)
 - [ex-cal1bur/SMB_CVE-2025-24071](https://github.com/ex-cal1bur/SMB_CVE-2025-24071)
+- [TH-SecForge/CVE-2025-24071](https://github.com/TH-SecForge/CVE-2025-24071)
+- [B1ack4sh/Blackash-CVE-2025-24071](https://github.com/B1ack4sh/Blackash-CVE-2025-24071)
 
 ### CVE-2025-24076 (2025-03-11)
 
@@ -1820,6 +1815,7 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
+- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -1873,6 +1869,7 @@
 </code>
 
 - [ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972)
+- [TH-SecForge/CVE-2025-29972](https://github.com/TH-SecForge/CVE-2025-29972)
 
 ### CVE-2025-30065 (2025-04-01)
 
@@ -2226,6 +2223,7 @@
 - [C9b3rD3vi1/Erlang-OTP-SSH-CVE-2025-32433](https://github.com/C9b3rD3vi1/Erlang-OTP-SSH-CVE-2025-32433)
 - [bilalz5-github/Erlang-OTP-SSH-CVE-2025-32433](https://github.com/bilalz5-github/Erlang-OTP-SSH-CVE-2025-32433)
 - [vigilante-1337/CVE-2025-32433](https://github.com/vigilante-1337/CVE-2025-32433)
+- [B1ack4sh/Blackash-CVE-2025-32433](https://github.com/B1ack4sh/Blackash-CVE-2025-32433)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -2264,6 +2262,7 @@
 - [exfil0/CVE-2025-32756-POC](https://github.com/exfil0/CVE-2025-32756-POC)
 - [kn0x0x/CVE-2025-32756-POC](https://github.com/kn0x0x/CVE-2025-32756-POC)
 - [B1ack4sh/Blackash-CVE-2025-32756](https://github.com/B1ack4sh/Blackash-CVE-2025-32756)
+- [alm6no5/CVE-2025-32756-POC](https://github.com/alm6no5/CVE-2025-32756-POC)
 
 ### CVE-2025-32873 (2025-05-08)
 
@@ -2295,6 +2294,7 @@
 </code>
 
 - [SeanHeelan/o3_finds_cve-2025-37899](https://github.com/SeanHeelan/o3_finds_cve-2025-37899)
+- [vett3x/SMB-LINUX-CVE-2025-37899](https://github.com/vett3x/SMB-LINUX-CVE-2025-37899)
 
 ### CVE-2025-39436 (2025-04-17)
 
@@ -5240,6 +5240,7 @@
 - [dragonXZH/CVE-2024-10914](https://github.com/dragonXZH/CVE-2024-10914)
 - [yenyangmjaze/cve-2024-10914](https://github.com/yenyangmjaze/cve-2024-10914)
 - [silverxpymaster/CVE-2024-10914-Exploit](https://github.com/silverxpymaster/CVE-2024-10914-Exploit)
+- [TH-SecForge/CVE-2024-10914](https://github.com/TH-SecForge/CVE-2024-10914)
 
 ### CVE-2024-10924 (2024-11-15)
 
@@ -14476,6 +14477,7 @@
 - [XiaomingX/cve-2023-20198-poc](https://github.com/XiaomingX/cve-2023-20198-poc)
 - [G4sul1n/Cisco-IOS-XE-CVE-2023-20198](https://github.com/G4sul1n/Cisco-IOS-XE-CVE-2023-20198)
 - [DOMINIC471/qub-network-security-cve-2023-20198](https://github.com/DOMINIC471/qub-network-security-cve-2023-20198)
+- [Arshit01/CVE-2023-20198](https://github.com/Arshit01/CVE-2023-20198)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -21412,6 +21414,7 @@
 - [Featherw1t/CVE-2023-51385_test](https://github.com/Featherw1t/CVE-2023-51385_test)
 - [GroundCTL2MajorTom/CVE-2023-51385POC](https://github.com/GroundCTL2MajorTom/CVE-2023-51385POC)
 - [GroundCTL2MajorTom/CVE-2023-51385P-POC](https://github.com/GroundCTL2MajorTom/CVE-2023-51385P-POC)
+- [GanReality/CVE-2023-51385Test](https://github.com/GanReality/CVE-2023-51385Test)
 
 ### CVE-2023-51409 (2024-04-12)
 
@@ -26893,6 +26896,7 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
+- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -29316,6 +29320,7 @@
 - [duongdz96/CVE-2021-3156-main](https://github.com/duongdz96/CVE-2021-3156-main)
 - [Shuhaib88/Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156](https://github.com/Shuhaib88/Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156)
 - [Superliverbun/cve-2021-3156-](https://github.com/Superliverbun/cve-2021-3156-)
+- [TopskiyPavelQwertyGang/Review.CVE-2021-3156](https://github.com/TopskiyPavelQwertyGang/Review.CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -29621,7 +29626,6 @@
 - [PwnFunction/CVE-2021-4034](https://github.com/PwnFunction/CVE-2021-4034)
 - [deoxykev/CVE-2021-4034-Rust](https://github.com/deoxykev/CVE-2021-4034-Rust)
 - [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
-- [Fato07/Pwnkit-exploit](https://github.com/Fato07/Pwnkit-exploit)
 - [EstamelGG/CVE-2021-4034-NoGCC](https://github.com/EstamelGG/CVE-2021-4034-NoGCC)
 - [pengalaman-1t/CVE-2021-4034](https://github.com/pengalaman-1t/CVE-2021-4034)
 - [NeonWhiteRabbit/CVE-2021-4034-BASH-One-File-Exploit](https://github.com/NeonWhiteRabbit/CVE-2021-4034-BASH-One-File-Exploit)
@@ -32495,7 +32499,7 @@
 - [shaktavist/SeriousSam](https://github.com/shaktavist/SeriousSam)
 - [OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC](https://github.com/OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC)
 - [chron1k/oxide_hive](https://github.com/chron1k/oxide_hive)
-- [Ap3x369/Why-so-Serious-SAM](https://github.com/Ap3x369/Why-so-Serious-SAM)
+- [P1rat3xai/Why-so-Serious-SAM](https://github.com/P1rat3xai/Why-so-Serious-SAM)
 
 ### CVE-2021-36949 (2021-08-12)
 
