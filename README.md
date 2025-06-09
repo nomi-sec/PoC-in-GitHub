@@ -2590,6 +2590,9 @@
 
 - [Zedeldi/CVE-2025-47827](https://github.com/Zedeldi/CVE-2025-47827)
 
+### CVE-2025-48129
+- [Nxploited/CVE-2025-48129](https://github.com/Nxploited/CVE-2025-48129)
+
 ### CVE-2025-48708 (2025-05-23)
 
 <code>gs_lib_ctx_stash_sanitized_arg in base/gslibctx.c in Artifex Ghostscript before 10.05.1 lacks argument sanitization for the # case. A created PDF document includes its password in cleartext.
@@ -3754,6 +3757,7 @@
 - [VVeakee/CVE-2024-4367](https://github.com/VVeakee/CVE-2024-4367)
 - [BektiHandoyo/cve-pdf-host](https://github.com/BektiHandoyo/cve-pdf-host)
 - [Bhavyakcwestern/Hacking-pdf.js-vulnerability](https://github.com/Bhavyakcwestern/Hacking-pdf.js-vulnerability)
+- [PenguinCabinet/CVE-2024-4367-hands-on](https://github.com/PenguinCabinet/CVE-2024-4367-hands-on)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -24527,6 +24531,7 @@
 - [XiaomingX/cve-2022-26134-poc](https://github.com/XiaomingX/cve-2022-26134-poc)
 - [Khalidhaimur/CVE-2022-26134](https://github.com/Khalidhaimur/CVE-2022-26134)
 - [user20252228/cve-2022-26134](https://github.com/user20252228/cve-2022-26134)
+- [thetowsif/CVE-2022-26134](https://github.com/thetowsif/CVE-2022-26134)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -29599,7 +29604,6 @@
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [arthepsy/CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034)
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
-- [An00bRektn/CVE-2021-4034](https://github.com/An00bRektn/CVE-2021-4034)
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [xcanwin/CVE-2021-4034-UniontechOS](https://github.com/xcanwin/CVE-2021-4034-UniontechOS)
@@ -29615,7 +29619,6 @@
 - [tahaafarooq/poppy](https://github.com/tahaafarooq/poppy)
 - [DosAmp/pkwned](https://github.com/DosAmp/pkwned)
 - [PwnFunction/CVE-2021-4034](https://github.com/PwnFunction/CVE-2021-4034)
-- [locksec/CVE-2021-4034](https://github.com/locksec/CVE-2021-4034)
 - [deoxykev/CVE-2021-4034-Rust](https://github.com/deoxykev/CVE-2021-4034-Rust)
 - [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
 - [Fato07/Pwnkit-exploit](https://github.com/Fato07/Pwnkit-exploit)
@@ -32492,6 +32495,7 @@
 - [shaktavist/SeriousSam](https://github.com/shaktavist/SeriousSam)
 - [OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC](https://github.com/OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC)
 - [chron1k/oxide_hive](https://github.com/chron1k/oxide_hive)
+- [Ap3x369/Why-so-Serious-SAM](https://github.com/Ap3x369/Why-so-Serious-SAM)
 
 ### CVE-2021-36949 (2021-08-12)
 
@@ -54767,6 +54771,7 @@
 </code>
 
 - [s3mPr1linux/CVE-2011-0762](https://github.com/s3mPr1linux/CVE-2011-0762)
+- [Freitandrey/CVE-2011-0762](https://github.com/Freitandrey/CVE-2011-0762)
 
 ### CVE-2011-1237 (2011-04-13)
 
