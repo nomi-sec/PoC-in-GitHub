@@ -316,6 +316,7 @@
 
 - [verylazytech/CVE-2025-2539](https://github.com/verylazytech/CVE-2025-2539)
 - [RootHarpy/CVE-2025-2539](https://github.com/RootHarpy/CVE-2025-2539)
+- [Yucaerin/CVE-2025-2539](https://github.com/Yucaerin/CVE-2025-2539)
 
 ### CVE-2025-2563 (2025-04-14)
 
@@ -709,6 +710,13 @@
 
 - [mbadanoiu/CVE-2025-20029](https://github.com/mbadanoiu/CVE-2025-20029)
 - [schoi1337/CVE-2025-20029-simulation](https://github.com/schoi1337/CVE-2025-20029-simulation)
+
+### CVE-2025-20286 (2025-06-04)
+
+<code>A vulnerability in Amazon Web Services (AWS), Microsoft Azure, and Oracle Cloud Infrastructure (OCI) cloud deployments of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attacker to access sensitive data, execute limited administrative operations, modify system configurations, or disrupt services within the impacted systems.\r\n\r\nThis vulnerability exists because credentials are improperly generated when Cisco ISE is being deployed on cloud platforms, resulting in different Cisco ISE deployments sharing the same credentials. These credentials are shared across multiple Cisco ISE deployments as long as the software release and cloud platform are the same. An attacker could exploit this vulnerability by extracting the user credentials from Cisco ISE that is deployed in the cloud and then using them to access Cisco ISE that is deployed in other cloud environments through unsecured ports. A successful exploit could allow the attacker to access sensitive data, execute limited administrative operations, modify system configurations, or disrupt services within the impacted systems.\r\nNote: If the Primary Administration node is deployed in the cloud, then Cisco ISE is affected by this vulnerability. If the Primary Administration node is on-premises, then it is not affected.
+</code>
+
+- [amandanegefa/CVE-2025-20286](https://github.com/amandanegefa/CVE-2025-20286)
 
 ### CVE-2025-21204 (2025-04-08)
 
@@ -2420,7 +2428,11 @@
 ### CVE-2025-45781
 - [ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC](https://github.com/ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC)
 
-### CVE-2025-46041
+### CVE-2025-46041 (2025-06-09)
+
+<code>A stored cross-site scripting (XSS) vulnerability in Anchor CMS v0.12.7 allows attackers to inject malicious JavaScript via the page description field in the page creation interface (/admin/pages/add).
+</code>
+
 - [binneko/CVE-2025-46041](https://github.com/binneko/CVE-2025-46041)
 
 ### CVE-2025-46047
@@ -2447,7 +2459,11 @@
 
 - [pruthuraut/CVE-2025-46173](https://github.com/pruthuraut/CVE-2025-46173)
 
-### CVE-2025-46178
+### CVE-2025-46178 (2025-06-09)
+
+<code>Cross-Site Scripting (XSS) vulnerability exists in askquery.php via the eid parameter in the CloudClassroom PHP Project. This allows remote attackers to inject arbitrary JavaScript in the context of a victim s browser session by sending a crafted URL, leading to session hijacking or defacement.
+</code>
+
 - [SacX-7/CVE-2025-46178](https://github.com/SacX-7/CVE-2025-46178)
 
 ### CVE-2025-46203 (2025-06-04)
@@ -2590,7 +2606,11 @@
 
 - [Zedeldi/CVE-2025-47827](https://github.com/Zedeldi/CVE-2025-47827)
 
-### CVE-2025-48129
+### CVE-2025-48129 (2025-06-09)
+
+<code>Incorrect Privilege Assignment vulnerability in Holest Engineering Spreadsheet Price Changer for WooCommerce and WP E-commerce – Light allows Privilege Escalation. This issue affects Spreadsheet Price Changer for WooCommerce and WP E-commerce – Light: from n/a through 2.4.37.
+</code>
+
 - [Nxploited/CVE-2025-48129](https://github.com/Nxploited/CVE-2025-48129)
 
 ### CVE-2025-48708 (2025-05-23)
@@ -21443,7 +21463,7 @@
 - [Subha-BOO7/Exploit_CVE-2023-51467](https://github.com/Subha-BOO7/Exploit_CVE-2023-51467)
 - [ImuSpirit/CVE-2023-51467-Exploit](https://github.com/ImuSpirit/CVE-2023-51467-Exploit)
 - [vulncheck-oss/cve-2023-51467](https://github.com/vulncheck-oss/cve-2023-51467)
-- [2ptr/BadBizness-CVE-2023-51467](https://github.com/2ptr/BadBizness-CVE-2023-51467)
+- [jakeotte/BadBizness-CVE-2023-51467](https://github.com/jakeotte/BadBizness-CVE-2023-51467)
 - [AhmedMansour93/Event-ID-217-Rule-Name-SOC254-Apache-OFBiz-Auth-Bypass-and-Code-Injection-0Day-CVE-2023-51467-](https://github.com/AhmedMansour93/Event-ID-217-Rule-Name-SOC254-Apache-OFBiz-Auth-Bypass-and-Code-Injection-0Day-CVE-2023-51467-)
 
 ### CVE-2023-51504 (2024-02-05)
@@ -43760,7 +43780,7 @@
 <code>HTTP request smuggling in Node.js 10, 12, and 13 causes malicious payload delivery when transfer-encoding is malformed
 </code>
 
-- [jlcarruda/node-poc-http-smuggling](https://github.com/jlcarruda/node-poc-http-smuggling)
+- [0-9194/node-poc-http-smuggling](https://github.com/0-9194/node-poc-http-smuggling)
 
 ### CVE-2019-15642 (2019-08-26)
 
