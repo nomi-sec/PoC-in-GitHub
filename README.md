@@ -660,13 +660,6 @@
 
 - [d0n601/CVE-2025-5058](https://github.com/d0n601/CVE-2025-5058)
 
-### CVE-2025-5068 (2025-06-02)
-
-<code>Use after free in Blink in Google Chrome prior to 137.0.7151.68 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)
-</code>
-
-- [amandanegefa/CVE-2025-5068](https://github.com/amandanegefa/CVE-2025-5068)
-
 ### CVE-2025-5196 (2025-05-26)
 
 <code>In Wing FTP Server bis 7.4.3 wurde eine Schwachstelle gefunden. Sie wurde als kritisch eingestuft. Hierbei betrifft es unbekannten Programmcode der Komponente Lua Admin Console. Mit der Manipulation mit unbekannten Daten kann eine execution with unnecessary privileges-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Die Komplexität eines Angriffs ist eher hoch. Sie gilt als schwierig ausnutzbar. Ein Aktualisieren auf die Version 7.4.4 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
@@ -710,13 +703,6 @@
 
 - [mbadanoiu/CVE-2025-20029](https://github.com/mbadanoiu/CVE-2025-20029)
 - [schoi1337/CVE-2025-20029-simulation](https://github.com/schoi1337/CVE-2025-20029-simulation)
-
-### CVE-2025-20286 (2025-06-04)
-
-<code>A vulnerability in Amazon Web Services (AWS), Microsoft Azure, and Oracle Cloud Infrastructure (OCI) cloud deployments of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attacker to access sensitive data, execute limited administrative operations, modify system configurations, or disrupt services within the impacted systems.\r\n\r\nThis vulnerability exists because credentials are improperly generated when Cisco ISE is being deployed on cloud platforms, resulting in different Cisco ISE deployments sharing the same credentials. These credentials are shared across multiple Cisco ISE deployments as long as the software release and cloud platform are the same. An attacker could exploit this vulnerability by extracting the user credentials from Cisco ISE that is deployed in the cloud and then using them to access Cisco ISE that is deployed in other cloud environments through unsecured ports. A successful exploit could allow the attacker to access sensitive data, execute limited administrative operations, modify system configurations, or disrupt services within the impacted systems.\r\nNote: If the Primary Administration node is deployed in the cloud, then Cisco ISE is affected by this vulnerability. If the Primary Administration node is on-premises, then it is not affected.
-</code>
-
-- [amandanegefa/CVE-2025-20286](https://github.com/amandanegefa/CVE-2025-20286)
 
 ### CVE-2025-21204 (2025-04-08)
 
@@ -6311,6 +6297,13 @@
 </code>
 
 - [oscerd/CVE-2024-22369](https://github.com/oscerd/CVE-2024-22369)
+
+### CVE-2024-22371 (2024-02-26)
+
+<code>Exposure of sensitive data by by crafting a malicious EventFactory and providing a custom ExchangeCreatedEvent that exposes sensitive data. Vulnerability in Apache Camel.This issue affects Apache Camel: from 3.21.X through 3.21.3, from 3.22.X through 3.22.0, from 4.0.X through 4.0.3, from 4.X through 4.3.0.\n\nUsers are recommended to upgrade to version 3.21.4, 3.22.1, 4.0.4 or 4.4.0, which fixes the issue.\n\n
+</code>
+
+- [vishalborkar7/POC_for_-CVE-2024-22371](https://github.com/vishalborkar7/POC_for_-CVE-2024-22371)
 
 ### CVE-2024-22393 (2024-02-22)
 
