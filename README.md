@@ -1510,6 +1510,13 @@
 
 - [mbadanoiu/CVE-2025-26865](https://github.com/mbadanoiu/CVE-2025-26865)
 
+### CVE-2025-26892 (2025-05-19)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in dkszone Celestial Aura allows Using Malicious Files.This issue affects Celestial Aura: from n/a through 2.2.
+</code>
+
+- [Nxploited/CVE-2025-26892](https://github.com/Nxploited/CVE-2025-26892)
+
 ### CVE-2025-27007 (2025-05-01)
 
 <code>Incorrect Privilege Assignment vulnerability in Brainstorm Force SureTriggers allows Privilege Escalation.This issue affects SureTriggers: from n/a through 1.0.82.
@@ -2271,6 +2278,7 @@
 - [kn0x0x/CVE-2025-32756-POC](https://github.com/kn0x0x/CVE-2025-32756-POC)
 - [B1ack4sh/Blackash-CVE-2025-32756](https://github.com/B1ack4sh/Blackash-CVE-2025-32756)
 - [alm6no5/CVE-2025-32756-POC](https://github.com/alm6no5/CVE-2025-32756-POC)
+- [becrevex/CVE-2025-32756](https://github.com/becrevex/CVE-2025-32756)
 
 ### CVE-2025-32873 (2025-05-08)
 
@@ -2310,6 +2318,13 @@
 </code>
 
 - [Nxploited/CVE-2025-39436](https://github.com/Nxploited/CVE-2025-39436)
+
+### CVE-2025-39507 (2025-05-16)
+
+<code>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in NasaTheme Nasa Core allows PHP Local File Inclusion. This issue affects Nasa Core: from n/a through 6.3.2.
+</code>
+
+- [blackgirlinfosec/cve-lfi-lab](https://github.com/blackgirlinfosec/cve-lfi-lab)
 
 ### CVE-2025-39538 (2025-04-16)
 
@@ -29719,7 +29734,6 @@
 - [Pixailz/CVE-2021-4034](https://github.com/Pixailz/CVE-2021-4034)
 - [toecesws/CVE-2021-4034](https://github.com/toecesws/CVE-2021-4034)
 - [jehovah2002/CVE-2021-4034-pwnkit](https://github.com/jehovah2002/CVE-2021-4034-pwnkit)
-- [deep-know/CVE-2021-4034](https://github.com/deep-know/CVE-2021-4034)
 - [fei9747/CVE-2021-4034](https://github.com/fei9747/CVE-2021-4034)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [mutur4/CVE-2021-4034](https://github.com/mutur4/CVE-2021-4034)
@@ -31541,6 +31555,13 @@
 </code>
 
 - [atorralba/CVE-2021-30005-POC](https://github.com/atorralba/CVE-2021-30005-POC)
+
+### CVE-2021-30047 (2023-08-22)
+
+<code>VSFTPD 3.0.3 allows attackers to cause a denial of service due to limited number of connections allowed.
+</code>
+
+- [Freitandrey/CVE-2021-30047](https://github.com/Freitandrey/CVE-2021-30047)
 
 ### CVE-2021-30109 (2021-04-05)
 
