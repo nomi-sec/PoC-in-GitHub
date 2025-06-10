@@ -587,6 +587,13 @@
 
 - [ptrstr/CVE-2025-4524](https://github.com/ptrstr/CVE-2025-4524)
 
+### CVE-2025-4601 (2025-06-10)
+
+<code>The &quot;RH - Real Estate WordPress Theme&quot; theme for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 4.4.0. This is due to the theme not properly restricting user roles that can be updated as part of the inspiry_update_profile() function. This makes it possible for authenticated attackers, with subscriber-level access and above, to set their role to that of an administrator. The vulnerability was partially patched in version 4.4.0, and fully patched in version 4.4.1.
+</code>
+
+- [Yucaerin/CVE-2025-4601](https://github.com/Yucaerin/CVE-2025-4601)
+
 ### CVE-2025-4602 (2025-05-24)
 
 <code>The eMagicOne Store Manager for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Reads in all versions up to, and including, 1.2.5 via the get_file() function. This makes it possible for unauthenticated attackers to read the contents of arbitrary files on the server, which can contain sensitive information. This is only exploitable by unauthenticated attackers in default configurations where the the default password is left as 1:1, or where the attacker gains access to the credentials.
@@ -683,6 +690,13 @@
 
 ### CVE-2025-5329
 - [sahici/CVE-2025-5329](https://github.com/sahici/CVE-2025-5329)
+
+### CVE-2025-5419 (2025-06-02)
+
+<code>Out of bounds read and write in V8 in Google Chrome prior to 137.0.7151.68 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [alegrason/CVE-2025-5419](https://github.com/alegrason/CVE-2025-5419)
 
 ### CVE-2025-5701 (2025-06-05)
 
@@ -2643,6 +2657,7 @@
 - [rasool13x/exploit-CVE-2025-49113](https://github.com/rasool13x/exploit-CVE-2025-49113)
 - [SyFi/CVE-2025-49113](https://github.com/SyFi/CVE-2025-49113)
 - [hakaioffsec/CVE-2025-49113-exploit](https://github.com/hakaioffsec/CVE-2025-49113-exploit)
+- [BiiTts/Roundcube-CVE-2025-49113](https://github.com/BiiTts/Roundcube-CVE-2025-49113)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -10002,6 +10017,18 @@
 </code>
 
 - [code5ecure/CVE-2024-41453_CVE-2024-41454](https://github.com/code5ecure/CVE-2024-41453_CVE-2024-41454)
+
+### CVE-2024-41502
+- [rafaelbaldasso/CVE-2024-41502](https://github.com/rafaelbaldasso/CVE-2024-41502)
+
+### CVE-2024-41503
+- [rafaelbaldasso/CVE-2024-41503](https://github.com/rafaelbaldasso/CVE-2024-41503)
+
+### CVE-2024-41504
+- [rafaelbaldasso/CVE-2024-41504](https://github.com/rafaelbaldasso/CVE-2024-41504)
+
+### CVE-2024-41505
+- [rafaelbaldasso/CVE-2024-41505](https://github.com/rafaelbaldasso/CVE-2024-41505)
 
 ### CVE-2024-41570 (2024-08-09)
 
@@ -27579,7 +27606,7 @@
 - [DimaMend/cve-2022-42889-text4shell](https://github.com/DimaMend/cve-2022-42889-text4shell)
 - [joshbnewton31080/cve-2022-42889-text4shell](https://github.com/joshbnewton31080/cve-2022-42889-text4shell)
 - [MendDemo-josh/cve-2022-42889-text4shell](https://github.com/MendDemo-josh/cve-2022-42889-text4shell)
-- [chaudharyarjun/text4shell-exploit](https://github.com/chaudharyarjun/text4shell-exploit)
+- [Syndicate27/text4shell-exploit](https://github.com/Syndicate27/text4shell-exploit)
 
 ### CVE-2022-42896 (2022-11-23)
 
