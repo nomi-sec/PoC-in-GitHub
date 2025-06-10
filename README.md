@@ -533,6 +533,9 @@
 - [Nxploited/CVE-2025-4190](https://github.com/Nxploited/CVE-2025-4190)
 - [GadaLuBau1337/CVE-2025-4190](https://github.com/GadaLuBau1337/CVE-2025-4190)
 
+### CVE-2025-4275
+- [NikolajSchlej/Hydroph0bia](https://github.com/NikolajSchlej/Hydroph0bia)
+
 ### CVE-2025-4322 (2025-05-20)
 
 <code>The Motors theme for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 5.6.67. This is due to the theme not properly validating a user's identity prior to updating their password. This makes it possible for unauthenticated attackers to change arbitrary user passwords, including those of administrators, and leverage that to gain access to their account.
@@ -18849,6 +18852,13 @@
 
 ### CVE-2023-39725
 - [anky-123/CVE-2023-39725](https://github.com/anky-123/CVE-2023-39725)
+
+### CVE-2023-39910 (2023-08-09)
+
+<code>The cryptocurrency wallet entropy seeding mechanism used in Libbitcoin Explorer 3.0.0 through 3.6.0 is weak, aka the Milk Sad issue. The use of an mt19937 Mersenne Twister PRNG restricts the internal entropy to 32 bits regardless of settings. This allows remote attackers to recover any wallet private keys generated from &quot;bx seed&quot; entropy output and steal funds. (Affected users need to move funds to a secure new cryptocurrency wallet.) NOTE: the vendor's position is that there was sufficient documentation advising against &quot;bx seed&quot; but others disagree. NOTE: this was exploited in the wild in June and July 2023.
+</code>
+
+- [z1ph1us/MilkSad-Mnemonic-Generator](https://github.com/z1ph1us/MilkSad-Mnemonic-Generator)
 
 ### CVE-2023-40000 (2024-04-16)
 
@@ -53320,7 +53330,7 @@
 - [niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204)
 
 ### CVE-2014-0346
-- [Songul-Kizilay/CVE-2014-0346-](https://github.com/Songul-Kizilay/CVE-2014-0346-)
+- [Songul-Kizilay/CVE-2014-0346](https://github.com/Songul-Kizilay/CVE-2014-0346)
 
 ### CVE-2014-0472 (2014-04-23)
 
