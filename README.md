@@ -533,7 +533,11 @@
 - [Nxploited/CVE-2025-4190](https://github.com/Nxploited/CVE-2025-4190)
 - [GadaLuBau1337/CVE-2025-4190](https://github.com/GadaLuBau1337/CVE-2025-4190)
 
-### CVE-2025-4275
+### CVE-2025-4275 (2025-06-11)
+
+<code>Running the provided utility changes the certificate on any Insyde BIOS and then the attached .efi file can be launched.
+</code>
+
 - [NikolajSchlej/Hydroph0bia](https://github.com/NikolajSchlej/Hydroph0bia)
 
 ### CVE-2025-4322 (2025-05-20)
@@ -691,13 +695,6 @@
 ### CVE-2025-5329
 - [sahici/CVE-2025-5329](https://github.com/sahici/CVE-2025-5329)
 
-### CVE-2025-5419 (2025-06-02)
-
-<code>Out of bounds read and write in V8 in Google Chrome prior to 137.0.7151.68 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
-</code>
-
-- [alegrason/CVE-2025-5419](https://github.com/alegrason/CVE-2025-5419)
-
 ### CVE-2025-5701 (2025-06-05)
 
 <code>The HyperComments plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the hc_request_handler function in all versions up to, and including, 1.2.2. This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
@@ -720,13 +717,6 @@
 
 - [mbadanoiu/CVE-2025-20029](https://github.com/mbadanoiu/CVE-2025-20029)
 - [schoi1337/CVE-2025-20029-simulation](https://github.com/schoi1337/CVE-2025-20029-simulation)
-
-### CVE-2025-20286 (2025-06-04)
-
-<code>A vulnerability in Amazon Web Services (AWS), Microsoft Azure, and Oracle Cloud Infrastructure (OCI) cloud deployments of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attacker to access sensitive data, execute limited administrative operations, modify system configurations, or disrupt services within the impacted systems.\r\n\r\nThis vulnerability exists because credentials are improperly generated when Cisco ISE is being deployed on cloud platforms, resulting in different Cisco ISE deployments sharing the same credentials. These credentials are shared across multiple Cisco ISE deployments as long as the software release and cloud platform are the same. An attacker could exploit this vulnerability by extracting the user credentials from Cisco ISE that is deployed in the cloud and then using them to access Cisco ISE that is deployed in other cloud environments through unsecured ports. A successful exploit could allow the attacker to access sensitive data, execute limited administrative operations, modify system configurations, or disrupt services within the impacted systems.\r\nNote: If the Primary Administration node is deployed in the cloud, then Cisco ISE is affected by this vulnerability. If the Primary Administration node is on-premises, then it is not affected.
-</code>
-
-- [noeneal/CVE-2025-20286](https://github.com/noeneal/CVE-2025-20286)
 
 ### CVE-2025-21204 (2025-04-08)
 
@@ -42058,6 +42048,7 @@
 - [SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock)
 - [elvi7major/snap_priv_esc](https://github.com/elvi7major/snap_priv_esc)
 - [f4T1H21/dirty_sock](https://github.com/f4T1H21/dirty_sock)
+- [coby-nguyen/Document-Linux-Privilege-Escalation](https://github.com/coby-nguyen/Document-Linux-Privilege-Escalation)
 
 ### CVE-2019-7356 (2020-11-04)
 
