@@ -721,6 +721,13 @@
 - [mbadanoiu/CVE-2025-20029](https://github.com/mbadanoiu/CVE-2025-20029)
 - [schoi1337/CVE-2025-20029-simulation](https://github.com/schoi1337/CVE-2025-20029-simulation)
 
+### CVE-2025-20286 (2025-06-04)
+
+<code>A vulnerability in Amazon Web Services (AWS), Microsoft Azure, and Oracle Cloud Infrastructure (OCI) cloud deployments of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attacker to access sensitive data, execute limited administrative operations, modify system configurations, or disrupt services within the impacted systems.\r\n\r\nThis vulnerability exists because credentials are improperly generated when Cisco ISE is being deployed on cloud platforms, resulting in different Cisco ISE deployments sharing the same credentials. These credentials are shared across multiple Cisco ISE deployments as long as the software release and cloud platform are the same. An attacker could exploit this vulnerability by extracting the user credentials from Cisco ISE that is deployed in the cloud and then using them to access Cisco ISE that is deployed in other cloud environments through unsecured ports. A successful exploit could allow the attacker to access sensitive data, execute limited administrative operations, modify system configurations, or disrupt services within the impacted systems.\r\nNote: If the Primary Administration node is deployed in the cloud, then Cisco ISE is affected by this vulnerability. If the Primary Administration node is on-premises, then it is not affected.
+</code>
+
+- [noeneal/CVE-2025-20286](https://github.com/noeneal/CVE-2025-20286)
+
 ### CVE-2025-21204 (2025-04-08)
 
 <code>Improper link resolution before file access ('link following') in Windows Update Stack allows an authorized attacker to elevate privileges locally.
@@ -958,6 +965,8 @@
 - [MuhammadWaseem29/CVE-2025-24016](https://github.com/MuhammadWaseem29/CVE-2025-24016)
 - [celsius026/poc_CVE-2025-24016](https://github.com/celsius026/poc_CVE-2025-24016)
 - [cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC](https://github.com/cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC)
+- [rxerium/CVE-2025-24016](https://github.com/rxerium/CVE-2025-24016)
+- [B1ack4sh/Blackash-CVE-2025-24016](https://github.com/B1ack4sh/Blackash-CVE-2025-24016)
 
 ### CVE-2025-24054 (2025-03-11)
 
@@ -2469,6 +2478,9 @@
 </code>
 
 - [yggcwhat/CVE-2025-46080](https://github.com/yggcwhat/CVE-2025-46080)
+
+### CVE-2025-46142
+- [AugustusSploits/CVE-2025-46142](https://github.com/AugustusSploits/CVE-2025-46142)
 
 ### CVE-2025-46173 (2025-05-27)
 
@@ -10018,16 +10030,32 @@
 
 - [code5ecure/CVE-2024-41453_CVE-2024-41454](https://github.com/code5ecure/CVE-2024-41453_CVE-2024-41454)
 
-### CVE-2024-41502
+### CVE-2024-41502 (2025-06-10)
+
+<code>Jetimob Plataforma Imobiliaria 20240627-0 is vulnerable to Cross Site Scripting (XSS) via the form field &quot;Observaces&quot; (observances) in the &quot;Pessoas&quot; (persons) section when creating or editing either a legal or a natural person.
+</code>
+
 - [rafaelbaldasso/CVE-2024-41502](https://github.com/rafaelbaldasso/CVE-2024-41502)
 
-### CVE-2024-41503
+### CVE-2024-41503 (2025-06-10)
+
+<code>Jetimob Plataforma Imobiliaria 20240627-0 is vulnerable to Cross Site Scripting (XSS) in the field &quot;Ttulo&quot; (title) inside the filter Save option in the &quot;Busca&quot; (search) function.
+</code>
+
 - [rafaelbaldasso/CVE-2024-41503](https://github.com/rafaelbaldasso/CVE-2024-41503)
 
-### CVE-2024-41504
+### CVE-2024-41504 (2025-06-10)
+
+<code>Jetimob Plataforma Imobiliaria 20240627-0 is vulnerable to Cross Site Scripting (XSS). In the &quot;Oportunidades&quot; (opportunities) section of the application when creating or editing an &quot;Atividade&quot; (activity), the form field &quot;Descrico&quot; allows injection of JavaScript.
+</code>
+
 - [rafaelbaldasso/CVE-2024-41504](https://github.com/rafaelbaldasso/CVE-2024-41504)
 
-### CVE-2024-41505
+### CVE-2024-41505 (2025-06-10)
+
+<code>Jetimob Plataforma Imobiliaria 20240627-0 is vulnerable to Cross Site Scripting (XSS) in the &quot;Pessoas&quot; (persons) section via the field &quot;Profisso&quot; (professor).
+</code>
+
 - [rafaelbaldasso/CVE-2024-41505](https://github.com/rafaelbaldasso/CVE-2024-41505)
 
 ### CVE-2024-41570 (2024-08-09)
@@ -12631,6 +12659,13 @@
 </code>
 
 - [DelspoN/CVE-2024-57376](https://github.com/DelspoN/CVE-2024-57376)
+
+### CVE-2024-57378 (2025-02-13)
+
+<code>Wazuh SIEM version 4.8.2 is affected by a broken access control vulnerability. This issue allows the unauthorized creation of internal users without assigning any existing user role, potentially leading to privilege escalation or unauthorized access to sensitive resources.
+</code>
+
+- [rxerium/CVE-2024-57378](https://github.com/rxerium/CVE-2024-57378)
 
 ### CVE-2024-57394 (2025-04-21)
 
@@ -49917,6 +49952,7 @@
 - [MadExploits/PHPunit-Exploit](https://github.com/MadExploits/PHPunit-Exploit)
 - [MrG3P5/CVE-2017-9841](https://github.com/MrG3P5/CVE-2017-9841)
 - [Chocapikk/CVE-2017-9841](https://github.com/Chocapikk/CVE-2017-9841)
+- [K3ysTr0K3R/CVE-2017-9841-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-9841-EXPLOIT)
 
 ### CVE-2017-9934 (2017-07-17)
 
