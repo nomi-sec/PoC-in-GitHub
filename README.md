@@ -1052,6 +1052,7 @@
 - [ekomsSavior/AirBorne-PoC](https://github.com/ekomsSavior/AirBorne-PoC)
 - [apwlq/AirBorne-PoC](https://github.com/apwlq/AirBorne-PoC)
 - [cakescats/airborn-IOS-CVE-2025-24252](https://github.com/cakescats/airborn-IOS-CVE-2025-24252)
+- [B1ack4sh/Blackash-CVE-2025-24252](https://github.com/B1ack4sh/Blackash-CVE-2025-24252)
 
 ### CVE-2025-24271 (2025-04-29)
 
@@ -1155,7 +1156,6 @@
 
 - [iSee857/CVE-2025-24893-PoC](https://github.com/iSee857/CVE-2025-24893-PoC)
 - [Artemir7/CVE-2025-24893-EXP](https://github.com/Artemir7/CVE-2025-24893-EXP)
-- [ibrahimsql/cve-2025-24893](https://github.com/ibrahimsql/cve-2025-24893)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -2058,7 +2058,6 @@
 - [TX-One/CVE-2025-31161](https://github.com/TX-One/CVE-2025-31161)
 - [SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825](https://github.com/SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825)
 - [SUPRAAA-1337/CVE-2025-31161_exploit](https://github.com/SUPRAAA-1337/CVE-2025-31161_exploit)
-- [ibrahimsql/CVE-2025-31161](https://github.com/ibrahimsql/CVE-2025-31161)
 - [0xgh057r3c0n/CVE-2025-31161](https://github.com/0xgh057r3c0n/CVE-2025-31161)
 - [B1ack4sh/Blackash-CVE-2025-31161](https://github.com/B1ack4sh/Blackash-CVE-2025-31161)
 
@@ -2210,7 +2209,6 @@
 
 - [Chocapikk/CVE-2025-32432](https://github.com/Chocapikk/CVE-2025-32432)
 - [Sachinart/CVE-2025-32432](https://github.com/Sachinart/CVE-2025-32432)
-- [ibrahimsql/CVE-2025-32432](https://github.com/ibrahimsql/CVE-2025-32432)
 
 ### CVE-2025-32433 (2025-04-16)
 
@@ -2841,7 +2839,6 @@
 - [cbeek-r7/CVE-2024-0204](https://github.com/cbeek-r7/CVE-2024-0204)
 - [m-cetin/CVE-2024-0204](https://github.com/m-cetin/CVE-2024-0204)
 - [adminlove520/CVE-2024-0204](https://github.com/adminlove520/CVE-2024-0204)
-- [ibrahimsql/CVE-2024-0204](https://github.com/ibrahimsql/CVE-2024-0204)
 
 ### CVE-2024-0230 (2024-01-12)
 
@@ -7846,7 +7843,6 @@
 - [Praison001/CVE-2024-28995-SolarWinds-Serv-U](https://github.com/Praison001/CVE-2024-28995-SolarWinds-Serv-U)
 - [Stuub/CVE-2024-28995](https://github.com/Stuub/CVE-2024-28995)
 - [gotr00t0day/CVE-2024-28995](https://github.com/gotr00t0day/CVE-2024-28995)
-- [ibrahimsql/CVE-2024-28995](https://github.com/ibrahimsql/CVE-2024-28995)
 
 ### CVE-2024-28999 (2024-06-04)
 
@@ -13005,7 +13001,6 @@
 
 - [Voyag3r-Security/CVE-2023-1389](https://github.com/Voyag3r-Security/CVE-2023-1389)
 - [werwolfz/CVE-2023-1389](https://github.com/werwolfz/CVE-2023-1389)
-- [ibrahimsql/CVE2023-1389](https://github.com/ibrahimsql/CVE2023-1389)
 
 ### CVE-2023-1415 (2023-03-15)
 
@@ -29789,6 +29784,7 @@
 - [Pixailz/CVE-2021-4034](https://github.com/Pixailz/CVE-2021-4034)
 - [toecesws/CVE-2021-4034](https://github.com/toecesws/CVE-2021-4034)
 - [jehovah2002/CVE-2021-4034-pwnkit](https://github.com/jehovah2002/CVE-2021-4034-pwnkit)
+- [deep-know/CVE-2021-4034](https://github.com/deep-know/CVE-2021-4034)
 - [fei9747/CVE-2021-4034](https://github.com/fei9747/CVE-2021-4034)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [mutur4/CVE-2021-4034](https://github.com/mutur4/CVE-2021-4034)
@@ -31611,13 +31607,6 @@
 
 - [atorralba/CVE-2021-30005-POC](https://github.com/atorralba/CVE-2021-30005-POC)
 
-### CVE-2021-30047 (2023-08-22)
-
-<code>VSFTPD 3.0.3 allows attackers to cause a denial of service due to limited number of connections allowed.
-</code>
-
-- [Freitandrey/CVE-2021-30047](https://github.com/Freitandrey/CVE-2021-30047)
-
 ### CVE-2021-30109 (2021-04-05)
 
 <code>Froala Editor 3.2.6 is affected by Cross Site Scripting (XSS). Under certain conditions, a base64 crafted string leads to persistent Cross-site scripting (XSS) vulnerability within the hyperlink creation module.
@@ -32595,7 +32584,7 @@
 - [shaktavist/SeriousSam](https://github.com/shaktavist/SeriousSam)
 - [OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC](https://github.com/OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC)
 - [chron1k/oxide_hive](https://github.com/chron1k/oxide_hive)
-- [P1rat3xai/Why-so-Serious-SAM](https://github.com/P1rat3xai/Why-so-Serious-SAM)
+- [P1rat3R00t/Why-so-Serious-SAM](https://github.com/P1rat3R00t/Why-so-Serious-SAM)
 
 ### CVE-2021-36949 (2021-08-12)
 
@@ -54873,7 +54862,6 @@
 </code>
 
 - [s3mPr1linux/CVE-2011-0762](https://github.com/s3mPr1linux/CVE-2011-0762)
-- [Freitandrey/CVE-2011-0762](https://github.com/Freitandrey/CVE-2011-0762)
 
 ### CVE-2011-1237 (2011-04-13)
 
