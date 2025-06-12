@@ -779,6 +779,7 @@
 
 - [Network-Sec/CVE-2025-21420-PoC](https://github.com/Network-Sec/CVE-2025-21420-PoC)
 - [toxy4ny/edge-maradeur](https://github.com/toxy4ny/edge-maradeur)
+- [moiz-2x/CVE-2025-21420_POC](https://github.com/moiz-2x/CVE-2025-21420_POC)
 
 ### CVE-2025-21497 (2025-01-21)
 
@@ -11252,6 +11253,7 @@
 - [CyprianAtsyor/letsdefend-cve-2024-49138-investigation](https://github.com/CyprianAtsyor/letsdefend-cve-2024-49138-investigation)
 - [Glitch-ao/SOC335-CVE-2024-49138-Exploitation-Detected](https://github.com/Glitch-ao/SOC335-CVE-2024-49138-Exploitation-Detected)
 - [Humbug52542/DLang-file-encryptor](https://github.com/Humbug52542/DLang-file-encryptor)
+- [onixgod/SOC335-Event-ID-313-CVE-2024-49138-Exploitation-Detected--Lest-Defend-Writeup](https://github.com/onixgod/SOC335-Event-ID-313-CVE-2024-49138-Exploitation-Detected--Lest-Defend-Writeup)
 
 ### CVE-2024-49203 (2024-11-20)
 
@@ -31633,6 +31635,7 @@
 - [0xRar/CVE-2021-29447-PoC](https://github.com/0xRar/CVE-2021-29447-PoC)
 - [andyhsu024/CVE-2021-29447](https://github.com/andyhsu024/CVE-2021-29447)
 - [specializzazione-cyber-security/demo-CVE-2021-29447-lezione](https://github.com/specializzazione-cyber-security/demo-CVE-2021-29447-lezione)
+- [magicrc/CVE-2021-29447](https://github.com/magicrc/CVE-2021-29447)
 
 ### CVE-2021-29505 (2021-05-28)
 
@@ -34251,13 +34254,6 @@
 </code>
 
 - [AK-blank/CVE-2021-43778](https://github.com/AK-blank/CVE-2021-43778)
-
-### CVE-2021-43789 (2021-12-07)
-
-<code>PrestaShop is an Open Source e-commerce web application. Versions of PrestaShop prior to 1.7.8.2 are vulnerable to blind SQL injection using search filters with `orderBy` and `sortOrder` parameters. The problem is fixed in version 1.7.8.2.
-</code>
-
-- [numanturle/CVE-2021-43789](https://github.com/numanturle/CVE-2021-43789)
 
 ### CVE-2021-43798 (2021-12-07)
 
