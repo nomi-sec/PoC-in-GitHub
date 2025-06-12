@@ -223,6 +223,13 @@
 
 - [shybu9/poc_CVE-2025-1716](https://github.com/shybu9/poc_CVE-2025-1716)
 
+### CVE-2025-1793 (2025-06-05)
+
+<code>Multiple vector store integrations in run-llama/llama_index version v0.12.21 have SQL injection vulnerabilities. These vulnerabilities allow an attacker to read and write data using SQL, potentially leading to unauthorized access to data of other users depending on the usage of the llama-index library in a web application.
+</code>
+
+- [Usama-Figueira/-CVE-2025-1793-poc](https://github.com/Usama-Figueira/-CVE-2025-1793-poc)
+
 ### CVE-2025-1974 (2025-03-24)
 
 <code>A security issue was discovered in Kubernetes where under certain conditions, an unauthenticated attacker with access to the pod network can achieve arbitrary code execution in the context of the ingress-nginx controller. This can lead to disclosure of Secrets accessible to the controller. (Note that in the default installation, the controller can access all Secrets cluster-wide.)
@@ -718,6 +725,13 @@
 - [mbadanoiu/CVE-2025-20029](https://github.com/mbadanoiu/CVE-2025-20029)
 - [schoi1337/CVE-2025-20029-simulation](https://github.com/schoi1337/CVE-2025-20029-simulation)
 
+### CVE-2025-20286 (2025-06-04)
+
+<code>A vulnerability in Amazon Web Services (AWS), Microsoft Azure, and Oracle Cloud Infrastructure (OCI) cloud deployments of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attacker to access sensitive data, execute limited administrative operations, modify system configurations, or disrupt services within the impacted systems.\r\n\r\nThis vulnerability exists because credentials are improperly generated when Cisco ISE is being deployed on cloud platforms, resulting in different Cisco ISE deployments sharing the same credentials. These credentials are shared across multiple Cisco ISE deployments as long as the software release and cloud platform are the same. An attacker could exploit this vulnerability by extracting the user credentials from Cisco ISE that is deployed in the cloud and then using them to access Cisco ISE that is deployed in other cloud environments through unsecured ports. A successful exploit could allow the attacker to access sensitive data, execute limited administrative operations, modify system configurations, or disrupt services within the impacted systems.\r\nNote: If the Primary Administration node is deployed in the cloud, then Cisco ISE is affected by this vulnerability. If the Primary Administration node is on-premises, then it is not affected.
+</code>
+
+- [rbaicba/CVE-2025-20286](https://github.com/rbaicba/CVE-2025-20286)
+
 ### CVE-2025-21204 (2025-04-08)
 
 <code>Improper link resolution before file access ('link following') in Windows Update Stack allows an authorized attacker to elevate privileges locally.
@@ -756,6 +770,7 @@
 
 - [MrAle98/CVE-2025-21333-POC](https://github.com/MrAle98/CVE-2025-21333-POC)
 - [aleongx/KQL_sentinel_CVE-2025-21333](https://github.com/aleongx/KQL_sentinel_CVE-2025-21333)
+- [B1ack4sh/Blackash-CVE-2025-21333](https://github.com/B1ack4sh/Blackash-CVE-2025-21333)
 
 ### CVE-2025-21385 (2025-01-09)
 
@@ -1060,6 +1075,13 @@
 </code>
 
 - [moften/CVE-2025-24271](https://github.com/moften/CVE-2025-24271)
+
+### CVE-2025-24514 (2025-03-24)
+
+<code>A security issue was discovered in  ingress-nginx https://github.com/kubernetes/ingress-nginx  where the `auth-url` Ingress annotation can be used to inject configuration into nginx. This can lead to arbitrary code execution in the context of the ingress-nginx controller, and disclosure of Secrets accessible to the controller. (Note that in the default installation, the controller can access all Secrets cluster-wide.)
+</code>
+
+- [KimJuhyeong95/cve-2025-24514](https://github.com/KimJuhyeong95/cve-2025-24514)
 
 ### CVE-2025-24587 (2025-01-24)
 
@@ -23626,6 +23648,7 @@
 - [Aur3ns/Block-Spring4Shell](https://github.com/Aur3ns/Block-Spring4Shell)
 - [guigui237/Expoitation-de-la-vuln-rabilit-CVE-2022-22965](https://github.com/guigui237/Expoitation-de-la-vuln-rabilit-CVE-2022-22965)
 - [jashan-lefty/Spring4Shell](https://github.com/jashan-lefty/Spring4Shell)
+- [brunoh6/web-threat-mitigation](https://github.com/brunoh6/web-threat-mitigation)
 
 ### CVE-2022-22966 (2022-04-14)
 
@@ -33634,6 +33657,7 @@
 - [khaidtraivch/CVE-2021-41773-Apache-2.4.49-](https://github.com/khaidtraivch/CVE-2021-41773-Apache-2.4.49-)
 - [qalvynn/CVE-2021-41773](https://github.com/qalvynn/CVE-2021-41773)
 - [Ask-os/CVE-2021-41773](https://github.com/Ask-os/CVE-2021-41773)
+- [CyberQuestor-infosec/CVE-2021-41773-Apache_2.4.49-Path-traversal-to-RCE](https://github.com/CyberQuestor-infosec/CVE-2021-41773-Apache_2.4.49-Path-traversal-to-RCE)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -34198,13 +34222,6 @@
 </code>
 
 - [AK-blank/CVE-2021-43778](https://github.com/AK-blank/CVE-2021-43778)
-
-### CVE-2021-43789 (2021-12-07)
-
-<code>PrestaShop is an Open Source e-commerce web application. Versions of PrestaShop prior to 1.7.8.2 are vulnerable to blind SQL injection using search filters with `orderBy` and `sortOrder` parameters. The problem is fixed in version 1.7.8.2.
-</code>
-
-- [numanturle/CVE-2021-43789](https://github.com/numanturle/CVE-2021-43789)
 
 ### CVE-2021-43798 (2021-12-07)
 
