@@ -57,7 +57,6 @@
 </code>
 
 - [zorvithonleon/CVE-2025-0316-Exploit](https://github.com/zorvithonleon/CVE-2025-0316-Exploit)
-- [AvonBorn/CVE-2025-0316-Exploit](https://github.com/AvonBorn/CVE-2025-0316-Exploit)
 
 ### CVE-2025-0364 (2025-02-04)
 
@@ -660,13 +659,6 @@
 ### CVE-2025-4822
 - [sahici/CVE-2025-4822](https://github.com/sahici/CVE-2025-4822)
 
-### CVE-2025-4919 (2025-05-17)
-
-<code>An attacker was able to perform an out-of-bounds read or write on a JavaScript object by confusing array index sizes. This vulnerability affects Firefox &lt; 138.0.4, Firefox ESR &lt; 128.10.1, Firefox ESR &lt; 115.23.1, Thunderbird &lt; 128.10.2, and Thunderbird &lt; 138.0.2.
-</code>
-
-- [HExploited/CVE-2025-4919-Exploit](https://github.com/HExploited/CVE-2025-4919-Exploit)
-
 ### CVE-2025-5054 (2025-05-30)
 
 <code>Race condition in Canonical apport up to and including 2.32.0 allows a local attacker to leak sensitive information via PID-reuse by leveraging namespaces.\n\n\n\n\nWhen handling a crash, the function `_check_global_pid_and_forward`, which detects if the crashing process resided in a container, was being called before `consistency_checks`, which attempts to detect if the crashing process had been replaced. Because of this, if a process crashed and was quickly replaced with a containerized one, apport could be made to forward the core dump to the container, potentially leaking sensitive information. `consistency_checks` is now being called before `_check_global_pid_and_forward`. Additionally, given that the PID-reuse race condition cannot be reliably detected from userspace alone, crashes are only forwarded to containers if the kernel provided a pidfd, or if the crashing process was unprivileged (i.e., if dump mode == 1).
@@ -695,6 +687,7 @@
 
 - [Nxploited/CVE-2025-5287](https://github.com/Nxploited/CVE-2025-5287)
 - [wiseep/CVE-2025-5287](https://github.com/wiseep/CVE-2025-5287)
+- [RandomRobbieBF/CVE-2025-5287](https://github.com/RandomRobbieBF/CVE-2025-5287)
 
 ### CVE-2025-5319
 - [sahici/CVE-2025-5319](https://github.com/sahici/CVE-2025-5319)
@@ -707,8 +700,8 @@
 <code>The HyperComments plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the hc_request_handler function in all versions up to, and including, 1.2.2. This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.
 </code>
 
-- [Harley21211/CVE-2025-5701-Exploit](https://github.com/Harley21211/CVE-2025-5701-Exploit)
 - [Nxploited/CVE-2025-5701](https://github.com/Nxploited/CVE-2025-5701)
+- [RandomRobbieBF/CVE-2025-5701](https://github.com/RandomRobbieBF/CVE-2025-5701)
 
 ### CVE-2025-5840 (2025-06-07)
 
@@ -972,6 +965,13 @@
 - [cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC](https://github.com/cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC)
 - [rxerium/CVE-2025-24016](https://github.com/rxerium/CVE-2025-24016)
 - [B1ack4sh/Blackash-CVE-2025-24016](https://github.com/B1ack4sh/Blackash-CVE-2025-24016)
+
+### CVE-2025-24035 (2025-03-11)
+
+<code>Sensitive data storage in improperly locked memory in Windows Remote Desktop Services allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [MSeymenD/cve-2025-24035-rds-websocket-dos-test](https://github.com/MSeymenD/cve-2025-24035-rds-websocket-dos-test)
 
 ### CVE-2025-24054 (2025-03-11)
 
@@ -1908,6 +1908,7 @@
 - [sagsooz/CVE-2025-29927](https://github.com/sagsooz/CVE-2025-29927)
 - [SugiB3o/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/SugiB3o/vulnerable-nextjs-14-CVE-2025-29927)
 - [B1ack4sh/Blackash-CVE-2025-29927](https://github.com/B1ack4sh/Blackash-CVE-2025-29927)
+- [amitlttwo/Next.JS-CVE-2025-29927](https://github.com/amitlttwo/Next.JS-CVE-2025-29927)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -2298,6 +2299,13 @@
 
 - [Nxploited/CVE-2025-32682](https://github.com/Nxploited/CVE-2025-32682)
 
+### CVE-2025-32711 (2025-06-11)
+
+<code>Ai command injection in M365 Copilot allows an unauthorized attacker to disclose information over a network.
+</code>
+
+- [AvonBorn/CVE-2025-32711-Exploit](https://github.com/AvonBorn/CVE-2025-32711-Exploit)
+
 ### CVE-2025-32756 (2025-05-13)
 
 <code>A stack-based buffer overflow vulnerability [CWE-121] in Fortinet FortiVoice versions 7.2.0, 7.0.0 through 7.0.6, 6.4.0 through 6.4.10, FortiRecorder versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.5, 6.4.0 through 6.4.5, FortiMail versions 7.6.0 through 7.6.2, 7.4.0 through 7.4.4, 7.2.0 through 7.2.7, 7.0.0 through 7.0.8, FortiNDR versions 7.6.0, 7.4.0 through 7.4.7, 7.2.0 through 7.2.4, 7.0.0 through 7.0.6, FortiCamera versions 2.1.0 through 2.1.3, 2.0 all versions, 1.1 all versions, allows a remote unauthenticated attacker to execute arbitrary code or commands via sending HTTP requests with specially crafted hash cookie.
@@ -2322,6 +2330,13 @@
 </code>
 
 - [yusufdalbudak/CVE-2025-32965-xrpl-js-poc](https://github.com/yusufdalbudak/CVE-2025-32965-xrpl-js-poc)
+
+### CVE-2025-33053 (2025-06-10)
+
+<code>External control of file name or path in WebDAV allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [DevBuiHieu/CVE-2025-33053-Proof-Of-Concept](https://github.com/DevBuiHieu/CVE-2025-33053-Proof-Of-Concept)
 
 ### CVE-2025-34028 (2025-04-22)
 
@@ -4650,6 +4665,13 @@
 
 - [horizon3ai/CVE-2024-8190](https://github.com/horizon3ai/CVE-2024-8190)
 - [flyingllama87/CVE-2024-8190-unauth](https://github.com/flyingllama87/CVE-2024-8190-unauth)
+
+### CVE-2024-8232 (2024-09-10)
+
+<code>SpiderControl SCADA Web Server has a vulnerability that could allow an \nattacker to upload specially crafted malicious files without \nauthentication.
+</code>
+
+- [z3usx01/CVE-2024-8232](https://github.com/z3usx01/CVE-2024-8232)
 
 ### CVE-2024-8275 (2024-09-25)
 
@@ -32617,7 +32639,6 @@
 - [shaktavist/SeriousSam](https://github.com/shaktavist/SeriousSam)
 - [OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC](https://github.com/OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC)
 - [chron1k/oxide_hive](https://github.com/chron1k/oxide_hive)
-- [P1rat3xai/Why-so-Serious-SAM](https://github.com/P1rat3xai/Why-so-Serious-SAM)
 - [P1rat3R00t/Why-so-Serious-SAM](https://github.com/P1rat3R00t/Why-so-Serious-SAM)
 
 ### CVE-2021-36949 (2021-08-12)
@@ -34230,6 +34251,13 @@
 </code>
 
 - [AK-blank/CVE-2021-43778](https://github.com/AK-blank/CVE-2021-43778)
+
+### CVE-2021-43789 (2021-12-07)
+
+<code>PrestaShop is an Open Source e-commerce web application. Versions of PrestaShop prior to 1.7.8.2 are vulnerable to blind SQL injection using search filters with `orderBy` and `sortOrder` parameters. The problem is fixed in version 1.7.8.2.
+</code>
+
+- [numanturle/CVE-2021-43789](https://github.com/numanturle/CVE-2021-43789)
 
 ### CVE-2021-43798 (2021-12-07)
 
@@ -43800,6 +43828,7 @@
 - [MasterCode112/CVE-2019-15107](https://github.com/MasterCode112/CVE-2019-15107)
 - [Mattb709/CVE-2019-15107-Scanner](https://github.com/Mattb709/CVE-2019-15107-Scanner)
 - [Mattb709/CVE-2019-15107-Webmin-RCE-PoC](https://github.com/Mattb709/CVE-2019-15107-Webmin-RCE-PoC)
+- [m4lk3rnel/CVE-2019-15107](https://github.com/m4lk3rnel/CVE-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
 
@@ -46161,7 +46190,6 @@
 - [vphnguyen/ANM_CVE-2018-7600](https://github.com/vphnguyen/ANM_CVE-2018-7600)
 - [anldori/CVE-2018-7600](https://github.com/anldori/CVE-2018-7600)
 - [r0lh/CVE-2018-7600](https://github.com/r0lh/CVE-2018-7600)
-- [killeveee/CVE-2018-7600](https://github.com/killeveee/CVE-2018-7600)
 - [raytran54/CVE-2018-7600](https://github.com/raytran54/CVE-2018-7600)
 - [user20252228/CVE-2018-7600.](https://github.com/user20252228/CVE-2018-7600.)
 - [Dowonkwon/drupal-cve-2018-7600-poc](https://github.com/Dowonkwon/drupal-cve-2018-7600-poc)
