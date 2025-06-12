@@ -1600,6 +1600,13 @@
 - [akamai/CVE-2025-27636-Apache-Camel-PoC](https://github.com/akamai/CVE-2025-27636-Apache-Camel-PoC)
 - [enochgitgamefied/CVE-2025-27636-Practical-Lab](https://github.com/enochgitgamefied/CVE-2025-27636-Practical-Lab)
 
+### CVE-2025-27817 (2025-06-10)
+
+<code>A possible arbitrary file read and SSRF vulnerability has been identified in Apache Kafka Client. Apache Kafka Clients accept configuration data for setting the SASL/OAUTHBEARER connection with the brokers, including &quot;sasl.oauthbearer.token.endpoint.url&quot; and &quot;sasl.oauthbearer.jwks.endpoint.url&quot;. Apache Kafka allows clients to read an arbitrary file and return the content in the error log, or sending requests to an unintended location. In applications where Apache Kafka Clients configurations can be specified by an untrusted party, attackers may use the &quot;sasl.oauthbearer.token.endpoint.url&quot; and &quot;sasl.oauthbearer.jwks.endpoint.url&quot; configuratin to read arbitrary contents of the disk and environment variables or make requests to an unintended location. In particular, this flaw may be used in Apache Kafka Connect to escalate from REST API access to filesystem/environment/URL access, which may be undesirable in certain environments, including SaaS products. \n\nSince Apache Kafka 3.9.1/4.0.0, we have added a system property (&quot;-Dorg.apache.kafka.sasl.oauthbearer.allowed.urls&quot;) to set the allowed urls in SASL JAAS configuration. In 3.9.1, it accepts all urls by default for backward compatibility. However in 4.0.0 and newer, the default value is empty list and users have to set the allowed urls explicitly.
+</code>
+
+- [kk12-30/CVE-2025-27817](https://github.com/kk12-30/CVE-2025-27817)
+
 ### CVE-2025-27840 (2025-03-08)
 
 <code>Espressif ESP32 chips allow 29 hidden HCI commands, such as 0xFC02 (Write memory).
@@ -30267,6 +30274,7 @@
 - [murataydemir/CVE-2021-21975](https://github.com/murataydemir/CVE-2021-21975)
 - [rabidwh0re/REALITY_SMASHER](https://github.com/rabidwh0re/REALITY_SMASHER)
 - [Vulnmachines/VMWare-CVE-2021-21975](https://github.com/Vulnmachines/VMWare-CVE-2021-21975)
+- [DarkFunct/exp_hub](https://github.com/DarkFunct/exp_hub)
 
 ### CVE-2021-21978 (2021-03-03)
 
