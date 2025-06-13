@@ -268,6 +268,13 @@
 
 - [datagoboom/CVE-2025-2011](https://github.com/datagoboom/CVE-2025-2011)
 
+### CVE-2025-2082 (2025-04-30)
+
+<code>Tesla Model 3 VCSEC Integer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected Tesla Model 3 vehicles. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the VCSEC module. By manipulating the certificate response sent from the Tire Pressure Monitoring System (TPMS), an attacker can trigger an integer overflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the VCSEC module and send arbitrary messages to the vehicle CAN bus. Was ZDI-CAN-23800.
+</code>
+
+- [Burak1320demiroz/cve-2025-2082](https://github.com/Burak1320demiroz/cve-2025-2082)
+
 ### CVE-2025-2135 (2025-03-10)
 
 <code>Type Confusion in V8 in Google Chrome prior to 134.0.6998.88 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
@@ -688,6 +695,9 @@
 - [Nxploited/CVE-2025-5287](https://github.com/Nxploited/CVE-2025-5287)
 - [wiseep/CVE-2025-5287](https://github.com/wiseep/CVE-2025-5287)
 - [RandomRobbieBF/CVE-2025-5287](https://github.com/RandomRobbieBF/CVE-2025-5287)
+
+### CVE-2025-5288
+- [Nxploited/CVE-2025-5288](https://github.com/Nxploited/CVE-2025-5288)
 
 ### CVE-2025-5319
 - [sahici/CVE-2025-5319](https://github.com/sahici/CVE-2025-5319)
@@ -12225,6 +12235,7 @@
 </code>
 
 - [deauther890/CVE-2024-54772](https://github.com/deauther890/CVE-2024-54772)
+- [Seven11Eleven/CVE-2024-54772](https://github.com/Seven11Eleven/CVE-2024-54772)
 
 ### CVE-2024-54792 (2025-01-21)
 
@@ -29751,7 +29762,6 @@
 - [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
-- [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
@@ -32642,6 +32652,7 @@
 - [shaktavist/SeriousSam](https://github.com/shaktavist/SeriousSam)
 - [OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC](https://github.com/OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC)
 - [chron1k/oxide_hive](https://github.com/chron1k/oxide_hive)
+- [P1rat3xai/Why-so-Serious-SAM](https://github.com/P1rat3xai/Why-so-Serious-SAM)
 - [P1rat3R00t/Why-so-Serious-SAM](https://github.com/P1rat3R00t/Why-so-Serious-SAM)
 
 ### CVE-2021-36949 (2021-08-12)
