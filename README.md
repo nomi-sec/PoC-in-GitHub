@@ -696,7 +696,11 @@
 - [wiseep/CVE-2025-5287](https://github.com/wiseep/CVE-2025-5287)
 - [RandomRobbieBF/CVE-2025-5287](https://github.com/RandomRobbieBF/CVE-2025-5287)
 
-### CVE-2025-5288
+### CVE-2025-5288 (2025-06-13)
+
+<code>The REST API | Custom API Generator For Cross Platform And Import Export In WP plugin for WordPress is vulnerable to Privilege Escalation due to a missing capability check on the process_handler() function in versions 1.0.0 to 2.0.3. This makes it possible for unauthenticated attackers to POST an arbitrary import_api URL, import specially crafted JSON, and thereby create a new user with full Administrator privileges.
+</code>
+
 - [Nxploited/CVE-2025-5288](https://github.com/Nxploited/CVE-2025-5288)
 
 ### CVE-2025-5319
@@ -1014,6 +1018,7 @@
 - [ex-cal1bur/SMB_CVE-2025-24071](https://github.com/ex-cal1bur/SMB_CVE-2025-24071)
 - [TH-SecForge/CVE-2025-24071](https://github.com/TH-SecForge/CVE-2025-24071)
 - [B1ack4sh/Blackash-CVE-2025-24071](https://github.com/B1ack4sh/Blackash-CVE-2025-24071)
+- [DeshanFer94/CVE-2025-24071-POC-NTLMHashDisclosure-](https://github.com/DeshanFer94/CVE-2025-24071-POC-NTLMHashDisclosure-)
 
 ### CVE-2025-24076 (2025-03-11)
 
@@ -1761,6 +1766,13 @@
 </code>
 
 - [Abdullah4eb/CVE-2025-29448](https://github.com/Abdullah4eb/CVE-2025-29448)
+
+### CVE-2025-29471 (2025-04-15)
+
+<code>Cross Site Scripting vulnerability in Nagios Log Server v.2024R1.3.1 allows a remote attacker to execute arbitrary code via a payload into the Email field.
+</code>
+
+- [skraft9/CVE-2025-29471](https://github.com/skraft9/CVE-2025-29471)
 
 ### CVE-2025-29529 (2025-04-24)
 
@@ -12418,6 +12430,13 @@
 </code>
 
 - [JAckLosingHeart/CVE-2024-55875](https://github.com/JAckLosingHeart/CVE-2024-55875)
+
+### CVE-2024-55890 (2024-12-13)
+
+<code>D-Tale is a visualizer for pandas data structures. Prior to version 3.16.1, users hosting D-Tale publicly can be vulnerable to remote code execution allowing attackers to run malicious code on the server. Users should upgrade to version 3.16.1 where the `update-settings` endpoint blocks the ability for users to update the `enable_custom_filters` flag. The only workaround for versions earlier than 3.16.1 is to only host D-Tale to trusted users.
+</code>
+
+- [samh4cks/CVE-2024-55890](https://github.com/samh4cks/CVE-2024-55890)
 
 ### CVE-2024-55968 (2025-01-28)
 
@@ -29759,7 +29778,6 @@
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [xcanwin/CVE-2021-4034-UniontechOS](https://github.com/xcanwin/CVE-2021-4034-UniontechOS)
-- [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
@@ -29876,6 +29894,7 @@
 - [Z3R0-0x30/CVE-2021-4034](https://github.com/Z3R0-0x30/CVE-2021-4034)
 - [Milad-Rafie/PwnKit-Local-Privilege-Escalation-Vulnerability-Discovered-in-polkit-s-pkexec-CVE-2021-4034](https://github.com/Milad-Rafie/PwnKit-Local-Privilege-Escalation-Vulnerability-Discovered-in-polkit-s-pkexec-CVE-2021-4034)
 - [kali-guru/Pwnkit-CVE-2021-4034](https://github.com/kali-guru/Pwnkit-CVE-2021-4034)
+- [BugVex/Poison-HTB-Report](https://github.com/BugVex/Poison-HTB-Report)
 
 ### CVE-2021-4043 (2022-02-04)
 
