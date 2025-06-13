@@ -2184,6 +2184,8 @@
 - [absholi7ly/TomcatKiller-CVE-2025-31650](https://github.com/absholi7ly/TomcatKiller-CVE-2025-31650)
 - [tunahantekeoglu/CVE-2025-31650](https://github.com/tunahantekeoglu/CVE-2025-31650)
 - [sattarbug/Analysis-of-TomcatKiller---CVE-2025-31650-Exploit-Tool](https://github.com/sattarbug/Analysis-of-TomcatKiller---CVE-2025-31650-Exploit-Tool)
+- [assad12341/DOS-exploit](https://github.com/assad12341/DOS-exploit)
+- [assad12341/Dos-exploit-](https://github.com/assad12341/Dos-exploit-)
 
 ### CVE-2025-31651 (2025-04-28)
 
@@ -2368,6 +2370,13 @@
 
 - [DevBuiHieu/CVE-2025-33053-Proof-Of-Concept](https://github.com/DevBuiHieu/CVE-2025-33053-Proof-Of-Concept)
 
+### CVE-2025-33073 (2025-06-10)
+
+<code>Improper access control in Windows SMB allows an authorized attacker to elevate privileges over a network.
+</code>
+
+- [mverschu/CVE-2025-33073](https://github.com/mverschu/CVE-2025-33073)
+
 ### CVE-2025-34028 (2025-04-22)
 
 <code>The Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files that represent install packages that, when expanded by the target server, are vulnerable to path traversal vulnerability that can result in Remote Code Execution via malicious JSP.\n\n\n\n\n\nThis issue affects Command Center Innovation Release: 11.38.0 to 11.38.20. The vulnerability is fixed in 11.38.20 with SP38-CU20-433 and SP38-CU20-436 and also fixed in 11.38.25 with SP38-CU25-434 and SP38-CU25-438.
@@ -2543,6 +2552,9 @@
 
 ### CVE-2025-46142
 - [AugustusSploits/CVE-2025-46142](https://github.com/AugustusSploits/CVE-2025-46142)
+
+### CVE-2025-46157
+- [morphine009/CVE-2025-46157](https://github.com/morphine009/CVE-2025-46157)
 
 ### CVE-2025-46173 (2025-05-27)
 
