@@ -717,6 +717,13 @@
 - [Nxploited/CVE-2025-5701](https://github.com/Nxploited/CVE-2025-5701)
 - [RandomRobbieBF/CVE-2025-5701](https://github.com/RandomRobbieBF/CVE-2025-5701)
 
+### CVE-2025-5815 (2025-06-13)
+
+<code>The Traffic Monitor plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the tfcm_maybe_set_bot_flags() function in all versions up to, and including, 3.2.2. This makes it possible for unauthenticated attackers to disabled bot logging.
+</code>
+
+- [RootHarpy/CVE-2025-5815-Nuclei-Template](https://github.com/RootHarpy/CVE-2025-5815-Nuclei-Template)
+
 ### CVE-2025-5840 (2025-06-07)
 
 <code>Es wurde eine kritische Schwachstelle in SourceCodester Client Database Management System 1.0 gefunden. Dabei betrifft es einen unbekannter Codeteil der Datei /user_update_customer_order.php. Durch Manipulieren des Arguments uploaded_file mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen.
@@ -49628,6 +49635,7 @@
 
 - [shun1403/CVE-2017-8291](https://github.com/shun1403/CVE-2017-8291)
 - [shun1403/PIL-CVE-2017-8291-study](https://github.com/shun1403/PIL-CVE-2017-8291-study)
+- [hkcfs/PIL-CVE-2017-8291](https://github.com/hkcfs/PIL-CVE-2017-8291)
 
 ### CVE-2017-8295 (2017-05-04)
 
