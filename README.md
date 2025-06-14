@@ -1086,6 +1086,13 @@
 
 - [McTavishSue/CVE-2025-24200](https://github.com/McTavishSue/CVE-2025-24200)
 
+### CVE-2025-24201 (2025-03-11)
+
+<code>An out-of-bounds write issue was addressed with improved checks to prevent unauthorized actions. This issue is fixed in visionOS 2.3.2, iOS 18.3.2 and iPadOS 18.3.2, macOS Sequoia 15.3.2, Safari 18.3.1, watchOS 11.4, iPadOS 17.7.6, iOS 16.7.11 and iPadOS 16.7.11, iOS 15.8.4 and iPadOS 15.8.4. Maliciously crafted web content may be able to break out of Web Content sandbox. This is a supplementary fix for an attack that was blocked in iOS 17.2. (Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 17.2.).
+</code>
+
+- [AvonBorn/CVE-2025-24201-Exploit](https://github.com/AvonBorn/CVE-2025-24201-Exploit)
+
 ### CVE-2025-24203 (2025-03-31)
 
 <code>The issue was addressed with improved checks. This issue is fixed in macOS Ventura 13.7.5, iPadOS 17.7.6, macOS Sequoia 15.4, macOS Sonoma 14.7.5. An app may be able to modify protected parts of the file system.
@@ -20676,6 +20683,7 @@
 - [ajdumanhug/CVE-2022-42092](https://github.com/ajdumanhug/CVE-2022-42092)
 - [rvizx/CVE-2023-46818](https://github.com/rvizx/CVE-2023-46818)
 - [engranaabubakar/CVE-2023-46818](https://github.com/engranaabubakar/CVE-2023-46818)
+- [z7Akane/CVE-2023-46818](https://github.com/z7Akane/CVE-2023-46818)
 
 ### CVE-2023-46865 (2023-10-30)
 
