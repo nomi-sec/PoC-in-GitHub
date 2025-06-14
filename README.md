@@ -519,6 +519,13 @@
 
 - [Stuub/CVE-2025-3969-Exploit](https://github.com/Stuub/CVE-2025-3969-Exploit)
 
+### CVE-2025-4009 (2025-05-28)
+
+<code>The Evertz SDVN 3080ipx-10G is a High Bandwidth Ethernet Switching Fabric for Video Application. This device exposes a web management interface on port 80. This web management interface can be used by administrators to control product\nfeatures, setup network switching, and register license among other features. The application has been developed in PHP with the webEASY SDK, also named ‘ewb’ by Evertz.\n\nThis web interface has two endpoints that are vulnerable to arbitrary command injection and the authentication mechanism has a flaw leading to authentication bypass.\n\nRemote unauthenticated attackers can gain arbitrary command execution with elevated privileges ( root ) on affected devices.\n\nThis level of access could lead to serious business impact such as the interruption of media streaming, modification of media being streamed, alteration of closed captions being generated, among others.
+</code>
+
+- [realcodeb0ss/CVE-2025-4009](https://github.com/realcodeb0ss/CVE-2025-4009)
+
 ### CVE-2025-4094 (2025-05-21)
 
 <code>The DIGITS: WordPress Mobile Number Signup and Login WordPress plugin before 8.4.6.1 does not rate limit OTP validation attempts, making it straightforward for attackers to bruteforce them.
@@ -29797,8 +29804,10 @@
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [xcanwin/CVE-2021-4034-UniontechOS](https://github.com/xcanwin/CVE-2021-4034-UniontechOS)
+- [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
+- [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
@@ -31706,13 +31715,6 @@
 
 - [atorralba/CVE-2021-30005-POC](https://github.com/atorralba/CVE-2021-30005-POC)
 
-### CVE-2021-30047 (2023-08-22)
-
-<code>VSFTPD 3.0.3 allows attackers to cause a denial of service due to limited number of connections allowed.
-</code>
-
-- [AndreyFreitass/CVE-2021-30047](https://github.com/AndreyFreitass/CVE-2021-30047)
-
 ### CVE-2021-30109 (2021-04-05)
 
 <code>Froala Editor 3.2.6 is affected by Cross Site Scripting (XSS). Under certain conditions, a base64 crafted string leads to persistent Cross-site scripting (XSS) vulnerability within the hyperlink creation module.
@@ -32690,7 +32692,6 @@
 - [shaktavist/SeriousSam](https://github.com/shaktavist/SeriousSam)
 - [OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC](https://github.com/OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC)
 - [chron1k/oxide_hive](https://github.com/chron1k/oxide_hive)
-- [P1rat3xai/Why-so-Serious-SAM](https://github.com/P1rat3xai/Why-so-Serious-SAM)
 - [P1rat3R00t/Why-so-Serious-SAM](https://github.com/P1rat3R00t/Why-so-Serious-SAM)
 
 ### CVE-2021-36949 (2021-08-12)
@@ -39474,6 +39475,13 @@
 </code>
 
 - [zadewg/RIUS](https://github.com/zadewg/RIUS)
+
+### CVE-2020-21365 (2022-08-15)
+
+<code>Directory traversal vulnerability in wkhtmltopdf through 0.12.5 allows remote attackers to read local files and disclose sensitive information via a crafted html file running with the default configurations.
+</code>
+
+- [andrei2308/CVE-2020-21365](https://github.com/andrei2308/CVE-2020-21365)
 
 ### CVE-2020-21378 (2020-12-21)
 
@@ -54964,7 +54972,6 @@
 </code>
 
 - [s3mPr1linux/CVE-2011-0762](https://github.com/s3mPr1linux/CVE-2011-0762)
-- [AndreyFreitass/CVE-2011-0762](https://github.com/AndreyFreitass/CVE-2011-0762)
 
 ### CVE-2011-1237 (2011-04-13)
 
