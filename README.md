@@ -1018,6 +1018,7 @@
 - [helidem/CVE-2025-24054_CVE-2025-24071-PoC](https://github.com/helidem/CVE-2025-24054_CVE-2025-24071-PoC)
 - [S4mma3l/CVE-2025-24054](https://github.com/S4mma3l/CVE-2025-24054)
 - [moften/CVE-2025-24054](https://github.com/moften/CVE-2025-24054)
+- [Yuri08loveElaina/CVE-2025-24054_POC](https://github.com/Yuri08loveElaina/CVE-2025-24054_POC)
 
 ### CVE-2025-24071 (2025-03-11)
 
@@ -2383,6 +2384,7 @@
 </code>
 
 - [DevBuiHieu/CVE-2025-33053-Proof-Of-Concept](https://github.com/DevBuiHieu/CVE-2025-33053-Proof-Of-Concept)
+- [detectrespondrepeat/CVE-2025-33053](https://github.com/detectrespondrepeat/CVE-2025-33053)
 
 ### CVE-2025-33073 (2025-06-10)
 
@@ -2583,6 +2585,9 @@
 </code>
 
 - [SacX-7/CVE-2025-46178](https://github.com/SacX-7/CVE-2025-46178)
+
+### CVE-2025-46181
+- [shemkumar/CVE-2025-46181-XSS](https://github.com/shemkumar/CVE-2025-46181-XSS)
 
 ### CVE-2025-46203 (2025-06-04)
 
@@ -2825,6 +2830,9 @@
 
 ### CVE-2025-4172026
 - [NotItsSixtyN3in/CVE-2025-4172026](https://github.com/NotItsSixtyN3in/CVE-2025-4172026)
+
+### CVE-2025-23245655
+- [cydragLINUX/CVE-2025-23245655](https://github.com/cydragLINUX/CVE-2025-23245655)
 
 
 ## 2024
@@ -10071,6 +10079,13 @@
 
 - [xen0bit/fwbt](https://github.com/xen0bit/fwbt)
 
+### CVE-2024-40898 (2024-07-18)
+
+<code>SSRF in Apache HTTP Server on Windows with mod_rewrite in server/vhost context, allows to potentially leak NTML hashes to a malicious server via SSRF and malicious requests.\n\nUsers are recommended to upgrade to version 2.4.62 which fixes this issue. 
+</code>
+
+- [anilpatel199n/CVE-2024-40898](https://github.com/anilpatel199n/CVE-2024-40898)
+
 ### CVE-2024-41107 (2024-07-19)
 
 <code>The CloudStack SAML authentication (disabled by default) does not enforce signature check. In CloudStack environments where SAML authentication is enabled, an attacker that initiates CloudStack SAML single sign-on authentication can bypass SAML authentication by submitting a spoofed SAML response with no signature and known or guessed username and other user details of a SAML-enabled CloudStack user-account. In such environments, this can result in a complete compromise of the resources owned and/or accessible by a SAML enabled user-account.\n\nAffected users are recommended to disable the SAML authentication plugin by setting the &quot;saml2.enabled&quot; global setting to &quot;false&quot;, or upgrade to version 4.18.2.2, 4.19.1.0 or later, which addresses this issue.
@@ -11420,6 +11435,8 @@
 - [gomtaengi/CVE-2024-50379-exp](https://github.com/gomtaengi/CVE-2024-50379-exp)
 - [pwnosec/CVE-2024-50379](https://github.com/pwnosec/CVE-2024-50379)
 - [thunww/CVE-2024-50379](https://github.com/thunww/CVE-2024-50379)
+- [Yuri08loveElaina/CVE-2024-50379-POC](https://github.com/Yuri08loveElaina/CVE-2024-50379-POC)
+- [Yuri08loveElaina/CVE-2024-50379](https://github.com/Yuri08loveElaina/CVE-2024-50379)
 
 ### CVE-2024-50395 (2024-11-22)
 
@@ -24735,6 +24752,8 @@
 - [Khalidhaimur/CVE-2022-26134](https://github.com/Khalidhaimur/CVE-2022-26134)
 - [user20252228/cve-2022-26134](https://github.com/user20252228/cve-2022-26134)
 - [thetowsif/CVE-2022-26134](https://github.com/thetowsif/CVE-2022-26134)
+- [Yuri08loveElaina/CVE-2022-26134](https://github.com/Yuri08loveElaina/CVE-2022-26134)
+- [MAHABUB122003/Atlassian-CVE-2022-26134](https://github.com/MAHABUB122003/Atlassian-CVE-2022-26134)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -26933,6 +26952,7 @@
 </code>
 
 - [fortra/CVE-2022-37969](https://github.com/fortra/CVE-2022-37969)
+- [grass341/CVE-2022-37969](https://github.com/grass341/CVE-2022-37969)
 
 ### CVE-2022-38029 (2022-10-11)
 
@@ -29814,7 +29834,6 @@
 - [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
-- [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
@@ -31227,6 +31246,7 @@
 
 - [hev0x/CVE-2021-26828_ScadaBR_RCE](https://github.com/hev0x/CVE-2021-26828_ScadaBR_RCE)
 - [ridpath/CVE-2021-26828-Ultimate](https://github.com/ridpath/CVE-2021-26828-Ultimate)
+- [Yuri08loveElaina/CVE-2021-26828](https://github.com/Yuri08loveElaina/CVE-2021-26828)
 
 ### CVE-2021-26832 (2021-04-14)
 
@@ -53986,6 +54006,7 @@
 - [RadYio/CVE-2014-6271](https://github.com/RadYio/CVE-2014-6271)
 - [YunchoHang/CVE-2014-6271-SHELLSHOCK](https://github.com/YunchoHang/CVE-2014-6271-SHELLSHOCK)
 - [moften/CVE-2014-6271](https://github.com/moften/CVE-2014-6271)
+- [knightc0de/Shellshock_vuln_Exploit](https://github.com/knightc0de/Shellshock_vuln_Exploit)
 
 ### CVE-2014-6287 (2014-10-07)
 
