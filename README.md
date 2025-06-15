@@ -4972,6 +4972,7 @@
 - [z3k0sec/CVE-2024-9264-RCE-Exploit](https://github.com/z3k0sec/CVE-2024-9264-RCE-Exploit)
 - [punitdarji/Grafana-CVE-2024-9264](https://github.com/punitdarji/Grafana-CVE-2024-9264)
 - [Cythonic1/CVE-2024-9264](https://github.com/Cythonic1/CVE-2024-9264)
+- [Exerrdev/CVE-2024-9264-Fixed](https://github.com/Exerrdev/CVE-2024-9264-Fixed)
 
 ### CVE-2024-9290 (2024-12-13)
 
