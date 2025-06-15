@@ -1961,6 +1961,7 @@
 - [SugiB3o/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/SugiB3o/vulnerable-nextjs-14-CVE-2025-29927)
 - [B1ack4sh/Blackash-CVE-2025-29927](https://github.com/B1ack4sh/Blackash-CVE-2025-29927)
 - [amitlttwo/Next.JS-CVE-2025-29927](https://github.com/amitlttwo/Next.JS-CVE-2025-29927)
+- [KamalideenAK/poc-cve-2025-29927](https://github.com/KamalideenAK/poc-cve-2025-29927)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -2324,6 +2325,7 @@
 - [bilalz5-github/Erlang-OTP-SSH-CVE-2025-32433](https://github.com/bilalz5-github/Erlang-OTP-SSH-CVE-2025-32433)
 - [vigilante-1337/CVE-2025-32433](https://github.com/vigilante-1337/CVE-2025-32433)
 - [B1ack4sh/Blackash-CVE-2025-32433](https://github.com/B1ack4sh/Blackash-CVE-2025-32433)
+- [Yuri08loveElaina/CVE-2025-32433-Erlang-OTP-SSH-Pre-Auth-RCE-exploit](https://github.com/Yuri08loveElaina/CVE-2025-32433-Erlang-OTP-SSH-Pre-Auth-RCE-exploit)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -2772,6 +2774,7 @@
 - [SyFi/CVE-2025-49113](https://github.com/SyFi/CVE-2025-49113)
 - [hakaioffsec/CVE-2025-49113-exploit](https://github.com/hakaioffsec/CVE-2025-49113-exploit)
 - [BiiTts/Roundcube-CVE-2025-49113](https://github.com/BiiTts/Roundcube-CVE-2025-49113)
+- [Yuri08loveElaina/CVE-2025-49113](https://github.com/Yuri08loveElaina/CVE-2025-49113)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -3551,7 +3554,7 @@
 - [ashwani95/CVE-2024-3094](https://github.com/ashwani95/CVE-2024-3094)
 - [harekrishnarai/xz-utils-vuln-checker](https://github.com/harekrishnarai/xz-utils-vuln-checker)
 - [teyhouse/CVE-2024-3094](https://github.com/teyhouse/CVE-2024-3094)
-- [alokemajumder/CVE-2024-3094-Vulnerability-Checker-Fixer](https://github.com/alokemajumder/CVE-2024-3094-Vulnerability-Checker-Fixer)
+- [gensecaihq/CVE-2024-3094-Vulnerability-Checker-Fixer](https://github.com/gensecaihq/CVE-2024-3094-Vulnerability-Checker-Fixer)
 - [Horizon-Software-Development/CVE-2024-3094](https://github.com/Horizon-Software-Development/CVE-2024-3094)
 - [hazemkya/CVE-2024-3094-checker](https://github.com/hazemkya/CVE-2024-3094-checker)
 - [lockness-Ko/xz-vulnerable-honeypot](https://github.com/lockness-Ko/xz-vulnerable-honeypot)
@@ -13238,6 +13241,7 @@
 - [deIndra/CVE-2023-1698](https://github.com/deIndra/CVE-2023-1698)
 - [thedarknessdied/WAGO-CVE-2023-1698](https://github.com/thedarknessdied/WAGO-CVE-2023-1698)
 - [X3RX3SSec/CVE-2023-1698](https://github.com/X3RX3SSec/CVE-2023-1698)
+- [ibrahmsql/CVE-2023-1698](https://github.com/ibrahmsql/CVE-2023-1698)
 
 ### CVE-2023-1718 (2023-11-01)
 
@@ -17458,7 +17462,6 @@
 - [vulncheck-oss/fetch-broker-conf](https://github.com/vulncheck-oss/fetch-broker-conf)
 - [0xKayala/CVE-2023-33246](https://github.com/0xKayala/CVE-2023-33246)
 - [MkJos/CVE-2023-33246_RocketMQ_RCE_EXP](https://github.com/MkJos/CVE-2023-33246_RocketMQ_RCE_EXP)
-- [hanch7274/CVE-2023-33246](https://github.com/hanch7274/CVE-2023-33246)
 - [Sumitpathania03/Apache-RocketMQ-CVE-2023-33246-](https://github.com/Sumitpathania03/Apache-RocketMQ-CVE-2023-33246-)
 - [PavilionQ/CVE-2023-33246-mitigation](https://github.com/PavilionQ/CVE-2023-33246-mitigation)
 
@@ -29550,7 +29553,6 @@
 - [DASICS-ICT/DASICS-CVE-2021-3156](https://github.com/DASICS-ICT/DASICS-CVE-2021-3156)
 - [wurwur/CVE-2021-3156](https://github.com/wurwur/CVE-2021-3156)
 - [lypd0/CVE-2021-3156-checker](https://github.com/lypd0/CVE-2021-3156-checker)
-- [Typical0day/CVE-2021-3156](https://github.com/Typical0day/CVE-2021-3156)
 - [acidburn2049/CVE-2021-3156](https://github.com/acidburn2049/CVE-2021-3156)
 - [Bad3r/CVE-2021-3156-without-ip-command](https://github.com/Bad3r/CVE-2021-3156-without-ip-command)
 - [Sebastianbedoya25/CVE-2021-3156](https://github.com/Sebastianbedoya25/CVE-2021-3156)
@@ -29855,6 +29857,7 @@
 - [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
+- [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
@@ -29955,7 +29958,6 @@
 - [ASG-CASTLE/CVE-2021-4034](https://github.com/ASG-CASTLE/CVE-2021-4034)
 - [X-Projetion/Exploiting-PwnKit-CVE-2021-4034-](https://github.com/X-Projetion/Exploiting-PwnKit-CVE-2021-4034-)
 - [evkl1d/CVE-2021-4034](https://github.com/evkl1d/CVE-2021-4034)
-- [Typical0day/CVE-2021-4034](https://github.com/Typical0day/CVE-2021-4034)
 - [zxybfq/CVE-2021-4034](https://github.com/zxybfq/CVE-2021-4034)
 - [EuJin03/CVE-2021-4034-PoC](https://github.com/EuJin03/CVE-2021-4034-PoC)
 - [dh4r4/PwnKit-CVE-2021-4034-](https://github.com/dh4r4/PwnKit-CVE-2021-4034-)
@@ -33376,6 +33378,13 @@
 - [lpyydxs/CVE-2021-40539](https://github.com/lpyydxs/CVE-2021-40539)
 - [Bu0uCat/ADSelfService-Plus-RCE-CVE-2021-40539](https://github.com/Bu0uCat/ADSelfService-Plus-RCE-CVE-2021-40539)
 
+### CVE-2021-40724 (2021-10-15)
+
+<code>Acrobat Reader for Android versions 21.8.0 (and earlier) are affected by a Path traversal vulnerability. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [tinopreter/DocViewerExploitApp](https://github.com/tinopreter/DocViewerExploitApp)
+
 ### CVE-2021-40822 (2022-05-01)
 
 <code>GeoServer through 2.18.5 and 2.19.x through 2.19.2 allows SSRF via the option for setting a proxy host.
@@ -33694,7 +33703,7 @@
 - [Hattan515/POC-CVE-2021-41773](https://github.com/Hattan515/POC-CVE-2021-41773)
 - [twseptian/cve-2021-41773](https://github.com/twseptian/cve-2021-41773)
 - [noflowpls/CVE-2021-41773](https://github.com/noflowpls/CVE-2021-41773)
-- [McSl0vv/CVE-2021-41773](https://github.com/McSl0vv/CVE-2021-41773)
+- [RizqiSec/CVE-2021-41773](https://github.com/RizqiSec/CVE-2021-41773)
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
 - [justakazh/mass_cve-2021-41773](https://github.com/justakazh/mass_cve-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
