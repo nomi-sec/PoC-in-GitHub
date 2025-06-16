@@ -1921,7 +1921,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
-- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -2401,7 +2400,6 @@
 </code>
 
 - [DevBuiHieu/CVE-2025-33053-Proof-Of-Concept](https://github.com/DevBuiHieu/CVE-2025-33053-Proof-Of-Concept)
-- [detectrespondrepeat/CVE-2025-33053](https://github.com/detectrespondrepeat/CVE-2025-33053)
 
 ### CVE-2025-33073 (2025-06-10)
 
@@ -2782,6 +2780,13 @@
 - [hakaioffsec/CVE-2025-49113-exploit](https://github.com/hakaioffsec/CVE-2025-49113-exploit)
 - [BiiTts/Roundcube-CVE-2025-49113](https://github.com/BiiTts/Roundcube-CVE-2025-49113)
 - [Yuri08loveElaina/CVE-2025-49113](https://github.com/Yuri08loveElaina/CVE-2025-49113)
+
+### CVE-2025-49125 (2025-06-16)
+
+<code>Authentication Bypass Using an Alternate Path or Channel vulnerability in Apache Tomcat.  When using PreResources or PostResources mounted other than at the root of the web application, it was possible to access those resources via an unexpected path. That path was likely not to be protected by the same security constraints as the expected path, allowing those security constraints to be bypassed.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.7, from 10.1.0-M1 through 10.1.41, from 9.0.0.M1 through 9.0.105.\n\nUsers are recommended to upgrade to version 11.0.8, 10.1.42 or 9.0.106, which fix the issue.
+</code>
+
+- [detectrespondrepeat/CVE-2025-49125-Authentication-Bypass](https://github.com/detectrespondrepeat/CVE-2025-49125-Authentication-Bypass)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -16814,6 +16819,13 @@
 - [Chocapikk/CVE-2023-30258](https://github.com/Chocapikk/CVE-2023-30258)
 - [n00o00b/CVE-2023-30258-RCE-POC](https://github.com/n00o00b/CVE-2023-30258-RCE-POC)
 
+### CVE-2023-30333 (2023-05-18)
+
+<code>An arbitrary file upload vulnerability in the component /admin/ThemeController.java of PerfreeBlog v3.1.2 allows attackers to execute arbitrary code via a crafted file.
+</code>
+
+- [tuaandatt/CVE-2023-30333---Zimbra-UnRAR](https://github.com/tuaandatt/CVE-2023-30333---Zimbra-UnRAR)
+
 ### CVE-2023-30347 (2023-06-22)
 
 <code>Cross Site Scripting (XSS) vulnerability in Neox Contact Center 2.3.9, via the serach_sms_api_name parameter to the SMA API search.
@@ -27146,7 +27158,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -40767,6 +40778,7 @@
 </code>
 
 - [skyllpro/CVE-2021-44026-PoC](https://github.com/skyllpro/CVE-2021-44026-PoC)
+- [Pbat6/CVE-2020-35730](https://github.com/Pbat6/CVE-2020-35730)
 
 ### CVE-2020-35749 (2021-01-15)
 
@@ -53350,7 +53362,7 @@
 <code>secure-compare 3.0.0 and below do not actually compare two strings properly. compare was actually comparing the first argument with itself, meaning the check passed for any two strings of the same length.
 </code>
 
-- [JamesDarf/wargame-turkey_in_2](https://github.com/JamesDarf/wargame-turkey_in_2)
+- [m0d0ri205/wargame-turkey_in_2](https://github.com/m0d0ri205/wargame-turkey_in_2)
 
 ### CVE-2015-9251 (2018-01-18)
 
@@ -55865,7 +55877,7 @@
 - [Ooscaar/MALW](https://github.com/Ooscaar/MALW)
 - [davidholiday/CVE-2007-4559](https://github.com/davidholiday/CVE-2007-4559)
 - [luigigubello/trellix-tarslip-patch-bypass](https://github.com/luigigubello/trellix-tarslip-patch-bypass)
-- [JamesDarf/wargame-tarpioka](https://github.com/JamesDarf/wargame-tarpioka)
+- [m0d0ri205/wargame-tarpioka](https://github.com/m0d0ri205/wargame-tarpioka)
 
 ### CVE-2007-4560 (2007-08-28)
 
