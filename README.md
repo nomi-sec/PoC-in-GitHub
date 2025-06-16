@@ -372,6 +372,7 @@
 </code>
 
 - [Alchemist3dot14/CVE-2025-2783](https://github.com/Alchemist3dot14/CVE-2025-2783)
+- [byteReaper77/CVE-2025-2783-SandboxEscape](https://github.com/byteReaper77/CVE-2025-2783-SandboxEscape)
 
 ### CVE-2025-2807 (2025-04-08)
 
@@ -43848,6 +43849,13 @@
 </code>
 
 - [mssalvatore/CVE-2019-14751_PoC](https://github.com/mssalvatore/CVE-2019-14751_PoC)
+
+### CVE-2019-14811 (2019-09-03)
+
+<code>A flaw was found in, ghostscript versions prior to 9.50, in the .pdf_hook_DSC_Creator procedure where it did not properly secure its privileged calls, enabling scripts to bypass `-dSAFER` restrictions. A specially crafted PostScript file could disable security protection and then have access to the file system, or execute arbitrary commands.
+</code>
+
+- [matejsmycka/CVE-2019-14811-in-pdf-exploit](https://github.com/matejsmycka/CVE-2019-14811-in-pdf-exploit)
 
 ### CVE-2019-14830 (2021-03-19)
 
