@@ -33,6 +33,7 @@
 </code>
 
 - [dodiorne/cve-2025-0133](https://github.com/dodiorne/cve-2025-0133)
+- [ynsmroztas/-CVE-2025-0133-GlobalProtect-XSS](https://github.com/ynsmroztas/-CVE-2025-0133-GlobalProtect-XSS)
 
 ### CVE-2025-0282 (2025-01-08)
 
@@ -1932,7 +1933,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
-- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -2607,6 +2607,9 @@
 ### CVE-2025-46157
 - [morphine009/CVE-2025-46157](https://github.com/morphine009/CVE-2025-46157)
 
+### CVE-2025-46171
+- [oiyl/CVE-2025-46171](https://github.com/oiyl/CVE-2025-46171)
+
 ### CVE-2025-46173 (2025-05-27)
 
 <code>code-projects Online Exam Mastering System 1.0 is vulnerable to Cross Site Scripting (XSS) via the name field in the feedback form.
@@ -2771,6 +2774,9 @@
 
 - [Nxploited/CVE-2025-48129](https://github.com/Nxploited/CVE-2025-48129)
 
+### CVE-2025-48466
+- [shipcod3/CVE-2025-48466](https://github.com/shipcod3/CVE-2025-48466)
+
 ### CVE-2025-48708 (2025-05-23)
 
 <code>gs_lib_ctx_stash_sanitized_arg in base/gslibctx.c in Artifex Ghostscript before 10.05.1 lacks argument sanitization for the # case. A created PDF document includes its password in cleartext.
@@ -2799,7 +2805,8 @@
 - [hakaioffsec/CVE-2025-49113-exploit](https://github.com/hakaioffsec/CVE-2025-49113-exploit)
 - [BiiTts/Roundcube-CVE-2025-49113](https://github.com/BiiTts/Roundcube-CVE-2025-49113)
 - [Yuri08loveElaina/CVE-2025-49113](https://github.com/Yuri08loveElaina/CVE-2025-49113)
-- [5kr1pt/WriteUp-Roundcube_CVE-2025-49113](https://github.com/5kr1pt/WriteUp-Roundcube_CVE-2025-49113)
+- [B1ack4sh/Blackash-CVE-2025-49113](https://github.com/B1ack4sh/Blackash-CVE-2025-49113)
+- [5kr1pt/Roundcube_CVE-2025-49113](https://github.com/5kr1pt/Roundcube_CVE-2025-49113)
 
 ### CVE-2025-49125 (2025-06-16)
 
@@ -6661,7 +6668,6 @@
 - [XiaomingX/cve-2024-23113-exp](https://github.com/XiaomingX/cve-2024-23113-exp)
 - [XiaomingX/cve-2024-23113-poc](https://github.com/XiaomingX/cve-2024-23113-poc)
 - [valornode/CVE-2024-23113](https://github.com/valornode/CVE-2024-23113)
-- [zetzns/cve-2024-23113](https://github.com/zetzns/cve-2024-23113)
 
 ### CVE-2024-23208 (2024-01-23)
 
@@ -27174,7 +27180,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -48971,9 +48976,6 @@
 
 - [emcalv/tivoli-poc](https://github.com/emcalv/tivoli-poc)
 - [bcdannyboy/cve-2017-1635-PoC](https://github.com/bcdannyboy/cve-2017-1635-PoC)
-
-### CVE-2017-2024
-- [FarizDevloper/CVE-2017-2024](https://github.com/FarizDevloper/CVE-2017-2024)
 
 ### CVE-2017-2368 (2017-02-20)
 
