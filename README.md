@@ -703,6 +703,7 @@
 - [Nxploited/CVE-2025-5287](https://github.com/Nxploited/CVE-2025-5287)
 - [wiseep/CVE-2025-5287](https://github.com/wiseep/CVE-2025-5287)
 - [RandomRobbieBF/CVE-2025-5287](https://github.com/RandomRobbieBF/CVE-2025-5287)
+- [RootHarpy/CVE-2025-5287](https://github.com/RootHarpy/CVE-2025-5287)
 
 ### CVE-2025-5288 (2025-06-13)
 
@@ -2780,6 +2781,7 @@
 - [hakaioffsec/CVE-2025-49113-exploit](https://github.com/hakaioffsec/CVE-2025-49113-exploit)
 - [BiiTts/Roundcube-CVE-2025-49113](https://github.com/BiiTts/Roundcube-CVE-2025-49113)
 - [Yuri08loveElaina/CVE-2025-49113](https://github.com/Yuri08loveElaina/CVE-2025-49113)
+- [5kr1pt/WriteUp-Roundcube_CVE-2025-49113](https://github.com/5kr1pt/WriteUp-Roundcube_CVE-2025-49113)
 
 ### CVE-2025-49125 (2025-06-16)
 
@@ -6647,6 +6649,7 @@
 - [XiaomingX/cve-2024-23113-exp](https://github.com/XiaomingX/cve-2024-23113-exp)
 - [XiaomingX/cve-2024-23113-poc](https://github.com/XiaomingX/cve-2024-23113-poc)
 - [valornode/CVE-2024-23113](https://github.com/valornode/CVE-2024-23113)
+- [zetzns/cve-2024-23113](https://github.com/zetzns/cve-2024-23113)
 
 ### CVE-2024-23208 (2024-01-23)
 
@@ -29874,7 +29877,6 @@
 - [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
-- [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
 - [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
@@ -31781,6 +31783,13 @@
 </code>
 
 - [atorralba/CVE-2021-30005-POC](https://github.com/atorralba/CVE-2021-30005-POC)
+
+### CVE-2021-30047 (2023-08-22)
+
+<code>VSFTPD 3.0.3 allows attackers to cause a denial of service due to limited number of connections allowed.
+</code>
+
+- [Andreyft7/CVE-2021-30047](https://github.com/Andreyft7/CVE-2021-30047)
 
 ### CVE-2021-30109 (2021-04-05)
 
