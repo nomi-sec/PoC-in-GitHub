@@ -372,7 +372,7 @@
 </code>
 
 - [Alchemist3dot14/CVE-2025-2783](https://github.com/Alchemist3dot14/CVE-2025-2783)
-- [byteReaper77/CVE-2025-2783-SandboxEscape](https://github.com/byteReaper77/CVE-2025-2783-SandboxEscape)
+- [byteReaper77/CVE-2025-2783](https://github.com/byteReaper77/CVE-2025-2783)
 
 ### CVE-2025-2807 (2025-04-08)
 
@@ -746,6 +746,13 @@
 </code>
 
 - [haxerr9/CVE-2025-5840](https://github.com/haxerr9/CVE-2025-5840)
+
+### CVE-2025-5964 (2025-06-15)
+
+<code>A path traversal issue in the API endpoint in M-Files Server before version 25.6.14925.0 allows an authenticated user to read files in the server.
+</code>
+
+- [byteReaper77/CVE-2025-5964-](https://github.com/byteReaper77/CVE-2025-5964-)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -1922,6 +1929,7 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
+- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -25781,6 +25789,7 @@
 - [J0hnbX/CVE-2022-30333](https://github.com/J0hnbX/CVE-2022-30333)
 - [aslitsecurity/Zimbra-CVE-2022-30333](https://github.com/aslitsecurity/Zimbra-CVE-2022-30333)
 - [paradox0909/cve-2022-30333_online_rar_extracor](https://github.com/paradox0909/cve-2022-30333_online_rar_extracor)
+- [tuaandatt/CVE-2022-30333---UnRAR](https://github.com/tuaandatt/CVE-2022-30333---UnRAR)
 
 ### CVE-2022-30489 (2022-05-13)
 
@@ -27161,6 +27170,7 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
+- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
