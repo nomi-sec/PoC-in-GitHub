@@ -34,6 +34,7 @@
 
 - [dodiorne/cve-2025-0133](https://github.com/dodiorne/cve-2025-0133)
 - [ynsmroztas/-CVE-2025-0133-GlobalProtect-XSS](https://github.com/ynsmroztas/-CVE-2025-0133-GlobalProtect-XSS)
+- [wiseep/CVE-2025-0133](https://github.com/wiseep/CVE-2025-0133)
 
 ### CVE-2025-0282 (2025-01-08)
 
@@ -759,7 +760,11 @@
 
 - [byteReaper77/CVE-2025-5964-](https://github.com/byteReaper77/CVE-2025-5964-)
 
-### CVE-2025-6220
+### CVE-2025-6220 (2025-06-18)
+
+<code>The Ultra Addons for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'save_options' function in all versions up to, and including, 3.5.12. This makes it possible for authenticated attackers, with Administrator-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
 - [d0n601/CVE-2025-6220](https://github.com/d0n601/CVE-2025-6220)
 
 ### CVE-2025-20029 (2025-02-05)
@@ -2317,6 +2322,7 @@
 
 - [Chocapikk/CVE-2025-32432](https://github.com/Chocapikk/CVE-2025-32432)
 - [Sachinart/CVE-2025-32432](https://github.com/Sachinart/CVE-2025-32432)
+- [CTY-Research-1/CVE-2025-32432-PoC](https://github.com/CTY-Research-1/CVE-2025-32432-PoC)
 
 ### CVE-2025-32433 (2025-04-16)
 
@@ -2423,6 +2429,7 @@
 </code>
 
 - [DevBuiHieu/CVE-2025-33053-Proof-Of-Concept](https://github.com/DevBuiHieu/CVE-2025-33053-Proof-Of-Concept)
+- [TheTorjanCaptain/CVE-2025-33053-Checker-PoC](https://github.com/TheTorjanCaptain/CVE-2025-33053-Checker-PoC)
 
 ### CVE-2025-33073 (2025-06-10)
 
@@ -2833,6 +2840,13 @@
 </code>
 
 - [louay-075/CVE-2025-49223-BillboardJS-PoC](https://github.com/louay-075/CVE-2025-49223-BillboardJS-PoC)
+
+### CVE-2025-49619 (2025-06-07)
+
+<code>Skyvern through 0.1.85 is vulnerable to server-side template injection (SSTI) in the Prompt field of workflow blocks such as the Navigation v2 Block. Improper sanitization of Jinja2 template input allows authenticated users to inject crafted expressions that are evaluated on the server, leading to blind remote code execution (RCE).
+</code>
+
+- [cristibtz/CVE-2025-49619](https://github.com/cristibtz/CVE-2025-49619)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -15967,6 +15981,7 @@
 - [m-lito13/SealSecurity_Exam](https://github.com/m-lito13/SealSecurity_Exam)
 - [dani33339/Tough-Cookie-v2.5.0-Patched](https://github.com/dani33339/Tough-Cookie-v2.5.0-Patched)
 - [morrisel/CVE-2023-26136](https://github.com/morrisel/CVE-2023-26136)
+- [uriyahav/tough-cookie-2.5.0-cve-2023-26136-fix](https://github.com/uriyahav/tough-cookie-2.5.0-cve-2023-26136-fix)
 
 ### CVE-2023-26144 (2023-09-20)
 
