@@ -465,6 +465,7 @@
 - [Vip3rLi0n/CVE-2025-3248](https://github.com/Vip3rLi0n/CVE-2025-3248)
 - [tiemio/RCE-CVE-2025-3248](https://github.com/tiemio/RCE-CVE-2025-3248)
 - [ynsmroztas/CVE-2025-3248-Langflow-RCE](https://github.com/ynsmroztas/CVE-2025-3248-Langflow-RCE)
+- [imbas007/CVE-2025-3248](https://github.com/imbas007/CVE-2025-3248)
 
 ### CVE-2025-3419 (2025-05-08)
 
@@ -2377,6 +2378,13 @@
 
 - [Nxploited/CVE-2025-32682](https://github.com/Nxploited/CVE-2025-32682)
 
+### CVE-2025-32710 (2025-06-10)
+
+<code>Use after free in Windows Remote Desktop Services allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [Sincan2/RCE-CVE-2025-32710](https://github.com/Sincan2/RCE-CVE-2025-32710)
+
 ### CVE-2025-32711 (2025-06-11)
 
 <code>Ai command injection in M365 Copilot allows an unauthorized attacker to disclose information over a network.
@@ -4047,7 +4055,7 @@
 - [ahmetramazank/CVE-2024-4577](https://github.com/ahmetramazank/CVE-2024-4577)
 - [BTtea/CVE-2024-4577-RCE-PoC](https://github.com/BTtea/CVE-2024-4577-RCE-PoC)
 - [Dejavu666/CVE-2024-4577](https://github.com/Dejavu666/CVE-2024-4577)
-- [user20252228/php-cgi-cve-2024-4577](https://github.com/user20252228/php-cgi-cve-2024-4577)
+- [tpdlshdmlrkfmcla/php-cgi-cve-2024-4577](https://github.com/tpdlshdmlrkfmcla/php-cgi-cve-2024-4577)
 - [Didarul342/CVE-2024-4577](https://github.com/Didarul342/CVE-2024-4577)
 - [Night-have-dreams/php-cgi-Injector](https://github.com/Night-have-dreams/php-cgi-Injector)
 - [mistakes1337/CVE-2024-4577](https://github.com/mistakes1337/CVE-2024-4577)
@@ -4966,7 +4974,7 @@
 - [iSee857/CVE-2024-9047-PoC](https://github.com/iSee857/CVE-2024-9047-PoC)
 - [verylazytech/CVE-2024-9047](https://github.com/verylazytech/CVE-2024-9047)
 - [Nxploited/CVE-2024-9047-Exploit](https://github.com/Nxploited/CVE-2024-9047-Exploit)
-- [user20252228/CVE-2024-9047](https://github.com/user20252228/CVE-2024-9047)
+- [tpdlshdmlrkfmcla/CVE-2024-9047](https://github.com/tpdlshdmlrkfmcla/CVE-2024-9047)
 
 ### CVE-2024-9061 (2024-10-16)
 
@@ -13393,7 +13401,7 @@
 <code>In hansunCMS 1.4.3 wurde eine Schwachstelle ausgemacht. Sie wurde als kritisch eingestuft. Es geht um eine nicht näher bekannte Funktion der Datei /ueditor/net/controller.ashx?action=catchimage. Durch die Manipulation mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [user20252228/2023-2245](https://github.com/user20252228/2023-2245)
+- [tpdlshdmlrkfmcla/2023-2245](https://github.com/tpdlshdmlrkfmcla/2023-2245)
 
 ### CVE-2023-2249 (2023-06-09)
 
@@ -14466,7 +14474,7 @@
 <code>The 'My Calendar' WordPress Plugin, version &lt; 3.4.22 is affected by an unauthenticated SQL injection vulnerability in the 'from' and 'to' parameters in the '/my-calendar/v1/events' rest route.
 </code>
 
-- [user20252228/CVE-2023-6360](https://github.com/user20252228/CVE-2023-6360)
+- [tpdlshdmlrkfmcla/CVE-2023-6360](https://github.com/tpdlshdmlrkfmcla/CVE-2023-6360)
 
 ### CVE-2023-6387 (2024-02-02)
 
@@ -17989,7 +17997,7 @@
 - [ThatNotEasy/CVE-2023-34960](https://github.com/ThatNotEasy/CVE-2023-34960)
 - [Mantodkaz/CVE-2023-34960](https://github.com/Mantodkaz/CVE-2023-34960)
 - [tucommenceapousser/CVE-2023-34960-ex](https://github.com/tucommenceapousser/CVE-2023-34960-ex)
-- [user20252228/cve-2023-34960](https://github.com/user20252228/cve-2023-34960)
+- [tpdlshdmlrkfmcla/cve-2023-34960](https://github.com/tpdlshdmlrkfmcla/cve-2023-34960)
 
 ### CVE-2023-34965 (2023-06-13)
 
@@ -22745,7 +22753,7 @@
 <code>The HTML Forms WordPress plugin before 1.3.25 does not properly properly escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by high privilege users
 </code>
 
-- [user20252228/CVE-2022-3689](https://github.com/user20252228/CVE-2022-3689)
+- [tpdlshdmlrkfmcla/CVE-2022-3689](https://github.com/tpdlshdmlrkfmcla/CVE-2022-3689)
 
 ### CVE-2022-3699 (2023-10-24)
 
@@ -24816,7 +24824,7 @@
 - [Gilospy/CVE-2022-26134](https://github.com/Gilospy/CVE-2022-26134)
 - [XiaomingX/cve-2022-26134-poc](https://github.com/XiaomingX/cve-2022-26134-poc)
 - [Khalidhaimur/CVE-2022-26134](https://github.com/Khalidhaimur/CVE-2022-26134)
-- [user20252228/cve-2022-26134](https://github.com/user20252228/cve-2022-26134)
+- [tpdlshdmlrkfmcla/cve-2022-26134](https://github.com/tpdlshdmlrkfmcla/cve-2022-26134)
 - [thetowsif/CVE-2022-26134](https://github.com/thetowsif/CVE-2022-26134)
 - [Yuri08loveElaina/CVE-2022-26134](https://github.com/Yuri08loveElaina/CVE-2022-26134)
 - [MAHABUB122003/Atlassian-CVE-2022-26134](https://github.com/MAHABUB122003/Atlassian-CVE-2022-26134)
@@ -34985,7 +34993,7 @@
 - [ZacharyZcR/CVE-2021-44228](https://github.com/ZacharyZcR/CVE-2021-44228)
 - [qw3rtyou/CVE-2021-44228_dockernize](https://github.com/qw3rtyou/CVE-2021-44228_dockernize)
 - [yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-](https://github.com/yadavmukesh/Log4Shell-vulnerability-CVE-2021-44228-)
-- [user20252228/Log4shell](https://github.com/user20252228/Log4shell)
+- [tpdlshdmlrkfmcla/Log4shell](https://github.com/tpdlshdmlrkfmcla/Log4shell)
 - [khaidtraivch/CVE-2021-44228-Log4Shell-](https://github.com/khaidtraivch/CVE-2021-44228-Log4Shell-)
 - [Fauzan-Aldi/Log4j-_Vulnerability](https://github.com/Fauzan-Aldi/Log4j-_Vulnerability)
 - [SerpilRivas/log4shell-homework9](https://github.com/SerpilRivas/log4shell-homework9)
@@ -44935,7 +44943,7 @@
 - [Vulnmachines/Ctirix_RCE-CVE-2019-19781](https://github.com/Vulnmachines/Ctirix_RCE-CVE-2019-19781)
 - [k-fire/CVE-2019-19781-exploit](https://github.com/k-fire/CVE-2019-19781-exploit)
 - [zerobytesecure/CVE-2019-19781](https://github.com/zerobytesecure/CVE-2019-19781)
-- [user20252228/CVE-2019-19781](https://github.com/user20252228/CVE-2019-19781)
+- [tpdlshdmlrkfmcla/CVE-2019-19781](https://github.com/tpdlshdmlrkfmcla/CVE-2019-19781)
 
 ### CVE-2019-19782 (2019-12-13)
 
@@ -45192,7 +45200,7 @@
 <code>A vulnerability in the egress packet processing functionality of the Cisco StarOS operating system for Cisco Aggregation Services Router (ASR) 5700 Series devices and Virtualized Packet Core (VPC) System Software could allow an unauthenticated, remote attacker to cause an interface on the device to cease forwarding packets. The device may need to be manually reloaded to clear this Interface Forwarding Denial of Service condition. The vulnerability is due to the failure to properly check that the length of a packet to transmit does not exceed the maximum supported length of the network interface card (NIC). An attacker could exploit this vulnerability by sending a crafted IP packet or a series of crafted IP fragments through an interface on the targeted device. A successful exploit could allow the attacker to cause the network interface to cease forwarding packets. This vulnerability could be triggered by either IPv4 or IPv6 network traffic. This vulnerability affects the following Cisco products when they are running the StarOS operating system and a virtual interface card is installed on the device: Aggregation Services Router (ASR) 5700 Series, Virtualized Packet Core-Distributed Instance (VPC-DI) System Software, Virtualized Packet Core-Single Instance (VPC-SI) System Software. Cisco Bug IDs: CSCvf32385.
 </code>
 
-- [user20252228/CVE-2018-0239](https://github.com/user20252228/CVE-2018-0239)
+- [tpdlshdmlrkfmcla/CVE-2018-0239](https://github.com/tpdlshdmlrkfmcla/CVE-2018-0239)
 
 ### CVE-2018-0296 (2018-06-07)
 
@@ -46360,7 +46368,7 @@
 - [anldori/CVE-2018-7600](https://github.com/anldori/CVE-2018-7600)
 - [r0lh/CVE-2018-7600](https://github.com/r0lh/CVE-2018-7600)
 - [raytran54/CVE-2018-7600](https://github.com/raytran54/CVE-2018-7600)
-- [user20252228/CVE-2018-7600.](https://github.com/user20252228/CVE-2018-7600.)
+- [tpdlshdmlrkfmcla/CVE-2018-7600.](https://github.com/tpdlshdmlrkfmcla/CVE-2018-7600.)
 - [Dowonkwon/drupal-cve-2018-7600-poc](https://github.com/Dowonkwon/drupal-cve-2018-7600-poc)
 
 ### CVE-2018-7602 (2018-07-19)
@@ -47010,7 +47018,7 @@
 - [Choudai/GPON-LOADER](https://github.com/Choudai/GPON-LOADER)
 - [c0ld1/GPON_RCE](https://github.com/c0ld1/GPON_RCE)
 - [ATpiu/CVE-2018-10562](https://github.com/ATpiu/CVE-2018-10562)
-- [user20252228/backdoor.mirai.helloworld](https://github.com/user20252228/backdoor.mirai.helloworld)
+- [tpdlshdmlrkfmcla/backdoor.mirai.helloworld](https://github.com/tpdlshdmlrkfmcla/backdoor.mirai.helloworld)
 
 ### CVE-2018-10583 (2018-05-01)
 
@@ -49222,7 +49230,7 @@
 - [Ravindu-Priyankara/CVE-2017-5487-vulnerability-on-NSBM](https://github.com/Ravindu-Priyankara/CVE-2017-5487-vulnerability-on-NSBM)
 - [K3ysTr0K3R/CVE-2017-5487-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-5487-EXPLOIT)
 - [dream434/CVE-2017-5487](https://github.com/dream434/CVE-2017-5487)
-- [user20252228/cve-2017-5487](https://github.com/user20252228/cve-2017-5487)
+- [tpdlshdmlrkfmcla/cve-2017-5487](https://github.com/tpdlshdmlrkfmcla/cve-2017-5487)
 - [ndr-repo/CVE-2017-5487](https://github.com/ndr-repo/CVE-2017-5487)
 
 ### CVE-2017-5633 (2017-03-06)
@@ -50267,7 +50275,6 @@
 
 - [lexfo/cve-2017-11176](https://github.com/lexfo/cve-2017-11176)
 - [DoubleMice/cve-2017-11176](https://github.com/DoubleMice/cve-2017-11176)
-- [hckex/CVE-2017-11176](https://github.com/hckex/CVE-2017-11176)
 - [leonardo1101/cve-2017-11176](https://github.com/leonardo1101/cve-2017-11176)
 - [c3r34lk1ll3r/CVE-2017-11176](https://github.com/c3r34lk1ll3r/CVE-2017-11176)
 - [Sama-Ayman-Mokhtar/CVE-2017-11176](https://github.com/Sama-Ayman-Mokhtar/CVE-2017-11176)
@@ -53567,7 +53574,7 @@
 <code>The dtls1_get_message_fragment function in d1_both.c in OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h allows remote attackers to cause a denial of service (recursion and client crash) via a DTLS hello message in an invalid DTLS handshake.
 </code>
 
-- [user20252228/OpenSSL_DTLS_CVE_2014_0221](https://github.com/user20252228/OpenSSL_DTLS_CVE_2014_0221)
+- [tpdlshdmlrkfmcla/OpenSSL_DTLS_CVE_2014_0221](https://github.com/tpdlshdmlrkfmcla/OpenSSL_DTLS_CVE_2014_0221)
 
 ### CVE-2014-0224 (2014-06-05)
 
@@ -55532,7 +55539,7 @@
 
 - [pagvac/pocs](https://github.com/pagvac/pocs)
 - [e-Thug/PhpMyAdmin](https://github.com/e-Thug/PhpMyAdmin)
-- [user20252228/ZmEu](https://github.com/user20252228/ZmEu)
+- [tpdlshdmlrkfmcla/ZmEu](https://github.com/tpdlshdmlrkfmcla/ZmEu)
 
 ### CVE-2009-1244 (2009-04-13)
 
