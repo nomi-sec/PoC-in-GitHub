@@ -130,6 +130,7 @@
 - [soltanali0/CVE-2025-1094-Exploit](https://github.com/soltanali0/CVE-2025-1094-Exploit)
 - [shacojx/CVE-2025-1094-Exploit](https://github.com/shacojx/CVE-2025-1094-Exploit)
 - [ishwardeepp/CVE-2025-1094-PoC-Postgre-SQLi](https://github.com/ishwardeepp/CVE-2025-1094-PoC-Postgre-SQLi)
+- [aninfosec/CVE-2025-1094](https://github.com/aninfosec/CVE-2025-1094)
 
 ### CVE-2025-1097 (2025-03-24)
 
@@ -1115,13 +1116,6 @@
 
 - [McTavishSue/CVE-2025-24200](https://github.com/McTavishSue/CVE-2025-24200)
 
-### CVE-2025-24201 (2025-03-11)
-
-<code>An out-of-bounds write issue was addressed with improved checks to prevent unauthorized actions. This issue is fixed in visionOS 2.3.2, iOS 18.3.2 and iPadOS 18.3.2, macOS Sequoia 15.3.2, Safari 18.3.1, watchOS 11.4, iPadOS 17.7.6, iOS 16.7.11 and iPadOS 16.7.11, iOS 15.8.4 and iPadOS 15.8.4. Maliciously crafted web content may be able to break out of Web Content sandbox. This is a supplementary fix for an attack that was blocked in iOS 17.2. (Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 17.2.).
-</code>
-
-- [AvonBorn/CVE-2025-24201-Exploit](https://github.com/AvonBorn/CVE-2025-24201-Exploit)
-
 ### CVE-2025-24203 (2025-03-31)
 
 <code>The issue was addressed with improved checks. This issue is fixed in macOS Ventura 13.7.5, iPadOS 17.7.6, macOS Sequoia 15.4, macOS Sonoma 14.7.5. An app may be able to modify protected parts of the file system.
@@ -1129,7 +1123,6 @@
 
 - [jailbreakdotparty/dirtyZero](https://github.com/jailbreakdotparty/dirtyZero)
 - [BlueDiamond2021/iOS-CVE-2025-24203-Paths](https://github.com/BlueDiamond2021/iOS-CVE-2025-24203-Paths)
-- [Ravibr87/dirtyZero](https://github.com/Ravibr87/dirtyZero)
 - [GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging](https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging)
 - [pxx917144686/iDevice_ZH](https://github.com/pxx917144686/iDevice_ZH)
 
@@ -1502,6 +1495,13 @@
 </code>
 
 - [godBADTRY/CVE-2025-26159](https://github.com/godBADTRY/CVE-2025-26159)
+
+### CVE-2025-26198 (2025-06-18)
+
+<code>CloudClassroom-PHP-Project v.1.0 is vulnerable to SQL Injection in loginlinkadmin.php, allowing unauthenticated attackers to bypass authentication and gain administrative access. The application fails to properly sanitize user inputs before constructing SQL queries, enabling an attacker to manipulate database queries via specially crafted payloads
+</code>
+
+- [tansique-17/CVE-2025-26198](https://github.com/tansique-17/CVE-2025-26198)
 
 ### CVE-2025-26202 (2025-03-04)
 
@@ -2342,7 +2342,6 @@
 - [meloppeitreet/CVE-2025-32433-Remote-Shell](https://github.com/meloppeitreet/CVE-2025-32433-Remote-Shell)
 - [tobiasGuta/Erlang-OTP-CVE-2025-32433](https://github.com/tobiasGuta/Erlang-OTP-CVE-2025-32433)
 - [ps-interactive/lab_CVE-2025-32433](https://github.com/ps-interactive/lab_CVE-2025-32433)
-- [rizky412/CVE-2025-32433](https://github.com/rizky412/CVE-2025-32433)
 - [0x7556/CVE-2025-32433](https://github.com/0x7556/CVE-2025-32433)
 - [becrevex/CVE-2025-32433](https://github.com/becrevex/CVE-2025-32433)
 - [MrDreamReal/CVE-2025-32433](https://github.com/MrDreamReal/CVE-2025-32433)
@@ -2390,13 +2389,6 @@
 </code>
 
 - [Sincan2/RCE-CVE-2025-32710](https://github.com/Sincan2/RCE-CVE-2025-32710)
-
-### CVE-2025-32711 (2025-06-11)
-
-<code>Ai command injection in M365 Copilot allows an unauthorized attacker to disclose information over a network.
-</code>
-
-- [AvonBorn/CVE-2025-32711-Exploit](https://github.com/AvonBorn/CVE-2025-32711-Exploit)
 
 ### CVE-2025-32756 (2025-05-13)
 
@@ -2570,6 +2562,9 @@
 
 - [barisbaydur/CVE-2025-44148](https://github.com/barisbaydur/CVE-2025-44148)
 
+### CVE-2025-44203
+- [IvanT7D3/CVE-2025-44203](https://github.com/IvanT7D3/CVE-2025-44203)
+
 ### CVE-2025-44228
 - [Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
 - [Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
@@ -2622,7 +2617,11 @@
 ### CVE-2025-46142
 - [AugustusSploits/CVE-2025-46142](https://github.com/AugustusSploits/CVE-2025-46142)
 
-### CVE-2025-46157
+### CVE-2025-46157 (2025-06-18)
+
+<code>An issue in EfroTech Time Trax v.1.0 allows a remote attacker to execute arbitrary code via the file attachment function in the leave request form
+</code>
+
 - [morphine009/CVE-2025-46157](https://github.com/morphine009/CVE-2025-46157)
 
 ### CVE-2025-46171
@@ -7473,7 +7472,6 @@
 - [wh6amiGit/CVE-2024-25600](https://github.com/wh6amiGit/CVE-2024-25600)
 - [Sibul-Dan-Glokta/test-task-CVE-2024-25600](https://github.com/Sibul-Dan-Glokta/test-task-CVE-2024-25600)
 - [so1icitx/CVE-2024-25600](https://github.com/so1icitx/CVE-2024-25600)
-- [cboss43/CVE-2024-25600](https://github.com/cboss43/CVE-2024-25600)
 - [meli0dasH4ck3r/cve-2024-25600](https://github.com/meli0dasH4ck3r/cve-2024-25600)
 - [ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM](https://github.com/ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM)
 - [DedsecTeam-BlackHat/Poleposph](https://github.com/DedsecTeam-BlackHat/Poleposph)
@@ -32683,8 +32681,8 @@
 - [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
 - [Cuerz/CVE-2021-36260](https://github.com/Cuerz/CVE-2021-36260)
 - [TakenoSite/Simple-CVE-2021-36260](https://github.com/TakenoSite/Simple-CVE-2021-36260)
-- [r3t4k3r/hikvision_brute](https://github.com/r3t4k3r/hikvision_brute)
 - [haingn/HIK-CVE-2021-36260-Exploit](https://github.com/haingn/HIK-CVE-2021-36260-Exploit)
+- [NanoTrash/hikvision_brute](https://github.com/NanoTrash/hikvision_brute)
 - [aengussong/hikvision_probe](https://github.com/aengussong/hikvision_probe)
 
 ### CVE-2021-36393 (2023-03-06)
@@ -44326,7 +44324,7 @@
 <code>Liferay Portal CE 6.2.5 allows remote command execution because of deserialization of a JSON payload.
 </code>
 
-- [hackaholicguy/CVE-2019-16891-Liferay-deserialization-RCE](https://github.com/hackaholicguy/CVE-2019-16891-Liferay-deserialization-RCE)
+- [hrxknight/CVE-2019-16891-Liferay-deserialization-RCE](https://github.com/hrxknight/CVE-2019-16891-Liferay-deserialization-RCE)
 
 ### CVE-2019-16920 (2019-09-27)
 
@@ -48537,6 +48535,7 @@
 - [Proklinius897/CVE-2018-25031-tests](https://github.com/Proklinius897/CVE-2018-25031-tests)
 - [nigartest/CVE-2018-25031](https://github.com/nigartest/CVE-2018-25031)
 - [faccimatteo/CVE-2018-25031](https://github.com/faccimatteo/CVE-2018-25031)
+- [h4ckt0m/CVE-2018-25031-test](https://github.com/h4ckt0m/CVE-2018-25031-test)
 
 ### CVE-2018-25032 (2022-03-25)
 
