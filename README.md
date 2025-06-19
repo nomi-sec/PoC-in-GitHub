@@ -778,6 +778,9 @@
 
 - [d0n601/CVE-2025-6220](https://github.com/d0n601/CVE-2025-6220)
 
+### CVE-2025-6335
+- [jujubooom/CVE-2025-6335](https://github.com/jujubooom/CVE-2025-6335)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -999,6 +1002,13 @@
 </code>
 
 - [GabrieleDattile/CVE-2025-23040](https://github.com/GabrieleDattile/CVE-2025-23040)
+
+### CVE-2025-23121 (2025-06-18)
+
+<code>A vulnerability allowing remote code execution (RCE) on the Backup Server by an authenticated domain user
+</code>
+
+- [nagenar/CVE-2025-23121-RCE](https://github.com/nagenar/CVE-2025-23121-RCE)
 
 ### CVE-2025-23369 (2025-01-21)
 
@@ -2512,13 +2522,6 @@
 
 - [AlexSvobo/nhi-zero-trust-bypass](https://github.com/AlexSvobo/nhi-zero-trust-bypass)
 
-### CVE-2025-43200 (2025-06-16)
-
-<code>This issue was addressed with improved checks. This issue is fixed in watchOS 11.3.1, macOS Ventura 13.7.4, iOS 15.8.4 and iPadOS 15.8.4, iOS 16.7.11 and iPadOS 16.7.11, iPadOS 17.7.5, visionOS 2.3.1, macOS Sequoia 15.3.1, iOS 18.3.1 and iPadOS 18.3.1, macOS Sonoma 14.7.4. A logic issue existed when processing a maliciously crafted photo or video shared via an iCloud Link. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals.
-</code>
-
-- [allinsthon/CVE-2025-43200](https://github.com/allinsthon/CVE-2025-43200)
-
 ### CVE-2025-43864 (2025-04-25)
 
 <code>React Router is a router for React. Starting in version 7.2.0 and prior to version 7.5.2, it is possible to force an application to switch to SPA mode by adding a header to the request. If the application uses SSR and is forced to switch to SPA, this causes an error that completely corrupts the page. If a cache system is in place, this allows the response containing the error to be cached, resulting in a cache poisoning that strongly impacts the availability of the application. This issue has been patched in version 7.5.2.
@@ -3682,6 +3685,7 @@
 - [been22426/CVE-2024-3094](https://github.com/been22426/CVE-2024-3094)
 - [laxmikumari615/Linux---Security---Detect-and-Mitigate-CVE-2024-3094](https://github.com/laxmikumari615/Linux---Security---Detect-and-Mitigate-CVE-2024-3094)
 - [valeriot30/cve-2024-3094](https://github.com/valeriot30/cve-2024-3094)
+- [24Owais/threat-intel-cve-2024-3094](https://github.com/24Owais/threat-intel-cve-2024-3094)
 
 ### CVE-2024-3105 (2024-06-15)
 
@@ -43007,6 +43011,7 @@
 - [lindemer/CVE-2019-11043](https://github.com/lindemer/CVE-2019-11043)
 - [jptr218/php_hack](https://github.com/jptr218/php_hack)
 - [jas9reet/CVE-2019-11043](https://github.com/jas9reet/CVE-2019-11043)
+- [bayazid-bit/CVE-2019-11043-](https://github.com/bayazid-bit/CVE-2019-11043-)
 
 ### CVE-2019-11061 (2019-08-29)
 
@@ -55247,6 +55252,7 @@
 - [madanokr001/CVE-2011-2523](https://github.com/madanokr001/CVE-2011-2523)
 - [sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523)
 - [JohanMV/explotacion-vsftpd-nmap_Laboratorio_1](https://github.com/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1)
+- [lghost256/vsftpd234-exploit](https://github.com/lghost256/vsftpd234-exploit)
 
 ### CVE-2011-2894 (2011-10-04)
 
