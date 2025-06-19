@@ -468,6 +468,7 @@
 - [tiemio/RCE-CVE-2025-3248](https://github.com/tiemio/RCE-CVE-2025-3248)
 - [ynsmroztas/CVE-2025-3248-Langflow-RCE](https://github.com/ynsmroztas/CVE-2025-3248-Langflow-RCE)
 - [imbas007/CVE-2025-3248](https://github.com/imbas007/CVE-2025-3248)
+- [0xgh057r3c0n/CVE-2025-3248](https://github.com/0xgh057r3c0n/CVE-2025-3248)
 
 ### CVE-2025-3419 (2025-05-08)
 
@@ -2422,6 +2423,7 @@
 
 - [DevBuiHieu/CVE-2025-33053-Proof-Of-Concept](https://github.com/DevBuiHieu/CVE-2025-33053-Proof-Of-Concept)
 - [TheTorjanCaptain/CVE-2025-33053-Checker-PoC](https://github.com/TheTorjanCaptain/CVE-2025-33053-Checker-PoC)
+- [kra1t0/CVE-2025-33053-WebDAV-RCE-PoC-and-C2-Concept](https://github.com/kra1t0/CVE-2025-33053-WebDAV-RCE-PoC-and-C2-Concept)
 
 ### CVE-2025-33073 (2025-06-10)
 
@@ -2824,6 +2826,7 @@
 - [Yuri08loveElaina/CVE-2025-49113](https://github.com/Yuri08loveElaina/CVE-2025-49113)
 - [B1ack4sh/Blackash-CVE-2025-49113](https://github.com/B1ack4sh/Blackash-CVE-2025-49113)
 - [5kr1pt/Roundcube_CVE-2025-49113](https://github.com/5kr1pt/Roundcube_CVE-2025-49113)
+- [punitdarji/roundcube-cve-2025-49113](https://github.com/punitdarji/roundcube-cve-2025-49113)
 
 ### CVE-2025-49125 (2025-06-16)
 
@@ -13088,6 +13091,7 @@
 - [churamanib/CVE-2023-0386](https://github.com/churamanib/CVE-2023-0386)
 - [EstamelGG/CVE-2023-0386-libs](https://github.com/EstamelGG/CVE-2023-0386-libs)
 - [orilevy8/cve-2023-0386](https://github.com/orilevy8/cve-2023-0386)
+- [bchevCH/CVE-2023-0386](https://github.com/bchevCH/CVE-2023-0386)
 
 ### CVE-2023-0400 (2023-02-01)
 
@@ -14494,6 +14498,13 @@
 </code>
 
 - [A3ST1CODE/CVE_6387](https://github.com/A3ST1CODE/CVE_6387)
+
+### CVE-2023-6401 (2023-11-30)
+
+<code>In NotePad++ bis 8.1 wurde eine problematische Schwachstelle entdeckt. Das betrifft eine unbekannte Funktionalität der Datei dbghelp.exe. Durch Beeinflussen mit unbekannten Daten kann eine uncontrolled search path-Schwachstelle ausgenutzt werden. Der Angriff muss lokal angegangen werden.
+</code>
+
+- [mekitoci/CVE-2023-6401](https://github.com/mekitoci/CVE-2023-6401)
 
 ### CVE-2023-6421 (2024-01-01)
 
@@ -29917,6 +29928,7 @@
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [xcanwin/CVE-2021-4034-UniontechOS](https://github.com/xcanwin/CVE-2021-4034-UniontechOS)
+- [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
@@ -33863,7 +33875,6 @@
 - [javaamo/CVE-2021-41773](https://github.com/javaamo/CVE-2021-41773)
 - [ashique-thaha/CVE-2021-41773-POC](https://github.com/ashique-thaha/CVE-2021-41773-POC)
 - [khaidtraivch/CVE-2021-41773-Apache-2.4.49-](https://github.com/khaidtraivch/CVE-2021-41773-Apache-2.4.49-)
-- [qalvynn/CVE-2021-41773](https://github.com/qalvynn/CVE-2021-41773)
 - [Ask-os/CVE-2021-41773](https://github.com/Ask-os/CVE-2021-41773)
 - [CyberQuestor-infosec/CVE-2021-41773-Apache_2.4.49-Path-traversal-to-RCE](https://github.com/CyberQuestor-infosec/CVE-2021-41773-Apache_2.4.49-Path-traversal-to-RCE)
 
@@ -48536,6 +48547,7 @@
 - [nigartest/CVE-2018-25031](https://github.com/nigartest/CVE-2018-25031)
 - [faccimatteo/CVE-2018-25031](https://github.com/faccimatteo/CVE-2018-25031)
 - [h4ckt0m/CVE-2018-25031-test](https://github.com/h4ckt0m/CVE-2018-25031-test)
+- [rasinfosec/CVE-2018-25031](https://github.com/rasinfosec/CVE-2018-25031)
 
 ### CVE-2018-25032 (2022-03-25)
 
