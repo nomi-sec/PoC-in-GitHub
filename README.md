@@ -469,6 +469,7 @@
 - [ynsmroztas/CVE-2025-3248-Langflow-RCE](https://github.com/ynsmroztas/CVE-2025-3248-Langflow-RCE)
 - [imbas007/CVE-2025-3248](https://github.com/imbas007/CVE-2025-3248)
 - [0xgh057r3c0n/CVE-2025-3248](https://github.com/0xgh057r3c0n/CVE-2025-3248)
+- [zapstiko/CVE-2025-3248](https://github.com/zapstiko/CVE-2025-3248)
 
 ### CVE-2025-3419 (2025-05-08)
 
@@ -761,6 +762,9 @@
 </code>
 
 - [byteReaper77/CVE-2025-5964-](https://github.com/byteReaper77/CVE-2025-5964-)
+
+### CVE-2025-6019
+- [guinea-offensive-security/CVE-2025-6019](https://github.com/guinea-offensive-security/CVE-2025-6019)
 
 ### CVE-2025-6220 (2025-06-18)
 
@@ -1503,6 +1507,13 @@
 </code>
 
 - [tansique-17/CVE-2025-26198](https://github.com/tansique-17/CVE-2025-26198)
+
+### CVE-2025-26199 (2025-06-18)
+
+<code>An issue in CloudClassroom PHP Project v.1.0 allows a remote attacker to execute arbitrary code via the cleartext submission of passwords.
+</code>
+
+- [tansique-17/CVE-2025-26199](https://github.com/tansique-17/CVE-2025-26199)
 
 ### CVE-2025-26202 (2025-03-04)
 
@@ -52672,6 +52683,7 @@
 </code>
 
 - [Zeppperoni/CVE-2015-1578](https://github.com/Zeppperoni/CVE-2015-1578)
+- [yaldobaoth/CVE-2015-1578-PoC](https://github.com/yaldobaoth/CVE-2015-1578-PoC)
 
 ### CVE-2015-1579 (2015-02-11)
 
