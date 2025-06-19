@@ -26,6 +26,7 @@
 - [barcrange/CVE-2025-0108-Authentication-Bypass-checker](https://github.com/barcrange/CVE-2025-0108-Authentication-Bypass-checker)
 - [sohaibeb/CVE-2025-0108](https://github.com/sohaibeb/CVE-2025-0108)
 - [becrevex/CVE-2025-0108](https://github.com/becrevex/CVE-2025-0108)
+- [B1ack4sh/Blackash-CVE-2025-0108](https://github.com/B1ack4sh/Blackash-CVE-2025-0108)
 
 ### CVE-2025-0133 (2025-05-14)
 
@@ -763,7 +764,11 @@
 
 - [byteReaper77/CVE-2025-5964-](https://github.com/byteReaper77/CVE-2025-5964-)
 
-### CVE-2025-6019
+### CVE-2025-6019 (2025-06-19)
+
+<code>A Local Privilege Escalation (LPE) vulnerability was found in libblockdev. Generally, the &quot;allow_active&quot; setting in Polkit permits a physically present user to take certain actions based on the session type. Due to the way libblockdev interacts with the udisks daemon, an &quot;allow_active&quot; user on a system may be able escalate to full root privileges on the target host. Normally, udisks mounts user-provided filesystem images with security flags like nosuid and nodev to prevent privilege escalation.  However, a local attacker can create a specially crafted XFS image containing a SUID-root shell, then trick udisks into resizing it. This mounts their malicious filesystem with root privileges, allowing them to execute their SUID-root shell and gain complete control of the system.
+</code>
+
 - [guinea-offensive-security/CVE-2025-6019](https://github.com/guinea-offensive-security/CVE-2025-6019)
 
 ### CVE-2025-6220 (2025-06-18)
@@ -1573,6 +1578,9 @@
 
 ### CVE-2025-26417
 - [uthrasri/CVE-2025-26417](https://github.com/uthrasri/CVE-2025-26417)
+
+### CVE-2025-26443
+- [Pazhanivelmani/ManagedProvisioning-A10_r33_CVE-2025-26443](https://github.com/Pazhanivelmani/ManagedProvisioning-A10_r33_CVE-2025-26443)
 
 ### CVE-2025-26465 (2025-02-18)
 
@@ -27590,6 +27598,7 @@
 - [segfault-it/cve-2022-41352](https://github.com/segfault-it/cve-2022-41352)
 - [Cr4ckC4t/cve-2022-41352-zimbra-rce](https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce)
 - [qailanet/cve-2022-41352-zimbra-rce](https://github.com/qailanet/cve-2022-41352-zimbra-rce)
+- [MuhammadWaseem29/cve-2022-41352](https://github.com/MuhammadWaseem29/cve-2022-41352)
 
 ### CVE-2022-41358 (2022-10-20)
 
@@ -44041,6 +44050,7 @@
 - [Mattb709/CVE-2019-15107-Webmin-RCE-PoC](https://github.com/Mattb709/CVE-2019-15107-Webmin-RCE-PoC)
 - [m4lk3rnel/CVE-2019-15107](https://github.com/m4lk3rnel/CVE-2019-15107)
 - [EdouardosStav/CVE-2019-15107-RCE-WebMin](https://github.com/EdouardosStav/CVE-2019-15107-RCE-WebMin)
+- [bayazid-bit/CVE-2019-15107](https://github.com/bayazid-bit/CVE-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
 
