@@ -769,6 +769,7 @@
 </code>
 
 - [guinea-offensive-security/CVE-2025-6019](https://github.com/guinea-offensive-security/CVE-2025-6019)
+- [And-oss/CVE-2025-6019-exploit](https://github.com/And-oss/CVE-2025-6019-exploit)
 
 ### CVE-2025-6220 (2025-06-18)
 
@@ -777,7 +778,11 @@
 
 - [d0n601/CVE-2025-6220](https://github.com/d0n601/CVE-2025-6220)
 
-### CVE-2025-6335
+### CVE-2025-6335 (2025-06-20)
+
+<code>Eine kritische Schwachstelle wurde in DedeCMS bis 5.7.2 gefunden. Es geht hierbei um eine nicht näher spezifizierte Funktion der Datei /include/dedetag.class.php der Komponente Template Handler. Durch das Manipulieren des Arguments notes mit unbekannten Daten kann eine command injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
 - [jujubooom/CVE-2025-6335](https://github.com/jujubooom/CVE-2025-6335)
 
 ### CVE-2025-20029 (2025-02-05)
@@ -2844,6 +2849,13 @@
 
 - [0xgh057r3c0n/CVE-2025-48827](https://github.com/0xgh057r3c0n/CVE-2025-48827)
 - [wiseep/CVE-2025-48827](https://github.com/wiseep/CVE-2025-48827)
+
+### CVE-2025-48988 (2025-06-16)
+
+<code>Allocation of Resources Without Limits or Throttling vulnerability in Apache Tomcat.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.7, from 10.1.0-M1 through 10.1.41, from 9.0.0.M1 through 9.0.105.\n\nUsers are recommended to upgrade to version 11.0.8, 10.1.42 or 9.0.106, which fix the issue.
+</code>
+
+- [Samb102/POC-CVE-2025-48988-CVE-2025-48976](https://github.com/Samb102/POC-CVE-2025-48988-CVE-2025-48976)
 
 ### CVE-2025-49113 (2025-06-02)
 
@@ -11709,6 +11721,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-50510](https://github.com/RandomRobbieBF/CVE-2024-50510)
+
+### CVE-2024-50562 (2025-06-10)
+
+<code>An Insufficient Session Expiration vulnerability [CWE-613] in FortiOS SSL-VPN version 7.6.0, version 7.4.6 and below, version 7.2.10 and below, 7.0 all versions, 6.4 all versions may allow an attacker in possession of a cookie used to log in the SSL-VPN portal to log in again, although the session has expired or was logged out.
+</code>
+
+- [Shahid-BugB/fortinet-cve-2024-50562](https://github.com/Shahid-BugB/fortinet-cve-2024-50562)
 
 ### CVE-2024-50603 (2025-01-08)
 
