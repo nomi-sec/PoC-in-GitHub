@@ -1529,14 +1529,14 @@
 
 ### CVE-2025-26198 (2025-06-18)
 
-<code>CloudClassroom-PHP-Project v.1.0 is vulnerable to SQL Injection in loginlinkadmin.php, allowing unauthenticated attackers to bypass authentication and gain administrative access. The application fails to properly sanitize user inputs before constructing SQL queries, enabling an attacker to manipulate database queries via specially crafted payloads
+<code>CloudClassroom-PHP-Project v1.0 contains a critical SQL Injection vulnerability in the loginlinkadmin.php component. The application fails to sanitize user-supplied input in the admin login form before directly including it in SQL queries. This allows unauthenticated attackers to inject arbitrary SQL payloads and bypass authentication, gaining unauthorized administrative access. The vulnerability is triggered when an attacker supplies specially crafted input in the username field, such as ' OR '1'='1, leading to complete compromise of the login mechanism and potential exposure of sensitive backend data.
 </code>
 
 - [tansique-17/CVE-2025-26198](https://github.com/tansique-17/CVE-2025-26198)
 
 ### CVE-2025-26199 (2025-06-18)
 
-<code>An issue in CloudClassroom PHP Project v.1.0 allows a remote attacker to execute arbitrary code via the cleartext submission of passwords.
+<code>CloudClassroom-PHP-Project v1.0 is affected by an insecure credential transmission vulnerability. The application transmits passwords over unencrypted HTTP during the login process, exposing sensitive credentials to potential interception by network-based attackers. A remote attacker with access to the same network (e.g., public Wi-Fi or compromised router) can capture login credentials via Man-in-the-Middle (MitM) techniques. If the attacker subsequently uses the credentials to log in and exploit administrative functions (e.g., file upload), this may lead to remote code execution depending on the environment.
 </code>
 
 - [tansique-17/CVE-2025-26199](https://github.com/tansique-17/CVE-2025-26199)
@@ -2603,7 +2603,11 @@
 
 - [barisbaydur/CVE-2025-44148](https://github.com/barisbaydur/CVE-2025-44148)
 
-### CVE-2025-44203
+### CVE-2025-44203 (2025-06-20)
+
+<code>In HotelDruid 3.0.7, an unauthenticated attacker can exploit verbose SQL error messages on creadb.php before the 'create database' button is pressed. By sending malformed POST requests to this endpoint, the attacker may obtain the administrator username, password hash, and salt. In some cases, the attack results in a Denial of Service (DoS), preventing the administrator from logging in even with the correct credentials.
+</code>
+
 - [IvanT7D3/CVE-2025-44203](https://github.com/IvanT7D3/CVE-2025-44203)
 
 ### CVE-2025-44228
@@ -2881,6 +2885,13 @@
 
 - [gregk4sec/CVE-2025-49125](https://github.com/gregk4sec/CVE-2025-49125)
 - [detectrespondrepeat/CVE-2025-49125-Authentication-Bypass](https://github.com/detectrespondrepeat/CVE-2025-49125-Authentication-Bypass)
+
+### CVE-2025-49132 (2025-06-20)
+
+<code>Pterodactyl is a free, open-source game server management panel. Prior to version 1.11.11, using the /locales/locale.json with the locale and namespace query parameters, a malicious actor is able to execute arbitrary code without being authenticated. With the ability to execute arbitrary code it could be used to gain access to the Panel's server, read credentials from the Panel's config, extract sensitive information from the database, access files of servers managed by the panel, etc. This issue has been patched in version 1.11.11. There are no software workarounds for this vulnerability, but use of an external Web Application Firewall (WAF) could help mitigate this attack.
+</code>
+
+- [typicalsmc/CVE-2025-49132-PoC](https://github.com/typicalsmc/CVE-2025-49132-PoC)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -5229,6 +5240,7 @@
 - [RandomRobbieBF/CVE-2024-9796](https://github.com/RandomRobbieBF/CVE-2024-9796)
 - [issamjr/CVE-2024-9796](https://github.com/issamjr/CVE-2024-9796)
 - [viniciuslazzari/CVE-2024-9796](https://github.com/viniciuslazzari/CVE-2024-9796)
+- [BwithE/CVE-2024-9796](https://github.com/BwithE/CVE-2024-9796)
 
 ### CVE-2024-9821 (2024-10-12)
 
@@ -7110,20 +7122,6 @@
 </code>
 
 - [BurakSevben/CVE-2024-24142](https://github.com/BurakSevben/CVE-2024-24142)
-
-### CVE-2024-24336 (2024-03-19)
-
-<code>A multiple Cross-site scripting (XSS) vulnerability in the '/members/moremember.pl', and ‘/members/members-home.pl’ endpoints within Koha Library Management System version 23.05.05 and earlier allows malicious staff users to carry out CSRF attacks, including unauthorized changes to usernames and passwords of users visiting the affected page, via the 'Circulation note' and ‘Patrons Restriction’ components.
-</code>
-
-- [nitipoom-jar/CVE-2024-24336](https://github.com/nitipoom-jar/CVE-2024-24336)
-
-### CVE-2024-24337 (2024-02-12)
-
-<code>CSV Injection vulnerability in '/members/moremember.pl' and '/admin/aqbudgets.pl' endpoints in Koha Library Management System version 23.05.05 and earlier allows attackers to to inject DDE commands into csv exports via the 'Budget' and 'Patrons Member' components.
-</code>
-
-- [nitipoom-jar/CVE-2024-24337](https://github.com/nitipoom-jar/CVE-2024-24337)
 
 ### CVE-2024-24386 (2024-02-15)
 
@@ -10085,13 +10083,6 @@
 
 - [Dirac231/CVE-2024-40498](https://github.com/Dirac231/CVE-2024-40498)
 
-### CVE-2024-40500 (2024-08-12)
-
-<code>Cross Site Scripting vulnerability in Martin Kucej i-librarian v.5.11.0 and before allows a local attacker to execute arbitrary code via the search function in the import component.
-</code>
-
-- [nitipoom-jar/CVE-2024-40500](https://github.com/nitipoom-jar/CVE-2024-40500)
-
 ### CVE-2024-40506 (2024-09-26)
 
 <code>Cross Site Scripting vulnerability in openPetra v.2023.02 allows a remote attacker to obtain sensitive information via the serverMHospitality.asmx function.
@@ -11902,13 +11893,6 @@
 </code>
 
 - [JAckLosingHeart/CVE-2024-51132-POC](https://github.com/JAckLosingHeart/CVE-2024-51132-POC)
-
-### CVE-2024-51144 (2025-03-05)
-
-<code>Cross Site Request Forgery (CSRF) vulnerability exists in the 'pvmsg.php?action=add_message', pvmsg.php?action=confirm_delete , and ajax.server.php?page=user&amp;action=flip_follow endpoints in Ampache &lt;= 6.6.0.
-</code>
-
-- [nitipoom-jar/CVE-2024-51144](https://github.com/nitipoom-jar/CVE-2024-51144)
 
 ### CVE-2024-51179 (2024-11-12)
 
@@ -20898,7 +20882,6 @@
 </code>
 
 - [quantiano/cve-2023-47102](https://github.com/quantiano/cve-2023-47102)
-- [nitipoom-jar/CVE-2023-47102](https://github.com/nitipoom-jar/CVE-2023-47102)
 
 ### CVE-2023-47108 (2023-11-10)
 
@@ -20995,20 +20978,6 @@
 
 - [HadessCS/CVE-2023-47464](https://github.com/HadessCS/CVE-2023-47464)
 
-### CVE-2023-47488 (2023-11-09)
-
-<code>Cross Site Scripting vulnerability in Combodo iTop v.3.1.0-2-11973 allows a local attacker to obtain sensitive information via a crafted script to the attrib_manager_id parameter in the General Information page and the id parameter in the contact page.
-</code>
-
-- [nitipoom-jar/CVE-2023-47488](https://github.com/nitipoom-jar/CVE-2023-47488)
-
-### CVE-2023-47489 (2023-11-09)
-
-<code>CSV injection in export as csv in Combodo iTop v.3.1.0-2-11973 allows a local attacker to execute arbitrary code via a crafted script to the export-v2.php and ajax.render.php components.
-</code>
-
-- [nitipoom-jar/CVE-2023-47489](https://github.com/nitipoom-jar/CVE-2023-47489)
-
 ### CVE-2023-47504 (2024-04-24)
 
 <code>Improper Authentication vulnerability in Elementor Elementor Website Builder allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Elementor Website Builder: from n/a through 3.16.4.\n\n
@@ -21074,27 +21043,6 @@
 - [0x656565/CVE-2023-48022](https://github.com/0x656565/CVE-2023-48022)
 - [jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022](https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022)
 
-### CVE-2023-48028 (2023-11-17)
-
-<code>kodbox 1.46.01 has a security flaw that enables user enumeration. This problem is present on the login page, where an attacker can identify valid users based on varying response messages, potentially paving the way for a brute force attack.
-</code>
-
-- [nitipoom-jar/CVE-2023-48028](https://github.com/nitipoom-jar/CVE-2023-48028)
-
-### CVE-2023-48029 (2023-11-17)
-
-<code>Corebos 8.0 and below is vulnerable to CSV Injection. An attacker with low privileges can inject a malicious command into a table. This vulnerability is exploited when an administrator visits the user management section, exports the data to a CSV file, and then opens it, leading to the execution of the malicious payload on the administrator's computer.
-</code>
-
-- [nitipoom-jar/CVE-2023-48029](https://github.com/nitipoom-jar/CVE-2023-48029)
-
-### CVE-2023-48031 (2023-11-17)
-
-<code>OpenSupports v4.11.0 is vulnerable to Unrestricted Upload of File with Dangerous Type. In the comment function, an attacker can bypass security restrictions and upload a .bat file by manipulating the file's magic bytes to masquerade as an allowed type. This can enable the attacker to execute arbitrary code or establish a reverse shell, leading to unauthorized file writes or control over the victim's station via a crafted file upload operation.
-</code>
-
-- [nitipoom-jar/CVE-2023-48031](https://github.com/nitipoom-jar/CVE-2023-48031)
-
 ### CVE-2023-48034 (2023-11-27)
 
 <code>An issue discovered in Acer Wireless Keyboard SK-9662 allows attacker in physical proximity to both decrypt wireless keystrokes and inject arbitrary keystrokes via use of weak encryption.
@@ -21130,34 +21078,6 @@
 </code>
 
 - [zt20xx/CVE-2023-48194](https://github.com/zt20xx/CVE-2023-48194)
-
-### CVE-2023-48197 (2023-11-15)
-
-<code>Cross-Site Scripting (XSS) vulnerability in the ‘manageApiKeys’ component of Grocy 4.0.3 and earlier allows attackers to obtain victim's cookies when the victim clicks on the &quot;see QR code&quot; function.
-</code>
-
-- [nitipoom-jar/CVE-2023-48197](https://github.com/nitipoom-jar/CVE-2023-48197)
-
-### CVE-2023-48198 (2023-11-15)
-
-<code>A Cross-Site Scripting (XSS) vulnerability in the 'product description' component within '/api/stock/products' of Grocy version &lt;= 4.0.3 allows attackers to obtain a victim's cookies.
-</code>
-
-- [nitipoom-jar/CVE-2023-48198](https://github.com/nitipoom-jar/CVE-2023-48198)
-
-### CVE-2023-48199 (2023-11-15)
-
-<code>HTML Injection vulnerability in the 'manageApiKeys' component in Grocy &lt;= 4.0.3 allows attackers to inject arbitrary HTML content without script execution. This occurs when user-supplied data is not appropriately sanitized, enabling the injection of HTML tags through parameter values. The attacker can then manipulate page content in the QR code detail popup, often coupled with social engineering tactics, exploiting both the trust of users and the application's lack of proper input handling.
-</code>
-
-- [nitipoom-jar/CVE-2023-48199](https://github.com/nitipoom-jar/CVE-2023-48199)
-
-### CVE-2023-48200 (2023-11-15)
-
-<code>Cross Site Scripting vulnerability in Grocy v.4.0.3 allows a local attacker to execute arbitrary code and obtain sensitive information via the equipment description component within /equipment/ component.
-</code>
-
-- [nitipoom-jar/CVE-2023-48200](https://github.com/nitipoom-jar/CVE-2023-48200)
 
 ### CVE-2023-48777 (2024-03-26)
 
@@ -21201,13 +21121,6 @@
 </code>
 
 - [Shumerez/CVE-2023-48858](https://github.com/Shumerez/CVE-2023-48858)
-
-### CVE-2023-48866 (2023-12-04)
-
-<code>A Cross-Site Scripting (XSS) vulnerability in the recipe preparation component within /api/objects/recipes and note component within /api/objects/shopping_lists/ of Grocy &lt;= 4.0.3 allows attackers to obtain the victim's cookies.
-</code>
-
-- [nitipoom-jar/CVE-2023-48866](https://github.com/nitipoom-jar/CVE-2023-48866)
 
 ### CVE-2023-48974 (2024-02-08)
 
@@ -21308,13 +21221,6 @@
 </code>
 
 - [brandon-t-elliott/CVE-2023-49438](https://github.com/brandon-t-elliott/CVE-2023-49438)
-
-### CVE-2023-49453 (2024-03-12)
-
-<code>Reflected cross-site scripting (XSS) vulnerability in Racktables v0.22.0 and before, allows local attackers to execute arbitrary code and obtain sensitive information via the search component in index.php.
-</code>
-
-- [nitipoom-jar/CVE-2023-49453](https://github.com/nitipoom-jar/CVE-2023-49453)
 
 ### CVE-2023-49471 (2024-01-10)
 
