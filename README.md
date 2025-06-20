@@ -577,7 +577,6 @@
 </code>
 
 - [IndominusRexes/CVE-2025-4322-Exploit](https://github.com/IndominusRexes/CVE-2025-4322-Exploit)
-- [maximo896/CVE-2025-4322](https://github.com/maximo896/CVE-2025-4322)
 - [Yucaerin/CVE-2025-4322](https://github.com/Yucaerin/CVE-2025-4322)
 
 ### CVE-2025-4336 (2025-05-24)
@@ -29965,7 +29964,6 @@
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [xcanwin/CVE-2021-4034-UniontechOS](https://github.com/xcanwin/CVE-2021-4034-UniontechOS)
-- [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
@@ -33584,6 +33582,13 @@
 </code>
 
 - [Edgarloyola/CVE-2021-40906](https://github.com/Edgarloyola/CVE-2021-40906)
+
+### CVE-2021-40964 (2021-09-15)
+
+<code>A Path Traversal vulnerability exists in TinyFileManager all version up to and including 2.4.6 that allows attackers to upload a file (with Admin credentials or with the CSRF vulnerability) with the &quot;fullpath&quot; parameter containing path traversal strings (../ and ..\) in order to escape the server's intended working directory and write malicious files onto any directory on the computer.
+</code>
+
+- [Z3R0-0x30/CVE-2021-40964](https://github.com/Z3R0-0x30/CVE-2021-40964)
 
 ### CVE-2021-40978 (2021-10-07)
 
@@ -52713,6 +52718,7 @@
 
 - [Zeppperoni/CVE-2015-1578](https://github.com/Zeppperoni/CVE-2015-1578)
 - [yaldobaoth/CVE-2015-1578-PoC](https://github.com/yaldobaoth/CVE-2015-1578-PoC)
+- [yaldobaoth/CVE-2015-1578-PoC-Metasploit](https://github.com/yaldobaoth/CVE-2015-1578-PoC-Metasploit)
 
 ### CVE-2015-1579 (2015-02-11)
 
@@ -54184,6 +54190,7 @@
 - [zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287)
 - [10cks/CVE-2014-6287](https://github.com/10cks/CVE-2014-6287)
 - [francescobrina/hfs-cve-2014-6287-exploit](https://github.com/francescobrina/hfs-cve-2014-6287-exploit)
+- [Z3R0-0x30/CVE-2014-6287](https://github.com/Z3R0-0x30/CVE-2014-6287)
 
 ### CVE-2014-6332 (2014-11-11)
 
