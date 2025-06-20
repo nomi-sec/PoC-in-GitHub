@@ -859,6 +859,13 @@
 - [toxy4ny/edge-maradeur](https://github.com/toxy4ny/edge-maradeur)
 - [moiz-2x/CVE-2025-21420_POC](https://github.com/moiz-2x/CVE-2025-21420_POC)
 
+### CVE-2025-21479 (2025-06-03)
+
+<code>Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of commands.
+</code>
+
+- [zhuowei/cheese](https://github.com/zhuowei/cheese)
+
 ### CVE-2025-21497 (2025-01-21)
 
 <code>Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB).  Supported versions that are affected are 8.0.40 and prior, 8.4.3 and prior and  9.1.0 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server as well as  unauthorized update, insert or delete access to some of MySQL Server accessible data. CVSS 3.1 Base Score 5.5 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H).
@@ -2370,7 +2377,6 @@
 - [omer-efe-curkus/CVE-2025-32433-Erlang-OTP-SSH-RCE-PoC](https://github.com/omer-efe-curkus/CVE-2025-32433-Erlang-OTP-SSH-RCE-PoC)
 - [0xPThree/cve-2025-32433](https://github.com/0xPThree/cve-2025-32433)
 - [meloppeitreet/CVE-2025-32433-Remote-Shell](https://github.com/meloppeitreet/CVE-2025-32433-Remote-Shell)
-- [tobiasGuta/Erlang-OTP-CVE-2025-32433](https://github.com/tobiasGuta/Erlang-OTP-CVE-2025-32433)
 - [ps-interactive/lab_CVE-2025-32433](https://github.com/ps-interactive/lab_CVE-2025-32433)
 - [0x7556/CVE-2025-32433](https://github.com/0x7556/CVE-2025-32433)
 - [becrevex/CVE-2025-32433](https://github.com/becrevex/CVE-2025-32433)
@@ -2447,7 +2453,7 @@
 
 ### CVE-2025-33053 (2025-06-10)
 
-<code>External control of file name or path in WebDAV allows an unauthorized attacker to execute code over a network.
+<code>External control of file name or path in Internet Shortcut Files allows an unauthorized attacker to execute code over a network.
 </code>
 
 - [DevBuiHieu/CVE-2025-33053-Proof-Of-Concept](https://github.com/DevBuiHieu/CVE-2025-33053-Proof-Of-Concept)
@@ -2471,6 +2477,13 @@
 - [tinkerlev/commvault-cve2025-34028-check](https://github.com/tinkerlev/commvault-cve2025-34028-check)
 - [becrevex/Commvault-CVE-2025-34028](https://github.com/becrevex/Commvault-CVE-2025-34028)
 - [Mattb709/CVE-2025-34028-PoC-Commvault-RCE](https://github.com/Mattb709/CVE-2025-34028-PoC-Commvault-RCE)
+
+### CVE-2025-36041 (2025-06-15)
+
+<code>IBM MQ Operator LTS 2.0.0 through 2.0.29, MQ Operator CD 3.0.0, 3.0.1, 3.1.0 through 3.1.3, 3.3.0, 3.4.0, 3.4.1, 3.5.0, 3.5.1 through 3.5.3, and MQ Operator SC2 3.2.0 through 3.2.12 Native HA CRR could be configured with a private key and chain other than the intended key which could disclose sensitive information or allow the attacker to perform unauthorized actions.
+</code>
+
+- [byteReaper77/CVE-2025-36041](https://github.com/byteReaper77/CVE-2025-36041)
 
 ### CVE-2025-37899 (2025-05-20)
 
@@ -9382,7 +9395,7 @@
 - [sardine-web/CVE-2024-36991](https://github.com/sardine-web/CVE-2024-36991)
 - [Cappricio-Securities/CVE-2024-36991](https://github.com/Cappricio-Securities/CVE-2024-36991)
 - [jaytiwari05/CVE-2024-36991](https://github.com/jaytiwari05/CVE-2024-36991)
-- [TcchSquad/CVE-2024-36991-Tool](https://github.com/TcchSquad/CVE-2024-36991-Tool)
+- [TheStingR/CVE-2024-36991-Tool](https://github.com/TheStingR/CVE-2024-36991-Tool)
 - [gunzf0x/CVE-2024-36991](https://github.com/gunzf0x/CVE-2024-36991)
 
 ### CVE-2024-37010
@@ -41846,6 +41859,7 @@
 
 - [warferik/CVE-2019-3980](https://github.com/warferik/CVE-2019-3980)
 - [Barbarisch/CVE-2019-3980](https://github.com/Barbarisch/CVE-2019-3980)
+- [CyberQuestor-infosec/CVE-2019-3980-Open_Net_Admin_v18.1.1_RCE](https://github.com/CyberQuestor-infosec/CVE-2019-3980-Open_Net_Admin_v18.1.1_RCE)
 
 ### CVE-2019-4650 (2020-06-26)
 
@@ -53598,6 +53612,7 @@
 - [MrE-Fog/CVE-2014-0160-Chrome-Plugin](https://github.com/MrE-Fog/CVE-2014-0160-Chrome-Plugin)
 - [timsonner/cve-2014-0160-heartbleed](https://github.com/timsonner/cve-2014-0160-heartbleed)
 - [yashfren/CVE-2014-0160-HeartBleed](https://github.com/yashfren/CVE-2014-0160-HeartBleed)
+- [Shayhha/HeartbleedAttack](https://github.com/Shayhha/HeartbleedAttack)
 
 ### CVE-2014-0166 (2014-04-09)
 
@@ -55937,6 +55952,7 @@
 - [IamLucif3r/CVE-2007-2447-Exploit](https://github.com/IamLucif3r/CVE-2007-2447-Exploit)
 - [foudadev/CVE-2007-2447](https://github.com/foudadev/CVE-2007-2447)
 - [elphon/CVE-2007-2447-Exploit](https://github.com/elphon/CVE-2007-2447-Exploit)
+- [DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2](https://github.com/DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2)
 
 ### CVE-2007-3280 (2007-06-19)
 
