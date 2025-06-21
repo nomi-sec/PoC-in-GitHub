@@ -29889,6 +29889,7 @@
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [xcanwin/CVE-2021-4034-UniontechOS](https://github.com/xcanwin/CVE-2021-4034-UniontechOS)
+- [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
@@ -31797,13 +31798,6 @@
 </code>
 
 - [atorralba/CVE-2021-30005-POC](https://github.com/atorralba/CVE-2021-30005-POC)
-
-### CVE-2021-30047 (2023-08-22)
-
-<code>VSFTPD 3.0.3 allows attackers to cause a denial of service due to limited number of connections allowed.
-</code>
-
-- [Andreyft7/CVE-2021-30047](https://github.com/Andreyft7/CVE-2021-30047)
 
 ### CVE-2021-30109 (2021-04-05)
 
@@ -42254,7 +42248,6 @@
 - [SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock)
 - [elvi7major/snap_priv_esc](https://github.com/elvi7major/snap_priv_esc)
 - [f4T1H21/dirty_sock](https://github.com/f4T1H21/dirty_sock)
-- [coby-nguyen/Document-Linux-Privilege-Escalation](https://github.com/coby-nguyen/Document-Linux-Privilege-Escalation)
 
 ### CVE-2019-7356 (2020-11-04)
 
