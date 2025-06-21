@@ -2886,13 +2886,6 @@
 - [gregk4sec/CVE-2025-49125](https://github.com/gregk4sec/CVE-2025-49125)
 - [detectrespondrepeat/CVE-2025-49125-Authentication-Bypass](https://github.com/detectrespondrepeat/CVE-2025-49125-Authentication-Bypass)
 
-### CVE-2025-49132 (2025-06-20)
-
-<code>Pterodactyl is a free, open-source game server management panel. Prior to version 1.11.11, using the /locales/locale.json with the locale and namespace query parameters, a malicious actor is able to execute arbitrary code without being authenticated. With the ability to execute arbitrary code it could be used to gain access to the Panel's server, read credentials from the Panel's config, extract sensitive information from the database, access files of servers managed by the panel, etc. This issue has been patched in version 1.11.11. There are no software workarounds for this vulnerability, but use of an external Web Application Firewall (WAF) could help mitigate this attack.
-</code>
-
-- [typicalsmc/CVE-2025-49132-PoC](https://github.com/typicalsmc/CVE-2025-49132-PoC)
-
 ### CVE-2025-49223 (2025-06-04)
 
 <code>billboard.js before 3.15.1 was discovered to contain a prototype pollution via the function generate, which could allow attackers to execute arbitrary code or cause a Denial of Service (DoS) via injecting arbitrary properties.
@@ -29889,7 +29882,6 @@
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [xcanwin/CVE-2021-4034-UniontechOS](https://github.com/xcanwin/CVE-2021-4034-UniontechOS)
-- [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
 - [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
@@ -31798,6 +31790,13 @@
 </code>
 
 - [atorralba/CVE-2021-30005-POC](https://github.com/atorralba/CVE-2021-30005-POC)
+
+### CVE-2021-30047 (2023-08-22)
+
+<code>VSFTPD 3.0.3 allows attackers to cause a denial of service due to limited number of connections allowed.
+</code>
+
+- [Andreyfreis/CVE-2021-30047](https://github.com/Andreyfreis/CVE-2021-30047)
 
 ### CVE-2021-30109 (2021-04-05)
 
@@ -39582,6 +39581,7 @@
 </code>
 
 - [andrei2308/CVE-2020-21365](https://github.com/andrei2308/CVE-2020-21365)
+- [samaellovecraft/CVE-2020-21365](https://github.com/samaellovecraft/CVE-2020-21365)
 
 ### CVE-2020-21378 (2020-12-21)
 
@@ -55088,6 +55088,7 @@
 </code>
 
 - [s3mPr1linux/CVE-2011-0762](https://github.com/s3mPr1linux/CVE-2011-0762)
+- [Andreyfreis/CVE-2011-0762](https://github.com/Andreyfreis/CVE-2011-0762)
 
 ### CVE-2011-1237 (2011-04-13)
 
