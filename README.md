@@ -335,6 +335,7 @@
 - [verylazytech/CVE-2025-2539](https://github.com/verylazytech/CVE-2025-2539)
 - [RootHarpy/CVE-2025-2539](https://github.com/RootHarpy/CVE-2025-2539)
 - [Yucaerin/CVE-2025-2539](https://github.com/Yucaerin/CVE-2025-2539)
+- [d4rkh0rse/CVE-2025-2539](https://github.com/d4rkh0rse/CVE-2025-2539)
 
 ### CVE-2025-2563 (2025-04-14)
 
@@ -733,6 +734,13 @@
 </code>
 
 - [itsShotgun/chrome_cve-2025-5419_checker](https://github.com/itsShotgun/chrome_cve-2025-5419_checker)
+
+### CVE-2025-5640 (2025-06-05)
+
+<code>Es wurde eine Schwachstelle in PX4-Autopilot 1.12.3 ausgemacht. Sie wurde als problematisch eingestuft. Es geht dabei um die Funktion MavlinkReceiver::handle_message_trajectory_representation_waypoints der Datei mavlink_receiver.cpp der Komponente TRAJECTORY_REPRESENTATION_WAYPOINTS Message Handler. Durch die Manipulation mit unbekannten Daten kann eine stack-based buffer overflow-Schwachstelle ausgenutzt werden. Der Angriff muss lokal erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [mbanyamer/PX4-Military-UAV-Autopilot-1.12.3-Stack-Buffer-Overflow-Exploit-CVE-2025-5640-](https://github.com/mbanyamer/PX4-Military-UAV-Autopilot-1.12.3-Stack-Buffer-Overflow-Exploit-CVE-2025-5640-)
 
 ### CVE-2025-5701 (2025-06-05)
 
@@ -29894,7 +29902,6 @@
 - [deoxykev/CVE-2021-4034-Rust](https://github.com/deoxykev/CVE-2021-4034-Rust)
 - [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
 - [EstamelGG/CVE-2021-4034-NoGCC](https://github.com/EstamelGG/CVE-2021-4034-NoGCC)
-- [pengalaman-1t/CVE-2021-4034](https://github.com/pengalaman-1t/CVE-2021-4034)
 - [NeonWhiteRabbit/CVE-2021-4034-BASH-One-File-Exploit](https://github.com/NeonWhiteRabbit/CVE-2021-4034-BASH-One-File-Exploit)
 - [jpmcb/pwnkit-go](https://github.com/jpmcb/pwnkit-go)
 - [JoyGhoshs/CVE-2021-4034](https://github.com/JoyGhoshs/CVE-2021-4034)
@@ -34981,6 +34988,7 @@
 - [khaidtraivch/CVE-2021-44228-Log4Shell-](https://github.com/khaidtraivch/CVE-2021-44228-Log4Shell-)
 - [Fauzan-Aldi/Log4j-_Vulnerability](https://github.com/Fauzan-Aldi/Log4j-_Vulnerability)
 - [SerpilRivas/log4shell-homework9](https://github.com/SerpilRivas/log4shell-homework9)
+- [x1ongsec/CVE-2021-44228-Log4j-JNDI](https://github.com/x1ongsec/CVE-2021-44228-Log4j-JNDI)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -50454,6 +50462,7 @@
 - [xiaokp7/Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP)
 - [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro)
 - [wudidwo/CVE-2017-12615-poc](https://github.com/wudidwo/CVE-2017-12615-poc)
+- [edyekomu/CVE-2017-12615-PoC](https://github.com/edyekomu/CVE-2017-12615-PoC)
 
 ### CVE-2017-12617 (2017-10-03)
 
