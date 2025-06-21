@@ -556,6 +556,7 @@
 - [ynsmroztas/CVE-2025-4123-Exploit-Tool-Grafana-](https://github.com/ynsmroztas/CVE-2025-4123-Exploit-Tool-Grafana-)
 - [B1ack4sh/Blackash-CVE-2025-4123](https://github.com/B1ack4sh/Blackash-CVE-2025-4123)
 - [DesDoTvl/CVE-2025-4123grafana](https://github.com/DesDoTvl/CVE-2025-4123grafana)
+- [punitdarji/Grafana-cve-2025-4123](https://github.com/punitdarji/Grafana-cve-2025-4123)
 
 ### CVE-2025-4190 (2025-05-17)
 
@@ -1276,6 +1277,7 @@
 - [fatkz/CVE-2025-24813](https://github.com/fatkz/CVE-2025-24813)
 - [maliqto/PoC-CVE-2025-24813](https://github.com/maliqto/PoC-CVE-2025-24813)
 - [mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-](https://github.com/mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-)
+- [x1ongsec/CVE-2025-24813](https://github.com/x1ongsec/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -10342,6 +10344,7 @@
 </code>
 
 - [Dxsk/CVE-2024-41817-poc](https://github.com/Dxsk/CVE-2024-41817-poc)
+- [maikneysm/AutoPwn-Titanic.htb](https://github.com/maikneysm/AutoPwn-Titanic.htb)
 
 ### CVE-2024-41958 (2024-08-05)
 
@@ -11442,7 +11445,7 @@
 - [DeividasTerechovas/SOC335-CVE-2024-49138-Exploitation-Detected](https://github.com/DeividasTerechovas/SOC335-CVE-2024-49138-Exploitation-Detected)
 - [CyprianAtsyor/letsdefend-cve-2024-49138-investigation](https://github.com/CyprianAtsyor/letsdefend-cve-2024-49138-investigation)
 - [Glitch-ao/SOC335-CVE-2024-49138-Exploitation-Detected](https://github.com/Glitch-ao/SOC335-CVE-2024-49138-Exploitation-Detected)
-- [Humbug52542/DLang-file-encryptor](https://github.com/Humbug52542/DLang-file-encryptor)
+- [1rhino2/DLang-file-encryptor](https://github.com/1rhino2/DLang-file-encryptor)
 - [onixgod/SOC335-Event-ID-313-CVE-2024-49138-Exploitation-Detected--Lest-Defend-Writeup](https://github.com/onixgod/SOC335-Event-ID-313-CVE-2024-49138-Exploitation-Detected--Lest-Defend-Writeup)
 
 ### CVE-2024-49203 (2024-11-20)
@@ -15728,6 +15731,7 @@
 </code>
 
 - [IDUZZEL/CVE-2023-24249-Exploit](https://github.com/IDUZZEL/CVE-2023-24249-Exploit)
+- [ldb33/CVE-2023-24249-PoC](https://github.com/ldb33/CVE-2023-24249-PoC)
 
 ### CVE-2023-24278 (2023-03-18)
 
