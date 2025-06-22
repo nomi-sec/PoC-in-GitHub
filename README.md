@@ -3724,6 +3724,7 @@
 - [laxmikumari615/Linux---Security---Detect-and-Mitigate-CVE-2024-3094](https://github.com/laxmikumari615/Linux---Security---Detect-and-Mitigate-CVE-2024-3094)
 - [valeriot30/cve-2024-3094](https://github.com/valeriot30/cve-2024-3094)
 - [24Owais/threat-intel-cve-2024-3094](https://github.com/24Owais/threat-intel-cve-2024-3094)
+- [Dermot-lab/TryHack](https://github.com/Dermot-lab/TryHack)
 
 ### CVE-2024-3105 (2024-06-15)
 
