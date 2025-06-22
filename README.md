@@ -197,6 +197,13 @@
 
 - [neverendingsupport/nes-vuetify-cve-2025-1461](https://github.com/neverendingsupport/nes-vuetify-cve-2025-1461)
 
+### CVE-2025-1562 (2025-06-18)
+
+<code>The Recover WooCommerce Cart Abandonment, Newsletter, Email Marketing, Marketing Automation By FunnelKit plugin for WordPress is vulnerable to unauthorized arbitrary plugin installation due to a missing capability check on the install_or_activate_addon_plugins() function and a weak nonce hash in all versions up to, and including, 3.5.3. This makes it possible for unauthenticated attackers to install arbitrary plugins on the site that can be leveraged to further infect a vulnerable site.
+</code>
+
+- [maximo896/CVE-2025-1562](https://github.com/maximo896/CVE-2025-1562)
+
 ### CVE-2025-1639 (2025-03-04)
 
 <code>The Animation Addons for Elementor Pro plugin for WordPress is vulnerable to unauthorized arbitrary plugin installation due to a missing capability check on the install_elementor_plugin_handler() function in all versions up to, and including, 1.6. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install and activate arbitrary plugins which can be leveraged to further infect a victim when Elementor is not activated on a vulnerable site.
@@ -2129,6 +2136,13 @@
 </code>
 
 - [encrypter15/CVE-2025-30400](https://github.com/encrypter15/CVE-2025-30400)
+
+### CVE-2025-30401 (2025-04-05)
+
+<code>A spoofing issue in WhatsApp for Windows prior to version 2.2450.6 displayed attachments according to their MIME type but selected the file opening handler based on the attachment’s filename extension. A maliciously crafted mismatch could have caused the recipient to inadvertently execute arbitrary code rather than view the attachment when manually opening the attachment inside WhatsApp. We have not seen evidence of exploitation in the wild.
+</code>
+
+- [allinsthon/CVE-2025-30401](https://github.com/allinsthon/CVE-2025-30401)
 
 ### CVE-2025-30406 (2025-04-03)
 
@@ -27336,13 +27350,6 @@
 
 - [whitej3rry/CVE-2022-40490](https://github.com/whitej3rry/CVE-2022-40490)
 
-### CVE-2022-40494 (2022-10-06)
-
-<code>NPS before v0.26.10 was discovered to contain an authentication bypass vulnerability via constantly generating and sending the Auth key and Timestamp parameters.
-</code>
-
-- [carr0t2/nps-auth-bypass](https://github.com/carr0t2/nps-auth-bypass)
-
 ### CVE-2022-40624 (2022-12-20)
 
 <code>pfSense pfBlockerNG through 2.1.4_27 allows remote attackers to execute arbitrary OS commands as root via the HTTP Host header, a different vulnerability than CVE-2022-31814.
@@ -46799,6 +46806,13 @@
 </code>
 
 - [tiran/CVE-2018-8970](https://github.com/tiran/CVE-2018-8970)
+
+### CVE-2018-9035 (2018-04-04)
+
+<code>CSV Injection vulnerability in ExportToCsvUtf8.php of the Contact Form 7 to Database Extension plugin 2.10.32 for WordPress allows remote attackers to inject spreadsheet formulas into CSV files via the contact form.
+</code>
+
+- [HaiNhat-HUST/CVE-2018-9035](https://github.com/HaiNhat-HUST/CVE-2018-9035)
 
 ### CVE-2018-9059 (2018-04-20)
 
