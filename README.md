@@ -489,6 +489,13 @@
 
 - [Yucaerin/CVE-2025-3419](https://github.com/Yucaerin/CVE-2025-3419)
 
+### CVE-2025-3515 (2025-06-17)
+
+<code>The Drag and Drop Multiple File Upload for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file uploads due to insufficient file type validation in all versions up to, and including, 1.3.8.9. This makes it possible for unauthenticated attackers to bypass the plugin's blacklist and upload .phar or other dangerous file types on the affected site's server, which may make remote code execution possible on the servers that are configured to handle .phar files as executable PHP scripts, particularly in default Apache+mod_php configurations where the file extension is not strictly validated before being passed to the PHP interpreter.
+</code>
+
+- [Professor6T9/CVE-2025-3515](https://github.com/Professor6T9/CVE-2025-3515)
+
 ### CVE-2025-3568 (2025-04-14)
 
 <code>In Webkul Krayin CRM bis 2.1.0 wurde eine Schwachstelle gefunden. Sie wurde als problematisch eingestuft. Hierbei betrifft es unbekannten Programmcode der Datei /admin/settings/users/edit/ der Komponente SVG File Handler. Durch Manipulieren mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
@@ -802,6 +809,9 @@
 </code>
 
 - [jujubooom/CVE-2025-6335](https://github.com/jujubooom/CVE-2025-6335)
+
+### CVE-2025-12654
+- [Taowmz/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Taowmz/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -17692,6 +17702,13 @@
 
 - [wushigudan/CVE-2023-33517](https://github.com/wushigudan/CVE-2023-33517)
 
+### CVE-2023-33538 (2023-06-07)
+
+<code>TP-Link TL-WR940N V2/V4, TL-WR841N V8/V10, and TL-WR740N V1/V2 was discovered to contain a command injection vulnerability via the component /userRpm/WlanNetworkRpm .
+</code>
+
+- [explxx/CVE-2023-33538](https://github.com/explxx/CVE-2023-33538)
+
 ### CVE-2023-33580 (2023-06-26)
 
 <code>Phpgurukul Student Study Center Management System V1.0 is vulnerable to Cross Site Scripting (XSS) in the &quot;Admin Name&quot; field on Admin Profile page.
@@ -29930,7 +29947,6 @@
 - [deoxykev/CVE-2021-4034-Rust](https://github.com/deoxykev/CVE-2021-4034-Rust)
 - [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
 - [EstamelGG/CVE-2021-4034-NoGCC](https://github.com/EstamelGG/CVE-2021-4034-NoGCC)
-- [pengalaman-1t/CVE-2021-4034](https://github.com/pengalaman-1t/CVE-2021-4034)
 - [NeonWhiteRabbit/CVE-2021-4034-BASH-One-File-Exploit](https://github.com/NeonWhiteRabbit/CVE-2021-4034-BASH-One-File-Exploit)
 - [jpmcb/pwnkit-go](https://github.com/jpmcb/pwnkit-go)
 - [JoyGhoshs/CVE-2021-4034](https://github.com/JoyGhoshs/CVE-2021-4034)
@@ -30690,6 +30706,13 @@
 </code>
 
 - [Mario-Kart-Felix/A-potential-Denial-of-Service-issue-in-protobuf-java](https://github.com/Mario-Kart-Felix/A-potential-Denial-of-Service-issue-in-protobuf-java)
+
+### CVE-2021-22600 (2022-01-26)
+
+<code>A double free bug in packet_set_ring() in net/packet/af_packet.c can be exploited by a local user through crafted syscalls to escalate privileges or deny service. We recommend upgrading kernel past the effected versions or rebuilding past ec6af094ea28f0f2dda1a6a33b14cd57e36a9755
+</code>
+
+- [sendINUX/CVE-2021-22600__DirtyPagetable](https://github.com/sendINUX/CVE-2021-22600__DirtyPagetable)
 
 ### CVE-2021-22873 (2021-01-21)
 
