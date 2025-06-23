@@ -132,6 +132,7 @@
 - [shacojx/CVE-2025-1094-Exploit](https://github.com/shacojx/CVE-2025-1094-Exploit)
 - [ishwardeepp/CVE-2025-1094-PoC-Postgre-SQLi](https://github.com/ishwardeepp/CVE-2025-1094-PoC-Postgre-SQLi)
 - [aninfosec/CVE-2025-1094](https://github.com/aninfosec/CVE-2025-1094)
+- [B1ack4sh/Blackash-CVE-2025-1094](https://github.com/B1ack4sh/Blackash-CVE-2025-1094)
 
 ### CVE-2025-1097 (2025-03-24)
 
@@ -1645,6 +1646,7 @@
 </code>
 
 - [rxerium/CVE-2025-26466](https://github.com/rxerium/CVE-2025-26466)
+- [mrowkoob/CVE-2025-26466-msf](https://github.com/mrowkoob/CVE-2025-26466-msf)
 
 ### CVE-2025-26529 (2025-02-24)
 
@@ -2673,6 +2675,9 @@
 
 - [xp3s/CVE-2025-45250](https://github.com/xp3s/CVE-2025-45250)
 - [Anike-x/CVE-2025-45250](https://github.com/Anike-x/CVE-2025-45250)
+
+### CVE-2025-45710
+- [partywavesec/CVE-2025-45710](https://github.com/partywavesec/CVE-2025-45710)
 
 ### CVE-2025-45781
 - [ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC](https://github.com/ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC)
@@ -18638,6 +18643,13 @@
 </code>
 
 - [ewilded/CVE-2023-37250-POC](https://github.com/ewilded/CVE-2023-37250-POC)
+
+### CVE-2023-37273 (2023-07-13)
+
+<code>Auto-GPT is an experimental open-source application showcasing the capabilities of the GPT-4 language model. Running Auto-GPT version prior to 0.4.3 by cloning the git repo and executing `docker compose run auto-gpt` in the repo root uses a different docker-compose.yml file from the one suggested in the official docker set up instructions. The docker-compose.yml file located in the repo root mounts itself into the docker container without write protection. This means that if malicious custom python code is executed via the `execute_python_file` and `execute_python_code` commands, it can overwrite the docker-compose.yml file and abuse it to gain control of the host system the next time Auto-GPT is started. The issue has been patched in version 0.4.3.
+</code>
+
+- [gdesantis01/instructions-summarizing](https://github.com/gdesantis01/instructions-summarizing)
 
 ### CVE-2023-37456 (2023-07-12)
 
@@ -36283,6 +36295,7 @@
 - [shubham0d/CVE-2020-1048](https://github.com/shubham0d/CVE-2020-1048)
 - [Ken-Abruzzi/CVE-2020-1048](https://github.com/Ken-Abruzzi/CVE-2020-1048)
 - [Y3A/cve-2020-1048](https://github.com/Y3A/cve-2020-1048)
+- [talsim/printDemon2system](https://github.com/talsim/printDemon2system)
 
 ### CVE-2020-1054 (2020-05-21)
 
@@ -53284,6 +53297,7 @@
 - [dix0nym/CVE-2015-6967](https://github.com/dix0nym/CVE-2015-6967)
 - [FredBrave/CVE-2015-6967](https://github.com/FredBrave/CVE-2015-6967)
 - [3mpir3Albert/HTB_Nibbles](https://github.com/3mpir3Albert/HTB_Nibbles)
+- [cuerv0x/CVE-2015-6967](https://github.com/cuerv0x/CVE-2015-6967)
 
 ### CVE-2015-7214 (2015-12-16)
 
