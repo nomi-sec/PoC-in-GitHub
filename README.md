@@ -482,6 +482,8 @@
 - [B1ack4sh/Blackash-CVE-2025-3248](https://github.com/B1ack4sh/Blackash-CVE-2025-3248)
 - [issamjr/CVE-2025-3248-Scanner](https://github.com/issamjr/CVE-2025-3248-Scanner)
 - [0-d3y/langflow-rce-exploit](https://github.com/0-d3y/langflow-rce-exploit)
+- [dennisec/CVE-2025-3248](https://github.com/dennisec/CVE-2025-3248)
+- [dennisec/Mass-CVE-2025-3248](https://github.com/dennisec/Mass-CVE-2025-3248)
 
 ### CVE-2025-3419 (2025-05-08)
 
@@ -810,9 +812,6 @@
 </code>
 
 - [jujubooom/CVE-2025-6335](https://github.com/jujubooom/CVE-2025-6335)
-
-### CVE-2025-12654
-- [Taowmz/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Taowmz/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -2677,6 +2676,9 @@
 
 ### CVE-2025-45781
 - [ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC](https://github.com/ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC)
+
+### CVE-2025-45960
+- [pracharapol/CVE-2025-45960](https://github.com/pracharapol/CVE-2025-45960)
 
 ### CVE-2025-46041 (2025-06-09)
 
@@ -11496,13 +11498,6 @@
 - [1rhino2/DLang-file-encryptor](https://github.com/1rhino2/DLang-file-encryptor)
 - [onixgod/SOC335-Event-ID-313-CVE-2024-49138-Exploitation-Detected--Lest-Defend-Writeup](https://github.com/onixgod/SOC335-Event-ID-313-CVE-2024-49138-Exploitation-Detected--Lest-Defend-Writeup)
 
-### CVE-2024-49203 (2024-11-20)
-
-<code>Querydsl 5.1.0 and OpenFeign Querydsl 6.8 allows SQL/HQL injection in orderBy in JPAQuery. NOTE: this is disputed by a Querydsl community member because the product is not intended to defend against a developer who uses untrusted input directly in query construction.
-</code>
-
-- [CSIRTTrizna/CVE-2024-49203](https://github.com/CSIRTTrizna/CVE-2024-49203)
-
 ### CVE-2024-49328 (2024-10-20)
 
 <code>Authentication Bypass Using an Alternate Path or Channel vulnerability in Vivek Tamrakar WP REST API FNS allows Authentication Bypass.This issue affects WP REST API FNS: from n/a through 1.0.0.
@@ -19697,7 +19692,6 @@
 </code>
 
 - [WHW0x455/CVE-2023-41992](https://github.com/WHW0x455/CVE-2023-41992)
-- [xcbjky/cve-2023-41992-test](https://github.com/xcbjky/cve-2023-41992-test)
 
 ### CVE-2023-41993 (2023-09-21)
 
@@ -27444,13 +27438,6 @@
 - [XalfiE/Fortigate-Belsen-Leak-Dump-CVE-2022-40684-](https://github.com/XalfiE/Fortigate-Belsen-Leak-Dump-CVE-2022-40684-)
 - [niklasmato/fortileak-01-2025-Be](https://github.com/niklasmato/fortileak-01-2025-Be)
 - [Yami0x777/Belsen_Group-et-exploitation-de-la-CVE-2022-40684](https://github.com/Yami0x777/Belsen_Group-et-exploitation-de-la-CVE-2022-40684)
-
-### CVE-2022-40687 (2022-11-18)
-
-<code>Cross-Site Request Forgery (CSRF) vulnerability in Creative Mail plugin &lt;= 1.5.4 on WordPress.
-</code>
-
-- [williamkhepri/CVE-2022-40687-metasploit-scanner](https://github.com/williamkhepri/CVE-2022-40687-metasploit-scanner)
 
 ### CVE-2022-40769 (2022-09-18)
 
