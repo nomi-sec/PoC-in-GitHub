@@ -481,6 +481,7 @@
 - [zapstiko/CVE-2025-3248](https://github.com/zapstiko/CVE-2025-3248)
 - [B1ack4sh/Blackash-CVE-2025-3248](https://github.com/B1ack4sh/Blackash-CVE-2025-3248)
 - [issamjr/CVE-2025-3248-Scanner](https://github.com/issamjr/CVE-2025-3248-Scanner)
+- [0-d3y/langflow-rce-exploit](https://github.com/0-d3y/langflow-rce-exploit)
 
 ### CVE-2025-3419 (2025-05-08)
 
@@ -2878,9 +2879,6 @@
 
 - [Nxploited/CVE-2025-48129](https://github.com/Nxploited/CVE-2025-48129)
 
-### CVE-2025-48466
-- [shipcod3/CVE-2025-48466](https://github.com/shipcod3/CVE-2025-48466)
-
 ### CVE-2025-48708 (2025-05-23)
 
 <code>gs_lib_ctx_stash_sanitized_arg in base/gslibctx.c in Artifex Ghostscript before 10.05.1 lacks argument sanitization for the # case. A created PDF document includes its password in cleartext.
@@ -2895,6 +2893,13 @@
 
 - [0xgh057r3c0n/CVE-2025-48827](https://github.com/0xgh057r3c0n/CVE-2025-48827)
 - [wiseep/CVE-2025-48827](https://github.com/wiseep/CVE-2025-48827)
+
+### CVE-2025-48976 (2025-06-16)
+
+<code>Allocation of resources for multipart headers with insufficient limits enabled a DoS vulnerability in Apache Commons FileUpload.\n\nThis issue affects Apache Commons FileUpload: from 1.0 before 1.6; from 2.0.0-M1 before 2.0.0-M4.\n\nUsers are recommended to upgrade to versions 1.6 or 2.0.0-M4, which fix the issue.
+</code>
+
+- [nankuo/CVE-2025-48976_CVE-2025-48988](https://github.com/nankuo/CVE-2025-48976_CVE-2025-48988)
 
 ### CVE-2025-48988 (2025-06-16)
 
@@ -2935,6 +2940,7 @@
 </code>
 
 - [Zen-kun04/CVE-2025-49132](https://github.com/Zen-kun04/CVE-2025-49132)
+- [nfoltc/CVE-2025-49132](https://github.com/nfoltc/CVE-2025-49132)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -4183,6 +4189,7 @@
 - [shockingbonu/CVE-2024-4577-PHP-RCE](https://github.com/shockingbonu/CVE-2024-4577-PHP-RCE)
 - [KimJuhyeong95/cve-2024-4577](https://github.com/KimJuhyeong95/cve-2024-4577)
 - [ibrahmsql/CVE-2024-4577](https://github.com/ibrahmsql/CVE-2024-4577)
+- [byteReaper77/CVE-2024-4577](https://github.com/byteReaper77/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
