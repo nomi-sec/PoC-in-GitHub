@@ -2677,6 +2677,9 @@
 - [xp3s/CVE-2025-45250](https://github.com/xp3s/CVE-2025-45250)
 - [Anike-x/CVE-2025-45250](https://github.com/Anike-x/CVE-2025-45250)
 
+### CVE-2025-45466
+- [zgsnj123/CVE-2025-45466](https://github.com/zgsnj123/CVE-2025-45466)
+
 ### CVE-2025-45710
 - [partywavesec/CVE-2025-45710](https://github.com/partywavesec/CVE-2025-45710)
 
@@ -2886,6 +2889,20 @@
 </code>
 
 - [Nxploited/CVE-2025-48129](https://github.com/Nxploited/CVE-2025-48129)
+
+### CVE-2025-48461 (2025-06-24)
+
+<code>Successful exploitation of the vulnerability could allow an unauthenticated attacker to conduct brute force guessing and account takeover as the session cookies are predictable, potentially allowing the attackers to gain root, admin or user access and reset passwords.
+</code>
+
+- [joelczk/CVE-2025-48461](https://github.com/joelczk/CVE-2025-48461)
+
+### CVE-2025-48466 (2025-06-24)
+
+<code>Successful exploitation of the vulnerability could allow an unauthenticated, remote attacker to send Modbus TCP packets to manipulate Digital Outputs, potentially allowing remote control of relay channel which may lead to operational or safety risks.
+</code>
+
+- [shipcod3/CVE-2025-48466](https://github.com/shipcod3/CVE-2025-48466)
 
 ### CVE-2025-48708 (2025-05-23)
 
