@@ -36,6 +36,7 @@
 - [dodiorne/cve-2025-0133](https://github.com/dodiorne/cve-2025-0133)
 - [ynsmroztas/-CVE-2025-0133-GlobalProtect-XSS](https://github.com/ynsmroztas/-CVE-2025-0133-GlobalProtect-XSS)
 - [wiseep/CVE-2025-0133](https://github.com/wiseep/CVE-2025-0133)
+- [INTELEON404/CVE-2025-0133](https://github.com/INTELEON404/CVE-2025-0133)
 
 ### CVE-2025-0282 (2025-01-08)
 
@@ -2679,6 +2680,9 @@
 
 ### CVE-2025-45466
 - [zgsnj123/CVE-2025-45466](https://github.com/zgsnj123/CVE-2025-45466)
+
+### CVE-2025-45467
+- [zgsnj123/CVE-2025-45467](https://github.com/zgsnj123/CVE-2025-45467)
 
 ### CVE-2025-45710
 - [partywavesec/CVE-2025-45710](https://github.com/partywavesec/CVE-2025-45710)
@@ -24742,6 +24746,13 @@
 </code>
 
 - [SpiralBL0CK/CVE-2024-40431-CVE-2022-25479-EOP-CHAIN](https://github.com/SpiralBL0CK/CVE-2024-40431-CVE-2022-25479-EOP-CHAIN)
+
+### CVE-2022-25581 (2022-03-18)
+
+<code>Classcms v2.5 and below contains an arbitrary file upload via the component \class\classupload. This vulnerability allows attackers to execute code injection via a crafted .txt file.
+</code>
+
+- [wooluo/CVE-2022-25581](https://github.com/wooluo/CVE-2022-25581)
 
 ### CVE-2022-25636 (2022-02-22)
 
