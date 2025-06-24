@@ -235,6 +235,13 @@
 
 - [shybu9/poc_CVE-2025-1716](https://github.com/shybu9/poc_CVE-2025-1716)
 
+### CVE-2025-1718 (2025-06-24)
+
+<code>An authenticated user with file access privilege via FTP access can cause the Relion 670/650 and SAM600-IO series device to reboot due to improper disk space management.
+</code>
+
+- [issamjr/CVE-2025-1718-Scanner](https://github.com/issamjr/CVE-2025-1718-Scanner)
+
 ### CVE-2025-1793 (2025-06-05)
 
 <code>Multiple vector store integrations in run-llama/llama_index version v0.12.21 have SQL injection vulnerabilities. These vulnerabilities allow an attacker to read and write data using SQL, potentially leading to unauthorized access to data of other users depending on the usage of the llama-index library in a web application.
@@ -744,6 +751,13 @@
 </code>
 
 - [Nxploited/CVE-2025-5288](https://github.com/Nxploited/CVE-2025-5288)
+
+### CVE-2025-5309 (2025-06-16)
+
+<code>The chat feature within Remote Support (RS) and Privileged Remote Access (PRA) is vulnerable to a Server-Side Template Injection vulnerability which can lead to remote code execution.
+</code>
+
+- [issamjr/CVE-2025-5309-Scanner](https://github.com/issamjr/CVE-2025-5309-Scanner)
 
 ### CVE-2025-5319
 - [sahici/CVE-2025-5319](https://github.com/sahici/CVE-2025-5319)
@@ -2971,6 +2985,13 @@
 - [Zen-kun04/CVE-2025-49132](https://github.com/Zen-kun04/CVE-2025-49132)
 - [nfoltc/CVE-2025-49132](https://github.com/nfoltc/CVE-2025-49132)
 - [qiaojojo/CVE-2025-49132_poc](https://github.com/qiaojojo/CVE-2025-49132_poc)
+
+### CVE-2025-49144 (2025-06-23)
+
+<code>Notepad++ is a free and open-source source code editor. In versions 8.8.1 and prior, a privilege escalation vulnerability exists in the Notepad++ v8.8.1 installer that allows unprivileged users to gain SYSTEM-level privileges through insecure executable search paths. An attacker could use social engineering or clickjacking to trick users into downloading both the legitimate installer and a malicious executable to the same directory (typically Downloads folder - which is known as Vulnerable directory). Upon running the installer, the attack executes automatically with SYSTEM privileges. This issue has been fixed and will be released in version 8.8.2.
+</code>
+
+- [Vr00mm/CVE-2025-49144](https://github.com/Vr00mm/CVE-2025-49144)
 
 ### CVE-2025-49223 (2025-06-04)
 
