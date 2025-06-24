@@ -600,6 +600,7 @@
 
 - [IndominusRexes/CVE-2025-4322-Exploit](https://github.com/IndominusRexes/CVE-2025-4322-Exploit)
 - [Yucaerin/CVE-2025-4322](https://github.com/Yucaerin/CVE-2025-4322)
+- [B1ack4sh/Blackash-CVE-2025-4322](https://github.com/B1ack4sh/Blackash-CVE-2025-4322)
 
 ### CVE-2025-4336 (2025-05-24)
 
@@ -2948,6 +2949,7 @@
 
 - [Zen-kun04/CVE-2025-49132](https://github.com/Zen-kun04/CVE-2025-49132)
 - [nfoltc/CVE-2025-49132](https://github.com/nfoltc/CVE-2025-49132)
+- [qiaojojo/CVE-2025-49132_poc](https://github.com/qiaojojo/CVE-2025-49132_poc)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -17715,6 +17717,7 @@
 </code>
 
 - [explxx/CVE-2023-33538](https://github.com/explxx/CVE-2023-33538)
+- [mrowkoob/CVE-2023-33538-msf](https://github.com/mrowkoob/CVE-2023-33538-msf)
 
 ### CVE-2023-33580 (2023-06-26)
 
@@ -29955,7 +29958,6 @@
 - [EstamelGG/CVE-2021-4034-NoGCC](https://github.com/EstamelGG/CVE-2021-4034-NoGCC)
 - [NeonWhiteRabbit/CVE-2021-4034-BASH-One-File-Exploit](https://github.com/NeonWhiteRabbit/CVE-2021-4034-BASH-One-File-Exploit)
 - [jpmcb/pwnkit-go](https://github.com/jpmcb/pwnkit-go)
-- [JoyGhoshs/CVE-2021-4034](https://github.com/JoyGhoshs/CVE-2021-4034)
 - [galoget/PwnKit-CVE-2021-4034](https://github.com/galoget/PwnKit-CVE-2021-4034)
 - [Yakumwamba/POC-CVE-2021-4034](https://github.com/Yakumwamba/POC-CVE-2021-4034)
 - [ayoub-elbouzi/CVE-2021-4034-Pwnkit](https://github.com/ayoub-elbouzi/CVE-2021-4034-Pwnkit)
@@ -32083,6 +32085,7 @@
 - [ttps-byte/cve-2021-31630](https://github.com/ttps-byte/cve-2021-31630)
 - [manuelsantosiglesias/CVE-2021-31630](https://github.com/manuelsantosiglesias/CVE-2021-31630)
 - [FlojBoj/CVE-2021-31630](https://github.com/FlojBoj/CVE-2021-31630)
+- [machevalia/OpenPLC-CVE-2021-31630-RCE](https://github.com/machevalia/OpenPLC-CVE-2021-31630-RCE)
 
 ### CVE-2021-31728 (2021-05-17)
 
