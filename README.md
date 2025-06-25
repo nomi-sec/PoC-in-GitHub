@@ -2985,6 +2985,7 @@
 - [Zen-kun04/CVE-2025-49132](https://github.com/Zen-kun04/CVE-2025-49132)
 - [nfoltc/CVE-2025-49132](https://github.com/nfoltc/CVE-2025-49132)
 - [qiaojojo/CVE-2025-49132_poc](https://github.com/qiaojojo/CVE-2025-49132_poc)
+- [63square/CVE-2025-49132](https://github.com/63square/CVE-2025-49132)
 
 ### CVE-2025-49144 (2025-06-23)
 
@@ -3018,27 +3019,6 @@
 
 ### CVE-2025-492030
 - [ImTheCopilotNow/CVE-2025-492030](https://github.com/ImTheCopilotNow/CVE-2025-492030)
-
-### CVE-2025-3272025
-- [itssixtyn3in/CVE-2025-3272025](https://github.com/itssixtyn3in/CVE-2025-3272025)
-
-### CVE-2025-3282025
-- [itssixtyn3in/CVE-2025-3282025](https://github.com/itssixtyn3in/CVE-2025-3282025)
-
-### CVE-2025-3292025
-- [itssixtyn3in/CVE-2025-3292025](https://github.com/itssixtyn3in/CVE-2025-3292025)
-
-### CVE-2025-3292026
-- [itssixtyn3in/CVE-2025-3292026](https://github.com/itssixtyn3in/CVE-2025-3292026)
-
-### CVE-2025-3292027
-- [itssixtyn3in/CVE-2025-3292027](https://github.com/itssixtyn3in/CVE-2025-3292027)
-
-### CVE-2025-3292028
-- [itssixtyn3in/CVE-2025-3292028](https://github.com/itssixtyn3in/CVE-2025-3292028)
-
-### CVE-2025-3292029
-- [itssixtyn3in/CVE-2025-3292029](https://github.com/itssixtyn3in/CVE-2025-3292029)
 
 ### CVE-2025-4102025
 - [ImTheCopilotNow/CVE-2025-4102025](https://github.com/ImTheCopilotNow/CVE-2025-4102025)
@@ -22417,6 +22397,13 @@
 </code>
 
 - [LouisLiuNova/CVE-2022-1227_Exploit](https://github.com/LouisLiuNova/CVE-2022-1227_Exploit)
+
+### CVE-2022-1257 (2022-04-14)
+
+<code>Insecure storage of sensitive information vulnerability in MA for Linux, macOS, and Windows prior to 5.7.6 allows a local user to gain access to sensitive information through storage in ma.db. The sensitive information has been moved to encrypted database files.
+</code>
+
+- [kayes817/CVE-2022-1257](https://github.com/kayes817/CVE-2022-1257)
 
 ### CVE-2022-1292 (2022-05-03)
 
@@ -47812,6 +47799,7 @@
 - [OmarV4066/SSHEnumKL](https://github.com/OmarV4066/SSHEnumKL)
 - [0xNehru/ssh_Enum_vaild](https://github.com/0xNehru/ssh_Enum_vaild)
 - [moften/cve-2018-15473-poc](https://github.com/moften/cve-2018-15473-poc)
+- [makmour/open-ssh-user-enumeration](https://github.com/makmour/open-ssh-user-enumeration)
 
 ### CVE-2018-15499 (2018-08-24)
 
