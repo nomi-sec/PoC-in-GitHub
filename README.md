@@ -493,6 +493,7 @@
 - [0-d3y/langflow-rce-exploit](https://github.com/0-d3y/langflow-rce-exploit)
 - [dennisec/CVE-2025-3248](https://github.com/dennisec/CVE-2025-3248)
 - [dennisec/Mass-CVE-2025-3248](https://github.com/dennisec/Mass-CVE-2025-3248)
+- [ill-deed/Langflow-CVE-2025-3248-Multi-target](https://github.com/ill-deed/Langflow-CVE-2025-3248-Multi-target)
 
 ### CVE-2025-3419 (2025-05-08)
 
@@ -20903,6 +20904,7 @@
 - [rvizx/CVE-2023-46818](https://github.com/rvizx/CVE-2023-46818)
 - [engranaabubakar/CVE-2023-46818](https://github.com/engranaabubakar/CVE-2023-46818)
 - [z7Akane/CVE-2023-46818](https://github.com/z7Akane/CVE-2023-46818)
+- [SyFi/CVE-2023-46818](https://github.com/SyFi/CVE-2023-46818)
 
 ### CVE-2023-46865 (2023-10-30)
 
@@ -42353,6 +42355,7 @@
 - [SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock)
 - [elvi7major/snap_priv_esc](https://github.com/elvi7major/snap_priv_esc)
 - [f4T1H21/dirty_sock](https://github.com/f4T1H21/dirty_sock)
+- [coby-nguyen/Document-Linux-Privilege-Escalation](https://github.com/coby-nguyen/Document-Linux-Privilege-Escalation)
 
 ### CVE-2019-7356 (2020-11-04)
 
@@ -45477,6 +45480,7 @@
 - [webr0ck/poc-cve-2018-1273](https://github.com/webr0ck/poc-cve-2018-1273)
 - [cved-sources/cve-2018-1273](https://github.com/cved-sources/cve-2018-1273)
 - [jas502n/cve-2018-1273](https://github.com/jas502n/cve-2018-1273)
+- [hdgokani/CVE-2018-1273](https://github.com/hdgokani/CVE-2018-1273)
 
 ### CVE-2018-1285 (2020-05-11)
 
