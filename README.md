@@ -2685,6 +2685,9 @@
 ### CVE-2025-44603
 - [Moulish2004/CVE-2025-44603-CSRF-Leads_to_Create_FakeUsers](https://github.com/Moulish2004/CVE-2025-44603-CSRF-Leads_to_Create_FakeUsers)
 
+### CVE-2025-44608
+- [mr-xmen786/CVE-2025-44608](https://github.com/mr-xmen786/CVE-2025-44608)
+
 ### CVE-2025-44998 (2025-05-23)
 
 <code>A stored cross-site scripting (XSS) vulnerability in the component /tinyfilemanager.php of TinyFileManager v2.4.7 allows attackers to execute arbitrary JavaScript or HTML via injecting a crafted payload into the js-theme-3 parameter.
@@ -2994,6 +2997,7 @@
 - [nfoltc/CVE-2025-49132](https://github.com/nfoltc/CVE-2025-49132)
 - [qiaojojo/CVE-2025-49132_poc](https://github.com/qiaojojo/CVE-2025-49132_poc)
 - [63square/CVE-2025-49132](https://github.com/63square/CVE-2025-49132)
+- [melonlonmeo/CVE-2025-49132](https://github.com/melonlonmeo/CVE-2025-49132)
 
 ### CVE-2025-49144 (2025-06-23)
 
@@ -3018,6 +3022,9 @@
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
+
+### CVE-2025-51046
+- [0xMesh-X/CVE-2025-51046](https://github.com/0xMesh-X/CVE-2025-51046)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
@@ -22291,6 +22298,7 @@
 - [Bonfee/CVE-2022-0995](https://github.com/Bonfee/CVE-2022-0995)
 - [AndreevSemen/CVE-2022-0995](https://github.com/AndreevSemen/CVE-2022-0995)
 - [1nzag/CVE-2022-0995](https://github.com/1nzag/CVE-2022-0995)
+- [A1b2rt/cve-2022-0995](https://github.com/A1b2rt/cve-2022-0995)
 
 ### CVE-2022-0997 (2022-05-17)
 
@@ -32136,7 +32144,7 @@
 - [mind2hex/CVE-2021-31630](https://github.com/mind2hex/CVE-2021-31630)
 - [sealldeveloper/CVE-2021-31630-PoC](https://github.com/sealldeveloper/CVE-2021-31630-PoC)
 - [junnythemarksman/CVE-2021-31630](https://github.com/junnythemarksman/CVE-2021-31630)
-- [ttps-byte/cve-2021-31630](https://github.com/ttps-byte/cve-2021-31630)
+- [adibna/cve-2021-31630](https://github.com/adibna/cve-2021-31630)
 - [manuelsantosiglesias/CVE-2021-31630](https://github.com/manuelsantosiglesias/CVE-2021-31630)
 - [FlojBoj/CVE-2021-31630](https://github.com/FlojBoj/CVE-2021-31630)
 - [machevalia/OpenPLC-CVE-2021-31630-RCE](https://github.com/machevalia/OpenPLC-CVE-2021-31630-RCE)
@@ -48892,6 +48900,7 @@
 - [AtithKhawas/autoblue](https://github.com/AtithKhawas/autoblue)
 - [MedX267/EternalBlue-Vulnerability-Scanner](https://github.com/MedX267/EternalBlue-Vulnerability-Scanner)
 - [pelagornisandersi/WIndows-7-automated-exploitation-using-metasploit-framework-](https://github.com/pelagornisandersi/WIndows-7-automated-exploitation-using-metasploit-framework-)
+- [luckyman2907/SMB-Protocol-Vulnerability_CVE-2017-0144](https://github.com/luckyman2907/SMB-Protocol-Vulnerability_CVE-2017-0144)
 
 ### CVE-2017-0145 (2017-03-17)
 
