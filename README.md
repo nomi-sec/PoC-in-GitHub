@@ -1740,6 +1740,13 @@
 
 - [absholi7ly/CVE-2025-27533-Exploit-for-Apache-ActiveMQ](https://github.com/absholi7ly/CVE-2025-27533-Exploit-for-Apache-ActiveMQ)
 
+### CVE-2025-27558 (2025-05-21)
+
+<code>IEEE P802.11-REVme D1.1 through D7.0 allows FragAttacks against mesh networks. In mesh networks using Wi-Fi Protected Access (WPA, WPA2, or WPA3) or Wired Equivalent Privacy (WEP), an adversary can exploit this vulnerability to inject arbitrary frames towards devices that support receiving non-SSP A-MSDU frames. NOTE: this issue exists because of an incorrect fix for CVE-2020-24588. P802.11-REVme, as of early 2025, is a planned release of the 802.11 standard.
+</code>
+
+- [Atlas-ghostshell/CVE-2025-27558_Patching](https://github.com/Atlas-ghostshell/CVE-2025-27558_Patching)
+
 ### CVE-2025-27580 (2025-04-23)
 
 <code>NIH BRICS (aka Biomedical Research Informatics Computing System) through 14.0.0-67 generates predictable tokens (that depend on username, time, and the fixed 7Dl9#dj- string) and thus allows unauthenticated users with a Common Access Card (CAC) to escalate privileges and compromise any account, including administrators.
@@ -9843,6 +9850,7 @@
 - [masa42/CVE-2024-38819-POC](https://github.com/masa42/CVE-2024-38819-POC)
 - [GhostS3c/CVE-2024-38819](https://github.com/GhostS3c/CVE-2024-38819)
 - [skrkcb2/cve-2024-38819](https://github.com/skrkcb2/cve-2024-38819)
+- [vishalnoza/CVE-2024-38819-POC2](https://github.com/vishalnoza/CVE-2024-38819-POC2)
 
 ### CVE-2024-38821 (2024-10-28)
 
@@ -12062,6 +12070,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-51818](https://github.com/RandomRobbieBF/CVE-2024-51818)
+
+### CVE-2024-51977 (2025-06-25)
+
+<code>An unauthenticated attacker who can access either the HTTP service (TCP port 80), the HTTPS service (TCP port 443), or the IPP service (TCP port 631), can leak several pieces of sensitive information from a vulnerable device. The URI path /etc/mnt_info.csv can be accessed via a GET request and no authentication is required. The returned result is a comma separated value (CSV) table of information. The leaked information includes the device’s model, firmware version, IP address, and serial number.
+</code>
+
+- [sfewer-r7/BrotherVulnerabilities](https://github.com/sfewer-r7/BrotherVulnerabilities)
 
 ### CVE-2024-51996 (2024-11-13)
 
@@ -22686,6 +22701,7 @@
 - [BassamGraini/CVE-2022-2588](https://github.com/BassamGraini/CVE-2022-2588)
 - [veritas501/CVE-2022-2588](https://github.com/veritas501/CVE-2022-2588)
 - [dom4570/CVE-2022-2588](https://github.com/dom4570/CVE-2022-2588)
+- [Igr1s-red/CVE-2022-2588](https://github.com/Igr1s-red/CVE-2022-2588)
 
 ### CVE-2022-2590 (2022-08-31)
 
@@ -42074,6 +42090,7 @@
 - [takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer)
 - [si1ent-le/CVE-2019-5736](https://github.com/si1ent-le/CVE-2019-5736)
 - [sonyavalo/CVE-2019-5736-Dockerattack-and-security-mechanism](https://github.com/sonyavalo/CVE-2019-5736-Dockerattack-and-security-mechanism)
+- [Perimora/cve_2019-5736-PoC](https://github.com/Perimora/cve_2019-5736-PoC)
 
 ### CVE-2019-5737 (2019-03-28)
 
@@ -53745,6 +53762,9 @@
 </code>
 
 - [helpsystems/Embarcadero-Workaround](https://github.com/helpsystems/Embarcadero-Workaround)
+
+### CVE-2014-62
+- [sage954526/HFS_EXPLOIT_PROJECT](https://github.com/sage954526/HFS_EXPLOIT_PROJECT)
 
 ### CVE-2014-160
 - [menrcom/CVE-2014-160](https://github.com/menrcom/CVE-2014-160)
