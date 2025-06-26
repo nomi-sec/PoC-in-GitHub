@@ -4259,7 +4259,6 @@
 - [sug4r-wr41th/CVE-2024-4577](https://github.com/sug4r-wr41th/CVE-2024-4577)
 - [Gill-Singh-A/CVE-2024-4577-Exploit](https://github.com/Gill-Singh-A/CVE-2024-4577-Exploit)
 - [tntrock/CVE-2024-4577_PowerShell](https://github.com/tntrock/CVE-2024-4577_PowerShell)
-- [shockingbonu/CVE-2024-4577-PHP-RCE](https://github.com/shockingbonu/CVE-2024-4577-PHP-RCE)
 - [KimJuhyeong95/cve-2024-4577](https://github.com/KimJuhyeong95/cve-2024-4577)
 - [ibrahmsql/CVE-2024-4577](https://github.com/ibrahmsql/CVE-2024-4577)
 - [byteReaper77/CVE-2024-4577](https://github.com/byteReaper77/CVE-2024-4577)
