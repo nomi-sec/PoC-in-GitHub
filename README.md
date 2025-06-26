@@ -271,6 +271,7 @@
 - [salt318/CVE-2025-1974](https://github.com/salt318/CVE-2025-1974)
 - [abrewer251/CVE-2025-1974_IngressNightmare_PoC](https://github.com/abrewer251/CVE-2025-1974_IngressNightmare_PoC)
 - [Rickerd12/exploit-cve-2025-1974](https://github.com/Rickerd12/exploit-cve-2025-1974)
+- [B1ack4sh/Blackash-CVE-2025-1974](https://github.com/B1ack4sh/Blackash-CVE-2025-1974)
 
 ### CVE-2025-2005 (2025-04-02)
 
@@ -610,6 +611,13 @@
 - [IndominusRexes/CVE-2025-4322-Exploit](https://github.com/IndominusRexes/CVE-2025-4322-Exploit)
 - [Yucaerin/CVE-2025-4322](https://github.com/Yucaerin/CVE-2025-4322)
 - [B1ack4sh/Blackash-CVE-2025-4322](https://github.com/B1ack4sh/Blackash-CVE-2025-4322)
+
+### CVE-2025-4334 (2025-06-26)
+
+<code>The Simple User Registration plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 6.3. This is due to insufficient restrictions on user meta values that can be supplied during registration. This makes it possible for unauthenticated attackers to register as an administrator.
+</code>
+
+- [Nxploited/CVE-2025-4334](https://github.com/Nxploited/CVE-2025-4334)
 
 ### CVE-2025-4336 (2025-05-24)
 
@@ -2051,6 +2059,7 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
+- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -19160,7 +19169,6 @@
 </code>
 
 - [markuta/bw-dump](https://github.com/markuta/bw-dump)
-- [windingacqui/bw-dump](https://github.com/windingacqui/bw-dump)
 
 ### CVE-2023-38890 (2023-08-18)
 
@@ -27334,6 +27342,7 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
+- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -54859,7 +54868,6 @@
 </code>
 
 - [fin3ss3g0d/CosmicRakp](https://github.com/fin3ss3g0d/CosmicRakp)
-- [tallperennial/CosmicRakp](https://github.com/tallperennial/CosmicRakp)
 
 ### CVE-2013-5065 (2013-11-27)
 
