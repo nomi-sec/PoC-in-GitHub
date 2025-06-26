@@ -736,6 +736,13 @@
 
 - [Nouvexr/Wing-FTP-Server-7.4.4-RCE-Authenticated](https://github.com/Nouvexr/Wing-FTP-Server-7.4.4-RCE-Authenticated)
 
+### CVE-2025-5222 (2025-05-27)
+
+<code>A stack buffer overflow was found in Internationl components for unicode (ICU ). While running the genrb binary, the 'subtag' struct overflowed at the SRBRoot::addTag function. This issue may lead to memory corruption and local arbitrary code execution.
+</code>
+
+- [berkley4/icu-74-debian](https://github.com/berkley4/icu-74-debian)
+
 ### CVE-2025-5287 (2025-05-28)
 
 <code>The Likes and Dislikes Plugin plugin for WordPress is vulnerable to SQL Injection via the 'post' parameter in all versions up to, and including, 1.0.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -2152,6 +2159,7 @@
 - [r0ngy40/CVE-2025-30208-Series](https://github.com/r0ngy40/CVE-2025-30208-Series)
 - [nkuty/CVE-2025-30208-31125-31486-32395](https://github.com/nkuty/CVE-2025-30208-31125-31486-32395)
 - [HaGsec/CVE-2025-30208](https://github.com/HaGsec/CVE-2025-30208)
+- [B1ack4sh/Blackash-CVE-2025-30208](https://github.com/B1ack4sh/Blackash-CVE-2025-30208)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -2202,6 +2210,13 @@
 
 - [Oyst3r1ng/CVE-2025-30567](https://github.com/Oyst3r1ng/CVE-2025-30567)
 - [realcodeb0ss/CVE-2025-30567-PoC](https://github.com/realcodeb0ss/CVE-2025-30567-PoC)
+
+### CVE-2025-30712 (2025-04-15)
+
+<code>Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).   The supported version that is affected is 7.1.6. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle VM VirtualBox accessible data as well as  unauthorized access to critical data or complete access to all Oracle VM VirtualBox accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle VM VirtualBox. CVSS 3.1 Base Score 8.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:L).
+</code>
+
+- [jamesb5959/CVE-2025-30712-_PoC](https://github.com/jamesb5959/CVE-2025-30712-_PoC)
 
 ### CVE-2025-30772 (2025-03-27)
 
@@ -2893,6 +2908,7 @@
 </code>
 
 - [Yucaerin/CVE-2025-47577](https://github.com/Yucaerin/CVE-2025-47577)
+- [sug4r-wr41th/CVE-2025-47577](https://github.com/sug4r-wr41th/CVE-2025-47577)
 
 ### CVE-2025-47646 (2025-05-23)
 
@@ -2933,6 +2949,9 @@
 
 - [shipcod3/CVE-2025-48466](https://github.com/shipcod3/CVE-2025-48466)
 
+### CVE-2025-48703
+- [trh4ckn0n/CVE-2025-48703](https://github.com/trh4ckn0n/CVE-2025-48703)
+
 ### CVE-2025-48708 (2025-05-23)
 
 <code>gs_lib_ctx_stash_sanitized_arg in base/gslibctx.c in Artifex Ghostscript before 10.05.1 lacks argument sanitization for the # case. A created PDF document includes its password in cleartext.
@@ -2947,6 +2966,13 @@
 
 - [0xgh057r3c0n/CVE-2025-48827](https://github.com/0xgh057r3c0n/CVE-2025-48827)
 - [wiseep/CVE-2025-48827](https://github.com/wiseep/CVE-2025-48827)
+
+### CVE-2025-48828 (2025-05-27)
+
+<code>Certain vBulletin versions might allow attackers to execute arbitrary PHP code by abusing Template Conditionals in the template engine. By crafting template code in an alternative PHP function invocation syntax, such as the &quot;var_dump&quot;(&quot;test&quot;) syntax, attackers can bypass security checks and execute arbitrary PHP code, as exploited in the wild in May 2025.
+</code>
+
+- [ill-deed/vBulletin-CVE-2025-48828-Multi-target](https://github.com/ill-deed/vBulletin-CVE-2025-48828-Multi-target)
 
 ### CVE-2025-48976 (2025-06-16)
 
@@ -3005,6 +3031,7 @@
 </code>
 
 - [Vr00mm/CVE-2025-49144](https://github.com/Vr00mm/CVE-2025-49144)
+- [TheTorjanCaptain/CVE-2025-49144_PoC](https://github.com/TheTorjanCaptain/CVE-2025-49144_PoC)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -5655,6 +5682,7 @@
 - [MaleeshaUdan/wordpress-CVE-2024-10924--exploit](https://github.com/MaleeshaUdan/wordpress-CVE-2024-10924--exploit)
 - [sharafu-sblsec/CVE-2024-10924](https://github.com/sharafu-sblsec/CVE-2024-10924)
 - [OliveiraaX/-CVE-2024-10924](https://github.com/OliveiraaX/-CVE-2024-10924)
+- [ademto/wordpress-cve-2024-10924-pentest](https://github.com/ademto/wordpress-cve-2024-10924-pentest)
 
 ### CVE-2024-10930 (2025-03-04)
 
@@ -10731,6 +10759,7 @@
 </code>
 
 - [p33d/CVE-2024-43917](https://github.com/p33d/CVE-2024-43917)
+- [sug4r-wr41th/CVE-2024-43917](https://github.com/sug4r-wr41th/CVE-2024-43917)
 
 ### CVE-2024-43918 (2024-08-29)
 
@@ -52009,6 +52038,7 @@
 - [ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195)
 - [LiEnby/PSSRoot](https://github.com/LiEnby/PSSRoot)
 - [0x3n19m4/CVE-2016-5195](https://github.com/0x3n19m4/CVE-2016-5195)
+- [Samuel-G3/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow](https://github.com/Samuel-G3/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow)
 
 ### CVE-2016-5345 (2018-01-23)
 
