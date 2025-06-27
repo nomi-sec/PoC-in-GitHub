@@ -832,6 +832,13 @@
 - [guinea-offensive-security/CVE-2025-6019](https://github.com/guinea-offensive-security/CVE-2025-6019)
 - [And-oss/CVE-2025-6019-exploit](https://github.com/And-oss/CVE-2025-6019-exploit)
 
+### CVE-2025-6218 (2025-06-21)
+
+<code>RARLAB WinRAR Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of RARLAB WinRAR. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the handling of file paths within archive files. A crafted file path can cause the process to traverse to unintended directories. An attacker can leverage this vulnerability to execute code in the context of the current user. Was ZDI-CAN-27198.
+</code>
+
+- [speinador/CVE-2025-6218_WinRAR](https://github.com/speinador/CVE-2025-6218_WinRAR)
+
 ### CVE-2025-6220 (2025-06-18)
 
 <code>The Ultra Addons for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'save_options' function in all versions up to, and including, 3.5.12. This makes it possible for authenticated attackers, with Administrator-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -3049,6 +3056,7 @@
 - [Vr00mm/CVE-2025-49144](https://github.com/Vr00mm/CVE-2025-49144)
 - [TheTorjanCaptain/CVE-2025-49144_PoC](https://github.com/TheTorjanCaptain/CVE-2025-49144_PoC)
 - [assad12341/notepad-v8.8.1-LPE-CVE-](https://github.com/assad12341/notepad-v8.8.1-LPE-CVE-)
+- [tristanvandermeer/CVE-2025-49144-Test](https://github.com/tristanvandermeer/CVE-2025-49144-Test)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -14435,6 +14443,13 @@
 </code>
 
 - [rockrid3r/CVE-2023-5178](https://github.com/rockrid3r/CVE-2023-5178)
+
+### CVE-2023-5180 (2023-12-26)
+
+<code>An issue was discovered in Open Design Alliance\nDrawings SDK before 2024.12. A corrupted value of number\nof sectors used by the Fat structure in a crafted DGN file leads to an\nout-of-bounds write. An attacker can leverage this vulnerability to execute\ncode in the context of the current process.
+</code>
+
+- [superswan/HeimShell](https://github.com/superswan/HeimShell)
 
 ### CVE-2023-5204 (2023-10-19)
 
