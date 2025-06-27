@@ -2182,6 +2182,7 @@
 - [nkuty/CVE-2025-30208-31125-31486-32395](https://github.com/nkuty/CVE-2025-30208-31125-31486-32395)
 - [HaGsec/CVE-2025-30208](https://github.com/HaGsec/CVE-2025-30208)
 - [B1ack4sh/Blackash-CVE-2025-30208](https://github.com/B1ack4sh/Blackash-CVE-2025-30208)
+- [ThemeHackers/CVE-2025-30208](https://github.com/ThemeHackers/CVE-2025-30208)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -23324,7 +23325,7 @@
 
 - [Audiobahn/CVE-2022-20699](https://github.com/Audiobahn/CVE-2022-20699)
 - [puckiestyle/CVE-2022-20699](https://github.com/puckiestyle/CVE-2022-20699)
-- [rohan-flutterint/CVE-2022-20699](https://github.com/rohan-flutterint/CVE-2022-20699)
+- [rohankumardubey/CVE-2022-20699](https://github.com/rohankumardubey/CVE-2022-20699)
 
 ### CVE-2022-20818 (2022-09-30)
 
@@ -35025,7 +35026,7 @@
 - [obscuritylabs/log4shell-poc-lab](https://github.com/obscuritylabs/log4shell-poc-lab)
 - [Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228](https://github.com/Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228)
 - [Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE](https://github.com/Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE)
-- [rohan-flutterint/CVE-2021-44228_scanner](https://github.com/rohan-flutterint/CVE-2021-44228_scanner)
+- [rohankumardubey/CVE-2021-44228_scanner](https://github.com/rohankumardubey/CVE-2021-44228_scanner)
 - [sysadmin0815/Fix-Log4j-PowershellScript](https://github.com/sysadmin0815/Fix-Log4j-PowershellScript)
 - [RenYuH/log4j-lookups-vulnerability](https://github.com/RenYuH/log4j-lookups-vulnerability)
 - [scheibling/py-log4shellscanner](https://github.com/scheibling/py-log4shellscanner)
@@ -37335,6 +37336,7 @@
 </code>
 
 - [ruthvikvegunta/openCRX-CVE-2020-7378](https://github.com/ruthvikvegunta/openCRX-CVE-2020-7378)
+- [loganpkinfosec/CVE-2020-7378](https://github.com/loganpkinfosec/CVE-2020-7378)
 
 ### CVE-2020-7384 (2020-10-29)
 
@@ -55681,6 +55683,13 @@
 </code>
 
 - [thomascannon/android-cve-2010-4804](https://github.com/thomascannon/android-cve-2010-4804)
+
+### CVE-2010-5195 (2012-09-06)
+
+<code>Untrusted search path vulnerability in Roxio MyDVD 9 allows local users to gain privileges via a Trojan horse HomeUtils9.dll file in the current working directory, as demonstrated by a directory that contains a .dmsd or .dmsm file.  NOTE: some of these details are obtained from third party information.
+</code>
+
+- [CristinaPravata/dirtycaw-projet](https://github.com/CristinaPravata/dirtycaw-projet)
 
 ### CVE-2010-5230 (2012-09-07)
 
