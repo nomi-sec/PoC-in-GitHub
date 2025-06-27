@@ -204,7 +204,7 @@
 <code>The Recover WooCommerce Cart Abandonment, Newsletter, Email Marketing, Marketing Automation By FunnelKit plugin for WordPress is vulnerable to unauthorized arbitrary plugin installation due to a missing capability check on the install_or_activate_addon_plugins() function and a weak nonce hash in all versions up to, and including, 3.5.3. This makes it possible for unauthenticated attackers to install arbitrary plugins on the site that can be leveraged to further infect a vulnerable site.
 </code>
 
-- [maximo896/CVE-2025-1562](https://github.com/maximo896/CVE-2025-1562)
+- [gmh5225/CVE-2025-1562](https://github.com/gmh5225/CVE-2025-1562)
 
 ### CVE-2025-1639 (2025-03-04)
 
