@@ -2073,6 +2073,7 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
+- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -2576,7 +2577,6 @@
 </code>
 
 - [mverschu/CVE-2025-33073](https://github.com/mverschu/CVE-2025-33073)
-- [joaozixx/CVE-2025-33073](https://github.com/joaozixx/CVE-2025-33073)
 
 ### CVE-2025-34028 (2025-04-22)
 
@@ -3870,6 +3870,7 @@
 - [valeriot30/cve-2024-3094](https://github.com/valeriot30/cve-2024-3094)
 - [24Owais/threat-intel-cve-2024-3094](https://github.com/24Owais/threat-intel-cve-2024-3094)
 - [Dermot-lab/TryHack](https://github.com/Dermot-lab/TryHack)
+- [Ikram124/CVE-2024-3094-analysis](https://github.com/Ikram124/CVE-2024-3094-analysis)
 
 ### CVE-2024-3105 (2024-06-15)
 
@@ -7911,6 +7912,13 @@
 - [kljunowsky/CVE-2024-27348](https://github.com/kljunowsky/CVE-2024-27348)
 - [jakabakos/CVE-2024-27348-Apache-HugeGraph-RCE](https://github.com/jakabakos/CVE-2024-27348-Apache-HugeGraph-RCE)
 - [p0et08/CVE-2024-27348](https://github.com/p0et08/CVE-2024-27348)
+
+### CVE-2024-27388 (2024-05-01)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nSUNRPC: fix some memleaks in gssx_dec_option_array\n\nThe creds and oa-&gt;data need to be freed in the error-handling paths after\ntheir allocation. So this patch add these deallocations in the\ncorresponding paths.
+</code>
+
+- [Mahesh-970/CVE-2024-27388_afterpatch](https://github.com/Mahesh-970/CVE-2024-27388_afterpatch)
 
 ### CVE-2024-27398 (2024-05-13)
 
@@ -27365,6 +27373,7 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
+- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
