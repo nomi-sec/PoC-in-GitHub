@@ -2392,6 +2392,7 @@
 - [sattarbug/Analysis-of-TomcatKiller---CVE-2025-31650-Exploit-Tool](https://github.com/sattarbug/Analysis-of-TomcatKiller---CVE-2025-31650-Exploit-Tool)
 - [assad12341/DOS-exploit](https://github.com/assad12341/DOS-exploit)
 - [assad12341/Dos-exploit-](https://github.com/assad12341/Dos-exploit-)
+- [obscura-cert/CVE-2025-31650](https://github.com/obscura-cert/CVE-2025-31650)
 
 ### CVE-2025-31651 (2025-04-28)
 
@@ -2591,6 +2592,7 @@
 </code>
 
 - [mverschu/CVE-2025-33073](https://github.com/mverschu/CVE-2025-33073)
+- [obscura-cert/CVE-2025-33073](https://github.com/obscura-cert/CVE-2025-33073)
 
 ### CVE-2025-34028 (2025-04-22)
 
@@ -3186,7 +3188,6 @@
 <code>In setParameter of MtpPacket.cpp, there is a possible out of bounds read due to a heap buffer overflow. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.
 </code>
 
-- [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0040](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0040)
 - [uthrasri/frameworks_av_CVE-2024-0040](https://github.com/uthrasri/frameworks_av_CVE-2024-0040)
 
 ### CVE-2024-0044 (2024-03-11)
@@ -3205,13 +3206,6 @@
 - [MrW0l05zyn/cve-2024-0044](https://github.com/MrW0l05zyn/cve-2024-0044)
 - [canyie/CVE-2024-0044](https://github.com/canyie/CVE-2024-0044)
 - [Dit-Developers/CVE-2024-0044-](https://github.com/Dit-Developers/CVE-2024-0044-)
-
-### CVE-2024-0049 (2024-03-11)
-
-<code>In multiple locations, there is a possible out of bounds write due to a heap buffer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User  interaction is not needed for exploitation.
-</code>
-
-- [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049)
 
 ### CVE-2024-0132 (2024-09-26)
 
@@ -4208,6 +4202,7 @@
 - [BektiHandoyo/cve-pdf-host](https://github.com/BektiHandoyo/cve-pdf-host)
 - [Bhavyakcwestern/Hacking-pdf.js-vulnerability](https://github.com/Bhavyakcwestern/Hacking-pdf.js-vulnerability)
 - [PenguinCabinet/CVE-2024-4367-hands-on](https://github.com/PenguinCabinet/CVE-2024-4367-hands-on)
+- [pS3ud0RAnD0m/CVE-2024-4367-POC](https://github.com/pS3ud0RAnD0m/CVE-2024-4367-POC)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -10320,13 +10315,6 @@
 
 - [yen5004/CVE-2024-40635_POC](https://github.com/yen5004/CVE-2024-40635_POC)
 
-### CVE-2024-40658 (2024-09-11)
-
-<code>In getConfig of SoftVideoDecoderOMXComponent.cpp, there is a possible out of bounds write due to a heap buffer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
-</code>
-
-- [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-40658](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-40658)
-
 ### CVE-2024-40662 (2024-09-11)
 
 <code>In scheme of Uri.java, there is a possible way to craft a malformed Uri object due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
@@ -10693,20 +10681,6 @@
 - [v9d0g/CVE-2024-43044-POC](https://github.com/v9d0g/CVE-2024-43044-POC)
 - [convisolabs/CVE-2024-43044-jenkins](https://github.com/convisolabs/CVE-2024-43044-jenkins)
 - [DACC4/CVE-2024-43044-jenkins-creds](https://github.com/DACC4/CVE-2024-43044-jenkins-creds)
-
-### CVE-2024-43088 (2024-11-13)
-
-<code>In multiple functions in AppInfoBase.java, there is a possible way to manipulate app permission settings belonging to another user on the device due to a missing permission check. This could lead to local escalation of privilege across user boundaries with no additional execution privileges needed. User interaction is not needed for exploitation.
-</code>
-
-- [nidhihcl75/packages_apps_Settings_AOSP10_r33_CVE-2024-43088](https://github.com/nidhihcl75/packages_apps_Settings_AOSP10_r33_CVE-2024-43088)
-
-### CVE-2024-43090 (2024-11-13)
-
-<code>In multiple locations, there is a possible cross-user image read due to a missing permission check. This could lead to local information disclosure with User execution privileges needed. User interaction is needed for exploitation.
-</code>
-
-- [nidhihcl75/frameworks_base_AOSP10_r33_CVE-2024-43090](https://github.com/nidhihcl75/frameworks_base_AOSP10_r33_CVE-2024-43090)
 
 ### CVE-2024-43097 (2025-01-02)
 
@@ -11121,13 +11095,6 @@
 </code>
 
 - [w0r1i0g1ht/CVE-2024-45440](https://github.com/w0r1i0g1ht/CVE-2024-45440)
-
-### CVE-2024-45492 (2024-08-30)
-
-<code>An issue was discovered in libexpat before 2.6.3. nextScaffoldPart in xmlparse.c can have an integer overflow for m_groupSize on 32-bit platforms (where UINT_MAX equals SIZE_MAX).
-</code>
-
-- [nidhihcl75/external_expat_2.6.2_CVE-2024-45492](https://github.com/nidhihcl75/external_expat_2.6.2_CVE-2024-45492)
 
 ### CVE-2024-45507 (2024-09-04)
 
@@ -16194,7 +16161,6 @@
 </code>
 
 - [uthrasri/jetty-9.4.31.v20200723_CVE-2023-26049](https://github.com/uthrasri/jetty-9.4.31.v20200723_CVE-2023-26049)
-- [nidhihcl75/jetty-9.4.31.v20200723_G3_CVE-2023-26049](https://github.com/nidhihcl75/jetty-9.4.31.v20200723_G3_CVE-2023-26049)
 
 ### CVE-2023-26067 (2023-04-10)
 
