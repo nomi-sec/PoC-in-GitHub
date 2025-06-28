@@ -3072,6 +3072,8 @@
 - [TheTorjanCaptain/CVE-2025-49144_PoC](https://github.com/TheTorjanCaptain/CVE-2025-49144_PoC)
 - [assad12341/notepad-v8.8.1-LPE-CVE-](https://github.com/assad12341/notepad-v8.8.1-LPE-CVE-)
 - [tristanvandermeer/CVE-2025-49144-Test](https://github.com/tristanvandermeer/CVE-2025-49144-Test)
+- [65-75-65-83-72/CVE-2025-49144_PoC](https://github.com/65-75-65-83-72/CVE-2025-49144_PoC)
+- [65-75-65-83-72/65-75-65-83-72.github.io](https://github.com/65-75-65-83-72/65-75-65-83-72.github.io)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -17094,6 +17096,7 @@
 - [tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit](https://github.com/tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit)
 - [Chocapikk/CVE-2023-30258](https://github.com/Chocapikk/CVE-2023-30258)
 - [n00o00b/CVE-2023-30258-RCE-POC](https://github.com/n00o00b/CVE-2023-30258-RCE-POC)
+- [delldevmann/CVE-2023-30258](https://github.com/delldevmann/CVE-2023-30258)
 
 ### CVE-2023-30333 (2023-05-18)
 
