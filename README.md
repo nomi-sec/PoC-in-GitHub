@@ -875,6 +875,13 @@
 
 - [Yuri08loveElaina/CVE-2025-20124_and_CVE-2025-20125](https://github.com/Yuri08loveElaina/CVE-2025-20124_and_CVE-2025-20125)
 
+### CVE-2025-20281 (2025-06-25)
+
+<code>A vulnerability in a specific API of Cisco ISE and Cisco ISE-PIC could allow an unauthenticated, remote attacker to execute arbitrary code on the underlying operating system as root. The attacker does not require any valid credentials to exploit this vulnerability.\r\n\r\nThis vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by submitting a crafted API request. A successful exploit could allow the attacker to obtain root privileges on an affected device.
+</code>
+
+- [abrewer251/CVE-2025-20281-2-Citrix-ISE-RCE](https://github.com/abrewer251/CVE-2025-20281-2-Citrix-ISE-RCE)
+
 ### CVE-2025-20286 (2025-06-04)
 
 <code>A vulnerability in Amazon Web Services (AWS), Microsoft Azure, and Oracle Cloud Infrastructure (OCI) cloud deployments of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attacker to access sensitive data, execute limited administrative operations, modify system configurations, or disrupt services within the impacted systems.\r\n\r\nThis vulnerability exists because credentials are improperly generated when Cisco ISE is being deployed on cloud platforms, resulting in different Cisco ISE deployments sharing the same credentials. These credentials are shared across multiple Cisco ISE deployments as long as the software release and cloud platform are the same. An attacker could exploit this vulnerability by extracting the user credentials from Cisco ISE that is deployed in the cloud and then using them to access Cisco ISE that is deployed in other cloud environments through unsecured ports. A successful exploit could allow the attacker to access sensitive data, execute limited administrative operations, modify system configurations, or disrupt services within the impacted systems.\r\nNote: If the Primary Administration node is deployed in the cloud, then Cisco ISE is affected by this vulnerability. If the Primary Administration node is on-premises, then it is not affected.
@@ -2536,6 +2543,13 @@
 </code>
 
 - [Sincan2/RCE-CVE-2025-32710](https://github.com/Sincan2/RCE-CVE-2025-32710)
+
+### CVE-2025-32711 (2025-06-11)
+
+<code>Ai command injection in M365 Copilot allows an unauthorized attacker to disclose information over a network.
+</code>
+
+- [daryllundy/cve-2025-32711](https://github.com/daryllundy/cve-2025-32711)
 
 ### CVE-2025-32756 (2025-05-13)
 
@@ -19371,7 +19385,6 @@
 </code>
 
 - [0xyassine/CVE-2023-40028](https://github.com/0xyassine/CVE-2023-40028)
-- [BBSynapse/CVE-2023-40028](https://github.com/BBSynapse/CVE-2023-40028)
 - [0xDTC/Ghost-5.58-Arbitrary-File-Read-CVE-2023-40028](https://github.com/0xDTC/Ghost-5.58-Arbitrary-File-Read-CVE-2023-40028)
 - [sudlit/CVE-2023-40028](https://github.com/sudlit/CVE-2023-40028)
 - [monke443/CVE-2023-40028](https://github.com/monke443/CVE-2023-40028)
@@ -53752,6 +53765,7 @@
 - [timsonner/cve-2014-0160-heartbleed](https://github.com/timsonner/cve-2014-0160-heartbleed)
 - [yashfren/CVE-2014-0160-HeartBleed](https://github.com/yashfren/CVE-2014-0160-HeartBleed)
 - [Shayhha/HeartbleedAttack](https://github.com/Shayhha/HeartbleedAttack)
+- [ArtemCyberLab/Project-Field-Analysis-and-Memory-Leak-Demonstration](https://github.com/ArtemCyberLab/Project-Field-Analysis-and-Memory-Leak-Demonstration)
 
 ### CVE-2014-0166 (2014-04-09)
 
