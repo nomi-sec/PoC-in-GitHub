@@ -861,6 +861,9 @@
 
 - [grupooruss/Citrix-cve-2025-6543](https://github.com/grupooruss/Citrix-cve-2025-6543)
 
+### CVE-2025-6916
+- [c0nyy/IoT_vuln](https://github.com/c0nyy/IoT_vuln)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -2129,6 +2132,7 @@
 - [B1ack4sh/Blackash-CVE-2025-29927](https://github.com/B1ack4sh/Blackash-CVE-2025-29927)
 - [amitlttwo/Next.JS-CVE-2025-29927](https://github.com/amitlttwo/Next.JS-CVE-2025-29927)
 - [KamalideenAK/poc-cve-2025-29927](https://github.com/KamalideenAK/poc-cve-2025-29927)
+- [bohmiiidd/CVE-2025-29927-exploit-code-](https://github.com/bohmiiidd/CVE-2025-29927-exploit-code-)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -2192,6 +2196,7 @@
 - [HaGsec/CVE-2025-30208](https://github.com/HaGsec/CVE-2025-30208)
 - [B1ack4sh/Blackash-CVE-2025-30208](https://github.com/B1ack4sh/Blackash-CVE-2025-30208)
 - [ThemeHackers/CVE-2025-30208](https://github.com/ThemeHackers/CVE-2025-30208)
+- [TH-SecForge/CVE-2025-30208](https://github.com/TH-SecForge/CVE-2025-30208)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -37625,7 +37630,6 @@
 <code>The Code Snippets plugin before 2.14.0 for WordPress allows CSRF because of the lack of a Referer check on the import menu.
 </code>
 
-- [vulncrate/wp-codesnippets-cve-2020-8417](https://github.com/vulncrate/wp-codesnippets-cve-2020-8417)
 - [waleweewe12/CVE-2020-8417](https://github.com/waleweewe12/CVE-2020-8417)
 - [Rapidsafeguard/codesnippets_CVE-2020-8417](https://github.com/Rapidsafeguard/codesnippets_CVE-2020-8417)
 - [Vulnmachines/WordPress_CVE-2020-8417](https://github.com/Vulnmachines/WordPress_CVE-2020-8417)
@@ -51504,6 +51508,13 @@
 
 - [secmob/CVE-2016-0846](https://github.com/secmob/CVE-2016-0846)
 - [b0b0505/CVE-2016-0846-PoC](https://github.com/b0b0505/CVE-2016-0846-PoC)
+
+### CVE-2016-0957 (2016-02-10)
+
+<code>Dispatcher before 4.1.5 in Adobe Experience Manager 5.6.1, 6.0.0, and 6.1.0 does not properly implement a URL filter, which allows remote attackers to bypass dispatcher rules via unspecified vectors.
+</code>
+
+- [fuckwbored/CVE-2016-0957-payloads](https://github.com/fuckwbored/CVE-2016-0957-payloads)
 
 ### CVE-2016-0974 (2016-02-10)
 
