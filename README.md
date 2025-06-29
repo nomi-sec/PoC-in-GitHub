@@ -3076,6 +3076,7 @@
 - [tristanvandermeer/CVE-2025-49144-Test](https://github.com/tristanvandermeer/CVE-2025-49144-Test)
 - [65-75-65-83-72/CVE-2025-49144_PoC](https://github.com/65-75-65-83-72/CVE-2025-49144_PoC)
 - [65-75-65-83-72/65-75-65-83-72.github.io](https://github.com/65-75-65-83-72/65-75-65-83-72.github.io)
+- [b0ySie7e/Notepad-8.8.1_CVE-2025-49144](https://github.com/b0ySie7e/Notepad-8.8.1_CVE-2025-49144)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -4202,7 +4203,7 @@
 - [BektiHandoyo/cve-pdf-host](https://github.com/BektiHandoyo/cve-pdf-host)
 - [Bhavyakcwestern/Hacking-pdf.js-vulnerability](https://github.com/Bhavyakcwestern/Hacking-pdf.js-vulnerability)
 - [PenguinCabinet/CVE-2024-4367-hands-on](https://github.com/PenguinCabinet/CVE-2024-4367-hands-on)
-- [pS3ud0RAnD0m/CVE-2024-4367-POC](https://github.com/pS3ud0RAnD0m/CVE-2024-4367-POC)
+- [pS3ud0RAnD0m/cve-2024-4367-poc](https://github.com/pS3ud0RAnD0m/cve-2024-4367-poc)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -17063,7 +17064,6 @@
 - [tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit](https://github.com/tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit)
 - [Chocapikk/CVE-2023-30258](https://github.com/Chocapikk/CVE-2023-30258)
 - [n00o00b/CVE-2023-30258-RCE-POC](https://github.com/n00o00b/CVE-2023-30258-RCE-POC)
-- [delldevmann/CVE-2023-30258](https://github.com/delldevmann/CVE-2023-30258)
 
 ### CVE-2023-30333 (2023-05-18)
 
@@ -24581,6 +24581,13 @@
 </code>
 
 - [Acceis/exploit-CVE-2022-24780](https://github.com/Acceis/exploit-CVE-2022-24780)
+
+### CVE-2022-24785 (2022-04-04)
+
+<code>Moment.js is a JavaScript date library for parsing, validating, manipulating, and formatting dates. A path traversal vulnerability impacts npm (server) users of Moment.js between versions 1.0.1 and 2.29.1, especially if a user-provided locale string is directly used to switch moment locale. This problem is patched in 2.29.2, and the patch can be applied to all affected versions. As a workaround, sanitize the user-provided locale name before passing it to Moment.js.
+</code>
+
+- [pS3ud0RAnD0m/cve-2022-24785-poc-lab](https://github.com/pS3ud0RAnD0m/cve-2022-24785-poc-lab)
 
 ### CVE-2022-24816 (2022-04-13)
 
