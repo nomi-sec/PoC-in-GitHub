@@ -35062,7 +35062,6 @@
 - [julian911015/Log4j-Scanner-Exploit](https://github.com/julian911015/Log4j-Scanner-Exploit)
 - [intel-xeon/CVE-2021-44228---detection-with-PowerShell](https://github.com/intel-xeon/CVE-2021-44228---detection-with-PowerShell)
 - [chandru-gunasekaran/log4j-fix-CVE-2021-44228](https://github.com/chandru-gunasekaran/log4j-fix-CVE-2021-44228)
-- [erickrr-bd/TekiumLog4jApp](https://github.com/erickrr-bd/TekiumLog4jApp)
 - [snapattack/damn-vulnerable-log4j-app](https://github.com/snapattack/damn-vulnerable-log4j-app)
 - [sassoftware/loguccino](https://github.com/sassoftware/loguccino)
 - [xx-zhang/apache-log4j2-CVE-2021-44228](https://github.com/xx-zhang/apache-log4j2-CVE-2021-44228)
