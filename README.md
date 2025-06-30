@@ -839,6 +839,7 @@
 </code>
 
 - [speinador/CVE-2025-6218_WinRAR](https://github.com/speinador/CVE-2025-6218_WinRAR)
+- [ignis-sec/CVE-2025-6218](https://github.com/ignis-sec/CVE-2025-6218)
 
 ### CVE-2025-6220 (2025-06-18)
 
@@ -860,6 +861,13 @@
 </code>
 
 - [grupooruss/Citrix-cve-2025-6543](https://github.com/grupooruss/Citrix-cve-2025-6543)
+
+### CVE-2025-6860 (2025-06-29)
+
+<code>In SourceCodester Best Salon Management System 1.0 wurde eine Schwachstelle ausgemacht. Sie wurde als kritisch eingestuft. Betroffen ist eine unbekannte Verarbeitung der Datei /panel/staff_commision.php. Durch das Manipulieren des Arguments fromdate/todate mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [byteReaper77/CVE-2025-6860](https://github.com/byteReaper77/CVE-2025-6860)
 
 ### CVE-2025-6916
 - [c0nyy/IoT_vuln](https://github.com/c0nyy/IoT_vuln)
@@ -12424,6 +12432,13 @@
 </code>
 
 - [aelmosalamy/CVE-2024-53924](https://github.com/aelmosalamy/CVE-2024-53924)
+
+### CVE-2024-54085 (2025-03-11)
+
+<code>AMI’s SPx contains\na vulnerability in the BMC where an Attacker may bypass authentication remotely through the Redfish Host Interface. A successful exploitation\nof this vulnerability may lead to a loss of confidentiality, integrity, and/or\navailability.
+</code>
+
+- [Mr-Zapi/CVE-2024-54085](https://github.com/Mr-Zapi/CVE-2024-54085)
 
 ### CVE-2024-54152 (2024-12-10)
 
