@@ -803,6 +803,14 @@
 - [Nxploited/CVE-2025-5701](https://github.com/Nxploited/CVE-2025-5701)
 - [RandomRobbieBF/CVE-2025-5701](https://github.com/RandomRobbieBF/CVE-2025-5701)
 
+### CVE-2025-5777 (2025-06-17)
+
+<code>Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA virtual server
+</code>
+
+- [nagenar/CVE-2025-5777-Session-Hijack](https://github.com/nagenar/CVE-2025-5777-Session-Hijack)
+- [mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC-](https://github.com/mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC-)
+
 ### CVE-2025-5815 (2025-06-13)
 
 <code>The Traffic Monitor plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the tfcm_maybe_set_bot_flags() function in all versions up to, and including, 3.2.2. This makes it possible for unauthenticated attackers to disabled bot logging.
@@ -861,6 +869,7 @@
 </code>
 
 - [grupooruss/Citrix-cve-2025-6543](https://github.com/grupooruss/Citrix-cve-2025-6543)
+- [seabed-atavism/CVE-2025-6543](https://github.com/seabed-atavism/CVE-2025-6543)
 
 ### CVE-2025-6860 (2025-06-29)
 
@@ -977,6 +986,7 @@
 </code>
 
 - [hoefler02/CVE-2025-21756](https://github.com/hoefler02/CVE-2025-21756)
+- [KuanKuanQAQ/cve-testing](https://github.com/KuanKuanQAQ/cve-testing)
 
 ### CVE-2025-22056 (2025-04-16)
 
@@ -1071,6 +1081,13 @@
 </code>
 
 - [JoshuaProvoste/CVE-2025-22870](https://github.com/JoshuaProvoste/CVE-2025-22870)
+
+### CVE-2025-22912 (2025-01-16)
+
+<code>RE11S v1.11 was discovered to contain a command injection vulnerability via the component /goform/formAccept.
+</code>
+
+- [passwa11/RE11S_1.11-formAccept-CommandInjection](https://github.com/passwa11/RE11S_1.11-formAccept-CommandInjection)
 
 ### CVE-2025-22953 (2025-03-28)
 
@@ -2091,7 +2108,7 @@
 - [aleongx/CVE-2025-29927_Scanner](https://github.com/aleongx/CVE-2025-29927_Scanner)
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
-- [m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit](https://github.com/m2hcz/m2hcz-Next.js-security-flaw-CVE-2025-29927---PoC-exploit)
+- [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
 - [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
@@ -3108,6 +3125,15 @@
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
+
+### CVE-2025-50363
+- [1h3ll/CVE-2025-50363_BXSS_CVE](https://github.com/1h3ll/CVE-2025-50363_BXSS_CVE)
+
+### CVE-2025-50364
+- [1h3ll/CVE-2025-50364_CSRF_ADD_CATEGORY-phpgurukul-CVE](https://github.com/1h3ll/CVE-2025-50364_CSRF_ADD_CATEGORY-phpgurukul-CVE)
+
+### CVE-2025-50365
+- [1h3ll/CVE-2025-50365_CSRF_DELETE_CATEGORY-phpgurukul-CVE](https://github.com/1h3ll/CVE-2025-50365_CSRF_DELETE_CATEGORY-phpgurukul-CVE)
 
 ### CVE-2025-51046
 - [0xMesh-X/CVE-2025-51046](https://github.com/0xMesh-X/CVE-2025-51046)
@@ -7944,7 +7970,8 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nSUNRPC: fix some memleaks in gssx_dec_option_array\n\nThe creds and oa-&gt;data need to be freed in the error-handling paths after\ntheir allocation. So this patch add these deallocations in the\ncorresponding paths.
 </code>
 
-- [Mahesh-970/CVE-2024-27388_afterpatch](https://github.com/Mahesh-970/CVE-2024-27388_afterpatch)
+- [Mahesh-970/CVE-2024-27388_whitesource](https://github.com/Mahesh-970/CVE-2024-27388_whitesource)
+- [Mahesh-970/CVE-2024-27388_afterPatch](https://github.com/Mahesh-970/CVE-2024-27388_afterPatch)
 
 ### CVE-2024-27398 (2024-05-13)
 
@@ -26517,6 +26544,7 @@
 - [Decstor5/2022-32250LPE](https://github.com/Decstor5/2022-32250LPE)
 - [Kristal-g/CVE-2022-32250](https://github.com/Kristal-g/CVE-2022-32250)
 - [seadragnol/CVE-2022-32250](https://github.com/seadragnol/CVE-2022-32250)
+- [KuanKuanQAQ/cve-testing](https://github.com/KuanKuanQAQ/cve-testing)
 - [g3un/cve-2022-32250](https://github.com/g3un/cve-2022-32250)
 
 ### CVE-2022-32532 (2022-06-28)
@@ -26620,7 +26648,6 @@
 - [Blyth0He/CVE-2022-33679](https://github.com/Blyth0He/CVE-2022-33679)
 - [Amulab/CVE-2022-33679](https://github.com/Amulab/CVE-2022-33679)
 - [notareaperbutDR34P3r/Kerberos_CVE-2022-33679](https://github.com/notareaperbutDR34P3r/Kerberos_CVE-2022-33679)
-- [vpxuser/CVE-2022-33679](https://github.com/vpxuser/CVE-2022-33679)
 
 ### CVE-2022-33891 (2022-07-18)
 
