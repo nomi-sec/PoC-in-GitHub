@@ -26517,6 +26517,7 @@
 - [Decstor5/2022-32250LPE](https://github.com/Decstor5/2022-32250LPE)
 - [Kristal-g/CVE-2022-32250](https://github.com/Kristal-g/CVE-2022-32250)
 - [seadragnol/CVE-2022-32250](https://github.com/seadragnol/CVE-2022-32250)
+- [g3un/cve-2022-32250](https://github.com/g3un/cve-2022-32250)
 
 ### CVE-2022-32532 (2022-06-28)
 
@@ -26619,6 +26620,7 @@
 - [Blyth0He/CVE-2022-33679](https://github.com/Blyth0He/CVE-2022-33679)
 - [Amulab/CVE-2022-33679](https://github.com/Amulab/CVE-2022-33679)
 - [notareaperbutDR34P3r/Kerberos_CVE-2022-33679](https://github.com/notareaperbutDR34P3r/Kerberos_CVE-2022-33679)
+- [vpxuser/CVE-2022-33679](https://github.com/vpxuser/CVE-2022-33679)
 
 ### CVE-2022-33891 (2022-07-18)
 
@@ -38543,6 +38545,13 @@
 </code>
 
 - [pberba/CVE-2020-11978](https://github.com/pberba/CVE-2020-11978)
+
+### CVE-2020-11984 (2020-08-07)
+
+<code>Apache HTTP server 2.4.32 to 2.4.44 mod_proxy_uwsgi info disclosure and possible RCE
+</code>
+
+- [masahiro331/CVE-2020-11984](https://github.com/masahiro331/CVE-2020-11984)
 
 ### CVE-2020-11989 (2020-06-22)
 
