@@ -710,6 +710,7 @@
 
 - [speinador/CVE-2025-4664](https://github.com/speinador/CVE-2025-4664)
 - [Leviticus-Triage/ChromSploit-Framework](https://github.com/Leviticus-Triage/ChromSploit-Framework)
+- [amalmurali47/cve-2025-4664](https://github.com/amalmurali47/cve-2025-4664)
 
 ### CVE-2025-4686
 - [sahici/CVE-2025-4686](https://github.com/sahici/CVE-2025-4686)
@@ -878,7 +879,11 @@
 
 - [byteReaper77/CVE-2025-6860](https://github.com/byteReaper77/CVE-2025-6860)
 
-### CVE-2025-6916
+### CVE-2025-6916 (2025-06-30)
+
+<code>Es wurde eine kritische Schwachstelle in TOTOLINK T6 4.1.5cu.748_B20211015 gefunden. Betroffen hiervon ist die Funktion Form_Login der Datei /formLoginAuth.htm. Durch das Manipulieren des Arguments authCode/goURL mit unbekannten Daten kann eine missing authentication-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff im lokalen Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
 - [c0nyy/IoT_vuln](https://github.com/c0nyy/IoT_vuln)
 
 ### CVE-2025-20029 (2025-02-05)
@@ -3105,8 +3110,6 @@
 - [TheTorjanCaptain/CVE-2025-49144_PoC](https://github.com/TheTorjanCaptain/CVE-2025-49144_PoC)
 - [assad12341/notepad-v8.8.1-LPE-CVE-](https://github.com/assad12341/notepad-v8.8.1-LPE-CVE-)
 - [tristanvandermeer/CVE-2025-49144-Test](https://github.com/tristanvandermeer/CVE-2025-49144-Test)
-- [65-75-65-83-72/CVE-2025-49144_PoC](https://github.com/65-75-65-83-72/CVE-2025-49144_PoC)
-- [65-75-65-83-72/65-75-65-83-72.github.io](https://github.com/65-75-65-83-72/65-75-65-83-72.github.io)
 - [b0ySie7e/Notepad-8.8.1_CVE-2025-49144](https://github.com/b0ySie7e/Notepad-8.8.1_CVE-2025-49144)
 
 ### CVE-2025-49223 (2025-06-04)
@@ -10408,6 +10411,7 @@
 </code>
 
 - [anilpatel199n/CVE-2024-40898](https://github.com/anilpatel199n/CVE-2024-40898)
+- [ForceEA001/CVE-2024-40898-SSL-Bypass-Detection](https://github.com/ForceEA001/CVE-2024-40898-SSL-Bypass-Detection)
 
 ### CVE-2024-41107 (2024-07-19)
 
@@ -22296,6 +22300,7 @@
 - [scopion/dirty-pipe](https://github.com/scopion/dirty-pipe)
 - [stfnw/Debugging_Dirty_Pipe_CVE-2022-0847](https://github.com/stfnw/Debugging_Dirty_Pipe_CVE-2022-0847)
 - [drapl0n/dirtypipe](https://github.com/drapl0n/dirtypipe)
+- [0xr1l3s/CVE-2022-0847](https://github.com/0xr1l3s/CVE-2022-0847)
 - [mhanief/dirtypipe](https://github.com/mhanief/dirtypipe)
 - [tufanturhan/CVE-2022-0847-L-nux-PrivEsc](https://github.com/tufanturhan/CVE-2022-0847-L-nux-PrivEsc)
 - [rexpository/linux-privilege-escalation](https://github.com/rexpository/linux-privilege-escalation)
@@ -23998,6 +24003,7 @@
 - [netcode/Spring4shell-CVE-2022-22965-POC](https://github.com/netcode/Spring4shell-CVE-2022-22965-POC)
 - [fracturelabs/go-scan-spring](https://github.com/fracturelabs/go-scan-spring)
 - [Snip3R69/spring-shell-vuln](https://github.com/Snip3R69/spring-shell-vuln)
+- [0xr1l3s/CVE-2022-22965](https://github.com/0xr1l3s/CVE-2022-22965)
 - [luoqianlin/CVE-2022-22965](https://github.com/luoqianlin/CVE-2022-22965)
 - [0xrobiul/CVE-2022-22965](https://github.com/0xrobiul/CVE-2022-22965)
 - [LudovicPatho/CVE-2022-22965_Spring4Shell](https://github.com/LudovicPatho/CVE-2022-22965_Spring4Shell)
@@ -24941,6 +24947,13 @@
 - [scabench/fastjson-tp1fn1](https://github.com/scabench/fastjson-tp1fn1)
 - [luelueking/CVE-2022-25845-In-Spring](https://github.com/luelueking/CVE-2022-25845-In-Spring)
 - [ph0ebus/CVE-2022-25845-In-Spring](https://github.com/ph0ebus/CVE-2022-25845-In-Spring)
+
+### CVE-2022-25869 (2022-07-15)
+
+<code>All versions of package angular are vulnerable to Cross-site Scripting (XSS) due to insecure page caching in the Internet Explorer browser, which allows interpolation of &lt;textarea&gt; elements.
+</code>
+
+- [gkalpak/angularjs-poc-cve-2022-25869](https://github.com/gkalpak/angularjs-poc-cve-2022-25869)
 
 ### CVE-2022-25927 (2023-01-25)
 
@@ -26638,6 +26651,13 @@
 </code>
 
 - [Henry4E36/CVE-2022-33174](https://github.com/Henry4E36/CVE-2022-33174)
+
+### CVE-2022-33647 (2022-09-13)
+
+<code>Windows Kerberos Elevation of Privilege Vulnerability
+</code>
+
+- [vpxuser/CVE-2022-33647](https://github.com/vpxuser/CVE-2022-33647)
 
 ### CVE-2022-33679 (2022-09-13)
 
