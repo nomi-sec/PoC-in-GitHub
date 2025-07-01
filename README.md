@@ -849,6 +849,7 @@
 
 - [speinador/CVE-2025-6218_WinRAR](https://github.com/speinador/CVE-2025-6218_WinRAR)
 - [ignis-sec/CVE-2025-6218](https://github.com/ignis-sec/CVE-2025-6218)
+- [skimask1690/CVE-2025-6218-POC](https://github.com/skimask1690/CVE-2025-6218-POC)
 
 ### CVE-2025-6220 (2025-06-18)
 
@@ -2667,7 +2668,7 @@
 <code>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in NasaTheme Nasa Core allows PHP Local File Inclusion. This issue affects Nasa Core: from n/a through 6.3.2.
 </code>
 
-- [blackgirlinfosec/cve-lfi-lab](https://github.com/blackgirlinfosec/cve-lfi-lab)
+- [TheCyberFairy/cve-lfi-lab](https://github.com/TheCyberFairy/cve-lfi-lab)
 
 ### CVE-2025-39538 (2025-04-16)
 
@@ -26658,13 +26659,6 @@
 </code>
 
 - [Henry4E36/CVE-2022-33174](https://github.com/Henry4E36/CVE-2022-33174)
-
-### CVE-2022-33647 (2022-09-13)
-
-<code>Windows Kerberos Elevation of Privilege Vulnerability
-</code>
-
-- [vpxuser/CVE-2022-33647](https://github.com/vpxuser/CVE-2022-33647)
 
 ### CVE-2022-33679 (2022-09-13)
 
