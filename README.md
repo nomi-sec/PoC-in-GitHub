@@ -809,7 +809,6 @@
 <code>Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA virtual server
 </code>
 
-- [nagenar/CVE-2025-5777-Session-Hijack](https://github.com/nagenar/CVE-2025-5777-Session-Hijack)
 - [mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC-](https://github.com/mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC-)
 
 ### CVE-2025-5815 (2025-06-13)
@@ -1129,13 +1128,6 @@
 </code>
 
 - [GabrieleDattile/CVE-2025-23040](https://github.com/GabrieleDattile/CVE-2025-23040)
-
-### CVE-2025-23121 (2025-06-18)
-
-<code>A vulnerability allowing remote code execution (RCE) on the Backup Server by an authenticated domain user
-</code>
-
-- [nagenar/CVE-2025-23121-RCE](https://github.com/nagenar/CVE-2025-23121-RCE)
 
 ### CVE-2025-23369 (2025-01-21)
 
@@ -2546,6 +2538,13 @@
 - [B1ack4sh/Blackash-CVE-2025-32433](https://github.com/B1ack4sh/Blackash-CVE-2025-32433)
 - [Yuri08loveElaina/CVE-2025-32433-Erlang-OTP-SSH-Pre-Auth-RCE-exploit](https://github.com/Yuri08loveElaina/CVE-2025-32433-Erlang-OTP-SSH-Pre-Auth-RCE-exploit)
 
+### CVE-2025-32463 (2025-06-30)
+
+<code>Sudo before 1.9.17p1 allows local users to obtain root access because /etc/nsswitch.conf from a user-controlled directory is used with the --chroot option.
+</code>
+
+- [pr0v3rbs/CVE-2025-32463_chwoot](https://github.com/pr0v3rbs/CVE-2025-32463_chwoot)
+
 ### CVE-2025-32579 (2025-04-11)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in SoftClever Limited Sync Posts allows Upload a Web Shell to a Web Server. This issue affects Sync Posts: from n/a through 1.0.
@@ -2996,6 +2995,9 @@
 
 ### CVE-2025-47810
 - [ptrstr/CVE-2025-47810](https://github.com/ptrstr/CVE-2025-47810)
+
+### CVE-2025-47812
+- [4m3rr0r/CVE-2025-47812-poc](https://github.com/4m3rr0r/CVE-2025-47812-poc)
 
 ### CVE-2025-47827 (2025-06-05)
 
@@ -14597,6 +14599,7 @@
 
 - [pog007/CVE-2023-5561-PoC](https://github.com/pog007/CVE-2023-5561-PoC)
 - [rootxsushant/CVE-2023-5561-POC-Updated](https://github.com/rootxsushant/CVE-2023-5561-POC-Updated)
+- [dthkhang/CVE-2023-5561-PoC](https://github.com/dthkhang/CVE-2023-5561-PoC)
 
 ### CVE-2023-5612 (2024-01-26)
 
@@ -30153,7 +30156,6 @@
 - [galoget/PwnKit-CVE-2021-4034](https://github.com/galoget/PwnKit-CVE-2021-4034)
 - [Yakumwamba/POC-CVE-2021-4034](https://github.com/Yakumwamba/POC-CVE-2021-4034)
 - [ayoub-elbouzi/CVE-2021-4034-Pwnkit](https://github.com/ayoub-elbouzi/CVE-2021-4034-Pwnkit)
-- [oreosec/pwnkit](https://github.com/oreosec/pwnkit)
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [Rvn0xsy/CVE-2021-4034](https://github.com/Rvn0xsy/CVE-2021-4034)
 - [Kirill89/CVE-2021-4034](https://github.com/Kirill89/CVE-2021-4034)
@@ -34097,6 +34099,7 @@
 - [khaidtraivch/CVE-2021-41773-Apache-2.4.49-](https://github.com/khaidtraivch/CVE-2021-41773-Apache-2.4.49-)
 - [Ask-os/CVE-2021-41773](https://github.com/Ask-os/CVE-2021-41773)
 - [CyberQuestor-infosec/CVE-2021-41773-Apache_2.4.49-Path-traversal-to-RCE](https://github.com/CyberQuestor-infosec/CVE-2021-41773-Apache_2.4.49-Path-traversal-to-RCE)
+- [psibot/apache-vulnerable](https://github.com/psibot/apache-vulnerable)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -56217,6 +56220,7 @@
 - [davidholiday/CVE-2007-4559](https://github.com/davidholiday/CVE-2007-4559)
 - [luigigubello/trellix-tarslip-patch-bypass](https://github.com/luigigubello/trellix-tarslip-patch-bypass)
 - [m0d0ri205/wargame-tarpioka](https://github.com/m0d0ri205/wargame-tarpioka)
+- [depers-rus/CVE-2007-4559](https://github.com/depers-rus/CVE-2007-4559)
 
 ### CVE-2007-4560 (2007-08-28)
 
