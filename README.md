@@ -886,6 +886,13 @@
 
 - [c0nyy/IoT_vuln](https://github.com/c0nyy/IoT_vuln)
 
+### CVE-2025-6934 (2025-07-01)
+
+<code>The Opal Estate Pro – Property Management and Submission plugin for WordPress, used by the FullHouse - Real Estate Responsive WordPress Theme, is vulnerable to privilege escalation via in all versions up to, and including, 1.7.5. This is due to a lack of role restriction during registration in the 'on_regiser_user' function. This makes it possible for unauthenticated attackers to arbitrarily choose the role, including the Administrator role, assigned when registering.
+</code>
+
+- [Nxploited/CVE-2025-6934](https://github.com/Nxploited/CVE-2025-6934)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -2107,7 +2114,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
-- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -2538,12 +2544,21 @@
 - [B1ack4sh/Blackash-CVE-2025-32433](https://github.com/B1ack4sh/Blackash-CVE-2025-32433)
 - [Yuri08loveElaina/CVE-2025-32433-Erlang-OTP-SSH-Pre-Auth-RCE-exploit](https://github.com/Yuri08loveElaina/CVE-2025-32433-Erlang-OTP-SSH-Pre-Auth-RCE-exploit)
 
+### CVE-2025-32462 (2025-06-30)
+
+<code>Sudo before 1.9.17p1, when used with a sudoers file that specifies a host that is neither the current host nor ALL, allows listed users to execute commands on unintended machines.
+</code>
+
+- [Hacksparo/CVE-2025-32462](https://github.com/Hacksparo/CVE-2025-32462)
+
 ### CVE-2025-32463 (2025-06-30)
 
 <code>Sudo before 1.9.17p1 allows local users to obtain root access because /etc/nsswitch.conf from a user-controlled directory is used with the --chroot option.
 </code>
 
 - [pr0v3rbs/CVE-2025-32463_chwoot](https://github.com/pr0v3rbs/CVE-2025-32463_chwoot)
+- [4f-kira/CVE-2025-32463](https://github.com/4f-kira/CVE-2025-32463)
+- [K1tt3h/CVE-2025-32463-POC](https://github.com/K1tt3h/CVE-2025-32463-POC)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -2998,6 +3013,7 @@
 
 ### CVE-2025-47812
 - [4m3rr0r/CVE-2025-47812-poc](https://github.com/4m3rr0r/CVE-2025-47812-poc)
+- [0xcan1337/CVE-2025-47812-poC](https://github.com/0xcan1337/CVE-2025-47812-poC)
 
 ### CVE-2025-47827 (2025-06-05)
 
@@ -3066,6 +3082,13 @@
 </code>
 
 - [Samb102/POC-CVE-2025-48988-CVE-2025-48976](https://github.com/Samb102/POC-CVE-2025-48988-CVE-2025-48976)
+
+### CVE-2025-49029 (2025-07-01)
+
+<code>Improper Control of Generation of Code ('Code Injection') vulnerability in bitto.Kazi Custom Login And Signup Widget allows Code Injection.This issue affects Custom Login And Signup Widget: from n/a through 1.0.
+</code>
+
+- [Nxploited/CVE-2025-49029](https://github.com/Nxploited/CVE-2025-49029)
 
 ### CVE-2025-49113 (2025-06-02)
 
@@ -10188,6 +10211,13 @@
 
 - [rxerium/CVE-2024-39929](https://github.com/rxerium/CVE-2024-39929)
 - [michael-david-fry/CVE-2024-39929](https://github.com/michael-david-fry/CVE-2024-39929)
+
+### CVE-2024-39930 (2024-07-04)
+
+<code>The built-in SSH server of Gogs through 0.13.0 allows argument injection in internal/ssh/ssh.go, leading to remote code execution. Authenticated attackers can exploit this by opening an SSH connection and sending a malicious --split-string env request if the built-in SSH server is activated. Windows installations are unaffected.
+</code>
+
+- [theMcSam/CVE-2024-39930-PoC](https://github.com/theMcSam/CVE-2024-39930-PoC)
 
 ### CVE-2024-39943 (2024-07-04)
 
@@ -19737,6 +19767,7 @@
 - [xpltive/CVE-2023-41425](https://github.com/xpltive/CVE-2023-41425)
 - [KGorbakon/CVE-2023-41425](https://github.com/KGorbakon/CVE-2023-41425)
 - [becrevex/CVE-2023-41425](https://github.com/becrevex/CVE-2023-41425)
+- [Tea-On/CVE-2023-41425-RCE-WonderCMS-4.3.2](https://github.com/Tea-On/CVE-2023-41425-RCE-WonderCMS-4.3.2)
 
 ### CVE-2023-41436 (2023-09-15)
 
@@ -27438,7 +27469,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -35177,7 +35207,6 @@
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
-- [0xalwayslucky/log4j-polkit-poc](https://github.com/0xalwayslucky/log4j-polkit-poc)
 - [y-security/yLog4j](https://github.com/y-security/yLog4j)
 - [FeryaelJustice/Log4Shell](https://github.com/FeryaelJustice/Log4Shell)
 - [hotpotcookie/CVE-2021-44228-white-box](https://github.com/hotpotcookie/CVE-2021-44228-white-box)
@@ -36735,7 +36764,6 @@
 - [WHtig3r/CVE-2020-1938](https://github.com/WHtig3r/CVE-2020-1938)
 - [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro)
 - [hopsypopsy8/CVE-2020-1938-Exploitation](https://github.com/hopsypopsy8/CVE-2020-1938-Exploitation)
-- [erickrr-bd/Apache-Tomcat-Ghostcat-Vulnerability](https://github.com/erickrr-bd/Apache-Tomcat-Ghostcat-Vulnerability)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -38998,7 +39026,7 @@
 - [shifa123/CVE-2020-13942-POC-](https://github.com/shifa123/CVE-2020-13942-POC-)
 - [blackmarketer/CVE-2020-13942](https://github.com/blackmarketer/CVE-2020-13942)
 - [yaunsky/Unomi-CVE-2020-13942](https://github.com/yaunsky/Unomi-CVE-2020-13942)
-- [hoanx4/apche_unomi_rce](https://github.com/hoanx4/apche_unomi_rce)
+- [dev-team-12x/apche_unomi_rce](https://github.com/dev-team-12x/apche_unomi_rce)
 - [Prodrious/CVE-2020-13942](https://github.com/Prodrious/CVE-2020-13942)
 - [corsisechero/CVE-2020-13942byVulHub](https://github.com/corsisechero/CVE-2020-13942byVulHub)
 
@@ -39739,7 +39767,7 @@
 - [B1anda0/CVE-2020-17519](https://github.com/B1anda0/CVE-2020-17519)
 - [QmF0c3UK/CVE-2020-17519](https://github.com/QmF0c3UK/CVE-2020-17519)
 - [dolevf/apache-flink-directory-traversal.nse](https://github.com/dolevf/apache-flink-directory-traversal.nse)
-- [hoanx4/CVE-2020-17519](https://github.com/hoanx4/CVE-2020-17519)
+- [dev-team-12x/CVE-2020-17519](https://github.com/dev-team-12x/CVE-2020-17519)
 - [murataydemir/CVE-2020-17519](https://github.com/murataydemir/CVE-2020-17519)
 - [radbsie/CVE-2020-17519-Exp](https://github.com/radbsie/CVE-2020-17519-Exp)
 - [yaunsky/CVE-2020-17519-Apache-Flink](https://github.com/yaunsky/CVE-2020-17519-Apache-Flink)
