@@ -4657,6 +4657,13 @@
 
 - [RandomRobbieBF/CVE-2024-6330](https://github.com/RandomRobbieBF/CVE-2024-6330)
 
+### CVE-2024-6345 (2024-07-15)
+
+<code>A vulnerability in the package_index module of pypa/setuptools versions up to 69.1.1 allows for remote code execution via its download functions. These functions, which are used to download packages from URLs provided by users or retrieved from package index servers, are susceptible to code injection. If these functions are exposed to user-controlled inputs, such as package URLs, they can execute arbitrary commands on the system. The issue is fixed in version 70.0.
+</code>
+
+- [nemekath/csrgenerator-secure](https://github.com/nemekath/csrgenerator-secure)
+
 ### CVE-2024-6366 (2024-07-29)
 
 <code>The User Profile Builder  WordPress plugin before 3.11.8 does not have proper authorisation, allowing unauthenticated users to upload media files via the async upload functionality of WP.
@@ -51215,6 +51222,13 @@
 </code>
 
 - [0xSojalSec/Nuclei-TemplatesNuclei-Templates-CVE-2017-17736](https://github.com/0xSojalSec/Nuclei-TemplatesNuclei-Templates-CVE-2017-17736)
+
+### CVE-2017-17761 (2017-12-19)
+
+<code>An issue was discovered on Ichano AtHome IP Camera devices. The device runs the &quot;noodles&quot; binary - a service on port 1300 that allows a remote (LAN) unauthenticated user to run arbitrary commands. This binary requires the &quot;system&quot; XML element for specifying the command. For example, a &lt;system&gt;id&lt;/system&gt; command results in a &lt;system_ack&gt;ok&lt;/system_ack&gt; response.
+</code>
+
+- [mirellesilvajs/iot-vuln-lab-cve-2017-17761](https://github.com/mirellesilvajs/iot-vuln-lab-cve-2017-17761)
 
 ### CVE-2017-17917 (2017-12-29)
 
