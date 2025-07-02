@@ -2401,6 +2401,9 @@
 - [nairuzabulhul/nuclei-template-cve-2025-31324-check](https://github.com/nairuzabulhul/nuclei-template-cve-2025-31324-check)
 - [sug4r-wr41th/CVE-2025-31324](https://github.com/sug4r-wr41th/CVE-2025-31324)
 
+### CVE-2025-31336
+- [coleleavitt/AAMVA-PDF417-Vulnerability-Research](https://github.com/coleleavitt/AAMVA-PDF417-Vulnerability-Research)
+
 ### CVE-2025-31486 (2025-04-03)
 
 <code>Vite is a frontend tooling framework for javascript. The contents of arbitrary files can be returned to the browser. By adding ?.svg with ?.wasm?init or with sec-fetch-dest: script header, the server.fs.deny restriction was able to bypass. This bypass is only possible if the file is smaller than build.assetsInlineLimit (default: 4kB) and when using Vite 6.0+. Only apps explicitly exposing the Vite dev server to the network (using --host or server.host config option) are affected. This vulnerability is fixed in 4.5.12, 5.4.17, 6.0.14, 6.1.4, and 6.2.5.
@@ -2427,6 +2430,7 @@
 - [assad12341/DOS-exploit](https://github.com/assad12341/DOS-exploit)
 - [assad12341/Dos-exploit-](https://github.com/assad12341/Dos-exploit-)
 - [obscura-cert/CVE-2025-31650](https://github.com/obscura-cert/CVE-2025-31650)
+- [B1gN0Se/Tomcat-CVE-2025-31650](https://github.com/B1gN0Se/Tomcat-CVE-2025-31650)
 
 ### CVE-2025-31651 (2025-04-28)
 
@@ -2559,6 +2563,7 @@
 - [4f-kira/CVE-2025-32463](https://github.com/4f-kira/CVE-2025-32463)
 - [K1tt3h/CVE-2025-32463-POC](https://github.com/K1tt3h/CVE-2025-32463-POC)
 - [Adonijah01/cve-2025-32463-lab](https://github.com/Adonijah01/cve-2025-32463-lab)
+- [SysMancer/CVE-2025-32463](https://github.com/SysMancer/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3137,6 +3142,7 @@
 - [assad12341/notepad-v8.8.1-LPE-CVE-](https://github.com/assad12341/notepad-v8.8.1-LPE-CVE-)
 - [tristanvandermeer/CVE-2025-49144-Test](https://github.com/tristanvandermeer/CVE-2025-49144-Test)
 - [b0ySie7e/Notepad-8.8.1_CVE-2025-49144](https://github.com/b0ySie7e/Notepad-8.8.1_CVE-2025-49144)
+- [timsonner/CVE-2025-49144-Research](https://github.com/timsonner/CVE-2025-49144-Research)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -5071,6 +5077,13 @@
 - [bi-zone/CVE-2024-7965](https://github.com/bi-zone/CVE-2024-7965)
 - [XiaomingX/cve-2024-7965-poc](https://github.com/XiaomingX/cve-2024-7965-poc)
 
+### CVE-2024-7966 (2024-08-21)
+
+<code>Out of bounds memory access in Skia in Google Chrome prior to 128.0.6613.84 allowed a remote attacker who had compromised the renderer process to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [HyHy100/Chrome-Skia-CVE-2024-7966](https://github.com/HyHy100/Chrome-Skia-CVE-2024-7966)
+
 ### CVE-2024-7971 (2024-08-21)
 
 <code>Type confusion in V8 in Google Chrome prior to 128.0.6613.84 allowed a remote attacker to exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
@@ -5106,6 +5119,20 @@
 
 - [horizon3ai/CVE-2024-8190](https://github.com/horizon3ai/CVE-2024-8190)
 - [flyingllama87/CVE-2024-8190-unauth](https://github.com/flyingllama87/CVE-2024-8190-unauth)
+
+### CVE-2024-8193 (2024-08-28)
+
+<code>Heap buffer overflow in Skia in Google Chrome prior to 128.0.6613.113 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [HyHy100/Chrome-Skia-CVE-2024-8193](https://github.com/HyHy100/Chrome-Skia-CVE-2024-8193)
+
+### CVE-2024-8198 (2024-08-28)
+
+<code>Heap buffer overflow in Skia in Google Chrome prior to 128.0.6613.113 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [HyHy100/Chrome-Skia-CVE-2024-8198](https://github.com/HyHy100/Chrome-Skia-CVE-2024-8198)
 
 ### CVE-2024-8232 (2024-09-10)
 
@@ -5206,6 +5233,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-8529](https://github.com/RandomRobbieBF/CVE-2024-8529)
+
+### CVE-2024-8636 (2024-09-11)
+
+<code>Heap buffer overflow in Skia in Google Chrome prior to 128.0.6613.137 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [HyHy100/Chrome-Skia-CVE-2024-8636](https://github.com/HyHy100/Chrome-Skia-CVE-2024-8636)
 
 ### CVE-2024-8672 (2024-11-28)
 
@@ -42829,7 +42863,7 @@
 - [davcwikla/CVE-2019-9053-exploit](https://github.com/davcwikla/CVE-2019-9053-exploit)
 - [BjarneVerschorre/CVE-2019-9053](https://github.com/BjarneVerschorre/CVE-2019-9053)
 - [Jason-Siu/CVE-2019-9053-Exploit-in-Python-3](https://github.com/Jason-Siu/CVE-2019-9053-Exploit-in-Python-3)
-- [FedericoTorres233/CVE-2019-9053-Fixed](https://github.com/FedericoTorres233/CVE-2019-9053-Fixed)
+- [0xftorres/CVE-2019-9053-Fixed](https://github.com/0xftorres/CVE-2019-9053-Fixed)
 - [Dh4nuJ4/SimpleCTF-UpdatedExploit](https://github.com/Dh4nuJ4/SimpleCTF-UpdatedExploit)
 - [TeymurNovruzov/CVE-2019-9053-python3-remastered](https://github.com/TeymurNovruzov/CVE-2019-9053-python3-remastered)
 - [jtoalu/CTF-CVE-2019-9053-GTFOBins](https://github.com/jtoalu/CTF-CVE-2019-9053-GTFOBins)
@@ -46460,6 +46494,7 @@
 - [lisu60/cve-2018-6574](https://github.com/lisu60/cve-2018-6574)
 - [Saboor-Hakimi/CVE-2018-6574](https://github.com/Saboor-Hakimi/CVE-2018-6574)
 - [elw0od/PentesterLab](https://github.com/elw0od/PentesterLab)
+- [paulogmota/CVE-2018-6574](https://github.com/paulogmota/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -51140,6 +51175,13 @@
 </code>
 
 - [ibnurusdianto/CVE-2017-16894](https://github.com/ibnurusdianto/CVE-2017-16894)
+
+### CVE-2017-16921 (2017-12-08)
+
+<code>In OTRS 6.0.x up to and including 6.0.1, OTRS 5.0.x up to and including 5.0.24, and OTRS 4.0.x up to and including 4.0.26, an attacker who is logged into OTRS as an agent can manipulate form parameters (related to PGP) and execute arbitrary shell commands with the permissions of the OTRS or web server user.
+</code>
+
+- [Smarttfoxx/OTRS-4.0.1-6.0.1-Remote-Command-Execution](https://github.com/Smarttfoxx/OTRS-4.0.1-6.0.1-Remote-Command-Execution)
 
 ### CVE-2017-16943 (2017-11-25)
 
