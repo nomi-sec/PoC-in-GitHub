@@ -999,13 +999,7 @@
 
 - [hoefler02/CVE-2025-21756](https://github.com/hoefler02/CVE-2025-21756)
 - [KuanKuanQAQ/cve-testing](https://github.com/KuanKuanQAQ/cve-testing)
-
-### CVE-2025-22056 (2025-04-16)
-
-<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nft_tunnel: fix geneve_opt type confusion addition\n\nWhen handling multiple NFTA_TUNNEL_KEY_OPTS_GENEVE attributes, the\nparsing logic should place every geneve_opt structure one by one\ncompactly. Hence, when deciding the next geneve_opt position, the\npointer addition should be in units of char *.\n\nHowever, the current implementation erroneously does type conversion\nbefore the addition, which will lead to heap out-of-bounds write.\n\n[    6.989857] ==================================================================\n[    6.990293] BUG: KASAN: slab-out-of-bounds in nft_tunnel_obj_init+0x977/0xa70\n[    6.990725] Write of size 124 at addr ffff888005f18974 by task poc/178\n[    6.991162]\n[    6.991259] CPU: 0 PID: 178 Comm: poc-oob-write Not tainted 6.1.132 #1\n[    6.991655] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.0-0-gd239552ce722-prebuilt.qemu.org 04/01/2014\n[    6.992281] Call Trace:\n[    6.992423]  &lt;TASK&gt;\n[    6.992586]  dump_stack_lvl+0x44/0x5c\n[    6.992801]  print_report+0x184/0x4be\n[    6.993790]  kasan_report+0xc5/0x100\n[    6.994252]  kasan_check_range+0xf3/0x1a0\n[    6.994486]  memcpy+0x38/0x60\n[    6.994692]  nft_tunnel_obj_init+0x977/0xa70\n[    6.995677]  nft_obj_init+0x10c/0x1b0\n[    6.995891]  nf_tables_newobj+0x585/0x950\n[    6.996922]  nfnetlink_rcv_batch+0xdf9/0x1020\n[    6.998997]  nfnetlink_rcv+0x1df/0x220\n[    6.999537]  netlink_unicast+0x395/0x530\n[    7.000771]  netlink_sendmsg+0x3d0/0x6d0\n[    7.001462]  __sock_sendmsg+0x99/0xa0\n[    7.001707]  ____sys_sendmsg+0x409/0x450\n[    7.002391]  ___sys_sendmsg+0xfd/0x170\n[    7.003145]  __sys_sendmsg+0xea/0x170\n[    7.004359]  do_syscall_64+0x5e/0x90\n[    7.005817]  entry_SYSCALL_64_after_hwframe+0x6e/0xd8\n[    7.006127] RIP: 0033:0x7ec756d4e407\n[    7.006339] Code: 48 89 fa 4c 89 df e8 38 aa 00 00 8b 93 08 03 00 00 59 5e 48 83 f8 fc 74 1a 5b c3 0f 1f 84 00 00 00 00 00 48 8b 44 24 10 0f 05 &lt;5b&gt; c3 0f 1f 80 00 00 00 00 83 e2 39 83 faf\n[    7.007364] RSP: 002b:00007ffed5d46760 EFLAGS: 00000202 ORIG_RAX: 000000000000002e\n[    7.007827] RAX: ffffffffffffffda RBX: 00007ec756cc4740 RCX: 00007ec756d4e407\n[    7.008223] RDX: 0000000000000000 RSI: 00007ffed5d467f0 RDI: 0000000000000003\n[    7.008620] RBP: 00007ffed5d468a0 R08: 0000000000000000 R09: 0000000000000000\n[    7.009039] R10: 0000000000000000 R11: 0000000000000202 R12: 0000000000000000\n[    7.009429] R13: 00007ffed5d478b0 R14: 00007ec756ee5000 R15: 00005cbd4e655cb8\n\nFix this bug with correct pointer addition and conversion in parse\nand dump code.
-</code>
-
-- [henrymartin262/CVE-2025-22056-exploit](https://github.com/henrymartin262/CVE-2025-22056-exploit)
+- [khoatran107/cve-2025-21756](https://github.com/khoatran107/cve-2025-21756)
 
 ### CVE-2025-22223 (2025-03-24)
 
@@ -2564,6 +2558,9 @@
 - [K1tt3h/CVE-2025-32463-POC](https://github.com/K1tt3h/CVE-2025-32463-POC)
 - [Adonijah01/cve-2025-32463-lab](https://github.com/Adonijah01/cve-2025-32463-lab)
 - [SysMancer/CVE-2025-32463](https://github.com/SysMancer/CVE-2025-32463)
+- [kh4sh3i/CVE-2025-32463](https://github.com/kh4sh3i/CVE-2025-32463)
+- [neko205-mx/CVE-2025-32463_Exploit](https://github.com/neko205-mx/CVE-2025-32463_Exploit)
+- [pevinkumar10/CVE-2025-32463](https://github.com/pevinkumar10/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -2674,6 +2671,13 @@
 
 - [SeanHeelan/o3_finds_cve-2025-37899](https://github.com/SeanHeelan/o3_finds_cve-2025-37899)
 - [vett3x/SMB-LINUX-CVE-2025-37899](https://github.com/vett3x/SMB-LINUX-CVE-2025-37899)
+
+### CVE-2025-38089 (2025-06-30)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nsunrpc: handle SVC_GARBAGE during svc auth processing as auth error\n\ntianshuo han reported a remotely-triggerable crash if the client sends a\nkernel RPC server a specially crafted packet. If decoding the RPC reply\nfails in such a way that SVC_GARBAGE is returned without setting the\nrq_accept_statp pointer, then that pointer can be dereferenced and a\nvalue stored there.\n\nIf it's the first time the thread has processed an RPC, then that\npointer will be set to NULL and the kernel will crash. In other cases,\nit could create a memory scribble.\n\nThe server sunrpc code treats a SVC_GARBAGE return from svc_authenticate\nor pg_authenticate as if it should send a GARBAGE_ARGS reply. RFC 5531\nsays that if authentication fails that the RPC should be rejected\ninstead with a status of AUTH_ERR.\n\nHandle a SVC_GARBAGE return as an AUTH_ERROR, with a reason of\nAUTH_BADCRED instead of returning GARBAGE_ARGS in that case. This\nsidesteps the whole problem of touching the rpc_accept_statp pointer in\nthis situation and avoids the crash.
+</code>
+
+- [keymaker-arch/NFSundown](https://github.com/keymaker-arch/NFSundown)
 
 ### CVE-2025-39436 (2025-04-17)
 
@@ -2947,6 +2951,13 @@
 </code>
 
 - [d3sca/CVE-2025-46822](https://github.com/d3sca/CVE-2025-46822)
+
+### CVE-2025-47175 (2025-06-10)
+
+<code>Use after free in Microsoft Office PowerPoint allows an unauthorized attacker to execute code locally.
+</code>
+
+- [mbanyamer/mbanyamer-Microsoft-PowerPoint-Use-After-Free-Remote-Code-Execution-RCE](https://github.com/mbanyamer/mbanyamer-Microsoft-PowerPoint-Use-After-Free-Remote-Code-Execution-RCE)
 
 ### CVE-2025-47181 (2025-05-22)
 
@@ -7027,6 +7038,7 @@
 - [XiaomingX/cve-2024-23113-exp](https://github.com/XiaomingX/cve-2024-23113-exp)
 - [XiaomingX/cve-2024-23113-poc](https://github.com/XiaomingX/cve-2024-23113-poc)
 - [valornode/CVE-2024-23113](https://github.com/valornode/CVE-2024-23113)
+- [MAVRICK-1/cve-2024-23113-test-env](https://github.com/MAVRICK-1/cve-2024-23113-test-env)
 
 ### CVE-2024-23208 (2024-01-23)
 
@@ -25029,7 +25041,7 @@
 <code>All versions of package angular are vulnerable to Cross-site Scripting (XSS) due to insecure page caching in the Internet Explorer browser, which allows interpolation of &lt;textarea&gt; elements.
 </code>
 
-- [gkalpak/angularjs-poc-cve-2022-25869](https://github.com/gkalpak/angularjs-poc-cve-2022-25869)
+- [neverendingsupport/angularjs-poc-cve-2022-25869](https://github.com/neverendingsupport/angularjs-poc-cve-2022-25869)
 
 ### CVE-2022-25927 (2023-01-25)
 
@@ -28680,6 +28692,7 @@
 - [HPT-Intern-Task-Submission/CVE-2022-46169](https://github.com/HPT-Intern-Task-Submission/CVE-2022-46169)
 - [lof1sec/CVE-2022-46169](https://github.com/lof1sec/CVE-2022-46169)
 - [RdBBB3/SHELL-POC-CVE-2022-46169](https://github.com/RdBBB3/SHELL-POC-CVE-2022-46169)
+- [alv-david/CVE-2022-46169-Cacti-1.2.22](https://github.com/alv-david/CVE-2022-46169-Cacti-1.2.22)
 
 ### CVE-2022-46175 (2022-12-24)
 
