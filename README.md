@@ -2161,7 +2161,6 @@
 - [B1ack4sh/Blackash-CVE-2025-29927](https://github.com/B1ack4sh/Blackash-CVE-2025-29927)
 - [amitlttwo/Next.JS-CVE-2025-29927](https://github.com/amitlttwo/Next.JS-CVE-2025-29927)
 - [KamalideenAK/poc-cve-2025-29927](https://github.com/KamalideenAK/poc-cve-2025-29927)
-- [bohmiiidd/CVE-2025-29927-exploit-code-](https://github.com/bohmiiidd/CVE-2025-29927-exploit-code-)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -2559,6 +2558,7 @@
 - [pr0v3rbs/CVE-2025-32463_chwoot](https://github.com/pr0v3rbs/CVE-2025-32463_chwoot)
 - [4f-kira/CVE-2025-32463](https://github.com/4f-kira/CVE-2025-32463)
 - [K1tt3h/CVE-2025-32463-POC](https://github.com/K1tt3h/CVE-2025-32463-POC)
+- [Adonijah01/cve-2025-32463-lab](https://github.com/Adonijah01/cve-2025-32463-lab)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3144,6 +3144,13 @@
 </code>
 
 - [louay-075/CVE-2025-49223-BillboardJS-PoC](https://github.com/louay-075/CVE-2025-49223-BillboardJS-PoC)
+
+### CVE-2025-49493 (2025-06-30)
+
+<code>Akamai CloudTest before 60 2025.06.02 (12988) allows file inclusion via XML External Entity (XXE) injection.
+</code>
+
+- [MuhammadWaseem29/CVE-2025-49493-Poc](https://github.com/MuhammadWaseem29/CVE-2025-49493-Poc)
 
 ### CVE-2025-49619 (2025-06-07)
 
@@ -4682,13 +4689,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-6330](https://github.com/RandomRobbieBF/CVE-2024-6330)
-
-### CVE-2024-6345 (2024-07-15)
-
-<code>A vulnerability in the package_index module of pypa/setuptools versions up to 69.1.1 allows for remote code execution via its download functions. These functions, which are used to download packages from URLs provided by users or retrieved from package index servers, are susceptible to code injection. If these functions are exposed to user-controlled inputs, such as package URLs, they can execute arbitrary commands on the system. The issue is fixed in version 70.0.
-</code>
-
-- [nemekath/csrgenerator-secure](https://github.com/nemekath/csrgenerator-secure)
 
 ### CVE-2024-6366 (2024-07-29)
 
@@ -13366,7 +13366,6 @@
 - [churamanib/CVE-2023-0386](https://github.com/churamanib/CVE-2023-0386)
 - [EstamelGG/CVE-2023-0386-libs](https://github.com/EstamelGG/CVE-2023-0386-libs)
 - [orilevy8/cve-2023-0386](https://github.com/orilevy8/cve-2023-0386)
-- [bchevCH/CVE-2023-0386](https://github.com/bchevCH/CVE-2023-0386)
 
 ### CVE-2023-0400 (2023-02-01)
 
@@ -22391,6 +22390,7 @@
 - [cypherlobo/DirtyPipe-BSI](https://github.com/cypherlobo/DirtyPipe-BSI)
 - [byteReaper77/Dirty-Pipe](https://github.com/byteReaper77/Dirty-Pipe)
 - [DelphineTan/Murdoch-CVE-2022-0847](https://github.com/DelphineTan/Murdoch-CVE-2022-0847)
+- [morgenm/dirtypipe](https://github.com/morgenm/dirtypipe)
 
 ### CVE-2022-0848 (2022-03-04)
 
