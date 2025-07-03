@@ -822,7 +822,11 @@
 
 - [haxerr9/CVE-2025-5840](https://github.com/haxerr9/CVE-2025-5840)
 
-### CVE-2025-5961
+### CVE-2025-5961 (2025-07-03)
+
+<code>The Migration, Backup, Staging – WPvivid Backup &amp; Migration plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'wpvivid_upload_import_files' function in all versions up to, and including, 0.9.116. This makes it possible for authenticated attackers, with Administrator-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible. NOTE: Uploaded files are only accessible on WordPress instances running on the NGINX web server as the existing .htaccess within the target file upload folder prevents access on Apache servers.
+</code>
+
 - [d0n601/CVE-2025-5961](https://github.com/d0n601/CVE-2025-5961)
 
 ### CVE-2025-5964 (2025-06-15)
@@ -843,6 +847,7 @@
 - [guinea-offensive-security/CVE-2025-6019](https://github.com/guinea-offensive-security/CVE-2025-6019)
 - [And-oss/CVE-2025-6019-exploit](https://github.com/And-oss/CVE-2025-6019-exploit)
 - [neko205-mx/CVE-2025-6019_Exploit](https://github.com/neko205-mx/CVE-2025-6019_Exploit)
+- [dreysanox/CVE-2025-6019_Poc](https://github.com/dreysanox/CVE-2025-6019_Poc)
 
 ### CVE-2025-6218 (2025-06-21)
 
@@ -875,6 +880,9 @@
 
 - [grupooruss/Citrix-cve-2025-6543](https://github.com/grupooruss/Citrix-cve-2025-6543)
 - [seabed-atavism/CVE-2025-6543](https://github.com/seabed-atavism/CVE-2025-6543)
+
+### CVE-2025-6586
+- [d0n601/CVE-2025-6586](https://github.com/d0n601/CVE-2025-6586)
 
 ### CVE-2025-6855 (2025-06-29)
 
@@ -2122,6 +2130,7 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
+- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -2562,6 +2571,8 @@
 
 - [Hacksparo/CVE-2025-32462](https://github.com/Hacksparo/CVE-2025-32462)
 - [CryingN/CVE-2025-32462](https://github.com/CryingN/CVE-2025-32462)
+- [atomicjjbod/CVE-2025-32462](https://github.com/atomicjjbod/CVE-2025-32462)
+- [cybersentinelx1/CVE-2025-32462-Exploit](https://github.com/cybersentinelx1/CVE-2025-32462-Exploit)
 
 ### CVE-2025-32463 (2025-06-30)
 
@@ -3193,6 +3204,13 @@
 </code>
 
 - [MuhammadWaseem29/CVE-2025-49493-Poc](https://github.com/MuhammadWaseem29/CVE-2025-49493-Poc)
+
+### CVE-2025-49596 (2025-06-13)
+
+<code>The MCP inspector is a developer tool for testing and debugging MCP servers. Versions of MCP Inspector below 0.14.1 are vulnerable to remote code execution due to lack of authentication between the Inspector client and proxy, allowing unauthenticated requests to launch MCP commands over stdio. Users should immediately upgrade to version 0.14.1 or later to address these vulnerabilities.
+</code>
+
+- [ashiqrehan-21/MCP-Inspector-CVE-2025-49596](https://github.com/ashiqrehan-21/MCP-Inspector-CVE-2025-49596)
 
 ### CVE-2025-49619 (2025-06-07)
 
@@ -27514,6 +27532,7 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
+- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -46126,6 +46145,13 @@
 </code>
 
 - [bazad/gsscred-move-uaf](https://github.com/bazad/gsscred-move-uaf)
+
+### CVE-2018-4386 (2019-04-03)
+
+<code>Multiple memory corruption issues were addressed with improved memory handling. This issue affected versions prior to iOS 12.1, tvOS 12.1, watchOS 5.1, Safari 12.0.1, iTunes 12.9.1, iCloud for Windows 7.8.
+</code>
+
+- [a0zhar/Bad_Hoist-WriteUp](https://github.com/a0zhar/Bad_Hoist-WriteUp)
 
 ### CVE-2018-4407 (2019-04-03)
 
