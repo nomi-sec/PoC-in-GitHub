@@ -787,7 +787,7 @@
 <code>Out of bounds read and write in V8 in Google Chrome prior to 137.0.7151.68 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
 </code>
 
-- [itsShotgun/chrome_cve-2025-5419_checker](https://github.com/itsShotgun/chrome_cve-2025-5419_checker)
+- [itsShotgun/chrome_v8_cve_checker](https://github.com/itsShotgun/chrome_v8_cve_checker)
 
 ### CVE-2025-5640 (2025-06-05)
 
@@ -871,6 +871,13 @@
 
 - [grupooruss/Citrix-cve-2025-6543](https://github.com/grupooruss/Citrix-cve-2025-6543)
 - [seabed-atavism/CVE-2025-6543](https://github.com/seabed-atavism/CVE-2025-6543)
+
+### CVE-2025-6855 (2025-06-29)
+
+<code>Eine Schwachstelle wurde in chatchat-space Langchain-Chatchat bis 0.3.1 entdeckt. Sie wurde als kritisch eingestuft. Dies betrifft einen unbekannten Teil der Datei /v1/file. Mit der Manipulation des Arguments flag mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [Spirizeon/chainwalk](https://github.com/Spirizeon/chainwalk)
 
 ### CVE-2025-6860 (2025-06-29)
 
@@ -1379,6 +1386,7 @@
 - [maliqto/PoC-CVE-2025-24813](https://github.com/maliqto/PoC-CVE-2025-24813)
 - [mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-](https://github.com/mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-)
 - [x1ongsec/CVE-2025-24813](https://github.com/x1ongsec/CVE-2025-24813)
+- [yaleman/cve-2025-24813-poc](https://github.com/yaleman/cve-2025-24813-poc)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -3034,6 +3042,7 @@
 ### CVE-2025-47812
 - [4m3rr0r/CVE-2025-47812-poc](https://github.com/4m3rr0r/CVE-2025-47812-poc)
 - [0xcan1337/CVE-2025-47812-poC](https://github.com/0xcan1337/CVE-2025-47812-poC)
+- [0xgh057r3c0n/CVE-2025-47812](https://github.com/0xgh057r3c0n/CVE-2025-47812)
 
 ### CVE-2025-47827 (2025-06-05)
 
@@ -32134,13 +32143,6 @@
 
 - [atorralba/CVE-2021-30005-POC](https://github.com/atorralba/CVE-2021-30005-POC)
 
-### CVE-2021-30047 (2023-08-22)
-
-<code>VSFTPD 3.0.3 allows attackers to cause a denial of service due to limited number of connections allowed.
-</code>
-
-- [Andreyfreis/CVE-2021-30047](https://github.com/Andreyfreis/CVE-2021-30047)
-
 ### CVE-2021-30109 (2021-04-05)
 
 <code>Froala Editor 3.2.6 is affected by Cross Site Scripting (XSS). Under certain conditions, a base64 crafted string leads to persistent Cross-site scripting (XSS) vulnerability within the hyperlink creation module.
@@ -34182,6 +34184,7 @@
 - [Ask-os/CVE-2021-41773](https://github.com/Ask-os/CVE-2021-41773)
 - [CyberQuestor-infosec/CVE-2021-41773-Apache_2.4.49-Path-traversal-to-RCE](https://github.com/CyberQuestor-infosec/CVE-2021-41773-Apache_2.4.49-Path-traversal-to-RCE)
 - [psibot/apache-vulnerable](https://github.com/psibot/apache-vulnerable)
+- [blu3ming/PoC-CVE-2021-41773](https://github.com/blu3ming/PoC-CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -55477,7 +55480,6 @@
 </code>
 
 - [s3mPr1linux/CVE-2011-0762](https://github.com/s3mPr1linux/CVE-2011-0762)
-- [Andreyfreis/CVE-2011-0762](https://github.com/Andreyfreis/CVE-2011-0762)
 
 ### CVE-2011-1237 (2011-04-13)
 
