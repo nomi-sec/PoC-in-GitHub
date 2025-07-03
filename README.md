@@ -8,9 +8,6 @@
 
 - [z3usx01/CVE-2025-0054](https://github.com/z3usx01/CVE-2025-0054)
 
-### CVE-2025-0086
-- [Mahesh-970/CVE-2025-0086](https://github.com/Mahesh-970/CVE-2025-0086)
-
 ### CVE-2025-0087
 - [SpiralBL0CK/CVE-2025-0087-](https://github.com/SpiralBL0CK/CVE-2025-0087-)
 - [SpiralBL0CK/CVE-2025-0087](https://github.com/SpiralBL0CK/CVE-2025-0087)
@@ -834,6 +831,9 @@
 </code>
 
 - [byteReaper77/CVE-2025-5964-](https://github.com/byteReaper77/CVE-2025-5964-)
+
+### CVE-2025-6018
+- [iamgithubber/CVE-2025-6018-19-exploit](https://github.com/iamgithubber/CVE-2025-6018-19-exploit)
 
 ### CVE-2025-6019 (2025-06-19)
 
@@ -2122,7 +2122,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
-- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -2562,6 +2561,7 @@
 </code>
 
 - [Hacksparo/CVE-2025-32462](https://github.com/Hacksparo/CVE-2025-32462)
+- [CryingN/CVE-2025-32462](https://github.com/CryingN/CVE-2025-32462)
 
 ### CVE-2025-32463 (2025-06-30)
 
@@ -2579,6 +2579,9 @@
 - [zhaduchanhzz/CVE-2025-32463_POC](https://github.com/zhaduchanhzz/CVE-2025-32463_POC)
 - [robbert1978/CVE-2025-32463_POC](https://github.com/robbert1978/CVE-2025-32463_POC)
 - [Mikivirus0/sudoinjection](https://github.com/Mikivirus0/sudoinjection)
+- [nflatrea/CVE-2025-32463](https://github.com/nflatrea/CVE-2025-32463)
+- [san8383/CVE-2025-32463](https://github.com/san8383/CVE-2025-32463)
+- [0xAkarii/CVE-2025-32463](https://github.com/0xAkarii/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -2834,6 +2837,9 @@
 
 - [xp3s/CVE-2025-45250](https://github.com/xp3s/CVE-2025-45250)
 - [Anike-x/CVE-2025-45250](https://github.com/Anike-x/CVE-2025-45250)
+
+### CVE-2025-45407
+- [yallasec/CVE-2025-45407](https://github.com/yallasec/CVE-2025-45407)
 
 ### CVE-2025-45466
 - [zgsnj123/CVE-2025-45466](https://github.com/zgsnj123/CVE-2025-45466)
@@ -8066,14 +8072,6 @@
 - [jakabakos/CVE-2024-27348-Apache-HugeGraph-RCE](https://github.com/jakabakos/CVE-2024-27348-Apache-HugeGraph-RCE)
 - [p0et08/CVE-2024-27348](https://github.com/p0et08/CVE-2024-27348)
 
-### CVE-2024-27388 (2024-05-01)
-
-<code>In the Linux kernel, the following vulnerability has been resolved:\n\nSUNRPC: fix some memleaks in gssx_dec_option_array\n\nThe creds and oa-&gt;data need to be freed in the error-handling paths after\ntheir allocation. So this patch add these deallocations in the\ncorresponding paths.
-</code>
-
-- [Mahesh-970/CVE-2024-27388_whitesource](https://github.com/Mahesh-970/CVE-2024-27388_whitesource)
-- [Mahesh-970/CVE-2024-27388_afterPatch](https://github.com/Mahesh-970/CVE-2024-27388_afterPatch)
-
 ### CVE-2024-27398 (2024-05-13)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: Fix use-after-free bugs caused by sco_sock_timeout\n\nWhen the sco connection is established and then, the sco socket\nis releasing, timeout_work will be scheduled to judge whether\nthe sco disconnection is timeout. The sock will be deallocated\nlater, but it is dereferenced again in sco_sock_timeout. As a\nresult, the use-after-free bugs will happen. The root cause is\nshown below:\n\n    Cleanup Thread               |      Worker Thread\nsco_sock_release                 |\n  sco_sock_close                 |\n    __sco_sock_close             |\n      sco_sock_set_timer         |\n        schedule_delayed_work    |\n  sco_sock_kill                  |    (wait a time)\n    sock_put(sk) //FREE          |  sco_sock_timeout\n                                 |    sock_hold(sk) //USE\n\nThe KASAN report triggered by POC is shown below:\n\n[   95.890016] ==================================================================\n[   95.890496] BUG: KASAN: slab-use-after-free in sco_sock_timeout+0x5e/0x1c0\n[   95.890755] Write of size 4 at addr ffff88800c388080 by task kworker/0:0/7\n...\n[   95.890755] Workqueue: events sco_sock_timeout\n[   95.890755] Call Trace:\n[   95.890755]  &lt;TASK&gt;\n[   95.890755]  dump_stack_lvl+0x45/0x110\n[   95.890755]  print_address_description+0x78/0x390\n[   95.890755]  print_report+0x11b/0x250\n[   95.890755]  ? __virt_addr_valid+0xbe/0xf0\n[   95.890755]  ? sco_sock_timeout+0x5e/0x1c0\n[   95.890755]  kasan_report+0x139/0x170\n[   95.890755]  ? update_load_avg+0xe5/0x9f0\n[   95.890755]  ? sco_sock_timeout+0x5e/0x1c0\n[   95.890755]  kasan_check_range+0x2c3/0x2e0\n[   95.890755]  sco_sock_timeout+0x5e/0x1c0\n[   95.890755]  process_one_work+0x561/0xc50\n[   95.890755]  worker_thread+0xab2/0x13c0\n[   95.890755]  ? pr_cont_work+0x490/0x490\n[   95.890755]  kthread+0x279/0x300\n[   95.890755]  ? pr_cont_work+0x490/0x490\n[   95.890755]  ? kthread_blkcg+0xa0/0xa0\n[   95.890755]  ret_from_fork+0x34/0x60\n[   95.890755]  ? kthread_blkcg+0xa0/0xa0\n[   95.890755]  ret_from_fork_asm+0x11/0x20\n[   95.890755]  &lt;/TASK&gt;\n[   95.890755]\n[   95.890755] Allocated by task 506:\n[   95.890755]  kasan_save_track+0x3f/0x70\n[   95.890755]  __kasan_kmalloc+0x86/0x90\n[   95.890755]  __kmalloc+0x17f/0x360\n[   95.890755]  sk_prot_alloc+0xe1/0x1a0\n[   95.890755]  sk_alloc+0x31/0x4e0\n[   95.890755]  bt_sock_alloc+0x2b/0x2a0\n[   95.890755]  sco_sock_create+0xad/0x320\n[   95.890755]  bt_sock_create+0x145/0x320\n[   95.890755]  __sock_create+0x2e1/0x650\n[   95.890755]  __sys_socket+0xd0/0x280\n[   95.890755]  __x64_sys_socket+0x75/0x80\n[   95.890755]  do_syscall_64+0xc4/0x1b0\n[   95.890755]  entry_SYSCALL_64_after_hwframe+0x67/0x6f\n[   95.890755]\n[   95.890755] Freed by task 506:\n[   95.890755]  kasan_save_track+0x3f/0x70\n[   95.890755]  kasan_save_free_info+0x40/0x50\n[   95.890755]  poison_slab_object+0x118/0x180\n[   95.890755]  __kasan_slab_free+0x12/0x30\n[   95.890755]  kfree+0xb2/0x240\n[   95.890755]  __sk_destruct+0x317/0x410\n[   95.890755]  sco_sock_release+0x232/0x280\n[   95.890755]  sock_close+0xb2/0x210\n[   95.890755]  __fput+0x37f/0x770\n[   95.890755]  task_work_run+0x1ae/0x210\n[   95.890755]  get_signal+0xe17/0xf70\n[   95.890755]  arch_do_signal_or_restart+0x3f/0x520\n[   95.890755]  syscall_exit_to_user_mode+0x55/0x120\n[   95.890755]  do_syscall_64+0xd1/0x1b0\n[   95.890755]  entry_SYSCALL_64_after_hwframe+0x67/0x6f\n[   95.890755]\n[   95.890755] The buggy address belongs to the object at ffff88800c388000\n[   95.890755]  which belongs to the cache kmalloc-1k of size 1024\n[   95.890755] The buggy address is located 128 bytes inside of\n[   95.890755]  freed 1024-byte region [ffff88800c388000, ffff88800c388400)\n[   95.890755]\n[   95.890755] The buggy address belongs to the physical page:\n[   95.890755] page: refcount:1 mapcount:0 mapping:0000000000000000 index:0xffff88800c38a800 pfn:0xc388\n[   95.890755] head: order:3 entire_mapcount:0 nr_pages_mapped:0 pincount:0\n[   95.890755] ano\n---truncated---
@@ -10833,13 +10831,6 @@
 - [convisolabs/CVE-2024-43044-jenkins](https://github.com/convisolabs/CVE-2024-43044-jenkins)
 - [DACC4/CVE-2024-43044-jenkins-creds](https://github.com/DACC4/CVE-2024-43044-jenkins-creds)
 
-### CVE-2024-43097 (2025-01-02)
-
-<code>In resizeToAtLeast of SkRegion.cpp, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
-</code>
-
-- [Mahesh-970/CVE-2024-43097](https://github.com/Mahesh-970/CVE-2024-43097)
-
 ### CVE-2024-43160 (2024-08-13)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in BerqWP allows Code Injection.This issue affects BerqWP: from n/a through 1.7.6.
@@ -10905,20 +10896,6 @@
 </code>
 
 - [Kvngtheta/CVE-2024-43583-PoC](https://github.com/Kvngtheta/CVE-2024-43583-PoC)
-
-### CVE-2024-43762 (2025-01-02)
-
-<code>In multiple locations, there is a possible way to avoid unbinding of a service from the system due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
-</code>
-
-- [Mahesh-970/CVE-2024-43762](https://github.com/Mahesh-970/CVE-2024-43762)
-
-### CVE-2024-43768 (2025-01-02)
-
-<code>In skia_alloc_func of SkDeflate.cpp, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
-</code>
-
-- [Mahesh-970/CVE-2024-43768](https://github.com/Mahesh-970/CVE-2024-43768)
 
 ### CVE-2024-43788 (2024-08-27)
 
@@ -15323,7 +15300,7 @@
 - [Satheesh575555/frameworks_native_AOSP10_r33_CVE-2023-21118](https://github.com/Satheesh575555/frameworks_native_AOSP10_r33_CVE-2023-21118)
 
 ### CVE-2023-21125
-- [Mahesh-970/Mahesh-970-CVE-2023-21125_bluedriod_repo](https://github.com/Mahesh-970/Mahesh-970-CVE-2023-21125_bluedriod_repo)
+- [761669642/Mahesh-970-CVE-2023-21125_bluedriod_repo](https://github.com/761669642/Mahesh-970-CVE-2023-21125_bluedriod_repo)
 
 ### CVE-2023-21173 (2023-06-28)
 
@@ -27537,7 +27514,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -37387,7 +37363,7 @@
 <code>Type confusion in V8 in Google Chrome prior to 80.0.3987.122 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 </code>
 
-- [ChoKyuWon/CVE-2020-6418](https://github.com/ChoKyuWon/CVE-2020-6418)
+- [ASkyeye/CVE-2020-6418](https://github.com/ASkyeye/CVE-2020-6418)
 - [Goyotan/CVE-2020-6418-PoC](https://github.com/Goyotan/CVE-2020-6418-PoC)
 - [ulexec/ChromeSHELFLoader](https://github.com/ulexec/ChromeSHELFLoader)
 - [SivaPriyaRanganatha/CVE-2020-6418](https://github.com/SivaPriyaRanganatha/CVE-2020-6418)
@@ -40617,7 +40593,6 @@
 
 - [motikan2010/CVE-2020-27223](https://github.com/motikan2010/CVE-2020-27223)
 - [ttestoo/Jetty-CVE-2020-27223](https://github.com/ttestoo/Jetty-CVE-2020-27223)
-- [Mahesh-970/G3_Jetty.project_CVE-2020-27223](https://github.com/Mahesh-970/G3_Jetty.project_CVE-2020-27223)
 
 ### CVE-2020-27252 (2020-12-14)
 
@@ -43746,7 +43721,7 @@
 - [hev0x/CVE-2019-12725-Command-Injection](https://github.com/hev0x/CVE-2019-12725-Command-Injection)
 - [gougou123-hash/CVE-2019-12725](https://github.com/gougou123-hash/CVE-2019-12725)
 - [YZS17/CVE-2019-12725](https://github.com/YZS17/CVE-2019-12725)
-- [nowindows9/CVE-2019-12725-modified-exp](https://github.com/nowindows9/CVE-2019-12725-modified-exp)
+- [t0mmy4/CVE-2019-12725-modified-exp](https://github.com/t0mmy4/CVE-2019-12725-modified-exp)
 
 ### CVE-2019-12735 (2019-06-05)
 
@@ -44019,7 +43994,7 @@
 </code>
 
 - [cve-2019-13720/cve-2019-13720](https://github.com/cve-2019-13720/cve-2019-13720)
-- [ChoKyuWon/CVE-2019-13720](https://github.com/ChoKyuWon/CVE-2019-13720)
+- [bb33bb/CVE-2019-13720](https://github.com/bb33bb/CVE-2019-13720)
 
 ### CVE-2019-13764 (2019-12-10)
 
