@@ -825,6 +825,9 @@
 
 - [haxerr9/CVE-2025-5840](https://github.com/haxerr9/CVE-2025-5840)
 
+### CVE-2025-5961
+- [d0n601/CVE-2025-5961](https://github.com/d0n601/CVE-2025-5961)
+
 ### CVE-2025-5964 (2025-06-15)
 
 <code>A path traversal issue in the API endpoint in M-Files Server before version 25.6.14925.0 allows an authenticated user to read files in the server.
@@ -849,6 +852,7 @@
 - [speinador/CVE-2025-6218_WinRAR](https://github.com/speinador/CVE-2025-6218_WinRAR)
 - [ignis-sec/CVE-2025-6218](https://github.com/ignis-sec/CVE-2025-6218)
 - [skimask1690/CVE-2025-6218-POC](https://github.com/skimask1690/CVE-2025-6218-POC)
+- [mulwareX/CVE-2025-6218-POC](https://github.com/mulwareX/CVE-2025-6218-POC)
 
 ### CVE-2025-6220 (2025-06-18)
 
@@ -922,6 +926,7 @@
 </code>
 
 - [abrewer251/CVE-2025-20281-2-Cisco-ISE-RCE](https://github.com/abrewer251/CVE-2025-20281-2-Cisco-ISE-RCE)
+- [grupooruss/CVE-2025-20281-Cisco](https://github.com/grupooruss/CVE-2025-20281-Cisco)
 
 ### CVE-2025-20286 (2025-06-04)
 
@@ -2573,6 +2578,7 @@
 - [pevinkumar10/CVE-2025-32463](https://github.com/pevinkumar10/CVE-2025-32463)
 - [zhaduchanhzz/CVE-2025-32463_POC](https://github.com/zhaduchanhzz/CVE-2025-32463_POC)
 - [robbert1978/CVE-2025-32463_POC](https://github.com/robbert1978/CVE-2025-32463_POC)
+- [Mikivirus0/sudoinjection](https://github.com/Mikivirus0/sudoinjection)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -26432,6 +26438,9 @@
 
 - [realyme/CVE-2022-31479-test](https://github.com/realyme/CVE-2022-31479-test)
 
+### CVE-2022-31491
+- [ready2disclose/CVE-2022-31491](https://github.com/ready2disclose/CVE-2022-31491)
+
 ### CVE-2022-31499 (2022-08-25)
 
 <code>Nortek Linear eMerge E3-Series devices before 0.32-08f allow an unauthenticated attacker to inject OS commands via ReaderNo. NOTE: this issue exists because of an incomplete fix for CVE-2019-7256.
@@ -28190,6 +28199,9 @@
 </code>
 
 - [nibin-m/CVE-2022-43097](https://github.com/nibin-m/CVE-2022-43097)
+
+### CVE-2022-43110
+- [ready2disclose/CVE-2022-43110](https://github.com/ready2disclose/CVE-2022-43110)
 
 ### CVE-2022-43117 (2022-11-21)
 
