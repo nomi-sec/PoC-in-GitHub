@@ -880,6 +880,14 @@
 
 - [grupooruss/Citrix-cve-2025-6543](https://github.com/grupooruss/Citrix-cve-2025-6543)
 - [seabed-atavism/CVE-2025-6543](https://github.com/seabed-atavism/CVE-2025-6543)
+- [abrewer251/CVE-2025-6543_CitrixNetScaler_PoC](https://github.com/abrewer251/CVE-2025-6543_CitrixNetScaler_PoC)
+
+### CVE-2025-6554 (2025-06-30)
+
+<code>Type confusion in V8 in Google Chrome prior to 138.0.7204.96 allowed a remote attacker to perform arbitrary read/write via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [rbaicba/CVE-2025-6554](https://github.com/rbaicba/CVE-2025-6554)
 
 ### CVE-2025-6586
 - [d0n601/CVE-2025-6586](https://github.com/d0n601/CVE-2025-6586)
@@ -1172,6 +1180,13 @@
 </code>
 
 - [Nxploited/CVE-2025-23942-poc](https://github.com/Nxploited/CVE-2025-23942-poc)
+
+### CVE-2025-23968 (2025-07-03)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in WPCenter AiBud WP allows Upload a Web Shell to a Web Server.This issue affects AiBud WP: from n/a through 1.8.5.
+</code>
+
+- [d0n601/CVE-2025-23968](https://github.com/d0n601/CVE-2025-23968)
 
 ### CVE-2025-24011 (2025-01-21)
 
@@ -2573,6 +2588,7 @@
 - [CryingN/CVE-2025-32462](https://github.com/CryingN/CVE-2025-32462)
 - [atomicjjbod/CVE-2025-32462](https://github.com/atomicjjbod/CVE-2025-32462)
 - [cybersentinelx1/CVE-2025-32462-Exploit](https://github.com/cybersentinelx1/CVE-2025-32462-Exploit)
+- [mylovem313/CVE-2025-32462](https://github.com/mylovem313/CVE-2025-32462)
 
 ### CVE-2025-32463 (2025-06-30)
 
@@ -2593,6 +2609,8 @@
 - [nflatrea/CVE-2025-32463](https://github.com/nflatrea/CVE-2025-32463)
 - [san8383/CVE-2025-32463](https://github.com/san8383/CVE-2025-32463)
 - [0xAkarii/CVE-2025-32463](https://github.com/0xAkarii/CVE-2025-32463)
+- [CIA911/sudo_patch_CVE-2025-32463](https://github.com/CIA911/sudo_patch_CVE-2025-32463)
+- [mirchr/CVE-2025-32463-sudo-chwoot](https://github.com/mirchr/CVE-2025-32463-sudo-chwoot)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -11478,6 +11496,13 @@
 </code>
 
 - [daikinitanda/-CVE-2024-47875-](https://github.com/daikinitanda/-CVE-2024-47875-)
+
+### CVE-2024-48061 (2024-11-04)
+
+<code>langflow &lt;=1.0.18 is vulnerable to Remote Code Execution (RCE) as any component provided the code functionality and the components run on the local machine rather than in a sandbox.
+</code>
+
+- [BwithE/CVE-2024-48061](https://github.com/BwithE/CVE-2024-48061)
 
 ### CVE-2024-48139 (2024-10-24)
 
