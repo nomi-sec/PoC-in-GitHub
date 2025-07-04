@@ -875,6 +875,7 @@
 
 - [rbaicba/CVE-2025-6554](https://github.com/rbaicba/CVE-2025-6554)
 - [windz3r0day/CVE-2025-6554](https://github.com/windz3r0day/CVE-2025-6554)
+- [PwnToday/CVE-2025-6554](https://github.com/PwnToday/CVE-2025-6554)
 
 ### CVE-2025-6586 (2025-07-04)
 
@@ -896,6 +897,13 @@
 </code>
 
 - [byteReaper77/CVE-2025-6860](https://github.com/byteReaper77/CVE-2025-6860)
+
+### CVE-2025-6907 (2025-06-30)
+
+<code>In code-projects Car Rental System 1.0 wurde eine Schwachstelle entdeckt. Sie wurde als kritisch eingestuft. Dabei geht es um eine nicht genauer bekannte Funktion der Datei /book_car.php. Durch das Manipulieren des Arguments fname mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [byteReaper77/cve-2025-6907](https://github.com/byteReaper77/cve-2025-6907)
 
 ### CVE-2025-6916 (2025-06-30)
 
@@ -934,6 +942,7 @@
 
 - [abrewer251/CVE-2025-20281-2-Cisco-ISE-RCE](https://github.com/abrewer251/CVE-2025-20281-2-Cisco-ISE-RCE)
 - [grupooruss/CVE-2025-20281-Cisco](https://github.com/grupooruss/CVE-2025-20281-Cisco)
+- [ill-deed/Cisco-CVE-2025-20281-illdeed](https://github.com/ill-deed/Cisco-CVE-2025-20281-illdeed)
 
 ### CVE-2025-20286 (2025-06-04)
 
@@ -2040,6 +2049,9 @@
 
 - [harish0x/CVE-2025-29602](https://github.com/harish0x/CVE-2025-29602)
 
+### CVE-2025-29628
+- [mselbrede/gardyn](https://github.com/mselbrede/gardyn)
+
 ### CVE-2025-29632 (2025-05-29)
 
 <code>Buffer Overflow vulnerability in Free5gc v.4.0.0 allows a remote attacker to cause a denial of service via the AMF, NGAP, security.go, handler_generated.go, handleInitialUEMessageMain, DecodePlainNasNoIntegrityCheck, GetSecurityHeaderType components
@@ -2136,7 +2148,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
-- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -2601,6 +2612,9 @@
 - [0xAkarii/CVE-2025-32463](https://github.com/0xAkarii/CVE-2025-32463)
 - [CIA911/sudo_patch_CVE-2025-32463](https://github.com/CIA911/sudo_patch_CVE-2025-32463)
 - [mirchr/CVE-2025-32463-sudo-chwoot](https://github.com/mirchr/CVE-2025-32463-sudo-chwoot)
+- [ill-deed/CVE-2025-32463_illdeed](https://github.com/ill-deed/CVE-2025-32463_illdeed)
+- [zinzloun/CVE-2025-32463](https://github.com/zinzloun/CVE-2025-32463)
+- [yeremeu/CVE-2025-32463_chwoot](https://github.com/yeremeu/CVE-2025-32463_chwoot)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3023,6 +3037,9 @@
 
 - [koyomihack00/CVE-2025-47226](https://github.com/koyomihack00/CVE-2025-47226)
 
+### CVE-2025-47227
+- [synacktiv/CVE-2025-47227_CVE-2025-47228](https://github.com/synacktiv/CVE-2025-47227_CVE-2025-47228)
+
 ### CVE-2025-47256 (2025-05-06)
 
 <code>Libxmp through 4.6.2 has a stack-based buffer overflow in depack_pha in loaders/prowizard/pha.c via a malformed Pha format tracker module in a .mod file.
@@ -3081,6 +3098,7 @@
 - [4m3rr0r/CVE-2025-47812-poc](https://github.com/4m3rr0r/CVE-2025-47812-poc)
 - [0xcan1337/CVE-2025-47812-poC](https://github.com/0xcan1337/CVE-2025-47812-poC)
 - [0xgh057r3c0n/CVE-2025-47812](https://github.com/0xgh057r3c0n/CVE-2025-47812)
+- [ill-deed/WingFTP-CVE-2025-47812-illdeed](https://github.com/ill-deed/WingFTP-CVE-2025-47812-illdeed)
 
 ### CVE-2025-47827 (2025-06-05)
 
@@ -4267,6 +4285,7 @@
 - [safeer-accuknox/CrushFTP-cve-2024-4040-poc](https://github.com/safeer-accuknox/CrushFTP-cve-2024-4040-poc)
 - [geniuszly/GenCrushSSTIExploit](https://github.com/geniuszly/GenCrushSSTIExploit)
 - [rahisec/CVE-2024-4040](https://github.com/rahisec/CVE-2024-4040)
+- [ill-deed/CrushFTP-CVE-2024-4040-illdeed](https://github.com/ill-deed/CrushFTP-CVE-2024-4040-illdeed)
 
 ### CVE-2024-4231 (2024-05-10)
 
@@ -27554,7 +27573,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
