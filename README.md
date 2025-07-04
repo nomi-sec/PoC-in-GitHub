@@ -889,7 +889,11 @@
 
 - [rbaicba/CVE-2025-6554](https://github.com/rbaicba/CVE-2025-6554)
 
-### CVE-2025-6586
+### CVE-2025-6586 (2025-07-04)
+
+<code>The Download Plugin plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the dpwap_plugin_locInstall function in all versions up to, and including, 2.2.8. This makes it possible for authenticated attackers, with Administrator-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
 - [d0n601/CVE-2025-6586](https://github.com/d0n601/CVE-2025-6586)
 
 ### CVE-2025-6855 (2025-06-29)
@@ -1883,6 +1887,7 @@
 </code>
 
 - [kk12-30/CVE-2025-27817](https://github.com/kk12-30/CVE-2025-27817)
+- [iSee857/CVE-2025-27817](https://github.com/iSee857/CVE-2025-27817)
 
 ### CVE-2025-27840 (2025-03-08)
 
@@ -3196,6 +3201,7 @@
 - [qiaojojo/CVE-2025-49132_poc](https://github.com/qiaojojo/CVE-2025-49132_poc)
 - [63square/CVE-2025-49132](https://github.com/63square/CVE-2025-49132)
 - [melonlonmeo/CVE-2025-49132](https://github.com/melonlonmeo/CVE-2025-49132)
+- [uxieltc/CVE-2025-49132](https://github.com/uxieltc/CVE-2025-49132)
 
 ### CVE-2025-49144 (2025-06-23)
 
@@ -19090,7 +19096,7 @@
 
 - [horizon3ai/CVE-2023-38035](https://github.com/horizon3ai/CVE-2023-38035)
 - [LeakIX/sentryexploit](https://github.com/LeakIX/sentryexploit)
-- [mind2hex/CVE-2023-38035](https://github.com/mind2hex/CVE-2023-38035)
+- [mind2hex/CVE-2023-38035-MobileIron-RCE](https://github.com/mind2hex/CVE-2023-38035-MobileIron-RCE)
 
 ### CVE-2023-38039 (2023-09-15)
 
@@ -27606,7 +27612,7 @@
 <code>A Command injection vulnerability in RaspAP 2.8.0 thru 2.8.7 allows unauthenticated attackers to execute arbitrary commands via the cfg_id parameter in /ajax/openvpn/activate_ovpncfg.php and /ajax/openvpn/del_ovpncfg.php.
 </code>
 
-- [mind2hex/CVE-2022-39986](https://github.com/mind2hex/CVE-2022-39986)
+- [mind2hex/CVE-2022-39986-RaspAP-2.8.0-2.8.7-RCE](https://github.com/mind2hex/CVE-2022-39986-RaspAP-2.8.0-2.8.7-RCE)
 - [tucommenceapousser/RaspAP-CVE-2022-39986-PoC](https://github.com/tucommenceapousser/RaspAP-CVE-2022-39986-PoC)
 
 ### CVE-2022-39987 (2023-08-01)
@@ -28734,7 +28740,7 @@
 - [0xZon/CVE-2022-46169-Exploit](https://github.com/0xZon/CVE-2022-46169-Exploit)
 - [copyleftdev/PricklyPwn](https://github.com/copyleftdev/PricklyPwn)
 - [0xN7y/CVE-2022-46169](https://github.com/0xN7y/CVE-2022-46169)
-- [mind2hex/CVE-2022-46169](https://github.com/mind2hex/CVE-2022-46169)
+- [mind2hex/CVE-2022-46169-Cacti-v1.2.22-RCE](https://github.com/mind2hex/CVE-2022-46169-Cacti-v1.2.22-RCE)
 - [HPT-Intern-Task-Submission/CVE-2022-46169](https://github.com/HPT-Intern-Task-Submission/CVE-2022-46169)
 - [lof1sec/CVE-2022-46169](https://github.com/lof1sec/CVE-2022-46169)
 - [RdBBB3/SHELL-POC-CVE-2022-46169](https://github.com/RdBBB3/SHELL-POC-CVE-2022-46169)
@@ -32389,7 +32395,7 @@
 - [Hunt3r0x/CVE-2021-31630-HTB](https://github.com/Hunt3r0x/CVE-2021-31630-HTB)
 - [thewhiteh4t/cve-2021-31630](https://github.com/thewhiteh4t/cve-2021-31630)
 - [behindsecurity/htb-wifinetictwo-exploit](https://github.com/behindsecurity/htb-wifinetictwo-exploit)
-- [mind2hex/CVE-2021-31630](https://github.com/mind2hex/CVE-2021-31630)
+- [mind2hex/CVE-2021-31630-OpenPLC-3-Authenticated-RCE](https://github.com/mind2hex/CVE-2021-31630-OpenPLC-3-Authenticated-RCE)
 - [sealldeveloper/CVE-2021-31630-PoC](https://github.com/sealldeveloper/CVE-2021-31630-PoC)
 - [junnythemarksman/CVE-2021-31630](https://github.com/junnythemarksman/CVE-2021-31630)
 - [adibna/cve-2021-31630](https://github.com/adibna/cve-2021-31630)
@@ -44537,7 +44543,7 @@
 - [dldygnl/CVE-2019-16113](https://github.com/dldygnl/CVE-2019-16113)
 - [m4rm0k/CVE-2019-16113](https://github.com/m4rm0k/CVE-2019-16113)
 - [DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113)
-- [mind2hex/CVE-2019-16113](https://github.com/mind2hex/CVE-2019-16113)
+- [mind2hex/CVE-2019-16113-Bludit-3.9.2-RCE](https://github.com/mind2hex/CVE-2019-16113-Bludit-3.9.2-RCE)
 - [tronghoang89/cve-2019-16113](https://github.com/tronghoang89/cve-2019-16113)
 
 ### CVE-2019-16172 (2019-09-09)
@@ -44783,7 +44789,7 @@
 - [jayngng/bludit-CVE-2019-17240](https://github.com/jayngng/bludit-CVE-2019-17240)
 - [brunosergi/bloodit](https://github.com/brunosergi/bloodit)
 - [spyx/cve-2019-17240](https://github.com/spyx/cve-2019-17240)
-- [mind2hex/CVE-2019-17240](https://github.com/mind2hex/CVE-2019-17240)
+- [mind2hex/CVE-2019-17240-Bludit-3.9.2-Auth-Bruteforce-Bypass](https://github.com/mind2hex/CVE-2019-17240-Bludit-3.9.2-Auth-Bruteforce-Bypass)
 - [0xDTC/Bludit-3.9.2-Auth-Bruteforce-Bypass-CVE-2019-17240](https://github.com/0xDTC/Bludit-3.9.2-Auth-Bruteforce-Bypass-CVE-2019-17240)
 
 ### CVE-2019-17382 (2019-10-09)
