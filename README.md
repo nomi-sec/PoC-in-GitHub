@@ -210,13 +210,6 @@
 
 - [Nxploited/CVE-2025-1639](https://github.com/Nxploited/CVE-2025-1639)
 
-### CVE-2025-1653 (2025-03-15)
-
-<code>The Directory Listings WordPress plugin – uListing plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.1.7. This is due to the stm_listing_profile_edit AJAX action not having enough restriction on the user meta that can be updated. This makes it possible for authenticated attackers, with Subscriber-level access and above, to elevate their privileges to that of an administrator.
-</code>
-
-- [realcodeb0ss/CVE-2025-1653-poc](https://github.com/realcodeb0ss/CVE-2025-1653-poc)
-
 ### CVE-2025-1661 (2025-03-11)
 
 <code>The HUSKY – Products Filter Professional for WooCommerce plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 1.3.6.5 via the 'template' parameter of the woof_text_search AJAX action. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
@@ -329,7 +322,6 @@
 
 - [Nxploited/CVE-2025-2294](https://github.com/Nxploited/CVE-2025-2294)
 - [mrrivaldo/CVE-2025-2294](https://github.com/mrrivaldo/CVE-2025-2294)
-- [realcodeb0ss/CVE-2025-2294-PoC](https://github.com/realcodeb0ss/CVE-2025-2294-PoC)
 - [rhz0d/CVE-2025-2294](https://github.com/rhz0d/CVE-2025-2294)
 - [romanedutov/CVE-2025-2294](https://github.com/romanedutov/CVE-2025-2294)
 - [Yucaerin/CVE-2025-2294](https://github.com/Yucaerin/CVE-2025-2294)
@@ -556,13 +548,6 @@
 </code>
 
 - [Stuub/CVE-2025-3969-Exploit](https://github.com/Stuub/CVE-2025-3969-Exploit)
-
-### CVE-2025-4009 (2025-05-28)
-
-<code>The Evertz SDVN 3080ipx-10G is a High Bandwidth Ethernet Switching Fabric for Video Application. This device exposes a web management interface on port 80. This web management interface can be used by administrators to control product\nfeatures, setup network switching, and register license among other features. The application has been developed in PHP with the webEASY SDK, also named ‘ewb’ by Evertz.\n\nThis web interface has two endpoints that are vulnerable to arbitrary command injection and the authentication mechanism has a flaw leading to authentication bypass.\n\nRemote unauthenticated attackers can gain arbitrary command execution with elevated privileges ( root ) on affected devices.\n\nThis level of access could lead to serious business impact such as the interruption of media streaming, modification of media being streamed, alteration of closed captions being generated, among others.
-</code>
-
-- [realcodeb0ss/CVE-2025-4009](https://github.com/realcodeb0ss/CVE-2025-4009)
 
 ### CVE-2025-4094 (2025-05-21)
 
@@ -828,6 +813,7 @@
 </code>
 
 - [d0n601/CVE-2025-5961](https://github.com/d0n601/CVE-2025-5961)
+- [Nxploited/CVE-2025-5961](https://github.com/Nxploited/CVE-2025-5961)
 
 ### CVE-2025-5964 (2025-06-15)
 
@@ -888,6 +874,7 @@
 </code>
 
 - [rbaicba/CVE-2025-6554](https://github.com/rbaicba/CVE-2025-6554)
+- [windz3r0day/CVE-2025-6554](https://github.com/windz3r0day/CVE-2025-6554)
 
 ### CVE-2025-6586 (2025-07-04)
 
@@ -1364,7 +1351,6 @@
 <code>GLPI is a free asset and IT management software package. An unauthenticated user can perform a SQL injection through the inventory endpoint. This vulnerability is fixed in 10.0.18.
 </code>
 
-- [realcodeb0ss/CVE-2025-24799-PoC](https://github.com/realcodeb0ss/CVE-2025-24799-PoC)
 - [MuhammadWaseem29/CVE-2025-24799](https://github.com/MuhammadWaseem29/CVE-2025-24799)
 - [MatheuZSecurity/Exploit-CVE-2025-24799](https://github.com/MatheuZSecurity/Exploit-CVE-2025-24799)
 - [galletitaconpate/CVE-2025-24799](https://github.com/galletitaconpate/CVE-2025-24799)
@@ -2311,7 +2297,6 @@
 </code>
 
 - [Oyst3r1ng/CVE-2025-30567](https://github.com/Oyst3r1ng/CVE-2025-30567)
-- [realcodeb0ss/CVE-2025-30567-PoC](https://github.com/realcodeb0ss/CVE-2025-30567-PoC)
 
 ### CVE-2025-30712 (2025-04-15)
 
@@ -2775,6 +2760,13 @@
 </code>
 
 - [AlexSvobo/nhi-zero-trust-bypass](https://github.com/AlexSvobo/nhi-zero-trust-bypass)
+
+### CVE-2025-41646 (2025-06-06)
+
+<code>An unauthorized remote attacker can bypass the authentication of the affected software package by misusing an incorrect type conversion. This leads to full compromise of the device
+</code>
+
+- [cyberre124/CVE-2025-41646---Critical-Authentication-Bypass-](https://github.com/cyberre124/CVE-2025-41646---Critical-Authentication-Bypass-)
 
 ### CVE-2025-43864 (2025-04-25)
 
@@ -12260,7 +12252,6 @@
 <code>upgrademysqlstatus in databases/views.py in CyberPanel (aka Cyber Panel) before 5b08cd6 allows remote attackers to bypass authentication and execute arbitrary commands via /dataBases/upgrademysqlstatus by bypassing secMiddleware (which is only for a POST request) and using shell metacharacters in the statusfile property, as exploited in the wild in October 2024 by PSAUX. Versions through 2.3.6 and (unpatched) 2.3.7 are affected.
 </code>
 
-- [ajayalf/CVE-2024-51567](https://github.com/ajayalf/CVE-2024-51567)
 - [thehash007/CVE-2024-51567-RCE-EXPLOIT](https://github.com/thehash007/CVE-2024-51567-RCE-EXPLOIT)
 - [XiaomingX/cve-2024-51567-poc](https://github.com/XiaomingX/cve-2024-51567-poc)
 
@@ -30287,7 +30278,6 @@
 - [ayoub-elbouzi/CVE-2021-4034-Pwnkit](https://github.com/ayoub-elbouzi/CVE-2021-4034-Pwnkit)
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [Rvn0xsy/CVE-2021-4034](https://github.com/Rvn0xsy/CVE-2021-4034)
-- [Kirill89/CVE-2021-4034](https://github.com/Kirill89/CVE-2021-4034)
 - [qq224015/CVE-2021-4034](https://github.com/qq224015/CVE-2021-4034)
 - [NeonWhiteRabbit/CVE-2021-4034](https://github.com/NeonWhiteRabbit/CVE-2021-4034)
 - [glowbase/PwnKit-CVE-2021-4034](https://github.com/glowbase/PwnKit-CVE-2021-4034)
@@ -32159,6 +32149,7 @@
 - [andyhsu024/CVE-2021-29447](https://github.com/andyhsu024/CVE-2021-29447)
 - [specializzazione-cyber-security/demo-CVE-2021-29447-lezione](https://github.com/specializzazione-cyber-security/demo-CVE-2021-29447-lezione)
 - [magicrc/CVE-2021-29447](https://github.com/magicrc/CVE-2021-29447)
+- [Tea-On/CVE-2021-29447-Authenticated-XXE-WordPress-5.6-5.7](https://github.com/Tea-On/CVE-2021-29447-Authenticated-XXE-WordPress-5.6-5.7)
 
 ### CVE-2021-29505 (2021-05-28)
 
@@ -56396,13 +56387,6 @@
 </code>
 
 - [alt3kx/CVE-2007-6638](https://github.com/alt3kx/CVE-2007-6638)
-
-### CVE-2007-6750 (2011-12-27)
-
-<code>The Apache HTTP Server 1.x and 2.x allows remote attackers to cause a denial of service (daemon outage) via partial HTTP requests, as demonstrated by Slowloris, related to the lack of the mod_reqtimeout module in versions before 2.2.15.
-</code>
-
-- [Jeanpseven/slowl0ris](https://github.com/Jeanpseven/slowl0ris)
 
 
 ## 2006
