@@ -85,6 +85,7 @@
 - [cesarbtakeda/7-Zip-CVE-2025-0411-POC](https://github.com/cesarbtakeda/7-Zip-CVE-2025-0411-POC)
 - [dpextreme/7-Zip-CVE-2025-0411-POC](https://github.com/dpextreme/7-Zip-CVE-2025-0411-POC)
 - [betulssahin/CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass](https://github.com/betulssahin/CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass)
+- [B1ack4sh/Blackash-CVE-2025-0411](https://github.com/B1ack4sh/Blackash-CVE-2025-0411)
 
 ### CVE-2025-0851 (2025-01-29)
 
@@ -877,7 +878,7 @@
 
 - [rbaicba/CVE-2025-6554](https://github.com/rbaicba/CVE-2025-6554)
 - [windz3r0day/CVE-2025-6554](https://github.com/windz3r0day/CVE-2025-6554)
-- [PwnToday/CVE-2025-6554](https://github.com/PwnToday/CVE-2025-6554)
+- [gmh5225/CVE-2025-6554-2](https://github.com/gmh5225/CVE-2025-6554-2)
 
 ### CVE-2025-6586 (2025-07-04)
 
@@ -2624,6 +2625,7 @@
 - [cyberpoul/CVE-2025-32463-POC](https://github.com/cyberpoul/CVE-2025-32463-POC)
 - [B1ack4sh/Blackash-CVE-2025-32463](https://github.com/B1ack4sh/Blackash-CVE-2025-32463)
 - [SkylerMC/CVE-2025-32463](https://github.com/SkylerMC/CVE-2025-32463)
+- [junxian428/CVE-2025-32463](https://github.com/junxian428/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3251,6 +3253,7 @@
 </code>
 
 - [MuhammadWaseem29/CVE-2025-49493-Poc](https://github.com/MuhammadWaseem29/CVE-2025-49493-Poc)
+- [B1ack4sh/Blackash-CVE-2025-49493](https://github.com/B1ack4sh/Blackash-CVE-2025-49493)
 
 ### CVE-2025-49596 (2025-06-13)
 
@@ -5479,6 +5482,7 @@
 - [punitdarji/Grafana-CVE-2024-9264](https://github.com/punitdarji/Grafana-CVE-2024-9264)
 - [Cythonic1/CVE-2024-9264](https://github.com/Cythonic1/CVE-2024-9264)
 - [Exerrdev/CVE-2024-9264-Fixed](https://github.com/Exerrdev/CVE-2024-9264-Fixed)
+- [Royall-Researchers/CVE-2024-9264](https://github.com/Royall-Researchers/CVE-2024-9264)
 
 ### CVE-2024-9290 (2024-12-13)
 
@@ -16638,6 +16642,7 @@
 - [rasan2001/CVE-2023-27350-Ongoing-Exploitation-of-PaperCut-Remote-Code-Execution-Vulnerability](https://github.com/rasan2001/CVE-2023-27350-Ongoing-Exploitation-of-PaperCut-Remote-Code-Execution-Vulnerability)
 - [monke443/CVE-2023-27350](https://github.com/monke443/CVE-2023-27350)
 - [0xB0y426/CVE-2023-27350-PoC](https://github.com/0xB0y426/CVE-2023-27350-PoC)
+- [Royall-Researchers/CVE-2023-27350](https://github.com/Royall-Researchers/CVE-2023-27350)
 
 ### CVE-2023-27363 (2024-05-03)
 
