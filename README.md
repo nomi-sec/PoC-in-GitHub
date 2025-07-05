@@ -792,6 +792,7 @@
 </code>
 
 - [mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC-](https://github.com/mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC-)
+- [RickGeex/CVE-2025-5777-CitrixBleed](https://github.com/RickGeex/CVE-2025-5777-CitrixBleed)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -2590,6 +2591,7 @@
 - [atomicjjbod/CVE-2025-32462](https://github.com/atomicjjbod/CVE-2025-32462)
 - [cybersentinelx1/CVE-2025-32462-Exploit](https://github.com/cybersentinelx1/CVE-2025-32462-Exploit)
 - [mylovem313/CVE-2025-32462](https://github.com/mylovem313/CVE-2025-32462)
+- [cyberpoul/CVE-2025-32462-POC](https://github.com/cyberpoul/CVE-2025-32462-POC)
 
 ### CVE-2025-32463 (2025-06-30)
 
@@ -2615,6 +2617,9 @@
 - [ill-deed/CVE-2025-32463_illdeed](https://github.com/ill-deed/CVE-2025-32463_illdeed)
 - [zinzloun/CVE-2025-32463](https://github.com/zinzloun/CVE-2025-32463)
 - [yeremeu/CVE-2025-32463_chwoot](https://github.com/yeremeu/CVE-2025-32463_chwoot)
+- [cyberpoul/CVE-2025-32463-POC](https://github.com/cyberpoul/CVE-2025-32463-POC)
+- [B1ack4sh/Blackash-CVE-2025-32463](https://github.com/B1ack4sh/Blackash-CVE-2025-32463)
+- [SkylerMC/CVE-2025-32463](https://github.com/SkylerMC/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -28795,14 +28800,14 @@
 <code>Information disclosure in password protected surveys in Data Illusion Survey Software Solutions NGSurvey v2.4.28 and below allows attackers to view the password to access and arbitrarily submit surveys.
 </code>
 
-- [WodenSec/CVE-2022-46484](https://github.com/WodenSec/CVE-2022-46484)
+- [NevaSec/CVE-2022-46484](https://github.com/NevaSec/CVE-2022-46484)
 
 ### CVE-2022-46485 (2023-08-02)
 
 <code>Data Illusion Survey Software Solutions ngSurvey version 2.4.28 and below is vulnerable to Denial of Service if a survey contains a &quot;Text Field&quot;, &quot;Comment Field&quot; or &quot;Contact Details&quot;.
 </code>
 
-- [WodenSec/CVE-2022-46485](https://github.com/WodenSec/CVE-2022-46485)
+- [NevaSec/CVE-2022-46485](https://github.com/NevaSec/CVE-2022-46485)
 
 ### CVE-2022-46505 (2023-01-18)
 
