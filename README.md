@@ -793,6 +793,7 @@
 
 - [mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC-](https://github.com/mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC-)
 - [RickGeex/CVE-2025-5777-CitrixBleed](https://github.com/RickGeex/CVE-2025-5777-CitrixBleed)
+- [idobarel/CVE-2025-5777](https://github.com/idobarel/CVE-2025-5777)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -1255,6 +1256,7 @@
 - [TH-SecForge/CVE-2025-24071](https://github.com/TH-SecForge/CVE-2025-24071)
 - [B1ack4sh/Blackash-CVE-2025-24071](https://github.com/B1ack4sh/Blackash-CVE-2025-24071)
 - [DeshanFer94/CVE-2025-24071-POC-NTLMHashDisclosure-](https://github.com/DeshanFer94/CVE-2025-24071-POC-NTLMHashDisclosure-)
+- [Royall-Researchers/CVE-2025-24071](https://github.com/Royall-Researchers/CVE-2025-24071)
 
 ### CVE-2025-24076 (2025-03-11)
 
@@ -2297,13 +2299,6 @@
 
 - [encrypter15/CVE-2025-30400](https://github.com/encrypter15/CVE-2025-30400)
 
-### CVE-2025-30401 (2025-04-05)
-
-<code>A spoofing issue in WhatsApp for Windows prior to version 2.2450.6 displayed attachments according to their MIME type but selected the file opening handler based on the attachment’s filename extension. A maliciously crafted mismatch could have caused the recipient to inadvertently execute arbitrary code rather than view the attachment when manually opening the attachment inside WhatsApp. We have not seen evidence of exploitation in the wild.
-</code>
-
-- [allinsthon/CVE-2025-30401](https://github.com/allinsthon/CVE-2025-30401)
-
 ### CVE-2025-30406 (2025-04-03)
 
 <code>Gladinet CentreStack through 16.1.10296.56315 (fixed in 16.4.10315.56368) has a deserialization vulnerability due to the CentreStack portal's hardcoded machineKey use, as exploited in the wild in March 2025. This enables threat actors (who know the machineKey) to serialize a payload for server-side deserialization to achieve remote code execution. NOTE: a CentreStack admin can manually delete the machineKey defined in portal\web.config.
@@ -2600,6 +2595,7 @@
 - [cybersentinelx1/CVE-2025-32462-Exploit](https://github.com/cybersentinelx1/CVE-2025-32462-Exploit)
 - [mylovem313/CVE-2025-32462](https://github.com/mylovem313/CVE-2025-32462)
 - [cyberpoul/CVE-2025-32462-POC](https://github.com/cyberpoul/CVE-2025-32462-POC)
+- [SpongeBob-369/cve-2025-32462](https://github.com/SpongeBob-369/cve-2025-32462)
 
 ### CVE-2025-32463 (2025-06-30)
 
@@ -12584,7 +12580,7 @@
 - [SeanRickerd/CVE-2024-53677](https://github.com/SeanRickerd/CVE-2024-53677)
 - [hopsypopsy8/CVE-2024-53677-Exploitation](https://github.com/hopsypopsy8/CVE-2024-53677-Exploitation)
 - [shishirghimir/CVE-2024-53677-Exploit](https://github.com/shishirghimir/CVE-2024-53677-Exploit)
-- [WhoisBulud/CVE-2024-53677](https://github.com/WhoisBulud/CVE-2024-53677)
+- [BuludX/CVE-2024-53677](https://github.com/BuludX/CVE-2024-53677)
 - [r007sec/CVE-2024-53677](https://github.com/r007sec/CVE-2024-53677)
 
 ### CVE-2024-53691 (2024-12-06)
@@ -22178,6 +22174,14 @@
 
 ### CVE-2023-52709
 - [KevinMitchell-OSWP-CISSP/CVE-2023-52709-PoC](https://github.com/KevinMitchell-OSWP-CISSP/CVE-2023-52709-PoC)
+
+### CVE-2023-52927 (2025-03-14)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: allow exp not to be removed in nf_ct_find_expectation\n\nCurrently nf_conntrack_in() calling nf_ct_find_expectation() will\nremove the exp from the hash table. However, in some scenario, we\nexpect the exp not to be removed when the created ct will not be\nconfirmed, like in OVS and TC conntrack in the following patches.\n\nThis patch allows exp not to be removed by setting IPS_CONFIRMED\nin the status of the tmpl.
+</code>
+
+- [seadragnol/CVE-2023-52927-private](https://github.com/seadragnol/CVE-2023-52927-private)
+- [seadragnol/CVE-2023-52927](https://github.com/seadragnol/CVE-2023-52927)
 
 
 ## 2022
