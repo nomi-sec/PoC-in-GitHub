@@ -795,6 +795,7 @@
 - [mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC-](https://github.com/mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC-)
 - [RickGeex/CVE-2025-5777-CitrixBleed](https://github.com/RickGeex/CVE-2025-5777-CitrixBleed)
 - [idobarel/CVE-2025-5777](https://github.com/idobarel/CVE-2025-5777)
+- [nocerainfosec/cve-2025-5777](https://github.com/nocerainfosec/cve-2025-5777)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -5483,6 +5484,7 @@
 - [Cythonic1/CVE-2024-9264](https://github.com/Cythonic1/CVE-2024-9264)
 - [Exerrdev/CVE-2024-9264-Fixed](https://github.com/Exerrdev/CVE-2024-9264-Fixed)
 - [Royall-Researchers/CVE-2024-9264](https://github.com/Royall-Researchers/CVE-2024-9264)
+- [ruizii/CVE-2024-9264](https://github.com/ruizii/CVE-2024-9264)
 
 ### CVE-2024-9290 (2024-12-13)
 
@@ -8342,6 +8344,13 @@
 - [SSSSuperX/CVE-2024-28000](https://github.com/SSSSuperX/CVE-2024-28000)
 - [JohnDoeAnonITA/CVE-2024-28000](https://github.com/JohnDoeAnonITA/CVE-2024-28000)
 
+### CVE-2024-28084 (2024-03-03)
+
+<code>p2putil.c in iNet wireless daemon (IWD) through 2.15 allows attackers to cause a denial of service (daemon crash) or possibly have unspecified other impact because of initialization issues in situations where parsing of advertised service information fails.
+</code>
+
+- [ibrahmsql/CVE-2024-28084](https://github.com/ibrahmsql/CVE-2024-28084)
+
 ### CVE-2024-28085 (2024-03-27)
 
 <code>wall in util-linux through 2.40, often installed with setgid tty permissions, allows escape sequences to be sent to other users' terminals through argv. (Specifically, escape sequences received from stdin are blocked, but escape sequences received from argv are not blocked.) There may be plausible scenarios where this leads to account takeover.
@@ -9567,6 +9576,13 @@
 
 - [SpiralBL0CK/CVE-2024-35176](https://github.com/SpiralBL0CK/CVE-2024-35176)
 
+### CVE-2024-35198 (2024-07-18)
+
+<code>TorchServe is a flexible and easy-to-use tool for serving and scaling PyTorch models in production. TorchServe 's check on allowed_urls configuration can be by-passed if the URL contains characters such as &quot;..&quot; but it does not prevent the model from being downloaded into the model store. Once a file is downloaded, it can be referenced without providing a URL the second time, which effectively bypasses the allowed_urls security check. Customers using PyTorch inference Deep Learning Containers (DLC) through Amazon SageMaker and EKS are not affected. This issue in TorchServe has been fixed by validating the URL without characters such as &quot;..&quot; before downloading see PR #3082. TorchServe release 0.11.0 includes the fix to address this vulnerability. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [ibrahmsql/CVE-2024-35198](https://github.com/ibrahmsql/CVE-2024-35198)
+
 ### CVE-2024-35205 (2024-05-13)
 
 <code>The WPS Office (aka cn.wps.moffice_eng) application before 17.0.0 for Android fails to properly sanitize file names before processing them through external application interactions, leading to a form of path traversal. This potentially enables any application to dispatch a crafted library file, aiming to overwrite an existing native library utilized by WPS Office. Successful exploitation could result in the execution of arbitrary commands under the guise of WPS Office's application ID.
@@ -10790,6 +10806,13 @@
 </code>
 
 - [partywavesec/CVE-2024-42346](https://github.com/partywavesec/CVE-2024-42346)
+
+### CVE-2024-42364 (2024-08-23)
+
+<code>Homepage is a highly customizable homepage with Docker and service API integrations. The default setup of homepage 0.9.1 is vulnerable to DNS rebinding. Homepage is setup without certificate and authentication by default, leaving it to vulnerable to DNS rebinding. In this attack, an attacker will ask a user to visit his/her website. The attacker website will then change the DNS records of their domain from their IP address to the internal IP address of the homepage instance. To tell which IP addresses are valid, we can rebind a subdomain to each IP address we want to check, and see if there is a response. Once potential candidates have been found, the attacker can launch the attack by reading the response of the webserver after the IP address has changed. When the attacker domain is fetched, the response will be from the homepage instance, not the attacker website, because the IP address has been changed. Due to a lack of authentication, a user’s private information such as API keys (fixed after first report) and other private information can then be extracted by the attacker website.
+</code>
+
+- [ibrahmsql/CVE-2024-42364](https://github.com/ibrahmsql/CVE-2024-42364)
 
 ### CVE-2024-42448 (2024-12-11)
 
@@ -12961,6 +12984,13 @@
 </code>
 
 - [samh4cks/CVE-2024-55890](https://github.com/samh4cks/CVE-2024-55890)
+
+### CVE-2024-55963 (2025-03-26)
+
+<code>An issue was discovered in Appsmith before 1.51. A user on Appsmith that doesn't have admin permissions can trigger the restart API on Appsmith, causing a server restart. This is still within the Appsmith container, and the impact is limited to Appsmith's own server only, but there is a denial of service because it can be continually restarted. This is due to incorrect access control checks, which should check for super user permissions on the incoming request.
+</code>
+
+- [superswan/CVE-2024-55963](https://github.com/superswan/CVE-2024-55963)
 
 ### CVE-2024-55968 (2025-01-28)
 
@@ -21563,6 +21593,7 @@
 - [creacitysec/CVE-2023-49103](https://github.com/creacitysec/CVE-2023-49103)
 - [merlin-ke/OwnCloud-CVE-2023-49103](https://github.com/merlin-ke/OwnCloud-CVE-2023-49103)
 - [d0rb/CVE-2023-49103](https://github.com/d0rb/CVE-2023-49103)
+- [ibrahmsql/CVE-2023-49103](https://github.com/ibrahmsql/CVE-2023-49103)
 
 ### CVE-2023-49105 (2023-11-21)
 
@@ -26362,6 +26393,13 @@
 
 - [gregscharf/CVE-2022-31007-Python-POC](https://github.com/gregscharf/CVE-2022-31007-Python-POC)
 
+### CVE-2022-31053 (2022-06-13)
+
+<code>Biscuit is an authentication and authorization token for microservices architectures. The Biscuit specification version 1 contains a vulnerable algorithm that allows malicious actors to forge valid Γ-signatures. Such an attack would allow an attacker to create a token with any access level. The version 2 of the specification mandates a different algorithm than gamma signatures and as such is not affected by this vulnerability. The Biscuit implementations in Rust, Haskell, Go, Java and Javascript all have published versions following the v2 specification. There are no known workarounds for this issue.
+</code>
+
+- [ibrahmsql/CVE-2022-31053](https://github.com/ibrahmsql/CVE-2022-31053)
+
 ### CVE-2022-31061 (2022-06-28)
 
 <code>GLPI is a Free Asset and IT Management Software package, Data center management, ITIL Service Desk, licenses tracking and software auditing. In affected versions there is a SQL injection vulnerability which is possible on login page. No user credentials are required to exploit this vulnerability. Users are advised to upgrade as soon as possible. There are no known workarounds for this issue.
@@ -30317,12 +30355,9 @@
 - [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
 - [EstamelGG/CVE-2021-4034-NoGCC](https://github.com/EstamelGG/CVE-2021-4034-NoGCC)
 - [NeonWhiteRabbit/CVE-2021-4034-BASH-One-File-Exploit](https://github.com/NeonWhiteRabbit/CVE-2021-4034-BASH-One-File-Exploit)
-- [jpmcb/pwnkit-go](https://github.com/jpmcb/pwnkit-go)
 - [galoget/PwnKit-CVE-2021-4034](https://github.com/galoget/PwnKit-CVE-2021-4034)
-- [Yakumwamba/POC-CVE-2021-4034](https://github.com/Yakumwamba/POC-CVE-2021-4034)
 - [ayoub-elbouzi/CVE-2021-4034-Pwnkit](https://github.com/ayoub-elbouzi/CVE-2021-4034-Pwnkit)
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
-- [Rvn0xsy/CVE-2021-4034](https://github.com/Rvn0xsy/CVE-2021-4034)
 - [qq224015/CVE-2021-4034](https://github.com/qq224015/CVE-2021-4034)
 - [NeonWhiteRabbit/CVE-2021-4034](https://github.com/NeonWhiteRabbit/CVE-2021-4034)
 - [glowbase/PwnKit-CVE-2021-4034](https://github.com/glowbase/PwnKit-CVE-2021-4034)
@@ -33982,6 +34017,14 @@
 
 - [Jajangjaman/CVE-2021-41160](https://github.com/Jajangjaman/CVE-2021-41160)
 
+### CVE-2021-41163 (2021-10-20)
+
+<code>Discourse is an open source platform for community discussion. In affected versions maliciously crafted requests could lead to remote code execution. This resulted from a lack of validation in subscribe_url values. This issue is patched in the latest stable, beta and tests-passed versions of Discourse. To workaround the issue without updating, requests with a path starting /webhooks/aws path could be blocked at an upstream proxy.
+</code>
+
+- [ibrahmsql/CVE-2021-41163](https://github.com/ibrahmsql/CVE-2021-41163)
+- [ibrahmsql/discourse-CVE-2021-41163](https://github.com/ibrahmsql/discourse-CVE-2021-41163)
+
 ### CVE-2021-41182 (2021-10-26)
 
 <code>jQuery-UI is the official jQuery user interface library. Prior to version 1.13.0, accepting the value of the `altField` option of the Datepicker widget from untrusted sources may execute untrusted code. The issue is fixed in jQuery UI 1.13.0. Any string value passed to the `altField` option is now treated as a CSS selector. A workaround is to not accept the value of the `altField` option from untrusted sources.
@@ -34259,6 +34302,7 @@
 - [CyberQuestor-infosec/CVE-2021-41773-Apache_2.4.49-Path-traversal-to-RCE](https://github.com/CyberQuestor-infosec/CVE-2021-41773-Apache_2.4.49-Path-traversal-to-RCE)
 - [psibot/apache-vulnerable](https://github.com/psibot/apache-vulnerable)
 - [blu3ming/PoC-CVE-2021-41773](https://github.com/blu3ming/PoC-CVE-2021-41773)
+- [r0otk3r/CVE-2021-41773](https://github.com/r0otk3r/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -43468,6 +43512,13 @@
 
 - [sasqwatch/cve-2019-11477-poc](https://github.com/sasqwatch/cve-2019-11477-poc)
 
+### CVE-2019-11479 (2019-06-18)
+
+<code>Jonathan Looney discovered that the Linux kernel default MSS is hard-coded to 48 bytes. This allows a remote peer to fragment TCP resend queues significantly more than if a larger MSS were enforced. A remote attacker could use this to cause a denial of service. This has been fixed in stable kernel releases 4.4.182, 4.9.182, 4.14.127, 4.19.52, 5.1.11, and is fixed in commits 967c05aee439e6e5d7d805e195b3a20ef5c433d6 and 5f3e2bf008c2221478101ee72f5cb4654b9fc363.
+</code>
+
+- [ibrahmsql/CVE-2019-11479](https://github.com/ibrahmsql/CVE-2019-11479)
+
 ### CVE-2019-11510 (2019-05-08)
 
 <code>In Pulse Secure Pulse Connect Secure (PCS) 8.2 before 8.2R12.1, 8.3 before 8.3R7.1, and 9.0 before 9.0R3.4, an unauthenticated remote attacker can send a specially crafted URI to perform an arbitrary file reading vulnerability .
@@ -48159,7 +48210,6 @@
 </code>
 
 - [u238/grafana-CVE-2018-15727](https://github.com/u238/grafana-CVE-2018-15727)
-- [grimbelhax/CVE-2018-15727](https://github.com/grimbelhax/CVE-2018-15727)
 
 ### CVE-2018-15745 (2018-08-30)
 
