@@ -799,6 +799,7 @@
 - [idobarel/CVE-2025-5777](https://github.com/idobarel/CVE-2025-5777)
 - [nocerainfosec/cve-2025-5777](https://github.com/nocerainfosec/cve-2025-5777)
 - [RaR1991/citrix_bleed_2](https://github.com/RaR1991/citrix_bleed_2)
+- [orange0Mint/CitrixBleed-2-CVE-2025-5777](https://github.com/orange0Mint/CitrixBleed-2-CVE-2025-5777)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -950,6 +951,7 @@
 - [abrewer251/CVE-2025-20281-2-Cisco-ISE-RCE](https://github.com/abrewer251/CVE-2025-20281-2-Cisco-ISE-RCE)
 - [grupooruss/CVE-2025-20281-Cisco](https://github.com/grupooruss/CVE-2025-20281-Cisco)
 - [ill-deed/Cisco-CVE-2025-20281-illdeed](https://github.com/ill-deed/Cisco-CVE-2025-20281-illdeed)
+- [B1ack4sh/Blackash-CVE-2025-20281](https://github.com/B1ack4sh/Blackash-CVE-2025-20281)
 
 ### CVE-2025-20286 (2025-06-04)
 
@@ -8935,6 +8937,13 @@
 </code>
 
 - [ReversecLabs/ibm-sterling-b2b-integrator-poc](https://github.com/ReversecLabs/ibm-sterling-b2b-integrator-poc)
+
+### CVE-2024-31964 (2024-05-02)
+
+<code>A vulnerability on Mitel 6800 Series and 6900 Series SIP Phones through 6.3 SP3 HF4, 6900w Series SIP Phone through 6.3.3, and 6970 Conference Unit through 5.1.1 SP8 allows an unauthenticated attacker to conduct an authentication bypass attack due to improper authentication control. A successful exploit could allow an attacker to modify system configuration settings and potentially cause a denial of service.
+</code>
+
+- [d-Raco/CVE-2024-31964](https://github.com/d-Raco/CVE-2024-31964)
 
 ### CVE-2024-31974 (2024-05-17)
 
@@ -38280,6 +38289,7 @@
 </code>
 
 - [fairyming/CVE-2020-9547](https://github.com/fairyming/CVE-2020-9547)
+- [Pranjal6955/CVE-2020-9547](https://github.com/Pranjal6955/CVE-2020-9547)
 
 ### CVE-2020-9548 (2020-03-02)
 
