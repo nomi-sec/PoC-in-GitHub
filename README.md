@@ -623,6 +623,7 @@
 </code>
 
 - [Yucaerin/CVE-2025-4403](https://github.com/Yucaerin/CVE-2025-4403)
+- [B1ack4sh/Blackash-CVE-2025-4403](https://github.com/B1ack4sh/Blackash-CVE-2025-4403)
 
 ### CVE-2025-4427 (2025-05-13)
 
@@ -797,6 +798,7 @@
 - [RickGeex/CVE-2025-5777-CitrixBleed](https://github.com/RickGeex/CVE-2025-5777-CitrixBleed)
 - [idobarel/CVE-2025-5777](https://github.com/idobarel/CVE-2025-5777)
 - [nocerainfosec/cve-2025-5777](https://github.com/nocerainfosec/cve-2025-5777)
+- [RaR1991/citrix_bleed_2](https://github.com/RaR1991/citrix_bleed_2)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -2628,6 +2630,8 @@
 - [B1ack4sh/Blackash-CVE-2025-32463](https://github.com/B1ack4sh/Blackash-CVE-2025-32463)
 - [SkylerMC/CVE-2025-32463](https://github.com/SkylerMC/CVE-2025-32463)
 - [junxian428/CVE-2025-32463](https://github.com/junxian428/CVE-2025-32463)
+- [FreeDurok/CVE-2025-32463-PoC](https://github.com/FreeDurok/CVE-2025-32463-PoC)
+- [Chocapikk/CVE-2025-32463-lab](https://github.com/Chocapikk/CVE-2025-32463-lab)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -21233,7 +21237,7 @@
 - [ajdumanhug/CVE-2022-42092](https://github.com/ajdumanhug/CVE-2022-42092)
 - [rvizx/CVE-2023-46818](https://github.com/rvizx/CVE-2023-46818)
 - [engranaabubakar/CVE-2023-46818](https://github.com/engranaabubakar/CVE-2023-46818)
-- [z7Akane/CVE-2023-46818](https://github.com/z7Akane/CVE-2023-46818)
+- [hunntr/CVE-2023-46818](https://github.com/hunntr/CVE-2023-46818)
 - [SyFi/CVE-2023-46818](https://github.com/SyFi/CVE-2023-46818)
 
 ### CVE-2023-46865 (2023-10-30)
@@ -27489,6 +27493,7 @@
 
 - [fortra/CVE-2022-37969](https://github.com/fortra/CVE-2022-37969)
 - [grass341/CVE-2022-37969](https://github.com/grass341/CVE-2022-37969)
+- [NoobCat2000/CVE-2022-37969](https://github.com/NoobCat2000/CVE-2022-37969)
 
 ### CVE-2022-38029 (2022-10-11)
 
@@ -30373,7 +30378,6 @@
 - [galoget/PwnKit-CVE-2021-4034](https://github.com/galoget/PwnKit-CVE-2021-4034)
 - [ayoub-elbouzi/CVE-2021-4034-Pwnkit](https://github.com/ayoub-elbouzi/CVE-2021-4034-Pwnkit)
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
-- [qq224015/CVE-2021-4034](https://github.com/qq224015/CVE-2021-4034)
 - [NeonWhiteRabbit/CVE-2021-4034](https://github.com/NeonWhiteRabbit/CVE-2021-4034)
 - [glowbase/PwnKit-CVE-2021-4034](https://github.com/glowbase/PwnKit-CVE-2021-4034)
 - [sofire/polkit-0.96-CVE-2021-4034](https://github.com/sofire/polkit-0.96-CVE-2021-4034)
@@ -31537,6 +31541,7 @@
 - [k7pro/CVE-2021-25646-exp](https://github.com/k7pro/CVE-2021-25646-exp)
 - [gps1949/CVE-2021-25646](https://github.com/gps1949/CVE-2021-25646)
 - [tiemio/RCE-PoC-CVE-2021-25646](https://github.com/tiemio/RCE-PoC-CVE-2021-25646)
+- [ShadowLance2/Apache-Druid-CVE-2021-25646-Exploit](https://github.com/ShadowLance2/Apache-Druid-CVE-2021-25646-Exploit)
 
 ### CVE-2021-25679 (2021-04-20)
 
@@ -53420,6 +53425,7 @@
 - [0x00-0x00/CVE-2015-3224](https://github.com/0x00-0x00/CVE-2015-3224)
 - [0xEval/cve-2015-3224](https://github.com/0xEval/cve-2015-3224)
 - [n000xy/CVE-2015-3224-](https://github.com/n000xy/CVE-2015-3224-)
+- [Sic4rio/CVE-2015-3224](https://github.com/Sic4rio/CVE-2015-3224)
 
 ### CVE-2015-3239 (2015-08-26)
 
