@@ -485,6 +485,7 @@
 - [dennisec/CVE-2025-3248](https://github.com/dennisec/CVE-2025-3248)
 - [dennisec/Mass-CVE-2025-3248](https://github.com/dennisec/Mass-CVE-2025-3248)
 - [ill-deed/Langflow-CVE-2025-3248-Multi-target](https://github.com/ill-deed/Langflow-CVE-2025-3248-Multi-target)
+- [r0otk3r/CVE-2025-3248](https://github.com/r0otk3r/CVE-2025-3248)
 
 ### CVE-2025-3419 (2025-05-08)
 
@@ -9801,6 +9802,7 @@
 - [jaytiwari05/CVE-2024-36991](https://github.com/jaytiwari05/CVE-2024-36991)
 - [TheStingR/CVE-2024-36991-Tool](https://github.com/TheStingR/CVE-2024-36991-Tool)
 - [gunzf0x/CVE-2024-36991](https://github.com/gunzf0x/CVE-2024-36991)
+- [Zin0D/CVE-2024-36991](https://github.com/Zin0D/CVE-2024-36991)
 
 ### CVE-2024-37010
 - [SarpantKeltiek/CVE-2024-37010](https://github.com/SarpantKeltiek/CVE-2024-37010)
@@ -18999,6 +19001,13 @@
 
 - [SpiralBL0CK/cve-2023-37456](https://github.com/SpiralBL0CK/cve-2023-37456)
 
+### CVE-2023-37467 (2023-07-28)
+
+<code>Discourse is an open source discussion platform. Prior to version 3.1.0.beta7 of the `beta` and `tests-passed` branches, a CSP (Content Security Policy) nonce reuse vulnerability was discovered could allow cross-site scripting (XSS) attacks to bypass CSP protection for anonymous (i.e. unauthenticated) users. There are no known XSS vectors at the moment, but should one be discovered, this vulnerability would allow the XSS attack to bypass CSP and execute successfully. This vulnerability isn't applicable to logged-in users. Version 3.1.0.beta7 contains a patch. The stable branch doesn't have this vulnerability. A workaround to prevent the vulnerability is to disable Google Tag Manager, i.e., unset the `gtm container id` setting.
+</code>
+
+- [ibrahmsql/CVE-2023-37467](https://github.com/ibrahmsql/CVE-2023-37467)
+
 ### CVE-2023-37474 (2023-07-14)
 
 <code>Copyparty is a portable file server. Versions prior to 1.8.2 are subject to a path traversal vulnerability detected in the `.cpr` subfolder. The Path Traversal attack technique allows an attacker access to files, directories, and commands that reside outside the web document root directory. This issue has been addressed in commit `043e3c7d` which has been included in release 1.8.2. Users are advised to upgrade. There are no known workarounds for this vulnerability.
@@ -20774,6 +20783,13 @@
 ### CVE-2023-44976
 - [keowu/BadRentdrv2](https://github.com/keowu/BadRentdrv2)
 
+### CVE-2023-45131 (2023-10-16)
+
+<code>Discourse is an open source platform for community discussion. New chat messages can be read by making an unauthenticated POST request to MessageBus. This issue is patched in the 3.1.1 stable and 3.2.0.beta2 versions of Discourse. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [ibrahmsql/CVE-2023-45131](https://github.com/ibrahmsql/CVE-2023-45131)
+
 ### CVE-2023-45158 (2023-10-16)
 
 <code>An OS command injection vulnerability exists in web2py 2.24.1 and earlier. When the product is configured to use notifySendHandler for logging (not the default configuration), a crafted web request may execute an arbitrary OS command on the web server using the product.
@@ -22216,7 +22232,6 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: allow exp not to be removed in nf_ct_find_expectation\n\nCurrently nf_conntrack_in() calling nf_ct_find_expectation() will\nremove the exp from the hash table. However, in some scenario, we\nexpect the exp not to be removed when the created ct will not be\nconfirmed, like in OVS and TC conntrack in the following patches.\n\nThis patch allows exp not to be removed by setting IPS_CONFIRMED\nin the status of the tmpl.
 </code>
 
-- [seadragnol/CVE-2023-52927-private](https://github.com/seadragnol/CVE-2023-52927-private)
 - [seadragnol/CVE-2023-52927](https://github.com/seadragnol/CVE-2023-52927)
 
 
@@ -55715,6 +55730,7 @@
 - [sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523)
 - [JohanMV/explotacion-vsftpd-nmap_Laboratorio_1](https://github.com/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1)
 - [lghost256/vsftpd234-exploit](https://github.com/lghost256/vsftpd234-exploit)
+- [hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523)
 
 ### CVE-2011-2894 (2011-10-04)
 
