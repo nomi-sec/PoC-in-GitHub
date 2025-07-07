@@ -4500,6 +4500,7 @@
 - [KimJuhyeong95/cve-2024-4577](https://github.com/KimJuhyeong95/cve-2024-4577)
 - [ibrahmsql/CVE-2024-4577](https://github.com/ibrahmsql/CVE-2024-4577)
 - [byteReaper77/CVE-2024-4577](https://github.com/byteReaper77/CVE-2024-4577)
+- [r0otk3r/CVE-2024-4577](https://github.com/r0otk3r/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
