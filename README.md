@@ -884,6 +884,7 @@
 - [rbaicba/CVE-2025-6554](https://github.com/rbaicba/CVE-2025-6554)
 - [windz3r0day/CVE-2025-6554](https://github.com/windz3r0day/CVE-2025-6554)
 - [gmh5225/CVE-2025-6554-2](https://github.com/gmh5225/CVE-2025-6554-2)
+- [PwnToday/CVE-2025-6554](https://github.com/PwnToday/CVE-2025-6554)
 
 ### CVE-2025-6586 (2025-07-04)
 
@@ -1431,6 +1432,7 @@
 - [mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-](https://github.com/mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-)
 - [x1ongsec/CVE-2025-24813](https://github.com/x1ongsec/CVE-2025-24813)
 - [yaleman/cve-2025-24813-poc](https://github.com/yaleman/cve-2025-24813-poc)
+- [GongWook/CVE-2025-24813](https://github.com/GongWook/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -2157,7 +2159,7 @@
 - [kOaDT/poc-cve-2025-29927](https://github.com/kOaDT/poc-cve-2025-29927)
 - [yugo-eliatrope/test-cve-2025-29927](https://github.com/yugo-eliatrope/test-cve-2025-29927)
 - [emadshanab/CVE-2025-29927](https://github.com/emadshanab/CVE-2025-29927)
-- [w3shi/CVE-2025-29927](https://github.com/w3shi/CVE-2025-29927)
+- [decyjphr-workspace/CVE-2025-29927](https://github.com/decyjphr-workspace/CVE-2025-29927)
 - [aleongx/CVE-2025-29927](https://github.com/aleongx/CVE-2025-29927)
 - [nicknisi/next-attack](https://github.com/nicknisi/next-attack)
 - [jmbowes/NextSecureScan](https://github.com/jmbowes/NextSecureScan)
@@ -2606,6 +2608,7 @@
 - [mylovem313/CVE-2025-32462](https://github.com/mylovem313/CVE-2025-32462)
 - [cyberpoul/CVE-2025-32462-POC](https://github.com/cyberpoul/CVE-2025-32462-POC)
 - [SpongeBob-369/cve-2025-32462](https://github.com/SpongeBob-369/cve-2025-32462)
+- [MAAYTHM/CVE-2025-32462_32463-Lab](https://github.com/MAAYTHM/CVE-2025-32462_32463-Lab)
 
 ### CVE-2025-32463 (2025-06-30)
 
