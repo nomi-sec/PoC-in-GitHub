@@ -2504,6 +2504,9 @@
 
 - [Mohith-T/CVE-2025-32013](https://github.com/Mohith-T/CVE-2025-32013)
 
+### CVE-2025-32023
+- [leesh3288/CVE-2025-32023](https://github.com/leesh3288/CVE-2025-32023)
+
 ### CVE-2025-32118 (2025-04-04)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in NiteoThemes CMP – Coming Soon &amp; Maintenance allows Using Malicious Files. This issue affects CMP – Coming Soon &amp; Maintenance: from n/a through 4.1.13.
@@ -2634,6 +2637,7 @@
 - [junxian428/CVE-2025-32463](https://github.com/junxian428/CVE-2025-32463)
 - [FreeDurok/CVE-2025-32463-PoC](https://github.com/FreeDurok/CVE-2025-32463-PoC)
 - [Chocapikk/CVE-2025-32463-lab](https://github.com/Chocapikk/CVE-2025-32463-lab)
+- [K3ysTr0K3R/CVE-2025-32463-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2025-32463-EXPLOIT)
 
 ### CVE-2025-32579 (2025-04-11)
 
