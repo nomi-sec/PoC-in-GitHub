@@ -30410,7 +30410,6 @@
 - [ayoub-elbouzi/CVE-2021-4034-Pwnkit](https://github.com/ayoub-elbouzi/CVE-2021-4034-Pwnkit)
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [glowbase/PwnKit-CVE-2021-4034](https://github.com/glowbase/PwnKit-CVE-2021-4034)
-- [sofire/polkit-0.96-CVE-2021-4034](https://github.com/sofire/polkit-0.96-CVE-2021-4034)
 - [codiobert/pwnkit-scanner](https://github.com/codiobert/pwnkit-scanner)
 - [v-rzh/CVE-2021-4034](https://github.com/v-rzh/CVE-2021-4034)
 - [TW-D/PwnKit-Vulnerability_CVE-2021-4034](https://github.com/TW-D/PwnKit-Vulnerability_CVE-2021-4034)
@@ -32037,6 +32036,13 @@
 
 - [ArianeBlow/CVE-2021-27513-CVE-2021-27514](https://github.com/ArianeBlow/CVE-2021-27513-CVE-2021-27514)
 - [ArianeBlow/CVE-2021-27513](https://github.com/ArianeBlow/CVE-2021-27513)
+
+### CVE-2021-27568 (2021-02-23)
+
+<code>An issue was discovered in netplex json-smart-v1 through 2015-10-23 and json-smart-v2 through 2.4. An exception is thrown from a function, but it is not caught, as demonstrated by NumberFormatException. When it is not caught, it may cause programs using the library to crash or expose sensitive information.
+</code>
+
+- [arsalanraja987/java-insecure-random-cve-2021-27568](https://github.com/arsalanraja987/java-insecure-random-cve-2021-27568)
 
 ### CVE-2021-27651 (2021-04-29)
 
@@ -38290,6 +38296,13 @@
 - [Disturbante/CVE-2020-9484](https://github.com/Disturbante/CVE-2020-9484)
 - [savsch/PoC_CVE-2020-9484](https://github.com/savsch/PoC_CVE-2020-9484)
 
+### CVE-2020-9488 (2020-04-27)
+
+<code>Improper validation of certificate with host mismatch in Apache Log4j SMTP appender. This could allow an SMTPS connection to be intercepted by a man-in-the-middle attack which could leak any log messages sent through that appender. Fixed in Apache Log4j 2.12.3 and 2.13.1
+</code>
+
+- [arsalanraja987/java-log4j-cve-2020-9488](https://github.com/arsalanraja987/java-log4j-cve-2020-9488)
+
 ### CVE-2020-9495 (2020-06-19)
 
 <code>Apache Archiva login service before 2.2.5 is vulnerable to LDAP injection. A attacker is able to retrieve user attribute data from the connected LDAP server by providing special values to the login form. With certain characters it is possible to modify the LDAP filter used to query the LDAP users. By measuring the response time for the login request, arbitrary attribute data can be retrieved from LDAP user objects.
@@ -43398,6 +43411,13 @@
 </code>
 
 - [Viniciuspxf/CVE-2019-10742](https://github.com/Viniciuspxf/CVE-2019-10742)
+
+### CVE-2019-10743 (2019-10-28)
+
+<code>All versions of archiver allow attacker to perform a Zip Slip attack via the &quot;unarchive&quot; functions. It is exploited using a specially crafted zip archive, that holds path traversal filenames. When exploited, a filename in a malicious archive is concatenated to the target extraction directory, which results in the final path ending up outside of the target folder. For instance, a zip may hold a file with a &quot;../../file.exe&quot; location and thus break out of the target folder. If an executable or a configuration file is overwritten with a file containing malicious code, the problem can turn into an arbitrary code execution issue quite easily.
+</code>
+
+- [albisorua/PoC-CVE-2019-10743](https://github.com/albisorua/PoC-CVE-2019-10743)
 
 ### CVE-2019-10758 (2019-12-24)
 
@@ -49206,6 +49226,13 @@
 - [imlzw/Kubernetes-1.12.3-all-auto-install](https://github.com/imlzw/Kubernetes-1.12.3-all-auto-install)
 - [bgeesaman/cve-2018-1002105](https://github.com/bgeesaman/cve-2018-1002105)
 - [sh-ubh/CVE-2018-1002105](https://github.com/sh-ubh/CVE-2018-1002105)
+
+### CVE-2018-1002202 (2018-07-25)
+
+<code>zip4j before 1.3.3 is vulnerable to directory traversal, allowing attackers to write to arbitrary files via a ../ (dot dot slash) in a Zip archive entry that is mishandled during extraction. This vulnerability is also known as 'Zip-Slip'.
+</code>
+
+- [iris-sast/zip4j](https://github.com/iris-sast/zip4j)
 
 ### CVE-2018-1999002 (2018-07-23)
 
