@@ -2917,6 +2917,12 @@
 ### CVE-2025-45467
 - [zgsnj123/CVE-2025-45467](https://github.com/zgsnj123/CVE-2025-45467)
 
+### CVE-2025-45619
+- [weedl/CVE-2025-45619](https://github.com/weedl/CVE-2025-45619)
+
+### CVE-2025-45620
+- [weedl/CVE-2025-45620](https://github.com/weedl/CVE-2025-45620)
+
 ### CVE-2025-45710
 - [partywavesec/CVE-2025-45710](https://github.com/partywavesec/CVE-2025-45710)
 
@@ -5195,6 +5201,7 @@
 - [zxj-hub/CVE-2024-7954POC](https://github.com/zxj-hub/CVE-2024-7954POC)
 - [0dayan0n/RCE_CVE-2024-7954-](https://github.com/0dayan0n/RCE_CVE-2024-7954-)
 - [Arthikw3b/RCE-CVE-2024-7954](https://github.com/Arthikw3b/RCE-CVE-2024-7954)
+- [r0otk3r/CVE-2024-7954](https://github.com/r0otk3r/CVE-2024-7954)
 
 ### CVE-2024-7965 (2024-08-21)
 
