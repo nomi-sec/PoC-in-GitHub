@@ -800,6 +800,7 @@
 - [nocerainfosec/cve-2025-5777](https://github.com/nocerainfosec/cve-2025-5777)
 - [RaR1991/citrix_bleed_2](https://github.com/RaR1991/citrix_bleed_2)
 - [orange0Mint/CitrixBleed-2-CVE-2025-5777](https://github.com/orange0Mint/CitrixBleed-2-CVE-2025-5777)
+- [Chocapikk/CVE-2025-5777](https://github.com/Chocapikk/CVE-2025-5777)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -2645,6 +2646,7 @@
 - [FreeDurok/CVE-2025-32463-PoC](https://github.com/FreeDurok/CVE-2025-32463-PoC)
 - [Chocapikk/CVE-2025-32463-lab](https://github.com/Chocapikk/CVE-2025-32463-lab)
 - [K3ysTr0K3R/CVE-2025-32463-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2025-32463-EXPLOIT)
+- [SpongeBob-369/cve-2025-32463](https://github.com/SpongeBob-369/cve-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -5445,6 +5447,7 @@
 </code>
 
 - [EQSTLab/CVE-2024-9014](https://github.com/EQSTLab/CVE-2024-9014)
+- [r0otk3r/CVE-2024-9014](https://github.com/r0otk3r/CVE-2024-9014)
 
 ### CVE-2024-9047 (2024-10-12)
 
