@@ -893,6 +893,7 @@
 - [windz3r0day/CVE-2025-6554](https://github.com/windz3r0day/CVE-2025-6554)
 - [gmh5225/CVE-2025-6554-2](https://github.com/gmh5225/CVE-2025-6554-2)
 - [PwnToday/CVE-2025-6554](https://github.com/PwnToday/CVE-2025-6554)
+- [ghostn4444/POC-CVE-2025-6554](https://github.com/ghostn4444/POC-CVE-2025-6554)
 
 ### CVE-2025-6586 (2025-07-04)
 
@@ -3184,7 +3185,6 @@
 ### CVE-2025-48703
 - [trh4ckn0n/CVE-2025-48703](https://github.com/trh4ckn0n/CVE-2025-48703)
 - [Skynoxk/CVE-2025-48703](https://github.com/Skynoxk/CVE-2025-48703)
-- [Sq-CC/CVE-2025-48703](https://github.com/Sq-CC/CVE-2025-48703)
 
 ### CVE-2025-48708 (2025-05-23)
 
