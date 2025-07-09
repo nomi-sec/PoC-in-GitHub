@@ -809,6 +809,7 @@
 - [orange0Mint/CitrixBleed-2-CVE-2025-5777](https://github.com/orange0Mint/CitrixBleed-2-CVE-2025-5777)
 - [Chocapikk/CVE-2025-5777](https://github.com/Chocapikk/CVE-2025-5777)
 - [win3zz/CVE-2025-5777](https://github.com/win3zz/CVE-2025-5777)
+- [FrenzisRed/CVE-2025-5777](https://github.com/FrenzisRed/CVE-2025-5777)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -3167,6 +3168,8 @@
 </code>
 
 - [acheong08/CVE-2025-48384](https://github.com/acheong08/CVE-2025-48384)
+- [fishyyh/CVE-2025-48384](https://github.com/fishyyh/CVE-2025-48384)
+- [fishyyh/CVE-2025-48384-POC](https://github.com/fishyyh/CVE-2025-48384-POC)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -3322,6 +3325,13 @@
 </code>
 
 - [cristibtz/CVE-2025-49619](https://github.com/cristibtz/CVE-2025-49619)
+
+### CVE-2025-49719 (2025-07-08)
+
+<code>Improper input validation in SQL Server allows an unauthorized attacker to disclose information over a network.
+</code>
+
+- [HExploited/CVE-2025-49719-Exploit](https://github.com/HExploited/CVE-2025-49719-Exploit)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -22321,6 +22331,13 @@
 
 - [K3ysTr0K3R/CVE-2022-0165-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2022-0165-EXPLOIT)
 - [Cappricio-Securities/CVE-2022-0165](https://github.com/Cappricio-Securities/CVE-2022-0165)
+
+### CVE-2022-0169 (2022-03-14)
+
+<code>The Photo Gallery by 10Web WordPress plugin before 1.6.0 does not validate and escape the bwg_tag_id_bwg_thumbnails_0 parameter before using it in a SQL statement via the bwg_frontend_data AJAX action (available to unauthenticated and authenticated users), leading to an unauthenticated SQL injection
+</code>
+
+- [X3RX3SSec/CVE-2022-0169](https://github.com/X3RX3SSec/CVE-2022-0169)
 
 ### CVE-2022-0185 (2022-02-11)
 
