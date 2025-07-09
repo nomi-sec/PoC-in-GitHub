@@ -2648,8 +2648,8 @@
 - [K3ysTr0K3R/CVE-2025-32463-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2025-32463-EXPLOIT)
 - [SpongeBob-369/cve-2025-32463](https://github.com/SpongeBob-369/cve-2025-32463)
 - [lowercasenumbers/CVE-2025-32463_sudo_chroot](https://github.com/lowercasenumbers/CVE-2025-32463_sudo_chroot)
-- [Alaric112/CVE-2025-32463-Chroot-Vulnerabilitity](https://github.com/Alaric112/CVE-2025-32463-Chroot-Vulnerabilitity)
 - [abrewer251/CVE-2025-32463_Sudo_PoC](https://github.com/abrewer251/CVE-2025-32463_Sudo_PoC)
+- [susancodes55/CVE-2025-32463-sudo-poc](https://github.com/susancodes55/CVE-2025-32463-sudo-poc)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3160,6 +3160,13 @@
 
 - [Nxploited/CVE-2025-48129](https://github.com/Nxploited/CVE-2025-48129)
 
+### CVE-2025-48384 (2025-07-08)
+
+<code>Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals. When reading a config value, Git strips any trailing carriage return and line feed (CRLF). When writing a config entry, values with a trailing CR are not quoted, causing the CR to be lost when the config is later read. When initializing a submodule, if the submodule path contains a trailing CR, the altered path is read resulting in the submodule being checked out to an incorrect location. If a symlink exists that points the altered path to the submodule hooks directory, and the submodule contains an executable post-checkout hook, the script may be unintentionally executed after checkout. This vulnerability is fixed in v2.43.7, v2.44.4, v2.45.4, v2.46.4, v2.47.3, v2.48.2, v2.49.1, and v2.50.1.
+</code>
+
+- [acheong08/CVE-2025-48384](https://github.com/acheong08/CVE-2025-48384)
+
 ### CVE-2025-48461 (2025-06-24)
 
 <code>Successful exploitation of the vulnerability could allow an unauthenticated attacker to conduct brute force guessing and account takeover as the session cookies are predictable, potentially allowing the attackers to gain root, admin or user access and reset passwords.
@@ -3186,6 +3193,13 @@
 
 - [B1tBreaker/CVE-2025-48708](https://github.com/B1tBreaker/CVE-2025-48708)
 
+### CVE-2025-48799 (2025-07-08)
+
+<code>Improper link resolution before file access ('link following') in Windows Update Service allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [Wh04m1001/CVE-2025-48799](https://github.com/Wh04m1001/CVE-2025-48799)
+
 ### CVE-2025-48827 (2025-05-27)
 
 <code>vBulletin 5.0.0 through 5.7.5 and 6.0.0 through 6.0.3 allows unauthenticated users to invoke protected API controllers' methods when running on PHP 8.1 or later, as demonstrated by the /api.php?method=protectedMethod pattern, as exploited in the wild in May 2025.
@@ -3200,6 +3214,13 @@
 </code>
 
 - [ill-deed/vBulletin-CVE-2025-48828-Multi-target](https://github.com/ill-deed/vBulletin-CVE-2025-48828-Multi-target)
+
+### CVE-2025-48903 (2025-06-06)
+
+<code>Permission bypass vulnerability in the media library module\nImpact: Successful exploitation of this vulnerability may affect availability.
+</code>
+
+- [susancodes55/CVE-2025-48903-discord-poc](https://github.com/susancodes55/CVE-2025-48903-discord-poc)
 
 ### CVE-2025-48976 (2025-06-16)
 
@@ -3259,6 +3280,7 @@
 - [63square/CVE-2025-49132](https://github.com/63square/CVE-2025-49132)
 - [melonlonmeo/CVE-2025-49132](https://github.com/melonlonmeo/CVE-2025-49132)
 - [uxieltc/CVE-2025-49132](https://github.com/uxieltc/CVE-2025-49132)
+- [0xtensho/CVE-2025-49132-poc](https://github.com/0xtensho/CVE-2025-49132-poc)
 
 ### CVE-2025-49144 (2025-06-23)
 
