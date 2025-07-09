@@ -903,6 +903,13 @@
 
 - [d0n601/CVE-2025-6586](https://github.com/d0n601/CVE-2025-6586)
 
+### CVE-2025-6759 (2025-07-08)
+
+<code>Local Privilege escalation allows a low-privileged user to gain SYSTEM privileges in Windows Virtual Delivery Agent for CVAD and Citrix DaaS
+</code>
+
+- [olljanat/TestCitrixException](https://github.com/olljanat/TestCitrixException)
+
 ### CVE-2025-6855 (2025-06-29)
 
 <code>Eine Schwachstelle wurde in chatchat-space Langchain-Chatchat bis 0.3.1 entdeckt. Sie wurde als kritisch eingestuft. Dies betrifft einen unbekannten Teil der Datei /v1/file. Mit der Manipulation des Arguments flag mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Der Exploit steht zur öffentlichen Verfügung.
@@ -2907,6 +2914,9 @@
 
 - [l8BL/CVE-2025-44998](https://github.com/l8BL/CVE-2025-44998)
 
+### CVE-2025-45072
+- [yogeswaran6383/CVE-2025-45072](https://github.com/yogeswaran6383/CVE-2025-45072)
+
 ### CVE-2025-45250 (2025-05-06)
 
 <code>MrDoc v0.95 and before is vulnerable to Server-Side Request Forgery (SSRF) in the validate_url function of the app_doc/utils.py file.
@@ -3169,7 +3179,10 @@
 
 - [acheong08/CVE-2025-48384](https://github.com/acheong08/CVE-2025-48384)
 - [fishyyh/CVE-2025-48384](https://github.com/fishyyh/CVE-2025-48384)
+- [kallydev/cve-2025-48384-hook](https://github.com/kallydev/cve-2025-48384-hook)
 - [fishyyh/CVE-2025-48384-POC](https://github.com/fishyyh/CVE-2025-48384-POC)
+- [liamg/CVE-2025-48384-submodule](https://github.com/liamg/CVE-2025-48384-submodule)
+- [liamg/CVE-2025-48384](https://github.com/liamg/CVE-2025-48384)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -3347,6 +3360,9 @@
 
 ### CVE-2025-51046
 - [0xMesh-X/CVE-2025-51046](https://github.com/0xMesh-X/CVE-2025-51046)
+
+### CVE-2025-52357
+- [wrathfulDiety/CVE-2025-52357](https://github.com/wrathfulDiety/CVE-2025-52357)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
