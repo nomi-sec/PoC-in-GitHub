@@ -2201,7 +2201,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
-- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -3192,7 +3191,11 @@
 ### CVE-2025-47810
 - [ptrstr/CVE-2025-47810](https://github.com/ptrstr/CVE-2025-47810)
 
-### CVE-2025-47812
+### CVE-2025-47812 (2025-07-10)
+
+<code>In Wing FTP Server before 7.4.4. the user and admin web interfaces mishandle '\0' bytes, ultimately allowing injection of arbitrary Lua code into user session files. This can be used to execute arbitrary system commands with the privileges of the FTP service (root or SYSTEM by default). This is thus a remote code execution vulnerability that guarantees a total server compromise. This is also exploitable via anonymous FTP accounts.
+</code>
+
 - [4m3rr0r/CVE-2025-47812-poc](https://github.com/4m3rr0r/CVE-2025-47812-poc)
 - [0xcan1337/CVE-2025-47812-poC](https://github.com/0xcan1337/CVE-2025-47812-poC)
 - [0xgh057r3c0n/CVE-2025-47812](https://github.com/0xgh057r3c0n/CVE-2025-47812)
@@ -3228,6 +3231,9 @@
 - [NigelX/CVE-2025-48384](https://github.com/NigelX/CVE-2025-48384)
 - [greatyy/CVE-2025-48384-p](https://github.com/greatyy/CVE-2025-48384-p)
 - [testdjshan/CVE-2025-48384](https://github.com/testdjshan/CVE-2025-48384)
+- [testsssssssss-sss/CVE-2025-48384](https://github.com/testsssssssss-sss/CVE-2025-48384)
+- [vinieger/CVE-2025-48384-bad-nginx-submodule](https://github.com/vinieger/CVE-2025-48384-bad-nginx-submodule)
+- [vinieger/CVE-2025-48384-bad-nginx](https://github.com/vinieger/CVE-2025-48384-bad-nginx)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -3344,7 +3350,6 @@
 - [Vr00mm/CVE-2025-49144](https://github.com/Vr00mm/CVE-2025-49144)
 - [TheTorjanCaptain/CVE-2025-49144_PoC](https://github.com/TheTorjanCaptain/CVE-2025-49144_PoC)
 - [assad12341/notepad-v8.8.1-LPE-CVE-](https://github.com/assad12341/notepad-v8.8.1-LPE-CVE-)
-- [tristanvandermeer/CVE-2025-49144-Test](https://github.com/tristanvandermeer/CVE-2025-49144-Test)
 - [b0ySie7e/Notepad-8.8.1_CVE-2025-49144](https://github.com/b0ySie7e/Notepad-8.8.1_CVE-2025-49144)
 - [timsonner/CVE-2025-49144-Research](https://github.com/timsonner/CVE-2025-49144-Research)
 
@@ -8043,6 +8048,7 @@
 - [meli0dasH4ck3r/cve-2024-25600](https://github.com/meli0dasH4ck3r/cve-2024-25600)
 - [ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM](https://github.com/ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM)
 - [DedsecTeam-BlackHat/Poleposph](https://github.com/DedsecTeam-BlackHat/Poleposph)
+- [r0otk3r/CVE-2024-25600](https://github.com/r0otk3r/CVE-2024-25600)
 
 ### CVE-2024-25641 (2024-05-13)
 
@@ -8428,6 +8434,7 @@
 
 - [gh-ost00/CVE-2024-27954](https://github.com/gh-ost00/CVE-2024-27954)
 - [Quantum-Hacker/CVE-2024-27954](https://github.com/Quantum-Hacker/CVE-2024-27954)
+- [r0otk3r/CVE-2024-27954](https://github.com/r0otk3r/CVE-2024-27954)
 
 ### CVE-2024-27956 (2024-03-21)
 
@@ -27817,7 +27824,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -49474,6 +49480,7 @@
 - [MedX267/EternalBlue-Vulnerability-Scanner](https://github.com/MedX267/EternalBlue-Vulnerability-Scanner)
 - [pelagornisandersi/WIndows-7-automated-exploitation-using-metasploit-framework-](https://github.com/pelagornisandersi/WIndows-7-automated-exploitation-using-metasploit-framework-)
 - [luckyman2907/SMB-Protocol-Vulnerability_CVE-2017-0144](https://github.com/luckyman2907/SMB-Protocol-Vulnerability_CVE-2017-0144)
+- [AdityaBhatt3010/VAPT-Report-on-SMB-Exploitation-in-Windows-10-Finance-Endpoint](https://github.com/AdityaBhatt3010/VAPT-Report-on-SMB-Exploitation-in-Windows-10-Finance-Endpoint)
 
 ### CVE-2017-0145 (2017-03-17)
 
