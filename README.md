@@ -2987,6 +2987,9 @@
 ### CVE-2025-45710
 - [partywavesec/CVE-2025-45710](https://github.com/partywavesec/CVE-2025-45710)
 
+### CVE-2025-45778
+- [Smarttfoxx/CVE-2025-45778](https://github.com/Smarttfoxx/CVE-2025-45778)
+
 ### CVE-2025-45781
 - [ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC](https://github.com/ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC)
 
@@ -3236,8 +3239,11 @@
 - [greatyy/CVE-2025-48384-p](https://github.com/greatyy/CVE-2025-48384-p)
 - [testdjshan/CVE-2025-48384](https://github.com/testdjshan/CVE-2025-48384)
 - [testsssssssss-sss/CVE-2025-48384](https://github.com/testsssssssss-sss/CVE-2025-48384)
+- [altm4n/cve-2025-48384](https://github.com/altm4n/cve-2025-48384)
+- [altm4n/cve-2025-48384-hub](https://github.com/altm4n/cve-2025-48384-hub)
 - [vinieger/CVE-2025-48384-bad-nginx-submodule](https://github.com/vinieger/CVE-2025-48384-bad-nginx-submodule)
 - [vinieger/CVE-2025-48384-bad-nginx](https://github.com/vinieger/CVE-2025-48384-bad-nginx)
+- [p1026/CVE-2025-48384](https://github.com/p1026/CVE-2025-48384)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -9207,6 +9213,7 @@
 - [Mr-xn/CVE-2024-32113](https://github.com/Mr-xn/CVE-2024-32113)
 - [YongYe-Security/CVE-2024-32113](https://github.com/YongYe-Security/CVE-2024-32113)
 - [MikeyPPPPPPPP/CVE-2024-32113](https://github.com/MikeyPPPPPPPP/CVE-2024-32113)
+- [guinea-offensive-security/Ofbiz-RCE](https://github.com/guinea-offensive-security/Ofbiz-RCE)
 
 ### CVE-2024-32136 (2024-04-15)
 
@@ -11428,6 +11435,15 @@
 - [NHAS/CVE-2024-45337-POC](https://github.com/NHAS/CVE-2024-45337-POC)
 - [NHAS/VULNERABLE-CVE-2024-45337](https://github.com/NHAS/VULNERABLE-CVE-2024-45337)
 - [peace-maker/CVE-2024-45337](https://github.com/peace-maker/CVE-2024-45337)
+
+### CVE-2024-45352 (2025-03-27)
+
+<code>An code execution vulnerability exists in the Xiaomi smarthome application product. The vulnerability is caused by improper input validation and can be exploited by attackers to execute malicious code.
+</code>
+
+- [Edwins907/CVE-2024-45352](https://github.com/Edwins907/CVE-2024-45352)
+- [Edwins907/CVE-2024-45352-xiaomi](https://github.com/Edwins907/CVE-2024-45352-xiaomi)
+- [Edwins907/xiaomi-cve-2024-45352](https://github.com/Edwins907/xiaomi-cve-2024-45352)
 
 ### CVE-2024-45383 (2024-09-12)
 
@@ -27461,6 +27477,13 @@
 - [imbas007/Atlassian-Bitbucket-CVE-2022-36804](https://github.com/imbas007/Atlassian-Bitbucket-CVE-2022-36804)
 - [asepsaepdin/CVE-2022-36804](https://github.com/asepsaepdin/CVE-2022-36804)
 
+### CVE-2022-36934 (2022-09-22)
+
+<code>An integer overflow in WhatsApp could result in remote code execution in an established video call.
+</code>
+
+- [Teexo/mailenable-cve-2022-36934](https://github.com/Teexo/mailenable-cve-2022-36934)
+
 ### CVE-2022-36944 (2022-09-23)
 
 <code>Scala 2.13.x before 2.13.9 has a Java deserialization chain in its JAR file. On its own, it cannot be exploited. There is only a risk in conjunction with Java object deserialization within an application. In such situations, it allows attackers to erase contents of arbitrary files, make network connections, or possibly run arbitrary code (specifically, Function0 functions) via a gadget chain.
@@ -29852,7 +29875,6 @@
 - [Wra7h/SharpPN](https://github.com/Wra7h/SharpPN)
 - [OppressionBreedsResistance/CVE-2021-1675-PrintNightmare](https://github.com/OppressionBreedsResistance/CVE-2021-1675-PrintNightmare)
 - [eversinc33/NimNightmare](https://github.com/eversinc33/NimNightmare)
-- [AndrewTrube/CVE-2021-1675](https://github.com/AndrewTrube/CVE-2021-1675)
 - [TheJoyOfHacking/cube0x0-CVE-2021-1675](https://github.com/TheJoyOfHacking/cube0x0-CVE-2021-1675)
 - [TheJoyOfHacking/calebstewart-CVE-2021-1675](https://github.com/TheJoyOfHacking/calebstewart-CVE-2021-1675)
 - [jj4152/cve-2021-1675](https://github.com/jj4152/cve-2021-1675)
@@ -30531,7 +30553,6 @@
 - [TW-D/PwnKit-Vulnerability_CVE-2021-4034](https://github.com/TW-D/PwnKit-Vulnerability_CVE-2021-4034)
 - [OXDBXKXO/ez-pwnkit](https://github.com/OXDBXKXO/ez-pwnkit)
 - [milot/dissecting-pkexec-cve-2021-4034](https://github.com/milot/dissecting-pkexec-cve-2021-4034)
-- [navisec/CVE-2021-4034-PwnKit](https://github.com/navisec/CVE-2021-4034-PwnKit)
 - [Almorabea/pkexec-exploit](https://github.com/Almorabea/pkexec-exploit)
 - [teelrabbit/Polkit-pkexec-exploit-for-Linux](https://github.com/teelrabbit/Polkit-pkexec-exploit-for-Linux)
 - [scent2d/PoC-CVE-2021-4034](https://github.com/scent2d/PoC-CVE-2021-4034)
@@ -30645,6 +30666,7 @@
 </code>
 
 - [cckuailong/log4shell_1.x](https://github.com/cckuailong/log4shell_1.x)
+- [cuijiung/log4j-CVE-2021-4104](https://github.com/cuijiung/log4j-CVE-2021-4104)
 
 ### CVE-2021-4154 (2022-02-04)
 
@@ -31190,7 +31212,6 @@
 - [ph-arm/CVE-2021-22204-Gitlab](https://github.com/ph-arm/CVE-2021-22204-Gitlab)
 - [Asaad27/CVE-2021-22204-RSE](https://github.com/Asaad27/CVE-2021-22204-RSE)
 - [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
-- [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
 - [mr-tuhin/CVE-2021-22204-exiftool](https://github.com/mr-tuhin/CVE-2021-22204-exiftool)
 - [UNICORDev/exploit-CVE-2021-22204](https://github.com/UNICORDev/exploit-CVE-2021-22204)
 - [Akash7350/CVE-2021-22204](https://github.com/Akash7350/CVE-2021-22204)
@@ -32422,6 +32443,7 @@
 </code>
 
 - [MyBlackManba/CVE-2021-29505](https://github.com/MyBlackManba/CVE-2021-29505)
+- [cuijiung/xstream-CVE-2021-29505](https://github.com/cuijiung/xstream-CVE-2021-29505)
 
 ### CVE-2021-29627 (2021-04-07)
 
@@ -35630,6 +35652,7 @@
 - [SerpilRivas/log4shell-homework9](https://github.com/SerpilRivas/log4shell-homework9)
 - [x1ongsec/CVE-2021-44228-Log4j-JNDI](https://github.com/x1ongsec/CVE-2021-44228-Log4j-JNDI)
 - [fabioeletto/hka-seminar-log4shell](https://github.com/fabioeletto/hka-seminar-log4shell)
+- [cuijiung/log4j-CVE-2021-44228](https://github.com/cuijiung/log4j-CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -40819,6 +40842,7 @@
 - [novysodope/CVE-2020-26217-XStream-RCE-POC](https://github.com/novysodope/CVE-2020-26217-XStream-RCE-POC)
 - [Al1ex/CVE-2020-26217](https://github.com/Al1ex/CVE-2020-26217)
 - [epicosy/XStream-1](https://github.com/epicosy/XStream-1)
+- [cuijiung/xstream-CVE-2020-26217](https://github.com/cuijiung/xstream-CVE-2020-26217)
 
 ### CVE-2020-26233 (2020-12-08)
 
@@ -40834,6 +40858,7 @@
 </code>
 
 - [Al1ex/CVE-2020-26258](https://github.com/Al1ex/CVE-2020-26258)
+- [cuijiung/xstream-CVE-2020-26258](https://github.com/cuijiung/xstream-CVE-2020-26258)
 
 ### CVE-2020-26259 (2020-12-16)
 
@@ -40842,6 +40867,7 @@
 
 - [jas502n/CVE-2020-26259](https://github.com/jas502n/CVE-2020-26259)
 - [Al1ex/CVE-2020-26259](https://github.com/Al1ex/CVE-2020-26259)
+- [cuijiung/xstream-CVE-2020-26259](https://github.com/cuijiung/xstream-CVE-2020-26259)
 
 ### CVE-2020-26413 (2020-12-11)
 
@@ -43712,13 +43738,6 @@
 </code>
 
 - [sasqwatch/cve-2019-11477-poc](https://github.com/sasqwatch/cve-2019-11477-poc)
-
-### CVE-2019-11479 (2019-06-18)
-
-<code>Jonathan Looney discovered that the Linux kernel default MSS is hard-coded to 48 bytes. This allows a remote peer to fragment TCP resend queues significantly more than if a larger MSS were enforced. A remote attacker could use this to cause a denial of service. This has been fixed in stable kernel releases 4.4.182, 4.9.182, 4.14.127, 4.19.52, 5.1.11, and is fixed in commits 967c05aee439e6e5d7d805e195b3a20ef5c433d6 and 5f3e2bf008c2221478101ee72f5cb4654b9fc363.
-</code>
-
-- [ibrahmsql/CVE-2019-11479](https://github.com/ibrahmsql/CVE-2019-11479)
 
 ### CVE-2019-11510 (2019-05-08)
 
@@ -54843,6 +54862,7 @@
 - [10cks/CVE-2014-6287](https://github.com/10cks/CVE-2014-6287)
 - [francescobrina/hfs-cve-2014-6287-exploit](https://github.com/francescobrina/hfs-cve-2014-6287-exploit)
 - [Z3R0-0x30/CVE-2014-6287](https://github.com/Z3R0-0x30/CVE-2014-6287)
+- [rahisec/rejetto-http-file-server-2.3.x-RCE-exploit-CVE-2014-6287](https://github.com/rahisec/rejetto-http-file-server-2.3.x-RCE-exploit-CVE-2014-6287)
 
 ### CVE-2014-6332 (2014-11-11)
 
