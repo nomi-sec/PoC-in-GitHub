@@ -888,6 +888,13 @@
 
 - [jujubooom/CVE-2025-6335](https://github.com/jujubooom/CVE-2025-6335)
 
+### CVE-2025-6514 (2025-07-09)
+
+<code>mcp-remote is exposed to OS command injection when connecting to untrusted MCP servers due to crafted input from the authorization_endpoint response URL
+</code>
+
+- [ChaseHCS/CVE-2025-6514](https://github.com/ChaseHCS/CVE-2025-6514)
+
 ### CVE-2025-6543 (2025-06-25)
 
 <code>Memory overflow vulnerability leading to unintended control flow and Denial of Service in NetScaler ADC and NetScaler Gateway when configured as Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA virtual server
@@ -1531,6 +1538,7 @@
 ### CVE-2025-25257
 - [watchtowrlabs/watchTowr-vs-FortiWeb-CVE-2025-25257](https://github.com/watchtowrlabs/watchTowr-vs-FortiWeb-CVE-2025-25257)
 - [barbaraogmgf/CVE-2025-25257](https://github.com/barbaraogmgf/CVE-2025-25257)
+- [0xbigshaq/CVE-2025-25257](https://github.com/0xbigshaq/CVE-2025-25257)
 
 ### CVE-2025-25279 (2025-02-24)
 
@@ -2685,6 +2693,7 @@
 - [lowercasenumbers/CVE-2025-32463_sudo_chroot](https://github.com/lowercasenumbers/CVE-2025-32463_sudo_chroot)
 - [abrewer251/CVE-2025-32463_Sudo_PoC](https://github.com/abrewer251/CVE-2025-32463_Sudo_PoC)
 - [0xb0rn3/CVE-2025-32463-EXPLOIT](https://github.com/0xb0rn3/CVE-2025-32463-EXPLOIT)
+- [morgenm/sudo-chroot-CVE-2025-32463](https://github.com/morgenm/sudo-chroot-CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -2809,6 +2818,13 @@
 
 - [SeanHeelan/o3_finds_cve-2025-37899](https://github.com/SeanHeelan/o3_finds_cve-2025-37899)
 - [vett3x/SMB-LINUX-CVE-2025-37899](https://github.com/vett3x/SMB-LINUX-CVE-2025-37899)
+
+### CVE-2025-38001 (2025-06-06)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnet_sched: hfsc: Address reentrant enqueue adding class to eltree twice\n\nSavino says:\n    &quot;We are writing to report that this recent patch\n    (141d34391abbb315d68556b7c67ad97885407547) [1]\n    can be bypassed, and a UAF can still occur when HFSC is utilized with\n    NETEM.\n\n    The patch only checks the cl-&gt;cl_nactive field to determine whether\n    it is the first insertion or not [2], but this field is only\n    incremented by init_vf [3].\n\n    By using HFSC_RSC (which uses init_ed) [4], it is possible to bypass the\n    check and insert the class twice in the eltree.\n    Under normal conditions, this would lead to an infinite loop in\n    hfsc_dequeue for the reasons we already explained in this report [5].\n\n    However, if TBF is added as root qdisc and it is configured with a\n    very low rate,\n    it can be utilized to prevent packets from being dequeued.\n    This behavior can be exploited to perform subsequent insertions in the\n    HFSC eltree and cause a UAF.&quot;\n\nTo fix both the UAF and the infinite loop, with netem as an hfsc child,\ncheck explicitly in hfsc_enqueue whether the class is already in the eltree\nwhenever the HFSC_RSC flag is set.\n\n[1] https://web.git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=141d34391abbb315d68556b7c67ad97885407547\n[2] https://elixir.bootlin.com/linux/v6.15-rc5/source/net/sched/sch_hfsc.c#L1572\n[3] https://elixir.bootlin.com/linux/v6.15-rc5/source/net/sched/sch_hfsc.c#L677\n[4] https://elixir.bootlin.com/linux/v6.15-rc5/source/net/sched/sch_hfsc.c#L1574\n[5] https://lore.kernel.org/netdev/8DuRWwfqjoRDLDmBMlIfbrsZg9Gx50DHJc1ilxsEBNe2D6NMoigR_eIRIG0LOjMc3r10nUUZtArXx4oZBIdUfZQrwjcQhdinnMis_0G7VEk=@willsroot.io/T/#u
+</code>
+
+- [0xdevil/CVE-2025-38001](https://github.com/0xdevil/CVE-2025-38001)
 
 ### CVE-2025-38089 (2025-06-30)
 
@@ -22707,7 +22723,6 @@
 - [ihenakaarachchi/debian11-dirty_pipe-patcher](https://github.com/ihenakaarachchi/debian11-dirty_pipe-patcher)
 - [greenhandatsjtu/CVE-2022-0847-Container-Escape](https://github.com/greenhandatsjtu/CVE-2022-0847-Container-Escape)
 - [jxpsx/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/jxpsx/CVE-2022-0847-DirtyPipe-Exploits)
-- [Asbatel/CBDS_CVE-2022-0847_POC](https://github.com/Asbatel/CBDS_CVE-2022-0847_POC)
 - [airbus-cert/dirtypipe-ebpf_detection](https://github.com/airbus-cert/dirtypipe-ebpf_detection)
 - [zzzchuu/Dirty-Pipe](https://github.com/zzzchuu/Dirty-Pipe)
 - [eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits)
@@ -50454,12 +50469,12 @@
 - [inj3ction/CVE-2017-7921-EXP](https://github.com/inj3ction/CVE-2017-7921-EXP)
 - [krypton612/hikivision](https://github.com/krypton612/hikivision)
 - [K3ysTr0K3R/CVE-2017-7921-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-7921-EXPLOIT)
-- [fracergu/CVE-2017-7921](https://github.com/fracergu/CVE-2017-7921)
 - [AnonkiGroup/AnonHik](https://github.com/AnonkiGroup/AnonHik)
 - [b3pwn3d/CVE-2017-7921](https://github.com/b3pwn3d/CVE-2017-7921)
 - [yousouf-Tasfin/cve-2017-7921-Mass-Exploit](https://github.com/yousouf-Tasfin/cve-2017-7921-Mass-Exploit)
 - [kooroshsanaei/HikVision-CVE-2017-7921](https://github.com/kooroshsanaei/HikVision-CVE-2017-7921)
 - [aengussong/hikvision_probe](https://github.com/aengussong/hikvision_probe)
+- [GabrielAvls/CVE-2017-7921](https://github.com/GabrielAvls/CVE-2017-7921)
 
 ### CVE-2017-7998 (2018-01-08)
 
