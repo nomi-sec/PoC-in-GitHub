@@ -819,6 +819,7 @@
 - [FrenzisRed/CVE-2025-5777](https://github.com/FrenzisRed/CVE-2025-5777)
 - [bughuntar/CVE-2025-5777](https://github.com/bughuntar/CVE-2025-5777)
 - [0xgh057r3c0n/CVE-2025-5777](https://github.com/0xgh057r3c0n/CVE-2025-5777)
+- [Jishanluhar/CVE-2025-5777](https://github.com/Jishanluhar/CVE-2025-5777)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -920,13 +921,6 @@
 </code>
 
 - [olljanat/TestCitrixException](https://github.com/olljanat/TestCitrixException)
-
-### CVE-2025-6855 (2025-06-29)
-
-<code>Eine Schwachstelle wurde in chatchat-space Langchain-Chatchat bis 0.3.1 entdeckt. Sie wurde als kritisch eingestuft. Dies betrifft einen unbekannten Teil der Datei /v1/file. Mit der Manipulation des Arguments flag mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [Spirizeon/chainwalk](https://github.com/Spirizeon/chainwalk)
 
 ### CVE-2025-6860 (2025-06-29)
 
@@ -1535,6 +1529,7 @@
 - [RootHarpy/CVE-2025-25163-Nuclei-Template](https://github.com/RootHarpy/CVE-2025-25163-Nuclei-Template)
 
 ### CVE-2025-25257
+- [watchtowrlabs/watchTowr-vs-FortiWeb-CVE-2025-25257](https://github.com/watchtowrlabs/watchTowr-vs-FortiWeb-CVE-2025-25257)
 - [barbaraogmgf/CVE-2025-25257](https://github.com/barbaraogmgf/CVE-2025-25257)
 
 ### CVE-2025-25279 (2025-02-24)
@@ -1962,7 +1957,7 @@
 <code>A SQL Injection vulnerability exists in the `u` parameter of the progress-body-weight.php endpoint of Dietiqa App v1.0.20.
 </code>
 
-- [beardenx/CVE-2025-28009](https://github.com/beardenx/CVE-2025-28009)
+- [0xs4h4/CVE-2025-28009](https://github.com/0xs4h4/CVE-2025-28009)
 
 ### CVE-2025-28062 (2025-05-05)
 
@@ -2653,6 +2648,7 @@
 - [cyberpoul/CVE-2025-32462-POC](https://github.com/cyberpoul/CVE-2025-32462-POC)
 - [SpongeBob-369/cve-2025-32462](https://github.com/SpongeBob-369/cve-2025-32462)
 - [MAAYTHM/CVE-2025-32462_32463-Lab](https://github.com/MAAYTHM/CVE-2025-32462_32463-Lab)
+- [toohau/CVE-2025-32462-32463-Detection-Script-](https://github.com/toohau/CVE-2025-32462-32463-Detection-Script-)
 
 ### CVE-2025-32463 (2025-06-30)
 
@@ -2868,7 +2864,7 @@
 <code>An unauthorized remote attacker can bypass the authentication of the affected software package by misusing an incorrect type conversion. This leads to full compromise of the device
 </code>
 
-- [cyberre124/CVE-2025-41646---Critical-Authentication-Bypass-](https://github.com/cyberre124/CVE-2025-41646---Critical-Authentication-Bypass-)
+- [GreenForceNetwork/CVE-2025-41646---Critical-Authentication-Bypass-](https://github.com/GreenForceNetwork/CVE-2025-41646---Critical-Authentication-Bypass-)
 
 ### CVE-2025-43864 (2025-04-25)
 
@@ -3241,9 +3237,8 @@
 - [testsssssssss-sss/CVE-2025-48384](https://github.com/testsssssssss-sss/CVE-2025-48384)
 - [altm4n/cve-2025-48384](https://github.com/altm4n/cve-2025-48384)
 - [altm4n/cve-2025-48384-hub](https://github.com/altm4n/cve-2025-48384-hub)
-- [vinieger/CVE-2025-48384-bad-nginx-submodule](https://github.com/vinieger/CVE-2025-48384-bad-nginx-submodule)
-- [vinieger/CVE-2025-48384-bad-nginx](https://github.com/vinieger/CVE-2025-48384-bad-nginx)
 - [p1026/CVE-2025-48384](https://github.com/p1026/CVE-2025-48384)
+- [vinieger/vinieger-CVE-2025-48384-Dockerfile](https://github.com/vinieger/vinieger-CVE-2025-48384-Dockerfile)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -3276,6 +3271,7 @@
 </code>
 
 - [Wh04m1001/CVE-2025-48799](https://github.com/Wh04m1001/CVE-2025-48799)
+- [KOVmechatronics/CVE-2025-48799](https://github.com/KOVmechatronics/CVE-2025-48799)
 
 ### CVE-2025-48827 (2025-05-27)
 
@@ -4640,6 +4636,7 @@
 - [ibrahmsql/CVE-2024-4577](https://github.com/ibrahmsql/CVE-2024-4577)
 - [byteReaper77/CVE-2024-4577](https://github.com/byteReaper77/CVE-2024-4577)
 - [r0otk3r/CVE-2024-4577](https://github.com/r0otk3r/CVE-2024-4577)
+- [ZeroMemoryEx/PHP-CGI-INTERNAL-RCE](https://github.com/ZeroMemoryEx/PHP-CGI-INTERNAL-RCE)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -6069,6 +6066,13 @@
 - [yenyangmjaze/cve-2024-10914](https://github.com/yenyangmjaze/cve-2024-10914)
 - [silverxpymaster/CVE-2024-10914-Exploit](https://github.com/silverxpymaster/CVE-2024-10914-Exploit)
 - [TH-SecForge/CVE-2024-10914](https://github.com/TH-SecForge/CVE-2024-10914)
+
+### CVE-2024-10915 (2024-11-06)
+
+<code>Eine kritische Schwachstelle wurde in D-Link DNS-320, DNS-320LW, DNS-325 and DNS-340L bis 20241028 ausgemacht. Davon betroffen ist die Funktion cgi_user_add der Datei /cgi-bin/account_mgr.cgi?cmd=cgi_user_add. Mittels dem Manipulieren des Arguments group mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Die Komplexität eines Angriffs ist eher hoch. Sie ist schwierig ausnutzbar. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [r0otk3r/CVE-2024-10915](https://github.com/r0otk3r/CVE-2024-10915)
 
 ### CVE-2024-10924 (2024-11-15)
 
@@ -11444,6 +11448,7 @@
 - [Edwins907/CVE-2024-45352](https://github.com/Edwins907/CVE-2024-45352)
 - [Edwins907/CVE-2024-45352-xiaomi](https://github.com/Edwins907/CVE-2024-45352-xiaomi)
 - [Edwins907/xiaomi-cve-2024-45352](https://github.com/Edwins907/xiaomi-cve-2024-45352)
+- [Edwins907/-CVE-2024-45352](https://github.com/Edwins907/-CVE-2024-45352)
 
 ### CVE-2024-45383 (2024-09-12)
 
@@ -16171,6 +16176,7 @@
 - [X1r0z/Dubbo-RCE](https://github.com/X1r0z/Dubbo-RCE)
 - [YYHYlh/Apache-Dubbo-CVE-2023-23638-exp](https://github.com/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp)
 - [AiK1d/CVE-2023-23638-Tools](https://github.com/AiK1d/CVE-2023-23638-Tools)
+- [cuijiung/dubbo-CVE-2023-23638](https://github.com/cuijiung/dubbo-CVE-2023-23638)
 
 ### CVE-2023-23752 (2023-02-16)
 
@@ -21368,6 +21374,7 @@
 - [RevoltSecurities/CVE-2023-46747](https://github.com/RevoltSecurities/CVE-2023-46747)
 - [vidura2/cve-2023-46747](https://github.com/vidura2/cve-2023-46747)
 - [rainbowhatrkn/CVE-2023-46747-RCE](https://github.com/rainbowhatrkn/CVE-2023-46747-RCE)
+- [cediegreyhat/BigFinger](https://github.com/cediegreyhat/BigFinger)
 
 ### CVE-2023-46805 (2024-01-12)
 
@@ -25338,6 +25345,7 @@
 - [scabench/fastjson-tp1fn1](https://github.com/scabench/fastjson-tp1fn1)
 - [luelueking/CVE-2022-25845-In-Spring](https://github.com/luelueking/CVE-2022-25845-In-Spring)
 - [ph0ebus/CVE-2022-25845-In-Spring](https://github.com/ph0ebus/CVE-2022-25845-In-Spring)
+- [cuijiung/fastjson-CVE-2022-25845](https://github.com/cuijiung/fastjson-CVE-2022-25845)
 
 ### CVE-2022-25869 (2022-07-15)
 
@@ -30838,7 +30846,7 @@
 <code>Insufficient validation of untrusted input in V8 in Google Chrome prior to 89.0.4389.128 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 </code>
 
-- [security-dbg/CVE-2021-21220](https://github.com/security-dbg/CVE-2021-21220)
+- [AmesianX/CVE-2021-21220](https://github.com/AmesianX/CVE-2021-21220)
 
 ### CVE-2021-21234 (2021-01-05)
 
@@ -39027,6 +39035,7 @@
 </code>
 
 - [HYWZ36/HYWZ36-CVE-2020-11989-code](https://github.com/HYWZ36/HYWZ36-CVE-2020-11989-code)
+- [cuijiung/shiro-CVE-2020-11989](https://github.com/cuijiung/shiro-CVE-2020-11989)
 
 ### CVE-2020-11990 (2020-12-01)
 
@@ -41536,6 +41545,13 @@
 </code>
 
 - [Al1ex/CVE-2020-36179](https://github.com/Al1ex/CVE-2020-36179)
+
+### CVE-2020-36180 (2021-01-06)
+
+<code>FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.cpdsadapter.DriverAdapterCPDS.
+</code>
+
+- [cuijiung/jackson-CVE-2020-36180](https://github.com/cuijiung/jackson-CVE-2020-36180)
 
 ### CVE-2020-36184 (2021-01-06)
 
@@ -56632,6 +56648,7 @@
 - [foudadev/CVE-2007-2447](https://github.com/foudadev/CVE-2007-2447)
 - [elphon/CVE-2007-2447-Exploit](https://github.com/elphon/CVE-2007-2447-Exploit)
 - [DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2](https://github.com/DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2)
+- [MrRoma577/exploit_cve-2007-2447_again](https://github.com/MrRoma577/exploit_cve-2007-2447_again)
 
 ### CVE-2007-3280 (2007-06-19)
 
