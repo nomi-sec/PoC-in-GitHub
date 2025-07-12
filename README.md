@@ -969,6 +969,9 @@
 
 - [RandomRobbieBF/CVE-2025-6970](https://github.com/RandomRobbieBF/CVE-2025-6970)
 
+### CVE-2025-7534
+- [4m3rr0r/Student-Result-Management-System](https://github.com/4m3rr0r/Student-Result-Management-System)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -23063,6 +23066,7 @@
 - [gotr00t0day/CVE-2022-1388](https://github.com/gotr00t0day/CVE-2022-1388)
 - [impost0r/CVE-2022-1388](https://github.com/impost0r/CVE-2022-1388)
 - [XiaomingX/cve-2022-1388-poc](https://github.com/XiaomingX/cve-2022-1388-poc)
+- [r0otk3r/CVE-2022-1388](https://github.com/r0otk3r/CVE-2022-1388)
 
 ### CVE-2022-1421 (2022-06-06)
 
@@ -55978,6 +55982,7 @@
 - [JohanMV/explotacion-vsftpd-nmap_Laboratorio_1](https://github.com/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1)
 - [lghost256/vsftpd234-exploit](https://github.com/lghost256/vsftpd234-exploit)
 - [hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523)
+- [krill-x7/CVE-2011-2523](https://github.com/krill-x7/CVE-2011-2523)
 
 ### CVE-2011-2894 (2011-10-04)
 
