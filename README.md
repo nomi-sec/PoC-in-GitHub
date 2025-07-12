@@ -1473,6 +1473,7 @@
 - [x1ongsec/CVE-2025-24813](https://github.com/x1ongsec/CVE-2025-24813)
 - [yaleman/cve-2025-24813-poc](https://github.com/yaleman/cve-2025-24813-poc)
 - [GongWook/CVE-2025-24813](https://github.com/GongWook/CVE-2025-24813)
+- [sentilaso1/CVE-2025-24813-Apache-Tomcat-RCE-PoC](https://github.com/sentilaso1/CVE-2025-24813-Apache-Tomcat-RCE-PoC)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -55394,6 +55395,7 @@
 - [AdenilsonSantos/WinVerifyTrust](https://github.com/AdenilsonSantos/WinVerifyTrust)
 - [DavidBr27/CVE-2013-3900-Remediation-Script](https://github.com/DavidBr27/CVE-2013-3900-Remediation-Script)
 - [piranhap/CVE-2013-3900_Remediation_PowerShell](https://github.com/piranhap/CVE-2013-3900_Remediation_PowerShell)
+- [pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-](https://github.com/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-)
 
 ### CVE-2013-4002 (2013-07-23)
 
