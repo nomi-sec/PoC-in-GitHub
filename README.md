@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2025
+### CVE-2025-0002
+- [valentinuuiuiu/mina-sc-dualdefense-audit-cve-2025-0002](https://github.com/valentinuuiuiu/mina-sc-dualdefense-audit-cve-2025-0002)
+
 ### CVE-2025-0054 (2025-02-11)
 
 <code>SAP NetWeaver Application Server Java does not sufficiently handle user input, resulting in a stored cross-site scripting vulnerability. The application allows attackers with basic user privileges to store a Javascript payload on the server, which could be later executed in the victim's web browser. With this the attacker might be able to read or modify information associated with the vulnerable web page.
@@ -34,6 +37,7 @@
 - [ynsmroztas/-CVE-2025-0133-GlobalProtect-XSS](https://github.com/ynsmroztas/-CVE-2025-0133-GlobalProtect-XSS)
 - [wiseep/CVE-2025-0133](https://github.com/wiseep/CVE-2025-0133)
 - [INTELEON404/CVE-2025-0133](https://github.com/INTELEON404/CVE-2025-0133)
+- [shawarkhanethicalhacker/CVE-2025-0133-exploit](https://github.com/shawarkhanethicalhacker/CVE-2025-0133-exploit)
 
 ### CVE-2025-0282 (2025-01-08)
 
@@ -1832,7 +1836,6 @@
 
 - [NightBloodz/moodleTestingEnv](https://github.com/NightBloodz/moodleTestingEnv)
 - [Astroo18/PoC-CVE-2025-26529](https://github.com/Astroo18/PoC-CVE-2025-26529)
-- [exfil0/UNISA_CVE-2025-26529](https://github.com/exfil0/UNISA_CVE-2025-26529)
 
 ### CVE-2025-26633 (2025-03-11)
 
@@ -3425,6 +3428,9 @@
 
 ### CVE-2025-51046
 - [0xMesh-X/CVE-2025-51046](https://github.com/0xMesh-X/CVE-2025-51046)
+
+### CVE-2025-52097
+- [rwilsonecs/CVE-2025-52097](https://github.com/rwilsonecs/CVE-2025-52097)
 
 ### CVE-2025-52357 (2025-07-09)
 
@@ -16563,7 +16569,6 @@
 - [pbj2647/CVE-2023-25813](https://github.com/pbj2647/CVE-2023-25813)
 - [wxuycea/CVE-2023-25813](https://github.com/wxuycea/CVE-2023-25813)
 - [sea-middle/cve-2023-25813](https://github.com/sea-middle/cve-2023-25813)
-- [platypus-perry03/CVE-2023-25813](https://github.com/platypus-perry03/CVE-2023-25813)
 
 ### CVE-2023-25950 (2023-04-11)
 
