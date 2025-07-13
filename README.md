@@ -657,6 +657,13 @@
 
 - [RandomRobbieBF/CVE-2025-4578](https://github.com/RandomRobbieBF/CVE-2025-4578)
 
+### CVE-2025-4593 (2025-07-11)
+
+<code>The WP Register Profile With Shortcode plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 3.6.2 via the 'rp_user_data' shortcode. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract sensitive data from user meta like hashed passwords, usernames, and more.
+</code>
+
+- [karenucqki/CVE-2025-4593](https://github.com/karenucqki/CVE-2025-4593)
+
 ### CVE-2025-4601 (2025-06-10)
 
 <code>The &quot;RH - Real Estate WordPress Theme&quot; theme for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 4.4.0. This is due to the theme not properly restricting user roles that can be updated as part of the inspiry_update_profile() function. This makes it possible for authenticated attackers, with subscriber-level access and above, to set their role to that of an administrator. The vulnerability was partially patched in version 4.4.0, and fully patched in version 4.4.1.
@@ -1111,6 +1118,7 @@
 - [sfewer-r7/CVE-2025-22457](https://github.com/sfewer-r7/CVE-2025-22457)
 - [securekomodo/CVE-2025-22457](https://github.com/securekomodo/CVE-2025-22457)
 - [TRone-ux/CVE-2025-22457](https://github.com/TRone-ux/CVE-2025-22457)
+- [B1ack4sh/Blackash-CVE-2025-22457](https://github.com/B1ack4sh/Blackash-CVE-2025-22457)
 
 ### CVE-2025-22510 (2025-01-09)
 
@@ -1557,7 +1565,6 @@
 
 ### CVE-2025-25257
 - [watchtowrlabs/watchTowr-vs-FortiWeb-CVE-2025-25257](https://github.com/watchtowrlabs/watchTowr-vs-FortiWeb-CVE-2025-25257)
-- [barbaraogmgf/CVE-2025-25257](https://github.com/barbaraogmgf/CVE-2025-25257)
 - [0xbigshaq/CVE-2025-25257](https://github.com/0xbigshaq/CVE-2025-25257)
 - [adilburaksen/CVE-2025-25257-Exploit-Tool](https://github.com/adilburaksen/CVE-2025-25257-Exploit-Tool)
 - [imbas007/CVE-2025-25257](https://github.com/imbas007/CVE-2025-25257)
@@ -1950,6 +1957,7 @@
 
 - [obamalaolu/CVE-2025-27591](https://github.com/obamalaolu/CVE-2025-27591)
 - [rvizx/CVE-2025-27591](https://github.com/rvizx/CVE-2025-27591)
+- [BridgerAlderson/CVE-2025-27591-PoC](https://github.com/BridgerAlderson/CVE-2025-27591-PoC)
 
 ### CVE-2025-27607 (2025-03-07)
 
@@ -3259,6 +3267,13 @@
 </code>
 
 - [Zedeldi/CVE-2025-47827](https://github.com/Zedeldi/CVE-2025-47827)
+
+### CVE-2025-47981 (2025-07-08)
+
+<code>Heap-based buffer overflow in Windows SPNEGO Extended Negotiation allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [barbaraogmgf/CVE-2025-47981-POC](https://github.com/barbaraogmgf/CVE-2025-47981-POC)
 
 ### CVE-2025-48129 (2025-06-09)
 
@@ -29171,6 +29186,7 @@
 - [tdquang266/MDC](https://github.com/tdquang266/MDC)
 - [69camau/sw1tch](https://github.com/69camau/sw1tch)
 - [Code2Crusader/46689](https://github.com/Code2Crusader/46689)
+- [daviszhto/overwrite](https://github.com/daviszhto/overwrite)
 
 ### CVE-2022-46718 (2023-06-23)
 
