@@ -873,6 +873,7 @@
 </code>
 
 - [Nxploited/CVE-2025-6058](https://github.com/Nxploited/CVE-2025-6058)
+- [JayVillain/Scan-CVE-2025-6058](https://github.com/JayVillain/Scan-CVE-2025-6058)
 
 ### CVE-2025-6218 (2025-06-21)
 
@@ -2833,6 +2834,7 @@
 </code>
 
 - [MrjHaxcore/CVE-2025-34085](https://github.com/MrjHaxcore/CVE-2025-34085)
+- [ill-deed/CVE-2025-34085-Multi-target](https://github.com/ill-deed/CVE-2025-34085-Multi-target)
 
 ### CVE-2025-36041 (2025-06-15)
 
