@@ -2451,6 +2451,7 @@
 
 - [sunhuiHi666/CVE-2025-31125](https://github.com/sunhuiHi666/CVE-2025-31125)
 - [0xgh057r3c0n/CVE-2025-31125](https://github.com/0xgh057r3c0n/CVE-2025-31125)
+- [harshgupptaa/Path-Transversal-CVE-2025-31125-](https://github.com/harshgupptaa/Path-Transversal-CVE-2025-31125-)
 
 ### CVE-2025-31129 (2025-03-31)
 
@@ -3010,9 +3011,6 @@
 
 - [l8BL/CVE-2025-44998](https://github.com/l8BL/CVE-2025-44998)
 
-### CVE-2025-45072
-- [yogeswaran6383/CVE-2025-45072](https://github.com/yogeswaran6383/CVE-2025-45072)
-
 ### CVE-2025-45250 (2025-05-06)
 
 <code>MrDoc v0.95 and before is vulnerable to Server-Side Request Forgery (SSRF) in the validate_url function of the app_doc/utils.py file.
@@ -3389,6 +3387,7 @@
 - [5kr1pt/Roundcube_CVE-2025-49113](https://github.com/5kr1pt/Roundcube_CVE-2025-49113)
 - [punitdarji/roundcube-cve-2025-49113](https://github.com/punitdarji/roundcube-cve-2025-49113)
 - [issamjr/CVE-2025-49113-Scanner](https://github.com/issamjr/CVE-2025-49113-Scanner)
+- [hackmelocal/HML-CVE-2025-49113](https://github.com/hackmelocal/HML-CVE-2025-49113)
 
 ### CVE-2025-49125 (2025-06-16)
 
@@ -17548,6 +17547,7 @@
 - [tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit](https://github.com/tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit)
 - [Chocapikk/CVE-2023-30258](https://github.com/Chocapikk/CVE-2023-30258)
 - [n00o00b/CVE-2023-30258-RCE-POC](https://github.com/n00o00b/CVE-2023-30258-RCE-POC)
+- [AdityaBhatt3010/TryHackMe-Room-Walkthrough-Billing](https://github.com/AdityaBhatt3010/TryHackMe-Room-Walkthrough-Billing)
 
 ### CVE-2023-30333 (2023-05-18)
 
@@ -41591,6 +41591,13 @@
 
 - [w33vils/CVE-2020-35847_CVE-2020-35848](https://github.com/w33vils/CVE-2020-35847_CVE-2020-35848)
 
+### CVE-2020-35848 (2020-12-30)
+
+<code>Agentejo Cockpit before 0.11.2 allows NoSQL injection via the Controller/Auth.php newpassword function.
+</code>
+
+- [sabbu143s/CVE_2020_35848](https://github.com/sabbu143s/CVE_2020_35848)
+
 ### CVE-2020-36079 (2021-02-26)
 
 <code>Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory. NOTE: the vendor disputes this because exploitation can only be performed by an admin who has &quot;lots of other possibilities to harm a site.
@@ -49545,6 +49552,7 @@
 - [SampatDhakal/Metasploit-Attack-Report](https://github.com/SampatDhakal/Metasploit-Attack-Report)
 - [h3x0v3rl0rd/MS17-010](https://github.com/h3x0v3rl0rd/MS17-010)
 - [Mafiosohack/offensive-security-lab-1](https://github.com/Mafiosohack/offensive-security-lab-1)
+- [Cedric-Martz/EthernalBlue_report](https://github.com/Cedric-Martz/EthernalBlue_report)
 
 ### CVE-2017-0144 (2017-03-17)
 
@@ -54183,6 +54191,7 @@
 - [guanjivip/CVE-2015-8562](https://github.com/guanjivip/CVE-2015-8562)
 - [lorenzodegiorgi/setup-cve-2015-8562](https://github.com/lorenzodegiorgi/setup-cve-2015-8562)
 - [Caihuar/Joomla-cve-2015-8562](https://github.com/Caihuar/Joomla-cve-2015-8562)
+- [Anonydra/joomla-1.5-3.4.5-rce](https://github.com/Anonydra/joomla-1.5-3.4.5-rce)
 
 ### CVE-2015-8651 (2015-12-28)
 
