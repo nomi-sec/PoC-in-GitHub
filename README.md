@@ -267,6 +267,7 @@
 - [abrewer251/CVE-2025-1974_IngressNightmare_PoC](https://github.com/abrewer251/CVE-2025-1974_IngressNightmare_PoC)
 - [Rickerd12/exploit-cve-2025-1974](https://github.com/Rickerd12/exploit-cve-2025-1974)
 - [B1ack4sh/Blackash-CVE-2025-1974](https://github.com/B1ack4sh/Blackash-CVE-2025-1974)
+- [Armand2002/Exploit-CVE-2025-1974-Lab](https://github.com/Armand2002/Exploit-CVE-2025-1974-Lab)
 
 ### CVE-2025-2005 (2025-04-02)
 
@@ -814,6 +815,13 @@
 - [Nxploited/CVE-2025-5701](https://github.com/Nxploited/CVE-2025-5701)
 - [RandomRobbieBF/CVE-2025-5701](https://github.com/RandomRobbieBF/CVE-2025-5701)
 
+### CVE-2025-5755 (2025-06-06)
+
+<code>Es wurde eine kritische Schwachstelle in SourceCodester Open Source Clinic Management System 1.0 ausgemacht. Dabei betrifft es einen unbekannter Codeteil der Datei /email_config.php. Durch das Beeinflussen des Arguments email mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [cyberajju/cve-2025-5755](https://github.com/cyberajju/cve-2025-5755)
+
 ### CVE-2025-5777 (2025-06-17)
 
 <code>Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA virtual server
@@ -984,10 +992,18 @@
 
 - [RandomRobbieBF/CVE-2025-6970](https://github.com/RandomRobbieBF/CVE-2025-6970)
 
-### CVE-2025-7605
+### CVE-2025-7605 (2025-07-14)
+
+<code>Eine kritische Schwachstelle wurde in code-projects AVL Rooms 1.0 ausgemacht. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei /profile.php. Durch Beeinflussen des Arguments first_name mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
 - [sunhuiHi666/CVE-2025-7605](https://github.com/sunhuiHi666/CVE-2025-7605)
 
-### CVE-2025-7606
+### CVE-2025-7606 (2025-07-14)
+
+<code>Es wurde eine Schwachstelle in code-projects AVL Rooms 1.0 entdeckt. Sie wurde als kritisch eingestuft. Es betrifft eine unbekannte Funktion der Datei /city.php. Dank der Manipulation des Arguments city mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
 - [sunhuiHi666/CVE-2025-7606](https://github.com/sunhuiHi666/CVE-2025-7606)
 
 ### CVE-2025-20029 (2025-02-05)
@@ -2309,6 +2325,7 @@
 - [B1ack4sh/Blackash-CVE-2025-29927](https://github.com/B1ack4sh/Blackash-CVE-2025-29927)
 - [amitlttwo/Next.JS-CVE-2025-29927](https://github.com/amitlttwo/Next.JS-CVE-2025-29927)
 - [KamalideenAK/poc-cve-2025-29927](https://github.com/KamalideenAK/poc-cve-2025-29927)
+- [mickhacking/thank-u-next](https://github.com/mickhacking/thank-u-next)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -2995,6 +3012,12 @@
 
 - [harish0x/CVE-2025-44108-SXSS](https://github.com/harish0x/CVE-2025-44108-SXSS)
 
+### CVE-2025-44136
+- [mheranco/CVE-2025-44136](https://github.com/mheranco/CVE-2025-44136)
+
+### CVE-2025-44137
+- [mheranco/CVE-2025-44137](https://github.com/mheranco/CVE-2025-44137)
+
 ### CVE-2025-44148 (2025-06-03)
 
 <code>Cross Site Scripting (XSS) vulnerability in MailEnable before v10 allows a remote attacker to execute arbitrary code via the failure.aspx component
@@ -3281,13 +3304,6 @@
 
 - [Zedeldi/CVE-2025-47827](https://github.com/Zedeldi/CVE-2025-47827)
 
-### CVE-2025-47981 (2025-07-08)
-
-<code>Heap-based buffer overflow in Windows SPNEGO Extended Negotiation allows an unauthorized attacker to execute code over a network.
-</code>
-
-- [barbaraogmgf/CVE-2025-47981-POC](https://github.com/barbaraogmgf/CVE-2025-47981-POC)
-
 ### CVE-2025-48129 (2025-06-09)
 
 <code>Incorrect Privilege Assignment vulnerability in Holest Engineering Spreadsheet Price Changer for WooCommerce and WP E-commerce – Light allows Privilege Escalation. This issue affects Spreadsheet Price Changer for WooCommerce and WP E-commerce – Light: from n/a through 2.4.37.
@@ -3344,7 +3360,6 @@
 </code>
 
 - [Wh04m1001/CVE-2025-48799](https://github.com/Wh04m1001/CVE-2025-48799)
-- [KOVmechatronics/CVE-2025-48799](https://github.com/KOVmechatronics/CVE-2025-48799)
 
 ### CVE-2025-48827 (2025-05-27)
 
@@ -14989,6 +15004,7 @@
 - [tucommenceapousser/CVE-2023-5360](https://github.com/tucommenceapousser/CVE-2023-5360)
 - [Jenderal92/WP-CVE-2023-5360](https://github.com/Jenderal92/WP-CVE-2023-5360)
 - [Pushkarup/CVE-2023-5360](https://github.com/Pushkarup/CVE-2023-5360)
+- [X3RX3SSec/CVE-2023-5360](https://github.com/X3RX3SSec/CVE-2023-5360)
 
 ### CVE-2023-5412 (2023-10-31)
 
