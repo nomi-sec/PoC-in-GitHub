@@ -984,6 +984,12 @@
 
 - [RandomRobbieBF/CVE-2025-6970](https://github.com/RandomRobbieBF/CVE-2025-6970)
 
+### CVE-2025-7605
+- [sunhuiHi666/CVE-2025-7605](https://github.com/sunhuiHi666/CVE-2025-7605)
+
+### CVE-2025-7606
+- [sunhuiHi666/CVE-2025-7606](https://github.com/sunhuiHi666/CVE-2025-7606)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -1570,6 +1576,7 @@
 - [adilburaksen/CVE-2025-25257-Exploit-Tool](https://github.com/adilburaksen/CVE-2025-25257-Exploit-Tool)
 - [imbas007/CVE-2025-25257](https://github.com/imbas007/CVE-2025-25257)
 - [B1ack4sh/Blackash-CVE-2025-25257](https://github.com/B1ack4sh/Blackash-CVE-2025-25257)
+- [mtjanus106/CVE-2025-25257](https://github.com/mtjanus106/CVE-2025-25257)
 
 ### CVE-2025-25279 (2025-02-24)
 
@@ -3296,9 +3303,6 @@
 - [NigelX/CVE-2025-48384](https://github.com/NigelX/CVE-2025-48384)
 - [greatyy/CVE-2025-48384-p](https://github.com/greatyy/CVE-2025-48384-p)
 - [testdjshan/CVE-2025-48384](https://github.com/testdjshan/CVE-2025-48384)
-- [testsssssssss-sss/CVE-2025-48384](https://github.com/testsssssssss-sss/CVE-2025-48384)
-- [altm4n/cve-2025-48384](https://github.com/altm4n/cve-2025-48384)
-- [altm4n/cve-2025-48384-hub](https://github.com/altm4n/cve-2025-48384-hub)
 - [p1026/CVE-2025-48384](https://github.com/p1026/CVE-2025-48384)
 - [vinieger/vinieger-CVE-2025-48384-Dockerfile](https://github.com/vinieger/vinieger-CVE-2025-48384-Dockerfile)
 
@@ -3342,6 +3346,7 @@
 
 - [0xgh057r3c0n/CVE-2025-48827](https://github.com/0xgh057r3c0n/CVE-2025-48827)
 - [wiseep/CVE-2025-48827](https://github.com/wiseep/CVE-2025-48827)
+- [SystemVll/CVE-2025-48827](https://github.com/SystemVll/CVE-2025-48827)
 
 ### CVE-2025-48828 (2025-05-27)
 
@@ -3436,6 +3441,7 @@
 
 - [MuhammadWaseem29/CVE-2025-49493-Poc](https://github.com/MuhammadWaseem29/CVE-2025-49493-Poc)
 - [B1ack4sh/Blackash-CVE-2025-49493](https://github.com/B1ack4sh/Blackash-CVE-2025-49493)
+- [SystemVll/CVE-2025-49493](https://github.com/SystemVll/CVE-2025-49493)
 
 ### CVE-2025-49596 (2025-06-13)
 
@@ -3482,6 +3488,13 @@
 </code>
 
 - [wrathfulDiety/CVE-2025-52357](https://github.com/wrathfulDiety/CVE-2025-52357)
+
+### CVE-2025-52488 (2025-06-21)
+
+<code>DNN (formerly DotNetNuke) is an open-source web content management platform (CMS) in the Microsoft ecosystem. In versions 6.0.0 to before 10.0.1, DNN.PLATFORM allows a specially crafted series of malicious interaction to potentially expose NTLM hashes to a third party SMB server. This issue has been patched in version 10.0.1.
+</code>
+
+- [SystemVll/CVE-2025-52488](https://github.com/SystemVll/CVE-2025-52488)
 
 ### CVE-2025-53547 (2025-07-08)
 
