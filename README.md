@@ -1280,6 +1280,7 @@
 - [cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC](https://github.com/cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC)
 - [rxerium/CVE-2025-24016](https://github.com/rxerium/CVE-2025-24016)
 - [B1ack4sh/Blackash-CVE-2025-24016](https://github.com/B1ack4sh/Blackash-CVE-2025-24016)
+- [guinea-offensive-security/Wazuh-RCE](https://github.com/guinea-offensive-security/Wazuh-RCE)
 
 ### CVE-2025-24035 (2025-03-11)
 
@@ -26432,7 +26433,7 @@
 - [sentrium-security/Follina-Workaround-CVE-2022-30190](https://github.com/sentrium-security/Follina-Workaround-CVE-2022-30190)
 - [Hrishikesh7665/Follina_Exploiter_CLI](https://github.com/Hrishikesh7665/Follina_Exploiter_CLI)
 - [b401/Clickstudio-compromised-certificate](https://github.com/b401/Clickstudio-compromised-certificate)
-- [k508/CVE-2022-30190](https://github.com/k508/CVE-2022-30190)
+- [cyberdashy/CVE-2022-30190](https://github.com/cyberdashy/CVE-2022-30190)
 - [amitniz/follina_cve_2022-30190](https://github.com/amitniz/follina_cve_2022-30190)
 - [Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab](https://github.com/Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab)
 - [JotaQC/CVE-2022-30190_Temporary_Fix](https://github.com/JotaQC/CVE-2022-30190_Temporary_Fix)
