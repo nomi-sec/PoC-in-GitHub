@@ -1601,6 +1601,7 @@
 - [imbas007/CVE-2025-25257](https://github.com/imbas007/CVE-2025-25257)
 - [B1ack4sh/Blackash-CVE-2025-25257](https://github.com/B1ack4sh/Blackash-CVE-2025-25257)
 - [mtjanus106/CVE-2025-25257](https://github.com/mtjanus106/CVE-2025-25257)
+- [0xgh057r3c0n/CVE-2025-25257](https://github.com/0xgh057r3c0n/CVE-2025-25257)
 
 ### CVE-2025-25279 (2025-02-24)
 
@@ -2776,6 +2777,7 @@
 - [0xb0rn3/CVE-2025-32463-EXPLOIT](https://github.com/0xb0rn3/CVE-2025-32463-EXPLOIT)
 - [morgenm/sudo-chroot-CVE-2025-32463](https://github.com/morgenm/sudo-chroot-CVE-2025-32463)
 - [dbarquero/cve-2025-32463-lab](https://github.com/dbarquero/cve-2025-32463-lab)
+- [9Insomnie/CVE-2025-32463](https://github.com/9Insomnie/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3345,6 +3347,7 @@
 - [testdjshan/CVE-2025-48384](https://github.com/testdjshan/CVE-2025-48384)
 - [p1026/CVE-2025-48384](https://github.com/p1026/CVE-2025-48384)
 - [vinieger/vinieger-CVE-2025-48384-Dockerfile](https://github.com/vinieger/vinieger-CVE-2025-48384-Dockerfile)
+- [ECHO6789/CVE-2025-48384-submodule](https://github.com/ECHO6789/CVE-2025-48384-submodule)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -3540,6 +3543,13 @@
 </code>
 
 - [DVKunion/CVE-2025-53547-POC](https://github.com/DVKunion/CVE-2025-53547-POC)
+
+### CVE-2025-53833 (2025-07-14)
+
+<code>LaRecipe is an application that allows users to create documentation with Markdown inside a Laravel app. Versions prior to 2.8.1 are vulnerable to Server-Side Template Injection (SSTI), which could potentially lead to Remote Code Execution (RCE) in vulnerable configurations. Attackers could execute arbitrary commands on the server, access sensitive environment variables, and/or escalate access depending on server configuration. Users are strongly advised to upgrade to version v2.8.1 or later to receive a patch.
+</code>
+
+- [B1ack4sh/Blackash-CVE-2025-53833](https://github.com/B1ack4sh/Blackash-CVE-2025-53833)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
