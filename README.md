@@ -839,6 +839,7 @@
 - [bughuntar/CVE-2025-5777](https://github.com/bughuntar/CVE-2025-5777)
 - [0xgh057r3c0n/CVE-2025-5777](https://github.com/0xgh057r3c0n/CVE-2025-5777)
 - [Jishanluhar/CVE-2025-5777](https://github.com/Jishanluhar/CVE-2025-5777)
+- [SleepNotF0und/CVE-2025-5777](https://github.com/SleepNotF0und/CVE-2025-5777)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -992,7 +993,11 @@
 
 - [RandomRobbieBF/CVE-2025-6970](https://github.com/RandomRobbieBF/CVE-2025-6970)
 
-### CVE-2025-7340
+### CVE-2025-7340 (2025-07-15)
+
+<code>The HT Contact Form Widget For Elementor Page Builder &amp; Gutenberg Blocks &amp; Form Builder. plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the temp_file_upload function in all versions up to, and including, 2.2.1. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
 - [Nxploited/CVE-2025-7340](https://github.com/Nxploited/CVE-2025-7340)
 
 ### CVE-2025-7605 (2025-07-14)
@@ -1992,6 +1997,8 @@
 - [obamalaolu/CVE-2025-27591](https://github.com/obamalaolu/CVE-2025-27591)
 - [rvizx/CVE-2025-27591](https://github.com/rvizx/CVE-2025-27591)
 - [BridgerAlderson/CVE-2025-27591-PoC](https://github.com/BridgerAlderson/CVE-2025-27591-PoC)
+- [DarksBlackSk/CVE-2025-27591-Proof-Of-Concept](https://github.com/DarksBlackSk/CVE-2025-27591-Proof-Of-Concept)
+- [dollarboysushil/Linux-Privilege-Escalation-CVE-2025-27591](https://github.com/dollarboysushil/Linux-Privilege-Escalation-CVE-2025-27591)
 
 ### CVE-2025-27607 (2025-03-07)
 
@@ -2280,7 +2287,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
-- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -3308,6 +3314,13 @@
 
 - [Zedeldi/CVE-2025-47827](https://github.com/Zedeldi/CVE-2025-47827)
 
+### CVE-2025-47981 (2025-07-08)
+
+<code>Heap-based buffer overflow in Windows SPNEGO Extended Negotiation allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [detectrespondrepeat/CVE-2025-47981](https://github.com/detectrespondrepeat/CVE-2025-47981)
+
 ### CVE-2025-48129 (2025-06-09)
 
 <code>Incorrect Privilege Assignment vulnerability in Holest Engineering Spreadsheet Price Changer for WooCommerce and WP E-commerce – Light allows Privilege Escalation. This issue affects Spreadsheet Price Changer for WooCommerce and WP E-commerce – Light: from n/a through 2.4.37.
@@ -3427,7 +3440,6 @@
 </code>
 
 - [gregk4sec/CVE-2025-49125](https://github.com/gregk4sec/CVE-2025-49125)
-- [detectrespondrepeat/CVE-2025-49125-Authentication-Bypass](https://github.com/detectrespondrepeat/CVE-2025-49125-Authentication-Bypass)
 
 ### CVE-2025-49132 (2025-06-20)
 
@@ -27943,7 +27955,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -52728,7 +52739,6 @@
 - [th3-5had0w/DirtyCOW-PoC](https://github.com/th3-5had0w/DirtyCOW-PoC)
 - [r1is/CVE-2022-0847](https://github.com/r1is/CVE-2022-0847)
 - [vinspiert/scumjrs](https://github.com/vinspiert/scumjrs)
-- [gurpreetsinghsaluja/dirtycow](https://github.com/gurpreetsinghsaluja/dirtycow)
 - [TotallyNotAHaxxer/CVE-2016-5195](https://github.com/TotallyNotAHaxxer/CVE-2016-5195)
 - [passionchenjianyegmail8/scumjrs](https://github.com/passionchenjianyegmail8/scumjrs)
 - [malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195](https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195)
