@@ -61,7 +61,7 @@
 <code>The WP Directorybox Manager plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.5. This is due to incorrect authentication in the 'wp_dp_enquiry_agent_contact_form_submit_callback' function. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the username.
 </code>
 
-- [zorvithonleon/CVE-2025-0316-Exploit](https://github.com/zorvithonleon/CVE-2025-0316-Exploit)
+- [MrPayloadC/CVE-2025-0316-Exploit](https://github.com/MrPayloadC/CVE-2025-0316-Exploit)
 
 ### CVE-2025-0364 (2025-02-04)
 
@@ -991,6 +991,9 @@
 </code>
 
 - [RandomRobbieBF/CVE-2025-6970](https://github.com/RandomRobbieBF/CVE-2025-6970)
+
+### CVE-2025-7340
+- [Nxploited/CVE-2025-7340](https://github.com/Nxploited/CVE-2025-7340)
 
 ### CVE-2025-7605 (2025-07-14)
 
@@ -2325,7 +2328,7 @@
 - [B1ack4sh/Blackash-CVE-2025-29927](https://github.com/B1ack4sh/Blackash-CVE-2025-29927)
 - [amitlttwo/Next.JS-CVE-2025-29927](https://github.com/amitlttwo/Next.JS-CVE-2025-29927)
 - [KamalideenAK/poc-cve-2025-29927](https://github.com/KamalideenAK/poc-cve-2025-29927)
-- [mickhacking/thank-u-next](https://github.com/mickhacking/thank-u-next)
+- [mickhacking/Thank-u-Next](https://github.com/mickhacking/Thank-u-Next)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -2766,6 +2769,7 @@
 - [abrewer251/CVE-2025-32463_Sudo_PoC](https://github.com/abrewer251/CVE-2025-32463_Sudo_PoC)
 - [0xb0rn3/CVE-2025-32463-EXPLOIT](https://github.com/0xb0rn3/CVE-2025-32463-EXPLOIT)
 - [morgenm/sudo-chroot-CVE-2025-32463](https://github.com/morgenm/sudo-chroot-CVE-2025-32463)
+- [dbarquero/cve-2025-32463-lab](https://github.com/dbarquero/cve-2025-32463-lab)
 
 ### CVE-2025-32579 (2025-04-11)
 
