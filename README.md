@@ -1960,6 +1960,9 @@
 - [andreglock/axios-ssrf](https://github.com/andreglock/axios-ssrf)
 - [davidblakecoe/axios-CVE-2025-27152-PoC](https://github.com/davidblakecoe/axios-CVE-2025-27152-PoC)
 
+### CVE-2025-27210
+- [absholi7ly/CVE-2025-27210_NodeJS_Path_Traversal_Exploit](https://github.com/absholi7ly/CVE-2025-27210_NodeJS_Path_Traversal_Exploit)
+
 ### CVE-2025-27363 (2025-03-11)
 
 <code>An out of bounds write exists in FreeType versions 2.13.0 and below (newer versions of FreeType are not vulnerable) when attempting to parse font subglyph structures related to TrueType GX and variable font files. The vulnerable code assigns a signed short value to an unsigned long and then adds a static value causing it to wrap around and allocate too small of a heap buffer. The code then writes up to 6 signed long integers out of bounds relative to this buffer. This may result in arbitrary code execution. This vulnerability may have been exploited in the wild.
@@ -3322,6 +3325,7 @@
 - [0xgh057r3c0n/CVE-2025-47812](https://github.com/0xgh057r3c0n/CVE-2025-47812)
 - [ill-deed/WingFTP-CVE-2025-47812-illdeed](https://github.com/ill-deed/WingFTP-CVE-2025-47812-illdeed)
 - [pevinkumar10/CVE-2025-47812](https://github.com/pevinkumar10/CVE-2025-47812)
+- [rxerium/CVE-2025-47812](https://github.com/rxerium/CVE-2025-47812)
 
 ### CVE-2025-47827 (2025-06-05)
 
@@ -3359,9 +3363,12 @@
 - [NigelX/CVE-2025-48384](https://github.com/NigelX/CVE-2025-48384)
 - [greatyy/CVE-2025-48384-p](https://github.com/greatyy/CVE-2025-48384-p)
 - [testdjshan/CVE-2025-48384](https://github.com/testdjshan/CVE-2025-48384)
+- [altm4n/cve-2025-48384](https://github.com/altm4n/cve-2025-48384)
+- [altm4n/cve-2025-48384-hub](https://github.com/altm4n/cve-2025-48384-hub)
 - [p1026/CVE-2025-48384](https://github.com/p1026/CVE-2025-48384)
 - [vinieger/vinieger-CVE-2025-48384-Dockerfile](https://github.com/vinieger/vinieger-CVE-2025-48384-Dockerfile)
 - [ECHO6789/CVE-2025-48384-submodule](https://github.com/ECHO6789/CVE-2025-48384-submodule)
+- [nguyentranbaotran/cve-2025-48384-poc](https://github.com/nguyentranbaotran/cve-2025-48384-poc)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -3449,7 +3456,7 @@
 - [5kr1pt/Roundcube_CVE-2025-49113](https://github.com/5kr1pt/Roundcube_CVE-2025-49113)
 - [punitdarji/roundcube-cve-2025-49113](https://github.com/punitdarji/roundcube-cve-2025-49113)
 - [issamjr/CVE-2025-49113-Scanner](https://github.com/issamjr/CVE-2025-49113-Scanner)
-- [hackmelocal/HML-CVE-2025-49113](https://github.com/hackmelocal/HML-CVE-2025-49113)
+- [hackmelocal/HML-CVE-2025-49113-Round-Cube](https://github.com/hackmelocal/HML-CVE-2025-49113-Round-Cube)
 
 ### CVE-2025-49125 (2025-06-16)
 
@@ -14650,9 +14657,9 @@
 </code>
 
 - [N1ghtfallXxX/CVE-2023-4220](https://github.com/N1ghtfallXxX/CVE-2023-4220)
-- [m3m0o/chamilo-lms-unauthenticated-big-upload-rce-poc](https://github.com/m3m0o/chamilo-lms-unauthenticated-big-upload-rce-poc)
 - [dollarboysushil/Chamilo-LMS-Unauthenticated-File-Upload-CVE-2023-4220](https://github.com/dollarboysushil/Chamilo-LMS-Unauthenticated-File-Upload-CVE-2023-4220)
 - [charlesgargasson/CVE-2023-4220](https://github.com/charlesgargasson/CVE-2023-4220)
+- [Rai2en/CVE-2023-4220-Chamilo-LMS](https://github.com/Rai2en/CVE-2023-4220-Chamilo-LMS)
 - [Ziad-Sakr/Chamilo-CVE-2023-4220-Exploit](https://github.com/Ziad-Sakr/Chamilo-CVE-2023-4220-Exploit)
 - [HO4XXX/cve-2023-4220-poc](https://github.com/HO4XXX/cve-2023-4220-poc)
 - [B1TC0R3/CVE-2023-4220-PoC](https://github.com/B1TC0R3/CVE-2023-4220-PoC)
@@ -15184,7 +15191,7 @@
 - [motikan2010/CVE-2023-6063-PoC](https://github.com/motikan2010/CVE-2023-6063-PoC)
 - [hackersroot/CVE-2023-6063-PoC](https://github.com/hackersroot/CVE-2023-6063-PoC)
 - [Eulex0x/CVE-2023-6063](https://github.com/Eulex0x/CVE-2023-6063)
-- [incommatose/CVE-2023-6063](https://github.com/incommatose/CVE-2023-6063)
+- [incommatose/CVE-2023-6063-PoC](https://github.com/incommatose/CVE-2023-6063-PoC)
 
 ### CVE-2023-6199 (2023-11-20)
 
@@ -16706,7 +16713,6 @@
 </code>
 
 - [rvizx/CVE-2023-26035](https://github.com/rvizx/CVE-2023-26035)
-- [m3m0o/zoneminder-snapshots-rce-poc](https://github.com/m3m0o/zoneminder-snapshots-rce-poc)
 - [heapbytes/CVE-2023-26035](https://github.com/heapbytes/CVE-2023-26035)
 - [Yuma-Tsushima07/CVE-2023-26035](https://github.com/Yuma-Tsushima07/CVE-2023-26035)
 - [0xfalafel/zoneminder_CVE-2023-26035](https://github.com/0xfalafel/zoneminder_CVE-2023-26035)
@@ -19623,7 +19629,6 @@
 - [kh4sh3i/CVE-2023-38646](https://github.com/kh4sh3i/CVE-2023-38646)
 - [yxl2001/CVE-2023-38646](https://github.com/yxl2001/CVE-2023-38646)
 - [alexandre-pecorilla/CVE-2023-38646](https://github.com/alexandre-pecorilla/CVE-2023-38646)
-- [m3m0o/metabase-pre-auth-rce-poc](https://github.com/m3m0o/metabase-pre-auth-rce-poc)
 - [CN016/Metabase-H2-CVE-2023-38646-](https://github.com/CN016/Metabase-H2-CVE-2023-38646-)
 - [Boogipop/MetabaseRceTools](https://github.com/Boogipop/MetabaseRceTools)
 - [nickswink/CVE-2023-38646](https://github.com/nickswink/CVE-2023-38646)
@@ -25339,6 +25344,13 @@
 </code>
 
 - [ComparedArray/printix-CVE-2022-25090](https://github.com/ComparedArray/printix-CVE-2022-25090)
+
+### CVE-2022-25226 (2022-04-18)
+
+<code>ThinVNC version 1.0b1 allows an unauthenticated user to bypass the authentication process via 'http://thin-vnc:8080/cmd?cmd=connect' by obtaining a valid SID without any kind of authentication. It is possible to achieve code execution on the server by sending keyboard or mouse events to the server.
+</code>
+
+- [krill-x7/CVE-2022-25226](https://github.com/krill-x7/CVE-2022-25226)
 
 ### CVE-2022-25235 (2022-02-16)
 
