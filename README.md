@@ -2711,6 +2711,7 @@
 - [Chocapikk/CVE-2025-32432](https://github.com/Chocapikk/CVE-2025-32432)
 - [Sachinart/CVE-2025-32432](https://github.com/Sachinart/CVE-2025-32432)
 - [CTY-Research-1/CVE-2025-32432-PoC](https://github.com/CTY-Research-1/CVE-2025-32432-PoC)
+- [B1ack4sh/Blackash-CVE-2025-32432](https://github.com/B1ack4sh/Blackash-CVE-2025-32432)
 
 ### CVE-2025-32433 (2025-04-16)
 
@@ -2795,6 +2796,7 @@
 - [MohamedKarrab/CVE-2025-32463](https://github.com/MohamedKarrab/CVE-2025-32463)
 - [dbarquero/cve-2025-32463-lab](https://github.com/dbarquero/cve-2025-32463-lab)
 - [9Insomnie/CVE-2025-32463](https://github.com/9Insomnie/CVE-2025-32463)
+- [krypton-0x00/CVE-2025-32463-Chwoot-POC](https://github.com/krypton-0x00/CVE-2025-32463-Chwoot-POC)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3334,13 +3336,6 @@
 
 - [Zedeldi/CVE-2025-47827](https://github.com/Zedeldi/CVE-2025-47827)
 
-### CVE-2025-47981 (2025-07-08)
-
-<code>Heap-based buffer overflow in Windows SPNEGO Extended Negotiation allows an unauthorized attacker to execute code over a network.
-</code>
-
-- [detectrespondrepeat/CVE-2025-47981](https://github.com/detectrespondrepeat/CVE-2025-47981)
-
 ### CVE-2025-48129 (2025-06-09)
 
 <code>Incorrect Privilege Assignment vulnerability in Holest Engineering Spreadsheet Price Changer for WooCommerce and WP E-commerce – Light allows Privilege Escalation. This issue affects Spreadsheet Price Changer for WooCommerce and WP E-commerce – Light: from n/a through 2.4.37.
@@ -3558,6 +3553,20 @@
 </code>
 
 - [SystemVll/CVE-2025-52488](https://github.com/SystemVll/CVE-2025-52488)
+
+### CVE-2025-52688 (2025-07-16)
+
+<code>Successful exploitation of the vulnerability could allow an attacker to inject commands with root privileges on the access point, potentially leading to the loss of confidentiality, integrity, availability, and full control of the access point.
+</code>
+
+- [joelczk/CVE-2025-52688](https://github.com/joelczk/CVE-2025-52688)
+
+### CVE-2025-52689 (2025-07-16)
+
+<code>Successful exploitation of the vulnerability could allow an unauthenticated attacker to obtain a valid session ID with administrator privileges by spoofing the login request, potentially allowing the attacker to modify the behaviour of the access point.
+</code>
+
+- [UltimateHG/CVE-2025-52689-PoC](https://github.com/UltimateHG/CVE-2025-52689-PoC)
 
 ### CVE-2025-53547 (2025-07-08)
 
@@ -55541,6 +55550,7 @@
 - [DavidBr27/CVE-2013-3900-Remediation-Script](https://github.com/DavidBr27/CVE-2013-3900-Remediation-Script)
 - [piranhap/CVE-2013-3900_Remediation_PowerShell](https://github.com/piranhap/CVE-2013-3900_Remediation_PowerShell)
 - [pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-](https://github.com/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-)
+- [malaya-m/cve-2013-3900-remediation-report](https://github.com/malaya-m/cve-2013-3900-remediation-report)
 
 ### CVE-2013-4002 (2013-07-23)
 
