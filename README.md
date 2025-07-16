@@ -846,6 +846,7 @@
 - [bughuntar/CVE-2025-5777](https://github.com/bughuntar/CVE-2025-5777)
 - [0xgh057r3c0n/CVE-2025-5777](https://github.com/0xgh057r3c0n/CVE-2025-5777)
 - [SleepNotF0und/CVE-2025-5777](https://github.com/SleepNotF0und/CVE-2025-5777)
+- [B1ack4sh/Blackash-CVE-2025-5777](https://github.com/B1ack4sh/Blackash-CVE-2025-5777)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -2797,6 +2798,7 @@
 - [dbarquero/cve-2025-32463-lab](https://github.com/dbarquero/cve-2025-32463-lab)
 - [9Insomnie/CVE-2025-32463](https://github.com/9Insomnie/CVE-2025-32463)
 - [krypton-0x00/CVE-2025-32463-Chwoot-POC](https://github.com/krypton-0x00/CVE-2025-32463-Chwoot-POC)
+- [Floodnut/CVE-2025-32463](https://github.com/Floodnut/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -2900,11 +2902,7 @@
 
 - [MrjHaxcore/CVE-2025-34077](https://github.com/MrjHaxcore/CVE-2025-34077)
 
-### CVE-2025-34085 (2025-07-09)
-
-<code>An unrestricted file upload vulnerability in the WordPress Simple File List plugin prior to version 4.2.3 allows unauthenticated remote attackers to achieve remote code execution. The plugin's upload endpoint (ee-upload-engine.php) restricts file uploads based on extension, but lacks proper validation after file renaming. An attacker can first upload a PHP payload disguised as a .png file, then use the plugin’s ee-file-engine.php rename functionality to change the extension to .php. This bypasses upload restrictions and results in the uploaded payload being executable on the server.
-</code>
-
+### CVE-2025-34085
 - [MrjHaxcore/CVE-2025-34085](https://github.com/MrjHaxcore/CVE-2025-34085)
 - [ill-deed/CVE-2025-34085-Multi-target](https://github.com/ill-deed/CVE-2025-34085-Multi-target)
 
@@ -43422,6 +43420,7 @@
 - [del0x3/CVE-2019-9053-port-py3](https://github.com/del0x3/CVE-2019-9053-port-py3)
 - [kaizoku73/CVE-2019-9053](https://github.com/kaizoku73/CVE-2019-9053)
 - [Hackheart-tech/-exploit-lab](https://github.com/Hackheart-tech/-exploit-lab)
+- [Kalidas-7/CVE-2019-9053](https://github.com/Kalidas-7/CVE-2019-9053)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
