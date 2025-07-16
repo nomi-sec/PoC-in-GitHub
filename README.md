@@ -845,7 +845,6 @@
 - [FrenzisRed/CVE-2025-5777](https://github.com/FrenzisRed/CVE-2025-5777)
 - [bughuntar/CVE-2025-5777](https://github.com/bughuntar/CVE-2025-5777)
 - [0xgh057r3c0n/CVE-2025-5777](https://github.com/0xgh057r3c0n/CVE-2025-5777)
-- [Jishanluhar/CVE-2025-5777](https://github.com/Jishanluhar/CVE-2025-5777)
 - [SleepNotF0und/CVE-2025-5777](https://github.com/SleepNotF0und/CVE-2025-5777)
 
 ### CVE-2025-5815 (2025-06-13)
@@ -2790,6 +2789,7 @@
 - [abrewer251/CVE-2025-32463_Sudo_PoC](https://github.com/abrewer251/CVE-2025-32463_Sudo_PoC)
 - [0xb0rn3/CVE-2025-32463-EXPLOIT](https://github.com/0xb0rn3/CVE-2025-32463-EXPLOIT)
 - [morgenm/sudo-chroot-CVE-2025-32463](https://github.com/morgenm/sudo-chroot-CVE-2025-32463)
+- [MohamedKarrab/CVE-2025-32463](https://github.com/MohamedKarrab/CVE-2025-32463)
 - [dbarquero/cve-2025-32463-lab](https://github.com/dbarquero/cve-2025-32463-lab)
 - [9Insomnie/CVE-2025-32463](https://github.com/9Insomnie/CVE-2025-32463)
 
@@ -4780,6 +4780,7 @@
 - [byteReaper77/CVE-2024-4577](https://github.com/byteReaper77/CVE-2024-4577)
 - [r0otk3r/CVE-2024-4577](https://github.com/r0otk3r/CVE-2024-4577)
 - [ZeroMemoryEx/PHP-CGI-INTERNAL-RCE](https://github.com/ZeroMemoryEx/PHP-CGI-INTERNAL-RCE)
+- [Skycritch/CVE-2024-4577](https://github.com/Skycritch/CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -14262,6 +14263,7 @@
 - [SanjayRagavendar/Ubuntu-GameOver-Lay](https://github.com/SanjayRagavendar/Ubuntu-GameOver-Lay)
 - [Nkipohcs/CVE-2023-2640-CVE-2023-32629](https://github.com/Nkipohcs/CVE-2023-2640-CVE-2023-32629)
 - [K5LK/CVE-2023-2640-32629](https://github.com/K5LK/CVE-2023-2640-32629)
+- [filippo-zullo98/phpMyAdmin-RCE-Exploit-Lab](https://github.com/filippo-zullo98/phpMyAdmin-RCE-Exploit-Lab)
 
 ### CVE-2023-2645 (2023-05-11)
 
