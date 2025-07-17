@@ -1219,6 +1219,7 @@
 </code>
 
 - [JoshuaProvoste/CVE-2025-22870](https://github.com/JoshuaProvoste/CVE-2025-22870)
+- [B1ack4sh/Blackash-CVE-2025-22870](https://github.com/B1ack4sh/Blackash-CVE-2025-22870)
 
 ### CVE-2025-22912 (2025-01-16)
 
@@ -1978,6 +1979,13 @@
 </code>
 
 - [jiseoung/CVE-2025-27415-PoC](https://github.com/jiseoung/CVE-2025-27415-PoC)
+
+### CVE-2025-27521 (2025-03-04)
+
+<code>Vulnerability of improper access permission in the process management module\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.
+</code>
+
+- [alialucas7/CVE-2025-27521_PoC](https://github.com/alialucas7/CVE-2025-27521_PoC)
 
 ### CVE-2025-27533 (2025-05-07)
 
@@ -2799,6 +2807,7 @@
 - [9Insomnie/CVE-2025-32463](https://github.com/9Insomnie/CVE-2025-32463)
 - [krypton-0x00/CVE-2025-32463-Chwoot-POC](https://github.com/krypton-0x00/CVE-2025-32463-Chwoot-POC)
 - [Floodnut/CVE-2025-32463](https://github.com/Floodnut/CVE-2025-32463)
+- [92gmuz/CVE-2025-32463](https://github.com/92gmuz/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3579,6 +3588,9 @@
 </code>
 
 - [B1ack4sh/Blackash-CVE-2025-53833](https://github.com/B1ack4sh/Blackash-CVE-2025-53833)
+
+### CVE-2025-53964
+- [tigr78/CVE-2025-53964](https://github.com/tigr78/CVE-2025-53964)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
