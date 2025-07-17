@@ -951,6 +951,13 @@
 - [ghostn4444/POC-CVE-2025-6554](https://github.com/ghostn4444/POC-CVE-2025-6554)
 - [9Insomnie/CVE-2025-6554](https://github.com/9Insomnie/CVE-2025-6554)
 
+### CVE-2025-6558 (2025-07-15)
+
+<code>Insufficient validation of untrusted input in ANGLE and GPU in Google Chrome prior to 138.0.7204.157 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [allinsthon/CVE-2025-6558-exp](https://github.com/allinsthon/CVE-2025-6558-exp)
+
 ### CVE-2025-6586 (2025-07-04)
 
 <code>The Download Plugin plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the dpwap_plugin_locInstall function in all versions up to, and including, 2.2.8. This makes it possible for authenticated attackers, with Administrator-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -1610,7 +1617,11 @@
 - [RandomRobbieBF/CVE-2025-25163](https://github.com/RandomRobbieBF/CVE-2025-25163)
 - [RootHarpy/CVE-2025-25163-Nuclei-Template](https://github.com/RootHarpy/CVE-2025-25163-Nuclei-Template)
 
-### CVE-2025-25257
+### CVE-2025-25257 (2025-07-17)
+
+<code>An improper neutralization of special elements used in an SQL command ('SQL Injection') vulnerability [CWE-89] in Fortinet FortiWeb version 7.6.0 through 7.6.3, 7.4.0 through 7.4.7, 7.2.0 through 7.2.10 and below 7.0.10 allows an unauthenticated attacker to execute unauthorized SQL code or commands via crafted HTTP or HTTPs requests.
+</code>
+
 - [watchtowrlabs/watchTowr-vs-FortiWeb-CVE-2025-25257](https://github.com/watchtowrlabs/watchTowr-vs-FortiWeb-CVE-2025-25257)
 - [0xbigshaq/CVE-2025-25257](https://github.com/0xbigshaq/CVE-2025-25257)
 - [adilburaksen/CVE-2025-25257-Exploit-Tool](https://github.com/adilburaksen/CVE-2025-25257-Exploit-Tool)
@@ -1980,13 +1991,6 @@
 
 - [jiseoung/CVE-2025-27415-PoC](https://github.com/jiseoung/CVE-2025-27415-PoC)
 
-### CVE-2025-27521 (2025-03-04)
-
-<code>Vulnerability of improper access permission in the process management module\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.
-</code>
-
-- [alialucas7/CVE-2025-27521_PoC](https://github.com/alialucas7/CVE-2025-27521_PoC)
-
 ### CVE-2025-27533 (2025-05-07)
 
 <code>Memory Allocation with Excessive Size Value vulnerability in Apache ActiveMQ.\n\nDuring unmarshalling of OpenWire commands the size value of buffers was not properly validated which could lead to excessive memory allocation and be exploited to cause a denial of service (DoS) by depleting process memory, thereby affecting applications and services that rely on the availability of the ActiveMQ broker when not using mutual TLS connections.\nThis issue affects Apache ActiveMQ: from 6.0.0 before 6.1.6, from 5.18.0 before 5.18.7, from 5.17.0 before 5.17.7, before 5.16.8. ActiveMQ 5.19.0 is not affected.\n\nUsers are recommended to upgrade to version 6.1.6+, 5.19.0+,  5.18.7+, 5.17.7, or 5.16.8 or which fixes the issue.\n\nExisting users may implement mutual TLS to mitigate the risk on affected brokers.
@@ -2025,6 +2029,7 @@
 - [BridgerAlderson/CVE-2025-27591-PoC](https://github.com/BridgerAlderson/CVE-2025-27591-PoC)
 - [DarksBlackSk/CVE-2025-27591](https://github.com/DarksBlackSk/CVE-2025-27591)
 - [dollarboysushil/Linux-Privilege-Escalation-CVE-2025-27591](https://github.com/dollarboysushil/Linux-Privilege-Escalation-CVE-2025-27591)
+- [alialucas7/CVE-2025-27591_PoC](https://github.com/alialucas7/CVE-2025-27591_PoC)
 
 ### CVE-2025-27607 (2025-03-07)
 
@@ -2382,6 +2387,7 @@
 - [mouadk/parquet-rce-poc-CVE-2025-30065](https://github.com/mouadk/parquet-rce-poc-CVE-2025-30065)
 - [ThreatRadarAI/TRAI-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation](https://github.com/ThreatRadarAI/TRAI-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation)
 - [F5-Labs/parquet-canary-exploit-rce-poc-CVE-2025-30065](https://github.com/F5-Labs/parquet-canary-exploit-rce-poc-CVE-2025-30065)
+- [B1ack4sh/Blackash-CVE-2025-30065](https://github.com/B1ack4sh/Blackash-CVE-2025-30065)
 
 ### CVE-2025-30066 (2025-03-15)
 
@@ -3338,6 +3344,7 @@
 - [pevinkumar10/CVE-2025-47812](https://github.com/pevinkumar10/CVE-2025-47812)
 - [rxerium/CVE-2025-47812](https://github.com/rxerium/CVE-2025-47812)
 - [blindma1den/CVE-2025-47812](https://github.com/blindma1den/CVE-2025-47812)
+- [B1ack4sh/Blackash-CVE-2025-47812](https://github.com/B1ack4sh/Blackash-CVE-2025-47812)
 
 ### CVE-2025-47827 (2025-06-05)
 
@@ -3375,6 +3382,7 @@
 - [ECHO6789/CVE-2025-48384-submodule](https://github.com/ECHO6789/CVE-2025-48384-submodule)
 - [nguyentranbaotran/cve-2025-48384-poc](https://github.com/nguyentranbaotran/cve-2025-48384-poc)
 - [admin-ping/CVE-2025-48384-RCE](https://github.com/admin-ping/CVE-2025-48384-RCE)
+- [simplyfurious/CVE-2025-48384-submodule_test](https://github.com/simplyfurious/CVE-2025-48384-submodule_test)
 
 ### CVE-2025-48461 (2025-06-24)
 
