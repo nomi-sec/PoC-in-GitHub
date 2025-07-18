@@ -1976,6 +1976,7 @@
 
 ### CVE-2025-27210
 - [absholi7ly/CVE-2025-27210_NodeJS_Path_Traversal_Exploit](https://github.com/absholi7ly/CVE-2025-27210_NodeJS_Path_Traversal_Exploit)
+- [B1ack4sh/Blackash-CVE-2025-27210](https://github.com/B1ack4sh/Blackash-CVE-2025-27210)
 
 ### CVE-2025-27363 (2025-03-11)
 
@@ -2818,6 +2819,7 @@
 - [Floodnut/CVE-2025-32463](https://github.com/Floodnut/CVE-2025-32463)
 - [92gmuz/CVE-2025-32463](https://github.com/92gmuz/CVE-2025-32463)
 - [Rajneeshkarya/CVE-2025-32463](https://github.com/Rajneeshkarya/CVE-2025-32463)
+- [MGunturG/CVE-2025-32463](https://github.com/MGunturG/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -11594,7 +11596,6 @@
 </code>
 
 - [congdong007/CVE-2024-45216-Poc](https://github.com/congdong007/CVE-2024-45216-Poc)
-- [qhoko/CVE-2024-45216](https://github.com/qhoko/CVE-2024-45216)
 
 ### CVE-2024-45241 (2024-08-26)
 
@@ -28809,6 +28810,7 @@
 </code>
 
 - [IgorDuino/CVE-2022-44136-exploit](https://github.com/IgorDuino/CVE-2022-44136-exploit)
+- [Ch35h1r3c47/CVE-2022-44136-poc](https://github.com/Ch35h1r3c47/CVE-2022-44136-poc)
 
 ### CVE-2022-44149 (2023-01-06)
 
@@ -30086,7 +30088,6 @@
 - [Wra7h/SharpPN](https://github.com/Wra7h/SharpPN)
 - [OppressionBreedsResistance/CVE-2021-1675-PrintNightmare](https://github.com/OppressionBreedsResistance/CVE-2021-1675-PrintNightmare)
 - [eversinc33/NimNightmare](https://github.com/eversinc33/NimNightmare)
-- [AndrewTrube/CVE-2021-1675](https://github.com/AndrewTrube/CVE-2021-1675)
 - [TheJoyOfHacking/cube0x0-CVE-2021-1675](https://github.com/TheJoyOfHacking/cube0x0-CVE-2021-1675)
 - [TheJoyOfHacking/calebstewart-CVE-2021-1675](https://github.com/TheJoyOfHacking/calebstewart-CVE-2021-1675)
 - [jj4152/cve-2021-1675](https://github.com/jj4152/cve-2021-1675)
@@ -30453,6 +30454,7 @@
 - [Shuhaib88/Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156](https://github.com/Shuhaib88/Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156)
 - [Superliverbun/cve-2021-3156-](https://github.com/Superliverbun/cve-2021-3156-)
 - [TopskiyPavelQwertyGang/Review.CVE-2021-3156](https://github.com/TopskiyPavelQwertyGang/Review.CVE-2021-3156)
+- [Maalfer/Sudo-CVE-2021-3156](https://github.com/Maalfer/Sudo-CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
