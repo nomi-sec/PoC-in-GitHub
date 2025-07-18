@@ -1624,6 +1624,7 @@
 
 - [watchtowrlabs/watchTowr-vs-FortiWeb-CVE-2025-25257](https://github.com/watchtowrlabs/watchTowr-vs-FortiWeb-CVE-2025-25257)
 - [0xbigshaq/CVE-2025-25257](https://github.com/0xbigshaq/CVE-2025-25257)
+- [aitorfirm/CVE-2025-25257](https://github.com/aitorfirm/CVE-2025-25257)
 - [adilburaksen/CVE-2025-25257-Exploit-Tool](https://github.com/adilburaksen/CVE-2025-25257-Exploit-Tool)
 - [imbas007/CVE-2025-25257](https://github.com/imbas007/CVE-2025-25257)
 - [B1ack4sh/Blackash-CVE-2025-25257](https://github.com/B1ack4sh/Blackash-CVE-2025-25257)
@@ -2030,6 +2031,7 @@
 - [DarksBlackSk/CVE-2025-27591](https://github.com/DarksBlackSk/CVE-2025-27591)
 - [dollarboysushil/Linux-Privilege-Escalation-CVE-2025-27591](https://github.com/dollarboysushil/Linux-Privilege-Escalation-CVE-2025-27591)
 - [alialucas7/CVE-2025-27591_PoC](https://github.com/alialucas7/CVE-2025-27591_PoC)
+- [incommatose/CVE-2025-27591-PoC](https://github.com/incommatose/CVE-2025-27591-PoC)
 
 ### CVE-2025-27607 (2025-03-07)
 
@@ -3112,6 +3114,9 @@
 ### CVE-2025-45467
 - [zgsnj123/CVE-2025-45467](https://github.com/zgsnj123/CVE-2025-45467)
 
+### CVE-2025-45512
+- [AzhariRamadhan/CVE-2025-45512](https://github.com/AzhariRamadhan/CVE-2025-45512)
+
 ### CVE-2025-45619
 - [weedl/CVE-2025-45619](https://github.com/weedl/CVE-2025-45619)
 
@@ -3471,6 +3476,7 @@
 - [punitdarji/roundcube-cve-2025-49113](https://github.com/punitdarji/roundcube-cve-2025-49113)
 - [issamjr/CVE-2025-49113-Scanner](https://github.com/issamjr/CVE-2025-49113-Scanner)
 - [hackmelocal/HML-CVE-2025-49113-Round-Cube](https://github.com/hackmelocal/HML-CVE-2025-49113-Round-Cube)
+- [Joelp03/CVE-2025-49113](https://github.com/Joelp03/CVE-2025-49113)
 
 ### CVE-2025-49125 (2025-06-16)
 
@@ -42700,6 +42706,13 @@
 </code>
 
 - [aneeshanilkumar89/Maximo_Sql_Injection-CVE-2019-4650](https://github.com/aneeshanilkumar89/Maximo_Sql_Injection-CVE-2019-4650)
+
+### CVE-2019-4716 (2019-12-18)
+
+<code>IBM Planning Analytics 2.0.0 through 2.0.8 is vulnerable to a configuration overwrite that allows an unauthenticated user to login as &quot;admin&quot;, and then execute code as root or SYSTEM via TM1 scripting. IBM X-Force ID: 172094.
+</code>
+
+- [Pranjal6955/CVE-2019-4716-Test-Environment](https://github.com/Pranjal6955/CVE-2019-4716-Test-Environment)
 
 ### CVE-2019-5010 (2019-10-31)
 
