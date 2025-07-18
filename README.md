@@ -1029,6 +1029,20 @@
 
 - [sunhuiHi666/CVE-2025-7606](https://github.com/sunhuiHi666/CVE-2025-7606)
 
+### CVE-2025-7753 (2025-07-17)
+
+<code>Es wurde eine Schwachstelle in code-projects Online Appointment Booking System 1.0 ausgemacht. Sie wurde als kritisch eingestuft. Dabei betrifft es einen unbekannter Codeteil der Datei /admin/adddoctor.php. Durch das Beeinflussen des Arguments Username mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [byteReaper77/CVE-2025-7753](https://github.com/byteReaper77/CVE-2025-7753)
+
+### CVE-2025-7783 (2025-07-18)
+
+<code>Use of Insufficiently Random Values vulnerability in form-data allows HTTP Parameter Pollution (HPP). This vulnerability is associated with program files lib/form_data.Js.\n\nThis issue affects form-data: &lt; 2.5.4, 3.0.0 - 3.0.3, 4.0.0 - 4.0.3.
+</code>
+
+- [benweissmann/CVE-2025-7783-poc](https://github.com/benweissmann/CVE-2025-7783-poc)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -2817,7 +2831,6 @@
 - [9Insomnie/CVE-2025-32463](https://github.com/9Insomnie/CVE-2025-32463)
 - [krypton-0x00/CVE-2025-32463-Chwoot-POC](https://github.com/krypton-0x00/CVE-2025-32463-Chwoot-POC)
 - [Floodnut/CVE-2025-32463](https://github.com/Floodnut/CVE-2025-32463)
-- [92gmuz/CVE-2025-32463](https://github.com/92gmuz/CVE-2025-32463)
 - [Rajneeshkarya/CVE-2025-32463](https://github.com/Rajneeshkarya/CVE-2025-32463)
 - [MGunturG/CVE-2025-32463](https://github.com/MGunturG/CVE-2025-32463)
 
@@ -3264,6 +3277,13 @@
 
 - [mbanyamer/mbanyamer-Microsoft-PowerPoint-Use-After-Free-Remote-Code-Execution-RCE](https://github.com/mbanyamer/mbanyamer-Microsoft-PowerPoint-Use-After-Free-Remote-Code-Execution-RCE)
 
+### CVE-2025-47176 (2025-06-10)
+
+<code>'.../...//' in Microsoft Office Outlook allows an authorized attacker to execute code locally.
+</code>
+
+- [mahyarx/CVE-2025-47176](https://github.com/mahyarx/CVE-2025-47176)
+
 ### CVE-2025-47181 (2025-05-22)
 
 <code>Improper link resolution before file access ('link following') in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges locally.
@@ -3597,6 +3617,13 @@
 </code>
 
 - [UltimateHG/CVE-2025-52689-PoC](https://github.com/UltimateHG/CVE-2025-52689-PoC)
+
+### CVE-2025-53367 (2025-07-03)
+
+<code>DjVuLibre is a GPL implementation of DjVu, a web-centric format for distributing documents and images. Prior to version 3.5.29, the MMRDecoder::scanruns method is affected by an OOB-write vulnerability, because it does not check that the xr pointer stays within the bounds of the allocated buffer. This can lead to writes beyond the allocated memory, resulting in a heap corruption condition. An out-of-bounds read with pr is also possible for the same reason. This issue has been patched in version 3.5.29.
+</code>
+
+- [kevinbackhouse/DjVuLibre-poc-CVE-2025-53367](https://github.com/kevinbackhouse/DjVuLibre-poc-CVE-2025-53367)
 
 ### CVE-2025-53547 (2025-07-08)
 
@@ -30428,7 +30455,6 @@
 - [chenaotian/CVE-2021-3156](https://github.com/chenaotian/CVE-2021-3156)
 - [ret2basic/SudoScience](https://github.com/ret2basic/SudoScience)
 - [puckiestyle/CVE-2021-3156](https://github.com/puckiestyle/CVE-2021-3156)
-- [barebackbandit/CVE-2021-3156](https://github.com/barebackbandit/CVE-2021-3156)
 - [RodricBr/CVE-2021-3156](https://github.com/RodricBr/CVE-2021-3156)
 - [ypl6/heaplens](https://github.com/ypl6/heaplens)
 - [q77190858/CVE-2021-3156](https://github.com/q77190858/CVE-2021-3156)
@@ -32991,6 +33017,7 @@
 </code>
 
 - [akr3ch/CVE-2021-32099](https://github.com/akr3ch/CVE-2021-32099)
+- [magicrc/CVE-2021-32099](https://github.com/magicrc/CVE-2021-32099)
 
 ### CVE-2021-32156 (2022-04-11)
 
