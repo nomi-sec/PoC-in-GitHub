@@ -3604,7 +3604,11 @@
 
 - [B1ack4sh/Blackash-CVE-2025-53833](https://github.com/B1ack4sh/Blackash-CVE-2025-53833)
 
-### CVE-2025-53964
+### CVE-2025-53964 (2025-07-17)
+
+<code>GoldenDict 1.5.0 and 1.5.1 has an exposed dangerous method that allows reading and modifying files when a user adds a crafted dictionary and then searches for any term included in that dictionary.
+</code>
+
 - [tigr78/CVE-2025-53964](https://github.com/tigr78/CVE-2025-53964)
 
 ### CVE-2025-492025
