@@ -1068,6 +1068,13 @@
 - [ill-deed/Cisco-CVE-2025-20281-illdeed](https://github.com/ill-deed/Cisco-CVE-2025-20281-illdeed)
 - [B1ack4sh/Blackash-CVE-2025-20281](https://github.com/B1ack4sh/Blackash-CVE-2025-20281)
 
+### CVE-2025-20337 (2025-07-16)
+
+<code>A vulnerability in a specific API of Cisco ISE and Cisco ISE-PIC could allow an unauthenticated, remote attacker to execute arbitrary code on the underlying operating system as root. The attacker does not require any valid credentials to exploit this vulnerability.\r\n\r\nThis vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by submitting a crafted API request. A successful exploit could allow the attacker to obtain root privileges on an affected device.
+</code>
+
+- [barbaraeivyu/CVE-2025-20337-EXP](https://github.com/barbaraeivyu/CVE-2025-20337-EXP)
+
 ### CVE-2025-21204 (2025-04-08)
 
 <code>Improper link resolution before file access ('link following') in Windows Update Stack allows an authorized attacker to elevate privileges locally.
@@ -1298,6 +1305,13 @@
 </code>
 
 - [abhisek3122/CVE-2025-23167](https://github.com/abhisek3122/CVE-2025-23167)
+
+### CVE-2025-23266 (2025-07-17)
+
+<code>NVIDIA Container Toolkit for all platforms contains a vulnerability in some hooks used to initialize the container, where an attacker could execute arbitrary code with elevated permissions. A successful exploit of this vulnerability might lead to escalation of privileges, data tampering, information disclosure, and denial of service.
+</code>
+
+- [jpts/cve-2025-23266-poc](https://github.com/jpts/cve-2025-23266-poc)
 
 ### CVE-2025-23369 (2025-01-21)
 
@@ -2690,7 +2704,7 @@
 
 - [leesh3288/CVE-2025-32023](https://github.com/leesh3288/CVE-2025-32023)
 - [B1ack4sh/Blackash-CVE-2025-32023](https://github.com/B1ack4sh/Blackash-CVE-2025-32023)
-- [atomicjjbod/CVE-2025-32023](https://github.com/atomicjjbod/CVE-2025-32023)
+- [LordBheem/CVE-2025-32023](https://github.com/LordBheem/CVE-2025-32023)
 
 ### CVE-2025-32118 (2025-04-04)
 
@@ -2787,7 +2801,6 @@
 
 - [Hacksparo/CVE-2025-32462](https://github.com/Hacksparo/CVE-2025-32462)
 - [CryingN/CVE-2025-32462](https://github.com/CryingN/CVE-2025-32462)
-- [atomicjjbod/CVE-2025-32462](https://github.com/atomicjjbod/CVE-2025-32462)
 - [cybersentinelx1/CVE-2025-32462-Exploit](https://github.com/cybersentinelx1/CVE-2025-32462-Exploit)
 - [mylovem313/CVE-2025-32462](https://github.com/mylovem313/CVE-2025-32462)
 - [cyberpoul/CVE-2025-32462-POC](https://github.com/cyberpoul/CVE-2025-32462-POC)
@@ -2838,6 +2851,7 @@
 - [Floodnut/CVE-2025-32463](https://github.com/Floodnut/CVE-2025-32463)
 - [Rajneeshkarya/CVE-2025-32463](https://github.com/Rajneeshkarya/CVE-2025-32463)
 - [MGunturG/CVE-2025-32463](https://github.com/MGunturG/CVE-2025-32463)
+- [Maalfer/Sudo-CVE-2021-3156](https://github.com/Maalfer/Sudo-CVE-2021-3156)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3418,7 +3432,6 @@
 - [nguyentranbaotran/cve-2025-48384-poc](https://github.com/nguyentranbaotran/cve-2025-48384-poc)
 - [admin-ping/CVE-2025-48384-RCE](https://github.com/admin-ping/CVE-2025-48384-RCE)
 - [simplyfurious/CVE-2025-48384-submodule_test](https://github.com/simplyfurious/CVE-2025-48384-submodule_test)
-- [Anezatraa/CVE-2025-48384-POC](https://github.com/Anezatraa/CVE-2025-48384-POC)
 - [Anezatraa/CVE-2025-48384-submodule](https://github.com/Anezatraa/CVE-2025-48384-submodule)
 
 ### CVE-2025-48461 (2025-06-24)
@@ -3596,6 +3609,18 @@
 
 ### CVE-2025-51046
 - [0xMesh-X/CVE-2025-51046](https://github.com/0xMesh-X/CVE-2025-51046)
+
+### CVE-2025-51858
+- [Secsys-FDU/CVE-2025-51858](https://github.com/Secsys-FDU/CVE-2025-51858)
+
+### CVE-2025-51859
+- [Secsys-FDU/CVE-2025-51859](https://github.com/Secsys-FDU/CVE-2025-51859)
+
+### CVE-2025-51860
+- [Secsys-FDU/CVE-2025-51860](https://github.com/Secsys-FDU/CVE-2025-51860)
+
+### CVE-2025-51862
+- [Secsys-FDU/CVE-2025-51862](https://github.com/Secsys-FDU/CVE-2025-51862)
 
 ### CVE-2025-52097
 - [rwilsonecs/CVE-2025-52097](https://github.com/rwilsonecs/CVE-2025-52097)
@@ -6920,6 +6945,7 @@
 - [m-cetin/CVE-2024-20767](https://github.com/m-cetin/CVE-2024-20767)
 - [Chocapikk/CVE-2024-20767](https://github.com/Chocapikk/CVE-2024-20767)
 - [Praison001/CVE-2024-20767-Adobe-ColdFusion](https://github.com/Praison001/CVE-2024-20767-Adobe-ColdFusion)
+- [alm6no5/CVE-2024-20767](https://github.com/alm6no5/CVE-2024-20767)
 
 ### CVE-2024-20931 (2024-02-17)
 
