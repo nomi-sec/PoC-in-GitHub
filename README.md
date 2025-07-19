@@ -1988,7 +1988,11 @@
 - [andreglock/axios-ssrf](https://github.com/andreglock/axios-ssrf)
 - [davidblakecoe/axios-CVE-2025-27152-PoC](https://github.com/davidblakecoe/axios-CVE-2025-27152-PoC)
 
-### CVE-2025-27210
+### CVE-2025-27210 (2025-07-18)
+
+<code>An incomplete fix has been identified for CVE-2025-23084 in Node.js, specifically affecting Windows device names like CON, PRN, and AUX. \r\n\r\nThis vulnerability affects Windows users of `path.join` API.
+</code>
+
 - [absholi7ly/CVE-2025-27210_NodeJS_Path_Traversal_Exploit](https://github.com/absholi7ly/CVE-2025-27210_NodeJS_Path_Traversal_Exploit)
 - [B1ack4sh/Blackash-CVE-2025-27210](https://github.com/B1ack4sh/Blackash-CVE-2025-27210)
 
@@ -3173,6 +3177,9 @@
 </code>
 
 - [yggcwhat/CVE-2025-46080](https://github.com/yggcwhat/CVE-2025-46080)
+
+### CVE-2025-46099
+- [0xC4J/CVE-Lists](https://github.com/0xC4J/CVE-Lists)
 
 ### CVE-2025-46142
 - [AugustusSploits/CVE-2025-46142](https://github.com/AugustusSploits/CVE-2025-46142)
