@@ -1043,6 +1043,13 @@
 
 - [benweissmann/CVE-2025-7783-poc](https://github.com/benweissmann/CVE-2025-7783-poc)
 
+### CVE-2025-7795 (2025-07-18)
+
+<code>Eine kritische Schwachstelle wurde in Tenda FH451 1.0.0.9 entdeckt. Es geht hierbei um die Funktion fromP2pListFilter der Datei /goform/P2pListFilter. Dank Manipulation des Arguments page mit unbekannten Daten kann eine stack-based buffer overflow-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [byteReaper77/CVE-2025-7795](https://github.com/byteReaper77/CVE-2025-7795)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -1579,6 +1586,7 @@
 - [yaleman/cve-2025-24813-poc](https://github.com/yaleman/cve-2025-24813-poc)
 - [GongWook/CVE-2025-24813](https://github.com/GongWook/CVE-2025-24813)
 - [sentilaso1/CVE-2025-24813-Apache-Tomcat-RCE-PoC](https://github.com/sentilaso1/CVE-2025-24813-Apache-Tomcat-RCE-PoC)
+- [x00byte/PutScanner](https://github.com/x00byte/PutScanner)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -1658,6 +1666,7 @@
 - [B1ack4sh/Blackash-CVE-2025-25257](https://github.com/B1ack4sh/Blackash-CVE-2025-25257)
 - [0xgh057r3c0n/CVE-2025-25257](https://github.com/0xgh057r3c0n/CVE-2025-25257)
 - [mrmtwoj/CVE-2025-25257](https://github.com/mrmtwoj/CVE-2025-25257)
+- [TheStingR/CVE-2025-25257](https://github.com/TheStingR/CVE-2025-25257)
 
 ### CVE-2025-25279 (2025-02-24)
 
@@ -2597,6 +2606,7 @@
 - [0xgh057r3c0n/CVE-2025-31161](https://github.com/0xgh057r3c0n/CVE-2025-31161)
 - [B1ack4sh/Blackash-CVE-2025-31161](https://github.com/B1ack4sh/Blackash-CVE-2025-31161)
 - [ibrahmsql/CVE-2025-31161](https://github.com/ibrahmsql/CVE-2025-31161)
+- [r0otk3r/CVE-2025-31161](https://github.com/r0otk3r/CVE-2025-31161)
 
 ### CVE-2025-31200 (2025-04-16)
 
@@ -3036,6 +3046,7 @@
 </code>
 
 - [GreenForceNetwork/CVE-2025-41646---Critical-Authentication-Bypass-](https://github.com/GreenForceNetwork/CVE-2025-41646---Critical-Authentication-Bypass-)
+- [r0otk3r/CVE-2025-41646](https://github.com/r0otk3r/CVE-2025-41646)
 
 ### CVE-2025-43864 (2025-04-25)
 
@@ -3622,6 +3633,24 @@
 ### CVE-2025-51862
 - [Secsys-FDU/CVE-2025-51862](https://github.com/Secsys-FDU/CVE-2025-51862)
 
+### CVE-2025-51863
+- [Secsys-FDU/CVE-2025-51863](https://github.com/Secsys-FDU/CVE-2025-51863)
+
+### CVE-2025-51864
+- [Secsys-FDU/CVE-2025-51864](https://github.com/Secsys-FDU/CVE-2025-51864)
+
+### CVE-2025-51865
+- [Secsys-FDU/CVE-2025-51865](https://github.com/Secsys-FDU/CVE-2025-51865)
+
+### CVE-2025-51867
+- [Secsys-FDU/CVE-2025-51867](https://github.com/Secsys-FDU/CVE-2025-51867)
+
+### CVE-2025-51868
+- [Secsys-FDU/CVE-2025-51868](https://github.com/Secsys-FDU/CVE-2025-51868)
+
+### CVE-2025-51869
+- [Secsys-FDU/CVE-2025-51869](https://github.com/Secsys-FDU/CVE-2025-51869)
+
 ### CVE-2025-52097
 - [rwilsonecs/CVE-2025-52097](https://github.com/rwilsonecs/CVE-2025-52097)
 
@@ -3666,6 +3695,13 @@
 </code>
 
 - [DVKunion/CVE-2025-53547-POC](https://github.com/DVKunion/CVE-2025-53547-POC)
+
+### CVE-2025-53640 (2025-07-14)
+
+<code>Indico is an event management system that uses Flask-Multipass, a multi-backend authentication system for Flask. Starting in version 2.2 and prior to version 3.3.7, an endpoint used to display details of users listed in certain fields (such as ACLs) could be misused to dump basic user details (such as name, affiliation and email) in bulk. Version 3.3.7 fixes the issue. Owners of instances that allow everyone to create a user account, who wish to truly restrict access to these user details, should consider restricting user search to managers. As a workaround, it is possible to restrict access to the affected endpoints (e.g. in the webserver config), but doing so would break certain form fields which could no longer show the details of the users listed in those fields, so upgrading instead is highly recommended.
+</code>
+
+- [rafaelcorvino1/CVE-2025-53640](https://github.com/rafaelcorvino1/CVE-2025-53640)
 
 ### CVE-2025-53833 (2025-07-14)
 
