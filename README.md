@@ -3607,6 +3607,13 @@
 
 - [HExploited/CVE-2025-49719-Exploit](https://github.com/HExploited/CVE-2025-49719-Exploit)
 
+### CVE-2025-49721 (2025-07-08)
+
+<code>Heap-based buffer overflow in Windows Fast FAT Driver allows an unauthorized attacker to elevate privileges locally.
+</code>
+
+- [Lam0x0/CVE-2025-49721_part1](https://github.com/Lam0x0/CVE-2025-49721_part1)
+
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
 
@@ -3624,6 +3631,24 @@
 
 ### CVE-2025-51046
 - [0xMesh-X/CVE-2025-51046](https://github.com/0xMesh-X/CVE-2025-51046)
+
+### CVE-2025-51396
+- [Thewhiteevil/CVE-2025-51396](https://github.com/Thewhiteevil/CVE-2025-51396)
+
+### CVE-2025-51397
+- [Thewhiteevil/CVE-2025-51397](https://github.com/Thewhiteevil/CVE-2025-51397)
+
+### CVE-2025-51398
+- [Thewhiteevil/CVE-2025-51398](https://github.com/Thewhiteevil/CVE-2025-51398)
+
+### CVE-2025-51400
+- [Thewhiteevil/CVE-2025-51400](https://github.com/Thewhiteevil/CVE-2025-51400)
+
+### CVE-2025-51401
+- [Thewhiteevil/CVE-2025-51401](https://github.com/Thewhiteevil/CVE-2025-51401)
+
+### CVE-2025-51403
+- [Thewhiteevil/CVE-2025-51403](https://github.com/Thewhiteevil/CVE-2025-51403)
 
 ### CVE-2025-51858
 - [Secsys-FDU/CVE-2025-51858](https://github.com/Secsys-FDU/CVE-2025-51858)
@@ -3654,6 +3679,9 @@
 
 ### CVE-2025-51869
 - [Secsys-FDU/CVE-2025-51869](https://github.com/Secsys-FDU/CVE-2025-51869)
+
+### CVE-2025-51970
+- [M4xIq/CVE-2025-51970](https://github.com/M4xIq/CVE-2025-51970)
 
 ### CVE-2025-52097
 - [rwilsonecs/CVE-2025-52097](https://github.com/rwilsonecs/CVE-2025-52097)
@@ -22848,6 +22876,7 @@
 - [Trinadh465/device_renesas_kernel_AOSP10_r33_CVE-2022-0492](https://github.com/Trinadh465/device_renesas_kernel_AOSP10_r33_CVE-2022-0492)
 - [yoeelingBin/CVE-2022-0492-Container-Escape](https://github.com/yoeelingBin/CVE-2022-0492-Container-Escape)
 - [T1erno/CVE-2022-0492-Docker-Breakout-Checker-and-PoC](https://github.com/T1erno/CVE-2022-0492-Docker-Breakout-Checker-and-PoC)
+- [Perimora/cve_2022_0492](https://github.com/Perimora/cve_2022_0492)
 
 ### CVE-2022-0529 (2022-02-09)
 
