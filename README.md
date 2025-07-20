@@ -2075,6 +2075,7 @@
 - [dollarboysushil/Linux-Privilege-Escalation-CVE-2025-27591](https://github.com/dollarboysushil/Linux-Privilege-Escalation-CVE-2025-27591)
 - [alialucas7/CVE-2025-27591_PoC](https://github.com/alialucas7/CVE-2025-27591_PoC)
 - [incommatose/CVE-2025-27591-PoC](https://github.com/incommatose/CVE-2025-27591-PoC)
+- [00xCanelo/CVE-2025-27591-PoC](https://github.com/00xCanelo/CVE-2025-27591-PoC)
 
 ### CVE-2025-27607 (2025-03-07)
 
@@ -3533,6 +3534,7 @@
 - [issamjr/CVE-2025-49113-Scanner](https://github.com/issamjr/CVE-2025-49113-Scanner)
 - [hackmelocal/HML-CVE-2025-49113-Round-Cube](https://github.com/hackmelocal/HML-CVE-2025-49113-Round-Cube)
 - [Joelp03/CVE-2025-49113](https://github.com/Joelp03/CVE-2025-49113)
+- [00xCanelo/CVE-2025-49113](https://github.com/00xCanelo/CVE-2025-49113)
 
 ### CVE-2025-49125 (2025-06-16)
 
@@ -12002,6 +12004,7 @@
 - [expl0itsecurity/CVE-2024-47575](https://github.com/expl0itsecurity/CVE-2024-47575)
 - [XiaomingX/cve-2024-47575-exp](https://github.com/XiaomingX/cve-2024-47575-exp)
 - [revanslbw/CVE-2024-47575-POC](https://github.com/revanslbw/CVE-2024-47575-POC)
+- [AnnnNix/CVE-2024-47575](https://github.com/AnnnNix/CVE-2024-47575)
 
 ### CVE-2024-47773 (2024-10-08)
 
@@ -23387,7 +23390,7 @@
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
 - [0xSojalSec/CVE-2022-1609](https://github.com/0xSojalSec/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
-- [iaaaannn0/cve-2022-1609-exploit](https://github.com/iaaaannn0/cve-2022-1609-exploit)
+- [hex0x13h/cve-2022-1609-exploit](https://github.com/hex0x13h/cve-2022-1609-exploit)
 
 ### CVE-2022-1679 (2022-05-16)
 
