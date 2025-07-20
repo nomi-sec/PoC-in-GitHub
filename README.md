@@ -1050,6 +1050,13 @@
 
 - [byteReaper77/CVE-2025-7795](https://github.com/byteReaper77/CVE-2025-7795)
 
+### CVE-2025-7840 (2025-07-19)
+
+<code>Es wurde eine Schwachstelle in Campcodes Online Movie Theater Seat Reservation System 1.0 ausgemacht. Sie wurde als problematisch eingestuft. Hiervon betroffen ist ein unbekannter Codeblock der Datei /index.php?page=reserve der Komponente Reserve Your Seat Page. Durch das Beeinflussen des Arguments Firstname/Lastname mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [byteReaper77/CVE-2025-7840](https://github.com/byteReaper77/CVE-2025-7840)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -2829,6 +2836,7 @@
 - [pr0v3rbs/CVE-2025-32463_chwoot](https://github.com/pr0v3rbs/CVE-2025-32463_chwoot)
 - [4f-kira/CVE-2025-32463](https://github.com/4f-kira/CVE-2025-32463)
 - [K1tt3h/CVE-2025-32463-POC](https://github.com/K1tt3h/CVE-2025-32463-POC)
+- [IC3-512/linux-root-kit](https://github.com/IC3-512/linux-root-kit)
 - [Adonijah01/cve-2025-32463-lab](https://github.com/Adonijah01/cve-2025-32463-lab)
 - [SysMancer/CVE-2025-32463](https://github.com/SysMancer/CVE-2025-32463)
 - [kh4sh3i/CVE-2025-32463](https://github.com/kh4sh3i/CVE-2025-32463)
@@ -2865,6 +2873,7 @@
 - [Rajneeshkarya/CVE-2025-32463](https://github.com/Rajneeshkarya/CVE-2025-32463)
 - [MGunturG/CVE-2025-32463](https://github.com/MGunturG/CVE-2025-32463)
 - [Maalfer/Sudo-CVE-2021-3156](https://github.com/Maalfer/Sudo-CVE-2021-3156)
+- [daryllundy/CVE-2025-32463](https://github.com/daryllundy/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -2971,6 +2980,7 @@
 ### CVE-2025-34085
 - [MrjHaxcore/CVE-2025-34085](https://github.com/MrjHaxcore/CVE-2025-34085)
 - [ill-deed/CVE-2025-34085-Multi-target](https://github.com/ill-deed/CVE-2025-34085-Multi-target)
+- [0xgh057r3c0n/CVE-2025-34085](https://github.com/0xgh057r3c0n/CVE-2025-34085)
 
 ### CVE-2025-36041 (2025-06-15)
 
@@ -3447,6 +3457,7 @@
 - [admin-ping/CVE-2025-48384-RCE](https://github.com/admin-ping/CVE-2025-48384-RCE)
 - [simplyfurious/CVE-2025-48384-submodule_test](https://github.com/simplyfurious/CVE-2025-48384-submodule_test)
 - [Anezatraa/CVE-2025-48384-submodule](https://github.com/Anezatraa/CVE-2025-48384-submodule)
+- [IK-20211125/CVE-2025-48384](https://github.com/IK-20211125/CVE-2025-48384)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -3599,6 +3610,13 @@
 </code>
 
 - [cristibtz/CVE-2025-49619](https://github.com/cristibtz/CVE-2025-49619)
+
+### CVE-2025-49706 (2025-07-08)
+
+<code>Improper authentication in Microsoft Office SharePoint allows an authorized attacker to perform spoofing over a network.
+</code>
+
+- [AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation](https://github.com/AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation)
 
 ### CVE-2025-49719 (2025-07-08)
 
@@ -7147,7 +7165,6 @@
 - [th3Hellion/CVE-2024-21413](https://github.com/th3Hellion/CVE-2024-21413)
 - [ShubhamKanhere307/CVE-2024-21413](https://github.com/ShubhamKanhere307/CVE-2024-21413)
 - [olebris/CVE-2024-21413](https://github.com/olebris/CVE-2024-21413)
-- [DerZiad/CVE-2024-21413](https://github.com/DerZiad/CVE-2024-21413)
 - [Redfox-Security/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape](https://github.com/Redfox-Security/Unveiling-Moniker-Link-CVE-2024-21413-Navigating-the-Latest-Cybersecurity-Landscape)
 - [ThemeHackers/CVE-2024-21413](https://github.com/ThemeHackers/CVE-2024-21413)
 - [D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB](https://github.com/D1se0/CVE-2024-21413-Vulnerabilidad-Outlook-LAB)
@@ -38821,7 +38838,6 @@
 </code>
 
 - [fairyming/CVE-2020-9547](https://github.com/fairyming/CVE-2020-9547)
-- [Pranjal6955/CVE-2020-9547](https://github.com/Pranjal6955/CVE-2020-9547)
 
 ### CVE-2020-9548 (2020-03-02)
 
@@ -42840,13 +42856,6 @@
 </code>
 
 - [aneeshanilkumar89/Maximo_Sql_Injection-CVE-2019-4650](https://github.com/aneeshanilkumar89/Maximo_Sql_Injection-CVE-2019-4650)
-
-### CVE-2019-4716 (2019-12-18)
-
-<code>IBM Planning Analytics 2.0.0 through 2.0.8 is vulnerable to a configuration overwrite that allows an unauthenticated user to login as &quot;admin&quot;, and then execute code as root or SYSTEM via TM1 scripting. IBM X-Force ID: 172094.
-</code>
-
-- [Pranjal6955/CVE-2019-4716-Test-Environment](https://github.com/Pranjal6955/CVE-2019-4716-Test-Environment)
 
 ### CVE-2019-5010 (2019-10-31)
 
