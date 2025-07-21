@@ -333,7 +333,11 @@
 - [Yucaerin/CVE-2025-2294](https://github.com/Yucaerin/CVE-2025-2294)
 - [0xWhoami35/CVE-2025-2294](https://github.com/0xWhoami35/CVE-2025-2294)
 
-### CVE-2025-2301
+### CVE-2025-2301 (2025-07-21)
+
+<code>Authorization Bypass Through User-Controlled Key vulnerability in Akbim Software Online Exam Registration allows Exploitation of Trusted Identifiers.This issue affects Online Exam Registration: before 14.03.2025.
+</code>
+
 - [sahici/CVE-2025-2301](https://github.com/sahici/CVE-2025-2301)
 
 ### CVE-2025-2404
@@ -3761,7 +3765,8 @@
 - [B1ack4sh/Blackash-CVE-2025-53770](https://github.com/B1ack4sh/Blackash-CVE-2025-53770)
 - [RukshanaAlikhan/CVE-2025-53770](https://github.com/RukshanaAlikhan/CVE-2025-53770)
 - [Bluefire-Redteam-Cybersecurity/bluefire-sharepoint-cve-2025-53770](https://github.com/Bluefire-Redteam-Cybersecurity/bluefire-sharepoint-cve-2025-53770)
-- [n1chr0x/Zeropoint](https://github.com/n1chr0x/Zeropoint)
+- [n1chr0x/ZeroPoint](https://github.com/n1chr0x/ZeroPoint)
+- [kaizensecurity/CVE-2025-53770](https://github.com/kaizensecurity/CVE-2025-53770)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -5428,6 +5433,13 @@
 
 - [12345qwert123456/CVE-2024-6473-PoC](https://github.com/12345qwert123456/CVE-2024-6473-PoC)
 
+### CVE-2024-6485 (2024-07-11)
+
+<code>A security vulnerability has been discovered in bootstrap that could enable Cross-Site Scripting (XSS) attacks. The vulnerability is associated with the data-loading-text attribute within the button plugin. This vulnerability can be exploited by injecting malicious JavaScript code into the attribute, which would then be executed when the button's loading state is triggered.
+</code>
+
+- [Yumeae/Bootstrap-with-XSS](https://github.com/Yumeae/Bootstrap-with-XSS)
+
 ### CVE-2024-6529 (2024-08-01)
 
 <code>The Ultimate Classified Listings WordPress plugin before 1.4 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin
@@ -5997,6 +6009,7 @@
 - [Royall-Researchers/CVE-2024-9264](https://github.com/Royall-Researchers/CVE-2024-9264)
 - [ruizii/CVE-2024-9264](https://github.com/ruizii/CVE-2024-9264)
 - [rvizx/CVE-2024-9264](https://github.com/rvizx/CVE-2024-9264)
+- [patrickpichler/grafana-CVE-2024-9264](https://github.com/patrickpichler/grafana-CVE-2024-9264)
 
 ### CVE-2024-9290 (2024-12-13)
 
@@ -19860,6 +19873,7 @@
 - [DaniTheHack3r/CVE-2023-38646](https://github.com/DaniTheHack3r/CVE-2023-38646)
 - [XiaomingX/cve-2023-38646-poc](https://github.com/XiaomingX/cve-2023-38646-poc)
 - [JayRyz/CVE-2023-38646-PoC-Metabase](https://github.com/JayRyz/CVE-2023-38646-PoC-Metabase)
+- [BreezeGalaxy/CVE-2023-38646](https://github.com/BreezeGalaxy/CVE-2023-38646)
 
 ### CVE-2023-38709 (2024-04-04)
 
@@ -43425,6 +43439,7 @@
 
 - [Snorlyd/https-nj.gov---CVE-2019-8331](https://github.com/Snorlyd/https-nj.gov---CVE-2019-8331)
 - [Thampakon/CVE-2019-8331](https://github.com/Thampakon/CVE-2019-8331)
+- [Yumeae/Bootstrap-with-XSS](https://github.com/Yumeae/Bootstrap-with-XSS)
 
 ### CVE-2019-8341 (2019-02-15)
 
@@ -48574,6 +48589,7 @@
 </code>
 
 - [Snorlyd/https-nj.gov---CVE-2018-14040](https://github.com/Snorlyd/https-nj.gov---CVE-2018-14040)
+- [Yumeae/Bootstrap-with-XSS](https://github.com/Yumeae/Bootstrap-with-XSS)
 
 ### CVE-2018-14041 (2018-07-13)
 
@@ -53522,6 +53538,13 @@
 </code>
 
 - [wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development)
+
+### CVE-2016-10735 (2019-01-09)
+
+<code>In Bootstrap 3.x before 3.4.0 and 4.x-beta before 4.0.0-beta.2, XSS is possible in the data-target attribute, a different vulnerability than CVE-2018-14041.
+</code>
+
+- [Yumeae/Bootstrap-with-XSS](https://github.com/Yumeae/Bootstrap-with-XSS)
 
 ### CVE-2016-10761 (2019-06-29)
 
