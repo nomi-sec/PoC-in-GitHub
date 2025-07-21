@@ -615,6 +615,13 @@
 
 - [d0n601/CVE-2025-4336](https://github.com/d0n601/CVE-2025-4336)
 
+### CVE-2025-4380 (2025-07-02)
+
+<code>The Ads Pro Plugin - Multi-Purpose WordPress Advertising Manager plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 4.89 via the 'bsa_template' parameter of the `bsa_preview_callback` function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases .php files can can be uploaded and included, or already exist on the site.
+</code>
+
+- [r0otk3r/CVE-2025-4380](https://github.com/r0otk3r/CVE-2025-4380)
+
 ### CVE-2025-4389 (2025-05-17)
 
 <code>The Crawlomatic Multipage Scraper Post Generator plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the crawlomatic_generate_featured_image() function in all versions up to, and including, 2.6.8.1. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -3625,13 +3632,6 @@
 
 - [HExploited/CVE-2025-49719-Exploit](https://github.com/HExploited/CVE-2025-49719-Exploit)
 
-### CVE-2025-49721 (2025-07-08)
-
-<code>Heap-based buffer overflow in Windows Fast FAT Driver allows an unauthorized attacker to elevate privileges locally.
-</code>
-
-- [Lam0x0/CVE-2025-49721_part1](https://github.com/Lam0x0/CVE-2025-49721_part1)
-
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
 
@@ -3752,6 +3752,13 @@
 </code>
 
 - [rafaelcorvino1/CVE-2025-53640](https://github.com/rafaelcorvino1/CVE-2025-53640)
+
+### CVE-2025-53770 (2025-07-20)
+
+<code>Deserialization of untrusted data in on-premises Microsoft SharePoint Server allows an unauthorized attacker to execute code over a network.\nMicrosoft is aware that an exploit for CVE-2025-53770 exists in the wild.\nMicrosoft is preparing and fully testing a comprehensive update to address this vulnerability.  In the meantime, please make sure that the mitigation provided in this CVE documentation is in place so that you are protected from exploitation.
+</code>
+
+- [B1ack4sh/Blackash-CVE-2025-53770](https://github.com/B1ack4sh/Blackash-CVE-2025-53770)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -15121,7 +15128,7 @@
 - [teraGL/looneyCVE](https://github.com/teraGL/looneyCVE)
 - [snurkeburk/Looney-Tunables](https://github.com/snurkeburk/Looney-Tunables)
 - [puckiestyle/CVE-2023-4911](https://github.com/puckiestyle/CVE-2023-4911)
-- [yanfernandess/Looney-Tunables-CVE-2023-4911](https://github.com/yanfernandess/Looney-Tunables-CVE-2023-4911)
+- [RRespxwnss/Looney-Tunables-CVE-2023-4911](https://github.com/RRespxwnss/Looney-Tunables-CVE-2023-4911)
 - [NishanthAnand21/CVE-2023-4911-PoC](https://github.com/NishanthAnand21/CVE-2023-4911-PoC)
 - [Billar42/CVE-2023-4911](https://github.com/Billar42/CVE-2023-4911)
 - [shacojx/CVE-2023-4911-Exploit](https://github.com/shacojx/CVE-2023-4911-Exploit)
@@ -20742,6 +20749,13 @@
 </code>
 
 - [d0rb/CVE-2023-42931](https://github.com/d0rb/CVE-2023-42931)
+
+### CVE-2023-42961 (2025-04-11)
+
+<code>A path handling issue was addressed with improved validation. This issue is fixed in iOS 17 and iPadOS 17, iOS 16.7 and iPadOS 16.7, macOS Sonoma 14, macOS Ventura 13.6, macOS Monterey 12.7. A sandboxed process may be able to circumvent sandbox restrictions.
+</code>
+
+- [windz3r0day/CVE-2023-42961](https://github.com/windz3r0day/CVE-2023-42961)
 
 ### CVE-2023-43040 (2024-05-13)
 
