@@ -300,13 +300,6 @@
 - [Wa1nut4/CVE-2025-2135](https://github.com/Wa1nut4/CVE-2025-2135)
 - [sangnguyenthien/CVE-2025-2135](https://github.com/sangnguyenthien/CVE-2025-2135)
 
-### CVE-2025-2233 (2025-03-11)
-
-<code>Samsung SmartThings Improper Verification of Cryptographic Signature Authentication Bypass Vulnerability. This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Samsung SmartThings. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the Hub Local API service, which listens on TCP port 8766 by default. The issue results from the lack of proper verification of a cryptographic signature. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-25615.
-</code>
-
-- [McTavishSue/CVE-2025-2233](https://github.com/McTavishSue/CVE-2025-2233)
-
 ### CVE-2025-2249 (2025-03-29)
 
 <code>The SoJ SoundSlides plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the soj_soundslides_options_subpanel() function in all versions up to, and including, 1.2.2. This makes it possible for authenticated attackers, with Contributor-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -891,6 +884,7 @@
 
 ### CVE-2025-6018
 - [iamgithubber/CVE-2025-6018-19-exploit](https://github.com/iamgithubber/CVE-2025-6018-19-exploit)
+- [dreysanox/CVE-2025-6018_Poc](https://github.com/dreysanox/CVE-2025-6018_Poc)
 
 ### CVE-2025-6019 (2025-06-19)
 
@@ -900,7 +894,6 @@
 - [guinea-offensive-security/CVE-2025-6019](https://github.com/guinea-offensive-security/CVE-2025-6019)
 - [And-oss/CVE-2025-6019-exploit](https://github.com/And-oss/CVE-2025-6019-exploit)
 - [neko205-mx/CVE-2025-6019_Exploit](https://github.com/neko205-mx/CVE-2025-6019_Exploit)
-- [dreysanox/CVE-2025-6019_Poc](https://github.com/dreysanox/CVE-2025-6019_Poc)
 
 ### CVE-2025-6058 (2025-07-12)
 
@@ -1465,13 +1458,6 @@
 </code>
 
 - [Feralthedogg/CVE-2025-24132-Scanner](https://github.com/Feralthedogg/CVE-2025-24132-Scanner)
-
-### CVE-2025-24200 (2025-02-10)
-
-<code>An authorization issue was addressed with improved state management. This issue is fixed in iPadOS 17.7.5, iOS 18.3.1 and iPadOS 18.3.1. A physical attack may disable USB Restricted Mode on a locked device. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals.
-</code>
-
-- [McTavishSue/CVE-2025-24200](https://github.com/McTavishSue/CVE-2025-24200)
 
 ### CVE-2025-24201 (2025-03-11)
 
@@ -2885,6 +2871,7 @@
 - [MGunturG/CVE-2025-32463](https://github.com/MGunturG/CVE-2025-32463)
 - [Maalfer/Sudo-CVE-2021-3156](https://github.com/Maalfer/Sudo-CVE-2021-3156)
 - [daryllundy/CVE-2025-32463](https://github.com/daryllundy/CVE-2025-32463)
+- [AdityaBhatt3010/Sudo-Privilege-Escalation-Linux-CVE-2025-32463-and-CVE-2025-32462](https://github.com/AdityaBhatt3010/Sudo-Privilege-Escalation-Linux-CVE-2025-32463-and-CVE-2025-32462)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3629,13 +3616,6 @@
 
 - [AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation](https://github.com/AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation)
 
-### CVE-2025-49719 (2025-07-08)
-
-<code>Improper input validation in SQL Server allows an unauthorized attacker to disclose information over a network.
-</code>
-
-- [HExploited/CVE-2025-49719-Exploit](https://github.com/HExploited/CVE-2025-49719-Exploit)
-
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
 
@@ -3767,6 +3747,11 @@
 - [Bluefire-Redteam-Cybersecurity/bluefire-sharepoint-cve-2025-53770](https://github.com/Bluefire-Redteam-Cybersecurity/bluefire-sharepoint-cve-2025-53770)
 - [n1chr0x/ZeroPoint](https://github.com/n1chr0x/ZeroPoint)
 - [kaizensecurity/CVE-2025-53770](https://github.com/kaizensecurity/CVE-2025-53770)
+- [paolokappa/SharePointSecurityMonitor](https://github.com/paolokappa/SharePointSecurityMonitor)
+- [soltanali0/CVE-2025-53770-Exploit](https://github.com/soltanali0/CVE-2025-53770-Exploit)
+- [hazcod/CVE-2025-53770](https://github.com/hazcod/CVE-2025-53770)
+- [ZephrFish/CVE-2025-53770-Scanner](https://github.com/ZephrFish/CVE-2025-53770-Scanner)
+- [siag-itsec/CVE-2025-53770-Hunting](https://github.com/siag-itsec/CVE-2025-53770-Hunting)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -6874,13 +6859,6 @@
 </code>
 
 - [tausifzaman/CVE-2024-13346](https://github.com/tausifzaman/CVE-2024-13346)
-
-### CVE-2024-13375 (2025-01-18)
-
-<code>The Adifier System plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 3.1.7. This is due to the plugin not properly validating a user's identity prior to updating their details like password through the adifier_recover() function. This makes it possible for unauthenticated attackers to change arbitrary user's passwords, including administrators, and leverage that to gain access to their account.
-</code>
-
-- [McTavishSue/CVE-2024-13375](https://github.com/McTavishSue/CVE-2024-13375)
 
 ### CVE-2024-13478 (2025-02-19)
 
@@ -11784,7 +11762,7 @@
 
 ### CVE-2024-45244 (2024-08-25)
 
-<code>Hyperledger Fabric through 2.5.9 does not verify that a request has a timestamp within the expected time window.
+<code>Hyperledger Fabric through 3.0.0 and 2.5.x through 2.5.9 do not verify that a request has a timestamp within the expected time window.
 </code>
 
 - [shanker-sec/HLF_TxTime_spoofing](https://github.com/shanker-sec/HLF_TxTime_spoofing)
@@ -13417,7 +13395,11 @@
 
 - [Allevon412/CVE-2024-54951](https://github.com/Allevon412/CVE-2024-54951)
 
-### CVE-2024-55040
+### CVE-2024-55040 (2025-07-21)
+
+<code>Cross Site Scripting vulnerability in Sensaphone WEB600 Monitoring System v.1.6.5.H and before allows a remote attacker to execute arbitrary code via a crafted GET requests to /@.xml, placing payloads in the g7200, g7300, g4601, and g1F02 parameters.
+</code>
+
 - [tcbutler320/CVE-2024-55040-Sensaphone-XSS](https://github.com/tcbutler320/CVE-2024-55040-Sensaphone-XSS)
 
 ### CVE-2024-55060 (2025-03-13)
@@ -15648,6 +15630,7 @@
 - [gh-ost00/CVE-2023-7028](https://github.com/gh-ost00/CVE-2023-7028)
 - [sariamubeen/CVE-2023-7028](https://github.com/sariamubeen/CVE-2023-7028)
 - [Sornphut/CVE-2023-7028-GitLab](https://github.com/Sornphut/CVE-2023-7028-GitLab)
+- [szybnev/CVE-2023-7028](https://github.com/szybnev/CVE-2023-7028)
 
 ### CVE-2023-7172 (2023-12-30)
 
