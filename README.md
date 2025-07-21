@@ -3759,6 +3759,9 @@
 </code>
 
 - [B1ack4sh/Blackash-CVE-2025-53770](https://github.com/B1ack4sh/Blackash-CVE-2025-53770)
+- [RukshanaAlikhan/CVE-2025-53770](https://github.com/RukshanaAlikhan/CVE-2025-53770)
+- [Bluefire-Redteam-Cybersecurity/bluefire-sharepoint-cve-2025-53770](https://github.com/Bluefire-Redteam-Cybersecurity/bluefire-sharepoint-cve-2025-53770)
+- [n1chr0x/Zeropoint](https://github.com/n1chr0x/Zeropoint)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -5710,6 +5713,13 @@
 </code>
 
 - [XiaomingX/cve-2024-8069-exp-Citrix-Virtual-Apps-XEN](https://github.com/XiaomingX/cve-2024-8069-exp-Citrix-Virtual-Apps-XEN)
+
+### CVE-2024-8118 (2024-09-26)
+
+<code>In Grafana, the wrong permission is applied to the alert rule write API endpoint, allowing users with permission to write external alert instances to also write alert rules.
+</code>
+
+- [nurarifin05/POC-CVE-2024-8118](https://github.com/nurarifin05/POC-CVE-2024-8118)
 
 ### CVE-2024-8176 (2025-03-14)
 
@@ -25213,6 +25223,7 @@
 </code>
 
 - [muhammadhendro/CVE-2022-24439](https://github.com/muhammadhendro/CVE-2022-24439)
+- [Makkkiiii/GitPython-Exploit-CVE-2022-24439](https://github.com/Makkkiiii/GitPython-Exploit-CVE-2022-24439)
 
 ### CVE-2022-24442 (2022-02-25)
 
