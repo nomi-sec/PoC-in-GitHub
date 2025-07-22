@@ -407,6 +407,7 @@
 - [WOOOOONG/CVE-2025-2825](https://github.com/WOOOOONG/CVE-2025-2825)
 - [punitdarji/crushftp-CVE-2025-2825](https://github.com/punitdarji/crushftp-CVE-2025-2825)
 - [ghostsec420/ShatteredFTP](https://github.com/ghostsec420/ShatteredFTP)
+- [Shivshantp/CVE-2025-2825-CrushFTP-AuthBypass](https://github.com/Shivshantp/CVE-2025-2825-CrushFTP-AuthBypass)
 
 ### CVE-2025-2907 (2025-04-26)
 
@@ -2988,6 +2989,7 @@
 - [MrjHaxcore/CVE-2025-34085](https://github.com/MrjHaxcore/CVE-2025-34085)
 - [ill-deed/CVE-2025-34085-Multi-target](https://github.com/ill-deed/CVE-2025-34085-Multi-target)
 - [0xgh057r3c0n/CVE-2025-34085](https://github.com/0xgh057r3c0n/CVE-2025-34085)
+- [yukinime/CVE-2025-34085](https://github.com/yukinime/CVE-2025-34085)
 
 ### CVE-2025-36041 (2025-06-15)
 
@@ -3580,7 +3582,6 @@
 - [qiaojojo/CVE-2025-49132_poc](https://github.com/qiaojojo/CVE-2025-49132_poc)
 - [63square/CVE-2025-49132](https://github.com/63square/CVE-2025-49132)
 - [melonlonmeo/CVE-2025-49132](https://github.com/melonlonmeo/CVE-2025-49132)
-- [uxieltc/CVE-2025-49132](https://github.com/uxieltc/CVE-2025-49132)
 - [0xtensho/CVE-2025-49132-poc](https://github.com/0xtensho/CVE-2025-49132-poc)
 
 ### CVE-2025-49144 (2025-06-23)
@@ -3649,6 +3650,9 @@
 
 ### CVE-2025-51046
 - [0xMesh-X/CVE-2025-51046](https://github.com/0xMesh-X/CVE-2025-51046)
+
+### CVE-2025-51385
+- [saarcastified/CVE-2023-51385---OpenSSH-ProxyCommand-Injection-PoC](https://github.com/saarcastified/CVE-2023-51385---OpenSSH-ProxyCommand-Injection-PoC)
 
 ### CVE-2025-51396 (2025-07-21)
 
@@ -3802,6 +3806,8 @@
 - [siag-itsec/CVE-2025-53770-Hunting](https://github.com/siag-itsec/CVE-2025-53770-Hunting)
 - [grupooruss/CVE-2025-53770-Checker](https://github.com/grupooruss/CVE-2025-53770-Checker)
 - [tripoloski1337/CVE-2025-53770-scanner](https://github.com/tripoloski1337/CVE-2025-53770-scanner)
+- [AdityaBhatt3010/CVE-2025-53770-SharePoint-Zero-Day-Variant-Exploited-for-Full-RCE](https://github.com/AdityaBhatt3010/CVE-2025-53770-SharePoint-Zero-Day-Variant-Exploited-for-Full-RCE)
+- [GreenForceNetwork/Toolshell_CVE-2025-53770](https://github.com/GreenForceNetwork/Toolshell_CVE-2025-53770)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -4748,6 +4754,7 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-3552-Poc](https://github.com/truonghuuphuc/CVE-2024-3552-Poc)
+- [KiPhuong/cve-2024-3552](https://github.com/KiPhuong/cve-2024-3552)
 
 ### CVE-2024-3568 (2024-04-10)
 
@@ -14776,6 +14783,7 @@
 - [DiMarcoSK/CVE-2023-3460_POC](https://github.com/DiMarcoSK/CVE-2023-3460_POC)
 - [julienbrs/exploit-CVE-2023-3460](https://github.com/julienbrs/exploit-CVE-2023-3460)
 - [TranKuBao/CVE-2023-3460_FIX](https://github.com/TranKuBao/CVE-2023-3460_FIX)
+- [GURJOTEXPERT/CVE-2023-3460](https://github.com/GURJOTEXPERT/CVE-2023-3460)
 
 ### CVE-2023-3519 (2023-07-19)
 
@@ -22719,6 +22727,8 @@
 - [Featherw1t/CVE-2023-51385_test](https://github.com/Featherw1t/CVE-2023-51385_test)
 - [GroundCTL2MajorTom/CVE-2023-51385POC](https://github.com/GroundCTL2MajorTom/CVE-2023-51385POC)
 - [GroundCTL2MajorTom/CVE-2023-51385P-POC](https://github.com/GroundCTL2MajorTom/CVE-2023-51385P-POC)
+- [saarcastified/CVE-2023-51385---OpenSSH-ProxyCommand-Injection-PoC](https://github.com/saarcastified/CVE-2023-51385---OpenSSH-ProxyCommand-Injection-PoC)
+- [runooovb/CVE-2023-51385test](https://github.com/runooovb/CVE-2023-51385test)
 
 ### CVE-2023-51409 (2024-04-12)
 
@@ -23401,6 +23411,7 @@
 - [zycoder0day/CVE-2022-1386-Mass_Vulnerability](https://github.com/zycoder0day/CVE-2022-1386-Mass_Vulnerability)
 - [satyasai1460/CVE-2022-1386](https://github.com/satyasai1460/CVE-2022-1386)
 - [cur1y-dev/CVE-2022-1386](https://github.com/cur1y-dev/CVE-2022-1386)
+- [fayassgit/CVE-2022-1386-FusionBuilder-SSRF](https://github.com/fayassgit/CVE-2022-1386-FusionBuilder-SSRF)
 
 ### CVE-2022-1388 (2022-05-05)
 
@@ -30665,6 +30676,7 @@
 - [chenaotian/CVE-2021-3156](https://github.com/chenaotian/CVE-2021-3156)
 - [ret2basic/SudoScience](https://github.com/ret2basic/SudoScience)
 - [puckiestyle/CVE-2021-3156](https://github.com/puckiestyle/CVE-2021-3156)
+- [barebackbandit/CVE-2021-3156](https://github.com/barebackbandit/CVE-2021-3156)
 - [RodricBr/CVE-2021-3156](https://github.com/RodricBr/CVE-2021-3156)
 - [ypl6/heaplens](https://github.com/ypl6/heaplens)
 - [q77190858/CVE-2021-3156](https://github.com/q77190858/CVE-2021-3156)
@@ -30686,7 +30698,6 @@
 - [ten-ops/baron-samedit](https://github.com/ten-ops/baron-samedit)
 - [Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-](https://github.com/Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-)
 - [shishirpandey18/CVE-2021-3156](https://github.com/shishirpandey18/CVE-2021-3156)
-- [duongdz96/CVE-2021-3156-main](https://github.com/duongdz96/CVE-2021-3156-main)
 - [Shuhaib88/Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156](https://github.com/Shuhaib88/Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156)
 - [Superliverbun/cve-2021-3156-](https://github.com/Superliverbun/cve-2021-3156-)
 - [TopskiyPavelQwertyGang/Review.CVE-2021-3156](https://github.com/TopskiyPavelQwertyGang/Review.CVE-2021-3156)
