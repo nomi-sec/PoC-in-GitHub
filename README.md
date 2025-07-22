@@ -739,6 +739,13 @@
 
 - [bloodcode-spasov/ble-cve2025-attack-new-version](https://github.com/bloodcode-spasov/ble-cve2025-attack-new-version)
 
+### CVE-2025-5025 (2025-05-28)
+
+<code>libcurl supports *pinning* of the server certificate public key for HTTPS transfers. Due to an omission, this check is not performed when connecting with QUIC for HTTP/3, when the TLS backend is wolfSSL. Documentation says the option works with wolfSSL, failing to specify that it does not for QUIC and HTTP/3. Since pinning makes the transfer succeed if the pin is fine, users could unwittingly connect to an impostor server without noticing.
+</code>
+
+- [KiPhuong/cve-2025-5025](https://github.com/KiPhuong/cve-2025-5025)
+
 ### CVE-2025-5054 (2025-05-30)
 
 <code>Race condition in Canonical apport up to and including 2.32.0 allows a local attacker to leak sensitive information via PID-reuse by leveraging namespaces.\n\n\n\n\nWhen handling a crash, the function `_check_global_pid_and_forward`, which detects if the crashing process resided in a container, was being called before `consistency_checks`, which attempts to detect if the crashing process had been replaced. Because of this, if a process crashed and was quickly replaced with a containerized one, apport could be made to forward the core dump to the container, potentially leaking sensitive information. `consistency_checks` is now being called before `_check_global_pid_and_forward`. Additionally, given that the PID-reuse race condition cannot be reliably detected from userspace alone, crashes are only forwarded to containers if the kernel provided a pidfd, or if the crashing process was unprivileged (i.e., if dump mode == 1).
@@ -2612,6 +2619,7 @@
 - [SUPRAAA-1337/CVE-2025-31161_exploit](https://github.com/SUPRAAA-1337/CVE-2025-31161_exploit)
 - [0xgh057r3c0n/CVE-2025-31161](https://github.com/0xgh057r3c0n/CVE-2025-31161)
 - [B1ack4sh/Blackash-CVE-2025-31161](https://github.com/B1ack4sh/Blackash-CVE-2025-31161)
+- [ibrahmsql/CVE-2025-31161](https://github.com/ibrahmsql/CVE-2025-31161)
 - [r0otk3r/CVE-2025-31161](https://github.com/r0otk3r/CVE-2025-31161)
 
 ### CVE-2025-31200 (2025-04-16)
@@ -2872,6 +2880,7 @@
 - [Maalfer/Sudo-CVE-2021-3156](https://github.com/Maalfer/Sudo-CVE-2021-3156)
 - [daryllundy/CVE-2025-32463](https://github.com/daryllundy/CVE-2025-32463)
 - [AdityaBhatt3010/Sudo-Privilege-Escalation-Linux-CVE-2025-32463-and-CVE-2025-32462](https://github.com/AdityaBhatt3010/Sudo-Privilege-Escalation-Linux-CVE-2025-32463-and-CVE-2025-32462)
+- [ChetanKomal/sudo_exploit](https://github.com/ChetanKomal/sudo_exploit)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3792,6 +3801,7 @@
 - [ZephrFish/CVE-2025-53770-Scanner](https://github.com/ZephrFish/CVE-2025-53770-Scanner)
 - [siag-itsec/CVE-2025-53770-Hunting](https://github.com/siag-itsec/CVE-2025-53770-Hunting)
 - [grupooruss/CVE-2025-53770-Checker](https://github.com/grupooruss/CVE-2025-53770-Checker)
+- [tripoloski1337/CVE-2025-53770-scanner](https://github.com/tripoloski1337/CVE-2025-53770-scanner)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -3951,6 +3961,7 @@
 - [cbeek-r7/CVE-2024-0204](https://github.com/cbeek-r7/CVE-2024-0204)
 - [m-cetin/CVE-2024-0204](https://github.com/m-cetin/CVE-2024-0204)
 - [adminlove520/CVE-2024-0204](https://github.com/adminlove520/CVE-2024-0204)
+- [ibrahmsql/CVE-2024-0204](https://github.com/ibrahmsql/CVE-2024-0204)
 
 ### CVE-2024-0230 (2024-01-12)
 
@@ -4606,6 +4617,13 @@
 
 - [TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4](https://github.com/TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4)
 
+### CVE-2024-3121 (2024-06-24)
+
+<code>A remote code execution vulnerability exists in the create_conda_env function of the parisneo/lollms repository, version 5.9.0. The vulnerability arises from the use of shell=True in the subprocess.Popen function, which allows an attacker to inject arbitrary commands by manipulating the env_name and python_version parameters. This issue could lead to a serious security breach as demonstrated by the ability to execute the 'whoami' command among potentially other harmful commands.
+</code>
+
+- [dark-ninja10/CVE-2024-3121](https://github.com/dark-ninja10/CVE-2024-3121)
+
 ### CVE-2024-3177 (2024-04-22)
 
 <code>A security issue was discovered in Kubernetes where users may be able to launch containers that bypass the mountable secrets policy enforced by the ServiceAccount admission plugin when using containers, init containers, and ephemeral containers with the envFrom field populated. The policy ensures pods running with a service account may only reference secrets specified in the service account’s secrets field. Kubernetes clusters are only affected if the ServiceAccount admission plugin and the kubernetes.io/enforce-mountable-secrets annotation are used together with containers, init containers, and ephemeral containers with the envFrom field populated.
@@ -5015,6 +5033,7 @@
 - [Gill-Singh-A/CVE-2024-4577-Exploit](https://github.com/Gill-Singh-A/CVE-2024-4577-Exploit)
 - [tntrock/CVE-2024-4577_PowerShell](https://github.com/tntrock/CVE-2024-4577_PowerShell)
 - [KimJuhyeong95/cve-2024-4577](https://github.com/KimJuhyeong95/cve-2024-4577)
+- [ibrahmsql/CVE-2024-4577](https://github.com/ibrahmsql/CVE-2024-4577)
 - [byteReaper77/CVE-2024-4577](https://github.com/byteReaper77/CVE-2024-4577)
 - [r0otk3r/CVE-2024-4577](https://github.com/r0otk3r/CVE-2024-4577)
 - [ZeroMemoryEx/PHP-CGI-INTERNAL-RCE](https://github.com/ZeroMemoryEx/PHP-CGI-INTERNAL-RCE)
@@ -5077,6 +5096,13 @@
 
 - [truonghuuphuc/CVE-2024-4898-Poc](https://github.com/truonghuuphuc/CVE-2024-4898-Poc)
 - [cve-2024/CVE-2024-4898-Poc](https://github.com/cve-2024/CVE-2024-4898-Poc)
+
+### CVE-2024-4947 (2024-05-15)
+
+<code>Type Confusion in V8 in Google Chrome prior to 125.0.6422.60 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [bjrjk/CVE-2024-4947](https://github.com/bjrjk/CVE-2024-4947)
 
 ### CVE-2024-4956 (2024-05-16)
 
@@ -9016,6 +9042,7 @@
 - [Praison001/CVE-2024-28995-SolarWinds-Serv-U](https://github.com/Praison001/CVE-2024-28995-SolarWinds-Serv-U)
 - [Stuub/CVE-2024-28995](https://github.com/Stuub/CVE-2024-28995)
 - [gotr00t0day/CVE-2024-28995](https://github.com/gotr00t0day/CVE-2024-28995)
+- [ibrahmsql/CVE-2024-28995](https://github.com/ibrahmsql/CVE-2024-28995)
 
 ### CVE-2024-28999 (2024-06-04)
 
@@ -9575,6 +9602,7 @@
 - [jolibb55/donald](https://github.com/jolibb55/donald)
 - [ashutosh0408/CVE-2024-32002](https://github.com/ashutosh0408/CVE-2024-32002)
 - [ashutosh0408/Cve-2024-32002-poc](https://github.com/ashutosh0408/Cve-2024-32002-poc)
+- [Dre4m017/fuzzy](https://github.com/Dre4m017/fuzzy)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -11356,6 +11384,13 @@
 
 - [partywavesec/CVE-2024-42346](https://github.com/partywavesec/CVE-2024-42346)
 
+### CVE-2024-42364 (2024-08-23)
+
+<code>Homepage is a highly customizable homepage with Docker and service API integrations. The default setup of homepage 0.9.1 is vulnerable to DNS rebinding. Homepage is setup without certificate and authentication by default, leaving it to vulnerable to DNS rebinding. In this attack, an attacker will ask a user to visit his/her website. The attacker website will then change the DNS records of their domain from their IP address to the internal IP address of the homepage instance. To tell which IP addresses are valid, we can rebind a subdomain to each IP address we want to check, and see if there is a response. Once potential candidates have been found, the attacker can launch the attack by reading the response of the webserver after the IP address has changed. When the attacker domain is fetched, the response will be from the homepage instance, not the attacker website, because the IP address has been changed. Due to a lack of authentication, a user’s private information such as API keys (fixed after first report) and other private information can then be extracted by the attacker website.
+</code>
+
+- [ibrahmsql/CVE-2024-42364](https://github.com/ibrahmsql/CVE-2024-42364)
+
 ### CVE-2024-42448 (2024-12-11)
 
 <code>From the VSPC management agent machine, under condition that the management agent is authorized on the server, it is possible to perform Remote Code Execution (RCE) on the VSPC server machine.
@@ -12091,6 +12126,13 @@
 - [XiaomingX/cve-2024-47575-exp](https://github.com/XiaomingX/cve-2024-47575-exp)
 - [revanslbw/CVE-2024-47575-POC](https://github.com/revanslbw/CVE-2024-47575-POC)
 - [AnnnNix/CVE-2024-47575](https://github.com/AnnnNix/CVE-2024-47575)
+
+### CVE-2024-47773 (2024-10-08)
+
+<code>Discourse is an open source platform for community discussion. An attacker can make several XHR requests until the cache is poisoned with a response without any preloaded data. This issue only affects anonymous visitors of the site. This problem has been patched in the latest version of Discourse. Users are advised to upgrade. Users unable to upgrade should disable anonymous cache by setting the `DISCOURSE_DISABLE_ANON_CACHE` environment variable to a non-empty value.
+</code>
+
+- [ibrahmsql/CVE-2024-47773](https://github.com/ibrahmsql/CVE-2024-47773)
 
 ### CVE-2024-47854 (2024-10-04)
 
@@ -14279,6 +14321,7 @@
 - [deIndra/CVE-2023-1698](https://github.com/deIndra/CVE-2023-1698)
 - [thedarknessdied/WAGO-CVE-2023-1698](https://github.com/thedarknessdied/WAGO-CVE-2023-1698)
 - [X3RX3SSec/CVE-2023-1698](https://github.com/X3RX3SSec/CVE-2023-1698)
+- [ibrahmsql/CVE-2023-1698](https://github.com/ibrahmsql/CVE-2023-1698)
 
 ### CVE-2023-1718 (2023-11-01)
 
@@ -19557,6 +19600,13 @@
 
 - [SpiralBL0CK/cve-2023-37456](https://github.com/SpiralBL0CK/cve-2023-37456)
 
+### CVE-2023-37467 (2023-07-28)
+
+<code>Discourse is an open source discussion platform. Prior to version 3.1.0.beta7 of the `beta` and `tests-passed` branches, a CSP (Content Security Policy) nonce reuse vulnerability was discovered could allow cross-site scripting (XSS) attacks to bypass CSP protection for anonymous (i.e. unauthenticated) users. There are no known XSS vectors at the moment, but should one be discovered, this vulnerability would allow the XSS attack to bypass CSP and execute successfully. This vulnerability isn't applicable to logged-in users. Version 3.1.0.beta7 contains a patch. The stable branch doesn't have this vulnerability. A workaround to prevent the vulnerability is to disable Google Tag Manager, i.e., unset the `gtm container id` setting.
+</code>
+
+- [ibrahmsql/CVE-2023-37467](https://github.com/ibrahmsql/CVE-2023-37467)
+
 ### CVE-2023-37474 (2023-07-14)
 
 <code>Copyparty is a portable file server. Versions prior to 1.8.2 are subject to a path traversal vulnerability detected in the `.cpr` subfolder. The Path Traversal attack technique allows an attacker access to files, directories, and commands that reside outside the web document root directory. This issue has been addressed in commit `043e3c7d` which has been included in release 1.8.2. Users are advised to upgrade. There are no known workarounds for this vulnerability.
@@ -21338,6 +21388,13 @@
 
 ### CVE-2023-44976
 - [keowu/BadRentdrv2](https://github.com/keowu/BadRentdrv2)
+
+### CVE-2023-45131 (2023-10-16)
+
+<code>Discourse is an open source platform for community discussion. New chat messages can be read by making an unauthenticated POST request to MessageBus. This issue is patched in the 3.1.1 stable and 3.2.0.beta2 versions of Discourse. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [ibrahmsql/CVE-2023-45131](https://github.com/ibrahmsql/CVE-2023-45131)
 
 ### CVE-2023-45158 (2023-10-16)
 
@@ -30268,7 +30325,6 @@
 - [Wra7h/SharpPN](https://github.com/Wra7h/SharpPN)
 - [OppressionBreedsResistance/CVE-2021-1675-PrintNightmare](https://github.com/OppressionBreedsResistance/CVE-2021-1675-PrintNightmare)
 - [eversinc33/NimNightmare](https://github.com/eversinc33/NimNightmare)
-- [AndrewTrube/CVE-2021-1675](https://github.com/AndrewTrube/CVE-2021-1675)
 - [TheJoyOfHacking/cube0x0-CVE-2021-1675](https://github.com/TheJoyOfHacking/cube0x0-CVE-2021-1675)
 - [TheJoyOfHacking/calebstewart-CVE-2021-1675](https://github.com/TheJoyOfHacking/calebstewart-CVE-2021-1675)
 - [jj4152/cve-2021-1675](https://github.com/jj4152/cve-2021-1675)
@@ -30609,7 +30665,6 @@
 - [chenaotian/CVE-2021-3156](https://github.com/chenaotian/CVE-2021-3156)
 - [ret2basic/SudoScience](https://github.com/ret2basic/SudoScience)
 - [puckiestyle/CVE-2021-3156](https://github.com/puckiestyle/CVE-2021-3156)
-- [barebackbandit/CVE-2021-3156](https://github.com/barebackbandit/CVE-2021-3156)
 - [RodricBr/CVE-2021-3156](https://github.com/RodricBr/CVE-2021-3156)
 - [ypl6/heaplens](https://github.com/ypl6/heaplens)
 - [q77190858/CVE-2021-3156](https://github.com/q77190858/CVE-2021-3156)
@@ -34618,6 +34673,14 @@
 </code>
 
 - [Jajangjaman/CVE-2021-41160](https://github.com/Jajangjaman/CVE-2021-41160)
+
+### CVE-2021-41163 (2021-10-20)
+
+<code>Discourse is an open source platform for community discussion. In affected versions maliciously crafted requests could lead to remote code execution. This resulted from a lack of validation in subscribe_url values. This issue is patched in the latest stable, beta and tests-passed versions of Discourse. To workaround the issue without updating, requests with a path starting /webhooks/aws path could be blocked at an upstream proxy.
+</code>
+
+- [ibrahmsql/CVE-2021-41163](https://github.com/ibrahmsql/CVE-2021-41163)
+- [ibrahmsql/discourse-CVE-2021-41163](https://github.com/ibrahmsql/discourse-CVE-2021-41163)
 
 ### CVE-2021-41182 (2021-10-26)
 
@@ -43278,6 +43341,13 @@
 
 - [random-robbie/cve-2019-6715](https://github.com/random-robbie/cve-2019-6715)
 - [spyata123/W3TotalChache](https://github.com/spyata123/W3TotalChache)
+
+### CVE-2019-7139 (2019-04-10)
+
+<code>An unauthenticated user can execute SQL statements that allow arbitrary read access to the underlying database, which causes sensitive data leakage. This issue is fixed in Magento 2.1 prior to 2.1.18, Magento 2.2 prior to 2.2.9, Magento 2.3 prior to 2.3.2.
+</code>
+
+- [adhammedhat111/Magento-CVE-2019-7139-SQLi-PoC](https://github.com/adhammedhat111/Magento-CVE-2019-7139-SQLi-PoC)
 
 ### CVE-2019-7192 (2019-12-05)
 
