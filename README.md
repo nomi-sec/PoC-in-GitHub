@@ -910,6 +910,7 @@
 
 - [Nxploited/CVE-2025-6058](https://github.com/Nxploited/CVE-2025-6058)
 - [JayVillain/Scan-CVE-2025-6058](https://github.com/JayVillain/Scan-CVE-2025-6058)
+- [0xgh057r3c0n/CVE-2025-6058](https://github.com/0xgh057r3c0n/CVE-2025-6058)
 
 ### CVE-2025-6082 (2025-07-22)
 
@@ -3610,6 +3611,7 @@
 - [tristanvandermeer/CVE-2025-49144-Test](https://github.com/tristanvandermeer/CVE-2025-49144-Test)
 - [b0ySie7e/Notepad-8.8.1_CVE-2025-49144](https://github.com/b0ySie7e/Notepad-8.8.1_CVE-2025-49144)
 - [timsonner/CVE-2025-49144-Research](https://github.com/timsonner/CVE-2025-49144-Research)
+- [0xCZR1/cve-2025-49144](https://github.com/0xCZR1/cve-2025-49144)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -3643,7 +3645,7 @@
 
 ### CVE-2025-49706 (2025-07-08)
 
-<code>Improper authentication in Microsoft Office SharePoint allows an authorized attacker to perform spoofing over a network.
+<code>Improper authentication in Microsoft Office SharePoint allows an unauthorized attacker to perform spoofing over a network.
 </code>
 
 - [AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation](https://github.com/AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation)
@@ -3856,6 +3858,9 @@
 - [AdityaBhatt3010/CVE-2025-53770-SharePoint-Zero-Day-Variant-Exploited-for-Full-RCE](https://github.com/AdityaBhatt3010/CVE-2025-53770-SharePoint-Zero-Day-Variant-Exploited-for-Full-RCE)
 - [GreenForceNetwork/Toolshell_CVE-2025-53770](https://github.com/GreenForceNetwork/Toolshell_CVE-2025-53770)
 - [imbas007/CVE-2025-53770-Vulnerable-Scanner](https://github.com/imbas007/CVE-2025-53770-Vulnerable-Scanner)
+- [Sec-Dan/CVE-2025-53770-Scanner](https://github.com/Sec-Dan/CVE-2025-53770-Scanner)
+- [MuhammadWaseem29/CVE-2025-53770](https://github.com/MuhammadWaseem29/CVE-2025-53770)
+- [bijikutu/CVE-2025-53770-Exploit](https://github.com/bijikutu/CVE-2025-53770-Exploit)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -26046,6 +26051,13 @@
 - [scopion/CVE-2022-26629](https://github.com/scopion/CVE-2022-26629)
 - [sysenter-eip/CVE-2022-26629](https://github.com/sysenter-eip/CVE-2022-26629)
 
+### CVE-2022-26671 (2022-04-07)
+
+<code>Taiwan Secom Dr.ID Access Control system’s login page has a hard-coded credential in the source code. An unauthenticated remote attacker can use the hard-coded credential to acquire partial system information and modify system setting to cause partial disrupt of service.
+</code>
+
+- [DefensiveOrigins/POC-CVE-2022-26671](https://github.com/DefensiveOrigins/POC-CVE-2022-26671)
+
 ### CVE-2022-26717 (2022-11-01)
 
 <code>A use after free issue was addressed with improved memory management. This issue is fixed in tvOS 15.5, watchOS 8.6, iOS 15.5 and iPadOS 15.5, macOS Monterey 12.4, Safari 15.5, iTunes 12.12.4 for Windows. Processing maliciously crafted web content may lead to arbitrary code execution.
@@ -46559,6 +46571,7 @@
 </code>
 
 - [mgargiullo/cve-2018-1207](https://github.com/mgargiullo/cve-2018-1207)
+- [SYNKTeam/CVE-2018-1207](https://github.com/SYNKTeam/CVE-2018-1207)
 
 ### CVE-2018-1235 (2018-05-29)
 
