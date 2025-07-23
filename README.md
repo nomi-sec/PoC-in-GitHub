@@ -860,6 +860,7 @@
 - [SleepNotF0und/CVE-2025-5777](https://github.com/SleepNotF0und/CVE-2025-5777)
 - [cyberleelawat/ExploitVeer](https://github.com/cyberleelawat/ExploitVeer)
 - [B1ack4sh/Blackash-CVE-2025-5777](https://github.com/B1ack4sh/Blackash-CVE-2025-5777)
+- [Shivshantp/CVE-2025-5777-TrendMicro-ApexCentral-RCE](https://github.com/Shivshantp/CVE-2025-5777-TrendMicro-ApexCentral-RCE)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -1041,6 +1042,13 @@
 </code>
 
 - [Nxploited/CVE-2025-7340](https://github.com/Nxploited/CVE-2025-7340)
+
+### CVE-2025-7461 (2025-07-12)
+
+<code>Eine Schwachstelle wurde in code-projects Modern Bag 1.0 gefunden. Sie wurde als kritisch eingestuft. Dies betrifft einen unbekannten Teil der Datei /action.php. Mittels dem Manipulieren des Arguments proId mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [bx33661/CVE-2025-7461](https://github.com/bx33661/CVE-2025-7461)
 
 ### CVE-2025-7605 (2025-07-14)
 
@@ -2103,7 +2111,7 @@
 - [dollarboysushil/Linux-Privilege-Escalation-CVE-2025-27591](https://github.com/dollarboysushil/Linux-Privilege-Escalation-CVE-2025-27591)
 - [alialucas7/CVE-2025-27591_PoC](https://github.com/alialucas7/CVE-2025-27591_PoC)
 - [incommatose/CVE-2025-27591-PoC](https://github.com/incommatose/CVE-2025-27591-PoC)
-- [00xCanelo/CVE-2025-27591-PoC](https://github.com/00xCanelo/CVE-2025-27591-PoC)
+- [00xCanelo/CVE-2025-27591](https://github.com/00xCanelo/CVE-2025-27591)
 - [Thekin-ctrl/CVE-2025-27591-Below](https://github.com/Thekin-ctrl/CVE-2025-27591-Below)
 
 ### CVE-2025-27607 (2025-03-07)
@@ -2951,6 +2959,7 @@
 - [B1ack4sh/Blackash-CVE-2025-32756](https://github.com/B1ack4sh/Blackash-CVE-2025-32756)
 - [alm6no5/CVE-2025-32756-POC](https://github.com/alm6no5/CVE-2025-32756-POC)
 - [becrevex/CVE-2025-32756](https://github.com/becrevex/CVE-2025-32756)
+- [shan0ar/cve-2025-32756](https://github.com/shan0ar/cve-2025-32756)
 
 ### CVE-2025-32873 (2025-05-08)
 
@@ -3863,6 +3872,7 @@
 - [MuhammadWaseem29/CVE-2025-53770](https://github.com/MuhammadWaseem29/CVE-2025-53770)
 - [bijikutu/CVE-2025-53770-Exploit](https://github.com/bijikutu/CVE-2025-53770-Exploit)
 - [Lapesha/CVE-2025-53770](https://github.com/Lapesha/CVE-2025-53770)
+- [Hassanopop/CVE-2025-53770](https://github.com/Hassanopop/CVE-2025-53770)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -5166,6 +5176,7 @@
 </code>
 
 - [bjrjk/CVE-2024-4947](https://github.com/bjrjk/CVE-2024-4947)
+- [DiabloX90911/CVE-2024-4947](https://github.com/DiabloX90911/CVE-2024-4947)
 
 ### CVE-2024-4956 (2024-05-16)
 
@@ -14584,6 +14595,7 @@
 - [ysanatomic/io_uring_LPE-CVE-2023-2598](https://github.com/ysanatomic/io_uring_LPE-CVE-2023-2598)
 - [cainiao159357/CVE-2023-2598](https://github.com/cainiao159357/CVE-2023-2598)
 - [LLfam/CVE-2023-2598](https://github.com/LLfam/CVE-2023-2598)
+- [SpongeBob-369/CVE-2023-2598](https://github.com/SpongeBob-369/CVE-2023-2598)
 
 ### CVE-2023-2603 (2023-06-06)
 
