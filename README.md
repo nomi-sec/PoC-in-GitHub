@@ -3856,11 +3856,13 @@
 - [grupooruss/CVE-2025-53770-Checker](https://github.com/grupooruss/CVE-2025-53770-Checker)
 - [tripoloski1337/CVE-2025-53770-scanner](https://github.com/tripoloski1337/CVE-2025-53770-scanner)
 - [AdityaBhatt3010/CVE-2025-53770-SharePoint-Zero-Day-Variant-Exploited-for-Full-RCE](https://github.com/AdityaBhatt3010/CVE-2025-53770-SharePoint-Zero-Day-Variant-Exploited-for-Full-RCE)
+- [b33b0y/CVE-2025-53770](https://github.com/b33b0y/CVE-2025-53770)
 - [GreenForceNetwork/Toolshell_CVE-2025-53770](https://github.com/GreenForceNetwork/Toolshell_CVE-2025-53770)
 - [imbas007/CVE-2025-53770-Vulnerable-Scanner](https://github.com/imbas007/CVE-2025-53770-Vulnerable-Scanner)
 - [Sec-Dan/CVE-2025-53770-Scanner](https://github.com/Sec-Dan/CVE-2025-53770-Scanner)
 - [MuhammadWaseem29/CVE-2025-53770](https://github.com/MuhammadWaseem29/CVE-2025-53770)
 - [bijikutu/CVE-2025-53770-Exploit](https://github.com/bijikutu/CVE-2025-53770-Exploit)
+- [Lapesha/CVE-2025-53770](https://github.com/Lapesha/CVE-2025-53770)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -5098,6 +5100,7 @@
 - [r0otk3r/CVE-2024-4577](https://github.com/r0otk3r/CVE-2024-4577)
 - [ZeroMemoryEx/PHP-CGI-INTERNAL-RCE](https://github.com/ZeroMemoryEx/PHP-CGI-INTERNAL-RCE)
 - [Skycritch/CVE-2024-4577](https://github.com/Skycritch/CVE-2024-4577)
+- [CirqueiraDev/MassExploit-CVE-2024-4577](https://github.com/CirqueiraDev/MassExploit-CVE-2024-4577)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -11863,6 +11866,13 @@
 </code>
 
 - [0xbhsu/CVE-2024-45058](https://github.com/0xbhsu/CVE-2024-45058)
+
+### CVE-2024-45195 (2024-09-04)
+
+<code>Direct Request ('Forced Browsing') vulnerability in Apache OFBiz.\n\nThis issue affects Apache OFBiz: before 18.12.16.\n\nUsers are recommended to upgrade to version 18.12.16, which fixes the issue.
+</code>
+
+- [wyyazjjl/CVE-2024-45195](https://github.com/wyyazjjl/CVE-2024-45195)
 
 ### CVE-2024-45200 (2024-09-30)
 
@@ -54712,6 +54722,13 @@
 </code>
 
 - [andrenasx/CVE-2015-10034](https://github.com/andrenasx/CVE-2015-10034)
+
+### CVE-2015-10137 (2025-07-22)
+
+<code>The Website Contact Form With File Upload plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'upload_file()' function in versions up to, and including, 1.3.4. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.
+</code>
+
+- [Kai-One001/-CVE-2015-10137-WordPress-N-Media-Website-Contact-Form-with-File-Upload-1.3.4](https://github.com/Kai-One001/-CVE-2015-10137-WordPress-N-Media-Website-Contact-Form-with-File-Upload-1.3.4)
 
 ### CVE-2015-20107 (2022-04-13)
 
