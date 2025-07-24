@@ -165,6 +165,7 @@
 </code>
 
 - [EQSTLab/CVE-2025-1302](https://github.com/EQSTLab/CVE-2025-1302)
+- [abrewer251/CVE-2025-1302_jsonpath-plus_RCE](https://github.com/abrewer251/CVE-2025-1302_jsonpath-plus_RCE)
 
 ### CVE-2025-1304 (2025-05-01)
 
@@ -727,10 +728,18 @@
 ### CVE-2025-4688
 - [sahici/CVE-2025-4688](https://github.com/sahici/CVE-2025-4688)
 
-### CVE-2025-4784
+### CVE-2025-4784 (2025-07-24)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Moderec Tourtella allows SQL Injection.This issue affects Tourtella: before 26.05.2025.
+</code>
+
 - [sahici/CVE-2025-4784](https://github.com/sahici/CVE-2025-4784)
 
-### CVE-2025-4822
+### CVE-2025-4822 (2025-07-24)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Bayraktar Solar Energies ScadaWatt Otopilot allows SQL Injection.This issue affects ScadaWatt Otopilot: before 27.05.2025.
+</code>
+
 - [sahici/CVE-2025-4822](https://github.com/sahici/CVE-2025-4822)
 
 ### CVE-2025-4866 (2025-05-18)
@@ -2427,7 +2436,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
-- [AventurineJun/CVE-2025-29927-Research](https://github.com/AventurineJun/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -3925,7 +3933,8 @@
 - [exfil0/CVE-2025-53770](https://github.com/exfil0/CVE-2025-53770)
 - [zach115th/ToolShellFinder](https://github.com/zach115th/ToolShellFinder)
 - [nisargsuthar/suricata-rule-CVE-2025-53770](https://github.com/nisargsuthar/suricata-rule-CVE-2025-53770)
-- [JustinnT/cve-2025-53770-](https://github.com/JustinnT/cve-2025-53770-)
+- [bharath-cyber-root/sharepoint-toolshell-cve-2025-53770](https://github.com/bharath-cyber-root/sharepoint-toolshell-cve-2025-53770)
+- [Rabbitbong/OurSharePoint-CVE-2025-53770](https://github.com/Rabbitbong/OurSharePoint-CVE-2025-53770)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -7901,6 +7910,7 @@
 - [MAWK0235/CVE-2024-23346](https://github.com/MAWK0235/CVE-2024-23346)
 - [Sanity-Archive/CVE-2024-23346](https://github.com/Sanity-Archive/CVE-2024-23346)
 - [szyth/CVE-2024-23346-rust-exploit](https://github.com/szyth/CVE-2024-23346-rust-exploit)
+- [DAVIDAROCA27/CVE-2024-23346-exploit](https://github.com/DAVIDAROCA27/CVE-2024-23346-exploit)
 
 ### CVE-2024-23443 (2024-06-19)
 
@@ -8098,7 +8108,6 @@
 - [viszsec/CVE-2024-23897](https://github.com/viszsec/CVE-2024-23897)
 - [jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897)
 - [AbraXa5/Jenkins-CVE-2024-23897](https://github.com/AbraXa5/Jenkins-CVE-2024-23897)
-- [brijne/CVE-2024-23897-RCE](https://github.com/brijne/CVE-2024-23897-RCE)
 - [WLXQqwer/Jenkins-CVE-2024-23897-](https://github.com/WLXQqwer/Jenkins-CVE-2024-23897-)
 - [kaanatmacaa/CVE-2024-23897](https://github.com/kaanatmacaa/CVE-2024-23897)
 - [Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability](https://github.com/Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability)
@@ -44443,7 +44452,7 @@
 
 ### CVE-2019-11687 (2019-05-02)
 
-<code>An issue was discovered in the DICOM Part 10 File Format in the NEMA DICOM Standard 1995 through 2019b. The preamble of a DICOM file that complies with this specification can contain the header for an executable file, such as Portable Executable (PE) malware. This space is left unspecified so that dual-purpose files can be created. (For example, dual-purpose TIFF/DICOM files are used in digital whole slide imaging for applications in medicine.) To exploit this vulnerability, someone must execute a maliciously crafted file that is encoded in the DICOM Part 10 File Format. PE/DICOM files are executable even with the .dcm file extension. Anti-malware configurations at healthcare facilities often ignore medical imagery. Also, anti-malware tools and business processes could violate regulatory frameworks (such as HIPAA) when processing suspicious DICOM files.
+<code>An issue was discovered in the DICOM Part 10 File Format in the NEMA DICOM Standard 1995 through 2019b and continuing in current implementations. The 128-byte preamble of a DICOM file that complies with this specification can contain arbitrary executable headers for multiple operating systems, including Portable Executable (PE) files for Windows and Executable and Linkable Format (ELF) files for Linux-based systems. This space is left unspecified so that dual-purpose files can be created. For example, dual-purpose TIFF/DICOM files are used in digital whole slide imaging applications in medicine. This design flaw enables system-wide compromise as malicious DICOM files are routinely shared between medical devices and hospital systems and transported via removable media for patient care coordination. To exploit this vulnerability, someone must execute the maliciously crafted file. These files can be executable even with the .dcm file extension. Anti-malware configurations at healthcare facilities often ignore medical imagery. DICOM files exist on systems that process protected health information, and successful exploitation could result in violations of regulatory compliance requirements such as HIPAA and FDA postmarket obligations.
 </code>
 
 - [kosmokato/bad-dicom](https://github.com/kosmokato/bad-dicom)
