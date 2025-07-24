@@ -861,6 +861,7 @@
 - [cyberleelawat/ExploitVeer](https://github.com/cyberleelawat/ExploitVeer)
 - [B1ack4sh/Blackash-CVE-2025-5777](https://github.com/B1ack4sh/Blackash-CVE-2025-5777)
 - [Shivshantp/CVE-2025-5777-TrendMicro-ApexCentral-RCE](https://github.com/Shivshantp/CVE-2025-5777-TrendMicro-ApexCentral-RCE)
+- [rob0tstxt/POC-CVE-2025-5777](https://github.com/rob0tstxt/POC-CVE-2025-5777)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -2723,6 +2724,7 @@
 
 - [iSee857/CVE-2025-31486-PoC](https://github.com/iSee857/CVE-2025-31486-PoC)
 - [Ly4j/CVE-2025-31486](https://github.com/Ly4j/CVE-2025-31486)
+- [hackmelocal/hackmelocal-CVE-2025-31486-Simulation](https://github.com/hackmelocal/hackmelocal-CVE-2025-31486-Simulation)
 
 ### CVE-2025-31644 (2025-05-07)
 
@@ -6876,6 +6878,13 @@
 - [themirze/cve-2024-12084](https://github.com/themirze/cve-2024-12084)
 - [rxerium/CVE-2024-12084](https://github.com/rxerium/CVE-2024-12084)
 
+### CVE-2024-12085 (2025-01-14)
+
+<code>A flaw was found in rsync which could be triggered when rsync compares file checksums. This flaw allows an attacker to manipulate the checksum length (s2length) to cause a comparison between a checksum and uninitialized memory and leak one byte of uninitialized stack data at a time.
+</code>
+
+- [Otsutez/cve-2024-12085](https://github.com/Otsutez/cve-2024-12085)
+
 ### CVE-2024-12157 (2025-01-07)
 
 <code>The Popup – MailChimp, GetResponse and ActiveCampaign Intergrations plugin for WordPress is vulnerable to SQL Injection via the 'id' parameter of the 'upc_delete_db_record' AJAX action in all versions up to, and including, 3.2.6 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -8112,6 +8121,7 @@
 - [slytechroot/CVE-2024-23897](https://github.com/slytechroot/CVE-2024-23897)
 - [brandonhjh/Jenkins-CVE-2024-23897-Exploit-Demo](https://github.com/brandonhjh/Jenkins-CVE-2024-23897-Exploit-Demo)
 - [tvasari/CVE-2024-23897](https://github.com/tvasari/CVE-2024-23897)
+- [Fineken/Jenkins-CVE-2024-23897-Lab](https://github.com/Fineken/Jenkins-CVE-2024-23897-Lab)
 
 ### CVE-2024-23898 (2024-01-24)
 
@@ -29730,6 +29740,7 @@
 - [69camau/sw1tch](https://github.com/69camau/sw1tch)
 - [Code2Crusader/46689](https://github.com/Code2Crusader/46689)
 - [daviszhto/overwrite](https://github.com/daviszhto/overwrite)
+- [LumberjackStorys/CVE](https://github.com/LumberjackStorys/CVE)
 
 ### CVE-2022-46718 (2023-06-23)
 
