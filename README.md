@@ -1075,6 +1075,13 @@
 
 - [byteReaper77/CVE-2025-7753](https://github.com/byteReaper77/CVE-2025-7753)
 
+### CVE-2025-7766 (2025-07-22)
+
+<code>Lantronix Provisioning Manager is vulnerable to XML external entity attacks in configuration files supplied by network devices, leading to unauthenticated remote code execution on hosts with Provisioning Manager installed.
+</code>
+
+- [byteReaper77/CVE-2025-7766](https://github.com/byteReaper77/CVE-2025-7766)
+
 ### CVE-2025-7783 (2025-07-18)
 
 <code>Use of Insufficiently Random Values vulnerability in form-data allows HTTP Parameter Pollution (HPP). This vulnerability is associated with program files lib/form_data.Js.\n\nThis issue affects form-data: &lt; 2.5.4, 3.0.0 - 3.0.3, 4.0.0 - 4.0.3.
@@ -3913,6 +3920,8 @@
 - [Hassanopop/CVE-2025-53770](https://github.com/Hassanopop/CVE-2025-53770)
 - [m4r1x/CVE-2025-53770-Scanner](https://github.com/m4r1x/CVE-2025-53770-Scanner)
 - [Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE](https://github.com/Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE)
+- [exfil0/CVE-2025-53770](https://github.com/exfil0/CVE-2025-53770)
+- [zach115th/ToolShellFinder](https://github.com/zach115th/ToolShellFinder)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -13212,6 +13221,13 @@
 
 - [14mb1v45h/cyberspace-CVE-2024-52711](https://github.com/14mb1v45h/cyberspace-CVE-2024-52711)
 
+### CVE-2024-52794 (2024-12-19)
+
+<code>Discourse is an open source platform for community discussion. Users clicking on the lightbox thumbnails could be affected. This problem is patched in the latest version of Discourse. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [Beesco00/CVE-2024-52794-Discourse-Stored-XSS](https://github.com/Beesco00/CVE-2024-52794-Discourse-Stored-XSS)
+
 ### CVE-2024-52800 (2024-11-29)
 
 <code>veraPDF is an open source PDF/A validation library. Executing policy checks using custom schematron files via the CLI invokes an XSL transformation that may theoretically lead to a remote code execution (RCE) vulnerability. This doesn't affect the standard validation and policy checks functionality, veraPDF's common use cases. Most veraPDF users don't insert any custom XSLT code into policy profiles, which are based on Schematron syntax rather than direct XSL transforms. For users who do, only load custom policy files from sources you trust. This issue has not yet been patched. Users are advised to be cautious of XSLT code until a patch is available.
@@ -21403,7 +21419,7 @@
 - [threatlabindonesia/CVE-2023-44487-HTTP-2-Rapid-Reset-Exploit-PoC](https://github.com/threatlabindonesia/CVE-2023-44487-HTTP-2-Rapid-Reset-Exploit-PoC)
 - [aulauniversal/CVE-2023-44487](https://github.com/aulauniversal/CVE-2023-44487)
 - [BMG-Black-Magic/CVE-2023-44487](https://github.com/BMG-Black-Magic/CVE-2023-44487)
-- [moften/CVE-2023-44487](https://github.com/moften/CVE-2023-44487)
+- [moften/CVE-2023-44487-HTTP-2-Rapid-Reset-Attack](https://github.com/moften/CVE-2023-44487-HTTP-2-Rapid-Reset-Attack)
 - [zanks08/cve-2023-44487-demo](https://github.com/zanks08/cve-2023-44487-demo)
 
 ### CVE-2023-44758 (2023-10-06)
@@ -48510,6 +48526,13 @@
 
 - [mpgn/CVE-2018-11686](https://github.com/mpgn/CVE-2018-11686)
 
+### CVE-2018-11714 (2018-06-04)
+
+<code>An issue was discovered on TP-Link TL-WR840N v5 00000005 0.9.1 3.16 v0001.0 Build 170608 Rel.58696n and TL-WR841N v13 00000013 0.9.1 4.16 v0001.0 Build 170622 Rel.64334n devices. This issue is caused by improper session handling on the /cgi/ folder or a /cgi file. If an attacker sends a header of &quot;Referer: http://192.168.0.1/mainFrame.htm&quot; then no authentication is required for any action.
+</code>
+
+- [mikelkarma/cve-2018-11714_POC](https://github.com/mikelkarma/cve-2018-11714_POC)
+
 ### CVE-2018-11759 (2018-10-31)
 
 <code>The Apache Web Server (httpd) specific code that normalised the requested path before matching it to the URI-worker map in Apache Tomcat JK (mod_jk) Connector 1.2.0 to 1.2.44 did not handle some edge cases correctly. If only a sub-set of the URLs supported by Tomcat were exposed via httpd, then it was possible for a specially constructed request to expose application functionality through the reverse proxy that was not intended for clients accessing the application via the reverse proxy. It was also possible in some configurations for a specially constructed request to bypass the access controls configured in httpd. While there is some overlap between this issue and CVE-2018-1323, they are not identical.
@@ -51836,6 +51859,13 @@
 
 - [moayadalmalat/CVE-2017-12636](https://github.com/moayadalmalat/CVE-2017-12636)
 - [XTeam-Wing/CVE-2017-12636](https://github.com/XTeam-Wing/CVE-2017-12636)
+
+### CVE-2017-12637 (2017-08-07)
+
+<code>Directory traversal vulnerability in scheduler/ui/js/ffffffffbca41eb4/UIUtilJavaScriptJS in SAP NetWeaver Application Server Java 7.5 allows remote attackers to read arbitrary files via a .. (dot dot) in the query string, as exploited in the wild in August 2017, aka SAP Security Note 2486657.
+</code>
+
+- [abrewer251/CVE-2017-12637_SAP-NetWeaver-URL-Traversal](https://github.com/abrewer251/CVE-2017-12637_SAP-NetWeaver-URL-Traversal)
 
 ### CVE-2017-12792 (2017-10-02)
 
