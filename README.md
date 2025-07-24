@@ -982,6 +982,7 @@
 </code>
 
 - [allinsthon/CVE-2025-6558-exp](https://github.com/allinsthon/CVE-2025-6558-exp)
+- [DevBuiHieu/CVE-2025-6558-Proof-Of-Concept](https://github.com/DevBuiHieu/CVE-2025-6558-Proof-Of-Concept)
 
 ### CVE-2025-6586 (2025-07-04)
 
@@ -1531,7 +1532,6 @@
 </code>
 
 - [ekomsSavior/AirBorne-PoC](https://github.com/ekomsSavior/AirBorne-PoC)
-- [apwlq/AirBorne-PoC](https://github.com/apwlq/AirBorne-PoC)
 - [cakescats/airborn-IOS-CVE-2025-24252](https://github.com/cakescats/airborn-IOS-CVE-2025-24252)
 - [B1ack4sh/Blackash-CVE-2025-24252](https://github.com/B1ack4sh/Blackash-CVE-2025-24252)
 
@@ -3922,6 +3922,8 @@
 - [Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE](https://github.com/Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE)
 - [exfil0/CVE-2025-53770](https://github.com/exfil0/CVE-2025-53770)
 - [zach115th/ToolShellFinder](https://github.com/zach115th/ToolShellFinder)
+- [nisargsuthar/suricata-rule-CVE-2025-53770](https://github.com/nisargsuthar/suricata-rule-CVE-2025-53770)
+- [JustinnT/cve-2025-53770-](https://github.com/JustinnT/cve-2025-53770-)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -8566,6 +8568,13 @@
 </code>
 
 - [paragbagul111/CVE-2024-25412](https://github.com/paragbagul111/CVE-2024-25412)
+
+### CVE-2024-25422 (2024-02-28)
+
+<code>SQL Injection vulnerability in SEMCMS v.4.8 allows a remote attacker to execute arbitrary code and obtain sensitive information via the SEMCMS_Menu.php component.
+</code>
+
+- [tzyyyyyyy/semcms](https://github.com/tzyyyyyyy/semcms)
 
 ### CVE-2024-25423 (2024-02-22)
 
@@ -45924,7 +45933,7 @@
 <code>A vulnerability in WhatsApp Desktop versions prior to 0.3.9309 when paired with WhatsApp for iPhone versions prior to 2.20.10 allows cross-site scripting and local file reading. Exploiting the vulnerability requires the victim to click a link preview from a specially crafted text message.
 </code>
 
-- [PerimeterX/CVE-2019-18426](https://github.com/PerimeterX/CVE-2019-18426)
+- [HumanSecurity/CVE-2019-18426](https://github.com/HumanSecurity/CVE-2019-18426)
 
 ### CVE-2019-18634 (2020-01-29)
 
