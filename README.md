@@ -3553,6 +3553,7 @@
 - [simplyfurious/CVE-2025-48384-submodule_test](https://github.com/simplyfurious/CVE-2025-48384-submodule_test)
 - [Anezatraa/CVE-2025-48384-submodule](https://github.com/Anezatraa/CVE-2025-48384-submodule)
 - [IK-20211125/CVE-2025-48384](https://github.com/IK-20211125/CVE-2025-48384)
+- [elprogramadorgt/CVE-2025-48384](https://github.com/elprogramadorgt/CVE-2025-48384)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -3786,6 +3787,9 @@
 
 - [Thewhiteevil/CVE-2025-51403](https://github.com/Thewhiteevil/CVE-2025-51403)
 
+### CVE-2025-51411
+- [tansique-17/CVE-2025-51411](https://github.com/tansique-17/CVE-2025-51411)
+
 ### CVE-2025-51858 (2025-07-22)
 
 <code>Self Cross-Site Scripting (XSS) vulnerability in ChatPlayground.ai through 2025-05-24, allows attackers to execute arbitrary code and gain sensitive information via a crafted SVG file contents sent through the chat component.
@@ -3944,6 +3948,7 @@
 - [nisargsuthar/suricata-rule-CVE-2025-53770](https://github.com/nisargsuthar/suricata-rule-CVE-2025-53770)
 - [bharath-cyber-root/sharepoint-toolshell-cve-2025-53770](https://github.com/bharath-cyber-root/sharepoint-toolshell-cve-2025-53770)
 - [Rabbitbong/OurSharePoint-CVE-2025-53770](https://github.com/Rabbitbong/OurSharePoint-CVE-2025-53770)
+- [Udyz/CVE-2025-53770-Exploit](https://github.com/Udyz/CVE-2025-53770-Exploit)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -4302,7 +4307,7 @@
 <code>Eine kritische Schwachstelle wurde in Project Worlds Online Admission System 1.0 gefunden. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei documents.php. Durch Manipulieren mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [keru6k/Online-Admission-System-RCE-PoC](https://github.com/keru6k/Online-Admission-System-RCE-PoC)
+- [pwnpwnpur1n/Online-Admission-System-RCE-PoC](https://github.com/pwnpwnpur1n/Online-Admission-System-RCE-PoC)
 
 ### CVE-2024-0986 (2024-01-28)
 
@@ -7829,7 +7834,7 @@
 <code>An issue in Projectworlds Vistor Management Systemin PHP v.1.0 allows a remtoe attacker to escalate privileges via a crafted script to the login page in the POST/index.php
 </code>
 
-- [keru6k/CVE-2024-22922](https://github.com/keru6k/CVE-2024-22922)
+- [pwnpwnpur1n/CVE-2024-22922](https://github.com/pwnpwnpur1n/CVE-2024-22922)
 
 ### CVE-2024-22939 (2024-02-01)
 
@@ -7843,7 +7848,7 @@
 <code>SQL injection vulnerability in Projectworlds Visitor Management System in PHP v.1.0 allows a remote attacker to escalate privileges via the name parameter in the myform.php endpoint.
 </code>
 
-- [keru6k/CVE-2024-22983](https://github.com/keru6k/CVE-2024-22983)
+- [pwnpwnpur1n/CVE-2024-22983](https://github.com/pwnpwnpur1n/CVE-2024-22983)
 
 ### CVE-2024-23002
 - [xiaomaoxxx/CVE-2024-23002](https://github.com/xiaomaoxxx/CVE-2024-23002)
@@ -31205,7 +31210,6 @@
 - [codiobert/pwnkit-scanner](https://github.com/codiobert/pwnkit-scanner)
 - [v-rzh/CVE-2021-4034](https://github.com/v-rzh/CVE-2021-4034)
 - [OXDBXKXO/ez-pwnkit](https://github.com/OXDBXKXO/ez-pwnkit)
-- [milot/dissecting-pkexec-cve-2021-4034](https://github.com/milot/dissecting-pkexec-cve-2021-4034)
 - [Almorabea/pkexec-exploit](https://github.com/Almorabea/pkexec-exploit)
 - [teelrabbit/Polkit-pkexec-exploit-for-Linux](https://github.com/teelrabbit/Polkit-pkexec-exploit-for-Linux)
 - [scent2d/PoC-CVE-2021-4034](https://github.com/scent2d/PoC-CVE-2021-4034)
@@ -36306,6 +36310,7 @@
 - [x1ongsec/CVE-2021-44228-Log4j-JNDI](https://github.com/x1ongsec/CVE-2021-44228-Log4j-JNDI)
 - [fabioeletto/hka-seminar-log4shell](https://github.com/fabioeletto/hka-seminar-log4shell)
 - [cuijiung/log4j-CVE-2021-44228](https://github.com/cuijiung/log4j-CVE-2021-44228)
+- [Alan-coder-eng/log4j-cve-2021-44228-](https://github.com/Alan-coder-eng/log4j-cve-2021-44228-)
 
 ### CVE-2021-44255 (2022-01-31)
 
