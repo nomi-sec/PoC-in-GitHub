@@ -2324,7 +2324,11 @@
 
 - [harish0x/CVE-2025-29602](https://github.com/harish0x/CVE-2025-29602)
 
-### CVE-2025-29628
+### CVE-2025-29628 (2025-07-25)
+
+<code>An issue in Gardyn 4 allows a remote attacker to obtain sensitive information and execute arbitrary code via a request
+</code>
+
 - [mselbrede/gardyn](https://github.com/mselbrede/gardyn)
 
 ### CVE-2025-29632 (2025-05-29)
@@ -2843,6 +2847,13 @@
 
 - [diegovargasj/CVE-2025-32407](https://github.com/diegovargasj/CVE-2025-32407)
 
+### CVE-2025-32429 (2025-07-24)
+
+<code>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. In versions 9.4-rc-1 through 16.10.5 and 17.0.0-rc-1 through 17.2.2, it's possible for anyone to inject SQL using the parameter sort of the getdeleteddocuments.vm. It's injected as is as an ORDER BY value. This is fixed in versions 16.10.6 and 17.3.0-rc-1.
+</code>
+
+- [byteReaper77/CVE-2025-32429](https://github.com/byteReaper77/CVE-2025-32429)
+
 ### CVE-2025-32432 (2025-04-25)
 
 <code>Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.
@@ -3218,7 +3229,11 @@
 ### CVE-2025-44603
 - [Moulish2004/CVE-2025-44603-CSRF-Leads_to_Create_FakeUsers](https://github.com/Moulish2004/CVE-2025-44603-CSRF-Leads_to_Create_FakeUsers)
 
-### CVE-2025-44608
+### CVE-2025-44608 (2025-07-25)
+
+<code>CloudClassroom-PHP Project v1.0 was discovered to contain a SQL injection vulnerability via the viewid parameter.
+</code>
+
 - [mr-xmen786/CVE-2025-44608](https://github.com/mr-xmen786/CVE-2025-44608)
 
 ### CVE-2025-44998 (2025-05-23)
@@ -3239,10 +3254,18 @@
 ### CVE-2025-45407
 - [yallasec/CVE-2025-45407](https://github.com/yallasec/CVE-2025-45407)
 
-### CVE-2025-45466
+### CVE-2025-45466 (2025-07-25)
+
+<code>Unitree Go1 &lt;= Go1_2022_05_11 is vulnerale to Incorrect Access Control due to authentication credentials being hardcoded in plaintext.
+</code>
+
 - [zgsnj123/CVE-2025-45466](https://github.com/zgsnj123/CVE-2025-45466)
 
-### CVE-2025-45467
+### CVE-2025-45467 (2025-07-25)
+
+<code>Unitree Go1 &lt;= Go1_2022_05_11 is vulnerable to Insecure Permissions as the firmware update functionality (via Wi-Fi/Ethernet) implements an insecure verification mechanism that solely relies on MD5 checksums for firmware integrity validation.
+</code>
+
 - [zgsnj123/CVE-2025-45467](https://github.com/zgsnj123/CVE-2025-45467)
 
 ### CVE-2025-45512
@@ -3263,7 +3286,11 @@
 ### CVE-2025-45781
 - [ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC](https://github.com/ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC)
 
-### CVE-2025-45960
+### CVE-2025-45960 (2025-07-25)
+
+<code>Cross Site Scripting vulnerability in tawk.to Live Chat v.1.6.1 allows a remote attacker to execute arbitrary code via the web application stores and displays user-supplied input without proper input validation or encoding
+</code>
+
 - [pracharapol/CVE-2025-45960](https://github.com/pracharapol/CVE-2025-45960)
 
 ### CVE-2025-46041 (2025-06-09)
@@ -3780,7 +3807,11 @@
 
 - [Thewhiteevil/CVE-2025-51403](https://github.com/Thewhiteevil/CVE-2025-51403)
 
-### CVE-2025-51411
+### CVE-2025-51411 (2025-07-25)
+
+<code>A reflected cross-site scripting (XSS) vulnerability exists in Institute-of-Current-Students v1.0 via the email parameter in the /postquerypublic endpoint. The application fails to properly sanitize user input before reflecting it in the HTML response. This allows unauthenticated attackers to inject and execute arbitrary JavaScript code in the context of the victim's browser by tricking them into visiting a crafted URL or submitting a malicious form. Successful exploitation may lead to session hijacking, credential theft, or other client-side attacks.
+</code>
+
 - [tansique-17/CVE-2025-51411](https://github.com/tansique-17/CVE-2025-51411)
 
 ### CVE-2025-51858 (2025-07-22)
@@ -3866,6 +3897,9 @@
 
 - [wrathfulDiety/CVE-2025-52357](https://github.com/wrathfulDiety/CVE-2025-52357)
 
+### CVE-2025-52399
+- [Userr404/CVE-2025-52399-SQLi-Institute-of-Current-Students](https://github.com/Userr404/CVE-2025-52399-SQLi-Institute-of-Current-Students)
+
 ### CVE-2025-52488 (2025-06-21)
 
 <code>DNN (formerly DotNetNuke) is an open-source web content management platform (CMS) in the Microsoft ecosystem. In versions 6.0.0 to before 10.0.1, DNN.PLATFORM allows a specially crafted series of malicious interaction to potentially expose NTLM hashes to a third party SMB server. This issue has been patched in version 10.0.1.
@@ -3911,6 +3945,13 @@
 
 - [rafaelcorvino1/CVE-2025-53640](https://github.com/rafaelcorvino1/CVE-2025-53640)
 
+### CVE-2025-53652 (2025-07-09)
+
+<code>Jenkins Git Parameter Plugin 439.vb_0e46ca_14534 and earlier does not validate that the Git parameter value submitted to the build matches one of the offered choices, allowing attackers with Item/Build permission to inject arbitrary values into Git parameters.
+</code>
+
+- [pl4tyz/CVE-2025-53652-Jenkins-Git-Parameter-Analysis](https://github.com/pl4tyz/CVE-2025-53652-Jenkins-Git-Parameter-Analysis)
+
 ### CVE-2025-53770 (2025-07-20)
 
 <code>Deserialization of untrusted data in on-premises Microsoft SharePoint Server allows an unauthorized attacker to execute code over a network.\nMicrosoft is aware that an exploit for CVE-2025-53770 exists in the wild.\nMicrosoft is preparing and fully testing a comprehensive update to address this vulnerability.  In the meantime, please make sure that the mitigation provided in this CVE documentation is in place so that you are protected from exploitation.
@@ -3931,13 +3972,10 @@
 - [AdityaBhatt3010/CVE-2025-53770-SharePoint-Zero-Day-Variant-Exploited-for-Full-RCE](https://github.com/AdityaBhatt3010/CVE-2025-53770-SharePoint-Zero-Day-Variant-Exploited-for-Full-RCE)
 - [b33b0y/CVE-2025-53770](https://github.com/b33b0y/CVE-2025-53770)
 - [GreenForceNetwork/Toolshell_CVE-2025-53770](https://github.com/GreenForceNetwork/Toolshell_CVE-2025-53770)
+- [a-hydrae/ToolShell-Honeypot](https://github.com/a-hydrae/ToolShell-Honeypot)
 - [imbas007/CVE-2025-53770-Vulnerable-Scanner](https://github.com/imbas007/CVE-2025-53770-Vulnerable-Scanner)
 - [Sec-Dan/CVE-2025-53770-Scanner](https://github.com/Sec-Dan/CVE-2025-53770-Scanner)
 - [MuhammadWaseem29/CVE-2025-53770](https://github.com/MuhammadWaseem29/CVE-2025-53770)
-- [bijikutu/CVE-2025-53770-Exploit](https://github.com/bijikutu/CVE-2025-53770-Exploit)
-- [Lapesha/CVE-2025-53770](https://github.com/Lapesha/CVE-2025-53770)
-- [Hassanopop/CVE-2025-53770](https://github.com/Hassanopop/CVE-2025-53770)
-- [m4r1x/CVE-2025-53770-Scanner](https://github.com/m4r1x/CVE-2025-53770-Scanner)
 - [Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE](https://github.com/Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE)
 - [exfil0/CVE-2025-53770](https://github.com/exfil0/CVE-2025-53770)
 - [zach115th/ToolShellFinder](https://github.com/zach115th/ToolShellFinder)
@@ -3959,6 +3997,9 @@
 </code>
 
 - [tigr78/CVE-2025-53964](https://github.com/tigr78/CVE-2025-53964)
+
+### CVE-2025-54554
+- [Aman-Parmar/CVE-2025-54554](https://github.com/Aman-Parmar/CVE-2025-54554)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
@@ -5248,7 +5289,6 @@
 </code>
 
 - [bjrjk/CVE-2024-4947](https://github.com/bjrjk/CVE-2024-4947)
-- [DiabloX90911/CVE-2024-4947](https://github.com/DiabloX90911/CVE-2024-4947)
 
 ### CVE-2024-4956 (2024-05-16)
 
@@ -55556,6 +55596,7 @@
 - [YunchoHang/CVE-2014-6271-SHELLSHOCK](https://github.com/YunchoHang/CVE-2014-6271-SHELLSHOCK)
 - [moften/CVE-2014-6271](https://github.com/moften/CVE-2014-6271)
 - [knightc0de/Shellshock_vuln_Exploit](https://github.com/knightc0de/Shellshock_vuln_Exploit)
+- [rsherstnev/CVE-2014-6271](https://github.com/rsherstnev/CVE-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
 
