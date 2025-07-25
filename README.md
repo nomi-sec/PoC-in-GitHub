@@ -1038,13 +1038,6 @@
 - [Nxploited/CVE-2025-6934](https://github.com/Nxploited/CVE-2025-6934)
 - [MrjHaxcore/CVE-2025-6934](https://github.com/MrjHaxcore/CVE-2025-6934)
 
-### CVE-2025-6965 (2025-07-15)
-
-<code>There exists a vulnerability in SQLite versions before 3.50.2 where the number of aggregate terms could exceed the number of columns available. This could lead to a memory corruption issue. We recommend upgrading to version 3.50.2 or above.
-</code>
-
-- [mariaecgzv/CVE-2025-6965-](https://github.com/mariaecgzv/CVE-2025-6965-)
-
 ### CVE-2025-6970 (2025-07-09)
 
 <code>The Events Manager – Calendar, Bookings, Tickets, and more! plugin for WordPress is vulnerable to time-based SQL Injection via the ‘orderby’ parameter in all versions up to, and including, 7.0.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -2476,7 +2469,7 @@
 - [hed1ad/CVE-2025-29927](https://github.com/hed1ad/CVE-2025-29927)
 - [HoumanPashaei/CVE-2025-29927](https://github.com/HoumanPashaei/CVE-2025-29927)
 - [rubbxalc/CVE-2025-29927](https://github.com/rubbxalc/CVE-2025-29927)
-- [olimpiofreitas/CVE-2025-29927_scanner](https://github.com/olimpiofreitas/CVE-2025-29927_scanner)
+- [olimpiofreitas/CVE-2025-29927-scanner](https://github.com/olimpiofreitas/CVE-2025-29927-scanner)
 - [moften/CVE-2025-29927](https://github.com/moften/CVE-2025-29927)
 - [EarthAngel666/x-middleware-exploit](https://github.com/EarthAngel666/x-middleware-exploit)
 - [enochgitgamefied/NextJS-CVE-2025-29927-Docker-Lab](https://github.com/enochgitgamefied/NextJS-CVE-2025-29927-Docker-Lab)
@@ -3893,6 +3886,9 @@
 </code>
 
 - [UltimateHG/CVE-2025-52689-PoC](https://github.com/UltimateHG/CVE-2025-52689-PoC)
+
+### CVE-2025-52914
+- [rxerium/CVE-2025-52914](https://github.com/rxerium/CVE-2025-52914)
 
 ### CVE-2025-53367 (2025-07-03)
 
@@ -17494,6 +17490,7 @@
 - [redboltsec/CVE-2023-27372-PoC](https://github.com/redboltsec/CVE-2023-27372-PoC)
 - [1amthebest1/CVE-2023-27372](https://github.com/1amthebest1/CVE-2023-27372)
 - [1Ronkkeli/spip-cve-2023-27372-rce](https://github.com/1Ronkkeli/spip-cve-2023-27372-rce)
+- [G01d3nW01f/cve-2023-27372](https://github.com/G01d3nW01f/cve-2023-27372)
 
 ### CVE-2023-27470 (2023-09-11)
 
