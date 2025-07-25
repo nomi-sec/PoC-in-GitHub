@@ -908,6 +908,7 @@
 
 - [iamgithubber/CVE-2025-6018-19-exploit](https://github.com/iamgithubber/CVE-2025-6018-19-exploit)
 - [dreysanox/CVE-2025-6018_Poc](https://github.com/dreysanox/CVE-2025-6018_Poc)
+- [ibrahmsql/CVE-2025-6018](https://github.com/ibrahmsql/CVE-2025-6018)
 
 ### CVE-2025-6019 (2025-06-19)
 
@@ -2436,6 +2437,7 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
+- [AventurineJun/CVE-2025-29927-Research](https://github.com/AventurineJun/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -2732,7 +2734,14 @@
 
 - [iSee857/CVE-2025-31486-PoC](https://github.com/iSee857/CVE-2025-31486-PoC)
 - [Ly4j/CVE-2025-31486](https://github.com/Ly4j/CVE-2025-31486)
-- [hackmelocal/hackmelocal-CVE-2025-31486-Simulation](https://github.com/hackmelocal/hackmelocal-CVE-2025-31486-Simulation)
+- [hackmelocal/CVE-2025-31486-Simulation](https://github.com/hackmelocal/CVE-2025-31486-Simulation)
+
+### CVE-2025-31511 (2025-07-22)
+
+<code>An issue was discovered in AlertEnterprise Guardian 4.1.14.2.2.1. One can bypass manager approval by changing the user ID in a Request%20Building%20Access requestSubmit API call.
+</code>
+
+- [pand0rausa/CVE-2025-31511_to_31513.md](https://github.com/pand0rausa/CVE-2025-31511_to_31513.md)
 
 ### CVE-2025-31644 (2025-05-07)
 
@@ -11270,6 +11279,13 @@
 </code>
 
 - [Jansen-C-Moreira/CVE-2024-40512](https://github.com/Jansen-C-Moreira/CVE-2024-40512)
+
+### CVE-2024-40586 (2025-02-11)
+
+<code>An Improper Access Control vulnerability [CWE-284] in FortiClient Windows version 7.4.0, version 7.2.6 and below, version 7.0.13 and below may allow a local user to escalate his privileges via FortiSSLVPNd service pipe.
+</code>
+
+- [Hagrid29/CVE-2024-40586-Windows-Coerced-Authentication-in-FortiClient](https://github.com/Hagrid29/CVE-2024-40586-Windows-Coerced-Authentication-in-FortiClient)
 
 ### CVE-2024-40617 (2024-07-17)
 
@@ -30522,6 +30538,7 @@
 - [whoami-chmod777/CVE-2021-1675---PrintNightmare-LPE-PowerShell-](https://github.com/whoami-chmod777/CVE-2021-1675---PrintNightmare-LPE-PowerShell-)
 - [0xSs0rZ/Windows_Exploit](https://github.com/0xSs0rZ/Windows_Exploit)
 - [Sp4ceDogy/NPE-CS-V-CVE-2021-1675](https://github.com/Sp4ceDogy/NPE-CS-V-CVE-2021-1675)
+- [CameraShutterBug/PrintNightmare](https://github.com/CameraShutterBug/PrintNightmare)
 
 ### CVE-2021-1678 (2021-01-12)
 
@@ -31187,7 +31204,6 @@
 - [glowbase/PwnKit-CVE-2021-4034](https://github.com/glowbase/PwnKit-CVE-2021-4034)
 - [codiobert/pwnkit-scanner](https://github.com/codiobert/pwnkit-scanner)
 - [v-rzh/CVE-2021-4034](https://github.com/v-rzh/CVE-2021-4034)
-- [TW-D/PwnKit-Vulnerability_CVE-2021-4034](https://github.com/TW-D/PwnKit-Vulnerability_CVE-2021-4034)
 - [OXDBXKXO/ez-pwnkit](https://github.com/OXDBXKXO/ez-pwnkit)
 - [milot/dissecting-pkexec-cve-2021-4034](https://github.com/milot/dissecting-pkexec-cve-2021-4034)
 - [Almorabea/pkexec-exploit](https://github.com/Almorabea/pkexec-exploit)
