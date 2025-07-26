@@ -993,7 +993,7 @@
 <code>Insufficient validation of untrusted input in ANGLE and GPU in Google Chrome prior to 138.0.7204.157 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)
 </code>
 
-- [allinsthon/CVE-2025-6558-exp](https://github.com/allinsthon/CVE-2025-6558-exp)
+- [gmh5225/CVE-2025-6558-exp](https://github.com/gmh5225/CVE-2025-6558-exp)
 - [DevBuiHieu/CVE-2025-6558-Proof-Of-Concept](https://github.com/DevBuiHieu/CVE-2025-6558-Proof-Of-Concept)
 
 ### CVE-2025-6586 (2025-07-04)
@@ -1140,13 +1140,6 @@
 - [grupooruss/CVE-2025-20281-Cisco](https://github.com/grupooruss/CVE-2025-20281-Cisco)
 - [ill-deed/Cisco-CVE-2025-20281-illdeed](https://github.com/ill-deed/Cisco-CVE-2025-20281-illdeed)
 - [B1ack4sh/Blackash-CVE-2025-20281](https://github.com/B1ack4sh/Blackash-CVE-2025-20281)
-
-### CVE-2025-20337 (2025-07-16)
-
-<code>A vulnerability in a specific API of Cisco ISE and Cisco ISE-PIC could allow an unauthenticated, remote attacker to execute arbitrary code on the underlying operating system as root. The attacker does not require any valid credentials to exploit this vulnerability.\r\n\r\nThis vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by submitting a crafted API request. A successful exploit could allow the attacker to obtain root privileges on an affected device.
-</code>
-
-- [barbaraeivyu/CVE-2025-20337-EXP](https://github.com/barbaraeivyu/CVE-2025-20337-EXP)
 
 ### CVE-2025-21204 (2025-04-08)
 
@@ -2438,7 +2431,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
-- [AventurineJun/CVE-2025-29927-Research](https://github.com/AventurineJun/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -2741,13 +2733,6 @@
 - [Ly4j/CVE-2025-31486](https://github.com/Ly4j/CVE-2025-31486)
 - [hackmelocal/CVE-2025-31486-Simulation](https://github.com/hackmelocal/CVE-2025-31486-Simulation)
 
-### CVE-2025-31511 (2025-07-22)
-
-<code>An issue was discovered in AlertEnterprise Guardian 4.1.14.2.2.1. One can bypass manager approval by changing the user ID in a Request%20Building%20Access requestSubmit API call.
-</code>
-
-- [pand0rausa/CVE-2025-31511_to_31513.md](https://github.com/pand0rausa/CVE-2025-31511_to_31513.md)
-
 ### CVE-2025-31644 (2025-05-07)
 
 <code>When running in Appliance mode, a command injection vulnerability exists in an undisclosed iControl REST and BIG-IP TMOS Shell (tmsh) command which may allow an authenticated attacker with administrator role privileges to execute arbitrary system commands. A successful exploit can allow the attacker to cross a security boundary.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -2804,7 +2789,6 @@
 - [leesh3288/CVE-2025-32023](https://github.com/leesh3288/CVE-2025-32023)
 - [B1ack4sh/Blackash-CVE-2025-32023](https://github.com/B1ack4sh/Blackash-CVE-2025-32023)
 - [LordBheem/CVE-2025-32023](https://github.com/LordBheem/CVE-2025-32023)
-- [shayantrix/POC-CVE-2025-32023](https://github.com/shayantrix/POC-CVE-2025-32023)
 
 ### CVE-2025-32118 (2025-04-04)
 
@@ -3074,6 +3058,13 @@
 - [0xgh057r3c0n/CVE-2025-34085](https://github.com/0xgh057r3c0n/CVE-2025-34085)
 - [yukinime/CVE-2025-34085](https://github.com/yukinime/CVE-2025-34085)
 - [B1ack4sh/Blackash-CVE-2025-34085](https://github.com/B1ack4sh/Blackash-CVE-2025-34085)
+
+### CVE-2025-34138 (2025-07-25)
+
+<code>A vulnerability exists in Sitecore Experience Manager (XM), Experience Platform (XP), Experience Commerce (XC), and Managed Cloud that could allow remote code execution or unauthorized access to information. This vulnerability affects all Experience Platform topologies (XM, XP, XC) from 9.2 Initial Release through 10.4 Initial Release. PaaS and containerized solutions are similarly affected.
+</code>
+
+- [allinsthon/CVE-2025-34138](https://github.com/allinsthon/CVE-2025-34138)
 
 ### CVE-2025-36041 (2025-06-15)
 
@@ -3767,6 +3758,9 @@
 ### CVE-2025-50777
 - [veereshgadige/aziot-cctv-cve-2025-50777](https://github.com/veereshgadige/aziot-cctv-cve-2025-50777)
 
+### CVE-2025-50867
+- [SacX-7/CVE-2025-50867](https://github.com/SacX-7/CVE-2025-50867)
+
 ### CVE-2025-51046
 - [0xMesh-X/CVE-2025-51046](https://github.com/0xMesh-X/CVE-2025-51046)
 
@@ -4008,6 +4002,13 @@
 </code>
 
 - [tigr78/CVE-2025-53964](https://github.com/tigr78/CVE-2025-53964)
+
+### CVE-2025-54309 (2025-07-18)
+
+<code>CrushFTP 10 before 10.8.5 and 11 before 11.3.4_23, when the DMZ proxy feature is not used, mishandles AS2 validation and consequently allows remote attackers to obtain admin access via HTTPS, as exploited in the wild in July 2025.
+</code>
+
+- [issamjr/CVE-2025-54309-EXPLOIT](https://github.com/issamjr/CVE-2025-54309-EXPLOIT)
 
 ### CVE-2025-54313 (2025-07-19)
 
@@ -5925,6 +5926,13 @@
 - [gh-ost00/CVE-2024-7928](https://github.com/gh-ost00/CVE-2024-7928)
 - [wh6amiGit/CVE-2024-7928](https://github.com/wh6amiGit/CVE-2024-7928)
 - [th3gokul/CVE-2024-7928](https://github.com/th3gokul/CVE-2024-7928)
+
+### CVE-2024-7940 (2024-08-27)
+
+<code>The product exposes a service that is intended for local only to\nall network interfaces without any authentication.
+</code>
+
+- [barbaraeivyu/CVE-2024-7940](https://github.com/barbaraeivyu/CVE-2024-7940)
 
 ### CVE-2024-7954 (2024-08-23)
 
@@ -8978,6 +8986,13 @@
 </code>
 
 - [dead1nfluence/Leantime-POC](https://github.com/dead1nfluence/Leantime-POC)
+
+### CVE-2024-27499 (2024-03-01)
+
+<code>Bagisto v1.5.1 is vulnerable for Cross site scripting(XSS) via png file upload vulnerability in product review option.
+</code>
+
+- [auspicious7/CVE-2024-27499-Bagisto-XSS-FileUpload](https://github.com/auspicious7/CVE-2024-27499-Bagisto-XSS-FileUpload)
 
 ### CVE-2024-27518 (2024-04-29)
 
@@ -14227,6 +14242,13 @@
 </code>
 
 - [str4ng3r-0x7/CVE-2024-57610](https://github.com/str4ng3r-0x7/CVE-2024-57610)
+
+### CVE-2024-57698 (2025-04-29)
+
+<code>An issue in modernwms v.1.0 allows an attacker view the MD5 hash of the administrator password and other attributes without authentication, even after initial configuration and password change. This happens due to excessive exposure of information and the lack of adequate access control on the /user/list?culture=en-us endpoint.
+</code>
+
+- [rodolfomarianocy/xpl-ModernWMS-CVE-2024-57698](https://github.com/rodolfomarianocy/xpl-ModernWMS-CVE-2024-57698)
 
 ### CVE-2024-57725 (2025-02-14)
 
@@ -28548,7 +28570,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [AventurineJun/CVE-2022-39299-Research](https://github.com/AventurineJun/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -39184,7 +39205,7 @@
 <code>Firmware developed by Shenzhen Hichip Vision Technology (V6 through V20), as used by many different vendors in millions of Internet of Things devices, suffers from a privilege escalation vulnerability that allows attackers on the local network to reset the device's administrator password. This affects products marketed under the following brand names: Accfly, Alptop, Anlink, Besdersec, BOAVISION, COOAU, CPVAN, Ctronics, D3D Security, Dericam, Elex System, Elite Security, ENSTER, ePGes, Escam, FLOUREON, GENBOLT, Hongjingtian (HJT), ICAMI, Iegeek, Jecurity, Jennov, KKMoon, LEFTEK, Loosafe, Luowice, Nesuniq, Nettoly, ProElite, QZT, Royallite, SDETER, SV3C, SY2L, Tenvis, ThinkValue, TOMLOV, TPTEK, WGCC, and ZILINK.
 </code>
 
-- [dimalmfao/hichipreset](https://github.com/dimalmfao/hichipreset)
+- [prisect/hichipreset](https://github.com/prisect/hichipreset)
 
 ### CVE-2020-9547 (2020-03-02)
 
