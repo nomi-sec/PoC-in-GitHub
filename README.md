@@ -1627,6 +1627,7 @@
 - [manjula-aw/CVE-2025-24813](https://github.com/manjula-aw/CVE-2025-24813)
 - [B1gN0Se/Tomcat-CVE-2025-24813](https://github.com/B1gN0Se/Tomcat-CVE-2025-24813)
 - [AsaL1n/CVE-2025-24813](https://github.com/AsaL1n/CVE-2025-24813)
+- [MuhammadWaseem29/CVE-2025-24813](https://github.com/MuhammadWaseem29/CVE-2025-24813)
 - [uzairhaider502/CVE-2025-24813](https://github.com/uzairhaider502/CVE-2025-24813)
 - [La3B0z/CVE-2025-24813-POC](https://github.com/La3B0z/CVE-2025-24813-POC)
 - [Heimd411/CVE-2025-24813-noPoC](https://github.com/Heimd411/CVE-2025-24813-noPoC)
@@ -10828,7 +10829,7 @@
 <code>Windows MSHTML Platform Spoofing Vulnerability
 </code>
 
-- [BunBunCodes/CPSC253Project](https://github.com/BunBunCodes/CPSC253Project)
+- [BunBunCodes/CPSC253_CybersecurityFinalProjectReports](https://github.com/BunBunCodes/CPSC253_CybersecurityFinalProjectReports)
 
 ### CVE-2024-38124 (2024-10-08)
 
