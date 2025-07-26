@@ -223,6 +223,7 @@
 
 - [gbrsh/CVE-2025-1661](https://github.com/gbrsh/CVE-2025-1661)
 - [MuhammadWaseem29/CVE-2025-1661](https://github.com/MuhammadWaseem29/CVE-2025-1661)
+- [shahwarshah/CVE-2025-1661](https://github.com/shahwarshah/CVE-2025-1661)
 
 ### CVE-2025-1716 (2025-02-26)
 
@@ -1429,6 +1430,7 @@
 - [huseyinstif/CVE-2025-24016-Nuclei-Template](https://github.com/huseyinstif/CVE-2025-24016-Nuclei-Template)
 - [0xjessie21/CVE-2025-24016](https://github.com/0xjessie21/CVE-2025-24016)
 - [MuhammadWaseem29/CVE-2025-24016](https://github.com/MuhammadWaseem29/CVE-2025-24016)
+- [GloStarRx1/CVE-2025-24016](https://github.com/GloStarRx1/CVE-2025-24016)
 - [celsius026/poc_CVE-2025-24016](https://github.com/celsius026/poc_CVE-2025-24016)
 - [cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC](https://github.com/cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC)
 - [rxerium/CVE-2025-24016](https://github.com/rxerium/CVE-2025-24016)
@@ -1588,6 +1590,7 @@
 </code>
 
 - [MuhammadWaseem29/CVE-2025-24799](https://github.com/MuhammadWaseem29/CVE-2025-24799)
+- [nak000/CVE-2025-24799-sqli](https://github.com/nak000/CVE-2025-24799-sqli)
 - [MatheuZSecurity/Exploit-CVE-2025-24799](https://github.com/MatheuZSecurity/Exploit-CVE-2025-24799)
 - [galletitaconpate/CVE-2025-24799](https://github.com/galletitaconpate/CVE-2025-24799)
 
@@ -1624,7 +1627,7 @@
 - [manjula-aw/CVE-2025-24813](https://github.com/manjula-aw/CVE-2025-24813)
 - [B1gN0Se/Tomcat-CVE-2025-24813](https://github.com/B1gN0Se/Tomcat-CVE-2025-24813)
 - [AsaL1n/CVE-2025-24813](https://github.com/AsaL1n/CVE-2025-24813)
-- [MuhammadWaseem29/CVE-2025-24813](https://github.com/MuhammadWaseem29/CVE-2025-24813)
+- [uzairhaider502/CVE-2025-24813](https://github.com/uzairhaider502/CVE-2025-24813)
 - [La3B0z/CVE-2025-24813-POC](https://github.com/La3B0z/CVE-2025-24813-POC)
 - [Heimd411/CVE-2025-24813-noPoC](https://github.com/Heimd411/CVE-2025-24813-noPoC)
 - [horsehacks/CVE-2025-24813-checker](https://github.com/horsehacks/CVE-2025-24813-checker)
@@ -2434,7 +2437,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
-- [AventurineJun/CVE-2025-29927-Research](https://github.com/AventurineJun/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -2444,6 +2446,7 @@
 - [dante01yoon/CVE-2025-29927](https://github.com/dante01yoon/CVE-2025-29927)
 - [ayato-shitomi/WebLab_CVE-2025-29927](https://github.com/ayato-shitomi/WebLab_CVE-2025-29927)
 - [Kamal-418/Vulnerable-Lab-NextJS-CVE-2025-29927](https://github.com/Kamal-418/Vulnerable-Lab-NextJS-CVE-2025-29927)
+- [dedibagus/cve-2025-29927-poc](https://github.com/dedibagus/cve-2025-29927-poc)
 - [alastair66/CVE-2025-29927](https://github.com/alastair66/CVE-2025-29927)
 - [BilalGns/CVE-2025-29927](https://github.com/BilalGns/CVE-2025-29927)
 - [nyctophile0969/CVE-2025-29927](https://github.com/nyctophile0969/CVE-2025-29927)
@@ -2642,6 +2645,8 @@
 </code>
 
 - [sunhuiHi666/CVE-2025-31125](https://github.com/sunhuiHi666/CVE-2025-31125)
+- [MuhammadWaseem29/Vitejs-exploit](https://github.com/MuhammadWaseem29/Vitejs-exploit)
+- [nak000/Vitejs-exploit-CVE-2025-31125-rce](https://github.com/nak000/Vitejs-exploit-CVE-2025-31125-rce)
 - [0xgh057r3c0n/CVE-2025-31125](https://github.com/0xgh057r3c0n/CVE-2025-31125)
 - [harshgupptaa/Path-Transversal-CVE-2025-31125-](https://github.com/harshgupptaa/Path-Transversal-CVE-2025-31125-)
 
@@ -2658,6 +2663,7 @@
 </code>
 
 - [MuhammadWaseem29/CVE-2025-31131](https://github.com/MuhammadWaseem29/CVE-2025-31131)
+- [nak000/CVE-2025-31131-RCE](https://github.com/nak000/CVE-2025-31131-RCE)
 - [B1ack4sh/Blackash-CVE-2025-31131](https://github.com/B1ack4sh/Blackash-CVE-2025-31131)
 
 ### CVE-2025-31137 (2025-04-01)
@@ -3709,7 +3715,6 @@
 <code>Akamai CloudTest before 60 2025.06.02 (12988) allows file inclusion via XML External Entity (XXE) injection.
 </code>
 
-- [MuhammadWaseem29/CVE-2025-49493-Poc](https://github.com/MuhammadWaseem29/CVE-2025-49493-Poc)
 - [B1ack4sh/Blackash-CVE-2025-49493](https://github.com/B1ack4sh/Blackash-CVE-2025-49493)
 - [SystemVll/CVE-2025-49493](https://github.com/SystemVll/CVE-2025-49493)
 
@@ -3898,7 +3903,7 @@
 - [wrathfulDiety/CVE-2025-52357](https://github.com/wrathfulDiety/CVE-2025-52357)
 
 ### CVE-2025-52399
-- [Userr404/CVE-2025-52399-SQLi-Institute-of-Current-Students](https://github.com/Userr404/CVE-2025-52399-SQLi-Institute-of-Current-Students)
+- [gmh5225/CVE-2025-52399-SQLi-Institute-of-Current-Students](https://github.com/gmh5225/CVE-2025-52399-SQLi-Institute-of-Current-Students)
 
 ### CVE-2025-52488 (2025-06-21)
 
@@ -3976,13 +3981,15 @@
 - [imbas007/CVE-2025-53770-Vulnerable-Scanner](https://github.com/imbas007/CVE-2025-53770-Vulnerable-Scanner)
 - [Sec-Dan/CVE-2025-53770-Scanner](https://github.com/Sec-Dan/CVE-2025-53770-Scanner)
 - [MuhammadWaseem29/CVE-2025-53770](https://github.com/MuhammadWaseem29/CVE-2025-53770)
-- [Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE](https://github.com/Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE)
+- [0xray5c68616e37/cve-2025-53770](https://github.com/0xray5c68616e37/cve-2025-53770)
 - [exfil0/CVE-2025-53770](https://github.com/exfil0/CVE-2025-53770)
 - [zach115th/ToolShellFinder](https://github.com/zach115th/ToolShellFinder)
 - [nisargsuthar/suricata-rule-CVE-2025-53770](https://github.com/nisargsuthar/suricata-rule-CVE-2025-53770)
 - [bharath-cyber-root/sharepoint-toolshell-cve-2025-53770](https://github.com/bharath-cyber-root/sharepoint-toolshell-cve-2025-53770)
 - [Rabbitbong/OurSharePoint-CVE-2025-53770](https://github.com/Rabbitbong/OurSharePoint-CVE-2025-53770)
 - [Udyz/CVE-2025-53770-Exploit](https://github.com/Udyz/CVE-2025-53770-Exploit)
+- [Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE](https://github.com/Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE)
+- [BirdsAreFlyingCameras/CVE-2025-53770_Raw-HTTP-Request-Generator](https://github.com/BirdsAreFlyingCameras/CVE-2025-53770_Raw-HTTP-Request-Generator)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -4126,7 +4133,6 @@
 
 - [Cappricio-Securities/CVE-2024-0195](https://github.com/Cappricio-Securities/CVE-2024-0195)
 - [gh-ost00/CVE-2024-0195-SpiderFlow](https://github.com/gh-ost00/CVE-2024-0195-SpiderFlow)
-- [MuhammadWaseem29/CVE-2024-0195-SpiderFlow](https://github.com/MuhammadWaseem29/CVE-2024-0195-SpiderFlow)
 - [hack-with-rohit/CVE-2024-0195-SpiderFlow](https://github.com/hack-with-rohit/CVE-2024-0195-SpiderFlow)
 
 ### CVE-2024-0197 (2024-02-27)
@@ -5918,7 +5924,7 @@
 - [bigb0x/CVE-2024-7954](https://github.com/bigb0x/CVE-2024-7954)
 - [gh-ost00/CVE-2024-7954-RCE](https://github.com/gh-ost00/CVE-2024-7954-RCE)
 - [TheCyberguy-17/RCE_CVE-2024-7954](https://github.com/TheCyberguy-17/RCE_CVE-2024-7954)
-- [MuhammadWaseem29/RCE-CVE-2024-7954](https://github.com/MuhammadWaseem29/RCE-CVE-2024-7954)
+- [nak000/RCE-CVE-2024-7954](https://github.com/nak000/RCE-CVE-2024-7954)
 - [issamjr/CVE-2024-7954](https://github.com/issamjr/CVE-2024-7954)
 - [zxj-hub/CVE-2024-7954POC](https://github.com/zxj-hub/CVE-2024-7954POC)
 - [0dayan0n/RCE_CVE-2024-7954-](https://github.com/0dayan0n/RCE_CVE-2024-7954-)
@@ -8973,8 +8979,8 @@
 <code>pictureproxy.php in the dirk1983 mm1.ltd source code f9f4bbc allows SSRF via the url parameter. NOTE: the references section has an archived copy of pictureproxy.php from its original GitHub location, but the repository name might later change because it is misleading.
 </code>
 
-- [MuhammadWaseem29/SSRF-Exploit-CVE-2024-27564](https://github.com/MuhammadWaseem29/SSRF-Exploit-CVE-2024-27564)
 - [Quantum-Hacker/CVE-2024-27564](https://github.com/Quantum-Hacker/CVE-2024-27564)
+- [chaudhrymuhammadtayab/SSRF-Exploit-CVE-2024-27564](https://github.com/chaudhrymuhammadtayab/SSRF-Exploit-CVE-2024-27564)
 
 ### CVE-2024-27619 (2024-03-29)
 
@@ -10816,6 +10822,13 @@
 </code>
 
 - [pwndorei/CVE-2024-38080](https://github.com/pwndorei/CVE-2024-38080)
+
+### CVE-2024-38112 (2024-07-09)
+
+<code>Windows MSHTML Platform Spoofing Vulnerability
+</code>
+
+- [BunBunCodes/CPSC253Project](https://github.com/BunBunCodes/CPSC253Project)
 
 ### CVE-2024-38124 (2024-10-08)
 
@@ -28520,7 +28533,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [AventurineJun/CVE-2022-39299-Research](https://github.com/AventurineJun/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -28871,7 +28883,6 @@
 - [segfault-it/cve-2022-41352](https://github.com/segfault-it/cve-2022-41352)
 - [Cr4ckC4t/cve-2022-41352-zimbra-rce](https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce)
 - [qailanet/cve-2022-41352-zimbra-rce](https://github.com/qailanet/cve-2022-41352-zimbra-rce)
-- [MuhammadWaseem29/cve-2022-41352](https://github.com/MuhammadWaseem29/cve-2022-41352)
 
 ### CVE-2022-41358 (2022-10-20)
 
