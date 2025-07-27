@@ -2503,6 +2503,7 @@
 - [KamalideenAK/poc-cve-2025-29927](https://github.com/KamalideenAK/poc-cve-2025-29927)
 - [mickhacking/Thank-u-Next](https://github.com/mickhacking/Thank-u-Next)
 - [Kamal-Hegazi/CVE-2025-29927-Next.js-Middleware-Authorization-Bypass](https://github.com/Kamal-Hegazi/CVE-2025-29927-Next.js-Middleware-Authorization-Bypass)
+- [sahbaazansari/CVE-2025-29927](https://github.com/sahbaazansari/CVE-2025-29927)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -3548,6 +3549,7 @@
 - [rxerium/CVE-2025-47812](https://github.com/rxerium/CVE-2025-47812)
 - [blindma1den/CVE-2025-47812](https://github.com/blindma1den/CVE-2025-47812)
 - [B1ack4sh/Blackash-CVE-2025-47812](https://github.com/B1ack4sh/Blackash-CVE-2025-47812)
+- [r0otk3r/CVE-2025-47812](https://github.com/r0otk3r/CVE-2025-47812)
 
 ### CVE-2025-47827 (2025-06-05)
 
@@ -4009,6 +4011,7 @@
 - [Udyz/CVE-2025-53770-Exploit](https://github.com/Udyz/CVE-2025-53770-Exploit)
 - [Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE](https://github.com/Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE)
 - [BirdsAreFlyingCameras/CVE-2025-53770_Raw-HTTP-Request-Generator](https://github.com/BirdsAreFlyingCameras/CVE-2025-53770_Raw-HTTP-Request-Generator)
+- [bossnick98/-SOC342---CVE-2025-53770-SharePoint-ToolShell-Auth-Bypass-and-RCE](https://github.com/bossnick98/-SOC342---CVE-2025-53770-SharePoint-ToolShell-Auth-Bypass-and-RCE)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -11764,6 +11767,9 @@
 
 ### CVE-2024-42992
 - [thanhh23/CVE-2024-42992](https://github.com/thanhh23/CVE-2024-42992)
+
+### CVE-2024-43018
+- [joaosilva21/CVE-2024-43018](https://github.com/joaosilva21/CVE-2024-43018)
 
 ### CVE-2024-43035
 - [ZeroPathAI/Fonoster-LFI-PoC](https://github.com/ZeroPathAI/Fonoster-LFI-PoC)
@@ -21127,6 +21133,7 @@
 </code>
 
 - [d0rb/CVE-2023-42931](https://github.com/d0rb/CVE-2023-42931)
+- [tageniu/CVE-2023-42931](https://github.com/tageniu/CVE-2023-42931)
 
 ### CVE-2023-42961 (2025-04-11)
 
