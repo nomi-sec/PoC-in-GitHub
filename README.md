@@ -2452,6 +2452,7 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
+- [AventurineJun/CVE-2025-29927-Research](https://github.com/AventurineJun/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -9007,13 +9008,6 @@
 </code>
 
 - [dead1nfluence/Leantime-POC](https://github.com/dead1nfluence/Leantime-POC)
-
-### CVE-2024-27499 (2024-03-01)
-
-<code>Bagisto v1.5.1 is vulnerable for Cross site scripting(XSS) via png file upload vulnerability in product review option.
-</code>
-
-- [auspicious7/CVE-2024-27499-Bagisto-XSS-FileUpload](https://github.com/auspicious7/CVE-2024-27499-Bagisto-XSS-FileUpload)
 
 ### CVE-2024-27518 (2024-04-29)
 
@@ -28597,6 +28591,7 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
+- [AventurineJun/CVE-2022-39299-Research](https://github.com/AventurineJun/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
