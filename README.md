@@ -1046,12 +1046,26 @@
 
 - [RandomRobbieBF/CVE-2025-6970](https://github.com/RandomRobbieBF/CVE-2025-6970)
 
+### CVE-2025-6998 (2025-07-24)
+
+<code>ReDoS in strip_whitespaces() function in cps/string_helper.py in Calibre Web and Autocaliweb allows unauthenticated remote attackers to cause denial of service via specially crafted username parameter that triggers catastrophic backtracking during login. This issue affects Calibre Web: 0.6.24 (Nicolette); Autocaliweb: from 0.7.0 before 0.7.1.
+</code>
+
+- [mind2hex/CVE-2025-6998-CalibreWeb-0.6.24-ReDoS](https://github.com/mind2hex/CVE-2025-6998-CalibreWeb-0.6.24-ReDoS)
+
 ### CVE-2025-7340 (2025-07-15)
 
 <code>The HT Contact Form Widget For Elementor Page Builder &amp; Gutenberg Blocks &amp; Form Builder. plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the temp_file_upload function in all versions up to, and including, 2.2.1. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
 </code>
 
 - [Nxploited/CVE-2025-7340](https://github.com/Nxploited/CVE-2025-7340)
+
+### CVE-2025-7404 (2025-07-24)
+
+<code>Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in Calibre Web, Autocaliweb allows Blind OS Command Injection.This issue affects Calibre Web: 0.6.24 (Nicolette); Autocaliweb: from 0.7.0 before 0.7.1.
+</code>
+
+- [mind2hex/CVE-2025-7404-CalibreWeb-0.6.24-BlindCommandInjection](https://github.com/mind2hex/CVE-2025-7404-CalibreWeb-0.6.24-BlindCommandInjection)
 
 ### CVE-2025-7461 (2025-07-12)
 
@@ -1116,8 +1130,12 @@
 
 - [drackyjr/CVE-2025-8018](https://github.com/drackyjr/CVE-2025-8018)
 
-### CVE-2025-8220
-- [m3m0o/engeman-web-languagecombobox-sqli](https://github.com/m3m0o/engeman-web-languagecombobox-sqli)
+### CVE-2025-8220 (2025-07-27)
+
+<code>Es wurde eine kritische Schwachstelle in Engeman Web bis 12.0.0.1 entdeckt. Dabei betrifft es einen unbekannter Codeteil der Datei /Login/RecoveryPass der Komponente Password Recovery Page. Durch das Manipulieren des Arguments LanguageCombobox mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [m3m0o/engeman-web-language-combobox-sqli](https://github.com/m3m0o/engeman-web-language-combobox-sqli)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -50808,6 +50826,7 @@
 - [Xernary/CVE-2017-5638-POC](https://github.com/Xernary/CVE-2017-5638-POC)
 - [toothbrushsoapflannelbiscuits/cve-2017-5638](https://github.com/toothbrushsoapflannelbiscuits/cve-2017-5638)
 - [haxerr9/CVE-2017-5638](https://github.com/haxerr9/CVE-2017-5638)
+- [QHxDr-dz/CVE-2017-5638](https://github.com/QHxDr-dz/CVE-2017-5638)
 
 ### CVE-2017-5645 (2017-04-17)
 
