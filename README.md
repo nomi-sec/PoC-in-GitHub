@@ -2877,6 +2877,7 @@
 
 - [byteReaper77/CVE-2025-32429](https://github.com/byteReaper77/CVE-2025-32429)
 - [amir-othman/CVE-2025-32429](https://github.com/amir-othman/CVE-2025-32429)
+- [imbas007/CVE-2025-32429-Checker](https://github.com/imbas007/CVE-2025-32429-Checker)
 
 ### CVE-2025-32432 (2025-04-25)
 
@@ -26114,7 +26115,7 @@
 
 ### CVE-2022-25869 (2022-07-15)
 
-<code>All versions of package angular are vulnerable to Cross-site Scripting (XSS) due to insecure page caching in the Internet Explorer browser, which allows interpolation of &lt;textarea&gt; elements.
+<code>All versions of the package angular; all versions of the package angularjs.core; all versions of the package angularjs are vulnerable to Cross-site Scripting (XSS) due to insecure page caching in the Internet Explorer browser, which allows interpolation of &lt;textarea&gt; elements.
 </code>
 
 - [neverendingsupport/angularjs-poc-cve-2022-25869](https://github.com/neverendingsupport/angularjs-poc-cve-2022-25869)
@@ -28012,6 +28013,7 @@
 </code>
 
 - [fuzzlove/CVE-2022-35411](https://github.com/fuzzlove/CVE-2022-35411)
+- [CSpanias/rpc-rce.py](https://github.com/CSpanias/rpc-rce.py)
 
 ### CVE-2022-35416 (2022-07-11)
 
@@ -57935,6 +57937,7 @@
 </code>
 
 - [c0r0n3r/dheater](https://github.com/c0r0n3r/dheater)
+- [itmaniac/dheat_dos_attack_poc](https://github.com/itmaniac/dheat_dos_attack_poc)
 
 
 ## 2001
