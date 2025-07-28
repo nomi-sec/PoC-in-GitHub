@@ -3608,6 +3608,7 @@
 - [Anezatraa/CVE-2025-48384-submodule](https://github.com/Anezatraa/CVE-2025-48384-submodule)
 - [IK-20211125/CVE-2025-48384](https://github.com/IK-20211125/CVE-2025-48384)
 - [elprogramadorgt/CVE-2025-48384](https://github.com/elprogramadorgt/CVE-2025-48384)
+- [rtefx/CVE-2025-48384](https://github.com/rtefx/CVE-2025-48384)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -3791,6 +3792,9 @@
 
 ### CVE-2025-50777
 - [veereshgadige/aziot-cctv-cve-2025-50777](https://github.com/veereshgadige/aziot-cctv-cve-2025-50777)
+
+### CVE-2025-50866
+- [SacX-7/CVE-2025-50866](https://github.com/SacX-7/CVE-2025-50866)
 
 ### CVE-2025-50867
 - [SacX-7/CVE-2025-50867](https://github.com/SacX-7/CVE-2025-50867)
@@ -4023,6 +4027,7 @@
 - [bossnick98/-SOC342---CVE-2025-53770-SharePoint-ToolShell-Auth-Bypass-and-RCE](https://github.com/bossnick98/-SOC342---CVE-2025-53770-SharePoint-ToolShell-Auth-Bypass-and-RCE)
 - [3a7/CVE-2025-53770](https://github.com/3a7/CVE-2025-53770)
 - [r3xbugbounty/CVE-2025-53770](https://github.com/r3xbugbounty/CVE-2025-53770)
+- [daryllundy/CVE-2025-53770](https://github.com/daryllundy/CVE-2025-53770)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -10971,6 +10976,7 @@
 
 - [p0in7s/CVE-2024-38475](https://github.com/p0in7s/CVE-2024-38475)
 - [soltanali0/CVE-2024-38475](https://github.com/soltanali0/CVE-2024-38475)
+- [abrewer251/CVE-2024-38475_SonicBoom_Apache_URL_Traversal_PoC](https://github.com/abrewer251/CVE-2024-38475_SonicBoom_Apache_URL_Traversal_PoC)
 - [syaifulandy/CVE-2024-38475](https://github.com/syaifulandy/CVE-2024-38475)
 
 ### CVE-2024-38526 (2024-06-25)
@@ -17341,6 +17347,7 @@
 - [dani33339/Tough-Cookie-v2.5.0-Patched](https://github.com/dani33339/Tough-Cookie-v2.5.0-Patched)
 - [morrisel/CVE-2023-26136](https://github.com/morrisel/CVE-2023-26136)
 - [uriyahav/tough-cookie-2.5.0-cve-2023-26136-fix](https://github.com/uriyahav/tough-cookie-2.5.0-cve-2023-26136-fix)
+- [guy2610/tough-cookie-patch-cve-2023-26136](https://github.com/guy2610/tough-cookie-patch-cve-2023-26136)
 
 ### CVE-2023-26144 (2023-09-20)
 
