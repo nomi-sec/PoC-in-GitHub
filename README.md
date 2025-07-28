@@ -327,6 +327,7 @@
 - [romanedutov/CVE-2025-2294](https://github.com/romanedutov/CVE-2025-2294)
 - [Yucaerin/CVE-2025-2294](https://github.com/Yucaerin/CVE-2025-2294)
 - [0xWhoami35/CVE-2025-2294](https://github.com/0xWhoami35/CVE-2025-2294)
+- [r0otk3r/CVE-2025-2294](https://github.com/r0otk3r/CVE-2025-2294)
 
 ### CVE-2025-2301 (2025-07-21)
 
@@ -1129,6 +1130,13 @@
 </code>
 
 - [drackyjr/CVE-2025-8018](https://github.com/drackyjr/CVE-2025-8018)
+
+### CVE-2025-8191 (2025-07-26)
+
+<code>Es wurde eine Schwachstelle in macrozheng mall bis 1.0.3 gefunden. Sie wurde als problematisch eingestuft. Betroffen hiervon ist ein unbekannter Ablauf der Datei /swagger-ui/index.html der Komponente Swagger UI. Dank Manipulation des Arguments configUrl mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [byteReaper77/CVE-2025-8191](https://github.com/byteReaper77/CVE-2025-8191)
 
 ### CVE-2025-8220 (2025-07-27)
 
@@ -2922,6 +2930,7 @@
 - [SpongeBob-369/cve-2025-32462](https://github.com/SpongeBob-369/cve-2025-32462)
 - [MAAYTHM/CVE-2025-32462_32463-Lab](https://github.com/MAAYTHM/CVE-2025-32462_32463-Lab)
 - [toohau/CVE-2025-32462-32463-Detection-Script-](https://github.com/toohau/CVE-2025-32462-32463-Detection-Script-)
+- [j3r1ch0123/CVE-2025-32462](https://github.com/j3r1ch0123/CVE-2025-32462)
 
 ### CVE-2025-32463 (2025-06-30)
 
@@ -3996,7 +4005,6 @@
 - [grupooruss/CVE-2025-53770-Checker](https://github.com/grupooruss/CVE-2025-53770-Checker)
 - [tripoloski1337/CVE-2025-53770-scanner](https://github.com/tripoloski1337/CVE-2025-53770-scanner)
 - [AdityaBhatt3010/CVE-2025-53770-SharePoint-Zero-Day-Variant-Exploited-for-Full-RCE](https://github.com/AdityaBhatt3010/CVE-2025-53770-SharePoint-Zero-Day-Variant-Exploited-for-Full-RCE)
-- [b33b0y/CVE-2025-53770](https://github.com/b33b0y/CVE-2025-53770)
 - [GreenForceNetwork/Toolshell_CVE-2025-53770](https://github.com/GreenForceNetwork/Toolshell_CVE-2025-53770)
 - [a-hydrae/ToolShell-Honeypot](https://github.com/a-hydrae/ToolShell-Honeypot)
 - [imbas007/CVE-2025-53770-Vulnerable-Scanner](https://github.com/imbas007/CVE-2025-53770-Vulnerable-Scanner)
@@ -4013,6 +4021,7 @@
 - [BirdsAreFlyingCameras/CVE-2025-53770_Raw-HTTP-Request-Generator](https://github.com/BirdsAreFlyingCameras/CVE-2025-53770_Raw-HTTP-Request-Generator)
 - [bossnick98/-SOC342---CVE-2025-53770-SharePoint-ToolShell-Auth-Bypass-and-RCE](https://github.com/bossnick98/-SOC342---CVE-2025-53770-SharePoint-ToolShell-Auth-Bypass-and-RCE)
 - [3a7/CVE-2025-53770](https://github.com/3a7/CVE-2025-53770)
+- [r3xbugbounty/CVE-2025-53770](https://github.com/r3xbugbounty/CVE-2025-53770)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -5202,7 +5211,7 @@
 </code>
 
 - [TAM-K592/CVE-2024-4577](https://github.com/TAM-K592/CVE-2024-4577)
-- [ohhhh693/CVE-2024-4577](https://github.com/ohhhh693/CVE-2024-4577)
+- [Ra1n-60W/CVE-2024-4577](https://github.com/Ra1n-60W/CVE-2024-4577)
 - [Junp0/CVE-2024-4577](https://github.com/Junp0/CVE-2024-4577)
 - [princew88/CVE-2024-4577](https://github.com/princew88/CVE-2024-4577)
 - [11whoami99/CVE-2024-4577](https://github.com/11whoami99/CVE-2024-4577)
@@ -8220,7 +8229,7 @@
 - [Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897)
 - [JAthulya/CVE-2024-23897](https://github.com/JAthulya/CVE-2024-23897)
 - [murataydemir/CVE-2024-23897](https://github.com/murataydemir/CVE-2024-23897)
-- [mil4ne/CVE-2024-23897-Jenkins-4.441](https://github.com/mil4ne/CVE-2024-23897-Jenkins-4.441)
+- [revkami/CVE-2024-23897-Jenkins-4.441](https://github.com/revkami/CVE-2024-23897-Jenkins-4.441)
 - [Maalfer/CVE-2024-23897](https://github.com/Maalfer/CVE-2024-23897)
 - [Surko888/Surko-Exploit-Jenkins-CVE-2024-23897](https://github.com/Surko888/Surko-Exploit-Jenkins-CVE-2024-23897)
 - [cc3305/CVE-2024-23897](https://github.com/cc3305/CVE-2024-23897)
@@ -16961,7 +16970,7 @@
 - [mariovata/CVE-2023-23752-Python](https://github.com/mariovata/CVE-2023-23752-Python)
 - [0xx01/CVE-2023-23752](https://github.com/0xx01/CVE-2023-23752)
 - [h3x0v3rl0rd/CVE-2023-23752](https://github.com/h3x0v3rl0rd/CVE-2023-23752)
-- [mil4ne/CVE-2023-23752-Joomla-v4.2.8](https://github.com/mil4ne/CVE-2023-23752-Joomla-v4.2.8)
+- [revkami/CVE-2023-23752-Joomla-v4.2.8](https://github.com/revkami/CVE-2023-23752-Joomla-v4.2.8)
 - [Aureum01/CVE-2023-23752](https://github.com/Aureum01/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
@@ -19214,6 +19223,7 @@
 - [Chinyemba-ck/MOVEit-CVE-2023-34362](https://github.com/Chinyemba-ck/MOVEit-CVE-2023-34362)
 - [glen-pearson/MoveIT-CVE-2023-34362-RCE](https://github.com/glen-pearson/MoveIT-CVE-2023-34362-RCE)
 - [aditibv/MOVEit-CVE-2023-34362](https://github.com/aditibv/MOVEit-CVE-2023-34362)
+- [Naveenbana5250/CVE-2023-34362-Defense-Package](https://github.com/Naveenbana5250/CVE-2023-34362-Defense-Package)
 
 ### CVE-2023-34458 (2023-07-13)
 
