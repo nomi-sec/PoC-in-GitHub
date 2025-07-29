@@ -2460,7 +2460,7 @@
 - [kOaDT/poc-cve-2025-29927](https://github.com/kOaDT/poc-cve-2025-29927)
 - [yugo-eliatrope/test-cve-2025-29927](https://github.com/yugo-eliatrope/test-cve-2025-29927)
 - [emadshanab/CVE-2025-29927](https://github.com/emadshanab/CVE-2025-29927)
-- [bitdotioinc/CVE-2025-29927](https://github.com/bitdotioinc/CVE-2025-29927)
+- [newweshi/CVE-2025-29927](https://github.com/newweshi/CVE-2025-29927)
 - [aleongx/CVE-2025-29927](https://github.com/aleongx/CVE-2025-29927)
 - [nicknisi/next-attack](https://github.com/nicknisi/next-attack)
 - [jmbowes/NextSecureScan](https://github.com/jmbowes/NextSecureScan)
@@ -2520,6 +2520,7 @@
 - [mickhacking/Thank-u-Next](https://github.com/mickhacking/Thank-u-Next)
 - [Kamal-Hegazi/CVE-2025-29927-Next.js-Middleware-Authorization-Bypass](https://github.com/Kamal-Hegazi/CVE-2025-29927-Next.js-Middleware-Authorization-Bypass)
 - [sahbaazansari/CVE-2025-29927](https://github.com/sahbaazansari/CVE-2025-29927)
+- [b4sh0xf/PoC-CVE-2025-29927](https://github.com/b4sh0xf/PoC-CVE-2025-29927)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -3245,10 +3246,18 @@
 
 - [harish0x/CVE-2025-44108-SXSS](https://github.com/harish0x/CVE-2025-44108-SXSS)
 
-### CVE-2025-44136
+### CVE-2025-44136 (2025-07-29)
+
+<code>MapTiler Tileserver-php v2.0 is vulnerable to Cross Site Scripting (XSS). The GET parameter &quot;layer&quot; is reflected in an error message without html encoding. This leads to XSS and allows an unauthenticated attacker to execute arbitrary HTML or JavaScript code on a victim's browser.
+</code>
+
 - [mheranco/CVE-2025-44136](https://github.com/mheranco/CVE-2025-44136)
 
-### CVE-2025-44137
+### CVE-2025-44137 (2025-07-29)
+
+<code>MapTiler Tileserver-php v2.0 is vulnerable to Directory Traversal. The renderTile function within tileserver.php is responsible for delivering tiles that are stored as files on the server via web request. Creating the path to a file allows the insertion of &quot;../&quot; and thus read any file on the web server. Affected GET parameters are &quot;TileMatrix&quot;, &quot;TileRow&quot;, &quot;TileCol&quot; and &quot;Format&quot;
+</code>
+
 - [mheranco/CVE-2025-44137](https://github.com/mheranco/CVE-2025-44137)
 
 ### CVE-2025-44148 (2025-06-03)
@@ -3935,11 +3944,18 @@
 
 - [Secsys-FDU/CVE-2025-51869](https://github.com/Secsys-FDU/CVE-2025-51869)
 
-### CVE-2025-51970
+### CVE-2025-51970 (2025-07-29)
+
+<code>A SQL Injection vulnerability exists in the action.php endpoint of PuneethReddyHC Online Shopping System Advanced 1.0 due to improper sanitization of user-supplied input in the keyword POST parameter.
+</code>
+
 - [M4xIq/CVE-2025-51970](https://github.com/M4xIq/CVE-2025-51970)
 
 ### CVE-2025-52097
 - [rwilsonecs/CVE-2025-52097](https://github.com/rwilsonecs/CVE-2025-52097)
+
+### CVE-2025-52289
+- [Madhav-Bhardwaj/CVE-2025-52289](https://github.com/Madhav-Bhardwaj/CVE-2025-52289)
 
 ### CVE-2025-52357 (2025-07-09)
 
@@ -4040,6 +4056,7 @@
 - [r3xbugbounty/CVE-2025-53770](https://github.com/r3xbugbounty/CVE-2025-53770)
 - [daryllundy/CVE-2025-53770](https://github.com/daryllundy/CVE-2025-53770)
 - [0x-crypt/CVE-2025-53770-Scanner](https://github.com/0x-crypt/CVE-2025-53770-Scanner)
+- [Immersive-Labs-Sec/SharePoint-CVE-2025-53770-POC](https://github.com/Immersive-Labs-Sec/SharePoint-CVE-2025-53770-POC)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -12136,7 +12153,7 @@
 <code>In Nintendo Mario Kart 8 Deluxe before 3.0.3, the LAN/LDN local multiplayer implementation allows a remote attacker to exploit a stack-based buffer overflow upon deserialization of session information via a malformed browse-reply packet, aka KartLANPwn. The victim is not required to join a game session with an attacker. The victim must open the &quot;Wireless Play&quot; (or &quot;LAN Play&quot;) menu from the game's title screen, and an attacker nearby (LDN) or on the same LAN network as the victim can send a crafted reply packet to the victim's console. This enables a remote attacker to obtain complete denial-of-service on the game's process, or potentially, remote code execution on the victim's console. The issue is caused by incorrect use of the Nintendo Pia library,
 </code>
 
-- [latte-soft/kartlanpwn](https://github.com/latte-soft/kartlanpwn)
+- [regginator/kartlanpwn](https://github.com/regginator/kartlanpwn)
 
 ### CVE-2024-45216 (2024-10-16)
 
@@ -13200,7 +13217,6 @@
 </code>
 
 - [refr4g/CVE-2024-51378](https://github.com/refr4g/CVE-2024-51378)
-- [i0x29A/CVE-2024-51378](https://github.com/i0x29A/CVE-2024-51378)
 - [qnole000/CVE-2024-51378](https://github.com/qnole000/CVE-2024-51378)
 
 ### CVE-2024-51430 (2024-10-31)
@@ -31364,7 +31380,6 @@
 - [codiobert/pwnkit-scanner](https://github.com/codiobert/pwnkit-scanner)
 - [v-rzh/CVE-2021-4034](https://github.com/v-rzh/CVE-2021-4034)
 - [OXDBXKXO/ez-pwnkit](https://github.com/OXDBXKXO/ez-pwnkit)
-- [Almorabea/pkexec-exploit](https://github.com/Almorabea/pkexec-exploit)
 - [teelrabbit/Polkit-pkexec-exploit-for-Linux](https://github.com/teelrabbit/Polkit-pkexec-exploit-for-Linux)
 - [scent2d/PoC-CVE-2021-4034](https://github.com/scent2d/PoC-CVE-2021-4034)
 - [HrishitJoshi/CVE-2021-4034](https://github.com/HrishitJoshi/CVE-2021-4034)
@@ -35969,6 +35984,7 @@
 
 - [lowkey0808/CVE-2021-43857](https://github.com/lowkey0808/CVE-2021-43857)
 - [G4sp4rCS/CVE-2021-43857-POC](https://github.com/G4sp4rCS/CVE-2021-43857-POC)
+- [ProwlSec/gerapy-cve-2021-43857](https://github.com/ProwlSec/gerapy-cve-2021-43857)
 
 ### CVE-2021-43858 (2021-12-27)
 
@@ -56451,7 +56467,7 @@
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 - [0xl0k1/CVE-2012-1823](https://github.com/0xl0k1/CVE-2012-1823)
 - [Jimmy01240397/CVE-2012-1823-Analyze](https://github.com/Jimmy01240397/CVE-2012-1823-Analyze)
-- [JasonHobs/CVE-2012-1823-exploit-for-https-user-password-web](https://github.com/JasonHobs/CVE-2012-1823-exploit-for-https-user-password-web)
+- [AurelSugarek/CVE-2012-1823-exploit-for-https-user-password-web](https://github.com/AurelSugarek/CVE-2012-1823-exploit-for-https-user-password-web)
 
 ### CVE-2012-1831 (2012-07-05)
 
@@ -58023,6 +58039,13 @@
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
+
+### CVE-2001-1473 (2005-04-21)
+
+<code>The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target.
+</code>
+
+- [alexandermoro/cve-2001-1473](https://github.com/alexandermoro/cve-2001-1473)
 
 ### CVE-2001-3389
 - [becrevex/Gaston](https://github.com/becrevex/Gaston)
