@@ -412,6 +412,13 @@
 - [ghostsec420/ShatteredFTP](https://github.com/ghostsec420/ShatteredFTP)
 - [Shivshantp/CVE-2025-2825-CrushFTP-AuthBypass](https://github.com/Shivshantp/CVE-2025-2825-CrushFTP-AuthBypass)
 
+### CVE-2025-2828 (2025-06-23)
+
+<code>A Server-Side Request Forgery (SSRF) vulnerability exists in the RequestsToolkit component of the langchain-community package (specifically, langchain_community.agent_toolkits.openapi.toolkit.RequestsToolkit) in langchain-ai/langchain version 0.0.27. This vulnerability occurs because the toolkit does not enforce restrictions on requests to remote internet addresses, allowing it to also access local addresses. As a result, an attacker could exploit this flaw to perform port scans, access local services, retrieve instance metadata from cloud environments (e.g., Azure, AWS), and interact with servers on the local network. This issue has been fixed in version 0.0.28.
+</code>
+
+- [B1ack4sh/Blackash-CVE-2025-2828](https://github.com/B1ack4sh/Blackash-CVE-2025-2828)
+
 ### CVE-2025-2907 (2025-04-26)
 
 <code>The Order Delivery Date WordPress plugin before 12.3.1 does not have authorization and CSRF checks when importing settings. Furthermore it also lacks proper checks to only update options relevant to the Order Delivery Date WordPress plugin before 12.3.1. This leads to attackers being able to modify the default_user_role to administrator and users_can_register, allowing them to register as an administrator of the site for complete site takeover.
@@ -2982,6 +2989,7 @@
 - [daryllundy/CVE-2025-32463](https://github.com/daryllundy/CVE-2025-32463)
 - [AdityaBhatt3010/Sudo-Privilege-Escalation-Linux-CVE-2025-32463-and-CVE-2025-32462](https://github.com/AdityaBhatt3010/Sudo-Privilege-Escalation-Linux-CVE-2025-32463-and-CVE-2025-32462)
 - [ChetanKomal/sudo_exploit](https://github.com/ChetanKomal/sudo_exploit)
+- [KaiHT-Ladiant/CVE-2025-32463](https://github.com/KaiHT-Ladiant/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3493,6 +3501,7 @@
 </code>
 
 - [synacktiv/CVE-2025-47227_CVE-2025-47228](https://github.com/synacktiv/CVE-2025-47227_CVE-2025-47228)
+- [B1ack4sh/Blackash-CVE-2025-47227](https://github.com/B1ack4sh/Blackash-CVE-2025-47227)
 
 ### CVE-2025-47256 (2025-05-06)
 
@@ -4060,6 +4069,13 @@
 
 - [nihilor/cve-2025-54313](https://github.com/nihilor/cve-2025-54313)
 - [ShinP451/scavenger_scanner](https://github.com/ShinP451/scavenger_scanner)
+
+### CVE-2025-54352 (2025-07-21)
+
+<code>WordPress 3.5 through 6.8.2 allows remote attackers to guess titles of private and draft posts via pingback.ping XML-RPC requests. NOTE: the Supplier is not changing this behavior.
+</code>
+
+- [yohannslm/CVE-2025-54352](https://github.com/yohannslm/CVE-2025-54352)
 
 ### CVE-2025-54554
 - [Aman-Parmar/CVE-2025-54554](https://github.com/Aman-Parmar/CVE-2025-54554)
@@ -25036,7 +25052,7 @@
 - [talentsec/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/talentsec/Spring-Cloud-Gateway-CVE-2022-22947)
 - [aesm1p/CVE-2022-22947-POC-Reproduce](https://github.com/aesm1p/CVE-2022-22947-POC-Reproduce)
 - [4nNns/CVE-2022-22947](https://github.com/4nNns/CVE-2022-22947)
-- [expzhizhuo/Burp_VulPscan](https://github.com/expzhizhuo/Burp_VulPscan)
+- [kkx600/Burp_VulPscan](https://github.com/kkx600/Burp_VulPscan)
 - [twseptian/cve-2022-22947](https://github.com/twseptian/cve-2022-22947)
 - [whwlsfb/cve-2022-22947-godzilla-memshell](https://github.com/whwlsfb/cve-2022-22947-godzilla-memshell)
 - [0730Nophone/CVE-2022-22947-](https://github.com/0730Nophone/CVE-2022-22947-)
