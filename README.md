@@ -880,6 +880,7 @@
 - [B1ack4sh/Blackash-CVE-2025-5777](https://github.com/B1ack4sh/Blackash-CVE-2025-5777)
 - [Shivshantp/CVE-2025-5777-TrendMicro-ApexCentral-RCE](https://github.com/Shivshantp/CVE-2025-5777-TrendMicro-ApexCentral-RCE)
 - [rob0tstxt/POC-CVE-2025-5777](https://github.com/rob0tstxt/POC-CVE-2025-5777)
+- [below0day/Honeypot-Logs-CVE-2025-5777](https://github.com/below0day/Honeypot-Logs-CVE-2025-5777)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -1664,7 +1665,6 @@
 - [B1gN0Se/Tomcat-CVE-2025-24813](https://github.com/B1gN0Se/Tomcat-CVE-2025-24813)
 - [AsaL1n/CVE-2025-24813](https://github.com/AsaL1n/CVE-2025-24813)
 - [MuhammadWaseem29/CVE-2025-24813](https://github.com/MuhammadWaseem29/CVE-2025-24813)
-- [uzairhaider502/CVE-2025-24813](https://github.com/uzairhaider502/CVE-2025-24813)
 - [La3B0z/CVE-2025-24813-POC](https://github.com/La3B0z/CVE-2025-24813-POC)
 - [Heimd411/CVE-2025-24813-noPoC](https://github.com/Heimd411/CVE-2025-24813-noPoC)
 - [horsehacks/CVE-2025-24813-checker](https://github.com/horsehacks/CVE-2025-24813-checker)
@@ -3335,10 +3335,18 @@
 ### CVE-2025-45512
 - [AzhariRamadhan/CVE-2025-45512](https://github.com/AzhariRamadhan/CVE-2025-45512)
 
-### CVE-2025-45619
+### CVE-2025-45619 (2025-07-30)
+
+<code>An issue in Aver PTC310UV2 firmware v.0.1.0000.59 allows a remote attacker to execute arbitrary code via the SendAction function
+</code>
+
 - [weedl/CVE-2025-45619](https://github.com/weedl/CVE-2025-45619)
 
-### CVE-2025-45620
+### CVE-2025-45620 (2025-07-30)
+
+<code>An issue in Aver PTC310UV2 v.0.1.0000.59 allows a remote attacker to obtain sensitive information via a crafted request
+</code>
+
 - [weedl/CVE-2025-45620](https://github.com/weedl/CVE-2025-45620)
 
 ### CVE-2025-45710
@@ -3640,7 +3648,6 @@
 - [Anezatraa/CVE-2025-48384-submodule](https://github.com/Anezatraa/CVE-2025-48384-submodule)
 - [IK-20211125/CVE-2025-48384](https://github.com/IK-20211125/CVE-2025-48384)
 - [elprogramadorgt/CVE-2025-48384](https://github.com/elprogramadorgt/CVE-2025-48384)
-- [rtefx/CVE-2025-48384](https://github.com/rtefx/CVE-2025-48384)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -4121,6 +4128,13 @@
 
 ### CVE-2025-54554
 - [Aman-Parmar/CVE-2025-54554](https://github.com/Aman-Parmar/CVE-2025-54554)
+
+### CVE-2025-54769 (2025-07-28)
+
+<code>An authenticated, read-only user can upload a file and perform a directory traversal to have the uploaded file placed in a location of their choosing.  This can be used to overwrite existing PERL modules within the application to achieve remote code execution (RCE) by an attacker.
+</code>
+
+- [byteReaper77/CVE-2025-54769](https://github.com/byteReaper77/CVE-2025-54769)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
