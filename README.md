@@ -3800,6 +3800,9 @@
 ### CVE-2025-50365
 - [1h3ll/CVE-2025-50365_CSRF_DELETE_CATEGORY-phpgurukul-CVE](https://github.com/1h3ll/CVE-2025-50365_CSRF_DELETE_CATEGORY-phpgurukul-CVE)
 
+### CVE-2025-50472
+- [xhjy2020/CVE-2025-50472](https://github.com/xhjy2020/CVE-2025-50472)
+
 ### CVE-2025-50481 (2025-07-23)
 
 <code>A cross-site scripting (XSS) vulnerability in the component /blog/blogpost/add of Mezzanine CMS v6.1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into a blog post.
@@ -46838,6 +46841,13 @@
 </code>
 
 - [UDPsycho/Moodle-CVE-2018-1042](https://github.com/UDPsycho/Moodle-CVE-2018-1042)
+
+### CVE-2018-1049 (2018-02-16)
+
+<code>In systemd prior to 234 a race condition exists between .mount and .automount units such that automount requests from kernel may not be serviced by systemd resulting in kernel holding the mountpoint and any processes that try to use said mount will hang. A race condition like this may lead to denial of service, until mount points are unmounted.
+</code>
+
+- [lukehebe/CVE-2018-1049](https://github.com/lukehebe/CVE-2018-1049)
 
 ### CVE-2018-1088 (2018-04-18)
 
