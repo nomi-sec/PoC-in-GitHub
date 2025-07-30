@@ -1557,7 +1557,7 @@
 </code>
 
 - [jailbreakdotparty/dirtyZero](https://github.com/jailbreakdotparty/dirtyZero)
-- [BlueDiamond2021/iOS-CVE-2025-24203-Paths](https://github.com/BlueDiamond2021/iOS-CVE-2025-24203-Paths)
+- [aokumo21/iOS-CVE-2025-24203-Paths](https://github.com/aokumo21/iOS-CVE-2025-24203-Paths)
 - [GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging](https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging)
 - [pxx917144686/iDevice_ZH](https://github.com/pxx917144686/iDevice_ZH)
 
@@ -4093,6 +4093,13 @@
 </code>
 
 - [yohannslm/CVE-2025-54352](https://github.com/yohannslm/CVE-2025-54352)
+
+### CVE-2025-54381 (2025-07-29)
+
+<code>BentoML is a Python library for building online serving systems optimized for AI apps and model inference. In versions 1.4.0 until 1.4.19, the file upload processing system contains an SSRF vulnerability that allows unauthenticated remote attackers to force the server to make arbitrary HTTP requests. The vulnerability stems from the multipart form data and JSON request handlers, which automatically download files from user-provided URLs without validating whether those URLs point to internal network addresses, cloud metadata endpoints, or other restricted resources. The documentation explicitly promotes this URL-based file upload feature, making it an intended design that exposes all deployed services to SSRF attacks by default. Version 1.4.19 contains a patch for the issue.
+</code>
+
+- [rockmelodies/bentoml_CVE-2025-54381](https://github.com/rockmelodies/bentoml_CVE-2025-54381)
 
 ### CVE-2025-54554
 - [Aman-Parmar/CVE-2025-54554](https://github.com/Aman-Parmar/CVE-2025-54554)
@@ -11821,7 +11828,11 @@
 ### CVE-2024-42992
 - [thanhh23/CVE-2024-42992](https://github.com/thanhh23/CVE-2024-42992)
 
-### CVE-2024-43018
+### CVE-2024-43018 (2025-07-29)
+
+<code>Piwigo 13.8.0 and below is vulnerable to SQL Injection in the parameters max_level and min_register. These parameters are used in ws_user_gerList function from file include\ws_functions\pwg.users.php and this same function is called by ws.php file at some point can be used for searching users in advanced way in /admin.php?page=user_list.
+</code>
+
 - [joaosilva21/CVE-2024-43018](https://github.com/joaosilva21/CVE-2024-43018)
 
 ### CVE-2024-43035
@@ -25791,7 +25802,7 @@
 <code>regex is an implementation of regular expressions for the Rust language. The regex crate features built-in mitigations to prevent denial of service attacks caused by untrusted regexes, or untrusted input matched by trusted regexes. Those (tunable) mitigations already provide sane defaults to prevent attacks. This guarantee is documented and it's considered part of the crate's API. Unfortunately a bug was discovered in the mitigations designed to prevent untrusted regexes to take an arbitrary amount of time during parsing, and it's possible to craft regexes that bypass such mitigations. This makes it possible to perform denial of service attacks by sending specially crafted regexes to services accepting user-controlled, untrusted regexes. All versions of the regex crate before or equal to 1.5.4 are affected by this issue. The fix is include starting from regex 1.5.5. All users accepting user-controlled regexes are recommended to upgrade immediately to the latest version of the regex crate. Unfortunately there is no fixed set of problematic regexes, as there are practically infinite regexes that could be crafted to exploit this vulnerability. Because of this, it us not recommend to deny known problematic regexes.
 </code>
 
-- [ItzSwirlz/CVE-2022-24713-POC](https://github.com/ItzSwirlz/CVE-2022-24713-POC)
+- [JPeisach/CVE-2022-24713-POC](https://github.com/JPeisach/CVE-2022-24713-POC)
 
 ### CVE-2022-24715 (2022-03-08)
 
@@ -30714,6 +30725,7 @@
 - [0xSs0rZ/Windows_Exploit](https://github.com/0xSs0rZ/Windows_Exploit)
 - [Sp4ceDogy/NPE-CS-V-CVE-2021-1675](https://github.com/Sp4ceDogy/NPE-CS-V-CVE-2021-1675)
 - [CameraShutterBug/PrintNightmare](https://github.com/CameraShutterBug/PrintNightmare)
+- [DLL00P/CVE-2021-1675](https://github.com/DLL00P/CVE-2021-1675)
 
 ### CVE-2021-1678 (2021-01-12)
 
@@ -31378,7 +31390,6 @@
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [glowbase/PwnKit-CVE-2021-4034](https://github.com/glowbase/PwnKit-CVE-2021-4034)
 - [codiobert/pwnkit-scanner](https://github.com/codiobert/pwnkit-scanner)
-- [v-rzh/CVE-2021-4034](https://github.com/v-rzh/CVE-2021-4034)
 - [OXDBXKXO/ez-pwnkit](https://github.com/OXDBXKXO/ez-pwnkit)
 - [teelrabbit/Polkit-pkexec-exploit-for-Linux](https://github.com/teelrabbit/Polkit-pkexec-exploit-for-Linux)
 - [scent2d/PoC-CVE-2021-4034](https://github.com/scent2d/PoC-CVE-2021-4034)
@@ -56467,7 +56478,7 @@
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 - [0xl0k1/CVE-2012-1823](https://github.com/0xl0k1/CVE-2012-1823)
 - [Jimmy01240397/CVE-2012-1823-Analyze](https://github.com/Jimmy01240397/CVE-2012-1823-Analyze)
-- [AurelSugarek/CVE-2012-1823-exploit-for-https-user-password-web](https://github.com/AurelSugarek/CVE-2012-1823-exploit-for-https-user-password-web)
+- [Dmitri131313/CVE-2012-1823-exploit-for-https-user-password-web](https://github.com/Dmitri131313/CVE-2012-1823-exploit-for-https-user-password-web)
 
 ### CVE-2012-1831 (2012-07-05)
 
