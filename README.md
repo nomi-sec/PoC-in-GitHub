@@ -595,7 +595,7 @@
 
 ### CVE-2025-4275 (2025-06-11)
 
-<code>Running the provided utility changes the certificate on any Insyde BIOS and then the attached .efi file can be launched.
+<code>A vulnerability in the digital signature verification process does not properly validate variable attributes which allows an attacker to bypass signature verification by creating a non-authenticated NVRAM variable. An attacker may to execute arbitrary signed UEFI code and bypass Secure Boot.
 </code>
 
 - [NikolajSchlej/Hydroph0bia](https://github.com/NikolajSchlej/Hydroph0bia)
@@ -1176,6 +1176,13 @@
 - [grupooruss/CVE-2025-20281-Cisco](https://github.com/grupooruss/CVE-2025-20281-Cisco)
 - [ill-deed/Cisco-CVE-2025-20281-illdeed](https://github.com/ill-deed/Cisco-CVE-2025-20281-illdeed)
 - [B1ack4sh/Blackash-CVE-2025-20281](https://github.com/B1ack4sh/Blackash-CVE-2025-20281)
+
+### CVE-2025-20337 (2025-07-16)
+
+<code>A vulnerability in a specific API of Cisco ISE and Cisco ISE-PIC could allow an unauthenticated, remote attacker to execute arbitrary code on the underlying operating system as root. The attacker does not require any valid credentials to exploit this vulnerability.\r\n\r\nThis vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by submitting a crafted API request. A successful exploit could allow the attacker to obtain root privileges on an affected device.
+</code>
+
+- [barbaraeivyu/CVE-2025-20337-EXP](https://github.com/barbaraeivyu/CVE-2025-20337-EXP)
 
 ### CVE-2025-21204 (2025-04-08)
 
@@ -2419,6 +2426,7 @@
 </code>
 
 - [encrypter15/CVE-2025-29824](https://github.com/encrypter15/CVE-2025-29824)
+- [AfanPan/CVE-2025-29824-Exploit](https://github.com/AfanPan/CVE-2025-29824-Exploit)
 
 ### CVE-2025-29927 (2025-03-21)
 
@@ -2991,6 +2999,7 @@
 - [AdityaBhatt3010/Sudo-Privilege-Escalation-Linux-CVE-2025-32463-and-CVE-2025-32462](https://github.com/AdityaBhatt3010/Sudo-Privilege-Escalation-Linux-CVE-2025-32463-and-CVE-2025-32462)
 - [ChetanKomal/sudo_exploit](https://github.com/ChetanKomal/sudo_exploit)
 - [KaiHT-Ladiant/CVE-2025-32463](https://github.com/KaiHT-Ladiant/CVE-2025-32463)
+- [y4ney/CVE-2025-32463-lab](https://github.com/y4ney/CVE-2025-32463-lab)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3173,6 +3182,9 @@
 </code>
 
 - [hacefresko/CVE-2025-40634](https://github.com/hacefresko/CVE-2025-40634)
+
+### CVE-2025-40766
+- [FurkanKAYAPINAR/ecs_checker](https://github.com/FurkanKAYAPINAR/ecs_checker)
 
 ### CVE-2025-40775 (2025-05-21)
 
@@ -3799,6 +3811,9 @@
 
 ### CVE-2025-50365
 - [1h3ll/CVE-2025-50365_CSRF_DELETE_CATEGORY-phpgurukul-CVE](https://github.com/1h3ll/CVE-2025-50365_CSRF_DELETE_CATEGORY-phpgurukul-CVE)
+
+### CVE-2025-50460
+- [Anchor0221/CVE-2025-50460](https://github.com/Anchor0221/CVE-2025-50460)
 
 ### CVE-2025-50472
 - [xhjy2020/CVE-2025-50472](https://github.com/xhjy2020/CVE-2025-50472)
@@ -8800,7 +8815,6 @@
 - [ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM](https://github.com/ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM)
 - [DedsecTeam-BlackHat/Poleposph](https://github.com/DedsecTeam-BlackHat/Poleposph)
 - [r0otk3r/CVE-2024-25600](https://github.com/r0otk3r/CVE-2024-25600)
-- [frankfm-labs/bricks-rce-writeup](https://github.com/frankfm-labs/bricks-rce-writeup)
 
 ### CVE-2024-25641 (2024-05-13)
 
@@ -14856,6 +14870,13 @@
 - [Any3ite/CVE-2023-2523](https://github.com/Any3ite/CVE-2023-2523)
 - [werwolfz/cve-2023-2523-and-cve-2023-2648](https://github.com/werwolfz/cve-2023-2523-and-cve-2023-2648)
 
+### CVE-2023-2533 (2023-06-20)
+
+<code>A Cross-Site Request Forgery (CSRF) vulnerability has been identified in\nPaperCut NG/MF, which, under specific conditions, could potentially enable\nan attacker to alter security settings or execute arbitrary code. This could\nbe exploited if the target is an admin with a current login session. Exploiting\nthis would typically involve the possibility of deceiving an admin into clicking\na specially crafted malicious link, potentially leading to unauthorized changes.\n
+</code>
+
+- [allinsthon/CVE-2023-2533](https://github.com/allinsthon/CVE-2023-2533)
+
 ### CVE-2023-2579 (2023-07-17)
 
 <code>The InventoryPress WordPress plugin through 1.7 does not sanitise and escape some of its settings, which could allow users with the role of author and above to perform Stored Cross-Site Scripting attacks.
@@ -15210,7 +15231,6 @@
 </code>
 
 - [jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824)
-- [fr33c0d3/poc-cve-2023-3824](https://github.com/fr33c0d3/poc-cve-2023-3824)
 - [bluefish3r/poc-cve](https://github.com/bluefish3r/poc-cve)
 
 ### CVE-2023-3836 (2023-07-22)
@@ -16810,6 +16830,7 @@
 - [AntiVlad/CVE-2023-22809](https://github.com/AntiVlad/CVE-2023-22809)
 - [laxmiyamkolu/SUDO-privilege-escalation](https://github.com/laxmiyamkolu/SUDO-privilege-escalation)
 - [D0rDa4aN919/CVE-2023-22809-Exploiter](https://github.com/D0rDa4aN919/CVE-2023-22809-Exploiter)
+- [spidoman/CVE-2023-22809-automated-python-exploits](https://github.com/spidoman/CVE-2023-22809-automated-python-exploits)
 
 ### CVE-2023-22855 (2023-02-15)
 
@@ -39454,6 +39475,13 @@
 
 - [zhzyker/CVE-2020-10204](https://github.com/zhzyker/CVE-2020-10204)
 
+### CVE-2020-10220 (2020-03-07)
+
+<code>An issue was discovered in rConfig through 3.9.4. The web interface is prone to a SQL injection via the commands.inc.php searchColumn parameter.
+</code>
+
+- [CSpanias/rConfig_rce](https://github.com/CSpanias/rConfig_rce)
+
 ### CVE-2020-10238 (2020-03-16)
 
 <code>An issue was discovered in Joomla! before 3.9.16. Various actions in com_templates lack the required ACL checks, leading to various potential attack vectors.
@@ -50906,6 +50934,7 @@
 - [toothbrushsoapflannelbiscuits/cve-2017-5638](https://github.com/toothbrushsoapflannelbiscuits/cve-2017-5638)
 - [haxerr9/CVE-2017-5638](https://github.com/haxerr9/CVE-2017-5638)
 - [QHxDr-dz/CVE-2017-5638](https://github.com/QHxDr-dz/CVE-2017-5638)
+- [joidiego/Detection-struts-cve-2017-5638-detector](https://github.com/joidiego/Detection-struts-cve-2017-5638-detector)
 
 ### CVE-2017-5645 (2017-04-17)
 
