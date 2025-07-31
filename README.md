@@ -157,7 +157,7 @@
 <code>In PHP from 8.1.* before 8.1.32, from 8.2.* before 8.2.28, from 8.3.* before 8.3.19, from 8.4.* before 8.4.5, when requesting a HTTP resource using the DOM or SimpleXML extensions, the wrong content-type header is used to determine the charset when the requested resource performs a redirect. This may cause the resulting document to be parsed incorrectly or bypass validations.
 </code>
 
-- [ediop3SquadALT/ediop3PHP](https://github.com/ediop3SquadALT/ediop3PHP)
+- [BreadSquad/ediop3PHP](https://github.com/BreadSquad/ediop3PHP)
 
 ### CVE-2025-1302 (2025-02-15)
 
@@ -919,6 +919,7 @@
 - [iamgithubber/CVE-2025-6018-19-exploit](https://github.com/iamgithubber/CVE-2025-6018-19-exploit)
 - [dreysanox/CVE-2025-6018_Poc](https://github.com/dreysanox/CVE-2025-6018_Poc)
 - [ibrahmsql/CVE-2025-6018](https://github.com/ibrahmsql/CVE-2025-6018)
+- [B1ack4sh/Blackash-CVE-2025-6018](https://github.com/B1ack4sh/Blackash-CVE-2025-6018)
 
 ### CVE-2025-6019 (2025-06-19)
 
@@ -2155,6 +2156,13 @@
 
 - [TrustStackSecurity/CVE-2025-27580](https://github.com/TrustStackSecurity/CVE-2025-27580)
 
+### CVE-2025-27581 (2025-04-23)
+
+<code>NIH BRICS (aka Biomedical Research Informatics Computing System) through 14.0.0-67 allows users who lack the InET role to access the InET module via direct requests to known endpoints.
+</code>
+
+- [Henryisnotavailable/CVE-2025-27581](https://github.com/Henryisnotavailable/CVE-2025-27581)
+
 ### CVE-2025-27590 (2025-03-03)
 
 <code>In oxidized-web (aka Oxidized Web) before 0.15.0, the RANCID migration page allows an unauthenticated user to gain control over the Linux user account that is running oxidized-web.
@@ -2357,6 +2365,12 @@
 </code>
 
 - [Yoshik0xF6/CVE-2025-29529](https://github.com/Yoshik0xF6/CVE-2025-29529)
+
+### CVE-2025-29556
+- [0xsu3ks/CVE-2025-29556](https://github.com/0xsu3ks/CVE-2025-29556)
+
+### CVE-2025-29557
+- [0xsu3ks/CVE-2025-29557](https://github.com/0xsu3ks/CVE-2025-29557)
 
 ### CVE-2025-29602 (2025-05-07)
 
@@ -3315,6 +3329,13 @@
 - [xp3s/CVE-2025-45250](https://github.com/xp3s/CVE-2025-45250)
 - [Anike-x/CVE-2025-45250](https://github.com/Anike-x/CVE-2025-45250)
 
+### CVE-2025-45346 (2025-07-29)
+
+<code>SQL Injection vulnerability in Bacula-web before v.9.7.1 allows a remote attacker to execute arbitrary code via a crafted HTTP GET request.
+</code>
+
+- [0xsu3ks/CVE-2025-45346](https://github.com/0xsu3ks/CVE-2025-45346)
+
 ### CVE-2025-45407
 - [yallasec/CVE-2025-45407](https://github.com/yallasec/CVE-2025-45407)
 
@@ -3835,7 +3856,11 @@
 ### CVE-2025-50716
 - [MooseLoveti/realestate-php-cve-report](https://github.com/MooseLoveti/realestate-php-cve-report)
 
-### CVE-2025-50777
+### CVE-2025-50777 (2025-07-30)
+
+<code>The firmware of the AZIOT 2MP Full HD Smart Wi-Fi CCTV Home Security Camera (version V1.00.02) contains an Incorrect Access Control vulnerability that allows local attackers to gain root shell access. Once accessed, the device exposes critical data including Wi-Fi credentials and ONVIF service credentials stored in plaintext, enabling further compromise of the network and connected systems.
+</code>
+
 - [veereshgadige/aziot-cctv-cve-2025-50777](https://github.com/veereshgadige/aziot-cctv-cve-2025-50777)
 
 ### CVE-2025-50866
@@ -10335,6 +10360,12 @@
 
 - [vincentscode/CVE-2024-34313](https://github.com/vincentscode/CVE-2024-34313)
 
+### CVE-2024-34327
+- [0xsu3ks/CVE-2024-34327](https://github.com/0xsu3ks/CVE-2024-34327)
+
+### CVE-2024-34328
+- [0xsu3ks/CVE-2024-34328](https://github.com/0xsu3ks/CVE-2024-34328)
+
 ### CVE-2024-34329 (2024-07-22)
 
 <code>Insecure permissions in Entrust Datacard XPS Card Printer Driver 8.5 and earlier without the dxp1-patch-E24-004 patch allows unauthenticated attackers to execute arbitrary code as SYSTEM via a crafted DLL payload.
@@ -16715,6 +16746,13 @@
 </code>
 
 - [smash8tap/CVE-2023-22490_PoC](https://github.com/smash8tap/CVE-2023-22490_PoC)
+
+### CVE-2023-22493 (2023-01-13)
+
+<code>RSSHub is an open source RSS feed generator. RSSHub is vulnerable to Server-Side Request Forgery (SSRF) attacks. This vulnerability allows an attacker to send arbitrary HTTP requests from the server to other servers or resources on the network. An attacker can exploit this vulnerability by sending a request to the affected routes with a malicious URL. An attacker could also use this vulnerability to send requests to internal or any other servers or resources on the network, potentially gain access to sensitive information that would not normally be accessible and amplifying the impact of the attack. The patch for this issue can be found in commit a66cbcf. 
+</code>
+
+- [buitanhung144/SSRF-CVE-2023-22493](https://github.com/buitanhung144/SSRF-CVE-2023-22493)
 
 ### CVE-2023-22515 (2023-10-04)
 
@@ -35380,7 +35418,7 @@
 - [javaamo/CVE-2021-41773](https://github.com/javaamo/CVE-2021-41773)
 - [ashique-thaha/CVE-2021-41773-POC](https://github.com/ashique-thaha/CVE-2021-41773-POC)
 - [khaidtraivch/CVE-2021-41773-Apache-2.4.49-](https://github.com/khaidtraivch/CVE-2021-41773-Apache-2.4.49-)
-- [Ask-os/CVE-2021-41773](https://github.com/Ask-os/CVE-2021-41773)
+- [AzK-os-dev/CVE-2021-41773](https://github.com/AzK-os-dev/CVE-2021-41773)
 - [CyberQuestor-infosec/CVE-2021-41773-Apache_2.4.49-Path-traversal-to-RCE](https://github.com/CyberQuestor-infosec/CVE-2021-41773-Apache_2.4.49-Path-traversal-to-RCE)
 - [psibot/apache-vulnerable](https://github.com/psibot/apache-vulnerable)
 - [blu3ming/PoC-CVE-2021-41773](https://github.com/blu3ming/PoC-CVE-2021-41773)
@@ -49177,7 +49215,7 @@
 - [tin-z/CVE-2018-14714-POC](https://github.com/tin-z/CVE-2018-14714-POC)
 - [sunn1day/CVE-2018-14714-POC](https://github.com/sunn1day/CVE-2018-14714-POC)
 - [BTtea/CVE-2018-14714-RCE-exploit](https://github.com/BTtea/CVE-2018-14714-RCE-exploit)
-- [ediop3SquadALT/TimeInjector](https://github.com/ediop3SquadALT/TimeInjector)
+- [BreadSquad/TimeInjector](https://github.com/BreadSquad/TimeInjector)
 
 ### CVE-2018-14716 (2018-08-06)
 
