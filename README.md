@@ -2184,6 +2184,7 @@
 - [incommatose/CVE-2025-27591-PoC](https://github.com/incommatose/CVE-2025-27591-PoC)
 - [00xCanelo/CVE-2025-27591](https://github.com/00xCanelo/CVE-2025-27591)
 - [Thekin-ctrl/CVE-2025-27591-Below](https://github.com/Thekin-ctrl/CVE-2025-27591-Below)
+- [Cythonic1/CVE-2025-27591](https://github.com/Cythonic1/CVE-2025-27591)
 
 ### CVE-2025-27607 (2025-03-07)
 
@@ -3831,6 +3832,12 @@
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
 
+### CVE-2025-50340
+- [millad7/SOGo_web_mail-vulnerability-CVE-2025-50340](https://github.com/millad7/SOGo_web_mail-vulnerability-CVE-2025-50340)
+
+### CVE-2025-50341
+- [millad7/Axelor-vulnerability-CVE-2025-50341](https://github.com/millad7/Axelor-vulnerability-CVE-2025-50341)
+
 ### CVE-2025-50363
 - [1h3ll/CVE-2025-50363_BXSS_CVE](https://github.com/1h3ll/CVE-2025-50363_BXSS_CVE)
 
@@ -3855,6 +3862,9 @@
 
 ### CVE-2025-50716
 - [MooseLoveti/realestate-php-cve-report](https://github.com/MooseLoveti/realestate-php-cve-report)
+
+### CVE-2025-50754
+- [furk4nyildiz/CVE-2025-50754-PoC](https://github.com/furk4nyildiz/CVE-2025-50754-PoC)
 
 ### CVE-2025-50777 (2025-07-30)
 
@@ -3923,6 +3933,16 @@
 </code>
 
 - [tansique-17/CVE-2025-51411](https://github.com/tansique-17/CVE-2025-51411)
+
+### CVE-2025-51482 (2025-07-22)
+
+<code>Remote Code Execution in letta.server.rest_api.routers.v1.tools.run_tool_from_source in letta-ai Letta 0.7.12 allows remote attackers to execute arbitrary Python code and system commands via crafted payloads to the /v1/tools/run endpoint, bypassing intended sandbox restrictions.
+</code>
+
+- [Kai-One001/Letta-CVE-2025-51482-RCE](https://github.com/Kai-One001/Letta-CVE-2025-51482-RCE)
+
+### CVE-2025-51726
+- [meisterlos/CVE-2025-51726](https://github.com/meisterlos/CVE-2025-51726)
 
 ### CVE-2025-51858 (2025-07-22)
 
@@ -5092,6 +5112,7 @@
 
 - [truonghuuphuc/CVE-2024-3552-Poc](https://github.com/truonghuuphuc/CVE-2024-3552-Poc)
 - [KiPhuong/cve-2024-3552](https://github.com/KiPhuong/cve-2024-3552)
+- [KiPhuong/challenge-cve-2024-3552](https://github.com/KiPhuong/challenge-cve-2024-3552)
 
 ### CVE-2024-3568 (2024-04-10)
 
@@ -14484,6 +14505,7 @@
 </code>
 
 - [im-hanzou/EVCer](https://github.com/im-hanzou/EVCer)
+- [Sn20393873/Extensive](https://github.com/Sn20393873/Extensive)
 
 ### CVE-2023-0179 (2023-03-27)
 
@@ -17101,6 +17123,7 @@
 - [h3x0v3rl0rd/CVE-2023-23752](https://github.com/h3x0v3rl0rd/CVE-2023-23752)
 - [revkami/CVE-2023-23752-Joomla-v4.2.8](https://github.com/revkami/CVE-2023-23752-Joomla-v4.2.8)
 - [Aureum01/CVE-2023-23752](https://github.com/Aureum01/CVE-2023-23752)
+- [0xVoodoo/CVE-2023-23752](https://github.com/0xVoodoo/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
