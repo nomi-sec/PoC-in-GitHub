@@ -563,6 +563,7 @@
 </code>
 
 - [Stuub/CVE-2025-3969-Exploit](https://github.com/Stuub/CVE-2025-3969-Exploit)
+- [Alif145/CVE-2025-3969-Exploit](https://github.com/Alif145/CVE-2025-3969-Exploit)
 
 ### CVE-2025-4094 (2025-05-21)
 
@@ -2661,6 +2662,7 @@
 </code>
 
 - [W01fh4cker/CVE-2025-30406](https://github.com/W01fh4cker/CVE-2025-30406)
+- [mchklt/CVE-2025-30406](https://github.com/mchklt/CVE-2025-30406)
 
 ### CVE-2025-30567 (2025-03-25)
 
@@ -4205,6 +4207,13 @@
 
 ### CVE-2025-54554
 - [Aman-Parmar/CVE-2025-54554](https://github.com/Aman-Parmar/CVE-2025-54554)
+
+### CVE-2025-54589 (2025-07-31)
+
+<code>Copyparty is a portable file server. In versions 1.18.6 and below, when accessing the recent uploads page at `/?ru`, users can filter the results using an input field at the top. This field appends a filter parameter to the URL, which reflects its value directly into a `&lt;script&gt;` block without proper escaping, allowing for reflected Cross-Site Scripting (XSS) and can be exploited against both authenticated and unauthenticated users. This is fixed in version 1.18.7.
+</code>
+
+- [byteReaper77/CVE-2025-54589](https://github.com/byteReaper77/CVE-2025-54589)
 
 ### CVE-2025-54769 (2025-07-28)
 
@@ -14018,6 +14027,13 @@
 
 - [nikosecurity/CVE-2024-55511](https://github.com/nikosecurity/CVE-2024-55511)
 
+### CVE-2024-55555 (2025-01-07)
+
+<code>Invoice Ninja before 5.10.43 allows remote code execution from a pre-authenticated route when an attacker knows the APP_KEY. This is exacerbated by .env files, available from the product's repository, that have default APP_KEY values. The route/{hash} route defined in the invoiceninja/routes/client.php file can be accessed without authentication. The parameter {hash} is passed to the function decrypt that expects a Laravel ciphered value containing a serialized object. (Furthermore, Laravel contains several gadget chains usable to trigger remote command execution from arbitrary deserialization.) Therefore, an attacker in possession of the APP_KEY is able to fully control a string passed to an unserialize function.
+</code>
+
+- [Yucaerin/CVE-2024-55555](https://github.com/Yucaerin/CVE-2024-55555)
+
 ### CVE-2024-55557 (2024-12-16)
 
 <code>ui/pref/ProxyPrefView.java in weasis-core in Weasis 4.5.1 has a hardcoded key for symmetric encryption of proxy credentials.
@@ -22359,6 +22375,7 @@
 - [engranaabubakar/CVE-2023-46818](https://github.com/engranaabubakar/CVE-2023-46818)
 - [hunntr/CVE-2023-46818](https://github.com/hunntr/CVE-2023-46818)
 - [SyFi/CVE-2023-46818](https://github.com/SyFi/CVE-2023-46818)
+- [vulnerk0/CVE-2023-46818](https://github.com/vulnerk0/CVE-2023-46818)
 
 ### CVE-2023-46865 (2023-10-30)
 
@@ -23919,7 +23936,7 @@
 - [im-hanzou/fubucker](https://github.com/im-hanzou/fubucker)
 - [zycoder0day/CVE-2022-1386-Mass_Vulnerability](https://github.com/zycoder0day/CVE-2022-1386-Mass_Vulnerability)
 - [satyasai1460/CVE-2022-1386](https://github.com/satyasai1460/CVE-2022-1386)
-- [cur1y-dev/CVE-2022-1386](https://github.com/cur1y-dev/CVE-2022-1386)
+- [ptrgits/CVE-2022-1386](https://github.com/ptrgits/CVE-2022-1386)
 - [fayassgit/CVE-2022-1386-FusionBuilder-SSRF](https://github.com/fayassgit/CVE-2022-1386-FusionBuilder-SSRF)
 
 ### CVE-2022-1388 (2022-05-05)
@@ -53649,6 +53666,7 @@
 - [LiEnby/PSSRoot](https://github.com/LiEnby/PSSRoot)
 - [0x3n19m4/CVE-2016-5195](https://github.com/0x3n19m4/CVE-2016-5195)
 - [Samuel-G3/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow](https://github.com/Samuel-G3/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow)
+- [mohammadamin382/dirtycow-lab](https://github.com/mohammadamin382/dirtycow-lab)
 
 ### CVE-2016-5345 (2018-01-23)
 
