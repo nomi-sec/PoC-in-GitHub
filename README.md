@@ -1177,6 +1177,13 @@
 
 - [Yuri08loveElaina/CVE-2025-20124_and_CVE-2025-20125](https://github.com/Yuri08loveElaina/CVE-2025-20124_and_CVE-2025-20125)
 
+### CVE-2025-20229 (2025-03-26)
+
+<code>In Splunk Enterprise versions below 9.3.3, 9.2.5,  and 9.1.8, and Splunk Cloud Platform versions below 9.3.2408.104, 9.2.2406.108, 9.2.2403.114, and 9.1.2312.208, a low-privileged user that does not hold the &quot;admin&quot; or &quot;power&quot; Splunk roles could perform a Remote Code Execution (RCE) through a file upload to the &quot;$SPLUNK_HOME/var/run/splunk/apptemp&quot; directory due to missing authorization checks.
+</code>
+
+- [allinsthon/CVE-2025-20229](https://github.com/allinsthon/CVE-2025-20229)
+
 ### CVE-2025-20281 (2025-06-25)
 
 <code>A vulnerability in a specific API of Cisco ISE and Cisco ISE-PIC could allow an unauthenticated, remote attacker to execute arbitrary code on the underlying operating system as root. The attacker does not require any valid credentials to exploit this vulnerability.\r\n\r\nThis vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by submitting a crafted API request. A successful exploit could allow the attacker to obtain root privileges on an affected device.
@@ -1574,7 +1581,6 @@
 </code>
 
 - [jailbreakdotparty/dirtyZero](https://github.com/jailbreakdotparty/dirtyZero)
-- [aokumo21/iOS-CVE-2025-24203-Paths](https://github.com/aokumo21/iOS-CVE-2025-24203-Paths)
 - [GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging](https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging)
 - [pxx917144686/iDevice_ZH](https://github.com/pxx917144686/iDevice_ZH)
 
@@ -3144,13 +3150,6 @@
 - [yukinime/CVE-2025-34085](https://github.com/yukinime/CVE-2025-34085)
 - [B1ack4sh/Blackash-CVE-2025-34085](https://github.com/B1ack4sh/Blackash-CVE-2025-34085)
 
-### CVE-2025-34138 (2025-07-25)
-
-<code>A vulnerability exists in Sitecore Experience Manager (XM), Experience Platform (XP), Experience Commerce (XC), and Managed Cloud that could allow remote code execution or unauthorized access to information. This vulnerability affects all Experience Platform topologies (XM, XP, XC) from 9.2 Initial Release through 10.4 Initial Release. PaaS and containerized solutions are similarly affected.
-</code>
-
-- [allinsthon/CVE-2025-34138](https://github.com/allinsthon/CVE-2025-34138)
-
 ### CVE-2025-36041 (2025-06-15)
 
 <code>IBM MQ Operator LTS 2.0.0 through 2.0.29, MQ Operator CD 3.0.0, 3.0.1, 3.1.0 through 3.1.3, 3.3.0, 3.4.0, 3.4.1, 3.5.0, 3.5.1 through 3.5.3, and MQ Operator SC2 3.2.0 through 3.2.12 Native HA CRR could be configured with a private key and chain other than the intended key which could disclose sensitive information or allow the attacker to perform unauthorized actions.
@@ -3391,7 +3390,11 @@
 ### CVE-2025-45710
 - [partywavesec/CVE-2025-45710](https://github.com/partywavesec/CVE-2025-45710)
 
-### CVE-2025-45778
+### CVE-2025-45778 (2025-08-01)
+
+<code>A stored cross-site scripting (XSS) vulnerability in The Language Sloth Web Application v1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Description text field.
+</code>
+
 - [Smarttfoxx/CVE-2025-45778](https://github.com/Smarttfoxx/CVE-2025-45778)
 
 ### CVE-2025-45781
@@ -3404,7 +3407,11 @@
 
 - [pracharapol/CVE-2025-45960](https://github.com/pracharapol/CVE-2025-45960)
 
-### CVE-2025-46018
+### CVE-2025-46018 (2025-08-01)
+
+<code>CSC Pay Mobile App 2.19.4 (fixed in version 2.20.0) contains a vulnerability allowing users to bypass payment authorization by disabling Bluetooth at a specific point during a transaction. This could result in unauthorized use of laundry services and potential financial loss.
+</code>
+
 - [niranjangaire1995/CVE-2025-46018-CSC-Pay-Mobile-App-Payment-Authentication-Bypass](https://github.com/niranjangaire1995/CVE-2025-46018-CSC-Pay-Mobile-App-Payment-Authentication-Bypass)
 
 ### CVE-2025-46041 (2025-06-09)
@@ -3875,10 +3882,18 @@
 ### CVE-2025-50422
 - [Landw-hub/CVE-2025-50422](https://github.com/Landw-hub/CVE-2025-50422)
 
-### CVE-2025-50460
+### CVE-2025-50460 (2025-08-01)
+
+<code>A remote code execution (RCE) vulnerability exists in the ms-swift project version 3.3.0 due to unsafe deserialization in tests/run.py using yaml.load() from the PyYAML library (versions = 5.3.1). If an attacker can control the content of the YAML configuration file passed to the --run_config parameter, arbitrary code can be executed during deserialization. This can lead to full system compromise. The vulnerability is triggered when a malicious YAML file is loaded, allowing the execution of arbitrary Python commands such as os.system(). It is recommended to upgrade PyYAML to version 5.4 or higher, and to use yaml.safe_load() to mitigate the issue.
+</code>
+
 - [Anchor0221/CVE-2025-50460](https://github.com/Anchor0221/CVE-2025-50460)
 
-### CVE-2025-50472
+### CVE-2025-50472 (2025-08-01)
+
+<code>The modelscope/ms-swift library thru 2.6.1 is vulnerable to arbitrary code execution through deserialization of untrusted data within the `load_model_meta()` function of the `ModelFileSystemCache()` class. Attackers can execute arbitrary code and commands by crafting a malicious serialized `.mdl` payload, exploiting the use of `pickle.load()` on data from potentially untrusted sources. This vulnerability allows for remote code execution (RCE) by deceiving victims into loading a seemingly harmless checkpoint during a normal training process, thereby enabling attackers to execute arbitrary code on the targeted machine. Note that the payload file is a hidden file, making it difficult for the victim to detect tampering. More importantly, during the model training process, after the `.mdl` file is loaded and executes arbitrary code, the normal training process remains unaffected'meaning the user remains unaware of the arbitrary code execution.
+</code>
+
 - [xhjy2020/CVE-2025-50472](https://github.com/xhjy2020/CVE-2025-50472)
 
 ### CVE-2025-50481 (2025-07-23)
@@ -9280,6 +9295,7 @@
 </code>
 
 - [R00tkitSMM/CVE-2024-27804](https://github.com/R00tkitSMM/CVE-2024-27804)
+- [a0zhar/QuarkPoC](https://github.com/a0zhar/QuarkPoC)
 
 ### CVE-2024-27815 (2024-06-10)
 
@@ -21931,7 +21947,11 @@
 
 - [LadyDarwe/Links.a](https://github.com/LadyDarwe/Links.a)
 
-### CVE-2023-44976
+### CVE-2023-44976 (2025-08-01)
+
+<code>Hangzhou Shunwang Rentdrv2 before 2024-12-24 allows local users to terminate EDR processes and possibly have unspecified other impact via DeviceIoControl with control code 0x22E010, as exploited in the wild in October 2023.
+</code>
+
 - [keowu/BadRentdrv2](https://github.com/keowu/BadRentdrv2)
 
 ### CVE-2023-45131 (2023-10-16)
@@ -41287,6 +41307,7 @@
 
 - [andrei2308/CVE-2020-21365](https://github.com/andrei2308/CVE-2020-21365)
 - [samaellovecraft/CVE-2020-21365](https://github.com/samaellovecraft/CVE-2020-21365)
+- [andrei2308/CVE-2020-21365-PoC](https://github.com/andrei2308/CVE-2020-21365-PoC)
 
 ### CVE-2020-21378 (2020-12-21)
 
@@ -52261,6 +52282,13 @@
 </code>
 
 - [tafamace/CVE-2017-12624](https://github.com/tafamace/CVE-2017-12624)
+
+### CVE-2017-12629 (2017-10-14)
+
+<code>Remote code execution occurs in Apache Solr before 7.1 with Apache Lucene before 7.1 by exploiting XXE in conjunction with use of a Config API add-listener command to reach the RunExecutableListener class. Elasticsearch, although it uses Lucene, is NOT vulnerable to this. Note that the XML external entity expansion vulnerability occurs in the XML Query Parser which is available, by default, for any query request with parameters deftype=xmlparser and can be exploited to upload malicious data to the /upload request handler or as Blind XXE using ftp wrapper in order to read arbitrary local files from the Solr server. Note also that the second vulnerability relates to remote code execution using the RunExecutableListener available on all affected versions of Solr.
+</code>
+
+- [captain-woof/cve-2017-12629](https://github.com/captain-woof/cve-2017-12629)
 
 ### CVE-2017-12635 (2017-11-14)
 
