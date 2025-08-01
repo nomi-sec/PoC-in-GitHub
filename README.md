@@ -3404,6 +3404,9 @@
 
 - [pracharapol/CVE-2025-45960](https://github.com/pracharapol/CVE-2025-45960)
 
+### CVE-2025-46018
+- [niranjangaire1995/CVE-2025-46018-CSC-Pay-Mobile-App-Payment-Authentication-Bypass](https://github.com/niranjangaire1995/CVE-2025-46018-CSC-Pay-Mobile-App-Payment-Authentication-Bypass)
+
 ### CVE-2025-46041 (2025-06-09)
 
 <code>A stored cross-site scripting (XSS) vulnerability in Anchor CMS v0.12.7 allows attackers to inject malicious JavaScript via the page description field in the page creation interface (/admin/pages/add).
@@ -3868,6 +3871,9 @@
 
 ### CVE-2025-50420
 - [Landw-hub/CVE-2025-50420](https://github.com/Landw-hub/CVE-2025-50420)
+
+### CVE-2025-50422
+- [Landw-hub/CVE-2025-50422](https://github.com/Landw-hub/CVE-2025-50422)
 
 ### CVE-2025-50460
 - [Anchor0221/CVE-2025-50460](https://github.com/Anchor0221/CVE-2025-50460)
@@ -6315,6 +6321,7 @@
 </code>
 
 - [Chocapikk/CVE-2024-8517](https://github.com/Chocapikk/CVE-2024-8517)
+- [saadhassan77/SPIP-BigUp-Unauthenticated-RCE-Exploit-CVE-2024-8517](https://github.com/saadhassan77/SPIP-BigUp-Unauthenticated-RCE-Exploit-CVE-2024-8517)
 
 ### CVE-2024-8522 (2024-09-12)
 
