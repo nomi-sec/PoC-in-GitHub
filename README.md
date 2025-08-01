@@ -3687,6 +3687,7 @@
 - [Anezatraa/CVE-2025-48384-submodule](https://github.com/Anezatraa/CVE-2025-48384-submodule)
 - [IK-20211125/CVE-2025-48384](https://github.com/IK-20211125/CVE-2025-48384)
 - [elprogramadorgt/CVE-2025-48384](https://github.com/elprogramadorgt/CVE-2025-48384)
+- [f1shh/CVE-2025-48384](https://github.com/f1shh/CVE-2025-48384)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -3705,6 +3706,7 @@
 ### CVE-2025-48703
 - [trh4ckn0n/CVE-2025-48703](https://github.com/trh4ckn0n/CVE-2025-48703)
 - [Skynoxk/CVE-2025-48703](https://github.com/Skynoxk/CVE-2025-48703)
+- [itstarsec/CVE-2025-48703](https://github.com/itstarsec/CVE-2025-48703)
 
 ### CVE-2025-48708 (2025-05-23)
 
@@ -3863,6 +3865,9 @@
 
 ### CVE-2025-50365
 - [1h3ll/CVE-2025-50365_CSRF_DELETE_CATEGORY-phpgurukul-CVE](https://github.com/1h3ll/CVE-2025-50365_CSRF_DELETE_CATEGORY-phpgurukul-CVE)
+
+### CVE-2025-50420
+- [Landw-hub/CVE-2025-50420](https://github.com/Landw-hub/CVE-2025-50420)
 
 ### CVE-2025-50460
 - [Anchor0221/CVE-2025-50460](https://github.com/Anchor0221/CVE-2025-50460)
@@ -55011,6 +55016,7 @@
 - [G01d3nW01f/CVE-2015-6668](https://github.com/G01d3nW01f/CVE-2015-6668)
 - [h3x0v3rl0rd/CVE-2015-6668](https://github.com/h3x0v3rl0rd/CVE-2015-6668)
 - [jimdiroffii/CVE-2015-6668](https://github.com/jimdiroffii/CVE-2015-6668)
+- [NoTrustedx/Job-Manager-Disclosure](https://github.com/NoTrustedx/Job-Manager-Disclosure)
 
 ### CVE-2015-6748 (2017-09-25)
 
@@ -58286,6 +58292,13 @@
 
 - [pexmee/CVE-1999-0016-Land-DOS-tool](https://github.com/pexmee/CVE-1999-0016-Land-DOS-tool)
 - [Pommaq/CVE-1999-0016-POC](https://github.com/Pommaq/CVE-1999-0016-POC)
+
+### CVE-1999-0517 (2000-02-04)
+
+<code>An SNMP community name is the default (e.g. public), null, or missing.
+</code>
+
+- [ialejandrozalles/InvestigacionAplicacionCVE-1999-0517](https://github.com/ialejandrozalles/InvestigacionAplicacionCVE-1999-0517)
 
 ### CVE-1999-0524 (2000-02-04)
 
