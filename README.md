@@ -3224,6 +3224,13 @@
 
 - [AlexSvobo/nhi-zero-trust-bypass](https://github.com/AlexSvobo/nhi-zero-trust-bypass)
 
+### CVE-2025-41373 (2025-08-01)
+
+<code>A SQL injection vulnerability has been found in Gandia Integra Total of TESI from version 2.1.2217.3 to v4.4.2236.1. The vulnerability allows an authenticated attacker to retrieve, create, update and delete databases through the 'idestudio' parameter in /encuestas/integraweb[_v4]/integra/html/view/hislistadoacciones.php.
+</code>
+
+- [byteReaper77/CVE-2025-41373](https://github.com/byteReaper77/CVE-2025-41373)
+
 ### CVE-2025-41646 (2025-06-06)
 
 <code>An unauthorized remote attacker can bypass the authentication of the affected software package by misusing an incorrect type conversion. This leads to full compromise of the device
@@ -25445,6 +25452,8 @@
 - [jashan-lefty/Spring4Shell](https://github.com/jashan-lefty/Spring4Shell)
 - [brunoh6/web-threat-mitigation](https://github.com/brunoh6/web-threat-mitigation)
 - [ZapcoMan/spring4shell-vulnerable-application](https://github.com/ZapcoMan/spring4shell-vulnerable-application)
+- [osungjinwoo/CVE-2022-22965](https://github.com/osungjinwoo/CVE-2022-22965)
+- [Nosie12/fire-wall-server](https://github.com/Nosie12/fire-wall-server)
 
 ### CVE-2022-22966 (2022-04-14)
 
