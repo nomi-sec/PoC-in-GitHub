@@ -1141,6 +1141,13 @@
 
 - [byteReaper77/CVE-2025-7840](https://github.com/byteReaper77/CVE-2025-7840)
 
+### CVE-2025-7847 (2025-07-31)
+
+<code>The AI Engine plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the rest_simpleFileUpload() function in versions 2.9.3 and 2.9.4. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server when the REST API is enabled, which may make remote code execution possible.
+</code>
+
+- [EricArdiansa/CVE-2025-7847-POC](https://github.com/EricArdiansa/CVE-2025-7847-POC)
+
 ### CVE-2025-8018 (2025-07-22)
 
 <code>In code-projects Food Ordering Review System 1.0 wurde eine kritische Schwachstelle ausgemacht. Das betrifft eine unbekannte Funktionalität der Datei /user/reservation_page.php. Durch die Manipulation des Arguments reg_Id mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
@@ -4195,6 +4202,7 @@
 - [daryllundy/CVE-2025-53770](https://github.com/daryllundy/CVE-2025-53770)
 - [0x-crypt/CVE-2025-53770-Scanner](https://github.com/0x-crypt/CVE-2025-53770-Scanner)
 - [Immersive-Labs-Sec/SharePoint-CVE-2025-53770-POC](https://github.com/Immersive-Labs-Sec/SharePoint-CVE-2025-53770-POC)
+- [harryhaxor/CVE-2025-53770-SharePoint-Deserialization-RCE-PoC](https://github.com/harryhaxor/CVE-2025-53770-SharePoint-Deserialization-RCE-PoC)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -4209,6 +4217,9 @@
 </code>
 
 - [tigr78/CVE-2025-53964](https://github.com/tigr78/CVE-2025-53964)
+
+### CVE-2025-54135
+- [allinsthon/CVE-2025-54135](https://github.com/allinsthon/CVE-2025-54135)
 
 ### CVE-2025-54309 (2025-07-18)
 
@@ -37882,7 +37893,7 @@
 - [z3ena/Exploiting-and-Mitigating-CVE-2020-0796-SMBGhost-and-Print-Spooler-Vulnerabilities](https://github.com/z3ena/Exploiting-and-Mitigating-CVE-2020-0796-SMBGhost-and-Print-Spooler-Vulnerabilities)
 - [Kaizzzo1/CVE-2020-0796](https://github.com/Kaizzzo1/CVE-2020-0796)
 - [monjheta/CVE-2020-0796](https://github.com/monjheta/CVE-2020-0796)
-- [madanokr001/CVE-2020-0796](https://github.com/madanokr001/CVE-2020-0796)
+- [cybermads/CVE-2020-0796](https://github.com/cybermads/CVE-2020-0796)
 - [DannyRavi/nmap-scripts](https://github.com/DannyRavi/nmap-scripts)
 - [tdevworks/CVE-2020-0796-SMBGhost-Exploit-Demo](https://github.com/tdevworks/CVE-2020-0796-SMBGhost-Exploit-Demo)
 - [maqeel-git/CVE-2020-0796](https://github.com/maqeel-git/CVE-2020-0796)
@@ -38962,7 +38973,7 @@
 </code>
 
 - [3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934](https://github.com/3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934)
-- [Sergio235705/audit-xss-cve-2020-7934](https://github.com/Sergio235705/audit-xss-cve-2020-7934)
+- [giardinas-dev/audit-xss-cve-2020-7934](https://github.com/giardinas-dev/audit-xss-cve-2020-7934)
 
 ### CVE-2020-7961 (2020-03-20)
 
@@ -57060,7 +57071,7 @@
 - [NullBrunk/CVE-2011-2523](https://github.com/NullBrunk/CVE-2011-2523)
 - [Lychi3/vsftpd-backdoor](https://github.com/Lychi3/vsftpd-backdoor)
 - [vedpakhare/vsftpd-234-vuln-report](https://github.com/vedpakhare/vsftpd-234-vuln-report)
-- [madanokr001/CVE-2011-2523](https://github.com/madanokr001/CVE-2011-2523)
+- [cybermads/CVE-2011-2523](https://github.com/cybermads/CVE-2011-2523)
 - [sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523)
 - [JohanMV/explotacion-vsftpd-nmap_Laboratorio_1](https://github.com/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1)
 - [lghost256/vsftpd234-exploit](https://github.com/lghost256/vsftpd234-exploit)
