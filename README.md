@@ -3038,6 +3038,7 @@
 - [ChetanKomal/sudo_exploit](https://github.com/ChetanKomal/sudo_exploit)
 - [KaiHT-Ladiant/CVE-2025-32463](https://github.com/KaiHT-Ladiant/CVE-2025-32463)
 - [y4ney/CVE-2025-32463-lab](https://github.com/y4ney/CVE-2025-32463-lab)
+- [Dlodlos/CVE-2025-32463-lab](https://github.com/Dlodlos/CVE-2025-32463-lab)
 
 ### CVE-2025-32579 (2025-04-11)
 
