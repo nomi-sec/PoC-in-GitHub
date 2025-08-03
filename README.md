@@ -3725,8 +3725,8 @@
 - [IK-20211125/CVE-2025-48384](https://github.com/IK-20211125/CVE-2025-48384)
 - [elprogramadorgt/CVE-2025-48384](https://github.com/elprogramadorgt/CVE-2025-48384)
 - [f1shh/CVE-2025-48384](https://github.com/f1shh/CVE-2025-48384)
-- [fluoworite/CVE-2025-48384_sub](https://github.com/fluoworite/CVE-2025-48384_sub)
 - [fluoworite/CVE-2025-48384](https://github.com/fluoworite/CVE-2025-48384)
+- [fluoworite/CVE-2025-48384-sub](https://github.com/fluoworite/CVE-2025-48384-sub)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -4936,6 +4936,20 @@
 
 - [Puvipavan/CVE-2024-2667](https://github.com/Puvipavan/CVE-2024-2667)
 - [Nxploited/CVE-2024-2667-Poc](https://github.com/Nxploited/CVE-2024-2667-Poc)
+
+### CVE-2024-2771 (2024-05-18)
+
+<code>The Contact Form Plugin by Fluent Forms for Quiz, Survey, and Drag &amp; Drop WP Form Builder plugin for WordPress is vulnerable to privilege escalation due to a missing capability check on the /wp-json/fluentform/v1/managers REST API endpoint in all versions up to, and including, 5.1.16. This makes it possible for unauthenticated attackers to grant users with Fluent Form management permissions which gives them access to all of the plugin's settings and features. This also makes it possible for unauthenticated attackers to delete manager accounts.
+</code>
+
+- [whale93/CVE-2024-2771-PoC](https://github.com/whale93/CVE-2024-2771-PoC)
+
+### CVE-2024-2782 (2024-05-18)
+
+<code>The Contact Form Plugin by Fluent Forms for Quiz, Survey, and Drag &amp; Drop WP Form Builder plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the /wp-json/fluentform/v1/global-settings REST API endpoint in all versions up to, and including, 5.1.16. This makes it possible for unauthenticated attackers to modify all of the plugin's settings.
+</code>
+
+- [whale93/CVE-2024-2782-PoC](https://github.com/whale93/CVE-2024-2782-PoC)
 
 ### CVE-2024-2876 (2024-05-02)
 
@@ -10112,6 +10126,13 @@
 
 - [Wadewfsssss/CVE-2024-32004](https://github.com/Wadewfsssss/CVE-2024-32004)
 - [10cks/CVE-2024-32004-POC](https://github.com/10cks/CVE-2024-32004-POC)
+
+### CVE-2024-32019 (2024-04-12)
+
+<code>Netdata is an open source observability tool. In affected versions the `ndsudo` tool shipped with affected versions of the Netdata Agent allows an attacker to run arbitrary programs with root permissions. The `ndsudo` tool is packaged as a `root`-owned executable with the SUID bit set. It only runs a restricted set of external commands, but its search paths are supplied by the `PATH` environment variable. This allows an attacker to control where `ndsudo` looks for these commands, which may be a path the attacker has write access to. This may lead to local privilege escalation. This vulnerability has been addressed in versions 1.45.3 and 1.45.2-169. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [AzureADTrent/CVE-2024-32019-POC](https://github.com/AzureADTrent/CVE-2024-32019-POC)
 
 ### CVE-2024-32030 (2024-06-19)
 
@@ -31923,6 +31944,7 @@
 </code>
 
 - [RyanBoomer30/CVE-2021-21239-Exploit](https://github.com/RyanBoomer30/CVE-2021-21239-Exploit)
+- [GrantBirki/redash-vulnerable](https://github.com/GrantBirki/redash-vulnerable)
 
 ### CVE-2021-21300 (2021-03-09)
 
@@ -35521,7 +35543,6 @@
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
-- [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
 - [skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773)
 - [mauricelambert/CVE-2021-41773](https://github.com/mauricelambert/CVE-2021-41773)
 - [thehackersbrain/CVE-2021-41773](https://github.com/thehackersbrain/CVE-2021-41773)
@@ -42780,6 +42801,13 @@
 </code>
 
 - [0x43434343/CVE-2019-0539](https://github.com/0x43434343/CVE-2019-0539)
+
+### CVE-2019-0555 (2019-01-08)
+
+<code>An elevation of privilege vulnerability exists in the Microsoft XmlDocument class that could allow an attacker to escape from the AppContainer sandbox in the browser, aka &quot;Microsoft XmlDocument Elevation of Privilege Vulnerability.&quot; This affects Windows Server 2012 R2, Windows RT 8.1, Windows Server 2012, Windows Server 2019, Windows Server 2016, Windows 8.1, Windows 10, Windows 10 Servers.
+</code>
+
+- [kai6u/TriBell_Edge_SandBox_Escape](https://github.com/kai6u/TriBell_Edge_SandBox_Escape)
 
 ### CVE-2019-0567 (2019-01-08)
 
