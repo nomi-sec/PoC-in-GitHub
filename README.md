@@ -1173,7 +1173,7 @@
 
 ### CVE-2025-8220 (2025-07-27)
 
-<code>Es wurde eine kritische Schwachstelle in Engeman Web bis 12.0.0.1 entdeckt. Dabei betrifft es einen unbekannter Codeteil der Datei /Login/RecoveryPass der Komponente Password Recovery Page. Durch das Manipulieren des Arguments LanguageCombobox mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+<code>Es wurde eine kritische Schwachstelle in Engeman Web bis 12.0.0.1 entdeckt. Dabei betrifft es einen unbekannter Codeteil der Datei /Login/RecoveryPass der Komponente Password Recovery Page. Durch das Manipulieren des Arguments LanguageCombobox durch Cookie kann eine sql injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
 - [m3m0o/engeman-web-language-combobox-sqli](https://github.com/m3m0o/engeman-web-language-combobox-sqli)
@@ -1726,6 +1726,8 @@
 - [Artemir7/CVE-2025-24893-EXP](https://github.com/Artemir7/CVE-2025-24893-EXP)
 - [nopgadget/CVE-2025-24893](https://github.com/nopgadget/CVE-2025-24893)
 - [Kai7788/CVE-2025-24893-RCE-PoC](https://github.com/Kai7788/CVE-2025-24893-RCE-PoC)
+- [AliElKhatteb/CVE-2024-32019-POC](https://github.com/AliElKhatteb/CVE-2024-32019-POC)
+- [dhiaZnaidi/CVE-2025-24893-PoC](https://github.com/dhiaZnaidi/CVE-2025-24893-PoC)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -3727,6 +3729,7 @@
 - [f1shh/CVE-2025-48384](https://github.com/f1shh/CVE-2025-48384)
 - [fluoworite/CVE-2025-48384](https://github.com/fluoworite/CVE-2025-48384)
 - [fluoworite/CVE-2025-48384-sub](https://github.com/fluoworite/CVE-2025-48384-sub)
+- [beishanxueyuan/CVE-2025-48384](https://github.com/beishanxueyuan/CVE-2025-48384)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -4579,6 +4582,7 @@
 </code>
 
 - [Valentin-Metz/writeup_split](https://github.com/Valentin-Metz/writeup_split)
+- [limetimeline/cve-2024-0684](https://github.com/limetimeline/cve-2024-0684)
 
 ### CVE-2024-0710 (2024-05-02)
 
@@ -7680,7 +7684,7 @@
 
 - [hakaioffsec/CVE-2024-21338](https://github.com/hakaioffsec/CVE-2024-21338)
 - [UMU618/CVE-2024-21338](https://github.com/UMU618/CVE-2024-21338)
-- [varwara/CVE-2024-21338](https://github.com/varwara/CVE-2024-21338)
+- [wusijie/CVE-2024-21338-1](https://github.com/wusijie/CVE-2024-21338-1)
 - [Zombie-Kaiser/CVE-2024-21338-x64-build-](https://github.com/Zombie-Kaiser/CVE-2024-21338-x64-build-)
 - [tykawaii98/CVE-2024-21338_PoC](https://github.com/tykawaii98/CVE-2024-21338_PoC)
 - [Crowdfense/CVE-2024-21338](https://github.com/Crowdfense/CVE-2024-21338)
@@ -9073,7 +9077,7 @@
 <code>Windows CSC Service Elevation of Privilege Vulnerability
 </code>
 
-- [varwara/CVE-2024-26229](https://github.com/varwara/CVE-2024-26229)
+- [dkstar11q/CVE-2024-26229-lpe](https://github.com/dkstar11q/CVE-2024-26229-lpe)
 - [RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit)
 - [apkc/CVE-2024-26229-BOF](https://github.com/apkc/CVE-2024-26229-BOF)
 - [team-MineDEV/CVE-2024-26229](https://github.com/team-MineDEV/CVE-2024-26229)
@@ -10133,6 +10137,7 @@
 </code>
 
 - [AzureADTrent/CVE-2024-32019-POC](https://github.com/AzureADTrent/CVE-2024-32019-POC)
+- [AliElKhatteb/CVE-2024-32019-POC](https://github.com/AliElKhatteb/CVE-2024-32019-POC)
 
 ### CVE-2024-32030 (2024-06-19)
 
@@ -10715,7 +10720,7 @@
 <code>Windows Kernel-Mode Driver Elevation of Privilege Vulnerability
 </code>
 
-- [varwara/CVE-2024-35250](https://github.com/varwara/CVE-2024-35250)
+- [CrackerCat/CVE-2024-35250](https://github.com/CrackerCat/CVE-2024-35250)
 - [ro0tmylove/CVE-2024-35250-BOF](https://github.com/ro0tmylove/CVE-2024-35250-BOF)
 - [yinsel/CVE-2024-35250-BOF](https://github.com/yinsel/CVE-2024-35250-BOF)
 - [0xROOTPLS/GiveMeKernel](https://github.com/0xROOTPLS/GiveMeKernel)
@@ -11086,7 +11091,7 @@
 <code>Windows Kernel Information Disclosure Vulnerability
 </code>
 
-- [varwara/CVE-2024-38041](https://github.com/varwara/CVE-2024-38041)
+- [dgkim-dong/CVE-2024-38041](https://github.com/dgkim-dong/CVE-2024-38041)
 
 ### CVE-2024-38063 (2024-08-13)
 
@@ -14712,6 +14717,13 @@
 </code>
 
 - [pinpinsec/CVE-2023-0400](https://github.com/pinpinsec/CVE-2023-0400)
+
+### CVE-2023-0461 (2023-02-28)
+
+<code>There is a use-after-free vulnerability in the Linux Kernel which can be exploited to achieve local privilege escalation. To reach the vulnerability kernel configuration flag CONFIG_TLS or CONFIG_XFRM_ESPINTCP has to be configured, but the operation does not require any privilege.\n\nThere is a use-after-free bug of icsk_ulp_data of a struct inet_connection_sock.\n\nWhen CONFIG_TLS is enabled, user can install a tls context (struct tls_context) on a connected tcp socket. The context is not cleared if this socket is disconnected and reused as a listener. If a new socket is created from the listener, the context is inherited and vulnerable.\n\nThe setsockopt TCP_ULP operation does not require any privilege.\n\nWe recommend upgrading past commit 2c02d41d71f90a5168391b6a5f2954112ba2307c
+</code>
+
+- [b1nhack/CVE-2023-0461](https://github.com/b1nhack/CVE-2023-0461)
 
 ### CVE-2023-0464 (2023-03-22)
 
