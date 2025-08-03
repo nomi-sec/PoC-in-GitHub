@@ -695,6 +695,13 @@
 
 - [d0n601/CVE-2025-4603](https://github.com/d0n601/CVE-2025-4603)
 
+### CVE-2025-4606 (2025-07-09)
+
+<code>The Sala - Startup &amp; SaaS WordPress Theme theme for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 1.1.4. This is due to the theme not properly validating a user's identity prior to updating their details like password. This makes it possible for unauthenticated attackers to change arbitrary user's passwords, including administrators, and leverage that to gain access to their account.
+</code>
+
+- [Yucaerin/CVE-2025-4606](https://github.com/Yucaerin/CVE-2025-4606)
+
 ### CVE-2025-4611 (2025-05-21)
 
 <code>The Slim SEO – Fast &amp; Automated WordPress SEO Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's slim_seo_breadcrumbs shortcode in all versions up to, and including, 4.5.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
@@ -837,6 +844,8 @@
 </code>
 
 - [fokda-prodz/CVE-2025-5394](https://github.com/fokda-prodz/CVE-2025-5394)
+- [Nxploited/CVE-2025-5394](https://github.com/Nxploited/CVE-2025-5394)
+- [Yucaerin/CVE-2025-5394](https://github.com/Yucaerin/CVE-2025-5394)
 
 ### CVE-2025-5419 (2025-06-02)
 
@@ -1715,6 +1724,8 @@
 
 - [iSee857/CVE-2025-24893-PoC](https://github.com/iSee857/CVE-2025-24893-PoC)
 - [Artemir7/CVE-2025-24893-EXP](https://github.com/Artemir7/CVE-2025-24893-EXP)
+- [nopgadget/CVE-2025-24893](https://github.com/nopgadget/CVE-2025-24893)
+- [Kai7788/CVE-2025-24893-RCE-PoC](https://github.com/Kai7788/CVE-2025-24893-RCE-PoC)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -3714,6 +3725,8 @@
 - [IK-20211125/CVE-2025-48384](https://github.com/IK-20211125/CVE-2025-48384)
 - [elprogramadorgt/CVE-2025-48384](https://github.com/elprogramadorgt/CVE-2025-48384)
 - [f1shh/CVE-2025-48384](https://github.com/f1shh/CVE-2025-48384)
+- [fluoworite/CVE-2025-48384_sub](https://github.com/fluoworite/CVE-2025-48384_sub)
+- [fluoworite/CVE-2025-48384](https://github.com/fluoworite/CVE-2025-48384)
 
 ### CVE-2025-48461 (2025-06-24)
 
