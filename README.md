@@ -1737,6 +1737,7 @@
 - [dhiaZnaidi/CVE-2025-24893-PoC](https://github.com/dhiaZnaidi/CVE-2025-24893-PoC)
 - [hackersonsteroids/cve-2025-24893](https://github.com/hackersonsteroids/cve-2025-24893)
 - [Infinit3i/CVE-2025-24893](https://github.com/Infinit3i/CVE-2025-24893)
+- [gunzf0x/CVE-2025-24893](https://github.com/gunzf0x/CVE-2025-24893)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -3739,6 +3740,7 @@
 - [fluoworite/CVE-2025-48384](https://github.com/fluoworite/CVE-2025-48384)
 - [fluoworite/CVE-2025-48384-sub](https://github.com/fluoworite/CVE-2025-48384-sub)
 - [beishanxueyuan/CVE-2025-48384](https://github.com/beishanxueyuan/CVE-2025-48384)
+- [beishanxueyuan/CVE-2025-48384-test](https://github.com/beishanxueyuan/CVE-2025-48384-test)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -4039,6 +4041,9 @@
 
 ### CVE-2025-51726
 - [meisterlos/CVE-2025-51726](https://github.com/meisterlos/CVE-2025-51726)
+
+### CVE-2025-51820
+- [shk-mubashshir/CVE-2025-51820](https://github.com/shk-mubashshir/CVE-2025-51820)
 
 ### CVE-2025-51858 (2025-07-22)
 
