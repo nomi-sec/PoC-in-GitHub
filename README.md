@@ -1185,6 +1185,9 @@
 
 - [byteReaper77/CVE-2025-8471](https://github.com/byteReaper77/CVE-2025-8471)
 
+### CVE-2025-8517
+- [helloandrewpaul/Session-Fixation-in-Vvveb-CMS-v1.0.6.1](https://github.com/helloandrewpaul/Session-Fixation-in-Vvveb-CMS-v1.0.6.1)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -4297,6 +4300,13 @@
 </code>
 
 - [byteReaper77/CVE-2025-54769](https://github.com/byteReaper77/CVE-2025-54769)
+
+### CVE-2025-54962 (2025-08-04)
+
+<code>/edit-user in webserver in OpenPLC Runtime 3 through 9cd8f1b allows authenticated users to upload arbitrary files (such as .html or .svg), and these are then publicly accessible under the /static URI.
+</code>
+
+- [Eyodav/CVE-2025-54962](https://github.com/Eyodav/CVE-2025-54962)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
