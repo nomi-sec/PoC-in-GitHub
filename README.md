@@ -3915,6 +3915,9 @@
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
 
+### CVE-2025-50286
+- [binneko/CVE-2025-50286](https://github.com/binneko/CVE-2025-50286)
+
 ### CVE-2025-50340 (2025-08-04)
 
 <code>An Insecure Direct Object Reference (IDOR) vulnerability was discovered in SOGo Webmail thru 5.6.0, allowing an authenticated user to send emails on behalf of other users by manipulating a user-controlled identifier in the email-sending request. The server fails to verify whether the authenticated user is authorized to use the specified sender identity, resulting in unauthorized message delivery as another user. This can lead to impersonation, phishing, or unauthorized communication within the system.
@@ -4287,7 +4290,11 @@
 
 - [tigr78/CVE-2025-53964](https://github.com/tigr78/CVE-2025-53964)
 
-### CVE-2025-54135
+### CVE-2025-54135 (2025-08-05)
+
+<code>Cursor is a code editor built for programming with AI. Cursor allows writing in-workspace files with no user approval in versions below 1.3.9, If the file is a dotfile, editing it requires approval but creating a new one doesn't. Hence, if sensitive MCP files, such as the .cursor/mcp.json file don't already exist in the workspace, an attacker can chain a indirect prompt injection vulnerability to hijack the context to write to the settings file and trigger RCE on the victim without user approval. This is fixed in version 1.3.9.
+</code>
+
 - [allinsthon/CVE-2025-54135](https://github.com/allinsthon/CVE-2025-54135)
 
 ### CVE-2025-54309 (2025-07-18)
@@ -5601,6 +5608,7 @@
 - [ZeroMemoryEx/PHP-CGI-INTERNAL-RCE](https://github.com/ZeroMemoryEx/PHP-CGI-INTERNAL-RCE)
 - [Skycritch/CVE-2024-4577](https://github.com/Skycritch/CVE-2024-4577)
 - [CirqueiraDev/MassExploit-CVE-2024-4577](https://github.com/CirqueiraDev/MassExploit-CVE-2024-4577)
+- [xAL6/cve-2024-4577-scanner](https://github.com/xAL6/cve-2024-4577-scanner)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -12401,7 +12409,7 @@
 <code>In Nintendo Mario Kart 8 Deluxe before 3.0.3, the LAN/LDN local multiplayer implementation allows a remote attacker to exploit a stack-based buffer overflow upon deserialization of session information via a malformed browse-reply packet, aka KartLANPwn. The victim is not required to join a game session with an attacker. The victim must open the &quot;Wireless Play&quot; (or &quot;LAN Play&quot;) menu from the game's title screen, and an attacker nearby (LDN) or on the same LAN network as the victim can send a crafted reply packet to the victim's console. This enables a remote attacker to obtain complete denial-of-service on the game's process, or potentially, remote code execution on the victim's console. The issue is caused by incorrect use of the Nintendo Pia library,
 </code>
 
-- [regginator/kartlanpwn](https://github.com/regginator/kartlanpwn)
+- [chadhyatt/kartlanpwn](https://github.com/chadhyatt/kartlanpwn)
 
 ### CVE-2024-45216 (2024-10-16)
 
