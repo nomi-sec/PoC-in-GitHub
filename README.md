@@ -1748,6 +1748,7 @@
 - [gunzf0x/CVE-2025-24893](https://github.com/gunzf0x/CVE-2025-24893)
 - [dollarboysushil/CVE-2025-24893-XWiki-Unauthenticated-RCE-Exploit-POC](https://github.com/dollarboysushil/CVE-2025-24893-XWiki-Unauthenticated-RCE-Exploit-POC)
 - [zs1n/CVE-2025-24893](https://github.com/zs1n/CVE-2025-24893)
+- [investigato/cve-2025-24893-poc](https://github.com/investigato/cve-2025-24893-poc)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -3079,6 +3080,8 @@
 - [KaiHT-Ladiant/CVE-2025-32463](https://github.com/KaiHT-Ladiant/CVE-2025-32463)
 - [y4ney/CVE-2025-32463-lab](https://github.com/y4ney/CVE-2025-32463-lab)
 - [Dlodlos/CVE-2025-32463-lab](https://github.com/Dlodlos/CVE-2025-32463-lab)
+- [aldoClau98/CVE-2025-32463](https://github.com/aldoClau98/CVE-2025-32463)
+- [painoob/CVE-2025-32463](https://github.com/painoob/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3787,6 +3790,7 @@
 </code>
 
 - [Wh04m1001/CVE-2025-48799](https://github.com/Wh04m1001/CVE-2025-48799)
+- [painoob/CVE-2025-48799](https://github.com/painoob/CVE-2025-48799)
 
 ### CVE-2025-48827 (2025-05-27)
 
@@ -3979,6 +3983,9 @@
 
 ### CVE-2025-50592
 - [1515601525/CVE-2025-50592](https://github.com/1515601525/CVE-2025-50592)
+
+### CVE-2025-50675
+- [LukeSec/CVE-2025-50675-GPMAW-Permissions](https://github.com/LukeSec/CVE-2025-50675-GPMAW-Permissions)
 
 ### CVE-2025-50716
 - [MooseLoveti/realestate-php-cve-report](https://github.com/MooseLoveti/realestate-php-cve-report)
@@ -4276,6 +4283,7 @@
 - [0x-crypt/CVE-2025-53770-Scanner](https://github.com/0x-crypt/CVE-2025-53770-Scanner)
 - [Immersive-Labs-Sec/SharePoint-CVE-2025-53770-POC](https://github.com/Immersive-Labs-Sec/SharePoint-CVE-2025-53770-POC)
 - [harryhaxor/CVE-2025-53770-SharePoint-Deserialization-RCE-PoC](https://github.com/harryhaxor/CVE-2025-53770-SharePoint-Deserialization-RCE-PoC)
+- [SDX442/CVE-2025-53770](https://github.com/SDX442/CVE-2025-53770)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -10164,6 +10172,7 @@
 - [AzureADTrent/CVE-2024-32019-POC](https://github.com/AzureADTrent/CVE-2024-32019-POC)
 - [AliElKhatteb/CVE-2024-32019-POC](https://github.com/AliElKhatteb/CVE-2024-32019-POC)
 - [dollarboysushil/CVE-2024-32019-Netdata-ndsudo-PATH-Vulnerability-Privilege-Escalation](https://github.com/dollarboysushil/CVE-2024-32019-Netdata-ndsudo-PATH-Vulnerability-Privilege-Escalation)
+- [juanbelin/CVE-2024-32019-POC](https://github.com/juanbelin/CVE-2024-32019-POC)
 
 ### CVE-2024-32030 (2024-06-19)
 
@@ -16336,6 +16345,7 @@
 - [sariamubeen/CVE-2023-7028](https://github.com/sariamubeen/CVE-2023-7028)
 - [Sornphut/CVE-2023-7028-GitLab](https://github.com/Sornphut/CVE-2023-7028-GitLab)
 - [szybnev/CVE-2023-7028](https://github.com/szybnev/CVE-2023-7028)
+- [KameliaZaman/Exploiting-GitLab-CVE-2023-7028](https://github.com/KameliaZaman/Exploiting-GitLab-CVE-2023-7028)
 
 ### CVE-2023-7172 (2023-12-30)
 
@@ -31028,6 +31038,7 @@
 - [Sp4ceDogy/NPE-CS-V-CVE-2021-1675](https://github.com/Sp4ceDogy/NPE-CS-V-CVE-2021-1675)
 - [CameraShutterBug/PrintNightmare](https://github.com/CameraShutterBug/PrintNightmare)
 - [DLL00P/CVE-2021-1675](https://github.com/DLL00P/CVE-2021-1675)
+- [GlacierGossip/PrintNightmare](https://github.com/GlacierGossip/PrintNightmare)
 
 ### CVE-2021-1678 (2021-01-12)
 
@@ -36725,7 +36736,6 @@
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
-- [y-security/yLog4j](https://github.com/y-security/yLog4j)
 - [FeryaelJustice/Log4Shell](https://github.com/FeryaelJustice/Log4Shell)
 - [hotpotcookie/CVE-2021-44228-white-box](https://github.com/hotpotcookie/CVE-2021-44228-white-box)
 - [s-retlaw/l4srs](https://github.com/s-retlaw/l4srs)
@@ -55513,6 +55523,7 @@
 - [yashfren/CVE-2014-0160-HeartBleed](https://github.com/yashfren/CVE-2014-0160-HeartBleed)
 - [Shayhha/HeartbleedAttack](https://github.com/Shayhha/HeartbleedAttack)
 - [ArtemCyberLab/Project-Field-Analysis-and-Memory-Leak-Demonstration](https://github.com/ArtemCyberLab/Project-Field-Analysis-and-Memory-Leak-Demonstration)
+- [0x00-V/heartbleed-poc](https://github.com/0x00-V/heartbleed-poc)
 
 ### CVE-2014-0166 (2014-04-09)
 
