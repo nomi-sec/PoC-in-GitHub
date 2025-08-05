@@ -1747,6 +1747,7 @@
 - [Infinit3i/CVE-2025-24893](https://github.com/Infinit3i/CVE-2025-24893)
 - [gunzf0x/CVE-2025-24893](https://github.com/gunzf0x/CVE-2025-24893)
 - [dollarboysushil/CVE-2025-24893-XWiki-Unauthenticated-RCE-Exploit-POC](https://github.com/dollarboysushil/CVE-2025-24893-XWiki-Unauthenticated-RCE-Exploit-POC)
+- [zs1n/CVE-2025-24893](https://github.com/zs1n/CVE-2025-24893)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -10162,6 +10163,7 @@
 
 - [AzureADTrent/CVE-2024-32019-POC](https://github.com/AzureADTrent/CVE-2024-32019-POC)
 - [AliElKhatteb/CVE-2024-32019-POC](https://github.com/AliElKhatteb/CVE-2024-32019-POC)
+- [dollarboysushil/CVE-2024-32019-Netdata-ndsudo-PATH-Vulnerability-Privilege-Escalation](https://github.com/dollarboysushil/CVE-2024-32019-Netdata-ndsudo-PATH-Vulnerability-Privilege-Escalation)
 
 ### CVE-2024-32030 (2024-06-19)
 
@@ -23731,6 +23733,7 @@
 - [honypot/CVE-2022-0824](https://github.com/honypot/CVE-2022-0824)
 - [pizza-power/golang-webmin-CVE-2022-0824-revshell](https://github.com/pizza-power/golang-webmin-CVE-2022-0824-revshell)
 - [gokul-ramesh/WebminRCE-exploit](https://github.com/gokul-ramesh/WebminRCE-exploit)
+- [NUDTTAN91/Webmin-CVE-2022-0824-Enhanced-Exploit](https://github.com/NUDTTAN91/Webmin-CVE-2022-0824-Enhanced-Exploit)
 
 ### CVE-2022-0847 (2022-03-07)
 
@@ -24597,6 +24600,13 @@
 </code>
 
 - [sunichi/cve-2022-4543-wrapper](https://github.com/sunichi/cve-2022-4543-wrapper)
+
+### CVE-2022-4556 (2022-12-16)
+
+<code>A vulnerability was found in Alinto SOGo up to 5.7.1 and classified as problematic. Affected by this issue is the function _migrateMailIdentities of the file SoObjects/SOGo/SOGoUserDefaults.m of the component Identity Handler. The manipulation of the argument fullName leads to cross site scripting. The attack may be launched remotely. Upgrading to version 5.8.0 is able to address this issue. The name of the patch is efac49ae91a4a325df9931e78e543f707a0f8e5e. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-215960.
+</code>
+
+- [AshkanRafiee/CVE-2022-4556](https://github.com/AshkanRafiee/CVE-2022-4556)
 
 ### CVE-2022-4611 (2022-12-19)
 
@@ -30235,9 +30245,9 @@
 - [straight-tamago/NoHomeBar](https://github.com/straight-tamago/NoHomeBar)
 - [straight-tamago/DockTransparent](https://github.com/straight-tamago/DockTransparent)
 - [straight-tamago/FileSwitcherX](https://github.com/straight-tamago/FileSwitcherX)
-- [BomberFish/Mandela-Legacy](https://github.com/BomberFish/Mandela-Legacy)
-- [BomberFish/JailedCement](https://github.com/BomberFish/JailedCement)
-- [BomberFish/Mandela-Classic](https://github.com/BomberFish/Mandela-Classic)
+- [bomberfish/Mandela-Legacy](https://github.com/bomberfish/Mandela-Legacy)
+- [bomberfish/JailedCement](https://github.com/bomberfish/JailedCement)
+- [bomberfish/Mandela-Classic](https://github.com/bomberfish/Mandela-Classic)
 - [enty8080/MacDirtyCow](https://github.com/enty8080/MacDirtyCow)
 - [tdquang266/MDC](https://github.com/tdquang266/MDC)
 - [69camau/sw1tch](https://github.com/69camau/sw1tch)
