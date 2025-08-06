@@ -1757,6 +1757,7 @@
 - [dollarboysushil/CVE-2025-24893-XWiki-Unauthenticated-RCE-Exploit-POC](https://github.com/dollarboysushil/CVE-2025-24893-XWiki-Unauthenticated-RCE-Exploit-POC)
 - [zs1n/CVE-2025-24893](https://github.com/zs1n/CVE-2025-24893)
 - [investigato/cve-2025-24893-poc](https://github.com/investigato/cve-2025-24893-poc)
+- [570RMBR3AK3R/xwiki-cve-2025-24893-poc](https://github.com/570RMBR3AK3R/xwiki-cve-2025-24893-poc)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -3087,7 +3088,6 @@
 - [ChetanKomal/sudo_exploit](https://github.com/ChetanKomal/sudo_exploit)
 - [KaiHT-Ladiant/CVE-2025-32463](https://github.com/KaiHT-Ladiant/CVE-2025-32463)
 - [y4ney/CVE-2025-32463-lab](https://github.com/y4ney/CVE-2025-32463-lab)
-- [Dlodlos/CVE-2025-32463-lab](https://github.com/Dlodlos/CVE-2025-32463-lab)
 - [aldoClau98/CVE-2025-32463](https://github.com/aldoClau98/CVE-2025-32463)
 - [painoob/CVE-2025-32463](https://github.com/painoob/CVE-2025-32463)
 
@@ -3935,7 +3935,11 @@
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
 
-### CVE-2025-50286
+### CVE-2025-50286 (2025-08-06)
+
+<code>A Remote Code Execution (RCE) vulnerability in Grav CMS v1.7.48 allows an authenticated admin to upload a malicious plugin via the /admin/tools/direct-install interface. Once uploaded, the plugin is automatically extracted and loaded, allowing arbitrary PHP code execution and reverse shell access.
+</code>
+
 - [binneko/CVE-2025-50286](https://github.com/binneko/CVE-2025-50286)
 
 ### CVE-2025-50340 (2025-08-04)
@@ -20170,7 +20174,6 @@
 - [4zur-0312/CVE-2023-36802](https://github.com/4zur-0312/CVE-2023-36802)
 - [x0rb3l/CVE-2023-36802-MSKSSRV-LPE](https://github.com/x0rb3l/CVE-2023-36802-MSKSSRV-LPE)
 - [Nero22k/cve-2023-36802](https://github.com/Nero22k/cve-2023-36802)
-- [ISH2YU/CVE-2023-36802](https://github.com/ISH2YU/CVE-2023-36802)
 
 ### CVE-2023-36812 (2023-06-30)
 
@@ -27068,21 +27071,21 @@
 <code>Red Planet Laundry Management System 1.0 is vulnerable to SQL Injection.
 </code>
 
-- [YavuzSahbaz/Red-Planet-Laundry-Management-System-1.0-is-vulnerable-to-SQL](https://github.com/YavuzSahbaz/Red-Planet-Laundry-Management-System-1.0-is-vulnerable-to-SQL)
+- [YSah44/Red-Planet-Laundry-Management-System-1.0-is-vulnerable-to-SQL](https://github.com/YSah44/Red-Planet-Laundry-Management-System-1.0-is-vulnerable-to-SQL)
 
 ### CVE-2022-28454 (2022-04-28)
 
 <code>Limbas 4.3.36.1319 is vulnerable to Cross Site Scripting (XSS).
 </code>
 
-- [YavuzSahbaz/Limbas-4.3.36.1319-is-vulnerable-to-Cross-Site-Scripting-XSS-](https://github.com/YavuzSahbaz/Limbas-4.3.36.1319-is-vulnerable-to-Cross-Site-Scripting-XSS-)
+- [YSah44/Limbas-4.3.36.1319-is-vulnerable-to-Cross-Site-Scripting-XSS-](https://github.com/YSah44/Limbas-4.3.36.1319-is-vulnerable-to-Cross-Site-Scripting-XSS-)
 
 ### CVE-2022-28508 (2022-05-04)
 
 <code>An XSS issue was discovered in browser_search_plugin.php in MantisBT before 2.25.2. Unescaped output of the return parameter allows an attacker to inject code into a hidden input field.
 </code>
 
-- [YavuzSahbaz/CVE-2022-28508](https://github.com/YavuzSahbaz/CVE-2022-28508)
+- [YSah44/CVE-2022-28508](https://github.com/YSah44/CVE-2022-28508)
 
 ### CVE-2022-28590 (2022-05-03)
 
@@ -27885,7 +27888,7 @@
 <code>ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability via /itop/webservices/export-v2.php.
 </code>
 
-- [YavuzSahbaz/CVE-2022-31402](https://github.com/YavuzSahbaz/CVE-2022-31402)
+- [YSah44/CVE-2022-31402](https://github.com/YSah44/CVE-2022-31402)
 
 ### CVE-2022-31403 (2022-06-14)
 
@@ -31591,6 +31594,13 @@
 </code>
 
 - [dja2TaqkGEEfA45/CVE-2021-3516](https://github.com/dja2TaqkGEEfA45/CVE-2021-3516)
+
+### CVE-2021-3544 (2021-06-02)
+
+<code>Several memory leaks were found in the virtio vhost-user GPU device (vhost-user-gpu) of QEMU in versions up to and including 6.0. They exist in contrib/vhost-user-gpu/vhost-user-gpu.c and contrib/vhost-user-gpu/virgl.c due to improper release of memory (i.e., free) after effective lifetime.
+</code>
+
+- [Goultarde/CVE-2021-3544_RemoteMouse-3.008-RCE](https://github.com/Goultarde/CVE-2021-3544_RemoteMouse-3.008-RCE)
 
 ### CVE-2021-3560 (2022-02-16)
 
@@ -37084,13 +37094,6 @@
 </code>
 
 - [plsanu/Bludit-3.13.1-About-Plugin-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Bludit-3.13.1-About-Plugin-Stored-Cross-Site-Scripting-XSS)
-
-### CVE-2021-45897 (2022-01-28)
-
-<code>SuiteCRM before 7.12.3 and 8.x before 8.0.2 allows remote code execution.
-</code>
-
-- [manuelz120/CVE-2021-45897](https://github.com/manuelz120/CVE-2021-45897)
 
 ### CVE-2021-45901 (2022-02-10)
 
