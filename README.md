@@ -1193,6 +1193,13 @@
 
 - [helloandrewpaul/Session-Fixation-in-Vvveb-CMS-v1.0.6.1](https://github.com/helloandrewpaul/Session-Fixation-in-Vvveb-CMS-v1.0.6.1)
 
+### CVE-2025-8550 (2025-08-05)
+
+<code>In atjiu pybbs bis 6.0.0 wurde eine problematische Schwachstelle ausgemacht. Hierbei betrifft es unbekannten Programmcode der Datei /admin/topic/list. Durch das Beeinflussen des Arguments Username mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung. Der Patch wird als 2fe4a51afbce0068c291bc1818bbc8f7f3b01a22 bezeichnet. Als bestmögliche Massnahme wird Patching empfohlen.
+</code>
+
+- [byteReaper77/CVE-2025-8550](https://github.com/byteReaper77/CVE-2025-8550)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -3421,7 +3428,11 @@
 
 - [zgsnj123/CVE-2025-45467](https://github.com/zgsnj123/CVE-2025-45467)
 
-### CVE-2025-45512
+### CVE-2025-45512 (2025-08-05)
+
+<code>A lack of signature verification in the bootloader of DENX Software Engineering Das U-Boot (U-Boot) v1.1.3 allows attackers to install crafted firmware files, leading to arbitrary code execution.
+</code>
+
 - [AzhariRamadhan/CVE-2025-45512](https://github.com/AzhariRamadhan/CVE-2025-45512)
 
 ### CVE-2025-45619 (2025-07-30)
@@ -3981,7 +3992,11 @@
 
 - [kevinpdicks/Mezzanine-CMS-6.1.0-XSS](https://github.com/kevinpdicks/Mezzanine-CMS-6.1.0-XSS)
 
-### CVE-2025-50592
+### CVE-2025-50592 (2025-08-05)
+
+<code>Cross site scripting vulnerability in seacms before 13.2 via the vid parameter to Upload/js/player/dmplayer/player.
+</code>
+
 - [1515601525/CVE-2025-50592](https://github.com/1515601525/CVE-2025-50592)
 
 ### CVE-2025-50675
@@ -4170,6 +4185,13 @@
 </code>
 
 - [M4xIq/CVE-2025-51970](https://github.com/M4xIq/CVE-2025-51970)
+
+### CVE-2025-52078 (2025-08-05)
+
+<code>File upload vulnerability in Writebot AI Content Generator SaaS React Template thru 4.0.0, allowing remote attackers to gain escalated privileges via a crafted POST request to the /file-upload endpoint.
+</code>
+
+- [Yucaerin/CVE-2025-52078](https://github.com/Yucaerin/CVE-2025-52078)
 
 ### CVE-2025-52097
 - [rwilsonecs/CVE-2025-52097](https://github.com/rwilsonecs/CVE-2025-52097)
