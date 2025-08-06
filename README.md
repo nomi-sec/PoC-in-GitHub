@@ -1738,6 +1738,7 @@
 - [sentilaso1/CVE-2025-24813-Apache-Tomcat-RCE-PoC](https://github.com/sentilaso1/CVE-2025-24813-Apache-Tomcat-RCE-PoC)
 - [x00byte/PutScanner](https://github.com/x00byte/PutScanner)
 - [Shivshantp/CVE-2025-24813](https://github.com/Shivshantp/CVE-2025-24813)
+- [cyglegit/CVE-2025-24813](https://github.com/cyglegit/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -3783,6 +3784,9 @@
 
 - [shipcod3/CVE-2025-48466](https://github.com/shipcod3/CVE-2025-48466)
 
+### CVE-2025-48621
+- [Layer1-Artist/POC-CVE-2025-48621](https://github.com/Layer1-Artist/POC-CVE-2025-48621)
+
 ### CVE-2025-48703
 - [trh4ckn0n/CVE-2025-48703](https://github.com/trh4ckn0n/CVE-2025-48703)
 - [Skynoxk/CVE-2025-48703](https://github.com/Skynoxk/CVE-2025-48703)
@@ -4328,6 +4332,13 @@
 
 - [allinsthon/CVE-2025-54135](https://github.com/allinsthon/CVE-2025-54135)
 
+### CVE-2025-54253 (2025-08-05)
+
+<code>Adobe Experience Manager versions 6.5.23 and earlier are affected by a Misconfiguration vulnerability that could result in arbitrary code execution. An attacker could leverage this vulnerability to bypass security mechanisms and execute code. Exploitation of this issue does not require user interaction and scope is changed.
+</code>
+
+- [B1ack4sh/Blackash-CVE-2025-54253](https://github.com/B1ack4sh/Blackash-CVE-2025-54253)
+
 ### CVE-2025-54309 (2025-07-18)
 
 <code>CrushFTP 10 before 10.8.5 and 11 before 11.3.4_23, when the DMZ proxy feature is not used, mishandles AS2 validation and consequently allows remote attackers to obtain admin access via HTTPS, as exploited in the wild in July 2025.
@@ -4392,6 +4403,13 @@
 </code>
 
 - [byteReaper77/CVE-2025-54769](https://github.com/byteReaper77/CVE-2025-54769)
+
+### CVE-2025-54794 (2025-08-05)
+
+<code>Claude Code is an agentic coding tool. In versions below 0.2.111, a path validation flaw using prefix matching instead of canonical path comparison, makes it possible to bypass directory restrictions and access files outside the CWD. Successful exploitation depends on the presence of (or ability to create) a directory with the same prefix as the CWD and the ability to add untrusted content into a Claude Code context window. This is fixed in version 0.2.111.
+</code>
+
+- [AdityaBhatt3010/CVE-2025-54794-Hijacking-Claude-AI-with-a-Prompt-Injection-The-Jailbreak-That-Talked-Back](https://github.com/AdityaBhatt3010/CVE-2025-54794-Hijacking-Claude-AI-with-a-Prompt-Injection-The-Jailbreak-That-Talked-Back)
 
 ### CVE-2025-54962 (2025-08-04)
 
@@ -25582,6 +25600,7 @@
 - [ZapcoMan/spring4shell-vulnerable-application](https://github.com/ZapcoMan/spring4shell-vulnerable-application)
 - [osungjinwoo/CVE-2022-22965](https://github.com/osungjinwoo/CVE-2022-22965)
 - [Nosie12/fire-wall-server](https://github.com/Nosie12/fire-wall-server)
+- [salo-404/firewall](https://github.com/salo-404/firewall)
 
 ### CVE-2022-22966 (2022-04-14)
 
@@ -38014,6 +38033,7 @@
 - [DannyRavi/nmap-scripts](https://github.com/DannyRavi/nmap-scripts)
 - [tdevworks/CVE-2020-0796-SMBGhost-Exploit-Demo](https://github.com/tdevworks/CVE-2020-0796-SMBGhost-Exploit-Demo)
 - [maqeel-git/CVE-2020-0796](https://github.com/maqeel-git/CVE-2020-0796)
+- [esmwaSpyware/DoS-PoC-for-CVE-2020-0796-SMBGhost-](https://github.com/esmwaSpyware/DoS-PoC-for-CVE-2020-0796-SMBGhost-)
 
 ### CVE-2020-0887 (2020-03-12)
 
@@ -52507,6 +52527,7 @@
 - [tea9/CVE-2017-13156-Janus](https://github.com/tea9/CVE-2017-13156-Janus)
 - [M507/CVE-2017-13156](https://github.com/M507/CVE-2017-13156)
 - [nahid0x1/Janus-Vulnerability-CVE-2017-13156-Exploit](https://github.com/nahid0x1/Janus-Vulnerability-CVE-2017-13156-Exploit)
+- [nictjh/threatDemos](https://github.com/nictjh/threatDemos)
 
 ### CVE-2017-13208 (2018-01-12)
 
