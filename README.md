@@ -1448,6 +1448,7 @@
 <code>Teedy through 1.11 allows CSRF for account takeover via POST /api/user/admin.
 </code>
 
+- [gmh5225/CVE-2025-22963](https://github.com/gmh5225/CVE-2025-22963)
 - [samplev45/CVE-2025-22963](https://github.com/samplev45/CVE-2025-22963)
 
 ### CVE-2025-22964 (2025-01-15)
@@ -1769,6 +1770,7 @@
 - [IIIeJlyXaKapToIIIKu/CVE-2025-24893-XWiki-unauthenticated-RCE-via-SolrSearch](https://github.com/IIIeJlyXaKapToIIIKu/CVE-2025-24893-XWiki-unauthenticated-RCE-via-SolrSearch)
 - [mah4nzfr/CVE-2025-24893](https://github.com/mah4nzfr/CVE-2025-24893)
 - [Th3Gl0w/CVE-2025-24893-POC](https://github.com/Th3Gl0w/CVE-2025-24893-POC)
+- [Hex00-0x4/CVE-2025-24893-XWiki-RCE](https://github.com/Hex00-0x4/CVE-2025-24893-XWiki-RCE)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -46654,6 +46656,7 @@
 - [KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation](https://github.com/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation)
 - [dust-life/CVE-2019-18935-memShell](https://github.com/dust-life/CVE-2019-18935-memShell)
 - [clarkvoss/telerik](https://github.com/clarkvoss/telerik)
+- [ekkoo-z/CVE-2019-18935-bypasswaf](https://github.com/ekkoo-z/CVE-2019-18935-bypasswaf)
 
 ### CVE-2019-18988 (2020-02-07)
 
@@ -49497,14 +49500,6 @@
 
 - [Trinadh465/external_tcpdump_CVE-2018-14469](https://github.com/Trinadh465/external_tcpdump_CVE-2018-14469)
 
-### CVE-2018-14498 (2019-03-07)
-
-<code>get_8bit_row in rdbmp.c in libjpeg-turbo through 1.5.90 and MozJPEG through 3.3.1 allows attackers to cause a denial of service (heap-based buffer over-read and application crash) via a crafted 8-bit BMP in which one or more of the color indices is out of range for the number of palette entries.
-</code>
-
-- [h31md4llr/libjpeg_cve-2018-14498](https://github.com/h31md4llr/libjpeg_cve-2018-14498)
-- [h31md4llr/libjpeg_cve-2018-14498_2](https://github.com/h31md4llr/libjpeg_cve-2018-14498_2)
-
 ### CVE-2018-14634 (2018-09-25)
 
 <code>An integer overflow flaw was found in the Linux kernel's create_elf_tables() function. An unprivileged local user with access to SUID (or otherwise privileged) binary could use this flaw to escalate their privileges on the system. Kernel versions 2.6.x, 3.10.x and 4.14.x are believed to be vulnerable.
@@ -50336,13 +50331,6 @@
 </code>
 
 - [BradyDonovan/CVE-2018-19592](https://github.com/BradyDonovan/CVE-2018-19592)
-
-### CVE-2018-19664 (2018-11-29)
-
-<code>libjpeg-turbo 2.0.1 has a heap-based buffer over-read in the put_pixel_rows function in wrbmp.c, as demonstrated by djpeg.
-</code>
-
-- [h31md4llr/libjpeg_cve-2018-19664](https://github.com/h31md4llr/libjpeg_cve-2018-19664)
 
 ### CVE-2018-19788 (2018-12-03)
 
@@ -52167,6 +52155,7 @@
 - [MadExploits/PHPunit-Exploit](https://github.com/MadExploits/PHPunit-Exploit)
 - [MrG3P5/CVE-2017-9841](https://github.com/MrG3P5/CVE-2017-9841)
 - [Chocapikk/CVE-2017-9841](https://github.com/Chocapikk/CVE-2017-9841)
+- [joelindra/Argus](https://github.com/joelindra/Argus)
 - [K3ysTr0K3R/CVE-2017-9841-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-9841-EXPLOIT)
 
 ### CVE-2017-9934 (2017-07-17)
@@ -57271,6 +57260,7 @@
 - [lghost256/vsftpd234-exploit](https://github.com/lghost256/vsftpd234-exploit)
 - [hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523)
 - [krill-x7/CVE-2011-2523](https://github.com/krill-x7/CVE-2011-2523)
+- [As9xm/BrokenDoor-CVE-2011-2523-](https://github.com/As9xm/BrokenDoor-CVE-2011-2523-)
 
 ### CVE-2011-2894 (2011-10-04)
 
