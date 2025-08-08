@@ -905,6 +905,7 @@
 - [Shivshantp/CVE-2025-5777-TrendMicro-ApexCentral-RCE](https://github.com/Shivshantp/CVE-2025-5777-TrendMicro-ApexCentral-RCE)
 - [rob0tstxt/POC-CVE-2025-5777](https://github.com/rob0tstxt/POC-CVE-2025-5777)
 - [below0day/Honeypot-Logs-CVE-2025-5777](https://github.com/below0day/Honeypot-Logs-CVE-2025-5777)
+- [soltanali0/CVE-2025-5777-Exploit](https://github.com/soltanali0/CVE-2025-5777-Exploit)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -1766,6 +1767,8 @@
 - [investigato/cve-2025-24893-poc](https://github.com/investigato/cve-2025-24893-poc)
 - [570RMBR3AK3R/xwiki-cve-2025-24893-poc](https://github.com/570RMBR3AK3R/xwiki-cve-2025-24893-poc)
 - [IIIeJlyXaKapToIIIKu/CVE-2025-24893-XWiki-unauthenticated-RCE-via-SolrSearch](https://github.com/IIIeJlyXaKapToIIIKu/CVE-2025-24893-XWiki-unauthenticated-RCE-via-SolrSearch)
+- [mah4nzfr/CVE-2025-24893](https://github.com/mah4nzfr/CVE-2025-24893)
+- [Th3Gl0w/CVE-2025-24893-POC](https://github.com/Th3Gl0w/CVE-2025-24893-POC)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -3212,6 +3215,13 @@
 - [yukinime/CVE-2025-34085](https://github.com/yukinime/CVE-2025-34085)
 - [B1ack4sh/Blackash-CVE-2025-34085](https://github.com/B1ack4sh/Blackash-CVE-2025-34085)
 
+### CVE-2025-34152 (2025-08-07)
+
+<code>An unauthenticated OS command injection vulnerability exists in the Shenzhen Aitemi M300 Wi-Fi Repeater (hardware model MT02) via the 'time' parameter of the '/protocol.csp?' endpoint. The input is processed by the internal date '-s' command without rebooting or disrupting HTTP service. Unlike other injection points, this vector allows remote compromise without triggering visible configuration changes.
+</code>
+
+- [Chocapikk/CVE-2025-34152](https://github.com/Chocapikk/CVE-2025-34152)
+
 ### CVE-2025-36041 (2025-06-15)
 
 <code>IBM MQ Operator LTS 2.0.0 through 2.0.29, MQ Operator CD 3.0.0, 3.0.1, 3.1.0 through 3.1.3, 3.3.0, 3.4.0, 3.4.1, 3.5.0, 3.5.1 through 3.5.3, and MQ Operator SC2 3.2.0 through 3.2.12 Native HA CRR could be configured with a private key and chain other than the intended key which could disclose sensitive information or allow the attacker to perform unauthorized actions.
@@ -4015,7 +4025,11 @@
 
 - [1515601525/CVE-2025-50592](https://github.com/1515601525/CVE-2025-50592)
 
-### CVE-2025-50675
+### CVE-2025-50675 (2025-08-07)
+
+<code>GPMAW 14, a bioinformatics software, has a critical vulnerability related to insecure file permissions in its installation directory. The directory is accessible with full read, write, and execute permissions for all users, allowing unprivileged users to manipulate files within the directory, including executable files like GPMAW3.exe, Fragment.exe, and the uninstaller GPsetup64_17028.exe. An attacker with user-level access can exploit this misconfiguration by replacing or modifying the uninstaller (GPsetup64_17028.exe) with a malicious version. While the application itself runs in the user's context, the uninstaller is typically executed with administrative privileges when an administrator attempts to uninstall the software. By exploiting this flaw, an attacker could gain administrative privileges and execute arbitrary code in the context of the admin, resulting in privilege escalation.
+</code>
+
 - [LukeSec/CVE-2025-50675-GPMAW-Permissions](https://github.com/LukeSec/CVE-2025-50675-GPMAW-Permissions)
 
 ### CVE-2025-50716
