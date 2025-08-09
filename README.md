@@ -995,6 +995,13 @@
 
 - [jujubooom/CVE-2025-6335](https://github.com/jujubooom/CVE-2025-6335)
 
+### CVE-2025-6384 (2025-06-19)
+
+<code>Improper Control of Dynamically-Managed Code Resources vulnerability in Crafter Studio of CrafterCMS allows authenticated developers to execute OS commands via Groovy Sandbox Bypass.\n\nBy inserting malicious Groovy elements, an attacker may bypass Sandbox restrictions and obtain RCE (Remote Code Execution).\n\nThis issue affects CrafterCMS: from 4.0.0 through 4.2.2.
+</code>
+
+- [mbadanoiu/CVE-2025-6384](https://github.com/mbadanoiu/CVE-2025-6384)
+
 ### CVE-2025-6514 (2025-07-09)
 
 <code>mcp-remote is exposed to OS command injection when connecting to untrusted MCP servers due to crafted input from the authorization_endpoint response URL
@@ -1213,6 +1220,13 @@
 </code>
 
 - [byteReaper77/CVE-2025-8550](https://github.com/byteReaper77/CVE-2025-8550)
+
+### CVE-2025-8730 (2025-08-08)
+
+<code>Eine Schwachstelle wurde in Belkin F9K1009 and F9K1010 2.00.04/2.00.09 gefunden. Sie wurde als kritisch eingestuft. Es geht hierbei um eine nicht näher spezifizierte Funktion der Komponente Web Interface. Mittels Manipulieren mit unbekannten Daten kann eine hard-coded credentials-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [byteReaper77/CVE-2025-8730](https://github.com/byteReaper77/CVE-2025-8730)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -1771,6 +1785,7 @@
 - [Th3Gl0w/CVE-2025-24893-POC](https://github.com/Th3Gl0w/CVE-2025-24893-POC)
 - [Hex00-0x4/CVE-2025-24893-XWiki-RCE](https://github.com/Hex00-0x4/CVE-2025-24893-XWiki-RCE)
 - [The-Red-Serpent/CVE-2025-24893](https://github.com/The-Red-Serpent/CVE-2025-24893)
+- [alaxar/CVE-2025-24893](https://github.com/alaxar/CVE-2025-24893)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -35773,7 +35788,6 @@
 - [psibot/apache-vulnerable](https://github.com/psibot/apache-vulnerable)
 - [blu3ming/PoC-CVE-2021-41773](https://github.com/blu3ming/PoC-CVE-2021-41773)
 - [r0otk3r/CVE-2021-41773](https://github.com/r0otk3r/CVE-2021-41773)
-- [rajaabdullahnasir/CVE-2021-41773_exploitation](https://github.com/rajaabdullahnasir/CVE-2021-41773_exploitation)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -37158,6 +37172,13 @@
 </code>
 
 - [plsanu/Bludit-3.13.1-About-Plugin-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Bludit-3.13.1-About-Plugin-Stored-Cross-Site-Scripting-XSS)
+
+### CVE-2021-45897 (2022-01-28)
+
+<code>SuiteCRM before 7.12.3 and 8.x before 8.0.2 allows remote code execution.
+</code>
+
+- [manuelz120/CVE-2021-45897](https://github.com/manuelz120/CVE-2021-45897)
 
 ### CVE-2021-45901 (2022-02-10)
 
@@ -48367,6 +48388,7 @@
 - [tpdlshdmlrkfmcla/CVE-2018-7600.](https://github.com/tpdlshdmlrkfmcla/CVE-2018-7600.)
 - [Dowonkwon/drupal-cve-2018-7600-poc](https://github.com/Dowonkwon/drupal-cve-2018-7600-poc)
 - [M-Abid34/CVE-2018-7600](https://github.com/M-Abid34/CVE-2018-7600)
+- [rajaabdullahnasir/CVE-2018-7600-Remote-Code-Execution](https://github.com/rajaabdullahnasir/CVE-2018-7600-Remote-Code-Execution)
 
 ### CVE-2018-7602 (2018-07-19)
 
