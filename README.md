@@ -1795,6 +1795,7 @@
 - [The-Red-Serpent/CVE-2025-24893](https://github.com/The-Red-Serpent/CVE-2025-24893)
 - [alaxar/CVE-2025-24893](https://github.com/alaxar/CVE-2025-24893)
 - [D3Ext/CVE-2025-24893](https://github.com/D3Ext/CVE-2025-24893)
+- [Retro023/CVE-2025-24893-POC](https://github.com/Retro023/CVE-2025-24893-POC)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -33858,6 +33859,13 @@
 - [jsherman212/iomfb-exploit](https://github.com/jsherman212/iomfb-exploit)
 - [30440r/gex](https://github.com/30440r/gex)
 
+### CVE-2021-30809 (2021-10-28)
+
+<code>A use after free issue was addressed with improved memory management. This issue is fixed in Safari 15, tvOS 15, watchOS 8, iOS 15 and iPadOS 15. Processing maliciously crafted web content may lead to arbitrary code execution.
+</code>
+
+- [seregonwar/CVE-2021-30809-UAF](https://github.com/seregonwar/CVE-2021-30809-UAF)
+
 ### CVE-2021-30858 (2021-08-24)
 
 <code>A use after free issue was addressed with improved memory management. This issue is fixed in iOS 14.8 and iPadOS 14.8, macOS Big Sur 11.6. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
@@ -37186,13 +37194,6 @@
 </code>
 
 - [plsanu/Bludit-3.13.1-About-Plugin-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Bludit-3.13.1-About-Plugin-Stored-Cross-Site-Scripting-XSS)
-
-### CVE-2021-45897 (2022-01-28)
-
-<code>SuiteCRM before 7.12.3 and 8.x before 8.0.2 allows remote code execution.
-</code>
-
-- [manuelz120/CVE-2021-45897](https://github.com/manuelz120/CVE-2021-45897)
 
 ### CVE-2021-45901 (2022-02-10)
 
