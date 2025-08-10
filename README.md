@@ -4028,7 +4028,7 @@
 
 ### CVE-2025-50422 (2025-08-04)
 
-<code>An issue was discovered in freedesktop poppler v25.04.0. The heap memory containing PDF stream objects is not cleared upon program exit, allowing attackers to obtain sensitive PDF content via a memory dump.
+<code>Cairo through 1.18.4, as used in Poppler through 25.08.0, has an &quot;unscaled-&gt;face == NULL&quot; assertion failure for _cairo_ft_unscaled_font_fini in cairo-ft-font.c.
 </code>
 
 - [Landw-hub/CVE-2025-50422](https://github.com/Landw-hub/CVE-2025-50422)
@@ -10089,6 +10089,7 @@
 - [mianliupindao/CVE-2024-31317-PoC-Deployer](https://github.com/mianliupindao/CVE-2024-31317-PoC-Deployer)
 - [agg23/cve-2024-31317](https://github.com/agg23/cve-2024-31317)
 - [WebLDix/CVE-2024-31317-PoC-Deployer](https://github.com/WebLDix/CVE-2024-31317-PoC-Deployer)
+- [rifting/Zygotroller](https://github.com/rifting/Zygotroller)
 
 ### CVE-2024-31319 (2024-07-09)
 
