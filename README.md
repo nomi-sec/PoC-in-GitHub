@@ -3683,6 +3683,13 @@
 
 - [mahyarx/CVE-2025-47176](https://github.com/mahyarx/CVE-2025-47176)
 
+### CVE-2025-47178 (2025-07-08)
+
+<code>Improper neutralization of special elements used in an sql command ('sql injection') in Microsoft Configuration Manager allows an authorized attacker to execute code over an adjacent network.
+</code>
+
+- [synacktiv/CVE-2025-47178](https://github.com/synacktiv/CVE-2025-47178)
+
 ### CVE-2025-47181 (2025-05-22)
 
 <code>Improper link resolution before file access ('link following') in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges locally.
@@ -11158,6 +11165,13 @@
 
 - [bartfroklage/CVE-2024-37383-POC](https://github.com/bartfroklage/CVE-2024-37383-POC)
 - [amirzargham/CVE-2024-37383-exploit](https://github.com/amirzargham/CVE-2024-37383-exploit)
+
+### CVE-2024-37388 (2024-06-07)
+
+<code>An XML External Entity (XXE) vulnerability in the ebookmeta.get_metadata function of lxml before v4.9.1 allows attackers to access sensitive information or cause a Denial of Service (DoS) via crafted XML input.
+</code>
+
+- [Narsimhareddy28/cve-2024-37388](https://github.com/Narsimhareddy28/cve-2024-37388)
 
 ### CVE-2024-37393 (2024-06-10)
 
@@ -30334,7 +30348,6 @@
 - [nu0l/CVE-2022-46463](https://github.com/nu0l/CVE-2022-46463)
 - [404tk/CVE-2022-46463](https://github.com/404tk/CVE-2022-46463)
 - [CodeSecurityTeam/harbor](https://github.com/CodeSecurityTeam/harbor)
-- [sevbandonmez/harbor-stalker](https://github.com/sevbandonmez/harbor-stalker)
 
 ### CVE-2022-46484 (2023-08-02)
 
