@@ -913,6 +913,7 @@
 - [rob0tstxt/POC-CVE-2025-5777](https://github.com/rob0tstxt/POC-CVE-2025-5777)
 - [below0day/Honeypot-Logs-CVE-2025-5777](https://github.com/below0day/Honeypot-Logs-CVE-2025-5777)
 - [soltanali0/CVE-2025-5777-Exploit](https://github.com/soltanali0/CVE-2025-5777-Exploit)
+- [rootxsushant/Citrix-NetScaler-Memory-Leak-CVE-2025-5777](https://github.com/rootxsushant/Citrix-NetScaler-Memory-Leak-CVE-2025-5777)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -4530,6 +4531,7 @@
 </code>
 
 - [hunters-sec/CVE-2025-55188-7z-exploit](https://github.com/hunters-sec/CVE-2025-55188-7z-exploit)
+- [san8383/CVE-2025-55188-7z-POC](https://github.com/san8383/CVE-2025-55188-7z-POC)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
@@ -28774,6 +28776,7 @@
 
 - [rootDR/CVE-2022-36779](https://github.com/rootDR/CVE-2022-36779)
 - [EmadYaY/CVE-2022-36779](https://github.com/EmadYaY/CVE-2022-36779)
+- [rootdr-backup/exploit-CVE-2022-36779](https://github.com/rootdr-backup/exploit-CVE-2022-36779)
 
 ### CVE-2022-36804 (2022-08-25)
 
@@ -31884,7 +31887,6 @@
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [glowbase/PwnKit-CVE-2021-4034](https://github.com/glowbase/PwnKit-CVE-2021-4034)
 - [OXDBXKXO/ez-pwnkit](https://github.com/OXDBXKXO/ez-pwnkit)
-- [scent2d/PoC-CVE-2021-4034](https://github.com/scent2d/PoC-CVE-2021-4034)
 - [HrishitJoshi/CVE-2021-4034](https://github.com/HrishitJoshi/CVE-2021-4034)
 - [Ankit-Ojha16/CVE-2021-4034](https://github.com/Ankit-Ojha16/CVE-2021-4034)
 - [G01d3nW01f/CVE-2021-4034](https://github.com/G01d3nW01f/CVE-2021-4034)
@@ -31963,13 +31965,6 @@
 - [Milad-Rafie/PwnKit-Local-Privilege-Escalation-Vulnerability-Discovered-in-polkit-s-pkexec-CVE-2021-4034](https://github.com/Milad-Rafie/PwnKit-Local-Privilege-Escalation-Vulnerability-Discovered-in-polkit-s-pkexec-CVE-2021-4034)
 - [kali-guru/Pwnkit-CVE-2021-4034](https://github.com/kali-guru/Pwnkit-CVE-2021-4034)
 - [BugVex/Poison-HTB-Report](https://github.com/BugVex/Poison-HTB-Report)
-
-### CVE-2021-4043 (2022-02-04)
-
-<code>NULL Pointer Dereference in GitHub repository gpac/gpac prior to 1.1.0.
-</code>
-
-- [cyberark/PwnKit-Hunter](https://github.com/cyberark/PwnKit-Hunter)
 
 ### CVE-2021-4044 (2021-12-14)
 
@@ -32923,6 +32918,13 @@
 </code>
 
 - [S1lkys/CVE-2021-24884](https://github.com/S1lkys/CVE-2021-24884)
+
+### CVE-2021-24891 (2021-11-23)
+
+<code>The Elementor Website Builder WordPress plugin before 3.4.8 does not sanitise or escape user input appended to the DOM via a malicious hash, resulting in a DOM Cross-Site Scripting issue.
+</code>
+
+- [hackmelocal/CVE-2021-24891-Simulation](https://github.com/hackmelocal/CVE-2021-24891-Simulation)
 
 ### CVE-2021-24917 (2021-12-06)
 
@@ -35840,6 +35842,7 @@
 - [psibot/apache-vulnerable](https://github.com/psibot/apache-vulnerable)
 - [blu3ming/PoC-CVE-2021-41773](https://github.com/blu3ming/PoC-CVE-2021-41773)
 - [r0otk3r/CVE-2021-41773](https://github.com/r0otk3r/CVE-2021-41773)
+- [mah4nzfr/CVE-2021-41773](https://github.com/mah4nzfr/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -54459,6 +54462,7 @@
 - [ElnurBDa/CVE-2016-10033](https://github.com/ElnurBDa/CVE-2016-10033)
 - [Astrowmist/POC-CVE-2016-10033](https://github.com/Astrowmist/POC-CVE-2016-10033)
 - [sealldeveloper/CVE-2016-10033-PoC](https://github.com/sealldeveloper/CVE-2016-10033-PoC)
+- [alexander47777/CVE-2016-10033](https://github.com/alexander47777/CVE-2016-10033)
 
 ### CVE-2016-10034 (2016-12-30)
 
@@ -55130,6 +55134,7 @@
 <code>Unrestricted file upload vulnerability in admin/scripts/FileUploader/php.php in the ReFlex Gallery plugin before 3.1.4 for WordPress allows remote attackers to execute arbitrary PHP code by uploading a file with a PHP extension, then accessing it via a direct request to the file in uploads/ directory.
 </code>
 
+- [D3Ext/CVE-2015-4133](https://github.com/D3Ext/CVE-2015-4133)
 - [sug4r-wr41th/CVE-2015-4133](https://github.com/sug4r-wr41th/CVE-2015-4133)
 
 ### CVE-2015-4495 (2015-08-08)
@@ -55565,6 +55570,13 @@
 </code>
 
 - [Kai-One001/-CVE-2015-10137-WordPress-N-Media-Website-Contact-Form-with-File-Upload-1.3.4](https://github.com/Kai-One001/-CVE-2015-10137-WordPress-N-Media-Website-Contact-Form-with-File-Upload-1.3.4)
+
+### CVE-2015-10141 (2025-07-23)
+
+<code>An unauthenticated OS command injection vulnerability exists within Xdebug versions 2.5.5 and earlier, a PHP debugging extension developed by Derick Rethans. When remote debugging is enabled, Xdebug listens on port 9000 and accepts debugger protocol commands without authentication. An attacker can send a crafted eval command over this interface to execute arbitrary PHP code, which may invoke system-level functions such as system() or passthru(). This results in full compromise of the host under the privileges of the web server user.
+</code>
+
+- [D3Ext/CVE-2015-10141](https://github.com/D3Ext/CVE-2015-10141)
 
 ### CVE-2015-20107 (2022-04-13)
 
