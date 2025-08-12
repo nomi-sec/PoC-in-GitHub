@@ -4537,6 +4537,7 @@
 
 - [hunters-sec/CVE-2025-55188-7z-exploit](https://github.com/hunters-sec/CVE-2025-55188-7z-exploit)
 - [san8383/CVE-2025-55188-7z-POC](https://github.com/san8383/CVE-2025-55188-7z-POC)
+- [vadim-belous/CVE-2025-55188-PoC](https://github.com/vadim-belous/CVE-2025-55188-PoC)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
@@ -5668,6 +5669,7 @@
 - [snyk-labs/pdfjs-vuln-demo](https://github.com/snyk-labs/pdfjs-vuln-demo)
 - [UnHackerEnCapital/PDFernetRemotelo](https://github.com/UnHackerEnCapital/PDFernetRemotelo)
 - [Masamuneee/CVE-2024-4367-Analysis](https://github.com/Masamuneee/CVE-2024-4367-Analysis)
+- [m0d0ri205/PDFJS](https://github.com/m0d0ri205/PDFJS)
 - [pedrochalegre7/CVE-2024-4367-pdf-sample](https://github.com/pedrochalegre7/CVE-2024-4367-pdf-sample)
 - [exfil0/WEAPONIZING-CVE-2024-4367](https://github.com/exfil0/WEAPONIZING-CVE-2024-4367)
 - [inpentest/CVE-2024-4367-PoC](https://github.com/inpentest/CVE-2024-4367-PoC)
@@ -14188,7 +14190,7 @@
 <code>BigAnt Office Messenger 5.6.06 is vulnerable to SQL Injection via the 'dev_code' parameter.
 </code>
 
-- [nscan9/CVE-2024-54761-BigAnt-Office-Messenger-5.6.06-RCE-via-SQL-Injection](https://github.com/nscan9/CVE-2024-54761-BigAnt-Office-Messenger-5.6.06-RCE-via-SQL-Injection)
+- [nscan9/CVE-2024-54761](https://github.com/nscan9/CVE-2024-54761)
 
 ### CVE-2024-54772 (2025-02-11)
 
@@ -17491,7 +17493,7 @@
 - [ThatNotEasy/CVE-2023-23752](https://github.com/ThatNotEasy/CVE-2023-23752)
 - [Sweelg/CVE-2023-23752](https://github.com/Sweelg/CVE-2023-23752)
 - [MrP4nda1337/CVE-2023-23752](https://github.com/MrP4nda1337/CVE-2023-23752)
-- [lainonz/CVE-2023-23752](https://github.com/lainonz/CVE-2023-23752)
+- [w1zardx/CVE-2023-23752](https://github.com/w1zardx/CVE-2023-23752)
 - [yTxZx/CVE-2023-23752](https://github.com/yTxZx/CVE-2023-23752)
 - [AlissonFaoli/CVE-2023-23752](https://github.com/AlissonFaoli/CVE-2023-23752)
 - [Pushkarup/CVE-2023-23752](https://github.com/Pushkarup/CVE-2023-23752)
