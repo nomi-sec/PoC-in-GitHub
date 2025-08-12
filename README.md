@@ -1201,6 +1201,7 @@
 </code>
 
 - [jordan922/CVE-2025-8088](https://github.com/jordan922/CVE-2025-8088)
+- [travisbgreen/cve-2025-8088](https://github.com/travisbgreen/cve-2025-8088)
 
 ### CVE-2025-8191 (2025-07-26)
 
@@ -1778,6 +1779,7 @@
 - [x00byte/PutScanner](https://github.com/x00byte/PutScanner)
 - [Shivshantp/CVE-2025-24813](https://github.com/Shivshantp/CVE-2025-24813)
 - [cyglegit/CVE-2025-24813](https://github.com/cyglegit/CVE-2025-24813)
+- [137f/PoC-CVE-2025-24813](https://github.com/137f/PoC-CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -4188,6 +4190,9 @@
 
 - [Kai-One001/Letta-CVE-2025-51482-RCE](https://github.com/Kai-One001/Letta-CVE-2025-51482-RCE)
 
+### CVE-2025-51643
+- [NastyCrow/CVE-2025-51643](https://github.com/NastyCrow/CVE-2025-51643)
+
 ### CVE-2025-51726 (2025-08-04)
 
 <code>CyberGhostVPNSetup.exe (Windows installer) is signed using the weak cryptographic hash algorithm SHA-1, which is vulnerable to collision attacks. This allows a malicious actor to craft a fake installer with a forged SHA-1 certificate that may still be accepted by Windows signature verification mechanisms, particularly on systems without strict SmartScreen or trust policy enforcement. Additionally, the installer lacks High Entropy Address Space Layout Randomization (ASLR), as confirmed by BinSkim (BA2015 rule) and repeated WinDbg analysis. The binary consistently loads into predictable memory ranges, increasing the success rate of memory corruption exploits. These two misconfigurations, when combined, significantly lower the bar for successful supply-chain style attacks or privilege escalation through fake installers.
@@ -6391,6 +6396,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-7514](https://github.com/RandomRobbieBF/CVE-2024-7514)
+
+### CVE-2024-7591 (2024-09-05)
+
+<code>Improper Input Validation vulnerability in Progress LoadMaster allows OS Command Injection.This issue affects:\n\n* LoadMaster: 7.2.40.0 and above\n\n* ECS: All versions\n\n* Multi-Tenancy: 7.1.35.4 and above
+</code>
+
+- [butyraldehyde/CVE-2024-7591-PoC](https://github.com/butyraldehyde/CVE-2024-7591-PoC)
 
 ### CVE-2024-7593 (2024-08-13)
 
@@ -10435,7 +10447,11 @@
 
 - [truonghuuphuc/CVE-2024-32523-Poc](https://github.com/truonghuuphuc/CVE-2024-32523-Poc)
 
-### CVE-2024-32640
+### CVE-2024-32640 (2025-08-11)
+
+<code>MASA CMS is an Enterprise Content Management platform based on open source technology. Versions prior to 7.4.6, 7.3.13, and 7.2.8 contain a SQL injection vulnerability in the `processAsyncObject` method that can result in remote code execution. Versions 7.4.6, 7.3.13, and 7.2.8 contain a fix for the issue.
+</code>
+
 - [Stuub/CVE-2024-32640-SQLI-MuraCMS](https://github.com/Stuub/CVE-2024-32640-SQLI-MuraCMS)
 - [0xYumeko/CVE-2024-32640-SQLI-MuraCMS](https://github.com/0xYumeko/CVE-2024-32640-SQLI-MuraCMS)
 - [sammings/CVE-2024-32640](https://github.com/sammings/CVE-2024-32640)
@@ -12892,6 +12908,13 @@
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
+
+### CVE-2024-47533 (2024-11-18)
+
+<code>Cobbler, a Linux installation server that allows for rapid setup of network installation environments, has an improper authentication vulnerability starting in version 3.0.0 and prior to versions 3.2.3 and 3.3.7. `utils.get_shared_secret()` always returns `-1`, which allows anyone to connect to cobbler XML-RPC as user `''` password `-1` and make any changes. This gives anyone with network access to a cobbler server full control of the server. Versions 3.2.3 and 3.3.7 fix the issue.
+</code>
+
+- [baph00met/CVE-2024-47533](https://github.com/baph00met/CVE-2024-47533)
 
 ### CVE-2024-47575 (2024-10-23)
 
