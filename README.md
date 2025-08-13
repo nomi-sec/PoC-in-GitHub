@@ -1260,6 +1260,7 @@
 </code>
 
 - [Yuri08loveElaina/CVE-2025-20124_and_CVE-2025-20125](https://github.com/Yuri08loveElaina/CVE-2025-20124_and_CVE-2025-20125)
+- [137f/Cisco-ISE-3.0---Remote-Code-Execution-RCE-](https://github.com/137f/Cisco-ISE-3.0---Remote-Code-Execution-RCE-)
 
 ### CVE-2025-20281 (2025-06-25)
 
@@ -3849,8 +3850,6 @@
 - [Anezatraa/CVE-2025-48384-submodule](https://github.com/Anezatraa/CVE-2025-48384-submodule)
 - [IK-20211125/CVE-2025-48384](https://github.com/IK-20211125/CVE-2025-48384)
 - [elprogramadorgt/CVE-2025-48384](https://github.com/elprogramadorgt/CVE-2025-48384)
-- [rtefx/CVE-2025-48384](https://github.com/rtefx/CVE-2025-48384)
-- [rtefx/CVE-2025-48384-2](https://github.com/rtefx/CVE-2025-48384-2)
 - [f1shh/CVE-2025-48384](https://github.com/f1shh/CVE-2025-48384)
 - [fluoworite/CVE-2025-48384](https://github.com/fluoworite/CVE-2025-48384)
 - [fluoworite/CVE-2025-48384-sub](https://github.com/fluoworite/CVE-2025-48384-sub)
@@ -4203,6 +4202,9 @@
 
 - [Kai-One001/Letta-CVE-2025-51482-RCE](https://github.com/Kai-One001/Letta-CVE-2025-51482-RCE)
 
+### CVE-2025-51529
+- [piotrmaciejbednarski/CVE-2025-51529](https://github.com/piotrmaciejbednarski/CVE-2025-51529)
+
 ### CVE-2025-51643
 - [NastyCrow/CVE-2025-51643](https://github.com/NastyCrow/CVE-2025-51643)
 
@@ -4425,6 +4427,13 @@
 - [SDX442/CVE-2025-53770](https://github.com/SDX442/CVE-2025-53770)
 - [Agampreet-Singh/CVE-2025-53770](https://github.com/Agampreet-Singh/CVE-2025-53770)
 
+### CVE-2025-53778 (2025-08-12)
+
+<code>Improper authentication in Windows NTLM allows an authorized attacker to elevate privileges over a network.
+</code>
+
+- [OxPloited/CVE-2025-53778-Exploit](https://github.com/OxPloited/CVE-2025-53778-Exploit)
+
 ### CVE-2025-53786 (2025-08-06)
 
 <code>On April 18th 2025, Microsoft announced Exchange Server Security Changes for Hybrid Deployments and accompanying non-security Hot Fix. Microsoft made these changes in the general interest of improving the security of hybrid Exchange deployments. Following further investigation, Microsoft identified specific security implications tied to the guidance and configuration steps outlined in the April announcement. Microsoft is issuing CVE-2025-53786 to document a vulnerability that is addressed by taking the steps documented with the April 18th announcement. Microsoft strongly recommends reading the information, installing the April 2025 (or later) Hot Fix and implementing the changes in your Exchange Server and hybrid environment.
@@ -4534,13 +4543,6 @@
 </code>
 
 - [AdityaBhatt3010/CVE-2025-54794-Hijacking-Claude-AI-with-a-Prompt-Injection-The-Jailbreak-That-Talked-Back](https://github.com/AdityaBhatt3010/CVE-2025-54794-Hijacking-Claude-AI-with-a-Prompt-Injection-The-Jailbreak-That-Talked-Back)
-
-### CVE-2025-54887 (2025-08-08)
-
-<code>jwe is a Ruby implementation of the RFC 7516 JSON Web Encryption (JWE) standard. In versions 1.1.0 and below, authentication tags of encrypted JWEs can be brute forced, which may result in loss of confidentiality for those JWEs and provide ways to craft arbitrary JWEs. This puts users at risk because JWEs can be modified to decrypt to an arbitrary value, decrypted by observing parsing differences and the GCM internal GHASH key can be recovered. Users are affected by this vulnerability even if they do not use an AES-GCM encryption algorithm for their JWEs. As the GHASH key may have been leaked, users must rotate the encryption keys after upgrading. This issue is fixed in version 1.1.1.
-</code>
-
-- [shinigami-777/PoC_CVE-2025-54887](https://github.com/shinigami-777/PoC_CVE-2025-54887)
 
 ### CVE-2025-54948 (2025-08-05)
 
@@ -10395,13 +10397,6 @@
 
 - [xbz0n/CVE-2024-32136](https://github.com/xbz0n/CVE-2024-32136)
 
-### CVE-2024-32167 (2024-06-10)
-
-<code>Sourcecodester Online Medicine Ordering System 1.0 is vulnerable to Arbitrary file deletion vulnerability as the backend settings have the function of deleting pictures to delete any files.
-</code>
-
-- [Narsimhareddy28/CVE-2024-32167](https://github.com/Narsimhareddy28/CVE-2024-32167)
-
 ### CVE-2024-32205
 - [Lucky-lm/CVE-2024-32205](https://github.com/Lucky-lm/CVE-2024-32205)
 
@@ -11222,13 +11217,6 @@
 
 - [bartfroklage/CVE-2024-37383-POC](https://github.com/bartfroklage/CVE-2024-37383-POC)
 - [amirzargham/CVE-2024-37383-exploit](https://github.com/amirzargham/CVE-2024-37383-exploit)
-
-### CVE-2024-37388 (2024-06-07)
-
-<code>An XML External Entity (XXE) vulnerability in the ebookmeta.get_metadata function of lxml before v4.9.1 allows attackers to access sensitive information or cause a Denial of Service (DoS) via crafted XML input.
-</code>
-
-- [Narsimhareddy28/cve-2024-37388](https://github.com/Narsimhareddy28/cve-2024-37388)
 
 ### CVE-2024-37393 (2024-06-10)
 
