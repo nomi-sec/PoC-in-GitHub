@@ -867,6 +867,7 @@
 </code>
 
 - [itsShotgun/chrome_v8_cve_checker](https://github.com/itsShotgun/chrome_v8_cve_checker)
+- [riemannj/CVE-2025-5419](https://github.com/riemannj/CVE-2025-5419)
 
 ### CVE-2025-5640 (2025-06-05)
 
@@ -1203,6 +1204,7 @@
 - [jordan922/CVE-2025-8088](https://github.com/jordan922/CVE-2025-8088)
 - [travisbgreen/cve-2025-8088](https://github.com/travisbgreen/cve-2025-8088)
 - [knight0x07/WinRAR-CVE-2025-8088-PoC-RAR](https://github.com/knight0x07/WinRAR-CVE-2025-8088-PoC-RAR)
+- [sxyrxyy/CVE-2025-8088-WinRAR-Proof-of-Concept-PoC-Exploit-](https://github.com/sxyrxyy/CVE-2025-8088-WinRAR-Proof-of-Concept-PoC-Exploit-)
 
 ### CVE-2025-8191 (2025-07-26)
 
@@ -3864,6 +3866,7 @@
 - [beishanxueyuan/CVE-2025-48384](https://github.com/beishanxueyuan/CVE-2025-48384)
 - [beishanxueyuan/CVE-2025-48384-test](https://github.com/beishanxueyuan/CVE-2025-48384-test)
 - [jideasn/cve-2025-48384](https://github.com/jideasn/cve-2025-48384)
+- [testtianmaaaa/CVE-2025-48384](https://github.com/testtianmaaaa/CVE-2025-48384)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -4033,6 +4036,7 @@
 </code>
 
 - [zenzue/CVE-2025-50154](https://github.com/zenzue/CVE-2025-50154)
+- [rubenformation/CVE-2025-50154](https://github.com/rubenformation/CVE-2025-50154)
 
 ### CVE-2025-50286 (2025-08-06)
 
@@ -19350,6 +19354,7 @@
 </code>
 
 - [alfiecg24/Trigon](https://github.com/alfiecg24/Trigon)
+- [rkrakesh524/oob_entry](https://github.com/rkrakesh524/oob_entry)
 
 ### CVE-2023-32560 (2023-08-10)
 
@@ -31260,8 +31265,8 @@
 - [eversinc33/NimNightmare](https://github.com/eversinc33/NimNightmare)
 - [TheJoyOfHacking/cube0x0-CVE-2021-1675](https://github.com/TheJoyOfHacking/cube0x0-CVE-2021-1675)
 - [TheJoyOfHacking/calebstewart-CVE-2021-1675](https://github.com/TheJoyOfHacking/calebstewart-CVE-2021-1675)
-- [jj4152/cve-2021-1675](https://github.com/jj4152/cve-2021-1675)
 - [r1skkam/PrintNightmare](https://github.com/r1skkam/PrintNightmare)
+- [000Tonio/cve-2021-1675](https://github.com/000Tonio/cve-2021-1675)
 - [peckre/PNCVE-Win10-20H2-Exploit](https://github.com/peckre/PNCVE-Win10-20H2-Exploit)
 - [whoami-chmod777/CVE-2021-1675-CVE-2021-34527](https://github.com/whoami-chmod777/CVE-2021-1675-CVE-2021-34527)
 - [whoami-chmod777/CVE-2021-1675---PrintNightmare-LPE-PowerShell-](https://github.com/whoami-chmod777/CVE-2021-1675---PrintNightmare-LPE-PowerShell-)
@@ -50891,6 +50896,7 @@
 - [h3x0v3rl0rd/MS17-010](https://github.com/h3x0v3rl0rd/MS17-010)
 - [Mafiosohack/offensive-security-lab-1](https://github.com/Mafiosohack/offensive-security-lab-1)
 - [Cedric-Martz/EthernalBlue_report](https://github.com/Cedric-Martz/EthernalBlue_report)
+- [benguelmas/cve-2017-0143](https://github.com/benguelmas/cve-2017-0143)
 
 ### CVE-2017-0144 (2017-03-17)
 
