@@ -3089,6 +3089,7 @@
 - [vigilante-1337/CVE-2025-32433](https://github.com/vigilante-1337/CVE-2025-32433)
 - [B1ack4sh/Blackash-CVE-2025-32433](https://github.com/B1ack4sh/Blackash-CVE-2025-32433)
 - [Yuri08loveElaina/CVE-2025-32433-Erlang-OTP-SSH-Pre-Auth-RCE-exploit](https://github.com/Yuri08loveElaina/CVE-2025-32433-Erlang-OTP-SSH-Pre-Auth-RCE-exploit)
+- [NiteeshPujari/CVE-2025-32433-PoC](https://github.com/NiteeshPujari/CVE-2025-32433-PoC)
 
 ### CVE-2025-32462 (2025-06-30)
 
@@ -3748,6 +3749,13 @@
 
 - [Haluka92/CVE-2025-47423](https://github.com/Haluka92/CVE-2025-47423)
 
+### CVE-2025-47533 (2025-05-07)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in Iqonic Design Graphina allows PHP Local File Inclusion. This issue affects Graphina: from n/a through 3.0.4.
+</code>
+
+- [zs1n/CVE-2024-47533](https://github.com/zs1n/CVE-2024-47533)
+
 ### CVE-2025-47539 (2025-05-23)
 
 <code>Incorrect Privilege Assignment vulnerability in Themewinter Eventin allows Privilege Escalation. This issue affects Eventin: from n/a through 4.0.26.
@@ -4018,6 +4026,13 @@
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
+
+### CVE-2025-50154 (2025-08-12)
+
+<code>Exposure of sensitive information to an unauthorized actor in Windows File Explorer allows an unauthorized attacker to perform spoofing over a network.
+</code>
+
+- [zenzue/CVE-2025-50154](https://github.com/zenzue/CVE-2025-50154)
 
 ### CVE-2025-50286 (2025-08-06)
 
@@ -12930,6 +12945,7 @@
 - [baph00met/CVE-2024-47533](https://github.com/baph00met/CVE-2024-47533)
 - [dollarboysushil/CVE-2024-47533-Cobbler-XMLRPC-Authentication-Bypass-RCE-Exploit-POC](https://github.com/dollarboysushil/CVE-2024-47533-Cobbler-XMLRPC-Authentication-Bypass-RCE-Exploit-POC)
 - [00xCanelo/CVE-2024-47533-PoC](https://github.com/00xCanelo/CVE-2024-47533-PoC)
+- [zs1n/CVE-2024-47533](https://github.com/zs1n/CVE-2024-47533)
 
 ### CVE-2024-47575 (2024-10-23)
 
