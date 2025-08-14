@@ -1205,6 +1205,7 @@
 - [travisbgreen/cve-2025-8088](https://github.com/travisbgreen/cve-2025-8088)
 - [knight0x07/WinRAR-CVE-2025-8088-PoC-RAR](https://github.com/knight0x07/WinRAR-CVE-2025-8088-PoC-RAR)
 - [sxyrxyy/CVE-2025-8088-WinRAR-Proof-of-Concept-PoC-Exploit-](https://github.com/sxyrxyy/CVE-2025-8088-WinRAR-Proof-of-Concept-PoC-Exploit-)
+- [onlytoxi/CVE-2025-8088-Winrar-Tool](https://github.com/onlytoxi/CVE-2025-8088-Winrar-Tool)
 
 ### CVE-2025-8191 (2025-07-26)
 
@@ -1811,6 +1812,7 @@
 - [alaxar/CVE-2025-24893](https://github.com/alaxar/CVE-2025-24893)
 - [D3Ext/CVE-2025-24893](https://github.com/D3Ext/CVE-2025-24893)
 - [Retro023/CVE-2025-24893-POC](https://github.com/Retro023/CVE-2025-24893-POC)
+- [CMassa/CVE-2025-24893](https://github.com/CMassa/CVE-2025-24893)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -4095,6 +4097,9 @@
 
 - [Landw-hub/CVE-2025-50422](https://github.com/Landw-hub/CVE-2025-50422)
 
+### CVE-2025-50428
+- [security-smarttecs/cve-2025-50428](https://github.com/security-smarttecs/cve-2025-50428)
+
 ### CVE-2025-50460 (2025-08-01)
 
 <code>A remote code execution (RCE) vulnerability exists in the ms-swift project version 3.3.0 due to unsafe deserialization in tests/run.py using yaml.load() from the PyYAML library (versions = 5.3.1). If an attacker can control the content of the YAML configuration file passed to the --run_config parameter, arbitrary code can be executed during deserialization. This can lead to full system compromise. The vulnerability is triggered when a malicious YAML file is loaded, allowing the execution of arbitrary Python commands such as os.system(). It is recommended to upgrade PyYAML to version 5.4 or higher, and to use yaml.safe_load() to mitigate the issue.
@@ -4504,7 +4509,7 @@
 <code>Cursor is a code editor built for programming with AI. Cursor allows writing in-workspace files with no user approval in versions below 1.3.9, If the file is a dotfile, editing it requires approval but creating a new one doesn't. Hence, if sensitive MCP files, such as the .cursor/mcp.json file don't already exist in the workspace, an attacker can chain a indirect prompt injection vulnerability to hijack the context to write to the settings file and trigger RCE on the victim without user approval. This is fixed in version 1.3.9.
 </code>
 
-- [allinsthon/CVE-2025-54135](https://github.com/allinsthon/CVE-2025-54135)
+- [anntsmart/CVE-2025-54135](https://github.com/anntsmart/CVE-2025-54135)
 - [Cbdlll/test-mcp](https://github.com/Cbdlll/test-mcp)
 
 ### CVE-2025-54253 (2025-08-05)
@@ -4594,13 +4599,6 @@
 </code>
 
 - [shinigami-777/PoC_CVE-2025-54887](https://github.com/shinigami-777/PoC_CVE-2025-54887)
-
-### CVE-2025-54948 (2025-08-05)
-
-<code>A vulnerability in Trend Micro Apex One (on-premise) management console could allow a pre-authenticated remote attacker to upload malicious code and execute commands on affected installations.
-</code>
-
-- [allinsthon/CVE-2025-54948](https://github.com/allinsthon/CVE-2025-54948)
 
 ### CVE-2025-54962 (2025-08-04)
 
@@ -9323,6 +9321,12 @@
 </code>
 
 - [i-100-user/CVE-2024-25897](https://github.com/i-100-user/CVE-2024-25897)
+
+### CVE-2024-26009 (2025-08-12)
+
+<code>An authentication bypass using an alternate path or channel [CWE-288] vulnerability in Fortinet FortiOS version 6.4.0 through 6.4.15</code>
+
+- [allinsthon/CVE-2024-26009](https://github.com/allinsthon/CVE-2024-26009)
 
 ### CVE-2024-26026 (2024-05-08)
 
@@ -15387,13 +15391,6 @@
 
 - [Any3ite/CVE-2023-2523](https://github.com/Any3ite/CVE-2023-2523)
 - [werwolfz/cve-2023-2523-and-cve-2023-2648](https://github.com/werwolfz/cve-2023-2523-and-cve-2023-2648)
-
-### CVE-2023-2533 (2023-06-20)
-
-<code>A Cross-Site Request Forgery (CSRF) vulnerability has been identified in\nPaperCut NG/MF, which, under specific conditions, could potentially enable\nan attacker to alter security settings or execute arbitrary code. This could\nbe exploited if the target is an admin with a current login session. Exploiting\nthis would typically involve the possibility of deceiving an admin into clicking\na specially crafted malicious link, potentially leading to unauthorized changes.\n
-</code>
-
-- [allinsthon/CVE-2023-2533](https://github.com/allinsthon/CVE-2023-2533)
 
 ### CVE-2023-2579 (2023-07-17)
 
@@ -26200,7 +26197,7 @@
 </code>
 
 - [ColdFusionX/CVE-2022-24124](https://github.com/ColdFusionX/CVE-2022-24124)
-- [0xAbbarhSF/CVE-2022-24124](https://github.com/0xAbbarhSF/CVE-2022-24124)
+- [ar2o3/CVE-2022-24124](https://github.com/ar2o3/CVE-2022-24124)
 - [b1gdog/CVE-2022-24124](https://github.com/b1gdog/CVE-2022-24124)
 
 ### CVE-2022-24125 (2022-03-20)
@@ -26779,7 +26776,7 @@
 </code>
 
 - [Pear1y/CVE-2022-26133](https://github.com/Pear1y/CVE-2022-26133)
-- [0xAbbarhSF/CVE-2022-26133](https://github.com/0xAbbarhSF/CVE-2022-26133)
+- [ar2o3/CVE-2022-26133](https://github.com/ar2o3/CVE-2022-26133)
 
 ### CVE-2022-26134 (2022-06-03)
 
@@ -27791,7 +27788,7 @@
 - [winstxnhdw/CVE-2022-30190](https://github.com/winstxnhdw/CVE-2022-30190)
 - [Imeneallouche/Follina-attack-CVE-2022-30190-](https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-)
 - [mattjmillner/CVE-Smackdown](https://github.com/mattjmillner/CVE-Smackdown)
-- [0xAbbarhSF/FollinaXploit](https://github.com/0xAbbarhSF/FollinaXploit)
+- [ar2o3/FollinaXploit](https://github.com/ar2o3/FollinaXploit)
 - [Nyx2022/Follina-CVE-2022-30190-Sample](https://github.com/Nyx2022/Follina-CVE-2022-30190-Sample)
 - [michealadams30/Cve-2022-30190](https://github.com/michealadams30/Cve-2022-30190)
 - [melting0256/Enterprise-Cybersecurity](https://github.com/melting0256/Enterprise-Cybersecurity)
@@ -33058,7 +33055,7 @@
 <code>The WP User Frontend WordPress plugin before 3.5.26 does not validate and escape the status parameter before using it in a SQL statement in the Subscribers dashboard, leading to an SQL injection. Due to the lack of sanitisation and escaping, this could also lead to Reflected Cross-Site Scripting
 </code>
 
-- [0xAbbarhSF/CVE-2021-25076](https://github.com/0xAbbarhSF/CVE-2021-25076)
+- [ar2o3/CVE-2021-25076](https://github.com/ar2o3/CVE-2021-25076)
 
 ### CVE-2021-25094 (2022-04-25)
 
@@ -38681,7 +38678,7 @@
 - [Dido1960/Weblogic-CVE-2020-2551-To-Internet](https://github.com/Dido1960/Weblogic-CVE-2020-2551-To-Internet)
 - [DaMinGshidashi/CVE-2020-2551](https://github.com/DaMinGshidashi/CVE-2020-2551)
 - [LTiDi2000/CVE-2020-2551](https://github.com/LTiDi2000/CVE-2020-2551)
-- [0xAbbarhSF/CVE-Exploit](https://github.com/0xAbbarhSF/CVE-Exploit)
+- [ar2o3/CVE-Exploit](https://github.com/ar2o3/CVE-Exploit)
 
 ### CVE-2020-2555 (2020-01-15)
 
@@ -42757,7 +42754,7 @@
 <code>A file upload restriction bypass vulnerability in Pluck CMS before 4.7.13 allows an admin privileged user to gain access in the host through the &quot;manage files&quot; functionality, which may result in remote code execution.
 </code>
 
-- [0xAbbarhSF/CVE-2020-29607](https://github.com/0xAbbarhSF/CVE-2020-29607)
+- [ar2o3/CVE-2020-29607](https://github.com/ar2o3/CVE-2020-29607)
 - [0xN7y/CVE-2020-29607](https://github.com/0xN7y/CVE-2020-29607)
 - [Alienfader/CVE-2020-29607](https://github.com/Alienfader/CVE-2020-29607)
 
@@ -52591,6 +52588,7 @@
 - [jadeapar/Dragonfish-s-Malware-Cyber-Analysis](https://github.com/jadeapar/Dragonfish-s-Malware-Cyber-Analysis)
 - [yaseenibnakhtar/001-Malware-Analysis-CVE-2017-11882](https://github.com/yaseenibnakhtar/001-Malware-Analysis-CVE-2017-11882)
 - [xdrake1010/CVE-2017-11882-Preventer](https://github.com/xdrake1010/CVE-2017-11882-Preventer)
+- [imkidz0/CVE-2017-11882](https://github.com/imkidz0/CVE-2017-11882)
 
 ### CVE-2017-11907 (2017-12-12)
 
