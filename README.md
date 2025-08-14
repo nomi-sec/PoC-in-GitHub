@@ -4557,6 +4557,7 @@
 </code>
 
 - [Mr-xn/CVE-2025-54424](https://github.com/Mr-xn/CVE-2025-54424)
+- [hophtien/CVE-2025-54424](https://github.com/hophtien/CVE-2025-54424)
 
 ### CVE-2025-54554 (2025-08-04)
 
@@ -10725,6 +10726,7 @@
 - [wubinworks/magento2-encryption-key-manager-cli](https://github.com/wubinworks/magento2-encryption-key-manager-cli)
 - [mksundaram69/CVE-2024-34102](https://github.com/mksundaram69/CVE-2024-34102)
 - [Koray123-debug/CVE-2024-34102](https://github.com/Koray123-debug/CVE-2024-34102)
+- [Kento-Sec/CVE-2024-34102](https://github.com/Kento-Sec/CVE-2024-34102)
 
 ### CVE-2024-34144 (2024-05-02)
 
@@ -12993,6 +12995,7 @@
 - [dollarboysushil/CVE-2024-47533-Cobbler-XMLRPC-Authentication-Bypass-RCE-Exploit-POC](https://github.com/dollarboysushil/CVE-2024-47533-Cobbler-XMLRPC-Authentication-Bypass-RCE-Exploit-POC)
 - [00xCanelo/CVE-2024-47533-PoC](https://github.com/00xCanelo/CVE-2024-47533-PoC)
 - [zs1n/CVE-2024-47533](https://github.com/zs1n/CVE-2024-47533)
+- [okkotsu1/CVE-2024-47533](https://github.com/okkotsu1/CVE-2024-47533)
 
 ### CVE-2024-47575 (2024-10-23)
 
@@ -27804,6 +27807,7 @@
 - [Potato-9257/CVE-2022-30190_page](https://github.com/Potato-9257/CVE-2022-30190_page)
 - [yeep1115/ICT287_CVE-2022-30190_Exploit](https://github.com/yeep1115/ICT287_CVE-2022-30190_Exploit)
 - [RathoreAbhiii/Folina-Vulnerability-Exploitation-Detection-and-Mitigation](https://github.com/RathoreAbhiii/Folina-Vulnerability-Exploitation-Detection-and-Mitigation)
+- [seinab-ibrahim/Follina-Vulnerability-CVE-2022-30190-Exploit-Analysis](https://github.com/seinab-ibrahim/Follina-Vulnerability-CVE-2022-30190-Exploit-Analysis)
 
 ### CVE-2022-30203 (2022-07-12)
 
@@ -31311,6 +31315,7 @@
 - [CameraShutterBug/PrintNightmare](https://github.com/CameraShutterBug/PrintNightmare)
 - [DLL00P/CVE-2021-1675](https://github.com/DLL00P/CVE-2021-1675)
 - [GlacierGossip/PrintNightmare](https://github.com/GlacierGossip/PrintNightmare)
+- [ArtAtrium/PrintNightmare](https://github.com/ArtAtrium/PrintNightmare)
 
 ### CVE-2021-1678 (2021-01-12)
 
@@ -37285,7 +37290,6 @@
 <code>Reflected Cross-site scripting (XSS) vulnerability in RosarioSIS 8.2.1 allows attackers to inject arbitrary HTML via the search_term parameter in the modules/Scheduling/Courses.php script.
 </code>
 
-- [86x/CVE-2021-45416](https://github.com/86x/CVE-2021-45416)
 - [dnr6419/CVE-2021-45416](https://github.com/dnr6419/CVE-2021-45416)
 
 ### CVE-2021-45428 (2022-01-03)
@@ -47324,6 +47328,7 @@
 - [amr9k8/jwt-spoof-tool](https://github.com/amr9k8/jwt-spoof-tool)
 - [z-bool/Venom-JWT](https://github.com/z-bool/Venom-JWT)
 - [sealldeveloper/CVE-2018-0114-PoC](https://github.com/sealldeveloper/CVE-2018-0114-PoC)
+- [n0m-d/CVE-2018-0114-Go](https://github.com/n0m-d/CVE-2018-0114-Go)
 
 ### CVE-2018-0171 (2018-03-28)
 
@@ -53209,6 +53214,13 @@
 </code>
 
 - [h0cksr/Fastjson--CVE-2017-18349-](https://github.com/h0cksr/Fastjson--CVE-2017-18349-)
+
+### CVE-2017-18362 (2019-02-05)
+
+<code>ConnectWise ManagedITSync integration through 2017 for Kaseya VSA is vulnerable to unauthenticated remote commands that allow full direct access to the Kaseya VSA database. In February 2019, attackers have actively exploited this in the wild to download and execute ransomware payloads on all endpoints managed by the VSA server. If the ManagedIT.asmx page is available via the Kaseya VSA web interface, anyone with access to the page is able to run arbitrary SQL queries, both read and write, without authentication.
+</code>
+
+- [yawningmoney/CVE-2017-18362-LAB](https://github.com/yawningmoney/CVE-2017-18362-LAB)
 
 ### CVE-2017-18486 (2019-08-09)
 
