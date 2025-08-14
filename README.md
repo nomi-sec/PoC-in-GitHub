@@ -4468,6 +4468,7 @@
 - [SDX442/CVE-2025-53770](https://github.com/SDX442/CVE-2025-53770)
 - [Agampreet-Singh/CVE-2025-53770](https://github.com/Agampreet-Singh/CVE-2025-53770)
 - [CyprianAtsyor/ToolShell-CVE-2025-53770-SharePoint-Exploit-Lab-LetsDefend](https://github.com/CyprianAtsyor/ToolShell-CVE-2025-53770-SharePoint-Exploit-Lab-LetsDefend)
+- [ghostn4444/CVE-2025-53770](https://github.com/ghostn4444/CVE-2025-53770)
 
 ### CVE-2025-53773 (2025-08-12)
 
