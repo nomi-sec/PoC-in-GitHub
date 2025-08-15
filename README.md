@@ -13290,7 +13290,7 @@
 - [DeividasTerechovas/SOC335-CVE-2024-49138-Exploitation-Detected](https://github.com/DeividasTerechovas/SOC335-CVE-2024-49138-Exploitation-Detected)
 - [CyprianAtsyor/letsdefend-cve-2024-49138-investigation](https://github.com/CyprianAtsyor/letsdefend-cve-2024-49138-investigation)
 - [Glitch-ao/SOC335-CVE-2024-49138-Exploitation-Detected](https://github.com/Glitch-ao/SOC335-CVE-2024-49138-Exploitation-Detected)
-- [1rhino2/DLang-file-encryptor](https://github.com/1rhino2/DLang-file-encryptor)
+- [1rhino2/SCRAPPED](https://github.com/1rhino2/SCRAPPED)
 - [onixgod/SOC335-Event-ID-313-CVE-2024-49138-Exploitation-Detected--Lest-Defend-Writeup](https://github.com/onixgod/SOC335-Event-ID-313-CVE-2024-49138-Exploitation-Detected--Lest-Defend-Writeup)
 
 ### CVE-2024-49328 (2024-10-20)
@@ -30533,7 +30533,7 @@
 - [straight-tamago/DockTransparent](https://github.com/straight-tamago/DockTransparent)
 - [straight-tamago/FileSwitcherX](https://github.com/straight-tamago/FileSwitcherX)
 - [bomberfish/Mandela-Legacy](https://github.com/bomberfish/Mandela-Legacy)
-- [bomberfish/JailedCement](https://github.com/bomberfish/JailedCement)
+- [iswaxan/JailedCement](https://github.com/iswaxan/JailedCement)
 - [bomberfish/Mandela-Classic](https://github.com/bomberfish/Mandela-Classic)
 - [enty8080/MacDirtyCow](https://github.com/enty8080/MacDirtyCow)
 - [tdquang266/MDC](https://github.com/tdquang266/MDC)
