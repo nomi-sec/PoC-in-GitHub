@@ -1207,7 +1207,11 @@
 - [sxyrxyy/CVE-2025-8088-WinRAR-Proof-of-Concept-PoC-Exploit-](https://github.com/sxyrxyy/CVE-2025-8088-WinRAR-Proof-of-Concept-PoC-Exploit-)
 - [onlytoxi/CVE-2025-8088-Winrar-Tool](https://github.com/onlytoxi/CVE-2025-8088-Winrar-Tool)
 
-### CVE-2025-8091
+### CVE-2025-8091 (2025-08-15)
+
+<code>The EventON Lite plugin for WordPress is vulnerable to Information Exposure in all versions less than, or equal to, 2.4.6 via the add_single_eventon and add_eventon shortcodes due to insufficient restrictions on which posts can be included. This makes it possible for unauthenticated attackers to extract data from password protected, private, or draft posts that they should not have access to.
+</code>
+
 - [MooseLoveti/EventON-Lite-CVE-Report](https://github.com/MooseLoveti/EventON-Lite-CVE-Report)
 
 ### CVE-2025-8191 (2025-07-26)
@@ -1251,6 +1255,13 @@
 </code>
 
 - [byteReaper77/CVE-2025-8730](https://github.com/byteReaper77/CVE-2025-8730)
+
+### CVE-2025-9043 (2025-08-14)
+
+<code>The service executable path in Seagate Toolkit on Versions prior to 2.34.0.33 on Windows allows an attacker with Admin privileges to exploit a vulnerability as classified under CWE-428: Unquoted Search Path or Element. An attacker with write permissions to the root could place a malicious Program.exe file, which would execute with SYSTEM privileges.
+</code>
+
+- [Tiger3080/CVE-2025-9043](https://github.com/Tiger3080/CVE-2025-9043)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -6149,6 +6160,7 @@
 
 - [EQSTLab/CVE-2024-5932](https://github.com/EQSTLab/CVE-2024-5932)
 - [OxLmahdi/cve-2024-5932](https://github.com/OxLmahdi/cve-2024-5932)
+- [hlc23/CVE-2024-5932-web-ui](https://github.com/hlc23/CVE-2024-5932-web-ui)
 
 ### CVE-2024-5947 (2024-06-13)
 
@@ -19897,6 +19909,13 @@
 
 - [mbadanoiu/CVE-2023-34468](https://github.com/mbadanoiu/CVE-2023-34468)
 
+### CVE-2023-34478 (2023-07-24)
+
+<code>Apache Shiro, before 1.12.0 or 2.0.0-alpha-3, may be susceptible to a path traversal attack that results in an authentication bypass when used together with APIs or other web frameworks that route requests based on non-normalized requests.\n\nMitigation: Update to Apache Shiro 1.12.0+ or 2.0.0-alpha-3+
+</code>
+
+- [shoucheng3/apache__shiro_CVE-2023-34478_1-11-0](https://github.com/shoucheng3/apache__shiro_CVE-2023-34478_1-11-0)
+
 ### CVE-2023-34537 (2023-06-13)
 
 <code>A Reflected XSS was discovered in HotelDruid version 3.0.5, an attacker can issue malicious code/command on affected webpage's parameter to trick user on browser and/or exfiltrate data.
@@ -25950,6 +25969,13 @@
 - [hadrian3689/phpipam_1.4.4](https://github.com/hadrian3689/phpipam_1.4.4)
 - [bernauers/CVE-2022-23046](https://github.com/bernauers/CVE-2022-23046)
 
+### CVE-2022-23082 (2022-05-31)
+
+<code>In CureKit versions v1.0.1 through v1.1.3 are vulnerable to path traversal as the function isFileOutsideDir fails to sanitize the user input which may lead to path traversal.
+</code>
+
+- [shoucheng3/whitesource__curekit_CVE-2022-23082_1-1-3](https://github.com/shoucheng3/whitesource__curekit_CVE-2022-23082_1-1-3)
+
 ### CVE-2022-23093 (2024-02-15)
 
 <code>ping reads raw IP packets from the network to process responses in the pr_pack() function.  As part of processing a response ping has to reconstruct the IP header, the ICMP header and if present a &quot;quoted packet,&quot; which represents the packet that generated an ICMP error.  The quoted packet again has an IP header and an ICMP header.\n\nThe pr_pack() copies received IP and ICMP headers into stack buffers for further processing.  In so doing, it fails to take into account the possible presence of IP option headers following the IP header in either the response or the quoted packet.  When IP options are present, pr_pack() overflows the destination buffer by up to 40 bytes.\n\nThe memory safety bugs described above can be triggered by a remote host, causing the ping program to crash.\n\nThe ping process runs in a capability mode sandbox on all affected versions of FreeBSD and is thus very constrained in how it can interact with the rest of the system at the point where the bug can occur.
@@ -29062,6 +29088,20 @@
 
 - [SpiralBL0CK/CVE-2022-37332-RCE-](https://github.com/SpiralBL0CK/CVE-2022-37332-RCE-)
 
+### CVE-2022-37418 (2022-08-24)
+
+<code>The Remote Keyless Entry (RKE) receiving unit on certain Nissan, Kia, and Hyundai vehicles through 2017 allows remote attackers to perform unlock operations and force a resynchronization after capturing two consecutive valid key fob signals over the radio, aka a RollBack attack. The attacker retains the ability to unlock indefinitely.
+</code>
+
+- [thomasarmel/rollback_car_attack_proverif](https://github.com/thomasarmel/rollback_car_attack_proverif)
+
+### CVE-2022-37422 (2022-08-18)
+
+<code>Payara through 5.2022.2 allows directory traversal without authentication. This affects Payara Server, Payara Micro, and Payara Server Embedded.
+</code>
+
+- [shoucheng3/payara__Payara_CVE-2022-37422_5-2022-2](https://github.com/shoucheng3/payara__Payara_CVE-2022-37422_5-2022-2)
+
 ### CVE-2022-37434 (2022-08-05)
 
 <code>zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in inflate in inflate.c via a large gzip header extra field. NOTE: only applications that call inflateGetHeader are affected. Some common applications bundle the affected zlib source code but may be unable to call inflateGetHeader (e.g., see the nodejs/node reference).
@@ -32022,7 +32062,6 @@
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [glowbase/PwnKit-CVE-2021-4034](https://github.com/glowbase/PwnKit-CVE-2021-4034)
 - [OXDBXKXO/ez-pwnkit](https://github.com/OXDBXKXO/ez-pwnkit)
-- [HrishitJoshi/CVE-2021-4034](https://github.com/HrishitJoshi/CVE-2021-4034)
 - [Ankit-Ojha16/CVE-2021-4034](https://github.com/Ankit-Ojha16/CVE-2021-4034)
 - [G01d3nW01f/CVE-2021-4034](https://github.com/G01d3nW01f/CVE-2021-4034)
 - [drapl0n/pwnKit](https://github.com/drapl0n/pwnKit)
@@ -37156,6 +37195,13 @@
 </code>
 
 - [warmachine-57/CVE-2021-44582](https://github.com/warmachine-57/CVE-2021-44582)
+
+### CVE-2021-44667 (2022-03-11)
+
+<code>A Cross Site Scripting (XSS) vulnerability exists in Nacos 2.0.3 in auth/users via the (1) pageSize and (2) pageNo parameters.
+</code>
+
+- [shoucheng3/alibaba__nacos_CVE-2021-44667_2-0-3](https://github.com/shoucheng3/alibaba__nacos_CVE-2021-44667_2-0-3)
 
 ### CVE-2021-44731 (2022-02-17)
 
@@ -43123,6 +43169,14 @@
 - [jaychouzzk/CVE-2019-0193-exp](https://github.com/jaychouzzk/CVE-2019-0193-exp)
 - [freeFV/ApacheSolrRCE](https://github.com/freeFV/ApacheSolrRCE)
 
+### CVE-2019-0207 (2019-09-16)
+
+<code>Tapestry processes assets `/assets/ctx` using classes chain `StaticFilesFilter -&gt; AssetDispatcher -&gt; ContextResource`, which doesn't filter the character `\`, so attacker can perform a path traversal attack to read any files on Windows platform.
+</code>
+
+- [shoucheng3/asf__tapestry-5_CVE-2019-0207_5-4-4](https://github.com/shoucheng3/asf__tapestry-5_CVE-2019-0207_5-4-4)
+- [shoucheng3/tapestry-5-cve-2019-0207](https://github.com/shoucheng3/tapestry-5-cve-2019-0207)
+
 ### CVE-2019-0211 (2019-04-08)
 
 <code>In Apache HTTP Server 2.4 releases 2.4.17 to 2.4.38, with MPM event, worker or prefork, code executing in less-privileged child processes or threads (including scripts executed by an in-process scripting interpreter) could execute arbitrary code with the privileges of the parent process (usually root) by manipulating the scoreboard. Non-Unix systems are not affected.
@@ -44956,13 +45010,6 @@
 
 - [ignis-sec/CVE-2019-10008](https://github.com/ignis-sec/CVE-2019-10008)
 
-### CVE-2019-10077 (2019-05-20)
-
-<code>A carefully crafted InterWiki link could trigger an XSS vulnerability on Apache JSPWiki 2.9.0 to 2.11.0.M3, which could lead to session hijacking.
-</code>
-
-- [shoucheng3/apache__jspwiki_CVE-2019-10077_2.11.0.M3](https://github.com/shoucheng3/apache__jspwiki_CVE-2019-10077_2.11.0.M3)
-
 ### CVE-2019-10086 (2019-08-20)
 
 <code>In Apache Commons Beanutils 1.9.2, a special BeanIntrospector class was added which allows suppressing the ability for an attacker to access the classloader via the class property available on all Java objects. We, however were not using this by default characteristic of the PropertyUtilsBean.
@@ -45029,6 +45076,7 @@
 
 - [jas502n/CVE-2019-10392](https://github.com/jas502n/CVE-2019-10392)
 - [ftk-sostupid/CVE-2019-10392_EXP](https://github.com/ftk-sostupid/CVE-2019-10392_EXP)
+- [shoucheng3/jenkinsci__git-client-plugin_CVE-2019-10392_2-8-4](https://github.com/shoucheng3/jenkinsci__git-client-plugin_CVE-2019-10392_2-8-4)
 
 ### CVE-2019-10475 (2019-10-23)
 
@@ -46704,6 +46752,13 @@
 - [shadow-horse/CVE-2019-17571](https://github.com/shadow-horse/CVE-2019-17571)
 - [Al1ex/CVE-2019-17571](https://github.com/Al1ex/CVE-2019-17571)
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
+
+### CVE-2019-17572 (2020-05-14)
+
+<code>In Apache RocketMQ 4.2.0 to 4.6.0, when the automatic topic creation in the broker is turned on by default, an evil topic like “../../../../topic2020” is sent from rocketmq-client to the broker, a topic folder will be created in the parent directory in brokers, which leads to a directory traversal vulnerability. Users of the affected versions should apply one of the following: Upgrade to Apache RocketMQ 4.6.1 or later.
+</code>
+
+- [shoucheng3/apache__rocketmq_CVE-2019-17572_4-6-0](https://github.com/shoucheng3/apache__rocketmq_CVE-2019-17572_4-6-0)
 
 ### CVE-2019-17596 (2019-10-24)
 
@@ -49467,7 +49522,7 @@
 - [cved-sources/cve-2018-11776](https://github.com/cved-sources/cve-2018-11776)
 - [OzNetNerd/apche-struts-vuln-demo-cve-2018-11776](https://github.com/OzNetNerd/apche-struts-vuln-demo-cve-2018-11776)
 - [cucadili/CVE-2018-11776](https://github.com/cucadili/CVE-2018-11776)
-- [ArunBhandarii/Apache-Struts-0Day-Exploit](https://github.com/ArunBhandarii/Apache-Struts-0Day-Exploit)
+- [arlyone/Apache-Struts-0Day-Exploit](https://github.com/arlyone/Apache-Struts-0Day-Exploit)
 - [freshdemo/ApacheStruts-CVE-2018-11776](https://github.com/freshdemo/ApacheStruts-CVE-2018-11776)
 - [sonpt-afk/CVE-2018-11776-FIS](https://github.com/sonpt-afk/CVE-2018-11776-FIS)
 
@@ -50794,6 +50849,13 @@
 </code>
 
 - [u0pattern/CVE-2018-1000117-Exploit](https://github.com/u0pattern/CVE-2018-1000117-Exploit)
+
+### CVE-2018-1000129 (2018-03-14)
+
+<code>An XSS vulnerability exists in the Jolokia agent version 1.3.7 in the HTTP servlet that allows an attacker to execute malicious javascript in the victim's browser.
+</code>
+
+- [shoucheng3/rhuss__jolokia_CVE-2018-1000129_1-4-0](https://github.com/shoucheng3/rhuss__jolokia_CVE-2018-1000129_1-4-0)
 
 ### CVE-2018-1000134 (2018-03-16)
 
@@ -54678,6 +54740,13 @@
 
 - [wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development)
 
+### CVE-2016-10726 (2018-07-10)
+
+<code>The XMLUI feature in DSpace before 3.6, 4.x before 4.5, and 5.x before 5.5 allows directory traversal via the themes/ path in an attack with two or more arbitrary characters and a colon before a pathname, as demonstrated by a themes/Reference/aa:etc/passwd URI.
+</code>
+
+- [shoucheng3/DSpace__DSpace_CVE-2016-10726_4-4](https://github.com/shoucheng3/DSpace__DSpace_CVE-2016-10726_4-4)
+
 ### CVE-2016-10735 (2019-01-09)
 
 <code>In Bootstrap 3.x before 3.4.0 and 4.x-beta before 4.0.0-beta.2, XSS is possible in the data-target attribute, a different vulnerability than CVE-2018-14041.
@@ -56180,6 +56249,13 @@
 - [ilmila/springcss-cve-2014-3625](https://github.com/ilmila/springcss-cve-2014-3625)
 - [gforresu/SpringPathTraversal](https://github.com/gforresu/SpringPathTraversal)
 
+### CVE-2014-3656 (2019-12-10)
+
+<code>JBoss KeyCloak: XSS in login-status-iframe.html
+</code>
+
+- [shoucheng3/keycloak__keycloak_CVE-2014-3656_1-0-5-Final](https://github.com/shoucheng3/keycloak__keycloak_CVE-2014-3656_1-0-5-Final)
+
 ### CVE-2014-3704 (2014-10-16)
 
 <code>The expandArguments function in the database abstraction API in Drupal core 7.x before 7.32 does not properly construct prepared statements, which allows remote attackers to conduct SQL injection attacks via an array containing crafted keys.
@@ -57599,6 +57675,13 @@
 </code>
 
 - [SECFORCE/CVE-2011-4107](https://github.com/SECFORCE/CVE-2011-4107)
+
+### CVE-2011-4367 (2014-06-19)
+
+<code>Multiple directory traversal vulnerabilities in MyFaces JavaServer Faces (JSF) in Apache MyFaces Core 2.0.x before 2.0.12 and 2.1.x before 2.1.6 allow remote attackers to read arbitrary files via a .. (dot dot) in the (1) ln parameter to faces/javax.faces.resource/web.xml or (2) the PATH_INFO to faces/javax.faces.resource/.
+</code>
+
+- [shoucheng3/apache__myfaces_CVE-2011-4367_2-0-11](https://github.com/shoucheng3/apache__myfaces_CVE-2011-4367_2-0-11)
 
 ### CVE-2011-4862 (2011-12-25)
 
