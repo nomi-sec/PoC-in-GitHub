@@ -1815,6 +1815,7 @@
 - [Shivshantp/CVE-2025-24813](https://github.com/Shivshantp/CVE-2025-24813)
 - [cyglegit/CVE-2025-24813](https://github.com/cyglegit/CVE-2025-24813)
 - [137f/PoC-CVE-2025-24813](https://github.com/137f/PoC-CVE-2025-24813)
+- [thebringerofdeath789/CVE-2025-24813](https://github.com/thebringerofdeath789/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -20415,6 +20416,13 @@
 
 - [tandasat/CVE-2023-36427](https://github.com/tandasat/CVE-2023-36427)
 
+### CVE-2023-36471 (2023-06-29)
+
+<code>Xwiki commons is the common modules used by other XWiki top level projects. The HTML sanitizer that is included in XWiki since version 14.6RC1 allowed form and input HTML tags. In the context of XWiki, this allows an attacker without script right to either create forms that can be used for phishing attacks or also in the context of a sheet, the attacker could add an input like `{{html}}&lt;input type=&quot;hidden&quot; name=&quot;content&quot; value=&quot;{{groovy}}println(&amp;quot;Hello from Groovy!&amp;quot;)&quot; /&gt;{{/html}}` that would allow remote code execution when it is submitted by an admin (the sheet is rendered as part of the edit form). The attacker would need to ensure that the edit form looks plausible, though, which can be non-trivial as without script right the attacker cannot display the regular content of the document. This has been patched in XWiki 14.10.6 and 15.2RC1 by removing the central form-related tags from the list of allowed tags. Users are advised to upgrade. As a workaround an admin can manually disallow the tags by adding `form, input, select, textarea, button` to the configuration option `xml.htmlElementSanitizer.forbidTags` in the `xwiki.properties` configuration file.
+</code>
+
+- [shoucheng3/xwiki__xwiki-commons_CVE-2023-36471_14-10-5](https://github.com/shoucheng3/xwiki__xwiki-commons_CVE-2023-36471_14-10-5)
+
 ### CVE-2023-36531 (2024-12-13)
 
 <code>Missing Authorization vulnerability in LiquidPoll LiquidPoll – Advanced Polls for Creators and Brands allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects LiquidPoll – Advanced Polls for Creators and Brands: from n/a through 3.3.68.
@@ -20756,6 +20764,13 @@
 </code>
 
 - [7h3h4ckv157/CVE-2023-37903](https://github.com/7h3h4ckv157/CVE-2023-37903)
+
+### CVE-2023-37908 (2023-10-25)
+
+<code>XWiki Rendering is a generic Rendering system that converts textual input in a given syntax into another syntax. The cleaning of attributes during XHTML rendering, introduced in version 14.6-rc-1, allowed the injection of arbitrary HTML code and thus cross-site scripting via invalid attribute names. This can be exploited, e.g., via the link syntax in any content that supports XWiki syntax like comments in XWiki. When a user moves the mouse over a malicious link, the malicious JavaScript code is executed in the context of the user session. When this user is a privileged user who has programming rights, this allows server-side code execution with programming rights, impacting the confidentiality, integrity and availability of the XWiki instance. While this attribute was correctly recognized as not allowed, the attribute was still printed with a prefix `data-xwiki-translated-attribute-` without further cleaning or validation. This problem has been patched in XWiki 14.10.4 and 15.0 RC1 by removing characters not allowed in data attributes and then validating the cleaned attribute again. There are no known workarounds apart from upgrading to a version including the fix.
+</code>
+
+- [shoucheng3/xwiki__xwiki-rendering_CVE-2023-37908_14-10-3](https://github.com/shoucheng3/xwiki__xwiki-rendering_CVE-2023-37908_14-10-3)
 
 ### CVE-2023-37941 (2023-09-06)
 
@@ -26111,6 +26126,13 @@
 
 - [TheGetch/CVE-2022-23378](https://github.com/TheGetch/CVE-2022-23378)
 
+### CVE-2022-23457 (2022-04-25)
+
+<code>ESAPI (The OWASP Enterprise Security API) is a free, open source, web application security control library. Prior to version 2.3.0.0, the default implementation of `Validator.getValidDirectoryPath(String, String, File, boolean)` may incorrectly treat the tested input string as a child of the specified parent directory. This potentially could allow control-flow bypass checks to be defeated if an attack can specify the entire string representing the 'input' path. This vulnerability is patched in release 2.3.0.0 of ESAPI. As a workaround, it is possible to write one's own implementation of the Validator interface. However, maintainers do not recommend this.
+</code>
+
+- [shoucheng3/ESAPI__esapi-java-legacy_CVE-2022-23457_2-2-3-1](https://github.com/shoucheng3/ESAPI__esapi-java-legacy_CVE-2022-23457_2-2-3-1)
+
 ### CVE-2022-23529
 - [hackintoanetwork/CVE-2022-23529-PoC](https://github.com/hackintoanetwork/CVE-2022-23529-PoC)
 
@@ -26822,6 +26844,13 @@
 
 - [mbadanoiu/CVE-2022-25813](https://github.com/mbadanoiu/CVE-2022-25813)
 
+### CVE-2022-25842 (2022-05-01)
+
+<code>All versions of package com.alibaba.oneagent:one-java-agent-plugin are vulnerable to Arbitrary File Write via Archive Extraction (Zip Slip) using a specially crafted archive that holds directory traversal filenames (e.g. ../../evil.exe). The attacker can overwrite executable files and either invoke them remotely or wait for the system or user to call them, thus achieving remote command execution on the victim’s machine.
+</code>
+
+- [shoucheng3/alibaba__one-java-agent_CVE-2022-25842_0-0-1](https://github.com/shoucheng3/alibaba__one-java-agent_CVE-2022-25842_0-0-1)
+
 ### CVE-2022-25845 (2022-06-10)
 
 <code>The package com.alibaba:fastjson before 1.2.83 are vulnerable to Deserialization of Untrusted Data by bypassing the default autoType shutdown restrictions, which is possible under certain conditions. Exploiting this vulnerability allows attacking remote servers. Workaround: If upgrading is not possible, you can enable [safeMode](https://github.com/alibaba/fastjson/wiki/fastjson_safemode).
@@ -27093,6 +27122,13 @@
 - [s1ckb017/PoC-CVE-2022-26809](https://github.com/s1ckb017/PoC-CVE-2022-26809)
 - [fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp](https://github.com/fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp)
 - [michealadams30/Cve-2022-26809](https://github.com/michealadams30/Cve-2022-26809)
+
+### CVE-2022-26884 (2022-10-28)
+
+<code>Users can read any files by log server, Apache DolphinScheduler users should upgrade to version 2.0.6 or higher.
+</code>
+
+- [shoucheng3/apache__dolphinscheduler_CVE-2022-26884_2-0-5](https://github.com/shoucheng3/apache__dolphinscheduler_CVE-2022-26884_2-0-5)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -28129,6 +28165,13 @@
 </code>
 
 - [emirpolatt/CVE-2022-31188](https://github.com/emirpolatt/CVE-2022-31188)
+
+### CVE-2022-31192 (2022-08-01)
+
+<code>DSpace open source software is a repository application which provides durable access to digital resources. dspace-jspui is a UI component for DSpace. The JSPUI &quot;Request a Copy&quot; feature does not properly escape values submitted and stored from the &quot;Request a Copy&quot; form. This means that item requests could be vulnerable to XSS attacks. This vulnerability only impacts the JSPUI. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [shoucheng3/DSpace__DSpace_CVE-2022-31192_5-10](https://github.com/shoucheng3/DSpace__DSpace_CVE-2022-31192_5-10)
 
 ### CVE-2022-31245 (2022-05-20)
 
@@ -32091,7 +32134,6 @@
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [glowbase/PwnKit-CVE-2021-4034](https://github.com/glowbase/PwnKit-CVE-2021-4034)
 - [OXDBXKXO/ez-pwnkit](https://github.com/OXDBXKXO/ez-pwnkit)
-- [HrishitJoshi/CVE-2021-4034](https://github.com/HrishitJoshi/CVE-2021-4034)
 - [Ankit-Ojha16/CVE-2021-4034](https://github.com/Ankit-Ojha16/CVE-2021-4034)
 - [G01d3nW01f/CVE-2021-4034](https://github.com/G01d3nW01f/CVE-2021-4034)
 - [drapl0n/pwnKit](https://github.com/drapl0n/pwnKit)
@@ -33915,6 +33957,7 @@
 </code>
 
 - [arsalanraja987/java-cve-2021-29425-tika-xxe](https://github.com/arsalanraja987/java-cve-2021-29425-tika-xxe)
+- [shoucheng3/asf__commons-io_CVE-2021-29425_2-6](https://github.com/shoucheng3/asf__commons-io_CVE-2021-29425_2-6)
 
 ### CVE-2021-29427 (2021-04-13)
 
@@ -41008,6 +41051,7 @@
 </code>
 
 - [epicosy/json-sanitizer](https://github.com/epicosy/json-sanitizer)
+- [shoucheng3/OWASP__json-sanitizer_CVE-2020-13973_1-2-0](https://github.com/shoucheng3/OWASP__json-sanitizer_CVE-2020-13973_1-2-0)
 
 ### CVE-2020-13995 (2020-09-25)
 
@@ -43232,6 +43276,13 @@
 </code>
 
 - [savsch/PoC_CVE-2019-0217](https://github.com/savsch/PoC_CVE-2019-0217)
+
+### CVE-2019-0225 (2019-03-28)
+
+<code>A specially crafted url could be used to access files under the ROOT directory of the application on Apache JSPWiki 2.9.0 to 2.11.0.M2, which could be used by an attacker to obtain registered users' details.
+</code>
+
+- [shoucheng3/apache__jspwiki_CVE-2019-0225_2-11-0-M2](https://github.com/shoucheng3/apache__jspwiki_CVE-2019-0225_2-11-0-M2)
 
 ### CVE-2019-0227 (2019-05-01)
 
@@ -47593,6 +47644,13 @@
 
 - [UDPsycho/Moodle-CVE-2018-1042](https://github.com/UDPsycho/Moodle-CVE-2018-1042)
 
+### CVE-2018-1047 (2018-01-24)
+
+<code>A flaw was found in Wildfly 9.x. A path traversal vulnerability through the org.wildfly.extension.undertow.deployment.ServletResourceManager.getResource method could lead to information disclosure of arbitrary local files.
+</code>
+
+- [shoucheng3/wildfly__wildfly_CVE-2018-1047_11-0-0-Final](https://github.com/shoucheng3/wildfly__wildfly_CVE-2018-1047_11-0-0-Final)
+
 ### CVE-2018-1049 (2018-02-16)
 
 <code>In systemd prior to 234 a race condition exists between .mount and .automount units such that automount requests from kernel may not be serviced by systemd resulting in kernel holding the mountpoint and any processes that try to use said mount will hang. A race condition like this may lead to denial of service, until mount points are unmounted.
@@ -49540,6 +49598,13 @@
 
 - [brianwrf/CVE-2018-11761](https://github.com/brianwrf/CVE-2018-11761)
 
+### CVE-2018-11762 (2018-09-19)
+
+<code>In Apache Tika 0.9 to 1.18, in a rare edge case where a user does not specify an extract directory on the commandline (--extract-dir=) and the input file has an embedded file with an absolute path, such as &quot;C:/evil.bat&quot;, tika-app would overwrite that file.
+</code>
+
+- [shoucheng3/apache__tika_CVE-2018-11762_1-18](https://github.com/shoucheng3/apache__tika_CVE-2018-11762_1-18)
+
 ### CVE-2018-11770 (2018-08-13)
 
 <code>From version 1.3.0 onward, Apache Spark's standalone master exposes a REST API for job submission, in addition to the submission mechanism used by spark-submit. In standalone, the config property 'spark.authenticate.secret' establishes a shared secret for authenticating requests to submit jobs via spark-submit. However, the REST API does not use this or any other authentication mechanism, and this is not adequately documented. In this case, a user would be able to run a driver program without authenticating, but not launch executors, using the REST API. This REST API is also used by Mesos, when set up to run in cluster mode (i.e., when also running MesosClusterDispatcher), for job submission. Future versions of Spark will improve documentation on these points, and prohibit setting 'spark.authenticate.secret' when running the REST APIs, to make this clear. Future versions will also disable the REST API by default in the standalone master by changing the default value of 'spark.master.rest.enabled' to 'false'.
@@ -49678,6 +49743,13 @@
 
 - [bernard-wagner/vertx-web-xsrf](https://github.com/bernard-wagner/vertx-web-xsrf)
 - [tafamace/CVE-2018-12540](https://github.com/tafamace/CVE-2018-12540)
+
+### CVE-2018-12542 (2018-10-10)
+
+<code>In version from 3.0.0 to 3.5.3 of Eclipse Vert.x, the StaticHandler uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize '\' (forward slashes) sequences that can resolve to a location that is outside of that directory when running on Windows Operating Systems.
+</code>
+
+- [shoucheng3/vert-x3__vertx-web_CVE-2018-12542_3-5-3-CR1](https://github.com/shoucheng3/vert-x3__vertx-web_CVE-2018-12542_3-5-3-CR1)
 
 ### CVE-2018-12596 (2018-10-10)
 
@@ -54461,6 +54533,13 @@
 </code>
 
 - [TSNGL21/CVE-2016-6801](https://github.com/TSNGL21/CVE-2016-6801)
+
+### CVE-2016-6812 (2017-08-10)
+
+<code>The HTTP transport module in Apache CXF prior to 3.0.12 and 3.1.x prior to 3.1.9 uses FormattedServiceListWriter to provide an HTML page which lists the names and absolute URL addresses of the available service endpoints. The module calculates the base URL using the current HttpServletRequest. The calculated base URL is used by FormattedServiceListWriter to build the service endpoint absolute URLs. If the unexpected matrix parameters have been injected into the request URL then these matrix parameters will find their way back to the client in the services list page which represents an XSS risk to the client.
+</code>
+
+- [shoucheng3/asf__cxf_CVE-2016-6812_3-0-11](https://github.com/shoucheng3/asf__cxf_CVE-2016-6812_3-0-11)
 
 ### CVE-2016-6914 (2017-12-27)
 
