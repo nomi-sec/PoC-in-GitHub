@@ -1206,6 +1206,7 @@
 - [knight0x07/WinRAR-CVE-2025-8088-PoC-RAR](https://github.com/knight0x07/WinRAR-CVE-2025-8088-PoC-RAR)
 - [sxyrxyy/CVE-2025-8088-WinRAR-Proof-of-Concept-PoC-Exploit-](https://github.com/sxyrxyy/CVE-2025-8088-WinRAR-Proof-of-Concept-PoC-Exploit-)
 - [onlytoxi/CVE-2025-8088-Winrar-Tool](https://github.com/onlytoxi/CVE-2025-8088-Winrar-Tool)
+- [0xAbolfazl/CVE-2025-8088-WinRAR-PathTraversal-PoC](https://github.com/0xAbolfazl/CVE-2025-8088-WinRAR-PathTraversal-PoC)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -4098,7 +4099,7 @@
 
 ### CVE-2025-50340 (2025-08-04)
 
-<code>An Insecure Direct Object Reference (IDOR) vulnerability was discovered in SOGo Webmail thru 5.6.0, allowing an authenticated user to send emails on behalf of other users by manipulating a user-controlled identifier in the email-sending request. The server fails to verify whether the authenticated user is authorized to use the specified sender identity, resulting in unauthorized message delivery as another user. This can lead to impersonation, phishing, or unauthorized communication within the system.
+<code>An Insecure Direct Object Reference (IDOR) vulnerability was discovered in SOGo Webmail thru 5.6.0, allowing an authenticated user to send emails on behalf of other users by manipulating a user-controlled identifier in the email-sending request. The server fails to verify whether the authenticated user is authorized to use the specified sender identity, resulting in unauthorized message delivery as another user. This can lead to impersonation, phishing, or unauthorized communication within the system. NOTE: this is disputed by the Supplier because the only effective way to prevent this sender spoofing is on the SMTP server, not within a client such as SOGo.
 </code>
 
 - [millad7/SOGo_web_mail-vulnerability-CVE-2025-50340](https://github.com/millad7/SOGo_web_mail-vulnerability-CVE-2025-50340)
@@ -5657,6 +5658,13 @@
 </code>
 
 - [h4x0r-dz/CVE-2024-3656](https://github.com/h4x0r-dz/CVE-2024-3656)
+
+### CVE-2024-3660 (2024-04-16)
+
+<code>A arbitrary code injection vulnerability in TensorFlow's Keras framework (&lt;2.13) allows attackers to execute arbitrary code with the same permissions as the application using a model that allow arbitrary code irrespective of the application.
+</code>
+
+- [aaryanbhujang/CVE-2024-3660-PoC](https://github.com/aaryanbhujang/CVE-2024-3660-PoC)
 
 ### CVE-2024-3661 (2024-05-06)
 
@@ -9375,12 +9383,6 @@
 </code>
 
 - [i-100-user/CVE-2024-25897](https://github.com/i-100-user/CVE-2024-25897)
-
-### CVE-2024-26009 (2025-08-12)
-
-<code>An authentication bypass using an alternate path or channel [CWE-288] vulnerability in Fortinet FortiOS version 6.4.0 through 6.4.15</code>
-
-- [allinsthon/CVE-2024-26009](https://github.com/allinsthon/CVE-2024-26009)
 
 ### CVE-2024-26026 (2024-05-08)
 
