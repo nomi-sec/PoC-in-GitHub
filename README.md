@@ -1209,6 +1209,7 @@
 - [onlytoxi/CVE-2025-8088-Winrar-Tool](https://github.com/onlytoxi/CVE-2025-8088-Winrar-Tool)
 - [0xAbolfazl/CVE-2025-8088-WinRAR-PathTraversal-PoC](https://github.com/0xAbolfazl/CVE-2025-8088-WinRAR-PathTraversal-PoC)
 - [pentestfunctions/CVE-2025-8088-Multi-Document](https://github.com/pentestfunctions/CVE-2025-8088-Multi-Document)
+- [pexlexity/WinRAR-CVE-2025-8088-Path-Traversal-PoC](https://github.com/pexlexity/WinRAR-CVE-2025-8088-Path-Traversal-PoC)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -3258,6 +3259,13 @@
 - [alm6no5/CVE-2025-32756-POC](https://github.com/alm6no5/CVE-2025-32756-POC)
 - [becrevex/CVE-2025-32756](https://github.com/becrevex/CVE-2025-32756)
 - [shan0ar/cve-2025-32756](https://github.com/shan0ar/cve-2025-32756)
+
+### CVE-2025-32778 (2025-04-15)
+
+<code>Web-Check is an all-in-one OSINT tool for analyzing any website. A command injection vulnerability exists in the screenshot API of the Web Check project (Lissy93/web-check). The issue stems from user-controlled input (url) being passed unsanitized into a shell command using exec(), allowing attackers to execute arbitrary system commands on the underlying host. This could be exploited by sending crafted url parameters to extract files or even establish remote access. The vulnerability has been patched by replacing exec() with execFile(), which avoids using a shell and properly isolates arguments.
+</code>
+
+- [00xCanelo/CVE-2025-32778](https://github.com/00xCanelo/CVE-2025-32778)
 
 ### CVE-2025-32873 (2025-05-08)
 
@@ -9136,7 +9144,6 @@
 - [Cappricio-Securities/CVE-2024-24919](https://github.com/Cappricio-Securities/CVE-2024-24919)
 - [fernandobortotti/CVE-2024-24919](https://github.com/fernandobortotti/CVE-2024-24919)
 - [nicolvsrlr27/CVE-2024-24919](https://github.com/nicolvsrlr27/CVE-2024-24919)
-- [gurudattch/CVE-2024-24919](https://github.com/gurudattch/CVE-2024-24919)
 - [YN1337/CVE-2024-24919](https://github.com/YN1337/CVE-2024-24919)
 - [ifconfig-me/CVE-2024-24919-Bulk-Scanner](https://github.com/ifconfig-me/CVE-2024-24919-Bulk-Scanner)
 - [r4p3c4/CVE-2024-24919-Checkpoint-Firewall-VPN-Check](https://github.com/r4p3c4/CVE-2024-24919-Checkpoint-Firewall-VPN-Check)
@@ -9845,6 +9852,7 @@
 
 - [Marven11/CVE-2024-28397-js2py-Sandbox-Escape](https://github.com/Marven11/CVE-2024-28397-js2py-Sandbox-Escape)
 - [CYBER-WARRIOR-SEC/CVE-2024-28397-js2py-Sandbox-Escape](https://github.com/CYBER-WARRIOR-SEC/CVE-2024-28397-js2py-Sandbox-Escape)
+- [waleed-hassan569/CVE-2024-28397-command-execution-poc](https://github.com/waleed-hassan569/CVE-2024-28397-command-execution-poc)
 
 ### CVE-2024-28515 (2024-04-03)
 
@@ -22469,6 +22477,13 @@
 
 - [takeshixx/tac_plus-pre-auth-rce](https://github.com/takeshixx/tac_plus-pre-auth-rce)
 
+### CVE-2023-45277 (2023-10-19)
+
+<code>Yamcs 5.8.6 is vulnerable to directory traversal (issue 1 of 2). The vulnerability is in the storage functionality of the API and allows one to escape the base directory of the buckets, freely navigate system directories, and read arbitrary files.
+</code>
+
+- [shoucheng3/yamcs__yamcs_CVE-2023-45277_5-8-6](https://github.com/shoucheng3/yamcs__yamcs_CVE-2023-45277_5-8-6)
+
 ### CVE-2023-45280 (2023-10-19)
 
 <code>Yamcs 5.8.6 allows XSS (issue 2 of 2). It comes with a Bucket as its primary storage mechanism. Buckets allow for the upload of any file. There's a way to upload an HTML file containing arbitrary JavaScript and then navigate to it. Once the user opens the file, the browser will execute the arbitrary JavaScript.
@@ -27716,6 +27731,13 @@
 ### CVE-2022-29554
 - [ComparedArray/printix-CVE-2022-29554](https://github.com/ComparedArray/printix-CVE-2022-29554)
 
+### CVE-2022-29577 (2022-04-21)
+
+<code>OWASP AntiSamy before 1.6.7 allows XSS via HTML tag smuggling on STYLE content with crafted input. The output serializer does not properly encode the supposed Cascading Style Sheets (CSS) content. NOTE: this issue exists because of an incomplete fix for CVE-2022-28367.
+</code>
+
+- [shoucheng3/nahsra__antisamy_CVE-2022-29577_1-6-6-1](https://github.com/shoucheng3/nahsra__antisamy_CVE-2022-29577_1-6-6-1)
+
 ### CVE-2022-29581 (2022-05-17)
 
 <code>Improper Update of Reference Count vulnerability in net/sched of Linux Kernel allows local attacker to cause privilege escalation to root. This issue affects: Linux Kernel versions prior to 5.18; version 4.14 and later versions.
@@ -31469,7 +31491,6 @@
 - [CameraShutterBug/PrintNightmare](https://github.com/CameraShutterBug/PrintNightmare)
 - [DLL00P/CVE-2021-1675](https://github.com/DLL00P/CVE-2021-1675)
 - [GlacierGossip/PrintNightmare](https://github.com/GlacierGossip/PrintNightmare)
-- [ArtAtrium/PrintNightmare](https://github.com/ArtAtrium/PrintNightmare)
 
 ### CVE-2021-1678 (2021-01-12)
 
@@ -32141,6 +32162,7 @@
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [glowbase/PwnKit-CVE-2021-4034](https://github.com/glowbase/PwnKit-CVE-2021-4034)
 - [OXDBXKXO/ez-pwnkit](https://github.com/OXDBXKXO/ez-pwnkit)
+- [HrishitJoshi/CVE-2021-4034](https://github.com/HrishitJoshi/CVE-2021-4034)
 - [Ankit-Ojha16/CVE-2021-4034](https://github.com/Ankit-Ojha16/CVE-2021-4034)
 - [G01d3nW01f/CVE-2021-4034](https://github.com/G01d3nW01f/CVE-2021-4034)
 - [drapl0n/pwnKit](https://github.com/drapl0n/pwnKit)
@@ -45576,6 +45598,7 @@
 </code>
 
 - [fuzzlove/eLabFTW-1.8.5-EntityController-Arbitrary-File-Upload-RCE](https://github.com/fuzzlove/eLabFTW-1.8.5-EntityController-Arbitrary-File-Upload-RCE)
+- [Drew-Alleman/CVE-2019-12185](https://github.com/Drew-Alleman/CVE-2019-12185)
 
 ### CVE-2019-12189 (2019-05-21)
 
