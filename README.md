@@ -4102,6 +4102,13 @@
 - [rubenformation/CVE-2025-50154](https://github.com/rubenformation/CVE-2025-50154)
 - [Ash1996x/CVE-2025-50154-Aggressor-Script](https://github.com/Ash1996x/CVE-2025-50154-Aggressor-Script)
 
+### CVE-2025-50165 (2025-08-12)
+
+<code>Untrusted pointer dereference in Microsoft Graphics Component allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [allinsthon/CVE-2025-50165](https://github.com/allinsthon/CVE-2025-50165)
+
 ### CVE-2025-50286 (2025-08-06)
 
 <code>A Remote Code Execution (RCE) vulnerability in Grav CMS v1.7.48 allows an authenticated admin to upload a malicious plugin via the /admin/tools/direct-install interface. Once uploaded, the plugin is automatically extracted and loaded, allowing arbitrary PHP code execution and reverse shell access.
