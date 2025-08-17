@@ -1260,6 +1260,13 @@
 
 - [byteReaper77/CVE-2025-8730](https://github.com/byteReaper77/CVE-2025-8730)
 
+### CVE-2025-8875 (2025-08-14)
+
+<code>Deserialization of Untrusted Data vulnerability in N-able N-central allows Local Execution of Code.This issue affects N-central: before 2025.3.1.
+</code>
+
+- [rxerium/CVE-2025-8875-CVE-2025-8876](https://github.com/rxerium/CVE-2025-8875-CVE-2025-8876)
+
 ### CVE-2025-8971 (2025-08-14)
 
 <code>Das betrifft eine unbekannte Funktionalität der Datei /admin/operations/travellers.php. Durch das Beeinflussen des Arguments val-username mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
@@ -19532,6 +19539,13 @@
 
 - [hardikmodha/POC-CVE-2023-32681](https://github.com/hardikmodha/POC-CVE-2023-32681)
 
+### CVE-2023-32697 (2023-05-23)
+
+<code>SQLite JDBC is a library for accessing and creating SQLite database files in Java. Sqlite-jdbc addresses a remote code execution vulnerability via JDBC URL. This issue impacting versions 3.6.14.1 through 3.41.2.1 and has been fixed in version 3.41.2.2.\n
+</code>
+
+- [shoucheng3/xerial__sqlite-jdbc_CVE-2023-32697_3-41-2-1](https://github.com/shoucheng3/xerial__sqlite-jdbc_CVE-2023-32697_3-41-2-1)
+
 ### CVE-2023-32707 (2023-06-01)
 
 <code>In versions of Splunk Enterprise below 9.0.5, 8.2.11, and 8.1.14, and Splunk Cloud Platform below version 9.0.2303.100, a low-privileged user who holds a role that has the ‘edit_user’ capability assigned to it can escalate their privileges to that of the admin user by providing specially crafted web requests.
@@ -19609,6 +19623,7 @@
 - [MkJos/CVE-2023-33246_RocketMQ_RCE_EXP](https://github.com/MkJos/CVE-2023-33246_RocketMQ_RCE_EXP)
 - [Sumitpathania03/Apache-RocketMQ-CVE-2023-33246-](https://github.com/Sumitpathania03/Apache-RocketMQ-CVE-2023-33246-)
 - [PavilionQ/CVE-2023-33246-mitigation](https://github.com/PavilionQ/CVE-2023-33246-mitigation)
+- [shoucheng3/apache__rocketmq_CVE-2023-33246_5-1-0](https://github.com/shoucheng3/apache__rocketmq_CVE-2023-33246_5-1-0)
 
 ### CVE-2023-33253 (2023-06-12)
 
@@ -20653,6 +20668,13 @@
 </code>
 
 - [SpiralBL0CK/cve-2023-37456](https://github.com/SpiralBL0CK/cve-2023-37456)
+
+### CVE-2023-37460 (2023-07-25)
+
+<code>Plexis Archiver is a collection of Plexus components to create archives or extract archives to a directory with a unified `Archiver`/`UnArchiver` API. Prior to version 4.8.0, using AbstractUnArchiver for extracting an archive might lead to an arbitrary file creation and possibly remote code execution. When extracting an archive with an entry that already exists in the destination directory as a symbolic link whose target does not exist - the `resolveFile()` function will return the symlink's source instead of its target, which will pass the verification that ensures the file will not be extracted outside of the destination directory. Later `Files.newOutputStream()`, that follows symlinks by default,  will actually write the entry's content to the symlink's target. Whoever uses plexus archiver to extract an untrusted archive is vulnerable to an arbitrary file creation and possibly remote code execution. Version 4.8.0 contains a patch for this issue.
+</code>
+
+- [shoucheng3/codehaus-plexus__plexus-archiver_CVE-2023-37460_4-7-1](https://github.com/shoucheng3/codehaus-plexus__plexus-archiver_CVE-2023-37460_4-7-1)
 
 ### CVE-2023-37467 (2023-07-28)
 
@@ -24886,6 +24908,13 @@
 - [estimated1337/lenovo_exec](https://github.com/estimated1337/lenovo_exec)
 - [Eap2468/CVE-2022-3699](https://github.com/Eap2468/CVE-2022-3699)
 
+### CVE-2022-3782 (2023-01-11)
+
+<code>keycloak: path traversal via double URL encoding. A flaw was found in Keycloak, where it does not properly validate URLs included in a redirect. An attacker can use this flaw to construct a malicious request to bypass validation and access other URLs and potentially sensitive information within the domain or possibly conduct further attacks. This flaw affects any client that utilizes a wildcard in the Valid Redirect URIs field.
+</code>
+
+- [shoucheng3/keycloak__keycloak_CVE-2022-3782_20-0-1](https://github.com/shoucheng3/keycloak__keycloak_CVE-2022-3782_20-0-1)
+
 ### CVE-2022-3786 (2022-11-01)
 
 <code>A buffer overrun can be triggered in X.509 certificate verification, specifically in name constraint checking. Note that this occurs after certificate chain signature verification and requires either a CA to have signed a malicious certificate or for an application to continue certificate verification despite failure to construct a path to a trusted issuer. An attacker can craft a malicious email address in a certificate to overflow an arbitrary number of bytes containing the `.' character (decimal 46) on the stack. This buffer overflow could result in a crash (causing a denial of service). In a TLS client, this can be triggered by connecting to a malicious server. In a TLS server, this can be triggered if the server requests client authentication and a malicious client connects.\n\n
@@ -24957,6 +24986,13 @@
 </code>
 
 - [im-hanzou/INPGer](https://github.com/im-hanzou/INPGer)
+
+### CVE-2022-4065 (2022-11-19)
+
+<code>In cbeust testng 7.5.0/7.6.0/7.6.1/7.7.0 wurde eine kritische Schwachstelle ausgemacht. Betroffen ist die Funktion testngXmlExistsInJar der Datei testng-core/src/main/java/org/testng/JarFileUtils.java der Komponente XML File Parser. Dank der Manipulation mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Ein Aktualisieren auf die Version 7.5.1 and 7.7.1 vermag dieses Problem zu lösen. Der Patch wird als 9150736cd2c123a6a3b60e6193630859f9f0422b bezeichnet. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [shoucheng3/testng-team__testng_CVE-2022-4065_7-5](https://github.com/shoucheng3/testng-team__testng_CVE-2022-4065_7-5)
 
 ### CVE-2022-4096 (2022-11-21)
 
@@ -25749,6 +25785,13 @@
 </code>
 
 - [0x7eTeam/CVE-2022-22916](https://github.com/0x7eTeam/CVE-2022-22916)
+
+### CVE-2022-22931 (2022-02-07)
+
+<code>Fix of CVE-2021-40525 do not prepend delimiters upon valid directory validations. Affected implementations include: - maildir mailbox store - Sieve file repository This enables a user to access other users data stores (limited to user names being prefixed by the value of the username being used).
+</code>
+
+- [shoucheng3/asf__james-project_CVE-2022-22931_3-6-0](https://github.com/shoucheng3/asf__james-project_CVE-2022-22931_3-6-0)
 
 ### CVE-2022-22947 (2022-03-03)
 
@@ -26615,6 +26658,13 @@
 </code>
 
 - [secure-77/CVE-2022-24853](https://github.com/secure-77/CVE-2022-24853)
+
+### CVE-2022-24891 (2022-04-27)
+
+<code>ESAPI (The OWASP Enterprise Security API) is a free, open source, web application security control library. Prior to version 2.3.0.0, there is a potential for a cross-site scripting vulnerability in ESAPI caused by a incorrect regular expression for &quot;onsiteURL&quot; in the **antisamy-esapi.xml** configuration file that can cause &quot;javascript:&quot; URLs to fail to be correctly sanitized. This issue is patched in ESAPI 2.3.0.0. As a workaround, manually edit the **antisamy-esapi.xml** configuration files to change the &quot;onsiteURL&quot; regular expression. More information about remediation of the vulnerability, including the workaround, is available in the maintainers' release notes and security bulletin.
+</code>
+
+- [shoucheng3/ESAPI__esapi-java-legacy_CVE-2022-24891_2-2-3-1](https://github.com/shoucheng3/ESAPI__esapi-java-legacy_CVE-2022-24891_2-2-3-1)
 
 ### CVE-2022-24894 (2023-02-03)
 
@@ -56074,6 +56124,7 @@
 </code>
 
 - [D3Ext/CVE-2015-10141](https://github.com/D3Ext/CVE-2015-10141)
+- [n0m4d22/PoC-CVE-2015-10141-Xdebug](https://github.com/n0m4d22/PoC-CVE-2015-10141-Xdebug)
 
 ### CVE-2015-20107 (2022-04-13)
 
@@ -57881,6 +57932,13 @@
 - [krill-x7/CVE-2011-2523](https://github.com/krill-x7/CVE-2011-2523)
 - [As9xm/BrokenDoor-CVE-2011-2523-](https://github.com/As9xm/BrokenDoor-CVE-2011-2523-)
 - [BolivarJ/CVE-2011-2523](https://github.com/BolivarJ/CVE-2011-2523)
+
+### CVE-2011-2732 (2012-12-05)
+
+<code>CRLF injection vulnerability in the logout functionality in VMware SpringSource Spring Security before 2.0.7 and 3.0.x before 3.0.6 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the spring-security-redirect parameter.
+</code>
+
+- [shoucheng3/spring-projects__spring-security_CVE-2011-2732_2-0-6-RELEASE](https://github.com/shoucheng3/spring-projects__spring-security_CVE-2011-2732_2-0-6-RELEASE)
 
 ### CVE-2011-2894 (2011-10-04)
 
