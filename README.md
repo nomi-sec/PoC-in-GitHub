@@ -9875,6 +9875,7 @@
 - [Marven11/CVE-2024-28397-js2py-Sandbox-Escape](https://github.com/Marven11/CVE-2024-28397-js2py-Sandbox-Escape)
 - [CYBER-WARRIOR-SEC/CVE-2024-28397-js2py-Sandbox-Escape](https://github.com/CYBER-WARRIOR-SEC/CVE-2024-28397-js2py-Sandbox-Escape)
 - [waleed-hassan569/CVE-2024-28397-command-execution-poc](https://github.com/waleed-hassan569/CVE-2024-28397-command-execution-poc)
+- [0timeday/exploit-js2py](https://github.com/0timeday/exploit-js2py)
 
 ### CVE-2024-28515 (2024-04-03)
 
@@ -24915,13 +24916,6 @@
 - [alfarom256/CVE-2022-3699](https://github.com/alfarom256/CVE-2022-3699)
 - [estimated1337/lenovo_exec](https://github.com/estimated1337/lenovo_exec)
 - [Eap2468/CVE-2022-3699](https://github.com/Eap2468/CVE-2022-3699)
-
-### CVE-2022-3782 (2023-01-11)
-
-<code>keycloak: path traversal via double URL encoding. A flaw was found in Keycloak, where it does not properly validate URLs included in a redirect. An attacker can use this flaw to construct a malicious request to bypass validation and access other URLs and potentially sensitive information within the domain or possibly conduct further attacks. This flaw affects any client that utilizes a wildcard in the Valid Redirect URIs field.
-</code>
-
-- [shoucheng3/keycloak__keycloak_CVE-2022-3782_20-0-1](https://github.com/shoucheng3/keycloak__keycloak_CVE-2022-3782_20-0-1)
 
 ### CVE-2022-3786 (2022-11-01)
 
@@ -49099,6 +49093,13 @@
 
 - [tafamace/CVE-2018-8039](https://github.com/tafamace/CVE-2018-8039)
 
+### CVE-2018-8041 (2018-09-17)
+
+<code>Apache Camel's Mail 2.20.0 through 2.20.3, 2.21.0 through 2.21.1 and 2.22.0 is vulnerable to path traversal.
+</code>
+
+- [shoucheng3/apache__camel_CVE-2018-8041_2-20-3](https://github.com/shoucheng3/apache__camel_CVE-2018-8041_2-20-3)
+
 ### CVE-2018-8045 (2018-03-14)
 
 <code>In Joomla! 3.5.0 through 3.8.5, the lack of type casting of a variable in a SQL statement leads to a SQL injection vulnerability in the User Notes list view.
@@ -56986,6 +56987,13 @@
 </code>
 
 - [sbani/CVE-2014-8731-PoC](https://github.com/sbani/CVE-2014-8731-PoC)
+
+### CVE-2014-8739 (2020-02-08)
+
+<code>Unrestricted file upload vulnerability in server/php/UploadHandler.php in the jQuery File Upload Plugin 6.4.4 for jQuery, as used in the Creative Solutions Creative Contact Form (formerly Sexy Contact Form) before 1.0.0 for WordPress and before 2.0.1 for Joomla!, allows remote attackers to execute arbitrary code by uploading a PHP file with an PHP extension, then accessing it via a direct request to the file in files/, as exploited in the wild in October 2014.
+</code>
+
+- [Pranjal6955/CVE-2014-8739-Test-Environment](https://github.com/Pranjal6955/CVE-2014-8739-Test-Environment)
 
 ### CVE-2014-8757 (2015-02-17)
 
