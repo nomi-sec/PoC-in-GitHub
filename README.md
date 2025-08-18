@@ -623,6 +623,7 @@
 </code>
 
 - [Nxploited/CVE-2025-4334](https://github.com/Nxploited/CVE-2025-4334)
+- [0xgh057r3c0n/CVE-2025-4334](https://github.com/0xgh057r3c0n/CVE-2025-4334)
 
 ### CVE-2025-4336 (2025-05-24)
 
@@ -1162,6 +1163,13 @@
 
 - [byteReaper77/CVE-2025-7769](https://github.com/byteReaper77/CVE-2025-7769)
 
+### CVE-2025-7771 (2025-08-06)
+
+<code>ThrottleStop.sys, a legitimate driver, exposes two IOCTL interfaces that allow arbitrary read and write access to physical memory via the MmMapIoSpace function. This insecure implementation can be exploited by a malicious user-mode application to patch the running Windows kernel and invoke arbitrary kernel functions with ring-0 privileges. The vulnerability enables local attackers to execute arbitrary code in kernel context, resulting in privilege escalation and potential follow-on attacks, such as disabling security software or bypassing kernel-level protections. ThrottleStop.sys version 3.0.0.0 and possibly others are affected. Apply updates per vendor instructions.
+</code>
+
+- [Yuri08loveElaina/CVE-2025-7771](https://github.com/Yuri08loveElaina/CVE-2025-7771)
+
 ### CVE-2025-7783 (2025-07-18)
 
 <code>Use of Insufficiently Random Values vulnerability in form-data allows HTTP Parameter Pollution (HPP). This vulnerability is associated with program files lib/form_data.Js.\n\nThis issue affects form-data: &lt; 2.5.4, 3.0.0 - 3.0.3, 4.0.0 - 4.0.3.
@@ -1659,13 +1667,6 @@
 </code>
 
 - [mbanyamer/CVE-2025-24076](https://github.com/mbanyamer/CVE-2025-24076)
-
-### CVE-2025-24085 (2025-01-27)
-
-<code>A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
-</code>
-
-- [apt-007/12345](https://github.com/apt-007/12345)
 
 ### CVE-2025-24104 (2025-01-27)
 
@@ -2247,6 +2248,13 @@
 </code>
 
 - [sandsoncosta/CVE-2025-26633](https://github.com/sandsoncosta/CVE-2025-26633)
+
+### CVE-2025-26788 (2025-02-14)
+
+<code>StrongKey FIDO Server before 4.15.1 treats a non-discoverable (namedcredential) flow as a discoverable transaction.
+</code>
+
+- [EQSTLab/CVE-2025-26788](https://github.com/EQSTLab/CVE-2025-26788)
 
 ### CVE-2025-26794 (2025-02-21)
 
@@ -4056,6 +4064,7 @@
 - [63square/CVE-2025-49132](https://github.com/63square/CVE-2025-49132)
 - [melonlonmeo/CVE-2025-49132](https://github.com/melonlonmeo/CVE-2025-49132)
 - [0xtensho/CVE-2025-49132-poc](https://github.com/0xtensho/CVE-2025-49132-poc)
+- [GRodolphe/CVE-2025-49132_poc](https://github.com/GRodolphe/CVE-2025-49132_poc)
 
 ### CVE-2025-49144 (2025-06-23)
 
@@ -24473,6 +24482,13 @@
 
 - [kayes817/CVE-2022-1257](https://github.com/kayes817/CVE-2022-1257)
 
+### CVE-2022-1274 (2023-03-29)
+
+<code>A flaw was found in Keycloak in the execute-actions-email endpoint. This issue allows arbitrary HTML to be injected into emails sent to Keycloak users and can be misused to perform phishing or other attacks against users.
+</code>
+
+- [shoucheng3/keycloak__keycloak_CVE-2022-1274_20-0-3](https://github.com/shoucheng3/keycloak__keycloak_CVE-2022-1274_20-0-3)
+
 ### CVE-2022-1292 (2022-05-03)
 
 <code>The c_rehash script does not properly sanitise shell metacharacters to prevent command injection. This script is distributed by some operating systems in a manner where it is automatically executed. On such operating systems, an attacker could execute arbitrary commands with the privileges of the script. Use of the c_rehash script is considered obsolete and should be replaced by the OpenSSL rehash command line tool. Fixed in OpenSSL 3.0.3 (Affected 3.0.0,3.0.1,3.0.2). Fixed in OpenSSL 1.1.1o (Affected 1.1.1-1.1.1n). Fixed in OpenSSL 1.0.2ze (Affected 1.0.2-1.0.2zd).
@@ -24916,6 +24932,13 @@
 - [alfarom256/CVE-2022-3699](https://github.com/alfarom256/CVE-2022-3699)
 - [estimated1337/lenovo_exec](https://github.com/estimated1337/lenovo_exec)
 - [Eap2468/CVE-2022-3699](https://github.com/Eap2468/CVE-2022-3699)
+
+### CVE-2022-3782 (2023-01-11)
+
+<code>keycloak: path traversal via double URL encoding. A flaw was found in Keycloak, where it does not properly validate URLs included in a redirect. An attacker can use this flaw to construct a malicious request to bypass validation and access other URLs and potentially sensitive information within the domain or possibly conduct further attacks. This flaw affects any client that utilizes a wildcard in the Valid Redirect URIs field.
+</code>
+
+- [shoucheng3/keycloak__keycloak_CVE-2022-3782_20-0-1](https://github.com/shoucheng3/keycloak__keycloak_CVE-2022-3782_20-0-1)
 
 ### CVE-2022-3786 (2022-11-01)
 
@@ -34478,7 +34501,7 @@
 - [SecNN/Struts2_S2-062_CVE-2021-31805](https://github.com/SecNN/Struts2_S2-062_CVE-2021-31805)
 - [jax7sec/S2-062](https://github.com/jax7sec/S2-062)
 - [aeyesec/CVE-2021-31805](https://github.com/aeyesec/CVE-2021-31805)
-- [fleabane1/CVE-2021-31805-POC](https://github.com/fleabane1/CVE-2021-31805-POC)
+- [JordanANDJohn/CVE-2021-31805-POC](https://github.com/JordanANDJohn/CVE-2021-31805-POC)
 - [z92g/CVE-2021-31805](https://github.com/z92g/CVE-2021-31805)
 - [nth347/CVE-2021-31805](https://github.com/nth347/CVE-2021-31805)
 
@@ -43428,6 +43451,13 @@
 - [jaychouzzk/CVE-2019-0193-exp](https://github.com/jaychouzzk/CVE-2019-0193-exp)
 - [freeFV/ApacheSolrRCE](https://github.com/freeFV/ApacheSolrRCE)
 
+### CVE-2019-0194 (2019-04-30)
+
+<code>Apache Camel's File is vulnerable to directory traversal. Camel 2.21.0 to 2.21.3, 2.22.0 to 2.22.2, 2.23.0 and the unsupported Camel 2.x (2.19 and earlier) versions may be also affected.
+</code>
+
+- [shoucheng3/apache__camel_CVE-2019-0194_2-21-4](https://github.com/shoucheng3/apache__camel_CVE-2019-0194_2-21-4)
+
 ### CVE-2019-0207 (2019-09-16)
 
 <code>Tapestry processes assets `/assets/ctx` using classes chain `StaticFilesFilter -&gt; AssetDispatcher -&gt; ContextResource`, which doesn't filter the character `\`, so attacker can perform a path traversal attack to read any files on Windows platform.
@@ -45288,6 +45318,13 @@
 </code>
 
 - [evilangelplus/CVE-2019-10086](https://github.com/evilangelplus/CVE-2019-10086)
+
+### CVE-2019-10089 (2019-09-23)
+
+<code>On Apache JSPWiki, up to version 2.11.0.M4, a carefully crafted plugin link invocation could trigger an XSS vulnerability on Apache JSPWiki, related to the WYSIWYG editor, which could allow the attacker to execute javascript in the victim's browser and get some sensitive information about the victim.
+</code>
+
+- [shoucheng3/apache__jspwiki_CVE-2019-10089_2-11-0-M4](https://github.com/shoucheng3/apache__jspwiki_CVE-2019-10089_2-11-0-M4)
 
 ### CVE-2019-10092 (2019-09-26)
 
@@ -54555,6 +54592,7 @@
 </code>
 
 - [epicosy/VUL4J-23](https://github.com/epicosy/VUL4J-23)
+- [shoucheng3/apache__sling-org-apache-sling-xss_CVE-2016-5394_1-0-8](https://github.com/shoucheng3/apache__sling-org-apache-sling-xss_CVE-2016-5394_1-0-8)
 
 ### CVE-2016-5636 (2016-09-02)
 
@@ -57362,6 +57400,7 @@
 - [pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-](https://github.com/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-)
 - [malaya-m/cve-2013-3900-remediation-report](https://github.com/malaya-m/cve-2013-3900-remediation-report)
 - [Sabecomoeh/CVE-2013-3900](https://github.com/Sabecomoeh/CVE-2013-3900)
+- [PREN0MEN/CVE-2013-3900-PowerShell-PoC](https://github.com/PREN0MEN/CVE-2013-3900-PowerShell-PoC)
 
 ### CVE-2013-4002 (2013-07-23)
 
