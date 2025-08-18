@@ -1281,6 +1281,13 @@
 
 - [Tiger3080/CVE-2025-9043](https://github.com/Tiger3080/CVE-2025-9043)
 
+### CVE-2025-9090 (2025-08-17)
+
+<code>In Tenda AC20 16.03.08.12 wurde eine Schwachstelle gefunden. Dabei betrifft es die Funktion websFormDefine der Datei /goform/telnet der Komponente Telnet Service. Mittels dem Manipulieren mit unbekannten Daten kann eine command injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [byteReaper77/CVE-2025-9090](https://github.com/byteReaper77/CVE-2025-9090)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -4600,6 +4607,7 @@
 
 - [B1ack4sh/Blackash-CVE-2025-54253](https://github.com/B1ack4sh/Blackash-CVE-2025-54253)
 - [Shivshantp/CVE-2025-54253-Exploit-Demo](https://github.com/Shivshantp/CVE-2025-54253-Exploit-Demo)
+- [jm7knz/CVE-2025-54253-Exploit-Demo](https://github.com/jm7knz/CVE-2025-54253-Exploit-Demo)
 
 ### CVE-2025-54309 (2025-07-18)
 
