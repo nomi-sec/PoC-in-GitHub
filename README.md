@@ -2761,6 +2761,7 @@
 - [sahbaazansari/CVE-2025-29927](https://github.com/sahbaazansari/CVE-2025-29927)
 - [b4sh0xf/PoC-CVE-2025-29927](https://github.com/b4sh0xf/PoC-CVE-2025-29927)
 - [rgvillanueva28/vulnbox-easy-CVE-2025-29927](https://github.com/rgvillanueva28/vulnbox-easy-CVE-2025-29927)
+- [R3verseIN/Nextjs-middleware-vulnerable-appdemo-CVE-2025-29927](https://github.com/R3verseIN/Nextjs-middleware-vulnerable-appdemo-CVE-2025-29927)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -4079,7 +4080,7 @@
 </code>
 
 - [Zen-kun04/CVE-2025-49132](https://github.com/Zen-kun04/CVE-2025-49132)
-- [nfoltc/CVE-2025-49132](https://github.com/nfoltc/CVE-2025-49132)
+- [pxxdrobits/CVE-2025-49132](https://github.com/pxxdrobits/CVE-2025-49132)
 - [qiaojojo/CVE-2025-49132_poc](https://github.com/qiaojojo/CVE-2025-49132_poc)
 - [63square/CVE-2025-49132](https://github.com/63square/CVE-2025-49132)
 - [melonlonmeo/CVE-2025-49132](https://github.com/melonlonmeo/CVE-2025-49132)
@@ -4223,7 +4224,11 @@
 
 - [Anchor0221/CVE-2025-50460](https://github.com/Anchor0221/CVE-2025-50460)
 
-### CVE-2025-50461
+### CVE-2025-50461 (2025-08-19)
+
+<code>A deserialization vulnerability exists in Volcengine's verl 3.0.0, specifically in the scripts/model_merger.py script when using the &quot;fsdp&quot; backend. The script calls torch.load() with weights_only=False on user-supplied .pt files, allowing attackers to execute arbitrary code if a maliciously crafted model file is loaded. An attacker can exploit this by convincing a victim to download and place a malicious model file in a local directory with a specific filename pattern. This vulnerability may lead to arbitrary code execution with the privileges of the user running the script.
+</code>
+
 - [Anchor0221/CVE-2025-50461](https://github.com/Anchor0221/CVE-2025-50461)
 
 ### CVE-2025-50472 (2025-08-01)
@@ -4358,7 +4363,11 @@
 
 - [Kai-One001/Letta-CVE-2025-51482-RCE](https://github.com/Kai-One001/Letta-CVE-2025-51482-RCE)
 
-### CVE-2025-51529
+### CVE-2025-51529 (2025-08-19)
+
+<code>Incorrect Access Control in the AJAX endpoint functionality in jonkastonka Cookies and Content Security Policy plugin through version 2.29 allows remote attackers to cause a denial of service (database server resource exhaustion) via unlimited database write operations to the wp_ajax_nopriv_cacsp_insert_consent_data endpoint.
+</code>
+
 - [piotrmaciejbednarski/CVE-2025-51529](https://github.com/piotrmaciejbednarski/CVE-2025-51529)
 
 ### CVE-2025-51643
@@ -17766,6 +17775,13 @@
 - [zwlsix/KeePass-CVE-2023-24055](https://github.com/zwlsix/KeePass-CVE-2023-24055)
 - [yosef0x01/CVE-2023-24055](https://github.com/yosef0x01/CVE-2023-24055)
 
+### CVE-2023-24057 (2023-01-24)
+
+<code>HL7 (Health Level 7) FHIR Core Libraries before 5.6.92 allow attackers to extract files into arbitrary directories via directory traversal from a crafted ZIP or TGZ archive (for a prepackaged terminology cache, NPM package, or comparison archive).
+</code>
+
+- [shoucheng3/hapifhir__org_hl7_fhir_core_CVE-2023-24057_5-6-91](https://github.com/shoucheng3/hapifhir__org_hl7_fhir_core_CVE-2023-24057_5-6-91)
+
 ### CVE-2023-24059 (2023-01-22)
 
 <code>Grand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023.
@@ -23386,6 +23402,13 @@
 
 - [ambionics/owncloud-exploits](https://github.com/ambionics/owncloud-exploits)
 
+### CVE-2023-49109 (2024-02-20)
+
+<code>Exposure of Remote Code Execution in Apache Dolphinscheduler.\n\nThis issue affects Apache DolphinScheduler: before 3.2.1. \n\nWe recommend users to upgrade Apache DolphinScheduler to version 3.2.1, which fixes the issue.
+</code>
+
+- [shoucheng3/apache__dolphinscheduler_CVE-2023-49109_3-2-0](https://github.com/shoucheng3/apache__dolphinscheduler_CVE-2023-49109_3-2-0)
+
 ### CVE-2023-49313 (2023-11-28)
 
 <code>A dylib injection vulnerability in XMachOViewer 0.04 allows attackers to compromise integrity. By exploiting this, unauthorized code can be injected into the product's processes, potentially leading to remote control and unauthorized access to sensitive user data.
@@ -25401,6 +25424,13 @@
 
 - [sumeetIT/CVE-2022-20607](https://github.com/sumeetIT/CVE-2022-20607)
 
+### CVE-2022-20617 (2022-01-12)
+
+<code>Jenkins Docker Commons Plugin 1.17 and earlier does not sanitize the name of an image or a tag, resulting in an OS command execution vulnerability exploitable by attackers with Item/Configure permission or able to control the contents of a previously configured job's SCM repository.
+</code>
+
+- [shoucheng3/jenkinsci__docker-commons-plugin_CVE-2022-20617_1-17](https://github.com/shoucheng3/jenkinsci__docker-commons-plugin_CVE-2022-20617_1-17)
+
 ### CVE-2022-20699 (2022-02-10)
 
 <code>Multiple vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code Elevate privileges Execute arbitrary commands Bypass authentication and authorization protections Fetch and run unsigned software Cause denial of service (DoS) For more information about these vulnerabilities, see the Details section of this advisory.
@@ -25870,6 +25900,13 @@
 </code>
 
 - [shoucheng3/asf__james-project_CVE-2022-22931_3-6-0](https://github.com/shoucheng3/asf__james-project_CVE-2022-22931_3-6-0)
+
+### CVE-2022-22932 (2022-01-26)
+
+<code>Apache Karaf obr:* commands and run goal on the karaf-maven-plugin have partial path traversal which allows to break out of expected folder. The risk is low as obr:* commands are not very used and the entry is set by user. This has been fixed in revision: https://gitbox.apache.org/repos/asf?p=karaf.git;h=36a2bc4 https://gitbox.apache.org/repos/asf?p=karaf.git;h=52b70cf Mitigation: Apache Karaf users should upgrade to 4.2.15 or 4.3.6 or later as soon as possible, or use correct path. JIRA Tickets: https://issues.apache.org/jira/browse/KARAF-7326
+</code>
+
+- [shoucheng3/asf__karaf_CVE-2022-22932_4-3-5](https://github.com/shoucheng3/asf__karaf_CVE-2022-22932_4-3-5)
 
 ### CVE-2022-22947 (2022-03-03)
 
@@ -27605,6 +27642,13 @@
 - [ahsentekd/CVE-2022-28346](https://github.com/ahsentekd/CVE-2022-28346)
 - [vincentinttsh/CVE-2022-28346](https://github.com/vincentinttsh/CVE-2022-28346)
 - [kamal-marouane/CVE-2022-28346](https://github.com/kamal-marouane/CVE-2022-28346)
+
+### CVE-2022-28367 (2022-04-21)
+
+<code>OWASP AntiSamy before 1.6.6 allows XSS via HTML tag smuggling on STYLE content with crafted input. The output serializer does not properly encode the supposed Cascading Style Sheets (CSS) content.
+</code>
+
+- [shoucheng3/nahsra__antisamy_CVE-2022-28367_1-6-5](https://github.com/shoucheng3/nahsra__antisamy_CVE-2022-28367_1-6-5)
 
 ### CVE-2022-28368 (2022-04-03)
 
@@ -30404,7 +30448,6 @@
 </code>
 
 - [IgorDuino/CVE-2022-44136-exploit](https://github.com/IgorDuino/CVE-2022-44136-exploit)
-- [Ch35h1r3c47/CVE-2022-44136-poc](https://github.com/Ch35h1r3c47/CVE-2022-44136-poc)
 
 ### CVE-2022-44149 (2023-01-06)
 
@@ -32241,7 +32284,6 @@
 - [0dayNinja/CVE-2021-3560](https://github.com/0dayNinja/CVE-2021-3560)
 - [admin-079/CVE-2021-3560](https://github.com/admin-079/CVE-2021-3560)
 - [chenaotian/CVE-2021-3560](https://github.com/chenaotian/CVE-2021-3560)
-- [NeonWhiteRabbit/CVE-2021-3560](https://github.com/NeonWhiteRabbit/CVE-2021-3560)
 - [f4T1H21/CVE-2021-3560-Polkit-DBus](https://github.com/f4T1H21/CVE-2021-3560-Polkit-DBus)
 - [innxrmxst/CVE-2021-3560](https://github.com/innxrmxst/CVE-2021-3560)
 - [RicterZ/CVE-2021-3560-Authentication-Agent](https://github.com/RicterZ/CVE-2021-3560-Authentication-Agent)
@@ -36350,6 +36392,7 @@
 - [blu3ming/PoC-CVE-2021-41773](https://github.com/blu3ming/PoC-CVE-2021-41773)
 - [r0otk3r/CVE-2021-41773](https://github.com/r0otk3r/CVE-2021-41773)
 - [mah4nzfr/CVE-2021-41773](https://github.com/mah4nzfr/CVE-2021-41773)
+- [charanvoonna/CVE-2021-41773](https://github.com/charanvoonna/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -45479,6 +45522,13 @@
 
 - [butterflyhack/CVE-2019-10207](https://github.com/butterflyhack/CVE-2019-10207)
 
+### CVE-2019-10219 (2019-11-08)
+
+<code>A vulnerability was found in Hibernate-Validator. The SafeHtml validator annotation fails to properly sanitize payloads consisting of potentially malicious code in HTML comments and instructions. This vulnerability can result in an XSS attack.
+</code>
+
+- [shoucheng3/hibernate__hibernate-validator_CVE-2019-10219_6-0-17-Final](https://github.com/shoucheng3/hibernate__hibernate-validator_CVE-2019-10219_6-0-17-Final)
+
 ### CVE-2019-10220 (2019-11-27)
 
 <code>Linux kernel CIFS implementation, version 4.9.0 is vulnerable to a relative paths injection in directory entry lists.
@@ -51409,6 +51459,13 @@
 - [bgeesaman/cve-2018-1002105](https://github.com/bgeesaman/cve-2018-1002105)
 - [sh-ubh/CVE-2018-1002105](https://github.com/sh-ubh/CVE-2018-1002105)
 
+### CVE-2018-1002200 (2018-07-25)
+
+<code>plexus-archiver before 3.6.0 is vulnerable to directory traversal, allowing attackers to write to arbitrary files via a ../ (dot dot slash) in an archive entry that is mishandled during extraction. This vulnerability is also known as 'Zip-Slip'.
+</code>
+
+- [shoucheng3/codehaus-plexus__plexus-archiver_CVE-2018-1002200_3-5](https://github.com/shoucheng3/codehaus-plexus__plexus-archiver_CVE-2018-1002200_3-5)
+
 ### CVE-2018-1002201 (2018-07-25)
 
 <code>zt-zip before 1.13 is vulnerable to directory traversal, allowing attackers to write to arbitrary files via a ../ (dot dot slash) in a Zip archive entry that is mishandled during extraction. This vulnerability is also known as 'Zip-Slip'.
@@ -53967,6 +54024,13 @@
 - [000pp/pwnfaces](https://github.com/000pp/pwnfaces)
 - [LongWayHomie/CVE-2017-1000486](https://github.com/LongWayHomie/CVE-2017-1000486)
 - [jam620/primefaces](https://github.com/jam620/primefaces)
+
+### CVE-2017-1000487 (2018-01-03)
+
+<code>Plexus-utils before 3.0.16 is vulnerable to command injection because it does not correctly process the contents of double quoted strings.
+</code>
+
+- [shoucheng3/codehaus-plexus__plexus-utils_CVE-2017-1000487_3-0-15](https://github.com/shoucheng3/codehaus-plexus__plexus-utils_CVE-2017-1000487_3-0-15)
 
 ### CVE-2017-1000499 (2018-01-03)
 
