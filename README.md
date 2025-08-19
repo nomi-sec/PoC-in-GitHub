@@ -1261,6 +1261,13 @@
 
 - [byteReaper77/CVE-2025-8550](https://github.com/byteReaper77/CVE-2025-8550)
 
+### CVE-2025-8671 (2025-08-13)
+
+<code>A mismatch caused by client-triggered server-sent stream resets between HTTP/2 specifications and the internal architectures of some HTTP/2 implementations may result in excessive server resource consumption leading to denial-of-service (DoS).  By opening streams and then rapidly triggering the server to reset them—using malformed frames or flow control errors—an attacker can exploit incorrect stream accounting. Streams reset by the server are considered closed at the protocol level, even though backend processing continues. This allows a client to cause the server to handle an unbounded number of concurrent streams on a single connection. This CVE will be updated as affected product details are released.
+</code>
+
+- [moften/CVE-2025-8671-MadeYouReset-HTTP-2-DDoS](https://github.com/moften/CVE-2025-8671-MadeYouReset-HTTP-2-DDoS)
+
 ### CVE-2025-8730 (2025-08-08)
 
 <code>Eine Schwachstelle wurde in Belkin F9K1009 and F9K1010 2.00.04/2.00.09 gefunden. Sie wurde als kritisch eingestuft. Es geht hierbei um eine nicht näher spezifizierte Funktion der Komponente Web Interface. Mittels Manipulieren mit unbekannten Daten kann eine hard-coded credentials-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
@@ -17714,7 +17721,7 @@
 - [h3x0v3rl0rd/CVE-2023-23752](https://github.com/h3x0v3rl0rd/CVE-2023-23752)
 - [revkami/CVE-2023-23752-Joomla-v4.2.8](https://github.com/revkami/CVE-2023-23752-Joomla-v4.2.8)
 - [Aureum01/CVE-2023-23752](https://github.com/Aureum01/CVE-2023-23752)
-- [0xVoodoo/CVE-2023-23752](https://github.com/0xVoodoo/CVE-2023-23752)
+- [0xVoodoo/PoCs](https://github.com/0xVoodoo/PoCs)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -43424,6 +43431,13 @@
 </code>
 
 - [gmh5225/CVE-2020-36603](https://github.com/gmh5225/CVE-2020-36603)
+
+### CVE-2020-36708 (2023-06-07)
+
+<code>The following themes for WordPress are vulnerable to Function Injections in versions up to and including Shapely &lt;= 1.2.7, NewsMag &lt;= 2.4.1, Activello &lt;= 1.4.0, Illdy &lt;= 2.1.4, Allegiant &lt;= 1.2.2, Newspaper X &lt;= 1.3.1, Pixova Lite &lt;= 2.0.5, Brilliance &lt;= 1.2.7, MedZone Lite &lt;= 1.2.4, Regina Lite &lt;= 2.0.4, Transcend &lt;= 1.1.8, Affluent &lt;= 1.1.0, Bonkers &lt;= 1.0.4, Antreas &lt;= 1.0.2, Sparkling &lt;= 2.4.8, and NatureMag Lite &lt;= 1.0.4. This is due to epsilon_framework_ajax_action. This makes it possible for unauthenticated attackers to call functions and achieve remote code execution.
+</code>
+
+- [b1g-b33f/CVE-2020-36708](https://github.com/b1g-b33f/CVE-2020-36708)
 
 ### CVE-2020-36730 (2023-06-07)
 
