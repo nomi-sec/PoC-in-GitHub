@@ -2608,9 +2608,6 @@
 ### CVE-2025-29711
 - [SteamPunk424/CVE-2025-29711-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Incorrect-Access-Control](https://github.com/SteamPunk424/CVE-2025-29711-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Incorrect-Access-Control)
 
-### CVE-2025-29712
-- [SteamPunk424/CVE-2025-29712-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Authenticated-Stored-XSS](https://github.com/SteamPunk424/CVE-2025-29712-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Authenticated-Stored-XSS)
-
 ### CVE-2025-29722 (2025-04-17)
 
 <code>A CSRF vulnerability in Commercify v1.0 allows remote attackers to perform unauthorized actions on behalf of authenticated users. The issue exists due to missing CSRF protection on sensitive endpoints.
@@ -4053,6 +4050,7 @@
 - [Joelp03/CVE-2025-49113](https://github.com/Joelp03/CVE-2025-49113)
 - [00xCanelo/CVE-2025-49113](https://github.com/00xCanelo/CVE-2025-49113)
 - [CyberQuestor-infosec/CVE-2025-49113-Roundcube_1.6.10](https://github.com/CyberQuestor-infosec/CVE-2025-49113-Roundcube_1.6.10)
+- [SteamPunk424/CVE-2025-49113-Roundcube-RCE-PHP](https://github.com/SteamPunk424/CVE-2025-49113-Roundcube-RCE-PHP)
 
 ### CVE-2025-49125 (2025-06-16)
 
@@ -17814,6 +17812,13 @@
 - [Pandante-Central/CVE-2023-24329-codeql-test](https://github.com/Pandante-Central/CVE-2023-24329-codeql-test)
 - [PenTestMano/CVE-2023-24329-Exploit](https://github.com/PenTestMano/CVE-2023-24329-Exploit)
 
+### CVE-2023-24422 (2023-01-24)
+
+<code>A sandbox bypass vulnerability involving map constructors in Jenkins Script Security Plugin 1228.vd93135a_2fb_25 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM.
+</code>
+
+- [shoucheng3/jenkinsci__script-security-plugin_CVE-2023-24422_1228.vd93135a_2fb_25](https://github.com/shoucheng3/jenkinsci__script-security-plugin_CVE-2023-24422_1228.vd93135a_2fb_25)
+
 ### CVE-2023-24488 (2023-07-10)
 
 <code>Cross site scripting vulnerability in Citrix ADC and Citrix Gateway  in allows and attacker to perform cross site scripting
@@ -25055,6 +25060,13 @@
 </code>
 
 - [aminetitrofine/CVE-2022-4096](https://github.com/aminetitrofine/CVE-2022-4096)
+
+### CVE-2022-4137 (2023-09-25)
+
+<code>A reflected cross-site scripting (XSS) vulnerability was found in the 'oob' OAuth endpoint due to incorrect null-byte handling. This issue allows a malicious link to insert an arbitrary URI into a Keycloak error page. This flaw requires a user or administrator to interact with a link in order to be vulnerable. This may compromise user details, allowing it to be changed or collected by an attacker.
+</code>
+
+- [shoucheng3/keycloak__keycloak_CVE-2022-4137_20-0-3](https://github.com/shoucheng3/keycloak__keycloak_CVE-2022-4137_20-0-3)
 
 ### CVE-2022-4174 (2022-11-29)
 
@@ -56665,6 +56677,13 @@
 - [uthrasri/Openssl_G2.5_CVE-2014-3570_01](https://github.com/uthrasri/Openssl_G2.5_CVE-2014-3570_01)
 - [uthrasri/CVE-2014-3570](https://github.com/uthrasri/CVE-2014-3570)
 - [uthrasri/CVE-2014-3570_G2.5_openssl_no_patch](https://github.com/uthrasri/CVE-2014-3570_G2.5_openssl_no_patch)
+
+### CVE-2014-3576 (2015-08-14)
+
+<code>The processControlCommand function in broker/TransportConnection.java in Apache ActiveMQ before 5.11.0 allows remote attackers to cause a denial of service (shutdown) via a shutdown command.
+</code>
+
+- [shoucheng3/apache__activemq_CVE-2014-3576_5-10-1](https://github.com/shoucheng3/apache__activemq_CVE-2014-3576_5-10-1)
 
 ### CVE-2014-3625 (2014-11-20)
 
