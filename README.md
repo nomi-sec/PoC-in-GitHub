@@ -364,6 +364,13 @@
 
 - [ubaydev/CVE-2025-2594](https://github.com/ubaydev/CVE-2025-2594)
 
+### CVE-2025-2598 (2025-03-21)
+
+<code>When the AWS Cloud Development Kit (AWS CDK) Command Line Interface (AWS CDK CLI) is used with a credential plugin which returns an expiration property with the retrieved AWS credentials, the credentials are printed to the console output. To mitigate this issue, users should upgrade to version 2.178.2 or later and ensure any forked or derivative code is patched to incorporate the new fixes.
+</code>
+
+- [SpongeBob-369/CVE-2025-2598](https://github.com/SpongeBob-369/CVE-2025-2598)
+
 ### CVE-2025-2620 (2025-03-22)
 
 <code>In D-Link DAP-1620 1.03 wurde eine kritische Schwachstelle gefunden. Betroffen ist die Funktion mod_graph_auth_uri_handler der Datei /storage der Komponente Authentication Handler. Durch die Manipulation mit unbekannten Daten kann eine stack-based buffer overflow-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
@@ -1267,6 +1274,13 @@
 </code>
 
 - [moften/CVE-2025-8671-MadeYouReset-HTTP-2-DDoS](https://github.com/moften/CVE-2025-8671-MadeYouReset-HTTP-2-DDoS)
+
+### CVE-2025-8723 (2025-08-19)
+
+<code>The Cloudflare Image Resizing plugin for WordPress is vulnerable to Remote Code Execution due to missing authentication and insufficient sanitization within its hook_rest_pre_dispatch() method in all versions up to, and including, 1.5.6. This makes it possible for unauthenticated attackers to inject arbitrary PHP into the codebase, achieving remote code execution.
+</code>
+
+- [Nxploited/CVE-2025-8723](https://github.com/Nxploited/CVE-2025-8723)
 
 ### CVE-2025-8730 (2025-08-08)
 
@@ -4182,6 +4196,9 @@
 ### CVE-2025-50365
 - [1h3ll/CVE-2025-50365_CSRF_DELETE_CATEGORY-phpgurukul-CVE](https://github.com/1h3ll/CVE-2025-50365_CSRF_DELETE_CATEGORY-phpgurukul-CVE)
 
+### CVE-2025-50383
+- [Abdullah4eb/CVE-2025-50383](https://github.com/Abdullah4eb/CVE-2025-50383)
+
 ### CVE-2025-50420 (2025-08-04)
 
 <code>An issue in the pdfseparate utility of freedesktop poppler v25.04.0 allows attackers to cause an infinite recursion via supplying a crafted PDF file. This can lead to a Denial of Service (DoS).
@@ -4578,13 +4595,6 @@
 </code>
 
 - [B1ack4sh/Blackash-CVE-2025-53773](https://github.com/B1ack4sh/Blackash-CVE-2025-53773)
-
-### CVE-2025-53778 (2025-08-12)
-
-<code>Improper authentication in Windows NTLM allows an authorized attacker to elevate privileges over a network.
-</code>
-
-- [OxPloited/CVE-2025-53778-Exploit](https://github.com/OxPloited/CVE-2025-53778-Exploit)
 
 ### CVE-2025-53786 (2025-08-06)
 
@@ -14249,6 +14259,7 @@
 </code>
 
 - [Gokul-Krishnan-V-R/CVE-2024-53900](https://github.com/Gokul-Krishnan-V-R/CVE-2024-53900)
+- [www-spam/CVE-2024-53900](https://github.com/www-spam/CVE-2024-53900)
 
 ### CVE-2024-53924 (2025-04-17)
 
@@ -15553,7 +15564,7 @@
 - [ysanatomic/io_uring_LPE-CVE-2023-2598](https://github.com/ysanatomic/io_uring_LPE-CVE-2023-2598)
 - [cainiao159357/CVE-2023-2598](https://github.com/cainiao159357/CVE-2023-2598)
 - [LLfam/CVE-2023-2598](https://github.com/LLfam/CVE-2023-2598)
-- [SpongeBob-369/CVE-2023-2598](https://github.com/SpongeBob-369/CVE-2023-2598)
+- [SpongeBob-369/CVE-2025-2598](https://github.com/SpongeBob-369/CVE-2025-2598)
 
 ### CVE-2023-2603 (2023-06-06)
 
@@ -26740,6 +26751,13 @@
 
 - [moften/Symfony-CVE-Scanner-PoC-](https://github.com/moften/Symfony-CVE-Scanner-PoC-)
 
+### CVE-2022-24897 (2022-05-02)
+
+<code>APIs to evaluate content with Velocity is a package for APIs to evaluate content with Velocity. Starting with version 2.3 and prior to 12.6.7, 12.10.3, and 13.0, the velocity scripts are not properly sandboxed against using the Java File API to perform read or write operations on the filesystem. Writing an attacking script in Velocity requires the Script rights in XWiki so not all users can use it, and it also requires finding an XWiki API which returns a File. The problem has been patched in versions 12.6.7, 12.10.3, and 13.0. There is no easy workaround for fixing this vulnerability other than upgrading and being careful when giving Script rights.
+</code>
+
+- [shoucheng3/xwiki__xwiki-commons_CVE-2022-24897_12-6-6](https://github.com/shoucheng3/xwiki__xwiki-commons_CVE-2022-24897_12-6-6)
+
 ### CVE-2022-24924 (2022-02-11)
 
 <code>An improper access control in LiveWallpaperService prior to versions 3.0.9.0 allows to create a specific named system directory without a proper permission.
@@ -28368,6 +28386,13 @@
 </code>
 
 - [shoucheng3/DSpace__DSpace_CVE-2022-31192_5-10](https://github.com/shoucheng3/DSpace__DSpace_CVE-2022-31192_5-10)
+
+### CVE-2022-31194 (2022-08-01)
+
+<code>DSpace open source software is a repository application which provides durable access to digital resources. dspace-jspui is a UI component for DSpace. The JSPUI resumable upload implementations in SubmissionController and FileUploadRequest are vulnerable to multiple path traversal attacks, allowing an attacker to create files/directories anywhere on the server writable by the Tomcat/DSpace user, by modifying some request parameters during submission. This path traversal can only be executed by a user with special privileges (submitter rights). This vulnerability only impacts the JSPUI. Users are advised to upgrade. There are no known workarounds. However, this vulnerability cannot be exploited by an anonymous user or a basic user. The user must first have submitter privileges to at least one Collection and be able to determine how to modify the request parameters to exploit the vulnerability.
+</code>
+
+- [shoucheng3/DSpace__DSpace_CVE-2022-31194_5-10](https://github.com/shoucheng3/DSpace__DSpace_CVE-2022-31194_5-10)
 
 ### CVE-2022-31245 (2022-05-20)
 
@@ -43349,7 +43374,6 @@
 </code>
 
 - [skyllpro/CVE-2021-44026-PoC](https://github.com/skyllpro/CVE-2021-44026-PoC)
-- [Pbat6/CVE-2020-35730](https://github.com/Pbat6/CVE-2020-35730)
 
 ### CVE-2020-35749 (2021-01-15)
 
@@ -44525,6 +44549,13 @@
 
 - [rbeede/CVE-2019-5630](https://github.com/rbeede/CVE-2019-5630)
 
+### CVE-2019-5688 (2019-11-18)
+
+<code>NVIDIA NVFlash, NVUFlash Tool prior to v5.588.0 and GPUModeSwitch Tool prior to 2019-11, NVIDIA kernel mode driver (nvflash.sys, nvflsh32.sys, and nvflsh64.sys) contains a vulnerability in which authenticated users with administrative privileges can gain access to device memory and registers of other devices not managed by NVIDIA, which may lead to escalation of privileges, information disclosure, or denial of service.
+</code>
+
+- [watsa01/CVE-2019-5688](https://github.com/watsa01/CVE-2019-5688)
+
 ### CVE-2019-5700 (2019-10-09)
 
 <code>NVIDIA Shield TV Experience prior to v8.0.1, NVIDIA Tegra software contains a vulnerability in the bootloader, where it does not validate the fields of the boot image, which may lead to code execution, denial of service, escalation of privileges, and information disclosure.
@@ -45381,6 +45412,13 @@
 </code>
 
 - [shoucheng3/apache__jspwiki_CVE-2019-10077_2-11-0-M3](https://github.com/shoucheng3/apache__jspwiki_CVE-2019-10077_2-11-0-M3)
+
+### CVE-2019-10078 (2019-05-20)
+
+<code>A carefully crafted plugin link invocation could trigger an XSS vulnerability on Apache JSPWiki 2.9.0 to 2.11.0.M3, which could lead to session hijacking. Initial reporting indicated ReferredPagesPlugin, but further analysis showed that multiple plugins were vulnerable.
+</code>
+
+- [shoucheng3/apache__jspwiki_CVE-2019-10078_2-11-0-M3](https://github.com/shoucheng3/apache__jspwiki_CVE-2019-10078_2-11-0-M3)
 
 ### CVE-2019-10086 (2019-08-20)
 
@@ -47140,6 +47178,13 @@
 </code>
 
 - [shoucheng3/apache__rocketmq_CVE-2019-17572_4-6-0](https://github.com/shoucheng3/apache__rocketmq_CVE-2019-17572_4-6-0)
+
+### CVE-2019-17573 (2020-01-16)
+
+<code>By default, Apache CXF creates a /services page containing a listing of the available endpoint names and addresses. This webpage is vulnerable to a reflected Cross-Site Scripting (XSS) attack, which allows a malicious actor to inject javascript into the web page. Please note that the attack exploits a feature which is not typically not present in modern browsers, who remove dot segments before sending the request. However, Mobile applications may be vulnerable.
+</code>
+
+- [shoucheng3/asf__cxf_CVE-2019-17573_3-2-11](https://github.com/shoucheng3/asf__cxf_CVE-2019-17573_3-2-11)
 
 ### CVE-2019-17596 (2019-10-24)
 
@@ -50755,6 +50800,13 @@
 - [Nickguitar/Joomla-JCK-Editor-6.4.4-SQL-Injection](https://github.com/Nickguitar/Joomla-JCK-Editor-6.4.4-SQL-Injection)
 - [MataKucing-OFC/CVE-2018-17254](https://github.com/MataKucing-OFC/CVE-2018-17254)
 
+### CVE-2018-17297 (2018-09-21)
+
+<code>The unzip function in ZipUtil.java in Hutool before 4.1.12 allows remote attackers to overwrite arbitrary files via directory traversal sequences in a filename within a ZIP archive.
+</code>
+
+- [shoucheng3/dromara__hutool_CVE-2018-17297_4-1-11](https://github.com/shoucheng3/dromara__hutool_CVE-2018-17297_4-1-11)
+
 ### CVE-2018-17418 (2019-03-07)
 
 <code>Monstra CMS 3.0.4 allows remote attackers to execute arbitrary PHP code via a mixed-case file extension, as demonstrated by the 123.PhP filename, because plugins\box\filesmanager\filesmanager.admin.php mishandles the forbidden_types variable.
@@ -51356,6 +51408,13 @@
 - [imlzw/Kubernetes-1.12.3-all-auto-install](https://github.com/imlzw/Kubernetes-1.12.3-all-auto-install)
 - [bgeesaman/cve-2018-1002105](https://github.com/bgeesaman/cve-2018-1002105)
 - [sh-ubh/CVE-2018-1002105](https://github.com/sh-ubh/CVE-2018-1002105)
+
+### CVE-2018-1002201 (2018-07-25)
+
+<code>zt-zip before 1.13 is vulnerable to directory traversal, allowing attackers to write to arbitrary files via a ../ (dot dot slash) in a Zip archive entry that is mishandled during extraction. This vulnerability is also known as 'Zip-Slip'.
+</code>
+
+- [shoucheng3/zeroturnaround__zt-zip_CVE-2018-1002201_1-12](https://github.com/shoucheng3/zeroturnaround__zt-zip_CVE-2018-1002201_1-12)
 
 ### CVE-2018-1002202 (2018-07-25)
 
@@ -57637,6 +57696,13 @@
 </code>
 
 - [stoicboomer/CVE-2013-6987](https://github.com/stoicboomer/CVE-2013-6987)
+
+### CVE-2013-7285 (2019-05-15)
+
+<code>Xstream API versions up to 1.4.6 and version 1.4.10, if the security framework has not been initialized, may allow a remote attacker to run arbitrary shell commands by manipulating the processed input stream when unmarshaling XML or any supported format. e.g. JSON.
+</code>
+
+- [shoucheng3/x-stream__xstream_CVE-2013-7285_1-4-6](https://github.com/shoucheng3/x-stream__xstream_CVE-2013-7285_1-4-6)
 
 
 ## 2012
