@@ -364,13 +364,6 @@
 
 - [ubaydev/CVE-2025-2594](https://github.com/ubaydev/CVE-2025-2594)
 
-### CVE-2025-2598 (2025-03-21)
-
-<code>When the AWS Cloud Development Kit (AWS CDK) Command Line Interface (AWS CDK CLI) is used with a credential plugin which returns an expiration property with the retrieved AWS credentials, the credentials are printed to the console output. To mitigate this issue, users should upgrade to version 2.178.2 or later and ensure any forked or derivative code is patched to incorporate the new fixes.
-</code>
-
-- [SpongeBob-369/CVE-2025-2598](https://github.com/SpongeBob-369/CVE-2025-2598)
-
 ### CVE-2025-2620 (2025-03-22)
 
 <code>In D-Link DAP-1620 1.03 wurde eine kritische Schwachstelle gefunden. Betroffen ist die Funktion mod_graph_auth_uri_handler der Datei /storage der Komponente Authentication Handler. Durch die Manipulation mit unbekannten Daten kann eine stack-based buffer overflow-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
@@ -3002,6 +2995,7 @@
 - [nairuzabulhul/nuclei-template-cve-2025-31324-check](https://github.com/nairuzabulhul/nuclei-template-cve-2025-31324-check)
 - [sug4r-wr41th/CVE-2025-31324](https://github.com/sug4r-wr41th/CVE-2025-31324)
 - [antichainalysis/sap-netweaver-0day-CVE-2025-31324](https://github.com/antichainalysis/sap-netweaver-0day-CVE-2025-31324)
+- [harshitvarma05/CVE-2025-31324-Exploits](https://github.com/harshitvarma05/CVE-2025-31324-Exploits)
 
 ### CVE-2025-31336
 - [coleleavitt/AAMVA-PDF417-Vulnerability-Research](https://github.com/coleleavitt/AAMVA-PDF417-Vulnerability-Research)
@@ -15580,7 +15574,7 @@
 - [ysanatomic/io_uring_LPE-CVE-2023-2598](https://github.com/ysanatomic/io_uring_LPE-CVE-2023-2598)
 - [cainiao159357/CVE-2023-2598](https://github.com/cainiao159357/CVE-2023-2598)
 - [LLfam/CVE-2023-2598](https://github.com/LLfam/CVE-2023-2598)
-- [SpongeBob-369/CVE-2025-2598](https://github.com/SpongeBob-369/CVE-2025-2598)
+- [SpongeBob-369/CVE-2023-2598](https://github.com/SpongeBob-369/CVE-2023-2598)
 
 ### CVE-2023-2603 (2023-06-06)
 
@@ -18760,6 +18754,13 @@
 
 - [ohnonoyesyes/CVE-2023-29084](https://github.com/ohnonoyesyes/CVE-2023-29084)
 
+### CVE-2023-29201 (2023-04-15)
+
+<code>XWiki Commons are technical libraries common to several other top level XWiki projects. The &quot;restricted&quot; mode of the HTML cleaner in XWiki, introduced in version 4.2-milestone-1, only escaped `&lt;script&gt;` and `&lt;style&gt;`-tags but neither attributes that can be used to inject scripts nor other dangerous HTML tags like `&lt;iframe&gt;`. As a consequence, any code relying on this &quot;restricted&quot; mode for security is vulnerable to JavaScript injection (&quot;cross-site scripting&quot;/XSS). When a privileged user with programming rights visits such a comment in XWiki, the malicious JavaScript code is executed in the context of the user session. This allows server-side code execution with programming rights, impacting the confidentiality, integrity and availability of the XWiki instance. This problem has been patched in XWiki 14.6 RC1 with the introduction of a filter with allowed HTML elements and attributes that is enabled in restricted mode. There are no known workarounds apart from upgrading to a version including the fix.
+</code>
+
+- [shoucheng3/xwiki__xwiki-commons_CVE-2023-29201_14-5](https://github.com/shoucheng3/xwiki__xwiki-commons_CVE-2023-29201_14-5)
+
 ### CVE-2023-29324 (2023-05-09)
 
 <code>Windows MSHTML Platform Security Feature Bypass Vulnerability
@@ -21643,6 +21644,13 @@
 </code>
 
 - [Zone1-Z/CVE-2023-40989](https://github.com/Zone1-Z/CVE-2023-40989)
+
+### CVE-2023-41044 (2023-08-31)
+
+<code>Graylog is a free and open log management platform. A partial path traversal vulnerability exists in Graylog's `Support Bundle` feature. The vulnerability is caused by incorrect user input validation in an HTTP API resource. Graylog's Support Bundle feature allows an attacker with valid Admin role credentials to download or delete files in sibling directories of the support bundle directory. The default `data_dir` in operating system packages (DEB, RPM) is set to `/var/lib/graylog-server`. The data directory for the Support Bundle feature is always `&lt;data_dir&gt;/support-bundle`. Due to the partial path traversal vulnerability, an attacker with valid Admin role credentials can read or delete files in directories that start with a `/var/lib/graylog-server/support-bundle` directory name. The vulnerability would allow the download or deletion of files in the following example directories: `/var/lib/graylog-server/support-bundle-test` and `/var/lib/graylog-server/support-bundlesdirectory`. For the Graylog Docker images, the `data_dir` is set to `/usr/share/graylog/data` by default. This vulnerability is fixed in Graylog version 5.1.3 and later. Users are advised to upgrade. Users unable to upgrade should block all HTTP requests to the following HTTP API endpoints by using a reverse proxy server in front of Graylog. `GET /api/system/debug/support/bundle/download/{filename}` and `DELETE /api/system/debug/support/bundle/{filename}`.\n
+</code>
+
+- [shoucheng3/Graylog2__graylog2-server_CVE-2023-41044_5-1-2](https://github.com/shoucheng3/Graylog2__graylog2-server_CVE-2023-41044_5-1-2)
 
 ### CVE-2023-41064 (2023-09-07)
 
