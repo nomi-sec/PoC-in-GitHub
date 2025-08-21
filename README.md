@@ -1220,6 +1220,8 @@
 - [pentestfunctions/CVE-2025-8088-Multi-Document](https://github.com/pentestfunctions/CVE-2025-8088-Multi-Document)
 - [pexlexity/WinRAR-CVE-2025-8088-Path-Traversal-PoC](https://github.com/pexlexity/WinRAR-CVE-2025-8088-Path-Traversal-PoC)
 - [Syrins/CVE-2025-8088-Winrar-Tool-Gui](https://github.com/Syrins/CVE-2025-8088-Winrar-Tool-Gui)
+- [amel-62/WinRAR-CVE-2025-8088-PoC-RAR](https://github.com/amel-62/WinRAR-CVE-2025-8088-PoC-RAR)
+- [ghostn4444/CVE-2025-8088](https://github.com/ghostn4444/CVE-2025-8088)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -1314,6 +1316,13 @@
 </code>
 
 - [byteReaper77/CVE-2025-9090](https://github.com/byteReaper77/CVE-2025-9090)
+
+### CVE-2025-9132 (2025-08-20)
+
+<code>Out of bounds write in V8 in Google Chrome prior to 139.0.7258.138 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [barbaraeivyu/CVE-2025-9132](https://github.com/barbaraeivyu/CVE-2025-9132)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -1441,6 +1450,13 @@
 </code>
 
 - [1ucky7/cve-2025-22223-demo-1.0.0](https://github.com/1ucky7/cve-2025-22223-demo-1.0.0)
+
+### CVE-2025-22235 (2025-04-28)
+
+<code>EndpointRequest.to() creates a matcher for null/** if the actuator endpoint, for which the EndpointRequest has been created, is disabled or not exposed.\n\nYour application may be affected by this if all the following conditions are met:\n\n  *  You use Spring Security\n  *  EndpointRequest.to() has been used in a Spring Security chain configuration\n  *  The endpoint which EndpointRequest references is disabled or not exposed via web\n  *  Your application handles requests to /null and this path needs protection\n\n\nYou are not affected if any of the following is true:\n\n  *  You don't use Spring Security\n  *  You don't use EndpointRequest.to()\n  *  The endpoint which EndpointRequest.to() refers to is enabled and is exposed\n  *  Your application does not handle requests to /null or this path does not need protection
+</code>
+
+- [idealzh/cve-2025-22235-demo](https://github.com/idealzh/cve-2025-22235-demo)
 
 ### CVE-2025-22352 (2025-01-07)
 
@@ -1950,8 +1966,8 @@
 <code>An improper neutralization of special elements used in an OS command ('OS Command Injection') vulnerability [CWE-78] in Fortinet FortiSIEM version 7.3.0 through 7.3.1, 7.2.0 through 7.2.5, 7.1.0 through 7.1.7, 7.0.0 through 7.0.3 and before 6.7.9 allows an unauthenticated attacker to execute unauthorized code or commands via crafted CLI requests.
 </code>
 
-- [barbaraeivyu/CVE-2025-25256](https://github.com/barbaraeivyu/CVE-2025-25256)
 - [watchtowrlabs/watchTowr-vs-FortiSIEM-CVE-2025-25256](https://github.com/watchtowrlabs/watchTowr-vs-FortiSIEM-CVE-2025-25256)
+- [JMS-Security/CVE-2025-25256-PoC](https://github.com/JMS-Security/CVE-2025-25256-PoC)
 
 ### CVE-2025-25257 (2025-07-17)
 
@@ -3484,6 +3500,13 @@
 - [GreenForceNetworks/CVE-2025-41646---Critical-Authentication-Bypass-](https://github.com/GreenForceNetworks/CVE-2025-41646---Critical-Authentication-Bypass-)
 - [r0otk3r/CVE-2025-41646](https://github.com/r0otk3r/CVE-2025-41646)
 
+### CVE-2025-43300 (2025-08-21)
+
+<code>An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in macOS Sonoma 14.7.8, macOS Ventura 13.7.8, iPadOS 17.7.10, macOS Sequoia 15.6.1, iOS 18.6.2 and iPadOS 18.6.2. Processing a malicious image file may result in memory corruption. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals.
+</code>
+
+- [h4xnz/CVE-2025-43300](https://github.com/h4xnz/CVE-2025-43300)
+
 ### CVE-2025-43864 (2025-04-25)
 
 <code>React Router is a router for React. Starting in version 7.2.0 and prior to version 7.5.2, it is possible to force an application to switch to SPA mode by adding a header to the request. If the application uses SSR and is forced to switch to SPA, this causes an error that completely corrupts the page. If a cache system is in place, this allows the response containing the error to be cached, resulting in a cache poisoning that strongly impacts the availability of the application. This issue has been patched in version 7.5.2.
@@ -4635,7 +4658,7 @@
 <code>On April 18th 2025, Microsoft announced Exchange Server Security Changes for Hybrid Deployments and accompanying non-security Hot Fix. Microsoft made these changes in the general interest of improving the security of hybrid Exchange deployments. Following further investigation, Microsoft identified specific security implications tied to the guidance and configuration steps outlined in the April announcement. Microsoft is issuing CVE-2025-53786 to document a vulnerability that is addressed by taking the steps documented with the April 18th announcement. Microsoft strongly recommends reading the information, installing the April 2025 (or later) Hot Fix and implementing the changes in your Exchange Server and hybrid environment.
 </code>
 
-- [barbaraeivyu/CVE-2025-53786](https://github.com/barbaraeivyu/CVE-2025-53786)
+- [vincentdthe/CVE-2025-53786](https://github.com/vincentdthe/CVE-2025-53786)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -5514,6 +5537,7 @@
 - [omarelshopky/exploit_cve-2023-26326_using_cve-2024-2961](https://github.com/omarelshopky/exploit_cve-2023-26326_using_cve-2024-2961)
 - [suce0155/CVE-2024-2961_buddyforms_2.7.7](https://github.com/suce0155/CVE-2024-2961_buddyforms_2.7.7)
 - [regantemudo/PHP-file-read-to-RCE-CVE-2024-2961-](https://github.com/regantemudo/PHP-file-read-to-RCE-CVE-2024-2961-)
+- [scriptSails/glibcs](https://github.com/scriptSails/glibcs)
 
 ### CVE-2024-2997 (2024-03-27)
 
@@ -13447,7 +13471,6 @@
 </code>
 
 - [je5442804/WPTaskScheduler_CVE-2024-49039](https://github.com/je5442804/WPTaskScheduler_CVE-2024-49039)
-- [Alexandr-bit253/CVE-2024-49039](https://github.com/Alexandr-bit253/CVE-2024-49039)
 
 ### CVE-2024-49112 (2024-12-10)
 
@@ -21528,48 +21551,6 @@
 
 - [uthrasri/Jetty-v9.4.31_CVE-2023-40167](https://github.com/uthrasri/Jetty-v9.4.31_CVE-2023-40167)
 
-### CVE-2023-40275 (2024-03-19)
-
-<code>An issue was discovered in OpenClinic GA 5.247.01. It allows retrieval of patient lists via queries such as findFirstname= to _common/search/searchByAjax/patientslistShow.jsp.
-</code>
-
-- [BugBountyHunterCVE/CVE-2023-40275](https://github.com/BugBountyHunterCVE/CVE-2023-40275)
-
-### CVE-2023-40276 (2024-03-19)
-
-<code>An issue was discovered in OpenClinic GA 5.247.01. An Unauthenticated File Download vulnerability has been discovered in pharmacy/exportFile.jsp.
-</code>
-
-- [BugBountyHunterCVE/CVE-2023-40276](https://github.com/BugBountyHunterCVE/CVE-2023-40276)
-
-### CVE-2023-40277 (2024-03-19)
-
-<code>An issue was discovered in OpenClinic GA 5.247.01. A Reflected Cross-Site Scripting (XSS) vulnerability has been discovered in the login.jsp message parameter.
-</code>
-
-- [BugBountyHunterCVE/CVE-2023-40277](https://github.com/BugBountyHunterCVE/CVE-2023-40277)
-
-### CVE-2023-40278 (2024-03-19)
-
-<code>An issue was discovered in OpenClinic GA 5.247.01. An Information Disclosure vulnerability has been identified in the printAppointmentPdf.jsp component of OpenClinic GA. By changing the AppointmentUid parameter, an attacker can determine whether a specific appointment exists based on the error message.
-</code>
-
-- [BugBountyHunterCVE/CVE-2023-40278](https://github.com/BugBountyHunterCVE/CVE-2023-40278)
-
-### CVE-2023-40279 (2024-03-19)
-
-<code>An issue was discovered in OpenClinic GA 5.247.01. An attacker can perform a directory path traversal via the Page parameter in a GET request to main.do.
-</code>
-
-- [BugBountyHunterCVE/CVE-2023-40279](https://github.com/BugBountyHunterCVE/CVE-2023-40279)
-
-### CVE-2023-40280 (2024-03-19)
-
-<code>An issue was discovered in OpenClinic GA 5.247.01. An attacker can perform a directory path traversal via the Page parameter in a GET request to popup.jsp.
-</code>
-
-- [BugBountyHunterCVE/CVE-2023-40280](https://github.com/BugBountyHunterCVE/CVE-2023-40280)
-
 ### CVE-2023-40294 (2023-08-14)
 
 <code>libboron in Boron 2.0.8 has a heap-based buffer overflow in ur_parseBlockI at i_parse_blk.c.
@@ -21885,6 +21866,7 @@
 - [diegaccio/Craft-CMS-Exploit](https://github.com/diegaccio/Craft-CMS-Exploit)
 - [acesoyeo/CVE-2023-41892](https://github.com/acesoyeo/CVE-2023-41892)
 - [CERTologists/HTTP-Request-for-PHP-object-injection-attack-on-CVE-2023-41892](https://github.com/CERTologists/HTTP-Request-for-PHP-object-injection-attack-on-CVE-2023-41892)
+- [user01-1/CVE-2023-41892_poc](https://github.com/user01-1/CVE-2023-41892_poc)
 
 ### CVE-2023-41991 (2023-09-21)
 
@@ -28898,6 +28880,7 @@
 </code>
 
 - [Lay0us/CVE-2022-32532](https://github.com/Lay0us/CVE-2022-32532)
+- [my0113/shiro-cve-2022-32532](https://github.com/my0113/shiro-cve-2022-32532)
 
 ### CVE-2022-32548 (2022-08-29)
 
