@@ -5803,6 +5803,13 @@
 
 - [taeseongk/CVE-2024-3690](https://github.com/taeseongk/CVE-2024-3690)
 
+### CVE-2024-3721 (2024-04-13)
+
+<code>Eine kritische Schwachstelle wurde in TBK DVR-4104 and DVR-4216 bis 20240412 gefunden. Betroffen davon ist ein unbekannter Prozess der Datei /device.rsp?opt=sys&amp;cmd=___S_O_S_T_R_E_A_MAX___. Mittels dem Manipulieren des Arguments mdb/mdc mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [qalvynn/CVE-2024-3721---POC](https://github.com/qalvynn/CVE-2024-3721---POC)
+
 ### CVE-2024-3806 (2024-05-09)
 
 <code>The Porto theme for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 7.1.0 via the 'porto_ajax_posts' function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where php file type can be uploaded and included.
@@ -32544,6 +32551,7 @@
 - [evdenis/lsm_bpf_check_argc0](https://github.com/evdenis/lsm_bpf_check_argc0)
 - [tahaafarooq/poppy](https://github.com/tahaafarooq/poppy)
 - [PwnFunction/CVE-2021-4034](https://github.com/PwnFunction/CVE-2021-4034)
+- [deoxykev/CVE-2021-4034-Rust](https://github.com/deoxykev/CVE-2021-4034-Rust)
 - [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
 - [EstamelGG/CVE-2021-4034-NoGCC](https://github.com/EstamelGG/CVE-2021-4034-NoGCC)
 - [galoget/PwnKit-CVE-2021-4034](https://github.com/galoget/PwnKit-CVE-2021-4034)
@@ -32575,7 +32583,6 @@
 - [edsonjt81/CVE-2021-4034-Linux](https://github.com/edsonjt81/CVE-2021-4034-Linux)
 - [nel0x/pwnkit-vulnerability](https://github.com/nel0x/pwnkit-vulnerability)
 - [TomSgn/CVE-2021-4034](https://github.com/TomSgn/CVE-2021-4034)
-- [battleoverflow/CVE-2021-4034](https://github.com/battleoverflow/CVE-2021-4034)
 - [TheJoyOfHacking/berdav-CVE-2021-4034](https://github.com/TheJoyOfHacking/berdav-CVE-2021-4034)
 - [tzwlhack/CVE-2021-4034](https://github.com/tzwlhack/CVE-2021-4034)
 - [jcatala/f_poc_cve-2021-4034](https://github.com/jcatala/f_poc_cve-2021-4034)
@@ -43765,6 +43772,13 @@
 
 - [savsch/PoC_CVE-2019-0217](https://github.com/savsch/PoC_CVE-2019-0217)
 
+### CVE-2019-0222 (2019-03-28)
+
+<code>In Apache ActiveMQ 5.0.0 - 5.15.8, unmarshalling corrupt MQTT frame can lead to broker Out of Memory exception making it unresponsive.
+</code>
+
+- [shoucheng3/apache__activemq_CVE-2019-0222_5-15-8](https://github.com/shoucheng3/apache__activemq_CVE-2019-0222_5-15-8)
+
 ### CVE-2019-0225 (2019-03-28)
 
 <code>A specially crafted url could be used to access files under the ROOT directory of the application on Apache JSPWiki 2.9.0 to 2.11.0.M2, which could be used by an attacker to obtain registered users' details.
@@ -52699,7 +52713,6 @@
 - [fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit](https://github.com/fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit)
 - [Shehzadcyber/CVE-2017-7529](https://github.com/Shehzadcyber/CVE-2017-7529)
 - [coolman6942o/-Exploit-CVE-2017-7529](https://github.com/coolman6942o/-Exploit-CVE-2017-7529)
-- [SirEagIe/CVE-2017-7529](https://github.com/SirEagIe/CVE-2017-7529)
 - [Fenil2511/CVE-2017-7529-POC](https://github.com/Fenil2511/CVE-2017-7529-POC)
 - [youngmin0104/CVE-2017-7529-](https://github.com/youngmin0104/CVE-2017-7529-)
 - [portfolio10/nginx](https://github.com/portfolio10/nginx)
