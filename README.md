@@ -1129,6 +1129,13 @@
 
 - [mind2hex/CVE-2025-7404-CalibreWeb-0.6.24-BlindCommandInjection](https://github.com/mind2hex/CVE-2025-7404-CalibreWeb-0.6.24-BlindCommandInjection)
 
+### CVE-2025-7431 (2025-07-18)
+
+<code>The Knowledge Base plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin slug setting in all versions up to, and including, 2.3.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level access, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.
+</code>
+
+- [NagisaYumaa/CVE-2025-7431](https://github.com/NagisaYumaa/CVE-2025-7431)
+
 ### CVE-2025-7461 (2025-07-12)
 
 <code>Eine Schwachstelle wurde in code-projects Modern Bag 1.0 gefunden. Sie wurde als kritisch eingestuft. Dies betrifft einen unbekannten Teil der Datei /action.php. Mittels dem Manipulieren des Arguments proId mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
@@ -1251,6 +1258,13 @@
 
 - [m3m0o/engeman-web-language-combobox-sqli](https://github.com/m3m0o/engeman-web-language-combobox-sqli)
 
+### CVE-2025-8418 (2025-08-12)
+
+<code>The B Slider- Gutenberg Slider Block for WP plugin for WordPress is vulnerable to Arbitrary Plugin Installation in all versions up to, and including, 1.1.30. This is due to missing capability checks on the activated_plugin function. This makes it possible for authenticated attackers, with subscriber-level access and above, to install arbitrary plugins on the server which can make remote code execution possible.
+</code>
+
+- [LitBot123/CVE.py](https://github.com/LitBot123/CVE.py)
+
 ### CVE-2025-8471 (2025-08-02)
 
 <code>Eine Schwachstelle wurde in projectworlds Online Admission System 1.0 entdeckt. Sie wurde als kritisch eingestuft. Es geht hierbei um eine nicht näher spezifizierte Funktion der Datei /adminlogin.php. Mittels dem Manipulieren des Arguments a_id mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
@@ -1324,13 +1338,6 @@
 </code>
 
 - [byteReaper77/CVE-2025-9090](https://github.com/byteReaper77/CVE-2025-9090)
-
-### CVE-2025-9132 (2025-08-20)
-
-<code>Out of bounds write in V8 in Google Chrome prior to 139.0.7258.138 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
-</code>
-
-- [barbaraeivyu/CVE-2025-9132](https://github.com/barbaraeivyu/CVE-2025-9132)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -1903,6 +1910,7 @@
 - [D3Ext/CVE-2025-24893](https://github.com/D3Ext/CVE-2025-24893)
 - [Retro023/CVE-2025-24893-POC](https://github.com/Retro023/CVE-2025-24893-POC)
 - [CMassa/CVE-2025-24893](https://github.com/CMassa/CVE-2025-24893)
+- [x0da6h/EXP-for-CVE-2025-24893](https://github.com/x0da6h/EXP-for-CVE-2025-24893)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -2365,6 +2373,13 @@
 </code>
 
 - [jiseoung/CVE-2025-27415-PoC](https://github.com/jiseoung/CVE-2025-27415-PoC)
+
+### CVE-2025-27519 (2025-03-07)
+
+<code>Cognita is a RAG (Retrieval Augmented Generation) Framework for building modular, open source applications for production by TrueFoundry. A path traversal issue exists at /v1/internal/upload-to-local-directory which is enabled when the Local env variable is set to true, such as when Cognita is setup using Docker. Because the docker environment sets up the backend uvicorn server with auto reload enabled, when an attacker overwrites the /app/backend/__init__.py file, the file will automatically be reloaded and executed. This allows an attacker to get remote code execution in the context of the Docker container. This vulnerability is fixed in commit a78bd065e05a1b30a53a3386cc02e08c317d2243.
+</code>
+
+- [Diabl0xE/CVE-2025-27519](https://github.com/Diabl0xE/CVE-2025-27519)
 
 ### CVE-2025-27533 (2025-05-07)
 
@@ -3513,7 +3528,8 @@
 <code>An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in macOS Sonoma 14.7.8, macOS Ventura 13.7.8, iPadOS 17.7.10, macOS Sequoia 15.6.1, iOS 18.6.2 and iPadOS 18.6.2. Processing a malicious image file may result in memory corruption. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals.
 </code>
 
-- [h4xnz/CVE-2025-43300](https://github.com/h4xnz/CVE-2025-43300)
+- [h4xnz/CVE-2025-43300-Exploit](https://github.com/h4xnz/CVE-2025-43300-Exploit)
+- [XiaomingX/CVE-2025-43300-exp](https://github.com/XiaomingX/CVE-2025-43300-exp)
 
 ### CVE-2025-43864 (2025-04-25)
 
@@ -4802,6 +4818,13 @@
 - [san8383/CVE-2025-55188-7z-POC](https://github.com/san8383/CVE-2025-55188-7z-POC)
 - [vadim-belous/CVE-2025-55188-PoC](https://github.com/vadim-belous/CVE-2025-55188-PoC)
 - [rhllsingh/CVE-2025-55188-7z-exploit](https://github.com/rhllsingh/CVE-2025-55188-7z-exploit)
+
+### CVE-2025-55230 (2025-08-21)
+
+<code>Untrusted pointer dereference in Windows MBT Transport driver allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [barbaraeivyu/CVE-2025-55230-Exploit](https://github.com/barbaraeivyu/CVE-2025-55230-Exploit)
 
 ### CVE-2025-55287 (2025-08-18)
 
