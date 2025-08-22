@@ -195,6 +195,13 @@
 
 - [p33d/cve-2025-1323](https://github.com/p33d/cve-2025-1323)
 
+### CVE-2025-1337 (2025-02-16)
+
+<code>Es wurde eine Schwachstelle in Eastnets PaymentSafe 2.5.26.0 ausgemacht. Sie wurde als problematisch eingestuft. Dabei betrifft es einen unbekannter Codeteil der Komponente BIC Search. Durch das Beeinflussen mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Ein Aktualisieren auf die Version 2.5.27.0 vermag dieses Problem zu lösen.
+</code>
+
+- [ada-z3r0/CVE-2025-1337-PoC](https://github.com/ada-z3r0/CVE-2025-1337-PoC)
+
 ### CVE-2025-1461 (2025-05-28)
 
 <code>Improper neutralization of the value of the 'eventMoreText' property of the 'VCalendar' component in Vuetify allows unsanitized HTML to be inserted into the page. This can lead to a  Cross-Site Scripting (XSS) https://owasp.org/www-community/attacks/xss  attack. The vulnerability occurs because the default Vuetify translator will return the translation key as the translation, if it can't find an actual translation.\n\nThis issue affects Vuetify versions greater than or equal to 2.0.0 and less than 3.0.0.\n\nNote:\nVersion 2.x of Vuetify is End-of-Life and will not receive any updates to address this issue. For more information see  here https://v2.vuetifyjs.com/en/about/eol/ .
@@ -5978,6 +5985,7 @@
 - [pS3ud0RAnD0m/cve-2024-4367-poc](https://github.com/pS3ud0RAnD0m/cve-2024-4367-poc)
 - [MihranGIT/POC_CVE-2024-4367](https://github.com/MihranGIT/POC_CVE-2024-4367)
 - [MihranGIT/CVE-2024-4367](https://github.com/MihranGIT/CVE-2024-4367)
+- [0xr2r/CVE-2024-4367](https://github.com/0xr2r/CVE-2024-4367)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -25202,6 +25210,13 @@
 </code>
 
 - [moften/CVE-2022-4174_CVE-2022-41742](https://github.com/moften/CVE-2022-4174_CVE-2022-41742)
+
+### CVE-2022-4244 (2023-09-25)
+
+<code>A flaw was found in codeplex-codehaus. A directory traversal attack (also known as path traversal) aims to access files and directories stored outside the intended folder. By manipulating files with &quot;dot-dot-slash (../)&quot; sequences and their variations or by using absolute file paths, it may be possible to access arbitrary files and directories stored on the file system, including application source code, configuration, and other critical system files.
+</code>
+
+- [shoucheng3/codehaus-plexus__plexus-utils_CVE-2022-4244_3-0-23](https://github.com/shoucheng3/codehaus-plexus__plexus-utils_CVE-2022-4244_3-0-23)
 
 ### CVE-2022-4262 (2022-12-02)
 
