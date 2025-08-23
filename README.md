@@ -4840,6 +4840,9 @@
 
 - [Eternalvalhalla/CVE-2025-55287-POC](https://github.com/Eternalvalhalla/CVE-2025-55287-POC)
 
+### CVE-2025-55575
+- [Aether-0/CVE-2025-55575](https://github.com/Aether-0/CVE-2025-55575)
+
 ### CVE-2025-55668 (2025-08-13)
 
 <code>Session Fixation vulnerability in Apache Tomcat via rewrite valve.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.7, from 10.1.0-M1 through 10.1.41, from 9.0.0.M1 through 9.0.105.\nOlder, EOL versions may also be affected.\n\nUsers are recommended to upgrade to version 11.0.8, 10.1.42 or 9.0.106, which fix the issue.
@@ -28695,7 +28698,11 @@
 
 - [realyme/CVE-2022-31479-test](https://github.com/realyme/CVE-2022-31479-test)
 
-### CVE-2022-31491
+### CVE-2022-31491 (2025-08-22)
+
+<code>Voltronic Power ViewPower through 1.04-24215, ViewPower Pro through 2.0-22165, and PowerShield Netguard before 1.04-23292 allows a remote attacker to run arbitrary code via an unspecified web interface related to detection of a managed UPS shutting down. An unauthenticated attacker can use this to run arbitrary code immediately regardless of any managed UPS state or presence.
+</code>
+
 - [ready2disclose/CVE-2022-31491](https://github.com/ready2disclose/CVE-2022-31491)
 
 ### CVE-2022-31499 (2022-08-25)
@@ -30518,7 +30525,11 @@
 
 - [nibin-m/CVE-2022-43097](https://github.com/nibin-m/CVE-2022-43097)
 
-### CVE-2022-43110
+### CVE-2022-43110 (2025-08-22)
+
+<code>Voltronic Power ViewPower through 1.04-21353 and PowerShield Netguard before 1.04-23292 allows a remote attacker to configure the system via an unspecified web interface. An unauthenticated remote attacker can make changes to the system including: changing the web interface admin password, view/change system configuration, enumerate connected UPS devices and shut down connected UPS devices. This extends to being able to configure operating system commands that should run if the system detects a connected UPS shutting down.
+</code>
+
 - [ready2disclose/CVE-2022-43110](https://github.com/ready2disclose/CVE-2022-43110)
 
 ### CVE-2022-43117 (2022-11-21)
@@ -47646,6 +47657,7 @@
 - [dust-life/CVE-2019-18935-memShell](https://github.com/dust-life/CVE-2019-18935-memShell)
 - [clarkvoss/telerik](https://github.com/clarkvoss/telerik)
 - [ekkoo-z/CVE-2019-18935-bypasswaf](https://github.com/ekkoo-z/CVE-2019-18935-bypasswaf)
+- [0xsharz/telerik-scanner-CVE-2019-18935](https://github.com/0xsharz/telerik-scanner-CVE-2019-18935)
 
 ### CVE-2019-18988 (2020-02-07)
 
