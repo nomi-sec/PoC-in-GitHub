@@ -1718,6 +1718,13 @@
 
 - [mbanyamer/CVE-2025-24076](https://github.com/mbanyamer/CVE-2025-24076)
 
+### CVE-2025-24085 (2025-01-27)
+
+<code>A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
+</code>
+
+- [JGoyd/glass-cage-ios18-cve-2025-24085-cve-2025-24201](https://github.com/JGoyd/glass-cage-ios18-cve-2025-24085-cve-2025-24201)
+
 ### CVE-2025-24104 (2025-01-27)
 
 <code>This issue was addressed with improved handling of symlinks. This issue is fixed in iPadOS 17.7.4, iOS 18.3 and iPadOS 18.3. Restoring a maliciously crafted backup file may lead to modification of protected system files.
@@ -3375,6 +3382,7 @@
 - [DevBuiHieu/CVE-2025-33053-Proof-Of-Concept](https://github.com/DevBuiHieu/CVE-2025-33053-Proof-Of-Concept)
 - [TheTorjanCaptain/CVE-2025-33053-Checker-PoC](https://github.com/TheTorjanCaptain/CVE-2025-33053-Checker-PoC)
 - [kra1t0/CVE-2025-33053-WebDAV-RCE-PoC-and-C2-Concept](https://github.com/kra1t0/CVE-2025-33053-WebDAV-RCE-PoC-and-C2-Concept)
+- [4n4s4zi/CVE-2025-33053_PoC](https://github.com/4n4s4zi/CVE-2025-33053_PoC)
 
 ### CVE-2025-33073 (2025-06-10)
 
@@ -43756,6 +43764,13 @@
 </code>
 
 - [Nxploited/CVE-2020-36842](https://github.com/Nxploited/CVE-2020-36842)
+
+### CVE-2020-36847 (2025-07-12)
+
+<code>The Simple-File-List Plugin for WordPress is vulnerable to Remote Code Execution in versions up to, and including, 4.2.2 via the rename function which can be used to rename uploaded PHP code with a png extension to use a php extension. This allows unauthenticated attackers to execute code on the server.
+</code>
+
+- [137f/PoC-CVE-2020-36847-WordPress-Plugin-4.2.2-RCE](https://github.com/137f/PoC-CVE-2020-36847-WordPress-Plugin-4.2.2-RCE)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
