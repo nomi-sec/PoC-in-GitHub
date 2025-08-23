@@ -4606,6 +4606,13 @@
 
 - [rxerium/CVE-2025-52914](https://github.com/rxerium/CVE-2025-52914)
 
+### CVE-2025-52970 (2025-08-12)
+
+<code>A improper handling of parameters in Fortinet FortiWeb versions 7.6.3 and below, versions 7.4.7 and below, versions 7.2.10 and below, and 7.0.10 and below may allow an unauthenticated remote attacker with non-public information pertaining to the device and targeted user to gain admin privileges on the device via a specially crafted request.
+</code>
+
+- [Hex00-0x4/FortiWeb-CVE-2025-52970-Authentication-Bypass](https://github.com/Hex00-0x4/FortiWeb-CVE-2025-52970-Authentication-Bypass)
+
 ### CVE-2025-53367 (2025-07-03)
 
 <code>DjVuLibre is a GPL implementation of DjVu, a web-centric format for distributing documents and images. Prior to version 3.5.29, the MMRDecoder::scanruns method is affected by an OOB-write vulnerability, because it does not check that the xr pointer stays within the bounds of the allocated buffer. This can lead to writes beyond the allocated memory, resulting in a heap corruption condition. An out-of-bounds read with pr is also possible for the same reason. This issue has been patched in version 3.5.29.
@@ -58193,7 +58200,6 @@
 - [blu3ming/CVE-2012-2982](https://github.com/blu3ming/CVE-2012-2982)
 - [0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982)
 - [0xTas/CVE-2012-2982](https://github.com/0xTas/CVE-2012-2982)
-- [LeDucKhiem/CVE-2012-2982](https://github.com/LeDucKhiem/CVE-2012-2982)
 - [CpyRe/CVE-2012-2982](https://github.com/CpyRe/CVE-2012-2982)
 - [Shadow-Spinner/CVE-2012-2982_python](https://github.com/Shadow-Spinner/CVE-2012-2982_python)
 - [elliotosama/CVE-2012-2982](https://github.com/elliotosama/CVE-2012-2982)
