@@ -1300,6 +1300,7 @@
 
 - [moften/CVE-2025-8671-MadeYouReset-HTTP-2-DDoS](https://github.com/moften/CVE-2025-8671-MadeYouReset-HTTP-2-DDoS)
 - [mateusm1403/PoC-CVE-2025-8671-MadeYouReset-HTTP-2](https://github.com/mateusm1403/PoC-CVE-2025-8671-MadeYouReset-HTTP-2)
+- [abiyeenzo/CVE-2025-8671](https://github.com/abiyeenzo/CVE-2025-8671)
 
 ### CVE-2025-8723 (2025-08-19)
 
