@@ -876,6 +876,7 @@
 
 - [itsShotgun/chrome_v8_cve_checker](https://github.com/itsShotgun/chrome_v8_cve_checker)
 - [riemannj/CVE-2025-5419](https://github.com/riemannj/CVE-2025-5419)
+- [mistymntncop/CVE-2025-5419](https://github.com/mistymntncop/CVE-2025-5419)
 
 ### CVE-2025-5640 (2025-06-05)
 
@@ -1339,6 +1340,13 @@
 </code>
 
 - [Tiger3080/CVE-2025-9043](https://github.com/Tiger3080/CVE-2025-9043)
+
+### CVE-2025-9074 (2025-08-20)
+
+<code>A vulnerability was identified in Docker Desktop that allows local running Linux containers to access the Docker Engine API via the configured Docker subnet, at 192.168.65.7:2375 by default. This vulnerability occurs with or without Enhanced Container Isolation (ECI) enabled, and with or without the &quot;Expose daemon on tcp://localhost:2375 without TLS&quot; option enabled.\nThis can lead to execution of a wide range of privileged commands to the engine API, including controlling other containers, creating new ones, managing images etc. In some circumstances (e.g. Docker Desktop for Windows with WSL backend) it also allows mounting the host drive with the same privileges as the user running Docker Desktop.
+</code>
+
+- [zenzue/CVE-2025-9074](https://github.com/zenzue/CVE-2025-9074)
 
 ### CVE-2025-9090 (2025-08-17)
 
@@ -3469,6 +3477,7 @@
 </code>
 
 - [0xdevil/CVE-2025-38001](https://github.com/0xdevil/CVE-2025-38001)
+- [khoatran107/cve-2025-38001](https://github.com/khoatran107/cve-2025-38001)
 
 ### CVE-2025-38089 (2025-06-30)
 
@@ -6049,6 +6058,7 @@
 - [MihranGIT/POC_CVE-2024-4367](https://github.com/MihranGIT/POC_CVE-2024-4367)
 - [MihranGIT/CVE-2024-4367](https://github.com/MihranGIT/CVE-2024-4367)
 - [0xr2r/CVE-2024-4367](https://github.com/0xr2r/CVE-2024-4367)
+- [1337rokudenashi/Odoo_PDFjs_CVE-2024-4367.pdf](https://github.com/1337rokudenashi/Odoo_PDFjs_CVE-2024-4367.pdf)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -22579,6 +22589,7 @@
 - [BMG-Black-Magic/CVE-2023-44487](https://github.com/BMG-Black-Magic/CVE-2023-44487)
 - [moften/CVE-2023-44487-HTTP-2-Rapid-Reset-Attack](https://github.com/moften/CVE-2023-44487-HTTP-2-Rapid-Reset-Attack)
 - [zanks08/cve-2023-44487-demo](https://github.com/zanks08/cve-2023-44487-demo)
+- [madhusudhan-in/CVE_2023_44487-Rapid_Reset](https://github.com/madhusudhan-in/CVE_2023_44487-Rapid_Reset)
 
 ### CVE-2023-44758 (2023-10-06)
 
