@@ -4069,6 +4069,7 @@
 - [testtianmaaaa/CVE-2025-48384](https://github.com/testtianmaaaa/CVE-2025-48384)
 - [replicatorbot/CVE-2025-48384](https://github.com/replicatorbot/CVE-2025-48384)
 - [replicatorbot/CVE-2025-48384-POC](https://github.com/replicatorbot/CVE-2025-48384-POC)
+- [eliox01/CVE-2025-48384](https://github.com/eliox01/CVE-2025-48384)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -16730,6 +16731,7 @@
 </code>
 
 - [erickfernandox/CVE-2023-6275](https://github.com/erickfernandox/CVE-2023-6275)
+- [LelioCosta/FLUIG-Vulnerabilidade-CVE-2023-6275](https://github.com/LelioCosta/FLUIG-Vulnerabilidade-CVE-2023-6275)
 
 ### CVE-2023-6289 (2023-12-18)
 
@@ -52472,6 +52474,7 @@
 - [haxerr9/CVE-2017-5638](https://github.com/haxerr9/CVE-2017-5638)
 - [QHxDr-dz/CVE-2017-5638](https://github.com/QHxDr-dz/CVE-2017-5638)
 - [joidiego/Detection-struts-cve-2017-5638-detector](https://github.com/joidiego/Detection-struts-cve-2017-5638-detector)
+- [iampetru/PoC-CVE-2017-5638](https://github.com/iampetru/PoC-CVE-2017-5638)
 
 ### CVE-2017-5645 (2017-04-17)
 
@@ -52992,6 +52995,13 @@
 </code>
 
 - [nghiadt1098/CVE-2017-8465](https://github.com/nghiadt1098/CVE-2017-8465)
+
+### CVE-2017-8481 (2017-06-15)
+
+<code>The kernel in Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016 allows an authenticated attacker to obtain information via a specially crafted application. aka &quot;Windows Kernel Information Disclosure Vulnerability,&quot; a different vulnerability than CVE-2017-8491, CVE-2017-8490, CVE-2017-8489, CVE-2017-8488, CVE-2017-8485, CVE-2017-8483, CVE-2017-8482, CVE-2017-8480, CVE-2017-8479, CVE-2017-8478, CVE-2017-8476, CVE-2017-8474, CVE-2017-8469, CVE-2017-8462, CVE-2017-0300, CVE-2017-0299, and CVE-2017-0297.
+</code>
+
+- [TamatahYT/CVE-2017-8481](https://github.com/TamatahYT/CVE-2017-8481)
 
 ### CVE-2017-8529 (2017-06-15)
 
