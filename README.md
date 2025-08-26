@@ -1244,6 +1244,7 @@
 - [Syrins/CVE-2025-8088-Winrar-Tool-Gui](https://github.com/Syrins/CVE-2025-8088-Winrar-Tool-Gui)
 - [amel-62/WinRAR-CVE-2025-8088-PoC-RAR](https://github.com/amel-62/WinRAR-CVE-2025-8088-PoC-RAR)
 - [ghostn4444/CVE-2025-8088](https://github.com/ghostn4444/CVE-2025-8088)
+- [DeepBlue-dot/CVE-2025-8088-WinRAR-Startup-PoC](https://github.com/DeepBlue-dot/CVE-2025-8088-WinRAR-Startup-PoC)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -3420,6 +3421,13 @@
 - [becrevex/Commvault-CVE-2025-34028](https://github.com/becrevex/Commvault-CVE-2025-34028)
 - [Mattb709/CVE-2025-34028-PoC-Commvault-RCE](https://github.com/Mattb709/CVE-2025-34028-PoC-Commvault-RCE)
 
+### CVE-2025-34030 (2025-06-20)
+
+<code>An OS command injection vulnerability exists in sar2html version 3.2.2 and prior via the plot parameter in index.php. The application fails to sanitize user-supplied input before using it in a system-level context. Remote, unauthenticated attackers can inject shell commands by appending them to the plot parameter (e.g., ?plot=;id) in a crafted GET request. The output of the command is displayed in the application's interface after interacting with the host selection UI. Successful exploitation leads to arbitrary command execution on the underlying system.
+</code>
+
+- [HackerTyperAbuser/CVE-2025-34030-PoC](https://github.com/HackerTyperAbuser/CVE-2025-34030-PoC)
+
 ### CVE-2025-34036 (2025-06-24)
 
 <code>An OS command injection vulnerability exists in white-labeled DVRs manufactured by TVT, affecting a custom HTTP service called &quot;Cross Web Server&quot; that listens on TCP ports 81 and 82. The web interface fails to sanitize input in the URI path passed to the language extraction functionality. When the server processes a request to /language/[lang]/index.html, it uses the [lang] input unsafely in a tar extraction command without proper escaping. This allows an unauthenticated remote attacker to inject shell commands and achieve arbitrary command execution as root.
@@ -5245,6 +5253,7 @@
 </code>
 
 - [tadash10/Detect-CVE-2024-0762](https://github.com/tadash10/Detect-CVE-2024-0762)
+- [abandon1337/CVE-2024-0762](https://github.com/abandon1337/CVE-2024-0762)
 
 ### CVE-2024-0783 (2024-01-22)
 
@@ -17893,7 +17902,7 @@
 - [ThatNotEasy/CVE-2023-23752](https://github.com/ThatNotEasy/CVE-2023-23752)
 - [Sweelg/CVE-2023-23752](https://github.com/Sweelg/CVE-2023-23752)
 - [MrP4nda1337/CVE-2023-23752](https://github.com/MrP4nda1337/CVE-2023-23752)
-- [w1zardx/CVE-2023-23752](https://github.com/w1zardx/CVE-2023-23752)
+- [lainonz/CVE-2023-23752](https://github.com/lainonz/CVE-2023-23752)
 - [yTxZx/CVE-2023-23752](https://github.com/yTxZx/CVE-2023-23752)
 - [AlissonFaoli/CVE-2023-23752](https://github.com/AlissonFaoli/CVE-2023-23752)
 - [Pushkarup/CVE-2023-23752](https://github.com/Pushkarup/CVE-2023-23752)
@@ -45148,6 +45157,7 @@
 - [gquere/CVE-2019-6693](https://github.com/gquere/CVE-2019-6693)
 - [synacktiv/CVE-2020-9289](https://github.com/synacktiv/CVE-2020-9289)
 - [saladandonionrings/cve-2019-6693](https://github.com/saladandonionrings/cve-2019-6693)
+- [Real4XoR/CVE-2019-6693](https://github.com/Real4XoR/CVE-2019-6693)
 
 ### CVE-2019-6715 (2019-04-01)
 
