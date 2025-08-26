@@ -1242,7 +1242,6 @@
 - [pentestfunctions/CVE-2025-8088-Multi-Document](https://github.com/pentestfunctions/CVE-2025-8088-Multi-Document)
 - [pexlexity/WinRAR-CVE-2025-8088-Path-Traversal-PoC](https://github.com/pexlexity/WinRAR-CVE-2025-8088-Path-Traversal-PoC)
 - [Syrins/CVE-2025-8088-Winrar-Tool-Gui](https://github.com/Syrins/CVE-2025-8088-Winrar-Tool-Gui)
-- [amel-62/WinRAR-CVE-2025-8088-PoC-RAR](https://github.com/amel-62/WinRAR-CVE-2025-8088-PoC-RAR)
 - [ghostn4444/CVE-2025-8088](https://github.com/ghostn4444/CVE-2025-8088)
 - [DeepBlue-dot/CVE-2025-8088-WinRAR-Startup-PoC](https://github.com/DeepBlue-dot/CVE-2025-8088-WinRAR-Startup-PoC)
 
@@ -1936,6 +1935,7 @@
 - [Retro023/CVE-2025-24893-POC](https://github.com/Retro023/CVE-2025-24893-POC)
 - [CMassa/CVE-2025-24893](https://github.com/CMassa/CVE-2025-24893)
 - [x0da6h/POC-for-CVE-2025-24893](https://github.com/x0da6h/POC-for-CVE-2025-24893)
+- [ibadovulfat/CVE-2025-24893_HackTheBox-Editor-Writeup](https://github.com/ibadovulfat/CVE-2025-24893_HackTheBox-Editor-Writeup)
 
 ### CVE-2025-24963 (2025-02-04)
 
@@ -3410,6 +3410,7 @@
 
 - [mverschu/CVE-2025-33073](https://github.com/mverschu/CVE-2025-33073)
 - [obscura-cert/CVE-2025-33073](https://github.com/obscura-cert/CVE-2025-33073)
+- [matejsmycka/CVE-2025-33073-checker](https://github.com/matejsmycka/CVE-2025-33073-checker)
 
 ### CVE-2025-34028 (2025-04-22)
 
@@ -4074,7 +4075,6 @@
 - [beishanxueyuan/CVE-2025-48384](https://github.com/beishanxueyuan/CVE-2025-48384)
 - [beishanxueyuan/CVE-2025-48384-test](https://github.com/beishanxueyuan/CVE-2025-48384-test)
 - [jideasn/cve-2025-48384](https://github.com/jideasn/cve-2025-48384)
-- [testtianmaaaa/CVE-2025-48384](https://github.com/testtianmaaaa/CVE-2025-48384)
 - [replicatorbot/CVE-2025-48384](https://github.com/replicatorbot/CVE-2025-48384)
 - [replicatorbot/CVE-2025-48384-POC](https://github.com/replicatorbot/CVE-2025-48384-POC)
 - [eliox01/CVE-2025-48384](https://github.com/eliox01/CVE-2025-48384)
@@ -4880,7 +4880,6 @@
 - [hunters-sec/CVE-2025-55188-7z-exploit](https://github.com/hunters-sec/CVE-2025-55188-7z-exploit)
 - [san8383/CVE-2025-55188-7z-POC](https://github.com/san8383/CVE-2025-55188-7z-POC)
 - [vadim-belous/CVE-2025-55188-PoC](https://github.com/vadim-belous/CVE-2025-55188-PoC)
-- [rhllsingh/CVE-2025-55188-7z-exploit](https://github.com/rhllsingh/CVE-2025-55188-7z-exploit)
 
 ### CVE-2025-55230 (2025-08-21)
 
@@ -17466,7 +17465,7 @@
 - [ldrx30/CVE-2023-21768](https://github.com/ldrx30/CVE-2023-21768)
 - [xboxoneresearch/CVE-2023-21768-dotnet](https://github.com/xboxoneresearch/CVE-2023-21768-dotnet)
 - [IlanDudnik/CVE-2023-21768](https://github.com/IlanDudnik/CVE-2023-21768)
-- [radoi-teodor/CVE-2023-21768](https://github.com/radoi-teodor/CVE-2023-21768)
+- [radoi-teodor/CVE-2023-21768-DSE-Bypass](https://github.com/radoi-teodor/CVE-2023-21768-DSE-Bypass)
 
 ### CVE-2023-21823 (2023-02-14)
 
