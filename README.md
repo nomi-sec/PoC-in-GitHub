@@ -366,7 +366,7 @@
 
 ### CVE-2025-2594 (2025-04-22)
 
-<code>The User Registration &amp; Membership  WordPress plugin before 4.1.3 does not properly validate data in an AJAX action when the Membership Addon is enabled, allowing attackers to authenticate as any user, including administrators, by simply using the target account's user ID.
+<code>The User Registration &amp; Membership WordPress plugin before 4.1.3 does not properly validate data in an AJAX action when the Membership Addon is enabled, allowing attackers to authenticate as any user, including administrators, by simply using the target account's user ID.
 </code>
 
 - [ubaydev/CVE-2025-2594](https://github.com/ubaydev/CVE-2025-2594)
@@ -1248,6 +1248,8 @@
 - [pescada-dev/-CVE-2025-8088](https://github.com/pescada-dev/-CVE-2025-8088)
 - [AdityaBhatt3010/CVE-2025-8088-WinRAR-Zero-Day-Path-Traversal](https://github.com/AdityaBhatt3010/CVE-2025-8088-WinRAR-Zero-Day-Path-Traversal)
 - [pentestfunctions/best-CVE-2025-8088](https://github.com/pentestfunctions/best-CVE-2025-8088)
+- [nyra-workspace/CVE-2025-8088](https://github.com/nyra-workspace/CVE-2025-8088)
+- [kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition](https://github.com/kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -1330,13 +1332,6 @@
 </code>
 
 - [byteReaper77/CVE-2025-8971](https://github.com/byteReaper77/CVE-2025-8971)
-
-### CVE-2025-9043 (2025-08-14)
-
-<code>The service executable path in Seagate Toolkit on Versions prior to 2.34.0.33 on Windows allows an attacker with Admin privileges to exploit a vulnerability as classified under CWE-428: Unquoted Search Path or Element. An attacker with write permissions to the root could place a malicious Program.exe file, which would execute with SYSTEM privileges.
-</code>
-
-- [Tiger3080/CVE-2025-9043](https://github.com/Tiger3080/CVE-2025-9043)
 
 ### CVE-2025-9074 (2025-08-20)
 
@@ -3250,6 +3245,7 @@
 - [B1ack4sh/Blackash-CVE-2025-32433](https://github.com/B1ack4sh/Blackash-CVE-2025-32433)
 - [Yuri08loveElaina/CVE-2025-32433-Erlang-OTP-SSH-Pre-Auth-RCE-exploit](https://github.com/Yuri08loveElaina/CVE-2025-32433-Erlang-OTP-SSH-Pre-Auth-RCE-exploit)
 - [NiteeshPujari/CVE-2025-32433-PoC](https://github.com/NiteeshPujari/CVE-2025-32433-PoC)
+- [te0rwx/CVE-2025-32433-Detection](https://github.com/te0rwx/CVE-2025-32433-Detection)
 
 ### CVE-2025-32462 (2025-06-30)
 
@@ -3468,6 +3464,13 @@
 </code>
 
 - [Chocapikk/CVE-2025-34152](https://github.com/Chocapikk/CVE-2025-34152)
+
+### CVE-2025-34157 (2025-08-27)
+
+<code>Coolify versions prior to v4.0.0-beta.420.6 are vulnerable to a stored cross-site scripting (XSS) attack in the project creation workflow. An authenticated user with low privileges can create a project with a maliciously crafted name containing embedded JavaScript. When an administrator attempts to delete the project or its associated resource, the payload executes in the admin’s browser context. This results in full compromise of the Coolify instance, including theft of API tokens, session cookies, and access to WebSocket-based terminal sessions on managed servers.
+</code>
+
+- [Eyodav/CVE-2025-34157](https://github.com/Eyodav/CVE-2025-34157)
 
 ### CVE-2025-36041 (2025-06-15)
 
@@ -4338,7 +4341,11 @@
 
 - [Landw-hub/CVE-2025-50422](https://github.com/Landw-hub/CVE-2025-50422)
 
-### CVE-2025-50428
+### CVE-2025-50428 (2025-08-27)
+
+<code>In RaspAP raspap-webgui 3.3.2 and earlier, a command injection vulnerability exists in the includes/hostapd.php script. The vulnerability is due to improper sanitizing of user input passed via the interface parameter.
+</code>
+
 - [security-smarttecs/cve-2025-50428](https://github.com/security-smarttecs/cve-2025-50428)
 
 ### CVE-2025-50460 (2025-08-01)
@@ -4594,7 +4601,11 @@
 ### CVE-2025-52097
 - [rwilsonecs/CVE-2025-52097](https://github.com/rwilsonecs/CVE-2025-52097)
 
-### CVE-2025-52122
+### CVE-2025-52122 (2025-08-27)
+
+<code>Freeform 5.0.0 to before 5.10.16, a plugin for CraftCMS, contains an Server-side template injection (SSTI) vulnerability, resulting in arbitrary code injection for all users that have access to editing a form (submission title).
+</code>
+
 - [TimTrademark/CVE-2025-52122](https://github.com/TimTrademark/CVE-2025-52122)
 
 ### CVE-2025-52216
@@ -6295,6 +6306,13 @@
 
 - [sinsinology/CVE-2024-5009](https://github.com/sinsinology/CVE-2024-5009)
 - [th3gokul/CVE-2024-5009](https://github.com/th3gokul/CVE-2024-5009)
+
+### CVE-2024-5083 (2024-11-14)
+
+<code>A stored Cross-site Scripting vulnerability has been discovered in Sonatype Nexus Repository 2\n\nThis issue affects Nexus Repository 2 OSS/Pro versions up to and including 2.15.1.
+</code>
+
+- [Roronoawjd/CVE-2024-5083](https://github.com/Roronoawjd/CVE-2024-5083)
 
 ### CVE-2024-5084 (2024-05-23)
 
@@ -16055,6 +16073,13 @@
 - [Chocapikk/CVE-2023-3519](https://github.com/Chocapikk/CVE-2023-3519)
 - [JonaNeidhart/CVE-2023-3519-BackdoorCheck](https://github.com/JonaNeidhart/CVE-2023-3519-BackdoorCheck)
 - [Mohammaddvd/CVE-2023-3519](https://github.com/Mohammaddvd/CVE-2023-3519)
+
+### CVE-2023-3609 (2023-07-21)
+
+<code>A use-after-free vulnerability in the Linux kernel's net/sched: cls_u32 component can be exploited to achieve local privilege escalation.\n\nIf tcf_change_indev() fails, u32_set_parms() will immediately return an error after incrementing or decrementing the reference counter in tcf_bind_filter(). If an attacker can control the reference counter and set it to zero, they can cause the reference to be freed, leading to a use-after-free vulnerability.\n\nWe recommend upgrading past commit 04c55383fa5689357bcdd2c8036725a55ed632bc.
+</code>
+
+- [Jturnxd/CVE-2023-3609](https://github.com/Jturnxd/CVE-2023-3609)
 
 ### CVE-2023-3640 (2023-07-24)
 
@@ -51442,6 +51467,13 @@
 - [nanabingies/Driver-RW](https://github.com/nanabingies/Driver-RW)
 - [nanabingies/CVE-2018-19321](https://github.com/nanabingies/CVE-2018-19321)
 
+### CVE-2018-19323 (2018-12-21)
+
+<code>The GDrv low-level driver in GIGABYTE APP Center v1.05.21 and earlier, AORUS GRAPHICS ENGINE before 1.57, XTREME GAMING ENGINE before 1.26, and OC GURU II v2.08 exposes functionality to read and write Machine Specific Registers (MSRs).
+</code>
+
+- [blueisbeautiful/CVE-2018-19323](https://github.com/blueisbeautiful/CVE-2018-19323)
+
 ### CVE-2018-19410 (2018-11-21)
 
 <code>PRTG Network Monitor before 18.2.40.1683 allows remote unauthenticated attackers to create users with read-write privileges (including administrator). A remote unauthenticated user can craft an HTTP request and override attributes of the 'include' directive in /public/login.htm and perform a Local File Inclusion attack, by including /api/addusers and executing it. By providing the 'id' and 'users' parameters, an unauthenticated attacker can create a user with read-write privileges (including administrator).
@@ -55302,7 +55334,6 @@
 - [boompig/cve-2016-6662](https://github.com/boompig/cve-2016-6662)
 - [MAYASEVEN/CVE-2016-6662](https://github.com/MAYASEVEN/CVE-2016-6662)
 - [LSQUARE14/SQL_to_RCE_Lab](https://github.com/LSQUARE14/SQL_to_RCE_Lab)
-- [kanyaars/CVE-2016-6662](https://github.com/kanyaars/CVE-2016-6662)
 
 ### CVE-2016-6663 (2016-12-13)
 
