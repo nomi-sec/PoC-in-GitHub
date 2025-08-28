@@ -1250,6 +1250,7 @@
 - [pentestfunctions/best-CVE-2025-8088](https://github.com/pentestfunctions/best-CVE-2025-8088)
 - [nyra-workspace/CVE-2025-8088](https://github.com/nyra-workspace/CVE-2025-8088)
 - [kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition](https://github.com/kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition)
+- [walidpyh/CVE-2025-8088](https://github.com/walidpyh/CVE-2025-8088)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -2389,6 +2390,7 @@
 
 - [zhuowei/CVE-2025-27363-proof-of-concept](https://github.com/zhuowei/CVE-2025-27363-proof-of-concept)
 - [ov3rf1ow/CVE-2025-27363](https://github.com/ov3rf1ow/CVE-2025-27363)
+- [tin-z/CVE-2025-27363](https://github.com/tin-z/CVE-2025-27363)
 
 ### CVE-2025-27415 (2025-03-19)
 
@@ -3316,6 +3318,7 @@
 - [painoob/CVE-2025-32463](https://github.com/painoob/CVE-2025-32463)
 - [Nowafen/CVE-2025-32463](https://github.com/Nowafen/CVE-2025-32463)
 - [Yuy0ung/CVE-2025-32463_chwoot](https://github.com/Yuy0ung/CVE-2025-32463_chwoot)
+- [hacieda/CVE-2025-32463](https://github.com/hacieda/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3471,6 +3474,20 @@
 </code>
 
 - [Eyodav/CVE-2025-34157](https://github.com/Eyodav/CVE-2025-34157)
+
+### CVE-2025-34159 (2025-08-27)
+
+<code>Coolify versions prior to v4.0.0-beta.420.6 are vulnerable to a remote code execution vulnerability in the application deployment workflow. The platform allows authenticated users, with low-level member privileges, to inject arbitrary Docker Compose directives during project creation. By crafting a malicious service definition that mounts the host root filesystem, an attacker can gain full root access to the underlying server.
+</code>
+
+- [Eyodav/CVE-2025-34159](https://github.com/Eyodav/CVE-2025-34159)
+
+### CVE-2025-34161 (2025-08-27)
+
+<code>Coolify versions prior to v4.0.0-beta.420.7 are vulnerable to a remote code execution vulnerability in the project deployment workflow. The platform allows authenticated users, with low-level member privileges, to inject arbitrary shell commands via the Git Repository field during project creation. By submitting a crafted repository string containing command injection syntax, an attacker can execute arbitrary commands on the underlying host system, resulting in full server compromise.
+</code>
+
+- [Eyodav/CVE-2025-34161](https://github.com/Eyodav/CVE-2025-34161)
 
 ### CVE-2025-36041 (2025-06-15)
 
