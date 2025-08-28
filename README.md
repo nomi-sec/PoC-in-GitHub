@@ -1194,6 +1194,13 @@
 
 - [Yuri08loveElaina/CVE-2025-7771](https://github.com/Yuri08loveElaina/CVE-2025-7771)
 
+### CVE-2025-7775 (2025-08-26)
+
+<code>Memory overflow vulnerability leading to Remote Code Execution and/or Denial of Service in NetScaler ADC and NetScaler Gateway when NetScaler is configured as Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA virtual server\n\n(OR)\n\nNetScaler ADC and NetScaler Gateway 13.1, 14.1, 13.1-FIPS and NDcPP: LB virtual servers of type (HTTP, SSL or HTTP_QUIC) bound with IPv6 services or servicegroups bound with IPv6 servers \n\n(OR)\n\nNetScaler ADC and NetScaler Gateway 13.1, 14.1, 13.1-FIPS and NDcPP: LB virtual servers of type (HTTP, SSL or HTTP_QUIC) bound with DBS IPv6 services or servicegroups bound with IPv6 DBS servers\n\n(OR)\n\nCR virtual server with type HDX
+</code>
+
+- [mezo0x4/CVE-2025-7775](https://github.com/mezo0x4/CVE-2025-7775)
+
 ### CVE-2025-7783 (2025-07-18)
 
 <code>Use of Insufficiently Random Values vulnerability in form-data allows HTTP Parameter Pollution (HPP). This vulnerability is associated with program files lib/form_data.Js.\n\nThis issue affects form-data: &lt; 2.5.4, 3.0.0 - 3.0.3, 4.0.0 - 4.0.3.
@@ -36657,6 +36664,7 @@
 - [ch4os443/CVE-2021-41773](https://github.com/ch4os443/CVE-2021-41773)
 - [ksanchezcld/httpd-2.4.49](https://github.com/ksanchezcld/httpd-2.4.49)
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
+- [twseptian/cve-2021-41773-docker-lab](https://github.com/twseptian/cve-2021-41773-docker-lab)
 - [theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker)
 - [LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773)
 - [lopqto/CVE-2021-41773_Honeypot](https://github.com/lopqto/CVE-2021-41773_Honeypot)
