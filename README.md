@@ -4150,6 +4150,8 @@
 - [eliox01/CVE-2025-48384](https://github.com/eliox01/CVE-2025-48384)
 - [wzx5002/CVE-2025-48384](https://github.com/wzx5002/CVE-2025-48384)
 - [wzx5002/totallynotsuspicious](https://github.com/wzx5002/totallynotsuspicious)
+- [jacobholtz/CVE-2025-48384-poc](https://github.com/jacobholtz/CVE-2025-48384-poc)
+- [jacobholtz/CVE-2025-48384-submodule](https://github.com/jacobholtz/CVE-2025-48384-submodule)
 - [butyraldehyde/CVE-2025-48384-PoC-Part2](https://github.com/butyraldehyde/CVE-2025-48384-PoC-Part2)
 - [butyraldehyde/CVE-2025-48384-PoC](https://github.com/butyraldehyde/CVE-2025-48384-PoC)
 
@@ -4663,6 +4665,9 @@
 ### CVE-2025-52097
 - [rwilsonecs/CVE-2025-52097](https://github.com/rwilsonecs/CVE-2025-52097)
 
+### CVE-2025-52100
+- [changyaoyou/CVE-2025-52100](https://github.com/changyaoyou/CVE-2025-52100)
+
 ### CVE-2025-52122 (2025-08-27)
 
 <code>Freeform 5.0.0 to before 5.10.16, a plugin for CraftCMS, contains an Server-side template injection (SSTI) vulnerability, resulting in arbitrary code injection for all users that have access to editing a form (submission title).
@@ -4864,6 +4869,7 @@
 
 - [issamjr/CVE-2025-54309-EXPLOIT](https://github.com/issamjr/CVE-2025-54309-EXPLOIT)
 - [watchtowrlabs/watchTowr-vs-CrushFTP-Authentication-Bypass-CVE-2025-54309](https://github.com/watchtowrlabs/watchTowr-vs-CrushFTP-Authentication-Bypass-CVE-2025-54309)
+- [blueisbeautiful/CVE-2025-54309](https://github.com/blueisbeautiful/CVE-2025-54309)
 
 ### CVE-2025-54313 (2025-07-19)
 
@@ -4960,6 +4966,7 @@
 - [hunters-sec/CVE-2025-55188-7z-exploit](https://github.com/hunters-sec/CVE-2025-55188-7z-exploit)
 - [san8383/CVE-2025-55188-7z-POC](https://github.com/san8383/CVE-2025-55188-7z-POC)
 - [vadim-belous/CVE-2025-55188-PoC](https://github.com/vadim-belous/CVE-2025-55188-PoC)
+- [lunbun/CVE-2025-55188](https://github.com/lunbun/CVE-2025-55188)
 
 ### CVE-2025-55230 (2025-08-21)
 
@@ -25627,6 +25634,7 @@
 </code>
 
 - [0xkol/badspin](https://github.com/0xkol/badspin)
+- [sandiyochristan/oo](https://github.com/sandiyochristan/oo)
 
 ### CVE-2022-20452 (2022-11-08)
 
