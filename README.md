@@ -3471,6 +3471,13 @@
 
 - [Prabhukiran161/cve-2025-34036](https://github.com/Prabhukiran161/cve-2025-34036)
 
+### CVE-2025-34040 (2025-06-24)
+
+<code>An arbitrary file upload vulnerability exists in the Zhiyuan OA platform 5.0, 5.1 - 5.6sp1, 6.0 - 6.1sp2, 7.0, 7.0sp1 - 7.1, 7.1sp1, and 8.0 - 8.0sp2 via the wpsAssistServlet interface. The realFileType and fileId parameters are improperly validated during multipart file uploads, allowing unauthenticated attackers to upload crafted JSP files outside of intended directories using path traversal. Successful exploitation enables remote code execution as the uploaded file can be accessed and executed through the web server.
+</code>
+
+- [jisi-001/CVE-2025-34040Exp](https://github.com/jisi-001/CVE-2025-34040Exp)
+
 ### CVE-2025-34077 (2025-07-09)
 
 <code>An authentication bypass vulnerability exists in the WordPress Pie Register plugin ≤ 3.7.1.4 that allows unauthenticated attackers to impersonate arbitrary users by submitting a crafted POST request to the login endpoint. By setting social_site=true and manipulating the user_id_social_site parameter, an attacker can generate a valid WordPress session cookie for any user ID, including administrators. Once authenticated, the attacker may exploit plugin upload functionality to install a malicious plugin containing arbitrary PHP code, resulting in remote code execution on the underlying server.
@@ -4154,6 +4161,7 @@
 - [jacobholtz/CVE-2025-48384-submodule](https://github.com/jacobholtz/CVE-2025-48384-submodule)
 - [butyraldehyde/CVE-2025-48384-PoC-Part2](https://github.com/butyraldehyde/CVE-2025-48384-PoC-Part2)
 - [butyraldehyde/CVE-2025-48384-PoC](https://github.com/butyraldehyde/CVE-2025-48384-PoC)
+- [arun1033/CVE-2025-48384](https://github.com/arun1033/CVE-2025-48384)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -4989,6 +4997,12 @@
 
 - [Aether-0/CVE-2025-55575](https://github.com/Aether-0/CVE-2025-55575)
 
+### CVE-2025-55579
+- [ddobrev25/CVE-2025-55579](https://github.com/ddobrev25/CVE-2025-55579)
+
+### CVE-2025-55580
+- [ddobrev25/CVE-2025-55580](https://github.com/ddobrev25/CVE-2025-55580)
+
 ### CVE-2025-55668 (2025-08-13)
 
 <code>Session Fixation vulnerability in Apache Tomcat via rewrite valve.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.7, from 10.1.0-M1 through 10.1.41, from 9.0.0.M1 through 9.0.105.\nOlder, EOL versions may also be affected.\n\nUsers are recommended to upgrade to version 11.0.8, 10.1.42 or 9.0.106, which fix the issue.
@@ -4996,12 +5010,23 @@
 
 - [gregk4sec/CVE-2025-55668](https://github.com/gregk4sec/CVE-2025-55668)
 
+### CVE-2025-55763
+- [krispybyte/CVE-2025-55763](https://github.com/krispybyte/CVE-2025-55763)
+
 ### CVE-2025-57773 (2025-08-25)
 
 <code>DataEase is an open source business intelligence and data visualization tool. Prior to version 2.10.12, because DB2 parameters are not filtered, a JNDI injection attack can be directly launched. JNDI triggers an AspectJWeaver deserialization attack, writing to various files. This vulnerability requires commons-collections 4.x and aspectjweaver-1.9.22.jar. The vulnerability has been fixed in version 2.10.12.
 </code>
 
 - [B1ack4sh/Blackash-CVE-2025-57773](https://github.com/B1ack4sh/Blackash-CVE-2025-57773)
+
+### CVE-2025-57819 (2025-08-28)
+
+<code>FreePBX is an open-source web-based graphical user interface. FreePBX 15, 16, and 17 endpoints are vulnerable due to insufficiently sanitized user-supplied data allowing unauthenticated access to FreePBX Administrator leading to arbitrary database manipulation and remote code execution. This issue has been patched in endpoint versions 15.0.66, 16.0.89, and 17.0.3.
+</code>
+
+- [rxerium/CVE-2025-57819](https://github.com/rxerium/CVE-2025-57819)
+- [Sucuri-Labs/CVE-2025-57819-ioc-check](https://github.com/Sucuri-Labs/CVE-2025-57819-ioc-check)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
@@ -22665,7 +22690,6 @@
 - [BMG-Black-Magic/CVE-2023-44487](https://github.com/BMG-Black-Magic/CVE-2023-44487)
 - [moften/CVE-2023-44487-HTTP-2-Rapid-Reset-Attack](https://github.com/moften/CVE-2023-44487-HTTP-2-Rapid-Reset-Attack)
 - [zanks08/cve-2023-44487-demo](https://github.com/zanks08/cve-2023-44487-demo)
-- [madhusudhan-in/CVE_2023_44487-Rapid_Reset](https://github.com/madhusudhan-in/CVE_2023_44487-Rapid_Reset)
 
 ### CVE-2023-44758 (2023-10-06)
 
