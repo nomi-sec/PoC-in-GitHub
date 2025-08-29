@@ -877,6 +877,7 @@
 - [itsShotgun/chrome_v8_cve_checker](https://github.com/itsShotgun/chrome_v8_cve_checker)
 - [riemannj/CVE-2025-5419](https://github.com/riemannj/CVE-2025-5419)
 - [mistymntncop/CVE-2025-5419](https://github.com/mistymntncop/CVE-2025-5419)
+- [pavan3478/CVE-2025-5419](https://github.com/pavan3478/CVE-2025-5419)
 
 ### CVE-2025-5640 (2025-06-05)
 
@@ -2412,6 +2413,13 @@
 - [zhuowei/CVE-2025-27363-proof-of-concept](https://github.com/zhuowei/CVE-2025-27363-proof-of-concept)
 - [ov3rf1ow/CVE-2025-27363](https://github.com/ov3rf1ow/CVE-2025-27363)
 - [tin-z/CVE-2025-27363](https://github.com/tin-z/CVE-2025-27363)
+
+### CVE-2025-27410 (2025-02-28)
+
+<code>PwnDoc is a penetration test reporting application. Prior to version 1.2.0, the backup restore functionality is vulnerable to path traversal in the TAR entry's name, allowing an attacker to overwrite any file on the system with their content. By overwriting an included `.js` file and restarting the container, this allows for Remote Code Execution as an administrator. The remote code execution occurs because any user with the `backups:create` and `backups:update` (only administrators by default) is able to overwrite any file on the system. Version 1.2.0 fixes the issue.
+</code>
+
+- [shreyas-malhotra/CVE-2025-27410](https://github.com/shreyas-malhotra/CVE-2025-27410)
 
 ### CVE-2025-27415 (2025-03-19)
 
@@ -4142,8 +4150,8 @@
 - [eliox01/CVE-2025-48384](https://github.com/eliox01/CVE-2025-48384)
 - [wzx5002/CVE-2025-48384](https://github.com/wzx5002/CVE-2025-48384)
 - [wzx5002/totallynotsuspicious](https://github.com/wzx5002/totallynotsuspicious)
-- [butyraldehyde/CVE-2025-48384-PoC](https://github.com/butyraldehyde/CVE-2025-48384-PoC)
 - [butyraldehyde/CVE-2025-48384-PoC-Part2](https://github.com/butyraldehyde/CVE-2025-48384-PoC-Part2)
+- [butyraldehyde/CVE-2025-48384-PoC](https://github.com/butyraldehyde/CVE-2025-48384-PoC)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -45499,7 +45507,6 @@
 - [im-suman-roy/CVE-2019-9053](https://github.com/im-suman-roy/CVE-2019-9053)
 - [bthnrml/guncel-cve-2019-9053.py](https://github.com/bthnrml/guncel-cve-2019-9053.py)
 - [kahluri/CVE-2019-9053](https://github.com/kahluri/CVE-2019-9053)
-- [Doc0x1/CVE-2019-9053-Python3](https://github.com/Doc0x1/CVE-2019-9053-Python3)
 - [fernandobortotti/CVE-2019-9053](https://github.com/fernandobortotti/CVE-2019-9053)
 - [byrek/CVE-2019-9053](https://github.com/byrek/CVE-2019-9053)
 - [davcwikla/CVE-2019-9053-exploit](https://github.com/davcwikla/CVE-2019-9053-exploit)
