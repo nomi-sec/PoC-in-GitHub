@@ -1208,6 +1208,7 @@
 </code>
 
 - [hacker-r3volv3r/CVE-2025-7775-PoC](https://github.com/hacker-r3volv3r/CVE-2025-7775-PoC)
+- [Aaqilyousuf/CVE-2025-7775-vulnerable-lab](https://github.com/Aaqilyousuf/CVE-2025-7775-vulnerable-lab)
 
 ### CVE-2025-7783 (2025-07-18)
 
