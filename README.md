@@ -4264,6 +4264,7 @@
 - [CyberQuestor-infosec/CVE-2025-49113-Roundcube_1.6.10](https://github.com/CyberQuestor-infosec/CVE-2025-49113-Roundcube_1.6.10)
 - [SteamPunk424/CVE-2025-49113-Roundcube-RCE-PHP](https://github.com/SteamPunk424/CVE-2025-49113-Roundcube-RCE-PHP)
 - [Zwique/CVE-2025-49113](https://github.com/Zwique/CVE-2025-49113)
+- [AC8999/CVE-2025-49113](https://github.com/AC8999/CVE-2025-49113)
 
 ### CVE-2025-49125 (2025-06-16)
 
