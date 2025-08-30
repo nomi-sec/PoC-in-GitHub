@@ -10251,7 +10251,7 @@
 - [Marven11/CVE-2024-28397-js2py-Sandbox-Escape](https://github.com/Marven11/CVE-2024-28397-js2py-Sandbox-Escape)
 - [CYBER-WARRIOR-SEC/CVE-2024-28397-js2py-Sandbox-Escape](https://github.com/CYBER-WARRIOR-SEC/CVE-2024-28397-js2py-Sandbox-Escape)
 - [waleed-hassan569/CVE-2024-28397-command-execution-poc](https://github.com/waleed-hassan569/CVE-2024-28397-command-execution-poc)
-- [0timeday/exploit-js2py](https://github.com/0timeday/exploit-js2py)
+- [releaseown/exploit-js2py](https://github.com/releaseown/exploit-js2py)
 - [harutomo-jp/CVE-2024-28397-RCE](https://github.com/harutomo-jp/CVE-2024-28397-RCE)
 - [Naved124/CVE-2024-28397-js2py-Sandbox-Escape](https://github.com/Naved124/CVE-2024-28397-js2py-Sandbox-Escape)
 
@@ -49291,6 +49291,7 @@
 - [elw0od/PentesterLab](https://github.com/elw0od/PentesterLab)
 - [paulogmota/CVE-2018-6574](https://github.com/paulogmota/CVE-2018-6574)
 - [solovvway/CVE-2018-6574](https://github.com/solovvway/CVE-2018-6574)
+- [memmas/CVE-2018-6574](https://github.com/memmas/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -53399,6 +53400,7 @@
 - [Chocapikk/CVE-2017-9841](https://github.com/Chocapikk/CVE-2017-9841)
 - [joelindra/Argus](https://github.com/joelindra/Argus)
 - [K3ysTr0K3R/CVE-2017-9841-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-9841-EXPLOIT)
+- [drcrypterdotru/PHPUnit-GoScan](https://github.com/drcrypterdotru/PHPUnit-GoScan)
 
 ### CVE-2017-9934 (2017-07-17)
 
