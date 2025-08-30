@@ -1792,6 +1792,7 @@
 </code>
 
 - [The-Maxu/CVE-2025-24201-WebKit-Vulnerability-Detector-PoC-](https://github.com/The-Maxu/CVE-2025-24201-WebKit-Vulnerability-Detector-PoC-)
+- [5ky9uy/glass-cage-i18-2025-24085-and-cve-2025-24201](https://github.com/5ky9uy/glass-cage-i18-2025-24085-and-cve-2025-24201)
 
 ### CVE-2025-24203 (2025-03-31)
 
@@ -3069,7 +3070,7 @@
 </code>
 
 - [zhuowei/apple-positional-audio-codec-invalid-header](https://github.com/zhuowei/apple-positional-audio-codec-invalid-header)
-- [JGoyd/CVE-2025-31200-iOS-AudioConverter-RCE](https://github.com/JGoyd/CVE-2025-31200-iOS-AudioConverter-RCE)
+- [serundengsapi/CVE-2025-31200-iOS-AudioConverter-RCE](https://github.com/serundengsapi/CVE-2025-31200-iOS-AudioConverter-RCE)
 - [hunters-sec/CVE-2025-31200](https://github.com/hunters-sec/CVE-2025-31200)
 
 ### CVE-2025-31258 (2025-05-12)
@@ -4203,6 +4204,7 @@
 
 - [Wh04m1001/CVE-2025-48799](https://github.com/Wh04m1001/CVE-2025-48799)
 - [painoob/CVE-2025-48799](https://github.com/painoob/CVE-2025-48799)
+- [mrk336/CVE-2025-48799](https://github.com/mrk336/CVE-2025-48799)
 
 ### CVE-2025-48827 (2025-05-27)
 
@@ -4265,6 +4267,7 @@
 - [SteamPunk424/CVE-2025-49113-Roundcube-RCE-PHP](https://github.com/SteamPunk424/CVE-2025-49113-Roundcube-RCE-PHP)
 - [Zwique/CVE-2025-49113](https://github.com/Zwique/CVE-2025-49113)
 - [AC8999/CVE-2025-49113](https://github.com/AC8999/CVE-2025-49113)
+- [LeakForge/CVE-2025-49113](https://github.com/LeakForge/CVE-2025-49113)
 
 ### CVE-2025-49125 (2025-06-16)
 
