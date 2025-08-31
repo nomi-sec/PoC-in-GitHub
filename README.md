@@ -1936,6 +1936,7 @@
 - [137f/PoC-CVE-2025-24813](https://github.com/137f/PoC-CVE-2025-24813)
 - [thebringerofdeath789/CVE-2025-24813](https://github.com/thebringerofdeath789/CVE-2025-24813)
 - [threadpoolx/CVE-2025-24813-Remote-Code-Execution-in-Apache-Tomcat](https://github.com/threadpoolx/CVE-2025-24813-Remote-Code-Execution-in-Apache-Tomcat)
+- [drcrypterdotru/Apache-GOExploiter](https://github.com/drcrypterdotru/Apache-GOExploiter)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -56761,6 +56762,7 @@
 - [moften/CVE-2015-9251](https://github.com/moften/CVE-2015-9251)
 - [hackgiver/CVE-2015-9251](https://github.com/hackgiver/CVE-2015-9251)
 - [rox-11/xss](https://github.com/rox-11/xss)
+- [wakefulblock262/CVE-2015-9251](https://github.com/wakefulblock262/CVE-2015-9251)
 
 ### CVE-2015-10034 (2023-01-09)
 
