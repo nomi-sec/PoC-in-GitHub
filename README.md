@@ -688,6 +688,7 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428](https://github.com/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428)
+- [rxerium/CVE-2025-4427-CVE-2025-4428](https://github.com/rxerium/CVE-2025-4427-CVE-2025-4428)
 
 ### CVE-2025-4428 (2025-05-13)
 
@@ -1393,6 +1394,13 @@
 </code>
 
 - [NagisaYumaa/CVE-2025-9345](https://github.com/NagisaYumaa/CVE-2025-9345)
+
+### CVE-2025-9478 (2025-08-26)
+
+<code>Use after free in ANGLE in Google Chrome prior to 139.0.7258.154 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Critical)
+</code>
+
+- [Kamgreen50/STIG-Edge-RCE-CVE2025-9478](https://github.com/Kamgreen50/STIG-Edge-RCE-CVE2025-9478)
 
 ### CVE-2025-9728 (2025-08-31)
 
@@ -12542,6 +12550,7 @@
 - [watchtowrlabs/CVE-2024-40711](https://github.com/watchtowrlabs/CVE-2024-40711)
 - [realstatus/CVE-2024-40711-Exp](https://github.com/realstatus/CVE-2024-40711-Exp)
 - [XiaomingX/cve-2024-40711-poc](https://github.com/XiaomingX/cve-2024-40711-poc)
+- [birukG09/veeam-rce-remediation-kit](https://github.com/birukG09/veeam-rce-remediation-kit)
 
 ### CVE-2024-40725 (2024-07-18)
 
