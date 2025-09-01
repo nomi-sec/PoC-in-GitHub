@@ -535,6 +535,7 @@
 </code>
 
 - [Professor6T9/CVE-2025-3515](https://github.com/Professor6T9/CVE-2025-3515)
+- [blueisbeautiful/CVE-2025-3515](https://github.com/blueisbeautiful/CVE-2025-3515)
 
 ### CVE-2025-3568 (2025-04-14)
 
@@ -3576,6 +3577,13 @@
 
 - [Eyodav/CVE-2025-34161](https://github.com/Eyodav/CVE-2025-34161)
 
+### CVE-2025-34300 (2025-07-16)
+
+<code>A template injection vulnerability exists in Sawtooth Software’s Lighthouse Studio versions prior to 9.16.14 via the  ciwweb.pl http://ciwweb.pl/  Perl web application. Exploitation allows an unauthenticated attacker can execute arbitrary commands.
+</code>
+
+- [jisi-001/CVE-2025-34300POC](https://github.com/jisi-001/CVE-2025-34300POC)
+
 ### CVE-2025-36041 (2025-06-15)
 
 <code>IBM MQ Operator LTS 2.0.0 through 2.0.29, MQ Operator CD 3.0.0, 3.0.1, 3.1.0 through 3.1.3, 3.3.0, 3.4.0, 3.4.1, 3.5.0, 3.5.1 through 3.5.3, and MQ Operator SC2 3.2.0 through 3.2.12 Native HA CRR could be configured with a private key and chain other than the intended key which could disclose sensitive information or allow the attacker to perform unauthorized actions.
@@ -3777,10 +3785,6 @@
 </code>
 
 - [IvanT7D3/CVE-2025-44203](https://github.com/IvanT7D3/CVE-2025-44203)
-
-### CVE-2025-44228
-- [Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Caztemaz/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
-- [Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Caztemaz/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
 
 ### CVE-2025-44603
 - [Moulish2004/CVE-2025-44603-CSRF-Leads_to_Create_FakeUsers](https://github.com/Moulish2004/CVE-2025-44603-CSRF-Leads_to_Create_FakeUsers)
@@ -4845,6 +4849,16 @@
 
 - [pl4tyz/CVE-2025-53652-Jenkins-Git-Parameter-Analysis](https://github.com/pl4tyz/CVE-2025-53652-Jenkins-Git-Parameter-Analysis)
 
+### CVE-2025-53691
+- [blueisbeautiful/CVE-2025-53691](https://github.com/blueisbeautiful/CVE-2025-53691)
+
+### CVE-2025-53693
+- [blueisbeautiful/CVE-2025-53693](https://github.com/blueisbeautiful/CVE-2025-53693)
+
+### CVE-2025-53694
+- [blueisbeautiful/CVE-2025-53694](https://github.com/blueisbeautiful/CVE-2025-53694)
+- [blueisbeautiful/CVE-2025-53694-to-CVE-2025-53691](https://github.com/blueisbeautiful/CVE-2025-53694-to-CVE-2025-53691)
+
 ### CVE-2025-53770 (2025-07-20)
 
 <code>Deserialization of untrusted data in on-premises Microsoft SharePoint Server allows an unauthorized attacker to execute code over a network.\nMicrosoft is aware that an exploit for CVE-2025-53770 exists in the wild.\nMicrosoft is preparing and fully testing a comprehensive update to address this vulnerability.  In the meantime, please make sure that the mitigation provided in this CVE documentation is in place so that you are protected from exploitation.
@@ -5098,6 +5112,7 @@
 
 - [rxerium/CVE-2025-57819](https://github.com/rxerium/CVE-2025-57819)
 - [Sucuri-Labs/CVE-2025-57819-ioc-check](https://github.com/Sucuri-Labs/CVE-2025-57819-ioc-check)
+- [blueisbeautiful/CVE-2025-57819](https://github.com/blueisbeautiful/CVE-2025-57819)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
@@ -9838,6 +9853,9 @@
 ### CVE-2024-25733
 - [hackintoanetwork/ARC-Browser-Address-Bar-Spoofing-PoC](https://github.com/hackintoanetwork/ARC-Browser-Address-Bar-Spoofing-PoC)
 
+### CVE-2024-25765
+- [dennismendes10/CMD-Exploit-CVE-2024-RCE-AboRady-FUD-25765-Injection](https://github.com/dennismendes10/CMD-Exploit-CVE-2024-RCE-AboRady-FUD-25765-Injection)
+
 ### CVE-2024-25809
 - [sajaljat/CVE-2024-25809](https://github.com/sajaljat/CVE-2024-25809)
 
@@ -11741,6 +11759,13 @@
 - [jjensn/CVE-2024-36877](https://github.com/jjensn/CVE-2024-36877)
 - [CERTologists/POC-CVE-2024-36877](https://github.com/CERTologists/POC-CVE-2024-36877)
 
+### CVE-2024-36886 (2024-05-30)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\ntipc: fix UAF in error path\n\nSam Page (sam4k) working with Trend Micro Zero Day Initiative reported\na UAF in the tipc_buf_append() error path:\n\nBUG: KASAN: slab-use-after-free in kfree_skb_list_reason+0x47e/0x4c0\nlinux/net/core/skbuff.c:1183\nRead of size 8 at addr ffff88804d2a7c80 by task poc/8034\n\nCPU: 1 PID: 8034 Comm: poc Not tainted 6.8.2 #1\nHardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS\n1.16.0-debian-1.16.0-5 04/01/2014\nCall Trace:\n &lt;IRQ&gt;\n __dump_stack linux/lib/dump_stack.c:88\n dump_stack_lvl+0xd9/0x1b0 linux/lib/dump_stack.c:106\n print_address_description linux/mm/kasan/report.c:377\n print_report+0xc4/0x620 linux/mm/kasan/report.c:488\n kasan_report+0xda/0x110 linux/mm/kasan/report.c:601\n kfree_skb_list_reason+0x47e/0x4c0 linux/net/core/skbuff.c:1183\n skb_release_data+0x5af/0x880 linux/net/core/skbuff.c:1026\n skb_release_all linux/net/core/skbuff.c:1094\n __kfree_skb linux/net/core/skbuff.c:1108\n kfree_skb_reason+0x12d/0x210 linux/net/core/skbuff.c:1144\n kfree_skb linux/./include/linux/skbuff.h:1244\n tipc_buf_append+0x425/0xb50 linux/net/tipc/msg.c:186\n tipc_link_input+0x224/0x7c0 linux/net/tipc/link.c:1324\n tipc_link_rcv+0x76e/0x2d70 linux/net/tipc/link.c:1824\n tipc_rcv+0x45f/0x10f0 linux/net/tipc/node.c:2159\n tipc_udp_recv+0x73b/0x8f0 linux/net/tipc/udp_media.c:390\n udp_queue_rcv_one_skb+0xad2/0x1850 linux/net/ipv4/udp.c:2108\n udp_queue_rcv_skb+0x131/0xb00 linux/net/ipv4/udp.c:2186\n udp_unicast_rcv_skb+0x165/0x3b0 linux/net/ipv4/udp.c:2346\n __udp4_lib_rcv+0x2594/0x3400 linux/net/ipv4/udp.c:2422\n ip_protocol_deliver_rcu+0x30c/0x4e0 linux/net/ipv4/ip_input.c:205\n ip_local_deliver_finish+0x2e4/0x520 linux/net/ipv4/ip_input.c:233\n NF_HOOK linux/./include/linux/netfilter.h:314\n NF_HOOK linux/./include/linux/netfilter.h:308\n ip_local_deliver+0x18e/0x1f0 linux/net/ipv4/ip_input.c:254\n dst_input linux/./include/net/dst.h:461\n ip_rcv_finish linux/net/ipv4/ip_input.c:449\n NF_HOOK linux/./include/linux/netfilter.h:314\n NF_HOOK linux/./include/linux/netfilter.h:308\n ip_rcv+0x2c5/0x5d0 linux/net/ipv4/ip_input.c:569\n __netif_receive_skb_one_core+0x199/0x1e0 linux/net/core/dev.c:5534\n __netif_receive_skb+0x1f/0x1c0 linux/net/core/dev.c:5648\n process_backlog+0x101/0x6b0 linux/net/core/dev.c:5976\n __napi_poll.constprop.0+0xba/0x550 linux/net/core/dev.c:6576\n napi_poll linux/net/core/dev.c:6645\n net_rx_action+0x95a/0xe90 linux/net/core/dev.c:6781\n __do_softirq+0x21f/0x8e7 linux/kernel/softirq.c:553\n do_softirq linux/kernel/softirq.c:454\n do_softirq+0xb2/0xf0 linux/kernel/softirq.c:441\n &lt;/IRQ&gt;\n &lt;TASK&gt;\n __local_bh_enable_ip+0x100/0x120 linux/kernel/softirq.c:381\n local_bh_enable linux/./include/linux/bottom_half.h:33\n rcu_read_unlock_bh linux/./include/linux/rcupdate.h:851\n __dev_queue_xmit+0x871/0x3ee0 linux/net/core/dev.c:4378\n dev_queue_xmit linux/./include/linux/netdevice.h:3169\n neigh_hh_output linux/./include/net/neighbour.h:526\n neigh_output linux/./include/net/neighbour.h:540\n ip_finish_output2+0x169f/0x2550 linux/net/ipv4/ip_output.c:235\n __ip_finish_output linux/net/ipv4/ip_output.c:313\n __ip_finish_output+0x49e/0x950 linux/net/ipv4/ip_output.c:295\n ip_finish_output+0x31/0x310 linux/net/ipv4/ip_output.c:323\n NF_HOOK_COND linux/./include/linux/netfilter.h:303\n ip_output+0x13b/0x2a0 linux/net/ipv4/ip_output.c:433\n dst_output linux/./include/net/dst.h:451\n ip_local_out linux/net/ipv4/ip_output.c:129\n ip_send_skb+0x3e5/0x560 linux/net/ipv4/ip_output.c:1492\n udp_send_skb+0x73f/0x1530 linux/net/ipv4/udp.c:963\n udp_sendmsg+0x1a36/0x2b40 linux/net/ipv4/udp.c:1250\n inet_sendmsg+0x105/0x140 linux/net/ipv4/af_inet.c:850\n sock_sendmsg_nosec linux/net/socket.c:730\n __sock_sendmsg linux/net/socket.c:745\n __sys_sendto+0x42c/0x4e0 linux/net/socket.c:2191\n __do_sys_sendto linux/net/socket.c:2203\n __se_sys_sendto linux/net/socket.c:2199\n __x64_sys_sendto+0xe0/0x1c0 linux/net/socket.c:2199\n do_syscall_x64 linux/arch/x86/entry/common.c:52\n do_syscall_\n---truncated---
+</code>
+
+- [abubakar-shahid/CVE-2024-36886](https://github.com/abubakar-shahid/CVE-2024-36886)
+
 ### CVE-2024-36991 (2024-07-01)
 
 <code>In Splunk Enterprise on Windows versions below 9.2.2, 9.1.5, and 9.0.10, an attacker could perform a path traversal on the /modules/messaging/ endpoint in Splunk Enterprise on Windows. This vulnerability should only affect Splunk Enterprise on Windows.
@@ -12549,7 +12574,6 @@
 - [watchtowrlabs/CVE-2024-40711](https://github.com/watchtowrlabs/CVE-2024-40711)
 - [realstatus/CVE-2024-40711-Exp](https://github.com/realstatus/CVE-2024-40711-Exp)
 - [XiaomingX/cve-2024-40711-poc](https://github.com/XiaomingX/cve-2024-40711-poc)
-- [birukG09/veeam-rce-remediation-kit](https://github.com/birukG09/veeam-rce-remediation-kit)
 
 ### CVE-2024-40725 (2024-07-18)
 
@@ -49348,7 +49372,6 @@
 - [NsByte/CVE-2018-6574](https://github.com/NsByte/CVE-2018-6574)
 - [moTorky/CVE-2018-6574-POC](https://github.com/moTorky/CVE-2018-6574-POC)
 - [Ashved9/Orange](https://github.com/Ashved9/Orange)
-- [zerbaliy3v/cve-2018-6574-exploit](https://github.com/zerbaliy3v/cve-2018-6574-exploit)
 - [jftierno/-CVE-2018-6574](https://github.com/jftierno/-CVE-2018-6574)
 - [faiqu3/cve-2018-6574](https://github.com/faiqu3/cve-2018-6574)
 - [Dannners/CVE-2018-6574-go-get-RCE](https://github.com/Dannners/CVE-2018-6574-go-get-RCE)
@@ -53472,6 +53495,7 @@
 - [K3ysTr0K3R/CVE-2017-9841-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-9841-EXPLOIT)
 - [drcrypterdotru/PHPUnit-GoScan](https://github.com/drcrypterdotru/PHPUnit-GoScan)
 - [Pwdnx1337/CVE-2017-9841](https://github.com/Pwdnx1337/CVE-2017-9841)
+- [Habibullah1101/PHPUnit-GoScan](https://github.com/Habibullah1101/PHPUnit-GoScan)
 
 ### CVE-2017-9934 (2017-07-17)
 
