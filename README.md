@@ -892,7 +892,6 @@
 - [itsShotgun/chrome_v8_cve_checker](https://github.com/itsShotgun/chrome_v8_cve_checker)
 - [riemannj/CVE-2025-5419](https://github.com/riemannj/CVE-2025-5419)
 - [mistymntncop/CVE-2025-5419](https://github.com/mistymntncop/CVE-2025-5419)
-- [pavan3478/CVE-2025-5419](https://github.com/pavan3478/CVE-2025-5419)
 
 ### CVE-2025-5640 (2025-06-05)
 
@@ -1408,9 +1407,6 @@
 </code>
 
 - [kwerty138/Reflected-XSS-in-Vvveb-CMS-v1.0.7.2](https://github.com/kwerty138/Reflected-XSS-in-Vvveb-CMS-v1.0.7.2)
-
-### CVE-2025-12654
-- [Kastowm/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Kastowm/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -2069,7 +2065,6 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-FortiSIEM-CVE-2025-25256](https://github.com/watchtowrlabs/watchTowr-vs-FortiSIEM-CVE-2025-25256)
-- [JMS-Security/CVE-2025-25256-PoC](https://github.com/JMS-Security/CVE-2025-25256-PoC)
 
 ### CVE-2025-25257 (2025-07-17)
 
@@ -2472,6 +2467,13 @@
 
 - [jiseoung/CVE-2025-27415-PoC](https://github.com/jiseoung/CVE-2025-27415-PoC)
 
+### CVE-2025-27480 (2025-04-08)
+
+<code>Use after free in Remote Desktop Gateway Service allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [mrk336/CVE-2025-27480-The-Silent-Gateway-Risk](https://github.com/mrk336/CVE-2025-27480-The-Silent-Gateway-Risk)
+
 ### CVE-2025-27519 (2025-03-07)
 
 <code>Cognita is a RAG (Retrieval Augmented Generation) Framework for building modular, open source applications for production by TrueFoundry. A path traversal issue exists at /v1/internal/upload-to-local-directory which is enabled when the Local env variable is set to true, such as when Cognita is setup using Docker. Because the docker environment sets up the backend uvicorn server with auto reload enabled, when an attacker overwrites the /app/backend/__init__.py file, the file will automatically be reloaded and executed. This allows an attacker to get remote code execution in the context of the Docker container. This vulnerability is fixed in commit a78bd065e05a1b30a53a3386cc02e08c317d2243.
@@ -2530,6 +2532,7 @@
 - [Thekin-ctrl/CVE-2025-27591-Below](https://github.com/Thekin-ctrl/CVE-2025-27591-Below)
 - [Cythonic1/CVE-2025-27591](https://github.com/Cythonic1/CVE-2025-27591)
 - [umutcamliyurt/CVE-2025-27591](https://github.com/umutcamliyurt/CVE-2025-27591)
+- [danil-koltsov/below-log-race-poc](https://github.com/danil-koltsov/below-log-race-poc)
 
 ### CVE-2025-27607 (2025-03-07)
 
@@ -4841,13 +4844,6 @@
 </code>
 
 - [pl4tyz/CVE-2025-53652-Jenkins-Git-Parameter-Analysis](https://github.com/pl4tyz/CVE-2025-53652-Jenkins-Git-Parameter-Analysis)
-
-### CVE-2025-53744 (2025-08-12)
-
-<code>An incorrect privilege assignment vulnerability [CWE-266] in FortiOS Security Fabric version 7.6.0 through 7.6.2, 7.4.0 through 7.4.7, 7.2 all versions, 7.0 all versions, 6.4 all versions, may allow a remote authenticated attacker with high privileges to escalate their privileges to super-admin via registering the device to a malicious FortiManager.
-</code>
-
-- [fortinetx/CVE-2025-53744](https://github.com/fortinetx/CVE-2025-53744)
 
 ### CVE-2025-53770 (2025-07-20)
 
@@ -29965,10 +29961,18 @@
 
 - [LucaBarile/CVE-2022-38604](https://github.com/LucaBarile/CVE-2022-38604)
 
-### CVE-2022-38691
+### CVE-2022-38691 (2025-09-01)
+
+<code>In BootROM, there is a possible missing validation for Certificate Type 0. This could lead to local escalation of privilege with no additional execution privileges needed.
+</code>
+
 - [TomKing062/CVE-2022-38691_38692](https://github.com/TomKing062/CVE-2022-38691_38692)
 
-### CVE-2022-38694
+### CVE-2022-38694 (2025-09-01)
+
+<code>In BootRom, there is a possible unchecked write address. This could lead to local escalation of privilege with no additional execution privileges needed.
+</code>
+
 - [TomKing062/CVE-2022-38694_unlock_bootloader](https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader)
 - [TheGammaSqueeze/Bootloader_Unlock_Anbernic_T820](https://github.com/TheGammaSqueeze/Bootloader_Unlock_Anbernic_T820)
 - [Seriousattempts/Bootloader_Unlock_Retroid_Pocket_3Plus](https://github.com/Seriousattempts/Bootloader_Unlock_Retroid_Pocket_3Plus)
@@ -51495,6 +51499,7 @@
 
 - [aeroot/WP-GDPR-Compliance-Plugin-Exploit](https://github.com/aeroot/WP-GDPR-Compliance-Plugin-Exploit)
 - [cved-sources/cve-2018-19207](https://github.com/cved-sources/cve-2018-19207)
+- [Pwdnx1337/CVE-2018-19207](https://github.com/Pwdnx1337/CVE-2018-19207)
 
 ### CVE-2018-19246 (2018-11-13)
 
@@ -53466,6 +53471,7 @@
 - [joelindra/Argus](https://github.com/joelindra/Argus)
 - [K3ysTr0K3R/CVE-2017-9841-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-9841-EXPLOIT)
 - [drcrypterdotru/PHPUnit-GoScan](https://github.com/drcrypterdotru/PHPUnit-GoScan)
+- [Pwdnx1337/CVE-2017-9841](https://github.com/Pwdnx1337/CVE-2017-9841)
 
 ### CVE-2017-9934 (2017-07-17)
 
@@ -53696,7 +53702,6 @@
 - [yaseenibnakhtar/001-Malware-Analysis-CVE-2017-11882](https://github.com/yaseenibnakhtar/001-Malware-Analysis-CVE-2017-11882)
 - [xdrake1010/CVE-2017-11882-Preventer](https://github.com/xdrake1010/CVE-2017-11882-Preventer)
 - [imkidz0/CVE-2017-11882](https://github.com/imkidz0/CVE-2017-11882)
-- [futureFfff/CVE-2017](https://github.com/futureFfff/CVE-2017)
 
 ### CVE-2017-11907 (2017-12-12)
 
