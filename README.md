@@ -1124,6 +1124,7 @@
 - [MrjHaxcore/CVE-2025-6934](https://github.com/MrjHaxcore/CVE-2025-6934)
 - [0xgh057r3c0n/CVE-2025-6934](https://github.com/0xgh057r3c0n/CVE-2025-6934)
 - [yukinime/CVE-2025-6934](https://github.com/yukinime/CVE-2025-6934)
+- [Pwdnx1337/CVE-2025-6934](https://github.com/Pwdnx1337/CVE-2025-6934)
 
 ### CVE-2025-6970 (2025-07-09)
 
@@ -1464,7 +1465,6 @@
 - [ynwarcs/CVE-2025-21298](https://github.com/ynwarcs/CVE-2025-21298)
 - [Dit-Developers/CVE-2025-21298](https://github.com/Dit-Developers/CVE-2025-21298)
 - [Denyningbow/rtf-ctf-cve-2025-21298](https://github.com/Denyningbow/rtf-ctf-cve-2025-21298)
-- [mr-big-leach/CVE-2025-21298](https://github.com/mr-big-leach/CVE-2025-21298)
 - [B1ack4sh/Blackash-CVE-2025-21298](https://github.com/B1ack4sh/Blackash-CVE-2025-21298)
 
 ### CVE-2025-21307 (2025-01-14)
@@ -1688,6 +1688,7 @@
 </code>
 
 - [jpts/cve-2025-23266-poc](https://github.com/jpts/cve-2025-23266-poc)
+- [r0binak/CVE-2025-23266](https://github.com/r0binak/CVE-2025-23266)
 
 ### CVE-2025-23369 (2025-01-21)
 
@@ -9854,9 +9855,6 @@
 ### CVE-2024-25733
 - [hackintoanetwork/ARC-Browser-Address-Bar-Spoofing-PoC](https://github.com/hackintoanetwork/ARC-Browser-Address-Bar-Spoofing-PoC)
 
-### CVE-2024-25765
-- [dennismendes10/CMD-Exploit-CVE-2024-RCE-AboRady-FUD-25765-Injection](https://github.com/dennismendes10/CMD-Exploit-CVE-2024-RCE-AboRady-FUD-25765-Injection)
-
 ### CVE-2024-25809
 - [sajaljat/CVE-2024-25809](https://github.com/sajaljat/CVE-2024-25809)
 
@@ -13370,6 +13368,13 @@
 
 - [BenRogozinski/CVE-2024-45589](https://github.com/BenRogozinski/CVE-2024-45589)
 
+### CVE-2024-45590 (2024-09-10)
+
+<code>body-parser is Node.js body parsing middleware. body-parser &lt;1.20.3 is vulnerable to denial of service when url encoding is enabled. A malicious actor using a specially crafted payload could flood the server with a large number of requests, resulting in denial of service. This issue is patched in 1.20.3.
+</code>
+
+- [dhruvik-git/CVE-2024-45590](https://github.com/dhruvik-git/CVE-2024-45590)
+
 ### CVE-2024-45614 (2024-09-19)
 
 <code>Puma is a Ruby/Rack web server built for parallelism. In affected versions clients could clobber values set by intermediate proxies (such as X-Forwarded-For) by providing a underscore version of the same header (X-Forwarded_For). Any users relying on proxy set variables is affected. v6.4.3/v5.6.9 now discards any headers using underscores if the non-underscore version also exists. Effectively, allowing the proxy defined headers to always win. Users are advised to upgrade. Nginx has a underscores_in_headers configuration variable to discard these headers at the proxy level as a mitigation. Any users that are implicitly trusting the proxy defined headers for security should immediately cease doing so until upgraded to the fixed versions.
@@ -14368,6 +14373,13 @@
 - [thehash007/CVE-2024-51567-RCE-EXPLOIT](https://github.com/thehash007/CVE-2024-51567-RCE-EXPLOIT)
 - [XiaomingX/cve-2024-51567-poc](https://github.com/XiaomingX/cve-2024-51567-poc)
 
+### CVE-2024-51568 (2024-10-29)
+
+<code>CyberPanel (aka Cyber Panel) before 2.3.5 allows Command Injection via completePath in the ProcessUtilities.outputExecutioner() sink. There is /filemanager/upload (aka File Manager upload) unauthenticated remote code execution via shell metacharacters.
+</code>
+
+- [jsnv-dev/CVE-2024-51568---CyberPanel-Command-Injection-Nuclei-Template](https://github.com/jsnv-dev/CVE-2024-51568---CyberPanel-Command-Injection-Nuclei-Template)
+
 ### CVE-2024-51665 (2024-11-04)
 
 <code>Server-Side Request Forgery (SSRF) vulnerability in Noor alam Magical Addons For Elementor allows Server Side Request Forgery.This issue affects Magical Addons For Elementor: from n/a through 1.2.1.
@@ -14670,6 +14682,7 @@
 - [shishirghimir/CVE-2024-53677-Exploit](https://github.com/shishirghimir/CVE-2024-53677-Exploit)
 - [BuludX/CVE-2024-53677](https://github.com/BuludX/CVE-2024-53677)
 - [r007sec/CVE-2024-53677](https://github.com/r007sec/CVE-2024-53677)
+- [Cythonic1/CVE-2024-53677-POC](https://github.com/Cythonic1/CVE-2024-53677-POC)
 
 ### CVE-2024-53691 (2024-12-06)
 
@@ -28792,6 +28805,13 @@
 </code>
 
 - [SpiralBL0CK/CVE-2022-31144](https://github.com/SpiralBL0CK/CVE-2022-31144)
+
+### CVE-2022-31147 (2022-07-14)
+
+<code>The jQuery Validation Plugin (jquery-validation) provides drop-in validation for forms. Versions of jquery-validation prior to 1.19.5 are vulnerable to regular expression denial of service (ReDoS) when an attacker is able to supply arbitrary input to the url2 method. This is due to an incomplete fix for CVE-2021-43306. Users should upgrade to version 1.19.5 to receive a patch.
+</code>
+
+- [amhar-hckr/Webapp_Pentast](https://github.com/amhar-hckr/Webapp_Pentast)
 
 ### CVE-2022-31159 (2022-07-15)
 
