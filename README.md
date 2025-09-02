@@ -5113,6 +5113,7 @@
 - [rxerium/CVE-2025-57819](https://github.com/rxerium/CVE-2025-57819)
 - [Sucuri-Labs/CVE-2025-57819-ioc-check](https://github.com/Sucuri-Labs/CVE-2025-57819-ioc-check)
 - [blueisbeautiful/CVE-2025-57819](https://github.com/blueisbeautiful/CVE-2025-57819)
+- [net-hex/CVE-2025-57819](https://github.com/net-hex/CVE-2025-57819)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
@@ -25067,6 +25068,13 @@
 </code>
 
 - [phanthibichtram12/CVE-2022-1565](https://github.com/phanthibichtram12/CVE-2022-1565)
+
+### CVE-2022-1592 (2022-05-05)
+
+<code>Server-Side Request Forgery in scout in GitHub repository clinical-genomics/scout prior to v4.42. An attacker could make the application perform arbitrary requests to fishing steal cookie, request to private area, or lead to xss...
+</code>
+
+- [AdnanApriliyansyahh/CVE-2022-1592](https://github.com/AdnanApriliyansyahh/CVE-2022-1592)
 
 ### CVE-2022-1597 (2022-06-06)
 
@@ -46081,6 +46089,7 @@
 </code>
 
 - [dpgg101/CVE-2019-10945](https://github.com/dpgg101/CVE-2019-10945)
+- [Snizi/CVE-2019-10945](https://github.com/Snizi/CVE-2019-10945)
 
 ### CVE-2019-10999 (2019-05-06)
 
