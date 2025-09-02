@@ -1220,6 +1220,7 @@
 - [hacker-r3volv3r/CVE-2025-7775-PoC](https://github.com/hacker-r3volv3r/CVE-2025-7775-PoC)
 - [Aaqilyousuf/CVE-2025-7775-vulnerable-lab](https://github.com/Aaqilyousuf/CVE-2025-7775-vulnerable-lab)
 - [rxerium/CVE-2025-7775](https://github.com/rxerium/CVE-2025-7775)
+- [mr-r3b00t/CVE-2025-7775](https://github.com/mr-r3b00t/CVE-2025-7775)
 
 ### CVE-2025-7783 (2025-07-18)
 
@@ -1409,6 +1410,13 @@
 </code>
 
 - [kwerty138/Reflected-XSS-in-Vvveb-CMS-v1.0.7.2](https://github.com/kwerty138/Reflected-XSS-in-Vvveb-CMS-v1.0.7.2)
+
+### CVE-2025-9784 (2025-09-02)
+
+<code>A flaw was found in Undertow where malformed client requests can trigger server-side stream resets without triggering abuse counters. This issue, referred to as the &quot;MadeYouReset&quot; attack, allows malicious clients to induce excessive server workload by repeatedly causing server-side stream aborts. While not a protocol bug, this highlights a common implementation weakness that can be exploited to cause a denial of service (DoS).
+</code>
+
+- [drackyjr/CVE-2025-9784](https://github.com/drackyjr/CVE-2025-9784)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -1753,7 +1761,7 @@
 <code>External control of file name or path in Windows NTLM allows an unauthorized attacker to perform spoofing over a network.
 </code>
 
-- [xigney/CVE-2025-24054_PoC](https://github.com/xigney/CVE-2025-24054_PoC)
+- [basekilll/CVE-2025-24054_PoC](https://github.com/basekilll/CVE-2025-24054_PoC)
 - [helidem/CVE-2025-24054_CVE-2025-24071-PoC](https://github.com/helidem/CVE-2025-24054_CVE-2025-24071-PoC)
 - [S4mma3l/CVE-2025-24054](https://github.com/S4mma3l/CVE-2025-24054)
 - [moften/CVE-2025-24054](https://github.com/moften/CVE-2025-24054)
@@ -3891,7 +3899,11 @@
 
 - [binneko/CVE-2025-46041](https://github.com/binneko/CVE-2025-46041)
 
-### CVE-2025-46047
+### CVE-2025-46047 (2025-09-02)
+
+<code>A User enumeration vulnerability in the /CredentialsServlet/ForgotPassword endpoint in Silverpeas 6.4.1 and 6.4.2 allows remote attackers to determine valid usernames via the Login parameter.
+</code>
+
 - [J0ey17/CVE-2025-46047](https://github.com/J0ey17/CVE-2025-46047)
 
 ### CVE-2025-46078 (2025-05-29)
@@ -4499,7 +4511,11 @@
 
 - [kevinpdicks/Mezzanine-CMS-6.1.0-XSS](https://github.com/kevinpdicks/Mezzanine-CMS-6.1.0-XSS)
 
-### CVE-2025-50565
+### CVE-2025-50565 (2025-09-02)
+
+<code>Doubo ERP 1.0 has an SQL injection vulnerability due to a lack of filtering of user input, which can be remotely initiated by an attacker.
+</code>
+
 - [OoO7ce/CVE-2025-50565](https://github.com/OoO7ce/CVE-2025-50565)
 
 ### CVE-2025-50592 (2025-08-05)
@@ -5073,14 +5089,14 @@
 
 ### CVE-2025-55579 (2025-08-29)
 
-<code>SolidInvoice 2.3.7 and fixed in v.2.3.8 is vulnerable to Cross Site Scripting (XSS) in the Tax Rate functionality.
+<code>SolidInvoice version 2.3.7 is vulnerable to a Stored Cross-Site Scripting (XSS) issue in the Tax Rates functionality. The vulnerability is fixed in version 2.3.8.
 </code>
 
 - [ddobrev25/CVE-2025-55579](https://github.com/ddobrev25/CVE-2025-55579)
 
 ### CVE-2025-55580 (2025-08-29)
 
-<code>SolidInvoice 2.3.7 and v.2.3.8 is vulnerable to Cross Site Scripting (XSS) in the client's functionality.
+<code>SolidInvoice version 2.3.7 is vulnerable to a stored cross-site scripting (XSS) issue in the Clients module. An authenticated attacker can inject JavaScript that executes in other users' browsers when the Clients page is viewed. The vulnerability is fixed in version 2.3.8.
 </code>
 
 - [ddobrev25/CVE-2025-55580](https://github.com/ddobrev25/CVE-2025-55580)
@@ -13606,6 +13622,7 @@
 </code>
 
 - [daikinitanda/-CVE-2024-47875-](https://github.com/daikinitanda/-CVE-2024-47875-)
+- [roj1py/CVE-2024-47875-PhpSpreadsheet-XSS-PoC](https://github.com/roj1py/CVE-2024-47875-PhpSpreadsheet-XSS-PoC)
 
 ### CVE-2024-48061 (2024-11-04)
 
@@ -13778,7 +13795,11 @@
 
 - [paragbagul111/CVE-2024-48652](https://github.com/paragbagul111/CVE-2024-48652)
 
-### CVE-2024-48705
+### CVE-2024-48705 (2025-09-02)
+
+<code>Wavlink AC1200 with firmware versions M32A3_V1410_230602 and M32A3_V1410_240222 are vulnerable to a post-authentication command injection while resetting the password. This vulnerability is specifically found within the &quot;set_sys_adm&quot; function of the &quot;adm.cgi&quot; binary, and is due to improper santization of the user provided &quot;newpass&quot; field
+</code>
+
 - [L41KAA/CVE-2024-48705](https://github.com/L41KAA/CVE-2024-48705)
 
 ### CVE-2024-48762
