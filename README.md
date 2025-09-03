@@ -2490,6 +2490,7 @@
 </code>
 
 - [mrk336/CVE-2025-27480-The-Silent-Gateway-Risk](https://github.com/mrk336/CVE-2025-27480-The-Silent-Gateway-Risk)
+- [mrk336/CVE-2025-27480](https://github.com/mrk336/CVE-2025-27480)
 
 ### CVE-2025-27519 (2025-03-07)
 
@@ -5123,6 +5124,9 @@
 </code>
 
 - [krispybyte/CVE-2025-55763](https://github.com/krispybyte/CVE-2025-55763)
+
+### CVE-2025-56435
+- [Jingyi-u/-CVE-2025-56435](https://github.com/Jingyi-u/-CVE-2025-56435)
 
 ### CVE-2025-56608
 - [anonaninda/Aninda-security-advisories](https://github.com/anonaninda/Aninda-security-advisories)
@@ -39019,6 +39023,13 @@
 - [MalwareTech/RDGScanner](https://github.com/MalwareTech/RDGScanner)
 - [Archi73ct/CVE-2020-0609](https://github.com/Archi73ct/CVE-2020-0609)
 - [ioncodes/BlueGate](https://github.com/ioncodes/BlueGate)
+
+### CVE-2020-0610 (2020-01-14)
+
+<code>A remote code execution vulnerability exists in Windows Remote Desktop Gateway (RD Gateway) when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Windows Remote Desktop Gateway (RD Gateway) Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0609.
+</code>
+
+- [ImBIOS/lab-rdg-bluegate](https://github.com/ImBIOS/lab-rdg-bluegate)
 
 ### CVE-2020-0618 (2020-02-11)
 
