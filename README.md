@@ -56,6 +56,13 @@
 - [punitdarji/Ivanti-CVE-2025-0282](https://github.com/punitdarji/Ivanti-CVE-2025-0282)
 - [B1ack4sh/Blackash-CVE-2025-0282](https://github.com/B1ack4sh/Blackash-CVE-2025-0282)
 
+### CVE-2025-0288 (2025-03-03)
+
+<code>Various Paragon Software products contain an arbitrary kernel memory vulnerability within biontdrv.sys, facilitated by the memmove function, which does not validate or sanitize user controlled input, allowing an attacker the ability to write arbitrary kernel memory and perform privilege escalation.
+</code>
+
+- [barhen12/CVE-2025-0288](https://github.com/barhen12/CVE-2025-0288)
+
 ### CVE-2025-0309 (2025-08-14)
 
 <code>An insufficient validation on the server connection endpoint in Netskope Client allows local users to elevate privileges on the system. The insufficient validation allows Netskope Client to connect to any other server with Public Signed CA TLS certificates and send specially crafted responses to elevate privileges.
@@ -308,6 +315,7 @@
 </code>
 
 - [Burak1320demiroz/cve-2025-2082](https://github.com/Burak1320demiroz/cve-2025-2082)
+- [shirabo/cve-2025-2082-POV](https://github.com/shirabo/cve-2025-2082-POV)
 
 ### CVE-2025-2135 (2025-03-10)
 
@@ -839,6 +847,13 @@
 </code>
 
 - [berkley4/icu-74-debian](https://github.com/berkley4/icu-74-debian)
+
+### CVE-2025-5252 (2025-05-27)
+
+<code>In PHPGurukul News Portal Project 4.1 wurde eine Schwachstelle ausgemacht. Sie wurde als kritisch eingestuft. Hierbei betrifft es unbekannten Programmcode der Datei /admin/edit-subadmin.php. Dank der Manipulation des Arguments emailid mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [aydin5245/CVE-2025-5252-CVE-ivanti](https://github.com/aydin5245/CVE-2025-5252-CVE-ivanti)
 
 ### CVE-2025-5287 (2025-05-28)
 
@@ -1427,9 +1442,6 @@
 
 - [drackyjr/CVE-2025-9784](https://github.com/drackyjr/CVE-2025-9784)
 
-### CVE-2025-12654
-- [Maitonnx/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Maitonnx/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
-
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -1548,6 +1560,13 @@
 - [hoefler02/CVE-2025-21756](https://github.com/hoefler02/CVE-2025-21756)
 - [KuanKuanQAQ/cve-testing](https://github.com/KuanKuanQAQ/cve-testing)
 - [khoatran107/cve-2025-21756](https://github.com/khoatran107/cve-2025-21756)
+
+### CVE-2025-22131 (2025-01-20)
+
+<code>PhpSpreadsheet is a PHP library for reading and writing spreadsheet files. Cross-Site Scripting (XSS) vulnerability in the code which translates the XLSX file into a HTML representation and displays it in the response.
+</code>
+
+- [ZzN1NJ4/CVE-2025-22131-PoC](https://github.com/ZzN1NJ4/CVE-2025-22131-PoC)
 
 ### CVE-2025-22223 (2025-03-24)
 
@@ -2558,6 +2577,7 @@
 - [Cythonic1/CVE-2025-27591](https://github.com/Cythonic1/CVE-2025-27591)
 - [umutcamliyurt/CVE-2025-27591](https://github.com/umutcamliyurt/CVE-2025-27591)
 - [danil-koltsov/below-log-race-poc](https://github.com/danil-koltsov/below-log-race-poc)
+- [HOEUN-Visai/CVE-2025-27591-below-](https://github.com/HOEUN-Visai/CVE-2025-27591-below-)
 
 ### CVE-2025-27607 (2025-03-07)
 
@@ -3717,6 +3737,7 @@
 - [h4xnz/CVE-2025-43300-Exploit](https://github.com/h4xnz/CVE-2025-43300-Exploit)
 - [XiaomingX/CVE-2025-43300-exp](https://github.com/XiaomingX/CVE-2025-43300-exp)
 - [hunters-sec/CVE-2025-43300](https://github.com/hunters-sec/CVE-2025-43300)
+- [PwnToday/CVE-2025-43300](https://github.com/PwnToday/CVE-2025-43300)
 
 ### CVE-2025-43864 (2025-04-25)
 
@@ -3893,7 +3914,11 @@
 ### CVE-2025-45781
 - [ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC](https://github.com/ahmetumitbayram/CVE-2025-45781-Kemal-Framework-Path-Traversal-Vulnerability-PoC)
 
-### CVE-2025-45805
+### CVE-2025-45805 (2025-09-03)
+
+<code>In phpgurukul Doctor Appointment Management System 1.0, an authenticated doctor user can inject arbitrary JavaScript code into their profile name. This payload is subsequently rendered without proper sanitization, when a user visits the website and selects the doctor to book an appointment.
+</code>
+
 - [mhsinj/CVE-2025-45805](https://github.com/mhsinj/CVE-2025-45805)
 
 ### CVE-2025-45960 (2025-07-25)
@@ -4883,13 +4908,25 @@
 
 - [pl4tyz/CVE-2025-53652-Jenkins-Git-Parameter-Analysis](https://github.com/pl4tyz/CVE-2025-53652-Jenkins-Git-Parameter-Analysis)
 
-### CVE-2025-53691
+### CVE-2025-53691 (2025-09-03)
+
+<code>Deserialization of Untrusted Data vulnerability in Sitecore Experience Manager (XM), Sitecore Experience Platform (XP) allows Remote Code Execution (RCE).This issue affects Experience Manager (XM): from 9.0 through 9.3, from 10.0 through 10.4; Experience Platform (XP): from 9.0 through 9.3, from 10.0 through 10.4.
+</code>
+
 - [blueisbeautiful/CVE-2025-53691](https://github.com/blueisbeautiful/CVE-2025-53691)
 
-### CVE-2025-53693
+### CVE-2025-53693 (2025-09-03)
+
+<code>Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') vulnerability in Sitecore Sitecore Experience Manager (XM), Sitecore Experience Platform (XP) allows Cache Poisoning.This issue affects Sitecore Experience Manager (XM): from 9.0 through 9.3, from 10.0 through 10.4; Experience Platform (XP): from 9.0 through 9.3, from 10.0 through 10.4.
+</code>
+
 - [blueisbeautiful/CVE-2025-53693](https://github.com/blueisbeautiful/CVE-2025-53693)
 
-### CVE-2025-53694
+### CVE-2025-53694 (2025-09-03)
+
+<code>Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Sitecore Sitecore Experience Manager (XM), Sitecore Experience Platform (XP).This issue affects Sitecore Experience Manager (XM): from 9.2 through 10.4; Experience Platform (XP): from 9.2 through 10.4.
+</code>
+
 - [blueisbeautiful/CVE-2025-53694](https://github.com/blueisbeautiful/CVE-2025-53694)
 - [blueisbeautiful/CVE-2025-53694-to-CVE-2025-53691](https://github.com/blueisbeautiful/CVE-2025-53694-to-CVE-2025-53691)
 
@@ -5090,6 +5127,9 @@
 ### CVE-2025-55349
 - [GoldenTicketLabs/CVE-2025-55349](https://github.com/GoldenTicketLabs/CVE-2025-55349)
 
+### CVE-2025-55555
+- [aydin5245/CVE-2025-55555-CVE](https://github.com/aydin5245/CVE-2025-55555-CVE)
+
 ### CVE-2025-55575 (2025-08-25)
 
 <code>SQL Injection vulnerability in SMM Panel 3.1 allowing remote attackers to gain sensitive information via a crafted HTTP request with action=service_detail.
@@ -5132,13 +5172,28 @@
 
 - [krispybyte/CVE-2025-55763](https://github.com/krispybyte/CVE-2025-55763)
 
-### CVE-2025-56435
+### CVE-2025-55998
+- [Ocmenog/CVE-2025-55998](https://github.com/Ocmenog/CVE-2025-55998)
+
+### CVE-2025-56435 (2025-09-03)
+
+<code>SQL Injection vulnerability in FoxCMS v1.2.6 and before allows a remote attacker to execute arbitrary code via the. file /DataBackup.php and the operation on the parameter id.
+</code>
+
 - [Jingyi-u/-CVE-2025-56435](https://github.com/Jingyi-u/-CVE-2025-56435)
 
-### CVE-2025-56608
+### CVE-2025-56608 (2025-09-03)
+
+<code>The SourceCodester Android application &quot;Corona Virus Tracker App India&quot; 1.0 uses MD5 for digest authentication in `OkHttpClientWrapper.java`. The `handleDigest()` function employs `MessageDigest.getInstance(&quot;MD5&quot;)` to hash credentials. MD5 is a broken cryptographic algorithm known to allow hash collisions. This makes the authentication mechanism vulnerable to replay, spoofing, or brute-force attacks, potentially leading to unauthorized access. The vulnerability corresponds to CWE-327 and aligns with OWASP M5: Insufficient Cryptography and MASVS MSTG-CRYPTO-4.
+</code>
+
 - [anonaninda/Aninda-security-advisories](https://github.com/anonaninda/Aninda-security-advisories)
 
-### CVE-2025-56803
+### CVE-2025-56803 (2025-09-03)
+
+<code>Figma Desktop for Windows version 125.6.5 contains a command injection vulnerability in the local plugin loader. An attacker can execute arbitrary OS commands by setting a crafted build field in the plugin's manifest.json. This field is passed to child_process.exec without validation, leading to possible RCE.
+</code>
+
 - [shinyColumn/CVE-2025-56803](https://github.com/shinyColumn/CVE-2025-56803)
 
 ### CVE-2025-57773 (2025-08-25)
@@ -44691,7 +44746,6 @@
 
 - [StealYourCode/CVE-2019-1663](https://github.com/StealYourCode/CVE-2019-1663)
 - [WolffCorentin/CVE-2019-1663-Binary-Analysis](https://github.com/WolffCorentin/CVE-2019-1663-Binary-Analysis)
-- [ritwickrajmakhal/cisco-rv-test](https://github.com/ritwickrajmakhal/cisco-rv-test)
 
 ### CVE-2019-1698 (2019-02-21)
 
