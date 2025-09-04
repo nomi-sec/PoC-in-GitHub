@@ -3479,6 +3479,13 @@
 
 - [Nxploited/CVE-2025-32682](https://github.com/Nxploited/CVE-2025-32682)
 
+### CVE-2025-32709 (2025-05-13)
+
+<code>Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [AdnanSiyat/How-to-Patch-CVE-2025-32709](https://github.com/AdnanSiyat/How-to-Patch-CVE-2025-32709)
+
 ### CVE-2025-32710 (2025-06-10)
 
 <code>Use after free in Windows Remote Desktop Services allows an unauthorized attacker to execute code over a network.
@@ -4833,6 +4840,9 @@
 
 - [Kov404/CVE-2025-52385](https://github.com/Kov404/CVE-2025-52385)
 
+### CVE-2025-52389
+- [milamrk/CVE-2025-52389](https://github.com/milamrk/CVE-2025-52389)
+
 ### CVE-2025-52392 (2025-08-13)
 
 <code>Soosyze CMS 2.0 allows brute-force login attacks via the /user/login endpoint due to missing rate-limiting and lockout mechanisms. An attacker can repeatedly submit login attempts without restrictions, potentially gaining unauthorized administrative access. This vulnerability corresponds to CWE-307: Improper Restriction of Excessive Authentication Attempts.
@@ -5117,6 +5127,13 @@
 
 - [Eyodav/CVE-2025-54962](https://github.com/Eyodav/CVE-2025-54962)
 
+### CVE-2025-54988 (2025-08-20)
+
+<code>Critical XXE in Apache Tika (tika-parser-pdf-module) in Apache Tika 1.13 through and including 3.2.1 on all platforms allows an attacker to carry out XML External Entity injection via a crafted XFA file inside of a PDF. An attacker may be able to read sensitive data or trigger malicious requests to internal resources or third-party servers. Note that the tika-parser-pdf-module is used as a dependency in several Tika packages including at least: tika-parsers-standard-modules, tika-parsers-standard-package, tika-app, tika-grpc and tika-server-standard.\n\nUsers are recommended to upgrade to version 3.2.2, which fixes this issue.
+</code>
+
+- [mgthuramoemyint/POC-CVE-2025-54988](https://github.com/mgthuramoemyint/POC-CVE-2025-54988)
+
 ### CVE-2025-55188 (2025-08-08)
 
 <code>7-Zip before 25.01 does not always properly handle symbolic links during extraction.
@@ -5221,6 +5238,7 @@
 - [Sucuri-Labs/CVE-2025-57819-ioc-check](https://github.com/Sucuri-Labs/CVE-2025-57819-ioc-check)
 - [blueisbeautiful/CVE-2025-57819](https://github.com/blueisbeautiful/CVE-2025-57819)
 - [net-hex/CVE-2025-57819](https://github.com/net-hex/CVE-2025-57819)
+- [ImBIOS/lab-cve-2025-57819](https://github.com/ImBIOS/lab-cve-2025-57819)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
@@ -53661,6 +53679,7 @@
 - [joelindra/Argus](https://github.com/joelindra/Argus)
 - [K3ysTr0K3R/CVE-2017-9841-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-9841-EXPLOIT)
 - [drcrypterdotru/PHPUnit-GoScan](https://github.com/drcrypterdotru/PHPUnit-GoScan)
+- [Pwdnx1337/CVE-2017-9841](https://github.com/Pwdnx1337/CVE-2017-9841)
 - [Habibullah1101/PHPUnit-GoScan](https://github.com/Habibullah1101/PHPUnit-GoScan)
 
 ### CVE-2017-9934 (2017-07-17)
