@@ -140,6 +140,13 @@
 
 - [r3m0t3nu11/CVE-2025-1015](https://github.com/r3m0t3nu11/CVE-2025-1015)
 
+### CVE-2025-1055 (2025-06-10)
+
+<code>A vulnerability in the K7RKScan.sys driver, part of the K7 Security Anti-Malware suite, allows a local low-privilege user to send crafted IOCTL requests to terminate a wide range of processes running with administrative or system-level privileges, with the exception of those inherently protected by the operating system. This flaw stems from missing access control in the driver's IOCTL handler, enabling unprivileged users to perform privileged actions in kernel space. Successful exploitation can lead to denial of service by disrupting critical services or privileged applications.
+</code>
+
+- [diego-tella/CVE-2025-1055-poc](https://github.com/diego-tella/CVE-2025-1055-poc)
+
 ### CVE-2025-1094 (2025-02-13)
 
 <code>Improper neutralization of quoting syntax in PostgreSQL libpq functions PQescapeLiteral(), PQescapeIdentifier(), PQescapeString(), and PQescapeStringConn() allows a database input provider to achieve SQL injection in certain usage patterns.  Specifically, SQL injection requires the application to use the function result to construct input to psql, the PostgreSQL interactive terminal.  Similarly, improper neutralization of quoting syntax in PostgreSQL command line utility programs allows a source of command line arguments to achieve SQL injection when client_encoding is BIG5 and server_encoding is one of EUC_TW or MULE_INTERNAL.  Versions before PostgreSQL 17.3, 16.7, 15.11, 14.16, and 13.19 are affected.
@@ -1023,7 +1030,11 @@
 
 - [byteReaper77/CVE-2025-6082](https://github.com/byteReaper77/CVE-2025-6082)
 
-### CVE-2025-6085
+### CVE-2025-6085 (2025-09-04)
+
+<code>The Make Connector plugin for WordPress is vulnerable to arbitrary file uploads due to misconfigured file type validation in the 'upload_media' function in all versions up to, and including, 1.5.10. This makes it possible for authenticated attackers, with Administrator-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
 - [d0n601/CVE-2025-6085](https://github.com/d0n601/CVE-2025-6085)
 
 ### CVE-2025-6218 (2025-06-21)
@@ -1878,6 +1889,13 @@
 - [jailbreakdotparty/dirtyZero](https://github.com/jailbreakdotparty/dirtyZero)
 - [GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging](https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging)
 - [pxx917144686/iDevice_ZH](https://github.com/pxx917144686/iDevice_ZH)
+
+### CVE-2025-24204 (2025-03-31)
+
+<code>The issue was addressed with improved checks. This issue is fixed in macOS Sequoia 15.4. An app may be able to access protected user data.
+</code>
+
+- [FFRI/CVE-2025-24204](https://github.com/FFRI/CVE-2025-24204)
 
 ### CVE-2025-24252 (2025-04-29)
 
@@ -3842,10 +3860,6 @@
 </code>
 
 - [IvanT7D3/CVE-2025-44203](https://github.com/IvanT7D3/CVE-2025-44203)
-
-### CVE-2025-44228
-- [Reeadmon/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Reeadmon/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
-- [Reeadmon/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Reeadmon/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
 
 ### CVE-2025-44603
 - [Moulish2004/CVE-2025-44603-CSRF-Leads_to_Create_FakeUsers](https://github.com/Moulish2004/CVE-2025-44603-CSRF-Leads_to_Create_FakeUsers)
@@ -8599,6 +8613,7 @@
 <code>Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
 </code>
 
+- [k4it0k1d/CVE-2024-21182](https://github.com/k4it0k1d/CVE-2024-21182)
 - [kursadalsan/CVE-2024-21182](https://github.com/kursadalsan/CVE-2024-21182)
 
 ### CVE-2024-21305 (2024-01-09)
@@ -15835,8 +15850,8 @@
 </code>
 
 - [hh-hunter/ml-CVE-2023-1177](https://github.com/hh-hunter/ml-CVE-2023-1177)
-- [iumiro/CVE-2023-1177-MLFlow](https://github.com/iumiro/CVE-2023-1177-MLFlow)
 - [SpycioKon/CVE-2023-1177-rebuild](https://github.com/SpycioKon/CVE-2023-1177-rebuild)
+- [alphandbelt1/CVE-2023-1177-MLFlow](https://github.com/alphandbelt1/CVE-2023-1177-MLFlow)
 - [saimahmed/MLflow-Vuln](https://github.com/saimahmed/MLflow-Vuln)
 - [charlesgargasson/CVE-2023-1177](https://github.com/charlesgargasson/CVE-2023-1177)
 - [paultheal1en/CVE-2023-1177-PoC-reproduce](https://github.com/paultheal1en/CVE-2023-1177-PoC-reproduce)
@@ -19724,6 +19739,13 @@
 - [d0rb/CVE-2023-30943](https://github.com/d0rb/CVE-2023-30943)
 - [Chocapikk/CVE-2023-30943](https://github.com/Chocapikk/CVE-2023-30943)
 - [RubyCat1337/CVE-2023-30943](https://github.com/RubyCat1337/CVE-2023-30943)
+
+### CVE-2023-30990 (2023-07-03)
+
+<code>IBM i 7.2, 7.3, 7.4, and 7.5 could allow a remote attacker to execute CL commands as QUSER, caused by an exploitation of DDM architecture.  IBM X-Force ID:  254036.
+</code>
+
+- [silentsignal/CVE-2023-30990](https://github.com/silentsignal/CVE-2023-30990)
 
 ### CVE-2023-31070
 - [bugprove/cve-2023-31070](https://github.com/bugprove/cve-2023-31070)
@@ -32884,7 +32906,6 @@
 - [0dayNinja/CVE-2021-3560](https://github.com/0dayNinja/CVE-2021-3560)
 - [admin-079/CVE-2021-3560](https://github.com/admin-079/CVE-2021-3560)
 - [chenaotian/CVE-2021-3560](https://github.com/chenaotian/CVE-2021-3560)
-- [NeonWhiteRabbit/CVE-2021-3560](https://github.com/NeonWhiteRabbit/CVE-2021-3560)
 - [f4T1H21/CVE-2021-3560-Polkit-DBus](https://github.com/f4T1H21/CVE-2021-3560-Polkit-DBus)
 - [RicterZ/CVE-2021-3560-Authentication-Agent](https://github.com/RicterZ/CVE-2021-3560-Authentication-Agent)
 - [WinMin/CVE-2021-3560](https://github.com/WinMin/CVE-2021-3560)
@@ -33017,7 +33038,6 @@
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [glowbase/PwnKit-CVE-2021-4034](https://github.com/glowbase/PwnKit-CVE-2021-4034)
 - [OXDBXKXO/ez-pwnkit](https://github.com/OXDBXKXO/ez-pwnkit)
-- [G01d3nW01f/CVE-2021-4034](https://github.com/G01d3nW01f/CVE-2021-4034)
 - [drapl0n/pwnKit](https://github.com/drapl0n/pwnKit)
 - [rvizx/CVE-2021-4034](https://github.com/rvizx/CVE-2021-4034)
 - [Joffr3y/Polkit-CVE-2021-4034-HLP](https://github.com/Joffr3y/Polkit-CVE-2021-4034-HLP)
@@ -33091,6 +33111,7 @@
 - [Milad-Rafie/PwnKit-Local-Privilege-Escalation-Vulnerability-Discovered-in-polkit-s-pkexec-CVE-2021-4034](https://github.com/Milad-Rafie/PwnKit-Local-Privilege-Escalation-Vulnerability-Discovered-in-polkit-s-pkexec-CVE-2021-4034)
 - [kali-guru/Pwnkit-CVE-2021-4034](https://github.com/kali-guru/Pwnkit-CVE-2021-4034)
 - [BugVex/Poison-HTB-Report](https://github.com/BugVex/Poison-HTB-Report)
+- [radzek15/Python-Pwnkit-CVE-2021-4034-exploit](https://github.com/radzek15/Python-Pwnkit-CVE-2021-4034-exploit)
 
 ### CVE-2021-4044 (2021-12-14)
 
@@ -33848,6 +33869,7 @@
 - [lukwagoasuman/-home-lukewago-Downloads-CVE-2021-23017-Nginx-1.14](https://github.com/lukwagoasuman/-home-lukewago-Downloads-CVE-2021-23017-Nginx-1.14)
 - [Cybervixy/Vulnerability-Management](https://github.com/Cybervixy/Vulnerability-Management)
 - [moften/CVE-2021-23017](https://github.com/moften/CVE-2021-23017)
+- [6lj/EVIL-CVE-2021-23017-Update-2025](https://github.com/6lj/EVIL-CVE-2021-23017-Update-2025)
 
 ### CVE-2021-23132 (2021-03-04)
 
@@ -44275,7 +44297,6 @@
 - [jaiguptanick/CVE-2019-0232](https://github.com/jaiguptanick/CVE-2019-0232)
 - [xsxtw/CVE-2019-0232](https://github.com/xsxtw/CVE-2019-0232)
 - [Dharan10/CVE-2019-0232](https://github.com/Dharan10/CVE-2019-0232)
-- [iumiro/CVE-2019-0232](https://github.com/iumiro/CVE-2019-0232)
 - [x3m1Sec/CVE-2019-0232_tomcat_cgi_exploit](https://github.com/x3m1Sec/CVE-2019-0232_tomcat_cgi_exploit)
 
 ### CVE-2019-0539 (2019-01-08)
