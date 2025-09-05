@@ -373,6 +373,13 @@
 ### CVE-2025-2404
 - [sahici/CVE-2025-2404](https://github.com/sahici/CVE-2025-2404)
 
+### CVE-2025-2502 (2025-05-30)
+
+<code>An improper default permissions vulnerability was reported in Lenovo PC Manager that could allow a local attacker to elevate privileges.
+</code>
+
+- [IHK-ONE/CVE-2025-2502](https://github.com/IHK-ONE/CVE-2025-2502)
+
 ### CVE-2025-2539 (2025-03-20)
 
 <code>The File Away plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the ajax() function in all versions up to, and including, 3.9.9.0.1. This makes it possible for unauthenticated attackers, leveraging the use of a reversible weak algorithm,  to read the contents of arbitrary files on the server, which can contain sensitive information.
@@ -3487,6 +3494,7 @@
 - [Nowafen/CVE-2025-32463](https://github.com/Nowafen/CVE-2025-32463)
 - [Yuy0ung/CVE-2025-32463_chwoot](https://github.com/Yuy0ung/CVE-2025-32463_chwoot)
 - [hacieda/CVE-2025-32463](https://github.com/hacieda/CVE-2025-32463)
+- [blackcat4347/CVE-2025-32463_PoC](https://github.com/blackcat4347/CVE-2025-32463_PoC)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -4456,6 +4464,13 @@
 
 - [louay-075/CVE-2025-49223-BillboardJS-PoC](https://github.com/louay-075/CVE-2025-49223-BillboardJS-PoC)
 
+### CVE-2025-49388 (2025-08-28)
+
+<code>Incorrect Privilege Assignment vulnerability in kamleshyadav Miraculous Core Plugin allows Privilege Escalation. This issue affects Miraculous Core Plugin: from n/a through 2.0.7.
+</code>
+
+- [Nxploited/CVE-2025-49388](https://github.com/Nxploited/CVE-2025-49388)
+
 ### CVE-2025-49493 (2025-06-30)
 
 <code>Akamai CloudTest before 60 2025.06.02 (12988) allows file inclusion via XML External Entity (XXE) injection.
@@ -5305,6 +5320,9 @@
 
 ### CVE-2025-58440
 - [ph-hitachi/CVE-2025-58440](https://github.com/ph-hitachi/CVE-2025-58440)
+
+### CVE-2025-58780
+- [SexyShoelessGodofWar/CVE-2025-58780](https://github.com/SexyShoelessGodofWar/CVE-2025-58780)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
@@ -27447,7 +27465,7 @@
 <code>A vulnerability in the component process.php of QR Code Generator v5.2.7 allows attackers to perform directory traversal.
 </code>
 
-- [n0lsecurity/CVE-2022-24992](https://github.com/n0lsecurity/CVE-2022-24992)
+- [n0lsec1337/CVE-2022-24992](https://github.com/n0lsec1337/CVE-2022-24992)
 
 ### CVE-2022-24999 (2022-11-26)
 
@@ -27924,7 +27942,6 @@
 </code>
 
 - [scopion/CVE-2022-26629](https://github.com/scopion/CVE-2022-26629)
-- [sysenter-eip/CVE-2022-26629](https://github.com/sysenter-eip/CVE-2022-26629)
 
 ### CVE-2022-26671 (2022-04-07)
 
