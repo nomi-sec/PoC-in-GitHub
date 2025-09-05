@@ -1595,6 +1595,7 @@
 </code>
 
 - [ZzN1NJ4/CVE-2025-22131-PoC](https://github.com/ZzN1NJ4/CVE-2025-22131-PoC)
+- [s0ck37/CVE-2025-22131-POC](https://github.com/s0ck37/CVE-2025-22131-POC)
 
 ### CVE-2025-22223 (2025-03-24)
 
@@ -5270,6 +5271,13 @@
 
 - [shinyColumn/CVE-2025-56803](https://github.com/shinyColumn/CVE-2025-56803)
 
+### CVE-2025-57576 (2025-09-04)
+
+<code>PHPGurukul Online Shopping Portal 2.1 is vulnerable to Cross Site Scripting (XSS) in /admin/updateorder.php.
+</code>
+
+- [p0et08/DWrwq](https://github.com/p0et08/DWrwq)
+
 ### CVE-2025-57773 (2025-08-25)
 
 <code>DataEase is an open source business intelligence and data visualization tool. Prior to version 2.10.12, because DB2 parameters are not filtered, a JNDI injection attack can be directly launched. JNDI triggers an AspectJWeaver deserialization attack, writing to various files. This vulnerability requires commons-collections 4.x and aspectjweaver-1.9.22.jar. The vulnerability has been fixed in version 2.10.12.
@@ -5287,6 +5295,13 @@
 - [blueisbeautiful/CVE-2025-57819](https://github.com/blueisbeautiful/CVE-2025-57819)
 - [net-hex/CVE-2025-57819](https://github.com/net-hex/CVE-2025-57819)
 - [ImBIOS/lab-cve-2025-57819](https://github.com/ImBIOS/lab-cve-2025-57819)
+
+### CVE-2025-57833 (2025-09-03)
+
+<code>An issue was discovered in Django 4.2 before 4.2.24, 5.1 before 5.1.12, and 5.2 before 5.2.6. FilteredRelation is subject to SQL injection in column aliases, using a suitably crafted dictionary, with dictionary expansion, as the **kwargs passed QuerySet.annotate() or QuerySet.alias().
+</code>
+
+- [Mkway/CVE-2025-57833](https://github.com/Mkway/CVE-2025-57833)
 
 ### CVE-2025-58440
 - [ph-hitachi/CVE-2025-58440](https://github.com/ph-hitachi/CVE-2025-58440)
@@ -30625,7 +30640,6 @@
 - [o0MattE0o/CVE-2022-41099-Fix](https://github.com/o0MattE0o/CVE-2022-41099-Fix)
 - [g-gill24/WinRE-Patch](https://github.com/g-gill24/WinRE-Patch)
 - [dsn1321/KB5025175-CVE-2022-41099](https://github.com/dsn1321/KB5025175-CVE-2022-41099)
-- [rhett-hislop/PatchWinRE](https://github.com/rhett-hislop/PatchWinRE)
 
 ### CVE-2022-41114 (2022-11-09)
 
