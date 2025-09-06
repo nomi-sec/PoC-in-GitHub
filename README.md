@@ -6490,7 +6490,7 @@
 - [m0d0ri205/PDFJS](https://github.com/m0d0ri205/PDFJS)
 - [pedrochalegre7/CVE-2024-4367-pdf-sample](https://github.com/pedrochalegre7/CVE-2024-4367-pdf-sample)
 - [exfil0/WEAPONIZING-CVE-2024-4367](https://github.com/exfil0/WEAPONIZING-CVE-2024-4367)
-- [ahmad-kabiri/CVE-2024-4367-PoC](https://github.com/ahmad-kabiri/CVE-2024-4367-PoC)
+- [kabiri-labs/CVE-2024-4367-PoC](https://github.com/kabiri-labs/CVE-2024-4367-PoC)
 - [elamani-drawing/CVE-2024-4367-POC-PDFJS](https://github.com/elamani-drawing/CVE-2024-4367-POC-PDFJS)
 - [VVeakee/CVE-2024-4367](https://github.com/VVeakee/CVE-2024-4367)
 - [BektiHandoyo/cve-pdf-host](https://github.com/BektiHandoyo/cve-pdf-host)
@@ -9143,6 +9143,13 @@
 </code>
 
 - [zunak/CVE-2024-22641](https://github.com/zunak/CVE-2024-22641)
+
+### CVE-2024-22722 (2024-04-11)
+
+<code>Server Side Template Injection (SSTI) vulnerability in Form Tools 3.1.1 allows attackers to run arbitrary commands via the Group Name field under the add forms section of the application.
+</code>
+
+- [terribledactyl/Form-Tools-3.1.1-RCE](https://github.com/terribledactyl/Form-Tools-3.1.1-RCE)
 
 ### CVE-2024-22734 (2024-04-12)
 
@@ -12604,7 +12611,7 @@
 <code>GraphQL Java (aka graphql-java) before 21.5 does not properly consider ExecutableNormalizedFields (ENFs) as part of preventing denial of service via introspection queries. 20.9 and 19.11 are also fixed versions.
 </code>
 
-- [ahmad-kabiri/CVE-2024-40094](https://github.com/ahmad-kabiri/CVE-2024-40094)
+- [kabiri-labs/CVE-2024-40094](https://github.com/kabiri-labs/CVE-2024-40094)
 
 ### CVE-2024-40110 (2024-07-12)
 
@@ -37176,6 +37183,7 @@
 - [dream434/cve-2021-42013-apache](https://github.com/dream434/cve-2021-42013-apache)
 - [bananoname/cve-2021-42013](https://github.com/bananoname/cve-2021-42013)
 - [asepsaepdin/CVE-2021-42013](https://github.com/asepsaepdin/CVE-2021-42013)
+- [Makavellik/POC-CVE-2021-42013-EXPLOIT](https://github.com/Makavellik/POC-CVE-2021-42013-EXPLOIT)
 
 ### CVE-2021-42056 (2022-06-24)
 
@@ -38508,13 +38516,6 @@
 
 - [nanopathi/external_expat_AOSP10_r33_CVE-2021-45960](https://github.com/nanopathi/external_expat_AOSP10_r33_CVE-2021-45960)
 - [Trinadh465/external_lib_AOSP10_r33_CVE-2021-45960_CVE-2021-46143-](https://github.com/Trinadh465/external_lib_AOSP10_r33_CVE-2021-45960_CVE-2021-46143-)
-
-### CVE-2021-46005 (2022-01-18)
-
-<code>Sourcecodester Car Rental Management System 1.0 is vulnerable to Cross Site Scripting (XSS) via vehicalorcview parameter.
-</code>
-
-- [nawed20002/CVE-2021-46005](https://github.com/nawed20002/CVE-2021-46005)
 
 ### CVE-2021-46067 (2022-01-06)
 
