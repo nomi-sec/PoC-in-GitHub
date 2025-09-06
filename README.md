@@ -1920,6 +1920,7 @@
 
 - [FFRI/CVE-2025-24204](https://github.com/FFRI/CVE-2025-24204)
 - [34306/decrypted](https://github.com/34306/decrypted)
+- [bale170501/decrypted](https://github.com/bale170501/decrypted)
 
 ### CVE-2025-24252 (2025-04-29)
 
@@ -10542,6 +10543,7 @@
 - [releaseown/exploit-js2py](https://github.com/releaseown/exploit-js2py)
 - [harutomo-jp/CVE-2024-28397-RCE](https://github.com/harutomo-jp/CVE-2024-28397-RCE)
 - [Naved124/CVE-2024-28397-js2py-Sandbox-Escape](https://github.com/Naved124/CVE-2024-28397-js2py-Sandbox-Escape)
+- [ExtremeUday/Remote-Code-Execution-CVE-2024-28397-pyload-ng-js2py-](https://github.com/ExtremeUday/Remote-Code-Execution-CVE-2024-28397-pyload-ng-js2py-)
 
 ### CVE-2024-28515 (2024-04-03)
 
@@ -31185,6 +31187,7 @@
 </code>
 
 - [shoucheng3/ff4j__ff4j_CVE-2022-44262_1-8-13](https://github.com/shoucheng3/ff4j__ff4j_CVE-2022-44262_1-8-13)
+- [shoucheng3/ff4j__ff4j_CVE-2022-44262_1_8_13_fixed](https://github.com/shoucheng3/ff4j__ff4j_CVE-2022-44262_1_8_13_fixed)
 
 ### CVE-2022-44268 (2023-02-06)
 
@@ -40784,6 +40787,7 @@
 </code>
 
 - [shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9-0-1](https://github.com/shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9-0-1)
+- [shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9_0_2_fixed](https://github.com/shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9_0_2_fixed)
 
 ### CVE-2020-8597 (2020-02-03)
 
@@ -46197,6 +46201,7 @@
 </code>
 
 - [shoucheng3/apache__jspwiki_CVE-2019-10078_2-11-0-M3](https://github.com/shoucheng3/apache__jspwiki_CVE-2019-10078_2-11-0-M3)
+- [shoucheng3/apache__jspwiki_CVE-2019-10078_2_11_0_M4_fixed](https://github.com/shoucheng3/apache__jspwiki_CVE-2019-10078_2_11_0_M4_fixed)
 
 ### CVE-2019-10086 (2019-08-20)
 
@@ -52921,6 +52926,7 @@
 - [QHxDr-dz/CVE-2017-5638](https://github.com/QHxDr-dz/CVE-2017-5638)
 - [joidiego/Detection-struts-cve-2017-5638-detector](https://github.com/joidiego/Detection-struts-cve-2017-5638-detector)
 - [iampetru/PoC-CVE-2017-5638](https://github.com/iampetru/PoC-CVE-2017-5638)
+- [MuhammadAbdullah192/CVE-2017-5638-Remote-Code-Execution-Apache-Struts2-EXPLOITATION](https://github.com/MuhammadAbdullah192/CVE-2017-5638-Remote-Code-Execution-Apache-Struts2-EXPLOITATION)
 
 ### CVE-2017-5645 (2017-04-17)
 
