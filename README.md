@@ -5322,6 +5322,9 @@
 ### CVE-2025-58440
 - [ph-hitachi/CVE-2025-58440](https://github.com/ph-hitachi/CVE-2025-58440)
 
+### CVE-2025-58443
+- [casp3r0x0/CVE-2025-58443](https://github.com/casp3r0x0/CVE-2025-58443)
+
 ### CVE-2025-58780 (2025-09-05)
 
 <code>index.em7 in ScienceLogic SL1 before 12.1.1 allows SQL Injection via a parameter in a request.
@@ -23652,6 +23655,7 @@
 - [hunntr/CVE-2023-46818](https://github.com/hunntr/CVE-2023-46818)
 - [SyFi/CVE-2023-46818](https://github.com/SyFi/CVE-2023-46818)
 - [vulnerk0/CVE-2023-46818](https://github.com/vulnerk0/CVE-2023-46818)
+- [zs1n/CVE-2023-46818](https://github.com/zs1n/CVE-2023-46818)
 
 ### CVE-2023-46865 (2023-10-30)
 
@@ -58398,6 +58402,7 @@
 - [malaya-m/cve-2013-3900-remediation-report](https://github.com/malaya-m/cve-2013-3900-remediation-report)
 - [Sabecomoeh/CVE-2013-3900](https://github.com/Sabecomoeh/CVE-2013-3900)
 - [PREN0MEN/CVE-2013-3900-PowerShell-PoC](https://github.com/PREN0MEN/CVE-2013-3900-PowerShell-PoC)
+- [oukridrig772/-WinVerifyTrust-Signature-Validation-CVE-2013-3900-Mitigation](https://github.com/oukridrig772/-WinVerifyTrust-Signature-Validation-CVE-2013-3900-Mitigation)
 
 ### CVE-2013-4002 (2013-07-23)
 
