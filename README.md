@@ -1774,6 +1774,7 @@
 - [jpts/cve-2025-23266-poc](https://github.com/jpts/cve-2025-23266-poc)
 - [r0binak/CVE-2025-23266](https://github.com/r0binak/CVE-2025-23266)
 - [Mindasy/cve-2025-23266-migration-bypass](https://github.com/Mindasy/cve-2025-23266-migration-bypass)
+- [mrk336/CVE-2025-23266](https://github.com/mrk336/CVE-2025-23266)
 
 ### CVE-2025-23369 (2025-01-21)
 
@@ -4999,6 +5000,7 @@
 
 - [rxerium/CVE-2025-53690](https://github.com/rxerium/CVE-2025-53690)
 - [B1ack4sh/Blackash-CVE-2025-53690](https://github.com/B1ack4sh/Blackash-CVE-2025-53690)
+- [m0d0ri205/CVE-2025-53690-Analysis](https://github.com/m0d0ri205/CVE-2025-53690-Analysis)
 
 ### CVE-2025-53691 (2025-09-03)
 
