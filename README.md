@@ -107,6 +107,7 @@
 - [cesarbtakeda/7-Zip-CVE-2025-0411-POC](https://github.com/cesarbtakeda/7-Zip-CVE-2025-0411-POC)
 - [dpextreme/7-Zip-CVE-2025-0411-POC](https://github.com/dpextreme/7-Zip-CVE-2025-0411-POC)
 - [betulssahin/CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass](https://github.com/betulssahin/CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass)
+- [RustMacrosRecoil/7-Zip-CVE-2025-0411-POC](https://github.com/RustMacrosRecoil/7-Zip-CVE-2025-0411-POC)
 - [B1ack4sh/Blackash-CVE-2025-0411](https://github.com/B1ack4sh/Blackash-CVE-2025-0411)
 
 ### CVE-2025-0851 (2025-01-29)
@@ -1337,6 +1338,7 @@
 - [kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition](https://github.com/kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition)
 - [walidpyh/CVE-2025-8088](https://github.com/walidpyh/CVE-2025-8088)
 - [hexsecteam/CVE-2025-8088-Winrar-Tool](https://github.com/hexsecteam/CVE-2025-8088-Winrar-Tool)
+- [cozythrill/CVE-2025-8088](https://github.com/cozythrill/CVE-2025-8088)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -1476,6 +1478,13 @@
 </code>
 
 - [drackyjr/CVE-2025-9784](https://github.com/drackyjr/CVE-2025-9784)
+
+### CVE-2025-10046 (2025-09-06)
+
+<code>The ELEX WooCommerce Google Shopping (Google Product Feed) plugin for WordPress is vulnerable to SQL Injection via the 'file_to_delete' parameter in all versions up to, and including, 1.4.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [byteReaper77/CVE-2025-10046](https://github.com/byteReaper77/CVE-2025-10046)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -3599,6 +3608,7 @@
 - [mverschu/CVE-2025-33073](https://github.com/mverschu/CVE-2025-33073)
 - [obscura-cert/CVE-2025-33073](https://github.com/obscura-cert/CVE-2025-33073)
 - [matejsmycka/CVE-2025-33073-checker](https://github.com/matejsmycka/CVE-2025-33073-checker)
+- [cve-2025-33073/cve-2025-33073](https://github.com/cve-2025-33073/cve-2025-33073)
 
 ### CVE-2025-34028 (2025-04-22)
 
@@ -4893,6 +4903,7 @@
 
 ### CVE-2025-52389
 - [milamrk/CVE-2025-52389](https://github.com/milamrk/CVE-2025-52389)
+- [ktr4ck3r/CVE-2025-52389](https://github.com/ktr4ck3r/CVE-2025-52389)
 
 ### CVE-2025-52392 (2025-08-13)
 
@@ -4935,6 +4946,9 @@
 </code>
 
 - [rxerium/CVE-2025-52914](https://github.com/rxerium/CVE-2025-52914)
+
+### CVE-2025-52915
+- [BlackSnufkin/BYOVD](https://github.com/BlackSnufkin/BYOVD)
 
 ### CVE-2025-52970 (2025-08-12)
 
@@ -5106,6 +5120,7 @@
 - [issamjr/CVE-2025-54309-EXPLOIT](https://github.com/issamjr/CVE-2025-54309-EXPLOIT)
 - [watchtowrlabs/watchTowr-vs-CrushFTP-Authentication-Bypass-CVE-2025-54309](https://github.com/watchtowrlabs/watchTowr-vs-CrushFTP-Authentication-Bypass-CVE-2025-54309)
 - [blueisbeautiful/CVE-2025-54309](https://github.com/blueisbeautiful/CVE-2025-54309)
+- [whisperer1290/CVE-2025-54309__Enhanced_exploit](https://github.com/whisperer1290/CVE-2025-54309__Enhanced_exploit)
 
 ### CVE-2025-54313 (2025-07-19)
 
@@ -5324,7 +5339,11 @@
 ### CVE-2025-58440
 - [ph-hitachi/CVE-2025-58440](https://github.com/ph-hitachi/CVE-2025-58440)
 
-### CVE-2025-58443
+### CVE-2025-58443 (2025-09-06)
+
+<code>FOG is a free open-source cloning/imaging/rescue suite/inventory management system. Versions 1.5.10.1673 and below contain an authentication bypass vulnerability. It is possible for an attacker to perform an unauthenticated DB dump where they could pull a full SQL DB without credentials. A fix is expected to be released 9/15/2025. To address this vulnerability immediately, upgrade to the latest version of either the dev-branch or working-1.6 branch. This will patch the issue for users concerned about immediate exposure. See the FOG Project documentation for step-by-step upgrade instructions: https://docs.fogproject.org/en/latest/install-fog-server#choosing-a-fog-version.
+</code>
+
 - [casp3r0x0/CVE-2025-58443](https://github.com/casp3r0x0/CVE-2025-58443)
 
 ### CVE-2025-58780 (2025-09-05)
@@ -6604,7 +6623,7 @@
 - [ibrahmsql/CVE-2024-4577](https://github.com/ibrahmsql/CVE-2024-4577)
 - [byteReaper77/CVE-2024-4577](https://github.com/byteReaper77/CVE-2024-4577)
 - [r0otk3r/CVE-2024-4577](https://github.com/r0otk3r/CVE-2024-4577)
-- [ZeroMemoryEx/PHP-CGI-INTERNAL-RCE](https://github.com/ZeroMemoryEx/PHP-CGI-INTERNAL-RCE)
+- [mananjain61/PHP-CGI-INTERNAL-RCE](https://github.com/mananjain61/PHP-CGI-INTERNAL-RCE)
 - [Skycritch/CVE-2024-4577](https://github.com/Skycritch/CVE-2024-4577)
 - [CirqueiraDev/MassExploit-CVE-2024-4577](https://github.com/CirqueiraDev/MassExploit-CVE-2024-4577)
 - [Ianthinus/CVE-2024-4577](https://github.com/Ianthinus/CVE-2024-4577)
