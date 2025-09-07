@@ -1255,6 +1255,7 @@
 
 - [Yuri08loveElaina/CVE-2025-7771](https://github.com/Yuri08loveElaina/CVE-2025-7771)
 - [U65535F/ThrottleStopPoC](https://github.com/U65535F/ThrottleStopPoC)
+- [Demoo1337/ThrottleStop](https://github.com/Demoo1337/ThrottleStop)
 
 ### CVE-2025-7775 (2025-08-26)
 
@@ -3809,6 +3810,7 @@
 - [XiaomingX/CVE-2025-43300-exp](https://github.com/XiaomingX/CVE-2025-43300-exp)
 - [hunters-sec/CVE-2025-43300](https://github.com/hunters-sec/CVE-2025-43300)
 - [PwnToday/CVE-2025-43300](https://github.com/PwnToday/CVE-2025-43300)
+- [PwnToday/CVE-2025-43300-1day](https://github.com/PwnToday/CVE-2025-43300-1day)
 
 ### CVE-2025-43864 (2025-04-25)
 
@@ -4270,6 +4272,7 @@
 - [blindma1den/CVE-2025-47812](https://github.com/blindma1den/CVE-2025-47812)
 - [B1ack4sh/Blackash-CVE-2025-47812](https://github.com/B1ack4sh/Blackash-CVE-2025-47812)
 - [r0otk3r/CVE-2025-47812](https://github.com/r0otk3r/CVE-2025-47812)
+- [CTY-Research-1/CVE-2025-47812_Lab_environment](https://github.com/CTY-Research-1/CVE-2025-47812_Lab_environment)
 
 ### CVE-2025-47827 (2025-06-05)
 
@@ -5902,7 +5905,6 @@
 - [HussainFathy/CVE-2024-1709](https://github.com/HussainFathy/CVE-2024-1709)
 - [sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass](https://github.com/sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass)
 - [cjybao/CVE-2024-1709-and-CVE-2024-1708](https://github.com/cjybao/CVE-2024-1709-and-CVE-2024-1708)
-- [AhmedMansour93/Event-ID-229-Rule-Name-SOC262-CVE-2024-1709-](https://github.com/AhmedMansour93/Event-ID-229-Rule-Name-SOC262-CVE-2024-1709-)
 - [AMRICHASFUCK/Mass-CVE-2024-1709](https://github.com/AMRICHASFUCK/Mass-CVE-2024-1709)
 
 ### CVE-2024-1728 (2024-04-10)
@@ -6607,7 +6609,6 @@
 - [bughuntar/CVE-2024-4577](https://github.com/bughuntar/CVE-2024-4577)
 - [gh-ost00/CVE-2024-4577-RCE](https://github.com/gh-ost00/CVE-2024-4577-RCE)
 - [ywChen-NTUST/PHP-CGI-RCE-Scanner](https://github.com/ywChen-NTUST/PHP-CGI-RCE-Scanner)
-- [AhmedMansour93/Event-ID-268-Rule-Name-SOC292-Possible-PHP-Injection-Detected-CVE-2024-4577-](https://github.com/AhmedMansour93/Event-ID-268-Rule-Name-SOC292-Possible-PHP-Injection-Detected-CVE-2024-4577-)
 - [phirojshah/CVE-2024-4577](https://github.com/phirojshah/CVE-2024-4577)
 - [JeninSutradhar/CVE-2024-4577-checker](https://github.com/JeninSutradhar/CVE-2024-4577-checker)
 - [longhoangth18/CVE-2024-4577](https://github.com/longhoangth18/CVE-2024-4577)
@@ -9878,7 +9879,6 @@
 - [H3KEY/CVE-2024-24919](https://github.com/H3KEY/CVE-2024-24919)
 - [Jutrm/cve-2024-24919](https://github.com/Jutrm/cve-2024-24919)
 - [LuisMateo1/Arbitrary-File-Read-CVE-2024-24919](https://github.com/LuisMateo1/Arbitrary-File-Read-CVE-2024-24919)
-- [AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-](https://github.com/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-)
 - [geniuszly/CVE-2024-24919](https://github.com/geniuszly/CVE-2024-24919)
 - [zxcod3/CVE-2024-24919](https://github.com/zxcod3/CVE-2024-24919)
 - [sar-3mar/CVE-2024-24919_POC](https://github.com/sar-3mar/CVE-2024-24919_POC)
@@ -17554,7 +17554,6 @@
 - [Vulnmachines/Cisco_CVE-2023-20198](https://github.com/Vulnmachines/Cisco_CVE-2023-20198)
 - [W01fh4cker/CVE-2023-20198-RCE](https://github.com/W01fh4cker/CVE-2023-20198-RCE)
 - [sanan2004/CVE-2023-20198](https://github.com/sanan2004/CVE-2023-20198)
-- [AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-](https://github.com/AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-)
 - [XiaomingX/cve-2023-20198-poc](https://github.com/XiaomingX/cve-2023-20198-poc)
 - [G4sul1n/Cisco-IOS-XE-CVE-2023-20198](https://github.com/G4sul1n/Cisco-IOS-XE-CVE-2023-20198)
 - [Arshit01/CVE-2023-20198](https://github.com/Arshit01/CVE-2023-20198)
@@ -19483,7 +19482,6 @@
 - [KeyStrOke95/CVE-2023-29357-ExE](https://github.com/KeyStrOke95/CVE-2023-29357-ExE)
 - [Guillaume-Risch/cve-2023-29357-Sharepoint](https://github.com/Guillaume-Risch/cve-2023-29357-Sharepoint)
 - [Jev1337/CVE-2023-29357-Check](https://github.com/Jev1337/CVE-2023-29357-Check)
-- [AhmedMansour93/Event-ID-189-Rule-Name-SOC227-CVE-2023-29357](https://github.com/AhmedMansour93/Event-ID-189-Rule-Name-SOC227-CVE-2023-29357)
 - [DeividasTerechovas/SOC227-Microsoft-SharePoint-Server-Elevation-of-Privilege-Possible-CVE-2023-29357-Exploitation](https://github.com/DeividasTerechovas/SOC227-Microsoft-SharePoint-Server-Elevation-of-Privilege-Possible-CVE-2023-29357-Exploitation)
 
 ### CVE-2023-29360 (2023-06-13)
@@ -24596,7 +24594,6 @@
 - [ImuSpirit/CVE-2023-51467-Exploit](https://github.com/ImuSpirit/CVE-2023-51467-Exploit)
 - [vulncheck-oss/cve-2023-51467](https://github.com/vulncheck-oss/cve-2023-51467)
 - [jakeotte/BadBizness-CVE-2023-51467](https://github.com/jakeotte/BadBizness-CVE-2023-51467)
-- [AhmedMansour93/Event-ID-217-Rule-Name-SOC254-Apache-OFBiz-Auth-Bypass-and-Code-Injection-0Day-CVE-2023-51467-](https://github.com/AhmedMansour93/Event-ID-217-Rule-Name-SOC254-Apache-OFBiz-Auth-Bypass-and-Code-Injection-0Day-CVE-2023-51467-)
 
 ### CVE-2023-51504 (2024-02-05)
 
@@ -38272,7 +38269,6 @@
 - [OtisSymbos/CVE-2021-44228-Log4Shell-](https://github.com/OtisSymbos/CVE-2021-44228-Log4Shell-)
 - [safeer-accuknox/log4j-shell-poc](https://github.com/safeer-accuknox/log4j-shell-poc)
 - [Carlos-Mesquita/TPASLog4ShellPoC](https://github.com/Carlos-Mesquita/TPASLog4ShellPoC)
-- [AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-](https://github.com/AhmedMansour93/-Unveiling-the-Lessons-from-Log4Shell-A-Wake-Up-Call-for-Cybersecurity-)
 - [Super-Binary/cve-2021-44228](https://github.com/Super-Binary/cve-2021-44228)
 - [ZacharyZcR/CVE-2021-44228](https://github.com/ZacharyZcR/CVE-2021-44228)
 - [qw3rtyou/CVE-2021-44228_dockernize](https://github.com/qw3rtyou/CVE-2021-44228_dockernize)
@@ -38546,6 +38542,13 @@
 
 - [nanopathi/external_expat_AOSP10_r33_CVE-2021-45960](https://github.com/nanopathi/external_expat_AOSP10_r33_CVE-2021-45960)
 - [Trinadh465/external_lib_AOSP10_r33_CVE-2021-45960_CVE-2021-46143-](https://github.com/Trinadh465/external_lib_AOSP10_r33_CVE-2021-45960_CVE-2021-46143-)
+
+### CVE-2021-46005 (2022-01-18)
+
+<code>Sourcecodester Car Rental Management System 1.0 is vulnerable to Cross Site Scripting (XSS) via vehicalorcview parameter.
+</code>
+
+- [nawed20002/CVE-2021-46005](https://github.com/nawed20002/CVE-2021-46005)
 
 ### CVE-2021-46067 (2022-01-06)
 
@@ -45984,6 +45987,7 @@
 - [kaizoku73/CVE-2019-9053](https://github.com/kaizoku73/CVE-2019-9053)
 - [Hackheart-tech/-exploit-lab](https://github.com/Hackheart-tech/-exploit-lab)
 - [Kalidas-7/CVE-2019-9053](https://github.com/Kalidas-7/CVE-2019-9053)
+- [noob-hacker572/CMS-Made-Simple-2.2.9-CVE-2019-9053](https://github.com/noob-hacker572/CMS-Made-Simple-2.2.9-CVE-2019-9053)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
