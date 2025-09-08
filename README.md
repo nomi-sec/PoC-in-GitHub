@@ -1559,6 +1559,7 @@
 - [MrAle98/CVE-2025-21333-POC](https://github.com/MrAle98/CVE-2025-21333-POC)
 - [aleongx/KQL_sentinel_CVE-2025-21333](https://github.com/aleongx/KQL_sentinel_CVE-2025-21333)
 - [B1ack4sh/Blackash-CVE-2025-21333](https://github.com/B1ack4sh/Blackash-CVE-2025-21333)
+- [pradip022/CVE-2025-21333-POC](https://github.com/pradip022/CVE-2025-21333-POC)
 
 ### CVE-2025-21385 (2025-01-09)
 
@@ -11933,9 +11934,9 @@
 - [punitdarji/GeoServer-CVE-2024-36401](https://github.com/punitdarji/GeoServer-CVE-2024-36401)
 - [netuseradministrator/CVE-2024-36401](https://github.com/netuseradministrator/CVE-2024-36401)
 - [kkhackz0013/CVE-2024-36401](https://github.com/kkhackz0013/CVE-2024-36401)
-- [thestar0/CVE-2024-36401-WoodpeckerPlugin](https://github.com/thestar0/CVE-2024-36401-WoodpeckerPlugin)
 - [XiaomingX/cve-2024-36401-poc](https://github.com/XiaomingX/cve-2024-36401-poc)
 - [0x0d3ad/CVE-2024-36401](https://github.com/0x0d3ad/CVE-2024-36401)
+- [funnyDog896/CVE-2024-36401-WoodpeckerPlugin](https://github.com/funnyDog896/CVE-2024-36401-WoodpeckerPlugin)
 - [whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit)
 - [bmth666/GeoServer-Tools-CVE-2024-36401](https://github.com/bmth666/GeoServer-Tools-CVE-2024-36401)
 - [amoy6228/CVE-2024-36401_Geoserver_RCE_POC](https://github.com/amoy6228/CVE-2024-36401_Geoserver_RCE_POC)
@@ -18769,7 +18770,7 @@
 - [bde574786/Sequelize-1day-CVE-2023-25813](https://github.com/bde574786/Sequelize-1day-CVE-2023-25813)
 - [White-BAO/CVE-2023-25813](https://github.com/White-BAO/CVE-2023-25813)
 - [pbj2647/CVE-2023-25813](https://github.com/pbj2647/CVE-2023-25813)
-- [wxuycea/CVE-2023-25813](https://github.com/wxuycea/CVE-2023-25813)
+- [numbbvi/CVE-2023-25813](https://github.com/numbbvi/CVE-2023-25813)
 - [sea-middle/cve-2023-25813](https://github.com/sea-middle/cve-2023-25813)
 
 ### CVE-2023-25950 (2023-04-11)
@@ -33597,6 +33598,13 @@
 - [IlanDudnik/CVE-2021-21551](https://github.com/IlanDudnik/CVE-2021-21551)
 - [luke0x90/CVE-2021-21551](https://github.com/luke0x90/CVE-2021-21551)
 
+### CVE-2021-21707 (2021-11-29)
+
+<code>In PHP versions 7.3.x below 7.3.33, 7.4.x below 7.4.26 and 8.0.x below 8.0.13, certain XML parsing functions, like simplexml_load_file(), URL-decode the filename passed to them. If that filename contains URL-encoded NUL character, this may cause the function to interpret this as the end of the filename, thus interpreting the filename differently from what the user intended, which may lead it to reading a different file than intended.
+</code>
+
+- [useru1k/php-8.1.0-dev-exploit](https://github.com/useru1k/php-8.1.0-dev-exploit)
+
 ### CVE-2021-21716
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
 
@@ -38553,13 +38561,6 @@
 
 - [nanopathi/external_expat_AOSP10_r33_CVE-2021-45960](https://github.com/nanopathi/external_expat_AOSP10_r33_CVE-2021-45960)
 - [Trinadh465/external_lib_AOSP10_r33_CVE-2021-45960_CVE-2021-46143-](https://github.com/Trinadh465/external_lib_AOSP10_r33_CVE-2021-45960_CVE-2021-46143-)
-
-### CVE-2021-46005 (2022-01-18)
-
-<code>Sourcecodester Car Rental Management System 1.0 is vulnerable to Cross Site Scripting (XSS) via vehicalorcview parameter.
-</code>
-
-- [nawed20002/CVE-2021-46005](https://github.com/nawed20002/CVE-2021-46005)
 
 ### CVE-2021-46067 (2022-01-06)
 
