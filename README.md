@@ -4960,6 +4960,7 @@
 </code>
 
 - [Hex00-0x4/FortiWeb-CVE-2025-52970-Authentication-Bypass](https://github.com/Hex00-0x4/FortiWeb-CVE-2025-52970-Authentication-Bypass)
+- [34zY/CVE-2025-52970](https://github.com/34zY/CVE-2025-52970)
 
 ### CVE-2025-53367 (2025-07-03)
 
@@ -5078,6 +5079,7 @@
 </code>
 
 - [Momollax/CVE-2025-53772-IIS-WebDeploy-RCE](https://github.com/Momollax/CVE-2025-53772-IIS-WebDeploy-RCE)
+- [fortihack/CVE-2025-53772](https://github.com/fortihack/CVE-2025-53772)
 
 ### CVE-2025-53773 (2025-08-12)
 
