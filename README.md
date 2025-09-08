@@ -5209,6 +5209,13 @@
 
 - [shinigami-777/PoC_CVE-2025-54887](https://github.com/shinigami-777/PoC_CVE-2025-54887)
 
+### CVE-2025-54914 (2025-09-04)
+
+<code>Azure Networking Elevation of Privilege Vulnerability
+</code>
+
+- [mrk336/Azure-Networking-Privilege-Escalation-Exploit-CVE-2025-54914](https://github.com/mrk336/Azure-Networking-Privilege-Escalation-Exploit-CVE-2025-54914)
+
 ### CVE-2025-54962 (2025-08-04)
 
 <code>/edit-user in webserver in OpenPLC Runtime 3 through 9cd8f1b allows authenticated users to upload arbitrary files (such as .html or .svg), and these are then publicly accessible under the /static URI.
@@ -7896,6 +7903,7 @@
 - [filipzag/CVE-2024-10220](https://github.com/filipzag/CVE-2024-10220)
 - [candranapits/poc-CVE-2024-10220](https://github.com/candranapits/poc-CVE-2024-10220)
 - [orgC/CVE-2024-10220-demo](https://github.com/orgC/CVE-2024-10220-demo)
+- [mrk336/CVE-2024-10220-Kubernetes-gitRepo-Volume-Vulnerability](https://github.com/mrk336/CVE-2024-10220-Kubernetes-gitRepo-Volume-Vulnerability)
 
 ### CVE-2024-10245 (2024-11-12)
 
@@ -24627,6 +24635,7 @@
 </code>
 
 - [shoucheng3/apache__dolphinscheduler_CVE-2023-51770_3-2-0](https://github.com/shoucheng3/apache__dolphinscheduler_CVE-2023-51770_3-2-0)
+- [shoucheng3/apache__dolphinscheduler_CVE-2023-51770_3_2_1_fixed](https://github.com/shoucheng3/apache__dolphinscheduler_CVE-2023-51770_3_2_1_fixed)
 
 ### CVE-2023-51800 (2024-02-29)
 
