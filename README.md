@@ -4342,12 +4342,11 @@
 - [replicatorbot/CVE-2025-48384](https://github.com/replicatorbot/CVE-2025-48384)
 - [replicatorbot/CVE-2025-48384-POC](https://github.com/replicatorbot/CVE-2025-48384-POC)
 - [eliox01/CVE-2025-48384](https://github.com/eliox01/CVE-2025-48384)
-- [wzx5002/CVE-2025-48384](https://github.com/wzx5002/CVE-2025-48384)
-- [wzx5002/totallynotsuspicious](https://github.com/wzx5002/totallynotsuspicious)
 - [jacobholtz/CVE-2025-48384-poc](https://github.com/jacobholtz/CVE-2025-48384-poc)
 - [jacobholtz/CVE-2025-48384-submodule](https://github.com/jacobholtz/CVE-2025-48384-submodule)
 - [butyraldehyde/CVE-2025-48384-PoC-Part2](https://github.com/butyraldehyde/CVE-2025-48384-PoC-Part2)
 - [arun1033/CVE-2025-48384](https://github.com/arun1033/CVE-2025-48384)
+- [EdwardYeIntrix/CVE-2025-48384-Scanner](https://github.com/EdwardYeIntrix/CVE-2025-48384-Scanner)
 
 ### CVE-2025-48461 (2025-06-24)
 
