@@ -3447,6 +3447,7 @@
 - [te0rwx/CVE-2025-32433-Detection](https://github.com/te0rwx/CVE-2025-32433-Detection)
 - [Mdusmandasthaheer/CVE-2025-32433](https://github.com/Mdusmandasthaheer/CVE-2025-32433)
 - [dollarboysushil/CVE-2025-32433-Erlang-OTP-SSH-Unauthenticated-RCE](https://github.com/dollarboysushil/CVE-2025-32433-Erlang-OTP-SSH-Unauthenticated-RCE)
+- [scandijamjam1/CVE-2025-32433](https://github.com/scandijamjam1/CVE-2025-32433)
 
 ### CVE-2025-32462 (2025-06-30)
 
@@ -3818,6 +3819,7 @@
 </code>
 
 - [callinston/CVE-2025-42957](https://github.com/callinston/CVE-2025-42957)
+- [mrk336/CVE-2025-42957-SAP-S-4HANA-Under-Siege](https://github.com/mrk336/CVE-2025-42957-SAP-S-4HANA-Under-Siege)
 
 ### CVE-2025-43300 (2025-08-21)
 
@@ -4456,6 +4458,7 @@
 - [Zwique/CVE-2025-49113](https://github.com/Zwique/CVE-2025-49113)
 - [AC8999/CVE-2025-49113](https://github.com/AC8999/CVE-2025-49113)
 - [LeakForge/CVE-2025-49113](https://github.com/LeakForge/CVE-2025-49113)
+- [Zuack55/Roundcube-1.6.10-Post-Auth-RCE-CVE-2025-49113-](https://github.com/Zuack55/Roundcube-1.6.10-Post-Auth-RCE-CVE-2025-49113-)
 
 ### CVE-2025-49125 (2025-06-16)
 
@@ -5331,6 +5334,9 @@
 
 - [Jingyi-u/-CVE-2025-56435](https://github.com/Jingyi-u/-CVE-2025-56435)
 
+### CVE-2025-56605
+- [Userr404/CVE-2025-56605](https://github.com/Userr404/CVE-2025-56605)
+
 ### CVE-2025-56608 (2025-09-03)
 
 <code>The SourceCodester Android application &quot;Corona Virus Tracker App India&quot; 1.0 uses MD5 for digest authentication in `OkHttpClientWrapper.java`. The `handleDigest()` function employs `MessageDigest.getInstance(&quot;MD5&quot;)` to hash credentials. MD5 is a broken cryptographic algorithm known to allow hash collisions. This makes the authentication mechanism vulnerable to replay, spoofing, or brute-force attacks, potentially leading to unauthorized access. The vulnerability corresponds to CWE-327 and aligns with OWASP M5: Insufficient Cryptography and MASVS MSTG-CRYPTO-4.
@@ -5350,6 +5356,9 @@
 
 ### CVE-2025-57392
 - [meisterlos/CVE-2025-57392](https://github.com/meisterlos/CVE-2025-57392)
+
+### CVE-2025-57520
+- [onurcangnc/CVE-2025-57520-Stored-XSS-in-Decap-CMS-3.8.3-](https://github.com/onurcangnc/CVE-2025-57520-Stored-XSS-in-Decap-CMS-3.8.3-)
 
 ### CVE-2025-57576 (2025-09-04)
 
@@ -7046,7 +7055,7 @@
 - [xaitax/CVE-2024-6387_Check](https://github.com/xaitax/CVE-2024-6387_Check)
 - [bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387)
 - [wiggels/regresshion-check](https://github.com/wiggels/regresshion-check)
-- [AiK1d/CVE-2024-6387](https://github.com/AiK1d/CVE-2024-6387)
+- [P4x1s/CVE-2024-6387](https://github.com/P4x1s/CVE-2024-6387)
 - [betancour/OpenSSH-Vulnerability-test](https://github.com/betancour/OpenSSH-Vulnerability-test)
 - [muyuanlove/CVE-2024-6387fixshell](https://github.com/muyuanlove/CVE-2024-6387fixshell)
 - [TAM-K592/CVE-2024-6387](https://github.com/TAM-K592/CVE-2024-6387)
@@ -9591,7 +9600,7 @@
 - [xaitax/CVE-2024-23897](https://github.com/xaitax/CVE-2024-23897)
 - [vmtyan/poc-cve-2024-23897](https://github.com/vmtyan/poc-cve-2024-23897)
 - [yoryio/CVE-2024-23897](https://github.com/yoryio/CVE-2024-23897)
-- [AiK1d/CVE-2024-23897](https://github.com/AiK1d/CVE-2024-23897)
+- [P4x1s/CVE-2024-23897](https://github.com/P4x1s/CVE-2024-23897)
 - [10T4/PoC-Fix-jenkins-rce_CVE-2024-23897](https://github.com/10T4/PoC-Fix-jenkins-rce_CVE-2024-23897)
 - [wjlin0/CVE-2024-23897](https://github.com/wjlin0/CVE-2024-23897)
 - [Vozec/CVE-2024-23897](https://github.com/Vozec/CVE-2024-23897)
@@ -15914,7 +15923,7 @@
 - [Satheesh575555/linux-4.19.72_CVE-2023-0386](https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386)
 - [xkaneiki/CVE-2023-0386](https://github.com/xkaneiki/CVE-2023-0386)
 - [chenaotian/CVE-2023-0386](https://github.com/chenaotian/CVE-2023-0386)
-- [AiK1d/CVE-2023-0386](https://github.com/AiK1d/CVE-2023-0386)
+- [P4x1s/CVE-2023-0386](https://github.com/P4x1s/CVE-2023-0386)
 - [sxlmnwb/CVE-2023-0386](https://github.com/sxlmnwb/CVE-2023-0386)
 - [Fanxiaoyao66/CVE-2023-0386](https://github.com/Fanxiaoyao66/CVE-2023-0386)
 - [puckiestyle/CVE-2023-0386](https://github.com/puckiestyle/CVE-2023-0386)
@@ -16075,7 +16084,7 @@
 
 - [gobysec/CVE-2023-1454](https://github.com/gobysec/CVE-2023-1454)
 - [cjybao/CVE-2023-1454](https://github.com/cjybao/CVE-2023-1454)
-- [AiK1d/CVE-2023-1454-EXP](https://github.com/AiK1d/CVE-2023-1454-EXP)
+- [P4x1s/CVE-2023-1454-EXP](https://github.com/P4x1s/CVE-2023-1454-EXP)
 - [BugFor-Pings/CVE-2023-1454](https://github.com/BugFor-Pings/CVE-2023-1454)
 - [padbergpete47/CVE-2023-1454](https://github.com/padbergpete47/CVE-2023-1454)
 - [Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln](https://github.com/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln)
@@ -17966,7 +17975,7 @@
 - [Xnuvers007/CVE-2023-21716](https://github.com/Xnuvers007/CVE-2023-21716)
 - [gyaansastra/CVE-2023-21716](https://github.com/gyaansastra/CVE-2023-21716)
 - [mikesxrs/CVE-2023-21716_YARA_Results](https://github.com/mikesxrs/CVE-2023-21716_YARA_Results)
-- [AiK1d/CVE-2023-21716-POC](https://github.com/AiK1d/CVE-2023-21716-POC)
+- [P4x1s/CVE-2023-21716-POC](https://github.com/P4x1s/CVE-2023-21716-POC)
 - [hv0l/CVE-2023-21716_exploit](https://github.com/hv0l/CVE-2023-21716_exploit)
 - [JMousqueton/CVE-2023-21716](https://github.com/JMousqueton/CVE-2023-21716)
 - [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
@@ -18019,7 +18028,7 @@
 - [SamuelTulach/nullmap](https://github.com/SamuelTulach/nullmap)
 - [Malwareman007/CVE-2023-21768](https://github.com/Malwareman007/CVE-2023-21768)
 - [HKxiaoli/Windows_AFD_LPE_CVE-2023-21768](https://github.com/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768)
-- [AiK1d/CVE-2023-21768-POC](https://github.com/AiK1d/CVE-2023-21768-POC)
+- [P4x1s/CVE-2023-21768-POC](https://github.com/P4x1s/CVE-2023-21768-POC)
 - [h1bAna/CVE-2023-21768](https://github.com/h1bAna/CVE-2023-21768)
 - [zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit](https://github.com/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit)
 - [Rosayxy/Recreate-cve-2023-21768](https://github.com/Rosayxy/Recreate-cve-2023-21768)
@@ -18258,7 +18267,7 @@
 
 - [n3m1sys/CVE-2023-22809-sudoedit-privesc](https://github.com/n3m1sys/CVE-2023-22809-sudoedit-privesc)
 - [M4fiaB0y/CVE-2023-22809](https://github.com/M4fiaB0y/CVE-2023-22809)
-- [AiK1d/CVE-2023-22809-sudo-POC](https://github.com/AiK1d/CVE-2023-22809-sudo-POC)
+- [P4x1s/CVE-2023-22809-sudo-POC](https://github.com/P4x1s/CVE-2023-22809-sudo-POC)
 - [hello4r1end/patch_CVE-2023-22809](https://github.com/hello4r1end/patch_CVE-2023-22809)
 - [Chan9Yan9/CVE-2023-22809](https://github.com/Chan9Yan9/CVE-2023-22809)
 - [pashayogi/CVE-2023-22809](https://github.com/pashayogi/CVE-2023-22809)
@@ -18392,7 +18401,7 @@
 - [Cyb3rMaddy/CVE-2023-23397-Report](https://github.com/Cyb3rMaddy/CVE-2023-23397-Report)
 - [Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch)
 - [jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397)
-- [AiK1d/CVE-2023-23397-POC](https://github.com/AiK1d/CVE-2023-23397-POC)
+- [P4x1s/CVE-2023-23397-POC](https://github.com/P4x1s/CVE-2023-23397-POC)
 - [vlad-a-man/CVE-2023-23397](https://github.com/vlad-a-man/CVE-2023-23397)
 - [Muhammad-Ali007/OutlookNTLM_CVE-2023-23397](https://github.com/Muhammad-Ali007/OutlookNTLM_CVE-2023-23397)
 - [Pushkarup/CVE-2023-23397](https://github.com/Pushkarup/CVE-2023-23397)
@@ -18431,7 +18440,7 @@
 
 - [X1r0z/Dubbo-RCE](https://github.com/X1r0z/Dubbo-RCE)
 - [YYHYlh/Apache-Dubbo-CVE-2023-23638-exp](https://github.com/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp)
-- [AiK1d/CVE-2023-23638-Tools](https://github.com/AiK1d/CVE-2023-23638-Tools)
+- [P4x1s/CVE-2023-23638-Tools](https://github.com/P4x1s/CVE-2023-23638-Tools)
 - [cuijiung/dubbo-CVE-2023-23638](https://github.com/cuijiung/dubbo-CVE-2023-23638)
 
 ### CVE-2023-23752 (2023-02-16)
@@ -19657,7 +19666,7 @@
 </code>
 
 - [1820112015/CVE-2023-29923](https://github.com/1820112015/CVE-2023-29923)
-- [AiK1d/CVE-2023-29923-Scan](https://github.com/AiK1d/CVE-2023-29923-Scan)
+- [P4x1s/CVE-2023-29923-Scan](https://github.com/P4x1s/CVE-2023-29923-Scan)
 - [Le1a/CVE-2023-29923](https://github.com/Le1a/CVE-2023-29923)
 
 ### CVE-2023-29929 (2024-08-21)
@@ -20456,7 +20465,7 @@
 - [Le1a/CVE-2023-33246](https://github.com/Le1a/CVE-2023-33246)
 - [SuperZero/CVE-2023-33246](https://github.com/SuperZero/CVE-2023-33246)
 - [Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT](https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT)
-- [AiK1d/CVE-2023-33246](https://github.com/AiK1d/CVE-2023-33246)
+- [P4x1s/CVE-2023-33246](https://github.com/P4x1s/CVE-2023-33246)
 - [d0rb/CVE-2023-33246](https://github.com/d0rb/CVE-2023-33246)
 - [vulncheck-oss/fetch-broker-conf](https://github.com/vulncheck-oss/fetch-broker-conf)
 - [0xKayala/CVE-2023-33246](https://github.com/0xKayala/CVE-2023-33246)
@@ -20661,7 +20670,7 @@
 </code>
 
 - [n3gox/CVE-2023-33829](https://github.com/n3gox/CVE-2023-33829)
-- [AiK1d/CVE-2023-33829-POC](https://github.com/AiK1d/CVE-2023-33829-POC)
+- [P4x1s/CVE-2023-33829-POC](https://github.com/P4x1s/CVE-2023-33829-POC)
 
 ### CVE-2023-33831 (2023-09-18)
 
@@ -21399,7 +21408,7 @@
 - [zaenhaxor/CVE-2023-36845](https://github.com/zaenhaxor/CVE-2023-36845)
 - [simrotion13/CVE-2023-36845](https://github.com/simrotion13/CVE-2023-36845)
 - [cyberh3als/CVE-2023-36845-POC](https://github.com/cyberh3als/CVE-2023-36845-POC)
-- [AiK1d/ansible-cve-2023-36845](https://github.com/AiK1d/ansible-cve-2023-36845)
+- [P4x1s/ansible-cve-2023-36845](https://github.com/P4x1s/ansible-cve-2023-36845)
 - [Asbawy/Automation-for-Juniper-cve-2023-36845](https://github.com/Asbawy/Automation-for-Juniper-cve-2023-36845)
 - [jahithoque/Juniper-CVE-2023-36845-Mass-Hunting](https://github.com/jahithoque/Juniper-CVE-2023-36845-Mass-Hunting)
 - [cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845](https://github.com/cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845)
@@ -31030,7 +31039,7 @@
 - [scrt/cve-2022-42475](https://github.com/scrt/cve-2022-42475)
 - [Amir-hy/cve-2022-42475](https://github.com/Amir-hy/cve-2022-42475)
 - [Mustafa1986/cve-2022-42475-Fortinet](https://github.com/Mustafa1986/cve-2022-42475-Fortinet)
-- [AiK1d/CVE-2022-42475-RCE-POC](https://github.com/AiK1d/CVE-2022-42475-RCE-POC)
+- [P4x1s/CVE-2022-42475-RCE-POC](https://github.com/P4x1s/CVE-2022-42475-RCE-POC)
 - [natceil/cve-2022-42475](https://github.com/natceil/cve-2022-42475)
 - [0xhaggis/CVE-2022-42475](https://github.com/0xhaggis/CVE-2022-42475)
 
@@ -33214,6 +33223,7 @@
 - [galoget/PwnKit-CVE-2021-4034](https://github.com/galoget/PwnKit-CVE-2021-4034)
 - [ayoub-elbouzi/CVE-2021-4034-Pwnkit](https://github.com/ayoub-elbouzi/CVE-2021-4034-Pwnkit)
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
+- [glowbase/PwnKit-CVE-2021-4034](https://github.com/glowbase/PwnKit-CVE-2021-4034)
 - [OXDBXKXO/ez-pwnkit](https://github.com/OXDBXKXO/ez-pwnkit)
 - [drapl0n/pwnKit](https://github.com/drapl0n/pwnKit)
 - [rvizx/CVE-2021-4034](https://github.com/rvizx/CVE-2021-4034)
@@ -33901,7 +33911,6 @@
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
 - [whwlsfb/CVE-2021-22205](https://github.com/whwlsfb/CVE-2021-22205)
 - [findneo/GitLab-preauth-RCE_CVE-2021-22205](https://github.com/findneo/GitLab-preauth-RCE_CVE-2021-22205)
-- [Seals6/CVE-2021-22205](https://github.com/Seals6/CVE-2021-22205)
 - [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
 - [shang159/CVE-2021-22205-getshell](https://github.com/shang159/CVE-2021-22205-getshell)
 - [devdanqtuan/CVE-2021-22205](https://github.com/devdanqtuan/CVE-2021-22205)
@@ -33929,6 +33938,13 @@
 </code>
 
 - [dannymas/CVE-2021-22206](https://github.com/dannymas/CVE-2021-22206)
+
+### CVE-2021-22210 (2021-05-06)
+
+<code>An issue has been discovered in GitLab CE/EE affecting all versions starting from 13.2. When querying the repository branches through API, GitLab was ignoring a query parameter and returning a considerable amount of results.
+</code>
+
+- [Jeromeyoung/CVE-2021-22210](https://github.com/Jeromeyoung/CVE-2021-22210)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -36022,13 +36038,6 @@
 
 - [T0X1Cx/CVE-2021-36396-Exploit](https://github.com/T0X1Cx/CVE-2021-36396-Exploit)
 
-### CVE-2021-36440 (2021-09-08)
-
-<code>Unrestricted File Upload in ShowDoc v2.9.5 allows remote attackers to execute arbitrary code via the 'file_url' parameter in the component AdminUpdateController.class.php'.
-</code>
-
-- [forget-dl/CVE-2021-36440-poc-test](https://github.com/forget-dl/CVE-2021-36440-poc-test)
-
 ### CVE-2021-36460 (2022-04-25)
 
 <code>VeryFitPro (com.veryfit2hr.second) 3.2.8 hashes the account's password locally on the device and uses the hash to authenticate in all communication with the backend API, including login, registration and changing of passwords. This allows an attacker in possession of a hash to takeover a user's account, rendering the benefits of storing hashed passwords in the database useless.
@@ -36946,7 +36955,6 @@
 <code>Metabase is an open source data analytics platform. In affected versions a security issue has been discovered with the custom GeoJSON map (`admin-&gt;settings-&gt;maps-&gt;custom maps-&gt;add a map`) support and potential local file inclusion (including environment variables). URLs were not validated prior to being loaded. This issue is fixed in a new maintenance release (0.40.5 and 1.40.5), and any subsequent release after that. If you’re unable to upgrade immediately, you can mitigate this by including rules in your reverse proxy or load balancer or WAF to provide a validation filter before the application.
 </code>
 
-- [Seals6/CVE-2021-41277](https://github.com/Seals6/CVE-2021-41277)
 - [tahtaciburak/CVE-2021-41277](https://github.com/tahtaciburak/CVE-2021-41277)
 - [Henry4E36/Metabase-cve-2021-41277](https://github.com/Henry4E36/Metabase-cve-2021-41277)
 - [kap1ush0n/CVE-2021-41277](https://github.com/kap1ush0n/CVE-2021-41277)
@@ -36957,6 +36965,13 @@
 - [zer0yu/CVE-2021-41277](https://github.com/zer0yu/CVE-2021-41277)
 - [chengling-ing/CVE-2021-41277](https://github.com/chengling-ing/CVE-2021-41277)
 - [RubXkuB/PoC-Metabase-CVE-2021-41277](https://github.com/RubXkuB/PoC-Metabase-CVE-2021-41277)
+
+### CVE-2021-41278 (2021-11-18)
+
+<code>Functions SDK for EdgeX is meant to provide all the plumbing necessary for developers to get started in processing/transforming/exporting data out of the EdgeX IoT platform. In affected versions broken encryption in app-functions-sdk “AES” transform in EdgeX Foundry releases prior to Jakarta allows attackers to decrypt messages via unspecified vectors. The app-functions-sdk exports an “aes” transform that user scripts can optionally call to encrypt data in the processing pipeline. No decrypt function is provided. Encryption is not enabled by default, but if used, the level of protection may be less than the user may expects due to a broken implementation. Version v2.1.0 (EdgeX Foundry Jakarta release and later) of app-functions-sdk-go/v2 deprecates the “aes” transform and provides an improved “aes256” transform in its place. The broken implementation will remain in a deprecated state until it is removed in the next EdgeX major release to avoid breakage of existing software that depends on the broken implementation. As the broken transform is a library function that is not invoked by default, users who do not use the AES transform in their processing pipelines are unaffected. Those that are affected are urged to upgrade to the Jakarta EdgeX release and modify processing pipelines to use the new &quot;aes256&quot; transform.
+</code>
+
+- [FDlucifer/CVE-2021-41278](https://github.com/FDlucifer/CVE-2021-41278)
 
 ### CVE-2021-41338 (2021-10-13)
 
@@ -46746,6 +46761,13 @@
 - [motoyasu-saburi/CVE-2019-12086-jackson-databind-file-read](https://github.com/motoyasu-saburi/CVE-2019-12086-jackson-databind-file-read)
 - [Al1ex/CVE-2019-12086](https://github.com/Al1ex/CVE-2019-12086)
 
+### CVE-2019-12102 (2019-05-22)
+
+<code>Kentico 11 through 12 lets attackers upload and explore files without authentication via the cmsmodules/medialibrary/formcontrols/liveselectors/insertimageormedia/tabs_media.aspx URI. NOTE: The vendor disputes the report because the researcher did not configure the media library permissions correctly. The vendor states that by default all users can read/modify/upload files, and it’s up to the administrator to decide who should have access to the media library and set the permissions accordingly. See the vendor documentation in the references for more information
+</code>
+
+- [Egi08/CVE-2019-12102-Scanner](https://github.com/Egi08/CVE-2019-12102-Scanner)
+
 ### CVE-2019-12169 (2019-06-03)
 
 <code>ATutor 2.2.4 allows Arbitrary File Upload and Directory Traversal, resulting in remote code execution via a &quot;..&quot; pathname in a ZIP archive to the mods/_core/languages/language_import.php (aka Import New Language) or mods/_standard/patcher/index_admin.php (aka Patcher) component.
@@ -54493,7 +54515,7 @@
 - [xxnbyy/CVE-2017-15944-POC](https://github.com/xxnbyy/CVE-2017-15944-POC)
 - [surajraghuvanshi/PaloAltoRceDetectionAndExploit](https://github.com/surajraghuvanshi/PaloAltoRceDetectionAndExploit)
 - [yukar1z0e/CVE-2017-15944](https://github.com/yukar1z0e/CVE-2017-15944)
-- [AiK1d/PaloAlto_EXP](https://github.com/AiK1d/PaloAlto_EXP)
+- [P4x1s/PaloAlto_EXP](https://github.com/P4x1s/PaloAlto_EXP)
 
 ### CVE-2017-15950 (2017-10-31)
 
