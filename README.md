@@ -3219,6 +3219,7 @@
 - [B1ack4sh/Blackash-CVE-2025-31161](https://github.com/B1ack4sh/Blackash-CVE-2025-31161)
 - [ibrahmsql/CVE-2025-31161](https://github.com/ibrahmsql/CVE-2025-31161)
 - [r0otk3r/CVE-2025-31161](https://github.com/r0otk3r/CVE-2025-31161)
+- [f4dee-backup/CVE-2025-31161](https://github.com/f4dee-backup/CVE-2025-31161)
 
 ### CVE-2025-31200 (2025-04-16)
 
@@ -3446,13 +3447,6 @@
 - [te0rwx/CVE-2025-32433-Detection](https://github.com/te0rwx/CVE-2025-32433-Detection)
 - [Mdusmandasthaheer/CVE-2025-32433](https://github.com/Mdusmandasthaheer/CVE-2025-32433)
 - [dollarboysushil/CVE-2025-32433-Erlang-OTP-SSH-Unauthenticated-RCE](https://github.com/dollarboysushil/CVE-2025-32433-Erlang-OTP-SSH-Unauthenticated-RCE)
-
-### CVE-2025-32434 (2025-04-18)
-
-<code>PyTorch is a Python package that provides tensor computation with strong GPU acceleration and deep neural networks built on a tape-based autograd system. In version 2.5.1 and prior, a Remote Command Execution (RCE) vulnerability exists in PyTorch when loading a model using torch.load with weights_only=True. This issue has been patched in version 2.6.0.
-</code>
-
-- [2h3ph3rd/CVE-2025-32434](https://github.com/2h3ph3rd/CVE-2025-32434)
 
 ### CVE-2025-32462 (2025-06-30)
 
@@ -5354,6 +5348,9 @@
 ### CVE-2025-57055
 - [thawphone/CVE-2025-57055](https://github.com/thawphone/CVE-2025-57055)
 
+### CVE-2025-57392
+- [meisterlos/CVE-2025-57392](https://github.com/meisterlos/CVE-2025-57392)
+
 ### CVE-2025-57576 (2025-09-04)
 
 <code>PHPGurukul Online Shopping Portal 2.1 is vulnerable to Cross Site Scripting (XSS) in /admin/updateorder.php.
@@ -5388,7 +5385,11 @@
 - [Mkway/CVE-2025-57833](https://github.com/Mkway/CVE-2025-57833)
 - [loic-houchi/Django-faille-CVE-2025-57833_test](https://github.com/loic-houchi/Django-faille-CVE-2025-57833_test)
 
-### CVE-2025-58180
+### CVE-2025-58180 (2025-09-09)
+
+<code>OctoPrint provides a web interface for controlling consumer 3D printers. OctoPrint versions up until and including 1.11.2 contain a vulnerability that allows an authenticated attacker to upload a file under a specially crafted filename that will allow arbitrary command execution if said filename becomes included in a command defined in a system event handler and said event gets triggered. If no event handlers executing system commands with uploaded filenames as parameters have been configured, this vulnerability does not have an impact. The vulnerability is patched in version 1.11.3. As a workaround, OctoPrint administrators who have event handlers configured that include any kind of filename based placeholders should disable those by setting their `enabled` property to `False` or unchecking the &quot;Enabled&quot; checkbox in the GUI based Event Manager. Alternatively, OctoPrint administrators should set `feature.enforceReallyUniversalFilenames` to `true` in `config.yaml` and restart OctoPrint, then vet the existing uploads and make sure to delete any suspicious looking files. As always, OctoPrint administrators are advised to not expose OctoPrint on hostile networks like the public internet, and to vet who has access to their instance.
+</code>
+
 - [prabhatverma47/CVE-2025-58180](https://github.com/prabhatverma47/CVE-2025-58180)
 
 ### CVE-2025-58440
@@ -18263,7 +18264,6 @@
 - [pashayogi/CVE-2023-22809](https://github.com/pashayogi/CVE-2023-22809)
 - [asepsaepdin/CVE-2023-22809](https://github.com/asepsaepdin/CVE-2023-22809)
 - [Toothless5143/CVE-2023-22809](https://github.com/Toothless5143/CVE-2023-22809)
-- [AntiVlad/CVE-2023-22809](https://github.com/AntiVlad/CVE-2023-22809)
 - [laxmiyamkolu/SUDO-privilege-escalation](https://github.com/laxmiyamkolu/SUDO-privilege-escalation)
 - [D0rDa4aN919/CVE-2023-22809-Exploiter](https://github.com/D0rDa4aN919/CVE-2023-22809-Exploiter)
 - [Spydomain/CVE-2023-22809-automated-python-exploits](https://github.com/Spydomain/CVE-2023-22809-automated-python-exploits)
@@ -51356,6 +51356,7 @@
 - [0xNehru/ssh_Enum_vaild](https://github.com/0xNehru/ssh_Enum_vaild)
 - [moften/cve-2018-15473-poc](https://github.com/moften/cve-2018-15473-poc)
 - [makmour/open-ssh-user-enumeration](https://github.com/makmour/open-ssh-user-enumeration)
+- [Alph4Sec/ssh_enum_py](https://github.com/Alph4Sec/ssh_enum_py)
 
 ### CVE-2018-15499 (2018-08-24)
 
@@ -58824,7 +58825,7 @@
 - [SieGer05/CVE-2012-2982-Webmin-Exploit](https://github.com/SieGer05/CVE-2012-2982-Webmin-Exploit)
 - [lpuv/CVE-2012-2982](https://github.com/lpuv/CVE-2012-2982)
 - [SincIDK/CVE-2012-2982-Exploit-Script](https://github.com/SincIDK/CVE-2012-2982-Exploit-Script)
-- [boritopalito/CVE-2012-2982](https://github.com/boritopalito/CVE-2012-2982)
+- [boriitoo/CVE-2012-2982](https://github.com/boriitoo/CVE-2012-2982)
 
 ### CVE-2012-3137 (2012-09-21)
 
