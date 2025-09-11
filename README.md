@@ -11323,6 +11323,7 @@
 - [C0deInBlack/CVE-2024-32019-poc](https://github.com/C0deInBlack/CVE-2024-32019-poc)
 - [sPhyos/cve-2024-32019-PoC](https://github.com/sPhyos/cve-2024-32019-PoC)
 - [x0da6h/POC-for-CVE-2024-32019](https://github.com/x0da6h/POC-for-CVE-2024-32019)
+- [T1erno/CVE-2024-32019-Netdata-ndsudo-Privilege-Escalation-PoC](https://github.com/T1erno/CVE-2024-32019-Netdata-ndsudo-Privilege-Escalation-PoC)
 
 ### CVE-2024-32030 (2024-06-19)
 
@@ -49827,6 +49828,7 @@
 - [paulogmota/CVE-2018-6574](https://github.com/paulogmota/CVE-2018-6574)
 - [solovvway/CVE-2018-6574](https://github.com/solovvway/CVE-2018-6574)
 - [memmas/CVE-2018-6574](https://github.com/memmas/CVE-2018-6574)
+- [adendarys/CVE-2018-6574](https://github.com/adendarys/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
