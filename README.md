@@ -1391,6 +1391,13 @@
 
 - [byteReaper77/CVE-2025-8550](https://github.com/byteReaper77/CVE-2025-8550)
 
+### CVE-2025-8570 (2025-09-11)
+
+<code>The BeyondCart Connector plugin for WordPress is vulnerable to Privilege Escalation due to improper JWT secret management and authorization within the determine_current_user filter in versions 1.4.2 through 2.1.0. This makes it possible for unauthenticated attackers to craft valid tokens and assume any user’s identity.
+</code>
+
+- [Nxploited/CVE-2025-8570](https://github.com/Nxploited/CVE-2025-8570)
+
 ### CVE-2025-8671 (2025-08-13)
 
 <code>A mismatch caused by client-triggered server-sent stream resets between HTTP/2 specifications and the internal architectures of some HTTP/2 implementations may result in excessive server resource consumption leading to denial-of-service (DoS).  By opening streams and then rapidly triggering the server to reset them—using malformed frames or flow control errors—an attacker can exploit incorrect stream accounting. Streams reset by the server are considered closed at the protocol level, even though backend processing continues. This allows a client to cause the server to handle an unbounded number of concurrent streams on a single connection. This CVE will be updated as affected product details are released.
@@ -3822,6 +3829,13 @@
 
 - [GreenForceNetworks/CVE-2025-41646---Critical-Authentication-Bypass-](https://github.com/GreenForceNetworks/CVE-2025-41646---Critical-Authentication-Bypass-)
 - [r0otk3r/CVE-2025-41646](https://github.com/r0otk3r/CVE-2025-41646)
+
+### CVE-2025-42944 (2025-09-09)
+
+<code>Due to a deserialization vulnerability in SAP NetWeaver, an unauthenticated attacker could exploit the system through the RMI-P4 module by submitting malicious payload to an open port. The deserialization of such untrusted Java objects could lead to arbitrary OS command execution, posing a high impact to the application's confidentiality, integrity, and availability.
+</code>
+
+- [rxerium/CVE-2025-42944](https://github.com/rxerium/CVE-2025-42944)
 
 ### CVE-2025-42957 (2025-08-12)
 
@@ -26215,7 +26229,7 @@
 
 - [Audiobahn/CVE-2022-20699](https://github.com/Audiobahn/CVE-2022-20699)
 - [puckiestyle/CVE-2022-20699](https://github.com/puckiestyle/CVE-2022-20699)
-- [rohankumardubey/CVE-2022-20699](https://github.com/rohankumardubey/CVE-2022-20699)
+- [Rohan-flutterint/CVE-2022-20699](https://github.com/Rohan-flutterint/CVE-2022-20699)
 
 ### CVE-2022-20818 (2022-09-30)
 
@@ -26946,7 +26960,7 @@
 </code>
 
 - [horizon3ai/CVE-2022-22972](https://github.com/horizon3ai/CVE-2022-22972)
-- [xK0ng/CVE-2022-22972](https://github.com/xK0ng/CVE-2022-22972)
+- [xk4ng/CVE-2022-22972](https://github.com/xk4ng/CVE-2022-22972)
 - [bengisugun/CVE-2022-22972-](https://github.com/bengisugun/CVE-2022-22972-)
 
 ### CVE-2022-22976 (2022-05-19)
@@ -38245,7 +38259,7 @@
 - [obscuritylabs/log4shell-poc-lab](https://github.com/obscuritylabs/log4shell-poc-lab)
 - [Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228](https://github.com/Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228)
 - [Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE](https://github.com/Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE)
-- [rohankumardubey/CVE-2021-44228_scanner](https://github.com/rohankumardubey/CVE-2021-44228_scanner)
+- [Rohan-flutterint/CVE-2021-44228_scanner](https://github.com/Rohan-flutterint/CVE-2021-44228_scanner)
 - [sysadmin0815/Fix-Log4j-PowershellScript](https://github.com/sysadmin0815/Fix-Log4j-PowershellScript)
 - [RenYuH/log4j-lookups-vulnerability](https://github.com/RenYuH/log4j-lookups-vulnerability)
 - [scheibling/py-log4shellscanner](https://github.com/scheibling/py-log4shellscanner)
@@ -49828,6 +49842,7 @@
 - [solovvway/CVE-2018-6574](https://github.com/solovvway/CVE-2018-6574)
 - [memmas/CVE-2018-6574](https://github.com/memmas/CVE-2018-6574)
 - [adendarys/CVE-2018-6574](https://github.com/adendarys/CVE-2018-6574)
+- [currently-unkwn/CVE-2018-6574](https://github.com/currently-unkwn/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -53073,6 +53088,7 @@
 - [joidiego/Detection-struts-cve-2017-5638-detector](https://github.com/joidiego/Detection-struts-cve-2017-5638-detector)
 - [iampetru/PoC-CVE-2017-5638](https://github.com/iampetru/PoC-CVE-2017-5638)
 - [MuhammadAbdullah192/CVE-2017-5638-Remote-Code-Execution-Apache-Struts2-EXPLOITATION](https://github.com/MuhammadAbdullah192/CVE-2017-5638-Remote-Code-Execution-Apache-Struts2-EXPLOITATION)
+- [kaylertee/Computer-Security-Equifax-2017](https://github.com/kaylertee/Computer-Security-Equifax-2017)
 
 ### CVE-2017-5645 (2017-04-17)
 
@@ -57444,7 +57460,7 @@
 - [cved-sources/cve-2014-0160](https://github.com/cved-sources/cve-2014-0160)
 - [cheese-hub/heartbleed](https://github.com/cheese-hub/heartbleed)
 - [artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS)
-- [cldme/heartbleed-bug](https://github.com/cldme/heartbleed-bug)
+- [tomdevman/heartbleed-bug](https://github.com/tomdevman/heartbleed-bug)
 - [ThanHuuTuan/Heartexploit](https://github.com/ThanHuuTuan/Heartexploit)
 - [rouze-d/heartbleed](https://github.com/rouze-d/heartbleed)
 - [WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed](https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed)
