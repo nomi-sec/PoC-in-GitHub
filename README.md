@@ -3245,6 +3245,7 @@
 <code>This issue was addressed by removing the vulnerable code. This issue is fixed in macOS Sequoia 15.5. An app may be able to break out of its sandbox.
 </code>
 
+- [sureshkumarsat/CVE-2025-31258-PoC](https://github.com/sureshkumarsat/CVE-2025-31258-PoC)
 - [wh1te4ever/CVE-2025-31258-PoC](https://github.com/wh1te4ever/CVE-2025-31258-PoC)
 - [BODE987/CVE-2025-31258-PoC](https://github.com/BODE987/CVE-2025-31258-PoC)
 
@@ -5114,7 +5115,6 @@
 </code>
 
 - [Momollax/CVE-2025-53772-IIS-WebDeploy-RCE](https://github.com/Momollax/CVE-2025-53772-IIS-WebDeploy-RCE)
-- [fortihack/CVE-2025-53772](https://github.com/fortihack/CVE-2025-53772)
 
 ### CVE-2025-53773 (2025-08-12)
 
@@ -6266,7 +6266,6 @@
 - [24Owais/threat-intel-cve-2024-3094](https://github.com/24Owais/threat-intel-cve-2024-3094)
 - [Dermot-lab/TryHack](https://github.com/Dermot-lab/TryHack)
 - [Ikram124/CVE-2024-3094-analysis](https://github.com/Ikram124/CVE-2024-3094-analysis)
-- [ykhurshudyan-blip/CVE-2024-3094](https://github.com/ykhurshudyan-blip/CVE-2024-3094)
 
 ### CVE-2024-3105 (2024-06-15)
 
@@ -51410,6 +51409,7 @@
 - [moften/cve-2018-15473-poc](https://github.com/moften/cve-2018-15473-poc)
 - [makmour/open-ssh-user-enumeration](https://github.com/makmour/open-ssh-user-enumeration)
 - [Alph4Sec/ssh_enum_py](https://github.com/Alph4Sec/ssh_enum_py)
+- [anonymous121029034720384234234/py-network-scanner](https://github.com/anonymous121029034720384234234/py-network-scanner)
 
 ### CVE-2018-15499 (2018-08-24)
 
