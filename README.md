@@ -637,6 +637,7 @@
 - [B1ack4sh/Blackash-CVE-2025-4123](https://github.com/B1ack4sh/Blackash-CVE-2025-4123)
 - [DesDoTvl/CVE-2025-4123grafana](https://github.com/DesDoTvl/CVE-2025-4123grafana)
 - [punitdarji/Grafana-cve-2025-4123](https://github.com/punitdarji/Grafana-cve-2025-4123)
+- [ItsNee/Grafana-CVE-2025-4123-POC](https://github.com/ItsNee/Grafana-CVE-2025-4123-POC)
 
 ### CVE-2025-4126 (2025-05-15)
 
@@ -1348,7 +1349,6 @@
 - [kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition](https://github.com/kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition)
 - [walidpyh/CVE-2025-8088](https://github.com/walidpyh/CVE-2025-8088)
 - [hexsecteam/CVE-2025-8088-Winrar-Tool](https://github.com/hexsecteam/CVE-2025-8088-Winrar-Tool)
-- [cozythrill/CVE-2025-8088](https://github.com/cozythrill/CVE-2025-8088)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -1564,13 +1564,6 @@
 - [Denyningbow/rtf-ctf-cve-2025-21298](https://github.com/Denyningbow/rtf-ctf-cve-2025-21298)
 - [B1ack4sh/Blackash-CVE-2025-21298](https://github.com/B1ack4sh/Blackash-CVE-2025-21298)
 
-### CVE-2025-21307 (2025-01-14)
-
-<code>Windows Reliable Multicast Transport Driver (RMCAST) Remote Code Execution Vulnerability
-</code>
-
-- [git-account7/CVE-2025-21307](https://github.com/git-account7/CVE-2025-21307)
-
 ### CVE-2025-21333 (2025-01-14)
 
 <code>Windows Hyper-V NT Kernel Integration VSP Elevation of Privilege Vulnerability
@@ -1580,6 +1573,7 @@
 - [aleongx/KQL_sentinel_CVE-2025-21333](https://github.com/aleongx/KQL_sentinel_CVE-2025-21333)
 - [B1ack4sh/Blackash-CVE-2025-21333](https://github.com/B1ack4sh/Blackash-CVE-2025-21333)
 - [pradip022/CVE-2025-21333-POC](https://github.com/pradip022/CVE-2025-21333-POC)
+- [rahul0xkr/Reproducing-CVE-2025-21333-](https://github.com/rahul0xkr/Reproducing-CVE-2025-21333-)
 
 ### CVE-2025-21385 (2025-01-09)
 
@@ -5185,6 +5179,7 @@
 - [issamjr/CVE-2025-54309-EXPLOIT](https://github.com/issamjr/CVE-2025-54309-EXPLOIT)
 - [watchtowrlabs/watchTowr-vs-CrushFTP-Authentication-Bypass-CVE-2025-54309](https://github.com/watchtowrlabs/watchTowr-vs-CrushFTP-Authentication-Bypass-CVE-2025-54309)
 - [blueisbeautiful/CVE-2025-54309](https://github.com/blueisbeautiful/CVE-2025-54309)
+- [foregenix/CVE-2025-54309](https://github.com/foregenix/CVE-2025-54309)
 - [whisperer1290/CVE-2025-54309__Enhanced_exploit](https://github.com/whisperer1290/CVE-2025-54309__Enhanced_exploit)
 
 ### CVE-2025-54313 (2025-07-19)
@@ -6756,6 +6751,7 @@
 </code>
 
 - [JoeBeeton/CVE-2024-4701-POC](https://github.com/JoeBeeton/CVE-2024-4701-POC)
+- [JinhyukKo/CVE-2024-4701-POC](https://github.com/JinhyukKo/CVE-2024-4701-POC)
 
 ### CVE-2024-4761 (2024-05-14)
 
@@ -24805,6 +24801,7 @@
 </code>
 
 - [seadragnol/CVE-2023-52927](https://github.com/seadragnol/CVE-2023-52927)
+- [HoangNhoo/Reproduce-CVE-2023-52927](https://github.com/HoangNhoo/Reproduce-CVE-2023-52927)
 
 
 ## 2022
