@@ -548,6 +548,7 @@
 - [dennisec/Mass-CVE-2025-3248](https://github.com/dennisec/Mass-CVE-2025-3248)
 - [ill-deed/Langflow-CVE-2025-3248-Multi-target](https://github.com/ill-deed/Langflow-CVE-2025-3248-Multi-target)
 - [r0otk3r/CVE-2025-3248](https://github.com/r0otk3r/CVE-2025-3248)
+- [min8282/CVE-2025-3248](https://github.com/min8282/CVE-2025-3248)
 
 ### CVE-2025-3419 (2025-05-08)
 
@@ -5361,6 +5362,9 @@
 ### CVE-2025-55891
 - [terribledactyl/CVE-2025-55891](https://github.com/terribledactyl/CVE-2025-55891)
 
+### CVE-2025-55996
+- [thawkhant/viber-desktop-html-injection](https://github.com/thawkhant/viber-desktop-html-injection)
+
 ### CVE-2025-55998 (2025-09-08)
 
 <code>A cross-site scripting (XSS) vulnerability in Smart Search &amp; Filter Shopify App 1.0 allows a remote attacker to execute arbitrary JavaScript in the web browser of a user, by including a malicious payload into the color filter parameter.
@@ -6284,6 +6288,7 @@
 - [24Owais/threat-intel-cve-2024-3094](https://github.com/24Owais/threat-intel-cve-2024-3094)
 - [Dermot-lab/TryHack](https://github.com/Dermot-lab/TryHack)
 - [Ikram124/CVE-2024-3094-analysis](https://github.com/Ikram124/CVE-2024-3094-analysis)
+- [mrk336/CVE-2024-3094](https://github.com/mrk336/CVE-2024-3094)
 
 ### CVE-2024-3105 (2024-06-15)
 
