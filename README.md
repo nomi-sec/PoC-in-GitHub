@@ -54,6 +54,7 @@
 <code>7-Zip Mark-of-the-Web Bypass Vulnerability. This vulnerability allows remote attackers to bypass the Mark-of-the-Web protection mechanism on affected installations of 7-Zip. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the handling of archived files. When extracting files from a crafted archive that bears the Mark-of-the-Web, 7-Zip does not propagate the Mark-of-the-Web to the extracted files. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user. Was ZDI-CAN-25456.
 </code>
 
+- [dpextreme/7-Zip-CVE-2025-0411-POC](https://github.com/dpextreme/7-Zip-CVE-2025-0411-POC)
 - [betulssahin/CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass](https://github.com/betulssahin/CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass)
 - [B1ack4sh/Blackash-CVE-2025-0411](https://github.com/B1ack4sh/Blackash-CVE-2025-0411)
 
@@ -237,6 +238,7 @@
 </code>
 
 - [abrewer251/CVE-2025-2945_PgAdmin_PoC](https://github.com/abrewer251/CVE-2025-2945_PgAdmin_PoC)
+- [Cycloctane/cve-2025-2945-poc](https://github.com/Cycloctane/cve-2025-2945-poc)
 
 ### CVE-2025-2995 (2025-03-31)
 
@@ -300,6 +302,13 @@
 </code>
 
 - [Yucaerin/CVE-2025-3419](https://github.com/Yucaerin/CVE-2025-3419)
+
+### CVE-2025-3515 (2025-06-17)
+
+<code>The Drag and Drop Multiple File Upload for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file uploads due to insufficient file type validation in all versions up to, and including, 1.3.8.9. This makes it possible for unauthenticated attackers to bypass the plugin's blacklist and upload .phar or other dangerous file types on the affected site's server, which may make remote code execution possible on the servers that are configured to handle .phar files as executable PHP scripts, particularly in default Apache+mod_php configurations where the file extension is not strictly validated before being passed to the PHP interpreter.
+</code>
+
+- [MrSoules/lab-cve-2025-3515](https://github.com/MrSoules/lab-cve-2025-3515)
 
 ### CVE-2025-3568 (2025-04-14)
 
@@ -893,6 +902,13 @@
 
 - [mmotti/Reset-inetpub](https://github.com/mmotti/Reset-inetpub)
 
+### CVE-2025-21333 (2025-01-14)
+
+<code>Windows Hyper-V NT Kernel Integration VSP Elevation of Privilege Vulnerability
+</code>
+
+- [pradip022/CVE-2025-21333-POC](https://github.com/pradip022/CVE-2025-21333-POC)
+
 ### CVE-2025-21497 (2025-01-21)
 
 <code>Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB).  Supported versions that are affected are 8.0.40 and prior, 8.4.3 and prior and  9.1.0 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server as well as  unauthorized update, insert or delete access to some of MySQL Server accessible data. CVSS 3.1 Base Score 5.5 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H).
@@ -1063,6 +1079,13 @@
 - [GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging](https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging)
 - [pxx917144686/iDevice_ZH](https://github.com/pxx917144686/iDevice_ZH)
 
+### CVE-2025-24204 (2025-03-31)
+
+<code>The issue was addressed with improved checks. This issue is fixed in macOS Sequoia 15.4. An app may be able to access protected user data.
+</code>
+
+- [bale170501/decrypted](https://github.com/bale170501/decrypted)
+
 ### CVE-2025-24252 (2025-04-29)
 
 <code>A use-after-free issue was addressed with improved memory management. This issue is fixed in macOS Sequoia 15.4, tvOS 18.4, macOS Ventura 13.7.5, iPadOS 17.7.6, macOS Sonoma 14.7.5, iOS 18.4 and iPadOS 18.4, visionOS 2.4. An attacker on the local network may be able to corrupt process memory.
@@ -1129,6 +1152,7 @@
 - [sentilaso1/CVE-2025-24813-Apache-Tomcat-RCE-PoC](https://github.com/sentilaso1/CVE-2025-24813-Apache-Tomcat-RCE-PoC)
 - [x00byte/PutScanner](https://github.com/x00byte/PutScanner)
 - [Shivshantp/CVE-2025-24813](https://github.com/Shivshantp/CVE-2025-24813)
+- [drcrypterdotru/Apache-GOExploiter](https://github.com/drcrypterdotru/Apache-GOExploiter)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -1301,6 +1325,7 @@
 <code>Bypass/Injection vulnerability in Apache Camel components under particular conditions.\n\nThis issue affects Apache Camel: from 4.10.0 through &lt;= 4.10.1, from 4.8.0 through &lt;= 4.8.4, from 3.10.0 through &lt;= 3.22.3.\n\nUsers are recommended to upgrade to version 4.10.2 for 4.10.x LTS, 4.8.5 for 4.8.x LTS and 3.22.4 for 3.x releases.\n\n\n\nThis vulnerability is present in Camel's default incoming header filter, that allows an attacker to include Camel specific\n\nheaders that for some Camel components can alter the behaviours such as the camel-bean component, to call another method\n\non the bean, than was coded in the application. In the camel-jms component, then a malicious header can be used to send\n\nthe message to another queue (on the same broker) than was coded in the application. This could also be seen by using the camel-exec component\n\n\n\n\nThe attacker would need to inject custom headers, such as HTTP protocols. So if you have Camel applications that are\n\ndirectly connected to the internet via HTTP, then an attacker could include malicious HTTP headers in the HTTP requests\n\nthat are send to the Camel application.\n\n\n\n\nAll the known Camel HTTP component such as camel-servlet, camel-jetty, camel-undertow, camel-platform-http, and camel-netty-http would be vulnerable out of the box.\n\nIn these conditions an attacker could be able to forge a Camel header name and make the bean component invoking other methods in the same bean.\n\nIn terms of usage of the default header filter strategy the list of components using that is: \n\n\n  *  camel-activemq\n  *  camel-activemq6\n  *  camel-amqp\n  *  camel-aws2-sqs\n  *  camel-azure-servicebus\n  *  camel-cxf-rest\n  *  camel-cxf-soap\n  *  camel-http\n  *  camel-jetty\n  *  camel-jms\n  *  camel-kafka\n  *  camel-knative\n  *  camel-mail\n  *  camel-nats\n  *  camel-netty-http\n  *  camel-platform-http\n  *  camel-rest\n  *  camel-sjms\n  *  camel-spring-rabbitmq\n  *  camel-stomp\n  *  camel-tahu\n  *  camel-undertow\n  *  camel-xmpp\n\n\n\n\n\n\nThe vulnerability arises due to a bug in the default filtering mechanism that only blocks headers starting with &quot;Camel&quot;, &quot;camel&quot;, or &quot;org.apache.camel.&quot;. \n\n\nMitigation: You can easily work around this in your Camel applications by removing the headers in your Camel routes. There are many ways of doing this, also globally or per route. This means you could use the removeHeaders EIP, to filter out anything like &quot;cAmel, cAMEL&quot; etc, or in general everything not starting with &quot;Camel&quot;, &quot;camel&quot; or &quot;org.apache.camel.&quot;.
 </code>
 
+- [akamai/CVE-2025-27636-Apache-Camel-PoC](https://github.com/akamai/CVE-2025-27636-Apache-Camel-PoC)
 - [enochgitgamefied/CVE-2025-27636-Practical-Lab](https://github.com/enochgitgamefied/CVE-2025-27636-Practical-Lab)
 
 ### CVE-2025-27817 (2025-06-10)
@@ -1557,6 +1582,7 @@
 - [nkuty/CVE-2025-30208-31125-31486-32395](https://github.com/nkuty/CVE-2025-30208-31125-31486-32395)
 - [TH-SecForge/CVE-2025-30208](https://github.com/TH-SecForge/CVE-2025-30208)
 - [gonn4cry/CVE-2025-30208](https://github.com/gonn4cry/CVE-2025-30208)
+- [Dany60-98/CVE-2025-30208-EXP](https://github.com/Dany60-98/CVE-2025-30208-EXP)
 
 ### CVE-2025-30397 (2025-05-13)
 
@@ -2966,6 +2992,7 @@
 - [0x-crypt/CVE-2025-53770-Scanner](https://github.com/0x-crypt/CVE-2025-53770-Scanner)
 - [Immersive-Labs-Sec/SharePoint-CVE-2025-53770-POC](https://github.com/Immersive-Labs-Sec/SharePoint-CVE-2025-53770-POC)
 - [harryhaxor/CVE-2025-53770-SharePoint-Deserialization-RCE-PoC](https://github.com/harryhaxor/CVE-2025-53770-SharePoint-Deserialization-RCE-PoC)
+- [go-bi/sharepoint-CVE-2025-53770](https://github.com/go-bi/sharepoint-CVE-2025-53770)
 
 ### CVE-2025-53833 (2025-07-14)
 
@@ -2988,12 +3015,20 @@
 
 - [anntsmart/CVE-2025-54135](https://github.com/anntsmart/CVE-2025-54135)
 
+### CVE-2025-54253 (2025-08-05)
+
+<code>Adobe Experience Manager versions 6.5.23 and earlier are affected by a Misconfiguration vulnerability that could result in arbitrary code execution. An attacker could leverage this vulnerability to bypass security mechanisms and execute code. Exploitation of this issue does not require user interaction and scope is changed.
+</code>
+
+- [jm7knz/CVE-2025-54253-Exploit-Demo](https://github.com/jm7knz/CVE-2025-54253-Exploit-Demo)
+
 ### CVE-2025-54309 (2025-07-18)
 
 <code>CrushFTP 10 before 10.8.5 and 11 before 11.3.4_23, when the DMZ proxy feature is not used, mishandles AS2 validation and consequently allows remote attackers to obtain admin access via HTTPS, as exploited in the wild in July 2025.
 </code>
 
 - [issamjr/CVE-2025-54309-EXPLOIT](https://github.com/issamjr/CVE-2025-54309-EXPLOIT)
+- [chin-tech/CrushFTP_CVE-2025-54309](https://github.com/chin-tech/CrushFTP_CVE-2025-54309)
 
 ### CVE-2025-54313 (2025-07-19)
 
@@ -3024,6 +3059,7 @@
 </code>
 
 - [Mr-xn/CVE-2025-54424](https://github.com/Mr-xn/CVE-2025-54424)
+- [hophtien/CVE-2025-54424](https://github.com/hophtien/CVE-2025-54424)
 
 ### CVE-2025-54554 (2025-08-04)
 
@@ -3176,7 +3212,7 @@
 - [Kai2er/CVE-2024-0044-EXP](https://github.com/Kai2er/CVE-2024-0044-EXP)
 - [hunter24x24/cve_2024_0044](https://github.com/hunter24x24/cve_2024_0044)
 - [sridhar-sec/EvilDroid](https://github.com/sridhar-sec/EvilDroid)
-- [nahid0x1/CVE-2024-0044](https://github.com/nahid0x1/CVE-2024-0044)
+- [nishan0x1/CVE-2024-0044](https://github.com/nishan0x1/CVE-2024-0044)
 - [Dit-Developers/CVE-2024-0044-](https://github.com/Dit-Developers/CVE-2024-0044-)
 
 ### CVE-2024-0132 (2024-09-26)
@@ -4696,7 +4732,6 @@
 - [ruizii/CVE-2024-9264](https://github.com/ruizii/CVE-2024-9264)
 - [rvizx/CVE-2024-9264](https://github.com/rvizx/CVE-2024-9264)
 - [patrickpichler/grafana-CVE-2024-9264](https://github.com/patrickpichler/grafana-CVE-2024-9264)
-- [amalpvatayam67/day05-grafana-sqlexpr-lab](https://github.com/amalpvatayam67/day05-grafana-sqlexpr-lab)
 
 ### CVE-2024-9290 (2024-12-13)
 
@@ -25079,7 +25114,6 @@
 - [z3usx01/CVE-2021-23017-POC](https://github.com/z3usx01/CVE-2021-23017-POC)
 - [Cybervixy/Vulnerability-Management](https://github.com/Cybervixy/Vulnerability-Management)
 - [moften/CVE-2021-23017](https://github.com/moften/CVE-2021-23017)
-- [6lj/EVIL-CVE-2021-23017-Update-2025](https://github.com/6lj/EVIL-CVE-2021-23017-Update-2025)
 
 ### CVE-2021-23132 (2021-03-04)
 
@@ -27260,7 +27294,7 @@
 
 - [liuyun201990/StrandHogg2](https://github.com/liuyun201990/StrandHogg2)
 - [tea9/CVE-2020-0096-StrandHogg2](https://github.com/tea9/CVE-2020-0096-StrandHogg2)
-- [nahid0x1/CVE-2020-0096-strandhogg-exploit-p0c](https://github.com/nahid0x1/CVE-2020-0096-strandhogg-exploit-p0c)
+- [nishan0x1/CVE-2020-0096-strandhogg-exploit-p0c](https://github.com/nishan0x1/CVE-2020-0096-strandhogg-exploit-p0c)
 
 ### CVE-2020-0108 (2020-08-11)
 
@@ -40269,7 +40303,6 @@
 - [w0x68y/CVE-2017-12615-EXP](https://github.com/w0x68y/CVE-2017-12615-EXP)
 - [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
 - [xiaokp7/Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP)
-- [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro)
 - [wudidwo/CVE-2017-12615-poc](https://github.com/wudidwo/CVE-2017-12615-poc)
 
 ### CVE-2017-12617 (2017-10-03)
@@ -40369,7 +40402,7 @@
 - [giacomoferretti/janus-toolkit](https://github.com/giacomoferretti/janus-toolkit)
 - [tea9/CVE-2017-13156-Janus](https://github.com/tea9/CVE-2017-13156-Janus)
 - [M507/CVE-2017-13156](https://github.com/M507/CVE-2017-13156)
-- [nahid0x1/Janus-Vulnerability-CVE-2017-13156-Exploit](https://github.com/nahid0x1/Janus-Vulnerability-CVE-2017-13156-Exploit)
+- [nishan0x1/Janus-Vulnerability-CVE-2017-13156-Exploit](https://github.com/nishan0x1/Janus-Vulnerability-CVE-2017-13156-Exploit)
 - [nictjh/threatDemos](https://github.com/nictjh/threatDemos)
 
 ### CVE-2017-13208 (2018-01-12)
@@ -45317,6 +45350,7 @@
 - [IamLucif3r/CVE-2007-2447-Exploit](https://github.com/IamLucif3r/CVE-2007-2447-Exploit)
 - [foudadev/CVE-2007-2447](https://github.com/foudadev/CVE-2007-2447)
 - [MrRoma577/exploit_cve-2007-2447_again](https://github.com/MrRoma577/exploit_cve-2007-2447_again)
+- [SeifEldienAhmad/Penetration-Testing-on-Metasploitable2](https://github.com/SeifEldienAhmad/Penetration-Testing-on-Metasploitable2)
 
 ### CVE-2007-3830 (2007-07-17)
 
