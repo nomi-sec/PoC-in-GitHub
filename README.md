@@ -516,7 +516,7 @@
 <code>The Drag and Drop Multiple File Upload for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file uploads due to insufficient file type validation in all versions up to, and including, 1.3.8.9. This makes it possible for unauthenticated attackers to bypass the plugin's blacklist and upload .phar or other dangerous file types on the affected site's server, which may make remote code execution possible on the servers that are configured to handle .phar files as executable PHP scripts, particularly in default Apache+mod_php configurations where the file extension is not strictly validated before being passed to the PHP interpreter.
 </code>
 
-- [blueisbeautiful/CVE-2025-3515](https://github.com/blueisbeautiful/CVE-2025-3515)
+- [brokendreamsclub/CVE-2025-3515](https://github.com/brokendreamsclub/CVE-2025-3515)
 - [ImBIOS/lab-cve-2025-3515](https://github.com/ImBIOS/lab-cve-2025-3515)
 - [MrSoules/lab-cve-2025-3515](https://github.com/MrSoules/lab-cve-2025-3515)
 
@@ -603,6 +603,13 @@
 
 - [Nxploited/CVE-2025-4190](https://github.com/Nxploited/CVE-2025-4190)
 - [GadaLuBau1337/CVE-2025-4190](https://github.com/GadaLuBau1337/CVE-2025-4190)
+
+### CVE-2025-4275 (2025-06-11)
+
+<code>A vulnerability in the digital signature verification process does not properly validate variable attributes which allows an attacker to bypass signature verification by creating a non-authenticated NVRAM variable. An attacker may to execute arbitrary signed UEFI code and bypass Secure Boot.
+</code>
+
+- [NikolajSchlej/Hydroph0bia](https://github.com/NikolajSchlej/Hydroph0bia)
 
 ### CVE-2025-4322 (2025-05-20)
 
@@ -3751,6 +3758,9 @@
 
 - [1Altruist/CVE-2025-46271-Reverse-Shell-PoC](https://github.com/1Altruist/CVE-2025-46271-Reverse-Shell-PoC)
 
+### CVE-2025-46408
+- [shinyColumn/CVE-2025-46408](https://github.com/shinyColumn/CVE-2025-46408)
+
 ### CVE-2025-46657 (2025-04-27)
 
 <code>Karaz Karazal through 2025-04-14 allows reflected XSS via the lang parameter to the default URI.
@@ -4107,6 +4117,9 @@
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
 
+### CVE-2025-50110
+- [shinyColumn/CVE-2025-50110](https://github.com/shinyColumn/CVE-2025-50110)
+
 ### CVE-2025-50154 (2025-08-12)
 
 <code>Exposure of sensitive information to an unauthorized actor in Windows File Explorer allows an unauthorized attacker to perform spoofing over a network.
@@ -4266,6 +4279,9 @@
 </code>
 
 - [SacX-7/CVE-2025-50867](https://github.com/SacX-7/CVE-2025-50867)
+
+### CVE-2025-50944
+- [shinyColumn/CVE-2025-50944](https://github.com/shinyColumn/CVE-2025-50944)
 
 ### CVE-2025-51006
 - [sy460129/CVE-2025-51006](https://github.com/sy460129/CVE-2025-51006)
@@ -4586,22 +4602,22 @@
 <code>Deserialization of Untrusted Data vulnerability in Sitecore Experience Manager (XM), Sitecore Experience Platform (XP) allows Remote Code Execution (RCE).This issue affects Experience Manager (XM): from 9.0 through 9.3, from 10.0 through 10.4; Experience Platform (XP): from 9.0 through 9.3, from 10.0 through 10.4.
 </code>
 
-- [blueisbeautiful/CVE-2025-53691](https://github.com/blueisbeautiful/CVE-2025-53691)
+- [brokendreamsclub/CVE-2025-53691](https://github.com/brokendreamsclub/CVE-2025-53691)
 
 ### CVE-2025-53693 (2025-09-03)
 
 <code>Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') vulnerability in Sitecore Sitecore Experience Manager (XM), Sitecore Experience Platform (XP) allows Cache Poisoning.This issue affects Sitecore Experience Manager (XM): from 9.0 through 9.3, from 10.0 through 10.4; Experience Platform (XP): from 9.0 through 9.3, from 10.0 through 10.4.
 </code>
 
-- [blueisbeautiful/CVE-2025-53693](https://github.com/blueisbeautiful/CVE-2025-53693)
+- [brokendreamsclub/CVE-2025-53693](https://github.com/brokendreamsclub/CVE-2025-53693)
 
 ### CVE-2025-53694 (2025-09-03)
 
 <code>Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Sitecore Sitecore Experience Manager (XM), Sitecore Experience Platform (XP).This issue affects Sitecore Experience Manager (XM): from 9.2 through 10.4; Experience Platform (XP): from 9.2 through 10.4.
 </code>
 
-- [blueisbeautiful/CVE-2025-53694](https://github.com/blueisbeautiful/CVE-2025-53694)
-- [blueisbeautiful/CVE-2025-53694-to-CVE-2025-53691](https://github.com/blueisbeautiful/CVE-2025-53694-to-CVE-2025-53691)
+- [brokendreamsclub/CVE-2025-53694](https://github.com/brokendreamsclub/CVE-2025-53694)
+- [brokendreamsclub/CVE-2025-53694-to-CVE-2025-53691](https://github.com/brokendreamsclub/CVE-2025-53694-to-CVE-2025-53691)
 
 ### CVE-2025-53770 (2025-07-20)
 
@@ -4707,7 +4723,7 @@
 
 - [issamjr/CVE-2025-54309-EXPLOIT](https://github.com/issamjr/CVE-2025-54309-EXPLOIT)
 - [watchtowrlabs/watchTowr-vs-CrushFTP-Authentication-Bypass-CVE-2025-54309](https://github.com/watchtowrlabs/watchTowr-vs-CrushFTP-Authentication-Bypass-CVE-2025-54309)
-- [blueisbeautiful/CVE-2025-54309](https://github.com/blueisbeautiful/CVE-2025-54309)
+- [brokendreamsclub/CVE-2025-54309](https://github.com/brokendreamsclub/CVE-2025-54309)
 - [foregenix/CVE-2025-54309](https://github.com/foregenix/CVE-2025-54309)
 - [whisperer1290/CVE-2025-54309__Enhanced_exploit](https://github.com/whisperer1290/CVE-2025-54309__Enhanced_exploit)
 
@@ -4963,7 +4979,7 @@
 
 - [rxerium/CVE-2025-57819](https://github.com/rxerium/CVE-2025-57819)
 - [Sucuri-Labs/CVE-2025-57819-ioc-check](https://github.com/Sucuri-Labs/CVE-2025-57819-ioc-check)
-- [blueisbeautiful/CVE-2025-57819](https://github.com/blueisbeautiful/CVE-2025-57819)
+- [brokendreamsclub/CVE-2025-57819](https://github.com/brokendreamsclub/CVE-2025-57819)
 - [net-hex/CVE-2025-57819](https://github.com/net-hex/CVE-2025-57819)
 - [ImBIOS/lab-cve-2025-57819](https://github.com/ImBIOS/lab-cve-2025-57819)
 - [B1ack4sh/Blackash-CVE-2025-57819](https://github.com/B1ack4sh/Blackash-CVE-2025-57819)
@@ -6709,6 +6725,7 @@
 - [AzrDll/CVE-2024-6387](https://github.com/AzrDll/CVE-2024-6387)
 - [xiw1ll/CVE-2024-6387_Checker](https://github.com/xiw1ll/CVE-2024-6387_Checker)
 - [moften/regreSSHion-CVE-2024-6387](https://github.com/moften/regreSSHion-CVE-2024-6387)
+- [OhDamnn/Noregressh](https://github.com/OhDamnn/Noregressh)
 
 ### CVE-2024-6460 (2024-08-16)
 
@@ -32481,6 +32498,7 @@
 - [iamz24/CVE-2021-3493_CVE-2022-3357](https://github.com/iamz24/CVE-2021-3493_CVE-2022-3357)
 - [fathallah17/OverlayFS-CVE-2021-3493](https://github.com/fathallah17/OverlayFS-CVE-2021-3493)
 - [Sornphut/OverlayFS---CVE-2021-3493](https://github.com/Sornphut/OverlayFS---CVE-2021-3493)
+- [spideyctf/UbuntuTouchSecurityVAPTReport](https://github.com/spideyctf/UbuntuTouchSecurityVAPTReport)
 
 ### CVE-2021-3516 (2021-06-01)
 
@@ -35749,13 +35767,6 @@
 </code>
 
 - [Captain-v-hook/PoC-for-CVE-2021-38540-](https://github.com/Captain-v-hook/PoC-for-CVE-2021-38540-)
-
-### CVE-2021-38560 (2022-02-01)
-
-<code>Ivanti Service Manager 2021.1 allows reflected XSS via the appName parameter associated with ConfigDB calls, such as in RelocateAttachments.aspx.
-</code>
-
-- [os909/iVANTI-CVE-2021-38560](https://github.com/os909/iVANTI-CVE-2021-38560)
 
 ### CVE-2021-38583 (2021-08-13)
 
@@ -51368,7 +51379,7 @@
 <code>The GDrv low-level driver in GIGABYTE APP Center v1.05.21 and earlier, AORUS GRAPHICS ENGINE before 1.57, XTREME GAMING ENGINE before 1.26, and OC GURU II v2.08 exposes functionality to read and write Machine Specific Registers (MSRs).
 </code>
 
-- [blueisbeautiful/CVE-2018-19323](https://github.com/blueisbeautiful/CVE-2018-19323)
+- [brokendreamsclub/CVE-2018-19323](https://github.com/brokendreamsclub/CVE-2018-19323)
 
 ### CVE-2018-19410 (2018-11-21)
 
