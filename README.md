@@ -1191,6 +1191,7 @@
 - [walidpyh/CVE-2025-8088](https://github.com/walidpyh/CVE-2025-8088)
 - [hexsecteam/CVE-2025-8088-Winrar-Tool](https://github.com/hexsecteam/CVE-2025-8088-Winrar-Tool)
 - [tartalu/CVE-2025-8088](https://github.com/tartalu/CVE-2025-8088)
+- [techcorp/CVE-2025-8088-Exploit](https://github.com/techcorp/CVE-2025-8088-Exploit)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -1437,6 +1438,13 @@
 
 - [Network-Sec/CVE-2025-21420-PoC](https://github.com/Network-Sec/CVE-2025-21420-PoC)
 - [toxy4ny/edge-maradeur](https://github.com/toxy4ny/edge-maradeur)
+
+### CVE-2025-21479 (2025-06-03)
+
+<code>Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of commands.
+</code>
+
+- [zhuowei/cheese](https://github.com/zhuowei/cheese)
 
 ### CVE-2025-21497 (2025-01-21)
 
@@ -5126,7 +5134,7 @@
 - [Kai2er/CVE-2024-0044-EXP](https://github.com/Kai2er/CVE-2024-0044-EXP)
 - [hunter24x24/cve_2024_0044](https://github.com/hunter24x24/cve_2024_0044)
 - [sridhar-sec/EvilDroid](https://github.com/sridhar-sec/EvilDroid)
-- [nishan0x1/CVE-2024-0044](https://github.com/nishan0x1/CVE-2024-0044)
+- [l1ackernishan/CVE-2024-0044](https://github.com/l1ackernishan/CVE-2024-0044)
 - [MrW0l05zyn/cve-2024-0044](https://github.com/MrW0l05zyn/cve-2024-0044)
 - [canyie/CVE-2024-0044](https://github.com/canyie/CVE-2024-0044)
 - [Dit-Developers/CVE-2024-0044-](https://github.com/Dit-Developers/CVE-2024-0044-)
@@ -18826,13 +18834,6 @@
 - [byt3n33dl3/CLFS](https://github.com/byt3n33dl3/CLFS)
 - [Vulmatch/CVE-2023-28252](https://github.com/Vulmatch/CVE-2023-28252)
 
-### CVE-2023-28293 (2023-04-11)
-
-<code>Windows Kernel Elevation of Privilege Vulnerability
-</code>
-
-- [HexilionLabs/CVE-2023-28293](https://github.com/HexilionLabs/CVE-2023-28293)
-
 ### CVE-2023-28303 (2023-06-13)
 
 <code>Windows Snipping Tool Information Disclosure Vulnerability
@@ -23595,6 +23596,7 @@
 </code>
 
 - [shoucheng3/apache__dolphinscheduler_CVE-2023-49109_3-2-0](https://github.com/shoucheng3/apache__dolphinscheduler_CVE-2023-49109_3-2-0)
+- [shoucheng3/apache__dolphinscheduler_CVE-2023-49109_3_2_1_fixed](https://github.com/shoucheng3/apache__dolphinscheduler_CVE-2023-49109_3_2_1_fixed)
 
 ### CVE-2023-49313 (2023-11-28)
 
@@ -24204,6 +24206,13 @@
 </code>
 
 - [squ1dw3rm/CVE-2023-52268](https://github.com/squ1dw3rm/CVE-2023-52268)
+
+### CVE-2023-52440 (2024-02-21)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix slub overflow in ksmbd_decode_ntlmssp_auth_blob()\n\nIf authblob-&gt;SessionKey.Length is bigger than session key\nsize(CIFS_KEY_SIZE), slub overflow can happen in key exchange codes.\ncifs_arc4_crypt copy to session key array from SessionKey from client.
+</code>
+
+- [BitsByWill/ksmbd-n-day](https://github.com/BitsByWill/ksmbd-n-day)
 
 ### CVE-2023-52654 (2024-05-09)
 
@@ -38363,7 +38372,7 @@
 - [wyu0hop/CVE-2020-0096](https://github.com/wyu0hop/CVE-2020-0096)
 - [liuyun201990/StrandHogg2](https://github.com/liuyun201990/StrandHogg2)
 - [tea9/CVE-2020-0096-StrandHogg2](https://github.com/tea9/CVE-2020-0096-StrandHogg2)
-- [nishan0x1/CVE-2020-0096-strandhogg-exploit-p0c](https://github.com/nishan0x1/CVE-2020-0096-strandhogg-exploit-p0c)
+- [l1ackernishan/CVE-2020-0096-strandhogg-exploit-p0c](https://github.com/l1ackernishan/CVE-2020-0096-strandhogg-exploit-p0c)
 
 ### CVE-2020-0108 (2020-08-11)
 
@@ -45748,6 +45757,7 @@
 </code>
 
 - [shoucheng3/apache__jspwiki_CVE-2019-10089_2-11-0-M4](https://github.com/shoucheng3/apache__jspwiki_CVE-2019-10089_2-11-0-M4)
+- [shoucheng3/apache__jspwiki_CVE-2019-10089_2_11_0_M5_fixed](https://github.com/shoucheng3/apache__jspwiki_CVE-2019-10089_2_11_0_M5_fixed)
 
 ### CVE-2019-10092 (2019-09-26)
 
@@ -53723,7 +53733,7 @@
 - [giacomoferretti/janus-toolkit](https://github.com/giacomoferretti/janus-toolkit)
 - [tea9/CVE-2017-13156-Janus](https://github.com/tea9/CVE-2017-13156-Janus)
 - [M507/CVE-2017-13156](https://github.com/M507/CVE-2017-13156)
-- [nishan0x1/Janus-Vulnerability-CVE-2017-13156-Exploit](https://github.com/nishan0x1/Janus-Vulnerability-CVE-2017-13156-Exploit)
+- [l1ackernishan/Janus-Vulnerability-CVE-2017-13156-Exploit](https://github.com/l1ackernishan/Janus-Vulnerability-CVE-2017-13156-Exploit)
 - [nictjh/threatDemos](https://github.com/nictjh/threatDemos)
 
 ### CVE-2017-13208 (2018-01-12)
