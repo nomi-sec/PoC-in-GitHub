@@ -3299,6 +3299,13 @@
 
 - [AdnanSiyat/How-to-Patch-CVE-2025-32709](https://github.com/AdnanSiyat/How-to-Patch-CVE-2025-32709)
 
+### CVE-2025-32710 (2025-06-10)
+
+<code>Use after free in Windows Remote Desktop Services allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [Sincan2/RCE-CVE-2025-32710](https://github.com/Sincan2/RCE-CVE-2025-32710)
+
 ### CVE-2025-32711 (2025-06-11)
 
 <code>Ai command injection in M365 Copilot allows an unauthorized attacker to disclose information over a network.
@@ -32744,13 +32751,6 @@
 - [radzek15/Python-Pwnkit-CVE-2021-4034-exploit](https://github.com/radzek15/Python-Pwnkit-CVE-2021-4034-exploit)
 - [dr4xp/pwnkit-helper](https://github.com/dr4xp/pwnkit-helper)
 
-### CVE-2021-4043 (2022-02-04)
-
-<code>NULL Pointer Dereference in GitHub repository gpac/gpac prior to 1.1.0.
-</code>
-
-- [cyberark/PwnKit-Hunter](https://github.com/cyberark/PwnKit-Hunter)
-
 ### CVE-2021-4044 (2021-12-14)
 
 <code>Internally libssl in OpenSSL calls X509_verify_cert() on the client side to verify a certificate supplied by a server. That function may return a negative return value to indicate an internal error (for example out of memory). Such a negative return value is mishandled by OpenSSL and will cause an IO function (such as SSL_connect() or SSL_do_handshake()) to not indicate success and a subsequent call to SSL_get_error() to return the value SSL_ERROR_WANT_RETRY_VERIFY. This return value is only supposed to be returned by OpenSSL if the application has previously called SSL_CTX_set_cert_verify_callback(). Since most applications do not do this the SSL_ERROR_WANT_RETRY_VERIFY return value from SSL_get_error() will be totally unexpected and applications may not behave correctly as a result. The exact behaviour will depend on the application but it could result in crashes, infinite loops or other similar incorrect responses. This issue is made more serious in combination with a separate bug in OpenSSL 3.0 that will cause X509_verify_cert() to indicate an internal error when processing a certificate chain. This will occur where a certificate does not include the Subject Alternative Name extension but where a Certificate Authority has enforced name constraints. This issue can occur even with valid chains. By combining the two issues an attacker could induce incorrect, application dependent behaviour. Fixed in OpenSSL 3.0.1 (Affected 3.0.0).
@@ -34832,6 +34832,7 @@
 - [adibna/cve-2021-31630](https://github.com/adibna/cve-2021-31630)
 - [manuelsantosiglesias/CVE-2021-31630](https://github.com/manuelsantosiglesias/CVE-2021-31630)
 - [FlojBoj/CVE-2021-31630](https://github.com/FlojBoj/CVE-2021-31630)
+- [machevalia/OpenPLC-CVE-2021-31630-RCE](https://github.com/machevalia/OpenPLC-CVE-2021-31630-RCE)
 
 ### CVE-2021-31728 (2021-05-17)
 
