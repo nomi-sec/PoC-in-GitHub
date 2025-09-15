@@ -3496,6 +3496,13 @@
 
 - [keymaker-arch/NFSundown](https://github.com/keymaker-arch/NFSundown)
 
+### CVE-2025-38501 (2025-08-16)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: limit repeated connections from clients with the same IP\n\nRepeated connections from clients with the same IP address may exhaust\nthe max connections and prevent other normal client connections.\nThis patch limit repeated connections from clients with the same IP.
+</code>
+
+- [keymaker-arch/KSMBDrain](https://github.com/keymaker-arch/KSMBDrain)
+
 ### CVE-2025-38676 (2025-08-26)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\niommu/amd: Avoid stack buffer overflow from kernel cmdline\n\nWhile the kernel command line is considered trusted in most environments,\navoid writing 1 byte past the end of &quot;acpiid&quot; if the &quot;str&quot; argument is\nmaximum length.
@@ -3669,10 +3676,6 @@
 </code>
 
 - [barisbaydur/CVE-2025-44148](https://github.com/barisbaydur/CVE-2025-44148)
-
-### CVE-2025-44228
-- [Waletow/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud](https://github.com/Waletow/Office-Exploit-Cve2025-Xml-Doc-Docx-Rce-Builder-Fud)
-- [Waletow/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce](https://github.com/Waletow/Lnk-Exploit-FileBinder-Certificate-Spoofer-Reg-Doc-Cve-Rce)
 
 ### CVE-2025-44603
 - [Moulish2004/CVE-2025-44603-CSRF-Leads_to_Create_FakeUsers](https://github.com/Moulish2004/CVE-2025-44603-CSRF-Leads_to_Create_FakeUsers)
@@ -4019,7 +4022,6 @@
 - [fluoworite/CVE-2025-48384-sub](https://github.com/fluoworite/CVE-2025-48384-sub)
 - [beishanxueyuan/CVE-2025-48384](https://github.com/beishanxueyuan/CVE-2025-48384)
 - [beishanxueyuan/CVE-2025-48384-test](https://github.com/beishanxueyuan/CVE-2025-48384-test)
-- [jideasn/cve-2025-48384](https://github.com/jideasn/cve-2025-48384)
 - [replicatorbot/CVE-2025-48384](https://github.com/replicatorbot/CVE-2025-48384)
 - [replicatorbot/CVE-2025-48384-POC](https://github.com/replicatorbot/CVE-2025-48384-POC)
 - [eliox01/CVE-2025-48384](https://github.com/eliox01/CVE-2025-48384)
@@ -4028,8 +4030,10 @@
 - [butyraldehyde/CVE-2025-48384-PoC-Part2](https://github.com/butyraldehyde/CVE-2025-48384-PoC-Part2)
 - [arun1033/CVE-2025-48384](https://github.com/arun1033/CVE-2025-48384)
 - [EdwardYeIntrix/CVE-2025-48384-Scanner](https://github.com/EdwardYeIntrix/CVE-2025-48384-Scanner)
+- [s41r4j/CVE-2025-48384](https://github.com/s41r4j/CVE-2025-48384)
 - [airkewld/cve-2025-48384](https://github.com/airkewld/cve-2025-48384)
 - [airkewld/cve-2025-48384-submodule](https://github.com/airkewld/cve-2025-48384-submodule)
+- [s41r4j/CVE-2025-48384-submodule](https://github.com/s41r4j/CVE-2025-48384-submodule)
 
 ### CVE-2025-48543 (2025-09-04)
 
@@ -5172,7 +5176,7 @@
 - [Kai2er/CVE-2024-0044-EXP](https://github.com/Kai2er/CVE-2024-0044-EXP)
 - [hunter24x24/cve_2024_0044](https://github.com/hunter24x24/cve_2024_0044)
 - [sridhar-sec/EvilDroid](https://github.com/sridhar-sec/EvilDroid)
-- [l1ackernishan/CVE-2024-0044](https://github.com/l1ackernishan/CVE-2024-0044)
+- [nishan0x1/CVE-2024-0044](https://github.com/nishan0x1/CVE-2024-0044)
 - [MrW0l05zyn/cve-2024-0044](https://github.com/MrW0l05zyn/cve-2024-0044)
 - [canyie/CVE-2024-0044](https://github.com/canyie/CVE-2024-0044)
 - [Dit-Developers/CVE-2024-0044-](https://github.com/Dit-Developers/CVE-2024-0044-)
@@ -38410,7 +38414,7 @@
 - [wyu0hop/CVE-2020-0096](https://github.com/wyu0hop/CVE-2020-0096)
 - [liuyun201990/StrandHogg2](https://github.com/liuyun201990/StrandHogg2)
 - [tea9/CVE-2020-0096-StrandHogg2](https://github.com/tea9/CVE-2020-0096-StrandHogg2)
-- [l1ackernishan/CVE-2020-0096-strandhogg-exploit-p0c](https://github.com/l1ackernishan/CVE-2020-0096-strandhogg-exploit-p0c)
+- [nishan0x1/CVE-2020-0096-strandhogg-exploit-p0c](https://github.com/nishan0x1/CVE-2020-0096-strandhogg-exploit-p0c)
 
 ### CVE-2020-0108 (2020-08-11)
 
@@ -53766,7 +53770,7 @@
 - [giacomoferretti/janus-toolkit](https://github.com/giacomoferretti/janus-toolkit)
 - [tea9/CVE-2017-13156-Janus](https://github.com/tea9/CVE-2017-13156-Janus)
 - [M507/CVE-2017-13156](https://github.com/M507/CVE-2017-13156)
-- [l1ackernishan/Janus-Vulnerability-CVE-2017-13156-Exploit](https://github.com/l1ackernishan/Janus-Vulnerability-CVE-2017-13156-Exploit)
+- [nishan0x1/Janus-Vulnerability-CVE-2017-13156-Exploit](https://github.com/nishan0x1/Janus-Vulnerability-CVE-2017-13156-Exploit)
 - [nictjh/threatDemos](https://github.com/nictjh/threatDemos)
 
 ### CVE-2017-13208 (2018-01-12)
@@ -59128,6 +59132,8 @@
 
 - [thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts)
 - [NoTrustedx/Exploit_MS08-067](https://github.com/NoTrustedx/Exploit_MS08-067)
+- [BinRacer/ms08-067.py](https://github.com/BinRacer/ms08-067.py)
+- [BinRacer/ms08-067](https://github.com/BinRacer/ms08-067)
 
 ### CVE-2008-4609 (2008-10-20)
 
