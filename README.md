@@ -919,6 +919,7 @@
 <code>A Local Privilege Escalation (LPE) vulnerability was found in libblockdev. Generally, the &quot;allow_active&quot; setting in Polkit permits a physically present user to take certain actions based on the session type. Due to the way libblockdev interacts with the udisks daemon, an &quot;allow_active&quot; user on a system may be able escalate to full root privileges on the target host. Normally, udisks mounts user-provided filesystem images with security flags like nosuid and nodev to prevent privilege escalation.  However, a local attacker can create a specially crafted XFS image containing a SUID-root shell, then trick udisks into resizing it. This mounts their malicious filesystem with root privileges, allowing them to execute their SUID-root shell and gain complete control of the system.
 </code>
 
+- [guinea-offensive-security/CVE-2025-6019](https://github.com/guinea-offensive-security/CVE-2025-6019)
 - [neko205-mx/CVE-2025-6019_Exploit](https://github.com/neko205-mx/CVE-2025-6019_Exploit)
 - [harshitvarma05/CVE-2025-6019](https://github.com/harshitvarma05/CVE-2025-6019)
 
@@ -1365,9 +1366,6 @@
 </code>
 
 - [MooseLoveti/PagSeguro-Connect-Para-WooCommerce-CVE-Report](https://github.com/MooseLoveti/PagSeguro-Connect-Para-WooCommerce-CVE-Report)
-
-### CVE-2025-12654
-- [Walekmw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder](https://github.com/Walekmw/Anydesk-Exploit-CVE-2025-12654-RCE-Builder)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -3799,7 +3797,11 @@
 
 - [1Altruist/CVE-2025-46271-Reverse-Shell-PoC](https://github.com/1Altruist/CVE-2025-46271-Reverse-Shell-PoC)
 
-### CVE-2025-46408
+### CVE-2025-46408 (2025-09-15)
+
+<code>An issue was discovered in the methods push.lite.avtech.com.AvtechLib.GetHttpsResponse and push.lite.avtech.com.Push_HttpService.getNewHttpClient in AVTECH EagleEyes 2.0.0. The methods set ALLOW_ALL_HOSTNAME_VERIFIER, bypassing domain validation.
+</code>
+
 - [shinyColumn/CVE-2025-46408](https://github.com/shinyColumn/CVE-2025-46408)
 
 ### CVE-2025-46657 (2025-04-27)
@@ -4166,7 +4168,11 @@
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
 
-### CVE-2025-50110
+### CVE-2025-50110 (2025-09-15)
+
+<code>An issue was discovered in the method push.lite.avtech.com.AvtechLib.GetHttpsResponse in AVTECH EagleEyes Lite 2.0.0, the GetHttpsResponse method transmits sensitive information - including internal server URLs, account IDs, passwords, and device tokens - as plaintext query parameters over HTTPS
+</code>
+
 - [shinyColumn/CVE-2025-50110](https://github.com/shinyColumn/CVE-2025-50110)
 
 ### CVE-2025-50154 (2025-08-12)
@@ -4329,7 +4335,11 @@
 
 - [SacX-7/CVE-2025-50867](https://github.com/SacX-7/CVE-2025-50867)
 
-### CVE-2025-50944
+### CVE-2025-50944 (2025-09-15)
+
+<code>An issue was discovered in the method push.lite.avtech.com.MySSLSocketFactoryNew.checkServerTrusted in AVTECH EagleEyes 2.0.0. The custom X509TrustManager used in checkServerTrusted only checks the certificate's expiration date, skipping proper TLS chain validation.
+</code>
+
 - [shinyColumn/CVE-2025-50944](https://github.com/shinyColumn/CVE-2025-50944)
 
 ### CVE-2025-51006
@@ -5074,6 +5084,13 @@
 </code>
 
 - [SexyShoelessGodofWar/CVE-2025-58780](https://github.com/SexyShoelessGodofWar/CVE-2025-58780)
+
+### CVE-2025-59376 (2025-09-15)
+
+<code>feiskyer mcp-kubernetes-server through 0.1.11 does not consider chained commands in the implementation of --disable-write and --disable-delete, e.g., it allows a &quot;kubectl version; kubectl delete pod&quot; command because the first word (i.e., &quot;version&quot;) is not a write or delete operation.
+</code>
+
+- [william31212/CVE-Requests-1896609](https://github.com/william31212/CVE-Requests-1896609)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
@@ -9261,6 +9278,7 @@
 - [brandonhjh/Jenkins-CVE-2024-23897-Exploit-Demo](https://github.com/brandonhjh/Jenkins-CVE-2024-23897-Exploit-Demo)
 - [tvasari/CVE-2024-23897](https://github.com/tvasari/CVE-2024-23897)
 - [Fineken/Jenkins-CVE-2024-23897-Lab](https://github.com/Fineken/Jenkins-CVE-2024-23897-Lab)
+- [amalpvatayam67/day03-jenkins-23897](https://github.com/amalpvatayam67/day03-jenkins-23897)
 
 ### CVE-2024-23898 (2024-01-24)
 
@@ -10261,6 +10279,7 @@
 - [Naved124/CVE-2024-28397-js2py-Sandbox-Escape](https://github.com/Naved124/CVE-2024-28397-js2py-Sandbox-Escape)
 - [ExtremeUday/Remote-Code-Execution-CVE-2024-28397-pyload-ng-js2py-](https://github.com/ExtremeUday/Remote-Code-Execution-CVE-2024-28397-pyload-ng-js2py-)
 - [naclapor/CVE-2024-28397](https://github.com/naclapor/CVE-2024-28397)
+- [0xDTC/js2py-Sandbox-Escape-CVE-2024-28397-RCE](https://github.com/0xDTC/js2py-Sandbox-Escape-CVE-2024-28397-RCE)
 
 ### CVE-2024-28515 (2024-04-03)
 
@@ -45748,6 +45767,7 @@
 - [MAHajian/CVE-2019-9978](https://github.com/MAHajian/CVE-2019-9978)
 - [echoosso/CVE-2019-9978](https://github.com/echoosso/CVE-2019-9978)
 - [Housma/CVE-2019-9978-Social-Warfare-WordPress-Plugin-RCE](https://github.com/Housma/CVE-2019-9978-Social-Warfare-WordPress-Plugin-RCE)
+- [xxoprt/payloadCVE-2019-9978](https://github.com/xxoprt/payloadCVE-2019-9978)
 
 ### CVE-2019-10008 (2019-04-24)
 
@@ -58552,7 +58572,6 @@
 - [0xB0y426/CVE-2011-2523-PoC](https://github.com/0xB0y426/CVE-2011-2523-PoC)
 - [AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research)
 - [Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit](https://github.com/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit)
-- [everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-](https://github.com/everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-)
 - [NullBrunk/CVE-2011-2523](https://github.com/NullBrunk/CVE-2011-2523)
 - [Lychi3/vsftpd-backdoor](https://github.com/Lychi3/vsftpd-backdoor)
 - [vedpakhare/vsftpd-234-vuln-report](https://github.com/vedpakhare/vsftpd-234-vuln-report)
