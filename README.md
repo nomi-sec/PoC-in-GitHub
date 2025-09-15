@@ -446,6 +446,7 @@
 </code>
 
 - [abrewer251/CVE-2025-2945_PgAdmin_PoC](https://github.com/abrewer251/CVE-2025-2945_PgAdmin_PoC)
+- [Cycloctane/cve-2025-2945-poc](https://github.com/Cycloctane/cve-2025-2945-poc)
 
 ### CVE-2025-2995 (2025-03-31)
 
@@ -541,6 +542,13 @@
 
 - [Nxploited/CVE-2025-3605](https://github.com/Nxploited/CVE-2025-3605)
 - [GadaLuBau1337/CVE-2025-3605](https://github.com/GadaLuBau1337/CVE-2025-3605)
+
+### CVE-2025-3639 (2025-08-18)
+
+<code>Liferay Portal 7.3.0 through 7.4.3.132, and Liferay DXP 2025.Q1 through 2025.Q1.6, 2024.Q4.0 through 2024.Q4.7, 2024.Q3.1 through 2024.Q3.13, 2024.Q2.0 through 2024.Q2.13, 2024.Q1.1 through 2024.Q1.15, 7.4 GA through update 92 and 7.3 GA through update 36 allows unauthenticated users with valid credentials to bypass the login process by changing the POST method to GET, once the site has MFA enabled.
+</code>
+
+- [6lj/CVE-2025-3639](https://github.com/6lj/CVE-2025-3639)
 
 ### CVE-2025-3776 (2025-04-24)
 
@@ -2983,6 +2991,7 @@
 - [0xgh057r3c0n/CVE-2025-31161](https://github.com/0xgh057r3c0n/CVE-2025-31161)
 - [r0otk3r/CVE-2025-31161](https://github.com/r0otk3r/CVE-2025-31161)
 - [f4dee-backup/CVE-2025-31161](https://github.com/f4dee-backup/CVE-2025-31161)
+- [acan0007/CVE-2025-31161](https://github.com/acan0007/CVE-2025-31161)
 
 ### CVE-2025-31200 (2025-04-16)
 
@@ -4880,6 +4889,13 @@
 </code>
 
 - [h4xnz/CVE-2025-55232-Exploit](https://github.com/h4xnz/CVE-2025-55232-Exploit)
+
+### CVE-2025-55234 (2025-09-09)
+
+<code>SMB Server might be susceptible to relay attacks depending on the configuration. An attacker who successfully exploited these vulnerabilities could perform relay attacks and make the users subject to elevation of privilege attacks.\nThe SMB Server already supports mechanisms for hardening against relay attacks:\n\nSMB Server signing\nSMB Server Extended Protection for Authentication (EPA)\n\nMicrosoft is releasing this CVE to provide customers with audit capabilities to help them to assess their environment and to identify any potential device or software incompatibility issues before deploying SMB Server hardening measures that protect against relay attacks.\nIf you have not already enabled SMB Server hardening measures, we advise customers to take the following actions to be protected from these relay attacks:\n\nAssess your environment by utilizing the audit capabilities that we are exposing in the September 2025 security updates.  See Support for Audit Events to deploy SMB Server Hardening—SMB Server Signing &amp;amp; SMB Server EPA.\nAdopt appropriate SMB Server hardening measures.
+</code>
+
+- [mrk336/Patch-the-Path-CVE-2025-55234-Detection-Defense](https://github.com/mrk336/Patch-the-Path-CVE-2025-55234-Detection-Defense)
 
 ### CVE-2025-55287 (2025-08-18)
 
@@ -50315,6 +50331,7 @@
 </code>
 
 - [shoucheng3/apache__tika_CVE-2018-11762_1-18](https://github.com/shoucheng3/apache__tika_CVE-2018-11762_1-18)
+- [shoucheng3/apache__tika_CVE-2018-11762_1_19_fixed](https://github.com/shoucheng3/apache__tika_CVE-2018-11762_1_19_fixed)
 
 ### CVE-2018-11770 (2018-08-13)
 
