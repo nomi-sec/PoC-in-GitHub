@@ -339,7 +339,11 @@
 
 - [sahici/CVE-2025-2301](https://github.com/sahici/CVE-2025-2301)
 
-### CVE-2025-2404
+### CVE-2025-2404 (2025-09-16)
+
+<code>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Ubit Information Technologies STOYS allows Cross-Site Scripting (XSS).This issue affects STOYS: from 2 through 20250916. \n\nNOTE: The vendor did not inform about the completion of the fixing process within the specified time. The CVE will be updated when new information becomes available.
+</code>
+
 - [sahici/CVE-2025-2404](https://github.com/sahici/CVE-2025-2404)
 
 ### CVE-2025-2502 (2025-05-30)
@@ -761,7 +765,11 @@
 ### CVE-2025-4686
 - [sahici/CVE-2025-4686](https://github.com/sahici/CVE-2025-4686)
 
-### CVE-2025-4688
+### CVE-2025-4688 (2025-09-16)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in BGS Interactive SINAV.LINK Exam Result Module allows SQL Injection.This issue affects SINAV.LINK Exam Result Module: before 1.2.
+</code>
+
 - [sahici/CVE-2025-4688](https://github.com/sahici/CVE-2025-4688)
 
 ### CVE-2025-4784 (2025-07-24)
@@ -2375,6 +2383,7 @@
 
 - [absholi7ly/CVE-2025-27210_NodeJS_Path_Traversal_Exploit](https://github.com/absholi7ly/CVE-2025-27210_NodeJS_Path_Traversal_Exploit)
 - [B1ack4sh/Blackash-CVE-2025-27210](https://github.com/B1ack4sh/Blackash-CVE-2025-27210)
+- [mindeddu/Vulnerable-CVE-2025-27210](https://github.com/mindeddu/Vulnerable-CVE-2025-27210)
 
 ### CVE-2025-27363 (2025-03-11)
 
@@ -4041,7 +4050,6 @@
 - [jacobholtz/CVE-2025-48384-submodule](https://github.com/jacobholtz/CVE-2025-48384-submodule)
 - [butyraldehyde/CVE-2025-48384-PoC-Part2](https://github.com/butyraldehyde/CVE-2025-48384-PoC-Part2)
 - [arun1033/CVE-2025-48384](https://github.com/arun1033/CVE-2025-48384)
-- [EdwardYeIntrix/CVE-2025-48384-Scanner](https://github.com/EdwardYeIntrix/CVE-2025-48384-Scanner)
 - [s41r4j/CVE-2025-48384](https://github.com/s41r4j/CVE-2025-48384)
 - [s41r4j/CVE-2025-48384-submodule](https://github.com/s41r4j/CVE-2025-48384-submodule)
 
@@ -4562,7 +4570,6 @@
 </code>
 
 - [milamrk/CVE-2025-52389](https://github.com/milamrk/CVE-2025-52389)
-- [ktr4ck3r/CVE-2025-52389](https://github.com/ktr4ck3r/CVE-2025-52389)
 
 ### CVE-2025-52392 (2025-08-13)
 
@@ -7823,7 +7830,7 @@
 - [redspy-sec/D-Link](https://github.com/redspy-sec/D-Link)
 - [dragonXZH/CVE-2024-10914](https://github.com/dragonXZH/CVE-2024-10914)
 - [yenyangmjaze/cve-2024-10914](https://github.com/yenyangmjaze/cve-2024-10914)
-- [silverxpymaster/CVE-2024-10914-Exploit](https://github.com/silverxpymaster/CVE-2024-10914-Exploit)
+- [Tamirido30/CVE-2024-10914-Exploit](https://github.com/Tamirido30/CVE-2024-10914-Exploit)
 
 ### CVE-2024-10915 (2024-11-06)
 
@@ -17308,6 +17315,13 @@
 </code>
 
 - [Trinadh465/frameworks_av_CVE-2023-20933](https://github.com/Trinadh465/frameworks_av_CVE-2023-20933)
+
+### CVE-2023-20938 (2023-02-28)
+
+<code>In binder_transaction_buffer_release of binder.c, there is a possible use after free due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-257685302References: Upstream kernel
+</code>
+
+- [anansi2safe/CVE-2023-20938](https://github.com/anansi2safe/CVE-2023-20938)
 
 ### CVE-2023-20943 (2023-02-28)
 
@@ -43930,6 +43944,7 @@
 </code>
 
 - [shoucheng3/asf__tapestry-5_CVE-2019-0207_5-4-4](https://github.com/shoucheng3/asf__tapestry-5_CVE-2019-0207_5-4-4)
+- [shoucheng3/asf__tapestry-5_CVE-2019-0207_5_4_5_fixed](https://github.com/shoucheng3/asf__tapestry-5_CVE-2019-0207_5_4_5_fixed)
 
 ### CVE-2019-0211 (2019-04-08)
 
