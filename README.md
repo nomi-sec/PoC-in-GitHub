@@ -504,6 +504,7 @@
 - [tiemio/RCE-CVE-2025-3248](https://github.com/tiemio/RCE-CVE-2025-3248)
 - [r0otk3r/CVE-2025-3248](https://github.com/r0otk3r/CVE-2025-3248)
 - [min8282/CVE-2025-3248](https://github.com/min8282/CVE-2025-3248)
+- [EQSTLab/CVE-2025-3248](https://github.com/EQSTLab/CVE-2025-3248)
 
 ### CVE-2025-3419 (2025-05-08)
 
@@ -1189,6 +1190,7 @@
 - [0xAbolfazl/CVE-2025-8088-WinRAR-PathTraversal-PoC](https://github.com/0xAbolfazl/CVE-2025-8088-WinRAR-PathTraversal-PoC)
 - [pentestfunctions/CVE-2025-8088-Multi-Document](https://github.com/pentestfunctions/CVE-2025-8088-Multi-Document)
 - [pexlexity/WinRAR-CVE-2025-8088-Path-Traversal-PoC](https://github.com/pexlexity/WinRAR-CVE-2025-8088-Path-Traversal-PoC)
+- [nhattanhh/CVE-2025-8088](https://github.com/nhattanhh/CVE-2025-8088)
 - [Syrins/CVE-2025-8088-Winrar-Tool-Gui](https://github.com/Syrins/CVE-2025-8088-Winrar-Tool-Gui)
 - [ghostn4444/CVE-2025-8088](https://github.com/ghostn4444/CVE-2025-8088)
 - [DeepBlue-dot/CVE-2025-8088-WinRAR-Startup-PoC](https://github.com/DeepBlue-dot/CVE-2025-8088-WinRAR-Startup-PoC)
@@ -1482,6 +1484,7 @@
 </code>
 
 - [hoefler02/CVE-2025-21756](https://github.com/hoefler02/CVE-2025-21756)
+- [khoatran107/cve-2025-21756](https://github.com/khoatran107/cve-2025-21756)
 
 ### CVE-2025-22131 (2025-01-20)
 
@@ -2276,7 +2279,7 @@
 </code>
 
 - [dorattias/CVE-2025-26319](https://github.com/dorattias/CVE-2025-26319)
-- [YuoLuo/CVE-2025-26319](https://github.com/YuoLuo/CVE-2025-26319)
+- [redpack-kr/CVE-2025-26319](https://github.com/redpack-kr/CVE-2025-26319)
 
 ### CVE-2025-26326 (2025-02-28)
 
@@ -2321,6 +2324,13 @@
 </code>
 
 - [sandsoncosta/CVE-2025-26633](https://github.com/sandsoncosta/CVE-2025-26633)
+
+### CVE-2025-26686 (2025-04-08)
+
+<code>Sensitive data storage in improperly locked memory in Windows TCP/IP allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [mrk336/CVE-2025-26686-The-TCP-IP-Flaw-That-Opens-the-Gates](https://github.com/mrk336/CVE-2025-26686-The-TCP-IP-Flaw-That-Opens-the-Gates)
 
 ### CVE-2025-26788 (2025-02-14)
 
@@ -44696,6 +44706,7 @@
 - [46o60/CVE-2019-3396_Confluence](https://github.com/46o60/CVE-2019-3396_Confluence)
 - [PetrusViet/cve-2019-3396](https://github.com/PetrusViet/cve-2019-3396)
 - [Avento/CVE-2019-3396-Memshell-for-Behinder](https://github.com/Avento/CVE-2019-3396-Memshell-for-Behinder)
+- [kh4sh3i/CVE-2019-3396](https://github.com/kh4sh3i/CVE-2019-3396)
 
 ### CVE-2019-3398 (2019-04-18)
 
@@ -45780,6 +45791,7 @@
 </code>
 
 - [shoucheng3/apache__jspwiki_CVE-2019-10076_2-11-0-M3](https://github.com/shoucheng3/apache__jspwiki_CVE-2019-10076_2-11-0-M3)
+- [shoucheng3/apache__jspwiki_CVE-2019-10076_2_11_0_M4_fixed](https://github.com/shoucheng3/apache__jspwiki_CVE-2019-10076_2_11_0_M4_fixed)
 
 ### CVE-2019-10077 (2019-05-20)
 
@@ -51546,6 +51558,7 @@
 
 - [NS-Sp4ce/thinkphp5.XRce](https://github.com/NS-Sp4ce/thinkphp5.XRce)
 - [yilin1203/CVE-2018-20062](https://github.com/yilin1203/CVE-2018-20062)
+- [shenhui35/RedArrow](https://github.com/shenhui35/RedArrow)
 
 ### CVE-2018-20148 (2018-12-14)
 
