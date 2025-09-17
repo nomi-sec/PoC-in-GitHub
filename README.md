@@ -509,6 +509,7 @@
 - [r0otk3r/CVE-2025-3248](https://github.com/r0otk3r/CVE-2025-3248)
 - [min8282/CVE-2025-3248](https://github.com/min8282/CVE-2025-3248)
 - [EQSTLab/CVE-2025-3248](https://github.com/EQSTLab/CVE-2025-3248)
+- [wand3rlust/CVE-2025-3248](https://github.com/wand3rlust/CVE-2025-3248)
 
 ### CVE-2025-3419 (2025-05-08)
 
@@ -1212,6 +1213,7 @@
 - [hexsecteam/CVE-2025-8088-Winrar-Tool](https://github.com/hexsecteam/CVE-2025-8088-Winrar-Tool)
 - [tartalu/CVE-2025-8088](https://github.com/tartalu/CVE-2025-8088)
 - [techcorp/CVE-2025-8088-Exploit](https://github.com/techcorp/CVE-2025-8088-Exploit)
+- [Shinkirou789/Cve-2025-8088-WinRar-vulnerability](https://github.com/Shinkirou789/Cve-2025-8088-WinRar-vulnerability)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -1336,10 +1338,18 @@
 
 - [byteReaper77/CVE-2025-9090](https://github.com/byteReaper77/CVE-2025-9090)
 
-### CVE-2025-9215
+### CVE-2025-9215 (2025-09-17)
+
+<code>The StoreEngine – Powerful WordPress eCommerce Plugin for Payments, Memberships, Affiliates, Sales &amp; More plugin for WordPress is vulnerable to Path Traversal in all versions up to, and including, 1.5.0 via the file_download() function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to read the contents of arbitrary files on the server, which can contain sensitive information.
+</code>
+
 - [d0n601/CVE-2025-9215](https://github.com/d0n601/CVE-2025-9215)
 
-### CVE-2025-9216
+### CVE-2025-9216 (2025-09-17)
+
+<code>The StoreEngine – Powerful WordPress eCommerce Plugin for Payments, Memberships, Affiliates, Sales &amp; More plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the import() function in all versions up to, and including, 1.5.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
 - [d0n601/CVE-2025-9216](https://github.com/d0n601/CVE-2025-9216)
 
 ### CVE-2025-9345 (2025-08-28)
@@ -2833,6 +2843,7 @@
 - [R3verseIN/Nextjs-middleware-vulnerable-appdemo-CVE-2025-29927](https://github.com/R3verseIN/Nextjs-middleware-vulnerable-appdemo-CVE-2025-29927)
 - [zs1n/CVE-2025-29927](https://github.com/zs1n/CVE-2025-29927)
 - [MKIRAHMET/CVE-2025-29927-PoC](https://github.com/MKIRAHMET/CVE-2025-29927-PoC)
+- [adjscent/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/adjscent/vulnerable-nextjs-14-CVE-2025-29927)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -3413,6 +3424,7 @@
 <code>Improper access control in Windows SMB allows an authorized attacker to elevate privileges over a network.
 </code>
 
+- [mverschu/CVE-2025-33073](https://github.com/mverschu/CVE-2025-33073)
 - [obscura-cert/CVE-2025-33073](https://github.com/obscura-cert/CVE-2025-33073)
 - [matejsmycka/CVE-2025-33073-checker](https://github.com/matejsmycka/CVE-2025-33073-checker)
 - [cve-2025-33073/cve-2025-33073](https://github.com/cve-2025-33073/cve-2025-33073)
@@ -6208,7 +6220,7 @@
 <code>The Contact Form Plugin by Fluent Forms for Quiz, Survey, and Drag &amp; Drop WP Form Builder plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 5.1.15 via deserialization of untrusted input in the extractDynamicValues function. This makes it possible for authenticated attackers, with contributor-level access and above, to inject a PHP Object. If a POP chain is present via an additional plugin or theme installed on the target system, it could allow the attacker to delete arbitrary files, retrieve sensitive data, or execute code. Successful exploitation requires the attacker to have &quot;View Form&quot; and &quot;Manage Form&quot; permissions, which must be explicitly set by an administrator. However, this requirement can be bypassed when this vulnerability is chained with CVE-2024-2771.
 </code>
 
-- [Ch4os1/CVE-2024-4157-SSRF-RCE](https://github.com/Ch4os1/CVE-2024-4157-SSRF-RCE)
+- [Ch4os1/CVE-2024-4157-SSRF-RCE-Reverse-Shell](https://github.com/Ch4os1/CVE-2024-4157-SSRF-RCE-Reverse-Shell)
 
 ### CVE-2024-4231 (2024-05-10)
 
@@ -17778,7 +17790,7 @@
 - [Chocapikk/CVE-2023-22515](https://github.com/Chocapikk/CVE-2023-22515)
 - [ad-calcium/CVE-2023-22515](https://github.com/ad-calcium/CVE-2023-22515)
 - [kh4sh3i/CVE-2023-22515](https://github.com/kh4sh3i/CVE-2023-22515)
-- [sincere9/CVE-2023-22515](https://github.com/sincere9/CVE-2023-22515)
+- [K4ptor/CVE-2023-22515](https://github.com/K4ptor/CVE-2023-22515)
 - [Le1a/CVE-2023-22515](https://github.com/Le1a/CVE-2023-22515)
 - [Vulnmachines/confluence-cve-2023-22515](https://github.com/Vulnmachines/confluence-cve-2023-22515)
 - [iveresk/CVE-2023-22515](https://github.com/iveresk/CVE-2023-22515)
@@ -33559,6 +33571,13 @@
 
 - [Mario-Kart-Felix/A-potential-Denial-of-Service-issue-in-protobuf-java](https://github.com/Mario-Kart-Felix/A-potential-Denial-of-Service-issue-in-protobuf-java)
 
+### CVE-2021-22600 (2022-01-26)
+
+<code>A double free bug in packet_set_ring() in net/packet/af_packet.c can be exploited by a local user through crafted syscalls to escalate privileges or deny service. We recommend upgrading kernel past the effected versions or rebuilding past ec6af094ea28f0f2dda1a6a33b14cd57e36a9755
+</code>
+
+- [Chinmay1743/af_packet.c](https://github.com/Chinmay1743/af_packet.c)
+
 ### CVE-2021-22873 (2021-01-21)
 
 <code>Revive Adserver before 5.1.0 is vulnerable to open redirects via the `dest`, `oadest`, and/or `ct0` parameters of the lg.php and ck.php delivery scripts. Such open redirects had previously been available by design to allow third party ad servers to track such metrics when delivering ads. However, third party click tracking via redirects is not a viable option anymore, leading to such open redirect functionality being removed and reclassified as a vulnerability.
@@ -38140,7 +38159,6 @@
 <code>Reflected Cross-site scripting (XSS) vulnerability in RosarioSIS 8.2.1 allows attackers to inject arbitrary HTML via the search_term parameter in the modules/Scheduling/Courses.php script.
 </code>
 
-- [86x/CVE-2021-45416](https://github.com/86x/CVE-2021-45416)
 - [dnr6419/CVE-2021-45416](https://github.com/dnr6419/CVE-2021-45416)
 
 ### CVE-2021-45428 (2022-01-03)
@@ -50691,6 +50709,7 @@
 </code>
 
 - [hidog123/Codiad-CVE-2018-14009](https://github.com/hidog123/Codiad-CVE-2018-14009)
+- [pablocaraballofernandez/IDE-TryHackME-Spanish-Walkthrough-](https://github.com/pablocaraballofernandez/IDE-TryHackME-Spanish-Walkthrough-)
 
 ### CVE-2018-14040 (2018-07-13)
 
@@ -55615,6 +55634,7 @@
 </code>
 
 - [shoucheng3/perwendel__spark_CVE-2016-9177_2-5-1](https://github.com/shoucheng3/perwendel__spark_CVE-2016-9177_2-5-1)
+- [shoucheng3/perwendel__spark_CVE-2016-9177_2_5_2_fixed](https://github.com/shoucheng3/perwendel__spark_CVE-2016-9177_2_5_2_fixed)
 
 ### CVE-2016-9192 (2016-12-14)
 
@@ -58794,6 +58814,7 @@
 - [Jasmoon99/Embedded-PDF](https://github.com/Jasmoon99/Embedded-PDF)
 - [omarothmann/Embedded-Backdoor-Connection](https://github.com/omarothmann/Embedded-Backdoor-Connection)
 - [asepsaepdin/CVE-2010-1240](https://github.com/asepsaepdin/CVE-2010-1240)
+- [12345qwert123456/CVE-2010-1240](https://github.com/12345qwert123456/CVE-2010-1240)
 
 ### CVE-2010-1411 (2010-06-17)
 
