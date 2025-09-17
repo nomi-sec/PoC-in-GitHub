@@ -949,6 +949,13 @@
 
 - [byteReaper77/CVE-2025-6082](https://github.com/byteReaper77/CVE-2025-6082)
 
+### CVE-2025-6085 (2025-09-04)
+
+<code>The Make Connector plugin for WordPress is vulnerable to arbitrary file uploads due to misconfigured file type validation in the 'upload_media' function in all versions up to, and including, 1.5.10. This makes it possible for authenticated attackers, with Administrator-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [d0n601/CVE-2025-6085](https://github.com/d0n601/CVE-2025-6085)
+
 ### CVE-2025-6218 (2025-06-21)
 
 <code>RARLAB WinRAR Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of RARLAB WinRAR. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the handling of file paths within archive files. A crafted file path can cause the process to traverse to unintended directories. An attacker can leverage this vulnerability to execute code in the context of the current user. Was ZDI-CAN-27198.
@@ -4163,6 +4170,7 @@
 - [b0ySie7e/Notepad-8.8.1_CVE-2025-49144](https://github.com/b0ySie7e/Notepad-8.8.1_CVE-2025-49144)
 - [timsonner/CVE-2025-49144-Research](https://github.com/timsonner/CVE-2025-49144-Research)
 - [0xCZR1/cve-2025-49144](https://github.com/0xCZR1/cve-2025-49144)
+- [onniio/CVE-2025-49144](https://github.com/onniio/CVE-2025-49144)
 
 ### CVE-2025-49223 (2025-06-04)
 
@@ -5055,7 +5063,11 @@
 
 - [shinyColumn/CVE-2025-56803](https://github.com/shinyColumn/CVE-2025-56803)
 
-### CVE-2025-57055
+### CVE-2025-57055 (2025-09-17)
+
+<code>WonderCMS 3.5.0 is vulnerable to Server-Side Request Forgery (SSRF) in the custom module installation functionality. An authenticated administrator can supply a malicious URL via the pluginThemeUrl POST parameter. The server fetches the provided URL using curl_exec() without sufficient validation, allowing the attacker to force internal or external HTTP requests.
+</code>
+
 - [thawphone/CVE-2025-57055](https://github.com/thawphone/CVE-2025-57055)
 
 ### CVE-2025-57392 (2025-09-10)
@@ -7450,6 +7462,7 @@
 - [ruizii/CVE-2024-9264](https://github.com/ruizii/CVE-2024-9264)
 - [rvizx/CVE-2024-9264](https://github.com/rvizx/CVE-2024-9264)
 - [patrickpichler/grafana-CVE-2024-9264](https://github.com/patrickpichler/grafana-CVE-2024-9264)
+- [amalpvatayam67/day05-grafana-sqlexpr-lab](https://github.com/amalpvatayam67/day05-grafana-sqlexpr-lab)
 
 ### CVE-2024-9290 (2024-12-13)
 
@@ -10338,6 +10351,7 @@
 - [naclapor/CVE-2024-28397](https://github.com/naclapor/CVE-2024-28397)
 - [0xDTC/js2py-Sandbox-Escape-CVE-2024-28397-RCE](https://github.com/0xDTC/js2py-Sandbox-Escape-CVE-2024-28397-RCE)
 - [nelissandro/CVE-2024-28397-Js2Py-RCE](https://github.com/nelissandro/CVE-2024-28397-Js2Py-RCE)
+- [vitaciminIPI/CVE-2024-28397-RCE](https://github.com/vitaciminIPI/CVE-2024-28397-RCE)
 
 ### CVE-2024-28515 (2024-04-03)
 
@@ -16283,27 +16297,6 @@
 </code>
 
 - [pray77/CVE-2023-3640](https://github.com/pray77/CVE-2023-3640)
-
-### CVE-2023-3710 (2023-09-12)
-
-<code>Improper Input Validation vulnerability in Honeywell PM43 on 32 bit, ARM (Printer web page modules) allows Command Injection.This issue affects PM43 versions prior to P10.19.050004. Update to the latest available firmware version of the respective printers to version MR19.5 (e.g. P10.19.050006).
-</code>
-
-- [vpxuser/CVE-2023-3710-POC](https://github.com/vpxuser/CVE-2023-3710-POC)
-
-### CVE-2023-3711 (2023-09-12)
-
-<code>Session Fixation vulnerability in Honeywell PM43 on 32 bit, ARM (Printer web page modules) allows Session Credential Falsification through Prediction.This issue affects PM43 versions prior to P10.19.050004. Update to the latest available firmware version of the respective printers to version MR19.5 (e.g. P10.19.050006).
-</code>
-
-- [vpxuser/CVE-2023-3711-POC](https://github.com/vpxuser/CVE-2023-3711-POC)
-
-### CVE-2023-3712 (2023-09-12)
-
-<code>Files or Directories Accessible to External Parties vulnerability in Honeywell PM43 on 32 bit, ARM (Printer web page modules) allows Privilege Escalation.This issue affects PM43 versions prior to P10.19.050004. \n\nUpdate to the latest available firmware version of the respective printers to version MR19.5 (e.g. P10.19.050006).
-</code>
-
-- [vpxuser/CVE-2023-3712-POC](https://github.com/vpxuser/CVE-2023-3712-POC)
 
 ### CVE-2023-3722 (2023-07-19)
 
@@ -34090,7 +34083,6 @@
 - [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
 - [30579096/Confluence-CVE-2021-26084](https://github.com/30579096/Confluence-CVE-2021-26084)
-- [vpxuser/CVE-2021-26084-EXP](https://github.com/vpxuser/CVE-2021-26084-EXP)
 - [nahcusira/CVE-2021-26084](https://github.com/nahcusira/CVE-2021-26084)
 - [BBD-YZZ/Confluence-RCE](https://github.com/BBD-YZZ/Confluence-RCE)
 
@@ -38159,6 +38151,7 @@
 <code>Reflected Cross-site scripting (XSS) vulnerability in RosarioSIS 8.2.1 allows attackers to inject arbitrary HTML via the search_term parameter in the modules/Scheduling/Courses.php script.
 </code>
 
+- [86x/CVE-2021-45416](https://github.com/86x/CVE-2021-45416)
 - [dnr6419/CVE-2021-45416](https://github.com/dnr6419/CVE-2021-45416)
 
 ### CVE-2021-45428 (2022-01-03)
