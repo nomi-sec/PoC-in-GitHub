@@ -4910,6 +4910,13 @@
 - [mrk336/Azure-Networking-Privilege-Escalation-Exploit-CVE-2025-54914](https://github.com/mrk336/Azure-Networking-Privilege-Escalation-Exploit-CVE-2025-54914)
 - [Ash1996x/CVE-2025-54914-PoC](https://github.com/Ash1996x/CVE-2025-54914-PoC)
 
+### CVE-2025-54918 (2025-09-09)
+
+<code>Improper authentication in Windows NTLM allows an authorized attacker to elevate privileges over a network.
+</code>
+
+- [mrk336/From-Foothold-to-Domain-Admin-Weaponizing-CVE-2025-54918-in-Real-World-DevOps](https://github.com/mrk336/From-Foothold-to-Domain-Admin-Weaponizing-CVE-2025-54918-in-Real-World-DevOps)
+
 ### CVE-2025-54962 (2025-08-04)
 
 <code>/edit-user in webserver in OpenPLC Runtime 3 through 9cd8f1b allows authenticated users to upload arbitrary files (such as .html or .svg), and these are then publicly accessible under the /static URI.
@@ -10318,6 +10325,7 @@
 - [ExtremeUday/Remote-Code-Execution-CVE-2024-28397-pyload-ng-js2py-](https://github.com/ExtremeUday/Remote-Code-Execution-CVE-2024-28397-pyload-ng-js2py-)
 - [naclapor/CVE-2024-28397](https://github.com/naclapor/CVE-2024-28397)
 - [0xDTC/js2py-Sandbox-Escape-CVE-2024-28397-RCE](https://github.com/0xDTC/js2py-Sandbox-Escape-CVE-2024-28397-RCE)
+- [nelissandro/CVE-2024-28397-Js2Py-RCE](https://github.com/nelissandro/CVE-2024-28397-Js2Py-RCE)
 
 ### CVE-2024-28515 (2024-04-03)
 
@@ -41798,7 +41806,6 @@
 
 - [c0brabaghdad1/CVE-2020-14179](https://github.com/c0brabaghdad1/CVE-2020-14179)
 - [mrnazu/CVE-2020-14179](https://github.com/mrnazu/CVE-2020-14179)
-- [0x0060/CVE-2020-14179](https://github.com/0x0060/CVE-2020-14179)
 
 ### CVE-2020-14181 (2020-09-17)
 
