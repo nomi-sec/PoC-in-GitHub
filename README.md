@@ -1336,6 +1336,12 @@
 
 - [byteReaper77/CVE-2025-9090](https://github.com/byteReaper77/CVE-2025-9090)
 
+### CVE-2025-9215
+- [d0n601/CVE-2025-9215](https://github.com/d0n601/CVE-2025-9215)
+
+### CVE-2025-9216
+- [d0n601/CVE-2025-9216](https://github.com/d0n601/CVE-2025-9216)
+
 ### CVE-2025-9345 (2025-08-28)
 
 <code>The File Manager, Code Editor, and Backup by Managefy plugin for WordPress is vulnerable to Path Traversal in all versions up to, and including, 1.4.8 via the ajax_downloadfile() function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to perform actions on files outside of the originally intended directory.
@@ -5662,6 +5668,7 @@
 - [sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass](https://github.com/sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass)
 - [cjybao/CVE-2024-1709-and-CVE-2024-1708](https://github.com/cjybao/CVE-2024-1709-and-CVE-2024-1708)
 - [AMRICHASFUCK/Mass-CVE-2024-1709](https://github.com/AMRICHASFUCK/Mass-CVE-2024-1709)
+- [Teexo/ScreenConnect-CVE-2024-1709-Exploit](https://github.com/Teexo/ScreenConnect-CVE-2024-1709-Exploit)
 
 ### CVE-2024-1728 (2024-04-10)
 
@@ -13353,6 +13360,13 @@
 </code>
 
 - [ooooooo-q/puma_header_normalization-CVE-2024-45614](https://github.com/ooooooo-q/puma_header_normalization-CVE-2024-45614)
+
+### CVE-2024-45712 (2025-04-15)
+
+<code>SolarWinds Serv-U is vulnerable to a client-side cross-site scripting (XSS) vulnerability. The vulnerability can only be performed by an authenticated account, on the local machine, from the local browser session. Therefore the risk is very low.
+</code>
+
+- [Teexo/woocommerce_scanner](https://github.com/Teexo/woocommerce_scanner)
 
 ### CVE-2024-45870 (2024-10-03)
 
