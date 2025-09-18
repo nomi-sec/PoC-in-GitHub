@@ -2796,6 +2796,7 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
+- [AventurineJ/CVE-2025-29927-Research](https://github.com/AventurineJ/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -5055,6 +5056,12 @@
 </code>
 
 - [anonaninda/Aninda-security-advisories](https://github.com/anonaninda/Aninda-security-advisories)
+
+### CVE-2025-56771
+- [RRespxwnss/CVE-2025-56771](https://github.com/RRespxwnss/CVE-2025-56771)
+
+### CVE-2025-56772
+- [RRespxwnss/CVE-2025-56772](https://github.com/RRespxwnss/CVE-2025-56772)
 
 ### CVE-2025-56803 (2025-09-03)
 
@@ -13014,6 +13021,13 @@
 </code>
 
 - [Kvngtheta/CVE-2024-43583-PoC](https://github.com/Kvngtheta/CVE-2024-43583-PoC)
+
+### CVE-2024-43630 (2024-11-12)
+
+<code>Windows Kernel Elevation of Privilege Vulnerability
+</code>
+
+- [QuasarBinary/CVE-2024-43630-POC](https://github.com/QuasarBinary/CVE-2024-43630-POC)
 
 ### CVE-2024-43788 (2024-08-27)
 
@@ -30062,6 +30076,7 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
+- [AventurineJ/CVE-2022-39299-Research](https://github.com/AventurineJ/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -59653,7 +59668,6 @@
 
 - [h3x0v3rl0rd/distccd_rce_CVE-2004-2687](https://github.com/h3x0v3rl0rd/distccd_rce_CVE-2004-2687)
 - [k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687)
-- [ss0wl/CVE-2004-2687_distcc_v1](https://github.com/ss0wl/CVE-2004-2687_distcc_v1)
 
 ### CVE-2004-6768
 - [yougboiz/Metasploit-CVE-2004-6768](https://github.com/yougboiz/Metasploit-CVE-2004-6768)
