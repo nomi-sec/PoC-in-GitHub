@@ -2645,6 +2645,7 @@
 - [inok009/FOXCMS-CVE-2025-29306-POC](https://github.com/inok009/FOXCMS-CVE-2025-29306-POC)
 - [Mattb709/CVE-2025-29306-PoC-FoxCMS-RCE](https://github.com/Mattb709/CVE-2025-29306-PoC-FoxCMS-RCE)
 - [congdong007/CVE-2025-29306_poc](https://github.com/congdong007/CVE-2025-29306_poc)
+- [amalpvatayam67/day06-foxcms-rce](https://github.com/amalpvatayam67/day06-foxcms-rce)
 
 ### CVE-2025-29384 (2025-03-14)
 
@@ -5151,6 +5152,13 @@
 </code>
 
 - [SexyShoelessGodofWar/CVE-2025-58780](https://github.com/SexyShoelessGodofWar/CVE-2025-58780)
+
+### CVE-2025-59359 (2025-09-15)
+
+<code>The cleanTcs mutation in Chaos Controller Manager is vulnerable to OS command injection. In conjunction with CVE-2025-59358, this allows  unauthenticated in-cluster attackers to perform remote code execution across the cluster.
+</code>
+
+- [mrk336/Cluster-Chaos-Exploiting-CVE-2025-59359-for-Kubernetes-Takeover](https://github.com/mrk336/Cluster-Chaos-Exploiting-CVE-2025-59359-for-Kubernetes-Takeover)
 
 ### CVE-2025-59376 (2025-09-15)
 
@@ -39449,6 +39457,7 @@
 - [WHtig3r/CVE-2020-1938](https://github.com/WHtig3r/CVE-2020-1938)
 - [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro)
 - [hopsypopsy8/CVE-2020-1938-Exploitation](https://github.com/hopsypopsy8/CVE-2020-1938-Exploitation)
+- [Joshua8821/CNVD](https://github.com/Joshua8821/CNVD)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -44785,6 +44794,7 @@
 - [PetrusViet/cve-2019-3396](https://github.com/PetrusViet/cve-2019-3396)
 - [Avento/CVE-2019-3396-Memshell-for-Behinder](https://github.com/Avento/CVE-2019-3396-Memshell-for-Behinder)
 - [kh4sh3i/CVE-2019-3396](https://github.com/kh4sh3i/CVE-2019-3396)
+- [HK4zCzi/CVE-2019-3396-Velocity-Server-Side-Template-Injection](https://github.com/HK4zCzi/CVE-2019-3396-Velocity-Server-Side-Template-Injection)
 
 ### CVE-2019-3398 (2019-04-18)
 
