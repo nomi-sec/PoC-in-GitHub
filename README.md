@@ -3268,6 +3268,7 @@
 - [Mdusmandasthaheer/CVE-2025-32433](https://github.com/Mdusmandasthaheer/CVE-2025-32433)
 - [dollarboysushil/CVE-2025-32433-Erlang-OTP-SSH-Unauthenticated-RCE](https://github.com/dollarboysushil/CVE-2025-32433-Erlang-OTP-SSH-Unauthenticated-RCE)
 - [scandijamjam1/CVE-2025-32433](https://github.com/scandijamjam1/CVE-2025-32433)
+- [iteride/CVE-2025-32433](https://github.com/iteride/CVE-2025-32433)
 
 ### CVE-2025-32462 (2025-06-30)
 
@@ -4781,6 +4782,7 @@
 </code>
 
 - [Momollax/CVE-2025-53772-IIS-WebDeploy-RCE](https://github.com/Momollax/CVE-2025-53772-IIS-WebDeploy-RCE)
+- [go-bi/CVE-2025-53772-](https://github.com/go-bi/CVE-2025-53772-)
 
 ### CVE-2025-53773 (2025-08-12)
 
@@ -18461,7 +18463,7 @@
 <code>HAProxy before 2.7.3 may allow a bypass of access control because HTTP/1 headers are inadvertently lost in some situations, aka &quot;request smuggling.&quot; The HTTP header parsers in HAProxy may accept empty header field names, which could be used to truncate the list of HTTP headers and thus make some headers disappear after being parsed and processed for HTTP/1.0 and HTTP/1.1. For HTTP/2 and HTTP/3, the impact is limited because the headers disappear before being parsed and processed, as if they had not been sent by the client. The fixed versions are 2.7.3, 2.6.9, 2.5.12, 2.4.22, 2.2.29, and 2.0.31.
 </code>
 
-- [sgwgsw/LAB-CVE-2023-25725](https://github.com/sgwgsw/LAB-CVE-2023-25725)
+- [krillingws/LAB-CVE-2023-25725](https://github.com/krillingws/LAB-CVE-2023-25725)
 
 ### CVE-2023-25813 (2023-02-22)
 
@@ -19423,6 +19425,7 @@
 - [Chocapikk/CVE-2023-30258](https://github.com/Chocapikk/CVE-2023-30258)
 - [n00o00b/CVE-2023-30258-RCE-POC](https://github.com/n00o00b/CVE-2023-30258-RCE-POC)
 - [AdityaBhatt3010/TryHackMe-Room-Walkthrough-Billing](https://github.com/AdityaBhatt3010/TryHackMe-Room-Walkthrough-Billing)
+- [abdullohqurbon0v/CVE-2023-30258-Exploit-For-Magnus-Billing-System](https://github.com/abdullohqurbon0v/CVE-2023-30258-Exploit-For-Magnus-Billing-System)
 
 ### CVE-2023-30347 (2023-06-22)
 
@@ -23768,6 +23771,13 @@
 </code>
 
 - [3zizme/CVE-2023-49339](https://github.com/3zizme/CVE-2023-49339)
+
+### CVE-2023-49367 (2025-09-18)
+
+<code>An issue in user interface in Kyocera Command Center RX EXOSYS M5521cdn allows remote to obtain sensitive information via inspecting sent packages by user.
+</code>
+
+- [barisbaydur/CVE-2023-49367](https://github.com/barisbaydur/CVE-2023-49367)
 
 ### CVE-2023-49438 (2023-12-26)
 
