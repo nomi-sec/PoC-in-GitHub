@@ -4115,6 +4115,7 @@
 - [Wh04m1001/CVE-2025-48799](https://github.com/Wh04m1001/CVE-2025-48799)
 - [painoob/CVE-2025-48799](https://github.com/painoob/CVE-2025-48799)
 - [mrk336/CVE-2025-48799](https://github.com/mrk336/CVE-2025-48799)
+- [mrk336/Header-Havoc-Cracking-CVE-2025-48799-in-Apache-Tomcat](https://github.com/mrk336/Header-Havoc-Cracking-CVE-2025-48799-in-Apache-Tomcat)
 
 ### CVE-2025-48827 (2025-05-27)
 
@@ -4150,6 +4151,7 @@
 - [AC8999/CVE-2025-49113](https://github.com/AC8999/CVE-2025-49113)
 - [LeakForge/CVE-2025-49113](https://github.com/LeakForge/CVE-2025-49113)
 - [Zuack55/Roundcube-1.6.10-Post-Auth-RCE-CVE-2025-49113-](https://github.com/Zuack55/Roundcube-1.6.10-Post-Auth-RCE-CVE-2025-49113-)
+- [l4f2s4/CVE-2025-49113-exploit.php](https://github.com/l4f2s4/CVE-2025-49113-exploit.php)
 
 ### CVE-2025-49125 (2025-06-16)
 
@@ -50212,6 +50214,7 @@
 - [dego905/Cam](https://github.com/dego905/Cam)
 - [A-Alabdoo/CVE-DVr](https://github.com/A-Alabdoo/CVE-DVr)
 - [its-anya/DVR_Credential_Scanner](https://github.com/its-anya/DVR_Credential_Scanner)
+- [jameseyes/DVRC](https://github.com/jameseyes/DVRC)
 
 ### CVE-2018-10097 (2018-04-13)
 
