@@ -3434,6 +3434,7 @@
 <code>Improper access control in Windows SMB allows an authorized attacker to elevate privileges over a network.
 </code>
 
+- [sleepasleepzzz/CVE-2025-33073](https://github.com/sleepasleepzzz/CVE-2025-33073)
 - [mverschu/CVE-2025-33073](https://github.com/mverschu/CVE-2025-33073)
 - [obscura-cert/CVE-2025-33073](https://github.com/obscura-cert/CVE-2025-33073)
 - [matejsmycka/CVE-2025-33073-checker](https://github.com/matejsmycka/CVE-2025-33073-checker)
@@ -5123,6 +5124,7 @@
 - [watchtowrlabs/watchTowr-vs-FreePBX-CVE-2025-57819](https://github.com/watchtowrlabs/watchTowr-vs-FreePBX-CVE-2025-57819)
 - [MuhammadWaseem29/SQL-Injection-and-RCE_CVE-2025-57819](https://github.com/MuhammadWaseem29/SQL-Injection-and-RCE_CVE-2025-57819)
 - [xV4nd3Rx/CVE-2025-57819_FreePBX-PoC](https://github.com/xV4nd3Rx/CVE-2025-57819_FreePBX-PoC)
+- [orange0Mint/CVE-2025-57819_FreePBX](https://github.com/orange0Mint/CVE-2025-57819_FreePBX)
 
 ### CVE-2025-57833 (2025-09-03)
 
@@ -5155,6 +5157,13 @@
 </code>
 
 - [SexyShoelessGodofWar/CVE-2025-58780](https://github.com/SexyShoelessGodofWar/CVE-2025-58780)
+
+### CVE-2025-59342 (2025-09-17)
+
+<code>esm.sh is a nobuild content delivery network(CDN) for modern web development. In 136 and earlier, a path-traversal flaw in the handling of the X-Zone-Id HTTP header allows an attacker to cause the application to write files outside the intended storage location. The header value is used to build a filesystem path but is not properly canonicalized or restricted to the application’s storage base directory. As a result, supplying ../ sequences in X-Zone-Id causes files to be written to arbitrary directories.
+</code>
+
+- [byteReaper77/CVE-2025-59342](https://github.com/byteReaper77/CVE-2025-59342)
 
 ### CVE-2025-59359 (2025-09-15)
 
@@ -8765,7 +8774,7 @@
 
 ### CVE-2024-21793 (2024-05-08)
 
-<code>\nAn OData injection vulnerability exists in the BIG-IP Next Central Manager API (URI).  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+<code>An OData injection vulnerability exists in the BIG-IP Next Central Manager API (URI).  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
 </code>
 
 - [FeatherStark/CVE-2024-21793](https://github.com/FeatherStark/CVE-2024-21793)
@@ -9921,7 +9930,7 @@
 
 ### CVE-2024-26026 (2024-05-08)
 
-<code>\n\n\nAn SQL injection vulnerability exists in the BIG-IP Next Central Manager API (URI).  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated\n\n
+<code>An SQL injection vulnerability exists in the BIG-IP Next Central Manager API (URI).  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated
 </code>
 
 - [passwa11/CVE-2024-26026](https://github.com/passwa11/CVE-2024-26026)
