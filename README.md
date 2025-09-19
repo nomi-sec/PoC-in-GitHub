@@ -37,6 +37,8 @@
 </code>
 
 - [dodiorne/cve-2025-0133](https://github.com/dodiorne/cve-2025-0133)
+- [ynsmroztas/-CVE-2025-0133-GlobalProtect-XSS](https://github.com/ynsmroztas/-CVE-2025-0133-GlobalProtect-XSS)
+- [INTELEON404/CVE-2025-0133](https://github.com/INTELEON404/CVE-2025-0133)
 - [shawarkhanethicalhacker/CVE-2025-0133-exploit](https://github.com/shawarkhanethicalhacker/CVE-2025-0133-exploit)
 
 ### CVE-2025-0282 (2025-01-08)
@@ -341,7 +343,7 @@
 
 ### CVE-2025-2404 (2025-09-16)
 
-<code>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Ubit Information Technologies STOYS allows Cross-Site Scripting (XSS).This issue affects STOYS: from 2 through 20250916. \n\nNOTE: The vendor did not inform about the completion of the fixing process within the specified time. The CVE will be updated when new information becomes available.
+<code>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Ubit Information Technologies STOYS allows Cross-Site Scripting (XSS).This issue affects STOYS: from 2 before 20250916.
 </code>
 
 - [sahici/CVE-2025-2404](https://github.com/sahici/CVE-2025-2404)
@@ -4115,7 +4117,6 @@
 - [Wh04m1001/CVE-2025-48799](https://github.com/Wh04m1001/CVE-2025-48799)
 - [painoob/CVE-2025-48799](https://github.com/painoob/CVE-2025-48799)
 - [mrk336/CVE-2025-48799](https://github.com/mrk336/CVE-2025-48799)
-- [mrk336/Header-Havoc-Cracking-CVE-2025-48799-in-Apache-Tomcat](https://github.com/mrk336/Header-Havoc-Cracking-CVE-2025-48799-in-Apache-Tomcat)
 
 ### CVE-2025-48827 (2025-05-27)
 
@@ -4151,7 +4152,7 @@
 - [AC8999/CVE-2025-49113](https://github.com/AC8999/CVE-2025-49113)
 - [LeakForge/CVE-2025-49113](https://github.com/LeakForge/CVE-2025-49113)
 - [Zuack55/Roundcube-1.6.10-Post-Auth-RCE-CVE-2025-49113-](https://github.com/Zuack55/Roundcube-1.6.10-Post-Auth-RCE-CVE-2025-49113-)
-- [l4f2s4/CVE-2025-49113-exploit.php](https://github.com/l4f2s4/CVE-2025-49113-exploit.php)
+- [l4f2s4/CVE-2025-49113_exploit_cookies](https://github.com/l4f2s4/CVE-2025-49113_exploit_cookies)
 
 ### CVE-2025-49125 (2025-06-16)
 
@@ -52717,7 +52718,7 @@
 <code>Odoo Version &lt;= 8.0-20160726 and Version 9 is affected by: CWE-601: Open redirection. The impact is: obtain sensitive information (remote).
 </code>
 
-- [1337rokudenashi/CVE-2017-5871](https://github.com/1337rokudenashi/CVE-2017-5871)
+- [1337rokudenashi/Odoo-leq-8.0-20160726-and-9.0-Open-Redirect](https://github.com/1337rokudenashi/Odoo-leq-8.0-20160726-and-9.0-Open-Redirect)
 
 ### CVE-2017-5941 (2017-02-09)
 
