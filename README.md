@@ -1216,7 +1216,6 @@
 - [pescada-dev/-CVE-2025-8088](https://github.com/pescada-dev/-CVE-2025-8088)
 - [AdityaBhatt3010/CVE-2025-8088-WinRAR-Zero-Day-Path-Traversal](https://github.com/AdityaBhatt3010/CVE-2025-8088-WinRAR-Zero-Day-Path-Traversal)
 - [pentestfunctions/best-CVE-2025-8088](https://github.com/pentestfunctions/best-CVE-2025-8088)
-- [nyra-workspace/CVE-2025-8088](https://github.com/nyra-workspace/CVE-2025-8088)
 - [kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition](https://github.com/kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition)
 - [walidpyh/CVE-2025-8088](https://github.com/walidpyh/CVE-2025-8088)
 - [hexsecteam/CVE-2025-8088-Winrar-Tool](https://github.com/hexsecteam/CVE-2025-8088-Winrar-Tool)
