@@ -1340,6 +1340,7 @@
 
 - [zenzue/CVE-2025-9074](https://github.com/zenzue/CVE-2025-9074)
 - [j3r1ch0123/CVE-2025-9074](https://github.com/j3r1ch0123/CVE-2025-9074)
+- [pucagit/CVE-2025-9074](https://github.com/pucagit/CVE-2025-9074)
 
 ### CVE-2025-9090 (2025-08-17)
 
@@ -3346,6 +3347,8 @@
 - [Yuy0ung/CVE-2025-32463_chwoot](https://github.com/Yuy0ung/CVE-2025-32463_chwoot)
 - [hacieda/CVE-2025-32463](https://github.com/hacieda/CVE-2025-32463)
 - [blackcat4347/CVE-2025-32463_PoC](https://github.com/blackcat4347/CVE-2025-32463_PoC)
+- [ashardev002/CVE-2025-32463_chwoot](https://github.com/ashardev002/CVE-2025-32463_chwoot)
+- [mihnasdsad/CVE-2025-32463](https://github.com/mihnasdsad/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -4209,6 +4212,7 @@
 
 - [B1ack4sh/Blackash-CVE-2025-49493](https://github.com/B1ack4sh/Blackash-CVE-2025-49493)
 - [SystemVll/CVE-2025-49493](https://github.com/SystemVll/CVE-2025-49493)
+- [Soham-id/2025hvv](https://github.com/Soham-id/2025hvv)
 
 ### CVE-2025-49596 (2025-06-13)
 
@@ -46235,7 +46239,6 @@
 
 - [mt-code/CVE-2019-11447](https://github.com/mt-code/CVE-2019-11447)
 - [khuntor/CVE-2019-11447-EXP](https://github.com/khuntor/CVE-2019-11447-EXP)
-- [dinesh876/CVE-2019-11447-POC](https://github.com/dinesh876/CVE-2019-11447-POC)
 - [ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE](https://github.com/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE)
 - [thewhiteh4t/cve-2019-11447](https://github.com/thewhiteh4t/cve-2019-11447)
 - [substing/CVE-2019-11447_reverse_shell_upload](https://github.com/substing/CVE-2019-11447_reverse_shell_upload)
