@@ -1397,6 +1397,7 @@
 </code>
 
 - [h4xnz/CVE-2025-10035-Exploit](https://github.com/h4xnz/CVE-2025-10035-Exploit)
+- [rxerium/CVE-2025-10035](https://github.com/rxerium/CVE-2025-10035)
 
 ### CVE-2025-10046 (2025-09-06)
 
@@ -1436,6 +1437,7 @@
 </code>
 
 - [jordan922/cve2025-20265](https://github.com/jordan922/cve2025-20265)
+- [amalpvatayam67/day08-CISCO-fmc-sim](https://github.com/amalpvatayam67/day08-CISCO-fmc-sim)
 
 ### CVE-2025-20281 (2025-06-25)
 
@@ -2804,6 +2806,7 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
+- [AventurineJ/CVE-2025-29927-Research](https://github.com/AventurineJ/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -2859,6 +2862,7 @@
 - [zs1n/CVE-2025-29927](https://github.com/zs1n/CVE-2025-29927)
 - [MKIRAHMET/CVE-2025-29927-PoC](https://github.com/MKIRAHMET/CVE-2025-29927-PoC)
 - [adjscent/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/adjscent/vulnerable-nextjs-14-CVE-2025-29927)
+- [sdrtba/CVE-2025-29927](https://github.com/sdrtba/CVE-2025-29927)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -5050,6 +5054,15 @@
 
 - [krispybyte/CVE-2025-55763](https://github.com/krispybyte/CVE-2025-55763)
 
+### CVE-2025-55885
+- [0xZeroSec/CVE-2025-55885](https://github.com/0xZeroSec/CVE-2025-55885)
+
+### CVE-2025-55886
+- [0xZeroSec/CVE-2025-55886](https://github.com/0xZeroSec/CVE-2025-55886)
+
+### CVE-2025-55887
+- [0xZeroSec/CVE-2025-55887](https://github.com/0xZeroSec/CVE-2025-55887)
+
 ### CVE-2025-55891
 - [terribledactyl/CVE-2025-55891](https://github.com/terribledactyl/CVE-2025-55891)
 
@@ -5117,6 +5130,9 @@
 </code>
 
 - [meisterlos/CVE-2025-57392](https://github.com/meisterlos/CVE-2025-57392)
+
+### CVE-2025-57515
+- [sanchitsahni/CVE-2025-57515](https://github.com/sanchitsahni/CVE-2025-57515)
 
 ### CVE-2025-57520 (2025-09-10)
 
@@ -6020,6 +6036,7 @@
 - [valeriot30/cve-2024-3094](https://github.com/valeriot30/cve-2024-3094)
 - [Ikram124/CVE-2024-3094-analysis](https://github.com/Ikram124/CVE-2024-3094-analysis)
 - [mrk336/CVE-2024-3094](https://github.com/mrk336/CVE-2024-3094)
+- [Titus-soc/-CVE-2024-3094-Vulnerability-Checker-Fixer-Public](https://github.com/Titus-soc/-CVE-2024-3094-Vulnerability-Checker-Fixer-Public)
 
 ### CVE-2024-3105 (2024-06-15)
 
@@ -30136,6 +30153,7 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
+- [AventurineJ/CVE-2022-39299-Research](https://github.com/AventurineJ/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
