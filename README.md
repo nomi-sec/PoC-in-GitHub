@@ -1397,6 +1397,7 @@
 
 - [h4xnz/CVE-2025-10035-Exploit](https://github.com/h4xnz/CVE-2025-10035-Exploit)
 - [rxerium/CVE-2025-10035](https://github.com/rxerium/CVE-2025-10035)
+- [ThemeHackers/CVE-2025-10035](https://github.com/ThemeHackers/CVE-2025-10035)
 
 ### CVE-2025-10046 (2025-09-06)
 
@@ -2085,6 +2086,7 @@
 - [0xgh057r3c0n/CVE-2025-25257](https://github.com/0xgh057r3c0n/CVE-2025-25257)
 - [mrmtwoj/CVE-2025-25257](https://github.com/mrmtwoj/CVE-2025-25257)
 - [TheStingR/CVE-2025-25257](https://github.com/TheStingR/CVE-2025-25257)
+- [segfault-it/CVE-2025-25257](https://github.com/segfault-it/CVE-2025-25257)
 
 ### CVE-2025-25279 (2025-02-24)
 
@@ -50755,6 +50757,7 @@
 - [Zeop-CyberSec/fortios_vpnssl_traversal_leak](https://github.com/Zeop-CyberSec/fortios_vpnssl_traversal_leak)
 - [B1anda0/CVE-2018-13379](https://github.com/B1anda0/CVE-2018-13379)
 - [nivdolgin/CVE-2018-13379](https://github.com/nivdolgin/CVE-2018-13379)
+- [kh4sh3i/CVE-2018-13379](https://github.com/kh4sh3i/CVE-2018-13379)
 
 ### CVE-2018-13382 (2019-06-04)
 
