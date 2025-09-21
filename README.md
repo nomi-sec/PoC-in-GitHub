@@ -3352,6 +3352,7 @@
 - [blackcat4347/CVE-2025-32463_PoC](https://github.com/blackcat4347/CVE-2025-32463_PoC)
 - [ashardev002/CVE-2025-32463_chwoot](https://github.com/ashardev002/CVE-2025-32463_chwoot)
 - [mihnasdsad/CVE-2025-32463](https://github.com/mihnasdsad/CVE-2025-32463)
+- [At0mXploit/CVE-2025-32463](https://github.com/At0mXploit/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -5061,6 +5062,9 @@
 
 ### CVE-2025-55887
 - [0xZeroSec/CVE-2025-55887](https://github.com/0xZeroSec/CVE-2025-55887)
+
+### CVE-2025-55888
+- [0xZeroSec/CVE-2025-55888](https://github.com/0xZeroSec/CVE-2025-55888)
 
 ### CVE-2025-55891
 - [terribledactyl/CVE-2025-55891](https://github.com/terribledactyl/CVE-2025-55891)
@@ -51844,6 +51848,8 @@
 - [KonEch0/CVE-2018-25031-SG](https://github.com/KonEch0/CVE-2018-25031-SG)
 - [Proklinius897/CVE-2018-25031-tests](https://github.com/Proklinius897/CVE-2018-25031-tests)
 - [nigartest/CVE-2018-25031](https://github.com/nigartest/CVE-2018-25031)
+- [rh007pt/swagger-ui](https://github.com/rh007pt/swagger-ui)
+- [RelicHunt3r/swagger-ui](https://github.com/RelicHunt3r/swagger-ui)
 
 ### CVE-2018-25032 (2022-03-25)
 
