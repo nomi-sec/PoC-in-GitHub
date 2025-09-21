@@ -1219,10 +1219,11 @@
 - [kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition](https://github.com/kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition)
 - [walidpyh/CVE-2025-8088](https://github.com/walidpyh/CVE-2025-8088)
 - [hexsecteam/CVE-2025-8088-Winrar-Tool](https://github.com/hexsecteam/CVE-2025-8088-Winrar-Tool)
-- [tartalu/CVE-2025-8088](https://github.com/tartalu/CVE-2025-8088)
 - [techcorp/CVE-2025-8088-Exploit](https://github.com/techcorp/CVE-2025-8088-Exploit)
 - [Shinkirou789/Cve-2025-8088-WinRar-vulnerability](https://github.com/Shinkirou789/Cve-2025-8088-WinRar-vulnerability)
+- [Osinskitito499/CVE-2025-8088](https://github.com/Osinskitito499/CVE-2025-8088)
 - [hbesljx/CVE-2025-8088-EXP](https://github.com/hbesljx/CVE-2025-8088-EXP)
+- [m4nbun/CVE-2025-8088](https://github.com/m4nbun/CVE-2025-8088)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -2820,7 +2821,7 @@
 - [dedibagus/cve-2025-29927-poc](https://github.com/dedibagus/cve-2025-29927-poc)
 - [alastair66/CVE-2025-29927](https://github.com/alastair66/CVE-2025-29927)
 - [BilalGns/CVE-2025-29927](https://github.com/BilalGns/CVE-2025-29927)
-- [nyctophile0969/CVE-2025-29927](https://github.com/nyctophile0969/CVE-2025-29927)
+- [JOOJIII/CVE-2025-29927](https://github.com/JOOJIII/CVE-2025-29927)
 - [Naveen-005/Next.Js-middleware-bypass-vulnerability-CVE-2025-29927](https://github.com/Naveen-005/Next.Js-middleware-bypass-vulnerability-CVE-2025-29927)
 - [Gokul-Krishnan-V-R/cve-2025-29927](https://github.com/Gokul-Krishnan-V-R/cve-2025-29927)
 - [fahimalshihab/NextBypass](https://github.com/fahimalshihab/NextBypass)
@@ -3513,6 +3514,7 @@
 </code>
 
 - [Chocapikk/CVE-2025-34152](https://github.com/Chocapikk/CVE-2025-34152)
+- [kh4sh3i/CVE-2025-34152](https://github.com/kh4sh3i/CVE-2025-34152)
 
 ### CVE-2025-34157 (2025-08-27)
 
@@ -4191,6 +4193,7 @@
 <code>Notepad++ is a free and open-source source code editor. In versions 8.8.1 and prior, a privilege escalation vulnerability exists in the Notepad++ v8.8.1 installer that allows unprivileged users to gain SYSTEM-level privileges through insecure executable search paths. An attacker could use social engineering or clickjacking to trick users into downloading both the legitimate installer and a malicious executable to the same directory (typically Downloads folder - which is known as Vulnerable directory). Upon running the installer, the attack executes automatically with SYSTEM privileges. This issue has been fixed and will be released in version 8.8.2.
 </code>
 
+- [TheTorjanCaptain/CVE-2025-49144_PoC](https://github.com/TheTorjanCaptain/CVE-2025-49144_PoC)
 - [b0ySie7e/Notepad-8.8.1_CVE-2025-49144](https://github.com/b0ySie7e/Notepad-8.8.1_CVE-2025-49144)
 - [timsonner/CVE-2025-49144-Research](https://github.com/timsonner/CVE-2025-49144-Research)
 - [0xCZR1/cve-2025-49144](https://github.com/0xCZR1/cve-2025-49144)
