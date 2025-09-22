@@ -1473,6 +1473,7 @@
 - [Dit-Developers/CVE-2025-21298](https://github.com/Dit-Developers/CVE-2025-21298)
 - [Denyningbow/rtf-ctf-cve-2025-21298](https://github.com/Denyningbow/rtf-ctf-cve-2025-21298)
 - [B1ack4sh/Blackash-CVE-2025-21298](https://github.com/B1ack4sh/Blackash-CVE-2025-21298)
+- [fy-poc/full-poc-CVE-2025_21298](https://github.com/fy-poc/full-poc-CVE-2025_21298)
 
 ### CVE-2025-21333 (2025-01-14)
 
@@ -5149,6 +5150,9 @@
 </code>
 
 - [onurcangnc/CVE-2025-57520-Stored-XSS-in-Decap-CMS-3.8.3-](https://github.com/onurcangnc/CVE-2025-57520-Stored-XSS-in-Decap-CMS-3.8.3-)
+
+### CVE-2025-57529
+- [songqb-xx/CVE-2025-57529](https://github.com/songqb-xx/CVE-2025-57529)
 
 ### CVE-2025-57576 (2025-09-04)
 
@@ -15875,6 +15879,7 @@
 - [zer0-dave/CVE-2023-1545-POC](https://github.com/zer0-dave/CVE-2023-1545-POC)
 - [sternstundes/CVE-2023-1545-POC-python](https://github.com/sternstundes/CVE-2023-1545-POC-python)
 - [gunzf0x/CVE-2023-1545](https://github.com/gunzf0x/CVE-2023-1545)
+- [lineeralgebra/CVE-2023-1545-POC](https://github.com/lineeralgebra/CVE-2023-1545-POC)
 
 ### CVE-2023-1665 (2023-03-27)
 
