@@ -2691,6 +2691,13 @@
 
 - [Diabl0xE/CVE-2025-27519](https://github.com/Diabl0xE/CVE-2025-27519)
 
+### CVE-2025-27520 (2025-04-04)
+
+<code>BentoML is a Python library for building online serving systems optimized for AI apps and model inference. A Remote Code Execution (RCE) vulnerability caused by insecure deserialization has been identified in the latest version (v1.4.2) of BentoML. It allows any unauthenticated user to execute arbitrary code on the server. It exists an unsafe code segment in serde.py. This vulnerability is fixed in 1.4.3.
+</code>
+
+- [amalpvatayam67/day09-bentoml-deser-lab](https://github.com/amalpvatayam67/day09-bentoml-deser-lab)
+
 ### CVE-2025-27533 (2025-05-07)
 
 <code>Memory Allocation with Excessive Size Value vulnerability in Apache ActiveMQ.\n\nDuring unmarshalling of OpenWire commands the size value of buffers was not properly validated which could lead to excessive memory allocation and be exploited to cause a denial of service (DoS) by depleting process memory, thereby affecting applications and services that rely on the availability of the ActiveMQ broker when not using mutual TLS connections.\nThis issue affects Apache ActiveMQ: from 6.0.0 before 6.1.6, from 5.18.0 before 5.18.7, from 5.17.0 before 5.17.7, before 5.16.8. ActiveMQ 5.19.0 is not affected.\n\nUsers are recommended to upgrade to version 6.1.6+, 5.19.0+,  5.18.7+, 5.17.7, or 5.16.8 or which fixes the issue.\n\nExisting users may implement mutual TLS to mitigate the risk on affected brokers.
@@ -4869,7 +4876,11 @@
 
 - [shinyColumn/CVE-2025-50944](https://github.com/shinyColumn/CVE-2025-50944)
 
-### CVE-2025-51006
+### CVE-2025-51006 (2025-09-22)
+
+<code>Within tcpreplay's tcprewrite, a double free vulnerability has been identified in the dlt_linuxsll2_cleanup() function in plugins/dlt_linuxsll2/linuxsll2.c. This vulnerability is triggered when tcpedit_dlt_cleanup() indirectly invokes the cleanup routine multiple times on the same memory region. By supplying a specifically crafted pcap file to the tcprewrite binary, a local attacker can exploit this flaw to cause a Denial of Service (DoS) via memory corruption.
+</code>
+
 - [sy460129/CVE-2025-51006](https://github.com/sy460129/CVE-2025-51006)
 
 ### CVE-2025-51040 (2025-08-06)
@@ -5526,16 +5537,28 @@
 
 - [krispybyte/CVE-2025-55763](https://github.com/krispybyte/CVE-2025-55763)
 
-### CVE-2025-55885
+### CVE-2025-55885 (2025-09-22)
+
+<code>SQL Injection vulnerability in Alpes Recherche et Developpement ARD GEC en Lign before v.2025-04-23 allows a remote attacker to escalate privileges via the GET parameters in index.php
+</code>
+
 - [0xZeroSec/CVE-2025-55885](https://github.com/0xZeroSec/CVE-2025-55885)
 
-### CVE-2025-55886
+### CVE-2025-55886 (2025-09-22)
+
+<code>An Insecure Direct Object Reference (IDOR) vulnerability was discovered in ARD. The flaw exists in the `fe_uid` parameter of the payment history API endpoint. An authenticated attacker can manipulate this parameter to access the payment history of other users without authorization.
+</code>
+
 - [0xZeroSec/CVE-2025-55886](https://github.com/0xZeroSec/CVE-2025-55886)
 
 ### CVE-2025-55887
 - [0xZeroSec/CVE-2025-55887](https://github.com/0xZeroSec/CVE-2025-55887)
 
-### CVE-2025-55888
+### CVE-2025-55888 (2025-09-22)
+
+<code>Cross-Site Scripting (XSS) vulnerability was discovered in the Ajax transaction manager endpoint of ARD. An attacker can intercept the Ajax response and inject malicious JavaScript into the accountName field. This input is not properly sanitized or encoded when rendered, allowing script execution in the context of users browsers. This flaw could lead to session hijacking, cookie theft, and other malicious actions.
+</code>
+
 - [0xZeroSec/CVE-2025-55888](https://github.com/0xZeroSec/CVE-2025-55888)
 
 ### CVE-2025-55891
@@ -5557,6 +5580,9 @@
 
 ### CVE-2025-56019
 - [Yashodhanvivek/Agatsa-EasyTouch-Plus---CVE-2025-56019](https://github.com/Yashodhanvivek/Agatsa-EasyTouch-Plus---CVE-2025-56019)
+
+### CVE-2025-56311
+- [wrathfulDiety/CVE-2025-56311](https://github.com/wrathfulDiety/CVE-2025-56311)
 
 ### CVE-2025-56435 (2025-09-03)
 
@@ -5704,6 +5730,13 @@
 </code>
 
 - [william31212/CVE-Requests-1896609](https://github.com/william31212/CVE-Requests-1896609)
+
+### CVE-2025-59424 (2025-09-18)
+
+<code>LinkAce is a self-hosted archive to collect website links. Prior to 2.3.1, a Stored Cross-Site Scripting (XSS) vulnerability has been identified on the /system/audit page. The application fails to properly sanitize the username field before it is rendered in the audit log. An authenticated attacker can set a malicious JavaScript payload as their username. When an action performed by this user is recorded (e.g., generate or revoke an API token), the payload is stored in the database. The script is then executed in the browser of any user, particularly administrators, who views the /system/audit page. This vulnerability is fixed in 2.3.1.
+</code>
+
+- [JOOJIII/CVE-2025-59424](https://github.com/JOOJIII/CVE-2025-59424)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
@@ -17848,6 +17881,7 @@
 </code>
 
 - [0zer0d4y/FuegoTest](https://github.com/0zer0d4y/FuegoTest)
+- [oguzhanozuzun301/cisco-rv-rce-poc](https://github.com/oguzhanozuzun301/cisco-rv-rce-poc)
 
 ### CVE-2023-20052 (2023-02-16)
 
@@ -59651,6 +59685,13 @@
 </code>
 
 - [Sunqiz/cve-2010-2553-reproduction](https://github.com/Sunqiz/cve-2010-2553-reproduction)
+
+### CVE-2010-2883 (2010-09-09)
+
+<code>Stack-based buffer overflow in CoolType.dll in Adobe Reader and Acrobat 9.x before 9.4, and 8.x before 8.2.5 on Windows and Mac OS X, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a PDF document with a long field in a Smart INdependent Glyphlets (SING) table in a TTF font, as exploited in the wild in September 2010. NOTE: some of these details are obtained from third party information.
+</code>
+
+- [avielzecharia/CVE-2010-2883](https://github.com/avielzecharia/CVE-2010-2883)
 
 ### CVE-2010-3124 (2010-08-26)
 
