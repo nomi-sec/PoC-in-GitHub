@@ -2865,6 +2865,7 @@
 - [MKIRAHMET/CVE-2025-29927-PoC](https://github.com/MKIRAHMET/CVE-2025-29927-PoC)
 - [adjscent/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/adjscent/vulnerable-nextjs-14-CVE-2025-29927)
 - [sdrtba/CVE-2025-29927](https://github.com/sdrtba/CVE-2025-29927)
+- [iteride/CVE-2025-29927](https://github.com/iteride/CVE-2025-29927)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -13614,6 +13615,7 @@
 
 - [CodePontiff/next_js_poisoning](https://github.com/CodePontiff/next_js_poisoning)
 - [Lercas/CVE-2024-46982](https://github.com/Lercas/CVE-2024-46982)
+- [melmathari/CVE-2024-46982-NUCLEI](https://github.com/melmathari/CVE-2024-46982-NUCLEI)
 
 ### CVE-2024-46986 (2024-09-18)
 
@@ -39229,6 +39231,7 @@
 - [DannyRavi/nmap-scripts](https://github.com/DannyRavi/nmap-scripts)
 - [tdevworks/CVE-2020-0796-SMBGhost-Exploit-Demo](https://github.com/tdevworks/CVE-2020-0796-SMBGhost-Exploit-Demo)
 - [esmwaSpyware/DoS-PoC-for-CVE-2020-0796-SMBGhost-](https://github.com/esmwaSpyware/DoS-PoC-for-CVE-2020-0796-SMBGhost-)
+- [Jagadeesh7532/-CVE-2020-0796-SMBGhost-Windows-10-SMBv3-Remote-Code-Execution-Vulnerability](https://github.com/Jagadeesh7532/-CVE-2020-0796-SMBGhost-Windows-10-SMBv3-Remote-Code-Execution-Vulnerability)
 
 ### CVE-2020-0887 (2020-03-12)
 
@@ -49663,6 +49666,7 @@
 - [xxxTectationxxx/CVE-2018-7600](https://github.com/xxxTectationxxx/CVE-2018-7600)
 - [muhammedkayag/CVE-2018-7600](https://github.com/muhammedkayag/CVE-2018-7600)
 - [SyedGhufranRaza/CVE-2018-7600-Remote-Code-Execution](https://github.com/SyedGhufranRaza/CVE-2018-7600-Remote-Code-Execution)
+- [nika0x38/CVE-2018-7600](https://github.com/nika0x38/CVE-2018-7600)
 
 ### CVE-2018-7602 (2018-07-19)
 
