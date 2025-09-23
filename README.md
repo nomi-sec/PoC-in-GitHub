@@ -3127,6 +3127,7 @@
 - [adjscent/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/adjscent/vulnerable-nextjs-14-CVE-2025-29927)
 - [sdrtba/CVE-2025-29927](https://github.com/sdrtba/CVE-2025-29927)
 - [iteride/CVE-2025-29927](https://github.com/iteride/CVE-2025-29927)
+- [sermikr0/nextjs-middleware-auth-bypass](https://github.com/sermikr0/nextjs-middleware-auth-bypass)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -3526,6 +3527,7 @@
 - [Sachinart/CVE-2025-32432](https://github.com/Sachinart/CVE-2025-32432)
 - [CTY-Research-1/CVE-2025-32432-PoC](https://github.com/CTY-Research-1/CVE-2025-32432-PoC)
 - [B1ack4sh/Blackash-CVE-2025-32432](https://github.com/B1ack4sh/Blackash-CVE-2025-32432)
+- [bambooqj/CVE-2025-32432](https://github.com/bambooqj/CVE-2025-32432)
 
 ### CVE-2025-32433 (2025-04-16)
 
@@ -3636,6 +3638,7 @@
 - [ashardev002/CVE-2025-32463_chwoot](https://github.com/ashardev002/CVE-2025-32463_chwoot)
 - [mihnasdsad/CVE-2025-32463](https://github.com/mihnasdsad/CVE-2025-32463)
 - [At0mXploit/CVE-2025-32463](https://github.com/At0mXploit/CVE-2025-32463)
+- [no-speech-to-text/CVE-2025-32463](https://github.com/no-speech-to-text/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -4881,6 +4884,9 @@
 
 - [shinyColumn/CVE-2025-50944](https://github.com/shinyColumn/CVE-2025-50944)
 
+### CVE-2025-51005
+- [sy460129/CVE-2025-51005](https://github.com/sy460129/CVE-2025-51005)
+
 ### CVE-2025-51006 (2025-09-22)
 
 <code>Within tcpreplay's tcprewrite, a double free vulnerability has been identified in the dlt_linuxsll2_cleanup() function in plugins/dlt_linuxsll2/linuxsll2.c. This vulnerability is triggered when tcpedit_dlt_cleanup() indirectly invokes the cleanup routine multiple times on the same memory region. By supplying a specifically crafted pcap file to the tcprewrite binary, a local attacker can exploit this flaw to cause a Denial of Service (DoS) via memory corruption.
@@ -5242,6 +5248,8 @@
 <code>Deserialization of untrusted data in on-premises Microsoft SharePoint Server allows an unauthorized attacker to execute code over a network.\nMicrosoft is aware that an exploit for CVE-2025-53770 exists in the wild.\nMicrosoft is preparing and fully testing a comprehensive update to address this vulnerability.  In the meantime, please make sure that the mitigation provided in this CVE documentation is in place so that you are protected from exploitation.
 </code>
 
+- [taqiaferdianshah/CVE-2025-53770](https://github.com/taqiaferdianshah/CVE-2025-53770)
+- [yashz0007/CVE-2025-53770-Exploit](https://github.com/yashz0007/CVE-2025-53770-Exploit)
 - [B1ack4sh/Blackash-CVE-2025-53770](https://github.com/B1ack4sh/Blackash-CVE-2025-53770)
 - [RukshanaAlikhan/CVE-2025-53770](https://github.com/RukshanaAlikhan/CVE-2025-53770)
 - [Bluefire-Redteam-Cybersecurity/bluefire-sharepoint-cve-2025-53770](https://github.com/Bluefire-Redteam-Cybersecurity/bluefire-sharepoint-cve-2025-53770)
@@ -5281,6 +5289,7 @@
 - [ghostn4444/CVE-2025-53770](https://github.com/ghostn4444/CVE-2025-53770)
 - [saladin0x1/CVE-2025-53770](https://github.com/saladin0x1/CVE-2025-53770)
 - [go-bi/sharepoint-CVE-2025-53770](https://github.com/go-bi/sharepoint-CVE-2025-53770)
+- [fentnttntnt/CVE-2025-53770](https://github.com/fentnttntnt/CVE-2025-53770)
 
 ### CVE-2025-53772 (2025-08-12)
 
@@ -9213,6 +9222,7 @@
 - [ArtemCyberLab/Project-NTLM-Hash-Capture-and-Phishing-Email-Exploitation-for-CVE-2024-21413](https://github.com/ArtemCyberLab/Project-NTLM-Hash-Capture-and-Phishing-Email-Exploitation-for-CVE-2024-21413)
 - [PolarisXSec/CVE-2024-21413](https://github.com/PolarisXSec/CVE-2024-21413)
 - [MQKGitHub/Moniker-Link-CVE-2024-21413](https://github.com/MQKGitHub/Moniker-Link-CVE-2024-21413)
+- [yass2400012/Email-exploit-Moniker-Link-CVE-2024-21413-](https://github.com/yass2400012/Email-exploit-Moniker-Link-CVE-2024-21413-)
 
 ### CVE-2024-21513 (2024-07-15)
 
@@ -17001,6 +17011,7 @@
 
 - [jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824)
 - [bluefish3r/poc-cve](https://github.com/bluefish3r/poc-cve)
+- [dadosneurais/cve-2023-3824](https://github.com/dadosneurais/cve-2023-3824)
 
 ### CVE-2023-3836 (2023-07-22)
 
