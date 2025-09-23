@@ -3128,6 +3128,7 @@
 - [sdrtba/CVE-2025-29927](https://github.com/sdrtba/CVE-2025-29927)
 - [iteride/CVE-2025-29927](https://github.com/iteride/CVE-2025-29927)
 - [sermikr0/nextjs-middleware-auth-bypass](https://github.com/sermikr0/nextjs-middleware-auth-bypass)
+- [amalpvatayam67/day10-nextjs-middleware-lab](https://github.com/amalpvatayam67/day10-nextjs-middleware-lab)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -5290,6 +5291,7 @@
 - [saladin0x1/CVE-2025-53770](https://github.com/saladin0x1/CVE-2025-53770)
 - [go-bi/sharepoint-CVE-2025-53770](https://github.com/go-bi/sharepoint-CVE-2025-53770)
 - [fentnttntnt/CVE-2025-53770](https://github.com/fentnttntnt/CVE-2025-53770)
+- [ziisenpai/CVE-2025-53770-Scanner](https://github.com/ziisenpai/CVE-2025-53770-Scanner)
 
 ### CVE-2025-53772 (2025-08-12)
 
@@ -17815,6 +17817,7 @@
 </code>
 
 - [w2xim3/CVE-2023-6933](https://github.com/w2xim3/CVE-2023-6933)
+- [Trex96/vulnerable-bsr-lab-CVE-2023-6933](https://github.com/Trex96/vulnerable-bsr-lab-CVE-2023-6933)
 
 ### CVE-2023-6985 (2024-02-05)
 
