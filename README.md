@@ -984,6 +984,7 @@
 <code>Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA virtual server
 </code>
 
+- [Lakiya673/CVE-2025-5777](https://github.com/Lakiya673/CVE-2025-5777)
 - [mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC-](https://github.com/mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC-)
 - [RickGeex/CVE-2025-5777-CitrixBleed](https://github.com/RickGeex/CVE-2025-5777-CitrixBleed)
 - [idobarel/CVE-2025-5777](https://github.com/idobarel/CVE-2025-5777)
@@ -1570,6 +1571,7 @@
 
 ### CVE-2025-10585
 - [AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day](https://github.com/AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day)
+- [callinston/CVE-2025-10585](https://github.com/callinston/CVE-2025-10585)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -1593,6 +1595,7 @@
 </code>
 
 - [jordan922/cve2025-20265](https://github.com/jordan922/cve2025-20265)
+- [saruman9/cve_2025_20265](https://github.com/saruman9/cve_2025_20265)
 - [amalpvatayam67/day08-CISCO-fmc-sim](https://github.com/amalpvatayam67/day08-CISCO-fmc-sim)
 
 ### CVE-2025-20281 (2025-06-25)
@@ -2277,6 +2280,7 @@
 - [mrmtwoj/CVE-2025-25257](https://github.com/mrmtwoj/CVE-2025-25257)
 - [TheStingR/CVE-2025-25257](https://github.com/TheStingR/CVE-2025-25257)
 - [segfault-it/CVE-2025-25257](https://github.com/segfault-it/CVE-2025-25257)
+- [kityzed2003/CVE-2025-25257](https://github.com/kityzed2003/CVE-2025-25257)
 
 ### CVE-2025-25279 (2025-02-24)
 
@@ -4548,6 +4552,7 @@
 - [Wh04m1001/CVE-2025-48799](https://github.com/Wh04m1001/CVE-2025-48799)
 - [painoob/CVE-2025-48799](https://github.com/painoob/CVE-2025-48799)
 - [mrk336/CVE-2025-48799](https://github.com/mrk336/CVE-2025-48799)
+- [ukisshinaah/CVE-2025-48799](https://github.com/ukisshinaah/CVE-2025-48799)
 
 ### CVE-2025-48827 (2025-05-27)
 
@@ -5306,13 +5311,6 @@
 
 - [tigr78/CVE-2025-53964](https://github.com/tigr78/CVE-2025-53964)
 
-### CVE-2025-54106 (2025-09-09)
-
-<code>Integer overflow or wraparound in Windows Routing and Remote Access Service (RRAS) allows an unauthorized attacker to execute code over a network.
-</code>
-
-- [callinston/CVE-2025-54106](https://github.com/callinston/CVE-2025-54106)
-
 ### CVE-2025-54135 (2025-08-05)
 
 <code>Cursor is a code editor built for programming with AI. Cursor allows writing in-workspace files with no user approval in versions below 1.3.9, If the file is a dotfile, editing it requires approval but creating a new one doesn't. Hence, if sensitive MCP files, such as the .cursor/mcp.json file don't already exist in the workspace, an attacker can chain a indirect prompt injection vulnerability to hijack the context to write to the settings file and trigger RCE on the victim without user approval. This is fixed in version 1.3.9.
@@ -5551,7 +5549,11 @@
 
 - [0xZeroSec/CVE-2025-55886](https://github.com/0xZeroSec/CVE-2025-55886)
 
-### CVE-2025-55887
+### CVE-2025-55887 (2025-09-22)
+
+<code>Cross-Site Scripting (XSS) vulnerability was discovered in the meal reservation service ARD. The vulnerability exists in the transactionID GET parameter on the transaction confirmation page. Due to improper input validation and output encoding, an attacker can inject malicious JavaScript code that is executed in the context of a user s browser. This can lead to session hijacking, theft of cookies, and other malicious actions performed on behalf of the victim.
+</code>
+
 - [0xZeroSec/CVE-2025-55887](https://github.com/0xZeroSec/CVE-2025-55887)
 
 ### CVE-2025-55888 (2025-09-22)
@@ -57424,6 +57426,7 @@
 - [h3x0v3rl0rd/CVE-2015-6668](https://github.com/h3x0v3rl0rd/CVE-2015-6668)
 - [jimdiroffii/CVE-2015-6668](https://github.com/jimdiroffii/CVE-2015-6668)
 - [NoTrustedx/Job-Manager-Disclosure](https://github.com/NoTrustedx/Job-Manager-Disclosure)
+- [nika0x38/CVE-2015-6668](https://github.com/nika0x38/CVE-2015-6668)
 
 ### CVE-2015-6748 (2017-09-25)
 
