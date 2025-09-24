@@ -1375,6 +1375,7 @@
 - [Shinkirou789/Cve-2025-8088-WinRar-vulnerability](https://github.com/Shinkirou789/Cve-2025-8088-WinRar-vulnerability)
 - [Osinskitito499/CVE-2025-8088](https://github.com/Osinskitito499/CVE-2025-8088)
 - [hbesljx/CVE-2025-8088-EXP](https://github.com/hbesljx/CVE-2025-8088-EXP)
+- [pablo388/WinRAR-CVE-2025-8088-PoC-RAR](https://github.com/pablo388/WinRAR-CVE-2025-8088-PoC-RAR)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -3652,6 +3653,7 @@
 - [At0mXploit/CVE-2025-32463](https://github.com/At0mXploit/CVE-2025-32463)
 - [no-speech-to-text/CVE-2025-32463](https://github.com/no-speech-to-text/CVE-2025-32463)
 - [DaadaAyoze/CVE-2025-32463-lab](https://github.com/DaadaAyoze/CVE-2025-32463-lab)
+- [nelissandro/CVE-2025-32463-Sudo-Chroot-Escape](https://github.com/nelissandro/CVE-2025-32463-Sudo-Chroot-Escape)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -3809,6 +3811,7 @@
 </code>
 
 - [RyanJohnJames/CVE-2025-34100-demo](https://github.com/RyanJohnJames/CVE-2025-34100-demo)
+- [hyeonyeonglee/CVE-2025-34100](https://github.com/hyeonyeonglee/CVE-2025-34100)
 
 ### CVE-2025-34152 (2025-08-07)
 
@@ -5495,6 +5498,7 @@
 - [hunters-sec/CVE-2025-55188-7z-exploit](https://github.com/hunters-sec/CVE-2025-55188-7z-exploit)
 - [san8383/CVE-2025-55188-7z-POC](https://github.com/san8383/CVE-2025-55188-7z-POC)
 - [lunbun/CVE-2025-55188](https://github.com/lunbun/CVE-2025-55188)
+- [Sh3ruman/CVE-2025-55188-7z-exploit](https://github.com/Sh3ruman/CVE-2025-55188-7z-exploit)
 
 ### CVE-2025-55234 (2025-09-09)
 
@@ -5565,6 +5569,13 @@
 </code>
 
 - [krispybyte/CVE-2025-55763](https://github.com/krispybyte/CVE-2025-55763)
+
+### CVE-2025-55780 (2025-09-23)
+
+<code>A null pointer dereference occurs in the function break_word_for_overflow_wrap() in MuPDF 1.26.4 when rendering a malformed EPUB document. Specifically, the function calls fz_html_split_flow() to split a FLOW_WORD node, but does not check if node-&gt;next is valid before accessing node-&gt;next-&gt;overflow_wrap, resulting in a crash if the split fails or returns a partial node chain.
+</code>
+
+- [ISH2YU/CVE-2025-55780](https://github.com/ISH2YU/CVE-2025-55780)
 
 ### CVE-2025-55885 (2025-09-22)
 
@@ -14678,7 +14689,6 @@
 </code>
 
 - [v3153/CVE-2024-50379-POC](https://github.com/v3153/CVE-2024-50379-POC)
-- [yiliufeng168/CVE-2024-50379-POC](https://github.com/yiliufeng168/CVE-2024-50379-POC)
 - [JFOZ1010/Nuclei-Template-CVE-2024-50379](https://github.com/JFOZ1010/Nuclei-Template-CVE-2024-50379)
 - [iSee857/CVE-2024-50379-PoC](https://github.com/iSee857/CVE-2024-50379-PoC)
 - [Alchemist3dot14/CVE-2024-50379](https://github.com/Alchemist3dot14/CVE-2024-50379)
