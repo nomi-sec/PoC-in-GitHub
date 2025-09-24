@@ -365,6 +365,7 @@
 - [Yucaerin/CVE-2025-2294](https://github.com/Yucaerin/CVE-2025-2294)
 - [0xWhoami35/CVE-2025-2294](https://github.com/0xWhoami35/CVE-2025-2294)
 - [r0otk3r/CVE-2025-2294](https://github.com/r0otk3r/CVE-2025-2294)
+- [iteride/CVE-2025-2294](https://github.com/iteride/CVE-2025-2294)
 
 ### CVE-2025-2301 (2025-07-21)
 
@@ -1577,9 +1578,13 @@
 </code>
 
 - [People-11/CVE-2025-10184_PoC](https://github.com/People-11/CVE-2025-10184_PoC)
-- [yuuouu/OnePush-CVE-2025-10184](https://github.com/yuuouu/OnePush-CVE-2025-10184)
+- [yuuouu/ColorOS-CVE-2025-10184](https://github.com/yuuouu/ColorOS-CVE-2025-10184)
 
-### CVE-2025-10585
+### CVE-2025-10585 (2025-09-24)
+
+<code>Type confusion in V8 in Google Chrome prior to 140.0.7339.185 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
 - [AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day](https://github.com/AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day)
 - [callinston/CVE-2025-10585](https://github.com/callinston/CVE-2025-10585)
 
@@ -5676,8 +5681,19 @@
 
 - [shinyColumn/CVE-2025-56803](https://github.com/shinyColumn/CVE-2025-56803)
 
-### CVE-2025-56815
+### CVE-2025-56815 (2025-09-24)
+
+<code>Datart 1.0.0-rc.3 is vulnerable to Directory Traversal in the POST /viz/image interface, since the server directly uses MultipartFile.transferTo() to save the uploaded file to a path controllable by the user, and lacks strict verification of the file name.
+</code>
+
 - [xiaoxiaoranxxx/CVE-2025-56815](https://github.com/xiaoxiaoranxxx/CVE-2025-56815)
+
+### CVE-2025-56819 (2025-09-24)
+
+<code>An issue in Datart v.1.0.0-rc.3 allows a remote attacker to execute arbitrary code via the INIT connection parameter.
+</code>
+
+- [xyyzxc/CVE-2025-56819](https://github.com/xyyzxc/CVE-2025-56819)
 
 ### CVE-2025-57055 (2025-09-17)
 
@@ -11657,6 +11673,7 @@
 - [ashutosh0408/CVE-2024-32002](https://github.com/ashutosh0408/CVE-2024-32002)
 - [ashutosh0408/Cve-2024-32002-poc](https://github.com/ashutosh0408/Cve-2024-32002-poc)
 - [Dre4m017/fuzzy](https://github.com/Dre4m017/fuzzy)
+- [JoaoLeonello/cve-2024-32002-poc](https://github.com/JoaoLeonello/cve-2024-32002-poc)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -18136,13 +18153,6 @@
 
 - [Trinadh465/frameworks_base_CVE-2023-20944](https://github.com/Trinadh465/frameworks_base_CVE-2023-20944)
 
-### CVE-2023-20945 (2023-02-28)
-
-<code>In phNciNfc_MfCreateXchgDataHdr of phNxpExtns_MifareStd.cpp, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-246932269
-</code>
-
-- [Ailenchick/CVE-2023-20945](https://github.com/Ailenchick/CVE-2023-20945)
-
 ### CVE-2023-20955 (2023-03-24)
 
 <code>In onPrepareOptionsMenu of AppInfoDashboardFragment.java, there is a possible way to bypass admin restrictions and uninstall applications for all users due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-258653813
@@ -18157,7 +18167,6 @@
 
 - [pwnipc/BadParcel](https://github.com/pwnipc/BadParcel)
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20963](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20963)
-- [Ailenchick/CVE-2023-20963](https://github.com/Ailenchick/CVE-2023-20963)
 - [black7024/BadParcel](https://github.com/black7024/BadParcel)
 
 ### CVE-2023-21036 (2023-03-24)
@@ -21154,6 +21163,13 @@
 </code>
 
 - [mbadanoiu/CVE-2023-34212](https://github.com/mbadanoiu/CVE-2023-34212)
+
+### CVE-2023-34233 (2023-06-08)
+
+<code>The Snowflake Connector for Python provides an interface for developing Python applications that can connect to Snowflake and perform all standard operations. Versions prior to 3.0.2 are vulnerable to command injection via single sign-on(SSO) browser URL authentication. In order to exploit the potential for command injection, an attacker would need to be successful in (1) establishing a malicious resource and (2) redirecting users to utilize the resource. The attacker could set up a malicious, publicly accessible server which responds to the SSO URL with an attack payload. If the attacker then tricked a user into visiting the maliciously crafted connection URL, the user’s local machine would render the malicious payload, leading to a remote code execution. This attack scenario can be mitigated through URL whitelisting as well as common anti-phishing resources. Version 3.0.2 contains a patch for this issue.
+</code>
+
+- [nayankadamm/CVE-2023-34233_Proof_OF_Concept](https://github.com/nayankadamm/CVE-2023-34233_Proof_OF_Concept)
 
 ### CVE-2023-34312 (2023-06-01)
 
@@ -50397,6 +50413,7 @@
 - [muhammedkayag/CVE-2018-7600](https://github.com/muhammedkayag/CVE-2018-7600)
 - [SyedGhufranRaza/CVE-2018-7600-Remote-Code-Execution](https://github.com/SyedGhufranRaza/CVE-2018-7600-Remote-Code-Execution)
 - [nika0x38/CVE-2018-7600](https://github.com/nika0x38/CVE-2018-7600)
+- [tea-celikik/Drupal-Exploit-Lab](https://github.com/tea-celikik/Drupal-Exploit-Lab)
 
 ### CVE-2018-7602 (2018-07-19)
 
@@ -54595,6 +54612,7 @@
 
 - [brianwrf/S2-053-CVE-2017-12611](https://github.com/brianwrf/S2-053-CVE-2017-12611)
 - [tcetin704/CVE-2017-12611](https://github.com/tcetin704/CVE-2017-12611)
+- [zeynepsilao/CVE-2017-12611_Exploit](https://github.com/zeynepsilao/CVE-2017-12611_Exploit)
 
 ### CVE-2017-12615 (2017-09-19)
 
