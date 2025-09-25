@@ -1376,6 +1376,7 @@
 - [Osinskitito499/CVE-2025-8088](https://github.com/Osinskitito499/CVE-2025-8088)
 - [hbesljx/CVE-2025-8088-EXP](https://github.com/hbesljx/CVE-2025-8088-EXP)
 - [pablo388/WinRAR-CVE-2025-8088-PoC-RAR](https://github.com/pablo388/WinRAR-CVE-2025-8088-PoC-RAR)
+- [lucyna77/winrar-malware-exploit](https://github.com/lucyna77/winrar-malware-exploit)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -3256,7 +3257,6 @@
 - [W01fh4cker/CVE-2025-30406](https://github.com/W01fh4cker/CVE-2025-30406)
 - [mchklt/CVE-2025-30406](https://github.com/mchklt/CVE-2025-30406)
 - [threadpoolx/CVE-2025-30406-CentreStack-Triofox-Deserialization-RCE](https://github.com/threadpoolx/CVE-2025-30406-CentreStack-Triofox-Deserialization-RCE)
-- [jaydenb546/CVE-2025-30406](https://github.com/jaydenb546/CVE-2025-30406)
 
 ### CVE-2025-30567 (2025-03-25)
 
@@ -60100,6 +60100,7 @@
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
 - [badkeys/debianopenssl](https://github.com/badkeys/debianopenssl)
 - [demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166](https://github.com/demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166)
+- [AhegaoPsyops/sslWeakness](https://github.com/AhegaoPsyops/sslWeakness)
 
 ### CVE-2008-0228 (2008-01-10)
 
