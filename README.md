@@ -1735,6 +1735,13 @@
 
 - [idealzh/cve-2025-22235-demo](https://github.com/idealzh/cve-2025-22235-demo)
 
+### CVE-2025-22294 (2025-01-07)
+
+<code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Gravity Master Custom Field For WP Job Manager allows Reflected XSS.This issue affects Custom Field For WP Job Manager: from n/a through 1.3.
+</code>
+
+- [mirmeweu/cve-2025-22294](https://github.com/mirmeweu/cve-2025-22294)
+
 ### CVE-2025-22352 (2025-01-07)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ELEXtensions ELEX WooCommerce Advanced Bulk Edit Products, Prices &amp; Attributes allows Blind SQL Injection.This issue affects ELEX WooCommerce Advanced Bulk Edit Products, Prices &amp; Attributes: from n/a through 1.4.8.
@@ -4678,6 +4685,7 @@
 - [melonlonmeo/CVE-2025-49132](https://github.com/melonlonmeo/CVE-2025-49132)
 - [0xtensho/CVE-2025-49132-poc](https://github.com/0xtensho/CVE-2025-49132-poc)
 - [GRodolphe/CVE-2025-49132_poc](https://github.com/GRodolphe/CVE-2025-49132_poc)
+- [WebSafety-2tina/CVE-2025-49132](https://github.com/WebSafety-2tina/CVE-2025-49132)
 
 ### CVE-2025-49144 (2025-06-23)
 
@@ -5000,6 +5008,9 @@
 </code>
 
 - [Kai-One001/Letta-CVE-2025-51482-RCE](https://github.com/Kai-One001/Letta-CVE-2025-51482-RCE)
+
+### CVE-2025-51495
+- [cainiao159357/CVE-2025-51495](https://github.com/cainiao159357/CVE-2025-51495)
 
 ### CVE-2025-51529 (2025-08-19)
 
@@ -5451,6 +5462,13 @@
 </code>
 
 - [byteReaper77/CVE-2025-54589](https://github.com/byteReaper77/CVE-2025-54589)
+
+### CVE-2025-54726 (2025-08-20)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Miguel Useche JS Archive List allows SQL Injection. This issue affects JS Archive List: from n/a through n/a.
+</code>
+
+- [RandomRobbieBF/CVE-2025-54726](https://github.com/RandomRobbieBF/CVE-2025-54726)
 
 ### CVE-2025-54769 (2025-07-28)
 
@@ -12832,6 +12850,13 @@
 
 - [vin01/poc-cve-2024-38396](https://github.com/vin01/poc-cve-2024-38396)
 
+### CVE-2024-38399 (2024-10-07)
+
+<code>Memory corruption while processing user packets to generate page faults.
+</code>
+
+- [Shreyas-Penkar/CVE-2024-38399](https://github.com/Shreyas-Penkar/CVE-2024-38399)
+
 ### CVE-2024-38472 (2024-07-01)
 
 <code>SSRF in Apache HTTP Server on Windows allows to potentially leak NTLM hashes to a malicious server via SSRF and malicious requests or content \nUsers are recommended to upgrade to version 2.4.60 which fixes this issue.  Note: Existing configurations that access UNC paths will have to configure new directive &quot;UNCList&quot; to allow access during request processing.
@@ -14737,6 +14762,7 @@
 </code>
 
 - [v3153/CVE-2024-50379-POC](https://github.com/v3153/CVE-2024-50379-POC)
+- [yiliufeng168/CVE-2024-50379-POC](https://github.com/yiliufeng168/CVE-2024-50379-POC)
 - [JFOZ1010/Nuclei-Template-CVE-2024-50379](https://github.com/JFOZ1010/Nuclei-Template-CVE-2024-50379)
 - [iSee857/CVE-2024-50379-PoC](https://github.com/iSee857/CVE-2024-50379-PoC)
 - [Alchemist3dot14/CVE-2024-50379](https://github.com/Alchemist3dot14/CVE-2024-50379)
