@@ -3139,7 +3139,7 @@
 - [amitlttwo/Next.JS-CVE-2025-29927](https://github.com/amitlttwo/Next.JS-CVE-2025-29927)
 - [aayush256-sys/next-js-auth-bypass](https://github.com/aayush256-sys/next-js-auth-bypass)
 - [mickhacking/Thank-u-Next](https://github.com/mickhacking/Thank-u-Next)
-- [Kamal-Hegazi/CVE-2025-29927-Next.js-Middleware-Authorization-Bypass](https://github.com/Kamal-Hegazi/CVE-2025-29927-Next.js-Middleware-Authorization-Bypass)
+- [0xh3g4z1/CVE-2025-29927-Next.js-Middleware-Authorization-Bypass](https://github.com/0xh3g4z1/CVE-2025-29927-Next.js-Middleware-Authorization-Bypass)
 - [sahbaazansari/CVE-2025-29927](https://github.com/sahbaazansari/CVE-2025-29927)
 - [b4sh0xf/PoC-CVE-2025-29927](https://github.com/b4sh0xf/PoC-CVE-2025-29927)
 - [rgvillanueva28/vulnbox-easy-CVE-2025-29927](https://github.com/rgvillanueva28/vulnbox-easy-CVE-2025-29927)
@@ -5308,7 +5308,7 @@
 - [bharath-cyber-root/sharepoint-toolshell-cve-2025-53770](https://github.com/bharath-cyber-root/sharepoint-toolshell-cve-2025-53770)
 - [Rabbitbong/OurSharePoint-CVE-2025-53770](https://github.com/Rabbitbong/OurSharePoint-CVE-2025-53770)
 - [Udyz/CVE-2025-53770-Exploit](https://github.com/Udyz/CVE-2025-53770-Exploit)
-- [Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE](https://github.com/Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE)
+- [0xh3g4z1/CVE-2025-53770-SharePoint-RCE](https://github.com/0xh3g4z1/CVE-2025-53770-SharePoint-RCE)
 - [BirdsAreFlyingCameras/CVE-2025-53770_Raw-HTTP-Request-Generator](https://github.com/BirdsAreFlyingCameras/CVE-2025-53770_Raw-HTTP-Request-Generator)
 - [bossnick98/-SOC342---CVE-2025-53770-SharePoint-ToolShell-Auth-Bypass-and-RCE](https://github.com/bossnick98/-SOC342---CVE-2025-53770-SharePoint-ToolShell-Auth-Bypass-and-RCE)
 - [3a7/CVE-2025-53770](https://github.com/3a7/CVE-2025-53770)
@@ -5420,7 +5420,6 @@
 <code>1Panel is a web interface and MCP Server that manages websites, files, containers, databases, and LLMs on a Linux server. In versions 2.0.5 and below, the HTTPS protocol used for communication between the Core and Agent endpoints has incomplete certificate verification during certificate validation, leading to unauthorized interface access. Due to the presence of numerous command execution or high-privilege interfaces in 1Panel, this results in Remote Code Execution (RCE). This is fixed in version 2.0.6. The CVE has been translated from Simplified Chinese using GitHub Copilot.
 </code>
 
-- [bejbitoilet5125521/CVE-2025-54424](https://github.com/bejbitoilet5125521/CVE-2025-54424)
 - [Mr-xn/CVE-2025-54424](https://github.com/Mr-xn/CVE-2025-54424)
 - [hophtien/CVE-2025-54424](https://github.com/hophtien/CVE-2025-54424)
 
@@ -5522,7 +5521,7 @@
 
 ### CVE-2025-55241 (2025-09-04)
 
-<code>Azure Entra Elevation of Privilege Vulnerability
+<code>Azure Entra ID Elevation of Privilege Vulnerability
 </code>
 
 - [Spanky-McSpank/CVE-2025-55241-Internal-Audit](https://github.com/Spanky-McSpank/CVE-2025-55241-Internal-Audit)
@@ -5701,6 +5700,20 @@
 </code>
 
 - [thawphone/CVE-2025-57055](https://github.com/thawphone/CVE-2025-57055)
+
+### CVE-2025-57174 (2025-09-15)
+
+<code>An issue was discovered in Siklu Communications Etherhaul 8010TX and 1200FX devices, Firmware 7.4.0 through 10.7.3 and possibly other previous versions. The rfpiped service listening on TCP port 555 which uses static AES encryption keys hardcoded in the binary. These keys are identical across all devices, allowing attackers to craft encrypted packets that execute arbitrary commands without authentication. This is a failed patch for CVE-2017-7318. This issue may affect other Etherhaul series devices with shared firmware.
+</code>
+
+- [semaja22/CVE-2025-57174](https://github.com/semaja22/CVE-2025-57174)
+
+### CVE-2025-57176 (2025-09-15)
+
+<code>The rfpiped service on TCP port 555 in Ceragon Networks / Siklu Communication EtherHaul series (8010TX and 1200FX tested) Firmware 7.4.0 through 10.7.3 allows unauthenticated file uploads to any writable location on the device. File upload packets use weak encryption (metadata only) with file contents transmitted in cleartext. No authentication or path validation is performed.
+</code>
+
+- [semaja22/CVE-2025-57176](https://github.com/semaja22/CVE-2025-57176)
 
 ### CVE-2025-57392 (2025-09-10)
 
@@ -27712,6 +27725,13 @@
 </code>
 
 - [jkroepke/CVE-2022-24348-2](https://github.com/jkroepke/CVE-2022-24348-2)
+
+### CVE-2022-24434 (2022-05-20)
+
+<code>This affects all versions of package dicer. A malicious attacker can send a modified form to server, and crash the nodejs service. An attacker could sent the payload again and again so that the service continuously crashes.
+</code>
+
+- [nayankadamm/CVE-2022-24434_POC](https://github.com/nayankadamm/CVE-2022-24434_POC)
 
 ### CVE-2022-24439 (2022-12-12)
 
