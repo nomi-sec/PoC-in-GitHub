@@ -849,6 +849,13 @@
 
 - [sahici/CVE-2025-4822](https://github.com/sahici/CVE-2025-4822)
 
+### CVE-2025-4840 (2025-06-10)
+
+<code>The inprosysmedia-likes-dislikes-post WordPress plugin through 1.0.0 does not properly sanitise and escape a parameter before using it in a SQL statement via an AJAX action available to unauthenticated users, leading to a SQL injection
+</code>
+
+- [RandomRobbieBF/CVE-2025-4840](https://github.com/RandomRobbieBF/CVE-2025-4840)
+
 ### CVE-2025-4866 (2025-05-18)
 
 <code>Es wurde eine kritische Schwachstelle in weibocom rill-flow 0.1.18 ausgemacht. Dabei betrifft es einen unbekannter Codeteil der Komponente Management Console. Dank der Manipulation mit unbekannten Daten kann eine code injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -956,6 +963,7 @@
 <code>Out of bounds read and write in V8 in Google Chrome prior to 137.0.7151.68 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
 </code>
 
+- [somprasong-tukman/CVE-2025-5419](https://github.com/somprasong-tukman/CVE-2025-5419)
 - [itsShotgun/chrome_v8_cve_checker](https://github.com/itsShotgun/chrome_v8_cve_checker)
 - [riemannj/CVE-2025-5419](https://github.com/riemannj/CVE-2025-5419)
 - [mistymntncop/CVE-2025-5419](https://github.com/mistymntncop/CVE-2025-5419)
@@ -1378,6 +1386,7 @@
 - [hbesljx/CVE-2025-8088-EXP](https://github.com/hbesljx/CVE-2025-8088-EXP)
 - [pablo388/WinRAR-CVE-2025-8088-PoC-RAR](https://github.com/pablo388/WinRAR-CVE-2025-8088-PoC-RAR)
 - [lucyna77/winrar-exploit](https://github.com/lucyna77/winrar-exploit)
+- [kyomber/CVE-2025-8088](https://github.com/kyomber/CVE-2025-8088)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -1399,6 +1408,13 @@
 </code>
 
 - [m3m0o/engeman-web-language-combobox-sqli](https://github.com/m3m0o/engeman-web-language-combobox-sqli)
+
+### CVE-2025-8422 (2025-09-11)
+
+<code>The Propovoice: All-in-One Client Management System plugin for WordPress is vulnerable to Arbitrary File Read in all versions up to, and including, 1.7.6.7 via the send_email() function. This makes it possible for unauthenticated attackers to read the contents of arbitrary files on the server, which can contain sensitive information.
+</code>
+
+- [RandomRobbieBF/CVE-2025-8422](https://github.com/RandomRobbieBF/CVE-2025-8422)
 
 ### CVE-2025-8471 (2025-08-02)
 
@@ -1673,7 +1689,6 @@
 - [aleongx/KQL_sentinel_CVE-2025-21333](https://github.com/aleongx/KQL_sentinel_CVE-2025-21333)
 - [B1ack4sh/Blackash-CVE-2025-21333](https://github.com/B1ack4sh/Blackash-CVE-2025-21333)
 - [pradip022/CVE-2025-21333-POC](https://github.com/pradip022/CVE-2025-21333-POC)
-- [rahul0xkr/Reproducing-CVE-2025-21333-](https://github.com/rahul0xkr/Reproducing-CVE-2025-21333-)
 
 ### CVE-2025-21385 (2025-01-09)
 
@@ -1809,6 +1824,13 @@
 </code>
 
 - [DoTTak/CVE-2025-22710](https://github.com/DoTTak/CVE-2025-22710)
+
+### CVE-2025-22777 (2025-01-13)
+
+<code>Deserialization of Untrusted Data vulnerability in GiveWP GiveWP allows Object Injection.This issue affects GiveWP: from n/a through 3.19.3.
+</code>
+
+- [RandomRobbieBF/CVE-2025-22777](https://github.com/RandomRobbieBF/CVE-2025-22777)
 
 ### CVE-2025-22783 (2025-03-27)
 
@@ -3113,6 +3135,7 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
+- [Viperazor/CVE-2025-29927-Research](https://github.com/Viperazor/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -3953,6 +3976,13 @@
 </code>
 
 - [Nxploited/CVE-2025-39601](https://github.com/Nxploited/CVE-2025-39601)
+
+### CVE-2025-39866 (2025-09-19)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nfs: writeback: fix use-after-free in __mark_inode_dirty()\n\nAn use-after-free issue occurred when __mark_inode_dirty() get the\nbdi_writeback that was in the progress of switching.\n\nCPU: 1 PID: 562 Comm: systemd-random- Not tainted 6.6.56-gb4403bd46a8e #1\n......\npstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)\npc : __mark_inode_dirty+0x124/0x418\nlr : __mark_inode_dirty+0x118/0x418\nsp : ffffffc08c9dbbc0\n........\nCall trace:\n __mark_inode_dirty+0x124/0x418\n generic_update_time+0x4c/0x60\n file_modified+0xcc/0xd0\n ext4_buffered_write_iter+0x58/0x124\n ext4_file_write_iter+0x54/0x704\n vfs_write+0x1c0/0x308\n ksys_write+0x74/0x10c\n __arm64_sys_write+0x1c/0x28\n invoke_syscall+0x48/0x114\n el0_svc_common.constprop.0+0xc0/0xe0\n do_el0_svc+0x1c/0x28\n el0_svc+0x40/0xe4\n el0t_64_sync_handler+0x120/0x12c\n el0t_64_sync+0x194/0x198\n\nRoot cause is:\n\nsystemd-random-seed                         kworker\n----------------------------------------------------------------------\n___mark_inode_dirty                     inode_switch_wbs_work_fn\n\n  spin_lock(&amp;inode-&gt;i_lock);\n  inode_attach_wb\n  locked_inode_to_wb_and_lock_list\n     get inode-&gt;i_wb\n     spin_unlock(&amp;inode-&gt;i_lock);\n     spin_lock(&amp;wb-&gt;list_lock)\n  spin_lock(&amp;inode-&gt;i_lock)\n  inode_io_list_move_locked\n  spin_unlock(&amp;wb-&gt;list_lock)\n  spin_unlock(&amp;inode-&gt;i_lock)\n                                    spin_lock(&amp;old_wb-&gt;list_lock)\n                                      inode_do_switch_wbs\n                                        spin_lock(&amp;inode-&gt;i_lock)\n                                        inode-&gt;i_wb = new_wb\n                                        spin_unlock(&amp;inode-&gt;i_lock)\n                                    spin_unlock(&amp;old_wb-&gt;list_lock)\n                                    wb_put_many(old_wb, nr_switched)\n                                      cgwb_release\n                                      old wb released\n  wb_wakeup_delayed() accesses wb,\n  then trigger the use-after-free\n  issue\n\nFix this race condition by holding inode spinlock until\nwb_wakeup_delayed() finished.
+</code>
+
+- [byteReaper77/CVE-2025-39866](https://github.com/byteReaper77/CVE-2025-39866)
 
 ### CVE-2025-40634 (2025-05-20)
 
@@ -5410,7 +5440,6 @@
 - [B1ack4sh/Blackash-CVE-2025-54253](https://github.com/B1ack4sh/Blackash-CVE-2025-54253)
 - [Shivshantp/CVE-2025-54253-Exploit-Demo](https://github.com/Shivshantp/CVE-2025-54253-Exploit-Demo)
 - [jm7knz/CVE-2025-54253-Exploit-Demo](https://github.com/jm7knz/CVE-2025-54253-Exploit-Demo)
-- [akujedanjedon/CVE-2025-54253-Exploit-Demo](https://github.com/akujedanjedon/CVE-2025-54253-Exploit-Demo)
 
 ### CVE-2025-54309 (2025-07-18)
 
@@ -5627,6 +5656,9 @@
 
 - [ISH2YU/CVE-2025-55780](https://github.com/ISH2YU/CVE-2025-55780)
 
+### CVE-2025-55817
+- [5qu1n7/CVE-2025-55817](https://github.com/5qu1n7/CVE-2025-55817)
+
 ### CVE-2025-55885 (2025-09-22)
 
 <code>SQL Injection vulnerability in Alpes Recherche et Developpement ARD GEC en Lign before v.2025-04-23 allows a remote attacker to escalate privileges via the GET parameters in index.php
@@ -5682,7 +5714,11 @@
 
 - [wrathfulDiety/CVE-2025-56311](https://github.com/wrathfulDiety/CVE-2025-56311)
 
-### CVE-2025-56383
+### CVE-2025-56383 (2025-09-26)
+
+<code>Notepad++ v8.8.3 has a DLL hijacking vulnerability, which can replace the original DLL file to execute malicious code.
+</code>
+
 - [zer0t0/CVE-2025-56383-Proof-of-Concept](https://github.com/zer0t0/CVE-2025-56383-Proof-of-Concept)
 
 ### CVE-2025-56435 (2025-09-03)
@@ -5714,6 +5750,9 @@
 
 ### CVE-2025-56772
 - [RRespxwnss/CVE-2025-56772](https://github.com/RRespxwnss/CVE-2025-56772)
+
+### CVE-2025-56795
+- [B1tBreaker/CVE-2025-56795](https://github.com/B1tBreaker/CVE-2025-56795)
 
 ### CVE-2025-56803 (2025-09-03)
 
@@ -5763,6 +5802,9 @@
 </code>
 
 - [meisterlos/CVE-2025-57392](https://github.com/meisterlos/CVE-2025-57392)
+
+### CVE-2025-57483
+- [Jainil-89/CVE](https://github.com/Jainil-89/CVE)
 
 ### CVE-2025-57515
 - [sanchitsahni/CVE-2025-57515](https://github.com/sanchitsahni/CVE-2025-57515)
@@ -8970,6 +9012,7 @@
 <code>The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.19.2 via deserialization of untrusted input from the donation form like 'firstName'. This makes it possible for unauthenticated attackers to inject a PHP Object. The additional presence of a POP chain allows attackers to delete arbitrary files on the server that makes remote code execution possible. Please note this was only partially patched in 3.19.3, a fully sufficient patch was not released until 3.19.4. However, another CVE was assigned by another CNA for version 3.19.3 so we will leave this as affecting 3.19.2 and before. We have recommended the vendor use JSON encoding to prevent any further deserialization vulnerabilities from being present.
 </code>
 
+- [RandomRobbieBF/CVE-2024-12877](https://github.com/RandomRobbieBF/CVE-2024-12877)
 - [soltanali0/CVE-2024-12877-Exploit](https://github.com/soltanali0/CVE-2024-12877-Exploit)
 
 ### CVE-2024-12883 (2024-12-21)
@@ -21839,6 +21882,7 @@
 - [4zur-0312/CVE-2023-36802](https://github.com/4zur-0312/CVE-2023-36802)
 - [x0rb3l/CVE-2023-36802-MSKSSRV-LPE](https://github.com/x0rb3l/CVE-2023-36802-MSKSSRV-LPE)
 - [Nero22k/cve-2023-36802](https://github.com/Nero22k/cve-2023-36802)
+- [rahul0xkr/Reproducing-CVE-2023-36802](https://github.com/rahul0xkr/Reproducing-CVE-2023-36802)
 
 ### CVE-2023-36812 (2023-06-30)
 
@@ -30975,6 +31019,7 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
+- [Viperazor/CVE-2022-39299-Research](https://github.com/Viperazor/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
