@@ -1112,6 +1112,7 @@
 </code>
 
 - [mbadanoiu/CVE-2025-6384](https://github.com/mbadanoiu/CVE-2025-6384)
+- [maestro-ant/CrafterCMS-CVE-2025-6384](https://github.com/maestro-ant/CrafterCMS-CVE-2025-6384)
 
 ### CVE-2025-6514 (2025-07-09)
 
