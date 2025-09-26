@@ -1287,7 +1287,7 @@
 </code>
 
 - [Yuri08loveElaina/CVE-2025-7771](https://github.com/Yuri08loveElaina/CVE-2025-7771)
-- [U65535F/ThrottleStopPoC](https://github.com/U65535F/ThrottleStopPoC)
+- [fxrstor/ThrottleStopPoC](https://github.com/fxrstor/ThrottleStopPoC)
 - [Demoo1337/ThrottleStop](https://github.com/Demoo1337/ThrottleStop)
 
 ### CVE-2025-7775 (2025-08-26)
@@ -5682,6 +5682,9 @@
 
 - [wrathfulDiety/CVE-2025-56311](https://github.com/wrathfulDiety/CVE-2025-56311)
 
+### CVE-2025-56383
+- [zer0t0/CVE-2025-56383-Proof-of-Concept](https://github.com/zer0t0/CVE-2025-56383-Proof-of-Concept)
+
 ### CVE-2025-56435 (2025-09-03)
 
 <code>SQL Injection vulnerability in FoxCMS v1.2.6 and before allows a remote attacker to execute arbitrary code via the. file /DataBackup.php and the operation on the parameter id.
@@ -6119,6 +6122,7 @@
 - [geniuszly/CVE-2024-0582](https://github.com/geniuszly/CVE-2024-0582)
 - [101010zyl/CVE-2024-0582-dataonly](https://github.com/101010zyl/CVE-2024-0582-dataonly)
 - [kuzeyardabulut/CVE-2024-0582](https://github.com/kuzeyardabulut/CVE-2024-0582)
+- [pwnmonk/io_uring-n-day](https://github.com/pwnmonk/io_uring-n-day)
 
 ### CVE-2024-0588 (2024-04-09)
 
@@ -17446,7 +17450,7 @@
 
 ### CVE-2023-4813 (2023-09-12)
 
-<code>A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
+<code>A flaw has been identified in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
 </code>
 
 - [tnishiox/cve-2023-4813](https://github.com/tnishiox/cve-2023-4813)
@@ -23821,6 +23825,13 @@
 </code>
 
 - [ahrixia/CVE-2023-45542](https://github.com/ahrixia/CVE-2023-45542)
+
+### CVE-2023-45612 (2023-10-09)
+
+<code>In JetBrains Ktor before 2.3.5 default configuration of ContentNegotiation with XML format was vulnerable to XXE
+</code>
+
+- [bbugdigger/ktor-xxe-poc](https://github.com/bbugdigger/ktor-xxe-poc)
 
 ### CVE-2023-45657 (2023-11-06)
 
