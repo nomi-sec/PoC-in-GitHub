@@ -1584,6 +1584,13 @@
 
 - [balajigund/Research-on-CVE-2025-9998](https://github.com/balajigund/Research-on-CVE-2025-9998)
 
+### CVE-2025-9999 (2025-09-05)
+
+<code>Some payload elements of the messages sent between two stations in a networking architecture are not properly checked on the receiving station allowing an attacker to execute unauthorized commands in the application.
+</code>
+
+- [umxr286/ExploitScript](https://github.com/umxr286/ExploitScript)
+
 ### CVE-2025-10035 (2025-09-18)
 
 <code>A deserialization vulnerability in the License Servlet of Fortra's GoAnywhere MFT allows an actor with a validly forged license response signature to deserialize an arbitrary actor-controlled object, possibly leading to command injection.
@@ -1591,6 +1598,7 @@
 
 - [rxerium/CVE-2025-10035](https://github.com/rxerium/CVE-2025-10035)
 - [ThemeHackers/CVE-2025-10035](https://github.com/ThemeHackers/CVE-2025-10035)
+- [orange0Mint/CVE-2025-10035_GoAnywhere](https://github.com/orange0Mint/CVE-2025-10035_GoAnywhere)
 
 ### CVE-2025-10046 (2025-09-06)
 
@@ -3979,6 +3987,13 @@
 </code>
 
 - [Nxploited/CVE-2025-39538](https://github.com/Nxploited/CVE-2025-39538)
+
+### CVE-2025-39596 (2025-04-17)
+
+<code>Weak Authentication vulnerability in Quentn.com GmbH Quentn WP allows Privilege Escalation. This issue affects Quentn WP: from n/a through 1.2.8.
+</code>
+
+- [Nxploited/CVE-2025-39596](https://github.com/Nxploited/CVE-2025-39596)
 
 ### CVE-2025-39601 (2025-04-16)
 
@@ -33786,7 +33801,6 @@
 - [ayoub-elbouzi/CVE-2021-4034-Pwnkit](https://github.com/ayoub-elbouzi/CVE-2021-4034-Pwnkit)
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [OXDBXKXO/ez-pwnkit](https://github.com/OXDBXKXO/ez-pwnkit)
-- [drapl0n/pwnKit](https://github.com/drapl0n/pwnKit)
 - [rvizx/CVE-2021-4034](https://github.com/rvizx/CVE-2021-4034)
 - [Joffr3y/Polkit-CVE-2021-4034-HLP](https://github.com/Joffr3y/Polkit-CVE-2021-4034-HLP)
 - [ziadsaleemi/polkit_CVE-2021-4034](https://github.com/ziadsaleemi/polkit_CVE-2021-4034)
@@ -38926,6 +38940,7 @@
 - [Alan-coder-eng/log4j-cve-2021-44228-](https://github.com/Alan-coder-eng/log4j-cve-2021-44228-)
 - [Sorrence/CVE-2021-44228](https://github.com/Sorrence/CVE-2021-44228)
 - [moften/Log4Shell](https://github.com/moften/Log4Shell)
+- [KamalideenAK/Microsoft-Defender-for-Endpoint-Deployment-on-Windows-10-11-device](https://github.com/KamalideenAK/Microsoft-Defender-for-Endpoint-Deployment-on-Windows-10-11-device)
 
 ### CVE-2021-44255 (2022-01-31)
 
