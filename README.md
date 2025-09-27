@@ -5770,6 +5770,9 @@
 
 - [Shaunak-Chatterjee/CVE-2025-56762](https://github.com/Shaunak-Chatterjee/CVE-2025-56762)
 
+### CVE-2025-56764
+- [Remenis/CVE-2025-56764-trivision-nc227wf](https://github.com/Remenis/CVE-2025-56764-trivision-nc227wf)
+
 ### CVE-2025-56771
 - [RRespxwnss/CVE-2025-56771](https://github.com/RRespxwnss/CVE-2025-56771)
 
@@ -51736,7 +51739,6 @@
 </code>
 
 - [hidog123/Codiad-CVE-2018-14009](https://github.com/hidog123/Codiad-CVE-2018-14009)
-- [pablocaraballofernandez/IDE-TryHackME-Spanish-Walkthrough-](https://github.com/pablocaraballofernandez/IDE-TryHackME-Spanish-Walkthrough-)
 
 ### CVE-2018-14040 (2018-07-13)
 
