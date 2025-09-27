@@ -788,6 +788,7 @@
 </code>
 
 - [Yucaerin/CVE-2025-4606](https://github.com/Yucaerin/CVE-2025-4606)
+- [UcenHaxor07/CVE-2025-4606](https://github.com/UcenHaxor07/CVE-2025-4606)
 
 ### CVE-2025-4611 (2025-05-21)
 
@@ -929,6 +930,13 @@
 </code>
 
 - [Nxploited/CVE-2025-5288](https://github.com/Nxploited/CVE-2025-5288)
+
+### CVE-2025-5304 (2025-06-28)
+
+<code>The PT Project Notebooks plugin for WordPress is vulnerable to Privilege Escalation due to missing authorization in the wpnb_pto_new_users_add() function in versions 1.0.0 through 1.1.3. This makes it possible for unauthenticated attackers to elevate their privileges to that of an administrator.
+</code>
+
+- [Nxploited/CVE-2025-5304](https://github.com/Nxploited/CVE-2025-5304)
 
 ### CVE-2025-5309 (2025-06-16)
 
@@ -3403,6 +3411,7 @@
 - [f4dee-backup/CVE-2025-31161](https://github.com/f4dee-backup/CVE-2025-31161)
 - [acan0007/CVE-2025-31161](https://github.com/acan0007/CVE-2025-31161)
 - [Teexo/CVE-2025-31161](https://github.com/Teexo/CVE-2025-31161)
+- [0xDTC/CrushFTP-auth-bypass-CVE-2025-31161](https://github.com/0xDTC/CrushFTP-auth-bypass-CVE-2025-31161)
 
 ### CVE-2025-31200 (2025-04-16)
 
@@ -3709,7 +3718,6 @@
 - [blackcat4347/CVE-2025-32463_PoC](https://github.com/blackcat4347/CVE-2025-32463_PoC)
 - [ashardev002/CVE-2025-32463_chwoot](https://github.com/ashardev002/CVE-2025-32463_chwoot)
 - [mihnasdsad/CVE-2025-32463](https://github.com/mihnasdsad/CVE-2025-32463)
-- [At0mXploit/CVE-2025-32463](https://github.com/At0mXploit/CVE-2025-32463)
 - [no-speech-to-text/CVE-2025-32463](https://github.com/no-speech-to-text/CVE-2025-32463)
 - [nelissandro/CVE-2025-32463-Sudo-Chroot-Escape](https://github.com/nelissandro/CVE-2025-32463-Sudo-Chroot-Escape)
 
@@ -5910,6 +5918,13 @@
 </code>
 
 - [JOOJIII/CVE-2025-59424](https://github.com/JOOJIII/CVE-2025-59424)
+
+### CVE-2025-59843 (2025-09-26)
+
+<code>Flag Forge is a Capture The Flag (CTF) platform. From versions 2.0.0 to before 2.3.1, the public endpoint /api/user/[username] returns user email addresses in its JSON response. The problem has been patched in FlagForge version 2.3.1. The fix removes email addresses from public API responses while keeping the endpoint publicly accessible. Users should upgrade to version 2.3.1 or later to eliminate exposure. There are no workarounds for this vulnerability.
+</code>
+
+- [At0mXploit/CVE-2025-59843-CVE-2025-59932](https://github.com/At0mXploit/CVE-2025-59843-CVE-2025-59932)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
