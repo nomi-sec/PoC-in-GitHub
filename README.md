@@ -577,6 +577,7 @@
 - [brokendreamsclub/CVE-2025-3515](https://github.com/brokendreamsclub/CVE-2025-3515)
 - [ImBIOS/lab-cve-2025-3515](https://github.com/ImBIOS/lab-cve-2025-3515)
 - [MrSoules/lab-cve-2025-3515](https://github.com/MrSoules/lab-cve-2025-3515)
+- [robertskimengote/lab-cve-2025-3515](https://github.com/robertskimengote/lab-cve-2025-3515)
 
 ### CVE-2025-3568 (2025-04-14)
 
@@ -3401,6 +3402,7 @@
 - [r0otk3r/CVE-2025-31161](https://github.com/r0otk3r/CVE-2025-31161)
 - [f4dee-backup/CVE-2025-31161](https://github.com/f4dee-backup/CVE-2025-31161)
 - [acan0007/CVE-2025-31161](https://github.com/acan0007/CVE-2025-31161)
+- [Teexo/CVE-2025-31161](https://github.com/Teexo/CVE-2025-31161)
 
 ### CVE-2025-31200 (2025-04-16)
 
@@ -9049,6 +9051,13 @@
 </code>
 
 - [horizon3ai/Ivanti-EPM-Coercion-Vulnerabilities](https://github.com/horizon3ai/Ivanti-EPM-Coercion-Vulnerabilities)
+
+### CVE-2024-13184 (2025-01-18)
+
+<code>The The Ultimate WordPress Toolkit – WP Extended plugin for WordPress is vulnerable to time-based SQL Injection via the Login Attempts module in all versions up to, and including, 3.0.12 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [RandomRobbieBF/CVE-2024-13184](https://github.com/RandomRobbieBF/CVE-2024-13184)
 
 ### CVE-2024-13346 (2025-02-13)
 
@@ -16591,6 +16600,13 @@
 
 - [Voyag3r-Security/CVE-2023-1389](https://github.com/Voyag3r-Security/CVE-2023-1389)
 - [werwolfz/CVE-2023-1389](https://github.com/werwolfz/CVE-2023-1389)
+
+### CVE-2023-1405 (2024-01-16)
+
+<code>The Formidable Forms WordPress plugin before 6.2 unserializes user input, which could allow anonymous users to perform PHP Object Injection when a suitable gadget is present.
+</code>
+
+- [RandomRobbieBF/CVE-2023-1405](https://github.com/RandomRobbieBF/CVE-2023-1405)
 
 ### CVE-2023-1415 (2023-03-15)
 
