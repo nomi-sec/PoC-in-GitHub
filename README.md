@@ -3220,6 +3220,7 @@
 - [iteride/CVE-2025-29927](https://github.com/iteride/CVE-2025-29927)
 - [sermikr0/nextjs-middleware-auth-bypass](https://github.com/sermikr0/nextjs-middleware-auth-bypass)
 - [amalpvatayam67/day10-nextjs-middleware-lab](https://github.com/amalpvatayam67/day10-nextjs-middleware-lab)
+- [kuyrathdaro/cve-2025-29927](https://github.com/kuyrathdaro/cve-2025-29927)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -4082,13 +4083,6 @@
 - [hunters-sec/CVE-2025-43300](https://github.com/hunters-sec/CVE-2025-43300)
 - [PwnToday/CVE-2025-43300](https://github.com/PwnToday/CVE-2025-43300)
 - [veniversum/cve-2025-43300](https://github.com/veniversum/cve-2025-43300)
-
-### CVE-2025-43372 (2025-09-15)
-
-<code>The issue was addressed with improved input validation. This issue is fixed in tvOS 26, watchOS 26, visionOS 26, macOS Tahoe 26, iOS 26 and iPadOS 26. Processing a maliciously crafted media file may lead to unexpected app termination or corrupt process memory.
-</code>
-
-- [allinsthon/CVE-2025-43372](https://github.com/allinsthon/CVE-2025-43372)
 
 ### CVE-2025-43864 (2025-04-25)
 
@@ -5769,6 +5763,9 @@
 
 - [anonaninda/Aninda-security-advisories](https://github.com/anonaninda/Aninda-security-advisories)
 
+### CVE-2025-56708
+- [xkaneiki/rtty_CVE-2025-56708-CVE-2025-56709](https://github.com/xkaneiki/rtty_CVE-2025-56708-CVE-2025-56709)
+
 ### CVE-2025-56762 (2025-09-19)
 
 <code>Paracrawl KeOPs v2 is vulnerable to Cross Site Scripting (XSS) in error.php.
@@ -5917,6 +5914,13 @@
 </code>
 
 - [SexyShoelessGodofWar/CVE-2025-58780](https://github.com/SexyShoelessGodofWar/CVE-2025-58780)
+
+### CVE-2025-59251 (2025-09-24)
+
+<code>Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
+</code>
+
+- [allinsthon/CVE-2025-59251](https://github.com/allinsthon/CVE-2025-59251)
 
 ### CVE-2025-59342 (2025-09-17)
 
