@@ -1628,7 +1628,6 @@
 </code>
 
 - [AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day](https://github.com/AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day)
-- [callinston/CVE-2025-10585](https://github.com/callinston/CVE-2025-10585)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -1664,6 +1663,13 @@
 - [grupooruss/CVE-2025-20281-Cisco](https://github.com/grupooruss/CVE-2025-20281-Cisco)
 - [ill-deed/Cisco-CVE-2025-20281-illdeed](https://github.com/ill-deed/Cisco-CVE-2025-20281-illdeed)
 - [B1ack4sh/Blackash-CVE-2025-20281](https://github.com/B1ack4sh/Blackash-CVE-2025-20281)
+
+### CVE-2025-20333 (2025-09-25)
+
+<code>A vulnerability in the VPN web server of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an authenticated, remote attacker to execute arbitrary code on an affected device.\r\n\r This vulnerability is due to improper validation of user-supplied input in HTTP(S) requests. An attacker with valid VPN user credentials could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to execute arbitrary code as root, possibly resulting in the complete compromise of the affected device.
+</code>
+
+- [callinston/CVE-2025-20333](https://github.com/callinston/CVE-2025-20333)
 
 ### CVE-2025-20352 (2025-09-24)
 
@@ -22300,6 +22306,7 @@
 - [mrtacojr/CVE-2023-38408](https://github.com/mrtacojr/CVE-2023-38408)
 - [fazilbaig1/cve_2023_38408_scanner](https://github.com/fazilbaig1/cve_2023_38408_scanner)
 - [TX-One/CVE-2023-38408](https://github.com/TX-One/CVE-2023-38408)
+- [Adel2411/cve-2023-38408](https://github.com/Adel2411/cve-2023-38408)
 
 ### CVE-2023-38434 (2023-07-18)
 
@@ -60148,6 +60155,7 @@
 - [h3x0v3rl0rd/CVE-2009-2265](https://github.com/h3x0v3rl0rd/CVE-2009-2265)
 - [p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265)
 - [0xDTC/Adobe-ColdFusion-8-RCE-CVE-2009-2265](https://github.com/0xDTC/Adobe-ColdFusion-8-RCE-CVE-2009-2265)
+- [nika0x38/CVE-2009-2265](https://github.com/nika0x38/CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
 
