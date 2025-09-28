@@ -52441,6 +52441,13 @@
 
 - [TheeBlind/CVE-2018-18387](https://github.com/TheeBlind/CVE-2018-18387)
 
+### CVE-2018-18441 (2018-12-20)
+
+<code>D-Link DCS series Wi-Fi cameras expose sensitive information regarding the device configuration. The affected devices include many of DCS series, such as: DCS-936L, DCS-942L, DCS-8000LH, DCS-942LB1, DCS-5222L, DCS-825L, DCS-2630L, DCS-820L, DCS-855L, DCS-2121, DCS-5222LB1, DCS-5020L, and many more. There are many affected firmware versions starting from 1.00 and above. The configuration file can be accessed remotely through: &lt;Camera-IP&gt;/common/info.cgi, with no authentication. The configuration file include the following fields: model, product, brand, version, build, hw_version, nipca version, device name, location, MAC address, IP address, gateway IP address, wireless status, input/output settings, speaker, and sensor settings.
+</code>
+
+- [bayazid-bit/CVE-2018-18441-exploit](https://github.com/bayazid-bit/CVE-2018-18441-exploit)
+
 ### CVE-2018-18500 (2019-02-05)
 
 <code>A use-after-free vulnerability can occur while parsing an HTML5 stream in concert with custom HTML elements. This results in the stream parser object being freed while still in use, leading to a potentially exploitable crash. This vulnerability affects Thunderbird &lt; 60.5, Firefox ESR &lt; 60.5, and Firefox &lt; 65.
