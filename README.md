@@ -5795,6 +5795,9 @@
 
 - [shinyColumn/CVE-2025-56803](https://github.com/shinyColumn/CVE-2025-56803)
 
+### CVE-2025-56807
+- [aqwainfosec/CVE-2025-56807](https://github.com/aqwainfosec/CVE-2025-56807)
+
 ### CVE-2025-56815 (2025-09-24)
 
 <code>Datart 1.0.0-rc.3 is vulnerable to Directory Traversal in the POST /viz/image interface, since the server directly uses MultipartFile.transferTo() to save the uploaded file to a path controllable by the user, and lacks strict verification of the file name.
@@ -30641,6 +30644,7 @@
 
 - [agnihackers/CVE-2022-36537-EXPLOIT](https://github.com/agnihackers/CVE-2022-36537-EXPLOIT)
 - [Malwareman007/CVE-2022-36537](https://github.com/Malwareman007/CVE-2022-36537)
+- [ethan-repo-lab4b6/CVE-2022-36537](https://github.com/ethan-repo-lab4b6/CVE-2022-36537)
 
 ### CVE-2022-36539 (2022-09-07)
 
