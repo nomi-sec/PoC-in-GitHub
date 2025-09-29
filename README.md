@@ -1395,6 +1395,7 @@
 - [hbesljx/CVE-2025-8088-EXP](https://github.com/hbesljx/CVE-2025-8088-EXP)
 - [pablo388/WinRAR-CVE-2025-8088-PoC-RAR](https://github.com/pablo388/WinRAR-CVE-2025-8088-PoC-RAR)
 - [lucyna77/winrar-exploit](https://github.com/lucyna77/winrar-exploit)
+- [Fathi-MO/POC-CVE-2025-8088](https://github.com/Fathi-MO/POC-CVE-2025-8088)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -6928,7 +6929,6 @@
 <code>The Web Directory Free WordPress plugin before 1.7.0 does not sanitise and escape a parameter before using it in a SQL statement via an AJAX action available to unauthenticated users, leading to a SQL injection with different techniques like UNION, Time-Based and Error-Based.
 </code>
 
-- [truonghuuphuc/CVE-2024-3552-Poc](https://github.com/truonghuuphuc/CVE-2024-3552-Poc)
 - [KiPhuong/cve-2024-3552](https://github.com/KiPhuong/cve-2024-3552)
 - [KiPhuong/challenge-cve-2024-3552](https://github.com/KiPhuong/challenge-cve-2024-3552)
 
@@ -7000,7 +7000,6 @@
 <code>The Porto theme for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 7.1.0 via the 'porto_ajax_posts' function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where php file type can be uploaded and included.
 </code>
 
-- [truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc](https://github.com/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc)
 - [RandomRobbieBF/CVE-2024-3806](https://github.com/RandomRobbieBF/CVE-2024-3806)
 
 ### CVE-2024-3867 (2024-04-16)
@@ -7067,7 +7066,7 @@
 <code>The Email Subscribers by Icegram Express plugin for WordPress is vulnerable to SQL Injection via the ‘hash’ parameter in all versions up to, and including, 5.7.20 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 </code>
 
-- [truonghuuphuc/CVE-2024-4295-Poc](https://github.com/truonghuuphuc/CVE-2024-4295-Poc)
+- [TgHook/CVE-2024-4295-Poc](https://github.com/TgHook/CVE-2024-4295-Poc)
 - [cve-2024/CVE-2024-4295-Poc](https://github.com/cve-2024/CVE-2024-4295-Poc)
 
 ### CVE-2024-4320 (2024-06-06)
@@ -7092,13 +7091,6 @@
 </code>
 
 - [ZSECURE/CVE-2024-4351](https://github.com/ZSECURE/CVE-2024-4351)
-
-### CVE-2024-4352 (2024-05-16)
-
-<code>The Tutor LMS Pro plugin for WordPress is vulnerable to unauthorized access of data, modification of data, loss of data due to a missing capability check on the 'get_calendar_materials' function. The plugin is also vulnerable to SQL Injection via the ‘year’ parameter of that function due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with subscriber-level permissions and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
-</code>
-
-- [truonghuuphuc/CVE-2024-4352-Poc](https://github.com/truonghuuphuc/CVE-2024-4352-Poc)
 
 ### CVE-2024-4358 (2024-05-29)
 
@@ -7300,8 +7292,8 @@
 <code>The InstaWP Connect – 1-click WP Staging &amp; Migration plugin for WordPress is vulnerable to arbitrary option updates due to a missing authorization checks on the REST API calls in all versions up to, and including, 0.1.0.38. This makes it possible for unauthenticated attackers to connect the site to InstaWP API, edit arbitrary site options and create administrator accounts.
 </code>
 
-- [truonghuuphuc/CVE-2024-4898-Poc](https://github.com/truonghuuphuc/CVE-2024-4898-Poc)
 - [cve-2024/CVE-2024-4898-Poc](https://github.com/cve-2024/CVE-2024-4898-Poc)
+- [gh-ost00/CVE-2024-4898](https://github.com/gh-ost00/CVE-2024-4898)
 
 ### CVE-2024-4947 (2024-05-15)
 
@@ -7396,7 +7388,7 @@
 <code>The Post Grid Gutenberg Blocks and WordPress Blog Plugin – PostX plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'postx_presets_callback' function in all versions up to, and including, 4.1.2. This makes it possible for authenticated attackers, with Contributor-level access and above, to change arbitrary options on affected sites. This can be used to enable new user registration and set the default role for new users to Administrator.
 </code>
 
-- [truonghuuphuc/CVE-2024-5326-Poc](https://github.com/truonghuuphuc/CVE-2024-5326-Poc)
+- [djayaGit/CVE-2024-5326-Poc](https://github.com/djayaGit/CVE-2024-5326-Poc)
 - [cve-2024/CVE-2024-5326-Poc](https://github.com/cve-2024/CVE-2024-5326-Poc)
 
 ### CVE-2024-5356 (2024-05-26)
@@ -7427,7 +7419,7 @@
 <code>The HTML5 Video Player  WordPress plugin before 2.5.27 does not sanitize and escape a parameter from a REST route before using it in a SQL statement, allowing unauthenticated users to perform SQL injection attacks
 </code>
 
-- [truonghuuphuc/CVE-2024-5522-Poc](https://github.com/truonghuuphuc/CVE-2024-5522-Poc)
+- [nak000/CVE-2024-5522-Poc](https://github.com/nak000/CVE-2024-5522-Poc)
 - [kryptonproject/CVE-2024-5522-PoC](https://github.com/kryptonproject/CVE-2024-5522-PoC)
 - [geniuszly/CVE-2024-5522](https://github.com/geniuszly/CVE-2024-5522)
 
@@ -7523,7 +7515,7 @@
 <code>The Quiz Maker plugin for WordPress is vulnerable to time-based SQL Injection via the 'ays_questions' parameter in all versions up to, and including, 6.5.8.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 </code>
 
-- [truonghuuphuc/CVE-2024-6028-Poc](https://github.com/truonghuuphuc/CVE-2024-6028-Poc)
+- [gmh5225/CVE-2024-6028-Poc](https://github.com/gmh5225/CVE-2024-6028-Poc)
 
 ### CVE-2024-6043 (2024-06-17)
 
@@ -11110,20 +11102,6 @@
 - [m4nInTh3mIdDle/wordpress-CVE-2024-27956](https://github.com/m4nInTh3mIdDle/wordpress-CVE-2024-27956)
 - [devsec23/CVE-2024-27956](https://github.com/devsec23/CVE-2024-27956)
 
-### CVE-2024-27971 (2024-05-17)
-
-<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Premmerce Premmerce Permalink Manager for WooCommerce allows PHP Local File Inclusion.This issue affects Premmerce Permalink Manager for WooCommerce: from n/a through 2.3.10.
-</code>
-
-- [truonghuuphuc/CVE-2024-27971-Note](https://github.com/truonghuuphuc/CVE-2024-27971-Note)
-
-### CVE-2024-27972 (2024-04-03)
-
-<code>Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability in Very Good Plugins WP Fusion Lite allows Command Injection.This issue affects WP Fusion Lite: from n/a through 3.41.24.\n\n
-</code>
-
-- [truonghuuphuc/CVE-2024-27972-Poc](https://github.com/truonghuuphuc/CVE-2024-27972-Poc)
-
 ### CVE-2024-27983 (2024-04-09)
 
 <code>An attacker can make the Node.js HTTP/2 server completely unavailable by sending a small amount of HTTP/2 frames packets with a few HTTP/2 frames inside. It is possible to leave some data in nghttp2 memory after reset when headers with HTTP/2 CONTINUATION frame are sent to the server and then a TCP connection is abruptly closed by the client triggering the Http2Session destructor while header frames are still being processed (and stored in memory) causing a race condition.
@@ -11548,13 +11526,6 @@
 
 - [Nxploited/CVE-2024-30485](https://github.com/Nxploited/CVE-2024-30485)
 
-### CVE-2024-30491 (2024-03-29)
-
-<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid.This issue affects ProfileGrid : from n/a through 5.7.8.\n\n
-</code>
-
-- [truonghuuphuc/CVE-2024-30491-Poc](https://github.com/truonghuuphuc/CVE-2024-30491-Poc)
-
 ### CVE-2024-30614 (2024-04-12)
 
 <code>An issue in Ametys CMS v4.5.0 and before allows attackers to obtain sensitive information via exposed resources to the error scope.
@@ -11967,7 +11938,7 @@
 <code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in EverPress Mailster allows PHP Local File Inclusion.This issue affects Mailster: from n/a through 4.0.6.
 </code>
 
-- [truonghuuphuc/CVE-2024-32523-Poc](https://github.com/truonghuuphuc/CVE-2024-32523-Poc)
+- [tucommenceapousser/CVE-2024-32523-Poc](https://github.com/tucommenceapousser/CVE-2024-32523-Poc)
 
 ### CVE-2024-32640 (2025-08-11)
 
@@ -11993,13 +11964,6 @@
 </code>
 
 - [nastar-id/CVE-2024-32700](https://github.com/nastar-id/CVE-2024-32700)
-
-### CVE-2024-32709 (2024-04-24)
-
-<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Plechev Andrey WP-Recall.This issue affects WP-Recall: from n/a through 16.26.5.\n\n
-</code>
-
-- [truonghuuphuc/CVE-2024-32709-Poc](https://github.com/truonghuuphuc/CVE-2024-32709-Poc)
 
 ### CVE-2024-32830 (2024-05-17)
 
@@ -13272,7 +13236,7 @@
 <code>rejetto HFS (aka HTTP File Server) 3 before 0.52.10 on Linux, UNIX, and macOS allows OS command execution by remote authenticated users (if they have Upload permissions). This occurs because a shell is used to execute df (i.e., with execSync instead of spawnSync in child_process in Node.js).
 </code>
 
-- [truonghuuphuc/CVE-2024-39943-Poc](https://github.com/truonghuuphuc/CVE-2024-39943-Poc)
+- [Heyholiday067/CVE-2024-39943-Poc](https://github.com/Heyholiday067/CVE-2024-39943-Poc)
 - [JenmrR/Node.js-CVE-2024-39943](https://github.com/JenmrR/Node.js-CVE-2024-39943)
 
 ### CVE-2024-40080
@@ -14433,6 +14397,7 @@
 </code>
 
 - [mallo-m/CVE-2024-47051](https://github.com/mallo-m/CVE-2024-47051)
+- [hyeonyeonglee/CVE-2024-47051](https://github.com/hyeonyeonglee/CVE-2024-47051)
 
 ### CVE-2024-47062 (2024-09-20)
 
