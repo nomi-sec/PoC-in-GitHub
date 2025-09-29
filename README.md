@@ -3684,7 +3684,7 @@
 - [4f-kira/CVE-2025-32463](https://github.com/4f-kira/CVE-2025-32463)
 - [K1tt3h/CVE-2025-32463-POC](https://github.com/K1tt3h/CVE-2025-32463-POC)
 - [IC3-512/linux-root-kit](https://github.com/IC3-512/linux-root-kit)
-- [Adonijah01/cve-2025-32463-lab](https://github.com/Adonijah01/cve-2025-32463-lab)
+- [7r00t/cve-2025-32463-lab](https://github.com/7r00t/cve-2025-32463-lab)
 - [SysMancer/CVE-2025-32463](https://github.com/SysMancer/CVE-2025-32463)
 - [kh4sh3i/CVE-2025-32463](https://github.com/kh4sh3i/CVE-2025-32463)
 - [neko205-mx/CVE-2025-32463_Exploit](https://github.com/neko205-mx/CVE-2025-32463_Exploit)
@@ -30263,6 +30263,7 @@
 - [Blyth0He/CVE-2022-33679](https://github.com/Blyth0He/CVE-2022-33679)
 - [Amulab/CVE-2022-33679](https://github.com/Amulab/CVE-2022-33679)
 - [notareaperbutDR34P3r/Kerberos_CVE-2022-33679](https://github.com/notareaperbutDR34P3r/Kerberos_CVE-2022-33679)
+- [soy-oreocato/CVE-2022-33679_Checker](https://github.com/soy-oreocato/CVE-2022-33679_Checker)
 
 ### CVE-2022-33891 (2022-07-18)
 
