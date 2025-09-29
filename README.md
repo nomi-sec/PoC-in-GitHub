@@ -1395,7 +1395,6 @@
 - [hbesljx/CVE-2025-8088-EXP](https://github.com/hbesljx/CVE-2025-8088-EXP)
 - [pablo388/WinRAR-CVE-2025-8088-PoC-RAR](https://github.com/pablo388/WinRAR-CVE-2025-8088-PoC-RAR)
 - [lucyna77/winrar-exploit](https://github.com/lucyna77/winrar-exploit)
-- [kyomber/CVE-2025-8088](https://github.com/kyomber/CVE-2025-8088)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -1541,6 +1540,13 @@
 </code>
 
 - [d0n601/CVE-2025-9216](https://github.com/d0n601/CVE-2025-9216)
+
+### CVE-2025-9267 (2025-09-26)
+
+<code>In Seagate Toolkit on Windows a vulnerability exists in the Toolkit Installer prior to versions 2.35.0.6 where it attempts to load DLLs from the current working directory without validating their origin or integrity. This behavior can be exploited by placing a malicious DLL in the same directory as the installer executable, leading to arbitrary code execution with the privileges of the user running the installer. The issue stems from the use of insecure DLL loading practices, such as relying on relative paths or failing to specify fully qualified paths when invoking system libraries.
+</code>
+
+- [Tiger3080/CVE-2025-9267](https://github.com/Tiger3080/CVE-2025-9267)
 
 ### CVE-2025-9345 (2025-08-28)
 
@@ -10173,7 +10179,7 @@
 - [Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897)
 - [JAthulya/CVE-2024-23897](https://github.com/JAthulya/CVE-2024-23897)
 - [murataydemir/CVE-2024-23897](https://github.com/murataydemir/CVE-2024-23897)
-- [revkami/CVE-2024-23897-Jenkins-4.441](https://github.com/revkami/CVE-2024-23897-Jenkins-4.441)
+- [mil4ne/CVE-2024-23897-Jenkins-4.441](https://github.com/mil4ne/CVE-2024-23897-Jenkins-4.441)
 - [Maalfer/CVE-2024-23897](https://github.com/Maalfer/CVE-2024-23897)
 - [Surko888/Surko-Exploit-Jenkins-CVE-2024-23897](https://github.com/Surko888/Surko-Exploit-Jenkins-CVE-2024-23897)
 - [cc3305/CVE-2024-23897](https://github.com/cc3305/CVE-2024-23897)
@@ -18212,6 +18218,9 @@
 
 - [smokeintheshell/CVE-2023-20273](https://github.com/smokeintheshell/CVE-2023-20273)
 
+### CVE-2023-20352
+- [mrk336/SNMPocalypse-Cisco-Bug-Lets-Hackers-Crash-or-Command-Devices](https://github.com/mrk336/SNMPocalypse-Cisco-Bug-Lets-Hackers-Crash-or-Command-Devices)
+
 ### CVE-2023-20562 (2023-08-08)
 
 <code>\n\n\nInsufficient validation in the IOCTL (Input Output Control) input buffer in AMD uProf may allow an authenticated user to load an unsigned driver potentially leading to arbitrary kernel execution.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
@@ -19057,7 +19066,7 @@
 - [mariovata/CVE-2023-23752-Python](https://github.com/mariovata/CVE-2023-23752-Python)
 - [0xx01/CVE-2023-23752](https://github.com/0xx01/CVE-2023-23752)
 - [h3x0v3rl0rd/CVE-2023-23752](https://github.com/h3x0v3rl0rd/CVE-2023-23752)
-- [revkami/CVE-2023-23752-Joomla-v4.2.8](https://github.com/revkami/CVE-2023-23752-Joomla-v4.2.8)
+- [mil4ne/CVE-2023-23752-Joomla-v4.2.8](https://github.com/mil4ne/CVE-2023-23752-Joomla-v4.2.8)
 - [Aureum01/CVE-2023-23752](https://github.com/Aureum01/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
@@ -33822,7 +33831,6 @@
 - [OXDBXKXO/ez-pwnkit](https://github.com/OXDBXKXO/ez-pwnkit)
 - [rvizx/CVE-2021-4034](https://github.com/rvizx/CVE-2021-4034)
 - [Joffr3y/Polkit-CVE-2021-4034-HLP](https://github.com/Joffr3y/Polkit-CVE-2021-4034-HLP)
-- [ziadsaleemi/polkit_CVE-2021-4034](https://github.com/ziadsaleemi/polkit_CVE-2021-4034)
 - [cspshivam/cve-2021-4034](https://github.com/cspshivam/cve-2021-4034)
 - [an0n7os/CVE-2021-4034](https://github.com/an0n7os/CVE-2021-4034)
 - [DanaEpp/pwncat_pwnkit](https://github.com/DanaEpp/pwncat_pwnkit)
@@ -36896,6 +36904,13 @@
 
 - [gkrishnan724/CVE-2021-38297](https://github.com/gkrishnan724/CVE-2021-38297)
 - [paras98/CVE-2021-38297-Go-wasm-Replication](https://github.com/paras98/CVE-2021-38297-Go-wasm-Replication)
+
+### CVE-2021-38304 (2021-09-17)
+
+<code>Improper input validation in the National Instruments NI-PAL driver in versions 20.0.0 and prior may allow a privileged user to potentially enable escalation of privilege via local access.
+</code>
+
+- [philsajdak/CVE-2021-38304-PoC](https://github.com/philsajdak/CVE-2021-38304-PoC)
 
 ### CVE-2021-38314 (2021-09-02)
 
