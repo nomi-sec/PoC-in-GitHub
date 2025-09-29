@@ -560,6 +560,7 @@
 - [min8282/CVE-2025-3248](https://github.com/min8282/CVE-2025-3248)
 - [EQSTLab/CVE-2025-3248](https://github.com/EQSTLab/CVE-2025-3248)
 - [wand3rlust/CVE-2025-3248](https://github.com/wand3rlust/CVE-2025-3248)
+- [Kiraly07/Demo_CVE-2025-3248](https://github.com/Kiraly07/Demo_CVE-2025-3248)
 
 ### CVE-2025-3419 (2025-05-08)
 
@@ -1396,6 +1397,7 @@
 - [pablo388/WinRAR-CVE-2025-8088-PoC-RAR](https://github.com/pablo388/WinRAR-CVE-2025-8088-PoC-RAR)
 - [lucyna77/winrar-exploit](https://github.com/lucyna77/winrar-exploit)
 - [Fathi-MO/POC-CVE-2025-8088](https://github.com/Fathi-MO/POC-CVE-2025-8088)
+- [haspread/CVE-2025-8088](https://github.com/haspread/CVE-2025-8088)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -1438,6 +1440,13 @@
 </code>
 
 - [kwerty138/Session-Fixation-in-Vvveb-CMS-v1.0.6.1](https://github.com/kwerty138/Session-Fixation-in-Vvveb-CMS-v1.0.6.1)
+
+### CVE-2025-8518 (2025-08-04)
+
+<code>Eine kritische Schwachstelle wurde in givanz Vvveb 1.0.5 ausgemacht. Hierbei geht es um die Funktion Save der Datei admin/controller/editor/code.php der Komponente Code Editor. Durch das Manipulieren mit unbekannten Daten kann eine code injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung. Ein Aktualisieren auf die Version 1.0.6 vermag dieses Problem zu lösen. Der Patch wird als f684f3e374d04db715730fc4796e102f5ebcacb2 bezeichnet. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [maestro-ant/Vvveb-CMS-CVE-2025-8518](https://github.com/maestro-ant/Vvveb-CMS-CVE-2025-8518)
 
 ### CVE-2025-8550 (2025-08-05)
 
@@ -1635,6 +1644,13 @@
 </code>
 
 - [AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day](https://github.com/AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day)
+
+### CVE-2025-11077 (2025-09-27)
+
+<code>Es wurde eine Schwachstelle in Campcodes Online Learning Management System 1.0 entdeckt. Es geht hierbei um eine nicht näher spezifizierte Funktion der Datei /admin/add_content.php. Dank Manipulation des Arguments Title mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Die Schwachstelle wurde öffentlich offengelegt und könnte ausgenutzt werden.
+</code>
+
+- [byteReaper77/CVE-2025-11077](https://github.com/byteReaper77/CVE-2025-11077)
 
 ### CVE-2025-20029 (2025-02-05)
 
@@ -5084,7 +5100,11 @@
 
 - [Kai-One001/Letta-CVE-2025-51482-RCE](https://github.com/Kai-One001/Letta-CVE-2025-51482-RCE)
 
-### CVE-2025-51495
+### CVE-2025-51495 (2025-09-29)
+
+<code>An integer overflow vulnerability exists in the WebSocket component of Mongoose 7.5 thru 7.17. By sending a specially crafted WebSocket request, an attacker can cause the application to crash. If downstream vendors integrate this component improperly, the issue may lead to a buffer overflow.
+</code>
+
 - [cainiao159357/CVE-2025-51495](https://github.com/cainiao159357/CVE-2025-51495)
 
 ### CVE-2025-51529 (2025-08-19)
@@ -5731,7 +5751,7 @@
 
 ### CVE-2025-55998 (2025-09-08)
 
-<code>A cross-site scripting (XSS) vulnerability in Smart Search &amp; Filter Shopify App 1.0 allows a remote attacker to execute arbitrary JavaScript in the web browser of a user, by including a malicious payload into the color filter parameter.
+<code>A cross-site scripting (XSS) vulnerability in Smart Search &amp; Filter Shopify and BigCommerce apps allows a remote attacker to execute arbitrary JavaScript in the web browser of a user, by including a malicious payload into several filter parameter
 </code>
 
 - [Ocmenog/CVE-2025-55998](https://github.com/Ocmenog/CVE-2025-55998)
@@ -5789,7 +5809,11 @@
 ### CVE-2025-56772
 - [RRespxwnss/CVE-2025-56772](https://github.com/RRespxwnss/CVE-2025-56772)
 
-### CVE-2025-56795
+### CVE-2025-56795 (2025-09-29)
+
+<code>Mealie 3.0.1 and earlier is vulnerable to Cross-Site Scripting (XSS) in the recipe creation functionality. Unsanitized user input in the &quot;note&quot; and &quot;text&quot; fields of the &quot;/api/recipes/{recipe_name}&quot; endpoint is rendered in the frontend without proper escaping leading to persistent XSS.
+</code>
+
 - [B1tBreaker/CVE-2025-56795](https://github.com/B1tBreaker/CVE-2025-56795)
 
 ### CVE-2025-56803 (2025-09-03)
@@ -5844,7 +5868,18 @@
 
 - [meisterlos/CVE-2025-57392](https://github.com/meisterlos/CVE-2025-57392)
 
-### CVE-2025-57483
+### CVE-2025-57428 (2025-09-29)
+
+<code>Default credentials in Italy Wireless Mini Router WIRELESS-N 300M v28K.MiniRouter.20190211 allows attackers to gain access to the debug shell exposed via Telnet on Port 23 and execute hardware-level flash and register manipulation commands.
+</code>
+
+- [5ulfur/CVE-2025-57428](https://github.com/5ulfur/CVE-2025-57428)
+
+### CVE-2025-57483 (2025-09-29)
+
+<code>A reflected cross-site scripting (XSS) vulnerability in tawk.to chatbox widget v4 allows attackers to execute arbitrary Javascript in the context of the user's browser via injecting a crafted payload into the vulnerable parameter.
+</code>
+
 - [Jainil-89/CVE](https://github.com/Jainil-89/CVE)
 
 ### CVE-2025-57515
@@ -33791,7 +33826,6 @@
 - [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
 - [EstamelGG/CVE-2021-4034-NoGCC](https://github.com/EstamelGG/CVE-2021-4034-NoGCC)
 - [galoget/PwnKit-CVE-2021-4034](https://github.com/galoget/PwnKit-CVE-2021-4034)
-- [ayoub-elbouzi/CVE-2021-4034-Pwnkit](https://github.com/ayoub-elbouzi/CVE-2021-4034-Pwnkit)
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [OXDBXKXO/ez-pwnkit](https://github.com/OXDBXKXO/ez-pwnkit)
 - [rvizx/CVE-2021-4034](https://github.com/rvizx/CVE-2021-4034)
@@ -38617,7 +38651,6 @@
 - [blake-fm/vcenter-log4j](https://github.com/blake-fm/vcenter-log4j)
 - [creamIcec/CVE-2021-44228-Apache-Log4j-Rce__review](https://github.com/creamIcec/CVE-2021-44228-Apache-Log4j-Rce__review)
 - [uint0/cve-2021-44228-helpers](https://github.com/uint0/cve-2021-44228-helpers)
-- [RK800-DEV/apache-log4j-poc](https://github.com/RK800-DEV/apache-log4j-poc)
 - [sud0x00/log4j-CVE-2021-44228](https://github.com/sud0x00/log4j-CVE-2021-44228)
 - [DiCanio/CVE-2021-44228-docker-example](https://github.com/DiCanio/CVE-2021-44228-docker-example)
 - [myyxl/cve-2021-44228-minecraft-poc](https://github.com/myyxl/cve-2021-44228-minecraft-poc)
@@ -38940,6 +38973,7 @@
 - [Sorrence/CVE-2021-44228](https://github.com/Sorrence/CVE-2021-44228)
 - [moften/Log4Shell](https://github.com/moften/Log4Shell)
 - [KamalideenAK/Microsoft-Defender-for-Endpoint-Deployment-on-Windows-10-11-device](https://github.com/KamalideenAK/Microsoft-Defender-for-Endpoint-Deployment-on-Windows-10-11-device)
+- [arabindadora/log4shell](https://github.com/arabindadora/log4shell)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -56807,6 +56841,13 @@
 - [CircuitSoul/poc-cve-2016-10555](https://github.com/CircuitSoul/poc-cve-2016-10555)
 - [scent2d/PoC-CVE-2016-10555](https://github.com/scent2d/PoC-CVE-2016-10555)
 - [z-bool/Venom-JWT](https://github.com/z-bool/Venom-JWT)
+
+### CVE-2016-10708 (2018-01-21)
+
+<code>sshd in OpenSSH before 7.4 allows remote attackers to cause a denial of service (NULL pointer dereference and daemon crash) via an out-of-sequence NEWKEYS message, as demonstrated by Honggfuzz, related to kex.c and packet.c.
+</code>
+
+- [lggcs/CVE-2016-10708](https://github.com/lggcs/CVE-2016-10708)
 
 ### CVE-2016-10709 (2018-01-22)
 
