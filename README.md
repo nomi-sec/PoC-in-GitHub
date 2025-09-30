@@ -3758,6 +3758,7 @@
 - [mihnasdsad/CVE-2025-32463](https://github.com/mihnasdsad/CVE-2025-32463)
 - [no-speech-to-text/CVE-2025-32463](https://github.com/no-speech-to-text/CVE-2025-32463)
 - [nelissandro/CVE-2025-32463-Sudo-Chroot-Escape](https://github.com/nelissandro/CVE-2025-32463-Sudo-Chroot-Escape)
+- [AC8999/CVE-2025-32463](https://github.com/AC8999/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -5800,7 +5801,11 @@
 
 - [Shaunak-Chatterjee/CVE-2025-56762](https://github.com/Shaunak-Chatterjee/CVE-2025-56762)
 
-### CVE-2025-56764
+### CVE-2025-56764 (2025-09-29)
+
+<code>Trivision NC-227WF firmware 5.80 (build 20141010) login mechanism reveals whether a username exists or not by returning different error messages (&quot;Unknown user&quot; vs. &quot;Wrong password&quot;), allowing an attacker to enumerate valid usernames.
+</code>
+
 - [Remenis/CVE-2025-56764-trivision-nc227wf](https://github.com/Remenis/CVE-2025-56764-trivision-nc227wf)
 
 ### CVE-2025-56771
@@ -5823,7 +5828,11 @@
 
 - [shinyColumn/CVE-2025-56803](https://github.com/shinyColumn/CVE-2025-56803)
 
-### CVE-2025-56807
+### CVE-2025-56807 (2025-09-29)
+
+<code>A cross-site scripting (XSS) vulnerability in FairSketch RISE Ultimate Project Manager &amp; CRM 3.9.4 allows an administrator to store a JavaScript payload using the file explorer in the admin dashboard when creating new folders.
+</code>
+
 - [aqwainfosec/CVE-2025-56807](https://github.com/aqwainfosec/CVE-2025-56807)
 
 ### CVE-2025-56815 (2025-09-24)
@@ -22795,6 +22804,13 @@
 </code>
 
 - [uthrasri/Jetty-v9.4.31_CVE-2023-40167](https://github.com/uthrasri/Jetty-v9.4.31_CVE-2023-40167)
+
+### CVE-2023-40289 (2024-03-27)
+
+<code>A command injection issue was discovered on Supermicro X11SSM-F, X11SAE-F, and X11SSE-F 1.66 devices. An attacker can exploit this to elevate privileges from a user with BMC administrative privileges.
+</code>
+
+- [s-hamann/CVE-2023-40289](https://github.com/s-hamann/CVE-2023-40289)
 
 ### CVE-2023-40294 (2023-08-14)
 
