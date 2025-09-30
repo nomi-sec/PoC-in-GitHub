@@ -3683,6 +3683,13 @@
 - [iteride/CVE-2025-32433](https://github.com/iteride/CVE-2025-32433)
 - [mirmeweu/cve-2025-32433](https://github.com/mirmeweu/cve-2025-32433)
 
+### CVE-2025-32444 (2025-04-30)
+
+<code>vLLM is a high-throughput and memory-efficient inference and serving engine for LLMs. Versions starting from 0.6.5 and prior to 0.8.5, having vLLM integration with mooncake, are vulnerable to remote code execution due to using pickle based serialization over unsecured ZeroMQ sockets. The vulnerable sockets were set to listen on all network interfaces, increasing the likelihood that an attacker is able to reach the vulnerable ZeroMQ sockets to carry out an attack. vLLM instances that do not make use of the mooncake integration are not vulnerable. This issue has been patched in version 0.8.5.
+</code>
+
+- [stuxbench/vLLM-CVE-2025-32444](https://github.com/stuxbench/vLLM-CVE-2025-32444)
+
 ### CVE-2025-32462 (2025-06-30)
 
 <code>Sudo before 1.9.17p1, when used with a sudoers file that specifies a host that is neither the current host nor ALL, allows listed users to execute commands on unintended machines.
@@ -4690,7 +4697,7 @@
 
 - [Wh04m1001/CVE-2025-48799](https://github.com/Wh04m1001/CVE-2025-48799)
 - [painoob/CVE-2025-48799](https://github.com/painoob/CVE-2025-48799)
-- [mrk336/CVE-2025-48799](https://github.com/mrk336/CVE-2025-48799)
+- [gmh5225/CVE-2025-48799-](https://github.com/gmh5225/CVE-2025-48799-)
 - [ukisshinaah/CVE-2025-48799](https://github.com/ukisshinaah/CVE-2025-48799)
 
 ### CVE-2025-48827 (2025-05-27)
@@ -26674,7 +26681,7 @@
 <code>In assertSafeToStartCustomActivity of AppRestrictionsFragment.java, there is a possible way to start a phone call without permissions due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-223578534
 </code>
 
-- [xbee9/cve-2022-20223](https://github.com/xbee9/cve-2022-20223)
+- [dsp-security-workflows/cve-2022-20223](https://github.com/dsp-security-workflows/cve-2022-20223)
 
 ### CVE-2022-20224 (2022-07-13)
 
@@ -45828,6 +45835,7 @@
 - [Avento/CVE-2019-3396-Memshell-for-Behinder](https://github.com/Avento/CVE-2019-3396-Memshell-for-Behinder)
 - [kh4sh3i/CVE-2019-3396](https://github.com/kh4sh3i/CVE-2019-3396)
 - [HK4zCzi/CVE-2019-3396-Velocity-Server-Side-Template-Injection](https://github.com/HK4zCzi/CVE-2019-3396-Velocity-Server-Side-Template-Injection)
+- [tno01/cve-2019-3396](https://github.com/tno01/cve-2019-3396)
 
 ### CVE-2019-3398 (2019-04-18)
 
@@ -54522,6 +54530,7 @@
 </code>
 
 - [murataydemir/CVE-2017-9822](https://github.com/murataydemir/CVE-2017-9822)
+- [Tnot123/cve-2017-9822](https://github.com/Tnot123/cve-2017-9822)
 
 ### CVE-2017-9830 (2017-06-27)
 
@@ -59791,6 +59800,9 @@
 - [BolivarJ/CVE-2011-2523](https://github.com/BolivarJ/CVE-2011-2523)
 - [seerat-fatima21/vsftpd-exploit](https://github.com/seerat-fatima21/vsftpd-exploit)
 - [hajisthabegum/Exploiting-vsFTPd-2.3.4-Backdoor-Vulnerability-Ethical-Hacking-Lab-with-Metasploitable-2-Metasploit](https://github.com/hajisthabegum/Exploiting-vsFTPd-2.3.4-Backdoor-Vulnerability-Ethical-Hacking-Lab-with-Metasploitable-2-Metasploit)
+
+### CVE-2011-2553
+- [carlosrpastrana/cve-2011-2553](https://github.com/carlosrpastrana/cve-2011-2553)
 
 ### CVE-2011-2732 (2012-12-05)
 
