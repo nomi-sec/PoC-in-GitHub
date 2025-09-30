@@ -1638,6 +1638,13 @@
 - [People-11/CVE-2025-10184_PoC](https://github.com/People-11/CVE-2025-10184_PoC)
 - [yuuouu/ColorOS-CVE-2025-10184](https://github.com/yuuouu/ColorOS-CVE-2025-10184)
 
+### CVE-2025-10492 (2025-09-16)
+
+<code>A Java deserialisation vulnerability has been discovered in Jaspersoft Library. Improper handling of externally supplied data may allow attackers to execute arbitrary code remotely on systems that use the affected library
+</code>
+
+- [dovezp/CVE-2025-10492-POC](https://github.com/dovezp/CVE-2025-10492-POC)
+
 ### CVE-2025-10585 (2025-09-24)
 
 <code>Type confusion in V8 in Google Chrome prior to 140.0.7339.185 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
@@ -4075,6 +4082,13 @@
 
 - [AlexSvobo/nhi-zero-trust-bypass](https://github.com/AlexSvobo/nhi-zero-trust-bypass)
 
+### CVE-2025-41244 (2025-09-29)
+
+<code>VMware Aria Operations and VMware Tools contain a local privilege escalation vulnerability. A malicious local actor with non-administrative privileges having access to a VM with VMware Tools installed and managed by Aria Operations with SDMP enabled may exploit this vulnerability to escalate privileges to root on the same VM.
+</code>
+
+- [rxerium/CVE-2025-41244](https://github.com/rxerium/CVE-2025-41244)
+
 ### CVE-2025-41373 (2025-08-01)
 
 <code>A SQL injection vulnerability has been found in Gandia Integra Total of TESI from version 2.1.2217.3 to v4.4.2236.1. The vulnerability allows an authenticated attacker to retrieve, create, update and delete databases through the 'idestudio' parameter in /encuestas/integraweb[_v4]/integra/html/view/hislistadoacciones.php.
@@ -5787,6 +5801,9 @@
 </code>
 
 - [Jingyi-u/-CVE-2025-56435](https://github.com/Jingyi-u/-CVE-2025-56435)
+
+### CVE-2025-56588
+- [PhDg1410/CVE-2025-56588](https://github.com/PhDg1410/CVE-2025-56588)
 
 ### CVE-2025-56605
 - [Userr404/CVE-2025-56605](https://github.com/Userr404/CVE-2025-56605)
@@ -11878,6 +11895,7 @@
 - [sPhyos/cve-2024-32019-PoC](https://github.com/sPhyos/cve-2024-32019-PoC)
 - [x0da6h/POC-for-CVE-2024-32019](https://github.com/x0da6h/POC-for-CVE-2024-32019)
 - [T1erno/CVE-2024-32019-Netdata-ndsudo-Privilege-Escalation-PoC](https://github.com/T1erno/CVE-2024-32019-Netdata-ndsudo-Privilege-Escalation-PoC)
+- [hexared/CVE-2024-32019_poc](https://github.com/hexared/CVE-2024-32019_poc)
 
 ### CVE-2024-32022 (2024-04-16)
 
@@ -16279,7 +16297,7 @@
 <code>Dedecms 5.71sp1 and earlier is vulnerable to URL redirect. In the web application, a logic error does not judge the input GET request resulting in URL redirection.
 </code>
 
-- [woshidaheike/CVE-2024-57241](https://github.com/woshidaheike/CVE-2024-57241)
+- [hkl1x/CVE-2024-57241](https://github.com/hkl1x/CVE-2024-57241)
 
 ### CVE-2024-57366
 - [h4ckusaur/CVE-2024-57366](https://github.com/h4ckusaur/CVE-2024-57366)
@@ -53968,6 +53986,7 @@
 - [Cappricio-Securities/CVE-2017-7269](https://github.com/Cappricio-Securities/CVE-2017-7269)
 - [VanishedPeople/CVE-2017-7269](https://github.com/VanishedPeople/CVE-2017-7269)
 - [geniuszly/CVE-2017-7269](https://github.com/geniuszly/CVE-2017-7269)
+- [nika0x38/CVE-2017-7269](https://github.com/nika0x38/CVE-2017-7269)
 
 ### CVE-2017-7308 (2017-03-29)
 
