@@ -1703,7 +1703,7 @@
 
 ### CVE-2025-20352 (2025-09-24)
 
-<code>A vulnerability in the Simple Network Management Protocol (SNMP) subsystem of Cisco IOS Software and Cisco IOS XE Software could allow the following:\r\n\r \r An authenticated, remote attacker with low privileges could cause a denial of service (DoS) condition on an affected device that is running Cisco IOS Software or Cisco IOS XE Software. To cause the DoS, the attacker must have the SNMPv2c or earlier read-only community string or valid SNMPv3 user credentials.\r An authenticated, remote attacker with high privileges could execute code as the root user on an affected device that is running Cisco IOS XE Software. To execute code as the root user, the attacker must have the SNMPv1 or v2c read-only community string or valid SNMPv3 user credentials and administrative or privilege 15 credentials on the affected device. \r \r An attacker could exploit this vulnerability by sending a crafted SNMP packet to an affected device over IPv4 or IPv6 networks. \r\n\r This vulnerability is due to a stack overflow condition in the SNMP subsystem of the affected software. A successful exploit could allow a low-privileged attacker to cause the affected system to reload, resulting in a DoS condition, or allow a high-privileged attacker to execute arbitrary code as the root user and obtain full control of the affected system.\r\n\r Note: This vulnerability affects all versions of SNMP.
+<code>A vulnerability in the Simple Network Management Protocol (SNMP) subsystem of Cisco IOS Software and Cisco IOS XE Software could allow the following:\r\n\r \r An authenticated, remote attacker with low privileges could cause a denial of service (DoS) condition on an affected device that is running Cisco IOS Software or Cisco IOS XE Software. To cause the DoS, the attacker must have the SNMPv2c or earlier read-only community string or valid SNMPv3 user credentials. \r An authenticated, remote attacker with high privileges could execute code as the root user on an affected device that is running Cisco IOS XE Software. To execute code as the root user, the attacker must have the SNMPv1 or v2c read-only community string or valid SNMPv3 user credentials and administrative or privilege 15 credentials on the affected device. \r \r An attacker could exploit this vulnerability by sending a crafted SNMP packet to an affected device over IPv4 or IPv6 networks. \r\n\r This vulnerability is due to a stack overflow condition in the SNMP subsystem of the affected software. A successful exploit could allow a low-privileged attacker to cause the affected system to reload, resulting in a DoS condition, or allow a high-privileged attacker to execute arbitrary code as the root user and obtain full control of the affected system.\r\n\r Note: This vulnerability affects all versions of SNMP.
 </code>
 
 - [scadastrangelove/CVE-2025-20352](https://github.com/scadastrangelove/CVE-2025-20352)
@@ -4128,6 +4128,8 @@
 - [hunters-sec/CVE-2025-43300](https://github.com/hunters-sec/CVE-2025-43300)
 - [PwnToday/CVE-2025-43300](https://github.com/PwnToday/CVE-2025-43300)
 - [veniversum/cve-2025-43300](https://github.com/veniversum/cve-2025-43300)
+- [ticofookfook/CVE-2025-43300](https://github.com/ticofookfook/CVE-2025-43300)
+- [Dark-life944/CVE-2025](https://github.com/Dark-life944/CVE-2025)
 
 ### CVE-2025-43864 (2025-04-25)
 
@@ -5802,6 +5804,12 @@
 
 - [Jingyi-u/-CVE-2025-56435](https://github.com/Jingyi-u/-CVE-2025-56435)
 
+### CVE-2025-56514
+- [Kov404/CVE-2025-56514](https://github.com/Kov404/CVE-2025-56514)
+
+### CVE-2025-56515
+- [Kov404/CVE-2025-56515](https://github.com/Kov404/CVE-2025-56515)
+
 ### CVE-2025-56588
 - [PhDg1410/CVE-2025-56588](https://github.com/PhDg1410/CVE-2025-56588)
 
@@ -5840,7 +5848,7 @@
 
 ### CVE-2025-56795 (2025-09-29)
 
-<code>Mealie 3.0.1 and earlier is vulnerable to Cross-Site Scripting (XSS) in the recipe creation functionality. Unsanitized user input in the &quot;note&quot; and &quot;text&quot; fields of the &quot;/api/recipes/{recipe_name}&quot; endpoint is rendered in the frontend without proper escaping leading to persistent XSS.
+<code>Mealie 3.0.1 and earlier is vulnerable to Stored Cross-Site Scripting (XSS) in the recipe creation functionality. Unsanitized user input in the &quot;note&quot; and &quot;text&quot; fields of the &quot;/api/recipes/{recipe_name}&quot; endpoint is rendered in the frontend without proper escaping leading to persistent XSS.
 </code>
 
 - [B1tBreaker/CVE-2025-56795](https://github.com/B1tBreaker/CVE-2025-56795)
@@ -5893,6 +5901,9 @@
 </code>
 
 - [semaja22/CVE-2025-57176](https://github.com/semaja22/CVE-2025-57176)
+
+### CVE-2025-57389
+- [amalcew/CVE-2025-57389](https://github.com/amalcew/CVE-2025-57389)
 
 ### CVE-2025-57392 (2025-09-10)
 
