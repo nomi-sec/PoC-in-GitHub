@@ -3772,6 +3772,7 @@
 - [no-speech-to-text/CVE-2025-32463](https://github.com/no-speech-to-text/CVE-2025-32463)
 - [nelissandro/CVE-2025-32463-Sudo-Chroot-Escape](https://github.com/nelissandro/CVE-2025-32463-Sudo-Chroot-Escape)
 - [AC8999/CVE-2025-32463](https://github.com/AC8999/CVE-2025-32463)
+- [onniio/CVE-2025-32463](https://github.com/onniio/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -5791,7 +5792,7 @@
 
 ### CVE-2025-56383 (2025-09-26)
 
-<code>Notepad++ v8.8.3 has a DLL hijacking vulnerability, which can replace the original DLL file to execute malicious code.
+<code>Notepad++ v8.8.3 has a DLL hijacking vulnerability, which can replace the original DLL file to execute malicious code. NOTE: this is disputed by multiple parties because the behavior only occurs when a user installs the product into a directory tree that allows write access by arbitrary unprivileged users.
 </code>
 
 - [zer0t0/CVE-2025-56383-Proof-of-Concept](https://github.com/zer0t0/CVE-2025-56383-Proof-of-Concept)
@@ -5803,10 +5804,18 @@
 
 - [Jingyi-u/-CVE-2025-56435](https://github.com/Jingyi-u/-CVE-2025-56435)
 
-### CVE-2025-56514
+### CVE-2025-56514 (2025-10-01)
+
+<code>Cross Site Scripting (XSS) vulnerability in Fiora chat application 1.0.0 allows executes arbitrary JavaScript when malicious SVG files are rendered by other users.
+</code>
+
 - [Kov404/CVE-2025-56514](https://github.com/Kov404/CVE-2025-56514)
 
-### CVE-2025-56515
+### CVE-2025-56515 (2025-10-01)
+
+<code>File upload vulnerability in Fiora chat application 1.0.0 through user avatar upload functionality. The application fails to validate SVG file content, allowing malicious SVG files with embedded foreignObject elements containing iframe tags and JavaScript event handlers (onmouseover) to be uploaded and stored. When rendered, these SVG files execute arbitrary JavaScript, enabling attackers to steal user sessions, cookies, and perform unauthorized actions in the context of users viewing affected profiles.
+</code>
+
 - [Kov404/CVE-2025-56515](https://github.com/Kov404/CVE-2025-56515)
 
 ### CVE-2025-56605
@@ -5910,7 +5919,7 @@
 
 ### CVE-2025-57428 (2025-09-29)
 
-<code>Default credentials in Italy Wireless Mini Router WIRELESS-N 300M v28K.MiniRouter.20190211 allows attackers to gain access to the debug shell exposed via Telnet on Port 23 and execute hardware-level flash and register manipulation commands.
+<code>Default credentials in Each Italy Wireless Mini Router WIRELESS-N 300M v28K.MiniRouter.20190211 allows attackers to gain access to the debug shell exposed via Telnet on Port 23 and execute hardware-level flash and register manipulation commands.
 </code>
 
 - [5ulfur/CVE-2025-57428](https://github.com/5ulfur/CVE-2025-57428)
