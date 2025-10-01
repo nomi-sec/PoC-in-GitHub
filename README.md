@@ -5796,9 +5796,6 @@
 ### CVE-2025-56515
 - [Kov404/CVE-2025-56515](https://github.com/Kov404/CVE-2025-56515)
 
-### CVE-2025-56588
-- [PhDg1410/CVE-2025-56588](https://github.com/PhDg1410/CVE-2025-56588)
-
 ### CVE-2025-56605
 - [Userr404/CVE-2025-56605](https://github.com/Userr404/CVE-2025-56605)
 
@@ -7331,7 +7328,6 @@
 - [Brut-Security/CVE-2024-4879](https://github.com/Brut-Security/CVE-2024-4879)
 - [bigb0x/CVE-2024-4879](https://github.com/bigb0x/CVE-2024-4879)
 - [Mr-r00t11/CVE-2024-4879](https://github.com/Mr-r00t11/CVE-2024-4879)
-- [ShadowByte1/CVE-2024-4879](https://github.com/ShadowByte1/CVE-2024-4879)
 - [Praison001/CVE-2024-4879-ServiceNow](https://github.com/Praison001/CVE-2024-4879-ServiceNow)
 - [NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning](https://github.com/NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning)
 - [jdusane/CVE-2024-4879](https://github.com/jdusane/CVE-2024-4879)
@@ -10558,7 +10554,6 @@
 - [verylazytech/CVE-2024-24919](https://github.com/verylazytech/CVE-2024-24919)
 - [protonnegativo/CVE-2024-24919](https://github.com/protonnegativo/CVE-2024-24919)
 - [SalehLardhi/CVE-2024-24919](https://github.com/SalehLardhi/CVE-2024-24919)
-- [ShadowByte1/CVE-2024-24919](https://github.com/ShadowByte1/CVE-2024-24919)
 - [H3KEY/CVE-2024-24919](https://github.com/H3KEY/CVE-2024-24919)
 - [Jutrm/cve-2024-24919](https://github.com/Jutrm/cve-2024-24919)
 - [LuisMateo1/Arbitrary-File-Read-CVE-2024-24919](https://github.com/LuisMateo1/Arbitrary-File-Read-CVE-2024-24919)
