@@ -1600,13 +1600,6 @@
 
 - [balajigund/Research-on-CVE-2025-9998](https://github.com/balajigund/Research-on-CVE-2025-9998)
 
-### CVE-2025-9999 (2025-09-05)
-
-<code>Some payload elements of the messages sent between two stations in a networking architecture are not properly checked on the receiving station allowing an attacker to execute unauthorized commands in the application.
-</code>
-
-- [umxr286/ExploitScript](https://github.com/umxr286/ExploitScript)
-
 ### CVE-2025-10035 (2025-09-18)
 
 <code>A deserialization vulnerability in the License Servlet of Fortra's GoAnywhere MFT allows an actor with a validly forged license response signature to deserialize an arbitrary actor-controlled object, possibly leading to command injection.
@@ -5594,13 +5587,6 @@
 </code>
 
 - [byteReaper77/CVE-2025-54769](https://github.com/byteReaper77/CVE-2025-54769)
-
-### CVE-2025-54782 (2025-08-01)
-
-<code>Nest is a framework for building scalable Node.js server-side applications. In versions 0.2.0 and below, a critical Remote Code Execution (RCE) vulnerability was discovered in the @nestjs/devtools-integration package. When enabled, the package exposes a local development HTTP server with an API endpoint that uses an unsafe JavaScript sandbox (safe-eval-like implementation). Due to improper sandboxing and missing cross-origin protections, any malicious website visited by a developer can execute arbitrary code on their local machine. The package adds HTTP endpoints to a locally running NestJS development server. One of these endpoints, /inspector/graph/interact, accepts JSON input containing a code field and executes the provided code in a Node.js vm.runInNewContext sandbox. This is fixed in version 0.2.1.
-</code>
-
-- [nitrixog/CVE-2025-54782](https://github.com/nitrixog/CVE-2025-54782)
 
 ### CVE-2025-54794 (2025-08-05)
 
