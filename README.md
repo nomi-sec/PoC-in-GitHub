@@ -1130,7 +1130,6 @@
 </code>
 
 - [mbadanoiu/CVE-2025-6384](https://github.com/mbadanoiu/CVE-2025-6384)
-- [maestro-ant/CrafterCMS-CVE-2025-6384](https://github.com/maestro-ant/CrafterCMS-CVE-2025-6384)
 
 ### CVE-2025-6514 (2025-07-09)
 
@@ -3773,6 +3772,7 @@
 - [nelissandro/CVE-2025-32463-Sudo-Chroot-Escape](https://github.com/nelissandro/CVE-2025-32463-Sudo-Chroot-Escape)
 - [AC8999/CVE-2025-32463](https://github.com/AC8999/CVE-2025-32463)
 - [onniio/CVE-2025-32463](https://github.com/onniio/CVE-2025-32463)
+- [khoazero123/CVE-2025-32463](https://github.com/khoazero123/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -6077,6 +6077,13 @@
 </code>
 
 - [JOOJIII/CVE-2025-59424](https://github.com/JOOJIII/CVE-2025-59424)
+
+### CVE-2025-59712 (2025-09-19)
+
+<code>Snipe-IT before 8.1.18 allows XSS.
+</code>
+
+- [synacktiv/CVE-2025-59712_CVE-2025-59713](https://github.com/synacktiv/CVE-2025-59712_CVE-2025-59713)
 
 ### CVE-2025-59843 (2025-09-26)
 
