@@ -1419,6 +1419,13 @@
 
 - [m3m0o/engeman-web-language-combobox-sqli](https://github.com/m3m0o/engeman-web-language-combobox-sqli)
 
+### CVE-2025-8359 (2025-09-06)
+
+<code>The AdForest theme for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 6.0.9. This is due to the plugin not properly verifying a user's identity prior to authenticating them. This makes it possible for unauthenticated attackers to log in as other users, including administrators, without access to a password.
+</code>
+
+- [Nxploited/CVE-2025-8359](https://github.com/Nxploited/CVE-2025-8359)
+
 ### CVE-2025-8422 (2025-09-11)
 
 <code>The Propovoice: All-in-One Client Management System plugin for WordPress is vulnerable to Arbitrary File Read in all versions up to, and including, 1.7.6.7 via the send_email() function. This makes it possible for unauthenticated attackers to read the contents of arbitrary files on the server, which can contain sensitive information.
@@ -5780,7 +5787,11 @@
 
 - [Ocmenog/CVE-2025-55998](https://github.com/Ocmenog/CVE-2025-55998)
 
-### CVE-2025-56019
+### CVE-2025-56019 (2025-10-02)
+
+<code>An insecure permission vulnerability exists in the Agasta Easytouch+ version 9.3.97 The device allows unauthorized mobile applications to connect via Bluetooth Low Energy (BLE) without authentication. Once an unauthorized connection is established, legitimate applications are unable to connect, causing a denial of service. The attack requires proximity to the device, making it exploitable from an adjacent network location.
+</code>
+
 - [Yashodhanvivek/Agatsa-EasyTouch-Plus---CVE-2025-56019](https://github.com/Yashodhanvivek/Agatsa-EasyTouch-Plus---CVE-2025-56019)
 
 ### CVE-2025-56311 (2025-09-23)
@@ -5790,13 +5801,25 @@
 
 - [wrathfulDiety/CVE-2025-56311](https://github.com/wrathfulDiety/CVE-2025-56311)
 
-### CVE-2025-56379
+### CVE-2025-56379 (2025-10-02)
+
+<code>A stored cross-site scripting (XSS) vulnerability in the blog post feature of ERPNEXT v15.67.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the content field.
+</code>
+
 - [MoAlali/CVE-2025-56379](https://github.com/MoAlali/CVE-2025-56379)
 
-### CVE-2025-56380
+### CVE-2025-56380 (2025-10-02)
+
+<code>Frappe Framework v15.72.4 was discovered to contain a SQL injection vulnerability via the fieldname parameter in the frappe.client.get_value API endpoint and a crafted script to the fieldname parameter
+</code>
+
 - [MoAlali/CVE-2025-56380](https://github.com/MoAlali/CVE-2025-56380)
 
-### CVE-2025-56381
+### CVE-2025-56381 (2025-10-02)
+
+<code>ERPNEXT v15.67.0 was discovered to contain multiple SQL injection vulnerabilities in the /api/method/frappe.desk.reportview.get endpoint via the order_by and group_by parameters.
+</code>
+
 - [MoAlali/CVE-2025-56381](https://github.com/MoAlali/CVE-2025-56381)
 
 ### CVE-2025-56383 (2025-09-26)
@@ -5936,6 +5959,9 @@
 </code>
 
 - [5ulfur/CVE-2025-57428](https://github.com/5ulfur/CVE-2025-57428)
+
+### CVE-2025-57457
+- [restdone/CVE-2025-57457](https://github.com/restdone/CVE-2025-57457)
 
 ### CVE-2025-57483 (2025-09-29)
 
