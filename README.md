@@ -5790,6 +5790,15 @@
 
 - [wrathfulDiety/CVE-2025-56311](https://github.com/wrathfulDiety/CVE-2025-56311)
 
+### CVE-2025-56379
+- [MoAlali/CVE-2025-56379](https://github.com/MoAlali/CVE-2025-56379)
+
+### CVE-2025-56380
+- [MoAlali/CVE-2025-56380](https://github.com/MoAlali/CVE-2025-56380)
+
+### CVE-2025-56381
+- [MoAlali/CVE-2025-56381](https://github.com/MoAlali/CVE-2025-56381)
+
 ### CVE-2025-56383 (2025-09-26)
 
 <code>Notepad++ v8.8.3 has a DLL hijacking vulnerability, which can replace the original DLL file to execute malicious code. NOTE: this is disputed by multiple parties because the behavior only occurs when a user installs the product into a directory tree that allows write access by arbitrary unprivileged users.
@@ -5907,7 +5916,11 @@
 
 - [semaja22/CVE-2025-57176](https://github.com/semaja22/CVE-2025-57176)
 
-### CVE-2025-57389
+### CVE-2025-57389 (2025-10-01)
+
+<code>A reflected cross-site scripted (XSS) vulnerability in the /admin/system/packages endpoint of Luci OpenWRT v18.06.2 allows attackers to execute arbitrary Javascript in the context of a user's browser via a crafted payload.
+</code>
+
 - [amalcew/CVE-2025-57389](https://github.com/amalcew/CVE-2025-57389)
 
 ### CVE-2025-57392 (2025-09-10)
@@ -5950,6 +5963,9 @@
 </code>
 
 - [p0et08/DWrwq](https://github.com/p0et08/DWrwq)
+
+### CVE-2025-57617
+- [Gooseinpants/Dashy-auth-bypass](https://github.com/Gooseinpants/Dashy-auth-bypass)
 
 ### CVE-2025-57773 (2025-08-25)
 
