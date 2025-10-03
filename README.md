@@ -120,7 +120,7 @@
 
 ### CVE-2025-0868 (2025-02-20)
 
-<code>A vulnerability, that could result in Remote Code Execution (RCE), has been found in DocsGPT. Due to improper parsing of JSON data using eval() an unauthorized attacker could send arbitrary Python code to be executed via /api/remote endpoint.\n\nThis issue affects DocsGPT: from 0.8.1 through 0.12.0.
+<code>A vulnerability, that could result in Remote Code Execution (RCE), has been found in DocsGPT. Due to improper parsing of JSON data using eval() an unauthorized attacker could send arbitrary Python code to be executed via /api/remote endpoint..\n\nThis issue affects DocsGPT: from 0.8.1 through 0.12.0.
 </code>
 
 - [aidana-gift/CVE-2025-0868](https://github.com/aidana-gift/CVE-2025-0868)
@@ -3189,7 +3189,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
-- [KaztoJun/CVE-2025-29927-Research](https://github.com/KaztoJun/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -3984,6 +3983,13 @@
 </code>
 
 - [byteReaper77/CVE-2025-36041](https://github.com/byteReaper77/CVE-2025-36041)
+
+### CVE-2025-36604 (2025-08-04)
+
+<code>Dell Unity, version(s) 5.5 and prior, contain(s) an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to arbitrary command execution.
+</code>
+
+- [watchtowrlabs/watchTowr-vs-Dell-UnityVSA-PreAuth-CVE-2025-36604](https://github.com/watchtowrlabs/watchTowr-vs-Dell-UnityVSA-PreAuth-CVE-2025-36604)
 
 ### CVE-2025-37899 (2025-05-20)
 
@@ -31234,7 +31240,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoJun/CVE-2022-39299-Research](https://github.com/KaztoJun/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -33356,13 +33361,6 @@
 - [raymontag/cve-2021-1782](https://github.com/raymontag/cve-2021-1782)
 - [synacktiv/CVE-2021-1782](https://github.com/synacktiv/CVE-2021-1782)
 
-### CVE-2021-1883 (2021-09-08)
-
-<code>This issue was addressed with improved checks. This issue is fixed in Security Update 2021-004 Mojave, iOS 14.5 and iPadOS 14.5, watchOS 7.4, Security Update 2021-003 Catalina, tvOS 14.5, macOS Big Sur 11.3. Processing maliciously crafted server messages may lead to heap corruption.
-</code>
-
-- [gabe-k/CVE-2021-1883](https://github.com/gabe-k/CVE-2021-1883)
-
 ### CVE-2021-1905 (2021-05-07)
 
 <code>Possible use after free due to improper handling of memory mapping of multiple processes simultaneously. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables
@@ -34040,6 +34038,7 @@
 - [radzek15/Python-Pwnkit-CVE-2021-4034-exploit](https://github.com/radzek15/Python-Pwnkit-CVE-2021-4034-exploit)
 - [dr4xp/pwnkit-helper](https://github.com/dr4xp/pwnkit-helper)
 - [kaisen-bot/pwnkit-helper](https://github.com/kaisen-bot/pwnkit-helper)
+- [zaaraZiof0/pkexec-exploit-CVE](https://github.com/zaaraZiof0/pkexec-exploit-CVE)
 
 ### CVE-2021-4044 (2021-12-14)
 
