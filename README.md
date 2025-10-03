@@ -1263,6 +1263,13 @@
 
 - [bx33661/CVE-2025-7461](https://github.com/bx33661/CVE-2025-7461)
 
+### CVE-2025-7558 (2025-07-14)
+
+<code>Eine Schwachstelle wurde in code-projects Voting System 1.0 gefunden. Sie wurde als kritisch eingestuft. Es geht hierbei um eine nicht näher spezifizierte Funktion der Datei /admin/positions_add.php. Mittels Manipulieren des Arguments description mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [rundas-r00t/CVE-2025-7558-PoC](https://github.com/rundas-r00t/CVE-2025-7558-PoC)
+
 ### CVE-2025-7605 (2025-07-14)
 
 <code>Eine kritische Schwachstelle wurde in code-projects AVL Rooms 1.0 ausgemacht. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei /profile.php. Durch Beeinflussen des Arguments first_name mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
@@ -1306,6 +1313,7 @@
 - [Yuri08loveElaina/CVE-2025-7771](https://github.com/Yuri08loveElaina/CVE-2025-7771)
 - [fxrstor/ThrottleStopPoC](https://github.com/fxrstor/ThrottleStopPoC)
 - [Demoo1337/ThrottleStop](https://github.com/Demoo1337/ThrottleStop)
+- [Gabriel-Lacorte/CVE-2025-7771](https://github.com/Gabriel-Lacorte/CVE-2025-7771)
 
 ### CVE-2025-7775 (2025-08-26)
 
@@ -1476,6 +1484,13 @@
 
 - [chimdi2700/CVE-2025-8571](https://github.com/chimdi2700/CVE-2025-8571)
 
+### CVE-2025-8625 (2025-09-30)
+
+<code>The Copypress Rest API plugin for WordPress is vulnerable to Remote Code Execution via copyreap_handle_image() Function in versions 1.1 to 1.2. The plugin falls back to a hard-coded JWT signing key when no secret is defined and does not restrict which file types can be fetched and saved as attachments. As a result, unauthenticated attackers can forge a valid token to gain elevated privileges and upload an arbitrary file (e.g. a PHP script) through the image handler, leading to remote code execution.
+</code>
+
+- [Nxploited/CVE-2025-8625](https://github.com/Nxploited/CVE-2025-8625)
+
 ### CVE-2025-8671 (2025-08-13)
 
 <code>A mismatch caused by client-triggered server-sent stream resets between HTTP/2 specifications and the internal architectures of some HTTP/2 implementations may result in excessive server resource consumption leading to denial-of-service (DoS).  By opening streams and then rapidly triggering the server to reset them—using malformed frames or flow control errors—an attacker can exploit incorrect stream accounting. Streams reset by the server are considered closed at the protocol level, even though backend processing continues. This allows a client to cause the server to handle an unbounded number of concurrent streams on a single connection. This CVE will be updated as affected product details are released.
@@ -1563,6 +1578,13 @@
 </code>
 
 - [Tiger3080/CVE-2025-9267](https://github.com/Tiger3080/CVE-2025-9267)
+
+### CVE-2025-9286 (2025-10-03)
+
+<code>The Appy Pie Connect for WooCommerce plugin for WordPress is vulnerable to Privilege Escalation due to missing authorization within the reset_user_password() REST handler in all versions up to, and including, 1.1.2. This makes it possible for unauthenticated attackers to to reset the password of arbitrary users, including administrators, thereby gaining administrative access.
+</code>
+
+- [Nxploited/CVE-2025-9286](https://github.com/Nxploited/CVE-2025-9286)
 
 ### CVE-2025-9345 (2025-08-28)
 
@@ -2134,7 +2156,6 @@
 
 - [FFRI/CVE-2025-24204](https://github.com/FFRI/CVE-2025-24204)
 - [34306/decrypted](https://github.com/34306/decrypted)
-- [bale170501/decrypted](https://github.com/bale170501/decrypted)
 
 ### CVE-2025-24252 (2025-04-29)
 
@@ -3970,6 +3991,13 @@
 
 - [Eyodav/CVE-2025-34161](https://github.com/Eyodav/CVE-2025-34161)
 
+### CVE-2025-34226 (2025-10-03)
+
+<code>OpenPLC Runtime v3 contains an input validation flaw in the /upload-program-action endpoint: the epoch_time field supplied during program uploads is not validated and can be crafted to induce corruption of the programs database. After a successful malformed upload the runtime continues to operate until a restart; on restart the runtime can fail to start because of corrupted database entries, resulting in persistent denial of service requiring complete rebase of the product to recover. This vulnerability was remediated by commit 095ee09623dd229b64ad3a1db38a901a3772f6fc.
+</code>
+
+- [Eyodav/CVE-2025-34226](https://github.com/Eyodav/CVE-2025-34226)
+
 ### CVE-2025-34300 (2025-07-16)
 
 <code>A template injection vulnerability exists in Sawtooth Software’s Lighthouse Studio versions prior to 9.16.14 via the  ciwweb.pl http://ciwweb.pl/  Perl web application. Exploitation allows an unauthenticated attacker can execute arbitrary commands.
@@ -5782,10 +5810,18 @@
 ### CVE-2025-55891
 - [terribledactyl/CVE-2025-55891](https://github.com/terribledactyl/CVE-2025-55891)
 
-### CVE-2025-55971
+### CVE-2025-55971 (2025-10-03)
+
+<code>TCL 65C655 Smart TV, running firmware version V8-R75PT01-LF1V269.001116 (Android TV, Kernel 5.4.242+), is vulnerable to a blind, unauthenticated Server-Side Request Forgery (SSRF) vulnerability via the UPnP MediaRenderer service (AVTransport:1). The device accepts unauthenticated SetAVTransportURI SOAP requests over TCP/16398 and attempts to retrieve externally referenced URIs, including attacker-controlled payloads. The blind SSRF allows for sending requests on behalf of the TV, which can be leveraged to probe for other internal or external services accessible by the device (e.g., 127.0.0.1:16XXX, LAN services, or internet targets), potentially enabling additional exploit chains.
+</code>
+
 - [Szym0n13k/CVE-2025-55971-Blind-Unauthenticated-SSRF-in-TCL-Smart-TV-UPnP-DLNA-AVTransport](https://github.com/Szym0n13k/CVE-2025-55971-Blind-Unauthenticated-SSRF-in-TCL-Smart-TV-UPnP-DLNA-AVTransport)
 
-### CVE-2025-55972
+### CVE-2025-55972 (2025-10-03)
+
+<code>A TCL Smart TV running a vulnerable UPnP/DLNA MediaRenderer implementation is affected by a remote, unauthenticated Denial of Service (DoS) condition. By sending a flood of malformed or oversized SetAVTransportURI SOAP requests to the UPnP control endpoint, an attacker can cause the device to become unresponsive. This denial persists as long as the attack continues and affects all forms of TV operation. Manual user control and even reboots do not restore functionality unless the flood stops.
+</code>
+
 - [Szym0n13k/CVE-2025-55972-Remote-Unauthenticated-Denial-of-Service-DoS-in-TCL-Smart-TV-UPnP-DLNA-AVTransport](https://github.com/Szym0n13k/CVE-2025-55972-Remote-Unauthenticated-Denial-of-Service-DoS-in-TCL-Smart-TV-UPnP-DLNA-AVTransport)
 
 ### CVE-2025-55996 (2025-09-12)
@@ -6119,6 +6155,13 @@
 
 - [JOOJIII/CVE-2025-59424](https://github.com/JOOJIII/CVE-2025-59424)
 
+### CVE-2025-59489 (2025-10-03)
+
+<code>Unity Runtime before 2025-10-02 on Android, Windows, macOS, and Linux allows argument injection that can result in loading of library code from an unintended location. If an application was built with a version of Unity Editor that had the vulnerable Unity Runtime code, then an adversary may be able to execute code on, and exfiltrate confidential information from, the machine on which that application is running. NOTE: product status is provided for Unity Editor because that is the information available from the Supplier. However, updating Unity Editor typically does not address the effects of the vulnerability; instead, it is necessary to rebuild and redeploy all affected applications.
+</code>
+
+- [RealtekDotSys/Meteor](https://github.com/RealtekDotSys/Meteor)
+
 ### CVE-2025-59712 (2025-09-19)
 
 <code>Snipe-IT before 8.1.18 allows XSS.
@@ -6132,6 +6175,23 @@
 </code>
 
 - [At0mXploit/CVE-2025-59843-CVE-2025-59932](https://github.com/At0mXploit/CVE-2025-59843-CVE-2025-59932)
+
+### CVE-2025-60736
+- [WinDyAlphA/CVE-2025-60736](https://github.com/WinDyAlphA/CVE-2025-60736)
+
+### CVE-2025-60787 (2025-10-03)
+
+<code>MotionEye v0.43.1b4 and before is vulnerable to OS Command Injection in configuration parameters such as image_file_name. Unsanitized user input is written to Motion configuration files, allowing remote authenticated attackers with admin access to achieve code execution when Motion is restarted.
+</code>
+
+- [prabhatverma47/CVE-2025-60787](https://github.com/prabhatverma47/CVE-2025-60787)
+
+### CVE-2025-61622 (2025-10-01)
+
+<code>Deserialization of untrusted data in python in pyfory versions 0.12.0 through 0.12.2, or the legacy pyfury versions from 0.1.0 through 0.10.3: allows arbitrary code execution. An application is vulnerable if it reads pyfory serialized data from untrusted sources. An attacker can craft a data stream that selects pickle-fallback serializer during deserialization, leading to the execution of `pickle.loads`, which is vulnerable to remote code execution.\n\nUsers are recommended to upgrade to pyfory version 0.12.3 or later, which has removed pickle fallback serializer and thus fixes this issue.
+</code>
+
+- [fa1consec/cve_2025_61622_poc](https://github.com/fa1consec/cve_2025_61622_poc)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
