@@ -1665,6 +1665,7 @@
 
 - [People-11/CVE-2025-10184_PoC](https://github.com/People-11/CVE-2025-10184_PoC)
 - [yuuouu/ColorOS-CVE-2025-10184](https://github.com/yuuouu/ColorOS-CVE-2025-10184)
+- [Webpage-gh/CVE-2025-10184-PoC](https://github.com/Webpage-gh/CVE-2025-10184-PoC)
 
 ### CVE-2025-10492 (2025-09-16)
 
@@ -3217,6 +3218,7 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
+- [KaztoJun/CVE-2025-29927-Research](https://github.com/KaztoJun/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -12773,6 +12775,7 @@
 - [bmth666/GeoServer-Tools-CVE-2024-36401](https://github.com/bmth666/GeoServer-Tools-CVE-2024-36401)
 - [amoy6228/CVE-2024-36401_Geoserver_RCE_POC](https://github.com/amoy6228/CVE-2024-36401_Geoserver_RCE_POC)
 - [holokitty/Exploit-CVE-2024-36401](https://github.com/holokitty/Exploit-CVE-2024-36401)
+- [URJACK2025/CVE-2024-36401](https://github.com/URJACK2025/CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -31309,6 +31312,7 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
+- [KaztoJun/CVE-2022-39299-Research](https://github.com/KaztoJun/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -53332,6 +53336,7 @@
 - [pelagornisandersi/WIndows-7-automated-exploitation-using-metasploit-framework-](https://github.com/pelagornisandersi/WIndows-7-automated-exploitation-using-metasploit-framework-)
 - [luckyman2907/SMB-Protocol-Vulnerability_CVE-2017-0144](https://github.com/luckyman2907/SMB-Protocol-Vulnerability_CVE-2017-0144)
 - [AdityaBhatt3010/VAPT-Report-on-SMB-Exploitation-in-Windows-10-Finance-Endpoint](https://github.com/AdityaBhatt3010/VAPT-Report-on-SMB-Exploitation-in-Windows-10-Finance-Endpoint)
+- [nivedh-j/EternalBlue-Explained](https://github.com/nivedh-j/EternalBlue-Explained)
 
 ### CVE-2017-0145 (2017-03-17)
 
