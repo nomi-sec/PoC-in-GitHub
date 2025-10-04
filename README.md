@@ -1621,6 +1621,13 @@
 
 - [drackyjr/CVE-2025-9784](https://github.com/drackyjr/CVE-2025-9784)
 
+### CVE-2025-9886 (2025-10-04)
+
+<code>The Trinity Audio – Text to Speech AI audio player to convert content into audio plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 5.20.2. This is due to missing or incorrect nonce validation in the '/admin/inc/post-management.php' file. This makes it possible for unauthenticated attackers to activate/deactivate posts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+</code>
+
+- [MooseLoveti/Trinity-Audio-CVE-Report2](https://github.com/MooseLoveti/Trinity-Audio-CVE-Report2)
+
 ### CVE-2025-9998 (2025-09-05)
 
 <code>The sequence of packets received by a Networking server are not correctly checked.\n\nAn attacker could exploit this vulnerability to send specially crafted messages to force the application to stop.
@@ -3272,6 +3279,7 @@
 - [sermikr0/nextjs-middleware-auth-bypass](https://github.com/sermikr0/nextjs-middleware-auth-bypass)
 - [amalpvatayam67/day10-nextjs-middleware-lab](https://github.com/amalpvatayam67/day10-nextjs-middleware-lab)
 - [kuyrathdaro/cve-2025-29927](https://github.com/kuyrathdaro/cve-2025-29927)
+- [diogolourencodev/middleforce](https://github.com/diogolourencodev/middleforce)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -3337,8 +3345,9 @@
 - [B1ack4sh/Blackash-CVE-2025-30208](https://github.com/B1ack4sh/Blackash-CVE-2025-30208)
 - [ThemeHackers/CVE-2025-30208](https://github.com/ThemeHackers/CVE-2025-30208)
 - [TH-SecForge/CVE-2025-30208](https://github.com/TH-SecForge/CVE-2025-30208)
-- [gonn4cry/CVE-2025-30208](https://github.com/gonn4cry/CVE-2025-30208)
+- [bugdotexe/CVE-2025-30208](https://github.com/bugdotexe/CVE-2025-30208)
 - [Dany60-98/CVE-2025-30208-EXP](https://github.com/Dany60-98/CVE-2025-30208-EXP)
+- [qodo-dev/CVE-2025-30208](https://github.com/qodo-dev/CVE-2025-30208)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -55911,7 +55920,7 @@
 
 - [jpiechowka/jenkins-cve-2016-0792](https://github.com/jpiechowka/jenkins-cve-2016-0792)
 - [Aviksaikat/CVE-2016-0792](https://github.com/Aviksaikat/CVE-2016-0792)
-- [gonn4cry/CVE-2016-0792](https://github.com/gonn4cry/CVE-2016-0792)
+- [bugdotexe/CVE-2016-0792](https://github.com/bugdotexe/CVE-2016-0792)
 
 ### CVE-2016-0793 (2016-04-01)
 
