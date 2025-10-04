@@ -8135,6 +8135,7 @@
 </code>
 
 - [siunam321/CVE-2024-7627-PoC](https://github.com/siunam321/CVE-2024-7627-PoC)
+- [lkmn1/CVE-2024-7627](https://github.com/lkmn1/CVE-2024-7627)
 
 ### CVE-2024-7646 (2024-08-16)
 
