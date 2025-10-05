@@ -1164,6 +1164,7 @@
 - [PwnToday/CVE-2025-6554](https://github.com/PwnToday/CVE-2025-6554)
 - [ghostn4444/POC-CVE-2025-6554](https://github.com/ghostn4444/POC-CVE-2025-6554)
 - [9Insomnie/CVE-2025-6554](https://github.com/9Insomnie/CVE-2025-6554)
+- [mistymntncop/CVE-2025-6554](https://github.com/mistymntncop/CVE-2025-6554)
 
 ### CVE-2025-6558 (2025-07-15)
 
@@ -1226,6 +1227,7 @@
 - [yukinime/CVE-2025-6934](https://github.com/yukinime/CVE-2025-6934)
 - [Pwdnx1337/CVE-2025-6934](https://github.com/Pwdnx1337/CVE-2025-6934)
 - [Rosemary1337/CVE-2025-6934](https://github.com/Rosemary1337/CVE-2025-6934)
+- [Jenderal92/WP-CVE-2025-6934](https://github.com/Jenderal92/WP-CVE-2025-6934)
 
 ### CVE-2025-6970 (2025-07-09)
 
