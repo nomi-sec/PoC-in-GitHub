@@ -18074,14 +18074,14 @@
 <code>An authenticated privileged attacker could upload a specially crafted zip to the EspoCRM server in version 7.2.5, via the update form, which could lead to arbitrary PHP code execution.
 </code>
 
-- [pedrojosenavasperez/cve-2023-5965](https://github.com/pedrojosenavasperez/cve-2023-5965)
+- [josemlwdf/CVE-2023-5965](https://github.com/josemlwdf/CVE-2023-5965)
 
 ### CVE-2023-5966 (2023-11-30)
 
 <code>An authenticated privileged attacker could upload a specially crafted zip to the EspoCRM server in version 7.2.5, via the extension deployment form, which could lead to arbitrary PHP code execution.
 </code>
 
-- [pedrojosenavasperez/cve-2023-5966](https://github.com/pedrojosenavasperez/cve-2023-5966)
+- [ll104567/cve-2023-5966](https://github.com/ll104567/cve-2023-5966)
 
 ### CVE-2023-6000 (2024-01-01)
 
@@ -46912,7 +46912,6 @@
 - [e-renna/CVE-2019-9053](https://github.com/e-renna/CVE-2019-9053)
 - [zmiddle/Simple_CMS_SQLi](https://github.com/zmiddle/Simple_CMS_SQLi)
 - [ELIZEUOPAIN/CVE-2019-9053-CMS-Made-Simple-2.2.10---SQL-Injection-Exploit](https://github.com/ELIZEUOPAIN/CVE-2019-9053-CMS-Made-Simple-2.2.10---SQL-Injection-Exploit)
-- [pedrojosenavasperez/CVE-2019-9053-Python3](https://github.com/pedrojosenavasperez/CVE-2019-9053-Python3)
 - [Mahamedm/CVE-2019-9053-Exploit-Python-3](https://github.com/Mahamedm/CVE-2019-9053-Exploit-Python-3)
 - [im-suman-roy/CVE-2019-9053](https://github.com/im-suman-roy/CVE-2019-9053)
 - [bthnrml/guncel-cve-2019-9053.py](https://github.com/bthnrml/guncel-cve-2019-9053.py)
@@ -48217,7 +48216,7 @@
 - [Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271)
 - [CMNatic/Dockerized-CVE-2019-14287](https://github.com/CMNatic/Dockerized-CVE-2019-14287)
 - [axax002/sudo-vulnerability-CVE-2019-14287](https://github.com/axax002/sudo-vulnerability-CVE-2019-14287)
-- [SachinthaDeSilva-cmd/Exploit-CVE-2019-14287](https://github.com/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287)
+- [sachinthadesilva/Exploit-CVE-2019-14287](https://github.com/sachinthadesilva/Exploit-CVE-2019-14287)
 - [HussyCool/CVE-2019-14287-IT18030372-](https://github.com/HussyCool/CVE-2019-14287-IT18030372-)
 - [ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287](https://github.com/ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287)
 - [ejlevin99/Sudo-Security-Bypass-Vulnerability](https://github.com/ejlevin99/Sudo-Security-Bypass-Vulnerability)
@@ -52498,6 +52497,7 @@
 - [altsun/CVE-2018-16763-FuelCMS-1.4.1-RCE](https://github.com/altsun/CVE-2018-16763-FuelCMS-1.4.1-RCE)
 - [ArtemCyberLab/Project-Exploiting-a-Vulnerability-in-Fuel-CMS-CVE-2018-16763-](https://github.com/ArtemCyberLab/Project-Exploiting-a-Vulnerability-in-Fuel-CMS-CVE-2018-16763-)
 - [B7T3/CVE-2018-16763_FuelCMS-1.4.1_RCE](https://github.com/B7T3/CVE-2018-16763_FuelCMS-1.4.1_RCE)
+- [Cyberuser-hash/CVE-2018-16763](https://github.com/Cyberuser-hash/CVE-2018-16763)
 
 ### CVE-2018-16809 (2019-03-07)
 
