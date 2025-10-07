@@ -1144,6 +1144,7 @@
 </code>
 
 - [mbadanoiu/CVE-2025-6384](https://github.com/mbadanoiu/CVE-2025-6384)
+- [maestro-ant/CrafterCMS-CVE-2025-6384](https://github.com/maestro-ant/CrafterCMS-CVE-2025-6384)
 
 ### CVE-2025-6514 (2025-07-09)
 
@@ -4561,6 +4562,27 @@
 
 - [Guilhem7/CVE-2025-46816](https://github.com/Guilhem7/CVE-2025-46816)
 
+### CVE-2025-46817 (2025-10-03)
+
+<code>Redis is an open source, in-memory database that persists on disk. Versions 8.2.1 and below allow an authenticated user to use a specially crafted Lua script to cause an integer overflow and potentially lead to remote code execution The problem exists in all versions of Redis with Lua scripting. This issue is fixed in version 8.2.2.
+</code>
+
+- [dwisiswant0/CVE-2025-46817](https://github.com/dwisiswant0/CVE-2025-46817)
+
+### CVE-2025-46818 (2025-10-03)
+
+<code>Redis is an open source, in-memory database that persists on disk. Versions 8.2.1 and below allow an authenticated user to use a specially crafted Lua script to manipulate different LUA objects and potentially run their own code in the context of another user. The problem exists in all versions of Redis with LUA scripting. This issue is fixed in version 8.2.2. A workaround to mitigate the problem without patching the redis-server executable is to prevent users from executing LUA scripts. This can be done using ACL to block a script by restricting both the EVAL and FUNCTION command families.
+</code>
+
+- [dwisiswant0/CVE-2025-46818](https://github.com/dwisiswant0/CVE-2025-46818)
+
+### CVE-2025-46819 (2025-10-03)
+
+<code>Redis is an open source, in-memory database that persists on disk. Versions 8.2.1 and below allow an authenticated user to use a specially crafted LUA script to read out-of-bound data or crash the server and subsequent denial of service. The problem exists in all versions of Redis with Lua scripting. This issue is fixed in version 8.2.2. To workaround this issue without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to block a script by restricting both the EVAL and FUNCTION command families.
+</code>
+
+- [dwisiswant0/CVE-2025-46819](https://github.com/dwisiswant0/CVE-2025-46819)
+
 ### CVE-2025-46822 (2025-05-21)
 
 <code>OsamaTaher/Java-springboot-codebase is a collection of Java and Spring Boot code snippets, applications, and projects. Prior to commit c835c6f7799eacada4c0fc77e0816f250af01ad2, insufficient path traversal mechanisms make absolute path traversal possible. This vulnerability allows unauthorized access to sensitive internal files. Commit c835c6f7799eacada4c0fc77e0816f250af01ad2 contains a patch for the issue.
@@ -4954,6 +4976,14 @@
 </code>
 
 - [AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation](https://github.com/AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation)
+
+### CVE-2025-49844 (2025-10-03)
+
+<code>Redis is an open source, in-memory database that persists on disk. Versions 8.2.1 and below allow an authenticated user to use a specially crafted Lua script to manipulate the garbage collector, trigger a use-after-free and potentially lead to remote code execution. The problem exists in all versions of Redis with Lua scripting. This issue is fixed in version 8.2.2. To workaround this issue without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to restrict EVAL and EVALSHA commands.
+</code>
+
+- [gopinaath/CVE-2025-49844-discovery](https://github.com/gopinaath/CVE-2025-49844-discovery)
+- [dwisiswant0/CVE-2025-49844](https://github.com/dwisiswant0/CVE-2025-49844)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -6241,6 +6271,13 @@
 
 - [At0mXploit/CVE-2025-59843-CVE-2025-59932](https://github.com/At0mXploit/CVE-2025-59843-CVE-2025-59932)
 
+### CVE-2025-59934 (2025-09-26)
+
+<code>Formbricks is an open source qualtrics alternative. Prior to version 4.0.1, Formbricks is missing JWT signature verification. This vulnerability stems from a token validation routine that only decodes JWTs (jwt.decode) without verifying their signatures. Both the email verification token login path and the password reset server action use the same validator, which does not check the token’s signature, expiration, issuer, or audience. If an attacker learns the victim’s actual user.id, they can craft an arbitrary JWT with an alg: &quot;none&quot; header and use it to authenticate and reset the victim’s password. This issue has been patched in version 4.0.1.
+</code>
+
+- [suriryuk/cve-2025-59934](https://github.com/suriryuk/cve-2025-59934)
+
 ### CVE-2025-60736
 - [WinDyAlphA/CVE-2025-60736](https://github.com/WinDyAlphA/CVE-2025-60736)
 
@@ -6264,9 +6301,15 @@
 </code>
 
 - [rxerium/CVE-2025-61882](https://github.com/rxerium/CVE-2025-61882)
-- [allinsthon/CVE-2025-61882](https://github.com/allinsthon/CVE-2025-61882)
 - [watchtowrlabs/watchTowr-vs-Oracle-E-Business-Suite-CVE-2025-61882](https://github.com/watchtowrlabs/watchTowr-vs-Oracle-E-Business-Suite-CVE-2025-61882)
 - [Sachinart/CVE-2025-61882](https://github.com/Sachinart/CVE-2025-61882)
+
+### CVE-2025-61984 (2025-10-06)
+
+<code>ssh in OpenSSH before 10.1 allows control characters in usernames that originate from certain possibly untrusted sources, potentially leading to code execution when a ProxyCommand is used. The untrusted sources are the command line and %-sequence expansion of a configuration file. (A configuration file that provides a complete literal username is not categorized as an untrusted source.)
+</code>
+
+- [dgl/cve-2025-61984-poc](https://github.com/dgl/cve-2025-61984-poc)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
@@ -13051,7 +13094,7 @@
 <code>Insecure Access Control in Safe Exam Browser (SEB) = 3.5.0 on Windows. The vulnerability allows an attacker to share clipboard data between the SEB kiosk mode and the underlying system, compromising exam integrity. By exploiting this flaw, an attacker can bypass exam controls and gain an unfair advantage during exams.
 </code>
 
-- [cha0sk3rn3l/CVE-2024-37742](https://github.com/cha0sk3rn3l/CVE-2024-37742)
+- [Aar0nD0m1n1c/CVE-2024-37742](https://github.com/Aar0nD0m1n1c/CVE-2024-37742)
 
 ### CVE-2024-37759 (2024-06-24)
 
