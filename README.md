@@ -3838,6 +3838,7 @@
 - [AC8999/CVE-2025-32463](https://github.com/AC8999/CVE-2025-32463)
 - [onniio/CVE-2025-32463](https://github.com/onniio/CVE-2025-32463)
 - [khoazero123/CVE-2025-32463](https://github.com/khoazero123/CVE-2025-32463)
+- [r3dBust3r/CVE-2025-32463](https://github.com/r3dBust3r/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -5065,6 +5066,9 @@
 
 - [kevinpdicks/Mezzanine-CMS-6.1.0-XSS](https://github.com/kevinpdicks/Mezzanine-CMS-6.1.0-XSS)
 
+### CVE-2025-50505
+- [bron1e/CVE-2025-50505](https://github.com/bron1e/CVE-2025-50505)
+
 ### CVE-2025-50565 (2025-09-02)
 
 <code>Doubo ERP 1.0 has an SQL injection vulnerability due to a lack of filtering of user input, which can be remotely initiated by an attacker.
@@ -6083,7 +6087,11 @@
 
 - [Jainil-89/CVE](https://github.com/Jainil-89/CVE)
 
-### CVE-2025-57515
+### CVE-2025-57515 (2025-10-06)
+
+<code>A SQL injection vulnerability has been identified in Uniclare Student Portal v2. This flaw allows remote attackers to inject arbitrary SQL commands via vulnerable input fields, enabling the execution of time-delay functions to infer database responses.
+</code>
+
 - [sanchitsahni/CVE-2025-57515](https://github.com/sanchitsahni/CVE-2025-57515)
 
 ### CVE-2025-57520 (2025-09-10)
@@ -6257,6 +6265,8 @@
 
 - [rxerium/CVE-2025-61882](https://github.com/rxerium/CVE-2025-61882)
 - [allinsthon/CVE-2025-61882](https://github.com/allinsthon/CVE-2025-61882)
+- [watchtowrlabs/watchTowr-vs-Oracle-E-Business-Suite-CVE-2025-61882](https://github.com/watchtowrlabs/watchTowr-vs-Oracle-E-Business-Suite-CVE-2025-61882)
+- [Sachinart/CVE-2025-61882](https://github.com/Sachinart/CVE-2025-61882)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
@@ -24237,6 +24247,7 @@
 </code>
 
 - [bbugdigger/ktor-xxe-poc](https://github.com/bbugdigger/ktor-xxe-poc)
+- [infernosalex/CVE-2023-45612-PoC](https://github.com/infernosalex/CVE-2023-45612-PoC)
 
 ### CVE-2023-45657 (2023-11-06)
 
@@ -28361,10 +28372,10 @@
 </code>
 
 - [JacobEbben/CVE-2022-24716](https://github.com/JacobEbben/CVE-2022-24716)
-- [joaoviictorti/CVE-2022-24716](https://github.com/joaoviictorti/CVE-2022-24716)
 - [pumpkinpiteam/CVE-2022-24716](https://github.com/pumpkinpiteam/CVE-2022-24716)
 - [doosec101/CVE-2022-24716](https://github.com/doosec101/CVE-2022-24716)
 - [antisecc/CVE-2022-24716](https://github.com/antisecc/CVE-2022-24716)
+- [gmh5225/CVE-2022-24716-2](https://github.com/gmh5225/CVE-2022-24716-2)
 
 ### CVE-2022-24734 (2022-03-09)
 
