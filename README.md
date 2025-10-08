@@ -1706,6 +1706,27 @@
 - [yuuouu/ColorOS-CVE-2025-10184](https://github.com/yuuouu/ColorOS-CVE-2025-10184)
 - [Webpage-gh/CVE-2025-10184-PoC](https://github.com/Webpage-gh/CVE-2025-10184-PoC)
 
+### CVE-2025-10351 (2025-10-08)
+
+<code>SQL injection vulnerability based on the melis-cms module of the Melis platform from Melis Technology. This vulnerability allows an attacker to retrieve, create, update, and delete databases through the 'idPage' parameter in the '/melis/MelisCms/PageEdition/getTinyTemplates' endpoint.
+</code>
+
+- [ivansmc00/CVE-2025-10351](https://github.com/ivansmc00/CVE-2025-10351)
+
+### CVE-2025-10352 (2025-10-08)
+
+<code>Vulnerability in the melis-core module of Melis Technology's Melis Platform, which, if exploited, allows an unauthenticated attacker to create an administrator account via a request to '/melis/MelisCore/ToolUser/addNewUser'.
+</code>
+
+- [ivansmc00/CVE-2025-10352](https://github.com/ivansmc00/CVE-2025-10352)
+
+### CVE-2025-10353 (2025-10-08)
+
+<code>File upload leading to remote code execution (RCE) in the “melis-cms-slider” module of Melis Technology's Melis Platform. This vulnerability allows an attacker to upload a malicious file via a POST request to '/melis/MelisCmsSlider/MelisCmsSliderDetails/saveDetailsForm' using the 'mcsdetail_img' parameter.
+</code>
+
+- [ivansmc00/CVE-2025-10353](https://github.com/ivansmc00/CVE-2025-10353)
+
 ### CVE-2025-10492 (2025-09-16)
 
 <code>A Java deserialisation vulnerability has been discovered in Jaspersoft Library. Improper handling of externally supplied data may allow attackers to execute arbitrary code remotely on systems that use the affected library
@@ -5009,6 +5030,7 @@
 - [dwisiswant0/CVE-2025-49844](https://github.com/dwisiswant0/CVE-2025-49844)
 - [raminfp/redis_exploit](https://github.com/raminfp/redis_exploit)
 - [lastvocher/redis-CVE-2025-49844](https://github.com/lastvocher/redis-CVE-2025-49844)
+- [srozb/reditrap](https://github.com/srozb/reditrap)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -6338,6 +6360,9 @@
 </code>
 
 - [prabhatverma47/CVE-2025-60787](https://github.com/prabhatverma47/CVE-2025-60787)
+
+### CVE-2025-61183
+- [thawphone/CVE-2025-61183](https://github.com/thawphone/CVE-2025-61183)
 
 ### CVE-2025-61622 (2025-10-01)
 
@@ -54509,6 +54534,7 @@
 - [initon/Hikvision---CVE-2017-7921](https://github.com/initon/Hikvision---CVE-2017-7921)
 - [aengussong/hikvision_probe](https://github.com/aengussong/hikvision_probe)
 - [GabrielAvls/CVE-2017-7921](https://github.com/GabrielAvls/CVE-2017-7921)
+- [lastvocher/Hikvision-CVE-2017-7921-decryptor](https://github.com/lastvocher/Hikvision-CVE-2017-7921-decryptor)
 
 ### CVE-2017-7998 (2018-01-08)
 
