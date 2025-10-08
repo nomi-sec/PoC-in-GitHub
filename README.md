@@ -538,7 +538,7 @@
 - [SUPRAAA-1337/CVE-2025-3102](https://github.com/SUPRAAA-1337/CVE-2025-3102)
 - [SUPRAAA-1337/CVE-2025-3102_v2](https://github.com/SUPRAAA-1337/CVE-2025-3102_v2)
 - [SUPRAAA-1337/CVE-2025-3102-exploit](https://github.com/SUPRAAA-1337/CVE-2025-3102-exploit)
-- [zr1p3r/CVE-2025-3102](https://github.com/zr1p3r/CVE-2025-3102)
+- [0xgh057r3c0n/CVE-2025-3102](https://github.com/0xgh057r3c0n/CVE-2025-3102)
 - [baribut/CVE-2025-3102](https://github.com/baribut/CVE-2025-3102)
 
 ### CVE-2025-3243 (2025-04-04)
@@ -562,7 +562,7 @@
 - [tiemio/RCE-CVE-2025-3248](https://github.com/tiemio/RCE-CVE-2025-3248)
 - [ynsmroztas/CVE-2025-3248-Langflow-RCE](https://github.com/ynsmroztas/CVE-2025-3248-Langflow-RCE)
 - [imbas007/CVE-2025-3248](https://github.com/imbas007/CVE-2025-3248)
-- [zr1p3r/CVE-2025-3248](https://github.com/zr1p3r/CVE-2025-3248)
+- [0xgh057r3c0n/CVE-2025-3248](https://github.com/0xgh057r3c0n/CVE-2025-3248)
 - [zapstiko/CVE-2025-3248](https://github.com/zapstiko/CVE-2025-3248)
 - [B1ack4sh/Blackash-CVE-2025-3248](https://github.com/B1ack4sh/Blackash-CVE-2025-3248)
 - [issamjr/CVE-2025-3248-Scanner](https://github.com/issamjr/CVE-2025-3248-Scanner)
@@ -709,7 +709,7 @@
 </code>
 
 - [Nxploited/CVE-2025-4334](https://github.com/Nxploited/CVE-2025-4334)
-- [zr1p3r/CVE-2025-4334](https://github.com/zr1p3r/CVE-2025-4334)
+- [0xgh057r3c0n/CVE-2025-4334](https://github.com/0xgh057r3c0n/CVE-2025-4334)
 
 ### CVE-2025-4336 (2025-05-24)
 
@@ -1030,7 +1030,7 @@
 - [win3zz/CVE-2025-5777](https://github.com/win3zz/CVE-2025-5777)
 - [FrenzisRed/CVE-2025-5777](https://github.com/FrenzisRed/CVE-2025-5777)
 - [bughuntar/CVE-2025-5777](https://github.com/bughuntar/CVE-2025-5777)
-- [zr1p3r/CVE-2025-5777](https://github.com/zr1p3r/CVE-2025-5777)
+- [0xgh057r3c0n/CVE-2025-5777](https://github.com/0xgh057r3c0n/CVE-2025-5777)
 - [SleepNotF0und/CVE-2025-5777](https://github.com/SleepNotF0und/CVE-2025-5777)
 - [cyberleelawat/ExploitVeer](https://github.com/cyberleelawat/ExploitVeer)
 - [B1ack4sh/Blackash-CVE-2025-5777](https://github.com/B1ack4sh/Blackash-CVE-2025-5777)
@@ -1097,7 +1097,7 @@
 
 - [Nxploited/CVE-2025-6058](https://github.com/Nxploited/CVE-2025-6058)
 - [JayVillain/Scan-CVE-2025-6058](https://github.com/JayVillain/Scan-CVE-2025-6058)
-- [zr1p3r/CVE-2025-6058](https://github.com/zr1p3r/CVE-2025-6058)
+- [0xgh057r3c0n/CVE-2025-6058](https://github.com/0xgh057r3c0n/CVE-2025-6058)
 
 ### CVE-2025-6082 (2025-07-22)
 
@@ -1231,7 +1231,7 @@
 
 - [Nxploited/CVE-2025-6934](https://github.com/Nxploited/CVE-2025-6934)
 - [MrjHaxcore/CVE-2025-6934](https://github.com/MrjHaxcore/CVE-2025-6934)
-- [zr1p3r/CVE-2025-6934](https://github.com/zr1p3r/CVE-2025-6934)
+- [0xgh057r3c0n/CVE-2025-6934](https://github.com/0xgh057r3c0n/CVE-2025-6934)
 - [yukinime/CVE-2025-6934](https://github.com/yukinime/CVE-2025-6934)
 - [Pwdnx1337/CVE-2025-6934](https://github.com/Pwdnx1337/CVE-2025-6934)
 - [Rosemary1337/CVE-2025-6934](https://github.com/Rosemary1337/CVE-2025-6934)
@@ -1711,21 +1711,21 @@
 <code>SQL injection vulnerability based on the melis-cms module of the Melis platform from Melis Technology. This vulnerability allows an attacker to retrieve, create, update, and delete databases through the 'idPage' parameter in the '/melis/MelisCms/PageEdition/getTinyTemplates' endpoint.
 </code>
 
-- [ivansmc00/CVE-2025-10351](https://github.com/ivansmc00/CVE-2025-10351)
+- [ivansmc00/CVE-2025-10351-POC](https://github.com/ivansmc00/CVE-2025-10351-POC)
 
 ### CVE-2025-10352 (2025-10-08)
 
 <code>Vulnerability in the melis-core module of Melis Technology's Melis Platform, which, if exploited, allows an unauthenticated attacker to create an administrator account via a request to '/melis/MelisCore/ToolUser/addNewUser'.
 </code>
 
-- [ivansmc00/CVE-2025-10352](https://github.com/ivansmc00/CVE-2025-10352)
+- [ivansmc00/CVE-2025-10352-POC](https://github.com/ivansmc00/CVE-2025-10352-POC)
 
 ### CVE-2025-10353 (2025-10-08)
 
 <code>File upload leading to remote code execution (RCE) in the “melis-cms-slider” module of Melis Technology's Melis Platform. This vulnerability allows an attacker to upload a malicious file via a POST request to '/melis/MelisCmsSlider/MelisCmsSliderDetails/saveDetailsForm' using the 'mcsdetail_img' parameter.
 </code>
 
-- [ivansmc00/CVE-2025-10353](https://github.com/ivansmc00/CVE-2025-10353)
+- [ivansmc00/CVE-2025-10353-POC](https://github.com/ivansmc00/CVE-2025-10353-POC)
 
 ### CVE-2025-10492 (2025-09-16)
 
@@ -1920,6 +1920,13 @@
 </code>
 
 - [DoTTak/CVE-2025-22352](https://github.com/DoTTak/CVE-2025-22352)
+
+### CVE-2025-22441 (2025-09-04)
+
+<code>In getContextForResourcesEnsuringCorrectCachedApkPaths of RemoteViews.java, there is a possible way to load arbitrary java code in a privileged context due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.
+</code>
+
+- [michalbednarski/ResourcePoison](https://github.com/michalbednarski/ResourcePoison)
 
 ### CVE-2025-22457 (2025-04-03)
 
@@ -2479,7 +2486,7 @@
 - [adilburaksen/CVE-2025-25257-Exploit-Tool](https://github.com/adilburaksen/CVE-2025-25257-Exploit-Tool)
 - [imbas007/CVE-2025-25257](https://github.com/imbas007/CVE-2025-25257)
 - [B1ack4sh/Blackash-CVE-2025-25257](https://github.com/B1ack4sh/Blackash-CVE-2025-25257)
-- [zr1p3r/CVE-2025-25257](https://github.com/zr1p3r/CVE-2025-25257)
+- [0xgh057r3c0n/CVE-2025-25257](https://github.com/0xgh057r3c0n/CVE-2025-25257)
 - [mrmtwoj/CVE-2025-25257](https://github.com/mrmtwoj/CVE-2025-25257)
 - [TheStingR/CVE-2025-25257](https://github.com/TheStingR/CVE-2025-25257)
 - [segfault-it/CVE-2025-25257](https://github.com/segfault-it/CVE-2025-25257)
@@ -3507,7 +3514,7 @@
 - [sunhuiHi666/CVE-2025-31125](https://github.com/sunhuiHi666/CVE-2025-31125)
 - [MuhammadWaseem29/Vitejs-exploit](https://github.com/MuhammadWaseem29/Vitejs-exploit)
 - [nak000/Vitejs-exploit-CVE-2025-31125-rce](https://github.com/nak000/Vitejs-exploit-CVE-2025-31125-rce)
-- [zr1p3r/CVE-2025-31125](https://github.com/zr1p3r/CVE-2025-31125)
+- [0xgh057r3c0n/CVE-2025-31125](https://github.com/0xgh057r3c0n/CVE-2025-31125)
 - [harshgupptaa/Path-Transversal-CVE-2025-31125-](https://github.com/harshgupptaa/Path-Transversal-CVE-2025-31125-)
 
 ### CVE-2025-31129 (2025-03-31)
@@ -3542,7 +3549,7 @@
 - [TX-One/CVE-2025-31161](https://github.com/TX-One/CVE-2025-31161)
 - [SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825](https://github.com/SUPRAAA-1337/Nuclei_CVE-2025-31161_CVE-2025-2825)
 - [SUPRAAA-1337/CVE-2025-31161_exploit](https://github.com/SUPRAAA-1337/CVE-2025-31161_exploit)
-- [zr1p3r/CVE-2025-31161](https://github.com/zr1p3r/CVE-2025-31161)
+- [0xgh057r3c0n/CVE-2025-31161](https://github.com/0xgh057r3c0n/CVE-2025-31161)
 - [B1ack4sh/Blackash-CVE-2025-31161](https://github.com/B1ack4sh/Blackash-CVE-2025-31161)
 - [ibrahmsql/CVE-2025-31161](https://github.com/ibrahmsql/CVE-2025-31161)
 - [r0otk3r/CVE-2025-31161](https://github.com/r0otk3r/CVE-2025-31161)
@@ -4019,12 +4026,12 @@
 </code>
 
 - [MrjHaxcore/CVE-2025-34077](https://github.com/MrjHaxcore/CVE-2025-34077)
-- [zr1p3r/CVE-2025-34077](https://github.com/zr1p3r/CVE-2025-34077)
+- [0xgh057r3c0n/CVE-2025-34077](https://github.com/0xgh057r3c0n/CVE-2025-34077)
 
 ### CVE-2025-34085
 - [MrjHaxcore/CVE-2025-34085](https://github.com/MrjHaxcore/CVE-2025-34085)
 - [ill-deed/CVE-2025-34085-Multi-target](https://github.com/ill-deed/CVE-2025-34085-Multi-target)
-- [zr1p3r/CVE-2025-34085](https://github.com/zr1p3r/CVE-2025-34085)
+- [0xgh057r3c0n/CVE-2025-34085](https://github.com/0xgh057r3c0n/CVE-2025-34085)
 - [yukinime/CVE-2025-34085](https://github.com/yukinime/CVE-2025-34085)
 - [B1ack4sh/Blackash-CVE-2025-34085](https://github.com/B1ack4sh/Blackash-CVE-2025-34085)
 
@@ -4101,6 +4108,13 @@
 - [SeanHeelan/o3_finds_cve-2025-37899](https://github.com/SeanHeelan/o3_finds_cve-2025-37899)
 - [vett3x/SMB-LINUX-CVE-2025-37899](https://github.com/vett3x/SMB-LINUX-CVE-2025-37899)
 
+### CVE-2025-37947 (2025-05-20)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: prevent out-of-bounds stream writes by validating *pos\n\nksmbd_vfs_stream_write() did not validate whether the write offset\n(*pos) was within the bounds of the existing stream data length (v_len).\nIf *pos was greater than or equal to v_len, this could lead to an\nout-of-bounds memory write.\n\nThis patch adds a check to ensure *pos is less than v_len before\nproceeding. If the condition fails, -EINVAL is returned.
+</code>
+
+- [doyensec/KSMBD-CVE-2025-37947](https://github.com/doyensec/KSMBD-CVE-2025-37947)
+
 ### CVE-2025-38001 (2025-06-06)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nnet_sched: hfsc: Address reentrant enqueue adding class to eltree twice\n\nSavino says:\n    &quot;We are writing to report that this recent patch\n    (141d34391abbb315d68556b7c67ad97885407547) [1]\n    can be bypassed, and a UAF can still occur when HFSC is utilized with\n    NETEM.\n\n    The patch only checks the cl-&gt;cl_nactive field to determine whether\n    it is the first insertion or not [2], but this field is only\n    incremented by init_vf [3].\n\n    By using HFSC_RSC (which uses init_ed) [4], it is possible to bypass the\n    check and insert the class twice in the eltree.\n    Under normal conditions, this would lead to an infinite loop in\n    hfsc_dequeue for the reasons we already explained in this report [5].\n\n    However, if TBF is added as root qdisc and it is configured with a\n    very low rate,\n    it can be utilized to prevent packets from being dequeued.\n    This behavior can be exploited to perform subsequent insertions in the\n    HFSC eltree and cause a UAF.&quot;\n\nTo fix both the UAF and the infinite loop, with netem as an hfsc child,\ncheck explicitly in hfsc_enqueue whether the class is already in the eltree\nwhenever the HFSC_RSC flag is set.\n\n[1] https://web.git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=141d34391abbb315d68556b7c67ad97885407547\n[2] https://elixir.bootlin.com/linux/v6.15-rc5/source/net/sched/sch_hfsc.c#L1572\n[3] https://elixir.bootlin.com/linux/v6.15-rc5/source/net/sched/sch_hfsc.c#L677\n[4] https://elixir.bootlin.com/linux/v6.15-rc5/source/net/sched/sch_hfsc.c#L1574\n[5] https://lore.kernel.org/netdev/8DuRWwfqjoRDLDmBMlIfbrsZg9Gx50DHJc1ilxsEBNe2D6NMoigR_eIRIG0LOjMc3r10nUUZtArXx4oZBIdUfZQrwjcQhdinnMis_0G7VEk=@willsroot.io/T/#u
@@ -4122,6 +4136,13 @@
 </code>
 
 - [keymaker-arch/KSMBDrain](https://github.com/keymaker-arch/KSMBDrain)
+
+### CVE-2025-38561 (2025-08-19)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix Preauh_HashValue race condition\n\nIf client send multiple session setup requests to ksmbd,\nPreauh_HashValue race condition could happen.\nThere is no need to free sess-&gt;Preauh_HashValue at session setup phase.\nIt can be freed together with session at connection termination phase.
+</code>
+
+- [toshithh/CVE-2025-38561](https://github.com/toshithh/CVE-2025-38561)
 
 ### CVE-2025-38676 (2025-08-26)
 
@@ -4745,7 +4766,7 @@
 
 - [4m3rr0r/CVE-2025-47812-poc](https://github.com/4m3rr0r/CVE-2025-47812-poc)
 - [0xcan1337/CVE-2025-47812-poC](https://github.com/0xcan1337/CVE-2025-47812-poC)
-- [zr1p3r/CVE-2025-47812](https://github.com/zr1p3r/CVE-2025-47812)
+- [0xgh057r3c0n/CVE-2025-47812](https://github.com/0xgh057r3c0n/CVE-2025-47812)
 - [ill-deed/WingFTP-CVE-2025-47812-illdeed](https://github.com/ill-deed/WingFTP-CVE-2025-47812-illdeed)
 - [pevinkumar10/CVE-2025-47812](https://github.com/pevinkumar10/CVE-2025-47812)
 - [rxerium/CVE-2025-47812](https://github.com/rxerium/CVE-2025-47812)
@@ -4875,7 +4896,7 @@
 <code>vBulletin 5.0.0 through 5.7.5 and 6.0.0 through 6.0.3 allows unauthenticated users to invoke protected API controllers' methods when running on PHP 8.1 or later, as demonstrated by the /api.php?method=protectedMethod pattern, as exploited in the wild in May 2025.
 </code>
 
-- [zr1p3r/CVE-2025-48827](https://github.com/zr1p3r/CVE-2025-48827)
+- [0xgh057r3c0n/CVE-2025-48827](https://github.com/0xgh057r3c0n/CVE-2025-48827)
 - [wiseep/CVE-2025-48827](https://github.com/wiseep/CVE-2025-48827)
 - [SystemVll/CVE-2025-48827](https://github.com/SystemVll/CVE-2025-48827)
 
@@ -5031,6 +5052,7 @@
 - [raminfp/redis_exploit](https://github.com/raminfp/redis_exploit)
 - [lastvocher/redis-CVE-2025-49844](https://github.com/lastvocher/redis-CVE-2025-49844)
 - [srozb/reditrap](https://github.com/srozb/reditrap)
+- [pedrorichil/CVE-2025-49844](https://github.com/pedrorichil/CVE-2025-49844)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -6361,7 +6383,11 @@
 
 - [prabhatverma47/CVE-2025-60787](https://github.com/prabhatverma47/CVE-2025-60787)
 
-### CVE-2025-61183
+### CVE-2025-61183 (2025-10-08)
+
+<code>Cross Site Scripting in vaahcms v.2.3.1 allows a remote attacker to execute arbitrary code via upload method in the storeAvatar() method of UserBase.php
+</code>
+
 - [thawphone/CVE-2025-61183](https://github.com/thawphone/CVE-2025-61183)
 
 ### CVE-2025-61622 (2025-10-01)
@@ -12780,6 +12806,13 @@
 
 - [uthrasri/CVE-2024-34739](https://github.com/uthrasri/CVE-2024-34739)
 
+### CVE-2024-34740 (2024-08-15)
+
+<code>In attributeBytesBase64 and attributeBytesHex of BinaryXmlSerializer.java, there is a possible arbitrary XML injection due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [michalbednarski/AbxOverflow](https://github.com/michalbednarski/AbxOverflow)
+
 ### CVE-2024-34741 (2024-08-15)
 
 <code>In setForceHideNonSystemOverlayWindowIfNeeded of WindowState.java, there is a possible way for message content to be visible on the screensaver while lock screen visibility settings are restricted by the user due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
@@ -15273,6 +15306,9 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-49699](https://github.com/RandomRobbieBF/CVE-2024-49699)
+
+### CVE-2024-49746
+- [michalbednarski/ThisSeemsWrong](https://github.com/michalbednarski/ThisSeemsWrong)
 
 ### CVE-2024-50251 (2024-11-09)
 
@@ -60833,6 +60869,13 @@
 
 - [nmurilo/CVE-2008-4687-exploit](https://github.com/nmurilo/CVE-2008-4687-exploit)
 - [twisted007/mantis_rce](https://github.com/twisted007/mantis_rce)
+
+### CVE-2008-5161 (2008-11-19)
+
+<code>Error handling in the SSH protocol in (1) SSH Tectia Client and Server and Connector 4.0 through 4.4.11, 5.0 through 5.2.4, and 5.3 through 5.3.8; Client and Server and ConnectSecure 6.0 through 6.0.4; Server for Linux on IBM System z 6.0.4; Server for IBM z/OS 5.5.1 and earlier, 6.0.0, and 6.0.1; and Client 4.0-J through 4.3.3-J and 4.0-K through 4.3.10-K; and (2) OpenSSH 4.7p1 and possibly other versions, when using a block cipher algorithm in Cipher Block Chaining (CBC) mode, makes it easier for remote attackers to recover certain plaintext data from an arbitrary block of ciphertext in an SSH session via unknown vectors.
+</code>
+
+- [talha3117/OpenSSH-4.7p1-CVE-2008-5161-Exploit](https://github.com/talha3117/OpenSSH-4.7p1-CVE-2008-5161-Exploit)
 
 ### CVE-2008-5416 (2008-12-10)
 
