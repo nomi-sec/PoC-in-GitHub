@@ -3321,6 +3321,7 @@
 - [amalpvatayam67/day10-nextjs-middleware-lab](https://github.com/amalpvatayam67/day10-nextjs-middleware-lab)
 - [kuyrathdaro/cve-2025-29927](https://github.com/kuyrathdaro/cve-2025-29927)
 - [diogolourencodev/middleforce](https://github.com/diogolourencodev/middleforce)
+- [Bongni/CVE-2025-29927](https://github.com/Bongni/CVE-2025-29927)
 
 ### CVE-2025-29972 (2025-05-08)
 
@@ -5006,6 +5007,7 @@
 
 - [gopinaath/CVE-2025-49844-discovery](https://github.com/gopinaath/CVE-2025-49844-discovery)
 - [dwisiswant0/CVE-2025-49844](https://github.com/dwisiswant0/CVE-2025-49844)
+- [raminfp/redis_exploit](https://github.com/raminfp/redis_exploit)
 - [lastvocher/redis-CVE-2025-49844](https://github.com/lastvocher/redis-CVE-2025-49844)
 
 ### CVE-2025-50000
@@ -5714,6 +5716,7 @@
 </code>
 
 - [yohannslm/CVE-2025-54352](https://github.com/yohannslm/CVE-2025-54352)
+- [limmmw/CVE-2025-54352](https://github.com/limmmw/CVE-2025-54352)
 
 ### CVE-2025-54381 (2025-07-29)
 
@@ -25953,6 +25956,7 @@
 - [viardant/CVE-2022-0739](https://github.com/viardant/CVE-2022-0739)
 - [ElGanz0/CVE-2022-0739](https://github.com/ElGanz0/CVE-2022-0739)
 - [lhamouche/Bash-exploit-for-CVE-2022-0739](https://github.com/lhamouche/Bash-exploit-for-CVE-2022-0739)
+- [Manjen1218/CVE-2022-0739-Exploitation](https://github.com/Manjen1218/CVE-2022-0739-Exploitation)
 
 ### CVE-2022-0778 (2022-03-15)
 
