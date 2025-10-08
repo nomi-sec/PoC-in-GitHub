@@ -1259,6 +1259,13 @@
 - [Nxploited/CVE-2025-7340](https://github.com/Nxploited/CVE-2025-7340)
 - [Kai-One001/WordPress-HT-Contact-CVE-2025-7340-RCE](https://github.com/Kai-One001/WordPress-HT-Contact-CVE-2025-7340-RCE)
 
+### CVE-2025-7401 (2025-07-11)
+
+<code>The Premium Age Verification / Restriction for WordPress plugin for WordPress is vulnerable to arbitrary file read and write due to the existence of an insufficiently protected remote support functionality in remote_tunnel.php in all versions up to, and including, 3.0.2. This makes it possible for unauthenticated attackers to read from or write to arbitrary files on the affected site's server which may make the exposure of sensitive information or remote code execution possible.
+</code>
+
+- [Nxploited/CVE-2025-7401](https://github.com/Nxploited/CVE-2025-7401)
+
 ### CVE-2025-7404 (2025-07-24)
 
 <code>Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in Calibre Web, Autocaliweb allows Blind OS Command Injection.This issue affects Calibre Web: 0.6.24 (Nicolette); Autocaliweb: from 0.7.0 before 0.7.1.
@@ -4329,6 +4336,13 @@
 </code>
 
 - [mr-xmen786/CVE-2025-44608](https://github.com/mr-xmen786/CVE-2025-44608)
+
+### CVE-2025-44823 (2025-10-07)
+
+<code>Nagios Log Server before 2024R1.3.2 allows authenticated users to retrieve cleartext administrative API keys via a /nagioslogserver/index.php/api/system/get_users call. This is GL:NLS#475.
+</code>
+
+- [skraft9/CVE-2025-44823](https://github.com/skraft9/CVE-2025-44823)
 
 ### CVE-2025-44998 (2025-05-23)
 
@@ -13541,6 +13555,13 @@
 
 ### CVE-2024-39306
 - [apena-ba/CVE-2024-39306](https://github.com/apena-ba/CVE-2024-39306)
+
+### CVE-2024-39309 (2024-07-01)
+
+<code>Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. A vulnerability in versions prior to 6.5.7 and 7.1.0 allows SQL injection when Parse Server is configured to use the PostgreSQL database. The algorithm to detect SQL injection has been improved in versions 6.5.7 and 7.1.0. No known workarounds are available.
+</code>
+
+- [HeavyGhost-le/POC_SQL_injection_in_Parse_Server_prior_6.5.7_-_7.1.0](https://github.com/HeavyGhost-le/POC_SQL_injection_in_Parse_Server_prior_6.5.7_-_7.1.0)
 
 ### CVE-2024-39614 (2024-07-10)
 
