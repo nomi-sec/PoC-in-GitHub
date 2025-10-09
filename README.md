@@ -1442,6 +1442,7 @@
 - [pablo388/WinRAR-CVE-2025-8088-PoC-RAR](https://github.com/pablo388/WinRAR-CVE-2025-8088-PoC-RAR)
 - [lucyna77/winrar-exploit](https://github.com/lucyna77/winrar-exploit)
 - [Fathi-MO/POC-CVE-2025-8088](https://github.com/Fathi-MO/POC-CVE-2025-8088)
+- [tookATE/CVE-2025-8088](https://github.com/tookATE/CVE-2025-8088)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -3279,7 +3280,6 @@
 - [Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit)
 - [Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC)
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
-- [KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
 - [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
@@ -3320,7 +3320,7 @@
 - [HoumanPashaei/CVE-2025-29927](https://github.com/HoumanPashaei/CVE-2025-29927)
 - [rubbxalc/CVE-2025-29927](https://github.com/rubbxalc/CVE-2025-29927)
 - [olimpiofreitas/CVE-2025-29927-scanner](https://github.com/olimpiofreitas/CVE-2025-29927-scanner)
-- [moften/CVE-2025-29927](https://github.com/moften/CVE-2025-29927)
+- [moften/CVE-2025-29927_Next.js_Auth_Bypass](https://github.com/moften/CVE-2025-29927_Next.js_Auth_Bypass)
 - [EarthAngel666/x-middleware-exploit](https://github.com/EarthAngel666/x-middleware-exploit)
 - [enochgitgamefied/NextJS-CVE-2025-29927-Docker-Lab](https://github.com/enochgitgamefied/NextJS-CVE-2025-29927-Docker-Lab)
 - [sagsooz/CVE-2025-29927](https://github.com/sagsooz/CVE-2025-29927)
@@ -4575,13 +4575,6 @@
 
 - [1Altruist/CVE-2025-46271-Reverse-Shell-PoC](https://github.com/1Altruist/CVE-2025-46271-Reverse-Shell-PoC)
 
-### CVE-2025-46408 (2025-09-15)
-
-<code>An issue was discovered in the methods push.lite.avtech.com.AvtechLib.GetHttpsResponse and push.lite.avtech.com.Push_HttpService.getNewHttpClient in AVTECH EagleEyes 2.0.0. The methods set ALLOW_ALL_HOSTNAME_VERIFIER, bypassing domain validation.
-</code>
-
-- [shinyColumn/CVE-2025-46408](https://github.com/shinyColumn/CVE-2025-46408)
-
 ### CVE-2025-46657 (2025-04-27)
 
 <code>Karaz Karazal through 2025-04-14 allows reflected XSS via the lang parameter to the default URI.
@@ -5051,16 +5044,11 @@
 - [srozb/reditrap](https://github.com/srozb/reditrap)
 - [pedrorichil/CVE-2025-49844](https://github.com/pedrorichil/CVE-2025-49844)
 - [Yuri08loveElaina/CVE-2025-49844](https://github.com/Yuri08loveElaina/CVE-2025-49844)
+- [YuanBenSir/CVE-2025-49844_POC](https://github.com/YuanBenSir/CVE-2025-49844_POC)
+- [Mufti22/CVE-2025-49844-RediShell-Vulnerability-Scanner](https://github.com/Mufti22/CVE-2025-49844-RediShell-Vulnerability-Scanner)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
-
-### CVE-2025-50110 (2025-09-15)
-
-<code>An issue was discovered in the method push.lite.avtech.com.AvtechLib.GetHttpsResponse in AVTECH EagleEyes Lite 2.0.0, the GetHttpsResponse method transmits sensitive information - including internal server URLs, account IDs, passwords, and device tokens - as plaintext query parameters over HTTPS
-</code>
-
-- [shinyColumn/CVE-2025-50110](https://github.com/shinyColumn/CVE-2025-50110)
 
 ### CVE-2025-50154 (2025-08-12)
 
@@ -5221,13 +5209,6 @@
 </code>
 
 - [SacX-7/CVE-2025-50867](https://github.com/SacX-7/CVE-2025-50867)
-
-### CVE-2025-50944 (2025-09-15)
-
-<code>An issue was discovered in the method push.lite.avtech.com.MySSLSocketFactoryNew.checkServerTrusted in AVTECH EagleEyes 2.0.0. The custom X509TrustManager used in checkServerTrusted only checks the certificate's expiration date, skipping proper TLS chain validation.
-</code>
-
-- [shinyColumn/CVE-2025-50944](https://github.com/shinyColumn/CVE-2025-50944)
 
 ### CVE-2025-51005 (2025-09-23)
 
@@ -6129,13 +6110,6 @@
 </code>
 
 - [B1tBreaker/CVE-2025-56795](https://github.com/B1tBreaker/CVE-2025-56795)
-
-### CVE-2025-56803 (2025-09-03)
-
-<code>Figma Desktop for Windows version 125.6.5 contains a command injection vulnerability in the local plugin loader. An attacker can execute arbitrary OS commands by setting a crafted build field in the plugin's manifest.json. This field is passed to child_process.exec without validation, leading to possible RCE. NOTE: this is disputed by the Supplier because the behavior only allows a local user to attack himself via a local plugin. The local build procedure, which is essential to the attack, is not executed for plugins shared to the Figma Community.
-</code>
-
-- [shinyColumn/CVE-2025-56803](https://github.com/shinyColumn/CVE-2025-56803)
 
 ### CVE-2025-56807 (2025-09-29)
 
@@ -12324,6 +12298,7 @@
 - [Mr-xn/CVE-2024-32113](https://github.com/Mr-xn/CVE-2024-32113)
 - [YongYe-Security/CVE-2024-32113](https://github.com/YongYe-Security/CVE-2024-32113)
 - [guinea-offensive-security/Ofbiz-RCE](https://github.com/guinea-offensive-security/Ofbiz-RCE)
+- [luizgaf/CVE-2024-32113-Exploit](https://github.com/luizgaf/CVE-2024-32113-Exploit)
 
 ### CVE-2024-32136 (2024-04-15)
 
@@ -31564,7 +31539,6 @@
 </code>
 
 - [doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator)
-- [KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research)
 
 ### CVE-2022-39425 (2022-10-18)
 
