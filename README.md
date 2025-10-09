@@ -1739,6 +1739,7 @@
 <code>Type confusion in V8 in Google Chrome prior to 140.0.7339.185 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
 </code>
 
+- [samus4vic/CVE-2025-10585-The-Chrome-V8-Zero-Day](https://github.com/samus4vic/CVE-2025-10585-The-Chrome-V8-Zero-Day)
 - [AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day](https://github.com/AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day)
 
 ### CVE-2025-11077 (2025-09-27)
@@ -1782,13 +1783,6 @@
 - [grupooruss/CVE-2025-20281-Cisco](https://github.com/grupooruss/CVE-2025-20281-Cisco)
 - [ill-deed/Cisco-CVE-2025-20281-illdeed](https://github.com/ill-deed/Cisco-CVE-2025-20281-illdeed)
 - [B1ack4sh/Blackash-CVE-2025-20281](https://github.com/B1ack4sh/Blackash-CVE-2025-20281)
-
-### CVE-2025-20333 (2025-09-25)
-
-<code>A vulnerability in the VPN web server of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an authenticated, remote attacker to execute arbitrary code on an affected device.\r\n\r This vulnerability is due to improper validation of user-supplied input in HTTP(S) requests. An attacker with valid VPN user credentials could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to execute arbitrary code as root, possibly resulting in the complete compromise of the affected device.
-</code>
-
-- [callinston/CVE-2025-20333](https://github.com/callinston/CVE-2025-20333)
 
 ### CVE-2025-20352 (2025-09-24)
 
@@ -3884,6 +3878,7 @@
 - [onniio/CVE-2025-32463](https://github.com/onniio/CVE-2025-32463)
 - [khoazero123/CVE-2025-32463](https://github.com/khoazero123/CVE-2025-32463)
 - [r3dBust3r/CVE-2025-32463](https://github.com/r3dBust3r/CVE-2025-32463)
+- [0x3c4dfa1/CVE-2025-32463](https://github.com/0x3c4dfa1/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -6202,7 +6197,11 @@
 
 - [5ulfur/CVE-2025-57428](https://github.com/5ulfur/CVE-2025-57428)
 
-### CVE-2025-57457
+### CVE-2025-57457 (2025-10-08)
+
+<code>An OS Command Injection vulnerability in the Admin panel in Curo UC300 5.42.1.7.1.63R1 allows local attackers to inject arbitrary OS Commands via the &quot;IP Addr&quot; parameter.
+</code>
+
 - [restdone/CVE-2025-57457](https://github.com/restdone/CVE-2025-57457)
 
 ### CVE-2025-57483 (2025-09-29)
@@ -6270,6 +6269,7 @@
 
 - [Mkway/CVE-2025-57833](https://github.com/Mkway/CVE-2025-57833)
 - [loic-houchi/Django-faille-CVE-2025-57833_test](https://github.com/loic-houchi/Django-faille-CVE-2025-57833_test)
+- [ianoboyle/CVE-2025-57833](https://github.com/ianoboyle/CVE-2025-57833)
 
 ### CVE-2025-57926 (2025-09-22)
 
