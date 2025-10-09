@@ -3879,6 +3879,7 @@
 - [khoazero123/CVE-2025-32463](https://github.com/khoazero123/CVE-2025-32463)
 - [r3dBust3r/CVE-2025-32463](https://github.com/r3dBust3r/CVE-2025-32463)
 - [0x3c4dfa1/CVE-2025-32463](https://github.com/0x3c4dfa1/CVE-2025-32463)
+- [ricardomaia/CVE-2025-32463](https://github.com/ricardomaia/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -5048,6 +5049,7 @@
 - [lastvocher/redis-CVE-2025-49844](https://github.com/lastvocher/redis-CVE-2025-49844)
 - [srozb/reditrap](https://github.com/srozb/reditrap)
 - [pedrorichil/CVE-2025-49844](https://github.com/pedrorichil/CVE-2025-49844)
+- [Yuri08loveElaina/CVE-2025-49844](https://github.com/Yuri08loveElaina/CVE-2025-49844)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
