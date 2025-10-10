@@ -1063,6 +1063,13 @@
 
 - [haxerr9/CVE-2025-5840](https://github.com/haxerr9/CVE-2025-5840)
 
+### CVE-2025-5947 (2025-08-01)
+
+<code>The Service Finder Bookings plugin for WordPress is vulnerable to privilege escalation via authentication bypass in all versions up to, and including, 6.0. This is due to the plugin not properly validating a user's cookie value prior to logging them in through the service_finder_switch_back() function. This makes it possible for unauthenticated attackers to login as any user including admins.
+</code>
+
+- [M4rgs/CVE-2025-5947_Exploit](https://github.com/M4rgs/CVE-2025-5947_Exploit)
+
 ### CVE-2025-5961 (2025-07-03)
 
 <code>The Migration, Backup, Staging – WPvivid Backup &amp; Migration plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'wpvivid_upload_import_files' function in all versions up to, and including, 0.9.116. This makes it possible for authenticated attackers, with Administrator-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible. NOTE: Uploaded files are only accessible on WordPress instances running on the NGINX web server as the existing .htaccess within the target file upload folder prevents access on Apache servers.
@@ -6374,6 +6381,9 @@
 
 - [prabhatverma47/CVE-2025-60787](https://github.com/prabhatverma47/CVE-2025-60787)
 
+### CVE-2025-60880
+- [Shenal01/CVE-2025-60880](https://github.com/Shenal01/CVE-2025-60880)
+
 ### CVE-2025-61183 (2025-10-08)
 
 <code>Cross Site Scripting in vaahcms v.2.3.1 allows a remote attacker to execute arbitrary code via upload method in the storeAvatar() method of UserBase.php
@@ -6516,6 +6526,7 @@
 - [MrW0l05zyn/cve-2024-0044](https://github.com/MrW0l05zyn/cve-2024-0044)
 - [canyie/CVE-2024-0044](https://github.com/canyie/CVE-2024-0044)
 - [Dit-Developers/CVE-2024-0044-](https://github.com/Dit-Developers/CVE-2024-0044-)
+- [Athexhacker/EXPLOITER](https://github.com/Athexhacker/EXPLOITER)
 
 ### CVE-2024-0132 (2024-09-26)
 
@@ -13517,6 +13528,7 @@
 - [XiaomingX/cve-2024-38856-poc](https://github.com/XiaomingX/cve-2024-38856-poc)
 - [FakesiteSecurity/CVE-2024-38856_Scen](https://github.com/FakesiteSecurity/CVE-2024-38856_Scen)
 - [AlissonFaoli/Apache-OFBiz-Exploit](https://github.com/AlissonFaoli/Apache-OFBiz-Exploit)
+- [Hex00-0x4/CVE-2024-38856-Apache-OFBiz](https://github.com/Hex00-0x4/CVE-2024-38856-Apache-OFBiz)
 
 ### CVE-2024-38998
 - [z3ldr1/PP_CVE-2024-38998](https://github.com/z3ldr1/PP_CVE-2024-38998)
@@ -18051,7 +18063,6 @@
 - [teraGL/looneyCVE](https://github.com/teraGL/looneyCVE)
 - [snurkeburk/Looney-Tunables](https://github.com/snurkeburk/Looney-Tunables)
 - [puckiestyle/CVE-2023-4911](https://github.com/puckiestyle/CVE-2023-4911)
-- [RRespxwnss/Looney-Tunables-CVE-2023-4911](https://github.com/RRespxwnss/Looney-Tunables-CVE-2023-4911)
 - [NishanthAnand21/CVE-2023-4911-PoC](https://github.com/NishanthAnand21/CVE-2023-4911-PoC)
 - [Billar42/CVE-2023-4911](https://github.com/Billar42/CVE-2023-4911)
 - [shacojx/CVE-2023-4911-Exploit](https://github.com/shacojx/CVE-2023-4911-Exploit)
@@ -27752,7 +27763,6 @@
 - [darkb1rd/cve-2022-22947](https://github.com/darkb1rd/cve-2022-22947)
 - [mrknow001/CVE-2022-22947](https://github.com/mrknow001/CVE-2022-22947)
 - [0x7eTeam/CVE-2022-22947](https://github.com/0x7eTeam/CVE-2022-22947)
-- [ba1ma0/Spring-Cloud-GateWay-CVE-2022-22947-demon-code](https://github.com/ba1ma0/Spring-Cloud-GateWay-CVE-2022-22947-demon-code)
 - [Arrnitage/CVE-2022-22947_exp](https://github.com/Arrnitage/CVE-2022-22947_exp)
 - [PaoPaoLong-lab/Spring-CVE-2022-22947-](https://github.com/PaoPaoLong-lab/Spring-CVE-2022-22947-)
 - [hh-hunter/cve-2022-22947-docker](https://github.com/hh-hunter/cve-2022-22947-docker)
