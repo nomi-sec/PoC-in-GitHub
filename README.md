@@ -404,6 +404,7 @@
 - [RootHarpy/CVE-2025-2539](https://github.com/RootHarpy/CVE-2025-2539)
 - [Yucaerin/CVE-2025-2539](https://github.com/Yucaerin/CVE-2025-2539)
 - [d4rkh0rse/CVE-2025-2539](https://github.com/d4rkh0rse/CVE-2025-2539)
+- [AlvaXPloit/CVE-2025-2539](https://github.com/AlvaXPloit/CVE-2025-2539)
 
 ### CVE-2025-2563 (2025-04-14)
 
@@ -761,6 +762,13 @@
 </code>
 
 - [xie-22/CVE-2025-4428](https://github.com/xie-22/CVE-2025-4428)
+
+### CVE-2025-4476 (2025-05-16)
+
+<code>A denial-of-service vulnerability has been identified in the libsoup HTTP client library. This flaw can be triggered when a libsoup client receives a 401 (Unauthorized) HTTP response containing a specifically crafted domain parameter within the WWW-Authenticate header. Processing this malformed header can lead to a crash of the client application using libsoup. An attacker could exploit this by setting up a malicious HTTP server. If a user's application using the vulnerable libsoup library connects to this malicious server, it could result in a denial-of-service. Successful exploitation requires tricking a user's client application into connecting to the attacker's malicious server.
+</code>
+
+- [soltanali0/CVE-2025-4476-Exploit](https://github.com/soltanali0/CVE-2025-4476-Exploit)
 
 ### CVE-2025-4524 (2025-05-21)
 
@@ -1727,13 +1735,6 @@
 </code>
 
 - [ivansmc00/CVE-2025-10353-POC](https://github.com/ivansmc00/CVE-2025-10353-POC)
-
-### CVE-2025-10492 (2025-09-16)
-
-<code>A Java deserialisation vulnerability has been discovered in Jaspersoft Library. Improper handling of externally supplied data may allow attackers to execute arbitrary code remotely on systems that use the affected library
-</code>
-
-- [dovezp/CVE-2025-10492-POC](https://github.com/dovezp/CVE-2025-10492-POC)
 
 ### CVE-2025-10585 (2025-09-24)
 
@@ -5966,6 +5967,9 @@
 ### CVE-2025-55891
 - [terribledactyl/CVE-2025-55891](https://github.com/terribledactyl/CVE-2025-55891)
 
+### CVE-2025-55903
+- [ajansha/CVE-2025-55903](https://github.com/ajansha/CVE-2025-55903)
+
 ### CVE-2025-55971 (2025-10-03)
 
 <code>TCL 65C655 Smart TV, running firmware version V8-R75PT01-LF1V269.001116 (Android TV, Kernel 5.4.242+), is vulnerable to a blind, unauthenticated Server-Side Request Forgery (SSRF) vulnerability via the UPnP MediaRenderer service (AVTransport:1). The device accepts unauthenticated SetAVTransportURI SOAP requests over TCP/16398 and attempts to retrieve externally referenced URIs, including attacker-controlled payloads. The blind SSRF allows for sending requests on behalf of the TV, which can be leveraged to probe for other internal or external services accessible by the device (e.g., 127.0.0.1:16XXX, LAN services, or internet targets), potentially enabling additional exploit chains.
@@ -6350,6 +6354,16 @@
 
 - [suriryuk/cve-2025-59934](https://github.com/suriryuk/cve-2025-59934)
 
+### CVE-2025-60375 (2025-10-09)
+
+<code>The authentication mechanism in Perfex CRM before 3.3.1 allows attackers to bypass login credentials due to insufficient server-side validation. By sending empty username and password parameters in the login request, an attacker can gain unauthorized access to user accounts, including administrative accounts, without providing valid credentials.
+</code>
+
+- [AhamedYaseen03/CVE-2025-60375](https://github.com/AhamedYaseen03/CVE-2025-60375)
+
+### CVE-2025-60378
+- [ajansha/CVE-2025-60378](https://github.com/ajansha/CVE-2025-60378)
+
 ### CVE-2025-60736
 - [WinDyAlphA/CVE-2025-60736](https://github.com/WinDyAlphA/CVE-2025-60736)
 
@@ -6366,6 +6380,9 @@
 </code>
 
 - [thawphone/CVE-2025-61183](https://github.com/thawphone/CVE-2025-61183)
+
+### CVE-2025-61319
+- [AmalJafarzade/CVE-2025-61319](https://github.com/AmalJafarzade/CVE-2025-61319)
 
 ### CVE-2025-61622 (2025-10-01)
 
@@ -18944,6 +18961,7 @@
 - [3tternp/CVE-2023-21554](https://github.com/3tternp/CVE-2023-21554)
 - [Rahul-Thakur7/CVE-2023-21554](https://github.com/Rahul-Thakur7/CVE-2023-21554)
 - [leongxudong/MSMQ-Vulnerability](https://github.com/leongxudong/MSMQ-Vulnerability)
+- [shootweb/CVE-2023-21554](https://github.com/shootweb/CVE-2023-21554)
 
 ### CVE-2023-21560 (2023-01-10)
 
@@ -25498,6 +25516,7 @@
 - [Trackflaw/CVE-2024-10924-Wordpress-Docker](https://github.com/Trackflaw/CVE-2024-10924-Wordpress-Docker)
 - [Pixel-DefaultBR/CVE-2023-50164](https://github.com/Pixel-DefaultBR/CVE-2023-50164)
 - [MKIRAHMET/CVE-2023-50164-HTB-strutted](https://github.com/MKIRAHMET/CVE-2023-50164-HTB-strutted)
+- [hybinn/CVE-2023-50164](https://github.com/hybinn/CVE-2023-50164)
 
 ### CVE-2023-50226 (2024-05-03)
 
