@@ -4253,7 +4253,14 @@
 <code>Stored Cross-Site Scripting (XSS) in Xibo Signage's Xibo CMS v4.1.2, due to a lack of proper validation of user input. To exploit the vulnerability, the attacker must create a template in the 'Templates' section, then add a text element in the 'Global Elements' section, and finally modify the 'Text' field in the section with the malicious payload.
 </code>
 
-- [Marinafabregat/CVE-2025-41088-Stored-XSS-in-Xibo-Signage-s-Xibo](https://github.com/Marinafabregat/CVE-2025-41088-Stored-XSS-in-Xibo-Signage-s-Xibo)
+- [Marinafabregat/CVE-2025-41088](https://github.com/Marinafabregat/CVE-2025-41088)
+
+### CVE-2025-41089 (2025-10-10)
+
+<code>Reflected Cross-Site Scripting (XSS) in Xibo CMS v4.1.2 from Xibo Signage, due to a lack of proper validation of user input. To exploit the vulnerability, the attacker must create a template in the 'Templates' section, then add an element that has the 'Configuration Name' field, such as the 'Clock' widget. Next, modify the 'Configuration Name' field in the left-hand section.
+</code>
+
+- [Marinafabregat/CVE-2025-41089](https://github.com/Marinafabregat/CVE-2025-41089)
 
 ### CVE-2025-41244 (2025-09-29)
 
@@ -6326,6 +6333,13 @@
 
 - [quetuan03/CVE-2025-58789](https://github.com/quetuan03/CVE-2025-58789)
 
+### CVE-2025-59246 (2025-10-09)
+
+<code>Azure Entra ID Elevation of Privilege Vulnerability
+</code>
+
+- [Mpokes/CVE-2025-59246-Exploit](https://github.com/Mpokes/CVE-2025-59246-Exploit)
+
 ### CVE-2025-59342 (2025-09-17)
 
 <code>esm.sh is a nobuild content delivery network(CDN) for modern web development. In 136 and earlier, a path-traversal flaw in the handling of the X-Zone-Id HTTP header allows an attacker to cause the application to write files outside the intended storage location. The header value is used to build a filesystem path but is not properly canonicalized or restricted to the application’s storage base directory. As a result, supplying ../ sequences in X-Zone-Id causes files to be written to arbitrary directories.
@@ -6383,6 +6397,9 @@
 
 - [suriryuk/cve-2025-59934](https://github.com/suriryuk/cve-2025-59934)
 
+### CVE-2025-60374
+- [ajansha/CVE-2025-60374](https://github.com/ajansha/CVE-2025-60374)
+
 ### CVE-2025-60375 (2025-10-09)
 
 <code>The authentication mechanism in Perfex CRM before 3.3.1 allows attackers to bypass login credentials due to insufficient server-side validation. By sending empty username and password parameters in the login request, an attacker can gain unauthorized access to user accounts, including administrative accounts, without providing valid credentials.
@@ -6391,7 +6408,11 @@
 - [AhamedYaseen03/CVE-2025-60375](https://github.com/AhamedYaseen03/CVE-2025-60375)
 - [ajansha/CVE-2025-60375](https://github.com/ajansha/CVE-2025-60375)
 
-### CVE-2025-60378
+### CVE-2025-60378 (2025-10-10)
+
+<code>Stored HTML injection in RISE Ultimate Project Manager &amp; CRM allows authenticated users to inject arbitrary HTML into invoices and messages. Injected content renders in emails, PDFs, and messaging/chat modules sent to clients or team members, enabling phishing, credential theft, and business email compromise. Automated recurring invoices and messaging amplify the risk by distributing malicious content to multiple recipients.
+</code>
+
 - [ajansha/CVE-2025-60378](https://github.com/ajansha/CVE-2025-60378)
 
 ### CVE-2025-60736
@@ -6414,7 +6435,11 @@
 
 - [thawphone/CVE-2025-61183](https://github.com/thawphone/CVE-2025-61183)
 
-### CVE-2025-61319
+### CVE-2025-61319 (2025-10-10)
+
+<code>ReNgine thru 2.2.0 is vulnerable to a Stored Cross-Site Scripting (XSS) vulnerability in the Vulnerabilities module. When scanning a target with an XSS payload, the unsanitized payload is rendered in the ReNgine web UI, resulting in arbitrary JavaScript execution in the victim's browser. This can be abused to steal session cookies, perform unauthorized actions, or compromise the ReNgine administrator's account.
+</code>
+
 - [AmalJafarzade/CVE-2025-61319](https://github.com/AmalJafarzade/CVE-2025-61319)
 
 ### CVE-2025-61622 (2025-10-01)
@@ -6433,6 +6458,7 @@
 - [watchtowrlabs/watchTowr-vs-Oracle-E-Business-Suite-CVE-2025-61882](https://github.com/watchtowrlabs/watchTowr-vs-Oracle-E-Business-Suite-CVE-2025-61882)
 - [Sachinart/CVE-2025-61882](https://github.com/Sachinart/CVE-2025-61882)
 - [B1ack4sh/Blackash-CVE-2025-61882](https://github.com/B1ack4sh/Blackash-CVE-2025-61882)
+- [zerozenxlabs/CVE-2025-61882-Oracle-EBS](https://github.com/zerozenxlabs/CVE-2025-61882-Oracle-EBS)
 
 ### CVE-2025-61984 (2025-10-06)
 
@@ -20622,6 +20648,13 @@
 </code>
 
 - [nastar-id/CVE-2023-29384](https://github.com/nastar-id/CVE-2023-29384)
+
+### CVE-2023-29386 (2024-03-26)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Julien Crego Manager for Icomoon.This issue affects Manager for Icomoon: from n/a through 2.0.\n\n
+</code>
+
+- [vigilante-1337/CVE-2023-29386](https://github.com/vigilante-1337/CVE-2023-29386)
 
 ### CVE-2023-29406 (2023-07-11)
 
@@ -38938,7 +38971,7 @@
 - [hxlxmj/Grafxploit](https://github.com/hxlxmj/Grafxploit)
 - [0xSAZZAD/Grafana-CVE-2021-43798](https://github.com/0xSAZZAD/Grafana-CVE-2021-43798)
 - [wezoomagency/GrafXploit](https://github.com/wezoomagency/GrafXploit)
-- [davidr-io/Grafana-8.3-Directory-Traversal](https://github.com/davidr-io/Grafana-8.3-Directory-Traversal)
+- [dcryp7/Grafana-8.3-Directory-Traversal](https://github.com/dcryp7/Grafana-8.3-Directory-Traversal)
 - [ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux](https://github.com/ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux)
 - [monke443/CVE-2021-43798](https://github.com/monke443/CVE-2021-43798)
 - [suljov/Grafana-LFI-exploit](https://github.com/suljov/Grafana-LFI-exploit)
