@@ -1758,6 +1758,20 @@
 
 - [byteReaper77/CVE-2025-11077](https://github.com/byteReaper77/CVE-2025-11077)
 
+### CVE-2025-11371 (2025-10-09)
+
+<code>In the default installation and configuration of Gladinet CentreStack and TrioFox, there is an unauthenticated Local File Inclusion Flaw that allows unintended disclosure of system files. Exploitation of this vulnerability has been observed in the wild. \n\nThis issue impacts Gladinet CentreStack and Triofox: All versions prior to and including 16.7.10368.56560
+</code>
+
+- [rxerium/CVE-2025-11371](https://github.com/rxerium/CVE-2025-11371)
+
+### CVE-2025-11449 (2025-10-10)
+
+<code>ServiceNow has addressed a reflected cross-site scripting vulnerability that was identified in the ServiceNow AI Platform. This vulnerability could result in arbitrary code being executed within the browsers of ServiceNow users who click on a specially crafted link.   \n\n\n\n\n\nServiceNow has addressed this vulnerability by deploying a relevant security update to the majority of hosted instances.  Relevant security updates also have been provided to ServiceNow self-hosted customers, partners, and hosted customers with unique configuration. Further, the vulnerability is addressed in the listed patches and hot fixes. We recommend customers promptly apply appropriate updates or upgrade if they have not already done so.
+</code>
+
+- [DanielMadsenDK/ServiceNow-CVE-2025-11449-CVE-2025-11450-Mitigation-Script](https://github.com/DanielMadsenDK/ServiceNow-CVE-2025-11449-CVE-2025-11450-Mitigation-Script)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -4127,6 +4141,7 @@
 
 - [0xdevil/CVE-2025-38001](https://github.com/0xdevil/CVE-2025-38001)
 - [khoatran107/cve-2025-38001](https://github.com/khoatran107/cve-2025-38001)
+- [ngobao2002/CVE-2025-38001-test](https://github.com/ngobao2002/CVE-2025-38001-test)
 
 ### CVE-2025-38089 (2025-06-30)
 
@@ -4232,6 +4247,13 @@
 </code>
 
 - [AlexSvobo/nhi-zero-trust-bypass](https://github.com/AlexSvobo/nhi-zero-trust-bypass)
+
+### CVE-2025-41088 (2025-10-10)
+
+<code>Stored Cross-Site Scripting (XSS) in Xibo Signage's Xibo CMS v4.1.2, due to a lack of proper validation of user input. To exploit the vulnerability, the attacker must create a template in the 'Templates' section, then add a text element in the 'Global Elements' section, and finally modify the 'Text' field in the section with the malicious payload.
+</code>
+
+- [Marinafabregat/CVE-2025-41088-Stored-XSS-in-Xibo-Signage-s-Xibo](https://github.com/Marinafabregat/CVE-2025-41088-Stored-XSS-in-Xibo-Signage-s-Xibo)
 
 ### CVE-2025-41244 (2025-09-29)
 
@@ -6367,6 +6389,7 @@
 </code>
 
 - [AhamedYaseen03/CVE-2025-60375](https://github.com/AhamedYaseen03/CVE-2025-60375)
+- [ajansha/CVE-2025-60375](https://github.com/ajansha/CVE-2025-60375)
 
 ### CVE-2025-60378
 - [ajansha/CVE-2025-60378](https://github.com/ajansha/CVE-2025-60378)
@@ -9792,6 +9815,13 @@
 
 - [k4it0k1d/CVE-2024-21182](https://github.com/k4it0k1d/CVE-2024-21182)
 - [kursadalsan/CVE-2024-21182](https://github.com/kursadalsan/CVE-2024-21182)
+
+### CVE-2024-21262 (2024-10-15)
+
+<code>Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/ODBC).  Supported versions that are affected are 9.0.0 and prior. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Connectors.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of MySQL Connectors accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Connectors. CVSS 3.1 Base Score 6.5 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L).
+</code>
+
+- [Noah4Puppy/CVE-2024-21262](https://github.com/Noah4Puppy/CVE-2024-21262)
 
 ### CVE-2024-21305 (2024-01-09)
 
@@ -22204,7 +22234,6 @@
 </code>
 
 - [m417z/CVE-2023-36003-POC](https://github.com/m417z/CVE-2023-36003-POC)
-- [baph0m3th/CVE-2023-36003](https://github.com/baph0m3th/CVE-2023-36003)
 
 ### CVE-2023-36025 (2023-11-14)
 
@@ -46139,7 +46168,7 @@
 - [mufidmb38/CVE-2019-2215](https://github.com/mufidmb38/CVE-2019-2215)
 - [nicchongwb/Rootsmart-v2.0](https://github.com/nicchongwb/Rootsmart-v2.0)
 - [CrackerCat/Rootsmart-v2.0](https://github.com/CrackerCat/Rootsmart-v2.0)
-- [enceka/cve-2019-2215-3.18](https://github.com/enceka/cve-2019-2215-3.18)
+- [Enceka/cve-2019-2215-3.18](https://github.com/Enceka/cve-2019-2215-3.18)
 - [elbiazo/CVE-2019-2215](https://github.com/elbiazo/CVE-2019-2215)
 - [stevejubx/CVE-2019-2215](https://github.com/stevejubx/CVE-2019-2215)
 - [willboka/CVE-2019-2215-HuaweiP20Lite](https://github.com/willboka/CVE-2019-2215-HuaweiP20Lite)
