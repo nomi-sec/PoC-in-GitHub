@@ -1772,6 +1772,13 @@
 
 - [DanielMadsenDK/ServiceNow-CVE-2025-11449-CVE-2025-11450-Mitigation-Script](https://github.com/DanielMadsenDK/ServiceNow-CVE-2025-11449-CVE-2025-11450-Mitigation-Script)
 
+### CVE-2025-11554 (2025-10-09)
+
+<code>In Portabilis i-Educar up to 2.9.10 wurde eine Schwachstelle gefunden. Hiervon betroffen ist ein unbekannter Codeblock der Datei app/Http/Controllers/AccessLevelController.php der Komponente User Type Handler. Mit der Manipulation mit unbekannten Daten kann eine insecure inherited permissions-Schwachstelle ausgenutzt werden. Ein Angriff ist aus der Distanz möglich. Die Ausnutzung wurde veröffentlicht und kann verwendet werden.
+</code>
+
+- [m3m0o/portabilis-ieducar-user-type-privilege-escalation](https://github.com/m3m0o/portabilis-ieducar-user-type-privilege-escalation)
+
 ### CVE-2025-20029 (2025-02-05)
 
 <code>Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -6003,7 +6010,11 @@
 ### CVE-2025-55891
 - [terribledactyl/CVE-2025-55891](https://github.com/terribledactyl/CVE-2025-55891)
 
-### CVE-2025-55903
+### CVE-2025-55903 (2025-10-10)
+
+<code>A HTML injection vulnerability exists in Perfex CRM v3.3.1. The application fails to sanitize user input in the &quot;Bill To&quot; address field within the estimate module. As a result, arbitrary HTML can be injected and rendered unescaped in client-facing documents.
+</code>
+
 - [ajansha/CVE-2025-55903](https://github.com/ajansha/CVE-2025-55903)
 
 ### CVE-2025-55971 (2025-10-03)
@@ -6425,7 +6436,11 @@
 
 - [prabhatverma47/CVE-2025-60787](https://github.com/prabhatverma47/CVE-2025-60787)
 
-### CVE-2025-60880
+### CVE-2025-60880 (2025-10-10)
+
+<code>An authenticated stored XSS vulnerability exists in the Bagisto 2.3.6 admin panel's product creation path, allowing an attacker to upload a crafted SVG file containing malicious JavaScript code. This vulnerability can be exploited by an authenticated admin user to execute arbitrary JavaScript in the browser, potentially leading to session hijacking, data theft, or unauthorized actions.
+</code>
+
 - [Shenal01/CVE-2025-60880](https://github.com/Shenal01/CVE-2025-60880)
 
 ### CVE-2025-61183 (2025-10-08)
@@ -38971,7 +38986,7 @@
 - [hxlxmj/Grafxploit](https://github.com/hxlxmj/Grafxploit)
 - [0xSAZZAD/Grafana-CVE-2021-43798](https://github.com/0xSAZZAD/Grafana-CVE-2021-43798)
 - [wezoomagency/GrafXploit](https://github.com/wezoomagency/GrafXploit)
-- [dcryp7/Grafana-8.3-Directory-Traversal](https://github.com/dcryp7/Grafana-8.3-Directory-Traversal)
+- [dav1dsec/Grafana-8.3-Directory-Traversal](https://github.com/dav1dsec/Grafana-8.3-Directory-Traversal)
 - [ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux](https://github.com/ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux)
 - [monke443/CVE-2021-43798](https://github.com/monke443/CVE-2021-43798)
 - [suljov/Grafana-LFI-exploit](https://github.com/suljov/Grafana-LFI-exploit)
