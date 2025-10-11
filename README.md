@@ -1613,7 +1613,11 @@
 
 - [byteReaper77/CVE-2025-9090](https://github.com/byteReaper77/CVE-2025-9090)
 
-### CVE-2025-9196
+### CVE-2025-9196 (2025-10-11)
+
+<code>The Trinity Audio – Text to Speech AI audio player to convert content into audio plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 5.21.0 via the ~/admin/inc/phpinfo.php file that gets created on install. This makes it possible for unauthenticated attackers to extract sensitive data including configuration data.
+</code>
+
 - [MooseLoveti/Trinity-Audio-CVE-Report](https://github.com/MooseLoveti/Trinity-Audio-CVE-Report)
 
 ### CVE-2025-9215 (2025-09-17)
@@ -1716,7 +1720,11 @@
 
 - [MooseLoveti/PagSeguro-Connect-Para-WooCommerce-CVE-Report](https://github.com/MooseLoveti/PagSeguro-Connect-Para-WooCommerce-CVE-Report)
 
-### CVE-2025-10175
+### CVE-2025-10175 (2025-10-11)
+
+<code>The WP Links Page plugin for WordPress is vulnerable to SQL Injection via the 'id' parameter in all versions up to, and including, 4.9.6 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
 - [MooseLoveti/WP-Links-Page-CVE-Report](https://github.com/MooseLoveti/WP-Links-Page-CVE-Report)
 
 ### CVE-2025-10184 (2025-09-23)
@@ -3763,6 +3771,13 @@
 
 - [diegovargasj/CVE-2025-32407](https://github.com/diegovargasj/CVE-2025-32407)
 
+### CVE-2025-32421 (2025-05-14)
+
+<code>Next.js is a React framework for building full-stack web applications. Versions prior to 14.2.24 and 15.1.6 have a race-condition vulnerability. This issue only affects the Pages Router under certain misconfigurations, causing normal endpoints to serve `pageProps` data instead of standard HTML. This issue was patched in versions 15.1.6 and 14.2.24 by stripping the `x-now-route-matches` header from incoming requests. Applications hosted on Vercel's platform are not affected by this issue, as the platform does not cache responses based solely on `200 OK` status without explicit `cache-control` headers. Those who self-host Next.js deployments and are unable to upgrade immediately can mitigate this vulnerability by stripping the `x-now-route-matches` header from all incoming requests at the content development network and setting `cache-control: no-store` for all responses under risk. The maintainers of Next.js strongly recommend only caching responses with explicit cache-control headers.
+</code>
+
+- [hidesec/CVE-2025-32421](https://github.com/hidesec/CVE-2025-32421)
+
 ### CVE-2025-32429 (2025-07-24)
 
 <code>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. In versions 9.4-rc-1 through 16.10.5 and 17.0.0-rc-1 through 17.2.2, it's possible for anyone to inject SQL using the parameter sort of the getdeleteddocuments.vm. It's injected as is as an ORDER BY value. This is fixed in versions 16.10.6 and 17.3.0-rc-1.
@@ -5008,6 +5023,7 @@
 <code>Pterodactyl is a free, open-source game server management panel. Prior to version 1.11.11, using the /locales/locale.json with the locale and namespace query parameters, a malicious actor is able to execute arbitrary code without being authenticated. With the ability to execute arbitrary code it could be used to gain access to the Panel's server, read credentials from the Panel's config, extract sensitive information from the database, access files of servers managed by the panel, etc. This issue has been patched in version 1.11.11. There are no software workarounds for this vulnerability, but use of an external Web Application Firewall (WAF) could help mitigate this attack.
 </code>
 
+- [typicalsmc/CVE-2025-49132-PoC](https://github.com/typicalsmc/CVE-2025-49132-PoC)
 - [Zen-kun04/CVE-2025-49132](https://github.com/Zen-kun04/CVE-2025-49132)
 - [pxxdrobits/CVE-2025-49132](https://github.com/pxxdrobits/CVE-2025-49132)
 - [qiaojojo/CVE-2025-49132_poc](https://github.com/qiaojojo/CVE-2025-49132_poc)
@@ -5096,6 +5112,7 @@
 - [Yuri08loveElaina/CVE-2025-49844](https://github.com/Yuri08loveElaina/CVE-2025-49844)
 - [YuanBenSir/CVE-2025-49844_POC](https://github.com/YuanBenSir/CVE-2025-49844_POC)
 - [Mufti22/CVE-2025-49844-RediShell-Vulnerability-Scanner](https://github.com/Mufti22/CVE-2025-49844-RediShell-Vulnerability-Scanner)
+- [imbas007/CVE-2025-49844-Vulnerability-Scanner](https://github.com/imbas007/CVE-2025-49844-Vulnerability-Scanner)
 
 ### CVE-2025-50000
 - [adiivascu/CVE-2025-50000](https://github.com/adiivascu/CVE-2025-50000)
@@ -6363,6 +6380,7 @@
 </code>
 
 - [Mpokes/CVE-2025-59246-Exploit](https://github.com/Mpokes/CVE-2025-59246-Exploit)
+- [callinston/CVE-2025-59246](https://github.com/callinston/CVE-2025-59246)
 
 ### CVE-2025-59342 (2025-09-17)
 
@@ -6399,6 +6417,7 @@
 
 - [RealtekDotSys/Meteor](https://github.com/RealtekDotSys/Meteor)
 - [GithubKillsMyOpsec/CVE-2025-59489-POC](https://github.com/GithubKillsMyOpsec/CVE-2025-59489-POC)
+- [taptap/cve-2025-59489](https://github.com/taptap/cve-2025-59489)
 
 ### CVE-2025-59712 (2025-09-19)
 
@@ -6476,6 +6495,13 @@
 </code>
 
 - [fa1consec/cve_2025_61622_poc](https://github.com/fa1consec/cve_2025_61622_poc)
+
+### CVE-2025-61777 (2025-10-06)
+
+<code>Flag Forge is a Capture The Flag (CTF) platform. Starting in version 2.0.0 and prior to version 2.3.2, the `/api/admin/badge-templates` (GET) and `/api/admin/badge-templates/create` (POST) endpoints previously allowed access without authentication or authorization. This could have enabled unauthorized users to retrieve all badge templates and sensitive metadata (createdBy, createdAt, updatedAt) and/or create arbitrary badge templates in the database. This could lead to data exposure, database pollution, or abuse of the badge system. The issue has been fixed in FlagForge v2.3.2. GET, POST, UPDATE, and DELETE endpoints now require authentication. Authorization checks ensure only admins can access and modify badge templates. No reliable workarounds are available.
+</code>
+
+- [0x0w1z/CVE-2025-61777](https://github.com/0x0w1z/CVE-2025-61777)
 
 ### CVE-2025-61882 (2025-10-05)
 
@@ -14960,6 +14986,7 @@
 - [CodePontiff/next_js_poisoning](https://github.com/CodePontiff/next_js_poisoning)
 - [Lercas/CVE-2024-46982](https://github.com/Lercas/CVE-2024-46982)
 - [melmathari/CVE-2024-46982-NUCLEI](https://github.com/melmathari/CVE-2024-46982-NUCLEI)
+- [hidesec/CVE-2025-32421](https://github.com/hidesec/CVE-2025-32421)
 
 ### CVE-2024-46986 (2024-09-18)
 
@@ -16962,6 +16989,13 @@
 </code>
 
 - [tania-silva/CVE-2024-57972](https://github.com/tania-silva/CVE-2024-57972)
+
+### CVE-2024-58239 (2025-08-22)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\ntls: stop recv() if initial process_rx_list gave us non-DATA\n\nIf we have a non-DATA record on the rx_list and another record of the\nsame type still on the queue, we will end up merging them:\n - process_rx_list copies the non-DATA record\n - we start the loop and process the first available record since it's\n   of the same type\n - we break out of the loop since the record was not DATA\n\nJust check the record type and jump to the end in case process_rx_list\ndid some work.
+</code>
+
+- [khoatran107/cve-2024-58239](https://github.com/khoatran107/cve-2024-58239)
 
 ### CVE-2024-415770
 - [muhmad-umair/CVE-2024-415770-ssrf-rce](https://github.com/muhmad-umair/CVE-2024-415770-ssrf-rce)
