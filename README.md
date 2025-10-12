@@ -1475,7 +1475,7 @@
 
 ### CVE-2025-8220 (2025-07-27)
 
-<code>Es wurde eine kritische Schwachstelle in Engeman Web bis 12.0.0.1 entdeckt. Dabei betrifft es einen unbekannter Codeteil der Datei /Login/RecoveryPass der Komponente Password Recovery Page. Durch das Manipulieren des Arguments LanguageCombobox durch Cookie kann eine sql injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+<code>Eine Schwachstelle wurde in Engeman Web up to 12.0.0.2 gefunden. Es betrifft eine unbekannte Funktion der Datei /Login/RecoveryPass der Komponente Password Recovery Page. Durch Manipulieren des Arguments LanguageCombobox durch Cookie kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann remote ausgeführt werden. Der Exploit ist öffentlich verfügbar und könnte genutzt werden. Ein Aktualisieren auf die Version 12.0.0.3 vermag dieses Problem zu lösen. Ein Upgrade der betroffenen Komponente wird empfohlen.
 </code>
 
 - [m3m0o/engeman-web-language-combobox-sqli](https://github.com/m3m0o/engeman-web-language-combobox-sqli)
@@ -1778,6 +1778,7 @@
 </code>
 
 - [rxerium/CVE-2025-11371](https://github.com/rxerium/CVE-2025-11371)
+- [callinston/CVE-2025-11371](https://github.com/callinston/CVE-2025-11371)
 
 ### CVE-2025-11449 (2025-10-10)
 
@@ -11757,6 +11758,7 @@
 - [0xDTC/js2py-Sandbox-Escape-CVE-2024-28397-RCE](https://github.com/0xDTC/js2py-Sandbox-Escape-CVE-2024-28397-RCE)
 - [nelissandro/CVE-2024-28397-Js2Py-RCE](https://github.com/nelissandro/CVE-2024-28397-Js2Py-RCE)
 - [vitaciminIPI/CVE-2024-28397-RCE](https://github.com/vitaciminIPI/CVE-2024-28397-RCE)
+- [0xPadme/CVE-2024-28397-Reverse-Shell](https://github.com/0xPadme/CVE-2024-28397-Reverse-Shell)
 
 ### CVE-2024-28515 (2024-04-03)
 
@@ -28795,7 +28797,7 @@
 <code>A vulnerability in the component process.php of QR Code Generator v5.2.7 allows attackers to perform directory traversal.
 </code>
 
-- [n0lsec1337/CVE-2022-24992](https://github.com/n0lsec1337/CVE-2022-24992)
+- [esistferry/CVE-2022-24992](https://github.com/esistferry/CVE-2022-24992)
 
 ### CVE-2022-24999 (2022-11-26)
 
