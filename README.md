@@ -1860,6 +1860,7 @@
 - [Denyningbow/rtf-ctf-cve-2025-21298](https://github.com/Denyningbow/rtf-ctf-cve-2025-21298)
 - [B1ack4sh/Blackash-CVE-2025-21298](https://github.com/B1ack4sh/Blackash-CVE-2025-21298)
 - [fy-poc/full-poc-CVE-2025_21298](https://github.com/fy-poc/full-poc-CVE-2025_21298)
+- [Arkha-Corvus/LetsDefend-SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298-](https://github.com/Arkha-Corvus/LetsDefend-SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298-)
 
 ### CVE-2025-21333 (2025-01-14)
 
@@ -3933,6 +3934,7 @@
 - [ricardomaia/CVE-2025-32463](https://github.com/ricardomaia/CVE-2025-32463)
 - [shazed-x/CVE-2025-32463](https://github.com/shazed-x/CVE-2025-32463)
 - [cybershaolin47/CVE-2025-32463_POC](https://github.com/cybershaolin47/CVE-2025-32463_POC)
+- [cyberajju/CVE-2025-32463](https://github.com/cyberajju/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -33829,6 +33831,13 @@
 - [raymontag/cve-2021-1782](https://github.com/raymontag/cve-2021-1782)
 - [synacktiv/CVE-2021-1782](https://github.com/synacktiv/CVE-2021-1782)
 
+### CVE-2021-1883 (2021-09-08)
+
+<code>This issue was addressed with improved checks. This issue is fixed in Security Update 2021-004 Mojave, iOS 14.5 and iPadOS 14.5, watchOS 7.4, Security Update 2021-003 Catalina, tvOS 14.5, macOS Big Sur 11.3. Processing maliciously crafted server messages may lead to heap corruption.
+</code>
+
+- [gabe-k/CVE-2021-1883](https://github.com/gabe-k/CVE-2021-1883)
+
 ### CVE-2021-1905 (2021-05-07)
 
 <code>Possible use after free due to improper handling of memory mapping of multiple processes simultaneously. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables
@@ -39522,7 +39531,6 @@
 - [moshuum/tf-log4j-aws-poc](https://github.com/moshuum/tf-log4j-aws-poc)
 - [jaehnri/CVE-2021-44228](https://github.com/jaehnri/CVE-2021-44228)
 - [ra890927/Log4Shell-CVE-2021-44228-Demo](https://github.com/ra890927/Log4Shell-CVE-2021-44228-Demo)
-- [vidrez/Ethical-Hacking-Report-Log4j](https://github.com/vidrez/Ethical-Hacking-Report-Log4j)
 - [vino-theva/CVE-2021-44228](https://github.com/vino-theva/CVE-2021-44228)
 - [tharindudh/tharindudh-Log4j-Vulnerability-in-Ghidra-tool-CVE-2021-44228](https://github.com/tharindudh/tharindudh-Log4j-Vulnerability-in-Ghidra-tool-CVE-2021-44228)
 - [eurogig/jankybank](https://github.com/eurogig/jankybank)
@@ -46678,7 +46686,7 @@
 - [panzouh/Docker-Runc-Exploit](https://github.com/panzouh/Docker-Runc-Exploit)
 - [RyanNgWH/CVE-2019-5736-POC](https://github.com/RyanNgWH/CVE-2019-5736-POC)
 - [Lee-SungYoung/cve-2019-5736-study](https://github.com/Lee-SungYoung/cve-2019-5736-study)
-- [chosam2/cve-2019-5736-poc](https://github.com/chosam2/cve-2019-5736-poc)
+- [h-wookie/cve-2019-5736-poc](https://github.com/h-wookie/cve-2019-5736-poc)
 - [epsteina16/Docker-Escape-Miner](https://github.com/epsteina16/Docker-Escape-Miner)
 - [geropl/CVE-2019-5736](https://github.com/geropl/CVE-2019-5736)
 - [GiverOfGifts/CVE-2019-5736-Custom-Runtime](https://github.com/GiverOfGifts/CVE-2019-5736-Custom-Runtime)
@@ -54382,6 +54390,7 @@
 - [Cr4zyD14m0nd137/Lab-for-cve-2018-15133](https://github.com/Cr4zyD14m0nd137/Lab-for-cve-2018-15133)
 - [uartu0/nodejshell](https://github.com/uartu0/nodejshell)
 - [kylew1004/cve-2017-5941-poc-docker-lab](https://github.com/kylew1004/cve-2017-5941-poc-docker-lab)
+- [cybersploit-tech/RCE-NodeJs](https://github.com/cybersploit-tech/RCE-NodeJs)
 
 ### CVE-2017-6008 (2017-09-13)
 
