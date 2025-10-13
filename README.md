@@ -5947,13 +5947,6 @@
 - [mrk336/CVE-2025-55234](https://github.com/mrk336/CVE-2025-55234)
 - [mrk336/Patch-the-Path-CVE-2025-55234-Detection-Defense](https://github.com/mrk336/Patch-the-Path-CVE-2025-55234-Detection-Defense)
 
-### CVE-2025-55241 (2025-09-04)
-
-<code>Azure Entra ID Elevation of Privilege Vulnerability
-</code>
-
-- [Spanky-McSpank/CVE-2025-55241-Internal-Audit](https://github.com/Spanky-McSpank/CVE-2025-55241-Internal-Audit)
-
 ### CVE-2025-55287 (2025-08-18)
 
 <code>Genealogy is a family tree PHP application. Prior to 4.4.0, Authenticated Stored Cross-Site Scripting (XSS) vulnerability was identified in the Genealogy application. Authenticated attackers could run arbitrary JavaScript in another user’s session, leading to session hijacking, data theft, and UI manipulation. This vulnerability is fixed in 4.4.0.
@@ -29066,13 +29059,6 @@
 </code>
 
 - [shoucheng3/alibaba__one-java-agent_CVE-2022-25842_0-0-1](https://github.com/shoucheng3/alibaba__one-java-agent_CVE-2022-25842_0-0-1)
-
-### CVE-2022-25844 (2022-05-01)
-
-<code>The package angular after 1.7.0 are vulnerable to Regular Expression Denial of Service (ReDoS) by providing a custom locale rule that makes it possible to assign the parameter in posPre: ' '.repeat() of NUMBER_FORMATS.PATTERNS[1].posPre with a very high value. **Note:** 1) This package has been deprecated and is no longer maintained. 2) The vulnerable versions are 1.7.0 and higher.
-</code>
-
-- [ssolucionesdefontaneria-debug/CVE-2022-25844](https://github.com/ssolucionesdefontaneria-debug/CVE-2022-25844)
 
 ### CVE-2022-25845 (2022-06-10)
 
