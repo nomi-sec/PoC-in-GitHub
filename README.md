@@ -3044,6 +3044,7 @@
 
 - [kk12-30/CVE-2025-27817](https://github.com/kk12-30/CVE-2025-27817)
 - [iSee857/CVE-2025-27817](https://github.com/iSee857/CVE-2025-27817)
+- [oriolrius/kafka-keycloak-oauth](https://github.com/oriolrius/kafka-keycloak-oauth)
 
 ### CVE-2025-27840 (2025-03-08)
 
@@ -6525,6 +6526,7 @@
 </code>
 
 - [dgl/cve-2025-61984-poc](https://github.com/dgl/cve-2025-61984-poc)
+- [ThanhCT-CyX/Test-CVE-2025-61984](https://github.com/ThanhCT-CyX/Test-CVE-2025-61984)
 
 ### CVE-2025-492025
 - [ImTheCopilotNow/CVE-2025-492025](https://github.com/ImTheCopilotNow/CVE-2025-492025)
@@ -14448,6 +14450,7 @@
 - [Snizi/Moodle-CVE-2024-43425-Exploit](https://github.com/Snizi/Moodle-CVE-2024-43425-Exploit)
 - [aninfosec/CVE-2024-43425-Poc](https://github.com/aninfosec/CVE-2024-43425-Poc)
 - [aayush256-sys/Moodle-authenticated-RCE](https://github.com/aayush256-sys/Moodle-authenticated-RCE)
+- [Tnot123/cve-2024-43425](https://github.com/Tnot123/cve-2024-43425)
 
 ### CVE-2024-43451 (2024-11-12)
 
@@ -28099,6 +28102,7 @@
 - [Nosie12/fire-wall-server](https://github.com/Nosie12/fire-wall-server)
 - [salo-404/firewall](https://github.com/salo-404/firewall)
 - [shoucheng3/spring-projects__spring-framework_CVE-2022-22965_5-2-19-RELEASE](https://github.com/shoucheng3/spring-projects__spring-framework_CVE-2022-22965_5-2-19-RELEASE)
+- [Toph404/telstra-cyber-analyst-job-simulation](https://github.com/Toph404/telstra-cyber-analyst-job-simulation)
 
 ### CVE-2022-22966 (2022-04-14)
 
