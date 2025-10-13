@@ -1770,7 +1770,6 @@
 <code>Type confusion in V8 in Google Chrome prior to 140.0.7339.185 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
 </code>
 
-- [samus4vic/CVE-2025-10585-The-Chrome-V8-Zero-Day](https://github.com/samus4vic/CVE-2025-10585-The-Chrome-V8-Zero-Day)
 - [AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day](https://github.com/AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day)
 
 ### CVE-2025-11077 (2025-09-27)
@@ -1779,6 +1778,13 @@
 </code>
 
 - [byteReaper77/CVE-2025-11077](https://github.com/byteReaper77/CVE-2025-11077)
+
+### CVE-2025-11171 (2025-10-08)
+
+<code>The Chartify – WordPress Chart Plugin for WordPress is vulnerable to Missing Authentication for Critical Function in all versions up to, and including, 3.5.9. This is due to the plugin registering an unauthenticated AJAX action that dispatches to admin-class methods based on a request parameter, without any nonce or capability checks. This makes it possible for unauthenticated attackers to execute administrative functions via the wp-admin/admin-ajax.php endpoint granted they can identify callable method names.
+</code>
+
+- [SnailSploit/CVE-2025-11171---GitHub-Security-Advisory](https://github.com/SnailSploit/CVE-2025-11171---GitHub-Security-Advisory)
 
 ### CVE-2025-11371 (2025-10-09)
 
@@ -6381,13 +6387,6 @@
 
 - [quetuan03/CVE-2025-58789](https://github.com/quetuan03/CVE-2025-58789)
 
-### CVE-2025-59246 (2025-10-09)
-
-<code>Azure Entra ID Elevation of Privilege Vulnerability
-</code>
-
-- [Mpokes/CVE-2025-59246-Exploit](https://github.com/Mpokes/CVE-2025-59246-Exploit)
-
 ### CVE-2025-59342 (2025-09-17)
 
 <code>esm.sh is a nobuild content delivery network(CDN) for modern web development. In 136 and earlier, a path-traversal flaw in the handling of the X-Zone-Id HTTP header allows an attacker to cause the application to write files outside the intended storage location. The header value is used to build a filesystem path but is not properly canonicalized or restricted to the application’s storage base directory. As a result, supplying ../ sequences in X-Zone-Id causes files to be written to arbitrary directories.
@@ -6519,6 +6518,13 @@
 - [Sachinart/CVE-2025-61882](https://github.com/Sachinart/CVE-2025-61882)
 - [B1ack4sh/Blackash-CVE-2025-61882](https://github.com/B1ack4sh/Blackash-CVE-2025-61882)
 - [zerozenxlabs/CVE-2025-61882-Oracle-EBS](https://github.com/zerozenxlabs/CVE-2025-61882-Oracle-EBS)
+
+### CVE-2025-61884 (2025-10-12)
+
+<code>Vulnerability in the Oracle Configurator product of Oracle E-Business Suite (component: Runtime UI).  Supported versions that are affected are 12.2.3-12.2.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Configurator.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Configurator accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+</code>
+
+- [B1ack4sh/Blackash-CVE-2025-61884](https://github.com/B1ack4sh/Blackash-CVE-2025-61884)
 
 ### CVE-2025-61984 (2025-10-06)
 
