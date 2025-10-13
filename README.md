@@ -4261,6 +4261,13 @@
 
 - [byteReaper77/CVE-2025-39866](https://github.com/byteReaper77/CVE-2025-39866)
 
+### CVE-2025-39913 (2025-10-01)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\ntcp_bpf: Call sk_msg_free() when tcp_bpf_send_verdict() fails to allocate psock-&gt;cork.\n\nsyzbot reported the splat below. [0]\n\nThe repro does the following:\n\n  1. Load a sk_msg prog that calls bpf_msg_cork_bytes(msg, cork_bytes)\n  2. Attach the prog to a SOCKMAP\n  3. Add a socket to the SOCKMAP\n  4. Activate fault injection\n  5. Send data less than cork_bytes\n\nAt 5., the data is carried over to the next sendmsg() as it is\nsmaller than the cork_bytes specified by bpf_msg_cork_bytes().\n\nThen, tcp_bpf_send_verdict() tries to allocate psock-&gt;cork to hold\nthe data, but this fails silently due to fault injection + __GFP_NOWARN.\n\nIf the allocation fails, we need to revert the sk-&gt;sk_forward_alloc\nchange done by sk_msg_alloc().\n\nLet's call sk_msg_free() when tcp_bpf_send_verdict fails to allocate\npsock-&gt;cork.\n\nThe &quot;*copied&quot; also needs to be updated such that a proper error can\nbe returned to the caller, sendmsg. It fails to allocate psock-&gt;cork.\nNothing has been corked so far, so this patch simply sets &quot;*copied&quot;\nto 0.\n\n[0]:\nWARNING: net/ipv4/af_inet.c:156 at inet_sock_destruct+0x623/0x730 net/ipv4/af_inet.c:156, CPU#1: syz-executor/5983\nModules linked in:\nCPU: 1 UID: 0 PID: 5983 Comm: syz-executor Not tainted syzkaller #0 PREEMPT(full)\nHardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 07/12/2025\nRIP: 0010:inet_sock_destruct+0x623/0x730 net/ipv4/af_inet.c:156\nCode: 0f 0b 90 e9 62 fe ff ff e8 7a db b5 f7 90 0f 0b 90 e9 95 fe ff ff e8 6c db b5 f7 90 0f 0b 90 e9 bb fe ff ff e8 5e db b5 f7 90 &lt;0f&gt; 0b 90 e9 e1 fe ff ff 89 f9 80 e1 07 80 c1 03 38 c1 0f 8c 9f fc\nRSP: 0018:ffffc90000a08b48 EFLAGS: 00010246\nRAX: ffffffff8a09d0b2 RBX: dffffc0000000000 RCX: ffff888024a23c80\nRDX: 0000000000000100 RSI: 0000000000000fff RDI: 0000000000000000\nRBP: 0000000000000fff R08: ffff88807e07c627 R09: 1ffff1100fc0f8c4\nR10: dffffc0000000000 R11: ffffed100fc0f8c5 R12: ffff88807e07c380\nR13: dffffc0000000000 R14: ffff88807e07c60c R15: 1ffff1100fc0f872\nFS:  00005555604c4500(0000) GS:ffff888125af1000(0000) knlGS:0000000000000000\nCS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033\nCR2: 00005555604df5c8 CR3: 0000000032b06000 CR4: 00000000003526f0\nCall Trace:\n &lt;IRQ&gt;\n __sk_destruct+0x86/0x660 net/core/sock.c:2339\n rcu_do_batch kernel/rcu/tree.c:2605 [inline]\n rcu_core+0xca8/0x1770 kernel/rcu/tree.c:2861\n handle_softirqs+0x286/0x870 kernel/softirq.c:579\n __do_softirq kernel/softirq.c:613 [inline]\n invoke_softirq kernel/softirq.c:453 [inline]\n __irq_exit_rcu+0xca/0x1f0 kernel/softirq.c:680\n irq_exit_rcu+0x9/0x30 kernel/softirq.c:696\n instr_sysvec_apic_timer_interrupt arch/x86/kernel/apic/apic.c:1052 [inline]\n sysvec_apic_timer_interrupt+0xa6/0xc0 arch/x86/kernel/apic/apic.c:1052\n &lt;/IRQ&gt;
+</code>
+
+- [byteReaper77/CVE-2025-39913](https://github.com/byteReaper77/CVE-2025-39913)
+
 ### CVE-2025-39946 (2025-10-04)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\ntls: make sure to abort the stream if headers are bogus\n\nNormally we wait for the socket to buffer up the whole record\nbefore we service it. If the socket has a tiny buffer, however,\nwe read out the data sooner, to prevent connection stalls.\nMake sure that we abort the connection when we find out late\nthat the record is actually invalid. Retrying the parsing is\nfine in itself but since we copy some more data each time\nbefore we parse we can overflow the allocated skb space.\n\nConstructing a scenario in which we're under pressure without\nenough data in the socket to parse the length upfront is quite\nhard. syzbot figured out a way to do this by serving us the header\nin small OOB sends, and then filling in the recvbuf with a large\nnormal send.\n\nMake sure that tls_rx_msg_size() aborts strp, if we reach\nan invalid record there's really no way to recover.
@@ -6247,6 +6254,9 @@
 
 - [semaja22/CVE-2025-57176](https://github.com/semaja22/CVE-2025-57176)
 
+### CVE-2025-57199
+- [xchg-rax-rax/AvTech-PoCs](https://github.com/xchg-rax-rax/AvTech-PoCs)
+
 ### CVE-2025-57389 (2025-10-01)
 
 <code>A reflected cross-site scripted (XSS) vulnerability in the /admin/system/packages endpoint of Luci OpenWRT v18.06.2 allows attackers to execute arbitrary Javascript in the context of a user's browser via a crafted payload.
@@ -6423,6 +6433,7 @@
 - [RealtekDotSys/Meteor](https://github.com/RealtekDotSys/Meteor)
 - [GithubKillsMyOpsec/CVE-2025-59489-POC](https://github.com/GithubKillsMyOpsec/CVE-2025-59489-POC)
 - [taptap/cve-2025-59489](https://github.com/taptap/cve-2025-59489)
+- [AdriianFdz/Exploit-CVE-2025-59489](https://github.com/AdriianFdz/Exploit-CVE-2025-59489)
 
 ### CVE-2025-59712 (2025-09-19)
 
@@ -6513,7 +6524,7 @@
 <code>Vulnerability in the Oracle Concurrent Processing product of Oracle E-Business Suite (component: BI Publisher Integration).  Supported versions that are affected are 12.2.3-12.2.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Concurrent Processing.  Successful attacks of this vulnerability can result in takeover of Oracle Concurrent Processing. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [rxerium/CVE-2025-61882](https://github.com/rxerium/CVE-2025-61882)
+- [rxerium/CVE-2025-61882-CVE-2025-61884](https://github.com/rxerium/CVE-2025-61882-CVE-2025-61884)
 - [watchtowrlabs/watchTowr-vs-Oracle-E-Business-Suite-CVE-2025-61882](https://github.com/watchtowrlabs/watchTowr-vs-Oracle-E-Business-Suite-CVE-2025-61882)
 - [Sachinart/CVE-2025-61882](https://github.com/Sachinart/CVE-2025-61882)
 - [B1ack4sh/Blackash-CVE-2025-61882](https://github.com/B1ack4sh/Blackash-CVE-2025-61882)
@@ -7427,13 +7438,6 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-3293-Poc](https://github.com/truonghuuphuc/CVE-2024-3293-Poc)
-
-### CVE-2024-3393 (2024-12-27)
-
-<code>A Denial of Service vulnerability in the DNS Security feature of Palo Alto Networks PAN-OS software allows an unauthenticated attacker to send a malicious packet through the data plane of the firewall that reboots the firewall. Repeated attempts to trigger this condition will cause the firewall to enter maintenance mode.
-</code>
-
-- [FelixFoxf/-CVE-2024-3393](https://github.com/FelixFoxf/-CVE-2024-3393)
 
 ### CVE-2024-3400 (2024-04-12)
 
@@ -13853,6 +13857,7 @@
 
 - [theMcSam/CVE-2024-39930-PoC](https://github.com/theMcSam/CVE-2024-39930-PoC)
 - [alexander47777/-CVE-2024-39930](https://github.com/alexander47777/-CVE-2024-39930)
+- [laachy/CVE-2024-39930-ptrace-detection-mitigation](https://github.com/laachy/CVE-2024-39930-ptrace-detection-mitigation)
 
 ### CVE-2024-39943 (2024-07-04)
 
