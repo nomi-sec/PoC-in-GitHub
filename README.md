@@ -2402,7 +2402,7 @@
 - [Mattb709/CVE-2025-24813-Scanner](https://github.com/Mattb709/CVE-2025-24813-Scanner)
 - [Erosion2020/CVE-2025-24813-vulhub](https://github.com/Erosion2020/CVE-2025-24813-vulhub)
 - [hakankarabacak/CVE-2025-24813](https://github.com/hakankarabacak/CVE-2025-24813)
-- [Eduardo-hardvester/CVE-2025-24813](https://github.com/Eduardo-hardvester/CVE-2025-24813)
+- [ThHardvester/CVE-2025-24813](https://github.com/ThHardvester/CVE-2025-24813)
 - [fatkz/CVE-2025-24813](https://github.com/fatkz/CVE-2025-24813)
 - [mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-](https://github.com/mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-)
 - [x1ongsec/CVE-2025-24813](https://github.com/x1ongsec/CVE-2025-24813)
@@ -2514,6 +2514,14 @@
 
 - [RandomRobbieBF/CVE-2025-25163](https://github.com/RandomRobbieBF/CVE-2025-25163)
 - [RootHarpy/CVE-2025-25163-Nuclei-Template](https://github.com/RootHarpy/CVE-2025-25163-Nuclei-Template)
+
+### CVE-2025-25198 (2025-02-12)
+
+<code>mailcow: dockerized is an open source groupware/email suite based on docker. Prior to version 2025-01a, a vulnerability in mailcow's password reset functionality allows an attacker to manipulate the `Host HTTP` header to generate a password reset link pointing to an attacker-controlled domain. This can lead to account takeover if a user clicks the poisoned link. Version 2025-01a contains a patch. As a workaround, deactivate the password reset functionality by clearing `Notification email sender` and `Notification email subject` under System -&gt; Configuration -&gt; Options -&gt; Password Settings.
+</code>
+
+- [Groppoxx/CVE-2025-25198-PoC](https://github.com/Groppoxx/CVE-2025-25198-PoC)
+- [enzocipher/CVE-2025-25198-PoC](https://github.com/enzocipher/CVE-2025-25198-PoC)
 
 ### CVE-2025-25231 (2025-08-11)
 
@@ -55190,7 +55198,6 @@
 - [joelindra/Argus](https://github.com/joelindra/Argus)
 - [K3ysTr0K3R/CVE-2017-9841-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-9841-EXPLOIT)
 - [drcrypterdotru/PHPUnit-GoScan](https://github.com/drcrypterdotru/PHPUnit-GoScan)
-- [Pwdnx1337/CVE-2017-9841](https://github.com/Pwdnx1337/CVE-2017-9841)
 
 ### CVE-2017-9934 (2017-07-17)
 
