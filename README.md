@@ -6397,6 +6397,13 @@
 
 - [quetuan03/CVE-2025-58789](https://github.com/quetuan03/CVE-2025-58789)
 
+### CVE-2025-59246 (2025-10-09)
+
+<code>Azure Entra ID Elevation of Privilege Vulnerability
+</code>
+
+- [callinston/CVE-2025-59246](https://github.com/callinston/CVE-2025-59246)
+
 ### CVE-2025-59342 (2025-09-17)
 
 <code>esm.sh is a nobuild content delivery network(CDN) for modern web development. In 136 and earlier, a path-traversal flaw in the handling of the X-Zone-Id HTTP header allows an attacker to cause the application to write files outside the intended storage location. The header value is used to build a filesystem path but is not properly canonicalized or restricted to the application’s storage base directory. As a result, supplying ../ sequences in X-Zone-Id causes files to be written to arbitrary directories.
@@ -55451,6 +55458,7 @@
 
 - [skelsec/CVE-2017-12542](https://github.com/skelsec/CVE-2017-12542)
 - [sk1dish/ilo4-rce-vuln-scanner](https://github.com/sk1dish/ilo4-rce-vuln-scanner)
+- [VijayShankar22/CVE-2017-12542](https://github.com/VijayShankar22/CVE-2017-12542)
 
 ### CVE-2017-12561 (2018-02-15)
 
