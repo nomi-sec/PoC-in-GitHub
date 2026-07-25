@@ -91,13 +91,6 @@
 
 - [HORKimhab/CVE-2026-0542](https://github.com/HORKimhab/CVE-2026-0542)
 
-### CVE-2026-0560 (2026-03-29)
-
-<code>A Server-Side Request Forgery (SSRF) vulnerability exists in parisneo/lollms versions prior to 2.2.0, specifically in the `/api/files/export-content` endpoint. The `_download_image_to_temp()` function in `backend/routers/files.py` fails to validate user-controlled URLs, allowing attackers to make arbitrary HTTP requests to internal services and cloud metadata endpoints. This vulnerability can lead to internal network access, cloud metadata access, information disclosure, port scanning, and potentially remote code execution.
-</code>
-
-- [Max78000/CVE-2026-0560-lollms](https://github.com/Max78000/CVE-2026-0560-lollms)
-
 ### CVE-2026-0594 (2026-01-14)
 
 <code>The List Site Contributors plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'alpha' parameter in versions up to, and including, 1.1.8 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
@@ -323,13 +316,6 @@
 </code>
 
 - [itsthalisman/cve-2026-3359-exp](https://github.com/itsthalisman/cve-2026-3359-exp)
-
-### CVE-2026-3437 (2026-03-03)
-
-<code>An improper restriction of operations within the bounds of a memory buffer vulnerability in Portwell Engineering Toolkits version 4.8.2 could allow a local authenticated attacker to read and write to arbitrary memory via the Portwell Engineering Toolkits driver. Successful exploitation of this vulnerability could result in escalation of privileges or cause a denial-of-service condition.
-</code>
-
-- [tihomirocrew/portwell-lpe](https://github.com/tihomirocrew/portwell-lpe)
 
 ### CVE-2026-3576 (2026-07-11)
 
@@ -678,13 +664,6 @@
 - [0xsha/CVE-2026-6307](https://github.com/0xsha/CVE-2026-6307)
 - [J4ck3LSyN-Gen2/CVE-2026-6307-Longinus](https://github.com/J4ck3LSyN-Gen2/CVE-2026-6307-Longinus)
 
-### CVE-2026-6330 (2026-06-25)
-
-<code>The ML-KEM ARM64 NEON ciphertext comparison only compares half of the input, breaking the Fujisaki-Okamoto transform's implicit rejection and weakening IND-CCA2 security on that code path. The constant-time comparison effectively ignored part of the re-encrypted ciphertext, so a decapsulating party could fail to detect a manipulated ciphertext and proceed without the standard's required implicit rejection.
-</code>
-
-- [007bsd/ml-kem-key-recovery](https://github.com/007bsd/ml-kem-key-recovery)
-
 ### CVE-2026-6421 (2026-04-17)
 
 <code>A vulnerability has been found in Mobatek MobaXterm Home Edition up to 26.1. This affects an unknown part in the library msimg32.dll. The manipulation leads to uncontrolled search path. An attack has to be approached locally. The attack is considered to have high complexity. It is indicated that the exploitability is difficult. The exploit has been disclosed to the public and may be used. Upgrading to version 26.2 is able to mitigate this issue. It is suggested to upgrade the affected component. The vendor was contacted early, responded in a very professional manner and quickly released a fixed version of the affected product.
@@ -705,6 +684,13 @@
 </code>
 
 - [jackalkarlos/EvilAhenk](https://github.com/jackalkarlos/EvilAhenk)
+
+### CVE-2026-6664 (2026-05-09)
+
+<code>An integer overflow in network packet parsing code in PgBouncer before 1.25.2 bypasses a boundary check and can lead to a crash. An unauthenticated remote attacker can crash PgBouncer with a malformed SCRAM authentication packet.
+</code>
+
+- [nicolasjulian/bouncer-overflow](https://github.com/nicolasjulian/bouncer-overflow)
 
 ### CVE-2026-6741 (2026-04-27)
 
@@ -1378,6 +1364,13 @@
 
 - [0xBlackash/CVE-2026-12485](https://github.com/0xBlackash/CVE-2026-12485)
 
+### CVE-2026-12960 (2026-07-03)
+
+<code>An Improper Export of Android Application Components vulnerability in ASUS Router App allows a third-party application on the same device to send a crafted Intent that causes ASUS Router App to open an specified URL.\nRefer to the '\nSecurity Update for ASUS Router Android App ' section on the ASUS Security Advisory for more information.
+</code>
+
+- [l0lsec/CVE-2026-12960](https://github.com/l0lsec/CVE-2026-12960)
+
 ### CVE-2026-13001 (2026-07-14)
 
 <code>The Podlove Podcast Publisher plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'podlove_handle_cache_files' function in all versions up to, and including, 4.5.1. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -1426,6 +1419,7 @@
 ### CVE-2026-14266
 - [hg0434hongzh0/CVE-2026-14266](https://github.com/hg0434hongzh0/CVE-2026-14266)
 - [4minx/CVE-2026-14266](https://github.com/4minx/CVE-2026-14266)
+- [liyuxuan504-byte/CVE-2026-14266](https://github.com/liyuxuan504-byte/CVE-2026-14266)
 
 ### CVE-2026-14382 (2026-07-01)
 
@@ -2576,7 +2570,6 @@
 - [kinryulabs/rootpacket-cve-2026-31431](https://github.com/kinryulabs/rootpacket-cve-2026-31431)
 - [SugiB3o/CVE-2026-31431](https://github.com/SugiB3o/CVE-2026-31431)
 - [jihwan77/Linux-Kernel-Copy-Fail-CVE-2026-31431-](https://github.com/jihwan77/Linux-Kernel-Copy-Fail-CVE-2026-31431-)
-- [LeoxSoft/CVE-2026-31431](https://github.com/LeoxSoft/CVE-2026-31431)
 
 ### CVE-2026-31525 (2026-04-22)
 
@@ -3558,6 +3551,7 @@
 
 - [mawussid/CVE-2026-41651-Python](https://github.com/mawussid/CVE-2026-41651-Python)
 - [Lutfifakee-Project/CVE-2026-41651](https://github.com/Lutfifakee-Project/CVE-2026-41651)
+- [0xDVRK/CVE-2026-41651](https://github.com/0xDVRK/CVE-2026-41651)
 
 ### CVE-2026-41729 (2026-06-09)
 
@@ -5202,6 +5196,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-50522](https://github.com/HORKimhab/CVE-2026-50522)
+- [4minx/CVE-2026-50522](https://github.com/4minx/CVE-2026-50522)
 
 ### CVE-2026-50656 (2026-06-16)
 
@@ -5455,6 +5450,7 @@
 </code>
 
 - [aniqfakhrul/CVE-2026-54121](https://github.com/aniqfakhrul/CVE-2026-54121)
+- [0xBlackash/CVE-2026-54121](https://github.com/0xBlackash/CVE-2026-54121)
 
 ### CVE-2026-54161
 - [ja-errorpro/CVE-2026-54161](https://github.com/ja-errorpro/CVE-2026-54161)
@@ -5553,6 +5549,13 @@
 </code>
 
 - [izxci/CVE-2026-54807](https://github.com/izxci/CVE-2026-54807)
+
+### CVE-2026-54900 (2026-06-30)
+
+<code>Oj (Optimized JSON) is a JSON parser and Object marshaller packaged as a Ruby gem. In versions prior to 3.17.2, when in usual mode with create_id enabled, Oj::Parser#parse is vulnerable to heap corruption via a negative-size memcpy. When a JSON object key is exactly 65,535 bytes long, an integer truncation in form_attr (usual.c:63) converts the length to -1 before passing it to memcpy. This causes memcpy to copy SIZE_MAX bytes (interpreted as a huge size_t), corrupting heap memory and crashing the process. The issue has been fixed in version 3.17.2.
+</code>
+
+- [HORKimhab/CVE-2026-54900](https://github.com/HORKimhab/CVE-2026-54900)
 
 ### CVE-2026-54992 (2026-07-14)
 
@@ -5933,6 +5936,7 @@
 - [razureink/cve-2026-63030_60137-wordpress_rce_reproduction](https://github.com/razureink/cve-2026-63030_60137-wordpress_rce_reproduction)
 - [Giangdurian/CVE-2026-63030-CVE-2026-60137](https://github.com/Giangdurian/CVE-2026-63030-CVE-2026-60137)
 - [shinthink/CVE-2026-63030](https://github.com/shinthink/CVE-2026-63030)
+- [imXur/WordPress-CVE-2026-63030-Analysis](https://github.com/imXur/WordPress-CVE-2026-63030-Analysis)
 
 ### CVE-2026-63766 (2026-07-20)
 
@@ -5957,6 +5961,13 @@
 
 - [swornim619/CVE-2026-65650](https://github.com/swornim619/CVE-2026-65650)
 
+### CVE-2026-65694 (2026-07-23)
+
+<code>Microweber CMS through 2.0.20 contains a path traversal vulnerability in the static file controller that allows unauthenticated remote attackers to read arbitrary files by supplying directory traversal sequences in the path query parameter. Attackers can send a single unauthenticated HTTP GET request exploiting the failure of normalize_path() to strip traversal sequences, disclosing sensitive files such as environment configuration files containing credentials and system files.
+</code>
+
+- [abdugafforov-bobur/CVE-2026-65694-PoC](https://github.com/abdugafforov-bobur/CVE-2026-65694-PoC)
+
 ### CVE-2026-65761 (2026-07-23)
 
 <code>Joomla Extension - joomshaper.com - Unauthenticated SQL injection in Easy Store extension 1.0.0-2.0.1 - Improper validation of order parameters lead to an unauthenticated SQL injection in easystore, allowing full DB read access including credentials and sessions.
@@ -5966,6 +5977,13 @@
 
 ### CVE-2026-65971
 - [BiiTts/POC-CVE-2026-65971](https://github.com/BiiTts/POC-CVE-2026-65971)
+
+### CVE-2026-66374 (2026-07-25)
+
+<code>Knot Resolver before 6.4.1 allows remote code execution via a heap-based buffer overflow in the DoQ (DNS-over-QUIC) receive path.
+</code>
+
+- [venglin/knot-doq](https://github.com/venglin/knot-doq)
 
 ### CVE-2026-69212
 - [c0gnit00/CVE-2026-69212](https://github.com/c0gnit00/CVE-2026-69212)
@@ -46126,6 +46144,13 @@
 
 - [kaisersource/CVE-2021-3166](https://github.com/kaisersource/CVE-2021-3166)
 
+### CVE-2021-3262 (2023-08-29)
+
+<code>TripSpark VEO Transportation-2.2.x-XP_BB-20201123-184084 NovusEDU-2.2.x-XP_BB-20201123-184084 allows unsafe data inputs in POST body parameters from end users without sanitizing using server-side logic. It was possible to inject custom SQL commands into the &quot;Student Busing Information&quot; search queries.
+</code>
+
+- [l0lsec/CVE-2021-3262](https://github.com/l0lsec/CVE-2021-3262)
+
 ### CVE-2021-3281 (2021-02-02)
 
 <code>In Django 2.2 before 2.2.18, 3.0 before 3.0.12, and 3.1 before 3.1.6, the django.utils.archive.extract method (used by &quot;startapp --template&quot; and &quot;startproject --template&quot;) allows directory traversal via an archive with absolute paths or relative paths with dot segments.
@@ -47831,6 +47856,13 @@
 </code>
 
 - [gal-nagli/CVE-2021-26832](https://github.com/gal-nagli/CVE-2021-26832)
+
+### CVE-2021-26837 (2023-09-18)
+
+<code>SQL Injection vulnerability in SearchTextBox parameter in Fortra (Formerly HelpSystems) DeliverNow before version 1.2.18, allows attackers to execute arbitrary code, escalate privileges, and gain sensitive information.
+</code>
+
+- [l0lsec/CVE-2021-26837](https://github.com/l0lsec/CVE-2021-26837)
 
 ### CVE-2021-26855 (2021-03-02)
 
@@ -50359,7 +50391,6 @@
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
 - [skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773)
-- [bernardas/netsec-polygon](https://github.com/bernardas/netsec-polygon)
 - [wangfly-me/Apache_Penetration_Tool](https://github.com/wangfly-me/Apache_Penetration_Tool)
 - [Habib0x0/CVE-2021-41773](https://github.com/Habib0x0/CVE-2021-41773)
 - [pwn3z/CVE-2021-41773-Apache-RCE](https://github.com/pwn3z/CVE-2021-41773-Apache-RCE)
@@ -50892,13 +50923,6 @@
 
 - [DarkSprings/CVE-2021-43267-POC](https://github.com/DarkSprings/CVE-2021-43267-POC)
 - [zzhacked/CVE-2021-43267](https://github.com/zzhacked/CVE-2021-43267)
-
-### CVE-2021-43287 (2022-04-14)
-
-<code>An issue was discovered in ThoughtWorks GoCD before 21.3.0. The business continuity add-on, which is enabled by default, leaks all secrets known to the GoCD server to unauthenticated attackers.
-</code>
-
-- [Wrin9/CVE-2021-43287](https://github.com/Wrin9/CVE-2021-43287)
 
 ### CVE-2021-43326 (2021-12-15)
 
@@ -53357,6 +53381,13 @@
 </code>
 
 - [hackerlawyer/CVE-2020-5142-POC-MB](https://github.com/hackerlawyer/CVE-2020-5142-POC-MB)
+
+### CVE-2020-5148 (2021-03-05)
+
+<code>SonicWall SSO-agent default configuration uses NetAPI to probe the associated IP's in the network, this client probing method allows a potential attacker to capture the password hash of the privileged user and potentially forces the SSO Agent to authenticate allowing an attacker to bypass firewall access controls.
+</code>
+
+- [l0lsec/CVE-2020-5148](https://github.com/l0lsec/CVE-2020-5148)
 
 ### CVE-2020-5236 (2020-02-04)
 
