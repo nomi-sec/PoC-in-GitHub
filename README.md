@@ -664,6 +664,13 @@
 - [0xsha/CVE-2026-6307](https://github.com/0xsha/CVE-2026-6307)
 - [J4ck3LSyN-Gen2/CVE-2026-6307-Longinus](https://github.com/J4ck3LSyN-Gen2/CVE-2026-6307-Longinus)
 
+### CVE-2026-6330 (2026-06-25)
+
+<code>The ML-KEM ARM64 NEON ciphertext comparison only compares half of the input, breaking the Fujisaki-Okamoto transform's implicit rejection and weakening IND-CCA2 security on that code path. The constant-time comparison effectively ignored part of the re-encrypted ciphertext, so a decapsulating party could fail to detect a manipulated ciphertext and proceed without the standard's required implicit rejection.
+</code>
+
+- [007bsd/ml-kem-key-recovery](https://github.com/007bsd/ml-kem-key-recovery)
+
 ### CVE-2026-6421 (2026-04-17)
 
 <code>A vulnerability has been found in Mobatek MobaXterm Home Edition up to 26.1. This affects an unknown part in the library msimg32.dll. The manipulation leads to uncontrolled search path. An attack has to be approached locally. The attack is considered to have high complexity. It is indicated that the exploitability is difficult. The exploit has been disclosed to the public and may be used. Upgrading to version 26.2 is able to mitigate this issue. It is suggested to upgrade the affected component. The vendor was contacted early, responded in a very professional manner and quickly released a fixed version of the affected product.
@@ -1530,6 +1537,13 @@
 ### CVE-2026-16540
 - [huseyn0vs/CVE-2026-16540-SimplyScheduleAppointments](https://github.com/huseyn0vs/CVE-2026-16540-SimplyScheduleAppointments)
 
+### CVE-2026-16723 (2026-07-23)
+
+<code>A remote code execution (RCE) vulnerability exists in fastjson 1.2.68 through 1.2.83. This vulnerability is exploitable under fastjson's stock default configuration — no AutoType enablement required, no classpath gadget required.
+</code>
+
+- [HORKimhab/CVE-2026-16723](https://github.com/HORKimhab/CVE-2026-16723)
+
 ### CVE-2026-20127 (2026-02-25)
 
 <code>A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Cisco Catalyst SD-WAN Validator, formerly SD-WAN vBond, could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.\r\n\r\nThis vulnerability exists because the peering authentication mechanism in an affected system is not working properly. An attacker could exploit this vulnerability by sending crafted requests to an affected system. A successful exploit could allow the attacker to log in to an affected Cisco Catalyst SD-WAN Controller as an internal, high-privileged, non-root&amp;nbsp;user account. Using this account, the attacker could access NETCONF, which would then allow the attacker to manipulate network configuration for the SD-WAN fabric.&amp;nbsp;
@@ -2152,6 +2166,13 @@
 
 - [nikosecurity/CVE-2026-26179](https://github.com/nikosecurity/CVE-2026-26179)
 
+### CVE-2026-26216 (2026-02-12)
+
+<code>Crawl4AI versions prior to 0.8.0 contain a remote code execution vulnerability in the Docker API deployment. The /crawl endpoint accepts a hooks parameter containing Python code that is executed using exec(). The __import__ builtin was included in the allowed builtins, allowing unauthenticated remote attackers to import arbitrary modules and execute system commands. Successful exploitation allows full server compromise, including arbitrary command execution, file read and write access, sensitive data exfiltration, and lateral movement within internal networks.
+</code>
+
+- [joaovicdev/EXPLOIT-CVE-2026-26216](https://github.com/joaovicdev/EXPLOIT-CVE-2026-26216)
+
 ### CVE-2026-26268 (2026-02-13)
 
 <code>Cursor is a code editor built for programming with AI. Sandbox escape via writing .git configuration was possible in versions prior to 2.5. A malicious agent (ie prompt injection) could write to improperly protected .git settings, including git hooks, which may cause out-of-sandbox RCE next time they are triggered. No user interaction was required as Git executes these commands automatically. Fixed in version 2.5.
@@ -2601,6 +2622,13 @@
 
 - [Recorded-texteditor120/CVE-2026-31802](https://github.com/Recorded-texteditor120/CVE-2026-31802)
 - [ridhinva/npm-tar-path-traversal-scanner](https://github.com/ridhinva/npm-tar-path-traversal-scanner)
+
+### CVE-2026-32194 (2026-03-19)
+
+<code>Improper neutralization of special elements used in a command ('command injection') in Microsoft Bing Images allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [HORKimhab/CVE-2026-32194](https://github.com/HORKimhab/CVE-2026-32194)
 
 ### CVE-2026-32202 (2026-04-14)
 
@@ -4845,6 +4873,7 @@
 - [Jenderal92/CVE-2026-48908](https://github.com/Jenderal92/CVE-2026-48908)
 - [cazzysoci/cve-2026-48908](https://github.com/cazzysoci/cve-2026-48908)
 - [g0thamRabb1t/CVE-2026-48908-joomla-sp-page-builder-detection](https://github.com/g0thamRabb1t/CVE-2026-48908-joomla-sp-page-builder-detection)
+- [imXur/CVE-2026-48908-Joomla-SP-Page-Builder-RCE](https://github.com/imXur/CVE-2026-48908-Joomla-SP-Page-Builder-RCE)
 
 ### CVE-2026-48909 (2026-06-20)
 
@@ -5253,6 +5282,12 @@
 
 - [Arturo0x90/CVE-2026-51385](https://github.com/Arturo0x90/CVE-2026-51385)
 
+### CVE-2026-51564
+- [1337Skid/CVE-2026-51564](https://github.com/1337Skid/CVE-2026-51564)
+
+### CVE-2026-51565
+- [1337Skid/CVE-2026-51565](https://github.com/1337Skid/CVE-2026-51565)
+
 ### CVE-2026-51592
 - [ardakrg/CVE-2026-51592](https://github.com/ardakrg/CVE-2026-51592)
 
@@ -5451,6 +5486,8 @@
 
 - [aniqfakhrul/CVE-2026-54121](https://github.com/aniqfakhrul/CVE-2026-54121)
 - [0xBlackash/CVE-2026-54121](https://github.com/0xBlackash/CVE-2026-54121)
+- [HORKimhab/CVE-2026-54121](https://github.com/HORKimhab/CVE-2026-54121)
+- [tc4dy/CVE-2026-54121-PoC-Exploit](https://github.com/tc4dy/CVE-2026-54121-PoC-Exploit)
 
 ### CVE-2026-54161
 - [ja-errorpro/CVE-2026-54161](https://github.com/ja-errorpro/CVE-2026-54161)
@@ -5833,7 +5870,6 @@
 </code>
 
 - [h4cd0c/wp2shell](https://github.com/h4cd0c/wp2shell)
-- [yoerivegt/wp2shell-poc](https://github.com/yoerivegt/wp2shell-poc)
 - [ebrasha/abdal-cve-2026-60137](https://github.com/ebrasha/abdal-cve-2026-60137)
 - [codeb0ssx/Ultimate-wp2shell](https://github.com/codeb0ssx/Ultimate-wp2shell)
 - [mrmtwoj/Fix-CVE-2026-60137-CVE-2026-63030-in-wordpress](https://github.com/mrmtwoj/Fix-CVE-2026-60137-CVE-2026-63030-in-wordpress)
@@ -5847,6 +5883,7 @@
 - [0xBlackash/CVE-2026-60206](https://github.com/0xBlackash/CVE-2026-60206)
 - [imbas007/POC-CVE-2026-60206](https://github.com/imbas007/POC-CVE-2026-60206)
 - [tc4dy/CVE-2026-60206-PoC-Exploit](https://github.com/tc4dy/CVE-2026-60206-PoC-Exploit)
+- [Debajyoti0-0/CVE-2026-60206](https://github.com/Debajyoti0-0/CVE-2026-60206)
 
 ### CVE-2026-61343 (2026-07-09)
 
@@ -8085,8 +8122,7 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-WatchGuard-CVE-2025-9242](https://github.com/watchtowrlabs/watchTowr-vs-WatchGuard-CVE-2025-9242)
-- [UnusualGiraffe/PoC-Unauthenticated-RCE-in-WatchGuard-Fireware-12.7-Build-640389-CVE-2025-9242](https://github.com/UnusualGiraffe/PoC-Unauthenticated-RCE-in-WatchGuard-Fireware-12.7-Build-640389-CVE-2025-9242)
-- [UnusualGiraffe/Mass-Scanner-CVE-2025-9242](https://github.com/UnusualGiraffe/Mass-Scanner-CVE-2025-9242)
+- [UnusualGiraffe/WatchGuard-CVE-2025-9242-PoC-and-Mass-Scanner](https://github.com/UnusualGiraffe/WatchGuard-CVE-2025-9242-PoC-and-Mass-Scanner)
 
 ### CVE-2025-9267 (2025-09-26)
 
@@ -17185,6 +17221,13 @@
 </code>
 
 - [mbanyamer/CVE-2025-67644-LangGraph-3.0.1-SQLite-Checkpoint-SQL-Injection](https://github.com/mbanyamer/CVE-2025-67644-LangGraph-3.0.1-SQLite-Checkpoint-SQL-Injection)
+
+### CVE-2025-67730 (2025-12-12)
+
+<code>Frappe Learning Management System (LMS) is a learning system that helps users structure their content. Versions prior to 2.42.0 allow authenticated users to add malicious HTML and JavaScript through description fields in the Job, Course and Batch forms. This issue is fixed in version 2.42.0.
+</code>
+
+- [Dharan10/CVE-2025-67730](https://github.com/Dharan10/CVE-2025-67730)
 
 ### CVE-2025-67733 (2026-02-23)
 
@@ -56770,28 +56813,14 @@
 <code>PHPGurukul hostel-management-system 2.1 allows XSS via Guardian Name, Guardian Relation, Guardian Contact no, Address, or City.
 </code>
 
-- [Ko-kn3t/CVE-2020-25270](https://github.com/Ko-kn3t/CVE-2020-25270)
-
-### CVE-2020-25271 (2020-10-08)
-
-<code>PHPGurukul hospital-management-system-in-php 4.0 allows XSS via admin/patient-search.php, doctor/search.php, book-appointment.php, doctor/appointment-history.php, or admin/appointment-history.php.
-</code>
-
-- [Ko-kn3t/CVE-2020-25271](https://github.com/Ko-kn3t/CVE-2020-25271)
-
-### CVE-2020-25272 (2020-10-08)
-
-<code>In SourceCodester Online Bus Booking System 1.0, there is XSS through the name parameter in book_now.php.
-</code>
-
-- [Ko-kn3t/CVE-2020-25272](https://github.com/Ko-kn3t/CVE-2020-25272)
+- [pushpam002/CVE-2020-25270](https://github.com/pushpam002/CVE-2020-25270)
 
 ### CVE-2020-25273 (2020-10-08)
 
 <code>In SourceCodester Online Bus Booking System 1.0, there is Authentication bypass on the Admin Login screen in admin.php via username or password SQL injection.
 </code>
 
-- [Ko-kn3t/CVE-2020-25273](https://github.com/Ko-kn3t/CVE-2020-25273)
+- [jonathanrey87/CVE-2020-25273](https://github.com/jonathanrey87/CVE-2020-25273)
 
 ### CVE-2020-25398 (2020-11-05)
 
@@ -56810,36 +56839,12 @@
 ### CVE-2020-25478
 - [santokum/CVE-2020-25478--ASUS-RT-AC87U-TFTP-is-vulnerable-to-Denial-of-Service-DoS-attack](https://github.com/santokum/CVE-2020-25478--ASUS-RT-AC87U-TFTP-is-vulnerable-to-Denial-of-Service-DoS-attack)
 
-### CVE-2020-25487 (2020-09-22)
-
-<code>PHPGURUKUL Zoo Management System Using PHP and MySQL version 1.0 is affected by: SQL Injection via zms/animal-detail.php.
-</code>
-
-- [Ko-kn3t/CVE-2020-25487](https://github.com/Ko-kn3t/CVE-2020-25487)
-
-### CVE-2020-25488
-- [Ko-kn3t/CVE-2020-25488](https://github.com/Ko-kn3t/CVE-2020-25488)
-
 ### CVE-2020-25498 (2021-01-06)
 
 <code>Cross Site Scripting (XSS) vulnerability in Beetel router 777VR1 can be exploited via the NTP server name in System Time and &quot;Keyword&quot; in URL Filter.
 </code>
 
 - [the-girl-who-lived/CVE-2020-25498](https://github.com/the-girl-who-lived/CVE-2020-25498)
-
-### CVE-2020-25514 (2020-09-22)
-
-<code>Sourcecodester Simple Library Management System 1.0 is affected by Incorrect Access Control via the Login Panel, http://&lt;site&gt;/lms/admin.php.
-</code>
-
-- [Ko-kn3t/CVE-2020-25514](https://github.com/Ko-kn3t/CVE-2020-25514)
-
-### CVE-2020-25515 (2020-09-22)
-
-<code>Sourcecodester Simple Library Management System 1.0 is affected by Insecure Permissions via Books &gt; New Book , http://&lt;site&gt;/lms/index.php?page=books.
-</code>
-
-- [Ko-kn3t/CVE-2020-25515](https://github.com/Ko-kn3t/CVE-2020-25515)
 
 ### CVE-2020-25518
 - [g-rubert/wordpress_DoS](https://github.com/g-rubert/wordpress_DoS)
@@ -57427,13 +57432,6 @@
 </code>
 
 - [Ls4ss/CVE-2020-29134](https://github.com/Ls4ss/CVE-2020-29134)
-
-### CVE-2020-29156 (2020-12-27)
-
-<code>The WooCommerce plugin before 4.7.0 for WordPress allows remote attackers to view the status of arbitrary orders via the order_id parameter in a fetch_order_status action.
-</code>
-
-- [Ko-kn3t/CVE-2020-29156](https://github.com/Ko-kn3t/CVE-2020-29156)
 
 ### CVE-2020-29204 (2020-12-27)
 
