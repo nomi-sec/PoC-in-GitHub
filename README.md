@@ -37904,7 +37904,7 @@
 <code>An issue in Hipcam Cameras RealServer v.1.0 allows a remote attacker to cause a denial of service via a crafted script to the client_port parameter.
 </code>
 
-- [MaximilianJungblut/Hipcam-RTSP-Format-Validation-Vulnerability](https://github.com/MaximilianJungblut/Hipcam-RTSP-Format-Validation-Vulnerability)
+- [MaximilianLJungblut/Hipcam-RTSP-Format-Validation-Vulnerability](https://github.com/MaximilianLJungblut/Hipcam-RTSP-Format-Validation-Vulnerability)
 
 ### CVE-2023-50780 (2024-10-14)
 
@@ -47221,7 +47221,6 @@
 - [xyjl-ly/CVE-2021-22555-Exploit](https://github.com/xyjl-ly/CVE-2021-22555-Exploit)
 - [cgwalters/container-cve-2021-22555](https://github.com/cgwalters/container-cve-2021-22555)
 - [daletoniris/CVE-2021-22555-esc-priv](https://github.com/daletoniris/CVE-2021-22555-esc-priv)
-- [veritas501/CVE-2021-22555-PipeVersion](https://github.com/veritas501/CVE-2021-22555-PipeVersion)
 - [masjohncook/netsec-project](https://github.com/masjohncook/netsec-project)
 - [tukru/CVE-2021-22555](https://github.com/tukru/CVE-2021-22555)
 - [pashayogi/CVE-2021-22555](https://github.com/pashayogi/CVE-2021-22555)
@@ -51653,6 +51652,7 @@
 - [prmawyer/log4shell-vulnerable-app](https://github.com/prmawyer/log4shell-vulnerable-app)
 - [arpitgupta369/log4shell-scanner](https://github.com/arpitgupta369/log4shell-scanner)
 - [razureink/cve-2021-44228-log4shell_rce_reproduction](https://github.com/razureink/cve-2021-44228-log4shell_rce_reproduction)
+- [sfr0435122531-ui/-log4shell-lab](https://github.com/sfr0435122531-ui/-log4shell-lab)
 
 ### CVE-2021-44255 (2022-01-31)
 
