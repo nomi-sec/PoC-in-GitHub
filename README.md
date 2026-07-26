@@ -3641,6 +3641,7 @@
 - [soverineg/cve-2026-41940-PoC](https://github.com/soverineg/cve-2026-41940-PoC)
 - [razureink/cve-2026-41940-cpanel_authbypass_reproduction](https://github.com/razureink/cve-2026-41940-cpanel_authbypass_reproduction)
 - [AnotherSec/CVE-2026-41940](https://github.com/AnotherSec/CVE-2026-41940)
+- [CerberusMrXi/cPanel-WHM-CVE-2026-41940-auth-bypass-exploit](https://github.com/CerberusMrXi/cPanel-WHM-CVE-2026-41940-auth-bypass-exploit)
 
 ### CVE-2026-42048 (2026-05-12)
 
@@ -3946,6 +3947,7 @@
 - [mumaosong/cve-2026-43499-CyberMeowfia](https://github.com/mumaosong/cve-2026-43499-CyberMeowfia)
 - [cuteaplane/GhostLock-for-OnePlus15T](https://github.com/cuteaplane/GhostLock-for-OnePlus15T)
 - [No-22-Github/UnPlus](https://github.com/No-22-Github/UnPlus)
+- [fusiondrive/CVE-2026-43499-S24U](https://github.com/fusiondrive/CVE-2026-43499-S24U)
 - [woshimaniubi8/CVE-2026-43499-root-KernelSU](https://github.com/woshimaniubi8/CVE-2026-43499-root-KernelSU)
 
 ### CVE-2026-43500 (2026-05-11)
@@ -5515,6 +5517,7 @@
 - [0xBlackash/CVE-2026-54121](https://github.com/0xBlackash/CVE-2026-54121)
 - [HORKimhab/CVE-2026-54121](https://github.com/HORKimhab/CVE-2026-54121)
 - [tc4dy/CVE-2026-54121-PoC-Exploit](https://github.com/tc4dy/CVE-2026-54121-PoC-Exploit)
+- [GlendonNotGlen/certighost-cve-2026-54121-slides](https://github.com/GlendonNotGlen/certighost-cve-2026-54121-slides)
 
 ### CVE-2026-54161
 - [ja-errorpro/CVE-2026-54161](https://github.com/ja-errorpro/CVE-2026-54161)
@@ -11817,6 +11820,7 @@
 - [daryllundy/cve-2025-32711](https://github.com/daryllundy/cve-2025-32711)
 - [TreRB/markdown-exfil-tester](https://github.com/TreRB/markdown-exfil-tester)
 - [Danielossai12/aisecplus-week01-danielossai](https://github.com/Danielossai12/aisecplus-week01-danielossai)
+- [vikasudasi/exfil-scan](https://github.com/vikasudasi/exfil-scan)
 
 ### CVE-2025-32756 (2025-05-13)
 
@@ -13966,7 +13970,6 @@
 - [DeathShotXD/CVE-2025-52691-APT-PoC](https://github.com/DeathShotXD/CVE-2025-52691-APT-PoC)
 - [nxgn-kd01/smartermail-cve-scanner](https://github.com/nxgn-kd01/smartermail-cve-scanner)
 - [watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691](https://github.com/watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691)
-- [rimbadirgantara/CVE-2025-52691-poc](https://github.com/rimbadirgantara/CVE-2025-52691-poc)
 - [ninjazan420/CVE-2025-52691-PoC-SmarterMail-authentication-bypass-exploit-WT-2026-0001](https://github.com/ninjazan420/CVE-2025-52691-PoC-SmarterMail-authentication-bypass-exploit-WT-2026-0001)
 
 ### CVE-2025-52694 (2026-01-12)
@@ -60600,7 +60603,7 @@
 - [zAbuQasem/CVE-2019-12840](https://github.com/zAbuQasem/CVE-2019-12840)
 - [WizzzStark/CVE-2019-12840.py](https://github.com/WizzzStark/CVE-2019-12840.py)
 - [Pol-Ruiz/PoC-CVE-2019-12840](https://github.com/Pol-Ruiz/PoC-CVE-2019-12840)
-- [fenix0499/CVE-2019-12840-NodeJs-Exploit](https://github.com/fenix0499/CVE-2019-12840-NodeJs-Exploit)
+- [note0577/CVE-2019-12840-NodeJs-Exploit](https://github.com/note0577/CVE-2019-12840-NodeJs-Exploit)
 
 ### CVE-2019-12889 (2019-08-20)
 
@@ -63219,13 +63222,6 @@
 - [huzhenghui/Test-7-2-0-PHP-CVE-2018-5711](https://github.com/huzhenghui/Test-7-2-0-PHP-CVE-2018-5711)
 - [huzhenghui/Test-7-2-1-PHP-CVE-2018-5711](https://github.com/huzhenghui/Test-7-2-1-PHP-CVE-2018-5711)
 
-### CVE-2018-5740 (2019-01-16)
-
-<code>&quot;deny-answer-aliases&quot; is a little-used feature intended to help recursive server operators protect end users against DNS rebinding attacks, a potential method of circumventing the security model used by client browsers. However, a defect in this feature makes it easy, when the feature is in use, to experience an assertion failure in name.c. Affects BIND 9.7.0-&gt;9.8.8, 9.9.0-&gt;9.9.13, 9.10.0-&gt;9.10.8, 9.11.0-&gt;9.11.4, 9.12.0-&gt;9.12.2, 9.13.0-&gt;9.13.2.
-</code>
-
-- [sischkg/cve-2018-5740](https://github.com/sischkg/cve-2018-5740)
-
 ### CVE-2018-5764 (2018-01-17)
 
 <code>The parse_arguments function in options.c in rsyncd in rsync before 3.1.3 does not prevent multiple --protect-args uses, which allows remote attackers to bypass an argument-sanitization protection mechanism.
@@ -63971,13 +63967,6 @@
 - [DarkFlameMaster-bit/CVE-2018-8174_EXP](https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP)
 - [lisinan988/CVE-2018-8174-exp](https://github.com/lisinan988/CVE-2018-8174-exp)
 - [sinisterghost/https-github.com-iBearcat-CVE-2018-8174_EXP](https://github.com/sinisterghost/https-github.com-iBearcat-CVE-2018-8174_EXP)
-
-### CVE-2018-8208 (2018-06-14)
-
-<code>An elevation of privilege vulnerability exists in Windows when Desktop Bridge does not properly manage the virtual registry, aka &quot;Windows Desktop Bridge Elevation of Privilege Vulnerability.&quot; This affects Windows Server 2016, Windows 10, Windows 10 Servers. This CVE ID is unique from CVE-2018-8214.
-</code>
-
-- [kaisaryousuf/CVE-2018-8208](https://github.com/kaisaryousuf/CVE-2018-8208)
 
 ### CVE-2018-8214 (2018-06-14)
 
@@ -71925,7 +71914,7 @@
 </code>
 
 - [andyfeili/CVE-2014-4688](https://github.com/andyfeili/CVE-2014-4688)
-- [fenix0499/CVE-2014-4688-NodeJs-Exploit](https://github.com/fenix0499/CVE-2014-4688-NodeJs-Exploit)
+- [note0577/CVE-2014-4688-NodeJs-Exploit](https://github.com/note0577/CVE-2014-4688-NodeJs-Exploit)
 - [jaydenblair/CVE-2014-4688-pfsense](https://github.com/jaydenblair/CVE-2014-4688-pfsense)
 
 ### CVE-2014-4699 (2014-07-09)
