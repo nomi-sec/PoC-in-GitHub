@@ -5857,6 +5857,7 @@
 - [seqra/cve-2026-58138](https://github.com/seqra/cve-2026-58138)
 - [Ch4120N/CVE-2026-58138](https://github.com/Ch4120N/CVE-2026-58138)
 - [0xgh057r3c0n/CVE-2026-58138](https://github.com/0xgh057r3c0n/CVE-2026-58138)
+- [Procjevt/CVE-2026-58138](https://github.com/Procjevt/CVE-2026-58138)
 
 ### CVE-2026-58457 (2026-07-01)
 
@@ -43575,7 +43576,6 @@
 - [senderend/CVE-2022-35914](https://github.com/senderend/CVE-2022-35914)
 - [noxlumens/CVE-2022-35914_poc](https://github.com/noxlumens/CVE-2022-35914_poc)
 - [btar1gan/exploit_CVE-2022-35914](https://github.com/btar1gan/exploit_CVE-2022-35914)
-- [YumeSecurity/CVE-2022-35914](https://github.com/YumeSecurity/CVE-2022-35914)
 
 ### CVE-2022-35919 (2022-08-01)
 
@@ -62840,13 +62840,6 @@
 - [jas502n/CVE-2018-3191](https://github.com/jas502n/CVE-2018-3191)
 - [mackleadmire/CVE-2018-3191-Rce-Exploit](https://github.com/mackleadmire/CVE-2018-3191-Rce-Exploit)
 
-### CVE-2018-3214 (2018-10-17)
-
-<code>Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Sound). Supported versions that are affected are Java SE: 6u201, 7u191 and 8u182; Java SE Embedded: 8u181; JRockit: R28.3.19. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded, JRockit. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets (in Java SE 8), that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g. through a web service which supplies data to the APIs. CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
-</code>
-
-- [YumeSecurity/CVE-2018-3214](https://github.com/YumeSecurity/CVE-2018-3214)
-
 ### CVE-2018-3245 (2018-10-17)
 
 <code>Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
@@ -63221,6 +63214,13 @@
 
 - [huzhenghui/Test-7-2-0-PHP-CVE-2018-5711](https://github.com/huzhenghui/Test-7-2-0-PHP-CVE-2018-5711)
 - [huzhenghui/Test-7-2-1-PHP-CVE-2018-5711](https://github.com/huzhenghui/Test-7-2-1-PHP-CVE-2018-5711)
+
+### CVE-2018-5740 (2019-01-16)
+
+<code>&quot;deny-answer-aliases&quot; is a little-used feature intended to help recursive server operators protect end users against DNS rebinding attacks, a potential method of circumventing the security model used by client browsers. However, a defect in this feature makes it easy, when the feature is in use, to experience an assertion failure in name.c. Affects BIND 9.7.0-&gt;9.8.8, 9.9.0-&gt;9.9.13, 9.10.0-&gt;9.10.8, 9.11.0-&gt;9.11.4, 9.12.0-&gt;9.12.2, 9.13.0-&gt;9.13.2.
+</code>
+
+- [sischkg/cve-2018-5740](https://github.com/sischkg/cve-2018-5740)
 
 ### CVE-2018-5764 (2018-01-17)
 
@@ -63967,6 +63967,13 @@
 - [DarkFlameMaster-bit/CVE-2018-8174_EXP](https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP)
 - [lisinan988/CVE-2018-8174-exp](https://github.com/lisinan988/CVE-2018-8174-exp)
 - [sinisterghost/https-github.com-iBearcat-CVE-2018-8174_EXP](https://github.com/sinisterghost/https-github.com-iBearcat-CVE-2018-8174_EXP)
+
+### CVE-2018-8208 (2018-06-14)
+
+<code>An elevation of privilege vulnerability exists in Windows when Desktop Bridge does not properly manage the virtual registry, aka &quot;Windows Desktop Bridge Elevation of Privilege Vulnerability.&quot; This affects Windows Server 2016, Windows 10, Windows 10 Servers. This CVE ID is unique from CVE-2018-8214.
+</code>
+
+- [kaisaryousuf/CVE-2018-8208](https://github.com/kaisaryousuf/CVE-2018-8208)
 
 ### CVE-2018-8214 (2018-06-14)
 
@@ -68990,13 +68997,6 @@
 
 - [secmob/CVE-2016-0846](https://github.com/secmob/CVE-2016-0846)
 - [b0b0505/CVE-2016-0846-PoC](https://github.com/b0b0505/CVE-2016-0846-PoC)
-
-### CVE-2016-0957 (2016-02-10)
-
-<code>Dispatcher before 4.1.5 in Adobe Experience Manager 5.6.1, 6.0.0, and 6.1.0 does not properly implement a URL filter, which allows remote attackers to bypass dispatcher rules via unspecified vectors.
-</code>
-
-- [fuckwbored/CVE-2016-0957-payloads](https://github.com/fuckwbored/CVE-2016-0957-payloads)
 
 ### CVE-2016-0974 (2016-02-10)
 
