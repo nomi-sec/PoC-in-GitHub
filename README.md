@@ -310,6 +310,13 @@
 - [HORKimhab/CVE-2026-3300](https://github.com/HORKimhab/CVE-2026-3300)
 - [adamshaikhma/CVE-2026-3300](https://github.com/adamshaikhma/CVE-2026-3300)
 
+### CVE-2026-3306 (2026-03-10)
+
+<code>An improper authorization vulnerability was identified in GitHub Enterprise Server that allowed a user with read access to a repository and write access to a project to modify issue and pull request metadata through the project. When adding an item to a project that already existed, column value updates were applied without verifying the actor's repository write permissions. This vulnerability was reported via the GitHub Bug Bounty program and has been fixed in GitHub Enterprise Server versions 3.14.24, 3.15.19, 3.16.15, 3.17.12, 3.18.6 and 3.19.3.
+</code>
+
+- [darrocarocatest-sys/pv2-victim](https://github.com/darrocarocatest-sys/pv2-victim)
+
 ### CVE-2026-3359 (2026-05-05)
 
 <code>The Form Maker by 10Web – Mobile-Friendly Drag &amp; Drop Contact Form Builder plugin for WordPress is vulnerable to SQL Injection via the 'inputs' parameter in versions up to, and including, 1.15.42 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -439,6 +446,13 @@
 </code>
 
 - [xxconi/CVE-2026-4782](https://github.com/xxconi/CVE-2026-4782)
+
+### CVE-2026-4861 (2026-03-26)
+
+<code>A weakness has been identified in Wavlink WL-NU516U1 260227. This vulnerability affects the function ftext of the file /cgi-bin/nas.cgi. This manipulation of the argument Content-Length causes stack-based buffer overflow. The attack can be initiated remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [HORKimhab/CVE-2026-4861](https://github.com/HORKimhab/CVE-2026-4861)
 
 ### CVE-2026-4882 (2026-05-02)
 
@@ -3572,6 +3586,7 @@
 </code>
 
 - [pssec-io/CVE-2026-41179](https://github.com/pssec-io/CVE-2026-41179)
+- [s-vx/CVE-2026-41179](https://github.com/s-vx/CVE-2026-41179)
 
 ### CVE-2026-41200 (2026-04-23)
 
@@ -5913,6 +5928,7 @@
 - [mrmtwoj/Fix-CVE-2026-60137-CVE-2026-63030-in-wordpress](https://github.com/mrmtwoj/Fix-CVE-2026-60137-CVE-2026-63030-in-wordpress)
 - [Colere-Sys/wp2shell-poc](https://github.com/Colere-Sys/wp2shell-poc)
 - [northsia/CVE-2026-60137-With-Skip-SSL](https://github.com/northsia/CVE-2026-60137-With-Skip-SSL)
+- [Dungsocool/CVE-2026-60137_CVE-2026-63030](https://github.com/Dungsocool/CVE-2026-60137_CVE-2026-63030)
 
 ### CVE-2026-60206 (2026-07-21)
 
@@ -6013,6 +6029,7 @@
 - [Giangdurian/CVE-2026-63030-CVE-2026-60137](https://github.com/Giangdurian/CVE-2026-63030-CVE-2026-60137)
 - [shinthink/CVE-2026-63030](https://github.com/shinthink/CVE-2026-63030)
 - [imXur/WordPress-CVE-2026-63030-Analysis](https://github.com/imXur/WordPress-CVE-2026-63030-Analysis)
+- [yuag/wp2shell](https://github.com/yuag/wp2shell)
 
 ### CVE-2026-63766 (2026-07-20)
 
@@ -23266,7 +23283,7 @@
 - [Ne0zer01/CVE-2024-27198_LAB](https://github.com/Ne0zer01/CVE-2024-27198_LAB)
 - [ptd200110/CVE-2024-27198-SOC-Lab](https://github.com/ptd200110/CVE-2024-27198-SOC-Lab)
 - [BilalAlshiekh912/Incident-Response-Report-TeamCity-Compromise-CVE-2024-27198-](https://github.com/BilalAlshiekh912/Incident-Response-Report-TeamCity-Compromise-CVE-2024-27198-)
-- [kxom9ks/CVE-2024-27198](https://github.com/kxom9ks/CVE-2024-27198)
+- [kxom9ks/CVE-2024-27198-TeamCity](https://github.com/kxom9ks/CVE-2024-27198-TeamCity)
 
 ### CVE-2024-27292 (2024-02-29)
 
