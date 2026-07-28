@@ -1577,6 +1577,7 @@
 </code>
 
 - [WadesWeaponShed/Check-Point-Trusted-Access-Review](https://github.com/WadesWeaponShed/Check-Point-Trusted-Access-Review)
+- [sfewer-r7/CVE-2026-16232](https://github.com/sfewer-r7/CVE-2026-16232)
 
 ### CVE-2026-16540
 - [huseyn0vs/CVE-2026-16540-SimplyScheduleAppointments](https://github.com/huseyn0vs/CVE-2026-16540-SimplyScheduleAppointments)
@@ -4022,7 +4023,6 @@
 - [woshimaniubi8/CVE-2026-43499-root-KernelSU](https://github.com/woshimaniubi8/CVE-2026-43499-root-KernelSU)
 - [soralis0912/CVE-2026-43499-pmg110-root](https://github.com/soralis0912/CVE-2026-43499-pmg110-root)
 - [dnlid/CVE-2026-43499](https://github.com/dnlid/CVE-2026-43499)
-- [KawaiiHachimi/CVE-2026-43499-pkb110](https://github.com/KawaiiHachimi/CVE-2026-43499-pkb110)
 - [Witaqua-tools/Root-My-Device](https://github.com/Witaqua-tools/Root-My-Device)
 
 ### CVE-2026-43500 (2026-05-11)
@@ -4369,7 +4369,6 @@
 - [ChanderManiPandey2022/YellowKey-BitLocker-Bypass-CVE-2026-45585-Detect-Fix-Automatically-via-Microsoft-Intune](https://github.com/ChanderManiPandey2022/YellowKey-BitLocker-Bypass-CVE-2026-45585-Detect-Fix-Automatically-via-Microsoft-Intune)
 - [Desireeontrial76/yellowkey-bitlocker](https://github.com/Desireeontrial76/yellowkey-bitlocker)
 - [boobalover7/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/boobalover7/YellowKey-Bitlocker-CVE-2026-45585)
-- [yellowkey-exploit/YellowKey-Bitlocker](https://github.com/yellowkey-exploit/YellowKey-Bitlocker)
 - [tchuin2609/YellowKey-Bitlocker](https://github.com/tchuin2609/YellowKey-Bitlocker)
 - [tchuin2609/tchuin2609.github.io](https://github.com/tchuin2609/tchuin2609.github.io)
 
@@ -5331,6 +5330,7 @@
 - [HORKimhab/CVE-2026-50522](https://github.com/HORKimhab/CVE-2026-50522)
 - [4minx/CVE-2026-50522](https://github.com/4minx/CVE-2026-50522)
 - [ChPratik/CVE-2026-50522](https://github.com/ChPratik/CVE-2026-50522)
+- [darses/CVE-2026-50522](https://github.com/darses/CVE-2026-50522)
 
 ### CVE-2026-50656 (2026-06-16)
 
@@ -5419,6 +5419,9 @@
 </code>
 
 - [timtimxs/CVE-2026-51947-Advisory](https://github.com/timtimxs/CVE-2026-51947-Advisory)
+
+### CVE-2026-51992
+- [TheLiimbo/CVE-2026-51992](https://github.com/TheLiimbo/CVE-2026-51992)
 
 ### CVE-2026-52100 (2026-07-14)
 
@@ -5597,6 +5600,10 @@
 </code>
 
 - [oscerd/CVE-2026-53913](https://github.com/oscerd/CVE-2026-53913)
+
+### CVE-2026-53921
+- [0xBlackash/CVE-2026-53921](https://github.com/0xBlackash/CVE-2026-53921)
+- [tc4dy/CVE-2026-53921-PoC-Exploit](https://github.com/tc4dy/CVE-2026-53921-PoC-Exploit)
 
 ### CVE-2026-54088 (2026-06-25)
 
@@ -6202,6 +6209,7 @@
 </code>
 
 - [shinthink/CVE-2026-65761](https://github.com/shinthink/CVE-2026-65761)
+- [ywh-jfellus/CVE-2026-65761](https://github.com/ywh-jfellus/CVE-2026-65761)
 
 ### CVE-2026-65893 (2026-07-27)
 
@@ -6209,6 +6217,7 @@
 </code>
 
 - [CyberVinner/CP-PLUS-EZ-P21-CVE-2026-65893-65894](https://github.com/CyberVinner/CP-PLUS-EZ-P21-CVE-2026-65893-65894)
+- [ivmks74/IIITA-IoT-Security-Research](https://github.com/ivmks74/IIITA-IoT-Security-Research)
 
 ### CVE-2026-65971
 - [BiiTts/POC-CVE-2026-65971](https://github.com/BiiTts/POC-CVE-2026-65971)
@@ -7808,6 +7817,13 @@
 
 - [gmh5225/CVE-2025-6558-exp](https://github.com/gmh5225/CVE-2025-6558-exp)
 - [DevBuiHieu/CVE-2025-6558-Proof-Of-Concept](https://github.com/DevBuiHieu/CVE-2025-6558-Proof-Of-Concept)
+
+### CVE-2025-6563 (2025-07-03)
+
+<code>A cross-site scripting vulnerability is present in the hotspot of MikroTik's RouterOS on versions below 7.19.2. An attacker can inject the `javascript` protocol in the `dst` parameter. When the victim browses to the malicious URL and logs in, the XSS executes. The POST request used to login, can also be converted to a GET request, allowing an attacker to send a specifically crafted URL that automatically logs in the victim (into the attacker's account) and triggers the payload.
+</code>
+
+- [praksokchea/CVE-2025-6563](https://github.com/praksokchea/CVE-2025-6563)
 
 ### CVE-2025-6586 (2025-07-04)
 
@@ -14441,7 +14457,6 @@
 - [osman1337-security/CVE-2025-54100](https://github.com/osman1337-security/CVE-2025-54100)
 - [ThemeHackers/CVE-2025-54100](https://github.com/ThemeHackers/CVE-2025-54100)
 - [xiaoLvChen/CVE-2025-54100](https://github.com/xiaoLvChen/CVE-2025-54100)
-- [R3lva/CVE-2025-54100-BYPASS-](https://github.com/R3lva/CVE-2025-54100-BYPASS-)
 
 ### CVE-2025-54110 (2025-09-09)
 
@@ -17321,6 +17336,13 @@
 </code>
 
 - [sivaadityacoder/CVE-2025-67146-CVE-2025-67147](https://github.com/sivaadityacoder/CVE-2025-67146-CVE-2025-67147)
+
+### CVE-2025-67158 (2026-01-02)
+
+<code>An authentication bypass in the /cgi-bin/jvsweb.cgi endpoint of Revotech I6032W-FHW v1.0.0014 - 20210517 allows attackers to access sensitive information and escalate privileges via a crafted HTTP request.
+</code>
+
+- [Remenis/CVE-2025-67158](https://github.com/Remenis/CVE-2025-67158)
 
 ### CVE-2025-67159 (2026-01-02)
 
@@ -23802,6 +23824,7 @@
 - [gh-ost00/CVE-2024-28987-POC](https://github.com/gh-ost00/CVE-2024-28987-POC)
 - [horizon3ai/CVE-2024-28987](https://github.com/horizon3ai/CVE-2024-28987)
 - [alecclyde/CVE-2024-28987](https://github.com/alecclyde/CVE-2024-28987)
+- [Darabium/CVE-2024-28987](https://github.com/Darabium/CVE-2024-28987)
 
 ### CVE-2024-28995 (2024-06-06)
 
@@ -25508,7 +25531,6 @@
 - [AliHj98/cve-2024-38063-Anonyvader](https://github.com/AliHj98/cve-2024-38063-Anonyvader)
 - [Dragkob/CVE-2024-38063](https://github.com/Dragkob/CVE-2024-38063)
 - [fredagsguf/Windows-CVE-2024-38063](https://github.com/fredagsguf/Windows-CVE-2024-38063)
-- [jip-0-0-0-0-0/CVE-2024-38063-scanner](https://github.com/jip-0-0-0-0-0/CVE-2024-38063-scanner)
 - [Skac44/CVE-2024-38063](https://github.com/Skac44/CVE-2024-38063)
 - [thealice01/CVE-2024-38063](https://github.com/thealice01/CVE-2024-38063)
 - [AvidanMaatuk/CVE-2024-38063](https://github.com/AvidanMaatuk/CVE-2024-38063)
@@ -29214,6 +29236,7 @@
 </code>
 
 - [twwd/CVE-2023-0264](https://github.com/twwd/CVE-2023-0264)
+- [ElianGonzi00/pocKeycloakCVE-2023-0264](https://github.com/ElianGonzi00/pocKeycloakCVE-2023-0264)
 
 ### CVE-2023-0266 (2023-01-30)
 
@@ -29377,7 +29400,6 @@
 </code>
 
 - [diego-tella/CVE-2023-1326-PoC](https://github.com/diego-tella/CVE-2023-1326-PoC)
-- [Pol-Ruiz/CVE-2023-1326](https://github.com/Pol-Ruiz/CVE-2023-1326)
 - [h3x0v3rl0rd/CVE-2023-1326](https://github.com/h3x0v3rl0rd/CVE-2023-1326)
 - [cve-2024/CVE-2023-1326-PoC](https://github.com/cve-2024/CVE-2023-1326-PoC)
 
