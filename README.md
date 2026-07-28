@@ -1689,14 +1689,14 @@
 <code>A use after free issue was addressed with improved memory management. This issue is fixed in iOS 18.7.7 and iPadOS 18.7.7, iOS 26.3 and iPadOS 26.3, macOS Sequoia 15.7.5, macOS Sonoma 14.8.5, macOS Tahoe 26.3, tvOS 26.3, visionOS 26.3, watchOS 26.3. An app may be able to cause unexpected system termination.
 </code>
 
-- [zeroxjf/CVE-2026-20637-AppleSEPKeyStore-UAF](https://github.com/zeroxjf/CVE-2026-20637-AppleSEPKeyStore-UAF)
+- [0xjohnnydev/CVE-2026-20637-AppleSEPKeyStore-UAF](https://github.com/0xjohnnydev/CVE-2026-20637-AppleSEPKeyStore-UAF)
 
 ### CVE-2026-20643 (2026-03-17)
 
 <code>A cross-origin issue in the Navigation API was addressed with improved input validation. This issue is fixed in Background Security Improvements for iOS, iPadOS, and macOS, Safari 26.4, iOS 18.7.7 and iPadOS 18.7.7, iOS 26.4 and iPadOS 26.4, macOS Tahoe 26.4, visionOS 26.4. Processing maliciously crafted web content may bypass Same Origin Policy.
 </code>
 
-- [zeroxjf/WebKit-NavigationAPI-SOP-Bypass](https://github.com/zeroxjf/WebKit-NavigationAPI-SOP-Bypass)
+- [0xjohnnydev/WebKit-NavigationAPI-SOP-Bypass](https://github.com/0xjohnnydev/WebKit-NavigationAPI-SOP-Bypass)
 
 ### CVE-2026-20700 (2026-02-11)
 
@@ -2424,7 +2424,7 @@
 <code>A memory corruption vulnerability was addressed with improved locking. This issue is fixed in iOS 18.7.9 and iPadOS 18.7.9, iOS 26.5 and iPadOS 26.5, macOS Sequoia 15.7.7, macOS Sonoma 14.8.7, macOS Tahoe 26.5, tvOS 26.5, visionOS 26.5, watchOS 26.5. An attacker may be able to cause unexpected app termination.
 </code>
 
-- [zeroxjf/CVE-2026-28992-IOHIDFamily-FastPathUserClient-Race-Conditions](https://github.com/zeroxjf/CVE-2026-28992-IOHIDFamily-FastPathUserClient-Race-Conditions)
+- [0xjohnnydev/CVE-2026-28992-IOHIDFamily-FastPathUserClient-Race-Conditions](https://github.com/0xjohnnydev/CVE-2026-28992-IOHIDFamily-FastPathUserClient-Race-Conditions)
 - [clogan9019-dotcom/IOHIDFamily-PoC-Research](https://github.com/clogan9019-dotcom/IOHIDFamily-PoC-Research)
 
 ### CVE-2026-28995 (2026-05-11)
@@ -3401,6 +3401,13 @@
 
 - [HORKimhab/CVE-2026-39813](https://github.com/HORKimhab/CVE-2026-39813)
 
+### CVE-2026-39875 (2026-07-27)
+
+<code>A permissions issue was addressed with additional restrictions. This issue is fixed in macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.6. A malicious app may be able to gain root privileges.
+</code>
+
+- [mac-123456789-lab/CVE-2026-39875-macOS-CUPS-LPE](https://github.com/mac-123456789-lab/CVE-2026-39875-macOS-CUPS-LPE)
+
 ### CVE-2026-39938 (2026-06-24)
 
 <code>Cacti is an open source performance and fault management framework. Versions 1.2.30 and prior have unauthenticated LFI through graph_theme and rrdtool IPC serialization hardening. This issue has been resolved in version 1.2.31.
@@ -3420,6 +3427,13 @@
 - [0xdeadroot/CVE-2026-39987-marimo-rce](https://github.com/0xdeadroot/CVE-2026-39987-marimo-rce)
 - [M3PH1569/CVE-2026-39987-POC](https://github.com/M3PH1569/CVE-2026-39987-POC)
 - [HORKimhab/CVE-2026-39987](https://github.com/HORKimhab/CVE-2026-39987)
+
+### CVE-2026-40000 (2026-07-27)
+
+<code>The Activity zte.com.cn.filer/zte.com.cn.filer.FilePreViewActivity within ZTE File Manager is designed to preview compressed files. Third-party applications can launch this Activity and supply arbitrary file paths (e.g., content://zte.com.cn.filer.fileprovider/root_path), enabling file access with the privilege level of ZTE File Manager. This allows unrooted devices to read files under certain system directories such as /data/data and /data/local/tmp. If access restrictions do not block untrusted applications, additional directories may also be accessible.
+</code>
+
+- [Skorpion96/CVE-2026-40000](https://github.com/Skorpion96/CVE-2026-40000)
 
 ### CVE-2026-40022 (2026-04-27)
 
@@ -4042,21 +4056,21 @@
 
 ### CVE-2026-43700 (2026-06-29)
 
-<code>A cross-origin issue was addressed with improved tracking of security origins. This issue is fixed in Safari 26.5.2, iOS 26.5.2 and iPadOS 26.5.2, macOS Tahoe 26.5.2. Processing maliciously crafted web content may disclose sensitive user information.
+<code>A cross-origin issue was addressed with improved tracking of security origins. This issue is fixed in Safari 26.5.2, iOS 26.5.2 and iPadOS 26.5.2, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. Processing maliciously crafted web content may disclose sensitive user information.
 </code>
 
 - [dem0ns/CVE-2026-43700](https://github.com/dem0ns/CVE-2026-43700)
 
 ### CVE-2026-43724 (2026-06-29)
 
-<code>The issue was addressed with improved input sanitization. This issue is fixed in iOS 26.5.2 and iPadOS 26.5.2, macOS Tahoe 26.5.2. An app may be able to cause unexpected system termination or write kernel memory.
+<code>The issue was addressed with improved input sanitization. This issue is fixed in iOS 26.5.2 and iPadOS 26.5.2, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. An app may be able to cause unexpected system termination or write kernel memory.
 </code>
 
 - [impost0r/Rie](https://github.com/impost0r/Rie)
 
 ### CVE-2026-43735 (2026-06-29)
 
-<code>The issue was addressed with improved checks. This issue is fixed in Safari 26.5.2, iOS 26.5.2 and iPadOS 26.5.2, macOS Tahoe 26.5.2. A malicious website may exfiltrate data cross-origin.
+<code>The issue was addressed with improved checks. This issue is fixed in Safari 26.5.2, iOS 26.5.2 and iPadOS 26.5.2, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. A malicious website may exfiltrate data cross-origin.
 </code>
 
 - [dem0ns/CVE-2026-43735](https://github.com/dem0ns/CVE-2026-43735)
@@ -4747,7 +4761,11 @@
 
 - [Hunt-Benito/traefik-stripprefix-auth-bypass-cve-2026-48020-path-normalization](https://github.com/Hunt-Benito/traefik-stripprefix-auth-bypass-cve-2026-48020-path-normalization)
 
-### CVE-2026-48030
+### CVE-2026-48030 (2026-07-27)
+
+<code>Pheditor is a single-file editor and file manager written in PHP. From version 2.0.1 to before version 2.0.4, an OS Command Injection vulnerability in the terminal action handler allows any authenticated user to execute arbitrary OS commands by injecting shell metacharacters into the 'dir' POST parameter, completely bypassing the TERMINAL_COMMANDS whitelist and achieving full Remote Code Execution with web server privileges. This issue has been patched in version 2.0.4.
+</code>
+
 - [muslimbek-0x/CVE-2026-48030](https://github.com/muslimbek-0x/CVE-2026-48030)
 
 ### CVE-2026-48095 (2026-06-05)
@@ -5348,10 +5366,18 @@
 
 - [Arturo0x90/CVE-2026-51385](https://github.com/Arturo0x90/CVE-2026-51385)
 
-### CVE-2026-51564
+### CVE-2026-51564 (2026-07-27)
+
+<code>An issue in the redirect parameter in Milk admin &lt;=0.9.8 allows remote attackers to redirect users to arbitrary external URLs via a crafted request.
+</code>
+
 - [1337Skid/CVE-2026-51564](https://github.com/1337Skid/CVE-2026-51564)
 
-### CVE-2026-51565
+### CVE-2026-51565 (2026-07-27)
+
+<code>Cross-site scripting (XSS) vulnerability in Modules/Docs/DocsController.php in Milk admin &lt;=0.9.8 allows remote attackers to inject arbitrary web script or HTML via the action parameter in a crafted request
+</code>
+
 - [1337Skid/CVE-2026-51565](https://github.com/1337Skid/CVE-2026-51565)
 
 ### CVE-2026-51592
@@ -5708,7 +5734,11 @@
 ### CVE-2026-55511
 - [junfuture1103/CVE-2026-55511](https://github.com/junfuture1103/CVE-2026-55511)
 
-### CVE-2026-55579
+### CVE-2026-55579 (2026-07-27)
+
+<code>Pheditor is a single-file editor and file manager written in PHP. From version 2.0.1 to before version 2.0.6, Pheditor ships with a hardcoded default password admin (SHA-512 hash stored at pheditor.php:11). There is no mechanism to force a password change on first login. Any deployment using the default credentials grants an attacker full access to the file editor, file upload, and terminal features, enabling arbitrary file read/write and remote code execution. This issue has been patched in version 2.0.6.
+</code>
+
 - [Ch4120N/CVE-2026-55579](https://github.com/Ch4120N/CVE-2026-55579)
 
 ### CVE-2026-55584
@@ -6067,6 +6097,7 @@
 - [shinthink/CVE-2026-63030](https://github.com/shinthink/CVE-2026-63030)
 - [imXur/WordPress-CVE-2026-63030-Analysis](https://github.com/imXur/WordPress-CVE-2026-63030-Analysis)
 - [yuag/wp2shell](https://github.com/yuag/wp2shell)
+- [BytesPulse-OE/wp2shell-Hestia-Scanner](https://github.com/BytesPulse-OE/wp2shell-Hestia-Scanner)
 
 ### CVE-2026-63766 (2026-07-20)
 
@@ -12542,7 +12573,7 @@
 </code>
 
 - [jir4vv1t/CVE-2025-43529](https://github.com/jir4vv1t/CVE-2025-43529)
-- [zeroxjf/WebKit-UAF-ANGLE-OOB-Analysis](https://github.com/zeroxjf/WebKit-UAF-ANGLE-OOB-Analysis)
+- [0xjohnnydev/WebKit-UAF-ANGLE-OOB-Analysis](https://github.com/0xjohnnydev/WebKit-UAF-ANGLE-OOB-Analysis)
 - [sakyu7/sakyu7.github.io](https://github.com/sakyu7/sakyu7.github.io)
 - [SimoesCTT/Convergent-Time-Theory-Enhanced-iOS-Safari-RCE-CVE-2025-43529-](https://github.com/SimoesCTT/Convergent-Time-Theory-Enhanced-iOS-Safari-RCE-CVE-2025-43529-)
 - [SimoesCTT/CTT-Apple-Silicon-Refraction](https://github.com/SimoesCTT/CTT-Apple-Silicon-Refraction)
@@ -16613,6 +16644,7 @@
 - [MehdiChyhab/CVE-2025-64512-exploit](https://github.com/MehdiChyhab/CVE-2025-64512-exploit)
 - [Cosm3No1de/Bedside.htb_solved](https://github.com/Cosm3No1de/Bedside.htb_solved)
 - [stoic-crawler/CVE-2025-64512](https://github.com/stoic-crawler/CVE-2025-64512)
+- [saadhassan77/CVE-2025-64512---pdfminer.six-Remote-Code-Execution-RCE-](https://github.com/saadhassan77/CVE-2025-64512---pdfminer.six-Remote-Code-Execution-RCE-)
 
 ### CVE-2025-64513 (2025-11-10)
 
@@ -17351,13 +17383,6 @@
 </code>
 
 - [mbanyamer/CVE-2025-67644-LangGraph-3.0.1-SQLite-Checkpoint-SQL-Injection](https://github.com/mbanyamer/CVE-2025-67644-LangGraph-3.0.1-SQLite-Checkpoint-SQL-Injection)
-
-### CVE-2025-67730 (2025-12-12)
-
-<code>Frappe Learning Management System (LMS) is a learning system that helps users structure their content. Versions prior to 2.42.0 allow authenticated users to add malicious HTML and JavaScript through description fields in the Job, Course and Batch forms. This issue is fixed in version 2.42.0.
-</code>
-
-- [Dharan10/CVE-2025-67730](https://github.com/Dharan10/CVE-2025-67730)
 
 ### CVE-2025-67733 (2026-02-23)
 
@@ -30737,7 +30762,6 @@
 </code>
 
 - [yoryio/CVE-2023-7028](https://github.com/yoryio/CVE-2023-7028)
-- [mochammadrafi/CVE-2023-7028](https://github.com/mochammadrafi/CVE-2023-7028)
 - [hackeremmen/gitlab-exploit](https://github.com/hackeremmen/gitlab-exploit)
 - [soltanali0/CVE-2023-7028](https://github.com/soltanali0/CVE-2023-7028)
 - [gh-ost00/CVE-2023-7028](https://github.com/gh-ost00/CVE-2023-7028)
@@ -31958,6 +31982,7 @@
 - [helleflo1312/Orchestrated-Powershell-for-CVE-2023-24932](https://github.com/helleflo1312/Orchestrated-Powershell-for-CVE-2023-24932)
 - [ajf8729/BlackLotus](https://github.com/ajf8729/BlackLotus)
 - [v1ckxy/Orchestrated-Powershell-for-CVE-2023-24932-en](https://github.com/v1ckxy/Orchestrated-Powershell-for-CVE-2023-24932-en)
+- [ETS-MSE/secure-boot-cert-servicing](https://github.com/ETS-MSE/secure-boot-cert-servicing)
 
 ### CVE-2023-24955 (2023-05-09)
 
