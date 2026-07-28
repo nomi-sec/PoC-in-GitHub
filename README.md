@@ -1056,6 +1056,7 @@
 - [0xdak/CVE-2026-9198_exploit](https://github.com/0xdak/CVE-2026-9198_exploit)
 - [ywh-jfellus/CVE-2026-9198](https://github.com/ywh-jfellus/CVE-2026-9198)
 - [0xgh057r3c0n/CVE-2026-9198](https://github.com/0xgh057r3c0n/CVE-2026-9198)
+- [samael0x4/CVE-2026-9198](https://github.com/samael0x4/CVE-2026-9198)
 
 ### CVE-2026-9256 (2026-05-22)
 
@@ -1484,6 +1485,13 @@
 </code>
 
 - [tc4dy/CVE-2026-14762-PoC-Exploit](https://github.com/tc4dy/CVE-2026-14762-PoC-Exploit)
+
+### CVE-2026-14856 (2026-07-27)
+
+<code>A stored Cross-Site Scripting (XSS) vulnerability in the file upload functionality of the Media Manager in TastyIgniter v4.3.0, caused by insufficient validation and sanitization of SVG files. An authenticated user with low privileges can upload a malicious SVG file containing JavaScript code. When an administrator views that file, the code executes in the context of their browser. By chaining this vulnerability with a Cross-Site Request Forgery (CSRF) attack, an attacker can extract the administrator’s CSRF token and perform unauthorized actions—such as modifying credentials—thereby gaining full control of the administrative account.
+</code>
+
+- [jonas-fernandez-as/CVE-2026-14856-TastyIgniter](https://github.com/jonas-fernandez-as/CVE-2026-14856-TastyIgniter)
 
 ### CVE-2026-14871 (2026-07-17)
 
@@ -2392,6 +2400,13 @@
 </code>
 
 - [Alardiians/gitea-CVE-2026-28699](https://github.com/Alardiians/gitea-CVE-2026-28699)
+
+### CVE-2026-28755 (2026-03-24)
+
+<code>NGINX Plus and NGINX Open Source have a vulnerability in the ngx_stream_ssl_module module due to the improper handling of revoked certificates when configured with the ssl_verify_client on and ssl_ocsp on directives, allowing the TLS handshake to succeed even after an OCSP check identifies the certificate as revoked.   \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [ChPratik/NGINX_2026_CVE_Bundle_CTI_Report](https://github.com/ChPratik/NGINX_2026_CVE_Bundle_CTI_Report)
 
 ### CVE-2026-28766 (2026-04-03)
 
@@ -4008,6 +4023,7 @@
 - [soralis0912/CVE-2026-43499-pmg110-root](https://github.com/soralis0912/CVE-2026-43499-pmg110-root)
 - [dnlid/CVE-2026-43499](https://github.com/dnlid/CVE-2026-43499)
 - [KawaiiHachimi/CVE-2026-43499-pkb110](https://github.com/KawaiiHachimi/CVE-2026-43499-pkb110)
+- [Witaqua-tools/Root-My-Device](https://github.com/Witaqua-tools/Root-My-Device)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -5479,6 +5495,13 @@
 
 - [lottiedeyan/CVE-2026-53075poc](https://github.com/lottiedeyan/CVE-2026-53075poc)
 
+### CVE-2026-53264 (2026-06-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: act_api: use RCU with deferred freeing for action lifecycle\n\nWhen NEWTFILTER and DELFILTER are run concurrently it is possible to create a\nrace with an associated action.\n\nLet's illustrate with CPU0 running NEWTFILTER and CPU1 running DELFILTER:\n\n 0: mutex_lock() &lt;-- holds the idr lock\n 0: rcu_read_lock()\n 0: p = idr_find(idr, index) &lt;-- action p is valid (RCU protects IDR)\n 0: mutex_unlock() &lt;-- releases the idr lock\n 1: refcount_dec_and_mutex_lock() &lt;-- refcnt 1-&gt;0, mutex held\n 1: idr_remove(idr, index) &lt;-- Action removed from IDR\n 1: mutex_unlock() &lt;-- mutex released allowing us to delete the action\n 1: tcf_action_cleanup(p); kfree(p) &lt;-- Kfrees p immediately, no deferral\n 0: refcount_inc_not_zero(&amp;p-&gt;tcfa_refcnt) &lt;-- ouch, UAF p points to freed memory\n\nThis patch fixes the race condition between NEWTFILTER and DELFILTER by\nadding struct rcu_head to tc_action used in the deferral and introducing a\ncall_rcu() in the delete path to defer the final kfree().\n\nNote: this is a revert of commit d7fb60b9cafb (&quot;net_sched: get rid of tcfa_rcu&quot;)\nbut also modernization/simplification to directly use kfree_rcu().\n\nLet's illustrate the new restored code path:\n\n 0: rcu_read_lock()\n 1: refcount_dec_and_mutex_lock() &lt;-- refcnt 1-&gt;0, mutex held\n 1: idr_remove(idr, index)\n 1: mutex_unlock()\n 1: call_rcu(&amp;p-&gt;tcfa_rcu, tcf_action_rcu_free) &lt;-- defer kfree after grace period\n 0: p = idr_find(idr, index)\n 0: refcount_inc_not_zero(&amp;p-&gt;tcfa_refcnt) &lt;-- fails, refcnt already 0\n 1: rcu_read_unlock() &lt;-- release so freeing can run after grace period\n\nAfter CPU1 calls idr_remove(), the object is no longer reachable through the IDR.\nCPU0's subsequent idr_find() will return NULL, and even if it still held a\nstale pointer, the immediate kfree() is now deferred until after the RCU grace\nperiod, so no UAF can occur.
+</code>
+
+- [HORKimhab/CVE-2026-53264](https://github.com/HORKimhab/CVE-2026-53264)
+
 ### CVE-2026-53359 (2026-07-04)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: x86: Fix shadow paging use-after-free due to unexpected role\n\nCommit 0cb2af2ea66ad (&quot;KVM: x86: Fix shadow paging use-after-free due\nto unexpected GFN&quot;) fixed a shadow paging mismatch between stored and\ncomputed GFNs; the bug could be triggered by changing a PDE mapping from\noutside the guest, and then deleting a memslot.  The rmap_remove()\ncall would miss entries created after the PDE change because the GFN\nof the leaf SPTE does not match the GFN of the struct kvm_mmu_page.\n\nA similar hole however remains if the modified PDE points to a non-leaf\npage.  In this case the gfn can be made to match, but the role does not\nmatch: the original large 2MB page creates a kvm_mmu_page with direct=1,\nwhile the new 4KB needs a kvm_mmu_page with direct=0.  However,\nkvm_mmu_get_child_sp() does not compare the role, and therefore reuses\nthe page.\n\nThe next step is installing a leaf (4KB) SPTE on the new path which\nrecords an rmap entry under the gfn resolved by the walk.  But when\nthat child is zapped its parent kvm_mmu_page has direct=1 and\nkvm_mmu_page_get_gfn() computes the gfn for the 4KB page as\nsp-&gt;gfn + index instead of using sp-&gt;shadowed_translation[] (or sp-&gt;gfns[]\nin older kernels).  It therefore fails to remove the recorded entry.\n\nWhen the memslot is dropped the shadow page is freed but the rmap\nentry survives, as in the scenario that was already fixed.  Code that\nlater walks that gfn (dirty logging, MMU notifier invalidation, and\nso on) dereferences an sptep that lies in the freed page, causing the\nuse-after-free.
@@ -5960,6 +5983,13 @@
 
 - [shinthink/CVE-2026-58480](https://github.com/shinthink/CVE-2026-58480)
 
+### CVE-2026-58586 (2026-07-24)
+
+<code>Image::WebP versions through 0.2 for Perl bundle a vulnerable version of libwebp.\n\nImage::WebP does not link to the system libwebp. Instead, it uses a bundled copy of libwebp 0.3.0 (released 2013-03-20). That version has multiple known vulnerabilities, including CVE-2023-4863.\n\nAny caller that decodes an untrusted WebP image reaches the bundled decoder. Because the library is compiled into the module, upgrading the system libwebp does not remediate this.
+</code>
+
+- [extratao/Image-WebP](https://github.com/extratao/Image-WebP)
+
 ### CVE-2026-58635 (2026-07-14)
 
 <code>Improper neutralization of special elements used in a command ('command injection') in Windows Narrator Braille allows an authorized attacker to elevate privileges locally.
@@ -5981,6 +6011,13 @@
 
 - [c0gnit00/CVE-2026-59827](https://github.com/c0gnit00/CVE-2026-59827)
 - [pickl31/CVE-2026-59827](https://github.com/pickl31/CVE-2026-59827)
+
+### CVE-2026-59891 (2026-07-14)
+
+<code>sigstore-js provides JavaScript libraries for interacting with Sigstore services. Prior to 0.7.1, getRegistryCredentials() reads credentials from the Docker config file and selects an entry by checking whether any configured auth key contains the target registry string. Because this is a substring match rather than an exact host match, credentials configured for one registry can be selected for and transmitted to a different registry whose hostname has a substring relationship with a configured auth key. This issue is fixed in version 0.7.1.
+</code>
+
+- [gyubin02/cve-2026-59891-control-lab](https://github.com/gyubin02/cve-2026-59891-control-lab)
 
 ### CVE-2026-60121 (2026-07-13)
 
@@ -6025,6 +6062,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-61511](https://github.com/HORKimhab/CVE-2026-61511)
+- [puj790201-lab/cve-2026-61511](https://github.com/puj790201-lab/cve-2026-61511)
 
 ### CVE-2026-61946 (2026-07-23)
 
@@ -6127,6 +6165,15 @@
 - [HORKimhab/CVE-2026-64600](https://github.com/HORKimhab/CVE-2026-64600)
 - [vulnquest58/VQ-RefluxCore](https://github.com/vulnquest58/VQ-RefluxCore)
 - [Debajyoti0-0/CVE-2026-64600](https://github.com/Debajyoti0-0/CVE-2026-64600)
+- [bha-vin/CVE-2026-64600-Exploit](https://github.com/bha-vin/CVE-2026-64600-Exploit)
+- [letsr00t/RefluxFS_CVE-2026-64600](https://github.com/letsr00t/RefluxFS_CVE-2026-64600)
+
+### CVE-2026-64725 (2026-07-27)
+
+<code>An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 26.6 and iPadOS 26.6, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.6, tvOS 26.6, visionOS 26.6, watchOS 26.6. An app may be able to cause a denial-of-service.
+</code>
+
+- [altvist/cve-2026-64725-poc](https://github.com/altvist/cve-2026-64725-poc)
 
 ### CVE-2026-65008 (2026-07-21)
 
@@ -6155,6 +6202,13 @@
 </code>
 
 - [shinthink/CVE-2026-65761](https://github.com/shinthink/CVE-2026-65761)
+
+### CVE-2026-65893 (2026-07-27)
+
+<code>This vulnerability exists in CP PLUS EZ-P21 IP Camera due to an insecure debug feature enabled in the firmware.\n\nAn attacker with physical access could exploit this vulnerability by placing arbitrary code on removable media and triggering their execution through the debug mechanism.\n\n\n\nSuccessful exploitation of this vulnerability could allow an attacker to execute arbitrary code with elevated privileges on the targeted device.
+</code>
+
+- [CyberVinner/CP-PLUS-EZ-P21-CVE-2026-65893-65894](https://github.com/CyberVinner/CP-PLUS-EZ-P21-CVE-2026-65893-65894)
 
 ### CVE-2026-65971
 - [BiiTts/POC-CVE-2026-65971](https://github.com/BiiTts/POC-CVE-2026-65971)
@@ -8302,7 +8356,6 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-WatchGuard-CVE-2025-9242](https://github.com/watchtowrlabs/watchTowr-vs-WatchGuard-CVE-2025-9242)
-- [UnusualGiraffe/WatchGuard-CVE-2025-9242-PoC-and-Mass-Scanner](https://github.com/UnusualGiraffe/WatchGuard-CVE-2025-9242-PoC-and-Mass-Scanner)
 
 ### CVE-2025-9267 (2025-09-26)
 
@@ -9562,7 +9615,7 @@
 - [zhuowei/cheese](https://github.com/zhuowei/cheese)
 - [sarabpal-dev/cheese-cake](https://github.com/sarabpal-dev/cheese-cake)
 - [ma4the/omae-wa-cheese-da](https://github.com/ma4the/omae-wa-cheese-da)
-- [CamsShaft/SELinux-Permissive-Only-version-of-Cheese-aka-CVE-2025-21479](https://github.com/CamsShaft/SELinux-Permissive-Only-version-of-Cheese-aka-CVE-2025-21479)
+- [CamsShaft/SELinux-Permissive-Only-CVE-2025-21479](https://github.com/CamsShaft/SELinux-Permissive-Only-CVE-2025-21479)
 
 ### CVE-2025-21574 (2025-04-15)
 
@@ -18065,6 +18118,13 @@
 
 ### CVE-2025-71384
 - [Scorpion-Security-Labs/CVE-2025-71384](https://github.com/Scorpion-Security-Labs/CVE-2025-71384)
+
+### CVE-2025-71389 (2026-07-23)
+
+<code>Cal.com (calcom/cal.diy) before 5.9.9 is vulnerable to unauthenticated remote code execution because it bundles a version of Next.js whose React Server Components (RSC) request handling deserializes attacker-controlled input. A remote attacker can send a crafted RSC request to the server and cause arbitrary code to be executed during server-side processing, without authentication or user interaction. The flaw derives from the upstream Next.js vulnerability CVE-2025-55182 and is resolved in 5.9.9 by updating the affected dependency.
+</code>
+
+- [0xdak/CVE-2025-71389_exploit](https://github.com/0xdak/CVE-2025-71389_exploit)
 
 ### CVE-2025-81110
 - [BridgerAlderson/CVE-2025-81110-PoC](https://github.com/BridgerAlderson/CVE-2025-81110-PoC)
@@ -29835,6 +29895,13 @@
 
 - [TurtleARM/CVE-2023-3338-DECPwn](https://github.com/TurtleARM/CVE-2023-3338-DECPwn)
 
+### CVE-2023-3350 (2023-10-03)
+
+<code>A Cryptographic Issue vulnerability has been found on IBERMATICA RPS, affecting version 2019. By firstly downloading the log file, an attacker could retrieve the SQL query sent to the application in plaint text. This log file contains the password hashes coded with AES-CBC-128 bits algorithm, which can be decrypted with a .NET function, obtaining the username's password in plain text.
+</code>
+
+- [itres-labs/CVE-2023-3350](https://github.com/itres-labs/CVE-2023-3350)
+
 ### CVE-2023-3390 (2023-06-28)
 
 <code>A use-after-free vulnerability was found in the Linux kernel's netfilter subsystem in net/netfilter/nf_tables_api.c.\n\nMishandled error handling with NFT_MSG_NEWRULE makes it possible to use a dangling pointer in the same transaction causing a use-after-free vulnerability. This flaw allows a local attacker with user access to cause a privilege escalation issue.\n\nWe recommend upgrading past commit 1240eb93f0616b21c675416516ff3d74798fdc97
@@ -36734,13 +36801,6 @@
 
 - [yifanzhg/CVE-2023-45158](https://github.com/yifanzhg/CVE-2023-45158)
 
-### CVE-2023-45182 (2023-12-14)
-
-<code>\nIBM i Access Client Solutions 1.1.2 through 1.1.4 and 1.1.4.3 through 1.1.9.3 is vulnerable to having its key for an encrypted password decoded. By somehow gaining access to the encrypted password, a local attacker could exploit this vulnerability to obtain the password to other systems. IBM X-Force ID: 268265.\n\n
-</code>
-
-- [afine-com/CVE-2023-45182](https://github.com/afine-com/CVE-2023-45182)
-
 ### CVE-2023-45184 (2023-12-14)
 
 <code>IBM i Access Client Solutions 1.1.2 through 1.1.4 and 1.1.4.3 through 1.1.9.3 could allow an attacker to obtain a decryption key due to improper authority checks.  IBM X-Force ID:  268270.
@@ -42503,6 +42563,13 @@
 </code>
 
 - [Haniwa0x01/CVE-2022-30023](https://github.com/Haniwa0x01/CVE-2022-30023)
+
+### CVE-2022-30024 (2022-07-14)
+
+<code>A buffer overflow in the httpd daemon on TP-Link TL-WR841N V12 (firmware version 3.16.9) devices allows an authenticated remote attacker to execute arbitrary code via a GET request to the page for the System Tools of the Wi-Fi network. This affects TL-WR841 V12 TL-WR841N(EU)_V12_160624 and TL-WR841 V11 TL-WR841N(EU)_V11_160325 , TL-WR841N_V11_150616 and TL-WR841 V10 TL-WR841N_V10_150310 are also affected.
+</code>
+
+- [ilizavr/CVE-2022-30024](https://github.com/ilizavr/CVE-2022-30024)
 
 ### CVE-2022-30040 (2022-05-11)
 
@@ -52897,7 +52964,6 @@
 - [intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner)
 - [jamf/CVE-2020-0796-RCE-POC](https://github.com/jamf/CVE-2020-0796-RCE-POC)
 - [thelostworldFree/CVE-2020-0796](https://github.com/thelostworldFree/CVE-2020-0796)
-- [section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796)
 - [bacth0san96/SMBGhostScanner](https://github.com/bacth0san96/SMBGhostScanner)
 - [halsten/CVE-2020-0796](https://github.com/halsten/CVE-2020-0796)
 - [ysyyrps123/CVE-2020-0796](https://github.com/ysyyrps123/CVE-2020-0796)
@@ -53327,9 +53393,6 @@
 </code>
 
 - [shoucheng3/jenkinsci__perfecto-plugin_CVE-2020-2261_1-17](https://github.com/shoucheng3/jenkinsci__perfecto-plugin_CVE-2020-2261_1-17)
-
-### CVE-2020-2333
-- [section-c/CVE-2020-2333](https://github.com/section-c/CVE-2020-2333)
 
 ### CVE-2020-2509 (2021-04-17)
 
@@ -53881,9 +53944,6 @@
 
 - [gigachadusers/cve-2020-6864](https://github.com/gigachadusers/cve-2020-6864)
 
-### CVE-2020-6888
-- [section-c/CVE-2020-6888](https://github.com/section-c/CVE-2020-6888)
-
 ### CVE-2020-7048 (2020-01-16)
 
 <code>The WordPress plugin, WP Database Reset through 3.1, contains a flaw that allowed any unauthenticated user to reset any table in the database to the initial WordPress set-up state (deleting all site content stored in that table), as demonstrated by a wp-admin/admin-post.php?db-reset-tables[]=comments URI.
@@ -54088,6 +54148,7 @@
 - [NMinhTrung/LIFERAY-CVE-2020-7961](https://github.com/NMinhTrung/LIFERAY-CVE-2020-7961)
 - [neverhavenamee/CVE-2020-7961](https://github.com/neverhavenamee/CVE-2020-7961)
 - [d4ngkh04w/CVE-2020-7961](https://github.com/d4ngkh04w/CVE-2020-7961)
+- [dinosn/liferay-ga4-rce-research](https://github.com/dinosn/liferay-ga4-rce-research)
 
 ### CVE-2020-7980 (2020-01-25)
 
