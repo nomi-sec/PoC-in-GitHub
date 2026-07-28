@@ -706,13 +706,6 @@
 
 - [jackalkarlos/EvilAhenk](https://github.com/jackalkarlos/EvilAhenk)
 
-### CVE-2026-6664 (2026-05-09)
-
-<code>An integer overflow in network packet parsing code in PgBouncer before 1.25.2 bypasses a boundary check and can lead to a crash. An unauthenticated remote attacker can crash PgBouncer with a malformed SCRAM authentication packet.
-</code>
-
-- [nicolasjulian/bouncer-overflow](https://github.com/nicolasjulian/bouncer-overflow)
-
 ### CVE-2026-6741 (2026-04-27)
 
 <code>The LatePoint – Calendar Booking Plugin for Appointments and Events plugin for WordPress is vulnerable to Privilege Escalation in versions up to and including 5.4.1. This is due to a missing authorization check in the execute() method of the connect-customer-to-wp-user ability, which only requires the customer__edit capability granted to the latepoint_agent role by default, without verifying whether the target WordPress user ID belongs to a privileged account. This makes it possible for authenticated attackers with the latepoint_agent role to link any LatePoint customer record to an administrator's WordPress account and subsequently reset the administrator's password via the normal customer password-reset flow, resulting in full site takeover.
@@ -909,6 +902,7 @@
 - [Jenderal92/CVE-2026-8206](https://github.com/Jenderal92/CVE-2026-8206)
 - [rootdirective-sec/CVE-2026-8206-Lab](https://github.com/rootdirective-sec/CVE-2026-8206-Lab)
 - [izxci/CVE-2026-8206](https://github.com/izxci/CVE-2026-8206)
+- [Dungsocool/CVE-2026-8206](https://github.com/Dungsocool/CVE-2026-8206)
 
 ### CVE-2026-8380 (2026-06-26)
 
@@ -1586,6 +1580,7 @@
 
 - [dinosn/fastjson-jsontype-rce-lab](https://github.com/dinosn/fastjson-jsontype-rce-lab)
 - [HORKimhab/CVE-2026-16723](https://github.com/HORKimhab/CVE-2026-16723)
+- [why-success/fastjson-rce-lab](https://github.com/why-success/fastjson-rce-lab)
 
 ### CVE-2026-20127 (2026-02-25)
 
@@ -2306,6 +2301,13 @@
 
 - [DexSemon/CVE-2026-27495](https://github.com/DexSemon/CVE-2026-27495)
 
+### CVE-2026-27577 (2026-02-25)
+
+<code>n8n is an open source workflow automation platform. Prior to versions 2.10.1, 2.9.3, and 1.123.22, additional exploits in the expression evaluation of n8n have been identified and patched following CVE-2025-68613. An authenticated user with permission to create or modify workflows could abuse crafted expressions in workflow parameters to trigger unintended system command execution on the host running n8n. The issues have been fixed in n8n versions 2.10.1, 2.9.3, and 1.123.22. Users should upgrade to one of these versions or later to remediate all known vulnerabilities. If upgrading is not immediately possible, administrators should consider the following temporary mitigations. Limit workflow creation and editing permissions to fully trusted users only, and/or deploy n8n in a hardened environment with restricted operating system privileges and network access to reduce the impact of potential exploitation. These workarounds do not fully remediate the risk and should only be used as short-term mitigation measures.
+</code>
+
+- [HORKimhab/CVE-2026-27577](https://github.com/HORKimhab/CVE-2026-27577)
+
 ### CVE-2026-27626 (2026-02-25)
 
 <code>OliveTin gives access to predefined shell commands from a web interface. In versions up to and including 3000.10.0, OliveTin's shell mode safety check (`checkShellArgumentSafety`) blocks several dangerous argument types but not `password`. A user supplying a `password`-typed argument can inject shell metacharacters that execute arbitrary OS commands. A second independent vector allows unauthenticated RCE via webhook-extracted JSON values that skip type safety checks entirely before reaching `sh -c`. When exploiting vector 1, any authenticated user (registration enabled by default, `authType: none` by default) can execute arbitrary OS commands on the OliveTin host with the permissions of the OliveTin process. When exploiting vector 2, an unauthenticated attacker can achieve the same if the instance receives webhooks from external sources, which is a primary OliveTin use case. When an attacker exploits both vectors, this results in unauthenticated RCE on any OliveTin instance using Shell mode with webhook-triggered actions. As of time of publication, a patched version is not available.
@@ -2796,6 +2798,7 @@
 <code>Trivy is a security scanner. On March 19, 2026, a threat actor used compromised credentials to publish a malicious Trivy v0.69.4 release, force-push 76 of 77 version tags in `aquasecurity/trivy-action` to credential-stealing malware, and replace all 7 tags in `aquasecurity/setup-trivy` with malicious commits. This incident is a continuation of the supply chain attack that began in late February 2026. Following the initial disclosure on March 1, credential rotation was performed but was not atomic (not all credentials were revoked simultaneously). The attacker could have use a valid token to exfiltrate newly rotated secrets during the rotation window (which lasted a few days). This could have allowed the attacker to retain access and execute the March 19 attack. Affected components include the `aquasecurity/trivy` Go / Container image version 0.69.4, the `aquasecurity/trivy-action` GitHub Action versions 0.0.1 – 0.34.2 (76/77), and the`aquasecurity/setup-trivy` GitHub Action versions 0.2.0 – 0.2.6, prior to the recreation of 0.2.6 with a safe commit. Known safe versions include versions 0.69.2 and 0.69.3 of the Trivy binary, version 0.35.0 of trivy-action, and version 0.2.6 of setup-trivy. Additionally, take other mitigations to ensure the safety of secrets. If there is any possibility that a compromised version ran in one's environment, all secrets accessible to affected pipelines must be treated as exposed and rotated immediately. Check whether one's organization pulled or executed Trivy v0.69.4 from any source. Remove any affected artifacts immediately. Review all workflows using `aquasecurity/trivy-action` or `aquasecurity/setup-trivy`. Those who referenced a version tag rather than a full commit SHA should check workflow run logs from March 19–20, 2026 for signs of compromise. Look for repositories named `tpcp-docs` in one's GitHub organization. The presence of such a repository may indicate that the fallback exfiltration mechanism was triggered and secrets were successfully stolen. Pin GitHub Actions to full, immutable commit SHA hashes, don't use mutable version tags.
 </code>
 
+- [ugurrates/teampcp-supply-chain-attack](https://github.com/ugurrates/teampcp-supply-chain-attack)
 - [dfs333/trivysupplychainanalysis](https://github.com/dfs333/trivysupplychainanalysis)
 
 ### CVE-2026-33697 (2026-03-26)
@@ -4004,6 +4007,7 @@
 - [woshimaniubi8/CVE-2026-43499-root-KernelSU](https://github.com/woshimaniubi8/CVE-2026-43499-root-KernelSU)
 - [soralis0912/CVE-2026-43499-pmg110-root](https://github.com/soralis0912/CVE-2026-43499-pmg110-root)
 - [dnlid/CVE-2026-43499](https://github.com/dnlid/CVE-2026-43499)
+- [KawaiiHachimi/CVE-2026-43499-pkb110](https://github.com/KawaiiHachimi/CVE-2026-43499-pkb110)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -5589,6 +5593,7 @@
 - [tc4dy/CVE-2026-54121-PoC-Exploit](https://github.com/tc4dy/CVE-2026-54121-PoC-Exploit)
 - [GlendonNotGlen/certighost-cve-2026-54121-slides](https://github.com/GlendonNotGlen/certighost-cve-2026-54121-slides)
 - [marcgoam/CVE-2026-54121-CertiGhost](https://github.com/marcgoam/CVE-2026-54121-CertiGhost)
+- [ChPratik/CVE-2026-54121](https://github.com/ChPratik/CVE-2026-54121)
 
 ### CVE-2026-54161
 - [ja-errorpro/CVE-2026-54161](https://github.com/ja-errorpro/CVE-2026-54161)
@@ -6013,6 +6018,13 @@
 </code>
 
 - [nmagill123/CVE-2026-61343-poc-librebooking-rce](https://github.com/nmagill123/CVE-2026-61343-poc-librebooking-rce)
+
+### CVE-2026-61511 (2026-07-27)
+
+<code>vBulletin 5.x through 5.7.5 and 6.x through 6.2.1 contains an eval injection vulnerability in the vB5_Template_Runtime::runMaths() method within the template runtime that allows unauthenticated remote attackers to execute arbitrary PHP code by supplying crafted input through the pagenav[pagenumber] parameter. Attackers can exploit the insufficiently restrictive regex filter by using phpfuck-style encoding with permitted characters to inject and execute arbitrary PHP code via the unauthenticated ajax/render template route without any authentication.
+</code>
+
+- [HORKimhab/CVE-2026-61511](https://github.com/HORKimhab/CVE-2026-61511)
 
 ### CVE-2026-61946 (2026-07-23)
 
@@ -9550,6 +9562,7 @@
 - [zhuowei/cheese](https://github.com/zhuowei/cheese)
 - [sarabpal-dev/cheese-cake](https://github.com/sarabpal-dev/cheese-cake)
 - [ma4the/omae-wa-cheese-da](https://github.com/ma4the/omae-wa-cheese-da)
+- [CamsShaft/SELinux-Permissive-Only-version-of-Cheese-aka-CVE-2025-21479](https://github.com/CamsShaft/SELinux-Permissive-Only-version-of-Cheese-aka-CVE-2025-21479)
 
 ### CVE-2025-21574 (2025-04-15)
 
@@ -17256,13 +17269,6 @@
 
 - [sivaadityacoder/CVE-2025-67146-CVE-2025-67147](https://github.com/sivaadityacoder/CVE-2025-67146-CVE-2025-67147)
 
-### CVE-2025-67158 (2026-01-02)
-
-<code>An authentication bypass in the /cgi-bin/jvsweb.cgi endpoint of Revotech I6032W-FHW v1.0.0014 - 20210517 allows attackers to access sensitive information and escalate privileges via a crafted HTTP request.
-</code>
-
-- [Remenis/CVE-2025-67158](https://github.com/Remenis/CVE-2025-67158)
-
 ### CVE-2025-67159 (2026-01-02)
 
 <code>Vatilon v1.12.37-20240124 was discovered to transmit user credentials in plaintext.
@@ -22368,6 +22374,13 @@
 </code>
 
 - [666asd/CVE-2024-23653](https://github.com/666asd/CVE-2024-23653)
+
+### CVE-2024-23659 (2024-01-19)
+
+<code>SPIP before 4.1.14 and 4.2.x before 4.2.8 allows XSS via the name of an uploaded file. This is related to javascript/bigup.js and javascript/bigup.utils.js.
+</code>
+
+- [amis13/SPIP-CVE-2024-23659-](https://github.com/amis13/SPIP-CVE-2024-23659-)
 
 ### CVE-2024-23666 (2024-11-12)
 
@@ -28670,7 +28683,6 @@
 <code>An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS version 7.0.0 through 7.0.16 and FortiProxy version 7.0.0 through 7.0.19 and 7.2.0 through 7.2.12 allows a remote attacker to gain super-admin privileges via crafted requests to Node.js websocket module.
 </code>
 
-- [watchtowrlabs/fortios-auth-bypass-check-CVE-2024-55591](https://github.com/watchtowrlabs/fortios-auth-bypass-check-CVE-2024-55591)
 - [sysirq/fortios-auth-bypass-poc-CVE-2024-55591](https://github.com/sysirq/fortios-auth-bypass-poc-CVE-2024-55591)
 - [sysirq/fortios-auth-bypass-exploit-CVE-2024-55591](https://github.com/sysirq/fortios-auth-bypass-exploit-CVE-2024-55591)
 - [virus-or-not/CVE-2024-55591](https://github.com/virus-or-not/CVE-2024-55591)
