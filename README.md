@@ -257,6 +257,7 @@
 </code>
 
 - [DeepSecurityResearch/CVE-2026-2586](https://github.com/DeepSecurityResearch/CVE-2026-2586)
+- [GabrielHA12/Glassfish-research](https://github.com/GabrielHA12/Glassfish-research)
 
 ### CVE-2026-2587 (2026-05-19)
 
@@ -1405,7 +1406,6 @@
 <code>The Podlove Podcast Publisher plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'podlove_handle_cache_files' function in all versions up to, and including, 4.5.1. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
 </code>
 
-- [Raimu0x19/CVE-2026-13001](https://github.com/Raimu0x19/CVE-2026-13001)
 - [shinthink/CVE-2026-13001](https://github.com/shinthink/CVE-2026-13001)
 - [ghostpels/CVE-2026-13001](https://github.com/ghostpels/CVE-2026-13001)
 
@@ -1445,7 +1445,11 @@
 
 - [HORKimhab/CVE-2026-14191](https://github.com/HORKimhab/CVE-2026-14191)
 
-### CVE-2026-14266
+### CVE-2026-14266 (2026-07-29)
+
+<code>7-Zip XZ Decompression Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of 7-Zip. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the processing of XZ chunked data. Crafted XZ-compressed data can trigger an overflow of a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-30169.
+</code>
+
 - [hg0434hongzh0/CVE-2026-14266](https://github.com/hg0434hongzh0/CVE-2026-14266)
 - [4minx/CVE-2026-14266](https://github.com/4minx/CVE-2026-14266)
 - [liyuxuan504-byte/CVE-2026-14266](https://github.com/liyuxuan504-byte/CVE-2026-14266)
@@ -3271,7 +3275,7 @@
 - [pawpic/CVE-2026-38526-POC](https://github.com/pawpic/CVE-2026-38526-POC)
 - [mmoobbeeiidat-design/Hack-The-Box-Nexus-Findings-Report](https://github.com/mmoobbeeiidat-design/Hack-The-Box-Nexus-Findings-Report)
 - [diamorphine666/CVE-2026-38526-Exploit](https://github.com/diamorphine666/CVE-2026-38526-Exploit)
-- [b0nyo/CVE-2026-38526](https://github.com/b0nyo/CVE-2026-38526)
+- [b0nyo/PoC-CVE-2026-38526](https://github.com/b0nyo/PoC-CVE-2026-38526)
 - [Resolvdd/CVE-2026-38526-PoC-htb-nexus](https://github.com/Resolvdd/CVE-2026-38526-PoC-htb-nexus)
 - [Qurclinc/CVE-2026-38526](https://github.com/Qurclinc/CVE-2026-38526)
 - [CerberusMrXi/KrayinCRM-RCE-Exploit-CVE-2026-38526](https://github.com/CerberusMrXi/KrayinCRM-RCE-Exploit-CVE-2026-38526)
@@ -3999,6 +4003,7 @@
 - [Thiasap/oppo-pgem10-ghostlock](https://github.com/Thiasap/oppo-pgem10-ghostlock)
 - [CakesTwix/Android-CVE-2026-43499](https://github.com/CakesTwix/Android-CVE-2026-43499)
 - [Bartixxx32/CVE-2026-43499-OnePlus15](https://github.com/Bartixxx32/CVE-2026-43499-OnePlus15)
+- [Linuxoid-cn/CVE-2026-43499-Poc-Analysis](https://github.com/Linuxoid-cn/CVE-2026-43499-Poc-Analysis)
 - [qsvggff-spec/oppo-A5-PRO-5G-CVE-2026-43499](https://github.com/qsvggff-spec/oppo-A5-PRO-5G-CVE-2026-43499)
 - [xianwan1314/CVE-2026-43499-Poc-Analysis](https://github.com/xianwan1314/CVE-2026-43499-Poc-Analysis)
 - [HYCQAQ/Logitech-G-Cloud-GhostLock-CVE-2026-43499](https://github.com/HYCQAQ/Logitech-G-Cloud-GhostLock-CVE-2026-43499)
@@ -5440,7 +5445,11 @@
 
 - [timtimxs/CVE-2026-51947-Advisory](https://github.com/timtimxs/CVE-2026-51947-Advisory)
 
-### CVE-2026-51992
+### CVE-2026-51992 (2026-07-29)
+
+<code>SQL Injection vulnerability in ClickHouse Server Versions &lt;= 26.3.9.8 allows a remote attacker to execute arbitrary code via the create dictionaries function.
+</code>
+
 - [TheLiimbo/CVE-2026-51992](https://github.com/TheLiimbo/CVE-2026-51992)
 
 ### CVE-2026-52100 (2026-07-14)
@@ -5449,6 +5458,9 @@
 </code>
 
 - [nk7667/-linx-server-vulnerability-report](https://github.com/nk7667/-linx-server-vulnerability-report)
+
+### CVE-2026-52134
+- [if-forget/CVE-2026-52134-libiec61850](https://github.com/if-forget/CVE-2026-52134-libiec61850)
 
 ### CVE-2026-52199 (2026-07-17)
 
@@ -5981,6 +5993,13 @@
 
 - [riddhimaan-sth404/CVE-2026-57973](https://github.com/riddhimaan-sth404/CVE-2026-57973)
 
+### CVE-2026-58025 (2026-07-01)
+
+<code>Deserialization of untrusted data vulnerability in Wikimedia Foundation MediaWiki.\n\n This vulnerability is associated with program files includes/Import/WikiImporter.Php, includes/Import/WikiRevision.Php, includes/Logging/LogEntryBase.Php.\n\n\n\nThis issue affects MediaWiki: from * before 1.46.0, 1.45.4, 1.44.6, 1.43.9.
+</code>
+
+- [shinthink/CVE-2026-58025](https://github.com/shinthink/CVE-2026-58025)
+
 ### CVE-2026-58057 (2026-06-28)
 
 <code>Flowise before 3.1.3 validates Custom MCP stdio environment variables against a denylist using a case-sensitive comparison, so on Windows, where environment names are case-insensitive, supplying 'node_options' bypasses the NODE_OPTIONS denylist entry. An authenticated user who can configure a Custom MCP node can thereby inject NODE_OPTIONS --require and execute arbitrary code in the Flowise server context.
@@ -6271,6 +6290,9 @@
 </code>
 
 - [Hunt-Benito/siyuan-mcp-admin-takeover-cve-2026-66012-missing-authorization](https://github.com/Hunt-Benito/siyuan-mcp-admin-takeover-cve-2026-66012-missing-authorization)
+
+### CVE-2026-66066
+- [paveg/rails-activestorage-vips-audit](https://github.com/paveg/rails-activestorage-vips-audit)
 
 ### CVE-2026-66374 (2026-07-25)
 
@@ -10850,6 +10872,7 @@
 - [rxerium/CVE-2025-26466](https://github.com/rxerium/CVE-2025-26466)
 - [mrowkoob/CVE-2025-26466-msf](https://github.com/mrowkoob/CVE-2025-26466-msf)
 - [tpirate/CVE-2025-26466](https://github.com/tpirate/CVE-2025-26466)
+- [acidboonrs/cve-2025-26466-openssh-poc](https://github.com/acidboonrs/cve-2025-26466-openssh-poc)
 
 ### CVE-2025-26529 (2025-02-24)
 
@@ -14301,7 +14324,6 @@
 - [DeathShotXD/CVE-2025-52691-APT-PoC](https://github.com/DeathShotXD/CVE-2025-52691-APT-PoC)
 - [nxgn-kd01/smartermail-cve-scanner](https://github.com/nxgn-kd01/smartermail-cve-scanner)
 - [watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691](https://github.com/watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691)
-- [rimbadirgantara/CVE-2025-52691-poc](https://github.com/rimbadirgantara/CVE-2025-52691-poc)
 - [ninjazan420/CVE-2025-52691-PoC-SmarterMail-authentication-bypass-exploit-WT-2026-0001](https://github.com/ninjazan420/CVE-2025-52691-PoC-SmarterMail-authentication-bypass-exploit-WT-2026-0001)
 
 ### CVE-2025-52694 (2026-01-12)
@@ -29649,7 +29671,7 @@
 
 ### CVE-2023-1829 (2023-04-12)
 
-<code>A use-after-free vulnerability in the Linux Kernel traffic control index filter (tcindex) can be exploited to achieve local privilege escalation. The tcindex_delete function which does not properly deactivate filters in case of a perfect hashes while deleting the underlying structure which can later lead to double freeing the structure. A local attacker user can use this vulnerability to elevate its privileges to root.\nWe recommend upgrading past commit 8c710f75256bb3cf05ac7b1672c82b92c43f3d28.
+<code>A use-after-free vulnerability in the Linux Kernel traffic control index filter (tcindex) can be exploited to achieve local privilege escalation. The tcindex_delete function which does not properly deactivate filters in case of a perfect hashes while deleting the underlying structure which can later lead to double freeing the structure. A local attacker user can use this vulnerability to elevate its privileges to root.\n\n\nWe recommend upgrading past commit   8c710f75256bb3cf05ac7b1672c82b92c43f3d28 https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/ .
 </code>
 
 - [lanleft/CVE-2023-1829](https://github.com/lanleft/CVE-2023-1829)
@@ -41367,7 +41389,7 @@
 </code>
 
 - [convisolabs/CVE-2022-24834](https://github.com/convisolabs/CVE-2022-24834)
-- [DukeSec97/CVE-2022-24834-](https://github.com/DukeSec97/CVE-2022-24834-)
+- [Nullx97/CVE-2022-24834-](https://github.com/Nullx97/CVE-2022-24834-)
 
 ### CVE-2022-24853 (2022-04-14)
 
@@ -44320,6 +44342,7 @@
 - [Pro-me3us/CVE_2022_38181_Gazelle](https://github.com/Pro-me3us/CVE_2022_38181_Gazelle)
 - [R0rt1z2/CVE-2022-38181](https://github.com/R0rt1z2/CVE-2022-38181)
 - [soralis0912/CVE-2022-38181-aristotle](https://github.com/soralis0912/CVE-2022-38181-aristotle)
+- [hackintoanetwork/SCRoot](https://github.com/hackintoanetwork/SCRoot)
 
 ### CVE-2022-38374 (2022-11-02)
 
