@@ -706,13 +706,6 @@
 
 - [jackalkarlos/EvilAhenk](https://github.com/jackalkarlos/EvilAhenk)
 
-### CVE-2026-6664 (2026-05-09)
-
-<code>An integer overflow in network packet parsing code in PgBouncer before 1.25.2 bypasses a boundary check and can lead to a crash. An unauthenticated remote attacker can crash PgBouncer with a malformed SCRAM authentication packet.
-</code>
-
-- [nicolasjulian/bouncer-overflow](https://github.com/nicolasjulian/bouncer-overflow)
-
 ### CVE-2026-6741 (2026-04-27)
 
 <code>The LatePoint – Calendar Booking Plugin for Appointments and Events plugin for WordPress is vulnerable to Privilege Escalation in versions up to and including 5.4.1. This is due to a missing authorization check in the execute() method of the connect-customer-to-wp-user ability, which only requires the customer__edit capability granted to the latepoint_agent role by default, without verifying whether the target WordPress user ID belongs to a privileged account. This makes it possible for authenticated attackers with the latepoint_agent role to link any LatePoint customer record to an administrator's WordPress account and subsequently reset the administrator's password via the normal customer password-reset flow, resulting in full site takeover.
@@ -1585,6 +1578,9 @@
 - [WadesWeaponShed/Check-Point-Trusted-Access-Review](https://github.com/WadesWeaponShed/Check-Point-Trusted-Access-Review)
 - [sfewer-r7/CVE-2026-16232](https://github.com/sfewer-r7/CVE-2026-16232)
 
+### CVE-2026-16475
+- [afertar/CVE-2026-16475-PoC](https://github.com/afertar/CVE-2026-16475-PoC)
+
 ### CVE-2026-16540
 - [huseyn0vs/CVE-2026-16540-SimplyScheduleAppointments](https://github.com/huseyn0vs/CVE-2026-16540-SimplyScheduleAppointments)
 
@@ -1596,6 +1592,13 @@
 - [dinosn/fastjson-jsontype-rce-lab](https://github.com/dinosn/fastjson-jsontype-rce-lab)
 - [HORKimhab/CVE-2026-16723](https://github.com/HORKimhab/CVE-2026-16723)
 - [why-success/fastjson-rce-lab](https://github.com/why-success/fastjson-rce-lab)
+
+### CVE-2026-18220 (2026-07-29)
+
+<code>An out-of-bounds write vulnerability was found in the BFD library's DLX ELF backend (bfd/elf32-dlx.c) in GNU binutils. The dlx_rtype_to_howto() function maps ELF relocation types to internal howto structures but fails to perform adequate bounds checking on attacker-controlled relocation type values (via ELF32_R_TYPE(r_info)) before indexing into the dlx_elf_howto_table[] array. The DLX relocation type number space is non-contiguous (basic types 0-6, extended types at 0x10000+), but the default case in the switch statement allows arbitrary index values to reach the array access.\n\nA specially crafted ELF/DLX object file can trigger this out-of-bounds write when processed by any BFD-consuming tool (objdump, readelf, strip, ld, nm, objcopy). The vulnerability has been demonstrated to achieve arbitrary code execution via a File Stream Oriented Programming (FSOP) attack against glibc FILE structures (stderr), redirecting control flow to system().\n\nAttack scenarios include CI/CD pipelines performing automated binary analysis, developer workstations running objdump/readelf on untrusted binaries, automated security scanning or malware analysis tools invoking binutils, and package build systems processing third-party code.\n\nNote: This vulnerability is only exploitable when binutils is built with the DLX backend enabled (typically via --enable-targets=all).
+</code>
+
+- [4D4J/objdump-Out-Of-Bounds-write](https://github.com/4D4J/objdump-Out-Of-Bounds-write)
 
 ### CVE-2026-20127 (2026-02-25)
 
@@ -2618,6 +2621,7 @@
 - [bootsareme/copyfail-deconstructed](https://github.com/bootsareme/copyfail-deconstructed)
 - [monobrau/copyfailscan](https://github.com/monobrau/copyfailscan)
 - [suominen/CVE-2026-31431](https://github.com/suominen/CVE-2026-31431)
+- [sandraschi/copy-fail-mcp](https://github.com/sandraschi/copy-fail-mcp)
 - [juliosuas/copyfail-guard](https://github.com/juliosuas/copyfail-guard)
 - [samanzamani/copy-fail-checker](https://github.com/samanzamani/copy-fail-checker)
 - [ochebotar/copy-fail-CVE-2026-31431-detection-probe](https://github.com/ochebotar/copy-fail-CVE-2026-31431-detection-probe)
@@ -2749,13 +2753,6 @@
 - [CerberusMrXi/Langflow-cve-2026-33017-exploit](https://github.com/CerberusMrXi/Langflow-cve-2026-33017-exploit)
 - [Dynamo2k1/CVE-2026-33017](https://github.com/Dynamo2k1/CVE-2026-33017)
 
-### CVE-2026-33067 (2026-03-20)
-
-<code>SiYuan is a personal knowledge management system. Versions 3.6.0 and below render package metadata fields (displayName, description) using template literals without HTML escaping. A malicious package author can inject arbitrary HTML/JavaScript into these fields, which executes automatically when any user browses the Bazaar page. Because SiYuan's Electron configuration enables nodeIntegration: true with contextIsolation: false, this XSS escalates directly to full Remote Code Execution on the victim's operating system — with zero user interaction beyond opening the marketplace tab. This issue has been fixed in version 3.6.1.
-</code>
-
-- [Lopseg/cve-2026-33067](https://github.com/Lopseg/cve-2026-33067)
-
 ### CVE-2026-33137 (2026-05-20)
 
 <code>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. XWiki Platform is a generic wiki platform. In versions starting with 15.10.6 and prior to 18.1.0-rc-1, 17.10.3, 17.4.9, and 16.10.17, the POST /wikis/{wikiName} API executes a XAR import without performing any authentication or authorization checks, allowing an unauthenticated attacker to create or update documents in the target wiki. This vulnerability has been patched in XWiki 16.10.17, 17.4.9, 17.10.3, 18.0.1 and 18.1.0-rc-1.
@@ -2792,7 +2789,6 @@
 - [nedlir/dasel-hardened-container](https://github.com/nedlir/dasel-hardened-container)
 - [rotavori/dasel-melange-apko](https://github.com/rotavori/dasel-melange-apko)
 - [GonSarrabia/Minimus-Junior-Backend-Exercise](https://github.com/GonSarrabia/Minimus-Junior-Backend-Exercise)
-- [Omer-Asher/dasel-cve-exercise](https://github.com/Omer-Asher/dasel-cve-exercise)
 
 ### CVE-2026-33453 (2026-04-27)
 
@@ -2836,6 +2832,13 @@
 </code>
 
 - [portbuster1337/CVE-2026-33712](https://github.com/portbuster1337/CVE-2026-33712)
+
+### CVE-2026-33718 (2026-03-27)
+
+<code>OpenHands is software for AI-driven development. Starting in version 1.5.0, a Command Injection vulnerability exists in the `get_git_diff()` method at `openhands/runtime/utils/git_handler.py:134`. The `path` parameter from the `/api/conversations/{conversation_id}/git/diff` API endpoint is passed unsanitized to a shell command, allowing authenticated attackers to execute arbitrary commands in the agent sandbox. The user is already allowed to instruct the agent to execute commands, but this bypasses the normal channels. Version 1.5.0 fixes the issue.
+</code>
+
+- [HORKimhab/CVE-2026-33718](https://github.com/HORKimhab/CVE-2026-33718)
 
 ### CVE-2026-33824 (2026-04-14)
 
@@ -3811,6 +3814,7 @@
 - [suominen/CVE-2026-42533](https://github.com/suominen/CVE-2026-42533)
 - [seguridadentrerios/CVE-2026-42533](https://github.com/seguridadentrerios/CVE-2026-42533)
 - [gagaltotal/CVE-2026-42533-nginx](https://github.com/gagaltotal/CVE-2026-42533-nginx)
+- [jelasin/CVE-2026-42533](https://github.com/jelasin/CVE-2026-42533)
 - [imbas007/CVE-2026-42533](https://github.com/imbas007/CVE-2026-42533)
 
 ### CVE-2026-42568 (2026-06-10)
@@ -4030,6 +4034,7 @@
 - [soralis0912/CVE-2026-43499-pmg110-root](https://github.com/soralis0912/CVE-2026-43499-pmg110-root)
 - [dnlid/CVE-2026-43499](https://github.com/dnlid/CVE-2026-43499)
 - [Witaqua-tools/Root-My-Device](https://github.com/Witaqua-tools/Root-My-Device)
+- [233laoliu/mt6985-CVE-2026-43499](https://github.com/233laoliu/mt6985-CVE-2026-43499)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -5124,6 +5129,7 @@
 </code>
 
 - [DavidCarliez/CVE-2026-49176_LPE_POC](https://github.com/DavidCarliez/CVE-2026-49176_LPE_POC)
+- [777erp/CVE-2026-49176_BOF](https://github.com/777erp/CVE-2026-49176_BOF)
 
 ### CVE-2026-49230 (2026-06-19)
 
@@ -5337,6 +5343,7 @@
 - [4minx/CVE-2026-50522](https://github.com/4minx/CVE-2026-50522)
 - [ChPratik/CVE-2026-50522](https://github.com/ChPratik/CVE-2026-50522)
 - [darses/CVE-2026-50522](https://github.com/darses/CVE-2026-50522)
+- [webshellseo8/CVE-2026-50522-Proof-of-Concept](https://github.com/webshellseo8/CVE-2026-50522-Proof-of-Concept)
 
 ### CVE-2026-50656 (2026-06-16)
 
@@ -5482,6 +5489,9 @@
 </code>
 
 - [iqx6889/CVE-2026-52813-Gogs-RCE](https://github.com/iqx6889/CVE-2026-52813-Gogs-RCE)
+
+### CVE-2026-52832
+- [mdvpat/CVE-2026-52832-PoC-exploit-nuclio-dashboard](https://github.com/mdvpat/CVE-2026-52832-PoC-exploit-nuclio-dashboard)
 
 ### CVE-2026-52885 (2026-06-26)
 
@@ -5922,6 +5932,13 @@
 
 - [CerberusMrXi/CVE-2026-57588-Nessus-XML-Import-SQL-Injection-PoC](https://github.com/CerberusMrXi/CVE-2026-57588-Nessus-XML-Import-SQL-Injection-PoC)
 
+### CVE-2026-57811 (2026-07-13)
+
+<code>Improper Control of Generation of Code ('Code Injection') vulnerability in Realtyna Realtyna Organic IDX plugin real-estate-listing-realtyna-wpl allows Remote Code Inclusion.This issue affects Realtyna Organic IDX plugin: from n/a through &lt;= 5.2.0.
+</code>
+
+- [webshellseo8/CVE-2026-57811-Proof-of-Concept](https://github.com/webshellseo8/CVE-2026-57811-Proof-of-Concept)
+
 ### CVE-2026-57821 (2026-07-15)
 
 <code>A SQL Injection vulnerability exists in Apache Fineract's Office Search API (GET /api/v1/offices) in versions up to and including 1.14.0. The orderBy request parameter is concatenated into a SQL query without sufficient validation, allowing an authenticated user with permission to view offices to inject arbitrary SQL via a crafted orderBy value. This is a bypass of the ColumnValidator fix introduced for CVE-2024-32838, which does not detect bare subqueries in the ORDER BY position. This can be leveraged to perform time-based blind SQL injection for data exfiltration. Because the injected query blocks the database connection for its full duration, concurrent exploitation can exhaust the application's database connection pool, resulting in denial of service for other users. Users are recommended to upgrade to a version containing the fix.
@@ -6017,6 +6034,13 @@
 
 - [DavidCarliez/CVE-2026-58635-PoC](https://github.com/DavidCarliez/CVE-2026-58635-PoC)
 
+### CVE-2026-59243 (2026-07-29)
+
+<code>The FAB auth manager's Azure AD OAuth login defaulted `verify_signature=False` when decoding the ID token, so an attacker able to present a forged or unsigned (`alg:none`) ID token to the OAuth callback could bypass authentication and log in as an arbitrary user, including one holding the Admin role (CWE-347). Deployments running the FAB auth manager with the Azure AD OAuth login path under its default configuration are affected; the Authentik path already defaulted to `True`. This issue affects `apache-airflow-providers-fab` before 3.7.3. Users are advised to upgrade to `apache-airflow-providers-fab` 3.7.3, which defaults `verify_signature=True`.
+</code>
+
+- [MalHyuk/CVE-2026-59243](https://github.com/MalHyuk/CVE-2026-59243)
+
 ### CVE-2026-59734 (2026-07-09)
 
 <code>Coolify is an open-source and self-hostable tool for managing servers, applications, and databases. Prior to 4.0.0-beta.469, Coolify's app/Jobs/ApplicationDeploymentJob.php generate_healthcheck_commands() function directly interpolated the health_check_host, health_check_method, and health_check_path parameters into shell commands without proper sanitization, allowing authenticated users to execute arbitrary commands inside deployment containers. This issue is fixed in version 4.0.0-beta.469.
@@ -6038,6 +6062,9 @@
 </code>
 
 - [gyubin02/cve-2026-59891-control-lab](https://github.com/gyubin02/cve-2026-59891-control-lab)
+
+### CVE-2026-60004
+- [HORKimhab/CVE-2026-60004](https://github.com/HORKimhab/CVE-2026-60004)
 
 ### CVE-2026-60121 (2026-07-13)
 
@@ -6084,6 +6111,8 @@
 - [HORKimhab/CVE-2026-61511](https://github.com/HORKimhab/CVE-2026-61511)
 - [puj790201-lab/cve-2026-61511](https://github.com/puj790201-lab/cve-2026-61511)
 - [codeb0ssx/Ultimate-CVE-2026-61511](https://github.com/codeb0ssx/Ultimate-CVE-2026-61511)
+- [tc4dy/CVE-2026-61511-PoC-Exploit](https://github.com/tc4dy/CVE-2026-61511-PoC-Exploit)
+- [webshellseo8/CVE-2026-61511-POC](https://github.com/webshellseo8/CVE-2026-61511-POC)
 
 ### CVE-2026-61946 (2026-07-23)
 
@@ -7674,6 +7703,7 @@
 - [below0day/Honeypot-Logs-CVE-2025-5777](https://github.com/below0day/Honeypot-Logs-CVE-2025-5777)
 - [soltanali0/CVE-2025-5777-Exploit](https://github.com/soltanali0/CVE-2025-5777-Exploit)
 - [rootxsushant/Citrix-NetScaler-Memory-Leak-CVE-2025-5777](https://github.com/rootxsushant/Citrix-NetScaler-Memory-Leak-CVE-2025-5777)
+- [Sheep-Hunter/CVE-2025-5777-POC](https://github.com/Sheep-Hunter/CVE-2025-5777-POC)
 - [ndr-repo/CVE-2025-5777](https://github.com/ndr-repo/CVE-2025-5777)
 - [mr-r3b00t/CVE-2025-5777](https://github.com/mr-r3b00t/CVE-2025-5777)
 - [Anshika2709/Citrixbleed2-CVE-2025-5777](https://github.com/Anshika2709/Citrixbleed2-CVE-2025-5777)
@@ -18895,6 +18925,7 @@
 </code>
 
 - [MobetaSec/CVE-2024-1813-POC](https://github.com/MobetaSec/CVE-2024-1813-POC)
+- [webshellseo8/CVE-2024-1813-Proof-of-Concept](https://github.com/webshellseo8/CVE-2024-1813-Proof-of-Concept)
 
 ### CVE-2024-1874 (2024-04-29)
 
@@ -19141,7 +19172,6 @@
 - [neuralinhibitor/xzwhy](https://github.com/neuralinhibitor/xzwhy)
 - [AndreaCicca/Sicurezza-Informatica-Presentazione](https://github.com/AndreaCicca/Sicurezza-Informatica-Presentazione)
 - [shefirot/CVE-2024-3094](https://github.com/shefirot/CVE-2024-3094)
-- [DANO-AMP/CVE-2024-3094](https://github.com/DANO-AMP/CVE-2024-3094)
 - [robertdfrench/ifuncd-up](https://github.com/robertdfrench/ifuncd-up)
 - [been22426/CVE-2024-3094](https://github.com/been22426/CVE-2024-3094)
 - [laxmikumari615/Linux---Security---Detect-and-Mitigate-CVE-2024-3094](https://github.com/laxmikumari615/Linux---Security---Detect-and-Mitigate-CVE-2024-3094)
@@ -19674,6 +19704,7 @@
 - [gl1tch0x1/PHP_8.1.x_Exploit](https://github.com/gl1tch0x1/PHP_8.1.x_Exploit)
 - [Kanak-CypherX/cve-2024-4577-lab](https://github.com/Kanak-CypherX/cve-2024-4577-lab)
 - [razureink/cve-2024-4577-phpcgi_rce_reproduction](https://github.com/razureink/cve-2024-4577-phpcgi_rce_reproduction)
+- [NKTriS/HTSOC](https://github.com/NKTriS/HTSOC)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -28623,13 +28654,6 @@
 - [RandomRobbieBF/CVE-2024-54262](https://github.com/RandomRobbieBF/CVE-2024-54262)
 - [Nxploited/CVE-2024-54262](https://github.com/Nxploited/CVE-2024-54262)
 
-### CVE-2024-54363 (2024-12-16)
-
-<code>Incorrect Privilege Assignment vulnerability in saiful.total Wp NssUser Register wp-nssuser-register allows Privilege Escalation.This issue affects Wp NssUser Register: from n/a through &lt;= 1.0.0.
-</code>
-
-- [Nxploited/CVE-2024-54363-Exploit](https://github.com/Nxploited/CVE-2024-54363-Exploit)
-
 ### CVE-2024-54369 (2024-12-16)
 
 <code>Missing Authorization vulnerability in ThemeHunk Zita Site Builder ai-site-builder allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Zita Site Builder: from n/a through &lt;= 1.0.2.
@@ -29217,13 +29241,6 @@
 
 - [KUK3N4N/CVE-2024-57778](https://github.com/KUK3N4N/CVE-2024-57778)
 
-### CVE-2024-57784 (2025-01-16)
-
-<code>An issue in the component /php/script_uploads.php of Zenitel AlphaWeb XE v11.2.3.10 allows attackers to execute a directory traversal.
-</code>
-
-- [s4fv4n/CVE-2024-57784](https://github.com/s4fv4n/CVE-2024-57784)
-
 ### CVE-2024-57785 (2025-01-16)
 
 <code>Zenitel AlphaWeb XE v11.2.3.10 was discovered to contain a local file inclusion vulnerability via the component amc_uploads.php.
@@ -29505,7 +29522,6 @@
 </code>
 
 - [diego-tella/CVE-2023-1326-PoC](https://github.com/diego-tella/CVE-2023-1326-PoC)
-- [Pol-Ruiz/CVE-2023-1326](https://github.com/Pol-Ruiz/CVE-2023-1326)
 - [h3x0v3rl0rd/CVE-2023-1326](https://github.com/h3x0v3rl0rd/CVE-2023-1326)
 - [cve-2024/CVE-2023-1326-PoC](https://github.com/cve-2024/CVE-2023-1326-PoC)
 
@@ -33079,6 +33095,13 @@
 - [Nero22k/cve-2023-29360](https://github.com/Nero22k/cve-2023-29360)
 - [0xDivyanshu-new/CVE-2023-29360](https://github.com/0xDivyanshu-new/CVE-2023-29360)
 - [Scottman625/CVE-2023-29360](https://github.com/Scottman625/CVE-2023-29360)
+
+### CVE-2023-29375 (2023-04-10)
+
+<code>An issue was discovered in Progress Sitefinity 13.3 before 13.3.7647, 14.0 before 14.0.7736, 14.1 before 14.1.7826, 14.2 before 14.2.7930, and 14.3 before 14.3.8025. There is potentially dangerous file upload through the SharePoint connector.
+</code>
+
+- [Zedocun/Sharepoint-cve-2023-29375-incident-response](https://github.com/Zedocun/Sharepoint-cve-2023-29375-incident-response)
 
 ### CVE-2023-29384 (2023-12-20)
 
@@ -68269,13 +68292,6 @@
 - [xdrake1010/CVE-2017-11882-Preventer](https://github.com/xdrake1010/CVE-2017-11882-Preventer)
 - [DONKEY0xSHOT/CVE-2017-11882-Blocker](https://github.com/DONKEY0xSHOT/CVE-2017-11882-Blocker)
 - [Mo200909/Office-Malware-Forensics-Lab-REMnux-Static-Analysis](https://github.com/Mo200909/Office-Malware-Forensics-Lab-REMnux-Static-Analysis)
-
-### CVE-2017-11907 (2017-12-12)
-
-<code>Internet Explorer in Microsoft Windows 7 SP1, Windows Server 2008 and R2 SP1, Windows 8.1 and Windows RT 8.1, Windows Server 2012 and R2, Windows 10 Gold, 1511, 1607, 1703, 1709, and Windows Server 2016 allows an attacker to gain the same user rights as the current user, due to how Internet Explorer handles objects in memory, aka &quot;Scripting Engine Memory Corruption Vulnerability&quot;. This CVE ID is unique from CVE-2017-11886, CVE-2017-11889, CVE-2017-11890, CVE-2017-11893, CVE-2017-11894, CVE-2017-11895, CVE-2017-11901, CVE-2017-11903, CVE-2017-11905, CVE-2017-11905, CVE-2017-11908, CVE-2017-11909, CVE-2017-11910, CVE-2017-11911, CVE-2017-11912, CVE-2017-11913, CVE-2017-11914, CVE-2017-11916, CVE-2017-11918, and CVE-2017-11930.
-</code>
-
-- [AV1080p/CVE-2017-11907](https://github.com/AV1080p/CVE-2017-11907)
 
 ### CVE-2017-12149 (2017-10-04)
 
