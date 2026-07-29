@@ -706,6 +706,13 @@
 
 - [jackalkarlos/EvilAhenk](https://github.com/jackalkarlos/EvilAhenk)
 
+### CVE-2026-6664 (2026-05-09)
+
+<code>An integer overflow in network packet parsing code in PgBouncer before 1.25.2 bypasses a boundary check and can lead to a crash. An unauthenticated remote attacker can crash PgBouncer with a malformed SCRAM authentication packet.
+</code>
+
+- [nicolasjulian/bouncer-overflow](https://github.com/nicolasjulian/bouncer-overflow)
+
 ### CVE-2026-6741 (2026-04-27)
 
 <code>The LatePoint – Calendar Booking Plugin for Appointments and Events plugin for WordPress is vulnerable to Privilege Escalation in versions up to and including 5.4.1. This is due to a missing authorization check in the execute() method of the connect-customer-to-wp-user ability, which only requires the customer__edit capability granted to the latepoint_agent role by default, without verifying whether the target WordPress user ID belongs to a privileged account. This makes it possible for authenticated attackers with the latepoint_agent role to link any LatePoint customer record to an administrator's WordPress account and subsequently reset the administrator's password via the normal customer password-reset flow, resulting in full site takeover.
@@ -1046,7 +1053,6 @@
 - [thinhap/CVE-2026-9082-PoC](https://github.com/thinhap/CVE-2026-9082-PoC)
 - [11romain/CVE-2026-9082](https://github.com/11romain/CVE-2026-9082)
 - [sourcecode347/CVE-2026-9082-Mass_Scanner](https://github.com/sourcecode347/CVE-2026-9082-Mass_Scanner)
-- [eliHiHo/portfolio-drupal-cve-2026-9082](https://github.com/eliHiHo/portfolio-drupal-cve-2026-9082)
 
 ### CVE-2026-9198 (2026-07-17)
 
@@ -5379,6 +5385,13 @@
 
 - [A17-ba/CVE-2026-51119](https://github.com/A17-ba/CVE-2026-51119)
 
+### CVE-2026-51302 (2026-07-27)
+
+<code>SQLite 3.41 has a use-after-free vulnerability exists in the expression evaluation logic. The sqlite3ReleaseTempReg function improperly releases temporary register resources, and the subsequent exprComputeOperands function continues to access the already freed register memory. By supplying a malicious SQL statement, a remote attacker can exploit this flaw to cause denial of service, leak sensitive information, or potentially execute arbitrary code on the affected system.
+</code>
+
+- [extratao/CVE-2026-51302-PoC](https://github.com/extratao/CVE-2026-51302-PoC)
+
 ### CVE-2026-51385 (2026-07-20)
 
 <code>An issue in safishamsi Open-Source GRAPHIFY v.0.3.2 through v0.4.29 allows a remote attacker to execute arbitrary code via the validate_url, safe_fetch, _build_opener, _fetch_html and _download_binary functions.
@@ -6070,6 +6083,7 @@
 
 - [HORKimhab/CVE-2026-61511](https://github.com/HORKimhab/CVE-2026-61511)
 - [puj790201-lab/cve-2026-61511](https://github.com/puj790201-lab/cve-2026-61511)
+- [codeb0ssx/Ultimate-CVE-2026-61511](https://github.com/codeb0ssx/Ultimate-CVE-2026-61511)
 
 ### CVE-2026-61946 (2026-07-23)
 
@@ -6263,6 +6277,97 @@
 </code>
 
 - [theopaid/CVE-2026-66731-Negative-Chunk-Size-Parsing-Causes-Memory-Corruption-leading-to-Server-Crash](https://github.com/theopaid/CVE-2026-66731-Negative-Chunk-Size-Parsing-Causes-Memory-Corruption-leading-to-Server-Crash)
+
+### CVE-2026-66746 (2026-07-28)
+
+<code>Rouille 0.4.0 through 3.6.2 contains an HTTP response splitting vulnerability that allows remote attackers to inject arbitrary response headers by embedding carriage return (0x0D) or line feed (0x0A) bytes into attacker-controlled input. Attackers can exploit percent-decoded query parameters reflected into response headers or inject bare LF characters into Cookie header values that are interpolated directly into Set-Cookie response headers, enabling cache poisoning, session fixation, and security header override attacks such as bypassing CSP or CORS policies.
+</code>
+
+- [theopaid/CVE-2026-66746-HTTP-Response-Splitting-via-Unvalidated-Response-Header-Values-rouille-](https://github.com/theopaid/CVE-2026-66746-HTTP-Response-Splitting-via-Unvalidated-Response-Header-Values-rouille-)
+
+### CVE-2026-66748 (2026-07-28)
+
+<code>Camaleon CMS versions 2.1.1 through 2.9.1 contains an authenticated remote code execution vulnerability that allows users with custom_fields manage permission to execute arbitrary Ruby code by supplying a malicious expression through the select_eval custom field type. Attackers can store an attacker-controlled Ruby expression in the field options command parameter, which is evaluated via instance_eval within an ERB view whenever a post edit page is rendered, achieving server-side code execution with web server process privileges.
+</code>
+
+- [theopaid/CVE-2026-66748-Camaleon-CMS---Authenticated-RCE-via-select_eval-Custom-Field](https://github.com/theopaid/CVE-2026-66748-Camaleon-CMS---Authenticated-RCE-via-select_eval-Custom-Field)
+
+### CVE-2026-66749 (2026-07-28)
+
+<code>Let's Chat 0.4.0 through 0.4.8 contains a null dereference vulnerability that allows authenticated attackers to crash the server by supplying a valid 24-character hex string room parameter that matches no document in the database. Attackers can send a crafted GET /messages request causing an uncaught TypeError in an asynchronous Mongoose callback that terminates the Node.js server process, with the same defect reachable through multiple code paths including the socket.io interface.
+</code>
+
+- [theopaid/CVE-2026-66749-Unchecked-Room-Lookup-Leads-to-Server-Crash-Let-s-Chat-](https://github.com/theopaid/CVE-2026-66749-Unchecked-Room-Lookup-Leads-to-Server-Crash-Let-s-Chat-)
+
+### CVE-2026-66750 (2026-07-28)
+
+<code>Let's Chat 0.3.0 through 0.4.8 contains a broken access control vulnerability that allows authenticated attackers to download file attachments from private and password-protected rooms they are not a member of by exploiting missing room membership checks in the file retrieval route. Attackers can enumerate adjacent MongoDB ObjectIds derived from a known file ID to recover files uploaded by other users, as the GET /files/:id/:name route in app/controllers/files.js only enforces login authentication without consulting room membership or the Room.canJoin check.
+</code>
+
+- [theopaid/CVE-2026-66750-Insufficient-Access-Controls-Allow-for-Unauthorized-File-Downloads-Let-s-Chat-](https://github.com/theopaid/CVE-2026-66750-Insufficient-Access-Controls-Allow-for-Unauthorized-File-Downloads-Let-s-Chat-)
+
+### CVE-2026-66751 (2026-07-28)
+
+<code>Let's Chat 0.3.0 through 0.4.8 contains an improper authorization vulnerability that allows any authenticated user to archive any room on the server by sending a DELETE request to the rooms handler without ownership verification. Attackers can enumerate room IDs via the rooms listing endpoint and permanently archive private or password-protected rooms they cannot access, with no application-level recovery path requiring direct database intervention to restore.
+</code>
+
+- [theopaid/CVE-2026-66751-Insufficient-Access-Controls-Allow-for-Unauthorized-Room-Deletion-Let-s-Chat-](https://github.com/theopaid/CVE-2026-66751-Insufficient-Access-Controls-Allow-for-Unauthorized-Room-Deletion-Let-s-Chat-)
+
+### CVE-2026-66752 (2026-07-28)
+
+<code>tiny-http through 0.12.0 contains an HTTP request smuggling vulnerability that allows remote attackers to desynchronize request framing by sending a Transfer-Encoding header with any value, including non-chunked codings, which causes the library to unconditionally apply chunk-decoding and discard Content-Length. Attackers can exploit the discrepancy between tiny_http's improper Transfer-Encoding parsing and a correctly-implemented front-end proxy to produce two distinct interpretations of a single byte stream, enabling request smuggling, and can additionally send non-chunked bodies with non-chunked Transfer-Encoding values to cause failed body reads that tie up connections and consume worker threads without signaling errors to clients.
+</code>
+
+- [theopaid/CVE-2026-66752-HTTP-Request-Smuggling-via-Unparsed-Transfer-Encoding-Values-tiny_http-](https://github.com/theopaid/CVE-2026-66752-HTTP-Request-Smuggling-via-Unparsed-Transfer-Encoding-Values-tiny_http-)
+
+### CVE-2026-66753 (2026-07-28)
+
+<code>tiny-http through 0.12.0 contains an HTTP header injection vulnerability that allows attackers to inject carriage return (0x0D) and line feed (0x0A) bytes into HTTP header values on both request and response sides due to insufficient validation in header parsing and serialization. Attackers can exploit this injection primitive to perform response splitting, cache poisoning, session fixation via Set-Cookie injection, security header override, and request smuggling against line-feed-tolerant backends.
+</code>
+
+- [theopaid/CVE-2026-66753-HTTP-Header-Injection-via-Unvalidated-CR-and-LF-in-Header-Values-tiny_http-](https://github.com/theopaid/CVE-2026-66753-HTTP-Header-Injection-via-Unvalidated-CR-and-LF-in-Header-Values-tiny_http-)
+
+### CVE-2026-66754 (2026-07-28)
+
+<code>Rouille 0.1.6 through 3.6.2 contains a reachable assertion vulnerability in the Request::remove_prefix function that allows remote unauthenticated attackers to crash the server by sending a crafted percent-encoded URL. Attackers can send a request whose decoded path matches a configured prefix while the raw percent-encoded path does not, causing the assert! to fail and triggering either a 500 error or full process termination depending on the panic configuration.
+</code>
+
+- [theopaid/CVE-2026-66754-Remote-Denial-of-Service-via-Reachable-Assertion-in-URL-Prefix-Handling-rouille-](https://github.com/theopaid/CVE-2026-66754-Remote-Denial-of-Service-via-Reachable-Assertion-in-URL-Prefix-Handling-rouille-)
+
+### CVE-2026-67181 (2026-07-28)
+
+<code>Rouille 0.3.3 through 3.6.2 contains an HTTP request smuggling vulnerability that allows remote attackers to desynchronize HTTP message boundaries by exploiting improper header forwarding in the proxy implementation. The proxy in src/proxy.rs forwards the client's Transfer-Encoding header to upstream backends unchanged while transmitting a body already de-chunked by tiny_http, enabling CL.TE desynchronization attacks where attackers control where the backend believes the request body ends.
+</code>
+
+- [theopaid/CVE-2026-67181-HTTP-Request-Smuggling-via-Transfer-Encoding-Desynchronization-rouille-](https://github.com/theopaid/CVE-2026-67181-HTTP-Request-Smuggling-via-Transfer-Encoding-Desynchronization-rouille-)
+
+### CVE-2026-67182 (2026-07-28)
+
+<code>Rouille 0.3.3 through 3.6.2 contains an HTTP request smuggling vulnerability that allows remote attackers to bypass access controls by injecting bare line feed characters (0x0A) into client-supplied request header values that are copied verbatim to upstream connections without validation. Attackers can craft a header value containing a complete additional HTTP request that is interpreted as a separate request by backends such as Go net/http and Python http.server, causing the backend to process a smuggled request with attacker-chosen method, path, and headers that bypasses the rouille handler's access control logic.
+</code>
+
+- [theopaid/CVE-2026-67182-HTTP-Request-Smuggling-Enables-Front-End-Access-Control-Bypass-rouille-](https://github.com/theopaid/CVE-2026-67182-HTTP-Request-Smuggling-Enables-Front-End-Access-Control-Bypass-rouille-)
+
+### CVE-2026-67183 (2026-07-28)
+
+<code>TinyWeb through 0.0.8 contains a memory leak vulnerability that allows unauthenticated attackers to exhaust available memory by sending ordinary well-formed HTTP requests. Each request causes HttpParser::execute() to allocate Url objects, HttpHeaders objects, and HttpHeader instances via raw new expressions that are never freed due to missing destructors and unreachable delete calls, causing worker resident memory to grow monotonically by approximately 20 to 28 kB per request until the worker process is killed.
+</code>
+
+- [theopaid/CVE-2026-67183-Unauthenticated-Memory-Leak-Leads-To-Memory-Exhaustion-TinyWeb-](https://github.com/theopaid/CVE-2026-67183-Unauthenticated-Memory-Leak-Leads-To-Memory-Exhaustion-TinyWeb-)
+
+### CVE-2026-67184 (2026-07-28)
+
+<code>TinyWeb through 0.0.8 contains a null pointer dereference vulnerability that allows unauthenticated remote attackers to crash worker processes by sending a malformed HTTP request line with an invalid version string. The HttpParser::execute() function fails to allocate the Url object when version parsing fails, leaving the url pointer NULL, and buildResponse() subsequently dereferences this NULL pointer without checking the valid_requ flag, producing a SIGSEGV that terminates the worker process and, when repeated across all workers, takes the server permanently offline until manually restarted.
+</code>
+
+- [theopaid/CVE-2026-67184-Unauthenticated-NULL-Pointer-Dereference-Crashes-the-Server-TinyWeb-](https://github.com/theopaid/CVE-2026-67184-Unauthenticated-NULL-Pointer-Dereference-Crashes-the-Server-TinyWeb-)
+
+### CVE-2026-67185 (2026-07-28)
+
+<code>TinyWeb through 0.0.8 contains a path traversal vulnerability that allows unauthenticated attackers to read arbitrary files by submitting ../ sequences in the URL path, which are concatenated directly to the configured web root in HttpBuilder::buildResponse() without normalization, dot-segment removal, or boundary checks. Attackers can craft a single request with ../ sequences that pass through the URL parser unchanged and reach the filesystem call via HttpFile::setFile(), exposing sensitive files such as credential stores and private keys when the server process runs as root.
+</code>
+
+- [theopaid/CVE-2026-67185-Unauthenticated-Path-Traversal-Allows-Arbitrary-File-Read-TinyWeb-](https://github.com/theopaid/CVE-2026-67185-Unauthenticated-Path-Traversal-Allows-Arbitrary-File-Read-TinyWeb-)
 
 ### CVE-2026-69212
 - [c0gnit00/CVE-2026-69212](https://github.com/c0gnit00/CVE-2026-69212)
@@ -6706,7 +6811,6 @@
 - [0xWhoami35/CVE-2025-2294](https://github.com/0xWhoami35/CVE-2025-2294)
 - [r0otk3r/CVE-2025-2294](https://github.com/r0otk3r/CVE-2025-2294)
 - [iteride/CVE-2025-2294](https://github.com/iteride/CVE-2025-2294)
-- [fumioryoto/CVE-2025-2294-Kubio-2.5.1-LFi-Checker](https://github.com/fumioryoto/CVE-2025-2294-Kubio-2.5.1-LFi-Checker)
 
 ### CVE-2025-2301 (2025-07-21)
 
@@ -8516,13 +8620,6 @@
 - [ThemeHackers/CVE-2025-10035](https://github.com/ThemeHackers/CVE-2025-10035)
 - [orange0Mint/CVE-2025-10035_GoAnywhere](https://github.com/orange0Mint/CVE-2025-10035_GoAnywhere)
 - [sentinel-aidefense/CVE-2025-10035](https://github.com/sentinel-aidefense/CVE-2025-10035)
-
-### CVE-2025-10042 (2025-09-17)
-
-<code>The Quiz Maker plugin for WordPress is vulnerable to SQL Injection via spoofed IP headers in all versions up to, and including, 6.7.0.56 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. This is only exploitable in configurations where the server is set up to retrieve the IP from a user-supplied field like `X-Forwarded-For` and limit users by IP is enabled.
-</code>
-
-- [fumioryoto/Quiz-Maker-SQL-Injection-CVE-2025-10042](https://github.com/fumioryoto/Quiz-Maker-SQL-Injection-CVE-2025-10042)
 
 ### CVE-2025-10046 (2025-09-06)
 
@@ -14174,6 +14271,7 @@
 - [DeathShotXD/CVE-2025-52691-APT-PoC](https://github.com/DeathShotXD/CVE-2025-52691-APT-PoC)
 - [nxgn-kd01/smartermail-cve-scanner](https://github.com/nxgn-kd01/smartermail-cve-scanner)
 - [watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691](https://github.com/watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691)
+- [rimbadirgantara/CVE-2025-52691-poc](https://github.com/rimbadirgantara/CVE-2025-52691-poc)
 - [ninjazan420/CVE-2025-52691-PoC-SmarterMail-authentication-bypass-exploit-WT-2026-0001](https://github.com/ninjazan420/CVE-2025-52691-PoC-SmarterMail-authentication-bypass-exploit-WT-2026-0001)
 
 ### CVE-2025-52694 (2026-01-12)
@@ -17464,6 +17562,13 @@
 </code>
 
 - [mbanyamer/CVE-2025-67644-LangGraph-3.0.1-SQLite-Checkpoint-SQL-Injection](https://github.com/mbanyamer/CVE-2025-67644-LangGraph-3.0.1-SQLite-Checkpoint-SQL-Injection)
+
+### CVE-2025-67730 (2025-12-12)
+
+<code>Frappe Learning Management System (LMS) is a learning system that helps users structure their content. Versions prior to 2.42.0 allow authenticated users to add malicious HTML and JavaScript through description fields in the Job, Course and Batch forms. This issue is fixed in version 2.42.0.
+</code>
+
+- [Dharan10/CVE-2025-67730](https://github.com/Dharan10/CVE-2025-67730)
 
 ### CVE-2025-67733 (2026-02-23)
 
@@ -29400,6 +29505,7 @@
 </code>
 
 - [diego-tella/CVE-2023-1326-PoC](https://github.com/diego-tella/CVE-2023-1326-PoC)
+- [Pol-Ruiz/CVE-2023-1326](https://github.com/Pol-Ruiz/CVE-2023-1326)
 - [h3x0v3rl0rd/CVE-2023-1326](https://github.com/h3x0v3rl0rd/CVE-2023-1326)
 - [cve-2024/CVE-2023-1326-PoC](https://github.com/cve-2024/CVE-2023-1326-PoC)
 
@@ -37600,7 +37706,6 @@
 - [kabiri-labs/sshfinder](https://github.com/kabiri-labs/sshfinder)
 - [TrixSec/CVE-2023-48795](https://github.com/TrixSec/CVE-2023-48795)
 - [Dr0xharakiri/CVE-2023-48795](https://github.com/Dr0xharakiri/CVE-2023-48795)
-- [fumioryoto/Terrapin-attack](https://github.com/fumioryoto/Terrapin-attack)
 - [oseasfr/Scanner_CVE_OpenSSH](https://github.com/oseasfr/Scanner_CVE_OpenSSH)
 - [Mr-Whiskerss/SSH-Terrapin-Prefix-Truncation-Weakness-CVE-2023-48795-Checker](https://github.com/Mr-Whiskerss/SSH-Terrapin-Prefix-Truncation-Weakness-CVE-2023-48795-Checker)
 
@@ -40577,7 +40682,6 @@
 - [felisha-elmer/Sandbox-Challenge-Spring4Shell-CVE-2022-22965-](https://github.com/felisha-elmer/Sandbox-Challenge-Spring4Shell-CVE-2022-22965-)
 - [YUTING-HUANG0/Spring4Shell-CTF](https://github.com/YUTING-HUANG0/Spring4Shell-CTF)
 - [march0n/PoC-CVE-2022-22965-Spring4Shell](https://github.com/march0n/PoC-CVE-2022-22965-Spring4Shell)
-- [ernestom-commits/jfrog-apptrust-demo](https://github.com/ernestom-commits/jfrog-apptrust-demo)
 - [Kuri119/CVE-2022-22965-Spring4Shell](https://github.com/Kuri119/CVE-2022-22965-Spring4Shell)
 - [RootEvil333/CVE-2022-22965](https://github.com/RootEvil333/CVE-2022-22965)
 - [meng-security/spring4shell-local-verification-lab](https://github.com/meng-security/spring4shell-local-verification-lab)
@@ -73500,6 +73604,7 @@
 - [solomonhenry-afk/vsftpd-cve-2011-2523-detection-signature](https://github.com/solomonhenry-afk/vsftpd-cve-2011-2523-detection-signature)
 - [IndiQuarks/vsftpd-cve-2011-2523-lab](https://github.com/IndiQuarks/vsftpd-cve-2011-2523-lab)
 - [VictorGlass/DockerLabs-Tproot](https://github.com/VictorGlass/DockerLabs-Tproot)
+- [khalilullahpak28-art/offensive-security-adversary-emulation](https://github.com/khalilullahpak28-art/offensive-security-adversary-emulation)
 
 ### CVE-2011-2553
 - [carlosrpastrana/cve-2011-2553](https://github.com/carlosrpastrana/cve-2011-2553)
