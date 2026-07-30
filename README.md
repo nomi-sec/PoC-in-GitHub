@@ -1603,6 +1603,8 @@
 - [dinosn/fastjson-jsontype-rce-lab](https://github.com/dinosn/fastjson-jsontype-rce-lab)
 - [HORKimhab/CVE-2026-16723](https://github.com/HORKimhab/CVE-2026-16723)
 - [why-success/fastjson-rce-lab](https://github.com/why-success/fastjson-rce-lab)
+- [EQSTLab/CVE-2026-16723](https://github.com/EQSTLab/CVE-2026-16723)
+- [Nowafen/CVE-2026-16723](https://github.com/Nowafen/CVE-2026-16723)
 
 ### CVE-2026-18220 (2026-07-29)
 
@@ -4509,6 +4511,7 @@
 - [MarwahHadi/CVE-2026-46331-pedit-cow](https://github.com/MarwahHadi/CVE-2026-46331-pedit-cow)
 - [rjt-gupta/page-cache-corruption-lpes](https://github.com/rjt-gupta/page-cache-corruption-lpes)
 - [cherrycherrymay/PoC-CVE-2026-46331](https://github.com/cherrycherrymay/PoC-CVE-2026-46331)
+- [nawalacheker1/CVE-2026-46331](https://github.com/nawalacheker1/CVE-2026-46331)
 
 ### CVE-2026-46333 (2026-05-15)
 
@@ -6131,6 +6134,7 @@
 
 ### CVE-2026-60004
 - [HORKimhab/CVE-2026-60004](https://github.com/HORKimhab/CVE-2026-60004)
+- [EQSTLab/CVE-2026-60004](https://github.com/EQSTLab/CVE-2026-60004)
 
 ### CVE-2026-60121 (2026-07-13)
 
@@ -6282,6 +6286,7 @@
 - [HORKimhab/CVE-2026-64600](https://github.com/HORKimhab/CVE-2026-64600)
 - [vulnquest58/VQ-RefluxCore](https://github.com/vulnquest58/VQ-RefluxCore)
 - [Debajyoti0-0/CVE-2026-64600](https://github.com/Debajyoti0-0/CVE-2026-64600)
+- [litosmartin/CVE-2026-64600-Refluxfs-PoC](https://github.com/litosmartin/CVE-2026-64600-Refluxfs-PoC)
 - [bha-vin/CVE-2026-64600-Exploit](https://github.com/bha-vin/CVE-2026-64600-Exploit)
 - [letsr00t/RefluxFS_CVE-2026-64600](https://github.com/letsr00t/RefluxFS_CVE-2026-64600)
 
@@ -13675,6 +13680,13 @@
 
 - [xShadow-Here/CVE-2025-49071](https://github.com/xShadow-Here/CVE-2025-49071)
 
+### CVE-2025-49091 (2025-06-11)
+
+<code>KDE Konsole before 25.04.2 allows remote code execution in a certain scenario. It supports loading URLs from the scheme handlers such as a ssh:// or telnet:// or rlogin:// URL. This can be executed regardless of whether the ssh, telnet, or rlogin binary is available. In this mode, there is a code path where if that binary is not available, Konsole falls back to using /bin/bash for the given arguments (i.e., the URL) provided. This allows an attacker to execute arbitrary code.
+</code>
+
+- [thefreestyleresearcher/CVE-2025-49091-Gajim-RCE](https://github.com/thefreestyleresearcher/CVE-2025-49091-Gajim-RCE)
+
 ### CVE-2025-49113 (2025-06-02)
 
 <code>Roundcube Webmail before 1.5.10 and 1.6.x before 1.6.11 allows remote code execution by authenticated users because the _from parameter in a URL is not validated in program/actions/settings/upload.php, leading to PHP Object Deserialization.
@@ -17544,13 +17556,6 @@
 
 - [sivaadityacoder/CVE-2025-67146-CVE-2025-67147](https://github.com/sivaadityacoder/CVE-2025-67146-CVE-2025-67147)
 
-### CVE-2025-67158 (2026-01-02)
-
-<code>An authentication bypass in the /cgi-bin/jvsweb.cgi endpoint of Revotech I6032W-FHW v1.0.0014 - 20210517 allows attackers to access sensitive information and escalate privileges via a crafted HTTP request.
-</code>
-
-- [Remenis/CVE-2025-67158](https://github.com/Remenis/CVE-2025-67158)
-
 ### CVE-2025-67159 (2026-01-02)
 
 <code>Vatilon v1.12.37-20240124 was discovered to transmit user credentials in plaintext.
@@ -20959,7 +20964,6 @@
 - [k4nfr3/CVE-2024-9474](https://github.com/k4nfr3/CVE-2024-9474)
 - [deathvu/CVE-2024-9474](https://github.com/deathvu/CVE-2024-9474)
 - [coskper-papa/PAN-OS_CVE-2024-9474](https://github.com/coskper-papa/PAN-OS_CVE-2024-9474)
-- [aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474)
 
 ### CVE-2024-9506 (2024-10-15)
 
@@ -23898,6 +23902,7 @@
 - [arch1m3d/CVE-2024-28000](https://github.com/arch1m3d/CVE-2024-28000)
 - [SSSSuperX/CVE-2024-28000](https://github.com/SSSSuperX/CVE-2024-28000)
 - [JohnDoeAnonITA/CVE-2024-28000](https://github.com/JohnDoeAnonITA/CVE-2024-28000)
+- [AliHzSec/CVE-2024-28000](https://github.com/AliHzSec/CVE-2024-28000)
 
 ### CVE-2024-28085 (2024-03-27)
 
@@ -41201,6 +41206,13 @@
 
 - [DeveloperOl/CVE-2022-24348-2](https://github.com/DeveloperOl/CVE-2022-24348-2)
 
+### CVE-2022-24355 (2022-02-18)
+
+<code>This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of TP-Link TL-WR940N 3.20.1 Build 200316 Rel.34392n (5553) routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of file name extensions. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-13910.
+</code>
+
+- [ilizavr/CVE-2022-24355](https://github.com/ilizavr/CVE-2022-24355)
+
 ### CVE-2022-24434 (2022-05-20)
 
 <code>This affects all versions of package dicer. A malicious attacker can send a modified form to server, and crash the nodejs service. An attacker could sent the payload again and again so that the service continuously crashes.
@@ -46577,7 +46589,7 @@
 - [Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-](https://github.com/Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-)
 - [shishirpandey18/CVE-2021-3156](https://github.com/shishirpandey18/CVE-2021-3156)
 - [Shuhaib88/Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156](https://github.com/Shuhaib88/Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156)
-- [Superliverbun/cve-2021-3156-](https://github.com/Superliverbun/cve-2021-3156-)
+- [gmh5225/cve-2021-3156-](https://github.com/gmh5225/cve-2021-3156-)
 - [TopskiyPavelQwertyGang/Review.CVE-2021-3156](https://github.com/TopskiyPavelQwertyGang/Review.CVE-2021-3156)
 - [Maalfer/Sudo-CVE-2021-3156](https://github.com/Maalfer/Sudo-CVE-2021-3156)
 - [HuzaifaTariqAfzalKhan/CVE-Exploit-Research-Development-ITSOLERA](https://github.com/HuzaifaTariqAfzalKhan/CVE-Exploit-Research-Development-ITSOLERA)
@@ -54322,6 +54334,13 @@
 </code>
 
 - [GangTaegyeong/CVE-2020-7842](https://github.com/GangTaegyeong/CVE-2020-7842)
+
+### CVE-2020-7882 (2021-11-22)
+
+<code>Using the parameter of getPFXFolderList function, attackers can see the information of authorization certification and delete the files. It occurs because the parameter contains path traversal characters(ie. '../../../')
+</code>
+
+- [HORKimhab/CVE-2020-7882](https://github.com/HORKimhab/CVE-2020-7882)
 
 ### CVE-2020-7897
 - [mooneee/cve-2020-7897](https://github.com/mooneee/cve-2020-7897)
