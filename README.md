@@ -1199,6 +1199,13 @@
 
 - [Hunt-Benito/zephyr-lwm2m-firmware-update-oob-read-cve-2026-10672-truncated-package-uri](https://github.com/Hunt-Benito/zephyr-lwm2m-firmware-update-oob-read-cve-2026-10672-truncated-package-uri)
 
+### CVE-2026-10702 (2026-06-02)
+
+<code>JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 151.0.3.
+</code>
+
+- [HORKimhab/CVE-2026-10702](https://github.com/HORKimhab/CVE-2026-10702)
+
 ### CVE-2026-10795 (2026-06-11)
 
 <code>The UpdraftPlus: WP Backup &amp; Migration Plugin plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 1.26.4 via the UpdraftPlus_Remote_Communications_V2::wp_loaded function. This is due to insufficient validation of the remote communications message format, where signature verification can be bypassed and unchecked decryption return values collapse to a predictable all-zero encryption key. This makes it possible for unauthenticated attackers to forge arbitrary RPC commands and run them as the connected administrator, such as uploading and activating a malicious plugin, which ultimately leads to remote code execution.
@@ -1756,6 +1763,7 @@
 - [szybnev/cve-2026-20896-gitea-poc](https://github.com/szybnev/cve-2026-20896-gitea-poc)
 - [XaocZenon/CVE-2026-20896](https://github.com/XaocZenon/CVE-2026-20896)
 - [Lite-os15/Lab-001-Gitea-CVE-2026-20896-](https://github.com/Lite-os15/Lab-001-Gitea-CVE-2026-20896-)
+- [EQSTLab/CVE-2026-20896](https://github.com/EQSTLab/CVE-2026-20896)
 
 ### CVE-2026-20980 (2026-02-04)
 
@@ -4016,7 +4024,7 @@
 - [BuSung-dev/CVE-2026-43499-S25U](https://github.com/BuSung-dev/CVE-2026-43499-S25U)
 - [ayyy7128/CVE-2026-43499-jinghu](https://github.com/ayyy7128/CVE-2026-43499-jinghu)
 - [justsoman/CyberMeowfia-ace3](https://github.com/justsoman/CyberMeowfia-ace3)
-- [2932796375github/CVE-2026-43499_OPPO-MT6835](https://github.com/2932796375github/CVE-2026-43499_OPPO-MT6835)
+- [fancyzll/CVE-2026-43499_OPPO-MT6835](https://github.com/fancyzll/CVE-2026-43499_OPPO-MT6835)
 - [MiaPatsune/cve-2026-43499](https://github.com/MiaPatsune/cve-2026-43499)
 - [sorrow404Null/CVE-2026-43499-RMX5200](https://github.com/sorrow404Null/CVE-2026-43499-RMX5200)
 - [BuSung-dev/Root-My-Galaxy](https://github.com/BuSung-dev/Root-My-Galaxy)
@@ -4038,8 +4046,9 @@
 - [woshimaniubi8/CVE-2026-43499-root-KernelSU](https://github.com/woshimaniubi8/CVE-2026-43499-root-KernelSU)
 - [soralis0912/CVE-2026-43499-pmg110-root](https://github.com/soralis0912/CVE-2026-43499-pmg110-root)
 - [dnlid/CVE-2026-43499](https://github.com/dnlid/CVE-2026-43499)
-- [Witaqua-tools/Root-My-Device](https://github.com/Witaqua-tools/Root-My-Device)
+- [WitAqua-tools/Root-My-Device](https://github.com/WitAqua-tools/Root-My-Device)
 - [233laoliu/mt6985-CVE-2026-43499](https://github.com/233laoliu/mt6985-CVE-2026-43499)
+- [2932796375github/CVE-2026-43499_OPPO-MT6835](https://github.com/2932796375github/CVE-2026-43499_OPPO-MT6835)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -5236,6 +5245,9 @@
 - [xxconi/CVE-2026-49777-CVE-2026-10735](https://github.com/xxconi/CVE-2026-49777-CVE-2026-10735)
 - [HORKimhab/CVE-Wordpress](https://github.com/HORKimhab/CVE-Wordpress)
 
+### CVE-2026-49865
+- [cyeezy08/Kimai-CVE-2026-49865-POC](https://github.com/cyeezy08/Kimai-CVE-2026-49865-POC)
+
 ### CVE-2026-49869 (2026-06-26)
 
 <code>Kestra is an open-source, event-driven orchestration platform. Prior to 1.0.45 and 1.3.21, AuthenticationFilter in Kestra OSS uses request.getPath().endsWith(&quot;/configs&quot;) to whitelist the public configuration endpoint from Basic Auth. Because the check is a suffix match rather than an exact path match, any API path whose last segment is configs bypasses authentication entirely. An unauthenticated remote attacker can exploit this to create and execute arbitrary workflows without credentials. Because Kestra ships with script execution plugins (plugin-script-shell, plugin-script-python, etc.) enabled by default, this directly results in unauthenticated Remote Code Execution as root inside the Kestra worker container.  This vulnerability is fixed in 1.0.45 and 1.3.21.
@@ -6088,6 +6100,13 @@
 
 - [MalHyuk/CVE-2026-59243](https://github.com/MalHyuk/CVE-2026-59243)
 
+### CVE-2026-59726 (2026-07-09)
+
+<code>Ruflo is an agent meta-harness for Claude Code and Codex. Prior to 3.16.3, ruflo's default docker-compose deployment exposed the MCP bridge POST /mcp and POST /mcp/:group endpoints without authentication, allowing an unauthenticated network attacker to invoke tools/call to terminal_execute, obtain a shell in the bridge container, read provider API keys, and poison AgentDB learning-store patterns. This issue is fixed in version 3.16.3.
+</code>
+
+- [HORKimhab/CVE-2026-59726](https://github.com/HORKimhab/CVE-2026-59726)
+
 ### CVE-2026-59734 (2026-07-09)
 
 <code>Coolify is an open-source and self-hostable tool for managing servers, applications, and databases. Prior to 4.0.0-beta.469, Coolify's app/Jobs/ApplicationDeploymentJob.php generate_healthcheck_commands() function directly interpolated the health_check_host, health_check_method, and health_check_path parameters into shell commands without proper sanitization, allowing authenticated users to execute arbitrary commands inside deployment containers. This issue is fixed in version 4.0.0-beta.469.
@@ -6160,6 +6179,7 @@
 - [codeb0ssx/Ultimate-CVE-2026-61511](https://github.com/codeb0ssx/Ultimate-CVE-2026-61511)
 - [tc4dy/CVE-2026-61511-PoC-Exploit](https://github.com/tc4dy/CVE-2026-61511-PoC-Exploit)
 - [webshellseo8/CVE-2026-61511-POC](https://github.com/webshellseo8/CVE-2026-61511-POC)
+- [shootcannon/CVE-2026-61511](https://github.com/shootcannon/CVE-2026-61511)
 
 ### CVE-2026-61946 (2026-07-23)
 
@@ -7798,6 +7818,13 @@
 </code>
 
 - [yacine-rm/CVE-2025-5880-PoC](https://github.com/yacine-rm/CVE-2025-5880-PoC)
+
+### CVE-2025-5915 (2025-06-09)
+
+<code>A vulnerability has been identified in the libarchive library. This flaw can lead to a heap buffer over-read due to the size of a filter block potentially exceeding the Lempel-Ziv-Storer-Schieber (LZSS) window. This means the library may attempt to read beyond the allocated memory buffer, which can result in unpredictable program behavior, crashes (denial of service), or the disclosure of sensitive information from adjacent memory regions.
+</code>
+
+- [R3n3r0/cve-2025-5915](https://github.com/R3n3r0/cve-2025-5915)
 
 ### CVE-2025-5947 (2025-08-01)
 
@@ -17644,13 +17671,6 @@
 </code>
 
 - [mbanyamer/CVE-2025-67644-LangGraph-3.0.1-SQLite-Checkpoint-SQL-Injection](https://github.com/mbanyamer/CVE-2025-67644-LangGraph-3.0.1-SQLite-Checkpoint-SQL-Injection)
-
-### CVE-2025-67730 (2025-12-12)
-
-<code>Frappe Learning Management System (LMS) is a learning system that helps users structure their content. Versions prior to 2.42.0 allow authenticated users to add malicious HTML and JavaScript through description fields in the Job, Course and Batch forms. This issue is fixed in version 2.42.0.
-</code>
-
-- [Dharan10/CVE-2025-67730](https://github.com/Dharan10/CVE-2025-67730)
 
 ### CVE-2025-67733 (2026-02-23)
 
