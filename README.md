@@ -4111,6 +4111,13 @@
 
 - [dem0ns/CVE-2026-43735](https://github.com/dem0ns/CVE-2026-43735)
 
+### CVE-2026-43813 (2026-07-27)
+
+<code>A validation issue was addressed with improved input sanitization. This issue is fixed in iOS 26.6 and iPadOS 26.6, macOS Tahoe 26.6, tvOS 26.6, visionOS 26.6, watchOS 26.6. A maliciously crafted app may be able to bypass code signing enforcement.
+</code>
+
+- [EastArctica/CVE-2026-43813](https://github.com/EastArctica/CVE-2026-43813)
+
 ### CVE-2026-43865 (2026-07-06)
 
 <code>Deserialization of Untrusted Data vulnerability in Apache Camel Hazelcast component.\n\nThe camel-hazelcast component creates and manages Hazelcast instances using a default configuration that applies no Java deserialization filter. When Camel builds the Hazelcast Config itself - that is, when no user-supplied HazelcastInstance, hazelcastConfigUri, or referenced Config bean is provided - neither Hazelcast's JavaSerializationFilterConfig nor a Camel-side ObjectInputFilter is configured, so objects received over the Hazelcast cluster protocol are deserialized inside Hazelcast's own serialization layer (ObjectInputStream.readObject) before Camel ever processes them. An attacker who can join or otherwise reach the Hazelcast cluster can publish a crafted serialized Java object that is then deserialized on every Camel node, resulting in remote code execution. The exposure is present by default and requires no opt-in endpoint configuration: any route using a hazelcast consumer (hazelcast-topic, hazelcast-queue, hazelcast-seda, hazelcast-map, hazelcast-multimap, hazelcast-replicatedmap, hazelcast-list, hazelcast-set), as well as the HazelcastAggregationRepository and HazelcastIdempotentRepository, is affected whenever the managed instance is created from Camel's default configuration.\nThis issue affects Apache Camel: from 4.0.0 before 4.14.8, from 4.15.0 before 4.18.3, from 4.19.0 before 4.21.0.\n\nUsers are recommended to upgrade to version 4.21.0, which fixes the issue. If users are on the 4.14.x LTS releases stream, then they are suggested to upgrade to 4.14.8. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.3. The fix makes Camel apply a default Hazelcast JavaSerializationFilterConfig (whitelisting the java., javax. and org.apache.camel. class-name prefixes and blacklisting java.net.) to instances it creates from its own default configuration, while leaving any user-supplied Config or HazelcastInstance untouched. For deployments that cannot upgrade immediately, configure a deserialization filter on the Hazelcast instance (Hazelcast JavaSerializationFilterConfig, or the JVM-wide system property -Djdk.serialFilter=!java.net.**;java.**;javax.**;org.apache.camel.**;!*) and enable Hazelcast cluster authentication and TLS to restrict who can reach the cluster.
@@ -4401,6 +4408,13 @@
 </code>
 
 - [yeahhbean/CVE-2026-45729](https://github.com/yeahhbean/CVE-2026-45729)
+
+### CVE-2026-45746 (2026-06-05)
+
+<code>Termix is a web-based server management platform with SSH terminal, tunneling, and file editing capabilities. Prior to version 2.3.2, the File Manager functionality in Termix contains a critical Broken Access Control vulnerability due to improper validation of the sessionId parameter. The backend trusts a client-controlled identifier without verifying that it belongs to the authenticated user. This allows an attacker to manipulate the value and access active File Manager sessions belonging to other users. Since these sessions are tied to SSH connections to remote VPS instances, exploitation allows unauthorized interaction with another user's remote filesystem. Because the File Manager exposes functionality such as file reading, writing, uploading, and execution, this vulnerability enables direct command execution on another user's VPS (RCE). Version 2.3.2 patches the issue.
+</code>
+
+- [GabrielHA12/Termix-research](https://github.com/GabrielHA12/Termix-research)
 
 ### CVE-2026-45806 (2026-07-15)
 
@@ -5647,6 +5661,13 @@
 
 - [Saku0512/CVE-2026-54088-poc](https://github.com/Saku0512/CVE-2026-54088-poc)
 
+### CVE-2026-54107 (2026-07-14)
+
+<code>Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Win32K allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [Pravin761/CVE-2026-54107](https://github.com/Pravin761/CVE-2026-54107)
+
 ### CVE-2026-54121 (2026-07-14)
 
 <code>Improper authorization in Active Directory Certificate Services (AD CS) allows an authorized attacker to elevate privileges over a network.
@@ -5957,6 +5978,13 @@
 </code>
 
 - [tc4dy/CVE-2026-57821-PoC-Exploit](https://github.com/tc4dy/CVE-2026-57821-PoC-Exploit)
+
+### CVE-2026-57827 (2026-07-11)
+
+<code>Joomla Extension - rsjoomla.com - Unauthenticated file upload in RSFiles component &lt; 1.17.12 - The Joomla extension RSFiles is vulnerable to an unauthenticated arbitrary file upload that allows uploading executable files and leads to full RCE.
+</code>
+
+- [shinthink/CVE-2026-57827](https://github.com/shinthink/CVE-2026-57827)
 
 ### CVE-2026-57829 (2026-07-13)
 
@@ -6293,6 +6321,8 @@
 
 ### CVE-2026-66066
 - [paveg/rails-activestorage-vips-audit](https://github.com/paveg/rails-activestorage-vips-audit)
+- [0xBlackash/CVE-2026-66066](https://github.com/0xBlackash/CVE-2026-66066)
+- [Zer0SumGam3/CVE-2026-66066-POC](https://github.com/Zer0SumGam3/CVE-2026-66066-POC)
 
 ### CVE-2026-66374 (2026-07-25)
 
@@ -25331,6 +25361,7 @@
 </code>
 
 - [ggfzx/CVE-2024-36104](https://github.com/ggfzx/CVE-2024-36104)
+- [Groppoxx/CVE-2024-36104-PoC](https://github.com/Groppoxx/CVE-2024-36104-PoC)
 
 ### CVE-2024-36401 (2024-07-01)
 
@@ -29262,13 +29293,6 @@
 </code>
 
 - [KUK3N4N/CVE-2024-57778](https://github.com/KUK3N4N/CVE-2024-57778)
-
-### CVE-2024-57785 (2025-01-16)
-
-<code>Zenitel AlphaWeb XE v11.2.3.10 was discovered to contain a local file inclusion vulnerability via the component amc_uploads.php.
-</code>
-
-- [s4fv4n/CVE-2024-57785](https://github.com/s4fv4n/CVE-2024-57785)
 
 ### CVE-2024-57972 (2025-03-06)
 
@@ -46512,7 +46536,6 @@
 - [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
 - [halissha/CVE-2021-3156](https://github.com/halissha/CVE-2021-3156)
 - [sharkmoos/Baron-Samedit](https://github.com/sharkmoos/Baron-Samedit)
-- [chenaotian/CVE-2021-3156](https://github.com/chenaotian/CVE-2021-3156)
 - [RodricBr/CVE-2021-3156](https://github.com/RodricBr/CVE-2021-3156)
 - [q77190858/CVE-2021-3156](https://github.com/q77190858/CVE-2021-3156)
 - [arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156)
@@ -46847,7 +46870,6 @@
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [arthepsy/CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034)
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
-- [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [xcanwin/CVE-2021-4034-UniontechOS](https://github.com/xcanwin/CVE-2021-4034-UniontechOS)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
@@ -50891,6 +50913,7 @@
 - [gagaltotal/CVE-2021-41773-apache](https://github.com/gagaltotal/CVE-2021-41773-apache)
 - [KunalKhandelwal-dev/cve-2021-41773-source-code-analysis](https://github.com/KunalKhandelwal-dev/cve-2021-41773-source-code-analysis)
 - [tr3m0x/CVE-2021-41773](https://github.com/tr3m0x/CVE-2021-41773)
+- [sbimoxa/cve-2021-41773-lab](https://github.com/sbimoxa/cve-2021-41773-lab)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -52021,6 +52044,7 @@
 - [hmxh123/Log4Shell-Vulnerability-Replication](https://github.com/hmxh123/Log4Shell-Vulnerability-Replication)
 - [limxuan/ehir-vuln-enterprise-login](https://github.com/limxuan/ehir-vuln-enterprise-login)
 - [DAADAISMYLIFE/log4shell-lab](https://github.com/DAADAISMYLIFE/log4shell-lab)
+- [sydneysamantha/Triage-CVE-2021-44228-Log4Shell-Log4j-](https://github.com/sydneysamantha/Triage-CVE-2021-44228-Log4Shell-Log4j-)
 - [Ricardo354/homelab-CVE-2021-44228](https://github.com/Ricardo354/homelab-CVE-2021-44228)
 - [AstralJays/TraditionalJay](https://github.com/AstralJays/TraditionalJay)
 - [prmawyer/log4shell-vulnerable-app](https://github.com/prmawyer/log4shell-vulnerable-app)
@@ -56942,6 +56966,7 @@
 </code>
 
 - [underprotection/CVE-2020-24028](https://github.com/underprotection/CVE-2020-24028)
+- [RedTeamBrasil/CVE-2020-24028](https://github.com/RedTeamBrasil/CVE-2020-24028)
 
 ### CVE-2020-24029 (2020-09-02)
 
@@ -56949,6 +56974,7 @@
 </code>
 
 - [underprotection/CVE-2020-24029](https://github.com/underprotection/CVE-2020-24029)
+- [RedTeamBrasil/CVE-2020-24029](https://github.com/RedTeamBrasil/CVE-2020-24029)
 
 ### CVE-2020-24030 (2020-09-02)
 
@@ -56956,6 +56982,7 @@
 </code>
 
 - [underprotection/CVE-2020-24030](https://github.com/underprotection/CVE-2020-24030)
+- [RedTeamBrasil/CVE-2020-24030](https://github.com/RedTeamBrasil/CVE-2020-24030)
 
 ### CVE-2020-24032 (2020-08-18)
 
@@ -62383,6 +62410,7 @@
 </code>
 
 - [underprotection/CVE-2019-19550](https://github.com/underprotection/CVE-2019-19550)
+- [RedTeamBrasil/CVE-2019-19550](https://github.com/RedTeamBrasil/CVE-2019-19550)
 
 ### CVE-2019-19576 (2019-12-04)
 
