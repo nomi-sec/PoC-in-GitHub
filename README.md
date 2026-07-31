@@ -2877,6 +2877,13 @@
 - [rahultb-sec/CVE-2026-33829-Writeup](https://github.com/rahultb-sec/CVE-2026-33829-Writeup)
 - [seguridadentrerios/CVE-2026-33829](https://github.com/seguridadentrerios/CVE-2026-33829)
 
+### CVE-2026-33937 (2026-03-27)
+
+<code>Handlebars provides the power necessary to let users build semantic templates. In versions 4.0.0 through 4.7.8, `Handlebars.compile()` accepts a pre-parsed AST object in addition to a template string. The `value` field of a `NumberLiteral` AST node is emitted directly into the generated JavaScript without quoting or sanitization. An attacker who can supply a crafted AST to `compile()` can therefore inject and execute arbitrary JavaScript, leading to Remote Code Execution on the server. Version 4.7.9 fixes the issue. Some workarounds are available. Validate input type before calling `Handlebars.compile()`; ensure the argument is always a  `string`, never a plain object or JSON-deserialized value. Use the Handlebars runtime-only build (`handlebars/runtime`) on the server if templates are pre-compiled at build time; `compile()` will be unavailable.
+</code>
+
+- [garlic-wizard/CVE-2026-33937-for-DarkZeroReturns](https://github.com/garlic-wizard/CVE-2026-33937-for-DarkZeroReturns)
+
 ### CVE-2026-34038 (2026-07-06)
 
 <code>Coolify is an open-source and self-hostable tool for managing servers, applications, and databases. Prior to 4.0.0-beta.469, an authenticated remote command injection vulnerability in application deployment handling allows users with application write permissions to achieve remote code execution and exfiltrate sensitive environment variables through deployment logs via fields such as dockerfile_location and deployment commands. This issue is fixed in version 4.0.0-beta.469.
@@ -6000,6 +6007,7 @@
 </code>
 
 - [shinthink/CVE-2026-57827](https://github.com/shinthink/CVE-2026-57827)
+- [Candisexterior171/CVE-2026-57827](https://github.com/Candisexterior171/CVE-2026-57827)
 
 ### CVE-2026-57829 (2026-07-13)
 
@@ -6135,6 +6143,7 @@
 ### CVE-2026-60004
 - [HORKimhab/CVE-2026-60004](https://github.com/HORKimhab/CVE-2026-60004)
 - [EQSTLab/CVE-2026-60004](https://github.com/EQSTLab/CVE-2026-60004)
+- [0xBlackash/CVE-2026-60004](https://github.com/0xBlackash/CVE-2026-60004)
 
 ### CVE-2026-60121 (2026-07-13)
 
@@ -6172,6 +6181,13 @@
 </code>
 
 - [nmagill123/CVE-2026-61343-poc-librebooking-rce](https://github.com/nmagill123/CVE-2026-61343-poc-librebooking-rce)
+
+### CVE-2026-61424 (2026-07-20)
+
+<code>Joomla Extension - dj-extensions.com - Unauthenticated arbitrary file upload in DJ-Classifieds &lt; 3.11.2 - The Joomla extension DJ-Classifieds is vulnerable to an unauthenticated file upload, leading to full RCE.
+</code>
+
+- [shinthink/CVE-2026-61424](https://github.com/shinthink/CVE-2026-61424)
 
 ### CVE-2026-61511 (2026-07-27)
 
@@ -6269,6 +6285,14 @@
 - [imXur/WordPress-CVE-2026-63030-Analysis](https://github.com/imXur/WordPress-CVE-2026-63030-Analysis)
 - [yuag/wp2shell](https://github.com/yuag/wp2shell)
 - [BytesPulse-OE/wp2shell-Hestia-Scanner](https://github.com/BytesPulse-OE/wp2shell-Hestia-Scanner)
+- [Industri4l-H3ll-Xpl0it3rs/CVE-2026-63030-WP2Shell](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-63030-WP2Shell)
+
+### CVE-2026-63077 (2026-07-27)
+
+<code>In JetBrains TeamCity before 2026.1.3, 2025.11.7 unauthenticated remote code execution was possible via the agent polling protocol
+</code>
+
+- [unveiledhistory49/teamcity-cve-2026-63077-remediation](https://github.com/unveiledhistory49/teamcity-cve-2026-63077-remediation)
 
 ### CVE-2026-63766 (2026-07-20)
 
@@ -6326,6 +6350,13 @@
 - [shinthink/CVE-2026-65761](https://github.com/shinthink/CVE-2026-65761)
 - [ywh-jfellus/CVE-2026-65761](https://github.com/ywh-jfellus/CVE-2026-65761)
 
+### CVE-2026-65883 (2026-07-29)
+
+<code>Joomla Extension - aimy-extensions.com - RCE via PHP object injection in Aimy Captcha-Less Form Guard 18.0 - 20.0 - A forged clfgd field allows PHP objection injection and thereby remote code execution.
+</code>
+
+- [shinthink/CVE-2026-65883](https://github.com/shinthink/CVE-2026-65883)
+
 ### CVE-2026-65893 (2026-07-27)
 
 <code>This vulnerability exists in CP PLUS EZ-P21 IP Camera due to an insecure debug feature enabled in the firmware.\n\nAn attacker with physical access could exploit this vulnerability by placing arbitrary code on removable media and triggering their execution through the debug mechanism.\n\n\n\nSuccessful exploitation of this vulnerability could allow an attacker to execute arbitrary code with elevated privileges on the targeted device.
@@ -6344,10 +6375,15 @@
 
 - [Hunt-Benito/siyuan-mcp-admin-takeover-cve-2026-66012-missing-authorization](https://github.com/Hunt-Benito/siyuan-mcp-admin-takeover-cve-2026-66012-missing-authorization)
 
-### CVE-2026-66066
+### CVE-2026-66066 (2026-07-30)
+
+<code>Action Pack is a framework for handling and responding to web requests. In versions prior to 7.2.3.2, 8.0.5.1 and 8.1.3.1, Active Storage does not disable libvips operations marked unsafe for untrusted content, allowing a crafted upload to invoke such an operation. Consuming applications are affected when configured to use libvips and accept image uploads from untrusted users. An unauthenticated attacker may exploit this behavior to read arbitrary files accessible to the Rails process, including environment variables and application secrets. Exposure of credentials such as secret_key_base or external-service tokens may enable remote code execution or lateral movement. This issue has been fixed in versions 7.2.3.2, 8.0.5.1 and 8.1.3.1.
+</code>
+
 - [paveg/rails-activestorage-vips-audit](https://github.com/paveg/rails-activestorage-vips-audit)
 - [0xBlackash/CVE-2026-66066](https://github.com/0xBlackash/CVE-2026-66066)
 - [Zer0SumGam3/CVE-2026-66066-POC](https://github.com/Zer0SumGam3/CVE-2026-66066-POC)
+- [rails/rails-forensics-CVE-2026-66066](https://github.com/rails/rails-forensics-CVE-2026-66066)
 
 ### CVE-2026-66374 (2026-07-25)
 
@@ -12052,6 +12088,7 @@
 - [Cosm3No1de/htb-orion-writeup](https://github.com/Cosm3No1de/htb-orion-writeup)
 - [c0gnit00/CVE-2025-32432](https://github.com/c0gnit00/CVE-2025-32432)
 - [theeomega/CVE-2025-32432-POC](https://github.com/theeomega/CVE-2025-32432-POC)
+- [HeltonPojo/CVE-2025-32432](https://github.com/HeltonPojo/CVE-2025-32432)
 
 ### CVE-2025-32433 (2025-04-16)
 
@@ -15393,7 +15430,6 @@
 - [k1llmelira/react2shell-exploit](https://github.com/k1llmelira/react2shell-exploit)
 - [Herick-Costa/CVE-2025-55182-React2Shell-RCE](https://github.com/Herick-Costa/CVE-2025-55182-React2Shell-RCE)
 - [diamorphine666/React2shell-CVE-2025-55182-Exploit](https://github.com/diamorphine666/React2shell-CVE-2025-55182-Exploit)
-- [RootEvil333/CVE-2025-55182](https://github.com/RootEvil333/CVE-2025-55182)
 - [se1zer/Nextjs_Exploit_Tool](https://github.com/se1zer/Nextjs_Exploit_Tool)
 - [6t2kydmp8k-jpg/CVE-2025-55182-Vulnerability-Proof-of-Concept-Group-Project-](https://github.com/6t2kydmp8k-jpg/CVE-2025-55182-Vulnerability-Proof-of-Concept-Group-Project-)
 - [razureink/cve-2025-55182-react2shell_reproduction](https://github.com/razureink/cve-2025-55182-react2shell_reproduction)
@@ -40771,7 +40807,6 @@
 - [YUTING-HUANG0/Spring4Shell-CTF](https://github.com/YUTING-HUANG0/Spring4Shell-CTF)
 - [march0n/PoC-CVE-2022-22965-Spring4Shell](https://github.com/march0n/PoC-CVE-2022-22965-Spring4Shell)
 - [Kuri119/CVE-2022-22965-Spring4Shell](https://github.com/Kuri119/CVE-2022-22965-Spring4Shell)
-- [RootEvil333/CVE-2022-22965](https://github.com/RootEvil333/CVE-2022-22965)
 - [meng-security/spring4shell-local-verification-lab](https://github.com/meng-security/spring4shell-local-verification-lab)
 
 ### CVE-2022-22968 (2022-04-14)
@@ -41469,6 +41504,13 @@
 
 - [shoucheng3/xwiki__xwiki-commons_CVE-2022-24897_12-6-6](https://github.com/shoucheng3/xwiki__xwiki-commons_CVE-2022-24897_12-6-6)
 
+### CVE-2022-24903 (2022-05-05)
+
+<code>Rsyslog is a rocket-fast system for log processing. Modules for TCP syslog reception have a potential heap buffer overflow when octet-counted framing is used. This can result in a segfault or some other malfunction. As of our understanding, this vulnerability can not be used for remote code execution. But there may still be a slight chance for experts to do that. The bug occurs when the octet count is read. While there is a check for the maximum number of octets, digits are written to a heap buffer even when the octet count is over the maximum, This can be used to overrun the memory buffer. However, once the sequence of digits stop, no additional characters can be added to the buffer. In our opinion, this makes remote exploits impossible or at least highly complex. Octet-counted framing is one of two potential framing modes. It is relatively uncommon, but enabled by default on receivers. Modules `imtcp`, `imptcp`, `imgssapi`, and `imhttp` are used for regular syslog message reception. It is best practice not to directly expose them to the public. When this practice is followed, the risk is considerably lower. Module `imdiag` is a diagnostics module primarily intended for testbench runs. We do not expect it to be present on any production installation. Octet-counted framing is not very common. Usually, it needs to be specifically enabled at senders. If users do not need it, they can turn it off for the most important modules. This will mitigate the vulnerability.
+</code>
+
+- [andree554/CVE-2022-24903-Heap-based-buffer-overflow-Hand-On-Lab](https://github.com/andree554/CVE-2022-24903-Heap-based-buffer-overflow-Hand-On-Lab)
+
 ### CVE-2022-24924 (2022-02-11)
 
 <code>An improper access control in LiveWallpaperService prior to versions 3.0.9.0 allows to create a specific named system directory without a proper permission.
@@ -41915,7 +41957,6 @@
 - [MAHABUB122003/Atlassian-CVE-2022-26134](https://github.com/MAHABUB122003/Atlassian-CVE-2022-26134)
 - [crypt0lith/confluence-ognl-rce](https://github.com/crypt0lith/confluence-ognl-rce)
 - [roodhelios/CVE-2022-26134-OGNL-Injection](https://github.com/roodhelios/CVE-2022-26134-OGNL-Injection)
-- [RootEvil333/CVE-2022-26134](https://github.com/RootEvil333/CVE-2022-26134)
 
 ### CVE-2022-26135 (2022-06-30)
 
