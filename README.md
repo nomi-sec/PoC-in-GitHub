@@ -1611,8 +1611,15 @@
 - [HORKimhab/CVE-2026-16723](https://github.com/HORKimhab/CVE-2026-16723)
 - [why-success/fastjson-rce-lab](https://github.com/why-success/fastjson-rce-lab)
 - [EQSTLab/CVE-2026-16723](https://github.com/EQSTLab/CVE-2026-16723)
-- [Nowafen/CVE-2026-16723](https://github.com/Nowafen/CVE-2026-16723)
+- [1xPwn/CVE-2026-16723](https://github.com/1xPwn/CVE-2026-16723)
 - [fazilbaig1/CVE-2026-16723](https://github.com/fazilbaig1/CVE-2026-16723)
+
+### CVE-2026-17351 (2026-07-31)
+
+<code>The fix for CVE-2026-12045 in pgAdmin 4 9.16 required the LLM-supplied query passed to the AI Assistant's execute_sql_query tool to parse, via sqlparse, as exactly one non-transaction-control statement before running it inside a BEGIN TRANSACTION READ ONLY wrapper. sqlparse's string-literal lexing can disagree with PostgreSQL's own parser: under standard_conforming_strings = on (PostgreSQL's default since 9.1), a backslash immediately before a quote is an ordinary character to PostgreSQL, but sqlparse treats it as escaping the quote. A payload such as SELECT '\';COMMIT;CREATE TABLE pwn(x int);SELECT 1 --' therefore parses as a single SELECT to sqlparse's validator, while PostgreSQL executes it as four statements: the smuggled COMMIT ends the wrapping read-only transaction, and the trailing ROLLBACK becomes a no-op. This reintroduces the same write/RCE bypass CVE-2026-12045 was meant to close, reachable via the same indirect prompt-injection delivery (an attacker plants the payload in any object the AI Assistant may read; the LLM emits it as a tool call).\n\nAn initial candidate fix ran the query with psycopg's execute(..., prepare=True), intending to force PostgreSQL's own Parse step (extended query protocol) to reject multi-statement text regardless of sqlparse's classification. This candidate fix does not work as submitted: psycopg3's PrepareManager silently ignores the prepare argument whenever the connection's prepare_threshold is None, which is pgAdmin's default for every server connection (the per-server &quot;Prepare threshold&quot; field is blank unless an administrator explicitly sets it) -- psycopg3 falls back to the simple query protocol, the same multi-statement-capable path the bypass exploits, so the candidate fix closes nothing on any real-world default configuration.\n\nThe corrected fix sets conn.prepare_threshold = 0 directly on the dedicated, single-use read-only connection the AI Assistant tool opens, structurally forcing the extended query protocol independent of any server-level configuration. Verified against a live PostgreSQL 18 instance: the payload executes successfully under the prepare_threshold=None (default) behavior, and is rejected with &quot;cannot insert multiple commands into a prepared statement&quot; once prepare_threshold=0 is set on that connection.\n\nThis issue affects pgAdmin 4: from 9.13 before 9.17.
+</code>
+
+- [Hunt-Benito/pgadmin-ai-assistant-sql-injection-cve-2026-17351-lexer-differential-bypass](https://github.com/Hunt-Benito/pgadmin-ai-assistant-sql-injection-cve-2026-17351-lexer-differential-bypass)
 
 ### CVE-2026-18220 (2026-07-29)
 
@@ -1835,6 +1842,7 @@
 - [EQSTLab/CVE-2026-21858](https://github.com/EQSTLab/CVE-2026-21858)
 - [Fomovet/cve-2026-21858](https://github.com/Fomovet/cve-2026-21858)
 - [qianlijaingshan/n8n-cve-2026-21858](https://github.com/qianlijaingshan/n8n-cve-2026-21858)
+- [Giangdurian/CVE-2026-21858-and-CVE-2025-68613](https://github.com/Giangdurian/CVE-2026-21858-and-CVE-2025-68613)
 
 ### CVE-2026-21876 (2026-01-08)
 
@@ -2739,6 +2747,13 @@
 </code>
 
 - [asdrf5gh67j8ki/CVE-2026-32202](https://github.com/asdrf5gh67j8ki/CVE-2026-32202)
+
+### CVE-2026-32286 (2026-03-26)
+
+<code>The DataRow.Decode function fails to properly validate field lengths. A malicious or compromised PostgreSQL server can send a DataRow message with a negative field length, causing a slice bounds out of range panic.
+</code>
+
+- [slashid/baton-retool](https://github.com/slashid/baton-retool)
 
 ### CVE-2026-32488 (2026-03-25)
 
@@ -4070,6 +4085,7 @@
 - [233laoliu/mt6985-CVE-2026-43499](https://github.com/233laoliu/mt6985-CVE-2026-43499)
 - [2932796375github/CVE-2026-43499_OPPO-MT6835](https://github.com/2932796375github/CVE-2026-43499_OPPO-MT6835)
 - [LuZe0y/pd2425-cve-2026-43499-config](https://github.com/LuZe0y/pd2425-cve-2026-43499-config)
+- [datfooldive/ghostlock-emerald](https://github.com/datfooldive/ghostlock-emerald)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -4794,6 +4810,7 @@
 </code>
 
 - [Nxploited/CVE-2026-47668](https://github.com/Nxploited/CVE-2026-47668)
+- [s-vx/CVE-2026-47668](https://github.com/s-vx/CVE-2026-47668)
 
 ### CVE-2026-47670 (2026-07-23)
 
@@ -5444,11 +5461,7 @@
 
 - [A17-ba/CVE-2026-51119](https://github.com/A17-ba/CVE-2026-51119)
 
-### CVE-2026-51302 (2026-07-27)
-
-<code>SQLite 3.41 has a use-after-free vulnerability exists in the expression evaluation logic. The sqlite3ReleaseTempReg function improperly releases temporary register resources, and the subsequent exprComputeOperands function continues to access the already freed register memory. By supplying a malicious SQL statement, a remote attacker can exploit this flaw to cause denial of service, leak sensitive information, or potentially execute arbitrary code on the affected system.
-</code>
-
+### CVE-2026-51302
 - [extratao/CVE-2026-51302-PoC](https://github.com/extratao/CVE-2026-51302-PoC)
 
 ### CVE-2026-51385 (2026-07-20)
@@ -6307,12 +6320,22 @@
 
 - [unveiledhistory49/teamcity-cve-2026-63077-remediation](https://github.com/unveiledhistory49/teamcity-cve-2026-63077-remediation)
 
+### CVE-2026-63563
+- [redr0nin/CVE-2026-63563](https://github.com/redr0nin/CVE-2026-63563)
+
 ### CVE-2026-63766 (2026-07-20)
 
 <code>GPT-SoVITS through 20250606v2pro contains an OS command injection vulnerability in webui.py where ASR, slice, denoise, and uvr5 functions interpolate unsanitized Gradio textbox values directly into shell commands executed with shell=True. Attackers can inject shell metacharacters through path parameters to execute arbitrary OS commands as the server process user without authentication.
 </code>
 
 - [0xdak/CVE-2026-63766_exploit](https://github.com/0xdak/CVE-2026-63766_exploit)
+
+### CVE-2026-64531 (2026-07-27)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnet: openvswitch: reject oversized nested action attrs\n\nOpen vSwitch stores generated flow actions as nlattrs, whose nla_len\nfield is u16. Commit a1e64addf3ff (&quot;net: openvswitch: remove\nmisbehaving actions length check&quot;) allowed the total sw_flow_actions\nstream to grow beyond 64 KiB, which is valid, but also removed the last\nguard preventing a generated nested action attribute from exceeding\nU16_MAX.\n\nAn oversized generated container can thus be closed with a truncated\nnla_len. A later dump or teardown then walks a structurally different\nstream than the one that was validated. In particular, an oversized\nnested CLONE/CT action may cause subsequent bytes in the generated\nstream to be interpreted as independent actions.\n\nKeep the larger total-action-stream behavior, but make nested action\nclose reject generated containers that do not fit in nla_len, and return\nthe error through all callers. For recursive SAMPLE, CLONE, DEC_TTL, and\nCHECK_PKT_LEN builders, trim resource-owning action-list tails in reverse\nconstruction order before discarding failed wrappers, so resources copied\ninto the rejected tails are released before the wrappers are removed.\n\nMost failed outer wrappers are discarded by truncating actions_len after\nchild resources have been released. CHECK_PKT_LEN also trims its parent\nafter branch resources are gone. SET/TUNNEL close failures unwind their\nknown tun_dst ownership directly, and SET_TO_MASKED has no external\nownership and truncates on close failure.
+</code>
+
+- [mahfuzreham/OVSwrap-CVE-2026-64531-Mitigation-Tool](https://github.com/mahfuzreham/OVSwrap-CVE-2026-64531-Mitigation-Tool)
 
 ### CVE-2026-64600 (2026-07-23)
 
@@ -6396,6 +6419,7 @@
 - [0xBlackash/CVE-2026-66066](https://github.com/0xBlackash/CVE-2026-66066)
 - [Zer0SumGam3/CVE-2026-66066-POC](https://github.com/Zer0SumGam3/CVE-2026-66066-POC)
 - [rails/rails-forensics-CVE-2026-66066](https://github.com/rails/rails-forensics-CVE-2026-66066)
+- [0xsha/KindaRails2Shell](https://github.com/0xsha/KindaRails2Shell)
 
 ### CVE-2026-66374 (2026-07-25)
 
@@ -9809,13 +9833,6 @@
 
 - [SpiritualMachines/buds-audit](https://github.com/SpiritualMachines/buds-audit)
 
-### CVE-2025-20701 (2025-08-04)
-
-<code>In the Airoha Bluetooth audio SDK, there is a possible way to pair Bluetooth audio device without user consent. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
-</code>
-
-- [x0jac0b0x/skullcandy-dime3-cve-2025-20701](https://github.com/x0jac0b0x/skullcandy-dime3-cve-2025-20701)
-
 ### CVE-2025-21042 (2025-09-12)
 
 <code>Out-of-bounds write in libimagecodec.quram.so prior to SMR Apr-2025 Release 1 allows remote attackers to execute arbitrary code.
@@ -12208,7 +12225,7 @@
 - [y4ney/CVE-2025-32463-lab](https://github.com/y4ney/CVE-2025-32463-lab)
 - [aldoClau98/CVE-2025-32463](https://github.com/aldoClau98/CVE-2025-32463)
 - [painoob/CVE-2025-32463](https://github.com/painoob/CVE-2025-32463)
-- [Nowafen/CVE-2025-32463](https://github.com/Nowafen/CVE-2025-32463)
+- [1xPwn/CVE-2025-32463](https://github.com/1xPwn/CVE-2025-32463)
 - [Yuy0ung/CVE-2025-32463_chwoot](https://github.com/Yuy0ung/CVE-2025-32463_chwoot)
 - [blackcat4347/CVE-2025-32463_PoC](https://github.com/blackcat4347/CVE-2025-32463_PoC)
 - [ashardev002/CVE-2025-32463_chwoot](https://github.com/ashardev002/CVE-2025-32463_chwoot)
@@ -14437,6 +14454,7 @@
 - [Udyz/CVE-2025-52691](https://github.com/Udyz/CVE-2025-52691)
 - [you-ssef9/CVE-2025-52691](https://github.com/you-ssef9/CVE-2025-52691)
 - [DeathShotXD/CVE-2025-52691-APT-PoC](https://github.com/DeathShotXD/CVE-2025-52691-APT-PoC)
+- [mohammadzarnian1357/Ashwesker-CVE-2025-52691](https://github.com/mohammadzarnian1357/Ashwesker-CVE-2025-52691)
 - [nxgn-kd01/smartermail-cve-scanner](https://github.com/nxgn-kd01/smartermail-cve-scanner)
 - [watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691](https://github.com/watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691)
 - [rimbadirgantara/CVE-2025-52691-poc](https://github.com/rimbadirgantara/CVE-2025-52691-poc)
@@ -17670,7 +17688,6 @@
 - [maybe-O/CVE-2025-67303](https://github.com/maybe-O/CVE-2025-67303)
 - [ExploreUnknowed/CVE-2025-67303](https://github.com/ExploreUnknowed/CVE-2025-67303)
 - [materaj2/exploit_cve_2025_67303](https://github.com/materaj2/exploit_cve_2025_67303)
-- [Remnant-DB/CVE-2025-67303](https://github.com/Remnant-DB/CVE-2025-67303)
 - [wcnmwcis/CVE-2026-22777](https://github.com/wcnmwcis/CVE-2026-22777)
 - [jcaz2378/ComfyUIrce](https://github.com/jcaz2378/ComfyUIrce)
 
@@ -17914,6 +17931,7 @@
 - [canpilayda/n8n-RCE-CVE-2025-68613](https://github.com/canpilayda/n8n-RCE-CVE-2025-68613)
 - [azilRababe/CVE-2025-68613](https://github.com/azilRababe/CVE-2025-68613)
 - [qianlijaingshan/n8n-cve-2026-21858](https://github.com/qianlijaingshan/n8n-cve-2026-21858)
+- [Giangdurian/CVE-2026-21858-and-CVE-2025-68613](https://github.com/Giangdurian/CVE-2026-21858-and-CVE-2025-68613)
 
 ### CVE-2025-68616 (2026-01-19)
 
@@ -20302,7 +20320,6 @@
 - [moften/regreSSHion-CVE-2024-6387](https://github.com/moften/regreSSHion-CVE-2024-6387)
 - [OHHDamnBRO/Noregressh](https://github.com/OHHDamnBRO/Noregressh)
 - [Ngagne-Demba-Dia/CVE-2024-6387-corrigee](https://github.com/Ngagne-Demba-Dia/CVE-2024-6387-corrigee)
-- [Remnant-DB/CVE-2024-6387](https://github.com/Remnant-DB/CVE-2024-6387)
 - [Doux-x/CVE-2024-6387-analysis](https://github.com/Doux-x/CVE-2024-6387-analysis)
 - [kaleth4/CVE-2024-6387](https://github.com/kaleth4/CVE-2024-6387)
 - [oseasfr/Scanner_CVE_OpenSSH](https://github.com/oseasfr/Scanner_CVE_OpenSSH)
@@ -22913,7 +22930,7 @@
 - [rivaedoardo62-boop/cve-2024-23897-jenkins-poc](https://github.com/rivaedoardo62-boop/cve-2024-23897-jenkins-poc)
 - [Dungsocool/CVE-2024-23897](https://github.com/Dungsocool/CVE-2024-23897)
 - [razureink/cve-2024-23897-jenkins_lfi_reproduction](https://github.com/razureink/cve-2024-23897-jenkins_lfi_reproduction)
-- [dheeraj-jayaswal/cicd-goat-vapt-writeup](https://github.com/dheeraj-jayaswal/cicd-goat-vapt-writeup)
+- [dheeraj-jayaswal/CICD-Goat-Vapt-Writeup](https://github.com/dheeraj-jayaswal/CICD-Goat-Vapt-Writeup)
 
 ### CVE-2024-23898 (2024-01-24)
 
@@ -25415,6 +25432,7 @@
 - [kkhackz0013/CVE-2024-36401](https://github.com/kkhackz0013/CVE-2024-36401)
 - [0x0d3ad/CVE-2024-36401](https://github.com/0x0d3ad/CVE-2024-36401)
 - [funnyDog896/CVE-2024-36401-WoodpeckerPlugin](https://github.com/funnyDog896/CVE-2024-36401-WoodpeckerPlugin)
+- [whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit)
 - [bmth666/GeoServer-Tools-CVE-2024-36401](https://github.com/bmth666/GeoServer-Tools-CVE-2024-36401)
 - [amoy6228/CVE-2024-36401_Geoserver_RCE_POC](https://github.com/amoy6228/CVE-2024-36401_Geoserver_RCE_POC)
 - [ArcticDU/Exploit-CVE-2024-36401](https://github.com/ArcticDU/Exploit-CVE-2024-36401)
@@ -45340,7 +45358,7 @@
 - [narekkay/auto-cve-2022-44268.sh](https://github.com/narekkay/auto-cve-2022-44268.sh)
 - [fanbyprinciple/ImageMagick-lfi-poc](https://github.com/fanbyprinciple/ImageMagick-lfi-poc)
 - [chairat095/CVE-2022-44268_By_Kyokito](https://github.com/chairat095/CVE-2022-44268_By_Kyokito)
-- [atici/Exploit-for-ImageMagick-CVE-2022-44268](https://github.com/atici/Exploit-for-ImageMagick-CVE-2022-44268)
+- [atici/ImageMagick-CVE-2022-44268-PoC](https://github.com/atici/ImageMagick-CVE-2022-44268-PoC)
 - [Vagebondcur/IMAGE-MAGICK-CVE-2022-44268](https://github.com/Vagebondcur/IMAGE-MAGICK-CVE-2022-44268)
 - [NataliSemi/-CVE-2022-44268](https://github.com/NataliSemi/-CVE-2022-44268)
 - [CygnusX-26/CVE-2022-44268-fixed-PoC](https://github.com/CygnusX-26/CVE-2022-44268-fixed-PoC)
@@ -53877,7 +53895,6 @@
 </code>
 
 - [dead5nd/config-demo](https://github.com/dead5nd/config-demo)
-- [osamahamad/CVE-2020-5410-POC](https://github.com/osamahamad/CVE-2020-5410-POC)
 - [shoucheng3/spring-cloud__spring-cloud-config_CVE-2020-5410_2-1-8-RELEASE](https://github.com/shoucheng3/spring-cloud__spring-cloud-config_CVE-2020-5410_2-1-8-RELEASE)
 
 ### CVE-2020-5421 (2020-09-19)
@@ -54826,7 +54843,6 @@
 - [seanachao/CVE-2020-9484](https://github.com/seanachao/CVE-2020-9484)
 - [IdealDreamLast/CVE-2020-9484](https://github.com/IdealDreamLast/CVE-2020-9484)
 - [qerogram/CVE-2020-9484](https://github.com/qerogram/CVE-2020-9484)
-- [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
 - [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 - [PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484)
 - [DanQMoo/CVE-2020-9484-Scanner](https://github.com/DanQMoo/CVE-2020-9484-Scanner)
@@ -62349,13 +62365,6 @@
 
 - [juliourena/CVE-2019-19470-RedTeamRD](https://github.com/juliourena/CVE-2019-19470-RedTeamRD)
 
-### CVE-2019-19492 (2019-12-02)
-
-<code>FreeSWITCH 1.6.10 through 1.10.1 has a default password in event_socket.conf.xml.
-</code>
-
-- [Chocapikk/CVE-2019-19492](https://github.com/Chocapikk/CVE-2019-19492)
-
 ### CVE-2019-19511
 - [jra89/CVE-2019-19511](https://github.com/jra89/CVE-2019-19511)
 
@@ -64753,7 +64762,6 @@
 - [HSw109/CVE-2018-10933](https://github.com/HSw109/CVE-2018-10933)
 - [bidaoui4905/CVE-2018-10933](https://github.com/bidaoui4905/CVE-2018-10933)
 - [opsifiz/CVE-2018-10933](https://github.com/opsifiz/CVE-2018-10933)
-- [Remnant-DB/CVE-2018-10933](https://github.com/Remnant-DB/CVE-2018-10933)
 - [K3ysTr0K3R/CVE-2018-10933](https://github.com/K3ysTr0K3R/CVE-2018-10933)
 
 ### CVE-2018-10936 (2018-08-30)
@@ -65420,7 +65428,6 @@
 - [makmour/open-ssh-user-enumeration](https://github.com/makmour/open-ssh-user-enumeration)
 - [Alph4Sec/ssh_enum_py](https://github.com/Alph4Sec/ssh_enum_py)
 - [anonymous121029034720384234234/py-network-scanner](https://github.com/anonymous121029034720384234234/py-network-scanner)
-- [Remnant-DB/CVE-2018-15473](https://github.com/Remnant-DB/CVE-2018-15473)
 - [K3rn3l-32/Threaded-CVE-2018-15473](https://github.com/K3rn3l-32/Threaded-CVE-2018-15473)
 - [wtbacon/cve-2018-15473](https://github.com/wtbacon/cve-2018-15473)
 - [kikechans/-SSH-Enum-CVE-2018-15473](https://github.com/kikechans/-SSH-Enum-CVE-2018-15473)
@@ -65432,13 +65439,6 @@
 </code>
 
 - [DownWithUp/CVE-2018-15499](https://github.com/DownWithUp/CVE-2018-15499)
-
-### CVE-2018-15599 (2018-08-21)
-
-<code>The recv_msg_userauth_request function in svr-auth.c in Dropbear through 2018.76 is prone to a user enumeration vulnerability because username validity affects how fields in SSH_MSG_USERAUTH messages are handled, a similar issue to CVE-2018-15473 in an unrelated codebase.
-</code>
-
-- [Remnant-DB/CVE-2018-15599](https://github.com/Remnant-DB/CVE-2018-15599)
 
 ### CVE-2018-15686 (2018-10-26)
 
@@ -68066,7 +68066,6 @@
 - [dream434/CVE-2017-9841](https://github.com/dream434/CVE-2017-9841)
 - [MadExploits/PHPunit-Exploit](https://github.com/MadExploits/PHPunit-Exploit)
 - [MrG3P5/CVE-2017-9841](https://github.com/MrG3P5/CVE-2017-9841)
-- [Chocapikk/CVE-2017-9841](https://github.com/Chocapikk/CVE-2017-9841)
 - [joelindra/CVE-2017-9841](https://github.com/joelindra/CVE-2017-9841)
 - [K3ysTr0K3R/CVE-2017-9841-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-9841-EXPLOIT)
 - [drcrypterdotru/PHPUnit-GoScan](https://github.com/drcrypterdotru/PHPUnit-GoScan)
