@@ -905,6 +905,13 @@
 - [izxci/CVE-2026-8206](https://github.com/izxci/CVE-2026-8206)
 - [Dungsocool/CVE-2026-8206](https://github.com/Dungsocool/CVE-2026-8206)
 
+### CVE-2026-8337 (2026-05-21)
+
+<code>Concrete CMS 9.5.0 and below is vulnerable to IDOR in surveys. To be vulnerable, a site would have to be configured in such a way that both public and private surveys are present on the site. An unauthenticated attacker can vote in the restricted survey by submitting the restricted optionID through the public survey’s endpoint. The Concrete CMS security team gave this vulnerability a CVSS v.4.0 score of 6.3 with vector CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N. Thanks  Zer0daySec https://github.com/Zee99y  for reporting
+</code>
+
+- [aj2108/CVE-2026-8337](https://github.com/aj2108/CVE-2026-8337)
+
 ### CVE-2026-8347 (2026-05-22)
 
 <code>Concrete CMS 9.5.0 and below is vulnerable to IDOR + wrong-authorization-level in the Express association Reorder dialog.  This can cause Cross-entity state tampering with view-only permission on one entry. To be affected, a website has to be using express and relying on express entity ordering. The Concrete CMS security team gave this vulnerability a CVSS v.4.0 score of 2.3 with vector CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N. Thanks Winston Crooker for reporting.
@@ -4086,6 +4093,7 @@
 - [2932796375github/CVE-2026-43499_OPPO-MT6835](https://github.com/2932796375github/CVE-2026-43499_OPPO-MT6835)
 - [LuZe0y/pd2425-cve-2026-43499-config](https://github.com/LuZe0y/pd2425-cve-2026-43499-config)
 - [datfooldive/ghostlock-emerald](https://github.com/datfooldive/ghostlock-emerald)
+- [NothingFumo/ghostlock-aresin](https://github.com/NothingFumo/ghostlock-aresin)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -5519,7 +5527,11 @@
 
 - [nk7667/-linx-server-vulnerability-report](https://github.com/nk7667/-linx-server-vulnerability-report)
 
-### CVE-2026-52134
+### CVE-2026-52134 (2026-07-31)
+
+<code>An issue in the parseGoosePayload() function (/goose/goose_receiver.c) of libiec61850 v1.6 allows attackers to bypass authentication via a captured GOOSE frame.
+</code>
+
 - [if-forget/CVE-2026-52134-libiec61850](https://github.com/if-forget/CVE-2026-52134-libiec61850)
 
 ### CVE-2026-52199 (2026-07-17)
@@ -6118,7 +6130,7 @@
 
 ### CVE-2026-58586 (2026-07-24)
 
-<code>Image::WebP versions through 0.2 for Perl bundle a vulnerable version of libwebp.\n\nImage::WebP does not link to the system libwebp. Instead, it uses a bundled copy of libwebp 0.3.0 (released 2013-03-20). That version has multiple known vulnerabilities, including CVE-2023-4863.\n\nAny caller that decodes an untrusted WebP image reaches the bundled decoder. Because the library is compiled into the module, upgrading the system libwebp does not remediate this.
+<code>Image::WebP versions before 0.3.0 for Perl bundle a vulnerable version of libwebp.\n\nImage::WebP does not link to the system libwebp. Instead, it uses a bundled copy of libwebp 0.3.0 (released 2013-03-20). That version has multiple known vulnerabilities, including CVE-2023-4863.\n\nAny caller that decodes an untrusted WebP image reaches the bundled decoder. Because the library is compiled into the module, upgrading the system libwebp does not remediate this.
 </code>
 
 - [extratao/Image-WebP](https://github.com/extratao/Image-WebP)
@@ -6546,6 +6558,9 @@
 </code>
 
 - [theopaid/CVE-2026-67185-Unauthenticated-Path-Traversal-Allows-Arbitrary-File-Read-TinyWeb-](https://github.com/theopaid/CVE-2026-67185-Unauthenticated-Path-Traversal-Allows-Arbitrary-File-Read-TinyWeb-)
+
+### CVE-2026-67599
+- [LazyTitan33/CVE-2026-67599_ClearOS_RCE](https://github.com/LazyTitan33/CVE-2026-67599_ClearOS_RCE)
 
 ### CVE-2026-69212
 - [c0gnit00/CVE-2026-69212](https://github.com/c0gnit00/CVE-2026-69212)
@@ -40394,6 +40409,13 @@
 
 - [jhftss/CVE-2022-22639](https://github.com/jhftss/CVE-2022-22639)
 
+### CVE-2022-22706 (2022-03-03)
+
+<code>Arm Mali GPU Kernel Driver allows a non-privileged user to achieve write access to read-only memory pages. This affects Midgard r26p0 through r31p0, Bifrost r0p0 through r35p0, and Valhall r19p0 through r35p0.
+</code>
+
+- [byt3quester/CVE-2022-22706-poc](https://github.com/byt3quester/CVE-2022-22706-poc)
+
 ### CVE-2022-22718 (2022-02-09)
 
 <code>Windows Print Spooler Elevation of Privilege Vulnerability
@@ -46754,7 +46776,6 @@
 - [BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560)
 - [0dayNinja/CVE-2021-3560](https://github.com/0dayNinja/CVE-2021-3560)
 - [admin-079/CVE-2021-3560](https://github.com/admin-079/CVE-2021-3560)
-- [chenaotian/CVE-2021-3560](https://github.com/chenaotian/CVE-2021-3560)
 - [winmin/CVE-2021-3560](https://github.com/winmin/CVE-2021-3560)
 - [UNICORDev/exploit-CVE-2021-3560](https://github.com/UNICORDev/exploit-CVE-2021-3560)
 - [asepsaepdin/CVE-2021-3560](https://github.com/asepsaepdin/CVE-2021-3560)
@@ -47625,6 +47646,13 @@
 
 - [sendINUX/CVE-2021-22600__DirtyPagetable](https://github.com/sendINUX/CVE-2021-22600__DirtyPagetable)
 - [Chinmay1743/af_packet.c](https://github.com/Chinmay1743/af_packet.c)
+
+### CVE-2021-22681 (2021-03-03)
+
+<code>Rockwell Automation Studio 5000 Logix Designer Versions 21 and later, and RSLogix 5000 Versions 16 through 20 use a key to verify Logix controllers are communicating with Rockwell Automation CompactLogix 1768, 1769, 5370, 5380, 5480: ControlLogix 5550, 5560, 5570, 5580; DriveLogix 5560, 5730, 1794-L34; Compact GuardLogix 5370, 5380; GuardLogix 5570, 5580; SoftLogix 5800. Rockwell Automation Studio 5000 Logix Designer Versions 21 and later and RSLogix 5000: Versions 16 through 20 are vulnerable because an unauthenticated attacker could bypass this verification mechanism and authenticate with Rockwell Automation CompactLogix 1768, 1769, 5370, 5380, 5480: ControlLogix 5550, 5560, 5570, 5580; DriveLogix 5560, 5730, 1794-L34; Compact GuardLogix 5370, 5380; GuardLogix 5570, 5580; SoftLogix 5800.
+</code>
+
+- [pcrosby-1990/cip-security-poc](https://github.com/pcrosby-1990/cip-security-poc)
 
 ### CVE-2021-22873 (2021-01-21)
 
