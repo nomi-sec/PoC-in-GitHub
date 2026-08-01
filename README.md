@@ -499,6 +499,13 @@
 
 - [0x00phantom-hat/CVE-2026-5029-Exploit](https://github.com/0x00phantom-hat/CVE-2026-5029-Exploit)
 
+### CVE-2026-5061 (2026-05-12)
+
+<code>The consul-template library before version 0.42.0 is vulnerable to a sandbox path bypass in the file template helper that may allow reading an out-of-sandbox file. This vulnerability (CVE-2026-5061) is fixed in consul-template 0.42.0.
+</code>
+
+- [0xmrma/CVE-2026-5061](https://github.com/0xmrma/CVE-2026-5061)
+
 ### CVE-2026-5076 (2026-06-02)
 
 <code>The ARMember Premium plugin for WordPress is vulnerable to an insecure password reset mechanism in all versions up to, and including, 7.3.1. The plugin stores a plaintext copy of the password reset key in the `arm_reset_password_key` user meta field when a user requests a password reset. This is in addition to the hashed key that WordPress core stores securely in `wp_users.user_activation_key`. The plaintext key stored in `wp_usermeta` can be used with the plugin's custom `armrp` reset action to set a new password for any user. Combined with another vulnerability such as SQL Injection (CVE-2026-5073, CVE-2026-5074), this makes it possible for unauthenticated attackers to extract the plaintext reset key and take over any user account, including administrators.
@@ -1516,6 +1523,13 @@
 - [hg0434hongzh0/CVE-2026-14266](https://github.com/hg0434hongzh0/CVE-2026-14266)
 - [4minx/CVE-2026-14266](https://github.com/4minx/CVE-2026-14266)
 - [liyuxuan504-byte/CVE-2026-14266](https://github.com/liyuxuan504-byte/CVE-2026-14266)
+
+### CVE-2026-14361 (2026-07-08)
+
+<code>The consul-template library before version 0.42.1 is vulnerable to a path redirection issue in the writeToFile template helper that may allow template output to be written outside the intended directory or to overwrite an existing file. This vulnerability (CVE-2026-14361) is fixed in consul-template 0.42.1.
+</code>
+
+- [0xmrma/CVE-2026-14361](https://github.com/0xmrma/CVE-2026-14361)
 
 ### CVE-2026-14382 (2026-07-01)
 
@@ -3800,7 +3814,7 @@
 - [rfxn/cpanel-sessionscribe](https://github.com/rfxn/cpanel-sessionscribe)
 - [george1-adel/CVE-2026-41940_exploit](https://github.com/george1-adel/CVE-2026-41940_exploit)
 - [mahfuzreham/cpanel-cve-2026-41940](https://github.com/mahfuzreham/cpanel-cve-2026-41940)
-- [Christian93111/CVE-2026-41940](https://github.com/Christian93111/CVE-2026-41940)
+- [Kill1234545/CVE-2026-41940](https://github.com/Kill1234545/CVE-2026-41940)
 - [Jenderal92/CVE-2026-41940](https://github.com/Jenderal92/CVE-2026-41940)
 - [Defacto-ridgepole254/CVE-2026-41940-Exploit-PoC](https://github.com/Defacto-ridgepole254/CVE-2026-41940-Exploit-PoC)
 - [anach-ai/CVE-2026-41940](https://github.com/anach-ai/CVE-2026-41940)
@@ -4489,6 +4503,7 @@
 - [boobalover7/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/boobalover7/YellowKey-Bitlocker-CVE-2026-45585)
 - [tchuin2609/YellowKey-Bitlocker](https://github.com/tchuin2609/YellowKey-Bitlocker)
 - [tchuin2609/tchuin2609.github.io](https://github.com/tchuin2609/tchuin2609.github.io)
+- [martincifu/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/martincifu/YellowKey-Bitlocker-CVE-2026-45585)
 
 ### CVE-2026-45659 (2026-05-22)
 
@@ -5555,6 +5570,9 @@
 
 - [timtimxs/CVE-2026-51947-Advisory](https://github.com/timtimxs/CVE-2026-51947-Advisory)
 
+### CVE-2026-51954
+- [envincion1991-cmyk/CVE-2026-51954](https://github.com/envincion1991-cmyk/CVE-2026-51954)
+
 ### CVE-2026-51992 (2026-07-29)
 
 <code>SQL Injection vulnerability in ClickHouse Server Versions &lt;= 26.3.9.8 allows a remote attacker to execute arbitrary code via the create dictionaries function.
@@ -6404,6 +6422,7 @@
 </code>
 
 - [mahfuzreham/OVSwrap-CVE-2026-64531-Mitigation-Tool](https://github.com/mahfuzreham/OVSwrap-CVE-2026-64531-Mitigation-Tool)
+- [0xBlackash/CVE-2026-64531](https://github.com/0xBlackash/CVE-2026-64531)
 
 ### CVE-2026-64600 (2026-07-23)
 
@@ -12440,7 +12459,7 @@
 - [obscura-cert/CVE-2025-33073](https://github.com/obscura-cert/CVE-2025-33073)
 - [matejsmycka/CVE-2025-33073-checker](https://github.com/matejsmycka/CVE-2025-33073-checker)
 - [cve-2025-33073/cve-2025-33073](https://github.com/cve-2025-33073/cve-2025-33073)
-- [uziii2208/CVE-2025-33073](https://github.com/uziii2208/CVE-2025-33073)
+- [uziii2208/come-to-telegram-rickluminari1--CVE-2025-33073](https://github.com/uziii2208/come-to-telegram-rickluminari1--CVE-2025-33073)
 - [irjfifndn-prog/Blackash-CVE-2025-33073](https://github.com/irjfifndn-prog/Blackash-CVE-2025-33073)
 - [EgCupCake/cupntlm-Automated-Exploit-For-CVE-2025-33073-](https://github.com/EgCupCake/cupntlm-Automated-Exploit-For-CVE-2025-33073-)
 - [IyarGross/SMB-CVE-2025-33073](https://github.com/IyarGross/SMB-CVE-2025-33073)
@@ -16101,6 +16120,7 @@
 - [K3ysTr0K3R/CVE-2025-57819](https://github.com/K3ysTr0K3R/CVE-2025-57819)
 - [Samik-Parajuli/htb-connected-writeup](https://github.com/Samik-Parajuli/htb-connected-writeup)
 - [Neobee714/CVE-2025-57819-POC](https://github.com/Neobee714/CVE-2025-57819-POC)
+- [TeteREN/CVE-2025-57819-RCE](https://github.com/TeteREN/CVE-2025-57819-RCE)
 
 ### CVE-2025-57833 (2025-09-03)
 
@@ -17710,20 +17730,6 @@
 
 - [sivaadityacoder/CVE-2025-67146-CVE-2025-67147](https://github.com/sivaadityacoder/CVE-2025-67146-CVE-2025-67147)
 
-### CVE-2025-67158 (2026-01-02)
-
-<code>An authentication bypass in the /cgi-bin/jvsweb.cgi endpoint of Revotech I6032W-FHW v1.0.0014 - 20210517 allows attackers to access sensitive information and escalate privileges via a crafted HTTP request.
-</code>
-
-- [Remenis/CVE-2025-67158](https://github.com/Remenis/CVE-2025-67158)
-
-### CVE-2025-67159 (2026-01-02)
-
-<code>Vatilon v1.12.37-20240124 was discovered to transmit user credentials in plaintext.
-</code>
-
-- [Remenis/CVE-2025-67159](https://github.com/Remenis/CVE-2025-67159)
-
 ### CVE-2025-67160 (2026-01-02)
 
 <code>An issue in Vatilon v1.12.37-20240124 allows attackers to access sensitive directories and files via a directory traversal.
@@ -18162,6 +18168,7 @@
 - [m2sousa/CVE-2025-69212](https://github.com/m2sousa/CVE-2025-69212)
 - [0Zetrium0/CVE-2025-69212_PoC](https://github.com/0Zetrium0/CVE-2025-69212_PoC)
 - [mmoobbeeiidat-design/Hack-The-Box-Enigma-Findings-Report](https://github.com/mmoobbeeiidat-design/Hack-The-Box-Enigma-Findings-Report)
+- [liaomilk/CVE-2025-69212-for-myself](https://github.com/liaomilk/CVE-2025-69212-for-myself)
 
 ### CVE-2025-69213 (2026-02-04)
 
@@ -19322,8 +19329,6 @@
 - [Clarissss/osTicketFileReadIntoRCE](https://github.com/Clarissss/osTicketFileReadIntoRCE)
 - [rcribelar-nucleus/my-cool-demo-php-code](https://github.com/rcribelar-nucleus/my-cool-demo-php-code)
 - [whyuhurtz/wongpress](https://github.com/whyuhurtz/wongpress)
-- [darkrapid8/cnext-exploits](https://github.com/darkrapid8/cnext-exploits)
-- [roundcube-utils/cnext-exploits](https://github.com/roundcube-utils/cnext-exploits)
 
 ### CVE-2024-2997 (2024-03-27)
 
@@ -19812,7 +19817,7 @@
 - [BektiHandoyo/cve-pdf-host](https://github.com/BektiHandoyo/cve-pdf-host)
 - [Bhavyakcwestern/Hacking-pdf.js-vulnerability](https://github.com/Bhavyakcwestern/Hacking-pdf.js-vulnerability)
 - [PenguinCabinet/CVE-2024-4367-hands-on](https://github.com/PenguinCabinet/CVE-2024-4367-hands-on)
-- [pS3ud0RAnD0m/cve-2024-4367-poc](https://github.com/pS3ud0RAnD0m/cve-2024-4367-poc)
+- [AnomalousVectors/cve-2024-4367-poc](https://github.com/AnomalousVectors/cve-2024-4367-poc)
 - [0xr2r/CVE-2024-4367](https://github.com/0xr2r/CVE-2024-4367)
 - [1337rokudenashi/Odoo_PDFjs_CVE-2024-4367.pdf](https://github.com/1337rokudenashi/Odoo_PDFjs_CVE-2024-4367.pdf)
 - [xiaoqiesec0x1/CVE-2024-4367-PDF.js-xss](https://github.com/xiaoqiesec0x1/CVE-2024-4367-PDF.js-xss)
@@ -26917,6 +26922,7 @@
 </code>
 
 - [synacktiv/CVE-2024-43468](https://github.com/synacktiv/CVE-2024-43468)
+- [nikallass/CVE-2024-43468_mTLS_go](https://github.com/nikallass/CVE-2024-43468_mTLS_go)
 
 ### CVE-2024-43535 (2024-10-08)
 
@@ -28281,6 +28287,13 @@
 
 ### CVE-2024-50964
 - [fdzdev/CVE-2024-50964](https://github.com/fdzdev/CVE-2024-50964)
+
+### CVE-2024-50967 (2025-01-17)
+
+<code>The /rest/rights/ REST API endpoint in Becon DATAGerry through 2.2.0 contains an Incorrect Access Control vulnerability. An attacker can remotely access this endpoint without authentication, leading to unauthorized disclosure of sensitive information.
+</code>
+
+- [0xByteHunter/CVE-2024-50967](https://github.com/0xByteHunter/CVE-2024-50967)
 
 ### CVE-2024-50968 (2024-11-14)
 
@@ -41473,7 +41486,7 @@
 <code>Moment.js is a JavaScript date library for parsing, validating, manipulating, and formatting dates. A path traversal vulnerability impacts npm (server) users of Moment.js between versions 1.0.1 and 2.29.1, especially if a user-provided locale string is directly used to switch moment locale. This problem is patched in 2.29.2, and the patch can be applied to all affected versions. As a workaround, sanitize the user-provided locale name before passing it to Moment.js.
 </code>
 
-- [pS3ud0RAnD0m/cve-2022-24785-poc-lab](https://github.com/pS3ud0RAnD0m/cve-2022-24785-poc-lab)
+- [AnomalousVectors/cve-2022-24785-poc-lab](https://github.com/AnomalousVectors/cve-2022-24785-poc-lab)
 
 ### CVE-2022-24816 (2022-04-13)
 
@@ -41828,7 +41841,6 @@
 - [UNICORDev/exploit-CVE-2022-25765](https://github.com/UNICORDev/exploit-CVE-2022-25765)
 - [lekosbelas/PDFkit-CMD-Injection](https://github.com/lekosbelas/PDFkit-CMD-Injection)
 - [lowercasenumbers/CVE-2022-25765](https://github.com/lowercasenumbers/CVE-2022-25765)
-- [lst15/pdfkit-cve-2022-25765](https://github.com/lst15/pdfkit-cve-2022-25765)
 - [Jeanback1/CVE-2022-25765-exploit](https://github.com/Jeanback1/CVE-2022-25765-exploit)
 
 ### CVE-2022-25813 (2022-09-02)
