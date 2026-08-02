@@ -1151,6 +1151,20 @@
 
 - [ugvxb/CVE-2026-9789](https://github.com/ugvxb/CVE-2026-9789)
 
+### CVE-2026-9809 (2026-05-29)
+
+<code>A stored Cross-Site Scripting (XSS) vulnerability exists in the Projects component of Mautic 7. When displaying project tags and popovers on administrative detail views (such as campaigns, emails, or forms), user-supplied project names are rendered without proper sanitization. An authenticated user with permissions to create or edit projects can exploit this to inject malicious script payloads. When an administrative user views an entity associated with a compromised project and hovers over its tag, the injected script executes within the context of their active browser session. This could allow an attacker to perform administrative actions on behalf of the victim, alter system configurations, or exfiltrate sensitive data.
+</code>
+
+- [aj2108/CVE-2026-9809](https://github.com/aj2108/CVE-2026-9809)
+
+### CVE-2026-9811 (2026-05-29)
+
+<code>A stored Cross-Site Scripting (XSS) vulnerability exists in the project selector component of Mautic 7. When rendering selection menus for associating projects with system entities, the application fails to sanitize project names returned via AJAX before injecting them into the DOM as option fields. An authenticated user with permissions to create projects can exploit this to store a malicious script payload in the project's name. When another administrative user subsequently opens an entity editor containing the project selector, the injected script executes within the context of their active browser session. This could allow an attacker to hijack the session, perform unauthorized state coordination, or access organizational data within the dashboard.
+</code>
+
+- [aj2108/CVE-2026-9811](https://github.com/aj2108/CVE-2026-9811)
+
 ### CVE-2026-9830 (2026-07-27)
 
 <code>The bookingpress-appointment-booking-pro WordPress plugin before 5.7.3 does not correctly invoke its REST permission callback, leaving every route in one of its API namespaces reachable without authentication and allowing unauthenticated attackers to read customer booking data and modify other users' bookings.
@@ -1676,7 +1690,11 @@
 ### CVE-2026-16475
 - [afertar/CVE-2026-16475-PoC](https://github.com/afertar/CVE-2026-16475-PoC)
 
-### CVE-2026-16540
+### CVE-2026-16540 (2026-08-02)
+
+<code>The Simply Schedule Appointments WordPress plugin before 1.6.12.6 does not correctly restrict a bulk appointment operation to the requester's own records, allowing unauthenticated users to retrieve the personal data of all appointments across the site and, on premium editions, to permanently delete them.
+</code>
+
 - [huseyn0vs/CVE-2026-16540-SimplyScheduleAppointments](https://github.com/huseyn0vs/CVE-2026-16540-SimplyScheduleAppointments)
 
 ### CVE-2026-16723 (2026-07-23)
@@ -3571,6 +3589,7 @@
 - [0xdeadroot/CVE-2026-39987-marimo-rce](https://github.com/0xdeadroot/CVE-2026-39987-marimo-rce)
 - [M3PH1569/CVE-2026-39987-POC](https://github.com/M3PH1569/CVE-2026-39987-POC)
 - [HORKimhab/CVE-2026-39987](https://github.com/HORKimhab/CVE-2026-39987)
+- [gbuyssens/CVE-2026-39987](https://github.com/gbuyssens/CVE-2026-39987)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -3797,6 +3816,7 @@
 - [mawussid/CVE-2026-41651-Python](https://github.com/mawussid/CVE-2026-41651-Python)
 - [Lutfifakee-Project/CVE-2026-41651](https://github.com/Lutfifakee-Project/CVE-2026-41651)
 - [0xDVRK/CVE-2026-41651](https://github.com/0xDVRK/CVE-2026-41651)
+- [gbuyssens/CVE-2026-41651](https://github.com/gbuyssens/CVE-2026-41651)
 
 ### CVE-2026-41729 (2026-06-09)
 
@@ -4162,6 +4182,7 @@
 - [fusiondrive/CVE-2026-43499-A36](https://github.com/fusiondrive/CVE-2026-43499-A36)
 - [1ndevelopment/CVE-2026-43499-S26](https://github.com/1ndevelopment/CVE-2026-43499-S26)
 - [veygax/HORiZonstack](https://github.com/veygax/HORiZonstack)
+- [boxiaolanya2008/CVE-2026-43499-Neo11Plus](https://github.com/boxiaolanya2008/CVE-2026-43499-Neo11Plus)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -6148,6 +6169,7 @@
 
 - [shinthink/CVE-2026-57827](https://github.com/shinthink/CVE-2026-57827)
 - [Candisexterior171/CVE-2026-57827](https://github.com/Candisexterior171/CVE-2026-57827)
+- [Mohammad-008/rsfiles-CVE-2026-57827](https://github.com/Mohammad-008/rsfiles-CVE-2026-57827)
 
 ### CVE-2026-57829 (2026-07-13)
 
@@ -6216,6 +6238,13 @@
 - [0xgh057r3c0n/CVE-2026-58138](https://github.com/0xgh057r3c0n/CVE-2026-58138)
 - [Procjevt/CVE-2026-58138](https://github.com/Procjevt/CVE-2026-58138)
 
+### CVE-2026-58424 (2026-07-03)
+
+<code>Permanent Fork PR Workflow Approval Gate Bypass
+</code>
+
+- [BridgerAlderson/CVE-2026-58424](https://github.com/BridgerAlderson/CVE-2026-58424)
+
 ### CVE-2026-58457 (2026-07-01)
 
 <code>Shenzhen Aitemi M300 Wi-Fi Repeater (hardware model MT02) contains an unauthenticated OS command injection vulnerability that allows network-adjacent attackers to execute arbitrary shell commands by injecting unsanitized input through the smacfilter_conf handler in the commuos web backend. Attackers can append semicolon-delimited payloads to the name, enable, or mac GET parameters, which are passed without sanitization into sprintf() to build uci shell commands executed via doSystemCmdComlib(), granting full root-level control of the device.
@@ -6272,6 +6301,13 @@
 </code>
 
 - [gyubin02/cve-2026-59891-control-lab](https://github.com/gyubin02/cve-2026-59891-control-lab)
+
+### CVE-2026-59941 (2026-07-28)
+
+<code>Dompdf is an HTML to PDF converter for PHP. Versions 3.15 and prior accept a BMP image and generates a PDF-compatible PNG based only on its declared header dimensions and never bounds width × height before the image is converted through GD. A 58-byte BMP whose header declares e.g. 6000×6000 is accepted and later drives imagecreatetruecolor($width, $height) (and PHP's native BMP decoder) to allocate the full pixel canvas. A payload can fit in a single HTTP request: the BMP can be inlined as a data:image/bmp;base64,… URI inside attacker-controlled HTML, so no upload, no remote fetch, and no chroot-reachable file is required. I measured a 169-byte request driving a dompdf render to ~412 MB peak RSS and ~4.8 s of CPU/wall time, versus ~34 MB for an identically-sized benign request — roughly a 12× memory amplification per request, repeatable and unauthenticated. This issue has been fixed in version 3.16.
+</code>
+
+- [far00t01/CVE-2026-59941](https://github.com/far00t01/CVE-2026-59941)
 
 ### CVE-2026-60004
 - [HORKimhab/CVE-2026-60004](https://github.com/HORKimhab/CVE-2026-60004)
@@ -12503,7 +12539,7 @@
 - [obscura-cert/CVE-2025-33073](https://github.com/obscura-cert/CVE-2025-33073)
 - [matejsmycka/CVE-2025-33073-checker](https://github.com/matejsmycka/CVE-2025-33073-checker)
 - [cve-2025-33073/cve-2025-33073](https://github.com/cve-2025-33073/cve-2025-33073)
-- [uziii2208/come-to-telegram-rickluminari1--CVE-2025-33073](https://github.com/uziii2208/come-to-telegram-rickluminari1--CVE-2025-33073)
+- [uziii2208/CVE-2025-33073](https://github.com/uziii2208/CVE-2025-33073)
 - [irjfifndn-prog/Blackash-CVE-2025-33073](https://github.com/irjfifndn-prog/Blackash-CVE-2025-33073)
 - [EgCupCake/cupntlm-Automated-Exploit-For-CVE-2025-33073-](https://github.com/EgCupCake/cupntlm-Automated-Exploit-For-CVE-2025-33073-)
 - [IyarGross/SMB-CVE-2025-33073](https://github.com/IyarGross/SMB-CVE-2025-33073)
@@ -52185,6 +52221,7 @@
 - [arpitgupta369/log4shell-scanner](https://github.com/arpitgupta369/log4shell-scanner)
 - [razureink/cve-2021-44228-log4shell_rce_reproduction](https://github.com/razureink/cve-2021-44228-log4shell_rce_reproduction)
 - [sfr0435122531-ui/-log4shell-lab](https://github.com/sfr0435122531-ui/-log4shell-lab)
+- [vaishnavikkotian/log4shell-research](https://github.com/vaishnavikkotian/log4shell-research)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -52573,7 +52610,6 @@
 <code>Telesquare SDT-CW3B1 1.1.0 is affected by an OS command injection vulnerability that allows a remote attacker to execute OS commands without any authentication.
 </code>
 
-- [nobodyatall648/CVE-2021-46422](https://github.com/nobodyatall648/CVE-2021-46422)
 - [twoning/CVE-2021-46422_PoC](https://github.com/twoning/CVE-2021-46422_PoC)
 - [Awei507/CVE-RCE](https://github.com/Awei507/CVE-RCE)
 - [yigexioabai/CVE-2021-46422_RCE](https://github.com/yigexioabai/CVE-2021-46422_RCE)
@@ -73694,7 +73730,7 @@
 <code>Unspecified vulnerability in the XSL Content portlet in Liferay Portal Community Edition (CE) 5.x and 6.x before 6.0.6 GA, when Apache Tomcat is used, allows remote attackers to execute arbitrary commands via unknown vectors.
 </code>
 
-- [noobpk/CVE-2011-1571](https://github.com/noobpk/CVE-2011-1571)
+- [yazgx97/CVE-2011-1571](https://github.com/yazgx97/CVE-2011-1571)
 
 ### CVE-2011-1575 (2011-05-23)
 
