@@ -400,13 +400,6 @@
 
 - [renzi25031469/CVE-2026-4253-Scanner](https://github.com/renzi25031469/CVE-2026-4253-Scanner)
 
-### CVE-2026-4255 (2026-03-16)
-
-<code>A DLL search order hijacking vulnerability in Thermalright TR-VISION HOME on Windows (64-bit) allows a local attacker to escalate privileges via DLL side-loading. The application loads certain dynamic-link library (DLL) dependencies using the default Windows search order, which includes directories that may be writable by non-privileged users.\n\n\n\nBecause these directories can be modified by unprivileged users, an attacker can place a malicious DLL with the same name as a legitimate dependency in a directory that is searched before trusted system locations. When the application is executed, which is always with administrative privileges, the malicious DLL is loaded instead of the legitimate library.\n\n\n\nThe application does not enforce restrictions on DLL loading locations and does not verify the integrity or digital signature of loaded libraries. As a result, attacker-controlled code may be executed within the security context of the application, allowing arbitrary code execution with elevated privileges.\n\n\n\nSuccessful exploitation requires that an attacker place a crafted malicious DLL in a user-writable directory that is included in the application's DLL search path and then cause the affected application to be executed. Once loaded, the malicious DLL runs with the same privileges as the application.\n\n\n\nThis issue affects \nTR-VISION HOME  versions up to and including 2.0.5.
-</code>
-
-- [Ard33/CVE-2026-4255](https://github.com/Ard33/CVE-2026-4255)
-
 ### CVE-2026-4257 (2026-03-30)
 
 <code>The Contact Form by Supsystic plugin for WordPress is vulnerable to Server-Side Template Injection (SSTI) leading to Remote Code Execution (RCE) in all versions up to, and including, 1.7.36. This is due to the plugin using the Twig `Twig_Loader_String` template engine without sandboxing, combined with the `cfsPreFill` prefill functionality that allows unauthenticated users to inject arbitrary Twig expressions into form field values via GET parameters. This makes it possible for unauthenticated attackers to execute arbitrary PHP functions and OS commands on the server by leveraging Twig's `registerUndefinedFilterCallback()` method to register arbitrary PHP callbacks.
@@ -1165,6 +1158,13 @@
 
 - [ChPratik/CVE-2026-9830](https://github.com/ChPratik/CVE-2026-9830)
 
+### CVE-2026-9833 (2026-07-20)
+
+<code>The Tag Groups is the Advanced Way to Display Your Taxonomy Terms WordPress plugin before 2.2.0 does not properly escape one of its AJAX parameters before reflecting it in the response body served with an HTML content type, allowing unauthenticated attackers to execute arbitrary JavaScript in the browser of a logged-in user with `edit_pages` capability (Editor or higher) who is tricked into following a crafted link.
+</code>
+
+- [aj2108/CVE-2026-9833](https://github.com/aj2108/CVE-2026-9833)
+
 ### CVE-2026-9973 (2026-05-28)
 
 <code>Out of bounds write in V8 in Google Chrome prior to 148.0.7778.216 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)
@@ -1552,6 +1552,13 @@
 
 - [dasokkk/CVE-2026-14459-14460-pardus-software](https://github.com/dasokkk/CVE-2026-14459-14460-pardus-software)
 
+### CVE-2026-14483 (2026-07-31)
+
+<code>The Realtyna Organic IDX plugin + WPL Real Estate plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 5.2.0 via the upload function. This is due to missing file type validation in the upload function, combined with a publicly accessible I/O endpoint authenticated solely by static, plugin-seeded API credentials that are identical across all installations. This makes it possible for unauthenticated attackers to upload files that may be executable, which makes remote code execution possible. The WPL I/O service endpoint is registered on the public WordPress init hook with no WordPress capability check, and the required api_key and api_secret values are static defaults seeded by the plugin's own SQL migration files, meaning any unauthenticated attacker who knows these publicly documented defaults can reach and exploit the vulnerable upload path.
+</code>
+
+- [MadExploits/CVE-2026-14483](https://github.com/MadExploits/CVE-2026-14483)
+
 ### CVE-2026-14628 (2026-07-04)
 
 <code>A vulnerability was detected in NousResearch hermes-agent up to 2026.5.16. This impacts the function extract_media of the file gateway/platforms/base.py of the component Live Webhook Endpoint. Performing a manipulation results in path traversal. The attack may be initiated remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
@@ -1636,6 +1643,13 @@
 
 ### CVE-2026-15706
 - [musana/CVE-2026-15706](https://github.com/musana/CVE-2026-15706)
+
+### CVE-2026-15964 (2026-08-01)
+
+<code>The Single Sign On For TNG plugin for WordPress is vulnerable to Authentication Bypass via unauthenticated password reset in all versions up to, and including, 2.0.0. This is due to the `ssoprocess_ajax()` function — registered on `wp_ajax_nopriv_ssoprocess_ajax` and therefore reachable without authentication — accepting an attacker-supplied `email` parameter with the `setnewpassword` operation and calling `reset_password()` on the resolved account without any ownership token, email confirmation link, or capability check. The sole guard is a call to `check_ajax_referer()`, which provides no authorization barrier because the `ssoajaxnonce` nonce is publicly broadcast on every front-end page via `wp_localize_script()` into the `SSOPWDREQUIREMENT` JavaScript object; since WordPress computes nonces for logged-out visitors against a shared anonymous session context, any unauthenticated visitor can scrape a valid nonce from the homepage and use it to authenticate the request. This makes it possible for unauthenticated attackers to change the password of any WordPress account, including administrator accounts, enabling complete site takeover.
+</code>
+
+- [Instructor-Admin/CVE-2026-15964-PoC](https://github.com/Instructor-Admin/CVE-2026-15964-PoC)
 
 ### CVE-2026-15981 (2026-07-23)
 
@@ -3069,13 +3083,6 @@
 - [anonmrc/CVE-2026-34486-e-Tomcat-Tribes](https://github.com/anonmrc/CVE-2026-34486-e-Tomcat-Tribes)
 - [razureink/cve-2026-34486-tomcat_encrypt_bypass_reproduction](https://github.com/razureink/cve-2026-34486-tomcat_encrypt_bypass_reproduction)
 
-### CVE-2026-34621 (2026-04-11)
-
-<code>Acrobat Reader versions 24.001.30356, 26.001.21367 and earlier are affected by an Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
-</code>
-
-- [azefzafyoussef/CVE-2026-34621](https://github.com/azefzafyoussef/CVE-2026-34621)
-
 ### CVE-2026-34835 (2026-04-02)
 
 <code>Rack is a modular Ruby web server interface. From versions 3.0.0.beta1 to before 3.1.21, and 3.2.0 to before 3.2.6, Rack::Request parses the Host header using an AUTHORITY regular expression that accepts characters not permitted in RFC-compliant hostnames, including /, ?, #, and @. Because req.host returns the full parsed value, applications that validate hosts using naive prefix or suffix checks can be bypassed. This can lead to host header poisoning in applications that use req.host, req.url, or req.base_url for link generation, redirects, or origin validation. This issue has been patched in versions 3.1.21 and 3.2.6.
@@ -4082,6 +4089,7 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nnet/rds: reset op_nents when zerocopy page pin fails\n\nWhen iov_iter_get_pages2() fails in rds_message_zcopy_from_user(),\nthe pinned pages are released with put_page(), and\nrm-&gt;data.op_mmp_znotifier is cleared.  But we fail to properly\nclear rm-&gt;data.op_nents.\n\nLater when rds_message_purge() is called from rds_sendmsg() the\ncleanup loop iterates over the incorrectly non zero number of\nop_nents and frees them again.\n\nFix this by properly resetting op_nents when it should be in\nrds_message_zcopy_from_user().
 </code>
 
+- [suominen/pintheft](https://github.com/suominen/pintheft)
 - [0xBlackash/CVE-2026-43494](https://github.com/0xBlackash/CVE-2026-43494)
 - [Kagantua/PinTheft-go](https://github.com/Kagantua/PinTheft-go)
 - [jayhutajulu1/CVE-2026-43494-PinTheft-PoC](https://github.com/jayhutajulu1/CVE-2026-43494-PinTheft-PoC)
@@ -4097,6 +4105,7 @@
 - [HORKimhab/CVE-2026-43499](https://github.com/HORKimhab/CVE-2026-43499)
 - [0xBlackash/CVE-2026-43499](https://github.com/0xBlackash/CVE-2026-43499)
 - [tc3650/CVE-2026-43499-armv7](https://github.com/tc3650/CVE-2026-43499-armv7)
+- [suominen/ghostlock](https://github.com/suominen/ghostlock)
 - [pubglite55/oppo-ghostlock](https://github.com/pubglite55/oppo-ghostlock)
 - [inforcqb/CVE-2026-43499-pja110](https://github.com/inforcqb/CVE-2026-43499-pja110)
 - [caspy123/CVE-2026-43499](https://github.com/caspy123/CVE-2026-43499)
@@ -4150,6 +4159,8 @@
 - [datfooldive/ghostlock-emerald](https://github.com/datfooldive/ghostlock-emerald)
 - [NothingFumo/ghostlock-aresin](https://github.com/NothingFumo/ghostlock-aresin)
 - [CatXiaoShi/cve-2026-43499](https://github.com/CatXiaoShi/cve-2026-43499)
+- [fusiondrive/CVE-2026-43499-A36](https://github.com/fusiondrive/CVE-2026-43499-A36)
+- [1ndevelopment/CVE-2026-43499-S26](https://github.com/1ndevelopment/CVE-2026-43499-S26)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -4503,7 +4514,8 @@
 - [boobalover7/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/boobalover7/YellowKey-Bitlocker-CVE-2026-45585)
 - [tchuin2609/YellowKey-Bitlocker](https://github.com/tchuin2609/YellowKey-Bitlocker)
 - [tchuin2609/tchuin2609.github.io](https://github.com/tchuin2609/tchuin2609.github.io)
-- [martincifu/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/martincifu/YellowKey-Bitlocker-CVE-2026-45585)
+- [yellowkeybitlocker/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/yellowkeybitlocker/YellowKey-Bitlocker-CVE-2026-45585)
+- [Aqua1214/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/Aqua1214/YellowKey-Bitlocker-CVE-2026-45585)
 
 ### CVE-2026-45659 (2026-05-22)
 
@@ -4564,6 +4576,7 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: reject userspace cifs.spnego descriptions\n\ncifs.spnego key descriptions contain authority-bearing fields such as\npid, uid, creduid, and upcall_target that cifs.upcall treats as\nkernel-originating inputs. However, userspace can also create keys of\nthis type through request_key(2) or add_key(2), allowing those fields to\nbe supplied without CIFS origin.\n\nOnly accept cifs.spnego descriptions while CIFS is using its private\nspnego_cred to request the key.
 </code>
 
+- [suominen/cifswitch](https://github.com/suominen/cifswitch)
 - [MrForkBomb/CIFSwitch-Checker-CVE-2026-46243](https://github.com/MrForkBomb/CIFSwitch-Checker-CVE-2026-46243)
 - [liamromanis101/cifswitch-check](https://github.com/liamromanis101/cifswitch-check)
 
@@ -4592,6 +4605,13 @@
 - [BenedictEjepu/CVE-2026-46300-Fragnesia---TryHackMe-Lab-Project](https://github.com/BenedictEjepu/CVE-2026-46300-Fragnesia---TryHackMe-Lab-Project)
 - [azilRababe/CVE-2026-46300](https://github.com/azilRababe/CVE-2026-46300)
 - [MadExploits/CVE-2026-46300](https://github.com/MadExploits/CVE-2026-46300)
+
+### CVE-2026-46316 (2026-06-09)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: arm64: vgic-its: Drop the translation cache reference only for the erased entry\n\nvgic_its_invalidate_cache() walks the per-ITS translation cache with\nxa_for_each() and drops the cache's reference on each entry with\nvgic_put_irq(). It puts the iterated pointer, though, rather than the\nvalue returned by xa_erase().\n\nThe function is called from contexts that do not exclude one another: the\nITS command handlers hold its_lock, the GITS_CTLR write path holds\ncmd_lock, and the path that clears EnableLPIs in a redistributor's\nGICR_CTLR holds neither. Two or more of them can drain the same cache\nconcurrently, and if each one observes the same entry, erases it and then\nputs it, the single reference the cache holds on that entry is dropped\nmore than once. The entry can then be freed while an ITE still maps it.\n\nxa_erase() is atomic and returns the previous entry, so put only the entry\nthat this context actually removed. The cache reference is then dropped\nexactly once per entry even when the invalidations run concurrently, and\nthe behavior is unchanged when only one context runs.
+</code>
+
+- [suominen/itscape](https://github.com/suominen/itscape)
 
 ### CVE-2026-46331 (2026-06-16)
 
@@ -5684,6 +5704,7 @@
 - [0xBlackash/CVE-2026-53359](https://github.com/0xBlackash/CVE-2026-53359)
 - [Aoripus-LTD/Januscape-Hotfix](https://github.com/Aoripus-LTD/Januscape-Hotfix)
 - [chuzhongyun/CVE-2026-53359-Kernel-Fix](https://github.com/chuzhongyun/CVE-2026-53359-Kernel-Fix)
+- [suominen/januscape](https://github.com/suominen/januscape)
 - [xj2268-TA/KVM-Januscape](https://github.com/xj2268-TA/KVM-Januscape)
 - [ndouglas-cloudsmith/CVE-2026-53359](https://github.com/ndouglas-cloudsmith/CVE-2026-53359)
 
@@ -5693,6 +5714,12 @@
 </code>
 
 - [0xCyberstan/CVE-2026-53360-POC](https://github.com/0xCyberstan/CVE-2026-53360-POC)
+
+### CVE-2026-53362 (2026-07-04)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: account for fraggap on the paged allocation path\n\nIn __ip6_append_data(), when the paged-allocation branch is taken\n(MSG_MORE / NETIF_F_SG / large fraglen), alloclen and pagedlen are\ncomputed as\n\n</code>
+
+- [suominen/ipv6_frag_escape](https://github.com/suominen/ipv6_frag_escape)
 
 ### CVE-2026-53435 (2026-06-10)
 
@@ -6421,6 +6448,7 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nnet: openvswitch: reject oversized nested action attrs\n\nOpen vSwitch stores generated flow actions as nlattrs, whose nla_len\nfield is u16. Commit a1e64addf3ff (&quot;net: openvswitch: remove\nmisbehaving actions length check&quot;) allowed the total sw_flow_actions\nstream to grow beyond 64 KiB, which is valid, but also removed the last\nguard preventing a generated nested action attribute from exceeding\nU16_MAX.\n\nAn oversized generated container can thus be closed with a truncated\nnla_len. A later dump or teardown then walks a structurally different\nstream than the one that was validated. In particular, an oversized\nnested CLONE/CT action may cause subsequent bytes in the generated\nstream to be interpreted as independent actions.\n\nKeep the larger total-action-stream behavior, but make nested action\nclose reject generated containers that do not fit in nla_len, and return\nthe error through all callers. For recursive SAMPLE, CLONE, DEC_TTL, and\nCHECK_PKT_LEN builders, trim resource-owning action-list tails in reverse\nconstruction order before discarding failed wrappers, so resources copied\ninto the rejected tails are released before the wrappers are removed.\n\nMost failed outer wrappers are discarded by truncating actions_len after\nchild resources have been released. CHECK_PKT_LEN also trims its parent\nafter branch resources are gone. SET/TUNNEL close failures unwind their\nknown tun_dst ownership directly, and SET_TO_MASKED has no external\nownership and truncates on close failure.
 </code>
 
+- [suominen/ovswrap](https://github.com/suominen/ovswrap)
 - [mahfuzreham/OVSwrap-CVE-2026-64531-Mitigation-Tool](https://github.com/mahfuzreham/OVSwrap-CVE-2026-64531-Mitigation-Tool)
 - [0xBlackash/CVE-2026-64531](https://github.com/0xBlackash/CVE-2026-64531)
 
@@ -6634,6 +6662,13 @@
 
 - [theopaid/CVE-2026-67185-Unauthenticated-Path-Traversal-Allows-Arbitrary-File-Read-TinyWeb-](https://github.com/theopaid/CVE-2026-67185-Unauthenticated-Path-Traversal-Allows-Arbitrary-File-Read-TinyWeb-)
 
+### CVE-2026-67595 (2026-07-29)
+
+<code>VaahCMS versions 2.0.0 through 2.3.4 contain a malicious obfuscated JavaScript payload embedded in the Blade template responsible for rendering security OTP emails, allowing remote attackers to execute unauthorized code in any browser that renders the affected email template with JavaScript enabled. The payload establishes a WebSocket connection to a hardcoded command-and-control endpoint, installs a password-field keylogger using MutationObserver to capture dynamically added inputs, scrapes WhatsApp Web DOM content, and accepts remote commands to redirect or overwrite the rendered page.
+</code>
+
+- [IlhomjonR/CVE-2026-67595](https://github.com/IlhomjonR/CVE-2026-67595)
+
 ### CVE-2026-67599
 - [LazyTitan33/CVE-2026-67599_ClearOS_RCE](https://github.com/LazyTitan33/CVE-2026-67599_ClearOS_RCE)
 
@@ -6717,7 +6752,6 @@
 </code>
 
 - [barhen12/CVE-2025-0288](https://github.com/barhen12/CVE-2025-0288)
-- [MeisamEb/CVE-2025-0288](https://github.com/MeisamEb/CVE-2025-0288)
 
 ### CVE-2025-0309 (2025-08-14)
 
@@ -9037,6 +9071,13 @@
 </code>
 
 - [kaiokmo/cve-2025-10725-eda-demo](https://github.com/kaiokmo/cve-2025-10725-eda-demo)
+
+### CVE-2025-10897 (2025-10-31)
+
+<code>The WooCommerce Designer Pro theme for WordPress is vulnerable to arbitrary file read in all versions up to, and including, 1.9.28. This makes it possible for unauthenticated attackers to read arbitrary files on the server, which can expose DB credentials when the wp-config.php file is read.
+</code>
+
+- [error-inside/CVE-2025-10897](https://github.com/error-inside/CVE-2025-10897)
 
 ### CVE-2025-11001 (2025-11-19)
 
@@ -11983,6 +12024,7 @@
 </code>
 
 - [iCrazeiOS/AppEnumFix](https://github.com/iCrazeiOS/AppEnumFix)
+- [kolbicz/AppEnumGuard](https://github.com/kolbicz/AppEnumGuard)
 
 ### CVE-2025-31258 (2025-05-12)
 
@@ -14836,7 +14878,6 @@
 </code>
 
 - [synacktiv/Livepyre](https://github.com/synacktiv/Livepyre)
-- [z0d131482700x/Livewire2025CVE](https://github.com/z0d131482700x/Livewire2025CVE)
 - [flame-11/CVE-2025-54068-livewire](https://github.com/flame-11/CVE-2025-54068-livewire)
 - [haxorstars/CVE-2025-54068](https://github.com/haxorstars/CVE-2025-54068)
 - [HelgeSverre/livewire-honeypot](https://github.com/HelgeSverre/livewire-honeypot)
@@ -51003,7 +51044,7 @@
 - [gagaltotal/CVE-2021-41773-apache](https://github.com/gagaltotal/CVE-2021-41773-apache)
 - [KunalKhandelwal-dev/cve-2021-41773-source-code-analysis](https://github.com/KunalKhandelwal-dev/cve-2021-41773-source-code-analysis)
 - [tr3m0x/CVE-2021-41773](https://github.com/tr3m0x/CVE-2021-41773)
-- [sbimoxa/cve-2021-41773-lab](https://github.com/sbimoxa/cve-2021-41773-lab)
+- [manfredgabriel/cve-2021-41773-lab](https://github.com/manfredgabriel/cve-2021-41773-lab)
 - [KunalKhandelwal-dev/cve-2021-41773-lab](https://github.com/KunalKhandelwal-dev/cve-2021-41773-lab)
 
 ### CVE-2021-41784 (2022-08-29)
@@ -51608,7 +51649,7 @@
 - [Asbawy/GrafTraverse-CVE-2021-43798](https://github.com/Asbawy/GrafTraverse-CVE-2021-43798)
 - [Okymi-X/CVE-2021-43798](https://github.com/Okymi-X/CVE-2021-43798)
 - [Lim-ahmin/CVE-2021-43798](https://github.com/Lim-ahmin/CVE-2021-43798)
-- [sbimoxa/cve-2021-43798-lab](https://github.com/sbimoxa/cve-2021-43798-lab)
+- [manfredgabriel/cve-2021-43798-lab](https://github.com/manfredgabriel/cve-2021-43798-lab)
 
 ### CVE-2021-43799 (2022-01-25)
 
@@ -64733,6 +64774,7 @@
 - [dego905/Cam](https://github.com/dego905/Cam)
 - [A-Alabdoo/CVE-DVr](https://github.com/A-Alabdoo/CVE-DVr)
 - [0xDamian/CVE-2018-9995-rs](https://github.com/0xDamian/CVE-2018-9995-rs)
+- [F7P-H4NN1B4L/CVE-2018-9995-DVR-Credentials-Extractor](https://github.com/F7P-H4NN1B4L/CVE-2018-9995-DVR-Credentials-Extractor)
 
 ### CVE-2018-10097 (2018-04-13)
 
