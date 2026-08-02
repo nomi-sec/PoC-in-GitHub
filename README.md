@@ -361,6 +361,13 @@
 - [rootdirective-sec/CVE-2026-3844-Lab](https://github.com/rootdirective-sec/CVE-2026-3844-Lab)
 - [Dhananjayasj/CVE-2026-3844-Breeze-Cache-WordPress-Plugin-Remote-Code-Execution](https://github.com/Dhananjayasj/CVE-2026-3844-Breeze-Cache-WordPress-Plugin-Remote-Code-Execution)
 
+### CVE-2026-3854 (2026-03-10)
+
+<code>An improper neutralization of special elements vulnerability was identified in GitHub Enterprise Server that allowed an attacker with push access to a repository to achieve remote code execution on the instance. During a git push operation, user-supplied push option values were not properly sanitized before being included in internal service headers. Because the internal header format used a delimiter character that could also appear in user input, an attacker could inject additional metadata fields through crafted push option values. This vulnerability was reported via the GitHub Bug Bounty program and has been fixed in GitHub Enterprise Server versions 3.14.25, 3.15.20, 3.16.16, 3.17.13, 3.18.7 and 3.19.4.
+</code>
+
+- [royaleybovich/CVE-2026-3854-lab](https://github.com/royaleybovich/CVE-2026-3854-lab)
+
 ### CVE-2026-3888 (2026-03-17)
 
 <code>Local privilege escalation in snapd on Linux allows local attackers to get root privilege by re-creating snap's private /tmp directory when systemd-tmpfiles is configured to automatically clean up this directory. This issue affects Ubuntu 16.04 LTS, 18.04 LTS, 20.04 LTS, 22.04 LTS, and 24.04 LTS.
@@ -973,7 +980,6 @@
 - [Y5neKO/CVE-2026-8461-EXP](https://github.com/Y5neKO/CVE-2026-8461-EXP)
 - [HORKimhab/CVE-2026-8461](https://github.com/HORKimhab/CVE-2026-8461)
 - [0xBlackash/CVE-2026-8461](https://github.com/0xBlackash/CVE-2026-8461)
-- [ray-goldman/ffmpeg-jellyfix](https://github.com/ray-goldman/ffmpeg-jellyfix)
 
 ### CVE-2026-8697 (2026-05-28)
 
@@ -1513,6 +1519,13 @@
 </code>
 
 - [416rehman/asus-bsitf-0-day-poc](https://github.com/416rehman/asus-bsitf-0-day-poc)
+
+### CVE-2026-13714 (2026-07-27)
+
+<code>The Realtyna Organic IDX plugin + WPL Real Estate WordPress plugin before 5.3.0 does not validate the type of uploaded files, and its file upload functionality is gated only by an API that is enabled by default and authenticated with hardcoded credentials shipped identically across all installations. This makes it possible for unauthenticated attackers to upload arbitrary PHP files and achieve remote code execution.
+</code>
+
+- [Nxploited/CVE-2026-13714](https://github.com/Nxploited/CVE-2026-13714)
 
 ### CVE-2026-13768 (2026-07-02)
 
@@ -3590,6 +3603,8 @@
 - [M3PH1569/CVE-2026-39987-POC](https://github.com/M3PH1569/CVE-2026-39987-POC)
 - [HORKimhab/CVE-2026-39987](https://github.com/HORKimhab/CVE-2026-39987)
 - [gbuyssens/CVE-2026-39987](https://github.com/gbuyssens/CVE-2026-39987)
+- [jasonbernier/CVE-2026-39987](https://github.com/jasonbernier/CVE-2026-39987)
+- [vanhari/CVE-2026-39987](https://github.com/vanhari/CVE-2026-39987)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -4183,6 +4198,7 @@
 - [1ndevelopment/CVE-2026-43499-S26](https://github.com/1ndevelopment/CVE-2026-43499-S26)
 - [veygax/HORiZonstack](https://github.com/veygax/HORiZonstack)
 - [boxiaolanya2008/CVE-2026-43499-Neo11Plus](https://github.com/boxiaolanya2008/CVE-2026-43499-Neo11Plus)
+- [alex193a/Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -4245,6 +4261,7 @@
 <code>The issue was addressed with improved input sanitization. This issue is fixed in iOS 26.5.2 and iPadOS 26.5.2, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. An app may be able to cause unexpected system termination or write kernel memory.
 </code>
 
+- [gracecondition/DirtySlide](https://github.com/gracecondition/DirtySlide)
 - [impost0r/Rie](https://github.com/impost0r/Rie)
 
 ### CVE-2026-43735 (2026-06-29)
@@ -9784,7 +9801,6 @@
 - [FurkanKAYAPINAR/CVE-2025-14847-MongoBleed-Exploit](https://github.com/FurkanKAYAPINAR/CVE-2025-14847-MongoBleed-Exploit)
 - [NoNameError/MongoBLEED---CVE-2025-14847-POC-](https://github.com/NoNameError/MongoBLEED---CVE-2025-14847-POC-)
 - [Rishi-kaul/CVE-2025-14847-MongoBleed](https://github.com/Rishi-kaul/CVE-2025-14847-MongoBleed)
-- [Systemhaus-Schulz/MongoBleed-CVE-2025-14847](https://github.com/Systemhaus-Schulz/MongoBleed-CVE-2025-14847)
 - [ElJoamy/MongoBleed-exploit](https://github.com/ElJoamy/MongoBleed-exploit)
 - [keraattin/Mongobleed-Detector-CVE-2025-14847](https://github.com/keraattin/Mongobleed-Detector-CVE-2025-14847)
 - [waheeb71/CVE-2025-14847](https://github.com/waheeb71/CVE-2025-14847)
@@ -13898,6 +13914,7 @@
 
 ### CVE-2025-48932
 - [XploitGh0st/CVE-2025-48932---exploit](https://github.com/XploitGh0st/CVE-2025-48932---exploit)
+- [CerberusMrXi/CVE-2025-48932-Invision-Community-SQLi-Exploit](https://github.com/CerberusMrXi/CVE-2025-48932-Invision-Community-SQLi-Exploit)
 
 ### CVE-2025-48976 (2025-06-16)
 
@@ -15685,6 +15702,13 @@
 
 - [hunters-sec/CVE-2025-55188-7z-exploit](https://github.com/hunters-sec/CVE-2025-55188-7z-exploit)
 - [lunbun/CVE-2025-55188](https://github.com/lunbun/CVE-2025-55188)
+
+### CVE-2025-55192 (2025-08-14)
+
+<code>HomeAssistant-Tapo-Control offers Control for Tapo cameras as a Home Assistant component. Prior to commit 2a3b80f, there is a code injection vulnerability in the GitHub Actions workflow .github/workflows/issues.yml. It does not affect users of the Home Assistant integration itself — it only impacts the GitHub Actions environment for this repository. The vulnerable workflow directly inserted user-controlled content from the issue body (github.event.issue.body) into a Bash conditional without proper sanitization. A malicious GitHub user could craft an issue body that executes arbitrary commands on the GitHub Actions runner in a privileged context whenever an issue is opened. The potential impact is limited to the repository’s CI/CD environment, which could allow access to repository contents or GitHub Actions secrets. This issue has been patched via commit 2a3b80f. Workarounds involve disabling the affected workflow (issues.yml), replacing the unsafe Bash comparison with a safe quoted grep (or a pure GitHub Actions expression check), or ensuring minimal permissions in workflows (permissions: block) to reduce possible impact.
+</code>
+
+- [ghapvharmo/gha-lab-7ccf56a2a4](https://github.com/ghapvharmo/gha-lab-7ccf56a2a4)
 
 ### CVE-2025-55234 (2025-09-09)
 
@@ -26413,6 +26437,7 @@
 </code>
 
 - [j3r1ch0123/CVE-2024-40422](https://github.com/j3r1ch0123/CVE-2024-40422)
+- [alpernae/CVE-2024-40422](https://github.com/alpernae/CVE-2024-40422)
 
 ### CVE-2024-40431 (2024-10-23)
 
@@ -27002,7 +27027,6 @@
 </code>
 
 - [synacktiv/CVE-2024-43468](https://github.com/synacktiv/CVE-2024-43468)
-- [nikallass/CVE-2024-43468_mTLS_go](https://github.com/nikallass/CVE-2024-43468_mTLS_go)
 
 ### CVE-2024-43535 (2024-10-08)
 
@@ -46210,13 +46234,6 @@
 
 
 ## 2021
-### CVE-2021-0308 (2021-01-11)
-
-<code>In ReadLogicalParts of basicmbr.cc, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. Product: Android; Versions: Android-8.1, Android-9, Android-10, Android-11, Android-8.0; Android ID: A-158063095.
-</code>
-
-- [Trinadh465/platform_external_gptfdisk_AOSP10_r33_CVE-2021-0308](https://github.com/Trinadh465/platform_external_gptfdisk_AOSP10_r33_CVE-2021-0308)
-
 ### CVE-2021-0315 (2021-01-11)
 
 <code>In onCreate of GrantCredentialsPermissionActivity.java, there is a possible way to convince the user to grant an app access to an account due to a tapjacking/overlay attack. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation. Product: Android; Versions: Android-8.1, Android-9, Android-10, Android-11, Android-8.0; Android ID: A-169763814.
@@ -47540,6 +47557,7 @@
 - [user16-et/cve-2021-21972_PoC](https://github.com/user16-et/cve-2021-21972_PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
 - [SimoesCTT/CTT-enhanced-VMware-vCenter](https://github.com/SimoesCTT/CTT-enhanced-VMware-vCenter)
+- [Hurrrraaaa/CVE-2021-21972](https://github.com/Hurrrraaaa/CVE-2021-21972)
 
 ### CVE-2021-21973 (2021-02-24)
 
