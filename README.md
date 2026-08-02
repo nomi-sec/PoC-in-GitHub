@@ -4161,6 +4161,7 @@
 - [CatXiaoShi/cve-2026-43499](https://github.com/CatXiaoShi/cve-2026-43499)
 - [fusiondrive/CVE-2026-43499-A36](https://github.com/fusiondrive/CVE-2026-43499-A36)
 - [1ndevelopment/CVE-2026-43499-S26](https://github.com/1ndevelopment/CVE-2026-43499-S26)
+- [veygax/HORiZonstack](https://github.com/veygax/HORiZonstack)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -5195,6 +5196,7 @@
 - [frada321/asdsadsadasdasdsadsad](https://github.com/frada321/asdsadsadasdasdsadsad)
 - [Dr-D25/CVE-2026-49049](https://github.com/Dr-D25/CVE-2026-49049)
 - [ExDev994/CVE-2026-49049](https://github.com/ExDev994/CVE-2026-49049)
+- [Jenderal92/CVE-2026-49049](https://github.com/Jenderal92/CVE-2026-49049)
 
 ### CVE-2026-49060 (2026-06-11)
 
@@ -6228,13 +6230,6 @@
 
 - [shinthink/CVE-2026-58480](https://github.com/shinthink/CVE-2026-58480)
 
-### CVE-2026-58586 (2026-07-24)
-
-<code>Image::WebP versions before 0.3.0 for Perl bundle a vulnerable version of libwebp.\n\nImage::WebP does not link to the system libwebp. Instead, it uses a bundled copy of libwebp 0.3.0 (released 2013-03-20). That version has multiple known vulnerabilities, including CVE-2023-4863.\n\nAny caller that decodes an untrusted WebP image reaches the bundled decoder. Because the library is compiled into the module, upgrading the system libwebp does not remediate this.
-</code>
-
-- [extratao/Image-WebP](https://github.com/extratao/Image-WebP)
-
 ### CVE-2026-58635 (2026-07-14)
 
 <code>Improper neutralization of special elements used in a command ('command injection') in Windows Narrator Braille allows an authorized attacker to elevate privileges locally.
@@ -6661,6 +6656,13 @@
 </code>
 
 - [theopaid/CVE-2026-67185-Unauthenticated-Path-Traversal-Allows-Arbitrary-File-Read-TinyWeb-](https://github.com/theopaid/CVE-2026-67185-Unauthenticated-Path-Traversal-Allows-Arbitrary-File-Read-TinyWeb-)
+
+### CVE-2026-67206 (2026-07-30)
+
+<code>Wolf CMS through 0.8.3.1 contains a remote code execution vulnerability in FileManagerController that allows authenticated attackers to create arbitrary PHP files by exploiting missing file extension validation in the create_file() and save() functions. Attackers with the file_manager_mkfile capability can write malicious PHP content into the web-accessible FILES_DIR directory and trigger execution by requesting the file over HTTP.
+</code>
+
+- [anirbala98/CVE-2026-67206](https://github.com/anirbala98/CVE-2026-67206)
 
 ### CVE-2026-67595 (2026-07-29)
 
@@ -18165,6 +18167,7 @@
 </code>
 
 - [ClemaX/Gitea-Forgejo-CVE-2025-68937](https://github.com/ClemaX/Gitea-Forgejo-CVE-2025-68937)
+- [Scratchappy/CVE-2025-68937](https://github.com/Scratchappy/CVE-2025-68937)
 
 ### CVE-2025-68971 (2026-03-16)
 
@@ -44500,7 +44503,6 @@
 - [Pro-me3us/CVE_2022_38181_Gazelle](https://github.com/Pro-me3us/CVE_2022_38181_Gazelle)
 - [R0rt1z2/CVE-2022-38181](https://github.com/R0rt1z2/CVE-2022-38181)
 - [soralis0912/CVE-2022-38181-aristotle](https://github.com/soralis0912/CVE-2022-38181-aristotle)
-- [hackintoanetwork/SCRoot](https://github.com/hackintoanetwork/SCRoot)
 
 ### CVE-2022-38374 (2022-11-02)
 
@@ -60325,7 +60327,7 @@
 <code>An issue was discovered in Kentico 12.0.x before 12.0.15, 11.0.x before 11.0.48, 10.0.x before 10.0.52, and 9.x versions. Due to a failure to validate security headers, it was possible for a specially crafted request to the staging service to bypass the initial authentication and proceed to deserialize user-controlled .NET object input. This deserialization then led to unauthenticated remote code execution on the server where the Kentico instance was hosted.
 </code>
 
-- [0x7a-zip/CVE-2019-10068-PoC](https://github.com/0x7a-zip/CVE-2019-10068-PoC)
+- [cianananan/CVE-2019-10068-PoC](https://github.com/cianananan/CVE-2019-10068-PoC)
 
 ### CVE-2019-10076 (2019-05-20)
 
