@@ -449,6 +449,7 @@
 - [m4sh-wacker/CVE-2026-3891-Pix-for-WooCommerce-Plugin-Exploit](https://github.com/m4sh-wacker/CVE-2026-3891-Pix-for-WooCommerce-Plugin-Exploit)
 - [shinthink/CVE-2026-3891](https://github.com/shinthink/CVE-2026-3891)
 - [VeronnX666/CVE-2026-3891](https://github.com/VeronnX666/CVE-2026-3891)
+- [Ch4120N/CVE-2026-3891](https://github.com/Ch4120N/CVE-2026-3891)
 
 ### CVE-2026-4020 (2026-03-31)
 
@@ -1856,6 +1857,7 @@
 - [0xBlackash/CVE-2026-15409](https://github.com/0xBlackash/CVE-2026-15409)
 - [MrRawBit/SonicWall-SMA1000-Zero-Day-IoC-Check](https://github.com/MrRawBit/SonicWall-SMA1000-Zero-Day-IoC-Check)
 - [tc4dy/CVE-2026-15409-15410-Framework](https://github.com/tc4dy/CVE-2026-15409-15410-Framework)
+- [Ch4120N/CVE-2026-15409](https://github.com/Ch4120N/CVE-2026-15409)
 
 ### CVE-2026-15410 (2026-07-14)
 
@@ -1902,6 +1904,7 @@
 
 - [WadesWeaponShed/Check-Point-Trusted-Access-Review](https://github.com/WadesWeaponShed/Check-Point-Trusted-Access-Review)
 - [sfewer-r7/CVE-2026-16232](https://github.com/sfewer-r7/CVE-2026-16232)
+- [HackSpeak/checkpoint-smartconsole-poc](https://github.com/HackSpeak/checkpoint-smartconsole-poc)
 
 ### CVE-2026-16475
 - [afertar/CVE-2026-16475-PoC](https://github.com/afertar/CVE-2026-16475-PoC)
@@ -2563,6 +2566,7 @@
 </code>
 
 - [huynambka/cve-2026-26114-poc](https://github.com/huynambka/cve-2026-26114-poc)
+- [fazilbaig1/CVE-2026-26114-Patch](https://github.com/fazilbaig1/CVE-2026-26114-Patch)
 
 ### CVE-2026-26118 (2026-03-10)
 
@@ -3081,6 +3085,13 @@
 
 - [webshellseo8/CVE-2026-32488-POC](https://github.com/webshellseo8/CVE-2026-32488-POC)
 - [izxci/CVE-2026-32488](https://github.com/izxci/CVE-2026-32488)
+
+### CVE-2026-32621 (2026-03-13)
+
+<code>Apollo Federation is an architecture for declaratively composing APIs into a unified graph. Prior to 2.9.6, 2.10.5, 2.11.6, 2.12.3, and 2.13.2, a vulnerability exists in query plan execution within the gateway that may allow pollution of Object.prototype in certain scenarios. A malicious client may be able to pollute Object.prototype in gateway directly by crafting operations with field aliases and/or variable names that target prototype-inheritable properties. Alternatively, if a subgraph were to be compromised by a malicious actor, they may be able to pollute Object.prototype in gateway by crafting JSON response payloads that target prototype-inheritable properties. This vulnerability is fixed in 2.9.6, 2.10.5, 2.11.6, 2.12.3, and 2.13.2.
+</code>
+
+- [sam00/POC-CVE-2026-32621-Apollo-Federation-XSS-Vulnerability](https://github.com/sam00/POC-CVE-2026-32621-Apollo-Federation-XSS-Vulnerability)
 
 ### CVE-2026-32646 (2026-04-03)
 
@@ -4232,6 +4243,13 @@
 
 - [izxci/CVE-2026-42758](https://github.com/izxci/CVE-2026-42758)
 
+### CVE-2026-42826 (2026-05-07)
+
+<code>Exposure of sensitive information to an unauthorized actor in Azure DevOps allows an unauthorized attacker to disclose information over a network.
+</code>
+
+- [sam00/POC-CVE-2026-42826-2026-42826-Microsoft-Azure-DevOps-Information-Disclosure-Vulnerability](https://github.com/sam00/POC-CVE-2026-42826-2026-42826-Microsoft-Azure-DevOps-Information-Disclosure-Vulnerability)
+
 ### CVE-2026-42880 (2026-05-07)
 
 <code>Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. From versions 3.2.0 to before 3.2.11 and 3.3.0 to before 3.3.9, there is a missing authorization and data-masking gap in Argo CD's ServerSideDiff endpoint that allows an attacker with read-only access to extract plaintext Kubernetes Secret data from etcd via the Kubernetes API server's Server-Side Apply dry-run mechanism. This issue has been patched in versions 3.2.11 and 3.3.9.
@@ -4427,6 +4445,7 @@
 - [veygax/HORiZonstack](https://github.com/veygax/HORiZonstack)
 - [boxiaolanya2008/CVE-2026-43499-Neo11Plus](https://github.com/boxiaolanya2008/CVE-2026-43499-Neo11Plus)
 - [alex193a/Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel)
+- [jason5545/ghostlock-myron-tw](https://github.com/jason5545/ghostlock-myron-tw)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -5328,6 +5347,7 @@
 - [eris-ths/supply-chain-guard](https://github.com/eris-ths/supply-chain-guard)
 - [xtremebeing/starlette-host-header-lab](https://github.com/xtremebeing/starlette-host-header-lab)
 - [Bhanunamikaze/BadHost-CVE-2026-48710-Exploit](https://github.com/Bhanunamikaze/BadHost-CVE-2026-48710-Exploit)
+- [sb-ox/repro-OXDEV-77637-uv-workspace](https://github.com/sb-ox/repro-OXDEV-77637-uv-workspace)
 
 ### CVE-2026-48732 (2026-06-24)
 
@@ -6123,6 +6143,8 @@
 - [ChPratik/CVE-2026-54121](https://github.com/ChPratik/CVE-2026-54121)
 - [nafiez/Metasploit-CVE-2026-54121-Certighost](https://github.com/nafiez/Metasploit-CVE-2026-54121-Certighost)
 - [KrakenEU/CVE-2026-54121-CertiGhost](https://github.com/KrakenEU/CVE-2026-54121-CertiGhost)
+- [AtlasVector/Certighost-CVE-2026-54121](https://github.com/AtlasVector/Certighost-CVE-2026-54121)
+- [sam00/POC-CVE-2026-54121-Certighost](https://github.com/sam00/POC-CVE-2026-54121-Certighost)
 
 ### CVE-2026-54161
 - [ja-errorpro/CVE-2026-54161](https://github.com/ja-errorpro/CVE-2026-54161)
@@ -7020,6 +7042,13 @@
 
 ### CVE-2026-67599
 - [LazyTitan33/CVE-2026-67599_ClearOS_RCE](https://github.com/LazyTitan33/CVE-2026-67599_ClearOS_RCE)
+
+### CVE-2026-68771 (2026-07-31)
+
+<code>ComfyUI v0.23.0 contains an unsafe deserialization vulnerability in the LoadTrainingDataset node that allows unauthenticated remote attackers to execute arbitrary Python code by uploading a crafted pickle file and triggering its deserialization. Attackers can upload a malicious shard_*.pkl file via the unauthenticated POST /upload/image endpoint and then queue a workflow graph via POST /prompt referencing the uploaded file, causing torch.load to deserialize the attacker-controlled pickle payload using __reduce__ and execute arbitrary commands as the ComfyUI process user.
+</code>
+
+- [0xdak/CVE-2026-68771_exploit](https://github.com/0xdak/CVE-2026-68771_exploit)
 
 ### CVE-2026-69212
 - [c0gnit00/CVE-2026-69212](https://github.com/c0gnit00/CVE-2026-69212)
@@ -15856,7 +15885,6 @@
 - [xiaoLvChen/CVE-2025-55182](https://github.com/xiaoLvChen/CVE-2025-55182)
 - [captain4554/CVE-2025-55182-Scanner](https://github.com/captain4554/CVE-2025-55182-Scanner)
 - [captain4554/captain4554.github.io](https://github.com/captain4554/captain4554.github.io)
-- [HackIndex-io/React2Shell-CVE-2025-55182](https://github.com/HackIndex-io/React2Shell-CVE-2025-55182)
 - [rahuulmiishra/react2shell-CVE-2025-55182](https://github.com/rahuulmiishra/react2shell-CVE-2025-55182)
 - [m3ngx1ng/CVE-2025-55182-GUI](https://github.com/m3ngx1ng/CVE-2025-55182-GUI)
 - [joaovicdev/EXPLOIT-CVE-2025-55182](https://github.com/joaovicdev/EXPLOIT-CVE-2025-55182)
@@ -16374,6 +16402,13 @@
 </code>
 
 - [xyyzxc/CVE-2025-56819](https://github.com/xyyzxc/CVE-2025-56819)
+
+### CVE-2025-57052 (2025-09-03)
+
+<code>cJSON 1.5.0 through 1.7.18 allows out-of-bounds access via the decode_array_index_from_pointer function in cJSON_Utils.c, allowing remote attackers to bypass array bounds checking and access restricted data via malformed JSON pointer strings containing alphanumeric characters.
+</code>
+
+- [DhruvP2205/cjson-rust-port](https://github.com/DhruvP2205/cjson-rust-port)
 
 ### CVE-2025-57055 (2025-09-17)
 
@@ -20223,6 +20258,7 @@
 - [veronimo669/pdf.js-CVE-2024-4367](https://github.com/veronimo669/pdf.js-CVE-2024-4367)
 - [yuimamur/CVE-2024-4367-hands-on](https://github.com/yuimamur/CVE-2024-4367-hands-on)
 - [yuimamur/CVE-2024-4367-hands-on-01](https://github.com/yuimamur/CVE-2024-4367-hands-on-01)
+- [DharmarajPS/pdfjs-cve-2024-4367-poc](https://github.com/DharmarajPS/pdfjs-cve-2024-4367-poc)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -28685,13 +28721,6 @@
 
 ### CVE-2024-50964
 - [fdzdev/CVE-2024-50964](https://github.com/fdzdev/CVE-2024-50964)
-
-### CVE-2024-50967 (2025-01-17)
-
-<code>The /rest/rights/ REST API endpoint in Becon DATAGerry through 2.2.0 contains an Incorrect Access Control vulnerability. An attacker can remotely access this endpoint without authentication, leading to unauthorized disclosure of sensitive information.
-</code>
-
-- [0xByteHunter/CVE-2024-50967](https://github.com/0xByteHunter/CVE-2024-50967)
 
 ### CVE-2024-50968 (2024-11-14)
 
@@ -41241,6 +41270,7 @@
 - [march0n/PoC-CVE-2022-22965-Spring4Shell](https://github.com/march0n/PoC-CVE-2022-22965-Spring4Shell)
 - [Kuri119/CVE-2022-22965-Spring4Shell](https://github.com/Kuri119/CVE-2022-22965-Spring4Shell)
 - [meng-security/spring4shell-local-verification-lab](https://github.com/meng-security/spring4shell-local-verification-lab)
+- [PrinceH4k/Spring4Shell-POC](https://github.com/PrinceH4k/Spring4Shell-POC)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -47021,7 +47051,6 @@
 - [halissha/CVE-2021-3156](https://github.com/halissha/CVE-2021-3156)
 - [sharkmoos/Baron-Samedit](https://github.com/sharkmoos/Baron-Samedit)
 - [RodricBr/CVE-2021-3156](https://github.com/RodricBr/CVE-2021-3156)
-- [q77190858/CVE-2021-3156](https://github.com/q77190858/CVE-2021-3156)
 - [arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156)
 - [Mhackiori/CVE-2021-3156](https://github.com/Mhackiori/CVE-2021-3156)
 - [PhuketIsland/CVE-2021-3156-centos7](https://github.com/PhuketIsland/CVE-2021-3156-centos7)
@@ -50022,6 +50051,7 @@
 - [Hirusha-N/CVE-2021-34527-CVE-2023-38831-and-CVE-2023-32784](https://github.com/Hirusha-N/CVE-2021-34527-CVE-2023-38831-and-CVE-2023-32784)
 - [AUSK1LL9/CVE-2021-34527](https://github.com/AUSK1LL9/CVE-2021-34527)
 - [AlDawli/CVE-2021-34527-](https://github.com/AlDawli/CVE-2021-34527-)
+- [KaritaMW/printnightmare-detection-mitigation-lab](https://github.com/KaritaMW/printnightmare-detection-mitigation-lab)
 
 ### CVE-2021-34558 (2021-07-15)
 
@@ -59290,6 +59320,13 @@
 </code>
 
 - [raytran54/CVE-2019-1698](https://github.com/raytran54/CVE-2019-1698)
+
+### CVE-2019-1749 (2019-03-27)
+
+<code>A vulnerability in the ingress traffic validation of Cisco IOS XE Software for Cisco Aggregation Services Router (ASR) 900 Route Switch Processor 3 (RSP3) could allow an unauthenticated, adjacent attacker to trigger a reload of an affected device, resulting in a denial of service (DoS) condition. The vulnerability exists because the software insufficiently validates ingress traffic on the ASIC used on the RSP3 platform. An attacker could exploit this vulnerability by sending a malformed OSPF version 2 (OSPFv2) message to an affected device. A successful exploit could allow the attacker to cause a reload of the iosd process, triggering a reload of the affected device and resulting in a DoS condition.
+</code>
+
+- [delbertgiovanni/test-xss-swagger-CVE-2019-1749](https://github.com/delbertgiovanni/test-xss-swagger-CVE-2019-1749)
 
 ### CVE-2019-1759 (2019-03-28)
 
@@ -68911,6 +68948,7 @@
 - [assalielmehdi/CVE-2017-12635](https://github.com/assalielmehdi/CVE-2017-12635)
 - [cyberharsh/Apache-couchdb-CVE-2017-12635](https://github.com/cyberharsh/Apache-couchdb-CVE-2017-12635)
 - [Dungsocool/CVE-2017-12635_36](https://github.com/Dungsocool/CVE-2017-12635_36)
+- [Darabium/couchdb-exploit](https://github.com/Darabium/couchdb-exploit)
 
 ### CVE-2017-12636 (2017-11-14)
 
