@@ -55,6 +55,9 @@
 
 - [canyie/TransitionPlayer](https://github.com/canyie/TransitionPlayer)
 
+### CVE-2026-0101
+- [George0Papasotiriou/CVE-2026-0101-BLE-Address-Spoofing-via-Weak-Resolvable-Private-Address](https://github.com/George0Papasotiriou/CVE-2026-0101-BLE-Address-Spoofing-via-Weak-Resolvable-Private-Address)
+
 ### CVE-2026-0257 (2026-05-13)
 
 <code>Authentication bypass vulnerabilities in the GlobalProtect portal and gateway of Palo Alto Networks PAN-OS® software allows the attacker to bypass security restrictions and establish an unauthorized VPN connection.\n\nPanorama and Cloud NGFW are not impacted by these issues.
@@ -172,6 +175,20 @@
 ### CVE-2026-442
 - [HORKimhab/CVE-2026-442_](https://github.com/HORKimhab/CVE-2026-442_)
 
+### CVE-2026-1010 (2026-01-15)
+
+<code>A stored cross-site scripting (XSS) vulnerability exists in the Altium Workflow Engine due to missing server-side input sanitization in workflow form submission APIs. A regular authenticated user can inject arbitrary JavaScript into workflow data.\n\nWhen an administrator views the affected workflow, the injected payload executes in the administrator’s browser context, allowing privilege escalation, including creation of new administrator accounts, session token theft, and execution of administrative actions.
+</code>
+
+- [George0Papasotiriou/CVE-2026-1010-WebSocket-Connection-Smuggling-via-Malformed-Upgrade-Header](https://github.com/George0Papasotiriou/CVE-2026-1010-WebSocket-Connection-Smuggling-via-Malformed-Upgrade-Header)
+
+### CVE-2026-1111 (2026-01-18)
+
+<code>A vulnerability has been found in Sanluan PublicCMS up to 5.202506.d. This impacts the function Save of the file com/publiccms/controller/admin/sys/TaskTemplateAdminController.java of the component Task Template Management Handler. Such manipulation of the argument path leads to path traversal. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [George0Papasotiriou/CVE-2026-1111-Smart-Contract-Cross-Function-Reentrancy](https://github.com/George0Papasotiriou/CVE-2026-1111-Smart-Contract-Cross-Function-Reentrancy)
+
 ### CVE-2026-1122 (2026-01-18)
 
 <code>A vulnerability was determined in Yonyou KSOA 9.0. This impacts an unknown function of the file /worksheet/work_info.jsp of the component HTTP GET Parameter Handler. This manipulation of the argument ID causes sql injection. The attack may be initiated remotely. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.
@@ -236,6 +253,20 @@
 
 - [var77/CVE-2026-2005](https://github.com/var77/CVE-2026-2005)
 
+### CVE-2026-2020 (2026-03-07)
+
+<code>The JS Archive List plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 6.1.7 via the 'included' shortcode attribute. This is due to the deserialization of untrusted input supplied via the 'included' parameter of the plugin's shortcode. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject a PHP Object. No known POP chain is present in the vulnerable software. If a POP chain is present via an additional plugin or theme installed on the target system, it could allow the attacker to delete arbitrary files, retrieve sensitive data, or execute code.
+</code>
+
+- [George0Papasotiriou/CVE-2026-2020-SSRF-via-URL-Parser-Differential](https://github.com/George0Papasotiriou/CVE-2026-2020-SSRF-via-URL-Parser-Differential)
+
+### CVE-2026-2222 (2026-02-09)
+
+<code>A weakness has been identified in code-projects Online Reviewer System 1.0. Affected by this vulnerability is an unknown functionality of the file /system/system/admins/manage/users/btn_functions.php. Executing a manipulation of the argument firstname can lead to cross site scripting. The attack may be performed from remote. The exploit has been made available to the public and could be used for attacks.
+</code>
+
+- [George0Papasotiriou/CVE-2026-2222-MQTT-Broker-CONNECT-Packet-Heap-Overflow](https://github.com/George0Papasotiriou/CVE-2026-2222-MQTT-Broker-CONNECT-Packet-Heap-Overflow)
+
 ### CVE-2026-2256 (2026-03-02)
 
 <code>A command injection vulnerability in ModelScope's ms-agent versions v1.6.0rc1 and earlier exists, allowing an attacker to execute arbitrary operating system commands through crafted prompt-derived input.
@@ -290,6 +321,9 @@
 
 - [xxconi/CVE-2026-2942](https://github.com/xxconi/CVE-2026-2942)
 
+### CVE-2026-3030
+- [George0Papasotiriou/CVE-2026-3030-Prototype-Pollution-in-JSON-Merge-Patch](https://github.com/George0Papasotiriou/CVE-2026-3030-Prototype-Pollution-in-JSON-Merge-Patch)
+
 ### CVE-2026-3102 (2026-02-24)
 
 <code>A vulnerability was determined in exiftool up to 13.49 on macOS. This issue affects the function SetMacOSTags of the file lib/Image/ExifTool/MacOS.pm of the component PNG File Parser. This manipulation of the argument DateTimeOriginal causes os command injection. The attack is possible to be carried out remotely. The exploit has been publicly disclosed and may be utilized. Upgrading to version 13.50 is capable of addressing this issue. Patch name: e9609a9bcc0d32bd252a709a562fb822d6dd86f7. Upgrading the affected component is recommended.
@@ -334,6 +368,13 @@
 </code>
 
 - [darrocarocatest-sys/pv2-victim](https://github.com/darrocarocatest-sys/pv2-victim)
+
+### CVE-2026-3333 (2026-03-21)
+
+<code>The MinhNhut Link Gateway plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'linkgate' shortcode in all versions up to, and including, 3.6.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
+- [George0Papasotiriou/CVE-2026-3333-DNS-Rebinding-to-Steal-Cloud-Metadata](https://github.com/George0Papasotiriou/CVE-2026-3333-DNS-Rebinding-to-Steal-Cloud-Metadata)
 
 ### CVE-2026-3359 (2026-05-05)
 
@@ -417,6 +458,13 @@
 - [HORKimhab/CVE-2026-4020](https://github.com/HORKimhab/CVE-2026-4020)
 - [faizdotid/CVE-2026-4020](https://github.com/faizdotid/CVE-2026-4020)
 
+### CVE-2026-4040 (2026-03-12)
+
+<code>A vulnerability was identified in OpenClaw up to 2026.2.17. This issue affects the function tools.exec.safeBins of the component File Existence Handler. The manipulation leads to information exposure through discrepancy. The attack needs to be performed locally. Upgrading to version 2026.2.19-beta.1 is capable of addressing this issue. The identifier of the patch is bafdbb6f112409a65decd3d4e7350fbd637c7754. Upgrading the affected component is advised.
+</code>
+
+- [George0Papasotiriou/CVE-2026-4040-Race-Condition-in-File-Upload-Leading-to-RCE](https://github.com/George0Papasotiriou/CVE-2026-4040-Race-Condition-in-File-Upload-Leading-to-RCE)
+
 ### CVE-2026-4060 (2026-05-02)
 
 <code>The Geo Mashup plugin for WordPress is vulnerable to Time-Based SQL Injection via the 'sort' parameter in all versions up to, and including, 1.13.18. This is due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. The `esc_sql()` function is applied but is ineffective in the `ORDER BY` context because the value is not enclosed in quotes. Additionally, while a `sanitize_sort_arg()` allowlist-based sanitizer was added in version 1.13.18, it is only applied in the AJAX code path (`sanitize_query_args()`) and not in the `render-map.php` or template tag code paths. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database via a time-based blind approach.
@@ -444,6 +492,13 @@
 </code>
 
 - [born0monday/teamspeak3-vulnerabilities](https://github.com/born0monday/teamspeak3-vulnerabilities)
+
+### CVE-2026-4444 (2026-03-20)
+
+<code>Stack buffer overflow in WebRTC in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit stack corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [George0Papasotiriou/CVE-2026-4444-JWT-Algorithm-Confusion-via-kid-Injection](https://github.com/George0Papasotiriou/CVE-2026-4444-JWT-Algorithm-Confusion-via-kid-Injection)
 
 ### CVE-2026-4480 (2026-05-26)
 
@@ -529,6 +584,13 @@
 </code>
 
 - [0x00phantom-hat/CVE-2026-5029-Exploit](https://github.com/0x00phantom-hat/CVE-2026-5029-Exploit)
+
+### CVE-2026-5050 (2026-04-16)
+
+<code>The Payment Gateway for Redsys &amp; WooCommerce Lite plugin for WordPress is vulnerable to Improper Verification of Cryptographic Signature in versions up to, and including, 7.0.0 due to successful_request() handlers calculating a local signature but not validating Ds_Signature from the request before accepting payment status across the Redsys, Bizum, and Google Pay gateway flows. This makes it possible for unauthenticated attackers to forge payment callback data and mark pending orders as paid when they know a valid order key and order amount, potentially allowing checkout completion and product or service fulfillment without a successful payment.
+</code>
+
+- [George0Papasotiriou/CVE-2026-5050-Blind-LDAP-Injection-via-Unescaped-Filter](https://github.com/George0Papasotiriou/CVE-2026-5050-Blind-LDAP-Injection-via-Unescaped-Filter)
 
 ### CVE-2026-5061 (2026-05-12)
 
@@ -637,6 +699,20 @@
 
 - [caterscam/CVE-2026-5524-PoC](https://github.com/caterscam/CVE-2026-5524-PoC)
 
+### CVE-2026-5555 (2026-04-05)
+
+<code>A weakness has been identified in code-projects Concert Ticket Reservation System 1.0. This affects an unknown part of the file /ConcertTicketReservationSystem-master/login.php of the component Parameter Handler. Executing a manipulation of the argument Email can lead to sql injection. The attack may be launched remotely. The exploit has been made available to the public and could be used for attacks.
+</code>
+
+- [George0Papasotiriou/CVE-2026-5555-Container-Escape-via-proc-self-fd-Symlink-in-Shared-Volume](https://github.com/George0Papasotiriou/CVE-2026-5555-Container-Escape-via-proc-self-fd-Symlink-in-Shared-Volume)
+
+### CVE-2026-5556 (2026-04-05)
+
+<code>A security vulnerability has been detected in badlogic pi-mono up to 0.58.4. This vulnerability affects the function discoverAndLoadExtensions of the file packages/coding-agent/src/core/extensions/loader.ts. The manipulation leads to code injection. Remote exploitation of the attack is possible. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [George0Papasotiriou/CVE-2026-5556-Kubernetes-Admission-Controller-Bypass-via-Case-Sensitivity](https://github.com/George0Papasotiriou/CVE-2026-5556-Kubernetes-Admission-Controller-Bypass-via-Case-Sensitivity)
+
 ### CVE-2026-5562 (2026-04-05)
 
 <code>A vulnerability was identified in provectus kafka-ui up to 0.7.2. This impacts the function validateAccess of the file /api/smartfilters/testexecutions of the component Endpoint. The manipulation leads to code injection. The attack can be initiated remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.
@@ -673,6 +749,13 @@
 </code>
 
 - [flyingllama87/p4wned](https://github.com/flyingllama87/p4wned)
+
+### CVE-2026-6060 (2026-04-20)
+
+<code>A vulnerability in the SQL Box in the admin interface of OTRS leads to an uncontrolled resource consumption leading to a DoS against the webserver. will be killed by the systemThis issue affects OTRS: \n\n  *  7.0.X\n  *  8.0.X\n  *  2023.X\n  *  2024.X\n  *  2025.X\n  *  2026.X before 2026.3.X
+</code>
+
+- [George0Papasotiriou/CVE-2026-6060-QUIC-Handshake-Amplification-via-Address-Validation-Bypass](https://github.com/George0Papasotiriou/CVE-2026-6060-QUIC-Handshake-Amplification-via-Address-Validation-Bypass)
 
 ### CVE-2026-6130 (2026-04-12)
 
@@ -748,12 +831,22 @@
 
 - [jackalkarlos/EvilAhenk](https://github.com/jackalkarlos/EvilAhenk)
 
+### CVE-2026-6666 (2026-05-09)
+
+<code>A possible null pointer reference in PgBouncer before 1.25.2 could lead to a crash, if a server sends an error response without SQLSTATE field.
+</code>
+
+- [George0Papasotiriou/CVE-2026-6666-XPC-Service-NSKeyedUnarchiver-Deserialization-Attack-macOS-iOS-simulation-](https://github.com/George0Papasotiriou/CVE-2026-6666-XPC-Service-NSKeyedUnarchiver-Deserialization-Attack-macOS-iOS-simulation-)
+
 ### CVE-2026-6741 (2026-04-27)
 
 <code>The LatePoint – Calendar Booking Plugin for Appointments and Events plugin for WordPress is vulnerable to Privilege Escalation in versions up to and including 5.4.1. This is due to a missing authorization check in the execute() method of the connect-customer-to-wp-user ability, which only requires the customer__edit capability granted to the latepoint_agent role by default, without verifying whether the target WordPress user ID belongs to a privileged account. This makes it possible for authenticated attackers with the latepoint_agent role to link any LatePoint customer record to an administrator's WordPress account and subsequently reset the administrator's password via the normal customer password-reset flow, resulting in full site takeover.
 </code>
 
 - [xxconi/CVE-2026-6741](https://github.com/xxconi/CVE-2026-6741)
+
+### CVE-2026-6789
+- [George0Papasotiriou/CVE-2026-6789-Stack-Buffer-Overflow-in-Embedded-TLS-Certificate-Parser](https://github.com/George0Papasotiriou/CVE-2026-6789-Stack-Buffer-Overflow-in-Embedded-TLS-Certificate-Parser)
 
 ### CVE-2026-6815 (2026-05-11)
 
@@ -790,6 +883,13 @@
 </code>
 
 - [nicholas-howland/CVE-2026-6992-PoC](https://github.com/nicholas-howland/CVE-2026-6992-PoC)
+
+### CVE-2026-7070 (2026-04-27)
+
+<code>A weakness has been identified in code-projects Inventory Management System 1.0. Affected is an unknown function of the component Login. Executing a manipulation of the argument Username can lead to sql injection. The attack may be launched remotely. The exploit has been made available to the public and could be used for attacks.
+</code>
+
+- [George0Papasotiriou/CVE-2026-7070-RDP-Clipboard-Hijacking-via-Virtual-Channel-Injection](https://github.com/George0Papasotiriou/CVE-2026-7070-RDP-Clipboard-Hijacking-via-Virtual-Channel-Injection)
 
 ### CVE-2026-7228 (2026-04-28)
 
@@ -873,6 +973,9 @@
 
 - [anirudhmakkar/cve-2026-7665](https://github.com/anirudhmakkar/cve-2026-7665)
 
+### CVE-2026-7777
+- [George0Papasotiriou/CVE-2026-7777-Rust-Use-After-Free-in-Unsafe-Web-Server](https://github.com/George0Papasotiriou/CVE-2026-7777-Rust-Use-After-Free-in-Unsafe-Web-Server)
+
 ### CVE-2026-7791 (2026-05-04)
 
 <code>Improper privilege management in the log rotation mechanism of the Skylight Workspace Config Service in Amazon WorkSpaces for Windows before 2.6.2034.0 allows a local non-admin authenticated user to place arbitrary files into arbitrary locations bypassing file system permission protections, leading to local privilege escalation to SYSTEM.
@@ -884,7 +987,7 @@
 - [azqzazq1/CVE-2026-7867-disk2root](https://github.com/azqzazq1/CVE-2026-7867-disk2root)
 
 ### CVE-2026-7878
-- [George0Papasotiriou/6.-CVE-2026-7878-eBPF-Verifier-Type-Confusion-Kernel-Memory-Read-Write](https://github.com/George0Papasotiriou/6.-CVE-2026-7878-eBPF-Verifier-Type-Confusion-Kernel-Memory-Read-Write)
+- [George0Papasotiriou/CVE-2026-7878-eBPF-Verifier-Type-Confusion-Kernel-Memory-Read-Write](https://github.com/George0Papasotiriou/CVE-2026-7878-eBPF-Verifier-Type-Confusion-Kernel-Memory-Read-Write)
 
 ### CVE-2026-8023 (2026-06-29)
 
@@ -914,6 +1017,13 @@
 </code>
 
 - [Mr-xn/CVE-2026-8054](https://github.com/Mr-xn/CVE-2026-8054)
+
+### CVE-2026-8080 (2026-05-07)
+
+<code>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in misp allows Stored XSS.\n\n\n\n\n\n\nThis issue affects MISP before 2.5.37.\n\n\n\n\nA stored cross-site scripting vulnerability exists in the template element attribute handling logic. The application accepted arbitrary values for the TemplateElementAttribute type and category fields without validating them against the known MISP attribute type and category definitions. An attacker with permission to create or modify template element attributes could store a crafted type value.\n\n\nThis affects the old templating (not more accessible in 2.5.37) engine from MISP which will be removed in 2.5.38
+</code>
+
+- [George0Papasotiriou/CVE-2026-8080-DKIM-Signature-Verification-Bypass-Header-Canonicalization-Flaw-](https://github.com/George0Papasotiriou/CVE-2026-8080-DKIM-Signature-Verification-Bypass-Header-Canonicalization-Flaw-)
 
 ### CVE-2026-8181 (2026-05-14)
 
@@ -1081,6 +1191,13 @@
 
 - [0xbekoo/CVE-2026-8863](https://github.com/0xbekoo/CVE-2026-8863)
 
+### CVE-2026-8888 (2026-06-03)
+
+<code>Version 3.0.7 of the Securly Chrome Extension downloads config.json over HTTP and compiles server-provided patterns as JavaScript regular expressions via new RegExp() without complexity validation. An on-path attacker can inject specific patterns to cause catastrophic backtracking, resulting in denial of service on all browsing.
+</code>
+
+- [George0Papasotiriou/CVE-2026-8888-Printer-Firmware-Unsigned-Update-via-HTTP](https://github.com/George0Papasotiriou/CVE-2026-8888-Printer-Firmware-Unsigned-Update-via-HTTP)
+
 ### CVE-2026-8932 (2026-07-03)
 
 <code>libcurl would reuse a previously created connection even when some mTLS config\nrelated option had been changed that should have prohibited reuse.\n\nlibcurl keeps previously used connections in a connection pool for subsequent\ntransfers to reuse if one of them matches the setup. However, some TLS\nsettings related to client certificates were left out from the configuration\nmatch checks, making them match too easily. In particular options related to\nthe private key.
@@ -1118,6 +1235,13 @@
 - [thinhap/CVE-2026-9082-PoC](https://github.com/thinhap/CVE-2026-9082-PoC)
 - [11romain/CVE-2026-9082](https://github.com/11romain/CVE-2026-9082)
 - [sourcecode347/CVE-2026-9082-Mass_Scanner](https://github.com/sourcecode347/CVE-2026-9082-Mass_Scanner)
+
+### CVE-2026-9090 (2026-05-28)
+
+<code>Casdoor versions 2.362.0 and earlier contain a vulnerability that allows an attacker to bypass authentication by supplying an arbitrary signing certificate. The buildSpCertificateStore function extracts the X.509 certificate directly from the incoming SAMLResponse instead of using the trusted pre-configured Identity Provider certificate, allowing an attacker to forge assertions signed with an attacker-controlled key.
+</code>
+
+- [George0Papasotiriou/CVE-2026-9090-Modbus-TCP-Write-to-Read-Only-Coils-via-Function-Code-Spoofing](https://github.com/George0Papasotiriou/CVE-2026-9090-Modbus-TCP-Write-to-Read-Only-Coils-via-Function-Code-Spoofing)
 
 ### CVE-2026-9198 (2026-07-17)
 
@@ -1235,6 +1359,20 @@
 </code>
 
 - [jaf0rk/CVE-2026-9973-exploit](https://github.com/jaf0rk/CVE-2026-9973-exploit)
+
+### CVE-2026-9997 (2026-05-28)
+
+<code>Use after free in Input in Google Chrome prior to 148.0.7778.216 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [George0Papasotiriou/CVE-2026-9997-VPN-Split-Tunneling-Bypass-via-DHCP-Option-Injection](https://github.com/George0Papasotiriou/CVE-2026-9997-VPN-Split-Tunneling-Bypass-via-DHCP-Option-Injection)
+
+### CVE-2026-9998 (2026-05-28)
+
+<code>Integer overflow in Skia in Google Chrome prior to 148.0.7778.216 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [George0Papasotiriou/CVE-2026-9998-Insecure-Deserialization-in-Blockchain-Oracle](https://github.com/George0Papasotiriou/CVE-2026-9998-Insecure-Deserialization-in-Blockchain-Oracle)
 
 ### CVE-2026-9999 (2026-05-28)
 
@@ -1514,6 +1652,13 @@
 
 - [0xBlackash/CVE-2026-12485](https://github.com/0xBlackash/CVE-2026-12485)
 
+### CVE-2026-12940 (2026-07-30)
+
+<code>IBM Langflow OSS 1.0.0 through 1.10.1  are vulnerable to unauthenticated remote code execution via environment variable injection in the MCP (Model Context Protocol) stdio launcher. The vulnerability exists in src/lfx/src/lfx/base/mcp/util.py where the DANGEROUS_ENV_VARS blocklist fails to include SHELLOPTS , BASHOPTS , and PS4 environment variables.
+</code>
+
+- [BiiTts/CVE-2026-12940-Langflow-Unauth-RCE](https://github.com/BiiTts/CVE-2026-12940-Langflow-Unauth-RCE)
+
 ### CVE-2026-12960 (2026-07-03)
 
 <code>An Improper Export of Android Application Components vulnerability in ASUS Router App allows a third-party application on the same device to send a crafted Intent that causes ASUS Router App to open an specified URL.\nRefer to the '\nSecurity Update for ASUS Router Android App ' section on the ASUS Security Advisory for more information.
@@ -1772,6 +1917,9 @@
 - [EQSTLab/CVE-2026-16723](https://github.com/EQSTLab/CVE-2026-16723)
 - [1xPwn/CVE-2026-16723](https://github.com/1xPwn/CVE-2026-16723)
 - [fazilbaig1/CVE-2026-16723](https://github.com/fazilbaig1/CVE-2026-16723)
+
+### CVE-2026-17001
+- [llaytynher/CVE-2026-17001](https://github.com/llaytynher/CVE-2026-17001)
 
 ### CVE-2026-17351 (2026-07-31)
 
@@ -3074,6 +3222,7 @@
 </code>
 
 - [garlic-wizard/CVE-2026-33937-for-DarkZeroReturns](https://github.com/garlic-wizard/CVE-2026-33937-for-DarkZeroReturns)
+- [c0gnit00/CVE-2026-33937](https://github.com/c0gnit00/CVE-2026-33937)
 
 ### CVE-2026-34038 (2026-07-06)
 
@@ -3664,6 +3813,7 @@
 - [gbuyssens/CVE-2026-39987](https://github.com/gbuyssens/CVE-2026-39987)
 - [jasonbernier/CVE-2026-39987](https://github.com/jasonbernier/CVE-2026-39987)
 - [vanhari/CVE-2026-39987](https://github.com/vanhari/CVE-2026-39987)
+- [Wind010/CVE-2026-39987_PoC](https://github.com/Wind010/CVE-2026-39987_PoC)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -4394,6 +4544,9 @@
 </code>
 
 - [ZemarKhos/CVE-2026-44403-WingFTP-v8.1.2-POC-Exploit](https://github.com/ZemarKhos/CVE-2026-44403-WingFTP-v8.1.2-POC-Exploit)
+
+### CVE-2026-44438
+- [llaytynher/CVE-2026-44438](https://github.com/llaytynher/CVE-2026-44438)
 
 ### CVE-2026-44578 (2026-05-13)
 
@@ -5766,6 +5919,13 @@
 
 - [v3s9er/CVE-2026-52885](https://github.com/v3s9er/CVE-2026-52885)
 
+### CVE-2026-52887 (2026-07-15)
+
+<code>NocoBase is an AI-powered no-code/low-code platform for building business applications and enterprise solutions. Prior to 2.0.61, NocoBase @nocobase/plugin-notification-in-app-message exposed GET /api/myInAppChannels:list, where the filter[latestMsgReceiveTimestamp][$lt] value was inserted into a Sequelize.literal() template string without escaping or parameter binding, allowing a signed-up authenticated user to run stacked PostgreSQL statements and potentially execute commands with COPY ... TO PROGRAM. This vulnerability is fixed in 2.0.61.
+</code>
+
+- [BiiTts/CVE-2026-52887-NocoBase-SQLi-RCE](https://github.com/BiiTts/CVE-2026-52887-NocoBase-SQLi-RCE)
+
 ### CVE-2026-52910 (2026-06-19)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Free reuseport cBPF prog after RCU grace period.\n\nEulgyu Kim reported the splat below with a repro. [0]\n\nThe repro sets up a UDP reuseport group with a cBPF prog and\nreplaces it with a new one while another thread is sending\na UDP packet to the group.\n\nThe reuseport prog is freed by sk_reuseport_prog_free().\nbpf_prog_put() is called for &quot;e&quot;BPF prog to destruct through\nmultiple stages while cBPF prog is freed immediately by\nbpf_release_orig_filter() and bpf_prog_free().\n\nIf a reuseport prog is detached from the setsockopt() path\n(reuseport_attach_prog() or reuseport_detach_prog()),\nsk_reuseport_prog_free() is called without waiting for RCU\nreaders to complete, resulting in various bugs.\n\nLet's defer freeing the reuseport cBPF prog after one RCU\ngrace period.\n\nNote &quot;e&quot;BPF prog is safe as is unless the fast path starts\nto touch fields destroyed in bpf_prog_put_deferred() and\n__bpf_prog_put_noref().\n\n[0]:\nBUG: KASAN: vmalloc-out-of-bounds in reuseport_select_sock+0xedc/0x1220 net/core/sock_reuseport.c:596\nRead of size 4 at addr ffffc9000051e004 by task slowme/10208\nCPU: 6 UID: 1000 PID: 10208 Comm: slowme Not tainted 7.0.0-geb7ac95ff75e #32 PREEMPT(full)\nHardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014\nCall Trace:\n &lt;IRQ&gt;\n dump_stack_lvl+0xe8/0x150 lib/dump_stack.c:120\n print_address_description mm/kasan/report.c:378 [inline]\n print_report+0xca/0x240 mm/kasan/report.c:482\n kasan_report+0x118/0x150 mm/kasan/report.c:595\n reuseport_select_sock+0xedc/0x1220 net/core/sock_reuseport.c:596\n udp4_lib_lookup2+0x3bc/0x950 net/ipv4/udp.c:495\n __udp4_lib_lookup+0x768/0xe20 net/ipv4/udp.c:723\n __udp4_lib_lookup_skb+0x297/0x390 net/ipv4/udp.c:752\n __udp4_lib_rcv+0x1312/0x2620 net/ipv4/udp.c:2752\n ip_protocol_deliver_rcu+0x282/0x440 net/ipv4/ip_input.c:207\n ip_local_deliver_finish+0x3bb/0x6f0 net/ipv4/ip_input.c:241\n NF_HOOK+0x30c/0x3a0 include/linux/netfilter.h:318\n NF_HOOK+0x30c/0x3a0 include/linux/netfilter.h:318\n __netif_receive_skb_one_core net/core/dev.c:6181 [inline]\n __netif_receive_skb net/core/dev.c:6294 [inline]\n process_backlog+0xaa4/0x1960 net/core/dev.c:6645\n __napi_poll+0xae/0x340 net/core/dev.c:7709\n napi_poll net/core/dev.c:7772 [inline]\n net_rx_action+0x5d7/0xf50 net/core/dev.c:7929\n handle_softirqs+0x22b/0x870 kernel/softirq.c:622\n do_softirq+0x76/0xd0 kernel/softirq.c:523\n &lt;/IRQ&gt;\n &lt;TASK&gt;\n __local_bh_enable_ip+0xf8/0x130 kernel/softirq.c:450\n local_bh_enable include/linux/bottom_half.h:33 [inline]\n rcu_read_unlock_bh include/linux/rcupdate.h:924 [inline]\n __dev_queue_xmit+0x1dd7/0x3710 net/core/dev.c:4890\n neigh_output include/net/neighbour.h:556 [inline]\n ip_finish_output2+0xca9/0x1070 net/ipv4/ip_output.c:237\n NF_HOOK_COND include/linux/netfilter.h:307 [inline]\n ip_output+0x29f/0x450 net/ipv4/ip_output.c:438\n ip_send_skb+0x45/0xc0 net/ipv4/ip_output.c:1508\n udp_send_skb+0xb04/0x1510 net/ipv4/udp.c:1195\n udp_sendmsg+0x1a71/0x2350 net/ipv4/udp.c:1485\n sock_sendmsg_nosec net/socket.c:727 [inline]\n __sock_sendmsg net/socket.c:742 [inline]\n __sys_sendto+0x554/0x680 net/socket.c:2206\n __do_sys_sendto net/socket.c:2213 [inline]\n __se_sys_sendto net/socket.c:2209 [inline]\n __x64_sys_sendto+0xde/0x100 net/socket.c:2209\n do_syscall_x64 arch/x86/entry/syscall_64.c:63 [inline]\n do_syscall_64+0x160/0xf80 arch/x86/entry/syscall_64.c:94\n entry_SYSCALL_64_after_hwframe+0x77/0x7f\nRIP: 0033:0x415a2d\nCode: b3 66 2e 0f 1f 84 00 00 00 00 00 66 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 &lt;48&gt; 3d 01 f0 ff ff 73 01 c3 48 c7 c1 b8 ff ff ff f7 d8 64 89 01 48\nRSP: 002b:00007f6bc31e41e8 EFLAGS: 00000212 ORIG_RAX: 000000000000002c\nRAX: ffffffffffffffda RBX: 00007f6bc31e4cdc RCX: 0000000000415a2d\nRDX: 0000000000000001 RSI: 00007f6bc31e421f RDI: 0000000000000003\nRBP: 00007f6bc31e4240 R08: 00007f6bc31e4220 R09: 0000000000000010\nR10: 0000000000000000 R11: \n---truncated---
@@ -6539,6 +6699,13 @@
 </code>
 
 - [unveiledhistory49/teamcity-cve-2026-63077-remediation](https://github.com/unveiledhistory49/teamcity-cve-2026-63077-remediation)
+
+### CVE-2026-63223 (2026-07-31)
+
+<code>CodeIgniter is a PHP full-stack web framework. Prior to 4.7.4, the is_image and mime_in upload validation rules do not independently enforce a safe client filename extension, allowing a remote attacker to upload executable content when an application preserves the client filename and stores uploads in a web-accessible script-enabled directory. Applications are impacted when they validate uploads using is_image or mime_in without an independent safe extension check (such as ext_in on patched versions), save uploaded files using the client-supplied filename, and place uploads in a web-accessible directory where PHP files can execute. This issue is fixed in version 4.7.4.
+</code>
+
+- [imbas007/CVE-2026-63223-POC](https://github.com/imbas007/CVE-2026-63223-POC)
 
 ### CVE-2026-63563
 - [redr0nin/CVE-2026-63563](https://github.com/redr0nin/CVE-2026-63563)
@@ -9840,13 +10007,6 @@
 
 - [InfoSecAntara/CVE-2025-14765-and-CVE-2025-14766](https://github.com/InfoSecAntara/CVE-2025-14765-and-CVE-2025-14766)
 
-### CVE-2025-14783 (2025-12-31)
-
-<code>The Easy Digital Downloads plugin for WordPress is vulnerable to Unvalidated Redirect in all versions up to, and including, 3.6.2. This is due to insufficient validation on the redirect url supplied via the 'edd_redirect' parameter. This makes it possible for unauthenticated attackers to redirect users with the password reset email to potentially malicious sites if they can successfully trick them into performing an action.
-</code>
-
-- [ZeroEthical/CVE-2025-14783-POC](https://github.com/ZeroEthical/CVE-2025-14783-POC)
-
 ### CVE-2025-14847 (2025-12-19)
 
 <code>Mismatched length fields in Zlib compressed protocol headers may allow a read of uninitialized heap memory by an unauthenticated client. This issue affects all MongoDB Server v7.0 prior to 7.0.28 versions, MongoDB Server v8.0 versions prior to 8.0.17, MongoDB Server v8.2 versions prior to 8.2.3, MongoDB Server v6.0 versions prior to 6.0.27, MongoDB Server v5.0 versions prior to 5.0.32, MongoDB Server v4.4 versions prior to 4.4.30, MongoDB Server v4.2 versions greater than or equal to 4.2.0, MongoDB Server v4.0 versions greater than or equal to 4.0.0, and MongoDB Server v3.6 versions greater than or equal to 3.6.0.
@@ -11821,13 +11981,13 @@
 - [m2hcz/PoC-for-Next.js-Middleware](https://github.com/m2hcz/PoC-for-Next.js-Middleware)
 - [nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner)
 - [yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo)
-- [luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware)
 - [AnonKryptiQuz/NextSploit](https://github.com/AnonKryptiQuz/NextSploit)
 - [w2hcorp/CVE-2025-29927-PoC](https://github.com/w2hcorp/CVE-2025-29927-PoC)
 - [ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927](https://github.com/ferpalma21/Automated-Next.js-Security-Scanner-for-CVE-2025-29927)
 - [dante01yoon/CVE-2025-29927](https://github.com/dante01yoon/CVE-2025-29927)
 - [ayato-shitomi/WebLab_CVE-2025-29927](https://github.com/ayato-shitomi/WebLab_CVE-2025-29927)
 - [Kamal-418/Vulnerable-Lab-NextJS-CVE-2025-29927](https://github.com/Kamal-418/Vulnerable-Lab-NextJS-CVE-2025-29927)
+- [Ev3rPalestine/0xMiddleware](https://github.com/Ev3rPalestine/0xMiddleware)
 - [dedibagus/cve-2025-29927-poc](https://github.com/dedibagus/cve-2025-29927-poc)
 - [alastair66/CVE-2025-29927](https://github.com/alastair66/CVE-2025-29927)
 - [0xb1lal/CVE-2025-29927](https://github.com/0xb1lal/CVE-2025-29927)
@@ -11895,6 +12055,7 @@
 - [gitgudKrish/cve-2025-29927-nextjs](https://github.com/gitgudKrish/cve-2025-29927-nextjs)
 - [SwapnilDeshpande/cve-2025-29927-lab](https://github.com/SwapnilDeshpande/cve-2025-29927-lab)
 - [Fomovet/cve-2025-29927](https://github.com/Fomovet/cve-2025-29927)
+- [berraesen/nextjs-middleware-auth-bypass-lab](https://github.com/berraesen/nextjs-middleware-auth-bypass-lab)
 
 ### CVE-2025-29943 (2026-01-16)
 
@@ -31911,7 +32072,7 @@
 - [IlanDudnik/CVE-2023-21768](https://github.com/IlanDudnik/CVE-2023-21768)
 - [radoi-teodor/CVE-2023-21768-DSE-Bypass](https://github.com/radoi-teodor/CVE-2023-21768-DSE-Bypass)
 - [Feede33/Windows-11-Exploit](https://github.com/Feede33/Windows-11-Exploit)
-- [r4uzn/CVE-2023-21768](https://github.com/r4uzn/CVE-2023-21768)
+- [leandrofleury/CVE-2023-21768](https://github.com/leandrofleury/CVE-2023-21768)
 
 ### CVE-2023-21817 (2023-02-14)
 
@@ -37423,7 +37584,6 @@
 - [ladyg00se/CVE-2023-45866_WIP](https://github.com/ladyg00se/CVE-2023-45866_WIP)
 - [Sergeb250/BlueDucky](https://github.com/Sergeb250/BlueDucky)
 - [hegaz0y/-BuL](https://github.com/hegaz0y/-BuL)
-- [0xBADACTOR/CVE-2023-45866](https://github.com/0xBADACTOR/CVE-2023-45866)
 
 ### CVE-2023-45878 (2023-11-14)
 
@@ -72643,6 +72803,7 @@
 - [R3fr4kt/Shocker-TJNULL-OSCP-](https://github.com/R3fr4kt/Shocker-TJNULL-OSCP-)
 - [cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report](https://github.com/cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report)
 - [caverm/Shellshock_CVE-2014-6271](https://github.com/caverm/Shellshock_CVE-2014-6271)
+- [FREEGUY-6/dmz-security-monitoring-hardening](https://github.com/FREEGUY-6/dmz-security-monitoring-hardening)
 
 ### CVE-2014-6287 (2014-10-07)
 
