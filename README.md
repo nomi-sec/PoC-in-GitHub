@@ -1353,6 +1353,13 @@
 
 - [aj2108/CVE-2026-9833](https://github.com/aj2108/CVE-2026-9833)
 
+### CVE-2026-9848 (2026-06-13)
+
+<code>The WP Ticket plugin for WordPress is vulnerable to SQL Injection via the WordPress search query parameter (`s`) in versions up to, and including, 6.0.4 The plugin hooks WordPress's `posts_request` filter with `wp_ticket_com_posts_request()`, which calls `emd_author_search_results()` when the current request is an unauthenticated front-end search. That function reads `$query-&gt;query_vars['s']` — already wp_unslash()'d by `WP_Query::parse_query()`, so wp_magic_quotes protection has been stripped — and concatenates the raw value into a SQL `LIKE` clause inside a UNION sub-SELECT appended to the main query, with no `$wpdb-&gt;prepare()` or escaping. This makes it possible for unauthenticated attackers to append additional SQL queries into already-existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [aj2108/CVE-2026-9848](https://github.com/aj2108/CVE-2026-9848)
+
 ### CVE-2026-9973 (2026-05-28)
 
 <code>Out of bounds write in V8 in Google Chrome prior to 148.0.7778.216 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)
@@ -1917,6 +1924,7 @@
 - [EQSTLab/CVE-2026-16723](https://github.com/EQSTLab/CVE-2026-16723)
 - [1xPwn/CVE-2026-16723](https://github.com/1xPwn/CVE-2026-16723)
 - [fazilbaig1/CVE-2026-16723](https://github.com/fazilbaig1/CVE-2026-16723)
+- [xiaoqiMikko/fastjson-check](https://github.com/xiaoqiMikko/fastjson-check)
 
 ### CVE-2026-17001
 - [llaytynher/CVE-2026-17001](https://github.com/llaytynher/CVE-2026-17001)
@@ -1927,6 +1935,9 @@
 </code>
 
 - [Hunt-Benito/pgadmin-ai-assistant-sql-injection-cve-2026-17351-lexer-differential-bypass](https://github.com/Hunt-Benito/pgadmin-ai-assistant-sql-injection-cve-2026-17351-lexer-differential-bypass)
+
+### CVE-2026-17583
+- [HORKimhab/CVE-2026-17583](https://github.com/HORKimhab/CVE-2026-17583)
 
 ### CVE-2026-18220 (2026-07-29)
 
@@ -3091,6 +3102,13 @@
 </code>
 
 - [MonkeySeC-sys/Kangaroo](https://github.com/MonkeySeC-sys/Kangaroo)
+
+### CVE-2026-32941 (2026-03-20)
+
+<code>Sliver is a command and control framework that uses a custom Wireguard netstack. Versions 1.7.3 and below contain a Remote OOM (Out-of-Memory) vulnerability in the Sliver C2 server's mTLS and WireGuard C2 transport layer. The socketReadEnvelope and socketWGReadEnvelope functions trust an attacker-controlled 4-byte length prefix to allocate memory, with ServerMaxMessageSize allowing single allocations of up to ~2 GiB. A compromised implant or an attacker with valid credentials can exploit this by sending fabricated length prefixes over concurrent yamux streams (up to 128 per connection), forcing the server to attempt allocating ~256 GiB of memory and triggering an OS OOM kill. This crashes the Sliver server, disrupts all active implant sessions, and may degrade or kill other processes sharing the same host. The same pattern also affects all implant-side readers, which have no upper-bound check at all. The issue was not fixed at the the time of publication.
+</code>
+
+- [skoveit/CVE-2026-32941](https://github.com/skoveit/CVE-2026-32941)
 
 ### CVE-2026-33017 (2026-03-20)
 
@@ -4452,6 +4470,13 @@
 
 - [covepseng/cve-2026-43515-poc](https://github.com/covepseng/cve-2026-43515-poc)
 
+### CVE-2026-43637 (2026-07-15)
+
+<code>Cornac before 2.6.0 contains a path traversal (Tar Slip) vulnerability that allows attackers to write arbitrary files outside the intended cache directory by supplying a crafted TAR archive containing ../ sequences, absolute paths, or symlink/hardlink entries to the _extract_archive() function in cornac/utils/download.py. Attackers can trigger this vulnerability through the built-in dataset loaders, which automatically download and extract archives, causing archive.extractall() to write files to arbitrary locations on the filesystem accessible to the running process.
+</code>
+
+- [rahulreddykarne/CVE-2026-43637-cornac](https://github.com/rahulreddykarne/CVE-2026-43637-cornac)
+
 ### CVE-2026-43655 (2026-05-11)
 
 <code>An out-of-bounds read was addressed with improved bounds checking. This issue is fixed in iOS 26.5 and iPadOS 26.5, macOS Tahoe 26.5, tvOS 26.5, watchOS 26.5. An app may be able to cause unexpected system termination or read kernel memory.
@@ -4665,7 +4690,6 @@
 <code>Exim before 4.99.3, in certain GnuTLS configurations, has a remotely reachable use-after-free in the BDAT body parsing path. It is triggered when a client sends a TLS close_notify mid-body during a CHUNKING transfer, followed by a final cleartext byte on the same TCP connection. This can lead to heap corruption. An unauthenticated network attacker exploiting this vulnerability could execute arbitrary code.
 </code>
 
-- [liamromanis101/Dead.Letter-CVE-2026-45185](https://github.com/liamromanis101/Dead.Letter-CVE-2026-45185)
 - [materaj2/cve-2026-45185-detection-script](https://github.com/materaj2/cve-2026-45185-detection-script)
 - [MJ-bin/POC_CVE-2026-45185](https://github.com/MJ-bin/POC_CVE-2026-45185)
 
@@ -6549,6 +6573,8 @@
 - [HORKimhab/CVE-2026-60004](https://github.com/HORKimhab/CVE-2026-60004)
 - [EQSTLab/CVE-2026-60004](https://github.com/EQSTLab/CVE-2026-60004)
 - [0xBlackash/CVE-2026-60004](https://github.com/0xBlackash/CVE-2026-60004)
+- [imbas007/CVE-2026-60004-POC](https://github.com/imbas007/CVE-2026-60004-POC)
+- [shinthink/CVE-2026-60004](https://github.com/shinthink/CVE-2026-60004)
 
 ### CVE-2026-60121 (2026-07-13)
 
@@ -6570,6 +6596,7 @@
 - [northsia/CVE-2026-60137-With-Skip-SSL](https://github.com/northsia/CVE-2026-60137-With-Skip-SSL)
 - [Dungsocool/CVE-2026-60137_CVE-2026-63030](https://github.com/Dungsocool/CVE-2026-60137_CVE-2026-63030)
 - [michael-kanda/Wp2shell-ioc-scanner](https://github.com/michael-kanda/Wp2shell-ioc-scanner)
+- [AdarshThakur14777-cyber/CVE-2026-60137](https://github.com/AdarshThakur14777-cyber/CVE-2026-60137)
 
 ### CVE-2026-60206 (2026-07-21)
 
@@ -6692,6 +6719,7 @@
 - [yuag/wp2shell](https://github.com/yuag/wp2shell)
 - [BytesPulse-OE/wp2shell-Hestia-Scanner](https://github.com/BytesPulse-OE/wp2shell-Hestia-Scanner)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-63030-WP2Shell](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-63030-WP2Shell)
+- [Procjevt/CVE-2026-63030](https://github.com/Procjevt/CVE-2026-63030)
 
 ### CVE-2026-63077 (2026-07-27)
 
@@ -6707,8 +6735,19 @@
 
 - [imbas007/CVE-2026-63223-POC](https://github.com/imbas007/CVE-2026-63223-POC)
 
-### CVE-2026-63563
+### CVE-2026-63563 (2026-08-03)
+
+<code>Sharp and Toshiba Tec MFPs (multifunction printers) for a certain market have been shipped with the user authentication feature disabled in the initial configuration. When used with the initial configuration, the address book editing and a range of features related to Document Filing can be accessed without user authentication.\r\nProducts intended for the Japanese market are not affected.
+</code>
+
 - [redr0nin/CVE-2026-63563](https://github.com/redr0nin/CVE-2026-63563)
+
+### CVE-2026-63720 (2026-07-26)
+
+<code>datamodel-code-generator prior to version 0.70.0 contains a code injection vulnerability that allows attackers who control input schemas to achieve remote code execution by supplying a malicious customBasePath value containing embedded newlines and a dot-free Python expression. The crafted value is emitted verbatim into a generated 'from ... import ...' statement without identifier validation, causing arbitrary Python code to execute when the generated module is imported.
+</code>
+
+- [rahulreddykarne/CVE-2026-63720-datamodel-code-generator](https://github.com/rahulreddykarne/CVE-2026-63720-datamodel-code-generator)
 
 ### CVE-2026-63766 (2026-07-20)
 
@@ -6725,6 +6764,13 @@
 - [suominen/ovswrap](https://github.com/suominen/ovswrap)
 - [mahfuzreham/OVSwrap-CVE-2026-64531-Mitigation-Tool](https://github.com/mahfuzreham/OVSwrap-CVE-2026-64531-Mitigation-Tool)
 - [0xBlackash/CVE-2026-64531](https://github.com/0xBlackash/CVE-2026-64531)
+- [HackSpeak/ovswrap-poc](https://github.com/HackSpeak/ovswrap-poc)
+
+### CVE-2026-64560 (2026-07-29)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nposix-cpu-timers: Prevent UAF caused by non-leader exec() race\n\nWongi and Jungwoo decoded and reported a non-leader exec() related race\nwhich can result in an UAF:\n\n sys_timer_delete()</code>
+
+- [villager1314/CVE-2026-64560-Analysis](https://github.com/villager1314/CVE-2026-64560-Analysis)
 
 ### CVE-2026-64600 (2026-07-23)
 
@@ -6752,6 +6798,13 @@
 </code>
 
 - [zer0dayf/CVE-2026-65008](https://github.com/zer0dayf/CVE-2026-65008)
+
+### CVE-2026-65321 (2026-08-02)
+
+<code>PyAthena prior to 3.35.4 contains a sql injection vulnerability that allows unauthenticated attackers to inject arbitrary SQL by exploiting improper quote-escaping in DefaultParameterFormatter.format(), which routes DELETE and CTAS statements to the _escape_hive function that backslash-escapes single quotes rather than doubling them. Because Athena and Trino do not treat backslashes as escape characters inside string literals, attacker-supplied input such as a single quote followed by SQL syntax causes the parser to terminate the string literal prematurely, enabling data exfiltration via UNION SELECT, execution of destructive statements, and attacker-controlled CTAS destination and content.
+</code>
+
+- [rahulreddykarne/CVE-2026-65321-pyathena](https://github.com/rahulreddykarne/CVE-2026-65321-pyathena)
 
 ### CVE-2026-65650 (2026-07-22)
 
@@ -6809,6 +6862,7 @@
 - [Zer0SumGam3/CVE-2026-66066-POC](https://github.com/Zer0SumGam3/CVE-2026-66066-POC)
 - [rails/rails-forensics-CVE-2026-66066](https://github.com/rails/rails-forensics-CVE-2026-66066)
 - [0xsha/KindaRails2Shell](https://github.com/0xsha/KindaRails2Shell)
+- [HackSpeak/kindarails2shell-poc](https://github.com/HackSpeak/kindarails2shell-poc)
 
 ### CVE-2026-66374 (2026-07-25)
 
@@ -15802,7 +15856,6 @@
 - [xiaoLvChen/CVE-2025-55182](https://github.com/xiaoLvChen/CVE-2025-55182)
 - [captain4554/CVE-2025-55182-Scanner](https://github.com/captain4554/CVE-2025-55182-Scanner)
 - [captain4554/captain4554.github.io](https://github.com/captain4554/captain4554.github.io)
-- [ghostn4444/CVE-2025-55182](https://github.com/ghostn4444/CVE-2025-55182)
 - [HackIndex-io/React2Shell-CVE-2025-55182](https://github.com/HackIndex-io/React2Shell-CVE-2025-55182)
 - [rahuulmiishra/react2shell-CVE-2025-55182](https://github.com/rahuulmiishra/react2shell-CVE-2025-55182)
 - [m3ngx1ng/CVE-2025-55182-GUI](https://github.com/m3ngx1ng/CVE-2025-55182-GUI)
@@ -18839,6 +18892,13 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-BMC-Footprints-RCE-CVE-2025-71257-CVE-2025-71260](https://github.com/watchtowrlabs/watchTowr-vs-BMC-Footprints-RCE-CVE-2025-71257-CVE-2025-71260)
+
+### CVE-2025-71338 (2026-06-25)
+
+<code>Flowise contains a path traversal vulnerability in the /api/v1/document-store/loader/process endpoint that allows unauthenticated attackers to write arbitrary files to the filesystem. Attackers can exploit unsanitized fileName parameters with ../ sequences to overwrite critical files like package.json and achieve remote code execution when the application restarts.
+</code>
+
+- [majpuV/flowise-arbitrary-file-read-getFileFromStorage](https://github.com/majpuV/flowise-arbitrary-file-read-getFileFromStorage)
 
 ### CVE-2025-71384
 - [Scorpion-Security-Labs/CVE-2025-71384](https://github.com/Scorpion-Security-Labs/CVE-2025-71384)
@@ -22691,7 +22751,7 @@
 - [0x13-ByteZer0/CVE-2024-21762](https://github.com/0x13-ByteZer0/CVE-2024-21762)
 - [0x0asif/CVE-2024-21762](https://github.com/0x0asif/CVE-2024-21762)
 - [Sxmpl3/CVE-2024-21762-Safe-Check](https://github.com/Sxmpl3/CVE-2024-21762-Safe-Check)
-- [belky-me/vamp-forticheck](https://github.com/belky-me/vamp-forticheck)
+- [Vampsecure-Labs/vamp-forticheck](https://github.com/Vampsecure-Labs/vamp-forticheck)
 
 ### CVE-2024-21793 (2024-05-08)
 
@@ -33329,7 +33389,7 @@
 - [delsploit/CVE-2023-27997](https://github.com/delsploit/CVE-2023-27997)
 - [node011/CVE-2023-27997-POC](https://github.com/node011/CVE-2023-27997-POC)
 - [onurkerembozkurt/fgt-cve-2023-27997-exploit](https://github.com/onurkerembozkurt/fgt-cve-2023-27997-exploit)
-- [belky-me/vamp-forticheck](https://github.com/belky-me/vamp-forticheck)
+- [Vampsecure-Labs/vamp-forticheck](https://github.com/Vampsecure-Labs/vamp-forticheck)
 
 ### CVE-2023-28121 (2023-04-12)
 
@@ -33853,7 +33913,6 @@
 <code>Command Injection vulnerability in MagnusSolution magnusbilling 6.x and 7.x allows remote attackers to run arbitrary commands via unauthenticated HTTP request.
 </code>
 
-- [gy741/CVE-2023-30258-setup](https://github.com/gy741/CVE-2023-30258-setup)
 - [sk00l/CVE-2023-30258](https://github.com/sk00l/CVE-2023-30258)
 - [tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit](https://github.com/tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit)
 - [n00o00b/CVE-2023-30258-RCE-POC](https://github.com/n00o00b/CVE-2023-30258-RCE-POC)
@@ -33923,6 +33982,7 @@
 - [user0x1337/CVE-2023-30547](https://github.com/user0x1337/CVE-2023-30547)
 - [Cur1iosity/CVE-2023-30547](https://github.com/Cur1iosity/CVE-2023-30547)
 - [junnythemarksman/CVE-2023-30547](https://github.com/junnythemarksman/CVE-2023-30547)
+- [R3fr4kt/Codify-TJNULL-OSCP-](https://github.com/R3fr4kt/Codify-TJNULL-OSCP-)
 
 ### CVE-2023-30765 (2023-07-10)
 
@@ -35572,6 +35632,7 @@
 - [crisprss/CVE-2023-36874](https://github.com/crisprss/CVE-2023-36874)
 - [Wh04m1001/CVE-2023-36874](https://github.com/Wh04m1001/CVE-2023-36874)
 - [Octoberfest7/CVE-2023-36874_BOF](https://github.com/Octoberfest7/CVE-2023-36874_BOF)
+- [johnnygreeme/CVE-2023-36874](https://github.com/johnnygreeme/CVE-2023-36874)
 
 ### CVE-2023-36884 (2023-07-11)
 
@@ -40687,6 +40748,7 @@
 - [EzoomE/CVE-2022-21907-RCE](https://github.com/EzoomE/CVE-2022-21907-RCE)
 - [asepsaepdin/CVE-2022-21907](https://github.com/asepsaepdin/CVE-2022-21907)
 - [kamal-marouane/CVE-2022-21907](https://github.com/kamal-marouane/CVE-2022-21907)
+- [siboy17/CVE-2022-21907-http.sys](https://github.com/siboy17/CVE-2022-21907-http.sys)
 
 ### CVE-2022-21970 (2022-01-11)
 
@@ -45165,7 +45227,7 @@
 - [Yami0x777/Belsen_Group-et-exploitation-de-la-CVE-2022-40684](https://github.com/Yami0x777/Belsen_Group-et-exploitation-de-la-CVE-2022-40684)
 - [ccordeiro/CVE-2022-40684](https://github.com/ccordeiro/CVE-2022-40684)
 - [pintukumar-sutradhar/fortigate-cve-2022-40684-tool](https://github.com/pintukumar-sutradhar/fortigate-cve-2022-40684-tool)
-- [belky-me/vamp-forticheck](https://github.com/belky-me/vamp-forticheck)
+- [Vampsecure-Labs/vamp-forticheck](https://github.com/Vampsecure-Labs/vamp-forticheck)
 
 ### CVE-2022-40769 (2022-09-18)
 
@@ -65570,7 +65632,7 @@
 - [kh4sh3i/CVE-2018-13379](https://github.com/kh4sh3i/CVE-2018-13379)
 - [Zierax/CVE-2018-13379](https://github.com/Zierax/CVE-2018-13379)
 - [Instructor-Admin/Multi-threaded-mass-exploiter-CVE-2018-13379-POC](https://github.com/Instructor-Admin/Multi-threaded-mass-exploiter-CVE-2018-13379-POC)
-- [belky-me/vamp-forticheck](https://github.com/belky-me/vamp-forticheck)
+- [Vampsecure-Labs/vamp-forticheck](https://github.com/Vampsecure-Labs/vamp-forticheck)
 
 ### CVE-2018-13382 (2019-06-04)
 
