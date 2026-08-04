@@ -1807,6 +1807,13 @@
 
 - [0xBlackash/CVE-2026-12485](https://github.com/0xBlackash/CVE-2026-12485)
 
+### CVE-2026-12720 (2026-07-31)
+
+<code>The Kirki  WordPress plugin before 6.0.13 does not restrict which classes may be instantiated when it deserialises data that unauthenticated users can store, leading to PHP Object Injection that is triggered when an administrator later reviews the stored data. With a suitable gadget chain present on the site (via another installed Kirki  WordPress plugin before 6.0.13, , or an outdated WordPress version), this could be leveraged to perform a variety of attacks, such as remote code execution.
+</code>
+
+- [webshellseo8/CVE-2026-12720-Proof-of-Concept](https://github.com/webshellseo8/CVE-2026-12720-Proof-of-Concept)
+
 ### CVE-2026-12940 (2026-07-30)
 
 <code>IBM Langflow OSS 1.0.0 through 1.10.1  are vulnerable to unauthenticated remote code execution via environment variable injection in the MCP (Model Context Protocol) stdio launcher. The vulnerability exists in src/lfx/src/lfx/base/mcp/util.py where the DANGEROUS_ENV_VARS blocklist fails to include SHELLOPTS , BASHOPTS , and PS4 environment variables.
@@ -2093,6 +2100,13 @@
 </code>
 
 - [pratham220/CVE-2026-17543-PHP-Exposure-Validator](https://github.com/pratham220/CVE-2026-17543-PHP-Exposure-Validator)
+
+### CVE-2026-17566 (2026-07-31)
+
+<code>pgAdmin 4's Import/Export Data tool builds a psql \copy (...) command line by interpolating a user-supplied SQL query into a Jinja template and passing the rendered line to psql via --command. To stop an attacker from breaking out of the (...) wrapper, create_import_export_job() (route POST /import_export/job/&lt;sid&gt;, gated only by the ordinary, commonly-granted tools_import_export_data permission) validated the query with a hand-written parenthesis-balance checker, _is_query_parens_balanced(). That checker always treated a backslash before a single quote (\') as escaping the quote, i.e. as if standard_conforming_strings were off. PostgreSQL has defaulted standard_conforming_strings to on since 9.1 (2010), the default on every PostgreSQL version pgAdmin 4 currently supports (13-18); under that default psql's own \copy tokenizer treats \ as an ordinary character, so a single quote immediately after it closes the string literal. A query such as SELECT 'a\') TO PROGRAM 'echo pwned' x' was therefore accepted as &quot;balanced&quot; by pgAdmin's checker (which believed the ) was still inside the string), while psql, run through the actual rendered command line, closes the string at that point and treats the following ) as the end of the wrapping \copy (...) subquery, exposing an attacker-chosen TO PROGRAM '&lt;command&gt;' clause that psql executes via popen() -- independent of a subsequent syntax error later on the same line. This is the same class of bug as CVE-2025-12762/CVE-2025-13780 (RCE via psql meta-command/COPY injection during PLAIN-format dump restore), reached through an independently written defense in a different module (Import/Export Data rather than Restore) that had its own, different logic bug (inverted backslash-escape semantics rather than a BOM-defeated regex anchor).\n\nThe fix rejects any backslash inside a single-quoted string in the query outright, rather than picking one of the two possible psql interpretations. This is intentionally conservative: because the correct interpretation of \ depends on the target server's standard_conforming_strings setting, which the checker cannot reliably know at validation time, refusing the query is safer than guessing.\n\nThis issue affects pgAdmin 4: from the introduction of _is_query_parens_balanced() before 9.18.
+</code>
+
+- [HackSpeak/CVE-2026-17566](https://github.com/HackSpeak/CVE-2026-17566)
 
 ### CVE-2026-17583
 - [HORKimhab/CVE-2026-17583](https://github.com/HORKimhab/CVE-2026-17583)
@@ -2583,6 +2597,44 @@
 
 - [George0Papasotiriou/CVE-2026-22014-GraphQL-Persisted-Queries-Injection-via-ID-Manipulation](https://github.com/George0Papasotiriou/CVE-2026-22014-GraphQL-Persisted-Queries-Injection-via-ID-Manipulation)
 
+### CVE-2026-22015 (2026-04-21)
+
+<code>Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Information Schema).  Supported versions that are affected are 8.0.0-8.0.45, 8.4.0-8.4.8 and  9.0.0-9.6.0. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of MySQL Server accessible data. CVSS 3.1 Base Score 4.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N).
+</code>
+
+- [George0Papasotiriou/CVE-2026-22015-Serverless-Function-Environment-Variable-Injection-via-Event](https://github.com/George0Papasotiriou/CVE-2026-22015-Serverless-Function-Environment-Variable-Injection-via-Event)
+
+### CVE-2026-22016 (2026-04-21)
+
+<code>Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JAXP).  Supported versions that are affected are Oracle Java SE: 8u481, 8u481-b50, 8u481-perf, 11.0.30, 17.0.18, 21.0.10, 25.0.2, 26; Oracle GraalVM for JDK: 17.0.18 and  21.0.10; Oracle GraalVM Enterprise Edition: 21.3.17. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+</code>
+
+- [George0Papasotiriou/CVE-2026-22016-IPFS-CID-Spoofing-via-Multihash-Length-Extension](https://github.com/George0Papasotiriou/CVE-2026-22016-IPFS-CID-Spoofing-via-Multihash-Length-Extension)
+
+### CVE-2026-22017 (2026-04-21)
+
+<code>Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer).  Supported versions that are affected are 8.0.0-8.0.45, 8.4.0-8.4.8 and  9.0.0-9.6.0. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H).
+</code>
+
+- [George0Papasotiriou/CVE-2026-22017-Firmware-Update-via-BLE-Without-Authentication](https://github.com/George0Papasotiriou/CVE-2026-22017-Firmware-Update-via-BLE-Without-Authentication)
+
+### CVE-2026-22018 (2026-04-21)
+
+<code>Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u481, 8u481-b50, 8u481-perf, 11.0.30, 17.0.18, 21.0.10, 25.0.2, 26; Oracle GraalVM for JDK: 17.0.18 and  21.0.10; Oracle GraalVM Enterprise Edition: 21.3.17. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).
+</code>
+
+- [George0Papasotiriou/CVE-2026-22018-Jenkins-Pipeline-Shared-Library-Code-Execution-via-Grab-](https://github.com/George0Papasotiriou/CVE-2026-22018-Jenkins-Pipeline-Shared-Library-Code-Execution-via-Grab-)
+
+### CVE-2026-22019 (2026-04-21)
+
+<code>Vulnerability in the PeopleSoft Enterprise HCM Shared Components product of Oracle PeopleSoft (component: Person Search).   The supported version that is affected is 9.2. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise PeopleSoft Enterprise HCM Shared Components.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in PeopleSoft Enterprise HCM Shared Components, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of PeopleSoft Enterprise HCM Shared Components accessible data as well as  unauthorized read access to a subset of PeopleSoft Enterprise HCM Shared Components accessible data. CVSS 3.1 Base Score 5.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N).
+</code>
+
+- [George0Papasotiriou/CVE-2026-22019-libcurl-HTTP-2-CONNECT-Tunnel-Mixup](https://github.com/George0Papasotiriou/CVE-2026-22019-libcurl-HTTP-2-CONNECT-Tunnel-Mixup)
+
+### CVE-2026-22020
+- [George0Papasotiriou/CVE-2026-22020-Weak-Seed-in-Quantum-Key-Distribution-Error-Correction](https://github.com/George0Papasotiriou/CVE-2026-22020-Weak-Seed-in-Quantum-Key-Distribution-Error-Correction)
+
 ### CVE-2026-22226 (2026-02-02)
 
 <code>A command injection vulnerability may be exploited after the admin's authentication in the VPN server configuration module on TP-Link Archer BE230 v1.2 and Archer AX73 v2. Successful exploitation could allow an attacker to gain full administrative control of the device, resulting in severe compromise of configuration integrity, network security, and service availability.\n\n\nThis CVE covers one of multiple distinct OS command injection issues identified across separate code paths. Although similar in nature, each instance is tracked under a unique CVE ID.\n\n\nThis issue affects Archer BE230 v1.2 &lt; 1.2.4 Build 20251218 rel.70420 and Archer AX73 v2 &lt; 1.3.1\nBuild 20260430.
@@ -2902,6 +2954,9 @@
 
 - [dinosn/CVE-2026-25243](https://github.com/dinosn/CVE-2026-25243)
 - [dinosn/CVE-2026-25243-debugfree](https://github.com/dinosn/CVE-2026-25243-debugfree)
+
+### CVE-2026-25250
+- [TheMalwareGuardian/CVE-2026-25250](https://github.com/TheMalwareGuardian/CVE-2026-25250)
 
 ### CVE-2026-25253 (2026-02-01)
 
@@ -3424,6 +3479,7 @@
 - [jihwan77/Linux-Kernel-Copy-Fail-CVE-2026-31431-](https://github.com/jihwan77/Linux-Kernel-Copy-Fail-CVE-2026-31431-)
 - [TeamN4C/SG-2026-0013](https://github.com/TeamN4C/SG-2026-0013)
 - [TrevoCastles/CVE-2026-31431-copy-fail](https://github.com/TrevoCastles/CVE-2026-31431-copy-fail)
+- [dev1681/CVE-2026-31431](https://github.com/dev1681/CVE-2026-31431)
 
 ### CVE-2026-31525 (2026-04-22)
 
@@ -4857,6 +4913,7 @@
 - [alex193a/Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel)
 - [jason5545/ghostlock-myron-tw](https://github.com/jason5545/ghostlock-myron-tw)
 - [eroorvbsyes-hotmail/CVE-2026-43499_x86_Exploit](https://github.com/eroorvbsyes-hotmail/CVE-2026-43499_x86_Exploit)
+- [taoubi1/ghostlock-sm-a155f](https://github.com/taoubi1/ghostlock-sm-a155f)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -5159,7 +5216,6 @@
 
 - [ry-allan/tanstack-compromise-checker](https://github.com/ry-allan/tanstack-compromise-checker)
 - [Yomisana/are-you-get-tanstack-attack](https://github.com/Yomisana/are-you-get-tanstack-attack)
-- [shayr1/shai-hulud-scan](https://github.com/shayr1/shai-hulud-scan)
 - [Intrudify/mini-shai-hulud-scanner](https://github.com/Intrudify/mini-shai-hulud-scanner)
 - [fabriziosalmi/tanstack-compromise-checker](https://github.com/fabriziosalmi/tanstack-compromise-checker)
 - [digi4care/shai-scan](https://github.com/digi4care/shai-scan)
@@ -6322,6 +6378,13 @@
 
 - [nk7667/-linx-server-vulnerability-report](https://github.com/nk7667/-linx-server-vulnerability-report)
 
+### CVE-2026-52102 (2026-08-03)
+
+<code>An OS command injection vulnerability in the openmediavault-md plugin of OpenMediaVault v8.0.4-1 allows attackers to execute arbitrary commands as root via injecting shell metacharacters.
+</code>
+
+- [showmeyourhands/CVE-2026-52102-PoC](https://github.com/showmeyourhands/CVE-2026-52102-PoC)
+
 ### CVE-2026-52134 (2026-07-31)
 
 <code>An issue in the parseGoosePayload() function (/goose/goose_receiver.c) of libiec61850 v1.6 allows attackers to bypass authentication via a captured GOOSE frame.
@@ -7184,6 +7247,7 @@
 - [johnlodan/wp2shell-rce](https://github.com/johnlodan/wp2shell-rce)
 - [Procjevt/CVE-2026-63030](https://github.com/Procjevt/CVE-2026-63030)
 - [x-znn/CVE-2026-63030](https://github.com/x-znn/CVE-2026-63030)
+- [rechandra/wp2exp-2026](https://github.com/rechandra/wp2exp-2026)
 
 ### CVE-2026-63077 (2026-07-27)
 
@@ -8148,6 +8212,13 @@
 
 - [murataydemir/AWS-SAM-CLI-Vulnerabilities](https://github.com/murataydemir/AWS-SAM-CLI-Vulnerabilities)
 
+### CVE-2025-3052 (2025-06-10)
+
+<code>An arbitrary write vulnerability in Microsoft signed UEFI firmware allows for code execution of untrusted software. This allows an attacker to control its value, leading to arbitrary memory writes, including modification of critical firmware settings stored in NVRAM. Exploiting this vulnerability could enable security bypasses, persistence mechanisms, or full system compromise.
+</code>
+
+- [TheMalwareGuardian/CVE-2025-3052](https://github.com/TheMalwareGuardian/CVE-2025-3052)
+
 ### CVE-2025-3054 (2025-06-05)
 
 <code>The WP User Frontend Pro plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the upload_files() function in all versions up to, and including, 4.1.3. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible. Please note that this requires the 'Private Message' module to be enabled and the Business version of the PRO software to be in use.
@@ -8358,6 +8429,7 @@
 </code>
 
 - [NikolajSchlej/Hydroph0bia](https://github.com/NikolajSchlej/Hydroph0bia)
+- [TheMalwareGuardian/CVE-2025-4275](https://github.com/TheMalwareGuardian/CVE-2025-4275)
 
 ### CVE-2025-4321 (2025-11-17)
 
@@ -9036,7 +9108,6 @@
 - [AnotherSec/CVE-2025-6440](https://github.com/AnotherSec/CVE-2025-6440)
 - [Nxploited/CVE-2025-6440](https://github.com/Nxploited/CVE-2025-6440)
 - [m2hcz/CVE-2025-6440-Poc-Exploit](https://github.com/m2hcz/CVE-2025-6440-Poc-Exploit)
-- [rimbadirgantara/CVE-2025-6440](https://github.com/rimbadirgantara/CVE-2025-6440)
 - [0axz-tools/CVE-2025-6440](https://github.com/0axz-tools/CVE-2025-6440)
 - [sahmsec/CVE-2025-6440](https://github.com/sahmsec/CVE-2025-6440)
 - [Cyber-DarkNay/CVE-2025-6440](https://github.com/Cyber-DarkNay/CVE-2025-6440)
@@ -18679,9 +18750,6 @@
 - [materaj2/exploit_cve_2025_67303](https://github.com/materaj2/exploit_cve_2025_67303)
 - [wcnmwcis/CVE-2026-22777](https://github.com/wcnmwcis/CVE-2026-22777)
 - [jcaz2378/ComfyUIrce](https://github.com/jcaz2378/ComfyUIrce)
-
-### CVE-2025-67315
-- [r-pradyun/CVE-2025-67315](https://github.com/r-pradyun/CVE-2025-67315)
 
 ### CVE-2025-67325 (2026-01-08)
 
@@ -48345,7 +48413,6 @@
 - [haidv35/CVE-2021-21972](https://github.com/haidv35/CVE-2021-21972)
 - [TAI-REx/CVE-2021-21972](https://github.com/TAI-REx/CVE-2021-21972)
 - [orangmuda/CVE-2021-21972](https://github.com/orangmuda/CVE-2021-21972)
-- [user16-et/cve-2021-21972_PoC](https://github.com/user16-et/cve-2021-21972_PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
 - [SimoesCTT/CTT-enhanced-VMware-vCenter](https://github.com/SimoesCTT/CTT-enhanced-VMware-vCenter)
 - [Hurrrraaaa/CVE-2021-21972](https://github.com/Hurrrraaaa/CVE-2021-21972)
@@ -53085,6 +53152,7 @@
 </code>
 
 - [nuPacaChi/-CVE-2021-44790](https://github.com/nuPacaChi/-CVE-2021-44790)
+- [CerberusMrXi/Apache-Lua-Buffer-Overflow-Exploit-CVE-2021-44790](https://github.com/CerberusMrXi/Apache-Lua-Buffer-Overflow-Exploit-CVE-2021-44790)
 
 ### CVE-2021-44827 (2022-03-04)
 
@@ -64615,6 +64683,7 @@
 </code>
 
 - [diwangs/react16-ssr](https://github.com/diwangs/react16-ssr)
+- [nitindevelopermca/react-CVE-2018-6341](https://github.com/nitindevelopermca/react-CVE-2018-6341)
 
 ### CVE-2018-6376 (2018-01-30)
 
