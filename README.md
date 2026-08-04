@@ -404,6 +404,13 @@
 
 - [BlackSnufkin/BYOVD](https://github.com/BlackSnufkin/BYOVD)
 
+### CVE-2026-3611 (2026-03-12)
+
+<code>The Honeywell IQ4x building management controller, exposes its full web-based HMI without authentication in its factory-default configuration. With no user module configured, security is disabled by design and the system operates under a System Guest (level 100) context, granting read/write privileges to any party able to reach the HTTP interface. Authentication controls are only enforced after a web user is created via U.htm, which dynamically enables the user module. Because this function is accessible prior to authentication, a remote user can create a new account with administrative read/write permissions enabling the user module and imposing authentication under attacker-controlled credentials. This action can effectively lock legitimate operators out of local and web-based configuration and administration.
+</code>
+
+- [spinfosecurity/BAS-Guardian](https://github.com/spinfosecurity/BAS-Guardian)
+
 ### CVE-2026-3629 (2026-03-21)
 
 <code>The Import and export users and customers plugin for WordPress is vulnerable to privilege escalation in all versions up to, and including, 1.29.7. This is due to the 'save_extra_user_profile_fields' function not properly restricting which user meta keys can be updated via profile fields. The 'get_restricted_fields' method does not include sensitive meta keys such as 'wp_capabilities'. This makes it possible for unauthenticated attackers to escalate their privileges to Administrator by submitting a crafted registration request that sets the 'wp_capabilities' meta key. The vulnerability can only be exploited if the &quot;Show fields in profile&quot; setting is enabled and a CSV with a wp_capabilities column header has been previously imported.
@@ -2257,12 +2264,146 @@
 
 - [Vikramaditya015/samsung-android-lpe](https://github.com/Vikramaditya015/samsung-android-lpe)
 
+### CVE-2026-21001 (2026-03-16)
+
+<code>Path traversal in Galaxy Store prior to version 4.6.03.8 allows local attacker to create file with Galaxy Store privilege.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21001-WebAssembly-Linear-Memory-OOB-via-Table-Index-Confusion](https://github.com/George0Papasotiriou/CVE-2026-21001-WebAssembly-Linear-Memory-OOB-via-Table-Index-Confusion)
+
+### CVE-2026-21002 (2026-03-16)
+
+<code>Improper verification of cryptographic signature in Galaxy Store prior to version 4.6.03.8 allows local attacker to install arbitrary application.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21002-Serverless-Cold-Start-Credential-Leakage-via-Reused-tmp](https://github.com/George0Papasotiriou/CVE-2026-21002-Serverless-Cold-Start-Credential-Leakage-via-Reused-tmp)
+
+### CVE-2026-21003 (2026-04-13)
+
+<code>Improper input validation in data related to network restrictions prior to SMR Apr-2026 Release 1 allows physical attackers to bypass the restrictions.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21003-JWT-none-Algorithm-Bypass-via-kid-Header-Omission](https://github.com/George0Papasotiriou/CVE-2026-21003-JWT-none-Algorithm-Bypass-via-kid-Header-Omission)
+
+### CVE-2026-21004 (2026-03-16)
+
+<code>Improper authentication in Smart Switch prior to version 3.7.69.15 allows adjacent attackers to trigger a denial of service.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21004-SQLite-FTS3-Match-Infoleak-via-Query-Crafting](https://github.com/George0Papasotiriou/CVE-2026-21004-SQLite-FTS3-Match-Infoleak-via-Query-Crafting)
+
+### CVE-2026-21005 (2026-03-16)
+
+<code>Path traversal in Smart Switch prior to version 3.7.69.15 allows adjacent attackers to overwrite arbitrary files with Smart Switch privilege.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21005-Docker-Registry-V2-Schema-1-Image-Poisoning](https://github.com/George0Papasotiriou/CVE-2026-21005-Docker-Registry-V2-Schema-1-Image-Poisoning)
+
+### CVE-2026-21006 (2026-04-13)
+
+<code>Improper access control in Samsung DeX prior to SMR Apr-2026 Release 1 allows physical attackers to access to hidden notification contents.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21006-Zigbee-Light-Link-Factory-Reset-Exploit](https://github.com/George0Papasotiriou/CVE-2026-21006-Zigbee-Light-Link-Factory-Reset-Exploit)
+
+### CVE-2026-21007 (2026-04-13)
+
+<code>Improper check for exceptional conditions in Device Care prior to SMR Apr-2026 Release 1 allows physical attackers to bypass Knox Guard.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21007-GPU-Driver-ioctl-Race-Condition-Kernel-Memory-Mapping-](https://github.com/George0Papasotiriou/CVE-2026-21007-GPU-Driver-ioctl-Race-Condition-Kernel-Memory-Mapping-)
+
+### CVE-2026-21008 (2026-04-13)
+
+<code>Exposure of sensitive information in S Share prior to SMR Apr-2026 Release 1 allows adjacent attacker to access sensitive information.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21008-Kubernetes-Service-Account-Token-Mounted-in-HostPath](https://github.com/George0Papasotiriou/CVE-2026-21008-Kubernetes-Service-Account-Token-Mounted-in-HostPath)
+
+### CVE-2026-21009 (2026-04-13)
+
+<code>Improper check for exceptional conditions in Recents prior to SMR Apr-2026 Release 1 allows physical attacker to bypass App Pinning.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21009-ECDSA-Nonce-Reuse-in-IoT-Firmware-Signing](https://github.com/George0Papasotiriou/CVE-2026-21009-ECDSA-Nonce-Reuse-in-IoT-Firmware-Signing)
+
+### CVE-2026-21010 (2026-04-13)
+
+<code>Improper input validation in Retail Mode prior to SMR Apr-2026 Release 1 allows local attackers to trigger privileged functions.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21010-VoIP-SIP-Digest-Authentication-Replay](https://github.com/George0Papasotiriou/CVE-2026-21010-VoIP-SIP-Digest-Authentication-Replay)
+
+### CVE-2026-21011 (2026-04-13)
+
+<code>Incorrect privilege assignment in Bluetooth in Maintenance mode prior to SMR Apr-2026 Release 1 allows physical attackers to bypass Extend Unlock.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21011-Log4j-style-JNDI-Injection-in-Custom-Logger-Simulated-](https://github.com/George0Papasotiriou/CVE-2026-21011-Log4j-style-JNDI-Injection-in-Custom-Logger-Simulated-)
+
+### CVE-2026-21012 (2026-04-13)
+
+<code>External control of file name in AODManager prior to SMR Apr-2026 Release 1 allows privileged local attacker to create file with system privilege.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21012-Rust-serde-Deserialization-of-Untrusted-Enum-Variant-Injection-](https://github.com/George0Papasotiriou/CVE-2026-21012-Rust-serde-Deserialization-of-Untrusted-Enum-Variant-Injection-)
+
+### CVE-2026-21013 (2026-04-13)
+
+<code>Incorrect default permission in Galaxy Wearable prior to version 2.2.68.26 allows local attackers to access sensitive information.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21013-PDF-JavaScript-Injection-via-Embedded-Script](https://github.com/George0Papasotiriou/CVE-2026-21013-PDF-JavaScript-Injection-via-Embedded-Script)
+
+### CVE-2026-21014 (2026-04-13)
+
+<code>Improper access control in Samsung Camera prior to version 16.5.00.28 allows local attacker to access location data. User interaction is required for triggering this vulnerability.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21014-CAN-Bus-Frame-Replay-Attack-on-Automotive-ECU](https://github.com/George0Papasotiriou/CVE-2026-21014-CAN-Bus-Frame-Replay-Attack-on-Automotive-ECU)
+
+### CVE-2026-21015 (2026-05-13)
+
+<code>Incorrect default permissions in FactoryCamera prior to SMR May-2026 Release 1 allows local attacker to access unique identifier.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21015-PHP-Filter-Chain-Arbitrary-File-Read](https://github.com/George0Papasotiriou/CVE-2026-21015-PHP-Filter-Chain-Arbitrary-File-Read)
+
+### CVE-2026-21016 (2026-05-13)
+
+<code>Incorrect privilege assignment in LocationManager prior to SMR May-2026 Release 1 allows local attackers to access sensitive information.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21016-Malicious-PyPI-Package-Install-Hook-setup.py-Execution-](https://github.com/George0Papasotiriou/CVE-2026-21016-Malicious-PyPI-Package-Install-Hook-setup.py-Execution-)
+
+### CVE-2026-21017 (2026-06-05)
+
+<code>Improper handling of insufficient privileges in SecTelephonyProvider prior to SMR Jun-2026 Release 1 allows local attackers to access privileged files.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21017-LDAP-Anonymous-Bind-Privilege-Escalation](https://github.com/George0Papasotiriou/CVE-2026-21017-LDAP-Anonymous-Bind-Privilege-Escalation)
+
 ### CVE-2026-21018 (2026-05-13)
 
 <code>Out-of-bounds write in SveService prior to SMR May-2026 Release 1 allows local privileged attackers to execute arbitrary code.
 </code>
 
 - [Filipemendonca1978/CVE-2026-21018](https://github.com/Filipemendonca1978/CVE-2026-21018)
+- [George0Papasotiriou/CVE-2026-21018-OPC-UA-Authentication-Bypass-via-None-Security-Policy](https://github.com/George0Papasotiriou/CVE-2026-21018-OPC-UA-Authentication-Bypass-via-None-Security-Policy)
+
+### CVE-2026-21019 (2026-05-13)
+
+<code>Improper input validation in FacAtFunction in Galaxy Watch prior to SMR May-2026 Release 1 allows local attacker to execute arbitrary code with system privilege.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21019-Kubernetes-CronJob-Suspended-Execution-via-Time-Manipulation](https://github.com/George0Papasotiriou/CVE-2026-21019-Kubernetes-CronJob-Suspended-Execution-via-Time-Manipulation)
+
+### CVE-2026-21020 (2026-05-13)
+
+<code>Improper export of android application components in OmaCP prior to SMR May-2026 Release 1 allows local attackers to trigger privileged functions.
+</code>
+
+- [George0Papasotiriou/CVE-2026-21020-Protobuf-Message-Parsing-Polymorphic-Deserialization-Vulnerability](https://github.com/George0Papasotiriou/CVE-2026-21020-Protobuf-Message-Parsing-Polymorphic-Deserialization-Vulnerability)
 
 ### CVE-2026-21045 (2026-07-10)
 
@@ -2412,6 +2553,7 @@
 
 - [pduggusa/redis-cve-2026-23479-check](https://github.com/pduggusa/redis-cve-2026-23479-check)
 - [v1c0mmrt/redis-cve-2026-23479-scanner](https://github.com/v1c0mmrt/redis-cve-2026-23479-scanner)
+- [rizlmaulanaa/CVE-2026-23479-Redis-UAF-Proof-of-Concept](https://github.com/rizlmaulanaa/CVE-2026-23479-Redis-UAF-Proof-of-Concept)
 
 ### CVE-2026-23520 (2026-01-15)
 
@@ -2969,6 +3111,7 @@
 - [c0gnit00/CVE-2026-29000](https://github.com/c0gnit00/CVE-2026-29000)
 - [lucastran05/CVE-2026-29000](https://github.com/lucastran05/CVE-2026-29000)
 - [dua2z3rr/CVE-2026-29000-PoC](https://github.com/dua2z3rr/CVE-2026-29000-PoC)
+- [xiaoqiMikko/pac4j-check](https://github.com/xiaoqiMikko/pac4j-check)
 
 ### CVE-2026-29114 (2026-06-10)
 
@@ -4514,7 +4657,6 @@
 - [lukeslp/redtail-ioc](https://github.com/lukeslp/redtail-ioc)
 - [armircetaj/tetragon-dirtyfrag](https://github.com/armircetaj/tetragon-dirtyfrag)
 - [nabhan-mohy/Dirty-Frag-Research-CVE-2026-43284-](https://github.com/nabhan-mohy/Dirty-Frag-Research-CVE-2026-43284-)
-- [AadityaKandel/CVE-2026-43284](https://github.com/AadityaKandel/CVE-2026-43284)
 - [RevyHub/CVE-2026-43284---DirtyFrag-Analysis-THM-](https://github.com/RevyHub/CVE-2026-43284---DirtyFrag-Analysis-THM-)
 
 ### CVE-2026-43494 (2026-05-21)
@@ -6106,6 +6248,9 @@
 
 - [iqx6889/CVE-2026-52813-Gogs-RCE](https://github.com/iqx6889/CVE-2026-52813-Gogs-RCE)
 
+### CVE-2026-52824
+- [AzureADTrent/CVE-2026-52824](https://github.com/AzureADTrent/CVE-2026-52824)
+
 ### CVE-2026-52832
 - [mdvpat/CVE-2026-52832-PoC-exploit-nuclio-dashboard](https://github.com/mdvpat/CVE-2026-52832-PoC-exploit-nuclio-dashboard)
 
@@ -6651,6 +6796,13 @@
 
 - [shinthink/CVE-2026-58025](https://github.com/shinthink/CVE-2026-58025)
 
+### CVE-2026-58048 (2026-07-31)
+
+<code>Improper preservation of SQL mode when renaming databases in  cPanel allows execution of SQL in root context.
+</code>
+
+- [imbas007/POC-CVE-2026-58048](https://github.com/imbas007/POC-CVE-2026-58048)
+
 ### CVE-2026-58057 (2026-06-28)
 
 <code>Flowise before 3.1.3 validates Custom MCP stdio environment variables against a denylist using a case-sensitive comparison, so on Windows, where environment names are case-insensitive, supplying 'node_options' bypasses the NODE_OPTIONS denylist entry. An authenticated user who can configure a Custom MCP node can thereby inject NODE_OPTIONS --require and execute arbitrary code in the Flowise server context.
@@ -6912,6 +7064,7 @@
 </code>
 
 - [imbas007/CVE-2026-63223-POC](https://github.com/imbas007/CVE-2026-63223-POC)
+- [shinthink/CVE-2026-63223](https://github.com/shinthink/CVE-2026-63223)
 
 ### CVE-2026-63563 (2026-08-03)
 
@@ -7041,6 +7194,7 @@
 - [rails/rails-forensics-CVE-2026-66066](https://github.com/rails/rails-forensics-CVE-2026-66066)
 - [0xsha/KindaRails2Shell](https://github.com/0xsha/KindaRails2Shell)
 - [HackSpeak/kindarails2shell-poc](https://github.com/HackSpeak/kindarails2shell-poc)
+- [shinthink/CVE-2026-66066](https://github.com/shinthink/CVE-2026-66066)
 
 ### CVE-2026-66374 (2026-07-25)
 
@@ -7525,6 +7679,13 @@
 
 - [xp3s/poc_CVE-2025-1716](https://github.com/xp3s/poc_CVE-2025-1716)
 - [danigil/cve-2025-1716](https://github.com/danigil/cve-2025-1716)
+
+### CVE-2025-1727 (2025-07-10)
+
+<code>The protocol used for remote linking over RF for End-of-Train and \nHead-of-Train (also known as a FRED) relies on a BCH checksum for packet\n creation. It is possible to create these EoT and HoT packets with a \nsoftware defined radio and issue brake control commands to the EoT \ndevice, disrupting operations or potentially overwhelming the brake \nsystems.
+</code>
+
+- [spinfosecurity/Rail-OT-Protector](https://github.com/spinfosecurity/Rail-OT-Protector)
 
 ### CVE-2025-1738 (2025-02-27)
 
@@ -10136,7 +10297,6 @@
 </code>
 
 - [Satirush/CVE-2025-14174-Poc](https://github.com/Satirush/CVE-2025-14174-Poc)
-- [typeconfused/CVE-2025-14174-analysis](https://github.com/typeconfused/CVE-2025-14174-analysis)
 - [George0Papasotiriou/CVE-2025-14174-Chrome-Zero-Day](https://github.com/George0Papasotiriou/CVE-2025-14174-Chrome-Zero-Day)
 
 ### CVE-2025-14175 (2025-12-29)
@@ -34524,6 +34684,7 @@
 </code>
 
 - [xl337x/CVE-2023-31902](https://github.com/xl337x/CVE-2023-31902)
+- [lypd0/mouseserver-exploit](https://github.com/lypd0/mouseserver-exploit)
 
 ### CVE-2023-32031 (2023-06-14)
 
@@ -38315,9 +38476,6 @@
 </code>
 
 - [actuator/com.eypcnnapps.quickreboot](https://github.com/actuator/com.eypcnnapps.quickreboot)
-
-### CVE-2023-47400
-- [LucasVanHaaren/CVE-2023-47400](https://github.com/LucasVanHaaren/CVE-2023-47400)
 
 ### CVE-2023-47437 (2023-11-27)
 
