@@ -406,7 +406,7 @@
 
 ### CVE-2026-3609 (2026-05-11)
 
-<code>Wellbia's XIGNCODE3 xhunter1.sys kernel driver Privilege Escalation Vulnerability provides access to IRP_MJ_REITS command interface, which allows any user process to request a PROCESS_ALL_ACCESS.\r\nCross reference to KVE 2023-5589 (https://krcert.or.kr)
+<code>Wellbia's XIGNCODE3 xhunter1.sys kernel driver, version 10.0.10011.16384 through 2023.12.7.78, privilege escalation vulnerability provides access to the IRP_MJ_WRITE command interface, which allows any user process to request a PROCESS_ALL_ACCESS.\r\n\r\nNote: KVE 2023-5589 (https://krcert.or.kr) was initially issued for version 10.0.10011.16384, but the vulnerability was not fully remediated and remains in version 2023.12.7.78.
 </code>
 
 - [BlackSnufkin/BYOVD](https://github.com/BlackSnufkin/BYOVD)
@@ -508,6 +508,13 @@
 
 - [born0monday/teamspeak3-vulnerabilities](https://github.com/born0monday/teamspeak3-vulnerabilities)
 
+### CVE-2026-4408 (2026-05-28)
+
+<code>A flaw was found in Samba. A remote attacker can exploit a misconfiguration in Samba file servers and classic domain controllers that use the &quot;check password script&quot; feature. If this script is configured with the %u substitution character, the client-controlled username is passed without proper escaping of shell meta-characters. This vulnerability allows an attacker to achieve remote command execution on the affected system. This issue primarily affects non-standard configurations where the &quot;check password script&quot; is used with %u and the samba-dcerpcd service is started as a system service.
+</code>
+
+- [SafeBreach-Labs/ForgottenButNotGone](https://github.com/SafeBreach-Labs/ForgottenButNotGone)
+
 ### CVE-2026-4444 (2026-03-20)
 
 <code>Stack buffer overflow in WebRTC in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit stack corruption via a crafted HTML page. (Chromium security severity: High)
@@ -526,7 +533,6 @@
 - [CarlosEduardoPM/CVE-2026-4480-POC](https://github.com/CarlosEduardoPM/CVE-2026-4480-POC)
 - [Vusal777/CVE-2026-4480-exploit-poc](https://github.com/Vusal777/CVE-2026-4480-exploit-poc)
 - [ClearLotus-git/CVE-2026-4480-PoC](https://github.com/ClearLotus-git/CVE-2026-4480-PoC)
-- [Cosm3No1de/HTB-Abducted-Writeup](https://github.com/Cosm3No1de/HTB-Abducted-Writeup)
 
 ### CVE-2026-4567 (2026-03-23)
 
@@ -1266,6 +1272,7 @@
 - [0xdak/CVE-2026-9198_exploit](https://github.com/0xdak/CVE-2026-9198_exploit)
 - [ywh-jfellus/CVE-2026-9198](https://github.com/ywh-jfellus/CVE-2026-9198)
 - [0xgh057r3c0n/CVE-2026-9198](https://github.com/0xgh057r3c0n/CVE-2026-9198)
+- [rmhowe425/PoC-CVE-2026-9198](https://github.com/rmhowe425/PoC-CVE-2026-9198)
 
 ### CVE-2026-9256 (2026-05-22)
 
@@ -2192,6 +2199,13 @@
 - [HORKimhab/CVE-2026-20182](https://github.com/HORKimhab/CVE-2026-20182)
 - [Nxploited/CVE-2026-20182](https://github.com/Nxploited/CVE-2026-20182)
 
+### CVE-2026-20200 (2026-08-05)
+
+<code>A vulnerability in the web-based management interface of Cisco IMC could allow an authenticated, remote attacker with low privileges to execute arbitrary commands on the underlying operating system of an affected system and elevate privileges to root.&amp;nbsp;\r\n\r\nThis vulnerability is due to improper validation of user-supplied input. An attacker could exploit this vulnerability by entering crafted inputs to the web-based management interface of the affected software. A successful exploit could allow the attacker to execute arbitrary commands on the underlying operating system as the root user.&amp;nbsp;
+</code>
+
+- [NSIDE-ATTACK-LOGIC/CIMCown](https://github.com/NSIDE-ATTACK-LOGIC/CIMCown)
+
 ### CVE-2026-20223 (2026-05-20)
 
 <code>A vulnerability in the&amp;nbsp;access validation of internal REST APIs of Cisco Secure Workload could allow an unauthenticated, remote attacker to access site resources with the privileges of the&amp;nbsp;Site Admin role.\r\n\r\nThis vulnerability is due to insufficient validation and authentication when accessing REST API endpoints. An attacker could exploit this vulnerability if they are able to send a crafted API request to an affected endpoint. A successful exploit could allow the attacker to read sensitive information and make configuration changes across tenant boundaries with the privileges of the&amp;nbsp;Site Admin user.&amp;nbsp;
@@ -2745,6 +2759,13 @@
 - [v1c0mmrt/redis-cve-2026-23479-scanner](https://github.com/v1c0mmrt/redis-cve-2026-23479-scanner)
 - [rizlmaulanaa/CVE-2026-23479-Redis-UAF-Proof-of-Concept](https://github.com/rizlmaulanaa/CVE-2026-23479-Redis-UAF-Proof-of-Concept)
 
+### CVE-2026-23489 (2026-03-16)
+
+<code>Fields is a GLPI plugin that allows users to add custom fields on GLPI items forms. Prior to version 1.23.3, it is possible to execute arbitrary PHP code from users that are allowed to create dropdowns. This issue has been patched in version 1.23.3.
+</code>
+
+- [eorll-lgtm/poc-CVE-2026-23489](https://github.com/eorll-lgtm/poc-CVE-2026-23489)
+
 ### CVE-2026-23520 (2026-01-15)
 
 <code>Arcane provides modern docker management. Prior to 1.13.0, Arcane has a command injection in the updater service. Arcane’s updater service supported lifecycle labels com.getarcaneapp.arcane.lifecycle.pre-update and com.getarcaneapp.arcane.lifecycle.post-update that allowed defining a command to run before or after a container update. The label value is passed directly to /bin/sh -c without sanitization or validation. Because any authenticated user (not limited to administrators) can create projects through the API, an attacker can create a project that specifies one of these lifecycle labels with a malicious command. When an administrator later triggers a container update (either manually or via scheduled update checks), Arcane reads the lifecycle label and executes its value as a shell command inside the container. This vulnerability is fixed in 1.13.0.
@@ -2882,7 +2903,6 @@
 - [K3ysTr0K3R/CVE-2026-24061](https://github.com/K3ysTr0K3R/CVE-2026-24061)
 - [anxs3c/CVE-2026-24061-GNU-InetUtils-telnetd](https://github.com/anxs3c/CVE-2026-24061-GNU-InetUtils-telnetd)
 - [akpmarcelin/CVE-2026-24061-lab](https://github.com/akpmarcelin/CVE-2026-24061-lab)
-- [Cosm3No1de/htb-orion-writeup](https://github.com/Cosm3No1de/htb-orion-writeup)
 - [kyukazamiqq/CVE-2026-24061](https://github.com/kyukazamiqq/CVE-2026-24061)
 - [harygovind/CVE-2026-24061](https://github.com/harygovind/CVE-2026-24061)
 - [stoerti2/Abyssal](https://github.com/stoerti2/Abyssal)
@@ -3214,7 +3234,6 @@
 </code>
 
 - [BimaBalance/Cve-2026-27944-Tools-Exploit](https://github.com/BimaBalance/Cve-2026-27944-Tools-Exploit)
-- [Cosm3No1de/HTB-Snapped-Writeup](https://github.com/Cosm3No1de/HTB-Snapped-Writeup)
 
 ### CVE-2026-27966 (2026-02-26)
 
@@ -4495,6 +4514,13 @@
 
 - [joaovicdev/EXPLOIT-CVE-2026-40901](https://github.com/joaovicdev/EXPLOIT-CVE-2026-40901)
 
+### CVE-2026-40982 (2026-05-07)
+
+<code>Spring Cloud Config allows applications to serve arbitrary text and binary files through the spring-cloud-config-server module. A malicious user, or attacker, can send a request using a specially crafted URL that can lead to a directory traversal attack.\nSpring Cloud Config 3.1.x: affected from 3.1.0 through 3.1.13 (inclusive); upgrade to 3.1.14 or greater (Enterprise Support Only). Spring Cloud Config 4.1.x: affected from 4.1.0 through 4.1.9 (inclusive); upgrade to 4.1.10 or greater (Enterprise Support Only). Spring Cloud Config 4.2.x: affected from 4.2.0 through 4.2.6 (inclusive); upgrade to 4.2.7 or greater (Enterprise Support Only). Spring Cloud Config 4.3.x: affected from 4.3.0 through 4.3.2 (inclusive); upgrade to 4.3.3 or greater. Spring Cloud Config 5.0.x: affected from 5.0.0 through 5.0.2 (inclusive); upgrade to 5.0.3 or greater.
+</code>
+
+- [xiaoqiMikko/scc-check](https://github.com/xiaoqiMikko/scc-check)
+
 ### CVE-2026-40987 (2026-06-11)
 
 <code>A malicious or compromised FTP/SFTP/SMB server can write arbitrary files anywhere on the client filesystem (outside the configured local-directory) with attacker-controlled content.\n\nAffected versions:\nSpring Integration 7.0.0 through 7.0.4; 6.5.0 through 6.5.8; 6.4.0 through 6.4.11; 6.3.0 through 6.3.14; 5.5.0 through 5.5.20.
@@ -4708,6 +4734,7 @@
 - [gagaltotal/CVE-2026-42533-nginx](https://github.com/gagaltotal/CVE-2026-42533-nginx)
 - [jelasin/CVE-2026-42533](https://github.com/jelasin/CVE-2026-42533)
 - [imbas007/CVE-2026-42533](https://github.com/imbas007/CVE-2026-42533)
+- [0xCyberstan/CVE-2026-42533-POC](https://github.com/0xCyberstan/CVE-2026-42533-POC)
 
 ### CVE-2026-42568 (2026-06-10)
 
@@ -4867,6 +4894,7 @@
 - [armircetaj/tetragon-dirtyfrag](https://github.com/armircetaj/tetragon-dirtyfrag)
 - [nabhan-mohy/Dirty-Frag-Research-CVE-2026-43284-](https://github.com/nabhan-mohy/Dirty-Frag-Research-CVE-2026-43284-)
 - [RevyHub/CVE-2026-43284---DirtyFrag-Analysis-THM-](https://github.com/RevyHub/CVE-2026-43284---DirtyFrag-Analysis-THM-)
+- [millikanjohnl-blip/dirtyfrag-detection-rules](https://github.com/millikanjohnl-blip/dirtyfrag-detection-rules)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -5261,6 +5289,7 @@
 
 - [ry-allan/tanstack-compromise-checker](https://github.com/ry-allan/tanstack-compromise-checker)
 - [Yomisana/are-you-get-tanstack-attack](https://github.com/Yomisana/are-you-get-tanstack-attack)
+- [shayr1/shai-hulud-scan](https://github.com/shayr1/shai-hulud-scan)
 - [Intrudify/mini-shai-hulud-scanner](https://github.com/Intrudify/mini-shai-hulud-scanner)
 - [fabriziosalmi/tanstack-compromise-checker](https://github.com/fabriziosalmi/tanstack-compromise-checker)
 - [digi4care/shai-scan](https://github.com/digi4care/shai-scan)
@@ -7181,7 +7210,6 @@
 - [michael-kanda/Wp2shell-ioc-scanner](https://github.com/michael-kanda/Wp2shell-ioc-scanner)
 - [AdarshThakur14777-cyber/CVE-2026-60137](https://github.com/AdarshThakur14777-cyber/CVE-2026-60137)
 - [AbdullahMaqbool22/CVE-2026-60137-WordPress-Core-SQL-Injection-PoC](https://github.com/AbdullahMaqbool22/CVE-2026-60137-WordPress-Core-SQL-Injection-PoC)
-- [Dungsocool/CVE-2026-60137-CVE-2026-63030](https://github.com/Dungsocool/CVE-2026-60137-CVE-2026-63030)
 
 ### CVE-2026-60206 (2026-07-21)
 
@@ -7309,6 +7337,7 @@
 - [x-znn/CVE-2026-63030](https://github.com/x-znn/CVE-2026-63030)
 - [rechandra/wp2exp-2026](https://github.com/rechandra/wp2exp-2026)
 - [minwunn/wp2shell-CVE-2026-63030](https://github.com/minwunn/wp2shell-CVE-2026-63030)
+- [sowarma/wp2shell-PoC](https://github.com/sowarma/wp2shell-PoC)
 
 ### CVE-2026-63077 (2026-07-27)
 
@@ -7631,6 +7660,9 @@
 
 ### CVE-2026-67689
 - [qflksheep/CVE-2026-67689-FineAdmin.Mvc-vulnerability](https://github.com/qflksheep/CVE-2026-67689-FineAdmin.Mvc-vulnerability)
+
+### CVE-2026-68004
+- [xuwu-xuwu/CVE-2026-68004](https://github.com/xuwu-xuwu/CVE-2026-68004)
 
 ### CVE-2026-68771 (2026-07-31)
 
@@ -13209,6 +13241,7 @@
 </code>
 
 - [theGEBIRGE/CVE-2025-32375](https://github.com/theGEBIRGE/CVE-2025-32375)
+- [SevdaKhidirova/CVE-2025-32375-PoC](https://github.com/SevdaKhidirova/CVE-2025-32375-PoC)
 
 ### CVE-2025-32395 (2025-04-10)
 
@@ -13251,10 +13284,10 @@
 - [TheMursalin/CVE-2025-32432](https://github.com/TheMursalin/CVE-2025-32432)
 - [cd-ratel/CVE-2025-32432](https://github.com/cd-ratel/CVE-2025-32432)
 - [n40y/PoC_CVE-2025-32432](https://github.com/n40y/PoC_CVE-2025-32432)
-- [Cosm3No1de/htb-orion-writeup](https://github.com/Cosm3No1de/htb-orion-writeup)
 - [c0gnit00/CVE-2025-32432](https://github.com/c0gnit00/CVE-2025-32432)
 - [theeomega/CVE-2025-32432-POC](https://github.com/theeomega/CVE-2025-32432-POC)
 - [HeltonPojo/CVE-2025-32432](https://github.com/HeltonPojo/CVE-2025-32432)
+- [PsyGuy007-sys/craftcms-cve-2025-32432-rce](https://github.com/PsyGuy007-sys/craftcms-cve-2025-32432-rce)
 
 ### CVE-2025-32433 (2025-04-16)
 
@@ -16516,8 +16549,6 @@
 - [xiaoLvChen/CVE-2025-55182](https://github.com/xiaoLvChen/CVE-2025-55182)
 - [captain4554/CVE-2025-55182-Scanner](https://github.com/captain4554/CVE-2025-55182-Scanner)
 - [captain4554/captain4554.github.io](https://github.com/captain4554/captain4554.github.io)
-- [rahuulmiishra/react2shell-CVE-2025-55182](https://github.com/rahuulmiishra/react2shell-CVE-2025-55182)
-- [m3ngx1ng/CVE-2025-55182-GUI](https://github.com/m3ngx1ng/CVE-2025-55182-GUI)
 - [joaovicdev/EXPLOIT-CVE-2025-55182](https://github.com/joaovicdev/EXPLOIT-CVE-2025-55182)
 - [AdityaBhatt3010/React2Shell-CVE-2025-55182](https://github.com/AdityaBhatt3010/React2Shell-CVE-2025-55182)
 - [gahoole77/gahoole77.github.io](https://github.com/gahoole77/gahoole77.github.io)
@@ -18534,7 +18565,7 @@
 
 ### CVE-2025-66024 (2026-03-04)
 
-<code>The XWiki blog application allows users of the XWiki platform to create and manage blog posts. Versions prior to 9.15.7 are vulnerable to Stored Cross-Site Scripting (XSS) via the Blog Post Title. The vulnerability arises because the post title is injected directly into the HTML &lt;title&gt; tag without proper escaping. An attacker with permissions to create or edit blog posts can inject malicious JavaScript into the title field. This script will execute in the browser of any user (including administrators) who views the blog post. This leads to potential session hijacking or privilege escalation. The vulnerability has been patched in the blog application version 9.15.7 by adding missing escaping. No known workarounds are available.
+<code>The XWiki blog application allows users of the XWiki platform to create and manage blog posts. Versions starting with 9.15 and prior to 9.15.7 are vulnerable to Stored Cross-Site Scripting (XSS) via the Blog Post Title. The vulnerability arises because the post title is injected directly into the HTML &lt;title&gt; tag without proper escaping. An attacker with permissions to create or edit blog posts can inject malicious JavaScript into the title field. This script will execute in the browser of any user (including administrators) who views the blog post. This leads to potential session hijacking or privilege escalation. The vulnerability has been patched in the blog application version 9.15.7 by adding missing escaping. No known workarounds are available.
 </code>
 
 - [lukasz-rybak/CVE-2025-66024](https://github.com/lukasz-rybak/CVE-2025-66024)
@@ -18593,6 +18624,13 @@
 </code>
 
 - [sid6224/CVE-2025-66249-POC](https://github.com/sid6224/CVE-2025-66249-POC)
+
+### CVE-2025-66390 (2026-07-21)
+
+<code>In Microsoft Azure API Management through 2025-10-17, when self-service signup (username/password Basic Authentication) is enabled in Tenant A, an attacker can reuse the registration flow by changing the hostname or tenant identifier to Tenant B, even when Tenant B has signup disabled at the UI level. In other words, disabling signup in the UI does not disable the underlying API endpoint (which still accepts cross-tenant requests based on the Host header). NOTE: The supplier states that they evaluated the report and determined it did not cross a security boundary (i.e., the observed behavior was a configuration/state issue rather than an exploitable product vulnerability affecting tenant isolation). NOTE: The supplier evaluated this report and determined that it did not cross a security boundary (i.e., the observed behavior was a configuration/state issue rather than an exploitable product vulnerability affecting tenant isolation).
+</code>
+
+- [dz-y/Azure-APIM-Dev-Portal-Signup-Bypass](https://github.com/dz-y/Azure-APIM-Dev-Portal-Signup-Bypass)
 
 ### CVE-2025-66391 (2026-06-17)
 
@@ -19530,7 +19568,11 @@
 
 - [mathavamoorthi/CVE-2025-70899](https://github.com/mathavamoorthi/CVE-2025-70899)
 
-### CVE-2025-70962
+### CVE-2025-70962 (2026-08-05)
+
+<code>Zosi C519M V4.2.8.823C01450BA is vulnerable to Incorrect Access Control. The application contains hardcoded credentials in the RTSP authentication mechanism. An attacker with network access can use the unchangeable default credentials to access the RTSP video stream, resulting in unauthorized viewing of camera footage.
+</code>
+
 - [namaek2/CVE-2025-70962](https://github.com/namaek2/CVE-2025-70962)
 
 ### CVE-2025-70994 (2026-04-23)
@@ -30639,7 +30681,6 @@
 - [julianertle/CVE-2023-0386-CTF](https://github.com/julianertle/CVE-2023-0386-CTF)
 - [anxs3c/TwoMillion-Machine-Writeup](https://github.com/anxs3c/TwoMillion-Machine-Writeup)
 - [pwncone/CVE-2023-0386-OverlayFS](https://github.com/pwncone/CVE-2023-0386-OverlayFS)
-- [Cosm3No1de/TwoMillion-HTB-Write-up](https://github.com/Cosm3No1de/TwoMillion-HTB-Write-up)
 
 ### CVE-2023-0400 (2023-02-01)
 
@@ -32096,6 +32137,7 @@
 - [Harshit-Mashru/CVE-2023-6553](https://github.com/Harshit-Mashru/CVE-2023-6553)
 - [0x00phantom-hat/CVE-2023-6553-RCE-Exploit](https://github.com/0x00phantom-hat/CVE-2023-6553-RCE-Exploit)
 - [joaoaugustom/WordPress_Backup_Migration-RCE_Unauthenticated](https://github.com/joaoaugustom/WordPress_Backup_Migration-RCE_Unauthenticated)
+- [Dungsocool/CVE-2023-6553](https://github.com/Dungsocool/CVE-2023-6553)
 
 ### CVE-2023-6595 (2023-12-14)
 
@@ -45575,6 +45617,7 @@
 - [TheGammaSqueeze/Bootloader_Unlock_Anbernic_T820](https://github.com/TheGammaSqueeze/Bootloader_Unlock_Anbernic_T820)
 - [Seriousattempts/Bootloader_Unlock_Retroid_Pocket_3Plus](https://github.com/Seriousattempts/Bootloader_Unlock_Retroid_Pocket_3Plus)
 - [xbxarchivr/UNISOCUnlocker](https://github.com/xbxarchivr/UNISOCUnlocker)
+- [LeoChen-CoreMind/spd_flasher](https://github.com/LeoChen-CoreMind/spd_flasher)
 - [AureliusIvanInvenioPTL/ubl-itel-s23](https://github.com/AureliusIvanInvenioPTL/ubl-itel-s23)
 - [AureliusIvan/ubl-itel-s23](https://github.com/AureliusIvan/ubl-itel-s23)
 - [Phlegmelm/CRACK12](https://github.com/Phlegmelm/CRACK12)
@@ -53070,7 +53113,6 @@
 - [badb33f/Apache-Log4j-POC](https://github.com/badb33f/Apache-Log4j-POC)
 - [TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit](https://github.com/TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit)
 - [lucab85/ansible-role-log4shell](https://github.com/lucab85/ansible-role-log4shell)
-- [briml3y/loguccino](https://github.com/briml3y/loguccino)
 - [grimch/log4j-CVE-2021-44228-workaround](https://github.com/grimch/log4j-CVE-2021-44228-workaround)
 - [cybersecurityworks553/log4j-shell-csw](https://github.com/cybersecurityworks553/log4j-shell-csw)
 - [Toolsec/log4j-scan](https://github.com/Toolsec/log4j-scan)
