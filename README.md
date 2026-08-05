@@ -55,6 +55,13 @@
 
 - [canyie/TransitionPlayer](https://github.com/canyie/TransitionPlayer)
 
+### CVE-2026-0092 (2026-06-17)
+
+<code>In Package Manager, there is a possible device lock controller bypass due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [Majorjayyy1/CVE-2026-0092](https://github.com/Majorjayyy1/CVE-2026-0092)
+
 ### CVE-2026-0101
 - [George0Papasotiriou/CVE-2026-0101-BLE-Address-Spoofing-via-Weak-Resolvable-Private-Address](https://github.com/George0Papasotiriou/CVE-2026-0101-BLE-Address-Spoofing-via-Weak-Resolvable-Private-Address)
 
@@ -584,7 +591,7 @@
 </code>
 
 - [Layer-6/CVE-2026-5027-Langflow](https://github.com/Layer-6/CVE-2026-5027-Langflow)
-- [HORKimhab/-CVE-2026-5027](https://github.com/HORKimhab/-CVE-2026-5027)
+- [HORKimhab/CVE-2026-5027](https://github.com/HORKimhab/CVE-2026-5027)
 
 ### CVE-2026-5029 (2026-05-12)
 
@@ -2028,6 +2035,13 @@
 
 - [HORKimhab/CVE-2026-15410](https://github.com/HORKimhab/CVE-2026-15410)
 
+### CVE-2026-15430 (2026-08-03)
+
+<code>Improper access control in the IRP_MJ_WRITE command interface in\r\nWellbia XIGNCODE3 xhunter2.sys, version 2026.6.1.192, allows a local, unprivileged attacker to achieve local privilege escalation to\r\nNT AUTHORITY\SYSTEM, extract credentials from PPL-protected\r\nlsass.exe, and terminate PPL-protected security processes.
+</code>
+
+- [BlackSnufkin/AxHunter](https://github.com/BlackSnufkin/AxHunter)
+
 ### CVE-2026-15583 (2026-07-15)
 
 <code>A confused-deputy flaw in Grafana MCP Server allows an unauthenticated remote attacker to exfiltrate the server's environment-configured Grafana service-account token by supplying a crafted X-Grafana-URL request header. This also enables SSRF against arbitrary internal services, including cloud metadata endpoints.
@@ -2090,6 +2104,7 @@
 - [1xPwn/CVE-2026-16723](https://github.com/1xPwn/CVE-2026-16723)
 - [fazilbaig1/CVE-2026-16723](https://github.com/fazilbaig1/CVE-2026-16723)
 - [xiaoqiMikko/fastjson-check](https://github.com/xiaoqiMikko/fastjson-check)
+- [learner330/fastjson-cve-2026-16723](https://github.com/learner330/fastjson-cve-2026-16723)
 
 ### CVE-2026-17001
 - [llaytynher/CVE-2026-17001](https://github.com/llaytynher/CVE-2026-17001)
@@ -2101,7 +2116,11 @@
 
 - [Hunt-Benito/pgadmin-ai-assistant-sql-injection-cve-2026-17351-lexer-differential-bypass](https://github.com/Hunt-Benito/pgadmin-ai-assistant-sql-injection-cve-2026-17351-lexer-differential-bypass)
 
-### CVE-2026-17532
+### CVE-2026-17532 (2026-08-05)
+
+<code>The Seraphinite Accelerator plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'seraph_accel_prep' parameter in versions up to, and including, 2.29.15. This is due to the CacheExtractPreparePageParams() function using PHP's loose inequality operator (!=) to compare the expected HMAC string against the JSON-decoded 'nonce' value — supplying the JSON boolean true causes any non-empty HMAC string to compare as loosely equal, bypassing the signature check — combined with insufficient output escaping in the _CbContentFinishSkip() function, which concatenates the attacker-controlled 'selfTest' field directly into the HTML response body. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a specially crafted link.
+</code>
+
 - [kalhoralireza/CVE-2026-17532](https://github.com/kalhoralireza/CVE-2026-17532)
 
 ### CVE-2026-17543 (2026-07-30)
@@ -5040,6 +5059,13 @@
 
 - [oscerd/CVE-2026-43867](https://github.com/oscerd/CVE-2026-43867)
 
+### CVE-2026-44024 (2026-07-08)
+
+<code>Fluentd collects events from various data sources and writes them to files, RDBMS, NoSQL, IaaS, SaaS, Hadoop and so on. Prior to 1.19.3, Fluentd allows dynamically constructing file paths using the ${tag} placeholder, and insufficient validation of ${tag} in file configurations such as the path parameter of the out_file plugin allows attackers sending untrusted tags containing path traversal characters to write or overwrite arbitrary files and potentially achieve remote code execution. This issue is fixed in version 1.19.3.
+</code>
+
+- [0xdak/CVE-2026-44024_exploit](https://github.com/0xdak/CVE-2026-44024_exploit)
+
 ### CVE-2026-44166 (2026-05-12)
 
 <code>Pocketbase is an open source web backend written in go. Prior to 0.22.42 and 0.37.4, in some situations, if an attacker knows the email address of the victim they can create and link an unverified PocketBase user in advance by authenticating with one of the OAuth2 app providers, e.g. &quot;A&quot;. When the victim gets invited or decides to sign up to your app on their own with provider &quot;B&quot; (PocketBase OAuth2 auth requires to be with a different provider because we don't allow multiple OAuth2 accounts from the same provider to be associated to a single PocketBase user), the user created previously by the attacker will be autolinked, upgraded to &quot;verified&quot; and its old password reset. This vulnerability is fixed in 0.22.42 and 0.37.4.
@@ -7155,6 +7181,7 @@
 - [michael-kanda/Wp2shell-ioc-scanner](https://github.com/michael-kanda/Wp2shell-ioc-scanner)
 - [AdarshThakur14777-cyber/CVE-2026-60137](https://github.com/AdarshThakur14777-cyber/CVE-2026-60137)
 - [AbdullahMaqbool22/CVE-2026-60137-WordPress-Core-SQL-Injection-PoC](https://github.com/AbdullahMaqbool22/CVE-2026-60137-WordPress-Core-SQL-Injection-PoC)
+- [Dungsocool/CVE-2026-60137-CVE-2026-63030](https://github.com/Dungsocool/CVE-2026-60137-CVE-2026-63030)
 
 ### CVE-2026-60206 (2026-07-21)
 
@@ -12937,7 +12964,6 @@
 <code>runc is a CLI tool for spawning and running containers according to the OCI specification. In versions 1.2.7 and below, 1.3.0-rc.1 through 1.3.1, 1.4.0-rc.1 and 1.4.0-rc.2 files, runc would not perform sufficient verification that the source of the bind-mount (i.e., the container's /dev/null) was actually a real /dev/null inode when using the container's /dev/null to mask. This exposes two methods of attack:  an arbitrary mount gadget, leading to host information disclosure, host denial of service, container escape, or a bypassing of maskedPaths. This issue is fixed in versions 1.2.8, 1.3.3 and 1.4.0-rc.3.
 </code>
 
-- [sahar042/CVE-2025-31133](https://github.com/sahar042/CVE-2025-31133)
 - [skynet-f-nvidia/CVE-2025-31133](https://github.com/skynet-f-nvidia/CVE-2025-31133)
 - [scherepiuk/container-escape-ebpf](https://github.com/scherepiuk/container-escape-ebpf)
 - [C-h4ck-0/Learn-about-cve-2025-31133-poc](https://github.com/C-h4ck-0/Learn-about-cve-2025-31133-poc)
@@ -15056,6 +15082,13 @@
 
 - [encrypter15/CVE-2025-50165-x64-Exploit](https://github.com/encrypter15/CVE-2025-50165-x64-Exploit)
 
+### CVE-2025-50168 (2025-08-12)
+
+<code>Access of resource using incompatible type ('type confusion') in Windows Win32K - ICOMP allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [D4m0n/CVE-2025-50168-pwn2own-berlin-2025](https://github.com/D4m0n/CVE-2025-50168-pwn2own-berlin-2025)
+
 ### CVE-2025-50286 (2025-08-06)
 
 <code>A Remote Code Execution (RCE) vulnerability in Grav CMS v1.7.48 allows an authenticated admin to upload a malicious plugin via the /admin/tools/direct-install interface. Once uploaded, the plugin is automatically extracted and loaded, allowing arbitrary PHP code execution and reverse shell access.
@@ -15774,7 +15807,7 @@
 - [3a7/CVE-2025-53770](https://github.com/3a7/CVE-2025-53770)
 - [r3xbugbounty/CVE-2025-53770](https://github.com/r3xbugbounty/CVE-2025-53770)
 - [daryllundy/CVE-2025-53770](https://github.com/daryllundy/CVE-2025-53770)
-- [0xisfet/CVE-2025-53770-Scanner](https://github.com/0xisfet/CVE-2025-53770-Scanner)
+- [0xKr1x/CVE-2025-53770-Scanner](https://github.com/0xKr1x/CVE-2025-53770-Scanner)
 - [Immersive-Labs-Sec/SharePoint-CVE-2025-53770-POC](https://github.com/Immersive-Labs-Sec/SharePoint-CVE-2025-53770-POC)
 - [harryhaxor/CVE-2025-53770-SharePoint-Deserialization-RCE-PoC](https://github.com/harryhaxor/CVE-2025-53770-SharePoint-Deserialization-RCE-PoC)
 - [Agampreet-Singh/CVE-2025-53770](https://github.com/Agampreet-Singh/CVE-2025-53770)
@@ -15788,7 +15821,7 @@
 - [J4ck3LSyN-Gen2/CVE-2025-53770](https://github.com/J4ck3LSyN-Gen2/CVE-2025-53770)
 - [Zedocun/SharePoint-ToolShell-CVE-2025-53770-Incident-Analysis](https://github.com/Zedocun/SharePoint-ToolShell-CVE-2025-53770-Incident-Analysis)
 - [doerrdan/it-sec-toolshell](https://github.com/doerrdan/it-sec-toolshell)
-- [mfarshadabdullahkhan-png/cve-2025-53770-research](https://github.com/mfarshadabdullahkhan-png/cve-2025-53770-research)
+- [mfarshad-abdullah-khan/cve-2025-53770-research](https://github.com/mfarshad-abdullah-khan/cve-2025-53770-research)
 
 ### CVE-2025-53772 (2025-08-12)
 
@@ -47988,7 +48021,6 @@
 - [galoget/PwnKit-CVE-2021-4034](https://github.com/galoget/PwnKit-CVE-2021-4034)
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [rvzsec/CVE-2021-4034](https://github.com/rvzsec/CVE-2021-4034)
-- [Nosferatuvjr/PwnKit](https://github.com/Nosferatuvjr/PwnKit)
 - [antoinenguyen-09/CVE-2021-4034](https://github.com/antoinenguyen-09/CVE-2021-4034)
 - [wudicainiao/cve-2021-4034](https://github.com/wudicainiao/cve-2021-4034)
 - [TanmoyG1800/CVE-2021-4034](https://github.com/TanmoyG1800/CVE-2021-4034)
@@ -52026,6 +52058,7 @@
 - [manfredgabriel/cve-2021-41773-lab](https://github.com/manfredgabriel/cve-2021-41773-lab)
 - [KunalKhandelwal-dev/cve-2021-41773-lab](https://github.com/KunalKhandelwal-dev/cve-2021-41773-lab)
 - [Shams-Ul-Mehmood/CVE-2021-41773-Exploit](https://github.com/Shams-Ul-Mehmood/CVE-2021-41773-Exploit)
+- [lucastran05/CVE-2021-41773](https://github.com/lucastran05/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
