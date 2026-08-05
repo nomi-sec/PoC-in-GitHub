@@ -1893,6 +1893,13 @@
 - [MichaelAdamGroberman/CVE-2026-13768](https://github.com/MichaelAdamGroberman/CVE-2026-13768)
 - [J4ck3LSyN-Gen2/CVE-2026-13768](https://github.com/J4ck3LSyN-Gen2/CVE-2026-13768)
 
+### CVE-2026-13934 (2026-06-30)
+
+<code>Insufficient validation of untrusted input in Dawn in Google Chrome on Android prior to 150.0.7871.47 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Medium)
+</code>
+
+- [ArtWide/cve-2026-13934](https://github.com/ArtWide/cve-2026-13934)
+
 ### CVE-2026-14191 (2026-07-01)
 
 <code>An out-of-bounds heap write exists in the RAR5 recovery-volume (.rev) parser in WinRAR and UnRAR (RecVolumes5::ReadHeader in recvol5.cpp). The RecItems vector is sized only when the first .rev file in a set is processed; subsequent .rev files supply an independent RecNum value that is validated against that file's own TotalCount field but never against the actual size of RecItems. A crafted set of two or more .rev files can therefore write an attacker-controlled 32-bit value (the header's RevCRC field) to RecItems[RecNum] at an attacker-controlled offset up to 65534 * sizeof(RecVolItem) bytes past the allocation, corrupting adjacent heap objects. Triggering requires the victim to run a recovery/test operation on an attacker-supplied .rev set (for example 'unrar t x.part1.rev', WinRAR 'Repair archive', or auto-recovery when extracting a volume set with a missing .rar part). This is the RAR5-path sibling of CVE-2023-40477 (which was fixed in the RAR3 path only in WinRAR 6.23). Fixed in WinRAR / RAR 7.23.
@@ -2093,6 +2100,9 @@
 </code>
 
 - [Hunt-Benito/pgadmin-ai-assistant-sql-injection-cve-2026-17351-lexer-differential-bypass](https://github.com/Hunt-Benito/pgadmin-ai-assistant-sql-injection-cve-2026-17351-lexer-differential-bypass)
+
+### CVE-2026-17532
+- [kalhoralireza/CVE-2026-17532](https://github.com/kalhoralireza/CVE-2026-17532)
 
 ### CVE-2026-17543 (2026-07-30)
 
@@ -3035,6 +3045,13 @@
 
 - [nikosecurity/CVE-2026-26179](https://github.com/nikosecurity/CVE-2026-26179)
 
+### CVE-2026-26190 (2026-02-13)
+
+<code>Milvus is an open-source vector database built for generative AI applications. Prior to 2.5.27 and 2.6.10, Milvus exposes TCP port 9091 by default, which enables authentication bypasses. The /expr debug endpoint uses a weak, predictable default authentication token derived from etcd.rootPath (default: by-dev), enabling arbitrary expression evaluation. The full REST API (/api/v1/*) is registered on the metrics/management port without any authentication, allowing unauthenticated access to all business operations including data manipulation and credential management. This vulnerability is fixed in 2.5.27 and 2.6.10.
+</code>
+
+- [qianlijaingshan/milvus-auth-audit](https://github.com/qianlijaingshan/milvus-auth-audit)
+
 ### CVE-2026-26216 (2026-02-12)
 
 <code>Crawl4AI versions prior to 0.8.0 contain a remote code execution vulnerability in the Docker API deployment. The /crawl endpoint accepts a hooks parameter containing Python code that is executed using exec(). The __import__ builtin was included in the allowed builtins, allowing unauthenticated remote attackers to import arbitrary modules and execute system commands. Successful exploitation allows full server compromise, including arbitrary command execution, file read and write access, sensitive data exfiltration, and lateral movement within internal networks.
@@ -3480,6 +3497,7 @@
 - [TeamN4C/SG-2026-0013](https://github.com/TeamN4C/SG-2026-0013)
 - [TrevoCastles/CVE-2026-31431-copy-fail](https://github.com/TrevoCastles/CVE-2026-31431-copy-fail)
 - [dev1681/CVE-2026-31431](https://github.com/dev1681/CVE-2026-31431)
+- [joaocalciolari07/copyfail-guard](https://github.com/joaocalciolari07/copyfail-guard)
 
 ### CVE-2026-31525 (2026-04-22)
 
@@ -6748,6 +6766,13 @@
 
 - [HORKimhab/CVE-2026-54900](https://github.com/HORKimhab/CVE-2026-54900)
 
+### CVE-2026-54917 (2026-06-25)
+
+<code>SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables. Prior to 4.30, the S3 API gateway and the Iceberg REST catalog gateway construct their routers with mux.NewRouter().SkipClean(true). With path cleaning disabled, a .. segment inside the URL survives routing, so a request such as `GET /bucket-A/../evil-bucket/key`, is matched as bucket=bucket-A, object=../evil-bucket/key. The captured object key is then joined into a filer path with util.JoinPath (S3) / path.Join (Iceberg), which collapse the .. server-side, so the actual read or write lands in evil-bucket. This vulnerability is fixed in 4.30.
+</code>
+
+- [BiiTts/CVE-2026-54917-SeaweedFS-Cross-Bucket-Traversal](https://github.com/BiiTts/CVE-2026-54917-SeaweedFS-Cross-Bucket-Traversal)
+
 ### CVE-2026-54992 (2026-07-14)
 
 <code>Heap-based buffer overflow in Windows Message Queuing Queue Manager allows an unauthorized attacker to execute code locally.
@@ -7256,6 +7281,7 @@
 - [Procjevt/CVE-2026-63030](https://github.com/Procjevt/CVE-2026-63030)
 - [x-znn/CVE-2026-63030](https://github.com/x-znn/CVE-2026-63030)
 - [rechandra/wp2exp-2026](https://github.com/rechandra/wp2exp-2026)
+- [minwunn/wp2shell-CVE-2026-63030](https://github.com/minwunn/wp2shell-CVE-2026-63030)
 
 ### CVE-2026-63077 (2026-07-27)
 
@@ -9139,7 +9165,6 @@
 - [AnotherSec/CVE-2025-6440](https://github.com/AnotherSec/CVE-2025-6440)
 - [Nxploited/CVE-2025-6440](https://github.com/Nxploited/CVE-2025-6440)
 - [m2hcz/CVE-2025-6440-Poc-Exploit](https://github.com/m2hcz/CVE-2025-6440-Poc-Exploit)
-- [rimbadirgantara/CVE-2025-6440](https://github.com/rimbadirgantara/CVE-2025-6440)
 - [0axz-tools/CVE-2025-6440](https://github.com/0axz-tools/CVE-2025-6440)
 - [sahmsec/CVE-2025-6440](https://github.com/sahmsec/CVE-2025-6440)
 - [Cyber-DarkNay/CVE-2025-6440](https://github.com/Cyber-DarkNay/CVE-2025-6440)
@@ -12335,6 +12360,7 @@
 - [em0gi/CVE-2025-27840](https://github.com/em0gi/CVE-2025-27840)
 - [demining/Bluetooth-Attacks-CVE-2025-27840](https://github.com/demining/Bluetooth-Attacks-CVE-2025-27840)
 - [ladyg00se/CVE-2025-27840-WIP](https://github.com/ladyg00se/CVE-2025-27840-WIP)
+- [JasonW88/esp32-cve-2025-27840-power-trace-experiment](https://github.com/JasonW88/esp32-cve-2025-27840-power-trace-experiment)
 
 ### CVE-2025-27893 (2025-03-11)
 
@@ -18120,6 +18146,7 @@
 </code>
 
 - [shinyseam/CVE-2025-64513](https://github.com/shinyseam/CVE-2025-64513)
+- [qianlijaingshan/milvus-auth-audit](https://github.com/qianlijaingshan/milvus-auth-audit)
 
 ### CVE-2025-64516 (2026-01-15)
 
@@ -18780,9 +18807,6 @@
 - [materaj2/exploit_cve_2025_67303](https://github.com/materaj2/exploit_cve_2025_67303)
 - [wcnmwcis/CVE-2026-22777](https://github.com/wcnmwcis/CVE-2026-22777)
 - [jcaz2378/ComfyUIrce](https://github.com/jcaz2378/ComfyUIrce)
-
-### CVE-2025-67315
-- [r-pradyun/CVE-2025-67315](https://github.com/r-pradyun/CVE-2025-67315)
 
 ### CVE-2025-67325 (2026-01-08)
 
@@ -23206,6 +23230,8 @@
 - [Dhananjayasj/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/Dhananjayasj/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
 - [H1ssBl1tz/Blind-Trust-CVE-2024-21413-Research](https://github.com/H1ssBl1tz/Blind-Trust-CVE-2024-21413-Research)
 - [YoguiCR/CVE-2024-21413-Outlook-Assessment](https://github.com/YoguiCR/CVE-2024-21413-Outlook-Assessment)
+- [h4cknain/CVE-2024-21413-Microsoft-Outlook-Moniker-Link-Vulnerability](https://github.com/h4cknain/CVE-2024-21413-Microsoft-Outlook-Moniker-Link-Vulnerability)
+- [OmarMahmoud1024/tryhackme-monikerlink-writeup](https://github.com/OmarMahmoud1024/tryhackme-monikerlink-writeup)
 
 ### CVE-2024-21490 (2024-02-10)
 
@@ -29587,7 +29613,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-52380](https://github.com/RandomRobbieBF/CVE-2024-52380)
-- [Nxploited/CVE-2024-52380-Exploit](https://github.com/Nxploited/CVE-2024-52380-Exploit)
 
 ### CVE-2024-52382 (2024-11-14)
 
@@ -30412,13 +30437,6 @@
 </code>
 
 - [pointedsec/CVE-2024-57725](https://github.com/pointedsec/CVE-2024-57725)
-
-### CVE-2024-57727 (2025-01-15)
-
-<code>SimpleHelp remote support software v5.5.7 and before is vulnerable to multiple path traversal vulnerabilities that enable unauthenticated remote attackers to download arbitrary files from the SimpleHelp host via crafted HTTP requests. These files include server configuration files containing various secrets and hashed user passwords.
-</code>
-
-- [imjdl/CVE-2024-57727](https://github.com/imjdl/CVE-2024-57727)
 
 ### CVE-2024-57778 (2025-02-14)
 
@@ -32159,7 +32177,6 @@
 </code>
 
 - [yoryio/CVE-2023-7028](https://github.com/yoryio/CVE-2023-7028)
-- [hackeremmen/gitlab-exploit](https://github.com/hackeremmen/gitlab-exploit)
 - [soltanali0/CVE-2023-7028](https://github.com/soltanali0/CVE-2023-7028)
 - [gh-ost00/CVE-2023-7028](https://github.com/gh-ost00/CVE-2023-7028)
 - [sariamubeen/CVE-2023-7028](https://github.com/sariamubeen/CVE-2023-7028)
@@ -32349,6 +32366,13 @@
 
 - [kasnria001/pwnage24mtk](https://github.com/kasnria001/pwnage24mtk)
 - [wzy114514sb/pwnage24mtk](https://github.com/wzy114514sb/pwnage24mtk)
+
+### CVE-2023-20768 (2023-07-04)
+
+<code>In ion, there is a possible out of bounds read due to type confusion. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS07560720; Issue ID: ALPS07559800.
+</code>
+
+- [murf-xd/cve-2023-20768](https://github.com/murf-xd/cve-2023-20768)
 
 ### CVE-2023-20860 (2023-03-27)
 
@@ -32902,7 +32926,7 @@
 - [0x0d3ad/CVE-2023-22518](https://github.com/0x0d3ad/CVE-2023-22518)
 - [C1ph3rX13/CVE-2023-22518](https://github.com/C1ph3rX13/CVE-2023-22518)
 - [Lilly-dox/Exploit-CVE-2023-22518](https://github.com/Lilly-dox/Exploit-CVE-2023-22518)
-- [ductink98lhp/analyze-Exploit-CVE-2023-22518-Confluence](https://github.com/ductink98lhp/analyze-Exploit-CVE-2023-22518-Confluence)
+- [d3ckkNo0b/analyze-Exploit-CVE-2023-22518-Confluence](https://github.com/d3ckkNo0b/analyze-Exploit-CVE-2023-22518-Confluence)
 
 ### CVE-2023-22524 (2023-12-06)
 
@@ -42598,6 +42622,7 @@
 - [s3l33/CVE-2022-25012](https://github.com/s3l33/CVE-2022-25012)
 - [G4sp4rCS/CVE-2022-25012-POC](https://github.com/G4sp4rCS/CVE-2022-25012-POC)
 - [XK3NF4/CVE-2022-25012](https://github.com/XK3NF4/CVE-2022-25012)
+- [m1kb0k/CVE-2022-25012-dvr4-weak-password-encryption](https://github.com/m1kb0k/CVE-2022-25012-dvr4-weak-password-encryption)
 
 ### CVE-2022-25018 (2022-03-01)
 
@@ -64722,7 +64747,6 @@
 </code>
 
 - [diwangs/react16-ssr](https://github.com/diwangs/react16-ssr)
-- [nitindevelopermca/react-CVE-2018-6341](https://github.com/nitindevelopermca/react-CVE-2018-6341)
 
 ### CVE-2018-6376 (2018-01-30)
 
