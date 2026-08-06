@@ -3083,6 +3083,7 @@
 
 - [dinosn/CVE-2026-25243](https://github.com/dinosn/CVE-2026-25243)
 - [dinosn/CVE-2026-25243-debugfree](https://github.com/dinosn/CVE-2026-25243-debugfree)
+- [sohail-saha-optiv/CVE-2026-25243](https://github.com/sohail-saha-optiv/CVE-2026-25243)
 
 ### CVE-2026-25250
 - [TheMalwareGuardian/CVE-2026-25250](https://github.com/TheMalwareGuardian/CVE-2026-25250)
@@ -3970,6 +3971,20 @@
 </code>
 
 - [HORKimhab/CVE-2026-34926](https://github.com/HORKimhab/CVE-2026-34926)
+
+### CVE-2026-34980 (2026-04-03)
+
+<code>OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.16 and prior, in a network-exposed cupsd with a shared target queue, an unauthorized client can send a Print-Job to that shared PostScript queue without authentication. The server accepts a page-border value supplied as textWithoutLanguage, preserves an embedded newline through option escaping and reparse, and then reparses the resulting second-line PPD: text as a trusted scheduler control record. A follow-up raw print job can therefore make the server execute an attacker-chosen existing binary such as /usr/bin/vim as lp. At time of publication, there are no publicly available patches.
+</code>
+
+- [HORKimhab/CVE-2026-34980](https://github.com/HORKimhab/CVE-2026-34980)
+
+### CVE-2026-34990 (2026-04-03)
+
+<code>OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.16 and prior, a local unprivileged user can coerce cupsd into authenticating to an attacker-controlled localhost IPP service with a reusable Authorization: Local ... token. That token is enough to drive /admin/ requests on localhost, and the attacker can combine CUPS-Create-Local-Printer with printer-is-shared=true to persist a file:///... queue even though the normal FileDevice policy rejects such URIs. Printing to that queue gives an arbitrary root file overwrite; the PoC below uses that primitive to drop a sudoers fragment and demonstrate root command execution. At time of publication, there are no publicly available patches.
+</code>
+
+- [HORKimhab/CVE-2026-34990](https://github.com/HORKimhab/CVE-2026-34990)
 
 ### CVE-2026-35029 (2026-04-06)
 
@@ -7245,6 +7260,9 @@
 
 - [cybertechajju/CVE-2026-59734-POC](https://github.com/cybertechajju/CVE-2026-59734-POC)
 
+### CVE-2026-59774
+- [FlowerWitch/CVE-2026-59774_docker](https://github.com/FlowerWitch/CVE-2026-59774_docker)
+
 ### CVE-2026-59827 (2026-07-09)
 
 <code>Metabase is an open-source business intelligence and embedded analytics tool. Prior to 1.58.15, 1.59.12, 1.60.6.3, and 1.61.1.4, Metabase instances with an H2 database connection, including the default sample database, deserialize arbitrary Java objects returned in H2 native query result columns of type OTHER without validation, allowing an authenticated user who can run native H2 queries to execute code on the Metabase server. This issue is fixed in versions 1.58.15, 1.59.12, 1.60.6.3, and 1.61.1.4.
@@ -7506,6 +7524,13 @@
 </code>
 
 - [zer0dayf/CVE-2026-65008](https://github.com/zer0dayf/CVE-2026-65008)
+
+### CVE-2026-65058 (2026-07-21)
+
+<code>Trezor Safe 3, Safe 5, and Safe 7 firmware contains a confirmation-binding flaw in the Ethereum sign_tx / sign_tx_eip1559 flow. For contract interactions, the device confirms only the initial calldata chunk while the signature commits to the full streamed calldata. An attacker could present calldata to a victim then supply a different tail that changes the signed transaction. Fixed in 70c9b0c.
+</code>
+
+- [iktok90-design/trezor-cve-2026-65058](https://github.com/iktok90-design/trezor-cve-2026-65058)
 
 ### CVE-2026-65321 (2026-08-02)
 
@@ -11755,7 +11780,7 @@
 - [La3B0z/CVE-2025-24813-POC](https://github.com/La3B0z/CVE-2025-24813-POC)
 - [Heimd411/CVE-2025-24813-noPoC](https://github.com/Heimd411/CVE-2025-24813-noPoC)
 - [horsehacks/CVE-2025-24813-checker](https://github.com/horsehacks/CVE-2025-24813-checker)
-- [f8l124/CVE-2025-24813-POC](https://github.com/f8l124/CVE-2025-24813-POC)
+- [NamelessSaint8/CVE-2025-24813-POC](https://github.com/NamelessSaint8/CVE-2025-24813-POC)
 - [Franconyu/Poc_for_CVE-2025-24813](https://github.com/Franconyu/Poc_for_CVE-2025-24813)
 - [cchopin/CVE-Arsenal-Lab](https://github.com/cchopin/CVE-Arsenal-Lab)
 - [Mattb709/CVE-2025-24813-PoC-Apache-Tomcat-RCE](https://github.com/Mattb709/CVE-2025-24813-PoC-Apache-Tomcat-RCE)
@@ -20522,6 +20547,7 @@
 - [Clarissss/osTicketFileReadIntoRCE](https://github.com/Clarissss/osTicketFileReadIntoRCE)
 - [rcribelar-nucleus/my-cool-demo-php-code](https://github.com/rcribelar-nucleus/my-cool-demo-php-code)
 - [whyuhurtz/wongpress](https://github.com/whyuhurtz/wongpress)
+- [HORKimhab/CVE-2022-31626-CVE-2024-2961-CVE-2019-6977](https://github.com/HORKimhab/CVE-2022-31626-CVE-2024-2961-CVE-2019-6977)
 
 ### CVE-2024-2997 (2024-03-27)
 
@@ -30039,7 +30065,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-54369](https://github.com/RandomRobbieBF/CVE-2024-54369)
-- [Nxploited/CVE-2024-54369-PoC](https://github.com/Nxploited/CVE-2024-54369-PoC)
 
 ### CVE-2024-54378 (2024-12-16)
 
@@ -71277,7 +71302,6 @@
 - [nicoleman0/CVE-2016-6210-OpenSSHd-7.2p2](https://github.com/nicoleman0/CVE-2016-6210-OpenSSHd-7.2p2)
 - [KiPhuong/cve-2016-6210](https://github.com/KiPhuong/cve-2016-6210)
 - [Alisha-chaudhary/ssh-enum](https://github.com/Alisha-chaudhary/ssh-enum)
-- [serexp/poc-CVE20166210](https://github.com/serexp/poc-CVE20166210)
 
 ### CVE-2016-6271 (2017-01-18)
 
