@@ -2144,7 +2144,11 @@
 
 - [HackSpeak/CVE-2026-17566](https://github.com/HackSpeak/CVE-2026-17566)
 
-### CVE-2026-17583
+### CVE-2026-17583 (2026-08-05)
+
+<code>The affected\n\nThermo Fisher Applied Biosystems Genetic Analyzers are vulnerable because .fsa/.hid output files can be edited. An attacker could tamper with these files, altering DNA data and resulting in inaccurate DNA test outcomes.
+</code>
+
 - [HORKimhab/CVE-2026-17583](https://github.com/HORKimhab/CVE-2026-17583)
 
 ### CVE-2026-18220 (2026-07-29)
@@ -2153,6 +2157,13 @@
 </code>
 
 - [4D4J/objdump-Out-Of-Bounds-write](https://github.com/4D4J/objdump-Out-Of-Bounds-write)
+
+### CVE-2026-18556 (2026-08-01)
+
+<code>Authentication bypass using an alternate path or channel vulnerability in N-able N-central allows Authentication Bypass.\n\nThis issue affects N-central: through 2026.1.
+</code>
+
+- [CreamyG31337/ncentral-compromise-ioc-triage](https://github.com/CreamyG31337/ncentral-compromise-ioc-triage)
 
 ### CVE-2026-18577 (2026-08-02)
 
@@ -2722,6 +2733,75 @@
 - [M8seven/cve-2026-22874-gitea-ssrf-allowlist](https://github.com/M8seven/cve-2026-22874-gitea-ssrf-allowlist)
 - [Eliot-code/CVE-2026-22874-PoC](https://github.com/Eliot-code/CVE-2026-22874-PoC)
 
+### CVE-2026-23001 (2026-01-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nmacvlan: fix possible UAF in macvlan_forward_source()\n\nAdd RCU protection on (struct macvlan_source_entry)-&gt;vlan.\n\nWhenever macvlan_hash_del_source() is called, we must clear\nentry-&gt;vlan pointer before RCU grace period starts.\n\nThis allows macvlan_forward_source() to skip over\nentries queued for freeing.\n\nNote that macvlan_dev are already RCU protected, as they\nare embedded in a standard netdev (netdev_priv(ndev)).\n\nhttps: //lore.kernel.org/netdev/695fb1e8.050a0220.1c677c.039f.GAE@google.com/T/#u
+</code>
+
+- [George0Papasotiriou/CVE-2026-23001-Hugging-Face-Transformers-Model-Deserialization-Arbitrary-Code-via-Pickle-](https://github.com/George0Papasotiriou/CVE-2026-23001-Hugging-Face-Transformers-Model-Deserialization-Arbitrary-Code-via-Pickle-)
+
+### CVE-2026-23002 (2026-01-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nlib/buildid: use __kernel_read() for sleepable context\n\nPrevent a &quot;BUG: unable to handle kernel NULL pointer dereference in\nfilemap_read_folio&quot;.\n\nFor the sleepable context, convert freader to use __kernel_read() instead\nof direct page cache access via read_cache_folio().  This simplifies the\nfaultable code path by using the standard kernel file reading interface\nwhich handles all the complexity of reading file data.\n\nAt the moment we are not changing the code for non-sleepable context which\nuses filemap_get_folio() and only succeeds if the target folios are\nalready in memory and up-to-date.  The reason is to keep the patch simple\nand easier to backport to stable kernels.\n\nSyzbot repro does not crash the kernel anymore and the selftests run\nsuccessfully.\n\nIn the follow up we will make __kernel_read() with IOCB_NOWAIT work for\nnon-sleepable contexts.  In addition, I would like to replace the\nsecretmem check with a more generic approach and will add fstest for the\nbuildid code.
+</code>
+
+- [George0Papasotiriou/CVE-2026-23002-5G-NAS-Message-Buffer-Overflow-in-gNodeB](https://github.com/George0Papasotiriou/CVE-2026-23002-5G-NAS-Message-Buffer-Overflow-in-gNodeB)
+
+### CVE-2026-23003 (2026-01-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nip6_tunnel: use skb_vlan_inet_prepare() in __ip6_tnl_rcv()\n\nBlamed commit did not take care of VLAN encapsulations\nas spotted by syzbot [1].\n\nUse skb_vlan_inet_prepare() instead of pskb_inet_may_pull().\n\n[1]\n BUG: KMSAN: uninit-value in __INET_ECN_decapsulate include/net/inet_ecn.h:253 [inline]\n BUG: KMSAN: uninit-value in INET_ECN_decapsulate include/net/inet_ecn.h:275 [inline]\n BUG: KMSAN: uninit-value in IP6_ECN_decapsulate+0x7a8/0x1fa0 include/net/inet_ecn.h:321\n  __INET_ECN_decapsulate include/net/inet_ecn.h:253 [inline]\n  INET_ECN_decapsulate include/net/inet_ecn.h:275 [inline]\n  IP6_ECN_decapsulate+0x7a8/0x1fa0 include/net/inet_ecn.h:321\n  ip6ip6_dscp_ecn_decapsulate+0x16f/0x1b0 net/ipv6/ip6_tunnel.c:729\n  __ip6_tnl_rcv+0xed9/0x1b50 net/ipv6/ip6_tunnel.c:860\n  ip6_tnl_rcv+0xc3/0x100 net/ipv6/ip6_tunnel.c:903\n gre_rcv+0x1529/0x1b90 net/ipv6/ip6_gre.c:-1\n  ip6_protocol_deliver_rcu+0x1c89/0x2c60 net/ipv6/ip6_input.c:438\n  ip6_input_finish+0x1f4/0x4a0 net/ipv6/ip6_input.c:489\n  NF_HOOK include/linux/netfilter.h:318 [inline]\n  ip6_input+0x9c/0x330 net/ipv6/ip6_input.c:500\n  ip6_mc_input+0x7ca/0xc10 net/ipv6/ip6_input.c:590\n  dst_input include/net/dst.h:474 [inline]\n  ip6_rcv_finish+0x958/0x990 net/ipv6/ip6_input.c:79\n  NF_HOOK include/linux/netfilter.h:318 [inline]\n  ipv6_rcv+0xf1/0x3c0 net/ipv6/ip6_input.c:311\n  __netif_receive_skb_one_core net/core/dev.c:6139 [inline]\n  __netif_receive_skb+0x1df/0xac0 net/core/dev.c:6252\n  netif_receive_skb_internal net/core/dev.c:6338 [inline]\n  netif_receive_skb+0x57/0x630 net/core/dev.c:6397\n  tun_rx_batched+0x1df/0x980 drivers/net/tun.c:1485\n  tun_get_user+0x5c0e/0x6c60 drivers/net/tun.c:1953\n  tun_chr_write_iter+0x3e9/0x5c0 drivers/net/tun.c:1999\n  new_sync_write fs/read_write.c:593 [inline]\n  vfs_write+0xbe2/0x15d0 fs/read_write.c:686\n  ksys_write fs/read_write.c:738 [inline]\n  __do_sys_write fs/read_write.c:749 [inline]\n  __se_sys_write fs/read_write.c:746 [inline]\n  __x64_sys_write+0x1fb/0x4d0 fs/read_write.c:746\n  x64_sys_call+0x30ab/0x3e70 arch/x86/include/generated/asm/syscalls_64.h:2\n  do_syscall_x64 arch/x86/entry/syscall_64.c:63 [inline]\n  do_syscall_64+0xd3/0xf80 arch/x86/entry/syscall_64.c:94\n entry_SYSCALL_64_after_hwframe+0x77/0x7f\n\nUninit was created at:\n  slab_post_alloc_hook mm/slub.c:4960 [inline]\n  slab_alloc_node mm/slub.c:5263 [inline]\n  kmem_cache_alloc_node_noprof+0x9e7/0x17a0 mm/slub.c:5315\n  kmalloc_reserve+0x13c/0x4b0 net/core/skbuff.c:586\n  __alloc_skb+0x805/0x1040 net/core/skbuff.c:690\n  alloc_skb include/linux/skbuff.h:1383 [inline]\n  alloc_skb_with_frags+0xc5/0xa60 net/core/skbuff.c:6712\n  sock_alloc_send_pskb+0xacc/0xc60 net/core/sock.c:2995\n  tun_alloc_skb drivers/net/tun.c:1461 [inline]\n  tun_get_user+0x1142/0x6c60 drivers/net/tun.c:1794\n  tun_chr_write_iter+0x3e9/0x5c0 drivers/net/tun.c:1999\n  new_sync_write fs/read_write.c:593 [inline]\n  vfs_write+0xbe2/0x15d0 fs/read_write.c:686\n  ksys_write fs/read_write.c:738 [inline]\n  __do_sys_write fs/read_write.c:749 [inline]\n  __se_sys_write fs/read_write.c:746 [inline]\n  __x64_sys_write+0x1fb/0x4d0 fs/read_write.c:746\n  x64_sys_call+0x30ab/0x3e70 arch/x86/include/generated/asm/syscalls_64.h:2\n  do_syscall_x64 arch/x86/entry/syscall_64.c:63 [inline]\n  do_syscall_64+0xd3/0xf80 arch/x86/entry/syscall_64.c:94\n entry_SYSCALL_64_after_hwframe+0x77/0x7f\n\nCPU: 0 UID: 0 PID: 6465 Comm: syz.0.17 Not tainted syzkaller #0 PREEMPT(none)\nHardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 10/25/2025
+</code>
+
+- [George0Papasotiriou/CVE-2026-23003-Cross-Chain-Bridge-Message-Forging-via-Missing-Origin-Chain-ID](https://github.com/George0Papasotiriou/CVE-2026-23003-Cross-Chain-Bridge-Message-Forging-via-Missing-Origin-Chain-ID)
+
+### CVE-2026-23004 (2026-01-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\ndst: fix races in rt6_uncached_list_del() and rt_del_uncached_list()\n\nsyzbot was able to crash the kernel in rt6_uncached_list_flush_dev()\nin an interesting way [1]\n\nCrash happens in list_del_init()/INIT_LIST_HEAD() while writing\nlist-&gt;prev, while the prior write on list-&gt;next went well.\n\nstatic inline void INIT_LIST_HEAD(struct list_head *list)\n{\n</code>
+
+- [George0Papasotiriou/CVE-2026-23004-Automotive-UDS-Authentication-Bypass-via-Replay-Attack](https://github.com/George0Papasotiriou/CVE-2026-23004-Automotive-UDS-Authentication-Bypass-via-Replay-Attack)
+
+### CVE-2026-23005 (2026-01-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nx86/fpu: Clear XSTATE_BV[i] in guest XSAVE state whenever XFD[i]=1\n\nWhen loading guest XSAVE state via KVM_SET_XSAVE, and when updating XFD in\nresponse to a guest WRMSR, clear XFD-disabled features in the saved (or to\nbe restored) XSTATE_BV to ensure KVM doesn't attempt to load state for\nfeatures that are disabled via the guest's XFD.  Because the kernel\nexecutes XRSTOR with the guest's XFD, saving XSTATE_BV[i]=1 with XFD[i]=1\nwill cause XRSTOR to #NM and panic the kernel.\n\nE.g. if fpu_update_guest_xfd() sets XFD without clearing XSTATE_BV:\n\n  ------------[ cut here ]------------\n  WARNING: arch/x86/kernel/traps.c:1524 at exc_device_not_available+0x101/0x110, CPU#29: amx_test/848\n  Modules linked in: kvm_intel kvm irqbypass\n  CPU: 29 UID: 1000 PID: 848 Comm: amx_test Not tainted 6.19.0-rc2-ffa07f7fd437-x86_amx_nm_xfd_non_init-vm #171 NONE\n  Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS 0.0.0 02/06/2015\n  RIP: 0010:exc_device_not_available+0x101/0x110\n  Call Trace:\n   &lt;TASK&gt;\n   asm_exc_device_not_available+0x1a/0x20\n  RIP: 0010:restore_fpregs_from_fpstate+0x36/0x90\n   switch_fpu_return+0x4a/0xb0\n   kvm_arch_vcpu_ioctl_run+0x1245/0x1e40 [kvm]\n   kvm_vcpu_ioctl+0x2c3/0x8f0 [kvm]\n   __x64_sys_ioctl+0x8f/0xd0\n   do_syscall_64+0x62/0x940\n   entry_SYSCALL_64_after_hwframe+0x4b/0x53\n   &lt;/TASK&gt;\n  ---[ end trace 0000000000000000 ]---\n\nThis can happen if the guest executes WRMSR(MSR_IA32_XFD) to set XFD[18] = 1,\nand a host IRQ triggers kernel_fpu_begin() prior to the vmexit handler's\ncall to fpu_update_guest_xfd().\n\nand if userspace stuffs XSTATE_BV[i]=1 via KVM_SET_XSAVE:\n\n  ------------[ cut here ]------------\n  WARNING: arch/x86/kernel/traps.c:1524 at exc_device_not_available+0x101/0x110, CPU#14: amx_test/867\n  Modules linked in: kvm_intel kvm irqbypass\n  CPU: 14 UID: 1000 PID: 867 Comm: amx_test Not tainted 6.19.0-rc2-2dace9faccd6-x86_amx_nm_xfd_non_init-vm #168 NONE\n  Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS 0.0.0 02/06/2015\n  RIP: 0010:exc_device_not_available+0x101/0x110\n  Call Trace:\n   &lt;TASK&gt;\n   asm_exc_device_not_available+0x1a/0x20\n  RIP: 0010:restore_fpregs_from_fpstate+0x36/0x90\n   fpu_swap_kvm_fpstate+0x6b/0x120\n   kvm_load_guest_fpu+0x30/0x80 [kvm]\n   kvm_arch_vcpu_ioctl_run+0x85/0x1e40 [kvm]\n   kvm_vcpu_ioctl+0x2c3/0x8f0 [kvm]\n   __x64_sys_ioctl+0x8f/0xd0\n   do_syscall_64+0x62/0x940\n   entry_SYSCALL_64_after_hwframe+0x4b/0x53\n   &lt;/TASK&gt;\n  ---[ end trace 0000000000000000 ]---\n\nThe new behavior is consistent with the AMX architecture.  Per Intel's SDM,\nXSAVE saves XSTATE_BV as '0' for components that are disabled via XFD\n(and non-compacted XSAVE saves the initial configuration of the state\ncomponent):\n\n  If XSAVE, XSAVEC, XSAVEOPT, or XSAVES is saving the state component i,\n  the instruction does not generate #NM when XCR0[i] = IA32_XFD[i] = 1;\n  instead, it operates as if XINUSE[i] = 0 (and the state component was\n  in its initial state): it saves bit i of XSTATE_BV field of the XSAVE\n  header as 0; in addition, XSAVE saves the initial configuration of the\n  state component (the other instructions do not save state component i).\n\nAlternatively, KVM could always do XRSTOR with XFD=0, e.g. by using\na constant XFD based on the set of enabled features when XSAVEing for\na struct fpu_guest.  However, having XSTATE_BV[i]=1 for XFD-disabled\nfeatures can only happen in the above interrupt case, or in similar\nscenarios involving preemption on preemptible kernels, because\nfpu_swap_kvm_fpstate()'s call to save_fpregs_to_fpstate() saves the\noutgoing FPU state with the current XFD; and that is (on all but the\nfirst WRMSR to XFD) the guest XFD.\n\nTherefore, XFD can only go out of sync with XSTATE_BV in the above\ninterrupt case, or in similar scenarios involving preemption on\npreemptible kernels, and it we can consider it (de facto) part of KVM\nABI that KVM_GET_XSAVE returns XSTATE_BV[i]=0 for XFD-disabled features.\n\n[Move clea\n---truncated---
+</code>
+
+- [George0Papasotiriou/CVE-2026-23005-Matter-Commissioning-Code-Brute-Force-Without-Rate-Limit](https://github.com/George0Papasotiriou/CVE-2026-23005-Matter-Commissioning-Code-Brute-Force-Without-Rate-Limit)
+
+### CVE-2026-23006 (2026-01-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: tlv320adcx140: fix null pointer\n\nThe &quot;snd_soc_component&quot; in &quot;adcx140_priv&quot; was only used once but never\nset. It was only used for reaching &quot;dev&quot; which is already present in\n&quot;adcx140_priv&quot;.
+</code>
+
+- [George0Papasotiriou/CVE-2026-23006-Kyber-Ciphertext-Length-Side-Channel](https://github.com/George0Papasotiriou/CVE-2026-23006-Kyber-Ciphertext-Length-Side-Channel)
+
+### CVE-2026-23007 (2026-01-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nblock: zero non-PI portion of auto integrity buffer\n\nThe auto-generated integrity buffer for writes needs to be fully\ninitialized before being passed to the underlying block device,\notherwise the uninitialized memory can be read back by userspace or\nanyone with physical access to the storage device. If protection\ninformation is generated, that portion of the integrity buffer is\nalready initialized. The integrity data is also zeroed if PI generation\nis disabled via sysfs or the PI tuple size is 0. However, this misses\nthe case where PI is generated and the PI tuple size is nonzero, but the\nmetadata size is larger than the PI tuple. In this case, the remainder\n(&quot;opaque&quot;) of the metadata is left uninitialized.\nGeneralize the BLK_INTEGRITY_CSUM_NONE check to cover any case when the\nmetadata is larger than just the PI tuple.
+</code>
+
+- [George0Papasotiriou/CVE-2026-23007-Serverless-Cold-Start-Memory-Remanence-Data-Leakage-](https://github.com/George0Papasotiriou/CVE-2026-23007-Serverless-Cold-Start-Memory-Remanence-Data-Leakage-)
+
+### CVE-2026-23008 (2026-01-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/vmwgfx: Fix KMS with 3D on HW version 10\n\nHW version 10 does not have GB Surfaces so there is no backing buffer for\nsurface backed FBs. This would result in a nullptr dereference and crash\nthe driver causing a black screen.
+</code>
+
+- [George0Papasotiriou/CVE-2026-23008-Solidity-Assembly-Return-Data-Size-Confusion](https://github.com/George0Papasotiriou/CVE-2026-23008-Solidity-Assembly-Return-Data-Size-Confusion)
+
+### CVE-2026-23009 (2026-01-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nxhci: sideband: don't dereference freed ring when removing sideband endpoint\n\nxhci_sideband_remove_endpoint() incorrecly assumes that the endpoint is\nrunning and has a valid transfer ring.\n\nLianqin reported a crash during suspend/wake-up stress testing, and\nfound the cause to be dereferencing a non-existing transfer ring\n'ep-&gt;ring' during xhci_sideband_remove_endpoint().\n\nThe endpoint and its ring may be in unknown state if this function\nis called after xHCI was reinitialized in resume (lost power), or if\ndevice is being re-enumerated, disconnected or endpoint already dropped.\n\nFix this by both removing unnecessary ring access, and by checking\nep-&gt;ring exists before dereferencing it. Also make sure endpoint is\nrunning before attempting to stop it.\n\nRemove the xhci_initialize_ring_info() call during sideband endpoint\nremoval as is it only initializes ring structure enqueue, dequeue and\ncycle state values to their starting values without changing actual\nhardware enqueue, dequeue and cycle state. Leaving them out of sync\nis worse than leaving it as it is. The endpoint will get freed in after\nthis in most usecases.\n\nIf the (audio) class driver want's to reuse the endpoint after offload\nthen it is up to the class driver to ensure endpoint is properly set up.
+</code>
+
+- [George0Papasotiriou/CVE-2026-23009-DICOM-Network-Image-Injection-Without-Authentication](https://github.com/George0Papasotiriou/CVE-2026-23009-DICOM-Network-Image-Injection-Without-Authentication)
+
+### CVE-2026-23010 (2026-01-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: Fix use-after-free in inet6_addr_del().\n\nsyzbot reported use-after-free of inet6_ifaddr in\ninet6_addr_del(). [0]\n\nThe cited commit accidentally moved ipv6_del_addr() for\nmngtmpaddr before reading its ifp-&gt;flags for temporary\naddresses in inet6_addr_del().\n\nLet's move ipv6_del_addr() down to fix the UAF.\n\n[0]:\nBUG: KASAN: slab-use-after-free in inet6_addr_del.constprop.0+0x67a/0x6b0 net/ipv6/addrconf.c:3117\nRead of size 4 at addr ffff88807b89c86c by task syz.3.1618/9593\n\nCPU: 0 UID: 0 PID: 9593 Comm: syz.3.1618 Not tainted syzkaller #0 PREEMPT(full)\nHardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 10/25/2025\nCall Trace:\n &lt;TASK&gt;\n __dump_stack lib/dump_stack.c:94 [inline]\n dump_stack_lvl+0x116/0x1f0 lib/dump_stack.c:120\n print_address_description mm/kasan/report.c:378 [inline]\n print_report+0xcd/0x630 mm/kasan/report.c:482\n kasan_report+0xe0/0x110 mm/kasan/report.c:595\n inet6_addr_del.constprop.0+0x67a/0x6b0 net/ipv6/addrconf.c:3117\n addrconf_del_ifaddr+0x11e/0x190 net/ipv6/addrconf.c:3181\n inet6_ioctl+0x1e5/0x2b0 net/ipv6/af_inet6.c:582\n sock_do_ioctl+0x118/0x280 net/socket.c:1254\n sock_ioctl+0x227/0x6b0 net/socket.c:1375\n vfs_ioctl fs/ioctl.c:51 [inline]\n __do_sys_ioctl fs/ioctl.c:597 [inline]\n __se_sys_ioctl fs/ioctl.c:583 [inline]\n __x64_sys_ioctl+0x18e/0x210 fs/ioctl.c:583\n do_syscall_x64 arch/x86/entry/syscall_64.c:63 [inline]\n do_syscall_64+0xcd/0xf80 arch/x86/entry/syscall_64.c:94\n entry_SYSCALL_64_after_hwframe+0x77/0x7f\nRIP: 0033:0x7f164cf8f749\nCode: ff ff c3 66 2e 0f 1f 84 00 00 00 00 00 0f 1f 40 00 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 &lt;48&gt; 3d 01 f0 ff ff 73 01 c3 48 c7 c1 a8 ff ff ff f7 d8 64 89 01 48\nRSP: 002b:00007f164de64038 EFLAGS: 00000246 ORIG_RAX: 0000000000000010\nRAX: ffffffffffffffda RBX: 00007f164d1e5fa0 RCX: 00007f164cf8f749\nRDX: 0000200000000000 RSI: 0000000000008936 RDI: 0000000000000003\nRBP: 00007f164d013f91 R08: 0000000000000000 R09: 0000000000000000\nR10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000\nR13: 00007f164d1e6038 R14: 00007f164d1e5fa0 R15: 00007ffde15c8288\n &lt;/TASK&gt;\n\nAllocated by task 9593:\n kasan_save_stack+0x33/0x60 mm/kasan/common.c:56\n kasan_save_track+0x14/0x30 mm/kasan/common.c:77\n poison_kmalloc_redzone mm/kasan/common.c:397 [inline]\n __kasan_kmalloc+0xaa/0xb0 mm/kasan/common.c:414\n kmalloc_noprof include/linux/slab.h:957 [inline]\n kzalloc_noprof include/linux/slab.h:1094 [inline]\n ipv6_add_addr+0x4e3/0x2010 net/ipv6/addrconf.c:1120\n inet6_addr_add+0x256/0x9b0 net/ipv6/addrconf.c:3050\n addrconf_add_ifaddr+0x1fc/0x450 net/ipv6/addrconf.c:3160\n inet6_ioctl+0x103/0x2b0 net/ipv6/af_inet6.c:580\n sock_do_ioctl+0x118/0x280 net/socket.c:1254\n sock_ioctl+0x227/0x6b0 net/socket.c:1375\n vfs_ioctl fs/ioctl.c:51 [inline]\n __do_sys_ioctl fs/ioctl.c:597 [inline]\n __se_sys_ioctl fs/ioctl.c:583 [inline]\n __x64_sys_ioctl+0x18e/0x210 fs/ioctl.c:583\n do_syscall_x64 arch/x86/entry/syscall_64.c:63 [inline]\n do_syscall_64+0xcd/0xf80 arch/x86/entry/syscall_64.c:94\n entry_SYSCALL_64_after_hwframe+0x77/0x7f\n\nFreed by task 6099:\n kasan_save_stack+0x33/0x60 mm/kasan/common.c:56\n kasan_save_track+0x14/0x30 mm/kasan/common.c:77\n kasan_save_free_info+0x3b/0x60 mm/kasan/generic.c:584\n poison_slab_object mm/kasan/common.c:252 [inline]\n __kasan_slab_free+0x5f/0x80 mm/kasan/common.c:284\n kasan_slab_free include/linux/kasan.h:234 [inline]\n slab_free_hook mm/slub.c:2540 [inline]\n slab_free_freelist_hook mm/slub.c:2569 [inline]\n slab_free_bulk mm/slub.c:6696 [inline]\n kmem_cache_free_bulk mm/slub.c:7383 [inline]\n kmem_cache_free_bulk+0x2bf/0x680 mm/slub.c:7362\n kfree_bulk include/linux/slab.h:830 [inline]\n kvfree_rcu_bulk+0x1b7/0x1e0 mm/slab_common.c:1523\n kvfree_rcu_drain_ready mm/slab_common.c:1728 [inline]\n kfree_rcu_monitor+0x1d0/0x2f0 mm/slab_common.c:1801\n process_one_work+0x9ba/0x1b20 kernel/workqueue.c:3257\n process_scheduled_works kernel/workqu\n---truncated---
+</code>
+
+- [George0Papasotiriou/CVE-2026-23010-CCSDS-Telecommand-Replay-Without-Sequence-Number](https://github.com/George0Papasotiriou/CVE-2026-23010-CCSDS-Telecommand-Replay-Without-Sequence-Number)
+
 ### CVE-2026-23111 (2026-02-13)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nf_tables: fix inverted genmask check in nft_map_catchall_activate()\n\nnft_map_catchall_activate() has an inverted element activity check\ncompared to its non-catchall counterpart nft_mapelem_activate() and\ncompared to what is logically required.\n\nnft_map_catchall_activate() is called from the abort path to re-activate\ncatchall map elements that were deactivated during a failed transaction.\nIt should skip elements that are already active (they don't need\nre-activation) and process elements that are inactive (they need to be\nrestored). Instead, the current code does the opposite: it skips inactive\nelements and processes active ones.\n\nCompare the non-catchall activate callback, which is correct:\n\n  nft_mapelem_activate():\n    if (nft_set_elem_active(ext, iter-&gt;genmask))\n        return 0;   /* skip active, process inactive */\n\nWith the buggy catchall version:\n\n  nft_map_catchall_activate():\n    if (!nft_set_elem_active(ext, genmask))\n        continue;   /* skip inactive, process active */\n\nThe consequence is that when a DELSET operation is aborted,\nnft_setelem_data_activate() is never called for the catchall element.\nFor NFT_GOTO verdict elements, this means nft_data_hold() is never\ncalled to restore the chain-&gt;use reference count. Each abort cycle\npermanently decrements chain-&gt;use. Once chain-&gt;use reaches zero,\nDELCHAIN succeeds and frees the chain while catchall verdict elements\nstill reference it, resulting in a use-after-free.\n\nThis is exploitable for local privilege escalation from an unprivileged\nuser via user namespaces + nftables on distributions that enable\nCONFIG_USER_NS and CONFIG_NF_TABLES.\n\nFix by removing the negation so the check matches nft_mapelem_activate():\nskip active elements, process inactive ones.
@@ -3228,6 +3308,13 @@
 - [EvtDanya/CVE-2026-27886](https://github.com/EvtDanya/CVE-2026-27886)
 - [thesw0rd/CVE-2026-27886-PoC-Account-Takeover](https://github.com/thesw0rd/CVE-2026-27886-PoC-Account-Takeover)
 
+### CVE-2026-27912 (2026-04-14)
+
+<code>Improper authorization in Windows Kerberos allows an authorized attacker to elevate privileges over an adjacent network.
+</code>
+
+- [Semperis-Community/ResetNightmare](https://github.com/Semperis-Community/ResetNightmare)
+
 ### CVE-2026-27944 (2026-03-05)
 
 <code>Nginx UI is a web user interface for the Nginx web server. Prior to version 2.3.3, the /api/backup endpoint is accessible without authentication and discloses the encryption keys required to decrypt the backup in the X-Backup-Security response header. This allows an unauthenticated attacker to download a full system backup containing sensitive data (user credentials, session tokens, SSL private keys, Nginx configurations) and decrypt it immediately. This issue has been patched in version 2.3.3.
@@ -3646,6 +3733,7 @@
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-33017-Langflow-RCE](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-33017-Langflow-RCE)
 - [CerberusMrXi/Langflow-cve-2026-33017-exploit](https://github.com/CerberusMrXi/Langflow-cve-2026-33017-exploit)
 - [Dynamo2k1/CVE-2026-33017](https://github.com/Dynamo2k1/CVE-2026-33017)
+- [TatoSec/CVE-2026-33017-Langflop](https://github.com/TatoSec/CVE-2026-33017-Langflop)
 
 ### CVE-2026-33137 (2026-05-20)
 
@@ -7338,6 +7426,7 @@
 - [rechandra/wp2exp-2026](https://github.com/rechandra/wp2exp-2026)
 - [minwunn/wp2shell-CVE-2026-63030](https://github.com/minwunn/wp2shell-CVE-2026-63030)
 - [sowarma/wp2shell-PoC](https://github.com/sowarma/wp2shell-PoC)
+- [AnggaTechI/CVE-2026-63030](https://github.com/AnggaTechI/CVE-2026-63030)
 
 ### CVE-2026-63077 (2026-07-27)
 
@@ -7694,6 +7783,13 @@
 </code>
 
 - [Foxer131/CVE-2026-70481](https://github.com/Foxer131/CVE-2026-70481)
+
+### CVE-2026-71211 (2026-08-05)
+
+<code>MLflow's AI Gateway accepts an auth_config.api_base value when creating a gateway secret (mlflow/server/handlers.py, _create_gateway_secret) with no validation of scheme, host, or IP range; the value is stored verbatim. The gateway proxy endpoint (mlflow/server/gateway_api.py, raw_proxy) subsequently issues an HTTP request to that stored api_base plus a caller-supplied path and returns the full response body. MLflow's existing SSRF guard, _validate_webhook_url (which blocks non-global and metadata IPs), is never invoked anywhere in this gateway secret/proxy code path. The CreateGatewaySecret action additionally has no entry in the permission-validator map, so it requires only basic authentication rather than any specific scope, meaning any authenticated user — including read-only accounts — can create a secret pointing at an internal address and reach it via the proxy endpoint, potentially exposing cloud-instance IAM credentials via metadata services. This is related to CVE-2026-4035, which addresses a distinct mechanism in the same gateway-secret feature (server-side $ENV_VAR resolution inside the api_key field leaking credentials to the configured upstream); the finding here is an independent missing-validation gap in the api_base destination itself, unaffected by that fix.
+</code>
+
+- [Abdivasiyev2008/CVE-2026-71211-exploit](https://github.com/Abdivasiyev2008/CVE-2026-71211-exploit)
 
 ### CVE-2026-999999
 - [24520597-blip/CVE-2026-999999](https://github.com/24520597-blip/CVE-2026-999999)
@@ -9628,6 +9724,7 @@
 - [Xdezen/CVE-2025-8110](https://github.com/Xdezen/CVE-2025-8110)
 - [Shirouuu/CVE-2025-8110-gogs-poc](https://github.com/Shirouuu/CVE-2025-8110-gogs-poc)
 - [ixZODiAK/CVE-2025-8110](https://github.com/ixZODiAK/CVE-2025-8110)
+- [9xh4kv/CVE-2025-8110](https://github.com/9xh4kv/CVE-2025-8110)
 
 ### CVE-2025-8191 (2025-07-26)
 
@@ -12888,6 +12985,9 @@
 
 - [natasaka/CVE-2025-30349](https://github.com/natasaka/CVE-2025-30349)
 
+### CVE-2025-30374
+- [jackfromeast/CVE-2025-30374](https://github.com/jackfromeast/CVE-2025-30374)
+
 ### CVE-2025-30397 (2025-05-13)
 
 <code>Access of resource using incompatible type ('type confusion') in Microsoft Scripting Engine allows an unauthorized attacker to execute code over a network.
@@ -16124,13 +16224,6 @@
 
 - [AdityaBhatt3010/CVE-2025-54794-Hijacking-Claude-AI-with-a-Prompt-Injection-The-Jailbreak-That-Talked-Back](https://github.com/AdityaBhatt3010/CVE-2025-54794-Hijacking-Claude-AI-with-a-Prompt-Injection-The-Jailbreak-That-Talked-Back)
 
-### CVE-2025-54795 (2025-08-05)
-
-<code>Claude Code is an agentic coding tool. In versions below 1.0.20, an error in command parsing makes it possible to bypass the Claude Code confirmation prompt to trigger execution of an untrusted command. Reliably exploiting this requires the ability to add untrusted content into a Claude Code context window. This is fixed in version 1.0.20.
-</code>
-
-- [alonisser/ralph](https://github.com/alonisser/ralph)
-
 ### CVE-2025-54887 (2025-08-08)
 
 <code>jwe is a Ruby implementation of the RFC 7516 JSON Web Encryption (JWE) standard. In versions 1.1.0 and below, authentication tags of encrypted JWEs can be brute forced, which may result in loss of confidentiality for those JWEs and provide ways to craft arbitrary JWEs. This puts users at risk because JWEs can be modified to decrypt to an arbitrary value, decrypted by observing parsing differences and the GCM internal GHASH key can be recovered. Users are affected by this vulnerability even if they do not use an AES-GCM encryption algorithm for their JWEs. As the GHASH key may have been leaked, users must rotate the encryption keys after upgrading. This issue is fixed in version 1.1.1.
@@ -19103,7 +19196,6 @@
 - [cv-sai-kamesh/n8n-CVE-2025-68613](https://github.com/cv-sai-kamesh/n8n-CVE-2025-68613)
 - [Rishi-kaul/n8n-CVE-2025-68613](https://github.com/Rishi-kaul/n8n-CVE-2025-68613)
 - [ahmedshamsddin/n8n-RCE-CVE-2025-68613](https://github.com/ahmedshamsddin/n8n-RCE-CVE-2025-68613)
-- [TheInterception/n8n_CVE-2025-68613_exploit_payloads](https://github.com/TheInterception/n8n_CVE-2025-68613_exploit_payloads)
 - [Victorhugofariasvieir66/relatorio-n8n.md](https://github.com/Victorhugofariasvieir66/relatorio-n8n.md)
 - [h3raklez/CVE-2025-68613](https://github.com/h3raklez/CVE-2025-68613)
 - [canpilayda/n8n-RCE-CVE-2025-68613](https://github.com/canpilayda/n8n-RCE-CVE-2025-68613)
@@ -47957,7 +48049,7 @@
 - [arcslash/exploit_CVE-2021-3560](https://github.com/arcslash/exploit_CVE-2021-3560)
 - [titusG85/SideWinder-Exploit](https://github.com/titusG85/SideWinder-Exploit)
 - [MandipJoshi/CVE-2021-3560](https://github.com/MandipJoshi/CVE-2021-3560)
-- [Antoine-MANTIS/POC-Bash-CVE-2021-3560](https://github.com/Antoine-MANTIS/POC-Bash-CVE-2021-3560)
+- [WithinOneStem/POC-Bash-CVE-2021-3560](https://github.com/WithinOneStem/POC-Bash-CVE-2021-3560)
 - [SeimuPVE/CVE-2021-3560_Polkit](https://github.com/SeimuPVE/CVE-2021-3560_Polkit)
 - [realatharva15/polkit-CVE-2021-3560_writeup](https://github.com/realatharva15/polkit-CVE-2021-3560_writeup)
 - [yutasato88/CVE-2021-3560-PolkitPrivilegeEsclation](https://github.com/yutasato88/CVE-2021-3560-PolkitPrivilegeEsclation)
