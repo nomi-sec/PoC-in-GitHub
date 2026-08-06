@@ -65,6 +65,13 @@
 ### CVE-2026-0101
 - [George0Papasotiriou/CVE-2026-0101-BLE-Address-Spoofing-via-Weak-Resolvable-Private-Address](https://github.com/George0Papasotiriou/CVE-2026-0101-BLE-Address-Spoofing-via-Weak-Resolvable-Private-Address)
 
+### CVE-2026-0163 (2026-08-04)
+
+<code>In multiple functions of vpu_ioctl.c, there is a possible use after free due to a use after free. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [sentinel-aidefense/CVE-2026-0163-EXP](https://github.com/sentinel-aidefense/CVE-2026-0163-EXP)
+
 ### CVE-2026-0257 (2026-05-13)
 
 <code>Authentication bypass vulnerabilities in the GlobalProtect portal and gateway of Palo Alto Networks PAN-OS® software allows the attacker to bypass security restrictions and establish an unauthorized VPN connection.\n\nPanorama and Cloud NGFW are not impacted by these issues.
@@ -100,6 +107,7 @@
 </code>
 
 - [lu4m575/CVE-2026-0300](https://github.com/lu4m575/CVE-2026-0300)
+- [sam00/POC-CVE-2026-0300-exploit](https://github.com/sam00/POC-CVE-2026-0300-exploit)
 
 ### CVE-2026-0542 (2026-02-25)
 
@@ -3083,7 +3091,7 @@
 
 - [dinosn/CVE-2026-25243](https://github.com/dinosn/CVE-2026-25243)
 - [dinosn/CVE-2026-25243-debugfree](https://github.com/dinosn/CVE-2026-25243-debugfree)
-- [sohail-saha-optiv/CVE-2026-25243](https://github.com/sohail-saha-optiv/CVE-2026-25243)
+- [captain-woof/CVE-2026-25243](https://github.com/captain-woof/CVE-2026-25243)
 
 ### CVE-2026-25250
 - [TheMalwareGuardian/CVE-2026-25250](https://github.com/TheMalwareGuardian/CVE-2026-25250)
@@ -5126,6 +5134,9 @@
 
 - [covepseng/cve-2026-43515-poc](https://github.com/covepseng/cve-2026-43515-poc)
 
+### CVE-2026-43626
+- [Vladimir-tokarev-cyera/llama-cpp-security-patches](https://github.com/Vladimir-tokarev-cyera/llama-cpp-security-patches)
+
 ### CVE-2026-43637 (2026-07-15)
 
 <code>Cornac before 2.6.0 contains a path traversal (Tar Slip) vulnerability that allows attackers to write arbitrary files outside the intended cache directory by supplying a crafted TAR archive containing ../ sequences, absolute paths, or symlink/hardlink entries to the _extract_archive() function in cornac/utils/download.py. Attackers can trigger this vulnerability through the built-in dataset loaders, which automatically download and extract archives, causing archive.extractall() to write files to arbitrary locations on the filesystem accessible to the running process.
@@ -6541,11 +6552,7 @@
 ### CVE-2026-51954
 - [envincion1991-cmyk/CVE-2026-51954](https://github.com/envincion1991-cmyk/CVE-2026-51954)
 
-### CVE-2026-51992 (2026-07-29)
-
-<code>SQL Injection vulnerability in ClickHouse Server Versions &lt;= 26.3.9.8 allows a remote attacker to execute arbitrary code via the create dictionaries function.
-</code>
-
+### CVE-2026-51992
 - [TheLiimbo/CVE-2026-51992](https://github.com/TheLiimbo/CVE-2026-51992)
 
 ### CVE-2026-52100 (2026-07-14)
@@ -6635,6 +6642,9 @@
 </code>
 
 - [v3s9er/CVE-2026-52885](https://github.com/v3s9er/CVE-2026-52885)
+
+### CVE-2026-52886
+- [v3s9er/CVE-2026-52886](https://github.com/v3s9er/CVE-2026-52886)
 
 ### CVE-2026-52887 (2026-07-15)
 
@@ -7184,6 +7194,7 @@
 </code>
 
 - [imbas007/POC-CVE-2026-58048](https://github.com/imbas007/POC-CVE-2026-58048)
+- [tc4dy/CVE-2026-58048-PoC-Exploit](https://github.com/tc4dy/CVE-2026-58048-PoC-Exploit)
 
 ### CVE-2026-58057 (2026-06-28)
 
@@ -7511,6 +7522,13 @@
 - [bha-vin/CVE-2026-64600-Exploit](https://github.com/bha-vin/CVE-2026-64600-Exploit)
 - [letsr00t/RefluxFS_CVE-2026-64600](https://github.com/letsr00t/RefluxFS_CVE-2026-64600)
 
+### CVE-2026-64633 (2026-08-04)
+
+<code>A vulnerability allowing remote unauthenticated code execution on the agent host.
+</code>
+
+- [tfawnies/CVE-2026-64633](https://github.com/tfawnies/CVE-2026-64633)
+
 ### CVE-2026-64725 (2026-07-27)
 
 <code>An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 26.6 and iPadOS 26.6, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.6, tvOS 26.6, visionOS 26.6, watchOS 26.6. An app may be able to cause a denial-of-service.
@@ -7759,6 +7777,13 @@
 
 - [IlhomjonR/CVE-2026-67595](https://github.com/IlhomjonR/CVE-2026-67595)
 
+### CVE-2026-67598 (2026-08-03)
+
+<code>Emlog Pro through 2.6.23 contains a disabled TLS certificate validation vulnerability in include/service/ai.php that allows network-adjacent attackers to intercept outbound HTTPS requests to configured LLM providers by presenting arbitrary TLS certificates, as CURLOPT_SSL_VERIFYPEER and CURLOPT_SSL_VERIFYHOST are unconditionally disabled across sendStream(), sendImageRequest(), send(), and fetchSearchHtml() with no option to re-enable verification. Attackers can perform man-in-the-middle interception to extract Authorization Bearer API keys from every AI request and inject crafted AI responses that may be acted upon by the tool-call execution pipeline, including the query_database and update_config tool handlers.
+</code>
+
+- [IlhomjonR/CVE-2026-67598](https://github.com/IlhomjonR/CVE-2026-67598)
+
 ### CVE-2026-67599 (2026-08-03)
 
 <code>ClearOS 7.9 contains an OS command injection vulnerability in the Log Viewer component that allows authenticated attackers to execute arbitrary commands by submitting unsanitized input through the filter parameter, which is interpolated directly into a shell command in File.php. Attackers can inject command substitution payloads into the filter parameter to execute arbitrary commands as the webconfig user, and due to extensive NOPASSWD sudo privileges granted to that user by default, immediately escalate to root.
@@ -7791,6 +7816,13 @@
 </code>
 
 - [0xdak/CVE-2026-69083_exploit](https://github.com/0xdak/CVE-2026-69083_exploit)
+
+### CVE-2026-69098 (2026-08-04)
+
+<code>kotaemon through 0.12.0 contains an insecure deserialization vulnerability in the check_connection endpoint that allows unauthenticated attackers to instantiate arbitrary Python classes by supplying crafted YAML/JSON input with a __type__ field. Attackers can exploit this to override the __type__ field with subprocess.check_output and arbitrary arguments, achieving remote code execution with application process privileges.
+</code>
+
+- [0xdak/CVE-2026-69098_exploit](https://github.com/0xdak/CVE-2026-69098_exploit)
 
 ### CVE-2026-69212
 - [c0gnit00/CVE-2026-69212](https://github.com/c0gnit00/CVE-2026-69212)
@@ -44613,6 +44645,7 @@
 </code>
 
 - [amitlttwo/CVE-2022-31626](https://github.com/amitlttwo/CVE-2022-31626)
+- [HORKimhab/CVE-2022-31626-CVE-2024-2961-CVE-2019-6977](https://github.com/HORKimhab/CVE-2022-31626-CVE-2024-2961-CVE-2019-6977)
 
 ### CVE-2022-31629 (2022-09-28)
 
@@ -60856,6 +60889,13 @@
 
 - [random-robbie/cve-2019-6715](https://github.com/random-robbie/cve-2019-6715)
 - [spyata123/W3TotalChache](https://github.com/spyata123/W3TotalChache)
+
+### CVE-2019-6977 (2019-01-27)
+
+<code>gdImageColorMatch in gd_color_match.c in the GD Graphics Library (aka LibGD) 2.2.5, as used in the imagecolormatch function in PHP before 5.6.40, 7.x before 7.1.26, 7.2.x before 7.2.14, and 7.3.x before 7.3.1, has a heap-based buffer overflow. This can be exploited by an attacker who is able to trigger imagecolormatch calls with crafted image data.
+</code>
+
+- [HORKimhab/CVE-2022-31626-CVE-2024-2961-CVE-2019-6977](https://github.com/HORKimhab/CVE-2022-31626-CVE-2024-2961-CVE-2019-6977)
 
 ### CVE-2019-7069 (2019-05-24)
 
