@@ -2144,6 +2144,7 @@
 </code>
 
 - [pratham220/CVE-2026-17543-PHP-Exposure-Validator](https://github.com/pratham220/CVE-2026-17543-PHP-Exposure-Validator)
+- [Hunt-Benito/e-is-for-exploit-cve-2026-17543-php-pgsql-sql-injection-backslash-breakout](https://github.com/Hunt-Benito/e-is-for-exploit-cve-2026-17543-php-pgsql-sql-injection-backslash-breakout)
 
 ### CVE-2026-17566 (2026-07-31)
 
@@ -2179,6 +2180,13 @@
 </code>
 
 - [HORKimhab/CVE-2026-18577](https://github.com/HORKimhab/CVE-2026-18577)
+
+### CVE-2026-18649 (2026-08-06)
+
+<code>A flaw was found in the GStreamer gst-plugins-good package. The rtph264depay and rtph265depay RTP depayloader elements do not enforce a maximum size limit on the reassembly buffer used during fragmented RTP packet processing. A remote, unauthenticated attacker can send a continuous stream of RTP fragments without ever transmitting an end-of-fragment marker, causing the reassembly buffer to grow without bound until process memory is exhausted. This results in a denial of service through process termination.
+</code>
+
+- [0xSemizzz/CVE-2026-18649](https://github.com/0xSemizzz/CVE-2026-18649)
 
 ### CVE-2026-18718 (2026-08-03)
 
@@ -5089,7 +5097,6 @@
 - [alex193a/Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel)
 - [jason5545/ghostlock-myron-tw](https://github.com/jason5545/ghostlock-myron-tw)
 - [eroorvbsyes-hotmail/CVE-2026-43499_x86_Exploit](https://github.com/eroorvbsyes-hotmail/CVE-2026-43499_x86_Exploit)
-- [taoubi1/ghostlock-sm-a155f](https://github.com/taoubi1/ghostlock-sm-a155f)
 - [oopnv70-lab/ghostlock-honor-aak](https://github.com/oopnv70-lab/ghostlock-honor-aak)
 
 ### CVE-2026-43500 (2026-05-11)
@@ -7056,6 +7063,7 @@
 </code>
 
 - [sentinel-aidefense/CVE-2026-56164-EXP](https://github.com/sentinel-aidefense/CVE-2026-56164-EXP)
+- [sam00/POC-CVE-2026-56164-exploit](https://github.com/sam00/POC-CVE-2026-56164-exploit)
 
 ### CVE-2026-56290 (2026-06-29)
 
@@ -7840,6 +7848,13 @@
 </code>
 
 - [Foxer131/CVE-2026-70481](https://github.com/Foxer131/CVE-2026-70481)
+
+### CVE-2026-70553 (2026-08-04)
+
+<code>MaxSite CMS contains a remote code execution vulnerability that allows unauthenticated attackers to inject arbitrary PHP code into the application configuration file by submitting crafted POST requests to the install endpoint after installation is complete. Attackers can supply a malicious db_dbprefix value containing a single quote to break out of a PHP string literal in application/config/database.php, appending attacker-controlled PHP statements that are executed by the web server on every subsequent request, resulting in persistent unauthenticated remote code execution as the web-server process user.
+</code>
+
+- [woshidashabi1126/CVE-2026-70553-PoC](https://github.com/woshidashabi1126/CVE-2026-70553-PoC)
 
 ### CVE-2026-71211 (2026-08-05)
 
@@ -12919,7 +12934,6 @@
 - [amitlttwo/Next.JS-CVE-2025-29927](https://github.com/amitlttwo/Next.JS-CVE-2025-29927)
 - [kazuya256/next-js-auth-bypass](https://github.com/kazuya256/next-js-auth-bypass)
 - [mickhacking/Thank-u-Next](https://github.com/mickhacking/Thank-u-Next)
-- [sahbaazansari/CVE-2025-29927](https://github.com/sahbaazansari/CVE-2025-29927)
 - [b4sh0xf/PoC-CVE-2025-29927](https://github.com/b4sh0xf/PoC-CVE-2025-29927)
 - [rgvillanueva28/vulnbox-easy-CVE-2025-29927](https://github.com/rgvillanueva28/vulnbox-easy-CVE-2025-29927)
 - [s11s11/CVE-2025-29927](https://github.com/s11s11/CVE-2025-29927)
@@ -13685,7 +13699,7 @@
 - [obscura-cert/CVE-2025-33073](https://github.com/obscura-cert/CVE-2025-33073)
 - [matejsmycka/CVE-2025-33073-checker](https://github.com/matejsmycka/CVE-2025-33073-checker)
 - [cve-2025-33073/cve-2025-33073](https://github.com/cve-2025-33073/cve-2025-33073)
-- [uziii2208/CVE-2025-33073](https://github.com/uziii2208/CVE-2025-33073)
+- [uziii2208/come-to-telegram-rickluminari1--CVE-2025-33073](https://github.com/uziii2208/come-to-telegram-rickluminari1--CVE-2025-33073)
 - [irjfifndn-prog/Blackash-CVE-2025-33073](https://github.com/irjfifndn-prog/Blackash-CVE-2025-33073)
 - [EgCupCake/cupntlm-Automated-Exploit-For-CVE-2025-33073-](https://github.com/EgCupCake/cupntlm-Automated-Exploit-For-CVE-2025-33073-)
 - [IyarGross/SMB-CVE-2025-33073](https://github.com/IyarGross/SMB-CVE-2025-33073)
@@ -14661,6 +14675,7 @@
 </code>
 
 - [b-L-x/CVE-2025-46811](https://github.com/b-L-x/CVE-2025-46811)
+- [szachovy/CVE-2025-46811-challenge](https://github.com/szachovy/CVE-2025-46811-challenge)
 
 ### CVE-2025-46816 (2025-05-06)
 
@@ -15271,13 +15286,6 @@
 </code>
 
 - [encrypter15/CVE-2025-50165-x64-Exploit](https://github.com/encrypter15/CVE-2025-50165-x64-Exploit)
-
-### CVE-2025-50168 (2025-08-12)
-
-<code>Access of resource using incompatible type ('type confusion') in Windows Win32K - ICOMP allows an authorized attacker to elevate privileges locally.
-</code>
-
-- [D4m0n/CVE-2025-50168-pwn2own-berlin-2025](https://github.com/D4m0n/CVE-2025-50168-pwn2own-berlin-2025)
 
 ### CVE-2025-50286 (2025-08-06)
 
@@ -47591,7 +47599,7 @@
 - [flyinbedxyz/CVE-2021-1732](https://github.com/flyinbedxyz/CVE-2021-1732)
 - [oneoy/CVE-2021-1732-Exploit](https://github.com/oneoy/CVE-2021-1732-Exploit)
 - [linuxdy/CVE-2021-1732_exp](https://github.com/linuxdy/CVE-2021-1732_exp)
-- [Pai-Po/CVE-2021-1732](https://github.com/Pai-Po/CVE-2021-1732)
+- [po4sec/CVE-2021-1732](https://github.com/po4sec/CVE-2021-1732)
 - [exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732](https://github.com/exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732)
 - [BeneficialCode/CVE-2021-1732](https://github.com/BeneficialCode/CVE-2021-1732)
 - [fenalik/CVE-2021-1732](https://github.com/fenalik/CVE-2021-1732)
@@ -48214,6 +48222,7 @@
 - [galoget/PwnKit-CVE-2021-4034](https://github.com/galoget/PwnKit-CVE-2021-4034)
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [rvzsec/CVE-2021-4034](https://github.com/rvzsec/CVE-2021-4034)
+- [Nosferatuvjr/PwnKit](https://github.com/Nosferatuvjr/PwnKit)
 - [antoinenguyen-09/CVE-2021-4034](https://github.com/antoinenguyen-09/CVE-2021-4034)
 - [wudicainiao/cve-2021-4034](https://github.com/wudicainiao/cve-2021-4034)
 - [TanmoyG1800/CVE-2021-4034](https://github.com/TanmoyG1800/CVE-2021-4034)
@@ -53387,7 +53396,6 @@
 - [arpitgupta369/log4shell-scanner](https://github.com/arpitgupta369/log4shell-scanner)
 - [razureink/cve-2021-44228-log4shell_rce_reproduction](https://github.com/razureink/cve-2021-44228-log4shell_rce_reproduction)
 - [sfr0435122531-ui/-log4shell-lab](https://github.com/sfr0435122531-ui/-log4shell-lab)
-- [vaishnavikkotian/log4shell-research](https://github.com/vaishnavikkotian/log4shell-research)
 - [sanasimran1403-jpg/log4shell](https://github.com/sanasimran1403-jpg/log4shell)
 
 ### CVE-2021-44255 (2022-01-31)
@@ -65379,6 +65387,7 @@
 - [erman-bolukbasi/web-penetration-drupal](https://github.com/erman-bolukbasi/web-penetration-drupal)
 - [Dungsocool/CVE-2018-7600](https://github.com/Dungsocool/CVE-2018-7600)
 - [nayem-m/drupalgeddon2-cli](https://github.com/nayem-m/drupalgeddon2-cli)
+- [Shams-Ul-Mehmood/CVE-2018-7600-Drupalgeddon2-RCE](https://github.com/Shams-Ul-Mehmood/CVE-2018-7600-Drupalgeddon2-RCE)
 
 ### CVE-2018-7602 (2018-07-19)
 
