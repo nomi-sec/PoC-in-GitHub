@@ -29,6 +29,13 @@
 
 - [QM4RS/CVE-2026-0023-Update-Ownership-PoC](https://github.com/QM4RS/CVE-2026-0023-Update-Ownership-PoC)
 
+### CVE-2026-0049 (2026-04-06)
+
+<code>In onHeaderDecoded of LocalImageResolver.java, there is a possible persistent denial of service due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [R3n3r0/CVE-2026-0049](https://github.com/R3n3r0/CVE-2026-0049)
+
 ### CVE-2026-0059 (2026-06-01)
 
 <code>In multiple functions of sdp_discovery.cc, there is a possible way to achieve code execution due to a heap buffer overflow. This could lead to remote (proximal/adjacent) code execution with no additional execution privileges needed. User interaction is not needed for exploitation.
@@ -4710,6 +4717,13 @@
 
 - [Hunt-Benito/cve-2026-41200-stig-manager-oidc-reflected-xss](https://github.com/Hunt-Benito/cve-2026-41200-stig-manager-oidc-reflected-xss)
 
+### CVE-2026-41242 (2026-04-18)
+
+<code>protobufjs compiles protobuf definitions into JavaScript (JS) functions. In versions prior to 8.0.1 and 7.5.5, attackers can inject arbitrary code in the &quot;type&quot; fields of protobuf definitions, which will then execute during object decoding using that definition. Versions 8.0.1 and 7.5.5 patch the issue.
+</code>
+
+- [Giangdurian/CVE-2026-41242](https://github.com/Giangdurian/CVE-2026-41242)
+
 ### CVE-2026-41472 (2026-04-24)
 
 <code>CyberPanel versions prior to 2.4.4 contain a stored cross-site scripting vulnerability in the AI Scanner dashboard where the POST /api/ai-scanner/callback endpoint lacks authentication and allows unauthenticated attackers to inject malicious JavaScript by overwriting the findings_json field of ScanHistory records. Attackers can inject JavaScript that executes in an administrator's authenticated session when they visit the AI Scanner dashboard, allowing them to issue same-origin requests to plant cron jobs and achieve remote code execution on the server.
@@ -7483,6 +7497,7 @@
 </code>
 
 - [unveiledhistory49/teamcity-cve-2026-63077-remediation](https://github.com/unveiledhistory49/teamcity-cve-2026-63077-remediation)
+- [sfewer-r7/CVE-2026-63077](https://github.com/sfewer-r7/CVE-2026-63077)
 
 ### CVE-2026-63223 (2026-07-31)
 
@@ -7536,6 +7551,8 @@
 
 - [HORKimhab/CVE-2026-64561](https://github.com/HORKimhab/CVE-2026-64561)
 - [Aoripus-LTD/Zapscape-Fix](https://github.com/Aoripus-LTD/Zapscape-Fix)
+- [aarif450/Zapscape](https://github.com/aarif450/Zapscape)
+- [aarif450/aarif450.github.io](https://github.com/aarif450/aarif450.github.io)
 
 ### CVE-2026-64564 (2026-08-04)
 
@@ -7564,6 +7581,11 @@
 </code>
 
 - [tfawnies/CVE-2026-64633](https://github.com/tfawnies/CVE-2026-64633)
+
+### CVE-2026-64638
+- [Boreas37/CVE-2026-64638-PoC](https://github.com/Boreas37/CVE-2026-64638-PoC)
+- [686f6c61/POC-WP-XSS2Shell-CVE-2026-64638](https://github.com/686f6c61/POC-WP-XSS2Shell-CVE-2026-64638)
+- [wordsec/XSS2Shell](https://github.com/wordsec/XSS2Shell)
 
 ### CVE-2026-64640 (2026-08-06)
 
@@ -7850,6 +7872,13 @@
 </code>
 
 - [qflksheep/CVE-2026-67689-FineAdmin.Mvc-vulnerability](https://github.com/qflksheep/CVE-2026-67689-FineAdmin.Mvc-vulnerability)
+
+### CVE-2026-67822 (2026-07-31)
+
+<code>Tenda W6-S 1.0.0.4(510) contains a stack-based buffer overflow vulnerability in the /goform/wifiSSIDset endpoint. The function formwrlSSIDset uses sprintf to copy user-controlled 'GO' and 'index' parameters into a 64-byte stack buffer without length restriction, leading to stack overflow.
+</code>
+
+- [Hunt-Benito/go-without-bounds-cve-2026-67822-stack-overflow-in-tenda-w6-s-wifissidset](https://github.com/Hunt-Benito/go-without-bounds-cve-2026-67822-stack-overflow-in-tenda-w6-s-wifissidset)
 
 ### CVE-2026-68004
 - [xuwu-xuwu/CVE-2026-68004](https://github.com/xuwu-xuwu/CVE-2026-68004)
@@ -13856,13 +13885,6 @@
 
 - [Eyodav/CVE-2025-34161](https://github.com/Eyodav/CVE-2025-34161)
 
-### CVE-2025-34171 (2026-01-03)
-
-<code>CasaOS versions up to and including 0.4.15 expose multiple unauthenticated endpoints that allow remote attackers to retrieve sensitive configuration files and system debug information. The /v1/users/image endpoint can be abused with a user-controlled path parameter to access files under /var/lib/casaos/1/, which reveals installed applications and configuration details. Additionally, /v1/sys/debug discloses host operating system, kernel, hardware, and storage information. The endpoints also return distinct error messages, enabling file existence enumeration of arbitrary paths on the underlying host filesystem. This information disclosure can be used for reconnaissance and to facilitate targeted follow-up attacks against services deployed on the host.
-</code>
-
-- [Eyodav/CVE-2025-34171](https://github.com/Eyodav/CVE-2025-34171)
-
 ### CVE-2025-34226 (2025-10-03)
 
 <code>OpenPLC Runtime v3 contains an input validation flaw in the /upload-program-action endpoint: the epoch_time field supplied during program uploads is not validated and can be crafted to induce corruption of the programs database. After a successful malformed upload the runtime continues to operate until a restart; on restart the runtime can fail to start because of corrupted database entries, resulting in persistent denial of service requiring complete rebase of the product to recover. This vulnerability was remediated by commit 095ee09.
@@ -16863,6 +16885,7 @@
 - [razureink/cve-2025-55182-react2shell_reproduction](https://github.com/razureink/cve-2025-55182-react2shell_reproduction)
 - [indra-031/React2Shell-Exploit-CVE-2025-55182](https://github.com/indra-031/React2Shell-Exploit-CVE-2025-55182)
 - [Phucc29/CVE-2025-55182](https://github.com/Phucc29/CVE-2025-55182)
+- [CerberusMrXi/CVE-2025-55182-Advanced-React-Server-Components-RCE-Exploit](https://github.com/CerberusMrXi/CVE-2025-55182-Advanced-React-Server-Components-RCE-Exploit)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -19349,11 +19372,11 @@
 </code>
 
 - [codeb0ssx/CVE-2025-68645-PoC](https://github.com/codeb0ssx/CVE-2025-68645-PoC)
-- [MaxMnMl/zimbramail-CVE-2025-68645-poc](https://github.com/MaxMnMl/zimbramail-CVE-2025-68645-poc)
 - [faysalferdous/CVE-2025-68645-Exploiting-Zimbra-Webmail-LFI-Vulnerability](https://github.com/faysalferdous/CVE-2025-68645-Exploiting-Zimbra-Webmail-LFI-Vulnerability)
 - [Crow5-oss/CVE-2025-68645](https://github.com/Crow5-oss/CVE-2025-68645)
 - [0xBlackash/CVE-2025-68645](https://github.com/0xBlackash/CVE-2025-68645)
 - [HarisAidhin/Poc_CVE-2025-68645](https://github.com/HarisAidhin/Poc_CVE-2025-68645)
+- [Ashwesker/Ashwesker-CVE-2025-68645](https://github.com/Ashwesker/Ashwesker-CVE-2025-68645)
 
 ### CVE-2025-68664 (2025-12-23)
 
@@ -47512,7 +47535,6 @@
 <code>In BTM_TryAllocateSCN of btm_scn.cc, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-180939982
 </code>
 
-- [Trinadh465/System_bt_AOSP10_r33_CVE-2021-0589](https://github.com/Trinadh465/System_bt_AOSP10_r33_CVE-2021-0589)
 - [Satheesh575555/system_bt_AOSP10_r33_CVE-2021-0589](https://github.com/Satheesh575555/system_bt_AOSP10_r33_CVE-2021-0589)
 
 ### CVE-2021-22
@@ -47851,6 +47873,7 @@
 - [Prabesh01/hoh4](https://github.com/Prabesh01/hoh4)
 - [lukwagoasuman/CVE-2021-3129---Laravel-RCE](https://github.com/lukwagoasuman/CVE-2021-3129---Laravel-RCE)
 - [theNareshofficial/CVE-2021-3129-Lab](https://github.com/theNareshofficial/CVE-2021-3129-Lab)
+- [Giangdurian/CVE-2021-3129](https://github.com/Giangdurian/CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -49266,13 +49289,6 @@
 </code>
 
 - [0dayNinja/CVE-2021-24155.rb](https://github.com/0dayNinja/CVE-2021-24155.rb)
-
-### CVE-2021-24160 (2021-04-05)
-
-<code>In the Reponsive Menu (free and Pro) WordPress plugins before 4.0.4, subscribers could upload zip archives containing malicious PHP files that would get extracted to the /rmp-menu/ directory. These files could then be accessed via the front end of the site to trigger remote code execution and ultimately allow an attacker to execute commands to further infect a WordPress site.
-</code>
-
-- [likeww/Exploit-CVE-2021-24160](https://github.com/likeww/Exploit-CVE-2021-24160)
 
 ### CVE-2021-24356 (2021-06-14)
 
@@ -53437,6 +53453,7 @@
 - [sfr0435122531-ui/-log4shell-lab](https://github.com/sfr0435122531-ui/-log4shell-lab)
 - [yili-soc/vm-homelab-log4shell-assessment](https://github.com/yili-soc/vm-homelab-log4shell-assessment)
 - [sanasimran1403-jpg/log4shell](https://github.com/sanasimran1403-jpg/log4shell)
+- [AhndreWalters/ProjectSecurity-Homelab](https://github.com/AhndreWalters/ProjectSecurity-Homelab)
 
 ### CVE-2021-44255 (2022-01-31)
 
