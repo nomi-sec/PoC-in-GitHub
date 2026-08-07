@@ -1763,6 +1763,13 @@
 
 - [Polosss/By-Poloss..-..CVE-2026-11912](https://github.com/Polosss/By-Poloss..-..CVE-2026-11912)
 
+### CVE-2026-11961 (2026-07-17)
+
+<code>The User Registration &amp; Membership  WordPress plugin before 5.2.3 does not validate that the membership tier submitted during public registration is one of the tiers allowed by the registration form before assigning that tier's associated user role, allowing unauthenticated users to register into an arbitrary published membership tier and obtain its role — up to administrator when such a tier exists.
+</code>
+
+- [JohenLastGen-JLG/CVE-2026-11961](https://github.com/JohenLastGen-JLG/CVE-2026-11961)
+
 ### CVE-2026-11989 (2026-06-19)
 
 <code>The Bit integrations – Form Integration, Webhook, Spreadsheets, CRM, LMS &amp; Email Automation plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 2.8.7 via the upload_attachment. This makes it possible for unauthenticated attackers to make web requests to arbitrary locations originating from the web application and can be used to query and modify information from internal services. Exploitation requires a form integration to be configured with a field mapped to a WooCommerce product image, product gallery, downloadable files, or Google Contacts attachment field, which is a default use case for these integrations.
@@ -5287,6 +5294,13 @@
 
 - [ex-cal1bur/CVE-2026-44596](https://github.com/ex-cal1bur/CVE-2026-44596)
 
+### CVE-2026-44613 (2026-07-30)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in Apache Zeppelin. The default CORS configuration allowed cross-origin state-changing requests and accepted text/plain request bodies, allowing an attacker who lures an authenticated user to a                   malicious site to perform actions on the user's behalf through REST and WebSocket endpoints. This issue affects Apache Zeppelin versions 0.6.0 through 0.12.0. Users are recommended to upgrade to version 0.12.1, which fixes this issue.
+</code>
+
+- [HORKimhab/CVE-2026-44613](https://github.com/HORKimhab/CVE-2026-44613)
+
 ### CVE-2026-44680 (2026-05-26)
 
 <code>MikroORM is a TypeScript ORM for Node.js based on Data Mapper, Unit of Work and Identity Map patterns. Prior to @mikro-orm/knex 6.6.14 and @mikro-orm/sql 7.0.14, MikroORM's identifier-quoting helper (Platform.quoteIdentifier and the postgres/mssql overrides) and its JSON-path emitters (Platform.getSearchJsonPropertyKey, quoteJsonKey) did not properly escape characters that delimit the SQL identifier or string-literal context they emit into. When application code passes attacker-influenced strings to public ORM APIs that expect an identifier or a JSON-property filter, an attacker can break out of the quoted context and inject arbitrary SQL. This vulnerability is fixed in @mikro-orm/knex 6.6.14 and @mikro-orm/sql 7.0.14.
@@ -6462,6 +6476,7 @@
 
 - [HORKimhab/CVE-2026-50522](https://github.com/HORKimhab/CVE-2026-50522)
 - [4minx/CVE-2026-50522](https://github.com/4minx/CVE-2026-50522)
+- [WismanSec/sharepoint-2026-poc](https://github.com/WismanSec/sharepoint-2026-poc)
 - [ChPratik/CVE-2026-50522](https://github.com/ChPratik/CVE-2026-50522)
 - [darses/CVE-2026-50522](https://github.com/darses/CVE-2026-50522)
 - [webshellseo8/CVE-2026-50522-Proof-of-Concept](https://github.com/webshellseo8/CVE-2026-50522-Proof-of-Concept)
@@ -7519,6 +7534,13 @@
 
 - [villager1314/CVE-2026-64560-Analysis](https://github.com/villager1314/CVE-2026-64560-Analysis)
 
+### CVE-2026-64561 (2026-08-04)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: x86: Check for invalid/obsolete root *after* making MMU pages available\n\nCheck for a &quot;stale&quot; page fault, i.e. for an invalid and/or obsolete root,\nafter making MMU pages available for the shadow MMU.  If reclaiming shadow\npages zaps an in-use root, i.e. marks it invalid, then KVM will attempt to\nmap memory into an invalid root.  On its own, populating an invalid root is\n&quot;fine&quot;, but because child shadow pages inherit their parent's role, any\nchildren created during the map/fetch will be created as invalid pages,\nthus violating KVM's invariant that invalid pages are never on the list of\nactive MMU pages.\n\nNote, the underlying flaw has existed since KVM first started tracking\ninvalid roots in 2008 (commit 2e53d63acba7, &quot;KVM: MMU: ignore zapped root\npagetables&quot;), but the true badness only came along in 2020 (Linux 5.9)\nwith the invariant that invalid shadow pages can't be on the list of\nactive pages.\n\nNote #2, inheriting role.invalid when creating child shadow pages is also\nfar from ideal; that flaw will be addressed separately.
+</code>
+
+- [HORKimhab/CVE-2026-64561](https://github.com/HORKimhab/CVE-2026-64561)
+
 ### CVE-2026-64600 (2026-07-23)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nxfs: resample the data fork mapping after cycling ILOCK\n\nxfs_reflink_fill_{cow_hole,delalloc} are both presented with an inode,\na data fork mapping, and a cow fork mapping.  Unfortunately, these two\nhelpers cycle the ILOCK to grab a transaction, which means that the\nmappings are stale as soon as we reacquire the ILOCK.  Currently we\nrefresh the cow fork mapping by re-calling xfs_find_trim_cow_extent, but\nwe don't refresh the data fork mapping beforehand, which means that the\nxfs_bmap_trim_cow in that function queries the refcount btree about the\nwrong physical blocks and returns an inaccurate value in *shared.\n\nIf *shared is now false, the directio write proceeds with a stale data\nfork mapping.  Fix this by querying the data fork mapping if the\nsequence counter changes across the ILOCK cycle.
@@ -7865,6 +7887,13 @@
 </code>
 
 - [woshidashabi1126/CVE-2026-70553-PoC](https://github.com/woshidashabi1126/CVE-2026-70553-PoC)
+
+### CVE-2026-70559 (2026-08-06)
+
+<code>Dinky's SysConfigController.getAll() handler for GET /api/sysConfig/getAll carries a method-level @SaIgnore annotation that short-circuits the class-level @SaCheckLogin, so the Sa-Token interceptor lets the request through with no session or role check. Any remote unauthenticated caller who can reach the Dinky HTTP port (8888 by default) receives the full live system configuration (54 entries on a stock v1.2.5 install) with one parameterless GET. Only one credential field (sys.maven.settings.repositoryPassword) has a desensitization handler wired; the other credential-bearing fields (sys.env.settings.dinkyToken, sys.ldap.settings.userPassword, sys.resource.settings.oss.accessKey and secretKey, and sys.dolphinscheduler.settings.token) return in cleartext. A bare install leaks the shipped defaults, including the hardcoded dinkyToken efda1551-7958-4e0f-80a8-dfd107df3e38 and minioadmin/minioadmin OSS keys; once an operator configures LDAP, object storage, or DolphinScheduler through the Settings Center, those live third-party credentials leak from the same endpoint. Because dinkyToken is the sole gate on the sibling POST /download/uploadFromRsByLocal arbitrary file write, this disclosure defeats token rotation as a mitigation for that vulnerability. Affects Dinky v1.2.5 (the current release, 2025-11-05) and the development branch (dev HEAD 63b5a5a), where the affected code is byte-identical.
+</code>
+
+- [codeb0ssx/CVE-2026-70559-PoC](https://github.com/codeb0ssx/CVE-2026-70559-PoC)
 
 ### CVE-2026-71211 (2026-08-05)
 
@@ -13708,7 +13737,7 @@
 - [obscura-cert/CVE-2025-33073](https://github.com/obscura-cert/CVE-2025-33073)
 - [matejsmycka/CVE-2025-33073-checker](https://github.com/matejsmycka/CVE-2025-33073-checker)
 - [cve-2025-33073/cve-2025-33073](https://github.com/cve-2025-33073/cve-2025-33073)
-- [uziii2208/come-to-telegram-rickluminari1--CVE-2025-33073](https://github.com/uziii2208/come-to-telegram-rickluminari1--CVE-2025-33073)
+- [uziii2208/CVE-2025-33073](https://github.com/uziii2208/CVE-2025-33073)
 - [irjfifndn-prog/Blackash-CVE-2025-33073](https://github.com/irjfifndn-prog/Blackash-CVE-2025-33073)
 - [EgCupCake/cupntlm-Automated-Exploit-For-CVE-2025-33073-](https://github.com/EgCupCake/cupntlm-Automated-Exploit-For-CVE-2025-33073-)
 - [IyarGross/SMB-CVE-2025-33073](https://github.com/IyarGross/SMB-CVE-2025-33073)
@@ -24406,6 +24435,9 @@
 
 - [BurakSevben/CVE-2024-24142](https://github.com/BurakSevben/CVE-2024-24142)
 
+### CVE-2024-24210
+- [ha6ker-hu/CVE-2024-24210](https://github.com/ha6ker-hu/CVE-2024-24210)
+
 ### CVE-2024-24386 (2024-02-15)
 
 <code>An issue in VitalPBX v.3.2.4-5 allows an attacker to execute arbitrary code via a crafted payload to the /var/lib/vitalpbx/scripts folder.
@@ -30648,13 +30680,6 @@
 </code>
 
 - [mrlihd/CVE-2024-57521-SQL-Injection-PoC](https://github.com/mrlihd/CVE-2024-57521-SQL-Injection-PoC)
-
-### CVE-2024-57522 (2025-02-03)
-
-<code>SourceCodester Packers and Movers Management System v1.0 is vulnerable to Cross Site Scripting (XSS) in Users.php. An attacker can inject a malicious script into the username or name field during user creation.
-</code>
-
-- [HackWidMaddy/CVE-2024-57522](https://github.com/HackWidMaddy/CVE-2024-57522)
 
 ### CVE-2024-57609 (2025-02-06)
 
@@ -48236,7 +48261,6 @@
 - [galoget/PwnKit-CVE-2021-4034](https://github.com/galoget/PwnKit-CVE-2021-4034)
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [rvzsec/CVE-2021-4034](https://github.com/rvzsec/CVE-2021-4034)
-- [Nosferatuvjr/PwnKit](https://github.com/Nosferatuvjr/PwnKit)
 - [antoinenguyen-09/CVE-2021-4034](https://github.com/antoinenguyen-09/CVE-2021-4034)
 - [wudicainiao/cve-2021-4034](https://github.com/wudicainiao/cve-2021-4034)
 - [TanmoyG1800/CVE-2021-4034](https://github.com/TanmoyG1800/CVE-2021-4034)
@@ -49235,13 +49259,6 @@
 
 - [0dayNinja/CVE-2021-24155.rb](https://github.com/0dayNinja/CVE-2021-24155.rb)
 
-### CVE-2021-24160 (2021-04-05)
-
-<code>In the Reponsive Menu (free and Pro) WordPress plugins before 4.0.4, subscribers could upload zip archives containing malicious PHP files that would get extracted to the /rmp-menu/ directory. These files could then be accessed via the front end of the site to trigger remote code execution and ultimately allow an attacker to execute commands to further infect a WordPress site.
-</code>
-
-- [likeww/Exploit-CVE-2021-24160](https://github.com/likeww/Exploit-CVE-2021-24160)
-
 ### CVE-2021-24356 (2021-06-14)
 
 <code>In the Simple 301 Redirects by BetterLinks WordPress plugin before 2.0.4, a lack of capability checks and insufficient nonce check on the AJAX action, simple301redirects/admin/activate_plugin, made it possible for authenticated users to activate arbitrary plugins installed on vulnerable sites.
@@ -49631,6 +49648,7 @@
 
 - [jordan9001/vsock_poc](https://github.com/jordan9001/vsock_poc)
 - [azpema/CVE-2021-26708](https://github.com/azpema/CVE-2021-26708)
+- [kungaocode/vulnerability-analysis-](https://github.com/kungaocode/vulnerability-analysis-)
 
 ### CVE-2021-26714 (2021-03-29)
 
@@ -53410,6 +53428,7 @@
 - [arpitgupta369/log4shell-scanner](https://github.com/arpitgupta369/log4shell-scanner)
 - [razureink/cve-2021-44228-log4shell_rce_reproduction](https://github.com/razureink/cve-2021-44228-log4shell_rce_reproduction)
 - [sfr0435122531-ui/-log4shell-lab](https://github.com/sfr0435122531-ui/-log4shell-lab)
+- [yili-soc/vm-homelab-log4shell-assessment](https://github.com/yili-soc/vm-homelab-log4shell-assessment)
 - [sanasimran1403-jpg/log4shell](https://github.com/sanasimran1403-jpg/log4shell)
 
 ### CVE-2021-44255 (2022-01-31)
