@@ -1012,7 +1012,11 @@
 
 - [BenZamir/CVE-2026-7791](https://github.com/BenZamir/CVE-2026-7791)
 
-### CVE-2026-7867
+### CVE-2026-7867 (2026-08-06)
+
+<code>A flaw was found in udisks2. A local attacker with an active console session can exploit insufficient authorization checking on the 'as-user' option in the org.freedesktop.UDisks2.Filesystem.Mount() D-Bus method. This allows the attacker to spoof the 'as-user' parameter, mounting filesystems on behalf of arbitrary users, including privileged accounts. This can lead to local privilege escalation through mount point injection and manipulation of the mount namespace visible to privileged users.
+</code>
+
 - [azqzazq1/CVE-2026-7867-disk2root](https://github.com/azqzazq1/CVE-2026-7867-disk2root)
 
 ### CVE-2026-7878
@@ -4246,6 +4250,9 @@
 ### CVE-2026-37432
 - [diao111111/CVE-2026-37432](https://github.com/diao111111/CVE-2026-37432)
 
+### CVE-2026-38053
+- [Crypte1/CVE-2026-38053---Remove-PPL](https://github.com/Crypte1/CVE-2026-38053---Remove-PPL)
+
 ### CVE-2026-38165
 - [AT190510-Cuong/CVE-2026-38165-SSTI-](https://github.com/AT190510-Cuong/CVE-2026-38165-SSTI-)
 
@@ -5410,6 +5417,7 @@
 
 - [ry-allan/tanstack-compromise-checker](https://github.com/ry-allan/tanstack-compromise-checker)
 - [Yomisana/are-you-get-tanstack-attack](https://github.com/Yomisana/are-you-get-tanstack-attack)
+- [qi-scape/scan-shai-hulud](https://github.com/qi-scape/scan-shai-hulud)
 - [shayr1/shai-hulud-scan](https://github.com/shayr1/shai-hulud-scan)
 - [Intrudify/mini-shai-hulud-scanner](https://github.com/Intrudify/mini-shai-hulud-scanner)
 - [fabriziosalmi/tanstack-compromise-checker](https://github.com/fabriziosalmi/tanstack-compromise-checker)
@@ -5802,13 +5810,6 @@
 
 - [0xBlackash/CVE-2026-46817](https://github.com/0xBlackash/CVE-2026-46817)
 - [HORKimhab/CVE-2026-46817](https://github.com/HORKimhab/CVE-2026-46817)
-
-### CVE-2026-46840 (2026-05-28)
-
-<code>Vulnerability in Oracle REST Data Services (component: Backend-as-a-Service).  Supported versions that are affected are 24.2.0-26.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTPS to compromise Oracle REST Data Services.  While the vulnerability is in Oracle REST Data Services, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle REST Data Services. CVSS 3.1 Base Score 10.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H).
-</code>
-
-- [fangbarristerbar/CVE-2026-46840-ORDS-RCE](https://github.com/fangbarristerbar/CVE-2026-46840-ORDS-RCE)
 
 ### CVE-2026-47100 (2026-05-19)
 
@@ -7153,6 +7154,7 @@
 - [shinthink/CVE-2026-57827](https://github.com/shinthink/CVE-2026-57827)
 - [Candisexterior171/CVE-2026-57827](https://github.com/Candisexterior171/CVE-2026-57827)
 - [Mohammad-008/rsfiles-CVE-2026-57827](https://github.com/Mohammad-008/rsfiles-CVE-2026-57827)
+- [jjkk123123/CVE-2026-57827](https://github.com/jjkk123123/CVE-2026-57827)
 
 ### CVE-2026-57829 (2026-07-13)
 
@@ -7802,10 +7804,18 @@
 ### CVE-2026-67620
 - [abdugafforov-bobur/CVE-2026-67620-poc](https://github.com/abdugafforov-bobur/CVE-2026-67620-poc)
 
-### CVE-2026-67687
+### CVE-2026-67687 (2026-08-06)
+
+<code>Insecure Permissions vulnerability in ics-park v.2.0 allows a remote attacker to escalate privileges via the /system/role/save endpoint in RoleController.java and system/user/update endpoint in UserController.java
+</code>
+
 - [qflksheep/CVE-2026-67687-ICS-Park-Smart-Park-Management-System-v2.0](https://github.com/qflksheep/CVE-2026-67687-ICS-Park-Smart-Park-Management-System-v2.0)
 
-### CVE-2026-67689
+### CVE-2026-67689 (2026-08-06)
+
+<code>SQL Injection vulnerability in FineAdmin V1.0 allows a remote attacker to execute arbitrary code via the `field` and `order` parameters in paginated list endpoints
+</code>
+
 - [qflksheep/CVE-2026-67689-FineAdmin.Mvc-vulnerability](https://github.com/qflksheep/CVE-2026-67689-FineAdmin.Mvc-vulnerability)
 
 ### CVE-2026-68004
@@ -9940,7 +9950,6 @@
 - [3rendil/CVE-2025-9074-POC](https://github.com/3rendil/CVE-2025-9074-POC)
 - [zaydbf/CVE-2025-9074-Poc](https://github.com/zaydbf/CVE-2025-9074-Poc)
 - [Shaoshi17/CVE-2025-9074-Docker-Exploit](https://github.com/Shaoshi17/CVE-2025-9074-Docker-Exploit)
-- [x0da6h/POC-for-CVE-2025-9074](https://github.com/x0da6h/POC-for-CVE-2025-9074)
 - [matesz44/CVE-2025-9074](https://github.com/matesz44/CVE-2025-9074)
 - [rocket-panda/CVE-2025-9074](https://github.com/rocket-panda/CVE-2025-9074)
 - [chernandez321/CVE-2025-9074-docker-escape](https://github.com/chernandez321/CVE-2025-9074-docker-escape)
@@ -15777,6 +15786,13 @@
 ### CVE-2025-52413
 - [GoldenTicketLabs/CVE-2025-52413](https://github.com/GoldenTicketLabs/CVE-2025-52413)
 
+### CVE-2025-52464 (2025-06-19)
+
+<code>Meshtastic is an open source mesh networking solution. In versions from 2.5.0 to before 2.6.11, the flashing procedure of several hardware vendors was resulting in duplicated public/private keys. Additionally, the Meshtastic was failing to properly initialize the internal randomness pool on some platforms, leading to possible low-entropy key generation. When users with an affected key pair sent Direct Messages, those message could be captured and decrypted by an attacker that has compiled the list of compromised keys. This issue has been patched in version 2.6.11 where key generation is delayed til the first time the LoRa region is set, along with warning users when a compromised key is detected. Version 2.6.12 furthers this patch by automatically wiping known compromised keys when found. A workaround to this vulnerability involves users doing a complete device wipe to remove vendor-cloned keys.
+</code>
+
+- [msdmehdipour/meshtastic-cve-2025-52464-poc](https://github.com/msdmehdipour/meshtastic-cve-2025-52464-poc)
+
 ### CVE-2025-52488 (2025-06-21)
 
 <code>DNN (formerly DotNetNuke) is an open-source web content management platform (CMS) in the Microsoft ecosystem. In versions 6.0.0 to before 10.0.1, DNN.PLATFORM allows a specially crafted series of malicious interaction to potentially expose NTLM hashes to a third party SMB server. This issue has been patched in version 10.0.1.
@@ -20237,6 +20253,7 @@
 - [b1nhack/CVE-2024-1086](https://github.com/b1nhack/CVE-2024-1086)
 - [Luisbuilds-data/cve-2024-1086-writeup](https://github.com/Luisbuilds-data/cve-2024-1086-writeup)
 - [JHarv613/CVE_2024_1086_vulnerability_check](https://github.com/JHarv613/CVE_2024_1086_vulnerability_check)
+- [dopaminauta/onetwoseven-writeup](https://github.com/dopaminauta/onetwoseven-writeup)
 
 ### CVE-2024-1112 (2024-01-31)
 
@@ -21676,6 +21693,7 @@
 - [vuducmanhno100-cloud/CVE-2024-6387](https://github.com/vuducmanhno100-cloud/CVE-2024-6387)
 - [m0n3ef/regreSSHion-Checker](https://github.com/m0n3ef/regreSSHion-Checker)
 - [al7araziruby-jpg/CVE-2024-6387-OpenSSH-Analysis](https://github.com/al7araziruby-jpg/CVE-2024-6387-OpenSSH-Analysis)
+- [hasan8babiker/CVE-2024-6387](https://github.com/hasan8babiker/CVE-2024-6387)
 
 ### CVE-2024-6460 (2024-08-16)
 
@@ -27332,7 +27350,6 @@
 </code>
 
 - [mouadk/cve-2024-38821](https://github.com/mouadk/cve-2024-38821)
-- [masa42/CVE-2024-38821-POC](https://github.com/masa42/CVE-2024-38821-POC)
 
 ### CVE-2024-38828 (2024-11-18)
 
@@ -27357,7 +27374,11 @@
 - [AlissonFaoli/Apache-OFBiz-Exploit](https://github.com/AlissonFaoli/Apache-OFBiz-Exploit)
 - [Hex00-0x4/CVE-2024-38856-Apache-OFBiz](https://github.com/Hex00-0x4/CVE-2024-38856-Apache-OFBiz)
 
-### CVE-2024-39024
+### CVE-2024-39024 (2026-08-06)
+
+<code>In Packetfence 13.2.0, the WebGui interface setting allows authenticated remote code execution.
+</code>
+
 - [ly1g3/packetfence-CVE-2024-39024](https://github.com/ly1g3/packetfence-CVE-2024-39024)
 
 ### CVE-2024-39031 (2024-07-09)
@@ -30297,13 +30318,6 @@
 </code>
 
 - [SyFi/CVE-2024-55503](https://github.com/SyFi/CVE-2024-55503)
-
-### CVE-2024-55504 (2025-01-21)
-
-<code>An issue in RAR Extractor - Unarchiver Free and Pro v.6.4.0 allows local attackers to inject arbitrary code potentially leading to remote control and unauthorized access to sensitive user data via the exploit_combined.dylib component on MacOS.
-</code>
-
-- [SyFi/CVE-2024-55504](https://github.com/SyFi/CVE-2024-55504)
 
 ### CVE-2024-55511 (2025-01-16)
 
@@ -61797,7 +61811,7 @@
 - [bayazid-bit/CVE-2019-11043](https://github.com/bayazid-bit/CVE-2019-11043)
 - [a1ex-var1amov/ctf-cve-2019-11043](https://github.com/a1ex-var1amov/ctf-cve-2019-11043)
 - [CodeHex083/phuip-fpizdam](https://github.com/CodeHex083/phuip-fpizdam)
-- [AndrewMas99/CVE-2019-11043-Vulnerability](https://github.com/AndrewMas99/CVE-2019-11043-Vulnerability)
+- [MagentaBear/CVE-2019-11043-Vulnerability](https://github.com/MagentaBear/CVE-2019-11043-Vulnerability)
 - [gon905332-jpg/cve-2019-11043.py](https://github.com/gon905332-jpg/cve-2019-11043.py)
 
 ### CVE-2019-11061 (2019-08-29)
