@@ -2223,6 +2223,13 @@
 
 - [sn0x-sharma/CVE-2026-18718](https://github.com/sn0x-sharma/CVE-2026-18718)
 
+### CVE-2026-18953 (2026-08-05)
+
+<code>Improper limitation of a pathname to a restricted directory in the get_resource tool in Amazon awslabs.aws-transform-mcp-server 0.1.0 through 0.1.4 might allow a context-dependent actor to write arbitrary files outside the intended working directory via the savePath parameter.\n\n\n\nTo remediate this issue, users should upgrade to version 0.1.5 or later.
+</code>
+
+- [ronamosa/CVE-2026-18953](https://github.com/ronamosa/CVE-2026-18953)
+
 ### CVE-2026-20127 (2026-02-25)
 
 <code>A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Cisco Catalyst SD-WAN Validator, formerly SD-WAN vBond, could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.\r\n\r\nThis vulnerability exists because the peering authentication mechanism in an affected system is not working properly. An attacker could exploit this vulnerability by sending crafted requests to an affected system. A successful exploit could allow the attacker to log in to an affected Cisco Catalyst SD-WAN Controller as an internal, high-privileged, non-root&amp;nbsp;user account. Using this account, the attacker could access NETCONF, which would then allow the attacker to manipulate network configuration for the SD-WAN fabric.&amp;nbsp;
@@ -7516,6 +7523,7 @@
 - [unveiledhistory49/teamcity-cve-2026-63077-remediation](https://github.com/unveiledhistory49/teamcity-cve-2026-63077-remediation)
 - [sfewer-r7/CVE-2026-63077](https://github.com/sfewer-r7/CVE-2026-63077)
 - [BoredHackerBlog/teamcity-CVE-2026-63077-pcap](https://github.com/BoredHackerBlog/teamcity-CVE-2026-63077-pcap)
+- [AnggaTechI/CVE-2026-63077](https://github.com/AnggaTechI/CVE-2026-63077)
 
 ### CVE-2026-63223 (2026-07-31)
 
@@ -7571,6 +7579,7 @@
 - [Aoripus-LTD/Zapscape-Fix](https://github.com/Aoripus-LTD/Zapscape-Fix)
 - [aarif450/Zapscape](https://github.com/aarif450/Zapscape)
 - [aarif450/aarif450.github.io](https://github.com/aarif450/aarif450.github.io)
+- [HackSpeak/CVE-2026-64561](https://github.com/HackSpeak/CVE-2026-64561)
 
 ### CVE-2026-64564 (2026-08-04)
 
@@ -7605,6 +7614,7 @@
 <code>WordPress is vulnerable to a pre-auth reflected XSS vulnerability on the login screen.\r\n\r\nVia a specially crafted malicious third-party website hosted by an attacker, it is possible for this to be escalated to an RCE vulnerability with conditions outside of the attackers control. This requires successful social engineering of and explicit interaction by the target victim.\r\n\r\nThis issue affects all versions of WordPress. Version 7.0.3 has been released, containing a fix for the vulnerability, and as a courtesy to users on older branches the fix has been backported to all branches back to 4.7.\r\n\r\nDiscovered and responsibly disclosed by [the team at pwn.ai](https://pwn.ai/).
 </code>
 
+- [HORKimhab/CVE-2026-64638](https://github.com/HORKimhab/CVE-2026-64638)
 - [Boreas37/CVE-2026-64638-PoC](https://github.com/Boreas37/CVE-2026-64638-PoC)
 - [686f6c61/POC-WP-XSS2Shell-CVE-2026-64638](https://github.com/686f6c61/POC-WP-XSS2Shell-CVE-2026-64638)
 - [wordsec/XSS2Shell](https://github.com/wordsec/XSS2Shell)
@@ -7613,6 +7623,8 @@
 - [Linuxhackingid-official/XSS2Shell-CVE-2026-64638](https://github.com/Linuxhackingid-official/XSS2Shell-CVE-2026-64638)
 - [0xBlackash/CVE-2026-64638](https://github.com/0xBlackash/CVE-2026-64638)
 - [renzi25031469/CVE-2026-64638-WordPress-Core-XSS2Shell](https://github.com/renzi25031469/CVE-2026-64638-WordPress-Core-XSS2Shell)
+- [imbas007/CVE-2026-64638-POC](https://github.com/imbas007/CVE-2026-64638-POC)
+- [yogaGymn/XSS2Shell-CVE-2026-64638](https://github.com/yogaGymn/XSS2Shell-CVE-2026-64638)
 
 ### CVE-2026-64640 (2026-08-06)
 
@@ -7984,6 +7996,13 @@
 - [SunandM/poc-h2-duplicate-host](https://github.com/SunandM/poc-h2-duplicate-host)
 - [SunandM/poc-h2-CVE-2026-71554](https://github.com/SunandM/poc-h2-CVE-2026-71554)
 
+### CVE-2026-71557 (2026-08-07)
+
+<code>go-git is an extensible git implementation library written in pure Go. Prior to 5.19.2 and 6.0.0-alpha.5, reference names are not sanitized before being used to construct on-disk paths under the reference storage directory, so a maliciously crafted reference name (for example containing directory-traversal sequences) can cause go-git to write files outside the intended reference storage directory. Versions 5.19.2 and 6.0.0-alpha.5 fix the issue.
+</code>
+
+- [Saku0512/CVE-2026-71557-poc](https://github.com/Saku0512/CVE-2026-71557-poc)
+
 ### CVE-2026-999999
 - [24520597-blip/CVE-2026-999999](https://github.com/24520597-blip/CVE-2026-999999)
 
@@ -8320,7 +8339,7 @@
 
 ### CVE-2025-1910 (2025-12-04)
 
-<code>The WatchGuard Mobile VPN with SSL Client on Windows allows a locally \nauthenticated non-administrative Windows user to escalate their \nprivileges to NT AUTHORITY/SYSTEM on the Windows machine where the VPN \nClient is installed.This issue affects the Mobile VPN with SSL Client 12.0 up to and including 12.11.2.
+<code>The WatchGuard Mobile VPN with SSL Client on Windows allows a locally authenticated non-administrative Windows user to escalate their privileges to NT AUTHORITY/SYSTEM on the Windows machine where the VPN Client is installed.
 </code>
 
 - [lutrasecurity/CVE-2025-1910-WatchGuard-Privilege-Escalation](https://github.com/lutrasecurity/CVE-2025-1910-WatchGuard-Privilege-Escalation)
@@ -24216,6 +24235,7 @@
 - [NingXin2002/HFS2.3_poc](https://github.com/NingXin2002/HFS2.3_poc)
 - [999gawkboyy/CVE-2024-23692_Exploit](https://github.com/999gawkboyy/CVE-2024-23692_Exploit)
 - [wgetnz/hfs2](https://github.com/wgetnz/hfs2)
+- [sandimfz/CVE-2024-23692](https://github.com/sandimfz/CVE-2024-23692)
 
 ### CVE-2024-23700
 - [canyie/CVE-2024-23700](https://github.com/canyie/CVE-2024-23700)
@@ -29957,7 +29977,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-52380](https://github.com/RandomRobbieBF/CVE-2024-52380)
-- [Nxploited/CVE-2024-52380-Exploit](https://github.com/Nxploited/CVE-2024-52380-Exploit)
 
 ### CVE-2024-52382 (2024-11-14)
 
@@ -62752,6 +62771,7 @@
 - [Ijinleife/CVE-2019-14287](https://github.com/Ijinleife/CVE-2019-14287)
 - [lemonadern/poc-cve-2019-14287](https://github.com/lemonadern/poc-cve-2019-14287)
 - [HivinManjuSri/ubuntu-cve-2019-14287-patch-manager](https://github.com/HivinManjuSri/ubuntu-cve-2019-14287-patch-manager)
+- [NyxRecon/Sudo-Agent-CTF-](https://github.com/NyxRecon/Sudo-Agent-CTF-)
 
 ### CVE-2019-14314 (2019-08-27)
 
@@ -69434,6 +69454,7 @@
 </code>
 
 - [peterleiva/CVE-2017-9757](https://github.com/peterleiva/CVE-2017-9757)
+- [joaoaugustom/IPFire_2.19_RCE_Authenticated](https://github.com/joaoaugustom/IPFire_2.19_RCE_Authenticated)
 
 ### CVE-2017-9769 (2017-08-02)
 
