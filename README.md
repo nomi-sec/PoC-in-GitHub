@@ -3367,6 +3367,7 @@
 </code>
 
 - [Semperis-Community/ResetNightmare](https://github.com/Semperis-Community/ResetNightmare)
+- [mihat2/ResetNightmare-impacket](https://github.com/mihat2/ResetNightmare-impacket)
 
 ### CVE-2026-27944 (2026-03-05)
 
@@ -7392,6 +7393,7 @@
 - [shinthink/CVE-2026-60004](https://github.com/shinthink/CVE-2026-60004)
 - [HackSpeak/CVE-2026-60004](https://github.com/HackSpeak/CVE-2026-60004)
 - [Sachinart/CVE-2026-60004-gitea-0day](https://github.com/Sachinart/CVE-2026-60004-gitea-0day)
+- [gagaltotal/CVE-2026-60004-poc-gitea](https://github.com/gagaltotal/CVE-2026-60004-poc-gitea)
 
 ### CVE-2026-60121 (2026-07-13)
 
@@ -7544,6 +7546,7 @@
 - [minwunn/wp2shell-CVE-2026-63030](https://github.com/minwunn/wp2shell-CVE-2026-63030)
 - [sowarma/wp2shell-PoC](https://github.com/sowarma/wp2shell-PoC)
 - [AnggaTechI/CVE-2026-63030](https://github.com/AnggaTechI/CVE-2026-63030)
+- [M4xSec/wp2shell-Exploit-Waf-Bypass](https://github.com/M4xSec/wp2shell-Exploit-Waf-Bypass)
 
 ### CVE-2026-63077 (2026-07-27)
 
@@ -7610,6 +7613,7 @@
 - [aarif450/Zapscape](https://github.com/aarif450/Zapscape)
 - [aarif450/aarif450.github.io](https://github.com/aarif450/aarif450.github.io)
 - [HackSpeak/CVE-2026-64561](https://github.com/HackSpeak/CVE-2026-64561)
+- [chuzhongyun/CVE-2026-64561-Kernel-Fix](https://github.com/chuzhongyun/CVE-2026-64561-Kernel-Fix)
 
 ### CVE-2026-64564 (2026-08-04)
 
@@ -7631,6 +7635,7 @@
 - [litosmartin/CVE-2026-64600-Refluxfs-PoC](https://github.com/litosmartin/CVE-2026-64600-Refluxfs-PoC)
 - [bha-vin/CVE-2026-64600-Exploit](https://github.com/bha-vin/CVE-2026-64600-Exploit)
 - [letsr00t/RefluxFS_CVE-2026-64600](https://github.com/letsr00t/RefluxFS_CVE-2026-64600)
+- [masrikky/CVE-2026-64600-RefluXFS](https://github.com/masrikky/CVE-2026-64600-RefluXFS)
 
 ### CVE-2026-64633 (2026-08-04)
 
@@ -7658,6 +7663,8 @@
 - [4minx/CVE-2026-64638](https://github.com/4minx/CVE-2026-64638)
 - [HackSpeak/CVE-2026-64638](https://github.com/HackSpeak/CVE-2026-64638)
 - [tc4dy/CVE-2026-64638-PoC-Exploit](https://github.com/tc4dy/CVE-2026-64638-PoC-Exploit)
+- [mohwahyudi/poc-CVE-2026-64638-](https://github.com/mohwahyudi/poc-CVE-2026-64638-)
+- [Dungsocool/CVE-2026-64638](https://github.com/Dungsocool/CVE-2026-64638)
 
 ### CVE-2026-64640 (2026-08-06)
 
@@ -7780,6 +7787,27 @@
 </code>
 
 - [theopaid/CVE-2026-66421-OpenClaw-Dashboard-Stored-XSS-via-lastMessage-Session-Field](https://github.com/theopaid/CVE-2026-66421-OpenClaw-Dashboard-Stored-XSS-via-lastMessage-Session-Field)
+
+### CVE-2026-66491 (2026-08-07)
+
+<code>Joomla Extension - phoca.cz - Arbitrary File Read in Phoca Commander 1.0.0-6.1.3 - Improper limitation of paths in the getSource function lead to an arbitrary file read vulnerability.
+</code>
+
+- [toanln-cov/CVE-2026-66491](https://github.com/toanln-cov/CVE-2026-66491)
+
+### CVE-2026-66492 (2026-08-07)
+
+<code>Joomla Extension - phoca.cz - Path Traversal vulnerability in Phoca Commander 1.0.0-6.1.3 - Improper limitation of paths in the file upload action lead to path a traversal vulnerability.
+</code>
+
+- [toanln-cov/CVE-2026-66492](https://github.com/toanln-cov/CVE-2026-66492)
+
+### CVE-2026-66493 (2026-08-07)
+
+<code>Joomla Extension - phoca.cz - Path Traversal vulnerability in Phoca Commander 1.0.0-6.1.3 - Improper limitation of paths for delete, copy and move actions lead to path traversal vulnerabilities.
+</code>
+
+- [toanln-cov/CVE-2026-66493](https://github.com/toanln-cov/CVE-2026-66493)
 
 ### CVE-2026-66729 (2026-07-27)
 
@@ -7928,7 +7956,11 @@
 
 - [LazyTitan33/CVE-2026-67599_ClearOS_RCE](https://github.com/LazyTitan33/CVE-2026-67599_ClearOS_RCE)
 
-### CVE-2026-67620
+### CVE-2026-67620 (2026-08-08)
+
+<code>Flowise through 3.1.4 contains a server-side request forgery vulnerability in the SSRF guard implemented in httpSecurity.ts, where the DEFAULT_DENY_LIST omits the Oracle Cloud Infrastructure metadata endpoint 192.0.0.192 and the Alibaba Cloud metadata endpoint 100.100.100.200, allowing authenticated attackers to force the server to issue arbitrary GET requests to cloud instance metadata services. Attackers can send requests to the fetch-links API endpoint with a crafted URL parameter, bypassing deny-list validation including redirect-based bypasses, to reach instance metadata services and expose instance identity data and role credentials on Oracle Cloud Infrastructure or Alibaba Cloud deployments, with unauthenticated access possible when URL-fetching nodes exist in public chatflows.
+</code>
+
 - [abdugafforov-bobur/CVE-2026-67620-poc](https://github.com/abdugafforov-bobur/CVE-2026-67620-poc)
 
 ### CVE-2026-67687 (2026-08-06)
