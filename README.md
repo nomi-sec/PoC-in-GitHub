@@ -529,6 +529,13 @@
 
 - [dann3xplo1t/CVE-2026-4257](https://github.com/dann3xplo1t/CVE-2026-4257)
 
+### CVE-2026-4282 (2026-04-02)
+
+<code>A flaw was found in Keycloak. The SingleUseObjectProvider, a global key-value store, lacks proper type and namespace isolation. This vulnerability allows an unauthenticated attacker to forge authorization codes. Successful exploitation can lead to the creation of admin-capable access tokens, resulting in privilege escalation.
+</code>
+
+- [hexissam/CVE-2026-4282-Scanner](https://github.com/hexissam/CVE-2026-4282-Scanner)
+
 ### CVE-2026-4390 (2026-05-27)
 
 <code>A weakness has been identified in TeamSpeak 3 Server up to 3.13.7. This affects the function process_resend_queue of the component Connection State Management. This manipulation causes use after free. The attack may be initiated remotely. Upgrading to version 3.13.8 is able to mitigate this issue. The affected component should be upgraded.
@@ -2056,6 +2063,13 @@
 
 - [zer0dayf/CVE-2026-15013](https://github.com/zer0dayf/CVE-2026-15013)
 
+### CVE-2026-15038 (2026-08-09)
+
+<code>The InfiniteWP Client WordPress plugin before 1.13.6 does not properly verify the site-connection state and the authenticity of requests to its remote-management endpoint on WordPress Multisite installations, allowing unauthenticated attackers to bind their own key, hijack an administrator session, and take over the entire network, leading to remote code execution.
+</code>
+
+- [Polosss/By-Poloss..-..CVE-2026-15038-POC](https://github.com/Polosss/By-Poloss..-..CVE-2026-15038-POC)
+
 ### CVE-2026-15282 (2026-07-10)
 
 <code>The Instant Appointment plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'insapp_upload_image_as_attachment' function in all versions up to, and including, 1.2. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -2794,6 +2808,13 @@
 - [BishopFox/CVE-2026-22557-check](https://github.com/BishopFox/CVE-2026-22557-check)
 - [gagaltotal/CVE-2026-22557-Path-Traversal-Ubiquti-UniFi](https://github.com/gagaltotal/CVE-2026-22557-Path-Traversal-Ubiquti-UniFi)
 
+### CVE-2026-22747 (2026-04-22)
+
+<code>Vulnerability in Spring Spring Security. SubjectX500PrincipalExtractor does not correctly handle certain malformed X.509 certificate CN values, which can lead to reading the wrong value for the username. In a carefully crafted certificate, this can lead to an attacker impersonating another user.\nThis issue affects Spring Security: from 7.0.0 through 7.0.4.
+</code>
+
+- [gsadagopan/cve-2026-22747-sandbox](https://github.com/gsadagopan/cve-2026-22747-sandbox)
+
 ### CVE-2026-22874 (2026-07-03)
 
 <code>Gitea versions up to and including 1.26.2 have incomplete SSRF protection in webhook and migration allow-list filtering.
@@ -3226,6 +3247,13 @@
 </code>
 
 - [j-dahl7/mcp-attack-detection-sentinel](https://github.com/j-dahl7/mcp-attack-detection-sentinel)
+
+### CVE-2026-26119 (2026-02-17)
+
+<code>Improper authentication in Windows Admin Center allows an authorized attacker to elevate privileges over a network.
+</code>
+
+- [r3vpwnx/CVE-2026-26119](https://github.com/r3vpwnx/CVE-2026-26119)
 
 ### CVE-2026-26179 (2026-04-14)
 
@@ -4033,6 +4061,13 @@
 </code>
 
 - [BishopFox/CVE-2026-34908-check](https://github.com/BishopFox/CVE-2026-34908-check)
+
+### CVE-2026-34910 (2026-05-22)
+
+<code>A malicious actor with access to the network could exploit an Improper Input Validation vulnerability found in UniFi OS devices to execute a Command Injection.
+</code>
+
+- [Boreas37/CVE-2026-34910-PoC](https://github.com/Boreas37/CVE-2026-34910-PoC)
 
 ### CVE-2026-34926 (2026-05-21)
 
@@ -7669,7 +7704,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-64638](https://github.com/HORKimhab/CVE-2026-64638)
-- [Boreas37/CVE-2026-64638-PoC](https://github.com/Boreas37/CVE-2026-64638-PoC)
+- [Boreas37/CVE-2026-64638-PoC-XSS2Shell-](https://github.com/Boreas37/CVE-2026-64638-PoC-XSS2Shell-)
 - [686f6c61/POC-WP-XSS2Shell-CVE-2026-64638](https://github.com/686f6c61/POC-WP-XSS2Shell-CVE-2026-64638)
 - [wordsec/XSS2Shell](https://github.com/wordsec/XSS2Shell)
 - [5yu4n/CVE-2026-64638](https://github.com/5yu4n/CVE-2026-64638)
@@ -7686,6 +7721,8 @@
 - [Dungsocool/CVE-2026-64638](https://github.com/Dungsocool/CVE-2026-64638)
 - [MR-LeonardoGomes/XSS2Shell-CVE-2026-64638](https://github.com/MR-LeonardoGomes/XSS2Shell-CVE-2026-64638)
 - [jendmaoul/XSS2Shell-CVE-2026-64638](https://github.com/jendmaoul/XSS2Shell-CVE-2026-64638)
+- [eh-amish/CVE-2026-64638-XSS-to-Shell-PoC](https://github.com/eh-amish/CVE-2026-64638-XSS-to-Shell-PoC)
+- [0xlipon/xss2shell](https://github.com/0xlipon/xss2shell)
 
 ### CVE-2026-64640 (2026-08-06)
 
@@ -11203,13 +11240,6 @@
 
 - [d3kc4rt1/CVE-2025-14893](https://github.com/d3kc4rt1/CVE-2025-14893)
 
-### CVE-2025-14998 (2026-01-02)
-
-<code>The Branda plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 3.4.24. This is due to the plugin not properly validating a user's identity prior to updating their password. This makes it possible for unauthenticated attackers to change arbitrary user's passwords, including administrators, and leverage that to gain access to their account.
-</code>
-
-- [KTN1990/CVE-2025-14998](https://github.com/KTN1990/CVE-2025-14998)
-
 ### CVE-2025-15001 (2026-01-06)
 
 <code>The FS Registration Password plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 1.0.1. This is due to the plugin not properly validating a user's identity prior to updating their password. This makes it possible for unauthenticated attackers to change arbitrary user's passwords, including administrators, and leverage that to gain access to their account.
@@ -14162,7 +14192,6 @@
 </code>
 
 - [farazsth98/poc-CVE-2025-38352](https://github.com/farazsth98/poc-CVE-2025-38352)
-- [farazsth98/chronomaly](https://github.com/farazsth98/chronomaly)
 - [Crime2/poc-CVE-2025-38352](https://github.com/Crime2/poc-CVE-2025-38352)
 - [jordelmir/Elysium-Vanguard-Sentinel-Audit](https://github.com/jordelmir/Elysium-Vanguard-Sentinel-Audit)
 - [AnalyticETH/chronomaly-webos](https://github.com/AnalyticETH/chronomaly-webos)
@@ -15226,6 +15255,7 @@
 
 - [Farenhytee/database-sentinel](https://github.com/Farenhytee/database-sentinel)
 - [git-akki/cso-vibecheck](https://github.com/git-akki/cso-vibecheck)
+- [boxed-dev/vibe-coding-security](https://github.com/boxed-dev/vibe-coding-security)
 
 ### CVE-2025-48799 (2025-07-08)
 
@@ -17813,6 +17843,7 @@
 - [im-nymii/CVE-2025-59528](https://github.com/im-nymii/CVE-2025-59528)
 - [corey-farley/CVE-2025-59528-Flowise-RCE](https://github.com/corey-farley/CVE-2025-59528-Flowise-RCE)
 - [Moon-Harvest/CVE-2025-59528](https://github.com/Moon-Harvest/CVE-2025-59528)
+- [Loaxert/CVE-2025-59528-PoC](https://github.com/Loaxert/CVE-2025-59528-PoC)
 
 ### CVE-2025-59532 (2025-09-22)
 
