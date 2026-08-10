@@ -285,6 +285,7 @@
 </code>
 
 - [var77/CVE-2026-2005](https://github.com/var77/CVE-2026-2005)
+- [open-flaw/CVE-2026-2005](https://github.com/open-flaw/CVE-2026-2005)
 
 ### CVE-2026-2020 (2026-03-07)
 
@@ -1290,6 +1291,13 @@
 - [11romain/CVE-2026-9082](https://github.com/11romain/CVE-2026-9082)
 - [sourcecode347/CVE-2026-9082-Mass_Scanner](https://github.com/sourcecode347/CVE-2026-9082-Mass_Scanner)
 
+### CVE-2026-9086 (2026-06-25)
+
+<code>A flaw was found in Keycloak. A remote attacker with administrative privileges, specifically those with `manage-client` permission or access to client registration endpoints, could bypass client Uniform Resource Identifier (URI) validation. This is achieved by registering a malicious client with a specially crafted redirect URI using a case-insensitive `javascript:` or `data:` scheme. This Cross-Site Scripting (XSS) vulnerability allows for arbitrary code execution in the Keycloak origin when a victim clicks the crafted link, such as in the logout flow or the Admin Console.
+</code>
+
+- [Saku0512/CVE-2026-9086-poc](https://github.com/Saku0512/CVE-2026-9086-poc)
+
 ### CVE-2026-9090 (2026-05-28)
 
 <code>Casdoor versions 2.362.0 and earlier contain a vulnerability that allows an attacker to bypass authentication by supplying an arbitrary signing certificate. The buildSpCertificateStore function extracts the X.509 certificate directly from the incoming SAMLResponse instead of using the trusted pre-configured Identity Provider certificate, allowing an attacker to forge assertions signed with an attacker-controlled key.
@@ -1306,6 +1314,7 @@
 - [ywh-jfellus/CVE-2026-9198](https://github.com/ywh-jfellus/CVE-2026-9198)
 - [0xgh057r3c0n/CVE-2026-9198](https://github.com/0xgh057r3c0n/CVE-2026-9198)
 - [rmhowe425/PoC-CVE-2026-9198](https://github.com/rmhowe425/PoC-CVE-2026-9198)
+- [Procjevt/CVE-2026-9198](https://github.com/Procjevt/CVE-2026-9198)
 
 ### CVE-2026-9256 (2026-05-22)
 
@@ -2027,6 +2036,13 @@
 
 - [tc4dy/CVE-2026-14762-PoC-Exploit](https://github.com/tc4dy/CVE-2026-14762-PoC-Exploit)
 
+### CVE-2026-14802 (2026-07-06)
+
+<code>A vulnerability was detected in react create-react-app up to 5.0.1 on macOS. This affects the function startBrowserProcess of the file openBrowser.js of the component react-dev-utils. Performing a manipulation results in os command injection. Remote exploitation of the attack is possible. The exploit is now public and may be used. The project was informed of the problem early through an issue report but has not responded yet.
+</code>
+
+- [IamDremig/CVE-2026-14802](https://github.com/IamDremig/CVE-2026-14802)
+
 ### CVE-2026-14856 (2026-07-27)
 
 <code>A stored Cross-Site Scripting (XSS) vulnerability in the file upload functionality of the Media Manager in TastyIgniter v4.3.0, caused by insufficient validation and sanitization of SVG files. An authenticated user with low privileges can upload a malicious SVG file containing JavaScript code. When an administrator views that file, the code executes in the context of their browser. By chaining this vulnerability with a Cross-Site Request Forgery (CSRF) attack, an attacker can extract the administrator’s CSRF token and perform unauthorized actions—such as modifying credentials—thereby gaining full control of the administrative account.
@@ -2109,6 +2125,13 @@
 </code>
 
 - [codeb0ssx/CVE-2026-15583-PoC](https://github.com/codeb0ssx/CVE-2026-15583-PoC)
+
+### CVE-2026-15598 (2026-07-13)
+
+<code>A weakness has been identified in antv layout 2.0.0. This impacts the function setNestedValue in the library lib/util/object.js. Executing a manipulation of the argument path can lead to improperly controlled modification of object prototype attributes. The attack can be launched remotely. The project was informed of the problem early through an issue report but has not responded yet.
+</code>
+
+- [IamDremig/CVE-2026-15598](https://github.com/IamDremig/CVE-2026-15598)
 
 ### CVE-2026-15706
 - [musana/CVE-2026-15706](https://github.com/musana/CVE-2026-15706)
@@ -2261,6 +2284,13 @@
 </code>
 
 - [patrickt2017/CVE-2026-19195-PoC](https://github.com/patrickt2017/CVE-2026-19195-PoC)
+
+### CVE-2026-19264 (2026-08-07)
+
+<code>Postiz is an open-source social media scheduling tool. The route that serves locally stored media joins URL-supplied path segments onto the upload directory and streams the file without normalising the path or confining it to that directory, and the route requires no authentication. Raw dot-segments are collapsed before routing, but URL-encoded separators survive route matching and are decoded only once they reach the handler, restoring the traversal at the filesystem call. An unauthenticated remote attacker can therefore read any file readable by the application process, including the process environment, which exposes the JWT signing secret, the database connection string, and connected provider and billing secrets. Because session tokens are signed with that secret and carry no expiry, this allows forging a non-expiring session as any user, including an administrator, without a password.
+</code>
+
+- [DarkLycn1976/CVE-2026-19264](https://github.com/DarkLycn1976/CVE-2026-19264)
 
 ### CVE-2026-20127 (2026-02-25)
 
@@ -3010,6 +3040,7 @@
 - [ozcanpng/CVE-2026-23744](https://github.com/ozcanpng/CVE-2026-23744)
 - [CerberusMrXi/CVE-2026-23744-MCPJam-Exploit](https://github.com/CerberusMrXi/CVE-2026-23744-MCPJam-Exploit)
 - [nullRoot-Red/CVE-2026-23744](https://github.com/nullRoot-Red/CVE-2026-23744)
+- [amao26/CVE-2026-23744-PoC](https://github.com/amao26/CVE-2026-23744-PoC)
 
 ### CVE-2026-23760 (2026-01-22)
 
@@ -5225,6 +5256,7 @@
 - [wxxsfxyzm/GhostLock-Galaxy](https://github.com/wxxsfxyzm/GhostLock-Galaxy)
 - [ruik-tech/Root-My-Galaxy](https://github.com/ruik-tech/Root-My-Galaxy)
 - [OhLookItsTheIRS/Root-My-Galaxy-tests](https://github.com/OhLookItsTheIRS/Root-My-Galaxy-tests)
+- [zzzxxxxxxxxxx/GhostLock-GOT-W29](https://github.com/zzzxxxxxxxxxx/GhostLock-GOT-W29)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -7364,6 +7396,13 @@
 
 - [CerberusMrXi/Flowise-CVE-2026-58057-exploit](https://github.com/CerberusMrXi/Flowise-CVE-2026-58057-exploit)
 
+### CVE-2026-58062 (2026-08-03)
+
+<code>In Bouncy Castle for Java before 1.85, Stapled OCSP response accepted without binding to the checked certificate. This issue also affects Bouncy Castle for Java LTS before 2.73.12, and Bouncy Castle for Java FIPS (BC-FJA) before bc-fips 2.0.2 (2.0.X series) and 2.1.3 (2.1.X series).
+</code>
+
+- [xiaoqiMikko/bc-check](https://github.com/xiaoqiMikko/bc-check)
+
 ### CVE-2026-58116 (2026-06-30)
 
 <code>LLaMA-Factory through 0.9.5 contains a remote code execution vulnerability that allows attackers with WebUI access to execute arbitrary Python code by supplying a malicious model path in the Chat or Training interfaces. The application passes user-supplied model path input unvalidated into AutoTokenizer.from_pretrained() and AutoModel.from_pretrained() with a hardcoded trust_remote_code=True parameter, causing the Hugging Face transformers library to fetch and execute arbitrary code from a remote or local model repository with the privileges of the server process.
@@ -7728,7 +7767,6 @@
 - [wordsec/XSS2Shell](https://github.com/wordsec/XSS2Shell)
 - [5yu4n/CVE-2026-64638](https://github.com/5yu4n/CVE-2026-64638)
 - [ZSecur1ty/XSS2Shell-CVE-2026-64638](https://github.com/ZSecur1ty/XSS2Shell-CVE-2026-64638)
-- [Linuxhackingid-official/XSS2Shell-CVE-2026-64638](https://github.com/Linuxhackingid-official/XSS2Shell-CVE-2026-64638)
 - [0xBlackash/CVE-2026-64638](https://github.com/0xBlackash/CVE-2026-64638)
 - [renzi25031469/CVE-2026-64638-WordPress-Core-XSS2Shell](https://github.com/renzi25031469/CVE-2026-64638-WordPress-Core-XSS2Shell)
 - [imbas007/CVE-2026-64638-POC](https://github.com/imbas007/CVE-2026-64638-POC)
@@ -7757,6 +7795,20 @@
 
 - [altvist/cve-2026-64725-poc](https://github.com/altvist/cve-2026-64725-poc)
 
+### CVE-2026-64747 (2026-07-27)
+
+<code>A buffer overflow was addressed with improved size validation. This issue is fixed in iOS 26.6 and iPadOS 26.6, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.6, tvOS 26.6, visionOS 26.6, watchOS 26.6. An app may be able to execute arbitrary code with kernel privileges.
+</code>
+
+- [jiuyi155/agxprobe](https://github.com/jiuyi155/agxprobe)
+
+### CVE-2026-64824 (2026-07-21)
+
+<code>Home Assistant Core before 2026.7.0 contains a path traversal vulnerability in the backup-restore function that allows attackers to write files to arbitrary absolute filesystem paths by supplying a crafted tar archive with a SYMTYPE entry containing a benign member name paired with an absolute linkname pointing outside the extraction directory. Because the official Docker image runs the Home Assistant process as root and the subsequent regular-file entry is written through the unvalidated symlink, attackers can achieve remote code execution by overwriting auto-imported Python paths such as site-packages/sitecustomize.py or custom component directories.
+</code>
+
+- [Boreas37/CVE-2026-64824-PoC](https://github.com/Boreas37/CVE-2026-64824-PoC)
+
 ### CVE-2026-65008 (2026-07-21)
 
 <code>Grav 2.0.4 (fixed in 2.0.7) contains a remote code execution vulnerability in Blueprint::dynamicData() (system/src/Grav/Common/Data/Blueprint.php), which passes a Class::method callable string and its arguments directly to call_user_func_array() without any allowlist. Because the form plugin routes page frontmatter through this path, an authenticated account with the admin.pages (or api.pages.write) permission can plant a malicious callable directive in a page. The command then executes as the web-server user whenever anyone — including an unauthenticated visitor — accesses the page.
@@ -7770,6 +7822,13 @@
 </code>
 
 - [rahulreddykarne/CVE-2026-65321-pyathena](https://github.com/rahulreddykarne/CVE-2026-65321-pyathena)
+
+### CVE-2026-65591 (2026-07-22)
+
+<code>n8n contains a sanitizer bypass vulnerability in the legacy expression evaluator's computed-member handler. An authenticated user with workflow create or modify permissions can craft a malicious expression to bypass the sanitizer and achieve host-level code execution as the n8n process. The legacy expression engine is the default in affected versions. Fixed in n8n 1.123.64, 2.29.8, and 2.30.1.
+</code>
+
+- [IamDremig/CVE-2026-65591](https://github.com/IamDremig/CVE-2026-65591)
 
 ### CVE-2026-65650 (2026-07-22)
 
@@ -8125,7 +8184,7 @@
 
 ### CVE-2026-71211 (2026-08-05)
 
-<code>MLflow's AI Gateway accepts an auth_config.api_base value when creating a gateway secret (mlflow/server/handlers.py, _create_gateway_secret) with no validation of scheme, host, or IP range; the value is stored verbatim. The gateway proxy endpoint (mlflow/server/gateway_api.py, raw_proxy) subsequently issues an HTTP request to that stored api_base plus a caller-supplied path and returns the full response body. MLflow's existing SSRF guard, _validate_webhook_url (which blocks non-global and metadata IPs), is never invoked anywhere in this gateway secret/proxy code path. The CreateGatewaySecret action additionally has no entry in the permission-validator map, so it requires only basic authentication rather than any specific scope, meaning any authenticated user — including read-only accounts — can create a secret pointing at an internal address and reach it via the proxy endpoint, potentially exposing cloud-instance IAM credentials via metadata services. This is related to CVE-2026-4035, which addresses a distinct mechanism in the same gateway-secret feature (server-side $ENV_VAR resolution inside the api_key field leaking credentials to the configured upstream); the finding here is an independent missing-validation gap in the api_base destination itself, unaffected by that fix.
+<code>MLflow's AI Gateway accepts an auth_config.api_base value when creating a gateway secret (mlflow/server/handlers.py, _create_gateway_secret) with no validation of scheme, host, or IP range; the value is stored verbatim. The gateway proxy endpoint (mlflow/server/gateway_api.py, raw_proxy) subsequently issues an HTTP request to that stored api_base plus a caller-supplied path and returns the full response body.
 </code>
 
 - [Abdivasiyev2008/CVE-2026-71211-exploit](https://github.com/Abdivasiyev2008/CVE-2026-71211-exploit)
@@ -16989,7 +17048,6 @@
 - [joaovicdev/EXPLOIT-CVE-2025-55182](https://github.com/joaovicdev/EXPLOIT-CVE-2025-55182)
 - [AdityaBhatt3010/React2Shell-CVE-2025-55182](https://github.com/AdityaBhatt3010/React2Shell-CVE-2025-55182)
 - [gahoole77/gahoole77.github.io](https://github.com/gahoole77/gahoole77.github.io)
-- [hyan0116/Next.js-RCE-CVE-2025-55182](https://github.com/hyan0116/Next.js-RCE-CVE-2025-55182)
 - [MyCompanyOrganization/React2Shell-Kingdom](https://github.com/MyCompanyOrganization/React2Shell-Kingdom)
 - [yannisduvignau/react2shell-exploit](https://github.com/yannisduvignau/react2shell-exploit)
 - [en0f/CVE-2025-55182-poc-json](https://github.com/en0f/CVE-2025-55182-poc-json)
@@ -17869,6 +17927,7 @@
 - [corey-farley/CVE-2025-59528-Flowise-RCE](https://github.com/corey-farley/CVE-2025-59528-Flowise-RCE)
 - [Moon-Harvest/CVE-2025-59528](https://github.com/Moon-Harvest/CVE-2025-59528)
 - [Loaxert/CVE-2025-59528-PoC](https://github.com/Loaxert/CVE-2025-59528-PoC)
+- [sonnelon/CVE-2025-59528-PoC](https://github.com/sonnelon/CVE-2025-59528-PoC)
 
 ### CVE-2025-59532 (2025-09-22)
 
@@ -35185,6 +35244,13 @@
 - [silentsignal/CVE-2023-30990](https://github.com/silentsignal/CVE-2023-30990)
 - [cyn8/cve-2023-30990](https://github.com/cyn8/cve-2023-30990)
 
+### CVE-2023-31014 (2023-09-20)
+
+<code>NVIDIA GeForce Now for Android contains a vulnerability in the game launcher component, where a malicious application on the same device can process the implicit intent meant for the streamer component. A successful exploit of this vulnerability may lead to limited information disclosure, denial of service, and code execution.
+</code>
+
+- [LazyBear8372/CVE-2023-31014_Lab](https://github.com/LazyBear8372/CVE-2023-31014_Lab)
+
 ### CVE-2023-31059 (2023-04-24)
 
 <code>Repetier Server through 1.4.10 allows ..%5c directory traversal for reading files that contain credentials, as demonstrated by connectionLost.php.
@@ -39234,9 +39300,6 @@
 </code>
 
 - [actuator/com.eypcnnapps.quickreboot](https://github.com/actuator/com.eypcnnapps.quickreboot)
-
-### CVE-2023-47400
-- [LucasVanHaaren/CVE-2023-47400](https://github.com/LucasVanHaaren/CVE-2023-47400)
 
 ### CVE-2023-47437 (2023-11-27)
 
@@ -70265,6 +70328,7 @@
 - [TheMalwareGuardian/CVE-2017-14980](https://github.com/TheMalwareGuardian/CVE-2017-14980)
 - [0xkr3pt0n/CVE-2017-14980](https://github.com/0xkr3pt0n/CVE-2017-14980)
 - [ahmedmamdouh6/CVE-2017-14980](https://github.com/ahmedmamdouh6/CVE-2017-14980)
+- [godoy-sec/CVE-2017-14980](https://github.com/godoy-sec/CVE-2017-14980)
 
 ### CVE-2017-15120 (2018-07-27)
 
@@ -75272,6 +75336,7 @@
 - [VictorGlass/DockerLabs-Tproot](https://github.com/VictorGlass/DockerLabs-Tproot)
 - [khalilu020/offensive-security-adversary-emulation](https://github.com/khalilu020/offensive-security-adversary-emulation)
 - [IrsaAttiqueCyber/SystemVulnerabilityChecklist_Project4_Decodelabs](https://github.com/IrsaAttiqueCyber/SystemVulnerabilityChecklist_Project4_Decodelabs)
+- [alexojocyber/cve-2011-2523-vsftpd-validation-lab](https://github.com/alexojocyber/cve-2011-2523-vsftpd-validation-lab)
 
 ### CVE-2011-2553
 - [carlosrpastrana/cve-2011-2553](https://github.com/carlosrpastrana/cve-2011-2553)
