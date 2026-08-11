@@ -5141,7 +5141,6 @@
 - [sec-sys/CVE-2026-42945-Reverse-Shell-POC](https://github.com/sec-sys/CVE-2026-42945-Reverse-Shell-POC)
 - [hulina9900-boop/DIY-CVE-2026-42945-POC](https://github.com/hulina9900-boop/DIY-CVE-2026-42945-POC)
 - [azilRababe/CVE-2026-42945](https://github.com/azilRababe/CVE-2026-42945)
-- [aratane/CVE-2026-42945](https://github.com/aratane/CVE-2026-42945)
 
 ### CVE-2026-42978 (2026-06-09)
 
@@ -5278,6 +5277,10 @@
 - [ruik-tech/Root-My-Galaxy](https://github.com/ruik-tech/Root-My-Galaxy)
 - [OhLookItsTheIRS/Root-My-Galaxy-tests](https://github.com/OhLookItsTheIRS/Root-My-Galaxy-tests)
 - [zzzxxxxxxxxxx/GhostLock-GOT-W29](https://github.com/zzzxxxxxxxxxx/GhostLock-GOT-W29)
+- [oopnv70-lab/ghostlock-apk](https://github.com/oopnv70-lab/ghostlock-apk)
+- [xiaohj233/ghostlock-x200-root](https://github.com/xiaohj233/ghostlock-x200-root)
+- [oopnv70-lab/ghostlock-skeleton](https://github.com/oopnv70-lab/ghostlock-skeleton)
+- [oopnv70-lab/ghostlock-skeleton-v2](https://github.com/oopnv70-lab/ghostlock-skeleton-v2)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -5774,7 +5777,6 @@
 - [Quaerendir/cve-2026-46331-audit](https://github.com/Quaerendir/cve-2026-46331-audit)
 - [seguridadentrerios/CVE-2026-46331](https://github.com/seguridadentrerios/CVE-2026-46331)
 - [g0thamRabb1t/CVE-2026-46331-pedit-COW-detection](https://github.com/g0thamRabb1t/CVE-2026-46331-pedit-COW-detection)
-- [V0IDNETWORK/CVE-2026-46331](https://github.com/V0IDNETWORK/CVE-2026-46331)
 - [yanxinwu946/CVE-2026-46331](https://github.com/yanxinwu946/CVE-2026-46331)
 - [MarwahHadi/CVE-2026-46331-pedit-cow](https://github.com/MarwahHadi/CVE-2026-46331-pedit-cow)
 - [rjt-gupta/page-cache-corruption-lpes](https://github.com/rjt-gupta/page-cache-corruption-lpes)
@@ -7678,6 +7680,7 @@
 - [sowarma/wp2shell-PoC](https://github.com/sowarma/wp2shell-PoC)
 - [AnggaTechI/CVE-2026-63030](https://github.com/AnggaTechI/CVE-2026-63030)
 - [M4xSec/wp2shell-Exploit-Waf-Bypass](https://github.com/M4xSec/wp2shell-Exploit-Waf-Bypass)
+- [g0d150ne/WP2Shell](https://github.com/g0d150ne/WP2Shell)
 
 ### CVE-2026-63077 (2026-07-27)
 
@@ -7798,6 +7801,7 @@
 - [Dungsocool/CVE-2026-64638](https://github.com/Dungsocool/CVE-2026-64638)
 - [MR-LeonardoGomes/XSS2Shell-CVE-2026-64638](https://github.com/MR-LeonardoGomes/XSS2Shell-CVE-2026-64638)
 - [jendmaoul/XSS2Shell-CVE-2026-64638](https://github.com/jendmaoul/XSS2Shell-CVE-2026-64638)
+- [g0d150ne/XSS2Shell](https://github.com/g0d150ne/XSS2Shell)
 - [eh-amish/CVE-2026-64638-XSS-to-Shell-PoC](https://github.com/eh-amish/CVE-2026-64638-XSS-to-Shell-PoC)
 - [0xlipon/xss2shell](https://github.com/0xlipon/xss2shell)
 
@@ -8847,6 +8851,7 @@
 - [I3r1h0n/pgAdminOpendoor](https://github.com/I3r1h0n/pgAdminOpendoor)
 - [Udayveer17/CVE-2025-2945-pgAdmin4-Authenticated-RCE-PoC-](https://github.com/Udayveer17/CVE-2025-2945-pgAdmin4-Authenticated-RCE-PoC-)
 - [plur1bu5/CVE-2025-2945-pgadmin-rce](https://github.com/plur1bu5/CVE-2025-2945-pgadmin-rce)
+- [g0d150ne/CVE-2025-2945](https://github.com/g0d150ne/CVE-2025-2945)
 
 ### CVE-2025-2995 (2025-03-31)
 
@@ -10027,6 +10032,7 @@
 - [DeathShotXD/0xKern3lCrush](https://github.com/DeathShotXD/0xKern3lCrush)
 - [D4rkks/CVE-2025-7771-Vulnerability-Exploration](https://github.com/D4rkks/CVE-2025-7771-Vulnerability-Exploration)
 - [mein-0/cve-2025-7771](https://github.com/mein-0/cve-2025-7771)
+- [enessakircolak/CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771)
 
 ### CVE-2025-7775 (2025-08-26)
 
@@ -11275,7 +11281,7 @@
 
 ### CVE-2025-14733 (2025-12-19)
 
-<code>An Out-of-bounds Write vulnerability in WatchGuard Fireware OS may allow a remote unauthenticated attacker to execute arbitrary code. This vulnerability affects both the Mobile User VPN with IKEv2 and the Branch Office VPN using IKEv2 when configured with a dynamic gateway peer.This vulnerability affects Fireware OS 11.10.2 up to and including 11.12.4_Update1, 12.0 up to and including 12.11.5 and 2025.1 up to and including 2025.1.3.
+<code>An Out-of-bounds Write vulnerability in the WatchGuard Fireware OS iked process may allow a remote unauthenticated attacker to execute arbitrary code. This vulnerability affects both the mobile user VPN with IKEv2 and the branch office VPN using IKEv2 when configured with a dynamic gateway peer.\n\nIf the Firebox was previously configured with the mobile user VPN with IKEv2 or a branch office VPN using IKEv2 to a dynamic gateway peer, and both of those configurations have since been deleted, that Firebox may still be vulnerable if a branch office VPN to a static gateway peer is still configured.
 </code>
 
 - [machevalia/CVE-2025-14733](https://github.com/machevalia/CVE-2025-14733)
@@ -11321,7 +11327,6 @@
 - [FurkanKAYAPINAR/CVE-2025-14847-MongoBleed-Exploit](https://github.com/FurkanKAYAPINAR/CVE-2025-14847-MongoBleed-Exploit)
 - [NoNameError/MongoBLEED---CVE-2025-14847-POC-](https://github.com/NoNameError/MongoBLEED---CVE-2025-14847-POC-)
 - [Rishi-kaul/CVE-2025-14847-MongoBleed](https://github.com/Rishi-kaul/CVE-2025-14847-MongoBleed)
-- [ElJoamy/MongoBleed-exploit](https://github.com/ElJoamy/MongoBleed-exploit)
 - [keraattin/Mongobleed-Detector-CVE-2025-14847](https://github.com/keraattin/Mongobleed-Detector-CVE-2025-14847)
 - [waheeb71/CVE-2025-14847](https://github.com/waheeb71/CVE-2025-14847)
 - [CadGoose/MongoBleed-CVE-2025-14847-Fully-Automated-scanner](https://github.com/CadGoose/MongoBleed-CVE-2025-14847-Fully-Automated-scanner)
@@ -16161,7 +16166,6 @@
 - [Udyz/CVE-2025-52691](https://github.com/Udyz/CVE-2025-52691)
 - [you-ssef9/CVE-2025-52691](https://github.com/you-ssef9/CVE-2025-52691)
 - [DeathShotXD/CVE-2025-52691-APT-PoC](https://github.com/DeathShotXD/CVE-2025-52691-APT-PoC)
-- [nxgn-kd01/smartermail-cve-scanner](https://github.com/nxgn-kd01/smartermail-cve-scanner)
 - [watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691](https://github.com/watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691)
 - [ninjazan420/CVE-2025-52691-PoC-SmarterMail-authentication-bypass-exploit-WT-2026-0001](https://github.com/ninjazan420/CVE-2025-52691-PoC-SmarterMail-authentication-bypass-exploit-WT-2026-0001)
 
@@ -31222,6 +31226,7 @@
 - [julianertle/CVE-2023-0386-CTF](https://github.com/julianertle/CVE-2023-0386-CTF)
 - [anxs3c/TwoMillion-Machine-Writeup](https://github.com/anxs3c/TwoMillion-Machine-Writeup)
 - [pwncone/CVE-2023-0386-OverlayFS](https://github.com/pwncone/CVE-2023-0386-OverlayFS)
+- [abedallarawashdeh/HTB-TwoMillion-machine](https://github.com/abedallarawashdeh/HTB-TwoMillion-machine)
 
 ### CVE-2023-0400 (2023-02-01)
 
@@ -31489,7 +31494,7 @@
 
 ### CVE-2023-2008 (2023-04-14)
 
-<code>A flaw was found in the Linux kernel's udmabuf device driver. The specific flaw exists within a fault handler. The issue results from the lack of proper validation of user-supplied data, which can result in a memory access past the end of an array. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.
+<code>A flaw was found in the Linux kernel's udmabuf device driver, within a fault handler. This issue occurs due to the lack of proper validation of user-supplied data, which can result in memory access past the end of an array. This may allow an attacker to escalate privileges and execute arbitrary code in the context of the kernel.
 </code>
 
 - [bluefrostsecurity/CVE-2023-2008](https://github.com/bluefrostsecurity/CVE-2023-2008)
@@ -32797,7 +32802,6 @@
 </code>
 
 - [yoryio/CVE-2023-7028](https://github.com/yoryio/CVE-2023-7028)
-- [hackeremmen/gitlab-exploit](https://github.com/hackeremmen/gitlab-exploit)
 - [soltanali0/CVE-2023-7028](https://github.com/soltanali0/CVE-2023-7028)
 - [gh-ost00/CVE-2023-7028](https://github.com/gh-ost00/CVE-2023-7028)
 - [sariamubeen/CVE-2023-7028](https://github.com/sariamubeen/CVE-2023-7028)
@@ -54239,6 +54243,13 @@
 - [MithatGuner/CVE-2021-46704-POC](https://github.com/MithatGuner/CVE-2021-46704-POC)
 - [Erenlancaster/CVE-2021-46704](https://github.com/Erenlancaster/CVE-2021-46704)
 
+### CVE-2021-47881 (2026-01-23)
+
+<code>dataSIMS Avionics ARINC 664-1 version 4.5.3 contains a local buffer overflow vulnerability that allows attackers to overwrite memory by manipulating the milstd1553result.txt file. Attackers can craft a malicious file with carefully constructed payload and alignment sections to potentially execute arbitrary code on the Windows system.
+</code>
+
+- [kagancapar/CVE-2021-47881](https://github.com/kagancapar/CVE-2021-47881)
+
 ### CVE-2021-56789
 - [DataSurgeon-ds/ds-cve-plugin](https://github.com/DataSurgeon-ds/ds-cve-plugin)
 
@@ -58994,6 +59005,13 @@
 </code>
 
 - [jonathanrey87/CVE-2020-25273](https://github.com/jonathanrey87/CVE-2020-25273)
+
+### CVE-2020-25279 (2020-09-11)
+
+<code>An issue was discovered on Samsung mobile devices with O(8.x), P(9.0), and Q(10.0) (Exynos chipsets) software. The baseband component has a buffer overflow via an abnormal SETUP message, leading to execution of arbitrary code. The Samsung ID is SVE-2020-18098 (September 2020).
+</code>
+
+- [Gimminse/Firmware-analysis](https://github.com/Gimminse/Firmware-analysis)
 
 ### CVE-2020-25398 (2020-11-05)
 
@@ -63812,7 +63830,7 @@
 - [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [Ma1Dong/Solr_CVE-2019-17558](https://github.com/Ma1Dong/Solr_CVE-2019-17558)
 - [xkyrage/Exploit_CVE-2019-17558-RCE](https://github.com/xkyrage/Exploit_CVE-2019-17558-RCE)
-- [rogerzeferino/Apache-Solr-RCE-CVE-2019-17558](https://github.com/rogerzeferino/Apache-Solr-RCE-CVE-2019-17558)
+- [rogerzeferino/cve-2019-17558-apache-solr-rce](https://github.com/rogerzeferino/cve-2019-17558-apache-solr-rce)
 
 ### CVE-2019-17564 (2020-04-01)
 
