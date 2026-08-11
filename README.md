@@ -1197,7 +1197,6 @@
 
 - [watchtowrlabs/watchTowr-vs-Netscaler-CVE-2026-8451](https://github.com/watchtowrlabs/watchTowr-vs-Netscaler-CVE-2026-8451)
 - [derekpreston81/CVE_ADC_IOC_2026](https://github.com/derekpreston81/CVE_ADC_IOC_2026)
-- [attarwahyup/Netscaler-CVE-2026-8451](https://github.com/attarwahyup/Netscaler-CVE-2026-8451)
 - [0xBlackash/CVE-2026-8451](https://github.com/0xBlackash/CVE-2026-8451)
 
 ### CVE-2026-8461 (2026-06-18)
@@ -2223,6 +2222,7 @@
 
 ### CVE-2026-17106
 - [masasron/CopyEscape-CVE-2026-17106](https://github.com/masasron/CopyEscape-CVE-2026-17106)
+- [HackSpeak/CVE-2026-17106](https://github.com/HackSpeak/CVE-2026-17106)
 
 ### CVE-2026-17351 (2026-07-31)
 
@@ -2302,6 +2302,13 @@
 </code>
 
 - [huzjie/aegisagent](https://github.com/huzjie/aegisagent)
+
+### CVE-2026-18907 (2026-08-05)
+
+<code>Path Traversal in Download File Feature in com.talpa.hibrowser 2.23.1.1 on Android allows arbitrary file write via directory traversal sequences in the filename.
+</code>
+
+- [Hunt-Benito/two-dots-and-a-slash-cve-2026-18907-tecno-hi-browser-download-path-traversal](https://github.com/Hunt-Benito/two-dots-and-a-slash-cve-2026-18907-tecno-hi-browser-download-path-traversal)
 
 ### CVE-2026-18953 (2026-08-05)
 
@@ -3248,7 +3255,6 @@
 </code>
 
 - [dinosn/CVE-2026-25243](https://github.com/dinosn/CVE-2026-25243)
-- [dinosn/CVE-2026-25243-debugfree](https://github.com/dinosn/CVE-2026-25243-debugfree)
 - [captain-woof/CVE-2026-25243](https://github.com/captain-woof/CVE-2026-25243)
 
 ### CVE-2026-25250
@@ -3680,9 +3686,6 @@
 </code>
 
 - [walidriouah/CVE-2026-30691](https://github.com/walidriouah/CVE-2026-30691)
-
-### CVE-2026-30784
-- [malejdj/CVE-2026-30784-rustdesk-poc](https://github.com/malejdj/CVE-2026-30784-rustdesk-poc)
 
 ### CVE-2026-30849 (2026-03-23)
 
@@ -5304,6 +5307,7 @@
 - [oopnv70-lab/ghostlock-skeleton](https://github.com/oopnv70-lab/ghostlock-skeleton)
 - [oopnv70-lab/ghostlock-skeleton-v2](https://github.com/oopnv70-lab/ghostlock-skeleton-v2)
 - [yijiacloud/GhostLock-OPPO-PCKM00](https://github.com/yijiacloud/GhostLock-OPPO-PCKM00)
+- [yijiacloud/ghostlock-cve-2026-43499-4.19-k40](https://github.com/yijiacloud/ghostlock-cve-2026-43499-4.19-k40)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -5442,6 +5446,13 @@
 
 - [HORKimhab/CVE-2026-44338](https://github.com/HORKimhab/CVE-2026-44338)
 - [rootdirective-sec/CVE-2026-44338-Lab](https://github.com/rootdirective-sec/CVE-2026-44338-Lab)
+
+### CVE-2026-44401 (2026-08-10)
+
+<code>Typemill CMS version 2.x contains a persistent cross-site scripting vulnerability in the Markdown parser extension that allows authenticated users with theme-configuration access to inject malicious JavaScript URIs by supplying unsanitized href values in Markdown links. Attackers can craft Markdown links using the javascript: scheme through ParsedownExtension.php or TwigMarkdownExtension.php, storing a persistent payload that executes in the browser of every visitor who clicks the link, enabling session cookie theft, authenticated request forgery, and credential harvesting.
+</code>
+
+- [sn0x-sharma/CVE-2026-44401](https://github.com/sn0x-sharma/CVE-2026-44401)
 
 ### CVE-2026-44403 (2026-05-12)
 
@@ -5681,7 +5692,6 @@
 - [boobalover7/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/boobalover7/YellowKey-Bitlocker-CVE-2026-45585)
 - [tchuin2609/YellowKey-Bitlocker](https://github.com/tchuin2609/YellowKey-Bitlocker)
 - [tchuin2609/tchuin2609.github.io](https://github.com/tchuin2609/tchuin2609.github.io)
-- [yellowkeybitlocker/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/yellowkeybitlocker/YellowKey-Bitlocker-CVE-2026-45585)
 - [Donalhighnecked528/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/Donalhighnecked528/YellowKey-Bitlocker-CVE-2026-45585)
 
 ### CVE-2026-45659 (2026-05-22)
@@ -6214,6 +6224,7 @@
 - [xtremebeing/starlette-host-header-lab](https://github.com/xtremebeing/starlette-host-header-lab)
 - [Bhanunamikaze/BadHost-CVE-2026-48710-Exploit](https://github.com/Bhanunamikaze/BadHost-CVE-2026-48710-Exploit)
 - [sb-ox/repro-OXDEV-77637-uv-workspace](https://github.com/sb-ox/repro-OXDEV-77637-uv-workspace)
+- [CuteeCat/CVE-2026-48710](https://github.com/CuteeCat/CVE-2026-48710)
 
 ### CVE-2026-48732 (2026-06-24)
 
@@ -6974,7 +6985,6 @@
 </code>
 
 - [BiiTts/CVE-2026-53753-Crawl4AI-RCE](https://github.com/BiiTts/CVE-2026-53753-Crawl4AI-RCE)
-- [0xEnc0der/CVE-2026-53753](https://github.com/0xEnc0der/CVE-2026-53753)
 
 ### CVE-2026-53787 (2026-06-12)
 
@@ -7602,6 +7612,9 @@
 
 - [NicPWNs/CVE-2026-62183](https://github.com/NicPWNs/CVE-2026-62183)
 
+### CVE-2026-62737
+- [DavidCarliez/cve-2026-62737-lab](https://github.com/DavidCarliez/cve-2026-62737-lab)
+
 ### CVE-2026-62958
 - [0Linear/CVE-2026-62958](https://github.com/0Linear/CVE-2026-62958)
 
@@ -7805,7 +7818,6 @@
 - [g0d150ne/XSS2Shell](https://github.com/g0d150ne/XSS2Shell)
 - [eh-amish/CVE-2026-64638-XSS-to-Shell-PoC](https://github.com/eh-amish/CVE-2026-64638-XSS-to-Shell-PoC)
 - [0xlipon/xss2shell](https://github.com/0xlipon/xss2shell)
-- [giriaryan694-a11y/CVE-2026-64638-XSS2Shell_Lab](https://github.com/giriaryan694-a11y/CVE-2026-64638-XSS2Shell_Lab)
 
 ### CVE-2026-64640 (2026-08-06)
 
@@ -32781,13 +32793,6 @@
 
 - [0x00phantom-hat/CVE-2023-6972-Exploit-Arbitrary-File-Deletion](https://github.com/0x00phantom-hat/CVE-2023-6972-Exploit-Arbitrary-File-Deletion)
 
-### CVE-2023-6985 (2024-02-05)
-
-<code>The 10Web AI Assistant – AI content writing assistant plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the install_plugin AJAX action in all versions up to, and including, 1.0.18. This makes it possible for authenticated attackers, with subscriber-level access and above, to install arbitrary plugins that can be used to gain further access to a compromised site.
-</code>
-
-- [RandomRobbieBF/CVE-2023-6985](https://github.com/RandomRobbieBF/CVE-2023-6985)
-
 ### CVE-2023-7016 (2024-02-27)
 
 <code>A flaw in Thales SafeNet Authentication Client prior to 10.8 R10 on Windows allows an attacker to execute code at a SYSTEM level via local access.
@@ -39516,6 +39521,7 @@
 
 - [Hamibubu/CVE-2023-48084](https://github.com/Hamibubu/CVE-2023-48084)
 - [bucketcat/CVE-2023-48084](https://github.com/bucketcat/CVE-2023-48084)
+- [MettHK/CVE-2023-48084-Revised](https://github.com/MettHK/CVE-2023-48084-Revised)
 
 ### CVE-2023-48123 (2023-12-06)
 
