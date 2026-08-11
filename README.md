@@ -345,6 +345,20 @@
 
 - [Bhanunamikaze/CVE-2026-2587-Exploit-POC](https://github.com/Bhanunamikaze/CVE-2026-2587-Exploit-POC)
 
+### CVE-2026-2764 (2026-02-24)
+
+<code>JIT miscompilation, use-after-free in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 148, Firefox ESR 115.33, Firefox ESR 140.8, Thunderbird 148, and Thunderbird 140.8.
+</code>
+
+- [SneakyNachos/CVE-2026-2764-but-with-wasm](https://github.com/SneakyNachos/CVE-2026-2764-but-with-wasm)
+
+### CVE-2026-2766 (2026-02-24)
+
+<code>Use-after-free in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 148, Firefox ESR 140.8, Thunderbird 148, and Thunderbird 140.8.
+</code>
+
+- [SneakyNachos/CVE-2026-2766-but-with-wasm](https://github.com/SneakyNachos/CVE-2026-2766-but-with-wasm)
+
 ### CVE-2026-2828
 - [George0Papasotiriou/CVE-2026-2828-WebGPU-Cross-Origin-Pixel-Stealing-via-Timing](https://github.com/George0Papasotiriou/CVE-2026-2828-WebGPU-Cross-Origin-Pixel-Stealing-via-Timing)
 
@@ -874,14 +888,6 @@
 
 - [notthemystery/CVE-2026-6300-PoC](https://github.com/notthemystery/CVE-2026-6300-PoC)
 
-### CVE-2026-6307 (2026-04-15)
-
-<code>Type Confusion in Turbofan in Google Chrome prior to 147.0.7727.101 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)
-</code>
-
-- [0xsha/CVE-2026-6307](https://github.com/0xsha/CVE-2026-6307)
-- [J4ck3LSyN-Gen2/CVE-2026-6307-Longinus](https://github.com/J4ck3LSyN-Gen2/CVE-2026-6307-Longinus)
-
 ### CVE-2026-6330 (2026-06-25)
 
 <code>The ML-KEM ARM64 NEON ciphertext comparison only compares half of the input, breaking the Fujisaki-Okamoto transform's implicit rejection and weakening IND-CCA2 security on that code path. The constant-time comparison effectively ignored part of the re-encrypted ciphertext, so a decapsulating party could fail to detect a manipulated ciphertext and proceed without the standard's required implicit rejection.
@@ -1337,6 +1343,7 @@
 - [0xgh057r3c0n/CVE-2026-9198](https://github.com/0xgh057r3c0n/CVE-2026-9198)
 - [rmhowe425/PoC-CVE-2026-9198](https://github.com/rmhowe425/PoC-CVE-2026-9198)
 - [Procjevt/CVE-2026-9198](https://github.com/Procjevt/CVE-2026-9198)
+- [CuteeCat/CVE-2026-9198](https://github.com/CuteeCat/CVE-2026-9198)
 
 ### CVE-2026-9256 (2026-05-22)
 
@@ -1518,7 +1525,6 @@
 - [HORKimhab/CVE-2026-10520-10523](https://github.com/HORKimhab/CVE-2026-10520-10523)
 - [0xBlackash/CVE-2026-10520](https://github.com/0xBlackash/CVE-2026-10520)
 - [error-inside/CVE-2026-10520](https://github.com/error-inside/CVE-2026-10520)
-- [emilliewatson96/spryCVE-2026-10520](https://github.com/emilliewatson96/spryCVE-2026-10520)
 
 ### CVE-2026-10523 (2026-06-09)
 
@@ -2215,6 +2221,9 @@
 ### CVE-2026-17001
 - [llaytynher/CVE-2026-17001](https://github.com/llaytynher/CVE-2026-17001)
 
+### CVE-2026-17106
+- [masasron/CopyEscape-CVE-2026-17106](https://github.com/masasron/CopyEscape-CVE-2026-17106)
+
 ### CVE-2026-17351 (2026-07-31)
 
 <code>The fix for CVE-2026-12045 in pgAdmin 4 9.16 required the LLM-supplied query passed to the AI Assistant's execute_sql_query tool to parse, via sqlparse, as exactly one non-transaction-control statement before running it inside a BEGIN TRANSACTION READ ONLY wrapper. sqlparse's string-literal lexing can disagree with PostgreSQL's own parser: under standard_conforming_strings = on (PostgreSQL's default since 9.1), a backslash immediately before a quote is an ordinary character to PostgreSQL, but sqlparse treats it as escaping the quote. A payload such as SELECT '\';COMMIT;CREATE TABLE pwn(x int);SELECT 1 --' therefore parses as a single SELECT to sqlparse's validator, while PostgreSQL executes it as four statements: the smuggled COMMIT ends the wrapping read-only transaction, and the trailing ROLLBACK becomes a no-op. This reintroduces the same write/RCE bypass CVE-2026-12045 was meant to close, reachable via the same indirect prompt-injection delivery (an attacker plants the payload in any object the AI Assistant may read; the LLM emits it as a tool call).\n\nAn initial candidate fix ran the query with psycopg's execute(..., prepare=True), intending to force PostgreSQL's own Parse step (extended query protocol) to reject multi-statement text regardless of sqlparse's classification. This candidate fix does not work as submitted: psycopg3's PrepareManager silently ignores the prepare argument whenever the connection's prepare_threshold is None, which is pgAdmin's default for every server connection (the per-server &quot;Prepare threshold&quot; field is blank unless an administrator explicitly sets it) -- psycopg3 falls back to the simple query protocol, the same multi-statement-capable path the bypass exploits, so the candidate fix closes nothing on any real-world default configuration.\n\nThe corrected fix sets conn.prepare_threshold = 0 directly on the dedicated, single-use read-only connection the AI Assistant tool opens, structurally forcing the extended query protocol independent of any server-level configuration. Verified against a live PostgreSQL 18 instance: the payload executes successfully under the prepare_threshold=None (default) behavior, and is rejected with &quot;cannot insert multiple commands into a prepared statement&quot; once prepare_threshold=0 is set on that connection.\n\nThis issue affects pgAdmin 4: from 9.13 before 9.17.
@@ -2271,6 +2280,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-18577](https://github.com/HORKimhab/CVE-2026-18577)
+- [Yash-Dalvee/stormencryptor-ncentral-defense](https://github.com/Yash-Dalvee/stormencryptor-ncentral-defense)
 
 ### CVE-2026-18649 (2026-08-06)
 
@@ -2285,6 +2295,13 @@
 </code>
 
 - [sn0x-sharma/CVE-2026-18718](https://github.com/sn0x-sharma/CVE-2026-18718)
+
+### CVE-2026-18830 (2026-08-04)
+
+<code>Insufficient input validation in Amazon Bedrock AgentCore harness might allow an authenticated remote user to execute configured tools bypassing model invocation and security controls via crafted content blocks in conversation messages. AWS has addressed this issue. No customer action is required.
+</code>
+
+- [huzjie/aegisagent](https://github.com/huzjie/aegisagent)
 
 ### CVE-2026-18953 (2026-08-05)
 
@@ -2962,7 +2979,6 @@
 - [seguridadentrerios/CVE-2026-23111](https://github.com/seguridadentrerios/CVE-2026-23111)
 - [ishankaru/CVE-2026-23111-nftables-lab](https://github.com/ishankaru/CVE-2026-23111-nftables-lab)
 - [Baba01hacker666/CVE-2026-23111](https://github.com/Baba01hacker666/CVE-2026-23111)
-- [bakano98/cve-2026-23111-poc](https://github.com/bakano98/cve-2026-23111-poc)
 - [vrtlbob/Linux-Kernel-Vulnerabilities-CVE-2026-23111](https://github.com/vrtlbob/Linux-Kernel-Vulnerabilities-CVE-2026-23111)
 
 ### CVE-2026-23415 (2026-04-02)
@@ -3062,7 +3078,7 @@
 - [ozcanpng/CVE-2026-23744](https://github.com/ozcanpng/CVE-2026-23744)
 - [CerberusMrXi/CVE-2026-23744-MCPJam-Exploit](https://github.com/CerberusMrXi/CVE-2026-23744-MCPJam-Exploit)
 - [nullRoot-Red/CVE-2026-23744](https://github.com/nullRoot-Red/CVE-2026-23744)
-- [amao26/CVE-2026-23744-PoC](https://github.com/amao26/CVE-2026-23744-PoC)
+- [Mluex0/CVE-2026-23744-PoC](https://github.com/Mluex0/CVE-2026-23744-PoC)
 - [sonnelon/CVE-2026-23744-PoC](https://github.com/sonnelon/CVE-2026-23744-PoC)
 
 ### CVE-2026-23760 (2026-01-22)
@@ -3538,6 +3554,13 @@
 </code>
 
 - [MichaelAdamGroberman/CVE-2026-28767](https://github.com/MichaelAdamGroberman/CVE-2026-28767)
+
+### CVE-2026-28797 (2026-04-03)
+
+<code>RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine. In versions 0.24.0 and prior, a Server-Side Template Injection (SSTI) vulnerability exists in RAGFlow's Agent workflow Text Processing (StringTransform) and Message components. These components use Python's jinja2.Template (unsandboxed) to render user-supplied templates, allowing any authenticated user to execute arbitrary operating system commands on the server. At time of publication, there are no publicly available patches.
+</code>
+
+- [qianlijaingshan/ragflow-audit](https://github.com/qianlijaingshan/ragflow-audit)
 
 ### CVE-2026-28867 (2026-03-25)
 
@@ -4450,7 +4473,6 @@
 
 - [b0ySie7e/OpenSTAManager-RCE-Exploit-CVE-2026-38751](https://github.com/b0ySie7e/OpenSTAManager-RCE-Exploit-CVE-2026-38751)
 - [Why-Shell/CVE-2026-38751](https://github.com/Why-Shell/CVE-2026-38751)
-- [hackthem/OpenSTAManager_RCE_Exploit-CVE-2026-38751-](https://github.com/hackthem/OpenSTAManager_RCE_Exploit-CVE-2026-38751-)
 - [Mkps/CVE-2026-38751-OpenSTAManager-Arbitrary-File-Upload-PoC](https://github.com/Mkps/CVE-2026-38751-OpenSTAManager-Arbitrary-File-Upload-PoC)
 
 ### CVE-2026-38763 (2026-07-22)
@@ -5281,6 +5303,7 @@
 - [xiaohj233/ghostlock-x200-root](https://github.com/xiaohj233/ghostlock-x200-root)
 - [oopnv70-lab/ghostlock-skeleton](https://github.com/oopnv70-lab/ghostlock-skeleton)
 - [oopnv70-lab/ghostlock-skeleton-v2](https://github.com/oopnv70-lab/ghostlock-skeleton-v2)
+- [yijiacloud/GhostLock-OPPO-PCKM00](https://github.com/yijiacloud/GhostLock-OPPO-PCKM00)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -5355,13 +5378,6 @@
 
 - [gracecondition/DirtySlide](https://github.com/gracecondition/DirtySlide)
 - [impost0r/Rie](https://github.com/impost0r/Rie)
-
-### CVE-2026-43735 (2026-06-29)
-
-<code>The issue was addressed with improved checks. This issue is fixed in Safari 26.5.2, iOS 26.5.2 and iPadOS 26.5.2, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. A malicious website may exfiltrate data cross-origin.
-</code>
-
-- [dem0ns/CVE-2026-43735](https://github.com/dem0ns/CVE-2026-43735)
 
 ### CVE-2026-43813 (2026-07-27)
 
@@ -6265,7 +6281,6 @@
 - [Almavj/Joomla_CVE_2026_48907](https://github.com/Almavj/Joomla_CVE_2026_48907)
 - [K3ysTr0K3R/CVE-2026-48907](https://github.com/K3ysTr0K3R/CVE-2026-48907)
 - [pssec-io/CVE-2026-48907](https://github.com/pssec-io/CVE-2026-48907)
-- [NoXiVaR/CVE-2026-48907](https://github.com/NoXiVaR/CVE-2026-48907)
 - [bayu06802/CVE-2026-48907](https://github.com/bayu06802/CVE-2026-48907)
 - [ChiefYoru/CVE-2026-48907_PoC](https://github.com/ChiefYoru/CVE-2026-48907_PoC)
 
@@ -6953,13 +6968,6 @@
 
 - [7megaumka7/FOSKiller](https://github.com/7megaumka7/FOSKiller)
 
-### CVE-2026-53694 (2026-06-10)
-
-<code>Improper Neutralization of Argument Delimiters in a Command ('Argument Injection') vulnerability in Nomachine allows Argument Injection.This issue affects Nomachine: before 9.5.7, before 8.23.2.
-</code>
-
-- [do4choo/CVE-2026-53694-NoMachine-LPE](https://github.com/do4choo/CVE-2026-53694-NoMachine-LPE)
-
 ### CVE-2026-53753 (2026-06-23)
 
 <code>Crawl4AI is an open-source LLM friendly web crawler &amp; scraper. Prior to 0.8.7, the _safe_eval_expression() function in the computed fields feature uses an AST validator that only blocks attributes starting with underscore. Python generator and frame object attributes (gi_frame, f_back, f_builtins) do NOT start with underscore, enabling a complete sandbox escape to achieve arbitrary code execution. The attack requires no authentication (JWT disabled by default) and is triggered via POST /crawl with a crafted extraction schema. This vulnerability is fixed in 0.8.7.
@@ -7220,13 +7228,6 @@
 </code>
 
 - [oscerd/CVE-2026-55994](https://github.com/oscerd/CVE-2026-55994)
-
-### CVE-2026-56011 (2026-06-26)
-
-<code>Unauthenticated Cross Site Scripting (XSS) in MapPress Maps for WordPress &lt;= 2.97.3 versions.
-</code>
-
-- [rootdirective-sec/CVE-2026-56011-Lab](https://github.com/rootdirective-sec/CVE-2026-56011-Lab)
 
 ### CVE-2026-56111 (2026-06-24)
 
@@ -7804,6 +7805,7 @@
 - [g0d150ne/XSS2Shell](https://github.com/g0d150ne/XSS2Shell)
 - [eh-amish/CVE-2026-64638-XSS-to-Shell-PoC](https://github.com/eh-amish/CVE-2026-64638-XSS-to-Shell-PoC)
 - [0xlipon/xss2shell](https://github.com/0xlipon/xss2shell)
+- [giriaryan694-a11y/CVE-2026-64638-XSS2Shell_Lab](https://github.com/giriaryan694-a11y/CVE-2026-64638-XSS2Shell_Lab)
 
 ### CVE-2026-64640 (2026-08-06)
 
@@ -9554,7 +9556,6 @@
 - [Sheep-Hunter/CVE-2025-5777-POC](https://github.com/Sheep-Hunter/CVE-2025-5777-POC)
 - [ndr-repo/CVE-2025-5777](https://github.com/ndr-repo/CVE-2025-5777)
 - [mr-r3b00t/CVE-2025-5777](https://github.com/mr-r3b00t/CVE-2025-5777)
-- [Anshika2709/Citrixbleed2-CVE-2025-5777](https://github.com/Anshika2709/Citrixbleed2-CVE-2025-5777)
 - [rashedhasan090/CVE-2025-5777](https://github.com/rashedhasan090/CVE-2025-5777)
 - [0xBlackash/CVE-2025-5777](https://github.com/0xBlackash/CVE-2025-5777)
 - [sentinel-aidefense/CVE-2025-5777](https://github.com/sentinel-aidefense/CVE-2025-5777)
@@ -11056,7 +11057,6 @@
 </code>
 
 - [d0n601/CVE-2025-13390](https://github.com/d0n601/CVE-2025-13390)
-- [Nxploited/CVE-2025-13390](https://github.com/Nxploited/CVE-2025-13390)
 
 ### CVE-2025-13401 (2025-12-03)
 
@@ -13948,6 +13948,7 @@
 - [AC8999/CVE-2025-32463](https://github.com/AC8999/CVE-2025-32463)
 - [secvulnhub/CVE-2025-32463-EXPLOIT](https://github.com/secvulnhub/CVE-2025-32463-EXPLOIT)
 - [dr4xp/sudo-chroot](https://github.com/dr4xp/sudo-chroot)
+- [NewComrade12211/CVE-2025-32463](https://github.com/NewComrade12211/CVE-2025-32463)
 - [Ghstxz/CVE-2025-32463](https://github.com/Ghstxz/CVE-2025-32463)
 - [ankitpandey383/CVE-2025-32463-Sudo-Privilege-Escalation](https://github.com/ankitpandey383/CVE-2025-32463-Sudo-Privilege-Escalation)
 - [justjoeyking/CVE-2025-32463](https://github.com/justjoeyking/CVE-2025-32463)
@@ -19825,6 +19826,13 @@
 - [SimoesCTT/CTT-Serverless-RCE-v1.0---Convergent-Time-Theory-Enhanced-MCP-Exploit](https://github.com/SimoesCTT/CTT-Serverless-RCE-v1.0---Convergent-Time-Theory-Enhanced-MCP-Exploit)
 - [studiomeyer-io/mcp-server-attestation](https://github.com/studiomeyer-io/mcp-server-attestation)
 - [studiomeyer-io/mcp-stdio-shellguard](https://github.com/studiomeyer-io/mcp-stdio-shellguard)
+
+### CVE-2025-69286 (2025-12-31)
+
+<code>RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine. In versions prior to 0.22.0, the use of an insecure key generation algorithm in the API key and beta (assistant/agent share auth) token generation process allows these tokens to be mutually derivable. Specifically, both tokens are generated using the same `URLSafeTimedSerializer` with predictable inputs, enabling an unauthorized user who obtains the shared assistant/agent URL to derive the personal API key. This grants them full control over the assistant/agent owner's account. Version 0.22.0 fixes the issue.
+</code>
+
+- [qianlijaingshan/ragflow-audit](https://github.com/qianlijaingshan/ragflow-audit)
 
 ### CVE-2025-69295 (2026-02-20)
 
@@ -32764,7 +32772,6 @@
 <code>The Better Search Replace plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 1.4.4 via deserialization of untrusted input. This makes it possible for unauthenticated attackers to inject a PHP Object. No POP chain is present in the vulnerable plugin. If a POP chain is present via an additional plugin or theme installed on the target system, it could allow the attacker to delete arbitrary files, retrieve sensitive data, or execute code.
 </code>
 
-- [w2xim3/CVE-2023-6933](https://github.com/w2xim3/CVE-2023-6933)
 - [Trex96/vulnerable-bsr-lab-CVE-2023-6933](https://github.com/Trex96/vulnerable-bsr-lab-CVE-2023-6933)
 
 ### CVE-2023-6972 (2023-12-23)
@@ -38018,6 +38025,13 @@
 - [CERTologists/HTTP-Request-for-PHP-object-injection-attack-on-CVE-2023-41892](https://github.com/CERTologists/HTTP-Request-for-PHP-object-injection-attack-on-CVE-2023-41892)
 - [user01-1/CVE-2023-41892_poc](https://github.com/user01-1/CVE-2023-41892_poc)
 - [lyccyc/CVE-2023-41892_PoC](https://github.com/lyccyc/CVE-2023-41892_PoC)
+
+### CVE-2023-41898 (2023-10-19)
+
+<code>Home assistant is an open source home automation. The Home Assistant Companion for Android app up to version 2023.8.2 is vulnerable to arbitrary URL loading in a WebView. This enables all sorts of attacks, including arbitrary JavaScript execution, limited native code execution, and credential theft. This issue has been patched in version 2023.9.2 and all users are advised to upgrade. There are no known workarounds for this vulnerability. This issue is also tracked as GitHub Security Lab (GHSL) Vulnerability Report: `GHSL-2023-142`.
+</code>
+
+- [LazyBear8372/CVE-2023-41898_Lab](https://github.com/LazyBear8372/CVE-2023-41898_Lab)
 
 ### CVE-2023-41991 (2023-09-21)
 
@@ -71729,7 +71743,7 @@
 - [maur0amaya/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow](https://github.com/maur0amaya/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow)
 - [rauljvc8/Exploit-Dirty-Cow](https://github.com/rauljvc8/Exploit-Dirty-Cow)
 - [GonzaBot/kernel-exploit-dirtycow](https://github.com/GonzaBot/kernel-exploit-dirtycow)
-- [endgtryna/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195](https://github.com/endgtryna/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195)
+- [voidgguy/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195](https://github.com/voidgguy/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195)
 
 ### CVE-2016-5345 (2018-01-23)
 
