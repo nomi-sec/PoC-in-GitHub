@@ -1980,7 +1980,6 @@
 <code>Gardyn devices expose a privileged iothubowner key. Access to this key will allow a malicious user to invoke an IoTHub Registry Manager function which returns connection information for all Gardyn Home Kit and Studio devices. Access to this key also allows a malicious user to execute arbitrary commands on a specific connected device and may allow the malicious user to pivot to other devices on the user's network.
 </code>
 
-- [MichaelAdamGroberman/CVE-2026-13768](https://github.com/MichaelAdamGroberman/CVE-2026-13768)
 - [J4ck3LSyN-Gen2/CVE-2026-13768](https://github.com/J4ck3LSyN-Gen2/CVE-2026-13768)
 
 ### CVE-2026-13934 (2026-06-30)
@@ -2492,7 +2491,6 @@
 <code>Gitea Docker image versions up to and including 1.26.2 use REVERSE_PROXY_TRUSTED_PROXIES=* by default, allowing any source IP to impersonate a user when reverse-proxy authentication headers such as X-WEBAUTH-USER are enabled.
 </code>
 
-- [kaleth4/CVE-2026-20896](https://github.com/kaleth4/CVE-2026-20896)
 - [rz1027/CVE-2026-20896](https://github.com/rz1027/CVE-2026-20896)
 - [szybnev/cve-2026-20896-gitea-poc](https://github.com/szybnev/cve-2026-20896-gitea-poc)
 - [XaocZenon/CVE-2026-20896](https://github.com/XaocZenon/CVE-2026-20896)
@@ -3424,6 +3422,13 @@
 
 - [stealth-engine/resize-image-before-upload-secure](https://github.com/stealth-engine/resize-image-before-upload-secure)
 
+### CVE-2026-27344 (2026-03-05)
+
+<code>Missing Authorization vulnerability in inseriswiss inseri core inseri-core allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects inseri core: from n/a through &lt;= 1.0.5.
+</code>
+
+- [AC8999/CVE-2026-27344](https://github.com/AC8999/CVE-2026-27344)
+
 ### CVE-2026-27384 (2026-03-05)
 
 <code>Improper Validation of Specified Quantity in Input vulnerability in BoldGrid W3 Total Cache w3-total-cache allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects W3 Total Cache: from n/a through &lt;= 2.9.1.
@@ -3594,13 +3599,6 @@
 - [0xjohnnydev/CVE-2026-28992-IOHIDFamily-FastPathUserClient-Race-Conditions](https://github.com/0xjohnnydev/CVE-2026-28992-IOHIDFamily-FastPathUserClient-Race-Conditions)
 - [clogan9019-dotcom/IOHIDFamily-PoC-Research](https://github.com/clogan9019-dotcom/IOHIDFamily-PoC-Research)
 
-### CVE-2026-28995 (2026-05-11)
-
-<code>A logic issue was addressed with improved restrictions. This issue is fixed in iOS 18.7.9 and iPadOS 18.7.9, iOS 26.5 and iPadOS 26.5, macOS Tahoe 26.5, tvOS 26.5, visionOS 26.5, watchOS 26.5. A malicious app may be able to break out of its sandbox.
-</code>
-
-- [Robertmak2014-sudow/CVE-2026-28995](https://github.com/Robertmak2014-sudow/CVE-2026-28995)
-
 ### CVE-2026-29000 (2026-03-04)
 
 <code>pac4j-jwt versions prior to 4.5.9, 5.7.9, and 6.3.3 contain an authentication bypass vulnerability in JwtAuthenticator when processing encrypted JWTs that allows remote attackers to forge authentication tokens. Attackers who possess the server's RSA public key can create a JWE-wrapped PlainJWT with arbitrary subject and role claims, bypassing signature verification to authenticate as any user including administrators.
@@ -3763,6 +3761,7 @@
 - [gbonacini/CVE-2026-31431](https://github.com/gbonacini/CVE-2026-31431)
 - [sh4den/CVE-2026-31431-copyfail-aarch64](https://github.com/sh4den/CVE-2026-31431-copyfail-aarch64)
 - [kuniyal08/Copy-Fail-CVE-2026-31431-Lab](https://github.com/kuniyal08/Copy-Fail-CVE-2026-31431-Lab)
+- [SilverRuler/copy-fail-CVE-2026-31431](https://github.com/SilverRuler/copy-fail-CVE-2026-31431)
 - [Sebastian294/cve-2026-31431](https://github.com/Sebastian294/cve-2026-31431)
 - [0xFuffM3/CVE-2026-31431-CopyFail](https://github.com/0xFuffM3/CVE-2026-31431-CopyFail)
 - [dotPY-hax/CopyFail](https://github.com/dotPY-hax/CopyFail)
@@ -4130,13 +4129,6 @@
 - [anonmrc/CVE-2026-34486-e-Tomcat-Tribes](https://github.com/anonmrc/CVE-2026-34486-e-Tomcat-Tribes)
 - [razureink/cve-2026-34486-tomcat_encrypt_bypass_reproduction](https://github.com/razureink/cve-2026-34486-tomcat_encrypt_bypass_reproduction)
 
-### CVE-2026-34835 (2026-04-02)
-
-<code>Rack is a modular Ruby web server interface. From versions 3.0.0.beta1 to before 3.1.21, and 3.2.0 to before 3.2.6, Rack::Request parses the Host header using an AUTHORITY regular expression that accepts characters not permitted in RFC-compliant hostnames, including /, ?, #, and @. Because req.host returns the full parsed value, applications that validate hosts using naive prefix or suffix checks can be bypassed. This can lead to host header poisoning in applications that use req.host, req.url, or req.base_url for link generation, redirects, or origin validation. This issue has been patched in versions 3.1.21 and 3.2.6.
-</code>
-
-- [Cyber-note/CVE-2026-34835-Black-box-Analysis](https://github.com/Cyber-note/CVE-2026-34835-Black-box-Analysis)
-
 ### CVE-2026-34908 (2026-05-22)
 
 <code>A malicious actor with access to the network could exploit an Improper Access Control vulnerability found in UniFi OS devices to make unauthorized changes to the system.
@@ -4256,13 +4248,6 @@
 </code>
 
 - [PwnOnu/T3-Technology-CPE-Advisories](https://github.com/PwnOnu/T3-Technology-CPE-Advisories)
-
-### CVE-2026-36027 (2026-07-08)
-
-<code>An issue in Code27 Companion Hub SQ3A.220705.003.A1 allows a physically proximate attacker to execute arbitrary code via the USB debugging (ADB) and Android Debug Bridge components
-</code>
-
-- [redr0nin/Code-27-Companion-Hub-Exploits](https://github.com/redr0nin/Code-27-Companion-Hub-Exploits)
 
 ### CVE-2026-36213 (2026-06-15)
 
@@ -5308,6 +5293,8 @@
 - [xiaohj233/ghostlock-x200-root](https://github.com/xiaohj233/ghostlock-x200-root)
 - [yijiacloud/GhostLock-OPPO-PCKM00](https://github.com/yijiacloud/GhostLock-OPPO-PCKM00)
 - [yijiacloud/ghostlock-cve-2026-43499-4.19-k40](https://github.com/yijiacloud/ghostlock-cve-2026-43499-4.19-k40)
+- [E-R-Butch/F9360-CVE43499](https://github.com/E-R-Butch/F9360-CVE43499)
+- [hybLOVE/iqoo-temp-root](https://github.com/hybLOVE/iqoo-temp-root)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -5453,6 +5440,9 @@
 </code>
 
 - [sn0x-sharma/CVE-2026-44401](https://github.com/sn0x-sharma/CVE-2026-44401)
+
+### CVE-2026-44402
+- [Virgula0/CVE-2026-44402](https://github.com/Virgula0/CVE-2026-44402)
 
 ### CVE-2026-44403 (2026-05-12)
 
@@ -6187,13 +6177,6 @@
 
 - [ghapvharmo/gha-lab-a5c1876997-1](https://github.com/ghapvharmo/gha-lab-a5c1876997-1)
 
-### CVE-2026-48558 (2026-06-12)
-
-<code>SimpleHelp versions 5.5.15 and prior and 6.0 pre-release versions contain an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token containing arbitrary identity claims to obtain a fully authenticated technician session. In some configurations, this may also allow bypass of multi-factor authentication. No user interaction is required.
-</code>
-
-- [J4ck3LSyN-Gen2/CVE-2026-48558](https://github.com/J4ck3LSyN-Gen2/CVE-2026-48558)
-
 ### CVE-2026-48598 (2026-06-02)
 
 <code>Improper Encoding or Escaping of Output vulnerability in elixir-tesla tesla allows multipart part header injection via unescaped Content-Disposition parameter values.\n\nTesla.Multipart.part_headers_for_disposition/1 interpolates each disposition parameter as #{k}=&quot;#{v}&quot; with no validation of CR (\r), LF (\n), or double-quote characters. The values come verbatim from the caller via Tesla.Multipart.add_field/4 (the name parameter), Tesla.Multipart.add_file/3, and Tesla.Multipart.add_file_content/4 (both the filename parameter and other disposition opts). A &quot; in the value closes the quoted parameter early; a \r\n ends the Content-Disposition header line and starts a new part header (such as a forged Content-Type), or, after a second \r\n, ends the entire part header block and prepends bytes to the part body. The default-filename path in add_file/3 derives the filename via Path.basename/1, which does not strip CR or LF, so any application forwarding a partially-attacker-controlled file path inherits the same issue.\n\nThis issue affects tesla: from 0.8.0 before 1.18.3.
@@ -6466,20 +6449,6 @@
 
 - [xiaoqiMikko/shiro-check](https://github.com/xiaoqiMikko/shiro-check)
 
-### CVE-2026-49344 (2026-06-19)
-
-<code>Mercator is an open source web application that enables mapping of the information system. Prior to version 2025.05.19, Mercator's Query Engine (`/admin/queries/execute`) accepts a JSON DSL (`from` / `select` / `filters` / `traverse` / `output`), translates it into an Eloquent query, and returns results as JSON. The controller method `QueryController::execute()` does not enforce an authorization gate, unlike `store()` and `massDestroy()` in the same controller which are correctly protected. As a result, any authenticated account — including the read-only Auditor role — can query models beyond its intended scope, including the `User` model. Additionally, the `password` column, although declared `$hidden`, is not excluded from filter predicates, which allows it to be used in `LIKE` conditions. The `schema()` and `schemaModel()` endpoints of the same controller are similarly unguarded. The Query Engine is read-only; integrity and availability are not affected. Version 2025.05.19 patches the issue.
-</code>
-
-- [hadhub/CVE-2026-49344-Mercator-JSON-DSL](https://github.com/hadhub/CVE-2026-49344-Mercator-JSON-DSL)
-
-### CVE-2026-49345 (2026-06-19)
-
-<code>Mercator is an open source web application that enables mapping of the information system. Prior to version 2025.05.19, a Server-Side Request Forgery (SSRF) vulnerability exists in Mercator's CVE configuration panel (`/admin/config/parameters`). The `testProvider()` method in `ConfigurationController` passes user-supplied input directly to `curl_init()` without validating the scheme, hostname, or destination IP address. An authenticated user with the `configure` permission can force the Mercator server to issue arbitrary outbound network requests. The suffix `/api/dbInfo` appended to the URL can be bypassed by injecting a `#` fragment character (e.g. `http://TARGET/PATH#`), allowing full control over the target URL. No scheme whitelist, host whitelist, or private/loopback IP block is applied. The `telnet://` scheme can be used for internal port scanning; the `gopher://` scheme enables interaction with unauthenticated internal services (Redis, Memcached), potentially leading to Remote Code Execution under specific deployment conditions. Version 2025.05.19 patches the issue.
-</code>
-
-- [hadhub/CVE-2026-49345-Mercator-SSRF](https://github.com/hadhub/CVE-2026-49345-Mercator-SSRF)
-
 ### CVE-2026-49352 (2026-07-15)
 
 <code>9Router is an AI router &amp; token saver. From 0.2.21 until 0.4.44, 9Router used the hardcoded fallback JWT secret 9router-default-secret-change-me in src/app/api/auth/login/route.js, src/middleware.js, and later src/lib/auth/dashboardSession.js, allowing attackers to forge an auth_token cookie when JWT_SECRET was unset. This issue is fixed in version 0.4.44
@@ -6691,6 +6660,7 @@
 
 - [g0thamRabb1t/CVE-2026-50656-rogueplanet-validation](https://github.com/g0thamRabb1t/CVE-2026-50656-rogueplanet-validation)
 - [0xBlackash/CVE-2026-50656](https://github.com/0xBlackash/CVE-2026-50656)
+- [HORKimhab/CVE-2026-50656](https://github.com/HORKimhab/CVE-2026-50656)
 
 ### CVE-2026-50657 (2026-07-14)
 
@@ -7099,13 +7069,6 @@
 
 - [tomadimitrie/CVE-2026-54424](https://github.com/tomadimitrie/CVE-2026-54424)
 
-### CVE-2026-54477 (2026-07-02)
-
-<code>The admin panel lacks standard security headers, enabling clickjacking and cross-site scripting attacks.
-</code>
-
-- [MichaelAdamGroberman/CVE-2026-54477](https://github.com/MichaelAdamGroberman/CVE-2026-54477)
-
 ### CVE-2026-54515 (2026-06-23)
 
 <code>jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.8.0 until 2.18.9, 2.21.5, and 3.1.4, in BeanDeserializerBase.createContextual(), per-property @JsonIgnoreProperties exclusions are applied by _handleByNameInclusion(), producing a contextual deserializer whose BeanPropertyMap has the ignored properties removed. The subsequent per-property case-insensitivity block (triggered by @JsonFormat(ACCEPT_CASE_INSENSITIVE_PROPERTIES)) rebuilds from this._beanProperties (the original, unfiltered map) instead of contextual._beanProperties, then overwrites the filtered map — restoring every property _handleByNameInclusion had just removed. The ignored property becomes writable again. This vulnerability is fixed in 2.18.9, 2.21.5, and 3.1.4.
@@ -7199,7 +7162,6 @@
 
 - [0xBlackash/CVE-2026-55200](https://github.com/0xBlackash/CVE-2026-55200)
 - [xd20111/CVE-2026-55200](https://github.com/xd20111/CVE-2026-55200)
-- [kaleth4/CVE-2026-55200](https://github.com/kaleth4/CVE-2026-55200)
 
 ### CVE-2026-55255 (2026-06-23)
 
@@ -7223,13 +7185,6 @@
 
 ### CVE-2026-55584
 - [mirackayikci/CVE-2026-55584](https://github.com/mirackayikci/CVE-2026-55584)
-
-### CVE-2026-55726 (2026-07-02)
-
-<code>The Azure Blob Storage container used for Gardyn device logs is publicly listable without authentication. A malicious user would be able to access any device log file available in the blob storage container.
-</code>
-
-- [MichaelAdamGroberman/CVE-2026-55726](https://github.com/MichaelAdamGroberman/CVE-2026-55726)
 
 ### CVE-2026-55957 (2026-06-29)
 
@@ -7829,6 +7784,7 @@
 - [g0d150ne/XSS2Shell](https://github.com/g0d150ne/XSS2Shell)
 - [eh-amish/CVE-2026-64638-XSS-to-Shell-PoC](https://github.com/eh-amish/CVE-2026-64638-XSS-to-Shell-PoC)
 - [0xlipon/xss2shell](https://github.com/0xlipon/xss2shell)
+- [ZildanZ/CVE-2026-64638](https://github.com/ZildanZ/CVE-2026-64638)
 
 ### CVE-2026-64640 (2026-08-06)
 
@@ -8182,6 +8138,13 @@
 ### CVE-2026-68004
 - [xuwu-xuwu/CVE-2026-68004](https://github.com/xuwu-xuwu/CVE-2026-68004)
 
+### CVE-2026-68138 (2026-08-10)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: serialize qdisc_rtab_list against concurrent get/put\n\nqdisc_get_rtab() and qdisc_put_rtab() mutate the process-global singly\nlinked list qdisc_rtab_list and a plain non-atomic 'int refcnt' with no\nlock. This was only safe because every caller historically held the RTNL\nmutex, which serialized all rate-table lookups, inserts and frees.\n\nThat invariant no longer holds. cls_flower sets\nTCF_PROTO_OPS_DOIT_UNLOCKED, so tc_new_tfilter() keeps rtnl_held == false\nfor it and sets TCA_ACT_FLAGS_NO_RTNL. That flag propagates through\ntcf_exts_validate_ex() -&gt; tcf_action_init() -&gt; tcf_action_init_1() -&gt;\ntcf_police_init(), which calls qdisc_get_rtab()/qdisc_put_rtab() with the\nRTNL mutex NOT held. Two RTM_NEWTFILTER requests on different CPUs, each\nadding a flower filter with a police action carrying the same rate, then\nrace on qdisc_rtab_list and on the non-atomic refcnt, leading to a\nuse-after-free / double-free of the kmalloc-2k struct qdisc_rate_table.\nqdisc_rtab_list is a single global (not per-netns), so the corrupted\nobject is shared system-wide.\n\n  BUG: KASAN: slab-use-after-free in qdisc_put_rtab+0x12f/0x160\n   qdisc_put_rtab+0x12f/0x160\n   tcf_police_init+0xda9/0x1590\n   tcf_action_init_1+0x460/0x6b0\n   tcf_action_init+0x439/0xa40\n   tcf_exts_validate_ex+0x42d/0x550\n   fl_change+0xddd/0x7da0\n   tc_new_tfilter+0xaa7/0x2420\n   rtnetlink_rcv_msg+0x95e/0xe90\n  which belongs to the cache kmalloc-2k of size 2048\n\nProtect qdisc_rtab_list and the refcount with a dedicated spinlock. The\n(sleeping, GFP_KERNEL) allocation in qdisc_get_rtab() is performed before\ntaking the lock; if a concurrent inserter added an identical table in the\nmeantime the freshly allocated one is freed under the lock, so no\nduplicate is leaked. qdisc_put_rtab() now decrements the refcount and\nunlinks under the same lock.
+</code>
+
+- [aramosf/CVE-2026-68138](https://github.com/aramosf/CVE-2026-68138)
+
 ### CVE-2026-68771 (2026-07-31)
 
 <code>ComfyUI v0.23.0 contains an unsafe deserialization vulnerability in the LoadTrainingDataset node that allows unauthenticated remote attackers to execute arbitrary Python code by uploading a crafted pickle file and triggering its deserialization. Attackers can upload a malicious shard_*.pkl file via the unauthenticated POST /upload/image endpoint and then queue a workflow graph via POST /prompt referencing the uploaded file, causing torch.load to deserialize the attacker-controlled pickle payload using __reduce__ and execute arbitrary commands as the ComfyUI process user.
@@ -8219,6 +8182,20 @@
 </code>
 
 - [JVBotelho/cve-2026-69243-poc-aiohttp-smuggling](https://github.com/JVBotelho/cve-2026-69243-poc-aiohttp-smuggling)
+
+### CVE-2026-69263 (2026-08-04)
+
+<code>Flowise is a drag &amp; drop user interface to build a customized large language model flow. Prior to 3.1.3, the mitigation for CVE-2025-8943 blocked -y and --yes flags on npx, but packages/components/nodes/tools/MCP/core.ts denied only PATH, LD_LIBRARY_PATH, DYLD_LIBRARY_PATH, and NODE_OPTIONS by exact environment-variable name. Because npm reads configuration from npm_config_* variables, setting npm_config_yes=true reproduced --yes behavior without using a blocked flag, causing npx to auto-install and execute the named package when a Custom MCP server launched. This issue is fixed in version 3.1.3.
+</code>
+
+- [leoelsolh/CVE-2026-69263](https://github.com/leoelsolh/CVE-2026-69263)
+
+### CVE-2026-70376 (2026-08-05)
+
+<code>Pluck CMS's admin panel relies solely on a Referer-header comparison (requestedByTheSameDomain in data/inc/functions.admin.php, gating every admin.php action) for CSRF protection, with no per-request anti-CSRF token anywhere in the admin area.
+</code>
+
+- [IlhomjonR/PluckCMS-CSRF-RCE](https://github.com/IlhomjonR/PluckCMS-CSRF-RCE)
 
 ### CVE-2026-70481 (2026-08-04)
 
@@ -27797,7 +27774,6 @@
 </code>
 
 - [mouadk/cve-2024-38821](https://github.com/mouadk/cve-2024-38821)
-- [masa42/CVE-2024-38821-POC](https://github.com/masa42/CVE-2024-38821-POC)
 
 ### CVE-2024-38828 (2024-11-18)
 
@@ -30379,6 +30355,13 @@
 </code>
 
 - [JAckLosingHeart/GHSA-4cx5-89vm-833x-POC](https://github.com/JAckLosingHeart/GHSA-4cx5-89vm-833x-POC)
+
+### CVE-2024-52806 (2024-12-02)
+
+<code>SimpleSAMLphp SAML2 library is a PHP library for SAML2 related functionality. When loading an (untrusted) XML document, for example the SAMLResponse, it's possible to induce an XXE. This vulnerability is fixed in 4.6.14 and 5.0.0-alpha.18.
+</code>
+
+- [heartlesseorg-dot/CVE-2024-52806-PoC](https://github.com/heartlesseorg-dot/CVE-2024-52806-PoC)
 
 ### CVE-2024-52940 (2024-11-18)
 
@@ -56866,6 +56849,7 @@
 - [zhzyker/CVE-2020-10199_POC-EXP](https://github.com/zhzyker/CVE-2020-10199_POC-EXP)
 - [aleenzz/CVE-2020-10199](https://github.com/aleenzz/CVE-2020-10199)
 - [hugosg97/CVE-2020-10199-Nexus-3.21.01](https://github.com/hugosg97/CVE-2020-10199-Nexus-3.21.01)
+- [finn79426/CVE-2020-10199](https://github.com/finn79426/CVE-2020-10199)
 
 ### CVE-2020-10204 (2020-04-01)
 
@@ -57560,13 +57544,6 @@
 </code>
 
 - [danpalmer/django-cve-2020-13254](https://github.com/danpalmer/django-cve-2020-13254)
-
-### CVE-2020-13259 (2020-09-16)
-
-<code>A vulnerability in the web-based management interface of RAD SecFlow-1v os-image SF_0290_2.3.01.26 could allow an unauthenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack on an affected system. The vulnerability is due to insufficient CSRF protections for the web UI on an affected device. An attacker could exploit this vulnerability by persuading a user of the interface to follow a malicious link. A successful exploit could allow the attacker to perform arbitrary actions with the privilege level of the affected user. This could be exploited in conjunction with CVE-2020-13260.
-</code>
-
-- [UrielYochpaz/CVE-2020-13259](https://github.com/UrielYochpaz/CVE-2020-13259)
 
 ### CVE-2020-13277 (2020-06-19)
 
@@ -65003,7 +64980,6 @@
 
 - [MostafaSoliman/Oracle-OAM-Padding-Oracle-CVE-2018-2879-Exploit](https://github.com/MostafaSoliman/Oracle-OAM-Padding-Oracle-CVE-2018-2879-Exploit)
 - [AymanElSherif/oracle-oam-authentication-bypas-exploit](https://github.com/AymanElSherif/oracle-oam-authentication-bypas-exploit)
-- [redtimmy/OAMBuster](https://github.com/redtimmy/OAMBuster)
 
 ### CVE-2018-2893 (2018-07-18)
 
