@@ -3081,6 +3081,13 @@
 - [Mluex0/CVE-2026-23744-PoC](https://github.com/Mluex0/CVE-2026-23744-PoC)
 - [sonnelon/CVE-2026-23744-PoC](https://github.com/sonnelon/CVE-2026-23744-PoC)
 
+### CVE-2026-23745 (2026-01-16)
+
+<code>node-tar is a Tar for Node.js. The node-tar library (&lt;= 7.5.2) fails to sanitize the linkpath of Link (hardlink) and SymbolicLink entries when preservePaths is false (the default secure behavior). This allows malicious archives to bypass the extraction root restriction, leading to Arbitrary File Overwrite via hardlinks and Symlink Poisoning via absolute symlink targets. This vulnerability is fixed in 7.5.3.
+</code>
+
+- [OndrejDrapalik/node-tar-cve-demo](https://github.com/OndrejDrapalik/node-tar-cve-demo)
+
 ### CVE-2026-23760 (2026-01-22)
 
 <code>SmarterTools SmarterMail versions prior to build 9511 contain an authentication bypass vulnerability in the password reset API. The force-reset-password endpoint permits anonymous requests and fails to verify the existing password or a reset token when resetting system administrator accounts. An unauthenticated attacker can supply a target administrator username and a new password to reset the account, resulting in full administrative compromise of the SmarterMail instance. NOTE: SmarterMail system administrator privileges grant the ability to execute operating system commands via built-in management functionality, effectively providing administrative (SYSTEM or root) access on the underlying host.
@@ -3894,7 +3901,6 @@
 
 - [EQSTLab/CVE-2026-33017](https://github.com/EQSTLab/CVE-2026-33017)
 - [r3nsi15/CVE-2026-33017-langflow-rce](https://github.com/r3nsi15/CVE-2026-33017-langflow-rce)
-- [c0gnit00/CVE-2026-33017](https://github.com/c0gnit00/CVE-2026-33017)
 - [yayip/CVE-2026-33017](https://github.com/yayip/CVE-2026-33017)
 - [diamorphine666/CVE-2026-33017-Exploit](https://github.com/diamorphine666/CVE-2026-33017-Exploit)
 - [Usman0220/CVE-2026-33017-Langflow-RCE](https://github.com/Usman0220/CVE-2026-33017-Langflow-RCE)
@@ -5283,7 +5289,6 @@
 - [WitAqua-tools/Root-My-Device](https://github.com/WitAqua-tools/Root-My-Device)
 - [233laoliu/mt6985-CVE-2026-43499](https://github.com/233laoliu/mt6985-CVE-2026-43499)
 - [2932796375github/CVE-2026-43499_OPPO-MT6835](https://github.com/2932796375github/CVE-2026-43499_OPPO-MT6835)
-- [LuZe0y/pd2425-cve-2026-43499-config](https://github.com/LuZe0y/pd2425-cve-2026-43499-config)
 - [datfooldive/ghostlock-emerald](https://github.com/datfooldive/ghostlock-emerald)
 - [NothingFumo/ghostlock-aresin](https://github.com/NothingFumo/ghostlock-aresin)
 - [CatXiaoShi/cve-2026-43499](https://github.com/CatXiaoShi/cve-2026-43499)
@@ -5689,6 +5694,7 @@
 - [tchuin2609/YellowKey-Bitlocker](https://github.com/tchuin2609/YellowKey-Bitlocker)
 - [tchuin2609/tchuin2609.github.io](https://github.com/tchuin2609/tchuin2609.github.io)
 - [Donalhighnecked528/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/Donalhighnecked528/YellowKey-Bitlocker-CVE-2026-45585)
+- [yellowkeycve/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/yellowkeycve/YellowKey-Bitlocker-CVE-2026-45585)
 
 ### CVE-2026-45659 (2026-05-22)
 
@@ -6251,7 +6257,11 @@
 
 - [kavin-jindal/CVE-2026-48800-PoC](https://github.com/kavin-jindal/CVE-2026-48800-PoC)
 
-### CVE-2026-48813
+### CVE-2026-48813 (2026-08-11)
+
+<code>Flawfinder is a a static analysis tool for finding vulnerabilities in C/C++ source code. Versions prior to 2.0.20 have an improper input neutralization issue leading to output manipulation, specifically, Terminal/ANSI Escape Sequence Injection and XML Injection. A malicious file whose name contains ANSI escape sequences can end up being included in flawfinder's standard terminal output, with many effects. Untrusted fields (such as filenames, categories, or code context text) were not properly sanitized when generating structured reports. An attacker could exploit this to corrupt CSV formats or inject arbitrary XML attributes into SonarQube outputs via output_sonar(). It impacts those who use flawfinder to evaluate intentionally malicious filenames or file contents. This issue has been fully patched in Version 2.0.20 (released 2026-05-16). There is no configuration-based workaround within older versions of flawfinder. If an immediate upgrade is not possible, users can mitigate the risk by pre-scanning filenames, inspecting raw output, and/or restricting untrusted inputs.
+</code>
+
 - [7alen7/CVE-2026-48813-POC](https://github.com/7alen7/CVE-2026-48813-POC)
 
 ### CVE-2026-48849 (2026-05-25)
@@ -6917,6 +6927,13 @@
 </code>
 
 - [0xCyberstan/CVE-2026-53360-POC](https://github.com/0xCyberstan/CVE-2026-53360-POC)
+
+### CVE-2026-53361 (2026-07-04)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\naf_unix: Set gc_in_progress to true in unix_gc().\n\nIgor Ushakov reported that unix_gc() could run with gc_in_progress\nbeing false if the work is scheduled while running:\n\n  Thread 1         Thread 2                     Thread 3\n  --------         --------                     --------\n                   unix_schedule_gc()           unix_schedule_gc()\n                   `- if (!gc_in_progress)      `- if (!gc_in_progress)\n                      |- gc_in_progress = true     |\n                      `- queue_work()              |\n  unix_gc() &lt;----------------/                     |\n  |                                                |- gc_in_progress = true\n  ...                                              `- queue_work()\n  |                                                       |\n  `- gc_in_progress = false                               |\n                                                          |\n  unix_gc() &lt;---------------------------------------------'\n  |\n  ... /* gc_in_progress == false */\n  |\n  `- gc_in_progress = false\n\nunix_peek_fpl() relies on gc_in_progress not to confuse GC\nby MSG_PEEK.\n\nLet's set gc_in_progress to true in unix_gc().
+</code>
+
+- [sgkdev/bad_garbage](https://github.com/sgkdev/bad_garbage)
 
 ### CVE-2026-53362 (2026-07-04)
 
@@ -7614,7 +7631,6 @@
 </code>
 
 - [DavidCarliez/cve-2026-62737-lab](https://github.com/DavidCarliez/cve-2026-62737-lab)
-- [0p5cur/CVE-2026-62737-POC](https://github.com/0p5cur/CVE-2026-62737-POC)
 
 ### CVE-2026-62958
 - [0Linear/CVE-2026-62958](https://github.com/0Linear/CVE-2026-62958)
@@ -9582,6 +9598,13 @@
 - [sentinel-aidefense/CVE-2025-5777](https://github.com/sentinel-aidefense/CVE-2025-5777)
 - [razureink/cve-2025-5777-citrixbleed2_reproduction](https://github.com/razureink/cve-2025-5777-citrixbleed2_reproduction)
 
+### CVE-2025-5781 (2026-02-25)
+
+<code>Information Exposure Vulnerability in Hitachi Ops Center API Configuration Manager, Hitachi Configuration Manager, Hitachi Device Manager allows Session Hijacking.This issue affects Hitachi Ops Center API Configuration Manager: from 10.0.0-00 before 11.0.5-00; Hitachi Configuration Manager: from 8.5.1-00 before 11.0.5-00; Hitachi Device Manager: from 8.4.1-00 before 8.6.5-00.
+</code>
+
+- [jasonbernier/CVE-2025-5781](https://github.com/jasonbernier/CVE-2025-5781)
+
 ### CVE-2025-5815 (2025-06-13)
 
 <code>The Traffic Monitor plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the tfcm_maybe_set_bot_flags() function in all versions up to, and including, 3.2.2. This makes it possible for unauthenticated attackers to disabled bot logging.
@@ -10410,6 +10433,7 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-WatchGuard-CVE-2025-9242](https://github.com/watchtowrlabs/watchTowr-vs-WatchGuard-CVE-2025-9242)
+- [UnusualGiraffe/WatchGuard-CVE-2025-9242-PoC-and-Mass-Scanner](https://github.com/UnusualGiraffe/WatchGuard-CVE-2025-9242-PoC-and-Mass-Scanner)
 
 ### CVE-2025-9267 (2025-09-26)
 
@@ -10690,6 +10714,13 @@
 
 - [error-inside/CVE-2025-10897](https://github.com/error-inside/CVE-2025-10897)
 
+### CVE-2025-10951 (2025-09-25)
+
+<code>Es wurde eine Schwachstelle in geyang ml-logger up to acf255bade5be6ad88d90735c8367b28cbe3a743 entdeckt. Dabei betrifft es die Funktion log_handler der Datei ml_logger/server.py. Die Bearbeitung des Arguments File verursacht path traversal. Der Angriff kann über das Netzwerk passieren. Der Exploit wurde der Öffentlichkeit bekannt gemacht und könnte verwendet werden. Bei diesem Produkt handelt es sich um ein Rolling Release, das eine fortlaufende Bereitstellung ermöglicht. Aus diesem Grund stehen keine Versionsinformationen zu betroffenen oder aktualisierten Versionen zur Verfügung.
+</code>
+
+- [1amUnvalid/CVE-2025-10951](https://github.com/1amUnvalid/CVE-2025-10951)
+
 ### CVE-2025-11001 (2025-11-19)
 
 <code>7-Zip ZIP File Parsing Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of 7-Zip. Interaction with this product is required to exploit this vulnerability but attack vectors may vary depending on the implementation.\n\nThe specific flaw exists within the handling of symbolic links in ZIP files. Crafted data in a ZIP file can cause the process to traverse to unintended directories. An attacker can leverage this vulnerability to execute code in the context of a service account. Was ZDI-CAN-26753.
@@ -10935,13 +10966,6 @@
 </code>
 
 - [d0n601/CVE-2025-12673](https://github.com/d0n601/CVE-2025-12673)
-
-### CVE-2025-12674 (2025-11-05)
-
-<code>The KiotViet Sync plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the create_media() function in all versions up to, and including, 1.8.5. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
-</code>
-
-- [Nxploited/CVE-2025-12674](https://github.com/Nxploited/CVE-2025-12674)
 
 ### CVE-2025-12720 (2025-12-06)
 
@@ -14653,7 +14677,6 @@
 <code>A use-after-free issue was addressed with improved memory management. This issue is fixed in Safari 26.2, iOS 18.7.3 and iPadOS 18.7.3, iOS 26.2 and iPadOS 26.2, macOS Tahoe 26.2, tvOS 26.2, visionOS 26.2, watchOS 26.2. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 26. CVE-2025-14174 was also issued in response to this report.
 </code>
 
-- [jir4vv1t/CVE-2025-43529](https://github.com/jir4vv1t/CVE-2025-43529)
 - [0xjohnnydev/WebKit-UAF-ANGLE-OOB-Analysis](https://github.com/0xjohnnydev/WebKit-UAF-ANGLE-OOB-Analysis)
 - [sakyu7/sakyu7.github.io](https://github.com/sakyu7/sakyu7.github.io)
 - [SimoesCTT/Convergent-Time-Theory-Enhanced-iOS-Safari-RCE-CVE-2025-43529-](https://github.com/SimoesCTT/Convergent-Time-Theory-Enhanced-iOS-Safari-RCE-CVE-2025-43529-)
@@ -17090,7 +17113,6 @@
 - [joaovicdev/EXPLOIT-CVE-2025-55182](https://github.com/joaovicdev/EXPLOIT-CVE-2025-55182)
 - [AdityaBhatt3010/React2Shell-CVE-2025-55182](https://github.com/AdityaBhatt3010/React2Shell-CVE-2025-55182)
 - [gahoole77/gahoole77.github.io](https://github.com/gahoole77/gahoole77.github.io)
-- [MyCompanyOrganization/React2Shell-Kingdom](https://github.com/MyCompanyOrganization/React2Shell-Kingdom)
 - [yannisduvignau/react2shell-exploit](https://github.com/yannisduvignau/react2shell-exploit)
 - [en0f/CVE-2025-55182-poc-json](https://github.com/en0f/CVE-2025-55182-poc-json)
 - [momika233/CVE-2025-55182-bypass](https://github.com/momika233/CVE-2025-55182-bypass)
@@ -18195,13 +18217,6 @@
 
 - [graypixel2121/CVE-2025-61229](https://github.com/graypixel2121/CVE-2025-61229)
 
-### CVE-2025-61246 (2026-01-08)
-
-<code>indieka900 online-shopping-system-php 1.0 is vulnerable to SQL Injection in master/review_action.php via the proId parameter.
-</code>
-
-- [hackergovind/CVE-2025-61246](https://github.com/hackergovind/CVE-2025-61246)
-
 ### CVE-2025-61299
 - [GovindPalakkal/CVE-2025-61299_POC](https://github.com/GovindPalakkal/CVE-2025-61299_POC)
 
@@ -18721,6 +18736,7 @@
 - [purehate/CVE-2025-64459-hunter](https://github.com/purehate/CVE-2025-64459-hunter)
 - [joshualent/django-cve-2025-64459](https://github.com/joshualent/django-cve-2025-64459)
 - [rafaelchriss/RedTeamBrasil-CVE-2025-64459](https://github.com/rafaelchriss/RedTeamBrasil-CVE-2025-64459)
+- [YouGina/CVE-2025-64459](https://github.com/YouGina/CVE-2025-64459)
 
 ### CVE-2025-64495 (2025-11-08)
 
@@ -23897,6 +23913,7 @@
 - [YoguiCR/CVE-2024-21413-Outlook-Assessment](https://github.com/YoguiCR/CVE-2024-21413-Outlook-Assessment)
 - [h4cknain/CVE-2024-21413-Microsoft-Outlook-Moniker-Link-Vulnerability](https://github.com/h4cknain/CVE-2024-21413-Microsoft-Outlook-Moniker-Link-Vulnerability)
 - [OmarMahmoud1024/tryhackme-monikerlink-writeup](https://github.com/OmarMahmoud1024/tryhackme-monikerlink-writeup)
+- [yfelipecruvinel/tryhackme-moniker-link](https://github.com/yfelipecruvinel/tryhackme-moniker-link)
 
 ### CVE-2024-21490 (2024-02-10)
 
@@ -30548,7 +30565,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-54369](https://github.com/RandomRobbieBF/CVE-2024-54369)
-- [Nxploited/CVE-2024-54369-PoC](https://github.com/Nxploited/CVE-2024-54369-PoC)
 
 ### CVE-2024-54378 (2024-12-16)
 
@@ -50176,7 +50192,7 @@
 - [Wercd/CVE-2021-26855](https://github.com/Wercd/CVE-2021-26855)
 - [SimoesCTT/CTT-ProxyLogon-RCE-v1.0---Convergent-Time-Theory-Enhanced-Microsoft-Exchange-Exploit](https://github.com/SimoesCTT/CTT-ProxyLogon-RCE-v1.0---Convergent-Time-Theory-Enhanced-Microsoft-Exchange-Exploit)
 - [SimoesCTT/CTT-Exchange-RCE-v1.0---Microsoft-Exchange-Exploit-CVSS-10.0-CRITICAL-CVE-2021-26855-CVE-2021-27065](https://github.com/SimoesCTT/CTT-Exchange-RCE-v1.0---Microsoft-Exchange-Exploit-CVSS-10.0-CRITICAL-CVE-2021-26855-CVE-2021-27065)
-- [sydneysamantha/Triage-CVE-2021-26855-ProxyLogon---Microsoft-Exchange-](https://github.com/sydneysamantha/Triage-CVE-2021-26855-ProxyLogon---Microsoft-Exchange-)
+- [probablysecure/Triage-CVE-2021-26855-ProxyLogon---Microsoft-Exchange-](https://github.com/probablysecure/Triage-CVE-2021-26855-ProxyLogon---Microsoft-Exchange-)
 
 ### CVE-2021-26856
 - [avi8892/CVE-2021-26856](https://github.com/avi8892/CVE-2021-26856)
@@ -53852,7 +53868,7 @@
 - [hmxh123/Log4Shell-Vulnerability-Replication](https://github.com/hmxh123/Log4Shell-Vulnerability-Replication)
 - [limxuan/ehir-vuln-enterprise-login](https://github.com/limxuan/ehir-vuln-enterprise-login)
 - [DAADAISMYLIFE/log4shell-lab](https://github.com/DAADAISMYLIFE/log4shell-lab)
-- [sydneysamantha/Triage-CVE-2021-44228-Log4Shell-Log4j-](https://github.com/sydneysamantha/Triage-CVE-2021-44228-Log4Shell-Log4j-)
+- [probablysecure/Triage-CVE-2021-44228-Log4Shell-Log4j-](https://github.com/probablysecure/Triage-CVE-2021-44228-Log4Shell-Log4j-)
 - [Ricardo354/homelab-CVE-2021-44228](https://github.com/Ricardo354/homelab-CVE-2021-44228)
 - [AstralJays/TraditionalJay](https://github.com/AstralJays/TraditionalJay)
 - [prmawyer/log4shell-vulnerable-app](https://github.com/prmawyer/log4shell-vulnerable-app)
@@ -68484,7 +68500,7 @@
 - [ichhyak22/EternalBlue-Exploit-Demonstration-MS17-010](https://github.com/ichhyak22/EternalBlue-Exploit-Demonstration-MS17-010)
 - [trinadh-dasari-cyber/eternalblue-ms17-010-research](https://github.com/trinadh-dasari-cyber/eternalblue-ms17-010-research)
 - [0xBlackash/CVE-2017-0144](https://github.com/0xBlackash/CVE-2017-0144)
-- [sydneysamantha/Triage-CVE-2017-0144](https://github.com/sydneysamantha/Triage-CVE-2017-0144)
+- [probablysecure/Triage-CVE-2017-0144](https://github.com/probablysecure/Triage-CVE-2017-0144)
 - [KitSkater/legacyshield-CVE-2017-0144](https://github.com/KitSkater/legacyshield-CVE-2017-0144)
 
 ### CVE-2017-0145 (2017-03-17)
