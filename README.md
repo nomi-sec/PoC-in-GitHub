@@ -2979,7 +2979,6 @@
 - [seguridadentrerios/CVE-2026-23111](https://github.com/seguridadentrerios/CVE-2026-23111)
 - [ishankaru/CVE-2026-23111-nftables-lab](https://github.com/ishankaru/CVE-2026-23111-nftables-lab)
 - [Baba01hacker666/CVE-2026-23111](https://github.com/Baba01hacker666/CVE-2026-23111)
-- [vrtlbob/Linux-Kernel-Vulnerabilities-CVE-2026-23111](https://github.com/vrtlbob/Linux-Kernel-Vulnerabilities-CVE-2026-23111)
 
 ### CVE-2026-23415 (2026-04-02)
 
@@ -5262,7 +5261,7 @@
 - [onesmiledx/CVE-2026-43499](https://github.com/onesmiledx/CVE-2026-43499)
 - [ctn-Qvo/auto_extract_offsets](https://github.com/ctn-Qvo/auto_extract_offsets)
 - [BuSung-dev/CVE-2026-43499-S25U](https://github.com/BuSung-dev/CVE-2026-43499-S25U)
-- [ayyy7128/CVE-2026-43499-jinghu](https://github.com/ayyy7128/CVE-2026-43499-jinghu)
+- [justsoman/CVE-2026-43499-jinghu](https://github.com/justsoman/CVE-2026-43499-jinghu)
 - [justsoman/CyberMeowfia-ace3](https://github.com/justsoman/CyberMeowfia-ace3)
 - [fancyzll/CVE-2026-43499_OPPO-MT6835](https://github.com/fancyzll/CVE-2026-43499_OPPO-MT6835)
 - [MiaPatsune/cve-2026-43499](https://github.com/MiaPatsune/cve-2026-43499)
@@ -5656,13 +5655,6 @@
 
 - [HORKimhab/CVE-2026-45447](https://github.com/HORKimhab/CVE-2026-45447)
 - [0xBlackash/CVE-2026-45447](https://github.com/0xBlackash/CVE-2026-45447)
-
-### CVE-2026-45498 (2026-05-20)
-
-<code>Microsoft Defender Denial of Service Vulnerability
-</code>
-
-- [salihuahmad105-creator/Vulnerability-scanner](https://github.com/salihuahmad105-creator/Vulnerability-scanner)
 
 ### CVE-2026-45504 (2026-06-09)
 
@@ -7194,6 +7186,7 @@
 <code>Weak authentication in Microsoft Office SharePoint allows an unauthorized attacker to bypass a security feature over a network.
 </code>
 
+- [l0ggg/CVE-2026-55040](https://github.com/l0ggg/CVE-2026-55040)
 - [sfewer-r7/CVE-2026-55040](https://github.com/sfewer-r7/CVE-2026-55040)
 
 ### CVE-2026-55168
@@ -8182,6 +8175,9 @@
 </code>
 
 - [Hunt-Benito/go-without-bounds-cve-2026-67822-stack-overflow-in-tenda-w6-s-wifissidset](https://github.com/Hunt-Benito/go-without-bounds-cve-2026-67822-stack-overflow-in-tenda-w6-s-wifissidset)
+
+### CVE-2026-67846
+- [duan528/CVE-2026-67846-BOOM-NBDTLB](https://github.com/duan528/CVE-2026-67846-BOOM-NBDTLB)
 
 ### CVE-2026-68004
 - [xuwu-xuwu/CVE-2026-68004](https://github.com/xuwu-xuwu/CVE-2026-68004)
@@ -11373,7 +11369,6 @@
 - [NoNameError/MongoBLEED---CVE-2025-14847-POC-](https://github.com/NoNameError/MongoBLEED---CVE-2025-14847-POC-)
 - [Rishi-kaul/CVE-2025-14847-MongoBleed](https://github.com/Rishi-kaul/CVE-2025-14847-MongoBleed)
 - [keraattin/Mongobleed-Detector-CVE-2025-14847](https://github.com/keraattin/Mongobleed-Detector-CVE-2025-14847)
-- [waheeb71/CVE-2025-14847](https://github.com/waheeb71/CVE-2025-14847)
 - [CadGoose/MongoBleed-CVE-2025-14847-Fully-Automated-scanner](https://github.com/CadGoose/MongoBleed-CVE-2025-14847-Fully-Automated-scanner)
 - [AdolfBharath/mongobleed](https://github.com/AdolfBharath/mongobleed)
 - [sahar042/CVE-2025-14847](https://github.com/sahar042/CVE-2025-14847)
@@ -11896,6 +11891,13 @@
 </code>
 
 - [abhisek3122/CVE-2025-23167](https://github.com/abhisek3122/CVE-2025-23167)
+
+### CVE-2025-23211 (2025-01-28)
+
+<code>Tandoor Recipes is an application for managing recipes, planning meals, and building shopping lists. A Jinja2 SSTI vulnerability allows any user to execute commands on the server. In the case of the provided Docker Compose file as root. This vulnerability is fixed in 1.5.24.
+</code>
+
+- [IIxoskeletonII/DataPrivacy-CVE-2025-23211](https://github.com/IIxoskeletonII/DataPrivacy-CVE-2025-23211)
 
 ### CVE-2025-23247 (2025-05-27)
 
@@ -14310,7 +14312,6 @@
 
 - [rxerium/CVE-2025-37164](https://github.com/rxerium/CVE-2025-37164)
 - [g0vguy/CVE-2025-37164-PoC](https://github.com/g0vguy/CVE-2025-37164-PoC)
-- [LACHHAB-Anas/Exploit_CVE-2025-37164](https://github.com/LACHHAB-Anas/Exploit_CVE-2025-37164)
 
 ### CVE-2025-37899 (2025-05-20)
 
@@ -17203,6 +17204,7 @@
 - [indra-031/React2Shell-Exploit-CVE-2025-55182](https://github.com/indra-031/React2Shell-Exploit-CVE-2025-55182)
 - [Phucc29/CVE-2025-55182](https://github.com/Phucc29/CVE-2025-55182)
 - [CerberusMrXi/CVE-2025-55182-Advanced-React-Server-Components-RCE-Exploit](https://github.com/CerberusMrXi/CVE-2025-55182-Advanced-React-Server-Components-RCE-Exploit)
+- [dotnetguard/CVE-2025-55182-Exploit](https://github.com/dotnetguard/CVE-2025-55182-Exploit)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -18757,6 +18759,7 @@
 - [MehdiChyhab/CVE-2025-64512-exploit](https://github.com/MehdiChyhab/CVE-2025-64512-exploit)
 - [stoic-crawler/CVE-2025-64512](https://github.com/stoic-crawler/CVE-2025-64512)
 - [saadhassan77/CVE-2025-64512---pdfminer.six-Remote-Code-Execution-RCE-](https://github.com/saadhassan77/CVE-2025-64512---pdfminer.six-Remote-Code-Execution-RCE-)
+- [DodgeNefoli/CVE-2025-64512](https://github.com/DodgeNefoli/CVE-2025-64512)
 
 ### CVE-2025-64513 (2025-11-10)
 
@@ -19375,13 +19378,6 @@
 </code>
 
 - [sivaadityacoder/CVE-2025-67146-CVE-2025-67147](https://github.com/sivaadityacoder/CVE-2025-67146-CVE-2025-67147)
-
-### CVE-2025-67160 (2026-01-02)
-
-<code>An issue in Vatilon v1.12.37-20240124 allows attackers to access sensitive directories and files via a directory traversal.
-</code>
-
-- [Remenis/CVE-2025-67160](https://github.com/Remenis/CVE-2025-67160)
 
 ### CVE-2025-67221 (2026-01-22)
 
@@ -41342,6 +41338,7 @@
 - [hxlxmj/CVE-2022-3590-WordPress-Vulnerability-Scanner](https://github.com/hxlxmj/CVE-2022-3590-WordPress-Vulnerability-Scanner)
 - [huynhvanphuc/CVE-2022-3590-WordPress-Vulnerability-Scanner](https://github.com/huynhvanphuc/CVE-2022-3590-WordPress-Vulnerability-Scanner)
 - [TJouleL/WordPress-6.9.1-Blind-SSRF](https://github.com/TJouleL/WordPress-6.9.1-Blind-SSRF)
+- [4chech/CVE-2022-3590](https://github.com/4chech/CVE-2022-3590)
 
 ### CVE-2022-3602 (2022-11-01)
 
@@ -53281,6 +53278,9 @@
 
 - [c0n5n3d/CVE-2021-43657](https://github.com/c0n5n3d/CVE-2021-43657)
 
+### CVE-2021-43716
+- [dpfkdlemtp/epson-eh-tw5350-advisories](https://github.com/dpfkdlemtp/epson-eh-tw5350-advisories)
+
 ### CVE-2021-43778 (2021-11-24)
 
 <code>Barcode is a GLPI plugin for printing barcodes and QR codes. GLPI instances version 2.x prior to version 2.6.1 with the barcode plugin installed are vulnerable to a path traversal vulnerability. This issue was patched in version 2.6.1. As a workaround, delete the `front/send.php` file.
@@ -54241,13 +54241,6 @@
 </code>
 
 - [mbadanoiu/CVE-2021-46366](https://github.com/mbadanoiu/CVE-2021-46366)
-
-### CVE-2021-46381 (2022-03-04)
-
-<code>Local File Inclusion due to path traversal in D-Link DAP-1620 leads to unauthorized internal files reading [/etc/passwd] and [/etc/shadow].
-</code>
-
-- [JCPpeiqi/-cve-2021-46381](https://github.com/JCPpeiqi/-cve-2021-46381)
 
 ### CVE-2021-46398 (2022-02-04)
 
