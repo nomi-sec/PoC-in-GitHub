@@ -1197,7 +1197,6 @@
 
 - [watchtowrlabs/watchTowr-vs-Netscaler-CVE-2026-8451](https://github.com/watchtowrlabs/watchTowr-vs-Netscaler-CVE-2026-8451)
 - [derekpreston81/CVE_ADC_IOC_2026](https://github.com/derekpreston81/CVE_ADC_IOC_2026)
-- [0xBlackash/CVE-2026-8451](https://github.com/0xBlackash/CVE-2026-8451)
 
 ### CVE-2026-8461 (2026-06-18)
 
@@ -2902,7 +2901,6 @@
 <code>Gitea versions up to and including 1.26.2 have incomplete SSRF protection in webhook and migration allow-list filtering.
 </code>
 
-- [M8seven/cve-2026-22874-gitea-ssrf-allowlist](https://github.com/M8seven/cve-2026-22874-gitea-ssrf-allowlist)
 - [Eliot-code/CVE-2026-22874-PoC](https://github.com/Eliot-code/CVE-2026-22874-PoC)
 
 ### CVE-2026-23001 (2026-01-25)
@@ -3079,7 +3077,6 @@
 - [rohit-sundar/cve-2026-23744](https://github.com/rohit-sundar/cve-2026-23744)
 - [daemoncibsec/mcpExec](https://github.com/daemoncibsec/mcpExec)
 - [timgad794/DevHub-HTB-Walkthrough](https://github.com/timgad794/DevHub-HTB-Walkthrough)
-- [diamorphine666/CVE-2026-23744-exploit](https://github.com/diamorphine666/CVE-2026-23744-exploit)
 - [0x77FSec/CVE-2026-23744](https://github.com/0x77FSec/CVE-2026-23744)
 - [ozcanpng/CVE-2026-23744](https://github.com/ozcanpng/CVE-2026-23744)
 - [CerberusMrXi/CVE-2026-23744-MCPJam-Exploit](https://github.com/CerberusMrXi/CVE-2026-23744-MCPJam-Exploit)
@@ -4965,6 +4962,7 @@
 - [AnotherSec/CVE-2026-41940](https://github.com/AnotherSec/CVE-2026-41940)
 - [CerberusMrXi/cPanel-WHM-CVE-2026-41940-auth-bypass-exploit](https://github.com/CerberusMrXi/cPanel-WHM-CVE-2026-41940-auth-bypass-exploit)
 - [keithbennedict/CVE-2026-41940-Linux](https://github.com/keithbennedict/CVE-2026-41940-Linux)
+- [yanchenyu360/CVE-2026-41940-Security-Patch](https://github.com/yanchenyu360/CVE-2026-41940-Security-Patch)
 
 ### CVE-2026-42048 (2026-05-12)
 
@@ -8045,6 +8043,7 @@
 </code>
 
 - [DavidCarliez/CVE-2026-66804-CrossDevice-LPE](https://github.com/DavidCarliez/CVE-2026-66804-CrossDevice-LPE)
+- [Rat5ak/CVE-2026-66804-CrossDevice-Service-EoP](https://github.com/Rat5ak/CVE-2026-66804-CrossDevice-Service-EoP)
 
 ### CVE-2026-67181 (2026-07-28)
 
@@ -8170,6 +8169,13 @@
 </code>
 
 - [0xdak/CVE-2026-68771_exploit](https://github.com/0xdak/CVE-2026-68771_exploit)
+
+### CVE-2026-68820 (2026-08-11)
+
+<code>Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [HORKimhab/CVE-2026-68820](https://github.com/HORKimhab/CVE-2026-68820)
 
 ### CVE-2026-69083 (2026-08-03)
 
@@ -14648,7 +14654,6 @@
 <code>An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 15.8.5 and iPadOS 15.8.5, iOS 16.7.12 and iPadOS 16.7.12, iOS 18.6.2 and iPadOS 18.6.2, iPadOS 17.7.10, macOS Sequoia 15.6.1, macOS Sonoma 14.7.8, macOS Ventura 13.7.8. Processing a malicious image file may result in memory corruption. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals.
 </code>
 
-- [Shakai-Dev/CVE-2025-43300-exp](https://github.com/Shakai-Dev/CVE-2025-43300-exp)
 - [hunters-sec/CVE-2025-43300](https://github.com/hunters-sec/CVE-2025-43300)
 - [PwnToday/CVE-2025-43300](https://github.com/PwnToday/CVE-2025-43300)
 - [veniversum/cve-2025-43300](https://github.com/veniversum/cve-2025-43300)
