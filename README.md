@@ -1998,6 +1998,13 @@
 - [4minx/CVE-2026-14266](https://github.com/4minx/CVE-2026-14266)
 - [liyuxuan504-byte/CVE-2026-14266](https://github.com/liyuxuan504-byte/CVE-2026-14266)
 
+### CVE-2026-14282 (2026-07-23)
+
+<code>The GoDAM – Organize WordPress Media Library &amp; File Manager with Unlimited Folders for Images, Videos &amp; more plugin for WordPress is vulnerable to arbitrary file uploads in versions up to, and including, 1.12.2. This is due to insufficient file type validation in the save_video_file() function hooked into WPForms' public wpforms_process_before_filter, which trusts the attacker-supplied multipart Content-Type header, preserves the original filename via wp_unique_filename(), and moves the raw upload with $wp_filesystem-&gt;move() into a web-served directory — bypassing wp_handle_upload()'s MIME/extension allowlist. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [nullwhisper/CVE-2026-14282](https://github.com/nullwhisper/CVE-2026-14282)
+
 ### CVE-2026-14361 (2026-07-08)
 
 <code>The consul-template library before version 0.42.1 is vulnerable to a path redirection issue in the writeToFile template helper that may allow template output to be written outside the intended directory or to overwrite an existing file. This vulnerability (CVE-2026-14361) is fixed in consul-template 0.42.1.
@@ -2047,6 +2054,13 @@
 </code>
 
 - [IamDremig/CVE-2026-14802](https://github.com/IamDremig/CVE-2026-14802)
+
+### CVE-2026-14840 (2026-08-01)
+
+<code>The YOP Poll WordPress plugin before 7.0.6 does not validate the connection's origin IP address and instead trusts client-controlled forwarding headers when enforcing its per-IP vote restriction, allowing unauthenticated attackers to bypass the vote limit and cast unlimited votes on a public poll.
+</code>
+
+- [nullwhisper/CVE-2026-14840](https://github.com/nullwhisper/CVE-2026-14840)
 
 ### CVE-2026-14856 (2026-07-27)
 
@@ -3117,6 +3131,13 @@
 </code>
 
 - [RichJJ98/analise-vulnerabilidades-zabbix-notebooklm](https://github.com/RichJJ98/analise-vulnerabilidades-zabbix-notebooklm)
+
+### CVE-2026-24031 (2026-03-27)
+
+<code>Dovecot SQL based authentication can be bypassed when auth_username_chars is cleared by admin. This vulnerability allows bypassing authentication for any user and user enumeration. Do not clear auth_username_chars. If this is not possible, install latest fixed version. No publicly available exploits are known.
+</code>
+
+- [aramosf/CVE-2026-24031](https://github.com/aramosf/CVE-2026-24031)
 
 ### CVE-2026-24055 (2026-01-22)
 
@@ -4453,7 +4474,6 @@
 
 - [b0ySie7e/OpenSTAManager-RCE-Exploit-CVE-2026-38751](https://github.com/b0ySie7e/OpenSTAManager-RCE-Exploit-CVE-2026-38751)
 - [Why-Shell/CVE-2026-38751](https://github.com/Why-Shell/CVE-2026-38751)
-- [Mkps/CVE-2026-38751-OpenSTAManager-Arbitrary-File-Upload-PoC](https://github.com/Mkps/CVE-2026-38751-OpenSTAManager-Arbitrary-File-Upload-PoC)
 
 ### CVE-2026-38763 (2026-07-22)
 
@@ -4633,6 +4653,7 @@
 - [Wind010/CVE-2026-39987_PoC](https://github.com/Wind010/CVE-2026-39987_PoC)
 - [alreadyClosed/CVE-2026-39987](https://github.com/alreadyClosed/CVE-2026-39987)
 - [MADA0L/CVE-2026-39987-Poc](https://github.com/MADA0L/CVE-2026-39987-Poc)
+- [matesz44/cve-2026-39987](https://github.com/matesz44/cve-2026-39987)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -5724,7 +5745,6 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\neventpoll: fix ep_remove struct eventpoll / struct file UAF\n\nep_remove() (via ep_remove_file()) cleared file-&gt;f_ep under\nfile-&gt;f_lock but then kept using @file inside the critical section\n(is_file_epoll(), hlist_del_rcu() through the head, spin_unlock).\nA concurrent __fput() taking the eventpoll_release() fastpath in\nthat window observed the transient NULL, skipped\neventpoll_release_file() and ran to f_op-&gt;release / file_free().\n\nFor the epoll-watches-epoll case, f_op-&gt;release is\nep_eventpoll_release() -&gt; ep_clear_and_put() -&gt; ep_free(), which\nkfree()s the watched struct eventpoll. Its embedded -&gt;refs\nhlist_head is exactly where epi-&gt;fllink.pprev points, so the\nsubsequent hlist_del_rcu()'s &quot;*pprev = next&quot; scribbles into freed\nkmalloc-192 memory.\n\nIn addition, struct file is SLAB_TYPESAFE_BY_RCU, so the slot\nbacking @file could be recycled by alloc_empty_file() --\nreinitializing f_lock and f_ep -- while ep_remove() is still\nnominally inside that lock. The upshot is an attacker-controllable\nkmem_cache_free() against the wrong slab cache.\n\nPin @file via epi_fget() at the top of ep_remove() and gate the\ncritical section on the pin succeeding. With the pin held @file\ncannot reach refcount zero, which holds __fput() off and\ntransitively keeps the watched struct eventpoll alive across the\nhlist_del_rcu() and the f_lock use, closing both UAFs.\n\nIf the pin fails @file has already reached refcount zero and its\n__fput() is in flight. Because we bailed before clearing f_ep,\nthat path takes the eventpoll_release() slow path into\neventpoll_release_file() and blocks on ep-&gt;mtx until the waiter\nside's ep_clear_and_put() drops it. The bailed epi's share of\nep-&gt;refcount stays intact, so the trailing ep_refcount_dec_and_test()\nin ep_clear_and_put() cannot free the eventpoll out from under\neventpoll_release_file(); the orphaned epi is then cleaned up\nthere.\n\nA successful pin also proves we are not racing\neventpoll_release_file() on this epi, so drop the now-redundant\nre-check of epi-&gt;dying under f_lock. The cheap lockless\nREAD_ONCE(epi-&gt;dying) fast-path bailout stays.
 </code>
 
-- [0xBlackash/CVE-2026-46242](https://github.com/0xBlackash/CVE-2026-46242)
 - [SaithFranklinB/ScannerBadEpoll](https://github.com/SaithFranklinB/ScannerBadEpoll)
 - [Baba01hacker666/CVE-2026-46242](https://github.com/Baba01hacker666/CVE-2026-46242)
 
@@ -6872,13 +6892,6 @@
 - [xj2268-TA/KVM-Januscape](https://github.com/xj2268-TA/KVM-Januscape)
 - [ndouglas-cloudsmith/CVE-2026-53359](https://github.com/ndouglas-cloudsmith/CVE-2026-53359)
 
-### CVE-2026-53360 (2026-07-04)
-
-<code>In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: SEV: Require in-GHCB scratch area if GHCB v2+ is in use\n\nAs per the GHCB spec, when using GHCB v2+ require the software scratch area\nto reside in the GHCB's shared buffer.  Note, things like Page State Change\n(PSC) requests _rely_ on this behavior, as the guest can't provide a length\nwhen making the request, i.e. the size of the guest payload is bounded by\nthe size of the shared buffer.\n\nFailure to force usage of the GHCB, and a slew of other flaws, lets a\nmalicious SNP guest corrupt host kernel heap memory, and leak host heap\nlayout information.\n\nsetup_vmgexit_scratch() allocates a buffer via kvzalloc(exit_info_2),\nwhere exit_info_2 is guest-controlled. With exit_info_2=24, this yields\na 24-byte allocation in kmalloc-cg-32 (32-byte slab objects). The buffer\nholds an 8-byte psc_hdr followed by 8-byte psc_entry structs, so only\nentries[0] and entries[1] are in-bounds.\n\nsnp_begin_psc() validates end_entry against VMGEXIT_PSC_MAX_COUNT (253)\nbut NOT against the actual buffer size:\n\n      idx_end = hdr-&gt;end_entry;\n\n      if (idx_end &gt;= VMGEXIT_PSC_MAX_COUNT) {   // checks 253, not buffer\n          snp_complete_psc(svm, ...);\n          return 1;\n      }\n\n      for (idx = idx_start; idx &lt;= idx_end; idx++) {\n          entry_start = entries[idx];           // OOB when idx &gt;= 2\n\nThe guest sets end_entry=10+, causing the host to iterate entries[2+]\nwhich are OOB into adjacent slab objects. For each OOB entry:\n\n  - The host reads 8 bytes (OOB READ / info leak oracle)\n  - If the data passes PSC validation, __snp_complete_one_psc() writes\n    cur_page = 1 or 512 into the entry (OOB WRITE, sev.c:3806)\n  - If validation fails, the error response reveals whether adjacent\n    memory is zero vs non-zero (information disclosure to guest)\n\nThe guest controls allocation size (exit_info_2), entry range\n(cur_entry/end_entry), and can fire unlimited VMGEXITs to repeatedly\nhit different slab positions.\n\nBy exploiting the variety of bugs, a malicious SEV-SNP guest can:\n    - OOB read adjacent kmalloc-cg-32 objects (heap layout disclosure)\n    - OOB write cur_page bits into adjacent objects (heap corruption)\n    - Trigger use-after-free conditions across VMGEXITs\n\nE.g. with KASAN enabled, a single insmod of the PoC guest module\nproduces 73 KASAN reports:\n\n    BUG: KASAN: slab-out-of-bounds in snp_begin_psc+0x126/0x890\n    Read of size 8 at addr ffff888219ffb5e0 by task qemu-system-x86/2199\n\n    BUG: KASAN: slab-out-of-bounds in snp_begin_psc+0x468/0x890\n    Write of size 8 at addr ffff888351566648 by task qemu-system-x86/2199\n\n    The buggy address belongs to the object at ffff888XXXXXXXXX\n     which belongs to the cache kmalloc-cg-32 of size 32\n    The buggy address is located N bytes to the right of\n     allocated 32-byte region [ffff888XXXXXXXXX, ffff888XXXXXXXXX)\n\n  Breakdown:\n    62 slab-out-of-bounds (reads + writes past allocation)\n     7 slab-use-after-free\n     4 use-after-free\n\nAll credit to Stan for the wonderful description and reproducer!\n\n[sean: write changelog]
-</code>
-
-- [0xCyberstan/CVE-2026-53360-POC](https://github.com/0xCyberstan/CVE-2026-53360-POC)
-
 ### CVE-2026-53361 (2026-07-04)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\naf_unix: Set gc_in_progress to true in unix_gc().\n\nIgor Ushakov reported that unix_gc() could run with gc_in_progress\nbeing false if the work is scheduled while running:\n\n  Thread 1         Thread 2                     Thread 3\n  --------         --------                     --------\n                   unix_schedule_gc()           unix_schedule_gc()\n                   `- if (!gc_in_progress)      `- if (!gc_in_progress)\n                      |- gc_in_progress = true     |\n                      `- queue_work()              |\n  unix_gc() &lt;----------------/                     |\n  |                                                |- gc_in_progress = true\n  ...                                              `- queue_work()\n  |                                                       |\n  `- gc_in_progress = false                               |\n                                                          |\n  unix_gc() &lt;---------------------------------------------'\n  |\n  ... /* gc_in_progress == false */\n  |\n  `- gc_in_progress = false\n\nunix_peek_fpl() relies on gc_in_progress not to confuse GC\nby MSG_PEEK.\n\nLet's set gc_in_progress to true in unix_gc().
@@ -7112,6 +7125,13 @@
 
 - [BiiTts/CVE-2026-54917-SeaweedFS-Cross-Bucket-Traversal](https://github.com/BiiTts/CVE-2026-54917-SeaweedFS-Cross-Bucket-Traversal)
 
+### CVE-2026-54984 (2026-08-11)
+
+<code>Heap-based buffer overflow in Windows Imaging Component allows an unauthorized attacker to execute code locally.
+</code>
+
+- [kagancapar/CVE-2026-54984](https://github.com/kagancapar/CVE-2026-54984)
+
 ### CVE-2026-54992 (2026-07-14)
 
 <code>Heap-based buffer overflow in Windows Message Queuing Queue Manager allows an unauthorized attacker to execute code locally.
@@ -7234,7 +7254,6 @@
 <code>Joomla Extension - joomlack.fr - Unauthenticated file upload in Page Builder CK extension &lt; 3.6.0 - The Joomla extension Page Builder CK is vulnerable to an unauthenticated arbitrary file upload that allows uploading executable files and leads to full RCE.
 </code>
 
-- [sagsooz/PageBuilderCK-CVE-2026-56290-Exploit](https://github.com/sagsooz/PageBuilderCK-CVE-2026-56290-Exploit)
 - [Jenderal92/CVE-2026-56290](https://github.com/Jenderal92/CVE-2026-56290)
 - [ChiefYoru/CVE-2026-56290_PoC](https://github.com/ChiefYoru/CVE-2026-56290_PoC)
 
@@ -17196,6 +17215,7 @@
 - [Phucc29/CVE-2025-55182](https://github.com/Phucc29/CVE-2025-55182)
 - [CerberusMrXi/CVE-2025-55182-Advanced-React-Server-Components-RCE-Exploit](https://github.com/CerberusMrXi/CVE-2025-55182-Advanced-React-Server-Components-RCE-Exploit)
 - [dotnetguard/CVE-2025-55182-Exploit](https://github.com/dotnetguard/CVE-2025-55182-Exploit)
+- [aisha-jimoh/cve-2025-55182-react2shell-analysis](https://github.com/aisha-jimoh/cve-2025-55182-react2shell-analysis)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -18869,7 +18889,6 @@
 </code>
 
 - [amaansiddd787/CVE-2025-65354](https://github.com/amaansiddd787/CVE-2025-65354)
-- [EarthAngel666/CVE-2025-65354](https://github.com/EarthAngel666/CVE-2025-65354)
 
 ### CVE-2025-65427 (2025-12-16)
 
@@ -48706,7 +48725,6 @@
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
 - [rvzsec/CVE-2021-4034](https://github.com/rvzsec/CVE-2021-4034)
 - [antoinenguyen-09/CVE-2021-4034](https://github.com/antoinenguyen-09/CVE-2021-4034)
-- [wudicainiao/cve-2021-4034](https://github.com/wudicainiao/cve-2021-4034)
 - [TanmoyG1800/CVE-2021-4034](https://github.com/TanmoyG1800/CVE-2021-4034)
 - [CronoX1/CVE-2021-4034](https://github.com/CronoX1/CVE-2021-4034)
 - [supportingmx/cve-2021-4034](https://github.com/supportingmx/cve-2021-4034)
@@ -53019,6 +53037,7 @@
 - [waseeld/CVE-2021-42574](https://github.com/waseeld/CVE-2021-42574)
 - [tin-z/solidity_CVE-2021-42574-POC](https://github.com/tin-z/solidity_CVE-2021-42574-POC)
 - [Moshe-ship/bidi-guard](https://github.com/Moshe-ship/bidi-guard)
+- [LuisCastellanos-dev/cobol-shield](https://github.com/LuisCastellanos-dev/cobol-shield)
 
 ### CVE-2021-42662 (2021-11-05)
 
@@ -76040,6 +76059,13 @@
 
 - [Alexeyan/CVE-2009-4137](https://github.com/Alexeyan/CVE-2009-4137)
 
+### CVE-2009-4496 (2010-01-13)
+
+<code>Boa 0.94.14rc21 writes data to a log file without sanitizing non-printable characters, which might allow remote attackers to modify a window's title, or possibly execute arbitrary commands or overwrite files, via an HTTP request containing an escape sequence for a terminal emulator.
+</code>
+
+- [enriquenegri-cyberlaw/boa-cve-2009-4496-analysis](https://github.com/enriquenegri-cyberlaw/boa-cve-2009-4496-analysis)
+
 ### CVE-2009-4623 (2010-01-18)
 
 <code>Multiple PHP remote file inclusion vulnerabilities in Advanced Comment System 1.0 allow remote attackers to execute arbitrary PHP code via a URL in the ACS_path parameter to (1) index.php and (2) admin.php in advanced_comment_system/. NOTE: this might only be a vulnerability when the administrator has not followed installation instructions in install.php. NOTE: this might be the same as CVE-2020-35598.
@@ -76297,7 +76323,6 @@
 - [Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447)
 - [3t4n/samba-3.0.24-CVE-2007-2447-vunerable-](https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-)
 - [xbufu/CVE-2007-2447](https://github.com/xbufu/CVE-2007-2447)
-- [s4msec/CVE-2007-2447](https://github.com/s4msec/CVE-2007-2447)
 - [Nosferatuvjr/Samba-Usermap-exploit](https://github.com/Nosferatuvjr/Samba-Usermap-exploit)
 - [testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447)
 - [b33m0x00/CVE-2007-2447](https://github.com/b33m0x00/CVE-2007-2447)
