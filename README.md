@@ -1485,6 +1485,7 @@
 </code>
 
 - [George0Papasotiriou/CVE-2026-9999-Serverless-Event-Injection-to-Code-Overwrite](https://github.com/George0Papasotiriou/CVE-2026-9999-Serverless-Event-Injection-to-Code-Overwrite)
+- [josephfarah-ciso/CVE-2026-9999-exploit](https://github.com/josephfarah-ciso/CVE-2026-9999-exploit)
 
 ### CVE-2026-10104 (2026-07-02)
 
@@ -3791,7 +3792,6 @@
 - [yangh-beep/CVE-2026-31431-C](https://github.com/yangh-beep/CVE-2026-31431-C)
 - [JimmyPughtron/CVE-2026-31431-Copy-Fail---Minified-LPE-PoC](https://github.com/JimmyPughtron/CVE-2026-31431-Copy-Fail---Minified-LPE-PoC)
 - [4n4s4zi/copyfail-alpine](https://github.com/4n4s4zi/copyfail-alpine)
-- [waltrone1/copyfail-safe-check](https://github.com/waltrone1/copyfail-safe-check)
 - [1m1ssher/copy-fail-python](https://github.com/1m1ssher/copy-fail-python)
 - [ridhinva/linux-kernel-algif-aead-checker](https://github.com/ridhinva/linux-kernel-algif-aead-checker)
 - [Iamliuxiaozhen/copy_fail](https://github.com/Iamliuxiaozhen/copy_fail)
@@ -3912,7 +3912,6 @@
 
 - [EQSTLab/CVE-2026-33017](https://github.com/EQSTLab/CVE-2026-33017)
 - [r3nsi15/CVE-2026-33017-langflow-rce](https://github.com/r3nsi15/CVE-2026-33017-langflow-rce)
-- [diamorphine666/CVE-2026-33017-Exploit](https://github.com/diamorphine666/CVE-2026-33017-Exploit)
 - [Usman0220/CVE-2026-33017-Langflow-RCE](https://github.com/Usman0220/CVE-2026-33017-Langflow-RCE)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-33017-Langflow-RCE](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-33017-Langflow-RCE)
 - [CerberusMrXi/Langflow-cve-2026-33017-exploit](https://github.com/CerberusMrXi/Langflow-cve-2026-33017-exploit)
@@ -4957,7 +4956,6 @@
 - [yurahshell/CVE-2026-41940](https://github.com/yurahshell/CVE-2026-41940)
 - [asdasddqwdq29-a11y/CVE-2026-41940](https://github.com/asdasddqwdq29-a11y/CVE-2026-41940)
 - [oguz-kagan-akar/CVE-2026-41940-analysis](https://github.com/oguz-kagan-akar/CVE-2026-41940-analysis)
-- [soverineg/cve-2026-41940-PoC](https://github.com/soverineg/cve-2026-41940-PoC)
 - [razureink/cve-2026-41940-cpanel_authbypass_reproduction](https://github.com/razureink/cve-2026-41940-cpanel_authbypass_reproduction)
 - [AnotherSec/CVE-2026-41940](https://github.com/AnotherSec/CVE-2026-41940)
 - [CerberusMrXi/cPanel-WHM-CVE-2026-41940-auth-bypass-exploit](https://github.com/CerberusMrXi/cPanel-WHM-CVE-2026-41940-auth-bypass-exploit)
@@ -5170,6 +5168,7 @@
 - [sec-sys/CVE-2026-42945-Reverse-Shell-POC](https://github.com/sec-sys/CVE-2026-42945-Reverse-Shell-POC)
 - [hulina9900-boop/DIY-CVE-2026-42945-POC](https://github.com/hulina9900-boop/DIY-CVE-2026-42945-POC)
 - [azilRababe/CVE-2026-42945](https://github.com/azilRababe/CVE-2026-42945)
+- [CynepMyx/nginx-rift-check](https://github.com/CynepMyx/nginx-rift-check)
 
 ### CVE-2026-42978 (2026-06-09)
 
@@ -5311,6 +5310,7 @@
 - [yijiacloud/ghostlock-cve-2026-43499-4.19-k40](https://github.com/yijiacloud/ghostlock-cve-2026-43499-4.19-k40)
 - [E-R-Butch/F9360-CVE43499](https://github.com/E-R-Butch/F9360-CVE43499)
 - [hybLOVE/iqoo-temp-root](https://github.com/hybLOVE/iqoo-temp-root)
+- [wzhdgithub/GhostLock](https://github.com/wzhdgithub/GhostLock)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -5632,6 +5632,7 @@
 </code>
 
 - [ry-allan/tanstack-compromise-checker](https://github.com/ry-allan/tanstack-compromise-checker)
+- [Intrudify/mini-shai-hulud-scanner](https://github.com/Intrudify/mini-shai-hulud-scanner)
 - [fabriziosalmi/tanstack-compromise-checker](https://github.com/fabriziosalmi/tanstack-compromise-checker)
 - [digi4care/shai-scan](https://github.com/digi4care/shai-scan)
 - [nkopylov/tanscript-exploit-check](https://github.com/nkopylov/tanscript-exploit-check)
@@ -6036,6 +6037,13 @@
 
 - [learner202649/CVE-2026-47102-PoC](https://github.com/learner202649/CVE-2026-47102-PoC)
 
+### CVE-2026-47301 (2026-07-14)
+
+<code>Improper access control in Microsoft Configuration Manager allows an authorized attacker to elevate privileges over a network.
+</code>
+
+- [OmriBaso/SCCM-CVE-2026-47301-Remote-Code-Execution-Exploit](https://github.com/OmriBaso/SCCM-CVE-2026-47301-Remote-Code-Execution-Exploit)
+
 ### CVE-2026-47323 (2026-05-19)
 
 <code>Camel-CXF and Camel-Knative Message Header Injection via Missing Inbound Filtering\n\nThe CXF and Knative HeaderFilterStrategy implementations (CxfRsHeaderFilterStrategy in camel-cxf-rest, CxfHeaderFilterStrategy in camel-cxf-transport, and KnativeHttpHeaderFilterStrategy in camel-knative-http) only filter outbound Camel-internal headers via setOutFilterStartsWith, while not configuring inbound filtering via setInFilterStartsWith. As a result, an unauthenticated attacker can inject Camel-internal headers (e.g. CamelExecCommandExecutable, CamelFileName) via HTTP requests to CXF-RS or CXF-SOAP endpoints. When a route forwards messages from these endpoints to header-driven components such as camel-exec or camel-file, the injected headers override configured values, enabling remote code execution or arbitrary file writes. This is the same pattern that was previously addressed in camel-undertow (CVE-2025-30177), the broader incoming-header filter (CVE-2025-27636 and CVE-2025-29891), and non-HTTP strategies (CVE-2026-40453).\n\n\nThis issue affects Apache Camel: from 3.18.0 before 4.14.6, from 4.15.0 before 4.18.2.\n\nUsers are recommended to upgrade to version 4.19.0, which fixes the issue. If users are on the 4.18.x LTS releases stream, then they are suggested to upgrade to 4.18.2. If users are on the 4.14.x LTS releases stream, then they are suggested to upgrade to 4.14.6.
@@ -6357,7 +6365,6 @@
 <code>The Helix3 plugin for Joomla exposes an ajax handler task, that allows unauthenticated attackers to delete arbitrary files, write arbitrary JSON files and update template parameters.
 </code>
 
-- [shinthink/CVE-2026-49049](https://github.com/shinthink/CVE-2026-49049)
 - [frada321/asdsadsadasdasdsadsad](https://github.com/frada321/asdsadsadasdasdsadsad)
 - [Dr-D25/CVE-2026-49049](https://github.com/Dr-D25/CVE-2026-49049)
 - [ExDev994/CVE-2026-49049](https://github.com/ExDev994/CVE-2026-49049)
@@ -6745,13 +6752,6 @@
 
 - [dennywise/CVE-2026-51833-Public-Disclosure](https://github.com/dennywise/CVE-2026-51833-Public-Disclosure)
 
-### CVE-2026-51947 (2026-07-01)
-
-<code>An issue in Pivotal CRM 6.6.4.08 and systems using patch-ghi-15381-cwe-502-20251225.zip (fixed in Pivotal CRM 6.6.5.10 and Patch_CWE502_20260316.zip) allows a remote attacker to execute arbitrary code via the Pivotal.Engine.Client.Services.Conversion.dll component. NOTE: this issue exists because of an incomplete fix for CVE-2026-39253.
-</code>
-
-- [timtimxs/CVE-2026-51947-Advisory](https://github.com/timtimxs/CVE-2026-51947-Advisory)
-
 ### CVE-2026-51954
 - [envincion1991-cmyk/CVE-2026-51954](https://github.com/envincion1991-cmyk/CVE-2026-51954)
 
@@ -7137,13 +7137,6 @@
 
 - [DavidCarliez/CVE-2026-54992-PoC](https://github.com/DavidCarliez/CVE-2026-54992-PoC)
 
-### CVE-2026-54998 (2026-07-02)
-
-<code>Incorrect authorization in Microsoft Exchange Online allows an authorized attacker to elevate privileges over a network.
-</code>
-
-- [sentinel-aidefense/CVE-2026-54998-exp](https://github.com/sentinel-aidefense/CVE-2026-54998-exp)
-
 ### CVE-2026-55040 (2026-07-14)
 
 <code>Weak authentication in Microsoft Office SharePoint allows an unauthorized attacker to bypass a security feature over a network.
@@ -7301,7 +7294,6 @@
 <code>Control Web Panel before 0.9.8.1225 contains a blind SQL injection vulnerability that allows unauthenticated remote attackers to execute arbitrary SQL queries by submitting unsanitized input through the userRes POST parameter at the user endpoint. Attackers can exploit MySQL root privileges obtained via the injection to write arbitrary files using INTO DUMPFILE, enabling deployment of a PHP webshell to the web-accessible roundcube logs directory and achieving remote code execution as the cwpsvc account.
 </code>
 
-- [shinthink/CVE-2026-57517](https://github.com/shinthink/CVE-2026-57517)
 - [gagaltotal/CVE-2026-57517-CWP](https://github.com/gagaltotal/CVE-2026-57517-CWP)
 
 ### CVE-2026-57588 (2026-06-25)
@@ -7845,6 +7837,9 @@
 
 - [IamDremig/CVE-2026-65591](https://github.com/IamDremig/CVE-2026-65591)
 
+### CVE-2026-65640
+- [jobusa755-a11y/CVE-2026-65640-](https://github.com/jobusa755-a11y/CVE-2026-65640-)
+
 ### CVE-2026-65650 (2026-07-22)
 
 <code>Elgg before 7.0.0 does not check image dimensions to prevent denial of service via a large avatar upload.
@@ -8163,6 +8158,13 @@
 
 - [aramosf/CVE-2026-68398](https://github.com/aramosf/CVE-2026-68398)
 
+### CVE-2026-68749 (2026-08-06)
+
+<code>Inefficient Regular Expression Complexity vulnerability in the CSS scrubber in rrrene html_sanitize_ex allows an unauthenticated remote attacker to exhaust server CPU via a long CSS declaration in sanitized HTML. The declaration regex in HtmlSanitizeEx.Scrubber.CSS.scrub/1 matches the property name with an unbounded greedy [-\w]+ followed by a mandatory :, so a long run of word characters not followed by a colon makes the engine give back one character at a time and retry the colon at every start offset. The work is quadratic in the length of the run, and no length cap is applied to the CSS handed to the scrubber. An 80 KB &lt;style&gt; body costs roughly 2.4 seconds of scheduler time, so a few concurrent requests saturate the BEAM scheduler pool and make the application unresponsive.\n\nThe impact is CPU exhaustion only. Nothing is read, modified or disclosed.\n\nThis issue affects html_sanitize_ex: from 0.3.1 before 1.5.3.
+</code>
+
+- [Hunt-Benito/the-sanitizer-is-the-weapon-cve-2026-68749-cve-2026-68750-quadratic-dos-in-elixir-html-sanitize-ex](https://github.com/Hunt-Benito/the-sanitizer-is-the-weapon-cve-2026-68749-cve-2026-68750-quadratic-dos-in-elixir-html-sanitize-ex)
+
 ### CVE-2026-68771 (2026-07-31)
 
 <code>ComfyUI v0.23.0 contains an unsafe deserialization vulnerability in the LoadTrainingDataset node that allows unauthenticated remote attackers to execute arbitrary Python code by uploading a crafted pickle file and triggering its deserialization. Attackers can upload a malicious shard_*.pkl file via the unauthenticated POST /upload/image endpoint and then queue a workflow graph via POST /prompt referencing the uploaded file, causing torch.load to deserialize the attacker-controlled pickle payload using __reduce__ and execute arbitrary commands as the ComfyUI process user.
@@ -8468,7 +8470,6 @@
 - [soltanali0/CVE-2025-1094-Exploit](https://github.com/soltanali0/CVE-2025-1094-Exploit)
 - [ishwardeepp/CVE-2025-1094-PoC-Postgre-SQLi](https://github.com/ishwardeepp/CVE-2025-1094-PoC-Postgre-SQLi)
 - [aninfosec/CVE-2025-1094](https://github.com/aninfosec/CVE-2025-1094)
-- [Nguyen-Van-Gia-Binh/Fcode-Security-Demo](https://github.com/Nguyen-Van-Gia-Binh/Fcode-Security-Demo)
 - [TranDongA3/POC-CVE-2025-1094](https://github.com/TranDongA3/POC-CVE-2025-1094)
 
 ### CVE-2025-1097 (2025-03-24)
@@ -11679,6 +11680,7 @@
 - [sarabpal-dev/cheese-cake](https://github.com/sarabpal-dev/cheese-cake)
 - [ma4the/omae-wa-cheese-da](https://github.com/ma4the/omae-wa-cheese-da)
 - [CamsShaft/SELinux-Permissive-Only-CVE-2025-21479](https://github.com/CamsShaft/SELinux-Permissive-Only-CVE-2025-21479)
+- [Type010/cve-2025-21479-iqoo11pro](https://github.com/Type010/cve-2025-21479-iqoo11pro)
 
 ### CVE-2025-21574 (2025-04-15)
 
