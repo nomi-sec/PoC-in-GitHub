@@ -191,13 +191,6 @@
 ### CVE-2026-0866
 - [mdshoaibuddinchanda/zombieguard](https://github.com/mdshoaibuddinchanda/zombieguard)
 
-### CVE-2026-0920 (2026-01-22)
-
-<code>The LA-Studio Element Kit for Elementor plugin for WordPress is vulnerable to Administrative User Creation in all versions up to, and including, 1.5.6.3. This is due to the 'ajax_register_handle' function not restricting what user roles a user can register with. This makes it possible for unauthenticated attackers to supply the 'lakit_bkrole' parameter during registration and gain administrator access to the site.
-</code>
-
-- [Dx3iZ/CVE-2026-0920](https://github.com/Dx3iZ/CVE-2026-0920)
-
 ### CVE-2026-0926 (2026-02-19)
 
 <code>The Prodigy Commerce plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 3.3.0 via the 'parameters[template_name]' parameter. This makes it possible for unauthenticated attackers to include and read arbitrary files or execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
@@ -895,13 +888,6 @@
 
 - [007bsd/ml-kem-key-recovery](https://github.com/007bsd/ml-kem-key-recovery)
 
-### CVE-2026-6421 (2026-04-17)
-
-<code>A vulnerability has been found in Mobatek MobaXterm Home Edition up to 26.1. This affects an unknown part in the library msimg32.dll. The manipulation leads to uncontrolled search path. An attack has to be approached locally. The attack is considered to have high complexity. It is indicated that the exploitability is difficult. The exploit has been disclosed to the public and may be used. Upgrading to version 26.2 is able to mitigate this issue. It is suggested to upgrade the affected component. The vendor was contacted early, responded in a very professional manner and quickly released a fixed version of the affected product.
-</code>
-
-- [1neptune/chimera](https://github.com/1neptune/chimera)
-
 ### CVE-2026-6433 (2026-05-11)
 
 <code>The Custom css-js-php WordPress plugin through 2.0.7 does not properly sanitize user input before using it in a SQL query, and the result is passed to eval(), allowing unauthenticated users to execute arbitrary PHP code on the server.
@@ -1198,6 +1184,13 @@
 - [watchtowrlabs/watchTowr-vs-Netscaler-CVE-2026-8451](https://github.com/watchtowrlabs/watchTowr-vs-Netscaler-CVE-2026-8451)
 - [derekpreston81/CVE_ADC_IOC_2026](https://github.com/derekpreston81/CVE_ADC_IOC_2026)
 
+### CVE-2026-8452 (2026-06-30)
+
+<code>Memory overflow vulnerability NetScaler ADC and NetScaler Gateway leading to unpredictable or erroneous behavior and Denial of Service if the appliance is configured as a Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy) or AAA virtual server
+</code>
+
+- [watchtowrlabs/watchTowr-vs-Citrix-Netscaler-PreAuth-RCE-CVE-2026-8452](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-PreAuth-RCE-CVE-2026-8452)
+
 ### CVE-2026-8461 (2026-06-18)
 
 <code>An out-of-bounds write vulnerability in FFmpeg's libavcodec library, specifically in the MagicYUV decoder, allows denial-of-service and, in some cases, can be exploited for remote code execution.\n\n This vulnerability is associated with the file libavcodec/magicyuv.C.\n\n\n\nThis issue affects FFmpeg before version 8.1.2.
@@ -1214,13 +1207,6 @@
 </code>
 
 - [itzmetanjim/cve-2026-8697](https://github.com/itzmetanjim/cve-2026-8697)
-
-### CVE-2026-8713 (2026-06-19)
-
-<code>The Avada (Fusion) Builder plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the maybe_delete_files function in all versions up to, and including, 3.15.3. This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). The attack requires a published Avada form configured to save entries to the database; an unauthenticated attacker submits a path-traversal payload via the wp_ajax_nopriv_fusion_form_submit_ajax handler while also controlling the fusion_privacy_expiration_interval and privacy_expiration_action fields to force an immediate 'delete' cleanup, causing the planted entry to be automatically processed by the Fusion_Form_DB_Privacy shutdown-hook routine without any administrator interaction.
-</code>
-
-- [shinthink/CVE-2026-8713](https://github.com/shinthink/CVE-2026-8713)
 
 ### CVE-2026-8732 (2026-05-29)
 
@@ -1366,13 +1352,6 @@
 </code>
 
 - [DylanZahedi/CVE-2026-9277](https://github.com/DylanZahedi/CVE-2026-9277)
-
-### CVE-2026-9290 (2026-06-05)
-
-<code>The WP User Manager – User Profile Builder &amp; Membership plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.9.17 via the (profile template scope) function. This makes it possible for unauthenticated attackers to include and execute arbitrary .php files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where .php file types can be uploaded and included.
-</code>
-
-- [shinthink/CVE-2026-9290](https://github.com/shinthink/CVE-2026-9290)
 
 ### CVE-2026-9490 (2026-05-25)
 
@@ -1839,6 +1818,9 @@
 </code>
 
 - [moritakaaz/CVE-2026-12277](https://github.com/moritakaaz/CVE-2026-12277)
+
+### CVE-2026-12345
+- [zahidec0de/CVE-2026-12345-poc](https://github.com/zahidec0de/CVE-2026-12345-poc)
 
 ### CVE-2026-12400 (2026-07-10)
 
@@ -3312,7 +3294,6 @@
 <code>Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.
 </code>
 
-- [huynambka/cve-2026-26114-poc](https://github.com/huynambka/cve-2026-26114-poc)
 - [fazilbaig1/CVE-2026-26114-Patch](https://github.com/fazilbaig1/CVE-2026-26114-Patch)
 
 ### CVE-2026-26118 (2026-03-10)
@@ -3397,13 +3378,6 @@
 </code>
 
 - [HORKimhab/CVE-2026-27145](https://github.com/HORKimhab/CVE-2026-27145)
-
-### CVE-2026-27172 (2026-04-27)
-
-<code>The ConsulRegistry in the camel-consul component (class org.apache.camel.component.consul.ConsulRegistry and its inner ConsulRegistryUtils.deserialize method) read Java-serialized values from the Consul KV store and passed them to ObjectInputStream.readObject() without configuring an ObjectInputFilter. An attacker who can write to the Consul KV store backing a Camel ConsulRegistry instance could inject a malicious serialized Java object that is deserialized the next time Camel performs a lookup against that registry, leading to arbitrary code execution in the Camel process. The issue mirrors the class of vulnerability already addressed for other Camel components in CVE-2024-22369, CVE-2024-23114 and CVE-2026-25747, and was overlooked during the original remediation of those CVEs.\n\nThis issue affects Apache Camel: from 3.0.0 before 4.14.6, from 4.15.0 before 4.18.1.\n\nUsers are recommended to upgrade to version 4.19.0, which fixes the issue. If users are on the 4.14.x LTS releases stream, then they are suggested to upgrade to 4.14.6. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.1.
-</code>
-
-- [oscerd/CVE-2026-27172](https://github.com/oscerd/CVE-2026-27172)
 
 ### CVE-2026-27212 (2026-02-21)
 
@@ -3495,13 +3469,7 @@
 
 - [Semperis-Community/ResetNightmare](https://github.com/Semperis-Community/ResetNightmare)
 - [mihat2/ResetNightmare-impacket](https://github.com/mihat2/ResetNightmare-impacket)
-
-### CVE-2026-27966 (2026-02-26)
-
-<code>Langflow is a tool for building and deploying AI-powered agents and workflows. Prior to version 1.8.0, the CSV Agent node in Langflow hardcodes `allow_dangerous_code=True`, which automatically exposes LangChain’s Python REPL tool (`python_repl_ast`). As a result, an attacker can execute arbitrary Python and OS commands on the server via prompt injection, leading to full Remote Code Execution (RCE). Version 1.8.0 fixes the issue.
-</code>
-
-- [shinthink/CVE-2026-27966](https://github.com/shinthink/CVE-2026-27966)
+- [oxstussz-eng/Kerberos-CVE-2026-27912](https://github.com/oxstussz-eng/Kerberos-CVE-2026-27912)
 
 ### CVE-2026-27971 (2026-03-03)
 
@@ -3773,7 +3741,6 @@
 - [t1ckprivate/CVE-2026-31431-Copy-Fail](https://github.com/t1ckprivate/CVE-2026-31431-Copy-Fail)
 - [kinryulabs/rootpacket-cve-2026-31431](https://github.com/kinryulabs/rootpacket-cve-2026-31431)
 - [SugiB3o/CVE-2026-31431](https://github.com/SugiB3o/CVE-2026-31431)
-- [jihwan77/Linux-Kernel-Copy-Fail-CVE-2026-31431-](https://github.com/jihwan77/Linux-Kernel-Copy-Fail-CVE-2026-31431-)
 - [TeamN4C/SG-2026-0013](https://github.com/TeamN4C/SG-2026-0013)
 - [TrevoCastles/CVE-2026-31431-copy-fail](https://github.com/TrevoCastles/CVE-2026-31431-copy-fail)
 - [dev1681/CVE-2026-31431](https://github.com/dev1681/CVE-2026-31431)
@@ -5134,6 +5101,7 @@
 - [hulina9900-boop/DIY-CVE-2026-42945-POC](https://github.com/hulina9900-boop/DIY-CVE-2026-42945-POC)
 - [azilRababe/CVE-2026-42945](https://github.com/azilRababe/CVE-2026-42945)
 - [CynepMyx/nginx-rift-check](https://github.com/CynepMyx/nginx-rift-check)
+- [Kentox493/CVE-2026-42945_NginxRift](https://github.com/Kentox493/CVE-2026-42945_NginxRift)
 
 ### CVE-2026-42978 (2026-06-09)
 
@@ -5660,7 +5628,6 @@
 - [tchuin2609/YellowKey-Bitlocker](https://github.com/tchuin2609/YellowKey-Bitlocker)
 - [tchuin2609/tchuin2609.github.io](https://github.com/tchuin2609/tchuin2609.github.io)
 - [Donalhighnecked528/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/Donalhighnecked528/YellowKey-Bitlocker-CVE-2026-45585)
-- [yellowkeycve/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/yellowkeycve/YellowKey-Bitlocker-CVE-2026-45585)
 
 ### CVE-2026-45659 (2026-05-22)
 
@@ -5750,6 +5717,7 @@
 - [BenedictEjepu/CVE-2026-46300-Fragnesia---TryHackMe-Lab-Project](https://github.com/BenedictEjepu/CVE-2026-46300-Fragnesia---TryHackMe-Lab-Project)
 - [azilRababe/CVE-2026-46300](https://github.com/azilRababe/CVE-2026-46300)
 - [MadExploits/CVE-2026-46300](https://github.com/MadExploits/CVE-2026-46300)
+- [Kentox493/CVE-2026-46300_Fragnesia](https://github.com/Kentox493/CVE-2026-46300_Fragnesia)
 
 ### CVE-2026-46316 (2026-06-09)
 
@@ -6295,7 +6263,6 @@
 </code>
 
 - [Polosss/By-Poloss..-..CVE-2026-48939](https://github.com/Polosss/By-Poloss..-..CVE-2026-48939)
-- [shinthink/CVE-2026-48939](https://github.com/shinthink/CVE-2026-48939)
 - [ChiefYoru/CVE-2026-48939_PoC](https://github.com/ChiefYoru/CVE-2026-48939_PoC)
 
 ### CVE-2026-48962 (2026-05-27)
@@ -6777,6 +6744,13 @@
 
 - [0xdak/CVE-2026-52680_exploit](https://github.com/0xdak/CVE-2026-52680_exploit)
 
+### CVE-2026-52715 (2026-06-16)
+
+<code>Unauthenticated SQL Injection in GEO my WordPress &lt;= 4.5.5 versions.
+</code>
+
+- [686f6c61/POC-GeoLeak-CVE-2026-52715](https://github.com/686f6c61/POC-GeoLeak-CVE-2026-52715)
+
 ### CVE-2026-52806 (2026-06-24)
 
 <code>Gogs is an open source self-hosted Git service. Prior to 0.14.3, Gogs allows authenticated users to achieve Remote Code Execution (RCE) on the server by creating a pull request with a specially crafted branch name that injects the --exec flag into the git rebase command during the &quot;Rebase before merging&quot; merge operation. This vulnerability is fixed in 0.14.3.
@@ -6867,6 +6841,13 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: account for fraggap on the paged allocation path\n\nIn __ip6_append_data(), when the paged-allocation branch is taken\n(MSG_MORE / NETIF_F_SG / large fraglen), alloclen and pagedlen are\ncomputed as\n\n</code>
 
 - [suominen/ipv6_frag_escape](https://github.com/suominen/ipv6_frag_escape)
+
+### CVE-2026-53365 (2026-07-13)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nvsock/virtio: fix zerocopy completion for multi-skb sends\n\nWhen a large message is fragmented into multiple skbs, the zerocopy\nuarg is only allocated and attached to the last skb in the loop.\nNon-final skbs carry pinned user pages with no completion tracking,\nso the kernel has no way to notify userspace when those pages are safe\nto reuse. If the loop breaks early the uarg is never allocated at all,\nleaking pinned pages with no completion notification.\n\nFix this by following the approach used by TCP: allocate the zerocopy\nuarg (if not provided by the caller) before the send loop and attach\nit to every skb via skb_zcopy_set(), which takes a reference per skb.\nEach skb's completion properly decrements the refcount, and the\nnotification only fires after the last skb is freed.\nOn failure, if no data was sent, the uarg is cleanly aborted via\nnet_zcopy_put_abort().\n\nThis issue was initially discovered by sashiko while reviewing commit\n1cb36e252211 (&quot;vsock/virtio: fix MSG_ZEROCOPY pinned-pages accounting&quot;)\nbut was pre-existing.
+</code>
+
+- [HORKimhab/CVE-2026-53365](https://github.com/HORKimhab/CVE-2026-53365)
 
 ### CVE-2026-53413 (2026-08-11)
 
@@ -7013,6 +6994,9 @@
 
 - [BiiTts/CVE-2026-54350-Budibase-NoSQL-Injection](https://github.com/BiiTts/CVE-2026-54350-Budibase-NoSQL-Injection)
 
+### CVE-2026-54356
+- [KovachVL/CVE-2026-54356](https://github.com/KovachVL/CVE-2026-54356)
+
 ### CVE-2026-54390 (2026-06-18)
 
 <code>JTL Shop versions 5.2.0 through 5.7.1 contains a server-side template injection vulnerability that allows unauthenticated attackers to inject malicious template syntax due to unsanitized user-supplied input passed to the Smarty template engine. Attackers can exploit this flaw to read sensitive server-side values such as database credentials and encryption keys, and on versions 5.4.0 through 5.7.1, leverage registered Smarty modifiers including unserialize and file_get_contents to write a webshell to the web root and execute arbitrary commands as the web server user.
@@ -7036,6 +7020,13 @@
 </code>
 
 - [tomadimitrie/CVE-2026-54424](https://github.com/tomadimitrie/CVE-2026-54424)
+
+### CVE-2026-54433 (2026-07-14)
+
+<code>In Roundcube Webmail before 1.6.17 and 1.7.x before 1.7.2, there is Stored Cross-Site Scripting (XSS) via a crafted plain-text email message. The attacker-controlled JavaScript executes within the victim's authenticated session simply by opening or previewing the message (zero-click).
+</code>
+
+- [aramosf/CVE-2026-54433](https://github.com/aramosf/CVE-2026-54433)
 
 ### CVE-2026-54515 (2026-06-23)
 
@@ -7735,6 +7726,7 @@
 - [bha-vin/CVE-2026-64600-Exploit](https://github.com/bha-vin/CVE-2026-64600-Exploit)
 - [letsr00t/RefluxFS_CVE-2026-64600](https://github.com/letsr00t/RefluxFS_CVE-2026-64600)
 - [masrikky/CVE-2026-64600-RefluXFS](https://github.com/masrikky/CVE-2026-64600-RefluXFS)
+- [0xSec1/CVE-2026-64600-RefluXFS-PoC](https://github.com/0xSec1/CVE-2026-64600-RefluXFS-PoC)
 
 ### CVE-2026-64633 (2026-08-04)
 
@@ -8270,7 +8262,11 @@
 
 - [Boreas37/CVE-2026-73034-PoC](https://github.com/Boreas37/CVE-2026-73034-PoC)
 
-### CVE-2026-73673
+### CVE-2026-73673 (2026-08-14)
+
+<code>Netis NC63 router firmware V3.0.0.3327 contains an unauthenticated firmware update vulnerability that allows unauthenticated attackers to submit unsigned firmware images by exploiting a missing authentication enforcement flaw in the Boa web server and netis.cgi CGI dispatcher. Attackers can send a multipart POST request to /cgi-bin/upload_fw.cgi without a valid session cookie, bypassing authentication because Boa grants access to any path containing '.cgi' regardless of cookie validation, and netis.cgi reads but does not enforce the authentication state before invoking the firmware update handler, which accepts images validated only by a forgeable additive checksum and static product strings rather than a cryptographic signature, potentially enabling persistent router compromise.
+</code>
+
 - [ozcanpng/CVE-2026-73673](https://github.com/ozcanpng/CVE-2026-73673)
 
 ### CVE-2026-999999
@@ -21987,6 +21983,13 @@
 
 - [RandomRobbieBF/CVE-2024-6330](https://github.com/RandomRobbieBF/CVE-2024-6330)
 
+### CVE-2024-6333 (2024-10-17)
+
+<code>Authenticated Remote Code Execution in Altalink, Versalink &amp; WorkCentre Products.
+</code>
+
+- [0xQRx/CVE-2024-6333](https://github.com/0xQRx/CVE-2024-6333)
+
 ### CVE-2024-6366 (2024-07-29)
 
 <code>The User Profile Builder  WordPress plugin before 3.11.8 does not have proper authorisation, allowing unauthenticated users to upload media files via the async upload functionality of WP.
@@ -31068,13 +31071,6 @@
 </code>
 
 - [mrlihd/CVE-2024-57521-SQL-Injection-PoC](https://github.com/mrlihd/CVE-2024-57521-SQL-Injection-PoC)
-
-### CVE-2024-57522 (2025-02-03)
-
-<code>SourceCodester Packers and Movers Management System v1.0 is vulnerable to Cross Site Scripting (XSS) in Users.php. An attacker can inject a malicious script into the username or name field during user creation.
-</code>
-
-- [HackWidMaddy/CVE-2024-57522](https://github.com/HackWidMaddy/CVE-2024-57522)
 
 ### CVE-2024-57609 (2025-02-06)
 
@@ -49801,13 +49797,6 @@
 
 - [RandomRobbieBF/CVE-2021-25032](https://github.com/RandomRobbieBF/CVE-2021-25032)
 
-### CVE-2021-25076 (2022-01-24)
-
-<code>The WP User Frontend WordPress plugin before 3.5.26 does not validate and escape the status parameter before using it in a SQL statement in the Subscribers dashboard, leading to an SQL injection. Due to the lack of sanitisation and escaping, this could also lead to Reflected Cross-Site Scripting
-</code>
-
-- [abbarhissarh/CVE-2021-25076](https://github.com/abbarhissarh/CVE-2021-25076)
-
 ### CVE-2021-25094 (2022-04-25)
 
 <code>The Tatsu WordPress plugin before 3.3.12 add_custom_font action can be used without prior authentication to upload a rogue zip file which is uncompressed under the WordPress's upload directory. By adding a PHP shell with a filename starting with a dot &quot;.&quot;, this can bypass extension control implemented in the plugin. Moreover, there is a race condition in the zip extraction process which makes the shell file live long enough on the filesystem to be callable by an attacker.
@@ -52732,6 +52721,7 @@
 - [Emaar1x/CVE-2021-41773](https://github.com/Emaar1x/CVE-2021-41773)
 - [s-amnajafri/CVE-2021-41773-Apache-Lab](https://github.com/s-amnajafri/CVE-2021-41773-Apache-Lab)
 - [GlebUsalt/cybersecurity_portfolio](https://github.com/GlebUsalt/cybersecurity_portfolio)
+- [SANR01/CVE-2021-41773-Exploit-Lab](https://github.com/SANR01/CVE-2021-41773-Exploit-Lab)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -60304,6 +60294,7 @@
 - [Ayomide-29/bluekeep_metasploit_practice](https://github.com/Ayomide-29/bluekeep_metasploit_practice)
 - [ayomideadams61-hub/bluekeep-metsploitable-lab](https://github.com/ayomideadams61-hub/bluekeep-metsploitable-lab)
 - [Nweks/Bluekeep-Metasploit-Lab-Project](https://github.com/Nweks/Bluekeep-Metasploit-Lab-Project)
+- [Mohaimenul370/Perform-an-RDP-exploitation-using-the-BlueKeep-vulnerability-CVE-2019-0708-on-Windows](https://github.com/Mohaimenul370/Perform-an-RDP-exploitation-using-the-BlueKeep-vulnerability-CVE-2019-0708-on-Windows)
 
 ### CVE-2019-0709 (2019-06-12)
 
@@ -71760,6 +71751,7 @@
 - [maur0amaya/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow](https://github.com/maur0amaya/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow)
 - [rauljvc8/Exploit-Dirty-Cow](https://github.com/rauljvc8/Exploit-Dirty-Cow)
 - [GonzaBot/kernel-exploit-dirtycow](https://github.com/GonzaBot/kernel-exploit-dirtycow)
+- [gogooma125732/CVE-2016-5195](https://github.com/gogooma125732/CVE-2016-5195)
 - [voidgguy/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195](https://github.com/voidgguy/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195)
 
 ### CVE-2016-5345 (2018-01-23)
