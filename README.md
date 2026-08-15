@@ -894,6 +894,13 @@
 
 - [murrez/CVE-2026-6433](https://github.com/murrez/CVE-2026-6433)
 
+### CVE-2026-6440 (2026-07-10)
+
+<code>The GoodMeet – Google Meet Integration for Webinar, Meeting &amp; Video Conference plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to and including 1.1.8. This is due to a missing nonce verification in the reset_credential() function, which handles the wp_ajax_goodmeet_reset_google_meet_credential AJAX action. While the function does verify the user's capability (manage_options), it does not validate a nonce, making it susceptible to CSRF attacks. This makes it possible for unauthenticated attackers to trick a site administrator into clicking a malicious link that will reset (delete) the plugin's stored Google Meet API credentials (goodmeet_google_credentials) and OAuth tokens (goodmeet_google_token), effectively disabling the Google Meet integration on the site.
+</code>
+
+- [Alixploit22/CVE-2026-6440](https://github.com/Alixploit22/CVE-2026-6440)
+
 ### CVE-2026-6508 (2026-05-07)
 
 <code>Origin Validation Error vulnerability in TUBITAK BILGEM Software Technologies Research Institute Liderahenk allows Accessing Functionality Not Properly Constrained by ACLs.\n\nThis issue affects Liderahenk: from 2.0.1 before 2.0.2.
@@ -1329,6 +1336,7 @@
 </code>
 
 - [George0Papasotiriou/CVE-2026-9090-Modbus-TCP-Write-to-Read-Only-Coils-via-Function-Code-Spoofing](https://github.com/George0Papasotiriou/CVE-2026-9090-Modbus-TCP-Write-to-Read-Only-Coils-via-Function-Code-Spoofing)
+- [Kimdir01/CVE-2026-9090-poc](https://github.com/Kimdir01/CVE-2026-9090-poc)
 
 ### CVE-2026-9198 (2026-07-17)
 
@@ -1716,13 +1724,6 @@
 
 - [BishopFox/CVE-2026-11374-check](https://github.com/BishopFox/CVE-2026-11374-check)
 
-### CVE-2026-11405 (2026-07-06)
-
-<code>The web server binary /bin/httpd contains a hidden backdoor authentication mechanism in the login() function at 004c88b8.\r\n\r\n- The function contains a normal authentication path using MD5/hash-based password verification (prod_encode64/PasswordToMd5/check_rand_key).\r\n- After normal authentication fails, it calls GetValue(&quot;sys.rzadmin.password&quot;) to read a backdoor password from the device configuration.\r\n- It performs a direct strcmp() comparison (plaintext, not hashed) between the config value and the user-supplied password.\r\n\r\nA successful match grants role=2 (admin-level access) and creates a valid session. The rzadmin username is never checked — any username works with the backdoor
-</code>
-
-- [HORKimhab/CVE-2026-11405](https://github.com/HORKimhab/CVE-2026-11405)
-
 ### CVE-2026-11417 (2026-06-10)
 
 <code>OS command injection in the NodejsFunction local bundling pipeline in aws-cdk-lib before 2.245.0 (2.246.0 on Windows) might allow an actor who controls the value of one or more bundling properties (externalModules, define, loader, inject, or esbuildArgs) to execute arbitrary commands on the host running the CDK toolchain via injected shell metacharacters. This issue requires the threat actor to control the value of one or more of the affected bundling properties in the CDK application.\n\n\n\nTo remediate this issue, users should upgrade to aws-cdk-lib 2.245.0 (2.246.0 on Windows) or later.
@@ -1972,13 +1973,6 @@
 </code>
 
 - [ArtWide/cve-2026-13934](https://github.com/ArtWide/cve-2026-13934)
-
-### CVE-2026-14191 (2026-07-01)
-
-<code>An out-of-bounds heap write exists in the RAR5 recovery-volume (.rev) parser in WinRAR and UnRAR (RecVolumes5::ReadHeader in recvol5.cpp). The RecItems vector is sized only when the first .rev file in a set is processed; subsequent .rev files supply an independent RecNum value that is validated against that file's own TotalCount field but never against the actual size of RecItems. A crafted set of two or more .rev files can therefore write an attacker-controlled 32-bit value (the header's RevCRC field) to RecItems[RecNum] at an attacker-controlled offset up to 65534 * sizeof(RecVolItem) bytes past the allocation, corrupting adjacent heap objects. Triggering requires the victim to run a recovery/test operation on an attacker-supplied .rev set (for example 'unrar t x.part1.rev', WinRAR 'Repair archive', or auto-recovery when extracting a volume set with a missing .rar part). This is the RAR5-path sibling of CVE-2023-40477 (which was fixed in the RAR3 path only in WinRAR 6.23). Fixed in WinRAR / RAR 7.23.
-</code>
-
-- [HORKimhab/CVE-2026-14191](https://github.com/HORKimhab/CVE-2026-14191)
 
 ### CVE-2026-14266 (2026-07-29)
 
@@ -3021,20 +3015,6 @@
 
 - [yoyosh/DarkReplica](https://github.com/yoyosh/DarkReplica)
 - [HORKimhab/CVE-2026-23631](https://github.com/HORKimhab/CVE-2026-23631)
-
-### CVE-2026-23697 (2026-07-07)
-
-<code>Vtiger CRM before 8.4.0 contains an authenticated file upload vulnerability that allows low-privileged users to achieve remote code execution by uploading a .phar file containing arbitrary PHP code through the Documents module, bypassing the extension denylist in config.inc.php which omits the .phar extension. The uploaded file is stored with its original .phar extension under the web-accessible storage directory, and a misconfigured .htaccess using Apache 2.2 syntax is silently ignored on Apache 2.4 deployments, allowing unauthenticated HTTP requests to directly execute the uploaded PHP payload.
-</code>
-
-- [JivaSecurity/VTIGER-CRM-RCE-CVE-2026-23697](https://github.com/JivaSecurity/VTIGER-CRM-RCE-CVE-2026-23697)
-
-### CVE-2026-23698 (2026-07-07)
-
-<code>Vtiger CRM through 8.4.0 contains an authenticated remote code execution vulnerability in the admin module import feature that allows administrator-level attackers to upload arbitrary PHP files by submitting a crafted zip archive through the ModuleManager import function, which extracts contents directly into the modules/ directory under the web root without validating file types beyond the manifest.xml descriptor. Attackers can place executable PHP files in the modules/ directory that become directly accessible via HTTP, bypassing Vtiger's authentication and authorization layer entirely since Apache resolves the path and invokes the PHP interpreter before the application routing layer is involved, resulting in a persistent web shell independent of the originating session.
-</code>
-
-- [JivaSecurity/VTIGER-CRM-RCE-CVE-2026-23698](https://github.com/JivaSecurity/VTIGER-CRM-RCE-CVE-2026-23698)
 
 ### CVE-2026-23744 (2026-01-16)
 
@@ -4519,13 +4499,6 @@
 
 - [sunynov/CVE-2026-39363](https://github.com/sunynov/CVE-2026-39363)
 
-### CVE-2026-39492 (2026-06-15)
-
-<code>Unauthenticated SQL Injection in WP Maps &lt;= 4.9.1 versions.
-</code>
-
-- [shinthink/CVE-2026-39492](https://github.com/shinthink/CVE-2026-39492)
-
 ### CVE-2026-39636 (2026-04-08)
 
 <code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in livemesh Livemesh Addons for Elementor addons-for-elementor allows Stored XSS.This issue affects Livemesh Addons for Elementor: from n/a through &lt;= 9.0.
@@ -5243,6 +5216,8 @@
 - [Bugel/cve-2026-43499-m3q-azf1](https://github.com/Bugel/cve-2026-43499-m3q-azf1)
 - [hmascs/KSuRoot](https://github.com/hmascs/KSuRoot)
 - [fusiondrive/CVE-2026-43499-ZFOLD4](https://github.com/fusiondrive/CVE-2026-43499-ZFOLD4)
+- [CamsShaft/IonStack-S22-cve-2026-43499](https://github.com/CamsShaft/IonStack-S22-cve-2026-43499)
+- [knowlily/cve-2026-43499-honor](https://github.com/knowlily/cve-2026-43499-honor)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -6119,7 +6094,6 @@
 <code>ColdFusion versions 2025.9, 2023.20 and earlier are affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could lead to arbitrary code execution in the context of the current user. Exploitation of this issue does not require user interaction. Scope is changed.
 </code>
 
-- [imbas007/CVE-2026-48282](https://github.com/imbas007/CVE-2026-48282)
 - [g0thamRabb1t/CVE-2026-48282-coldfusion-rds-detection](https://github.com/g0thamRabb1t/CVE-2026-48282-coldfusion-rds-detection)
 - [arpit-bansal15/cve-2026-48282-pentest-lab](https://github.com/arpit-bansal15/cve-2026-48282-pentest-lab)
 
@@ -6143,7 +6117,6 @@
 </code>
 
 - [Diznev/CVE-2026-48611-EXPLOIT](https://github.com/Diznev/CVE-2026-48611-EXPLOIT)
-- [wanmywan/CVE-2026-48611-phpBB](https://github.com/wanmywan/CVE-2026-48611-phpBB)
 
 ### CVE-2026-48710 (2026-05-26)
 
@@ -6873,6 +6846,9 @@
 
 ### CVE-2026-53582
 - [eev4n/CVE-2026-53582](https://github.com/eev4n/CVE-2026-53582)
+
+### CVE-2026-53587
+- [Alixploit22/CVE-2026-53587](https://github.com/Alixploit22/CVE-2026-53587)
 
 ### CVE-2026-53595 (2026-07-20)
 
@@ -7748,6 +7724,7 @@
 - [eh-amish/CVE-2026-64638-XSS-to-Shell-PoC](https://github.com/eh-amish/CVE-2026-64638-XSS-to-Shell-PoC)
 - [0xlipon/xss2shell](https://github.com/0xlipon/xss2shell)
 - [ZildanZ/CVE-2026-64638](https://github.com/ZildanZ/CVE-2026-64638)
+- [Alixploit22/CVEX2SHEL](https://github.com/Alixploit22/CVEX2SHEL)
 
 ### CVE-2026-64640 (2026-08-06)
 
@@ -8213,6 +8190,13 @@
 </code>
 
 - [Abdivasiyev2008/CVE-2026-71211-exploit](https://github.com/Abdivasiyev2008/CVE-2026-71211-exploit)
+
+### CVE-2026-71362 (2026-08-11)
+
+<code>Adobe Commerce is affected by an Incorrect Authorization vulnerability that could result in privilege escalation. An attacker could leverage this vulnerability to gain elevated access to sensitive resources. Exploitation of this issue does not require user interaction.
+</code>
+
+- [dinosn/cve-2026-71362-magento-lab](https://github.com/dinosn/cve-2026-71362-magento-lab)
 
 ### CVE-2026-71554 (2026-08-06)
 
@@ -15497,13 +15481,6 @@
 
 - [Nxploited/CVE-2025-49029](https://github.com/Nxploited/CVE-2025-49029)
 
-### CVE-2025-49071 (2025-06-17)
-
-<code>Unrestricted Upload of File with Dangerous Type vulnerability in NasaTheme Flozen flozen-theme allows Upload a Web Shell to a Web Server.This issue affects Flozen: from n/a through &lt; 1.5.1.
-</code>
-
-- [xShadow-Here/CVE-2025-49071](https://github.com/xShadow-Here/CVE-2025-49071)
-
 ### CVE-2025-49091 (2025-06-11)
 
 <code>KDE Konsole before 25.04.2 allows remote code execution in a certain scenario. It supports loading URLs from the scheme handlers such as a ssh:// or telnet:// or rlogin:// URL. This can be executed regardless of whether the ssh, telnet, or rlogin binary is available. In this mode, there is a code path where if that binary is not available, Konsole falls back to using /bin/bash for the given arguments (i.e., the URL) provided. This allows an attacker to execute arbitrary code.
@@ -18772,6 +18749,7 @@
 - [stoic-crawler/CVE-2025-64512](https://github.com/stoic-crawler/CVE-2025-64512)
 - [saadhassan77/CVE-2025-64512---pdfminer.six-Remote-Code-Execution-RCE-](https://github.com/saadhassan77/CVE-2025-64512---pdfminer.six-Remote-Code-Execution-RCE-)
 - [DodgeNefoli/CVE-2025-64512](https://github.com/DodgeNefoli/CVE-2025-64512)
+- [oguzylmzx/CVE-2025-64512-pdfminer-PoC](https://github.com/oguzylmzx/CVE-2025-64512-pdfminer-PoC)
 
 ### CVE-2025-64513 (2025-11-10)
 
@@ -33488,6 +33466,8 @@
 </code>
 
 - [tuo4n8/CVE-2023-22047](https://github.com/tuo4n8/CVE-2023-22047)
+- [0xTerror/CVE-2023-22047---Oracle-PeopleSoft-LFI](https://github.com/0xTerror/CVE-2023-22047---Oracle-PeopleSoft-LFI)
+- [0xTerror/CVE-2023-22047-Oracle-PeopleSoft-LFI](https://github.com/0xTerror/CVE-2023-22047-Oracle-PeopleSoft-LFI)
 
 ### CVE-2023-22074 (2023-10-17)
 
@@ -36920,7 +36900,6 @@
 - [cyberh3als/CVE-2023-36845-POC](https://github.com/cyberh3als/CVE-2023-36845-POC)
 - [P4x1s/ansible-cve-2023-36845](https://github.com/P4x1s/ansible-cve-2023-36845)
 - [Asbawy/Automation-for-Juniper-cve-2023-36845](https://github.com/Asbawy/Automation-for-Juniper-cve-2023-36845)
-- [jahithoque/Juniper-CVE-2023-36845-Mass-Hunting](https://github.com/jahithoque/Juniper-CVE-2023-36845-Mass-Hunting)
 - [cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845](https://github.com/cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845)
 - [CharonDefalt/Juniper-exploit-CVE-2023-36845](https://github.com/CharonDefalt/Juniper-exploit-CVE-2023-36845)
 - [iveresk/CVE-2023-36845-6-](https://github.com/iveresk/CVE-2023-36845-6-)
@@ -37161,13 +37140,6 @@
 </code>
 
 - [Phamchie/CVE-2023-37786](https://github.com/Phamchie/CVE-2023-37786)
-
-### CVE-2023-37790 (2023-11-08)
-
-<code>Jaspersoft Clarity PPM version 14.3.0.298 was discovered to contain an arbitrary file upload vulnerability via the Profile Picture Upload function.
-</code>
-
-- [kaizensecurity/CVE-2023-37790](https://github.com/kaizensecurity/CVE-2023-37790)
 
 ### CVE-2023-37800
 - [TraiLeR2/CVE-2023-37800](https://github.com/TraiLeR2/CVE-2023-37800)
@@ -41252,6 +41224,7 @@
 </code>
 
 - [MoisesTapia/cve-2022-3218](https://github.com/MoisesTapia/cve-2022-3218)
+- [mermehr/MouseServer-1.7.8.5-RCE](https://github.com/mermehr/MouseServer-1.7.8.5-RCE)
 
 ### CVE-2022-3294 (2023-03-01)
 
@@ -69378,6 +69351,7 @@
 - [Zanex360/cdt-samba-deploy](https://github.com/Zanex360/cdt-samba-deploy)
 - [Zanex360/cdt-vulnsamba-deploy](https://github.com/Zanex360/cdt-vulnsamba-deploy)
 - [Sadz1d/IS](https://github.com/Sadz1d/IS)
+- [YonLiud/CVE-2017-7494](https://github.com/YonLiud/CVE-2017-7494)
 
 ### CVE-2017-7504 (2017-05-19)
 
@@ -76321,7 +76295,7 @@
 - [r3vpwnx/CVE-2007-2447](https://github.com/r3vpwnx/CVE-2007-2447)
 - [Daviddoctor/Samba-CVE-2007-2447-Exploit-Username-Map-Script](https://github.com/Daviddoctor/Samba-CVE-2007-2447-Exploit-Username-Map-Script)
 - [Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-](https://github.com/Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-)
-- [harshiys/cybersecurity-home-lab-btp](https://github.com/harshiys/cybersecurity-home-lab-btp)
+- [harshiys/CVE-2007-2447-Exploitation-SIEM-Detection-Lab](https://github.com/harshiys/CVE-2007-2447-Exploitation-SIEM-Detection-Lab)
 - [DesmondHinds94/S22_The_Verification_Protocol](https://github.com/DesmondHinds94/S22_The_Verification_Protocol)
 - [EthicalHackingLabs/metasploitable2-exploitation-metasploit](https://github.com/EthicalHackingLabs/metasploitable2-exploitation-metasploit)
 - [Mboatella25/metasploitable-pentest-lab](https://github.com/Mboatella25/metasploitable-pentest-lab)
