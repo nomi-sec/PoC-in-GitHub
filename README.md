@@ -1338,6 +1338,13 @@
 - [George0Papasotiriou/CVE-2026-9090-Modbus-TCP-Write-to-Read-Only-Coils-via-Function-Code-Spoofing](https://github.com/George0Papasotiriou/CVE-2026-9090-Modbus-TCP-Write-to-Read-Only-Coils-via-Function-Code-Spoofing)
 - [Kimdir01/CVE-2026-9090-poc](https://github.com/Kimdir01/CVE-2026-9090-poc)
 
+### CVE-2026-9147 (2026-07-18)
+
+<code>uproot dynamically generates Python class source code from ROOT TStreamerInfo records in a file and compiles it at runtime. Some file-controlled streamer metadata fields (for example, streamer element names) are interpolated into the generated Python source without safe quoting via repr() or the !r format specifier. An attacker who can supply a crafted ROOT file can place Python expression-breaking content into a streamer metadata field. When uproot generates and invokes the corresponding reader method, the injected Python expression is evaluated in the context of the process opening the file, resulting in arbitrary Python code execution in applications that open or process attacker-controlled ROOT files with affected uproot code paths.
+</code>
+
+- [SaiTeja-Erukude/CVE-2026-9147-uproot-rce](https://github.com/SaiTeja-Erukude/CVE-2026-9147-uproot-rce)
+
 ### CVE-2026-9198 (2026-07-17)
 
 <code>IBM Langflow OSS 1.0.0 through 1.10.0 allows unauthenticated attackers to chain /api/v1/auto_login (mints SUPERUSER tokens to any network caller) with /api/v1/validate/code (executes user code via exec()) to achieve full RCE on default Langflow deployments
@@ -1443,6 +1450,7 @@
 </code>
 
 - [ChPratik/CVE-2026-9830](https://github.com/ChPratik/CVE-2026-9830)
+- [opaxial/CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830)
 
 ### CVE-2026-9833 (2026-07-20)
 
@@ -1825,13 +1833,6 @@
 </code>
 
 - [hakaioffsec/CVE-2026-12191](https://github.com/hakaioffsec/CVE-2026-12191)
-
-### CVE-2026-12277 (2026-07-07)
-
-<code>The Frontend File Manager Plugin WordPress plugin through 23.6 does not validate a file path derived from user input before deleting the referenced file, allowing unauthenticated users to delete arbitrary files on the server (such as wp-config.php) when guest upload mode is enabled. Deleting wp-config.php forces the site into its setup routine, which can be leveraged toward a full site takeover.
-</code>
-
-- [moritakaaz/CVE-2026-12277](https://github.com/moritakaaz/CVE-2026-12277)
 
 ### CVE-2026-12400 (2026-07-10)
 
@@ -2223,6 +2224,7 @@
 </code>
 
 - [Boreas37/CVE-2026-17544-PoC](https://github.com/Boreas37/CVE-2026-17544-PoC)
+- [r2qa/CVE-2026-17544](https://github.com/r2qa/CVE-2026-17544)
 
 ### CVE-2026-17566 (2026-07-31)
 
@@ -2477,10 +2479,10 @@
 <code>Gitea Docker image versions up to and including 1.26.2 use REVERSE_PROXY_TRUSTED_PROXIES=* by default, allowing any source IP to impersonate a user when reverse-proxy authentication headers such as X-WEBAUTH-USER are enabled.
 </code>
 
-- [szybnev/cve-2026-20896-gitea-poc](https://github.com/szybnev/cve-2026-20896-gitea-poc)
 - [XaocZenon/CVE-2026-20896](https://github.com/XaocZenon/CVE-2026-20896)
 - [Lite-os15/Lab-001-Gitea-CVE-2026-20896-](https://github.com/Lite-os15/Lab-001-Gitea-CVE-2026-20896-)
 - [EQSTLab/CVE-2026-20896](https://github.com/EQSTLab/CVE-2026-20896)
+- [judgedbykira/CVE-2026-20896-Gitea-Authentication-Bypass](https://github.com/judgedbykira/CVE-2026-20896-Gitea-Authentication-Bypass)
 
 ### CVE-2026-20980 (2026-02-04)
 
@@ -5111,7 +5113,6 @@
 - [1neptune/DirtyFrag](https://github.com/1neptune/DirtyFrag)
 - [t1ckprivate/CVE-2026-43284-Dirty-Frag](https://github.com/t1ckprivate/CVE-2026-43284-Dirty-Frag)
 - [g0thamRabb1t/CVE-2026-43284-dirtyfrag-detection](https://github.com/g0thamRabb1t/CVE-2026-43284-dirtyfrag-detection)
-- [lukeslp/redtail-ioc](https://github.com/lukeslp/redtail-ioc)
 - [armircetaj/tetragon-dirtyfrag](https://github.com/armircetaj/tetragon-dirtyfrag)
 - [nabhan-mohy/Dirty-Frag-Research-CVE-2026-43284-](https://github.com/nabhan-mohy/Dirty-Frag-Research-CVE-2026-43284-)
 - [RevyHub/CVE-2026-43284---DirtyFrag-Analysis-THM-](https://github.com/RevyHub/CVE-2026-43284---DirtyFrag-Analysis-THM-)
@@ -5649,7 +5650,6 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\neventpoll: fix ep_remove struct eventpoll / struct file UAF\n\nep_remove() (via ep_remove_file()) cleared file-&gt;f_ep under\nfile-&gt;f_lock but then kept using @file inside the critical section\n(is_file_epoll(), hlist_del_rcu() through the head, spin_unlock).\nA concurrent __fput() taking the eventpoll_release() fastpath in\nthat window observed the transient NULL, skipped\neventpoll_release_file() and ran to f_op-&gt;release / file_free().\n\nFor the epoll-watches-epoll case, f_op-&gt;release is\nep_eventpoll_release() -&gt; ep_clear_and_put() -&gt; ep_free(), which\nkfree()s the watched struct eventpoll. Its embedded -&gt;refs\nhlist_head is exactly where epi-&gt;fllink.pprev points, so the\nsubsequent hlist_del_rcu()'s &quot;*pprev = next&quot; scribbles into freed\nkmalloc-192 memory.\n\nIn addition, struct file is SLAB_TYPESAFE_BY_RCU, so the slot\nbacking @file could be recycled by alloc_empty_file() --\nreinitializing f_lock and f_ep -- while ep_remove() is still\nnominally inside that lock. The upshot is an attacker-controllable\nkmem_cache_free() against the wrong slab cache.\n\nPin @file via epi_fget() at the top of ep_remove() and gate the\ncritical section on the pin succeeding. With the pin held @file\ncannot reach refcount zero, which holds __fput() off and\ntransitively keeps the watched struct eventpoll alive across the\nhlist_del_rcu() and the f_lock use, closing both UAFs.\n\nIf the pin fails @file has already reached refcount zero and its\n__fput() is in flight. Because we bailed before clearing f_ep,\nthat path takes the eventpoll_release() slow path into\neventpoll_release_file() and blocks on ep-&gt;mtx until the waiter\nside's ep_clear_and_put() drops it. The bailed epi's share of\nep-&gt;refcount stays intact, so the trailing ep_refcount_dec_and_test()\nin ep_clear_and_put() cannot free the eventpoll out from under\neventpoll_release_file(); the orphaned epi is then cleaned up\nthere.\n\nA successful pin also proves we are not racing\neventpoll_release_file() on this epi, so drop the now-redundant\nre-check of epi-&gt;dying under f_lock. The cheap lockless\nREAD_ONCE(epi-&gt;dying) fast-path bailout stays.
 </code>
 
-- [SaithFranklinB/ScannerBadEpoll](https://github.com/SaithFranklinB/ScannerBadEpoll)
 - [Baba01hacker666/CVE-2026-46242](https://github.com/Baba01hacker666/CVE-2026-46242)
 
 ### CVE-2026-46243 (2026-06-01)
@@ -5943,6 +5943,20 @@
 
 - [learner202649/CVE-2026-47102-PoC](https://github.com/learner202649/CVE-2026-47102-PoC)
 
+### CVE-2026-47103 (2026-06-17)
+
+<code>Python StateMachine versions 3.0.0 before 3.2.0 contains a remote code execution vulnerability that allows attackers to execute arbitrary code by supplying malicious SCXML documents containing crafted `&lt;data expr=&quot;...&quot;&gt;` attributes evaluated unsafely. The SCXMLProcessor passes attacker-controlled expression strings through a call chain ending in Python's built-in eval() without sandboxing, enabling arbitrary code execution in the context of the hosting process.
+</code>
+
+- [SaiTeja-Erukude/CVE-2026-47103-python-statemachine-rce](https://github.com/SaiTeja-Erukude/CVE-2026-47103-python-statemachine-rce)
+
+### CVE-2026-47117 (2026-06-02)
+
+<code>OpenMed before 1.5.2 contains a remote code execution vulnerability in the PII privacy-filter model loading path. The privacy-filter dispatcher used broad substring matching on the user-supplied model_name parameter, allowing a value such as attacker/foo-privacy-filter-bar to route through a path that loads Hugging Face models with trust_remote_code=True. An unauthenticated attacker can supply a malicious model repository containing custom Transformers code via auto_map in config.json or tokenizer_config.json, which is imported and executed with the privileges of the OpenMed service process.
+</code>
+
+- [SaiTeja-Erukude/CVE-2026-47117-openmed-rce](https://github.com/SaiTeja-Erukude/CVE-2026-47117-openmed-rce)
+
 ### CVE-2026-47301 (2026-07-14)
 
 <code>Improper access control in Microsoft Configuration Manager allows an authorized attacker to elevate privileges over a network.
@@ -6094,7 +6108,6 @@
 <code>ColdFusion versions 2025.9, 2023.20 and earlier are affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could lead to arbitrary code execution in the context of the current user. Exploitation of this issue does not require user interaction. Scope is changed.
 </code>
 
-- [g0thamRabb1t/CVE-2026-48282-coldfusion-rds-detection](https://github.com/g0thamRabb1t/CVE-2026-48282-coldfusion-rds-detection)
 - [arpit-bansal15/cve-2026-48282-pentest-lab](https://github.com/arpit-bansal15/cve-2026-48282-pentest-lab)
 
 ### CVE-2026-48546 (2026-06-11)
@@ -6601,12 +6614,12 @@
 ### CVE-2026-50980
 - [bugresearch/CVE-2026-50980](https://github.com/bugresearch/CVE-2026-50980)
 
-### CVE-2026-51119 (2026-07-10)
+### CVE-2026-51031 (2026-07-20)
 
-<code>An issue in Invixium IXM WEB v.2.3.85.25 allows an attacker to escalate privileges via the /SystemUsers/CreateAppUser components
+<code>FlareSolverr before version 3.4.7 contains a server-side request forgery (SSRF) vulnerability in the /v1 API endpoint. This allows a remote attacker to obtain sensitive information
 </code>
 
-- [A17-ba/CVE-2026-51119](https://github.com/A17-ba/CVE-2026-51119)
+- [daemoncibsec/flar3ad](https://github.com/daemoncibsec/flar3ad)
 
 ### CVE-2026-51302
 - [extratao/CVE-2026-51302-PoC](https://github.com/extratao/CVE-2026-51302-PoC)
@@ -6782,7 +6795,6 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: x86: Fix shadow paging use-after-free due to unexpected role\n\nCommit 0cb2af2ea66ad (&quot;KVM: x86: Fix shadow paging use-after-free due\nto unexpected GFN&quot;) fixed a shadow paging mismatch between stored and\ncomputed GFNs; the bug could be triggered by changing a PDE mapping from\noutside the guest, and then deleting a memslot.  The rmap_remove()\ncall would miss entries created after the PDE change because the GFN\nof the leaf SPTE does not match the GFN of the struct kvm_mmu_page.\n\nA similar hole however remains if the modified PDE points to a non-leaf\npage.  In this case the gfn can be made to match, but the role does not\nmatch: the original large 2MB page creates a kvm_mmu_page with direct=1,\nwhile the new 4KB needs a kvm_mmu_page with direct=0.  However,\nkvm_mmu_get_child_sp() does not compare the role, and therefore reuses\nthe page.\n\nThe next step is installing a leaf (4KB) SPTE on the new path which\nrecords an rmap entry under the gfn resolved by the walk.  But when\nthat child is zapped its parent kvm_mmu_page has direct=1 and\nkvm_mmu_page_get_gfn() computes the gfn for the 4KB page as\nsp-&gt;gfn + index instead of using sp-&gt;shadowed_translation[] (or sp-&gt;gfns[]\nin older kernels).  It therefore fails to remove the recorded entry.\n\nWhen the memslot is dropped the shadow page is freed but the rmap\nentry survives, as in the scenario that was already fixed.  Code that\nlater walks that gfn (dirty logging, MMU notifier invalidation, and\nso on) dereferences an sptep that lies in the freed page, causing the\nuse-after-free.
 </code>
 
-- [0xBlackash/CVE-2026-53359](https://github.com/0xBlackash/CVE-2026-53359)
 - [Aoripus-LTD/Januscape-Hotfix](https://github.com/Aoripus-LTD/Januscape-Hotfix)
 - [chuzhongyun/CVE-2026-53359-Kernel-Fix](https://github.com/chuzhongyun/CVE-2026-53359-Kernel-Fix)
 - [suominen/januscape](https://github.com/suominen/januscape)
@@ -39551,7 +39563,7 @@
 </code>
 
 - [TrixSec/CVE-2023-48795](https://github.com/TrixSec/CVE-2023-48795)
-- [Dr0xharakiri/CVE-2023-48795](https://github.com/Dr0xharakiri/CVE-2023-48795)
+- [hav0cx0/CVE-2023-48795](https://github.com/hav0cx0/CVE-2023-48795)
 - [oseasfr/Scanner_CVE_OpenSSH](https://github.com/oseasfr/Scanner_CVE_OpenSSH)
 - [Mr-Whiskerss/SSH-Terrapin-Prefix-Truncation-Weakness-CVE-2023-48795-Checker](https://github.com/Mr-Whiskerss/SSH-Terrapin-Prefix-Truncation-Weakness-CVE-2023-48795-Checker)
 
@@ -48728,6 +48740,7 @@
 - [ropydev/CVE-2021-4034-PwnKit](https://github.com/ropydev/CVE-2021-4034-PwnKit)
 - [krleejihyeong/WHS4_CVE-2021-4034](https://github.com/krleejihyeong/WHS4_CVE-2021-4034)
 - [jeffmarlonmandela/CVE-2021-4034-PwnKit](https://github.com/jeffmarlonmandela/CVE-2021-4034-PwnKit)
+- [nicoibarburu/CVE-2021-4034](https://github.com/nicoibarburu/CVE-2021-4034)
 
 ### CVE-2021-4044 (2021-12-14)
 
@@ -50132,7 +50145,6 @@
 - [Nick-Yin12/106362522](https://github.com/Nick-Yin12/106362522)
 - [yaoxiaoangry3/Flangvik](https://github.com/yaoxiaoangry3/Flangvik)
 - [thau0x01/poc_proxylogon](https://github.com/thau0x01/poc_proxylogon)
-- [1342486672/Flangvik](https://github.com/1342486672/Flangvik)
 - [kh4sh3i/ProxyLogon](https://github.com/kh4sh3i/ProxyLogon)
 - [wysssadda/ExchangeSmash](https://github.com/wysssadda/ExchangeSmash)
 - [ssrsec/Microsoft-Exchange-RCE](https://github.com/ssrsec/Microsoft-Exchange-RCE)
