@@ -6579,6 +6579,7 @@
 - [g0thamRabb1t/CVE-2026-50656-rogueplanet-validation](https://github.com/g0thamRabb1t/CVE-2026-50656-rogueplanet-validation)
 - [0xBlackash/CVE-2026-50656](https://github.com/0xBlackash/CVE-2026-50656)
 - [HORKimhab/CVE-2026-50656](https://github.com/HORKimhab/CVE-2026-50656)
+- [eh-amish/Windows-Defender-Security-Auditor-CVE-2026-50656-](https://github.com/eh-amish/Windows-Defender-Security-Auditor-CVE-2026-50656-)
 
 ### CVE-2026-50657 (2026-07-14)
 
@@ -7177,7 +7178,6 @@
 <code>Joomla Extension - joomlack.fr - Unauthenticated file upload in Page Builder CK extension &lt; 3.6.0 - The Joomla extension Page Builder CK is vulnerable to an unauthenticated arbitrary file upload that allows uploading executable files and leads to full RCE.
 </code>
 
-- [Jenderal92/CVE-2026-56290](https://github.com/Jenderal92/CVE-2026-56290)
 - [ChiefYoru/CVE-2026-56290_PoC](https://github.com/ChiefYoru/CVE-2026-56290_PoC)
 
 ### CVE-2026-56291 (2026-07-09)
@@ -8259,7 +8259,7 @@
 <code>Uncontrolled resource consumption vulnerability in the JSON plugin of Apache Struts. When an application is configured to populate actions from a JSON request body, the plugin reads that body into memory without bounding how much it will accept, so a single request can exhaust the heap and deny service to other users. The plugin's configurable JSON input length limit does not bound this read. The JSON plugin is an optional component; applications that do not use it, or use it without enabling JSON request-body handling, are not affected.\n\nThis issue affects Apache Struts: from 2.1.8 through 2.3.37, from 2.5.0 through 2.5.33, from 6.0.0 through 6.10.0, from 7.0.0 through 7.2.1.\n\nUsers are recommended to upgrade to version 6.11.0 or 7.3.0, which fixes the issue.
 </code>
 
-- [CuteeCat/S2-072](https://github.com/CuteeCat/S2-072)
+- [CuteeCat/CVE-2026-73633](https://github.com/CuteeCat/CVE-2026-73633)
 
 ### CVE-2026-73673 (2026-08-14)
 
@@ -8963,7 +8963,6 @@
 </code>
 
 - [TeneBrae93/CVE-2025-3243](https://github.com/TeneBrae93/CVE-2025-3243)
-- [ladosudeste/CVE-2025-3243](https://github.com/ladosudeste/CVE-2025-3243)
 
 ### CVE-2025-3248 (2025-04-07)
 
@@ -9619,6 +9618,7 @@
 </code>
 
 - [jasonbernier/CVE-2025-5781](https://github.com/jasonbernier/CVE-2025-5781)
+- [iamrajkumar1995/cve-2025-5781_FreePBX](https://github.com/iamrajkumar1995/cve-2025-5781_FreePBX)
 
 ### CVE-2025-5815 (2025-06-13)
 
@@ -10823,6 +10823,13 @@
 </code>
 
 - [jFriedli/CVE-2025-11627](https://github.com/jFriedli/CVE-2025-11627)
+
+### CVE-2025-11740 (2025-11-01)
+
+<code>The wpForo Forum plugin for WordPress is vulnerable to SQL Injection via the Subscriptions Manager in all versions up to, and including, 2.4.9 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [Alixploit22/CVE-2025-11740](https://github.com/Alixploit22/CVE-2025-11740)
 
 ### CVE-2025-11749 (2025-11-05)
 
@@ -17112,7 +17119,6 @@
 - [AdityaBhatt3010/React2Shell-CVE-2025-55182](https://github.com/AdityaBhatt3010/React2Shell-CVE-2025-55182)
 - [gahoole77/gahoole77.github.io](https://github.com/gahoole77/gahoole77.github.io)
 - [yannisduvignau/react2shell-exploit](https://github.com/yannisduvignau/react2shell-exploit)
-- [en0f/CVE-2025-55182-poc-json](https://github.com/en0f/CVE-2025-55182-poc-json)
 - [momika233/CVE-2025-55182-bypass](https://github.com/momika233/CVE-2025-55182-bypass)
 - [mooowu/cve-2025-55182-poc](https://github.com/mooowu/cve-2025-55182-poc)
 - [Faithtiannn/CVE-2025-55182](https://github.com/Faithtiannn/CVE-2025-55182)
@@ -20292,7 +20298,7 @@
 - [Kai2er/CVE-2024-0044-EXP](https://github.com/Kai2er/CVE-2024-0044-EXP)
 - [hunter24x24/cve_2024_0044](https://github.com/hunter24x24/cve_2024_0044)
 - [sridhar-sec/EvilDroid](https://github.com/sridhar-sec/EvilDroid)
-- [l1ackerronin/CVE-2024-0044](https://github.com/l1ackerronin/CVE-2024-0044)
+- [hackerronin/CVE-2024-0044](https://github.com/hackerronin/CVE-2024-0044)
 - [MrW0l05zyn/cve-2024-0044](https://github.com/MrW0l05zyn/cve-2024-0044)
 - [canyie/CVE-2024-0044](https://github.com/canyie/CVE-2024-0044)
 - [k4ran909/cve_2024_0044](https://github.com/k4ran909/cve_2024_0044)
@@ -54334,7 +54340,7 @@
 - [wyu0hop/CVE-2020-0096](https://github.com/wyu0hop/CVE-2020-0096)
 - [liuyun201990/StrandHogg2](https://github.com/liuyun201990/StrandHogg2)
 - [tea9/CVE-2020-0096-StrandHogg2](https://github.com/tea9/CVE-2020-0096-StrandHogg2)
-- [l1ackerronin/CVE-2020-0096-strandhogg-exploit-p0c](https://github.com/l1ackerronin/CVE-2020-0096-strandhogg-exploit-p0c)
+- [hackerronin/CVE-2020-0096-strandhogg-exploit-p0c](https://github.com/hackerronin/CVE-2020-0096-strandhogg-exploit-p0c)
 
 ### CVE-2020-0108 (2020-08-11)
 
@@ -69444,11 +69450,13 @@
 - [BurnyMcDull/CVE-2017-7921](https://github.com/BurnyMcDull/CVE-2017-7921)
 - [MisakaMikato/cve-2017-7921-golang](https://github.com/MisakaMikato/cve-2017-7921-golang)
 - [chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
+- [blacksheepstudio/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/blacksheepstudio/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [201646613/CVE-2017-7921](https://github.com/201646613/CVE-2017-7921)
 - [inj3ction/CVE-2017-7921-EXP](https://github.com/inj3ction/CVE-2017-7921-EXP)
 - [krypton612/hikivision](https://github.com/krypton612/hikivision)
 - [K3ysTr0K3R/CVE-2017-7921-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-7921-EXPLOIT)
+- [blacksheepstudio/CVE-2017-7921-EXP](https://github.com/blacksheepstudio/CVE-2017-7921-EXP)
 - [AnonkiGroup/AnonHik](https://github.com/AnonkiGroup/AnonHik)
 - [b3pwn3d/CVE-2017-7921](https://github.com/b3pwn3d/CVE-2017-7921)
 - [kooroshsanaei/HikVision-CVE-2017-7921](https://github.com/kooroshsanaei/HikVision-CVE-2017-7921)
@@ -70337,7 +70345,7 @@
 - [giacomoferretti/janus-toolkit](https://github.com/giacomoferretti/janus-toolkit)
 - [tea9/CVE-2017-13156-Janus](https://github.com/tea9/CVE-2017-13156-Janus)
 - [M507/CVE-2017-13156](https://github.com/M507/CVE-2017-13156)
-- [l1ackerronin/Janus-Vulnerability-CVE-2017-13156-Exploit](https://github.com/l1ackerronin/Janus-Vulnerability-CVE-2017-13156-Exploit)
+- [hackerronin/Janus-Vulnerability-CVE-2017-13156-Exploit](https://github.com/hackerronin/Janus-Vulnerability-CVE-2017-13156-Exploit)
 - [nictjh/threatDemos](https://github.com/nictjh/threatDemos)
 
 ### CVE-2017-13208 (2018-01-12)
