@@ -873,13 +873,6 @@
 - [87achrafg-stack/CVE-2026-6279.py](https://github.com/87achrafg-stack/CVE-2026-6279.py)
 - [87achrafg-stack/CVE-2026-6279](https://github.com/87achrafg-stack/CVE-2026-6279)
 
-### CVE-2026-6300 (2026-04-15)
-
-<code>Use after free in CSS in Google Chrome prior to 147.0.7727.101 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)
-</code>
-
-- [notthemystery/CVE-2026-6300-PoC](https://github.com/notthemystery/CVE-2026-6300-PoC)
-
 ### CVE-2026-6330 (2026-06-25)
 
 <code>The ML-KEM ARM64 NEON ciphertext comparison only compares half of the input, breaking the Fujisaki-Okamoto transform's implicit rejection and weakening IND-CCA2 security on that code path. The constant-time comparison effectively ignored part of the re-encrypted ciphertext, so a decapsulating party could fail to detect a manipulated ciphertext and proceed without the standard's required implicit rejection.
@@ -931,6 +924,13 @@
 </code>
 
 - [danilo-dellorco/CVE-2026-6815](https://github.com/danilo-dellorco/CVE-2026-6815)
+
+### CVE-2026-6837 (2026-08-04)
+
+<code>A post-authentication command injection vulnerability in the &quot;export-cgi&quot; CGI program in Zyxel WAX650S firmware versions through 7.10(ABRM.4)C0 could allow an authenticated attacker with administrator privileges to execute OS commands on an affected device.
+</code>
+
+- [minanagehsalalma/CVE-2026-6837-zyxel-export-cgi-command-injection](https://github.com/minanagehsalalma/CVE-2026-6837-zyxel-export-cgi-command-injection)
 
 ### CVE-2026-6857 (2026-04-22)
 
@@ -1206,6 +1206,13 @@
 - [Y5neKO/CVE-2026-8461-EXP](https://github.com/Y5neKO/CVE-2026-8461-EXP)
 - [HORKimhab/CVE-2026-8461](https://github.com/HORKimhab/CVE-2026-8461)
 - [0xBlackash/CVE-2026-8461](https://github.com/0xBlackash/CVE-2026-8461)
+
+### CVE-2026-8508 (2026-08-04)
+
+<code>An improper authentication vulnerability in the &quot;social_login.cgi&quot; CGI program in Zyxel WAX650S firmware versions through 7.10(ABRM.4)C0 could allow an attacker on the WLAN to bypass captive portal authentication.
+</code>
+
+- [minanagehsalalma/zyxel-social-login-bypass-cve-2026-8508](https://github.com/minanagehsalalma/zyxel-social-login-bypass-cve-2026-8508)
 
 ### CVE-2026-8697 (2026-05-28)
 
@@ -4195,13 +4202,6 @@
 
 - [sec-zone/CVE-2026-36213](https://github.com/sec-zone/CVE-2026-36213)
 
-### CVE-2026-36214 (2026-07-14)
-
-<code>osTicket versions from 1.10 up to 1.17.7 and from 1.18.0 up to 1.18.3 are vulnerable to a stored XSS due to a vulnerable Bootstrap Tooltip component and insufficient HTML sanitization, allowing remote attackers to execute arbitrary JavaScript in Agent or Admin sessions.
-</code>
-
-- [WesWrench/CVE-2026-36214](https://github.com/WesWrench/CVE-2026-36214)
-
 ### CVE-2026-36226 (2026-05-22)
 
 <code>Cross Site Scripting vulnerability in Advantech WebAccess/SCADA 8.0-2015.08.16 allows a remote attacker to obtain sensitive information via the decryption field in the Create New Project User component
@@ -4570,13 +4570,6 @@
 </code>
 
 - [Skorpion96/CVE-2026-40000](https://github.com/Skorpion96/CVE-2026-40000)
-
-### CVE-2026-40047 (2026-07-06)
-
-<code>Improper Neutralization of Argument Delimiters in a Command ('Argument Injection') vulnerability in Apache Camel Docling component.\n\nThe camel-docling component invokes the external `docling` command-line tool by assembling an argument list in DoclingProducer and executing it through java.lang.ProcessBuilder. Custom CLI arguments supplied through the `CamelDoclingCustomArguments` exchange header (a List&lt;String&gt;) were appended to that argument list with insufficient validation: the original implementation relied on a denylist of disallowed flags and only rejected path values that contained a literal `../` sequence. As a result, a Camel route that forwards externally-influenced data into the `CamelDoclingCustomArguments` header (or into the path-bearing headers used to build the invocation) could cause the producer to pass unrecognized or unintended `docling` CLI flags to the subprocess, and could supply path-like argument values that resolved outside the intended directory through traversal sequences not caught by the literal `../` check. Because Camel itself builds the `docling` invocation from these values, the component is responsible for constraining them, and the weak validation allowed CLI-argument injection and directory traversal in the arguments passed to the external tool. The invocation uses the list-based form of ProcessBuilder, so a shell does not interpret the argument values; OS command injection through shell metacharacters was not possible, and the metacharacter rejection added by the fix is defense-in-depth.\nThis issue affects Apache Camel: from 4.15.0 before 4.18.3.\n\nUsers are recommended to upgrade to a release that contains the CAMEL-23212 fix. On the mainline the fix is included from Apache Camel 4.19.0 (and later releases such as 4.20.0). For users on the 4.18.x LTS releases stream, upgrade to 4.18.3. The fix replaces the denylist with a strict allowlist of recognized `docling` CLI flags (rejecting any unrecognized flag, and rejecting producer-managed flags such as the output-directory flags), defensively rejects shell metacharacters in argument values, and normalizes path-like values with Path.normalize() before validating them so that traversal sequences which bypass a literal `../` check are detected. As defence in depth, route authors should avoid mapping untrusted message content into the `CamelDoclingCustomArguments` header and the path-bearing headers, and should strip Camel-internal headers from messages that arrive from untrusted producers.
-</code>
-
-- [oscerd/CVE-2026-40047](https://github.com/oscerd/CVE-2026-40047)
 
 ### CVE-2026-40048 (2026-04-27)
 
@@ -5136,7 +5129,6 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nrtmutex: Use waiter::task instead of current in remove_waiter()\n\nremove_waiter() is used by the slowlock paths, but it is also used for\nproxy-lock rollback in rt_mutex_start_proxy_lock() when invoked from\nfutex_requeue().\n\nIn the latter case waiter::task is not current, but remove_waiter()\noperates on current for the dequeue operation. That results in several\nproblems:\n\n  1) the rbtree dequeue happens without waiter::task::pi_lock being held\n\n  2) the waiter task's pi_blocked_on state is not cleared, which leaves a\n     dangling pointer primed for UAF around.\n\n  3) rt_mutex_adjust_prio_chain() operates on the wrong top priority waiter\n     task\n\nUse waiter::task instead of current in all related operations in\nremove_waiter() to cure those problems.\n\n[ tglx: Fixup rt_mutex_adjust_prio_chain(), add a comment and amend the\n  </code>
 
 - [MobiusM/CVE-2026-43499](https://github.com/MobiusM/CVE-2026-43499)
-- [HORKimhab/CVE-2026-43499](https://github.com/HORKimhab/CVE-2026-43499)
 - [0xBlackash/CVE-2026-43499](https://github.com/0xBlackash/CVE-2026-43499)
 - [tc3650/CVE-2026-43499-armv7](https://github.com/tc3650/CVE-2026-43499-armv7)
 - [suominen/ghostlock](https://github.com/suominen/ghostlock)
@@ -5218,6 +5210,7 @@
 - [fusiondrive/CVE-2026-43499-ZFOLD4](https://github.com/fusiondrive/CVE-2026-43499-ZFOLD4)
 - [CamsShaft/IonStack-S22-cve-2026-43499](https://github.com/CamsShaft/IonStack-S22-cve-2026-43499)
 - [knowlily/cve-2026-43499-honor](https://github.com/knowlily/cve-2026-43499-honor)
+- [NanoTurtle1145/root-my-s9280](https://github.com/NanoTurtle1145/root-my-s9280)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -6510,13 +6503,6 @@
 
 - [chaitanyagarware/CVE-2026-50181](https://github.com/chaitanyagarware/CVE-2026-50181)
 
-### CVE-2026-50229 (2026-06-29)
-
-<code>Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in the number guess example for Apache Tomcat.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected.\n\nUsers are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue.
-</code>
-
-- [zero-trace7/CVE-2026-50229](https://github.com/zero-trace7/CVE-2026-50229)
-
 ### CVE-2026-50338 (2026-07-14)
 
 <code>Improper authentication in Azure Spring Apps allows an authorized attacker to elevate privileges over a network.
@@ -7735,6 +7721,7 @@
 - [0xlipon/xss2shell](https://github.com/0xlipon/xss2shell)
 - [ZildanZ/CVE-2026-64638](https://github.com/ZildanZ/CVE-2026-64638)
 - [Alixploit22/CVEX2SHEL](https://github.com/Alixploit22/CVEX2SHEL)
+- [SanaullahAmanullah/xss2shell-check](https://github.com/SanaullahAmanullah/xss2shell-check)
 
 ### CVE-2026-64640 (2026-08-06)
 
@@ -8239,6 +8226,7 @@
 - [4minx/CVE-2026-72898](https://github.com/4minx/CVE-2026-72898)
 - [ubitquity/Metabase-Setup-Endpoint-SQLi-Fix](https://github.com/ubitquity/Metabase-Setup-Endpoint-SQLi-Fix)
 - [VuxNx/CVE-2026-72898](https://github.com/VuxNx/CVE-2026-72898)
+- [Franc-Zar/CVE-2026-72898-safe-detection](https://github.com/Franc-Zar/CVE-2026-72898-safe-detection)
 
 ### CVE-2026-73034 (2026-08-11)
 
@@ -8274,6 +8262,7 @@
 </code>
 
 - [Hunt-Benito/bring-your-own-key-cve-2026-73678-unauthenticated-rce-in-mindsdb-cowork](https://github.com/Hunt-Benito/bring-your-own-key-cve-2026-73678-unauthenticated-rce-in-mindsdb-cowork)
+- [Boreas37/CVE-2026-73678-PoC](https://github.com/Boreas37/CVE-2026-73678-PoC)
 
 ### CVE-2026-73847 (2026-08-14)
 
@@ -16487,7 +16476,6 @@
 </code>
 
 - [synacktiv/Livepyre](https://github.com/synacktiv/Livepyre)
-- [flame-11/CVE-2025-54068-livewire](https://github.com/flame-11/CVE-2025-54068-livewire)
 - [haxorstars/CVE-2025-54068](https://github.com/haxorstars/CVE-2025-54068)
 - [HelgeSverre/livewire-honeypot](https://github.com/HelgeSverre/livewire-honeypot)
 - [luisdalmolin/recon-test-livewire](https://github.com/luisdalmolin/recon-test-livewire)
@@ -17210,6 +17198,7 @@
 - [dotnetguard/CVE-2025-55182-Exploit](https://github.com/dotnetguard/CVE-2025-55182-Exploit)
 - [aisha-jimoh/cve-2025-55182-react2shell-analysis](https://github.com/aisha-jimoh/cve-2025-55182-react2shell-analysis)
 - [balochkainat160-cyber/cs50-cybersecurity](https://github.com/balochkainat160-cyber/cs50-cybersecurity)
+- [kevin9480/Security_incident_report](https://github.com/kevin9480/Security_incident_report)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -48034,7 +48023,6 @@
 - [whoami-chmod777/CVE-2021-1675---PrintNightmare-LPE-PowerShell-](https://github.com/whoami-chmod777/CVE-2021-1675---PrintNightmare-LPE-PowerShell-)
 - [0xSs0rZ/Windows_Exploit](https://github.com/0xSs0rZ/Windows_Exploit)
 - [Sp4ceDogy/NPE-CS-V-CVE-2021-1675](https://github.com/Sp4ceDogy/NPE-CS-V-CVE-2021-1675)
-- [CameraShutterBug/PrintNightmare](https://github.com/CameraShutterBug/PrintNightmare)
 - [DLL00P/CVE-2021-1675](https://github.com/DLL00P/CVE-2021-1675)
 - [ccordeiro/CVE-2021-1675](https://github.com/ccordeiro/CVE-2021-1675)
 
@@ -48675,6 +48663,7 @@
 <code>A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
 </code>
 
+- [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [arthepsy/CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034)
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
@@ -69450,7 +69439,6 @@
 - [BurnyMcDull/CVE-2017-7921](https://github.com/BurnyMcDull/CVE-2017-7921)
 - [MisakaMikato/cve-2017-7921-golang](https://github.com/MisakaMikato/cve-2017-7921-golang)
 - [chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
-- [blacksheepstudio/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/blacksheepstudio/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [201646613/CVE-2017-7921](https://github.com/201646613/CVE-2017-7921)
 - [inj3ction/CVE-2017-7921-EXP](https://github.com/inj3ction/CVE-2017-7921-EXP)
