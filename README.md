@@ -283,7 +283,6 @@
 <code>Heap buffer overflow in PostgreSQL pgcrypto allows a ciphertext provider to execute arbitrary code as the operating system user running the database.  Versions before PostgreSQL 18.2, 17.8, 16.12, 15.16, and 14.21 are affected.
 </code>
 
-- [var77/CVE-2026-2005](https://github.com/var77/CVE-2026-2005)
 - [open-flaw/CVE-2026-2005](https://github.com/open-flaw/CVE-2026-2005)
 
 ### CVE-2026-2020 (2026-03-07)
@@ -2254,6 +2253,13 @@
 
 - [4D4J/objdump-Out-Of-Bounds-write](https://github.com/4D4J/objdump-Out-Of-Bounds-write)
 
+### CVE-2026-18366 (2026-08-12)
+
+<code>The Events Manager  WordPress plugin before 7.4.1 does not properly scope its capability mapping, discarding the access control decisions WordPress already made for unrelated privileged actions, which allows unauthenticated users to change the password of, escalate to Administrator, or delete any account whose user ID happens to match the ID of one of the Events Manager  WordPress plugin before 7.4.1's own posts.
+</code>
+
+- [Nxploited/CVE-2026-18366](https://github.com/Nxploited/CVE-2026-18366)
+
 ### CVE-2026-18556 (2026-08-01)
 
 <code>Authentication bypass using an alternate path or channel vulnerability in N-able N-central allows Authentication Bypass.\n\nThis issue affects N-central: through 2026.1.
@@ -3200,13 +3206,6 @@
 
 - [HORKimhab/CVE-2026-25177](https://github.com/HORKimhab/CVE-2026-25177)
 
-### CVE-2026-25194 (2026-08-11)
-
-<code>Out-of-bounds write in the firmware for the Intel(R) Slim Bootloader may allow a denial of service. System software adversary with a privileged user combined with a low complexity attack may enable denial of service. This result may potentially occur via local access when attack requirements are present without special internal knowledge and requires no user interaction. The potential vulnerability may impact the confidentiality (none), integrity (none) and availability (low) of the vulnerable system, resulting in subsequent system confidentiality (none), integrity (none) and availability (none) impacts.
-</code>
-
-- [DexSemon/CVE-2026-25194](https://github.com/DexSemon/CVE-2026-25194)
-
 ### CVE-2026-25197 (2026-04-03)
 
 <code>A specific endpoint allows authenticated users to pivot to other user profiles by modifying the id number in the API call.
@@ -3315,6 +3314,7 @@
 
 - [Cyb3rWitch3r/CVE-2026-26119](https://github.com/Cyb3rWitch3r/CVE-2026-26119)
 - [r3vpwnx/CVE-2026-26119](https://github.com/r3vpwnx/CVE-2026-26119)
+- [abdelaaziz0/WACJack](https://github.com/abdelaaziz0/WACJack)
 
 ### CVE-2026-26179 (2026-04-14)
 
@@ -3372,6 +3372,7 @@
 <code>Ghost is a Node.js content management system. Versions 3.24.0 through 6.19.0 allow unauthenticated attackers to perform arbitrary reads from the database. This issue has been fixed in version 6.19.1.
 </code>
 
+- [vognik/CVE-2026-26980](https://github.com/vognik/CVE-2026-26980)
 - [Kulik-Labs-Development/Ghost-CMS-Code-Injection-Audit-CVE-2026-26980](https://github.com/Kulik-Labs-Development/Ghost-CMS-Code-Injection-Audit-CVE-2026-26980)
 - [EQSTLab/CVE-2026-26980](https://github.com/EQSTLab/CVE-2026-26980)
 - [gagaltotal/CVE-2026-26980-Ghost-CMS-Api](https://github.com/gagaltotal/CVE-2026-26980-Ghost-CMS-Api)
@@ -3411,13 +3412,6 @@
 </code>
 
 - [nabhan-mohy/cve-2026-27483-lab](https://github.com/nabhan-mohy/cve-2026-27483-lab)
-
-### CVE-2026-27495 (2026-02-25)
-
-<code>n8n is an open source workflow automation platform. Prior to versions 2.10.1, 2.9.3, and 1.123.22, an authenticated user with permission to create or modify workflows could exploit a vulnerability in the JavaScript Task Runner sandbox to execute arbitrary code outside the sandbox boundary. On instances using internal Task Runners (default runner mode), this could result in full compromise of the n8n host. On instances using external Task Runners, the attacker might gain access to or impact other task executed on the Task Runner. Task Runners must be enabled using `N8N_RUNNERS_ENABLED=true`. The issue has been fixed in n8n versions 2.10.1, 2.9.3, and 1.123.22. Users should upgrade to one of these versions or later to remediate the vulnerability. If upgrading is not immediately possible, administrators should consider the following temporary mitigations. Limit workflow creation and editing permissions to fully trusted users only, and/or use external runner mode (`N8N_RUNNERS_MODE=external`) to limit the blast radius. These workarounds do not fully remediate the risk and should only be used as short-term mitigation measures.
-</code>
-
-- [DexSemon/CVE-2026-27495](https://github.com/DexSemon/CVE-2026-27495)
 
 ### CVE-2026-27577 (2026-02-25)
 
@@ -4008,7 +4002,6 @@
 - [LAT-06/CVE-2026-34197](https://github.com/LAT-06/CVE-2026-34197)
 - [hnytgl/CVE-2026-34197](https://github.com/hnytgl/CVE-2026-34197)
 - [asdasddqwdq29-a11y/CVE-2026-34197](https://github.com/asdasddqwdq29-a11y/CVE-2026-34197)
-- [pssec-io/CVE-2026-34197](https://github.com/pssec-io/CVE-2026-34197)
 - [K3ysTr0K3R/CVE-2026-34197](https://github.com/K3ysTr0K3R/CVE-2026-34197)
 
 ### CVE-2026-34207 (2026-05-22)
@@ -4570,13 +4563,6 @@
 </code>
 
 - [Skorpion96/CVE-2026-40000](https://github.com/Skorpion96/CVE-2026-40000)
-
-### CVE-2026-40048 (2026-04-27)
-
-<code>The Camel-PQC FileBasedKeyLifecycleManager class deserializes the contents of `&lt;keyId&gt;.key` files in the configured key directory using java.io.ObjectInputStream without applying any ObjectInputFilter or class-loading restrictions. The cast to `java.security.KeyPair` is evaluated only after `readObject()` has already returned, so any `readObject()` side effects in the deserialized object run before the type check. An attacker who can write to the key directory used by a Camel application — for example through a path traversal into the directory, misconfigured filesystem permissions on the volume where keys are stored, a compromised key provisioning pipeline, or a symlink attack — can place a crafted serialized Java object that, when deserialized during normal key lifecycle operations, results in arbitrary code execution in the context of the application.\n\nThis issue affects Apache Camel: from 4.19.0 before 4.20.0, from 4.18.0 before 4.18.2.\n\nUsers are recommended to upgrade to version 4.20.0, which fixes the issue by replacing java.io.ObjectInputStream-based key and metadata storage with standard PKCS#8 (private key) / X.509 SubjectPublicKeyInfo (public key) Base64 JSON encoding. For users on the 4.18.x LTS releases stream, upgrade to 4.18.2.
-</code>
-
-- [oscerd/CVE-2026-40048](https://github.com/oscerd/CVE-2026-40048)
 
 ### CVE-2026-40072 (2026-04-09)
 
@@ -5430,13 +5416,6 @@
 </code>
 
 - [BiiTts/CVE-2026-44789-n8n-PrototypePollution-RCE](https://github.com/BiiTts/CVE-2026-44789-n8n-PrototypePollution-RCE)
-
-### CVE-2026-44825 (2026-06-01)
-
-<code>Hardcoded credentials in the Basic Authentication setup tool (bin/solr auth enable) in Apache Solr versions 9.4.0 through 9.10.1 and 10.0.0 allows a remote attacker to gain full administrative access to the cluster via publicly known default credentials installed silently alongside the user-specified account. \n\nAs an immediate workaround without upgrading, delete the template users (superadmin, admin, search, index) from security.json or change their passwords.\nThe future, not yet released, versions 9.11.0 and 10.1.0 will not be vulnerable, and it will be enough to upgrade to solve the issue.\n\nNot affected:\n  *  Clusters where bin/solr auth enable was not used to bootstrap BasicAuth\n  *  Clusters where template users have been assigned strong passwords after bootstrap
-</code>
-
-- [gagaltotal/CVE-2026-44825-Apache-Solr-Scanner](https://github.com/gagaltotal/CVE-2026-44825-Apache-Solr-Scanner)
 
 ### CVE-2026-44881 (2026-05-28)
 
@@ -6780,8 +6759,6 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: x86: Fix shadow paging use-after-free due to unexpected role\n\nCommit 0cb2af2ea66ad (&quot;KVM: x86: Fix shadow paging use-after-free due\nto unexpected GFN&quot;) fixed a shadow paging mismatch between stored and\ncomputed GFNs; the bug could be triggered by changing a PDE mapping from\noutside the guest, and then deleting a memslot.  The rmap_remove()\ncall would miss entries created after the PDE change because the GFN\nof the leaf SPTE does not match the GFN of the struct kvm_mmu_page.\n\nA similar hole however remains if the modified PDE points to a non-leaf\npage.  In this case the gfn can be made to match, but the role does not\nmatch: the original large 2MB page creates a kvm_mmu_page with direct=1,\nwhile the new 4KB needs a kvm_mmu_page with direct=0.  However,\nkvm_mmu_get_child_sp() does not compare the role, and therefore reuses\nthe page.\n\nThe next step is installing a leaf (4KB) SPTE on the new path which\nrecords an rmap entry under the gfn resolved by the walk.  But when\nthat child is zapped its parent kvm_mmu_page has direct=1 and\nkvm_mmu_page_get_gfn() computes the gfn for the 4KB page as\nsp-&gt;gfn + index instead of using sp-&gt;shadowed_translation[] (or sp-&gt;gfns[]\nin older kernels).  It therefore fails to remove the recorded entry.\n\nWhen the memslot is dropped the shadow page is freed but the rmap\nentry survives, as in the scenario that was already fixed.  Code that\nlater walks that gfn (dirty logging, MMU notifier invalidation, and\nso on) dereferences an sptep that lies in the freed page, causing the\nuse-after-free.
 </code>
 
-- [Aoripus-LTD/Januscape-Hotfix](https://github.com/Aoripus-LTD/Januscape-Hotfix)
-- [chuzhongyun/CVE-2026-53359-Kernel-Fix](https://github.com/chuzhongyun/CVE-2026-53359-Kernel-Fix)
 - [suominen/januscape](https://github.com/suominen/januscape)
 - [xj2268-TA/KVM-Januscape](https://github.com/xj2268-TA/KVM-Januscape)
 - [ndouglas-cloudsmith/CVE-2026-53359](https://github.com/ndouglas-cloudsmith/CVE-2026-53359)
@@ -8181,6 +8158,34 @@
 
 - [Hunt-Benito/one-multiply-too-many-cve-2026-70638-llama-cpp-android-jni-integer-overflow](https://github.com/Hunt-Benito/one-multiply-too-many-cve-2026-70638-llama-cpp-android-jni-integer-overflow)
 
+### CVE-2026-71203 (2026-08-05)
+
+<code>changedetection.io's REST API resources are protected by an @auth.check_token decorator validating the caller's x-api-key header, except the Spec resource registered at /api/v1/full-spec (changedetectionio/api/Spec.py), whose get method carries neither @auth.check_token nor @validate_openapi_request.
+</code>
+
+- [Nel-droid/CVE-2026-71203-PoC](https://github.com/Nel-droid/CVE-2026-71203-PoC)
+
+### CVE-2026-71204 (2026-08-05)
+
+<code>changedetection.io's /settings save handler builds an update dict from form.data['application'] and blind-merges it into the stored application settings via .update.
+</code>
+
+- [Nel-droid/CVE-2026-71204-PoC](https://github.com/Nel-droid/CVE-2026-71204-PoC)
+
+### CVE-2026-71205 (2026-08-05)
+
+<code>changedetection.io's /login route checks the submitted password against a single PBKDF2-HMAC-SHA256 hash with no per-IP or per-session rate limiting, failed-attempt counter, or lockout (no rate-limiting library is present in requirements.txt).
+</code>
+
+- [Nel-droid/CVE-2026-71205-PoC](https://github.com/Nel-droid/CVE-2026-71205-PoC)
+
+### CVE-2026-71206 (2026-08-05)
+
+<code>Shiori's CheckToken function (internal/domains/auth.go) validates only the JWT's HMAC signature and returns the embedded claims.Account object unmodified, never re-fetching the account from the database. No session store or token-revocation mechanism exists in the codebase.
+</code>
+
+- [Nel-droid/CVE-2026-71206-PoC](https://github.com/Nel-droid/CVE-2026-71206-PoC)
+
 ### CVE-2026-71211 (2026-08-05)
 
 <code>MLflow's AI Gateway accepts an auth_config.api_base value when creating a gateway secret (mlflow/server/handlers.py, _create_gateway_secret) with no validation of scheme, host, or IP range; the value is stored verbatim. The gateway proxy endpoint (mlflow/server/gateway_api.py, raw_proxy) subsequently issues an HTTP request to that stored api_base plus a caller-supplied path and returns the full response body.
@@ -8215,6 +8220,13 @@
 </code>
 
 - [abdugafforov-bobur/CVE-2026-72550-poc](https://github.com/abdugafforov-bobur/CVE-2026-72550-poc)
+
+### CVE-2026-72585 (2026-08-10)
+
+<code>An authorization bypass vulnerability in Grafana through 13.2.0 allows an Editor-role user to delete protected contact points (receivers) without the required alert.notifications.receivers.protected:write permission.
+</code>
+
+- [Nel-droid/CVE-2026-72585-PoC](https://github.com/Nel-droid/CVE-2026-72585-PoC)
 
 ### CVE-2026-72898 (2026-08-10)
 
@@ -15584,7 +15596,7 @@
 - [V0idW1re/HTB-Pterodactyl-Writeup](https://github.com/V0idW1re/HTB-Pterodactyl-Writeup)
 - [karimelsheikh1/HTB-Pterodactyl-Writeup](https://github.com/karimelsheikh1/HTB-Pterodactyl-Writeup)
 - [yurahshell/CVE-2025-49132](https://github.com/yurahshell/CVE-2025-49132)
-- [vimmwy/CVE-2025-49132](https://github.com/vimmwy/CVE-2025-49132)
+- [aleewyy/CVE-2025-49132](https://github.com/aleewyy/CVE-2025-49132)
 
 ### CVE-2025-49144 (2025-06-23)
 
