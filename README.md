@@ -2026,13 +2026,6 @@
 - [MadExploits/CVE-2026-14483](https://github.com/MadExploits/CVE-2026-14483)
 - [0xdak/CVE-2026-14483_exploit](https://github.com/0xdak/CVE-2026-14483_exploit)
 
-### CVE-2026-14762 (2026-07-05)
-
-<code>A vulnerability was detected in code-projects Hotel and Tourism Reservation 1.0. The impacted element is an unknown function of the file /admin/rooms.php of the component Room Management Page. The manipulation of the argument delete results in sql injection. It is possible to launch the attack remotely. The exploit is now public and may be used.
-</code>
-
-- [tc4dy/CVE-2026-14762-PoC-Exploit](https://github.com/tc4dy/CVE-2026-14762-PoC-Exploit)
-
 ### CVE-2026-14802 (2026-07-06)
 
 <code>A vulnerability was detected in react create-react-app up to 5.0.1 on macOS. This affects the function startBrowserProcess of the file openBrowser.js of the component react-dev-utils. Performing a manipulation results in os command injection. Remote exploitation of the attack is possible. The exploit is now public and may be used. The project was informed of the problem early through an issue report but has not responded yet.
@@ -3673,6 +3666,9 @@
 
 - [Sch8ill/CVE-2026-31309](https://github.com/Sch8ill/CVE-2026-31309)
 
+### CVE-2026-31367
+- [hereticL1nk/EITS-Portal-Exploit-CVE-2026-31367-PoC](https://github.com/hereticL1nk/EITS-Portal-Exploit-CVE-2026-31367-PoC)
+
 ### CVE-2026-31431 (2026-04-22)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: algif_aead - Revert to operating out-of-place\n\nThis mostly reverts commit 72548b093ee3 except for the copying of\nthe associated data.\n\nThere is no benefit in operating in-place in algif_aead since the\nsource and destination come from different mappings.  Get rid of\nall the complexity added for in-place operation and just copy the\nAD directly.
@@ -3854,7 +3850,6 @@
 
 - [EQSTLab/CVE-2026-33017](https://github.com/EQSTLab/CVE-2026-33017)
 - [r3nsi15/CVE-2026-33017-langflow-rce](https://github.com/r3nsi15/CVE-2026-33017-langflow-rce)
-- [Usman0220/CVE-2026-33017-Langflow-RCE](https://github.com/Usman0220/CVE-2026-33017-Langflow-RCE)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-33017-Langflow-RCE](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-33017-Langflow-RCE)
 - [CerberusMrXi/Langflow-cve-2026-33017-exploit](https://github.com/CerberusMrXi/Langflow-cve-2026-33017-exploit)
 - [Dynamo2k1/CVE-2026-33017](https://github.com/Dynamo2k1/CVE-2026-33017)
@@ -4603,13 +4598,6 @@
 - [piffd0s/ntoskrnl-metadata](https://github.com/piffd0s/ntoskrnl-metadata)
 - [0xBlackash/CVE-2026-40369](https://github.com/0xBlackash/CVE-2026-40369)
 - [CCELEND/CVE-2026-40369](https://github.com/CCELEND/CVE-2026-40369)
-
-### CVE-2026-40453 (2026-04-27)
-
-<code>The fix for CVE-2025-27636 added setLowerCase(true) to HttpHeaderFilterStrategy so that case-variant header names such as 'CAmelExecCommandExecutable' are filtered out alongside 'CamelExecCommandExecutable'. The same setLowerCase(true) call was not applied to five non-HTTP HeaderFilterStrategy implementations: JmsHeaderFilterStrategy and ClassicJmsHeaderFilterStrategy in camel-jms, SjmsHeaderFilterStrategy in camel-sjms, CoAPHeaderFilterStrategy in camel-coap, and GooglePubsubHeaderFilterStrategy in camel-google-pubsub. Because those strategies use case-sensitive String.startsWith('Camel'/'camel') filtering while the Camel Exchange stores headers in a case-insensitive map, an attacker with JMS (or equivalent) producer access to the broker consumed by a Camel route can inject case-variant Camel internal headers, which are then resolved by downstream components such as camel-exec and camel-file using their canonical casing. This enables remote code execution and arbitrary file write on routes that forward JMS messages to header-driven components.\n\nThis issue affects Apache Camel: from 3.0.0 before 4.14.6, from 4.15.0 before 4.18.2, from 4.19.0 before 4.20.0.\n\nUsers are recommended to upgrade to version 4.20.0, which fixes the issue. If users are on the 4.14.x LTS releases stream, then they are suggested to upgrade to 4.14.6. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.2.
-</code>
-
-- [oscerd/CVE-2026-40453](https://github.com/oscerd/CVE-2026-40453)
 
 ### CVE-2026-40473 (2026-04-27)
 
@@ -7720,6 +7708,7 @@
 </code>
 
 - [jiuyi155/agxprobe](https://github.com/jiuyi155/agxprobe)
+- [yiyeshi0-hash/ave263-chain](https://github.com/yiyeshi0-hash/ave263-chain)
 
 ### CVE-2026-64824 (2026-07-21)
 
@@ -8282,6 +8271,13 @@
 </code>
 
 - [squeeze440/CVE-2026-73847-emlog-PoC](https://github.com/squeeze440/CVE-2026-73847-emlog-PoC)
+
+### CVE-2026-74251 (2026-08-16)
+
+<code>Joomla Extension - phoca.cz -  Unauthenticated SQL injection via attribute filter in Phoca Cart 5.0.0-6.1.6 - The a[] (attribute) and s[] (specification) GET array parameters on Phoca Cart's public shop items page are concatenated raw into SQL WHERE clauses without parameterization or escaping. An unauthenticated attacker can inject arbitrary SQL through these parameters, enabling full database extraction via time-based blind techniques.
+</code>
+
+- [toanln-cov/CVE-2026-74251](https://github.com/toanln-cov/CVE-2026-74251)
 
 ### CVE-2026-999999
 - [24520597-blip/CVE-2026-999999](https://github.com/24520597-blip/CVE-2026-999999)
@@ -20772,7 +20768,6 @@
 </code>
 
 - [sharpicx/CVE-2024-1651-PoC](https://github.com/sharpicx/CVE-2024-1651-PoC)
-- [hy011121/CVE-2024-1651-exploit-RCE](https://github.com/hy011121/CVE-2024-1651-exploit-RCE)
 - [Whiteh4tWolf/CVE-2024-1651-PoC](https://github.com/Whiteh4tWolf/CVE-2024-1651-PoC)
 - [killukeren/cve-2024-1651](https://github.com/killukeren/cve-2024-1651)
 
@@ -25267,7 +25262,6 @@
 - [Chocapikk/CVE-2024-25600](https://github.com/Chocapikk/CVE-2024-25600)
 - [Christbowel/CVE-2024-25600_Nuclei-Template](https://github.com/Christbowel/CVE-2024-25600_Nuclei-Template)
 - [Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress](https://github.com/Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress)
-- [hy011121/CVE-2024-25600-wordpress-Exploit-RCE](https://github.com/hy011121/CVE-2024-25600-wordpress-Exploit-RCE)
 - [K3ysTr0K3R/CVE-2024-25600-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-25600-EXPLOIT)
 - [X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE](https://github.com/X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE)
 - [svchostmm/CVE-2024-25600-mass](https://github.com/svchostmm/CVE-2024-25600-mass)
@@ -32334,7 +32328,7 @@
 - [LiveOverflow/webp-CVE-2023-4863](https://github.com/LiveOverflow/webp-CVE-2023-4863)
 - [caoweiquan322/NotEnough](https://github.com/caoweiquan322/NotEnough)
 - [CrackerCat/CVE-2023-4863-](https://github.com/CrackerCat/CVE-2023-4863-)
-- [jpselva/CVE-2023-4863](https://github.com/jpselva/CVE-2023-4863)
+- [jpsbern/CVE-2023-4863](https://github.com/jpsbern/CVE-2023-4863)
 - [577Industries/aegisgraph](https://github.com/577Industries/aegisgraph)
 - [pixelotes/lab-cve-2023-4863](https://github.com/pixelotes/lab-cve-2023-4863)
 - [Shcesama/cve-2023-4863-analysis](https://github.com/Shcesama/cve-2023-4863-analysis)
@@ -48675,7 +48669,6 @@
 <code>A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
 </code>
 
-- [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [arthepsy/CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034)
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
@@ -53831,6 +53824,7 @@
 - [MAFO-sec/mi-laboratorio-log4shell](https://github.com/MAFO-sec/mi-laboratorio-log4shell)
 - [felisha-elmer/Sandbox-Challenge-Log4Shell-CVE-2021-44228-](https://github.com/felisha-elmer/Sandbox-Challenge-Log4Shell-CVE-2021-44228-)
 - [jomjosh17/Log4Shell-CVE-2021-44228-](https://github.com/jomjosh17/Log4Shell-CVE-2021-44228-)
+- [C00LN3T/Log4ShellAuditor](https://github.com/C00LN3T/Log4ShellAuditor)
 - [bhimsekhar/vulnerable-java-app](https://github.com/bhimsekhar/vulnerable-java-app)
 - [horrister/log4shell-cve-2021-44228](https://github.com/horrister/log4shell-cve-2021-44228)
 - [hmxh123/Log4Shell-Vulnerability-Replication](https://github.com/hmxh123/Log4Shell-Vulnerability-Replication)
@@ -66243,6 +66237,7 @@
 </code>
 
 - [lsw29475/CVE-2018-8611](https://github.com/lsw29475/CVE-2018-8611)
+- [ahm3dgg/cve-2018-8611](https://github.com/ahm3dgg/cve-2018-8611)
 
 ### CVE-2018-8639 (2018-12-12)
 
