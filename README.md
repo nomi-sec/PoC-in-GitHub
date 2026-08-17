@@ -914,6 +914,13 @@
 
 - [xxconi/CVE-2026-6741](https://github.com/xxconi/CVE-2026-6741)
 
+### CVE-2026-6765 (2026-04-21)
+
+<code>Information disclosure in the Form Autofill component. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.
+</code>
+
+- [defineid/SkeletonKey](https://github.com/defineid/SkeletonKey)
+
 ### CVE-2026-6789
 - [George0Papasotiriou/CVE-2026-6789-Stack-Buffer-Overflow-in-Embedded-TLS-Certificate-Parser](https://github.com/George0Papasotiriou/CVE-2026-6789-Stack-Buffer-Overflow-in-Embedded-TLS-Certificate-Parser)
 
@@ -1082,7 +1089,6 @@
 </code>
 
 - [HORKimhab/CVE-2026-8037](https://github.com/HORKimhab/CVE-2026-8037)
-- [Caster-chen/CVE-2026-8037-POC](https://github.com/Caster-chen/CVE-2026-8037-POC)
 
 ### CVE-2026-8053 (2026-05-12)
 
@@ -1958,6 +1964,7 @@
 </code>
 
 - [Nxploited/CVE-2026-13714](https://github.com/Nxploited/CVE-2026-13714)
+- [katranSefa/CVE-2026-13714](https://github.com/katranSefa/CVE-2026-13714)
 
 ### CVE-2026-13768 (2026-07-02)
 
@@ -2315,6 +2322,13 @@
 </code>
 
 - [DarkLycn1976/CVE-2026-19264](https://github.com/DarkLycn1976/CVE-2026-19264)
+
+### CVE-2026-20079 (2026-03-04)
+
+<code>A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.&amp;nbsp;\r\n\r\nThis vulnerability is due to an improper system process that is created at boot time. An attacker could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to execute a variety of scripts and commands that allow&amp;nbsp;root access to the device.&amp;nbsp;
+</code>
+
+- [CyberAuth/CVE-2026-20079](https://github.com/CyberAuth/CVE-2026-20079)
 
 ### CVE-2026-20127 (2026-02-25)
 
@@ -3867,6 +3881,7 @@
 - [TatoSec/CVE-2026-33017-Langflop](https://github.com/TatoSec/CVE-2026-33017-Langflop)
 - [sonnelon/CVE-2026-33017-PoC](https://github.com/sonnelon/CVE-2026-33017-PoC)
 - [lxxexxbxx/CVE-2026-33017](https://github.com/lxxexxbxx/CVE-2026-33017)
+- [l4st98/CVE-2026-33017-FireFlow](https://github.com/l4st98/CVE-2026-33017-FireFlow)
 
 ### CVE-2026-33137 (2026-05-20)
 
@@ -4380,7 +4395,6 @@
 
 - [NathanHimself/CVE-2026-38526-PoC](https://github.com/NathanHimself/CVE-2026-38526-PoC)
 - [pawpic/CVE-2026-38526-POC](https://github.com/pawpic/CVE-2026-38526-POC)
-- [b0nyo/PoC-CVE-2026-38526](https://github.com/b0nyo/PoC-CVE-2026-38526)
 - [Resolvdd/CVE-2026-38526-PoC-htb-nexus](https://github.com/Resolvdd/CVE-2026-38526-PoC-htb-nexus)
 - [Qurclinc/CVE-2026-38526](https://github.com/Qurclinc/CVE-2026-38526)
 - [CerberusMrXi/KrayinCRM-RCE-Exploit-CVE-2026-38526](https://github.com/CerberusMrXi/KrayinCRM-RCE-Exploit-CVE-2026-38526)
@@ -4462,6 +4476,9 @@
 </code>
 
 - [MGTx2/CVE-2026-39107](https://github.com/MGTx2/CVE-2026-39107)
+
+### CVE-2026-39154
+- [defineid/Wildfire](https://github.com/defineid/Wildfire)
 
 ### CVE-2026-39200
 - [r00tali/CVE-2026-39200](https://github.com/r00tali/CVE-2026-39200)
@@ -4599,6 +4616,9 @@
 
 - [learner202649/CVE-2026-40217-PoC](https://github.com/learner202649/CVE-2026-40217-PoC)
 
+### CVE-2026-40345
+- [Jvr2022/CVE-2026-40345](https://github.com/Jvr2022/CVE-2026-40345)
+
 ### CVE-2026-40369 (2026-05-12)
 
 <code>Heap-based buffer overflow in Windows Kernel allows an authorized attacker to elevate privileges locally.
@@ -4609,13 +4629,6 @@
 - [piffd0s/ntoskrnl-metadata](https://github.com/piffd0s/ntoskrnl-metadata)
 - [0xBlackash/CVE-2026-40369](https://github.com/0xBlackash/CVE-2026-40369)
 - [CCELEND/CVE-2026-40369](https://github.com/CCELEND/CVE-2026-40369)
-
-### CVE-2026-40473 (2026-04-27)
-
-<code>The camel-mina component's MinaConverter.toObjectInput(IoBuffer) type converter wraps an IoBuffer in a java.io.ObjectInputStream without applying any ObjectInputFilter or class-loading restrictions. When a Camel route uses camel-mina as a TCP or UDP consumer and requests conversion to ObjectInput (for example via getBody(ObjectInput.class) or @Body ObjectInput), an attacker sending a crafted serialized Java object over the network to the MINA consumer port can trigger arbitrary code execution in the context of the application during readObject().\n\nThis issue affects Apache Camel: from 3.0.0 before 4.14.6, from 4.15.0 before 4.18.2, from 4.19.0 before 4.20.0.\n\nUsers are recommended to upgrade to version 4.20.0, which fixes the issue. If users are on the 4.14.x LTS releases stream, then they are suggested to upgrade to 4.14.6. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.2.
-</code>
-
-- [oscerd/CVE-2026-40473](https://github.com/oscerd/CVE-2026-40473)
 
 ### CVE-2026-40564 (2026-05-26)
 
@@ -5231,7 +5244,6 @@
 - [gl1tch0x1/DirtyClone](https://github.com/gl1tch0x1/DirtyClone)
 - [entra1337/DirtyClone](https://github.com/entra1337/DirtyClone)
 - [SecureWithUmer/CVE-2026-43503](https://github.com/SecureWithUmer/CVE-2026-43503)
-- [lieehrdiansyah12/CVE-2026-43503](https://github.com/lieehrdiansyah12/CVE-2026-43503)
 
 ### CVE-2026-43512 (2026-05-12)
 
@@ -6474,13 +6486,6 @@
 ### CVE-2026-50142
 - [MuhammedHussein17/libheif-cve-2026-50142](https://github.com/MuhammedHussein17/libheif-cve-2026-50142)
 
-### CVE-2026-50181 (2026-07-09)
-
-<code>Langroid is a framework for building large-language-model-powered applications. Prior to version 0.64.0, Langroid's `ReadFileTool` and `WriteFileTool` appear to treat `curr_dir` as the intended working-directory boundary for file operations. However, the tools only change the process working directory to `curr_dir` and then operate on the user-supplied `file_path` without resolving and enforcing that the final path remains inside `curr_dir`. As a result, a tool caller can supply path traversal sequences such as `../secret.txt` to read files outside the configured current directory, or `../written_by_tool.txt` to write files outside that directory. This can impact applications that expose Langroid file tools to an LLM agent, user-controlled tool call, or delegated coding/documentation agent while relying on `curr_dir` to restrict file access to a project/workspace directory. Version 0.64.0 patches the issue.
-</code>
-
-- [chaitanyagarware/CVE-2026-50181](https://github.com/chaitanyagarware/CVE-2026-50181)
-
 ### CVE-2026-50338 (2026-07-14)
 
 <code>Improper authentication in Azure Spring Apps allows an authorized attacker to elevate privileges over a network.
@@ -6551,13 +6556,6 @@
 
 - [NeseOS-Corp/CVE-2026-50657](https://github.com/NeseOS-Corp/CVE-2026-50657)
 
-### CVE-2026-50746 (2026-07-02)
-
-<code>A malicious actor with access to the network could exploit an Improper Access Control vulnerability found in UniFi Connect Application to execute a Command Injection on the host device.
-</code>
-
-- [HORKimhab/Ubiquiti-CVE](https://github.com/HORKimhab/Ubiquiti-CVE)
-
 ### CVE-2026-50751 (2026-06-08)
 
 <code>A logic flow weakness in Remote Access and Mobile Access certificate validation in deprecated IKEv1 key exchange allows an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.
@@ -6625,13 +6623,6 @@
 
 ### CVE-2026-51992
 - [TheLiimbo/CVE-2026-51992](https://github.com/TheLiimbo/CVE-2026-51992)
-
-### CVE-2026-52100 (2026-07-14)
-
-<code>Cross Site Request Forgery vulnerability in andreimarcu linux-server v.1.0 through v.2.3.8 allows a remote attacker to execute arbitrary code via the uploadPutHandler function
-</code>
-
-- [nk7667/-linx-server-vulnerability-report](https://github.com/nk7667/-linx-server-vulnerability-report)
 
 ### CVE-2026-52102 (2026-08-03)
 
@@ -6802,13 +6793,6 @@
 
 - [tar-xz/CVE-2026-53519-PoC](https://github.com/tar-xz/CVE-2026-53519-PoC)
 
-### CVE-2026-53571 (2026-06-22)
-
-<code>Vite is a frontend tooling framework for JavaScript. Prior to 8.0.16, 7.3.5, and 6.4.3, the contents of files that are specified by server.fs.deny can be returned to the browser on Windows. Vite’s dev server denies direct access to sensitive files through server.fs.deny, including entries such as .env, .env.*, and *.{crt,pem}. However, on Windows, the deny logic does not correctly normalize NTFS ADS path forms before access checks are applied. Because of this, requests such as /.env::$DATA?raw are treated as allowed paths, while Windows resolves them to the original file's default data stream. Similar to that, Windows allows accessing a file using a different name with the 8.3 short name compatibility feature. Vite did not reject accessing files via them. This vulnerability is fixed in 8.0.16, 7.3.5, and 6.4.3.
-</code>
-
-- [TazmiDev/CVE-2026-53571](https://github.com/TazmiDev/CVE-2026-53571)
-
 ### CVE-2026-53576 (2026-06-26)
 
 <code>Kestra is an open-source, event-driven orchestration platform. Prior to 1.0.45 and 1.3.21, the authentication filter for the REST API (@Filter(&quot;/api/v1/**&quot;)) treats any request whose path ends in /configs as the public instance-config endpoint and forwards it without a credential check. kestra addresses its resources by URL path segments that the caller chooses (/api/v1/{tenant}/flows/{namespace}, /api/v1/{tenant}/executions/{namespace}/{id}, /api/v1/{tenant}/namespaces/{namespace}/kv/{key}). An anonymous caller picks the literal configs as the final segment, and the request bypasses Basic-Auth entirely. Because the bypass reaches the flow-create and execution-trigger routes, an unauthenticated caller creates a flow containing a Shell or Process task and runs it. The task executes as root inside the kestra container. The official docker-compose.yml mounts /var/run/docker.sock, so root in the container reaches the host Docker daemon. This vulnerability is fixed in 1.0.45 and 1.3.21.
@@ -6961,12 +6945,6 @@
 </code>
 
 - [xiaoqiMikko/jackson-check](https://github.com/xiaoqiMikko/jackson-check)
-
-### CVE-2026-54519
-- [chaitanyagarware/CVE-2026-54519](https://github.com/chaitanyagarware/CVE-2026-54519)
-
-### CVE-2026-54520
-- [chaitanyagarware/CVE-2026-54520](https://github.com/chaitanyagarware/CVE-2026-54520)
 
 ### CVE-2026-54596
 - [iltosec/CVE-2026-54596](https://github.com/iltosec/CVE-2026-54596)
@@ -7487,6 +7465,7 @@
 </code>
 
 - [DavidCarliez/cve-2026-62737-lab](https://github.com/DavidCarliez/cve-2026-62737-lab)
+- [loanvui/CVE-2026-62737](https://github.com/loanvui/CVE-2026-62737)
 
 ### CVE-2026-62958
 - [0Linear/CVE-2026-62958](https://github.com/0Linear/CVE-2026-62958)
@@ -8296,6 +8275,15 @@
 </code>
 
 - [toanln-cov/CVE-2026-74251](https://github.com/toanln-cov/CVE-2026-74251)
+
+### CVE-2026-74943
+- [defineid/Revenant](https://github.com/defineid/Revenant)
+
+### CVE-2026-74945
+- [defineid/Palimpsest](https://github.com/defineid/Palimpsest)
+
+### CVE-2026-74970
+- [defineid/Trespasser](https://github.com/defineid/Trespasser)
 
 ### CVE-2026-999999
 - [24520597-blip/CVE-2026-999999](https://github.com/24520597-blip/CVE-2026-999999)
@@ -11704,6 +11692,7 @@
 - [ma4the/omae-wa-cheese-da](https://github.com/ma4the/omae-wa-cheese-da)
 - [CamsShaft/SELinux-Permissive-Only-CVE-2025-21479](https://github.com/CamsShaft/SELinux-Permissive-Only-CVE-2025-21479)
 - [Type010/cve-2025-21479-iqoo11pro](https://github.com/Type010/cve-2025-21479-iqoo11pro)
+- [linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479)
 
 ### CVE-2025-21574 (2025-04-15)
 
@@ -12059,6 +12048,7 @@
 </code>
 
 - [0x6rss/CVE-2025-24071_PoC](https://github.com/0x6rss/CVE-2025-24071_PoC)
+- [kaIIsyms/CVE-2025-24071](https://github.com/kaIIsyms/CVE-2025-24071)
 - [FOLKS-iwd/CVE-2025-24071-msfvenom](https://github.com/FOLKS-iwd/CVE-2025-24071-msfvenom)
 - [aleongx/CVE-2025-24071](https://github.com/aleongx/CVE-2025-24071)
 - [ctabango/CVE-2025-24071_PoCExtra](https://github.com/ctabango/CVE-2025-24071_PoCExtra)
@@ -18991,13 +18981,6 @@
 </code>
 
 - [natsuki-engr/live-server-evil-crawler](https://github.com/natsuki-engr/live-server-evil-crawler)
-
-### CVE-2025-65731 (2026-01-08)
-
-<code>An issue was discovered in D-Link Router DIR-605L (Hardware version F1; Firmware version: V6.02CN02) allowing an attacker with physical access to the UART pins to execute arbitrary commands due to presence of root terminal access on a serial interface without proper access control.
-</code>
-
-- [whitej3rry/CVE-2025-65731](https://github.com/whitej3rry/CVE-2025-65731)
 
 ### CVE-2025-65741 (2025-12-09)
 
@@ -32795,7 +32778,7 @@
 
 ### CVE-2023-6931 (2023-12-19)
 
-<code>A heap out-of-bounds write vulnerability in the Linux kernel's Performance Events system component can be exploited to achieve local privilege escalation.\n\nA perf_event's read_size can overflow, leading to an heap out-of-bounds increment or write in perf_read_group().\n\nWe recommend upgrading past commit 382c27f4ed28f803b1f1473ac2d8db0afc795a1b.
+<code>A heap out-of-bounds write vulnerability in the Linux kernel's Performance Events system component can be exploited to achieve local privilege escalation.\n\n\n\nA perf_event's read_size can overflow, leading to an heap out-of-bounds increment or write in perf_read_group().\n\n\n\nWe recommend upgrading past commit 382c27f4ed28f803b1f1473ac2d8db0afc795a1b.
 </code>
 
 - [K0n9-log/CVE-2023-6931](https://github.com/K0n9-log/CVE-2023-6931)
@@ -33551,7 +33534,7 @@
 - [Chocapikk/CVE-2023-22515](https://github.com/Chocapikk/CVE-2023-22515)
 - [ad-calcium/CVE-2023-22515](https://github.com/ad-calcium/CVE-2023-22515)
 - [kh4sh3i/CVE-2023-22515](https://github.com/kh4sh3i/CVE-2023-22515)
-- [K4ptor/CVE-2023-22515](https://github.com/K4ptor/CVE-2023-22515)
+- [s1incere/CVE-2023-22515](https://github.com/s1incere/CVE-2023-22515)
 - [Le1a/CVE-2023-22515](https://github.com/Le1a/CVE-2023-22515)
 - [Vulnmachines/confluence-cve-2023-22515](https://github.com/Vulnmachines/confluence-cve-2023-22515)
 - [iveresk/CVE-2023-22515](https://github.com/iveresk/CVE-2023-22515)
@@ -48749,8 +48732,8 @@
 - [mac3d0/CVE-2021-4034-pwnkit](https://github.com/mac3d0/CVE-2021-4034-pwnkit)
 - [ropydev/CVE-2021-4034-PwnKit](https://github.com/ropydev/CVE-2021-4034-PwnKit)
 - [krleejihyeong/WHS4_CVE-2021-4034](https://github.com/krleejihyeong/WHS4_CVE-2021-4034)
-- [jeffmarlonmandela/CVE-2021-4034-PwnKit](https://github.com/jeffmarlonmandela/CVE-2021-4034-PwnKit)
 - [nicoibarburu/CVE-2021-4034](https://github.com/nicoibarburu/CVE-2021-4034)
+- [jeffmarlonmandela/CVE-2021-4034-PwnKit](https://github.com/jeffmarlonmandela/CVE-2021-4034-PwnKit)
 
 ### CVE-2021-4044 (2021-12-14)
 
@@ -51317,8 +51300,8 @@
 </code>
 
 - [DenizSe/CVE-2021-34527](https://github.com/DenizSe/CVE-2021-34527)
-- [thomas-lauer/PrintNightmare](https://github.com/thomas-lauer/PrintNightmare)
 - [JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527)
+- [twi1ight00/PrintNightmare](https://github.com/twi1ight00/PrintNightmare)
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
 - [rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint](https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint)
 - [geekbrett/CVE-2021-34527-PrintNightmare-Workaround](https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround)
