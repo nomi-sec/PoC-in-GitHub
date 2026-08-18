@@ -1978,7 +1978,7 @@
 <code>Insufficient validation of untrusted input in Dawn in Google Chrome on Android prior to 150.0.7871.47 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Medium)
 </code>
 
-- [ArtWide/cve-2026-13934](https://github.com/ArtWide/cve-2026-13934)
+- [ArtWideRobo/cve-2026-13934](https://github.com/ArtWideRobo/cve-2026-13934)
 
 ### CVE-2026-14266 (2026-07-29)
 
@@ -2131,6 +2131,13 @@
 
 ### CVE-2026-15706
 - [musana/CVE-2026-15706](https://github.com/musana/CVE-2026-15706)
+
+### CVE-2026-15826 (2026-08-15)
+
+<code>The User Profile Builder plugin for WordPress is vulnerable to Authentication Bypass via Type Confusion in versions up to, and including, 3.16.4. This is due to the wppb_log_in_user() function calling absint() on the return value of wp_insert_user() before performing an is_wp_error() check — when a registration is submitted with a 61–70 character username, WordPress core rejects it with a WP_Error object, but absint() coerces that object to the integer 1 before the error check can short-circuit execution, causing the plugin to bind and return a transient-backed autologin nonce tied to user ID 1. This makes it possible for unauthenticated attackers to log in as the site's Administrator account (user ID 1), resulting in full administrative takeover of the site.
+</code>
+
+- [HORKimhab/CVE-2026-15826-CVE-2026-15748](https://github.com/HORKimhab/CVE-2026-15826-CVE-2026-15748)
 
 ### CVE-2026-15964 (2026-08-01)
 
@@ -2323,6 +2330,13 @@
 
 - [DarkLycn1976/CVE-2026-19264](https://github.com/DarkLycn1976/CVE-2026-19264)
 
+### CVE-2026-19650 (2026-08-17)
+
+<code>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.2 before 18.11.11, 19.0 before 19.0.8, 19.1 before 19.1.6, and 19.2 before 19.2.4 that under certain conditions could have allowed an unauthenticated user to execute mutations via GET requests due to improper request validation in GraphQL multiplex query handling.
+</code>
+
+- [HORKimhab/CVE-2026-19650-CVE-2026-19478](https://github.com/HORKimhab/CVE-2026-19650-CVE-2026-19478)
+
 ### CVE-2026-20079 (2026-03-04)
 
 <code>A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.&amp;nbsp;\r\n\r\nThis vulnerability is due to an improper system process that is created at boot time. An attacker could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to execute a variety of scripts and commands that allow&amp;nbsp;root access to the device.&amp;nbsp;
@@ -2367,6 +2381,13 @@
 </code>
 
 - [NSIDE-ATTACK-LOGIC/CIMCown](https://github.com/NSIDE-ATTACK-LOGIC/CIMCown)
+
+### CVE-2026-20217 (2026-07-01)
+
+<code>A vulnerability in the PESpin file format parser of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition, or possibly other expanded impacts, resulting from memory corruption on an affected device.\r\n\r\nThis vulnerability is due to improper boundary checks for content in PESpin files during scanning, which may result in an out-of-bounds buffer write. An attacker could exploit this vulnerability by submitting a crafted file that contains PESpin content to be scanned by ClamAV on an affected device. A successful exploit could allow the attacker to cause the ClamAV scanning process to terminate, resulting in a DoS condition on the affected software.
+</code>
+
+- [securifera/CVE-2026-20217](https://github.com/securifera/CVE-2026-20217)
 
 ### CVE-2026-20223 (2026-05-20)
 
@@ -3541,7 +3562,7 @@
 
 ### CVE-2026-28990 (2026-05-11)
 
-<code>The issue was addressed with improved memory handling. This issue is fixed in iOS 26.5 and iPadOS 26.5, macOS Sequoia 15.7.7, macOS Sonoma 14.8.7, macOS Tahoe 26.5, tvOS 26.5, visionOS 26.5, watchOS 26.5. Processing a maliciously crafted image may corrupt process memory.
+<code>The issue was addressed with improved memory handling. This issue is fixed in iOS 18.7.10 and iPadOS 18.7.10, iOS 26.5 and iPadOS 26.5, macOS Sequoia 15.7.7, macOS Sonoma 14.8.7, macOS Tahoe 26.5, tvOS 26.5, visionOS 26.5, watchOS 26.5. Processing a maliciously crafted image may corrupt process memory.
 </code>
 
 - [Billy-Ellis/exr-imageio-poc](https://github.com/Billy-Ellis/exr-imageio-poc)
@@ -4354,7 +4375,11 @@
 ### CVE-2026-38053
 - [Crypte1/CVE-2026-38053---Remove-PPL](https://github.com/Crypte1/CVE-2026-38053---Remove-PPL)
 
-### CVE-2026-38165
+### CVE-2026-38165 (2026-08-17)
+
+<code>A Server-Side Template Injection (SSTI) vulnerability in the Velocity template engine configuration of xdocreport v0.9.2 to v2.2.0 allows attackers to execute arbitrary code via a crafted expression.
+</code>
+
 - [AT190510-Cuong/CVE-2026-38165-SSTI-](https://github.com/AT190510-Cuong/CVE-2026-38165-SSTI-)
 
 ### CVE-2026-38194
@@ -5217,6 +5242,7 @@
 - [CamsShaft/IonStack-S22-cve-2026-43499](https://github.com/CamsShaft/IonStack-S22-cve-2026-43499)
 - [knowlily/cve-2026-43499-honor](https://github.com/knowlily/cve-2026-43499-honor)
 - [NanoTurtle1145/root-my-s9280](https://github.com/NanoTurtle1145/root-my-s9280)
+- [R0rt1z2/GhostLock-5.10](https://github.com/R0rt1z2/GhostLock-5.10)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -5278,14 +5304,14 @@
 
 ### CVE-2026-43700 (2026-06-29)
 
-<code>A cross-origin issue was addressed with improved tracking of security origins. This issue is fixed in Safari 26.5.2, iOS 26.5.2 and iPadOS 26.5.2, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. Processing maliciously crafted web content may disclose sensitive user information.
+<code>A cross-origin issue was addressed with improved tracking of security origins. This issue is fixed in Safari 26.5.2, iOS 18.7.10 and iPadOS 18.7.10, iOS 26.5.2 and iPadOS 26.5.2, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. Processing maliciously crafted web content may disclose sensitive user information.
 </code>
 
 - [dem0ns/CVE-2026-43700](https://github.com/dem0ns/CVE-2026-43700)
 
 ### CVE-2026-43724 (2026-06-29)
 
-<code>The issue was addressed with improved input sanitization. This issue is fixed in iOS 26.5.2 and iPadOS 26.5.2, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. An app may be able to cause unexpected system termination or write kernel memory.
+<code>The issue was addressed with improved input sanitization. This issue is fixed in iOS 18.7.10 and iPadOS 18.7.10, iOS 26.5.2 and iPadOS 26.5.2, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. An app may be able to cause unexpected system termination or write kernel memory.
 </code>
 
 - [gracecondition/DirtySlide](https://github.com/gracecondition/DirtySlide)
@@ -6608,9 +6634,6 @@
 ### CVE-2026-51592
 - [ardakrg/CVE-2026-51592](https://github.com/ardakrg/CVE-2026-51592)
 
-### CVE-2026-51788
-- [aykhan32/CVE-2026-51788](https://github.com/aykhan32/CVE-2026-51788)
-
 ### CVE-2026-51833 (2026-07-17)
 
 <code>Xenforo 2.3.8 is vulnerable to SSRF. Attackers that have administrator privileges or are able to add/save RSS feeds can enumerate internal services (ports) or expose the original IP address of the server.
@@ -6644,9 +6667,6 @@
 </code>
 
 - [lamaper/CVE-2026-52199](https://github.com/lamaper/CVE-2026-52199)
-
-### CVE-2026-52217
-- [teteco/CVE-2026-52217-VTEX-Checkout-CrossTenant-IDOR](https://github.com/teteco/CVE-2026-52217-VTEX-Checkout-CrossTenant-IDOR)
 
 ### CVE-2026-52504
 - [fadingminibus69/advisory001](https://github.com/fadingminibus69/advisory001)
@@ -6705,7 +6725,11 @@
 
 - [v3s9er/CVE-2026-52885](https://github.com/v3s9er/CVE-2026-52885)
 
-### CVE-2026-52886
+### CVE-2026-52886 (2026-08-17)
+
+<code>Notepad++ is a free and open-source source code editor. Prior to 8.9.7, Notepad++ validates the backupFilePath attribute from session.xml with std::wstring::starts_with against the expected backup directory without path normalization, allowing parent-directory sequences during snapshot-mode restoration to read an arbitrary user-readable file outside the backup directory into an editor tab. This issue is fixed in version 8.9.7.
+</code>
+
 - [v3s9er/CVE-2026-52886](https://github.com/v3s9er/CVE-2026-52886)
 
 ### CVE-2026-52887 (2026-07-15)
@@ -6749,7 +6773,6 @@
 </code>
 
 - [suominen/januscape](https://github.com/suominen/januscape)
-- [xj2268-TA/KVM-Januscape](https://github.com/xj2268-TA/KVM-Januscape)
 - [ndouglas-cloudsmith/CVE-2026-53359](https://github.com/ndouglas-cloudsmith/CVE-2026-53359)
 
 ### CVE-2026-53361 (2026-07-04)
@@ -6905,7 +6928,11 @@
 ### CVE-2026-54337
 - [4qu4r1um/CVE-2026-54337-PoC](https://github.com/4qu4r1um/CVE-2026-54337-PoC)
 
-### CVE-2026-54356
+### CVE-2026-54356 (2026-08-17)
+
+<code>Budibase is an open-source low-code platform. Prior to 3.41.3, POST /api/attachments/:datasourceId/url in packages/server/src/api/routes/static.ts and packages/server/src/api/controllers/static/index.ts allows an authenticated published-app user with the BASIC role to supply attacker-controlled bucket and key values and obtain signedUrl and publicUrl values backed by stored S3 datasource credentials. This issue is fixed in version 3.41.3.
+</code>
+
 - [KovachVL/CVE-2026-54356](https://github.com/KovachVL/CVE-2026-54356)
 
 ### CVE-2026-54390 (2026-06-18)
@@ -7156,13 +7183,6 @@
 
 - [katekeiroz-dev/golang-x-text](https://github.com/katekeiroz-dev/golang-x-text)
 
-### CVE-2026-56876 (2026-06-26)
-
-<code>extract-zip does not validate symlink targets when extracting zip archives. When processing a malicious zip file containing a symlink with a relative path like '../../../../etc/passwd', extract-zip will extract the symlink without validation, allowing it to point outside the extraction directory. Depending on how extract-zip is used, an attacker could read or write to arbitrary files.
-</code>
-
-- [ziad626/CVE-2026-56876-POC](https://github.com/ziad626/CVE-2026-56876-POC)
-
 ### CVE-2026-57155
 - [babyshen/CVE-2026-57155](https://github.com/babyshen/CVE-2026-57155)
 
@@ -7172,13 +7192,6 @@
 </code>
 
 - [Paradoxis/CVE-2026-57239](https://github.com/Paradoxis/CVE-2026-57239)
-
-### CVE-2026-57517 (2026-07-01)
-
-<code>Control Web Panel before 0.9.8.1225 contains a blind SQL injection vulnerability that allows unauthenticated remote attackers to execute arbitrary SQL queries by submitting unsanitized input through the userRes POST parameter at the user endpoint. Attackers can exploit MySQL root privileges obtained via the injection to write arbitrary files using INTO DUMPFILE, enabling deployment of a PHP webshell to the web-accessible roundcube logs directory and achieving remote code execution as the cwpsvc account.
-</code>
-
-- [gagaltotal/CVE-2026-57517-CWP](https://github.com/gagaltotal/CVE-2026-57517-CWP)
 
 ### CVE-2026-57588 (2026-06-25)
 
@@ -7692,14 +7705,14 @@
 
 ### CVE-2026-64725 (2026-07-27)
 
-<code>An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 26.6 and iPadOS 26.6, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.6, tvOS 26.6, visionOS 26.6, watchOS 26.6. An app may be able to cause a denial-of-service.
+<code>An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 18.7.10 and iPadOS 18.7.10, iOS 26.6 and iPadOS 26.6, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.6, tvOS 26.6, visionOS 26.6, watchOS 26.6. An app may be able to cause a denial-of-service.
 </code>
 
 - [altvist/cve-2026-64725-poc](https://github.com/altvist/cve-2026-64725-poc)
 
 ### CVE-2026-64747 (2026-07-27)
 
-<code>A buffer overflow was addressed with improved size validation. This issue is fixed in iOS 26.6 and iPadOS 26.6, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.6, tvOS 26.6, visionOS 26.6, watchOS 26.6. An app may be able to execute arbitrary code with kernel privileges.
+<code>A buffer overflow was addressed with improved size validation. This issue is fixed in iOS 18.7.10 and iPadOS 18.7.10, iOS 26.6 and iPadOS 26.6, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.6, tvOS 26.6, visionOS 26.6, watchOS 26.6. An app may be able to execute arbitrary code with kernel privileges.
 </code>
 
 - [jiuyi155/agxprobe](https://github.com/jiuyi155/agxprobe)
@@ -7733,7 +7746,11 @@
 
 - [IamDremig/CVE-2026-65591](https://github.com/IamDremig/CVE-2026-65591)
 
-### CVE-2026-65640
+### CVE-2026-65640 (2026-08-17)
+
+<code>WordPress is vulnerable to a remote code execution vulnerability via malicious Postscript file upload by an Author level user or higher.\n\nPrerequisites:\n* Imagick and Ghostscript in use on the server\n* A malicious user with the `upload_files` capability\n\nThis issue affects all versions of WordPress. Version 7.0.4 has been released, containing a fix for the vulnerability, and as a courtesy to users on older branches the fix has been backported to all branches back to 4.7.
+</code>
+
 - [jobusa755-a11y/CVE-2026-65640-](https://github.com/jobusa755-a11y/CVE-2026-65640-)
 
 ### CVE-2026-65650 (2026-07-22)
@@ -8030,7 +8047,11 @@
 ### CVE-2026-67846
 - [duan528/CVE-2026-67846-BOOM-NBDTLB](https://github.com/duan528/CVE-2026-67846-BOOM-NBDTLB)
 
-### CVE-2026-68004
+### CVE-2026-68004 (2026-08-17)
+
+<code>An issue in OSSRS SRS (Simple Realtime Server) &lt;v5.0.213 allows a remote attacker to execute arbitrary code via RTMP publish authorization, vhost-level security configuration (security.enabled), SrsSecurity::check(), trunk/src/app/srs_app_security.cpp, and SRS RTMP listener components
+</code>
+
 - [xuwu-xuwu/CVE-2026-68004](https://github.com/xuwu-xuwu/CVE-2026-68004)
 
 ### CVE-2026-68138 (2026-08-10)
@@ -8114,7 +8135,7 @@
 <code>Pluck CMS's admin panel relies solely on a Referer-header comparison (requestedByTheSameDomain in data/inc/functions.admin.php, gating every admin.php action) for CSRF protection, with no per-request anti-CSRF token anywhere in the admin area.
 </code>
 
-- [IlhomjonR/PluckCMS-CSRF-RCE](https://github.com/IlhomjonR/PluckCMS-CSRF-RCE)
+- [IlhomjonR/CVE-2026-70376](https://github.com/IlhomjonR/CVE-2026-70376)
 
 ### CVE-2026-70481 (2026-08-04)
 
@@ -8185,6 +8206,13 @@
 </code>
 
 - [dinosn/cve-2026-71362-magento-lab](https://github.com/dinosn/cve-2026-71362-magento-lab)
+
+### CVE-2026-71518 (2026-08-17)
+
+<code>Typemill before 2.26.0 contains an authorization bypass vulnerability in the media file download route that allows unauthenticated attackers to access restricted files by submitting path-equivalent URL variants. Attackers can substitute normalized path forms such as dot-slash prefixes, double slashes, or percent-encoded sequences to pass role-based restriction checks while the filesystem resolves the request to the protected file, enabling unauthorized file download without credentials.
+</code>
+
+- [IlhomjonR/CVE-2026-71518](https://github.com/IlhomjonR/CVE-2026-71518)
 
 ### CVE-2026-71554 (2026-08-06)
 
@@ -48664,6 +48692,7 @@
 <code>A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
 </code>
 
+- [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [arthepsy/CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034)
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
@@ -48733,7 +48762,6 @@
 - [ropydev/CVE-2021-4034-PwnKit](https://github.com/ropydev/CVE-2021-4034-PwnKit)
 - [krleejihyeong/WHS4_CVE-2021-4034](https://github.com/krleejihyeong/WHS4_CVE-2021-4034)
 - [nicoibarburu/CVE-2021-4034](https://github.com/nicoibarburu/CVE-2021-4034)
-- [jeffmarlonmandela/CVE-2021-4034-PwnKit](https://github.com/jeffmarlonmandela/CVE-2021-4034-PwnKit)
 
 ### CVE-2021-4044 (2021-12-14)
 
@@ -74474,6 +74502,9 @@
 
 ### CVE-2014-91371
 - [jamaal001/CVE-2014-91371-Wordpress-](https://github.com/jamaal001/CVE-2014-91371-Wordpress-)
+
+### CVE-2014-1106691
+- [lucauL2dlek/java-sms-aye](https://github.com/lucauL2dlek/java-sms-aye)
 
 
 ## 2013
