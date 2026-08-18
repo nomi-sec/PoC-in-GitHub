@@ -1845,13 +1845,6 @@
 
 - [hakaioffsec/CVE-2026-12191](https://github.com/hakaioffsec/CVE-2026-12191)
 
-### CVE-2026-12400 (2026-07-10)
-
-<code>The FlowForms – Conversational Form Builder plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.1.1 via the update_form due to missing validation on a user controlled key. This makes it possible for authenticated attackers, with contributor-level access and above, to modify the content, design, and settings of, as well as publish or revert, any form on the site — including forms owned by administrators — by supplying an arbitrary form ID in the REST URL.
-</code>
-
-- [0x00phantom-hat/CVE-2026-12400-Exploit](https://github.com/0x00phantom-hat/CVE-2026-12400-Exploit)
-
 ### CVE-2026-12415 (2026-06-27)
 
 <code>The Invoice Generator plugin for WordPress is vulnerable to privilege escalation due to a missing capability check on the pravel_invoice_edit_account() AJAX action in versions up to, and including, 1.0.0. The handler is exposed via wp_ajax_nopriv_pravel_invoice_edit_account, accepts an attacker-controlled user_id and user_email from POST data, and calls wp_update_user() without verifying authentication, ownership, or a nonce. This makes it possible for unauthenticated attackers to change the email address of any user, including administrators, and then trigger WordPress's password reset flow to gain access to the targeted account.
@@ -2024,6 +2017,13 @@
 
 - [MadExploits/CVE-2026-14483](https://github.com/MadExploits/CVE-2026-14483)
 - [0xdak/CVE-2026-14483_exploit](https://github.com/0xdak/CVE-2026-14483_exploit)
+
+### CVE-2026-14669 (2026-08-13)
+
+<code>Heap buffer overflow in PostgreSQL to_char(timestamptz) allows the party choosing the timezone to execute arbitrary code as the operating system user running the database, via a long POSIX timezone abbreviation.  Versions before PostgreSQL 18.5, 17.11, 16.15, 15.19, and 14.24 are affected.
+</code>
+
+- [HackSpeak/CVE-2026-14669](https://github.com/HackSpeak/CVE-2026-14669)
 
 ### CVE-2026-14802 (2026-07-06)
 
@@ -2329,6 +2329,13 @@
 </code>
 
 - [DarkLycn1976/CVE-2026-19264](https://github.com/DarkLycn1976/CVE-2026-19264)
+
+### CVE-2026-19478 (2026-08-17)
+
+<code>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.2 before 18.11.11, 19.0 before 19.0.8, 19.1 before 19.1.6, and 19.2 before 19.2.4 that under certain conditions could allow an unauthenticated user to remotely modify or delete public projects and user data via a GraphQL directive.
+</code>
+
+- [davkharrr/CVE-2026-19478-PoC](https://github.com/davkharrr/CVE-2026-19478-PoC)
 
 ### CVE-2026-19650 (2026-08-17)
 
@@ -3825,6 +3832,13 @@
 </code>
 
 - [K3ysTr0K3R/CVE-2026-31816](https://github.com/K3ysTr0K3R/CVE-2026-31816)
+
+### CVE-2026-32128 (2026-03-11)
+
+<code>FastGPT is an AI Agent building platform. In 4.14.7 and earlier, FastGPT's Python Sandbox (fastgpt-sandbox) includes guardrails intended to prevent file writes (static detection + seccomp). These guardrails are bypassable by remapping stdout (fd 1) to an arbitrary writable file descriptor using fcntl. After remapping, writing via sys.stdout.write() still satisfies the seccomp rule write(fd==1), enabling arbitrary file creation/overwrite inside the sandbox container despite the intended no file writes restriction.
+</code>
+
+- [qianlijaingshan/fastgpt-sandbox-audit](https://github.com/qianlijaingshan/fastgpt-sandbox-audit)
 
 ### CVE-2026-32194 (2026-03-19)
 
@@ -6240,7 +6254,6 @@
 - [0xBlackash/CVE-2026-48908](https://github.com/0xBlackash/CVE-2026-48908)
 - [ayiezola/CVE-2026-48908](https://github.com/ayiezola/CVE-2026-48908)
 - [cazzysoci/cve-2026-48908](https://github.com/cazzysoci/cve-2026-48908)
-- [g0thamRabb1t/CVE-2026-48908-joomla-sp-page-builder-detection](https://github.com/g0thamRabb1t/CVE-2026-48908-joomla-sp-page-builder-detection)
 - [imXur/CVE-2026-48908-Joomla-SP-Page-Builder-RCE](https://github.com/imXur/CVE-2026-48908-Joomla-SP-Page-Builder-RCE)
 - [yora1928/CVE-2026-48908-by-yora](https://github.com/yora1928/CVE-2026-48908-by-yora)
 
@@ -6383,13 +6396,6 @@
 
 - [DavidCarliez/CVE-2026-49176_LPE_POC](https://github.com/DavidCarliez/CVE-2026-49176_LPE_POC)
 - [777erp/CVE-2026-49176_BOF](https://github.com/777erp/CVE-2026-49176_BOF)
-
-### CVE-2026-49230 (2026-06-19)
-
-<code>Improper Validation of Integrity Check Value vulnerability in Apache APISIX.\n\nThe jwe-decrypt plugin under default configuration is vulnerable to authentication bypass. \nThis issue affects Apache APISIX: from 3.8.0 through 3.16.0.\n\nUsers are recommended to upgrade to version 3.17.0, which fixes the issue.
-</code>
-
-- [BiiTts/CVE-2026-49230-APISIX-jwe-decrypt-Auth-Bypass](https://github.com/BiiTts/CVE-2026-49230-APISIX-jwe-decrypt-Auth-Bypass)
 
 ### CVE-2026-49268 (2026-06-17)
 
@@ -7251,13 +7257,6 @@
 </code>
 
 - [zylideum/CVE-2026-57858](https://github.com/zylideum/CVE-2026-57858)
-
-### CVE-2026-57973 (2026-07-14)
-
-<code>Time-of-check time-of-use (toctou) race condition in Windows Subsystem for Linux allows an authorized attacker to perform tampering locally.
-</code>
-
-- [riddhimaan-sth404/CVE-2026-57973](https://github.com/riddhimaan-sth404/CVE-2026-57973)
 
 ### CVE-2026-58025 (2026-07-01)
 
@@ -8129,6 +8128,13 @@
 </code>
 
 - [leoelsolh/CVE-2026-69263](https://github.com/leoelsolh/CVE-2026-69263)
+
+### CVE-2026-69414 (2026-08-14)
+
+<code>Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender publicly referred to as &amp;quot;ShieldBreak &amp;quot;.\nWe are working to provide a high quality security update that addresses this vulnerability. We will provide information in this CVE when the update is available.
+</code>
+
+- [1neptune/ShieldBreak](https://github.com/1neptune/ShieldBreak)
 
 ### CVE-2026-70376 (2026-08-05)
 
@@ -20015,7 +20021,7 @@
 <code>NetBox is an open-source infrastructure resource modeling and IP address management platform. A reflected cross-site scripting (XSS) vulnerability exists in versions 2.11.0 through 3.7.x in the ProtectedError handling logic, where object names are included in HTML error messages without proper escaping. This allows user-controlled content to be rendered in the web interface when a delete operation fails due to protected relationships, potentially enabling execution of arbitrary client-side code in the context of a privileged user.
 </code>
 
-- [alkimcoskun/security-advisories](https://github.com/alkimcoskun/security-advisories)
+- [alkimcoskun/CVE-2025-69848-security-advisories](https://github.com/alkimcoskun/CVE-2025-69848-security-advisories)
 
 ### CVE-2025-69906 (2026-02-05)
 
