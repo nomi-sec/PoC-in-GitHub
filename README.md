@@ -7433,13 +7433,6 @@
 - [tc4dy/CVE-2026-60206-PoC-Exploit](https://github.com/tc4dy/CVE-2026-60206-PoC-Exploit)
 - [Debajyoti0-0/CVE-2026-60206](https://github.com/Debajyoti0-0/CVE-2026-60206)
 
-### CVE-2026-61343 (2026-07-09)
-
-<code>LibreBooking's email template editor save action passes the submitted template name directly into the destination file path, allowing a remote attacker with administrator credentials to write an arbitrary file outside the template directory and execute code. Fixed in 5.1.0.
-</code>
-
-- [nmagill123/CVE-2026-61343-poc-librebooking-rce](https://github.com/nmagill123/CVE-2026-61343-poc-librebooking-rce)
-
 ### CVE-2026-61424 (2026-07-20)
 
 <code>Joomla Extension - dj-extensions.com - Unauthenticated arbitrary file upload in DJ-Classifieds &lt; 3.11.2 - The Joomla extension DJ-Classifieds is vulnerable to an unauthenticated file upload, leading to full RCE.
@@ -7738,6 +7731,13 @@
 </code>
 
 - [rahulreddykarne/CVE-2026-65321-pyathena](https://github.com/rahulreddykarne/CVE-2026-65321-pyathena)
+
+### CVE-2026-65400 (2026-08-06)
+
+<code>An authentication issue was addressed with improved state management. This issue is fixed in macOS Sequoia 15.7.9, macOS Sonoma 14.8.9, macOS Tahoe 26.6.1. An attacker on the network may be able to authenticate to Screen Sharing without valid credentials.
+</code>
+
+- [HORKimhab/CVE-2026-65400](https://github.com/HORKimhab/CVE-2026-65400)
 
 ### CVE-2026-65591 (2026-07-22)
 
@@ -24101,7 +24101,6 @@
 - [seajaysec/Ivanti-Connect-Around-Scan](https://github.com/seajaysec/Ivanti-Connect-Around-Scan)
 - [pwniel/ivanti_shell](https://github.com/pwniel/ivanti_shell)
 - [rxwx/pulse-meter](https://github.com/rxwx/pulse-meter)
-- [Hexastrike/Ivanti-Connect-Secure-Logs-Parser](https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser)
 
 ### CVE-2024-21893 (2024-01-31)
 
@@ -28051,6 +28050,9 @@
 </code>
 
 - [baroi-ai/nepstech-xpon-router-CVE-2024-40119](https://github.com/baroi-ai/nepstech-xpon-router-CVE-2024-40119)
+
+### CVE-2024-40275
+- [burjoy/CVE-2024-40275_Scanner](https://github.com/burjoy/CVE-2024-40275_Scanner)
 
 ### CVE-2024-40318 (2024-07-25)
 
@@ -46268,6 +46270,7 @@
 - [JoshAtticus/ztewaste](https://github.com/JoshAtticus/ztewaste)
 - [sloden1977-lang/ROOT-ZTE-X1001](https://github.com/sloden1977-lang/ROOT-ZTE-X1001)
 - [mutur4/UnisocBootROMs](https://github.com/mutur4/UnisocBootROMs)
+- [xun404/spd_dump-macos](https://github.com/xun404/spd_dump-macos)
 
 ### CVE-2022-38725 (2023-01-23)
 
