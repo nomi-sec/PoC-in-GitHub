@@ -1996,13 +1996,6 @@
 
 - [0xmrma/CVE-2026-14361](https://github.com/0xmrma/CVE-2026-14361)
 
-### CVE-2026-14382 (2026-07-01)
-
-<code>Insufficient validation of untrusted input in ANGLE in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)
-</code>
-
-- [jaf0rk/CVE-2026-14382](https://github.com/jaf0rk/CVE-2026-14382)
-
 ### CVE-2026-14431 (2026-07-01)
 
 <code>Type Confusion in V8 in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)
@@ -2199,6 +2192,7 @@
 - [fazilbaig1/CVE-2026-16723](https://github.com/fazilbaig1/CVE-2026-16723)
 - [xiaoqiMikko/fastjson-check](https://github.com/xiaoqiMikko/fastjson-check)
 - [learner330/fastjson-cve-2026-16723](https://github.com/learner330/fastjson-cve-2026-16723)
+- [Superman-L/CVE-2026-16723](https://github.com/Superman-L/CVE-2026-16723)
 
 ### CVE-2026-17001
 - [llaytynher/CVE-2026-17001](https://github.com/llaytynher/CVE-2026-17001)
@@ -2354,6 +2348,7 @@
 </code>
 
 - [davkharrr/CVE-2026-19478-PoC](https://github.com/davkharrr/CVE-2026-19478-PoC)
+- [renzi25031469/CVE-2026-19478](https://github.com/renzi25031469/CVE-2026-19478)
 
 ### CVE-2026-19500 (2026-08-18)
 
@@ -2375,6 +2370,7 @@
 </code>
 
 - [ksotaria1337/CVE-2026-19598](https://github.com/ksotaria1337/CVE-2026-19598)
+- [DeadExpl0it/CVE-2026-19598-PoC](https://github.com/DeadExpl0it/CVE-2026-19598-PoC)
 
 ### CVE-2026-19650 (2026-08-17)
 
@@ -3161,7 +3157,6 @@
 
 - [aa022/CVE-2026-23918-Passive-Audit](https://github.com/aa022/CVE-2026-23918-Passive-Audit)
 - [insomnisec/Detections-CVE-2026-23918](https://github.com/insomnisec/Detections-CVE-2026-23918)
-- [Bencodin/CVE-2026-23918-poc](https://github.com/Bencodin/CVE-2026-23918-poc)
 - [sibersan/apache_audit_cve-2026-23918](https://github.com/sibersan/apache_audit_cve-2026-23918)
 - [gagaltotal/CVE-2026-23918-Double-free-Apache-httpd-mod_http2](https://github.com/gagaltotal/CVE-2026-23918-Double-free-Apache-httpd-mod_http2)
 
@@ -3311,7 +3306,6 @@
 - [adibirzu/openclaw-security-monitor](https://github.com/adibirzu/openclaw-security-monitor)
 - [FrigateCaptain/openclaw_vulnerabilities_and_solutions](https://github.com/FrigateCaptain/openclaw_vulnerabilities_and_solutions)
 - [EQSTLab/CVE-2026-25253](https://github.com/EQSTLab/CVE-2026-25253)
-- [cain66666/openclaw-hardening-check](https://github.com/cain66666/openclaw-hardening-check)
 
 ### CVE-2026-25262
 - [shurikgo/cve-2026-25262-sm8450-research](https://github.com/shurikgo/cve-2026-25262-sm8450-research)
@@ -3618,7 +3612,6 @@
 </code>
 
 - [0xjohnnydev/CVE-2026-28992-IOHIDFamily-FastPathUserClient-Race-Conditions](https://github.com/0xjohnnydev/CVE-2026-28992-IOHIDFamily-FastPathUserClient-Race-Conditions)
-- [clogan9019-dotcom/IOHIDFamily-PoC-Research](https://github.com/clogan9019-dotcom/IOHIDFamily-PoC-Research)
 
 ### CVE-2026-29000 (2026-03-04)
 
@@ -3644,13 +3637,6 @@
 </code>
 
 - [CrimsonfiedOfficial/CVE-2026-29115](https://github.com/CrimsonfiedOfficial/CVE-2026-29115)
-
-### CVE-2026-29116 (2026-06-10)
-
-<code>A vulnerability has been found in some Dahua products could\nallow an unauthenticated remote attacker to send a specially crafted packet,\ntriggering an exception that causes the system to reboot unexpectedly,\nresulting in a denial of service.
-</code>
-
-- [CrimsonfiedOfficial/CVE-2026-29116](https://github.com/CrimsonfiedOfficial/CVE-2026-29116)
 
 ### CVE-2026-29145 (2026-04-09)
 
@@ -4773,6 +4759,7 @@
 </code>
 
 - [0xABCD01/CVE-2026-41089](https://github.com/0xABCD01/CVE-2026-41089)
+- [jelasin/CVE-2026-41089](https://github.com/jelasin/CVE-2026-41089)
 - [0xBlackash/CVE-2026-41089](https://github.com/0xBlackash/CVE-2026-41089)
 - [hnytgl/CVE-2026-41089-Detector](https://github.com/hnytgl/CVE-2026-41089-Detector)
 - [hnytgl/CVE-2026-41089](https://github.com/hnytgl/CVE-2026-41089)
@@ -5185,11 +5172,9 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nrtmutex: Use waiter::task instead of current in remove_waiter()\n\nremove_waiter() is used by the slowlock paths, but it is also used for\nproxy-lock rollback in rt_mutex_start_proxy_lock() when invoked from\nfutex_requeue().\n\nIn the latter case waiter::task is not current, but remove_waiter()\noperates on current for the dequeue operation. That results in several\nproblems:\n\n  1) the rbtree dequeue happens without waiter::task::pi_lock being held\n\n  2) the waiter task's pi_blocked_on state is not cleared, which leaves a\n     dangling pointer primed for UAF around.\n\n  3) rt_mutex_adjust_prio_chain() operates on the wrong top priority waiter\n     task\n\nUse waiter::task instead of current in all related operations in\nremove_waiter() to cure those problems.\n\n[ tglx: Fixup rt_mutex_adjust_prio_chain(), add a comment and amend the\n  </code>
 
 - [MobiusM/CVE-2026-43499](https://github.com/MobiusM/CVE-2026-43499)
-- [0xBlackash/CVE-2026-43499](https://github.com/0xBlackash/CVE-2026-43499)
 - [tc3650/CVE-2026-43499-armv7](https://github.com/tc3650/CVE-2026-43499-armv7)
 - [suominen/ghostlock](https://github.com/suominen/ghostlock)
 - [pubglite55/oppo-ghostlock](https://github.com/pubglite55/oppo-ghostlock)
-- [caspy123/CVE-2026-43499](https://github.com/caspy123/CVE-2026-43499)
 - [x-spy/CVE-2026-43499-popsicle](https://github.com/x-spy/CVE-2026-43499-popsicle)
 - [dmcdtc/openvz-cve-patch-2026](https://github.com/dmcdtc/openvz-cve-patch-2026)
 - [JoinChang/ghostlock-oneplus](https://github.com/JoinChang/ghostlock-oneplus)
@@ -5199,6 +5184,7 @@
 - [Thiasap/oppo-pgem10-ghostlock](https://github.com/Thiasap/oppo-pgem10-ghostlock)
 - [CakesTwix/Android-CVE-2026-43499](https://github.com/CakesTwix/Android-CVE-2026-43499)
 - [Bartixxx32/CVE-2026-43499-OnePlus15](https://github.com/Bartixxx32/CVE-2026-43499-OnePlus15)
+- [virtualesp/SpringPeace](https://github.com/virtualesp/SpringPeace)
 - [Linuxoid-cn/CVE-2026-43499-Poc-Analysis](https://github.com/Linuxoid-cn/CVE-2026-43499-Poc-Analysis)
 - [qsvggff-spec/oppo-A5-PRO-5G-CVE-2026-43499](https://github.com/qsvggff-spec/oppo-A5-PRO-5G-CVE-2026-43499)
 - [xianwan1314/CVE-2026-43499-Poc-Analysis](https://github.com/xianwan1314/CVE-2026-43499-Poc-Analysis)
@@ -5267,6 +5253,9 @@
 - [NanoTurtle1145/root-my-s9280](https://github.com/NanoTurtle1145/root-my-s9280)
 - [R0rt1z2/GhostLock-5.10](https://github.com/R0rt1z2/GhostLock-5.10)
 - [gitchw/ghostlock-cve-2026-43499](https://github.com/gitchw/ghostlock-cve-2026-43499)
+- [zychen027/CVE-2026-43499_HW-CLT-AL01](https://github.com/zychen027/CVE-2026-43499_HW-CLT-AL01)
+- [XiaoBaiLovesStirring/ghostlock-custom](https://github.com/XiaoBaiLovesStirring/ghostlock-custom)
+- [xrzcc/s26-m1q-ghostlock-selinux](https://github.com/xrzcc/s26-m1q-ghostlock-selinux)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -5275,12 +5264,6 @@
 
 - [attaattaatta/CVE-2026-43500](https://github.com/attaattaatta/CVE-2026-43500)
 - [vorkampfer/dirty_frag_mitigation](https://github.com/vorkampfer/dirty_frag_mitigation)
-
-### CVE-2026-43501 (2026-05-21)
-
-<code>In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: rpl: reserve mac_len headroom when recompressed SRH grows\n\nipv6_rpl_srh_rcv() decompresses an RFC 6554 Source Routing Header, swaps\nthe next segment into ipv6_hdr-&gt;daddr, recompresses, then pulls the old\nheader and pushes the new one plus the IPv6 header back.  The\nrecompressed header can be larger than the received one when the swap\nreduces the common-prefix length the segments share with daddr (CmprI=0,\nCmprE&gt;0, seg[0][0] != daddr[0] gives the maximum +8 bytes).\n\npskb_expand_head() was gated on segments_left == 0, so on earlier\nsegments the push consumed unchecked headroom.  Once skb_push() leaves\nfewer than skb-&gt;mac_len bytes in front of data,\nskb_mac_header_rebuild()'s call to:\n\n</code>
-
-- [Anyone202/cybermeowfia-termux](https://github.com/Anyone202/cybermeowfia-termux)
 
 ### CVE-2026-43503 (2026-05-23)
 
@@ -5693,13 +5676,6 @@
 - [0xCyberstan/CVE-2026-46215-POC](https://github.com/0xCyberstan/CVE-2026-46215-POC)
 - [bluedragonsecurity/CVE-2026-46215-EXPLOIT](https://github.com/bluedragonsecurity/CVE-2026-46215-EXPLOIT)
 - [bluedragonsecurity/CVE-2026-46215-exploit-linux-7.0-uaf-stable](https://github.com/bluedragonsecurity/CVE-2026-46215-exploit-linux-7.0-uaf-stable)
-
-### CVE-2026-46242 (2026-05-30)
-
-<code>In the Linux kernel, the following vulnerability has been resolved:\n\neventpoll: fix ep_remove struct eventpoll / struct file UAF\n\nep_remove() (via ep_remove_file()) cleared file-&gt;f_ep under\nfile-&gt;f_lock but then kept using @file inside the critical section\n(is_file_epoll(), hlist_del_rcu() through the head, spin_unlock).\nA concurrent __fput() taking the eventpoll_release() fastpath in\nthat window observed the transient NULL, skipped\neventpoll_release_file() and ran to f_op-&gt;release / file_free().\n\nFor the epoll-watches-epoll case, f_op-&gt;release is\nep_eventpoll_release() -&gt; ep_clear_and_put() -&gt; ep_free(), which\nkfree()s the watched struct eventpoll. Its embedded -&gt;refs\nhlist_head is exactly where epi-&gt;fllink.pprev points, so the\nsubsequent hlist_del_rcu()'s &quot;*pprev = next&quot; scribbles into freed\nkmalloc-192 memory.\n\nIn addition, struct file is SLAB_TYPESAFE_BY_RCU, so the slot\nbacking @file could be recycled by alloc_empty_file() --\nreinitializing f_lock and f_ep -- while ep_remove() is still\nnominally inside that lock. The upshot is an attacker-controllable\nkmem_cache_free() against the wrong slab cache.\n\nPin @file via epi_fget() at the top of ep_remove() and gate the\ncritical section on the pin succeeding. With the pin held @file\ncannot reach refcount zero, which holds __fput() off and\ntransitively keeps the watched struct eventpoll alive across the\nhlist_del_rcu() and the f_lock use, closing both UAFs.\n\nIf the pin fails @file has already reached refcount zero and its\n__fput() is in flight. Because we bailed before clearing f_ep,\nthat path takes the eventpoll_release() slow path into\neventpoll_release_file() and blocks on ep-&gt;mtx until the waiter\nside's ep_clear_and_put() drops it. The bailed epi's share of\nep-&gt;refcount stays intact, so the trailing ep_refcount_dec_and_test()\nin ep_clear_and_put() cannot free the eventpoll out from under\neventpoll_release_file(); the orphaned epi is then cleaned up\nthere.\n\nA successful pin also proves we are not racing\neventpoll_release_file() on this epi, so drop the now-redundant\nre-check of epi-&gt;dying under f_lock. The cheap lockless\nREAD_ONCE(epi-&gt;dying) fast-path bailout stays.
-</code>
-
-- [Baba01hacker666/CVE-2026-46242](https://github.com/Baba01hacker666/CVE-2026-46242)
 
 ### CVE-2026-46243 (2026-06-01)
 
@@ -7182,6 +7158,13 @@
 
 - [BiiTts/CVE-2026-56782-Gorse-Auth-Bypass](https://github.com/BiiTts/CVE-2026-56782-Gorse-Auth-Bypass)
 
+### CVE-2026-56848 (2026-08-04)
+
+<code>A flaw in Node.js HTTP/2 handling allows `nghttp2_session_mem_send()` to be called re-entrantly while `nghttp2_session_mem_recv()` is executing, resulting in a heap-use-after-free.\r\n\r\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.
+</code>
+
+- [open-flaw/CVE-2026-56848](https://github.com/open-flaw/CVE-2026-56848)
+
 ### CVE-2026-56852 (2026-07-21)
 
 <code>A norm.Iter can enter an infinite loop when handling input containing invalid UTF-8 bytes.
@@ -7546,7 +7529,6 @@
 - [johnlodan/wp2shell-rce](https://github.com/johnlodan/wp2shell-rce)
 - [Procjevt/CVE-2026-63030](https://github.com/Procjevt/CVE-2026-63030)
 - [x-znn/CVE-2026-63030](https://github.com/x-znn/CVE-2026-63030)
-- [rechandra/wp2exp-2026](https://github.com/rechandra/wp2exp-2026)
 - [minwunn/wp2shell-CVE-2026-63030](https://github.com/minwunn/wp2shell-CVE-2026-63030)
 - [sowarma/wp2shell-PoC](https://github.com/sowarma/wp2shell-PoC)
 - [AnggaTechI/CVE-2026-63030](https://github.com/AnggaTechI/CVE-2026-63030)
@@ -7724,6 +7706,7 @@
 </code>
 
 - [codeb0ssx/CVE-2026-64849-PoC](https://github.com/codeb0ssx/CVE-2026-64849-PoC)
+- [BiuTrap/CVE-2026-64849](https://github.com/BiuTrap/CVE-2026-64849)
 
 ### CVE-2026-65008 (2026-07-21)
 
@@ -10982,13 +10965,6 @@
 </code>
 
 - [SnailSploit/CVE-2025-12030](https://github.com/SnailSploit/CVE-2025-12030)
-
-### CVE-2025-12057 (2025-11-19)
-
-<code>The WavePlayer WordPress plugin before 3.8.0 does not have authorization in an AJAX action as well as does not validate the file to be copied locally, allowing unauthenticated users to upload arbitrary file on the server and lead to RCE
-</code>
-
-- [DeadExpl0it/CVE-2025-12057-WordPress-Exploit-PoC](https://github.com/DeadExpl0it/CVE-2025-12057-WordPress-Exploit-PoC)
 
 ### CVE-2025-12097 (2025-12-04)
 
@@ -14447,6 +14423,7 @@
 </code>
 
 - [farazsth98/poc-CVE-2025-38352](https://github.com/farazsth98/poc-CVE-2025-38352)
+- [Crime2/poc-CVE-2025-38352](https://github.com/Crime2/poc-CVE-2025-38352)
 - [jordelmir/Elysium-Vanguard-Sentinel-Audit](https://github.com/jordelmir/Elysium-Vanguard-Sentinel-Audit)
 - [AnalyticETH/chronomaly-webos](https://github.com/AnalyticETH/chronomaly-webos)
 
@@ -16073,6 +16050,13 @@
 
 - [piotrmaciejbednarski/CVE-2025-51529](https://github.com/piotrmaciejbednarski/CVE-2025-51529)
 
+### CVE-2025-51586 (2025-09-08)
+
+<code>An issue was discoverd in file controllers/admin/AdminLoginController.php in PrestaShop before 8.2.1 allowing attackers to gain sensitive information via the reset password feature.
+</code>
+
+- [7h30th3r0n3/CVE-2025-51586-PrestaShop-PoC](https://github.com/7h30th3r0n3/CVE-2025-51586-PrestaShop-PoC)
+
 ### CVE-2025-51591 (2025-07-11)
 
 <code>A Server-Side Request Forgery (SSRF) in JGM Pandoc v3.6.4 allows attackers to gain access to and compromise the whole infrastructure via injecting a crafted iframe. Note: Some users have stated that Pandoc by default can retrieve and parse untrusted HTML content which can enable SSRF vulnerabilities. Using the ‘--sandbox’ option or ‘pandoc-server’ can mitigate such vulnerabilities. Using pandoc with an external ‘--pdf-engine’ can also enable SSRF vulnerabilities, such as CVE-2022-35583 in wkhtmltopdf.
@@ -17079,7 +17063,6 @@
 - [CrazyloveforWeb/Golang-CVE-2025-55182-POC](https://github.com/CrazyloveforWeb/Golang-CVE-2025-55182-POC)
 - [JahazielLem/NSE_CVE-2025-55182](https://github.com/JahazielLem/NSE_CVE-2025-55182)
 - [CerberusMrXi/Cerberus-React2Shell-Scanner-Exploit](https://github.com/CerberusMrXi/Cerberus-React2Shell-Scanner-Exploit)
-- [Saad-Ayady/react2shellNSE](https://github.com/Saad-Ayady/react2shellNSE)
 - [VeilVulp/RscScan-cve-2025-55182](https://github.com/VeilVulp/RscScan-cve-2025-55182)
 - [yz9yt/React2Shell-CTF](https://github.com/yz9yt/React2Shell-CTF)
 - [Gymnott1/CVE-2025-55182](https://github.com/Gymnott1/CVE-2025-55182)
@@ -22495,6 +22478,13 @@
 
 - [Nxploited/CVE-2024-7985-PoC](https://github.com/Nxploited/CVE-2024-7985-PoC)
 
+### CVE-2024-8068 (2024-11-12)
+
+<code>Privilege escalation to NetworkService Account access in Citrix Session Recording when an attacker is an authenticated user in the same Windows Active Directory domain as the session recording server domain
+</code>
+
+- [HORKimhab/CVE-2024-8068-CVE-2024-8069](https://github.com/HORKimhab/CVE-2024-8068-CVE-2024-8069)
+
 ### CVE-2024-8069 (2024-11-12)
 
 <code>Limited remote code execution with privilege of a NetworkService Account access in Citrix Session Recording if the attacker is an authenticated user on the same intranet as the session recording server
@@ -22924,7 +22914,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-9796](https://github.com/RandomRobbieBF/CVE-2024-9796)
-- [viniciuslazzari/CVE-2024-9796](https://github.com/viniciuslazzari/CVE-2024-9796)
 - [BwithE/CVE-2024-9796](https://github.com/BwithE/CVE-2024-9796)
 - [yup-Ivan/CVE-2024-9796](https://github.com/yup-Ivan/CVE-2024-9796)
 
@@ -64794,6 +64783,7 @@
 </code>
 
 - [ccchme/CVE-2018-1058](https://github.com/ccchme/CVE-2018-1058)
+- [mthamil107/DB_Audit_Research](https://github.com/mthamil107/DB_Audit_Research)
 
 ### CVE-2018-1088 (2018-04-18)
 
