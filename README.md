@@ -2203,7 +2203,11 @@
 ### CVE-2026-17001
 - [llaytynher/CVE-2026-17001](https://github.com/llaytynher/CVE-2026-17001)
 
-### CVE-2026-17106
+### CVE-2026-17106 (2026-08-18)
+
+<code>The tar extraction routines in moby/go-archive (Unpack, UnpackLayer, Untar/UntarUncompressed, and the ApplyLayer helpers) do not confine filesystem operations to the destination directory. The extractor decides where each archive entry lands using lexical string checks and then performs the filesystem operation on a path that is resolved by the OS, so links introduced by the archive can be followed out of the destination directory. An attacker who controls the contents of an archive can create or overwrite files at arbitrary paths writable by the extracting process.
+</code>
+
 - [masasron/CopyEscape-CVE-2026-17106](https://github.com/masasron/CopyEscape-CVE-2026-17106)
 - [HackSpeak/CVE-2026-17106](https://github.com/HackSpeak/CVE-2026-17106)
 - [686f6c61/POC-CopyEscape-CVE-2026-17106](https://github.com/686f6c61/POC-CopyEscape-CVE-2026-17106)
@@ -2265,6 +2269,13 @@
 </code>
 
 - [Nxploited/CVE-2026-18366](https://github.com/Nxploited/CVE-2026-18366)
+
+### CVE-2026-18504 (2026-08-18)
+
+<code>fastify is a fast and low overhead web framework for Node.js. Versions of fastify before 5.12.1 are affected by a schema validation bypass when a request body schema targets a root primitive value. When the schema validates a top-level primitive such as an integer, Ajv can coerce a JSON string into the expected type during validation, but Fastify does not replace the root request body with the coerced value, so the route handler receives the original unvalidated string. As a result, a request that should have failed validation can reach application logic with a value that does not satisfy the schema, which can undermine integrity and access-control checks that rely on the validated type. Users should upgrade to fastify 5.12.1, which fixes the mismatch. No known workarounds are available.
+</code>
+
+- [HORKimhab/CVE-2026-18504-CVE-2026-16732](https://github.com/HORKimhab/CVE-2026-18504-CVE-2026-16732)
 
 ### CVE-2026-18556 (2026-08-01)
 
@@ -3109,7 +3120,6 @@
 - [rohit-sundar/cve-2026-23744](https://github.com/rohit-sundar/cve-2026-23744)
 - [daemoncibsec/mcpExec](https://github.com/daemoncibsec/mcpExec)
 - [timgad794/DevHub-HTB-Walkthrough](https://github.com/timgad794/DevHub-HTB-Walkthrough)
-- [0x77FSec/CVE-2026-23744](https://github.com/0x77FSec/CVE-2026-23744)
 - [ozcanpng/CVE-2026-23744](https://github.com/ozcanpng/CVE-2026-23744)
 - [CerberusMrXi/CVE-2026-23744-MCPJam-Exploit](https://github.com/CerberusMrXi/CVE-2026-23744-MCPJam-Exploit)
 - [nullRoot-Red/CVE-2026-23744](https://github.com/nullRoot-Red/CVE-2026-23744)
@@ -4144,6 +4154,7 @@
 
 - [anonmrc/CVE-2026-34486-e-Tomcat-Tribes](https://github.com/anonmrc/CVE-2026-34486-e-Tomcat-Tribes)
 - [razureink/cve-2026-34486-tomcat_encrypt_bypass_reproduction](https://github.com/razureink/cve-2026-34486-tomcat_encrypt_bypass_reproduction)
+- [CypherHippie/CVE-2026-34486---unauthenticated-RCE-via-Java-deserialization](https://github.com/CypherHippie/CVE-2026-34486---unauthenticated-RCE-via-Java-deserialization)
 
 ### CVE-2026-34908 (2026-05-22)
 
@@ -4713,27 +4724,6 @@
 </code>
 
 - [Rat5ak/CVE-2026-40791-WP-Time-Slots-Booking-Form-XSS](https://github.com/Rat5ak/CVE-2026-40791-WP-Time-Slots-Booking-Form-XSS)
-
-### CVE-2026-40858 (2026-04-27)
-
-<code>The camel-infinispan component's ProtoStream-based remote aggregation repository deserializes data read from a remote Infinispan cache using java.io.ObjectInputStream without applying any ObjectInputFilter. An attacker who can write to the Infinispan cache used by a Camel application can inject a crafted serialized Java object that, when read during normal aggregation repository operations such as get or recover, results in arbitrary code execution in the context of the application.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.14.7, from 4.15.0 before 4.18.2, from 4.19.0 before 4.20.0.\n\nUsers are recommended to upgrade to version 4.20.0, which fixes the issue. If users are on the 4.14.x LTS releases stream, then they are suggested to upgrade to 4.14.7. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.2.\n\nThe JIRA ticket:  https://issues.apache.org/jira/browse/CAMEL-23322  refers to the various commits that resolved the issue, and have more details. This issue follows the same class of vulnerability previously addressed in CVE-2024-22369, CVE-2024-23114 and CVE-2026-25747.
-</code>
-
-- [oscerd/CVE-2026-40858](https://github.com/oscerd/CVE-2026-40858)
-
-### CVE-2026-40859 (2026-07-06)
-
-<code>Deserialization of Untrusted Data vulnerability in Apache Camel.\n\nThe camel-vertx-http component deserializes HTTP response bodies carrying the Content-Type application/x-java-serialized-object using a raw java.io.ObjectInputStream, without applying any ObjectInputFilter (VertxHttpHelper.deserializeJavaObjectFromStream) This deserialization path is reached only when the producer endpoint is configured with transferException=true (or the component-level allowJavaSerializedObject=true) and throwExceptionOnFailure is left at its default value of true; in that case a backend HTTP response with a 5xx status and the application/x-java-serialized-object content type has its body deserialized with no class restrictions. An attacker who controls the backend the Camel producer talks to - through a man-in-the-middle position on an unencrypted (plain HTTP) connection, or by compromising the backend service - can return a crafted serialized Java object and, if a suitable gadget chain is present on the classpath, achieve remote code execution on the Camel application host. The path is not reachable in the default configuration, where transferException is false.\nThis issue affects Apache Camel: from 4.0.0 before 4.14.8, from 4.15.0 before 4.18.3, from 4.19.0 before 4.20.0.\n\nUsers are recommended to upgrade to version 4.20.0, which fixes the issue. If users are on the 4.14.x LTS releases stream, then they are suggested to upgrade to 4.14.8. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.3. After upgrading, the deserialization performed by both helper utilities is constrained by a default ObjectInputFilter (allow-list java.**;javax.**;org.apache.camel.**;!*), which can be customised through the new deserializationFilter endpoint option or the JVM-wide -Djdk.serialFilter system property. For deployments that cannot upgrade immediately: do not enable transferException=true (or allowJavaSerializedObject=true) on producers that talk to untrusted or network-reachable backends; ensure producer connections use TLS (https) so that a response cannot be substituted by a man-in-the-middle; and, where the option is required, set an explicit -Djdk.serialFilter allow-list (for example java.**;org.apache.camel.**;!*) to constrain deserialization.
-</code>
-
-- [oscerd/CVE-2026-40859](https://github.com/oscerd/CVE-2026-40859)
-
-### CVE-2026-40860 (2026-04-27)
-
-<code>JmsBinding.extractBodyFromJms() in camel-jms, and the equivalent JmsBinding class in camel-sjms, deserialized the payload of incoming JMS ObjectMessage values via javax.jms.ObjectMessage.getObject() without applying any ObjectInputFilter, class allowlist or class denylist. Because this code path is reached whenever the mapJmsMessage option is enabled (the default) and Camel acts as a JMS consumer, an attacker able to publish a crafted ObjectMessage to a queue or topic consumed by a Camel application could achieve remote code execution when a deserialization gadget chain was present on the classpath. The same handling was reached transitively through camel-sjms2 (whose Sjms2Endpoint extends SjmsEndpoint) and through camel-amqp (whose AMQPJmsBinding extends JmsBinding), and by other JMS-family components built on JmsComponent such as camel-activemq and camel-activemq6.\n\nThis issue affects Apache Camel: from 3.0.0 before 4.14.7, from 4.15.0 before 4.18.2, from 4.19.0 before 4.20.0.\n\nUsers are recommended to upgrade to version 4.20.0, which fixes the issue. If users are on the 4.14.x LTS releases stream, then they are suggested to upgrade to 4.14.7. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.2.
-</code>
-
-- [oscerd/CVE-2026-40860](https://github.com/oscerd/CVE-2026-40860)
 
 ### CVE-2026-40864 (2026-05-22)
 
@@ -5496,6 +5486,13 @@
 </code>
 
 - [BiiTts/CVE-2026-44789-n8n-PrototypePollution-RCE](https://github.com/BiiTts/CVE-2026-44789-n8n-PrototypePollution-RCE)
+
+### CVE-2026-44848 (2026-05-28)
+
+<code>Portainer Community Edition is a lightweight service delivery platform for containerized applications that can be used to manage Docker, Swarm, Kubernetes and ACI environments. From 2.33.0 to before 2.33.8, 2.39.2, and 2.41.0, The Docker plugin management endpoints (/plugins/*) were not registered with a handler, so standard users with endpoint access could call privileged plugin operations — including installing and enabling plugins — directly against the underlying Docker daemon. The vulnerability is exposed when a non-admin Portainer user (Standard User role, or any role granted endpoint-level access) has been given access to a Docker endpoint via Portainer RBAC. This vulnerability is fixed in 2.33.8, 2.39.2, and 2.41.0.
+</code>
+
+- [Boreas37/CVE-2026-44848-PoC](https://github.com/Boreas37/CVE-2026-44848-PoC)
 
 ### CVE-2026-44881 (2026-05-28)
 
@@ -6327,7 +6324,6 @@
 <code>The Helix3 plugin for Joomla exposes an ajax handler task, that allows unauthenticated attackers to delete arbitrary files, write arbitrary JSON files and update template parameters.
 </code>
 
-- [Dr-D25/CVE-2026-49049](https://github.com/Dr-D25/CVE-2026-49049)
 - [ExDev994/CVE-2026-49049](https://github.com/ExDev994/CVE-2026-49049)
 - [Jenderal92/CVE-2026-49049](https://github.com/Jenderal92/CVE-2026-49049)
 
@@ -6535,7 +6531,11 @@
 ### CVE-2026-50055
 - [HORKimhab/CVE-2026-50055](https://github.com/HORKimhab/CVE-2026-50055)
 
-### CVE-2026-50142
+### CVE-2026-50142 (2026-08-18)
+
+<code>libheif is a HEIF and AVIF file format decoder and encoder. From 1.19.0 until 1.23.0, a crafted HEIF sequence accepted by heif_context_read_from_memory() with the msf1 sequence brand can cause unbounded heap allocation. In libheif/sequences/seq_boxes.cc, Box_stsz::parse() applies max_sequence_frames only to variable-size samples, so fixed-size mode accepts an attacker-controlled sample_count without a bound. In libheif/sequences/track.cc, Track::load() also adds current_sample_idx and samples_per_chunk in 32-bit arithmetic, allowing the consistency check to be bypassed by wraparound. The resulting values reach the Chunk::Chunk() allocation path, which can consume gigabytes of memory and crash or stall the process through memory exhaustion. This issue is fixed in version 1.23.0.
+</code>
+
 - [MuhammedHussein17/libheif-cve-2026-50142](https://github.com/MuhammedHussein17/libheif-cve-2026-50142)
 
 ### CVE-2026-50338 (2026-07-14)
@@ -6619,9 +6619,6 @@
 - [fernstedt/CVE-2026-50751](https://github.com/fernstedt/CVE-2026-50751)
 - [watchtowrlabs/watchTowr-vs-Check-Point-CVE-2026-50751](https://github.com/watchtowrlabs/watchTowr-vs-Check-Point-CVE-2026-50751)
 - [WadesWeaponShed/CheckPoint-CVE-Webscanner](https://github.com/WadesWeaponShed/CheckPoint-CVE-Webscanner)
-
-### CVE-2026-50980
-- [bugresearch/CVE-2026-50980](https://github.com/bugresearch/CVE-2026-50980)
 
 ### CVE-2026-51031 (2026-07-20)
 
@@ -6957,13 +6954,6 @@
 </code>
 
 - [KovachVL/CVE-2026-54356](https://github.com/KovachVL/CVE-2026-54356)
-
-### CVE-2026-54390 (2026-06-18)
-
-<code>JTL Shop versions 5.2.0 through 5.7.1 contains a server-side template injection vulnerability that allows unauthenticated attackers to inject malicious template syntax due to unsanitized user-supplied input passed to the Smarty template engine. Attackers can exploit this flaw to read sensitive server-side values such as database credentials and encryption keys, and on versions 5.4.0 through 5.7.1, leverage registered Smarty modifiers including unserialize and file_get_contents to write a webshell to the web root and execute arbitrary commands as the web server user.
-</code>
-
-- [shinthink/CVE-2026-54390](https://github.com/shinthink/CVE-2026-54390)
 
 ### CVE-2026-54420 (2026-06-14)
 
@@ -7480,6 +7470,7 @@
 </code>
 
 - [DavidCarliez/cve-2026-62737-lab](https://github.com/DavidCarliez/cve-2026-62737-lab)
+- [loanvui/CVE-2026-62737](https://github.com/loanvui/CVE-2026-62737)
 
 ### CVE-2026-62958
 - [0Linear/CVE-2026-62958](https://github.com/0Linear/CVE-2026-62958)
@@ -7696,6 +7687,7 @@
 - [ZildanZ/CVE-2026-64638](https://github.com/ZildanZ/CVE-2026-64638)
 - [Alixploit22/CVEX2SHEL](https://github.com/Alixploit22/CVEX2SHEL)
 - [SanaullahAmanullah/xss2shell-check](https://github.com/SanaullahAmanullah/xss2shell-check)
+- [kaleth4/CVE-2026-64638](https://github.com/kaleth4/CVE-2026-64638)
 
 ### CVE-2026-64640 (2026-08-06)
 
@@ -7725,6 +7717,13 @@
 </code>
 
 - [Boreas37/CVE-2026-64824-PoC](https://github.com/Boreas37/CVE-2026-64824-PoC)
+
+### CVE-2026-64849 (2026-08-17)
+
+<code>MLflow is an open source AI engineering platform for agents, large language models, and machine learning models. Prior to 3.15.0, the unauthenticated POST /api/2.0/mlflow/webhooks/{id}/test endpoint calls _validate_webhook_url() in mlflow/utils/validation.py only for the original URL while mlflow/webhooks/delivery.py follows redirects and re-resolves the hostname without pinning the validated address, allowing attackers to reach internal or cloud metadata services and receive response_status and response_body. This issue is fixed in version 3.15.0.
+</code>
+
+- [codeb0ssx/CVE-2026-64849-PoC](https://github.com/codeb0ssx/CVE-2026-64849-PoC)
 
 ### CVE-2026-65008 (2026-07-21)
 
@@ -7952,6 +7951,7 @@
 </code>
 
 - [DavidCarliez/CVE-2026-66804-CrossDevice-LPE](https://github.com/DavidCarliez/CVE-2026-66804-CrossDevice-LPE)
+- [CypherHippie/CVE-2026-66804](https://github.com/CypherHippie/CVE-2026-66804)
 - [Rat5ak/CVE-2026-66804-CrossDevice-Service-EoP](https://github.com/Rat5ak/CVE-2026-66804-CrossDevice-Service-EoP)
 
 ### CVE-2026-67181 (2026-07-28)
@@ -8328,21 +8328,21 @@
 
 ### CVE-2026-74943 (2026-08-18)
 
-<code>Use-after-free in the Graphics: ImageLib component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, and Firefox ESR 153.1.
+<code>Use-after-free in the Graphics: ImageLib component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.
 </code>
 
 - [defineid/Revenant](https://github.com/defineid/Revenant)
 
 ### CVE-2026-74945 (2026-08-18)
 
-<code>Information disclosure in the Graphics: Text component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, and Firefox ESR 153.1.
+<code>Information disclosure in the Graphics: Text component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.
 </code>
 
 - [defineid/Palimpsest](https://github.com/defineid/Palimpsest)
 
 ### CVE-2026-74970 (2026-08-18)
 
-<code>Site isolation issue in the Graphics component. This vulnerability was fixed in Firefox 154 and Firefox ESR 153.1.
+<code>Site isolation issue in the Graphics component. This vulnerability was fixed in Firefox 154, Firefox ESR 153.1, Thunderbird 154, and Thunderbird 153.1.
 </code>
 
 - [defineid/Trespasser](https://github.com/defineid/Trespasser)
@@ -9037,7 +9037,7 @@
 - [xuemian168/CVE-2025-3248](https://github.com/xuemian168/CVE-2025-3248)
 - [PuddinCat/CVE-2025-3248-POC](https://github.com/PuddinCat/CVE-2025-3248-POC)
 - [verylazytech/CVE-2025-3248](https://github.com/verylazytech/CVE-2025-3248)
-- [Praison001/CVE-2025-3248](https://github.com/Praison001/CVE-2025-3248)
+- [GraySignal/CVE-2025-3248](https://github.com/GraySignal/CVE-2025-3248)
 - [vigilante-1337/CVE-2025-3248](https://github.com/vigilante-1337/CVE-2025-3248)
 - [Vip3rLi0n/CVE-2025-3248](https://github.com/Vip3rLi0n/CVE-2025-3248)
 - [tiemio/RCE-CVE-2025-3248](https://github.com/tiemio/RCE-CVE-2025-3248)
@@ -9719,6 +9719,7 @@
 </code>
 
 - [yacine-rm/CVE-2025-5880-PoC](https://github.com/yacine-rm/CVE-2025-5880-PoC)
+- [AC8999/CVE-2025-5880](https://github.com/AC8999/CVE-2025-5880)
 
 ### CVE-2025-5915 (2025-06-09)
 
@@ -12515,7 +12516,7 @@
 
 ### CVE-2025-25256 (2025-08-12)
 
-<code>An improper neutralization of special elements used in an OS command ('OS Command Injection') vulnerability [CWE-78] in Fortinet FortiSIEM version 7.3.0 through 7.3.1, 7.2.0 through 7.2.5, 7.1.0 through 7.1.7, 7.0.0 through 7.0.3 and before 6.7.9 allows an unauthenticated attacker to execute unauthorized code or commands via crafted CLI requests.
+<code>An improper neutralization of special elements used in an OS command ('OS Command Injection') vulnerability [CWE-78] vulnerability in Fortinet FortiSIEM 7.3.0 through 7.3.1, FortiSIEM 7.2.0 through 7.2.5, FortiSIEM 7.1.0 through 7.1.7, FortiSIEM 7.0.0 through 7.0.3, FortiSIEM 6.7.0 through 6.7.9, FortiSIEM 6.6 all versions, FortiSIEM 6.5 all versions, FortiSIEM 6.4 all versions, FortiSIEM 6.3 all versions, FortiSIEM 6.2 all versions, FortiSIEM 6.1 all versions, FortiSIEM 5.4 all versions, FortiSIEM 5.3 all versions, FortiSIEM 5.2 all versions, FortiSIEM 5.1 all versions, FortiSIEM 5.0 all versions, FortiSIEM 4.10 all versions, FortiSIEM 4.9 all versions, FortiSIEM 4.7 all versions allows an unauthenticated attacker to execute unauthorized code or commands via crafted CLI requests.
 </code>
 
 - [watchtowrlabs/watchTowr-vs-FortiSIEM-CVE-2025-25256](https://github.com/watchtowrlabs/watchTowr-vs-FortiSIEM-CVE-2025-25256)
@@ -14446,7 +14447,6 @@
 </code>
 
 - [farazsth98/poc-CVE-2025-38352](https://github.com/farazsth98/poc-CVE-2025-38352)
-- [Crime2/poc-CVE-2025-38352](https://github.com/Crime2/poc-CVE-2025-38352)
 - [jordelmir/Elysium-Vanguard-Sentinel-Audit](https://github.com/jordelmir/Elysium-Vanguard-Sentinel-Audit)
 - [AnalyticETH/chronomaly-webos](https://github.com/AnalyticETH/chronomaly-webos)
 
@@ -16284,7 +16284,6 @@
 - [Udyz/CVE-2025-52691](https://github.com/Udyz/CVE-2025-52691)
 - [you-ssef9/CVE-2025-52691](https://github.com/you-ssef9/CVE-2025-52691)
 - [DeathShotXD/CVE-2025-52691-APT-PoC](https://github.com/DeathShotXD/CVE-2025-52691-APT-PoC)
-- [watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691](https://github.com/watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691)
 - [ninjazan420/CVE-2025-52691-PoC-SmarterMail-authentication-bypass-exploit-WT-2026-0001](https://github.com/ninjazan420/CVE-2025-52691-PoC-SmarterMail-authentication-bypass-exploit-WT-2026-0001)
 
 ### CVE-2025-52694 (2026-01-12)
@@ -18455,6 +18454,13 @@
 
 - [edera-dev/cve-tarmageddon](https://github.com/edera-dev/cve-tarmageddon)
 - [AirineiAndrei/Tarmageddon-CVE-2025-62518-](https://github.com/AirineiAndrei/Tarmageddon-CVE-2025-62518-)
+
+### CVE-2025-62593 (2025-11-26)
+
+<code>Ray is an AI compute engine. Prior to version 2.52.0, developers working with Ray as a development tool can be exploited via a critical RCE vulnerability exploitable via Firefox and Safari. This vulnerability is due to an insufficient guard against browser-based attacks, as the current defense uses the User-Agent header starting with the string &quot;Mozilla&quot; as a defense mechanism. This defense is insufficient as the fetch specification allows the User-Agent header to be modified. Combined with a DNS rebinding attack against the browser, and this vulnerability is exploitable against a developer running Ray who inadvertently visits a malicious website, or is served a malicious advertisement (malvertising). This issue has been patched in version 2.52.0.
+</code>
+
+- [Boreas37/CVE-2025-62593-PoC](https://github.com/Boreas37/CVE-2025-62593-PoC)
 
 ### CVE-2025-62641 (2025-10-21)
 
@@ -21413,7 +21419,7 @@
 - [Mufti22/CVE-2024-4040](https://github.com/Mufti22/CVE-2024-4040)
 - [Stuub/CVE-2024-4040-SSTI-LFI-PoC](https://github.com/Stuub/CVE-2024-4040-SSTI-LFI-PoC)
 - [0xN7y/CVE-2024-4040](https://github.com/0xN7y/CVE-2024-4040)
-- [Praison001/CVE-2024-4040-CrushFTP-server](https://github.com/Praison001/CVE-2024-4040-CrushFTP-server)
+- [GraySignal/CVE-2024-4040-CrushFTP-server](https://github.com/GraySignal/CVE-2024-4040-CrushFTP-server)
 - [dhammerg/CVE-2024-4040](https://github.com/dhammerg/CVE-2024-4040)
 - [jakabakos/CVE-2024-4040-CrushFTP-File-Read-vulnerability](https://github.com/jakabakos/CVE-2024-4040-CrushFTP-File-Read-vulnerability)
 - [gotr00t0day/CVE-2024-4040](https://github.com/gotr00t0day/CVE-2024-4040)
@@ -21689,7 +21695,7 @@
 - [Brut-Security/CVE-2024-4879](https://github.com/Brut-Security/CVE-2024-4879)
 - [bigb0x/CVE-2024-4879](https://github.com/bigb0x/CVE-2024-4879)
 - [Mr-r00t11/CVE-2024-4879](https://github.com/Mr-r00t11/CVE-2024-4879)
-- [Praison001/CVE-2024-4879-ServiceNow](https://github.com/Praison001/CVE-2024-4879-ServiceNow)
+- [GraySignal/CVE-2024-4879-ServiceNow](https://github.com/GraySignal/CVE-2024-4879-ServiceNow)
 - [NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning](https://github.com/NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning)
 - [jdusane/CVE-2024-4879](https://github.com/jdusane/CVE-2024-4879)
 - [gh-ost00/CVE-2024-4879](https://github.com/gh-ost00/CVE-2024-4879)
@@ -21743,7 +21749,7 @@
 - [ifconfig-me/CVE-2024-4956-Bulk-Scanner](https://github.com/ifconfig-me/CVE-2024-4956-Bulk-Scanner)
 - [thinhap/CVE-2024-4956-PoC](https://github.com/thinhap/CVE-2024-4956-PoC)
 - [GoatSecurity/CVE-2024-4956](https://github.com/GoatSecurity/CVE-2024-4956)
-- [Praison001/CVE-2024-4956-Sonatype-Nexus-Repository-Manager](https://github.com/Praison001/CVE-2024-4956-Sonatype-Nexus-Repository-Manager)
+- [GraySignal/CVE-2024-4956-Sonatype-Nexus-Repository-Manager](https://github.com/GraySignal/CVE-2024-4956-Sonatype-Nexus-Repository-Manager)
 - [Cappricio-Securities/CVE-2024-4956](https://github.com/Cappricio-Securities/CVE-2024-4956)
 - [fin3ss3g0d/CVE-2024-4956](https://github.com/fin3ss3g0d/CVE-2024-4956)
 - [verylazytech/CVE-2024-4956](https://github.com/verylazytech/CVE-2024-4956)
@@ -23777,7 +23783,7 @@
 - [yoryio/CVE-2024-20767](https://github.com/yoryio/CVE-2024-20767)
 - [m-cetin/CVE-2024-20767](https://github.com/m-cetin/CVE-2024-20767)
 - [Chocapikk/CVE-2024-20767](https://github.com/Chocapikk/CVE-2024-20767)
-- [Praison001/CVE-2024-20767-Adobe-ColdFusion](https://github.com/Praison001/CVE-2024-20767-Adobe-ColdFusion)
+- [GraySignal/CVE-2024-20767-Adobe-ColdFusion](https://github.com/GraySignal/CVE-2024-20767-Adobe-ColdFusion)
 - [alm6no5/CVE-2024-20767](https://github.com/alm6no5/CVE-2024-20767)
 
 ### CVE-2024-20931 (2024-02-17)
@@ -24761,7 +24767,7 @@
 - [AbraXa5/Jenkins-CVE-2024-23897](https://github.com/AbraXa5/Jenkins-CVE-2024-23897)
 - [WLXQqwer/Jenkins-CVE-2024-23897-](https://github.com/WLXQqwer/Jenkins-CVE-2024-23897-)
 - [kaanatmacaa/CVE-2024-23897](https://github.com/kaanatmacaa/CVE-2024-23897)
-- [Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability](https://github.com/Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability)
+- [GraySignal/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability](https://github.com/GraySignal/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability)
 - [B4CK4TT4CK/CVE-2024-23897](https://github.com/B4CK4TT4CK/CVE-2024-23897)
 - [godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897)
 - [ifconfig-me/CVE-2024-23897](https://github.com/ifconfig-me/CVE-2024-23897)
@@ -25077,7 +25083,7 @@
 - [Vulnpire/CVE-2024-24919](https://github.com/Vulnpire/CVE-2024-24919)
 - [seed1337/CVE-2024-24919-POC](https://github.com/seed1337/CVE-2024-24919-POC)
 - [0xYumeko/CVE-2024-24919](https://github.com/0xYumeko/CVE-2024-24919)
-- [Praison001/CVE-2024-24919-Check-Point-Remote-Access-VPN](https://github.com/Praison001/CVE-2024-24919-Check-Point-Remote-Access-VPN)
+- [GraySignal/CVE-2024-24919-Check-Point-Remote-Access-VPN](https://github.com/GraySignal/CVE-2024-24919-Check-Point-Remote-Access-VPN)
 - [smackerdodi/CVE-2024-24919-nuclei-templater](https://github.com/smackerdodi/CVE-2024-24919-nuclei-templater)
 - [GoatSecurity/CVE-2024-24919](https://github.com/GoatSecurity/CVE-2024-24919)
 - [GlobalsecureAcademy/CVE-2024-24919](https://github.com/GlobalsecureAcademy/CVE-2024-24919)
@@ -25944,7 +25950,7 @@
 - [0xc4t/CVE-2024-28995](https://github.com/0xc4t/CVE-2024-28995)
 - [bigb0x/CVE-2024-28995](https://github.com/bigb0x/CVE-2024-28995)
 - [muhammetali20/CVE-2024-28995](https://github.com/muhammetali20/CVE-2024-28995)
-- [Praison001/CVE-2024-28995-SolarWinds-Serv-U](https://github.com/Praison001/CVE-2024-28995-SolarWinds-Serv-U)
+- [GraySignal/CVE-2024-28995-SolarWinds-Serv-U](https://github.com/GraySignal/CVE-2024-28995-SolarWinds-Serv-U)
 - [Stuub/CVE-2024-28995](https://github.com/Stuub/CVE-2024-28995)
 - [gotr00t0day/CVE-2024-28995](https://github.com/gotr00t0day/CVE-2024-28995)
 
@@ -27858,7 +27864,7 @@
 
 - [securelayer7/CVE-2024-38856_Scanner](https://github.com/securelayer7/CVE-2024-38856_Scanner)
 - [Ap0dexMe0/CVE-2024-38856](https://github.com/Ap0dexMe0/CVE-2024-38856)
-- [Praison001/CVE-2024-38856-ApacheOfBiz](https://github.com/Praison001/CVE-2024-38856-ApacheOfBiz)
+- [GraySignal/CVE-2024-38856-ApacheOfBiz](https://github.com/GraySignal/CVE-2024-38856-ApacheOfBiz)
 - [0x20c/CVE-2024-38856-EXP](https://github.com/0x20c/CVE-2024-38856-EXP)
 - [emanueldosreis/CVE-2024-38856](https://github.com/emanueldosreis/CVE-2024-38856)
 - [BBD-YZZ/CVE-2024-38856-RCE](https://github.com/BBD-YZZ/CVE-2024-38856-RCE)
@@ -30020,7 +30026,7 @@
 <code>The mediapool feature of the Redaxo Core CMS application v 5.17.1 is vulnerable to Cross Site Scripting(XSS) which allows a remote attacker to escalate privileges
 </code>
 
-- [Praison001/CVE-2024-50803-Redaxo](https://github.com/Praison001/CVE-2024-50803-Redaxo)
+- [GraySignal/CVE-2024-50803-Redaxo](https://github.com/GraySignal/CVE-2024-50803-Redaxo)
 
 ### CVE-2024-50804 (2024-11-18)
 
@@ -38697,7 +38703,7 @@
 </code>
 
 - [bcdannyboy/CVE-2023-44487](https://github.com/bcdannyboy/CVE-2023-44487)
-- [Appsynergy-io/CVE-2023-44487](https://github.com/Appsynergy-io/CVE-2023-44487)
+- [imabee101/CVE-2023-44487](https://github.com/imabee101/CVE-2023-44487)
 - [ByteHackr/CVE-2023-44487](https://github.com/ByteHackr/CVE-2023-44487)
 - [pabloec20/rapidreset](https://github.com/pabloec20/rapidreset)
 - [secengjeff/rapidresetclient](https://github.com/secengjeff/rapidresetclient)
@@ -53299,7 +53305,11 @@
 
 - [c0n5n3d/CVE-2021-43657](https://github.com/c0n5n3d/CVE-2021-43657)
 
-### CVE-2021-43716
+### CVE-2021-43716 (2026-08-18)
+
+<code>Verification Bypass vulnerability exists in EPSON 150075647YWWV110 EasyMP Network Updater Ver.1.20. The Epson projector can be updated by encrypted firmware through USB.
+</code>
+
 - [dpfkdlemtp/epson-eh-tw5350-advisories](https://github.com/dpfkdlemtp/epson-eh-tw5350-advisories)
 
 ### CVE-2021-43778 (2021-11-24)
