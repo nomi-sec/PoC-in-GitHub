@@ -3121,6 +3121,13 @@
 
 - [SneakyNachos/CVE-2026-12295-UXXS-in-my-wasm](https://github.com/SneakyNachos/CVE-2026-12295-UXXS-in-my-wasm)
 
+### CVE-2026-12352 (2026-07-07)
+
+<code>This vulnerability allows an unauthenticated actor to bypass authentication and gain access to restricted resources on the device.
+</code>
+
+- [nvicloud/CVE-2026-12352](https://github.com/nvicloud/CVE-2026-12352)
+
 ### CVE-2026-12400 (2026-07-10)
 
 <code>The FlowForms – Conversational Form Builder plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.1.1 via the update_form due to missing validation on a user controlled key. This makes it possible for authenticated attackers, with contributor-level access and above, to modify the content, design, and settings of, as well as publish or revert, any form on the site — including forms owned by administrators — by supplying an arbitrary form ID in the REST URL.
@@ -3169,6 +3176,13 @@
 </code>
 
 - [BiiTts/CVE-2026-12940-Langflow-Unauth-RCE](https://github.com/BiiTts/CVE-2026-12940-Langflow-Unauth-RCE)
+
+### CVE-2026-12948 (2026-07-07)
+
+<code>A stored cross-site scripting (XSS) vulnerability in the web management interface of the Digi PortServer TS, Digi One SP, Digi One SP IA, and Digi One IA allows a remote, authenticated administrator to inject script into certain system configuration fields. The script subsequently executes in the browser of a user who views the affected pages (CWE-79).
+</code>
+
+- [nvicloud/CVE-2026-12948](https://github.com/nvicloud/CVE-2026-12948)
 
 ### CVE-2026-12960 (2026-07-03)
 
@@ -9190,6 +9204,9 @@
 
 - [mac-123456789-lab/CVE-2026-39875-macOS-CUPS-LPE](https://github.com/mac-123456789-lab/CVE-2026-39875-macOS-CUPS-LPE)
 
+### CVE-2026-39902
+- [kx00007/CVE-2026-39902](https://github.com/kx00007/CVE-2026-39902)
+
 ### CVE-2026-39912 (2026-04-09)
 
 <code>V2Board 1.6.1 through 1.7.4 and Xboard through 0.1.9 expose authentication tokens in HTTP response bodies of the loginWithMailLink endpoint when the login_with_mail_link_enable feature is active. Unauthenticated attackers can POST to the loginWithMailLink endpoint with a known email address to receive the full authentication URL in the response, then exchange the token at the token2Login endpoint to obtain a valid bearer token with complete account access including admin privileges.
@@ -12327,6 +12344,7 @@
 
 - [l0ggg/CVE-2026-55040](https://github.com/l0ggg/CVE-2026-55040)
 - [sfewer-r7/CVE-2026-55040](https://github.com/sfewer-r7/CVE-2026-55040)
+- [zenzue/CVE-2026-55040](https://github.com/zenzue/CVE-2026-55040)
 
 ### CVE-2026-55168 (2026-08-21)
 
@@ -12482,6 +12500,7 @@
 </code>
 
 - [Boreas37/CVE-2026-56705](https://github.com/Boreas37/CVE-2026-56705)
+- [ChiefYoru/Exploit-CVE-2026-56705](https://github.com/ChiefYoru/Exploit-CVE-2026-56705)
 
 ### CVE-2026-56782 (2026-06-29)
 
@@ -13511,6 +13530,20 @@
 - [unpredictable21/halo-2.25.4-CVE-2026-67919](https://github.com/unpredictable21/halo-2.25.4-CVE-2026-67919)
 - [k0nnect/halo-cve-2026-67919](https://github.com/k0nnect/halo-cve-2026-67919)
 
+### CVE-2026-67920 (2026-08-18)
+
+<code>An issue in Halo 2.25.4 allows a remote attacker to execute arbitrary code via the run.halo.app.migration.impl.MigrationServiceImpl.restoreWorkdir(), and org.springframework.util.FileSystemUtils.copyRecursively() components
+</code>
+
+- [unpredictable21/halo-2.25.4-backup-write-CVE-2026-67920](https://github.com/unpredictable21/halo-2.25.4-backup-write-CVE-2026-67920)
+
+### CVE-2026-67921 (2026-08-18)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability exists in Halo CMS versions up to 2.25.4 via the CorsConfigurer.java and the CsrfConfigurer.java components. This allows a remote attacker to execute arbitrary code.
+</code>
+
+- [unpredictable21/halo-cors-csrf-CVE-2026-67921](https://github.com/unpredictable21/halo-cors-csrf-CVE-2026-67921)
+
 ### CVE-2026-68004 (2026-08-17)
 
 <code>An issue in OSSRS SRS (Simple Realtime Server) &lt;v5.0.213 allows a remote attacker to execute arbitrary code via RTMP publish authorization, vhost-level security configuration (security.enabled), SrsSecurity::check(), trunk/src/app/srs_app_security.cpp, and SRS RTMP listener components
@@ -13798,6 +13831,7 @@
 - [HORKimhab/CVE-2026-73570](https://github.com/HORKimhab/CVE-2026-73570)
 - [BiuTrap/CVE-2026-73570](https://github.com/BiuTrap/CVE-2026-73570)
 - [jishino567/CVE-2026-73570](https://github.com/jishino567/CVE-2026-73570)
+- [gabrielunknown/CVE-2026-73570](https://github.com/gabrielunknown/CVE-2026-73570)
 
 ### CVE-2026-73633 (2026-08-14)
 
@@ -13952,9 +13986,6 @@
 </code>
 
 - [oscerd/CVE-2026-78329](https://github.com/oscerd/CVE-2026-78329)
-
-### CVE-2026-79617
-- [alpernae/CVE-2026-79617](https://github.com/alpernae/CVE-2026-79617)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -66398,13 +66429,6 @@
 </code>
 
 - [InfoSec4Fun/CVE-2020-13159](https://github.com/InfoSec4Fun/CVE-2020-13159)
-
-### CVE-2020-13160 (2020-06-09)
-
-<code>AnyDesk before 5.5.3 on Linux and FreeBSD has a format string vulnerability that can be exploited for remote code execution.
-</code>
-
-- [LINCOLINO/lab-annie](https://github.com/LINCOLINO/lab-annie)
 
 ### CVE-2020-13162 (2020-06-16)
 
