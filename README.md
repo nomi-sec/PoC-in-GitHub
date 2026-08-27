@@ -3749,6 +3749,7 @@
 - [T0w0T/POC-CVE-2026-18963](https://github.com/T0w0T/POC-CVE-2026-18963)
 - [Red-Darkin/CVE-2026-18963-keycloak](https://github.com/Red-Darkin/CVE-2026-18963-keycloak)
 - [prot0tw/Keycloak_CVE-2026-18963_PoC](https://github.com/prot0tw/Keycloak_CVE-2026-18963_PoC)
+- [BlackHatExploitation/Exploit-For-CVE-2026-18963](https://github.com/BlackHatExploitation/Exploit-For-CVE-2026-18963)
 - [gman0x00/keycloak-CVE-2026-18963](https://github.com/gman0x00/keycloak-CVE-2026-18963)
 - [debugactiveprocess/CVE-2026-18963](https://github.com/debugactiveprocess/CVE-2026-18963)
 
@@ -10268,6 +10269,7 @@
 - [soralis0912/CVE-2026-43499-pmg110-root](https://github.com/soralis0912/CVE-2026-43499-pmg110-root)
 - [dnlid/CVE-2026-43499](https://github.com/dnlid/CVE-2026-43499)
 - [WitAqua-tools/Root-My-Device](https://github.com/WitAqua-tools/Root-My-Device)
+- [YuKongA/ghostlock-app](https://github.com/YuKongA/ghostlock-app)
 - [233laoliu/mt6985-CVE-2026-43499](https://github.com/233laoliu/mt6985-CVE-2026-43499)
 - [2932796375github/CVE-2026-43499_OPPO-MT6835](https://github.com/2932796375github/CVE-2026-43499_OPPO-MT6835)
 - [datfooldive/ghostlock-emerald](https://github.com/datfooldive/ghostlock-emerald)
@@ -10321,6 +10323,7 @@
 - [JingMatrix/pixel-ksu-root](https://github.com/JingMatrix/pixel-ksu-root)
 - [sgswzglwlx/vivo-root-build](https://github.com/sgswzglwlx/vivo-root-build)
 - [rsyzee/ghostlock-infinix-hot70](https://github.com/rsyzee/ghostlock-infinix-hot70)
+- [hackyangwen-lgtm/rmg-s9180-fzg1](https://github.com/hackyangwen-lgtm/rmg-s9180-fzg1)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -12441,6 +12444,7 @@
 - [l0ggg/CVE-2026-55040](https://github.com/l0ggg/CVE-2026-55040)
 - [sfewer-r7/CVE-2026-55040](https://github.com/sfewer-r7/CVE-2026-55040)
 - [zenzue/CVE-2026-55040](https://github.com/zenzue/CVE-2026-55040)
+- [maxprog-svg/CVE-2026-55040-Mass-Exploit](https://github.com/maxprog-svg/CVE-2026-55040-Mass-Exploit)
 
 ### CVE-2026-55168 (2026-08-21)
 
@@ -14023,6 +14027,7 @@
 ### CVE-2026-75604
 - [rafabd1/CVE-2026-75604-poc](https://github.com/rafabd1/CVE-2026-75604-poc)
 - [HackSpeak/CVE-2026-75604](https://github.com/HackSpeak/CVE-2026-75604)
+- [e4zyy/Project-CVE-2026-75604](https://github.com/e4zyy/Project-CVE-2026-75604)
 
 ### CVE-2026-75616 (2026-08-19)
 
@@ -28496,7 +28501,6 @@
 - [veronimo669/pdf.js-CVE-2024-4367](https://github.com/veronimo669/pdf.js-CVE-2024-4367)
 - [yuimamur/CVE-2024-4367-hands-on](https://github.com/yuimamur/CVE-2024-4367-hands-on)
 - [yuimamur/CVE-2024-4367-hands-on-01](https://github.com/yuimamur/CVE-2024-4367-hands-on-01)
-- [DharmarajPS/pdfjs-cve-2024-4367-poc](https://github.com/DharmarajPS/pdfjs-cve-2024-4367-poc)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -45155,6 +45159,7 @@
 - [h3xecute/SideCopy-Exploits-CVE-2023-38831](https://github.com/h3xecute/SideCopy-Exploits-CVE-2023-38831)
 - [s4m98/winrar-cve-2023-38831-poc-gen](https://github.com/s4m98/winrar-cve-2023-38831-poc-gen)
 - [xk-mt/WinRAR-Vulnerability-recurrence-tutorial](https://github.com/xk-mt/WinRAR-Vulnerability-recurrence-tutorial)
+- [MyStuffYT/CVE-2023-38831-POC](https://github.com/MyStuffYT/CVE-2023-38831-POC)
 - [SpamixOfficial/CVE-2023-38831](https://github.com/SpamixOfficial/CVE-2023-38831)
 - [r1yaz/winDED](https://github.com/r1yaz/winDED)
 - [youmulijiang/evil-winrar](https://github.com/youmulijiang/evil-winrar)
@@ -58968,6 +58973,7 @@
 </code>
 
 - [wingerbijay/CVE-2021-27876](https://github.com/wingerbijay/CVE-2021-27876)
+- [hyderpwn/CVE-2021-27876-veritas-backup](https://github.com/hyderpwn/CVE-2021-27876-veritas-backup)
 
 ### CVE-2021-27877 (2021-03-01)
 
@@ -81945,6 +81951,13 @@
 - [RenukaSelvar/libunwind_CVE-2015-3239_AfterPatch](https://github.com/RenukaSelvar/libunwind_CVE-2015-3239_AfterPatch)
 - [RenukaSelvar/libunwind_CVE-2015-3239_After](https://github.com/RenukaSelvar/libunwind_CVE-2015-3239_After)
 
+### CVE-2015-3246 (2015-08-11)
+
+<code>libuser before 0.56.13-8 and 0.60 before 0.60-7, as used in the userhelper program in the usermode package, directly modifies /etc/passwd, which allows local users to cause a denial of service (inconsistent file state) by causing an error during the modification. NOTE: this issue can be combined with CVE-2015-3245 to gain privileges.
+</code>
+
+- [HORKimhab/CVE-2015-3246](https://github.com/HORKimhab/CVE-2015-3246)
+
 ### CVE-2015-3256 (2015-10-26)
 
 <code>PolicyKit (aka polkit) before 0.113 allows local users to cause a denial of service (memory corruption and polkitd daemon crash) and possibly gain privileges via unspecified vectors, related to &quot;javascript rule evaluation.&quot;
@@ -82109,6 +82122,13 @@
 - [Ma1Dong/ActiveMQ_CVE-2015-5254](https://github.com/Ma1Dong/ActiveMQ_CVE-2015-5254)
 - [guigui237/Exploitation-de-la-vuln-rabilit-CVE-2015-5254-](https://github.com/guigui237/Exploitation-de-la-vuln-rabilit-CVE-2015-5254-)
 - [Catherines77/ActiveMQ-EXPtools](https://github.com/Catherines77/ActiveMQ-EXPtools)
+
+### CVE-2015-5287 (2015-12-07)
+
+<code>The abrt-hook-ccpp help program in Automatic Bug Reporting Tool (ABRT) before 2.7.1 allows local users with certain permissions to gain privileges via a symlink attack on a file with a predictable name, as demonstrated by /var/tmp/abrt/abrt-hax-coredump or /var/spool/abrt/abrt-hax-coredump.
+</code>
+
+- [HORKimhab/CVE-2015-5287](https://github.com/HORKimhab/CVE-2015-5287)
 
 ### CVE-2015-5347 (2016-04-12)
 
@@ -84719,6 +84739,7 @@
 - [omarothmann/Embedded-Backdoor-Connection](https://github.com/omarothmann/Embedded-Backdoor-Connection)
 - [asepsaepdin/CVE-2010-1240](https://github.com/asepsaepdin/CVE-2010-1240)
 - [12345qwert123456/CVE-2010-1240](https://github.com/12345qwert123456/CVE-2010-1240)
+- [ocfagb/hacktivity-vulns-exploits-lab](https://github.com/ocfagb/hacktivity-vulns-exploits-lab)
 
 ### CVE-2010-1411 (2010-06-17)
 
@@ -85711,6 +85732,7 @@
 - [nulltrace1336/Metasploitable-2-Distcc-Exploit-via-Kali-Linux-CVE-2004-2687](https://github.com/nulltrace1336/Metasploitable-2-Distcc-Exploit-via-Kali-Linux-CVE-2004-2687)
 - [micheaol/distccd_rce_CVE-2004-2687](https://github.com/micheaol/distccd_rce_CVE-2004-2687)
 - [aish19siddiqua-commits/mtechweek_04](https://github.com/aish19siddiqua-commits/mtechweek_04)
+- [ocfagb/hacktivity-vulns-exploits-lab](https://github.com/ocfagb/hacktivity-vulns-exploits-lab)
 
 ### CVE-2004-6768
 - [yougboiz/Metasploit-CVE-2004-6768](https://github.com/yougboiz/Metasploit-CVE-2004-6768)
