@@ -2697,6 +2697,13 @@
 - [George0Papasotiriou/CVE-2026-9999-Serverless-Event-Injection-to-Code-Overwrite](https://github.com/George0Papasotiriou/CVE-2026-9999-Serverless-Event-Injection-to-Code-Overwrite)
 - [josephfarah-ciso/CVE-2026-9999-exploit](https://github.com/josephfarah-ciso/CVE-2026-9999-exploit)
 
+### CVE-2026-10036 (2026-08-27)
+
+<code>SpeechBrain before 1.1.1 contains an arbitrary code execution vulnerability that allows attackers to execute arbitrary code by supplying a crafted CKPT.yaml checkpoint metadata file parsed with PyYAML's unsafe loader during candidate enumeration in Checkpointer.recover_if_possible(). Attackers can embed malicious Python object construction tags such as !!python/object/apply in any CKPT.yaml file within the configured checkpoint path to trigger code execution during candidate discovery, even if the malicious checkpoint is never selected for recovery.
+</code>
+
+- [SaiTeja-Erukude/CVE-2026-10036-speechbrain-rce](https://github.com/SaiTeja-Erukude/CVE-2026-10036-speechbrain-rce)
+
 ### CVE-2026-10053 (2026-08-23)
 
 <code>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.8 before 19.0.6, 19.1 before 19.1.4, and 19.2 before 19.2.2 that under certain conditions could have allowed an authenticated user to achieve remote code execution due to a path traversal vulnerability in the package registry.
@@ -3588,6 +3595,7 @@
 - [xiaoqiMikko/fastjson-check](https://github.com/xiaoqiMikko/fastjson-check)
 - [learner330/fastjson-cve-2026-16723](https://github.com/learner330/fastjson-cve-2026-16723)
 - [Superman-L/CVE-2026-16723](https://github.com/Superman-L/CVE-2026-16723)
+- [ipisav/fastjson-cve](https://github.com/ipisav/fastjson-cve)
 
 ### CVE-2026-17001
 - [llaytynher/CVE-2026-17001](https://github.com/llaytynher/CVE-2026-17001)
@@ -5195,6 +5203,13 @@
 - [Jvr2022/CVE-2026-23745](https://github.com/Jvr2022/CVE-2026-23745)
 - [Novem13th/CVE-2026-23745-via-graphql-DEMO](https://github.com/Novem13th/CVE-2026-23745-via-graphql-DEMO)
 - [OndrejDrapalik/node-tar-cve-demo](https://github.com/OndrejDrapalik/node-tar-cve-demo)
+
+### CVE-2026-23751 (2026-04-23)
+
+<code>Kofax Capture, now referred to as Tungsten Capture, version 6.0.0.0 (other versions may be affected) exposes a deprecated .NET Remoting HTTP channel on port 2424 via the Ascent Capture Service that is accessible without authentication and uses a default, publicly known endpoint identifier. An unauthenticated remote attacker can exploit .NET Remoting object unmarshalling techniques to instantiate a remote System.Net.WebClient object and read arbitrary files from the server filesystem, write attacker-controlled files to the server, or coerce NTLMv2 authentication to an attacker-controlled host, enabling sensitive credential disclosure, denial of service, remote code execution, or lateral movement depending on service account privileges and network environment.
+</code>
+
+- [SieBRUM/CVE-2026-23751-poc](https://github.com/SieBRUM/CVE-2026-23751-poc)
 
 ### CVE-2026-23760 (2026-01-22)
 
@@ -7918,6 +7933,13 @@
 </code>
 
 - [ch4n3-yoon/CVE-2026-33033-PoC](https://github.com/ch4n3-yoon/CVE-2026-33033-PoC)
+
+### CVE-2026-33057 (2026-03-20)
+
+<code>Mesop is a Python-based UI framework that allows users to build web applications. In versions 1.2.2 and below, an explicit web endpoint inside the ai/ testing module infrastructure directly ingests untrusted Python code strings unconditionally without authentication measures, yielding standard Unrestricted Remote Code Execution. Any individual capable of routing HTTP logic to this server block will gain explicit host-machine command rights. The AI codebase package includes a lightweight debugging Flask server inside ai/sandbox/wsgi_app.py. The /exec-py route accepts base_64 encoded raw string payloads inside the code parameter natively evaluated by a basic POST web request. It saves it rapidly to the operating system logic path and injects it recursively using execute_module(module_path...). This issue has been fixed in version 1.2.3.
+</code>
+
+- [hackpatato/CVE-2026-33057---Mesop-Unauthenticated-RCE-PoC-and-yara-rules](https://github.com/hackpatato/CVE-2026-33057---Mesop-Unauthenticated-RCE-PoC-and-yara-rules)
 
 ### CVE-2026-33067 (2026-03-20)
 
@@ -10977,6 +10999,13 @@
 - [0xBlackash/CVE-2026-46333](https://github.com/0xBlackash/CVE-2026-46333)
 - [studiogangster/CVE-2026-46333](https://github.com/studiogangster/CVE-2026-46333)
 
+### CVE-2026-46339 (2026-07-15)
+
+<code>9Router is an AI router &amp; token saver. From 0.4.30 until 0.4.37, 9Router's src/proxy.js middleware did not protect /api/cli-tools/* and /api/mcp/*, allowing unauthenticated registration of customPlugins through src/app/api/cli-tools/cowork-settings/route.js and command execution through the MCP bridge. This vulnerability is fixed in 0.4.37.
+</code>
+
+- [SimoesCTT/CTT-Enhanced-CVE-2026-46339-Exploit-Engine](https://github.com/SimoesCTT/CTT-Enhanced-CVE-2026-46339-Exploit-Engine)
+
 ### CVE-2026-46368 (2026-05-26)
 
 <code>luci-app-https-dns-proxy through 2025.12.29-5 — an optional LuCI web UI add-on for the https-dns-proxy package, distributed through the OpenWrt community packages feed and not installed by default — contains a command injection vulnerability in the setInitAction function. An authenticated user holding the luci.https-dns-proxy ACL permission can inject shell metacharacters through the 'name' parameter of a ubus RPC call to luci.https-dns-proxy setInitAction, resulting in arbitrary command execution as root on the underlying device. Core OpenWrt is not affected; only installations that have opted in to the luci-app-https-dns-proxy package are vulnerable.
@@ -11937,6 +11966,7 @@
 - [fernstedt/CVE-2026-50751](https://github.com/fernstedt/CVE-2026-50751)
 - [watchtowrlabs/watchTowr-vs-Check-Point-CVE-2026-50751](https://github.com/watchtowrlabs/watchTowr-vs-Check-Point-CVE-2026-50751)
 - [WadesWeaponShed/CheckPoint-CVE-Webscanner](https://github.com/WadesWeaponShed/CheckPoint-CVE-Webscanner)
+- [e4zyy/Project-CVE-2026-50751](https://github.com/e4zyy/Project-CVE-2026-50751)
 
 ### CVE-2026-50787
 - [brynax/CVE-2026-50787](https://github.com/brynax/CVE-2026-50787)
@@ -12138,6 +12168,13 @@
 </code>
 
 - [Dere3046/ScreenOff](https://github.com/Dere3046/ScreenOff)
+
+### CVE-2026-52923 (2026-06-24)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nipc: limit next_id allocation to the valid ID range\n\nThe checkpoint/restore sysctl path can request the next SysV IPC id\nthrough ids-&gt;next_id.  ipc_idr_alloc() currently forwards that request to\nidr_alloc() with an open-ended upper bound.\n\nIf the valid tail of the SysV IPC id space is full, the allocation can\nspill beyond ipc_mni.  The returned SysV IPC id still uses the normal\nindex encoding, so later lookup and removal can target the wrong slot. \nThis leaves the real IDR entry behind and breaks the IDR state for the\nobject.\n\nThe bug is in ipc_idr_alloc() in the checkpoint/restore path.\n\n1. ids-&gt;next_id is passed to:\n\n       idr_alloc(&amp;ids-&gt;ipcs_idr, new, ipcid_to_idx(next_id), 0, ...)\n\n2. The zero upper bound makes the allocation effectively open-ended.\n   Once the valid SysV IPC tail is occupied, idr_alloc() can spill past\n   ipc_mni and allocate an entry beyond the valid IPC id range.\n\n3. The new object id is still encoded with the narrower SysV IPC index\n   width:\n\n       new-&gt;id = (new-&gt;seq &lt;&lt; ipcmni_seq_shift()) + idx\n\n4. Later removal goes through ipc_rmid(), which uses:\n\n       ipcid_to_idx(ipcp-&gt;id)\n\n   That truncates the real IDR index. An object actually stored at a\n   high index can then be removed as if it lived at a low in-range\n   index.\n\n5. For shared memory, shm_destroy() frees the current object anyway, but\n   the real high IDR slot is left behind as a dangling pointer.\n\n6. A subsequent walk of /proc/sysvipc/shm reaches the stale IDR entry\n   and dereferences freed memory.\n\nPrevent this by bounding the requested allocation to ipc_mni so the\ncheckpoint/restore path fails once the valid range is exhausted.
+</code>
+
+- [Hari-v542/CVE-2026-52923](https://github.com/Hari-v542/CVE-2026-52923)
 
 ### CVE-2026-52943 (2026-06-24)
 
@@ -13369,6 +13406,9 @@
 
 - [jobusa755-a11y/CVE-2026-65640-](https://github.com/jobusa755-a11y/CVE-2026-65640-)
 
+### CVE-2026-65643
+- [HORKimhab/CVE-2026-65643](https://github.com/HORKimhab/CVE-2026-65643)
+
 ### CVE-2026-65650 (2026-07-22)
 
 <code>Elgg before 7.0.0 does not check image dimensions to prevent denial of service via a large avatar upload.
@@ -14036,6 +14076,7 @@
 - [BiuTrap/CVE-2026-73570](https://github.com/BiuTrap/CVE-2026-73570)
 - [jishino567/CVE-2026-73570](https://github.com/jishino567/CVE-2026-73570)
 - [gabrielunknown/CVE-2026-73570](https://github.com/gabrielunknown/CVE-2026-73570)
+- [INFOKOM-KI/Zimbra-CVE-2026-73570-Rules](https://github.com/INFOKOM-KI/Zimbra-CVE-2026-73570-Rules)
 
 ### CVE-2026-73633 (2026-08-14)
 
@@ -14140,6 +14181,13 @@
 </code>
 
 - [Hunt-Benito/rendering-code-outside-the-sandbox-cve-2026-76036-dawn-webgpu-buffer-overflow-in-chrome-on-android](https://github.com/Hunt-Benito/rendering-code-outside-the-sandbox-cve-2026-76036-dawn-webgpu-buffer-overflow-in-chrome-on-android)
+
+### CVE-2026-76060 (2026-08-27)
+
+<code>An authenticated OS command injection vulnerability exists in ZoneMinder's event export functionality. The exportFile HTTP request parameter is passed unsanitized into a shell command executed via PHP's exec(), allowing any authenticated user with View Events permission to execute arbitrary operating system commands on the server.
+</code>
+
+- [investigato/zoneminder-rce-poc](https://github.com/investigato/zoneminder-rce-poc)
 
 ### CVE-2026-76070 (2026-08-24)
 
@@ -16862,6 +16910,13 @@
 </code>
 
 - [1amUnvalid/CVE-2025-10951](https://github.com/1amUnvalid/CVE-2025-10951)
+
+### CVE-2025-10952 (2025-09-25)
+
+<code>In geyang ml-logger up to acf255bade5be6ad88d90735c8367b28cbe3a743 wurde eine Schwachstelle gefunden. Hierbei betrifft es die Funktion stream_handler der Datei ml_logger/server.py der Komponente File Handler. Dank der Manipulation des Arguments key mit unbekannten Daten kann eine information disclosure-Schwachstelle ausgenutzt werden. Der Angriff lässt sich über das Netzwerk starten. Die Schwachstelle wurde öffentlich offengelegt und könnte ausgenutzt werden. Das Produkt nutzt ein Rolling Release für die kontinuierliche Auslieferung. Deshalb gibt es keine Versionsangaben zu betroffenen oder aktualisierten Releases.
+</code>
+
+- [Khashayarnzk/CVE-2025-10952-ml-logger-AFR](https://github.com/Khashayarnzk/CVE-2025-10952-ml-logger-AFR)
 
 ### CVE-2025-11001 (2025-11-19)
 
@@ -23086,7 +23141,7 @@
 </code>
 
 - [synacktiv/Livepyre](https://github.com/synacktiv/Livepyre)
-- [e4zyy/Livewire2025CVE](https://github.com/e4zyy/Livewire2025CVE)
+- [e4zyy/Project-CVE-2025-54068](https://github.com/e4zyy/Project-CVE-2025-54068)
 - [flame-11/CVE-2025-54068-livewire](https://github.com/flame-11/CVE-2025-54068-livewire)
 - [haxorstars/CVE-2025-54068](https://github.com/haxorstars/CVE-2025-54068)
 - [HelgeSverre/livewire-honeypot](https://github.com/HelgeSverre/livewire-honeypot)
@@ -23865,6 +23920,7 @@
 - [PhanHoangKhang/React2Shell](https://github.com/PhanHoangKhang/React2Shell)
 - [h3n1s3/React2shell-Research](https://github.com/h3n1s3/React2shell-Research)
 - [Mr-Destroyer/CVE-2025-55182](https://github.com/Mr-Destroyer/CVE-2025-55182)
+- [UwUGreed/CVE-2025-55182-poc](https://github.com/UwUGreed/CVE-2025-55182-poc)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -24834,6 +24890,7 @@
 - [Moon-Harvest/CVE-2025-59528](https://github.com/Moon-Harvest/CVE-2025-59528)
 - [Loaxert/CVE-2025-59528-PoC](https://github.com/Loaxert/CVE-2025-59528-PoC)
 - [sonnelon/CVE-2025-59528-PoC](https://github.com/sonnelon/CVE-2025-59528-PoC)
+- [hackpatato/PoC-and-yara-rules-of-CVE-2025-59528-Flowise-has-Remote-Code-Execution-vulnerability](https://github.com/hackpatato/PoC-and-yara-rules-of-CVE-2025-59528-Flowise-has-Remote-Code-Execution-vulnerability)
 
 ### CVE-2025-59532 (2025-09-22)
 
@@ -32029,6 +32086,7 @@
 - [Dungsocool/CVE-2024-23897](https://github.com/Dungsocool/CVE-2024-23897)
 - [razureink/cve-2024-23897-jenkins_lfi_reproduction](https://github.com/razureink/cve-2024-23897-jenkins_lfi_reproduction)
 - [dheeraj-jayaswal/CICD-Goat-Vapt-Writeup](https://github.com/dheeraj-jayaswal/CICD-Goat-Vapt-Writeup)
+- [MachiavelliII/CVE-2024-23897](https://github.com/MachiavelliII/CVE-2024-23897)
 
 ### CVE-2024-23898 (2024-01-24)
 
@@ -41561,6 +41619,7 @@
 - [Gilospy/CVE-2023-23397](https://github.com/Gilospy/CVE-2023-23397)
 - [Phaedrik/CVE-2023-23397-POC](https://github.com/Phaedrik/CVE-2023-23397-POC)
 - [praneethnaidu1910-cmd/cve-2023-23397-purple-team](https://github.com/praneethnaidu1910-cmd/cve-2023-23397-purple-team)
+- [ZHOUCC-CPU/cve-2023-23397-detection-lab](https://github.com/ZHOUCC-CPU/cve-2023-23397-detection-lab)
 
 ### CVE-2023-23488 (2023-01-20)
 
@@ -42335,6 +42394,7 @@
 - [Royall-Researchers/CVE-2023-27350](https://github.com/Royall-Researchers/CVE-2023-27350)
 - [dezso-dfield/CVE-2023-27350](https://github.com/dezso-dfield/CVE-2023-27350)
 - [joaoaugustom/PaperCut-Authentication_Bypass_and_RCE](https://github.com/joaoaugustom/PaperCut-Authentication_Bypass_and_RCE)
+- [HORKimhab/CVE-2023-27350-CVE-2023-27351](https://github.com/HORKimhab/CVE-2023-27350-CVE-2023-27351)
 
 ### CVE-2023-27363 (2024-05-03)
 
@@ -55593,6 +55653,7 @@
 - [RdBBB3/SHELL-POC-CVE-2022-46169](https://github.com/RdBBB3/SHELL-POC-CVE-2022-46169)
 - [alv-david/CVE-2022-46169-Cacti-1.2.22](https://github.com/alv-david/CVE-2022-46169-Cacti-1.2.22)
 - [nicostan15/CVE-2022-46169](https://github.com/nicostan15/CVE-2022-46169)
+- [K4PXD/CVE-2022-46169](https://github.com/K4PXD/CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-24)
 
@@ -66633,7 +66694,7 @@
 <code>A vulnerability based on insecure user/password encryption in the JOE (job editor) component of SOS JobScheduler 1.12 and 1.13 allows attackers to decrypt the user/password that is optionally stored with a user's profile.
 </code>
 
-- [SanderUbink/CVE-2020-12712](https://github.com/SanderUbink/CVE-2020-12712)
+- [0xVEDETTE/CVE-2020-12712](https://github.com/0xVEDETTE/CVE-2020-12712)
 
 ### CVE-2020-12717 (2020-05-14)
 
