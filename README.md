@@ -7916,6 +7916,7 @@
 - [sonnelon/CVE-2026-33017-PoC](https://github.com/sonnelon/CVE-2026-33017-PoC)
 - [lxxexxbxx/CVE-2026-33017](https://github.com/lxxexxbxx/CVE-2026-33017)
 - [e4zyy/Project-CVE-2026-33017](https://github.com/e4zyy/Project-CVE-2026-33017)
+- [ahseven/CVE-2026-33017-PoC-Reverse-Shell](https://github.com/ahseven/CVE-2026-33017-PoC-Reverse-Shell)
 
 ### CVE-2026-33032 (2026-03-30)
 
@@ -11971,7 +11972,11 @@
 ### CVE-2026-50787
 - [brynax/CVE-2026-50787](https://github.com/brynax/CVE-2026-50787)
 
-### CVE-2026-50979
+### CVE-2026-50979 (2026-08-28)
+
+<code>A command injection vulnerability in the 'advanced/curl' component of Osbil Technology oPanel v1.19.50 and earlier allows authenticated attackers to execute arbitrary shell commands via the 'url' parameter
+</code>
+
 - [bugresearch/CVE-2026-50979](https://github.com/bugresearch/CVE-2026-50979)
 
 ### CVE-2026-50980
@@ -13482,6 +13487,13 @@
 
 - [venglin/knot-doq](https://github.com/venglin/knot-doq)
 
+### CVE-2026-66384 (2026-08-12)
+
+<code>An authenticated user may write data outside the intended Docker cache path under specific remote-repository conditions.
+</code>
+
+- [HORKimhab/CVE-2026-66384](https://github.com/HORKimhab/CVE-2026-66384)
+
 ### CVE-2026-66418 (2026-07-30)
 
 <code>OpenClaw Dashboard v3.0.0 contains a stored cross-site scripting vulnerability that allows unauthenticated remote attackers to inject arbitrary HTML and script payloads by submitting a crafted username in a failed login POST request, which is recorded verbatim in the audit log. When an administrator opens the notification panel, the unescaped log entry is rendered via innerHTML with a permissive Content-Security-Policy allowing inline event handlers, enabling the attacker-supplied payload to execute in the administrator's session and interact with authenticated endpoints including agent instruction file editing and configuration changes.
@@ -14187,7 +14199,7 @@
 <code>An authenticated OS command injection vulnerability exists in ZoneMinder's event export functionality. The exportFile HTTP request parameter is passed unsanitized into a shell command executed via PHP's exec(), allowing any authenticated user with View Events permission to execute arbitrary operating system commands on the server.
 </code>
 
-- [investigato/zoneminder-rce-poc](https://github.com/investigato/zoneminder-rce-poc)
+- [investigato/CVE-2026-76060_ZoneMinder_CommandInjection-PoC](https://github.com/investigato/CVE-2026-76060_ZoneMinder_CommandInjection-PoC)
 
 ### CVE-2026-76070 (2026-08-24)
 
@@ -21228,7 +21240,6 @@
 
 - [jir4vv1t/CVE-2025-43529](https://github.com/jir4vv1t/CVE-2025-43529)
 - [0xjohnnydev/WebKit-UAF-ANGLE-OOB-Analysis](https://github.com/0xjohnnydev/WebKit-UAF-ANGLE-OOB-Analysis)
-- [sakyu7/sakyu7.github.io](https://github.com/sakyu7/sakyu7.github.io)
 - [SimoesCTT/Convergent-Time-Theory-Enhanced-iOS-Safari-RCE-CVE-2025-43529-](https://github.com/SimoesCTT/Convergent-Time-Theory-Enhanced-iOS-Safari-RCE-CVE-2025-43529-)
 - [SimoesCTT/CTT-Apple-Silicon-Refraction](https://github.com/SimoesCTT/CTT-Apple-Silicon-Refraction)
 - [bjrjk/CVE-2025-43529](https://github.com/bjrjk/CVE-2025-43529)
@@ -42317,7 +42328,6 @@
 <code>Improper restriction of excessive authentication attempts in the SSHGuard component of Netgate pfSense Plus software v22.05.1 and pfSense CE software v2.6.0 allows attackers to bypass brute force protection mechanisms via crafted web requests.
 </code>
 
-- [DarokNET/CVE-2023-27100](https://github.com/DarokNET/CVE-2023-27100)
 - [fabdotnet/CVE-2023-27100](https://github.com/fabdotnet/CVE-2023-27100)
 
 ### CVE-2023-27146
@@ -44770,7 +44780,7 @@
 
 ### CVE-2023-36664 (2023-06-25)
 
-<code>Artifex Ghostscript through 10.01.2 mishandles permission validation for pipe devices (with the %pipe% prefix or the | pipe character prefix).
+<code>Artifex Ghostscript before 10.01.2 mishandles permission validation for pipe devices (with the %pipe% prefix or the | pipe character prefix).
 </code>
 
 - [jakabakos/CVE-2023-36664-Ghostscript-command-injection](https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection)
