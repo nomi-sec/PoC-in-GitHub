@@ -3129,6 +3129,9 @@
 
 - [hakaioffsec/CVE-2026-12191](https://github.com/hakaioffsec/CVE-2026-12191)
 
+### CVE-2026-12243
+- [morzelowski/CVE-2026-12243-NLTK-PoC](https://github.com/morzelowski/CVE-2026-12243-NLTK-PoC)
+
 ### CVE-2026-12277 (2026-07-07)
 
 <code>The Frontend File Manager Plugin WordPress plugin through 23.6 does not validate a file path derived from user input before deleting the referenced file, allowing unauthenticated users to delete arbitrary files on the server (such as wp-config.php) when guest upload mode is enabled. Deleting wp-config.php forces the site into its setup routine, which can be leveraged toward a full site takeover.
@@ -3874,6 +3877,13 @@
 </code>
 
 - [h00die/POC-CVE-2026-19681](https://github.com/h00die/POC-CVE-2026-19681)
+
+### CVE-2026-19745 (2026-08-13)
+
+<code>A flaw has been found in Calix GigaSpire 26.1.0. Impacted is an unknown function of the file utilities_configurationsave.cgi of the component Web Management Interface. Executing a manipulation of the argument sessionKey can lead to denial of service. The attack can be launched remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [drbloop2000/CVE-2026-19745](https://github.com/drbloop2000/CVE-2026-19745)
 
 ### CVE-2026-19843
 - [gduma-phData/patch-CVE-2026-19843](https://github.com/gduma-phData/patch-CVE-2026-19843)
@@ -5340,6 +5350,13 @@
 </code>
 
 - [oscar-mine/CVE-2026-23980-Exploit](https://github.com/oscar-mine/CVE-2026-23980-Exploit)
+
+### CVE-2026-23989 (2026-02-06)
+
+<code>REVA is an interoperability platform. Prior to 2.42.3 and 2.40.3, a bug in the GRPC authorization middleware of the &quot;Reva&quot; component of OpenCloud allows a malicious user to bypass the scope verification of a public link. By exploiting this via the the &quot;archiver&quot; service this can be leveraged to create an archive (zip or tar-file) containing all resources that this creator of the public link has access to. This vulnerability is fixed in 2.42.3 and 2.40.3.
+</code>
+
+- [dinosn/cve-2026-23989-opencloud-lab](https://github.com/dinosn/cve-2026-23989-opencloud-lab)
 
 ### CVE-2026-24009 (2026-01-22)
 
@@ -10093,6 +10110,7 @@
 - [imbas007/CVE-2026-42533](https://github.com/imbas007/CVE-2026-42533)
 - [0xCyberstan/CVE-2026-42533-POC](https://github.com/0xCyberstan/CVE-2026-42533-POC)
 - [Leeyoonjoo/CVE-2026-42533](https://github.com/Leeyoonjoo/CVE-2026-42533)
+- [FranklinF25/cve-2026-42533](https://github.com/FranklinF25/cve-2026-42533)
 
 ### CVE-2026-42568 (2026-06-10)
 
@@ -14336,6 +14354,7 @@
 </code>
 
 - [yora1928/PaperCut-CVE-2026-81578-82078](https://github.com/yora1928/PaperCut-CVE-2026-81578-82078)
+- [virologi-info/papercut-toolkit](https://github.com/virologi-info/papercut-toolkit)
 
 ### CVE-2026-82286 (2026-08-28)
 
@@ -30757,6 +30776,7 @@
 </code>
 
 - [FatfishIO/CVE-2024-12381-PoC](https://github.com/FatfishIO/CVE-2024-12381-PoC)
+- [VictorNS69/CVE-2024-12381](https://github.com/VictorNS69/CVE-2024-12381)
 
 ### CVE-2024-12404 (2025-01-11)
 
@@ -51293,7 +51313,7 @@
 <code>regex is an implementation of regular expressions for the Rust language. The regex crate features built-in mitigations to prevent denial of service attacks caused by untrusted regexes, or untrusted input matched by trusted regexes. Those (tunable) mitigations already provide sane defaults to prevent attacks. This guarantee is documented and it's considered part of the crate's API. Unfortunately a bug was discovered in the mitigations designed to prevent untrusted regexes to take an arbitrary amount of time during parsing, and it's possible to craft regexes that bypass such mitigations. This makes it possible to perform denial of service attacks by sending specially crafted regexes to services accepting user-controlled, untrusted regexes. All versions of the regex crate before or equal to 1.5.4 are affected by this issue. The fix is include starting from regex 1.5.5. All users accepting user-controlled regexes are recommended to upgrade immediately to the latest version of the regex crate. Unfortunately there is no fixed set of problematic regexes, as there are practically infinite regexes that could be crafted to exploit this vulnerability. Because of this, it us not recommend to deny known problematic regexes.
 </code>
 
-- [JPeisach/CVE-2022-24713-POC](https://github.com/JPeisach/CVE-2022-24713-POC)
+- [jpeisach/CVE-2022-24713-POC](https://github.com/jpeisach/CVE-2022-24713-POC)
 
 ### CVE-2022-24715 (2022-03-08)
 
@@ -68789,6 +68809,13 @@
 
 - [dorkerdevil/CVE-2020-28018](https://github.com/dorkerdevil/CVE-2020-28018)
 - [zr0tt/CVE-2020-28018](https://github.com/zr0tt/CVE-2020-28018)
+
+### CVE-2020-28022 (2021-05-06)
+
+<code>Exim 4 before 4.94.2 has Improper Restriction of Write Operations within the Bounds of a Memory Buffer. This occurs when processing name=value pairs within MAIL FROM and RCPT TO commands.
+</code>
+
+- [t1b4n3/CVE-2020-28022](https://github.com/t1b4n3/CVE-2020-28022)
 
 ### CVE-2020-28032 (2020-10-31)
 
