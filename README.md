@@ -3783,7 +3783,18 @@
 
 - [DarkLycn1976/CVE-2026-19264](https://github.com/DarkLycn1976/CVE-2026-19264)
 
-### CVE-2026-19295
+### CVE-2026-19286 (2026-08-28)
+
+<code>IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote attacker to execute arbitrary code due to improper enforcement of security restrictions on the A2A public endpoint.
+</code>
+
+- [rmhowe425/POC-CVE-2026-19286](https://github.com/rmhowe425/POC-CVE-2026-19286)
+
+### CVE-2026-19295 (2026-08-28)
+
+<code>IBM Langflow OSS 1.0.0 through 1.11.1 allows an authenticated attacker to execute arbitrary operating system commands in the server process by saving a flow with a crafted type field value and triggering a build of a wrapper flow that references it. This allowed privilege escalation from &quot;authenticated flow user&quot; to arbitrary OS-level command execution under the server process identity, bypassing the LANGFLOW_ALLOW_CUSTOM_COMPONENTS=false policy control.
+</code>
+
 - [rmhowe425/POC-CVE-2026-19295](https://github.com/rmhowe425/POC-CVE-2026-19295)
 
 ### CVE-2026-19478 (2026-08-17)
@@ -4843,6 +4854,7 @@
 </code>
 
 - [semgrep/cve-2026-22732-demo](https://github.com/semgrep/cve-2026-22732-demo)
+- [moderneinc/rewrite-cve-2026-22732](https://github.com/moderneinc/rewrite-cve-2026-22732)
 
 ### CVE-2026-22738 (2026-03-27)
 
@@ -5429,6 +5441,7 @@
 - [harygovind/CVE-2026-24061](https://github.com/harygovind/CVE-2026-24061)
 - [stoerti2/Abyssal](https://github.com/stoerti2/Abyssal)
 - [s-vx/CVE-2026-24061](https://github.com/s-vx/CVE-2026-24061)
+- [iLokaas/CVE-2026-24061-payload](https://github.com/iLokaas/CVE-2026-24061-payload)
 
 ### CVE-2026-24072 (2026-05-04)
 
@@ -11979,7 +11992,11 @@
 
 - [bugresearch/CVE-2026-50979](https://github.com/bugresearch/CVE-2026-50979)
 
-### CVE-2026-50980
+### CVE-2026-50980 (2026-08-28)
+
+<code>Cross-Site Scripting (XSS) vulnerability in the DNS lookup/management component of oPanel before v1.20.25 allows remote attackers to execute arbitrary JavaScript and perform session hijacking via a crafted DNS TXT record
+</code>
+
 - [bugresearch/CVE-2026-50980](https://github.com/bugresearch/CVE-2026-50980)
 
 ### CVE-2026-51031 (2026-07-20)
@@ -12584,7 +12601,11 @@
 ### CVE-2026-55494
 - [4qu4r1um/tugtainer-1.30.2-CVE-2026-55494-and-CVE-2026-62308-to-RCE](https://github.com/4qu4r1um/tugtainer-1.30.2-CVE-2026-55494-and-CVE-2026-62308-to-RCE)
 
-### CVE-2026-55511
+### CVE-2026-55511 (2026-08-28)
+
+<code>Yamcs is a mission control framework. Prior to 5.12.8 and 5.13.2, Yamcs allows a user with SystemPrivilege.ControlArchiving to create a double-quoted StreamSQL column name that is interpolated into generated Java source by Expression.fillCode_InputDefVars and Expression.sanitizeName. A sum aggregate reaches yamcs-core/src/main/java/org/yamcs/yarch/streamsql/CompilableAggregateExpression.java and yamcs-core/src/main/java/org/yamcs/yarch/streamsql/funct/SumExpression.java through SelectExpression.compile, where Janino SimpleCompiler.cook compiles the injected source. POST /api/archive/{instance}:executeSql can therefore execute arbitrary Java in the Yamcs server process, exposing mission data and credentials and permitting telemetry tampering or denial of service. This issue is fixed in versions 5.12.8 and 5.13.2.
+</code>
+
 - [junfuture1103/CVE-2026-55511](https://github.com/junfuture1103/CVE-2026-55511)
 
 ### CVE-2026-55579 (2026-07-27)
@@ -12594,7 +12615,11 @@
 
 - [Ch4120N/CVE-2026-55579](https://github.com/Ch4120N/CVE-2026-55579)
 
-### CVE-2026-55584
+### CVE-2026-55584 (2026-08-28)
+
+<code>phpSysInfo is a customizable PHP script that displays system information. Prior to 3.4.6, the PSI_ALLOWED access-control check in read_config.php trusts attacker-controlled X-Forwarded-For and Client-IP HTTP headers before REMOTE_ADDR. A remote unauthenticated attacker can supply an allowed address in one of these headers to impersonate a trusted client and access exposed hostname, kernel, CPU, memory, filesystem, and network-interface information. This issue is fixed in version 3.4.6.
+</code>
+
 - [mirackayikci/CVE-2026-55584](https://github.com/mirackayikci/CVE-2026-55584)
 
 ### CVE-2026-55726 (2026-07-02)
