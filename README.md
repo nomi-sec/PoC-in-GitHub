@@ -10880,6 +10880,7 @@
 <code>Microsoft is aware of a security feature bypass vulnerability in Windows publicly referred to as &amp;quot;YellowKey&amp;quot;. The proof of concept for this vulnerability has been made public violating coordinated vulnerability best practices.\nWe are issuing this CVE to provide mitigation guidance that can be implemented to protect against this vulnerability until the security update is made available.\nMitigation FAQs\nShould I leverage the temporary mitigation?\nMicrosoft recommends that you consider implementing these mitigations if you are concerned your devices and data are at risk of being compromised or stolen. For example, if your organization’s employees take their work devices home or on business travel.\nWhat impact to service availability/management could be caused by implementing the mitigations?\nImplementing these mitigations will not impact service availability or management operations.\nDo customers need to revert the changes made to mitigate the vulnerability once the security update to protect against this vulnerability is available?\nNo. The security update will maintain the mitigation's behavior once the security update is installed.\nI am using TPM+PIN, am I at risk of this vulnerability being exploited\nNo, if you are using TPM+PIN the vulnerability is not exploitable.
 </code>
 
+- [aungko186/YellowKey-BitLocker-CVE-2026-45585](https://github.com/aungko186/YellowKey-BitLocker-CVE-2026-45585)
 - [bjbakker1984/Yellowkey-mitigation](https://github.com/bjbakker1984/Yellowkey-mitigation)
 - [everest90909/YellowKey-WinRE-Remediation](https://github.com/everest90909/YellowKey-WinRE-Remediation)
 - [andrei-majer/bitlocker-hardening](https://github.com/andrei-majer/bitlocker-hardening)
@@ -13871,6 +13872,13 @@
 - [fevar54/CVE-2026-68820-Mitigation-PoC-](https://github.com/fevar54/CVE-2026-68820-Mitigation-PoC-)
 - [maxprog-svg/CVE-2026-68820_Mass_Exploit](https://github.com/maxprog-svg/CVE-2026-68820_Mass_Exploit)
 
+### CVE-2026-68929 (2026-08-27)
+
+<code>FastGPT is an open-source LLM platform for building AI applications on a knowledge base. In versions prior to 4.15.2, the WeChat (iLink) share-channel endpoints authorize requests using only the public shareId, with no authenticated identity or team-ownership check. As a result, an unauthenticated attacker who knows a victim team's shareId can take that team's WeChat bot offline or hijack the channel to their own bot: the logout endpoint is gated only by an existence check yet wipes the outLink's stored WeChat token, and the QR-code status endpoint performs no authorization at all and writes attacker-supplied bot credentials into the outLink identified by shareId. By generating a QR for a victim shareId, scanning it with their own WeChat, and calling the status endpoint, an attacker binds the victim team's app to the attacker's bot, exposing the app's private responses, displacing the legitimate binding, and consuming the victim's resources. The shareId is exposed in every shared chat URL, iframe, and embed, so it is not a secret. This issue is fixed in version 4.15.2.
+</code>
+
+- [Hunt-Benito/your-bot-my-inbox-cve-2026-68929-fastgpt-unauthenticated-wechat-channel-hijack](https://github.com/Hunt-Benito/your-bot-my-inbox-cve-2026-68929-fastgpt-unauthenticated-wechat-channel-hijack)
+
 ### CVE-2026-69083 (2026-08-03)
 
 <code>SiYuan versions before v3.7.3 contain SQL injection vulnerabilities in the fullTextSearchAssetContent endpoint reachable by unauthenticated users and publish RoleReader tokens. Attackers can execute arbitrary SQL on the read-write asset-content database via unescaped method parameters and REGEXP clauses to read, modify, or delete cross-notebook data.
@@ -14322,6 +14330,13 @@
 
 - [virologi-info/chrome-vuln-scanner](https://github.com/virologi-info/chrome-vuln-scanner)
 
+### CVE-2026-81578 (2026-08-28)
+
+<code>An improper access control vulnerability exists in the web management interface of PaperCut MF and PaperCut NG. Under specific conditions, unauthenticated remote requests targeting administrative functions can trigger backend actions prior to the  completion of access validation checks. This allows an unauthenticated remote attacker to modify certain system configurations.
+</code>
+
+- [yora1928/PaperCut-CVE-2026-81578-82078](https://github.com/yora1928/PaperCut-CVE-2026-81578-82078)
+
 ### CVE-2026-82286 (2026-08-28)
 
 <code>gpt-crawler through 1.5.1 fails to validate the outputFileName parameter in the POST /crawl endpoint, allowing unauthenticated attackers to write arbitrary files to any filesystem path. Attackers can supply absolute paths or parent-directory segments to overwrite existing files with content sourced from attacker-controlled URLs.
@@ -14334,6 +14349,9 @@
 
 ### CVE-2026-999999
 - [24520597-blip/CVE-2026-999999](https://github.com/24520597-blip/CVE-2026-999999)
+
+### CVE-2026-2035703
+- [danish1162/CVE-2026-2035703-x300](https://github.com/danish1162/CVE-2026-2035703-x300)
 
 
 ## 2025
@@ -19815,7 +19833,6 @@
 - [iteride/CVE-2025-29927](https://github.com/iteride/CVE-2025-29927)
 - [sermikr0/nextjs-middleware-auth-bypass](https://github.com/sermikr0/nextjs-middleware-auth-bypass)
 - [amalpvatayam67/day10-nextjs-middleware-lab](https://github.com/amalpvatayam67/day10-nextjs-middleware-lab)
-- [kuyrathdaro/cve-2025-29927](https://github.com/kuyrathdaro/cve-2025-29927)
 - [diogolourencodev/middleforce](https://github.com/diogolourencodev/middleforce)
 - [Bongni/CVE-2025-29927](https://github.com/Bongni/CVE-2025-29927)
 - [NS-Projects-Unina/CTF_CVE_DSP_1](https://github.com/NS-Projects-Unina/CTF_CVE_DSP_1)
@@ -19835,6 +19852,7 @@
 - [SwapnilDeshpande/cve-2025-29927-lab](https://github.com/SwapnilDeshpande/cve-2025-29927-lab)
 - [Fomovet/cve-2025-29927](https://github.com/Fomovet/cve-2025-29927)
 - [berraesen/nextjs-middleware-auth-bypass-lab](https://github.com/berraesen/nextjs-middleware-auth-bypass-lab)
+- [kuyrathdaro/cve-2025-29927](https://github.com/kuyrathdaro/cve-2025-29927)
 
 ### CVE-2025-29943 (2026-01-16)
 
@@ -49295,6 +49313,7 @@
 - [veritas501/CVE-2022-2588](https://github.com/veritas501/CVE-2022-2588)
 - [dom4570/CVE-2022-2588](https://github.com/dom4570/CVE-2022-2588)
 - [Igr1s-red/CVE-2022-2588](https://github.com/Igr1s-red/CVE-2022-2588)
+- [LSinus/CacheMeIfYouCan](https://github.com/LSinus/CacheMeIfYouCan)
 
 ### CVE-2022-2590 (2022-08-31)
 
@@ -54388,6 +54407,7 @@
 - [sloden1977-lang/ROOT-ZTE-X1001](https://github.com/sloden1977-lang/ROOT-ZTE-X1001)
 - [mutur4/UnisocBootROMs](https://github.com/mutur4/UnisocBootROMs)
 - [xun404/spd_dump-macos](https://github.com/xun404/spd_dump-macos)
+- [Gadorach/vankyo-s30-bootloader-unlock](https://github.com/Gadorach/vankyo-s30-bootloader-unlock)
 
 ### CVE-2022-38725 (2023-01-23)
 
