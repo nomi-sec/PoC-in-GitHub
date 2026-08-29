@@ -1197,6 +1197,13 @@
 
 - [5o1z/CVE-2026-3910](https://github.com/5o1z/CVE-2026-3910)
 
+### CVE-2026-4001 (2026-03-23)
+
+<code>The Woocommerce Custom Product Addons Pro plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 5.4.1 via the custom pricing formula eval() in the process_custom_formula() function within includes/process/price.php. This is due to insufficient sanitization and validation of user-submitted field values before passing them to PHP's eval() function. The sanitize_values() method strips HTML tags but does not escape single quotes or prevent PHP code injection. This makes it possible for unauthenticated attackers to execute arbitrary code on the server by submitting a crafted value to a WCPA text field configured with custom pricing formula (pricingType: &quot;custom&quot; with {this.value}).
+</code>
+
+- [htrxuan/hdwebmobile-formula-pricing](https://github.com/htrxuan/hdwebmobile-formula-pricing)
+
 ### CVE-2026-4020 (2026-03-31)
 
 <code>The Gravity SMTP plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.1.4. This is due to a REST API endpoint registered at /wp-json/gravitysmtp/v1/tests/mock-data with a permission_callback that unconditionally returns true, allowing any unauthenticated visitor to access it. When the ?page=gravitysmtp-settings query parameter is appended, the plugin's register_connector_data() method populates internal connector data, causing the endpoint to return approximately 365 KB of JSON containing the full System Report. This makes it possible for unauthenticated attackers to retrieve detailed system configuration data including PHP version, loaded extensions, web server version, document root path, database server type and version, WordPress version, all active plugins with versions, active theme, WordPress configuration details, database table names, and any API keys/tokens configured in the plugin.
@@ -4560,6 +4567,7 @@
 - [naozibuhao/CVE-2026-21962_Java_GUI_Exploit_Tool](https://github.com/naozibuhao/CVE-2026-21962_Java_GUI_Exploit_Tool)
 - [0xBlackash/CVE-2026-21962](https://github.com/0xBlackash/CVE-2026-21962)
 - [zeetee1235/CVE-2026-21962](https://github.com/zeetee1235/CVE-2026-21962)
+- [KaiserdesMonats/CVE-2026-21962-Blog](https://github.com/KaiserdesMonats/CVE-2026-21962-Blog)
 
 ### CVE-2026-21978 (2026-01-20)
 
@@ -14313,6 +14321,13 @@
 </code>
 
 - [virologi-info/chrome-vuln-scanner](https://github.com/virologi-info/chrome-vuln-scanner)
+
+### CVE-2026-82286 (2026-08-28)
+
+<code>gpt-crawler through 1.5.1 fails to validate the outputFileName parameter in the POST /crawl endpoint, allowing unauthenticated attackers to write arbitrary files to any filesystem path. Attackers can supply absolute paths or parent-directory segments to overwrite existing files with content sourced from attacker-controlled URLs.
+</code>
+
+- [BiiTts/CVE-2026-82286-gpt-crawler-Arbitrary-File-Write](https://github.com/BiiTts/CVE-2026-82286-gpt-crawler-Arbitrary-File-Write)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
