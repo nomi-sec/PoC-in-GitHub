@@ -10465,6 +10465,7 @@
 - [rsyzee/ghostlock-infinix-hot70](https://github.com/rsyzee/ghostlock-infinix-hot70)
 - [hackyangwen-lgtm/rmg-s9180-fzg1](https://github.com/hackyangwen-lgtm/rmg-s9180-fzg1)
 - [diyiqiuye/ghostlock-pfem10](https://github.com/diyiqiuye/ghostlock-pfem10)
+- [ReBiliBin/ghostlock-oppo-watch3pro](https://github.com/ReBiliBin/ghostlock-oppo-watch3pro)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -14379,6 +14380,14 @@
 
 - [yora1928/PaperCut-CVE-2026-81578-82078](https://github.com/yora1928/PaperCut-CVE-2026-81578-82078)
 - [virologi-info/papercut-toolkit](https://github.com/virologi-info/papercut-toolkit)
+
+### CVE-2026-82222 (2026-08-28)
+
+<code>Deserialization of Untrusted Data vulnerability in Liquid Web / StellarWP GiveWP allows Object Injection.\n\nThis issue affects GiveWP: from n/a through 4.16.7.1.
+</code>
+
+- [UdinChan/cve-2026-82222-poc](https://github.com/UdinChan/cve-2026-82222-poc)
+- [dinosn/givewp-cve-2026-82222-rce-lab](https://github.com/dinosn/givewp-cve-2026-82222-rce-lab)
 
 ### CVE-2026-82286 (2026-08-28)
 
