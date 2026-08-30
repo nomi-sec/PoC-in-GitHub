@@ -487,6 +487,7 @@
 - [Nxploited/CVE-2026-1357](https://github.com/Nxploited/CVE-2026-1357)
 - [0xBlackash/CVE-2026-1357](https://github.com/0xBlackash/CVE-2026-1357)
 - [masterwok/PoC-CVE-2026-1357](https://github.com/masterwok/PoC-CVE-2026-1357)
+- [sahmsec/CVE-2026-1357](https://github.com/sahmsec/CVE-2026-1357)
 
 ### CVE-2026-1375 (2026-02-03)
 
@@ -604,6 +605,13 @@
 - [jakubie07/CVE-2026-1731](https://github.com/jakubie07/CVE-2026-1731)
 - [hexissam/CVE-2026-1731](https://github.com/hexissam/CVE-2026-1731)
 - [ridhinva/beyondtrust-rce-scanner](https://github.com/ridhinva/beyondtrust-rce-scanner)
+
+### CVE-2026-1801 (2026-02-03)
+
+<code>A flaw was found in libsoup, an HTTP client/server library. This HTTP Request Smuggling vulnerability arises from non-RFC-compliant parsing in the soup_filter_input_stream_read_line() logic, where libsoup accepts malformed chunk headers, such as lone line feed (LF) characters instead of the required carriage return and line feed (CRLF). A remote attacker can exploit this without authentication or user interaction by sending specially crafted chunked requests. This allows libsoup to parse and process multiple HTTP requests from a single network message, potentially leading to information disclosure.
+</code>
+
+- [misterdengi/CVE-2026-1801C](https://github.com/misterdengi/CVE-2026-1801C)
 
 ### CVE-2026-1814 (2026-02-03)
 
@@ -2551,6 +2559,7 @@
 - [CuteeCat/CVE-2026-9198](https://github.com/CuteeCat/CVE-2026-9198)
 - [K3ysTr0K3R/CVE-2026-9198](https://github.com/K3ysTr0K3R/CVE-2026-9198)
 - [chessalekin/cve-2026-9198_exploit](https://github.com/chessalekin/cve-2026-9198_exploit)
+- [joaovicdev/EXPLOIT-CVE-2026-9198](https://github.com/joaovicdev/EXPLOIT-CVE-2026-9198)
 
 ### CVE-2026-9254 (2026-08-24)
 
@@ -3385,7 +3394,7 @@
 
 ### CVE-2026-14669 (2026-08-13)
 
-<code>Heap buffer overflow in PostgreSQL to_char(timestamptz) allows the party choosing the timezone to execute arbitrary code as the operating system user running the database, via a long POSIX timezone abbreviation.  Versions before PostgreSQL 18.5, 17.11, 16.15, 15.19, and 14.24 are affected.
+<code>Heap buffer overflow in PostgreSQL to_char(timestamptz) allows the party choosing the timezone to execute arbitrary code as the operating system user running the database, via a long POSIX timezone abbreviation.  Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are affected.
 </code>
 
 - [HackSpeak/CVE-2026-14669](https://github.com/HackSpeak/CVE-2026-14669)
@@ -3734,6 +3743,13 @@
 </code>
 
 - [sn0x-sharma/CVE-2026-18718](https://github.com/sn0x-sharma/CVE-2026-18718)
+
+### CVE-2026-18729 (2026-08-28)
+
+<code>IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote authenticated attacker to execute arbitrary code due to improper control of generation of code.
+</code>
+
+- [rmhowe425/POC-CVE-2026-18729](https://github.com/rmhowe425/POC-CVE-2026-18729)
 
 ### CVE-2026-18830 (2026-08-04)
 
@@ -5818,6 +5834,7 @@
 
 ### CVE-2026-25262
 - [shurikgo/cve-2026-25262-sm8450-research](https://github.com/shurikgo/cve-2026-25262-sm8450-research)
+- [therealfraudman/cve-2026-25262-msm8909-PoC](https://github.com/therealfraudman/cve-2026-25262-msm8909-PoC)
 
 ### CVE-2026-25512 (2026-02-04)
 
@@ -10771,6 +10788,13 @@
 </code>
 
 - [HORKimhab/CVE-2026-45067](https://github.com/HORKimhab/CVE-2026-45067)
+
+### CVE-2026-45071 (2026-07-14)
+
+<code>Symfony is a PHP framework for web and console applications and a set of reusable PHP components. Prior to 5.4.52, 6.4.40, 7.4.12, and 8.0.12, Crawler::addXmlContent() set DOMDocument::$validateOnParse = true before loadXML(), re-enabling external entity resolution and allowing attacker-supplied XML to expand file:// entities such as local files. This issue is fixed in versions 5.4.52, 6.4.40, 7.4.12, and 8.0.12.
+</code>
+
+- [bozellqp/zk-xml-probe](https://github.com/bozellqp/zk-xml-probe)
 
 ### CVE-2026-45091 (2026-05-12)
 
@@ -18251,7 +18275,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2025-22777](https://github.com/RandomRobbieBF/CVE-2025-22777)
-- [SevDMG/CVE-2025-22777-GiveWP-Plugin-PHP-Object-Injection-Point-PoC-](https://github.com/SevDMG/CVE-2025-22777-GiveWP-Plugin-PHP-Object-Injection-Point-PoC-)
 - [gduma-phData/patch-CVE-2025-22777](https://github.com/gduma-phData/patch-CVE-2025-22777)
 
 ### CVE-2025-22783 (2025-03-27)
@@ -33586,7 +33609,7 @@
 - [exploits-forsale/collateral-damage](https://github.com/exploits-forsale/collateral-damage)
 - [Admin9961/CVE-2024-30088](https://github.com/Admin9961/CVE-2024-30088)
 - [Justintroup85/exploits-forsale-collateral-damage](https://github.com/Justintroup85/exploits-forsale-collateral-damage)
-- [ramzihafiz/cve-2024-30088-binary](https://github.com/ramzihafiz/cve-2024-30088-binary)
+- [cyghtinc/cve-2024-30088-binary-LPE-PRIVIELEGE-ESCALATION-CYGHT-TOCTOU](https://github.com/cyghtinc/cve-2024-30088-binary-LPE-PRIVIELEGE-ESCALATION-CYGHT-TOCTOU)
 - [th3g3ntl3m4n84/CVE-2024-30088__Windows-TOCTOU-exploit](https://github.com/th3g3ntl3m4n84/CVE-2024-30088__Windows-TOCTOU-exploit)
 - [FangFang-Yi/CVE-2024-30088](https://github.com/FangFang-Yi/CVE-2024-30088)
 
@@ -37157,6 +37180,7 @@
 - [Zedocun/soc-investigation-powershell-edrfreeze](https://github.com/Zedocun/soc-investigation-powershell-edrfreeze)
 - [vettrivel007/CVE-2024-49138](https://github.com/vettrivel007/CVE-2024-49138)
 - [basitsajidapply-stack/SOC-Investigation-CVE-2024-49138](https://github.com/basitsajidapply-stack/SOC-Investigation-CVE-2024-49138)
+- [NadineElliottCyber/SOC335-CVE-2024-49138-Investigation](https://github.com/NadineElliottCyber/SOC335-CVE-2024-49138-Investigation)
 
 ### CVE-2024-49328 (2024-10-20)
 
@@ -56674,7 +56698,6 @@
 </code>
 
 - [Ivanhoe76zzzz/itmsBlock](https://github.com/Ivanhoe76zzzz/itmsBlock)
-- [ChiChou/mistune-patch-backport](https://github.com/ChiChou/mistune-patch-backport)
 
 ### CVE-2021-1782 (2021-04-02)
 
