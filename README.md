@@ -7572,7 +7572,7 @@
 - [polyakovavv/copyfail](https://github.com/polyakovavv/copyfail)
 - [gbonacini/CVE-2026-31431](https://github.com/gbonacini/CVE-2026-31431)
 - [studiogangster/CVE-2026-31431](https://github.com/studiogangster/CVE-2026-31431)
-- [hyz-is/copyfail-fix](https://github.com/hyz-is/copyfail-fix)
+- [paulorlima9/copyfail-fix](https://github.com/paulorlima9/copyfail-fix)
 - [sh4den/CVE-2026-31431-copyfail-aarch64](https://github.com/sh4den/CVE-2026-31431-copyfail-aarch64)
 - [DroPZsec/SplicePrivillegeEscalationFIX](https://github.com/DroPZsec/SplicePrivillegeEscalationFIX)
 - [kuniyal08/Copy-Fail-CVE-2026-31431-Lab](https://github.com/kuniyal08/Copy-Fail-CVE-2026-31431-Lab)
@@ -10980,6 +10980,13 @@
 - [fevar54/FULL-ANALYSIS---CVE-2026-45829-ChromaDB-](https://github.com/fevar54/FULL-ANALYSIS---CVE-2026-45829-ChromaDB-)
 - [0xBlackash/CVE-2026-45829](https://github.com/0xBlackash/CVE-2026-45829)
 
+### CVE-2026-45833 (2026-06-12)
+
+<code>A code injection vulnerability in version 0.4.17 or later of the ChromaDB Python project allows an authenticated attacker to run arbitrary code on the server by sending a malicious model repository and trust_remote_code set to true in the /api/v2/tenants/default_tenant/databases/default_database/collections/{collection_id} if they have the UPDATE_COLLECTION permission.
+</code>
+
+- [e4zyy/Project-CVE-2026-45833](https://github.com/e4zyy/Project-CVE-2026-45833)
+
 ### CVE-2026-46215 (2026-05-28)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\ndrm: Set old handle to NULL before prime swap in change_handle\n\nThere was a potential race condition in change_handle. The ioctl\nbriefly had a single object with two idr entries; a concurrent\ngem_close could delete the object and remove one of the handles\nwhile leaving the other one dangling, which could subsequently\nbe dereferenced for a use-after-free.\n\nTo fix this, do the same dance that gem_close itself does.\n(f6cd7daecff5 drm: Release driver references to handle before making it available again)\nFirst idr_replace the old handle to NULL. Later, if the prime\noperations are successful, actually close it.\n\ncreate_tail required a similar dance to avoid a similar problem.\n(bd46cece51a3 drm/gem: Fix race in drm_gem_handle_create_tail())\nIt idr_allocs the new handle with NULL, then swaps in the correct\nobject later to avoid races. We don't need to do that here, since\nthe only operations that could race are drm_prime, and\nchange_handle holds the prime lock for the entire duration.\n\nv2: cleanups of error paths
@@ -11537,6 +11544,7 @@
 
 - [Diznev/CVE-2026-48611-EXPLOIT](https://github.com/Diznev/CVE-2026-48611-EXPLOIT)
 - [wanmywan/CVE-2026-48611-phpBB](https://github.com/wanmywan/CVE-2026-48611-phpBB)
+- [Ethicalgrey/phpBB-CVE-2026-48611](https://github.com/Ethicalgrey/phpBB-CVE-2026-48611)
 
 ### CVE-2026-48710 (2026-05-26)
 
@@ -13253,6 +13261,7 @@
 - [TranDongA3/POC-CVE-2026-63030-CVE-2026-60137-](https://github.com/TranDongA3/POC-CVE-2026-63030-CVE-2026-60137-)
 - [mhassani97/cve-2026-63030-lab](https://github.com/mhassani97/cve-2026-63030-lab)
 - [DeadExpl0it/wp2shell-poc](https://github.com/DeadExpl0it/wp2shell-poc)
+- [Sec-Dan/WP2Shell-Scanner](https://github.com/Sec-Dan/WP2Shell-Scanner)
 
 ### CVE-2026-63039 (2026-08-20)
 
@@ -13471,6 +13480,13 @@
 </code>
 
 - [rahulreddykarne/CVE-2026-65321-pyathena](https://github.com/rahulreddykarne/CVE-2026-65321-pyathena)
+
+### CVE-2026-65351 (2026-08-17)
+
+<code>This issue was addressed through improved state management. This issue is fixed in Safari 26.6.1, iOS 26.6.1 and iPadOS 26.6.1, macOS Tahoe 26.6.2. Processing maliciously crafted web content may lead to an unexpected Safari crash.
+</code>
+
+- [e4zyy/Project-CVE-2026-65351](https://github.com/e4zyy/Project-CVE-2026-65351)
 
 ### CVE-2026-65400 (2026-08-06)
 
@@ -13796,6 +13812,13 @@
 </code>
 
 - [murrez/CVE-J2store-2026](https://github.com/murrez/CVE-J2store-2026)
+
+### CVE-2026-67363 (2026-08-19)
+
+<code>Joomla Extension - balbooa.com - Pre-auth Payment Amount Tampering in Balbooa Forms &lt; 2.4.3.2 - The stripeCharges and payAuthorize endpoints accept the charge total from a client-controlled request parameter and forward it to the payment gateway without recomputing it from the form's configured product prices. Neither endpoint enforces authentication or CSRF checks. An unauthenticated attacker can purchase any priced item for an arbitrary amount (e.g., $0.01), and can additionally forge line items, quantities, and shipping.
+</code>
+
+- [Lulztigre/cve-2026-67363-67364](https://github.com/Lulztigre/cve-2026-67363-67364)
 
 ### CVE-2026-67595 (2026-07-29)
 
@@ -14326,6 +14349,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-76581](https://github.com/HORKimhab/CVE-2026-76581)
+- [hackersroot/CVE-2026-76581-Detector](https://github.com/hackersroot/CVE-2026-76581-Detector)
 
 ### CVE-2026-76639 (2026-08-27)
 
@@ -14389,6 +14413,13 @@
 
 ### CVE-2026-79483
 - [ExploreIO/CVE-2026-79483-FastGPT-NoSQL-Injection](https://github.com/ExploreIO/CVE-2026-79483-FastGPT-NoSQL-Injection)
+
+### CVE-2026-80724 (2026-08-28)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nptp: vmclock: prevent read-only mappings from becoming writable\n\nvmclock_miscdev_mmap() rejects writable mappings of the shared vmclock\nABI page with -EROFS, but leaves VM_MAYWRITE set.  Userspace can map the\npage read-only and then upgrade it to writable with mprotect(), after\nwhich the guest can corrupt the host-written timekeeping data (sequence\ncounter, UTC time, TSC offset) that the vmclock ABI defines as read-only.\n\nClear VM_MAYWRITE on the read-only path so the mapping cannot be\nupgraded, as i915 does for its read-only objects and as fixed in drm/vc4\n(CVE-2026-68445) and drm/panthor (CVE-2024-53071).
+</code>
+
+- [suruurism/cve-writeups-and-pocs](https://github.com/suruurism/cve-writeups-and-pocs)
 
 ### CVE-2026-81578 (2026-08-28)
 
@@ -15740,7 +15771,7 @@
 - [Diego57709/CVE-2025-5548](https://github.com/Diego57709/CVE-2025-5548)
 - [alberto-galindo/CVE-2025-5548](https://github.com/alberto-galindo/CVE-2025-5548)
 - [elrajiii/CVE-2025-5548](https://github.com/elrajiii/CVE-2025-5548)
-- [Alvarosr16/CVE-2025-5548](https://github.com/Alvarosr16/CVE-2025-5548)
+- [alvarosr/CVE-2025-5548](https://github.com/alvarosr/CVE-2025-5548)
 - [PopClom/CVE-2025-5548](https://github.com/PopClom/CVE-2025-5548)
 - [gumbita/cve-2025-5548-freefloat-ftp-walkthrough](https://github.com/gumbita/cve-2025-5548-freefloat-ftp-walkthrough)
 - [grospomg/CVE-2025-5548-Exploit-Development](https://github.com/grospomg/CVE-2025-5548-Exploit-Development)
@@ -15810,6 +15841,7 @@
 - [0xBlackash/CVE-2025-5777](https://github.com/0xBlackash/CVE-2025-5777)
 - [sentinel-aidefense/CVE-2025-5777](https://github.com/sentinel-aidefense/CVE-2025-5777)
 - [razureink/cve-2025-5777-citrixbleed2_reproduction](https://github.com/razureink/cve-2025-5777-citrixbleed2_reproduction)
+- [maxprog-svg/CitrixBleedCVE-2026-8452-2025-5777](https://github.com/maxprog-svg/CitrixBleedCVE-2026-8452-2025-5777)
 
 ### CVE-2025-5781 (2026-02-25)
 
@@ -35815,6 +35847,13 @@
 - [vvpoglazov/cve-2024-41110-checker](https://github.com/vvpoglazov/cve-2024-41110-checker)
 - [PauloParoPP/CVE-2024-41110-SCAN](https://github.com/PauloParoPP/CVE-2024-41110-SCAN)
 
+### CVE-2024-41127 (2024-08-02)
+
+<code>Monkeytype is a minimalistic and customizable typing test. Monkeytype is vulnerable to Poisoned Pipeline Execution through Code Injection in its ci-failure-comment.yml GitHub Workflow, enabling attackers to gain pull-requests write access. The ci-failure-comment.yml workflow is triggered when the Monkey CI workflow completes. When it runs, it will download an artifact uploaded by the triggering workflow and assign the contents of ./pr_num/pr_num.txt artifact to the steps.pr_num_reader.outputs.content WorkFlow variable. It is not validated that the variable is actually a number and later it is interpolated into a JS script allowing an attacker to change the code to be executed. This issue leads to pull-requests write access. This vulnerability is fixed in 24.30.0.
+</code>
+
+- [pvharmo2/gha-lab-83342297e0](https://github.com/pvharmo2/gha-lab-83342297e0)
+
 ### CVE-2024-41276 (2024-10-01)
 
 <code>A vulnerability in Kaiten version 57.131.12 and earlier allows attackers to bypass the PIN code authentication mechanism. The application requires users to input a 6-digit PIN code sent to their email for authorization after entering their login credentials. However, the request limiting mechanism can be easily bypassed, enabling attackers to perform a brute force attack to guess the correct PIN and gain unauthorized access to the application.
@@ -36024,6 +36063,13 @@
 </code>
 
 - [partywavesec/CVE-2024-42346](https://github.com/partywavesec/CVE-2024-42346)
+
+### CVE-2024-42365 (2024-08-08)
+
+<code>Asterisk is an open source private branch exchange (PBX) and telephony toolkit. Prior to asterisk versions 18.24.2, 20.9.2, and 21.4.2 and certified-asterisk versions 18.9-cert11 and 20.7-cert2, an AMI user with `write=originate` may change all configuration files in the `/etc/asterisk/` directory. This occurs because they are able to curl remote files and write them to disk, but are also able to append to existing files using the `FILE` function inside the `SET` application. This issue may result in privilege escalation, remote code execution and/or blind server-side request forgery with arbitrary protocol. Asterisk versions 18.24.2, 20.9.2, and 21.4.2 and certified-asterisk versions 18.9-cert11 and 20.7-cert2 contain a fix for this issue.
+</code>
+
+- [Raajgupta01/htb-machine-ringdown](https://github.com/Raajgupta01/htb-machine-ringdown)
 
 ### CVE-2024-42448 (2024-12-11)
 
@@ -83676,6 +83722,7 @@
 - [cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report](https://github.com/cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report)
 - [caverm/Shellshock_CVE-2014-6271](https://github.com/caverm/Shellshock_CVE-2014-6271)
 - [FREEGUY-6/dmz-security-monitoring-hardening](https://github.com/FREEGUY-6/dmz-security-monitoring-hardening)
+- [Vaibhav91one/shellshock-cve-lab](https://github.com/Vaibhav91one/shellshock-cve-lab)
 
 ### CVE-2014-6287 (2014-10-07)
 
