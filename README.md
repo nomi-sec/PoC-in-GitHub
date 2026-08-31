@@ -3795,6 +3795,7 @@
 - [gman0x00/keycloak-CVE-2026-18963](https://github.com/gman0x00/keycloak-CVE-2026-18963)
 - [debugactiveprocess/CVE-2026-18963](https://github.com/debugactiveprocess/CVE-2026-18963)
 - [alt3kx/CVE-2026-18963](https://github.com/alt3kx/CVE-2026-18963)
+- [M4xSec/My-Exploits](https://github.com/M4xSec/My-Exploits)
 
 ### CVE-2026-19193 (2026-08-07)
 
@@ -10288,6 +10289,7 @@
 - [aratane/CVE-2026-42945](https://github.com/aratane/CVE-2026-42945)
 - [CynepMyx/nginx-rift-check](https://github.com/CynepMyx/nginx-rift-check)
 - [Kentox493/CVE-2026-42945_NginxRift](https://github.com/Kentox493/CVE-2026-42945_NginxRift)
+- [FranklinF25/cve-2026-42945](https://github.com/FranklinF25/cve-2026-42945)
 
 ### CVE-2026-42978 (2026-06-09)
 
@@ -10475,6 +10477,7 @@
 - [hackyangwen-lgtm/rmg-s9180-fzg1](https://github.com/hackyangwen-lgtm/rmg-s9180-fzg1)
 - [diyiqiuye/ghostlock-pfem10](https://github.com/diyiqiuye/ghostlock-pfem10)
 - [ReBiliBin/ghostlock-oppo-watch3pro](https://github.com/ReBiliBin/ghostlock-oppo-watch3pro)
+- [alk601/Root-My-Galaxy](https://github.com/alk601/Root-My-Galaxy)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -12738,6 +12741,7 @@
 
 - [BiiTts/CVE-2026-56121-Feast-Unauth-RCE](https://github.com/BiiTts/CVE-2026-56121-Feast-Unauth-RCE)
 - [0xdak/CVE-2026-56121_exploit](https://github.com/0xdak/CVE-2026-56121_exploit)
+- [joaovicdev/EXPLOIT-CVE-2026-56121](https://github.com/joaovicdev/EXPLOIT-CVE-2026-56121)
 
 ### CVE-2026-56129 (2026-06-25)
 
@@ -13085,6 +13089,8 @@
 - [Sachinart/CVE-2026-60004-gitea-0day](https://github.com/Sachinart/CVE-2026-60004-gitea-0day)
 - [gagaltotal/CVE-2026-60004-poc-gitea](https://github.com/gagaltotal/CVE-2026-60004-poc-gitea)
 - [fevar54/cve-2026-60004](https://github.com/fevar54/cve-2026-60004)
+- [InfoSec-DB/CVE-2026-60004-Gitea-Validator](https://github.com/InfoSec-DB/CVE-2026-60004-Gitea-Validator)
+- [InfoSec-DB/CVE-2026-60004-Gitea-RCE-PoC](https://github.com/InfoSec-DB/CVE-2026-60004-Gitea-RCE-PoC)
 
 ### CVE-2026-60093 (2026-08-24)
 
@@ -14403,6 +14409,34 @@
 </code>
 
 - [oscerd/CVE-2026-78329](https://github.com/oscerd/CVE-2026-78329)
+
+### CVE-2026-78903 (2026-08-25)
+
+<code>Incomplete cleanup in SiteIsolation in Google Chrome prior to 152.0.7977.65 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a crafted HTML page. (Chromium security severity: Medium)
+</code>
+
+- [vxssroott/CVE-2026-78903-SWIFT-Kick-to-the-Creds](https://github.com/vxssroott/CVE-2026-78903-SWIFT-Kick-to-the-Creds)
+
+### CVE-2026-78904 (2026-08-25)
+
+<code>Type confusion in ANGLE in Google Chrome prior to 152.0.7977.65 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [vxssroott/CVE-2026-78904-Digital-Dinar-Drain](https://github.com/vxssroott/CVE-2026-78904-Digital-Dinar-Drain)
+
+### CVE-2026-78905 (2026-08-25)
+
+<code>Type confusion in ANGLE in Google Chrome prior to 152.0.7977.65 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)
+</code>
+
+- [vxssroott/CVE-2026-78905-Facebook-Account-Takeover](https://github.com/vxssroott/CVE-2026-78905-Facebook-Account-Takeover)
+
+### CVE-2026-78906 (2026-08-25)
+
+<code>Race condition in ANGLE in Google Chrome prior to 152.0.7977.65 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)
+</code>
+
+- [vxssroott/CVE-2026-78906-ChatGPT-Prompt-Injection](https://github.com/vxssroott/CVE-2026-78906-ChatGPT-Prompt-Injection)
 
 ### CVE-2026-79266 (2026-08-25)
 
@@ -20711,13 +20745,6 @@
 
 - [Apollo-R3bot/django-vulnerability-CVE-2025-32873](https://github.com/Apollo-R3bot/django-vulnerability-CVE-2025-32873)
 
-### CVE-2025-32953 (2025-04-18)
-
-<code>z80pack is a mature emulator of multiple platforms with 8080 and Z80 CPU. In version 1.38 and prior, the `makefile-ubuntu.yml` workflow file uses `actions/upload-artifact@v4` to upload the `z80pack-ubuntu` artifact. This artifact is a zip of the current directory, which includes the automatically generated `.git/config` file containing the run's GITHUB_TOKEN. Seeing as the artifact can be downloaded prior to the end of the workflow, there is a few seconds where an attacker can extract the token from the artifact and use it with the Github API to push malicious code or rewrite release commits in your repository. This issue has been fixed in commit bd95916.
-</code>
-
-- [pvharmo2/gha-lab-5ed08d6a80](https://github.com/pvharmo2/gha-lab-5ed08d6a80)
-
 ### CVE-2025-32965 (2025-04-22)
 
 <code>xrpl.js is a JavaScript/TypeScript API for interacting with the XRP Ledger in Node.js and the browser. Versions 4.2.1, 4.2.2, 4.2.3, and 4.2.4 of xrpl.js were compromised and contained malicious code designed to exfiltrate private keys. Version 2.14.2 is also malicious, though it is less likely to lead to exploitation as it is not compatible with other 2.x versions. Anyone who used one of these versions should stop immediately and rotate any private keys or secrets used with affected systems. Users of xrpl.js should pgrade to version 4.2.5 or 2.14.3 to receive a patch. To secure funds, think carefully about whether any keys may have been compromised by this supply chain attack, and mitigate by sending funds to secure wallets, and/or rotating keys. If any account's master key is potentially compromised, disable the key.
@@ -21839,13 +21866,6 @@
 </code>
 
 - [dwisiswant0/CVE-2025-46819](https://github.com/dwisiswant0/CVE-2025-46819)
-
-### CVE-2025-46820 (2025-05-06)
-
-<code>phpgt/Dom provides access to modern DOM APIs. Versions of phpgt/Dom prior to 4.1.8 expose the GITHUB_TOKEN in the Dom workflow run artifact. The ci.yml workflow file uses actions/upload-artifact@v4 to upload the build artifact. This artifact is a zip of the current directory, which includes the automatically generated .git/config file containing the run's GITHUB_TOKEN. Seeing as the artifact can be downloaded prior to the end of the workflow, there is a few seconds where an attacker can extract the token from the artifact and use it with the GitHub API to push malicious code or rewrite release commits in your repository. Any downstream user of the repository may be affected, but the token should only be valid for the duration of the workflow run, limiting the time during which exploitation could occur. Version 4.1.8 fixes the issue.
-</code>
-
-- [pvharmo2/gha-lab-f1c8785cc8](https://github.com/pvharmo2/gha-lab-f1c8785cc8)
 
 ### CVE-2025-46822 (2025-05-21)
 
@@ -26536,6 +26556,7 @@
 - [Z3ROROOT3R/CVE-2025-66478](https://github.com/Z3ROROOT3R/CVE-2025-66478)
 - [imad457/NextJS-RCE-Root-Takeover](https://github.com/imad457/NextJS-RCE-Root-Takeover)
 - [nilfredb/CVE-2025-66478-Research-Proof-of-Concept](https://github.com/nilfredb/CVE-2025-66478-Research-Proof-of-Concept)
+- [JotaEspig/CVE-2025-66478-PoC-Reverse-Shell](https://github.com/JotaEspig/CVE-2025-66478-PoC-Reverse-Shell)
 
 ### CVE-2025-66516 (2025-12-04)
 
@@ -26795,13 +26816,6 @@
 </code>
 
 - [mbanyamer/CVE-2025-67644-LangGraph-3.0.1-SQLite-Checkpoint-SQL-Injection](https://github.com/mbanyamer/CVE-2025-67644-LangGraph-3.0.1-SQLite-Checkpoint-SQL-Injection)
-
-### CVE-2025-67727 (2025-12-12)
-
-<code>Parse Server is an open source backend that can be deployed to any infrastructure that runs Node.js. In versions prior to 8.6.0-alpha.2, a GitHub CI workflow is triggered in a way that grants the GitHub Actions workflow elevated permissions, giving it access to GitHub secrets and write permissions which are defined in the workflow. Code from a fork or lifecycle scripts is potentially included. Only the repository's CI/CD infrastructure is affected, including any public GitHub forks with GitHub Actions enabled. This issue is fixed version 8.6.0-alpha.2 and commits 6b9f896 and e3d27fe.
-</code>
-
-- [pvharmo2/gha-lab-aaaaa1cc3e](https://github.com/pvharmo2/gha-lab-aaaaa1cc3e)
 
 ### CVE-2025-67730 (2025-12-12)
 
@@ -36685,13 +36699,6 @@
 
 - [tdawg506/woocommerce_scanner](https://github.com/tdawg506/woocommerce_scanner)
 
-### CVE-2024-45798 (2024-09-17)
-
-<code>arduino-esp32 is an Arduino core for the ESP32, ESP32-S2, ESP32-S3, ESP32-C3, ESP32-C6 and ESP32-H2 microcontrollers. The `arduino-esp32` CI is vulnerable to multiple Poisoned Pipeline Execution (PPE) vulnerabilities. Code injection in `tests_results.yml` workflow (`GHSL-2024-169`) and environment Variable injection (`GHSL-2024-170`). These issue have been addressed but users are advised to verify the contents of the downloaded artifacts.
-</code>
-
-- [pvharmo2/gha-lab-16bfb18428](https://github.com/pvharmo2/gha-lab-16bfb18428)
-
 ### CVE-2024-45870 (2024-10-03)
 
 <code>Bandisoft BandiView 7.05 is vulnerable to Incorrect Access Control in sub_0x3d80fc via a crafted POC file.
@@ -43340,13 +43347,6 @@
 - [Cur1iosity/CVE-2023-30547](https://github.com/Cur1iosity/CVE-2023-30547)
 - [junnythemarksman/CVE-2023-30547](https://github.com/junnythemarksman/CVE-2023-30547)
 - [R3fr4kt/Codify-TJNULL-OSCP-](https://github.com/R3fr4kt/Codify-TJNULL-OSCP-)
-
-### CVE-2023-30628 (2023-04-24)
-
-<code>Kiwi TCMS is an open source test management system. In kiwitcms/Kiwi v12.2 and prior and kiwitcms/enterprise v12.2 and prior,\nthe `changelog.yml` workflow is vulnerable to command injection attacks because of using an untrusted `github.head_ref` field. The `github.head_ref` value is an attacker-controlled value. Assigning the value to `zzz&quot;;echo${IFS}&quot;hello&quot;;#` can lead to command injection. Since the permission is not restricted, the attacker has a write-access to the repository. Commit 834c86dfd1b2492ccad7ebbfd6304bfec895fed2 of the kiwitcms/Kiwi repository and commit e39f7e156fdaf6fec09a15ea6f4e8fec8cdbf751 of the kiwitcms/enterprise repository contain a fix for this issue.
-</code>
-
-- [pvharmo2/gha-lab-227431b300](https://github.com/pvharmo2/gha-lab-227431b300)
 
 ### CVE-2023-30765 (2023-07-10)
 
@@ -69429,6 +69429,13 @@
 
 - [RandomRobbieBF/CVE-2020-36730](https://github.com/RandomRobbieBF/CVE-2020-36730)
 
+### CVE-2020-36762 (2023-07-18)
+
+<code>Eine Schwachstelle wurde in ONS Digital RAS Collection Instrument bis 2.0.27 gefunden. Sie wurde als kritisch eingestuft. Betroffen davon ist die Funktion jobs der Datei .github/workflows/comment.yml. Durch die Manipulation des Arguments $COMMENT_BODY mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Ein Aktualisieren auf die Version 2.0.28 vermag dieses Problem zu lösen. Der Patch wird als dcaad2540f7d50c512ff2e031d3778dd9337db2b bezeichnet. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [pvharmo2/gha-lab-e4a85583c3](https://github.com/pvharmo2/gha-lab-e4a85583c3)
+
 ### CVE-2020-36842 (2024-10-16)
 
 <code>The Migration, Backup, Staging – WPvivid plugin for WordPress is vulnerable to arbitrary file uploads due to a missing capability check on the wpvivid_upload_import_files and wpvivid_upload_files AJAX actions that allows low-level authenticated attackers to upload zip files that can be subsequently extracted. This affects versions up to, and including 0.9.35.
@@ -80386,6 +80393,7 @@
 - [own2pwn/blueborne-CVE-2017-1000251-POC](https://github.com/own2pwn/blueborne-CVE-2017-1000251-POC)
 - [istanescu/CVE-2017-1000251_Exploit](https://github.com/istanescu/CVE-2017-1000251_Exploit)
 - [sgxgsx/blueborne-CVE-2017-1000251](https://github.com/sgxgsx/blueborne-CVE-2017-1000251)
+- [ahmedalouane95-cell/Simulation-d-attaque-BlueBorne-sur-v-hicule-connect-](https://github.com/ahmedalouane95-cell/Simulation-d-attaque-BlueBorne-sur-v-hicule-connect-)
 
 ### CVE-2017-1000253 (2017-10-04)
 
