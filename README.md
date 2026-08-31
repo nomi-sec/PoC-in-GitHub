@@ -77,6 +77,7 @@
 - [fredevsec/CVE-2026-0073](https://github.com/fredevsec/CVE-2026-0073)
 - [ctn-Qvo/CVE-2026-0073-Android-ADBD-bypass-POC_zh_CN](https://github.com/ctn-Qvo/CVE-2026-0073-Android-ADBD-bypass-POC_zh_CN)
 - [aye468448-eng/CVE-2026-0073-Android-adbd-authentication-bypass](https://github.com/aye468448-eng/CVE-2026-0073-Android-adbd-authentication-bypass)
+- [naheeju/POC-CVE-2026-0073](https://github.com/naheeju/POC-CVE-2026-0073)
 
 ### CVE-2026-0075 (2026-06-01)
 
@@ -530,7 +531,6 @@
 <code>The User Registration &amp; Membership – Custom Registration Form Builder, Custom Login Form, User Profile, Content Restriction &amp; Membership Plugin plugin for WordPress is vulnerable to improper privilege management in all versions up to, and including, 5.1.2. This is due to the plugin accepting a user-supplied role during membership registration without properly enforcing a server-side allowlist. This makes it possible for unauthenticated attackers to create administrator accounts by supplying a role value during membership registration.
 </code>
 
-- [medlemark-dz/CVE-2026-1492-POC](https://github.com/medlemark-dz/CVE-2026-1492-POC)
 - [the8frust/CVE-2026-1492](https://github.com/the8frust/CVE-2026-1492)
 - [Nxploited/CVE-2026-1492](https://github.com/Nxploited/CVE-2026-1492)
 - [limo57640-crypto/wp-user-registration-vuln-checker](https://github.com/limo57640-crypto/wp-user-registration-vuln-checker)
@@ -14130,6 +14130,13 @@
 
 - [Saku0512/CVE-2026-71557-poc](https://github.com/Saku0512/CVE-2026-71557-poc)
 
+### CVE-2026-71851 (2026-08-07)
+
+<code>crypto-js is a JavaScript library of crypto standards. Versions of crypto-js prior to 4.0.0 generate randomness in CryptoJS.lib.WordArray.random() using a custom variation of the Multiply-With-Carry pseudorandom number generator, seeded from Math.random(), instead of a cryptographically secure source. This generator was introduced in version 3.1.2-4 and remained present in nearly every 3.x release. Nominal requests for 128 or 256 bits of entropy through this function produce effective search spaces of approximately 2 to the 39th and 2 to the 47th possibilities, small enough to enumerate on commodity hardware. Downstream wallet applications that used CryptoJS.lib.WordArray.random() as the entropy source for BIP39 recovery phrases are affected, and an attacker who enumerates the reduced output space can recover the resulting private keys and control the associated funds. This issue is fixed in version 4.0.0.
+</code>
+
+- [brendonlee20042004-sys/weakrng-sweep](https://github.com/brendonlee20042004-sys/weakrng-sweep)
+
 ### CVE-2026-71960 (2026-08-19)
 
 <code>Cudy WR3000 2.0 running firmware before 2.5.24 contains a hard-coded JWT HMAC signing secret vulnerability in the Mosquitto MQTT broker's authentication plugin that allows unauthenticated attackers to forge valid JWT tokens by extracting the secret from the firmware image. Attackers can use the extracted secret to craft arbitrary JWT tokens and authenticate to the MQTT broker without legitimate credentials, gaining unauthorized access to the device's mesh networking interface.
@@ -14353,6 +14360,13 @@
 
 - [toanln-cov/CVE-2026-76565](https://github.com/toanln-cov/CVE-2026-76565)
 
+### CVE-2026-76569 (2026-08-20)
+
+<code>Joomla Extension - phoca.cz - Reflected XSS via the search GET parameter in Phoca Download 5.0.0-6.1.4
+</code>
+
+- [toanln-cov/CVE-2026-76569](https://github.com/toanln-cov/CVE-2026-76569)
+
 ### CVE-2026-76581 (2026-08-28)
 
 <code>The WPMU DEV Dashboard plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 5.0.1. This is due to inconsistent and ambiguous HMAC message construction between the unauthenticated `wdpsso_step1` and `wdpsso_step2` AJAX actions, where step 1 signs and discloses an unseparated concatenation of the token, state, redirect, and domain values, while step 2 verifies an unseparated concatenation that omits the domain field. This makes it possible for unauthenticated attackers, on sites connected to WPMU DEV with Hub SSO enabled and mapped to an administrator, to obtain a valid HMAC from step 1 and replay it to step 2 by moving the domain value into the redirect field, resulting in an authenticated administrator session.
@@ -14474,6 +14488,7 @@
 
 - [UdinChan/cve-2026-82222-poc](https://github.com/UdinChan/cve-2026-82222-poc)
 - [dinosn/givewp-cve-2026-82222-rce-lab](https://github.com/dinosn/givewp-cve-2026-82222-rce-lab)
+- [R0x19/CVE-2026-82222](https://github.com/R0x19/CVE-2026-82222)
 
 ### CVE-2026-82286 (2026-08-28)
 
@@ -18104,6 +18119,7 @@
 
 - [curtishoughton/Cisco-ASA-CVE-2025-20333-Scanner](https://github.com/curtishoughton/Cisco-ASA-CVE-2025-20333-Scanner)
 - [cobbbex/Cisco-ASA-vulnerability-research](https://github.com/cobbbex/Cisco-ASA-vulnerability-research)
+- [cobbbex/cve-2025-20333](https://github.com/cobbbex/cve-2025-20333)
 
 ### CVE-2025-20343 (2025-11-05)
 
@@ -22018,7 +22034,6 @@
 - [rxerium/CVE-2025-47812](https://github.com/rxerium/CVE-2025-47812)
 - [blindma1den/CVE-2025-47812](https://github.com/blindma1den/CVE-2025-47812)
 - [r0otk3r/CVE-2025-47812](https://github.com/r0otk3r/CVE-2025-47812)
-- [CTY-Research-1/CVE-2025-47812_Lab_environment](https://github.com/CTY-Research-1/CVE-2025-47812_Lab_environment)
 - [dkstar11q/Blackash-CVE-2025-47812](https://github.com/dkstar11q/Blackash-CVE-2025-47812)
 - [matesz44/CVE-2025-47812](https://github.com/matesz44/CVE-2025-47812)
 - [shadowgit30/CVE-2025-47812](https://github.com/shadowgit30/CVE-2025-47812)
@@ -22113,7 +22128,6 @@
 - [Anezatraa/CVE-2025-48384-submodule](https://github.com/Anezatraa/CVE-2025-48384-submodule)
 - [IK-20211125/CVE-2025-48384](https://github.com/IK-20211125/CVE-2025-48384)
 - [elprogramadorgt/CVE-2025-48384](https://github.com/elprogramadorgt/CVE-2025-48384)
-- [f1shh/CVE-2025-48384](https://github.com/f1shh/CVE-2025-48384)
 - [fluoworite/CVE-2025-48384](https://github.com/fluoworite/CVE-2025-48384)
 - [fluoworite/CVE-2025-48384-sub](https://github.com/fluoworite/CVE-2025-48384-sub)
 - [beishanxueyuan/CVE-2025-48384](https://github.com/beishanxueyuan/CVE-2025-48384)
@@ -25086,7 +25100,7 @@
 - [maradonam18/-CVE-2025-59528-PoC](https://github.com/maradonam18/-CVE-2025-59528-PoC)
 - [r3nsi15/Flowise-RCE-CVE-2025-59528](https://github.com/r3nsi15/Flowise-RCE-CVE-2025-59528)
 - [mananispiwpiw/CVE-2025-59528-PoC](https://github.com/mananispiwpiw/CVE-2025-59528-PoC)
-- [im-nymii/CVE-2025-59528](https://github.com/im-nymii/CVE-2025-59528)
+- [NymiiTechTips/CVE-2025-59528](https://github.com/NymiiTechTips/CVE-2025-59528)
 - [corey-farley/CVE-2025-59528-Flowise-RCE](https://github.com/corey-farley/CVE-2025-59528-Flowise-RCE)
 - [Moon-Harvest/CVE-2025-59528](https://github.com/Moon-Harvest/CVE-2025-59528)
 - [Loaxert/CVE-2025-59528-PoC](https://github.com/Loaxert/CVE-2025-59528-PoC)
@@ -43968,6 +43982,7 @@
 - [dev0558/CVE-2023-32784-EXPLOIT-REPORT](https://github.com/dev0558/CVE-2023-32784-EXPLOIT-REPORT)
 - [G4sp4rCS/CVE-2023-32784-password-combinator-fixer](https://github.com/G4sp4rCS/CVE-2023-32784-password-combinator-fixer)
 - [super-oof/keepass2-password-finder](https://github.com/super-oof/keepass2-password-finder)
+- [Amperclock/CVE-2023-32784-kdbxpassdmp](https://github.com/Amperclock/CVE-2023-32784-kdbxpassdmp)
 - [areebashoaib42/KeePass-CVE-2023-32784-Exploitation-and-Defense](https://github.com/areebashoaib42/KeePass-CVE-2023-32784-Exploitation-and-Defense)
 - [Pugazhendii22/keepass-exfil-forensics](https://github.com/Pugazhendii22/keepass-exfil-forensics)
 
@@ -52592,6 +52607,13 @@
 - [taka3636/CVE-2022-29078](https://github.com/taka3636/CVE-2022-29078)
 - [seal-sec-demo-2/JavaScript-Example](https://github.com/seal-sec-demo-2/JavaScript-Example)
 
+### CVE-2022-29117 (2022-05-10)
+
+<code>.NET and Visual Studio Denial of Service Vulnerability
+</code>
+
+- [CharanMv08/cve-2022-29117-assessment](https://github.com/CharanMv08/cve-2022-29117-assessment)
+
 ### CVE-2022-29154 (2022-08-02)
 
 <code>An issue was discovered in rsync before 3.2.5 that allows malicious remote servers to write arbitrary files inside the directories of connecting peers. The server chooses which files/directories are sent to the client. However, the rsync client performs insufficient validation of file names. A malicious rsync server (or Man-in-The-Middle attacker) can overwrite arbitrary files in the rsync client target directory and subdirectories (for example, overwrite the .ssh/authorized_keys file).
@@ -57693,6 +57715,13 @@
 </code>
 
 - [tr3ee/CVE-2021-4204](https://github.com/tr3ee/CVE-2021-4204)
+
+### CVE-2021-4281 (2022-12-26)
+
+<code>Eine Schwachstelle wurde in Brave UX for-the-badge gefunden. Sie wurde als kritisch eingestuft. Dies betrifft einen unbekannten Teil der Datei .github/workflows/combine-prs.yml. Durch Beeinflussen mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Der Patch wird als 55b5a234c0fab935df5fb08365bc8fe9c37cf46b bezeichnet. Als bestmögliche Massnahme wird Patching empfohlen.
+</code>
+
+- [pvharmo2/gha-lab-232af4821f](https://github.com/pvharmo2/gha-lab-232af4821f)
 
 ### CVE-2021-4376 (2023-06-07)
 
@@ -78857,7 +78886,6 @@
 - [sudlit/CVE-2017-7494](https://github.com/sudlit/CVE-2017-7494)
 - [Zanex360/cdt-samba-deploy](https://github.com/Zanex360/cdt-samba-deploy)
 - [Zanex360/cdt-vulnsamba-deploy](https://github.com/Zanex360/cdt-vulnsamba-deploy)
-- [Sadz1d/IS](https://github.com/Sadz1d/IS)
 - [YonLiud/CVE-2017-7494](https://github.com/YonLiud/CVE-2017-7494)
 
 ### CVE-2017-7504 (2017-05-19)
@@ -82546,6 +82574,7 @@
 - [Ma1Dong/ActiveMQ_CVE-2015-5254](https://github.com/Ma1Dong/ActiveMQ_CVE-2015-5254)
 - [guigui237/Exploitation-de-la-vuln-rabilit-CVE-2015-5254-](https://github.com/guigui237/Exploitation-de-la-vuln-rabilit-CVE-2015-5254-)
 - [Catherines77/ActiveMQ-EXPtools](https://github.com/Catherines77/ActiveMQ-EXPtools)
+- [radsih/activemq-cve-lab](https://github.com/radsih/activemq-cve-lab)
 
 ### CVE-2015-5287 (2015-12-07)
 
