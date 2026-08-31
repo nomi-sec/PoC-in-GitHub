@@ -13175,6 +13175,13 @@
 
 - [NicPWNs/CVE-2026-62183](https://github.com/NicPWNs/CVE-2026-62183)
 
+### CVE-2026-62735 (2026-08-11)
+
+<code>Heap-based buffer overflow in Windows HTTP.sys allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [nhh9905/CVE-2026-62735](https://github.com/nhh9905/CVE-2026-62735)
+
 ### CVE-2026-62737 (2026-08-11)
 
 <code>Untrusted pointer dereference in Windows Kernel allows an authorized attacker to elevate privileges locally.
@@ -18078,6 +18085,13 @@
 </code>
 
 - [gduma-phData/patch-CVE-2025-20115](https://github.com/gduma-phData/patch-CVE-2025-20115)
+
+### CVE-2025-20197 (2025-05-07)
+
+<code>A vulnerability in the CLI of Cisco IOS XE Software could allow an authenticated, local attacker with privilege level 15 to elevate privileges to root on the underlying operating system of an affected device.\r\n\r This vulnerability is due to insufficient input validation when processing specific configuration commands. An attacker could exploit this vulnerability by including crafted input in specific configuration commands. A successful exploit could allow the attacker to elevate privileges to root on the underlying operating system of an affected device. The security impact rating (SIR) of this advisory has been raised to High because an attacker could gain access to the underlying operating system of the affected device and perform potentially undetected actions.\r\n\r Note: The attacker must have privileges to enter configuration mode on the affected device. This is usually referred to as privilege level 15.
+</code>
+
+- [KaraRyougi/CVE-2025-20197-POC](https://github.com/KaraRyougi/CVE-2025-20197-POC)
 
 ### CVE-2025-20260 (2025-06-18)
 
@@ -35959,6 +35973,7 @@
 - [chebuya/Havoc-C2-SSRF-poc](https://github.com/chebuya/Havoc-C2-SSRF-poc)
 - [HimmeL-Byte/CVE-2024-41570-SSRF-RCE](https://github.com/HimmeL-Byte/CVE-2024-41570-SSRF-RCE)
 - [leo-mitch/CVE-2024-41570-Havoc-C2-RCE](https://github.com/leo-mitch/CVE-2024-41570-Havoc-C2-RCE)
+- [UnDefinedCS/HavocPwn](https://github.com/UnDefinedCS/HavocPwn)
 - [sebr-dev/Havoc-C2-SSRF-to-RCE](https://github.com/sebr-dev/Havoc-C2-SSRF-to-RCE)
 - [diemoeve/CVE-2024-41570](https://github.com/diemoeve/CVE-2024-41570)
 
@@ -36587,7 +36602,6 @@
 <code>A traversal vulnerability in GeneralDocs.aspx in CentralSquare CryWolf (False Alarm Management) through 2024-08-09 allows unauthenticated attackers to read files outside of the working web directory via the rpt parameter, leading to the disclosure of sensitive information.
 </code>
 
-- [d4lyw/CVE-2024-45241](https://github.com/d4lyw/CVE-2024-45241)
 - [verylazytech/CVE-2024-45241](https://github.com/verylazytech/CVE-2024-45241)
 
 ### CVE-2024-45244 (2024-08-25)
@@ -36803,13 +36817,6 @@
 
 - [EQSTLab/CVE-2024-46538](https://github.com/EQSTLab/CVE-2024-46538)
 - [LauLeysen/CVE-2024-46538](https://github.com/LauLeysen/CVE-2024-46538)
-
-### CVE-2024-46627 (2024-09-26)
-
-<code>Incorrect access control in BECN DATAGERRY v2.2 allows attackers to execute arbitrary commands via crafted web requests.
-</code>
-
-- [d4lyw/CVE-2024-46627](https://github.com/d4lyw/CVE-2024-46627)
 
 ### CVE-2024-46635 (2024-09-30)
 
@@ -42445,6 +42452,13 @@
 
 - [ISabbiI/PoC---CVE-2023-26482-RCE-LAB-Nextcloud](https://github.com/ISabbiI/PoC---CVE-2023-26482-RCE-LAB-Nextcloud)
 
+### CVE-2023-26493 (2023-03-27)
+
+<code>Cocos Engine is an open-source framework for building 2D &amp; 3D real-time rendering and interactive content. In the github repo for Cocos Engine the `web-interface-check.yml` was subject to command injection. The `web-interface-check.yml` was triggered when a pull request was opened or updated and contained the user controllable field `(${{ github.head_ref }} – the name of the fork’s branch)`. This would allow an attacker to take over the GitHub Runner and run custom commands (potentially stealing secrets such as GITHUB_TOKEN) and altering the repository. The workflow has since been removed for the repository. There are no actions required of users.
+</code>
+
+- [pvharmo2/gha-lab-fb32aba4a3](https://github.com/pvharmo2/gha-lab-fb32aba4a3)
+
 ### CVE-2023-26563 (2023-07-12)
 
 <code>The Syncfusion EJ2 Node File Provider 0102271 is vulnerable to filesystem-server.js directory traversal. As a result, an unauthenticated attacker can: - On Windows, list files in any directory, read any file, delete any file, upload any file to any directory accessible by the web server. - On Linux, read any file, download any directory, delete any file, upload any file to any directory accessible by the web server.
@@ -45703,6 +45717,7 @@
 
 - [HPT-Intern-Task-Submission/CVE-2023-39361](https://github.com/HPT-Intern-Task-Submission/CVE-2023-39361)
 - [ChoDeokCheol/CVE-2023-39361](https://github.com/ChoDeokCheol/CVE-2023-39361)
+- [spartanx-alejandro/cacti-cve-2023-39361](https://github.com/spartanx-alejandro/cacti-cve-2023-39361)
 
 ### CVE-2023-39362 (2023-09-05)
 
@@ -67901,7 +67916,6 @@
 
 - [revengsh/CVE-2020-17087](https://github.com/revengsh/CVE-2020-17087)
 - [ykg88/OHTS_IE6052-CVE-2020-17087](https://github.com/ykg88/OHTS_IE6052-CVE-2020-17087)
-- [vp777/Windows-Non-Paged-Pool-Overflow-Exploitation](https://github.com/vp777/Windows-Non-Paged-Pool-Overflow-Exploitation)
 - [raiden757/CVE-2020-17087](https://github.com/raiden757/CVE-2020-17087)
 
 ### CVE-2020-17103 (2020-12-09)
@@ -76627,6 +76641,7 @@
 - [syriusbughunt/CVE-2018-14667](https://github.com/syriusbughunt/CVE-2018-14667)
 - [quandqn/cve-2018-14667](https://github.com/quandqn/cve-2018-14667)
 - [Venscor/CVE-2018-14667-poc](https://github.com/Venscor/CVE-2018-14667-poc)
+- [aitLmalem/CVE-2018-14667_Lab_POC](https://github.com/aitLmalem/CVE-2018-14667_Lab_POC)
 
 ### CVE-2018-14699 (2018-12-03)
 
