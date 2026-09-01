@@ -3297,6 +3297,13 @@
 
 - [MinhHK68/CVE-2026-13736](https://github.com/MinhHK68/CVE-2026-13736)
 
+### CVE-2026-13753 (2026-07-06)
+
+<code>Certain HP DeskJet All-in-One printers may be potentially vulnerable to information disclosure that allows an unauthenticated attacker to access sensitive information through exposed APIs.
+</code>
+
+- [typedefabcd1234ntd/CVE-2026-13753-poc](https://github.com/typedefabcd1234ntd/CVE-2026-13753-poc)
+
 ### CVE-2026-13768 (2026-07-02)
 
 <code>Gardyn devices expose a privileged iothubowner key. Access to this key will allow a malicious user to invoke an IoTHub Registry Manager function which returns connection information for all Gardyn Home Kit and Studio devices. Access to this key also allows a malicious user to execute arbitrary commands on a specific connected device and may allow the malicious user to pivot to other devices on the user's network.
@@ -7994,6 +8001,7 @@
 - [lxxexxbxx/CVE-2026-33017](https://github.com/lxxexxbxx/CVE-2026-33017)
 - [e4zyy/Project-CVE-2026-33017](https://github.com/e4zyy/Project-CVE-2026-33017)
 - [ahseven/CVE-2026-33017-PoC-Reverse-Shell](https://github.com/ahseven/CVE-2026-33017-PoC-Reverse-Shell)
+- [maxprog-svg/CVE-2026-33017](https://github.com/maxprog-svg/CVE-2026-33017)
 
 ### CVE-2026-33032 (2026-03-30)
 
@@ -10475,6 +10483,7 @@
 - [ankitrawatgit/iQOO-Z9_5G-vivo-T3_5G-Root-GhostLock](https://github.com/ankitrawatgit/iQOO-Z9_5G-vivo-T3_5G-Root-GhostLock)
 - [yakidango-official/GhostLock-H80GT](https://github.com/yakidango-official/GhostLock-H80GT)
 - [XingChenRS/CyberMeowfiaNS](https://github.com/XingChenRS/CyberMeowfiaNS)
+- [slapah/ghostlock-h8q](https://github.com/slapah/ghostlock-h8q)
 - [XiaoBaiLovesStirring/ghostlock-k419-adapter](https://github.com/XiaoBaiLovesStirring/ghostlock-k419-adapter)
 - [zenyxx-xd/RootMyVivo](https://github.com/zenyxx-xd/RootMyVivo)
 - [JingMatrix/pixel-ksu-root](https://github.com/JingMatrix/pixel-ksu-root)
@@ -10484,6 +10493,7 @@
 - [ReBiliBin/ghostlock-oppo-watch3pro](https://github.com/ReBiliBin/ghostlock-oppo-watch3pro)
 - [alk601/Root-My-Galaxy](https://github.com/alk601/Root-My-Galaxy)
 - [xiaohj233/ghostlock-x200-app](https://github.com/xiaohj233/ghostlock-x200-app)
+- [lkeld/CVE-2026-43499-poc](https://github.com/lkeld/CVE-2026-43499-poc)
 - [Cxyofficial/k50g-pocof4gt-cve-2026-43499-poc](https://github.com/Cxyofficial/k50g-pocof4gt-cve-2026-43499-poc)
 
 ### CVE-2026-43500 (2026-05-11)
@@ -12119,7 +12129,11 @@
 ### CVE-2026-51592
 - [ardakrg/CVE-2026-51592](https://github.com/ardakrg/CVE-2026-51592)
 
-### CVE-2026-51788
+### CVE-2026-51788 (2026-09-01)
+
+<code>An issue in cleverange_auth v.0.1.10 allows a remote attacker to cause a denial of service via the account_verification function and the accounts/models.py component
+</code>
+
 - [aykhan32/CVE-2026-51788](https://github.com/aykhan32/CVE-2026-51788)
 
 ### CVE-2026-51833 (2026-07-17)
@@ -14503,6 +14517,13 @@
 - [yora1928/PaperCut-CVE-2026-81578-82078](https://github.com/yora1928/PaperCut-CVE-2026-81578-82078)
 - [virologi-info/papercut-toolkit](https://github.com/virologi-info/papercut-toolkit)
 
+### CVE-2026-82221 (2026-08-31)
+
+<code>Unauthenticated Cross Site Scripting (XSS) in RegistrationMagic &lt;= 6.0.9.8 versions.
+</code>
+
+- [gabrielftanaka/CVE-2026-82221](https://github.com/gabrielftanaka/CVE-2026-82221)
+
 ### CVE-2026-82222 (2026-08-28)
 
 <code>Deserialization of Untrusted Data vulnerability in Liquid Web / StellarWP GiveWP allows Object Injection.\n\nThis issue affects GiveWP: from n/a through 4.16.7.1.
@@ -14525,6 +14546,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-82329](https://github.com/HORKimhab/CVE-2026-82329)
+- [dinosn/cve-2026-82329-jfrog-artifactory](https://github.com/dinosn/cve-2026-82329-jfrog-artifactory)
 
 ### CVE-2026-82539 (2026-08-30)
 
@@ -18545,6 +18567,7 @@
 - [r0binak/CVE-2025-23266](https://github.com/r0binak/CVE-2025-23266)
 - [Mindasy/cve-2025-23266-migration-bypass](https://github.com/Mindasy/cve-2025-23266-migration-bypass)
 - [mrk336/CVE-2025-23266](https://github.com/mrk336/CVE-2025-23266)
+- [CR1MS0N-Operator/security-research](https://github.com/CR1MS0N-Operator/security-research)
 
 ### CVE-2025-23320 (2025-08-06)
 
@@ -25685,6 +25708,7 @@
 </code>
 
 - [Boreas37/CVE-2025-62593-PoC](https://github.com/Boreas37/CVE-2025-62593-PoC)
+- [maxprog-svg/CVE-2026-33017](https://github.com/maxprog-svg/CVE-2026-33017)
 
 ### CVE-2025-62641 (2025-10-21)
 
@@ -31592,7 +31616,7 @@
 <code>Newtonsoft.Json before version 13.0.1 is affected by a mishandling of exceptional conditions vulnerability. Crafted data that is passed to the JsonConvert.DeserializeObject method may trigger a StackOverflow exception resulting in denial of service. Depending on the usage of the library, an unauthenticated and remote attacker may be able to cause the denial of service condition.
 </code>
 
-- [seal-sec-demo-2/seal-security-nuget-demo-net7](https://github.com/seal-sec-demo-2/seal-security-nuget-demo-net7)
+- [iSecurityTW/seal-security-nuget-demo-net7](https://github.com/iSecurityTW/seal-security-nuget-demo-net7)
 
 ### CVE-2024-21978 (2024-08-05)
 
@@ -38476,6 +38500,7 @@
 - [exfil0/CVE-2024-55591-POC](https://github.com/exfil0/CVE-2024-55591-POC)
 - [0x7556/CVE-2024-55591](https://github.com/0x7556/CVE-2024-55591)
 - [UMChacker/CVE-2024-55591-POC](https://github.com/UMChacker/CVE-2024-55591-POC)
+- [uLl0a/cve-2024-55591-poc](https://github.com/uLl0a/cve-2024-55591-poc)
 
 ### CVE-2024-55656 (2025-01-08)
 
@@ -49071,9 +49096,7 @@
 - [seal-sec-demo-2/yaml-payload](https://github.com/seal-sec-demo-2/yaml-payload)
 - [jelee2555/CVE-2022-1471-attacker](https://github.com/jelee2555/CVE-2022-1471-attacker)
 - [anupamojha-eng/sentinel-transitive-cve-demo](https://github.com/anupamojha-eng/sentinel-transitive-cve-demo)
-- [seal-sec-demo-2/Java-Example](https://github.com/seal-sec-demo-2/Java-Example)
-- [seal-sean-org/yaml-payload](https://github.com/seal-sean-org/yaml-payload)
-- [seal-sean-org/seans-surf-and-skate](https://github.com/seal-sean-org/seans-surf-and-skate)
+- [seal-sec-demo-2/yaml-payload-2](https://github.com/seal-sec-demo-2/yaml-payload-2)
 - [aykhan019/cve-2022-1471-jira-lab](https://github.com/aykhan019/cve-2022-1471-jira-lab)
 
 ### CVE-2022-1565 (2022-07-18)
@@ -52323,12 +52346,11 @@
 - [shurochka1396/expluatation_CVE-2022-29078](https://github.com/shurochka1396/expluatation_CVE-2022-29078)
 - [l0n3m4n/CVE-2022-29078](https://github.com/l0n3m4n/CVE-2022-29078)
 - [chuckdu21/CVE-2022-29078](https://github.com/chuckdu21/CVE-2022-29078)
-- [seal-sec-demo-2/npm-demo](https://github.com/seal-sec-demo-2/npm-demo)
+- [AlonNavon/npm-demo](https://github.com/AlonNavon/npm-demo)
 - [amusedx/CVE-2022-29078](https://github.com/amusedx/CVE-2022-29078)
 - [test-avm-714877d2df585126/vuln-ejs-critical](https://github.com/test-avm-714877d2df585126/vuln-ejs-critical)
 - [test-avm-714877d2df585126/C-test-2](https://github.com/test-avm-714877d2df585126/C-test-2)
 - [taka3636/CVE-2022-29078](https://github.com/taka3636/CVE-2022-29078)
-- [seal-sec-demo-2/JavaScript-Example](https://github.com/seal-sec-demo-2/JavaScript-Example)
 
 ### CVE-2022-29117 (2022-05-10)
 
@@ -66961,7 +66983,6 @@
 - [j4k0m/loader-CVE-2020-14343](https://github.com/j4k0m/loader-CVE-2020-14343)
 - [Kairo-one/CVE-2020-14343-PyYAML](https://github.com/Kairo-one/CVE-2020-14343-PyYAML)
 - [sijie52/yasa-cve-2020-14343](https://github.com/sijie52/yasa-cve-2020-14343)
-- [seal-sec-demo-2/Python-Example](https://github.com/seal-sec-demo-2/Python-Example)
 
 ### CVE-2020-14356 (2020-08-19)
 
