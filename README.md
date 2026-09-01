@@ -7048,6 +7048,20 @@
 
 - [Cr0wld3r/CVE-2026-30082](https://github.com/Cr0wld3r/CVE-2026-30082)
 
+### CVE-2026-30251 (2026-04-02)
+
+<code>A reflected cross-site scripting (XSS) vulnerability in the login_newpwd.php endpoint of Interzen Consulting S.r.l ZenShare Suite v17.0 allows attackers to execute arbitrary Javascript in the context of the user's browser via a crafted URL injected into the codice_azienda parameter.
+</code>
+
+- [vEnablee/CVE-2026-30251](https://github.com/vEnablee/CVE-2026-30251)
+
+### CVE-2026-30252 (2026-04-02)
+
+<code>Multiple reflected cross-site scripting (XSS) vulnerabilities in the login.php endpoint of Interzen Consulting S.r.l ZenShare Suite v17.0 allows attackers to execute arbitrary Javascript in the context of the user's browser via a crafted URL injected into the codice_azienda and red_url parameters.
+</code>
+
+- [vEnablee/CVE-2026-30252](https://github.com/vEnablee/CVE-2026-30252)
+
 ### CVE-2026-30332 (2026-04-02)
 
 <code>A Time-of-Check to Time-of-Use (TOCTOU) race condition vulnerability in Balena Etcher for Windows prior to v2.1.4 allows attackers to escalate privileges and execute arbitrary code via replacing a legitimate script with a crafted payload during the flashing process.
@@ -9302,7 +9316,7 @@
 
 ### CVE-2026-39275 (2026-08-26)
 
-<code>Cross Site Scripting vulnerability in Cockpit CMS v.2.13.5 and before allows a remote attacker to execute arbitrary code via the item.php, field-select.js and tags.js components.
+<code>Cross Site Scripting vulnerability in Cockpit CMS v.2.13.5 and before allows a remote attacker to execute arbitrary code via the item.php, field-select.js and tags.js components
 </code>
 
 - [Securify-AI/CVE-2026-39275](https://github.com/Securify-AI/CVE-2026-39275)
@@ -14470,7 +14484,11 @@
 
 - [virologi-info/chrome-vuln-scanner](https://github.com/virologi-info/chrome-vuln-scanner)
 
-### CVE-2026-79483
+### CVE-2026-79483 (2026-08-31)
+
+<code>FastGPT Community Edition 4.10.0 through 4.14.0 are vulnerable to a NoSQL injection in the POST /api/core/chat/getHistories endpoint. An unauthenticated attacker can inject malicious NoSQL operators via crafted JSON payloads to bypass authorization checks, resulting in unauthorized access to chat history titles of all users across the platform.
+</code>
+
 - [ExploreIO/CVE-2026-79483-FastGPT-NoSQL-Injection](https://github.com/ExploreIO/CVE-2026-79483-FastGPT-NoSQL-Injection)
 
 ### CVE-2026-80724 (2026-08-28)
@@ -15897,7 +15915,7 @@
 - [SleepNotF0und/CVE-2025-5777](https://github.com/SleepNotF0und/CVE-2025-5777)
 - [cyberleelawat/ExploitVeer](https://github.com/cyberleelawat/ExploitVeer)
 - [Shivshantp/CVE-2025-5777-TrendMicro-ApexCentral-RCE](https://github.com/Shivshantp/CVE-2025-5777-TrendMicro-ApexCentral-RCE)
-- [Ather-Energy/POC-CVE-2025-5777](https://github.com/Ather-Energy/POC-CVE-2025-5777)
+- [nicecopy/POC-CVE-2025-5777](https://github.com/nicecopy/POC-CVE-2025-5777)
 - [below0day/Honeypot-Logs-CVE-2025-5777](https://github.com/below0day/Honeypot-Logs-CVE-2025-5777)
 - [soltanali0/CVE-2025-5777-Exploit](https://github.com/soltanali0/CVE-2025-5777-Exploit)
 - [rootxsushant/Citrix-NetScaler-Memory-Leak-CVE-2025-5777](https://github.com/rootxsushant/Citrix-NetScaler-Memory-Leak-CVE-2025-5777)
@@ -27169,6 +27187,13 @@
 </code>
 
 - [Sudo-WP/sudowp-crowdsignal-forms](https://github.com/Sudo-WP/sudowp-crowdsignal-forms)
+
+### CVE-2025-69080 (2026-01-07)
+
+<code>Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in JanStudio Gecko gecko allows PHP Local File Inclusion.This issue affects Gecko: from n/a through &lt;= 1.9.8.
+</code>
+
+- [AndrielSec/CVE-2025-69080](https://github.com/AndrielSec/CVE-2025-69080)
 
 ### CVE-2025-69194 (2026-01-09)
 
@@ -40732,6 +40757,13 @@
 
 - [mimiloveexe/CVE-2023-6567-poc](https://github.com/mimiloveexe/CVE-2023-6567-poc)
 
+### CVE-2023-6572 (2023-12-14)
+
+<code>Command Injection in GitHub repository gradio-app/gradio prior to main.
+</code>
+
+- [pvharmo2/gha-lab-6255f5fc33](https://github.com/pvharmo2/gha-lab-6255f5fc33)
+
 ### CVE-2023-6595 (2023-12-14)
 
 <code>In WhatsUp Gold versions released before 2023.1, an API endpoint was found to be missing an authentication mechanism. It is possible for an unauthenticated attacker to enumerate ancillary credential information stored within WhatsUp Gold.
@@ -48031,6 +48063,13 @@
 </code>
 
 - [hyunnna/NextChat_SSRF_CVE-2023-49785](https://github.com/hyunnna/NextChat_SSRF_CVE-2023-49785)
+
+### CVE-2023-49792 (2023-12-22)
+
+<code>Nextcloud Server provides data storage for Nextcloud, an open source cloud platform. In Nextcloud Server prior to versions 26.0.9 and 27.1.4; as well as Nextcloud Enterprise Server prior to versions 23.0.12.13, 24.0.12.9, 25.0.13.4, 26.0.9, and 27.1.4; when a (reverse) proxy is configured as trusted proxy the server could be tricked into reading a wrong remote address for an attacker, allowing them executing authentication attempts than intended. Nextcloud Server versions 26.0.9 and 27.1.4 and Nextcloud Enterprise Server versions 23.0.12.13, 24.0.12.9, 25.0.13.4, 26.0.9, and 27.1.4 contain a patch for this issue. No known workarounds are available.
+</code>
+
+- [CStockdale1/nextcloud-cve-2023-49792-research](https://github.com/CStockdale1/nextcloud-cve-2023-49792-research)
 
 ### CVE-2023-49950 (2024-02-03)
 
@@ -76641,7 +76680,7 @@
 - [syriusbughunt/CVE-2018-14667](https://github.com/syriusbughunt/CVE-2018-14667)
 - [quandqn/cve-2018-14667](https://github.com/quandqn/cve-2018-14667)
 - [Venscor/CVE-2018-14667-poc](https://github.com/Venscor/CVE-2018-14667-poc)
-- [aitLmalem/CVE-2018-14667_Lab_POC](https://github.com/aitLmalem/CVE-2018-14667_Lab_POC)
+- [r4ch1d0/CVE-2018-14667_Lab_POC](https://github.com/r4ch1d0/CVE-2018-14667_Lab_POC)
 
 ### CVE-2018-14699 (2018-12-03)
 
