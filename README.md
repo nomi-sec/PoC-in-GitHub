@@ -5490,6 +5490,7 @@
 - [stoerti2/Abyssal](https://github.com/stoerti2/Abyssal)
 - [s-vx/CVE-2026-24061](https://github.com/s-vx/CVE-2026-24061)
 - [iLokaas/CVE-2026-24061-payload](https://github.com/iLokaas/CVE-2026-24061-payload)
+- [Ish3ng0m4/CVE-2026-24061-Telnetd](https://github.com/Ish3ng0m4/CVE-2026-24061-Telnetd)
 
 ### CVE-2026-24072 (2026-05-04)
 
@@ -9502,6 +9503,7 @@
 - [matesz44/cve-2026-39987](https://github.com/matesz44/cve-2026-39987)
 - [K3ysTr0K3R/CVE-2026-39987](https://github.com/K3ysTr0K3R/CVE-2026-39987)
 - [dodeepsink/CVE-2026-39987.py](https://github.com/dodeepsink/CVE-2026-39987.py)
+- [Ghxstsec/CVE-2026-39987](https://github.com/Ghxstsec/CVE-2026-39987)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -10490,11 +10492,13 @@
 - [sgswzglwlx/vivo-root-build](https://github.com/sgswzglwlx/vivo-root-build)
 - [hackyangwen-lgtm/rmg-s9180-fzg1](https://github.com/hackyangwen-lgtm/rmg-s9180-fzg1)
 - [diyiqiuye/ghostlock-pfem10](https://github.com/diyiqiuye/ghostlock-pfem10)
+- [abdgalaxy36-code/rmgp-complete-handoff](https://github.com/abdgalaxy36-code/rmgp-complete-handoff)
 - [ReBiliBin/ghostlock-oppo-watch3pro](https://github.com/ReBiliBin/ghostlock-oppo-watch3pro)
 - [alk601/Root-My-Galaxy](https://github.com/alk601/Root-My-Galaxy)
 - [xiaohj233/ghostlock-x200-app](https://github.com/xiaohj233/ghostlock-x200-app)
 - [lkeld/CVE-2026-43499-poc](https://github.com/lkeld/CVE-2026-43499-poc)
 - [Cxyofficial/k50g-pocof4gt-cve-2026-43499-poc](https://github.com/Cxyofficial/k50g-pocof4gt-cve-2026-43499-poc)
+- [everyoneexe/root-s24-e1s](https://github.com/everyoneexe/root-s24-e1s)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -13110,8 +13114,6 @@
 - [Sachinart/CVE-2026-60004-gitea-0day](https://github.com/Sachinart/CVE-2026-60004-gitea-0day)
 - [gagaltotal/CVE-2026-60004-poc-gitea](https://github.com/gagaltotal/CVE-2026-60004-poc-gitea)
 - [fevar54/cve-2026-60004](https://github.com/fevar54/cve-2026-60004)
-- [InfoSec-DB/CVE-2026-60004-Gitea-Validator](https://github.com/InfoSec-DB/CVE-2026-60004-Gitea-Validator)
-- [InfoSec-DB/CVE-2026-60004-Gitea-RCE-PoC](https://github.com/InfoSec-DB/CVE-2026-60004-Gitea-RCE-PoC)
 
 ### CVE-2026-60093 (2026-08-24)
 
@@ -14324,7 +14326,11 @@
 
 - [defineid/Trespasser](https://github.com/defineid/Trespasser)
 
-### CVE-2026-75604
+### CVE-2026-75604 (2026-09-01)
+
+<code>Next.js is a React framework for building full-stack web applications. From 13.4.0 until 15.5.24 and 16.3.3, Next.js applications using Pages Router or App Router without Cache Components on Windows-hosted servers do not consistently escape backslashes in route segments before constructing incremental-cache paths. In packages/next/src/shared/lib/router/utils/escape-path-delimiters.ts and packages/next/src/server/lib/incremental-cache/file-system-cache.ts, a remote request can supply encoded Windows path separators that traverse outside the intended cache root and expose private build data, including the server-reference-manifest encryption key. Disclosure of that key can enable remote code execution in the affected application. This issue is fixed in versions 15.5.24 and 16.3.3.
+</code>
+
 - [rafabd1/CVE-2026-75604-poc](https://github.com/rafabd1/CVE-2026-75604-poc)
 - [HackSpeak/CVE-2026-75604](https://github.com/HackSpeak/CVE-2026-75604)
 - [e4zyy/Project-CVE-2026-75604](https://github.com/e4zyy/Project-CVE-2026-75604)
@@ -14522,7 +14528,7 @@
 <code>Unauthenticated Cross Site Scripting (XSS) in RegistrationMagic &lt;= 6.0.9.8 versions.
 </code>
 
-- [gabrielftanaka/CVE-2026-82221](https://github.com/gabrielftanaka/CVE-2026-82221)
+- [gabrielftanaka/CVE-2026-82221-PoC](https://github.com/gabrielftanaka/CVE-2026-82221-PoC)
 
 ### CVE-2026-82222 (2026-08-28)
 
@@ -28822,6 +28828,13 @@
 - [Redfox-Security/Digisol-DG-GR1321-s-Password-Storage-in-Plaintext-CVE-2024-4232](https://github.com/Redfox-Security/Digisol-DG-GR1321-s-Password-Storage-in-Plaintext-CVE-2024-4232)
 - [Redfox-Security/Digisol-DG--GR1321-s-Password-Storage-in-Plaintext--CVE-2024-4232](https://github.com/Redfox-Security/Digisol-DG--GR1321-s-Password-Storage-in-Plaintext--CVE-2024-4232)
 
+### CVE-2024-4253 (2024-06-04)
+
+<code>A command injection vulnerability exists in the gradio-app/gradio repository, specifically within the 'test-functional.yml' workflow. The vulnerability arises due to improper neutralization of special elements used in a command, allowing for unauthorized modification of the base repository or secrets exfiltration. The issue affects versions up to and including '@gradio/video@0.6.12'. The flaw is present in the workflow's handling of GitHub context information, where it echoes the full name of the head repository, the head branch, and the workflow reference without adequate sanitization. This could potentially lead to the exfiltration of sensitive secrets such as 'GITHUB_TOKEN', 'COMMENT_TOKEN', and 'CHROMATIC_PROJECT_TOKEN'.
+</code>
+
+- [pvharmo2/gha-lab-ee08e207a8](https://github.com/pvharmo2/gha-lab-ee08e207a8)
+
 ### CVE-2024-4295 (2024-06-05)
 
 <code>The Email Subscribers by Icegram Express plugin for WordPress is vulnerable to SQL Injection via the ‘hash’ parameter in all versions up to, and including, 5.7.20 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -29006,7 +29019,6 @@
 - [Skycritch/CVE-2024-4577](https://github.com/Skycritch/CVE-2024-4577)
 - [CirqueiraDev/MassExploit-CVE-2024-4577](https://github.com/CirqueiraDev/MassExploit-CVE-2024-4577)
 - [Ianthinus/CVE-2024-4577](https://github.com/Ianthinus/CVE-2024-4577)
-- [InfoSec-DB/PHPCGIScanner](https://github.com/InfoSec-DB/PHPCGIScanner)
 - [a1ex-var1amov/ctf-cve-2024-4577](https://github.com/a1ex-var1amov/ctf-cve-2024-4577)
 - [rayngnpc/CVE-2024-4577-rayng](https://github.com/rayngnpc/CVE-2024-4577-rayng)
 - [gl1tch0x1/PHP_8.1.x_Exploit](https://github.com/gl1tch0x1/PHP_8.1.x_Exploit)
@@ -31581,6 +31593,7 @@
 - [0x0asif/CVE-2024-21762](https://github.com/0x0asif/CVE-2024-21762)
 - [Sxmpl3/CVE-2024-21762-Safe-Check](https://github.com/Sxmpl3/CVE-2024-21762-Safe-Check)
 - [Vampsecure-Labs/vamp-forticheck](https://github.com/Vampsecure-Labs/vamp-forticheck)
+- [abraxas/Fortigate-SSL-VPN-Exploit-Kit](https://github.com/abraxas/Fortigate-SSL-VPN-Exploit-Kit)
 
 ### CVE-2024-21793 (2024-05-08)
 
@@ -37197,6 +37210,7 @@
 - [vettrivel007/CVE-2024-49138](https://github.com/vettrivel007/CVE-2024-49138)
 - [basitsajidapply-stack/SOC-Investigation-CVE-2024-49138](https://github.com/basitsajidapply-stack/SOC-Investigation-CVE-2024-49138)
 - [NadineElliottCyber/SOC335-CVE-2024-49138-Investigation](https://github.com/NadineElliottCyber/SOC335-CVE-2024-49138-Investigation)
+- [Adisasoc/CVE-2024-49138-SOC-Investigation](https://github.com/Adisasoc/CVE-2024-49138-SOC-Investigation)
 
 ### CVE-2024-49328 (2024-10-20)
 
@@ -42633,6 +42647,7 @@
 - [node011/CVE-2023-27997-POC](https://github.com/node011/CVE-2023-27997-POC)
 - [onurkerembozkurt/fgt-cve-2023-27997-exploit](https://github.com/onurkerembozkurt/fgt-cve-2023-27997-exploit)
 - [Vampsecure-Labs/vamp-forticheck](https://github.com/Vampsecure-Labs/vamp-forticheck)
+- [abraxas/Fortigate-SSL-VPN-Exploit-Kit](https://github.com/abraxas/Fortigate-SSL-VPN-Exploit-Kit)
 
 ### CVE-2023-28121 (2023-04-12)
 
@@ -47840,6 +47855,13 @@
 </code>
 
 - [hyunnna/NextChat_SSRF_CVE-2023-49785](https://github.com/hyunnna/NextChat_SSRF_CVE-2023-49785)
+
+### CVE-2023-49792 (2023-12-22)
+
+<code>Nextcloud Server provides data storage for Nextcloud, an open source cloud platform. In Nextcloud Server prior to versions 26.0.9 and 27.1.4; as well as Nextcloud Enterprise Server prior to versions 23.0.12.13, 24.0.12.9, 25.0.13.4, 26.0.9, and 27.1.4; when a (reverse) proxy is configured as trusted proxy the server could be tricked into reading a wrong remote address for an attacker, allowing them executing authentication attempts than intended. Nextcloud Server versions 26.0.9 and 27.1.4 and Nextcloud Enterprise Server versions 23.0.12.13, 24.0.12.9, 25.0.13.4, 26.0.9, and 27.1.4 contain a patch for this issue. No known workarounds are available.
+</code>
+
+- [CStockdale1/nextcloud-cve-2023-49792-research](https://github.com/CStockdale1/nextcloud-cve-2023-49792-research)
 
 ### CVE-2023-49950 (2024-02-03)
 
