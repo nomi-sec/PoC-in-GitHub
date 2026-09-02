@@ -2606,6 +2606,13 @@
 
 - [HORKimhab/CVE-2026-9560](https://github.com/HORKimhab/CVE-2026-9560)
 
+### CVE-2026-9586 (2026-07-17)
+
+<code>An unauthenticated SQL injection vulnerability exists in Sangoma Switchvox SMB Edition 8.3 (104997). The /pa endpoint processes XML content beginning with &lt;PolycomIPPhone&gt; and directly concatenates the user-controlled PhoneIP value into PostgreSQL queries without sanitization or parameterization. An unauthenticated remote attacker can execute arbitrary SQL statements against the backend PostgreSQL database using a single crafted request, including database operations and remote code execution.
+</code>
+
+- [HORKimhab/CVE-2026-9586](https://github.com/HORKimhab/CVE-2026-9586)
+
 ### CVE-2026-9645 (2026-05-28)
 
 <code>Exposed methods allow authenticated users to create and execute arbitrary JavaScript code on the server. The scripts execute with full access, enabling complete system compromise as commands are executed as root.
@@ -10498,7 +10505,6 @@
 - [xiaohj233/ghostlock-x200-app](https://github.com/xiaohj233/ghostlock-x200-app)
 - [lkeld/CVE-2026-43499-poc](https://github.com/lkeld/CVE-2026-43499-poc)
 - [Cxyofficial/k50g-pocof4gt-cve-2026-43499-poc](https://github.com/Cxyofficial/k50g-pocof4gt-cve-2026-43499-poc)
-- [everyoneexe/root-s24-e1s](https://github.com/everyoneexe/root-s24-e1s)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -14466,6 +14472,12 @@
 
 - [oscerd/CVE-2026-78329](https://github.com/oscerd/CVE-2026-78329)
 
+### CVE-2026-78837
+- [nabeelmkhan/CVE-2026-78837](https://github.com/nabeelmkhan/CVE-2026-78837)
+
+### CVE-2026-78838
+- [nabeelmkhan/CVE-2026-78838](https://github.com/nabeelmkhan/CVE-2026-78838)
+
 ### CVE-2026-78903 (2026-08-25)
 
 <code>Incomplete cleanup in SiteIsolation in Google Chrome prior to 152.0.7977.65 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a crafted HTML page. (Chromium security severity: Medium)
@@ -14567,6 +14579,13 @@
 </code>
 
 - [HackSpeak/CVE-2026-82592](https://github.com/HackSpeak/CVE-2026-82592)
+
+### CVE-2026-84361 (2026-09-01)
+
+<code>Composer is a dependency Manager for the PHP language. From 1.0 until 2.2.30 and 2.10.3, a malicious dependency package from a custom Composer repository or an untrusted composer.lock file could set source.type to perforce and source.url to an rsh: or jsh: P4PORT value. When the Perforce p4 client was installed and Composer installed the package from source through composer install or composer update, including --prefer-source, Composer\Util\Perforce passed the address to p4 without validation, causing p4 to run a local command with the privileges of the user or CI account. Packagist.org does not permit Perforce source metadata. This issue is fixed in versions 2.2.30 and 2.10.3.
+</code>
+
+- [Saku0512/CVE-2026-84361-poc](https://github.com/Saku0512/CVE-2026-84361-poc)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -28835,6 +28854,13 @@
 
 - [pvharmo2/gha-lab-ee08e207a8](https://github.com/pvharmo2/gha-lab-ee08e207a8)
 
+### CVE-2024-4254 (2024-06-04)
+
+<code>The 'deploy-website.yml' workflow in the gradio-app/gradio repository, specifically in the 'main' branch, is vulnerable to secrets exfiltration due to improper authorization. The vulnerability arises from the workflow's explicit checkout and execution of code from a fork, which is unsafe as it allows the running of untrusted code in an environment with access to push to the base repository and access secrets. This flaw could lead to the exfiltration of sensitive secrets such as GITHUB_TOKEN, HF_TOKEN, VERCEL_ORG_ID, VERCEL_PROJECT_ID, COMMENT_TOKEN, AWSACCESSKEYID, AWSSECRETKEY, and VERCEL_TOKEN. The vulnerability is present in the workflow file located at https://github.com/gradio-app/gradio/blob/72f4ca88ab569aae47941b3fb0609e57f2e13a27/.github/workflows/deploy-website.yml.
+</code>
+
+- [pvharmo2/gha-lab-40e23db109](https://github.com/pvharmo2/gha-lab-40e23db109)
+
 ### CVE-2024-4295 (2024-06-05)
 
 <code>The Email Subscribers by Icegram Express plugin for WordPress is vulnerable to SQL Injection via the ‘hash’ parameter in all versions up to, and including, 5.7.20 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -40036,6 +40062,7 @@
 - [WinnieZy/CVE-2023-4357](https://github.com/WinnieZy/CVE-2023-4357)
 - [lon5948/CVE-2023-4357-Exploitation](https://github.com/lon5948/CVE-2023-4357-Exploitation)
 - [CamillaFranceschini/CVE-2023-4357](https://github.com/CamillaFranceschini/CVE-2023-4357)
+- [shihongsu/NetSec-CVE-2023-4357](https://github.com/shihongsu/NetSec-CVE-2023-4357)
 
 ### CVE-2023-4427 (2023-08-22)
 
@@ -71107,7 +71134,7 @@
 <code>An issue was discovered in Kentico 12.0.x before 12.0.15, 11.0.x before 11.0.48, 10.0.x before 10.0.52, and 9.x versions. Due to a failure to validate security headers, it was possible for a specially crafted request to the staging service to bypass the initial authentication and proceed to deserialize user-controlled .NET object input. This deserialization then led to unauthenticated remote code execution on the server where the Kentico instance was hosted.
 </code>
 
-- [cianananan/CVE-2019-10068-PoC](https://github.com/cianananan/CVE-2019-10068-PoC)
+- [crukz404/CVE-2019-10068-PoC](https://github.com/crukz404/CVE-2019-10068-PoC)
 
 ### CVE-2019-10070 (2019-11-18)
 
