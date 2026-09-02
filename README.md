@@ -299,6 +299,7 @@
 - [oxfemale/KillChain](https://github.com/oxfemale/KillChain)
 - [mein-0/cve-2026-0828](https://github.com/mein-0/cve-2026-0828)
 - [Hika-sec/Terminator_Killer](https://github.com/Hika-sec/Terminator_Killer)
+- [ximerag/dast](https://github.com/ximerag/dast)
 
 ### CVE-2026-0834 (2026-01-21)
 
@@ -550,6 +551,7 @@
 
 - [Nxploited/CVE-2026-1555](https://github.com/Nxploited/CVE-2026-1555)
 - [willygailo/WG-CVE-2026-1555-Linux](https://github.com/willygailo/WG-CVE-2026-1555-Linux)
+- [katranSefa/CVE-2026-1555](https://github.com/katranSefa/CVE-2026-1555)
 
 ### CVE-2026-1560 (2026-02-11)
 
@@ -1454,6 +1456,7 @@
 - [0xBlackash/CVE-2026-5027](https://github.com/0xBlackash/CVE-2026-5027)
 - [Layer-6/CVE-2026-5027-Langflow](https://github.com/Layer-6/CVE-2026-5027-Langflow)
 - [HORKimhab/CVE-2026-5027](https://github.com/HORKimhab/CVE-2026-5027)
+- [rmhowe425/POC-CVE-2026-5027](https://github.com/rmhowe425/POC-CVE-2026-5027)
 
 ### CVE-2026-5029 (2026-05-12)
 
@@ -2216,6 +2219,13 @@
 
 ### CVE-2026-7878
 - [George0Papasotiriou/CVE-2026-7878-eBPF-Verifier-Type-Confusion-Kernel-Memory-Read-Write](https://github.com/George0Papasotiriou/CVE-2026-7878-eBPF-Verifier-Type-Confusion-Kernel-Memory-Read-Write)
+
+### CVE-2026-7899 (2026-05-06)
+
+<code>Out of bounds read and write in V8 in Google Chrome prior to 148.0.7778.96 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [HORKimhab/CVE-2026-7899](https://github.com/HORKimhab/CVE-2026-7899)
 
 ### CVE-2026-8023 (2026-06-29)
 
@@ -5568,13 +5578,6 @@
 
 - [0xNDI/CVE-2026-24294](https://github.com/0xNDI/CVE-2026-24294)
 
-### CVE-2026-24301 (2026-08-18)
-
-<code>Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.
-</code>
-
-- [CSOAI-ORG/memory-poisoning-axis](https://github.com/CSOAI-ORG/memory-poisoning-axis)
-
 ### CVE-2026-24306 (2026-01-22)
 
 <code>Improper access control in Azure Front Door (AFD) allows an unauthorized attacker to elevate privileges over a network.
@@ -5631,6 +5634,7 @@
 </code>
 
 - [aavamin/CVE-2026-24423](https://github.com/aavamin/CVE-2026-24423)
+- [CyberAlp0/SmarterMail-CVE-2026-24423-](https://github.com/CyberAlp0/SmarterMail-CVE-2026-24423-)
 
 ### CVE-2026-24514 (2026-02-03)
 
@@ -10504,7 +10508,7 @@
 - [alk601/Root-My-Galaxy](https://github.com/alk601/Root-My-Galaxy)
 - [xiaohj233/ghostlock-x200-app](https://github.com/xiaohj233/ghostlock-x200-app)
 - [lkeld/CVE-2026-43499-poc](https://github.com/lkeld/CVE-2026-43499-poc)
-- [Cxyofficial/k50g-pocof4gt-cve-2026-43499-poc](https://github.com/Cxyofficial/k50g-pocof4gt-cve-2026-43499-poc)
+- [Cxyofficial/K50G-POCOF4GT-CVE-2026-43499-PoC](https://github.com/Cxyofficial/K50G-POCOF4GT-CVE-2026-43499-PoC)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -13007,6 +13011,7 @@
 
 - [HORKimhab/CVE-2026-58231](https://github.com/HORKimhab/CVE-2026-58231)
 - [WildanDeveloper/CVE-2026-58231](https://github.com/WildanDeveloper/CVE-2026-58231)
+- [SAP-system-update/CVE-2026-58231](https://github.com/SAP-system-update/CVE-2026-58231)
 
 ### CVE-2026-58424 (2026-07-03)
 
@@ -14477,6 +14482,9 @@
 
 ### CVE-2026-78838
 - [nabeelmkhan/CVE-2026-78838](https://github.com/nabeelmkhan/CVE-2026-78838)
+
+### CVE-2026-78839
+- [nabeelmkhan/CVE-2026-78839](https://github.com/nabeelmkhan/CVE-2026-78839)
 
 ### CVE-2026-78903 (2026-08-25)
 
@@ -16050,13 +16058,6 @@
 </code>
 
 - [byteReaper77/CVE-2025-5964-](https://github.com/byteReaper77/CVE-2025-5964-)
-
-### CVE-2025-6000 (2025-08-01)
-
-<code>A privileged Vault operator within the root namespace with write permission to {{sys/audit}} may obtain code execution on the underlying host if a plugin directory is set in Vault’s configuration. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.
-</code>
-
-- [n0blinder/CVE-2025-6000](https://github.com/n0blinder/CVE-2025-6000)
 
 ### CVE-2025-6002 (2025-06-11)
 
@@ -36675,6 +36676,13 @@
 
 - [tdawg506/woocommerce_scanner](https://github.com/tdawg506/woocommerce_scanner)
 
+### CVE-2024-45798 (2024-09-17)
+
+<code>arduino-esp32 is an Arduino core for the ESP32, ESP32-S2, ESP32-S3, ESP32-C3, ESP32-C6 and ESP32-H2 microcontrollers. The `arduino-esp32` CI is vulnerable to multiple Poisoned Pipeline Execution (PPE) vulnerabilities. Code injection in `tests_results.yml` workflow (`GHSL-2024-169`) and environment Variable injection (`GHSL-2024-170`). These issue have been addressed but users are advised to verify the contents of the downloaded artifacts.
+</code>
+
+- [pvharmo2/gha-lab-6ab39df295](https://github.com/pvharmo2/gha-lab-6ab39df295)
+
 ### CVE-2024-45870 (2024-10-03)
 
 <code>Bandisoft BandiView 7.05 is vulnerable to Incorrect Access Control in sub_0x3d80fc via a crafted POC file.
@@ -36906,6 +36914,13 @@
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
+
+### CVE-2024-47179 (2024-09-26)
+
+<code>RSSHub is an RSS network. Prior to commit 64e00e7, RSSHub's `docker-test-cont.yml` workflow is vulnerable to Artifact Poisoning, which could have lead to a full repository takeover. Downstream users of RSSHub are not vulnerable to this issue, and commit 64e00e7 fixed the underlying issue and made the repository no longer vulnerable. The `docker-test-cont.yml` workflow gets triggered when the `PR - Docker build test` workflow completes successfully. It then collects some information about the Pull Request that triggered the triggering workflow and set some labels depending on the PR body and sender. If the PR also contains a `routes` markdown block, it will set the `TEST_CONTINUE` environment variable to `true`. The workflow then downloads and extracts an artifact uploaded by the triggering workflow which is expected to contain a single `rsshub.tar.zst` file. However, prior to commit 64e00e7, it did not validate and the contents were extracted in the root of the workspace overriding any existing files. Since the contents of the artifact were not validated, it is possible for a malicious actor to send a Pull Request which uploads, not just the `rsshub.tar.zst` compressed docker image, but also a malicious `package.json` file with a script to run arbitrary code in the context of the privileged workflow. As of commit 64e00e7, this scenario has been addressed and the RSSHub repository is no longer vulnerable.
+</code>
+
+- [pvharmo2/gha-lab-d9fd584b12](https://github.com/pvharmo2/gha-lab-d9fd584b12)
 
 ### CVE-2024-47533 (2024-11-18)
 
@@ -51644,6 +51659,7 @@
 - [lekosbelas/PDFkit-CMD-Injection](https://github.com/lekosbelas/PDFkit-CMD-Injection)
 - [lowercasenumbers/CVE-2022-25765](https://github.com/lowercasenumbers/CVE-2022-25765)
 - [Jeanback1/CVE-2022-25765-exploit](https://github.com/Jeanback1/CVE-2022-25765-exploit)
+- [innocentx0/CVE-2022-25765](https://github.com/innocentx0/CVE-2022-25765)
 
 ### CVE-2022-25813 (2022-09-02)
 
@@ -84384,6 +84400,7 @@
 - [aish19siddiqua-commits/mtechweek_04](https://github.com/aish19siddiqua-commits/mtechweek_04)
 - [rsakthikumar-cmd/metasploitable2-vsftpd-writeup](https://github.com/rsakthikumar-cmd/metasploitable2-vsftpd-writeup)
 - [Gvln-S/CVE-2011-2523](https://github.com/Gvln-S/CVE-2011-2523)
+- [aboubacar70/LAB1-metasploitable](https://github.com/aboubacar70/LAB1-metasploitable)
 
 ### CVE-2011-2553
 - [carlosrpastrana/cve-2011-2553](https://github.com/carlosrpastrana/cve-2011-2553)
