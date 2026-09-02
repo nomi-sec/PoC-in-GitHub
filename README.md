@@ -247,11 +247,7 @@
 - [NetVanguard-cmd/CVE-2026-0745](https://github.com/NetVanguard-cmd/CVE-2026-0745)
 - [HORKimhab/CVE-2026-0745](https://github.com/HORKimhab/CVE-2026-0745)
 
-### CVE-2026-0766 (2026-01-23)
-
-<code>Open WebUI load_tool_module_by_id Command Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Open WebUI. Authentication is required to exploit this vulnerability.\n\nThe specific flaw exists within the load_tool_module_by_id function. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the service account. Was ZDI-CAN-28257.
-</code>
-
+### CVE-2026-0766
 - [bitt0n/CVE-2026-0766](https://github.com/bitt0n/CVE-2026-0766)
 
 ### CVE-2026-0768 (2026-01-23)
@@ -367,6 +363,7 @@
 - [John-doe-code-a11/CVE-2026-0920](https://github.com/John-doe-code-a11/CVE-2026-0920)
 - [Nxploited/CVE-2026-0920-](https://github.com/Nxploited/CVE-2026-0920-)
 - [Dx3iZ/CVE-2026-0920](https://github.com/Dx3iZ/CVE-2026-0920)
+- [katranSefa/CVE-2026-0920](https://github.com/katranSefa/CVE-2026-0920)
 
 ### CVE-2026-0926 (2026-02-19)
 
@@ -2495,6 +2492,13 @@
 
 - [xxconi/CVE-2026-9018](https://github.com/xxconi/CVE-2026-9018)
 
+### CVE-2026-9055 (2026-09-02)
+
+<code>The Booking for Appointments and Events Calendar – Amelia (Premium) plugin for WordPress is vulnerable to Privilege Escalation in versions 8.0 - 9.6.2. This is due to insufficient validation of the attacker-controlled 'type' parameter in the customer update endpoint, which allows customers to set their role to 'manager' and trigger creation of a WordPress user with the wpamelia-manager role when the 'externalId' parameter is set to 0. This makes it possible for unauthenticated attackers to escalate their privileges to administrator by first elevating to the manager role, then creating a provider entity linked to an administrator user ID and overwriting that administrator's password.
+</code>
+
+- [EXEcution-py/CVE-2026-9055](https://github.com/EXEcution-py/CVE-2026-9055)
+
 ### CVE-2026-9067 (2026-06-10)
 
 <code>The Schema &amp; Structured Data for WP &amp; AMP WordPress plugin before 1.60 does not check user capabilities on its frontend AJAX file-upload handlers and does not validate the actual content of uploaded files against the endpoint's intended media type, allowing unauthenticated users to upload any file type accepted by WordPress's media library through endpoints that should only accept images or videos.
@@ -2594,6 +2598,13 @@
 </code>
 
 - [shinthink/CVE-2026-9290](https://github.com/shinthink/CVE-2026-9290)
+
+### CVE-2026-9335 (2026-08-02)
+
+<code>A vulnerability in keras-team/keras versions &lt;= 3.14.0 allows arbitrary local HDF5 file content disclosure due to improper handling of HDF5 ExternalLinks. The `KerasFileEditor` and `keras.saving.load_weights` functions bypass the `safe_get_h5_group` and `safe_get_h5_dataset` helpers, which are designed to reject ExternalLinks and SoftLinks. This results in automatic dereferencing of links to external HDF5 files, enabling attackers to disclose sensitive data from the victim's local filesystem. Specifically, `KerasFileEditor` extracts attributes and datasets from linked files into its internal structures, while `keras.saving.load_weights` loads weights from linked files into the user's model. This issue can be exploited by providing a malicious `.h5`, `.weights.h5`, or `.keras` file containing ExternalLinks.
+</code>
+
+- [paparojonathan/CVE-2026-9335-keras-hdf5-externallink](https://github.com/paparojonathan/CVE-2026-9335-keras-hdf5-externallink)
 
 ### CVE-2026-9490 (2026-05-25)
 
@@ -3867,6 +3878,13 @@
 - [n0xdaemon/cve-2026-19478](https://github.com/n0xdaemon/cve-2026-19478)
 - [punitdarji/Gitlab-CVE-2026-19478](https://github.com/punitdarji/Gitlab-CVE-2026-19478)
 - [EQSTLab/CVE-2026-19478](https://github.com/EQSTLab/CVE-2026-19478)
+
+### CVE-2026-19490 (2026-08-19)
+
+<code>Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: from 14.1 through 73.32 and from 13.1 through 63.21; Gateway: from 14.1 through 73.32 and from 13.1 through 63.21.
+</code>
+
+- [TarPeg007/CVE-2026-19490](https://github.com/TarPeg007/CVE-2026-19490)
 
 ### CVE-2026-19500 (2026-08-18)
 
@@ -5577,6 +5595,13 @@
 </code>
 
 - [0xNDI/CVE-2026-24294](https://github.com/0xNDI/CVE-2026-24294)
+
+### CVE-2026-24301 (2026-08-18)
+
+<code>Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.
+</code>
+
+- [CSOAI-ORG/memory-poisoning-axis](https://github.com/CSOAI-ORG/memory-poisoning-axis)
 
 ### CVE-2026-24306 (2026-01-22)
 
@@ -11451,6 +11476,13 @@
 
 - [daehyuh/CVE-2026-47883](https://github.com/daehyuh/CVE-2026-47883)
 
+### CVE-2026-47884 (2026-08-27)
+
+<code>Use of XsltView in a Spring MVC application can result in SSRF and RCE attack if the application has an &quot;/**&quot; mapping that results in view rendering, and where the view name is not explicitly specified.\nSpring Framework 7.0.0 - 7.0.8\nSpring Framework 6.2.0 - 6.2.19\nSpring Framework 6.1.0 - 6.1.28\nSpring Framework 6.0.0 - 6.0.30\nSpring Framework 5.3.0 - 5.3.49\nSpring Framework 5.2.25.RELEASE and earlier
+</code>
+
+- [xiaoqiMikko/spring-cvss-check](https://github.com/xiaoqiMikko/spring-cvss-check)
+
 ### CVE-2026-48017 (2026-06-15)
 
 <code>DbGate is cross-platform database manager. In versions 7.1.8 and prior, the POST /runners/load-reader endpoint in DbGate accepts a functionName parameter that is directly interpolated into a JavaScript code template without any sanitization or validation. An authenticated user (with basic access, no special permissions required) can inject arbitrary JavaScript code that executes on the server with full process privileges, bypassing the require=null sandbox restriction. An authenticated user with basic access (no admin role, no run-shell-script permission required) can: execute arbitrary OS commands on the DbGate server with the privileges of the Node.js process, read/write any file accessible to the process, pivot to connected databases by reading connection credentials from DbGate's storage, and compromise the host system - in Docker deployments, this typically means root access within the container. Version 7.1.9 contains a patch.
@@ -12264,7 +12296,11 @@
 ### CVE-2026-52824
 - [AzureADTrent/CVE-2026-52824](https://github.com/AzureADTrent/CVE-2026-52824)
 
-### CVE-2026-52832
+### CVE-2026-52832 (2026-09-02)
+
+<code>Nuclio is a &quot;Serverless&quot; framework for Real-Time Events and Data Processing. Prior to version 1.16.5, Nuclio Dashboard exposes POST /api/functions without authentication by default (NOP auth mode). The spec.handler field (e.g., mymodule:myfunction) is parsed by functionconfig.ParseHandler() which splits on : only — no path validation is applied to the module portion. This issue has been patched in version 1.16.5.
+</code>
+
 - [mdvpat/CVE-2026-52832-PoC-exploit-nuclio-dashboard](https://github.com/mdvpat/CVE-2026-52832-PoC-exploit-nuclio-dashboard)
 
 ### CVE-2026-52885 (2026-06-26)
@@ -14241,6 +14277,13 @@
 
 - [CamilleGR/CVE-2026-73292](https://github.com/CamilleGR/CVE-2026-73292)
 
+### CVE-2026-73296 (2026-08-12)
+
+<code>Microsoft UFO open-source framework for intelligent automation across devices and platforms. Prior to 3.0.8, create_mobile_data_collection_server and create_mobile_action_server in ufo/client/mcp/http_servers/mobile_mcp_server.py exposed Streamable HTTP MCP services on TCP ports 8020 and 8021 without authentication, allowing an unauthenticated remote attacker to invoke capture_screenshot, get_ui_tree, tap, swipe, type_text, launch_app, press_key, and click_control against an ADB-connected Android device, disclose screen and device data, and modify device state. This issue is fixed in version 3.0.8.
+</code>
+
+- [0xBlackash/CVE-2026-73296](https://github.com/0xBlackash/CVE-2026-73296)
+
 ### CVE-2026-73519 (2026-08-12)
 
 <code>WolfStack before 25.9.2 contains a hard-coded cluster-authentication secret compiled into every build and published as a constant in src/auth/mod.rs, allowing remote unauthenticated attackers to bypass authentication by supplying this value in the X-WolfStack-Secret header to the require_auth() gate without any session, API key, or user account. Attackers can reach an affected node's management port to enumerate all Docker and LXC containers on the host and execute arbitrary commands as root inside any container via the POST /api/containers/{runtime}/{id}/exec endpoint.
@@ -14258,6 +14301,7 @@
 - [jishino567/CVE-2026-73570](https://github.com/jishino567/CVE-2026-73570)
 - [gabrielunknown/CVE-2026-73570](https://github.com/gabrielunknown/CVE-2026-73570)
 - [INFOKOM-KI/Zimbra-CVE-2026-73570-Rules](https://github.com/INFOKOM-KI/Zimbra-CVE-2026-73570-Rules)
+- [byt3l0rd/CVE-2026-73570](https://github.com/byt3l0rd/CVE-2026-73570)
 
 ### CVE-2026-73633 (2026-08-14)
 
@@ -19788,6 +19832,7 @@
 
 - [jsecx88/CVE-2025-29009-POC](https://github.com/jsecx88/CVE-2025-29009-POC)
 - [Nxploited/CVE-2025-29009](https://github.com/Nxploited/CVE-2025-29009)
+- [katranSefa/CVE-2025-29009](https://github.com/katranSefa/CVE-2025-29009)
 
 ### CVE-2025-29015 (2025-04-17)
 
@@ -24184,6 +24229,7 @@
 - [h3n1s3/React2shell-Research](https://github.com/h3n1s3/React2shell-Research)
 - [Mr-Destroyer/CVE-2025-55182](https://github.com/Mr-Destroyer/CVE-2025-55182)
 - [UwUGreed/CVE-2025-55182-poc](https://github.com/UwUGreed/CVE-2025-55182-poc)
+- [ChrisBarack/cve-2025-55182](https://github.com/ChrisBarack/cve-2025-55182)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -24334,6 +24380,7 @@
 - [masahiro331/CVE-2025-55752](https://github.com/masahiro331/CVE-2025-55752)
 - [AuroraSec-Pivot/CVE-2025-55752](https://github.com/AuroraSec-Pivot/CVE-2025-55752)
 - [Jimmy01240397/CVE-2025-55752](https://github.com/Jimmy01240397/CVE-2025-55752)
+- [xiaoqiMikko/tomcat85-check](https://github.com/xiaoqiMikko/tomcat85-check)
 
 ### CVE-2025-55763 (2025-08-29)
 
@@ -84401,6 +84448,7 @@
 - [rsakthikumar-cmd/metasploitable2-vsftpd-writeup](https://github.com/rsakthikumar-cmd/metasploitable2-vsftpd-writeup)
 - [Gvln-S/CVE-2011-2523](https://github.com/Gvln-S/CVE-2011-2523)
 - [aboubacar70/LAB1-metasploitable](https://github.com/aboubacar70/LAB1-metasploitable)
+- [JUN41DS2709/vsFTPd-2.3.4-Exploit](https://github.com/JUN41DS2709/vsFTPd-2.3.4-Exploit)
 
 ### CVE-2011-2553
 - [carlosrpastrana/cve-2011-2553](https://github.com/carlosrpastrana/cve-2011-2553)
