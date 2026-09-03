@@ -256,6 +256,14 @@
 </code>
 
 - [HORKimhab/CVE-2026-0768](https://github.com/HORKimhab/CVE-2026-0768)
+- [rmhowe425/POC-CVE-2026-0768](https://github.com/rmhowe425/POC-CVE-2026-0768)
+
+### CVE-2026-0769 (2026-01-23)
+
+<code>Langflow eval_custom_component_code Eval Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Langflow. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the implementation of eval_custom_component_code function. The issue results from the lack of proper validation of a user-supplied string before using it to execute python code. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-26972.
+</code>
+
+- [rmhowe425/POC-CVE-2026-0769](https://github.com/rmhowe425/POC-CVE-2026-0769)
 
 ### CVE-2026-0770 (2026-01-23)
 
@@ -1441,6 +1449,13 @@
 </code>
 
 - [Perl-Code/CVE-2026-5000](https://github.com/Perl-Code/CVE-2026-5000)
+
+### CVE-2026-5006 (2026-08-24)
+
+<code>A vulnerability was identified in HashiCorp Vault and Vault Enterprise (“Vault”) such that an authenticated attacker may manipulate an identity value referenced by a templated policy path to gain unintended access to Vault paths.\n\nAn attacker who can control the referenced identity value may include slash ({{/}}) characters that Vault interprets as additional path segments when rendering the policy.\n\nThis vulnerability, CVE-2026-5006, was fixed in Vault Community Edition 2.0.4 and Vault Enterprise 2.0.4, 1.21.9, 1.20.14, and 1.19.20.
+</code>
+
+- [tcollins-hashicorp/vault-cve-2026-5006-audit](https://github.com/tcollins-hashicorp/vault-cve-2026-5006-audit)
 
 ### CVE-2026-5027 (2026-03-27)
 
@@ -5659,7 +5674,7 @@
 </code>
 
 - [aavamin/CVE-2026-24423](https://github.com/aavamin/CVE-2026-24423)
-- [CyberAlp0/SmarterMail-CVE-2026-24423-](https://github.com/CyberAlp0/SmarterMail-CVE-2026-24423-)
+- [CyberAlp0/SmarterMail-CVE-2026-24423](https://github.com/CyberAlp0/SmarterMail-CVE-2026-24423)
 
 ### CVE-2026-24514 (2026-02-03)
 
@@ -9242,6 +9257,13 @@
 - [CerberusMrXi/KrayinCRM-RCE-Exploit-CVE-2026-38526](https://github.com/CerberusMrXi/KrayinCRM-RCE-Exploit-CVE-2026-38526)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-38526-KrayinCRM-RCE](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-38526-KrayinCRM-RCE)
 - [DiegoRivas1/htb-labs-nexus](https://github.com/DiegoRivas1/htb-labs-nexus)
+
+### CVE-2026-38577 (2026-08-31)
+
+<code>Insecure hardcoded credentials in the Admin account of Tenda HG21 V4.0.0-260302 allows attackers to gain root access.
+</code>
+
+- [poxsky/CVE-2026-38577-by-deepak-Anmol](https://github.com/poxsky/CVE-2026-38577-by-deepak-Anmol)
 
 ### CVE-2026-38698
 - [vital-information-resource-under-siege/CVE-2026-38698-and-CVE-2026-38699](https://github.com/vital-information-resource-under-siege/CVE-2026-38698-and-CVE-2026-38699)
@@ -13365,10 +13387,10 @@
 <code>In JetBrains TeamCity before 2026.1.3, 2025.11.7 unauthenticated remote code execution was possible via the agent polling protocol
 </code>
 
-- [unveiledhistory49/teamcity-cve-2026-63077-remediation](https://github.com/unveiledhistory49/teamcity-cve-2026-63077-remediation)
 - [sfewer-r7/CVE-2026-63077](https://github.com/sfewer-r7/CVE-2026-63077)
 - [BoredHackerBlog/teamcity-CVE-2026-63077-pcap](https://github.com/BoredHackerBlog/teamcity-CVE-2026-63077-pcap)
 - [AnggaTechI/CVE-2026-63077](https://github.com/AnggaTechI/CVE-2026-63077)
+- [bakos-sandor-nx/teamcity-cve-2026-63077-remediation](https://github.com/bakos-sandor-nx/teamcity-cve-2026-63077-remediation)
 
 ### CVE-2026-63223 (2026-07-31)
 
@@ -13412,6 +13434,13 @@
 </code>
 
 - [0xdak/CVE-2026-63766_exploit](https://github.com/0xdak/CVE-2026-63766_exploit)
+
+### CVE-2026-63828 (2026-07-19)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\napparmor: mediate the implicit connect of TCP fast open sendmsg\n\nsendmsg()/sendto() with MSG_FASTOPEN is a combination of connect(2) and\nwrite(2): it opens the connection in the SYN. apparmor_socket_sendmsg()\nonly checks AA_MAY_SEND, so a profile that grants send but denies connect\nlets a confined task open an outbound TCP/MPTCP connection that connect(2)\nwould have refused, bypassing connect mediation.\n\nMediate the implicit connect when MSG_FASTOPEN is set and a destination\nis supplied. Add it to apparmor_socket_sendmsg() (not the shared\naa_sock_msg_perm() helper, which recvmsg also uses) and call aa_sk_perm()\ndirectly, mirroring the selinux and tomoyo fixes. sk_is_tcp() does not\ncover MPTCP fast open, so the SOCK_STREAM/IPPROTO_MPTCP arm is explicit.
+</code>
+
+- [4n4s4zi/tfo-connect-bypass](https://github.com/4n4s4zi/tfo-connect-bypass)
 
 ### CVE-2026-64531 (2026-07-27)
 
@@ -13534,6 +13563,13 @@
 
 - [yiyeshi0-hash/ave263-chain](https://github.com/yiyeshi0-hash/ave263-chain)
 
+### CVE-2026-64788 (2026-08-17)
+
+<code>The issue was addressed with improved memory handling. This issue is fixed in iOS 26.6.1 and iPadOS 26.6.1, macOS Tahoe 26.6.2. Processing maliciously crafted web content may lead to memory corruption.
+</code>
+
+- [ByteV0rtex/CVE-2026-64788](https://github.com/ByteV0rtex/CVE-2026-64788)
+
 ### CVE-2026-64824 (2026-07-21)
 
 <code>Home Assistant Core before 2026.7.0 contains a path traversal vulnerability in the backup-restore function that allows attackers to write files to arbitrary absolute filesystem paths by supplying a crafted tar archive with a SYMTYPE entry containing a benign member name paired with an absolute linkname pointing outside the extraction directory. Because the official Docker image runs the Home Assistant process as root and the subsequent regular-file entry is written through the unvalidated symlink, attackers can achieve remote code execution by overwriting auto-imported Python paths such as site-packages/sitecustomize.py or custom component directories.
@@ -13563,6 +13599,27 @@
 </code>
 
 - [rahulreddykarne/CVE-2026-65321-pyathena](https://github.com/rahulreddykarne/CVE-2026-65321-pyathena)
+
+### CVE-2026-65330 (2026-08-17)
+
+<code>The issue was addressed with improved memory handling. This issue is fixed in iOS 26.6.1 and iPadOS 26.6.1, macOS Tahoe 26.6.2. An app may be able to cause unexpected system termination or corrupt kernel memory.
+</code>
+
+- [ByteV0rtex/CVE-2026-65330](https://github.com/ByteV0rtex/CVE-2026-65330)
+
+### CVE-2026-65343 (2026-08-17)
+
+<code>A use after free issue was addressed with improved memory management. This issue is fixed in iOS 26.6.1 and iPadOS 26.6.1, macOS Tahoe 26.6.2. A remote attacker may be able to cause unexpected system termination.
+</code>
+
+- [ByteV0rtex/CVE-2026-65343](https://github.com/ByteV0rtex/CVE-2026-65343)
+
+### CVE-2026-65349 (2026-08-17)
+
+<code>An out-of-bounds read was addressed with improved input validation. This issue is fixed in iOS 26.6.1 and iPadOS 26.6.1, macOS Tahoe 26.6.2. An app may be able to cause unexpected system termination or read kernel memory.
+</code>
+
+- [ByteV0rtex/CVE-2026-65349](https://github.com/ByteV0rtex/CVE-2026-65349)
 
 ### CVE-2026-65351 (2026-08-17)
 
@@ -14617,6 +14674,8 @@
 
 - [HORKimhab/CVE-2026-82329](https://github.com/HORKimhab/CVE-2026-82329)
 - [dinosn/cve-2026-82329-jfrog-artifactory](https://github.com/dinosn/cve-2026-82329-jfrog-artifactory)
+- [realalexandergeorgiev/artifactory-CVE-2026-82329-poc.py](https://github.com/realalexandergeorgiev/artifactory-CVE-2026-82329-poc.py)
+- [ynsmroztas/CVE-2026-82329-JFrog-Artifactory-Auth-Bypass](https://github.com/ynsmroztas/CVE-2026-82329-JFrog-Artifactory-Auth-Bypass)
 
 ### CVE-2026-82539 (2026-08-30)
 
@@ -17069,6 +17128,13 @@
 
 - [jFriedli/CVE-2025-9967](https://github.com/jFriedli/CVE-2025-9967)
 
+### CVE-2025-9974 (2026-02-02)
+
+<code>The unified WEBUI application of the ONT/Beacon device contains an input handling flaw that allows authenticated users to trigger unintended system-level command execution. Due to insufficient validation of user-supplied data, a low-privileged authenticated attacker may be able to execute arbitrary commands on the underlying ONT/Beacon operating system, potentially impacting the confidentiality, integrity, and availability of the device.
+</code>
+
+- [Rajdave69/CVE-2025-9974](https://github.com/Rajdave69/CVE-2025-9974)
+
 ### CVE-2025-9983 (2025-09-22)
 
 <code>GALAYOU G2 cameras stream video output via RTSP streams. By default these streams are protected by randomly generated credentials. However these credentials are not required to access the stream. Changing these values does not change camera's behavior.\n\nThe vendor did not respond in any way. Only version 11.100001.01.28 was tested, other versions might also be vulnerable.
@@ -17252,6 +17318,13 @@
 </code>
 
 - [ryanmroth/Orbit-Fox_SSRF_CVE-2025-10874](https://github.com/ryanmroth/Orbit-Fox_SSRF_CVE-2025-10874)
+
+### CVE-2025-10894 (2025-09-24)
+
+<code>Malicious code was inserted into the Nx (build system) package and several related plugins. The tampered package was published to the npm software registry, via a supply-chain attack. Affected versions contain code that scans the file system, collects credentials, and posts them to GitHub as a repo under user's accounts.
+</code>
+
+- [pvharmo2/gha-lab-23db52563c](https://github.com/pvharmo2/gha-lab-23db52563c)
 
 ### CVE-2025-10897 (2025-10-31)
 
@@ -18179,6 +18252,13 @@
 
 - [Nxvh1337/CVE-2025-15602-PoC](https://github.com/Nxvh1337/CVE-2025-15602-PoC)
 
+### CVE-2025-15617 (2026-03-27)
+
+<code>Wazuh version 4.12.0 contains an exposure vulnerability in GitHub Actions workflow artifacts that allows attackers to extract the GITHUB_TOKEN from uploaded artifacts. Attackers can use the exposed token within a limited time window to perform unauthorized actions such as pushing malicious commits or altering release tags.
+</code>
+
+- [pvharmo2/gha-lab-becf103a54](https://github.com/pvharmo2/gha-lab-becf103a54)
+
 ### CVE-2025-16333
 - [gduma-phData/patch-CVE-2025-16333](https://github.com/gduma-phData/patch-CVE-2025-16333)
 
@@ -18773,7 +18853,7 @@
 - [ephunter/CVE-2025-24071-Exploit](https://github.com/ephunter/CVE-2025-24071-Exploit)
 - [AC8999/CVE-2025-24071](https://github.com/AC8999/CVE-2025-24071)
 - [Abdelrahman0Sayed/CVE-2025-24071](https://github.com/Abdelrahman0Sayed/CVE-2025-24071)
-- [hyperchk/CVE-2025-24071-POC](https://github.com/hyperchk/CVE-2025-24071-POC)
+- [buffertrychar/CVE-2025-24071-POC](https://github.com/buffertrychar/CVE-2025-24071-POC)
 - [Fomovet/cve-2025-24071](https://github.com/Fomovet/cve-2025-24071)
 
 ### CVE-2025-24076 (2025-03-11)
@@ -57528,13 +57608,6 @@
 
 - [pvharmo2/gha-lab-232af4821f](https://github.com/pvharmo2/gha-lab-232af4821f)
 
-### CVE-2021-4376 (2023-06-07)
-
-<code>The WooCommerce Multi Currency plugin for WordPress is vulnerable to Missing Authorization  in versions up to, and including, 2.1.17. This makes it possible for authenticated attackers to change the price of a product to an arbitrary value.
-</code>
-
-- [DanielKevinn/CVE-2021-4376](https://github.com/DanielKevinn/CVE-2021-4376)
-
 ### CVE-2021-4428 (2023-07-18)
 
 <code>In what3words Autosuggest Plugin bis 4.0.0 für WordPress wurde eine Schwachstelle gefunden. Sie wurde als problematisch eingestuft. Betroffen ist die Funktion enqueue_scripts der Datei w3w-autosuggest/public/class-w3w-autosuggest-public.php der Komponente Setting Handler. Mit der Manipulation mit unbekannten Daten kann eine information disclosure-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Ein Aktualisieren auf die Version 4.0.1 vermag dieses Problem zu lösen. Der Patch wird als dd59cbac5f86057d6a73b87007c08b8bfa0c32ac bezeichnet. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
@@ -68658,7 +68731,6 @@
 </code>
 
 - [dorkerdevil/CVE-2020-28018](https://github.com/dorkerdevil/CVE-2020-28018)
-- [zr0tt/CVE-2020-28018](https://github.com/zr0tt/CVE-2020-28018)
 
 ### CVE-2020-28022 (2021-05-06)
 
