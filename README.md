@@ -1404,6 +1404,13 @@
 
 - [hakaioffsec/CVE-2026-4802](https://github.com/hakaioffsec/CVE-2026-4802)
 
+### CVE-2026-4813 (2026-09-01)
+
+<code>A vulnerability in the Lutece Core XSL export management module up to version 7.1.7, which allows authenticated administrators to execute code remotely. The XML/XSLT processing configuration does not enable secure processing mode (FEATURE_SECURE_PROCESSING), allowing Java extension functions to be executed from malicious XSL stylesheets. An attacker with administrator privileges can upload a manipulated XSL transformation file and trigger its execution during user export operations, resulting in the execution of arbitrary code on the server.
+</code>
+
+- [Trachinus/CVE-2026-4813](https://github.com/Trachinus/CVE-2026-4813)
+
 ### CVE-2026-4821
 - [openexecution-coder/demo-cve-2026-4821](https://github.com/openexecution-coder/demo-cve-2026-4821)
 
@@ -3275,7 +3282,6 @@
 
 - [shinthink/CVE-2026-13001](https://github.com/shinthink/CVE-2026-13001)
 - [ghostpels/CVE-2026-13001](https://github.com/ghostpels/CVE-2026-13001)
-- [byt3l0rd/CVE-2026-13001](https://github.com/byt3l0rd/CVE-2026-13001)
 
 ### CVE-2026-13152 (2026-07-27)
 
@@ -7684,7 +7690,6 @@
 - [TrevoCastles/CVE-2026-31431-copy-fail](https://github.com/TrevoCastles/CVE-2026-31431-copy-fail)
 - [dev1681/CVE-2026-31431](https://github.com/dev1681/CVE-2026-31431)
 - [joaocalciolari07/copyfail-guard](https://github.com/joaocalciolari07/copyfail-guard)
-- [byt3l0rd/CVE-2026-31431](https://github.com/byt3l0rd/CVE-2026-31431)
 
 ### CVE-2026-31525 (2026-04-22)
 
@@ -9272,7 +9277,7 @@
 <code>Insecure hardcoded credentials in the Admin account of Tenda HG21 V4.0.0-260302 allows attackers to gain root access.
 </code>
 
-- [poxsky/CVE-2026-38577-by-deepak-Anmol](https://github.com/poxsky/CVE-2026-38577-by-deepak-Anmol)
+- [poxsky/CVE-2026-38577](https://github.com/poxsky/CVE-2026-38577)
 
 ### CVE-2026-38698
 - [vital-information-resource-under-siege/CVE-2026-38698-and-CVE-2026-38699](https://github.com/vital-information-resource-under-siege/CVE-2026-38698-and-CVE-2026-38699)
@@ -12217,6 +12222,9 @@
 
 - [1337Skid/CVE-2026-51565](https://github.com/1337Skid/CVE-2026-51565)
 
+### CVE-2026-51585
+- [catforgor/CVE-2026-51585](https://github.com/catforgor/CVE-2026-51585)
+
 ### CVE-2026-51592
 - [ardakrg/CVE-2026-51592](https://github.com/ardakrg/CVE-2026-51592)
 
@@ -12330,6 +12338,13 @@
 </code>
 
 - [portbuster1337/CVE-2026-52806](https://github.com/portbuster1337/CVE-2026-52806)
+
+### CVE-2026-52810 (2026-06-24)
+
+<code>Gogs is an open source self-hosted Git service. Prior to 0.14.3, Git smart HTTP authorizes POST …/git-receive-pack using the client-supplied service query string (so ?service=git-upload-pack is evaluated as read access) while routing still runs git receive-pack, allowing push where only read should be allowed. This vulnerability is fixed in 0.14.3.
+</code>
+
+- [HORKimhab/CVE-2026-52810](https://github.com/HORKimhab/CVE-2026-52810)
 
 ### CVE-2026-52813 (2026-06-24)
 
@@ -13600,6 +13615,7 @@
 </code>
 
 - [ByteV0rtex/CVE-2026-64788](https://github.com/ByteV0rtex/CVE-2026-64788)
+- [AmorCool/iOS26.6-CVE-2026-64788](https://github.com/AmorCool/iOS26.6-CVE-2026-64788)
 
 ### CVE-2026-64824 (2026-07-21)
 
@@ -13644,6 +13660,7 @@
 </code>
 
 - [ByteV0rtex/CVE-2026-65343](https://github.com/ByteV0rtex/CVE-2026-65343)
+- [AmorCool/iOS26.6-CVE-2026-65343](https://github.com/AmorCool/iOS26.6-CVE-2026-65343)
 
 ### CVE-2026-65349 (2026-08-17)
 
@@ -13688,6 +13705,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-65643](https://github.com/HORKimhab/CVE-2026-65643)
+- [tc4dy/CVE-2026-65643-PoC-Toolkit](https://github.com/tc4dy/CVE-2026-65643-PoC-Toolkit)
 
 ### CVE-2026-65650 (2026-07-22)
 
@@ -14389,7 +14407,6 @@
 - [jishino567/CVE-2026-73570](https://github.com/jishino567/CVE-2026-73570)
 - [gabrielunknown/CVE-2026-73570](https://github.com/gabrielunknown/CVE-2026-73570)
 - [INFOKOM-KI/Zimbra-CVE-2026-73570-Rules](https://github.com/INFOKOM-KI/Zimbra-CVE-2026-73570-Rules)
-- [byt3l0rd/CVE-2026-73570](https://github.com/byt3l0rd/CVE-2026-73570)
 
 ### CVE-2026-73633 (2026-08-14)
 
@@ -14477,6 +14494,7 @@
 - [rafabd1/CVE-2026-75604-poc](https://github.com/rafabd1/CVE-2026-75604-poc)
 - [HackSpeak/CVE-2026-75604](https://github.com/HackSpeak/CVE-2026-75604)
 - [e4zyy/Project-CVE-2026-75604](https://github.com/e4zyy/Project-CVE-2026-75604)
+- [FORTBRIDGE-UK/cve-2026-75604](https://github.com/FORTBRIDGE-UK/cve-2026-75604)
 
 ### CVE-2026-75616 (2026-08-19)
 
@@ -14680,6 +14698,7 @@
 </code>
 
 - [Zipkoppie/CVE-2026-80428](https://github.com/Zipkoppie/CVE-2026-80428)
+- [digiprosec/CVE-2026-80428](https://github.com/digiprosec/CVE-2026-80428)
 
 ### CVE-2026-80724 (2026-08-28)
 
@@ -14728,6 +14747,7 @@
 - [dinosn/cve-2026-82329-jfrog-artifactory](https://github.com/dinosn/cve-2026-82329-jfrog-artifactory)
 - [realalexandergeorgiev/artifactory-CVE-2026-82329-poc.py](https://github.com/realalexandergeorgiev/artifactory-CVE-2026-82329-poc.py)
 - [ynsmroztas/CVE-2026-82329-JFrog-Artifactory-Auth-Bypass](https://github.com/ynsmroztas/CVE-2026-82329-JFrog-Artifactory-Auth-Bypass)
+- [0xCyp1337/CVE-2026-82329](https://github.com/0xCyp1337/CVE-2026-82329)
 
 ### CVE-2026-82539 (2026-08-30)
 
@@ -23828,7 +23848,7 @@
 <code>Astro is a web framework for content-driven websites. In versions 5.2.0 through 5.12.7, there is an Open Redirect vulnerability in the trailing slash redirection logic when handling paths with double slashes. This allows an attacker to redirect users to arbitrary external domains by crafting URLs such as https://mydomain.com//malicious-site.com/. This increases the risk of phishing and other social engineering attacks. This affects sites that use on-demand rendering (SSR) with the Node or Cloudflare adapters. It does not affect static sites, or sites deployed to Netlify or Vercel. This issue is fixed in version 5.12.8. To work around this issue at the network level, block outgoing redirect responses with a Location header value that starts with `//`.
 </code>
 
-- [Bhuvanesh-Murdoch2005/ict279-cve-2025-54793](https://github.com/Bhuvanesh-Murdoch2005/ict279-cve-2025-54793)
+- [bhuvi-labs/ict279-cve-2025-54793](https://github.com/bhuvi-labs/ict279-cve-2025-54793)
 
 ### CVE-2025-54794 (2025-08-05)
 
@@ -30427,6 +30447,7 @@
 </code>
 
 - [horizon3ai/CVE-2024-9465](https://github.com/horizon3ai/CVE-2024-9465)
+- [mustafaakalin/CVE-2024-9465](https://github.com/mustafaakalin/CVE-2024-9465)
 - [Qlng/CVE-2024-9465](https://github.com/Qlng/CVE-2024-9465)
 
 ### CVE-2024-9466 (2024-10-09)
@@ -80153,7 +80174,6 @@
 - [dsssssssm/pwnfaces](https://github.com/dsssssssm/pwnfaces)
 - [LongWayHomie/CVE-2017-1000486](https://github.com/LongWayHomie/CVE-2017-1000486)
 - [jam620/primefaces](https://github.com/jam620/primefaces)
-- [byt3l0rd/CVE-2017-1000486](https://github.com/byt3l0rd/CVE-2017-1000486)
 
 ### CVE-2017-1000487 (2018-01-03)
 
