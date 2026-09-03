@@ -360,7 +360,7 @@
 <code>Calling getnetbyaddr or getnetbyaddr_r with a configured nsswitch.conf that specifies the library's DNS backend for networks and queries for a zero-valued network in the GNU C Library version 2.0 to version 2.42 can leak stack contents to the configured DNS resolver.
 </code>
 
-- [cyberwulfy200-dev/CVE-2026-0915-json-Patch.-V2.0](https://github.com/cyberwulfy200-dev/CVE-2026-0915-json-Patch.-V2.0)
+- [Terra-Nova83/CVE-2026-0915-json-Patch.-V2.0](https://github.com/Terra-Nova83/CVE-2026-0915-json-Patch.-V2.0)
 
 ### CVE-2026-0920 (2026-01-22)
 
@@ -3275,6 +3275,7 @@
 
 - [shinthink/CVE-2026-13001](https://github.com/shinthink/CVE-2026-13001)
 - [ghostpels/CVE-2026-13001](https://github.com/ghostpels/CVE-2026-13001)
+- [byt3l0rd/CVE-2026-13001](https://github.com/byt3l0rd/CVE-2026-13001)
 
 ### CVE-2026-13152 (2026-07-27)
 
@@ -3983,6 +3984,13 @@
 </code>
 
 - [HORKimhab/CVE-2026-19912-CVE-2026-19913-CVE-2026-19914](https://github.com/HORKimhab/CVE-2026-19912-CVE-2026-19913-CVE-2026-19914)
+
+### CVE-2026-19949 (2026-08-25)
+
+<code>The All-in-One WP Migration and Backup plugin for WordPress is vulnerable to SQL Injection via archive restore functionality in all versions up to, and including, 7.109 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. This can be leveraged to obtain the ai1wm_secret_key when a site administrator performs an archive restore and achieve remote code execution once able to leverage the ai1wm_secret_key value.
+</code>
+
+- [HORKimhab/CVE-2026-19949](https://github.com/HORKimhab/CVE-2026-19949)
 
 ### CVE-2026-20045 (2026-01-21)
 
@@ -7676,6 +7684,7 @@
 - [TrevoCastles/CVE-2026-31431-copy-fail](https://github.com/TrevoCastles/CVE-2026-31431-copy-fail)
 - [dev1681/CVE-2026-31431](https://github.com/dev1681/CVE-2026-31431)
 - [joaocalciolari07/copyfail-guard](https://github.com/joaocalciolari07/copyfail-guard)
+- [byt3l0rd/CVE-2026-31431](https://github.com/byt3l0rd/CVE-2026-31431)
 
 ### CVE-2026-31525 (2026-04-22)
 
@@ -9764,6 +9773,13 @@
 
 - [joaovicdev/EXPLOIT-CVE-2026-40901](https://github.com/joaovicdev/EXPLOIT-CVE-2026-40901)
 
+### CVE-2026-40976 (2026-04-27)
+
+<code>In certain circumstances, Spring Boot's default web security is ineffective allowing unauthorized access to all endpoints. For an application to be vulnerable, it must: be a servlet-based web application; have no Spring Security configuration of its own and rely on the default web security filter chain; depend on spring-boot-actuator-autoconfigure; not depend on spring-boot-health. If any of the above does not apply, the application is not vulnerable.\n\nAffected: Spring Boot 4.0.0–4.0.5; upgrade to 4.0.6 or later per vendor advisory.
+</code>
+
+- [madebyrokit/CVE-2026-40976-POC](https://github.com/madebyrokit/CVE-2026-40976-POC)
+
 ### CVE-2026-40982 (2026-05-07)
 
 <code>Spring Cloud Config allows applications to serve arbitrary text and binary files through the spring-cloud-config-server module. A malicious user, or attacker, can send a request using a specially crafted URL that can lead to a directory traversal attack.\nSpring Cloud Config 3.1.x: affected from 3.1.0 through 3.1.13 (inclusive); upgrade to 3.1.14 or greater (Enterprise Support Only). Spring Cloud Config 4.1.x: affected from 4.1.0 through 4.1.9 (inclusive); upgrade to 4.1.10 or greater (Enterprise Support Only). Spring Cloud Config 4.2.x: affected from 4.2.0 through 4.2.6 (inclusive); upgrade to 4.2.7 or greater (Enterprise Support Only). Spring Cloud Config 4.3.x: affected from 4.3.0 through 4.3.2 (inclusive); upgrade to 4.3.3 or greater. Spring Cloud Config 5.0.x: affected from 5.0.0 through 5.0.2 (inclusive); upgrade to 5.0.3 or greater.
@@ -11433,6 +11449,13 @@
 </code>
 
 - [az9713/cve-lite-on-pi](https://github.com/az9713/cve-lite-on-pi)
+
+### CVE-2026-47627 (2026-08-18)
+
+<code>NVIDIA Triton Inference Server for Linux contains a vulnerability where an attacker could cause path traversal. A successful exploit might lead to denial of service.
+</code>
+
+- [AneKazek/cve-2026-47627](https://github.com/AneKazek/cve-2026-47627)
 
 ### CVE-2026-47630 (2026-08-18)
 
@@ -13276,6 +13299,7 @@
 </code>
 
 - [nhh9905/CVE-2026-62735](https://github.com/nhh9905/CVE-2026-62735)
+- [HackSpeak/CVE-2026-62735](https://github.com/HackSpeak/CVE-2026-62735)
 
 ### CVE-2026-62737 (2026-08-11)
 
@@ -14571,6 +14595,20 @@
 
 - [CuteeCat/CVE-2026-77806](https://github.com/CuteeCat/CVE-2026-77806)
 
+### CVE-2026-78070 (2026-08-28)
+
+<code>Joomla Extension - digital-peak.com - Authenticated, privileged blind SQL injection in DP Calendar 5.5.0 - 10.11.2 - Saving an article can trigger a blind SQL injection with content plugin, needs update permission for articles.
+</code>
+
+- [toanln-cov/CVE-2026-78070](https://github.com/toanln-cov/CVE-2026-78070)
+
+### CVE-2026-78071 (2026-08-28)
+
+<code>Joomla Extension - digital-peak.com - Authenticated, privileged stored XSS in DP Calendar 7.0.0 - 10.11.2 - Location title is rendered in data attribute without escaping leads to XSS, needs create permission in DPCalendar.
+</code>
+
+- [toanln-cov/CVE-2026-78071](https://github.com/toanln-cov/CVE-2026-78071)
+
 ### CVE-2026-78122 (2026-08-22)
 
 <code>docker-socket-proxy fails to properly gate read endpoints in the /containers Docker API namespace when the CONTAINERS environment variable is set. Attackers can use GET requests to /containers/{id}/archive, /containers/{id}/export, /containers/{id}/logs, and /containers/{id}/top to read arbitrary files and download entire container filesystems as tar archives.
@@ -14636,6 +14674,13 @@
 
 - [ExploreIO/CVE-2026-79483-FastGPT-NoSQL-Injection](https://github.com/ExploreIO/CVE-2026-79483-FastGPT-NoSQL-Injection)
 
+### CVE-2026-80428 (2026-08-26)
+
+<code>ILIAS deserialises stored session data for an unauthenticated caller. The Shibboleth back-channel endpoint at components/ILIAS/AuthShibboleth/resources/shib_logout.php runs in a context that ilInitialisation exempts from authentication, and its logout-notification handler locates the session to terminate by reading every live row of the session table and passing each row's stored data to a hand-written parser that calls unserialize without restricting which classes may be constructed. Any serialised object present in any session row is therefore instantiated on behalf of an anonymous request, and object destructors run when those objects are discarded. A serialised object can be placed into a session row without logging in, because the LTI authentication entry point stores request parameters into the session and is reachable on a path the same initialisation code exempts from authentication. A class bundled with the application writes a JSON-encoded structure to a file named by one of its own properties when it is destroyed, which places attacker-controlled content at an attacker-chosen path below the web root and results in code execution as the web server user. Versions 9.22, 10.10 and 11.3 remove the endpoint's logout-notification implementation.
+</code>
+
+- [Zipkoppie/CVE-2026-80428](https://github.com/Zipkoppie/CVE-2026-80428)
+
 ### CVE-2026-80724 (2026-08-28)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nptp: vmclock: prevent read-only mappings from becoming writable\n\nvmclock_miscdev_mmap() rejects writable mappings of the shared vmclock\nABI page with -EROFS, but leaves VM_MAYWRITE set.  Userspace can map the\npage read-only and then upgrade it to writable with mprotect(), after\nwhich the guest can corrupt the host-written timekeeping data (sequence\ncounter, UTC time, TSC offset) that the vmclock ABI defines as read-only.\n\nClear VM_MAYWRITE on the read-only path so the mapping cannot be\nupgraded, as i915 does for its read-only objects and as fixed in drm/vc4\n(CVE-2026-68445) and drm/panthor (CVE-2024-53071).
@@ -14697,6 +14742,13 @@
 </code>
 
 - [HackSpeak/CVE-2026-82592](https://github.com/HackSpeak/CVE-2026-82592)
+
+### CVE-2026-83548 (2026-09-01)
+
+<code>A Pre-authentication SSRF vulnerability exists in the SMA1000 Appliance Work Place interface due to an unintended alternate access path. A remote unauthenticated attacker could potentially exploit this vulnerability to gain unauthorized access to sensitive functionality and perform unauthorized operations.
+</code>
+
+- [xoessie/CVE-2026-83548-SonicWall-SMA1000-Analysis](https://github.com/xoessie/CVE-2026-83548-SonicWall-SMA1000-Analysis)
 
 ### CVE-2026-84361 (2026-09-01)
 
@@ -19853,7 +19905,7 @@
 
 - [em0gi/CVE-2025-27840](https://github.com/em0gi/CVE-2025-27840)
 - [demining/Bluetooth-Attacks-CVE-2025-27840](https://github.com/demining/Bluetooth-Attacks-CVE-2025-27840)
-- [ladyg00se/CVE-2025-27840-WIP](https://github.com/ladyg00se/CVE-2025-27840-WIP)
+- [v3ilsm1th/CVE-2025-27840-WIP](https://github.com/v3ilsm1th/CVE-2025-27840-WIP)
 - [JasonW88/esp32-cve-2025-27840-power-trace-experiment](https://github.com/JasonW88/esp32-cve-2025-27840-power-trace-experiment)
 
 ### CVE-2025-27890
@@ -20971,6 +21023,13 @@
 </code>
 
 - [Apollo-R3bot/django-vulnerability-CVE-2025-32873](https://github.com/Apollo-R3bot/django-vulnerability-CVE-2025-32873)
+
+### CVE-2025-32958 (2025-04-21)
+
+<code>Adept is a language for general purpose programming. Prior to commit a1a41b7, the remoteBuild.yml workflow file uses actions/upload-artifact@v4 to upload the mac-standalone artifact. This artifact is a zip of the current directory, which includes the automatically generated .git/config file containing the run's GITHUB_TOKEN. Seeing as the artifact can be downloaded prior to the end of the workflow, there is a few seconds where an attacker can extract the token from the artifact and use it with the Github API to push malicious code or rewrite release commits in the AdeptLanguage/Adept repository. This issue has been patched in commit a1a41b7.
+</code>
+
+- [pvharmo2/gha-lab-b1fe4918c0](https://github.com/pvharmo2/gha-lab-b1fe4918c0)
 
 ### CVE-2025-32965 (2025-04-22)
 
@@ -31674,6 +31733,7 @@
 </code>
 
 - [ajdumanhug/CVE-2024-21546](https://github.com/ajdumanhug/CVE-2024-21546)
+- [digitalsurgn/CVE-2024-21546](https://github.com/digitalsurgn/CVE-2024-21546)
 
 ### CVE-2024-21626 (2024-01-31)
 
@@ -38211,7 +38271,7 @@
 <code>Transient DOS may occur while processing the country IE.
 </code>
 
-- [ladyg00se/CVE-2024-53027-WIP](https://github.com/ladyg00se/CVE-2024-53027-WIP)
+- [v3ilsm1th/CVE-2024-53027-WIP](https://github.com/v3ilsm1th/CVE-2024-53027-WIP)
 
 ### CVE-2024-53104 (2024-12-02)
 
@@ -47181,7 +47241,7 @@
 - [Chedrian07/CVE-2023-45866-POC](https://github.com/Chedrian07/CVE-2023-45866-POC)
 - [Danyw24/blueXploit](https://github.com/Danyw24/blueXploit)
 - [xG3nesis/RustyInjector](https://github.com/xG3nesis/RustyInjector)
-- [ladyg00se/CVE-2023-45866_WIP](https://github.com/ladyg00se/CVE-2023-45866_WIP)
+- [v3ilsm1th/CVE-2023-45866_WIP](https://github.com/v3ilsm1th/CVE-2023-45866_WIP)
 - [Sergeb250/BlueDucky](https://github.com/Sergeb250/BlueDucky)
 - [hegaz0y/-BuL](https://github.com/hegaz0y/-BuL)
 
@@ -71026,7 +71086,6 @@
 - [Perseus99999/CVE-2019-9053-working-](https://github.com/Perseus99999/CVE-2019-9053-working-)
 - [tim-karov/cmsms-sqli](https://github.com/tim-karov/cmsms-sqli)
 - [pasan2002/CVE-2019-9053---CMS-Made-Simple-SQL-Injection-Exploit-Modified-](https://github.com/pasan2002/CVE-2019-9053---CMS-Made-Simple-SQL-Injection-Exploit-Modified-)
-- [vadaysakiv/cve-2019-9053](https://github.com/vadaysakiv/cve-2019-9053)
 - [iTzR1g/CVE-2019-9053](https://github.com/iTzR1g/CVE-2019-9053)
 - [coolkiee/CVE-2019-9053](https://github.com/coolkiee/CVE-2019-9053)
 - [killukeren/-CVE-2019-9053](https://github.com/killukeren/-CVE-2019-9053)
@@ -80094,6 +80153,7 @@
 - [dsssssssm/pwnfaces](https://github.com/dsssssssm/pwnfaces)
 - [LongWayHomie/CVE-2017-1000486](https://github.com/LongWayHomie/CVE-2017-1000486)
 - [jam620/primefaces](https://github.com/jam620/primefaces)
+- [byt3l0rd/CVE-2017-1000486](https://github.com/byt3l0rd/CVE-2017-1000486)
 
 ### CVE-2017-1000487 (2018-01-03)
 
