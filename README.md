@@ -13146,6 +13146,13 @@
 ### CVE-2026-59774
 - [FlowerWitch/CVE-2026-59774_docker](https://github.com/FlowerWitch/CVE-2026-59774_docker)
 
+### CVE-2026-59822 (2026-07-08)
+
+<code>LiteLLM is a proxy server (AI Gateway) to call LLM APIs in OpenAI (or native) format. Prior to 1.84.0, LiteLLM's MCP Streamable HTTP endpoint allowed an unauthenticated attacker to use a fabricated Authorization header to trigger an OAuth2 passthrough fallback path that replaced failed LiteLLM key validation with an empty UserAPIKeyAuth() object, allowing requests to reach MCP tooling without a valid LiteLLM key. This issue is fixed in version 1.84.0.
+</code>
+
+- [HORKimhab/CVE-2026-59822](https://github.com/HORKimhab/CVE-2026-59822)
+
 ### CVE-2026-59827 (2026-07-09)
 
 <code>Metabase is an open-source business intelligence and embedded analytics tool. Prior to 1.58.15, 1.59.12, 1.60.6.3, and 1.61.1.4, Metabase instances with an H2 database connection, including the default sample database, deserialize arbitrary Java objects returned in H2 native query result columns of type OTHER without validation, allowing an authenticated user who can run native H2 queries to execute code on the Metabase server. This issue is fixed in versions 1.58.15, 1.59.12, 1.60.6.3, and 1.61.1.4.
@@ -17905,6 +17912,13 @@
 
 ### CVE-2025-13834
 - [sastraadiwiguna-purpleeliteteaming/CVE-2025-13834-A-Bluetooth-RFCOMM-Out-of-Bounds-Read-Vulnerability-in-Modern-Wireless-Devices](https://github.com/sastraadiwiguna-purpleeliteteaming/CVE-2025-13834-A-Bluetooth-RFCOMM-Out-of-Bounds-Read-Vulnerability-in-Modern-Wireless-Devices)
+
+### CVE-2025-13947 (2025-12-03)
+
+<code>A flaw was found in WebKitGTK. This vulnerability allows remote, user-assisted information disclosure that can reveal any file the user is permitted to read via abusing the file drag-and-drop mechanism where WebKitGTK does not verify that drag operations originate from outside the browser.
+</code>
+
+- [sirredbeard/WebKitGTK-DND-Fix](https://github.com/sirredbeard/WebKitGTK-DND-Fix)
 
 ### CVE-2025-14001 (2026-01-13)
 
@@ -78163,6 +78177,7 @@
 - [Kouf320/docker-lab-cve-2017-5638-cve-2021-41773](https://github.com/Kouf320/docker-lab-cve-2017-5638-cve-2021-41773)
 - [Majaktech/apache-struts-cve-2017-5638-project](https://github.com/Majaktech/apache-struts-cve-2017-5638-project)
 - [Dungsocool/CVE-2017-5638](https://github.com/Dungsocool/CVE-2017-5638)
+- [GU-007/struts2-tool](https://github.com/GU-007/struts2-tool)
 
 ### CVE-2017-5645 (2017-04-17)
 
