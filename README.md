@@ -594,6 +594,13 @@
 
 - [e76f01z/tenda-hg10-rce](https://github.com/e76f01z/tenda-hg10-rce)
 
+### CVE-2026-1699 (2026-01-30)
+
+<code>In the Eclipse Theia Website repository, the GitHub Actions workflow .github/workflows/preview.yml used pull_request_target trigger while checking out and executing untrusted pull request code. This allowed any GitHub user to execute arbitrary code in the repository's CI environment with access to repository secrets and a GITHUB_TOKEN with extensive write permissions (contents:write, packages:write, pages:write, actions:write). An attacker could exfiltrate secrets, publish malicious packages to the eclipse-theia organization, modify the official Theia website, and push malicious code to the repository.
+</code>
+
+- [pvharmo2/gha-lab-b5c1313658](https://github.com/pvharmo2/gha-lab-b5c1313658)
+
 ### CVE-2026-1729 (2026-02-12)
 
 <code>The AdForest theme for WordPress is vulnerable to authentication bypass in all versions up to, and including, 6.0.12. This is due to the plugin not properly verifying a user's identity prior to authenticating them through the 'sb_login_user_with_otp_fun' function. This makes it possible for unauthenticated attackers to log in as arbitrary users, including administrators.
@@ -3116,6 +3123,13 @@
 
 - [alperenkesk/CVE-2026-11561](https://github.com/alperenkesk/CVE-2026-11561)
 
+### CVE-2026-11613 (2026-09-04)
+
+<code>The Divi Ajax Filter plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 5.1.2 via the 'custom_loop_template' parameter parameter. This makes it possible for unauthenticated attackers to include and execute arbitrary .php files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where .php file types can be uploaded and included. This vulnerability is only exploitable when the loop_templates parameter is set to 'custom-template'.
+</code>
+
+- [Wayang1337/CVE-2026-11613](https://github.com/Wayang1337/CVE-2026-11613)
+
 ### CVE-2026-11645 (2026-06-08)
 
 <code>Out of bounds read and write in V8 in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)
@@ -3966,6 +3980,7 @@
 
 - [YonLiud/CVE-2026-19632](https://github.com/YonLiud/CVE-2026-19632)
 - [DeadExpl0it/CVE-2026-19632-POC](https://github.com/DeadExpl0it/CVE-2026-19632-POC)
+- [ghostpels/CVE-2026-19632](https://github.com/ghostpels/CVE-2026-19632)
 
 ### CVE-2026-19650 (2026-08-17)
 
@@ -4004,6 +4019,13 @@
 </code>
 
 - [alicealys/mgo3-rce](https://github.com/alicealys/mgo3-rce)
+
+### CVE-2026-19900 (2026-08-15)
+
+<code>A vulnerability was identified in LB-LINK X-PRO 1.0.22-20231206. The impacted element is an unknown function of the file /etc/shadow. The manipulation leads to hard-coded credentials. It is possible to initiate the attack remotely. A high degree of complexity is needed for the attack. The exploitability is regarded as difficult. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [on3sk-0x1/cve-2026-19900-PoC](https://github.com/on3sk-0x1/cve-2026-19900-PoC)
 
 ### CVE-2026-19912 (2026-08-25)
 
@@ -5068,6 +5090,13 @@
 
 - [qzhodl/CVE-2026-22862](https://github.com/qzhodl/CVE-2026-22862)
 
+### CVE-2026-22869 (2026-01-13)
+
+<code>Eigent is a multi-agent Workforce. A critical security vulnerability in the CI workflow (.github/workflows/ci.yml) allows arbitrary code execution from fork pull requests with repository write permissions. The vulnerable workflow uses pull_request_target trigger combined with checkout of untrusted PR code. An attacker can exploit this to steal credentials, post comments, push code, or create releases.
+</code>
+
+- [pvharmo2/gha-lab-7927d7d06f](https://github.com/pvharmo2/gha-lab-7927d7d06f)
+
 ### CVE-2026-22874 (2026-07-03)
 
 <code>Gitea versions up to and including 1.26.2 have incomplete SSRF protection in webhook and migration allow-list filtering.
@@ -5717,6 +5746,13 @@
 
 - [aavamin/CVE-2026-24423](https://github.com/aavamin/CVE-2026-24423)
 - [CyberAlp0/SmarterMail-CVE-2026-24423](https://github.com/CyberAlp0/SmarterMail-CVE-2026-24423)
+
+### CVE-2026-24480 (2026-01-27)
+
+<code>QGIS is a free, open source, cross platform geographical information system (GIS) The repository contains a GitHub Actions workflow called &quot;pre-commit checks&quot; that, before commit 76a693cd91650f9b4e83edac525e5e4f90d954e9, was vulnerable to remote code execution and repository compromise because it used the `pull_request_target` trigger and then checked out and executed untrusted pull request code in a privileged context. Workflows triggered by `pull_request_target` ran with the base repository's credentials and access to secrets. If these workflows then checked out and executed code from the head of an external pull request (which could have been attacker controlled), the attacker could have executed arbitrary commands with elevated privileges. This insecure pattern has been documented as a security risk by GitHub and security researchers. Commit 76a693cd91650f9b4e83edac525e5e4f90d954e9 removed the vulnerable code.
+</code>
+
+- [pvharmo2/gha-lab-b16a4f3554](https://github.com/pvharmo2/gha-lab-b16a4f3554)
 
 ### CVE-2026-24514 (2026-02-03)
 
@@ -6674,6 +6710,13 @@
 - [dead-lamer/CVE-2026-27654](https://github.com/dead-lamer/CVE-2026-27654)
 - [Debajyoti0-0/CVE-2026-27654-PoC](https://github.com/Debajyoti0-0/CVE-2026-27654-PoC)
 
+### CVE-2026-27701 (2026-02-25)
+
+<code>LiveCode is an open-source, client-side code playground. Prior to commit e151c64c2bd80d2d53ac1333f1df9429fe6a1a11, LiveCode's `i18n-update-pull` GitHub Actions workflow is vulnerable to JavaScript injection. The title of the Pull Request associated with the triggering issue comment is interpolated directly into a `actions/github-script` JavaScript block using a GitHub Actions template expression. An attacker who opens a PR with a crafted title can inject arbitrary JavaScript that executes with the privileges of the CI bot token (`CI_APP_ID` / `CI_APP_PRIVATE_KEY`), enabling exfiltration of repository secrets and unauthorized GitHub API operations. Commit e151c64c2bd80d2d53ac1333f1df9429fe6a1a11 fixes the issue.
+</code>
+
+- [pvharmo2/gha-lab-25b7988758](https://github.com/pvharmo2/gha-lab-25b7988758)
+
 ### CVE-2026-27771 (2026-07-03)
 
 <code>Gitea versions up to and including 1.26.1 have insufficient permission checks for Composer package source links, which can expose private or internal package source information.
@@ -6735,6 +6778,13 @@
 - [Semperis-Community/ResetNightmare](https://github.com/Semperis-Community/ResetNightmare)
 - [mihat2/ResetNightmare-impacket](https://github.com/mihat2/ResetNightmare-impacket)
 - [oxstussz-eng/Kerberos-CVE-2026-27912](https://github.com/oxstussz-eng/Kerberos-CVE-2026-27912)
+
+### CVE-2026-27938 (2026-02-26)
+
+<code>WPGraphQL provides a GraphQL API for WordPress sites. Prior to version 2.9.1, the `wp-graphql/wp-graphql` repository contains a GitHub Actions workflow (`release.yml`) vulnerable to OS command injection through direct use of `${{ github.event.pull_request.body }}` inside a `run:` shell block. When a pull request from `develop` to `master` is merged, the PR body is injected verbatim into a shell command, allowing arbitrary command execution on the Actions runner. Version 2.9.1 contains a fix for the vulnerability.
+</code>
+
+- [pvharmo2/gha-lab-a7f6217d26](https://github.com/pvharmo2/gha-lab-a7f6217d26)
 
 ### CVE-2026-27940 (2026-03-12)
 
@@ -7725,6 +7775,8 @@
 - [TrevoCastles/CVE-2026-31431-copy-fail](https://github.com/TrevoCastles/CVE-2026-31431-copy-fail)
 - [dev1681/CVE-2026-31431](https://github.com/dev1681/CVE-2026-31431)
 - [joaocalciolari07/copyfail-guard](https://github.com/joaocalciolari07/copyfail-guard)
+- [FranklinF25/cve-2026-31431](https://github.com/FranklinF25/cve-2026-31431)
+- [silentbyte69/copy-fail-CVE-2026-31431-cpp](https://github.com/silentbyte69/copy-fail-CVE-2026-31431-cpp)
 
 ### CVE-2026-31525 (2026-04-22)
 
@@ -8559,6 +8611,7 @@
 - [dinosn/apache-activemq-rce-research](https://github.com/dinosn/apache-activemq-rce-research)
 - [pssec-io/CVE-2026-34197](https://github.com/pssec-io/CVE-2026-34197)
 - [K3ysTr0K3R/CVE-2026-34197](https://github.com/K3ysTr0K3R/CVE-2026-34197)
+- [nirvanasec/CVE-2026-34197-PoC](https://github.com/nirvanasec/CVE-2026-34197-PoC)
 
 ### CVE-2026-34200 (2026-03-31)
 
@@ -10618,6 +10671,7 @@
 - [zenyxx-xd/RootMyVivo](https://github.com/zenyxx-xd/RootMyVivo)
 - [JingMatrix/pixel-ksu-root](https://github.com/JingMatrix/pixel-ksu-root)
 - [sgswzglwlx/vivo-root-build](https://github.com/sgswzglwlx/vivo-root-build)
+- [rsyzee/ghostlock-infinix-hot70](https://github.com/rsyzee/ghostlock-infinix-hot70)
 - [hackyangwen-lgtm/rmg-s9180-fzg1](https://github.com/hackyangwen-lgtm/rmg-s9180-fzg1)
 - [diyiqiuye/ghostlock-pfem10](https://github.com/diyiqiuye/ghostlock-pfem10)
 - [abdgalaxy36-code/rmgp-complete-handoff](https://github.com/abdgalaxy36-code/rmgp-complete-handoff)
@@ -10795,7 +10849,11 @@
 
 - [sn0x-sharma/CVE-2026-44401](https://github.com/sn0x-sharma/CVE-2026-44401)
 
-### CVE-2026-44402
+### CVE-2026-44402 (2026-09-04)
+
+<code>Voltronic Power SNMP Web Pro 1.1 contains an unauthenticated remote code execution vulnerability in the upload.cgi firmware update endpoint that allows remote attackers to execute arbitrary commands as root by uploading a crafted tar archive without valid credentials. Attackers can supply a malicious tar archive containing arbitrary executable files that are extracted to a privileged directory and executed as root, achieving full system compromise.
+</code>
+
 - [Virgula0/CVE-2026-44402](https://github.com/Virgula0/CVE-2026-44402)
 
 ### CVE-2026-44403 (2026-05-12)
@@ -11553,13 +11611,6 @@
 </code>
 
 - [bekwiner/cve-2026-47777](https://github.com/bekwiner/cve-2026-47777)
-
-### CVE-2026-47851 (2026-08-26)
-
-<code>Analyzing a PDF with a deeply nested or cyclic table of contents can cause a StackOverflowError in the ingestion thread.\nSpring AI 2.0.0\nSpring AI 1.1.0 - 1.1.8\nSpring AI 1.0.0 - 1.0.9
-</code>
-
-- [tangyaofq/spring-ai-sibling-loop-poc](https://github.com/tangyaofq/spring-ai-sibling-loop-poc)
 
 ### CVE-2026-47858 (2026-07-30)
 
@@ -14550,13 +14601,25 @@
 
 - [defineid/Trespasser](https://github.com/defineid/Trespasser)
 
-### CVE-2026-75429
+### CVE-2026-75429 (2026-09-04)
+
+<code>PowerJob versions 4.x through 5.1.2 contain an unauthenticated remote code execution vulnerability in the /friend/process endpoint of the Server-Worker transport layer
+</code>
+
 - [unpredictable21/CVE-2026-75429_PowerJob_friend_process_RCE](https://github.com/unpredictable21/CVE-2026-75429_PowerJob_friend_process_RCE)
 
-### CVE-2026-75430
+### CVE-2026-75430 (2026-09-04)
+
+<code>PowerJob Worker version 5.1.2 (and likely earlier versions) exposes the /worker/deployContainer HTTP endpoint without authentication on the default transport port. This allows a remote attacker to execute arbitrary code.
+</code>
+
 - [unpredictable21/CVE-2026-75430_PowerJob_worker_deployContainer_RCE](https://github.com/unpredictable21/CVE-2026-75430_PowerJob_worker_deployContainer_RCE)
 
-### CVE-2026-75431
+### CVE-2026-75431 (2026-09-04)
+
+<code>PowerJob Server version 5.1.2 (and likely earlier) uses a predictable JWT signing key for HS256-based authentication. This allows a remote attacker to execute arbitrary code.
+</code>
+
 - [unpredictable21/CVE-2026-75431_PowerJob_jwt_key_predictable](https://github.com/unpredictable21/CVE-2026-75431_PowerJob_jwt_key_predictable)
 
 ### CVE-2026-75604 (2026-09-01)
@@ -14686,6 +14749,13 @@
 
 - [CuteeCat/CVE-2026-77806](https://github.com/CuteeCat/CVE-2026-77806)
 
+### CVE-2026-77818 (2026-09-04)
+
+<code>Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Yordam Information Technology Consulting, Training and Electronic Systems Industry and Trade Inc. Library Information and Document Automation Program allows Content Spoofing.\n\nThis issue affects Library Information and Document Automation Program: from v22.1 before v22.2.
+</code>
+
+- [alkimcoskun/Yordam-Kutuphane-Otomasyonunda-Coklu-HTML-Enjeksiyonu](https://github.com/alkimcoskun/Yordam-Kutuphane-Otomasyonunda-Coklu-HTML-Enjeksiyonu)
+
 ### CVE-2026-78070 (2026-08-28)
 
 <code>Joomla Extension - digital-peak.com - Authenticated, privileged blind SQL injection in DP Calendar 5.5.0 - 10.11.2 - Saving an article can trigger a blind SQL injection with content plugin, needs update permission for articles.
@@ -14714,7 +14784,11 @@
 
 - [oscerd/CVE-2026-78329](https://github.com/oscerd/CVE-2026-78329)
 
-### CVE-2026-78745
+### CVE-2026-78745 (2026-09-04)
+
+<code>An issue in HiDPT/ Weyon HiDPTAndroid Hi3751V350 Hi3751V352E_DMO allows a remote attacker to execute arbitrary code via the Android Debug Bridge (ADB) daemon (adbd)
+</code>
+
 - [n0c71v3x/CVE-2026-78745](https://github.com/n0c71v3x/CVE-2026-78745)
 
 ### CVE-2026-78837
@@ -14723,7 +14797,11 @@
 ### CVE-2026-78838
 - [nabeelmkhan/CVE-2026-78838](https://github.com/nabeelmkhan/CVE-2026-78838)
 
-### CVE-2026-78839
+### CVE-2026-78839 (2026-09-04)
+
+<code>An arbitrary file upload vulnerability in AppNitro MachForm v30 allows attackers to execute arbitrary code via uploading a crafted .phar file.
+</code>
+
 - [nabeelmkhan/CVE-2026-78839](https://github.com/nabeelmkhan/CVE-2026-78839)
 
 ### CVE-2026-78903 (2026-08-25)
@@ -14770,7 +14848,7 @@
 
 ### CVE-2026-80428 (2026-08-26)
 
-<code>ILIAS deserialises stored session data for an unauthenticated caller. The Shibboleth back-channel endpoint at components/ILIAS/AuthShibboleth/resources/shib_logout.php runs in a context that ilInitialisation exempts from authentication, and its logout-notification handler locates the session to terminate by reading every live row of the session table and passing each row's stored data to a hand-written parser that calls unserialize without restricting which classes may be constructed. Any serialised object present in any session row is therefore instantiated on behalf of an anonymous request, and object destructors run when those objects are discarded. A serialised object can be placed into a session row without logging in, because the LTI authentication entry point stores request parameters into the session and is reachable on a path the same initialisation code exempts from authentication. A class bundled with the application writes a JSON-encoded structure to a file named by one of its own properties when it is destroyed, which places attacker-controlled content at an attacker-chosen path below the web root and results in code execution as the web server user. Versions 9.22, 10.10 and 11.3 remove the endpoint's logout-notification implementation.
+<code>ILIAS before versions 9.22, 10.10, and 11.3 contains an unauthenticated PHP object injection vulnerability that allows unauthenticated attackers to execute arbitrary code by injecting serialized objects through the LTI authentication endpoint and triggering deserialization via the Shibboleth back-channel logout endpoint. Attackers can write arbitrary serialized objects into session storage, then exploit an available POP gadget through the logout endpoint's unrestricted deserialization to write attacker-controlled PHP content to a web-accessible path and achieve remote code execution as the web server user.
 </code>
 
 - [Zipkoppie/CVE-2026-80428](https://github.com/Zipkoppie/CVE-2026-80428)
@@ -14853,6 +14931,7 @@
 </code>
 
 - [xoessie/CVE-2026-83548-SonicWall-SMA1000-Analysis](https://github.com/xoessie/CVE-2026-83548-SonicWall-SMA1000-Analysis)
+- [xcoy0te/CVE-2026-83548-checker](https://github.com/xcoy0te/CVE-2026-83548-checker)
 
 ### CVE-2026-84361 (2026-09-01)
 
@@ -14868,6 +14947,13 @@
 
 - [HORKimhab/CVE-2026-85046](https://github.com/HORKimhab/CVE-2026-85046)
 - [ubitquity/CVE-2026-85046-Patch-confusion-zero-day-vulnerability-in-Google-Chrome-s-V8-engine](https://github.com/ubitquity/CVE-2026-85046-Patch-confusion-zero-day-vulnerability-in-Google-Chrome-s-V8-engine)
+
+### CVE-2026-85769 (2026-09-04)
+
+<code>A flaw was found in libtpms, a library that provides software TPM 2.0 emulation. When restoring TPM 2.0 state (for example during a virtual machine's power-on or state/migration restore), a malformed state blob can supply an oversized skip-block length that is not validated against the remaining size of the input buffer. This can drive an internal size counter negative, which bypasses a subsequent bounds check due to an unsafe signed-to-unsigned conversion, causing the parser to read memory outside the bounds of the heap buffer holding the state data. Successful exploitation can crash the process hosting libtpms (such as swtpm), resulting in a denial of service of the emulated TPM device and the virtual machine that depends on it. No data corruption or information disclosure was confirmed.
+</code>
+
+- [isukasanuj/CVE-2026-85769](https://github.com/isukasanuj/CVE-2026-85769)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -25784,6 +25870,13 @@
 
 - [Smarttfoxx/CVE-2025-60791](https://github.com/Smarttfoxx/CVE-2025-60791)
 
+### CVE-2025-60800 (2025-10-28)
+
+<code>Incorrect access control in the /jshERP-boot/user/info interface of jshERP up to commit 90c411a allows attackers to access sensitive information via a crafted GET request.
+</code>
+
+- [Bob-wentao/jsherp-user-info-idor](https://github.com/Bob-wentao/jsherp-user-info-idor)
+
 ### CVE-2025-60852 (2025-10-23)
 
 <code>A CSV Injection vulnerability existed in Instant Developer Foundation versions prior to 25.0.9600. Applications built with affected versions of the framework did not properly sanitize user-controlled input before including it in CSV exports. This issue could lead to code execution on the system where the exported CSV file is opened.
@@ -27202,6 +27295,7 @@
 - [ExploreUnknowed/CVE-2025-67303](https://github.com/ExploreUnknowed/CVE-2025-67303)
 - [materaj2/exploit_cve_2025_67303](https://github.com/materaj2/exploit_cve_2025_67303)
 - [jcaz2378/ComfyUIrce](https://github.com/jcaz2378/ComfyUIrce)
+- [1nhann/cm-cve-2025-67303-node](https://github.com/1nhann/cm-cve-2025-67303-node)
 
 ### CVE-2025-67315
 - [r-pradyun/CVE-2025-67315](https://github.com/r-pradyun/CVE-2025-67315)
@@ -54202,10 +54296,18 @@
 
 - [safe3s/CVE-2022-35416](https://github.com/safe3s/CVE-2022-35416)
 
-### CVE-2022-35497
+### CVE-2022-35497 (2026-09-04)
+
+<code>In Trimble TM4WEB 21.4.0.4 due to security misconfiguration with session identifiers, it is possible to recover valid session cookies via reflected cross-site scripting affecting the external document viewer endpoint.
+</code>
+
 - [PN-Tester/CVE-2022-35497](https://github.com/PN-Tester/CVE-2022-35497)
 
-### CVE-2022-35499
+### CVE-2022-35499 (2026-09-04)
+
+<code>In Trimble TM4WEB 21.4.0.4, the external bill viewer endpoint is vulnerable to reflected cross-site scripting via injection in a arbitrary parameter appended to the URL.
+</code>
+
 - [PN-Tester/CVE-2022-35499](https://github.com/PN-Tester/CVE-2022-35499)
 
 ### CVE-2022-35500 (2022-11-23)
