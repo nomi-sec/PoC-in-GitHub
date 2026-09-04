@@ -4069,6 +4069,13 @@
 
 - [NSIDE-ATTACK-LOGIC/CIMCown](https://github.com/NSIDE-ATTACK-LOGIC/CIMCown)
 
+### CVE-2026-20212 (2026-09-02)
+
+<code>A vulnerability in the Silicon One integration for Cisco Nexus 9000 Series Switches could allow an unauthenticated, remote attacker to execute code with&amp;nbsp;root privileges.\r\n\r\nThis vulnerability exists because TCP ports 43210 and 43211 are accessible in the default Layer 3 (L3) virtual routing and forwarding (VRF). A successful exploit could allow the attacker to connect to an affected device and send crafted input that could be executed as code with&amp;nbsp;root privileges. The exploitation of this vulnerability could also cause the S1HAL process to crash, which could cause the device to reload.
+</code>
+
+- [HORKimhab/CVE-2026-20212](https://github.com/HORKimhab/CVE-2026-20212)
+
 ### CVE-2026-20217 (2026-07-01)
 
 <code>A vulnerability in the PESpin file format parser of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition, or possibly other expanded impacts, resulting from memory corruption on an affected device.\r\n\r\nThis vulnerability is due to improper boundary checks for content in PESpin files during scanning, which may result in an out-of-bounds buffer write. An attacker could exploit this vulnerability by submitting a crafted file that contains PESpin content to be scanned by ClamAV on an affected device. A successful exploit could allow the attacker to cause the ClamAV scanning process to terminate, resulting in a DoS condition on the affected software.
@@ -7734,6 +7741,13 @@
 </code>
 
 - [JakeStone594/f_hid-4.14-backports](https://github.com/JakeStone594/f_hid-4.14-backports)
+
+### CVE-2026-31787 (2026-04-30)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nxen/privcmd: fix double free via VMA splitting\n\nprivcmd_vm_ops defines .close (privcmd_close), but neither .may_split\nnor .open. When userspace does a partial munmap() on a privcmd mapping,\nthe kernel splits the VMA via __split_vma(). Since may_split is NULL,\nthe split is allowed. vm_area_dup() copies vm_private_data (a pages\narray allocated in alloc_empty_pages()) into the new VMA without any\nfixup, because there is no .open callback.\n\nBoth VMAs now point to the same pages array. When the unmapped portion\nis closed, privcmd_close() calls:\n    - xen_unmap_domain_gfn_range()\n    - xen_free_unpopulated_pages()\n    - kvfree(pages)\n\nThe surviving VMA still holds the dangling pointer. When it is later\ndestroyed, the same sequence runs again, which leads to a double free.\n\nFix this issue by adding a .may_split callback denying the VMA split.\n\nThis is XSA-487 / CVE-2026-31787
+</code>
+
+- [0xAtharv/CVE-2026-31787](https://github.com/0xAtharv/CVE-2026-31787)
 
 ### CVE-2026-31802 (2026-03-09)
 
@@ -12941,6 +12955,13 @@
 - [Boreas37/CVE-2026-56705](https://github.com/Boreas37/CVE-2026-56705)
 - [ChiefYoru/Exploit-CVE-2026-56705](https://github.com/ChiefYoru/Exploit-CVE-2026-56705)
 
+### CVE-2026-56718 (2026-08-30)
+
+<code>AJCloud AJY IPC firmware prior to version 01.10715.11.37 contains a path traversal vulnerability in the jdbhttpd web service that allows unauthenticated remote attackers to read arbitrary files with root privileges by supplying path traversal sequences in the HTTP request URI. Attackers can send crafted HTTP requests to port 80 without authentication to access sensitive files including cleartext RTSP credentials, Wi-Fi SSID and pre-shared key, device serial number, and cloud binding parameters.
+</code>
+
+- [hellkkid/CVE-2026-56718](https://github.com/hellkkid/CVE-2026-56718)
+
 ### CVE-2026-56782 (2026-06-29)
 
 <code>Gorse before 0.5.10 contains an authentication bypass vulnerability in the /api/dump and /api/restore endpoints that allows unauthenticated attackers to access protected functionality when admin_api_key is empty, which is the default configuration. Remote attackers can exfiltrate the entire database including user records, items, and feedback data containing personally identifiable information, or completely overwrite the dataset without authentication.
@@ -14185,7 +14206,7 @@
 
 ### CVE-2026-69414 (2026-08-14)
 
-<code>Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender publicly referred to as &amp;quot;ShieldBreak &amp;quot;.\nWe are working to provide a high quality security update that addresses this vulnerability. We will provide information in this CVE when the update is available.
+<code>Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender publicly referred to as &amp;quot;ShieldBreak &amp;quot;.
 </code>
 
 - [1neptune/ShieldBreak](https://github.com/1neptune/ShieldBreak)
@@ -14641,6 +14662,9 @@
 
 - [oscerd/CVE-2026-78329](https://github.com/oscerd/CVE-2026-78329)
 
+### CVE-2026-78745
+- [n0c71v3x/CVE-2026-78745](https://github.com/n0c71v3x/CVE-2026-78745)
+
 ### CVE-2026-78837
 - [nabeelmkhan/CVE-2026-78837](https://github.com/nabeelmkhan/CVE-2026-78837)
 
@@ -14902,7 +14926,6 @@
 <code>Es wurde eine kritische Schwachstelle in 1902756969 reggie 1.0 entdeckt. Hiervon betroffen ist die Funktion download der Datei src/main/java/com/itheima/reggie/controller/CommonController.java. Durch das Manipulieren des Arguments name mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [JoasASantos/CVE-2025-0401](https://github.com/JoasASantos/CVE-2025-0401)
 - [Darabium/Gombruc](https://github.com/Darabium/Gombruc)
 
 ### CVE-2025-0411 (2025-01-25)
@@ -22173,6 +22196,13 @@
 </code>
 
 - [dwisiswant0/CVE-2025-46819](https://github.com/dwisiswant0/CVE-2025-46819)
+
+### CVE-2025-46820 (2025-05-06)
+
+<code>phpgt/Dom provides access to modern DOM APIs. Versions of phpgt/Dom prior to 4.1.8 expose the GITHUB_TOKEN in the Dom workflow run artifact. The ci.yml workflow file uses actions/upload-artifact@v4 to upload the build artifact. This artifact is a zip of the current directory, which includes the automatically generated .git/config file containing the run's GITHUB_TOKEN. Seeing as the artifact can be downloaded prior to the end of the workflow, there is a few seconds where an attacker can extract the token from the artifact and use it with the GitHub API to push malicious code or rewrite release commits in your repository. Any downstream user of the repository may be affected, but the token should only be valid for the duration of the workflow run, limiting the time during which exploitation could occur. Version 4.1.8 fixes the issue.
+</code>
+
+- [pvharmo2/gha-lab-fb6df3d456](https://github.com/pvharmo2/gha-lab-fb6df3d456)
 
 ### CVE-2025-46822 (2025-05-21)
 
@@ -36289,6 +36319,13 @@
 
 - [Raajgupta01/htb-machine-ringdown](https://github.com/Raajgupta01/htb-machine-ringdown)
 
+### CVE-2024-42370 (2024-08-09)
+
+<code>Litestar is an Asynchronous Server Gateway Interface (ASGI) framework. In versions 2.10.0 and prior, Litestar's `docs-preview.yml` workflow is vulnerable to Environment Variable injection which may lead to secret exfiltration and repository manipulation. This issue grants a malicious actor the permission to write issues, read metadata, and write pull requests. In addition, the `DOCS_PREVIEW_DEPLOY_TOKEN` is exposed to the attacker. Commit 84d351e96aaa2a1338006d6e7221eded161f517b contains a fix for this issue.
+</code>
+
+- [pvharmo2/gha-lab-ba8e0c4217](https://github.com/pvharmo2/gha-lab-ba8e0c4217)
+
 ### CVE-2024-42448 (2024-12-11)
 
 <code>From the VSPC management agent machine, under condition that the management agent is authorized on the server, it is possible to perform Remote Code Execution (RCE) on the VSPC server machine.
@@ -48701,6 +48738,13 @@
 
 - [seadragnol/CVE-2023-52927](https://github.com/seadragnol/CVE-2023-52927)
 - [HoangNhoo/Reproduce-CVE-2023-52927](https://github.com/HoangNhoo/Reproduce-CVE-2023-52927)
+
+### CVE-2023-54391 (2026-09-01)
+
+<code>Proxmox Virtual Environment (VE) 7.0 through 8.0 contains an authentication bypass vulnerability in libpve-access-control before 8.0.4 that allows unauthenticated attackers to authenticate as any existing enabled user without a configured second factor by supplying an arbitrary tfa-challenge value in the API login endpoint. Attackers can send a POST request to the access ticket API endpoint with any value in the tfa-challenge parameter to completely skip password verification, gaining unauthorized access including to the root@pam account. All affected releases are end of life.
+</code>
+
+- [disqualifier/psa-2026-00043-recovery](https://github.com/disqualifier/psa-2026-00043-recovery)
 
 
 ## 2022
