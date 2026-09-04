@@ -2777,6 +2777,13 @@
 
 - [Xmyronn/CVE-2026-10110-SQLi](https://github.com/Xmyronn/CVE-2026-10110-SQLi)
 
+### CVE-2026-10134 (2026-06-30)
+
+<code>IBM Langflow OSS 1.0.0 through 1.9.3 allows an attacker to read every secret available to the Langflow process, read and modify every flow, conversation, message, file upload, and saved component in the Langflow database, can connect to internal services, abuse cloud metadata endpoints, laterally move to other tenants on the same Langflow instance, and Establish persistence by modifying the public flow's `tool_code` so normal `/api/v1/build/...` calls by any user re-execute attacker code at each build.
+</code>
+
+- [rmhowe425/POC-CVE-2026-10134](https://github.com/rmhowe425/POC-CVE-2026-10134)
+
 ### CVE-2026-10170 (2026-05-31)
 
 <code>A flaw has been found in code-projects Visitor Management System 1.0. Affected by this issue is some unknown functionality of the file /vms/php/phone_0.php. This manipulation of the argument phone causes sql injection. The attack may be initiated remotely. The exploit has been published and may be used.
@@ -13315,6 +13322,9 @@
 - [tc4dy/CVE-2026-61511-PoC-Exploit](https://github.com/tc4dy/CVE-2026-61511-PoC-Exploit)
 - [shootcannon/CVE-2026-61511](https://github.com/shootcannon/CVE-2026-61511)
 
+### CVE-2026-61578
+- [HORKimhab/CVE-Chamilo-LMS](https://github.com/HORKimhab/CVE-Chamilo-LMS)
+
 ### CVE-2026-61946 (2026-07-23)
 
 <code>Unauthenticated Insecure Direct Object References (IDOR) in Easy Appointments &lt;= 3.12.27 versions.
@@ -16911,6 +16921,7 @@
 </code>
 
 - [maestro-ant/Vvveb-CMS-CVE-2025-8518](https://github.com/maestro-ant/Vvveb-CMS-CVE-2025-8518)
+- [HORKimhab/CVE-2025-8518](https://github.com/HORKimhab/CVE-2025-8518)
 
 ### CVE-2025-8550 (2025-08-05)
 
@@ -22383,6 +22394,13 @@
 
 - [byteReaper77/CVE-2025-47917](https://github.com/byteReaper77/CVE-2025-47917)
 
+### CVE-2025-47928 (2025-05-15)
+
+<code>Spotipy is a Python library for the Spotify Web API. As of commit 4f5759dbfb4506c7b6280572a4db1aabc1ac778d, using `pull_request_target` on `.github/workflows/integration_tests.yml` followed by the checking out the head.sha of a forked PR can be exploited by attackers, since untrusted code can be executed having full access to secrets (from the base repo). By exploiting the vulnerability is possible to exfiltrate `GITHUB_TOKEN` and secrets `SPOTIPY_CLIENT_ID`,  `SPOTIPY_CLIENT_SECRET`. In particular `GITHUB_TOKEN` which can be used to completely overtake the repo since the token has content write privileges. The `pull_request_target` in GitHub Actions is a major security concern—especially in public repositories—because it executes untrusted code from a PR, but with the context of the base repository, including access to its secrets. Commit 9dfb7177b8d7bb98a5a6014f8e6436812a47576f reverted the change that caused the issue.
+</code>
+
+- [pvharmo2/gha-lab-2f775f277c](https://github.com/pvharmo2/gha-lab-2f775f277c)
+
 ### CVE-2025-47962 (2025-06-10)
 
 <code>Improper access control in Windows SDK allows an authorized attacker to elevate privileges locally.
@@ -23343,6 +23361,13 @@
 
 - [msdmehdipour/meshtastic-cve-2025-52464-poc](https://github.com/msdmehdipour/meshtastic-cve-2025-52464-poc)
 
+### CVE-2025-52467 (2025-06-19)
+
+<code>pgai is a Python library that transforms PostgreSQL into a retrieval engine for RAG and Agentic applications. Prior to commit 8eb3567, the pgai repository was vulnerable to an attack allowing the exfiltration of all secrets used in one workflow. In particular, the GITHUB_TOKEN with write permissions for the repository, allowing an attacker to tamper with all aspects of the repository, including pushing arbitrary code and releases. This issue has been patched in commit 8eb3567.
+</code>
+
+- [pvharmo2/gha-lab-e8902eccd3](https://github.com/pvharmo2/gha-lab-e8902eccd3)
+
 ### CVE-2025-52488 (2025-06-21)
 
 <code>DNN (formerly DotNetNuke) is an open-source web content management platform (CMS) in the Microsoft ecosystem. In versions 6.0.0 to before 10.0.1, DNN.PLATFORM allows a specially crafted series of malicious interaction to potentially expose NTLM hashes to a third party SMB server. This issue has been patched in version 10.0.1.
@@ -23451,6 +23476,13 @@
 
 - [rxerium/CVE-2025-53072-CVE-2025-62481](https://github.com/rxerium/CVE-2025-53072-CVE-2025-62481)
 
+### CVE-2025-53104 (2025-07-01)
+
+<code>gluestack-ui is a library of copy-pasteable components &amp; patterns crafted with Tailwind CSS (NativeWind). Prior to commit e6b4271, a command injection vulnerability was discovered in the discussion-to-slack.yml GitHub Actions workflow. Untrusted discussion fields (title, body, etc.) were directly interpolated into shell commands in a run: block. An attacker could craft a malicious GitHub Discussion title or body (e.g., $(curl ...)) to execute arbitrary shell commands on the Actions runner. This issue has been fixed in commit e6b4271 where the discussion-to-slack.yml workflow was removed. Users should remove the discussion-to-slack.yml workflow if using a fork or derivative of this repository.
+</code>
+
+- [pvharmo2/gha-lab-3b0a828a69](https://github.com/pvharmo2/gha-lab-3b0a828a69)
+
 ### CVE-2025-53136 (2025-08-12)
 
 <code>Exposure of sensitive information to an unauthorized actor in Windows NT OS Kernel allows an authorized attacker to disclose information locally.
@@ -23479,6 +23511,13 @@
 </code>
 
 - [moezbouzayani9/Pi-hole-XSS-CVE-2025-53533](https://github.com/moezbouzayani9/Pi-hole-XSS-CVE-2025-53533)
+
+### CVE-2025-53546 (2025-07-09)
+
+<code>Folo organizes feeds content into one timeline. Using pull_request_target on .github/workflows/auto-fix-lint-format-commit.yml can be exploited by attackers, since untrusted code can be executed having full access to secrets (from the base repo). By exploiting the vulnerability is possible to exfiltrate GITHUB_TOKEN which has high privileges. GITHUB_TOKEN can be used to completely overtake the repo since the token has content write privileges. This vulnerability is fixed in commit 585c6a591440cd39f92374230ac5d65d7dd23d6a.
+</code>
+
+- [pvharmo2/gha-lab-6926364d94](https://github.com/pvharmo2/gha-lab-6926364d94)
 
 ### CVE-2025-53547 (2025-07-08)
 
@@ -23798,6 +23837,13 @@
 </code>
 
 - [rockmelodies/bentoml_CVE-2025-54381](https://github.com/rockmelodies/bentoml_CVE-2025-54381)
+
+### CVE-2025-54415 (2025-07-26)
+
+<code>dag-factory is a library for Apache Airflow® to construct DAGs declaratively via configuration files. In versions 0.23.0a8 and below, a high-severity vulnerability has been identified in the cicd.yml workflow within the astronomer/dag-factory GitHub repository. The workflow, specifically when triggered by pull_request_target, is susceptible to exploitation, allowing an attacker to execute arbitrary code within the GitHub Actions runner environment. This misconfiguration enables an attacker to establish a reverse shell, exfiltrate sensitive secrets, including the highly-privileged GITHUB_TOKEN, and ultimately gain full control over the repository. This is fixed in version 0.23.0a9.
+</code>
+
+- [pvharmo2/gha-lab-f894926966](https://github.com/pvharmo2/gha-lab-f894926966)
 
 ### CVE-2025-54416 (2025-07-26)
 
@@ -64728,6 +64774,7 @@
 - [si1ence90/Ghostcat-Tomcat-AJP-Exploit-Py3](https://github.com/si1ence90/Ghostcat-Tomcat-AJP-Exploit-Py3)
 - [cyberguardsec101-sketch/ghostcat](https://github.com/cyberguardsec101-sketch/ghostcat)
 - [duckpigdog/Tomcat-AJP-CVE-2020-1938](https://github.com/duckpigdog/Tomcat-AJP-CVE-2020-1938)
+- [lem0n817/tomcatfileread](https://github.com/lem0n817/tomcatfileread)
 
 ### CVE-2020-1947 (2020-03-11)
 
