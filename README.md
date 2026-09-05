@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2026
+### CVE-2026-0001
+- [sohanbhowmik/cyberthreat_DBSproject](https://github.com/sohanbhowmik/cyberthreat_DBSproject)
+
 ### CVE-2026-0006 (2026-03-02)
 
 <code>In multiple locations, there is a possible out of bounds read and write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.
@@ -1026,6 +1029,13 @@
 
 - [darrocarocatest-sys/pv2-victim](https://github.com/darrocarocatest-sys/pv2-victim)
 
+### CVE-2026-3326 (2026-06-10)
+
+<code>The Xstore WordPress theme before 9.7.3 does not properly sanitise and escape a parameter before using it in a SQL statement via an AJAX action available to unauthenticated users, leading to a SQL injection
+</code>
+
+- [katranSefa/CVE-2026-3326](https://github.com/katranSefa/CVE-2026-3326)
+
 ### CVE-2026-3333 (2026-03-21)
 
 <code>The MinhNhut Link Gateway plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'linkgate' shortcode in all versions up to, and including, 3.6.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
@@ -1196,6 +1206,7 @@
 - [shinthink/CVE-2026-3891](https://github.com/shinthink/CVE-2026-3891)
 - [VeronnX666/CVE-2026-3891](https://github.com/VeronnX666/CVE-2026-3891)
 - [Ch4120N/CVE-2026-3891](https://github.com/Ch4120N/CVE-2026-3891)
+- [katranSefa/CVE-2026-3891](https://github.com/katranSefa/CVE-2026-3891)
 
 ### CVE-2026-3909 (2026-03-12)
 
@@ -1920,6 +1931,7 @@
 </code>
 
 - [goldendivider/cve-2026-6471-postgres-logical-decoding-dlopen](https://github.com/goldendivider/cve-2026-6471-postgres-logical-decoding-dlopen)
+- [0xBlackash/CVE-2026-6471](https://github.com/0xBlackash/CVE-2026-6471)
 
 ### CVE-2026-6508 (2026-05-07)
 
@@ -3658,6 +3670,7 @@
 </code>
 
 - [Nxploited/CVE-2026-15981](https://github.com/Nxploited/CVE-2026-15981)
+- [katranSefa/CVE-2026-15981](https://github.com/katranSefa/CVE-2026-15981)
 
 ### CVE-2026-16219 (2026-07-19)
 
@@ -3793,6 +3806,7 @@
 
 - [Nxploited/CVE-2026-18366](https://github.com/Nxploited/CVE-2026-18366)
 - [ghostpels/CVE-2026-18366](https://github.com/ghostpels/CVE-2026-18366)
+- [katranSefa/CVE-2026-18366](https://github.com/katranSefa/CVE-2026-18366)
 
 ### CVE-2026-18431 (2026-08-26)
 
@@ -10265,6 +10279,7 @@
 - [yanchenyu360/CVE-2026-41940-Security-Patch](https://github.com/yanchenyu360/CVE-2026-41940-Security-Patch)
 - [lanicer/cve-2026-41940-PoC](https://github.com/lanicer/cve-2026-41940-PoC)
 - [t4xo/CVE-2026-41940](https://github.com/t4xo/CVE-2026-41940)
+- [0xgh057r3c0n/CVE-2026-41940](https://github.com/0xgh057r3c0n/CVE-2026-41940)
 
 ### CVE-2026-42048 (2026-05-12)
 
@@ -13083,6 +13098,7 @@
 - [shinthink/pbck-exploit](https://github.com/shinthink/pbck-exploit)
 - [Jenderal92/CVE-2026-56290](https://github.com/Jenderal92/CVE-2026-56290)
 - [ChiefYoru/CVE-2026-56290_PoC](https://github.com/ChiefYoru/CVE-2026-56290_PoC)
+- [katranSefa/CVE-2026-56290](https://github.com/katranSefa/CVE-2026-56290)
 
 ### CVE-2026-56291 (2026-07-09)
 
@@ -13703,6 +13719,7 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nposix-cpu-timers: Prevent UAF caused by non-leader exec() race\n\nWongi and Jungwoo decoded and reported a non-leader exec() related race\nwhich can result in an UAF:\n\n sys_timer_delete()</code>
 
 - [villager1314/CVE-2026-64560-Analysis](https://github.com/villager1314/CVE-2026-64560-Analysis)
+- [quyicheng03-boop/xiaomi15-dada-cve-2026-64560](https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560)
 
 ### CVE-2026-64561 (2026-08-04)
 
@@ -20588,6 +20605,7 @@
 - [Fomovet/cve-2025-29927](https://github.com/Fomovet/cve-2025-29927)
 - [berraesen/nextjs-middleware-auth-bypass-lab](https://github.com/berraesen/nextjs-middleware-auth-bypass-lab)
 - [kuyrathdaro/cve-2025-29927](https://github.com/kuyrathdaro/cve-2025-29927)
+- [Ritinify/CVE-2025-29927-PoC](https://github.com/Ritinify/CVE-2025-29927-PoC)
 
 ### CVE-2025-29943 (2026-01-16)
 
