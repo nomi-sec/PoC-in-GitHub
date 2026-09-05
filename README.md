@@ -1914,6 +1914,13 @@
 
 - [Alixploit22/CVE-2026-6440](https://github.com/Alixploit22/CVE-2026-6440)
 
+### CVE-2026-6471 (2026-08-13)
+
+<code>Missing authorization in PostgreSQL logical decoding allows a non-superuser holding REPLICATION privilege to dlopen any file visible to the operating system account running the server, via the choice of logical decoding plugin.  This in turn runs arbitrary code as that account.  Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are affected.
+</code>
+
+- [goldendivider/cve-2026-6471-postgres-logical-decoding-dlopen](https://github.com/goldendivider/cve-2026-6471-postgres-logical-decoding-dlopen)
+
 ### CVE-2026-6508 (2026-05-07)
 
 <code>Origin Validation Error vulnerability in TUBITAK BILGEM Software Technologies Research Institute Liderahenk allows Accessing Functionality Not Properly Constrained by ACLs.\n\nThis issue affects Liderahenk: from 2.0.1 before 2.0.2.
@@ -2242,6 +2249,13 @@
 </code>
 
 - [azqzazq1/CVE-2026-7867-disk2root](https://github.com/azqzazq1/CVE-2026-7867-disk2root)
+
+### CVE-2026-7873 (2026-06-30)
+
+<code>IBM Langflow OSS 1.0.0 through 1.10.0 allows authenticated attackers to execute arbitrary OS commands and read sensitive files including credentials, enabling complete system compromise and lateral movement.
+</code>
+
+- [rmhowe425/POC-CVE-2026-7873](https://github.com/rmhowe425/POC-CVE-2026-7873)
 
 ### CVE-2026-7878
 - [George0Papasotiriou/CVE-2026-7878-eBPF-Verifier-Type-Confusion-Kernel-Memory-Read-Write](https://github.com/George0Papasotiriou/CVE-2026-7878-eBPF-Verifier-Type-Confusion-Kernel-Memory-Read-Write)
@@ -5025,6 +5039,13 @@
 </code>
 
 - [gsadagopan/cve-2026-22747-sandbox](https://github.com/gsadagopan/cve-2026-22747-sandbox)
+
+### CVE-2026-22778 (2026-02-02)
+
+<code>vLLM is an inference and serving engine for large language models (LLMs). From 0.8.3 to before 0.14.1, when an invalid image is sent to vLLM's multimodal endpoint, PIL throws an error. vLLM returns this error to the client, leaking a heap address. With this leak, we reduce ASLR from 4 billion guesses to ~8 guesses. This vulnerability can be chained a heap overflow with JPEG2000 decoder in OpenCV/FFmpeg to achieve remote code execution. This vulnerability is fixed in 0.14.1.
+</code>
+
+- [joaovicdev/EXPLOIT-CVE-2026-22778](https://github.com/joaovicdev/EXPLOIT-CVE-2026-22778)
 
 ### CVE-2026-22785 (2026-01-12)
 
@@ -8004,6 +8025,8 @@
 - [0xBlackash/CVE-2026-32475](https://github.com/0xBlackash/CVE-2026-32475)
 - [Boreas37/CVE-2026-32475-PoC](https://github.com/Boreas37/CVE-2026-32475-PoC)
 - [sahmsec/CVE-2026-32475](https://github.com/sahmsec/CVE-2026-32475)
+- [dinosn/cve-2026-32475-elementor-pro-lab](https://github.com/dinosn/cve-2026-32475-elementor-pro-lab)
+- [4minx/CVE-2026-32475](https://github.com/4minx/CVE-2026-32475)
 
 ### CVE-2026-32488 (2026-03-25)
 
@@ -9568,6 +9591,13 @@
 </code>
 
 - [redyank/CVE-2026-39376](https://github.com/redyank/CVE-2026-39376)
+
+### CVE-2026-39382 (2026-04-07)
+
+<code>dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications. Inside the reusable workflow dbt-labs/actions/blob/main/.github/workflows/open-issue-in-repo.yml, the prep job uses peter-evans/find-comment to search for an existing comment indicating that a docs issue has already been opened. The output steps.issue_comment.outputs.comment-body is then interpolated directly into a bash if statement. Because comment-body is attacker-controlled text and is inserted into shell syntax without escaping, a malicious comment body can break out of the quoted string and inject arbitrary shell commands. This vulnerability is fixed with commit bbed8d28354e9c644c5a7df13946a3a0451f9ab9.
+</code>
+
+- [pvharmo2/gha-lab-4a8fad8536](https://github.com/pvharmo2/gha-lab-4a8fad8536)
 
 ### CVE-2026-39387 (2026-04-14)
 
@@ -13121,6 +13151,13 @@
 
 - [ziad626/CVE-2026-56876-POC](https://github.com/ziad626/CVE-2026-56876-POC)
 
+### CVE-2026-57062 (2026-06-23)
+
+<code>CMS (Cryptographic Message Syntax) parsing in gpgsm in GnuPG through 2.5.20 mishandles the CMS format for AES-GCM because aes-ICVlen is supposed to be 12 bytes but 4 bytes is accepted. NOTE: this is related to CVE-2026-34182.
+</code>
+
+- [goldendivider/gpgsm-cve-2026-57062-cms-gcm-short-tag](https://github.com/goldendivider/gpgsm-cve-2026-57062-cms-gcm-short-tag)
+
 ### CVE-2026-57155
 - [babyshen/CVE-2026-57155](https://github.com/babyshen/CVE-2026-57155)
 
@@ -14698,6 +14735,13 @@
 
 - [pervinzahidli/CVE-2026-75855](https://github.com/pervinzahidli/CVE-2026-75855)
 
+### CVE-2026-75865 (2026-09-01)
+
+<code>The WPLP Cookie Consent – Cookie Banner &amp; Consent Management for GDPR, CCPA &amp; Google Consent Mode plugin for WordPress is vulnerable to arbitrary file upload due to missing file type validation in the saas_upload_logo() function combined with an authorization bypass on the WPLP connector REST endpoints in all versions up to, and including, 4.4.1. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [ghostpels/CVE-2026-75865](https://github.com/ghostpels/CVE-2026-75865)
+
 ### CVE-2026-75898 (2026-08-18)
 
 <code>RAGFlow before 0.26.3 contains a server-side request forgery vulnerability in the agent workflow &quot;Invoke&quot; component (agent/component/invoke.py). The component builds an outbound request URL from canvas configuration and runtime template variables and passes it to requests.get, requests.post, or requests.put without calling the shared assert_url_is_safe validator or pinning the resolved address, unlike the crawler, SearXNG, file-upload, and RSS fetch paths. A user who can create or trigger an agent can direct the server to fetch loopback, link-local, and RFC 1918 destinations, including cloud instance metadata endpoints and services co-located on the deployment network, and the response body is returned as the component output. Where an agent is configured to interpolate the chat query into the Invoke URL, the destination is chosen by whoever can send that query.
@@ -15774,6 +15818,7 @@
 - [Atomics-hub/exposecheck](https://github.com/Atomics-hub/exposecheck)
 - [preemware/langflow-exploit](https://github.com/preemware/langflow-exploit)
 - [hideki233/CVE-2025-3248-Langflow-RCE](https://github.com/hideki233/CVE-2025-3248-Langflow-RCE)
+- [LeotheGGman/Langflow-RCE-CVE-2025-3248](https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248)
 
 ### CVE-2025-3419 (2025-05-08)
 
@@ -15912,6 +15957,13 @@
 </code>
 
 - [Nxploited/CVE-2025-4190](https://github.com/Nxploited/CVE-2025-4190)
+
+### CVE-2025-4255 (2025-05-05)
+
+<code>Es wurde eine Schwachstelle in PCMan FTP Server 2.0.7 entdeckt. Sie wurde als kritisch eingestuft. Betroffen hiervon ist ein unbekannter Ablauf der Komponente RMD Command Handler. Durch Manipulieren mit unbekannten Daten kann eine buffer overflow-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [Tenor-Z/CVE-2025-4255---Buffer-Overflow](https://github.com/Tenor-Z/CVE-2025-4255---Buffer-Overflow)
 
 ### CVE-2025-4275 (2025-06-11)
 
@@ -46834,6 +46886,7 @@
 - [syaifulandy/Nuclei-Template-CVE-2023-42793.yaml](https://github.com/syaifulandy/Nuclei-Template-CVE-2023-42793.yaml)
 - [cxdxnt/CVE-2023-42793](https://github.com/cxdxnt/CVE-2023-42793)
 - [DDestinys/CVE-2023-42793](https://github.com/DDestinys/CVE-2023-42793)
+- [burakacar6/CVE-2023-42793-TeamCity-Unauthenticated-RCE](https://github.com/burakacar6/CVE-2023-42793-TeamCity-Unauthenticated-RCE)
 
 ### CVE-2023-42819 (2023-09-26)
 
