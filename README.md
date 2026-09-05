@@ -375,6 +375,7 @@
 - [Nxploited/CVE-2026-0920-](https://github.com/Nxploited/CVE-2026-0920-)
 - [Dx3iZ/CVE-2026-0920](https://github.com/Dx3iZ/CVE-2026-0920)
 - [katranSefa/CVE-2026-0920](https://github.com/katranSefa/CVE-2026-0920)
+- [K3ysTr0K3R/CVE-2026-0920](https://github.com/K3ysTr0K3R/CVE-2026-0920)
 
 ### CVE-2026-0926 (2026-02-19)
 
@@ -4001,7 +4002,6 @@
 
 - [YonLiud/CVE-2026-19632](https://github.com/YonLiud/CVE-2026-19632)
 - [DeadExpl0it/CVE-2026-19632-POC](https://github.com/DeadExpl0it/CVE-2026-19632-POC)
-- [ghostpels/CVE-2026-19632](https://github.com/ghostpels/CVE-2026-19632)
 
 ### CVE-2026-19650 (2026-08-17)
 
@@ -10764,6 +10764,7 @@
 - [ReBiliBin/ghostlock-oppo-watch3pro](https://github.com/ReBiliBin/ghostlock-oppo-watch3pro)
 - [alk601/Root-My-Galaxy](https://github.com/alk601/Root-My-Galaxy)
 - [xiaohj233/ghostlock-x200-app](https://github.com/xiaohj233/ghostlock-x200-app)
+- [oopnv70-lab/ghostlock-aak-apk](https://github.com/oopnv70-lab/ghostlock-aak-apk)
 - [lkeld/CVE-2026-43499-poc](https://github.com/lkeld/CVE-2026-43499-poc)
 - [Cxyofficial/K50G-POCOF4GT-CVE-2026-43499-PoC](https://github.com/Cxyofficial/K50G-POCOF4GT-CVE-2026-43499-PoC)
 
@@ -12522,6 +12523,13 @@
 
 - [686f6c61/POC-GeoLeak-CVE-2026-52715](https://github.com/686f6c61/POC-GeoLeak-CVE-2026-52715)
 
+### CVE-2026-52774 (2026-09-04)
+
+<code>YesWiki is a wiki system written in PHP. Prior to version 4.6.6, YesWiki's Bazar widget handler reflects the id GET parameter into HTML attributes using strip_tags() only. Because strip_tags() does not escape double quotes, an attacker can break out of the attribute value, inject an event handler such as onmouseover, and execute arbitrary JavaScript in the victim's browser. This issue is reachable without authentication. During validation, the vulnerable widget route returned the injected HTML for both /HomePage/widget?id=... and /NoSuchPage/widget?id=..., which shows that no login, no page ownership, no edit rights, and not even a valid page tag were required. The only routing prerequisite observed was that the Bazar extension is enabled and the request includes an id parameter. This issue has been patched in version 4.6.6.
+</code>
+
+- [0xTerror/CVE-2026-52774-YESWIKI-XSS](https://github.com/0xTerror/CVE-2026-52774-YESWIKI-XSS)
+
 ### CVE-2026-52806 (2026-06-24)
 
 <code>Gogs is an open source self-hosted Git service. Prior to 0.14.3, Gogs allows authenticated users to achieve Remote Code Execution (RCE) on the server by creating a pull request with a specially crafted branch name that injects the --exec flag into the git rebase command during the &quot;Rebase before merging&quot; merge operation. This vulnerability is fixed in 0.14.3.
@@ -13146,6 +13154,13 @@
 
 - [BiiTts/CVE-2026-56782-Gorse-Auth-Bypass](https://github.com/BiiTts/CVE-2026-56782-Gorse-Auth-Bypass)
 
+### CVE-2026-56819 (2026-07-21)
+
+<code>Netty is a network application framework for development of protocol servers and clients. In versions 4.2.0.Final through 4.2.15.Final and 4.1.0.Final through 4.1.135.Final, a remote unauthenticated peer can leak one direct `ByteBuf` per HTTP/2 `DATA` frame in applications that enable HTTP/2 content decompression via `DelegatingDecompressorFrameListener`. When a `DATA` frame is processed for a stream whose decompressor has already been closed, `Http2Decompressor.decompress(...)` calls `decompressor.writeInbound(data.retain())` and does not release the retained buffer on the error path, eventually exhausting direct memory and crashing the JVM. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final.
+</code>
+
+- [xiaoqiMikko/netty-http2-check](https://github.com/xiaoqiMikko/netty-http2-check)
+
 ### CVE-2026-56848 (2026-08-04)
 
 <code>A flaw in Node.js HTTP/2 handling allows `nghttp2_session_mem_send()` to be called re-entrantly while `nghttp2_session_mem_recv()` is executing, resulting in a heap-use-after-free.\r\n\r\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.
@@ -13304,6 +13319,7 @@
 - [Ch4120N/CVE-2026-58138](https://github.com/Ch4120N/CVE-2026-58138)
 - [0xgh057r3c0n/CVE-2026-58138](https://github.com/0xgh057r3c0n/CVE-2026-58138)
 - [Procjevt/CVE-2026-58138](https://github.com/Procjevt/CVE-2026-58138)
+- [0xBlackash/CVE-2026-58138](https://github.com/0xBlackash/CVE-2026-58138)
 
 ### CVE-2026-58231 (2026-08-11)
 
@@ -15053,6 +15069,13 @@
 
 - [Saku0512/CVE-2026-84361-poc](https://github.com/Saku0512/CVE-2026-84361-poc)
 
+### CVE-2026-84645 (2026-09-02)
+
+<code>In Jenkins 2.579 and earlier, LTS 2.568.2 and earlier, objects of types marked as storing their configuration in independent top-level configuration files in Jenkins (such as the global configuration and jobs) can appear as nested field values in user-submitted `config.xml` documents and subsequently handle HTTP requests via Stapler, resulting in remote code execution.
+</code>
+
+- [mhtsec/CVE-2026-84645](https://github.com/mhtsec/CVE-2026-84645)
+
 ### CVE-2026-85046 (2026-09-03)
 
 <code>Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
@@ -15060,6 +15083,7 @@
 
 - [HORKimhab/CVE-2026-85046](https://github.com/HORKimhab/CVE-2026-85046)
 - [ubitquity/CVE-2026-85046-Patch-confusion-zero-day-vulnerability-in-Google-Chrome-s-V8-engine](https://github.com/ubitquity/CVE-2026-85046-Patch-confusion-zero-day-vulnerability-in-Google-Chrome-s-V8-engine)
+- [adriyansyah-mf/cve-2026-85046-poc](https://github.com/adriyansyah-mf/cve-2026-85046-poc)
 
 ### CVE-2026-85649 (2026-09-04)
 
@@ -15287,6 +15311,7 @@
 - [aninfosec/CVE-2025-1094](https://github.com/aninfosec/CVE-2025-1094)
 - [PinkArmor/CVE-2025-1094-Lab-Setup](https://github.com/PinkArmor/CVE-2025-1094-Lab-Setup)
 - [TranDongA3/POC-CVE-2025-1094](https://github.com/TranDongA3/POC-CVE-2025-1094)
+- [skraft9/CVE-2024-12356](https://github.com/skraft9/CVE-2024-12356)
 
 ### CVE-2025-1097 (2025-03-24)
 
@@ -24307,6 +24332,13 @@
 
 - [scumfrog/CVE-2025-55130](https://github.com/scumfrog/CVE-2025-55130)
 
+### CVE-2025-55163 (2025-08-13)
+
+<code>Netty is an asynchronous, event-driven network application framework. Prior to versions 4.1.124.Final and 4.2.4.Final, Netty is vulnerable to MadeYouReset DDoS. This is a logical vulnerability in the HTTP/2 protocol, that uses malformed HTTP/2 control frames in order to break the max concurrent streams limit - which results in resource exhaustion and distributed denial of service. This issue has been patched in versions 4.1.124.Final and 4.2.4.Final.
+</code>
+
+- [xiaoqiMikko/netty-http2-check](https://github.com/xiaoqiMikko/netty-http2-check)
+
 ### CVE-2025-55177 (2025-08-29)
 
 <code>Incomplete authorization of linked device synchronization messages in WhatsApp for iOS prior to v2.25.21.73, WhatsApp Business for iOS v2.25.21.78, and WhatsApp for Mac v2.25.21.78 could have allowed an unrelated user to trigger processing of content from an arbitrary URL on a target’s device. We assess that this vulnerability, in combination with an OS-level vulnerability on Apple platforms (CVE-2025-43300), may have been exploited in a sophisticated attack against specific targeted users.
@@ -31527,6 +31559,13 @@
 </code>
 
 - [becrevex/TPLink-VN020-DoS](https://github.com/becrevex/TPLink-VN020-DoS)
+
+### CVE-2024-12356 (2024-12-17)
+
+<code>A critical vulnerability has been discovered in Privileged Remote Access (PRA) and Remote Support (RS) products which can allow an unauthenticated attacker to inject commands that are run as a site user.
+</code>
+
+- [skraft9/CVE-2024-12356](https://github.com/skraft9/CVE-2024-12356)
 
 ### CVE-2024-12365 (2025-01-14)
 
