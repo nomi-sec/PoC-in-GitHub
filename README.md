@@ -3203,6 +3203,9 @@
 
 - [repo-ranger21/security-portfolio-chris-peterson](https://github.com/repo-ranger21/security-portfolio-chris-peterson)
 
+### CVE-2026-11991
+- [0x00phantom-hat/CVE-2026-11991-Exploit](https://github.com/0x00phantom-hat/CVE-2026-11991-Exploit)
+
 ### CVE-2026-12087 (2026-06-15)
 
 <code>Socket versions before 2.041 for Perl have an out-of-bounds heap read.\n\nIn Socket.xs, pack_ip_mreq_source() checks the length of its source argument before the argument is read, so the check tests the byte length carried over from the preceding multiaddr argument instead. Both addresses occupy a 4-byte field, so a valid multiaddr lets a source of any length pass the check, and the source is then copied into the 4-byte imr_sourceaddr field with a fixed-size copy. A source shorter than 4 bytes is not rejected, and the copy reads up to 3 bytes past the end of its buffer.\n\nCalling pack_ip_mreq_source() with a source value shorter than 4 bytes copies adjacent heap memory into the returned packed structure.
@@ -4043,7 +4046,11 @@
 
 - [drbloop2000/CVE-2026-19745](https://github.com/drbloop2000/CVE-2026-19745)
 
-### CVE-2026-19843
+### CVE-2026-19843 (2026-09-07)
+
+<code>A flaw was found in 389-ds-base. The Cockpit 389 Console's LDAP editor constructs an ldapsearch command by embedding an LDAP entry's distinguished name (DN) into a shell command string without proper escaping. An LDAP user with delegated privileges to create or rename directory entries could craft a malicious DN containing shell metacharacters. When a Cockpit administrator subsequently views the entry in the 389 Console, the embedded shell command executes with root privileges on the directory server host.
+</code>
+
 - [gduma-phData/patch-CVE-2026-19843](https://github.com/gduma-phData/patch-CVE-2026-19843)
 
 ### CVE-2026-19874 (2026-08-24)
@@ -6779,7 +6786,6 @@
 </code>
 
 - [plutosecurity/MCPwnfluence](https://github.com/plutosecurity/MCPwnfluence)
-- [romain-deperne/CVE-2026-27825](https://github.com/romain-deperne/CVE-2026-27825)
 
 ### CVE-2026-27831 (2026-02-26)
 
@@ -9173,6 +9179,9 @@
 ### CVE-2026-36374
 - [RRespxwnss/CVE-2026-36374](https://github.com/RRespxwnss/CVE-2026-36374)
 
+### CVE-2026-36392
+- [moksh-nfsu/CVE-2026-36392](https://github.com/moksh-nfsu/CVE-2026-36392)
+
 ### CVE-2026-36425 (2026-07-16)
 
 <code>An issue in OPSWAT AppRemover Driver (ardrv.sys) v2017.10.02.1551 and earlier in IOCTL handler 0x2420031. Any local user can open the device and send process termination requests without privilege validation.
@@ -10485,7 +10494,7 @@
 <code>RMCP is an official Rust SDK for the Model Context Protocol. Prior to version 1.4.0, the rmcp crate's Streamable HTTP server transport (crates/rmcp/src/transport/streamable_http_server/) did not validate the incoming Host header. This allowed a malicious public website, via a DNS rebinding attack, to send authenticated requests to an MCP server running on the victim's loopback or private-network interface. This vulnerability is fixed in 1.4.0.
 </code>
 
-- [joaovicdev/CVE-2026-42559](https://github.com/joaovicdev/CVE-2026-42559)
+- [joaovicdev/EXPLOIT-CVE-2026-42559](https://github.com/joaovicdev/EXPLOIT-CVE-2026-42559)
 
 ### CVE-2026-42568 (2026-06-10)
 
@@ -10819,7 +10828,6 @@
 - [slapah/ghostlock-h8q](https://github.com/slapah/ghostlock-h8q)
 - [XiaoBaiLovesStirring/ghostlock-k419-adapter](https://github.com/XiaoBaiLovesStirring/ghostlock-k419-adapter)
 - [zenyxx-xd/RootMyVivo](https://github.com/zenyxx-xd/RootMyVivo)
-- [JingMatrix/pixel-ksu-root](https://github.com/JingMatrix/pixel-ksu-root)
 - [sgswzglwlx/vivo-root-build](https://github.com/sgswzglwlx/vivo-root-build)
 - [rsyzee/ghostlock-infinix-hot70](https://github.com/rsyzee/ghostlock-infinix-hot70)
 - [hackyangwen-lgtm/rmg-s9180-fzg1](https://github.com/hackyangwen-lgtm/rmg-s9180-fzg1)
@@ -10831,6 +10839,7 @@
 - [oopnv70-lab/ghostlock-aak-apk](https://github.com/oopnv70-lab/ghostlock-aak-apk)
 - [lkeld/CVE-2026-43499-poc](https://github.com/lkeld/CVE-2026-43499-poc)
 - [Cxyofficial/K50G-POCOF4GT-CVE-2026-43499-PoC](https://github.com/Cxyofficial/K50G-POCOF4GT-CVE-2026-43499-PoC)
+- [ruik-tech/ghostlock-s25fe](https://github.com/ruik-tech/ghostlock-s25fe)
 - [dorlow/hazel-cve-2026-43499](https://github.com/dorlow/hazel-cve-2026-43499)
 - [abdgalaxy36-code/galaxy-a37-root](https://github.com/abdgalaxy36-code/galaxy-a37-root)
 
@@ -14326,7 +14335,7 @@
 
 ### CVE-2026-67276 (2026-09-05)
 
-<code>RouterOS does not compare the complete RSA public key when matching an SSH authentication request to an authorized user key, checking the key type and modulus but omitting the exponent. Because signature verification uses the client-supplied key, an attacker knowing an authorized RSA modulus can supply a key with exponent one, forge a valid signature, and open an SSH command channel as the target user without the private key.This issue was fixed in versions: 6.49.21 (Long-term), 7.23.4 (Long-term) and 7.24.2 (Stable)
+<code>RouterOS does not compare the complete RSA public key when matching an SSH authentication request to an authorized user key, checking the key type and modulus but omitting the exponent. Because signature verification uses the client-supplied key, an attacker knowing an authorized RSA modulus can supply a key with exponent one, forge a valid signature, and open an SSH command channel as the target user without the private key.This issue affects only 7.x branch was fixed in versions: 7.23.4 (Long-term) and 7.24.2 (Stable)
 </code>
 
 - [HORKimhab/CVE-2026-67276](https://github.com/HORKimhab/CVE-2026-67276)
@@ -14976,6 +14985,9 @@
 </code>
 
 - [0xROI/CVE-2026-77113](https://github.com/0xROI/CVE-2026-77113)
+
+### CVE-2026-77262
+- [romain-deperne/CVE-2026-77262](https://github.com/romain-deperne/CVE-2026-77262)
 
 ### CVE-2026-77542 (2026-08-26)
 
@@ -15973,7 +15985,7 @@
 </code>
 
 - [TeneBrae93/CVE-2025-3243](https://github.com/TeneBrae93/CVE-2025-3243)
-- [ladosudeste/CVE-2025-3243](https://github.com/ladosudeste/CVE-2025-3243)
+- [erberthdev/CVE-2025-3243](https://github.com/erberthdev/CVE-2025-3243)
 
 ### CVE-2025-3248 (2025-04-07)
 
@@ -30610,7 +30622,7 @@
 - [lfillaz/CVE-2024-7703](https://github.com/lfillaz/CVE-2024-7703)
 
 ### CVE-2024-7804
-- [joaovicdev/CVE-2024-7804](https://github.com/joaovicdev/CVE-2024-7804)
+- [joaovicdev/EXPLOIT-CVE-2024-7804](https://github.com/joaovicdev/EXPLOIT-CVE-2024-7804)
 
 ### CVE-2024-7808 (2024-08-15)
 
@@ -49300,6 +49312,13 @@
 
 - [victoni/BYOVD-CVE-2023-52271-POC](https://github.com/victoni/BYOVD-CVE-2023-52271-POC)
 
+### CVE-2023-52356 (2024-01-25)
+
+<code>A segment fault (SEGV) flaw was found in libtiff that could be triggered by passing a crafted tiff file to the TIFFReadRGBATileExt() API. This flaw allows a remote attacker to cause a heap-buffer overflow, leading to a denial of service.
+</code>
+
+- [yardenbenita/CVE-2023-52356-libtiff-analysis](https://github.com/yardenbenita/CVE-2023-52356-libtiff-analysis)
+
 ### CVE-2023-52440 (2024-02-21)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix slub overflow in ksmbd_decode_ntlmssp_auth_blob()\n\nIf authblob-&gt;SessionKey.Length is bigger than session key\nsize(CIFS_KEY_SIZE), slub overflow can happen in key exchange codes.\ncifs_arc4_crypt copy to session key array from SessionKey from client.
@@ -64815,6 +64834,7 @@
 - [MalwareTech/RDGScanner](https://github.com/MalwareTech/RDGScanner)
 - [Archi73ct/CVE-2020-0609](https://github.com/Archi73ct/CVE-2020-0609)
 - [ioncodes/BlueGate](https://github.com/ioncodes/BlueGate)
+- [Bhanunamikaze/BlueGate-CVE-2020-0609](https://github.com/Bhanunamikaze/BlueGate-CVE-2020-0609)
 
 ### CVE-2020-0610 (2020-01-14)
 
