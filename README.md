@@ -3361,6 +3361,13 @@
 
 - [MinhHK68/CVE-2026-13158](https://github.com/MinhHK68/CVE-2026-13158)
 
+### CVE-2026-13181 (2026-07-22)
+
+<code>In Progress® Telerik® UI for AJAX prior to v2026.2.708, forged upload metadata can influence AsyncUploadTypeName processing and trigger unsafe attacker-controlled type resolution, enabling remote code execution in affected deployments.
+</code>
+
+- [HORKimhab/CVE-2026-13181-CVE-2026-13182-CVE-2026-13183-CVE-2026-13184](https://github.com/HORKimhab/CVE-2026-13181-CVE-2026-13182-CVE-2026-13183-CVE-2026-13184)
+
 ### CVE-2026-13233 (2026-07-10)
 
 <code>Server-Side Request Forgery (SSRF) vulnerability in Drupal OpenAI Provider allows Server Side Request Forgery. This issue affects OpenAI Provider versions: from 0.0.0 to 1.1.1, from 1.2.0 to 1.2.2.
@@ -6942,6 +6949,13 @@
 
 - [rootdirective-sec/CVE-2026-28496-Lab](https://github.com/rootdirective-sec/CVE-2026-28496-Lab)
 
+### CVE-2026-28576 (2026-06-17)
+
+<code>In Contacts Provider, there is a possible way to access the contacts database due to SQL injection. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [mobilehackinglab/CVE-2026-28576-poc](https://github.com/mobilehackinglab/CVE-2026-28576-poc)
+
 ### CVE-2026-28672 (2026-08-10)
 
 <code>Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability in Apache Ranger.\n\nThis issue affects Apache Ranger: from 0.6 through 2.8.
@@ -8313,6 +8327,13 @@
 </code>
 
 - [azefzafyoussef/CVE-2026-33229](https://github.com/azefzafyoussef/CVE-2026-33229)
+
+### CVE-2026-33234 (2026-05-19)
+
+<code>AutoGPT is a workflow automation platform for creating, deploying, and managing continuous artificial intelligence agents. In versions 0.1.0 through 0.6.51,  SendEmailBlock in autogpt_platform/backend/backend/blocks/email_block.py accepts a user-supplied smtp_server (string) and smtp_port (integer) as per-execution block inputs, then passes them directly to Python's smtplib.SMTP() to open a raw TCP connection with no IP address validation. This completely bypasses the platform's hardened SSRF protections in backend/util/request.py — the validate_url_host() function and BLOCKED_IP_NETWORKS blocklist that every other block uses to block connections to private, loopback, link-local, and cloud metadata addresses. An authenticated user on a shared AutoGPT deployment can use this to perform non-blind internal network port scanning and service fingerprinting: smtplib reads the target's TCP banner on connect and embeds it in the exception message, which is persisted as user-visible block output via the execution framework. This issue has been fixed in version 0.6.52.
+</code>
+
+- [pavanchow/CVE-2026-33234](https://github.com/pavanchow/CVE-2026-33234)
 
 ### CVE-2026-33267 (2026-07-29)
 
@@ -10811,6 +10832,7 @@
 - [lkeld/CVE-2026-43499-poc](https://github.com/lkeld/CVE-2026-43499-poc)
 - [Cxyofficial/K50G-POCOF4GT-CVE-2026-43499-PoC](https://github.com/Cxyofficial/K50G-POCOF4GT-CVE-2026-43499-PoC)
 - [dorlow/hazel-cve-2026-43499](https://github.com/dorlow/hazel-cve-2026-43499)
+- [abdgalaxy36-code/galaxy-a37-root](https://github.com/abdgalaxy36-code/galaxy-a37-root)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -11680,6 +11702,13 @@
 </code>
 
 - [SaiTeja-Erukude/CVE-2026-47117-openmed-rce](https://github.com/SaiTeja-Erukude/CVE-2026-47117-openmed-rce)
+
+### CVE-2026-47172 (2026-06-11)
+
+<code>Quest Bot is an opensource modern Discord Bot built for moderation, utilities and support. Prior to version 1.0.3, the repository has a privileged deploy workflow that runs after the unprivileged build workflow completes. The build workflow runs on pull requests, and the deploy workflow checks out the triggering workflow’s head_sha, builds that code into a Docker image, pushes it as latest, and triggers production deployment. If an attacker can open a pull request from a branch named main, the deploy workflow condition can treat the PR build as deployable and build the attacker-controlled commit in a privileged deployment context. This can result in malicious container deployment and production bot compromise. This issue has been patched in version 1.0.3.
+</code>
+
+- [pvharmo2/gha-lab-00d54c717d](https://github.com/pvharmo2/gha-lab-00d54c717d)
 
 ### CVE-2026-47301 (2026-07-14)
 
@@ -14636,6 +14665,13 @@
 
 - [Hunt-Benito/the-same-key-opens-every-box-cve-2026-71960-hard-coded-jwt-secret-in-cudy-wr3000-mesh-mqtt](https://github.com/Hunt-Benito/the-same-key-opens-every-box-cve-2026-71960-hard-coded-jwt-secret-in-cudy-wr3000-mesh-mqtt)
 
+### CVE-2026-71981 (2026-09-01)
+
+<code>Cypht before 2.12.2 contains a PHP object injection vulnerability that allows authenticated attackers to execute arbitrary operating system commands by supplying a crafted PHP object graph in the back_query GET parameter of the logout handler. Attackers can pass a base64-encoded serialized payload through this parameter, which is decoded and passed directly to unserialize() without an allow-list, signature check, or type restriction, enabling gadget-chain exploitation to achieve remote code execution as the web server process.
+</code>
+
+- [lyn4r/CVE-2026-71981](https://github.com/lyn4r/CVE-2026-71981)
+
 ### CVE-2026-72530 (2026-08-19)
 
 <code>A remote unauthorized attacker with network access via port 4307/TCP to the TrueConf server versions 5.3.X to 5.3.9, 5.4.X to 5.4.9, 5.5.X to 5.5.5, and earlier could use a specially crafted script to break out of the isolated environment and execute arbitrary code on the host system.
@@ -15091,6 +15127,13 @@
 - [yora1928/PaperCut-CVE-2026-81578-82078](https://github.com/yora1928/PaperCut-CVE-2026-81578-82078)
 - [virologi-info/papercut-toolkit](https://github.com/virologi-info/papercut-toolkit)
 
+### CVE-2026-81780 (2026-08-31)
+
+<code>Unauthenticated Arbitrary File Upload in Hash Form &lt;= 1.4.2 versions.
+</code>
+
+- [0xTerror/CVE-2026-81780-Hash-Form](https://github.com/0xTerror/CVE-2026-81780-Hash-Form)
+
 ### CVE-2026-82221 (2026-08-31)
 
 <code>Unauthenticated Cross Site Scripting (XSS) in RegistrationMagic &lt;= 6.0.9.8 versions.
@@ -15126,6 +15169,7 @@
 - [ynsmroztas/CVE-2026-82329-JFrog-Artifactory-Auth-Bypass](https://github.com/ynsmroztas/CVE-2026-82329-JFrog-Artifactory-Auth-Bypass)
 - [0xCyp1337/CVE-2026-82329](https://github.com/0xCyp1337/CVE-2026-82329)
 - [gagaltotal/CVE-2026-82329-poc](https://github.com/gagaltotal/CVE-2026-82329-poc)
+- [0xTerror/CVE-2026-82329-JFrog-Artifactory-](https://github.com/0xTerror/CVE-2026-82329-JFrog-Artifactory-)
 
 ### CVE-2026-82539 (2026-08-30)
 
@@ -15193,6 +15237,13 @@
 </code>
 
 - [isukasanuj/CVE-2026-85769](https://github.com/isukasanuj/CVE-2026-85769)
+
+### CVE-2026-86218 (2026-09-06)
+
+<code>N-central is vulnerable to a pre-auth remote code execution This issue affects N-central: before 2026.3.1.14.
+</code>
+
+- [HORKimhab/CVE-2026-86218](https://github.com/HORKimhab/CVE-2026-86218)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -16530,6 +16581,7 @@
 - [greycat-amc/CVE-2025-5548](https://github.com/greycat-amc/CVE-2025-5548)
 - [CryptoMachio/CVE-2025-5548](https://github.com/CryptoMachio/CVE-2025-5548)
 - [sudoand3rs0n/CVE-2025-5548](https://github.com/sudoand3rs0n/CVE-2025-5548)
+- [VSvalinX/CVE-2025-5548](https://github.com/VSvalinX/CVE-2025-5548)
 
 ### CVE-2025-5640 (2025-06-05)
 
@@ -22885,6 +22937,7 @@
 - [vignesh21-git/CVE-2025-48384](https://github.com/vignesh21-git/CVE-2025-48384)
 - [vignesh21-git/CVE-2025-48384-submodule](https://github.com/vignesh21-git/CVE-2025-48384-submodule)
 - [sathish46-lab/CVE-2025-48384-submodule](https://github.com/sathish46-lab/CVE-2025-48384-submodule)
+- [iustin24/gitssrf-gim-cve-parent](https://github.com/iustin24/gitssrf-gim-cve-parent)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -29280,6 +29333,7 @@
 - [x-cmd-build/xz](https://github.com/x-cmd-build/xz)
 - [Preacher98/Report-XZ-Utils-CVE-2024-3094](https://github.com/Preacher98/Report-XZ-Utils-CVE-2024-3094)
 - [namegabevictoire01-sys/cs50-cybersecurity-final-project](https://github.com/namegabevictoire01-sys/cs50-cybersecurity-final-project)
+- [mhicairo-hue/cs50-cybersecurity-final-project](https://github.com/mhicairo-hue/cs50-cybersecurity-final-project)
 
 ### CVE-2024-3105 (2024-06-15)
 
@@ -42503,7 +42557,6 @@
 </code>
 
 - [pinarsadioglu/CVE-2023-23192](https://github.com/pinarsadioglu/CVE-2023-23192)
-- [Penkyzduyi/CVE-2023-23192](https://github.com/Penkyzduyi/CVE-2023-23192)
 
 ### CVE-2023-23279 (2023-02-17)
 
@@ -57684,7 +57737,7 @@
 - [barebackbandit/CVE-2021-3156](https://github.com/barebackbandit/CVE-2021-3156)
 - [RodricBr/CVE-2021-3156](https://github.com/RodricBr/CVE-2021-3156)
 - [ypl6/heaplens](https://github.com/ypl6/heaplens)
-- [q77190858/CVE-2021-3156](https://github.com/q77190858/CVE-2021-3156)
+- [juju306/CVE-2021-3156](https://github.com/juju306/CVE-2021-3156)
 - [arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156)
 - [Mhackiori/CVE-2021-3156](https://github.com/Mhackiori/CVE-2021-3156)
 - [PhuketIsland/CVE-2021-3156-centos7](https://github.com/PhuketIsland/CVE-2021-3156-centos7)
@@ -85649,6 +85702,7 @@
 </code>
 
 - [aish19siddiqua-commits/mtechweek_04](https://github.com/aish19siddiqua-commits/mtechweek_04)
+- [0b0111100/2009](https://github.com/0b0111100/2009)
 
 ### CVE-2009-1244 (2009-04-13)
 
@@ -85833,6 +85887,13 @@
 </code>
 
 - [SpiderLabs/TWSL2011-007_iOS_code_workaround](https://github.com/SpiderLabs/TWSL2011-007_iOS_code_workaround)
+
+### CVE-2008-0600 (2008-02-12)
+
+<code>The vmsplice_to_pipe function in Linux kernel 2.6.17 through 2.6.24.1 does not validate a certain userspace pointer before dereference, which allows local users to gain root privileges via crafted arguments in a vmsplice system call, a different vulnerability than CVE-2008-0009 and CVE-2008-0010.
+</code>
+
+- [0b0111100/2008](https://github.com/0b0111100/2008)
 
 ### CVE-2008-1447 (2008-07-08)
 
@@ -86173,6 +86234,13 @@
 
 - [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
 
+### CVE-2006-2451 (2006-07-07)
+
+<code>The suid_dumpable support in Linux kernel 2.6.13 up to versions before 2.6.17.4, and 2.6.16 before 2.6.16.24, allows a local user to cause a denial of service (disk consumption) and possibly gain privileges via the PR_SET_DUMPABLE argument of the prctl function and a program that causes a core dump file to be created in a directory for which the user does not have permissions.
+</code>
+
+- [0b0111100/2006](https://github.com/0b0111100/2006)
+
 ### CVE-2006-2842 (2006-06-06)
 
 <code>PHP remote file inclusion vulnerability in functions/plugin.php in SquirrelMail 1.4.6 and earlier, if register_globals is enabled and magic_quotes_gpc is disabled, allows remote attackers to execute arbitrary PHP code via a URL in the plugins array parameter.  NOTE: this issue has been disputed by third parties, who state that Squirrelmail provides prominent warnings to the administrator when register_globals is enabled.  Since the varieties of administrator negligence are uncountable, perhaps this type of issue should not be included in CVE.  However, the original developer has posted a security advisory, so there might be relevant real-world environments under which this vulnerability is applicable
@@ -86262,6 +86330,13 @@
 
 - [Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure](https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure)
 
+### CVE-2005-0736 (2005-03-13)
+
+<code>Integer overflow in sys_epoll_wait in eventpoll.c for Linux kernel 2.6 to 2.6.11 allows local users to overwrite kernel memory via a large number of events.
+</code>
+
+- [0b0111100/2005](https://github.com/0b0111100/2005)
+
 ### CVE-2005-2
 - [kullai-secasure/CVE-2005-2x8x](https://github.com/kullai-secasure/CVE-2005-2x8x)
 
@@ -86296,6 +86371,13 @@
 
 
 ## 2004
+### CVE-2004-0077 (2004-09-01)
+
+<code>The do_mremap function for the mremap system call in Linux 2.2 to 2.2.25, 2.4 to 2.4.24, and 2.6 to 2.6.2, does not properly check the return value from the do_munmap function when the maximum number of VMA descriptors is exceeded, which allows local users to gain root privileges, a different vulnerability than CAN-2003-0985.
+</code>
+
+- [0b0111100/2004](https://github.com/0b0111100/2004)
+
 ### CVE-2004-0558 (2004-09-17)
 
 <code>The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows remote attackers to cause a denial of service (service hang) via a certain UDP packet to the IPP port.
