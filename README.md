@@ -840,7 +840,7 @@
 
 ### CVE-2026-2670 (2026-02-18)
 
-<code>A vulnerability was identified in Advantech WISE-6610 1.2.1_20251110. Affected is an unknown function of the file /cgi-bin/luci/admin/openvpn_apply of the component Background Management. Such manipulation of the argument delete_file leads to os command injection. The attack can be executed remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.
+<code>A vulnerability was identified in Advantech WISE-6610-NB, WISE-6610-EB, WISE-6610-TB, WISE-6610-JB, WISE-6610-CB, WISE-6610-EL-NB, WISE-6610-EL-EB, WISE-6610-EL-TB, WISE-6610-EL-JB, WISE-6610-EL-CB, WISE-6610P-DEA, WISE-6610P-DNA and WISE-6610P-DTA 1.2.1_20251110. Affected is an unknown function of the file /cgi-bin/luci/admin/openvpn_apply of the component Background Management. Such manipulation of the argument delete_file leads to os command injection. The attack can be executed remotely. The exploit is publicly available and might be used. Upgrading to version 1.2.4_20260821 is able to address this issue. It is advisable to upgrade the affected component. The vendor explains: &quot;The delete operation has been redesigned to map the requested file type to a fixed allowlisted path, require a numeric tunnel ID, reject invalid requests, and use the native filesystem API (fs.unlink) instead of constructing a shell command from request data.&quot;
 </code>
 
 - [ali-py3/exploit-CVE-2026-2670](https://github.com/ali-py3/exploit-CVE-2026-2670)
@@ -7807,7 +7807,6 @@
 - [yangh-beep/CVE-2026-31431-C](https://github.com/yangh-beep/CVE-2026-31431-C)
 - [JimmyPughtron/CVE-2026-31431-Copy-Fail---Minified-LPE-PoC](https://github.com/JimmyPughtron/CVE-2026-31431-Copy-Fail---Minified-LPE-PoC)
 - [4n4s4zi/copyfail-alpine](https://github.com/4n4s4zi/copyfail-alpine)
-- [1m1ssher/copy-fail-python](https://github.com/1m1ssher/copy-fail-python)
 - [ridhinva/linux-kernel-algif-aead-checker](https://github.com/ridhinva/linux-kernel-algif-aead-checker)
 - [Iamliuxiaozhen/copy_fail](https://github.com/Iamliuxiaozhen/copy_fail)
 - [songzzzz/CVE-2026-31431](https://github.com/songzzzz/CVE-2026-31431)
@@ -10304,6 +10303,13 @@
 - [t4xo/CVE-2026-41940](https://github.com/t4xo/CVE-2026-41940)
 - [0xgh057r3c0n/CVE-2026-41940](https://github.com/0xgh057r3c0n/CVE-2026-41940)
 
+### CVE-2026-42031 (2026-05-13)
+
+<code>CKAN is an open-source DMS (data management system) for powering data hubs and data portals. Prior to 2.10.10 and 2.11.5, a vulnerability in datastore_search_sql allowed attackers to inject SQL in order to gain access to private resources and PostgreSQL system information This vulnerability is fixed in 2.10.10 and 2.11.5.
+</code>
+
+- [ddrvahandzo90-hue/CVE-2026-42031-SQL-Injection-Scanner](https://github.com/ddrvahandzo90-hue/CVE-2026-42031-SQL-Injection-Scanner)
+
 ### CVE-2026-42048 (2026-05-12)
 
 <code>Langflow is a tool for building and deploying AI-powered agents and workflows. Prior to 1.9.0, Langflow is vulnerable to Path Traversal in the Knowledge Bases API (DELETE /api/v1/knowledge_bases). This occurs because user-supplied knowledge base names are concatenated directly into file paths without proper sanitization or boundary validation. An authenticated attacker can exploit this flaw to delete arbitrary directories anywhere on the server's filesystem, leading to data loss and potential service disruption. This vulnerability is fixed in 1.9.0.
@@ -11156,12 +11162,19 @@
 
 - [HORKimhab/CVE-2026-45091](https://github.com/HORKimhab/CVE-2026-45091)
 
+### CVE-2026-45131 (2026-06-01)
+
+<code>CloudPirates Open Source Helm Charts is a collection of Helm charts. Prior to commit fcf9302, a GitHub Actions workflow (pull-request.yaml) executes attacker-controlled code from fork pull requests in a privileged context, exposing repository secrets including Docker Hub credentials and tokens without requiring maintainer approval. This issue has been patched via commit fcf9302.
+</code>
+
+- [pvharmo2/gha-lab-5511dc3f73](https://github.com/pvharmo2/gha-lab-5511dc3f73)
+
 ### CVE-2026-45132 (2026-06-01)
 
 <code>CloudPirates Open Source Helm Charts is a collection of Helm charts. Prior to commit fcf9302, a GitHub Actions workflow (generate-schema.yaml) exposes sensitive credentials (Personal Access Token and SSH signing key) to fork-controlled code due to unsafe checkout and credential handling practices. This issue has been patched via commit fcf9302.
 </code>
 
-- [ghapvharmo/gha-lab-a815a82f03-1](https://github.com/ghapvharmo/gha-lab-a815a82f03-1)
+- [pvharmo2/gha-lab-8aba6b05dc](https://github.com/pvharmo2/gha-lab-8aba6b05dc)
 
 ### CVE-2026-45156 (2026-06-01)
 
@@ -11868,13 +11881,6 @@
 - [imbas007/CVE-2026-48282](https://github.com/imbas007/CVE-2026-48282)
 - [g0thamRabb1t/CVE-2026-48282-coldfusion-rds-detection](https://github.com/g0thamRabb1t/CVE-2026-48282-coldfusion-rds-detection)
 - [arpit-bansal15/cve-2026-48282-pentest-lab](https://github.com/arpit-bansal15/cve-2026-48282-pentest-lab)
-
-### CVE-2026-48546 (2026-06-11)
-
-<code>KanaDojo before 0.1.18 contains a sandbox escape vulnerability that allows an attacker to execute arbitrary code by exploiting the explicit passing of the global require function into a Node.js vm.runInNewContext() sandbox context in the issue-auto-respond.yml workflow. Attackers can submit a pull request modifying messages.cjs to import arbitrary Node.js modules, bypassing sandbox restrictions and achieving remote code execution with full GitHub Actions runner privileges including access to AUTOMATION_PR_TOKEN.
-</code>
-
-- [ghapvharmo/gha-lab-a5c1876997-1](https://github.com/ghapvharmo/gha-lab-a5c1876997-1)
 
 ### CVE-2026-48558 (2026-06-12)
 
@@ -12643,6 +12649,13 @@
 </code>
 
 - [Hari-v542/CVE-2026-52923](https://github.com/Hari-v542/CVE-2026-52923)
+
+### CVE-2026-52924 (2026-06-24)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nsctp: purge outqueue on stale COOKIE-ECHO handling\n\nsctp_stream_update() is only invoked when the association is moved into\nCOOKIE_WAIT during association setup/reconfiguration. In this path, the\noutbound stream scheduler state (stream-&gt;out_curr) is expected to be\nclean, since no user data should have been transmitted yet unless the\nstate machine has already partially progressed.\n\nHowever, a corner case exists in sctp_sf_do_5_2_6_stale(): when a\nStale Cookie ERROR is received, the association is rolled back from\nCOOKIE_ECHOED to COOKIE_WAIT. In this scenario, user data may already\nhave been queued and even bundled with the COOKIE-ECHO chunk.\n\nDuring the rollback, sctp_stream_update() frees the old stream table\nand installs a new one, but it does not invalidate stream-&gt;out_curr.\nAs a result, out_curr may still point to a freed sctp_stream_out\nentry from the previous stream state.\n\nLater, SCTP scheduler dequeue paths (FCFS, RR, PRIO, etc.) rely on\nstream-&gt;out_curr-&gt;ext, which can lead to use-after-free once the old\nstream state has been released via sctp_stream_free().\n\nThis results in crashes such as (reported by Yuqi):\n\n  BUG: KASAN: slab-use-after-free in sctp_sched_fcfs_dequeue+0x13a/0x140\n  Read of size 8 at addr ff1100004d4d3208 by task mini_poc/9312\n  CPU: 1 UID: 1001 PID: 9312 Comm: mini_poc Not tainted\n     7.1.0-rc1-00305-gbd3a4795d574 #5 PREEMPT(full)\n   sctp_sched_fcfs_dequeue+0x13a/0x140\n   sctp_outq_flush+0x1603/0x33e0\n   sctp_do_sm+0x31c9/0x5d30\n   sctp_assoc_bh_rcv+0x392/0x6f0\n   sctp_inq_push+0x1db/0x270\n   sctp_rcv+0x138d/0x3c10\n\nFix this by fully purging the association outqueue when handling the\nStale Cookie case. This ensures all pending transmit and retransmit\nstate is dropped, and any scheduler cached pointers are invalidated,\nmaking it safe to rebuild stream state during COOKIE_WAIT restart.\n\nUpdating only stream-&gt;out_curr would be insufficient, since queued\nand retransmittable data would still reference the old stream state and\ntrigger later use-after-free in dequeue paths.
+</code>
+
+- [Eliot-code/CVE-2026-52924](https://github.com/Eliot-code/CVE-2026-52924)
 
 ### CVE-2026-52943 (2026-06-24)
 
@@ -14287,7 +14300,9 @@
 <code>RouterOS does not compare the complete RSA public key when matching an SSH authentication request to an authorized user key, checking the key type and modulus but omitting the exponent. Because signature verification uses the client-supplied key, an attacker knowing an authorized RSA modulus can supply a key with exponent one, forge a valid signature, and open an SSH command channel as the target user without the private key.This issue was fixed in versions: 6.49.21 (Long-term), 7.23.4 (Long-term) and 7.24.2 (Stable)
 </code>
 
+- [HORKimhab/CVE-2026-67276](https://github.com/HORKimhab/CVE-2026-67276)
 - [dinosn/mikrotrick-poc](https://github.com/dinosn/mikrotrick-poc)
+- [BlackHatExploitation/exploit-mikrotik-2026](https://github.com/BlackHatExploitation/exploit-mikrotik-2026)
 
 ### CVE-2026-67340 (2026-08-01)
 
@@ -15163,6 +15178,7 @@
 - [HORKimhab/CVE-2026-85046](https://github.com/HORKimhab/CVE-2026-85046)
 - [ubitquity/CVE-2026-85046-Patch-confusion-zero-day-vulnerability-in-Google-Chrome-s-V8-engine](https://github.com/ubitquity/CVE-2026-85046-Patch-confusion-zero-day-vulnerability-in-Google-Chrome-s-V8-engine)
 - [adriyansyah-mf/cve-2026-85046-poc](https://github.com/adriyansyah-mf/cve-2026-85046-poc)
+- [Eliot-code/CVE-2026-85046](https://github.com/Eliot-code/CVE-2026-85046)
 
 ### CVE-2026-85649 (2026-09-04)
 
@@ -24135,6 +24151,7 @@
 
 - [PRE5T0/CVE-2025-54136](https://github.com/PRE5T0/CVE-2025-54136)
 - [Sushank05/mcp-doorman](https://github.com/Sushank05/mcp-doorman)
+- [GeeksikhSecurity/ai-tool-poisoning-guard](https://github.com/GeeksikhSecurity/ai-tool-poisoning-guard)
 
 ### CVE-2025-54236 (2025-09-09)
 
@@ -42486,6 +42503,7 @@
 </code>
 
 - [pinarsadioglu/CVE-2023-23192](https://github.com/pinarsadioglu/CVE-2023-23192)
+- [Penkyzduyi/CVE-2023-23192](https://github.com/Penkyzduyi/CVE-2023-23192)
 
 ### CVE-2023-23279 (2023-02-17)
 
@@ -77124,7 +77142,6 @@
 - [Anonimo501/ssh_enum_users_CVE-2018-15473](https://github.com/Anonimo501/ssh_enum_users_CVE-2018-15473)
 - [mclbn/docker-cve-2018-15473](https://github.com/mclbn/docker-cve-2018-15473)
 - [GaboLC98/userenum-CVE-2018-15473](https://github.com/GaboLC98/userenum-CVE-2018-15473)
-- [4xolotl/CVE-2018-15473](https://github.com/4xolotl/CVE-2018-15473)
 - [NestyF/SSH_Enum_CVE-2018-15473](https://github.com/NestyF/SSH_Enum_CVE-2018-15473)
 - [yZee00/CVE-2018-15473](https://github.com/yZee00/CVE-2018-15473)
 - [SUDORM0X/PoC-CVE-2018-15473](https://github.com/SUDORM0X/PoC-CVE-2018-15473)
