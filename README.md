@@ -2318,6 +2318,13 @@
 
 - [Mr-xn/CVE-2026-8054](https://github.com/Mr-xn/CVE-2026-8054)
 
+### CVE-2026-8069 (2026-05-08)
+
+<code>PredatorSense version 3.00.3136 to 3.00.3196 contain Local Privilege Escalation (LPE) vulnerability.The program exposes a Windows Named Pipe that uses a custom protocol to invoke internal functions. However, this Named Pipe is misconfigured, allowing any authenticated local user to execute arbitrary code with NT AUTHORITY\SYSTEM privileges and to delete arbitrary files with SYSTEM privileges. By leveraging this, an attacker can execute arbitrary code on the target system with elevated privileges.
+</code>
+
+- [S1eezer/CVE-2026-8069](https://github.com/S1eezer/CVE-2026-8069)
+
 ### CVE-2026-8080 (2026-05-07)
 
 <code>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in misp allows Stored XSS.\n\n\n\n\n\n\nThis issue affects MISP before 2.5.37.\n\n\n\n\nA stored cross-site scripting vulnerability exists in the template element attribute handling logic. The application accepted arbitrary values for the TemplateElementAttribute type and category fields without validating them against the known MISP attribute type and category definitions. An attacker with permission to create or modify template element attributes could store a crafted type value.\n\n\nThis affects the old templating (not more accessible in 2.5.37) engine from MISP which will be removed in 2.5.38
@@ -2484,6 +2491,7 @@
 - [HORKimhab/CVE-2026-8732](https://github.com/HORKimhab/CVE-2026-8732)
 - [p3Nt3st3r-sTAr/CVE-2026-8732-POC](https://github.com/p3Nt3st3r-sTAr/CVE-2026-8732-POC)
 - [Diznev/CVE-2026-8732-EXPLOIT](https://github.com/Diznev/CVE-2026-8732-EXPLOIT)
+- [fientix/CVE-2026-8732-PoC](https://github.com/fientix/CVE-2026-8732-PoC)
 
 ### CVE-2026-8793 (2026-08-03)
 
@@ -4089,6 +4097,7 @@
 
 - [HORKimhab/CVE-2026-19949](https://github.com/HORKimhab/CVE-2026-19949)
 - [katranSefa/CVE-2026-19949](https://github.com/katranSefa/CVE-2026-19949)
+- [686f6c61/POC-AIOWPM-CVE-2026-19949](https://github.com/686f6c61/POC-AIOWPM-CVE-2026-19949)
 
 ### CVE-2026-20045 (2026-01-21)
 
@@ -6808,7 +6817,6 @@
 </code>
 
 - [0xBlackash/CVE-2026-27876](https://github.com/0xBlackash/CVE-2026-27876)
-- [atiilla/CVE-2026-27876](https://github.com/atiilla/CVE-2026-27876)
 
 ### CVE-2026-27884 (2026-02-26)
 
@@ -9910,6 +9918,7 @@
 - [piffd0s/ntoskrnl-metadata](https://github.com/piffd0s/ntoskrnl-metadata)
 - [0xBlackash/CVE-2026-40369](https://github.com/0xBlackash/CVE-2026-40369)
 - [CCELEND/CVE-2026-40369](https://github.com/CCELEND/CVE-2026-40369)
+- [dbgbgtf1/cve-2026-40369-exploit](https://github.com/dbgbgtf1/cve-2026-40369-exploit)
 
 ### CVE-2026-40453 (2026-04-27)
 
@@ -10822,7 +10831,7 @@
 - [CamsShaft/IonStack-S22-cve-2026-43499](https://github.com/CamsShaft/IonStack-S22-cve-2026-43499)
 - [knowlily/cve-2026-43499-honor](https://github.com/knowlily/cve-2026-43499-honor)
 - [NanoTurtle1145/root-my-s24](https://github.com/NanoTurtle1145/root-my-s24)
-- [R0rt1z2/GhostLock-5.10](https://github.com/R0rt1z2/GhostLock-5.10)
+- [R0rt1z2/GhostLock](https://github.com/R0rt1z2/GhostLock)
 - [mobilehackinglab/ghostlock-a17](https://github.com/mobilehackinglab/ghostlock-a17)
 - [gitchw/ghostlock-cve-2026-43499](https://github.com/gitchw/ghostlock-cve-2026-43499)
 - [zychen027/CVE-2026-43499_HW-CLT-AL01](https://github.com/zychen027/CVE-2026-43499_HW-CLT-AL01)
@@ -13324,6 +13333,13 @@
 
 - [CerberusMrXi/CVE-2026-57588-Nessus-XML-Import-SQL-Injection-PoC](https://github.com/CerberusMrXi/CVE-2026-57588-Nessus-XML-Import-SQL-Injection-PoC)
 
+### CVE-2026-57811 (2026-07-13)
+
+<code>Improper Control of Generation of Code ('Code Injection') vulnerability in Realtyna Realtyna Organic IDX plugin real-estate-listing-realtyna-wpl allows Remote Code Inclusion.This issue affects Realtyna Organic IDX plugin: from n/a through &lt;= 5.2.0.
+</code>
+
+- [0xCyp1337/CVE-2026-57811](https://github.com/0xCyp1337/CVE-2026-57811)
+
 ### CVE-2026-57821 (2026-07-15)
 
 <code>A SQL Injection vulnerability exists in Apache Fineract's Office Search API (GET /api/v1/offices) in versions up to and including 1.14.0. The orderBy request parameter is concatenated into a SQL query without sufficient validation, allowing an authenticated user with permission to view offices to inject arbitrary SQL via a crafted orderBy value. This is a bypass of the ColumnValidator fix introduced for CVE-2024-32838, which does not detect bare subqueries in the ORDER BY position. This can be leveraged to perform time-based blind SQL injection for data exfiltration. Because the injected query blocks the database connection for its full duration, concurrent exploitation can exhaust the application's database connection pool, resulting in denial of service for other users. Users are recommended to upgrade to a version containing the fix.
@@ -14709,6 +14725,13 @@
 ### CVE-2026-72585
 - [Nel-droid/CVE-2026-72585-PoC](https://github.com/Nel-droid/CVE-2026-72585-PoC)
 
+### CVE-2026-72744 (2026-08-11)
+
+<code>Nuxt versions &gt;= 4.4.7 and &lt; 4.5.1, and &gt;= 3.21.7 and &lt; 3.21.10, contain an information disclosure vulnerability in the development server's Chrome DevTools workspace endpoint (GET /.well-known/appspecific/com.chrome.devtools.json). The endpoint's local-request gate (isLocalDevRequest) is header-based and trusts the attacker-supplied Host header rather than the connected peer address. When the dev server is bound to a network-reachable interface (e.g. nuxt dev --host) and experimental.chromeDevtoolsProjectSettings is enabled (the default), an unauthenticated attacker on the LAN can send a request with a spoofed Host header and no browser-specific headers (Sec-Fetch-Site, Origin, Referer) to retrieve the project's absolute filesystem root path (rootDir) and a persistent per-project workspace UUID. Production builds are unaffected. Fixed in 4.5.1 and 3.21.10.
+</code>
+
+- [Saku0512/CVE-2026-72744-poc](https://github.com/Saku0512/CVE-2026-72744-poc)
+
 ### CVE-2026-72844 (2026-08-20)
 
 <code>The Lean 4 kernel does not verify that the structure named in a projection expression matches the type of the value being projected, and environment::add_inductive in src/kernel/inductive.cpp did not type check the nested inductive applications that are replaced by auxiliary types, so their parametric arguments escaped checking. A metaprogram running in the Lean process can register an ill-typed nested inductive whose constructor applies a .proj C 0 projection to a value of the unrelated type W, and the kernel admits the declaration through the ordinary checked addDecl path at maximum kernel checking, without sorry, unsafeCast, debug.skipKernelTC, addDeclWithoutChecking, FFI, or a modified .olean file. The result is a type confusion yielding a proof of False that carries no axioms, from which any proposition can be derived. The published proof of concept additionally pads two expressions until their hashes and approximate depths collide, which defeats kernel caching; that is the technique used to reach the flaw, not its cause. Exploitation requires running a metaprogram in-process, for example by building a project or importing a malicious Lake dependency.
@@ -14903,6 +14926,8 @@
 </code>
 
 - [dinosn/cve-2026-75650-magento-validation-lab](https://github.com/dinosn/cve-2026-75650-magento-validation-lab)
+- [disrex-group/stylesmuggler-adobe-patches](https://github.com/disrex-group/stylesmuggler-adobe-patches)
+- [disrex-group/stylesmuggler-adobe-patches-mageos](https://github.com/disrex-group/stylesmuggler-adobe-patches-mageos)
 
 ### CVE-2026-75855 (2026-08-18)
 
@@ -21811,7 +21836,6 @@
 - [ap425q/whisper-pair](https://github.com/ap425q/whisper-pair)
 - [aalex954/whisperpair-poc-tool](https://github.com/aalex954/whisperpair-poc-tool)
 - [PentHertz/CVE-2025-36911-exploit](https://github.com/PentHertz/CVE-2025-36911-exploit)
-- [Athexblackhat/BLUE-SPY](https://github.com/Athexblackhat/BLUE-SPY)
 - [KULeuven-COSIC/WhisperPair](https://github.com/KULeuven-COSIC/WhisperPair)
 - [Ymsniper/Whisper_Bully](https://github.com/Ymsniper/Whisper_Bully)
 
@@ -28565,7 +28589,6 @@
 - [canyie/CVE-2024-0044](https://github.com/canyie/CVE-2024-0044)
 - [k4ran909/cve_2024_0044](https://github.com/k4ran909/cve_2024_0044)
 - [TheBl4ckPh4nt0m/CVE-2024-0044](https://github.com/TheBl4ckPh4nt0m/CVE-2024-0044)
-- [Athexblackhat/EXPLOITER](https://github.com/Athexblackhat/EXPLOITER)
 - [HoyoenKim/CVE-2024-0044_PoC](https://github.com/HoyoenKim/CVE-2024-0044_PoC)
 - [JackTekno/Chrome-Forensic_CVE-2024-0044](https://github.com/JackTekno/Chrome-Forensic_CVE-2024-0044)
 - [bfurkanyildiz/Android-rce-analizi](https://github.com/bfurkanyildiz/Android-rce-analizi)
@@ -34868,7 +34891,6 @@
 - [AD-Appledog/CVE-2024-32002](https://github.com/AD-Appledog/CVE-2024-32002)
 - [AD-Appledog/wakuwaku](https://github.com/AD-Appledog/wakuwaku)
 - [tobelight/cve_2024_32002](https://github.com/tobelight/cve_2024_32002)
-- [BasyacatX/CVE-2024-32002-PoC_Chinese](https://github.com/BasyacatX/CVE-2024-32002-PoC_Chinese)
 - [sysonlai/CVE-2024-32002-hook](https://github.com/sysonlai/CVE-2024-32002-hook)
 - [TSY244/CVE-2024-32002-git-rce-father-poc](https://github.com/TSY244/CVE-2024-32002-git-rce-father-poc)
 - [TSY244/CVE-2024-32002-git-rce](https://github.com/TSY244/CVE-2024-32002-git-rce)
@@ -50495,6 +50517,13 @@
 </code>
 
 - [shoucheng3/keycloak__keycloak_CVE-2022-4137_20-0-3](https://github.com/shoucheng3/keycloak__keycloak_CVE-2022-4137_20-0-3)
+
+### CVE-2022-4140 (2023-01-02)
+
+<code>The Welcart e-Commerce WordPress plugin before 2.8.5 does not validate user input before using it to output the content of a file, which could allow unauthenticated attacker to read arbitrary files on the server
+</code>
+
+- [anirbala98/CVE-2022-4140](https://github.com/anirbala98/CVE-2022-4140)
 
 ### CVE-2022-4174 (2022-11-29)
 
@@ -85338,6 +85367,7 @@
 - [Gvln-S/CVE-2011-2523](https://github.com/Gvln-S/CVE-2011-2523)
 - [aboubacar70/LAB1-metasploitable](https://github.com/aboubacar70/LAB1-metasploitable)
 - [JUN41DS2709/vsFTPd-2.3.4-Exploit](https://github.com/JUN41DS2709/vsFTPd-2.3.4-Exploit)
+- [samirchapagain/metasploit-lab-report](https://github.com/samirchapagain/metasploit-lab-report)
 
 ### CVE-2011-2553
 - [carlosrpastrana/cve-2011-2553](https://github.com/carlosrpastrana/cve-2011-2553)
