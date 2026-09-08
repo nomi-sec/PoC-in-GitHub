@@ -9794,6 +9794,7 @@
 - [K3ysTr0K3R/CVE-2026-39987](https://github.com/K3ysTr0K3R/CVE-2026-39987)
 - [dodeepsink/CVE-2026-39987.py](https://github.com/dodeepsink/CVE-2026-39987.py)
 - [Ghxstsec/CVE-2026-39987](https://github.com/Ghxstsec/CVE-2026-39987)
+- [stapat1245/CVE-2026-39987-PoC](https://github.com/stapat1245/CVE-2026-39987-PoC)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -15985,7 +15986,6 @@
 </code>
 
 - [TeneBrae93/CVE-2025-3243](https://github.com/TeneBrae93/CVE-2025-3243)
-- [erberthdev/CVE-2025-3243](https://github.com/erberthdev/CVE-2025-3243)
 
 ### CVE-2025-3248 (2025-04-07)
 
@@ -22949,7 +22949,6 @@
 - [vignesh21-git/CVE-2025-48384](https://github.com/vignesh21-git/CVE-2025-48384)
 - [vignesh21-git/CVE-2025-48384-submodule](https://github.com/vignesh21-git/CVE-2025-48384-submodule)
 - [sathish46-lab/CVE-2025-48384-submodule](https://github.com/sathish46-lab/CVE-2025-48384-submodule)
-- [iustin24/gitssrf-gim-cve-parent](https://github.com/iustin24/gitssrf-gim-cve-parent)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -47231,7 +47230,7 @@
 - [MKIRAHMET/PoC-2023-43208](https://github.com/MKIRAHMET/PoC-2023-43208)
 - [D3m0nicw0lf/CVE-2023-43208](https://github.com/D3m0nicw0lf/CVE-2023-43208)
 - [predyy/CVE-2023-43208](https://github.com/predyy/CVE-2023-43208)
-- [az4rvs/Mirth-Connect-CVE-2023-43208](https://github.com/az4rvs/Mirth-Connect-CVE-2023-43208)
+- [azrvs/Mirth-Connect-CVE-2023-43208](https://github.com/azrvs/Mirth-Connect-CVE-2023-43208)
 - [4nuxd/CVE-2023-43208](https://github.com/4nuxd/CVE-2023-43208)
 - [LunaLynx12/cve-2023-43208-poc](https://github.com/LunaLynx12/cve-2023-43208-poc)
 - [Criz117/CVE-2023-43208-PoC](https://github.com/Criz117/CVE-2023-43208-PoC)
@@ -59887,6 +59886,13 @@
 
 - [adamrpostjr/cve-2021-27065](https://github.com/adamrpostjr/cve-2021-27065)
 
+### CVE-2021-27101 (2021-02-16)
+
+<code>Accellion FTA 9_12_370 and earlier is affected by SQL injection via a crafted Host header in a request to document_root.html. The fixed version is FTA_9_12_380 and later.
+</code>
+
+- [luel-4013/misfortune-cookie](https://github.com/luel-4013/misfortune-cookie)
+
 ### CVE-2021-27180 (2021-04-14)
 
 <code>An issue was discovered in MDaemon before 20.0.4. There is Reflected XSS in Webmail (aka WorldClient). It can be exploited via a GET request. It allows performing any action with the privileges of the attacked user.
@@ -63794,6 +63800,7 @@
 - [Vaibhav91one/log4shell-cve-lab](https://github.com/Vaibhav91one/log4shell-cve-lab)
 - [14free/log4j2-vuln-lab](https://github.com/14free/log4j2-vuln-lab)
 - [Wafeeq-Fareed/log4shell-exploitation-lab](https://github.com/Wafeeq-Fareed/log4shell-exploitation-lab)
+- [KalidouLabghaly/log4shell-exploitation-detection](https://github.com/KalidouLabghaly/log4shell-exploitation-detection)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -77119,6 +77126,7 @@
 - [tausifzaman/CVE-2018-14847](https://github.com/tausifzaman/CVE-2018-14847)
 - [TheMalwareGuardian/CVE-2018-14847](https://github.com/TheMalwareGuardian/CVE-2018-14847)
 - [mourafuseti/VULNERAVEL-CVE-2018-14847---CREDENCIAIS-EXTRAIDAS](https://github.com/mourafuseti/VULNERAVEL-CVE-2018-14847---CREDENCIAIS-EXTRAIDAS)
+- [luel-4013/misfortune-cookie](https://github.com/luel-4013/misfortune-cookie)
 
 ### CVE-2018-14879 (2019-10-03)
 
@@ -80604,6 +80612,7 @@
 - [1337g/CVE-2017-17215](https://github.com/1337g/CVE-2017-17215)
 - [wilfred-wulbou/HG532d-RCE-Exploit](https://github.com/wilfred-wulbou/HG532d-RCE-Exploit)
 - [ltfafei/HuaWei_Route_HG532_RCE_CVE-2017-17215](https://github.com/ltfafei/HuaWei_Route_HG532_RCE_CVE-2017-17215)
+- [luel-4013/misfortune-cookie](https://github.com/luel-4013/misfortune-cookie)
 
 ### CVE-2017-17485 (2018-01-10)
 
@@ -82753,6 +82762,7 @@
 - [netw0rk7/CVE-2015-3306-Home-Lab](https://github.com/netw0rk7/CVE-2015-3306-Home-Lab)
 - [canpilayda/proftpd-mod_copy-cve-2015-3306](https://github.com/canpilayda/proftpd-mod_copy-cve-2015-3306)
 - [bcononugbor-source/OpenVAS-Vulnerability-Analysis-Incident-Response-Report](https://github.com/bcononugbor-source/OpenVAS-Vulnerability-Analysis-Incident-Response-Report)
+- [diegslva/cve-2015-3306-lab](https://github.com/diegslva/cve-2015-3306-lab)
 
 ### CVE-2015-3337 (2015-05-01)
 
@@ -84275,6 +84285,7 @@
 
 - [donfanning/MIPS-CVE-2014-9222](https://github.com/donfanning/MIPS-CVE-2014-9222)
 - [mercul1ninna/MIPS-CVE-2014-9222](https://github.com/mercul1ninna/MIPS-CVE-2014-9222)
+- [luel-4013/misfortune-cookie](https://github.com/luel-4013/misfortune-cookie)
 
 ### CVE-2014-9295 (2014-12-20)
 
