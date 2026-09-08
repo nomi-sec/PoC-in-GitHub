@@ -901,6 +901,13 @@
 
 - [aykhan32/CVE-2026-2898-FunAdmin-Deserialization](https://github.com/aykhan32/CVE-2026-2898-FunAdmin-Deserialization)
 
+### CVE-2026-2931 (2026-03-26)
+
+<code>The Amelia Booking plugin for WordPress is vulnerable to Insecure Direct Object References in versions up to, and including, 9.1.2. This is due to the plugin providing user-controlled access to objects, letting a user bypass authorization and access system resources. This makes it possible for authenticated attackers with customer-level permissions or above to change user passwords and potentially take over administrator accounts. The vulnerability is in the pro plugin, which has the same slug.
+</code>
+
+- [htrxuan/hdwebmobile-booking-appointments](https://github.com/htrxuan/hdwebmobile-booking-appointments)
+
 ### CVE-2026-2942 (2026-04-08)
 
 <code>The ProSolution WP Client plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'proSol_fileUploadProcess' function in all versions up to, and including, 1.9.9. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -2911,6 +2918,7 @@
 
 - [izxci/CVE-2026-10795](https://github.com/izxci/CVE-2026-10795)
 - [rootdirective-sec/CVE-2026-10795-Lab](https://github.com/rootdirective-sec/CVE-2026-10795-Lab)
+- [HORKimhab/CVE-2026-10795](https://github.com/HORKimhab/CVE-2026-10795)
 
 ### CVE-2026-10818 (2026-07-25)
 
@@ -11057,7 +11065,6 @@
 </code>
 
 - [iamfarzad/fbcounsulting_v2](https://github.com/iamfarzad/fbcounsulting_v2)
-- [iamfarzad/fbconsulting_v0_chat](https://github.com/iamfarzad/fbconsulting_v0_chat)
 
 ### CVE-2026-44590 (2026-05-27)
 
@@ -12576,6 +12583,9 @@
 
 ### CVE-2026-52217
 - [teteco/CVE-2026-52217-VTEX-Checkout-CrossTenant-IDOR](https://github.com/teteco/CVE-2026-52217-VTEX-Checkout-CrossTenant-IDOR)
+
+### CVE-2026-52307
+- [linan-OO/CVE-2026-52307](https://github.com/linan-OO/CVE-2026-52307)
 
 ### CVE-2026-52504
 - [fadingminibus69/advisory001](https://github.com/fadingminibus69/advisory001)
@@ -14887,6 +14897,13 @@
 
 - [totekuh/CVE-2026-75616](https://github.com/totekuh/CVE-2026-75616)
 
+### CVE-2026-75650 (2026-09-07)
+
+<code>Adobe Commerce is affected by an Improper Neutralization of Special Elements Used in a Template Engine vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.
+</code>
+
+- [dinosn/cve-2026-75650-magento-validation-lab](https://github.com/dinosn/cve-2026-75650-magento-validation-lab)
+
 ### CVE-2026-75855 (2026-08-18)
 
 <code>ArcadeDB versions before 26.8.1 fail to sanitize database names in the POST /api/v1/server endpoint's create database and drop database commands, allowing authenticated root users to write and delete arbitrary files outside the configured database directory. Attackers can supply database names containing ../ sequences to create databases at arbitrary filesystem paths or recursively delete directories the server process can access.
@@ -15212,6 +15229,7 @@
 
 - [xoessie/CVE-2026-83548-SonicWall-SMA1000-Analysis](https://github.com/xoessie/CVE-2026-83548-SonicWall-SMA1000-Analysis)
 - [xcoy0te/CVE-2026-83548-checker](https://github.com/xcoy0te/CVE-2026-83548-checker)
+- [HORKimhab/CVE-2026-83548-CVE-2026-83549](https://github.com/HORKimhab/CVE-2026-83548-CVE-2026-83549)
 
 ### CVE-2026-84361 (2026-09-01)
 
@@ -22873,6 +22891,13 @@
 </code>
 
 - [q1uf3ng/CVE-2025-47962-POC](https://github.com/q1uf3ng/CVE-2025-47962-POC)
+
+### CVE-2025-47981 (2025-07-08)
+
+<code>Heap-based buffer overflow in Windows SPNEGO Extended Negotiation allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [HKenzoKimura/CVE-2025-47981](https://github.com/HKenzoKimura/CVE-2025-47981)
 
 ### CVE-2025-47987 (2025-07-08)
 
@@ -34772,7 +34797,7 @@
 - [d-Raco/CVE-2024-31964](https://github.com/d-Raco/CVE-2024-31964)
 
 ### CVE-2024-31969
-- [kingfakee7/CVE-2024-31969](https://github.com/kingfakee7/CVE-2024-31969)
+- [gmh5225/CVE-2024-31969](https://github.com/gmh5225/CVE-2024-31969)
 
 ### CVE-2024-31974 (2024-05-17)
 
@@ -65946,7 +65971,6 @@
 - [Goyotan/CVE-2020-6418-PoC](https://github.com/Goyotan/CVE-2020-6418-PoC)
 - [ulexec/ChromeSHELFLoader](https://github.com/ulexec/ChromeSHELFLoader)
 - [SivaPriyaRanganatha/CVE-2020-6418](https://github.com/SivaPriyaRanganatha/CVE-2020-6418)
-- [a-mansilla/CVE-2020-6418](https://github.com/a-mansilla/CVE-2020-6418)
 
 ### CVE-2020-6468 (2020-05-21)
 
