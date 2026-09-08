@@ -1,9 +1,6 @@
 # PoC in GitHub
 
 ## 2026
-### CVE-2026-0001
-- [sohanbhowmik/cyberthreat_DBSproject](https://github.com/sohanbhowmik/cyberthreat_DBSproject)
-
 ### CVE-2026-0006 (2026-03-02)
 
 <code>In multiple locations, there is a possible out of bounds read and write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.
@@ -6817,6 +6814,7 @@
 </code>
 
 - [0xBlackash/CVE-2026-27876](https://github.com/0xBlackash/CVE-2026-27876)
+- [atiilla/CVE-2026-27876](https://github.com/atiilla/CVE-2026-27876)
 
 ### CVE-2026-27884 (2026-02-26)
 
@@ -7215,6 +7213,13 @@
 
 - [skoveit/CVE-2026-29781](https://github.com/skoveit/CVE-2026-29781)
 
+### CVE-2026-29782 (2026-04-02)
+
+<code>OpenSTAManager is an open source management software for technical assistance and invoicing. Prior to version 2.10.2, the oauth2.php file in OpenSTAManager is an unauthenticated endpoint ($skip_permissions = true). It loads a record from the zz_oauth2 table using the attacker-controlled GET parameter state, and during the OAuth2 configuration flow calls unserialize() on the access_token field without any class restriction. This issue has been patched in version 2.10.2.
+</code>
+
+- [hackerking24/CVE-2026-29782-OpenSTAManager-RCE](https://github.com/hackerking24/CVE-2026-29782-OpenSTAManager-RCE)
+
 ### CVE-2026-29786 (2026-03-07)
 
 <code>node-tar is a full-featured Tar for Node.js. Prior to version 7.5.10, tar can be tricked into creating a hardlink that points outside the extraction directory by using a drive-relative link target such as C:../target.txt, which enables file overwrite outside cwd during normal tar.x() extraction. This issue has been patched in version 7.5.10.
@@ -7318,7 +7323,7 @@
 
 ### CVE-2026-30368 (2026-04-24)
 
-<code>A client-side authorization flaw in Lightspeed Classroom v5.1.2.1763770643 allows unauthenticated attackers to impersonate users by bypassing integrity checks and abusing client-generated authorization tokens, leading to unauthorized control and monitoring of student devices.
+<code>A client-side authorization flaw in Lightspeed Systems Classroom v5.1.2.1763770643 allows unauthenticated attackers to impersonate users by bypassing integrity checks and abusing client-generated authorization tokens, leading to unauthorized control and monitoring of student devices.
 </code>
 
 - [truekas/ls-poc](https://github.com/truekas/ls-poc)
@@ -9811,6 +9816,7 @@
 - [dodeepsink/CVE-2026-39987.py](https://github.com/dodeepsink/CVE-2026-39987.py)
 - [Ghxstsec/CVE-2026-39987](https://github.com/Ghxstsec/CVE-2026-39987)
 - [stapat1245/CVE-2026-39987-PoC](https://github.com/stapat1245/CVE-2026-39987-PoC)
+- [Th3Purge/CVE-2026-39987](https://github.com/Th3Purge/CVE-2026-39987)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -11181,6 +11187,7 @@
 </code>
 
 - [grassplatypus/cve-2026-45033-class](https://github.com/grassplatypus/cve-2026-45033-class)
+- [soemoescode/guardskill](https://github.com/soemoescode/guardskill)
 
 ### CVE-2026-45034 (2026-06-22)
 
@@ -12593,7 +12600,11 @@
 ### CVE-2026-52217
 - [teteco/CVE-2026-52217-VTEX-Checkout-CrossTenant-IDOR](https://github.com/teteco/CVE-2026-52217-VTEX-Checkout-CrossTenant-IDOR)
 
-### CVE-2026-52307
+### CVE-2026-52307 (2026-09-08)
+
+<code>An authenticated stored cross-site scripting (XSS) vulnerability in the Column Management component of ClassCMS 1CMS v5.6 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the title field.
+</code>
+
 - [linan-OO/CVE-2026-52307](https://github.com/linan-OO/CVE-2026-52307)
 
 ### CVE-2026-52504
@@ -13553,6 +13564,13 @@
 </code>
 
 - [gyubin02/cve-2026-59891-control-lab](https://github.com/gyubin02/cve-2026-59891-control-lab)
+
+### CVE-2026-59903 (2026-08-17)
+
+<code>Netty is an asynchronous, event-driven network application framework. Prior to 4.1.137.Final and 4.2.17.Final, io.netty.handler.codec.http.cors.CorsHandler setVaryHeader replaces application Vary headers such as Authorization or Cookie with Origin, allowing a caching proxy or CDN to reuse authenticated responses across users and disclose sensitive information. This issue is fixed in versions 4.1.137.Final and 4.2.17.Final.
+</code>
+
+- [xiaoqiMikko/netty-http-check](https://github.com/xiaoqiMikko/netty-http-check)
 
 ### CVE-2026-59941 (2026-07-28)
 
@@ -14567,6 +14585,13 @@
 
 - [1neptune/ShieldBreak](https://github.com/1neptune/ShieldBreak)
 
+### CVE-2026-69451 (2026-09-08)
+
+<code>Use after free in Windows Management Instrumentation allows an authorized attacker to elevate privileges over a network.
+</code>
+
+- [fj016/CVE-2026-69451-PoC](https://github.com/fj016/CVE-2026-69451-PoC)
+
 ### CVE-2026-69836 (2026-08-20)
 
 <code>Deserialization of untrusted data in Microsoft Entra ID allows an unauthorized attacker to execute code over a network.
@@ -14781,6 +14806,97 @@
 
 - [0xBlackash/CVE-2026-73296](https://github.com/0xBlackash/CVE-2026-73296)
 
+### CVE-2026-73309 (2026-09-08)
+
+<code>XenForo before 2.3.13 contains an authentication bypass vulnerability in the OAuth2 token endpoint that allows unauthenticated attackers to obtain valid token pairs by submitting empty values for client_secret and code_verifier parameters. Attackers can exploit PHP truthy evaluation logic, which treats empty strings as false and skips client secret validation and PKCE code verifier validation, to exchange a valid authorization code for a token pair without proving client identity or holding the PKCE commitment.
+</code>
+
+- [BomboBombone/CVE-2026-73309](https://github.com/BomboBombone/CVE-2026-73309)
+
+### CVE-2026-73310 (2026-09-08)
+
+<code>XenForo before 2.3.13 contains an authorization flaw in the OAuth2 token endpoint that allows attackers controlling any allowlisted redirect URI to bypass redirect URI binding by submitting a different allowlisted URI than the one recorded at authorization time. Attackers can exchange an intercepted authorization code using a mismatched redirect URI to steal OAuth2 tokens from intercepted authorization flows.
+</code>
+
+- [BomboBombone/CVE-2026-73310](https://github.com/BomboBombone/CVE-2026-73310)
+
+### CVE-2026-73311 (2026-09-08)
+
+<code>XenForo before 2.3.13 contains an OAuth2 authorization code reuse vulnerability that allows attackers to obtain unauthorized token pairs by submitting a previously used authorization code. Attackers can exploit the failure to invalidate or mark authorization codes as consumed after initial token issuance to receive an independent token pair for the same user and scopes, bypassing the single-use guarantee of the OAuth2 authorization code flow.
+</code>
+
+- [BomboBombone/CVE-2026-73311](https://github.com/BomboBombone/CVE-2026-73311)
+
+### CVE-2026-73312 (2026-09-08)
+
+<code>XenForo before 2.3.13 contains a refresh token replay vulnerability that allows attackers to reuse a refresh token multiple times by exploiting the failure to mark tokens as consumed when the parent access token has expired. Attackers can repeatedly submit the same refresh token to generate additional independent token pairs, achieving persistent unauthorized access for the token's full lifetime.
+</code>
+
+- [BomboBombone/CVE-2026-73312](https://github.com/BomboBombone/CVE-2026-73312)
+
+### CVE-2026-73313 (2026-09-08)
+
+<code>XenForo before 2.3.13 contains a multi-factor authentication bypass vulnerability in the passkey TFA provider that allows an authenticated attacker to complete login as another user by submitting their own registered passkey credential during the WebAuthn assertion step. The passkey verification path performs a global credential lookup without validating that the matched credential belongs to the user whose login is pending, enabling an attacker who knows a target account's password to sign the challenge with their own passkey and bypass multi-factor authentication on both public forum and ACP login paths.
+</code>
+
+- [BomboBombone/CVE-2026-73313](https://github.com/BomboBombone/CVE-2026-73313)
+
+### CVE-2026-73314 (2026-09-08)
+
+<code>XenForo before 2.3.13 contains a signature verification logic error in the PayPal REST webhook handler that allows unauthenticated attackers to bypass payment signature validation by submitting a webhook request with an unsupported auth_algo header value. When the algorithm cannot be mapped to a supported hash function, the verification function incorrectly returns true instead of failing, causing the caller to treat the fabricated request as verified and process the payment event without a valid PayPal signature.
+</code>
+
+- [BomboBombone/CVE-2026-73314](https://github.com/BomboBombone/CVE-2026-73314)
+
+### CVE-2026-73315 (2026-09-08)
+
+<code>XenForo before 2.3.13 contains a server-side request forgery vulnerability in the PayPal REST webhook handler that allows unauthenticated attackers to cause the server to make outbound HTTP requests to arbitrary destinations by supplying a crafted certificate URL in webhook headers without scheme, hostname, or allowlist validation. Attackers can submit a crafted POST to the PayPal webhook callback endpoint to reach internal network resources including cloud instance metadata services, potentially disclosing IAM credentials or enabling secondary internal service exploitation.
+</code>
+
+- [BomboBombone/CVE-2026-73315](https://github.com/BomboBombone/CVE-2026-73315)
+
+### CVE-2026-73316 (2026-09-08)
+
+<code>XenForo before 2.3.13 contains a payment replay vulnerability in the PayPal REST payment provider that allows attackers to process the same webhook payload multiple times by exploiting a missing duplicate transaction ID check. Attackers can replay a valid webhook payload to trigger duplicate payment events, resulting in repeated subscription activations and unauthorized account upgrades.
+</code>
+
+- [BomboBombone/CVE-2026-73316](https://github.com/BomboBombone/CVE-2026-73316)
+
+### CVE-2026-73317 (2026-09-08)
+
+<code>XenForo before 2.3.13 contains a missing authorization vulnerability in the ACP cache-rebuild dispatcher that allows limited administrators with only the rebuildCache permission to perform unauthorized approval queue actions by supplying an arbitrary job class and actor user ID in the POST body. Attackers can invoke the approval queue job under any user identity to approve queued user registrations without holding the required approval-queue or moderator permissions, causing the moderation log to attribute actions to an impersonated account.
+</code>
+
+- [BomboBombone/CVE-2026-73317](https://github.com/BomboBombone/CVE-2026-73317)
+
+### CVE-2026-73318 (2026-09-08)
+
+<code>XenForo before 2.3.13 contains a missing authorization vulnerability in the force-agreement controller that allows any ACP administrator to access and submit force-agreement forms regardless of their assigned permissions. Attackers can bypass the option permission declared in the navigation configuration to update the global policy last-updated timestamp, forcing all users to re-agree to the privacy policy or terms of service.
+</code>
+
+- [BomboBombone/CVE-2026-73318](https://github.com/BomboBombone/CVE-2026-73318)
+
+### CVE-2026-73319 (2026-09-08)
+
+<code>XenForo before 2.3.13 contains a cross-site scripting vulnerability in the dynamic redirect handler that allows unauthenticated attackers to execute arbitrary JavaScript in the board origin by crafting a malicious javascript: URI that bypasses host validation. Attackers can embed the board hostname in the URI authority component and use percent-encoded newlines to evade server-side filters, causing authenticated users who perform a Follow action to execute attacker-supplied JavaScript in their browser.
+</code>
+
+- [BomboBombone/CVE-2026-73319](https://github.com/BomboBombone/CVE-2026-73319)
+
+### CVE-2026-73320 (2026-09-08)
+
+<code>XenForo before 2.3.13 contains an unauthenticated information disclosure vulnerability that allows unauthenticated attackers to retrieve private unfurl records by supplying predictable auto-increment primary key IDs to the unfurl endpoint. Attackers can enumerate or predict result IDs and query the endpoint without any session, user, or visibility checks to obtain rendered preview HTML, original URLs, and query strings from private conversations and other restricted content.
+</code>
+
+- [BomboBombone/CVE-2026-73320](https://github.com/BomboBombone/CVE-2026-73320)
+
+### CVE-2026-73321 (2026-09-08)
+
+<code>XenForo before 2.3.13 contains an uncontrolled recursion vulnerability in the BBCode parser that allows authenticated attackers to cause persistent denial of service by submitting a post with deeply nested BBCode tags. Attackers can craft a single malicious post with sufficient nesting depth to exceed PHP's stack limit, causing fatal errors that repeatedly terminate PHP-FPM workers for all visitors rendering the affected thread.
+</code>
+
+- [BomboBombone/CVE-2026-73321](https://github.com/BomboBombone/CVE-2026-73321)
+
 ### CVE-2026-73519 (2026-08-12)
 
 <code>WolfStack before 25.9.2 contains a hard-coded cluster-authentication secret compiled into every build and published as a constant in src/auth/mod.rs, allowing remote unauthenticated attackers to bypass authentication by supplying this value in the X-WolfStack-Secret header to the require_auth() gate without any session, API key, or user account. Attackers can reach an affected node's management port to enumerate all Docker and LXC containers on the host and execute arbitrary commands as root inside any container via the POST /api/containers/{runtime}/{id}/exec endpoint.
@@ -14832,6 +14948,13 @@
 </code>
 
 - [squeeze440/CVE-2026-73847-emlog-PoC](https://github.com/squeeze440/CVE-2026-73847-emlog-PoC)
+
+### CVE-2026-74239 (2026-09-08)
+
+<code>XenForo before 2.3.13 contains a path traversal vulnerability in the style archive importer on Windows deployments that allows authenticated non-super administrators with style permissions to write arbitrary files outside the intended extraction directory by using backslash-based traversal sequences in ZIP member names. Attackers can craft a malicious ZIP archive with backslash path separators that bypass forward-slash validation to write arbitrary bytes to any web-server-writable path, including the public web root, achieving persistent code execution as the web-server account.
+</code>
+
+- [BomboBombone/CVE-2026-74239](https://github.com/BomboBombone/CVE-2026-74239)
 
 ### CVE-2026-74251 (2026-08-16)
 
@@ -15032,6 +15155,9 @@
 ### CVE-2026-77262
 - [romain-deperne/CVE-2026-77262](https://github.com/romain-deperne/CVE-2026-77262)
 
+### CVE-2026-77276
+- [Morzan6/CVE-2026-77276-PoC](https://github.com/Morzan6/CVE-2026-77276-PoC)
+
 ### CVE-2026-77542 (2026-08-26)
 
 <code>A malicious actor with access to the network and high privileges could exploit an Improper Input Validation vulnerability found in UID Enterprise Agent to execute a Command Injection on the host device.
@@ -15091,10 +15217,18 @@
 
 - [n0c71v3x/CVE-2026-78745](https://github.com/n0c71v3x/CVE-2026-78745)
 
-### CVE-2026-78837
+### CVE-2026-78837 (2026-09-08)
+
+<code>A SQL injection vulnerability in the ap_form_{id} parameter in AppNitro MachForm v30 allows attackers to access sensitive database information via a crafted SQL statement.
+</code>
+
 - [nabeelmkhan/CVE-2026-78837](https://github.com/nabeelmkhan/CVE-2026-78837)
 
-### CVE-2026-78838
+### CVE-2026-78838 (2026-09-08)
+
+<code>A reflected cross-site scripting (XSS) vulnerability in the grid_datasource.php component of AppNitro MachForm v30 allows attackers to execute arbitrary Javascript in the context of the victim's browser via injecting a crafted payload into the filter[filters][0][field] parameter.
+</code>
+
 - [nabeelmkhan/CVE-2026-78838](https://github.com/nabeelmkhan/CVE-2026-78838)
 
 ### CVE-2026-78839 (2026-09-04)
@@ -15205,6 +15339,7 @@
 - [dinosn/givewp-cve-2026-82222-rce-lab](https://github.com/dinosn/givewp-cve-2026-82222-rce-lab)
 - [R0x19/CVE-2026-82222](https://github.com/R0x19/CVE-2026-82222)
 - [0xCyp1337/CVE-2026-82222-MassExploit](https://github.com/0xCyp1337/CVE-2026-82222-MassExploit)
+- [GhostlyrootB2H/CVE-2026-82222](https://github.com/GhostlyrootB2H/CVE-2026-82222)
 
 ### CVE-2026-82286 (2026-08-28)
 
@@ -15256,6 +15391,13 @@
 - [xcoy0te/CVE-2026-83548-checker](https://github.com/xcoy0te/CVE-2026-83548-checker)
 - [HORKimhab/CVE-2026-83548-CVE-2026-83549](https://github.com/HORKimhab/CVE-2026-83548-CVE-2026-83549)
 
+### CVE-2026-84118 (2026-09-01)
+
+<code>Use-after-free in the JavaScript: GC component. This vulnerability was fixed in Firefox 155, Firefox ESR 153.2, Thunderbird 155, and Thunderbird 153.2.
+</code>
+
+- [SneakyNachos/CVE-2026-84118-who-labeled-the-crit-as-a-high](https://github.com/SneakyNachos/CVE-2026-84118-who-labeled-the-crit-as-a-high)
+
 ### CVE-2026-84361 (2026-09-01)
 
 <code>Composer is a dependency Manager for the PHP language. From 1.0 until 2.2.30 and 2.10.3, a malicious dependency package from a custom Composer repository or an untrusted composer.lock file could set source.type to perforce and source.url to an rsh: or jsh: P4PORT value. When the Perforce p4 client was installed and Composer installed the package from source through composer install or composer update, including --prefer-source, Composer\Util\Perforce passed the address to p4 without validation, causing p4 to run a local command with the privileges of the user or CI account. Packagist.org does not permit Perforce source metadata. This issue is fixed in versions 2.2.30 and 2.10.3.
@@ -15279,6 +15421,15 @@
 - [ubitquity/CVE-2026-85046-Patch-confusion-zero-day-vulnerability-in-Google-Chrome-s-V8-engine](https://github.com/ubitquity/CVE-2026-85046-Patch-confusion-zero-day-vulnerability-in-Google-Chrome-s-V8-engine)
 - [adriyansyah-mf/cve-2026-85046-poc](https://github.com/adriyansyah-mf/cve-2026-85046-poc)
 - [Eliot-code/CVE-2026-85046](https://github.com/Eliot-code/CVE-2026-85046)
+- [SneakyNachos/CVE-2026-85046-who-put-the-silverback-guerilla-in-the-wasm](https://github.com/SneakyNachos/CVE-2026-85046-who-put-the-silverback-guerilla-in-the-wasm)
+- [atiilla/CVE-2026-85046](https://github.com/atiilla/CVE-2026-85046)
+
+### CVE-2026-85625 (2026-09-04)
+
+<code>sift (sift.js) 17.1.3 enumerates query keys with for...in, which walks the object prototype chain, and dispatches any matched operator key including $where. The $where operation compiles a string value into a function using new Function unless CSP_ENABLED is set (not set by default). As a result, if a prototype-pollution primitive elsewhere in the process sets Object.prototype.$where to a malicious string, even benign filter calls such as sift({}) execute arbitrary JavaScript. Additionally, passing an untrusted query object containing a string $where directly to sift results in code execution under the default configuration.
+</code>
+
+- [lgranadoi/sift-hardened](https://github.com/lgranadoi/sift-hardened)
 
 ### CVE-2026-85649 (2026-09-04)
 
@@ -49339,7 +49490,7 @@
 
 ### CVE-2023-52251 (2024-01-25)
 
-<code>An issue discovered in provectus kafka-ui 0.4.0 through 0.7.1 allows remote attackers to execute arbitrary code via the q parameter of /api/clusters/local/topics/{topic}/messages.
+<code>An issue discovered in provectus kafka-ui 0.4.0 through 0.7.2 allows remote attackers to execute arbitrary code via the q parameter of /api/clusters/local/topics/{topic}/messages. No fixed release is available; the project has had no commit since 2024-04-08.
 </code>
 
 - [BobTheShoplifter/CVE-2023-52251-POC](https://github.com/BobTheShoplifter/CVE-2023-52251-POC)
@@ -50259,6 +50410,13 @@
 - [EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639](https://github.com/EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639)
 - [letsr00t/-2022-LOCALROOT-CVE-2022-2639](https://github.com/letsr00t/-2022-LOCALROOT-CVE-2022-2639)
 - [devetop/CVE-2022-2639-PipeVersion](https://github.com/devetop/CVE-2022-2639-PipeVersion)
+
+### CVE-2022-2869 (2022-08-17)
+
+<code>libtiff's tiffcrop tool has a uint32_t underflow which leads to out of bounds read and write in the extractContigSamples8bits routine. An attacker who supplies a crafted file to tiffcrop could trigger this flaw, most likely by tricking a user into opening the crafted file with tiffcrop. Triggering this flaw could cause a crash or potentially further exploitation.
+</code>
+
+- [halahajyahia/CVE-2022-2869-detector](https://github.com/halahajyahia/CVE-2022-2869-detector)
 
 ### CVE-2022-2884 (2022-10-17)
 
@@ -85678,6 +85836,7 @@
 
 - [M41doror/cve-2010-4221](https://github.com/M41doror/cve-2010-4221)
 - [Mafiosohack/Offensive-lab-2](https://github.com/Mafiosohack/Offensive-lab-2)
+- [diegslva/cve-2010-4221-lab](https://github.com/diegslva/cve-2010-4221-lab)
 
 ### CVE-2010-4231 (2010-11-16)
 
