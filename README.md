@@ -7674,6 +7674,7 @@
 - [aestechno/cve-2026-31431-ansible](https://github.com/aestechno/cve-2026-31431-ansible)
 - [ashok523/cve-2026-31431](https://github.com/ashok523/cve-2026-31431)
 - [jodonnel/copyfail-briefing](https://github.com/jodonnel/copyfail-briefing)
+- [starscow/Copy-Fail-CVE-2026-31431-Kubernetes-PoC](https://github.com/starscow/Copy-Fail-CVE-2026-31431-Kubernetes-PoC)
 - [deckhouse/d8-copy-fail-mitigation](https://github.com/deckhouse/d8-copy-fail-mitigation)
 - [jneuhauser/copy-fail-CVE-2026-31431](https://github.com/jneuhauser/copy-fail-CVE-2026-31431)
 - [cyber-joker/copy-fail-python](https://github.com/cyber-joker/copy-fail-python)
@@ -9515,7 +9516,6 @@
 - [Qurclinc/CVE-2026-38526](https://github.com/Qurclinc/CVE-2026-38526)
 - [CerberusMrXi/KrayinCRM-RCE-Exploit-CVE-2026-38526](https://github.com/CerberusMrXi/KrayinCRM-RCE-Exploit-CVE-2026-38526)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-38526-KrayinCRM-RCE](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-38526-KrayinCRM-RCE)
-- [DiegoRivas1/htb-labs-nexus](https://github.com/DiegoRivas1/htb-labs-nexus)
 
 ### CVE-2026-38577 (2026-08-31)
 
@@ -12330,6 +12330,7 @@
 </code>
 
 - [LSPosed/LSPromise](https://github.com/LSPosed/LSPromise)
+- [Supersonic/TLPE](https://github.com/Supersonic/TLPE)
 
 ### CVE-2026-49943 (2026-06-02)
 
@@ -12960,6 +12961,7 @@
 - [AtlasVector/Certighost-CVE-2026-54121](https://github.com/AtlasVector/Certighost-CVE-2026-54121)
 - [sam00/POC-CVE-2026-54121-Certighost](https://github.com/sam00/POC-CVE-2026-54121-Certighost)
 - [L0u7r3/certighost](https://github.com/L0u7r3/certighost)
+- [TryA9ain/Certighost_CVE-2026-54121](https://github.com/TryA9ain/Certighost_CVE-2026-54121)
 
 ### CVE-2026-54161
 - [ja-errorpro/CVE-2026-54161](https://github.com/ja-errorpro/CVE-2026-54161)
@@ -13697,6 +13699,13 @@
 </code>
 
 - [NicPWNs/CVE-2026-62183](https://github.com/NicPWNs/CVE-2026-62183)
+
+### CVE-2026-62201 (2026-07-17)
+
+<code>OpenClaw versions before 2026.6.6 contain a network policy bypass vulnerability in the sandbox exec-server that allows lower-trust callers to reach internal network destinations blocked by OpenClaw policy. Attackers can send HTTP requests through the exec-server to access network resources that should have been restricted by configured policies.
+</code>
+
+- [diedromeo/CVE-2026-62201-OpenClaw-SSRF](https://github.com/diedromeo/CVE-2026-62201-OpenClaw-SSRF)
 
 ### CVE-2026-62735 (2026-08-11)
 
@@ -15071,6 +15080,7 @@
 <code>Adobe Commerce is affected by an Improper Neutralization of Special Elements Used in a Template Engine vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.
 </code>
 
+- [jithinkrishnanrs/stylesmuggler-ioc-toolkit](https://github.com/jithinkrishnanrs/stylesmuggler-ioc-toolkit)
 - [dinosn/cve-2026-75650-magento-validation-lab](https://github.com/dinosn/cve-2026-75650-magento-validation-lab)
 - [disrex-group/stylesmuggler-adobe-patches](https://github.com/disrex-group/stylesmuggler-adobe-patches)
 - [disrex-group/stylesmuggler-adobe-patches-mageos](https://github.com/disrex-group/stylesmuggler-adobe-patches-mageos)
@@ -21800,6 +21810,7 @@
 </code>
 
 - [mverschu/CVE-2025-33073](https://github.com/mverschu/CVE-2025-33073)
+- [starscow/CVE-2025-33073](https://github.com/starscow/CVE-2025-33073)
 - [obscura-cert/CVE-2025-33073](https://github.com/obscura-cert/CVE-2025-33073)
 - [matejsmycka/CVE-2025-33073-checker](https://github.com/matejsmycka/CVE-2025-33073-checker)
 - [cve-2025-33073/cve-2025-33073](https://github.com/cve-2025-33073/cve-2025-33073)
@@ -25903,7 +25914,6 @@
 - [K3ysTr0K3R/CVE-2025-57819](https://github.com/K3ysTr0K3R/CVE-2025-57819)
 - [Neobee714/CVE-2025-57819-POC](https://github.com/Neobee714/CVE-2025-57819-POC)
 - [TeteREN/CVE-2025-57819-RCE](https://github.com/TeteREN/CVE-2025-57819-RCE)
-- [DiegoRivas1/htb-labs-connected](https://github.com/DiegoRivas1/htb-labs-connected)
 - [r3vpwnx/CVE-2025-57819](https://github.com/r3vpwnx/CVE-2025-57819)
 
 ### CVE-2025-57833 (2025-09-03)
@@ -36251,6 +36261,7 @@
 </code>
 
 - [SecStarBot/CVE-2024-38077-POC](https://github.com/SecStarBot/CVE-2024-38077-POC)
+- [starscow/CVE-2024-38077-POC](https://github.com/starscow/CVE-2024-38077-POC)
 - [qi4L/CVE-2024-38077](https://github.com/qi4L/CVE-2024-38077)
 - [Sec-Link/CVE-2024-38077](https://github.com/Sec-Link/CVE-2024-38077)
 - [murphysecurity/RDL-detect](https://github.com/murphysecurity/RDL-detect)
