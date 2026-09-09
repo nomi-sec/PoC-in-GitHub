@@ -3931,6 +3931,13 @@
 - [0xlyvio/CVE-2026-18963-keycloak](https://github.com/0xlyvio/CVE-2026-18963-keycloak)
 - [ynsmroztas/KeySniper](https://github.com/ynsmroztas/KeySniper)
 
+### CVE-2026-19089 (2026-08-10)
+
+<code>The Product Input Fields for WooCommerce WordPress plugin before 2.0.2 does not validate uploaded file types when its accepted-types setting is left empty, which its own documentation advertises as accepting all files, allowing unauthenticated attackers to upload arbitrary files and achieve remote code execution on servers that do not honour the directory's access rules.
+</code>
+
+- [abraxas/CVE-2026-19089-WooCommerce-Tyche](https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche)
+
 ### CVE-2026-19193 (2026-08-07)
 
 <code>A flaw has been found in Jiangmin Antivirus 21. Impacted is the function MessageNotifyCallback in the library kvcore.sys of the component Minifilter Port. Executing a manipulation can lead to improper access controls. The attack needs to be launched locally. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
@@ -7292,6 +7299,13 @@
 </code>
 
 - [Cr0wld3r/CVE-2026-30082](https://github.com/Cr0wld3r/CVE-2026-30082)
+
+### CVE-2026-30225 (2026-03-06)
+
+<code>OliveTin gives access to predefined shell commands from a web interface. Prior to version 3000.11.1, an authentication context confusion vulnerability in RestartAction allows a low‑privileged authenticated user to execute actions they are not permitted to run. RestartAction constructs a new internal connect.Request without preserving the original caller’s authentication headers or cookies. When this synthetic request is passed to StartAction, the authentication resolver falls back to the guest user. If the guest account has broader permissions than the authenticated caller, this results in privilege escalation and unauthorized command execution. This vulnerability allows a low‑privileged authenticated user to bypass ACL restrictions and execute arbitrary configured shell actions. This issue has been patched in version 3000.11.1.
+</code>
+
+- [hackerking24/CVE-2026-30225-OliveTin-RCE](https://github.com/hackerking24/CVE-2026-30225-OliveTin-RCE)
 
 ### CVE-2026-30251 (2026-04-02)
 
@@ -10866,6 +10880,7 @@
 - [ruik-tech/ghostlock-s25fe](https://github.com/ruik-tech/ghostlock-s25fe)
 - [dorlow/hazel-cve-2026-43499](https://github.com/dorlow/hazel-cve-2026-43499)
 - [abdgalaxy36-code/galaxy-a37-root](https://github.com/abdgalaxy36-code/galaxy-a37-root)
+- [cyberbalsa/GhostLock-NVIDIA-Shield-9.2.4](https://github.com/cyberbalsa/GhostLock-NVIDIA-Shield-9.2.4)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -12308,6 +12323,13 @@
 </code>
 
 - [Ap0dexMe0/CVE-2026-49869](https://github.com/Ap0dexMe0/CVE-2026-49869)
+
+### CVE-2026-49881 (2026-09-08)
+
+<code>In serviceClassExists of InCallController.java, there is a possible arbitrary code execution due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [LSPosed/LSPromise](https://github.com/LSPosed/LSPromise)
 
 ### CVE-2026-49943 (2026-06-02)
 
@@ -13801,6 +13823,7 @@
 <code>In JetBrains TeamCity before 2026.1.3, 2025.11.7 unauthenticated remote code execution was possible via the agent polling protocol
 </code>
 
+- [unveiledhistory49/teamcity-cve-2026-63077-remediation](https://github.com/unveiledhistory49/teamcity-cve-2026-63077-remediation)
 - [sfewer-r7/CVE-2026-63077](https://github.com/sfewer-r7/CVE-2026-63077)
 - [BoredHackerBlog/teamcity-CVE-2026-63077-pcap](https://github.com/BoredHackerBlog/teamcity-CVE-2026-63077-pcap)
 - [AnggaTechI/CVE-2026-63077](https://github.com/AnggaTechI/CVE-2026-63077)
@@ -15390,6 +15413,13 @@
 - [xoessie/CVE-2026-83548-SonicWall-SMA1000-Analysis](https://github.com/xoessie/CVE-2026-83548-SonicWall-SMA1000-Analysis)
 - [xcoy0te/CVE-2026-83548-checker](https://github.com/xcoy0te/CVE-2026-83548-checker)
 - [HORKimhab/CVE-2026-83548-CVE-2026-83549](https://github.com/HORKimhab/CVE-2026-83548-CVE-2026-83549)
+
+### CVE-2026-83991 (2026-09-08)
+
+<code>Missing authentication for critical function in Windows Cloud Files Mini Filter Driver allows an authorized attacker to perform tampering locally.
+</code>
+
+- [karollooool/CVE-2026-83991-writeup-and-poc](https://github.com/karollooool/CVE-2026-83991-writeup-and-poc)
 
 ### CVE-2026-84118 (2026-09-01)
 
@@ -17519,6 +17549,7 @@
 - [Shirouuu/CVE-2025-8110-gogs-poc](https://github.com/Shirouuu/CVE-2025-8110-gogs-poc)
 - [ixZODiAK/CVE-2025-8110](https://github.com/ixZODiAK/CVE-2025-8110)
 - [9xh4kv/CVE-2025-8110](https://github.com/9xh4kv/CVE-2025-8110)
+- [r3vpwnx/CVE-2025-8110](https://github.com/r3vpwnx/CVE-2025-8110)
 
 ### CVE-2025-8191 (2025-07-26)
 
@@ -19140,6 +19171,13 @@
 </code>
 
 - [SpiritualMachines/buds-audit](https://github.com/SpiritualMachines/buds-audit)
+
+### CVE-2025-20701 (2025-08-04)
+
+<code>In the Airoha Bluetooth audio SDK, there is a possible way to pair Bluetooth audio device without user consent. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [x0jac0b0x/skullcandy-dime3-cve-2025-20701](https://github.com/x0jac0b0x/skullcandy-dime3-cve-2025-20701)
 
 ### CVE-2025-21042 (2025-09-12)
 
@@ -25168,6 +25206,7 @@
 - [UwUGreed/CVE-2025-55182-poc](https://github.com/UwUGreed/CVE-2025-55182-poc)
 - [ChrisBarack/cve-2025-55182](https://github.com/ChrisBarack/cve-2025-55182)
 - [Bluex707/React2Shell-CVE-2025-55182-Exploit](https://github.com/Bluex707/React2Shell-CVE-2025-55182-Exploit)
+- [r3vpwnx/CVE-2025-55182](https://github.com/r3vpwnx/CVE-2025-55182)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -25952,6 +25991,7 @@
 - [Twappz/HTB-Silentium-Writeup](https://github.com/Twappz/HTB-Silentium-Writeup)
 - [vincent-vbg/CVE-2025-58434-PoC](https://github.com/vincent-vbg/CVE-2025-58434-PoC)
 - [00lucasm/CVE-2025-58434-Flowiseai-Auth-Bypass-PoC](https://github.com/00lucasm/CVE-2025-58434-Flowiseai-Auth-Bypass-PoC)
+- [r3vpwnx/CVE-2025-58434](https://github.com/r3vpwnx/CVE-2025-58434)
 
 ### CVE-2025-58440
 - [ph-hitachi/CVE-2025-58440](https://github.com/ph-hitachi/CVE-2025-58440)
@@ -35827,6 +35867,13 @@
 
 - [ggfzx/CVE-2024-36104](https://github.com/ggfzx/CVE-2024-36104)
 - [Groppoxx/CVE-2024-36104-PoC](https://github.com/Groppoxx/CVE-2024-36104-PoC)
+
+### CVE-2024-36114 (2024-05-29)
+
+<code>Aircompressor is a library with ports of the Snappy, LZO, LZ4, and Zstandard compression algorithms to Java. All decompressor implementations of Aircompressor (LZ4, LZO, Snappy, Zstandard) can crash the JVM for certain input, and in some cases also leak the content of other memory of the Java process (which could contain sensitive information). When decompressing certain data, the decompressors try to access memory outside the bounds of the given byte arrays or byte buffers. Because Aircompressor uses the JDK class `sun.misc.Unsafe` to speed up memory access, no additional bounds checks are performed and this has similar security consequences as out-of-bounds access in C or C++, namely it can lead to non-deterministic behavior or crash the JVM. Users should update to Aircompressor 0.27 or newer where these issues have been fixed. When decompressing data from untrusted users, this can be exploited for a denial-of-service attack by crashing the JVM, or to leak other sensitive information from the Java process. There are no known workarounds for this issue.
+</code>
+
+- [SerpstatGlobal/ClickHouse-Native-JDBC](https://github.com/SerpstatGlobal/ClickHouse-Native-JDBC)
 
 ### CVE-2024-36401 (2024-07-01)
 
