@@ -3099,6 +3099,7 @@
 </code>
 
 - [1beelze/CVE-2026-11387](https://github.com/1beelze/CVE-2026-11387)
+- [abraxas/CVE-2026-11387-WooCommerce-SMS-OTP](https://github.com/abraxas/CVE-2026-11387-WooCommerce-SMS-OTP)
 
 ### CVE-2026-11405 (2026-07-06)
 
@@ -5681,6 +5682,7 @@
 - [s-vx/CVE-2026-24061](https://github.com/s-vx/CVE-2026-24061)
 - [iLokaas/CVE-2026-24061-payload](https://github.com/iLokaas/CVE-2026-24061-payload)
 - [Ish3ng0m4/CVE-2026-24061-Telnetd](https://github.com/Ish3ng0m4/CVE-2026-24061-Telnetd)
+- [skyejacobson/CyberhawksLab-telnetCVE](https://github.com/skyejacobson/CyberhawksLab-telnetCVE)
 
 ### CVE-2026-24072 (2026-05-04)
 
@@ -10371,6 +10373,7 @@
 - [lanicer/cve-2026-41940-PoC](https://github.com/lanicer/cve-2026-41940-PoC)
 - [t4xo/CVE-2026-41940](https://github.com/t4xo/CVE-2026-41940)
 - [0xgh057r3c0n/CVE-2026-41940](https://github.com/0xgh057r3c0n/CVE-2026-41940)
+- [Xrzmodz444/cve-2026-41940-PoC-Linux](https://github.com/Xrzmodz444/cve-2026-41940-PoC-Linux)
 
 ### CVE-2026-42031 (2026-05-13)
 
@@ -12530,6 +12533,13 @@
 ### CVE-2026-51302
 - [extratao/CVE-2026-51302-PoC](https://github.com/extratao/CVE-2026-51302-PoC)
 
+### CVE-2026-51376 (2026-08-28)
+
+<code>An issue in BitChat for iOS v1.15.0 allows a remote attacker to cause a denial of service via an unauthenticated MESSAGE packet into the mesh gossip cache
+</code>
+
+- [BARGHEST-ngo/CVE-2026-51376](https://github.com/BARGHEST-ngo/CVE-2026-51376)
+
 ### CVE-2026-51385 (2026-07-20)
 
 <code>An issue in safishamsi Open-Source GRAPHIFY v.0.3.2 through v0.4.29 allows a remote attacker to execute arbitrary code via the validate_url, safe_fetch, _build_opener, _fetch_html and _download_binary functions.
@@ -14443,7 +14453,11 @@
 
 - [Lulztigre/cve-2026-67363-67364](https://github.com/Lulztigre/cve-2026-67363-67364)
 
-### CVE-2026-67401
+### CVE-2026-67401 (2026-09-09)
+
+<code>A vulnerability in cPanel allows a mail-enabled account to achieve remote code execution as root through SQLi in EmailTrack component
+</code>
+
 - [HORKimhab/CVE-2026-67401](https://github.com/HORKimhab/CVE-2026-67401)
 - [axedos/CVE-2026-67401](https://github.com/axedos/CVE-2026-67401)
 - [jithinkrishnanrs/CVE-2026-67401-cPanel-EmailTrack-SQLi](https://github.com/jithinkrishnanrs/CVE-2026-67401-cPanel-EmailTrack-SQLi)
@@ -15346,6 +15360,13 @@
 </code>
 
 - [ExploreIO/CVE-2026-79483-FastGPT-NoSQL-Injection](https://github.com/ExploreIO/CVE-2026-79483-FastGPT-NoSQL-Injection)
+
+### CVE-2026-79617 (2026-09-09)
+
+<code>Incorrect Permission Assignment for Critical Resource vulnerability in TÜBİTAK BİLGEM Software Technologies Research Institute Pardus LightDM Greeter allows Exploiting Incorrectly Configured Access Control Security Levels.\n\nThis issue affects Pardus LightDM Greeter: before 0.4.15.
+</code>
+
+- [alpernae/CVE-2026-79617](https://github.com/alpernae/CVE-2026-79617)
 
 ### CVE-2026-80428 (2026-08-26)
 
@@ -45454,6 +45475,7 @@
 - [Jeanpt/CVE-2023-34468](https://github.com/Jeanpt/CVE-2023-34468)
 - [spikeyjr/CVE-2023-34468-PoC](https://github.com/spikeyjr/CVE-2023-34468-PoC)
 - [ozcanpng/CVE-2023-34468](https://github.com/ozcanpng/CVE-2023-34468)
+- [luiskrnr/HTB_Helix_CVE-2023-34468](https://github.com/luiskrnr/HTB_Helix_CVE-2023-34468)
 
 ### CVE-2023-34478 (2023-07-24)
 
