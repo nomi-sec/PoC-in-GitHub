@@ -8717,6 +8717,7 @@
 
 - [casp3r0x0/CVE-2026-34159](https://github.com/casp3r0x0/CVE-2026-34159)
 - [rohithronanki/CVE-2026-34159-Vulnerability-Research-Analysis-Detection](https://github.com/rohithronanki/CVE-2026-34159-Vulnerability-Research-Analysis-Detection)
+- [TeamN4C/SG-2026-0021](https://github.com/TeamN4C/SG-2026-0021)
 
 ### CVE-2026-34160 (2026-04-14)
 
@@ -10746,6 +10747,7 @@
 - [nabhan-mohy/Dirty-Frag-Research-CVE-2026-43284-](https://github.com/nabhan-mohy/Dirty-Frag-Research-CVE-2026-43284-)
 - [RevyHub/CVE-2026-43284---DirtyFrag-Analysis-THM-](https://github.com/RevyHub/CVE-2026-43284---DirtyFrag-Analysis-THM-)
 - [millikanjohnl-blip/dirtyfrag-detection-rules](https://github.com/millikanjohnl-blip/dirtyfrag-detection-rules)
+- [TeamN4C/SG-2026-0024](https://github.com/TeamN4C/SG-2026-0024)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -14418,6 +14420,7 @@
 - [HORKimhab/CVE-2026-67276](https://github.com/HORKimhab/CVE-2026-67276)
 - [dinosn/mikrotrick-poc](https://github.com/dinosn/mikrotrick-poc)
 - [BlackHatExploitation/exploit-mikrotik-2026](https://github.com/BlackHatExploitation/exploit-mikrotik-2026)
+- [4rt-Net/Mikrotrick_POC](https://github.com/4rt-Net/Mikrotrick_POC)
 
 ### CVE-2026-67340 (2026-08-01)
 
@@ -14439,6 +14442,11 @@
 </code>
 
 - [Lulztigre/cve-2026-67363-67364](https://github.com/Lulztigre/cve-2026-67363-67364)
+
+### CVE-2026-67401
+- [HORKimhab/CVE-2026-67401](https://github.com/HORKimhab/CVE-2026-67401)
+- [axedos/CVE-2026-67401](https://github.com/axedos/CVE-2026-67401)
+- [jithinkrishnanrs/CVE-2026-67401-cPanel-EmailTrack-SQLi](https://github.com/jithinkrishnanrs/CVE-2026-67401-cPanel-EmailTrack-SQLi)
 
 ### CVE-2026-67595 (2026-07-29)
 
@@ -15002,6 +15010,13 @@
 
 - [toanln-cov/CVE-2026-74252](https://github.com/toanln-cov/CVE-2026-74252)
 
+### CVE-2026-74586 (2026-08-22)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nsctp: clear new_transport when removing a peer\n\nsctp_process_asconf_param() stores a newly added peer transport in\nasoc-&gt;new_transport. After all parameters in the ASCONF chunk have been\nprocessed, sctp_sf_do_asconf() uses this pointer to send a HEARTBEAT to the\nnew transport.\n\nAn authenticated ASCONF from a remote SCTP peer can add a transport and\nremove it again with a wildcard DEL-IP parameter in the same chunk. The\nwildcard deletion preserves the transport on which the ASCONF arrived, but\nremoves the newly added transport through\nsctp_assoc_del_nonprimary_peers(). The removal does not clear\nasoc-&gt;new_transport, leaving it pointing to the removed transport.\n\nsctp_sf_do_asconf() then creates a HEARTBEAT whose chunk-&gt;transport points\nto the removed transport without holding a transport reference. During\nlocal address replacement, src_out_of_asoc_ok keeps this HEARTBEAT on\ncontrol_chunk_list. After the transport is freed by RCU, a successful\nASCONF_ACK for the replacement address releases the queued HEARTBEAT and\nsctp_outq_select_transport() reads the freed transport's state.\n\nThe issue was found during a static audit of SCTP objects. With an\nauthenticated peer, the reproducer triggered the same KASAN report in 2\nof 2 unpatched runs on a KASAN-enabled netdev/main kernel:\n\n  BUG: KASAN: slab-use-after-free in sctp_outq_select_transport\n  Read of size 4 at addr ffff88800b9bd95c by task python3/197\n\n  Call Trace:\n   sctp_outq_select_transport+0x549/0x8b0 [sctp]\n   sctp_outq_flush+0x306/0x2c60 [sctp]\n   sctp_transport_immediate_rtx+0xaf/0x260 [sctp]\n   sctp_process_asconf_ack+0xa48/0xf70 [sctp]\n\n  Allocated by task 197:\n   sctp_transport_new+0x68/0x650 [sctp]\n   sctp_assoc_add_peer+0x258/0x12a0 [sctp]\n   sctp_process_asconf+0x5e9/0x1090 [sctp]\n\n  Last potentially related work creation:\n   __call_rcu_common.constprop.0+0x77/0xb70\n   sctp_assoc_del_nonprimary_peers+0x7c/0xd0 [sctp]\n   sctp_process_asconf+0xd9c/0x1090 [sctp]\n\nThe first invalid access was a four-byte read of transport-&gt;state at\nnet/sctp/outqueue.c:833. The same reproducer completed the full\nauthenticated ASCONF and local-address replacement sequence with this\nchange without a KASAN report or oops.\n\nClear new_transport when its peer is removed, before it can be used to\ncreate the HEARTBEAT.
+</code>
+
+- [TarPeg007/CVE-2026-74586](https://github.com/TarPeg007/CVE-2026-74586)
+
 ### CVE-2026-74936 (2026-08-18)
 
 <code>Use-after-free in the JavaScript: WebAssembly component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.
@@ -15318,6 +15333,12 @@
 </code>
 
 - [virologi-info/chrome-vuln-scanner](https://github.com/virologi-info/chrome-vuln-scanner)
+
+### CVE-2026-79303
+- [4ybrick/CVE-2026-79303](https://github.com/4ybrick/CVE-2026-79303)
+
+### CVE-2026-79387
+- [jhli07/CVE-2026-79387-PbootCMS-SQL-Injection](https://github.com/jhli07/CVE-2026-79387-PbootCMS-SQL-Injection)
 
 ### CVE-2026-79483 (2026-08-31)
 
@@ -16253,6 +16274,7 @@
 - [preemware/langflow-exploit](https://github.com/preemware/langflow-exploit)
 - [hideki233/CVE-2025-3248-Langflow-RCE](https://github.com/hideki233/CVE-2025-3248-Langflow-RCE)
 - [LeotheGGman/Langflow-RCE-CVE-2025-3248](https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248)
+- [zoly-zoly/CVE-2025-3248](https://github.com/zoly-zoly/CVE-2025-3248)
 
 ### CVE-2025-3419 (2025-05-08)
 
@@ -27870,7 +27892,6 @@
 - [ExploreUnknowed/CVE-2025-67303](https://github.com/ExploreUnknowed/CVE-2025-67303)
 - [materaj2/exploit_cve_2025_67303](https://github.com/materaj2/exploit_cve_2025_67303)
 - [jcaz2378/ComfyUIrce](https://github.com/jcaz2378/ComfyUIrce)
-- [1nhann/cm-cve-2025-67303-node](https://github.com/1nhann/cm-cve-2025-67303-node)
 
 ### CVE-2025-67315
 - [r-pradyun/CVE-2025-67315](https://github.com/r-pradyun/CVE-2025-67315)
@@ -29496,6 +29517,7 @@
 - [rcribelar-nucleus/my-cool-demo-php-code](https://github.com/rcribelar-nucleus/my-cool-demo-php-code)
 - [whyuhurtz/wongpress](https://github.com/whyuhurtz/wongpress)
 - [HORKimhab/CVE-2022-31626-CVE-2024-2961-CVE-2019-6977](https://github.com/HORKimhab/CVE-2022-31626-CVE-2024-2961-CVE-2019-6977)
+- [qinglove777/CVE-2024-2961-XXE-Exploit](https://github.com/qinglove777/CVE-2024-2961-XXE-Exploit)
 
 ### CVE-2024-2997 (2024-03-27)
 
@@ -37550,6 +37572,7 @@
 </code>
 
 - [Fysac/CVE-2024-44625](https://github.com/Fysac/CVE-2024-44625)
+- [batj44/CVE-2024-44625-Gogs-RCE-0.13.0](https://github.com/batj44/CVE-2024-44625-Gogs-RCE-0.13.0)
 
 ### CVE-2024-44762 (2024-10-16)
 
@@ -61043,6 +61066,13 @@
 - [Immersive-Labs-Sec/CVE-2021-32648](https://github.com/Immersive-Labs-Sec/CVE-2021-32648)
 - [daftspunk/CVE-2021-32648](https://github.com/daftspunk/CVE-2021-32648)
 
+### CVE-2021-32675 (2021-10-04)
+
+<code>Redis is an open source, in-memory database that persists on disk. When parsing an incoming Redis Standard Protocol (RESP) request, Redis allocates memory according to user-specified values which determine the number of elements (in the multi-bulk header) and size of each element (in the bulk header). An attacker delivering specially crafted requests over multiple connections can cause the server to allocate significant amount of memory. Because the same parsing mechanism is used to handle authentication requests, this vulnerability can also be exploited by unauthenticated users. The problem is fixed in Redis versions 6.2.6, 6.0.16 and 5.0.14. An additional workaround to mitigate this problem without patching the redis-server executable is to block access to prevent unauthenticated users from connecting to Redis. This can be done in different ways: Using network access control tools like firewalls, iptables, security groups, etc. or Enabling TLS and requiring users to authenticate using client side certificates.
+</code>
+
+- [rubbxalc/CVE-2021-32675](https://github.com/rubbxalc/CVE-2021-32675)
+
 ### CVE-2021-32708 (2021-06-24)
 
 <code>Flysystem is an open source file storage library for PHP. The whitespace normalisation using in 1.x and 2.x removes any unicode whitespace. Under certain specific conditions this could potentially allow a malicious user to execute code remotely. The conditions are: A user is allowed to supply the path or filename of an uploaded file, the supplied path or filename is not checked against unicode chars, the supplied pathname checked against an extension deny-list, not an allow-list, the supplied path or filename contains a unicode whitespace char in the extension, the uploaded file is stored in a directory that allows PHP code to be executed. Given these conditions are met a user can upload and execute arbitrary code on the system under attack. The unicode whitespace removal has been replaced with a rejection (exception). For 1.x users, upgrade to 1.1.4. For 2.x users, upgrade to 2.1.1.
@@ -69216,7 +69246,7 @@
 <code>Maltego before 4.2.12 allows XXE attacks.
 </code>
 
-- [terzinodipaese/Internet-Security-Project](https://github.com/terzinodipaese/Internet-Security-Project)
+- [mattia-maria-scivoletto/Internet-Security-Project](https://github.com/mattia-maria-scivoletto/Internet-Security-Project)
 
 ### CVE-2020-24750 (2020-09-17)
 
@@ -83239,6 +83269,7 @@
 </code>
 
 - [avielzecharia/CVE-2015-5736](https://github.com/avielzecharia/CVE-2015-5736)
+- [RainbowDynamix/FortiLOL](https://github.com/RainbowDynamix/FortiLOL)
 
 ### CVE-2015-5932 (2015-10-23)
 
