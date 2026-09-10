@@ -153,6 +153,13 @@
 - [ridhinva/panos-captive-portal-rce](https://github.com/ridhinva/panos-captive-portal-rce)
 - [sam00/POC-CVE-2026-0300-exploit](https://github.com/sam00/POC-CVE-2026-0300-exploit)
 
+### CVE-2026-0303 (2026-09-10)
+
+<code>A code execution vulnerability in Palo Alto Networks Checkov by Prisma® Cloud can allow arbitrary code execution when Checkov scans a directory that contains an attacker-controlled configuration file.
+</code>
+
+- [YonLiud/CVE-2026-0303](https://github.com/YonLiud/CVE-2026-0303)
+
 ### CVE-2026-03200
 - [gduma-phData/patch-CVE-2026-03200](https://github.com/gduma-phData/patch-CVE-2026-03200)
 
@@ -4335,6 +4342,7 @@
 - [mrk336/Inside-CVE-2026-20805-How-a-Windows-DWM-Flaw-Exposed-Sensitive-Data](https://github.com/mrk336/Inside-CVE-2026-20805-How-a-Windows-DWM-Flaw-Exposed-Sensitive-Data)
 - [SimoesCTT/-SCTT-2026-33-0002-DWM-Visual-Field-Singularity](https://github.com/SimoesCTT/-SCTT-2026-33-0002-DWM-Visual-Field-Singularity)
 - [SimoesCTT/SCTT-2026-33-0002-DWM-Visual-Field-Singularity](https://github.com/SimoesCTT/SCTT-2026-33-0002-DWM-Visual-Field-Singularity)
+- [ZeroDayEvil/CVE-2026-20805-POC](https://github.com/ZeroDayEvil/CVE-2026-20805-POC)
 
 ### CVE-2026-20817 (2026-01-13)
 
@@ -10370,6 +10378,7 @@
 - [asdasddqwdq29-a11y/CVE-2026-41940](https://github.com/asdasddqwdq29-a11y/CVE-2026-41940)
 - [oguz-kagan-akar/CVE-2026-41940-analysis](https://github.com/oguz-kagan-akar/CVE-2026-41940-analysis)
 - [razureink/cve-2026-41940-cpanel_authbypass_reproduction](https://github.com/razureink/cve-2026-41940-cpanel_authbypass_reproduction)
+- [dann3xplo1t/Cpanel](https://github.com/dann3xplo1t/Cpanel)
 - [AnotherSec/CVE-2026-41940](https://github.com/AnotherSec/CVE-2026-41940)
 - [CerberusMrXi/cPanel-WHM-CVE-2026-41940-auth-bypass-exploit](https://github.com/CerberusMrXi/cPanel-WHM-CVE-2026-41940-auth-bypass-exploit)
 - [keithbennedict/CVE-2026-41940-Linux](https://github.com/keithbennedict/CVE-2026-41940-Linux)
@@ -10797,7 +10806,6 @@
 - [Thiasap/oppo-pgem10-ghostlock](https://github.com/Thiasap/oppo-pgem10-ghostlock)
 - [CakesTwix/Android-CVE-2026-43499](https://github.com/CakesTwix/Android-CVE-2026-43499)
 - [Bartixxx32/CVE-2026-43499-OnePlus15](https://github.com/Bartixxx32/CVE-2026-43499-OnePlus15)
-- [virtualesp/SpringPeace](https://github.com/virtualesp/SpringPeace)
 - [Linuxoid-cn/CVE-2026-43499-Poc-Analysis](https://github.com/Linuxoid-cn/CVE-2026-43499-Poc-Analysis)
 - [qsvggff-spec/oppo-A5-PRO-5G-CVE-2026-43499](https://github.com/qsvggff-spec/oppo-A5-PRO-5G-CVE-2026-43499)
 - [xianwan1314/CVE-2026-43499-Poc-Analysis](https://github.com/xianwan1314/CVE-2026-43499-Poc-Analysis)
@@ -15020,6 +15028,13 @@
 - [Hunt-Benito/bring-your-own-key-cve-2026-73678-unauthenticated-rce-in-mindsdb-cowork](https://github.com/Hunt-Benito/bring-your-own-key-cve-2026-73678-unauthenticated-rce-in-mindsdb-cowork)
 - [Boreas37/CVE-2026-73678-PoC](https://github.com/Boreas37/CVE-2026-73678-PoC)
 
+### CVE-2026-73786 (2026-09-09)
+
+<code>A vulnerability in the web-based management interface of CPPM could allow an unauthenticated remote attacker to conduct a Denial-of-Service (DoS) attack. Successful exploitation could allow an attacker to cause instability and degrade performance of the vulnerable CPPM server.
+</code>
+
+- [promasu/CVE-2026-73786](https://github.com/promasu/CVE-2026-73786)
+
 ### CVE-2026-73847 (2026-08-14)
 
 <code>Emlog is an open source website building system. In 2.6.26 and earlier, missing CSRF protection on the AI Assistant execute_tool action in admin/ai.php lets a remote unauthenticated attacker submit a forged cross-site request from an attacker-controlled page to a recently logged-in administrator. The authentication cookie set in include/lib/loginauth.php has no explicit SameSite attribute, enabling Chrome's temporary Lax+POST grace window. The query_database case passes attacker-controlled sql and confirm_code values to Ai::queryDatabase in include/service/ai.php; read queries need no confirmation, write queries accept the public confirm string, only the blog table is write-protected, and aliasing password as pwd_hash bypasses output redaction. A successful request can read every database table and write every table except blog, including changing the user table to take over an administrator account. No fixed version is available as of this review.
@@ -15287,7 +15302,7 @@
 
 ### CVE-2026-78071 (2026-08-28)
 
-<code>Joomla Extension - digital-peak.com - Authenticated, privileged stored XSS in DP Calendar 7.0.0 - 10.11.2 - Location title is rendered in data attribute without escaping leads to XSS, needs create permission in DPCalendar.
+<code>Joomla Extension - digital-peak.com - Authenticated, privileged stored XSS in DP Calendar 7.0.0-8.19.5, 9.0.0-10.12.0 - Location title is rendered in data attribute without escaping leads to XSS, needs create permission in DPCalendar.
 </code>
 
 - [toanln-cov/CVE-2026-78071](https://github.com/toanln-cov/CVE-2026-78071)
@@ -15565,12 +15580,55 @@
 
 - [isukasanuj/CVE-2026-85769](https://github.com/isukasanuj/CVE-2026-85769)
 
+### CVE-2026-86060 (2026-09-05)
+
+<code>RouterOS contains an argument-handling flaw in the SSH login\npath involving usernames that begin with a prohibited character, allowing for the trusted RouterOS policy mask to be changed, leading to privilege escalation. Exploitation requires an unauthenticated SSH session to reach the RouterOS login helper.This issue was fixed in versions: 6.49.21 (Long-term), 7.23.4 (Long-term) and 7.24.2 (Stable)
+</code>
+
+- [bahirul/cve-2026-86060](https://github.com/bahirul/cve-2026-86060)
+
 ### CVE-2026-86218 (2026-09-06)
 
 <code>N-central is vulnerable to a pre-auth remote code execution This issue affects N-central: before 2026.3.1.14.
 </code>
 
 - [HORKimhab/CVE-2026-86218](https://github.com/HORKimhab/CVE-2026-86218)
+
+### CVE-2026-86998
+- [squeeze440/pasteguard-PoC](https://github.com/squeeze440/pasteguard-PoC)
+
+### CVE-2026-86999
+- [squeeze440/supernote-obsidian-plugin-PoC](https://github.com/squeeze440/supernote-obsidian-plugin-PoC)
+
+### CVE-2026-87000
+- [squeeze440/zotlit-PoC](https://github.com/squeeze440/zotlit-PoC)
+
+### CVE-2026-87001
+- [squeeze440/openlore-PoC](https://github.com/squeeze440/openlore-PoC)
+
+### CVE-2026-87002
+- [squeeze440/obsidian-note-toolbar-PoC](https://github.com/squeeze440/obsidian-note-toolbar-PoC)
+
+### CVE-2026-87003
+- [squeeze440/gortex-PoC](https://github.com/squeeze440/gortex-PoC)
+
+### CVE-2026-87004
+- [squeeze440/tugtainer-PoC](https://github.com/squeeze440/tugtainer-PoC)
+
+### CVE-2026-87005
+- [squeeze440/linux-entra-sso-PoC](https://github.com/squeeze440/linux-entra-sso-PoC)
+
+### CVE-2026-87006
+- [squeeze440/terrapod-PoC](https://github.com/squeeze440/terrapod-PoC)
+
+### CVE-2026-87007
+- [squeeze440/crw-PoC](https://github.com/squeeze440/crw-PoC)
+
+### CVE-2026-87008
+- [squeeze440/code-graph-rag-PoC](https://github.com/squeeze440/code-graph-rag-PoC)
+
+### CVE-2026-87009
+- [squeeze440/inference-gateway-PoC](https://github.com/squeeze440/inference-gateway-PoC)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -18011,13 +18069,6 @@
 </code>
 
 - [jFriedli/CVE-2025-9967](https://github.com/jFriedli/CVE-2025-9967)
-
-### CVE-2025-9974 (2026-02-02)
-
-<code>The unified WEBUI application of the ONT/Beacon device contains an input handling flaw that allows authenticated users to trigger unintended system-level command execution. Due to insufficient validation of user-supplied data, a low-privileged authenticated attacker may be able to execute arbitrary commands on the underlying ONT/Beacon operating system, potentially impacting the confidentiality, integrity, and availability of the device.
-</code>
-
-- [Rajdave69/CVE-2025-9974](https://github.com/Rajdave69/CVE-2025-9974)
 
 ### CVE-2025-9983 (2025-09-22)
 
@@ -24627,7 +24678,7 @@
 
 - [yohannslm/CVE-2025-54352](https://github.com/yohannslm/CVE-2025-54352)
 - [limmmw/CVE-2025-54352](https://github.com/limmmw/CVE-2025-54352)
-- [mufasa-noir/XML-RPC-Pingback-Vulnerability](https://github.com/mufasa-noir/XML-RPC-Pingback-Vulnerability)
+- [mufasa-noir/XMLRPC-Pingback-vulnerability-POC](https://github.com/mufasa-noir/XMLRPC-Pingback-vulnerability-POC)
 
 ### CVE-2025-54381 (2025-07-29)
 
@@ -50044,6 +50095,7 @@
 - [JeevanAnand1202/Penetration-Test](https://github.com/JeevanAnand1202/Penetration-Test)
 - [gaganhm3018-art/CVE-2022-0847-Dirty-Pipe-](https://github.com/gaganhm3018-art/CVE-2022-0847-Dirty-Pipe-)
 - [t1ckprivate/CVE-2022-0847-Dirty-Pipe](https://github.com/t1ckprivate/CVE-2022-0847-Dirty-Pipe)
+- [vudangducminh/CVE-2022-0847](https://github.com/vudangducminh/CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -52415,6 +52467,7 @@
 - [Pflegusch/CVE-2022-24637](https://github.com/Pflegusch/CVE-2022-24637)
 - [0xM4hm0ud/CVE-2022-24637](https://github.com/0xM4hm0ud/CVE-2022-24637)
 - [0xRyuk/CVE-2022-24637](https://github.com/0xRyuk/CVE-2022-24637)
+- [PrinceAikinsBaidoo/CVE-2022-24637](https://github.com/PrinceAikinsBaidoo/CVE-2022-24637)
 
 ### CVE-2022-24638
 - [726232111/CVE-2022-24638](https://github.com/726232111/CVE-2022-24638)
@@ -68027,6 +68080,7 @@
 
 - [Dungsocool/CVE-2020-13671-old](https://github.com/Dungsocool/CVE-2020-13671-old)
 - [Dungsocool/CVE-2020-13671](https://github.com/Dungsocool/CVE-2020-13671)
+- [ivanesk315/CVE-2020-13671](https://github.com/ivanesk315/CVE-2020-13671)
 
 ### CVE-2020-13699 (2020-07-29)
 
