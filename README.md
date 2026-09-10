@@ -4001,6 +4001,7 @@
 </code>
 
 - [TarPeg007/CVE-2026-19490](https://github.com/TarPeg007/CVE-2026-19490)
+- [BishopFox/CVE-2026-19490-check](https://github.com/BishopFox/CVE-2026-19490-check)
 
 ### CVE-2026-19500 (2026-08-18)
 
@@ -4342,7 +4343,7 @@
 - [mrk336/Inside-CVE-2026-20805-How-a-Windows-DWM-Flaw-Exposed-Sensitive-Data](https://github.com/mrk336/Inside-CVE-2026-20805-How-a-Windows-DWM-Flaw-Exposed-Sensitive-Data)
 - [SimoesCTT/-SCTT-2026-33-0002-DWM-Visual-Field-Singularity](https://github.com/SimoesCTT/-SCTT-2026-33-0002-DWM-Visual-Field-Singularity)
 - [SimoesCTT/SCTT-2026-33-0002-DWM-Visual-Field-Singularity](https://github.com/SimoesCTT/SCTT-2026-33-0002-DWM-Visual-Field-Singularity)
-- [ZeroDayEvil/CVE-2026-20805-POC](https://github.com/ZeroDayEvil/CVE-2026-20805-POC)
+- [ZeroDayEvil/CVE-2026-20805-PoC](https://github.com/ZeroDayEvil/CVE-2026-20805-PoC)
 
 ### CVE-2026-20817 (2026-01-13)
 
@@ -5756,6 +5757,7 @@
 - [lennertdefauw/CVE-2026-24291](https://github.com/lennertdefauw/CVE-2026-24291)
 - [tracyliving606/RegPwn](https://github.com/tracyliving606/RegPwn)
 - [uname1able/CVE-2026-24291](https://github.com/uname1able/CVE-2026-24291)
+- [ZeroDayVPN/CVE-2026-24291](https://github.com/ZeroDayVPN/CVE-2026-24291)
 
 ### CVE-2026-24294 (2026-03-10)
 
@@ -10120,6 +10122,7 @@
 <code>Heap-based buffer overflow in Microsoft Windows DNS allows an unauthorized attacker to execute code over a network.
 </code>
 
+- [ZeroDayEvil/CVE-2026-41096-PoC](https://github.com/ZeroDayEvil/CVE-2026-41096-PoC)
 - [mrk336/DNS-Mayhem-CVE-2026-41096-Deep-Dive](https://github.com/mrk336/DNS-Mayhem-CVE-2026-41096-Deep-Dive)
 - [satchfunky/CVE-2026-41096-POC](https://github.com/satchfunky/CVE-2026-41096-POC)
 - [m0n1x90/CVE-2026-41096](https://github.com/m0n1x90/CVE-2026-41096)
@@ -10717,6 +10720,7 @@
 <code>Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Push Notifications allows an authorized attacker to elevate privileges locally.
 </code>
 
+- [ZeroDayEvil/CVE-2026-42978-PoC-Research](https://github.com/ZeroDayEvil/CVE-2026-42978-PoC-Research)
 - [grizzzer/CVE-2026-42978-PoC-Research](https://github.com/grizzzer/CVE-2026-42978-PoC-Research)
 
 ### CVE-2026-42980 (2026-06-09)
@@ -13903,6 +13907,13 @@
 
 - [oscerd/CVE-2026-63621](https://github.com/oscerd/CVE-2026-63621)
 
+### CVE-2026-63642 (2026-08-18)
+
+<code>MagicMirror² is an open source modular smart mirror platform. Prior to 2.37.0, checkArticleUrl in defaultmodules/newsfeed/node_helper.js accepts the CHECK_ARTICLE_URL notification through the unauthenticated Socket.IO namespace /newsfeed and performs fetch(url, { method: &quot;HEAD&quot; }) without validating the attacker-controlled URL. The helper returns ARTICLE_URL_STATUS containing the URL and framing result, providing a response and timing oracle that can identify internal hosts and ports and trigger side effects on services that react to HEAD requests. This issue is fixed in version 2.37.0.
+</code>
+
+- [hakaioffsec/CVE-2026-63642](https://github.com/hakaioffsec/CVE-2026-63642)
+
 ### CVE-2026-63720 (2026-07-26)
 
 <code>datamodel-code-generator prior to version 0.70.0 contains a code injection vulnerability that allows attackers who control input schemas to achieve remote code execution by supplying a malicious customBasePath value containing embedded newlines and a dot-free Python expression. The crafted value is emitted verbatim into a generated 'from ... import ...' statement without identifier validation, causing arbitrary Python code to execute when the generated module is imported.
@@ -14365,6 +14376,7 @@
 <code>Improper access control in Windows Cross Device Service allows an authorized attacker to elevate privileges locally.
 </code>
 
+- [ZeroDayVPN/CVE-2026-66804-CrossDevice-Service-EoP](https://github.com/ZeroDayVPN/CVE-2026-66804-CrossDevice-Service-EoP)
 - [DavidCarliez/CVE-2026-66804-CrossDevice-LPE](https://github.com/DavidCarliez/CVE-2026-66804-CrossDevice-LPE)
 - [CypherHippie/CVE-2026-66804](https://github.com/CypherHippie/CVE-2026-66804)
 - [Rat5ak/CVE-2026-66804-CrossDevice-Service-EoP](https://github.com/Rat5ak/CVE-2026-66804-CrossDevice-Service-EoP)
@@ -15328,6 +15340,9 @@
 
 - [n0c71v3x/CVE-2026-78745](https://github.com/n0c71v3x/CVE-2026-78745)
 
+### CVE-2026-78804
+- [repo4Chu/CVE-2026-78804_Dolibarr_authenticated_SQL_injection](https://github.com/repo4Chu/CVE-2026-78804_Dolibarr_authenticated_SQL_injection)
+
 ### CVE-2026-78837 (2026-09-08)
 
 <code>A SQL injection vulnerability in the ap_form_{id} parameter in AppNitro MachForm v30 allows attackers to access sensitive database information via a crafted SQL statement.
@@ -15525,6 +15540,7 @@
 </code>
 
 - [karollooool/CVE-2026-83991-writeup-and-poc](https://github.com/karollooool/CVE-2026-83991-writeup-and-poc)
+- [ZeroDayVPN/CVE-2026-83991-WriteUP-and-PoC](https://github.com/ZeroDayVPN/CVE-2026-83991-WriteUP-and-PoC)
 
 ### CVE-2026-84118 (2026-09-01)
 
@@ -36342,6 +36358,13 @@
 </code>
 
 - [7Ragnarok7/CVE-2024-37888](https://github.com/7Ragnarok7/CVE-2024-37888)
+
+### CVE-2024-37890 (2024-06-17)
+
+<code>ws is an open source WebSocket client and server for Node.js. A request with a number of headers exceeding theserver.maxHeadersCount threshold could be used to crash a ws server. The vulnerability was fixed in ws@8.17.1 (e55e510) and backported to ws@7.5.10 (22c2876), ws@6.2.3 (eeb76d3), and ws@5.2.4 (4abd8f6). In vulnerable versions of ws, the issue can be mitigated in the following ways: 1. Reduce the maximum allowed length of the request headers using the --max-http-header-size=size and/or the maxHeaderSize options so that no more headers than the server.maxHeadersCount limit can be sent. 2. Set server.maxHeadersCount to 0 so that no limit is applied.
+</code>
+
+- [RazdoruNET/OMG_KILLER](https://github.com/RazdoruNET/OMG_KILLER)
 
 ### CVE-2024-38041 (2024-07-09)
 
@@ -78822,6 +78845,7 @@
 - [probablysecure/Triage-CVE-2017-0144](https://github.com/probablysecure/Triage-CVE-2017-0144)
 - [KitSkater/legacyshield-CVE-2017-0144](https://github.com/KitSkater/legacyshield-CVE-2017-0144)
 - [quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144](https://github.com/quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144)
+- [porcumarcooo/TryHackMe-Blue-MS17-010](https://github.com/porcumarcooo/TryHackMe-Blue-MS17-010)
 
 ### CVE-2017-0145 (2017-03-17)
 
@@ -86340,6 +86364,7 @@
 - [AhegaoPsyops/sslWeakness](https://github.com/AhegaoPsyops/sslWeakness)
 - [Faizan8232403/CVE-Exploit-Research-Development](https://github.com/Faizan8232403/CVE-Exploit-Research-Development)
 - [QasimShahbaz21/CVE-Exploit-Research-Development](https://github.com/QasimShahbaz21/CVE-Exploit-Research-Development)
+- [ethicbrudhack/CVE-2008-0166-BTC-satoshi-mining-wallets](https://github.com/ethicbrudhack/CVE-2008-0166-BTC-satoshi-mining-wallets)
 
 ### CVE-2008-0228 (2008-01-10)
 
