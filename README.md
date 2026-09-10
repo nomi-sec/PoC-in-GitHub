@@ -14811,6 +14811,13 @@
 
 - [Saku0512/CVE-2026-72744-poc](https://github.com/Saku0512/CVE-2026-72744-poc)
 
+### CVE-2026-72815 (2026-08-14)
+
+<code>go-chi chi versions &gt;= 5.2.1 and before 5.3.0 contain an IP spoofing vulnerability in the RealIP middleware, which blindly trusts the first (leftmost) value of the X-Forwarded-For HTTP header. A remote attacker can bypass IP-based access control lists and rate-limiting mechanisms, and forge log entries, by supplying a spoofed IP address in the X-Forwarded-For header. The issue is fixed in version 5.3.0.
+</code>
+
+- [Saku0512/CVE-2026-72815-poc](https://github.com/Saku0512/CVE-2026-72815-poc)
+
 ### CVE-2026-72844 (2026-08-20)
 
 <code>The Lean 4 kernel does not verify that the structure named in a projection expression matches the type of the value being projected, and environment::add_inductive in src/kernel/inductive.cpp did not type check the nested inductive applications that are replaced by auxiliary types, so their parametric arguments escaped checking. A metaprogram running in the Lean process can register an ill-typed nested inductive whose constructor applies a .proj C 0 projection to a value of the unrelated type W, and the kernel admits the declaration through the ordinary checked addDecl path at maximum kernel checking, without sorry, unsafeCast, debug.skipKernelTC, addDeclWithoutChecking, FFI, or a modified .olean file. The result is a type confusion yielding a proof of False that carries no axioms, from which any proposition can be derived. The published proof of concept additionally pads two expressions until their hashes and approximate depths collide, which defeats kernel caching; that is the technique used to reach the flaw, not its cause. Exploitation requires running a metaprogram in-process, for example by building a project or importing a malicious Lake dependency.
@@ -15184,6 +15191,13 @@
 
 - [toanln-cov/CVE-2026-76569](https://github.com/toanln-cov/CVE-2026-76569)
 
+### CVE-2026-76578 (2026-09-07)
+
+<code>A flaw was found in FreeIPA. The self-managed OTP token ACI does not require authentication and does not restrict which attributes may be added alongside the token entry. An unauthenticated LDAP client can exploit this, combined with a related flaw in the underlying directory server's ACI evaluation (tracked separately), to create an arbitrary attacker-controlled Kerberos principal and have it added to the administrators group. This allows a remote, unauthenticated attacker to obtain genuine FreeIPA administrator-group membership and perform administrative operations against the directory and, on SID-enabled deployments, other IdM services.
+</code>
+
+- [BrainBob/CVE-2026-76578](https://github.com/BrainBob/CVE-2026-76578)
+
 ### CVE-2026-76581 (2026-08-28)
 
 <code>The WPMU DEV Dashboard plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 5.0.1. This is due to inconsistent and ambiguous HMAC message construction between the unauthenticated `wdpsso_step1` and `wdpsso_step2` AJAX actions, where step 1 signs and discloses an unseparated concatenation of the token, state, redirect, and domain values, while step 2 verifies an unseparated concatenation that omits the domain field. This makes it possible for unauthenticated attackers, on sites connected to WPMU DEV with Hub SSO enabled and mapped to an administrator, to obtain a valid HMAC from step 1 and replay it to step 2 by moving the domain value into the redirect field, resulting in an authenticated administrator session.
@@ -15226,6 +15240,9 @@
 </code>
 
 - [HORKimhab/CVE-Ubiquiti](https://github.com/HORKimhab/CVE-Ubiquiti)
+
+### CVE-2026-77578
+- [Soskalai/CVE-2026-77578](https://github.com/Soskalai/CVE-2026-77578)
 
 ### CVE-2026-77622
 - [Squ1shification/PNGboomer-CVE-2026-77622](https://github.com/Squ1shification/PNGboomer-CVE-2026-77622)
@@ -15351,7 +15368,11 @@
 ### CVE-2026-79303
 - [4ybrick/CVE-2026-79303](https://github.com/4ybrick/CVE-2026-79303)
 
-### CVE-2026-79387
+### CVE-2026-79387 (2026-09-09)
+
+<code>SQL injection vulnerability in PbootCMS versions 3.2.0 through 3.2.5 allows an authenticated user to modify arbitrary user account fields (including passwords and roles) via crafted parameters to the User/mod interface, enabling account takeover.
+</code>
+
 - [jhli07/CVE-2026-79387-PbootCMS-SQL-Injection](https://github.com/jhli07/CVE-2026-79387-PbootCMS-SQL-Injection)
 
 ### CVE-2026-79483 (2026-08-31)
@@ -20684,6 +20705,7 @@
 - [enochgitgamefied/CVE-2025-27636-Practical-Lab](https://github.com/enochgitgamefied/CVE-2025-27636-Practical-Lab)
 - [Crystallen1/CVE-2025-27636-demo](https://github.com/Crystallen1/CVE-2025-27636-demo)
 - [oscerd/CVE-2026-40453](https://github.com/oscerd/CVE-2026-40453)
+- [AC8999/CVE-2025-27636-RCE-in-Apache-Camel](https://github.com/AC8999/CVE-2025-27636-RCE-in-Apache-Camel)
 
 ### CVE-2025-27817 (2025-06-10)
 
@@ -30163,6 +30185,7 @@
 - [NKTriS/HTSOC](https://github.com/NKTriS/HTSOC)
 - [DuyDuongDuyDuong/CVE-2024-4577-Exploitation-AsyncRAT-Deployment-DFIR-Investigation](https://github.com/DuyDuongDuyDuong/CVE-2024-4577-Exploitation-AsyncRAT-Deployment-DFIR-Investigation)
 - [khwajasaad267-coder/cve-2024-4577-lab](https://github.com/khwajasaad267-coder/cve-2024-4577-lab)
+- [yeee3642/edu-recon](https://github.com/yeee3642/edu-recon)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -32309,7 +32332,7 @@
 <code>In Modem, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution, if a UE has connected to a rogue base station controlled by the attacker, with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: MOLY00720348; Issue ID: MSV-2392.
 </code>
 
-- [sneakid/CVE-2024-20154](https://github.com/sneakid/CVE-2024-20154)
+- [HarbingerSe7en/CVE-2024-20154](https://github.com/HarbingerSe7en/CVE-2024-20154)
 
 ### CVE-2024-20338 (2024-03-06)
 
@@ -41695,6 +41718,7 @@
 - [hackersroot/CVE-2023-6063-PoC](https://github.com/hackersroot/CVE-2023-6063-PoC)
 - [Eulex0x/CVE-2023-6063](https://github.com/Eulex0x/CVE-2023-6063)
 - [incommatose/CVE-2023-6063-PoC](https://github.com/incommatose/CVE-2023-6063-PoC)
+- [zhairiazzeddine/Exploit-CVE-2023-6063-PoC-Vuln](https://github.com/zhairiazzeddine/Exploit-CVE-2023-6063-PoC-Vuln)
 
 ### CVE-2023-6199 (2023-11-20)
 
@@ -74327,6 +74351,13 @@
 
 - [UltramanGaia/Xiaomi_Mi_WiFi_R3G_Vulnerability_POC](https://github.com/UltramanGaia/Xiaomi_Mi_WiFi_R3G_Vulnerability_POC)
 - [AjayMT6/UltramanGaia](https://github.com/AjayMT6/UltramanGaia)
+
+### CVE-2019-18394 (2019-10-24)
+
+<code>A Server Side Request Forgery (SSRF) vulnerability in FaviconServlet.java in Ignite Realtime Openfire through 4.4.2 allows attackers to send arbitrary HTTP GET requests.
+</code>
+
+- [l0lsec/openfire-ssrf-cve-2019-18394](https://github.com/l0lsec/openfire-ssrf-cve-2019-18394)
 
 ### CVE-2019-18426 (2020-01-21)
 
