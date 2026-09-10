@@ -3384,6 +3384,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-13181-CVE-2026-13182-CVE-2026-13183-CVE-2026-13184](https://github.com/HORKimhab/CVE-2026-13181-CVE-2026-13182-CVE-2026-13183-CVE-2026-13184)
+- [ivanesk315/CVE-2026-13181-Telerik](https://github.com/ivanesk315/CVE-2026-13181-Telerik)
 
 ### CVE-2026-13233 (2026-07-10)
 
@@ -3931,6 +3932,7 @@
 - [EQSTLab/CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963)
 - [0xlyvio/CVE-2026-18963-keycloak](https://github.com/0xlyvio/CVE-2026-18963-keycloak)
 - [ynsmroztas/KeySniper](https://github.com/ynsmroztas/KeySniper)
+- [ivanesk315/CVE-2026-18963](https://github.com/ivanesk315/CVE-2026-18963)
 
 ### CVE-2026-19089 (2026-08-10)
 
@@ -4239,6 +4241,7 @@
 - [fevar54/CVE-2026-20253-Splunk-Enterprise-Pre-Auth-RCE-](https://github.com/fevar54/CVE-2026-20253-Splunk-Enterprise-Pre-Auth-RCE-)
 - [pssec-io/CVE-2026-20253](https://github.com/pssec-io/CVE-2026-20253)
 - [Het-Kalariya/CVE-2026-20253](https://github.com/Het-Kalariya/CVE-2026-20253)
+- [ivanesk315/CVE-2026-20253](https://github.com/ivanesk315/CVE-2026-20253)
 
 ### CVE-2026-20262 (2026-06-15)
 
@@ -6977,6 +6980,7 @@
 </code>
 
 - [rootdirective-sec/CVE-2026-28496-Lab](https://github.com/rootdirective-sec/CVE-2026-28496-Lab)
+- [ivanesk315/CVE-2026-28496](https://github.com/ivanesk315/CVE-2026-28496)
 
 ### CVE-2026-28576 (2026-06-17)
 
@@ -10530,6 +10534,7 @@
 - [0xCyberstan/CVE-2026-42533-POC](https://github.com/0xCyberstan/CVE-2026-42533-POC)
 - [Leeyoonjoo/CVE-2026-42533](https://github.com/Leeyoonjoo/CVE-2026-42533)
 - [FranklinF25/cve-2026-42533](https://github.com/FranklinF25/cve-2026-42533)
+- [ivanesk315/CVE-2026-42533](https://github.com/ivanesk315/CVE-2026-42533)
 
 ### CVE-2026-42559 (2026-05-14)
 
@@ -10567,6 +10572,13 @@
 </code>
 
 - [fineman999/POC_CVE-2026-42589](https://github.com/fineman999/POC_CVE-2026-42589)
+
+### CVE-2026-42613 (2026-05-11)
+
+<code>Grav is a file-based Web platform. Prior to 2.0.0-beta.2, the Login::register() method in the Login plugin accepts attacker-controlled groups and access fields from the registration POST data without server-side validation. When registration is enabled and groups or access are included in the configured allowed fields list, an unauthenticated user can self-register with admin.super privileges by injecting these fields into the registration request. This vulnerability is fixed in 2.0.0-beta.2.
+</code>
+
+- [ivanesk315/CVE-2026-42613](https://github.com/ivanesk315/CVE-2026-42613)
 
 ### CVE-2026-42647 (2026-06-11)
 
@@ -10886,6 +10898,7 @@
 - [dorlow/hazel-cve-2026-43499](https://github.com/dorlow/hazel-cve-2026-43499)
 - [abdgalaxy36-code/galaxy-a37-root](https://github.com/abdgalaxy36-code/galaxy-a37-root)
 - [cyberbalsa/GhostLock-NVIDIA-Shield-9.2.4](https://github.com/cyberbalsa/GhostLock-NVIDIA-Shield-9.2.4)
+- [zenyxx-xd/RootMyVivo-Exploit](https://github.com/zenyxx-xd/RootMyVivo-Exploit)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -12844,6 +12857,7 @@
 </code>
 
 - [tar-xz/CVE-2026-53519-PoC](https://github.com/tar-xz/CVE-2026-53519-PoC)
+- [ivanesk315/CVE-2026-53519](https://github.com/ivanesk315/CVE-2026-53519)
 
 ### CVE-2026-53571 (2026-06-22)
 
@@ -13659,6 +13673,7 @@
 - [michael-kanda/Wp2shell-ioc-scanner](https://github.com/michael-kanda/Wp2shell-ioc-scanner)
 - [AdarshThakur14777-cyber/CVE-2026-60137](https://github.com/AdarshThakur14777-cyber/CVE-2026-60137)
 - [AbdullahMaqbool22/CVE-2026-60137-WordPress-Core-SQL-Injection-PoC](https://github.com/AbdullahMaqbool22/CVE-2026-60137-WordPress-Core-SQL-Injection-PoC)
+- [ivanesk315/CVE-2026-60137-and-CVE-2026-63030](https://github.com/ivanesk315/CVE-2026-60137-and-CVE-2026-63030)
 
 ### CVE-2026-60206 (2026-07-21)
 
@@ -14202,6 +14217,7 @@
 - [0xsha/KindaRails2Shell](https://github.com/0xsha/KindaRails2Shell)
 - [HackSpeak/CVE-2026-66066](https://github.com/HackSpeak/CVE-2026-66066)
 - [shinthink/CVE-2026-66066](https://github.com/shinthink/CVE-2026-66066)
+- [ivanesk315/CVE-2026-66066](https://github.com/ivanesk315/CVE-2026-66066)
 
 ### CVE-2026-66374 (2026-07-25)
 
@@ -14980,6 +14996,7 @@
 - [INFOKOM-KI/Zimbra-CVE-2026-73570-Rules](https://github.com/INFOKOM-KI/Zimbra-CVE-2026-73570-Rules)
 - [dahnutz/zimbra-cve-2026-73570-ir](https://github.com/dahnutz/zimbra-cve-2026-73570-ir)
 - [juanpoch/CVE-2026-73570](https://github.com/juanpoch/CVE-2026-73570)
+- [hainhc/CVE-2026-73570](https://github.com/hainhc/CVE-2026-73570)
 
 ### CVE-2026-73633 (2026-08-14)
 
@@ -30182,7 +30199,6 @@
 - [gl1tch0x1/PHP_8.1.x_Exploit](https://github.com/gl1tch0x1/PHP_8.1.x_Exploit)
 - [Kanak-CypherX/cve-2024-4577-lab](https://github.com/Kanak-CypherX/cve-2024-4577-lab)
 - [razureink/cve-2024-4577-phpcgi_rce_reproduction](https://github.com/razureink/cve-2024-4577-phpcgi_rce_reproduction)
-- [NKTriS/HTSOC](https://github.com/NKTriS/HTSOC)
 - [DuyDuongDuyDuong/CVE-2024-4577-Exploitation-AsyncRAT-Deployment-DFIR-Investigation](https://github.com/DuyDuongDuyDuong/CVE-2024-4577-Exploitation-AsyncRAT-Deployment-DFIR-Investigation)
 - [khwajasaad267-coder/cve-2024-4577-lab](https://github.com/khwajasaad267-coder/cve-2024-4577-lab)
 - [yeee3642/edu-recon](https://github.com/yeee3642/edu-recon)
@@ -43286,6 +43302,7 @@
 - [custiya/geoserver-CVE-2023-25157](https://github.com/custiya/geoserver-CVE-2023-25157)
 - [charis3306/CVE-2023-25157](https://github.com/charis3306/CVE-2023-25157)
 - [Giangdurian/CVE-2023-25157-GeoServer-SQLi-Lab](https://github.com/Giangdurian/CVE-2023-25157-GeoServer-SQLi-Lab)
+- [ivanesk315/CVE-2023-25157](https://github.com/ivanesk315/CVE-2023-25157)
 
 ### CVE-2023-25194 (2023-02-07)
 
@@ -64700,6 +64717,7 @@
 </code>
 
 - [leommxj/cve-2020-0022](https://github.com/leommxj/cve-2020-0022)
+- [idkwim/CVE-2020-0022](https://github.com/idkwim/CVE-2020-0022)
 - [k3vinlusec/Bluefrag_CVE-2020-0022](https://github.com/k3vinlusec/Bluefrag_CVE-2020-0022)
 - [Polo35/CVE-2020-0022](https://github.com/Polo35/CVE-2020-0022)
 - [5k1l/cve-2020-0022](https://github.com/5k1l/cve-2020-0022)
@@ -64707,13 +64725,6 @@
 - [devdanqtuan/poc-for-cve-2020-0022](https://github.com/devdanqtuan/poc-for-cve-2020-0022)
 - [themmokhtar/CVE-2020-0022](https://github.com/themmokhtar/CVE-2020-0022)
 - [kalibb/CVE-2020-0022](https://github.com/kalibb/CVE-2020-0022)
-
-### CVE-2020-0023 (2020-02-13)
-
-<code>In setPhonebookAccessPermission of AdapterService.java, there is a possible disclosure of user contacts over bluetooth due to a missing permission check. This could lead to local information disclosure if a malicious app enables contacts over a bluetooth connection, with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-145130871
-</code>
-
-- [362902755/CVE-2020-0023](https://github.com/362902755/CVE-2020-0023)
 
 ### CVE-2020-0041 (2020-03-10)
 
@@ -78318,6 +78329,7 @@
 - [NS-Sp4ce/thinkphp5.XRce](https://github.com/NS-Sp4ce/thinkphp5.XRce)
 - [yilin1203/CVE-2018-20062](https://github.com/yilin1203/CVE-2018-20062)
 - [shenhui35/RedArrow](https://github.com/shenhui35/RedArrow)
+- [Jasper2018/CVE-2018-20062](https://github.com/Jasper2018/CVE-2018-20062)
 
 ### CVE-2018-20148 (2018-12-14)
 
@@ -78755,6 +78767,7 @@
 - [0xBlackash/CVE-2017-0144](https://github.com/0xBlackash/CVE-2017-0144)
 - [probablysecure/Triage-CVE-2017-0144](https://github.com/probablysecure/Triage-CVE-2017-0144)
 - [KitSkater/legacyshield-CVE-2017-0144](https://github.com/KitSkater/legacyshield-CVE-2017-0144)
+- [quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144](https://github.com/quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144)
 
 ### CVE-2017-0145 (2017-03-17)
 
@@ -81672,6 +81685,13 @@
 </code>
 
 - [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
+
+### CVE-2016-3223 (2016-06-16)
+
+<code>Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 mishandle LDAP authentication, which allows man-in-the-middle attackers to gain privileges by modifying group-policy update data within a domain-controller data stream, aka &quot;Group Policy Elevation of Privilege Vulnerability.&quot;
+</code>
+
+- [HORKimhab/CVE-2016-3223](https://github.com/HORKimhab/CVE-2016-3223)
 
 ### CVE-2016-3238 (2016-07-13)
 
