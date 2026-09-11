@@ -9232,7 +9232,11 @@
 ### CVE-2026-36374
 - [RRespxwnss/CVE-2026-36374](https://github.com/RRespxwnss/CVE-2026-36374)
 
-### CVE-2026-36392
+### CVE-2026-36392 (2026-09-10)
+
+<code>FairSketch Rise CRM Version 3.9.6 is vulnerable to Cross Site Scripting (XSS). An authenticated administrator can inject arbitrary JavaScript into an item's title, which is stored server-side and executed in the browser of any client user who visits the store page, enabling session hijacking, account takeover, and phishing.
+</code>
+
 - [moksh-nfsu/CVE-2026-36392](https://github.com/moksh-nfsu/CVE-2026-36392)
 
 ### CVE-2026-36425 (2026-07-16)
@@ -10106,6 +10110,7 @@
 - [ADScanPro/CVE-2026-41089-LongLogon](https://github.com/ADScanPro/CVE-2026-41089-LongLogon)
 - [HydraSoft/CVE-2026-41089-Netlogon-RCE](https://github.com/HydraSoft/CVE-2026-41089-Netlogon-RCE)
 - [opensource-arrozconpollo191/CVE-2026-41089-Netlogon-RCE](https://github.com/opensource-arrozconpollo191/CVE-2026-41089-Netlogon-RCE)
+- [ZeroDayVPN/CVE-2026-41089-Netlogon](https://github.com/ZeroDayVPN/CVE-2026-41089-Netlogon)
 
 ### CVE-2026-41091 (2026-05-20)
 
@@ -15645,6 +15650,13 @@
 
 ### CVE-2026-87009
 - [squeeze440/inference-gateway-PoC](https://github.com/squeeze440/inference-gateway-PoC)
+
+### CVE-2026-87491 (2026-09-09)
+
+<code>Out of bounds write in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)
+</code>
+
+- [SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter](https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
