@@ -4288,6 +4288,13 @@
 
 - [Hunt-Benito/mediatek-wlan-heap-overflow-cve-2026-20452-filogic-router-rce](https://github.com/Hunt-Benito/mediatek-wlan-heap-overflow-cve-2026-20452-filogic-router-rce)
 
+### CVE-2026-20516 (2026-09-07)
+
+<code>In MiracastService, there is a possible escalation of privilege due to a confused deputy. This could lead to local denial of service with User execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS11060069 / DTV04881615; Issue ID: MSV-7882.
+</code>
+
+- [Dingo97/CVE-2026-20516](https://github.com/Dingo97/CVE-2026-20516)
+
 ### CVE-2026-20637 (2026-03-25)
 
 <code>A use after free issue was addressed with improved memory management. This issue is fixed in iOS 18.7.7 and iPadOS 18.7.7, iOS 26.3 and iPadOS 26.3, macOS Sequoia 15.7.5, macOS Sonoma 14.8.5, macOS Tahoe 26.3, tvOS 26.3, visionOS 26.3, watchOS 26.3. An app may be able to cause unexpected system termination.
@@ -5107,6 +5114,7 @@
 
 - [semgrep/cve-2026-22732-demo](https://github.com/semgrep/cve-2026-22732-demo)
 - [moderneinc/rewrite-cve-2026-22732](https://github.com/moderneinc/rewrite-cve-2026-22732)
+- [dylan-chainguard/cve-2026-22732-poc](https://github.com/dylan-chainguard/cve-2026-22732-poc)
 
 ### CVE-2026-22738 (2026-03-27)
 
@@ -8299,6 +8307,7 @@
 - [e4zyy/Project-CVE-2026-33017](https://github.com/e4zyy/Project-CVE-2026-33017)
 - [ahseven/CVE-2026-33017-PoC-Reverse-Shell](https://github.com/ahseven/CVE-2026-33017-PoC-Reverse-Shell)
 - [maxprog-svg/CVE-2026-33017](https://github.com/maxprog-svg/CVE-2026-33017)
+- [MaximilianoMeyer/CVE-2026-33017](https://github.com/MaximilianoMeyer/CVE-2026-33017)
 
 ### CVE-2026-33032 (2026-03-30)
 
@@ -10126,6 +10135,7 @@
 - [HydraSoft/CVE-2026-41089-Netlogon-RCE](https://github.com/HydraSoft/CVE-2026-41089-Netlogon-RCE)
 - [opensource-arrozconpollo191/CVE-2026-41089-Netlogon-RCE](https://github.com/opensource-arrozconpollo191/CVE-2026-41089-Netlogon-RCE)
 - [ZeroDayVPN/CVE-2026-41089-Netlogon](https://github.com/ZeroDayVPN/CVE-2026-41089-Netlogon)
+- [SyntaxMethod/CVE-2026-41089-Netlogon-RCE-PoC](https://github.com/SyntaxMethod/CVE-2026-41089-Netlogon-RCE-PoC)
 
 ### CVE-2026-41091 (2026-05-20)
 
@@ -11426,6 +11436,13 @@
 </code>
 
 - [HORKimhab/CVE-2026-45659](https://github.com/HORKimhab/CVE-2026-45659)
+
+### CVE-2026-45674 (2026-06-12)
+
+<code>Netty is a network application framework for development of protocol servers and clients. Prior to versions 4.1.135.Final and 4.2.15.Final, Netty's DnsResolveContext fails to validate the origin (bailiwick) of CNAME records in DNS responses. Versions 4.1.135.Final and 4.2.15.Final patch the issue.
+</code>
+
+- [xiaoqiMikko/netty-resolver-dns-check](https://github.com/xiaoqiMikko/netty-resolver-dns-check)
 
 ### CVE-2026-45729 (2026-06-01)
 
@@ -15428,12 +15445,23 @@
 
 - [eddinos2/CVE-2026-78938](https://github.com/eddinos2/CVE-2026-78938)
 
+### CVE-2026-78997 (2026-09-08)
+
+<code>UC Browser for Android (package com.UCMobile.intl, version 13.7.8.1314) contains a Universal Cross-Site Scripting vulnerability that allows an attacker to execute arbitrary JavaScript in the context of any origin. An attacker hosts a specially crafted URL on a UC-owned domain (via a reflected XSS) that leverages the browser's internal JavaScript bridge to register a deferred callback, navigate the tab to a victim site, and then execute attacker-controlled code on that site when a login dialog is dismissed.
+</code>
+
+- [Hunt-Benito/the-callback-that-outlived-the-page-cve-2026-78997-uc-browser-android-universal-xss](https://github.com/Hunt-Benito/the-callback-that-outlived-the-page-cve-2026-78997-uc-browser-android-universal-xss)
+
 ### CVE-2026-79266 (2026-08-25)
 
 <code>Use after free in DevTools in Google Chrome prior to 152.0.7977.65 allowed a remote attacker leveraging social engineering to execute arbitrary code inside the sandbox via a crafted Chrome extension. (Chromium security severity: Medium)
 </code>
 
 - [virologi-info/chrome-vuln-scanner](https://github.com/virologi-info/chrome-vuln-scanner)
+
+### CVE-2026-79298
+- [TheMalwareGuardian/UEFI-Security-Research-Howyar-SysReturn-NetCopy](https://github.com/TheMalwareGuardian/UEFI-Security-Research-Howyar-SysReturn-NetCopy)
+- [TheMalwareGuardian/CVE-2026-79298](https://github.com/TheMalwareGuardian/CVE-2026-79298)
 
 ### CVE-2026-79303
 - [4ybrick/CVE-2026-79303](https://github.com/4ybrick/CVE-2026-79303)
@@ -15509,7 +15537,6 @@
 - [R0x19/CVE-2026-82222](https://github.com/R0x19/CVE-2026-82222)
 - [0xCyp1337/CVE-2026-82222-MassExploit](https://github.com/0xCyp1337/CVE-2026-82222-MassExploit)
 - [GhostlyrootB2H/CVE-2026-82222](https://github.com/GhostlyrootB2H/CVE-2026-82222)
-- [sajjadsiam/CVE-2026-82222-PoC](https://github.com/sajjadsiam/CVE-2026-82222-PoC)
 
 ### CVE-2026-82286 (2026-08-28)
 
@@ -15616,6 +15643,9 @@
 
 - [ChewKeanHo/research-cve-2026-85649](https://github.com/ChewKeanHo/research-cve-2026-85649)
 
+### CVE-2026-85706
+- [FlowerWitch/CVE-2026-85706_docker_exp](https://github.com/FlowerWitch/CVE-2026-85706_docker_exp)
+
 ### CVE-2026-85769 (2026-09-04)
 
 <code>A flaw was found in libtpms, a library that provides software TPM 2.0 emulation. When restoring TPM 2.0 state (for example during a virtual machine's power-on or state/migration restore), a malformed state blob can supply an oversized skip-block length that is not validated against the remaining size of the input buffer. This can drive an internal size counter negative, which bypasses a subsequent bounds check due to an unsafe signed-to-unsigned conversion, causing the parser to read memory outside the bounds of the heap buffer holding the state data. Successful exploitation can crash the process hosting libtpms (such as swtpm), resulting in a denial of service of the emulated TPM device and the virtual machine that depends on it. No data corruption or information disclosure was confirmed.
@@ -15679,6 +15709,13 @@
 </code>
 
 - [SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter](https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter)
+
+### CVE-2026-88861 (2026-09-10)
+
+<code>Capgo (Cap-go/capgo.app) contains an authentication bypass affecting all versions (no patched version available at time of publication). The Edge authorization path allows a password-only Supabase aal1 session to exercise privileged RBAC permissions even when the account has a verified MFA factor that has not been used for the session: the Edge JWT middleware (foundJWT() in supabase/functions/_backend/utils/hono_middleware.ts) accepts the JWT without validating its assurance level, and the direct RBAC path (checkPermission()/checkPermissionPg() in supabase/functions/_backend/utils/rbac.ts calling public.rbac_check_permission_direct()) authorizes by user ID without passing or checking the session aal, unlike the public.verify_mfa() control which correctly requires aal2. An attacker who knows only the victim's password can therefore authenticate, mint a persistent app-scoped app_admin API key that remains valid after the aal1 session is logged out, and perform privileged operations such as modifying production OTA channel configurations (validated by changing a public production channel from bundle 1.0.0 to 1.0.1), defeating the protection provided by MFA.
+</code>
+
+- [franklincg/secdim-assurance-drift-challenge](https://github.com/franklincg/secdim-assurance-drift-challenge)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -16369,7 +16406,6 @@
 <code>An arbitrary write vulnerability in Microsoft signed UEFI firmware allows for code execution of untrusted software. This allows an attacker to control its value, leading to arbitrary memory writes, including modification of critical firmware settings stored in NVRAM. Exploiting this vulnerability could enable security bypasses, persistence mechanisms, or full system compromise.
 </code>
 
-- [yonatanasd232132/TALKINGEBN](https://github.com/yonatanasd232132/TALKINGEBN)
 - [m4rm0k/talkingBen](https://github.com/m4rm0k/talkingBen)
 - [TheMalwareGuardian/CVE-2025-3052](https://github.com/TheMalwareGuardian/CVE-2025-3052)
 
@@ -30976,6 +31012,8 @@
 </code>
 
 - [TheMalwareGuardian/CVE-2024-7344](https://github.com/TheMalwareGuardian/CVE-2024-7344)
+- [TheMalwareGuardian/UEFI-Security-Research-Howyar-SysReturn-NetCopy](https://github.com/TheMalwareGuardian/UEFI-Security-Research-Howyar-SysReturn-NetCopy)
+- [TheMalwareGuardian/CVE-2026-79298](https://github.com/TheMalwareGuardian/CVE-2026-79298)
 
 ### CVE-2024-7399 (2024-08-09)
 
@@ -36392,13 +36430,6 @@
 </code>
 
 - [7Ragnarok7/CVE-2024-37888](https://github.com/7Ragnarok7/CVE-2024-37888)
-
-### CVE-2024-37890 (2024-06-17)
-
-<code>ws is an open source WebSocket client and server for Node.js. A request with a number of headers exceeding theserver.maxHeadersCount threshold could be used to crash a ws server. The vulnerability was fixed in ws@8.17.1 (e55e510) and backported to ws@7.5.10 (22c2876), ws@6.2.3 (eeb76d3), and ws@5.2.4 (4abd8f6). In vulnerable versions of ws, the issue can be mitigated in the following ways: 1. Reduce the maximum allowed length of the request headers using the --max-http-header-size=size and/or the maxHeaderSize options so that no more headers than the server.maxHeadersCount limit can be sent. 2. Set server.maxHeadersCount to 0 so that no limit is applied.
-</code>
-
-- [RazdoruNET/OMG_KILLER](https://github.com/RazdoruNET/OMG_KILLER)
 
 ### CVE-2024-38041 (2024-07-09)
 
@@ -86010,6 +86041,7 @@
 - [Tc-XoNoR/CVE-2010-2075](https://github.com/Tc-XoNoR/CVE-2010-2075)
 - [mishaqdev/cve-2010-2075-analysis](https://github.com/mishaqdev/cve-2010-2075-analysis)
 - [Elazab2005/unrealircd-backdoor-pentest-report](https://github.com/Elazab2005/unrealircd-backdoor-pentest-report)
+- [rhimavanth32-max/Metasploitable2-Reconnaissance-and-UnrealIRCd-Backdoor-Exploitation](https://github.com/rhimavanth32-max/Metasploitable2-Reconnaissance-and-UnrealIRCd-Backdoor-Exploitation)
 
 ### CVE-2010-2333 (2010-06-18)
 
