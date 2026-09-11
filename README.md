@@ -3834,6 +3834,14 @@
 
 - [nastar-id/CVE-2026-18315-PoC](https://github.com/nastar-id/CVE-2026-18315-PoC)
 
+### CVE-2026-18351 (2026-09-10)
+
+<code>The Drag and Drop File Upload for Elementor Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.6.0 via the elementor_file_upload function. This is due to insufficient file type validation in the is_file_type_valid() function, which uses the attacker-controlled 'type' parameter as regex keys in the MIME allowlist, allowing blacklist bypass via a crafted extension that sanitize_file_name() later normalizes to a PHP extension. This makes it possible for unauthenticated attackers to upload files that may be executable, which makes remote code execution possible.
+</code>
+
+- [ChiefYoru/Exploit-CVE-2026-18351](https://github.com/ChiefYoru/Exploit-CVE-2026-18351)
+- [JohenLastGen-JLG/CVE-2026-18351](https://github.com/JohenLastGen-JLG/CVE-2026-18351)
+
 ### CVE-2026-18366 (2026-08-12)
 
 <code>The Events Manager  WordPress plugin before 7.4.1 does not properly scope its capability mapping, discarding the access control decisions WordPress already made for unrelated privileged actions, which allows unauthenticated users to change the password of, escalate to Administrator, or delete any account whose user ID happens to match the ID of one of the Events Manager  WordPress plugin before 7.4.1's own posts.
@@ -5071,6 +5079,13 @@
 
 - [lukasz-rybak/CVE-2026-22692](https://github.com/lukasz-rybak/CVE-2026-22692)
 
+### CVE-2026-22706 (2026-05-14)
+
+<code>Strapi is an open source headless content management system. In Strapi versions prior to 5.33.3, changing or resetting a user's password did not invalidate the user's existing refresh-token sessions by default. The refresh-token invalidation step in the users-permissions and admin authentication controllers was conditional on a caller-supplied `deviceId`. When a password change or reset request did not include a `deviceId`, no refresh tokens were revoked, leaving every prior session active. An attacker who had previously obtained a refresh token could continue minting new access tokens after the legitimate user reset their password, allowing persistent unauthorized access for the lifetime of the refresh token (up to 30 days by default). Rotating credentials no longer terminated an active attacker session, defeating password reset as a containment measure. The patch in version 5.33.3 invalidates all refresh tokens associated with the user on every password change and password reset, regardless of whether a `deviceId` is supplied. A new device-scoped session is then issued to the caller as part of the response.
+</code>
+
+- [het-P301204/AfterLife](https://github.com/het-P301204/AfterLife)
+
 ### CVE-2026-22722 (2026-02-26)
 
 <code>A malicious actor with authenticated user privileges on a Windows based Workstation host may be able to cause a null pointer dereference error. To Remediate CVE-2026-22722, apply the patches listed in the &quot;Fixed version&quot; column of the 'Response Matrix'
@@ -5979,13 +5994,6 @@
 
 - [danaug23/detect_CVE-2026-25177](https://github.com/danaug23/detect_CVE-2026-25177)
 - [HORKimhab/CVE-2026-25177](https://github.com/HORKimhab/CVE-2026-25177)
-
-### CVE-2026-25194 (2026-08-11)
-
-<code>Out-of-bounds write in the firmware for the Intel(R) Slim Bootloader may allow a denial of service. System software adversary with a privileged user combined with a low complexity attack may enable denial of service. This result may potentially occur via local access when attack requirements are present without special internal knowledge and requires no user interaction. The potential vulnerability may impact the confidentiality (none), integrity (none) and availability (low) of the vulnerable system, resulting in subsequent system confidentiality (none), integrity (none) and availability (none) impacts.
-</code>
-
-- [DexSemon/CVE-2026-25194](https://github.com/DexSemon/CVE-2026-25194)
 
 ### CVE-2026-25197 (2026-04-03)
 
@@ -9011,6 +9019,13 @@
 </code>
 
 - [FilipeGaudard/CVE-2026-35045-PoC](https://github.com/FilipeGaudard/CVE-2026-35045-PoC)
+
+### CVE-2026-35194 (2026-05-15)
+
+<code>Code injection in SQL code generation in Apache Flink 1.15.0 through 1.20.x and 2.0.0 through 2.x allows authenticated users with query submission privileges to execute arbitrary code on TaskManagers via maliciously crafted SQL queries. The vulnerability affects JSON functions (1.15.0+) and LIKE expressions with ESCAPE clauses (1.17.0+). User-controlled strings are interpolated into generated Java code without proper escaping, allowing attackers to break out of string literals and inject arbitrary expressions.\n\nUsers are recommended to upgrade to either version 1.20.4, 2.0.2, 2.1.2 or 2.2.1, which fixes this issue.
+</code>
+
+- [DexSemon/CVE-2026-35194](https://github.com/DexSemon/CVE-2026-35194)
 
 ### CVE-2026-35196 (2026-04-14)
 
@@ -12624,6 +12639,9 @@
 ### CVE-2026-51954
 - [envincion1991-cmyk/CVE-2026-51954](https://github.com/envincion1991-cmyk/CVE-2026-51954)
 
+### CVE-2026-51990
+- [HORKimhab/CVE-2026-51990](https://github.com/HORKimhab/CVE-2026-51990)
+
 ### CVE-2026-51992
 - [TheLiimbo/CVE-2026-51992](https://github.com/TheLiimbo/CVE-2026-51992)
 
@@ -15471,6 +15489,9 @@
 
 - [0xTerror/CVE-2026-81780-Hash-Form](https://github.com/0xTerror/CVE-2026-81780-Hash-Form)
 
+### CVE-2026-81861
+- [abhinavagarwal07/scadapack-secure-lock-poc](https://github.com/abhinavagarwal07/scadapack-secure-lock-poc)
+
 ### CVE-2026-82221 (2026-08-31)
 
 <code>Unauthenticated Cross Site Scripting (XSS) in RegistrationMagic &lt;= 6.0.9.8 versions.
@@ -15488,6 +15509,7 @@
 - [R0x19/CVE-2026-82222](https://github.com/R0x19/CVE-2026-82222)
 - [0xCyp1337/CVE-2026-82222-MassExploit](https://github.com/0xCyp1337/CVE-2026-82222-MassExploit)
 - [GhostlyrootB2H/CVE-2026-82222](https://github.com/GhostlyrootB2H/CVE-2026-82222)
+- [sajjadsiam/CVE-2026-82222-PoC](https://github.com/sajjadsiam/CVE-2026-82222-PoC)
 
 ### CVE-2026-82286 (2026-08-28)
 
@@ -53971,6 +53993,13 @@
 
 - [quynhlab/CVE-2022-29885](https://github.com/quynhlab/CVE-2022-29885)
 - [iveresk/CVE-2022-29885](https://github.com/iveresk/CVE-2022-29885)
+
+### CVE-2022-29900 (2022-07-12)
+
+<code>Mis-trained branch predictions for return instructions may allow arbitrary speculative code execution under certain microarchitecture-dependent conditions.
+</code>
+
+- [abdul-kalam2000/retbleed-speculative-execution-poc](https://github.com/abdul-kalam2000/retbleed-speculative-execution-poc)
 
 ### CVE-2022-29932 (2022-05-11)
 
