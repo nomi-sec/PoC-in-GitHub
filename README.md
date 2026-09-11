@@ -3588,6 +3588,13 @@
 
 - [FzRsLLaSheR/CVE-2026-14960-CVE-2026-14961](https://github.com/FzRsLLaSheR/CVE-2026-14960-CVE-2026-14961)
 
+### CVE-2026-14962 (2026-09-09)
+
+<code>The ELEX WooCommerce Request a Quote WordPress plugin before 2.4.1 does not properly sanitise and escape a parameter before using it in a SQL query, allowing unauthenticated users to perform SQL injection attacks and extract arbitrary data from the database.
+</code>
+
+- [cflowsec/CVE-2026-14962](https://github.com/cflowsec/CVE-2026-14962)
+
 ### CVE-2026-15013 (2026-07-16)
 
 <code>The SAML Single Sign On – SSO Login plugin for WordPress is vulnerable to Authentication Bypass via SAML Signature Algorithm Confusion in all versions up to, and including, 5.4.3. The vulnerability exists because `Mo_SAML_Utilities::mo_saml_cast_key()` reads the `SignatureMethod` Algorithm attribute directly from the attacker-controlled `SAMLResponse` parameter rather than enforcing the locally configured algorithm, causing the plugin to recast the IdP's RSA public key as an HMAC-SHA1 shared secret and validate the forged signature against it. This makes it possible for unauthenticated attackers to forge a SAML assertion targeting any WordPress account — including administrators — obtain valid WordPress authentication cookies, and achieve full administrator-level account takeover.
@@ -3601,6 +3608,13 @@
 </code>
 
 - [Polosss/By-Poloss..-..CVE-2026-15038-POC](https://github.com/Polosss/By-Poloss..-..CVE-2026-15038-POC)
+
+### CVE-2026-15253 (2026-08-19)
+
+<code>The Easy Media Replace WordPress plugin through 0.2.0 does not sanitise and escape an attachment title before outputting it in an HTML attribute in the media library list view, allowing users with the Author role and above to inject arbitrary web scripts that are executed in the browser of a higher privileged user who views the media library.
+</code>
+
+- [testardou/CVE-2026-15253](https://github.com/testardou/CVE-2026-15253)
 
 ### CVE-2026-15282 (2026-07-10)
 
@@ -3662,6 +3676,13 @@
 </code>
 
 - [IamDremig/CVE-2026-15598](https://github.com/IamDremig/CVE-2026-15598)
+
+### CVE-2026-15667 (2026-09-09)
+
+<code>The Eventin – Event Calendar, Event Registration, Tickets &amp; Booking (AI Powered) plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 4.1.22 via the 'event_layout' parameter parameter. This makes it possible for authenticated attackers, with contributor-level access and above, to include and execute arbitrary .php files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where .php file types can be uploaded and included. The etn_manage_event capability is assigned to Contributors by default, meaning any Contributor-level user can set the malicious event_layout value via the REST API without any additional configuration.
+</code>
+
+- [cflowsec/CVE-2026-15667](https://github.com/cflowsec/CVE-2026-15667)
 
 ### CVE-2026-15706 (2026-08-20)
 
@@ -4084,6 +4105,13 @@
 </code>
 
 - [drbloop2000/CVE-2026-19745](https://github.com/drbloop2000/CVE-2026-19745)
+
+### CVE-2026-19794 (2026-08-14)
+
+<code>The WP-Stats plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 2.56 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
+- [testardou/CVE-2026-19794](https://github.com/testardou/CVE-2026-19794)
 
 ### CVE-2026-19843 (2026-09-07)
 
@@ -6171,6 +6199,13 @@
 
 - [jduardo2704/CVE-2026-25643-Frigate-RCE](https://github.com/jduardo2704/CVE-2026-25643-Frigate-RCE)
 - [joshuavanderpoll/CVE-2026-25643](https://github.com/joshuavanderpoll/CVE-2026-25643)
+
+### CVE-2026-25645 (2026-03-25)
+
+<code>Requests is a HTTP library. Prior to version 2.33.0, the `requests.utils.extract_zipped_paths()` utility function uses a predictable filename when extracting files from zip archives into the system temporary directory. If the target file already exists, it is reused without validation. A local attacker with write access to the temp directory could pre-create a malicious file that would be loaded in place of the legitimate one. Standard usage of the Requests library is not affected by this vulnerability. Only applications that call `extract_zipped_paths()` directly are impacted. Starting in version 2.33.0, the library extracts files to a non-deterministic location. If developers are unable to upgrade, they can set `TMPDIR` in their environment to a directory with restricted write access.
+</code>
+
+- [Jaycelation/CVE-2026-25645](https://github.com/Jaycelation/CVE-2026-25645)
 
 ### CVE-2026-25676 (2026-02-12)
 
@@ -8570,6 +8605,7 @@
 <code>Cocos AI is a confidential computing system for AI. The current implementation of attested TLS (aTLS) in CoCoS is vulnerable to a relay attack affecting all versions from v0.4.0 through v0.8.2. This vulnerability is present in both the AMD SEV-SNP and Intel TDX deployment targets supported by CoCoS. In the affected design, an attacker may be able to extract the ephemeral TLS private key used during the intra-handshake attestation. Because the attestation evidence is bound to the ephemeral key but not to the TLS channel, possession of that key is sufficient to relay or divert the attested TLS session. A client will accept the connection under false assumptions about the endpoint it is communicating with — the attestation report cannot distinguish the genuine attested service from the attacker's relay. This undermines the intended authentication guarantees of attested TLS. A successful attack may allow an attacker to impersonate an attested CoCoS service and access data or operations that the client intended to send only to the genuine attested endpoint. Exploitation requires the attacker to first extract the ephemeral TLS private key, which is possible through physical access to the server hardware, transient execution attacks, or side-channel attacks. Note that the aTLS implementation was fully redesigned in v0.7.0, but the redesign does not address this vulnerability. The relay attack weakness is architectural and affects all releases in the v0.4.0–v0.8.2 range. This vulnerability class was formally analyzed and demonstrated across multiple attested TLS implementations, including CoCoS, by researchers whose findings were disclosed to the IETF TLS Working Group. Formal verification was conducted using ProVerif. As of time of publication, there is no patch available. No complete workaround is available. The following hardening measures reduce but do not eliminate the risk: Keep TEE firmware and microcode up to date to reduce the key-extraction surface; define strict attestation policies that validate all available report fields, including firmware versions, TCB levels, and platform configuration registers; and/or enable mutual aTLS with CA-signed certificates where deployment architecture permits.
 </code>
 
+- [muhammad-usama-sardar/intra-handshake-fail](https://github.com/muhammad-usama-sardar/intra-handshake-fail)
 - [pduggusa/dugganusa-ietf](https://github.com/pduggusa/dugganusa-ietf)
 
 ### CVE-2026-33701 (2026-03-27)
@@ -9869,13 +9905,14 @@
 - [vanhari/CVE-2026-39987](https://github.com/vanhari/CVE-2026-39987)
 - [Wind010/CVE-2026-39987_PoC](https://github.com/Wind010/CVE-2026-39987_PoC)
 - [alreadyClosed/CVE-2026-39987](https://github.com/alreadyClosed/CVE-2026-39987)
+- [iapetus12/cohort-htb](https://github.com/iapetus12/cohort-htb)
 - [MADA0L/CVE-2026-39987-Poc](https://github.com/MADA0L/CVE-2026-39987-Poc)
 - [matesz44/cve-2026-39987](https://github.com/matesz44/cve-2026-39987)
 - [K3ysTr0K3R/CVE-2026-39987](https://github.com/K3ysTr0K3R/CVE-2026-39987)
 - [dodeepsink/CVE-2026-39987.py](https://github.com/dodeepsink/CVE-2026-39987.py)
 - [Ghxstsec/CVE-2026-39987](https://github.com/Ghxstsec/CVE-2026-39987)
 - [stapat1245/CVE-2026-39987-PoC](https://github.com/stapat1245/CVE-2026-39987-PoC)
-- [Th3Purge/CVE-2026-39987](https://github.com/Th3Purge/CVE-2026-39987)
+- [julichaan/CVE-2026-39987_POC](https://github.com/julichaan/CVE-2026-39987_POC)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -10882,10 +10919,10 @@
 - [NothingFumo/ghostlock-aresin](https://github.com/NothingFumo/ghostlock-aresin)
 - [CatXiaoShi/cve-2026-43499](https://github.com/CatXiaoShi/cve-2026-43499)
 - [fusiondrive/CVE-2026-43499-A36](https://github.com/fusiondrive/CVE-2026-43499-A36)
-- [1ndevelopment/CVE-2026-43499-S26](https://github.com/1ndevelopment/CVE-2026-43499-S26)
 - [veygax/HORiZonstack](https://github.com/veygax/HORiZonstack)
 - [boxiaolanya2008/CVE-2026-43499-Neo11Plus](https://github.com/boxiaolanya2008/CVE-2026-43499-Neo11Plus)
 - [alex193a/Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel)
+- [SammyEnigma/CVE-2026-43499-S26](https://github.com/SammyEnigma/CVE-2026-43499-S26)
 - [jason5545/ghostlock-myron-tw](https://github.com/jason5545/ghostlock-myron-tw)
 - [eroorvbsyes-hotmail/CVE-2026-43499_x86_Exploit](https://github.com/eroorvbsyes-hotmail/CVE-2026-43499_x86_Exploit)
 - [oopnv70-lab/ghostlock-honor-aak](https://github.com/oopnv70-lab/ghostlock-honor-aak)
@@ -10941,6 +10978,7 @@
 - [abdgalaxy36-code/galaxy-a37-root](https://github.com/abdgalaxy36-code/galaxy-a37-root)
 - [cyberbalsa/GhostLock-NVIDIA-Shield-9.2.4](https://github.com/cyberbalsa/GhostLock-NVIDIA-Shield-9.2.4)
 - [zenyxx-xd/RootMyVivo-Exploit](https://github.com/zenyxx-xd/RootMyVivo-Exploit)
+- [hui191/cve-2026-43499-aak-an00](https://github.com/hui191/cve-2026-43499-aak-an00)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -14189,6 +14227,13 @@
 - [panchocosil/CVE-2026-65400-poc](https://github.com/panchocosil/CVE-2026-65400-poc)
 - [acheong08/CVE-2026-65400](https://github.com/acheong08/CVE-2026-65400)
 
+### CVE-2026-65540 (2026-07-23)
+
+<code>Unauthenticated Cross Site Request Forgery (CSRF) in Popup for CF7 with Sweet Alert &lt;= 1.6.5 versions.
+</code>
+
+- [testardou/CVE-2026-65540](https://github.com/testardou/CVE-2026-65540)
+
 ### CVE-2026-65591 (2026-07-22)
 
 <code>n8n contains a sanitizer bypass vulnerability in the legacy expression evaluator's computed-member handler. An authenticated user with workflow create or modify permissions can craft a malicious expression to bypass the sanitizer and achieve host-level code execution as the n8n process. The legacy expression engine is the default in affected versions. Fixed in n8n 1.123.64, 2.29.8, and 2.30.1.
@@ -15459,6 +15504,9 @@
 
 - [virologi-info/chrome-vuln-scanner](https://github.com/virologi-info/chrome-vuln-scanner)
 
+### CVE-2026-79294
+- [MGTx2/CVE-2026-79294](https://github.com/MGTx2/CVE-2026-79294)
+
 ### CVE-2026-79298
 - [TheMalwareGuardian/UEFI-Security-Research-Howyar-SysReturn-NetCopy](https://github.com/TheMalwareGuardian/UEFI-Security-Research-Howyar-SysReturn-NetCopy)
 - [TheMalwareGuardian/CVE-2026-79298](https://github.com/TheMalwareGuardian/CVE-2026-79298)
@@ -15517,7 +15565,11 @@
 
 - [0xTerror/CVE-2026-81780-Hash-Form](https://github.com/0xTerror/CVE-2026-81780-Hash-Form)
 
-### CVE-2026-81861
+### CVE-2026-81861 (2026-09-11)
+
+<code>CWE-522: Insufficiently Protected Credentials vulnerability that could result in exposure of authentication information and unauthorized access to RTU functionality.
+</code>
+
 - [abhinavagarwal07/scadapack-secure-lock-poc](https://github.com/abhinavagarwal07/scadapack-secure-lock-poc)
 
 ### CVE-2026-82221 (2026-08-31)
@@ -15629,6 +15681,13 @@
 - [SneakyNachos/CVE-2026-85046-who-put-the-silverback-guerilla-in-the-wasm](https://github.com/SneakyNachos/CVE-2026-85046-who-put-the-silverback-guerilla-in-the-wasm)
 - [atiilla/CVE-2026-85046](https://github.com/atiilla/CVE-2026-85046)
 
+### CVE-2026-85612 (2026-09-04)
+
+<code>OpenPanel before 2.3.0 contains an unauthenticated server-side request forgery vulnerability in the /misc/favicon and /misc/og endpoints that accept an attacker-supplied url parameter with insufficient validation. Attackers can force the API to fetch arbitrary internal hosts and cloud metadata endpoints, with small responses returned verbatim enabling credential theft and internal service enumeration.
+</code>
+
+- [hotplugin0x01/CVE-2026-85612](https://github.com/hotplugin0x01/CVE-2026-85612)
+
 ### CVE-2026-85625 (2026-09-04)
 
 <code>sift (sift.js) 17.1.3 enumerates query keys with for...in, which walks the object prototype chain, and dispatches any matched operator key including $where. The $where operation compiles a string value into a function using new Function unless CSP_ENABLED is set (not set by default). As a result, if a prototype-pollution primitive elsewhere in the process sets Object.prototype.$where to a malicious string, even benign filter calls such as sift({}) execute arbitrary JavaScript. Additionally, passing an untrusted query object containing a string $where directly to sift results in code execution under the default configuration.
@@ -15645,6 +15704,9 @@
 
 ### CVE-2026-85706
 - [FlowerWitch/CVE-2026-85706_docker_exp](https://github.com/FlowerWitch/CVE-2026-85706_docker_exp)
+- [guneykabel/cve-2026-85706](https://github.com/guneykabel/cve-2026-85706)
+- [solivaquaant/CVE-2026-85706-PoC](https://github.com/solivaquaant/CVE-2026-85706-PoC)
+- [mhtsec/CVE-2026-85706](https://github.com/mhtsec/CVE-2026-85706)
 
 ### CVE-2026-85769 (2026-09-04)
 
@@ -22328,6 +22390,13 @@
 
 - [keymaker-arch/KSMBDrain](https://github.com/keymaker-arch/KSMBDrain)
 
+### CVE-2025-38502 (2025-08-16)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Fix oob access in cgroup local storage\n\nLonial reported that an out-of-bounds access in cgroup local storage\ncan be crafted via tail calls. Given two programs each utilizing a\ncgroup local storage with a different value size, and one program\ndoing a tail call into the other. The verifier will validate each of\nthe indivial programs just fine. However, in the runtime context\nthe bpf_cg_run_ctx holds an bpf_prog_array_item which contains the\nBPF program as well as any cgroup local storage flavor the program\nuses. Helpers such as bpf_get_local_storage() pick this up from the\nruntime context:\n\n  ctx = container_of(current-&gt;bpf_ctx, struct bpf_cg_run_ctx, run_ctx);\n  storage = ctx-&gt;prog_item-&gt;cgroup_storage[stype];\n\n  if (stype == BPF_CGROUP_STORAGE_SHARED)\n    ptr = &amp;READ_ONCE(storage-&gt;buf)-&gt;data[0];\n  else\n    ptr = this_cpu_ptr(storage-&gt;percpu_buf);\n\nFor the second program which was called from the originally attached\none, this means bpf_get_local_storage() will pick up the former\nprogram's map, not its own. With mismatching sizes, this can result\nin an unintended out-of-bounds access.\n\nTo fix this issue, we need to extend bpf_map_owner with an array of\nstorage_cookie[] to match on i) the exact maps from the original\nprogram if the second program was using bpf_get_local_storage(), or\nii) allow the tail call combination if the second program was not\nusing any of the cgroup local storage maps.
+</code>
+
+- [abraxas/CVE-2025-38502-Linux-LPE](https://github.com/abraxas/CVE-2025-38502-Linux-LPE)
+
 ### CVE-2025-38561 (2025-08-19)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix Preauh_HashValue race condition\n\nIf client send multiple session setup requests to ksmbd,\nPreauh_HashValue race condition could happen.\nThere is no need to free sess-&gt;Preauh_HashValue at session setup phase.\nIt can be freed together with session at connection termination phase.
@@ -25437,6 +25506,7 @@
 - [ChrisBarack/cve-2025-55182](https://github.com/ChrisBarack/cve-2025-55182)
 - [Bluex707/React2Shell-CVE-2025-55182-Exploit](https://github.com/Bluex707/React2Shell-CVE-2025-55182-Exploit)
 - [r3vpwnx/CVE-2025-55182](https://github.com/r3vpwnx/CVE-2025-55182)
+- [iapetus12/hackcar-writeup](https://github.com/iapetus12/hackcar-writeup)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -27867,7 +27937,6 @@
 - [abtonc/next-cve-2025-66478](https://github.com/abtonc/next-cve-2025-66478)
 - [wangxso/CVE-2025-66478-POC](https://github.com/wangxso/CVE-2025-66478-POC)
 - [Malayke/Next.js-RSC-RCE-Scanner-CVE-2025-66478](https://github.com/Malayke/Next.js-RSC-RCE-Scanner-CVE-2025-66478)
-- [mattcbarrett/check-cve-2025-66478](https://github.com/mattcbarrett/check-cve-2025-66478)
 - [hackersatyamrastogi/react2shell-ultimate](https://github.com/hackersatyamrastogi/react2shell-ultimate)
 - [vercel-labs/fix-react2shell-next](https://github.com/vercel-labs/fix-react2shell-next)
 - [namest504/CVE-2025-66478-Exploit-Poc](https://github.com/namest504/CVE-2025-66478-Exploit-Poc)
@@ -35047,6 +35116,13 @@
 </code>
 
 - [Alchemist3dot14/CVE-2024-30270-PoC](https://github.com/Alchemist3dot14/CVE-2024-30270-PoC)
+
+### CVE-2024-30350 (2024-04-02)
+
+<code>Foxit PDF Reader Annotation Out-Of-Bounds Read Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the handling of Annotation objects. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Was ZDI-CAN-22708.
+</code>
+
+- [lmx-071028/cve-2024-30350-research-notes](https://github.com/lmx-071028/cve-2024-30350-research-notes)
 
 ### CVE-2024-30485 (2024-06-09)
 
@@ -55015,6 +55091,27 @@
 </code>
 
 - [watchtowrlabs/CVE-2022-34298](https://github.com/watchtowrlabs/CVE-2022-34298)
+
+### CVE-2022-34301 (2022-08-26)
+
+<code>A flaw was found in CryptoPro Secure Disk bootloaders before 2022-06-01. An attacker may use this bootloader to bypass or tamper with Secure Boot protections. In order to load and execute arbitrary code in the pre-boot stage, an attacker simply needs to replace the existing signed bootloader currently in use with this bootloader. Access to the EFI System Partition is required for booting using external media.
+</code>
+
+- [TheMalwareGuardian/CVE-2022-34301](https://github.com/TheMalwareGuardian/CVE-2022-34301)
+
+### CVE-2022-34302 (2022-08-26)
+
+<code>A flaw was found in New Horizon Datasys bootloaders before 2022-06-01. An attacker may use this bootloader to bypass or tamper with Secure Boot protections. In order to load and execute arbitrary code in the pre-boot stage, an attacker simply needs to replace the existing signed bootloader currently in use with this bootloader. Access to the EFI System Partition is required for booting using external media.
+</code>
+
+- [TheMalwareGuardian/CVE-2022-34302](https://github.com/TheMalwareGuardian/CVE-2022-34302)
+
+### CVE-2022-34303 (2022-08-26)
+
+<code>A flaw was found in Eurosoft bootloaders before 2022-06-01. An attacker may use this bootloader to bypass or tamper with Secure Boot protections. In order to load and execute arbitrary code in the pre-boot stage, an attacker simply needs to replace the existing signed bootloader currently in use with this bootloader. Access to the EFI System Partition is required for booting using external media.
+</code>
+
+- [TheMalwareGuardian/CVE-2022-34303](https://github.com/TheMalwareGuardian/CVE-2022-34303)
 
 ### CVE-2022-34527 (2022-07-29)
 
@@ -87012,6 +87109,7 @@
 - [micheaol/distccd_rce_CVE-2004-2687](https://github.com/micheaol/distccd_rce_CVE-2004-2687)
 - [aish19siddiqua-commits/mtechweek_04](https://github.com/aish19siddiqua-commits/mtechweek_04)
 - [ocfagb/hacktivity-vulns-exploits-lab](https://github.com/ocfagb/hacktivity-vulns-exploits-lab)
+- [germarr93/CyberSecurity-Pentest-Lab](https://github.com/germarr93/CyberSecurity-Pentest-Lab)
 
 ### CVE-2004-6768
 - [yougboiz/Metasploit-CVE-2004-6768](https://github.com/yougboiz/Metasploit-CVE-2004-6768)
