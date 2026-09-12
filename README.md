@@ -747,6 +747,13 @@
 
 - [VivianUba/grandstream-cve-2026-2329-analysis](https://github.com/VivianUba/grandstream-cve-2026-2329-analysis)
 
+### CVE-2026-2332 (2026-04-14)
+
+<code>In Eclipse Jetty, the HTTP/1.1 parser is vulnerable to request smuggling when chunk extensions are used, similar to the &quot;funky chunks&quot; techniques outlined here:\n  *  https://w4ke.info/2025/06/18/funky-chunks.html\n\n  *  https://w4ke.info/2025/10/29/funky-chunks-2.html\n\n\nJetty terminates chunk extension parsing at \r\n inside quoted strings instead of treating this as an error.\n\n\n\n\nPOST / HTTP/1.1\nHost: localhost\nTransfer-Encoding: chunked\n\n1;ext=&quot;val\nX\n0\n\nGET /smuggled HTTP/1.1\n...\n\n\n\n\n\nNote how the chunk extension does not close the double quotes, and it is able to inject a smuggled request.
+</code>
+
+- [xiaoqiMikko/jetty-line-check](https://github.com/xiaoqiMikko/jetty-line-check)
+
 ### CVE-2026-2395 (2026-07-22)
 
 <code>Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in Xpoda Türkiye Informatics Technology Inc. No Code Platform allows SQL Injection.\n\nThis issue affects No Code Platform: from 4.1.3 before 4.1.4.
@@ -10981,6 +10988,8 @@
 - [cyberbalsa/GhostLock-NVIDIA-Shield-9.2.4](https://github.com/cyberbalsa/GhostLock-NVIDIA-Shield-9.2.4)
 - [zenyxx-xd/RootMyVivo-Exploit](https://github.com/zenyxx-xd/RootMyVivo-Exploit)
 - [hui191/cve-2026-43499-aak-an00](https://github.com/hui191/cve-2026-43499-aak-an00)
+- [1ndevelopment/ghostlock-s26](https://github.com/1ndevelopment/ghostlock-s26)
+- [huaguiqi/asus_i005-CVE-2026-43499](https://github.com/huaguiqi/asus_i005-CVE-2026-43499)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15384,6 +15393,13 @@
 ### CVE-2026-77622
 - [Squ1shification/PNGboomer-CVE-2026-77622](https://github.com/Squ1shification/PNGboomer-CVE-2026-77622)
 
+### CVE-2026-77771 (2026-09-10)
+
+<code>The miniOrange 2FA  WordPress plugin before 6.3.1, miniOrange 2FA  WordPress plugin before 19.3 does not scope its second-factor attempt limit to the account being attacked, keying it instead to an identifier the client supplies and can change at will, allowing an attacker who already knows a victim's password to make unlimited one-time-passcode guesses and defeat the second factor. A second validation endpoint applies no attempt limit at all.
+</code>
+
+- [pervinzahidli/CVE-2026-77771](https://github.com/pervinzahidli/CVE-2026-77771)
+
 ### CVE-2026-77806 (2026-08-21)
 
 <code>SPIP before 4.4.21 allows unauthenticated remote attackers to execute arbitrary code, as exploited in the wild in August 2026. This is related to code injection via an X-Spip-Filtre HTTP request header that is mishandled by analyse_resultat_skel.
@@ -15397,6 +15413,13 @@
 </code>
 
 - [alkimcoskun/Yordam-Kutuphane-Otomasyonunda-Coklu-HTML-Enjeksiyonu](https://github.com/alkimcoskun/Yordam-Kutuphane-Otomasyonunda-Coklu-HTML-Enjeksiyonu)
+
+### CVE-2026-78006 (2026-09-12)
+
+<code>The The Events Calendar plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 6.17.4 via the is_safe_widget_instance function. This is due to insufficient protection in is_safe_widget_instance, which can be bypassed because PHP fires magic methods during its pre-parse, combined with enable_rendering_widget_copied() forging a valid wp_hash integrity attribute before unserialize() is reached. This makes it possible for unauthenticated attackers to execute code on the server. This is exploitable without authentication or approval because the plugin's V2 single-event template runs do_blocks() over buffered comment HTML, and WordPress returns a moderation-hash URL that allows an unauthenticated commenter to immediately view their own pending comment, delivering the injected block markup to the vulnerable code path before any moderation occurs. This does require comments to be enabled and visible on events.
+</code>
+
+- [DeadExpl0it/CVE-2026-78006-POC](https://github.com/DeadExpl0it/CVE-2026-78006-POC)
 
 ### CVE-2026-78070 (2026-08-28)
 
@@ -15542,6 +15565,13 @@
 </code>
 
 - [alpernae/CVE-2026-79617](https://github.com/alpernae/CVE-2026-79617)
+
+### CVE-2026-80099 (2026-09-09)
+
+<code>Several Newfold plugins are vulnerable to Authentication Bypass. The vulnerability exists because the plugins bundle the wp-module-data module. In the module, the `authenticate()` method — registered on the `rest_authentication_errors` filter and therefore evaluated for every unauthenticated REST API request — performs an HMAC-style Bearer token comparison that degenerates when `HiiveConnection::get_auth_token()` returns `false`: PHP coerces `strrev(false)` to `strrev('')`, collapsing the secret salt to the publicly known constant `hash('sha256', '') = e3b0c44...`, while all remaining hash inputs (HTTP method, request URL, raw request body, and the `X-Timestamp` header) remain fully attacker-controlled. This makes it possible for unauthenticated attackers to compute a valid Bearer token entirely offline, pass the token equality check, and have `wp_set_current_user()` invoked against the first administrator returned by `get_users(['role' =&gt; 'administrator'])`, granting full administrator-level access and enabling arbitrary REST API operations such as creating new administrator accounts and achieving complete site takeover. Vulnerable versions are WP Plugin Crazy Domains (&lt;= 2.5.2), WP Plugin Web (&lt;= 2.3.4), WP Plugin Hostgator (&lt;= 3.1.0), WP Plugin Bluehost (&lt;= 4.17.1). The affected module is vulnerable in versions up to, and including, 2.9.4.
+</code>
+
+- [Wayang1337/CVE-2026-80099](https://github.com/Wayang1337/CVE-2026-80099)
 
 ### CVE-2026-80428 (2026-08-26)
 
@@ -15720,6 +15750,7 @@
 - [solivaquaant/CVE-2026-85706-PoC](https://github.com/solivaquaant/CVE-2026-85706-PoC)
 - [mhtsec/CVE-2026-85706](https://github.com/mhtsec/CVE-2026-85706)
 - [ynsmroztas/GitLabSniper](https://github.com/ynsmroztas/GitLabSniper)
+- [jithinkrishnanrs/gitlab-cve-2026-85706-ioc](https://github.com/jithinkrishnanrs/gitlab-cve-2026-85706-ioc)
 
 ### CVE-2026-85769 (2026-09-04)
 
@@ -15741,6 +15772,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-86218](https://github.com/HORKimhab/CVE-2026-86218)
+- [jithinkrishnanrs/CVE-2026-86218-N-central-IOC-Toolkit](https://github.com/jithinkrishnanrs/CVE-2026-86218-N-central-IOC-Toolkit)
 
 ### CVE-2026-86547 (2026-09-09)
 
@@ -35467,7 +35499,7 @@
 - [dollarboysushil/CVE-2024-32019-Netdata-ndsudo-PATH-Vulnerability-Privilege-Escalation](https://github.com/dollarboysushil/CVE-2024-32019-Netdata-ndsudo-PATH-Vulnerability-Privilege-Escalation)
 - [juanbelin/CVE-2024-32019-POC](https://github.com/juanbelin/CVE-2024-32019-POC)
 - [C0deInBlack/CVE-2024-32019-poc](https://github.com/C0deInBlack/CVE-2024-32019-poc)
-- [sPhyos/cve-2024-32019-PoC](https://github.com/sPhyos/cve-2024-32019-PoC)
+- [ayub0x7/cve-2024-32019-PoC](https://github.com/ayub0x7/cve-2024-32019-PoC)
 - [x0da6h/POC-for-CVE-2024-32019](https://github.com/x0da6h/POC-for-CVE-2024-32019)
 - [T1erno/CVE-2024-32019-Netdata-ndsudo-Privilege-Escalation-PoC](https://github.com/T1erno/CVE-2024-32019-Netdata-ndsudo-Privilege-Escalation-PoC)
 - [hexared/CVE-2024-32019_poc](https://github.com/hexared/CVE-2024-32019_poc)
@@ -46869,7 +46901,6 @@
 
 - [vxcall/kur](https://github.com/vxcall/kur)
 - [SecSecBurger/CVE-2023-38817](https://github.com/SecSecBurger/CVE-2023-38817)
-- [T-thanha/echoac-poc](https://github.com/T-thanha/echoac-poc)
 
 ### CVE-2023-38820
 - [TraiLeR2/DLL-Planting-Slack-4.33.73-CVE-2023-38820](https://github.com/TraiLeR2/DLL-Planting-Slack-4.33.73-CVE-2023-38820)
@@ -78284,7 +78315,6 @@
 - [matlink/CVE-2018-17456](https://github.com/matlink/CVE-2018-17456)
 - [799600966/CVE-2018-17456](https://github.com/799600966/CVE-2018-17456)
 - [AnonymKing/CVE-2018-17456](https://github.com/AnonymKing/CVE-2018-17456)
-- [jiahuiLeee/test](https://github.com/jiahuiLeee/test)
 - [KKkai0315/CVE-2018-17456](https://github.com/KKkai0315/CVE-2018-17456)
 
 ### CVE-2018-17463 (2018-11-14)
