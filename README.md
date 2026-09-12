@@ -8123,7 +8123,7 @@
 
 - [solarlynxsqueeze/CVE-2026-32202](https://github.com/solarlynxsqueeze/CVE-2026-32202)
 - [virus-or-not/CVE-2026-32202](https://github.com/virus-or-not/CVE-2026-32202)
-- [asdrf5gh67j8ki/CVE-2026-32202](https://github.com/asdrf5gh67j8ki/CVE-2026-32202)
+- [f0xox/CVE-2026-32202](https://github.com/f0xox/CVE-2026-32202)
 
 ### CVE-2026-32223 (2026-04-14)
 
@@ -12614,6 +12614,7 @@
 - [watchtowrlabs/watchTowr-vs-Check-Point-CVE-2026-50751](https://github.com/watchtowrlabs/watchTowr-vs-Check-Point-CVE-2026-50751)
 - [WadesWeaponShed/CheckPoint-CVE-Webscanner](https://github.com/WadesWeaponShed/CheckPoint-CVE-Webscanner)
 - [e4zyy/Project-CVE-2026-50751](https://github.com/e4zyy/Project-CVE-2026-50751)
+- [uLl0a/CVE-2026-50751](https://github.com/uLl0a/CVE-2026-50751)
 
 ### CVE-2026-50787
 - [brynax/CVE-2026-50787](https://github.com/brynax/CVE-2026-50787)
@@ -15266,6 +15267,7 @@
 - [dinosn/cve-2026-75650-magento-validation-lab](https://github.com/dinosn/cve-2026-75650-magento-validation-lab)
 - [disrex-group/stylesmuggler-adobe-patches](https://github.com/disrex-group/stylesmuggler-adobe-patches)
 - [disrex-group/stylesmuggler-adobe-patches-mageos](https://github.com/disrex-group/stylesmuggler-adobe-patches-mageos)
+- [fortbridge/stylesmuggler](https://github.com/fortbridge/stylesmuggler)
 
 ### CVE-2026-75855 (2026-08-18)
 
@@ -15747,7 +15749,7 @@
 
 - [FlowerWitch/CVE-2026-85706_docker_exp](https://github.com/FlowerWitch/CVE-2026-85706_docker_exp)
 - [guneykabel/cve-2026-85706](https://github.com/guneykabel/cve-2026-85706)
-- [solivaquaant/CVE-2026-85706-PoC](https://github.com/solivaquaant/CVE-2026-85706-PoC)
+- [solivaquaant/CVE-2026-85706](https://github.com/solivaquaant/CVE-2026-85706)
 - [mhtsec/CVE-2026-85706](https://github.com/mhtsec/CVE-2026-85706)
 - [ynsmroztas/GitLabSniper](https://github.com/ynsmroztas/GitLabSniper)
 - [jithinkrishnanrs/gitlab-cve-2026-85706-ioc](https://github.com/jithinkrishnanrs/gitlab-cve-2026-85706-ioc)
@@ -15823,6 +15825,13 @@
 </code>
 
 - [SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter](https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter)
+
+### CVE-2026-87575 (2026-09-09)
+
+<code>Incorrect authorization in Loader in Google Chrome prior to 153.0.8010.36 allowed a remote attacker leveraging social engineering to bypass system access restrictions via a crafted HTML page. (Chromium security severity: Low)
+</code>
+
+- [SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.](https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.)
 
 ### CVE-2026-88861 (2026-09-10)
 
@@ -20255,6 +20264,7 @@
 - [Loufa0/CVE-2025-24813](https://github.com/Loufa0/CVE-2025-24813)
 - [yuzuki-ayanami/CVE-2025-24813](https://github.com/yuzuki-ayanami/CVE-2025-24813)
 - [Mega-Starmie/tomcat-cve-2025-24813-lab](https://github.com/Mega-Starmie/tomcat-cve-2025-24813-lab)
+- [SebastianMautner/nuclei-CVE-2025-24813](https://github.com/SebastianMautner/nuclei-CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -86216,6 +86226,7 @@
 - [mishaqdev/cve-2010-2075-analysis](https://github.com/mishaqdev/cve-2010-2075-analysis)
 - [Elazab2005/unrealircd-backdoor-pentest-report](https://github.com/Elazab2005/unrealircd-backdoor-pentest-report)
 - [rhimavanth32-max/Metasploitable2-Reconnaissance-and-UnrealIRCd-Backdoor-Exploitation](https://github.com/rhimavanth32-max/Metasploitable2-Reconnaissance-and-UnrealIRCd-Backdoor-Exploitation)
+- [zales2004/sunset-noontide-pentesting](https://github.com/zales2004/sunset-noontide-pentesting)
 
 ### CVE-2010-2333 (2010-06-18)
 
