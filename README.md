@@ -4793,6 +4793,7 @@
 - [Fomovet/cve-2026-21858](https://github.com/Fomovet/cve-2026-21858)
 - [qianlijaingshan/n8n-cve-2026-21858](https://github.com/qianlijaingshan/n8n-cve-2026-21858)
 - [Giangdurian/CVE-2026-21858-and-CVE-2025-68613](https://github.com/Giangdurian/CVE-2026-21858-and-CVE-2025-68613)
+- [ZeroDayEvil/CVE-2026-21858-n8n-FullChain](https://github.com/ZeroDayEvil/CVE-2026-21858-n8n-FullChain)
 
 ### CVE-2026-21876 (2026-01-08)
 
@@ -10789,6 +10790,7 @@
 
 - [ZeroDayEvil/CVE-2026-42978-PoC-Research](https://github.com/ZeroDayEvil/CVE-2026-42978-PoC-Research)
 - [grizzzer/CVE-2026-42978-PoC-Research](https://github.com/grizzzer/CVE-2026-42978-PoC-Research)
+- [SyntaxMethod/CVE-2026-42978-PoC-Research](https://github.com/SyntaxMethod/CVE-2026-42978-PoC-Research)
 
 ### CVE-2026-42980 (2026-06-09)
 
@@ -12245,6 +12247,7 @@
 - [Dr-D25/CVE-2026-49049](https://github.com/Dr-D25/CVE-2026-49049)
 - [ExDev994/CVE-2026-49049](https://github.com/ExDev994/CVE-2026-49049)
 - [Jenderal92/CVE-2026-49049](https://github.com/Jenderal92/CVE-2026-49049)
+- [MataKucing-OFC/CVE-2026-49049](https://github.com/MataKucing-OFC/CVE-2026-49049)
 
 ### CVE-2026-49060 (2026-06-11)
 
@@ -12419,7 +12422,11 @@
 
 - [xiaoqiMikko/log4j-check](https://github.com/xiaoqiMikko/log4j-check)
 
-### CVE-2026-49865
+### CVE-2026-49865 (2026-09-11)
+
+<code>Kimai is an open-source time tracking application. Versions prior to 2.58.0 contain a server-side request forgery vulnerability in their invoice PDF preview and generation workflow. If an attacker can control Markdown content that is later rendered into an invoice PDF, such as `Customer.invoiceText`, the server-side PDF renderer will fetch remote image URLs embedded in Markdown image syntax. This allows the application server to issue outbound requests to attacker-controlled or internal targets during PDF rendering. The behavior can be used for internal network probing, server-side reachability checks, and potentially follow-on exploitation depending on deployment environment and accessible internal services. Version 2.58.0 patches the issue.
+</code>
+
 - [cyeezy08/Kimai-CVE-2026-49865-POC](https://github.com/cyeezy08/Kimai-CVE-2026-49865-POC)
 
 ### CVE-2026-49869 (2026-06-26)
@@ -13078,6 +13085,7 @@
 - [sam00/POC-CVE-2026-54121-Certighost](https://github.com/sam00/POC-CVE-2026-54121-Certighost)
 - [L0u7r3/certighost](https://github.com/L0u7r3/certighost)
 - [TryA9ain/Certighost_CVE-2026-54121](https://github.com/TryA9ain/Certighost_CVE-2026-54121)
+- [ZeroDayEvil/CVE-2026-54121-Certighost](https://github.com/ZeroDayEvil/CVE-2026-54121-Certighost)
 
 ### CVE-2026-54161
 - [ja-errorpro/CVE-2026-54161](https://github.com/ja-errorpro/CVE-2026-54161)
@@ -15707,6 +15715,7 @@
 - [guneykabel/cve-2026-85706](https://github.com/guneykabel/cve-2026-85706)
 - [solivaquaant/CVE-2026-85706-PoC](https://github.com/solivaquaant/CVE-2026-85706-PoC)
 - [mhtsec/CVE-2026-85706](https://github.com/mhtsec/CVE-2026-85706)
+- [ynsmroztas/GitLabSniper](https://github.com/ynsmroztas/GitLabSniper)
 
 ### CVE-2026-85769 (2026-09-04)
 
@@ -15778,6 +15787,20 @@
 </code>
 
 - [franklincg/secdim-assurance-drift-challenge](https://github.com/franklincg/secdim-assurance-drift-challenge)
+
+### CVE-2026-89012 (2026-09-11)
+
+<code>Dolibarr 24.0.0 before 24.0.1 contains a case-sensitive denylist bypass vulnerability in the sqlfilters API query parameter that allows authenticated attackers to recover protected database fields by supplying uppercase variants of denylist-protected field names. Attackers can exploit the case-insensitive database column resolution against the case-sensitive denylist check in the core library to use prefix-matching predicates as a boolean oracle and extract full password hashes for any user account, including administrators.
+</code>
+
+- [Faceless0x7/CVE-2026-89012](https://github.com/Faceless0x7/CVE-2026-89012)
+
+### CVE-2026-89013 (2026-09-11)
+
+<code>Dolibarr 23.0.4 before 24.0.1 ontains an authorization bypass vulnerability that allows unauthenticated attackers to read arbitrary files through the document storage endpoints by supplying a crafted hashp parameter value. Attackers can send a request with hashp=shared to skip token validation while satisfying the authorization condition in htdocs/document.php and htdocs/viewimage.php, gaining access to application logs, uploaded business documents, database backups containing password hashes, and files belonging to other multicompany entities.
+</code>
+
+- [Faceless0x7/CVE-2026-89013](https://github.com/Faceless0x7/CVE-2026-89013)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -21869,7 +21892,6 @@
 - [toshithh/CVE-2025-32433](https://github.com/toshithh/CVE-2025-32433)
 - [l1nuxkid/CVE-2025-32433-exploit](https://github.com/l1nuxkid/CVE-2025-32433-exploit)
 - [soltanali0/CVE-2025-32433-Eploit](https://github.com/soltanali0/CVE-2025-32433-Eploit)
-- [giriaryan694-a11y/cve-2025-32433_rce_exploit](https://github.com/giriaryan694-a11y/cve-2025-32433_rce_exploit)
 - [AntonieSoga/Erlang-OTP-PoC_CVE-2025-32433](https://github.com/AntonieSoga/Erlang-OTP-PoC_CVE-2025-32433)
 - [blackcat4347/CVE-2025-32433-available-for-windows](https://github.com/blackcat4347/CVE-2025-32433-available-for-windows)
 - [carlosalbertotuma/CVE-2025-32433](https://github.com/carlosalbertotuma/CVE-2025-32433)
@@ -28415,6 +28437,7 @@
 - [qianlijaingshan/n8n-cve-2026-21858](https://github.com/qianlijaingshan/n8n-cve-2026-21858)
 - [Giangdurian/CVE-2026-21858-and-CVE-2025-68613](https://github.com/Giangdurian/CVE-2026-21858-and-CVE-2025-68613)
 - [rmhowe425/POC-CVE-2025-68613](https://github.com/rmhowe425/POC-CVE-2025-68613)
+- [ZeroDayEvil/CVE-2026-21858-n8n-FullChain](https://github.com/ZeroDayEvil/CVE-2026-21858-n8n-FullChain)
 
 ### CVE-2025-68616 (2026-01-19)
 
@@ -42966,6 +42989,7 @@
 - [CyberSentinel321/cve-2023-22515-lab](https://github.com/CyberSentinel321/cve-2023-22515-lab)
 - [dkq-k/CVE-2023-22515](https://github.com/dkq-k/CVE-2023-22515)
 - [dkq-k/cve-2023-22515-1](https://github.com/dkq-k/cve-2023-22515-1)
+- [Borsch-Appreciator/SOC235---Atlassian-Confluence-Broken-Access-Control-0-Day-CVE-2023-22515](https://github.com/Borsch-Appreciator/SOC235---Atlassian-Confluence-Broken-Access-Control-0-Day-CVE-2023-22515)
 
 ### CVE-2023-22518 (2023-10-31)
 
@@ -55761,6 +55785,7 @@
 - [R0rt1z2/CVE-2022-38181](https://github.com/R0rt1z2/CVE-2022-38181)
 - [soralis0912/CVE-2022-38181-aristotle](https://github.com/soralis0912/CVE-2022-38181-aristotle)
 - [ericpardee/fire-hd-ownership](https://github.com/ericpardee/fire-hd-ownership)
+- [artur9010/amazon-mustang-hack](https://github.com/artur9010/amazon-mustang-hack)
 
 ### CVE-2022-38374 (2022-11-02)
 
