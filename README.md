@@ -10627,6 +10627,13 @@
 - [FranklinF25/cve-2026-42533](https://github.com/FranklinF25/cve-2026-42533)
 - [ivanesk315/CVE-2026-42533](https://github.com/ivanesk315/CVE-2026-42533)
 
+### CVE-2026-42536 (2026-06-08)
+
+<code>Heap-based Buffer Overflow vulnerability in Apache HTTP Server with mod_xml2enc, xml2StartParse, and untrusted content\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.
+</code>
+
+- [erberkan/CVE-2026-42536-PoC](https://github.com/erberkan/CVE-2026-42536-PoC)
+
 ### CVE-2026-42559 (2026-05-14)
 
 <code>RMCP is an official Rust SDK for the Model Context Protocol. Prior to version 1.4.0, the rmcp crate's Streamable HTTP server transport (crates/rmcp/src/transport/streamable_http_server/) did not validate the incoming Host header. This allowed a malicious public website, via a DNS rebinding attack, to send authenticated requests to an MCP server running on the victim's loopback or private-network interface. This vulnerability is fixed in 1.4.0.
@@ -15776,6 +15783,8 @@
 - [ynsmroztas/GitLabSniper](https://github.com/ynsmroztas/GitLabSniper)
 - [jithinkrishnanrs/gitlab-cve-2026-85706-ioc](https://github.com/jithinkrishnanrs/gitlab-cve-2026-85706-ioc)
 - [0xlyvio/cve-2026-85706-poc-exploit-gitlab](https://github.com/0xlyvio/cve-2026-85706-poc-exploit-gitlab)
+- [gagaltotal/CVE-2026-85706-gitlab-poc](https://github.com/gagaltotal/CVE-2026-85706-gitlab-poc)
+- [brigadeops32/CVE-2026-85706](https://github.com/brigadeops32/CVE-2026-85706)
 
 ### CVE-2026-85769 (2026-09-04)
 
@@ -15876,6 +15885,13 @@
 </code>
 
 - [Faceless0x7/CVE-2026-89013](https://github.com/Faceless0x7/CVE-2026-89013)
+
+### CVE-2026-90781 (2026-09-13)
+
+<code>alsa-lib through 1.2.16.1 contains a stack buffer overflow in the __snd_ctl_ascii_elem_id_parse() function that writes one byte past a 64-byte buffer when parsing a name= field with 64 or more characters. Attackers can supply a long control-element identifier string through saved state files or command-line arguments to overwrite adjacent stack memory and crash the calling process.
+</code>
+
+- [HarshRajSinghania/CVE-2026-90781-alsa-lib-oob](https://github.com/HarshRajSinghania/CVE-2026-90781-alsa-lib-oob)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -20058,6 +20074,7 @@
 - [buffertrychar/CVE-2025-24071-POC](https://github.com/buffertrychar/CVE-2025-24071-POC)
 - [Fomovet/cve-2025-24071](https://github.com/Fomovet/cve-2025-24071)
 - [DAEMON-404/PoC-CVE-2025-24071](https://github.com/DAEMON-404/PoC-CVE-2025-24071)
+- [BardLaudian/CVE-2025-24071](https://github.com/BardLaudian/CVE-2025-24071)
 
 ### CVE-2025-24076 (2025-03-11)
 
@@ -20175,6 +20192,7 @@
 - [matesz44/CVE-2025-24367](https://github.com/matesz44/CVE-2025-24367)
 - [ShoshinMaster/CVE-2025-24367](https://github.com/ShoshinMaster/CVE-2025-24367)
 - [dantedansh/CVE-2025-24367-Cacti-Exploit](https://github.com/dantedansh/CVE-2025-24367-Cacti-Exploit)
+- [ledksv/monitorsfour](https://github.com/ledksv/monitorsfour)
 
 ### CVE-2025-24472 (2025-02-11)
 
@@ -23475,6 +23493,7 @@
 - [0xjuarez/CVE-2025-47812](https://github.com/0xjuarez/CVE-2025-47812)
 - [Majdae/CVE-2025-47812-Research](https://github.com/Majdae/CVE-2025-47812-Research)
 - [H3XploR/Exploit_CVE-2025-47812](https://github.com/H3XploR/Exploit_CVE-2025-47812)
+- [ledksv/wingdata](https://github.com/ledksv/wingdata)
 - [0xS4N4TG/CVE-2025-47812](https://github.com/0xS4N4TG/CVE-2025-47812)
 
 ### CVE-2025-47827 (2025-06-05)
@@ -23594,6 +23613,7 @@
 - [vignesh21-git/CVE-2025-48384](https://github.com/vignesh21-git/CVE-2025-48384)
 - [vignesh21-git/CVE-2025-48384-submodule](https://github.com/vignesh21-git/CVE-2025-48384-submodule)
 - [sathish46-lab/CVE-2025-48384-submodule](https://github.com/sathish46-lab/CVE-2025-48384-submodule)
+- [fishjojo1/devin-cve48384-1789318364-1162143-parent](https://github.com/fishjojo1/devin-cve48384-1789318364-1162143-parent)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -23848,6 +23868,7 @@
 - [4nuxd/CVE-2025-49132](https://github.com/4nuxd/CVE-2025-49132)
 - [V0idW1re/HTB-Pterodactyl-Writeup](https://github.com/V0idW1re/HTB-Pterodactyl-Writeup)
 - [karimelsheikh1/HTB-Pterodactyl-Writeup](https://github.com/karimelsheikh1/HTB-Pterodactyl-Writeup)
+- [ledksv/pterodactyl](https://github.com/ledksv/pterodactyl)
 
 ### CVE-2025-49144 (2025-06-23)
 
@@ -24842,6 +24863,7 @@
 - [tristanqtn/CVE-2025-54123](https://github.com/tristanqtn/CVE-2025-54123)
 - [f4dee-backup/CVE-2025-54123](https://github.com/f4dee-backup/CVE-2025-54123)
 - [davidzzo23/CVE-2025-54123](https://github.com/davidzzo23/CVE-2025-54123)
+- [ledksv/devarea](https://github.com/ledksv/devarea)
 - [0x00phantom-hat/Hoverfly-1.11.3-RCE-CVE-2025-54123-Exploit](https://github.com/0x00phantom-hat/Hoverfly-1.11.3-RCE-CVE-2025-54123-Exploit)
 - [0xk4rth1/CVE-2025-54123](https://github.com/0xk4rth1/CVE-2025-54123)
 
@@ -26833,6 +26855,7 @@
 - [lil0xplorer/CVE-2025-60787_PoC](https://github.com/lil0xplorer/CVE-2025-60787_PoC)
 - [d3vn0mi/CVE-2025-60787-POC](https://github.com/d3vn0mi/CVE-2025-60787-POC)
 - [agent-skywalker/CVE-2025-60787](https://github.com/agent-skywalker/CVE-2025-60787)
+- [ledksv/cctv](https://github.com/ledksv/cctv)
 - [ozcanpng/CVE-2025-60787](https://github.com/ozcanpng/CVE-2025-60787)
 
 ### CVE-2025-60791 (2025-10-27)
@@ -34323,7 +34346,6 @@
 - [KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress](https://github.com/KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress)
 - [diamorphine666/CVE-2024-25600](https://github.com/diamorphine666/CVE-2024-25600)
 - [Sibul-Dan-Glokta/test-task-CVE-2024-25600](https://github.com/Sibul-Dan-Glokta/test-task-CVE-2024-25600)
-- [so1icitx/CVE-2024-25600](https://github.com/so1icitx/CVE-2024-25600)
 - [ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM](https://github.com/ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM)
 - [DedsecTeam-BlackHat/Poleposph](https://github.com/DedsecTeam-BlackHat/Poleposph)
 - [r0otk3r/CVE-2024-25600](https://github.com/r0otk3r/CVE-2024-25600)
@@ -39336,6 +39358,7 @@
 - [lnn0v4/sqli-hunter-CVE-2024-51482-PoC](https://github.com/lnn0v4/sqli-hunter-CVE-2024-51482-PoC)
 - [Erhui-Li/CVE-2024-51482-ZoneMinder-CCTV-HTB-Reliable-EXP](https://github.com/Erhui-Li/CVE-2024-51482-ZoneMinder-CCTV-HTB-Reliable-EXP)
 - [0xDaeras/CVE-2024-51482-POC](https://github.com/0xDaeras/CVE-2024-51482-POC)
+- [ledksv/cctv](https://github.com/ledksv/cctv)
 - [c0gnit00/CVE-2024-51482](https://github.com/c0gnit00/CVE-2024-51482)
 
 ### CVE-2024-51567 (2024-10-29)
@@ -44915,7 +44938,6 @@
 </code>
 
 - [ohexa/py_trustwallet_wasm](https://github.com/ohexa/py_trustwallet_wasm)
-- [ethicbrudhack/CVE-2023-31290-Scanner-](https://github.com/ethicbrudhack/CVE-2023-31290-Scanner-)
 
 ### CVE-2023-31320 (2023-11-14)
 
@@ -47910,6 +47932,7 @@
 - [LunaLynx12/cve-2023-43208-poc](https://github.com/LunaLynx12/cve-2023-43208-poc)
 - [Criz117/CVE-2023-43208-PoC](https://github.com/Criz117/CVE-2023-43208-PoC)
 - [Humberto-pixel/CVE-2023-43208-PoC](https://github.com/Humberto-pixel/CVE-2023-43208-PoC)
+- [ledksv/Interpreter-HackTheBox](https://github.com/ledksv/Interpreter-HackTheBox)
 
 ### CVE-2023-43261 (2023-10-04)
 
@@ -56269,7 +56292,6 @@
 </code>
 
 - [PLSRcoin/CVE-2022-40769](https://github.com/PLSRcoin/CVE-2022-40769)
-- [ethicbrudhack/CVE-2022-40769---Profanity](https://github.com/ethicbrudhack/CVE-2022-40769---Profanity)
 
 ### CVE-2022-40881 (2022-11-17)
 
@@ -57280,6 +57302,7 @@
 - [Shashivanth009/CVE-2022-46364---Apache-CXF-XOP-Include-LFI-PoC](https://github.com/Shashivanth009/CVE-2022-46364---Apache-CXF-XOP-Include-LFI-PoC)
 - [0xmid00/CVE-2022-46364-poc](https://github.com/0xmid00/CVE-2022-46364-poc)
 - [jwsly12/CVE-2022-46364-htb-ctf](https://github.com/jwsly12/CVE-2022-46364-htb-ctf)
+- [ledksv/devarea](https://github.com/ledksv/devarea)
 - [c0gnit00/CVE-2022-46364](https://github.com/c0gnit00/CVE-2022-46364)
 
 ### CVE-2022-46381 (2022-12-13)
@@ -58475,7 +58498,7 @@
 - [barebackbandit/CVE-2021-3156](https://github.com/barebackbandit/CVE-2021-3156)
 - [RodricBr/CVE-2021-3156](https://github.com/RodricBr/CVE-2021-3156)
 - [ypl6/heaplens](https://github.com/ypl6/heaplens)
-- [juju306/CVE-2021-3156](https://github.com/juju306/CVE-2021-3156)
+- [wangqian306/CVE-2021-3156](https://github.com/wangqian306/CVE-2021-3156)
 - [arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156)
 - [Mhackiori/CVE-2021-3156](https://github.com/Mhackiori/CVE-2021-3156)
 - [PhuketIsland/CVE-2021-3156-centos7](https://github.com/PhuketIsland/CVE-2021-3156-centos7)
@@ -66674,7 +66697,6 @@
 - [Goyotan/CVE-2020-6418-PoC](https://github.com/Goyotan/CVE-2020-6418-PoC)
 - [ulexec/ChromeSHELFLoader](https://github.com/ulexec/ChromeSHELFLoader)
 - [SivaPriyaRanganatha/CVE-2020-6418](https://github.com/SivaPriyaRanganatha/CVE-2020-6418)
-- [a-mansilla/CVE-2020-6418](https://github.com/a-mansilla/CVE-2020-6418)
 
 ### CVE-2020-6468 (2020-05-21)
 
@@ -72519,7 +72541,6 @@
 - [Ap0cryph1c/CVE-2019-9053](https://github.com/Ap0cryph1c/CVE-2019-9053)
 - [Yzhacker/CVE-2019-9053-CMS46635-python3](https://github.com/Yzhacker/CVE-2019-9053-CMS46635-python3)
 - [hf3cyber/CMS-Made-Simple-2.2.9-Unauthenticated-SQL-Injection-Exploit-CVE-2019-9053-](https://github.com/hf3cyber/CMS-Made-Simple-2.2.9-Unauthenticated-SQL-Injection-Exploit-CVE-2019-9053-)
-- [so1icitx/CVE-2019-9053](https://github.com/so1icitx/CVE-2019-9053)
 - [del0x3/CVE-2019-9053-port-py3](https://github.com/del0x3/CVE-2019-9053-port-py3)
 - [kaizoku73/CVE-2019-9053](https://github.com/kaizoku73/CVE-2019-9053)
 - [Hackheart-tech/-exploit-lab](https://github.com/Hackheart-tech/-exploit-lab)
@@ -86671,7 +86692,6 @@
 - [AhegaoPsyops/sslWeakness](https://github.com/AhegaoPsyops/sslWeakness)
 - [Faizan8232403/CVE-Exploit-Research-Development](https://github.com/Faizan8232403/CVE-Exploit-Research-Development)
 - [QasimShahbaz21/CVE-Exploit-Research-Development](https://github.com/QasimShahbaz21/CVE-Exploit-Research-Development)
-- [ethicbrudhack/CVE-2008-0166-BTC-satoshi-mining-wallets](https://github.com/ethicbrudhack/CVE-2008-0166-BTC-satoshi-mining-wallets)
 
 ### CVE-2008-0228 (2008-01-10)
 
