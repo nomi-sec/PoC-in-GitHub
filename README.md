@@ -4772,6 +4772,7 @@
 - [atiilla/CVE-2026-21852-PoC](https://github.com/atiilla/CVE-2026-21852-PoC)
 - [TreRB/ai-ide-config-guard](https://github.com/TreRB/ai-ide-config-guard)
 - [Perufitlife/dotclaude-security](https://github.com/Perufitlife/dotclaude-security)
+- [abhishek2512mishra/claude-code-security-audit](https://github.com/abhishek2512mishra/claude-code-security-audit)
 
 ### CVE-2026-21857 (2026-01-07)
 
@@ -5635,6 +5636,7 @@
 </code>
 
 - [oscar-mine/CVE-2026-23980-Exploit](https://github.com/oscar-mine/CVE-2026-23980-Exploit)
+- [hyphenTBG/CVE-2026-23980](https://github.com/hyphenTBG/CVE-2026-23980)
 
 ### CVE-2026-23989 (2026-02-06)
 
@@ -14262,6 +14264,9 @@
 
 - [IamDremig/CVE-2026-65591](https://github.com/IamDremig/CVE-2026-65591)
 
+### CVE-2026-65615
+- [BL0odz/JFrog_CVE-2026-65615-ByGLM](https://github.com/BL0odz/JFrog_CVE-2026-65615-ByGLM)
+
 ### CVE-2026-65640 (2026-08-17)
 
 <code>WordPress is vulnerable to a remote code execution vulnerability via malicious Postscript file upload by an Author level user or higher.\n\nPrerequisites:\n* Imagick and Ghostscript in use on the server\n* A malicious user with the `upload_files` capability\n\nThis issue affects all versions of WordPress. Version 7.0.4 has been released, containing a fix for the vulnerability, and as a courtesy to users on older branches the fix has been backported to all branches back to 4.7.
@@ -22484,6 +22489,7 @@
 - [Crime2/poc-CVE-2025-38352](https://github.com/Crime2/poc-CVE-2025-38352)
 - [jordelmir/Elysium-Vanguard-Sentinel-Audit](https://github.com/jordelmir/Elysium-Vanguard-Sentinel-Audit)
 - [AnalyticETH/chronomaly-webos](https://github.com/AnalyticETH/chronomaly-webos)
+- [longwasu/CVE-2025-38352-PoC](https://github.com/longwasu/CVE-2025-38352-PoC)
 
 ### CVE-2025-38501 (2025-08-16)
 
