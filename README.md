@@ -2739,6 +2739,13 @@
 
 - [ugvxb/CVE-2026-9789](https://github.com/ugvxb/CVE-2026-9789)
 
+### CVE-2026-9794 (2026-05-28)
+
+<code>A flaw was found in Keycloak. A remote, unauthenticated attacker can exploit this vulnerability by sending specially crafted SOAP requests to the SAML ECP (Security Assertion Markup Language Enhanced Client or Proxy) endpoint with varying client IDs. By observing distinct faultstrings in the responses, the attacker can determine the client's protocol type, leading to information disclosure.
+</code>
+
+- [MuhammedHussein17/keycloak](https://github.com/MuhammedHussein17/keycloak)
+
 ### CVE-2026-9806 (2026-05-28)
 
 <code>A stored cross-site scripting (XSS) vulnerability exists in the notification panel of CTI Transmute in versions prior to the patched release. Notification messages containing user-controlled convert names were rendered in the notification bell dropdown using innerHTML without adequate sanitization. An attacker able to create or influence a convert name that is included in a notification could inject arbitrary JavaScript, which would execute in the browser of an authenticated user when they opened the notification panel. Successful exploitation could allow the attacker to perform actions in the victim's session or access information available to the application in the browser context. The issue was remediated by constructing notification elements through DOM methods and assigning notification message content via textContent instead of innerHTML. This vulnerability was only present on a development branch.
@@ -9614,6 +9621,7 @@
 - [Qurclinc/CVE-2026-38526](https://github.com/Qurclinc/CVE-2026-38526)
 - [CerberusMrXi/KrayinCRM-RCE-Exploit-CVE-2026-38526](https://github.com/CerberusMrXi/KrayinCRM-RCE-Exploit-CVE-2026-38526)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-38526-KrayinCRM-RCE](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-38526-KrayinCRM-RCE)
+- [Shirouuu/Gitea-template-sync-Path-Traversal-Privilege-Escalation-CVE-2026-38526-](https://github.com/Shirouuu/Gitea-template-sync-Path-Traversal-Privilege-Escalation-CVE-2026-38526-)
 
 ### CVE-2026-38577 (2026-08-31)
 
@@ -11009,6 +11017,8 @@
 - [zhubaohe123/ghostlock-kit](https://github.com/zhubaohe123/ghostlock-kit)
 - [ccp-p/ghostlock-cve-2026-43499-4.19-k40](https://github.com/ccp-p/ghostlock-cve-2026-43499-4.19-k40)
 - [accessmodifier364/cve-2026-43499-firetv-sheldonp-writeup](https://github.com/accessmodifier364/cve-2026-43499-firetv-sheldonp-writeup)
+- [genksome/ghost-hoock](https://github.com/genksome/ghost-hoock)
+- [newazbenalam/Root-My-Galaxy-Payloads](https://github.com/newazbenalam/Root-My-Galaxy-Payloads)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15006,6 +15016,7 @@
 - [Franc-Zar/CVE-2026-72898-safe-detection](https://github.com/Franc-Zar/CVE-2026-72898-safe-detection)
 - [d-maggipinto/CVE-2026-72898-metabase-sqli](https://github.com/d-maggipinto/CVE-2026-72898-metabase-sqli)
 - [EQSTLab/CVE-2026-72898](https://github.com/EQSTLab/CVE-2026-72898)
+- [34zY/CVE-2026-72898](https://github.com/34zY/CVE-2026-72898)
 
 ### CVE-2026-73034 (2026-08-11)
 
@@ -15794,6 +15805,7 @@
 - [brigadeops32/CVE-2026-85706](https://github.com/brigadeops32/CVE-2026-85706)
 - [plur1bu5/gitread](https://github.com/plur1bu5/gitread)
 - [gabrielunknown/CVE-2026-85706](https://github.com/gabrielunknown/CVE-2026-85706)
+- [0xenesbayram/cve-2026-85706](https://github.com/0xenesbayram/cve-2026-85706)
 
 ### CVE-2026-85769 (2026-09-04)
 
@@ -21996,6 +22008,7 @@
 - [HeltonPojo/CVE-2025-32432](https://github.com/HeltonPojo/CVE-2025-32432)
 - [PsyGuy007-sys/craftcms-cve-2025-32432-rce](https://github.com/PsyGuy007-sys/craftcms-cve-2025-32432-rce)
 - [EzraMansor/CVE-2025-32432-PoC](https://github.com/EzraMansor/CVE-2025-32432-PoC)
+- [e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432](https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432)
 
 ### CVE-2025-32433 (2025-04-16)
 
@@ -64595,6 +64608,7 @@
 - [14free/log4j2-vuln-lab](https://github.com/14free/log4j2-vuln-lab)
 - [Wafeeq-Fareed/log4shell-exploitation-lab](https://github.com/Wafeeq-Fareed/log4shell-exploitation-lab)
 - [KalidouLabghaly/log4shell-exploitation-detection](https://github.com/KalidouLabghaly/log4shell-exploitation-detection)
+- [rh-rahulshetty/log4shell-CVE-2021-44228](https://github.com/rh-rahulshetty/log4shell-CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -71547,6 +71561,7 @@
 - [NESTle19/CVE-2019-2215](https://github.com/NESTle19/CVE-2019-2215)
 - [0xbinder/CVE_2019_2215](https://github.com/0xbinder/CVE_2019_2215)
 - [Begitdj/cve-2019-2215-markw](https://github.com/Begitdj/cve-2019-2215-markw)
+- [saaedimam/sony-bravia-root-toolkit](https://github.com/saaedimam/sony-bravia-root-toolkit)
 
 ### CVE-2019-2525 (2019-01-16)
 
@@ -82431,6 +82446,7 @@
 - [voidgguy/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195](https://github.com/voidgguy/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195)
 - [Minime794/CVE-2016-5195](https://github.com/Minime794/CVE-2016-5195)
 - [KongQBin/CVE-2016-5195](https://github.com/KongQBin/CVE-2016-5195)
+- [vudangducminh/CVE-2016-5195](https://github.com/vudangducminh/CVE-2016-5195)
 
 ### CVE-2016-5345 (2018-01-23)
 
