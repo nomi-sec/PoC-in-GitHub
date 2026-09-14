@@ -4171,6 +4171,7 @@
 
 - [0xBlackash/CVE-2026-20079](https://github.com/0xBlackash/CVE-2026-20079)
 - [CyberAuth/CVE-2026-20079](https://github.com/CyberAuth/CVE-2026-20079)
+- [DiegoArias008/CVE-2026-20079-checker](https://github.com/DiegoArias008/CVE-2026-20079-checker)
 
 ### CVE-2026-20127 (2026-02-25)
 
@@ -11002,6 +11003,7 @@
 - [1ndevelopment/ghostlock-s26](https://github.com/1ndevelopment/ghostlock-s26)
 - [huaguiqi/asus_i005-CVE-2026-43499](https://github.com/huaguiqi/asus_i005-CVE-2026-43499)
 - [zhubaohe123/ghostlock-kit](https://github.com/zhubaohe123/ghostlock-kit)
+- [ccp-p/ghostlock-cve-2026-43499-4.19-k40](https://github.com/ccp-p/ghostlock-cve-2026-43499-4.19-k40)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15785,6 +15787,7 @@
 - [0xlyvio/cve-2026-85706-poc-exploit-gitlab](https://github.com/0xlyvio/cve-2026-85706-poc-exploit-gitlab)
 - [gagaltotal/CVE-2026-85706-gitlab-poc](https://github.com/gagaltotal/CVE-2026-85706-gitlab-poc)
 - [brigadeops32/CVE-2026-85706](https://github.com/brigadeops32/CVE-2026-85706)
+- [plur1bu5/gitread](https://github.com/plur1bu5/gitread)
 
 ### CVE-2026-85769 (2026-09-04)
 
@@ -15807,6 +15810,13 @@
 
 - [HORKimhab/CVE-2026-86218](https://github.com/HORKimhab/CVE-2026-86218)
 - [jithinkrishnanrs/CVE-2026-86218-N-central-IOC-Toolkit](https://github.com/jithinkrishnanrs/CVE-2026-86218-N-central-IOC-Toolkit)
+
+### CVE-2026-86283 (2026-09-06)
+
+<code>MISP's UiBeta theme collection view (app/View/Themed/UiBeta/Collections/view.ctp) performed a secondary query of member events by UUID without applying the caller's access control list (ACL). The CollectionsController::view() action correctly resolved collection element UUIDs through Event::fetchSimpleEvents($user, ...), which enforces per-user event ACL. However, the view template independently re-queried the same UUIDs using only an Event.uuid IN (...) condition, omitting the createEventConditions() authorization filter. Because collection element UUIDs are stored without server-side authorization against the referenced event (CollectionElementsController::add() accepts whatever UUID the collection owner posts), an authenticated user with view access to a collection could retrieve full details of events they are not permitted to read. The exposed data included event identifiers, info, dates, timestamps, creator organization, all event tags, and galaxy clusters (the latter attached via a cluster-scoped rather than event-scoped ACL check). This constitutes an authorization bypass at the presentation layer, allowing horizontal privilege escalation across event boundaries within the MISP instance.
+</code>
+
+- [Freire007-byte/sentric-core](https://github.com/Freire007-byte/sentric-core)
 
 ### CVE-2026-86547 (2026-09-09)
 
@@ -15857,6 +15867,13 @@
 </code>
 
 - [SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter](https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter)
+
+### CVE-2026-87492 (2026-09-09)
+
+<code>Incorrect authorization in DevTools in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [valencenavy/IsolatedAnarchy-Public](https://github.com/valencenavy/IsolatedAnarchy-Public)
 
 ### CVE-2026-87575 (2026-09-09)
 
@@ -20073,7 +20090,6 @@
 - [Abdelrahman0Sayed/CVE-2025-24071](https://github.com/Abdelrahman0Sayed/CVE-2025-24071)
 - [buffertrychar/CVE-2025-24071-POC](https://github.com/buffertrychar/CVE-2025-24071-POC)
 - [Fomovet/cve-2025-24071](https://github.com/Fomovet/cve-2025-24071)
-- [DAEMON-404/PoC-CVE-2025-24071](https://github.com/DAEMON-404/PoC-CVE-2025-24071)
 - [BardLaudian/CVE-2025-24071](https://github.com/BardLaudian/CVE-2025-24071)
 
 ### CVE-2025-24076 (2025-03-11)
@@ -39305,6 +39321,7 @@
 </code>
 
 - [devianntsec/CVE-2024-51324](https://github.com/devianntsec/CVE-2024-51324)
+- [uLl0a/bdapiutil-bydov](https://github.com/uLl0a/bdapiutil-bydov)
 
 ### CVE-2024-51358 (2024-11-05)
 
@@ -84580,6 +84597,7 @@
 - [Neldeborg/Drupalgeddon-Python3](https://github.com/Neldeborg/Drupalgeddon-Python3)
 - [joaomorenorf/CVE-2014-3704](https://github.com/joaomorenorf/CVE-2014-3704)
 - [fbm31/Audit-BlackBox-Web-to-Root](https://github.com/fbm31/Audit-BlackBox-Web-to-Root)
+- [adfortunato/metasploitable3-pentest-writeup](https://github.com/adfortunato/metasploitable3-pentest-writeup)
 
 ### CVE-2014-4014 (2014-06-23)
 
