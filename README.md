@@ -10961,6 +10961,7 @@
 - [oopnv70-lab/ghostlock-honor-aak](https://github.com/oopnv70-lab/ghostlock-honor-aak)
 - [Meowkis/tcp-zerocopy-sm](https://github.com/Meowkis/tcp-zerocopy-sm)
 - [wxxsfxyzm/GhostLock-Galaxy](https://github.com/wxxsfxyzm/GhostLock-Galaxy)
+- [Bobikl/CVE-2026-43499-T807D](https://github.com/Bobikl/CVE-2026-43499-T807D)
 - [sarabpal-dev/IonStack-S22U](https://github.com/sarabpal-dev/IonStack-S22U)
 - [OhLookItsTheIRS/Root-My-Galaxy-tests](https://github.com/OhLookItsTheIRS/Root-My-Galaxy-tests)
 - [zzzxxxxxxxxxx/GhostLock-GOT-W29](https://github.com/zzzxxxxxxxxxx/GhostLock-GOT-W29)
@@ -11019,6 +11020,7 @@
 - [accessmodifier364/cve-2026-43499-firetv-sheldonp-writeup](https://github.com/accessmodifier364/cve-2026-43499-firetv-sheldonp-writeup)
 - [genksome/ghost-hoock](https://github.com/genksome/ghost-hoock)
 - [newazbenalam/Root-My-Galaxy-Payloads](https://github.com/newazbenalam/Root-My-Galaxy-Payloads)
+- [ymh001/meizu21-ghostlock-root](https://github.com/ymh001/meizu21-ghostlock-root)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -11340,7 +11342,6 @@
 </code>
 
 - [grassplatypus/cve-2026-45033-class](https://github.com/grassplatypus/cve-2026-45033-class)
-- [soemoescode/guardskill](https://github.com/soemoescode/guardskill)
 
 ### CVE-2026-45034 (2026-06-22)
 
@@ -13780,6 +13781,7 @@
 - [Sachinart/CVE-2026-60004-gitea-0day](https://github.com/Sachinart/CVE-2026-60004-gitea-0day)
 - [gagaltotal/CVE-2026-60004-poc-gitea](https://github.com/gagaltotal/CVE-2026-60004-poc-gitea)
 - [fevar54/cve-2026-60004](https://github.com/fevar54/cve-2026-60004)
+- [erberkan/CVE-2026-60004-PoC](https://github.com/erberkan/CVE-2026-60004-PoC)
 
 ### CVE-2026-60093 (2026-08-24)
 
@@ -13849,6 +13851,9 @@
 
 ### CVE-2026-61578
 - [HORKimhab/CVE-Chamilo-LMS](https://github.com/HORKimhab/CVE-Chamilo-LMS)
+
+### CVE-2026-61797
+- [itres-labs/CVE-2026-61797](https://github.com/itres-labs/CVE-2026-61797)
 
 ### CVE-2026-61946 (2026-07-23)
 
@@ -15829,6 +15834,13 @@
 - [HORKimhab/CVE-2026-86218](https://github.com/HORKimhab/CVE-2026-86218)
 - [jithinkrishnanrs/CVE-2026-86218-N-central-IOC-Toolkit](https://github.com/jithinkrishnanrs/CVE-2026-86218-N-central-IOC-Toolkit)
 
+### CVE-2026-86259 (2026-09-06)
+
+<code>OpenMAIC before 1.0.1 skips server-side request forgery validation in non-production builds, allowing unauthenticated attackers to reach cloud instance metadata services. Attackers can supply arbitrary provider URLs via the x-base-url header or baseUrl parameter to access sensitive cloud credentials and metadata.
+</code>
+
+- [uziii2208/CVE-2026-86259](https://github.com/uziii2208/CVE-2026-86259)
+
 ### CVE-2026-86283 (2026-09-06)
 
 <code>MISP's UiBeta theme collection view (app/View/Themed/UiBeta/Collections/view.ctp) performed a secondary query of member events by UUID without applying the caller's access control list (ACL). The CollectionsController::view() action correctly resolved collection element UUIDs through Event::fetchSimpleEvents($user, ...), which enforces per-user event ACL. However, the view template independently re-queried the same UUIDs using only an Event.uuid IN (...) condition, omitting the createEventConditions() authorization filter. Because collection element UUIDs are stored without server-side authorization against the referenced event (CollectionElementsController::add() accepts whatever UUID the collection owner posts), an authenticated user with view access to a collection could retrieve full details of events they are not permitted to read. The exposed data included event identifiers, info, dates, timestamps, creator organization, all event tags, and galaxy clusters (the latter attached via a cluster-scoped rather than event-scoped ACL check). This constitutes an authorization bypass at the presentation layer, allowing horizontal privilege escalation across event boundaries within the MISP instance.
@@ -15906,6 +15918,13 @@
 </code>
 
 - [franklincg/secdim-assurance-drift-challenge](https://github.com/franklincg/secdim-assurance-drift-challenge)
+
+### CVE-2026-88899 (2026-09-10)
+
+<code>knowns versions before 0.31.0 fail to properly validate the x-opencode-directory request header in the /api/opencode proxy endpoint. Remote attackers can supply arbitrary directory paths to execute file operations outside the project root on the host system.
+</code>
+
+- [uziii2208/CVE-2026-88899](https://github.com/uziii2208/CVE-2026-88899)
 
 ### CVE-2026-89012 (2026-09-11)
 
@@ -33015,6 +33034,7 @@
 - [h4cknain/CVE-2024-21413-Microsoft-Outlook-Moniker-Link-Vulnerability](https://github.com/h4cknain/CVE-2024-21413-Microsoft-Outlook-Moniker-Link-Vulnerability)
 - [OmarMahmoud1024/tryhackme-monikerlink-writeup](https://github.com/OmarMahmoud1024/tryhackme-monikerlink-writeup)
 - [yfelipecruvinel/tryhackme-moniker-link](https://github.com/yfelipecruvinel/tryhackme-moniker-link)
+- [shauryarathore357-hub/thm-Moniker-Link-cve-2024-21413-writeup](https://github.com/shauryarathore357-hub/thm-Moniker-Link-cve-2024-21413-writeup)
 
 ### CVE-2024-21490 (2024-02-10)
 
@@ -40544,19 +40564,12 @@
 ### CVE-2024-57551
 - [amanbahiniya/cve-disclosures](https://github.com/amanbahiniya/cve-disclosures)
 
-### CVE-2024-57609 (2025-02-06)
-
-<code>An issue in Kanaries Inc Pygwalker before v.0.4.9.9 allows a remote attacker to obtain sensitive information and execute arbitrary code via the redirect_path parameter of the login redirection function.
-</code>
-
-- [Mr-UN533N/CVE-2024-57609](https://github.com/Mr-UN533N/CVE-2024-57609)
-
 ### CVE-2024-57610 (2025-02-06)
 
 <code>A rate limiting issue in Sylius v2.0.2 allows a remote attacker to perform unrestricted brute-force attacks on user accounts, significantly increasing the risk of account compromise and denial of service for legitimate users. The Supplier's position is that the Sylius core software is not intended to address brute-force attacks; instead, customers deploying a Sylius-based system are supposed to use &quot;firewalls, rate-limiting middleware, or authentication providers&quot; for that functionality.
 </code>
 
-- [Mr-UN533N/CVE-2024-57610](https://github.com/Mr-UN533N/CVE-2024-57610)
+- [H4ckM3-png/CVE-2024-57610](https://github.com/H4ckM3-png/CVE-2024-57610)
 
 ### CVE-2024-57698 (2025-04-29)
 
@@ -59085,6 +59098,7 @@
 - [krleejihyeong/WHS4_CVE-2021-4034](https://github.com/krleejihyeong/WHS4_CVE-2021-4034)
 - [nicoibarburu/CVE-2021-4034](https://github.com/nicoibarburu/CVE-2021-4034)
 - [iurhfiu6/CVE-2021-4034](https://github.com/iurhfiu6/CVE-2021-4034)
+- [r00t-byte/Pwnkit-CVE-2021-4034-LPE](https://github.com/r00t-byte/Pwnkit-CVE-2021-4034-LPE)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -79662,13 +79676,6 @@
 - [dream434/CVE-2017-5487](https://github.com/dream434/CVE-2017-5487)
 - [tpdlshdmlrkfmcla/cve-2017-5487](https://github.com/tpdlshdmlrkfmcla/cve-2017-5487)
 - [ndr-repo/CVE-2017-5487](https://github.com/ndr-repo/CVE-2017-5487)
-
-### CVE-2017-5618 (2017-03-20)
-
-<code>GNU screen before 4.5.1 allows local users to modify arbitrary files and consequently gain root privileges by leveraging improper checking of logfile permissions.
-</code>
-
-- [RXDarkee/CVE-2017-5618-Screen-4.5.0-Root](https://github.com/RXDarkee/CVE-2017-5618-Screen-4.5.0-Root)
 
 ### CVE-2017-5633 (2017-03-06)
 
