@@ -7566,7 +7566,11 @@
 
 - [0xrixet/Craftcms-PoC-CVE-2026-31266](https://github.com/0xrixet/Craftcms-PoC-CVE-2026-31266)
 
-### CVE-2026-31278
+### CVE-2026-31278 (2026-09-14)
+
+<code>An issue in the /api/v2/setting/adserversetting endpoint of Suprema BioStar 2 before 2.9.12 and and BioStar X before 1.0.2 allows attackers to obtain Active Directory service account credentials in cleartext by supplying a crafted GET request.
+</code>
+
 - [mda1r/CVE-2026-31278](https://github.com/mda1r/CVE-2026-31278)
 
 ### CVE-2026-31280 (2026-04-13)
@@ -11004,6 +11008,7 @@
 - [huaguiqi/asus_i005-CVE-2026-43499](https://github.com/huaguiqi/asus_i005-CVE-2026-43499)
 - [zhubaohe123/ghostlock-kit](https://github.com/zhubaohe123/ghostlock-kit)
 - [ccp-p/ghostlock-cve-2026-43499-4.19-k40](https://github.com/ccp-p/ghostlock-cve-2026-43499-4.19-k40)
+- [accessmodifier364/cve-2026-43499-firetv-sheldonp-writeup](https://github.com/accessmodifier364/cve-2026-43499-firetv-sheldonp-writeup)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15788,6 +15793,7 @@
 - [gagaltotal/CVE-2026-85706-gitlab-poc](https://github.com/gagaltotal/CVE-2026-85706-gitlab-poc)
 - [brigadeops32/CVE-2026-85706](https://github.com/brigadeops32/CVE-2026-85706)
 - [plur1bu5/gitread](https://github.com/plur1bu5/gitread)
+- [gabrielunknown/CVE-2026-85706](https://github.com/gabrielunknown/CVE-2026-85706)
 
 ### CVE-2026-85769 (2026-09-04)
 
@@ -15909,6 +15915,13 @@
 </code>
 
 - [HarshRajSinghania/CVE-2026-90781-alsa-lib-oob](https://github.com/HarshRajSinghania/CVE-2026-90781-alsa-lib-oob)
+
+### CVE-2026-90782 (2026-09-13)
+
+<code>S2OPC through 1.7.3 contains a null pointer dereference in msg_subscription_publish_bs__alloc_notification_message_items() where a failed allocation for DataChangeNotification is overwritten by a successful allocation for EventNotificationList. Attackers can trigger heap allocation failures on sessions with both data-change and event notifications to cause the server process to terminate.
+</code>
+
+- [HarshRajSinghania/CVE-2026-90782-s2opc-status-clobber](https://github.com/HarshRajSinghania/CVE-2026-90782-s2opc-status-clobber)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -16764,6 +16777,13 @@
 </code>
 
 - [Stuub/CVE-2025-3969-Exploit](https://github.com/Stuub/CVE-2025-3969-Exploit)
+
+### CVE-2025-4028 (2025-04-28)
+
+<code>In PHPGurukul COVID19 Testing Management System 1.0 wurde eine Schwachstelle gefunden. Sie wurde als kritisch eingestuft. Das betrifft eine unbekannte Funktionalität der Datei /profile.php. Durch Manipulieren des Arguments mobilenumber mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [JunZ-Leo/CVE](https://github.com/JunZ-Leo/CVE)
 
 ### CVE-2025-4094 (2025-05-21)
 
@@ -17807,7 +17827,7 @@
 <code>ThrottleStop.sys, a legitimate driver, exposes two IOCTL interfaces that allow arbitrary read and write access to physical memory via the MmMapIoSpace function. This insecure implementation can be exploited by a malicious user-mode application to patch the running Windows kernel and invoke arbitrary kernel functions with ring-0 privileges. The vulnerability enables local attackers to execute arbitrary code in kernel context, resulting in privilege escalation and potential follow-on attacks, such as disabling security software or bypassing kernel-level protections. ThrottleStop.sys version 3.0.0.0 and possibly others are affected. Apply updates per vendor instructions.
 </code>
 
-- [fxrstor/ThrottleStopPoC](https://github.com/fxrstor/ThrottleStopPoC)
+- [wqsv/ThrottleStopPoC](https://github.com/wqsv/ThrottleStopPoC)
 - [Demoo1337/ThrottleStop](https://github.com/Demoo1337/ThrottleStop)
 - [Gabriel-Lacorte/CVE-2025-7771](https://github.com/Gabriel-Lacorte/CVE-2025-7771)
 - [AmrHuss/throttlestop-exploit-rw](https://github.com/AmrHuss/throttlestop-exploit-rw)
@@ -35409,7 +35429,7 @@
 <code>An issue in flusity-CMS v.2.33 allows a remote attacker to execute arbitrary code via a crafted script to the edit_addon_post.php component.
 </code>
 
-- [hapa3/CVE-2024-31666](https://github.com/hapa3/CVE-2024-31666)
+- [Shijx1024/CVE-2024-31666](https://github.com/Shijx1024/CVE-2024-31666)
 
 ### CVE-2024-31680 (2024-04-16)
 
