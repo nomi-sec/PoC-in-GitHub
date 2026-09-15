@@ -3349,6 +3349,13 @@
 
 - [BiiTts/CVE-2026-12940-Langflow-Unauth-RCE](https://github.com/BiiTts/CVE-2026-12940-Langflow-Unauth-RCE)
 
+### CVE-2026-12944 (2026-09-14)
+
+<code>IBM Langflow OSS 1.0.0 through 1.10.0 can allow attackers to execute arbitrary Python code with root privileges (UID=0) on the Langflow server by submitting components containing socket or urllib imports. This enables: (1) AWS credential theft via IMDSv1 SSRF with full IAM role permissions, (2) arbitrary file exfiltration from the container filesystem, and (3) lateral movement to internal services (PostgreSQL, Redis) within the Docker network. The scanner incorrectly returns &quot;validated&quot;: true, providing a false security signal.
+</code>
+
+- [cflowsec/CVE-2026-12944](https://github.com/cflowsec/CVE-2026-12944)
+
 ### CVE-2026-12948 (2026-07-07)
 
 <code>A stored cross-site scripting (XSS) vulnerability in the web management interface of the Digi PortServer TS, Digi One SP, Digi One SP IA, and Digi One IA allows a remote, authenticated administrator to inject script into certain system configuration fields. The script subsequently executes in the browser of a user who views the affected pages (CWE-79).
@@ -3637,6 +3644,13 @@
 
 - [shinthink/CVE-2026-15282](https://github.com/shinthink/CVE-2026-15282)
 
+### CVE-2026-15315 (2026-08-18)
+
+<code>Tapo C120 v1 and C200 v5\ncontain an improper authentication vulnerability within the login\nauthentication verification module. An attacker on the local network can\nexploit weaknesses in challenge parameter validation to bypass normal\nauthentication controls and obtain administrative session tokens. \n\n\n\n\n\n\n\n\n\nSuccessful\nexploitation may allow an attacker to subsequently execute privileged\nmanagement actions, enable unauthorized administrative access and temporary\ndisruption of device services, resulting in a denial-of-service (DoS)\ncondition.
+</code>
+
+- [HORKimhab/CVE-2026-15315](https://github.com/HORKimhab/CVE-2026-15315)
+
 ### CVE-2026-15409 (2026-07-14)
 
 <code>A Server-side request forgery (SSRF) vulnerability has been identified in the SMA1000 Appliance Work Place interface. A remote unauthenticated attacker could potentially cause the appliance to make requests to unintended location.
@@ -3847,6 +3861,13 @@
 </code>
 
 - [HORKimhab/CVE-2026-17583](https://github.com/HORKimhab/CVE-2026-17583)
+
+### CVE-2026-17633 (2026-08-05)
+
+<code>IBM Langflow OSS 1.0.0 through 1.10.3 could allow a remote authenticated attacker to execute arbitrary code due to code injection.
+</code>
+
+- [Oscar-Collado/langflow-CVE-2026-17633-PoC](https://github.com/Oscar-Collado/langflow-CVE-2026-17633-PoC)
 
 ### CVE-2026-18080 (2026-08-26)
 
@@ -8336,6 +8357,13 @@
 
 - [JohannesLks/CVE-2026-32945](https://github.com/JohannesLks/CVE-2026-32945)
 
+### CVE-2026-32996 (2026-05-28)
+
+<code>This vulnerability in Veeam Agent for Microsoft Windows allows for Local Privilege Escalation.
+</code>
+
+- [suce0155/CVE-2026-32996](https://github.com/suce0155/CVE-2026-32996)
+
 ### CVE-2026-33006 (2026-05-04)
 
 <code>A timing attack against mod_auth_digest in Apache HTTP Server 2.4.66 allows a bypass of Digest authentication by a remote attacker.\n\nUsers are recommended to upgrade to version 2.4.67, which fixes this issue.
@@ -9630,6 +9658,7 @@
 - [CerberusMrXi/KrayinCRM-RCE-Exploit-CVE-2026-38526](https://github.com/CerberusMrXi/KrayinCRM-RCE-Exploit-CVE-2026-38526)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-38526-KrayinCRM-RCE](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-38526-KrayinCRM-RCE)
 - [Shirouuu/Gitea-template-sync-Path-Traversal-Privilege-Escalation-CVE-2026-38526-](https://github.com/Shirouuu/Gitea-template-sync-Path-Traversal-Privilege-Escalation-CVE-2026-38526-)
+- [Ish3ng0m4/CVE-2026-38526-KrayinCRM](https://github.com/Ish3ng0m4/CVE-2026-38526-KrayinCRM)
 
 ### CVE-2026-38577 (2026-08-31)
 
@@ -11030,6 +11059,7 @@
 - [ymh001/meizu21-ghostlock-root](https://github.com/ymh001/meizu21-ghostlock-root)
 - [k-o-n-t-o-r/ghostlock-sabrina](https://github.com/k-o-n-t-o-r/ghostlock-sabrina)
 - [mouseos/aquos-r6-ghostlock](https://github.com/mouseos/aquos-r6-ghostlock)
+- [kurtulusakyuz/IonStack_S21](https://github.com/kurtulusakyuz/IonStack_S21)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -11205,6 +11235,13 @@
 
 - [HORKimhab/CVE-2026-44338](https://github.com/HORKimhab/CVE-2026-44338)
 - [rootdirective-sec/CVE-2026-44338-Lab](https://github.com/rootdirective-sec/CVE-2026-44338-Lab)
+
+### CVE-2026-44351 (2026-05-13)
+
+<code>fast-jwt provides fast JSON Web Token (JWT) implementation. Prior to 6.2.4, a critical authentication-bypass vulnerability in fast-jwt's async key-resolver flow allows any unauthenticated attacker to forge arbitrary JWTs that are accepted as authentic. When the application's key resolver returns an empty string (''), for example via the common keys[decoded.header.kid] || '' JWKS-style fallback, fast-jwt converts it to a zero-length Buffer, hands it to crypto.createSecretKey, derives allowedAlgorithms = ['HS256','HS384','HS512'] from it, and then verifies the token's signature against an empty-key HMAC. The attacker simply computes HMAC-SHA256(key='', input='${header}.${payload}'), which Node accepts without complaint — and the verifier returns the attacker-chosen payload (sub, admin, scopes, etc.) as authentic. This vulnerability is fixed in 6.2.4.
+</code>
+
+- [isaca0315/CVE-2026-44351-poc](https://github.com/isaca0315/CVE-2026-44351-poc)
 
 ### CVE-2026-44401 (2026-08-10)
 
@@ -11655,6 +11692,7 @@
 - [rjt-gupta/page-cache-corruption-lpes](https://github.com/rjt-gupta/page-cache-corruption-lpes)
 - [cherrycherrymay/PoC-CVE-2026-46331](https://github.com/cherrycherrymay/PoC-CVE-2026-46331)
 - [nawalacheker1/CVE-2026-46331](https://github.com/nawalacheker1/CVE-2026-46331)
+- [theendofabbys/pedit-cow](https://github.com/theendofabbys/pedit-cow)
 
 ### CVE-2026-46333 (2026-05-15)
 
@@ -12277,7 +12315,6 @@
 </code>
 
 - [j0xh-sec/CVE-2026-49009](https://github.com/j0xh-sec/CVE-2026-49009)
-- [inteleon404/CVE-2026-49009](https://github.com/inteleon404/CVE-2026-49009)
 
 ### CVE-2026-49042 (2026-07-06)
 
@@ -12404,6 +12441,7 @@
 </code>
 
 - [xiaoqiMikko/shiro-check](https://github.com/xiaoqiMikko/shiro-check)
+- [sassoftware/shiro](https://github.com/sassoftware/shiro)
 
 ### CVE-2026-49352 (2026-07-15)
 
@@ -13737,6 +13775,13 @@
 ### CVE-2026-59346
 - [0xCyberstan/CVE-2026-59346-POC](https://github.com/0xCyberstan/CVE-2026-59346-POC)
 
+### CVE-2026-59550 (2026-07-27)
+
+<code>Unauthenticated SQL Injection in AWP Classifieds &lt;= 4.4.7 versions.
+</code>
+
+- [FLX-0x00/CVE-2026-59550](https://github.com/FLX-0x00/CVE-2026-59550)
+
 ### CVE-2026-59726 (2026-07-09)
 
 <code>Ruflo is an agent meta-harness for Claude Code and Codex. Prior to 3.16.3, ruflo's default docker-compose deployment exposed the MCP bridge POST /mcp and POST /mcp/:group endpoints without authentication, allowing an unauthenticated network attacker to invoke tools/call to terminal_execute, obtain a shell in the bridge container, read provider API keys, and poison AgentDB learning-store patterns. This issue is fixed in version 3.16.3.
@@ -14257,6 +14302,13 @@
 
 - [zer0dayf/CVE-2026-65008](https://github.com/zer0dayf/CVE-2026-65008)
 
+### CVE-2026-65013 (2026-07-22)
+
+<code>Onlook through 0.2.32, fixed in commit 423e2e9, contains a broken object level authorization vulnerability that allows authenticated attackers to access and manipulate other users' resources by supplying arbitrary UUID values to tRPC API procedures including project.get, member.remove, and chat.conversation.delete. Attackers can provide arbitrary projectId or conversationId values without authorization validation to read, modify, and delete other users' project data, members, and conversation history.
+</code>
+
+- [isaca0315/CVE-2026-65013-BOLA-IDOR](https://github.com/isaca0315/CVE-2026-65013-BOLA-IDOR)
+
 ### CVE-2026-65321 (2026-08-02)
 
 <code>PyAthena prior to 3.35.4 contains a sql injection vulnerability that allows unauthenticated attackers to inject arbitrary SQL by exploiting improper quote-escaping in DefaultParameterFormatter.format(), which routes DELETE and CTAS statements to the _escape_hive function that backslash-escapes single quotes rather than doubling them. Because Athena and Trino do not treat backslashes as escape characters inside string literals, attacker-supplied input such as a single quote followed by SQL syntax causes the parser to terminate the string literal prematurely, enabling data exfiltration via UNION SELECT, execution of destructive statements, and attacker-controlled CTAS destination and content.
@@ -14278,6 +14330,7 @@
 
 - [ByteV0rtex/CVE-2026-65343](https://github.com/ByteV0rtex/CVE-2026-65343)
 - [AmorCool/iOS26.6-CVE-2026-65343](https://github.com/AmorCool/iOS26.6-CVE-2026-65343)
+- [hidayat-tanjung/CVE-2026-65343-e7eb2ed](https://github.com/hidayat-tanjung/CVE-2026-65343-e7eb2ed)
 
 ### CVE-2026-65349 (2026-08-17)
 
@@ -15400,6 +15453,7 @@
 
 - [HORKimhab/CVE-2026-76461](https://github.com/HORKimhab/CVE-2026-76461)
 - [0xBlackash/CVE-2026-76461](https://github.com/0xBlackash/CVE-2026-76461)
+- [fevar54/CVE-2026-76461-Detection-Kit-](https://github.com/fevar54/CVE-2026-76461-Detection-Kit-)
 
 ### CVE-2026-76564 (2026-08-20)
 
@@ -15634,7 +15688,11 @@
 - [TheMalwareGuardian/UEFI-Security-Research-Howyar-SysReturn-NetCopy](https://github.com/TheMalwareGuardian/UEFI-Security-Research-Howyar-SysReturn-NetCopy)
 - [TheMalwareGuardian/CVE-2026-79298](https://github.com/TheMalwareGuardian/CVE-2026-79298)
 
-### CVE-2026-79303
+### CVE-2026-79303 (2026-09-15)
+
+<code>kaiten from 57.192.20 to before 57.214.26 is vulnerable to SQL Injection. Dynamic SQL statements are generated without the required data validation and without using parameterized statements or stored procedures.
+</code>
+
 - [4ybrick/CVE-2026-79303](https://github.com/4ybrick/CVE-2026-79303)
 
 ### CVE-2026-79387 (2026-09-09)
@@ -15651,7 +15709,11 @@
 
 - [ExploreIO/CVE-2026-79483-FastGPT-NoSQL-Injection](https://github.com/ExploreIO/CVE-2026-79483-FastGPT-NoSQL-Injection)
 
-### CVE-2026-79551
+### CVE-2026-79551 (2026-09-15)
+
+<code>Tenda Technology Co., Ltd NVR_4H CH3 v2.1 V27.5.58.6 was discovered to contain a hardcoded cryptographic key.
+</code>
+
 - [snyi001/CVE-2026-79551-Tenda](https://github.com/snyi001/CVE-2026-79551-Tenda)
 
 ### CVE-2026-79617 (2026-09-09)
@@ -15704,6 +15766,13 @@
 </code>
 
 - [abhinavagarwal07/scadapack-secure-lock-poc](https://github.com/abhinavagarwal07/scadapack-secure-lock-poc)
+
+### CVE-2026-82090 (2026-08-28)
+
+<code>Pocket through 8.33.0.0 allows XSS because &quot;Save to Pocket&quot; injects external HTML into the DOM.  JavaScript code can alter the application state via native bridge methods.
+</code>
+
+- [FUNFACTOR1/CVE-2026-82090-18-Years-All-Versions-CVSS-9.2-CRITICAL-The-Pocket-Forever-Day](https://github.com/FUNFACTOR1/CVE-2026-82090-18-Years-All-Versions-CVSS-9.2-CRITICAL-The-Pocket-Forever-Day)
 
 ### CVE-2026-82221 (2026-08-31)
 
@@ -18081,6 +18150,7 @@
 - [mayank-s16/Swagger-HTML-Injection-CVE-2025-8191](https://github.com/mayank-s16/Swagger-HTML-Injection-CVE-2025-8191)
 - [byteReaper77/CVE-2025-8191](https://github.com/byteReaper77/CVE-2025-8191)
 - [YanC1e/CVE-2025-8191](https://github.com/YanC1e/CVE-2025-8191)
+- [d154573r-4v3r73d/CVE-2025-8191](https://github.com/d154573r-4v3r73d/CVE-2025-8191)
 
 ### CVE-2025-8220 (2025-07-27)
 
@@ -20424,6 +20494,7 @@
 - [yuzuki-ayanami/CVE-2025-24813](https://github.com/yuzuki-ayanami/CVE-2025-24813)
 - [Mega-Starmie/tomcat-cve-2025-24813-lab](https://github.com/Mega-Starmie/tomcat-cve-2025-24813-lab)
 - [SebastianMautner/nuclei-CVE-2025-24813](https://github.com/SebastianMautner/nuclei-CVE-2025-24813)
+- [e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-24813](https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -30555,6 +30626,7 @@
 - [J1nKsC/CVE-2024-4367_test](https://github.com/J1nKsC/CVE-2024-4367_test)
 - [veronimo669/pdf.js-CVE-2024-4367](https://github.com/veronimo669/pdf.js-CVE-2024-4367)
 - [yuimamur/CVE-2024-4367-hands-on-01](https://github.com/yuimamur/CVE-2024-4367-hands-on-01)
+- [Qq1111111111/pentest-i021-poc-1789486727](https://github.com/Qq1111111111/pentest-i021-poc-1789486727)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -36461,6 +36533,7 @@
 - [Delt-A/CVE-2024-36401-poc](https://github.com/Delt-A/CVE-2024-36401-poc)
 - [DanieleGiovanardi2408/cve-2024-36401-geoserver-rce](https://github.com/DanieleGiovanardi2408/cve-2024-36401-geoserver-rce)
 - [keelanbrady1011/CVE-2024-36401](https://github.com/keelanbrady1011/CVE-2024-36401)
+- [raniaemran/cve-2024-36401-security-simulator](https://github.com/raniaemran/cve-2024-36401-security-simulator)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -86681,6 +86754,7 @@
 - [0xDTC/Adobe-ColdFusion-8-RCE-CVE-2009-2265](https://github.com/0xDTC/Adobe-ColdFusion-8-RCE-CVE-2009-2265)
 - [nika0x38/CVE-2009-2265](https://github.com/nika0x38/CVE-2009-2265)
 - [matesz44/CVE-2009-2265](https://github.com/matesz44/CVE-2009-2265)
+- [hd-exe/CVE-2009-2265-fix](https://github.com/hd-exe/CVE-2009-2265-fix)
 
 ### CVE-2009-2692 (2009-08-14)
 
