@@ -5999,6 +5999,13 @@
 
 - [yadhukrishnam/CVE-2026-25053](https://github.com/yadhukrishnam/CVE-2026-25053)
 
+### CVE-2026-25057 (2026-02-09)
+
+<code>MarkUs is a web application for the submission and grading of student assignments. Prior to 2.9.1, instructors are able to upload a zip file to create an assignment from an exported configuration (courses/&lt;:course_id&gt;/assignments/upload_config_files). The uploaded zip file entry names are used to create paths to write files to disk without checking these paths. This vulnerability is fixed in 2.9.1.
+</code>
+
+- [ustr/CVE-2026-25057](https://github.com/ustr/CVE-2026-25057)
+
 ### CVE-2026-25075 (2026-03-23)
 
 <code>strongSwan versions 4.5.0 prior to 6.0.5 contain an integer underflow vulnerability in the EAP-TTLS AVP parser that allows unauthenticated remote attackers to cause a denial of service by sending crafted AVP data with invalid length fields during IKEv2 authentication. Attackers can exploit the failure to validate AVP length fields before subtraction to trigger excessive memory allocation or NULL pointer dereference, crashing the charon IKE daemon.
@@ -8366,6 +8373,7 @@
 - [ahseven/CVE-2026-33017-PoC-Reverse-Shell](https://github.com/ahseven/CVE-2026-33017-PoC-Reverse-Shell)
 - [maxprog-svg/CVE-2026-33017](https://github.com/maxprog-svg/CVE-2026-33017)
 - [MaximilianoMeyer/CVE-2026-33017](https://github.com/MaximilianoMeyer/CVE-2026-33017)
+- [Oieua/CVE-2026-33017](https://github.com/Oieua/CVE-2026-33017)
 
 ### CVE-2026-33032 (2026-03-30)
 
@@ -11021,6 +11029,8 @@
 - [genksome/ghost-hoock](https://github.com/genksome/ghost-hoock)
 - [newazbenalam/Root-My-Galaxy-Payloads](https://github.com/newazbenalam/Root-My-Galaxy-Payloads)
 - [ymh001/meizu21-ghostlock-root](https://github.com/ymh001/meizu21-ghostlock-root)
+- [k-o-n-t-o-r/ghostlock-sabrina](https://github.com/k-o-n-t-o-r/ghostlock-sabrina)
+- [mouseos/aquos-r6-ghostlock](https://github.com/mouseos/aquos-r6-ghostlock)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -11103,6 +11113,13 @@
 </code>
 
 - [dem0ns/CVE-2026-43735](https://github.com/dem0ns/CVE-2026-43735)
+
+### CVE-2026-43783 (2026-09-14)
+
+<code>A race condition was addressed with improved locking. This issue is fixed in macOS Tahoe 26.6. A malicious app may be able to gain root privileges.
+</code>
+
+- [andrd3v/CVE-2026-43783](https://github.com/andrd3v/CVE-2026-43783)
 
 ### CVE-2026-43813 (2026-07-27)
 
@@ -14182,7 +14199,7 @@
 
 ### CVE-2026-64705 (2026-08-25)
 
-<code>A buffer overflow was addressed with improved bounds checking. This issue is fixed in macOS Sequoia 15.7.7, macOS Sonoma 14.8.7. An app may be able to cause unexpected system termination or write kernel memory.
+<code>A buffer overflow was addressed with improved bounds checking. This issue is fixed in iOS 26.6 and iPadOS 26.6, macOS Sequoia 15.7.7, macOS Sonoma 14.8.7, macOS Tahoe 26.6. An app may be able to cause unexpected system termination or write kernel memory.
 </code>
 
 - [eddinos2/CVE-2026-64705](https://github.com/eddinos2/CVE-2026-64705)
@@ -14204,7 +14221,7 @@
 
 ### CVE-2026-64788 (2026-08-17)
 
-<code>The issue was addressed with improved memory handling. This issue is fixed in iOS 26.6.1 and iPadOS 26.6.1, macOS Tahoe 26.6.2. Processing maliciously crafted web content may lead to memory corruption.
+<code>The issue was addressed with improved memory handling. This issue is fixed in iOS 26.6.1 and iPadOS 26.6.1, macOS Tahoe 26.6.2, visionOS 27, watchOS 27. Processing maliciously crafted web content may lead to memory corruption.
 </code>
 
 - [ByteV0rtex/CVE-2026-64788](https://github.com/ByteV0rtex/CVE-2026-64788)
@@ -14243,14 +14260,14 @@
 
 ### CVE-2026-65330 (2026-08-17)
 
-<code>The issue was addressed with improved memory handling. This issue is fixed in iOS 26.6.1 and iPadOS 26.6.1, macOS Tahoe 26.6.2. An app may be able to cause unexpected system termination or corrupt kernel memory.
+<code>The issue was addressed with improved memory handling. This issue is fixed in iOS 26.6.1 and iPadOS 26.6.1, macOS Sequoia 15.8, macOS Tahoe 26.6.2, tvOS 27, visionOS 27, watchOS 27. An app may be able to cause unexpected system termination or corrupt kernel memory.
 </code>
 
 - [ByteV0rtex/CVE-2026-65330](https://github.com/ByteV0rtex/CVE-2026-65330)
 
 ### CVE-2026-65343 (2026-08-17)
 
-<code>A use after free issue was addressed with improved memory management. This issue is fixed in iOS 26.6.1 and iPadOS 26.6.1, macOS Tahoe 26.6.2. A remote attacker may be able to cause unexpected system termination.
+<code>A use after free issue was addressed with improved memory management. This issue is fixed in iOS 26.6.1 and iPadOS 26.6.1, macOS Tahoe 26.6.2, tvOS 27, visionOS 27, watchOS 27. A remote attacker may be able to cause unexpected system termination.
 </code>
 
 - [ByteV0rtex/CVE-2026-65343](https://github.com/ByteV0rtex/CVE-2026-65343)
@@ -14258,21 +14275,21 @@
 
 ### CVE-2026-65349 (2026-08-17)
 
-<code>An out-of-bounds read was addressed with improved input validation. This issue is fixed in iOS 26.6.1 and iPadOS 26.6.1, macOS Tahoe 26.6.2. An app may be able to cause unexpected system termination or read kernel memory.
+<code>An out-of-bounds read was addressed with improved input validation. This issue is fixed in iOS 26.6.1 and iPadOS 26.6.1, macOS Sequoia 15.8, macOS Tahoe 26.6.2, tvOS 27, visionOS 27, watchOS 27. An app may be able to cause unexpected system termination or read kernel memory.
 </code>
 
 - [ByteV0rtex/CVE-2026-65349](https://github.com/ByteV0rtex/CVE-2026-65349)
 
 ### CVE-2026-65351 (2026-08-17)
 
-<code>This issue was addressed through improved state management. This issue is fixed in Safari 26.6.1, iOS 26.6.1 and iPadOS 26.6.1, macOS Tahoe 26.6.2. Processing maliciously crafted web content may lead to an unexpected Safari crash.
+<code>This issue was addressed through improved state management. This issue is fixed in Safari 26.6.1, iOS 18.7.10 and iPadOS 18.7.10, iOS 26.6.1 and iPadOS 26.6.1, macOS Tahoe 26.6.2, visionOS 27. Processing maliciously crafted web content may lead to an unexpected Safari crash.
 </code>
 
 - [e4zyy/Project-CVE-2026-65351](https://github.com/e4zyy/Project-CVE-2026-65351)
 
 ### CVE-2026-65400 (2026-08-06)
 
-<code>An authentication issue was addressed with improved state management. This issue is fixed in macOS Sequoia 15.7.9, macOS Sonoma 14.8.9, macOS Tahoe 26.6.1. An attacker on the network may be able to authenticate to Screen Sharing without valid credentials.
+<code>An authentication issue was addressed with improved state management. This issue is fixed in macOS Golden Gate 27, macOS Sequoia 15.7.9, macOS Sonoma 14.8.9, macOS Tahoe 26.6.1, macOS Tahoe 26.7. An attacker on the network may be able to authenticate to Screen Sharing without valid credentials.
 </code>
 
 - [HORKimhab/CVE-2026-65400](https://github.com/HORKimhab/CVE-2026-65400)
@@ -14807,6 +14824,13 @@
 </code>
 
 - [leoelsolh/CVE-2026-69263](https://github.com/leoelsolh/CVE-2026-69263)
+
+### CVE-2026-69328 (2026-09-08)
+
+<code>Untrusted search path in Windows Storage allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [0xf9b6a41ec/CVE-2026-69328](https://github.com/0xf9b6a41ec/CVE-2026-69328)
 
 ### CVE-2026-69414 (2026-08-14)
 
@@ -84301,6 +84325,7 @@
 - [victoriacfigueiredo/heartbleed-lab](https://github.com/victoriacfigueiredo/heartbleed-lab)
 - [tungduongNT/CVE-2014-0160.](https://github.com/tungduongNT/CVE-2014-0160.)
 - [IhsSpotlight/HeartBleed-CVE-2014-0160--SCRIPTS-python3](https://github.com/IhsSpotlight/HeartBleed-CVE-2014-0160--SCRIPTS-python3)
+- [L1LF1NG3R/heartbleed-vulnerability-exploitation](https://github.com/L1LF1NG3R/heartbleed-vulnerability-exploitation)
 
 ### CVE-2014-0166 (2014-04-09)
 
