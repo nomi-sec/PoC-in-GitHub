@@ -1649,6 +1649,13 @@
 
 - [HORKimhab/CVE-2026-5426](https://github.com/HORKimhab/CVE-2026-5426)
 
+### CVE-2026-5430 (2026-08-06)
+
+<code>The JWT authentication mechanism accepts tokens signed with algorithms other than those explicitly configured or supported. This allows an attacker to craft a JWT with an unsupported algorithm, which is then incorrectly validated, leading to unauthorized access.\n\nSuccessful exploitation of this vulnerability may result in unauthorized access to the system, including the potential compromise of administrative accounts and full account takeover. The CVSS score is adjusted to 9.8 (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H) in single-tenant deployments, reflecting that the impact is contained within a single security authority boundary.
+</code>
+
+- [HORKimhab/CVE-2026-5430](https://github.com/HORKimhab/CVE-2026-5430)
+
 ### CVE-2026-5432
 - [George0Papasotiriou/CVE-2026-5432-GraphQL-Batching-Alias-Confusion-SQL-Injection](https://github.com/George0Papasotiriou/CVE-2026-5432-GraphQL-Batching-Alias-Confusion-SQL-Injection)
 
@@ -12571,6 +12578,7 @@
 - [0xc03307b/CVE-2026-49975](https://github.com/0xc03307b/CVE-2026-49975)
 - [wlor0623/http2-bomb-detector](https://github.com/wlor0623/http2-bomb-detector)
 - [Manisso/http2-bomb](https://github.com/Manisso/http2-bomb)
+- [naheeju/POC-CVE-2026-49975](https://github.com/naheeju/POC-CVE-2026-49975)
 
 ### CVE-2026-50011 (2026-06-12)
 
@@ -14351,6 +14359,13 @@
 
 - [e4zyy/Project-CVE-2026-65351](https://github.com/e4zyy/Project-CVE-2026-65351)
 
+### CVE-2026-65374 (2026-09-14)
+
+<code>A memory corruption issue was addressed with improved validation. This issue is fixed in macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7. Connecting to a malicious WebDAV server may result in code execution.
+</code>
+
+- [HORKimhab/CVE-2026-65374](https://github.com/HORKimhab/CVE-2026-65374)
+
 ### CVE-2026-65400 (2026-08-06)
 
 <code>An authentication issue was addressed with improved state management. This issue is fixed in macOS Golden Gate 27, macOS Sequoia 15.7.9, macOS Sonoma 14.8.9, macOS Tahoe 26.6.1, macOS Tahoe 26.7. An attacker on the network may be able to authenticate to Screen Sharing without valid credentials.
@@ -15952,7 +15967,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-86218](https://github.com/HORKimhab/CVE-2026-86218)
-- [jithinkrishnanrs/CVE-2026-86218-N-central-IOC-Toolkit](https://github.com/jithinkrishnanrs/CVE-2026-86218-N-central-IOC-Toolkit)
+- [Udyz/CVE-2026-86218](https://github.com/Udyz/CVE-2026-86218)
 
 ### CVE-2026-86259 (2026-09-06)
 
@@ -16073,6 +16088,13 @@
 </code>
 
 - [HarshRajSinghania/CVE-2026-90782-s2opc-status-clobber](https://github.com/HarshRajSinghania/CVE-2026-90782-s2opc-status-clobber)
+
+### CVE-2026-92247 (2026-09-16)
+
+<code>A security vulnerability has been detected in synaptikcms synaptik-cms up to 1.3.4.4. This affects the function rename of the file admin/file-manager.php of the component Admin File Manager. The manipulation leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed publicly and may be used. Upgrading to version 1.3.5 is able to mitigate this issue. It is suggested to upgrade the affected component.
+</code>
+
+- [d1n3sh-0x3/CVE-2026-92247](https://github.com/d1n3sh-0x3/CVE-2026-92247)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -34947,6 +34969,7 @@
 </code>
 
 - [jprx/CVE-2024-27815](https://github.com/jprx/CVE-2024-27815)
+- [nomnomheapnom/CVE-2024-27815](https://github.com/nomnomheapnom/CVE-2024-27815)
 
 ### CVE-2024-27821 (2024-05-13)
 
@@ -38992,6 +39015,7 @@
 - [basitsajidapply-stack/SOC-Investigation-CVE-2024-49138](https://github.com/basitsajidapply-stack/SOC-Investigation-CVE-2024-49138)
 - [NadineElliottCyber/SOC335-CVE-2024-49138-Investigation](https://github.com/NadineElliottCyber/SOC335-CVE-2024-49138-Investigation)
 - [Adisasoc/CVE-2024-49138-SOC-Investigation](https://github.com/Adisasoc/CVE-2024-49138-SOC-Investigation)
+- [FabianCH20/SOC335---CVE-2024-49138-Exploitation-Detected](https://github.com/FabianCH20/SOC335---CVE-2024-49138-Exploitation-Detected)
 
 ### CVE-2024-49328 (2024-10-20)
 
@@ -56164,6 +56188,7 @@
 - [mutur4/UnisocBootROMs](https://github.com/mutur4/UnisocBootROMs)
 - [xun404/spd_dump-macos](https://github.com/xun404/spd_dump-macos)
 - [Gadorach/vankyo-s30-bootloader-unlock](https://github.com/Gadorach/vankyo-s30-bootloader-unlock)
+- [redzrush101/zte-blade-v40-vita-unlock](https://github.com/redzrush101/zte-blade-v40-vita-unlock)
 
 ### CVE-2022-38725 (2023-01-23)
 
@@ -84440,6 +84465,7 @@
 - [tungduongNT/CVE-2014-0160.](https://github.com/tungduongNT/CVE-2014-0160.)
 - [IhsSpotlight/HeartBleed-CVE-2014-0160--SCRIPTS-python3](https://github.com/IhsSpotlight/HeartBleed-CVE-2014-0160--SCRIPTS-python3)
 - [L1LF1NG3R/heartbleed-vulnerability-exploitation](https://github.com/L1LF1NG3R/heartbleed-vulnerability-exploitation)
+- [Ayushsinha322/heartbleed-lab](https://github.com/Ayushsinha322/heartbleed-lab)
 
 ### CVE-2014-0166 (2014-04-09)
 
