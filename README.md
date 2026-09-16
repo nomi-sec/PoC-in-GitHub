@@ -391,6 +391,13 @@
 ### CVE-2026-09881
 - [gduma-phData/patch-CVE-2026-09881](https://github.com/gduma-phData/patch-CVE-2026-09881)
 
+### CVE-2026-0994 (2026-01-23)
+
+<code>A denial-of-service (DoS) vulnerability exists in google.protobuf.json_format.ParseDict() in Python, where the max_recursion_depth limit can be bypassed when parsing nested google.protobuf.Any messages.\n\nDue to missing recursion depth accounting inside the internal Any-handling logic, an attacker can supply deeply nested Any structures that bypass the intended recursion limit, eventually exhausting Python’s recursion stack and causing a RecursionError.
+</code>
+
+- [Vardhan0257/upb-any-recursion-audit](https://github.com/Vardhan0257/upb-any-recursion-audit)
+
 ### CVE-2026-30
 - [itsismarcos/ICS-MoxieManager-FileUpload-PoC](https://github.com/itsismarcos/ICS-MoxieManager-FileUpload-PoC)
 
@@ -5151,6 +5158,7 @@
 
 - [amusedx/CVE-2026-22686](https://github.com/amusedx/CVE-2026-22686)
 - [moltengama/CVE-2026-22686-RemoteCodeExecution-RCE-PoC](https://github.com/moltengama/CVE-2026-22686-RemoteCodeExecution-RCE-PoC)
+- [moi404/CVE-2026-22686-RemoteCodeExecution-RCE-PoC](https://github.com/moi404/CVE-2026-22686-RemoteCodeExecution-RCE-PoC)
 
 ### CVE-2026-22692 (2026-04-14)
 
@@ -10522,7 +10530,6 @@
 - [CerberusMrXi/cPanel-WHM-CVE-2026-41940-auth-bypass-exploit](https://github.com/CerberusMrXi/cPanel-WHM-CVE-2026-41940-auth-bypass-exploit)
 - [keithbennedict/CVE-2026-41940-Linux](https://github.com/keithbennedict/CVE-2026-41940-Linux)
 - [yanchenyu360/CVE-2026-41940-Security-Patch](https://github.com/yanchenyu360/CVE-2026-41940-Security-Patch)
-- [lanicer/cve-2026-41940-PoC](https://github.com/lanicer/cve-2026-41940-PoC)
 - [t4xo/CVE-2026-41940](https://github.com/t4xo/CVE-2026-41940)
 - [0xgh057r3c0n/CVE-2026-41940](https://github.com/0xgh057r3c0n/CVE-2026-41940)
 - [Xrzmodz444/cve-2026-41940-PoC-Linux](https://github.com/Xrzmodz444/cve-2026-41940-PoC-Linux)
@@ -14335,6 +14342,7 @@
 </code>
 
 - [ByteV0rtex/CVE-2026-65330](https://github.com/ByteV0rtex/CVE-2026-65330)
+- [csrXamfi/CVE-2026-65330](https://github.com/csrXamfi/CVE-2026-65330)
 
 ### CVE-2026-65343 (2026-08-17)
 
@@ -15761,6 +15769,7 @@
 
 - [Zipkoppie/CVE-2026-80428](https://github.com/Zipkoppie/CVE-2026-80428)
 - [digiprosec/CVE-2026-80428](https://github.com/digiprosec/CVE-2026-80428)
+- [shivammittal2403/cve-2026-80428-ctf](https://github.com/shivammittal2403/cve-2026-80428-ctf)
 
 ### CVE-2026-80724 (2026-08-28)
 
@@ -15888,6 +15897,13 @@
 </code>
 
 - [Saku0512/CVE-2026-84361-poc](https://github.com/Saku0512/CVE-2026-84361-poc)
+
+### CVE-2026-84616 (2026-09-14)
+
+<code>A type confusion issue was addressed with improved memory handling. This issue is fixed in iOS 26.7 and iPadOS 26.7, iOS 27 and iPadOS 27, macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7, tvOS 27, visionOS 27, watchOS 27. An app may be able to cause unexpected system termination.
+</code>
+
+- [Ping-2o/ios.CVE-2026-84616-84607](https://github.com/Ping-2o/ios.CVE-2026-84616-84607)
 
 ### CVE-2026-84645 (2026-09-02)
 
@@ -19889,6 +19905,7 @@
 - [reaizuguo/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/reaizuguo/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479)
 - [linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479)
 - [Qingizi7/cve-2025-21479_iqooneo8](https://github.com/Qingizi7/cve-2025-21479_iqooneo8)
+- [xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479](https://github.com/xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479)
 
 ### CVE-2025-21574 (2025-04-15)
 
@@ -26432,6 +26449,13 @@
 </code>
 
 - [xchg-rax-rax/AvTech-PoCs](https://github.com/xchg-rax-rax/AvTech-PoCs)
+
+### CVE-2025-57231 (2026-09-10)
+
+<code>Path Traversal in avatar attachments in Docmost v0.21.0 allows an unauthenticated malicious actor to disclose local files via a POST Request in a public url.
+</code>
+
+- [anirbala98/CVE-2025-57231](https://github.com/anirbala98/CVE-2025-57231)
 
 ### CVE-2025-57298
 - [minnggyuu/CVE-2025-57298](https://github.com/minnggyuu/CVE-2025-57298)
@@ -61266,6 +61290,7 @@
 - [davids52/cve-2021-29447_auto-script](https://github.com/davids52/cve-2021-29447_auto-script)
 - [rdana55/CVE-2021-29447-PoC](https://github.com/rdana55/CVE-2021-29447-PoC)
 - [danilo1992-sys/CVE-2021-29447](https://github.com/danilo1992-sys/CVE-2021-29447)
+- [Kashyapghodasara/Public_Exploit-1--Wordpress-CVE-2021-29447](https://github.com/Kashyapghodasara/Public_Exploit-1--Wordpress-CVE-2021-29447)
 
 ### CVE-2021-29505 (2021-05-28)
 
