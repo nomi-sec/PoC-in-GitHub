@@ -11060,6 +11060,7 @@
 - [k-o-n-t-o-r/ghostlock-sabrina](https://github.com/k-o-n-t-o-r/ghostlock-sabrina)
 - [mouseos/aquos-r6-ghostlock](https://github.com/mouseos/aquos-r6-ghostlock)
 - [kurtulusakyuz/IonStack_S21](https://github.com/kurtulusakyuz/IonStack_S21)
+- [DeAurity/ghost-hoock](https://github.com/DeAurity/ghost-hoock)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -13196,7 +13197,11 @@
 
 - [InertFluid/cve-2026-54316-lab](https://github.com/InertFluid/cve-2026-54316-lab)
 
-### CVE-2026-54337
+### CVE-2026-54337 (2026-09-15)
+
+<code>Fireshare facilitates self-hosted media and link sharing. Prior to version 1.6.14, an argument Injection in the video upload function allows unauthenticated attacker to write/overwrite system files. Version 1.6.14 fixes the issue.
+</code>
+
 - [4qu4r1um/CVE-2026-54337-PoC](https://github.com/4qu4r1um/CVE-2026-54337-PoC)
 
 ### CVE-2026-54350 (2026-06-26)
@@ -14867,7 +14872,11 @@
 
 - [0xdak/CVE-2026-69098_exploit](https://github.com/0xdak/CVE-2026-69098_exploit)
 
-### CVE-2026-69212
+### CVE-2026-69212 (2026-09-15)
+
+<code>Http4s is a Scala interface for HTTP services. Prior to 0.23.35 and 1.0.0-M47, The FollowRedirect client middleware strips Authorization and Cookie headers only when a redirect changes authority, but authority comparison excludes the URI scheme. A same-authority redirect from HTTPS to HTTP therefore preserves credentials and transmits them over a plaintext connection. An attacker who can induce the downgrade and observe the network can capture those sensitive headers from applications using FollowRedirect. This issue is fixed in versions 0.23.35 and 1.0.0-M47.
+</code>
+
 - [c0gnit00/CVE-2026-69212](https://github.com/c0gnit00/CVE-2026-69212)
 
 ### CVE-2026-69243 (2026-08-03)
@@ -15811,6 +15820,7 @@
 - [0xCyp1337/CVE-2026-82329](https://github.com/0xCyp1337/CVE-2026-82329)
 - [gagaltotal/CVE-2026-82329-poc](https://github.com/gagaltotal/CVE-2026-82329-poc)
 - [0xTerror/CVE-2026-82329-JFrog-Artifactory-](https://github.com/0xTerror/CVE-2026-82329-JFrog-Artifactory-)
+- [tc4dy/CVE-2026-82329-PoC-Exploit](https://github.com/tc4dy/CVE-2026-82329-PoC-Exploit)
 
 ### CVE-2026-82539 (2026-08-30)
 
