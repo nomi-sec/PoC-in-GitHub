@@ -3356,6 +3356,14 @@
 
 - [htrxuan/hdwebmobile-photo-video-reviews](https://github.com/htrxuan/hdwebmobile-photo-video-reviews)
 
+### CVE-2026-12793 (2026-09-16)
+
+<code>The JetFormBuilder — Dynamic Blocks Form Builder plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.6.2. This is due to the plugin not validating that a submitted form ID belongs to a JetFormBuilder form before parsing the referenced post's content as form schema and executing an Advanced Validation server-side callback. This makes it possible for unauthenticated attackers to create a new administrator-level user account.
+</code>
+
+- [murrez/CVE-2026-12793](https://github.com/murrez/CVE-2026-12793)
+- [rootxn/CVE-2026-12793](https://github.com/rootxn/CVE-2026-12793)
+
 ### CVE-2026-12940 (2026-07-30)
 
 <code>IBM Langflow OSS 1.0.0 through 1.10.1  are vulnerable to unauthenticated remote code execution via environment variable injection in the MCP (Model Context Protocol) stdio launcher. The vulnerability exists in src/lfx/src/lfx/base/mcp/util.py where the DANGEROUS_ENV_VARS blocklist fails to include SHELLOPTS , BASHOPTS , and PS4 environment variables.
@@ -9161,13 +9169,6 @@
 
 - [h3ck13r/CVE-2026-35204](https://github.com/h3ck13r/CVE-2026-35204)
 
-### CVE-2026-35250 (2026-04-21)
-
-<code>Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).   The supported version that is affected is 7.2.6. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle VM VirtualBox. CVSS 3.1 Base Score 2.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L).
-</code>
-
-- [xooxo/CVE-2026-35250](https://github.com/xooxo/CVE-2026-35250)
-
 ### CVE-2026-35273 (2026-06-11)
 
 <code>Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Updates Environment Management). Supported versions that are affected are 8.61 and 8.62. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise PeopleSoft Enterprise PeopleTools. Successful attacks of this vulnerability can result in takeover of PeopleSoft Enterprise PeopleTools. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
@@ -10533,6 +10534,7 @@
 - [t4xo/CVE-2026-41940](https://github.com/t4xo/CVE-2026-41940)
 - [0xgh057r3c0n/CVE-2026-41940](https://github.com/0xgh057r3c0n/CVE-2026-41940)
 - [Xrzmodz444/cve-2026-41940-PoC-Linux](https://github.com/Xrzmodz444/cve-2026-41940-PoC-Linux)
+- [ctdal/cve-2026-41940-PoC](https://github.com/ctdal/cve-2026-41940-PoC)
 
 ### CVE-2026-42031 (2026-05-13)
 
@@ -11075,6 +11077,7 @@
 - [mouseos/aquos-r6-ghostlock](https://github.com/mouseos/aquos-r6-ghostlock)
 - [kurtulusakyuz/IonStack_S21](https://github.com/kurtulusakyuz/IonStack_S21)
 - [DeAurity/ghost-hoock](https://github.com/DeAurity/ghost-hoock)
+- [huaguiqi/asus-i005-cve-2026-43499](https://github.com/huaguiqi/asus-i005-cve-2026-43499)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -12812,7 +12815,11 @@
 ### CVE-2026-51954
 - [envincion1991-cmyk/CVE-2026-51954](https://github.com/envincion1991-cmyk/CVE-2026-51954)
 
-### CVE-2026-51990
+### CVE-2026-51990 (2026-09-16)
+
+<code>An issue in Sogou Sogou Input Method &lt; 16.3.0.3498 (fixed in 16.3.0.3498) allows a remote attacker to execute arbitrary code via the biz_helper.exe component
+</code>
+
 - [HORKimhab/CVE-2026-51990](https://github.com/HORKimhab/CVE-2026-51990)
 
 ### CVE-2026-51992
@@ -13278,6 +13285,14 @@
 
 - [MichaelAdamGroberman/CVE-2026-54477](https://github.com/MichaelAdamGroberman/CVE-2026-54477)
 
+### CVE-2026-54512 (2026-06-23)
+
+<code>jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.10.0 until 2.18.8, 2.21.4, and 3.1.4, jackson-databind's PolymorphicTypeValidator (PTV) is the primary safety mechanism guarding polymorphic deserialization. When polymorphic typing is enabled and a type identifier contains generic parameters (i.e. the type ID string contains &lt;), DatabindContext._resolveAndValidateGeneric() validates only the raw container class name (the substring before &lt;) against the configured PTV. If the container type is approved, the method parses the full canonical type string via TypeFactory.constructFromCanonical() and returns the fully parameterized type without ever validating the nested type arguments against the PTV. The nested type arguments are then resolved, instantiated, and populated as beans during deserialization. An attacker who controls the type ID can therefore place a denied class as a generic type parameter of an allowed container — for example java.util.ArrayList&lt;com.evil.Gadget&gt; when only java.util.ArrayList is allow-listed. The container passes the PTV check; com.evil.Gadget is loaded via Class.forName(name, true, loader), instantiated, and its properties are set from attacker-controlled JSON. This completely bypasses an explicitly configured PTV allow-list. This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.
+</code>
+
+- [avergnaud/flight-sql-jdbc-driver-cve-2026-54512](https://github.com/avergnaud/flight-sql-jdbc-driver-cve-2026-54512)
+- [cklinisme/doris-spark-connector-cve](https://github.com/cklinisme/doris-spark-connector-cve)
+
 ### CVE-2026-54515 (2026-06-23)
 
 <code>jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.8.0 until 2.18.9, 2.21.5, and 3.1.4, in BeanDeserializerBase.createContextual(), per-property @JsonIgnoreProperties exclusions are applied by _handleByNameInclusion(), producing a contextual deserializer whose BeanPropertyMap has the ignored properties removed. The subsequent per-property case-insensitivity block (triggered by @JsonFormat(ACCEPT_CASE_INSENSITIVE_PROPERTIES)) rebuilds from this._beanProperties (the original, unfiltered map) instead of contextual._beanProperties, then overwrites the filtered map — restoring every property _handleByNameInclusion had just removed. The ignored property becomes writable again. This vulnerability is fixed in 2.18.9, 2.21.5, and 3.1.4.
@@ -13452,6 +13467,13 @@
 </code>
 
 - [rootdirective-sec/CVE-2026-56011-Lab](https://github.com/rootdirective-sec/CVE-2026-56011-Lab)
+
+### CVE-2026-56096 (2026-08-25)
+
+<code>The extension passes the user-supplied search query parameter to Apache Solr without restricting advanced Solr query syntax such as wildcards, field selectors and range queries. A remote, unauthenticated attacker can use this syntax to enumerate indexed field names and extract their stored values through boolean- and range-based blind extraction techniques, independent of any site-specific configuration.
+</code>
+
+- [yairHinkis/CVE-2026-56096](https://github.com/yairHinkis/CVE-2026-56096)
 
 ### CVE-2026-56111 (2026-06-24)
 
@@ -15716,7 +15738,11 @@
 ### CVE-2026-79294
 - [MGTx2/CVE-2026-79294](https://github.com/MGTx2/CVE-2026-79294)
 
-### CVE-2026-79298
+### CVE-2026-79298 (2026-09-16)
+
+<code>An issue in Howyar Technologies Inc SysReturn Versions prior to 11.3.034 and fixed in v.11.3.0.34 allows a local attcker to execute arbitrary code via the BOOTia32.efi and a crafted cloak32.dat file on the ESP.
+</code>
+
 - [TheMalwareGuardian/UEFI-Security-Research-Howyar-SysReturn-NetCopy](https://github.com/TheMalwareGuardian/UEFI-Security-Research-Howyar-SysReturn-NetCopy)
 - [TheMalwareGuardian/CVE-2026-79298](https://github.com/TheMalwareGuardian/CVE-2026-79298)
 
@@ -16090,6 +16116,13 @@
 </code>
 
 - [Faceless0x7/CVE-2026-89013](https://github.com/Faceless0x7/CVE-2026-89013)
+
+### CVE-2026-89026 (2026-09-15)
+
+<code>The Issabel Framework, the web framework supporting Issabel PBX software, before commit b97dbaf contains a hard-coded HS256 JWT signing key in the pbxapi index.php file that is identical across every installation, allowing unauthenticated remote attackers to forge valid bearer tokens. Attackers can use the forged token to call the manager originate endpoint with the System application parameter, causing Asterisk to execute arbitrary OS commands as the Asterisk user. Exploitation evidence was first observed by the Shadowserver Foundation on 2026-09-09.
+</code>
+
+- [cflowsec/CVE-2026-89026](https://github.com/cflowsec/CVE-2026-89026)
 
 ### CVE-2026-90781 (2026-09-13)
 
@@ -29662,7 +29695,7 @@
 - [Nikopmpm/Fsociety-CVE-2024-0670-CheckMK-LPE](https://github.com/Nikopmpm/Fsociety-CVE-2024-0670-CheckMK-LPE)
 - [Nikopmpm/nikopmpm.github.io](https://github.com/Nikopmpm/nikopmpm.github.io)
 - [tralsesec/CVE-2024-0670](https://github.com/tralsesec/CVE-2024-0670)
-- [dfdxarjy/HTB-NanoCorp-CVE-2024-0670](https://github.com/dfdxarjy/HTB-NanoCorp-CVE-2024-0670)
+- [taktak0x/HTB-NanoCorp-CVE-2024-0670](https://github.com/taktak0x/HTB-NanoCorp-CVE-2024-0670)
 
 ### CVE-2024-0679 (2024-01-20)
 
@@ -52127,6 +52160,13 @@
 
 - [byt3quester/CVE-2022-22706-poc](https://github.com/byt3quester/CVE-2022-22706-poc)
 
+### CVE-2022-22715 (2022-02-09)
+
+<code>Named Pipe File System Elevation of Privilege Vulnerability
+</code>
+
+- [vportal/CVE-2022-22715](https://github.com/vportal/CVE-2022-22715)
+
 ### CVE-2022-22718 (2022-02-09)
 
 <code>Windows Print Spooler Elevation of Privilege Vulnerability
@@ -66381,7 +66421,7 @@
 - [ctlyz123/CVE-2020-1948](https://github.com/ctlyz123/CVE-2020-1948)
 - [txrw/Dubbo-CVE-2020-1948](https://github.com/txrw/Dubbo-CVE-2020-1948)
 - [M3g4Byt3/cve-2020-1948-poc](https://github.com/M3g4Byt3/cve-2020-1948-poc)
-- [0xl0ki/Dubbo-deserialization](https://github.com/0xl0ki/Dubbo-deserialization)
+- [keloke/Dubbo-deserialization](https://github.com/keloke/Dubbo-deserialization)
 
 ### CVE-2020-1956 (2020-05-22)
 
