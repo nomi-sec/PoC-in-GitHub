@@ -3377,6 +3377,7 @@
 </code>
 
 - [cflowsec/CVE-2026-12944](https://github.com/cflowsec/CVE-2026-12944)
+- [ShadowForge-Cyber/CVE-2026-12944](https://github.com/ShadowForge-Cyber/CVE-2026-12944)
 
 ### CVE-2026-12948 (2026-07-07)
 
@@ -6921,6 +6922,13 @@
 </code>
 
 - [pvharmo2/gha-lab-25b7988758](https://github.com/pvharmo2/gha-lab-25b7988758)
+
+### CVE-2026-27739 (2026-02-25)
+
+<code>The Angular SSR is a server-rise rendering tool for Angular applications. Versions prior to 21.2.0-rc.1, 21.1.5, 20.3.17, and 19.2.21 have a Server-Side Request Forgery (SSRF) vulnerability in the Angular SSR request handling pipeline. The vulnerability exists because Angular’s internal URL reconstruction logic directly trusts and consumes user-controlled HTTP headers specifically the Host and `X-Forwarded-*` family to determine the application's base origin without any validation of the destination domain. Specifically, the framework didn't have checks for the host domain, path and character sanitization, and port validation. This vulnerability manifests in two primary ways: implicit relative URL resolution and explicit manual construction. When successfully exploited, this vulnerability allows for arbitrary internal request steering. This can lead to credential exfiltration, internal network probing, and a confidentiality breach. In order to be vulnerable, the victim application must use Angular SSR (Server-Side Rendering), the application must perform `HttpClient` requests using relative URLs OR manually construct URLs using the unvalidated `Host` / `X-Forwarded-*` headers using the `REQUEST` object, the application server must be reachable by an attacker who can influence these headers without strict validation from a front-facing proxy, and the infrastructure (Cloud, CDN, or Load Balancer) must not sanitize or validate incoming headers. Versions 21.2.0-rc.1, 21.1.5, 20.3.17, and 19.2.21 contain a patch. Some workarounds are available. Avoid using `req.headers` for URL construction. Instead, use trusted variables for base API paths. Those who cannot upgrade immediately should implement a middleware in their `server.ts` to enforce numeric ports and validated hostnames.
+</code>
+
+- [mr-redoo7/CVE-2026-27739-POC](https://github.com/mr-redoo7/CVE-2026-27739-POC)
 
 ### CVE-2026-27771 (2026-07-03)
 
@@ -11062,7 +11070,7 @@
 - [Cxyofficial/K50G-POCOF4GT-CVE-2026-43499-PoC](https://github.com/Cxyofficial/K50G-POCOF4GT-CVE-2026-43499-PoC)
 - [ruik-tech/ghostlock-s25fe](https://github.com/ruik-tech/ghostlock-s25fe)
 - [dorlow/hazel-cve-2026-43499](https://github.com/dorlow/hazel-cve-2026-43499)
-- [abdgalaxy36-code/galaxy-a37-root](https://github.com/abdgalaxy36-code/galaxy-a37-root)
+- [imeiplus/galaxy-a37-root](https://github.com/imeiplus/galaxy-a37-root)
 - [cyberbalsa/GhostLock-NVIDIA-Shield-9.2.4](https://github.com/cyberbalsa/GhostLock-NVIDIA-Shield-9.2.4)
 - [zenyxx-xd/RootMyVivo-Exploit](https://github.com/zenyxx-xd/RootMyVivo-Exploit)
 - [hui191/cve-2026-43499-aak-an00](https://github.com/hui191/cve-2026-43499-aak-an00)
@@ -11230,6 +11238,7 @@
 </code>
 
 - [pvharmo2/gha-lab-733c168b88](https://github.com/pvharmo2/gha-lab-733c168b88)
+- [sushant-me/agentic-workflow-injection](https://github.com/sushant-me/agentic-workflow-injection)
 
 ### CVE-2026-44262 (2026-05-12)
 
@@ -13439,6 +13448,13 @@
 </code>
 
 - [MichaelAdamGroberman/CVE-2026-55726](https://github.com/MichaelAdamGroberman/CVE-2026-55726)
+
+### CVE-2026-55781 (2026-07-10)
+
+<code>NanaZip is the 7-Zip derivative intended for the modern Windows experience. Prior to 6.5.1749.0, NanaZip's UFS and FFS image handler in NanaZip.Codecs.Archive.Ufs.cpp validates the superblock block size only against the MINBSIZE lower bound and does not validate the fs_fsize fragment size, allowing attacker-controlled 32-bit fields to flow into indirect-block, directory, and extraction buffer allocations. A tiny crafted UFS image can force multi-gigabyte allocations during open or extraction, causing memory exhaustion or process termination. This issue is fixed in version 6.5.1749.0.
+</code>
+
+- [g17hubH4ck/CVE-2026-55781-poc](https://github.com/g17hubH4ck/CVE-2026-55781-poc)
 
 ### CVE-2026-55957 (2026-06-29)
 
@@ -15923,6 +15939,13 @@
 </code>
 
 - [Saku0512/CVE-2026-84361-poc](https://github.com/Saku0512/CVE-2026-84361-poc)
+
+### CVE-2026-84600 (2026-09-14)
+
+<code>An authorization issue was addressed with improved state management. This issue is fixed in iOS 27 and iPadOS 27, macOS Golden Gate 27, tvOS 27, visionOS 27, watchOS 27. A malicious shortcut may be able to send messages without user confirmation.
+</code>
+
+- [OwenPawl/CVE-2026-84600](https://github.com/OwenPawl/CVE-2026-84600)
 
 ### CVE-2026-84616 (2026-09-14)
 
@@ -22224,6 +22247,7 @@
 - [PsyGuy007-sys/craftcms-cve-2025-32432-rce](https://github.com/PsyGuy007-sys/craftcms-cve-2025-32432-rce)
 - [EzraMansor/CVE-2025-32432-PoC](https://github.com/EzraMansor/CVE-2025-32432-PoC)
 - [e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432](https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432)
+- [P34NUT2/CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT)
 
 ### CVE-2025-32433 (2025-04-16)
 
@@ -64080,6 +64104,7 @@
 </code>
 
 - [Wrin9/CVE-2021-43287](https://github.com/Wrin9/CVE-2021-43287)
+- [HigorGabrielDCF/GoCD_PoC_Supply_Chain_Attack](https://github.com/HigorGabrielDCF/GoCD_PoC_Supply_Chain_Attack)
 
 ### CVE-2021-43297 (2022-01-10)
 
