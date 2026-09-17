@@ -3363,6 +3363,7 @@
 
 - [murrez/CVE-2026-12793](https://github.com/murrez/CVE-2026-12793)
 - [rootxn/CVE-2026-12793](https://github.com/rootxn/CVE-2026-12793)
+- [abraxas/CVE-2026-12793](https://github.com/abraxas/CVE-2026-12793)
 
 ### CVE-2026-12940 (2026-07-30)
 
@@ -4207,6 +4208,13 @@
 - [HORKimhab/CVE-2026-19949](https://github.com/HORKimhab/CVE-2026-19949)
 - [katranSefa/CVE-2026-19949](https://github.com/katranSefa/CVE-2026-19949)
 - [686f6c61/POC-AIOWPM-CVE-2026-19949](https://github.com/686f6c61/POC-AIOWPM-CVE-2026-19949)
+
+### CVE-2026-19975 (2026-08-17)
+
+<code>A weakness has been identified in Azuriom CMS up to 1.2.12. This issue affects the function transferMoney of the file app/Http/Controllers/ProfileController.php of the component Money Transfer Handler. This manipulation causes time-of-check time-of-use. The attack may be initiated remotely. A high degree of complexity is needed for the attack. The exploitability is assessed as difficult. Upgrading to version 1.2.13 is capable of addressing this issue. Patch name: ae5596a9548e010a8a79838806eff60ef9554539. Upgrading the affected component is advised. The vendor was contacted early about this disclosure.
+</code>
+
+- [HORKimhab/CVE-2026-19975](https://github.com/HORKimhab/CVE-2026-19975)
 
 ### CVE-2026-20045 (2026-01-21)
 
@@ -11060,7 +11068,6 @@
 - [sgswzglwlx/vivo-root-build](https://github.com/sgswzglwlx/vivo-root-build)
 - [rsyzee/ghostlock-infinix-hot70](https://github.com/rsyzee/ghostlock-infinix-hot70)
 - [hackyangwen-lgtm/rmg-s9180-fzg1](https://github.com/hackyangwen-lgtm/rmg-s9180-fzg1)
-- [diyiqiuye/ghostlock-pfem10](https://github.com/diyiqiuye/ghostlock-pfem10)
 - [abdgalaxy36-code/rmgp-complete-handoff](https://github.com/abdgalaxy36-code/rmgp-complete-handoff)
 - [ReBiliBin/ghostlock-oppo-watch3pro](https://github.com/ReBiliBin/ghostlock-oppo-watch3pro)
 - [alk601/Root-My-Galaxy](https://github.com/alk601/Root-My-Galaxy)
@@ -11073,6 +11080,7 @@
 - [imeiplus/galaxy-a37-root](https://github.com/imeiplus/galaxy-a37-root)
 - [cyberbalsa/GhostLock-NVIDIA-Shield-9.2.4](https://github.com/cyberbalsa/GhostLock-NVIDIA-Shield-9.2.4)
 - [zenyxx-xd/RootMyVivo-Exploit](https://github.com/zenyxx-xd/RootMyVivo-Exploit)
+- [cxlfhx/ghostlock-pfem10](https://github.com/cxlfhx/ghostlock-pfem10)
 - [hui191/cve-2026-43499-aak-an00](https://github.com/hui191/cve-2026-43499-aak-an00)
 - [1ndevelopment/ghostlock-s26](https://github.com/1ndevelopment/ghostlock-s26)
 - [zhubaohe123/ghostlock-kit](https://github.com/zhubaohe123/ghostlock-kit)
@@ -11086,6 +11094,7 @@
 - [kurtulusakyuz/IonStack_S21](https://github.com/kurtulusakyuz/IonStack_S21)
 - [DeAurity/ghost-hoock](https://github.com/DeAurity/ghost-hoock)
 - [huaguiqi/asus-i005-cve-2026-43499](https://github.com/huaguiqi/asus-i005-cve-2026-43499)
+- [diyiqiuye/ghostlock-pfem10](https://github.com/diyiqiuye/ghostlock-pfem10)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -13872,6 +13881,7 @@
 - [c0gnit00/CVE-2026-59827](https://github.com/c0gnit00/CVE-2026-59827)
 - [pickl31/CVE-2026-59827](https://github.com/pickl31/CVE-2026-59827)
 - [Gutierre0x80/CVE-2026-59827](https://github.com/Gutierre0x80/CVE-2026-59827)
+- [shivammittal2403/cve-2026-59827-metabase-cyber-range](https://github.com/shivammittal2403/cve-2026-59827-metabase-cyber-range)
 
 ### CVE-2026-59891 (2026-07-14)
 
@@ -14779,6 +14789,7 @@
 - [HORKimhab/CVE-2026-67401](https://github.com/HORKimhab/CVE-2026-67401)
 - [axedos/CVE-2026-67401](https://github.com/axedos/CVE-2026-67401)
 - [jithinkrishnanrs/CVE-2026-67401-cPanel-EmailTrack-SQLi](https://github.com/jithinkrishnanrs/CVE-2026-67401-cPanel-EmailTrack-SQLi)
+- [imbas007/CVE-2026-67401](https://github.com/imbas007/CVE-2026-67401)
 
 ### CVE-2026-67595 (2026-07-29)
 
@@ -16160,6 +16171,9 @@
 </code>
 
 - [HarshRajSinghania/CVE-2026-90782-s2opc-status-clobber](https://github.com/HarshRajSinghania/CVE-2026-90782-s2opc-status-clobber)
+
+### CVE-2026-92162
+- [0xSemizzz/CVE-2026-92162](https://github.com/0xSemizzz/CVE-2026-92162)
 
 ### CVE-2026-92247 (2026-09-16)
 
@@ -18161,6 +18175,7 @@
 - [segura2010/lenovo-dispatcher-poc](https://github.com/segura2010/lenovo-dispatcher-poc)
 - [spawn451/CVE-2025-8061-Exploit](https://github.com/spawn451/CVE-2025-8061-Exploit)
 - [vxqs/Lenovo-CVE-2025-8061](https://github.com/vxqs/Lenovo-CVE-2025-8061)
+- [uLl0a/MSRMapper](https://github.com/uLl0a/MSRMapper)
 
 ### CVE-2025-8067 (2025-08-28)
 
@@ -26629,6 +26644,7 @@
 - [Neobee714/CVE-2025-57819-POC](https://github.com/Neobee714/CVE-2025-57819-POC)
 - [TeteREN/CVE-2025-57819-RCE](https://github.com/TeteREN/CVE-2025-57819-RCE)
 - [r3vpwnx/CVE-2025-57819](https://github.com/r3vpwnx/CVE-2025-57819)
+- [shivammittal2403/cve-2025-57819-freepbx-range](https://github.com/shivammittal2403/cve-2025-57819-freepbx-range)
 
 ### CVE-2025-57833 (2025-09-03)
 
@@ -30739,7 +30755,6 @@
 - [J1nKsC/CVE-2024-4367_test](https://github.com/J1nKsC/CVE-2024-4367_test)
 - [veronimo669/pdf.js-CVE-2024-4367](https://github.com/veronimo669/pdf.js-CVE-2024-4367)
 - [yuimamur/CVE-2024-4367-hands-on-01](https://github.com/yuimamur/CVE-2024-4367-hands-on-01)
-- [Qq1111111111/pentest-i021-poc-1789486727](https://github.com/Qq1111111111/pentest-i021-poc-1789486727)
 
 ### CVE-2024-4406 (2024-05-02)
 
