@@ -677,6 +677,13 @@
 
 - [dewaguard-red-team/CVE-2026-1953](https://github.com/dewaguard-red-team/CVE-2026-1953)
 
+### CVE-2026-1961 (2026-03-26)
+
+<code>A flaw was found in Foreman. A remote attacker could exploit a command injection vulnerability in Foreman's WebSocket proxy implementation. This vulnerability arises from the system's use of unsanitized hostname values from compute resource providers when constructing shell commands. By operating a malicious compute resource server, an attacker could achieve remote code execution on the Foreman server when a user accesses VM VNC console functionality. This could lead to the compromise of sensitive credentials and the entire managed infrastructure.
+</code>
+
+- [kalnux/CVE-2026-1961-foreman-poc](https://github.com/kalnux/CVE-2026-1961-foreman-poc)
+
 ### CVE-2026-1999 (2026-02-18)
 
 <code>An incorrect authorization vulnerability was identified in GitHub Enterprise Server that allowed an attacker to merge their own pull request into a repository without having push access by exploiting an authorization bypass in the enable_auto_merge mutation for pull requests. This issue only affected repositories that allow forking as the attack relies on opening a pull request from an attacker-controlled fork into the target repository. Exploitation was only possible in specific scenarios. It required a clean pull request status and only applied to branches without branch protection rules enabled. This vulnerability affected GitHub Enterprise Server versions prior to 3.19.2, 3.18.5, and 3.17.11, and was fixed in versions 3.19.2, 3.18.5, and 3.17.11. This vulnerability was reported via the GitHub Bug Bounty program.
@@ -5571,6 +5578,7 @@
 - [Mluex0/CVE-2026-23744-PoC](https://github.com/Mluex0/CVE-2026-23744-PoC)
 - [sonnelon/CVE-2026-23744-PoC](https://github.com/sonnelon/CVE-2026-23744-PoC)
 - [itsC1SCO/mcpjam-to-root](https://github.com/itsC1SCO/mcpjam-to-root)
+- [wvverez/CVE-2026-23744](https://github.com/wvverez/CVE-2026-23744)
 
 ### CVE-2026-23745 (2026-01-16)
 
@@ -6835,6 +6843,13 @@
 </code>
 
 - [NetVanguard-cmd/CVE-2026-27507](https://github.com/NetVanguard-cmd/CVE-2026-27507)
+
+### CVE-2026-27540 (2026-03-19)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Rymera Web Co Pty Ltd. Woocommerce Wholesale Lead Capture woocommerce-wholesale-lead-capture allows Using Malicious Files.This issue affects Woocommerce Wholesale Lead Capture: from n/a through &lt;= 2.0.3.1.
+</code>
+
+- [winrarzipsexploit/CVE-2026-27540](https://github.com/winrarzipsexploit/CVE-2026-27540)
 
 ### CVE-2026-27541 (2026-03-05)
 
@@ -11403,6 +11418,13 @@
 - [shinthink/solrradar](https://github.com/shinthink/solrradar)
 - [gagaltotal/CVE-2026-44825-Apache-Solr-Scanner](https://github.com/gagaltotal/CVE-2026-44825-Apache-Solr-Scanner)
 
+### CVE-2026-44840 (2026-07-08)
+
+<code>Dgraph is an open source distributed GraphQL database. Prior to version 25.3.4, the `checkUserPassword` GraphQL query in Dgraph is vulnerable to DQL (Dgraph Query Language) injection. User-supplied password values are interpolated directly into a DQL `checkpwd()` query via `fmt.Sprintf` without any escaping or parameterization. An attacker can inject a password containing a double-quote character to break out of the DQL string literal and append arbitrary DQL query blocks. Version 25.3.4 patches the issue.
+</code>
+
+- [isaca0315/CVE-2026-44840-poc](https://github.com/isaca0315/CVE-2026-44840-poc)
+
 ### CVE-2026-44848 (2026-05-28)
 
 <code>Portainer Community Edition is a lightweight service delivery platform for containerized applications that can be used to manage Docker, Swarm, Kubernetes and ACI environments. From 2.33.0 to before 2.33.8, 2.39.2, and 2.41.0, The Docker plugin management endpoints (/plugins/*) were not registered with a handler, so standard users with endpoint access could call privileged plugin operations — including installing and enabling plugins — directly against the underlying Docker daemon. The vulnerability is exposed when a non-admin Portainer user (Standard User role, or any role granted endpoint-level access) has been given access to a Docker endpoint via Portainer RBAC. This vulnerability is fixed in 2.33.8, 2.39.2, and 2.41.0.
@@ -12320,6 +12342,7 @@
 - [g0thamRabb1t/CVE-2026-48908-joomla-sp-page-builder-detection](https://github.com/g0thamRabb1t/CVE-2026-48908-joomla-sp-page-builder-detection)
 - [imXur/CVE-2026-48908-Joomla-SP-Page-Builder-RCE](https://github.com/imXur/CVE-2026-48908-Joomla-SP-Page-Builder-RCE)
 - [yora1928/CVE-2026-48908-by-yora](https://github.com/yora1928/CVE-2026-48908-by-yora)
+- [winrarzipsexploit/CVE-2026-48908](https://github.com/winrarzipsexploit/CVE-2026-48908)
 
 ### CVE-2026-48909 (2026-06-20)
 
@@ -12463,6 +12486,13 @@
 
 - [DavidCarliez/CVE-2026-49176_LPE_POC](https://github.com/DavidCarliez/CVE-2026-49176_LPE_POC)
 - [777erp/CVE-2026-49176_BOF](https://github.com/777erp/CVE-2026-49176_BOF)
+
+### CVE-2026-49179 (2026-08-11)
+
+<code>Improper neutralization of special elements used in a command ('command injection') in Windows Active Directory allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [overgrowncarrot1/CVE-2026-49179-Active-Directory-WriteSPNScript-Command-Injection](https://github.com/overgrowncarrot1/CVE-2026-49179-Active-Directory-WriteSPNScript-Command-Injection)
 
 ### CVE-2026-49230 (2026-06-19)
 
@@ -14110,7 +14140,6 @@
 - [johnlodan/wp2shell-rce](https://github.com/johnlodan/wp2shell-rce)
 - [Procjevt/CVE-2026-63030](https://github.com/Procjevt/CVE-2026-63030)
 - [x-znn/CVE-2026-63030](https://github.com/x-znn/CVE-2026-63030)
-- [sowarma/wp2shell-PoC](https://github.com/sowarma/wp2shell-PoC)
 - [AnggaTechI/CVE-2026-63030](https://github.com/AnggaTechI/CVE-2026-63030)
 - [M4xSec/wp2shell-Exploit-Waf-Bypass](https://github.com/M4xSec/wp2shell-Exploit-Waf-Bypass)
 - [g0d150ne/WP2Shell](https://github.com/g0d150ne/WP2Shell)
@@ -14447,6 +14476,13 @@
 
 ### CVE-2026-65615
 - [BL0odz/JFrog_CVE-2026-65615-ByGLM](https://github.com/BL0odz/JFrog_CVE-2026-65615-ByGLM)
+
+### CVE-2026-65616 (2026-07-27)
+
+<code>Incorrect authorization validation in refresh token signature allows non-admin users to obtain a signed JFrog administrator token.
+</code>
+
+- [alixiacf/rep-openai-artifactory](https://github.com/alixiacf/rep-openai-artifactory)
 
 ### CVE-2026-65640 (2026-08-17)
 
@@ -15151,6 +15187,13 @@
 ### CVE-2026-72585
 - [Nel-droid/CVE-2026-72585-PoC](https://github.com/Nel-droid/CVE-2026-72585-PoC)
 
+### CVE-2026-72708 (2026-09-11)
+
+<code>SPIP before 4.4.18 contains an unauthenticated blind SQL injection vulnerability in the SQL escaping layer that allows unauthenticated attackers to inject arbitrary SQL by supplying a crafted annee parameter value matching a word character followed by an open parenthesis, which bypasses escaping for date-type columns across MySQL, SQLite, and PostgreSQL backends. Attackers can exploit the always-present sitemap.xml.html template's annee criterion to embed unescaped time-based or boolean payloads into database queries, enabling extraction of arbitrary database content including the alea_ephemere secret used to sign SPIP action nonces.
+</code>
+
+- [ambionics/spip-exploits](https://github.com/ambionics/spip-exploits)
+
 ### CVE-2026-72744 (2026-08-11)
 
 <code>Nuxt versions &gt;= 4.4.7 and &lt; 4.5.1, and &gt;= 3.21.7 and &lt; 3.21.10, contain an information disclosure vulnerability in the development server's Chrome DevTools workspace endpoint (GET /.well-known/appspecific/com.chrome.devtools.json). The endpoint's local-request gate (isLocalDevRequest) is header-based and trusts the attacker-supplied Host header rather than the connected peer address. When the dev server is bound to a network-reachable interface (e.g. nuxt dev --host) and experimental.chromeDevtoolsProjectSettings is enabled (the default), an unauthenticated attacker on the LAN can send a request with a spoofed Host header and no browser-specific headers (Sec-Fetch-Site, Origin, Referer) to retrieve the project's absolute filesystem root path (rootDir) and a persistent per-project workspace UUID. Production builds are unaffected. Fixed in 4.5.1 and 3.21.10.
@@ -15832,6 +15875,20 @@
 - [digiprosec/CVE-2026-80428](https://github.com/digiprosec/CVE-2026-80428)
 - [shivammittal2403/cve-2026-80428-ctf](https://github.com/shivammittal2403/cve-2026-80428-ctf)
 
+### CVE-2026-80467 (2026-09-02)
+
+<code>The Advanced Custom Fields: Extended WordPress plugin before 0.9.2.7 does not restrict the role submitted through its front-end user forms to the roles the form actually offers, and its safeguard against privileged roles is incomplete, allowing unauthenticated visitors to register an account with elevated capabilities and then escalate it to administrator.
+</code>
+
+- [SangSenimanWartefak/CVE-2026-80467](https://github.com/SangSenimanWartefak/CVE-2026-80467)
+
+### CVE-2026-80521 (2026-08-26)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\naf_unix: Unlink scc_entry in unix_del_edge().\n\nKyle Zeng reported that GC could free a dead SCC partially.\n\nThe scenario is as follows:\n\n   1) Create two SCCs:\n\n       X -.   A &lt;-&gt; B\n       ^--'\n\n   2) Run the following concurrently:\n\n      2-1) send() sk-B to sk-B from sk-X\n      2-2) close() both A and B\n\nAt 2-1), there is a small window where unix_add_edges()\npublishes a new edge (B &lt;-&gt; B) to GC but its skb is not queued\nby skb_queue_tail().\n\nIf 2-2) completes before skb_queue_tail() and GC is triggered,\nit judges A &lt;-&gt; B as dead, but B is not freed because GC cannot\ncollect the not-yet-queued skb holding the B &lt;-&gt; B edge.\n\n       X -.   A &lt;-&gt; B -. This edge is visible\n       ^--'         ^..'  but skb is not\n\nThis itself is not a problem since the next GC run will judge\nB as dead as well and free it finally.\n\n       X -.   A &lt;.&gt; B -.\n       ^--'         ^--'\n\nHowever, X's SCC forces the next GC to call unix_walk_scc_fast(),\nand it iterates over A through B's scc_entry.\n\nLet's unlink scc_entry before freeing the vertex in unix_del_edge().
+</code>
+
+- [Markakd/Container_escape](https://github.com/Markakd/Container_escape)
+
 ### CVE-2026-80724 (2026-08-28)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nptp: vmclock: prevent read-only mappings from becoming writable\n\nvmclock_miscdev_mmap() rejects writable mappings of the shared vmclock\nABI page with -EROFS, but leaves VM_MAYWRITE set.  Userspace can map the\npage read-only and then upgrade it to writable with mprotect(), after\nwhich the guest can corrupt the host-written timekeeping data (sequence\ncounter, UTC time, TSC offset) that the vmclock ABI defines as read-only.\n\nClear VM_MAYWRITE on the read-only path so the mapping cannot be\nupgraded, as i915 does for its read-only objects and as fixed in drm/vc4\n(CVE-2026-68445) and drm/panthor (CVE-2024-53071).
@@ -15980,6 +16037,13 @@
 
 - [mhtsec/CVE-2026-84645](https://github.com/mhtsec/CVE-2026-84645)
 
+### CVE-2026-85045 (2026-09-03)
+
+<code>Race condition in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [SneakyNachos/CVE-2026-85045](https://github.com/SneakyNachos/CVE-2026-85045)
+
 ### CVE-2026-85046 (2026-09-03)
 
 <code>Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
@@ -15991,6 +16055,13 @@
 - [Eliot-code/CVE-2026-85046](https://github.com/Eliot-code/CVE-2026-85046)
 - [SneakyNachos/CVE-2026-85046-who-put-the-silverback-guerilla-in-the-wasm](https://github.com/SneakyNachos/CVE-2026-85046-who-put-the-silverback-guerilla-in-the-wasm)
 - [atiilla/CVE-2026-85046](https://github.com/atiilla/CVE-2026-85046)
+
+### CVE-2026-85048 (2026-09-03)
+
+<code>Use after free in Compositing in Google Chrome prior to 152.0.7977.82 allowed a remote attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [SneakyNachos/CVE-2026-85048-the-gpu-died](https://github.com/SneakyNachos/CVE-2026-85048-the-gpu-died)
 
 ### CVE-2026-85612 (2026-09-04)
 
@@ -16030,6 +16101,8 @@
 - [plur1bu5/gitread](https://github.com/plur1bu5/gitread)
 - [gabrielunknown/CVE-2026-85706](https://github.com/gabrielunknown/CVE-2026-85706)
 - [0xenesbayram/cve-2026-85706](https://github.com/0xenesbayram/cve-2026-85706)
+- [S3v3n-JG/CVE-2026-85706](https://github.com/S3v3n-JG/CVE-2026-85706)
+- [tc4dy/CVE-2026-85706-PoC-Toolkit](https://github.com/tc4dy/CVE-2026-85706-PoC-Toolkit)
 
 ### CVE-2026-85769 (2026-09-04)
 
@@ -16131,6 +16204,16 @@
 
 - [SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.](https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.)
 
+### CVE-2026-87930 (2026-09-09)
+
+<code>MaxSite CMS through 109.6 passes the ci_session cookie to unserialize() without class restrictions, allowing unauthenticated attackers to inject PHP objects. Attackers can forge valid session cookies using the hardcoded encryption key to trigger magic methods and corrupt application state or achieve code execution if gadget classes exist.
+</code>
+
+- [winrarzipsexploit/CVE-2026-87930](https://github.com/winrarzipsexploit/CVE-2026-87930)
+
+### CVE-2026-88533
+- [HEMLOCK-LYK/CVE-2026-88533](https://github.com/HEMLOCK-LYK/CVE-2026-88533)
+
 ### CVE-2026-88861 (2026-09-10)
 
 <code>Capgo (Cap-go/capgo.app) contains an authentication bypass affecting all versions (no patched version available at time of publication). The Edge authorization path allows a password-only Supabase aal1 session to exercise privileged RBAC permissions even when the account has a verified MFA factor that has not been used for the session: the Edge JWT middleware (foundJWT() in supabase/functions/_backend/utils/hono_middleware.ts) accepts the JWT without validating its assurance level, and the direct RBAC path (checkPermission()/checkPermissionPg() in supabase/functions/_backend/utils/rbac.ts calling public.rbac_check_permission_direct()) authorizes by user ID without passing or checking the session aal, unlike the public.verify_mfa() control which correctly requires aal2. An attacker who knows only the victim's password can therefore authenticate, mint a persistent app-scoped app_admin API key that remains valid after the aal1 session is logged out, and perform privileged operations such as modifying production OTA channel configurations (validated by changing a public production channel from bundle 1.0.0 to 1.0.1), defeating the protection provided by MFA.
@@ -16154,7 +16237,7 @@
 
 ### CVE-2026-89013 (2026-09-11)
 
-<code>Dolibarr 23.0.4 before 24.0.1 ontains an authorization bypass vulnerability that allows unauthenticated attackers to read arbitrary files through the document storage endpoints by supplying a crafted hashp parameter value. Attackers can send a request with hashp=shared to skip token validation while satisfying the authorization condition in htdocs/document.php and htdocs/viewimage.php, gaining access to application logs, uploaded business documents, database backups containing password hashes, and files belonging to other multicompany entities.
+<code>Dolibarr 23.0.4 before 24.0.1 contains an authorization bypass vulnerability that allows unauthenticated attackers to read arbitrary files through the document storage endpoints by supplying a crafted hashp parameter value. Attackers can send a request with hashp=shared to skip token validation while satisfying the authorization condition in htdocs/document.php and htdocs/viewimage.php, gaining access to application logs, uploaded business documents, database backups containing password hashes, and files belonging to other multicompany entities.
 </code>
 
 - [Faceless0x7/CVE-2026-89013](https://github.com/Faceless0x7/CVE-2026-89013)
@@ -16189,6 +16272,13 @@
 </code>
 
 - [d1n3sh-0x3/CVE-2026-92247](https://github.com/d1n3sh-0x3/CVE-2026-92247)
+
+### CVE-2026-92805 (2026-09-16)
+
+<code>UVdesk Community Skeleton through 1.1.8 fails to authenticate or validate installation state on wizard endpoints in ConfigureHelpdesk controller actions. Unauthenticated attackers can repoint the database and create super administrator accounts by submitting crafted requests to wizard endpoints, gaining full control of the instance.
+</code>
+
+- [cflowsec/CVE-2026-92805](https://github.com/cflowsec/CVE-2026-92805)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
