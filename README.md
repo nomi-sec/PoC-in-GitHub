@@ -15527,6 +15527,13 @@
 
 - [ozcanpng/CVE-2026-76071](https://github.com/ozcanpng/CVE-2026-76071)
 
+### CVE-2026-76460 (2026-09-16)
+
+<code>A vulnerability in an API of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attacker to bypass authentication.\r\n\r\nThis vulnerability is due to insufficient authentication control on an API endpoint. An attacker could exploit this vulnerability by sending a crafted request to an affected API endpoint. A successful exploit could allow the attacker to gain unauthorized access to the affected device by bypassing the web-based management interface.
+</code>
+
+- [S3v3n-JG/CVE-2026-76460](https://github.com/S3v3n-JG/CVE-2026-76460)
+
 ### CVE-2026-76461 (2026-09-14)
 
 <code>A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.\r\n\r\nThis vulnerability is due to insufficient validation in the email parsing logic. An attacker could exploit this vulnerability by sending a crafted email message that contains malicious SQL statements through an affected device. A successful exploit could allow the attacker to execute arbitrary SQL statements, leading to command execution with root privileges on the underlying operating system.
@@ -15535,6 +15542,7 @@
 - [HORKimhab/CVE-2026-76461](https://github.com/HORKimhab/CVE-2026-76461)
 - [0xBlackash/CVE-2026-76461](https://github.com/0xBlackash/CVE-2026-76461)
 - [fevar54/CVE-2026-76461-Detection-Kit-](https://github.com/fevar54/CVE-2026-76461-Detection-Kit-)
+- [S3v3n-JG/CVE-2026-76461](https://github.com/S3v3n-JG/CVE-2026-76461)
 
 ### CVE-2026-76564 (2026-08-20)
 
@@ -16903,6 +16911,7 @@
 </code>
 
 - [LoserLab/bigint-buffer-safe](https://github.com/LoserLab/bigint-buffer-safe)
+- [disley15-collab/bigint-buffer-js](https://github.com/disley15-collab/bigint-buffer-js)
 
 ### CVE-2025-3243 (2025-04-04)
 
@@ -78308,7 +78317,6 @@
 - [Sait-Nuri/CVE-2018-15473](https://github.com/Sait-Nuri/CVE-2018-15473)
 - [WildfootW/CVE-2018-15473_OpenSSH_7.7](https://github.com/WildfootW/CVE-2018-15473_OpenSSH_7.7)
 - [MrDottt/CVE-2018-15473](https://github.com/MrDottt/CVE-2018-15473)
-- [66quentin/shodan-CVE-2018-15473](https://github.com/66quentin/shodan-CVE-2018-15473)
 - [0xrobiul/CVE-2018-15473](https://github.com/0xrobiul/CVE-2018-15473)
 - [philippedixon/CVE-2018-15473](https://github.com/philippedixon/CVE-2018-15473)
 - [sergiovks/SSH-User-Enum-Python3-CVE-2018-15473](https://github.com/sergiovks/SSH-User-Enum-Python3-CVE-2018-15473)
