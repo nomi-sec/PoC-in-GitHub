@@ -8058,6 +8058,7 @@
 - [joaocalciolari07/copyfail-guard](https://github.com/joaocalciolari07/copyfail-guard)
 - [FranklinF25/cve-2026-31431](https://github.com/FranklinF25/cve-2026-31431)
 - [silentbyte69/copy-fail-CVE-2026-31431-cpp](https://github.com/silentbyte69/copy-fail-CVE-2026-31431-cpp)
+- [Minime794/copyfail](https://github.com/Minime794/copyfail)
 
 ### CVE-2026-31525 (2026-04-22)
 
@@ -11104,6 +11105,7 @@
 - [cxlfhx/ghostlock-pfem10](https://github.com/cxlfhx/ghostlock-pfem10)
 - [hui191/cve-2026-43499-aak-an00](https://github.com/hui191/cve-2026-43499-aak-an00)
 - [1ndevelopment/ghostlock-s26](https://github.com/1ndevelopment/ghostlock-s26)
+- [MuhamadRifkii/CVE-2026-43499-POCO-X3-GT](https://github.com/MuhamadRifkii/CVE-2026-43499-POCO-X3-GT)
 - [zhubaohe123/ghostlock-kit](https://github.com/zhubaohe123/ghostlock-kit)
 - [ccp-p/ghostlock-cve-2026-43499-4.19-k40](https://github.com/ccp-p/ghostlock-cve-2026-43499-4.19-k40)
 - [accessmodifier364/cve-2026-43499-firetv-sheldonp-writeup](https://github.com/accessmodifier364/cve-2026-43499-firetv-sheldonp-writeup)
@@ -15933,6 +15935,13 @@
 
 - [yora1928/PaperCut-CVE-2026-81578-82078](https://github.com/yora1928/PaperCut-CVE-2026-81578-82078)
 - [virologi-info/papercut-toolkit](https://github.com/virologi-info/papercut-toolkit)
+
+### CVE-2026-81642 (2026-09-16)
+
+<code>In NLnet Labs Unbound up to and including 1.26.0, a vulnerability was found in the DNSSEC validator that enables denial of service and possible remote code execution as a result of digesting DNSKEYs. A DNSKEY with an owner compression pointer to its own RDATA can overflow the digest buffer. Remote code execution is possible through attacker controlled data. An adversary can exploit the vulnerability by controlling a malicious zone and querying a vulnerable Unbound.
+</code>
+
+- [suominen/CVE-2026-81642](https://github.com/suominen/CVE-2026-81642)
 
 ### CVE-2026-81780 (2026-08-31)
 
@@ -82880,7 +82889,6 @@
 - [GonzaBot/kernel-exploit-dirtycow](https://github.com/GonzaBot/kernel-exploit-dirtycow)
 - [gogooma125732/CVE-2016-5195](https://github.com/gogooma125732/CVE-2016-5195)
 - [voidgguy/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195](https://github.com/voidgguy/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195)
-- [Minime794/CVE-2016-5195](https://github.com/Minime794/CVE-2016-5195)
 - [KongQBin/CVE-2016-5195](https://github.com/KongQBin/CVE-2016-5195)
 - [vudangducminh/CVE-2016-5195](https://github.com/vudangducminh/CVE-2016-5195)
 
