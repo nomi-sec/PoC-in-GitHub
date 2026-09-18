@@ -632,7 +632,7 @@
 - [win3zz/CVE-2026-1731](https://github.com/win3zz/CVE-2026-1731)
 - [cybrdude/cve-2026-1731-scanner](https://github.com/cybrdude/cve-2026-1731-scanner)
 - [jakubie07/CVE-2026-1731](https://github.com/jakubie07/CVE-2026-1731)
-- [hexissam/CVE-2026-1731](https://github.com/hexissam/CVE-2026-1731)
+- [hex0user/CVE-2026-1731](https://github.com/hex0user/CVE-2026-1731)
 - [ridhinva/beyondtrust-rce-scanner](https://github.com/ridhinva/beyondtrust-rce-scanner)
 
 ### CVE-2026-1801 (2026-02-03)
@@ -1327,7 +1327,7 @@
 <code>A flaw was found in Keycloak. The SingleUseObjectProvider, a global key-value store, lacks proper type and namespace isolation. This vulnerability allows an unauthenticated attacker to forge authorization codes. Successful exploitation can lead to the creation of admin-capable access tokens, resulting in privilege escalation.
 </code>
 
-- [hexissam/CVE-2026-4282-Scanner](https://github.com/hexissam/CVE-2026-4282-Scanner)
+- [hex0user/CVE-2026-4282-Scanner](https://github.com/hex0user/CVE-2026-4282-Scanner)
 
 ### CVE-2026-4342 (2026-03-19)
 
@@ -3803,6 +3803,13 @@
 - [sfewer-r7/CVE-2026-16232](https://github.com/sfewer-r7/CVE-2026-16232)
 - [HackSpeak/CVE-2026-16232](https://github.com/HackSpeak/CVE-2026-16232)
 
+### CVE-2026-16265 (2026-08-07)
+
+<code>The WP Maps  WordPress plugin before 4.9.7 does not perform a capability check in one of its AJAX actions and does not restrict the operation it dispatches, allowing users with a Subscriber account to trigger uncontrolled recursion that exhausts server resources, resulting in a Denial of Service.
+</code>
+
+- [ghoxtbyte/CVE-2026-16265](https://github.com/ghoxtbyte/CVE-2026-16265)
+
 ### CVE-2026-16348 (2026-08-24)
 
 <code>An authenticated command injection vulnerability in TP-Link Archer BE800 V1 allows an attacker with administrative access to execute arbitrary system commands with root privileges by injecting shell metacharacters via a VPN connection. \n\n\n\n\nSuccessful exploitation may enable persistent backdoors, credential theft, LAN reconnaissance, and router-assisted attacks against connected devices.
@@ -3944,6 +3951,13 @@
 </code>
 
 - [HORKimhab/CVE-2026-18431](https://github.com/HORKimhab/CVE-2026-18431)
+
+### CVE-2026-18464 (2026-08-09)
+
+<code>The WP MAPS PRO WordPress plugin before 6.1.3 does not perform a capability check in one of its AJAX actions, which is also available to unauthenticated users, and does not restrict the operation it dispatches, allowing unauthenticated attackers to trigger uncontrolled recursion that exhausts server resources, resulting in a Denial of Service.
+</code>
+
+- [ghoxtbyte/CVE-2026-18464](https://github.com/ghoxtbyte/CVE-2026-18464)
 
 ### CVE-2026-18504 (2026-08-18)
 
@@ -11504,6 +11518,13 @@
 
 - [pvharmo2/gha-lab-8aba6b05dc](https://github.com/pvharmo2/gha-lab-8aba6b05dc)
 
+### CVE-2026-45140 (2026-09-17)
+
+<code>Chamilo LMS is an open-source learning management system. Prior to 2.0.1, Chamilo LMS allows an unauthenticated remote attacker to execute arbitrary code on the server. The authoritative advisory does not identify the affected endpoint, component, input, or exploitation mechanism. This issue is fixed in version 2.0.1.
+</code>
+
+- [abraxas/CVE-2026-45140](https://github.com/abraxas/CVE-2026-45140)
+
 ### CVE-2026-45156 (2026-06-01)
 
 <code>Nextcloud is an open source content collaboration platform. From versions 0.3.0 to before 3.1.0, 5.0.0 to before 5.1.0, and 6.0.0 to before 6.4.0, a missing signature verification in User OIDC allowed a malicious ID4me authority to identify as any user. This issue has been patched in versions 3.1.0, 4.1.0, 5.1.0, 6.4.0 and 8.3.0.
@@ -14171,6 +14192,7 @@
 - [mhassani97/cve-2026-63030-lab](https://github.com/mhassani97/cve-2026-63030-lab)
 - [DeadExpl0it/wp2shell-poc](https://github.com/DeadExpl0it/wp2shell-poc)
 - [Sec-Dan/WP2Shell-Scanner](https://github.com/Sec-Dan/WP2Shell-Scanner)
+- [arvindear/wp2shell-PoC](https://github.com/arvindear/wp2shell-PoC)
 
 ### CVE-2026-63039 (2026-08-20)
 
@@ -15546,6 +15568,13 @@
 - [disrex-group/stylesmuggler-adobe-patches-mageos](https://github.com/disrex-group/stylesmuggler-adobe-patches-mageos)
 - [fortbridge/stylesmuggler](https://github.com/fortbridge/stylesmuggler)
 
+### CVE-2026-75827 (2026-08-18)
+
+<code>Grav before 2.0.15 contains an arbitrary file write vulnerability in the Blueprint dynamic-data bare-function validation that uses an incomplete denylist instead of a positive allowlist. Attackers with page-edit or blueprint-config access can invoke the error_log function through a data directive to append PHP payloads to web-accessible files, achieving remote code execution.
+</code>
+
+- [abraxas/CVE-2026-75827](https://github.com/abraxas/CVE-2026-75827)
+
 ### CVE-2026-75855 (2026-08-18)
 
 <code>ArcadeDB versions before 26.8.1 fail to sanitize database names in the POST /api/v1/server endpoint's create database and drop database commands, allowing authenticated root users to write and delete arbitrary files outside the configured database directory. Attackers can supply database names containing ../ sequences to create databases at arbitrary filesystem paths or recursively delete directories the server process can access.
@@ -15724,6 +15753,13 @@
 
 - [alkimcoskun/Yordam-Kutuphane-Otomasyonunda-Coklu-HTML-Enjeksiyonu](https://github.com/alkimcoskun/Yordam-Kutuphane-Otomasyonunda-Coklu-HTML-Enjeksiyonu)
 
+### CVE-2026-77991 (2026-08-27)
+
+<code>Joomla Extension - joomlaeventmanager.net - Privileged remote code execution in Joomla Event Manager &lt; 5.0.1 - The administrator source model allows to write dangerous file type incl. PHP, leading to remote code execution.
+</code>
+
+- [abraxas/CVE-2026-77991](https://github.com/abraxas/CVE-2026-77991)
+
 ### CVE-2026-78006 (2026-09-12)
 
 <code>The The Events Calendar plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 6.17.4 via the is_safe_widget_instance function. This is due to insufficient protection in is_safe_widget_instance, which can be bypassed because PHP fires magic methods during its pre-parse, combined with enable_rendering_widget_copied() forging a valid wp_hash integrity attribute before unserialize() is reached. This makes it possible for unauthenticated attackers to execute code on the server. This is exploitable without authentication or approval because the plugin's V2 single-event template runs do_blocks() over buffered comment HTML, and WordPress returns a moderation-hash URL that allows an unauthenticated commenter to immediately view their own pending comment, delivering the injected block markup to the vulnerable code path before any moderation occurs. This does require comments to be enabled and visible on events.
@@ -15845,7 +15881,11 @@
 
 - [virologi-info/chrome-vuln-scanner](https://github.com/virologi-info/chrome-vuln-scanner)
 
-### CVE-2026-79294
+### CVE-2026-79294 (2026-09-18)
+
+<code>Cross Site Scripting vulnerability in Moonshot AI Kimi version as of 2026-07-18 allows a remote attacker to execute arbitrary code via the HTML artifact Preview rendering; public Share view component
+</code>
+
 - [MGTx2/CVE-2026-79294](https://github.com/MGTx2/CVE-2026-79294)
 
 ### CVE-2026-79298 (2026-09-16)
@@ -15982,6 +16022,13 @@
 - [0xCyp1337/CVE-2026-82222-MassExploit](https://github.com/0xCyp1337/CVE-2026-82222-MassExploit)
 - [GhostlyrootB2H/CVE-2026-82222](https://github.com/GhostlyrootB2H/CVE-2026-82222)
 
+### CVE-2026-82226 (2026-08-31)
+
+<code>Unauthenticated PHP Object Injection in Tickera &lt;= 3.6.0.2 versions.
+</code>
+
+- [abraxas/CVE-2026-82226](https://github.com/abraxas/CVE-2026-82226)
+
 ### CVE-2026-82286 (2026-08-28)
 
 <code>gpt-crawler through 1.5.1 fails to validate the outputFileName parameter in the POST /crawl endpoint, allowing unauthenticated attackers to write arbitrary files to any filesystem path. Attackers can supply absolute paths or parent-directory segments to overwrite existing files with content sourced from attacker-controlled URLs.
@@ -16075,6 +16122,13 @@
 </code>
 
 - [mhtsec/CVE-2026-84645](https://github.com/mhtsec/CVE-2026-84645)
+
+### CVE-2026-84753 (2026-09-03)
+
+<code>Unauthenticated PHP Object Injection in Mail Mint &lt;= 1.31.0 versions.
+</code>
+
+- [abraxas/CVE-2026-84753](https://github.com/abraxas/CVE-2026-84753)
 
 ### CVE-2026-85045 (2026-09-03)
 
@@ -22467,6 +22521,7 @@
 - [dampedcoast/Exploiting-a-vulnerability-using-reverse-shell](https://github.com/dampedcoast/Exploiting-a-vulnerability-using-reverse-shell)
 - [razureink/cve-2025-32433-erlang_ssh_rce_reproduction](https://github.com/razureink/cve-2025-32433-erlang_ssh_rce_reproduction)
 - [Liam-Worsley/CVE-2025-32433-PoC-Analysis](https://github.com/Liam-Worsley/CVE-2025-32433-PoC-Analysis)
+- [damnkrishna/CVE-2025-32433-LAB](https://github.com/damnkrishna/CVE-2025-32433-LAB)
 
 ### CVE-2025-32434 (2025-04-18)
 
@@ -29237,7 +29292,7 @@
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in TeconceTheme Coven Core coven-core allows Blind SQL Injection.This issue affects Coven Core: from n/a through &lt;= 1.3.
 </code>
 
-- [hexissam/CVE-2025-69295](https://github.com/hexissam/CVE-2025-69295)
+- [hex0user/CVE-2025-69295](https://github.com/hex0user/CVE-2025-69295)
 
 ### CVE-2025-69419 (2026-01-27)
 
@@ -35755,7 +35810,7 @@
 <code>An issue discovered in the DeviceIoControl component in ASUS Fan_Xpert before v.10013 allows an attacker to execute arbitrary code via crafted IOCTL requests.
 </code>
 
-- [ekfkawl/CVE-2024-30804](https://github.com/ekfkawl/CVE-2024-30804)
+- [Geozstevenzz/CVE-2024-30804](https://github.com/Geozstevenzz/CVE-2024-30804)
 
 ### CVE-2024-30850
 - [chebuya/CVE-2024-30850-chaos-rat-rce-poc](https://github.com/chebuya/CVE-2024-30850-chaos-rat-rce-poc)
@@ -39267,7 +39322,7 @@
 - [onixgod/SOC335-Event-ID-313-CVE-2024-49138-Exploitation-Detected--Lest-Defend-Writeup](https://github.com/onixgod/SOC335-Event-ID-313-CVE-2024-49138-Exploitation-Detected--Lest-Defend-Writeup)
 - [Zedocun/soc-investigation-powershell-edrfreeze](https://github.com/Zedocun/soc-investigation-powershell-edrfreeze)
 - [vettrivel007/CVE-2024-49138](https://github.com/vettrivel007/CVE-2024-49138)
-- [basitsajidapply-stack/SOC-Investigation-CVE-2024-49138](https://github.com/basitsajidapply-stack/SOC-Investigation-CVE-2024-49138)
+- [basitsajidSOC/SOC-Investigation-CVE-2024-49138](https://github.com/basitsajidSOC/SOC-Investigation-CVE-2024-49138)
 - [NadineElliottCyber/SOC335-CVE-2024-49138-Investigation](https://github.com/NadineElliottCyber/SOC335-CVE-2024-49138-Investigation)
 - [Adisasoc/CVE-2024-49138-SOC-Investigation](https://github.com/Adisasoc/CVE-2024-49138-SOC-Investigation)
 - [FabianCH20/SOC335---CVE-2024-49138-Exploitation-Detected](https://github.com/FabianCH20/SOC335---CVE-2024-49138-Exploitation-Detected)
@@ -65063,6 +65118,7 @@
 - [Wafeeq-Fareed/log4shell-exploitation-lab](https://github.com/Wafeeq-Fareed/log4shell-exploitation-lab)
 - [KalidouLabghaly/log4shell-exploitation-detection](https://github.com/KalidouLabghaly/log4shell-exploitation-detection)
 - [rh-rahulshetty/log4shell-CVE-2021-44228](https://github.com/rh-rahulshetty/log4shell-CVE-2021-44228)
+- [mcpmark-eval-liuhezi/log4shell-audit](https://github.com/mcpmark-eval-liuhezi/log4shell-audit)
 
 ### CVE-2021-44255 (2022-01-31)
 
