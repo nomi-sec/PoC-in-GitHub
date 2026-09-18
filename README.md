@@ -3959,6 +3959,13 @@
 
 - [CreamyG31337/ncentral-compromise-ioc-triage](https://github.com/CreamyG31337/ncentral-compromise-ioc-triage)
 
+### CVE-2026-18574 (2026-08-03)
+
+<code>An authentication bypass vulnerability in Check Point Security Management Server and Multi-Domain Security Management Server (MDS) could allow an unauthenticated remote attacker with network access to Management services to execute arbitrary commands on the Security Management Server. Successful exploitation could result in full compromise of the Security Management system. Check Point discovered this issue internally and has no indication of active exploitation.
+</code>
+
+- [HORKimhab/CVE-2026-18574](https://github.com/HORKimhab/CVE-2026-18574)
+
 ### CVE-2026-18577 (2026-08-02)
 
 <code>An incomplete patch for CVE-2026-18556 allows for authentication bypass and account takeover in N-central Versions through 2026.3.1
@@ -14269,6 +14276,7 @@
 
 - [villager1314/CVE-2026-64560-Analysis](https://github.com/villager1314/CVE-2026-64560-Analysis)
 - [quyicheng03-boop/xiaomi15-dada-cve-2026-64560](https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560)
+- [RMDycz/K80Pro-miro-CVE-2026-64560](https://github.com/RMDycz/K80Pro-miro-CVE-2026-64560)
 
 ### CVE-2026-64561 (2026-08-04)
 
@@ -15660,6 +15668,13 @@
 
 - [0xROI/CVE-2026-77113](https://github.com/0xROI/CVE-2026-77113)
 
+### CVE-2026-77179 (2026-09-15)
+
+<code>On macOS, the virtio-fs host server used by Docker Sandboxes improperly follows symlinks when reopening an unlinked file from a stored path. A malicious guest can replace a parent directory with a symlink, escape the shared workspace, and read or modify arbitrary host files as the VMM user, potentially achieving host code execution.
+</code>
+
+- [HORKimhab/CVE-2026-77179](https://github.com/HORKimhab/CVE-2026-77179)
+
 ### CVE-2026-77262
 - [romain-deperne/CVE-2026-77262](https://github.com/romain-deperne/CVE-2026-77262)
 
@@ -16116,7 +16131,6 @@
 - [plur1bu5/gitread](https://github.com/plur1bu5/gitread)
 - [gabrielunknown/CVE-2026-85706](https://github.com/gabrielunknown/CVE-2026-85706)
 - [0xenesbayram/cve-2026-85706](https://github.com/0xenesbayram/cve-2026-85706)
-- [S3v3n-JG/CVE-2026-85706](https://github.com/S3v3n-JG/CVE-2026-85706)
 - [tc4dy/CVE-2026-85706-PoC-Toolkit](https://github.com/tc4dy/CVE-2026-85706-PoC-Toolkit)
 
 ### CVE-2026-85769 (2026-09-04)
@@ -16285,6 +16299,13 @@
 
 - [HarshRajSinghania/CVE-2026-90782-s2opc-status-clobber](https://github.com/HarshRajSinghania/CVE-2026-90782-s2opc-status-clobber)
 
+### CVE-2026-91843 (2026-09-16)
+
+<code>A stack overflow during the unauthenticated login process may allow an attacker to run arbitrary code remotely with root privileges.
+</code>
+
+- [HORKimhab/CVE-2026-91843](https://github.com/HORKimhab/CVE-2026-91843)
+
 ### CVE-2026-92162
 - [0xSemizzz/CVE-2026-92162](https://github.com/0xSemizzz/CVE-2026-92162)
 
@@ -16301,6 +16322,13 @@
 </code>
 
 - [cflowsec/CVE-2026-92805](https://github.com/cflowsec/CVE-2026-92805)
+
+### CVE-2026-93453 (2026-09-17)
+
+<code>SOGo before 5.12.11 constructs password-reset links using the client-supplied Origin header as the authority, allowing unauthenticated attackers to redirect recovery tokens to attacker-controlled domains. Attackers can submit password recovery requests with a malicious Origin header to have valid password-reset tokens mailed to victim recovery addresses within links pointing to attacker infrastructure, enabling account takeover.
+</code>
+
+- [Faceless0x7/CVE-2026-93453](https://github.com/Faceless0x7/CVE-2026-93453)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -64428,6 +64456,7 @@
 - [Asbawy/GrafTraverse-CVE-2021-43798](https://github.com/Asbawy/GrafTraverse-CVE-2021-43798)
 - [Okymi-X/CVE-2021-43798](https://github.com/Okymi-X/CVE-2021-43798)
 - [Lim-ahmin/CVE-2021-43798](https://github.com/Lim-ahmin/CVE-2021-43798)
+- [Squ1shification/Grafana-Plugin-Enumerator-CVE-2021-43798](https://github.com/Squ1shification/Grafana-Plugin-Enumerator-CVE-2021-43798)
 
 ### CVE-2021-43799 (2022-01-25)
 
@@ -87060,6 +87089,7 @@
 - [Sic4rio/CVE-2009-3103---srv2.sys-SMB-Code-Execution-Python-MS09-050-](https://github.com/Sic4rio/CVE-2009-3103---srv2.sys-SMB-Code-Execution-Python-MS09-050-)
 - [nicolasdamians/ms09-050-CVE-2009-3103-exploit](https://github.com/nicolasdamians/ms09-050-CVE-2009-3103-exploit)
 - [afifudinmtop/CVE-2009-3103](https://github.com/afifudinmtop/CVE-2009-3103)
+- [bytejmp/MS09-050](https://github.com/bytejmp/MS09-050)
 
 ### CVE-2009-3555 (2009-11-09)
 
