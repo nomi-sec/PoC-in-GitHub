@@ -3459,6 +3459,13 @@
 
 - [KuniNogu/drupal-openai-provider-ssrf-cve-2026-13233](https://github.com/KuniNogu/drupal-openai-provider-ssrf-cve-2026-13233)
 
+### CVE-2026-13447 (2026-09-05)
+
+<code>The Mstore Api plugin for WordPress is vulnerable to Authentication Bypass via JWT Forgery in versions up to, and including, 4.20.0 This is due to missing cryptographic signature verification in the FirebasePhoneAuthHelper::verify_id_token() function, which decodes and validates Firebase ID token claims (alg, kid, aud, iss) but never calls openssl_verify() or any equivalent to validate the JWT signature against Google's actual public key certificates. This makes it possible for unauthenticated attackers to forge a Firebase Phone Auth JWT signed with a self-generated RSA key pair and impersonate any phone number, resulting in unauthorized access to existing WordPress accounts or creation of new arbitrary accounts.
+</code>
+
+- [abraxas/CVE-2026-13447](https://github.com/abraxas/CVE-2026-13447)
+
 ### CVE-2026-13585 (2026-07-15)
 
 <code>Allocation of Resources Without Limits and Throttling and Sensitive Information in Resource Not Removed Before Reuse in the ASUS System Control Interface driver and ASUS Business Manager allow a local administrator to disclose sensitive information via crafted IOCTL requests, which, in severe cases, may lead to a Denial of Service (DoS) on the system.\nRefer to the ' \nSecurity Update for ASUS System Control Interface  ' section on the ASUS Security Advisory for more information.
@@ -4036,6 +4043,13 @@
 
 - [Hunt-Benito/two-dots-and-a-slash-cve-2026-18907-tecno-hi-browser-download-path-traversal](https://github.com/Hunt-Benito/two-dots-and-a-slash-cve-2026-18907-tecno-hi-browser-download-path-traversal)
 
+### CVE-2026-18937 (2026-08-19)
+
+<code>The Broken Link Checker WordPress plugin before 2.4.12 does not limit which query variables it accepts from user input on sites using plain permalinks, allowing unauthenticated users to overwrite arbitrary PHP global variables, and to execute arbitrary code on the server when a classic (non-block)  is active.
+</code>
+
+- [abraxas/CVE-2026-18937](https://github.com/abraxas/CVE-2026-18937)
+
 ### CVE-2026-18953 (2026-08-05)
 
 <code>Improper limitation of a pathname to a restricted directory in the get_resource tool in Amazon awslabs.aws-transform-mcp-server 0.1.0 through 0.1.4 might allow a context-dependent actor to write arbitrary files outside the intended working directory via the savePath parameter.\n\n\n\nTo remediate this issue, users should upgrade to version 0.1.5 or later.
@@ -4243,6 +4257,13 @@
 - [HORKimhab/CVE-2026-19949](https://github.com/HORKimhab/CVE-2026-19949)
 - [katranSefa/CVE-2026-19949](https://github.com/katranSefa/CVE-2026-19949)
 - [686f6c61/POC-AIOWPM-CVE-2026-19949](https://github.com/686f6c61/POC-AIOWPM-CVE-2026-19949)
+
+### CVE-2026-19952 (2026-09-01)
+
+<code>The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the move_folders function in all versions up to, and including, 3.29.12. This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). This is exploitable without authentication when a form is configured with public visibility (who_can_see='all'), as the required nonce is publicly obtainable from the rendered form.
+</code>
+
+- [abraxas/CVE-2026-19952](https://github.com/abraxas/CVE-2026-19952)
 
 ### CVE-2026-19975 (2026-08-17)
 
@@ -4542,7 +4563,6 @@
 - [rz1027/CVE-2026-20896](https://github.com/rz1027/CVE-2026-20896)
 - [szybnev/cve-2026-20896-gitea-poc](https://github.com/szybnev/cve-2026-20896-gitea-poc)
 - [XaocZenon/CVE-2026-20896](https://github.com/XaocZenon/CVE-2026-20896)
-- [Lite-os15/Lab-001-Gitea-CVE-2026-20896-](https://github.com/Lite-os15/Lab-001-Gitea-CVE-2026-20896-)
 - [EQSTLab/CVE-2026-20896](https://github.com/EQSTLab/CVE-2026-20896)
 - [judgedbykira/CVE-2026-20896-Gitea-Authentication-Bypass](https://github.com/judgedbykira/CVE-2026-20896-Gitea-Authentication-Bypass)
 
@@ -8468,7 +8488,7 @@
 - [oscar-mine/CVE-2026-33017-Exploit](https://github.com/oscar-mine/CVE-2026-33017-Exploit)
 - [0xBlackash/CVE-2026-33017](https://github.com/0xBlackash/CVE-2026-33017)
 - [Jorrit-VM/CVE-2026-33017](https://github.com/Jorrit-VM/CVE-2026-33017)
-- [r3nsi15/CVE-2026-33017-langflow-rce](https://github.com/r3nsi15/CVE-2026-33017-langflow-rce)
+- [arensballiu/CVE-2026-33017-langflow-rce](https://github.com/arensballiu/CVE-2026-33017-langflow-rce)
 - [c0gnit00/CVE-2026-33017](https://github.com/c0gnit00/CVE-2026-33017)
 - [yayip/CVE-2026-33017](https://github.com/yayip/CVE-2026-33017)
 - [diamorphine666/CVE-2026-33017-Exploit](https://github.com/diamorphine666/CVE-2026-33017-Exploit)
@@ -8639,6 +8659,7 @@
 - [Ibonok/CVE-2026-33439-PoC](https://github.com/Ibonok/CVE-2026-33439-PoC)
 - [TheMalwareGuardian/CVE-2026-33439](https://github.com/TheMalwareGuardian/CVE-2026-33439)
 - [infernosalex/CVE-2026-33439-Python-PoC](https://github.com/infernosalex/CVE-2026-33439-Python-PoC)
+- [JonasChen0103/CVE-2026-33439-PoC](https://github.com/JonasChen0103/CVE-2026-33439-PoC)
 
 ### CVE-2026-33453 (2026-04-27)
 
@@ -14538,6 +14559,7 @@
 </code>
 
 - [alixiacf/rep-openai-artifactory](https://github.com/alixiacf/rep-openai-artifactory)
+- [alixiacf/hpim-training-lab](https://github.com/alixiacf/hpim-training-lab)
 
 ### CVE-2026-65640 (2026-08-17)
 
@@ -14553,6 +14575,13 @@
 
 - [HORKimhab/CVE-2026-65643](https://github.com/HORKimhab/CVE-2026-65643)
 - [tc4dy/CVE-2026-65643-PoC-Toolkit](https://github.com/tc4dy/CVE-2026-65643-PoC-Toolkit)
+
+### CVE-2026-65647 (2026-08-26)
+
+<code>Improper symlink resolution before file access in Plesk allows remote authenticated users to execute arbitrary code as root.
+</code>
+
+- [boomerangBS/CVE-2026-65647-PoC](https://github.com/boomerangBS/CVE-2026-65647-PoC)
 
 ### CVE-2026-65650 (2026-07-22)
 
@@ -14966,6 +14995,13 @@
 </code>
 
 - [xuwu-xuwu/CVE-2026-68004](https://github.com/xuwu-xuwu/CVE-2026-68004)
+
+### CVE-2026-68121 (2026-08-10)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\npppoe: reload header pointer after dev_hard_header()\n\npppoe_sendmsg() saves a pointer to the PPPoE header before calling\ndev_hard_header(). Device header callbacks are allowed to reallocate the\nskb head, invalidating pointers into it.\n\nThis can happen when a send is blocked in copy_from_user() while the first\nnon-Ethernet port is added to an empty team device. The team's delegated\nGRE header callback then expands the skb head. PPPoE subsequently writes\nsix bytes through the stale pointer into the freed head.\n\nReload the PPPoE header through the skb's network-header offset after\ndevice header creation. pskb_expand_head() updates that offset when it\nrelocates the head.
+</code>
+
+- [0xBlackash/CVE-2026-68121](https://github.com/0xBlackash/CVE-2026-68121)
 
 ### CVE-2026-68138 (2026-08-10)
 
@@ -15485,6 +15521,13 @@
 
 - [toanln-cov/CVE-2026-74252](https://github.com/toanln-cov/CVE-2026-74252)
 
+### CVE-2026-74469 (2026-08-15)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nsctp: prevent peer transport count overflow\n\nsctp_assoc_add_peer() increments the association's 16-bit transport_count\nfor every new unique peer. Adding the 65,536th transport wraps the count to\nzero.\n\nSCTP sock_diag uses transport_count to reserve the INET_DIAG_PEERS payload,\nthen copies one sockaddr_storage for every entry in transport_addr_list.\nAfter the wrap, a diagnostic dump reserves an empty payload and writes\n8 MiB of peer addresses past the skb tail.\n\nReject a new unique peer when transport_count has reached U16_MAX. Perform\nthe check after the existing-peer lookup so a duplicate address continues\nto return its existing transport at the limit.
+</code>
+
+- [0xBlackash/CVE-2026-74469](https://github.com/0xBlackash/CVE-2026-74469)
+
 ### CVE-2026-74586 (2026-08-22)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nsctp: clear new_transport when removing a peer\n\nsctp_process_asconf_param() stores a newly added peer transport in\nasoc-&gt;new_transport. After all parameters in the ASCONF chunk have been\nprocessed, sctp_sf_do_asconf() uses this pointer to send a HEARTBEAT to the\nnew transport.\n\nAn authenticated ASCONF from a remote SCTP peer can add a transport and\nremove it again with a wildcard DEL-IP parameter in the same chunk. The\nwildcard deletion preserves the transport on which the ASCONF arrived, but\nremoves the newly added transport through\nsctp_assoc_del_nonprimary_peers(). The removal does not clear\nasoc-&gt;new_transport, leaving it pointing to the removed transport.\n\nsctp_sf_do_asconf() then creates a HEARTBEAT whose chunk-&gt;transport points\nto the removed transport without holding a transport reference. During\nlocal address replacement, src_out_of_asoc_ok keeps this HEARTBEAT on\ncontrol_chunk_list. After the transport is freed by RCU, a successful\nASCONF_ACK for the replacement address releases the queued HEARTBEAT and\nsctp_outq_select_transport() reads the freed transport's state.\n\nThe issue was found during a static audit of SCTP objects. With an\nauthenticated peer, the reproducer triggered the same KASAN report in 2\nof 2 unpatched runs on a KASAN-enabled netdev/main kernel:\n\n  BUG: KASAN: slab-use-after-free in sctp_outq_select_transport\n  Read of size 4 at addr ffff88800b9bd95c by task python3/197\n\n  Call Trace:\n   sctp_outq_select_transport+0x549/0x8b0 [sctp]\n   sctp_outq_flush+0x306/0x2c60 [sctp]\n   sctp_transport_immediate_rtx+0xaf/0x260 [sctp]\n   sctp_process_asconf_ack+0xa48/0xf70 [sctp]\n\n  Allocated by task 197:\n   sctp_transport_new+0x68/0x650 [sctp]\n   sctp_assoc_add_peer+0x258/0x12a0 [sctp]\n   sctp_process_asconf+0x5e9/0x1090 [sctp]\n\n  Last potentially related work creation:\n   __call_rcu_common.constprop.0+0x77/0xb70\n   sctp_assoc_del_nonprimary_peers+0x7c/0xd0 [sctp]\n   sctp_process_asconf+0xd9c/0x1090 [sctp]\n\nThe first invalid access was a four-byte read of transport-&gt;state at\nnet/sctp/outqueue.c:833. The same reproducer completed the full\nauthenticated ASCONF and local-address replacement sequence with this\nchange without a KASAN report or oops.\n\nClear new_transport when its peer is removed, before it can be used to\ncreate the HEARTBEAT.
@@ -15582,6 +15625,13 @@
 - [disrex-group/stylesmuggler-adobe-patches](https://github.com/disrex-group/stylesmuggler-adobe-patches)
 - [disrex-group/stylesmuggler-adobe-patches-mageos](https://github.com/disrex-group/stylesmuggler-adobe-patches-mageos)
 - [fortbridge/stylesmuggler](https://github.com/fortbridge/stylesmuggler)
+
+### CVE-2026-75816 (2026-09-06)
+
+<code>The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to Authentication Bypass to Account Takeover in all versions up to, and including, 3.29.12. This is due to the pre_update_value function lacking any capability or ownership check, and ActionPost::conditions_logic() short-circuiting its current_user_can('edit_post') authorization gate whenever the post ID is non-numeric — such as the string user_1 — allowing unauthenticated form submissions to be routed to arbitrary user records without restriction. This makes it possible for unauthenticated attackers to overwrite any user's registered email address, including an administrator's, and then leverage WordPress's native password-reset flow to fully take over the targeted account.
+</code>
+
+- [abraxas/CVE-2026-75816](https://github.com/abraxas/CVE-2026-75816)
 
 ### CVE-2026-75827 (2026-08-18)
 
@@ -15803,6 +15853,13 @@
 
 - [Legendile7/CVE-2026-78122-POC](https://github.com/Legendile7/CVE-2026-78122-POC)
 
+### CVE-2026-78159 (2026-09-12)
+
+<code>The The Events Calendar plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 6.17.3 via the parse_array function. This is due to insufficient validation of the widget 'classes' map, allowing a plain-array payload to bypass the is_safe_widget_instance() object check and reach the callable-invocation sink in Element_Classes::parse_array(). This makes it possible for unauthenticated attackers to execute code on the server. Exploitation requires that the targeted site has comments enabled on tribe_events posts and that at least one comment containing a crafted wp:legacy-widget block has been submitted, as the attack chain is triggered when do_blocks() processes the single-event HTML including the comment area.
+</code>
+
+- [abraxas/CVE-2026-78159](https://github.com/abraxas/CVE-2026-78159)
+
 ### CVE-2026-78329 (2026-08-24)
 
 <code>Improper input validation vulnerability in Apache Camel Undertow component.\n\n\n\nThis issue affects Apache Camel: from 4.11.0 before 4.14.9, from 4.15.0 before 4.18.4, from 4.19.0 before 4.22.0.\n\n\n\nUndertowEndpoint defaulted its headerFilterStrategy field to the base HttpHeaderFilterStrategy and pushed that instance into the UndertowHttpBinding it creates lazily, overwriting the UndertowHeaderFilterStrategy that DefaultUndertowHttpBinding installs in its own constructor. Unless a deployment supplied a custom binding or an explicit headerFilterStrategy, the undertow-specific filtering therefore never executed on endpoint-configured routes: the strategy object was constructed and immediately replaced before it could be consulted. The consequence is that the legacy websocket. Exchange-header prefix was not filtered at the undertow transport boundary in either direction, so an undertow HTTP consumer mapped inbound wire headers of that form onto the Exchange, where an undertow WebSocket producer reads them as dispatch directives and can be made to deliver to a peer other than the one the route selected; and header names that undertow itself does not accept were mapped onto the Exchange rather than being skipped. Rest DSL consumers were never affected, because UndertowComponent assigns UndertowRestHeaderFilterStrategy explicitly, which extends the undertow strategy. This is not a regression of CVE-2025-30177: the base HttpHeaderFilterStrategy configures the inbound Camel-prefix filter itself, so the protection introduced by that advisory continued to work through the base class and was never lost. What the change did was leave the undertow strategy orphaned on the endpoint path, with the effect that two subsequent corrections written into it - one skipping header names undertow rejects, one filtering the legacy websocket. prefix in both directions - were applied to a class the endpoint no longer used and never took effect in the releases that shipped them.\n\n\n\nUsers are recommended to upgrade to version 4.22.0, which fixes the issue. If users are on the 4.14.x LTS releases stream, then they are suggested to upgrade to 4.14.9. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.4. For deployments that cannot upgrade immediately, configure the strategy explicitly rather than relying on the default, for example by binding an UndertowHeaderFilterStrategy in the registry and referencing it on the endpoint as undertow:http://0.0.0.0:8080/foo?headerFilterStrategy=#myStrategy, and additionally strip the dispatch headers at the trust boundary with removeHeaders(“websocket.*”). Note a residual limitation that upgrading does not remove: the undertow component deliberately keeps the websocket. values as part of its externally visible API contract, and UndertowProducer reads them with in.getHeader, which does not consult a HeaderFilterStrategy at all. The restored filtering is therefore defence in depth at the undertow transport boundary only. A route that carries an untrusted message from a non-undertow consumer into an undertow producer is not protected by this fix and must strip those headers itself.
@@ -15982,6 +16039,20 @@
 </code>
 
 - [suruurism/cve-writeups-and-pocs](https://github.com/suruurism/cve-writeups-and-pocs)
+
+### CVE-2026-80844 (2026-09-04)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nxfrm: ah6: validate routing header segments_left\n\nAH6 rearranges routing-header addresses before computing or verifying the\nICV. ipv6_rearrange_rthdr() assumes that segments_left is not larger than\nthe number of addresses described by the routing header's hdrlen field.\n\nThat assumption does not hold for raw IPv6 HDRINCL packets. A packet with\nhdrlen equal to 2 describes one address, but can carry an arbitrary\nsegments_left value. With segments_left equal to 255, the function moves\nits address pointer 4,064 bytes backwards and passes a 4,064-byte length to\nmemmove(), resulting in an out-of-bounds access.\n\nValidate the invariant locally before modifying the routing header or\nperforming any address-pointer arithmetic, and propagate malformed-header\nerrors to the existing AH6 input and output error paths.
+</code>
+
+- [0xBlackash/CVE-2026-80844](https://github.com/0xBlackash/CVE-2026-80844)
+
+### CVE-2026-81000 (2026-09-11)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnet: tun: bound receive headroom\n\ntun_get_user() uses tun-&gt;align both as skb headroom and when choosing how\nmuch packet data to keep linear. OVS can propagate an oversized headroom\nrequest from another port to TUN or TAP.\n\nWhen align is larger than the usable space in a one-page skb head,\nSKB_MAX_HEAD(align) underflows and the result becomes negative when stored\nin good_linear. That value later wraps when assigned to the size_t linear\nvariable, and tun_alloc_skb() can place skb-&gt;data outside the allocated\nhead.\n\nBound the headroom stored by TUN to the one-page skb-head budget and the\nlargest non-sentinel 16-bit skb header offset. Leave one linear byte for\nraw TUN and a complete Ethernet header for TAP, including NET_IP_ALIGN.\n\nAlso pull the raw-TUN protocol byte and the TAP Ethernet header before\naccessing them, so these checks remain safe for nonlinear skbs supplied by\nother allocation paths.
+</code>
+
+- [0xBlackash/CVE-2026-81000](https://github.com/0xBlackash/CVE-2026-81000)
 
 ### CVE-2026-81578 (2026-08-28)
 
@@ -26959,7 +27030,7 @@
 - [kartik2005221/CVE-2025-58434-poc](https://github.com/kartik2005221/CVE-2025-58434-poc)
 - [kartik2005221/CVE-2025-58434-AND-59528-POC](https://github.com/kartik2005221/CVE-2025-58434-AND-59528-POC)
 - [honney336/CVE-2025-58434_CVE-2025-59528](https://github.com/honney336/CVE-2025-58434_CVE-2025-59528)
-- [r3nsi15/Flowise-CVE-2025-58434-PasswordReset](https://github.com/r3nsi15/Flowise-CVE-2025-58434-PasswordReset)
+- [arensballiu/Flowise-CVE-2025-58434-PasswordReset](https://github.com/arensballiu/Flowise-CVE-2025-58434-PasswordReset)
 - [SteamPunk424/CVE-2025-58434-Unauthenticated-Password-Reset-Flowwise](https://github.com/SteamPunk424/CVE-2025-58434-Unauthenticated-Password-Reset-Flowwise)
 - [0xDaeras/Flowise-CVE-2025-58434-Chain-59528](https://github.com/0xDaeras/Flowise-CVE-2025-58434-Chain-59528)
 - [mananispiwpiw/CVE-2025-58434-PoC](https://github.com/mananispiwpiw/CVE-2025-58434-PoC)
@@ -27153,7 +27224,7 @@
 - [UsifAraby/CVE-2025-59528-POC](https://github.com/UsifAraby/CVE-2025-59528-POC)
 - [vanhari/CVE-2025-59528](https://github.com/vanhari/CVE-2025-59528)
 - [maradonam18/-CVE-2025-59528-PoC](https://github.com/maradonam18/-CVE-2025-59528-PoC)
-- [r3nsi15/Flowise-RCE-CVE-2025-59528](https://github.com/r3nsi15/Flowise-RCE-CVE-2025-59528)
+- [arensballiu/Flowise-RCE-CVE-2025-59528](https://github.com/arensballiu/Flowise-RCE-CVE-2025-59528)
 - [mananispiwpiw/CVE-2025-59528-PoC](https://github.com/mananispiwpiw/CVE-2025-59528-PoC)
 - [NymiiTechTips/CVE-2025-59528](https://github.com/NymiiTechTips/CVE-2025-59528)
 - [corey-farley/CVE-2025-59528-Flowise-RCE](https://github.com/corey-farley/CVE-2025-59528-Flowise-RCE)
@@ -37061,6 +37132,7 @@
 - [jimmexploit/CVE-2024-37054-PoC](https://github.com/jimmexploit/CVE-2024-37054-PoC)
 - [Spydomain/CVE-2024-37054-MLflow-reverse-shell](https://github.com/Spydomain/CVE-2024-37054-MLflow-reverse-shell)
 - [tristanqtn/CVE-2024-37054](https://github.com/tristanqtn/CVE-2024-37054)
+- [ClearLotus-git/CVE-2024-37054-PoC](https://github.com/ClearLotus-git/CVE-2024-37054-PoC)
 
 ### CVE-2024-37081 (2024-06-18)
 
@@ -64534,7 +64606,7 @@
 - [ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux](https://github.com/ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux)
 - [monke443/CVE-2021-43798](https://github.com/monke443/CVE-2021-43798)
 - [suljov/Grafana-LFI-exploit](https://github.com/suljov/Grafana-LFI-exploit)
-- [abuyazeen/CVE-2021-43798-Grafana-path-traversal-tester](https://github.com/abuyazeen/CVE-2021-43798-Grafana-path-traversal-tester)
+- [elsanose01/CVE-2021-43798-Grafana-path-traversal-tester](https://github.com/elsanose01/CVE-2021-43798-Grafana-path-traversal-tester)
 - [0xf3d0rq/CVE-2021-43798](https://github.com/0xf3d0rq/CVE-2021-43798)
 - [Strikoder-Premium/Grafana-Password-Decryptor](https://github.com/Strikoder-Premium/Grafana-Password-Decryptor)
 - [baktistr/cve-2021-43798-enum](https://github.com/baktistr/cve-2021-43798-enum)
