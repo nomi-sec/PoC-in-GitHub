@@ -2512,6 +2512,13 @@
 
 - [shinthink/CVE-2026-8713](https://github.com/shinthink/CVE-2026-8713)
 
+### CVE-2026-8726 (2026-05-19)
+
+<code>The extension fails to properly sanitize user input before using it in a database query. As a result, an unauthenticated attacker can inject arbitrary SQL through a URL parameter on pages using the &quot;Date Menu of news articles&quot; plugin. Exploitation requires the &quot;Date Menu of news articles&quot; plugin to be in use and the TypoScript/Plugin setting disableOverrideDemand not to be enabled.
+</code>
+
+- [Shentao83/news-8.6.0-cve-2026-8726-backport](https://github.com/Shentao83/news-8.6.0-cve-2026-8726-backport)
+
 ### CVE-2026-8732 (2026-05-29)
 
 <code>The WP Maps Pro plugin for WordPress is vulnerable to Privilege Escalation via Administrator Account Creation in all versions up to, and including, 6.1.0. This is due to the wpgmp_temp_access_ajax AJAX action being registered with wp_ajax_nopriv_ and protected only by a nonce check using the fc-call-nonce nonce, which is publicly embedded into every frontend page via wp_localize_script as the nonce field of the wpgmp_local JavaScript object, rendering the check ineffective as an access control mechanism. This makes it possible for unauthenticated attackers to invoke the wpgmp_temp_access_support handler with check_temp=false, which unconditionally creates a new WordPress user with the hardcoded role of administrator via wp_insert_user() and returns a magic login URL that, when visited, calls wp_set_auth_cookie() to fully authenticate the attacker as the newly created administrator, resulting in complete site takeover.
@@ -35384,6 +35391,7 @@
 </code>
 
 - [shinigami-777/PoC_CVE-2024-28157](https://github.com/shinigami-777/PoC_CVE-2024-28157)
+- [Jayesh-Dev21/PoC_CVE-2024-28157](https://github.com/Jayesh-Dev21/PoC_CVE-2024-28157)
 
 ### CVE-2024-28231 (2024-03-20)
 
