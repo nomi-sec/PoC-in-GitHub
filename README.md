@@ -1548,7 +1548,7 @@
 <code>aws-mcp-server AWS CLI Command Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of aws-mcp-server. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the handling of the allowed commands list. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the MCP server. Was ZDI-CAN-27969.
 </code>
 
-- [venom203020/CVE-2026-5059-poc](https://github.com/venom203020/CVE-2026-5059-poc)
+- [pwn0x000/CVE-2026-5059-poc](https://github.com/pwn0x000/CVE-2026-5059-poc)
 
 ### CVE-2026-5061 (2026-05-12)
 
@@ -1693,7 +1693,7 @@
 <code>The Divi Form Builder plugin for WordPress is vulnerable to Arbitrary File Upload leading to Remote Code Execution in all versions up to and including 5.1.8. This is due to insufficient file extension validation in the do_image_upload() function where user-supplied input from the acceptFileTypes POST parameter is directly interpolated into a regular expression used to validate uploaded files. Attackers can specify PHP-executable extensions such as .phtml, .phar, .php5, or .php7 to bypass the plugin's .htaccess protection which only blocks .php files specifically. Additionally, on Nginx-based servers, the .htaccess protection is completely ineffective as Nginx does not process .htaccess files. This makes it possible for unauthenticated attackers (who can obtain a nonce from any public page containing a form) to upload executable PHP files to the publicly accessible /wp-content/uploads/de_fb_uploads/ directory and achieve Remote Code Execution by accessing the uploaded file via HTTP. The vulnerability was partially patched in version 5.1.3.
 </code>
 
-- [caterscam/CVE-2026-5524-PoC](https://github.com/caterscam/CVE-2026-5524-PoC)
+- [iicaicai/CVE-2026-5524-PoC](https://github.com/iicaicai/CVE-2026-5524-PoC)
 
 ### CVE-2026-5530 (2026-04-05)
 
@@ -5603,7 +5603,7 @@
 - [luiskrnr/exploit-CVE-2026-23744](https://github.com/luiskrnr/exploit-CVE-2026-23744)
 - [p1ctur3p3rf3ct/CVE-2026-23744](https://github.com/p1ctur3p3rf3ct/CVE-2026-23744)
 - [SrGinebras/CVE-2026-23744-RCE-for-MCPjam-inspector-v1.4.2](https://github.com/SrGinebras/CVE-2026-23744-RCE-for-MCPjam-inspector-v1.4.2)
-- [sbouabid-sec/CVE-2026-23744-POC](https://github.com/sbouabid-sec/CVE-2026-23744-POC)
+- [0xSoulaimane/CVE-2026-23744-POC](https://github.com/0xSoulaimane/CVE-2026-23744-POC)
 - [Least-Significant-Bit/CVE-2026-23744](https://github.com/Least-Significant-Bit/CVE-2026-23744)
 - [afifudinmtop/MCPJam-Inspector-1.4.2-Remote-Code-Execution-CVE-2026-23744](https://github.com/afifudinmtop/MCPJam-Inspector-1.4.2-Remote-Code-Execution-CVE-2026-23744)
 - [alisster00/CVE-2026-23744-RCE](https://github.com/alisster00/CVE-2026-23744-RCE)
@@ -7197,6 +7197,13 @@
 </code>
 
 - [mobilehackinglab/CVE-2026-28576-poc](https://github.com/mobilehackinglab/CVE-2026-28576-poc)
+
+### CVE-2026-28609 (2026-09-08)
+
+<code>In read of MatroskaExtractor.cpp, there is a possible out-of-bounds write due to improper casting. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [devrodT2/CVE-2026-28609-matroska-pcm-oob](https://github.com/devrodT2/CVE-2026-28609-matroska-pcm-oob)
 
 ### CVE-2026-28672 (2026-08-10)
 
@@ -11164,6 +11171,8 @@
 - [huaguiqi/asus-i005-cve-2026-43499](https://github.com/huaguiqi/asus-i005-cve-2026-43499)
 - [imeiplus/ghostlock-pfem10](https://github.com/imeiplus/ghostlock-pfem10)
 - [anksgls-sj/-Help-vivo-Y200i-5.10.218-GKI-CVE-2026-43499-stack-reclaim-reaches-0x300-need-0x318](https://github.com/anksgls-sj/-Help-vivo-Y200i-5.10.218-GKI-CVE-2026-43499-stack-reclaim-reaches-0x300-need-0x318)
+- [coey0814/Fold8-Ultra-Root-F976N](https://github.com/coey0814/Fold8-Ultra-Root-F976N)
+- [TheAndersMadsen/humane-aipin-ghostlock](https://github.com/TheAndersMadsen/humane-aipin-ghostlock)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15208,6 +15217,13 @@
 
 - [Abdivasiyev2008/CVE-2026-71211-exploit](https://github.com/Abdivasiyev2008/CVE-2026-71211-exploit)
 
+### CVE-2026-71217 (2026-08-11)
+
+<code>A flaw was found in iperf3. A remote attacker can exploit this vulnerability by sending crafted control-channel JSON with oversized numeric parameters, such as `parallel` and `len`, which are not properly validated by the server. This improper input validation can lead to excessive stream and thread creation, as well as large buffer allocations, causing resource exhaustion. Consequently, this can result in a Denial of Service (DoS) on the affected iperf3 server.
+</code>
+
+- [Reelix/CVE-2026-71217-PoC](https://github.com/Reelix/CVE-2026-71217-PoC)
+
 ### CVE-2026-71294 (2026-08-05)
 
 <code>Cotonti CMS's Comments plugin deserializes user-supplied data without restricting the classes that may be instantiated. In plugins/comments/controllers/actions/CreateAction.php, a POST parameter obtained via (trim-only sanitization) is passed to with no restriction, reachable by any member with write access to comments (the default setting in plugins/comments/comments.setup.php).
@@ -15877,6 +15893,13 @@
 
 - [abraxas/CVE-2026-78159](https://github.com/abraxas/CVE-2026-78159)
 
+### CVE-2026-78306 (2026-08-24)
+
+<code>DJI drones expose an unauthenticated DUML command interface over Bluetooth that allows an attacker within Bluetooth range to modify Wi-Fi configuration parameters, including the SSID, PSK, MAC address, regulatory country code, and wireless channel. An attacker can overwrite the Wi-Fi PSK with a known value and connect to the drone's internal Wi-Fi network, potentially gaining access to the flight control interface and issuing flight commands. Crafted DUML commands can also disable or restart the Wi-Fi and Bluetooth interfaces, disconnect Wi-Fi clients, or reset wireless configuration, resulting in a denial-of-service condition that can disrupt the operator's wireless control, video, and telemetry connections during flight.\n\nAffected models are DJI Neo until 01.00.0400, DJI Neo 2 until 01.00.0500, DJI Flip until 01.00.1200, DJI Air 3 until 01.00.1600, DJI Air 3S until 01.00.1400, DJI Avata 2 until 01.00.0400, DJI Avata 360 until 01.00.0300, DJI Mavic 3 until 01.00.1400, DJI Mavic 3 Classic until 01.00.0800, DJI Mavic 3 Pro until 01.01.0700, DJI Mavic 4 Pro until 01.00.0500, DJI Mini 2 until 01.07.0200, DJI Mini 3 until 01.00.0500, DJI Mini 3 Pro until 01.00.0900, DJI Mini 4 Pro until 01.00.1100, and DJI Mini 5 Pro until 01.00.0600.\n\n\nRemediation requires a firmware update from the vendor.
+</code>
+
+- [Wh02m1/CVE-2026-78306](https://github.com/Wh02m1/CVE-2026-78306)
+
 ### CVE-2026-78329 (2026-08-24)
 
 <code>Improper input validation vulnerability in Apache Camel Undertow component.\n\n\n\nThis issue affects Apache Camel: from 4.11.0 before 4.14.9, from 4.15.0 before 4.18.4, from 4.19.0 before 4.22.0.\n\n\n\nUndertowEndpoint defaulted its headerFilterStrategy field to the base HttpHeaderFilterStrategy and pushed that instance into the UndertowHttpBinding it creates lazily, overwriting the UndertowHeaderFilterStrategy that DefaultUndertowHttpBinding installs in its own constructor. Unless a deployment supplied a custom binding or an explicit headerFilterStrategy, the undertow-specific filtering therefore never executed on endpoint-configured routes: the strategy object was constructed and immediately replaced before it could be consulted. The consequence is that the legacy websocket. Exchange-header prefix was not filtered at the undertow transport boundary in either direction, so an undertow HTTP consumer mapped inbound wire headers of that form onto the Exchange, where an undertow WebSocket producer reads them as dispatch directives and can be made to deliver to a peer other than the one the route selected; and header names that undertow itself does not accept were mapped onto the Exchange rather than being skipped. Rest DSL consumers were never affected, because UndertowComponent assigns UndertowRestHeaderFilterStrategy explicitly, which extends the undertow strategy. This is not a regression of CVE-2025-30177: the base HttpHeaderFilterStrategy configures the inbound Camel-prefix filter itself, so the protection introduced by that advisory continued to work through the base class and was never lost. What the change did was leave the undertow strategy orphaned on the endpoint path, with the effect that two subsequent corrections written into it - one skipping header names undertow rejects, one filtering the legacy websocket. prefix in both directions - were applied to a class the endpoint no longer used and never took effect in the releases that shipped them.\n\n\n\nUsers are recommended to upgrade to version 4.22.0, which fixes the issue. If users are on the 4.14.x LTS releases stream, then they are suggested to upgrade to 4.14.9. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.4. For deployments that cannot upgrade immediately, configure the strategy explicitly rather than relying on the default, for example by binding an UndertowHeaderFilterStrategy in the registry and referencing it on the endpoint as undertow:http://0.0.0.0:8080/foo?headerFilterStrategy=#myStrategy, and additionally strip the dispatch headers at the trust boundary with removeHeaders(“websocket.*”). Note a residual limitation that upgrading does not remove: the undertow component deliberately keeps the websocket. values as part of its externally visible API contract, and UndertowProducer reads them with in.getHeader, which does not consult a HeaderFilterStrategy at all. The restored filtering is therefore defence in depth at the undertow transport boundary only. A route that carries an untrusted message from a non-undertow consumer into an undertow producer is not protected by this fix and must strip those headers itself.
@@ -16380,6 +16403,13 @@
 
 - [HarshRajSinghania/cve-2026-86547-mrubyc-op-enter](https://github.com/HarshRajSinghania/cve-2026-86547-mrubyc-op-enter)
 
+### CVE-2026-86552 (2026-09-20)
+
+<code>SmartLife app dynamically generates brand‑new SmartLife application authentication parameters at runtime. With the acquired SmartLife application authentication credentials, an attacker can directly complete registration using any arbitrary email address via the backend interface /account/person/signup.serv. Email ownership is not verified prior to registration.
+</code>
+
+- [minanagehsalalma/zte-smartlife-app-pwned](https://github.com/minanagehsalalma/zte-smartlife-app-pwned)
+
 ### CVE-2026-86998
 - [squeeze440/pasteguard-PoC](https://github.com/squeeze440/pasteguard-PoC)
 
@@ -16454,6 +16484,13 @@
 ### CVE-2026-88533
 - [HEMLOCK-LYK/CVE-2026-88533](https://github.com/HEMLOCK-LYK/CVE-2026-88533)
 
+### CVE-2026-88854 (2026-09-20)
+
+<code>Joomla Extension - OrdaSoft.com - Unauthenticated SQL Injection in OrdaSoft Joomla Gallery extension for Joomla &lt; 6.2.7 - The extensions showSearchResult() and showSearchResultAjax() read the textsearch/searchText request parameter with $input-&gt;getVar(), which is not a real Joomla filter method and falls through to a filter that strips HTML tags but does not touch quotes or SQL syntax. The value is concatenated directly into a LIKE clause with no escaping. The endpoint requires no login of any kind: mod_osgallery_search is a public, commonly-published search box. Any anonymous site visitor can inject a UNION SELECT and read arbitrary database content.
+</code>
+
+- [murrez/CVE-2026-88854](https://github.com/murrez/CVE-2026-88854)
+
 ### CVE-2026-88861 (2026-09-10)
 
 <code>Capgo (Cap-go/capgo.app) contains an authentication bypass affecting all versions (no patched version available at time of publication). The Edge authorization path allows a password-only Supabase aal1 session to exercise privileged RBAC permissions even when the account has a verified MFA factor that has not been used for the session: the Edge JWT middleware (foundJWT() in supabase/functions/_backend/utils/hono_middleware.ts) accepts the JWT without validating its assurance level, and the direct RBAC path (checkPermission()/checkPermissionPg() in supabase/functions/_backend/utils/rbac.ts calling public.rbac_check_permission_direct()) authorizes by user ID without passing or checking the session aal, unlike the public.verify_mfa() control which correctly requires aal2. An attacker who knows only the victim's password can therefore authenticate, mint a persistent app-scoped app_admin API key that remains valid after the aal1 session is logged out, and perform privileged operations such as modifying production OTA channel configurations (validated by changing a public production channel from bundle 1.0.0 to 1.0.1), defeating the protection provided by MFA.
@@ -16495,6 +16532,7 @@
 </code>
 
 - [murrez/CVE-2026-89274](https://github.com/murrez/CVE-2026-89274)
+- [Polosss/By-Poloss..-.CVE-2026-89274](https://github.com/Polosss/By-Poloss..-.CVE-2026-89274)
 
 ### CVE-2026-90781 (2026-09-13)
 
@@ -16562,7 +16600,11 @@
 
 - [HackSpeak/CVE-2026-93958](https://github.com/HackSpeak/CVE-2026-93958)
 
-### CVE-2026-94036
+### CVE-2026-94036 (2026-09-20)
+
+<code>A security flaw has been discovered in D-Link DIR-X1860 and DIR-X1860Z up to 1.0.2.220120.165402. The impacted element is an unknown function of the file /ubus of the component routerd. The manipulation of the argument passwd_set results in improper access controls. The attack must originate from the local network. The exploit has been released to the public and may be used for attacks.
+</code>
+
 - [djzzlim/CVE-2026-94036](https://github.com/djzzlim/CVE-2026-94036)
 
 ### CVE-2026-350234
@@ -35489,7 +35531,7 @@
 </code>
 
 - [gh-ost00/CVE-2024-27954](https://github.com/gh-ost00/CVE-2024-27954)
-- [chsxthwik/CVE-2024-27954](https://github.com/chsxthwik/CVE-2024-27954)
+- [babydessy/CVE-2024-27954](https://github.com/babydessy/CVE-2024-27954)
 - [r0otk3r/CVE-2024-27954](https://github.com/r0otk3r/CVE-2024-27954)
 
 ### CVE-2024-27956 (2024-03-21)
@@ -41519,7 +41561,7 @@
 - [seifallahhomrani1/CVE-2023-0861-POC](https://github.com/seifallahhomrani1/CVE-2023-0861-POC)
 
 ### CVE-2023-422
-- [HusenjanDev/CVE-2023-422-Chamilo-LMS-RCE](https://github.com/HusenjanDev/CVE-2023-422-Chamilo-LMS-RCE)
+- [hhesenjan/CVE-2023-422-Chamilo-LMS-RCE](https://github.com/hhesenjan/CVE-2023-422-Chamilo-LMS-RCE)
 
 ### CVE-2023-1112 (2023-03-01)
 
@@ -44758,7 +44800,7 @@
 - [overgrowncarrot1/CVE-2023-27163](https://github.com/overgrowncarrot1/CVE-2023-27163)
 - [ThickCoco/CVE-2023-27163-POC](https://github.com/ThickCoco/CVE-2023-27163-POC)
 - [davuXVI/CVE-2023-27163](https://github.com/davuXVI/CVE-2023-27163)
-- [HusenjanDev/CVE-2023-27163-AND-Mailtrail-v0.53](https://github.com/HusenjanDev/CVE-2023-27163-AND-Mailtrail-v0.53)
+- [hhesenjan/CVE-2023-27163-AND-Mailtrail-v0.53](https://github.com/hhesenjan/CVE-2023-27163-AND-Mailtrail-v0.53)
 - [rvzsec/CVE-2023-27163](https://github.com/rvzsec/CVE-2023-27163)
 - [thomas-osgood/CVE-2023-27163](https://github.com/thomas-osgood/CVE-2023-27163)
 - [cowsecurity/CVE-2023-27163](https://github.com/cowsecurity/CVE-2023-27163)
@@ -44777,6 +44819,7 @@
 - [thealchimist86/CVE-2023-27163---Maltrail-0.53---RCE](https://github.com/thealchimist86/CVE-2023-27163---Maltrail-0.53---RCE)
 - [tombstoneghost/htb-sau-exploit-chain](https://github.com/tombstoneghost/htb-sau-exploit-chain)
 - [Jeanback1/CVE-2023-27163-exploit](https://github.com/Jeanback1/CVE-2023-27163-exploit)
+- [AmulyaKaushik/CVE-2023-27163-lab](https://github.com/AmulyaKaushik/CVE-2023-27163-lab)
 
 ### CVE-2023-27216 (2023-04-12)
 
@@ -46584,7 +46627,7 @@
 
 - [mbadanoiu/CVE-2023-34468](https://github.com/mbadanoiu/CVE-2023-34468)
 - [shoucheng3/asf__nifi_CVE-2023-34468_1-21-00](https://github.com/shoucheng3/asf__nifi_CVE-2023-34468_1-21-00)
-- [sbouabid-sec/CVE-2023-34468-POC](https://github.com/sbouabid-sec/CVE-2023-34468-POC)
+- [0xSoulaimane/CVE-2023-34468-POC](https://github.com/0xSoulaimane/CVE-2023-34468-POC)
 - [Jeanpt/CVE-2023-34468](https://github.com/Jeanpt/CVE-2023-34468)
 - [spikeyjr/CVE-2023-34468-PoC](https://github.com/spikeyjr/CVE-2023-34468-PoC)
 - [ozcanpng/CVE-2023-34468](https://github.com/ozcanpng/CVE-2023-34468)
@@ -48520,7 +48563,7 @@
 - [hotplugin0x01/CVE-2023-42793](https://github.com/hotplugin0x01/CVE-2023-42793)
 - [B4l3rI0n/CVE-2023-42793](https://github.com/B4l3rI0n/CVE-2023-42793)
 - [junnythemarksman/CVE-2023-42793](https://github.com/junnythemarksman/CVE-2023-42793)
-- [HusenjanDev/CVE-2023-42793](https://github.com/HusenjanDev/CVE-2023-42793)
+- [hhesenjan/CVE-2023-42793](https://github.com/hhesenjan/CVE-2023-42793)
 - [FlojBoj/CVE-2023-42793](https://github.com/FlojBoj/CVE-2023-42793)
 - [SwiftSecur/teamcity-exploit-cve-2023-42793](https://github.com/SwiftSecur/teamcity-exploit-cve-2023-42793)
 - [becrevex/CVE-2023-42793](https://github.com/becrevex/CVE-2023-42793)
@@ -48899,6 +48942,13 @@
 </code>
 
 - [jfrog/jfrog-CVE-2023-43786-libX11_DoS](https://github.com/jfrog/jfrog-CVE-2023-43786-libX11_DoS)
+
+### CVE-2023-43804 (2023-10-04)
+
+<code>urllib3 is a user-friendly HTTP client library for Python. urllib3 doesn't treat the `Cookie` HTTP header special or provide any helpers for managing cookies over HTTP, that is the responsibility of the user. However, it is possible for a user to specify a `Cookie` header and unknowingly leak information via HTTP redirects to a different origin if that user doesn't disable redirects explicitly. This issue has been patched in urllib3 version 1.26.17 or 2.0.5.
+</code>
+
+- [deepanshu-khurana/CVE-2023-43804](https://github.com/deepanshu-khurana/CVE-2023-43804)
 
 ### CVE-2023-43838 (2023-10-04)
 
@@ -64706,6 +64756,7 @@
 - [Okymi-X/CVE-2021-43798](https://github.com/Okymi-X/CVE-2021-43798)
 - [Lim-ahmin/CVE-2021-43798](https://github.com/Lim-ahmin/CVE-2021-43798)
 - [Squ1shification/Grafana-Plugin-Enumerator-CVE-2021-43798](https://github.com/Squ1shification/Grafana-Plugin-Enumerator-CVE-2021-43798)
+- [shivamg2004/-INE_Shivam_Gupta_23104003](https://github.com/shivamg2004/-INE_Shivam_Gupta_23104003)
 
 ### CVE-2021-43799 (2022-01-25)
 
@@ -74885,6 +74936,7 @@
 - [adampawelczyk/cve-2019-15107](https://github.com/adampawelczyk/cve-2019-15107)
 - [viglia/cve-2019-15107](https://github.com/viglia/cve-2019-15107)
 - [jini135wii/CVE-2019-15107](https://github.com/jini135wii/CVE-2019-15107)
+- [shambhaviM18/cve-2019-15107-lab](https://github.com/shambhaviM18/cve-2019-15107-lab)
 
 ### CVE-2019-15120 (2019-08-16)
 
