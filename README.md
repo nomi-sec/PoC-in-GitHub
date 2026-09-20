@@ -5446,6 +5446,7 @@
 - [bakano98/cve-2026-23111-poc](https://github.com/bakano98/cve-2026-23111-poc)
 - [vrtlbob/Linux-Kernel-Vulnerabilities-CVE-2026-23111](https://github.com/vrtlbob/Linux-Kernel-Vulnerabilities-CVE-2026-23111)
 - [Knz-source/CVE-2026-23111-POC-noddlenpottato](https://github.com/Knz-source/CVE-2026-23111-POC-noddlenpottato)
+- [vvsy46/CVE-2026-23111-PoC](https://github.com/vvsy46/CVE-2026-23111-PoC)
 
 ### CVE-2026-23398 (2026-03-26)
 
@@ -13122,6 +13123,13 @@
 
 - [HORKimhab/CVE-2026-53264](https://github.com/HORKimhab/CVE-2026-53264)
 
+### CVE-2026-53266 (2026-06-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: bridge: make ebt_snat ARP rewrite writable\n\nThe ebtables SNAT target keeps the Ethernet source address rewrite\nbehind skb_ensure_writable(skb, 0).  This is intentional: at the bridge\nebtables hooks the Ethernet header is addressed through\nskb_mac_header()/eth_hdr(), while skb-&gt;data points at the Ethernet\npayload.  Asking skb_ensure_writable() for ETH_HLEN bytes would check\nthe payload, not the Ethernet header, and would reintroduce the small\npacket regression fixed by commit 63137bc5882a.\n\nHowever, the optional ARP sender hardware address rewrite is different.\nIt writes through skb_store_bits() at an offset relative to skb-&gt;data:\n\n        skb_store_bits(skb, sizeof(struct arphdr), info-&gt;mac, ETH_ALEN)\n\nskb_header_pointer() only safely reads the ARP header; it does not make\nthe later sender hardware address range writable.  If that range is\nstill held in a nonlinear skb fragment backed by a splice-imported file\npage, skb_store_bits() maps the frag page and copies the new MAC address\ndirectly into it.\n\nEnsure the ARP SHA range is writable before reading the ARP header and\nbefore calling skb_store_bits().
+</code>
+
+- [suominen/CVE-2026-53266](https://github.com/suominen/CVE-2026-53266)
+
 ### CVE-2026-53359 (2026-07-04)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: x86: Fix shadow paging use-after-free due to unexpected role\n\nCommit 0cb2af2ea66ad (&quot;KVM: x86: Fix shadow paging use-after-free due\nto unexpected GFN&quot;) fixed a shadow paging mismatch between stored and\ncomputed GFNs; the bug could be triggered by changing a PDE mapping from\noutside the guest, and then deleting a memslot.  The rmap_remove()\ncall would miss entries created after the PDE change because the GFN\nof the leaf SPTE does not match the GFN of the struct kvm_mmu_page.\n\nA similar hole however remains if the modified PDE points to a non-leaf\npage.  In this case the gfn can be made to match, but the role does not\nmatch: the original large 2MB page creates a kvm_mmu_page with direct=1,\nwhile the new 4KB needs a kvm_mmu_page with direct=0.  However,\nkvm_mmu_get_child_sp() does not compare the role, and therefore reuses\nthe page.\n\nThe next step is installing a leaf (4KB) SPTE on the new path which\nrecords an rmap entry under the gfn resolved by the walk.  But when\nthat child is zapped its parent kvm_mmu_page has direct=1 and\nkvm_mmu_page_get_gfn() computes the gfn for the 4KB page as\nsp-&gt;gfn + index instead of using sp-&gt;shadowed_translation[] (or sp-&gt;gfns[]\nin older kernels).  It therefore fails to remove the recorded entry.\n\nWhen the memslot is dropped the shadow page is freed but the rmap\nentry survives, as in the scenario that was already fixed.  Code that\nlater walks that gfn (dirty logging, MMU notifier invalidation, and\nso on) dereferences an sptep that lies in the freed page, causing the\nuse-after-free.
@@ -20569,6 +20577,13 @@
 - [open-flaw/CVE-2025-23061](https://github.com/open-flaw/CVE-2025-23061)
 - [amikanev/CVE-2025-23061-LAB](https://github.com/amikanev/CVE-2025-23061-LAB)
 
+### CVE-2025-23134 (2025-04-16)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: timer: Don't take register_mutex with copy_from/to_user()\n\nThe infamous mmap_lock taken in copy_from/to_user() can be often\nproblematic when it's called inside another mutex, as they might lead\nto deadlocks.\n\nIn the case of ALSA timer code, the bad pattern is with\nguard(mutex)(&amp;register_mutex) that covers copy_from/to_user() -- which\nwas mistakenly introduced at converting to guard(), and it had been\ncarefully worked around in the past.\n\nThis patch fixes those pieces simply by moving copy_from/to_user() out\nof the register mutex lock again.
+</code>
+
+- [thrilokh-q123/CVE-2025-23134_fixes_code](https://github.com/thrilokh-q123/CVE-2025-23134_fixes_code)
+
 ### CVE-2025-23167 (2025-05-19)
 
 <code>A flaw in Node.js 20's HTTP parser allows improper termination of HTTP/1 headers using `\r\n\rX` instead of the required `\r\n\r\n`.\nThis inconsistency enables request smuggling, allowing attackers to bypass proxy-based access controls and submit unauthorized requests.\n\nThe issue was resolved by upgrading `llhttp` to version 9, which enforces correct header termination.\n\nImpact:\n* This vulnerability affects only Node.js 20.x users prior to the `llhttp` v9 upgrade.
@@ -23280,6 +23295,7 @@
 </code>
 
 - [khoatran107/cve-2025-39682](https://github.com/khoatran107/cve-2025-39682)
+- [suominen/CVE-2025-39682](https://github.com/suominen/CVE-2025-39682)
 
 ### CVE-2025-39866 (2025-09-19)
 
@@ -36012,6 +36028,13 @@
 
 - [Abdurahmon3236/-CVE-2024-31211](https://github.com/Abdurahmon3236/-CVE-2024-31211)
 
+### CVE-2024-31218 (2024-04-05)
+
+<code>Webhood is a self-hosted URL scanner used analyzing phishing and malicious sites. Webhood's backend container images in versions 0.9.0 and earlier are subject to Missing Authentication for Critical Function vulnerability. This vulnerability allows an unauthenticated attacker to send a HTTP request to the database (Pocketbase) admin API to create an admin account. The Pocketbase admin API does not check for authentication/authorization when creating an admin account when no admin accounts have been added. In its default deployment, Webhood does not create a database admin account. Therefore, unless users have manually created an admin account in the database, an admin account will not exist in the deployment and the deployment is vulnerable. Versions starting from 0.9.1 are patched. The patch creates a randomly generated admin account if admin accounts have not already been created i.e. the vulnerability is exploitable in the deployment. As a workaround, users can disable access to URL path starting with `/api/admins` entirely. With this workaround, the vulnerability is not exploitable via network.
+</code>
+
+- [chandrimanath04-hue/CVE-2024-31218-WEBHOOD-LAB](https://github.com/chandrimanath04-hue/CVE-2024-31218-WEBHOOD-LAB)
+
 ### CVE-2024-31317 (2024-07-09)
 
 <code>In multiple functions of ZygoteProcess.java, there is a possible way to achieve code execution as any app via WRITE_SECURE_SETTINGS due to unsafe deserialization. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.
@@ -43500,6 +43523,7 @@
 - [Rahul-Thakur7/CVE-2023-21554](https://github.com/Rahul-Thakur7/CVE-2023-21554)
 - [leongxudong/MSMQ-Vulnerability](https://github.com/leongxudong/MSMQ-Vulnerability)
 - [shootweb/CVE-2023-21554](https://github.com/shootweb/CVE-2023-21554)
+- [TheArtist54/CVE-2023-21554-PoC](https://github.com/TheArtist54/CVE-2023-21554-PoC)
 
 ### CVE-2023-21560 (2023-01-10)
 
@@ -51069,7 +51093,7 @@
 - [cypherlobo/DirtyPipe-BSI](https://github.com/cypherlobo/DirtyPipe-BSI)
 - [byteReaper77/Dirty-Pipe](https://github.com/byteReaper77/Dirty-Pipe)
 - [morgenm/dirtypipe](https://github.com/morgenm/dirtypipe)
-- [Scouserr/cve-2022-0847-poc-dockerimage](https://github.com/Scouserr/cve-2022-0847-poc-dockerimage)
+- [MingqiZhang7710/cve-2022-0847-poc-dockerimage](https://github.com/MingqiZhang7710/cve-2022-0847-poc-dockerimage)
 - [Shadow-Spinner/CVE-2022-0847](https://github.com/Shadow-Spinner/CVE-2022-0847)
 - [xiaoLvChen/CVE-2022-0847](https://github.com/xiaoLvChen/CVE-2022-0847)
 - [stfnw/reproducer-poc-CVE-2022-0847](https://github.com/stfnw/reproducer-poc-CVE-2022-0847)
@@ -62636,13 +62660,6 @@
 </code>
 
 - [afaq1337/CVE-2021-35296](https://github.com/afaq1337/CVE-2021-35296)
-
-### CVE-2021-35394 (2021-08-16)
-
-<code>Realtek Jungle SDK version v2.x up to v3.4.14B provides a diagnostic tool called 'MP Daemon' that is usually compiled as 'UDPServer' binary. The binary is affected by multiple memory corruption vulnerabilities and an arbitrary command injection vulnerability that can be exploited by remote unauthenticated attackers.
-</code>
-
-- [graphworlok/cve-2021-35394-ecosystem](https://github.com/graphworlok/cve-2021-35394-ecosystem)
 
 ### CVE-2021-35448 (2021-06-24)
 
