@@ -9375,6 +9375,7 @@
 </code>
 
 - [sec-zone/CVE-2026-36213](https://github.com/sec-zone/CVE-2026-36213)
+- [g17hubH4ck/CVE-2026-36213-poc](https://github.com/g17hubH4ck/CVE-2026-36213-poc)
 
 ### CVE-2026-36214 (2026-07-14)
 
@@ -10072,6 +10073,7 @@
 - [Ghxstsec/CVE-2026-39987](https://github.com/Ghxstsec/CVE-2026-39987)
 - [stapat1245/CVE-2026-39987-PoC](https://github.com/stapat1245/CVE-2026-39987-PoC)
 - [julichaan/CVE-2026-39987_POC](https://github.com/julichaan/CVE-2026-39987_POC)
+- [mfahdk/CVE-2026-39987_RCE_PoC](https://github.com/mfahdk/CVE-2026-39987_RCE_PoC)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -15913,6 +15915,9 @@
 
 - [nabeelmkhan/CVE-2026-78839](https://github.com/nabeelmkhan/CVE-2026-78839)
 
+### CVE-2026-78844
+- [0Linear/CVE-2026-78844](https://github.com/0Linear/CVE-2026-78844)
+
 ### CVE-2026-78850
 - [SLO-CYBER-SEC/CVE-2026-78850](https://github.com/SLO-CYBER-SEC/CVE-2026-78850)
 
@@ -16549,6 +16554,13 @@
 </code>
 
 - [prince325/CVE-2026-93659-writeup](https://github.com/prince325/CVE-2026-93659-writeup)
+
+### CVE-2026-93958 (2026-09-20)
+
+<code>A vulnerability was found in D-Link R95 BE9500_1.00.16. This vulnerability affects the function system of the file /bin/ssi of the component DHMAPI. The manipulation of the argument NTPServer results in os command injection. The attack can be executed remotely. The exploit has been made public and could be used.
+</code>
+
+- [HackSpeak/CVE-2026-93958](https://github.com/HackSpeak/CVE-2026-93958)
 
 ### CVE-2026-94036
 - [djzzlim/CVE-2026-94036](https://github.com/djzzlim/CVE-2026-94036)
@@ -23324,6 +23336,7 @@
 </code>
 
 - [n1k0oowang/CVE-2025-39964_EXP](https://github.com/n1k0oowang/CVE-2025-39964_EXP)
+- [suominen/CVE-2025-39964](https://github.com/suominen/CVE-2025-39964)
 
 ### CVE-2025-39965 (2025-10-13)
 
@@ -26321,6 +26334,7 @@
 - [Bluex707/React2Shell-CVE-2025-55182-Exploit](https://github.com/Bluex707/React2Shell-CVE-2025-55182-Exploit)
 - [r3vpwnx/CVE-2025-55182](https://github.com/r3vpwnx/CVE-2025-55182)
 - [iapetus12/hackcar-writeup](https://github.com/iapetus12/hackcar-writeup)
+- [abhaybansal16/cve-2025-55182-lab](https://github.com/abhaybansal16/cve-2025-55182-lab)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -65260,7 +65274,6 @@
 - [kaleth4/CVE-2021-44228](https://github.com/kaleth4/CVE-2021-44228)
 - [tieupham267/log4shell-coraza](https://github.com/tieupham267/log4shell-coraza)
 - [sajanapamuditha/Cyber-Attack-Simulation-](https://github.com/sajanapamuditha/Cyber-Attack-Simulation-)
-- [neilc1964techned/craready-test-java-vulns](https://github.com/neilc1964techned/craready-test-java-vulns)
 - [FacundoMfernandez/pentesting-obioba](https://github.com/FacundoMfernandez/pentesting-obioba)
 - [vutiendat323/CVE-2021-44228_Log4Shell](https://github.com/vutiendat323/CVE-2021-44228_Log4Shell)
 - [aaronm-sysdig/log4j-vuln-demo](https://github.com/aaronm-sysdig/log4j-vuln-demo)
