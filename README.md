@@ -2596,6 +2596,7 @@
 </code>
 
 - [0xBlackash/CVE-2026-8932](https://github.com/0xBlackash/CVE-2026-8932)
+- [nimaarek/CVE-2026-8932-PoC](https://github.com/nimaarek/CVE-2026-8932-PoC)
 
 ### CVE-2026-9018 (2026-05-22)
 
@@ -8668,6 +8669,7 @@
 - [TheMalwareGuardian/CVE-2026-33439](https://github.com/TheMalwareGuardian/CVE-2026-33439)
 - [infernosalex/CVE-2026-33439-Python-PoC](https://github.com/infernosalex/CVE-2026-33439-Python-PoC)
 - [JonasChen0103/CVE-2026-33439-PoC](https://github.com/JonasChen0103/CVE-2026-33439-PoC)
+- [rh33t/CVE-2026-33439-Poc](https://github.com/rh33t/CVE-2026-33439-Poc)
 
 ### CVE-2026-33453 (2026-04-27)
 
@@ -10435,6 +10437,7 @@
 </code>
 
 - [Boreas37/CVE-2026-41452-PoC](https://github.com/Boreas37/CVE-2026-41452-PoC)
+- [o-sec/CVE-2026-41452-poc](https://github.com/o-sec/CVE-2026-41452-poc)
 
 ### CVE-2026-41462 (2026-04-27)
 
@@ -15843,6 +15846,13 @@
 </code>
 
 - [CuteeCat/CVE-2026-77806](https://github.com/CuteeCat/CVE-2026-77806)
+
+### CVE-2026-77812 (2026-08-21)
+
+<code>DJI drones transmit DUML (DJI Universal Markup Language) protocol messages over BLE (Bluetooth Low Energy) without encryption. When a client attempts to connect to the drone over Wi-Fi, or when the drone is switched to QuickTransfer mode, the DJI Fly application exchanges DUML messages with the drone over BLE, including the Wi-Fi credentials. An attacker within BLE range can passively sniff this traffic and recover the credentials in cleartext, including the drone's Wi-Fi PSK, SSID, and trusted identifier UUID. Obtaining these credentials allows the attacker to join the drone's internal Wi-Fi network, interact with network services exposed by the drone, and decrypt Wi-Fi traffic exchanged between the drone and the legitimate user.\n\n* An attacker within BLE range recovers the Wi-Fi SSID and PSK in cleartext, and can then join the drone's network \n* The same capture also exposes the session UUID identifier, which is the only thing the drone uses to tell a trusted client from an unknown one, so the attacker can replay it and skip the physical confirmation of new connected devices.\n* The credentials do not change between sessions unless the operator manually resets the Wi-Fi settings, so one capture stays valid indefinitely\n* The attack is fully passive, with nothing transmitted and no connection made, so neither the operator nor the drone has any indication the session was observed\n* A BLE sniffer and presence during one normal DJI Fly connection are needed\n\nAffected models are DJI Neo until 01.00.0400, DJI Neo 2 until 01.00.0500, DJI Flip until 01.00.1200, DJI Air 3 until 01.00.1600, DJI Air 3S until 01.00.1400, DJI Avata 2 until 01.00.0400, DJI Avata 360 until 01.00.0300, DJI Mavic 3 until 01.00.1400, DJI Mavic 3 Classic until 01.00.0800, DJI Mavic 3 Pro until 01.01.0700, DJI Mavic 4 Pro until 01.00.0500, DJI Mini 2 until 01.07.0200, DJI Mini 3 until 01.00.0500, DJI Mini 3 Pro until 01.00.0900, DJI Mini 4 Pro until 01.00.1100, and DJI Mini 5 Pro until 01.00.0600.\n\nRemediation requires a firmware update from the vendor. There is no user-side mitigation that fully addresses the vulnerability without upgrading.
+</code>
+
+- [Wh02m1/CVE-2026-77812](https://github.com/Wh02m1/CVE-2026-77812)
 
 ### CVE-2026-77818 (2026-09-04)
 
@@ -33717,6 +33727,7 @@
 - [OmarMahmoud1024/tryhackme-monikerlink-writeup](https://github.com/OmarMahmoud1024/tryhackme-monikerlink-writeup)
 - [yfelipecruvinel/tryhackme-moniker-link](https://github.com/yfelipecruvinel/tryhackme-moniker-link)
 - [shauryarathore357-hub/thm-Moniker-Link-cve-2024-21413-writeup](https://github.com/shauryarathore357-hub/thm-Moniker-Link-cve-2024-21413-writeup)
+- [PCzBuilds/monikerlink-cve-2024-21413-writeup](https://github.com/PCzBuilds/monikerlink-cve-2024-21413-writeup)
 
 ### CVE-2024-21490 (2024-02-10)
 
@@ -67494,6 +67505,7 @@
 - [Goyotan/CVE-2020-6418-PoC](https://github.com/Goyotan/CVE-2020-6418-PoC)
 - [ulexec/ChromeSHELFLoader](https://github.com/ulexec/ChromeSHELFLoader)
 - [SivaPriyaRanganatha/CVE-2020-6418](https://github.com/SivaPriyaRanganatha/CVE-2020-6418)
+- [a-mansilla/CVE-2020-6418](https://github.com/a-mansilla/CVE-2020-6418)
 
 ### CVE-2020-6468 (2020-05-21)
 
@@ -76157,7 +76169,6 @@
 - [z-bool/Venom-JWT](https://github.com/z-bool/Venom-JWT)
 - [sealldeveloper/CVE-2018-0114-PoC](https://github.com/sealldeveloper/CVE-2018-0114-PoC)
 - [n0m-d/CVE-2018-0114-Go](https://github.com/n0m-d/CVE-2018-0114-Go)
-- [fevra-dev/ClaimJumper](https://github.com/fevra-dev/ClaimJumper)
 
 ### CVE-2018-0171 (2018-03-28)
 
@@ -76296,14 +76307,6 @@
 
 - [lukehebe/CVE-2018-1049-POC](https://github.com/lukehebe/CVE-2018-1049-POC)
 
-### CVE-2018-1058 (2018-03-02)
-
-<code>A flaw was found in the way Postgresql allowed a user to modify the behavior of a query for other users. An attacker with a user account could use this flaw to execute code with the permissions of superuser in the database. Versions 9.3 through 10 are affected.
-</code>
-
-- [ccchme/CVE-2018-1058](https://github.com/ccchme/CVE-2018-1058)
-- [mthamil107/DB_Audit_Research](https://github.com/mthamil107/DB_Audit_Research)
-
 ### CVE-2018-1088 (2018-04-18)
 
 <code>A privilege escalation flaw was found in gluster 3.x snapshot scheduler. Any gluster client allowed to mount gluster volumes could also mount shared gluster storage volume and escalate privileges by scheduling malicious cronjob via symlink.
@@ -76328,13 +76331,6 @@
 - [darrynten/MoodleExploit](https://github.com/darrynten/MoodleExploit)
 - [Feidao-fei/MOODLE-3.X-Remote-Code-Execution](https://github.com/Feidao-fei/MOODLE-3.X-Remote-Code-Execution)
 - [That-Guy-Steve/CVE-2018-1133-Exploit](https://github.com/That-Guy-Steve/CVE-2018-1133-Exploit)
-
-### CVE-2018-1156 (2018-08-23)
-
-<code>Mikrotik RouterOS before 6.42.7 and 6.40.9 is vulnerable to stack buffer overflow through the license upgrade interface. This vulnerability could theoretically allow a remote authenticated attacker execute arbitrary code on the system.
-</code>
-
-- [JonathanInfinity01/SOC-L1-OSINT-Investigation-MikroTik-CVE-2018-1156](https://github.com/JonathanInfinity01/SOC-L1-OSINT-Investigation-MikroTik-CVE-2018-1156)
 
 ### CVE-2018-1160 (2018-12-20)
 
@@ -76516,7 +76512,6 @@
 - [seethen/cve-2018-2628](https://github.com/seethen/cve-2018-2628)
 - [BabyTeam1024/cve-2018-2628](https://github.com/BabyTeam1024/cve-2018-2628)
 - [cscadoge/weblogic-cve-2018-2628](https://github.com/cscadoge/weblogic-cve-2018-2628)
-- [herantong/CVE-2018-2628](https://github.com/herantong/CVE-2018-2628)
 
 ### CVE-2018-2636 (2018-01-18)
 
@@ -76917,13 +76912,6 @@
 - [embedi/ble_norton_core](https://github.com/embedi/ble_norton_core)
 - [saruman9/ble_connect_rust](https://github.com/saruman9/ble_connect_rust)
 
-### CVE-2018-5333 (2018-01-11)
-
-<code>In the Linux kernel through 4.14.13, the rds_cmsg_atomic function in net/rds/rdma.c mishandles cases where page pinning fails or an invalid address is supplied, leading to an rds_atomic_free_op NULL pointer dereference.
-</code>
-
-- [WhatsWrongAndWhy/CVE-2018-5333](https://github.com/WhatsWrongAndWhy/CVE-2018-5333)
-
 ### CVE-2018-5353 (2020-09-29)
 
 <code>The custom GINA/CP module in Zoho ManageEngine ADSelfService Plus before 5.5 build 5517 allows remote attackers to execute code and escalate privileges via spoofing. It does not authenticate the intended server before opening a browser window. An unauthenticated attacker capable of conducting a spoofing attack can redirect the browser to gain execution in the context of the WinLogon.exe process. If Network Level Authentication is not enforced, the vulnerability can be exploited via RDP. Additionally, if the web server has a misconfigured certificate then no spoofing attack is required
@@ -76967,13 +76955,6 @@
 
 - [db44k/CVE-2018-5767-AC9](https://github.com/db44k/CVE-2018-5767-AC9)
 - [Scorpion-Security-Labs/CVE-2018-5767-AC9](https://github.com/Scorpion-Security-Labs/CVE-2018-5767-AC9)
-
-### CVE-2018-5803 (2018-06-12)
-
-<code>In the Linux Kernel before version 4.15.8, 4.14.25, 4.9.87, 4.4.121, 4.1.51, and 3.2.102, an error in the &quot;_sctp_make_chunk()&quot; function (net/sctp/sm_make_chunk.c) when handling SCTP packets length can be exploited to cause a kernel crash.
-</code>
-
-- [Splinter0/CVE-2018-5803](https://github.com/Splinter0/CVE-2018-5803)
 
 ### CVE-2018-5873 (2018-07-06)
 
@@ -77202,10 +77183,7 @@
 - [solovvway/CVE-2018-6574](https://github.com/solovvway/CVE-2018-6574)
 - [memmas/CVE-2018-6574](https://github.com/memmas/CVE-2018-6574)
 - [YoussefSalama1/CVE-2018-6574](https://github.com/YoussefSalama1/CVE-2018-6574)
-- [Rezy-Dev/CVE-2018-6574](https://github.com/Rezy-Dev/CVE-2018-6574)
-- [hbxxv/CVE-2018-6574](https://github.com/hbxxv/CVE-2018-6574)
 - [r00tpgp/CVE-2018-6574](https://github.com/r00tpgp/CVE-2018-6574)
-- [s-p4rk/CVE-2018-6574](https://github.com/s-p4rk/CVE-2018-6574)
 
 ### CVE-2018-6606 (2018-02-04)
 
@@ -77424,12 +77402,6 @@
 - [bixiPRO/Drupalgeddon2-CVE-2018-7600](https://github.com/bixiPRO/Drupalgeddon2-CVE-2018-7600)
 - [Meraj1312/cve-2018-7600-drupalgeddon2-lab](https://github.com/Meraj1312/cve-2018-7600-drupalgeddon2-lab)
 - [erman-bolukbasi/web-penetration-drupal](https://github.com/erman-bolukbasi/web-penetration-drupal)
-- [Dungsocool/CVE-2018-7600](https://github.com/Dungsocool/CVE-2018-7600)
-- [nayem-m/drupalgeddon2-cli](https://github.com/nayem-m/drupalgeddon2-cli)
-- [Prapul1/VulnHub-DC1-Writeup](https://github.com/Prapul1/VulnHub-DC1-Writeup)
-- [Shams-Ul-Mehmood/CVE-2018-7600-Drupalgeddon2-RCE](https://github.com/Shams-Ul-Mehmood/CVE-2018-7600-Drupalgeddon2-RCE)
-- [elkhaoudari/CVE-2018-7600-PoC](https://github.com/elkhaoudari/CVE-2018-7600-PoC)
-- [Vaibhav91one/drupalgeddon2-cve-lab](https://github.com/Vaibhav91one/drupalgeddon2-cve-lab)
 
 ### CVE-2018-7602 (2018-07-19)
 
@@ -77800,7 +77772,6 @@
 </code>
 
 - [lsw29475/CVE-2018-8611](https://github.com/lsw29475/CVE-2018-8611)
-- [ahm3dgg/cve-2018-8611](https://github.com/ahm3dgg/cve-2018-8611)
 
 ### CVE-2018-8639 (2018-12-12)
 
@@ -77919,7 +77890,6 @@
 - [andyfeili/CVE-2018-9276](https://github.com/andyfeili/CVE-2018-9276)
 - [alvinsmith-eroad/CVE-2018-9276](https://github.com/alvinsmith-eroad/CVE-2018-9276)
 - [AC8999/PRTG-Network-Monitor-18.2.38---Authenticated-Remote-Code-Execution-CVE-2018-9276](https://github.com/AC8999/PRTG-Network-Monitor-18.2.38---Authenticated-Remote-Code-Execution-CVE-2018-9276)
-- [BardLaudian/CVE-2018-9276](https://github.com/BardLaudian/CVE-2018-9276)
 
 ### CVE-2018-9338 (2024-11-19)
 
@@ -78026,7 +77996,6 @@
 - [dego905/Cam](https://github.com/dego905/Cam)
 - [A-Alabdoo/CVE-DVr](https://github.com/A-Alabdoo/CVE-DVr)
 - [0xDamian/CVE-2018-9995-rs](https://github.com/0xDamian/CVE-2018-9995-rs)
-- [F7P-H4NN1B4L/CVE-2018-9995-DVR-Credentials-Extractor](https://github.com/F7P-H4NN1B4L/CVE-2018-9995-DVR-Credentials-Extractor)
 
 ### CVE-2018-10097 (2018-04-13)
 
@@ -78159,7 +78128,6 @@
 - [HSw109/CVE-2018-10933](https://github.com/HSw109/CVE-2018-10933)
 - [bidaoui4905/CVE-2018-10933](https://github.com/bidaoui4905/CVE-2018-10933)
 - [opsifiz/CVE-2018-10933](https://github.com/opsifiz/CVE-2018-10933)
-- [K3ysTr0K3R/CVE-2018-10933](https://github.com/K3ysTr0K3R/CVE-2018-10933)
 
 ### CVE-2018-10936 (2018-08-30)
 
@@ -78197,7 +78165,6 @@
 - [jongmartinez/CVE-2018-11235-PoC](https://github.com/jongmartinez/CVE-2018-11235-PoC)
 - [j4k0m/CVE-2018-11235](https://github.com/j4k0m/CVE-2018-11235)
 - [twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration](https://github.com/twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration)
-- [Rezy-Dev/CVE-2018-11235](https://github.com/Rezy-Dev/CVE-2018-11235)
 
 ### CVE-2018-11311 (2018-05-20)
 
@@ -78500,8 +78467,6 @@
 - [nivdolgin/CVE-2018-13379](https://github.com/nivdolgin/CVE-2018-13379)
 - [kh4sh3i/CVE-2018-13379](https://github.com/kh4sh3i/CVE-2018-13379)
 - [Zierax/CVE-2018-13379](https://github.com/Zierax/CVE-2018-13379)
-- [Instructor-Admin/Multi-threaded-mass-exploiter-CVE-2018-13379-POC](https://github.com/Instructor-Admin/Multi-threaded-mass-exploiter-CVE-2018-13379-POC)
-- [Vampsecure-Labs/vamp-forticheck](https://github.com/Vampsecure-Labs/vamp-forticheck)
 
 ### CVE-2018-13382 (2019-06-04)
 
@@ -78624,7 +78589,6 @@
 - [syriusbughunt/CVE-2018-14667](https://github.com/syriusbughunt/CVE-2018-14667)
 - [quandqn/cve-2018-14667](https://github.com/quandqn/cve-2018-14667)
 - [Venscor/CVE-2018-14667-poc](https://github.com/Venscor/CVE-2018-14667-poc)
-- [r4ch1d0/CVE-2018-14667_Lab_POC](https://github.com/r4ch1d0/CVE-2018-14667_Lab_POC)
 
 ### CVE-2018-14699 (2018-12-03)
 
@@ -78682,8 +78646,6 @@
 - [K3ysTr0K3R/CVE-2018-14847-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2018-14847-EXPLOIT)
 - [tausifzaman/CVE-2018-14847](https://github.com/tausifzaman/CVE-2018-14847)
 - [TheMalwareGuardian/CVE-2018-14847](https://github.com/TheMalwareGuardian/CVE-2018-14847)
-- [mourafuseti/VULNERAVEL-CVE-2018-14847---CREDENCIAIS-EXTRAIDAS](https://github.com/mourafuseti/VULNERAVEL-CVE-2018-14847---CREDENCIAIS-EXTRAIDAS)
-- [luel-4013/misfortune-cookie](https://github.com/luel-4013/misfortune-cookie)
 
 ### CVE-2018-14879 (2019-10-03)
 
@@ -78792,7 +78754,6 @@
 - [wtbacon/cve-2018-15473](https://github.com/wtbacon/cve-2018-15473)
 - [kikechans/-SSH-Enum-CVE-2018-15473](https://github.com/kikechans/-SSH-Enum-CVE-2018-15473)
 - [kaktus5454/CVE-2018-15473](https://github.com/kaktus5454/CVE-2018-15473)
-- [bdalrhmnhamdalalm-jpg/CVE-2018-15473-User-Enumeration-](https://github.com/bdalrhmnhamdalalm-jpg/CVE-2018-15473-User-Enumeration-)
 
 ### CVE-2018-15499 (2018-08-24)
 
@@ -78942,13 +78903,6 @@
 
 - [snappyJack/CVE-2018-16373](https://github.com/snappyJack/CVE-2018-16373)
 
-### CVE-2018-16385 (2018-09-03)
-
-<code>ThinkPHP before 5.1.23 allows SQL Injection via the public/index/index/test/index query string.
-</code>
-
-- [buzhimingdeaikun/SQL-ThinkPHP-5.0.24-RCE-](https://github.com/buzhimingdeaikun/SQL-ThinkPHP-5.0.24-RCE-)
-
 ### CVE-2018-16431 (2018-09-04)
 
 <code>admin/admin/adminsave.html in YFCMF v3.0 allows CSRF to add an administrator account.
@@ -79034,9 +78988,6 @@
 - [bad-c0de/CVE-2018-16763_FuelCMS-1.4.1_RCE](https://github.com/bad-c0de/CVE-2018-16763_FuelCMS-1.4.1_RCE)
 - [Cyberuser-hash/CVE-2018-16763](https://github.com/Cyberuser-hash/CVE-2018-16763)
 - [estebanzarate/CVE-2018-16763-Fuel-CMS-1.4.1-Remote-Code-Execution-PoC](https://github.com/estebanzarate/CVE-2018-16763-Fuel-CMS-1.4.1-Remote-Code-Execution-PoC)
-- [SOME-1HING/CVE-2018-16763](https://github.com/SOME-1HING/CVE-2018-16763)
-- [ShadowR-Root/fuel-cms-cve-2018-16763-python3-port](https://github.com/ShadowR-Root/fuel-cms-cve-2018-16763-python3-port)
-- [gh0stuncle/CVE-2018-16763_fuel_cms_exploit](https://github.com/gh0stuncle/CVE-2018-16763_fuel_cms_exploit)
 
 ### CVE-2018-16843 (2018-11-07)
 
@@ -79230,13 +79181,6 @@
 
 - [DownWithUp/CVE-2018-18026](https://github.com/DownWithUp/CVE-2018-18026)
 
-### CVE-2018-18074 (2018-10-09)
-
-<code>The Requests package before 2.20.0 for Python sends an HTTP Authorization header to an http URI upon receiving a same-hostname https-to-http redirect, which makes it easier for remote attackers to discover credentials by sniffing the network.
-</code>
-
-- [mlbrilliance/aurora-demo-lockfile](https://github.com/mlbrilliance/aurora-demo-lockfile)
-
 ### CVE-2018-18333 (2019-02-05)
 
 <code>A DLL hijacking vulnerability in Trend Micro Security 2019 (Consumer) versions below 15.0.0.1163 and below could allow an attacker to manipulate a specific DLL and escalate privileges on vulnerable installations.
@@ -79293,7 +79237,6 @@
 
 - [cyberharsh/Mini_httpd-CVE-2018-18778](https://github.com/cyberharsh/Mini_httpd-CVE-2018-18778)
 - [auk0x01/CVE-2018-18778-Scanner](https://github.com/auk0x01/CVE-2018-18778-Scanner)
-- [K3ysTr0K3R/CVE-2018-18778](https://github.com/K3ysTr0K3R/CVE-2018-18778)
 
 ### CVE-2018-18820 (2018-11-05)
 
@@ -79337,7 +79280,6 @@
 </code>
 
 - [scheatkode/CVE-2018-18955](https://github.com/scheatkode/CVE-2018-18955)
-- [WhatsWrongAndWhy/CVE-2018-18955](https://github.com/WhatsWrongAndWhy/CVE-2018-18955)
 
 ### CVE-2018-19052 (2018-11-07)
 
@@ -79521,7 +79463,6 @@
 - [NS-Sp4ce/thinkphp5.XRce](https://github.com/NS-Sp4ce/thinkphp5.XRce)
 - [yilin1203/CVE-2018-20062](https://github.com/yilin1203/CVE-2018-20062)
 - [shenhui35/RedArrow](https://github.com/shenhui35/RedArrow)
-- [Jasper2018/CVE-2018-20062](https://github.com/Jasper2018/CVE-2018-20062)
 
 ### CVE-2018-20148 (2018-12-14)
 
@@ -79639,13 +79580,6 @@
 
 - [parzel/CVE-2018-20966](https://github.com/parzel/CVE-2018-20966)
 
-### CVE-2018-21268 (2020-06-25)
-
-<code>The traceroute (aka node-traceroute) package through 1.0.0 for Node.js allows remote command injection via the host parameter. This occurs because the Child.exec() method, which is considered to be not entirely safe, is used. In particular, an OS command can be placed after a newline character.
-</code>
-
-- [dannyEndorTest/node-vulnerable](https://github.com/dannyEndorTest/node-vulnerable)
-
 ### CVE-2018-25031 (2022-03-11)
 
 <code>Swagger UI 4.1.2 and earlier could allow a remote attacker to conduct spoofing attacks. By persuading a victim to open a crafted URL, an attacker could exploit this vulnerability to display remote OpenAPI definitions. Note: This was originally claimed to be resolved in 4.1.3. However, third parties have indicated this is not resolved in 4.1.3 and even occurs in that version and possibly others.
@@ -79754,13 +79688,6 @@
 </code>
 
 - [realbatuhan/JWT-Bruteforcer](https://github.com/realbatuhan/JWT-Bruteforcer)
-
-### CVE-2018-1000533 (2018-06-26)
-
-<code>klaussilveira GitList version &lt;= 0.6 contains a Passing incorrectly sanitized input to system function vulnerability in `searchTree` function that can result in Execute any code as PHP user. This attack appear to be exploitable via Send POST request using search form. This vulnerability appears to have been fixed in 0.7 after commit 87b8c26b023c3fc37f0796b14bb13710f397b322.
-</code>
-
-- [dddo0/CVE-2018-1000533](https://github.com/dddo0/CVE-2018-1000533)
 
 ### CVE-2018-1000542 (2018-06-26)
 
@@ -83694,6 +83621,7 @@
 </code>
 
 - [0xNullComet/CVE-2016-10204_Webshell](https://github.com/0xNullComet/CVE-2016-10204_Webshell)
+- [akash0x00/zoneminder-1.29-1.30-rce-exploit](https://github.com/akash0x00/zoneminder-1.29-1.30-rce-exploit)
 
 ### CVE-2016-10277 (2017-05-12)
 
