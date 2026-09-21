@@ -5612,7 +5612,7 @@
 - [luiskrnr/exploit-CVE-2026-23744](https://github.com/luiskrnr/exploit-CVE-2026-23744)
 - [p1ctur3p3rf3ct/CVE-2026-23744](https://github.com/p1ctur3p3rf3ct/CVE-2026-23744)
 - [SrGinebras/CVE-2026-23744-RCE-for-MCPjam-inspector-v1.4.2](https://github.com/SrGinebras/CVE-2026-23744-RCE-for-MCPjam-inspector-v1.4.2)
-- [0xSoulaimane/CVE-2026-23744-POC](https://github.com/0xSoulaimane/CVE-2026-23744-POC)
+- [sbouabid-sec/CVE-2026-23744-POC](https://github.com/sbouabid-sec/CVE-2026-23744-POC)
 - [Least-Significant-Bit/CVE-2026-23744](https://github.com/Least-Significant-Bit/CVE-2026-23744)
 - [afifudinmtop/MCPJam-Inspector-1.4.2-Remote-Code-Execution-CVE-2026-23744](https://github.com/afifudinmtop/MCPJam-Inspector-1.4.2-Remote-Code-Execution-CVE-2026-23744)
 - [alisster00/CVE-2026-23744-RCE](https://github.com/alisster00/CVE-2026-23744-RCE)
@@ -7349,6 +7349,13 @@
 
 - [rootxran/CVE-2026-29053](https://github.com/rootxran/CVE-2026-29053)
 - [AC8999/CVE-2026-29053](https://github.com/AC8999/CVE-2026-29053)
+
+### CVE-2026-29057 (2026-03-18)
+
+<code>Next.js is a React framework for building full-stack web applications. Starting in version 9.5.0 and prior to versions 15.5.13 and 16.1.7, when Next.js rewrites proxy traffic to an external backend, a crafted `DELETE`/`OPTIONS` request using `Transfer-Encoding: chunked` could trigger request boundary disagreement between the proxy and backend. This could allow request smuggling through rewritten routes. An attacker could smuggle a second request to unintended backend routes (for example, internal/admin endpoints), bypassing assumptions that only the configured rewrite destination/path is reachable. This does not impact applications hosted on providers that handle rewrites at the CDN level, such as Vercel.  The vulnerability originated in an upstream library vendored by Next.js. It is fixed in Next.js 15.5.13 and 16.1.7 by updating that dependency’s behavior so `content-length: 0` is added only when both `content-length` and `transfer-encoding` are absent, and `transfer-encoding` is no longer removed in that code path. If upgrading is not immediately possible, block chunked `DELETE`/`OPTIONS` requests on rewritten routes at the edge/proxy, and/or enforce authentication/authorization on backend routes.
+</code>
+
+- [learnerxuan/CVE-2026-29057-POC](https://github.com/learnerxuan/CVE-2026-29057-POC)
 
 ### CVE-2026-29059 (2026-03-06)
 
@@ -10641,6 +10648,7 @@
 - [t4xo/CVE-2026-41940](https://github.com/t4xo/CVE-2026-41940)
 - [0xgh057r3c0n/CVE-2026-41940](https://github.com/0xgh057r3c0n/CVE-2026-41940)
 - [Xrzmodz444/cve-2026-41940-PoC-Linux](https://github.com/Xrzmodz444/cve-2026-41940-PoC-Linux)
+- [yasouxken/cve-2026-41940-PoC](https://github.com/yasouxken/cve-2026-41940-PoC)
 
 ### CVE-2026-42031 (2026-05-13)
 
@@ -11191,6 +11199,7 @@
 - [coey0814/Fold8-Ultra-Root-F976N](https://github.com/coey0814/Fold8-Ultra-Root-F976N)
 - [TheAndersMadsen/humane-aipin-ghostlock](https://github.com/TheAndersMadsen/humane-aipin-ghostlock)
 - [deancyl/s9180-rootmygalaxy](https://github.com/deancyl/s9180-rootmygalaxy)
+- [MKE84/neo8-ghostlock-adaptation](https://github.com/MKE84/neo8-ghostlock-adaptation)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -11280,6 +11289,13 @@
 </code>
 
 - [andrd3v/CVE-2026-43783](https://github.com/andrd3v/CVE-2026-43783)
+
+### CVE-2026-43786 (2026-09-14)
+
+<code>This issue was addressed with additional entitlement checks. This issue is fixed in macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7. An app may be able to gain root privileges.
+</code>
+
+- [Malwation/CVE-2026-43786](https://github.com/Malwation/CVE-2026-43786)
 
 ### CVE-2026-43813 (2026-07-27)
 
@@ -12486,6 +12502,7 @@
 - [frada321/asdsadsadasdasdsadsad](https://github.com/frada321/asdsadsadasdasdsadsad)
 - [Dr-D25/CVE-2026-49049](https://github.com/Dr-D25/CVE-2026-49049)
 - [ExDev994/CVE-2026-49049](https://github.com/ExDev994/CVE-2026-49049)
+- [6ickzone/Helix3-Mass-Exploiter](https://github.com/6ickzone/Helix3-Mass-Exploiter)
 - [Jenderal92/CVE-2026-49049](https://github.com/Jenderal92/CVE-2026-49049)
 - [MataKucing-OFC/CVE-2026-49049](https://github.com/MataKucing-OFC/CVE-2026-49049)
 
@@ -16601,6 +16618,13 @@
 - [murrez/CVE-2026-90817](https://github.com/murrez/CVE-2026-90817)
 - [ExDev994/CVE-2026-90817](https://github.com/ExDev994/CVE-2026-90817)
 
+### CVE-2026-91097 (2026-09-16)
+
+<code>HP has identified and remediated multiple externally reported vulnerabilities within HPLIP. The findings affect several software components that could potentially enable remote code execution, privilege escalation, denial of service, information disclosure, or unauthorized file modification under certain conditions.
+</code>
+
+- [murrez/HP-HPLIP-Mass-CVE-checker-2026-09-](https://github.com/murrez/HP-HPLIP-Mass-CVE-checker-2026-09-)
+
 ### CVE-2026-91843 (2026-09-16)
 
 <code>A stack overflow during the unauthenticated login process may allow an attacker to run arbitrary code remotely with root privileges.
@@ -16627,7 +16651,7 @@
 
 ### CVE-2026-92701 (2026-09-18)
 
-<code>trusted execution environments. In versions up to and including 0.8.2, the intra-handshake attested TLS (aTLS) Intel TDX verification path does not copy the expected current-session freshness value into the TDX quote-body policy before quote validation, so structurally valid TDX QuoteV4 Evidence is accepted without checking that its REPORT_DATA field matches the reportData expected for the current session. A relying party using this path can therefore accept Evidence with a mismatched or reused reportData and release application data after the handshake, enabling session-misbinding to an unintended attestation context. The issue is fixed in version 0.9.0.
+<code>Cocos AI is a confidential computing system for running AI workloads inside trusted execution environments. In versions up to and including 0.8.2, the intra-handshake attested TLS (aTLS) Intel TDX verification path does not copy the expected current-session freshness value into the TDX quote-body policy before quote validation, so structurally valid TDX QuoteV4 Evidence is accepted without checking that its REPORT_DATA field matches the reportData expected for the current session. A relying party using this path can therefore accept Evidence with a mismatched or reused reportData and release application data after the handshake, enabling session-misbinding to an unintended attestation context. The issue is fixed in version 0.9.0.
 </code>
 
 - [muhammad-usama-sardar/intra-handshake-fail](https://github.com/muhammad-usama-sardar/intra-handshake-fail)
@@ -16645,6 +16669,9 @@
 </code>
 
 - [Faceless0x7/CVE-2026-93453](https://github.com/Faceless0x7/CVE-2026-93453)
+
+### CVE-2026-93528
+- [muradislamzada/CVE-2026-93528](https://github.com/muradislamzada/CVE-2026-93528)
 
 ### CVE-2026-93659 (2026-09-18)
 
@@ -18169,6 +18196,13 @@
 </code>
 
 - [byteReaper77/CVE-2025-5964-](https://github.com/byteReaper77/CVE-2025-5964-)
+
+### CVE-2025-6000 (2025-08-01)
+
+<code>A privileged Vault operator within the root namespace with write permission to {{sys/audit}} may obtain code execution on the underlying host if a plugin directory is set in Vault’s configuration. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.
+</code>
+
+- [n0blinder/CVE-2025-6000](https://github.com/n0blinder/CVE-2025-6000)
 
 ### CVE-2025-6002 (2025-06-11)
 
@@ -35386,7 +35420,7 @@
 <code>Wings is the server control plane for Pterodactyl Panel. This vulnerability impacts anyone running the affected versions of Wings. The vulnerability can potentially be used to access files and directories on the host system. The full scope of impact is exactly unknown, but reading files outside of a server's base directory (sandbox root) is possible. In order to use this exploit, an attacker must have an existing &quot;server&quot; allocated and controlled by Wings. Details on the exploitation of this vulnerability are embargoed until March 27th, 2024 at 18:00 UTC. In order to mitigate this vulnerability, a full rewrite of the entire server filesystem was necessary. Because of this, the size of the patch is massive, however effort was made to reduce the amount of breaking changes. Users are advised to update to version 1.11.9. There are no known workarounds for this vulnerability.
 </code>
 
-- [wyllowSec/Magnohost-Vulnerabilities-pentest](https://github.com/wyllowSec/Magnohost-Vulnerabilities-pentest)
+- [0ord/Magnohost-Vulnerabilities-pentest](https://github.com/0ord/Magnohost-Vulnerabilities-pentest)
 
 ### CVE-2024-27115 (2024-09-11)
 
@@ -46717,7 +46751,7 @@
 
 - [mbadanoiu/CVE-2023-34468](https://github.com/mbadanoiu/CVE-2023-34468)
 - [shoucheng3/asf__nifi_CVE-2023-34468_1-21-00](https://github.com/shoucheng3/asf__nifi_CVE-2023-34468_1-21-00)
-- [0xSoulaimane/CVE-2023-34468-POC](https://github.com/0xSoulaimane/CVE-2023-34468-POC)
+- [sbouabid-sec/CVE-2023-34468-POC](https://github.com/sbouabid-sec/CVE-2023-34468-POC)
 - [Jeanpt/CVE-2023-34468](https://github.com/Jeanpt/CVE-2023-34468)
 - [spikeyjr/CVE-2023-34468-PoC](https://github.com/spikeyjr/CVE-2023-34468-PoC)
 - [ozcanpng/CVE-2023-34468](https://github.com/ozcanpng/CVE-2023-34468)
@@ -66550,12 +66584,12 @@
 - [Jumbo-WJB/CVE-2020-0688](https://github.com/Jumbo-WJB/CVE-2020-0688)
 - [Ridter/cve-2020-0688](https://github.com/Ridter/cve-2020-0688)
 - [Yt1g3r/CVE-2020-0688_EXP](https://github.com/Yt1g3r/CVE-2020-0688_EXP)
-- [righter83/CVE-2020-0688](https://github.com/righter83/CVE-2020-0688)
 - [truongtn/cve-2020-0688](https://github.com/truongtn/cve-2020-0688)
 - [onSec-fr/CVE-2020-0688-Scanner](https://github.com/onSec-fr/CVE-2020-0688-Scanner)
 - [youncyb/CVE-2020-0688](https://github.com/youncyb/CVE-2020-0688)
 - [zcgonvh/CVE-2020-0688](https://github.com/zcgonvh/CVE-2020-0688)
 - [justin-p/PSForgot2kEyXCHANGE](https://github.com/justin-p/PSForgot2kEyXCHANGE)
+- [bailongwang1/CVE-2020-0688](https://github.com/bailongwang1/CVE-2020-0688)
 - [cert-lv/CVE-2020-0688](https://github.com/cert-lv/CVE-2020-0688)
 - [ravinacademy/CVE-2020-0688](https://github.com/ravinacademy/CVE-2020-0688)
 - [mahyarx/Exploit_CVE-2020-0688](https://github.com/mahyarx/Exploit_CVE-2020-0688)
@@ -73412,7 +73446,7 @@
 - [d3athcod3/46635.py_CVE-2019-9053](https://github.com/d3athcod3/46635.py_CVE-2019-9053)
 - [h3x0v3rl0rd/CVE-2019-9053](https://github.com/h3x0v3rl0rd/CVE-2019-9053)
 - [maraspiras/46635.py](https://github.com/maraspiras/46635.py)
-- [e-renna/CVE-2019-9053](https://github.com/e-renna/CVE-2019-9053)
+- [4nner/CVE-2019-9053](https://github.com/4nner/CVE-2019-9053)
 - [zmiddle/Simple_CMS_SQLi](https://github.com/zmiddle/Simple_CMS_SQLi)
 - [ELIZEUOPAIN/CVE-2019-9053-CMS-Made-Simple-2.2.10---SQL-Injection-Exploit](https://github.com/ELIZEUOPAIN/CVE-2019-9053-CMS-Made-Simple-2.2.10---SQL-Injection-Exploit)
 - [Mahamedm/CVE-2019-9053-Exploit-Python-3](https://github.com/Mahamedm/CVE-2019-9053-Exploit-Python-3)
