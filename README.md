@@ -3530,7 +3530,7 @@
 <code>7-Zip XZ Decompression Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of 7-Zip. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the processing of XZ chunked data. Crafted XZ-compressed data can trigger an overflow of a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-30169.
 </code>
 
-- [hg0434hongzh0/CVE-2026-14266](https://github.com/hg0434hongzh0/CVE-2026-14266)
+- [ret2bilibili/CVE-2026-14266](https://github.com/ret2bilibili/CVE-2026-14266)
 - [4minx/CVE-2026-14266](https://github.com/4minx/CVE-2026-14266)
 - [liyuxuan504-byte/CVE-2026-14266](https://github.com/liyuxuan504-byte/CVE-2026-14266)
 
@@ -3647,6 +3647,7 @@
 
 - [1beelze/CVE-2026-14894](https://github.com/1beelze/CVE-2026-14894)
 - [shinthink/CVE-2026-14894](https://github.com/shinthink/CVE-2026-14894)
+- [Nxploited/CVE-2026-14894](https://github.com/Nxploited/CVE-2026-14894)
 
 ### CVE-2026-14960 (2026-07-15)
 
@@ -4161,6 +4162,13 @@
 </code>
 
 - [HORKimhab/CVE-2026-19516](https://github.com/HORKimhab/CVE-2026-19516)
+
+### CVE-2026-19586 (2026-08-20)
+
+<code>A pre-authentication OS command injection vulnerability has been identified in Omada gateways configured to operate as an OpenVPN Server due to insufficient validation of client-supplied data during OpenVPN connection establishment. An unauthenticated remote attacker may provide specially crafted input influencing backend command execution logic before authentication completes. Exploitation requires the OpenVPN Server feature to be enabled, VPN service reachable by the attacker and attacker to be able to initiate an OpenVPN connection attempt. \n\n\n\nSuccessful exploitation may allow arbitrary command execution, potentially\nleading to full compromise of the affected device.
+</code>
+
+- [mattgsys/CVE-2026-19586](https://github.com/mattgsys/CVE-2026-19586)
 
 ### CVE-2026-19598 (2026-08-15)
 
@@ -7206,6 +7214,13 @@
 
 - [devrodT2/CVE-2026-28609-matroska-pcm-oob](https://github.com/devrodT2/CVE-2026-28609-matroska-pcm-oob)
 
+### CVE-2026-28618 (2026-09-08)
+
+<code>In dec_frm_prepare of oapv.c, there is a possible OOB write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [raafatabualazm/streambox-cve-2026-28618](https://github.com/raafatabualazm/streambox-cve-2026-28618)
+
 ### CVE-2026-28672 (2026-08-10)
 
 <code>Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability in Apache Ranger.\n\nThis issue affects Apache Ranger: from 0.6 through 2.8.
@@ -8778,7 +8793,6 @@
 <code>Cocos AI is a confidential computing system for AI. The current implementation of attested TLS (aTLS) in CoCoS is vulnerable to a relay attack affecting all versions from v0.4.0 through v0.8.2. This vulnerability is present in both the AMD SEV-SNP and Intel TDX deployment targets supported by CoCoS. In the affected design, an attacker may be able to extract the ephemeral TLS private key used during the intra-handshake attestation. Because the attestation evidence is bound to the ephemeral key but not to the TLS channel, possession of that key is sufficient to relay or divert the attested TLS session. A client will accept the connection under false assumptions about the endpoint it is communicating with — the attestation report cannot distinguish the genuine attested service from the attacker's relay. This undermines the intended authentication guarantees of attested TLS. A successful attack may allow an attacker to impersonate an attested CoCoS service and access data or operations that the client intended to send only to the genuine attested endpoint. Exploitation requires the attacker to first extract the ephemeral TLS private key, which is possible through physical access to the server hardware, transient execution attacks, or side-channel attacks. Note that the aTLS implementation was fully redesigned in v0.7.0, but the redesign does not address this vulnerability. The relay attack weakness is architectural and affects all releases in the v0.4.0–v0.8.2 range. This vulnerability class was formally analyzed and demonstrated across multiple attested TLS implementations, including CoCoS, by researchers whose findings were disclosed to the IETF TLS Working Group. Formal verification was conducted using ProVerif. As of time of publication, there is no patch available. No complete workaround is available. The following hardening measures reduce but do not eliminate the risk: Keep TEE firmware and microcode up to date to reduce the key-extraction surface; define strict attestation policies that validate all available report fields, including firmware versions, TCB levels, and platform configuration registers; and/or enable mutual aTLS with CA-signed certificates where deployment architecture permits.
 </code>
 
-- [muhammad-usama-sardar/intra-handshake-fail](https://github.com/muhammad-usama-sardar/intra-handshake-fail)
 - [pduggusa/dugganusa-ietf](https://github.com/pduggusa/dugganusa-ietf)
 
 ### CVE-2026-33701 (2026-03-27)
@@ -11021,6 +11035,7 @@
 - [RevyHub/CVE-2026-43284---DirtyFrag-Analysis-THM-](https://github.com/RevyHub/CVE-2026-43284---DirtyFrag-Analysis-THM-)
 - [millikanjohnl-blip/dirtyfrag-detection-rules](https://github.com/millikanjohnl-blip/dirtyfrag-detection-rules)
 - [TeamN4C/SG-2026-0024](https://github.com/TeamN4C/SG-2026-0024)
+- [Minime794/DirtyFrag](https://github.com/Minime794/DirtyFrag)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -11175,6 +11190,7 @@
 - [anksgls-sj/-Help-vivo-Y200i-5.10.218-GKI-CVE-2026-43499-stack-reclaim-reaches-0x300-need-0x318](https://github.com/anksgls-sj/-Help-vivo-Y200i-5.10.218-GKI-CVE-2026-43499-stack-reclaim-reaches-0x300-need-0x318)
 - [coey0814/Fold8-Ultra-Root-F976N](https://github.com/coey0814/Fold8-Ultra-Root-F976N)
 - [TheAndersMadsen/humane-aipin-ghostlock](https://github.com/TheAndersMadsen/humane-aipin-ghostlock)
+- [deancyl/s9180-rootmygalaxy](https://github.com/deancyl/s9180-rootmygalaxy)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15054,6 +15070,7 @@
 </code>
 
 - [0xdak/CVE-2026-68771_exploit](https://github.com/0xdak/CVE-2026-68771_exploit)
+- [Oscar-Collado/comfyui-CVE-2026-68771-PoC](https://github.com/Oscar-Collado/comfyui-CVE-2026-68771-PoC)
 
 ### CVE-2026-68820 (2026-08-11)
 
@@ -15787,6 +15804,13 @@
 - [YonLiud/CVE-2026-76904](https://github.com/YonLiud/CVE-2026-76904)
 - [bickZero93/CVE-2026-76904](https://github.com/bickZero93/CVE-2026-76904)
 
+### CVE-2026-77078 (2026-08-28)
+
+<code>multer is a middleware for handling multipart/form-data in Node.js. A small multipart request containing two specially crafted text field names can cause an uncaught RangeError (Invalid array length) that terminates the Node.js process. The first field uses a very large numeric array index to allocate a maximum-length sparse array, and a second field then pushes past that length, which throws inside the append-field dependency and is not caught by multer. All versions before 2.3.0 are affected, and the issue is a remotely triggerable denial of service. The issue is fixed in multer 2.3.0. Upgrade to multer 2.3.0 to remediate.
+</code>
+
+- [wtfkimi/CVE-2026-77078](https://github.com/wtfkimi/CVE-2026-77078)
+
 ### CVE-2026-77113 (2026-08-20)
 
 <code>Path traversal in apport-unpack in Canonical Apport before 2.36.0, 2.34.2, and 2.28.4 on Linux allows an attacker to create or overwrite arbitrary files with the privileges of the executing user via an attacker controlled key names in crash report files.
@@ -16272,6 +16296,13 @@
 
 - [murrez/CVE-2026-84434](https://github.com/murrez/CVE-2026-84434)
 
+### CVE-2026-84568 (2026-09-14)
+
+<code>A path traversal issue was addressed with improved path validation. This issue is fixed in macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7. An attacker with control of a network directory server may be able to execute arbitrary code with root privileges.
+</code>
+
+- [jvidhan/autofs-cve-2026-84568](https://github.com/jvidhan/autofs-cve-2026-84568)
+
 ### CVE-2026-84600 (2026-09-14)
 
 <code>An authorization issue was addressed with improved state management. This issue is fixed in iOS 27 and iPadOS 27, macOS Golden Gate 27, tvOS 27, visionOS 27, watchOS 27. A malicious shortcut may be able to send messages without user confirmation.
@@ -16538,6 +16569,7 @@
 </code>
 
 - [cflowsec/CVE-2026-89026](https://github.com/cflowsec/CVE-2026-89026)
+- [AranFarzami/CVE-2026-89026](https://github.com/AranFarzami/CVE-2026-89026)
 
 ### CVE-2026-89274 (2026-09-19)
 
@@ -16593,6 +16625,13 @@
 
 - [d1n3sh-0x3/CVE-2026-92247](https://github.com/d1n3sh-0x3/CVE-2026-92247)
 
+### CVE-2026-92701 (2026-09-18)
+
+<code>trusted execution environments. In versions up to and including 0.8.2, the intra-handshake attested TLS (aTLS) Intel TDX verification path does not copy the expected current-session freshness value into the TDX quote-body policy before quote validation, so structurally valid TDX QuoteV4 Evidence is accepted without checking that its REPORT_DATA field matches the reportData expected for the current session. A relying party using this path can therefore accept Evidence with a mismatched or reused reportData and release application data after the handshake, enabling session-misbinding to an unintended attestation context. The issue is fixed in version 0.9.0.
+</code>
+
+- [muhammad-usama-sardar/intra-handshake-fail](https://github.com/muhammad-usama-sardar/intra-handshake-fail)
+
 ### CVE-2026-92805 (2026-09-16)
 
 <code>UVdesk Community Skeleton through 1.1.8 fails to authenticate or validate installation state on wizard endpoints in ConfigureHelpdesk controller actions. Unauthenticated attackers can repoint the database and create super administrator accounts by submitting crafted requests to wizard endpoints, gaining full control of the instance.
@@ -16627,6 +16666,20 @@
 </code>
 
 - [djzzlim/CVE-2026-94036](https://github.com/djzzlim/CVE-2026-94036)
+
+### CVE-2026-94095 (2026-09-20)
+
+<code>A vulnerability has been found in Netcore NBR200V2 1.3.241127.071246. Affected by this vulnerability is an unknown functionality of the file /usr/bin/network_tools of the component Traceroute Diagnostic Feature. The manipulation of the argument url leads to command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [HackSpeak/CVE-2026-94095](https://github.com/HackSpeak/CVE-2026-94095)
+
+### CVE-2026-94128 (2026-09-21)
+
+<code>A security vulnerability has been detected in BioStar VIVID LED DJ 4.0.2411.1500. This affects the function sub_1105C of the file BS_LED64.sys of the component IOCTL Handler. The manipulation of the argument AssociatedIrp leads to write-what-where condition. Local access is required to approach this attack. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [lzty/CVE-2026-94128](https://github.com/lzty/CVE-2026-94128)
 
 ### CVE-2026-94129 (2026-09-21)
 
@@ -18224,6 +18277,13 @@
 </code>
 
 - [Mauzy0x00/velociraptor_CVE-2025-6264_PoC](https://github.com/Mauzy0x00/velociraptor_CVE-2025-6264_PoC)
+
+### CVE-2025-6325 (2025-11-06)
+
+<code>Incorrect Privilege Assignment vulnerability in KingAddons.com King Addons for Elementor king-addons allows Privilege Escalation.This issue affects King Addons for Elementor: from n/a through &lt;= 51.1.36.
+</code>
+
+- [JohenLastGen-JLG/CVE-2025-6325_CVE-2025-6327](https://github.com/JohenLastGen-JLG/CVE-2025-6325_CVE-2025-6327)
 
 ### CVE-2025-6335 (2025-06-20)
 
@@ -32691,7 +32751,6 @@
 - [mrk336/CVE-2024-10220-Kubernetes-gitRepo-Volume-Vulnerability](https://github.com/mrk336/CVE-2024-10220-Kubernetes-gitRepo-Volume-Vulnerability)
 - [saleha-muzammil/cve-2024-10220-git-on-git](https://github.com/saleha-muzammil/cve-2024-10220-git-on-git)
 - [imohammed28/cve-2024-10220-test](https://github.com/imohammed28/cve-2024-10220-test)
-- [nhu2222555-beep/CVE-2024-10220-githooks](https://github.com/nhu2222555-beep/CVE-2024-10220-githooks)
 
 ### CVE-2024-10245 (2024-11-12)
 
@@ -42549,8 +42608,8 @@
 <code>Type Confusion in V8 in Google Chrome prior to 116.0.5845.179 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)
 </code>
 
-- [buptsb/CVE-2023-4762](https://github.com/buptsb/CVE-2023-4762)
 - [sherlocksecurity/CVE-2023-4762-Code-Review](https://github.com/sherlocksecurity/CVE-2023-4762-Code-Review)
+- [zined/CVE-2023-4762](https://github.com/zined/CVE-2023-4762)
 
 ### CVE-2023-4771 (2023-11-16)
 
