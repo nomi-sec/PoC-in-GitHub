@@ -6247,7 +6247,11 @@
 - [siyad01/agentbox](https://github.com/siyad01/agentbox)
 - [cain66666/openclaw-hardening-check](https://github.com/cain66666/openclaw-hardening-check)
 
-### CVE-2026-25262
+### CVE-2026-25262 (2026-09-22)
+
+<code>Memory corruption while processing a crafted ELF file in the Primary Bootloader.
+</code>
+
 - [shurikgo/cve-2026-25262-sm8450-research](https://github.com/shurikgo/cve-2026-25262-sm8450-research)
 
 ### CVE-2026-25512 (2026-02-04)
@@ -11740,7 +11744,6 @@
 - [tchuin2609/YellowKey-Bitlocker](https://github.com/tchuin2609/YellowKey-Bitlocker)
 - [tchuin2609/tchuin2609.github.io](https://github.com/tchuin2609/tchuin2609.github.io)
 - [Neccie/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/Neccie/YellowKey-Bitlocker-CVE-2026-45585)
-- [yellowkeycve2026/YellowKey-BitLocker-CVE-2026-45585](https://github.com/yellowkeycve2026/YellowKey-BitLocker-CVE-2026-45585)
 
 ### CVE-2026-45659 (2026-05-22)
 
@@ -12962,6 +12965,9 @@
 ### CVE-2026-51592
 - [ardakrg/CVE-2026-51592](https://github.com/ardakrg/CVE-2026-51592)
 
+### CVE-2026-51772
+- [sadandbset/CVE-2026-51772-CVE-2026-51773](https://github.com/sadandbset/CVE-2026-51772-CVE-2026-51773)
+
 ### CVE-2026-51788 (2026-09-01)
 
 <code>An issue in cleverange_auth v.0.1.10 allows a remote attacker to cause a denial of service via the account_verification function and the accounts/models.py component
@@ -13193,6 +13199,7 @@
 </code>
 
 - [suominen/CVE-2026-53266](https://github.com/suominen/CVE-2026-53266)
+- [mc493/linux-kernel-zero-day-mitigation-zero-downtime-kernel-defense-](https://github.com/mc493/linux-kernel-zero-day-mitigation-zero-downtime-kernel-defense-)
 
 ### CVE-2026-53359 (2026-07-04)
 
@@ -15093,6 +15100,13 @@
 - [suominen/CVE-2026-68138](https://github.com/suominen/CVE-2026-68138)
 - [jangkrikkbozz/CVE-2026-68138](https://github.com/jangkrikkbozz/CVE-2026-68138)
 
+### CVE-2026-68376 (2026-08-10)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nsctp: fix auth_hmacs array size in struct sctp_cookie\n\nThe auth_hmacs array in struct sctp_cookie is supposed to store a complete\nSCTP_AUTH_HMAC_ALGO parameter, which consists of a struct sctp_paramhdr\nfollowed by N HMAC identifiers.\n\nHowever, the array size was calculated using an extra 2 bytes instead of\nsizeof(struct sctp_paramhdr), which is 4 bytes. When four HMAC identifiers\nare configured, the HMAC-ALGO parameter stored in the endpoint is larger\nthan the auth_hmacs buffer in the cookie.\n\nAs a result, sctp_association_init() copies beyond the end of auth_hmacs\nwhen initializing the association, corrupting the adjacent auth_chunks\nfield. This can lead to an invalid HMAC identifier being accepted and later\ncause an out-of-bounds read in sctp_auth_get_hmac().\n\nFix the array size calculation by including the full SCTP parameter header\nsize.
+</code>
+
+- [gagaltotal/CVE-2026-68376-Ubuntu-7.0.0-30-Poc](https://github.com/gagaltotal/CVE-2026-68376-Ubuntu-7.0.0-30-Poc)
+
 ### CVE-2026-68398 (2026-08-10)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nppp: defer channel free to an RCU grace period to fix pppol2tp RX UAF\n\npppol2tp_recv() runs in the L2TP UDP-encap softirq RX path:\n\n l2tp_udp_encap_recv() -&gt; l2tp_recv_common() -&gt; pppol2tp_recv()\n   -&gt; ppp_input(&amp;po-&gt;chan)\n\nIt runs under rcu_read_lock() holding only an l2tp_session reference and\ntakes NO reference on the internal PPP channel (struct channel,\nchan-&gt;ppp) that ppp_input() dereferences.\n\nThe pppox socket is SOCK_RCU_FREE, so 'po' and the embedded ppp_channel\nare RCU-safe.  But the internal struct channel is a separate allocation\nthat ppp_release_channel() frees with a plain kfree():\n\n close(data socket) -&gt; pppol2tp_release() -&gt; pppox_unbind_sock()\n   -&gt; ppp_unregister_channel() -&gt; ppp_release_channel() -&gt; kfree(pch)\n\nFor a channel that is bound (PPPIOCGCHAN) but not attached to a ppp unit\n(no PPPIOCCONNECT, pch-&gt;ppp == NULL) and not bridged, teardown skips\nboth ppp_disconnect_channel()'s synchronize_net() and\nppp_unbridge_channels()'s synchronize_rcu(), so the kfree() has no grace\nperiod.  rcu_read_lock() in pppol2tp_recv() does not protect against a\nplain kfree(), so an in-flight ppp_input() on one CPU can dereference\nthe channel just freed by close() on another CPU.\n\nThe bug is reachable by an unprivileged user.\n\nDefer the channel free to an RCU callback via call_rcu() so the grace\nperiod fences any in-flight ppp_input(). The disconnect and unbridge\nteardown paths already fence with synchronize_net()/synchronize_rcu();\ncall_rcu() does the same here without stalling the close() path.
@@ -16434,7 +16448,6 @@
 - [jithinkrishnanrs/gitlab-cve-2026-85706-ioc](https://github.com/jithinkrishnanrs/gitlab-cve-2026-85706-ioc)
 - [0xlyvio/cve-2026-85706-poc-exploit-gitlab](https://github.com/0xlyvio/cve-2026-85706-poc-exploit-gitlab)
 - [gagaltotal/CVE-2026-85706-gitlab-poc](https://github.com/gagaltotal/CVE-2026-85706-gitlab-poc)
-- [brigadeops32/CVE-2026-85706](https://github.com/brigadeops32/CVE-2026-85706)
 - [plur1bu5/gitread](https://github.com/plur1bu5/gitread)
 - [gabrielunknown/CVE-2026-85706](https://github.com/gabrielunknown/CVE-2026-85706)
 - [0xenesbayram/cve-2026-85706](https://github.com/0xenesbayram/cve-2026-85706)
@@ -16696,6 +16709,13 @@
 </code>
 
 - [Faceless0x7/CVE-2026-93453](https://github.com/Faceless0x7/CVE-2026-93453)
+
+### CVE-2026-93485 (2026-09-18)
+
+<code>Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Automattic WordPress core allows DOM-Based XSS.\n\n\nThis issue affects WordPress versions 7.1 before 7.1.1; 7.0 through 7.0.4; 6.9 through 6.9.7; 6.8 through 6.8.8; 6.7 through 6.7.7; 6.6 through 6.6.7; 6.5 through 6.5.10; 6.4 through 6.4.10; 6.3 through 6.3.10; 6.2 through 6.2.11; 6.1 through 6.1.12; 6.0 through 6.0.14; 5.9 through 5.9.16; 5.8 through 5.8.15; 5.7 through 5.7.17; 5.6 through 5.6.19; 5.5 through 5.5.20; 5.4 through 5.4.21; 5.3 through 5.3.23; 5.2 through 5.2.26; 5.1 through 5.1.24; 5.0 through 5.0.27; 4.9 through 4.9.31; 4.8 through 4.8.30; and 4.7 through 4.7.35.\n\n\n\n\nThe Unauthenticated Stored XSS vulnerability in the WordPress core can be reproduced on a default WordPress installation. Comment moderation is disabled by default, and the requirement for commenters to have a previously approved comment can be bypassed.
+</code>
+
+- [HORKimhab/CVE-2026-93485](https://github.com/HORKimhab/CVE-2026-93485)
 
 ### CVE-2026-93528
 - [muradislamzada/CVE-2026-93528](https://github.com/muradislamzada/CVE-2026-93528)
@@ -23534,6 +23554,7 @@
 
 - [n1k0oowang/CVE-2025-39964_EXP](https://github.com/n1k0oowang/CVE-2025-39964_EXP)
 - [suominen/CVE-2025-39964](https://github.com/suominen/CVE-2025-39964)
+- [mc493/linux-kernel-zero-day-mitigation-zero-downtime-kernel-defense-](https://github.com/mc493/linux-kernel-zero-day-mitigation-zero-downtime-kernel-defense-)
 
 ### CVE-2025-39965 (2025-10-13)
 
