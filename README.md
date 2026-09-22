@@ -3638,7 +3638,7 @@
 <code>A stored Cross-Site Scripting (XSS) vulnerability in the file upload functionality of the Media Manager in TastyIgniter v4.3.0, caused by insufficient validation and sanitization of SVG files. An authenticated user with low privileges can upload a malicious SVG file containing JavaScript code. When an administrator views that file, the code executes in the context of their browser. By chaining this vulnerability with a Cross-Site Request Forgery (CSRF) attack, an attacker can extract the administrator’s CSRF token and perform unauthorized actions—such as modifying credentials—thereby gaining full control of the administrative account.
 </code>
 
-- [jonas-fernandez-as/CVE-2026-14856-TastyIgniter](https://github.com/jonas-fernandez-as/CVE-2026-14856-TastyIgniter)
+- [jonastrikex/CVE-2026-14856-TastyIgniter](https://github.com/jonastrikex/CVE-2026-14856-TastyIgniter)
 
 ### CVE-2026-14871 (2026-07-17)
 
@@ -3950,6 +3950,13 @@
 </code>
 
 - [nastar-id/CVE-2026-18315-PoC](https://github.com/nastar-id/CVE-2026-18315-PoC)
+
+### CVE-2026-18322 (2026-08-05)
+
+<code>The Smart Popup by Supsystic plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.12.0. This is due to a permission map collision in the `havePermissions()` function in `classes/frame.php`, where `array_merge()` overwrites the popup module's administrator-restricted method list with the base controller's value, silently removing `save` from protected actions; this is compounded by the subscription confirmation email embedding the same generic `pps_nonce` that the unauthenticated `wp_ajax_nopriv_save` endpoint accepts, and by the complete absence of any server-side role allowlist in `createWpSubscriber()`. This makes it possible for unauthenticated attackers to submit a crafted POST request to `admin-ajax.php` using a nonce obtained from a public subscription confirmation email, setting `params[tpl][sub_wp_create_user_role]` to `administrator` via the exposed `popupControllerPps::save()` action, and then triggering the stored confirmation flow to create a persistent WordPress Administrator account with attacker-chosen credentials.
+</code>
+
+- [I3IT/CVE-2026-18322](https://github.com/I3IT/CVE-2026-18322)
 
 ### CVE-2026-18351 (2026-09-10)
 
@@ -12342,6 +12349,13 @@
 - [g0thamRabb1t/CVE-2026-48282-coldfusion-rds-detection](https://github.com/g0thamRabb1t/CVE-2026-48282-coldfusion-rds-detection)
 - [arpit-bansal15/cve-2026-48282-pentest-lab](https://github.com/arpit-bansal15/cve-2026-48282-pentest-lab)
 
+### CVE-2026-48519 (2026-06-23)
+
+<code>Langflow is a tool for building and deploying AI-powered agents and workflows. Prior to 1.9.2, the &quot;Shareable Playground&quot; (or &quot;Public Flows&quot; in code) contains a critical RCE vulnerability. Shareable Playground feature works by enabling the execution of workflows by unauthenticated users, by accessing a link. Specifically, it enables the route /api/v1/build_public_tmp to execute any public flow, given a public flow ID. When the route executes the flow, it allows for providing arbitrary custom Python code as the nodes code, inside the JSON payload. The vulnerable field is data.nodes[X].data.node.template.code.value. This vulnerability is fixed in 1.9.2.
+</code>
+
+- [lukehebe/IBM-Langflow-CVE-2026-48519-poc](https://github.com/lukehebe/IBM-Langflow-CVE-2026-48519-poc)
+
 ### CVE-2026-48558 (2026-06-12)
 
 <code>SimpleHelp versions 5.5.15 and prior and 6.0 pre-release versions contain an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token containing arbitrary identity claims to obtain a fully authenticated technician session. In some configurations, this may also allow bypass of multi-factor authentication. No user interaction is required.
@@ -14219,6 +14233,13 @@
 - [DavidCarliez/cve-2026-62737-lab](https://github.com/DavidCarliez/cve-2026-62737-lab)
 - [loanvui/CVE-2026-62737](https://github.com/loanvui/CVE-2026-62737)
 
+### CVE-2026-62878 (2026-08-11)
+
+<code>Stack-based buffer overflow in Windows DNS allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [nmlz/CVE-2026-62878](https://github.com/nmlz/CVE-2026-62878)
+
 ### CVE-2026-62911 (2026-08-11)
 
 <code>Authentication bypass by capture-replay in Microsoft Exchange Server allows an authorized attacker to elevate privileges over a network.
@@ -15882,7 +15903,11 @@
 
 - [HORKimhab/CVE-2026-77179](https://github.com/HORKimhab/CVE-2026-77179)
 
-### CVE-2026-77262
+### CVE-2026-77262 (2026-09-22)
+
+<code>MCP Atlassian is a Model Context Protocol (MCP) server for Atlassian products (Confluence and Jira). Prior to 0.22.0, confluence_upload_attachment accepts an attacker-controlled file_path and does not apply the path restriction added for the earlier download vulnerability. A caller can traverse outside the workspace and upload arbitrary server-readable files to Confluence. The advisory traces the vulnerable input and processing flow through confluence_upload_attachment, file_path, and CVE-2026-27825, which identify the affected entry points, controls, and code paths. This issue is fixed in version 0.22.0.
+</code>
+
 - [romain-deperne/CVE-2026-77262](https://github.com/romain-deperne/CVE-2026-77262)
 
 ### CVE-2026-77276
@@ -16157,7 +16182,6 @@
 <code>ILIAS before versions 9.22, 10.10, and 11.3 contains an unauthenticated PHP object injection vulnerability that allows unauthenticated attackers to execute arbitrary code by injecting serialized objects through the LTI authentication endpoint and triggering deserialization via the Shibboleth back-channel logout endpoint. Attackers can write arbitrary serialized objects into session storage, then exploit an available POP gadget through the logout endpoint's unrestricted deserialization to write attacker-controlled PHP content to a web-accessible path and achieve remote code execution as the web server user.
 </code>
 
-- [Zipkoppie/CVE-2026-80428](https://github.com/Zipkoppie/CVE-2026-80428)
 - [digiprosec/CVE-2026-80428](https://github.com/digiprosec/CVE-2026-80428)
 - [shivammittal2403/cve-2026-80428-ctf](https://github.com/shivammittal2403/cve-2026-80428-ctf)
 
@@ -16345,6 +16369,13 @@
 </code>
 
 - [Saku0512/CVE-2026-84361-poc](https://github.com/Saku0512/CVE-2026-84361-poc)
+
+### CVE-2026-84388 (2026-09-22)
+
+<code>A improper restriction of rendered ui layers or frames vulnerability in Fortinet FortiPAM Chrome Extension 8.0 all versions, FortiPAM Chrome Extension 7.4 all versions may allow attacker to information disclosure via remote unauthenticated attack
+</code>
+
+- [ShadowForge-Cyber/CVE-2026-84388-POC](https://github.com/ShadowForge-Cyber/CVE-2026-84388-POC)
 
 ### CVE-2026-84434 (2026-09-19)
 
@@ -16574,6 +16605,14 @@
 
 - [abraxas/CVE-2026-87796](https://github.com/abraxas/CVE-2026-87796)
 
+### CVE-2026-87902 (2026-09-22)
+
+<code>An unauthenticated attacker can make `get_page_template()` page-template resolution include a chosen readable local `.php` file outside the active theme directories. If relevant pre-conditions for both the server and the active theme are met, this can lead to RCE.
+</code>
+
+- [abraxas/CVE-2026-87902](https://github.com/abraxas/CVE-2026-87902)
+- [ressl/cve-2026-87902-poc](https://github.com/ressl/cve-2026-87902-poc)
+
 ### CVE-2026-87930 (2026-09-09)
 
 <code>MaxSite CMS through 109.6 passes the ci_session cookie to unserialize() without class restrictions, allowing unauthenticated attackers to inject PHP objects. Attackers can forge valid session cookies using the hardcoded encryption key to trigger magic methods and corrupt application state or achieve code execution if gadget classes exist.
@@ -16716,9 +16755,17 @@
 </code>
 
 - [HORKimhab/CVE-2026-93485](https://github.com/HORKimhab/CVE-2026-93485)
+- [0xBlackash/CVE-2026-93485](https://github.com/0xBlackash/CVE-2026-93485)
 
 ### CVE-2026-93528
 - [muradislamzada/CVE-2026-93528](https://github.com/muradislamzada/CVE-2026-93528)
+
+### CVE-2026-93616 (2026-09-22)
+
+<code>A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute arbitrary scripts on Check Point Management Server.
+</code>
+
+- [WadesWeaponShed/CVE-2026-93616_Checks](https://github.com/WadesWeaponShed/CVE-2026-93616_Checks)
 
 ### CVE-2026-93659 (2026-09-18)
 
@@ -18105,7 +18152,6 @@
 - [alvarosr/CVE-2025-5548](https://github.com/alvarosr/CVE-2025-5548)
 - [PopClom/CVE-2025-5548](https://github.com/PopClom/CVE-2025-5548)
 - [gumbita/cve-2025-5548-freefloat-ftp-walkthrough](https://github.com/gumbita/cve-2025-5548-freefloat-ftp-walkthrough)
-- [grospomg/CVE-2025-5548-Exploit-Development](https://github.com/grospomg/CVE-2025-5548-Exploit-Development)
 - [x3nt4ur0/CVE-2025-5548](https://github.com/x3nt4ur0/CVE-2025-5548)
 - [FKShield/CVE-2025-5548](https://github.com/FKShield/CVE-2025-5548)
 - [jesusdominguez87/CVE-2025-5548](https://github.com/jesusdominguez87/CVE-2025-5548)
@@ -30798,9 +30844,9 @@
 </code>
 
 - [c0d3zilla/CVE-2024-2876](https://github.com/c0d3zilla/CVE-2024-2876)
-- [chsxthwik/CVE-2024-2876](https://github.com/chsxthwik/CVE-2024-2876)
 - [0xAgun/CVE-2024-2876](https://github.com/0xAgun/CVE-2024-2876)
 - [aerchy/CVE-2024-2876](https://github.com/aerchy/CVE-2024-2876)
+- [babydessy/CVE-2024-2876](https://github.com/babydessy/CVE-2024-2876)
 
 ### CVE-2024-2879 (2024-04-03)
 
@@ -35599,8 +35645,8 @@
 <code>pictureproxy.php in the dirk1983 mm1.ltd source code f9f4bbc allows SSRF via the url parameter. NOTE: the references section has an archived copy of pictureproxy.php from its original GitHub location, but the repository name might later change because it is misleading.
 </code>
 
-- [chsxthwik/CVE-2024-27564](https://github.com/chsxthwik/CVE-2024-27564)
 - [chaudhrymuhammadtayab/SSRF-Exploit-CVE-2024-27564](https://github.com/chaudhrymuhammadtayab/SSRF-Exploit-CVE-2024-27564)
+- [babydessy/CVE-2024-27564](https://github.com/babydessy/CVE-2024-27564)
 
 ### CVE-2024-27619 (2024-03-29)
 
@@ -35936,7 +35982,7 @@
 - [dream434/CVE-2024-29269](https://github.com/dream434/CVE-2024-29269)
 - [K3ysTr0K3R/CVE-2024-29269-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-29269-EXPLOIT)
 - [hack-with-rohit/CVE-2024-29269-RCE](https://github.com/hack-with-rohit/CVE-2024-29269-RCE)
-- [chsxthwik/CVE-2024-29269](https://github.com/chsxthwik/CVE-2024-29269)
+- [dkstar11q/CVE-2024-29269](https://github.com/dkstar11q/CVE-2024-29269)
 
 ### CVE-2024-29272 (2024-03-22)
 
@@ -43228,6 +43274,7 @@
 </code>
 
 - [K0n9-log/CVE-2023-6931](https://github.com/K0n9-log/CVE-2023-6931)
+- [Yutori-Natsu/cve-2023-6931-pipa](https://github.com/Yutori-Natsu/cve-2023-6931-pipa)
 
 ### CVE-2023-6933 (2024-02-05)
 
@@ -44872,13 +44919,6 @@
 </code>
 
 - [pvharmo2/gha-lab-fb32aba4a3](https://github.com/pvharmo2/gha-lab-fb32aba4a3)
-
-### CVE-2023-26563 (2023-07-12)
-
-<code>The Syncfusion EJ2 Node File Provider 0102271 is vulnerable to filesystem-server.js directory traversal. As a result, an unauthenticated attacker can: - On Windows, list files in any directory, read any file, delete any file, upload any file to any directory accessible by the web server. - On Linux, read any file, download any directory, delete any file, upload any file to any directory accessible by the web server.
-</code>
-
-- [RupturaInfoSec/CVE-2023-26563-26564-26565](https://github.com/RupturaInfoSec/CVE-2023-26563-26564-26565)
 
 ### CVE-2023-26602 (2023-02-26)
 
@@ -49362,6 +49402,9 @@
 </code>
 
 - [ahrixia/CVE-2023-44813](https://github.com/ahrixia/CVE-2023-44813)
+
+### CVE-2023-44815
+- [C12en/CVE-2023-44815](https://github.com/C12en/CVE-2023-44815)
 
 ### CVE-2023-44962 (2023-10-11)
 
@@ -87058,6 +87101,8 @@
 - [aboubacar70/LAB1-metasploitable](https://github.com/aboubacar70/LAB1-metasploitable)
 - [JUN41DS2709/vsFTPd-2.3.4-Exploit](https://github.com/JUN41DS2709/vsFTPd-2.3.4-Exploit)
 - [samirchapagain/metasploit-lab-report](https://github.com/samirchapagain/metasploit-lab-report)
+- [DanReis20/pentest-lab-metasploitable2](https://github.com/DanReis20/pentest-lab-metasploitable2)
+- [rushikesh-a-bhujbal/CVE-2011-2523](https://github.com/rushikesh-a-bhujbal/CVE-2011-2523)
 
 ### CVE-2011-2553
 - [carlosrpastrana/cve-2011-2553](https://github.com/carlosrpastrana/cve-2011-2553)
@@ -87658,7 +87703,7 @@
 - [badkeys/debianopenssl](https://github.com/badkeys/debianopenssl)
 - [demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166](https://github.com/demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166)
 - [AhegaoPsyops/sslWeakness](https://github.com/AhegaoPsyops/sslWeakness)
-- [Faizan8232403/CVE-Exploit-Research-Development](https://github.com/Faizan8232403/CVE-Exploit-Research-Development)
+- [FaizanAli8232/CVE-Exploit-Research-Development](https://github.com/FaizanAli8232/CVE-Exploit-Research-Development)
 - [QasimShahbaz21/CVE-Exploit-Research-Development](https://github.com/QasimShahbaz21/CVE-Exploit-Research-Development)
 
 ### CVE-2008-0228 (2008-01-10)
