@@ -4109,6 +4109,9 @@
 
 - [abraxas/CVE-2026-19089-WooCommerce-Tyche](https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche)
 
+### CVE-2026-19125
+- [Polosss/By-Poloss..-..CVE-2026-19125](https://github.com/Polosss/By-Poloss..-..CVE-2026-19125)
+
 ### CVE-2026-19193 (2026-08-07)
 
 <code>A flaw has been found in Jiangmin Antivirus 21. Impacted is the function MessageNotifyCallback in the library kvcore.sys of the component Minifilter Port. Executing a manipulation can lead to improper access controls. The attack needs to be launched locally. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
@@ -7005,6 +7008,7 @@
 
 - [0xh7ml/CVE-2026-27626-PoC](https://github.com/0xh7ml/CVE-2026-27626-PoC)
 - [Cobrastrike62/CVE-2026-27626-POC](https://github.com/Cobrastrike62/CVE-2026-27626-POC)
+- [abdelhakimgaferNetworkSec/Enigm-Writeup](https://github.com/abdelhakimgaferNetworkSec/Enigm-Writeup)
 
 ### CVE-2026-27636 (2026-02-25)
 
@@ -11237,6 +11241,7 @@
 - [TheAndersMadsen/humane-aipin-ghostlock](https://github.com/TheAndersMadsen/humane-aipin-ghostlock)
 - [deancyl/s9180-rootmygalaxy](https://github.com/deancyl/s9180-rootmygalaxy)
 - [MKE84/neo8-ghostlock-adaptation](https://github.com/MKE84/neo8-ghostlock-adaptation)
+- [AriyanPegu/ghostlock-app](https://github.com/AriyanPegu/ghostlock-app)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -16628,6 +16633,8 @@
 - [zer0dayf/CVE-2026-87902](https://github.com/zer0dayf/CVE-2026-87902)
 - [Hassham1/CVE-2026-87902](https://github.com/Hassham1/CVE-2026-87902)
 - [ynsmroztas/WPSniper](https://github.com/ynsmroztas/WPSniper)
+- [bhideki/CVE-2026-87902](https://github.com/bhideki/CVE-2026-87902)
+- [tc4dy/CVE-2026-87902-Toolkit](https://github.com/tc4dy/CVE-2026-87902-Toolkit)
 
 ### CVE-2026-87930 (2026-09-09)
 
@@ -16660,6 +16667,13 @@
 
 - [uziii2208/CVE-2026-88899](https://github.com/uziii2208/CVE-2026-88899)
 
+### CVE-2026-88997 (2026-09-23)
+
+<code>The JSM Show Post Metadata WordPress plugin before 4.9.1 does not properly escape a post meta key before outputting it into an inline event-handler attribute in an admin-facing meta box, allowing users with contributor-level access and above to inject arbitrary JavaScript that executes in the session of a higher-privileged user who reviews the affected post.
+</code>
+
+- [pervinzahidli/CVE-2026-88997](https://github.com/pervinzahidli/CVE-2026-88997)
+
 ### CVE-2026-89012 (2026-09-11)
 
 <code>Dolibarr 24.0.0 before 24.0.1 contains a case-sensitive denylist bypass vulnerability in the sqlfilters API query parameter that allows authenticated attackers to recover protected database fields by supplying uppercase variants of denylist-protected field names. Attackers can exploit the case-insensitive database column resolution against the case-sensitive denylist check in the core library to use prefix-matching predicates as a boolean oracle and extract full password hashes for any user account, including administrators.
@@ -16689,6 +16703,7 @@
 
 - [murrez/CVE-2026-89274](https://github.com/murrez/CVE-2026-89274)
 - [Polosss/By-Poloss..-.CVE-2026-89274](https://github.com/Polosss/By-Poloss..-.CVE-2026-89274)
+- [Hassham1/CVE-2026-89274-wp-recipe-maker-poc](https://github.com/Hassham1/CVE-2026-89274-wp-recipe-maker-poc)
 
 ### CVE-2026-90781 (2026-09-13)
 
@@ -16771,6 +16786,13 @@
 </code>
 
 - [cflowsec/CVE-2026-92805](https://github.com/cflowsec/CVE-2026-92805)
+
+### CVE-2026-93349 (2026-09-23)
+
+<code>Frictionless through 5.20.0rc1 contains an OS command injection vulnerability in the explore console command that allows an attacker who supplies a crafted Data Package descriptor to execute arbitrary operating system commands as the user who explores it. Attackers can place shell metacharacters in resource path values within a datapackage.json descriptor, which are passed unsanitized to os.system through a shell, causing arbitrary command execution in the victim's security context when they run the explore command against the untrusted package.
+</code>
+
+- [SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection](https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection)
 
 ### CVE-2026-93453 (2026-09-17)
 
@@ -16859,6 +16881,7 @@
 
 ### CVE-2026-94545
 - [HORKimhab/CVE-2026-94545](https://github.com/HORKimhab/CVE-2026-94545)
+- [Hassham1/CVE-2026-94545-nextjs-og-poc](https://github.com/Hassham1/CVE-2026-94545-nextjs-og-poc)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -37527,6 +37550,7 @@
 - [Spydomain/CVE-2024-37054-MLflow-reverse-shell](https://github.com/Spydomain/CVE-2024-37054-MLflow-reverse-shell)
 - [tristanqtn/CVE-2024-37054](https://github.com/tristanqtn/CVE-2024-37054)
 - [ClearLotus-git/CVE-2024-37054-PoC](https://github.com/ClearLotus-git/CVE-2024-37054-PoC)
+- [BardLaudian/CVE-2024-37054](https://github.com/BardLaudian/CVE-2024-37054)
 
 ### CVE-2024-37081 (2024-06-18)
 
@@ -46264,7 +46288,7 @@
 - [void0red/CVE-2023-32233](https://github.com/void0red/CVE-2023-32233)
 - [Destawell/gemini-2.5-pro-nf-tables-red-teaming](https://github.com/Destawell/gemini-2.5-pro-nf-tables-red-teaming)
 - [Destawell/gemini-2.5-pro-nf-tables-red-teamin](https://github.com/Destawell/gemini-2.5-pro-nf-tables-red-teamin)
-- [BurnSkyup/CVE-2023-32233-reproduction](https://github.com/BurnSkyup/CVE-2023-32233-reproduction)
+- [adeadukagi/CVE-2023-32233-reproduction](https://github.com/adeadukagi/CVE-2023-32233-reproduction)
 
 ### CVE-2023-32235 (2023-05-05)
 
@@ -70038,6 +70062,7 @@
 
 - [stong/CVE-2020-15368](https://github.com/stong/CVE-2020-15368)
 - [R7flex/asrockploit](https://github.com/R7flex/asrockploit)
+- [egorrsp/CVE-2020-15368-AsrDrv103-research](https://github.com/egorrsp/CVE-2020-15368-AsrDrv103-research)
 
 ### CVE-2020-15392 (2020-07-07)
 
