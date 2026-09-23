@@ -16615,7 +16615,8 @@
 - [abraxas/CVE-2026-87902](https://github.com/abraxas/CVE-2026-87902)
 - [vulpecuna/CVE-2026-87902](https://github.com/vulpecuna/CVE-2026-87902)
 - [ressl/cve-2026-87902-poc](https://github.com/ressl/cve-2026-87902-poc)
-- [griisemine/cve-2026-87902-detection](https://github.com/griisemine/cve-2026-87902-detection)
+- [rabakuku/CVE-2026-87902-A-working-PoC-for-WordPress-s-critical-path-traversal](https://github.com/rabakuku/CVE-2026-87902-A-working-PoC-for-WordPress-s-critical-path-traversal)
+- [dinosn/cve-2026-87902-wordpress-lfi-lab](https://github.com/dinosn/cve-2026-87902-wordpress-lfi-lab)
 
 ### CVE-2026-87930 (2026-09-09)
 
@@ -16700,6 +16701,13 @@
 - [murrez/CVE-2026-90817](https://github.com/murrez/CVE-2026-90817)
 - [ExDev994/CVE-2026-90817](https://github.com/ExDev994/CVE-2026-90817)
 
+### CVE-2026-90847 (2026-09-15)
+
+<code>A vulnerability was determined in EFM ipTIME C200E 1.094. The impacted element is an unknown function of the file iux_set.cgi of the component System Setup. This manipulation causes os command injection. It is possible to initiate the attack remotely. The exploit has been publicly disclosed and may be utilized.
+</code>
+
+- [shlln/CVE-2026-90847](https://github.com/shlln/CVE-2026-90847)
+
 ### CVE-2026-90898 (2026-09-14)
 
 <code>Bifrost registers MCP clients through its management API. A stdio client is a command plus args. Bifrost starts that program in the gateway the moment the client is added. No MCP handshake required.\n\n\n\nThe default is governance.auth_config.is_enabled=false. Auth off means every caller is a local admin. One unauthenticated POST /api/mcp/client is enough to run a program as the Bifrost process user (appuser on the official image).\n\n\n\n transports/v2.1.0 refuses an unauthenticated stdio registration with 403. transports/v2.0.0 still allows it.
@@ -16768,7 +16776,11 @@
 - [HORKimhab/CVE-2026-93485](https://github.com/HORKimhab/CVE-2026-93485)
 - [0xBlackash/CVE-2026-93485](https://github.com/0xBlackash/CVE-2026-93485)
 
-### CVE-2026-93528
+### CVE-2026-93528 (2026-09-23)
+
+<code>The NP Quote Request for WooCommerce WordPress plugin before 2.4.16 does not verify order ownership before rendering an order's details, allowing unauthenticated attackers to view another customer's order using the order's key.
+</code>
+
 - [muradislamzada/CVE-2026-93528](https://github.com/muradislamzada/CVE-2026-93528)
 
 ### CVE-2026-93616 (2026-09-22)
@@ -16777,6 +16789,7 @@
 </code>
 
 - [WadesWeaponShed/CVE-2026-93616_Checks](https://github.com/WadesWeaponShed/CVE-2026-93616_Checks)
+- [nebula031/CVE-2026-93616-PoC](https://github.com/nebula031/CVE-2026-93616-PoC)
 
 ### CVE-2026-93659 (2026-09-18)
 
@@ -16825,6 +16838,9 @@
 </code>
 
 - [lzty/CVE-2026-94129](https://github.com/lzty/CVE-2026-94129)
+
+### CVE-2026-94545
+- [HORKimhab/CVE-2026-94545](https://github.com/HORKimhab/CVE-2026-94545)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -20719,6 +20735,7 @@
 - [securekomodo/CVE-2025-22457](https://github.com/securekomodo/CVE-2025-22457)
 - [TRone-ux/CVE-2025-22457](https://github.com/TRone-ux/CVE-2025-22457)
 - [benmevic/cve-2025-22457](https://github.com/benmevic/cve-2025-22457)
+- [donofly/CVE-2025-22457-vulnserver-lab](https://github.com/donofly/CVE-2025-22457-vulnserver-lab)
 
 ### CVE-2025-22510 (2025-01-09)
 
@@ -74247,6 +74264,7 @@
 - [vigneshsrao/CVE-2019-11707](https://github.com/vigneshsrao/CVE-2019-11707)
 - [flabbergastedbd/cve-2019-11707](https://github.com/flabbergastedbd/cve-2019-11707)
 - [CosminGGeorgescu/CVE-2019-11707-PoC](https://github.com/CosminGGeorgescu/CVE-2019-11707-PoC)
+- [G4sp4rCS/CVE-2019-11707-from-an-IonMonkey-type-confusion-to-SYSTEM-](https://github.com/G4sp4rCS/CVE-2019-11707-from-an-IonMonkey-type-confusion-to-SYSTEM-)
 
 ### CVE-2019-11708 (2019-07-23)
 
