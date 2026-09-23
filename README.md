@@ -1575,6 +1575,7 @@
 - [Jenderal92/CVE-2026-5118](https://github.com/Jenderal92/CVE-2026-5118)
 - [Yucaerin/CVE-2026-5118](https://github.com/Yucaerin/CVE-2026-5118)
 - [1beelze/CVE-2026-5118](https://github.com/1beelze/CVE-2026-5118)
+- [SangSenimanWartefak/CVE-2026-5118](https://github.com/SangSenimanWartefak/CVE-2026-5118)
 
 ### CVE-2026-5147 (2026-03-30)
 
@@ -5768,6 +5769,7 @@
 </code>
 
 - [RichJJ98/analise-vulnerabilidades-zabbix-notebooklm](https://github.com/RichJJ98/analise-vulnerabilidades-zabbix-notebooklm)
+- [qucklecrabik/CVE-2026-23921](https://github.com/qucklecrabik/CVE-2026-23921)
 
 ### CVE-2026-23947 (2026-01-20)
 
@@ -16611,7 +16613,9 @@
 </code>
 
 - [abraxas/CVE-2026-87902](https://github.com/abraxas/CVE-2026-87902)
+- [vulpecuna/CVE-2026-87902](https://github.com/vulpecuna/CVE-2026-87902)
 - [ressl/cve-2026-87902-poc](https://github.com/ressl/cve-2026-87902-poc)
+- [griisemine/cve-2026-87902-detection](https://github.com/griisemine/cve-2026-87902-detection)
 
 ### CVE-2026-87930 (2026-09-09)
 
@@ -16695,6 +16699,13 @@
 
 - [murrez/CVE-2026-90817](https://github.com/murrez/CVE-2026-90817)
 - [ExDev994/CVE-2026-90817](https://github.com/ExDev994/CVE-2026-90817)
+
+### CVE-2026-90898 (2026-09-14)
+
+<code>Bifrost registers MCP clients through its management API. A stdio client is a command plus args. Bifrost starts that program in the gateway the moment the client is added. No MCP handshake required.\n\n\n\nThe default is governance.auth_config.is_enabled=false. Auth off means every caller is a local admin. One unauthenticated POST /api/mcp/client is enough to run a program as the Bifrost process user (appuser on the official image).\n\n\n\n transports/v2.1.0 refuses an unauthenticated stdio registration with 403. transports/v2.0.0 still allows it.
+</code>
+
+- [HORKimhab/CVE-2026-90898](https://github.com/HORKimhab/CVE-2026-90898)
 
 ### CVE-2026-91097 (2026-09-16)
 
@@ -18295,13 +18306,6 @@
 </code>
 
 - [byteReaper77/CVE-2025-5964-](https://github.com/byteReaper77/CVE-2025-5964-)
-
-### CVE-2025-6000 (2025-08-01)
-
-<code>A privileged Vault operator within the root namespace with write permission to {{sys/audit}} may obtain code execution on the underlying host if a plugin directory is set in Vault’s configuration. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.
-</code>
-
-- [n0blinder/CVE-2025-6000](https://github.com/n0blinder/CVE-2025-6000)
 
 ### CVE-2025-6002 (2025-06-11)
 
