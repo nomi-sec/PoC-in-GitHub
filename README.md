@@ -11245,7 +11245,9 @@
 - [TheAndersMadsen/humane-aipin-ghostlock](https://github.com/TheAndersMadsen/humane-aipin-ghostlock)
 - [deancyl/s9180-rootmygalaxy](https://github.com/deancyl/s9180-rootmygalaxy)
 - [MKE84/neo8-ghostlock-adaptation](https://github.com/MKE84/neo8-ghostlock-adaptation)
+- [wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499](https://github.com/wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499)
 - [AriyanPegu/ghostlock-app](https://github.com/AriyanPegu/ghostlock-app)
+- [pyyyc/honor-6.12.38-43499-research](https://github.com/pyyyc/honor-6.12.38-43499-research)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -14250,6 +14252,13 @@
 - [DavidCarliez/cve-2026-62737-lab](https://github.com/DavidCarliez/cve-2026-62737-lab)
 - [loanvui/CVE-2026-62737](https://github.com/loanvui/CVE-2026-62737)
 
+### CVE-2026-62878 (2026-08-11)
+
+<code>Stack-based buffer overflow in Windows DNS allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [nmlz/CVE-2026-62878](https://github.com/nmlz/CVE-2026-62878)
+
 ### CVE-2026-62911 (2026-08-11)
 
 <code>Authentication bypass by capture-replay in Microsoft Exchange Server allows an authorized attacker to elevate privileges over a network.
@@ -16395,6 +16404,13 @@
 
 - [murrez/CVE-2026-84434](https://github.com/murrez/CVE-2026-84434)
 
+### CVE-2026-84543 (2026-09-14)
+
+<code>An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7. Connecting to a malicious SMB server may cause unexpected system termination or corrupt kernel memory.
+</code>
+
+- [petermalone/CVE-2026-84543](https://github.com/petermalone/CVE-2026-84543)
+
 ### CVE-2026-84568 (2026-09-14)
 
 <code>A path traversal issue was addressed with improved path validation. This issue is fixed in macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7. An attacker with control of a network directory server may be able to execute arbitrary code with root privileges.
@@ -16726,6 +16742,7 @@
 
 - [murrez/CVE-2026-90817](https://github.com/murrez/CVE-2026-90817)
 - [ExDev994/CVE-2026-90817](https://github.com/ExDev994/CVE-2026-90817)
+- [yulisec/CVE-2026-90817](https://github.com/yulisec/CVE-2026-90817)
 
 ### CVE-2026-90847 (2026-09-15)
 
@@ -18816,6 +18833,7 @@
 - [D4rkks/CVE-2025-7771-Vulnerability-Exploration](https://github.com/D4rkks/CVE-2025-7771-Vulnerability-Exploration)
 - [mein-0/cve-2025-7771](https://github.com/mein-0/cve-2025-7771)
 - [enessakircolak/CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771)
+- [yulisec/CVE-2025-7771](https://github.com/yulisec/CVE-2025-7771)
 
 ### CVE-2025-7775 (2025-08-26)
 
@@ -37720,7 +37738,6 @@
 - [zenzue/CVE-2024-38063-POC](https://github.com/zenzue/CVE-2024-38063-POC)
 - [AdminPentester/CVE-2024-38063-](https://github.com/AdminPentester/CVE-2024-38063-)
 - [ThemeHackers/CVE-2024-38063](https://github.com/ThemeHackers/CVE-2024-38063)
-- [KernelKraze/CVE-2024-38063_PoC](https://github.com/KernelKraze/CVE-2024-38063_PoC)
 - [ps-interactive/cve-2024-38063](https://github.com/ps-interactive/cve-2024-38063)
 - [brownpanda29/Cve-2024-38063](https://github.com/brownpanda29/Cve-2024-38063)
 - [FrancescoDiSalesGithub/quick-fix-cve-2024-38063](https://github.com/FrancescoDiSalesGithub/quick-fix-cve-2024-38063)
