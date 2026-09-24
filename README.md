@@ -3299,6 +3299,14 @@
 
 - [hakaioffsec/CVE-2026-12191](https://github.com/hakaioffsec/CVE-2026-12191)
 
+### CVE-2026-12227 (2026-09-24)
+
+<code>The Visual Composer Website Builder plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 45.16.0 via the `vcv-template` parameter. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
+</code>
+
+- [murrez/CVE-2026-12227](https://github.com/murrez/CVE-2026-12227)
+- [Hassham1/CVE-2026-12227-visualcomposer-lfi-poc](https://github.com/Hassham1/CVE-2026-12227-visualcomposer-lfi-poc)
+
 ### CVE-2026-12243
 - [morzelowski/CVE-2026-12243-NLTK-PoC](https://github.com/morzelowski/CVE-2026-12243-NLTK-PoC)
 
@@ -6561,7 +6569,6 @@
 </code>
 
 - [Dulieno/CVE-2026-26012](https://github.com/Dulieno/CVE-2026-26012)
-- [diegobaelen/CVE-2026-26012](https://github.com/diegobaelen/CVE-2026-26012)
 
 ### CVE-2026-26026 (2026-04-06)
 
@@ -9557,6 +9564,13 @@
 ### CVE-2026-36522
 - [deepwoodssec/CVE-2026-36522](https://github.com/deepwoodssec/CVE-2026-36522)
 
+### CVE-2026-36539 (2026-05-27)
+
+<code>Netis AC1200 Router NC21 V4.0.1.4296 exposes a CGI endpoint /cgi-bin/skk_get.cgi that returns the entire router configuration as a JSON response with no authentication required. Any attacker on the LAN can send a single HTTP GET request and instantly retrieve administrator credentials, WiFi passwords, PPPoE credentials, DDNS credentials, and a full map of all connected devices.
+</code>
+
+- [khaleedbt/netis-cve-2026-36539](https://github.com/khaleedbt/netis-cve-2026-36539)
+
 ### CVE-2026-36590 (2026-07-15)
 
 <code>An issue in EMQ NanoMQ v.0.24.9 allows a remote attacker to cause a denial of service via the nni_qos_db_set function in broker_tcp.c component
@@ -11096,6 +11110,7 @@
 - [millikanjohnl-blip/dirtyfrag-detection-rules](https://github.com/millikanjohnl-blip/dirtyfrag-detection-rules)
 - [TeamN4C/SG-2026-0024](https://github.com/TeamN4C/SG-2026-0024)
 - [Minime794/DirtyFrag](https://github.com/Minime794/DirtyFrag)
+- [nihan-silent-reign/CVE-2026-43284-DIRTY-FRAG-](https://github.com/nihan-silent-reign/CVE-2026-43284-DIRTY-FRAG-)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -16659,6 +16674,7 @@
 - [tc4dy/CVE-2026-87902-Toolkit](https://github.com/tc4dy/CVE-2026-87902-Toolkit)
 - [Lutfifakee-Project/CVE-2026-87902](https://github.com/Lutfifakee-Project/CVE-2026-87902)
 - [nextco/wordpress-cve-2026-87902](https://github.com/nextco/wordpress-cve-2026-87902)
+- [zyphorixofficialmain-lab/cve-2026-87902](https://github.com/zyphorixofficialmain-lab/cve-2026-87902)
 
 ### CVE-2026-87930 (2026-09-09)
 
@@ -16798,7 +16814,11 @@
 
 - [d1n3sh-0x3/CVE-2026-92247](https://github.com/d1n3sh-0x3/CVE-2026-92247)
 
-### CVE-2026-92680
+### CVE-2026-92680 (2026-09-24)
+
+<code>Araxis Merge for Windows version 2011.4074 through 2026.0 stores user-configured credentials for remote servers in the Windows registry and does not apply sufficient cryptographic protection. An authenticated, non-administrative attacker could retrieve and unencrypt all credentials the target user has stored in Merge.
+</code>
+
 - [grepstrength/CVE-2026-92680](https://github.com/grepstrength/CVE-2026-92680)
 
 ### CVE-2026-92701 (2026-09-18)
@@ -16892,6 +16912,7 @@
 </code>
 
 - [FurkanKAYAPINAR/CVE-2026-94127](https://github.com/FurkanKAYAPINAR/CVE-2026-94127)
+- [watchtowrlabs/watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127](https://github.com/watchtowrlabs/watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127)
 
 ### CVE-2026-94128 (2026-09-21)
 
@@ -16917,6 +16938,20 @@
 ### CVE-2026-94545
 - [HORKimhab/CVE-2026-94545](https://github.com/HORKimhab/CVE-2026-94545)
 - [Hassham1/CVE-2026-94545-nextjs-og-poc](https://github.com/Hassham1/CVE-2026-94545-nextjs-og-poc)
+
+### CVE-2026-94609 (2026-09-24)
+
+<code>authentik is an open-source identity provider. Prior to 2026.2.7, 2026.5.7, and 2026.8.2, an account with delegated permission to manage a group, group membership, or a user can grant superuser status to an account or assign an existing role to a group without holding the permissions that gate those privileges. Group hierarchy checks do not consistently account for superuser status inherited from ancestor groups, and role assignment to a group lacks the required authorization check. Only deployments that delegate these management capabilities to accounts that are not full administrators are affected. This issue is fixed in versions 2026.2.7, 2026.5.7, and 2026.8.2.
+</code>
+
+- [anthonyk2923/CVE-2026-94609](https://github.com/anthonyk2923/CVE-2026-94609)
+
+### CVE-2026-95675 (2026-09-22)
+
+<code>D-Link DAP-1360 firmware version 6.14 and earlier contains an unauthenticated remote code execution vulnerability that allows remote attackers to execute arbitrary commands as root by sending crafted requests to the device's web management interface without valid credentials. Attackers can fully compromise the device to persistently modify its configuration and use it as a pivot point into the local network.
+</code>
+
+- [d6fault/CVE-2026-95675](https://github.com/d6fault/CVE-2026-95675)
 
 ### CVE-2026-96515 (2026-09-24)
 
@@ -39582,6 +39617,7 @@
 </code>
 
 - [roj1py/CVE-2024-47875-PhpSpreadsheet-XSS-PoC](https://github.com/roj1py/CVE-2024-47875-PhpSpreadsheet-XSS-PoC)
+- [d154573r-4v3r73d/CVE-2024-47875](https://github.com/d154573r-4v3r73d/CVE-2024-47875)
 
 ### CVE-2024-48061 (2024-11-04)
 
@@ -50392,6 +50428,7 @@
 - [UserConnecting/Exploit-CVE-2023-49070-and-CVE-2023-51467-Apache-OFBiz](https://github.com/UserConnecting/Exploit-CVE-2023-49070-and-CVE-2023-51467-Apache-OFBiz)
 - [yukselberkay/CVE-2023-49070_CVE-2023-51467](https://github.com/yukselberkay/CVE-2023-49070_CVE-2023-51467)
 - [GraySignal/Apache-OFBiz-Auth-Bypass-and-RCE-Exploit-CVE-2023-49070-CVE-2023-51467](https://github.com/GraySignal/Apache-OFBiz-Auth-Bypass-and-RCE-Exploit-CVE-2023-49070-CVE-2023-51467)
+- [BardLaudian/CVE-2023-49070](https://github.com/BardLaudian/CVE-2023-49070)
 
 ### CVE-2023-49103 (2023-11-21)
 
@@ -66798,7 +66835,6 @@
 - [MrTiz/CVE-2020-0688](https://github.com/MrTiz/CVE-2020-0688)
 - [7heKnight/CVE-2020-0688](https://github.com/7heKnight/CVE-2020-0688)
 - [1337-llama/CVE-2020-0688-Python3](https://github.com/1337-llama/CVE-2020-0688-Python3)
-- [chudamax/CVE-2020-0688-Exchange2010](https://github.com/chudamax/CVE-2020-0688-Exchange2010)
 - [W01fh4cker/CVE-2020-0688-GUI](https://github.com/W01fh4cker/CVE-2020-0688-GUI)
 - [tvdat20004/CVE-2020-0688](https://github.com/tvdat20004/CVE-2020-0688)
 - [iamwajd/Cyber-Attack-Analysis](https://github.com/iamwajd/Cyber-Attack-Analysis)
@@ -73312,7 +73348,7 @@
 <code>An unauthenticated user can execute SQL statements that allow arbitrary read access to the underlying database, which causes sensitive data leakage. This issue is fixed in Magento 2.1 prior to 2.1.18, Magento 2.2 prior to 2.2.9, Magento 2.3 prior to 2.3.2.
 </code>
 
-- [adhammedhat111/Magento-CVE-2019-7139-SQLi-PoC](https://github.com/adhammedhat111/Magento-CVE-2019-7139-SQLi-PoC)
+- [0xSemZ/Magento-CVE-2019-7139-SQLi-PoC](https://github.com/0xSemZ/Magento-CVE-2019-7139-SQLi-PoC)
 
 ### CVE-2019-7192 (2019-12-05)
 
@@ -87417,6 +87453,7 @@
 - [Elazab2005/unrealircd-backdoor-pentest-report](https://github.com/Elazab2005/unrealircd-backdoor-pentest-report)
 - [rhimavanth32-max/Metasploitable2-Reconnaissance-and-UnrealIRCd-Backdoor-Exploitation](https://github.com/rhimavanth32-max/Metasploitable2-Reconnaissance-and-UnrealIRCd-Backdoor-Exploitation)
 - [zales2004/sunset-noontide-pentesting](https://github.com/zales2004/sunset-noontide-pentesting)
+- [rushikesh-a-bhujbal/CVE-2010-2075](https://github.com/rushikesh-a-bhujbal/CVE-2010-2075)
 
 ### CVE-2010-2333 (2010-06-18)
 
