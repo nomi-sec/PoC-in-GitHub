@@ -3685,6 +3685,13 @@
 
 - [zer0dayf/CVE-2026-15013](https://github.com/zer0dayf/CVE-2026-15013)
 
+### CVE-2026-15015 (2026-07-23)
+
+<code>The MountDev AI MCP Connector for WordPress plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 1.6.1. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated attackers to obtain an administrator-bound OAuth Bearer token via a self-registered client, granting full administrator-equivalent access to the plugin's MCP tool surface and all exposed WordPress content, users, and options. This is exploitable by combining the publicly accessible Dynamic Client Registration endpoint, which allows unauthenticated callers to register arbitrary OAuth clients with an attacker-controlled redirect_uri, with the unprotected authorization endpoint to complete the full OAuth flow without any administrator interaction.
+</code>
+
+- [les-k/wp-secure-mcp](https://github.com/les-k/wp-secure-mcp)
+
 ### CVE-2026-15038 (2026-08-09)
 
 <code>The InfiniteWP Client WordPress plugin before 1.13.6 does not properly verify the site-connection state and the authenticity of requests to its remote-management endpoint on WordPress Multisite installations, allowing unauthenticated attackers to bind their own key, hijack an administrator session, and take over the entire network, leading to remote code execution.
@@ -16036,6 +16043,7 @@
 </code>
 
 - [Wh02m1/CVE-2026-78306](https://github.com/Wh02m1/CVE-2026-78306)
+- [FEEDBEEF/Dji_ble_vuln](https://github.com/FEEDBEEF/Dji_ble_vuln)
 
 ### CVE-2026-78329 (2026-08-24)
 
@@ -16909,6 +16917,13 @@
 ### CVE-2026-94545
 - [HORKimhab/CVE-2026-94545](https://github.com/HORKimhab/CVE-2026-94545)
 - [Hassham1/CVE-2026-94545-nextjs-og-poc](https://github.com/Hassham1/CVE-2026-94545-nextjs-og-poc)
+
+### CVE-2026-96515 (2026-09-24)
+
+<code>This\nvulnerability exists in the Netlink ICT HG323RW router due to insufficient\nauthorization and input validation controls in the diagnostic script import\nfunctionality. An authenticated attacker could exploit this vulnerability by\nuploading and executing a specially crafted script through the web management\ninterface.\n\n\n\n\n\nSuccessful exploitation of this vulnerability\ncould allow the attacker to execute arbitrary operating system commands with\nroot privileges resulting in complete compromise of the affected device.
+</code>
+
+- [whoami-012/CVE-2026-96515](https://github.com/whoami-012/CVE-2026-96515)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
