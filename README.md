@@ -3565,6 +3565,13 @@
 - [4minx/CVE-2026-14266](https://github.com/4minx/CVE-2026-14266)
 - [liyuxuan504-byte/CVE-2026-14266](https://github.com/liyuxuan504-byte/CVE-2026-14266)
 
+### CVE-2026-14281 (2026-09-25)
+
+<code>The Automation Web Platform – Notifications and OTP for WooCommerce, Advanced Country Code plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 4.8.6. This is due to missing permission enforcement on the publicly accessible REST route `POST /wp-json/wawp/v1/signup/&lt;op&gt;` and the absence of a key allowlist in the `finish_registration_logic` function, which copies the attacker-controlled `wawp_custom_fields` parameter directly into `update_user_meta()` — allowing sensitive meta keys such as `wp_capabilities` and `wp_user_level` to be set by the caller. This makes it possible for unauthenticated attackers to register a new account with the administrator role and gain full administrative access to the site. When OTP verification is enabled at signup, the OTP session token (`otp_transient`) is returned in plaintext in the HTTP response body, and the `handle_magic_link_request()` handler marks that token as verified on any unauthenticated GET request containing it without ever checking the OTP code value — making the OTP step trivially bypassable with no inbox or SMS access required.
+</code>
+
+- [murrez/CVE-2026-14281](https://github.com/murrez/CVE-2026-14281)
+
 ### CVE-2026-14282 (2026-07-23)
 
 <code>The GoDAM – Organize WordPress Media Library &amp; File Manager with Unlimited Folders for Images, Videos &amp; more plugin for WordPress is vulnerable to arbitrary file uploads in versions up to, and including, 1.12.2. This is due to insufficient file type validation in the save_video_file() function hooked into WPForms' public wpforms_process_before_filter, which trusts the attacker-supplied multipart Content-Type header, preserves the original filename via wp_unique_filename(), and moves the raw upload with $wp_filesystem-&gt;move() into a web-served directory — bypassing wp_handle_upload()'s MIME/extension allowlist. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -11279,6 +11286,7 @@
 - [wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499](https://github.com/wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499)
 - [AriyanPegu/ghostlock-app](https://github.com/AriyanPegu/ghostlock-app)
 - [pyyyc/honor-6.12.38-43499-research](https://github.com/pyyyc/honor-6.12.38-43499-research)
+- [AthBe1337/CVE-2026-43499-poc](https://github.com/AthBe1337/CVE-2026-43499-poc)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -11339,6 +11347,13 @@
 </code>
 
 - [Somisomair/CVE-2026-43655-AppleM2ScalerCSCDriver-UAF](https://github.com/Somisomair/CVE-2026-43655-AppleM2ScalerCSCDriver-UAF)
+
+### CVE-2026-43687 (2026-09-14)
+
+<code>The issue was addressed with improved memory handling. This issue is fixed in iOS 26.7 and iPadOS 26.7, iOS 27 and iPadOS 27, macOS Golden Gate 27, macOS Tahoe 26.7, tvOS 27, visionOS 27, watchOS 27. Connecting to a malicious NFS server may disclose kernel memory.
+</code>
+
+- [jvidhan/cve-2026-43687](https://github.com/jvidhan/cve-2026-43687)
 
 ### CVE-2026-43700 (2026-06-29)
 
@@ -12475,6 +12490,13 @@
 </code>
 
 - [7alen7/CVE-2026-48813-POC](https://github.com/7alen7/CVE-2026-48813-POC)
+
+### CVE-2026-48842 (2026-05-25)
+
+<code>Roundcube Webmail 1.6.x before 1.6.16 and 1.7.x before 1.7.1 has Pre-authentication SQL injection in the virtuser_query plugin via a preg_replace() backslash escape bypass.
+</code>
+
+- [murrez/CVE-2026-48842](https://github.com/murrez/CVE-2026-48842)
 
 ### CVE-2026-48849 (2026-05-25)
 
@@ -14243,6 +14265,13 @@
 
 - [abraxas/CVE-2026-61628](https://github.com/abraxas/CVE-2026-61628)
 
+### CVE-2026-61732 (2026-09-24)
+
+<code>Decepticon is an autonomous hacking agent for red teams. Versions prior to 1.1.17 wrap web crawl results — the output of agent reconnaissance against target services — into LLM messages without neutralizing ChatML special-token literals. Under the BYOK (Bring Your Own Key) deployment model, users configure their own LLM credentials to any OpenAI-compatible endpoint. Most open-source and self-deployed model providers (vLLM, SGLang, Ollama, LM Studio, text-generation-webui, etc.) do not filter special-token literals from user content in their default configurations. Those literals are parsed into structural role-boundary token IDs, meaning an attacker string planted in a target web page forges a new operator turn the model treats as authoritative, bypassing Decepticon's agent guardrails and resulting in arbitrary command execution inside the Kali Linux sandbox. Version 1.1.17 patches the issue.
+</code>
+
+- [InertFluid/cve-2026-61732-lab](https://github.com/InertFluid/cve-2026-61732-lab)
+
 ### CVE-2026-61797
 - [itres-labs/CVE-2026-61797](https://github.com/itres-labs/CVE-2026-61797)
 
@@ -14282,13 +14311,6 @@
 
 - [DavidCarliez/cve-2026-62737-lab](https://github.com/DavidCarliez/cve-2026-62737-lab)
 - [loanvui/CVE-2026-62737](https://github.com/loanvui/CVE-2026-62737)
-
-### CVE-2026-62878 (2026-08-11)
-
-<code>Stack-based buffer overflow in Windows DNS allows an unauthorized attacker to execute code over a network.
-</code>
-
-- [nmlz/CVE-2026-62878](https://github.com/nmlz/CVE-2026-62878)
 
 ### CVE-2026-62911 (2026-08-11)
 
@@ -14748,6 +14770,13 @@
 </code>
 
 - [swornim619/CVE-2026-65650](https://github.com/swornim619/CVE-2026-65650)
+
+### CVE-2026-65660 (2026-08-11)
+
+<code>Improper control of generation of code ('code injection') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.
+</code>
+
+- [HORKimhab/CVE-2026-65660](https://github.com/HORKimhab/CVE-2026-65660)
 
 ### CVE-2026-65694 (2026-07-23)
 
@@ -16757,6 +16786,13 @@
 - [cflowsec/CVE-2026-89026](https://github.com/cflowsec/CVE-2026-89026)
 - [AranFarzami/CVE-2026-89026](https://github.com/AranFarzami/CVE-2026-89026)
 
+### CVE-2026-89055 (2026-09-25)
+
+<code>The Customer Reviews for WooCommerce plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 5.120.0. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated attackers to permanently delete arbitrary attachments from the Media Library — including administrator-owned product images, logos, and documents — by injecting their IDs into a review that is later trashed and purged. Exploitation requires a public review-form link (a 13-hex formId distributed to customers via e-mail), which exposes the nonce needed to reach the handler without any WordPress account or session.
+</code>
+
+- [murrez/CVE-2026-89055](https://github.com/murrez/CVE-2026-89055)
+
 ### CVE-2026-89274 (2026-09-19)
 
 <code>The WP Recipe Maker plugin for WordPress is vulnerable to Arbitrary Shortcode Execution in all versions up to, and including, 10.8.1. The vulnerability exists because `WPRM_Metadata::sanitize_metadata()` recursively calls `do_shortcode()` on every scalar field of the recipe's structured metadata array — including the `reviewBody` field, which is populated verbatim from the `comment_content` of approved `wprm-comment-rating` comments — without sanitizing or stripping shortcode tokens before execution; the subsequent `wp_strip_all_tags()` and `strip_shortcodes()` calls operate only on the output string after execution has already fully occurred, providing no protection against server-side shortcode invocation. This makes it possible for unauthenticated attackers to execute arbitrary registered WordPress shortcodes server-side on every recipe page render, causing shortcode output — such as attachment captions, private post fields, or other data exposed by installed shortcodes — to be embedded in the page's JSON-LD `reviewBody` metadata and disclosed to all visitors who load the recipe page. Successful exploitation requires the attacker's rated comment to pass the site's comment approval threshold, either via auto-approval or moderator action, before the injected shortcode begins executing on page loads.
@@ -16863,6 +16899,13 @@
 
 - [SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection](https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection)
 
+### CVE-2026-93399 (2026-09-25)
+
+<code>The Bookly plugin for WordPress is vulnerable to Insecure Direct Object Reference in versions up to, and including, 28.2 via the 'bookly_get_form_id', 'bookly_render_complete', 'bookly_add_to_calendar' and 'bookly_rollback_order' AJAX actions. This is due to the 'bookly_get_form_id' handler blindly storing the attacker-controlled 'order_id' from the submitted form_data into a new booking session, which the 'bookly_render_complete' handler then trusts to look up and return the corresponding Order's secret token without verifying that the current session created that order. This makes it possible for unauthenticated attackers to enumerate sequential order IDs, disclose other customers' order tokens, retrieve calendar/appointment information via 'bookly_add_to_calendar' and permanently delete arbitrary non-completed bookings via 'bookly_rollback_order', which cascade-deletes the customer_appointment and (when no other customers are attached) the underlying appointment.
+</code>
+
+- [murrez/CVE-2026-93399](https://github.com/murrez/CVE-2026-93399)
+
 ### CVE-2026-93453 (2026-09-17)
 
 <code>SOGo before 5.12.11 constructs password-reset links using the client-supplied Origin header as the authority, allowing unauthenticated attackers to redirect recovery tokens to attacker-controlled domains. Attackers can submit password recovery requests with a malicious Origin header to have valid password-reset tokens mailed to victim recovery addresses within links pointing to attacker infrastructure, enabling account takeover.
@@ -16877,6 +16920,7 @@
 
 - [HORKimhab/CVE-2026-93485](https://github.com/HORKimhab/CVE-2026-93485)
 - [0xBlackash/CVE-2026-93485](https://github.com/0xBlackash/CVE-2026-93485)
+- [DeathShotXD/Comment2Shell](https://github.com/DeathShotXD/Comment2Shell)
 
 ### CVE-2026-93528 (2026-09-23)
 
@@ -16979,6 +17023,13 @@
 </code>
 
 - [whoami-012/CVE-2026-96515](https://github.com/whoami-012/CVE-2026-96515)
+
+### CVE-2026-96889 (2026-09-23)
+
+<code>A flaw was found in librsvg. When processing an SVG document containing nested XML inclusions (Xincludes) with duplicate entity declarations, a use-after-free error can occur. This vulnerability arises because the library incorrectly frees an XML entity that is still in use by the parser. An attacker could potentially exploit this to cause a denial of service or execute arbitrary code.
+</code>
+
+- [rafabd1/VectorFreed](https://github.com/rafabd1/VectorFreed)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -19435,6 +19486,13 @@
 </code>
 
 - [jFriedli/CVE-2025-9967](https://github.com/jFriedli/CVE-2025-9967)
+
+### CVE-2025-9974 (2026-02-02)
+
+<code>The unified WEBUI application of the ONT/Beacon device contains an input handling flaw that allows authenticated users to trigger unintended system-level command execution. Due to insufficient validation of user-supplied data, a low-privileged authenticated attacker may be able to execute arbitrary commands on the underlying ONT/Beacon operating system, potentially impacting the confidentiality, integrity, and availability of the device.
+</code>
+
+- [HORKimhab/CVE-2025-9974](https://github.com/HORKimhab/CVE-2025-9974)
 
 ### CVE-2025-9983 (2025-09-22)
 
@@ -26472,7 +26530,6 @@
 - [theman001/CVE-2025-55182](https://github.com/theman001/CVE-2025-55182)
 - [lalaterry/CVE-2025-55182-React2Shell-lab](https://github.com/lalaterry/CVE-2025-55182-React2Shell-lab)
 - [arashiyans/CVE-2025-55182-CVE-2025-66478](https://github.com/arashiyans/CVE-2025-55182-CVE-2025-66478)
-- [faizdotid/rust-cve-2025-55182](https://github.com/faizdotid/rust-cve-2025-55182)
 - [muthaiyanmani/react2shell-checker](https://github.com/muthaiyanmani/react2shell-checker)
 - [LucasPDiniz/CVE-2025-55182](https://github.com/LucasPDiniz/CVE-2025-55182)
 - [wangzhengquan/CVE-2025-55182](https://github.com/wangzhengquan/CVE-2025-55182)
@@ -33422,7 +33479,6 @@
 </code>
 
 - [D3N14LD15K/CVE-2024-11680_PoC_Exploit](https://github.com/D3N14LD15K/CVE-2024-11680_PoC_Exploit)
-- [qucklecrabik/CVE-2024-11680](https://github.com/qucklecrabik/CVE-2024-11680)
 
 ### CVE-2024-11728 (2024-12-06)
 
@@ -64437,7 +64493,6 @@
 - [gunzf0x/CVE-2021-41773](https://github.com/gunzf0x/CVE-2021-41773)
 - [Mahfujurjust/CVE-2021-41773](https://github.com/Mahfujurjust/CVE-2021-41773)
 - [adrianmafandy/CVE-2021-41773](https://github.com/adrianmafandy/CVE-2021-41773)
-- [faizdotid/CVE-2021-41773](https://github.com/faizdotid/CVE-2021-41773)
 - [ChanaPCN/CVE-2021-41773-Analysis](https://github.com/ChanaPCN/CVE-2021-41773-Analysis)
 - [sudo0xksh/cve-2021-41773-checker](https://github.com/sudo0xksh/cve-2021-41773-checker)
 - [dserdyk3-arch/Serdyuk-DO-homework-CVE-2021-41773](https://github.com/dserdyk3-arch/Serdyuk-DO-homework-CVE-2021-41773)
@@ -86027,6 +86082,7 @@
 - [caverm/Shellshock_CVE-2014-6271](https://github.com/caverm/Shellshock_CVE-2014-6271)
 - [FREEGUY-6/dmz-security-monitoring-hardening](https://github.com/FREEGUY-6/dmz-security-monitoring-hardening)
 - [Vaibhav91one/shellshock-cve-lab](https://github.com/Vaibhav91one/shellshock-cve-lab)
+- [mgiftson0/linux-env-vars-shellshock-lab](https://github.com/mgiftson0/linux-env-vars-shellshock-lab)
 
 ### CVE-2014-6287 (2014-10-07)
 
