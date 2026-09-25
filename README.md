@@ -30,6 +30,13 @@
 - [inforcqb/cve-2026-0013-exploit](https://github.com/inforcqb/cve-2026-0013-exploit)
 - [XiaoBaiLovesStirring/cve-2026-0013-poc](https://github.com/XiaoBaiLovesStirring/cve-2026-0013-poc)
 
+### CVE-2026-0014 (2026-03-02)
+
+<code>In isPackageNullOrSystem of AppOpsService.java, there is a possible persistent denial of service due to improper input validation. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [cduram/NotCVE-2026-0014](https://github.com/cduram/NotCVE-2026-0014)
+
 ### CVE-2026-0023 (2026-03-02)
 
 <code>In createSessionInternal of PackageInstallerService.java, there is a possible way for an app to update its ownership due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
@@ -2491,6 +2498,7 @@
 - [Y5neKO/CVE-2026-8461-EXP](https://github.com/Y5neKO/CVE-2026-8461-EXP)
 - [HORKimhab/CVE-2026-8461](https://github.com/HORKimhab/CVE-2026-8461)
 - [0xBlackash/CVE-2026-8461](https://github.com/0xBlackash/CVE-2026-8461)
+- [se1ims/PixelSmash](https://github.com/se1ims/PixelSmash)
 
 ### CVE-2026-8467 (2026-05-20)
 
@@ -8822,6 +8830,7 @@
 - [fevar54/CVE-2026-33634-Scanner](https://github.com/fevar54/CVE-2026-33634-Scanner)
 - [AshleyT3/docker-socket-risk-demos](https://github.com/AshleyT3/docker-socket-risk-demos)
 - [dfs333/trivysupplychainanalysis](https://github.com/dfs333/trivysupplychainanalysis)
+- [joaovicdev/EXPLOIT-CVE-2026-33634](https://github.com/joaovicdev/EXPLOIT-CVE-2026-33634)
 
 ### CVE-2026-33656 (2026-04-22)
 
@@ -15427,6 +15436,13 @@
 
 - [lyn4r/CVE-2026-71981](https://github.com/lyn4r/CVE-2026-71981)
 
+### CVE-2026-72001 (2026-08-31)
+
+<code>Pangolin before 1.22.0 contains an authentication bypass vulnerability that allows unauthenticated attackers to access any protected resource by supplying an attacker-controlled URL parameter to the share-link authentication endpoint that omits the expected resource identifier from the token verification call. Attackers holding a single valid share link for any resource can authenticate against arbitrary resources across different organizations, bypassing all configured authentication methods including SSO, resource passwords, PIN codes, email allowlists, and header authentication.
+</code>
+
+- [BiiTts/CVE-2026-72001-Pangolin-Cross-Org-Auth-Bypass](https://github.com/BiiTts/CVE-2026-72001-Pangolin-Cross-Org-Auth-Bypass)
+
 ### CVE-2026-72530 (2026-08-19)
 
 <code>A remote unauthorized attacker with network access via port 4307/TCP to the TrueConf server versions 5.3.X to 5.3.9, 5.4.X to 5.4.9, 5.5.X to 5.5.5, and earlier could use a specially crafted script to break out of the isolated environment and execute arbitrary code on the host system.
@@ -16185,6 +16201,9 @@
 
 - [jhli07/CVE-2026-79387-PbootCMS-SQL-Injection](https://github.com/jhli07/CVE-2026-79387-PbootCMS-SQL-Injection)
 
+### CVE-2026-79417
+- [connorjaydunn/CVE-2026-79417](https://github.com/connorjaydunn/CVE-2026-79417)
+
 ### CVE-2026-79483 (2026-08-31)
 
 <code>FastGPT Community Edition 4.10.0 through 4.14.0 are vulnerable to a NoSQL injection in the POST /api/core/chat/getHistories endpoint. An unauthenticated attacker can inject malicious NoSQL operators via crafted JSON payloads to bypass authorization checks, resulting in unauthorized access to chat history titles of all users across the platform.
@@ -16675,6 +16694,8 @@
 - [Lutfifakee-Project/CVE-2026-87902](https://github.com/Lutfifakee-Project/CVE-2026-87902)
 - [nextco/wordpress-cve-2026-87902](https://github.com/nextco/wordpress-cve-2026-87902)
 - [zyphorixofficialmain-lab/cve-2026-87902](https://github.com/zyphorixofficialmain-lab/cve-2026-87902)
+- [khellwan/CVE-2026-87902_PoC](https://github.com/khellwan/CVE-2026-87902_PoC)
+- [joaovicdev/EXPLOIT-CVE-2026-87902](https://github.com/joaovicdev/EXPLOIT-CVE-2026-87902)
 
 ### CVE-2026-87930 (2026-09-09)
 
@@ -16870,7 +16891,6 @@
 </code>
 
 - [WadesWeaponShed/CVE-2026-93616_Checks](https://github.com/WadesWeaponShed/CVE-2026-93616_Checks)
-- [Nebula-Consulting-Limited/CVE-2026-93616-PoC](https://github.com/Nebula-Consulting-Limited/CVE-2026-93616-PoC)
 
 ### CVE-2026-93659 (2026-09-18)
 
@@ -20761,6 +20781,7 @@
 - [Qingizi7/cve-2025-21479_iqooneo8](https://github.com/Qingizi7/cve-2025-21479_iqooneo8)
 - [xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479](https://github.com/xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479)
 - [RamenFast/zenfone9-root](https://github.com/RamenFast/zenfone9-root)
+- [diyiqiuye/CVE-2025-21479-FX5P](https://github.com/diyiqiuye/CVE-2025-21479-FX5P)
 
 ### CVE-2025-21574 (2025-04-15)
 
