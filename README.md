@@ -7254,6 +7254,13 @@
 - [EaEa0001/servu-cve-2026-28318-poc](https://github.com/EaEa0001/servu-cve-2026-28318-poc)
 - [BishopFox/CVE-2026-28318-check](https://github.com/BishopFox/CVE-2026-28318-check)
 
+### CVE-2026-28326 (2026-09-17)
+
+<code>SolarWinds Access Rights Manager was reported to be affected by an unauthenticated remote code execution vulnerability. The issue stems from a hardcoded static key.
+</code>
+
+- [BishopFox/CVE-2026-28326-check](https://github.com/BishopFox/CVE-2026-28326-check)
+
 ### CVE-2026-28363 (2026-02-27)
 
 <code>In OpenClaw before 2026.2.23, tools.exec.safeBins validation for sort could be bypassed via GNU long-option abbreviations (such as --compress-prog) in allowlist mode, leading to approval-free execution paths that were intended to require approval. Only an exact string such as --compress-program was denied.
@@ -11308,6 +11315,7 @@
 - [pyyyc/honor-6.12.38-43499-research](https://github.com/pyyyc/honor-6.12.38-43499-research)
 - [AthBe1337/CVE-2026-43499-poc](https://github.com/AthBe1337/CVE-2026-43499-poc)
 - [0ch4/ghostlock-mrx-w09](https://github.com/0ch4/ghostlock-mrx-w09)
+- [RELIHR/CVE-2026-43499](https://github.com/RELIHR/CVE-2026-43499)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -13411,10 +13419,18 @@
 ### CVE-2026-53613
 - [mohamedjawady/CVE-2026-53613-poc](https://github.com/mohamedjawady/CVE-2026-53613-poc)
 
-### CVE-2026-53625
+### CVE-2026-53625 (2026-09-25)
+
+<code>GLPI is a free asset and IT management software package. From 0.70 until 10.0.26 and 11.0.8, a technician can manipulate the authtype value through the API to change another user's authentication method. Under configurations using the legacy API REST interface or SSO logins, this can change a super-administrator's authentication method and enable account takeover. This issue is fixed in versions 11.0.8 and 10.0.26.
+</code>
+
 - [7h30th3r0n3/CVE-2026-53625-GLPI-PoC](https://github.com/7h30th3r0n3/CVE-2026-53625-GLPI-PoC)
 
-### CVE-2026-53629
+### CVE-2026-53629 (2026-09-25)
+
+<code>GLPI is a free asset and IT management software package. From 9.4.0 until 10.0.26 and 11.0.8, an attacker with the READ right on logs can craft a URL for the history tab that injects attacker-controlled values into a database query. This permits SQL injection through the history tab endpoint. This issue is fixed in versions 11.0.8 and 10.0.26.
+</code>
+
 - [5kr1pt/glpi-logbleed](https://github.com/5kr1pt/glpi-logbleed)
 
 ### CVE-2026-53647 (2026-07-06)
@@ -14134,6 +14150,7 @@
 
 - [HORKimhab/CVE-2026-59310](https://github.com/HORKimhab/CVE-2026-59310)
 - [BiuTrap/CVE-2026-59310](https://github.com/BiuTrap/CVE-2026-59310)
+- [ChinaRan0/CVE-2026-59310-POC](https://github.com/ChinaRan0/CVE-2026-59310-POC)
 
 ### CVE-2026-59346
 - [0xCyberstan/CVE-2026-59346-POC](https://github.com/0xCyberstan/CVE-2026-59346-POC)
@@ -14540,6 +14557,8 @@
 - [quyicheng03-boop/xiaomi15-dada-cve-2026-64560](https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560)
 - [RMDycz/K80Pro-miro-CVE-2026-64560](https://github.com/RMDycz/K80Pro-miro-CVE-2026-64560)
 - [a23bc/op13-cve-2026-64560](https://github.com/a23bc/op13-cve-2026-64560)
+- [Become-ILLUSORY/cve-2026-64560-a16](https://github.com/Become-ILLUSORY/cve-2026-64560-a16)
+- [Wangs-official/opace6-cve-2026-64560](https://github.com/Wangs-official/opace6-cve-2026-64560)
 
 ### CVE-2026-64561 (2026-08-04)
 
@@ -16633,6 +16652,7 @@
 
 - [bahirul/cve-2026-86060](https://github.com/bahirul/cve-2026-86060)
 - [digiprosec/MicroTrick](https://github.com/digiprosec/MicroTrick)
+- [gagaltotal/CVE-2026-mikrotik-poc](https://github.com/gagaltotal/CVE-2026-mikrotik-poc)
 
 ### CVE-2026-86218 (2026-09-06)
 
@@ -16754,8 +16774,9 @@
 - [Lutfifakee-Project/CVE-2026-87902](https://github.com/Lutfifakee-Project/CVE-2026-87902)
 - [nextco/wordpress-cve-2026-87902](https://github.com/nextco/wordpress-cve-2026-87902)
 - [zyphorixofficialmain-lab/cve-2026-87902](https://github.com/zyphorixofficialmain-lab/cve-2026-87902)
-- [khellwan/CVE-2026-87902_PoC](https://github.com/khellwan/CVE-2026-87902_PoC)
+- [crowsec-edtech/CVE-2026-87902](https://github.com/crowsec-edtech/CVE-2026-87902)
 - [joaovicdev/EXPLOIT-CVE-2026-87902](https://github.com/joaovicdev/EXPLOIT-CVE-2026-87902)
+- [SVTagan/WP-CVE-2026-87902](https://github.com/SVTagan/WP-CVE-2026-87902)
 
 ### CVE-2026-87915 (2026-09-18)
 
@@ -17061,6 +17082,13 @@
 </code>
 
 - [d6fault/CVE-2026-95675](https://github.com/d6fault/CVE-2026-95675)
+
+### CVE-2026-96512 (2026-09-23)
+
+<code>A flaw was found in sudo. When sudoers rules use NOTBEFORE or NOTAFTER time-based access restrictions with timestamps that omit the trailing 'Z' timezone indicator, the time evaluation relies on the TZ environment variable inherited from the calling user. Because sudo is a setuid-root program, an unprivileged local user can set TZ to an extreme timezone offset to shift the authorization window by up to approximately 25 hours, causing expired rules to be treated as valid. This allows the user to execute commands outside the intended time window. Authentication is not bypassed; only the time-based authorization check is affected.
+</code>
+
+- [Ermensonx/sudotimewarp-cve-2026-96512-](https://github.com/Ermensonx/sudotimewarp-cve-2026-96512-)
 
 ### CVE-2026-96515 (2026-09-24)
 
@@ -20837,6 +20865,7 @@
 - [tarunbharathe/Zero-Click-RCE-Incident-Response-CVE-2025-21298](https://github.com/tarunbharathe/Zero-Click-RCE-Incident-Response-CVE-2025-21298)
 - [C-G-creator/LetsDefend-SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298](https://github.com/C-G-creator/LetsDefend-SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298)
 - [abc1230940/SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298](https://github.com/abc1230940/SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298)
+- [mohamedbrek/SOC336-CVE-2025-21298-Investigation](https://github.com/mohamedbrek/SOC336-CVE-2025-21298-Investigation)
 
 ### CVE-2025-21333 (2025-01-14)
 
@@ -31440,6 +31469,13 @@
 </code>
 
 - [H1ng007/CVE-2024-3640_WafBypass](https://github.com/H1ng007/CVE-2024-3640_WafBypass)
+
+### CVE-2024-3651 (2024-07-07)
+
+<code>A vulnerability was identified in the kjd/idna library, specifically within the `idna.encode()` function, affecting version 3.6. The issue arises from the function's handling of crafted input strings, which can lead to quadratic complexity and consequently, a denial of service condition. This vulnerability is triggered by a crafted input that causes the `idna.encode()` function to process the input with considerable computational load, significantly increasing the processing time in a quadratic manner relative to the input size.
+</code>
+
+- [redhat-tssc-tmm/CVE-2024-3651-exploit](https://github.com/redhat-tssc-tmm/CVE-2024-3651-exploit)
 
 ### CVE-2024-3656 (2024-10-09)
 
@@ -79355,6 +79391,7 @@
 
 - [cved-sources/cve-2018-15877](https://github.com/cved-sources/cve-2018-15877)
 - [Cinnamon1212/CVE-2018-15877-RCE](https://github.com/Cinnamon1212/CVE-2018-15877-RCE)
+- [firasotoom85-droid/wp-plainview-auth-RCE-broken-cookie-to-session-fix](https://github.com/firasotoom85-droid/wp-plainview-auth-RCE-broken-cookie-to-session-fix)
 
 ### CVE-2018-15912 (2018-08-29)
 
@@ -87024,6 +87061,7 @@
 </code>
 
 - [systemslibrarian/crypto-lab-merkle-proofs](https://github.com/systemslibrarian/crypto-lab-merkle-proofs)
+- [condeDeveloper/arvore-merkle](https://github.com/condeDeveloper/arvore-merkle)
 
 ### CVE-2012-2593 (2020-02-06)
 
@@ -88238,6 +88276,7 @@
 - [EthicalHackingLabs/metasploitable2-exploitation-metasploit](https://github.com/EthicalHackingLabs/metasploitable2-exploitation-metasploit)
 - [Mboatella25/metasploitable-pentest-lab](https://github.com/Mboatella25/metasploitable-pentest-lab)
 - [ronankongala/metasploit-pentest-report](https://github.com/ronankongala/metasploit-pentest-report)
+- [rushikesh-a-bhujbal/CVE-2007-2447](https://github.com/rushikesh-a-bhujbal/CVE-2007-2447)
 
 ### CVE-2007-3280 (2007-06-19)
 
