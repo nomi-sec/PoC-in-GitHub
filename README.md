@@ -3574,6 +3574,7 @@
 </code>
 
 - [murrez/CVE-2026-14281](https://github.com/murrez/CVE-2026-14281)
+- [langz337/CVE-2026-14281](https://github.com/langz337/CVE-2026-14281)
 
 ### CVE-2026-14282 (2026-07-23)
 
@@ -3792,6 +3793,7 @@
 </code>
 
 - [codeb0ssx/CVE-2026-15583-PoC](https://github.com/codeb0ssx/CVE-2026-15583-PoC)
+- [abraxas/CVE-2026-15583](https://github.com/abraxas/CVE-2026-15583)
 
 ### CVE-2026-15598 (2026-07-13)
 
@@ -5296,6 +5298,13 @@
 - [ThePotatoOfDoom/CVE-2026-22557-PoC](https://github.com/ThePotatoOfDoom/CVE-2026-22557-PoC)
 - [BishopFox/CVE-2026-22557-check](https://github.com/BishopFox/CVE-2026-22557-check)
 - [gagaltotal/CVE-2026-22557-Path-Traversal-Ubiquti-UniFi](https://github.com/gagaltotal/CVE-2026-22557-Path-Traversal-Ubiquti-UniFi)
+
+### CVE-2026-22599 (2026-05-14)
+
+<code>Strapi is an open source headless content management system. In versions on the 4.x branch prior to 4.26.1 and on the 5.x branch prior to 5.33.2, a database-query injection vulnerability existed in the Strapi Content-Type Builder write API. An authenticated administrator could inject arbitrary database statements through the `column.defaultTo` attribute when creating or modifying a content type. Setting `defaultTo` as a tuple `[value, { isRaw: true }]` caused the value to be passed directly into Knex's `db.connection.raw()` during schema migration without sanitization, allowing arbitrary statement execution at the database layer. Depending on the database engine, this enabled arbitrary file read via database utility functions, denial of service via forced server crash on schema-migration error, and on engines that permit external program execution, remote code execution against the database server. The patch in versions 4.26.1 and 5.33.2 addresses this by restricting all Content-Type Builder write APIs to development mode only. Production deployments running v5.33.2 or later return 404 for requests against `/content-type-builder/content-types` and related endpoints, removing the network-reachable attack surface entirely.
+</code>
+
+- [abraxas/CVE-2026-22599](https://github.com/abraxas/CVE-2026-22599)
 
 ### CVE-2026-22610 (2026-01-10)
 
@@ -11229,9 +11238,9 @@
 - [woshimaniubi8/CVE-2026-43499-root-KernelSU](https://github.com/woshimaniubi8/CVE-2026-43499-root-KernelSU)
 - [soralis0912/CVE-2026-43499-pmg110-root](https://github.com/soralis0912/CVE-2026-43499-pmg110-root)
 - [dnlid/CVE-2026-43499](https://github.com/dnlid/CVE-2026-43499)
-- [WitAqua-tools/Root-My-Device](https://github.com/WitAqua-tools/Root-My-Device)
 - [YuKongA/ghostlock-app](https://github.com/YuKongA/ghostlock-app)
 - [233laoliu/mt6985-CVE-2026-43499](https://github.com/233laoliu/mt6985-CVE-2026-43499)
+- [soralis0912/Root-My-Device](https://github.com/soralis0912/Root-My-Device)
 - [2932796375github/CVE-2026-43499_OPPO-MT6835](https://github.com/2932796375github/CVE-2026-43499_OPPO-MT6835)
 - [asarr22/Root-My-Galaxy-S938B](https://github.com/asarr22/Root-My-Galaxy-S938B)
 - [datfooldive/ghostlock-emerald](https://github.com/datfooldive/ghostlock-emerald)
@@ -11324,6 +11333,7 @@
 - [AthBe1337/CVE-2026-43499-poc](https://github.com/AthBe1337/CVE-2026-43499-poc)
 - [0ch4/ghostlock-mrx-w09](https://github.com/0ch4/ghostlock-mrx-w09)
 - [RELIHR/CVE-2026-43499](https://github.com/RELIHR/CVE-2026-43499)
+- [WitAqua-tools/Root-My-Device](https://github.com/WitAqua-tools/Root-My-Device)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -11384,6 +11394,13 @@
 </code>
 
 - [Somisomair/CVE-2026-43655-AppleM2ScalerCSCDriver-UAF](https://github.com/Somisomair/CVE-2026-43655-AppleM2ScalerCSCDriver-UAF)
+
+### CVE-2026-43682 (2026-07-27)
+
+<code>The issue was addressed with improved memory handling. This issue is fixed in macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.6. A remote user may be able to cause unexpected system termination or corrupt kernel memory.
+</code>
+
+- [petermalone/CVE-2026-43682](https://github.com/petermalone/CVE-2026-43682)
 
 ### CVE-2026-43687 (2026-09-14)
 
@@ -12458,6 +12475,13 @@
 - [g0thamRabb1t/CVE-2026-48282-coldfusion-rds-detection](https://github.com/g0thamRabb1t/CVE-2026-48282-coldfusion-rds-detection)
 - [arpit-bansal15/cve-2026-48282-pentest-lab](https://github.com/arpit-bansal15/cve-2026-48282-pentest-lab)
 
+### CVE-2026-48356 (2026-07-14)
+
+<code>Adobe Commerce is affected by an Unrestricted Upload of File with Dangerous Type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. Exploitation of this issue requires user interaction in that a victim must visit a maliciously crafted URL or interact with a compromised web page. Scope is changed.
+</code>
+
+- [abraxas/CVE-2026-48356](https://github.com/abraxas/CVE-2026-48356)
+
 ### CVE-2026-48519 (2026-06-23)
 
 <code>Langflow is a tool for building and deploying AI-powered agents and workflows. Prior to 1.9.2, the &quot;Shareable Playground&quot; (or &quot;Public Flows&quot; in code) contains a critical RCE vulnerability. Shareable Playground feature works by enabling the execution of workflows by unauthenticated users, by accessing a link. Specifically, it enables the route /api/v1/build_public_tmp to execute any public flow, given a public flow ID. When the route executes the flow, it allows for providing arbitrary custom Python code as the nodes code, inside the JSON payload. The vulnerable field is data.nodes[X].data.node.template.code.value. This vulnerability is fixed in 1.9.2.
@@ -13227,6 +13251,13 @@
 </code>
 
 - [0xTerror/CVE-2026-52774-YESWIKI-XSS](https://github.com/0xTerror/CVE-2026-52774-YESWIKI-XSS)
+
+### CVE-2026-52782 (2026-06-26)
+
+<code>OpenProject is open-source, web-based project management software. Prior to 17.3.3 and 17.4.1, there is an IDOR through /projects/&lt;A&gt;/settings/project_storages/&lt;A_ps_id&gt; via PATCH parameter &quot;storages_project_storage[project_folder_id]&quot; leads to Access to Unauthorized Resources. A project-admin in one project can hijack the managed Nextcloud or OneDrive folder of another project on the same storage by writing the victim project's project_folder_id into the attacker's Storages::ProjectStorage row. The next managed-folder sync overwrites the ACL on the referenced folder with the attacker project's user list. This vulnerability is fixed in 17.3.3 and 17.4.1.
+</code>
+
+- [abraxas/CVE-2026-52782](https://github.com/abraxas/CVE-2026-52782)
 
 ### CVE-2026-52806 (2026-06-24)
 
@@ -15140,6 +15171,13 @@
 - [BlackHatExploitation/exploit-mikrotik-2026](https://github.com/BlackHatExploitation/exploit-mikrotik-2026)
 - [4rt-Net/Mikrotrick_POC](https://github.com/4rt-Net/Mikrotrick_POC)
 
+### CVE-2026-67279 (2026-09-05)
+
+<code>RouterOS SSH enters the connection protocol after a client-requested rekey even though user authentication was never attempted, allowing an unauthenticated client to open a session channel and send an exec request. On affected builds the server dispatches the command, enabling unauthenticated creation, overwrite, and reconstruction of files in the RouterOS managed file namespace, including support files containing configuration and diagnostic data.This issue was fixed in versions: 6.49.21 (Long-term), 7.23.4 (Long-term) and 7.24.2 (Stable)
+</code>
+
+- [HackSpeak/CVE-2026-67279](https://github.com/HackSpeak/CVE-2026-67279)
+
 ### CVE-2026-67340 (2026-08-01)
 
 <code>ArcadeDB before 26.7.2 (arcadedb-engine) allows trigger scripts to look up host classes in java.lang.* (via Java.type) because ScriptTriggerExecutor adds java.lang.* to the allowed packages. An authenticated user with UPDATE_SCHEMA permission can create a JavaScript trigger that invokes java.lang.Runtime.getRuntime().exec() (or ProcessBuilder), achieving OS command execution when the trigger fires.
@@ -15909,6 +15947,7 @@
 - [disrex-group/stylesmuggler-adobe-patches](https://github.com/disrex-group/stylesmuggler-adobe-patches)
 - [disrex-group/stylesmuggler-adobe-patches-mageos](https://github.com/disrex-group/stylesmuggler-adobe-patches-mageos)
 - [fortbridge/stylesmuggler](https://github.com/fortbridge/stylesmuggler)
+- [abraxas/CVE-2026-75650](https://github.com/abraxas/CVE-2026-75650)
 
 ### CVE-2026-75816 (2026-09-06)
 
@@ -16807,6 +16846,7 @@
 - [crowsec-edtech/CVE-2026-87902](https://github.com/crowsec-edtech/CVE-2026-87902)
 - [joaovicdev/EXPLOIT-CVE-2026-87902](https://github.com/joaovicdev/EXPLOIT-CVE-2026-87902)
 - [SVTagan/WP-CVE-2026-87902](https://github.com/SVTagan/WP-CVE-2026-87902)
+- [itskill-jp/wordpress-upgrade-check](https://github.com/itskill-jp/wordpress-upgrade-check)
 
 ### CVE-2026-87915 (2026-09-18)
 
@@ -57616,7 +57656,6 @@
 </code>
 
 - [PLSRcoin/CVE-2022-40769](https://github.com/PLSRcoin/CVE-2022-40769)
-- [artsbykriss/profanity-verifier](https://github.com/artsbykriss/profanity-verifier)
 
 ### CVE-2022-40881 (2022-11-17)
 
