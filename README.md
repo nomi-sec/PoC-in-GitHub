@@ -10503,6 +10503,7 @@
 - [ZeroDayVPN/CVE-2026-41089-Netlogon](https://github.com/ZeroDayVPN/CVE-2026-41089-Netlogon)
 - [SyntaxMethod/CVE-2026-41089-Netlogon-RCE-PoC](https://github.com/SyntaxMethod/CVE-2026-41089-Netlogon-RCE-PoC)
 - [Gillarchnganasan2735/CVE-2026-41089-Netlogon-RCE-PoC](https://github.com/Gillarchnganasan2735/CVE-2026-41089-Netlogon-RCE-PoC)
+- [1posix/CVE-2026-41089-POC](https://github.com/1posix/CVE-2026-41089-POC)
 
 ### CVE-2026-41091 (2026-05-20)
 
@@ -10788,6 +10789,7 @@
 - [0xgh057r3c0n/CVE-2026-41940](https://github.com/0xgh057r3c0n/CVE-2026-41940)
 - [Xrzmodz444/cve-2026-41940-PoC-Linux](https://github.com/Xrzmodz444/cve-2026-41940-PoC-Linux)
 - [yasouxken/cve-2026-41940-PoC](https://github.com/yasouxken/cve-2026-41940-PoC)
+- [hitechcloud-vietnam/cve-2026-41940-PoC](https://github.com/hitechcloud-vietnam/cve-2026-41940-PoC)
 
 ### CVE-2026-42031 (2026-05-13)
 
@@ -11345,7 +11347,6 @@
 - [wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499](https://github.com/wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499)
 - [AriyanPegu/ghostlock-app](https://github.com/AriyanPegu/ghostlock-app)
 - [pyyyc/honor-6.12.38-43499-research](https://github.com/pyyyc/honor-6.12.38-43499-research)
-- [AthBe1337/CVE-2026-43499-poc](https://github.com/AthBe1337/CVE-2026-43499-poc)
 - [0ch4/ghostlock-mrx-w09](https://github.com/0ch4/ghostlock-mrx-w09)
 - [RELIHR/CVE-2026-43499](https://github.com/RELIHR/CVE-2026-43499)
 - [WitAqua-tools/Root-My-Device](https://github.com/WitAqua-tools/Root-My-Device)
@@ -14355,6 +14356,13 @@
 
 - [shinthink/CVE-2026-61424](https://github.com/shinthink/CVE-2026-61424)
 
+### CVE-2026-61500 (2026-07-13)
+
+<code>Rejetto HFS 3.0.0 through 3.2.0 derives its session-cookie signing key from the non-cryptographic Math.random() generator and discloses outputs of the same generator to unauthenticated clients during login. A remote attacker can collect a small number of login responses, reconstruct the generator's state, recover the signing key, and forge a valid administrator session cookie, leading to full administrative access and remote code execution via the server_code configuration feature.
+</code>
+
+- [aramosf/CVE-2026-61500](https://github.com/aramosf/CVE-2026-61500)
+
 ### CVE-2026-61511 (2026-07-27)
 
 <code>vBulletin 5.x through 5.7.5 and 6.x through 6.2.1 contains an eval injection vulnerability in the vB5_Template_Runtime::runMaths() method within the template runtime that allows unauthenticated remote attackers to execute arbitrary PHP code by supplying crafted input through the pagenav[pagenumber] parameter. Attackers can exploit the insufficiently restrictive regex filter by using phpfuck-style encoding with permitted characters to inject and execute arbitrary PHP code via the unauthenticated ajax/render template route without any authentication.
@@ -14521,6 +14529,7 @@
 - [Sec-Dan/WP2Shell-Scanner](https://github.com/Sec-Dan/WP2Shell-Scanner)
 - [arvindear/wp2shell-PoC](https://github.com/arvindear/wp2shell-PoC)
 - [fl0ydsec/CVE-2026-63030](https://github.com/fl0ydsec/CVE-2026-63030)
+- [langz337/CVE-2026-63030](https://github.com/langz337/CVE-2026-63030)
 
 ### CVE-2026-63039 (2026-08-20)
 
@@ -17111,6 +17120,13 @@
 
 ### CVE-2026-93680
 - [rmhowe425/POC-CVE-2026-93680](https://github.com/rmhowe425/POC-CVE-2026-93680)
+
+### CVE-2026-93834 (2026-09-25)
+
+<code>A use-after-free vulnerability was found in QEMU's 9pfs subsystem. A race condition between the main thread and a worker thread when processing concurrent Tlcreate and Twalk requests allows a malicious guest user to craft a fid path containing stale heap data, bypassing directory traversal restrictions and escaping the shared directory boundary. This can lead to arbitrary host file read/write and code execution (VM escape) as the QEMU process user.
+</code>
+
+- [suominen/CVE-2026-93834](https://github.com/suominen/CVE-2026-93834)
 
 ### CVE-2026-93958 (2026-09-20)
 
@@ -25101,13 +25117,6 @@
 ### CVE-2025-48932
 - [XploitGh0st/CVE-2025-48932---exploit](https://github.com/XploitGh0st/CVE-2025-48932---exploit)
 - [CerberusMrXi/CVE-2025-48932-Invision-Community-SQLi-Exploit](https://github.com/CerberusMrXi/CVE-2025-48932-Invision-Community-SQLi-Exploit)
-
-### CVE-2025-48939 (2025-07-03)
-
-<code>tarteaucitron.js is a compliant and accessible cookie banner. Prior to version 1.22.0, a vulnerability was identified in tarteaucitron.js where document.currentScript was accessed without verifying that it referenced an actual &lt;script&gt; element. If an attacker injected an HTML element, it could clobber the document.currentScript property. This causes the script to resolve incorrectly to an element instead of the &lt;script&gt; tag, leading to unexpected behavior or failure to load the script path correctly. This issue arises because in some browser environments, named DOM elements become properties on the global document object. An attacker with control over the HTML could exploit this to change the CDN domain of tarteaucitron. This issue has been patched in version 1.22.0.
-</code>
-
-- [NymiiTechTips/CVE-2025-48939](https://github.com/NymiiTechTips/CVE-2025-48939)
 
 ### CVE-2025-48976 (2025-06-16)
 
@@ -70038,6 +70047,7 @@
 
 - [JackHars/cve-2020-14008](https://github.com/JackHars/cve-2020-14008)
 - [0x0d3ad/CVE-2020-14008](https://github.com/0x0d3ad/CVE-2020-14008)
+- [raflesiait/CVE-2020-14008](https://github.com/raflesiait/CVE-2020-14008)
 
 ### CVE-2020-14064 (2020-07-15)
 
