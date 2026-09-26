@@ -1686,6 +1686,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-5430](https://github.com/HORKimhab/CVE-2026-5430)
+- [abraxas/CVE-2026-5430](https://github.com/abraxas/CVE-2026-5430)
 
 ### CVE-2026-5432
 - [George0Papasotiriou/CVE-2026-5432-GraphQL-Batching-Alias-Confusion-SQL-Injection](https://github.com/George0Papasotiriou/CVE-2026-5432-GraphQL-Batching-Alias-Confusion-SQL-Injection)
@@ -3906,6 +3907,13 @@
 - [Superman-L/CVE-2026-16723](https://github.com/Superman-L/CVE-2026-16723)
 - [yym8538/CVE-2026-16723](https://github.com/yym8538/CVE-2026-16723)
 - [ipisav/fastjson-cve](https://github.com/ipisav/fastjson-cve)
+
+### CVE-2026-16764 (2026-07-23)
+
+<code>A vulnerability was identified in OWASP DefectDojo 2.59.0. This issue affects the function UserSerializer of the file dojo/api_v2/serializers.py of the component API/Web. Such manipulation of the argument is_staff leads to improper privilege management. The attack may be performed from remote. The exploit is publicly available and might be used. Upgrading to version 2.58.3 and 3.0.0 is capable of addressing this issue. The name of the patch is 68a272f299d096249fd3ba9c2676bf69012857bf. It is advisable to upgrade the affected component. 2.59.0 was not intended to be released and has been removed.
+</code>
+
+- [hakaioffsec/CVE-2026-16764](https://github.com/hakaioffsec/CVE-2026-16764)
 
 ### CVE-2026-17001
 - [llaytynher/CVE-2026-17001](https://github.com/llaytynher/CVE-2026-17001)
@@ -12156,6 +12164,13 @@
 
 - [oscerd/CVE-2026-46592](https://github.com/oscerd/CVE-2026-46592)
 
+### CVE-2026-46595 (2026-05-22)
+
+<code>Previously, CVE-2024-45337 fixed an authorization bypass for misused ssh server configurations; if any other type of callback is passed other than public key, then the source-address validation would be skipped.
+</code>
+
+- [sdodson/CVE-2026-46595-proof](https://github.com/sdodson/CVE-2026-46595-proof)
+
 ### CVE-2026-46645 (2026-06-10)
 
 <code>SQLAdmin is a flexible Admin interface for SQLAlchemy models. Prior to version 0.25.1, the ajax_lookup endpoint in application.py bypasses the is_accessible() access control check that all other endpoints enforce. If a developer restricts model access by overriding is_accessible(), an authenticated user can still query that model's data through the ajax_lookup endpoint — silently bypassing the restriction. This issue has been patched in version 0.25.1.
@@ -14327,6 +14342,13 @@
 
 - [Rat5ak/CVE-2026-61946-Easy-Appointments-IDOR](https://github.com/Rat5ak/CVE-2026-61946-Easy-Appointments-IDOR)
 
+### CVE-2026-62062 (2026-09-25)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in Elementor Website Builder allows Cross Site Request Forgery.\n\nThis issue affects Elementor Website Builder: from n/a through 4.3.1.
+</code>
+
+- [abraxas/CVE-2026-62062](https://github.com/abraxas/CVE-2026-62062)
+
 ### CVE-2026-62183 (2026-07-20)
 
 <code>Improper Privilege Management vulnerability in Apache Syncope.\n\nWhen:\n\n* the all-Java user workflow adapter is configured, or\n* the Flowable user workflow adapter is configured, bearing a BPMN definition not requiring admin approval for user self registration of self update requests\n\nthe following scenario could happen.\nA REST API call can allow the user to grant themselves one or more of defined Roles, thus gaining their Entitlements and becoming in fact an administrator; the actual Entitlements gained depend on the Roles that are effectively defined on the specific Syncope deployment.\n\n\nThis issue affects Apache Syncope: from 3.0.0-M0 through 3.0.16, from 4.0.0-M0 Through 4.0.6, from 4.1.0-M0 through 4.1.1.\n\nUsers are recommended to upgrade to version 4.0.7 / 4.1.2, which fix this issue.
@@ -14826,6 +14848,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-65660](https://github.com/HORKimhab/CVE-2026-65660)
+- [ShadowForge-Cyber/CVE-2026-65660-Poc](https://github.com/ShadowForge-Cyber/CVE-2026-65660-Poc)
 
 ### CVE-2026-65694 (2026-07-23)
 
@@ -16677,6 +16700,13 @@
 
 - [Freire007-byte/sentric-core](https://github.com/Freire007-byte/sentric-core)
 
+### CVE-2026-86350 (2026-09-23)
+
+<code>Inconsistent interpretation of HTTP/2 requests ('HTTP Request/Response smuggling') vulnerability in Apache Tomcat caused by a regression in fix for CVE-2026-41293 can trigger request header mix-up.\n\n\n\nThis issue affects Apache Tomcat: from 11.0.22 through 11.0.25, from 10.1.55 through 10.1.59, from 9.0.118 through 9.0.121.\n\n\n\nUsers are recommended to upgrade to version 11.0.26, 10.1.60 or 9.0.122, which fix the issue.
+</code>
+
+- [abraxas/CVE-2026-86350](https://github.com/abraxas/CVE-2026-86350)
+
 ### CVE-2026-86547 (2026-09-09)
 
 <code>mrubyc through 4.0.0 contains a null pointer dereference vulnerability in the op_enter() handler in src/vm.c when processing untrusted bytecode. Attackers can craft malicious .mrb bytecode files with OP_ENTER instructions at the top level to crash the embedding application and cause denial of service.
@@ -16890,6 +16920,7 @@
 - [murrez/CVE-2026-90817](https://github.com/murrez/CVE-2026-90817)
 - [ExDev994/CVE-2026-90817](https://github.com/ExDev994/CVE-2026-90817)
 - [yulisec/CVE-2026-90817](https://github.com/yulisec/CVE-2026-90817)
+- [Farih123/CVE-2026-90817](https://github.com/Farih123/CVE-2026-90817)
 
 ### CVE-2026-90847 (2026-09-15)
 
@@ -17089,6 +17120,7 @@
 </code>
 
 - [Ermensonx/sudotimewarp-cve-2026-96512-](https://github.com/Ermensonx/sudotimewarp-cve-2026-96512-)
+- [abraxas/CVE-2026-96512](https://github.com/abraxas/CVE-2026-96512)
 
 ### CVE-2026-96515 (2026-09-24)
 
@@ -87426,6 +87458,7 @@
 - [samirchapagain/metasploit-lab-report](https://github.com/samirchapagain/metasploit-lab-report)
 - [DanReis20/pentest-lab-metasploitable2](https://github.com/DanReis20/pentest-lab-metasploitable2)
 - [rushikesh-a-bhujbal/CVE-2011-2523](https://github.com/rushikesh-a-bhujbal/CVE-2011-2523)
+- [delmag138/NovaShyld_Task_3](https://github.com/delmag138/NovaShyld_Task_3)
 
 ### CVE-2011-2553
 - [carlosrpastrana/cve-2011-2553](https://github.com/carlosrpastrana/cve-2011-2553)
