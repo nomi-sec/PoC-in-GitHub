@@ -3487,6 +3487,13 @@
 
 - [KuniNogu/drupal-openai-provider-ssrf-cve-2026-13233](https://github.com/KuniNogu/drupal-openai-provider-ssrf-cve-2026-13233)
 
+### CVE-2026-13249 (2026-09-24)
+
+<code>An unauthenticated Remote Code Execution via Arbitrary File Upload vulnerability in the web management interface in Honeywell PD45 Industrial Printer version F10.19.010040, allows upload of attacker controlled files without requiring authentication.\n\n\nAn attacker could potentially exploit this vulnerability, leading to the execution of malicious files and commands. Honeywell also recommends updating to the most recent firmware version, Honeywell PD45 Industrial Printer firmware F10.22.030745, which includes a fix for this vulnerability.
+</code>
+
+- [murrez/CVE-2026-13249](https://github.com/murrez/CVE-2026-13249)
+
 ### CVE-2026-13355 (2026-09-22)
 
 <code>The Meta Box AIO plugin for WordPress is vulnerable to Privilege Escalation to Administrator in versions up to, and including, 3.11.0. This is due to a chained flaw: the populate_via_query_string() function in the mb-frontend-submission component unconditionally overrides the form's target object_id from the GET parameter 'rwmb_frontend_field_object_id' without any authorization check, and Form::process() lacks the user_can_edit() check present in render(), allowing unauthenticated attackers to overwrite the post_content of any page with an arbitrary shortcode via wp_update_post(); the mb-user-profile component then directly trusts the 'role' and 'auto_login' shortcode attributes in the injected [mb_user_profile_register] shortcode with no role validation. This makes it possible for unauthenticated attackers to elevate their privileges to Administrator. The standalone plugins Meta Box Frontend Submission (in versions up to 4.5.6) and Meta Box User Profile (versions up to 3.11.0) are also affected.
@@ -3994,6 +4001,13 @@
 </code>
 
 - [Polosss/By-Poloss..-..CVE-2026-18080](https://github.com/Polosss/By-Poloss..-..CVE-2026-18080)
+
+### CVE-2026-18143 (2026-09-26)
+
+<code>The Request a Quote for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.9.2 via the `afrfq_submit_quote_via_popup()` function. This is due to missing file extension and MIME type validation in the popup upload handler, which uses the raw attacker-supplied filename directly as the destination for `move_uploaded_file()`. This makes it possible for unauthenticated attackers to upload executable files, such as PHP files, to a web-accessible temporary RFQ upload directory when a public quote rule with the multi-page popup flow is enabled.
+</code>
+
+- [murrez/CVE-2026-18143](https://github.com/murrez/CVE-2026-18143)
 
 ### CVE-2026-18220 (2026-07-29)
 
@@ -7458,6 +7472,7 @@
 
 - [rootxran/CVE-2026-29053](https://github.com/rootxran/CVE-2026-29053)
 - [AC8999/CVE-2026-29053](https://github.com/AC8999/CVE-2026-29053)
+- [K3ysTr0K3R/CVE-2026-29053](https://github.com/K3ysTr0K3R/CVE-2026-29053)
 
 ### CVE-2026-29057 (2026-03-18)
 
@@ -11334,6 +11349,8 @@
 - [0ch4/ghostlock-mrx-w09](https://github.com/0ch4/ghostlock-mrx-w09)
 - [RELIHR/CVE-2026-43499](https://github.com/RELIHR/CVE-2026-43499)
 - [WitAqua-tools/Root-My-Device](https://github.com/WitAqua-tools/Root-My-Device)
+- [CKwasd/zenfone9-ghostlock](https://github.com/CKwasd/zenfone9-ghostlock)
+- [mo2g/redmi-note-12t-pro-kernel](https://github.com/mo2g/redmi-note-12t-pro-kernel)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -14054,6 +14071,9 @@
 
 - [Is4yev/CVE-2026-57830](https://github.com/Is4yev/CVE-2026-57830)
 
+### CVE-2026-57836
+- [rahulreddykarne/CVE-2026-57836-Confluent_Kafka](https://github.com/rahulreddykarne/CVE-2026-57836-Confluent_Kafka)
+
 ### CVE-2026-57850 (2026-07-10)
 
 <code>RustDesk before 1.4.9 does not enforce a session's authorized connection scope on the server side, so a peer granted a limited session type (FileTransfer, PortForward, ViewCamera, or Terminal) can send control messages and login options reserved for a full Remote session. An authenticated remote peer can exploit this missing scope check to act outside its granted scope, injecting out-of-scope control messages to observe and control the host beyond the permissions it was given.
@@ -14612,6 +14632,7 @@
 - [a23bc/op13-cve-2026-64560](https://github.com/a23bc/op13-cve-2026-64560)
 - [Become-ILLUSORY/cve-2026-64560-a16](https://github.com/Become-ILLUSORY/cve-2026-64560-a16)
 - [Wangs-official/opace6-cve-2026-64560](https://github.com/Wangs-official/opace6-cve-2026-64560)
+- [qingle009/opace6-cve-2026-64560](https://github.com/qingle009/opace6-cve-2026-64560)
 
 ### CVE-2026-64561 (2026-08-04)
 
@@ -14657,6 +14678,7 @@
 - [letsr00t/RefluxFS_CVE-2026-64600](https://github.com/letsr00t/RefluxFS_CVE-2026-64600)
 - [masrikky/CVE-2026-64600-RefluXFS](https://github.com/masrikky/CVE-2026-64600-RefluXFS)
 - [0xSec1/CVE-2026-64600-RefluXFS-PoC](https://github.com/0xSec1/CVE-2026-64600-RefluXFS-PoC)
+- [k4ntux/COWSlip](https://github.com/k4ntux/COWSlip)
 
 ### CVE-2026-64633 (2026-08-04)
 
@@ -14764,6 +14786,9 @@
 </code>
 
 - [isaca0315/CVE-2026-65013-BOLA-IDOR](https://github.com/isaca0315/CVE-2026-65013-BOLA-IDOR)
+
+### CVE-2026-65320
+- [rahulreddykarne/CVE-2026-65320-fastcore](https://github.com/rahulreddykarne/CVE-2026-65320-fastcore)
 
 ### CVE-2026-65321 (2026-08-02)
 
@@ -17058,6 +17083,7 @@
 - [HORKimhab/CVE-2026-93485](https://github.com/HORKimhab/CVE-2026-93485)
 - [0xBlackash/CVE-2026-93485](https://github.com/0xBlackash/CVE-2026-93485)
 - [DeathShotXD/Comment2Shell](https://github.com/DeathShotXD/Comment2Shell)
+- [686f6c61/POC-WP-CORE-CVE-2026-93485](https://github.com/686f6c61/POC-WP-CORE-CVE-2026-93485)
 
 ### CVE-2026-93528 (2026-09-23)
 
@@ -25075,6 +25101,13 @@
 ### CVE-2025-48932
 - [XploitGh0st/CVE-2025-48932---exploit](https://github.com/XploitGh0st/CVE-2025-48932---exploit)
 - [CerberusMrXi/CVE-2025-48932-Invision-Community-SQLi-Exploit](https://github.com/CerberusMrXi/CVE-2025-48932-Invision-Community-SQLi-Exploit)
+
+### CVE-2025-48939 (2025-07-03)
+
+<code>tarteaucitron.js is a compliant and accessible cookie banner. Prior to version 1.22.0, a vulnerability was identified in tarteaucitron.js where document.currentScript was accessed without verifying that it referenced an actual &lt;script&gt; element. If an attacker injected an HTML element, it could clobber the document.currentScript property. This causes the script to resolve incorrectly to an element instead of the &lt;script&gt; tag, leading to unexpected behavior or failure to load the script path correctly. This issue arises because in some browser environments, named DOM elements become properties on the global document object. An attacker with control over the HTML could exploit this to change the CDN domain of tarteaucitron. This issue has been patched in version 1.22.0.
+</code>
+
+- [NymiiTechTips/CVE-2025-48939](https://github.com/NymiiTechTips/CVE-2025-48939)
 
 ### CVE-2025-48976 (2025-06-16)
 
@@ -37864,6 +37897,7 @@
 - [tristanqtn/CVE-2024-37054](https://github.com/tristanqtn/CVE-2024-37054)
 - [ClearLotus-git/CVE-2024-37054-PoC](https://github.com/ClearLotus-git/CVE-2024-37054-PoC)
 - [BardLaudian/CVE-2024-37054](https://github.com/BardLaudian/CVE-2024-37054)
+- [0o176/CVE-2024-37054_PoC_HTB_SmartHire](https://github.com/0o176/CVE-2024-37054_PoC_HTB_SmartHire)
 
 ### CVE-2024-37081 (2024-06-18)
 
@@ -48868,7 +48902,7 @@
 <code>URL Redirection to Untrusted Site ('Open Redirect') vulnerability in FORM authentication feature Apache Tomcat.This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.0-M10, from 10.1.0-M1 through 10.0.12, from 9.0.0-M1 through 9.0.79 and from 8.5.0 through 8.5.92.\nOlder, EOL versions may also be affected.\n\n\nThe vulnerability is limited to the ROOT (default) web application.
 </code>
 
-- [shiomiyan/CVE-2023-41080](https://github.com/shiomiyan/CVE-2023-41080)
+- [sotiak/CVE-2023-41080](https://github.com/sotiak/CVE-2023-41080)
 
 ### CVE-2023-41265 (2023-08-29)
 
@@ -64552,7 +64586,7 @@
 - [Hattan515/POC-CVE-2021-41773](https://github.com/Hattan515/POC-CVE-2021-41773)
 - [twseptian/cve-2021-41773](https://github.com/twseptian/cve-2021-41773)
 - [noflowpls/CVE-2021-41773](https://github.com/noflowpls/CVE-2021-41773)
-- [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
+- [sotiak/CVE-2021-41773](https://github.com/sotiak/CVE-2021-41773)
 - [justakazh/mass_cve-2021-41773](https://github.com/justakazh/mass_cve-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [0xRar/CVE-2021-41773](https://github.com/0xRar/CVE-2021-41773)
@@ -64957,7 +64991,7 @@
 <code>An issue was discovered in the Bidirectional Algorithm in the Unicode Specification through 14.0. It permits the visual reordering of characters via control sequences, which can be used to craft source code that renders different logic than the logical ordering of tokens ingested by compilers and interpreters. Adversaries can leverage this to encode source code for compilers accepting Unicode such that targeted vulnerabilities are introduced invisibly to human reviewers. NOTE: the Unicode Consortium offers the following alternative approach to presenting this concern. An issue is noted in the nature of international text that can affect applications that implement support for The Unicode Standard and the Unicode Bidirectional Algorithm (all versions). Due to text display behavior when text includes left-to-right and right-to-left characters, the visual order of tokens may be different from their logical order. Additionally, control characters needed to fully support the requirements of bidirectional text can further obfuscate the logical order of tokens. Unless mitigated, an adversary could craft source code such that the ordering of tokens perceived by human reviewers does not match what will be processed by a compiler/interpreter/etc. The Unicode Consortium has documented this class of vulnerability in its document, Unicode Technical Report #36, Unicode Security Considerations. The Unicode Consortium also provides guidance on mitigations for this class of issues in Unicode Technical Standard #39, Unicode Security Mechanisms, and in Unicode Standard Annex #31, Unicode Identifier and Pattern Syntax. Also, the BIDI specification allows applications to tailor the implementation in ways that can mitigate misleading visual reordering in program text; see HL4 in Unicode Standard Annex #9, Unicode Bidirectional Algorithm.
 </code>
 
-- [shiomiyan/CVE-2021-42574](https://github.com/shiomiyan/CVE-2021-42574)
+- [sotiak/CVE-2021-42574](https://github.com/sotiak/CVE-2021-42574)
 - [hffaust/CVE-2021-42574_and_CVE-2021-42694](https://github.com/hffaust/CVE-2021-42574_and_CVE-2021-42694)
 - [simplylu/CVE-2021-42574](https://github.com/simplylu/CVE-2021-42574)
 - [maweil/bidi_char_detector](https://github.com/maweil/bidi_char_detector)
