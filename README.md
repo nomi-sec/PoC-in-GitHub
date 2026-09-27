@@ -5744,6 +5744,7 @@
 - [Mluex0/CVE-2026-23744-PoC](https://github.com/Mluex0/CVE-2026-23744-PoC)
 - [sonnelon/CVE-2026-23744-PoC](https://github.com/sonnelon/CVE-2026-23744-PoC)
 - [itsC1SCO/mcpjam-to-root](https://github.com/itsC1SCO/mcpjam-to-root)
+- [wvverez/CVE-2026-23744](https://github.com/wvverez/CVE-2026-23744)
 
 ### CVE-2026-23745 (2026-01-16)
 
@@ -11462,6 +11463,7 @@
 </code>
 
 - [Malwation/CVE-2026-43786](https://github.com/Malwation/CVE-2026-43786)
+- [0xBlackash/CVE-2026-43786](https://github.com/0xBlackash/CVE-2026-43786)
 
 ### CVE-2026-43813 (2026-07-27)
 
@@ -13383,7 +13385,6 @@
 </code>
 
 - [suominen/CVE-2026-53266](https://github.com/suominen/CVE-2026-53266)
-- [mc493/linux-kernel-zero-day-mitigation-zero-downtime-kernel-defense-](https://github.com/mc493/linux-kernel-zero-day-mitigation-zero-downtime-kernel-defense-)
 
 ### CVE-2026-53359 (2026-07-04)
 
@@ -16575,6 +16576,13 @@
 
 - [Hunt-Benito/the-key-ships-with-the-lock-cve-2026-82876-phison-s11-ssd-firmware-signature-bypass](https://github.com/Hunt-Benito/the-key-ships-with-the-lock-cve-2026-82876-phison-s11-ssd-firmware-signature-bypass)
 
+### CVE-2026-82901 (2026-09-26)
+
+<code>The Ultra Addons for Contact Form 7 plugin for WordPress is vulnerable to Arbitrary File Upload due to insufficient file type validation in the 'uacf7_wpcf7_mail_components' function in all versions up to, and including, 3.5.50. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible. Note: This is only exploitable when the plugin's PDF Generator module is enabled, which is disabled by default.
+</code>
+
+- [murrez/CVE-2026-82901](https://github.com/murrez/CVE-2026-82901)
+
 ### CVE-2026-83548 (2026-09-01)
 
 <code>A Pre-authentication SSRF vulnerability exists in the SMA1000 Appliance Work Place interface due to an unintended alternate access path. A remote unauthenticated attacker could potentially exploit this vulnerability to gain unauthorized access to sensitive functionality and perform unauthorized operations.
@@ -17171,6 +17179,20 @@
 
 - [lzty/CVE-2026-94129](https://github.com/lzty/CVE-2026-94129)
 
+### CVE-2026-94130 (2026-09-26)
+
+<code>Joomla Extension - joomlaboat.com - Unauthenticated SQL injection in YouTube Gallery extension &lt; 5.7.3 - An SQL injection vulnerability in video search functionality and sorting allowed attackers to inject SQL commands in read queries.
+</code>
+
+- [murrez/CVE-2026-94130](https://github.com/murrez/CVE-2026-94130)
+
+### CVE-2026-94132 (2026-09-26)
+
+<code>Joomla Extension - acymailing.com - Remote Code Execution vulnerability in mailbox action feature in AcyMailing Enterprise extension &lt; 11.1.0 - MIME parts of incoming emails were saved to media/com_acym/upload/ with no extension check, so anyone who could email the monitored mailbox could write a PHP file into the web root.
+</code>
+
+- [murrez/CVE-2026-94132](https://github.com/murrez/CVE-2026-94132)
+
 ### CVE-2026-94504 (2026-09-22)
 
 <code>Ninja Forms 3.15.3 stores an anonymous non-RTE textarea value and renders it without safe HTML encoding in the legacy submission editor. An attacker can break out of the textarea with stored script. When an Administrator opens the attacker-known direct submission URL, the script runs in the WordPress admin origin.
@@ -17217,6 +17239,28 @@
 </code>
 
 - [rafabd1/VectorFreed](https://github.com/rafabd1/VectorFreed)
+
+### CVE-2026-97160 (2026-09-26)
+
+<code>Joomla Extension - lomart.fr - Authenticated, privileged PHP command injection in UP plugin extension 5.0.0-5.2.0, 6.0.0-6.0.29
+</code>
+
+- [murrez/CVE-2026-97160](https://github.com/murrez/CVE-2026-97160)
+
+### CVE-2026-97161 (2026-09-26)
+
+<code>Joomla Extension - lomart.fr - Various path traversal / file access vectors in UP plugin extension 5.0.0-5.2.0, 6.0.0-6.0.29
+</code>
+
+- [murrez/CVE-2026-97161](https://github.com/murrez/CVE-2026-97161)
+
+### CVE-2026-97163 (2026-09-26)
+
+<code>Joomla Extension - lomart.fr - Unauthenticated remote code installation in UP plugin extension 5.0.0-5.2.0, 6.0.0-6.0.29
+</code>
+
+- [qeize/cve-2026-97163-payload](https://github.com/qeize/cve-2026-97163-payload)
+- [murrez/CVE-2026-97163](https://github.com/murrez/CVE-2026-97163)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -24008,7 +24052,6 @@
 
 - [n1k0oowang/CVE-2025-39964_EXP](https://github.com/n1k0oowang/CVE-2025-39964_EXP)
 - [suominen/CVE-2025-39964](https://github.com/suominen/CVE-2025-39964)
-- [mc493/linux-kernel-zero-day-mitigation-zero-downtime-kernel-defense-](https://github.com/mc493/linux-kernel-zero-day-mitigation-zero-downtime-kernel-defense-)
 
 ### CVE-2025-39965 (2025-10-13)
 
@@ -65991,6 +66034,7 @@
 - [KalidouLabghaly/log4shell-exploitation-detection](https://github.com/KalidouLabghaly/log4shell-exploitation-detection)
 - [rh-rahulshetty/log4shell-CVE-2021-44228](https://github.com/rh-rahulshetty/log4shell-CVE-2021-44228)
 - [mcpmark-eval-liuhezi/log4shell-audit](https://github.com/mcpmark-eval-liuhezi/log4shell-audit)
+- [Muskann02/cve-2021-44228-lab](https://github.com/Muskann02/cve-2021-44228-lab)
 
 ### CVE-2021-44255 (2022-01-31)
 
