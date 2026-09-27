@@ -3325,6 +3325,7 @@
 
 - [murrez/CVE-2026-12227](https://github.com/murrez/CVE-2026-12227)
 - [Hassham1/CVE-2026-12227-visualcomposer-lfi-poc](https://github.com/Hassham1/CVE-2026-12227-visualcomposer-lfi-poc)
+- [be-keb/CVE-2026-12227](https://github.com/be-keb/CVE-2026-12227)
 
 ### CVE-2026-12243
 - [morzelowski/CVE-2026-12243-NLTK-PoC](https://github.com/morzelowski/CVE-2026-12243-NLTK-PoC)
@@ -5752,7 +5753,6 @@
 - [Mluex0/CVE-2026-23744-PoC](https://github.com/Mluex0/CVE-2026-23744-PoC)
 - [sonnelon/CVE-2026-23744-PoC](https://github.com/sonnelon/CVE-2026-23744-PoC)
 - [itsC1SCO/mcpjam-to-root](https://github.com/itsC1SCO/mcpjam-to-root)
-- [wvverez/CVE-2026-23744](https://github.com/wvverez/CVE-2026-23744)
 
 ### CVE-2026-23745 (2026-01-16)
 
@@ -7360,6 +7360,13 @@
 </code>
 
 - [oscerd/CVE-2026-28672](https://github.com/oscerd/CVE-2026-28672)
+
+### CVE-2026-28695 (2026-03-04)
+
+<code>Craft is a content management system (CMS). There is an authenticated admin RCE in Craft CMS 5.8.21 via Server-Side Template Injection using the create() Twig function combined with a Symfony Process gadget chain. The create() Twig function exposes Craft::createObject(), which allows instantiation of arbitrary PHP classes with constructor arguments. Combined with the bundled symfony/process dependency, this enables RCE. This bypasses the fix implemented for CVE-2025-57811 (patched in 5.8.7). This vulnerability is fixed in 5.9.0-beta.1 and 4.17.0-beta.1.
+</code>
+
+- [gbuyssens/CVE-2026-28695-craft-rce-bypass](https://github.com/gbuyssens/CVE-2026-28695-craft-rce-bypass)
 
 ### CVE-2026-28699 (2026-07-03)
 
@@ -9362,6 +9369,8 @@
 </code>
 
 - [HORKimhab/CVE-2026-34990](https://github.com/HORKimhab/CVE-2026-34990)
+- [0xc4rc3l/CVE-2026-34990-poc](https://github.com/0xc4rc3l/CVE-2026-34990-poc)
+- [gbuyssens/CVE-2026-34990](https://github.com/gbuyssens/CVE-2026-34990)
 
 ### CVE-2026-35029 (2026-04-06)
 
@@ -11912,6 +11921,7 @@
 - [tchuin2609/YellowKey-Bitlocker](https://github.com/tchuin2609/YellowKey-Bitlocker)
 - [tchuin2609/tchuin2609.github.io](https://github.com/tchuin2609/tchuin2609.github.io)
 - [Neccie/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/Neccie/YellowKey-Bitlocker-CVE-2026-45585)
+- [YellowKeyBitLocker-CVE/YellowKey-BitLocker-CVE-2026-45585](https://github.com/YellowKeyBitLocker-CVE/YellowKey-BitLocker-CVE-2026-45585)
 
 ### CVE-2026-45659 (2026-05-22)
 
@@ -12607,6 +12617,7 @@
 </code>
 
 - [murrez/CVE-2026-48842](https://github.com/murrez/CVE-2026-48842)
+- [4minx/CVE-2026-48842](https://github.com/4minx/CVE-2026-48842)
 
 ### CVE-2026-48849 (2026-05-25)
 
@@ -14553,6 +14564,7 @@
 - [arvindear/wp2shell-PoC](https://github.com/arvindear/wp2shell-PoC)
 - [fl0ydsec/CVE-2026-63030](https://github.com/fl0ydsec/CVE-2026-63030)
 - [langz337/CVE-2026-63030](https://github.com/langz337/CVE-2026-63030)
+- [jed-parsec/CVE-2026-63030-60137-wp2shell-lab](https://github.com/jed-parsec/CVE-2026-63030-60137-wp2shell-lab)
 
 ### CVE-2026-63039 (2026-08-20)
 
@@ -15234,6 +15246,7 @@
 </code>
 
 - [HackSpeak/CVE-2026-67279](https://github.com/HackSpeak/CVE-2026-67279)
+- [tc4dy/CVE-2026-67279-86060-Toolkit](https://github.com/tc4dy/CVE-2026-67279-86060-Toolkit)
 
 ### CVE-2026-67340 (2026-08-01)
 
@@ -16754,7 +16767,7 @@
 - [gagaltotal/CVE-2026-85706-gitlab-poc](https://github.com/gagaltotal/CVE-2026-85706-gitlab-poc)
 - [plur1bu5/gitread](https://github.com/plur1bu5/gitread)
 - [gabrielunknown/CVE-2026-85706](https://github.com/gabrielunknown/CVE-2026-85706)
-- [0xenesbayram/cve-2026-85706](https://github.com/0xenesbayram/cve-2026-85706)
+- [unh00k3d/cve-2026-85706](https://github.com/unh00k3d/cve-2026-85706)
 - [tc4dy/CVE-2026-85706-PoC-Toolkit](https://github.com/tc4dy/CVE-2026-85706-PoC-Toolkit)
 
 ### CVE-2026-85721 (2026-09-17)
@@ -16912,6 +16925,7 @@
 - [SVTagan/WP-CVE-2026-87902](https://github.com/SVTagan/WP-CVE-2026-87902)
 - [itskill-jp/wordpress-upgrade-check](https://github.com/itskill-jp/wordpress-upgrade-check)
 - [rwxrwxs/CVE-2026-87902](https://github.com/rwxrwxs/CVE-2026-87902)
+- [langz337/CVE-2026-87902](https://github.com/langz337/CVE-2026-87902)
 
 ### CVE-2026-87915 (2026-09-18)
 
@@ -17107,6 +17121,7 @@
 </code>
 
 - [murrez/CVE-2026-93399](https://github.com/murrez/CVE-2026-93399)
+- [josemour8/CVE-2026-93399](https://github.com/josemour8/CVE-2026-93399)
 
 ### CVE-2026-93453 (2026-09-17)
 
@@ -17291,6 +17306,13 @@
 </code>
 
 - [murrez/CVE-2026-100740](https://github.com/murrez/CVE-2026-100740)
+
+### CVE-2026-100835 (2026-09-27)
+
+<code>Contrast before 1.16.0 is susceptible to remote attestation relay attacks. Contrast accepted any TEE attestation report that verified correctly and contained the expected firmware patch levels and software measurements, regardless of which machine produced it, so attestation was not bound to specific, physically trusted hardware. An attacker who can both intercept network traffic between the CLI and the Coordinator (or between the Coordinator and an attested component) and forge reports or extract secrets from any single TEE machine under their physical control can relay such a report to impersonate a Contrast Coordinator or a Contrast workload, defeating identity verification in Contrast's attested TLS (aTLS).
+</code>
+
+- [murrez/CVE-2026-100835](https://github.com/murrez/CVE-2026-100835)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -23452,6 +23474,7 @@
 - [razureink/cve-2025-32433-erlang_ssh_rce_reproduction](https://github.com/razureink/cve-2025-32433-erlang_ssh_rce_reproduction)
 - [Liam-Worsley/CVE-2025-32433-PoC-Analysis](https://github.com/Liam-Worsley/CVE-2025-32433-PoC-Analysis)
 - [damnkrishna/CVE-2025-32433-LAB](https://github.com/damnkrishna/CVE-2025-32433-LAB)
+- [X-Bulow/Reproduce-CVE-2025-32433](https://github.com/X-Bulow/Reproduce-CVE-2025-32433)
 
 ### CVE-2025-32434 (2025-04-18)
 
@@ -70129,7 +70152,7 @@
 
 - [JackHars/cve-2020-14008](https://github.com/JackHars/cve-2020-14008)
 - [0x0d3ad/CVE-2020-14008](https://github.com/0x0d3ad/CVE-2020-14008)
-- [raflesiait/CVE-2020-14008](https://github.com/raflesiait/CVE-2020-14008)
+- [raflesiait/CVE-2020-14008---ManageEngine](https://github.com/raflesiait/CVE-2020-14008---ManageEngine)
 
 ### CVE-2020-14064 (2020-07-15)
 
@@ -71177,7 +71200,6 @@
 - [substing/CVE-2020-24186_reverse_shell_upload](https://github.com/substing/CVE-2020-24186_reverse_shell_upload)
 - [GazettEl/CVE-2020-24186](https://github.com/GazettEl/CVE-2020-24186)
 - [sec-dojo-com/CVE-2020-24186](https://github.com/sec-dojo-com/CVE-2020-24186)
-- [wvverez/CVE-2020-24186](https://github.com/wvverez/CVE-2020-24186)
 
 ### CVE-2020-24227 (2020-11-23)
 
@@ -88834,7 +88856,6 @@
 </code>
 
 - [KernelPan1k/trans2open-CVE-2003-0201](https://github.com/KernelPan1k/trans2open-CVE-2003-0201)
-- [Bakr-Ht/samba-trans2open-exploit-report](https://github.com/Bakr-Ht/samba-trans2open-exploit-report)
 - [deepakkcybersec-eng/Kioptrix-Level1-Vulnerability-Analysis](https://github.com/deepakkcybersec-eng/Kioptrix-Level1-Vulnerability-Analysis)
 - [americooo/pentest-writeups](https://github.com/americooo/pentest-writeups)
 
