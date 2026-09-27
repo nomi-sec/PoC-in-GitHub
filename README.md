@@ -3591,6 +3591,7 @@
 
 - [murrez/CVE-2026-14281](https://github.com/murrez/CVE-2026-14281)
 - [langz337/CVE-2026-14281](https://github.com/langz337/CVE-2026-14281)
+- [abatsakidis/CVE-2026-14281-check](https://github.com/abatsakidis/CVE-2026-14281-check)
 
 ### CVE-2026-14282 (2026-07-23)
 
@@ -7367,6 +7368,7 @@
 </code>
 
 - [gbuyssens/CVE-2026-28695-craft-rce-bypass](https://github.com/gbuyssens/CVE-2026-28695-craft-rce-bypass)
+- [predyy/CVE-2026-28695](https://github.com/predyy/CVE-2026-28695)
 
 ### CVE-2026-28699 (2026-07-03)
 
@@ -9371,6 +9373,7 @@
 - [HORKimhab/CVE-2026-34990](https://github.com/HORKimhab/CVE-2026-34990)
 - [0xc4rc3l/CVE-2026-34990-poc](https://github.com/0xc4rc3l/CVE-2026-34990-poc)
 - [gbuyssens/CVE-2026-34990](https://github.com/gbuyssens/CVE-2026-34990)
+- [DENNISDGR/CVE-2026-34990-poc](https://github.com/DENNISDGR/CVE-2026-34990-poc)
 
 ### CVE-2026-35029 (2026-04-06)
 
@@ -11206,6 +11209,7 @@
 - [TeamN4C/SG-2026-0024](https://github.com/TeamN4C/SG-2026-0024)
 - [Minime794/DirtyFrag](https://github.com/Minime794/DirtyFrag)
 - [nihan-silent-reign/CVE-2026-43284-DIRTY-FRAG-](https://github.com/nihan-silent-reign/CVE-2026-43284-DIRTY-FRAG-)
+- [a2333c/DFRoot](https://github.com/a2333c/DFRoot)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -11482,6 +11486,13 @@
 - [Malwation/CVE-2026-43786](https://github.com/Malwation/CVE-2026-43786)
 - [0xBlackash/CVE-2026-43786](https://github.com/0xBlackash/CVE-2026-43786)
 
+### CVE-2026-43805 (2026-07-27)
+
+<code>A race condition was addressed with improved state handling. This issue is fixed in iOS 26.6 and iPadOS 26.6, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.6, watchOS 26.6. An app may be able to cause unexpected system termination or write kernel memory.
+</code>
+
+- [tls456/CVE-2026-43805-PoC](https://github.com/tls456/CVE-2026-43805-PoC)
+
 ### CVE-2026-43813 (2026-07-27)
 
 <code>A validation issue was addressed with improved input sanitization. This issue is fixed in iOS 26.6 and iPadOS 26.6, macOS Tahoe 26.6, tvOS 26.6, visionOS 26.6, watchOS 26.6. A maliciously crafted app may be able to bypass code signing enforcement.
@@ -11530,6 +11541,7 @@
 </code>
 
 - [4xura/CVE-2026-44011-craftcms-auth-rce](https://github.com/4xura/CVE-2026-44011-craftcms-auth-rce)
+- [DENNISDGR/CVE-2026-44011-poc](https://github.com/DENNISDGR/CVE-2026-44011-poc)
 
 ### CVE-2026-44024 (2026-07-08)
 
@@ -16099,6 +16111,13 @@
 - [fevar54/CVE-2026-76461-Detection-Kit-](https://github.com/fevar54/CVE-2026-76461-Detection-Kit-)
 - [S3v3n-JG/CVE-2026-76461](https://github.com/S3v3n-JG/CVE-2026-76461)
 
+### CVE-2026-76547 (2026-08-29)
+
+<code>The User Profile Builder  WordPress plugin before 4.0.1 does not validate the type of data being deserialized when importing a configuration file, allowing high privilege users such as administrators to conduct PHP Object Injection. The affected feature is a free add-on which is disabled by default, and no POP chain is present in the User Profile Builder  WordPress plugin before 4.0.1 itself, so further impact requires a suitable gadget from another installed User Profile Builder  WordPress plugin before 4.0.1 or .
+</code>
+
+- [H4zaz/CVE-2026-76547](https://github.com/H4zaz/CVE-2026-76547)
+
 ### CVE-2026-76564 (2026-08-20)
 
 <code>Joomla Extension - phoca.cz -  Stored XSS via User-Agent header in Admin Order View in Phoca Cart 5.0.0-6.1.7
@@ -16926,6 +16945,7 @@
 - [itskill-jp/wordpress-upgrade-check](https://github.com/itskill-jp/wordpress-upgrade-check)
 - [rwxrwxs/CVE-2026-87902](https://github.com/rwxrwxs/CVE-2026-87902)
 - [langz337/CVE-2026-87902](https://github.com/langz337/CVE-2026-87902)
+- [abatsakidis/wp-cve-2026-87902-checker](https://github.com/abatsakidis/wp-cve-2026-87902-checker)
 
 ### CVE-2026-87915 (2026-09-18)
 
@@ -17299,6 +17319,13 @@
 
 - [qeize/cve-2026-97163-payload](https://github.com/qeize/cve-2026-97163-payload)
 - [murrez/CVE-2026-97163](https://github.com/murrez/CVE-2026-97163)
+
+### CVE-2026-100382 (2026-09-25)
+
+<code>Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in Wikimedia Foundation Mediawiki - ExternalData Extension allows OS Command Injection.\n\nThis issue affects Mediawiki - ExternalData Extension: from * before 3.7.
+</code>
+
+- [nth347/mediawiki-CVE-2026-100382](https://github.com/nth347/mediawiki-CVE-2026-100382)
 
 ### CVE-2026-100740 (2026-09-27)
 
@@ -31928,6 +31955,7 @@
 - [J1nKsC/CVE-2024-4367_test](https://github.com/J1nKsC/CVE-2024-4367_test)
 - [veronimo669/pdf.js-CVE-2024-4367](https://github.com/veronimo669/pdf.js-CVE-2024-4367)
 - [yuimamur/CVE-2024-4367-hands-on-01](https://github.com/yuimamur/CVE-2024-4367-hands-on-01)
+- [stuara1/cpc-pdfjs-poc](https://github.com/stuara1/cpc-pdfjs-poc)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -35301,6 +35329,7 @@
 - [razureink/cve-2024-23897-jenkins_lfi_reproduction](https://github.com/razureink/cve-2024-23897-jenkins_lfi_reproduction)
 - [dheeraj-jayaswal/CICD-Goat-Vapt-Writeup](https://github.com/dheeraj-jayaswal/CICD-Goat-Vapt-Writeup)
 - [MachiavelliII/CVE-2024-23897](https://github.com/MachiavelliII/CVE-2024-23897)
+- [Alexandertanay/jenkins-cve-2024-23897-lab](https://github.com/Alexandertanay/jenkins-cve-2024-23897-lab)
 
 ### CVE-2024-23898 (2024-01-24)
 
@@ -65497,6 +65526,7 @@
 - [Lim-ahmin/CVE-2021-43798](https://github.com/Lim-ahmin/CVE-2021-43798)
 - [Squ1shification/Grafana-Plugin-Enumerator-CVE-2021-43798](https://github.com/Squ1shification/Grafana-Plugin-Enumerator-CVE-2021-43798)
 - [shivamg2004/-INE_Shivam_Gupta_23104003](https://github.com/shivamg2004/-INE_Shivam_Gupta_23104003)
+- [khanna419/cve-2021-43798-lab](https://github.com/khanna419/cve-2021-43798-lab)
 
 ### CVE-2021-43799 (2022-01-25)
 
