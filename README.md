@@ -8586,6 +8586,13 @@
 
 - [0xEr3n/CVE-2026-32731](https://github.com/0xEr3n/CVE-2026-32731)
 
+### CVE-2026-32740 (2026-05-19)
+
+<code>libheif is a HEIF and AVIF file format decoder and encoder. Versions 1.21.2 and prior contain a heap-buffer-overflow (write) vulnerability in the grid tile compositing, allowing an attacker to write 64 bytes of fully attacker-controlled data past the end of a chroma plane heap allocation by crafting a HEIF/AVIF file with a 1×4 grid of odd-height tiles. The overflow is triggered during normal image decoding with default build configuration. The written bytes are chroma (Cb/Cr) pixel values from the attacking tile, giving the attacker full control over the overflow content. This issue has been fixed in version 1.22.0.
+</code>
+
+- [FORTBRIDGE-UK/libheif-grid-nextjs-rce](https://github.com/FORTBRIDGE-UK/libheif-grid-nextjs-rce)
+
 ### CVE-2026-32743 (2026-03-18)
 
 <code>PX4 is an open-source autopilot stack for drones and unmanned vehicles. Versions 1.17.0-rc2 and below are vulnerable to Stack-based Buffer Overflow through the MavlinkLogHandler, and are triggered via MAVLink log request. The LogEntry.filepath buffer is 60 bytes, but the sscanf function parses paths from the log list file with no width specifier, allowing a path longer than 60 characters to overflow the buffer. An attacker with MAVLink link access can trigger this by first creating deeply nested directories via MAVLink FTP, then requesting the log list. The flight controller MAVLink task crashes, losing telemetry and command capability and causing DoS. This issue has been fixed in this commit: https://github.com/PX4/PX4-Autopilot/commit/616b25a280e229c24d5cf12a03dbf248df89c474.
@@ -9376,6 +9383,8 @@
 - [DENNISDGR/CVE-2026-34990-poc](https://github.com/DENNISDGR/CVE-2026-34990-poc)
 - [predyy/CVE-2026-34990](https://github.com/predyy/CVE-2026-34990)
 - [khush-613/CVE-2026-34990-poc](https://github.com/khush-613/CVE-2026-34990-poc)
+- [bara-almustafa/CVE-2026-34990-poc](https://github.com/bara-almustafa/CVE-2026-34990-poc)
+- [Noorkhalel/CVE-2026-34990-CUPS-LPE-PoC](https://github.com/Noorkhalel/CVE-2026-34990-CUPS-LPE-PoC)
 
 ### CVE-2026-35029 (2026-04-06)
 
@@ -16807,6 +16816,7 @@
 - [gabrielunknown/CVE-2026-85706](https://github.com/gabrielunknown/CVE-2026-85706)
 - [unh00k3d/cve-2026-85706](https://github.com/unh00k3d/cve-2026-85706)
 - [tc4dy/CVE-2026-85706-PoC-Toolkit](https://github.com/tc4dy/CVE-2026-85706-PoC-Toolkit)
+- [EQSTLab/CVE-2026-85706](https://github.com/EQSTLab/CVE-2026-85706)
 
 ### CVE-2026-85721 (2026-09-17)
 
@@ -16821,6 +16831,13 @@
 </code>
 
 - [isukasanuj/CVE-2026-85769](https://github.com/isukasanuj/CVE-2026-85769)
+
+### CVE-2026-85984 (2026-09-26)
+
+<code>The miniOrange OTP Login, Verification and SMS Notifications plugin for WordPress is vulnerable to Authentication Bypass via the mo_wp_login_intent parameter in all versions up to, and including, 5.5.5. This is due to a missing password-intent guard in the skip_pass_fallback-enabled configuration branch of the mo_by_pass_login() function, which treats administrator role membership alone as sufficient authentication whenever the unauthenticated, unverified POST parameter mo_wp_login_intent is submitted with the value otp, causing mo_get_user() to skip wp_authenticate_username_password() and resolve a WP_User purely from a username lookup. This makes it possible for unauthenticated attackers to log in as any existing administrator account by supplying only a known username and an empty password alongside mo_wp_login_intent=otp, with no password or OTP verification required. Exploitation is conditional on a site administrator having simultaneously enabled the following plugin options: WP Login OTP, Login with Only OTP, Allow Users to Login with Username and Password, and Admin OTP Bypass.
+</code>
+
+- [murrez/CVE-2026-85984](https://github.com/murrez/CVE-2026-85984)
 
 ### CVE-2026-86060 (2026-09-05)
 
@@ -16990,6 +17007,13 @@
 
 ### CVE-2026-88533
 - [HEMLOCK-LYK/CVE-2026-88533](https://github.com/HEMLOCK-LYK/CVE-2026-88533)
+
+### CVE-2026-88771 (2026-09-27)
+
+<code>Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.
+</code>
+
+- [technion/netscaler_scanner](https://github.com/technion/netscaler_scanner)
 
 ### CVE-2026-88772 (2026-09-27)
 
@@ -17377,9 +17401,6 @@
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
-
-### CVE-2026-600004
-- [ImperfectP/CVE-2026-600004](https://github.com/ImperfectP/CVE-2026-600004)
 
 ### CVE-2026-999999
 - [24520597-blip/CVE-2026-999999](https://github.com/24520597-blip/CVE-2026-999999)
@@ -20249,6 +20270,7 @@
 <code>The Related Posts Lite plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 1.12 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.
 </code>
 
+- [prabhatverma47/Wordpress-Related-Posts-Lite-plugin-XSS-PoC](https://github.com/prabhatverma47/Wordpress-Related-Posts-Lite-plugin-XSS-PoC)
 - [prabhatverma47/CVE-2025-11926](https://github.com/prabhatverma47/CVE-2025-11926)
 
 ### CVE-2025-11953 (2025-11-03)
