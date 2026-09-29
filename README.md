@@ -2389,6 +2389,14 @@
 
 - [Mr-xn/CVE-2026-8054](https://github.com/Mr-xn/CVE-2026-8054)
 
+### CVE-2026-8065 (2026-09-29)
+
+<code>An authentication bypass vulnerability in the firmware update endpoint of Hitachi Energy RTU500 allows an unauthenticated attacker to upload arbitrary firmware through a crafted POST request. Successful exploitation could allow the attacker to modify device functionality or compromise the integrity or availability of the device.
+</code>
+
+- [murrez/CVE-2026-8065](https://github.com/murrez/CVE-2026-8065)
+- [MRdark-ops/CVE-2026-8065](https://github.com/MRdark-ops/CVE-2026-8065)
+
 ### CVE-2026-8069 (2026-05-08)
 
 <code>PredatorSense version 3.00.3136 to 3.00.3196 contain Local Privilege Escalation (LPE) vulnerability.The program exposes a Windows Named Pipe that uses a custom protocol to invoke internal functions. However, this Named Pipe is misconfigured, allowing any authenticated local user to execute arbitrary code with NT AUTHORITY\SYSTEM privileges and to delete arbitrary files with SYSTEM privileges. By leveraging this, an attacker can execute arbitrary code on the target system with elevated privileges.
@@ -6055,6 +6063,13 @@
 
 - [meh098/CVE-2026-24072-Analysis](https://github.com/meh098/CVE-2026-24072-Analysis)
 
+### CVE-2026-24088 (2026-06-01)
+
+<code>Cryptographic Issue while processing a specific partition which allows unauthorized write access to load a customized bootloader.
+</code>
+
+- [aniketlab/POCO-M7-Plus-Jailbreak](https://github.com/aniketlab/POCO-M7-Plus-Jailbreak)
+
 ### CVE-2026-24102
 - [SimoesCTT/CTT-Kernel-Resonance-io_uring-Temporal-Phase-Transition](https://github.com/SimoesCTT/CTT-Kernel-Resonance-io_uring-Temporal-Phase-Transition)
 
@@ -8230,6 +8245,7 @@
 - [MrMixies/Copy-Fail---CVE-2026-31431](https://github.com/MrMixies/Copy-Fail---CVE-2026-31431)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-31431-Copy-Fail](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-31431-Copy-Fail)
 - [Rat5ak/CVE-2026-31431-CopyFail-static-ELF--POC](https://github.com/Rat5ak/CVE-2026-31431-CopyFail-static-ELF--POC)
+- [norvethil/CVE-2026-31431-Detect](https://github.com/norvethil/CVE-2026-31431-Detect)
 - [zhanghangorg/cve-2026-31431](https://github.com/zhanghangorg/cve-2026-31431)
 - [itsystem/afalg-check](https://github.com/itsystem/afalg-check)
 - [Detect-DefenseLab/CVE-2026-31431-detection-defense](https://github.com/Detect-DefenseLab/CVE-2026-31431-detection-defense)
@@ -11451,6 +11467,7 @@
 - [L-1124/RootMyVivo-rs](https://github.com/L-1124/RootMyVivo-rs)
 - [L-1124/RootMyVivo-Exploit](https://github.com/L-1124/RootMyVivo-Exploit)
 - [ZeroDayEvil/CVE-2026-43499](https://github.com/ZeroDayEvil/CVE-2026-43499)
+- [shubhampathak65/CVE-2026-43499](https://github.com/shubhampathak65/CVE-2026-43499)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -16755,6 +16772,7 @@
 </code>
 
 - [murrez/CVE-2026-82901](https://github.com/murrez/CVE-2026-82901)
+- [tonydelouvre/CVE-2026-82901](https://github.com/tonydelouvre/CVE-2026-82901)
 
 ### CVE-2026-83548 (2026-09-01)
 
@@ -16875,6 +16893,13 @@
 </code>
 
 - [SneakyNachos/CVE-2026-85048-the-gpu-died](https://github.com/SneakyNachos/CVE-2026-85048-the-gpu-died)
+
+### CVE-2026-85520 (2026-09-29)
+
+<code>Google Merchant Center Feed (gmfeed) module for PrestaShop is vulnerable to unauthenticated arbitrary file write in the feed.php endpoint. An unauthenticated attacker can send a crafted request that controls the output file name, path, extension, and content through request parameters. Due to the lack of authentication and input validation, the request is processed successfully, allowing an attacker to write and execute arbitrary PHP code, resulting in remote code execution (RCE).\n\n\nThis issue was fixed in version 2.3.9.
+</code>
+
+- [murrez/CVE-2026-85520](https://github.com/murrez/CVE-2026-85520)
 
 ### CVE-2026-85612 (2026-09-04)
 
@@ -17131,6 +17156,7 @@
 <code>Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to Remote Code Execution or Denial of Service
 </code>
 
+- [watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88772](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88772)
 - [murrez/CVE-2026-88772](https://github.com/murrez/CVE-2026-88772)
 - [FollowerSeize/CVE-2026-88772-POC](https://github.com/FollowerSeize/CVE-2026-88772-POC)
 
@@ -17432,6 +17458,7 @@
 ### CVE-2026-94545
 - [HORKimhab/CVE-2026-94545](https://github.com/HORKimhab/CVE-2026-94545)
 - [Hassham1/CVE-2026-94545-nextjs-og-poc](https://github.com/Hassham1/CVE-2026-94545-nextjs-og-poc)
+- [EQSTLab/CVE-2026-94545](https://github.com/EQSTLab/CVE-2026-94545)
 
 ### CVE-2026-94609 (2026-09-24)
 
@@ -19629,6 +19656,9 @@
 - [lennertdefauw/CVE-2025-8088](https://github.com/lennertdefauw/CVE-2025-8088)
 - [shaheeryasirofficial/CVE-2025-8088](https://github.com/shaheeryasirofficial/CVE-2025-8088)
 - [Lewis-Ricardo/Amaranth-Project](https://github.com/Lewis-Ricardo/Amaranth-Project)
+- [roof1948576qwd/CVE-2025-8088-WinRAR-PoC-1](https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-1)
+- [roof1948576qwd/CVE-2025-8088-WinRAR-PoC-2](https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-2)
+- [roof1948576qwd/CVE-2025-8088-WinRAR-PoC-3](https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-3)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -21000,7 +21030,7 @@
 <code>The Easy Digital Downloads plugin for WordPress is vulnerable to Unvalidated Redirect in all versions up to, and including, 3.6.2. This is due to insufficient validation on the redirect url supplied via the 'edd_redirect' parameter. This makes it possible for unauthenticated attackers to redirect users with the password reset email to potentially malicious sites if they can successfully trick them into performing an action.
 </code>
 
-- [ZeroEthical/CVE-2025-14783-POC](https://github.com/ZeroEthical/CVE-2025-14783-POC)
+- [Ngagne-Demba-Dia/CVE-2025-14783-POC](https://github.com/Ngagne-Demba-Dia/CVE-2025-14783-POC)
 
 ### CVE-2025-14847 (2025-12-19)
 
@@ -23838,6 +23868,7 @@
 - [EthanEvans92/CVE-2025-32463](https://github.com/EthanEvans92/CVE-2025-32463)
 - [Fomovet/cve-2025-32463](https://github.com/Fomovet/cve-2025-32463)
 - [0xdak/CVE-2025-32463_exploit](https://github.com/0xdak/CVE-2025-32463_exploit)
+- [klvlo/CVE-2025-32463](https://github.com/klvlo/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -28075,6 +28106,7 @@
 - [TeteREN/CVE-2025-57819-RCE](https://github.com/TeteREN/CVE-2025-57819-RCE)
 - [r3vpwnx/CVE-2025-57819](https://github.com/r3vpwnx/CVE-2025-57819)
 - [shivammittal2403/cve-2025-57819-freepbx-range](https://github.com/shivammittal2403/cve-2025-57819-freepbx-range)
+- [donggle0802-code/cve-2025-57819](https://github.com/donggle0802-code/cve-2025-57819)
 
 ### CVE-2025-57833 (2025-09-03)
 
@@ -28859,6 +28891,13 @@
 
 - [dgl/cve-2025-61984-poc](https://github.com/dgl/cve-2025-61984-poc)
 - [flyskyfire/cve-2025-61984-poc](https://github.com/flyskyfire/cve-2025-61984-poc)
+
+### CVE-2025-62023 (2025-10-22)
+
+<code>Improper Control of Generation of Code ('Code Injection') vulnerability in Cristián Lávaque s2Member s2member.This issue affects s2Member: from n/a through 250905.
+</code>
+
+- [josemour8/CVE-2025-62023](https://github.com/josemour8/CVE-2025-62023)
 
 ### CVE-2025-62168 (2025-10-17)
 
@@ -38447,6 +38486,7 @@
 - [RohitMalik7/cve-2024-38063-detection-mitigation-system](https://github.com/RohitMalik7/cve-2024-38063-detection-mitigation-system)
 - [Mayank637-pixel/CVE-2024-38063](https://github.com/Mayank637-pixel/CVE-2024-38063)
 - [hibaNITT/CVE-2024-38063](https://github.com/hibaNITT/CVE-2024-38063)
+- [izaan-sh/CVE-2024-38063-Exploitation-Detection-Mitigation-Lab](https://github.com/izaan-sh/CVE-2024-38063-Exploitation-Detection-Mitigation-Lab)
 
 ### CVE-2024-38077 (2024-07-09)
 
@@ -48806,6 +48846,7 @@
 - [lightningspeed221/Winrar-Exploit-CVE-2023-38831](https://github.com/lightningspeed221/Winrar-Exploit-CVE-2023-38831)
 - [olowostandard1/CVE-2023-38831-WinRAR-Vulnerability-Analysis](https://github.com/olowostandard1/CVE-2023-38831-WinRAR-Vulnerability-Analysis)
 - [cristhiansm0/TXDXCristhian_2023-CVE-38831](https://github.com/cristhiansm0/TXDXCristhian_2023-CVE-38831)
+- [Dnyaneshwari-123/DFIR-Capstone-Investigations](https://github.com/Dnyaneshwari-123/DFIR-Capstone-Investigations)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -55532,13 +55573,6 @@
 </code>
 
 - [IbrahimEkimIsik/CVE-2022-28099](https://github.com/IbrahimEkimIsik/CVE-2022-28099)
-
-### CVE-2022-28108 (2022-04-19)
-
-<code>Selenium Server (Grid) before 4 allows CSRF because it permits non-JSON content types such as application/x-www-form-urlencoded, multipart/form-data, and text/plain.
-</code>
-
-- [ZeroEthical/CVE-2022-28108](https://github.com/ZeroEthical/CVE-2022-28108)
 
 ### CVE-2022-28113 (2022-04-15)
 
