@@ -4047,6 +4047,7 @@
 </code>
 
 - [murrez/CVE-2026-18143](https://github.com/murrez/CVE-2026-18143)
+- [Wayang1337/CVE-2026-18143](https://github.com/Wayang1337/CVE-2026-18143)
 
 ### CVE-2026-18220 (2026-07-29)
 
@@ -10006,6 +10007,7 @@
 - [Shirouuu/Gitea-template-sync-Path-Traversal-Privilege-Escalation-CVE-2026-38526-](https://github.com/Shirouuu/Gitea-template-sync-Path-Traversal-Privilege-Escalation-CVE-2026-38526-)
 - [Ish3ng0m4/CVE-2026-38526-KrayinCRM](https://github.com/Ish3ng0m4/CVE-2026-38526-KrayinCRM)
 - [Harry178945/CVE-2026-38526](https://github.com/Harry178945/CVE-2026-38526)
+- [MRdark-ops/CVE-2026-38526](https://github.com/MRdark-ops/CVE-2026-38526)
 
 ### CVE-2026-38577 (2026-08-31)
 
@@ -16980,6 +16982,13 @@
 
 - [minanagehsalalma/zte-smartlife-app-pwned](https://github.com/minanagehsalalma/zte-smartlife-app-pwned)
 
+### CVE-2026-86950 (2026-09-28)
+
+<code>An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 26.7.1 and iPadOS 26.7.1, macOS Sequoia 15.8.1, macOS Tahoe 26.7.1. Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27.
+</code>
+
+- [DeAurity/CVE-2026-86950-POC](https://github.com/DeAurity/CVE-2026-86950-POC)
+
 ### CVE-2026-86998
 - [squeeze440/pasteguard-PoC](https://github.com/squeeze440/pasteguard-PoC)
 
@@ -17072,6 +17081,7 @@
 - [abatsakidis/wp-cve-2026-87902-checker](https://github.com/abatsakidis/wp-cve-2026-87902-checker)
 - [Maalfer/CVE-2026-87902-exploit](https://github.com/Maalfer/CVE-2026-87902-exploit)
 - [HackfutSecRoot/CVE-2026-87902](https://github.com/HackfutSecRoot/CVE-2026-87902)
+- [MRdark-ops/CVE-2026-87902](https://github.com/MRdark-ops/CVE-2026-87902)
 
 ### CVE-2026-87915 (2026-09-18)
 
@@ -17480,6 +17490,13 @@
 
 - [nth347/mediawiki-CVE-2026-100382](https://github.com/nth347/mediawiki-CVE-2026-100382)
 
+### CVE-2026-100633 (2026-09-26)
+
+<code>SiYuan is a self-hosted personal knowledge management system. In versions 3.8.0 through 3.8.3, the MCP file tool's sensitive-path guard (util.IsForbiddenAbsPath(), invoked from resolvePath()) is applied only to the allowed root of recursive operations and not to each resolved descendant path — an incomplete fix for GHSA-c8r8-95hg-mp34. An authenticated administrator using the in-app Agent or the external MCP server can therefore bypass the protected-workspace-file denylist: file.grep can return matching lines from non-hidden protected descendants (for example conf/conf.json, TLS keys, data/snippets/conf.json, data/templates/, data/.siyuan/publishAccess.json, notebook .siyuan internals, or the kernel log), file.copy can copy protected descendants to an ordinary path where file.read can then retrieve them, and unzip can overwrite protected descendants using ordinary, lexically contained ZIP member names. Because file.grep is globally classified as a safe action, it receives no per-call confirmation, and the confirmation cards for file.copy and unzip show only the allowed root arguments. This issue is fixed in version 3.8.4. Suggested title: SiYuan 3.8.0 through 3.8.3 Sensitive-Path Guard Bypass in Recursive MCP File Operations.
+</code>
+
+- [dpfkdlemtp/CVE-2026-100633](https://github.com/dpfkdlemtp/CVE-2026-100633)
+
 ### CVE-2026-100721 (2026-09-27)
 
 <code>vm2 before 3.12.2 contains an authorization bypass in the NodeVM external-module resolver. When an embedder configures `require.external` with a custom resolver (and `context: 'host'`), `LegacyResolver.customResolve` in lib/resolver-compat.js records the resolved module directory in `this.externals` as `new RegExp('^' + escapeRegExp(resolvedPath))`, without requiring a path separator or end-of-string boundary. Untrusted guest code can therefore require the allowlisted module (e.g. `foo`) and then require the absolute path of a non-allowlisted sibling whose path merely shares the resolved prefix (e.g. `.../node_modules/foo2/index.js`); the sibling passes `isPathAllowedForModule` and is loaded through `hostRequire`, so its top-level code runs in the host process before the exports are wrapped with `vm.readonly`, resulting in a sandbox escape and arbitrary code execution in the host context.
@@ -17493,6 +17510,13 @@
 </code>
 
 - [murrez/CVE-2026-100740](https://github.com/murrez/CVE-2026-100740)
+
+### CVE-2026-100752 (2026-09-28)
+
+<code>Joomla Extension - ordasoft.com - Unauthenticated SQL Injection in Real Estate Manager (Free) &lt; 6.7.9 - site/realestatemanager.php builds the ORDER BY clause of three separate frontend property-listing queries (category browsing, search results, and the full property listing) from a request-controlled order_field parameter, concatenated directly into an unquoted SQL clause with no allow-list of real column names and no cast.
+</code>
+
+- [murrez/CVE-2026-100752](https://github.com/murrez/CVE-2026-100752)
 
 ### CVE-2026-100835 (2026-09-27)
 
@@ -17522,6 +17546,27 @@
 
 - [turretsec/disclosure-thinkware-u3000](https://github.com/turretsec/disclosure-thinkware-u3000)
 - [turretsec/u3000py](https://github.com/turretsec/u3000py)
+
+### CVE-2026-101108 (2026-09-28)
+
+<code>Joomla Extension - ordasoft.com - Unauthenticated SQL Injection in Vehicle Manager (Free) &lt; 6.5.8 - site/vehiclemanager.php reads the order_field and order_direction sort parameters at three separate anonymous-reachable frontend entry points (category listing, search, and the all-vehicles listing) through a sanitizing function that applies real escaping, but the value is then placed into an unquoted ORDER BY clause, where escaping has no protective effect.
+</code>
+
+- [murrez/CVE-2026-101108](https://github.com/murrez/CVE-2026-101108)
+
+### CVE-2026-101110 (2026-09-28)
+
+<code>Joomla Extension - ordasoft.com - Unauthenticated SQL Injection in Book Library (Free) &lt; 6.4.6 - site/booklibrary.php’s books() function reads the field and direction request parameters and passes each through a function called protectInjectionWithoutQuote(), whose only real protection is a keyword blacklist that, on detecting the literal substring select, wraps the value in $db-&gt;quote() instead of rejecting it. The value is then concatenated directly into an unquoted ORDER BY clause, a position where quoting provides no protection at all. Reaching the vulnerable code path requires two conditions: a first request to prime session-stored sort defaults, and a trailing decoy comment (-- xselect) that satisfies the blacklist’s substring check without altering the payload’s effect.
+</code>
+
+- [murrez/CVE-2026-101110](https://github.com/murrez/CVE-2026-101110)
+
+### CVE-2026-101894 (2026-09-28)
+
+<code>The decompress package for Node.js extracts archives. Prior to 10.2.2 and 11.1.4, the default decompress(input, output) API relies on lexical containment checks that do not account for the kernel following a planted symlink chain. An attacker can supply a crafted archive containing chained symlink entries so that a later entry resolves outside the output directory. This allows files outside output to be read or written, and overwriting startup scripts or configuration can lead to remote code execution. The maintained @xhmikosr/decompress package is fixed in 10.2.2 and 11.1.4, but the separately affected unmaintained decompress package remains unpatched through 4.2.1. This vulnerability results from a bypass of the incomplete hardening for CVE-2026-53486. @xhmikosr/decompress is fixed in versions 10.2.2 and 11.1.4.
+</code>
+
+- [murrez/CVE-2026-101894](https://github.com/murrez/CVE-2026-101894)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -65617,6 +65662,21 @@
 </code>
 
 - [dpfkdlemtp/epson-eh-tw5350-advisories](https://github.com/dpfkdlemtp/epson-eh-tw5350-advisories)
+- [dpfkdlemtp/CVE-2021-43716](https://github.com/dpfkdlemtp/CVE-2021-43716)
+
+### CVE-2021-43717 (2026-08-18)
+
+<code>An issue exists in pson EH-TW5350 Epson iProjection.apk v3.2.6. If you identify a projector equipped with an iProjection function, you can access the projector using hard-coded authentication information and control the projector maliciously.
+</code>
+
+- [dpfkdlemtp/CVE-2021-43717](https://github.com/dpfkdlemtp/CVE-2021-43717)
+
+### CVE-2021-43718 (2026-08-18)
+
+<code>An Authentication Bypass vulnerability exists in EPSON EH-TW5350 EPSON 150075647YWWV110, which could let a remote malicious user cause a Denial of Service via specially crafted series of HTTP..
+</code>
+
+- [dpfkdlemtp/CVE-2021-43718](https://github.com/dpfkdlemtp/CVE-2021-43718)
 
 ### CVE-2021-43778 (2021-11-24)
 
@@ -70165,6 +70225,13 @@
 </code>
 
 - [Astaruf/CVE-2020-13654](https://github.com/Astaruf/CVE-2020-13654)
+
+### CVE-2020-13664 (2021-05-05)
+
+<code>Arbitrary PHP code execution vulnerability in Drupal Core under certain circumstances. An attacker could trick an administrator into visiting a malicious site that could result in creating a carefully named directory on the file system. With this directory in place, an attacker could attempt to brute force a remote code execution vulnerability. Windows servers are most likely to be affected. This issue affects: Drupal Drupal Core 8.8.x versions prior to 8.8.8; 8.9.x versions prior to 8.9.1; 9.0.1 versions prior to 9.0.1.
+</code>
+
+- [lorenzog/CVE-2020-13664](https://github.com/lorenzog/CVE-2020-13664)
 
 ### CVE-2020-13671 (2020-11-20)
 
@@ -80926,7 +80993,6 @@
 - [trinadh-dasari-cyber/eternalblue-ms17-010-research](https://github.com/trinadh-dasari-cyber/eternalblue-ms17-010-research)
 - [0xBlackash/CVE-2017-0144](https://github.com/0xBlackash/CVE-2017-0144)
 - [probablysecure/Triage-CVE-2017-0144](https://github.com/probablysecure/Triage-CVE-2017-0144)
-- [KitSkater/legacyshield-CVE-2017-0144](https://github.com/KitSkater/legacyshield-CVE-2017-0144)
 - [ronankongala/metasploit-pentest-report](https://github.com/ronankongala/metasploit-pentest-report)
 - [quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144](https://github.com/quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144)
 - [porcumarcooo/TryHackMe-Blue-MS17-010](https://github.com/porcumarcooo/TryHackMe-Blue-MS17-010)
@@ -82056,7 +82122,6 @@
 - [nccgroup/CVE-2017-8759](https://github.com/nccgroup/CVE-2017-8759)
 - [vysecurity/CVE-2017-8759](https://github.com/vysecurity/CVE-2017-8759)
 - [BasuCert/CVE-2017-8759](https://github.com/BasuCert/CVE-2017-8759)
-- [tahisaad6/CVE-2017-8759-Exploit-sample2](https://github.com/tahisaad6/CVE-2017-8759-Exploit-sample2)
 - [homjxi0e/CVE-2017-8759_-SOAP_WSDL](https://github.com/homjxi0e/CVE-2017-8759_-SOAP_WSDL)
 - [bhdresh/CVE-2017-8759](https://github.com/bhdresh/CVE-2017-8759)
 - [JonasUliana/CVE-2017-8759](https://github.com/JonasUliana/CVE-2017-8759)
