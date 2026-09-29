@@ -3024,6 +3024,13 @@
 - [rootdirective-sec/CVE-2026-10795-Lab](https://github.com/rootdirective-sec/CVE-2026-10795-Lab)
 - [HORKimhab/CVE-2026-10795](https://github.com/HORKimhab/CVE-2026-10795)
 
+### CVE-2026-10817 (2026-06-30)
+
+<code>Insufficient input validation leading to memory overread in NetScaler ADC and NetScaler Gateway if the TCP TimeStamp is enabled in TCP Profile and is associated with the virtual server (of type LB, CS, VPN) or the service configured on NetScaler
+</code>
+
+- [HORKimhab/CVE-2026-10817](https://github.com/HORKimhab/CVE-2026-10817)
+
 ### CVE-2026-10818 (2026-07-25)
 
 <code>The WPForms Pro plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.10.1.1 via the ajax_chunk_upload_finalize function. This is due to the file type validation occurring after chunk metadata and file contents have already been written to disk, and the assembled file not being deleted upon validation failure. This makes it possible for unauthenticated attackers to upload files that may be executable, which makes remote code execution possible.
@@ -9432,7 +9439,6 @@
 - [khush-613/CVE-2026-34990-poc](https://github.com/khush-613/CVE-2026-34990-poc)
 - [bara-almustafa/CVE-2026-34990-poc](https://github.com/bara-almustafa/CVE-2026-34990-poc)
 - [Noorkhalel/CVE-2026-34990-CUPS-LPE-PoC](https://github.com/Noorkhalel/CVE-2026-34990-CUPS-LPE-PoC)
-- [offesivezapper/cve-2026-34990-POC](https://github.com/offesivezapper/cve-2026-34990-POC)
 - [OffensiveBias20/CVE-2026-34990-POC](https://github.com/OffensiveBias20/CVE-2026-34990-POC)
 - [ungabunga-ctf/CVE-2026-34990](https://github.com/ungabunga-ctf/CVE-2026-34990)
 
@@ -13013,6 +13019,7 @@
 </code>
 
 - [Ap0dexMe0/CVE-2026-49869](https://github.com/Ap0dexMe0/CVE-2026-49869)
+- [EQSTLab/CVE-2026-49869](https://github.com/EQSTLab/CVE-2026-49869)
 
 ### CVE-2026-49881 (2026-09-08)
 
@@ -14343,6 +14350,7 @@
 - [HORKimhab/CVE-2026-59310](https://github.com/HORKimhab/CVE-2026-59310)
 - [BiuTrap/CVE-2026-59310](https://github.com/BiuTrap/CVE-2026-59310)
 - [ChinaRan0/CVE-2026-59310-POC](https://github.com/ChinaRan0/CVE-2026-59310-POC)
+- [vpxuser/CVE-2026-59310](https://github.com/vpxuser/CVE-2026-59310)
 
 ### CVE-2026-59346
 - [0xCyberstan/CVE-2026-59346-POC](https://github.com/0xCyberstan/CVE-2026-59346-POC)
@@ -67954,7 +67962,6 @@
 </code>
 
 - [MBHudson/CVE-2020-1971](https://github.com/MBHudson/CVE-2020-1971)
-- [honeyvig/CVE-2020-1971](https://github.com/honeyvig/CVE-2020-1971)
 
 ### CVE-2020-2021 (2020-06-29)
 
