@@ -4063,6 +4063,7 @@
 
 - [murrez/CVE-2026-18143](https://github.com/murrez/CVE-2026-18143)
 - [Wayang1337/CVE-2026-18143](https://github.com/Wayang1337/CVE-2026-18143)
+- [ghannyxploit404/CVE-2026-18143](https://github.com/ghannyxploit404/CVE-2026-18143)
 
 ### CVE-2026-18220 (2026-07-29)
 
@@ -8436,6 +8437,7 @@
 </code>
 
 - [0xTatsuki/CVE-2026-31857](https://github.com/0xTatsuki/CVE-2026-31857)
+- [0Asylum/CVE-2026-31857](https://github.com/0Asylum/CVE-2026-31857)
 
 ### CVE-2026-31891 (2026-03-18)
 
@@ -11468,7 +11470,6 @@
 - [MKE84/neo8-ghostlock-adaptation](https://github.com/MKE84/neo8-ghostlock-adaptation)
 - [wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499](https://github.com/wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499)
 - [AriyanPegu/ghostlock-app](https://github.com/AriyanPegu/ghostlock-app)
-- [pyyyc/honor-6.12.38-43499-research](https://github.com/pyyyc/honor-6.12.38-43499-research)
 - [RELIHR/CVE-2026-43499](https://github.com/RELIHR/CVE-2026-43499)
 - [WitAqua-tools/Root-My-Device](https://github.com/WitAqua-tools/Root-My-Device)
 - [CKwasd/zenfone9-ghostlock](https://github.com/CKwasd/zenfone9-ghostlock)
@@ -17499,6 +17500,7 @@
 - [HORKimhab/CVE-2026-94545](https://github.com/HORKimhab/CVE-2026-94545)
 - [Hassham1/CVE-2026-94545-nextjs-og-poc](https://github.com/Hassham1/CVE-2026-94545-nextjs-og-poc)
 - [EQSTLab/CVE-2026-94545](https://github.com/EQSTLab/CVE-2026-94545)
+- [mhtsec/CVE-2026-94545](https://github.com/mhtsec/CVE-2026-94545)
 
 ### CVE-2026-94609 (2026-09-24)
 
@@ -17528,6 +17530,13 @@
 </code>
 
 - [whoami-012/CVE-2026-96515](https://github.com/whoami-012/CVE-2026-96515)
+
+### CVE-2026-96760 (2026-09-28)
+
+<code>Authlib (v1.7.2 and below) contains a signature verification bypass vulnerability. The JsonWebSignature.deserialize_json() method accepts a JSON Serialization JWS object and returns the payload as successfully verified without checking for a signature and without requiring a cryptographic key.
+</code>
+
+- [uziii2208/CVE-2026-96760](https://github.com/uziii2208/CVE-2026-96760)
 
 ### CVE-2026-96872 (2026-09-23)
 
@@ -43363,6 +43372,13 @@
 
 - [pizza-power/CVE-2023-3722](https://github.com/pizza-power/CVE-2023-3722)
 
+### CVE-2023-3776 (2023-07-21)
+
+<code>A use-after-free vulnerability in the Linux kernel's net/sched: cls_fw component can be exploited to achieve local privilege escalation.\n\nIf tcf_change_indev() fails, fw_set_parms() will immediately return an error after incrementing or decrementing the reference counter in tcf_bind_filter(). If an attacker can control the reference counter and set it to zero, they can cause the reference to be freed, leading to a use-after-free vulnerability.\n\nWe recommend upgrading past commit 0323bce598eea038714f941ce2b22541c46d488f.
+</code>
+
+- [Sakura999999999/CVE-2023-3776_repro](https://github.com/Sakura999999999/CVE-2023-3776_repro)
+
 ### CVE-2023-3824 (2023-08-11)
 
 <code>In PHP version 8.0.* before 8.0.30,  8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE.
@@ -48952,6 +48968,7 @@
 - [olowostandard1/CVE-2023-38831-WinRAR-Vulnerability-Analysis](https://github.com/olowostandard1/CVE-2023-38831-WinRAR-Vulnerability-Analysis)
 - [cristhiansm0/TXDXCristhian_2023-CVE-38831](https://github.com/cristhiansm0/TXDXCristhian_2023-CVE-38831)
 - [Dnyaneshwari-123/DFIR-Capstone-Investigations](https://github.com/Dnyaneshwari-123/DFIR-Capstone-Investigations)
+- [KrioSocial/defender-bypass-winrar-cve-2023-38831](https://github.com/KrioSocial/defender-bypass-winrar-cve-2023-38831)
 
 ### CVE-2023-38836 (2023-08-21)
 
