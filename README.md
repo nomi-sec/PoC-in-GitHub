@@ -12583,6 +12583,13 @@
 
 - [HORKimhab/CVE-2026-48095](https://github.com/HORKimhab/CVE-2026-48095)
 
+### CVE-2026-48121 (2026-08-04)
+
+<code>@langchain/langgraph-checkpoint-mongodb provides a LangGraph.js CheckpointSaver implementation that uses MongoDB for storage. Versions 1.3.0 and below are vulnerable to NoSQL injection: checkpoint identifiers (thread_id, checkpoint_ns, checkpoint_id) from config.configurable are passed into MongoDB find() queries in MongoDBSaver.getTuple() without type enforcement. If an attacker supplies an object payload (such as MongoDB operators $gt or $ne) instead of a string, it can be interpreted as a query operator, bypassing thread scoping and leaking checkpoints, including pending writes, across tenants. Applications are at risk if they forward untrusted input into config.configurable without coercing it to strings or validating it against a schema, particularly in multi-tenant or user-isolated setups. Apps that only use server-issued, string-typed identifiers with schema validation rejecting non-string fields are not affected. This issue has been fixed in version 1.3.1.
+</code>
+
+- [decker757/cs440-langgraph-nosql-demo](https://github.com/decker757/cs440-langgraph-nosql-demo)
+
 ### CVE-2026-48172 (2026-05-21)
 
 <code>LiteSpeed User-End cPanel Plugin before 2.4.5 allows privilege escalation (possibly to root), as exploited in the wild in May 2026. Detection is best done via a command line of grep -rE &quot;cpanel_jsonapi_func=redisAble&quot; /var/cpanel/logs /usr/local/cpanel/logs/ 2&gt;/dev/null in Bash. If you get no output, you have not been hit with exploitation of the vulnerability. If there is output, we recommend you examine the IP addresses in the list, determine if they are valid IP addresses, and if not, block them. To determine damage done, examine the system logs for use by the detected IP addresses. The issue is related to mishandling of Redis enable/disable features. The recommended minimum version is 2.4.7.
@@ -16566,7 +16573,11 @@
 
 - [jhli07/CVE-2026-79387-PbootCMS-SQL-Injection](https://github.com/jhli07/CVE-2026-79387-PbootCMS-SQL-Injection)
 
-### CVE-2026-79417
+### CVE-2026-79417 (2026-09-29)
+
+<code>Improper Access Control in ArgusMonitor.sys in Argotronic eGbR ArgusMonitor 7.4.02 and earlier allows local, low-privileged users to bypass device handle access restrictions via a TOCTOU condition in IRP_MJ_CREATE and send a crafted IOCTL 0x9C4024A8 request, causing denial-of-service.
+</code>
+
 - [connorjaydunn/CVE-2026-79417](https://github.com/connorjaydunn/CVE-2026-79417)
 
 ### CVE-2026-79483 (2026-08-31)
@@ -17132,6 +17143,7 @@
 - [Maalfer/CVE-2026-87902-exploit](https://github.com/Maalfer/CVE-2026-87902-exploit)
 - [HackfutSecRoot/CVE-2026-87902](https://github.com/HackfutSecRoot/CVE-2026-87902)
 - [MRdark-ops/CVE-2026-87902](https://github.com/MRdark-ops/CVE-2026-87902)
+- [tonydelouvre/CVE-2026-87902](https://github.com/tonydelouvre/CVE-2026-87902)
 
 ### CVE-2026-87915 (2026-09-18)
 
@@ -17156,6 +17168,9 @@
 
 ### CVE-2026-88533
 - [HEMLOCK-LYK/CVE-2026-88533](https://github.com/HEMLOCK-LYK/CVE-2026-88533)
+
+### CVE-2026-88629
+- [ExploreIO/CVE-2026-88629-fastgpt-mcp-client-ssrf](https://github.com/ExploreIO/CVE-2026-88629-fastgpt-mcp-client-ssrf)
 
 ### CVE-2026-88771 (2026-09-27)
 
@@ -17400,6 +17415,13 @@
 
 ### CVE-2026-93680
 - [rmhowe425/POC-CVE-2026-93680](https://github.com/rmhowe425/POC-CVE-2026-93680)
+
+### CVE-2026-93687 (2026-09-18)
+
+<code>braces through 3.0.3 contains a stack overflow vulnerability in the recursive AST walkers that lack depth guards. Attackers can supply deeply nested brace patterns under the character limit to exhaust the call stack and terminate the Node.js process with an uncaught RangeError.
+</code>
+
+- [scastillo-jp/braces-fork](https://github.com/scastillo-jp/braces-fork)
 
 ### CVE-2026-93834 (2026-09-25)
 
@@ -19485,13 +19507,6 @@
 </code>
 
 - [Tobss8/GIGABYTE-H510M-K-V2-BIOS-SMM-Reverse-Engineering-CVE-2025-7026-7027-7028-7029-Research](https://github.com/Tobss8/GIGABYTE-H510M-K-V2-BIOS-SMM-Reverse-Engineering-CVE-2025-7026-7027-7028-7029-Research)
-
-### CVE-2025-7029 (2025-07-11)
-
-<code>A vulnerability in the Software SMI handler (SwSmiInputValue 0xB2) allows a local attacker to control the RBX register, which is used to derive pointers (OcHeader, OcData) passed into power and thermal configuration logic. These buffers are not validated before performing multiple structured memory writes based on OcSetup NVRAM values, enabling arbitrary SMRAM corruption and potential SMM privilege escalation.
-</code>
-
-- [ARES-SYS/uefi_bootkit_softlanding](https://github.com/ARES-SYS/uefi_bootkit_softlanding)
 
 ### CVE-2025-7338 (2025-07-17)
 
@@ -41797,7 +41812,7 @@
 <code>An access control issue in the component /juis_boxinfo.xml of AVM FRITZ!Box 7530 AX v7.59 allows attackers to obtain sensitive information without authentication. NOTE: this is disputed by the Supplier because it cannot be reproduced, and the issue report focuses on an unintended configuration with direct Internet exposure.
 </code>
 
-- [sysadmin420/AVM-FRITZ-Box-CVE-2024-54767-Exploit](https://github.com/sysadmin420/AVM-FRITZ-Box-CVE-2024-54767-Exploit)
+- [lowlevelsec/AVM-FRITZ-Box-CVE-2024-54767-Exploit](https://github.com/lowlevelsec/AVM-FRITZ-Box-CVE-2024-54767-Exploit)
 
 ### CVE-2024-54772 (2025-02-11)
 
@@ -43347,13 +43362,6 @@
 </code>
 
 - [pizza-power/CVE-2023-3722](https://github.com/pizza-power/CVE-2023-3722)
-
-### CVE-2023-3776 (2023-07-21)
-
-<code>A use-after-free vulnerability in the Linux kernel's net/sched: cls_fw component can be exploited to achieve local privilege escalation.\n\nIf tcf_change_indev() fails, fw_set_parms() will immediately return an error after incrementing or decrementing the reference counter in tcf_bind_filter(). If an attacker can control the reference counter and set it to zero, they can cause the reference to be freed, leading to a use-after-free vulnerability.\n\nWe recommend upgrading past commit 0323bce598eea038714f941ce2b22541c46d488f.
-</code>
-
-- [Sakura999999999/CVE-2023-3776_repro](https://github.com/Sakura999999999/CVE-2023-3776_repro)
 
 ### CVE-2023-3824 (2023-08-11)
 
@@ -49372,7 +49380,7 @@
 </code>
 
 - [sealldeveloper/CVE-2023-40931-PoC](https://github.com/sealldeveloper/CVE-2023-40931-PoC)
-- [datboi6942/Nagios-XI-s-CVE-2023-40931-Exploit](https://github.com/datboi6942/Nagios-XI-s-CVE-2023-40931-Exploit)
+- [NCF0126/Nagios-XI-s-CVE-2023-40931-Exploit](https://github.com/NCF0126/Nagios-XI-s-CVE-2023-40931-Exploit)
 - [G4sp4rCS/CVE-2023-40931-POC](https://github.com/G4sp4rCS/CVE-2023-40931-POC)
 
 ### CVE-2023-40933 (2023-09-19)
@@ -50006,6 +50014,7 @@
 
 - [libertycityhacker/CVE-2023-43364-Exploit-CVE](https://github.com/libertycityhacker/CVE-2023-43364-Exploit-CVE)
 - [Herick-Costa/CVE-2023-43364-Searchor-RCE-Exploit](https://github.com/Herick-Costa/CVE-2023-43364-Searchor-RCE-Exploit)
+- [IamSaishi/CVE-2023-43364_Exploit](https://github.com/IamSaishi/CVE-2023-43364_Exploit)
 
 ### CVE-2023-43481 (2023-12-27)
 
@@ -71605,6 +71614,7 @@
 - [substing/CVE-2020-24186_reverse_shell_upload](https://github.com/substing/CVE-2020-24186_reverse_shell_upload)
 - [GazettEl/CVE-2020-24186](https://github.com/GazettEl/CVE-2020-24186)
 - [sec-dojo-com/CVE-2020-24186](https://github.com/sec-dojo-com/CVE-2020-24186)
+- [kiyingiericmark-wq/CVE-2020-24186](https://github.com/kiyingiericmark-wq/CVE-2020-24186)
 
 ### CVE-2020-24227 (2020-11-23)
 
