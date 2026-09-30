@@ -610,6 +610,7 @@
 </code>
 
 - [tangrs/cve-2026-1668-poc](https://github.com/tangrs/cve-2026-1668-poc)
+- [wuyou6956-glitch/cve-2026-1668-poc](https://github.com/wuyou6956-glitch/cve-2026-1668-poc)
 
 ### CVE-2026-1689 (2026-01-30)
 
@@ -5781,7 +5782,6 @@
 - [fcjaviergarcia/CVE-2026-23744-POC](https://github.com/fcjaviergarcia/CVE-2026-23744-POC)
 - [0xg00se/CVE-2026-23744-script](https://github.com/0xg00se/CVE-2026-23744-script)
 - [d3vn0mi/CVE-2026-23744-POC](https://github.com/d3vn0mi/CVE-2026-23744-POC)
-- [CyLock11/CVE-2026-23744](https://github.com/CyLock11/CVE-2026-23744)
 - [luiskrnr/exploit-CVE-2026-23744](https://github.com/luiskrnr/exploit-CVE-2026-23744)
 - [p1ctur3p3rf3ct/CVE-2026-23744](https://github.com/p1ctur3p3rf3ct/CVE-2026-23744)
 - [SrGinebras/CVE-2026-23744-RCE-for-MCPjam-inspector-v1.4.2](https://github.com/SrGinebras/CVE-2026-23744-RCE-for-MCPjam-inspector-v1.4.2)
@@ -6707,6 +6707,7 @@
 </code>
 
 - [CEAarab/CVE-2026-26026-PoC](https://github.com/CEAarab/CVE-2026-26026-PoC)
+- [wuyou6956-glitch/CVE-2026-26026-PoC](https://github.com/wuyou6956-glitch/CVE-2026-26026-PoC)
 
 ### CVE-2026-26030 (2026-02-19)
 
@@ -10645,6 +10646,7 @@
 - [m0n1x90/CVE-2026-41096](https://github.com/m0n1x90/CVE-2026-41096)
 - [TwoSevenOneT/CVE-2026-41096-Attack-Surface](https://github.com/TwoSevenOneT/CVE-2026-41096-Attack-Surface)
 - [personnumber3377/dns_client_fuzzing](https://github.com/personnumber3377/dns_client_fuzzing)
+- [wuyou6956-glitch/CVE-2026-41096-POC](https://github.com/wuyou6956-glitch/CVE-2026-41096-POC)
 
 ### CVE-2026-41177 (2026-04-22)
 
@@ -12685,7 +12687,7 @@
 </code>
 
 - [Diznev/CVE-2026-48611-EXPLOIT](https://github.com/Diznev/CVE-2026-48611-EXPLOIT)
-- [wanmywan/CVE-2026-48611-phpBB](https://github.com/wanmywan/CVE-2026-48611-phpBB)
+- [lxdwnpiper/CVE-2026-48611-phpBB](https://github.com/lxdwnpiper/CVE-2026-48611-phpBB)
 - [Ethicalgrey/phpBB-CVE-2026-48611](https://github.com/Ethicalgrey/phpBB-CVE-2026-48611)
 
 ### CVE-2026-48710 (2026-05-26)
@@ -13519,6 +13521,13 @@
 </code>
 
 - [vn-lazyming/CVE-2026-52943](https://github.com/vn-lazyming/CVE-2026-52943)
+
+### CVE-2026-52993 (2026-06-24)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\ntipc: fix double-free in tipc_buf_append()\n\ntipc_msg_validate() can potentially reallocate the skb it is validating,\nfreeing the old one.  In tipc_buf_append(), it was being called with a\npointer to a local variable which was a copy of the caller's skb\npointer.\n\nIf the skb was reallocated and validation subsequently failed, the error\nhandling path would free the original skb pointer, which had already\nbeen freed, leading to double-free.\n\nFix this by checking if head now points to a newly allocated reassembled\nskb.  If it does, reassign *headbuf for later freeing operations.
+</code>
+
+- [CaptainAI-Labs/CaptainAI-LPE-CVE-2026-52993](https://github.com/CaptainAI-Labs/CaptainAI-LPE-CVE-2026-52993)
 
 ### CVE-2026-53075 (2026-06-24)
 
@@ -15805,6 +15814,13 @@
 
 - [BiiTts/CVE-2026-72001-Pangolin-Cross-Org-Auth-Bypass](https://github.com/BiiTts/CVE-2026-72001-Pangolin-Cross-Org-Auth-Bypass)
 
+### CVE-2026-72018 (2026-08-15)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\ndibs: loopback: validate offset and size in move_data()\n\nThe loopback move_data() performs a memcpy into the registered DMB\nwithout checking whether offset + size exceeds the DMB length.  Unlike\nreal ISM hardware, which enforces memory region bounds natively, the\nsoftware loopback has no such protection.\n\nA peer-supplied out-of-bounds offset or oversized write would result in\nan OOB write past the allocated kernel buffer.  Add an explicit bounds\ncheck before the memcpy to reject such requests with -EINVAL.
+</code>
+
+- [0xBlackash/CVE-2026-72018](https://github.com/0xBlackash/CVE-2026-72018)
+
 ### CVE-2026-72530 (2026-08-19)
 
 <code>A remote unauthorized attacker with network access via port 4307/TCP to the TrueConf server versions 5.3.X to 5.3.9, 5.4.X to 5.4.9, 5.5.X to 5.5.5, and earlier could use a specially crafted script to break out of the isolated environment and execute arbitrary code on the host system.
@@ -16624,6 +16640,13 @@
 - [digiprosec/CVE-2026-80428](https://github.com/digiprosec/CVE-2026-80428)
 - [shivammittal2403/cve-2026-80428-ctf](https://github.com/shivammittal2403/cve-2026-80428-ctf)
 
+### CVE-2026-80444 (2026-09-23)
+
+<code>URL redirection to untrusted site ('open redirect') vulnerability in Abis Technology Ltd. Co. AVESİS allows Input Data Manipulation.\n\nThis issue affects AVESİS: from 202608201331 before 202608240351.
+</code>
+
+- [Hasanuyarrr/CVE-2026-80444-Avesis-Uygulamasinda-Open-Redirect-Zafiyeti](https://github.com/Hasanuyarrr/CVE-2026-80444-Avesis-Uygulamasinda-Open-Redirect-Zafiyeti)
+
 ### CVE-2026-80467 (2026-09-02)
 
 <code>The Advanced Custom Fields: Extended WordPress plugin before 0.9.2.7 does not restrict the role submitted through its front-end user forms to the roles the form actually offers, and its safeguard against privileged roles is incomplete, allowing unauthenticated visitors to register an account with elevated capabilities and then escalate it to administrator.
@@ -16969,6 +16992,7 @@
 - [unh00k3d/cve-2026-85706](https://github.com/unh00k3d/cve-2026-85706)
 - [tc4dy/CVE-2026-85706-PoC-Toolkit](https://github.com/tc4dy/CVE-2026-85706-PoC-Toolkit)
 - [EQSTLab/CVE-2026-85706](https://github.com/EQSTLab/CVE-2026-85706)
+- [wuyou6956-glitch/cve-2026-85706](https://github.com/wuyou6956-glitch/cve-2026-85706)
 
 ### CVE-2026-85721 (2026-09-17)
 
@@ -17043,6 +17067,13 @@
 </code>
 
 - [minanagehsalalma/zte-smartlife-app-pwned](https://github.com/minanagehsalalma/zte-smartlife-app-pwned)
+
+### CVE-2026-86595 (2026-09-28)
+
+<code>Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in Iron Mountain Archiving Services Inc. EnVision allows SQL Injection.\n\nThis issue affects enVision: before 260655.
+</code>
+
+- [Hasanuyarrr/CVE-2026-86595-Iron-Mountain-enVision-EBYSde-Kimlik-Dogrulamal-SQL-Enjeksiyonu-Zafiyeti](https://github.com/Hasanuyarrr/CVE-2026-86595-Iron-Mountain-enVision-EBYSde-Kimlik-Dogrulamal-SQL-Enjeksiyonu-Zafiyeti)
 
 ### CVE-2026-86950 (2026-09-28)
 
@@ -17181,6 +17212,7 @@
 - [watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771)
 - [technion/netscaler_scanner](https://github.com/technion/netscaler_scanner)
 - [EXEcution-py/CVE-2026-88771-POC](https://github.com/EXEcution-py/CVE-2026-88771-POC)
+- [craigsblackie/cve-2026-88771-netscaler](https://github.com/craigsblackie/cve-2026-88771-netscaler)
 - [ThomasPoppelgaard/netscaler-ctx697096-checker](https://github.com/ThomasPoppelgaard/netscaler-ctx697096-checker)
 - [techupdate24/citrix-netscaler-cve-2026-88771-rce](https://github.com/techupdate24/citrix-netscaler-cve-2026-88771-rce)
 - [SwiftSecur/CVE-2026-88771-HuntScript](https://github.com/SwiftSecur/CVE-2026-88771-HuntScript)
@@ -17616,6 +17648,13 @@
 - [qeize/cve-2026-97163-payload](https://github.com/qeize/cve-2026-97163-payload)
 - [murrez/CVE-2026-97163](https://github.com/murrez/CVE-2026-97163)
 
+### CVE-2026-97347 (2026-09-30)
+
+<code>The Post Views Stats Counter plugin for WordPress is vulnerable to Stored Cross-Site Scripting via User-Agent Header in all versions up to, and including, 1.1.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The plugin's only input filter is a substring blacklist for known bot signatures (e.g. 'bot', 'spider', 'crawler'), which can be trivially bypassed by crafting a User-Agent payload that omits those strings.
+</code>
+
+- [JailBr3ak/CVE-2026-97347](https://github.com/JailBr3ak/CVE-2026-97347)
+
 ### CVE-2026-100380 (2026-09-25)
 
 <code>Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Wikimedia Foundation Mediawiki - Wikibase Extension allows Cross-Site Scripting (XSS).\n\nThis issue affects Mediawiki - Wikibase Extension: from * before 1.46.1, 1.45.5, 1.43.10.
@@ -17721,6 +17760,16 @@
 </code>
 
 - [7acini/CVE-2026-102261](https://github.com/7acini/CVE-2026-102261)
+
+### CVE-2026-102425 (2026-09-29)
+
+<code>Joomla Extension - balbooa.com - Unauthenticated RCE via field shortcode injection in Balbooa Forms &lt; 2.4.3.4 - Balbooa Forms supports administrator-defined PHP code which runs after a public form submission. The feature also supports form-field shortcodes inside that PHP. Before calling `eval()`, the component replaces each shortcode with the raw value submitted by the visitor, leading to an RCE vector. A public form must use the product's optional PHP-after-submission action and interpolate an attacker-controlled field shortcode inside a double-quoted PHP string to be vulnerable.
+</code>
+
+- [murrez/CVE-2026-102425](https://github.com/murrez/CVE-2026-102425)
+
+### CVE-2026-102607
+- [d4kw1n/CVE-2026-102607-ZoneMinder](https://github.com/d4kw1n/CVE-2026-102607-ZoneMinder)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -23389,6 +23438,7 @@
 - [TH-SecForge/CVE-2025-30208](https://github.com/TH-SecForge/CVE-2025-30208)
 - [HazaVVIP/CVE-2025-30208](https://github.com/HazaVVIP/CVE-2025-30208)
 - [cc3305/CVE-2025-30208](https://github.com/cc3305/CVE-2025-30208)
+- [Minseo9503/cve-2025-30208](https://github.com/Minseo9503/cve-2025-30208)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -25725,7 +25775,7 @@
 - [melonlonmeo/CVE-2025-49132](https://github.com/melonlonmeo/CVE-2025-49132)
 - [0xtensho/CVE-2025-49132-poc](https://github.com/0xtensho/CVE-2025-49132-poc)
 - [GRodolphe/CVE-2025-49132_poc](https://github.com/GRodolphe/CVE-2025-49132_poc)
-- [WebSafety-2tina/CVE-2025-49132](https://github.com/WebSafety-2tina/CVE-2025-49132)
+- [2t8a/CVE-2025-49132](https://github.com/2t8a/CVE-2025-49132)
 - [str1keboo/CVE-2025-49132](https://github.com/str1keboo/CVE-2025-49132)
 - [malw0re/CVE-2025-49132-Mods](https://github.com/malw0re/CVE-2025-49132-Mods)
 - [YoyoChaud/CVE-2025-49132](https://github.com/YoyoChaud/CVE-2025-49132)
@@ -52270,7 +52320,6 @@
 - [scopion/dirty-pipe](https://github.com/scopion/dirty-pipe)
 - [stfnw/Debugging_Dirty_Pipe_CVE-2022-0847](https://github.com/stfnw/Debugging_Dirty_Pipe_CVE-2022-0847)
 - [drapl0n/dirtypipe](https://github.com/drapl0n/dirtypipe)
-- [0xr1l3s/CVE-2022-0847](https://github.com/0xr1l3s/CVE-2022-0847)
 - [mhanief/dirtypipe](https://github.com/mhanief/dirtypipe)
 - [tufanturhan/CVE-2022-0847-L-nux-PrivEsc](https://github.com/tufanturhan/CVE-2022-0847-L-nux-PrivEsc)
 - [rexpository/linux-privilege-escalation](https://github.com/rexpository/linux-privilege-escalation)
@@ -54113,7 +54162,6 @@
 - [netcode/Spring4shell-CVE-2022-22965-POC](https://github.com/netcode/Spring4shell-CVE-2022-22965-POC)
 - [fracturelabs/go-scan-spring](https://github.com/fracturelabs/go-scan-spring)
 - [Snip3R69/spring-shell-vuln](https://github.com/Snip3R69/spring-shell-vuln)
-- [0xr1l3s/CVE-2022-22965](https://github.com/0xr1l3s/CVE-2022-22965)
 - [luoqianlin/CVE-2022-22965](https://github.com/luoqianlin/CVE-2022-22965)
 - [0xrobiul/CVE-2022-22965](https://github.com/0xrobiul/CVE-2022-22965)
 - [LudovicPatho/CVE-2022-22965_Spring4Shell](https://github.com/LudovicPatho/CVE-2022-22965_Spring4Shell)
