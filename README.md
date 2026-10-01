@@ -3187,6 +3187,9 @@
 
 - [George0Papasotiriou/CVE-2026-11120-Command-Injection-via-Git-URL-in-CI-CD-Pipeline](https://github.com/George0Papasotiriou/CVE-2026-11120-Command-Injection-via-Git-URL-in-CI-CD-Pipeline)
 
+### CVE-2026-11318
+- [Cr0wld3r/CVE-2026-11318](https://github.com/Cr0wld3r/CVE-2026-11318)
+
 ### CVE-2026-11344 (2026-06-05)
 
 <code>A vulnerability was found in code-projects Vehicle Management System 1.0. This impacts an unknown function of the file newdriver.php of the component New Driver Registration Form. Performing a manipulation of the argument photo results in unrestricted upload. The attack may be initiated remotely. The exploit has been made public and could be used.
@@ -11479,7 +11482,8 @@
 - [L-1124/RootMyVivo-rs](https://github.com/L-1124/RootMyVivo-rs)
 - [ZeroDayEvil/CVE-2026-43499](https://github.com/ZeroDayEvil/CVE-2026-43499)
 - [shubhampathak65/CVE-2026-43499](https://github.com/shubhampathak65/CVE-2026-43499)
-- [HaSiyo/Root-My-Galaxy-Payloads-S938NKSUCDZIF](https://github.com/HaSiyo/Root-My-Galaxy-Payloads-S938NKSUCDZIF)
+- [HaSiyo/Root-My-Galaxy-Payloads-KernelSU-Next](https://github.com/HaSiyo/Root-My-Galaxy-Payloads-KernelSU-Next)
+- [HaSiyo/Root-My-Galaxy-Payloads-KernelSU](https://github.com/HaSiyo/Root-My-Galaxy-Payloads-KernelSU)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -14398,6 +14402,7 @@
 - [BiuTrap/CVE-2026-59310](https://github.com/BiuTrap/CVE-2026-59310)
 - [ChinaRan0/CVE-2026-59310-POC](https://github.com/ChinaRan0/CVE-2026-59310-POC)
 - [vpxuser/CVE-2026-59310](https://github.com/vpxuser/CVE-2026-59310)
+- [chu0119/vc-strike](https://github.com/chu0119/vc-strike)
 
 ### CVE-2026-59346
 - [0xCyberstan/CVE-2026-59346-POC](https://github.com/0xCyberstan/CVE-2026-59346-POC)
@@ -16028,6 +16033,7 @@
 - [dahnutz/zimbra-cve-2026-73570-ir](https://github.com/dahnutz/zimbra-cve-2026-73570-ir)
 - [juanpoch/CVE-2026-73570](https://github.com/juanpoch/CVE-2026-73570)
 - [hainhc/CVE-2026-73570](https://github.com/hainhc/CVE-2026-73570)
+- [0xBlackash/CVE-2026-73570](https://github.com/0xBlackash/CVE-2026-73570)
 
 ### CVE-2026-73633 (2026-08-14)
 
@@ -17360,6 +17366,9 @@
 - [murrez/HP-HPLIP-Mass-CVE-checker-2026-09-](https://github.com/murrez/HP-HPLIP-Mass-CVE-checker-2026-09-)
 - [Nxploited/CVE-2026-91097-CVE-2026-91106](https://github.com/Nxploited/CVE-2026-91097-CVE-2026-91106)
 
+### CVE-2026-91159
+- [sl4x0/autheo-cve-2026-91159-poc](https://github.com/sl4x0/autheo-cve-2026-91159-poc)
+
 ### CVE-2026-91843 (2026-09-16)
 
 <code>A stack overflow during the unauthenticated login process may allow an attacker to run arbitrary code remotely with root privileges.
@@ -17837,6 +17846,20 @@
 </code>
 
 - [BomboBombone/CVE-2026-103446](https://github.com/BomboBombone/CVE-2026-103446)
+
+### CVE-2026-103584 (2026-09-30)
+
+<code>Improper neutralization of Script-Related HTML tags in a web page (basic XSS) vulnerability in The Wikimedia Foundation MediaWiki CommonsMetadata extension allows Cross-Site Scripting (XSS).\n\nThis issue affects MediaWiki CommonsMetadata extension: 1.46, 1.45, and 1.43.
+</code>
+
+- [BomboBombone/CVE-2026-103584](https://github.com/BomboBombone/CVE-2026-103584)
+
+### CVE-2026-103585 (2026-09-30)
+
+<code>Improper neutralization of Script-Related HTML tags in a web page (basic XSS) vulnerability in The Wikimedia Foundation MediaWiki MediaSearch extension allows Cross-Site Scripting (XSS).\n\nThis issue affects MediaWiki MediaSearch extension: 1.46, 1.45, and 1.43.
+</code>
+
+- [BomboBombone/CVE-2026-103585](https://github.com/BomboBombone/CVE-2026-103585)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -22690,7 +22713,6 @@
 </code>
 
 - [tansique-17/CVE-2025-26198](https://github.com/tansique-17/CVE-2025-26198)
-- [WailYacoubi9/CVE-2025-26198](https://github.com/WailYacoubi9/CVE-2025-26198)
 
 ### CVE-2025-26199 (2025-06-18)
 
