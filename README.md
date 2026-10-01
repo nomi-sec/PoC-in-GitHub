@@ -14594,6 +14594,13 @@
 
 - [Rat5ak/CVE-2026-61946-Easy-Appointments-IDOR](https://github.com/Rat5ak/CVE-2026-61946-Easy-Appointments-IDOR)
 
+### CVE-2026-62059 (2026-10-01)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Ultimate Member Ultimate Member ultimate-member allows Blind SQL Injection.This issue affects Ultimate Member: from n/a through 2.13.1.
+</code>
+
+- [Hassham1/CVE-2026-62059-ultimate-member-sqli-poc](https://github.com/Hassham1/CVE-2026-62059-ultimate-member-sqli-poc)
+
 ### CVE-2026-62062 (2026-09-25)
 
 <code>Cross-Site Request Forgery (CSRF) vulnerability in Elementor Website Builder allows Cross Site Request Forgery.\n\nThis issue affects Elementor Website Builder: from n/a through 4.3.1.
@@ -16986,13 +16993,6 @@
 
 - [murrez/CVE-2026-85520](https://github.com/murrez/CVE-2026-85520)
 
-### CVE-2026-85612 (2026-09-04)
-
-<code>OpenPanel before 2.3.0 contains an unauthenticated server-side request forgery vulnerability in the /misc/favicon and /misc/og endpoints that accept an attacker-supplied url parameter with insufficient validation. Attackers can force the API to fetch arbitrary internal hosts and cloud metadata endpoints, with small responses returned verbatim enabling credential theft and internal service enumeration.
-</code>
-
-- [hotplugin0x01/CVE-2026-85612](https://github.com/hotplugin0x01/CVE-2026-85612)
-
 ### CVE-2026-85625 (2026-09-04)
 
 <code>sift (sift.js) 17.1.3 enumerates query keys with for...in, which walks the object prototype chain, and dispatches any matched operator key including $where. The $where operation compiles a string value into a function using new Function unless CSP_ENABLED is set (not set by default). As a result, if a prototype-pollution primitive elsewhere in the process sets Object.prototype.$where to a malicious string, even benign filter calls such as sift({}) execute arbitrary JavaScript. Additionally, passing an untrusted query object containing a string $where directly to sift results in code execution under the default configuration.
@@ -17114,6 +17114,7 @@
 </code>
 
 - [DeAurity/CVE-2026-86950-POC](https://github.com/DeAurity/CVE-2026-86950-POC)
+- [msuiche/hotcell](https://github.com/msuiche/hotcell)
 
 ### CVE-2026-86998
 - [squeeze440/pasteguard-PoC](https://github.com/squeeze440/pasteguard-PoC)
@@ -17374,6 +17375,7 @@
 - [ExDev994/CVE-2026-90817](https://github.com/ExDev994/CVE-2026-90817)
 - [yulisec/CVE-2026-90817](https://github.com/yulisec/CVE-2026-90817)
 - [Farih123/CVE-2026-90817](https://github.com/Farih123/CVE-2026-90817)
+- [securifera/CVE-2026-90817](https://github.com/securifera/CVE-2026-90817)
 
 ### CVE-2026-90847 (2026-09-15)
 
@@ -17388,6 +17390,13 @@
 </code>
 
 - [HORKimhab/CVE-2026-90898](https://github.com/HORKimhab/CVE-2026-90898)
+
+### CVE-2026-90907 (2026-09-29)
+
+<code>Joomla! Core - [20260902] - Core - Unauthorized user account creation via profile.save controller in Joomla 1.5.0-5.4.8, 6.0.0-6.1.3 - The profile.save controller did not check the login state of a user, allowing the creation of guest-level users on sites without active user registration.
+</code>
+
+- [aorozco-sys/CVE-2026-90907](https://github.com/aorozco-sys/CVE-2026-90907)
 
 ### CVE-2026-91097 (2026-09-16)
 
@@ -17497,6 +17506,7 @@
 </code>
 
 - [WadesWeaponShed/CVE-2026-93616_Checks](https://github.com/WadesWeaponShed/CVE-2026-93616_Checks)
+- [BishopFox/CVE-2026-93616-check](https://github.com/BishopFox/CVE-2026-93616-check)
 
 ### CVE-2026-93659 (2026-09-18)
 
@@ -17712,7 +17722,7 @@
 <code>Joomla Extension - lomart.fr - Unauthenticated remote code installation in UP plugin extension 5.0.0-5.2.0, 6.0.0-6.0.29
 </code>
 
-- [qeize/cve-2026-97163-payload](https://github.com/qeize/cve-2026-97163-payload)
+- [kize7/cve-2026-97163-payload](https://github.com/kize7/cve-2026-97163-payload)
 - [murrez/CVE-2026-97163](https://github.com/murrez/CVE-2026-97163)
 
 ### CVE-2026-97347 (2026-09-30)
@@ -17749,6 +17759,13 @@
 </code>
 
 - [dpfkdlemtp/CVE-2026-100633](https://github.com/dpfkdlemtp/CVE-2026-100633)
+
+### CVE-2026-100671 (2026-09-26)
+
+<code>Grav is a flat-file CMS. In versions 2.0.19 through 2.0.24 — and in 2.0.0 through 2.0.18 and 1.7.x only where content Twig has been explicitly enabled — page content authored by a user holding only page-write permission is rendered through a Twig sandbox that allowlists get_cookie(), which returns any cookie sent with the current request, including the visitor's session cookie. Because the read occurs server-side via filter_input(INPUT_COOKIE, ...), the HttpOnly, Secure and SameSite attributes offer no protection. Grav then stores the finished post-Twig output in a page-content cache keyed only on page identity and the configuration checksum, with no session, user or request dimension and no bypass for authenticated visitors. A page published by a page-write user can therefore capture the session identifier of the next administrator who views it, after which the cached output serves that identifier to unauthenticated visitors, who can replay the cookie to authenticate as that administrator. Since 2.0.19, security.twig_content.process_enabled defaults to true and Security::applyTwigContentDefault() derives each page's process.twig flag from that gate, so content Twig runs on every page with no frontmatter or operator action. Fixed in 2.0.25; 1.7.x is outside the backport scope.
+</code>
+
+- [canhieu/cve-2026-100671-poc](https://github.com/canhieu/cve-2026-100671-poc)
 
 ### CVE-2026-100721 (2026-09-27)
 
@@ -17913,6 +17930,12 @@
 </code>
 
 - [BomboBombone/CVE-2026-103585](https://github.com/BomboBombone/CVE-2026-103585)
+
+### CVE-2026-103977
+- [pervinzahidli/CVE-2026-103977](https://github.com/pervinzahidli/CVE-2026-103977)
+
+### CVE-2026-104110
+- [pervinzahidli/CVE-2026-104110](https://github.com/pervinzahidli/CVE-2026-104110)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -21676,7 +21699,6 @@
 - [ynwarcs/CVE-2025-21298](https://github.com/ynwarcs/CVE-2025-21298)
 - [TheBl4ckPh4nt0m/CVE-2025-21298](https://github.com/TheBl4ckPh4nt0m/CVE-2025-21298)
 - [fy-poc/full-poc-CVE-2025_21298](https://github.com/fy-poc/full-poc-CVE-2025_21298)
-- [Arkha-Corvus/LetsDefend-SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298-](https://github.com/Arkha-Corvus/LetsDefend-SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298-)
 - [tarunbharathe/Zero-Click-RCE-Incident-Response-CVE-2025-21298](https://github.com/tarunbharathe/Zero-Click-RCE-Incident-Response-CVE-2025-21298)
 - [C-G-creator/LetsDefend-SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298](https://github.com/C-G-creator/LetsDefend-SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298)
 - [abc1230940/SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298](https://github.com/abc1230940/SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298)
@@ -25598,6 +25620,13 @@
 
 - [pvharmo2/gha-lab-2f775f277c](https://github.com/pvharmo2/gha-lab-2f775f277c)
 
+### CVE-2025-47947 (2025-05-21)
+
+<code>ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx. Versions up to and including 2.9.8 are vulnerable to denial of service in one special case (in stable released versions): when the payload's content type is `application/json`, and there is at least one rule which does a `sanitiseMatchedBytes` action. A patch is available at pull request 3389 and expected to be part of version 2.9.9. No known workarounds are available.
+</code>
+
+- [yel1337/CVE-2025-47947](https://github.com/yel1337/CVE-2025-47947)
+
 ### CVE-2025-47962 (2025-06-10)
 
 <code>Improper access control in Windows SDK allows an authorized attacker to elevate privileges locally.
@@ -28411,7 +28440,7 @@
 - [YuvrajSHAD/FreePBX-CVE-2025-57819](https://github.com/YuvrajSHAD/FreePBX-CVE-2025-57819)
 - [0xyngtg/FreePBX-CVE-2025-57819-CVE-2025-61678](https://github.com/0xyngtg/FreePBX-CVE-2025-57819-CVE-2025-61678)
 - [ozcanpng/CVE-2025-57819-FreePBX-RCE2Root](https://github.com/ozcanpng/CVE-2025-57819-FreePBX-RCE2Root)
-- [RokuSec/FreePBX-SQLi-RCE](https://github.com/RokuSec/FreePBX-SQLi-RCE)
+- [TheScriptKiddoz/FreePBX-SQLi-RCE](https://github.com/TheScriptKiddoz/FreePBX-SQLi-RCE)
 - [Its1Zero/cve-2025-57819-exploit](https://github.com/Its1Zero/cve-2025-57819-exploit)
 - [K3ysTr0K3R/CVE-2025-57819](https://github.com/K3ysTr0K3R/CVE-2025-57819)
 - [Neobee714/CVE-2025-57819-POC](https://github.com/Neobee714/CVE-2025-57819-POC)
@@ -35168,6 +35197,7 @@
 - [scherepiuk/container-escape-ebpf](https://github.com/scherepiuk/container-escape-ebpf)
 - [Strikoder-Premium/cve-2024-21626-runc-1.1.11-escape](https://github.com/Strikoder-Premium/cve-2024-21626-runc-1.1.11-escape)
 - [RnW29/cve-2024-21626-runc-lab](https://github.com/RnW29/cve-2024-21626-runc-lab)
+- [MutagomaRaissa/container-security-lab-cve-2024-21626](https://github.com/MutagomaRaissa/container-security-lab-cve-2024-21626)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -45229,7 +45259,6 @@
 - [killvxk/CVE-2023-22515-joaoviictorti](https://github.com/killvxk/CVE-2023-22515-joaoviictorti)
 - [vivigotnotime/CVE-2023-22515-Exploit-Script](https://github.com/vivigotnotime/CVE-2023-22515-Exploit-Script)
 - [tranphuc2005/CVE-2023-22515](https://github.com/tranphuc2005/CVE-2023-22515)
-- [Arkha-Corvus/LetsDefend-SOC235-Atlassian-Confluence-Broken-Access-Control-0-Day-CVE-2023-22515-EventID-197](https://github.com/Arkha-Corvus/LetsDefend-SOC235-Atlassian-Confluence-Broken-Access-Control-0-Day-CVE-2023-22515-EventID-197)
 - [CyberSentinel321/cve-2023-22515-lab](https://github.com/CyberSentinel321/cve-2023-22515-lab)
 - [dkq-k/CVE-2023-22515](https://github.com/dkq-k/CVE-2023-22515)
 - [dkq-k/cve-2023-22515-1](https://github.com/dkq-k/cve-2023-22515-1)
@@ -46489,6 +46518,7 @@
 - [netuseradministrator/CVE-2023-28432](https://github.com/netuseradministrator/CVE-2023-28432)
 - [xk-mt/CVE-2023-28432](https://github.com/xk-mt/CVE-2023-28432)
 - [BitWiz4rd/CVE-2023-28432](https://github.com/BitWiz4rd/CVE-2023-28432)
+- [cgi-italy-insula-processing/minio](https://github.com/cgi-italy-insula-processing/minio)
 
 ### CVE-2023-28434 (2023-03-22)
 
@@ -54354,7 +54384,6 @@
 - [guigui237/Expoitation-de-la-vuln-rabilit-CVE-2022-22965](https://github.com/guigui237/Expoitation-de-la-vuln-rabilit-CVE-2022-22965)
 - [jashan-lefty/Spring4Shell](https://github.com/jashan-lefty/Spring4Shell)
 - [brunoh6/web-threat-mitigation](https://github.com/brunoh6/web-threat-mitigation)
-- [osungjinwoo/CVE-2022-22965](https://github.com/osungjinwoo/CVE-2022-22965)
 - [Nosie12/fire-wall-server](https://github.com/Nosie12/fire-wall-server)
 - [salo-404/firewall](https://github.com/salo-404/firewall)
 - [shoucheng3/spring-projects__spring-framework_CVE-2022-22965_5-2-19-RELEASE](https://github.com/shoucheng3/spring-projects__spring-framework_CVE-2022-22965_5-2-19-RELEASE)
@@ -56532,7 +56561,6 @@
 - [yeep1115/ICT287_CVE-2022-30190_Exploit](https://github.com/yeep1115/ICT287_CVE-2022-30190_Exploit)
 - [RathoreAbhiii/Folina-Vulnerability-Exploitation-Detection-and-Mitigation](https://github.com/RathoreAbhiii/Folina-Vulnerability-Exploitation-Detection-and-Mitigation)
 - [seinab-ibrahim/Follina-Vulnerability-CVE-2022-30190-Exploit-Analysis](https://github.com/seinab-ibrahim/Follina-Vulnerability-CVE-2022-30190-Exploit-Analysis)
-- [Arkha-Corvus/LetsDefend-SOC173-Follina-0-Day-Detected](https://github.com/Arkha-Corvus/LetsDefend-SOC173-Follina-0-Day-Detected)
 - [nimesh895/Malware-Analysis-Follina-CVE-2022-30190](https://github.com/nimesh895/Malware-Analysis-Follina-CVE-2022-30190)
 - [bcarrulo/Lab-CVE-2022-30190](https://github.com/bcarrulo/Lab-CVE-2022-30190)
 - [ImVihanga03/Static-Malware-Analysis-Follina-CVE-2022-30190](https://github.com/ImVihanga03/Static-Malware-Analysis-Follina-CVE-2022-30190)
@@ -59532,8 +59560,6 @@
 - [bomberfish/Mandela-Classic](https://github.com/bomberfish/Mandela-Classic)
 - [enty8080/MacDirtyCow](https://github.com/enty8080/MacDirtyCow)
 - [tdquang266/MDC](https://github.com/tdquang266/MDC)
-- [daviszhto/overwrite](https://github.com/daviszhto/overwrite)
-- [LumberjackStorys/CVE](https://github.com/LumberjackStorys/CVE)
 
 ### CVE-2022-46718 (2023-06-23)
 
@@ -74824,7 +74850,6 @@
 </code>
 
 - [francozappa/knob](https://github.com/francozappa/knob)
-- [coffeeesd/knob](https://github.com/coffeeesd/knob)
 
 ### CVE-2019-9511 (2019-08-13)
 
@@ -82782,6 +82807,7 @@
 - [K3ysTr0K3R/CVE-2017-9841-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-9841-EXPLOIT)
 - [drcrypterdotru/PHPUnit-GoScan](https://github.com/drcrypterdotru/PHPUnit-GoScan)
 - [krisdewa/CVE-2017-9841-PHPUnit-Remote-Code-Execution-PoC](https://github.com/krisdewa/CVE-2017-9841-PHPUnit-Remote-Code-Execution-PoC)
+- [CheLover86/CVE-2017-9841](https://github.com/CheLover86/CVE-2017-9841)
 
 ### CVE-2017-9934 (2017-07-17)
 
