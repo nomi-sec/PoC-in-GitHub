@@ -6711,6 +6711,7 @@
 
 - [CEAarab/CVE-2026-26026-PoC](https://github.com/CEAarab/CVE-2026-26026-PoC)
 - [wuyou6956-glitch/CVE-2026-26026-PoC](https://github.com/wuyou6956-glitch/CVE-2026-26026-PoC)
+- [petriQore/CVE-2026-26026_PoC](https://github.com/petriQore/CVE-2026-26026_PoC)
 
 ### CVE-2026-26030 (2026-02-19)
 
@@ -9102,6 +9103,7 @@
 - [kaleth4/CVE-2026-33825](https://github.com/kaleth4/CVE-2026-33825)
 - [Joe1sn/CVE-2026-33825](https://github.com/Joe1sn/CVE-2026-33825)
 - [0xBlackash/CVE-2026-33825](https://github.com/0xBlackash/CVE-2026-33825)
+- [anasabugaddara-ux/defender-bluehammer-audit](https://github.com/anasabugaddara-ux/defender-bluehammer-audit)
 
 ### CVE-2026-33826 (2026-04-14)
 
@@ -10912,7 +10914,6 @@
 - [CerberusMrXi/cPanel-WHM-CVE-2026-41940-auth-bypass-exploit](https://github.com/CerberusMrXi/cPanel-WHM-CVE-2026-41940-auth-bypass-exploit)
 - [keithbennedict/CVE-2026-41940-Linux](https://github.com/keithbennedict/CVE-2026-41940-Linux)
 - [yanchenyu360/CVE-2026-41940-Security-Patch](https://github.com/yanchenyu360/CVE-2026-41940-Security-Patch)
-- [t4xo/CVE-2026-41940](https://github.com/t4xo/CVE-2026-41940)
 - [0xgh057r3c0n/CVE-2026-41940](https://github.com/0xgh057r3c0n/CVE-2026-41940)
 - [Xrzmodz444/cve-2026-41940-PoC-Linux](https://github.com/Xrzmodz444/cve-2026-41940-PoC-Linux)
 - [yasouxken/cve-2026-41940-PoC](https://github.com/yasouxken/cve-2026-41940-PoC)
@@ -11483,6 +11484,7 @@
 - [CKwasd/zenfone9-ghostlock](https://github.com/CKwasd/zenfone9-ghostlock)
 - [mo2g/redmi-note-12t-pro-kernel](https://github.com/mo2g/redmi-note-12t-pro-kernel)
 - [L-1124/RootMyVivo-rs](https://github.com/L-1124/RootMyVivo-rs)
+- [L-1124/RootMyVivo-Exploit](https://github.com/L-1124/RootMyVivo-Exploit)
 - [ZeroDayEvil/CVE-2026-43499](https://github.com/ZeroDayEvil/CVE-2026-43499)
 - [shubhampathak65/CVE-2026-43499](https://github.com/shubhampathak65/CVE-2026-43499)
 - [HaSiyo/Root-My-Galaxy-Payloads-KernelSU-Next](https://github.com/HaSiyo/Root-My-Galaxy-Payloads-KernelSU-Next)
@@ -13057,13 +13059,6 @@
 
 - [xiaoqiMikko/log4j-check](https://github.com/xiaoqiMikko/log4j-check)
 
-### CVE-2026-49865 (2026-09-11)
-
-<code>Kimai is an open-source time tracking application. Versions prior to 2.58.0 contain a server-side request forgery vulnerability in their invoice PDF preview and generation workflow. If an attacker can control Markdown content that is later rendered into an invoice PDF, such as `Customer.invoiceText`, the server-side PDF renderer will fetch remote image URLs embedded in Markdown image syntax. This allows the application server to issue outbound requests to attacker-controlled or internal targets during PDF rendering. The behavior can be used for internal network probing, server-side reachability checks, and potentially follow-on exploitation depending on deployment environment and accessible internal services. Version 2.58.0 patches the issue.
-</code>
-
-- [cyeezy08/Kimai-CVE-2026-49865-POC](https://github.com/cyeezy08/Kimai-CVE-2026-49865-POC)
-
 ### CVE-2026-49869 (2026-06-26)
 
 <code>Kestra is an open-source, event-driven orchestration platform. Prior to 1.0.45 and 1.3.21, AuthenticationFilter in Kestra OSS uses request.getPath().endsWith(&quot;/configs&quot;) to whitelist the public configuration endpoint from Basic Auth. Because the check is a suffix match rather than an exact path match, any API path whose last segment is configs bypasses authentication entirely. An unauthenticated remote attacker can exploit this to create and execute arbitrary workflows without credentials. Because Kestra ships with script execution plugins (plugin-script-shell, plugin-script-python, etc.) enabled by default, this directly results in unauthenticated Remote Code Execution as root inside the Kestra worker container.  This vulnerability is fixed in 1.0.45 and 1.3.21.
@@ -13479,6 +13474,7 @@
 <code>Kimai is an open-source time tracking application. Prior to 2.58.0, the official Docker image sets APP_SECRET to the public value change_this_to_something_unique in Dockerfile, and .docker/entrypoint.sh neither replaces nor rejects that value before Symfony uses it as kernel.secret. An unauthenticated attacker who reaches a deployment that did not override APP_SECRET, knows a username, correctly guesses the account ID associated with that username, and targets an account without active two-factor authentication can forge HMAC-protected authentication artifacts, including KIMAI_REMEMBER cookies and login links, to access the account without its password. The updated entrypoint generates and persists a random secret when no safe operator-provided value exists. This issue is fixed in version 2.58.0.
 </code>
 
+- [cyeezy08/Kimai-CVE-2026-52824-POC](https://github.com/cyeezy08/Kimai-CVE-2026-52824-POC)
 - [AzureADTrent/CVE-2026-52824](https://github.com/AzureADTrent/CVE-2026-52824)
 
 ### CVE-2026-52832 (2026-09-02)
@@ -14604,6 +14600,13 @@
 </code>
 
 - [abraxas/CVE-2026-62062](https://github.com/abraxas/CVE-2026-62062)
+
+### CVE-2026-62146 (2026-09-30)
+
+<code>A trust-boundary flaw in CRI-O's sandbox state persistence allows attacker-influenced pod metadata to overwrite CRI-O's own reserved sandbox bookkeeping; once reloaded as trusted after a restart, a later container recreate in that sandbox can expose a host-side runtime-management resource inside the container, enabling container escape.
+</code>
+
+- [TeamN4C/SG-2026-0026](https://github.com/TeamN4C/SG-2026-0026)
 
 ### CVE-2026-62183 (2026-07-20)
 
@@ -17251,6 +17254,7 @@
 - [techupdate24/citrix-netscaler-cve-2026-88771-rce](https://github.com/techupdate24/citrix-netscaler-cve-2026-88771-rce)
 - [SwiftSecur/CVE-2026-88771-HuntScript](https://github.com/SwiftSecur/CVE-2026-88771-HuntScript)
 - [bkchaudhari/NetScaler-CTX697096-Assessment-Script](https://github.com/bkchaudhari/NetScaler-CTX697096-Assessment-Script)
+- [emilstahl/pitscaler](https://github.com/emilstahl/pitscaler)
 
 ### CVE-2026-88772 (2026-09-27)
 
@@ -17260,6 +17264,13 @@
 - [watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88772](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88772)
 - [murrez/CVE-2026-88772](https://github.com/murrez/CVE-2026-88772)
 - [FollowerSeize/CVE-2026-88772-POC](https://github.com/FollowerSeize/CVE-2026-88772-POC)
+
+### CVE-2026-88789 (2026-10-01)
+
+<code>Improper Restriction of XML External Entity Reference in the XSLT support extension (camel-quarkus-support-xalan) in Apache Camel Quarkus from 3.2.0 before 3.33.3 and from 3.34.0 before 3.40.0 on all platforms allows an attacker who supplies the XML document being transformed to read local files or issue requests to internal network locations via an external entity declaration in that document.\n\nThe extension supplies its own Xalan-backed TransformerFactory to the xslt component and registers it as the JAXP default. Xalan-J 2.7.x predates JAXP 1.5 and does not honour javax.xml.XMLConstants.ACCESS_EXTERNAL_DTD or ACCESS_EXTERNAL_STYLESHEET, so the external access restrictions Apache Camel applies to the TransformerFactory it creates were not in effect. On the xslt component path this affects message bodies that reach the transformer already as a javax.xml.transform.Source; bodies of other types are converted to a SAXSource by Apache Camel with external entities and external DTD loading disabled, and are not affected. Because the factory is also the JAXP default, other code in the application obtaining one through TransformerFactory.newInstance() loses the same restrictions without error.\n\nApplications are affected if they use any of camel-quarkus-xslt, camel-quarkus-xslt-saxon, camel-quarkus-tika or camel-quarkus-xmlsecurity, each of which brings the XSLT support extension onto the classpath. For all but camel-quarkus-xslt, the exposure is limited to the JAXP default factory, since those extensions do not perform XSLT transformations themselves.\n\nUsers are recommended to upgrade to version 3.33.3 or 3.40.0, which fixes this issue.
+</code>
+
+- [oscerd/CVE-2026-88789](https://github.com/oscerd/CVE-2026-88789)
 
 ### CVE-2026-88854 (2026-09-20)
 
@@ -17288,6 +17299,13 @@
 </code>
 
 - [uziii2208/CVE-2026-88899](https://github.com/uziii2208/CVE-2026-88899)
+
+### CVE-2026-88996 (2026-09-25)
+
+<code>The WPForms – AI Form Builder for WordPress – Contact Forms, Payment Forms, Survey Form, Quiz &amp; More plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via 'page_title' POST Parameter via {page_title} Smart Tag in all versions up to, and including, 2.0.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link. This is only exploitable on forms whose admin-authored confirmation message places the {page_title} Smart Tag inside an HTML attribute context.
+</code>
+
+- [dorkerdevil/wpforms-xss-fix-bypass](https://github.com/dorkerdevil/wpforms-xss-fix-bypass)
 
 ### CVE-2026-88997 (2026-09-23)
 
@@ -17819,6 +17837,7 @@
 </code>
 
 - [murrez/CVE-2026-102425](https://github.com/murrez/CVE-2026-102425)
+- [tonydelouvre/CVE-2026-102425](https://github.com/tonydelouvre/CVE-2026-102425)
 
 ### CVE-2026-102427 (2026-09-30)
 
@@ -19976,6 +19995,7 @@
 - [ixZODiAK/CVE-2025-8110](https://github.com/ixZODiAK/CVE-2025-8110)
 - [9xh4kv/CVE-2025-8110](https://github.com/9xh4kv/CVE-2025-8110)
 - [r3vpwnx/CVE-2025-8110](https://github.com/r3vpwnx/CVE-2025-8110)
+- [Makis6/CVE-2025-8110](https://github.com/Makis6/CVE-2025-8110)
 
 ### CVE-2025-8191 (2025-07-26)
 
@@ -25230,6 +25250,9 @@
 
 - [yggcwhat/CVE-2025-46080](https://github.com/yggcwhat/CVE-2025-46080)
 
+### CVE-2025-46087
+- [Rollingzzzzz/heif-heist-lab](https://github.com/Rollingzzzzz/heif-heist-lab)
+
 ### CVE-2025-46099 (2025-07-23)
 
 <code>In Pluck CMS 4.7.20-dev, an authenticated attacker can upload or create a crafted PHP file under the albums module directory and access it via the module routing logic in albums.site.php, resulting in arbitrary command execution through a GET parameter.
@@ -27673,6 +27696,7 @@
 - [razureink/cve-2025-55182-react2shell_reproduction](https://github.com/razureink/cve-2025-55182-react2shell_reproduction)
 - [indra-031/React2Shell-Exploit-CVE-2025-55182](https://github.com/indra-031/React2Shell-Exploit-CVE-2025-55182)
 - [Phucc29/CVE-2025-55182](https://github.com/Phucc29/CVE-2025-55182)
+- [3SC0133/CVE-2025-55182-React2Shell](https://github.com/3SC0133/CVE-2025-55182-React2Shell)
 - [CerberusMrXi/CVE-2025-55182-Advanced-React-Server-Components-RCE-Exploit](https://github.com/CerberusMrXi/CVE-2025-55182-Advanced-React-Server-Components-RCE-Exploit)
 - [dotnetguard/CVE-2025-55182-Exploit](https://github.com/dotnetguard/CVE-2025-55182-Exploit)
 - [aisha-jimoh/cve-2025-55182-react2shell-analysis](https://github.com/aisha-jimoh/cve-2025-55182-react2shell-analysis)
@@ -67392,6 +67416,7 @@
 
 - [Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0188](https://github.com/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0188)
 - [ShaikUsaf/ShaikUsaf-packages_apps_settings_AOSP10_r33_CVE-2020-0188](https://github.com/ShaikUsaf/ShaikUsaf-packages_apps_settings_AOSP10_r33_CVE-2020-0188)
+- [Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0188_CVE-0219](https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0188_CVE-0219)
 
 ### CVE-2020-0192 (2020-06-11)
 
@@ -67429,6 +67454,13 @@
 
 - [pazhanivel07/frameworks_base_CVE-2020-0209](https://github.com/pazhanivel07/frameworks_base_CVE-2020-0209)
 
+### CVE-2020-0215 (2020-06-11)
+
+<code>In onCreate of ConfirmConnectActivity.java, there is a possible leak of Bluetooth information due to a permissions bypass. This could lead to local escalation of privilege that exposes a pairing Bluetooth MAC address with no additional execution privileges needed. User interaction is needed for exploitation. Product: Android Versions: Android-9 Android-10 Android-11 Android-8.0 Android-8.1 Android ID: A-140417248
+</code>
+
+- [Trinadh465/packages_apps_Nfc_AOSP10_r33_CVE-2020-0215](https://github.com/Trinadh465/packages_apps_Nfc_AOSP10_r33_CVE-2020-0215)
+
 ### CVE-2020-0218 (2020-06-11)
 
 <code>In loadSoundModel and related functions of SoundTriggerHwService.cpp, there is possible out of bounds write due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-136005905
@@ -67443,6 +67475,8 @@
 
 - [pazhanivel07/Settings_10-r33_CVE-CVE-2020-0219](https://github.com/pazhanivel07/Settings_10-r33_CVE-CVE-2020-0219)
 - [Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0219](https://github.com/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0219)
+- [Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0219_CVE-2020-0188_old](https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0219_CVE-2020-0188_old)
+- [Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0219_CVE-2020-0188_old-one](https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0219_CVE-2020-0188_old-one)
 
 ### CVE-2020-0225 (2020-07-17)
 
@@ -67738,6 +67772,7 @@
 
 - [euphrat1ca/CVE-2020-0618](https://github.com/euphrat1ca/CVE-2020-0618)
 - [wortell/cve-2020-0618](https://github.com/wortell/cve-2020-0618)
+- [itstarsec/CVE-2020-0618](https://github.com/itstarsec/CVE-2020-0618)
 - [N3xtGenH4cker/CVE-2020-0618_DETECTION](https://github.com/N3xtGenH4cker/CVE-2020-0618_DETECTION)
 
 ### CVE-2020-0624 (2020-01-14)
@@ -67807,6 +67842,7 @@
 - [zyn3rgy/ecp_slap](https://github.com/zyn3rgy/ecp_slap)
 - [SLSteff/CVE-2020-0688-Scanner](https://github.com/SLSteff/CVE-2020-0688-Scanner)
 - [MrTiz/CVE-2020-0688](https://github.com/MrTiz/CVE-2020-0688)
+- [7heKnight/CVE-2020-0688](https://github.com/7heKnight/CVE-2020-0688)
 - [1337-llama/CVE-2020-0688-Python3](https://github.com/1337-llama/CVE-2020-0688-Python3)
 - [W01fh4cker/CVE-2020-0688-GUI](https://github.com/W01fh4cker/CVE-2020-0688-GUI)
 - [tvdat20004/CVE-2020-0688](https://github.com/tvdat20004/CVE-2020-0688)
@@ -68345,6 +68381,7 @@
 - [zzwlpx/weblogicPoc](https://github.com/zzwlpx/weblogicPoc)
 - [Dido1960/Weblogic-CVE-2020-2551-To-Internet](https://github.com/Dido1960/Weblogic-CVE-2020-2551-To-Internet)
 - [DaMinGshidashi/CVE-2020-2551](https://github.com/DaMinGshidashi/CVE-2020-2551)
+- [abbarhissarh/CVE-Exploit](https://github.com/abbarhissarh/CVE-Exploit)
 
 ### CVE-2020-2555 (2020-01-15)
 
@@ -68463,6 +68500,7 @@
 - [sujaygr8/CVE-2020-3452](https://github.com/sujaygr8/CVE-2020-3452)
 - [Aviksaikat/CVE-2020-3452](https://github.com/Aviksaikat/CVE-2020-3452)
 - [Veids/CVE-2020-3452_auto](https://github.com/Veids/CVE-2020-3452_auto)
+- [iveresk/cve-2020-3452](https://github.com/iveresk/cve-2020-3452)
 - [Cappricio-Securities/CVE-2020-3452](https://github.com/Cappricio-Securities/CVE-2020-3452)
 - [abrewer251/CVE-2020-3452_Cisco_ASA_PathTraversal](https://github.com/abrewer251/CVE-2020-3452_Cisco_ASA_PathTraversal)
 - [curtishoughton/CVE-2020-3452-Cisco-Python-Scanner](https://github.com/curtishoughton/CVE-2020-3452-Cisco-Python-Scanner)
@@ -69091,6 +69129,7 @@
 - [CrackerCat/CVE-2020-7961-Mass](https://github.com/CrackerCat/CVE-2020-7961-Mass)
 - [Alaa-abdulridha/POC-CVE-2020-7961-Token-iterate](https://github.com/Alaa-abdulridha/POC-CVE-2020-7961-Token-iterate)
 - [Alaa-abdulridha/GLiferay-CVE-2020-7961-golang](https://github.com/Alaa-abdulridha/GLiferay-CVE-2020-7961-golang)
+- [pashayogi/CVE-2020-7961-Mass](https://github.com/pashayogi/CVE-2020-7961-Mass)
 - [manrop2702/CVE-2020-7961](https://github.com/manrop2702/CVE-2020-7961)
 - [neverhavenamee/CVE-2020-7961](https://github.com/neverhavenamee/CVE-2020-7961)
 - [dinosn/liferay-ga4-rce-research](https://github.com/dinosn/liferay-ga4-rce-research)
@@ -69969,6 +70008,7 @@
 </code>
 
 - [0xAJ2K/CVE-2020-11022-CVE-2020-11023](https://github.com/0xAJ2K/CVE-2020-11022-CVE-2020-11023)
+- [Snorlyd/https-nj.gov---CVE-2020-11022](https://github.com/Snorlyd/https-nj.gov---CVE-2020-11022)
 - [okni2k/HW-Pyton-10](https://github.com/okni2k/HW-Pyton-10)
 - [ibnurusdianto/CVE-2020-11022](https://github.com/ibnurusdianto/CVE-2020-11022)
 
@@ -69977,6 +70017,7 @@
 <code>In jQuery versions greater than or equal to 1.0.3 and before 3.5.0, passing HTML containing &lt;option&gt; elements from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.
 </code>
 
+- [Snorlyd/https-nj.gov---CVE-2020-11023](https://github.com/Snorlyd/https-nj.gov---CVE-2020-11023)
 - [Cybernegro/CVE-2020-11023](https://github.com/Cybernegro/CVE-2020-11023)
 - [andreassundstrom/cve-2020-11023-demonstration](https://github.com/andreassundstrom/cve-2020-11023-demonstration)
 - [honeyb33z/cve-2020-11023-scanner](https://github.com/honeyb33z/cve-2020-11023-scanner)
@@ -70652,6 +70693,7 @@
 </code>
 
 - [RedTeamPentesting/CVE-2020-13935](https://github.com/RedTeamPentesting/CVE-2020-13935)
+- [aabbcc19191/CVE-2020-13935](https://github.com/aabbcc19191/CVE-2020-13935)
 
 ### CVE-2020-13937 (2020-10-19)
 
@@ -70688,6 +70730,7 @@
 <code>In Apache APISIX, the user enabled the Admin API and deleted the Admin API access IP restriction rules. Eventually, the default token is allowed to access APISIX management data. This affects versions 1.2, 1.3, 1.4, 1.5.
 </code>
 
+- [YutuSec/Apisix_Crack](https://github.com/YutuSec/Apisix_Crack)
 - [K3ysTr0K3R/CVE-2020-13945-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2020-13945-EXPLOIT)
 
 ### CVE-2020-13957 (2020-10-13)
@@ -72018,6 +72061,7 @@
 
 - [Schira4396/CVE-2020-25540](https://github.com/Schira4396/CVE-2020-25540)
 - [RajChowdhury240/ThinkAdmin-CVE-2020-25540](https://github.com/RajChowdhury240/ThinkAdmin-CVE-2020-25540)
+- [lowkey0808/cve-2020-25540](https://github.com/lowkey0808/cve-2020-25540)
 - [simonlee-hello/CVE-2020-25540](https://github.com/simonlee-hello/CVE-2020-25540)
 
 ### CVE-2020-25578 (2021-03-26)
@@ -72153,6 +72197,7 @@
 <code>Git Credential Manager Core (GCM Core) is a secure Git credential helper built on .NET Core that runs on Windows and macOS. In Git Credential Manager Core before version 2.0.289, when recursively cloning a Git repository on Windows with submodules, Git will first clone the top-level repository and then recursively clone all submodules by starting new Git processes from the top-level working directory. If a malicious git.exe executable is present in the top-level repository then this binary will be started by Git Credential Manager Core when attempting to read configuration, and not git.exe as found on the %PATH%. This only affects GCM Core on Windows, not macOS or Linux-based distributions. GCM Core version 2.0.289 contains the fix for this vulnerability, and is available from the project's GitHub releases page. GCM Core 2.0.289 is also bundled in the latest Git for Windows release; version 2.29.2(3). As a workaround, users should avoid recursively cloning untrusted repositories with the --recurse-submodules option.
 </code>
 
+- [whr819987540/test_CVE-2020-26233](https://github.com/whr819987540/test_CVE-2020-26233)
 - [an1p3lg5/CVE-2020-26233](https://github.com/an1p3lg5/CVE-2020-26233)
 
 ### CVE-2020-26258 (2020-12-16)
@@ -72644,6 +72689,7 @@
 <code>A file upload restriction bypass vulnerability in Pluck CMS before 4.7.13 allows an admin privileged user to gain access in the host through the &quot;manage files&quot; functionality, which may result in remote code execution.
 </code>
 
+- [abbarhissarh/CVE-2020-29607](https://github.com/abbarhissarh/CVE-2020-29607)
 - [0xN7y/CVE-2020-29607](https://github.com/0xN7y/CVE-2020-29607)
 - [Alienfader/CVE-2020-29607](https://github.com/Alienfader/CVE-2020-29607)
 - [CaelumIsMe/CVE-2020-29607-POC](https://github.com/CaelumIsMe/CVE-2020-29607-POC)
