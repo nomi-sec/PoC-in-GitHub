@@ -3240,7 +3240,7 @@
 
 ### CVE-2026-11499 (2026-06-08)
 
-<code>A vulnerability was determined in Tenda HG7HG9 and HG10 300001138_en_xpon. This affects the function formDOMAINBLK of the file /boaform/formDOMAINBLK. Executing a manipulation of the argument blkDomain can lead to stack-based buffer overflow. The attack may be performed from remote.
+<code>A vulnerability was determined in Tenda HG7, HG9 and HG10 300001138_en_xpon. This affects the function formDOMAINBLK of the file /boaform/formDOMAINBLK. Executing a manipulation of the argument blkDomain can lead to stack-based buffer overflow. The attack may be performed from remote.
 </code>
 
 - [0xBlackash/CVE-2026-11499](https://github.com/0xBlackash/CVE-2026-11499)
@@ -3263,7 +3263,7 @@
 
 ### CVE-2026-11553 (2026-06-08)
 
-<code>A vulnerability was found in Tenda HG7HG9 and HG10 300001138_en_xpon. This affects the function formPPPEdit of the file /boaform/formPPPEdit. The manipulation of the argument encodename results in stack-based buffer overflow. The attack can be launched remotely. The exploit has been made public and could be used.
+<code>A vulnerability was found in Tenda HG7, HG9 and HG10 300001138_en_xpon. This affects the function formPPPEdit of the file /boaform/formPPPEdit. The manipulation of the argument encodename results in stack-based buffer overflow. The attack can be launched remotely. The exploit has been made public and could be used.
 </code>
 
 - [gduma-phData/patch-CVE-2026-11553](https://github.com/gduma-phData/patch-CVE-2026-11553)
@@ -3652,6 +3652,14 @@
 </code>
 
 - [0xmrma/CVE-2026-14361](https://github.com/0xmrma/CVE-2026-14361)
+
+### CVE-2026-14378 (2026-10-02)
+
+<code>The DevKit Pro plugin for WordPress is vulnerable to Authentication Bypass Leading to Administrator Account Takeover in all versions up to, and including, 2.3.0 This is due to the `revert_switch` handler trusting the attacker-controlled `original_user_id` cookie as the privileged identity: `verify_nonce_and_capability()` incorrectly checks the `manage_options` capability on the user identified by the cookie rather than on the actual requester via `current_user_can()`, while the switch-back form and a valid session-bound nonce are emitted publicly via `wp_footer` to any visitor — including unauthenticated users — whenever that cookie is present. This makes it possible for unauthenticated attackers to set the `original_user_id` cookie to any administrator's user ID, collect the rendered nonce, and POST it back to the `revert_switch` handler, causing `wp_set_auth_cookie()` to be called with the administrator's ID and granting the attacker a full administrator-level authenticated session and complete site takeover.
+</code>
+
+- [anoxhunterdump-ctrl/CVE-2026-14378-DevKit-Pro-Auth-Bypass](https://github.com/anoxhunterdump-ctrl/CVE-2026-14378-DevKit-Pro-Auth-Bypass)
+- [murrez/CVE-2026-14378](https://github.com/murrez/CVE-2026-14378)
 
 ### CVE-2026-14382 (2026-07-01)
 
@@ -4273,6 +4281,13 @@
 
 - [rmhowe425/POC-CVE-2026-19295](https://github.com/rmhowe425/POC-CVE-2026-19295)
 
+### CVE-2026-19445 (2026-09-30)
+
+<code>A remote, unauthenticated TLS client can make a server crash or call\nthrough a freed pointer if its sni_callback assigns a different context to\nSSLSocket.context (the documented way to select a certificate per server\nname) and nothing else keeps the original ssl.SSLContext alive. Typical\ncases are servers that create an SSLContext per connection or replace it\nwhile connections are open; servers that wrap their listening socket with\nit are not affected.\n\n\nMitigation: keep a reference to every SSLContext that sets sni_callback for\nthe lifetime of the server. TLS clients are not affected.
+</code>
+
+- [abraxas/cve-2026-19445-sni-uaf](https://github.com/abraxas/cve-2026-19445-sni-uaf)
+
 ### CVE-2026-19478 (2026-08-17)
 
 <code>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.2 before 18.11.11, 19.0 before 19.0.8, 19.1 before 19.1.6, and 19.2 before 19.2.4 that under certain conditions could allow an unauthenticated user to remotely modify or delete public projects and user data via a GraphQL directive.
@@ -4313,6 +4328,13 @@
 </code>
 
 - [HORKimhab/CVE-2026-19516](https://github.com/HORKimhab/CVE-2026-19516)
+
+### CVE-2026-19553 (2026-09-30)
+
+<code>ssl.SSLContext.wrap_bio() didn't require the server_hostname argument\nto not be None if ssl.SSLContext.check_hostname was set. Due to a\nmissing parameter check in SSLObject, if the server_hostname argument\nisn't supplied then hostname verification would be silently skipped.\n\n\nThis defect could lead to programs where certificate hostname verification\n*appeared* to be succeeding with SSLContext.check_hostname = True and no\nValueError being raised due to misconfiguration.\n\n\nIf the program passes a server_hostname value that isn't an empty string\nor None to any of these APIs then certificate hostname verification\nproceeds as expected and the program is not affected by this vulnerability.\n\n\nMitigating this vulnerability doesn't require updating Python or applying\nthe patch. To mitigate, pass a valid non-None and non-empty\nserver_hostname value to SSLContext.wrap_bio(),\nasyncio.create_connection(), or asyncio.loop.start_tls() and\ncertificate hostname verification will proceed as expected. Upgrading to\nthe latest version of Python or applying the patch only changes the\nbehavior from silently skipping hostname verification to raising a\nValueError, similar to SSLContext.wrap_socket(), when server_hostname\nisn't supplied.
+</code>
+
+- [abraxas/cve-2026-19553-wrap-bio](https://github.com/abraxas/cve-2026-19553-wrap-bio)
 
 ### CVE-2026-19586 (2026-08-20)
 
@@ -4359,6 +4381,13 @@
 </code>
 
 - [murrez/CVE-2026-19658](https://github.com/murrez/CVE-2026-19658)
+
+### CVE-2026-19660 (2026-10-02)
+
+<code>The Divi Membership plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 2.3.0. The `process_paypal_callback` function, hooked to the `init` action, accepts a base64-encoded `paypal_param` GET parameter with no IPN validation, no cryptographic signature check, no ownership verification, and no nonce, allowing it to trust an entirely attacker-controlled user ID value that is passed directly to `wp_set_current_user()` and `wp_set_auth_cookie()`. This makes it possible for unauthenticated attackers to log in as any existing WordPress user — including administrators — by supplying an arbitrary user ID in the `paypal_param` GET parameter, resulting in full site takeover. The vulnerability is further compounded by the fact that the PayPal gateway class is instantiated unconditionally regardless of whether PayPal is enabled or configured, ensuring the vulnerable hook is always registered on every front-end request.
+</code>
+
+- [murrez/CVE-2026-19660](https://github.com/murrez/CVE-2026-19660)
 
 ### CVE-2026-19679 (2026-08-14)
 
@@ -14251,9 +14280,6 @@
 
 - [Is4yev/CVE-2026-57830](https://github.com/Is4yev/CVE-2026-57830)
 
-### CVE-2026-57836
-- [rahulreddykarne/CVE-2026-57836-Confluent_Kafka](https://github.com/rahulreddykarne/CVE-2026-57836-Confluent_Kafka)
-
 ### CVE-2026-57850 (2026-07-10)
 
 <code>RustDesk before 1.4.9 does not enforce a session's authorized connection scope on the server side, so a peer granted a limited session type (FileTransfer, PortForward, ViewCamera, or Terminal) can send control messages and login options reserved for a full Remote session. An authenticated remote peer can exploit this missing scope check to act outside its granted scope, injecting out-of-scope control messages to observe and control the host beyond the permissions it was given.
@@ -17926,6 +17952,13 @@
 </code>
 
 - [BomboBombone/CVE-2026-103585](https://github.com/BomboBombone/CVE-2026-103585)
+
+### CVE-2026-103752 (2026-10-01)
+
+<code>Unauthenticated Privilege Escalation in Authorizer &lt;= 3.15.3 versions.
+</code>
+
+- [anoxhunterdump-ctrl/CVE-2026-103752-Authorizer-Privilege-Escalation](https://github.com/anoxhunterdump-ctrl/CVE-2026-103752-Authorizer-Privilege-Escalation)
 
 ### CVE-2026-103977
 - [pervinzahidli/CVE-2026-103977](https://github.com/pervinzahidli/CVE-2026-103977)
