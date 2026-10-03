@@ -3904,6 +3904,14 @@
 - [Nxploited/CVE-2026-15981](https://github.com/Nxploited/CVE-2026-15981)
 - [katranSefa/CVE-2026-15981](https://github.com/katranSefa/CVE-2026-15981)
 
+### CVE-2026-15989 (2026-10-01)
+
+<code>The Super Forms – Drag &amp; Drop Form Builder plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 6.3.316. This is due to the Register &amp; Login add-on's before_email_success_msg() function whitelisting the client-submitted 'role' key and copying it into the user-data array that is passed directly to wp_insert_user(), without validating the submitted role against the administrator-configured register_user_role, without an allow-list, and without any current_user_can() capability check. This makes it possible for unauthenticated attackers to register a new account with the Administrator role by injecting role=administrator into the data submitted to any published Super Forms registration form (register_login_action='register').
+</code>
+
+- [fl0ydsec/CVE-2026-15989](https://github.com/fl0ydsec/CVE-2026-15989)
+- [antid00t/CVE-2026-15989](https://github.com/antid00t/CVE-2026-15989)
+
 ### CVE-2026-16219 (2026-07-19)
 
 <code>A flaw has been found in Croogo CMS up to 4.0.7. This affects the function FileManager::isEditable of the file FileManager/src/Utility/FileManager.php of the component Admin File Manager. This manipulation causes path traversal. The attack can be initiated remotely. The exploit has been published and may be used. The project was informed of the problem early through an issue report but has not responded yet.
@@ -11080,6 +11088,13 @@
 
 - [pvharmo2/gha-lab-677752506e](https://github.com/pvharmo2/gha-lab-677752506e)
 
+### CVE-2026-42322 (2026-09-25)
+
+<code>Piwigo is a full featured open source photo gallery application for the web. Prior to 16.4.0, admin/themes_standard_pages.php validates uploaded logo content by MIME type but reuses the attacker-controlled extension from std_pgs_logo when constructing the stored filename. An authenticated administrator can upload image content with a server-executable final extension, causing the file to be placed in the web-accessible logo directory and executed when requested if the web server handles that extension. This can permit arbitrary command execution, data disclosure, modification, persistence, and service disruption. This vulnerability is fixed in 16.4.0.
+</code>
+
+- [LipeOzyy/CVE-2026-42322](https://github.com/LipeOzyy/CVE-2026-42322)
+
 ### CVE-2026-42527 (2026-07-06)
 
 <code>Deserialization of Untrusted Data vulnerability in Apache Camel.\n\nThe default ObjectInputFilter pattern shipped with several Apache Camel components for defense-in-depth deserialization filtering ('java.**;javax.**;org.apache.camel.**;!*', or the no-'javax.**' variant in the aggregation-repository components) uses a recursive 'java.**' glob that admits classes whose hashCode/equals/readObject methods perform network I/O, notably java.net.URL and java.net.InetAddress. When an attacker can deliver a Java-serialized payload to an affected Camel consumer, deserialization of a HashMap (or any collection that calls hashCode on its elements) containing java.net.URL keys causes the JVM to issue DNS queries to the attacker-supplied host during the deserialization side-effect. The class-level filter check passes because the resulting object's class (HashMap) is allow-listed; the DNS query is observable on an attacker-controlled DNS server, providing an out-of-band side channel. The exposure is highest on the camel-jms family because JmsBinding.extractBodyFromJms invokes ObjectMessage.getObject() unconditionally when mapJmsMessage=true (default). Affected components: camel-jms, camel-sjms, camel-amqp, camel-mina, camel-netty, camel-netty-http, camel-vertx-http, camel-infinispan, and the aggregation repository components camel-leveldb, camel-cassandraql, camel-consul, camel-sql (JDBC aggregation repository).\nThis issue affects Apache Camel: from 4.14.0 before 4.14.8, from 4.15.0 before 4.18.3, from 4.19.0 before 4.21.0.\n\nUsers are recommended to upgrade to a version that contains the CAMEL-23372 fix once available: 4.21.0 for the 4.21.x line, 4.18.3 for the 4.18.x line, and 4.14.8 for the 4.14.x line. For deployments that cannot upgrade immediately, configure a JMS-provider-side allow-list (Apache ActiveMQ Artemis 'deserializationAllowList' / 'deserializationDenyList', Apache ActiveMQ Classic 'org.apache.activemq.SERIALIZABLE_PACKAGES') as the primary mitigation, and/or override the in-code default via the endpoint-level 'deserializationFilter' option or the JVM-wide '-Djdk.serialFilter' system property with an explicit deny: '!java.net.**;java.**;javax.**;org.apache.camel.**;!*' (or '!java.net.**;java.**;org.apache.camel.**;!*' for the aggregation-repository components, which do not include javax.**).
@@ -17333,6 +17348,13 @@
 - [murrez/CVE-2026-88772](https://github.com/murrez/CVE-2026-88772)
 - [FollowerSeize/CVE-2026-88772-POC](https://github.com/FollowerSeize/CVE-2026-88772-POC)
 
+### CVE-2026-88773 (2026-09-27)
+
+<code>Inconsistent interpretation of HTTP requests ('HTTP Request/Response smuggling') vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1-37.279 and NDcPP; Gateway: before 14.1-73.37 FIPS and before 13.1-64.23.
+</code>
+
+- [Scyrix-LLC/CVE-2026-88773](https://github.com/Scyrix-LLC/CVE-2026-88773)
+
 ### CVE-2026-88789 (2026-10-01)
 
 <code>Improper Restriction of XML External Entity Reference in the XSLT support extension (camel-quarkus-support-xalan) in Apache Camel Quarkus from 3.2.0 before 3.33.3 and from 3.34.0 before 3.40.0 on all platforms allows an attacker who supplies the XML document being transformed to read local files or issue requests to internal network locations via an external entity declaration in that document.\n\nThe extension supplies its own Xalan-backed TransformerFactory to the xslt component and registers it as the JAXP default. Xalan-J 2.7.x predates JAXP 1.5 and does not honour javax.xml.XMLConstants.ACCESS_EXTERNAL_DTD or ACCESS_EXTERNAL_STYLESHEET, so the external access restrictions Apache Camel applies to the TransformerFactory it creates were not in effect. On the xslt component path this affects message bodies that reach the transformer already as a javax.xml.transform.Source; bodies of other types are converted to a SAXSource by Apache Camel with external entities and external DTD loading disabled, and are not affected. Because the factory is also the JAXP default, other code in the application obtaining one through TransformerFactory.newInstance() loses the same restrictions without error.\n\nApplications are affected if they use any of camel-quarkus-xslt, camel-quarkus-xslt-saxon, camel-quarkus-tika or camel-quarkus-xmlsecurity, each of which brings the XSLT support extension onto the classpath. For all but camel-quarkus-xslt, the exposure is limited to the JAXP default factory, since those extensions do not perform XSLT transformations themselves.\n\nUsers are recommended to upgrade to version 3.33.3 or 3.40.0, which fixes this issue.
@@ -17935,6 +17957,7 @@
 
 ### CVE-2026-102282
 - [x86byte/adm-zip_LPE-PoC](https://github.com/x86byte/adm-zip_LPE-PoC)
+- [Ahmed-Elmahgob/POC-CVE-2026-102282](https://github.com/Ahmed-Elmahgob/POC-CVE-2026-102282)
 
 ### CVE-2026-102425 (2026-09-29)
 
@@ -18069,6 +18092,13 @@
 
 ### CVE-2026-104826
 - [KiwKNR/CVE-2026-104826](https://github.com/KiwKNR/CVE-2026-104826)
+
+### CVE-2026-105030 (2026-10-02)
+
+<code>Kener 4.0.0 before 4.1.6 contains an information disclosure vulnerability that allows unauthenticated attackers to retrieve hidden or inactive monitor data by querying dashboard API handlers lacking visibility filters. Attackers can supply a known or guessed monitor tag to endpoints such as monitor-bar and monitor-latency-chart to obtain names, descriptions, status, uptime history and latency.
+</code>
+
+- [asvorg/CVE-2026-105030-poc](https://github.com/asvorg/CVE-2026-105030-poc)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -32193,7 +32223,6 @@
 
 - [lfillaz/CVE-2024-2997](https://github.com/lfillaz/CVE-2024-2997)
 - [0xUho/CVE-2024-2997](https://github.com/0xUho/CVE-2024-2997)
-- [o9-9/CVE-2024-2997](https://github.com/o9-9/CVE-2024-2997)
 
 ### CVE-2024-3094 (2024-03-29)
 
@@ -46491,7 +46520,6 @@
 <code>Insecure Permissions vulnerability found in Extplorer File manager eXtplorer v.2.1.15 allows a remote attacker to execute arbitrary code via the index.php compenent
 </code>
 
-- [tristao-io/CVE-2023-27842](https://github.com/tristao-io/CVE-2023-27842)
 - [cowsecurity/CVE-2023-27842](https://github.com/cowsecurity/CVE-2023-27842)
 
 ### CVE-2023-27997 (2023-06-13)
@@ -49891,13 +49919,6 @@
 
 - [GhostBalladw/wuhaozhe-s-CVE](https://github.com/GhostBalladw/wuhaozhe-s-CVE)
 
-### CVE-2023-41646 (2023-09-07)
-
-<code>Buttercup v2.20.3 allows attackers to obtain the hash of the master password for the password manager via accessing the file /vaults.json/
-</code>
-
-- [tristao-io/CVE-2023-41646](https://github.com/tristao-io/CVE-2023-41646)
-
 ### CVE-2023-41652 (2023-11-03)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in David F. Carr RSVPMaker rsvpmaker allows SQL Injection.This issue affects RSVPMaker: from n/a through 10.6.6.
@@ -51553,15 +51574,6 @@
 </code>
 
 - [vinnie1717/CVE-2023-48974](https://github.com/vinnie1717/CVE-2023-48974)
-
-### CVE-2023-48981
-- [tristao-io/CVE-2023-48981](https://github.com/tristao-io/CVE-2023-48981)
-
-### CVE-2023-48982
-- [tristao-io/CVE-2023-48982](https://github.com/tristao-io/CVE-2023-48982)
-
-### CVE-2023-48983
-- [tristao-io/CVE-2023-48983](https://github.com/tristao-io/CVE-2023-48983)
 
 ### CVE-2023-49002 (2023-12-27)
 
@@ -59394,13 +59406,6 @@
 </code>
 
 - [M507/nmap-vulnerability-scan-scripts](https://github.com/M507/nmap-vulnerability-scan-scripts)
-
-### CVE-2022-45544 (2023-02-07)
-
-<code>Insecure Permission vulnerability in Schlix Web Inc SCHLIX CMS 2.2.7-2 allows attacker to upload arbitrary files and execute arbitrary code via the tristao parameter. NOTE: this is disputed by the vendor because an admin is intentionally allowed to upload new executable PHP code, such as a theme that was obtained from a trusted source or was developed for their own website. Only an admin can upload such code, not someone else in an &quot;attacker&quot; role.
-</code>
-
-- [tristao-io/CVE-2022-45544](https://github.com/tristao-io/CVE-2022-45544)
 
 ### CVE-2022-45599 (2023-02-22)
 
@@ -83178,7 +83183,7 @@
 <code>A remote code execution vulnerability in HPE intelligent Management Center (iMC) PLAT version Plat 7.3 E0504P4 and earlier was found.
 </code>
 
-- [Everdoh/CVE-2017-12561](https://github.com/Everdoh/CVE-2017-12561)
+- [parapapinho/CVE-2017-12561](https://github.com/parapapinho/CVE-2017-12561)
 
 ### CVE-2017-12611 (2017-09-20)
 
