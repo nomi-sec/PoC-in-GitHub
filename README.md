@@ -1405,6 +1405,7 @@
 - [Vusal777/CVE-2026-4480-exploit-poc](https://github.com/Vusal777/CVE-2026-4480-exploit-poc)
 - [ClearLotus-git/CVE-2026-4480-PoC](https://github.com/ClearLotus-git/CVE-2026-4480-PoC)
 - [timgad794/Abducted-HTB-Writeup](https://github.com/timgad794/Abducted-HTB-Writeup)
+- [AlanNewberry/CVE-2026-4480-samba-print-command-injection-rce](https://github.com/AlanNewberry/CVE-2026-4480-samba-print-command-injection-rce)
 
 ### CVE-2026-4484 (2026-03-26)
 
@@ -10325,6 +10326,7 @@
 - [ynsmroztas/FortiSandbox-RCE-Exploit-CVE-2026-39808](https://github.com/ynsmroztas/FortiSandbox-RCE-Exploit-CVE-2026-39808)
 - [HORKimhab/CVE-2026-39808](https://github.com/HORKimhab/CVE-2026-39808)
 - [error-inside/CVE-2026-39808](https://github.com/error-inside/CVE-2026-39808)
+- [gotr00t0day/CVE-2026-39808](https://github.com/gotr00t0day/CVE-2026-39808)
 
 ### CVE-2026-39813 (2026-04-14)
 
@@ -14854,6 +14856,7 @@
 - [langz337/CVE-2026-63030](https://github.com/langz337/CVE-2026-63030)
 - [jed-parsec/CVE-2026-63030-60137-wp2shell-lab](https://github.com/jed-parsec/CVE-2026-63030-60137-wp2shell-lab)
 - [MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026-60137-](https://github.com/MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026-60137-)
+- [hitechcloud-vietnam/wp2shell-PoC](https://github.com/hitechcloud-vietnam/wp2shell-PoC)
 
 ### CVE-2026-63039 (2026-08-20)
 
@@ -14988,6 +14991,7 @@
 - [aarif450/aarif450.github.io](https://github.com/aarif450/aarif450.github.io)
 - [HackSpeak/CVE-2026-64561](https://github.com/HackSpeak/CVE-2026-64561)
 - [chuzhongyun/CVE-2026-64561-Kernel-Fix](https://github.com/chuzhongyun/CVE-2026-64561-Kernel-Fix)
+- [hitechcloud-vietnam/Zapscape](https://github.com/hitechcloud-vietnam/Zapscape)
 
 ### CVE-2026-64563 (2026-08-04)
 
@@ -21903,6 +21907,13 @@
 
 - [patricnilackshan/Samsung-CVE-2025-21042](https://github.com/patricnilackshan/Samsung-CVE-2025-21042)
 
+### CVE-2025-21065 (2025-10-10)
+
+<code>Improper input validation in Retail Mode prior to version 5.59.11 allows self attackers to execute privileged commands on their own devices.
+</code>
+
+- [Pealeap/CVE-2025-21065](https://github.com/Pealeap/CVE-2025-21065)
+
 ### CVE-2025-21082 (2025-06-08)
 
 <code>in OpenHarmony v5.0.3 and prior versions allow a local attacker cause apps crash through type confusion.
@@ -24320,6 +24331,7 @@
 - [toshithh/CVE-2025-32433](https://github.com/toshithh/CVE-2025-32433)
 - [l1nuxkid/CVE-2025-32433-exploit](https://github.com/l1nuxkid/CVE-2025-32433-exploit)
 - [soltanali0/CVE-2025-32433-Eploit](https://github.com/soltanali0/CVE-2025-32433-Eploit)
+- [giriaryan694-a11y/cve-2025-32433_rce_exploit](https://github.com/giriaryan694-a11y/cve-2025-32433_rce_exploit)
 - [AntonieSoga/Erlang-OTP-PoC_CVE-2025-32433](https://github.com/AntonieSoga/Erlang-OTP-PoC_CVE-2025-32433)
 - [blackcat4347/CVE-2025-32433-available-for-windows](https://github.com/blackcat4347/CVE-2025-32433-available-for-windows)
 - [carlosalbertotuma/CVE-2025-32433](https://github.com/carlosalbertotuma/CVE-2025-32433)
@@ -74875,6 +74887,13 @@
 
 - [pattern-f/CVE-2019-8852](https://github.com/pattern-f/CVE-2019-8852)
 
+### CVE-2019-8900 (2025-02-21)
+
+<code>A vulnerability in the SecureROM of some Apple devices can be exploited by an unauthenticated local attacker to execute arbitrary code upon booting those devices. This vulnerability allows arbitrary code to be executed on the device. Exploiting the vulnerability requires physical access to the device: the device must be plugged in to a computer upon booting, and it must be put into Device Firmware Update (DFU) mode. The exploit is not persistent; rebooting the device overrides any changes to the device's software that were made during an exploited session on the device. Additionally, unless an attacker has access to the device's unlock PIN or fingerprint, an attacker cannot gain access to information protected by Apple's Secure Enclave or Touch ID features.
+</code>
+
+- [Weeabo-Inc/a9pwn](https://github.com/Weeabo-Inc/a9pwn)
+
 ### CVE-2019-8936 (2019-05-15)
 
 <code>NTP through 4.2.8p12 has a NULL Pointer Dereference.
@@ -88079,6 +88098,7 @@
 - [mehedi-hasan-sami98/DVWA-ZAP-PENTEST](https://github.com/mehedi-hasan-sami98/DVWA-ZAP-PENTEST)
 - [tanasescualexandrugabriel/Vulnerability-Assessment-and-OSINT-CVE-2012-1823](https://github.com/tanasescualexandrugabriel/Vulnerability-Assessment-and-OSINT-CVE-2012-1823)
 - [mujtaba815/metasploitable2-php-cgi-exploit](https://github.com/mujtaba815/metasploitable2-php-cgi-exploit)
+- [yilmaz8596/metasploitable-vulnerability-assessment](https://github.com/yilmaz8596/metasploitable-vulnerability-assessment)
 
 ### CVE-2012-1831 (2012-07-05)
 
@@ -89096,6 +89116,7 @@
 </code>
 
 - [0b0111100/2008](https://github.com/0b0111100/2008)
+- [yilmaz8596/metasploitable-vulnerability-assessment](https://github.com/yilmaz8596/metasploitable-vulnerability-assessment)
 
 ### CVE-2008-1447 (2008-07-08)
 
