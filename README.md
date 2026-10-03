@@ -3386,6 +3386,13 @@
 
 - [SneakyNachos/CVE-2026-12295-UXXS-in-my-wasm](https://github.com/SneakyNachos/CVE-2026-12295-UXXS-in-my-wasm)
 
+### CVE-2026-12345 (2026-09-29)
+
+<code>The cleanup of tempfile.TemporaryDirectory is vulnerable to a race condition. An attacker who can modify the tree during cleanup can replace a directory with a symbolic link, causing files outside of the temporary directory to be deleted or have their permissions and file flags reset, with the privileges of the process performing the cleanup. Note that platforms where shutil.rmtree.avoids_symlink_attacks is false, remain affected, and file flags may still be reset outside of the tree on all platforms.
+</code>
+
+- [zahidec0de/CVE-2026-12345-poc](https://github.com/zahidec0de/CVE-2026-12345-poc)
+
 ### CVE-2026-12352 (2026-07-07)
 
 <code>This vulnerability allows an unauthenticated actor to bypass authentication and gain access to restricted resources on the device.
@@ -3683,6 +3690,13 @@
 </code>
 
 - [dasokkk/CVE-2026-14459-14460-pardus-software](https://github.com/dasokkk/CVE-2026-14459-14460-pardus-software)
+
+### CVE-2026-14461 (2026-07-10)
+
+<code>mtr is vulnerable to Out-of-bound read vulnerability in ipinfo_lookup() function. An attacker who can influence the TXT response used for AS lookups can trigger this bug by returning a DNS response that is larger than 512 bytes and uses a crafted compression pointer in the answer NAME field. ipinfo_lookup() function uses the length of the response as the end-of-message boundary for dn_expand() function. The result is a reliable crash.\n\n\nThis issue exists in the mtr through version 0.96 and it was fixed in commit 48e1794414d338ce47abc0f27c25ade8788af9c3.
+</code>
+
+- [sifatnotes/Learn-SecByte-CTF-Labs-Beelzebub-SQLMap-Auth-CVE-2026-14461-Web-to-Root](https://github.com/sifatnotes/Learn-SecByte-CTF-Labs-Beelzebub-SQLMap-Auth-CVE-2026-14461-Web-to-Root)
 
 ### CVE-2026-14483 (2026-07-31)
 
@@ -4398,6 +4412,7 @@
 </code>
 
 - [murrez/CVE-2026-19660](https://github.com/murrez/CVE-2026-19660)
+- [MRdark-ops/CVE-2026-19660-exploit](https://github.com/MRdark-ops/CVE-2026-19660-exploit)
 
 ### CVE-2026-19679 (2026-08-14)
 
@@ -8482,6 +8497,7 @@
 <code>Craft is a content management system (CMS). Prior to 5.9.9 and 4.17.4, a Remote Code Execution vulnerability exists in the Craft CMS 5 conditions system. The BaseElementSelectConditionRule::getElementIds() method passes user-controlled string input through renderObjectTemplate() -- an unsandboxed Twig rendering function with escaping disabled. Any authenticated Control Panel user (including non-admin roles such as Author or Editor) can achieve full RCE by sending a crafted condition rule via standard element listing endpoints. This vulnerability requires no admin privileges, no special permissions beyond basic control panel access, and bypasses all production hardening settings (allowAdminChanges: false, devMode: false, enableTwigSandbox: true). Users should update to the patched 5.9.9 or 4.17.4 release to mitigate the issue.
 </code>
 
+- [TRX-0/CVE-2026-31857-craftcms-ssti](https://github.com/TRX-0/CVE-2026-31857-craftcms-ssti)
 - [0xTatsuki/CVE-2026-31857](https://github.com/0xTatsuki/CVE-2026-31857)
 - [0Asylum/CVE-2026-31857](https://github.com/0Asylum/CVE-2026-31857)
 
@@ -8894,6 +8910,13 @@
 </code>
 
 - [redyank/CVE-2026-33154](https://github.com/redyank/CVE-2026-33154)
+
+### CVE-2026-33157 (2026-03-24)
+
+<code>Craft CMS is a content management system (CMS). From version 5.6.0 to before version 5.9.13, a Remote Code Execution (RCE) vulnerability exists in Craft CMS, it can be exploited by any authenticated user with control panel access. This is a bypass of a previous fix. The existing patches add cleanseConfig() to assembleLayoutFromPost() and various FieldsController actions to strip Yii2 behavior/event injection keys (&quot;as&quot; and &quot;on&quot; prefixed keys). However, the fieldLayouts parameter in ElementIndexesController::actionFilterHud() is passed directly to FieldLayout::createFromConfig() without any sanitization, enabling the same behavior injection attack chain. This issue has been patched in version 5.9.13.
+</code>
+
+- [TRX-0/CVE-2026-33157-craftcms-rce](https://github.com/TRX-0/CVE-2026-33157-craftcms-rce)
 
 ### CVE-2026-33186 (2026-03-20)
 
@@ -9504,6 +9527,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-34990](https://github.com/HORKimhab/CVE-2026-34990)
+- [TRX-0/CVE-2026-34990-cups-lpe](https://github.com/TRX-0/CVE-2026-34990-cups-lpe)
 - [0xc4rc3l/CVE-2026-34990-poc](https://github.com/0xc4rc3l/CVE-2026-34990-poc)
 - [gbuyssens/CVE-2026-34990](https://github.com/gbuyssens/CVE-2026-34990)
 - [DENNISDGR/CVE-2026-34990-poc](https://github.com/DENNISDGR/CVE-2026-34990-poc)
@@ -11545,6 +11569,7 @@
 - [YUE546/IQOO-neo7-ghostlock-43499](https://github.com/YUE546/IQOO-neo7-ghostlock-43499)
 - [yexiaoqq/rmg-s9110-research](https://github.com/yexiaoqq/rmg-s9110-research)
 - [alfzki/ghostlock-app](https://github.com/alfzki/ghostlock-app)
+- [litianyuan-91/Ghostlock-Honor70Pro](https://github.com/litianyuan-91/Ghostlock-Honor70Pro)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -11711,6 +11736,7 @@
 <code>Craft CMS is a content management system (CMS). From 4.0.0 to before 4.17.12 and 5.9.18, Craft CMS which contains an input-handling flaw in a Yii object creation path that let any authenticated user inject malicious configuration and execute arbitrary commands on the server. The request-controlled condition field layouts data is converted into a live FieldLayout object without a Component::cleanseConfig() boundary. Because Craft configures models before parent::__construct(), attacker-controlled special config keys can take effect during object creation, and FieldLayout initialization then triggers a same-request event. This vulnerability is fixed in 4.17.12 and 5.9.18.
 </code>
 
+- [TRX-0/CVE-2026-44011-craftcms-rce](https://github.com/TRX-0/CVE-2026-44011-craftcms-rce)
 - [4xura/CVE-2026-44011-craftcms-auth-rce](https://github.com/4xura/CVE-2026-44011-craftcms-auth-rce)
 - [DENNISDGR/CVE-2026-44011-poc](https://github.com/DENNISDGR/CVE-2026-44011-poc)
 - [Cyberuser-hash/CVE-2026-44011-craft-rce-poc](https://github.com/Cyberuser-hash/CVE-2026-44011-craft-rce-poc)
@@ -12825,6 +12851,7 @@
 
 - [murrez/CVE-2026-48842](https://github.com/murrez/CVE-2026-48842)
 - [4minx/CVE-2026-48842](https://github.com/4minx/CVE-2026-48842)
+- [XsanFlip/POC-CVE-2026-48842](https://github.com/XsanFlip/POC-CVE-2026-48842)
 
 ### CVE-2026-48849 (2026-05-25)
 
@@ -14093,6 +14120,13 @@
 
 - [yzy0okrkv1hngo0r/CVE-2026-55781-poc](https://github.com/yzy0okrkv1hngo0r/CVE-2026-55781-poc)
 
+### CVE-2026-55794 (2026-07-01)
+
+<code>Craft CMS is a content management system (CMS). In versions 5.9.0 and above prior to 5.10.0, control panel users with the ability to edit entries can execute unsandboxed Twig code via the HTTP Referrer header, potentially leading to authenticated RCE. The issue happens when a user is saving entries. Strings for a signed redirect URL are being compiled as a Twig template via renderObjectTemplate(), and while a sandboxed alternative already exists (renderSandboxedObjectTemplate()), it is not used in this case. This signed URL can be specified by users, as it is reflected in the “Referer” HTTP request header, which is under attacker control. This issue has been fixed in version 5.10.0.
+</code>
+
+- [TRX-0/CVE-2026-55794-craftcms-ssti](https://github.com/TRX-0/CVE-2026-55794-craftcms-ssti)
+
 ### CVE-2026-55957 (2026-06-29)
 
 <code>Missing Critical Step in Authentication vulnerability in Apache Tomcat when the JNDIRealm was configured to authenticate binds using GSSAPI allowed attackers to authenticate without provided the correct password.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.4, from 10.1.0-M1 through 10.1.36, from 9.0.0.M1 through 9.0.100, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109.\n\nUsers are recommended to upgrade to version 11.0.5, 10.1.37 or 9.0.101, which fixes the issue.
@@ -14932,6 +14966,7 @@
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nposix-cpu-timers: Prevent UAF caused by non-leader exec() race\n\nWongi and Jungwoo decoded and reported a non-leader exec() related race\nwhich can result in an UAF:\n\n sys_timer_delete()</code>
 
+- [imkidz0/CVE-2026-64560-exploit](https://github.com/imkidz0/CVE-2026-64560-exploit)
 - [villager1314/CVE-2026-64560-Analysis](https://github.com/villager1314/CVE-2026-64560-Analysis)
 - [quyicheng03-boop/xiaomi15-dada-cve-2026-64560](https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560)
 - [RMDycz/K80Pro-miro-CVE-2026-64560](https://github.com/RMDycz/K80Pro-miro-CVE-2026-64560)
@@ -15964,6 +15999,20 @@
 </code>
 
 - [Saku0512/CVE-2026-72744-poc](https://github.com/Saku0512/CVE-2026-72744-poc)
+
+### CVE-2026-72778 (2026-08-11)
+
+<code>Craft CMS versions from 4.0.0-RC1 before 4.18.2 and from 5.0.0-RC1 before 5.10.6 contain an authenticated remote code execution vulnerability in the control panel element-search condition handling. Craft cleanses the outer request-controlled condition array via Component::cleanseConfig(), but Conditions::createCondition() later decodes and merges the JSON string in condition.config without re-running cleanseConfig() on the decoded configuration. Because condition.config is a JSON string during the first cleanse, Yii special config keys such as 'as ...' and 'on ...' can be hidden inside it and, after JSON decoding, are interpreted by Yii as behavior/event configuration during FieldLayout object creation. An attacker with an authenticated control panel session (and a valid CSRF token) can exploit this to execute operating system commands as the PHP/web user.
+</code>
+
+- [TRX-0/CVE-2026-72778-craftcms-rce](https://github.com/TRX-0/CVE-2026-72778-craftcms-rce)
+
+### CVE-2026-72781 (2026-08-11)
+
+<code>Craft CMS versions &gt;= 5.0.0-RC1 before 5.10.7 and &gt;= 4.0.0-RC1 before 4.18.3 contain a remote code execution vulnerability in the Twig sandbox mechanism. Because Craft marks the ElementInterface as safe (via the AllowedInSandbox attribute) and the sandbox allowlisting extends to the entire class hierarchy (craft\base\Component up to yii\base\Component), an authenticated attacker with permission to access the control panel can render a malicious Twig template that abuses the yii\base\Component arbitrary function-call gadget to execute arbitrary code, even when the Twig sandbox is enabled via enableTwigSandbox().
+</code>
+
+- [TRX-0/CVE-2026-72781-craftcms-sandbox-rce](https://github.com/TRX-0/CVE-2026-72781-craftcms-sandbox-rce)
 
 ### CVE-2026-72815 (2026-08-14)
 
@@ -17488,6 +17537,13 @@
 
 - [aorozco-sys/CVE-2026-90907](https://github.com/aorozco-sys/CVE-2026-90907)
 
+### CVE-2026-90970 (2026-10-02)
+
+<code>GitLab has remediated a vulnerability in the GitLab AI Gateway component affecting all versions of the AI Gateway from 18.1.6 before 19.2.4, 19.3 before 19.3.2, and 19.4 before 19.4.1 that, under certain conditions, could have allowed an authenticated user with Duo Agent Platform access to escape the prompt template sandbox via a specially crafted flow configuration, resulting in arbitrary command execution on the AI Gateway.
+</code>
+
+- [techupdate24/gitlab-ai-gateway-cve-2026-90970](https://github.com/techupdate24/gitlab-ai-gateway-cve-2026-90970)
+
 ### CVE-2026-91097 (2026-09-16)
 
 <code>HP has identified and remediated multiple externally reported vulnerabilities within HPLIP. The findings affect several software components that could potentially enable remote code execution, privilege escalation, denial of service, information disclosure, or unauthorized file modification under certain conditions.
@@ -18049,6 +18105,13 @@
 </code>
 
 - [BomboBombone/CVE-2026-103585](https://github.com/BomboBombone/CVE-2026-103585)
+
+### CVE-2026-103648 (2026-10-02)
+
+<code>Path traversal in image-downloader 4.3.0 allows an attacker who can control the download URL to cause downloaded response data to be written outside the configured destination directory.
+</code>
+
+- [EterNullSec/CVE-2026-103648](https://github.com/EterNullSec/CVE-2026-103648)
 
 ### CVE-2026-103752 (2026-10-01)
 
@@ -52728,6 +52791,13 @@
 
 - [ByteHackr/CVE-2022-0853](https://github.com/ByteHackr/CVE-2022-0853)
 
+### CVE-2022-0891 (2022-03-09)
+
+<code>A heap buffer overflow in ExtractImageSection function in tiffcrop.c in libtiff library Version 4.3.0 allows attacker to trigger unsafe or out of bounds memory access via crafted TIFF image file which could result into application crash, potential information disclosure or any other context-dependent impact
+</code>
+
+- [flavorex0000/libtiff-cve-2022-0891-lab](https://github.com/flavorex0000/libtiff-cve-2022-0891-lab)
+
 ### CVE-2022-0918 (2022-03-16)
 
 <code>A vulnerability was discovered in the 389 Directory Server that allows an unauthenticated attacker with network access to the LDAP port to cause a denial of service. The denial of service is triggered by a single message sent over a TCP connection, no bind or other authentication is required. The message triggers a segmentation fault that results in slapd crashing.
@@ -66871,7 +66941,6 @@
 - [sanasimran1403-jpg/log4shell](https://github.com/sanasimran1403-jpg/log4shell)
 - [AhndreWalters/ProjectSecurity-Homelab](https://github.com/AhndreWalters/ProjectSecurity-Homelab)
 - [Jiahong-Guan/log4j-shell-poc](https://github.com/Jiahong-Guan/log4j-shell-poc)
-- [Vaibhav91one/log4shell-cve-lab](https://github.com/Vaibhav91one/log4shell-cve-lab)
 - [14free/log4j2-vuln-lab](https://github.com/14free/log4j2-vuln-lab)
 - [Wafeeq-Fareed/log4shell-exploitation-lab](https://github.com/Wafeeq-Fareed/log4shell-exploitation-lab)
 - [KalidouLabghaly/log4shell-exploitation-detection](https://github.com/KalidouLabghaly/log4shell-exploitation-detection)
@@ -78977,7 +79046,6 @@
 - [Prapul1/VulnHub-DC1-Writeup](https://github.com/Prapul1/VulnHub-DC1-Writeup)
 - [Shams-Ul-Mehmood/CVE-2018-7600-Drupalgeddon2-RCE](https://github.com/Shams-Ul-Mehmood/CVE-2018-7600-Drupalgeddon2-RCE)
 - [elkhaoudari/CVE-2018-7600-PoC](https://github.com/elkhaoudari/CVE-2018-7600-PoC)
-- [Vaibhav91one/drupalgeddon2-cve-lab](https://github.com/Vaibhav91one/drupalgeddon2-cve-lab)
 
 ### CVE-2018-7602 (2018-07-19)
 
@@ -87173,7 +87241,6 @@
 - [cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report](https://github.com/cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report)
 - [caverm/Shellshock_CVE-2014-6271](https://github.com/caverm/Shellshock_CVE-2014-6271)
 - [FREEGUY-6/dmz-security-monitoring-hardening](https://github.com/FREEGUY-6/dmz-security-monitoring-hardening)
-- [Vaibhav91one/shellshock-cve-lab](https://github.com/Vaibhav91one/shellshock-cve-lab)
 - [mgiftson0/linux-env-vars-shellshock-lab](https://github.com/mgiftson0/linux-env-vars-shellshock-lab)
 
 ### CVE-2014-6287 (2014-10-07)
