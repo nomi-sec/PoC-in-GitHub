@@ -7355,6 +7355,7 @@
 - [jake-young-dev/CVE-2026-27944](https://github.com/jake-young-dev/CVE-2026-27944)
 - [karimelsheikh1/HTB-Snapped-Writeup](https://github.com/karimelsheikh1/HTB-Snapped-Writeup)
 - [BimaBalance/Cve-2026-27944-Tools-Exploit](https://github.com/BimaBalance/Cve-2026-27944-Tools-Exploit)
+- [diamorphine666/CVE-2026-27944](https://github.com/diamorphine666/CVE-2026-27944)
 
 ### CVE-2026-27959 (2026-02-26)
 
@@ -11200,6 +11201,7 @@
 
 - [fineman999/POC_CVE-2026-42589](https://github.com/fineman999/POC_CVE-2026-42589)
 - [codeb0ssx/CVE-2026-42589xCVE-2026-40281-PoC](https://github.com/codeb0ssx/CVE-2026-42589xCVE-2026-40281-PoC)
+- [HackfutSecRoot/-GOTENBERG-RCE-CHAIN](https://github.com/HackfutSecRoot/-GOTENBERG-RCE-CHAIN)
 
 ### CVE-2026-42613 (2026-05-11)
 
@@ -18134,6 +18136,13 @@
 ### CVE-2026-103931
 - [overgrowncarrot1/Instatic-Stored-XSS-CVE-2026-103931](https://github.com/overgrowncarrot1/Instatic-Stored-XSS-CVE-2026-103931)
 
+### CVE-2026-103956 (2026-10-02)
+
+<code>Missing authentication for critical function in the authentication dependency in Loom for AWS before 1.6.1 allowed remote actors to obtain super-admin authority over the agent control plane, including registering tool servers, reading stored integration credentials, and rewriting the IAM role policies attached to managed agent roles, via any request to the application API in a deployment where no identity provider is configured.\n\n\n\nTo remediate this issue, users should upgrade to version 1.6.1 or later.
+</code>
+
+- [abraxas/cve-2026-103956-loom-unauth](https://github.com/abraxas/cve-2026-103956-loom-unauth)
+
 ### CVE-2026-103977
 - [pervinzahidli/CVE-2026-103977](https://github.com/pervinzahidli/CVE-2026-103977)
 
@@ -21996,7 +22005,6 @@
 - [xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479](https://github.com/xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479)
 - [RamenFast/zenfone9-root](https://github.com/RamenFast/zenfone9-root)
 - [diyiqiuye/CVE-2025-21479-FX5P](https://github.com/diyiqiuye/CVE-2025-21479-FX5P)
-- [diyiqiuye/CVE-2025-21479-FX3](https://github.com/diyiqiuye/CVE-2025-21479-FX3)
 - [longg66/cve-2025-21479_iqooneo7speed](https://github.com/longg66/cve-2025-21479_iqooneo7speed)
 
 ### CVE-2025-21574 (2025-04-15)
@@ -29223,6 +29231,7 @@
 - [d3vn0mi/CVE-2025-60787-POC](https://github.com/d3vn0mi/CVE-2025-60787-POC)
 - [agent-skywalker/CVE-2025-60787](https://github.com/agent-skywalker/CVE-2025-60787)
 - [ozcanpng/CVE-2025-60787](https://github.com/ozcanpng/CVE-2025-60787)
+- [diamorphine666/CVE-2025-60787](https://github.com/diamorphine666/CVE-2025-60787)
 
 ### CVE-2025-60791 (2025-10-27)
 
@@ -41741,6 +41750,7 @@
 - [Erhui-Li/CVE-2024-51482-ZoneMinder-CCTV-HTB-Reliable-EXP](https://github.com/Erhui-Li/CVE-2024-51482-ZoneMinder-CCTV-HTB-Reliable-EXP)
 - [0xDaeras/CVE-2024-51482-POC](https://github.com/0xDaeras/CVE-2024-51482-POC)
 - [c0gnit00/CVE-2024-51482](https://github.com/c0gnit00/CVE-2024-51482)
+- [diamorphine666/CVE-2024-51482](https://github.com/diamorphine666/CVE-2024-51482)
 
 ### CVE-2024-51567 (2024-10-29)
 
