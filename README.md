@@ -3905,6 +3905,13 @@
 
 - [HORKimhab/CVE-2026-15826-CVE-2026-15748](https://github.com/HORKimhab/CVE-2026-15826-CVE-2026-15748)
 
+### CVE-2026-15911 (2026-10-01)
+
+<code>Confluent Kafka Python client's HashiCorp Vault KMS integration could allow a remote attacker to obtain sensitive information due to improper TLS certificate validation.
+</code>
+
+- [rahulreddykarne/CVE-2026-15911-Confluent_Kafka](https://github.com/rahulreddykarne/CVE-2026-15911-Confluent_Kafka)
+
 ### CVE-2026-15964 (2026-08-01)
 
 <code>The Single Sign On For TNG plugin for WordPress is vulnerable to Authentication Bypass via unauthenticated password reset in all versions up to, and including, 2.0.0. This is due to the `ssoprocess_ajax()` function — registered on `wp_ajax_nopriv_ssoprocess_ajax` and therefore reachable without authentication — accepting an attacker-supplied `email` parameter with the `setnewpassword` operation and calling `reset_password()` on the resolved account without any ownership token, email confirmation link, or capability check. The sole guard is a call to `check_ajax_referer()`, which provides no authorization barrier because the `ssoajaxnonce` nonce is publicly broadcast on every front-end page via `wp_localize_script()` into the `SSOPWDREQUIREMENT` JavaScript object; since WordPress computes nonces for logged-out visitors against a shared anonymous session context, any unauthenticated visitor can scrape a valid nonce from the homepage and use it to authenticate the request. This makes it possible for unauthenticated attackers to change the password of any WordPress account, including administrator accounts, enabling complete site takeover.
@@ -45815,6 +45822,7 @@
 - [Sharma01672/traveller-htb](https://github.com/Sharma01672/traveller-htb)
 - [rvzsec/joombrute](https://github.com/rvzsec/joombrute)
 - [BardLaudian/CVE-2023-23752](https://github.com/BardLaudian/CVE-2023-23752)
+- [s4m98/CVE-2023-23752](https://github.com/s4m98/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
