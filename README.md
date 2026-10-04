@@ -4399,6 +4399,7 @@
 
 - [YonLiud/CVE-2026-19632](https://github.com/YonLiud/CVE-2026-19632)
 - [DeadExpl0it/CVE-2026-19632-POC](https://github.com/DeadExpl0it/CVE-2026-19632-POC)
+- [TheJesterrrr/CVE-2026-19632](https://github.com/TheJesterrrr/CVE-2026-19632)
 
 ### CVE-2026-19650 (2026-08-17)
 
@@ -17575,6 +17576,13 @@
 
 - [HORKimhab/CVE-2026-91843](https://github.com/HORKimhab/CVE-2026-91843)
 
+### CVE-2026-92084 (2026-10-03)
+
+<code>The The Beaver Builder Page Builder – Drag and Drop Website Builder plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 2.11.0.5. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes. Exploitation requires the target site to have a Beaver Builder page containing the Sidebar module populated with a widget that displays attacker-controllable text, such as the core Recent Comments widget, with comment moderation disabled or the attacker's comment approved.
+</code>
+
+- [Hassham1/CVE-2026-92084-beaver-builder-shortcode-poc](https://github.com/Hassham1/CVE-2026-92084-beaver-builder-shortcode-poc)
+
 ### CVE-2026-92099 (2026-09-19)
 
 <code>The WPGraphQL Smart Cache WordPress plugin before 2.3.2 does not require authorisation or validate a caller-supplied query identifier before storing a persisted query from a request, allowing unauthenticated users to publish arbitrary query documents and claim query aliases before a site's own frontend registers them.
@@ -17797,6 +17805,13 @@
 </code>
 
 - [murrez/CVE-2026-96349](https://github.com/murrez/CVE-2026-96349)
+
+### CVE-2026-96451 (2026-10-03)
+
+<code>Authorization Bypass Through User-Controlled Key vulnerability in Ultimate Member Ultimate Member ultimate-member allows Privilege Escalation.This issue affects Ultimate Member: from n/a through 2.13.1.
+</code>
+
+- [Nxploited/CVE-2026-96451](https://github.com/Nxploited/CVE-2026-96451)
 
 ### CVE-2026-96512 (2026-09-23)
 
@@ -18183,6 +18198,13 @@
 
 ### CVE-2026-104826
 - [KiwKNR/CVE-2026-104826](https://github.com/KiwKNR/CVE-2026-104826)
+
+### CVE-2026-104991 (2026-10-02)
+
+<code>Phproject before 1.8.7 contains a missing object-level authorization vulnerability in the REST API issue endpoints (single_get, single_comments, single_comments_post) that allows authenticated API key holders to bypass the security.restrict_access confidentiality control by never invoking the allowAccess() authorization routine. Attackers can use a valid API key to read restricted issue contents and comments, including owner and author email addresses, and post unauthorized comments to issues they should not have access to.
+</code>
+
+- [wvllxe/CVE-2026-104991](https://github.com/wvllxe/CVE-2026-104991)
 
 ### CVE-2026-105030 (2026-10-02)
 
@@ -26250,6 +26272,7 @@
 - [assad12341/notepad-v8.8.1-LPE-CVE-](https://github.com/assad12341/notepad-v8.8.1-LPE-CVE-)
 - [b0ySie7e/Notepad-8.8.1_CVE-2025-49144](https://github.com/b0ySie7e/Notepad-8.8.1_CVE-2025-49144)
 - [timsonner/CVE-2025-49144-Research](https://github.com/timsonner/CVE-2025-49144-Research)
+- [GiZcesi/HJregsvr32](https://github.com/GiZcesi/HJregsvr32)
 - [onniio/CVE-2025-49144](https://github.com/onniio/CVE-2025-49144)
 - [havertz2110/CVE-2025-49144-PoC](https://github.com/havertz2110/CVE-2025-49144-PoC)
 
@@ -28008,6 +28031,7 @@
 - [r3vpwnx/CVE-2025-55182](https://github.com/r3vpwnx/CVE-2025-55182)
 - [iapetus12/hackcar-writeup](https://github.com/iapetus12/hackcar-writeup)
 - [abhaybansal16/cve-2025-55182-lab](https://github.com/abhaybansal16/cve-2025-55182-lab)
+- [RashmithaDeSilva/React2Shell_CVE-2025-55182](https://github.com/RashmithaDeSilva/React2Shell_CVE-2025-55182)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -46443,7 +46467,6 @@
 - [cowsecurity/CVE-2023-27163](https://github.com/cowsecurity/CVE-2023-27163)
 - [samh4cks/CVE-2023-27163-InternalProber](https://github.com/samh4cks/CVE-2023-27163-InternalProber)
 - [Hamibubu/CVE-2023-27163](https://github.com/Hamibubu/CVE-2023-27163)
-- [KharimMchatta/basketcraft](https://github.com/KharimMchatta/basketcraft)
 - [MasterCode112/CVE-2023-27163](https://github.com/MasterCode112/CVE-2023-27163)
 - [madhavmehndiratta/CVE-2023-27163](https://github.com/madhavmehndiratta/CVE-2023-27163)
 - [Rishabh-Kumar-Cyber-Sec/CVE-2023-27163-ssrf-to-port-scanning](https://github.com/Rishabh-Kumar-Cyber-Sec/CVE-2023-27163-ssrf-to-port-scanning)
@@ -52630,7 +52653,7 @@
 
 - [0x7eTeam/CVE-2022-0543](https://github.com/0x7eTeam/CVE-2022-0543)
 - [z92g/CVE-2022-0543](https://github.com/z92g/CVE-2022-0543)
-- [OpsCipher/CVE-2022-0543](https://github.com/OpsCipher/CVE-2022-0543)
+- [fulxey/CVE-2022-0543](https://github.com/fulxey/CVE-2022-0543)
 - [SiennaSkies/redisHack](https://github.com/SiennaSkies/redisHack)
 - [netw0rk7/CVE-2022-0543-Home-Lab](https://github.com/netw0rk7/CVE-2022-0543-Home-Lab)
 
@@ -53099,7 +53122,6 @@
 - [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
 - [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
 - [ThinkingOffensively/CVE-2022-1388](https://github.com/ThinkingOffensively/CVE-2022-1388)
-- [revanmalang/CVE-2022-1388](https://github.com/revanmalang/CVE-2022-1388)
 - [amitlttwo/CVE-2022-1388](https://github.com/amitlttwo/CVE-2022-1388)
 - [M4fiaB0y/CVE-2022-1388](https://github.com/M4fiaB0y/CVE-2022-1388)
 - [devengpk/CVE-2022-1388](https://github.com/devengpk/CVE-2022-1388)
@@ -59346,6 +59368,13 @@
 </code>
 
 - [Halcy0nic/CVE-2022-44318](https://github.com/Halcy0nic/CVE-2022-44318)
+
+### CVE-2022-44384 (2022-11-17)
+
+<code>An arbitrary file upload vulnerability in rconfig v3.9.6 allows attackers to execute arbitrary code via a crafted PHP file.
+</code>
+
+- [d4ytox/CVE-2022-44384](https://github.com/d4ytox/CVE-2022-44384)
 
 ### CVE-2022-44569 (2023-11-03)
 
