@@ -2588,7 +2588,6 @@
 - [Jenderal92/CVE-2026-8732](https://github.com/Jenderal92/CVE-2026-8732)
 - [HORKimhab/CVE-2026-8732](https://github.com/HORKimhab/CVE-2026-8732)
 - [p3Nt3st3r-sTAr/CVE-2026-8732-POC](https://github.com/p3Nt3st3r-sTAr/CVE-2026-8732-POC)
-- [Diznev/CVE-2026-8732-EXPLOIT](https://github.com/Diznev/CVE-2026-8732-EXPLOIT)
 - [fientix/CVE-2026-8732-PoC](https://github.com/fientix/CVE-2026-8732-PoC)
 
 ### CVE-2026-8793 (2026-08-03)
@@ -3544,6 +3543,13 @@
 </code>
 
 - [KuniNogu/drupal-openai-provider-ssrf-cve-2026-13233](https://github.com/KuniNogu/drupal-openai-provider-ssrf-cve-2026-13233)
+
+### CVE-2026-13247 (2026-07-10)
+
+<code>The Logo Slider – Logo Carousel, Client Logo Slider &amp; Brand Showcase for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'lgx_tooltip_position' parameter in all versions up to, and including, 5.5 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
+- [sifatnotes/-Recon-MySQL-SSH-ICA-CVE-2026-13247-Tomcat](https://github.com/sifatnotes/-Recon-MySQL-SSH-ICA-CVE-2026-13247-Tomcat)
 
 ### CVE-2026-13249 (2026-09-24)
 
@@ -8420,6 +8426,7 @@
 - [Minime794/copyfail](https://github.com/Minime794/copyfail)
 - [ZeroDayEvil/CVE-2026-31431](https://github.com/ZeroDayEvil/CVE-2026-31431)
 - [rifkyards/Copy-Fail-CVE-2026-31431-Kubernetes-PoC](https://github.com/rifkyards/Copy-Fail-CVE-2026-31431-Kubernetes-PoC)
+- [ledlight33/copyfail-check-skill](https://github.com/ledlight33/copyfail-check-skill)
 
 ### CVE-2026-31525 (2026-04-22)
 
@@ -12805,7 +12812,6 @@
 <code>Improper authentication checks in the OAuth implementation allow account hijacking even when OAuth is not configured or enabled leading to unauthorized access in default installations.
 </code>
 
-- [Diznev/CVE-2026-48611-EXPLOIT](https://github.com/Diznev/CVE-2026-48611-EXPLOIT)
 - [lxdwnpiper/CVE-2026-48611-phpBB](https://github.com/lxdwnpiper/CVE-2026-48611-phpBB)
 - [Ethicalgrey/phpBB-CVE-2026-48611](https://github.com/Ethicalgrey/phpBB-CVE-2026-48611)
 
@@ -17019,6 +17025,13 @@
 
 - [OhWelp/CVE-2026-83603-LPE-PoC](https://github.com/OhWelp/CVE-2026-83603-LPE-PoC)
 
+### CVE-2026-83627 (2026-09-05)
+
+<code>The Hummingbird – Speed Optimization, Caching, Minify, Compress &amp; CDN plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 3.21.0 via the log_msg() function in core/modules/class-page-cache.php. The page-cache debug log is written to wp-content/wphb-logs/page-caching-log.php, a directly web-accessible PHP file that is supposed to be protected by a leading '&lt;?php die(); ?&gt;' header. That header is guarded by class_exists( 'Filesystem' ), which can never match because class_exists() resolves string arguments in the global namespace while the class is Hummingbird\Core\Filesystem; when the log is created during a front-end request the header is therefore omitted entirely. get_cookies() then writes the raw name of any cookie matching the wphb_cache_ prefix into that file without sanitization. This makes it possible for unauthenticated attackers to write arbitrary PHP into the log file with a single anonymous request and execute it by requesting the file directly, resulting in full remote code execution. Exploitation requires the site administrator to have enabled Page Caching with the Debug Log option (non-default), and the log file to be created during a front-end request — a state reached by the plugin's own 'Clear logs' action, any cache flush, or unattended via the plugin's daily log-rotation cron, which can strip the protective header from an existing log file.
+</code>
+
+- [K52-ai/CVE-2026-83627](https://github.com/K52-ai/CVE-2026-83627)
+
 ### CVE-2026-83991 (2026-09-08)
 
 <code>Missing authentication for critical function in Windows Cloud Files Mini Filter Driver allows an authorized attacker to perform tampering locally.
@@ -18077,6 +18090,13 @@
 
 ### CVE-2026-102975
 - [BomboBombone/CVE-2026-102975](https://github.com/BomboBombone/CVE-2026-102975)
+
+### CVE-2026-103355 (2026-10-04)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Unlimited Elements Unlimited Elements For Elementor (Free Widgets, Addons, Templates) unlimited-elements-for-elementor allows Blind SQL Injection.This issue affects Unlimited Elements For Elementor (Free Widgets, Addons, Templates): from n/a through 2.0.20.
+</code>
+
+- [Hassham1/CVE-2026-103355-unlimited-elements-sqli-poc](https://github.com/Hassham1/CVE-2026-103355-unlimited-elements-sqli-poc)
 
 ### CVE-2026-103437 (2026-09-30)
 
@@ -37632,6 +37652,7 @@
 - [Admin9961/CVE-2024-30088](https://github.com/Admin9961/CVE-2024-30088)
 - [Justintroup85/exploits-forsale-collateral-damage](https://github.com/Justintroup85/exploits-forsale-collateral-damage)
 - [cyghtinc/cve-2024-30088-binary-LPE-PRIVIELEGE-ESCALATION-CYGHT-TOCTOU](https://github.com/cyghtinc/cve-2024-30088-binary-LPE-PRIVIELEGE-ESCALATION-CYGHT-TOCTOU)
+- [repo4Chu/CVE-2024-30088__Windows-TOCTOU-exploit](https://github.com/repo4Chu/CVE-2024-30088__Windows-TOCTOU-exploit)
 - [th3g3ntl3m4n84/CVE-2024-30088__Windows-TOCTOU-exploit](https://github.com/th3g3ntl3m4n84/CVE-2024-30088__Windows-TOCTOU-exploit)
 - [FangFang-Yi/CVE-2024-30088](https://github.com/FangFang-Yi/CVE-2024-30088)
 
@@ -37771,6 +37792,7 @@
 - [GitAmanS/ZygoteExploitDemo](https://github.com/GitAmanS/ZygoteExploitDemo)
 - [vnescape/zygote-CVE-2024-31317](https://github.com/vnescape/zygote-CVE-2024-31317)
 - [Tinnci/cve-2024-31317](https://github.com/Tinnci/cve-2024-31317)
+- [nianfan555/PoC-Deployer-System](https://github.com/nianfan555/PoC-Deployer-System)
 
 ### CVE-2024-31320 (2024-07-09)
 
@@ -58698,6 +58720,7 @@
 - [ccordeiro/CVE-2022-40684](https://github.com/ccordeiro/CVE-2022-40684)
 - [pintukumar-sutradhar/fortigate-cve-2022-40684-tool](https://github.com/pintukumar-sutradhar/fortigate-cve-2022-40684-tool)
 - [Vampsecure-Labs/vamp-forticheck](https://github.com/Vampsecure-Labs/vamp-forticheck)
+- [gotr00t0day/CVE-2022-40684](https://github.com/gotr00t0day/CVE-2022-40684)
 
 ### CVE-2022-40769 (2022-09-18)
 
@@ -59368,13 +59391,6 @@
 </code>
 
 - [Halcy0nic/CVE-2022-44318](https://github.com/Halcy0nic/CVE-2022-44318)
-
-### CVE-2022-44384 (2022-11-17)
-
-<code>An arbitrary file upload vulnerability in rconfig v3.9.6 allows attackers to execute arbitrary code via a crafted PHP file.
-</code>
-
-- [d4ytox/CVE-2022-44384](https://github.com/d4ytox/CVE-2022-44384)
 
 ### CVE-2022-44569 (2023-11-03)
 
@@ -60969,6 +60985,7 @@
 - [IJBaig/CVE-2021-3156](https://github.com/IJBaig/CVE-2021-3156)
 - [WhatsWrongAndWhy/CVE-2021-3156](https://github.com/WhatsWrongAndWhy/CVE-2021-3156)
 - [Shams-Ul-Mehmood/CVE-2021-3156-Project](https://github.com/Shams-Ul-Mehmood/CVE-2021-3156-Project)
+- [sandesh9978/CVE-2021-3156-Sudo-Checker](https://github.com/sandesh9978/CVE-2021-3156-Sudo-Checker)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -61844,7 +61861,6 @@
 - [grey-master-a/GravCMS_Nmap_Script](https://github.com/grey-master-a/GravCMS_Nmap_Script)
 - [bluetoothStrawberry/cve-2021-21425](https://github.com/bluetoothStrawberry/cve-2021-21425)
 - [afifudinmtop/CVE-2021-21425](https://github.com/afifudinmtop/CVE-2021-21425)
-- [d4ytox/CVE-2021-21425](https://github.com/d4ytox/CVE-2021-21425)
 - [s1lentf00thold/CVE-2021-21425-RCE](https://github.com/s1lentf00thold/CVE-2021-21425-RCE)
 
 ### CVE-2021-21514 (2021-03-02)
@@ -62131,7 +62147,6 @@
 - [battleofthebots/dejavu](https://github.com/battleofthebots/dejavu)
 - [cc3305/CVE-2021-22204](https://github.com/cc3305/CVE-2021-22204)
 - [Roronoawjd/CVE-2021-22204](https://github.com/Roronoawjd/CVE-2021-22204)
-- [d4ytox/CVE-2021-22204](https://github.com/d4ytox/CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -79112,6 +79127,7 @@
 - [Prapul1/VulnHub-DC1-Writeup](https://github.com/Prapul1/VulnHub-DC1-Writeup)
 - [Shams-Ul-Mehmood/CVE-2018-7600-Drupalgeddon2-RCE](https://github.com/Shams-Ul-Mehmood/CVE-2018-7600-Drupalgeddon2-RCE)
 - [elkhaoudari/CVE-2018-7600-PoC](https://github.com/elkhaoudari/CVE-2018-7600-PoC)
+- [K52-ai/CVE-2018-7600](https://github.com/K52-ai/CVE-2018-7600)
 
 ### CVE-2018-7602 (2018-07-19)
 
