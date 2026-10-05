@@ -7450,6 +7450,13 @@
 
 - [kaleth4/CVE-2026-28363](https://github.com/kaleth4/CVE-2026-28363)
 
+### CVE-2026-28364 (2026-02-27)
+
+<code>In OCaml before 4.14.3 and 5.x before 5.4.1, a buffer over-read in Marshal deserialization (runtime/intern.c) enables remote code execution through a multi-phase attack chain. The vulnerability stems from missing bounds validation in the readblock() function, which performs unbounded memcpy() operations using attacker-controlled lengths from crafted Marshal data.
+</code>
+
+- [Akshay-M-Singh/ocaml-marshal-vulnerability](https://github.com/Akshay-M-Singh/ocaml-marshal-vulnerability)
+
 ### CVE-2026-28372 (2026-02-27)
 
 <code>telnetd in GNU inetutils through 2.7 allows privilege escalation that can be exploited by abusing systemd service credentials support added to the login(1) implementation of util-linux in release 2.40. This is related to client control over the CREDENTIALS_DIRECTORY environment variable, and requires an unprivileged local user to create a login.noauth file.
@@ -12303,6 +12310,7 @@
 - [st4rburn/public-passwd](https://github.com/st4rburn/public-passwd)
 - [0xBlackash/CVE-2026-46333](https://github.com/0xBlackash/CVE-2026-46333)
 - [studiogangster/CVE-2026-46333](https://github.com/studiogangster/CVE-2026-46333)
+- [dr4mohamed/CVE-2026-46333](https://github.com/dr4mohamed/CVE-2026-46333)
 
 ### CVE-2026-46339 (2026-07-15)
 
@@ -14868,7 +14876,6 @@
 - [mhassani97/cve-2026-63030-lab](https://github.com/mhassani97/cve-2026-63030-lab)
 - [DeadExpl0it/wp2shell-poc](https://github.com/DeadExpl0it/wp2shell-poc)
 - [Sec-Dan/WP2Shell-Scanner](https://github.com/Sec-Dan/WP2Shell-Scanner)
-- [arvindear/wp2shell-PoC](https://github.com/arvindear/wp2shell-PoC)
 - [fl0ydsec/CVE-2026-63030](https://github.com/fl0ydsec/CVE-2026-63030)
 - [langz337/CVE-2026-63030](https://github.com/langz337/CVE-2026-63030)
 - [jed-parsec/CVE-2026-63030-60137-wp2shell-lab](https://github.com/jed-parsec/CVE-2026-63030-60137-wp2shell-lab)
@@ -15926,6 +15933,13 @@
 </code>
 
 - [dinosn/cve-2026-71362-magento-lab](https://github.com/dinosn/cve-2026-71362-magento-lab)
+
+### CVE-2026-71486 (2026-08-17)
+
+<code>vLLM is an inference and serving engine for large language models. Prior to 0.26.0, the /v1/completions/derender and /v1/chat/completions/derender endpoints accept caller-supplied GenerateResponse objects whose generate_responses, choices, token_ids, prompt_logprobs, logprobs.content, top_logprobs, and routed_experts structures are processed by OnlineDerenderer and tokenizer.decode before max_model_len, max_tokens, max_num_seqs, or response-size limits are enforced, allowing an authenticated API client to consume excessive CPU and memory and produce oversized responses. This issue is fixed in version 0.26.0.
+</code>
+
+- [tmvictorpeters/jbo4rgl](https://github.com/tmvictorpeters/jbo4rgl)
 
 ### CVE-2026-71518 (2026-08-17)
 
@@ -17281,6 +17295,7 @@
 - [DeAurity/CVE-2026-86950-POC](https://github.com/DeAurity/CVE-2026-86950-POC)
 - [msuiche/hotcell](https://github.com/msuiche/hotcell)
 - [decalage2/detect_CVE-2026-86950](https://github.com/decalage2/detect_CVE-2026-86950)
+- [0xBlackash/CVE-2026-86950](https://github.com/0xBlackash/CVE-2026-86950)
 
 ### CVE-2026-86998
 - [squeeze440/pasteguard-PoC](https://github.com/squeeze440/pasteguard-PoC)
@@ -17813,6 +17828,9 @@
 
 - [anthonyk2923/CVE-2026-94609](https://github.com/anthonyk2923/CVE-2026-94609)
 
+### CVE-2026-95622
+- [0xSemizzz/CVE-2026-95622](https://github.com/0xSemizzz/CVE-2026-95622)
+
 ### CVE-2026-95675 (2026-09-22)
 
 <code>D-Link DAP-1360 firmware version 6.14 and earlier contains an unauthenticated remote code execution vulnerability that allows remote attackers to execute arbitrary commands as root by sending crafted requests to the device's web management interface without valid credentials. Attackers can fully compromise the device to persistently modify its configuration and use it as a pivot point into the local network.
@@ -18240,6 +18258,20 @@
 </code>
 
 - [asvorg/CVE-2026-105030-poc](https://github.com/asvorg/CVE-2026-105030-poc)
+
+### CVE-2026-105134 (2026-10-04)
+
+<code>A flaw has been found in Ahsay AhsayCBS up to 10.3.2. This vulnerability affects unknown code of the file /rps/api/json/UpdateReceivers.do of the component Replication Receiver. Executing a manipulation of the argument random can lead to os command injection. It is possible to launch the attack remotely. The exploit has been published and may be used. Upgrading to version 10.3.4 is able to resolve this issue. Upgrading the affected component is advised.
+</code>
+
+- [RayanAlmulhim/CVE-2026-105134-lab](https://github.com/RayanAlmulhim/CVE-2026-105134-lab)
+
+### CVE-2026-105314 (2026-10-05)
+
+<code>Papermerge 3.5.3 allows remote code execution by a standard user via directory traversal in a /api/documents/upload call. A Python .pth file can be written to site-packages, and its code is executed upon the next start of the Python interpreter.
+</code>
+
+- [kashishtopi/CVE-2026-105314](https://github.com/kashishtopi/CVE-2026-105314)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -26091,6 +26123,13 @@
 - [fevar54/CVE-2025-48595-Android-Framework-Integer-Overflow-](https://github.com/fevar54/CVE-2025-48595-Android-Framework-Integer-Overflow-)
 - [XiaoBaiLovesStirring/CVE-2025-48595-Exploit](https://github.com/XiaoBaiLovesStirring/CVE-2025-48595-Exploit)
 
+### CVE-2025-48617 (2026-06-17)
+
+<code>In overrideConfig of CarrierConfigLoader.java, there is a possible way to bypass UID check due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [K1tor/PixelVolte5G](https://github.com/K1tor/PixelVolte5G)
+
 ### CVE-2025-48703 (2025-09-19)
 
 <code>CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1205 allows unauthenticated remote code execution via shell metacharacters in the t_total parameter in a filemanager changePerm request. A valid non-root username must be known.
@@ -27478,6 +27517,7 @@
 </code>
 
 - [byteReaper77/CVE-2025-54769](https://github.com/byteReaper77/CVE-2025-54769)
+- [tunahantekeoglu/CVE-2025-54769](https://github.com/tunahantekeoglu/CVE-2025-54769)
 
 ### CVE-2025-54782 (2025-08-01)
 
