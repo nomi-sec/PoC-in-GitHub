@@ -10544,6 +10544,7 @@
 
 - [0xgh057r3c0n/CVE-2026-40281](https://github.com/0xgh057r3c0n/CVE-2026-40281)
 - [MRdark-ops/CVE-2026-40281-exploit](https://github.com/MRdark-ops/CVE-2026-40281-exploit)
+- [rabakuku/CVE-2026-40281](https://github.com/rabakuku/CVE-2026-40281)
 
 ### CVE-2026-40345 (2026-08-20)
 
@@ -19747,6 +19748,7 @@
 
 - [guinea-offensive-security/CVE-2025-6019](https://github.com/guinea-offensive-security/CVE-2025-6019)
 - [And-oss/CVE-2025-6019-exploit](https://github.com/And-oss/CVE-2025-6019-exploit)
+- [JustThinkingHard/HID-Attack](https://github.com/JustThinkingHard/HID-Attack)
 - [neko205-mx/CVE-2025-6019_Exploit](https://github.com/neko205-mx/CVE-2025-6019_Exploit)
 - [harshitvarma05/CVE-2025-6019](https://github.com/harshitvarma05/CVE-2025-6019)
 - [robbin0919/CVE-2025-6019](https://github.com/robbin0919/CVE-2025-6019)
