@@ -3971,6 +3971,13 @@
 
 - [Slagzz/CVE-2026-16348](https://github.com/Slagzz/CVE-2026-16348)
 
+### CVE-2026-16444 (2026-08-26)
+
+<code>Improper\nneutralization of path traversal sequences in TeamViewer Desktop Clients prior\nVersion 15.81.5 allows an authenticated remote session participant to write files\nto unintended locations on the local file system via file transfer or virtual\nfile clipboard mechanisms. An attacker can leverage this behavior to achieve\narbitrary file write and potentially execute code with the privileges of the\naffected user.
+</code>
+
+- [jamir0quai/CVE-2026-16444](https://github.com/jamir0quai/CVE-2026-16444)
+
 ### CVE-2026-16475
 - [afertar/CVE-2026-16475-PoC](https://github.com/afertar/CVE-2026-16475-PoC)
 
@@ -8524,6 +8531,7 @@
 - [TRX-0/CVE-2026-31857-craftcms-ssti](https://github.com/TRX-0/CVE-2026-31857-craftcms-ssti)
 - [0xTatsuki/CVE-2026-31857](https://github.com/0xTatsuki/CVE-2026-31857)
 - [0Asylum/CVE-2026-31857](https://github.com/0Asylum/CVE-2026-31857)
+- [WhiteMachin3/CVE-2026-31857](https://github.com/WhiteMachin3/CVE-2026-31857)
 
 ### CVE-2026-31891 (2026-03-18)
 
@@ -10454,6 +10462,7 @@
 - [julichaan/CVE-2026-39987_POC](https://github.com/julichaan/CVE-2026-39987_POC)
 - [mfahdk/CVE-2026-39987_RCE_PoC](https://github.com/mfahdk/CVE-2026-39987_RCE_PoC)
 - [LaArana12/CVE-2026-39987-Marimo-Preauth-RCE](https://github.com/LaArana12/CVE-2026-39987-Marimo-Preauth-RCE)
+- [Industri4l-H3ll-Xpl0it3rs/CVE-2026-39987-Marimo-RCE](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-39987-Marimo-RCE)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -10918,6 +10927,13 @@
 </code>
 
 - [daehyuh/CVE-2026-41729](https://github.com/daehyuh/CVE-2026-41729)
+
+### CVE-2026-41875 (2026-09-29)
+
+<code>Quick.Cart is vulnerable to Cross-Site Request Forgery in admin config panel. Malicious attacker can craft special website, which when visited by the admin, will automatically send a POST request that changes admin's login and password.\nThis software does implement simple protection against this type of attack, but it is easily bypassed by manipulating the referer header. All forms available in this software are potentially vulnerable.\n\nThis issue was fixed in a patch to version 6.7 published on 09.11.2026, deployments without this patch are still vulnerable
+</code>
+
+- [hhg69/CVE-2026-41875-EXPLOIT-QuickCart-one-click-Account-Takeover](https://github.com/hhg69/CVE-2026-41875-EXPLOIT-QuickCart-one-click-Account-Takeover)
 
 ### CVE-2026-41900 (2026-05-08)
 
@@ -11597,6 +11613,8 @@
 - [yexiaoqq/rmg-s9110-research](https://github.com/yexiaoqq/rmg-s9110-research)
 - [alfzki/ghostlock-app](https://github.com/alfzki/ghostlock-app)
 - [litianyuan-91/Ghostlock-Honor70Pro](https://github.com/litianyuan-91/Ghostlock-Honor70Pro)
+- [a23bc/ALI-AN00-cve-2026-43499](https://github.com/a23bc/ALI-AN00-cve-2026-43499)
+- [maulanasdqn/ghostlock-honor-brpnx1](https://github.com/maulanasdqn/ghostlock-honor-brpnx1)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -17737,6 +17755,7 @@
 </code>
 
 - [scastillo-jp/braces-fork](https://github.com/scastillo-jp/braces-fork)
+- [pillarsdotnet/node-braces](https://github.com/pillarsdotnet/node-braces)
 
 ### CVE-2026-93834 (2026-09-25)
 
@@ -18086,7 +18105,11 @@
 
 - [covepseng/cve-2026-102268-poc](https://github.com/covepseng/cve-2026-102268-poc)
 
-### CVE-2026-102282
+### CVE-2026-102282 (2026-10-05)
+
+<code>adm-zip is a JavaScript library for creating and extracting ZIP archives in Node.js. Prior to 0.6.1, adm-zip applies the Unix permission bits stored in a zip entry directly to the extracted file via `fs.chmodSync()` when `keepOriginalPermission=true` is passed to `extractAllTo()`/`extractEntryTo()` — and it never filters the setuid/setgid/sticky bits out of those bits. A zip crafted by an attacker can therefore produce an extracted binary with mode `04755`. When extraction runs as root (the default posture in Docker builds, CI runners, and privileged install steps — the exact environments where this flag is used), the resulting root-owned setuid file is executed later by a lesser-privileged user, turning the attacker's code into a root execution. Version 0.6.1 fixes the issue.
+</code>
+
 - [x86byte/adm-zip_LPE-PoC](https://github.com/x86byte/adm-zip_LPE-PoC)
 - [Ahmed-Elmahgob/POC-CVE-2026-102282](https://github.com/Ahmed-Elmahgob/POC-CVE-2026-102282)
 
@@ -28807,6 +28830,7 @@
 - [r3vpwnx/CVE-2025-57819](https://github.com/r3vpwnx/CVE-2025-57819)
 - [shivammittal2403/cve-2025-57819-freepbx-range](https://github.com/shivammittal2403/cve-2025-57819-freepbx-range)
 - [donggle0802-code/cve-2025-57819](https://github.com/donggle0802-code/cve-2025-57819)
+- [kelltich-756/FreePBX-Breaker](https://github.com/kelltich-756/FreePBX-Breaker)
 
 ### CVE-2025-57833 (2025-09-03)
 
@@ -39700,6 +39724,7 @@
 </code>
 
 - [BwithE/CVE-2024-40453](https://github.com/BwithE/CVE-2024-40453)
+- [AC8999/CVE-2024-40453](https://github.com/AC8999/CVE-2024-40453)
 
 ### CVE-2024-40457 (2024-09-12)
 
@@ -51099,6 +51124,7 @@
 - [v3ilsm1th/CVE-2023-45866_WIP](https://github.com/v3ilsm1th/CVE-2023-45866_WIP)
 - [Sergeb250/BlueDucky](https://github.com/Sergeb250/BlueDucky)
 - [hegaz0y/-BuL](https://github.com/hegaz0y/-BuL)
+- [KiroShehata/CVE-2023-45866-Bluetooth-Security-Research](https://github.com/KiroShehata/CVE-2023-45866-Bluetooth-Security-Research)
 
 ### CVE-2023-45878 (2023-11-14)
 
@@ -60732,6 +60758,7 @@
 - [FakeShell/CVE-2021-1931-BBRY-KEY2](https://github.com/FakeShell/CVE-2021-1931-BBRY-KEY2)
 - [aomsin2526/xperia_5_bl_unlocker_poc](https://github.com/aomsin2526/xperia_5_bl_unlocker_poc)
 - [starseed12345/QuestStack](https://github.com/starseed12345/QuestStack)
+- [stanw47/Blackberry-Key2-Research](https://github.com/stanw47/Blackberry-Key2-Research)
 
 ### CVE-2021-1961 (2021-09-09)
 
@@ -63800,6 +63827,13 @@
 </code>
 
 - [0cool-design/PWNtaho](https://github.com/0cool-design/PWNtaho)
+
+### CVE-2021-31624 (2021-10-29)
+
+<code>Buffer Overflow vulnerability in Tenda AC9 V1.0 through V15.03.05.19(6318), and AC9 V3.0 V15.03.06.42_multi, allows attackers to execute arbitrary code via the urls parameter.
+</code>
+
+- [sifatnotes/Learn-SecByte-CTF-Labs-Tabnabbing-Web-Recon-Nmap-Netdiscover-CVE-Labs](https://github.com/sifatnotes/Learn-SecByte-CTF-Labs-Tabnabbing-Web-Recon-Nmap-Netdiscover-CVE-Labs)
 
 ### CVE-2021-31630 (2021-08-03)
 
@@ -70360,7 +70394,6 @@
 - [0xAJ2K/CVE-2020-11022-CVE-2020-11023](https://github.com/0xAJ2K/CVE-2020-11022-CVE-2020-11023)
 - [Snorlyd/https-nj.gov---CVE-2020-11022](https://github.com/Snorlyd/https-nj.gov---CVE-2020-11022)
 - [okni2k/HW-Pyton-10](https://github.com/okni2k/HW-Pyton-10)
-- [ibnurusdianto/CVE-2020-11022](https://github.com/ibnurusdianto/CVE-2020-11022)
 
 ### CVE-2020-11023 (2020-04-29)
 
@@ -72004,6 +72037,13 @@
 </code>
 
 - [al-sultani/AVideo3xploit](https://github.com/al-sultani/AVideo3xploit)
+
+### CVE-2020-23546 (2021-10-28)
+
+<code>IrfanView 4.54 allows attackers to cause a denial of service or possibly other unspecified impacts via a crafted XBM file, related to a &quot;Data from Faulting Address is used as one or more arguments in a subsequent Function Call starting at FORMATS!ReadMosaic+0x0000000000000981.
+</code>
+
+- [sifatnotes/Learn-SecByte-CTF-Labs-Tabnabbing-Web-Recon-Nmap-Netdiscover-CVE-Labs](https://github.com/sifatnotes/Learn-SecByte-CTF-Labs-Tabnabbing-Web-Recon-Nmap-Netdiscover-CVE-Labs)
 
 ### CVE-2020-23582 (2022-11-21)
 
@@ -89541,6 +89581,7 @@
 </code>
 
 - [sarjanpatel22/siem-threat-detection-lab](https://github.com/sarjanpatel22/siem-threat-detection-lab)
+- [RoflSecurity/nodeloris](https://github.com/RoflSecurity/nodeloris)
 
 
 ## 2006
@@ -89699,13 +89740,6 @@
 
 
 ## 2004
-### CVE-2004-0077 (2004-09-01)
-
-<code>The do_mremap function for the mremap system call in Linux 2.2 to 2.2.25, 2.4 to 2.4.24, and 2.6 to 2.6.2, does not properly check the return value from the do_munmap function when the maximum number of VMA descriptors is exceeded, which allows local users to gain root privileges, a different vulnerability than CAN-2003-0985.
-</code>
-
-- [0b0111100/2004](https://github.com/0b0111100/2004)
-
 ### CVE-2004-0558 (2004-09-17)
 
 <code>The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows remote attackers to cause a denial of service (service hang) via a certain UDP packet to the IPP port.
@@ -89730,7 +89764,6 @@
 - [darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561)
 - [thel1nus/CVE-2004-1561-Notes](https://github.com/thel1nus/CVE-2004-1561-Notes)
 - [Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-](https://github.com/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-)
-- [MonseigneurPatas/thm-ice-icecast-rce-privesc](https://github.com/MonseigneurPatas/thm-ice-icecast-rce-privesc)
 
 ### CVE-2004-1769 (2005-03-10)
 
@@ -89779,10 +89812,6 @@
 - [h3x0v3rl0rd/distccd_rce_CVE-2004-2687](https://github.com/h3x0v3rl0rd/distccd_rce_CVE-2004-2687)
 - [k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687)
 - [nulltrace1336/Metasploitable-2-Distcc-Exploit-via-Kali-Linux-CVE-2004-2687](https://github.com/nulltrace1336/Metasploitable-2-Distcc-Exploit-via-Kali-Linux-CVE-2004-2687)
-- [micheaol/distccd_rce_CVE-2004-2687](https://github.com/micheaol/distccd_rce_CVE-2004-2687)
-- [aish19siddiqua-commits/mtechweek_04](https://github.com/aish19siddiqua-commits/mtechweek_04)
-- [ocfagb/hacktivity-vulns-exploits-lab](https://github.com/ocfagb/hacktivity-vulns-exploits-lab)
-- [germarr93/CyberSecurity-Pentest-Lab](https://github.com/germarr93/CyberSecurity-Pentest-Lab)
 
 ### CVE-2004-6768
 - [yougboiz/Metasploit-CVE-2004-6768](https://github.com/yougboiz/Metasploit-CVE-2004-6768)
