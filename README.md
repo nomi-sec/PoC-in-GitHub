@@ -1241,6 +1241,7 @@
 - [noambouillet/CVE-2026-3888](https://github.com/noambouillet/CVE-2026-3888)
 - [DanielTangnes/CVE-2026-3888](https://github.com/DanielTangnes/CVE-2026-3888)
 - [hewhomusntbenamed/CVE-2026-3888-fixed](https://github.com/hewhomusntbenamed/CVE-2026-3888-fixed)
+- [AlanNewberry/CVE-2026-3888-snap-confine-privilege-escalation](https://github.com/AlanNewberry/CVE-2026-3888-snap-confine-privilege-escalation)
 
 ### CVE-2026-3891 (2026-03-13)
 
@@ -5089,6 +5090,15 @@
 - [Pairs34/RDPVulnarableCheck](https://github.com/Pairs34/RDPVulnarableCheck)
 - [fevar54/CVE-2026-21533_Scanner.py](https://github.com/fevar54/CVE-2026-21533_Scanner.py)
 
+### CVE-2026-21589 (2026-10-05)
+
+<code>This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center. Crowd Data Center, Crucible and Fisheye. This Arbitrary File Access vulnerability allows an unauthenticated attacker to access specific files within the web application root directory in affected versions. Exploitation requires prior knowledge of the target file's exact name and path; this vulnerability does not allow attackers to enumerate or list directory contents. In some configurations, there may be some sensitive files that make this highly severe. This vulnerability allows an unauthenticated remote attacker to access specific files within the web application root directory in affected versions. The vulnerability must be addressed for affected versions of: -- Bitbucket Data Center, introduced in version &gt;= 4.6.0, fix versions: 9.4.26, 10.2.8, 10.5.1 -- Confluence Data Center, introduced in version &gt;= 5.10.0, fix versions 9.2.26, 10.2.19 -- Crowd Data Center, introduced in version &gt;= 2.11.0, fix versions 6.3.7, 7.0.3, 7.1.7, 7.2.4 -- Jira Software Data Center, introduced in version &gt;= 7.1.0, fix versions 9.12.40, 10.3.26, 11.3.12 -- Jira Service Management Data Center, introduced in version &gt;= 3.1.0, fix versions 5.12.40, 10.3.26, 11.3.12 -- Bamboo Data Center &gt;= 7.0.1, fix versions 10.2.24, 12.1.12 -- Crucible, fix versions 4.9.15 -- Fisheye, fix version 4.9.15 -- Exploitation requires prior knowledge of the target file's exact name and path. The vulnerability does not include the capability to enumerate or list directory contents.
+</code>
+
+- [watchtowrlabs/watchTowr-vs-Atlassian-CVE-2026-21589](https://github.com/watchtowrlabs/watchTowr-vs-Atlassian-CVE-2026-21589)
+- [MarcusProgram/CVE-2026-21589](https://github.com/MarcusProgram/CVE-2026-21589)
+- [tc4dy/CVE-2026-21589-PoC-Exploit](https://github.com/tc4dy/CVE-2026-21589-PoC-Exploit)
+
 ### CVE-2026-21627 (2026-02-20)
 
 <code>The vulnerability was rooted in how the Tassos Framework plugin handled specific AJAX requests through Joomla’s com_ajax entry point. Under certain conditions, internal framework functionality could be invoked without proper restriction.
@@ -8688,7 +8698,6 @@
 - [sahmsec/CVE-2026-32475](https://github.com/sahmsec/CVE-2026-32475)
 - [dinosn/cve-2026-32475-elementor-pro-lab](https://github.com/dinosn/cve-2026-32475-elementor-pro-lab)
 - [4minx/CVE-2026-32475](https://github.com/4minx/CVE-2026-32475)
-- [cyeezy08/WordPress_Exploit_Directory](https://github.com/cyeezy08/WordPress_Exploit_Directory)
 
 ### CVE-2026-32488 (2026-03-25)
 
@@ -11750,6 +11759,7 @@
 </code>
 
 - [tls456/CVE-2026-43805-PoC](https://github.com/tls456/CVE-2026-43805-PoC)
+- [WTCYJ/CVE-2026-43805-analysis](https://github.com/WTCYJ/CVE-2026-43805-analysis)
 
 ### CVE-2026-43813 (2026-07-27)
 
@@ -13286,13 +13296,6 @@
 
 - [chaitanyagarware/CVE-2026-50181](https://github.com/chaitanyagarware/CVE-2026-50181)
 
-### CVE-2026-50229 (2026-06-29)
-
-<code>Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in the number guess example for Apache Tomcat.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected.\n\nUsers are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue.
-</code>
-
-- [zero-trace7/CVE-2026-50229](https://github.com/zero-trace7/CVE-2026-50229)
-
 ### CVE-2026-50338 (2026-07-14)
 
 <code>Improper authentication in Azure Spring Apps allows an authorized attacker to elevate privileges over a network.
@@ -13618,7 +13621,6 @@
 <code>Kimai is an open-source time tracking application. Prior to 2.58.0, the official Docker image sets APP_SECRET to the public value change_this_to_something_unique in Dockerfile, and .docker/entrypoint.sh neither replaces nor rejects that value before Symfony uses it as kernel.secret. An unauthenticated attacker who reaches a deployment that did not override APP_SECRET, knows a username, correctly guesses the account ID associated with that username, and targets an account without active two-factor authentication can forge HMAC-protected authentication artifacts, including KIMAI_REMEMBER cookies and login links, to access the account without its password. The updated entrypoint generates and persists a random secret when no safe operator-provided value exists. This issue is fixed in version 2.58.0.
 </code>
 
-- [cyeezy08/Kimai-CVE-2026-52824-POC](https://github.com/cyeezy08/Kimai-CVE-2026-52824-POC)
 - [AzureADTrent/CVE-2026-52824](https://github.com/AzureADTrent/CVE-2026-52824)
 
 ### CVE-2026-52832 (2026-09-02)
@@ -14434,6 +14436,13 @@
 
 - [zylideum/CVE-2026-57858](https://github.com/zylideum/CVE-2026-57858)
 
+### CVE-2026-57967 (2026-09-10)
+
+<code>An unauthenticated remote attacker can craft a CORE protocol SESSION_REATTACH packet to steal an existing session and assume ongoing execution of the previously authenticated session.\n\n\n\nThis issue affects Apache Artemis: from 2.50.0 through 2.56.0; Apache ActiveMQ Artemis: from 1.0.0 through 2.44.0.\n\n\n\nUsers are recommended to upgrade to version 2.57.0, which fixes the issue.
+</code>
+
+- [c0dem4sters/CVE-2026-57967](https://github.com/c0dem4sters/CVE-2026-57967)
+
 ### CVE-2026-57973 (2026-07-14)
 
 <code>Time-of-check time-of-use (toctou) race condition in Windows Subsystem for Linux allows an authorized attacker to perform tampering locally.
@@ -14562,6 +14571,13 @@
 
 - [MalHyuk/CVE-2026-59243](https://github.com/MalHyuk/CVE-2026-59243)
 - [0xdak/CVE-2026-59243_exploit](https://github.com/0xdak/CVE-2026-59243_exploit)
+
+### CVE-2026-59265 (2026-10-02)
+
+<code>A code execution issue in the Java integration in Apache OpenOffice v4.1.16 and earlier allows a crafted untrusted document to trigger executing arbitrary (even remote) code when opened by the user.\n\n\n\nThis issue is expected to be fixed in version 4.1.17, which is in the release candidate phase.\n\n\n\nUntil then, users can mitigate this issue by disabling Java runtime integration in the Preferences dialog. This prevents the attack. If this is not possible, or as an extra precaution, you can avoid opening open untrusted files entirely. Once 4.1.17 is released, upgrade to that version to fix the issue.
+</code>
+
+- [HORKimhab/CVE-2026-59265](https://github.com/HORKimhab/CVE-2026-59265)
 
 ### CVE-2026-59310 (2026-07-30)
 
@@ -14943,6 +14959,13 @@
 
 - [imbas007/CVE-2026-63223-POC](https://github.com/imbas007/CVE-2026-63223-POC)
 - [shinthink/CVE-2026-63223](https://github.com/shinthink/CVE-2026-63223)
+
+### CVE-2026-63277 (2026-10-05)
+
+<code>LibreOffice Calc can link a cell range to an external data source, and the link is saved in the document. A document could name a Java database driver for such a link to be loaded from a remote location, so opening the document could run Java code from that location. In fixed versions an entry in a Java class path has to be a file URL.
+</code>
+
+- [HORKimhab/CVE-2026-63277](https://github.com/HORKimhab/CVE-2026-63277)
 
 ### CVE-2026-63292 (2026-10-01)
 
@@ -15633,6 +15656,7 @@
 - [axedos/CVE-2026-67401](https://github.com/axedos/CVE-2026-67401)
 - [jithinkrishnanrs/CVE-2026-67401-cPanel-EmailTrack-SQLi](https://github.com/jithinkrishnanrs/CVE-2026-67401-cPanel-EmailTrack-SQLi)
 - [imbas007/CVE-2026-67401](https://github.com/imbas007/CVE-2026-67401)
+- [hitechcloud-vietnam/CVE-2026-67401](https://github.com/hitechcloud-vietnam/CVE-2026-67401)
 
 ### CVE-2026-67595 (2026-07-29)
 
@@ -30675,7 +30699,6 @@
 <code>Critical XXE in Apache Tika tika-core (1.13-3.2.1), tika-pdf-module (2.0.0-3.2.1) and tika-parsers (1.13-1.28.5) modules on all platforms allows an attacker to carry out XML External Entity injection via a crafted XFA file inside of a PDF. \n\nThis CVE covers the same vulnerability as in CVE-2025-54988. However, this CVE expands the scope of affected packages in two ways. \n\nFirst, while the entrypoint for the vulnerability was the tika-parser-pdf-module as reported in CVE-2025-54988, the vulnerability and its fix were in tika-core. Users who upgraded the tika-parser-pdf-module but did not upgrade tika-core to &gt;= 3.2.2 would still be vulnerable. \n\nSecond, the original report failed to mention that in the 1.x Tika releases, the PDFParser was in the &quot;org.apache.tika:tika-parsers&quot; module.
 </code>
 
-- [yunatamos/Blackash-CVE-2025-66516](https://github.com/yunatamos/Blackash-CVE-2025-66516)
 - [chasingimpact/CVE-2025-66516-Writeup-POC](https://github.com/chasingimpact/CVE-2025-66516-Writeup-POC)
 - [sid6224/CVE-2025-66516-POC](https://github.com/sid6224/CVE-2025-66516-POC)
 - [intSheep/Tika-CVE-2025-66516-Lab](https://github.com/intSheep/Tika-CVE-2025-66516-Lab)
@@ -31660,7 +31683,11 @@
 
 - [majpuV/flowise-arbitrary-file-read-getFileFromStorage](https://github.com/majpuV/flowise-arbitrary-file-read-getFileFromStorage)
 
-### CVE-2025-71384
+### CVE-2025-71384 (2026-10-06)
+
+<code>Dbit WIFI4 N300 1.0.0 devices allows administrators (from the local Wi-Fi network) to execute OS commands by leveraging a stack-based buffer overflow via the /api/addStaticDHCP comment field,
+</code>
+
 - [Scorpion-Security-Labs/CVE-2025-71384](https://github.com/Scorpion-Security-Labs/CVE-2025-71384)
 
 ### CVE-2025-71389 (2026-07-23)
@@ -32896,13 +32923,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-4041](https://github.com/RandomRobbieBF/CVE-2024-4041)
-
-### CVE-2024-4068 (2024-05-13)
-
-<code>The NPM package `braces`, versions prior to 3.0.3, fails to limit the number of characters it can handle, which could lead to Memory Exhaustion. In `lib/parse.js,` if a malicious user sends &quot;imbalanced braces&quot; as input, the parsing will enter a loop, which will cause the program to start allocating heap memory without freeing it at any moment of the loop. Eventually, the JavaScript heap limit is reached, and the program will crash.
-</code>
-
-- [cyeezy08/DoS-Braces-3.03](https://github.com/cyeezy08/DoS-Braces-3.03)
 
 ### CVE-2024-4157 (2024-05-22)
 
@@ -35461,6 +35481,7 @@
 - [Crowdfense/CVE-2024-21338](https://github.com/Crowdfense/CVE-2024-21338)
 - [hackyboiz/kcfg-bypass](https://github.com/hackyboiz/kcfg-bypass)
 - [MistyFir/CVE-2024-21338-Exploit](https://github.com/MistyFir/CVE-2024-21338-Exploit)
+- [kikozz/CVE-2024-21338](https://github.com/kikozz/CVE-2024-21338)
 
 ### CVE-2024-21345 (2024-02-13)
 
@@ -61580,7 +61601,6 @@
 - [wudicainiao/cve-2021-4034](https://github.com/wudicainiao/cve-2021-4034)
 - [TanmoyG1800/CVE-2021-4034](https://github.com/TanmoyG1800/CVE-2021-4034)
 - [CronoX1/CVE-2021-4034](https://github.com/CronoX1/CVE-2021-4034)
-- [supportingmx/cve-2021-4034](https://github.com/supportingmx/cve-2021-4034)
 - [A1vinSmith/CVE-2021-4034](https://github.com/A1vinSmith/CVE-2021-4034)
 - [HellGateCorp/pwnkit](https://github.com/HellGateCorp/pwnkit)
 - [Silencecyber/cve-2021-4034](https://github.com/Silencecyber/cve-2021-4034)
@@ -65982,6 +66002,7 @@
 - [drackyjr/CVE-2021-42013](https://github.com/drackyjr/CVE-2021-42013)
 - [ranasen-rat/cve-2021-42013](https://github.com/ranasen-rat/cve-2021-42013)
 - [zeynepglygt/apache-cve-2021-42013-rce](https://github.com/zeynepglygt/apache-cve-2021-42013-rce)
+- [lmcewen9/cve-2021-42013](https://github.com/lmcewen9/cve-2021-42013)
 - [Joapath/CVE-2021-42013](https://github.com/Joapath/CVE-2021-42013)
 - [eunho87/CVE-2021-42013](https://github.com/eunho87/CVE-2021-42013)
 - [berraesen/apache-cve-2021-42013-lab](https://github.com/berraesen/apache-cve-2021-42013-lab)
@@ -79289,6 +79310,7 @@
 - [Prapul1/VulnHub-DC1-Writeup](https://github.com/Prapul1/VulnHub-DC1-Writeup)
 - [Shams-Ul-Mehmood/CVE-2018-7600-Drupalgeddon2-RCE](https://github.com/Shams-Ul-Mehmood/CVE-2018-7600-Drupalgeddon2-RCE)
 - [elkhaoudari/CVE-2018-7600-PoC](https://github.com/elkhaoudari/CVE-2018-7600-PoC)
+- [Aihikk/DC-1_Vulnhub_Walkthrough](https://github.com/Aihikk/DC-1_Vulnhub_Walkthrough)
 - [K52-ai/CVE-2018-7600](https://github.com/K52-ai/CVE-2018-7600)
 
 ### CVE-2018-7602 (2018-07-19)
@@ -88804,6 +88826,13 @@
 
 - [shoucheng3/apache__myfaces_CVE-2011-4367_2-0-11](https://github.com/shoucheng3/apache__myfaces_CVE-2011-4367_2-0-11)
 
+### CVE-2011-4825 (2011-12-15)
+
+<code>Static code injection vulnerability in inc/function.base.php in Ajax File and Image Manager before 1.1, as used in tinymce before 1.4.2, phpMyFAQ 2.6 before 2.6.19 and 2.7 before 2.7.1, and possibly other products, allows remote attackers to inject arbitrary PHP code into data.php via crafted parameters.
+</code>
+
+- [XavLimSG/Zenphoto-1.4.1.4-CVE-2011-4825-RCE](https://github.com/XavLimSG/Zenphoto-1.4.1.4-CVE-2011-4825-RCE)
+
 ### CVE-2011-4862 (2011-12-25)
 
 <code>Buffer overflow in libtelnet/encrypt.c in telnetd in FreeBSD 7.3 through 9.0, MIT Kerberos Version 5 Applications (aka krb5-appl) 1.0.2 and earlier, Heimdal 1.5.1 and earlier, GNU inetutils, and possibly other products allows remote attackers to execute arbitrary code via a long encryption key, as exploited in the wild in December 2011.
@@ -89571,9 +89600,7 @@
 - [Mboatella25/metasploitable-pentest-lab](https://github.com/Mboatella25/metasploitable-pentest-lab)
 - [ronankongala/metasploit-pentest-report](https://github.com/ronankongala/metasploit-pentest-report)
 - [rushikesh-a-bhujbal/CVE-2007-2447](https://github.com/rushikesh-a-bhujbal/CVE-2007-2447)
-- [malredfan/xxxxxxxxxxxxxxxx](https://github.com/malredfan/xxxxxxxxxxxxxxxx)
-- [malredfan/vvvvvvvv2](https://github.com/malredfan/vvvvvvvv2)
-- [malredfan/gggggggggggggggggg](https://github.com/malredfan/gggggggggggggggggg)
+- [malredfan/metasploitable2-pentest](https://github.com/malredfan/metasploitable2-pentest)
 
 ### CVE-2007-3280 (2007-06-19)
 
