@@ -2454,6 +2454,7 @@
 - [rootdirective-sec/CVE-2026-8206-Lab](https://github.com/rootdirective-sec/CVE-2026-8206-Lab)
 - [izxci/CVE-2026-8206](https://github.com/izxci/CVE-2026-8206)
 - [Dungsocool/CVE-2026-8206](https://github.com/Dungsocool/CVE-2026-8206)
+- [Sanjith1236/CVE-2026-8206-Kirki-Exploit-Analysis](https://github.com/Sanjith1236/CVE-2026-8206-Kirki-Exploit-Analysis)
 
 ### CVE-2026-8237 (2026-05-21)
 
@@ -16314,6 +16315,13 @@
 
 - [TarPeg007/CVE-2026-74586](https://github.com/TarPeg007/CVE-2026-74586)
 
+### CVE-2026-74727 (2026-08-22)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\novpn: skip rehash for peers already removed from by_id\n\novpn_nl_peer_set_doit() resolves the target peer via\novpn_peer_get_by_id() before taking ovpn-&gt;lock. In the window between\nthe lookup (which only takes a refcount) and the subsequent\nspin_lock_bh(&amp;ovpn-&gt;lock), a concurrent OVPN_CMD_PEER_DEL, keepalive\nexpiry, or socket teardown can take ovpn-&gt;lock first, run\novpn_peer_remove() to unhash the peer from all four tables (by_id,\nby_vpn_addr4/6, by_transp_addr) and release the lock. set_doit then\nacquires ovpn-&gt;lock and calls ovpn_peer_hash_vpn_ip(), which\nre-inserts the now-removed peer back into the rehashing tables.\n\nThe same race affects the float path: ovpn_peer_endpoints_update()\nholds only a refcount and acquires ovpn-&gt;lock very late (after async\nAEAD decrypt and a netlink notification), then rehashes the peer\nin the by_transp_addr table.\n\nThe resurrected peer becomes reachable again from the RX lookup\n(ovpn_peer_get_by_transp_addr) and the TX VPN-IP lookup, even though\nuserspace believes it is gone. Once the data-path refcount drops the\npeer is freed via call_rcu while the hash entries embedded in it\nremain linked, opening a UAF window.\n\nBail out of the rehash when hash_entry_id is unhashed, mirroring\nthe sentinel already used by ovpn_peer_remove() to detect the\nalready-removed state. The check is safe under ovpn-&gt;lock, which\nserializes every mutation of hash_entry_id, and is a no-op for the\nadd path because ovpn_peer_add_mp() inserts hash_entry_id before\ncalling ovpn_peer_hash_vpn_ip().
+</code>
+
+- [Kosifuchs/ovpn-kernel-backport](https://github.com/Kosifuchs/ovpn-kernel-backport)
+
 ### CVE-2026-74936 (2026-08-18)
 
 <code>Use-after-free in the JavaScript: WebAssembly component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.
@@ -17312,6 +17320,7 @@
 </code>
 
 - [DeAurity/CVE-2026-86950-POC](https://github.com/DeAurity/CVE-2026-86950-POC)
+- [34zY/CVE-2026-86950](https://github.com/34zY/CVE-2026-86950)
 - [msuiche/hotcell](https://github.com/msuiche/hotcell)
 - [decalage2/detect_CVE-2026-86950](https://github.com/decalage2/detect_CVE-2026-86950)
 - [0xBlackash/CVE-2026-86950](https://github.com/0xBlackash/CVE-2026-86950)
@@ -18275,6 +18284,13 @@
 
 ### CVE-2026-104826
 - [KiwKNR/CVE-2026-104826](https://github.com/KiwKNR/CVE-2026-104826)
+
+### CVE-2026-104905 (2026-10-05)
+
+<code>FacturaScripts before version 2026.7 contains a PHP object injection vulnerability in WidgetSelect::processFormData() that allows authenticated attackers to trigger unserialize() on raw POST data without an allowed_classes filter for multiple-select fields. Attackers can submit a serialized XLSXWriter object as the field value to invoke its __destruct() method, deleting arbitrary attacker-specified files such as config.php or backup data, resulting in denial of service and potential application reinstall hijack.
+</code>
+
+- [wvllxe/CVE-2026-104905-facturascripts-object-injection](https://github.com/wvllxe/CVE-2026-104905-facturascripts-object-injection)
 
 ### CVE-2026-104991 (2026-10-02)
 
@@ -28139,6 +28155,7 @@
 - [iapetus12/hackcar-writeup](https://github.com/iapetus12/hackcar-writeup)
 - [abhaybansal16/cve-2025-55182-lab](https://github.com/abhaybansal16/cve-2025-55182-lab)
 - [RashmithaDeSilva/React2Shell_CVE-2025-55182](https://github.com/RashmithaDeSilva/React2Shell_CVE-2025-55182)
+- [OhSoomin812/cve-2025-55182-ctf](https://github.com/OhSoomin812/cve-2025-55182-ctf)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -82303,6 +82320,7 @@
 - [Majaktech/apache-struts-cve-2017-5638-project](https://github.com/Majaktech/apache-struts-cve-2017-5638-project)
 - [Dungsocool/CVE-2017-5638](https://github.com/Dungsocool/CVE-2017-5638)
 - [GU-007/struts2-tool](https://github.com/GU-007/struts2-tool)
+- [Piyush-Tiwatne/struts-patch-gap-auditor](https://github.com/Piyush-Tiwatne/struts-patch-gap-auditor)
 
 ### CVE-2017-5645 (2017-04-17)
 
