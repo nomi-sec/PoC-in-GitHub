@@ -4973,6 +4973,13 @@
 
 - [Hunt-Benito/samsung-bixby-command-execution-cve-2026-21055-improper-component-export](https://github.com/Hunt-Benito/samsung-bixby-command-execution-cve-2026-21055-improper-component-export)
 
+### CVE-2026-21096 (2026-09-09)
+
+<code>Heap-based buffer overflow in JPEG decoder of libimagecodec.quram.so prior to SMR Sep-2026 Release 1 allows remote attackers to execute arbitrary code.
+</code>
+
+- [Xen0nize/CVE-2026-21096](https://github.com/Xen0nize/CVE-2026-21096)
+
 ### CVE-2026-21250 (2026-02-10)
 
 <code>Untrusted pointer dereference in Windows HTTP.sys allows an authorized attacker to elevate privileges locally.
@@ -11439,7 +11446,7 @@
 - [millikanjohnl-blip/dirtyfrag-detection-rules](https://github.com/millikanjohnl-blip/dirtyfrag-detection-rules)
 - [TeamN4C/SG-2026-0024](https://github.com/TeamN4C/SG-2026-0024)
 - [Minime794/DirtyFrag](https://github.com/Minime794/DirtyFrag)
-- [nihan-silent-reign/CVE-2026-43284-DIRTY-FRAG-](https://github.com/nihan-silent-reign/CVE-2026-43284-DIRTY-FRAG-)
+- [mhdnihan/CVE-2026-43284-DIRTY-FRAG-](https://github.com/mhdnihan/CVE-2026-43284-DIRTY-FRAG-)
 - [a2333c/DFRoot](https://github.com/a2333c/DFRoot)
 - [coey0814/DirtyFrag-Galaxy](https://github.com/coey0814/DirtyFrag-Galaxy)
 - [ankitrawatgit/DirtyFrag-Android-Root-Jailbreak](https://github.com/ankitrawatgit/DirtyFrag-Android-Root-Jailbreak)
@@ -11615,6 +11622,7 @@
 - [litianyuan-91/Ghostlock-Honor70Pro](https://github.com/litianyuan-91/Ghostlock-Honor70Pro)
 - [a23bc/ALI-AN00-cve-2026-43499](https://github.com/a23bc/ALI-AN00-cve-2026-43499)
 - [maulanasdqn/ghostlock-honor-brpnx1](https://github.com/maulanasdqn/ghostlock-honor-brpnx1)
+- [Nixbones/ghostlock-rmx5085](https://github.com/Nixbones/ghostlock-rmx5085)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -11861,13 +11869,6 @@
 </code>
 
 - [ZemarKhos/CVE-2026-44403-WingFTP-v8.1.2-POC-Exploit](https://github.com/ZemarKhos/CVE-2026-44403-WingFTP-v8.1.2-POC-Exploit)
-
-### CVE-2026-44431 (2026-05-13)
-
-<code>urllib3 is an HTTP client library for Python. From 1.23 to before 2.7.0, cross-origin redirects followed from the low-level API via ProxyManager.connection_from_url().urlopen(..., assert_same_host=False) still forward these sensitive headers. This vulnerability is fixed in 2.7.0.
-</code>
-
-- [SSH-PuR66/cve-replay](https://github.com/SSH-PuR66/cve-replay)
 
 ### CVE-2026-44438
 - [llaytynher/CVE-2026-44438](https://github.com/llaytynher/CVE-2026-44438)
@@ -17949,6 +17950,13 @@
 
 - [rafabd1/VectorFreed](https://github.com/rafabd1/VectorFreed)
 
+### CVE-2026-96940 (2026-10-02)
+
+<code>Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a network.
+</code>
+
+- [HORKimhab/CVE-2026-96940](https://github.com/HORKimhab/CVE-2026-96940)
+
 ### CVE-2026-97160 (2026-09-26)
 
 <code>Joomla Extension - lomart.fr - Authenticated, privileged PHP command injection in UP plugin extension 5.0.0-5.2.0, 6.0.0-6.0.29
@@ -18289,6 +18297,13 @@
 
 - [RayanAlmulhim/CVE-2026-105134-lab](https://github.com/RayanAlmulhim/CVE-2026-105134-lab)
 
+### CVE-2026-105221 (2026-10-04)
+
+<code>The gist RubyGem before 6.1.0 contains an improper certificate validation vulnerability that allows on-path attackers to intercept HTTPS traffic because http_connection in lib/gist.rb sets VERIFY_NONE. Attackers can present any certificate to read or modify GitHub API traffic, stealing OAuth tokens and login credentials to read and modify the victim's gists.
+</code>
+
+- [abraxas/cve-2026-105221-gist-tls](https://github.com/abraxas/cve-2026-105221-gist-tls)
+
 ### CVE-2026-105314 (2026-10-05)
 
 <code>Papermerge 3.5.3 allows remote code execution by a standard user via directory traversal in a /api/documents/upload call. A Python .pth file can be written to site-packages, and its code is executed upon the next start of the Python interpreter.
@@ -18525,6 +18540,7 @@
 </code>
 
 - [FWNavy/RMASmoke](https://github.com/FWNavy/RMASmoke)
+- [MCRideable3963/RMASmoke-v2](https://github.com/MCRideable3963/RMASmoke-v2)
 
 ### CVE-2025-1219 (2025-03-30)
 
@@ -21681,7 +21697,7 @@
 <code>A vulnerability was detected in D-Link DIR-860LB1 and DIR-868LB1 203b01/203b03. Affected is an unknown function of the component DHCP Daemon. The manipulation of the argument Hostname results in command injection. It is possible to launch the attack remotely. The exploit is now public and may be used.
 </code>
 
-- [PeterLinccl/Vulnerability-DLink-CVE-2025-14659](https://github.com/PeterLinccl/Vulnerability-DLink-CVE-2025-14659)
+- [PeterLinccl/CVE-2025-14659-DIR-860L](https://github.com/PeterLinccl/CVE-2025-14659-DIR-860L)
 
 ### CVE-2025-14700 (2025-12-17)
 
@@ -89740,6 +89756,13 @@
 
 
 ## 2004
+### CVE-2004-0077 (2004-09-01)
+
+<code>The do_mremap function for the mremap system call in Linux 2.2 to 2.2.25, 2.4 to 2.4.24, and 2.6 to 2.6.2, does not properly check the return value from the do_munmap function when the maximum number of VMA descriptors is exceeded, which allows local users to gain root privileges, a different vulnerability than CAN-2003-0985.
+</code>
+
+- [0b0111100/2004](https://github.com/0b0111100/2004)
+
 ### CVE-2004-0558 (2004-09-17)
 
 <code>The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows remote attackers to cause a denial of service (service hang) via a certain UDP packet to the IPP port.
@@ -89764,6 +89787,7 @@
 - [darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561)
 - [thel1nus/CVE-2004-1561-Notes](https://github.com/thel1nus/CVE-2004-1561-Notes)
 - [Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-](https://github.com/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-)
+- [MonseigneurPatas/thm-ice-icecast-rce-privesc](https://github.com/MonseigneurPatas/thm-ice-icecast-rce-privesc)
 
 ### CVE-2004-1769 (2005-03-10)
 
@@ -89812,6 +89836,10 @@
 - [h3x0v3rl0rd/distccd_rce_CVE-2004-2687](https://github.com/h3x0v3rl0rd/distccd_rce_CVE-2004-2687)
 - [k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687)
 - [nulltrace1336/Metasploitable-2-Distcc-Exploit-via-Kali-Linux-CVE-2004-2687](https://github.com/nulltrace1336/Metasploitable-2-Distcc-Exploit-via-Kali-Linux-CVE-2004-2687)
+- [micheaol/distccd_rce_CVE-2004-2687](https://github.com/micheaol/distccd_rce_CVE-2004-2687)
+- [aish19siddiqua-commits/mtechweek_04](https://github.com/aish19siddiqua-commits/mtechweek_04)
+- [ocfagb/hacktivity-vulns-exploits-lab](https://github.com/ocfagb/hacktivity-vulns-exploits-lab)
+- [germarr93/CyberSecurity-Pentest-Lab](https://github.com/germarr93/CyberSecurity-Pentest-Lab)
 
 ### CVE-2004-6768
 - [yougboiz/Metasploit-CVE-2004-6768](https://github.com/yougboiz/Metasploit-CVE-2004-6768)
