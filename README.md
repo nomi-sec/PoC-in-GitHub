@@ -5098,6 +5098,8 @@
 - [watchtowrlabs/watchTowr-vs-Atlassian-CVE-2026-21589](https://github.com/watchtowrlabs/watchTowr-vs-Atlassian-CVE-2026-21589)
 - [MarcusProgram/CVE-2026-21589](https://github.com/MarcusProgram/CVE-2026-21589)
 - [tc4dy/CVE-2026-21589-PoC-Exploit](https://github.com/tc4dy/CVE-2026-21589-PoC-Exploit)
+- [aduli198/CVE-2026-21589](https://github.com/aduli198/CVE-2026-21589)
+- [BimBoxH4/CVE-2026-21589](https://github.com/BimBoxH4/CVE-2026-21589)
 
 ### CVE-2026-21627 (2026-02-20)
 
@@ -11468,6 +11470,7 @@
 - [a2333c/DFRoot](https://github.com/a2333c/DFRoot)
 - [coey0814/DirtyFrag-Galaxy](https://github.com/coey0814/DirtyFrag-Galaxy)
 - [ankitrawatgit/DirtyFrag-Android-Root-Jailbreak](https://github.com/ankitrawatgit/DirtyFrag-Android-Root-Jailbreak)
+- [HirokiAkihiko/dirtyfrag-research](https://github.com/HirokiAkihiko/dirtyfrag-research)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -11630,11 +11633,10 @@
 - [WitAqua-tools/Root-My-Device](https://github.com/WitAqua-tools/Root-My-Device)
 - [CKwasd/zenfone9-ghostlock](https://github.com/CKwasd/zenfone9-ghostlock)
 - [mo2g/redmi-note-12t-pro-kernel](https://github.com/mo2g/redmi-note-12t-pro-kernel)
-- [L-1124/RootMyVivo-rs](https://github.com/L-1124/RootMyVivo-rs)
-- [L-1124/RootMyVivo-Exploit](https://github.com/L-1124/RootMyVivo-Exploit)
 - [ZeroDayEvil/CVE-2026-43499](https://github.com/ZeroDayEvil/CVE-2026-43499)
 - [shubhampathak65/CVE-2026-43499](https://github.com/shubhampathak65/CVE-2026-43499)
 - [YUE546/IQOO-neo7-ghostlock-43499](https://github.com/YUE546/IQOO-neo7-ghostlock-43499)
+- [THORBHAIxTRUSTED/RootMyVivo-Exploit](https://github.com/THORBHAIxTRUSTED/RootMyVivo-Exploit)
 - [yexiaoqq/rmg-s9110-research](https://github.com/yexiaoqq/rmg-s9110-research)
 - [alfzki/ghostlock-app](https://github.com/alfzki/ghostlock-app)
 - [litianyuan-91/Ghostlock-Honor70Pro](https://github.com/litianyuan-91/Ghostlock-Honor70Pro)
@@ -16141,6 +16143,7 @@
 - [d-maggipinto/CVE-2026-72898-metabase-sqli](https://github.com/d-maggipinto/CVE-2026-72898-metabase-sqli)
 - [EQSTLab/CVE-2026-72898](https://github.com/EQSTLab/CVE-2026-72898)
 - [34zY/CVE-2026-72898](https://github.com/34zY/CVE-2026-72898)
+- [amier-ge/CVE-2026-72898](https://github.com/amier-ge/CVE-2026-72898)
 
 ### CVE-2026-73034 (2026-08-11)
 
@@ -16788,34 +16791,6 @@
 ### CVE-2026-78851
 - [SLO-CYBER-SEC/CVE-2026-78851](https://github.com/SLO-CYBER-SEC/CVE-2026-78851)
 
-### CVE-2026-78903 (2026-08-25)
-
-<code>Incomplete cleanup in SiteIsolation in Google Chrome prior to 152.0.7977.65 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a crafted HTML page. (Chromium security severity: Medium)
-</code>
-
-- [vxssroott/CVE-2026-78903-SWIFT-Kick-to-the-Creds](https://github.com/vxssroott/CVE-2026-78903-SWIFT-Kick-to-the-Creds)
-
-### CVE-2026-78904 (2026-08-25)
-
-<code>Type confusion in ANGLE in Google Chrome prior to 152.0.7977.65 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)
-</code>
-
-- [vxssroott/CVE-2026-78904-Digital-Dinar-Drain](https://github.com/vxssroott/CVE-2026-78904-Digital-Dinar-Drain)
-
-### CVE-2026-78905 (2026-08-25)
-
-<code>Type confusion in ANGLE in Google Chrome prior to 152.0.7977.65 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)
-</code>
-
-- [vxssroott/CVE-2026-78905-Facebook-Account-Takeover](https://github.com/vxssroott/CVE-2026-78905-Facebook-Account-Takeover)
-
-### CVE-2026-78906 (2026-08-25)
-
-<code>Race condition in ANGLE in Google Chrome prior to 152.0.7977.65 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)
-</code>
-
-- [vxssroott/CVE-2026-78906-ChatGPT-Prompt-Injection](https://github.com/vxssroott/CVE-2026-78906-ChatGPT-Prompt-Injection)
-
 ### CVE-2026-78938 (2026-08-25)
 
 <code>Type confusion in V8 in Google Chrome prior to 152.0.7977.65 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
@@ -16998,6 +16973,7 @@
 </code>
 
 - [0xTerror/CVE-2026-81780-Hash-Form](https://github.com/0xTerror/CVE-2026-81780-Hash-Form)
+- [0xCyp1337/CVE-2026-81780](https://github.com/0xCyp1337/CVE-2026-81780)
 
 ### CVE-2026-81861 (2026-09-11)
 
@@ -17235,6 +17211,13 @@
 </code>
 
 - [SneakyNachos/CVE-2026-85048-the-gpu-died](https://github.com/SneakyNachos/CVE-2026-85048-the-gpu-died)
+
+### CVE-2026-85102 (2026-09-09)
+
+<code>Improper certificate trust validation during VPN negotiation in Check Point Quantum Security Gateway may allow an unauthenticated remote attacker to execute arbitrary code on the Gateway.
+</code>
+
+- [aduli198/CVE-2026-85102](https://github.com/aduli198/CVE-2026-85102)
 
 ### CVE-2026-85520 (2026-09-29)
 
@@ -17758,6 +17741,13 @@
 
 - [SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection](https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection)
 
+### CVE-2026-93355 (2026-09-28)
+
+<code>LiteLLM contains a weak authentication vulnerability that allows an attacker holding a valid JWT from the configured identity provider to authenticate as any existing user by exploiting an email-based fallback lookup in the JWT authentication flow without verifying the email_verified claim. Attackers can present a token with an unverified email address matching a victim's account to inherit the victim's role, including proxy_admin privileges, and permanently overwrite the victim's stored identity binding to retain persistent unauthorized access to administrative endpoints exposing API keys and user management.
+</code>
+
+- [InertFluid/cve-2026-93355-lab](https://github.com/InertFluid/cve-2026-93355-lab)
+
 ### CVE-2026-93399 (2026-09-25)
 
 <code>The Bookly plugin for WordPress is vulnerable to Insecure Direct Object Reference in versions up to, and including, 28.2 via the 'bookly_get_form_id', 'bookly_render_complete', 'bookly_add_to_calendar' and 'bookly_rollback_order' AJAX actions. This is due to the 'bookly_get_form_id' handler blindly storing the attacker-controlled 'order_id' from the submitted form_data into a new booking session, which the 'bookly_render_complete' handler then trusts to look up and return the corresponding Order's secret token without verifying that the current session created that order. This makes it possible for unauthenticated attackers to enumerate sequential order IDs, disclose other customers' order tokens, retrieve calendar/appointment information via 'bookly_add_to_calendar' and permanently delete arbitrary non-completed bookings via 'bookly_rollback_order', which cascade-deletes the customer_appointment and (when no other customers are attached) the underlying appointment.
@@ -18214,6 +18204,14 @@
 </code>
 
 - [murrez/CVE-2026-102427](https://github.com/murrez/CVE-2026-102427)
+
+### CVE-2026-102489 (2026-09-30)
+
+<code>Zammad versions 6.3.0 to 6.5.4 are vulnerable a session hijack vulnerability that leads to remote code execution as the zammad user. The vulnerability is also present in version 7.0.0 to version 7.1.3, but not exploitable due to environment conditions.
+</code>
+
+- [horizon3ai/CVE-2026-102489](https://github.com/horizon3ai/CVE-2026-102489)
+- [Hunt-Benito/the-cookie-in-the-error-message-cve-2026-102489-zammad-session-hijack-to-rce](https://github.com/Hunt-Benito/the-cookie-in-the-error-message-cve-2026-102489-zammad-session-hijack-to-rce)
 
 ### CVE-2026-102607
 - [d4kw1n/CVE-2026-102607-ZoneMinder](https://github.com/d4kw1n/CVE-2026-102607-ZoneMinder)
@@ -24014,6 +24012,7 @@
 - [kuyrathdaro/cve-2025-29927](https://github.com/kuyrathdaro/cve-2025-29927)
 - [Ritinify/CVE-2025-29927-PoC](https://github.com/Ritinify/CVE-2025-29927-PoC)
 - [vulnace/CVE-2025-29927](https://github.com/vulnace/CVE-2025-29927)
+- [sungue1/CVE-2025-29927](https://github.com/sungue1/CVE-2025-29927)
 
 ### CVE-2025-29943 (2026-01-16)
 
@@ -34007,6 +34006,7 @@
 </code>
 
 - [mistymntncop/CVE-2024-7971](https://github.com/mistymntncop/CVE-2024-7971)
+- [pepoc3/cve-2024-7971-poc](https://github.com/pepoc3/cve-2024-7971-poc)
 
 ### CVE-2024-7985 (2024-10-29)
 
@@ -36214,6 +36214,7 @@
 </code>
 
 - [abian2/CVE-2024-23652](https://github.com/abian2/CVE-2024-23652)
+- [hgyc/CVE-stand](https://github.com/hgyc/CVE-stand)
 
 ### CVE-2024-23653 (2024-01-31)
 
@@ -52855,6 +52856,7 @@
 - [KianaBin/CVE-2022-0492-Container-Escape](https://github.com/KianaBin/CVE-2022-0492-Container-Escape)
 - [T1erno/CVE-2022-0492-Docker-Breakout-Checker-and-PoC](https://github.com/T1erno/CVE-2022-0492-Docker-Breakout-Checker-and-PoC)
 - [Perimora/cve_2022_0492](https://github.com/Perimora/cve_2022_0492)
+- [hgyc/CVE-stand](https://github.com/hgyc/CVE-stand)
 
 ### CVE-2022-0529 (2022-02-09)
 
@@ -74223,6 +74225,7 @@
 - [0xbinder/CVE_2019_2215](https://github.com/0xbinder/CVE_2019_2215)
 - [Begitdj/cve-2019-2215-markw](https://github.com/Begitdj/cve-2019-2215-markw)
 - [saaedimam/sony-bravia-root-toolkit](https://github.com/saaedimam/sony-bravia-root-toolkit)
+- [WJNKAC/cve-2019-2215-oppo-a77t](https://github.com/WJNKAC/cve-2019-2215-oppo-a77t)
 
 ### CVE-2019-2525 (2019-01-16)
 
@@ -88750,6 +88753,7 @@
 - [hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523)
 - [krill-x7/CVE-2011-2523](https://github.com/krill-x7/CVE-2011-2523)
 - [BolivarJ/CVE-2011-2523](https://github.com/BolivarJ/CVE-2011-2523)
+- [Maalfer/vsftpd-2.3.4-exploit](https://github.com/Maalfer/vsftpd-2.3.4-exploit)
 - [KlyneZyro/Metasploitable2-VAPT-Report](https://github.com/KlyneZyro/Metasploitable2-VAPT-Report)
 - [Mirza-22144/Vulnerability-Assessment-Exploitation-Lab](https://github.com/Mirza-22144/Vulnerability-Assessment-Exploitation-Lab)
 - [tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution](https://github.com/tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution)
@@ -90244,13 +90248,6 @@
 - [rafaelh/CVE-2000-0649](https://github.com/rafaelh/CVE-2000-0649)
 - [stevenvegar/cve-2000-0649](https://github.com/stevenvegar/cve-2000-0649)
 - [Downgraderz/PoC-CVE-2000-0649](https://github.com/Downgraderz/PoC-CVE-2000-0649)
-
-### CVE-2000-0979 (2001-01-22)
-
-<code>File and Print Sharing service in Windows 95, Windows 98, and Windows Me does not properly check the password for a file share, which allows remote attackers to bypass share access controls by sending a 1-byte password that matches the first character of the real password, aka the &quot;Share Level Password&quot; vulnerability.
-</code>
-
-- [Z6543/CVE-2000-0979](https://github.com/Z6543/CVE-2000-0979)
 
 
 ## 1999
