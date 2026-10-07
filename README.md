@@ -9050,6 +9050,7 @@
 - [infernosalex/CVE-2026-33439-Python-PoC](https://github.com/infernosalex/CVE-2026-33439-Python-PoC)
 - [JonasChen0103/CVE-2026-33439-PoC](https://github.com/JonasChen0103/CVE-2026-33439-PoC)
 - [rh33t/CVE-2026-33439-Poc](https://github.com/rh33t/CVE-2026-33439-Poc)
+- [amis13/openam-clean](https://github.com/amis13/openam-clean)
 
 ### CVE-2026-33453 (2026-04-27)
 
@@ -14590,8 +14591,19 @@
 - [vpxuser/CVE-2026-59310](https://github.com/vpxuser/CVE-2026-59310)
 - [chu0119/vc-strike](https://github.com/chu0119/vc-strike)
 
-### CVE-2026-59346
+### CVE-2026-59346 (2026-10-07)
+
+<code>VMware Workstation and Fusion contain an integer-overflow vulnerability. A malicious actor with local administrative privileges on a virtual machine with VMXNET3 virtual network adapter may exploit this issue to execute code on the host.\n\nAffected versions:\n- VMware Workstation: 25H2, 26H1 (fixed in 26H1u1)\n- VMware Fusion: 25H2, 26H1 (fixed in 26H1u1)
+</code>
+
 - [0xCyberstan/CVE-2026-59346-POC](https://github.com/0xCyberstan/CVE-2026-59346-POC)
+
+### CVE-2026-59358 (2026-10-06)
+
+<code>Improper authentication (CWE-287) in the OAuth token endpoint in Cloud Foundry UAA allows a remote, authenticated attacker holding a valid user access token to obtain a fully-privileged client_credentials token for the OAuth client that issued it, by presenting the user token as an OAuth 2.0 Bearer credential on a client_credentials grant request in place of the client’s configured secret.\n\n\n\nUAA’s client_credentials handling does not verify that the Bearer credential supplied for client authentication is actually a client credential (a client secret or a valid configured client authentication method); it accepts any valid access token whose client_id matches the request. A token obtained by a normal end user through a public authorization_code + PKCE flow — scoped only to uaa.user, carrying a user_id, and recording client_auth_method=none — satisfies this check. That user token cannot itself administer OAuth clients (POST /oauth/clients correctly returns 403), but when replayed as Bearer authentication on a client_credentials request for the same client, UAA issues a new client-only token carrying the client’s full authorities, such as clients.write. An attacker can use that token to create arbitrary new OAuth clients, including clients with attacker-chosen authorities, without ever possessing the client’s actual secret.\n\n\n\nExploitation requires a valid user access token (the attacker’s own) for a client that is configured to support both a public, user-facing authorization flow and the client_credentials grant type on the same client_id — a non-default combination. Practical impact scales with the authorities assigned to that client.
+</code>
+
+- [abraxas/CVE-2026-59358](https://github.com/abraxas/CVE-2026-59358)
 
 ### CVE-2026-59550 (2026-07-27)
 
@@ -17054,6 +17066,13 @@
 
 - [murrez/CVE-2026-82384](https://github.com/murrez/CVE-2026-82384)
 
+### CVE-2026-82531 (2026-10-06)
+
+<code>Smarty before 4.5.8 and 5.x before 5.8.5 contains a code injection vulnerability where the top-level nocache_hash is never restored during extends:/multi-component template inheritance, leaving it null. Attackers can supply assigned data containing a forged SmartyNocache marker that is copied verbatim into the regenerated PHP cache file, executing arbitrary PHP on include for remote code execution.
+</code>
+
+- [murrez/CVE-2026-82531](https://github.com/murrez/CVE-2026-82531)
+
 ### CVE-2026-82539 (2026-08-30)
 
 <code>A vulnerability was determined in TOTOLINK A720R 4.1.5cu.630_B20250509. This impacts the function setMacFilterRules of the file cstecgi.cgi of the component MAC Filtering. Executing a manipulation of the argument desc can lead to memory corruption. The attack may be launched remotely. The exploit has been publicly disclosed and may be utilized.
@@ -17455,6 +17474,7 @@
 - [HackfutSecRoot/CVE-2026-87902](https://github.com/HackfutSecRoot/CVE-2026-87902)
 - [MRdark-ops/CVE-2026-87902](https://github.com/MRdark-ops/CVE-2026-87902)
 - [tonydelouvre/CVE-2026-87902](https://github.com/tonydelouvre/CVE-2026-87902)
+- [xiaxiu555/cve-2026-87902](https://github.com/xiaxiu555/cve-2026-87902)
 
 ### CVE-2026-87915 (2026-09-18)
 
@@ -18172,6 +18192,13 @@
 
 - [x86byte/adm-zip_LPE-PoC](https://github.com/x86byte/adm-zip_LPE-PoC)
 - [Ahmed-Elmahgob/POC-CVE-2026-102282](https://github.com/Ahmed-Elmahgob/POC-CVE-2026-102282)
+
+### CVE-2026-102422 (2026-09-29)
+
+<code>shell-quote's `quote()` function emits a `{ comment }` token as `#` followed by its text, which comments out the rest of the shell line, including the opening quote of any later string token. A line terminator (\n, \r, U+2028, U+2029) in that later string therefore ends the comment, and the rest of the string is parsed as shell input: `quote(['echo', 'ok', { comment: 'x' }, 'a\nid;#'])` runs `id` in sh, bash, dash, ksh and zsh. `parse()` emits a comment token for a `#` in the middle of a word (for example `http://example.com/#frag`), so callers that combine `parse()` output with another untrusted string, such as `quote(parse(untrustedCommand).concat(untrustedArg))`, are affected. The fix for CVE-2026-9277 rejected line terminators in the comment's own text, but not in the tokens after it. Fixed in 1.11.0: `quote()` throws a `TypeError` when a string after a `{ comment }` token contains a line terminator.
+</code>
+
+- [DevVaibhav07/CVE-2026-102422](https://github.com/DevVaibhav07/CVE-2026-102422)
 
 ### CVE-2026-102425 (2026-09-29)
 
@@ -19593,7 +19620,7 @@
 
 ### CVE-2025-5154 (2025-05-25)
 
-<code>Es wurde eine Schwachstelle in PhonePe App 25.03.21.0 für Android gefunden. Sie wurde als problematisch eingestuft. Es geht dabei um eine nicht klar definierte Funktion der Datei /data/data/com.phonepe.app/databases/ der Komponente SQLite Database. Durch das Beeinflussen mit unbekannten Daten kann eine cleartext storage in a file or on disk-Schwachstelle ausgenutzt werden. Der Angriff hat dabei lokal zu erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+<code>A vulnerability was identified in PhonePe App 25.03.21.0 on Android. This affects an unknown function of the file /data/data/com.phonepe.app/databases/ of the component SQLite Database. The manipulation leads to cleartext storage in a file or on disk. The attack needs to be performed locally. The exploit is publicly available and might be used. The actual existence of this vulnerability is currently in question. The root-requirement of the attack is reflected by the CVSS vector attribute PR:H. The vendor explains: &quot;[A]s per the PoC this vulnerability needs a rooted device to exploit. PhonePe does not consider vulnerabilities found in rooted device as valid because there is not real-world exploit scenario.&quot;
 </code>
 
 - [honestcorrupt/phonepe-sensitive-data-exposure-cve-2025-5154](https://github.com/honestcorrupt/phonepe-sensitive-data-exposure-cve-2025-5154)
@@ -27879,7 +27906,6 @@
 - [rapticore/ore_react2shell_scanner](https://github.com/rapticore/ore_react2shell_scanner)
 - [fankh/cve-2025-55182-test-lab-windows](https://github.com/fankh/cve-2025-55182-test-lab-windows)
 - [cypholab/evilact](https://github.com/cypholab/evilact)
-- [greenheadHQ/CVE-2025-55182](https://github.com/greenheadHQ/CVE-2025-55182)
 - [sumanrox/rschunter](https://github.com/sumanrox/rschunter)
 - [I3r1h0n/React2Shell](https://github.com/I3r1h0n/React2Shell)
 - [zorejt/Rust_CVE-2025-55182](https://github.com/zorejt/Rust_CVE-2025-55182)
@@ -28201,6 +28227,7 @@
 - [litndat/React2Shell-PoC-CVE-2025-55182](https://github.com/litndat/React2Shell-PoC-CVE-2025-55182)
 - [k1llmelira/react2shell-exploit](https://github.com/k1llmelira/react2shell-exploit)
 - [Herick-Costa/CVE-2025-55182-React2Shell-RCE](https://github.com/Herick-Costa/CVE-2025-55182-React2Shell-RCE)
+- [tammin86/4thProject_Team1-CVE-2025-55182-](https://github.com/tammin86/4thProject_Team1-CVE-2025-55182-)
 - [diamorphine666/React2shell-CVE-2025-55182-Exploit](https://github.com/diamorphine666/React2shell-CVE-2025-55182-Exploit)
 - [se1zer/Nextjs_Exploit_Tool](https://github.com/se1zer/Nextjs_Exploit_Tool)
 - [PedroPLCode/CVE-2025-55182_react2shell_exploit.py](https://github.com/PedroPLCode/CVE-2025-55182_react2shell_exploit.py)
@@ -35284,7 +35311,7 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nfs/xattr: missing fdput() in fremovexattr error path\n\nIn the Linux kernel, the fremovexattr() syscall calls fdget() to acquire a\nfile reference but returns early without calling fdput() when\nstrncpy_from_user() fails on the name argument. In multi-threaded processes\nwhere fdget() takes the slow path, this permanently leaks one\nfile reference per call, pinning the struct file and associated kernel\nobjects in memory. An unprivileged local user can exploit this to cause\nkernel memory exhaustion. The issue was inadvertently fixed by commit\na71874379ec8 (&quot;xattr: switch to CLASS(fd)&quot;).
 </code>
 
-- [lcfr-eth/CVE-2024-14027_slop](https://github.com/lcfr-eth/CVE-2024-14027_slop)
+- [lcfr-hax/CVE-2024-14027_slop](https://github.com/lcfr-hax/CVE-2024-14027_slop)
 
 ### CVE-2024-20017 (2024-03-04)
 
@@ -52721,6 +52748,7 @@
 - [sandesh9978/CVE-2022-0185-Analysis-and-Exploit](https://github.com/sandesh9978/CVE-2022-0185-Analysis-and-Exploit)
 - [prabeershakya/CVE-2022-0185-POC](https://github.com/prabeershakya/CVE-2022-0185-POC)
 - [shakyanayann/CVE-2022-0185](https://github.com/shakyanayann/CVE-2022-0185)
+- [secjuhl/CVE-2022-0185](https://github.com/secjuhl/CVE-2022-0185)
 
 ### CVE-2022-0219 (2022-01-20)
 
@@ -81887,7 +81915,7 @@
 - [Sunqiz/CVE-2017-0199-reprofuction](https://github.com/Sunqiz/CVE-2017-0199-reprofuction)
 - [TheCyberWatchers/CVE-2017-0199-v5.0](https://github.com/TheCyberWatchers/CVE-2017-0199-v5.0)
 - [kash-123/CVE-2017-0199](https://github.com/kash-123/CVE-2017-0199)
-- [ahmed-tarek22752/RCE-CVE-2017-0199-detection-analysis](https://github.com/ahmed-tarek22752/RCE-CVE-2017-0199-detection-analysis)
+- [ahmed-tarek22752/security-vulnerability-in-Microsoft-Office.](https://github.com/ahmed-tarek22752/security-vulnerability-in-Microsoft-Office.)
 - [BlackOclock/XLS-to-DBatLoader-or-GuLoader-for-AgentTesla-variant](https://github.com/BlackOclock/XLS-to-DBatLoader-or-GuLoader-for-AgentTesla-variant)
 
 ### CVE-2017-0204 (2017-04-12)
