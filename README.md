@@ -17785,7 +17785,11 @@
 
 - [prince325/CVE-2026-93659-writeup](https://github.com/prince325/CVE-2026-93659-writeup)
 
-### CVE-2026-93674
+### CVE-2026-93674 (2026-10-07)
+
+<code>IBM Langflow OSS 1.0.0 through 1.12.2 could allow a remote attacker to execute arbitrary code due to improper neutralization of special elements used in an OS command.
+</code>
+
 - [rmhowe425/POC-CVE-2026-93674](https://github.com/rmhowe425/POC-CVE-2026-93674)
 
 ### CVE-2026-93680
@@ -22208,6 +22212,7 @@
 - [diyiqiuye/CVE-2025-21479-FX5P](https://github.com/diyiqiuye/CVE-2025-21479-FX5P)
 - [longg66/cve-2025-21479_iqooneo7speed](https://github.com/longg66/cve-2025-21479_iqooneo7speed)
 - [linux-tools/VIVO-IQOO-Neo9-Root-Tools](https://github.com/linux-tools/VIVO-IQOO-Neo9-Root-Tools)
+- [Shiho-Patch/linux-tools-vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/Shiho-Patch/linux-tools-vivo_iqoo_neo_9_root_research_on_CVE-2025-21479)
 
 ### CVE-2025-21574 (2025-04-15)
 
@@ -28220,6 +28225,7 @@
 - [abhaybansal16/cve-2025-55182-lab](https://github.com/abhaybansal16/cve-2025-55182-lab)
 - [RashmithaDeSilva/React2Shell_CVE-2025-55182](https://github.com/RashmithaDeSilva/React2Shell_CVE-2025-55182)
 - [OhSoomin812/cve-2025-55182-ctf](https://github.com/OhSoomin812/cve-2025-55182-ctf)
+- [Frizzardsecurity/CVE-2025-55182](https://github.com/Frizzardsecurity/CVE-2025-55182)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -85837,7 +85843,7 @@
 - [YastrebX/CVE-2015-1328](https://github.com/YastrebX/CVE-2015-1328)
 - [thieveshkar/RootQuest-CTF-Box-Multi-Stage-Exploitation-VM](https://github.com/thieveshkar/RootQuest-CTF-Box-Multi-Stage-Exploitation-VM)
 - [0xf1d0/CVE-2015-1328](https://github.com/0xf1d0/CVE-2015-1328)
-- [saqib-butt2/blackbox-pentesting-infsecos](https://github.com/saqib-butt2/blackbox-pentesting-infsecos)
+- [saqibnet/blackbox-pentesting-infsecos](https://github.com/saqibnet/blackbox-pentesting-infsecos)
 - [WhatsWrongAndWhy/CVE-2015-1328](https://github.com/WhatsWrongAndWhy/CVE-2015-1328)
 - [FernandoCassioDev/CVE-2015-1328](https://github.com/FernandoCassioDev/CVE-2015-1328)
 - [bansalkrish007-arch/cve-2015-1328](https://github.com/bansalkrish007-arch/cve-2015-1328)
@@ -88052,6 +88058,7 @@
 </code>
 
 - [ExploitCN/CVE-2013-3660-x64-WIN7](https://github.com/ExploitCN/CVE-2013-3660-x64-WIN7)
+- [kikozz/CVE-2013-3660-win32k.sys](https://github.com/kikozz/CVE-2013-3660-win32k.sys)
 
 ### CVE-2013-3664 (2014-07-01)
 
