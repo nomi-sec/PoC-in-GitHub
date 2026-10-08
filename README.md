@@ -5111,6 +5111,7 @@
 - [BimBoxH4/CVE-2026-21589](https://github.com/BimBoxH4/CVE-2026-21589)
 - [0xBlackash/CVE-2026-21589](https://github.com/0xBlackash/CVE-2026-21589)
 - [ynsmroztas/AtlasSniper](https://github.com/ynsmroztas/AtlasSniper)
+- [rxsklife/CVE-2026-21589](https://github.com/rxsklife/CVE-2026-21589)
 
 ### CVE-2026-21627 (2026-02-20)
 
@@ -12972,6 +12973,7 @@
 - [CerberusMrXi/JCEzploit-CVE-2026-48907](https://github.com/CerberusMrXi/JCEzploit-CVE-2026-48907)
 - [ksotaria1337/-CVE-2026-48907-](https://github.com/ksotaria1337/-CVE-2026-48907-)
 - [NONAME-ELV/CVE-2026-48907](https://github.com/NONAME-ELV/CVE-2026-48907)
+- [theendofabbys/CVE-2026-48907](https://github.com/theendofabbys/CVE-2026-48907)
 
 ### CVE-2026-48908 (2026-06-20)
 
@@ -13047,6 +13049,7 @@
 - [6ickzone/Helix3-Mass-Exploiter](https://github.com/6ickzone/Helix3-Mass-Exploiter)
 - [Jenderal92/CVE-2026-49049](https://github.com/Jenderal92/CVE-2026-49049)
 - [MataKucing-OFC/CVE-2026-49049](https://github.com/MataKucing-OFC/CVE-2026-49049)
+- [theendofabbys/CVE-2026-49049](https://github.com/theendofabbys/CVE-2026-49049)
 
 ### CVE-2026-49060 (2026-06-11)
 
@@ -14296,6 +14299,7 @@
 - [rimbadirgantara/CVE-2026-56291.yaml](https://github.com/rimbadirgantara/CVE-2026-56291.yaml)
 - [0xdenis77/CVE-2026-56291](https://github.com/0xdenis77/CVE-2026-56291)
 - [ChiefYoru/CVE-2026-56291_PoC](https://github.com/ChiefYoru/CVE-2026-56291_PoC)
+- [theendofabbys/CVE-2026-56291](https://github.com/theendofabbys/CVE-2026-56291)
 
 ### CVE-2026-56292 (2026-07-09)
 
@@ -14753,6 +14757,7 @@
 </code>
 
 - [shinthink/CVE-2026-61424](https://github.com/shinthink/CVE-2026-61424)
+- [theendofabbys/CVE-2026-61424](https://github.com/theendofabbys/CVE-2026-61424)
 
 ### CVE-2026-61500 (2026-07-13)
 
@@ -18468,6 +18473,13 @@
 
 - [RayanAlmulhim/CVE-2026-105134-lab](https://github.com/RayanAlmulhim/CVE-2026-105134-lab)
 
+### CVE-2026-105192 (2026-10-07)
+
+<code>LMCache multiprocess mode, also called distributed mode, opens an unauthenticated ZeroMQ ROUTER so worker processes can register and share KV cache blocks. Messages on that socket are msgpack. Extension code 1 is passed to DeviceIPCWrapper.Deserialize, which calls pickle.loads, while the server is still decoding request arguments and before the handler runs. A single unauthenticated ZMQ DEALER message to the transport port (default 5555) therefore executes code as the user the LMCache process runs as. Official container images run that process as root. The transport binds to localhost unless the operator sets a routable address with --host, which is how multi-node deployments let peers connect.
+</code>
+
+- [rxsklife/CVE-2026-105192](https://github.com/rxsklife/CVE-2026-105192)
+
 ### CVE-2026-105221 (2026-10-04)
 
 <code>The gist RubyGem before 6.1.0 contains an improper certificate validation vulnerability that allows on-path attackers to intercept HTTPS traffic because http_connection in lib/gist.rb sets VERIFY_NONE. Attackers can present any certificate to read or modify GitHub API traffic, stealing OAuth tokens and login credentials to read and modify the victim's gists.
@@ -18491,6 +18503,9 @@
 </code>
 
 - [murrez/CVE-2026-105844](https://github.com/murrez/CVE-2026-105844)
+
+### CVE-2026-107268
+- [yuwkaaa/CVE-2026-107268](https://github.com/yuwkaaa/CVE-2026-107268)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -20811,7 +20826,6 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-WatchGuard-CVE-2025-9242](https://github.com/watchtowrlabs/watchTowr-vs-WatchGuard-CVE-2025-9242)
-- [UnusualGiraffe/WatchGuard-CVE-2025-9242-PoC-and-Mass-Scanner](https://github.com/UnusualGiraffe/WatchGuard-CVE-2025-9242-PoC-and-Mass-Scanner)
 
 ### CVE-2025-9267 (2025-09-26)
 
@@ -22325,6 +22339,7 @@
 - [longg66/cve-2025-21479_iqooneo7speed](https://github.com/longg66/cve-2025-21479_iqooneo7speed)
 - [linux-tools/VIVO-IQOO-Neo9-Root-Tools](https://github.com/linux-tools/VIVO-IQOO-Neo9-Root-Tools)
 - [Shiho-Patch/linux-tools-vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/Shiho-Patch/linux-tools-vivo_iqoo_neo_9_root_research_on_CVE-2025-21479)
+- [Type010/cheese-app](https://github.com/Type010/cheese-app)
 
 ### CVE-2025-21574 (2025-04-15)
 
@@ -61282,7 +61297,6 @@
 - [Rana-Ali93/CVE-2021-3156-Sudo-Buffer-Overflow-Linux](https://github.com/Rana-Ali93/CVE-2021-3156-Sudo-Buffer-Overflow-Linux)
 - [ngtuonghung/CVE-2021-3156](https://github.com/ngtuonghung/CVE-2021-3156)
 - [Robblackcatchai/porfolio-Baron-Samedit](https://github.com/Robblackcatchai/porfolio-Baron-Samedit)
-- [calonnuotcabe/CVE-2021-3156](https://github.com/calonnuotcabe/CVE-2021-3156)
 - [Kranti08/CVE-2021-3156-Baron-Samedit](https://github.com/Kranti08/CVE-2021-3156-Baron-Samedit)
 - [IJBaig/CVE-2021-3156](https://github.com/IJBaig/CVE-2021-3156)
 - [WhatsWrongAndWhy/CVE-2021-3156](https://github.com/WhatsWrongAndWhy/CVE-2021-3156)
