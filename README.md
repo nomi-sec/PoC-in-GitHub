@@ -3199,7 +3199,11 @@
 
 - [George0Papasotiriou/CVE-2026-11120-Command-Injection-via-Git-URL-in-CI-CD-Pipeline](https://github.com/George0Papasotiriou/CVE-2026-11120-Command-Injection-via-Git-URL-in-CI-CD-Pipeline)
 
-### CVE-2026-11318
+### CVE-2026-11318 (2026-10-08)
+
+<code>Deskin through 3.3.4.3 contains a privilege escalation vulnerability in the com.deskin.service.installer XPC service that allows local unprivileged attackers to execute arbitrary installer packages as root by connecting to the root-owned service without authentication. Attackers can invoke the privileged installer method to run an attacker-supplied installer, achieving full root compromise of the macOS host.
+</code>
+
 - [Cr0wld3r/CVE-2026-11318](https://github.com/Cr0wld3r/CVE-2026-11318)
 
 ### CVE-2026-11344 (2026-06-05)
@@ -11659,6 +11663,7 @@
 - [Nixbones/ghostlock-rmx5085](https://github.com/Nixbones/ghostlock-rmx5085)
 - [linux-tools/VIVO-IQOO-Neo9-Root-Tools](https://github.com/linux-tools/VIVO-IQOO-Neo9-Root-Tools)
 - [GrandFuzard/redmi-13-5g-ghostlock-findings](https://github.com/GrandFuzard/redmi-13-5g-ghostlock-findings)
+- [zimza1abim/Root-My-Galaxy-Payloads-SM-S928N](https://github.com/zimza1abim/Root-My-Galaxy-Payloads-SM-S928N)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -13250,6 +13255,7 @@
 
 - [LSPosed/LSPromise](https://github.com/LSPosed/LSPromise)
 - [Supersonic/TLPE](https://github.com/Supersonic/TLPE)
+- [Lewason/mhl-off-hook-writeup](https://github.com/Lewason/mhl-off-hook-writeup)
 
 ### CVE-2026-49943 (2026-06-02)
 
@@ -14153,6 +14159,13 @@
 </code>
 
 - [rootdirective-sec/CVE-2026-55255-Lab](https://github.com/rootdirective-sec/CVE-2026-55255-Lab)
+
+### CVE-2026-55450 (2026-06-23)
+
+<code>Langflow is a tool for building and deploying AI-powered agents and workflows. Prior to 1.9.1, unauthenticated users can upload any amount of data to the server without any limitations. No need for any prior knowledge, only network access to Langflow. This can lead to space exhaustion on the server. In addition, in the response, the absolute path of the uploaded file is reported to the attacker, which is an information leak that can assist in chaining other primitives. This vulnerability is fixed in 1.9.1.
+</code>
+
+- [0xBlackash/CVE-2026-55450](https://github.com/0xBlackash/CVE-2026-55450)
 
 ### CVE-2026-55494 (2026-09-30)
 
@@ -15665,6 +15678,7 @@
 
 - [HackSpeak/CVE-2026-67279](https://github.com/HackSpeak/CVE-2026-67279)
 - [tc4dy/CVE-2026-67279-86060-Toolkit](https://github.com/tc4dy/CVE-2026-67279-86060-Toolkit)
+- [shmaki4/CVE-2026-67279-Mikrotik-6.42-POC](https://github.com/shmaki4/CVE-2026-67279-Mikrotik-6.42-POC)
 
 ### CVE-2026-67340 (2026-08-01)
 
@@ -17717,6 +17731,13 @@
 
 - [HORKimhab/CVE-2026-91843](https://github.com/HORKimhab/CVE-2026-91843)
 
+### CVE-2026-91940 (2026-09-15)
+
+<code>crawl4ai before 0.9.3 contains an arbitrary file write vulnerability in PDFContentScrapingStrategy where the _filter_untrusted_fields function fails to validate untrusted configuration fields. Attackers can submit crafted config bodies with malicious image_save_dir paths to write attacker-controlled bytes into any directory accessible to the service account.
+</code>
+
+- [BiiTts/CVE-2026-91940-crawl4ai-Arbitrary-File-Write](https://github.com/BiiTts/CVE-2026-91940-crawl4ai-Arbitrary-File-Write)
+
 ### CVE-2026-92084 (2026-10-03)
 
 <code>The The Beaver Builder Page Builder – Drag and Drop Website Builder plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 2.11.0.5. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes. Exploitation requires the target site to have a Beaver Builder page containing the Sidebar module populated with a widget that displays attacker-controllable text, such as the core Recent Comments widget, with comment moderation disabled or the attacker's comment approved.
@@ -18064,7 +18085,7 @@
 
 ### CVE-2026-96940 (2026-10-02)
 
-<code>Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a network.
+<code>An elevation of privilege vulnerability exists when Microsoft Exchange Outlook Web Access (OWA) fails to properly handle web requests. An attacker who successfully exploited this vulnerability could perform script/content injection attacks and attempt to trick the user into disclosing sensitive information.\nTo exploit the vulnerability, an attacker could send a specially crafted email message containing a malicious link to a user. Alternatively, an attacker could use a chat client to social engineer a user into clicking the malicious link.\nThe security update addresses the vulnerability by correcting how Microsoft Exchange validates web requests.\nNote: In order to exploit this vulnerability, a user must click a maliciously crafted link from an attacker.
 </code>
 
 - [HORKimhab/CVE-2026-96940](https://github.com/HORKimhab/CVE-2026-96940)
@@ -18752,7 +18773,7 @@
 </code>
 
 - [FWNavy/RMASmoke](https://github.com/FWNavy/RMASmoke)
-- [MCRideable3963/RMASmoke-v2](https://github.com/MCRideable3963/RMASmoke-v2)
+- [IsolatedAnarchy/RMASmoke-v2](https://github.com/IsolatedAnarchy/RMASmoke-v2)
 
 ### CVE-2025-1219 (2025-03-30)
 
@@ -36583,6 +36604,7 @@
 - [dheeraj-jayaswal/CICD-Goat-Vapt-Writeup](https://github.com/dheeraj-jayaswal/CICD-Goat-Vapt-Writeup)
 - [MachiavelliII/CVE-2024-23897](https://github.com/MachiavelliII/CVE-2024-23897)
 - [Alexandertanay/jenkins-cve-2024-23897-lab](https://github.com/Alexandertanay/jenkins-cve-2024-23897-lab)
+- [CyberCTF/vulhub-jenkins-cve-2024-23897](https://github.com/CyberCTF/vulhub-jenkins-cve-2024-23897)
 
 ### CVE-2024-23898 (2024-01-24)
 
@@ -37695,6 +37717,7 @@
 </code>
 
 - [ReaJason/CVE-2024-28752](https://github.com/ReaJason/CVE-2024-28752)
+- [CyberCTF/vulhub-apache-cxf-cve-2024-28752](https://github.com/CyberCTF/vulhub-apache-cxf-cve-2024-28752)
 
 ### CVE-2024-28757 (2024-03-10)
 
@@ -46194,6 +46217,7 @@
 - [rvzsec/joombrute](https://github.com/rvzsec/joombrute)
 - [BardLaudian/CVE-2023-23752](https://github.com/BardLaudian/CVE-2023-23752)
 - [s4m98/CVE-2023-23752](https://github.com/s4m98/CVE-2023-23752)
+- [CyberCTF/vulhub-joomla-cve-2023-23752](https://github.com/CyberCTF/vulhub-joomla-cve-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -46925,6 +46949,7 @@
 - [Cappricio-Securities/CVE-2023-27524](https://github.com/Cappricio-Securities/CVE-2023-27524)
 - [sumaiyafathima-code/CVE-2023-27524](https://github.com/sumaiyafathima-code/CVE-2023-27524)
 - [rachidafaf/bola-CVE-2023-27524](https://github.com/rachidafaf/bola-CVE-2023-27524)
+- [CyberCTF/vulhub-superset-cve-2023-27524](https://github.com/CyberCTF/vulhub-superset-cve-2023-27524)
 
 ### CVE-2023-27532 (2023-03-10)
 
@@ -48073,6 +48098,7 @@
 - [CN016/Openfire-RCE-CVE-2023-32315-](https://github.com/CN016/Openfire-RCE-CVE-2023-32315-)
 - [asepsaepdin/CVE-2023-32315](https://github.com/asepsaepdin/CVE-2023-32315)
 - [pulentoski/Explotacion-CVE-2023-32315-Openfire](https://github.com/pulentoski/Explotacion-CVE-2023-32315-Openfire)
+- [CyberCTF/vulhub-openfire-cve-2023-32315](https://github.com/CyberCTF/vulhub-openfire-cve-2023-32315)
 
 ### CVE-2023-32353 (2023-06-23)
 
@@ -51638,6 +51664,7 @@
 - [aelshimony-cloud/OpenWire-CVE-2023-46604-Investigation](https://github.com/aelshimony-cloud/OpenWire-CVE-2023-46604-Investigation)
 - [stefanotractor/activemq-cve-2023-46604-lab](https://github.com/stefanotractor/activemq-cve-2023-46604-lab)
 - [Bhanunamikaze/ActiveMQ-CVE-2023-46604](https://github.com/Bhanunamikaze/ActiveMQ-CVE-2023-46604)
+- [CyberCTF/vulhub-activemq-cve-2023-46604](https://github.com/CyberCTF/vulhub-activemq-cve-2023-46604)
 
 ### CVE-2023-46615 (2024-02-12)
 
@@ -52685,6 +52712,7 @@
 - [vulncheck-oss/cve-2023-51467](https://github.com/vulncheck-oss/cve-2023-51467)
 - [jakeotte/BadBizness-CVE-2023-51467](https://github.com/jakeotte/BadBizness-CVE-2023-51467)
 - [AhmedMansour93/Event-ID-217-Rule-Name-SOC254-Apache-OFBiz-Auth-Bypass-and-Code-Injection-0Day-CVE-2023-51467-](https://github.com/AhmedMansour93/Event-ID-217-Rule-Name-SOC254-Apache-OFBiz-Auth-Bypass-and-Code-Injection-0Day-CVE-2023-51467-)
+- [CyberCTF/vulhub-ofbiz-cve-2023-51467](https://github.com/CyberCTF/vulhub-ofbiz-cve-2023-51467)
 
 ### CVE-2023-51504 (2024-02-05)
 
@@ -52826,6 +52854,7 @@
 </code>
 
 - [disqualifier/psa-2026-00043-recovery](https://github.com/disqualifier/psa-2026-00043-recovery)
+- [alexandrov666/CVE-2023-54391-RCE](https://github.com/alexandrov666/CVE-2023-54391-RCE)
 
 
 ## 2022
@@ -53006,6 +53035,7 @@
 - [fulxey/CVE-2022-0543](https://github.com/fulxey/CVE-2022-0543)
 - [SiennaSkies/redisHack](https://github.com/SiennaSkies/redisHack)
 - [netw0rk7/CVE-2022-0543-Home-Lab](https://github.com/netw0rk7/CVE-2022-0543-Home-Lab)
+- [CyberCTF/vulhub-redis-cve-2022-0543](https://github.com/CyberCTF/vulhub-redis-cve-2022-0543)
 
 ### CVE-2022-0591 (2022-03-21)
 
@@ -54851,6 +54881,7 @@
 - [SanderSchepers1993/CyberSec2026](https://github.com/SanderSchepers1993/CyberSec2026)
 - [ciri3/spring-cloud-gateway-cve-2022-22947-report](https://github.com/ciri3/spring-cloud-gateway-cve-2022-22947-report)
 - [entr0pie/demo-cve-2022-22947](https://github.com/entr0pie/demo-cve-2022-22947)
+- [CyberCTF/vulhub-spring-cve-2022-22947](https://github.com/CyberCTF/vulhub-spring-cve-2022-22947)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -54925,6 +54956,7 @@
 - [Shayz614/CVE-2022-22963](https://github.com/Shayz614/CVE-2022-22963)
 - [808rsec/CVE-2022-22963](https://github.com/808rsec/CVE-2022-22963)
 - [r4y-br/CVE-2022-22963](https://github.com/r4y-br/CVE-2022-22963)
+- [CyberCTF/vulhub-spring-cve-2022-22963](https://github.com/CyberCTF/vulhub-spring-cve-2022-22963)
 
 ### CVE-2022-22965 (2022-04-01)
 
@@ -55029,6 +55061,7 @@
 - [Kuri119/CVE-2022-22965-Spring4Shell](https://github.com/Kuri119/CVE-2022-22965-Spring4Shell)
 - [meng-security/spring4shell-local-verification-lab](https://github.com/meng-security/spring4shell-local-verification-lab)
 - [PrinceH4k/Spring4Shell-POC](https://github.com/PrinceH4k/Spring4Shell-POC)
+- [CyberCTF/vulhub-spring-cve-2022-22965](https://github.com/CyberCTF/vulhub-spring-cve-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -55157,6 +55190,7 @@
 </code>
 
 - [straightSang/H2-database-CVE-2022-23221](https://github.com/straightSang/H2-database-CVE-2022-23221)
+- [CyberCTF/vulhub-h2database-cve-2022-23221](https://github.com/CyberCTF/vulhub-h2database-cve-2022-23221)
 
 ### CVE-2022-23222 (2022-01-14)
 
@@ -58003,6 +58037,7 @@
 - [traumatising/CVE-2022-34265](https://github.com/traumatising/CVE-2022-34265)
 - [ZhaoQi99/CVE-2022-34265](https://github.com/ZhaoQi99/CVE-2022-34265)
 - [lnwza0x0a/CTF_Django_CVE-2022-34265](https://github.com/lnwza0x0a/CTF_Django_CVE-2022-34265)
+- [CyberCTF/vulhub-django-cve-2022-34265](https://github.com/CyberCTF/vulhub-django-cve-2022-34265)
 
 ### CVE-2022-34298 (2022-06-22)
 
@@ -59692,6 +59727,7 @@
 - [jkobierczynski/cve-2022-44268](https://github.com/jkobierczynski/cve-2022-44268)
 - [mouftan/CVE-2022-44268](https://github.com/mouftan/CVE-2022-44268)
 - [k-javaman12/CVE-2022-44268-](https://github.com/k-javaman12/CVE-2022-44268-)
+- [CyberCTF/vulhub-imagemagick-cve-2022-44268](https://github.com/CyberCTF/vulhub-imagemagick-cve-2022-44268)
 
 ### CVE-2022-44276 (2023-06-28)
 
@@ -60061,6 +60097,7 @@
 - [alv-david/CVE-2022-46169-Cacti-1.2.22](https://github.com/alv-david/CVE-2022-46169-Cacti-1.2.22)
 - [nicostan15/CVE-2022-46169](https://github.com/nicostan15/CVE-2022-46169)
 - [K4PXD/CVE-2022-46169](https://github.com/K4PXD/CVE-2022-46169)
+- [CyberCTF/vulhub-cacti-cve-2022-46169](https://github.com/CyberCTF/vulhub-cacti-cve-2022-46169)
 
 ### CVE-2022-46175 (2022-12-24)
 
@@ -61200,6 +61237,7 @@
 - [cchiaravalentini/CVE-2021-3129](https://github.com/cchiaravalentini/CVE-2021-3129)
 - [theNareshofficial/CVE-2021-3129-Lab](https://github.com/theNareshofficial/CVE-2021-3129-Lab)
 - [Giangdurian/CVE-2021-3129](https://github.com/Giangdurian/CVE-2021-3129)
+- [CyberCTF/vulhub-laravel-cve-2021-3129](https://github.com/CyberCTF/vulhub-laravel-cve-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -62507,6 +62545,7 @@
 - [NukingDragons/gitlab-cve-2021-22205](https://github.com/NukingDragons/gitlab-cve-2021-22205)
 - [cc3305/CVE-2021-22205](https://github.com/cc3305/CVE-2021-22205)
 - [ccordeiro/CVE-2021-22205](https://github.com/ccordeiro/CVE-2021-22205)
+- [CyberCTF/vulhub-gitlab-cve-2021-22205](https://github.com/CyberCTF/vulhub-gitlab-cve-2021-22205)
 
 ### CVE-2021-22206 (2021-05-06)
 
@@ -63045,6 +63084,7 @@
 - [tiemio/RCE-PoC-CVE-2021-25646](https://github.com/tiemio/RCE-PoC-CVE-2021-25646)
 - [ShadowLance2/Apache-Druid-CVE-2021-25646-Exploit](https://github.com/ShadowLance2/Apache-Druid-CVE-2021-25646-Exploit)
 - [shahdawadfallah-sys/Cybersecurity-Capstone-Project](https://github.com/shahdawadfallah-sys/Cybersecurity-Capstone-Project)
+- [CyberCTF/vulhub-apache-druid-cve-2021-25646](https://github.com/CyberCTF/vulhub-apache-druid-cve-2021-25646)
 
 ### CVE-2021-25679 (2021-04-20)
 
@@ -63620,6 +63660,7 @@
 </code>
 
 - [jammy0903/-jettyCVE-2021-28164-](https://github.com/jammy0903/-jettyCVE-2021-28164-)
+- [CyberCTF/vulhub-jetty-cve-2021-28164](https://github.com/CyberCTF/vulhub-jetty-cve-2021-28164)
 
 ### CVE-2021-28165 (2021-04-01)
 
@@ -63781,6 +63822,7 @@
 - [hh-hunter/nacos-cve-2021-29441](https://github.com/hh-hunter/nacos-cve-2021-29441)
 - [bysinks/CVE-2021-29441](https://github.com/bysinks/CVE-2021-29441)
 - [azhao1981/CVE-2021-29441](https://github.com/azhao1981/CVE-2021-29441)
+- [CyberCTF/vulhub-nacos-cve-2021-29441](https://github.com/CyberCTF/vulhub-nacos-cve-2021-29441)
 
 ### CVE-2021-29442 (2021-04-27)
 
@@ -65263,6 +65305,13 @@
 - [n0kovo/CVE-2021-39174-PoC](https://github.com/n0kovo/CVE-2021-39174-PoC)
 - [hadrian3689/cachet_2.4.0-dev](https://github.com/hadrian3689/cachet_2.4.0-dev)
 
+### CVE-2021-39214 (2021-09-16)
+
+<code>mitmproxy is an interactive, SSL/TLS-capable intercepting proxy. In mitmproxy 7.0.2 and below, a malicious client or server is able to perform HTTP request smuggling attacks through mitmproxy. This means that a malicious client/server could smuggle a request/response through mitmproxy as part of another request/response's HTTP message body. While a smuggled request is still captured as part of another request's body, it does not appear in the request list and does not go through the usual mitmproxy event hooks, where users may have implemented custom access control checks or input sanitization. Unless one uses mitmproxy to protect an HTTP/1 service, no action is required. The vulnerability has been fixed in mitmproxy 7.0.3 and above.
+</code>
+
+- [CyberCTF/secdevlabs-golden-hat](https://github.com/CyberCTF/secdevlabs-golden-hat)
+
 ### CVE-2021-39273 (2021-08-19)
 
 <code>In XeroSecurity Sn1per 9.0 (free version), insecure permissions (0777) are set upon application execution, allowing an unprivileged user to modify the application, modules, and configuration files. This leads to arbitrary code execution with root privileges.
@@ -66099,6 +66148,7 @@
 - [SANR01/CVE-2021-41773-Exploit-Lab](https://github.com/SANR01/CVE-2021-41773-Exploit-Lab)
 - [abdulrafay25-svg/CVE-2021-41773-Exploit](https://github.com/abdulrafay25-svg/CVE-2021-41773-Exploit)
 - [1833ravikumar-max/CVE-2021-41773-Apache-Path-Traversal-Lab](https://github.com/1833ravikumar-max/CVE-2021-41773-Apache-Path-Traversal-Lab)
+- [CyberCTF/vulhub-httpd-cve-2021-41773](https://github.com/CyberCTF/vulhub-httpd-cve-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -66182,6 +66232,7 @@
 - [eunho87/CVE-2021-42013](https://github.com/eunho87/CVE-2021-42013)
 - [berraesen/apache-cve-2021-42013-lab](https://github.com/berraesen/apache-cve-2021-42013-lab)
 - [andreamammano89-maker/CVE-2021-42013_821311](https://github.com/andreamammano89-maker/CVE-2021-42013_821311)
+- [CyberCTF/vulhub-httpd-cve-2021-42013](https://github.com/CyberCTF/vulhub-httpd-cve-2021-42013)
 
 ### CVE-2021-42056 (2022-06-24)
 
@@ -66776,6 +66827,7 @@
 - [Squ1shification/Grafana-Plugin-Enumerator-CVE-2021-43798](https://github.com/Squ1shification/Grafana-Plugin-Enumerator-CVE-2021-43798)
 - [shivamg2004/-INE_Shivam_Gupta_23104003](https://github.com/shivamg2004/-INE_Shivam_Gupta_23104003)
 - [khanna419/cve-2021-43798-lab](https://github.com/khanna419/cve-2021-43798-lab)
+- [CyberCTF/vulhub-grafana-cve-2021-43798](https://github.com/CyberCTF/vulhub-grafana-cve-2021-43798)
 
 ### CVE-2021-43799 (2022-01-25)
 
@@ -67374,6 +67426,7 @@
 - [mcpmark-eval-liuhezi/log4shell-audit](https://github.com/mcpmark-eval-liuhezi/log4shell-audit)
 - [Muskann02/cve-2021-44228-lab](https://github.com/Muskann02/cve-2021-44228-lab)
 - [osflaky/exp-logpresso-CVE-2021-44228-Scanner](https://github.com/osflaky/exp-logpresso-CVE-2021-44228-Scanner)
+- [CyberCTF/vulhub-log4j-cve-2021-44228](https://github.com/CyberCTF/vulhub-log4j-cve-2021-44228)
 - [ResoluteRacoons/log4-Java-logging-poc](https://github.com/ResoluteRacoons/log4-Java-logging-poc)
 
 ### CVE-2021-44255 (2022-01-31)
@@ -68925,6 +68978,7 @@
 - [cyberguardsec101-sketch/ghostcat](https://github.com/cyberguardsec101-sketch/ghostcat)
 - [duckpigdog/Tomcat-AJP-CVE-2020-1938](https://github.com/duckpigdog/Tomcat-AJP-CVE-2020-1938)
 - [lem0n817/tomcatfileread](https://github.com/lem0n817/tomcatfileread)
+- [CyberCTF/vulhub-tomcat-cve-2020-1938](https://github.com/CyberCTF/vulhub-tomcat-cve-2020-1938)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -69623,6 +69677,7 @@
 - [presentdaypresenttime/shai_hulud](https://github.com/presentdaypresenttime/shai_hulud)
 - [minhluannguyen/CVE-2020-7247-reproducer](https://github.com/minhluannguyen/CVE-2020-7247-reproducer)
 - [solmin111/OpenSMTPD-CVE-2020-7247-](https://github.com/solmin111/OpenSMTPD-CVE-2020-7247-)
+- [CyberCTF/vulhub-opensmtpd-cve-2020-7247](https://github.com/CyberCTF/vulhub-opensmtpd-cve-2020-7247)
 
 ### CVE-2020-7283 (2020-07-03)
 
@@ -70819,6 +70874,7 @@
 - [hardsoftsecurity/CVE-2020-11651-PoC](https://github.com/hardsoftsecurity/CVE-2020-11651-PoC)
 - [Drew-Alleman/CVE-2020-11651](https://github.com/Drew-Alleman/CVE-2020-11651)
 - [s1lentf00thold/CVE-2020-11651-Poc](https://github.com/s1lentf00thold/CVE-2020-11651-Poc)
+- [CyberCTF/vulhub-saltstack-cve-2020-11651](https://github.com/CyberCTF/vulhub-saltstack-cve-2020-11651)
 
 ### CVE-2020-11652 (2020-04-30)
 
@@ -71377,6 +71433,7 @@
 - [dev-team-12x/apche_unomi_rce](https://github.com/dev-team-12x/apche_unomi_rce)
 - [Prodrious/CVE-2020-13942](https://github.com/Prodrious/CVE-2020-13942)
 - [corsisechero/CVE-2020-13942byVulHub](https://github.com/corsisechero/CVE-2020-13942byVulHub)
+- [CyberCTF/vulhub-unomi-cve-2020-13942](https://github.com/CyberCTF/vulhub-unomi-cve-2020-13942)
 
 ### CVE-2020-13945 (2020-12-07)
 
@@ -71384,6 +71441,7 @@
 </code>
 
 - [YutuSec/Apisix_Crack](https://github.com/YutuSec/Apisix_Crack)
+- [CyberCTF/vulhub-apisix-cve-2020-13945](https://github.com/CyberCTF/vulhub-apisix-cve-2020-13945)
 
 ### CVE-2020-13957 (2020-10-13)
 
@@ -71674,6 +71732,7 @@
 - [b1g-b33f/CVE-2020-14882](https://github.com/b1g-b33f/CVE-2020-14882)
 - [VelesSecurity/CVE-2020-14882-WebLogic-Analysis](https://github.com/VelesSecurity/CVE-2020-14882-WebLogic-Analysis)
 - [hyderpwn/weblogic](https://github.com/hyderpwn/weblogic)
+- [CyberCTF/vulhub-weblogic-cve-2020-14882](https://github.com/CyberCTF/vulhub-weblogic-cve-2020-14882)
 
 ### CVE-2020-14883 (2020-10-21)
 
@@ -72162,6 +72221,7 @@
 - [zhangweijie11/CVE-2020-17519](https://github.com/zhangweijie11/CVE-2020-17519)
 - [GazettEl/CVE-2020-17519](https://github.com/GazettEl/CVE-2020-17519)
 - [shoucheng3/apache__flink_CVE-2020-17519_1-11-2](https://github.com/shoucheng3/apache__flink_CVE-2020-17519_1-11-2)
+- [CyberCTF/vulhub-flink-cve-2020-17519](https://github.com/CyberCTF/vulhub-flink-cve-2020-17519)
 
 ### CVE-2020-17523 (2021-02-03)
 
@@ -73426,6 +73486,7 @@
 </code>
 
 - [glowbase/CVE-2020-35476](https://github.com/glowbase/CVE-2020-35476)
+- [CyberCTF/vulhub-opentsdb-cve-2020-35476](https://github.com/CyberCTF/vulhub-opentsdb-cve-2020-35476)
 
 ### CVE-2020-35488 (2021-01-05)
 
@@ -74643,6 +74704,7 @@
 - [random-robbie/CVE-2019-5418](https://github.com/random-robbie/CVE-2019-5418)
 - [kailing0220/CVE-2019-5418](https://github.com/kailing0220/CVE-2019-5418)
 - [daehyeok0618/CVE-2019-5418](https://github.com/daehyeok0618/CVE-2019-5418)
+- [CyberCTF/vulhub-rails-cve-2019-5418](https://github.com/CyberCTF/vulhub-rails-cve-2019-5418)
 
 ### CVE-2019-5420 (2019-03-27)
 
@@ -75091,6 +75153,7 @@
 - [magicming200/CVE-2019-7238_Nexus_RCE_Tool](https://github.com/magicming200/CVE-2019-7238_Nexus_RCE_Tool)
 - [smallpiggy/CVE-2019-7238](https://github.com/smallpiggy/CVE-2019-7238)
 - [DannyRavi/nmap-scripts](https://github.com/DannyRavi/nmap-scripts)
+- [CyberCTF/vulhub-nexus-cve-2019-7238](https://github.com/CyberCTF/vulhub-nexus-cve-2019-7238)
 
 ### CVE-2019-7304 (2019-04-23)
 
@@ -75149,6 +75212,7 @@
 - [Akshay15-png/CVE-2019-7609](https://github.com/Akshay15-png/CVE-2019-7609)
 - [aleister1102/kibana-prototype-pollusion](https://github.com/aleister1102/kibana-prototype-pollusion)
 - [toxxxaka/CVE-2019-7609](https://github.com/toxxxaka/CVE-2019-7609)
+- [CyberCTF/vulhub-kibana-cve-2019-7609](https://github.com/CyberCTF/vulhub-kibana-cve-2019-7609)
 
 ### CVE-2019-7616 (2019-07-30)
 
@@ -75461,6 +75525,7 @@
 - [corsisechero/CVE-2019-9193byVulHub](https://github.com/corsisechero/CVE-2019-9193byVulHub)
 - [netw0rk7/CVE-2019-9193-Home-Lab](https://github.com/netw0rk7/CVE-2019-9193-Home-Lab)
 - [CybersRMUTL/CVE-2019-9193-Postgresql-RCE](https://github.com/CybersRMUTL/CVE-2019-9193-Postgresql-RCE)
+- [CyberCTF/vulhub-postgres-cve-2019-9193](https://github.com/CyberCTF/vulhub-postgres-cve-2019-9193)
 
 ### CVE-2019-9194 (2019-02-26)
 
@@ -75838,6 +75903,7 @@
 
 - [masahiro331/CVE-2019-10758](https://github.com/masahiro331/CVE-2019-10758)
 - [lp008/CVE-2019-10758](https://github.com/lp008/CVE-2019-10758)
+- [CyberCTF/vulhub-mongo-express-cve-2019-10758](https://github.com/CyberCTF/vulhub-mongo-express-cve-2019-10758)
 
 ### CVE-2019-10760 (2019-10-15)
 
@@ -75923,6 +75989,7 @@
 - [CodeHex083/phuip-fpizdam](https://github.com/CodeHex083/phuip-fpizdam)
 - [MagentaBear/CVE-2019-11043-Vulnerability](https://github.com/MagentaBear/CVE-2019-11043-Vulnerability)
 - [gon905332-jpg/cve-2019-11043.py](https://github.com/gon905332-jpg/cve-2019-11043.py)
+- [CyberCTF/vulhub-php-cve-2019-11043](https://github.com/CyberCTF/vulhub-php-cve-2019-11043)
 
 ### CVE-2019-11061 (2019-08-29)
 
@@ -77002,6 +77069,7 @@
 - [viglia/cve-2019-15107](https://github.com/viglia/cve-2019-15107)
 - [jini135wii/CVE-2019-15107](https://github.com/jini135wii/CVE-2019-15107)
 - [shambhaviM18/cve-2019-15107-lab](https://github.com/shambhaviM18/cve-2019-15107-lab)
+- [CyberCTF/vulhub-webmin-cve-2019-15107](https://github.com/CyberCTF/vulhub-webmin-cve-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
 
@@ -77472,6 +77540,7 @@
 - [Ma1Dong/Solr_CVE-2019-17558](https://github.com/Ma1Dong/Solr_CVE-2019-17558)
 - [xkyrage/Exploit_CVE-2019-17558-RCE](https://github.com/xkyrage/Exploit_CVE-2019-17558-RCE)
 - [rogerzeferino/cve-2019-17558-apache-solr-rce](https://github.com/rogerzeferino/cve-2019-17558-apache-solr-rce)
+- [CyberCTF/vulhub-solr-cve-2019-17558](https://github.com/CyberCTF/vulhub-solr-cve-2019-17558)
 
 ### CVE-2019-17564 (2020-04-01)
 
@@ -77484,6 +77553,7 @@
 - [Exploit-3389/CVE-2019-17564](https://github.com/Exploit-3389/CVE-2019-17564)
 - [Dor-Tumarkin/CVE-2019-17564-FastJson-Gadget](https://github.com/Dor-Tumarkin/CVE-2019-17564-FastJson-Gadget)
 - [fairyming/CVE-2019-17564](https://github.com/fairyming/CVE-2019-17564)
+- [CyberCTF/vulhub-dubbo-cve-2019-17564](https://github.com/CyberCTF/vulhub-dubbo-cve-2019-17564)
 
 ### CVE-2019-17570 (2020-01-23)
 
@@ -78085,6 +78155,7 @@
 - [LorenzoTullini/InfluxDB-Exploit-CVE-2019-20933](https://github.com/LorenzoTullini/InfluxDB-Exploit-CVE-2019-20933)
 - [Hydragyrum/CVE-2019-20933](https://github.com/Hydragyrum/CVE-2019-20933)
 - [Dungsocool/CVE-2019-20933](https://github.com/Dungsocool/CVE-2019-20933)
+- [CyberCTF/vulhub-influxdb-cve-2019-20933](https://github.com/CyberCTF/vulhub-influxdb-cve-2019-20933)
 
 ### CVE-2019-25024 (2021-02-19)
 
@@ -78458,6 +78529,7 @@
 - [cved-sources/cve-2018-1273](https://github.com/cved-sources/cve-2018-1273)
 - [jas502n/cve-2018-1273](https://github.com/jas502n/cve-2018-1273)
 - [hdgokani/CVE-2018-1273](https://github.com/hdgokani/CVE-2018-1273)
+- [CyberCTF/vulhub-spring-cve-2018-1273](https://github.com/CyberCTF/vulhub-spring-cve-2018-1273)
 
 ### CVE-2018-1285 (2020-05-11)
 
@@ -78473,6 +78545,7 @@
 
 - [Al1ex/CVE-2018-1297](https://github.com/Al1ex/CVE-2018-1297)
 - [48484848484848/Jmeter-CVE-2018-1297-](https://github.com/48484848484848/Jmeter-CVE-2018-1297-)
+- [CyberCTF/vulhub-jmeter-cve-2018-1297](https://github.com/CyberCTF/vulhub-jmeter-cve-2018-1297)
 
 ### CVE-2018-1304 (2018-02-28)
 
@@ -78687,6 +78760,7 @@
 - [mpgn/CVE-2018-3760](https://github.com/mpgn/CVE-2018-3760)
 - [cyberharsh/Ruby-On-Rails-Path-Traversal-Vulnerability-CVE-2018-3760-](https://github.com/cyberharsh/Ruby-On-Rails-Path-Traversal-Vulnerability-CVE-2018-3760-)
 - [wudidwo/CVE-2018-3760-poc](https://github.com/wudidwo/CVE-2018-3760-poc)
+- [CyberCTF/vulhub-rails-cve-2018-3760](https://github.com/CyberCTF/vulhub-rails-cve-2018-3760)
 
 ### CVE-2018-3783 (2018-08-17)
 
@@ -79429,6 +79503,7 @@
 </code>
 
 - [qinzhu111/uWSGI-CVE-2018-7490-POC](https://github.com/qinzhu111/uWSGI-CVE-2018-7490-POC)
+- [CyberCTF/vulhub-uwsgi-cve-2018-7490](https://github.com/CyberCTF/vulhub-uwsgi-cve-2018-7490)
 
 ### CVE-2018-7600 (2018-03-29)
 
@@ -79489,6 +79564,7 @@
 - [elkhaoudari/CVE-2018-7600-PoC](https://github.com/elkhaoudari/CVE-2018-7600-PoC)
 - [Aihikk/DC-1_Vulnhub_Walkthrough](https://github.com/Aihikk/DC-1_Vulnhub_Walkthrough)
 - [K52-ai/CVE-2018-7600](https://github.com/K52-ai/CVE-2018-7600)
+- [CyberCTF/vulhub-drupal-cve-2018-7600](https://github.com/CyberCTF/vulhub-drupal-cve-2018-7600)
 
 ### CVE-2018-7602 (2018-07-19)
 
@@ -79869,6 +79945,13 @@
 - [ze0r/CVE-2018-8639-exp](https://github.com/ze0r/CVE-2018-8639-exp)
 - [timwhitez/CVE-2018-8639-EXP](https://github.com/timwhitez/CVE-2018-8639-EXP)
 
+### CVE-2018-8715 (2018-03-14)
+
+<code>The Embedthis HTTP library, and Appweb versions before 7.0.3, have a logic flaw related to the authCondition function in http/httpLib.c. With a forged HTTP request, it is possible to bypass authentication for the form and digest login types.
+</code>
+
+- [CyberCTF/vulhub-appweb-cve-2018-8715](https://github.com/CyberCTF/vulhub-appweb-cve-2018-8715)
+
 ### CVE-2018-8718 (2018-03-27)
 
 <code>Cross-site request forgery (CSRF) vulnerability in the Mailer Plugin 1.20 for Jenkins 2.111 allows remote authenticated users to send unauthorized mail as an arbitrary user via a /descriptorByName/hudson.tasks.Mailer/sendTestMail request.
@@ -80217,6 +80300,7 @@
 - [HSw109/CVE-2018-10933](https://github.com/HSw109/CVE-2018-10933)
 - [bidaoui4905/CVE-2018-10933](https://github.com/bidaoui4905/CVE-2018-10933)
 - [opsifiz/CVE-2018-10933](https://github.com/opsifiz/CVE-2018-10933)
+- [CyberCTF/vulhub-libssh-cve-2018-10933](https://github.com/CyberCTF/vulhub-libssh-cve-2018-10933)
 
 ### CVE-2018-10936 (2018-08-30)
 
@@ -80490,6 +80574,7 @@
 - [0x00-0x00/CVE-2018-12613](https://github.com/0x00-0x00/CVE-2018-12613)
 - [ivanitlearning/CVE-2018-12613](https://github.com/ivanitlearning/CVE-2018-12613)
 - [eastmountyxz/CVE-2018-12613-phpMyAdmin](https://github.com/eastmountyxz/CVE-2018-12613-phpMyAdmin)
+- [CyberCTF/vulhub-phpmyadmin-cve-2018-12613](https://github.com/CyberCTF/vulhub-phpmyadmin-cve-2018-12613)
 
 ### CVE-2018-12633 (2018-06-22)
 
@@ -80850,6 +80935,7 @@
 - [kikechans/-SSH-Enum-CVE-2018-15473](https://github.com/kikechans/-SSH-Enum-CVE-2018-15473)
 - [kaktus5454/CVE-2018-15473](https://github.com/kaktus5454/CVE-2018-15473)
 - [bdalrhmnhamdalalm-jpg/CVE-2018-15473-User-Enumeration-](https://github.com/bdalrhmnhamdalalm-jpg/CVE-2018-15473-User-Enumeration-)
+- [CyberCTF/vulhub-openssh-cve-2018-15473](https://github.com/CyberCTF/vulhub-openssh-cve-2018-15473)
 
 ### CVE-2018-15499 (2018-08-24)
 
@@ -81030,6 +81116,7 @@
 - [knqyf263/CVE-2018-16509](https://github.com/knqyf263/CVE-2018-16509)
 - [cved-sources/cve-2018-16509](https://github.com/cved-sources/cve-2018-16509)
 - [rhpco/CVE-2018-16509](https://github.com/rhpco/CVE-2018-16509)
+- [CyberCTF/vulhub-ghostscript-cve-2018-16509](https://github.com/CyberCTF/vulhub-ghostscript-cve-2018-16509)
 
 ### CVE-2018-16621 (2018-11-15)
 
@@ -81854,6 +81941,7 @@
 
 - [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
 - [smokeintheshell/CVE-2018-1000861](https://github.com/smokeintheshell/CVE-2018-1000861)
+- [CyberCTF/vulhub-jenkins-cve-2018-1000861](https://github.com/CyberCTF/vulhub-jenkins-cve-2018-1000861)
 
 ### CVE-2018-1002105 (2018-12-05)
 
@@ -82892,6 +82980,7 @@
 - [Zanex360/cdt-samba-deploy](https://github.com/Zanex360/cdt-samba-deploy)
 - [Zanex360/cdt-vulnsamba-deploy](https://github.com/Zanex360/cdt-vulnsamba-deploy)
 - [YonLiud/CVE-2017-7494](https://github.com/YonLiud/CVE-2017-7494)
+- [CyberCTF/vulhub-samba-cve-2017-7494](https://github.com/CyberCTF/vulhub-samba-cve-2017-7494)
 
 ### CVE-2017-7504 (2017-05-19)
 
@@ -82933,6 +83022,7 @@
 - [Fenil2511/CVE-2017-7529-POC](https://github.com/Fenil2511/CVE-2017-7529-POC)
 - [youngmin0104/CVE-2017-7529-](https://github.com/youngmin0104/CVE-2017-7529-)
 - [portfolio10/nginx](https://github.com/portfolio10/nginx)
+- [CyberCTF/vulhub-nginx-cve-2017-7529](https://github.com/CyberCTF/vulhub-nginx-cve-2017-7529)
 
 ### CVE-2017-7648 (2017-04-10)
 
@@ -83436,6 +83526,7 @@
 - [drcrypterdotru/PHPUnit-GoScan](https://github.com/drcrypterdotru/PHPUnit-GoScan)
 - [krisdewa/CVE-2017-9841-PHPUnit-Remote-Code-Execution-PoC](https://github.com/krisdewa/CVE-2017-9841-PHPUnit-Remote-Code-Execution-PoC)
 - [CheLover86/CVE-2017-9841](https://github.com/CheLover86/CVE-2017-9841)
+- [CyberCTF/vulhub-phpunit-cve-2017-9841](https://github.com/CyberCTF/vulhub-phpunit-cve-2017-9841)
 
 ### CVE-2017-9934 (2017-07-17)
 
@@ -83492,6 +83583,7 @@
 - [seoyoung-kang/CVE-2017-10271](https://github.com/seoyoung-kang/CVE-2017-10271)
 - [Dungsocool/CVE-2017-10271](https://github.com/Dungsocool/CVE-2017-10271)
 - [shahdawadfallah-sys/Cybersecurity-Capstone-Project](https://github.com/shahdawadfallah-sys/Cybersecurity-Capstone-Project)
+- [CyberCTF/vulhub-weblogic-cve-2017-10271](https://github.com/CyberCTF/vulhub-weblogic-cve-2017-10271)
 
 ### CVE-2017-10352 (2017-10-19)
 
@@ -83595,6 +83687,7 @@
 - [ivanitlearning/CVE-2017-11610](https://github.com/ivanitlearning/CVE-2017-11610)
 - [yaunsky/CVE-2017-11610](https://github.com/yaunsky/CVE-2017-11610)
 - [Dungsocool/CVE-2017-11610](https://github.com/Dungsocool/CVE-2017-11610)
+- [CyberCTF/vulhub-supervisor-cve-2017-11610](https://github.com/CyberCTF/vulhub-supervisor-cve-2017-11610)
 
 ### CVE-2017-11611 (2017-09-08)
 
@@ -83678,6 +83771,7 @@
 - [JesseClarkND/CVE-2017-12149](https://github.com/JesseClarkND/CVE-2017-12149)
 - [zesnd/cve-2017-12149](https://github.com/zesnd/cve-2017-12149)
 - [galois17/cve-2017-12149-playground](https://github.com/galois17/cve-2017-12149-playground)
+- [CyberCTF/vulhub-jboss-cve-2017-12149](https://github.com/CyberCTF/vulhub-jboss-cve-2017-12149)
 
 ### CVE-2017-12426 (2017-08-14)
 
@@ -83734,6 +83828,7 @@
 - [edyekomu/CVE-2017-12615-PoC](https://github.com/edyekomu/CVE-2017-12615-PoC)
 - [Fa1c0n35/CVE-2017-12615](https://github.com/Fa1c0n35/CVE-2017-12615)
 - [netw0rk7/CVE-2017-12615-Home-Lab](https://github.com/netw0rk7/CVE-2017-12615-Home-Lab)
+- [CyberCTF/vulhub-tomcat-cve-2017-12615](https://github.com/CyberCTF/vulhub-tomcat-cve-2017-12615)
 
 ### CVE-2017-12617 (2017-10-03)
 
@@ -83764,6 +83859,7 @@
 </code>
 
 - [captain-woof/cve-2017-12629](https://github.com/captain-woof/cve-2017-12629)
+- [CyberCTF/vulhub-solr-cve-2017-12629-rce](https://github.com/CyberCTF/vulhub-solr-cve-2017-12629-rce)
 
 ### CVE-2017-12635 (2017-11-14)
 
@@ -83774,6 +83870,7 @@
 - [cyberharsh/Apache-couchdb-CVE-2017-12635](https://github.com/cyberharsh/Apache-couchdb-CVE-2017-12635)
 - [Dungsocool/CVE-2017-12635_36](https://github.com/Dungsocool/CVE-2017-12635_36)
 - [Darabium/couchdb-exploit](https://github.com/Darabium/couchdb-exploit)
+- [CyberCTF/vulhub-couchdb-cve-2017-12635](https://github.com/CyberCTF/vulhub-couchdb-cve-2017-12635)
 
 ### CVE-2017-12636 (2017-11-14)
 
@@ -83951,6 +84048,13 @@
 
 - [shoucheng3/nahsra__antisamy_CVE-2017-14735_1-5-6](https://github.com/shoucheng3/nahsra__antisamy_CVE-2017-14735_1-5-6)
 
+### CVE-2017-14849 (2017-09-28)
+
+<code>Node.js 8.5.0 before 8.6.0 allows remote attackers to access unintended files, because a change to &quot;..&quot; handling was incompatible with the pathname validation used by unspecified community modules.
+</code>
+
+- [CyberCTF/vulhub-node-cve-2017-14849](https://github.com/CyberCTF/vulhub-node-cve-2017-14849)
+
 ### CVE-2017-14948 (2019-10-14)
 
 <code>Certain D-Link products are affected by: Buffer Overflow. This affects DIR-880L 1.08B04 and DIR-895 L/R 1.13b03. The impact is: execute arbitrary code (remote). The component is: htdocs/fileaccess.cgi. The attack vector is: A crafted HTTP request handled by fileacces.cgi could allow an attacker to mount a ROP attack: if the HTTP header field CONTENT_TYPE starts with ''boundary=' followed by more than 256 characters, a buffer overflow would be triggered, potentially causing code execution.
@@ -84048,6 +84152,7 @@
 
 - [whisp1830/CVE-2017-15715](https://github.com/whisp1830/CVE-2017-15715)
 - [ehsehs5652/CVE-2017-15715-httpd](https://github.com/ehsehs5652/CVE-2017-15715-httpd)
+- [CyberCTF/vulhub-httpd-cve-2017-15715](https://github.com/CyberCTF/vulhub-httpd-cve-2017-15715)
 
 ### CVE-2017-15944 (2017-12-11)
 
@@ -84343,6 +84448,7 @@
 </code>
 
 - [NeonNOXX/CVE-2017-1000028](https://github.com/NeonNOXX/CVE-2017-1000028)
+- [CyberCTF/vulhub-glassfish-cve-2017-1000028](https://github.com/CyberCTF/vulhub-glassfish-cve-2017-1000028)
 
 ### CVE-2017-1000083 (2017-09-05)
 
@@ -84904,6 +85010,7 @@
 - [YutuSec/ActiveMQ_Crack](https://github.com/YutuSec/ActiveMQ_Crack)
 - [HeArtE4t3r/CVE-2016-3088](https://github.com/HeArtE4t3r/CVE-2016-3088)
 - [Catherines77/ActiveMQ-EXPtools](https://github.com/Catherines77/ActiveMQ-EXPtools)
+- [CyberCTF/vulhub-activemq-cve-2016-3088](https://github.com/CyberCTF/vulhub-activemq-cve-2016-3088)
 
 ### CVE-2016-3113 (2017-08-07)
 
@@ -84979,6 +85086,7 @@
 - [jpeanut/ImageTragick-CVE-2016-3714-RShell](https://github.com/jpeanut/ImageTragick-CVE-2016-3714-RShell)
 - [Hood3dRob1n/CVE-2016-3714](https://github.com/Hood3dRob1n/CVE-2016-3714)
 - [JoshMorrison99/CVE-2016-3714](https://github.com/JoshMorrison99/CVE-2016-3714)
+- [CyberCTF/vulhub-imagemagick-cve-2016-3714](https://github.com/CyberCTF/vulhub-imagemagick-cve-2016-3714)
 
 ### CVE-2016-3749 (2016-07-11)
 
@@ -85062,6 +85170,7 @@
 - [pizza-power/CVE-2016-4437](https://github.com/pizza-power/CVE-2016-4437)
 - [xk-mt/CVE-2016-4437](https://github.com/xk-mt/CVE-2016-4437)
 - [35789-gh/cve-2016-4437](https://github.com/35789-gh/cve-2016-4437)
+- [CyberCTF/vulhub-shiro-cve-2016-4437](https://github.com/CyberCTF/vulhub-shiro-cve-2016-4437)
 
 ### CVE-2016-4438 (2016-07-04)
 
@@ -85155,6 +85264,7 @@
 
 - [N0b1e6/CVE-2016-4977-POC](https://github.com/N0b1e6/CVE-2016-4977-POC)
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
+- [CyberCTF/vulhub-spring-cve-2016-4977](https://github.com/CyberCTF/vulhub-spring-cve-2016-4977)
 
 ### CVE-2016-4999 (2016-08-05)
 
@@ -85721,6 +85831,13 @@
 
 - [heikipikker/exploit-CVE-2016-10034](https://github.com/heikipikker/exploit-CVE-2016-10034)
 
+### CVE-2016-10134 (2017-02-16)
+
+<code>SQL injection vulnerability in Zabbix before 2.2.14 and 3.0 before 3.0.4 allows remote attackers to execute arbitrary SQL commands via the toggle_ids array parameter in latest.php.
+</code>
+
+- [CyberCTF/vulhub-zabbix-cve-2016-10134](https://github.com/CyberCTF/vulhub-zabbix-cve-2016-10134)
+
 ### CVE-2016-10140 (2017-01-13)
 
 <code>Information disclosure and authentication bypass vulnerability exists in the Apache HTTP Server configuration bundled with ZoneMinder v1.30 and v1.29, which allows a remote unauthenticated attacker to browse all directories in the web root, e.g., a remote unauthenticated attacker can view all CCTV images on the server via the /events URI.
@@ -86038,6 +86155,7 @@
 - [cyberharsh/Groovy-scripting-engine-CVE-2015-1427](https://github.com/cyberharsh/Groovy-scripting-engine-CVE-2015-1427)
 - [xpgdgit/CVE-2015-1427](https://github.com/xpgdgit/CVE-2015-1427)
 - [Sebikea/CVE-2015-1427-for-trixie](https://github.com/Sebikea/CVE-2015-1427-for-trixie)
+- [CyberCTF/vulhub-elasticsearch-cve-2015-1427](https://github.com/CyberCTF/vulhub-elasticsearch-cve-2015-1427)
 
 ### CVE-2015-1474 (2015-02-16)
 
@@ -87081,6 +87199,7 @@
 - [IhsSpotlight/HeartBleed-CVE-2014-0160--SCRIPTS-python3](https://github.com/IhsSpotlight/HeartBleed-CVE-2014-0160--SCRIPTS-python3)
 - [L1LF1NG3R/heartbleed-vulnerability-exploitation](https://github.com/L1LF1NG3R/heartbleed-vulnerability-exploitation)
 - [Ayushsinha322/heartbleed-lab](https://github.com/Ayushsinha322/heartbleed-lab)
+- [CyberCTF/vulhub-openssl-cve-2014-0160](https://github.com/CyberCTF/vulhub-openssl-cve-2014-0160)
 
 ### CVE-2014-0166 (2014-04-09)
 
@@ -87307,6 +87426,7 @@
 - [echohtp/ElasticSearch-CVE-2014-3120](https://github.com/echohtp/ElasticSearch-CVE-2014-3120)
 - [xpgdgit/CVE-2014-3120](https://github.com/xpgdgit/CVE-2014-3120)
 - [Dungsocool/CVE-2014-3120](https://github.com/Dungsocool/CVE-2014-3120)
+- [CyberCTF/vulhub-elasticsearch-cve-2014-3120](https://github.com/CyberCTF/vulhub-elasticsearch-cve-2014-3120)
 
 ### CVE-2014-3153 (2014-06-07)
 
@@ -87414,6 +87534,7 @@
 - [joaomorenorf/CVE-2014-3704](https://github.com/joaomorenorf/CVE-2014-3704)
 - [fbm31/Audit-BlackBox-Web-to-Root](https://github.com/fbm31/Audit-BlackBox-Web-to-Root)
 - [adfortunato/metasploitable3-pentest-writeup](https://github.com/adfortunato/metasploitable3-pentest-writeup)
+- [CyberCTF/vulhub-drupal-cve-2014-3704](https://github.com/CyberCTF/vulhub-drupal-cve-2014-3704)
 
 ### CVE-2014-4014 (2014-06-23)
 
@@ -87678,6 +87799,7 @@
 - [caverm/Shellshock_CVE-2014-6271](https://github.com/caverm/Shellshock_CVE-2014-6271)
 - [FREEGUY-6/dmz-security-monitoring-hardening](https://github.com/FREEGUY-6/dmz-security-monitoring-hardening)
 - [mgiftson0/linux-env-vars-shellshock-lab](https://github.com/mgiftson0/linux-env-vars-shellshock-lab)
+- [CyberCTF/vulhub-bash-cve-2014-6271](https://github.com/CyberCTF/vulhub-bash-cve-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
 
@@ -88316,6 +88438,7 @@
 
 - [cyberharsh/Nginx-CVE-2013-4547](https://github.com/cyberharsh/Nginx-CVE-2013-4547)
 - [rsp243/fix_nginx_CVE-2013-4547_IB](https://github.com/rsp243/fix_nginx_CVE-2013-4547_IB)
+- [CyberCTF/vulhub-nginx-cve-2013-4547](https://github.com/CyberCTF/vulhub-nginx-cve-2013-4547)
 
 ### CVE-2013-4710 (2014-03-03)
 
@@ -88517,6 +88640,7 @@
 - [tanasescualexandrugabriel/Vulnerability-Assessment-and-OSINT-CVE-2012-1823](https://github.com/tanasescualexandrugabriel/Vulnerability-Assessment-and-OSINT-CVE-2012-1823)
 - [mujtaba815/metasploitable2-php-cgi-exploit](https://github.com/mujtaba815/metasploitable2-php-cgi-exploit)
 - [yilmaz8596/metasploitable-vulnerability-assessment](https://github.com/yilmaz8596/metasploitable-vulnerability-assessment)
+- [CyberCTF/vulhub-php-cve-2012-1823](https://github.com/CyberCTF/vulhub-php-cve-2012-1823)
 
 ### CVE-2012-1831 (2012-07-05)
 
@@ -88550,6 +88674,7 @@
 - [cyberharsh/Oracle-mysql-CVE-2012-2122](https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122)
 - [zhangkaibin0921/CVE-2012-2122](https://github.com/zhangkaibin0921/CVE-2012-2122)
 - [netw0rk7/CVE-2012-2122-Home-Lab](https://github.com/netw0rk7/CVE-2012-2122-Home-Lab)
+- [CyberCTF/vulhub-mysql-cve-2012-2122](https://github.com/CyberCTF/vulhub-mysql-cve-2012-2122)
 
 ### CVE-2012-2459 (2012-08-06)
 
@@ -89168,6 +89293,7 @@
 </code>
 
 - [greysneakthief/14641-v2](https://github.com/greysneakthief/14641-v2)
+- [CyberCTF/vulhub-coldfusion-cve-2010-2861](https://github.com/CyberCTF/vulhub-coldfusion-cve-2010-2861)
 
 ### CVE-2010-2883 (2010-09-09)
 
