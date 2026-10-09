@@ -11664,6 +11664,7 @@
 - [linux-tools/VIVO-IQOO-Neo9-Root-Tools](https://github.com/linux-tools/VIVO-IQOO-Neo9-Root-Tools)
 - [GrandFuzard/redmi-13-5g-ghostlock-findings](https://github.com/GrandFuzard/redmi-13-5g-ghostlock-findings)
 - [zimza1abim/Root-My-Galaxy-Payloads-SM-S928N](https://github.com/zimza1abim/Root-My-Galaxy-Payloads-SM-S928N)
+- [d16ug-a1l/REDMI_Root](https://github.com/d16ug-a1l/REDMI_Root)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -16937,6 +16938,7 @@
 
 - [digiprosec/CVE-2026-80428](https://github.com/digiprosec/CVE-2026-80428)
 - [shivammittal2403/cve-2026-80428-ctf](https://github.com/shivammittal2403/cve-2026-80428-ctf)
+- [HackfutSecRoot/CVE-2026-80428](https://github.com/HackfutSecRoot/CVE-2026-80428)
 
 ### CVE-2026-80444 (2026-09-23)
 
@@ -17973,12 +17975,18 @@
 - [mhtsec/CVE-2026-94545](https://github.com/mhtsec/CVE-2026-94545)
 - [MRdark-ops/CVE-2026-94545-](https://github.com/MRdark-ops/CVE-2026-94545-)
 
+### CVE-2026-94597
+- [canhieu/CVE-2026-94597-poc](https://github.com/canhieu/CVE-2026-94597-poc)
+
 ### CVE-2026-94609 (2026-09-24)
 
 <code>authentik is an open-source identity provider. Prior to 2026.2.7, 2026.5.7, and 2026.8.2, an account with delegated permission to manage a group, group membership, or a user can grant superuser status to an account or assign an existing role to a group without holding the permissions that gate those privileges. Group hierarchy checks do not consistently account for superuser status inherited from ancestor groups, and role assignment to a group lacks the required authorization check. Only deployments that delegate these management capabilities to accounts that are not full administrators are affected. This issue is fixed in versions 2026.2.7, 2026.5.7, and 2026.8.2.
 </code>
 
 - [anthonyk2923/CVE-2026-94609](https://github.com/anthonyk2923/CVE-2026-94609)
+
+### CVE-2026-95149
+- [reputati0n/CVE-2026-95149](https://github.com/reputati0n/CVE-2026-95149)
 
 ### CVE-2026-95622
 - [0xSemizzz/CVE-2026-95622](https://github.com/0xSemizzz/CVE-2026-95622)
@@ -18545,6 +18553,13 @@
 ### CVE-2026-107268
 - [yuwkaaa/CVE-2026-107268](https://github.com/yuwkaaa/CVE-2026-107268)
 
+### CVE-2026-107406 (2026-10-08)
+
+<code>Memory overflow vulnerability leading to Remote Code Execution or Denial of Service Vulnerability in NetScaler ADC.\n\n\nNetScaler ADC or NetScaler Gateway must be configured as a SAML SP or SAML IdP, subject to the following version-specific requirements:\n\n\n\n \n\n  *  For the following versions: Applicable only when configured as a SAML IdP:\n  *  NetScaler ADC and NetScaler Gateway between 14.1-73.37 and 14.1-73.41, inclusive\n  *  NetScaler ADC 14.1-FIPS between 14.1-73.37 FIPS and 14.1-73.41 FIPS, inclusive\n  *  NetScaler ADC and NetScaler Gateway between 13.1-64.23 and 13.1-64.28, inclusive\n  *  NetScaler ADC 13.1-FIPS between 13.1-NDcPP 13.1-37.279 and 13.1- 37.282, inclusive\n\n\n\n\n \n\n\n\nFor the following versions: Applicable only when configured as a SAML SP or SAML IdP:\n\n  *  NetScaler ADC and NetScaler Gateway before 14.1-73.37 \n  *  NetScaler ADC 14.1-FIPS before 14.1-73.37 FIPS \n  *  NetScaler ADC and NetScaler Gateway before 13.1-64.23\n  *  NetScaler ADC 13.1-FIPS before13.1-NDcPP 13.1-37.279
+</code>
+
+- [techupdate24/citrix-netscaler-rce-cve-2026-107406](https://github.com/techupdate24/citrix-netscaler-rce-cve-2026-107406)
+
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
 
@@ -18774,6 +18789,7 @@
 
 - [FWNavy/RMASmoke](https://github.com/FWNavy/RMASmoke)
 - [IsolatedAnarchy/RMASmoke-v2](https://github.com/IsolatedAnarchy/RMASmoke-v2)
+- [MCRideable3963/exploit-docs](https://github.com/MCRideable3963/exploit-docs)
 
 ### CVE-2025-1219 (2025-03-30)
 
@@ -23521,6 +23537,7 @@
 - [mrowkoob/CVE-2025-26466-msf](https://github.com/mrowkoob/CVE-2025-26466-msf)
 - [tpirate/CVE-2025-26466](https://github.com/tpirate/CVE-2025-26466)
 - [acidboonrs/cve-2025-26466-openssh-poc](https://github.com/acidboonrs/cve-2025-26466-openssh-poc)
+- [K0n9-log/cve-2025-26466-canvas](https://github.com/K0n9-log/cve-2025-26466-canvas)
 
 ### CVE-2025-26529 (2025-02-24)
 
@@ -25536,6 +25553,13 @@
 - [rxerium/CVE-2025-41244](https://github.com/rxerium/CVE-2025-41244)
 - [haspiranti/CVE-2025-41244-PoC](https://github.com/haspiranti/CVE-2025-41244-PoC)
 - [NULL200OK/CVE-2025-41244](https://github.com/NULL200OK/CVE-2025-41244)
+
+### CVE-2025-41249 (2025-09-16)
+
+<code>The Spring Framework annotation detection mechanism may not correctly resolve annotations on methods within type hierarchies with a parameterized super type with unbounded generics. This can be an issue if such annotations are used for authorization decisions.\n\nYour application may be affected by this if you are using Spring Security's @EnableMethodSecurity feature.\n\nYou are not affected by this if you are not using @EnableMethodSecurity or if you do not use security annotations on methods in generic superclasses or generic interfaces.\n\nThis CVE is published in conjunction with  CVE-2025-41248 https://spring.io/security/cve-2025-41248 .
+</code>
+
+- [edwin/simulating-cve-2025-41249](https://github.com/edwin/simulating-cve-2025-41249)
 
 ### CVE-2025-41373 (2025-08-01)
 
@@ -63312,6 +63336,7 @@
 
 - [hev0x/CVE-2021-26828_ScadaBR_RCE](https://github.com/hev0x/CVE-2021-26828_ScadaBR_RCE)
 - [ridpath/CVE-2021-26828-Ultimate](https://github.com/ridpath/CVE-2021-26828-Ultimate)
+- [h002733/CVE-2021-26828](https://github.com/h002733/CVE-2021-26828)
 
 ### CVE-2021-26832 (2021-04-14)
 
