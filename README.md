@@ -6089,6 +6089,13 @@
 
 - [aramosf/CVE-2026-24031](https://github.com/aramosf/CVE-2026-24031)
 
+### CVE-2026-24046 (2026-01-21)
+
+<code>Backstage is an open framework for building developer portals. Multiple Scaffolder actions and archive extraction utilities were vulnerable to symlink-based path traversal attacks. An attacker with access to create and execute Scaffolder templates could exploit symlinks to read arbitrary files via the `debug:log` action by creating a symlink pointing to sensitive files (e.g., `/etc/passwd`, configuration files, secrets); delete arbitrary files via the `fs:delete` action by creating symlinks pointing outside the workspace, and write files outside the workspace via archive extraction (tar/zip) containing malicious symlinks. This affects any Backstage deployment where users can create or execute Scaffolder templates. This vulnerability is fixed in `@backstage/backend-defaults` versions 0.12.2, 0.13.2, 0.14.1, and 0.15.0; `@backstage/plugin-scaffolder-backend` versions 2.2.2, 3.0.2, and 3.1.1; and `@backstage/plugin-scaffolder-node` versions 0.11.2 and 0.12.3. Users should upgrade to these versions or later. Some workarounds are available. Follow the recommendation in the Backstage Threat Model to limit access to creating and updating templates, restrict who can create and execute Scaffolder templates using the permissions framework, audit existing templates for symlink usage, and/or run Backstage in a containerized environment with limited filesystem access.
+</code>
+
+- [Rem1L/cve-2026-24046-poc](https://github.com/Rem1L/cve-2026-24046-poc)
+
 ### CVE-2026-24049 (2026-01-22)
 
 <code>wheel is a command line tool for manipulating Python wheel files, as defined in PEP 427. In versions 0.40.0 through 0.46.1, the unpack function is vulnerable to file permission modification through mishandling of file permissions after extraction. The logic blindly trusts the filename from the archive header for the chmod operation, even though the extraction process itself might have sanitized the path. Attackers can craft a malicious wheel file that, when unpacked, changes the permissions of critical system files (e.g., /etc/passwd, SSH keys, config files), allowing for Privilege Escalation or arbitrary code execution by modifying now-writable scripts. This issue has been fixed in version 0.46.2.
@@ -7597,6 +7604,13 @@
 </code>
 
 - [MichaelAdamGroberman/CVE-2026-28767](https://github.com/MichaelAdamGroberman/CVE-2026-28767)
+
+### CVE-2026-28775 (2026-03-04)
+
+<code>An unauthenticated Remote Code Execution (RCE) vulnerability exists in the SNMP service of International Datacasting Corporation (IDC) SFX Series SuperFlex SatelliteReceiver. The deployment insecurely provisions the `private` SNMP community string with read/write access by default. Because the SNMP agent runs as root, an unauthenticated remote attacker can utilize `NET-SNMP-EXTEND-MIB` directives, abusing the fact that the system runs a vulnerable version of net-snmp pre 5.8, to execute arbitrary operating system commands with root privileges.
+</code>
+
+- [Udyz/CVE-2026-28775](https://github.com/Udyz/CVE-2026-28775)
 
 ### CVE-2026-28797 (2026-04-03)
 
@@ -15107,6 +15121,7 @@
 - [Wangs-official/opace6-cve-2026-64560](https://github.com/Wangs-official/opace6-cve-2026-64560)
 - [qingle009/opace6-cve-2026-64560](https://github.com/qingle009/opace6-cve-2026-64560)
 - [Meniben/redmi14c-pond-cve-2026-64560](https://github.com/Meniben/redmi14c-pond-cve-2026-64560)
+- [sangsheng2026/honor-90gt-mag-an00-root-research](https://github.com/sangsheng2026/honor-90gt-mag-an00-root-research)
 
 ### CVE-2026-64561 (2026-08-04)
 
@@ -18559,6 +18574,7 @@
 </code>
 
 - [techupdate24/citrix-netscaler-rce-cve-2026-107406](https://github.com/techupdate24/citrix-netscaler-rce-cve-2026-107406)
+- [ApexBreach/CVE-2026-107406-Poc](https://github.com/ApexBreach/CVE-2026-107406-Poc)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -39213,6 +39229,13 @@
 
 - [meeeeing/CVE-2024-36587](https://github.com/meeeeing/CVE-2024-36587)
 
+### CVE-2024-36774 (2024-06-06)
+
+<code>An arbitrary file upload vulnerability in Monstra CMS v3.0.4 allows attackers to execute arbitrary code via uploading a crafted PHP file.
+</code>
+
+- [PawFV/CVE-2024-36774-Monstra-CMS-RCE-PoC](https://github.com/PawFV/CVE-2024-36774-Monstra-CMS-RCE-PoC)
+
 ### CVE-2024-36821 (2024-06-11)
 
 <code>Insecure permissions in Linksys Velop WiFi 5 (WHW01v1) 1.1.13.202617 allows attackers to escalate privileges from Guest to root.
@@ -52878,7 +52901,7 @@
 </code>
 
 - [disqualifier/psa-2026-00043-recovery](https://github.com/disqualifier/psa-2026-00043-recovery)
-- [alexandrov666/CVE-2023-54391-RCE](https://github.com/alexandrov666/CVE-2023-54391-RCE)
+- [alexand0www/CVE-2023-54391-RCE](https://github.com/alexand0www/CVE-2023-54391-RCE)
 
 
 ## 2022
@@ -54518,6 +54541,13 @@
 </code>
 
 - [docfate111/CVE-2022-21789](https://github.com/docfate111/CVE-2022-21789)
+
+### CVE-2022-21812 (2022-08-18)
+
+<code>Improper access control in the Intel(R) HAXM software before version 7.7.1 may allow an authenticated user to potentially enable escalation of privilege via local access.
+</code>
+
+- [NeroMinddd/intel-haxm-kernel-reverse-engineering-cve-2022-21812](https://github.com/NeroMinddd/intel-haxm-kernel-reverse-engineering-cve-2022-21812)
 
 ### CVE-2022-21831 (2022-05-26)
 
@@ -67453,6 +67483,7 @@
 - [osflaky/exp-logpresso-CVE-2021-44228-Scanner](https://github.com/osflaky/exp-logpresso-CVE-2021-44228-Scanner)
 - [CyberCTF/vulhub-log4j-cve-2021-44228](https://github.com/CyberCTF/vulhub-log4j-cve-2021-44228)
 - [ResoluteRacoons/log4-Java-logging-poc](https://github.com/ResoluteRacoons/log4-Java-logging-poc)
+- [hoangvvthu/CVE-2021-44228-Log4Shell-Lab](https://github.com/hoangvvthu/CVE-2021-44228-Log4Shell-Lab)
 
 ### CVE-2021-44255 (2022-01-31)
 
