@@ -4215,13 +4215,6 @@
 
 - [0xSemizzz/CVE-2026-18649](https://github.com/0xSemizzz/CVE-2026-18649)
 
-### CVE-2026-18718 (2026-08-03)
-
-<code>Ghidra contains an arbitrary code execution vulnerability in the Swift demangler analyzer that allows an attacker to execute arbitrary binaries by supplying a malicious Ghidra project with a crafted Swift tool directory path. When a victim opens the attacker-supplied project, SwiftDemanglerAnalyzer restores the persisted Swift binary directory from project state and SwiftNativeDemangler executes the resolved binary without integrity or signature verification, causing attacker-controlled executables to run under the Ghidra process user with no prompt or confirmation.
-</code>
-
-- [sn0x-sharma/CVE-2026-18718](https://github.com/sn0x-sharma/CVE-2026-18718)
-
 ### CVE-2026-18729 (2026-08-28)
 
 <code>IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote authenticated attacker to execute arbitrary code due to improper control of generation of code.
@@ -4599,7 +4592,6 @@
 <code>May 2026: This security advisory provides the details and fix information for a vulnerability that was discovered and fixed after the  was disclosed in February 2026. This new advisory is for a new vulnerability in the control connection handshaking. The  section of this advisory includes Show Control Connections guidance to help with system checks.&amp;nbsp;\r\n\r\nA vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Cisco Catalyst SD-WAN Validator, formerly SD-WAN vBond, could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.\r\nThis vulnerability exists because the peering authentication mechanism in an affected system is not working properly. An attacker could exploit this vulnerability by sending crafted requests to the affected system. A successful exploit could allow the attacker to log in to an affected Cisco Catalyst SD-WAN Controller as an internal, high-privileged, non-root user account. Using this account, the attacker could access NETCONF, which would then allow the attacker to manipulate network configuration for the SD-WAN fabric.
 </code>
 
-- [portbuster1337/CVE-2026-20182](https://github.com/portbuster1337/CVE-2026-20182)
 - [HORKimhab/CVE-2026-20182](https://github.com/HORKimhab/CVE-2026-20182)
 - [Nxploited/CVE-2026-20182](https://github.com/Nxploited/CVE-2026-20182)
 
@@ -5119,6 +5111,7 @@
 - [rxsklife/CVE-2026-21589](https://github.com/rxsklife/CVE-2026-21589)
 - [murrez/CVE-2026-21589](https://github.com/murrez/CVE-2026-21589)
 - [renzi25031469/CVE-2026-21589](https://github.com/renzi25031469/CVE-2026-21589)
+- [gotr00t0day/CVE-2026-21589](https://github.com/gotr00t0day/CVE-2026-21589)
 
 ### CVE-2026-21627 (2026-02-20)
 
@@ -7340,7 +7333,6 @@
 </code>
 
 - [HORKimhab/CVE-2026-27771](https://github.com/HORKimhab/CVE-2026-27771)
-- [portbuster1337/CVE-2026-27771](https://github.com/portbuster1337/CVE-2026-27771)
 
 ### CVE-2026-27778 (2026-03-05)
 
@@ -8960,13 +8952,6 @@
 
 - [pvharmo2/gha-lab-61c59f4acb](https://github.com/pvharmo2/gha-lab-61c59f4acb)
 
-### CVE-2026-33137 (2026-05-20)
-
-<code>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. XWiki Platform is a generic wiki platform. In versions starting with 15.10.6 and prior to 18.1.0-rc-1, 17.10.3, 17.4.9, and 16.10.17, the POST /wikis/{wikiName} API executes a XAR import without performing any authentication or authorization checks, allowing an unauthenticated attacker to create or update documents in the target wiki. This vulnerability has been patched in XWiki 16.10.17, 17.4.9, 17.10.3, 18.0.1 and 18.1.0-rc-1.
-</code>
-
-- [portbuster1337/CVE-2026-33137](https://github.com/portbuster1337/CVE-2026-33137)
-
 ### CVE-2026-33146 (2026-04-14)
 
 <code>Docmost is open-source collaborative wiki and documentation software. An authorization bypass vulnerability in versions 0.70.0 through 0.70.2 exposes restricted child page titles and text snippets through the public search endpoint (`POST /api/search/share-search`) for publicly shared content. This flaw allows unauthenticated users to enumerate and retrieve content that should remain hidden from public share viewers, leading to a confidentiality breach. Version 0.70.3 contains a patch.
@@ -9203,13 +9188,6 @@
 </code>
 
 - [pl4tyz/CVE-2026-33701-Unsafe-Deserialization-in-OpenTelemetry-Java-Agent-RMI-Instrumentation](https://github.com/pl4tyz/CVE-2026-33701-Unsafe-Deserialization-in-OpenTelemetry-Java-Agent-RMI-Instrumentation)
-
-### CVE-2026-33712 (2026-05-22)
-
-<code>Typebot is a chatbot builder tool. In versions 3.15.2 and prior, the preview chat endpoint (POST /api/v1/typebots/{typebotId}/preview/startChat) allows unauthenticated users to achieve Server-Side Request Forgery (SSRF) by supplying a custom typebot definition with server-side code blocks. The fetch function exposed inside the isolated-vm sandbox calls Node.js native fetch without the SSRF validation (validateHttpReqUrl) that protects the HTTP Request block. This bypasses all SSRF mitigations added after GHSA-8gq9-rw7v-3jpr. Exploitation of this unauthenticated SSRF vulnerability can lead to cloud credential theft, internal network access and data exfiltration for any self-hosted Typebot deployments and hosted services. This issue has been fixed in version 3.16.0.
-</code>
-
-- [portbuster1337/CVE-2026-33712](https://github.com/portbuster1337/CVE-2026-33712)
 
 ### CVE-2026-33715 (2026-04-14)
 
@@ -11679,6 +11657,8 @@
 - [GrandFuzard/redmi-13-5g-ghostlock-findings](https://github.com/GrandFuzard/redmi-13-5g-ghostlock-findings)
 - [zimza1abim/Root-My-Galaxy-Payloads-SM-S928N](https://github.com/zimza1abim/Root-My-Galaxy-Payloads-SM-S928N)
 - [d16ug-a1l/REDMI_Root](https://github.com/d16ug-a1l/REDMI_Root)
+- [cyrrp/honor90-ghostlock](https://github.com/cyrrp/honor90-ghostlock)
+- [tingao/debian-on-s23-ultra](https://github.com/tingao/debian-on-s23-ultra)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -11903,13 +11883,6 @@
 </code>
 
 - [isaca0315/CVE-2026-44351-poc](https://github.com/isaca0315/CVE-2026-44351-poc)
-
-### CVE-2026-44401 (2026-08-10)
-
-<code>Typemill CMS version 2.x contains a persistent cross-site scripting vulnerability in the Markdown parser extension that allows authenticated users with theme-configuration access to inject malicious JavaScript URIs by supplying unsanitized href values in Markdown links. Attackers can craft Markdown links using the javascript: scheme through ParsedownExtension.php or TwigMarkdownExtension.php, storing a persistent payload that executes in the browser of every visitor who clicks the link, enabling session cookie theft, authenticated request forgery, and credential harvesting.
-</code>
-
-- [sn0x-sharma/CVE-2026-44401](https://github.com/sn0x-sharma/CVE-2026-44401)
 
 ### CVE-2026-44402 (2026-09-04)
 
@@ -12402,13 +12375,6 @@
 </code>
 
 - [iwallplace/CVE-2026-46368-OpenWrt-Exploit](https://github.com/iwallplace/CVE-2026-46368-OpenWrt-Exploit)
-
-### CVE-2026-46376 (2026-05-29)
-
-<code>FreePBX is an open source IP PBX. From 15.0.42 to before 16.0.45 and 17.0.7, unauthenticated users may be able to access the User Control Panel (UCP) using hard-coded initial template credentials if these were not immediately changed by the Administrator who enabled UCP. Authenticated access to ACP is required for the initial setup of UCP generic templates, but after that, without further steps by the admin, unauthenticated users may be able to gain access. This vulnerability is fixed in 16.0.45 and 17.0.7.
-</code>
-
-- [portbuster1337/CVE-2026-46376](https://github.com/portbuster1337/CVE-2026-46376)
 
 ### CVE-2026-46391 (2026-06-05)
 
@@ -13544,6 +13510,13 @@
 ### CVE-2026-51992
 - [TheLiimbo/CVE-2026-51992](https://github.com/TheLiimbo/CVE-2026-51992)
 
+### CVE-2026-51994 (2026-09-24)
+
+<code>mcp-remote versions 0.1.32 through 0.1.38 are vulnerable to Server-Side Request Forgery (SSRF) via the resource_metadata URL extracted from a remote MCP server's WWW-Authenticate header
+</code>
+
+- [playb0t/mcp-remote-oauth-security](https://github.com/playb0t/mcp-remote-oauth-security)
+
 ### CVE-2026-52100 (2026-07-14)
 
 <code>Cross Site Request Forgery vulnerability in andreimarcu linux-server v.1.0 through v.2.3.8 allows a remote attacker to execute arbitrary code via the uploadPutHandler function
@@ -13641,13 +13614,6 @@
 </code>
 
 - [abraxas/CVE-2026-52782](https://github.com/abraxas/CVE-2026-52782)
-
-### CVE-2026-52806 (2026-06-24)
-
-<code>Gogs is an open source self-hosted Git service. Prior to 0.14.3, Gogs allows authenticated users to achieve Remote Code Execution (RCE) on the server by creating a pull request with a specially crafted branch name that injects the --exec flag into the git rebase command during the &quot;Rebase before merging&quot; merge operation. This vulnerability is fixed in 0.14.3.
-</code>
-
-- [portbuster1337/CVE-2026-52806](https://github.com/portbuster1337/CVE-2026-52806)
 
 ### CVE-2026-52810 (2026-06-24)
 
@@ -14469,13 +14435,6 @@
 </code>
 
 - [Is4yev/CVE-2026-57830](https://github.com/Is4yev/CVE-2026-57830)
-
-### CVE-2026-57850 (2026-07-10)
-
-<code>RustDesk before 1.4.9 does not enforce a session's authorized connection scope on the server side, so a peer granted a limited session type (FileTransfer, PortForward, ViewCamera, or Terminal) can send control messages and login options reserved for a full Remote session. An authenticated remote peer can exploit this missing scope check to act outside its granted scope, injecting out-of-scope control messages to observe and control the host beyond the permissions it was given.
-</code>
-
-- [sn0x-sharma/CVE-2026-57850](https://github.com/sn0x-sharma/CVE-2026-57850)
 
 ### CVE-2026-57851 (2026-07-07)
 
@@ -17584,6 +17543,13 @@
 
 - [Scyrix-LLC/CVE-2026-88773](https://github.com/Scyrix-LLC/CVE-2026-88773)
 
+### CVE-2026-88776 (2026-09-27)
+
+<code>Memory overflow vulnerability vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23  leading to unpredictable or erroneous behavior or Denial of Service
+</code>
+
+- [Scyrix-LLC/CVE-2026-88776](https://github.com/Scyrix-LLC/CVE-2026-88776)
+
 ### CVE-2026-88789 (2026-10-01)
 
 <code>Improper Restriction of XML External Entity Reference in the XSLT support extension (camel-quarkus-support-xalan) in Apache Camel Quarkus from 3.2.0 before 3.33.3 and from 3.34.0 before 3.40.0 on all platforms allows an attacker who supplies the XML document being transformed to read local files or issue requests to internal network locations via an external entity declaration in that document.\n\nThe extension supplies its own Xalan-backed TransformerFactory to the xslt component and registers it as the JAXP default. Xalan-J 2.7.x predates JAXP 1.5 and does not honour javax.xml.XMLConstants.ACCESS_EXTERNAL_DTD or ACCESS_EXTERNAL_STYLESHEET, so the external access restrictions Apache Camel applies to the TransformerFactory it creates were not in effect. On the xslt component path this affects message bodies that reach the transformer already as a javax.xml.transform.Source; bodies of other types are converted to a SAXSource by Apache Camel with external entities and external DTD loading disabled, and are not affected. Because the factory is also the JAXP default, other code in the application obtaining one through TransformerFactory.newInstance() loses the same restrictions without error.\n\nApplications are affected if they use any of camel-quarkus-xslt, camel-quarkus-xslt-saxon, camel-quarkus-tika or camel-quarkus-xmlsecurity, each of which brings the XSLT support extension onto the classpath. For all but camel-quarkus-xslt, the exposure is limited to the JAXP default factory, since those extensions do not perform XSLT transformations themselves.\n\nUsers are recommended to upgrade to version 3.33.3 or 3.40.0, which fixes this issue.
@@ -18492,6 +18458,18 @@
 </code>
 
 - [wvllxe/CVE-2026-104356-pictshare-weak-delete-code](https://github.com/wvllxe/CVE-2026-104356-pictshare-weak-delete-code)
+
+### CVE-2026-104584
+- [AmalJafarzade/CVE-2026-104584](https://github.com/AmalJafarzade/CVE-2026-104584)
+
+### CVE-2026-104585
+- [AmalJafarzade/CVE-2026-104585](https://github.com/AmalJafarzade/CVE-2026-104585)
+
+### CVE-2026-104586
+- [AmalJafarzade/CVE-2026-104586](https://github.com/AmalJafarzade/CVE-2026-104586)
+
+### CVE-2026-104587
+- [AmalJafarzade/CVE-2026-104587](https://github.com/AmalJafarzade/CVE-2026-104587)
 
 ### CVE-2026-104826
 - [KiwKNR/CVE-2026-104826](https://github.com/KiwKNR/CVE-2026-104826)
@@ -25028,6 +25006,13 @@
 </code>
 
 - [cppghoul/CVE-2025-34069](https://github.com/cppghoul/CVE-2025-34069)
+
+### CVE-2025-34071 (2025-07-02)
+
+<code>A remote code execution vulnerability in GFI Kerio Control 9.4.5 allows attackers with administrative access to upload and execute arbitrary code through the firmware upgrade feature. The system upgrade mechanism accepts unsigned .img files, which can be modified to include malicious scripts within the upgrade.sh or disk image components. These modified upgrade images are not validated for authenticity or integrity, and are executed by the system post-upload, enabling root access.
+</code>
+
+- [cppghoul/CVE-2025-34071](https://github.com/cppghoul/CVE-2025-34071)
 
 ### CVE-2025-34077 (2025-07-09)
 
@@ -82689,6 +82674,7 @@
 - [kloutkake/CVE-2017-5638-PoC](https://github.com/kloutkake/CVE-2017-5638-PoC)
 - [Xernary/CVE-2017-5638-POC](https://github.com/Xernary/CVE-2017-5638-POC)
 - [timothyjxhn/DeliberatelyVulnerableWebApp](https://github.com/timothyjxhn/DeliberatelyVulnerableWebApp)
+- [NAIRBS/SC3010-Grp-33](https://github.com/NAIRBS/SC3010-Grp-33)
 - [toothbrushsoapflannelbiscuits/cve-2017-5638](https://github.com/toothbrushsoapflannelbiscuits/cve-2017-5638)
 - [haxerr9/CVE-2017-5638](https://github.com/haxerr9/CVE-2017-5638)
 - [QHxDr-dz/CVE-2017-5638](https://github.com/QHxDr-dz/CVE-2017-5638)
@@ -89066,7 +89052,7 @@
 - [hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523)
 - [krill-x7/CVE-2011-2523](https://github.com/krill-x7/CVE-2011-2523)
 - [BolivarJ/CVE-2011-2523](https://github.com/BolivarJ/CVE-2011-2523)
-- [Maalfer/vsftpd-2.3.4-exploit](https://github.com/Maalfer/vsftpd-2.3.4-exploit)
+- [Maalfer/CVE-2011-2523-vsftpd-2.3.4-exploit](https://github.com/Maalfer/CVE-2011-2523-vsftpd-2.3.4-exploit)
 - [KlyneZyro/Metasploitable2-VAPT-Report](https://github.com/KlyneZyro/Metasploitable2-VAPT-Report)
 - [Mirza-22144/Vulnerability-Assessment-Exploitation-Lab](https://github.com/Mirza-22144/Vulnerability-Assessment-Exploitation-Lab)
 - [tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution](https://github.com/tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution)
