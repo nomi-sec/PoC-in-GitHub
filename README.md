@@ -7598,13 +7598,6 @@
 
 - [MichaelAdamGroberman/CVE-2026-28767](https://github.com/MichaelAdamGroberman/CVE-2026-28767)
 
-### CVE-2026-28775 (2026-03-04)
-
-<code>An unauthenticated Remote Code Execution (RCE) vulnerability exists in the SNMP service of International Datacasting Corporation (IDC) SFX Series SuperFlex SatelliteReceiver. The deployment insecurely provisions the `private` SNMP community string with read/write access by default. Because the SNMP agent runs as root, an unauthenticated remote attacker can utilize `NET-SNMP-EXTEND-MIB` directives, abusing the fact that the system runs a vulnerable version of net-snmp pre 5.8, to execute arbitrary operating system commands with root privileges.
-</code>
-
-- [Udyz/CVE-2026-28775](https://github.com/Udyz/CVE-2026-28775)
-
 ### CVE-2026-28797 (2026-04-03)
 
 <code>RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine. In versions 0.24.0 and prior, a Server-Side Template Injection (SSTI) vulnerability exists in RAGFlow's Agent workflow Text Processing (StringTransform) and Message components. These components use Python's jinja2.Template (unsandboxed) to render user-supplied templates, allowing any authenticated user to execute arbitrary operating system commands on the server. At time of publication, there are no publicly available patches.
@@ -11507,7 +11500,7 @@
 - [0xBlackash/CVE-2026-43499](https://github.com/0xBlackash/CVE-2026-43499)
 - [tc3650/CVE-2026-43499-armv7](https://github.com/tc3650/CVE-2026-43499-armv7)
 - [suominen/ghostlock](https://github.com/suominen/ghostlock)
-- [pubglite55/oppo-ghostlock](https://github.com/pubglite55/oppo-ghostlock)
+- [pubglite55/oppofindN2-ghostlock](https://github.com/pubglite55/oppofindN2-ghostlock)
 - [inforcqb/CVE-2026-43499-pja110](https://github.com/inforcqb/CVE-2026-43499-pja110)
 - [caspy123/CVE-2026-43499](https://github.com/caspy123/CVE-2026-43499)
 - [x-spy/CVE-2026-43499-popsicle](https://github.com/x-spy/CVE-2026-43499-popsicle)
@@ -11546,6 +11539,7 @@
 - [mumaosong/cve-2026-43499-CyberMeowfia](https://github.com/mumaosong/cve-2026-43499-CyberMeowfia)
 - [cuteaplane/GhostLock-for-OnePlus15T](https://github.com/cuteaplane/GhostLock-for-OnePlus15T)
 - [No-22-Github/UnPlus](https://github.com/No-22-Github/UnPlus)
+- [vn-ncvinh/CVE-2026-43499-OPPO-6.12.58](https://github.com/vn-ncvinh/CVE-2026-43499-OPPO-6.12.58)
 - [soralis0912/CVE-2026-43499-warhol-root](https://github.com/soralis0912/CVE-2026-43499-warhol-root)
 - [fusiondrive/CVE-2026-43499-S24U](https://github.com/fusiondrive/CVE-2026-43499-S24U)
 - [woshimaniubi8/CVE-2026-43499-root-KernelSU](https://github.com/woshimaniubi8/CVE-2026-43499-root-KernelSU)
@@ -15895,6 +15889,7 @@
 </code>
 
 - [1neptune/ShieldBreak](https://github.com/1neptune/ShieldBreak)
+- [maxprog-svg/CVE-2026-69414](https://github.com/maxprog-svg/CVE-2026-69414)
 
 ### CVE-2026-69451 (2026-09-08)
 
@@ -17161,6 +17156,13 @@
 
 - [ShadowForge-Cyber/CVE-2026-84388-POC](https://github.com/ShadowForge-Cyber/CVE-2026-84388-POC)
 
+### CVE-2026-84411 (2026-10-02)
+
+<code>The web management service in affected RouterOS versions contains an integer underflow in its HTTP request body handling that is reachable before authentication. This can be leveraged by an unauthenticated network attacker to achieve arbitrary code execution as root, or to cause a denial of service, using a single crafted request.
+</code>
+
+- [maxprog-svg/CVE-2026-84411](https://github.com/maxprog-svg/CVE-2026-84411)
+
 ### CVE-2026-84434 (2026-09-19)
 
 <code>The Gravity Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 3.1.0.4 via the upload_file function. This is due to a mismatch between the field validation pipeline and the file persistence pipeline, where hidden file upload fields bypass extension validation and a rejected file's intact upload state is later passed to upload_file() without re-validation. This makes it possible for unauthenticated attackers to upload files that may be executable, which makes remote code execution possible. Exploitation requires the targeted form to contain a File Upload field with its Visibility set to 'Hidden'; the vulnerability is reachable by unauthenticated attackers on any publicly accessible form meeting this condition.
@@ -17188,6 +17190,7 @@
 </code>
 
 - [jvidhan/autofs-cve-2026-84568](https://github.com/jvidhan/autofs-cve-2026-84568)
+- [redinpulse/CVE-2026-84568](https://github.com/redinpulse/CVE-2026-84568)
 
 ### CVE-2026-84600 (2026-09-14)
 
@@ -18585,7 +18588,11 @@
 
 - [murrez/CVE-2026-106445](https://github.com/murrez/CVE-2026-106445)
 
-### CVE-2026-106610
+### CVE-2026-106610 (2026-10-10)
+
+<code>Incorrect Privilege Assignment vulnerability in miniOrange miniorange otp verification miniorange-otp-verification allows Privilege Escalation.This issue affects miniorange otp verification: from n/a through 5.5.7.
+</code>
+
 - [KevineCharles/CVE-2026-106610-miniorange-otp-ato](https://github.com/KevineCharles/CVE-2026-106610-miniorange-otp-ato)
 
 ### CVE-2026-107181 (2026-10-07)
@@ -21001,6 +21008,13 @@
 </code>
 
 - [Nimisha17/Poc-CVE-2025-9519](https://github.com/Nimisha17/Poc-CVE-2025-9519)
+
+### CVE-2025-9548 (2025-10-15)
+
+<code>A potential null pointer dereference vulnerability was reported in the Lenovo Power Management Driver that could allow a local authenticated user to cause a Windows blue screen error.
+</code>
+
+- [CyberFrenchie/CVE-2025-9548](https://github.com/CyberFrenchie/CVE-2025-9548)
 
 ### CVE-2025-9728 (2025-08-31)
 
@@ -49822,7 +49836,6 @@
 - [AnvithLobo/CVE-2023-38646](https://github.com/AnvithLobo/CVE-2023-38646)
 - [Red4mber/CVE-2023-38646](https://github.com/Red4mber/CVE-2023-38646)
 - [junnythemarksman/CVE-2023-38646](https://github.com/junnythemarksman/CVE-2023-38646)
-- [Mrunalkaran/CVE-2023-38646](https://github.com/Mrunalkaran/CVE-2023-38646)
 - [j0yb0y0h/CVE-2023-38646](https://github.com/j0yb0y0h/CVE-2023-38646)
 - [Ego1stoo/CVE-2023-38646](https://github.com/Ego1stoo/CVE-2023-38646)
 - [0utl4nder/Another-Metabase-RCE-CVE-2023-38646](https://github.com/0utl4nder/Another-Metabase-RCE-CVE-2023-38646)
@@ -67537,6 +67550,7 @@
 - [CyberCTF/vulhub-log4j-cve-2021-44228](https://github.com/CyberCTF/vulhub-log4j-cve-2021-44228)
 - [ResoluteRacoons/log4-Java-logging-poc](https://github.com/ResoluteRacoons/log4-Java-logging-poc)
 - [hoangvvthu/CVE-2021-44228-Log4Shell-Lab](https://github.com/hoangvvthu/CVE-2021-44228-Log4Shell-Lab)
+- [Developer-Dynamo/cs50-cybersecurity-final-project](https://github.com/Developer-Dynamo/cs50-cybersecurity-final-project)
 
 ### CVE-2021-44255 (2022-01-31)
 
