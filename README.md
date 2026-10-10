@@ -10051,6 +10051,9 @@
 
 - [jfs-jfs/CVE-2026-37073](https://github.com/jfs-jfs/CVE-2026-37073)
 
+### CVE-2026-37107
+- [KyrieKlay/CVE-2026-37107](https://github.com/KyrieKlay/CVE-2026-37107)
+
 ### CVE-2026-37149 (2026-06-25)
 
 <code>GROCERY-STORE-MANAGEMENT-SYSTEM-USING-PHP-AND-MYSQL-PHPMYADMIN v1.0 was discovered to contain a SQL injection vulnerability in the scost parameter in /grocery/search_products.php. This vulnerability allows attackers to access sensitive database information via a crafted SQL statement.
@@ -17239,6 +17242,13 @@
 
 - [SneakyNachos/CVE-2026-85048-the-gpu-died](https://github.com/SneakyNachos/CVE-2026-85048-the-gpu-died)
 
+### CVE-2026-85097 (2026-10-08)
+
+<code>The Bricksforge plugin for WordPress is vulnerable to unauthenticated arbitrary file upload in versions up to, and including, 3.1.8.9. This is due to insufficient validation of the attacker-controlled URL field in the 'temporaryFileUploads' parameter during form submission. An unauthenticated attacker can first obtain a valid nonce via the bricksforge_regenerate_nonce AJAX endpoint, then upload a GIF/PHP polyglot file to the temporary upload directory where MIME type validation is correctly performed. Subsequently, the attacker can submit a form with a crafted 'temporaryFileUploads' parameter where the server-side file path points to the validated GIF file, but the attacker-controlled url field ends with a .php extension. This makes it possible for unauthenticated attackers to upload and execute arbitrary PHP code on the server.
+</code>
+
+- [Wayang1337/CVE-2026-85097](https://github.com/Wayang1337/CVE-2026-85097)
+
 ### CVE-2026-85102 (2026-09-09)
 
 <code>Improper certificate trust validation during VPN negotiation in Check Point Quantum Security Gateway may allow an unauthenticated remote attacker to execute arbitrary code on the Gateway.
@@ -17876,6 +17886,7 @@
 
 - [scastillo-jp/braces-fork](https://github.com/scastillo-jp/braces-fork)
 - [pillarsdotnet/node-braces](https://github.com/pillarsdotnet/node-braces)
+- [BernydotJar/braces-security-backport](https://github.com/BernydotJar/braces-security-backport)
 
 ### CVE-2026-93834 (2026-09-25)
 
@@ -17941,6 +17952,13 @@
 </code>
 
 - [murrez/CVE-2026-94132](https://github.com/murrez/CVE-2026-94132)
+
+### CVE-2026-94503 (2026-10-09)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in PX-lab Zombify zombify allows Upload a Web Shell to a Web Server.This issue affects Zombify: from n/a through 1.7.7.
+</code>
+
+- [Wayang1337/CVE-2026-94503](https://github.com/Wayang1337/CVE-2026-94503)
 
 ### CVE-2026-94541 (2026-10-02)
 
@@ -18455,6 +18473,7 @@
 
 - [ShadowForge-Cyber/CVE-2026-104286-POC](https://github.com/ShadowForge-Cyber/CVE-2026-104286-POC)
 - [techupdate24/fortimail-zero-day-cve-2026-104286](https://github.com/techupdate24/fortimail-zero-day-cve-2026-104286)
+- [kh20134/fortimail-cve-2026-104286-response](https://github.com/kh20134/fortimail-cve-2026-104286-response)
 
 ### CVE-2026-104356 (2026-10-01)
 
@@ -18793,7 +18812,7 @@
 </code>
 
 - [FWNavy/RMASmoke](https://github.com/FWNavy/RMASmoke)
-- [IsolatedAnarchy/RMASmoke-v2](https://github.com/IsolatedAnarchy/RMASmoke-v2)
+- [MCRideable3963/RMASmoke-v2](https://github.com/MCRideable3963/RMASmoke-v2)
 - [MCRideable3963/exploit-docs](https://github.com/MCRideable3963/exploit-docs)
 
 ### CVE-2025-1219 (2025-03-30)
@@ -33264,6 +33283,7 @@
 - [yuimamur/CVE-2024-4367-hands-on-01](https://github.com/yuimamur/CVE-2024-4367-hands-on-01)
 - [stuara1/cpc-pdfjs-poc](https://github.com/stuara1/cpc-pdfjs-poc)
 - [weae26/cve-2024-4367-poc](https://github.com/weae26/cve-2024-4367-poc)
+- [lewiskb/Docker-Lab-CVE-2024-4367](https://github.com/lewiskb/Docker-Lab-CVE-2024-4367)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -63464,6 +63484,7 @@
 <code>Remote Access API Elevation of Privilege Vulnerability
 </code>
 
+- [songjianyang/CVE-2021-26882](https://github.com/songjianyang/CVE-2021-26882)
 - [taiji-xo/CVE-2021-26882](https://github.com/taiji-xo/CVE-2021-26882)
 
 ### CVE-2021-26903 (2021-02-26)
