@@ -11478,7 +11478,6 @@
 - [Minime794/DirtyFrag](https://github.com/Minime794/DirtyFrag)
 - [mhdnihan/CVE-2026-43284-DIRTY-FRAG-](https://github.com/mhdnihan/CVE-2026-43284-DIRTY-FRAG-)
 - [a2333c/DFRoot](https://github.com/a2333c/DFRoot)
-- [coey0814/DirtyFrag-Galaxy](https://github.com/coey0814/DirtyFrag-Galaxy)
 - [ankitrawatgit/DirtyFrag-Android-Root-Jailbreak](https://github.com/ankitrawatgit/DirtyFrag-Android-Root-Jailbreak)
 - [HirokiAkihiko/dirtyfrag-research](https://github.com/HirokiAkihiko/dirtyfrag-research)
 
@@ -11633,7 +11632,6 @@
 - [huaguiqi/asus-i005-cve-2026-43499](https://github.com/huaguiqi/asus-i005-cve-2026-43499)
 - [imeiplus/ghostlock-pfem10](https://github.com/imeiplus/ghostlock-pfem10)
 - [anksgls-sj/-Help-vivo-Y200i-5.10.218-GKI-CVE-2026-43499-stack-reclaim-reaches-0x300-need-0x318](https://github.com/anksgls-sj/-Help-vivo-Y200i-5.10.218-GKI-CVE-2026-43499-stack-reclaim-reaches-0x300-need-0x318)
-- [coey0814/Fold8-Ultra-Root-F976N](https://github.com/coey0814/Fold8-Ultra-Root-F976N)
 - [TheAndersMadsen/humane-aipin-ghostlock](https://github.com/TheAndersMadsen/humane-aipin-ghostlock)
 - [deancyl/s9180-rootmygalaxy](https://github.com/deancyl/s9180-rootmygalaxy)
 - [MKE84/neo8-ghostlock-adaptation](https://github.com/MKE84/neo8-ghostlock-adaptation)
@@ -12028,7 +12026,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-44963](https://github.com/HORKimhab/CVE-2026-44963)
-- [SentinelXofficial/CVE-2026-44963](https://github.com/SentinelXofficial/CVE-2026-44963)
+- [jockerjml/CVE-2026-44963-veeam-checker](https://github.com/jockerjml/CVE-2026-44963-veeam-checker)
 
 ### CVE-2026-45033 (2026-05-13)
 
@@ -14919,7 +14917,6 @@
 - [joaovicdev/EXPLOIT-CVE-2026-63030](https://github.com/joaovicdev/EXPLOIT-CVE-2026-63030)
 - [0xjessie21/wp2shell-checker](https://github.com/0xjessie21/wp2shell-checker)
 - [Iqbalx7/wp2shell](https://github.com/Iqbalx7/wp2shell)
-- [SentinelXofficial/sxwp2shell](https://github.com/SentinelXofficial/sxwp2shell)
 - [GhostInExile/CVE-2026-63030-Wp2Shell](https://github.com/GhostInExile/CVE-2026-63030-Wp2Shell)
 - [lucifer0xf/wp2shell-Wordpress-TOWN](https://github.com/lucifer0xf/wp2shell-Wordpress-TOWN)
 - [Ch4120N/CVE-2026-63030](https://github.com/Ch4120N/CVE-2026-63030)
@@ -17167,6 +17164,13 @@
 
 - [murrez/CVE-2026-84434](https://github.com/murrez/CVE-2026-84434)
 
+### CVE-2026-84520 (2026-09-14)
+
+<code>A buffer overflow was addressed with improved size validation. This issue is fixed in macOS Golden Gate 27. A local attacker may be able to cause unexpected system termination or corrupt kernel memory.
+</code>
+
+- [csrXamfi/CVE-2026-84520](https://github.com/csrXamfi/CVE-2026-84520)
+
 ### CVE-2026-84543 (2026-09-14)
 
 <code>An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7. Connecting to a malicious SMB server may cause unexpected system termination or corrupt kernel memory.
@@ -18542,6 +18546,13 @@
 
 ### CVE-2026-106610
 - [KevineCharles/CVE-2026-106610-miniorange-otp-ato](https://github.com/KevineCharles/CVE-2026-106610-miniorange-otp-ato)
+
+### CVE-2026-107181 (2026-10-07)
+
+<code>Telegram Desktop before 7.2.9 contains an IPC record-separator injection vulnerability in Core::Sandbox that allows remote attackers to inject OPEN: records via crafted tg:// links containing unescaped semicolons. Attackers can reach the interpret: scheme handler to upload local files, including tdata session keys, to an attacker channel, enabling account takeover.
+</code>
+
+- [SeanDishman/telegram-cve-2026-107181](https://github.com/SeanDishman/telegram-cve-2026-107181)
 
 ### CVE-2026-107268
 - [yuwkaaa/CVE-2026-107268](https://github.com/yuwkaaa/CVE-2026-107268)
@@ -24162,6 +24173,7 @@
 - [Ritinify/CVE-2025-29927-PoC](https://github.com/Ritinify/CVE-2025-29927-PoC)
 - [vulnace/CVE-2025-29927](https://github.com/vulnace/CVE-2025-29927)
 - [sungue1/CVE-2025-29927](https://github.com/sungue1/CVE-2025-29927)
+- [gadaugherty/larkspur-billing](https://github.com/gadaugherty/larkspur-billing)
 
 ### CVE-2025-29943 (2026-01-16)
 
@@ -28382,7 +28394,6 @@
 - [Alejandro609x/JEFAZO-CVE-2025-55182-Checker](https://github.com/Alejandro609x/JEFAZO-CVE-2025-55182-Checker)
 - [olezhaku/react2shell-toolkit](https://github.com/olezhaku/react2shell-toolkit)
 - [cc3305/CVE-2025-55182](https://github.com/cc3305/CVE-2025-55182)
-- [SentinelXofficial/CVE-2025-55182](https://github.com/SentinelXofficial/CVE-2025-55182)
 - [Fomovet/cve-2025-55182](https://github.com/Fomovet/cve-2025-55182)
 - [avoidme12/CVE-2025-55182-POC](https://github.com/avoidme12/CVE-2025-55182-POC)
 - [litndat/React2Shell-PoC-CVE-2025-55182](https://github.com/litndat/React2Shell-PoC-CVE-2025-55182)
@@ -31335,7 +31346,7 @@
 - [JohannesLks/CVE-2025-68613-Python-Exploit](https://github.com/JohannesLks/CVE-2025-68613-Python-Exploit)
 - [hackersatyamrastogi/n8n-exploit-CVE-2025-68613-n8n-God-Mode-Ultimate](https://github.com/hackersatyamrastogi/n8n-exploit-CVE-2025-68613-n8n-God-Mode-Ultimate)
 - [mbanyamer/n8n-Authenticated-Expression-Injection-RCE-CVE-2025-68613](https://github.com/mbanyamer/n8n-Authenticated-Expression-Injection-RCE-CVE-2025-68613)
-- [releaseown/Analysis-And-POC-N8N-CVE-2025-68613](https://github.com/releaseown/Analysis-And-POC-N8N-CVE-2025-68613)
+- [RianJuniorSf/Analysis-And-POC-N8N-CVE-2025-68613](https://github.com/RianJuniorSf/Analysis-And-POC-N8N-CVE-2025-68613)
 - [Dlanang/homelab-CVE-2025-68613](https://github.com/Dlanang/homelab-CVE-2025-68613)
 - [Khin-96/n8n-cve-2025-68613-thm](https://github.com/Khin-96/n8n-cve-2025-68613-thm)
 - [J4ck3LSyN-Gen2/n8n-CVE-2025-68613-TryHackMe](https://github.com/J4ck3LSyN-Gen2/n8n-CVE-2025-68613-TryHackMe)
@@ -37694,7 +37705,7 @@
 - [Marven11/CVE-2024-28397-js2py-Sandbox-Escape](https://github.com/Marven11/CVE-2024-28397-js2py-Sandbox-Escape)
 - [CYBER-WARRIOR-SEC/CVE-2024-28397-js2py-Sandbox-Escape](https://github.com/CYBER-WARRIOR-SEC/CVE-2024-28397-js2py-Sandbox-Escape)
 - [GhostOverflow/CVE-2024-28397-command-execution-poc](https://github.com/GhostOverflow/CVE-2024-28397-command-execution-poc)
-- [releaseown/exploit-js2py](https://github.com/releaseown/exploit-js2py)
+- [RianJuniorSf/exploit-js2py](https://github.com/RianJuniorSf/exploit-js2py)
 - [harutomo-jp/CVE-2024-28397-RCE](https://github.com/harutomo-jp/CVE-2024-28397-RCE)
 - [Naved124/CVE-2024-28397-js2py-Sandbox-Escape](https://github.com/Naved124/CVE-2024-28397-js2py-Sandbox-Escape)
 - [Udayveer17/Remote-Code-Execution-CVE-2024-28397-pyload-ng-js2py-](https://github.com/Udayveer17/Remote-Code-Execution-CVE-2024-28397-pyload-ng-js2py-)
@@ -83871,6 +83882,7 @@
 - [Fa1c0n35/CVE-2017-12615](https://github.com/Fa1c0n35/CVE-2017-12615)
 - [netw0rk7/CVE-2017-12615-Home-Lab](https://github.com/netw0rk7/CVE-2017-12615-Home-Lab)
 - [CyberCTF/vulhub-tomcat-cve-2017-12615](https://github.com/CyberCTF/vulhub-tomcat-cve-2017-12615)
+- [nouhaila2030/apache-tomcat-security-audit](https://github.com/nouhaila2030/apache-tomcat-security-audit)
 
 ### CVE-2017-12617 (2017-10-03)
 
