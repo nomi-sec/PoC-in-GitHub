@@ -7283,6 +7283,7 @@
 
 - [0xh7ml/CVE-2026-27626-PoC](https://github.com/0xh7ml/CVE-2026-27626-PoC)
 - [abdelhakimgaferNetworkSec/Enigm-Writeup](https://github.com/abdelhakimgaferNetworkSec/Enigm-Writeup)
+- [Shisones/CVE-2026-27626](https://github.com/Shisones/CVE-2026-27626)
 
 ### CVE-2026-27636 (2026-02-25)
 
@@ -10573,6 +10574,13 @@
 </code>
 
 - [learner202649/CVE-2026-40217-PoC](https://github.com/learner202649/CVE-2026-40217-PoC)
+
+### CVE-2026-40224 (2026-04-10)
+
+<code>In systemd 259 before 260, there is local privilege escalation in systemd-machined because varlink can be used to reach the root namespace.
+</code>
+
+- [0xparad0x/Exploit-CVE-2026-40224](https://github.com/0xparad0x/Exploit-CVE-2026-40224)
 
 ### CVE-2026-40261 (2026-04-15)
 
@@ -18616,6 +18624,7 @@
 
 - [techupdate24/citrix-netscaler-rce-cve-2026-107406](https://github.com/techupdate24/citrix-netscaler-rce-cve-2026-107406)
 - [ApexBreach/CVE-2026-107406-Poc](https://github.com/ApexBreach/CVE-2026-107406-Poc)
+- [ctroy999/CVE-2026-107406](https://github.com/ctroy999/CVE-2026-107406)
 
 ### CVE-2026-107806 (2026-10-09)
 
@@ -22175,13 +22184,6 @@
 </code>
 
 - [ahmedreda38/CVE-2025-15276-poc](https://github.com/ahmedreda38/CVE-2025-15276-poc)
-
-### CVE-2025-15368 (2026-02-04)
-
-<code>The SportsPress plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.7.26 via shortcodes 'template_name' attribute. This makes it possible for authenticated attackers, with contributor-level and above permissions, to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where php file type can be uploaded and included.
-</code>
-
-- [kazehere4you/CVE-2025-15368-Exploit](https://github.com/kazehere4you/CVE-2025-15368-Exploit)
 
 ### CVE-2025-15403 (2026-01-17)
 
@@ -34279,7 +34281,6 @@
 </code>
 
 - [mistymntncop/CVE-2024-7971](https://github.com/mistymntncop/CVE-2024-7971)
-- [pepoc3/cve-2024-7971-poc](https://github.com/pepoc3/cve-2024-7971-poc)
 
 ### CVE-2024-7985 (2024-10-29)
 
