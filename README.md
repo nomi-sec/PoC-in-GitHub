@@ -5265,13 +5265,6 @@
 
 - [MohaBars/CVE-2026-21986-VirtualBox-DoS](https://github.com/MohaBars/CVE-2026-21986-VirtualBox-DoS)
 
-### CVE-2026-21994 (2026-03-17)
-
-<code>Vulnerability in the Oracle Edge Cloud Infrastructure Designer and Visualisation Toolkit product of Oracle Open Source Projects (component: Desktop).   The supported version that is affected is 0.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Edge Cloud Infrastructure Designer and Visualisation Toolkit.  Successful attacks of this vulnerability can result in takeover of Oracle Edge Cloud Infrastructure Designer and Visualisation Toolkit. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
-</code>
-
-- [g0w6y/CVE-2026-21994](https://github.com/g0w6y/CVE-2026-21994)
-
 ### CVE-2026-22001 (2026-04-21)
 
 <code>Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Information Schema).  Supported versions that are affected are 8.0.0-8.0.45, 8.4.0-8.4.8 and  9.0.0-9.6.0. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of MySQL Server accessible data. CVSS 3.1 Base Score 2.7 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N).
@@ -10232,6 +10225,7 @@
 </code>
 
 - [jjcjgo/CVE-2026-38812-RuoYi-SQL-Injection](https://github.com/jjcjgo/CVE-2026-38812-RuoYi-SQL-Injection)
+- [YYF1337/RuoYi-CVE-2026-38812-UNFIX](https://github.com/YYF1337/RuoYi-CVE-2026-38812-UNFIX)
 
 ### CVE-2026-38934 (2026-04-27)
 
@@ -11655,6 +11649,7 @@
 - [d16ug-a1l/REDMI_Root](https://github.com/d16ug-a1l/REDMI_Root)
 - [cyrrp/honor90-ghostlock](https://github.com/cyrrp/honor90-ghostlock)
 - [tingao/debian-on-s23-ultra](https://github.com/tingao/debian-on-s23-ultra)
+- [villager1314/CVE-2026-43499-Analysis](https://github.com/villager1314/CVE-2026-43499-Analysis)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -11773,6 +11768,7 @@
 </code>
 
 - [WTCYJ/CVE-2026-43805-analysis](https://github.com/WTCYJ/CVE-2026-43805-analysis)
+- [whysocscs/CVE-2026-43805](https://github.com/whysocscs/CVE-2026-43805)
 
 ### CVE-2026-43813 (2026-07-27)
 
@@ -18494,6 +18490,13 @@
 - [techupdate24/fortimail-zero-day-cve-2026-104286](https://github.com/techupdate24/fortimail-zero-day-cve-2026-104286)
 - [kh20134/fortimail-cve-2026-104286-response](https://github.com/kh20134/fortimail-cve-2026-104286-response)
 
+### CVE-2026-104335 (2026-10-06)
+
+<code>IBM Langflow OSS 1.0.0 through 1.12.2 could allow a remote authenticated attacker to execute arbitrary code due to improper access control.
+</code>
+
+- [Farih123/CVE-2026-104335](https://github.com/Farih123/CVE-2026-104335)
+
 ### CVE-2026-104356 (2026-10-01)
 
 <code>PictShare before version 3.7.1 contains a weak randomness vulnerability where the getRandomString() function uses the non-cryptographic rand() PRNG to generate the delete_code authorization token in src/inc/core.php. Attackers can predict or infer the PRNG state to guess valid delete_code values and perform unauthorized deletion of hosted files without needing to read the code from the info endpoint.
@@ -22367,6 +22370,13 @@
 
 - [x0jac0b0x/skullcandy-dime3-cve-2025-20701](https://github.com/x0jac0b0x/skullcandy-dime3-cve-2025-20701)
 
+### CVE-2025-20730 (2025-11-04)
+
+<code>In preloader, there is a possible escalation of privilege due to an insecure default value. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: ALPS10068463; Issue ID: MSV-4141.
+</code>
+
+- [ELF-RC/mtk_logo_toolkit](https://github.com/ELF-RC/mtk_logo_toolkit)
+
 ### CVE-2025-21042 (2025-09-12)
 
 <code>Out-of-bounds write in libimagecodec.quram.so prior to SMR Apr-2025 Release 1 allows remote attackers to execute arbitrary code.
@@ -23117,6 +23127,7 @@
 - [SebastianMautner/nuclei-CVE-2025-24813](https://github.com/SebastianMautner/nuclei-CVE-2025-24813)
 - [Si13NTTT/CVE-2025-24813](https://github.com/Si13NTTT/CVE-2025-24813)
 - [HwangEojin/CVE-2025-24813-Tomcat11-Lab](https://github.com/HwangEojin/CVE-2025-24813-Tomcat11-Lab)
+- [toyplan/cve-2025-24813](https://github.com/toyplan/cve-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -29205,6 +29216,7 @@
 - [donggle0802-code/cve-2025-57819](https://github.com/donggle0802-code/cve-2025-57819)
 - [kelltich-756/FreePBX-Breaker](https://github.com/kelltich-756/FreePBX-Breaker)
 - [foxcornlab/freepbx-rce-detector](https://github.com/foxcornlab/freepbx-rce-detector)
+- [Wayang1337/CVE-2025-57819](https://github.com/Wayang1337/CVE-2025-57819)
 
 ### CVE-2025-57833 (2025-09-03)
 
@@ -45474,6 +45486,7 @@
 
 - [kasnria001/pwnage24mtk](https://github.com/kasnria001/pwnage24mtk)
 - [wzy114514sb/pwnage24mtk](https://github.com/wzy114514sb/pwnage24mtk)
+- [ELF-RC/mtk_logo_toolkit](https://github.com/ELF-RC/mtk_logo_toolkit)
 
 ### CVE-2023-20768 (2023-07-04)
 
