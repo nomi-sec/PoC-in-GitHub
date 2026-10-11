@@ -7676,6 +7676,7 @@
 - [lucastran05/CVE-2026-29000](https://github.com/lucastran05/CVE-2026-29000)
 - [dua2z3rr/CVE-2026-29000-PoC](https://github.com/dua2z3rr/CVE-2026-29000-PoC)
 - [xiaoqiMikko/pac4j-check](https://github.com/xiaoqiMikko/pac4j-check)
+- [Erikgavs/CVE-2026-29000](https://github.com/Erikgavs/CVE-2026-29000)
 
 ### CVE-2026-29041 (2026-03-06)
 
@@ -11030,7 +11031,6 @@
 - [imbas007/POC_CVE-2026-41940](https://github.com/imbas007/POC_CVE-2026-41940)
 - [tfawnies/CVE-2026-41940-next](https://github.com/tfawnies/CVE-2026-41940-next)
 - [Underh0st/CPanel-Audit-Remediation-Tool](https://github.com/Underh0st/CPanel-Audit-Remediation-Tool)
-- [zwanski2019/cPanelSniper](https://github.com/zwanski2019/cPanelSniper)
 - [habibkaratas/sorry-ransomware-analysis](https://github.com/habibkaratas/sorry-ransomware-analysis)
 - [sercanokur/CVE-2026-41940-cPanel-WHM-Verification-Tool](https://github.com/sercanokur/CVE-2026-41940-cPanel-WHM-Verification-Tool)
 - [nickpaulsec/2026-41940-poc](https://github.com/nickpaulsec/2026-41940-poc)
@@ -11066,6 +11066,7 @@
 - [Xrzmodz444/cve-2026-41940-PoC-Linux](https://github.com/Xrzmodz444/cve-2026-41940-PoC-Linux)
 - [hitechcloud-vietnam/cve-2026-41940-PoC](https://github.com/hitechcloud-vietnam/cve-2026-41940-PoC)
 - [ZeroDayEvil/CVE-2026-41940-PoC](https://github.com/ZeroDayEvil/CVE-2026-41940-PoC)
+- [sakidekin/CVE-2026-41940-PoC](https://github.com/sakidekin/CVE-2026-41940-PoC)
 
 ### CVE-2026-42031 (2026-05-13)
 
@@ -11407,6 +11408,7 @@
 - [Kentox493/CVE-2026-42945_NginxRift](https://github.com/Kentox493/CVE-2026-42945_NginxRift)
 - [FranklinF25/cve-2026-42945](https://github.com/FranklinF25/cve-2026-42945)
 - [porcumarcooo/THM-CVE-2026-42945-Nginx-Rift-Exploit](https://github.com/porcumarcooo/THM-CVE-2026-42945-Nginx-Rift-Exploit)
+- [rune42/ElasticRift](https://github.com/rune42/ElasticRift)
 
 ### CVE-2026-42978 (2026-06-09)
 
@@ -11658,6 +11660,7 @@
 - [cyrrp/honor90-ghostlock](https://github.com/cyrrp/honor90-ghostlock)
 - [tingao/debian-on-s23-ultra](https://github.com/tingao/debian-on-s23-ultra)
 - [villager1314/CVE-2026-43499-Analysis](https://github.com/villager1314/CVE-2026-43499-Analysis)
+- [OhMyDitzzy/GhostLock-Next](https://github.com/OhMyDitzzy/GhostLock-Next)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -17538,7 +17541,6 @@
 
 - [watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771)
 - [technion/netscaler_scanner](https://github.com/technion/netscaler_scanner)
-- [EXEcution-py/CVE-2026-88771-POC](https://github.com/EXEcution-py/CVE-2026-88771-POC)
 - [craigsblackie/cve-2026-88771-netscaler](https://github.com/craigsblackie/cve-2026-88771-netscaler)
 - [ThomasPoppelgaard/netscaler-ctx697096-checker](https://github.com/ThomasPoppelgaard/netscaler-ctx697096-checker)
 - [techupdate24/citrix-netscaler-cve-2026-88771-rce](https://github.com/techupdate24/citrix-netscaler-cve-2026-88771-rce)
@@ -18497,6 +18499,7 @@
 - [ShadowForge-Cyber/CVE-2026-104286-POC](https://github.com/ShadowForge-Cyber/CVE-2026-104286-POC)
 - [techupdate24/fortimail-zero-day-cve-2026-104286](https://github.com/techupdate24/fortimail-zero-day-cve-2026-104286)
 - [kh20134/fortimail-cve-2026-104286-response](https://github.com/kh20134/fortimail-cve-2026-104286-response)
+- [0xREBYTE/CVE-2026-104286-PoC](https://github.com/0xREBYTE/CVE-2026-104286-PoC)
 
 ### CVE-2026-104335 (2026-10-06)
 
@@ -18575,6 +18578,13 @@
 </code>
 
 - [abraxas/cve-2026-105221-gist-tls](https://github.com/abraxas/cve-2026-105221-gist-tls)
+
+### CVE-2026-105306 (2026-10-05)
+
+<code>A flaw was found in the Dynamic Client Registration flow of the Keycloak identity and access management server. The issue occurs because the registration process fails to filter security-sensitive client attributes when a new client is created. An attacker with a valid Initial Access Token can register a client that bypasses audience checks during token introspection. This allows the attacker to view sensitive identity information, roles, and session details from access tokens belonging to other applications in the same realm.
+</code>
+
+- [Dungsocool/CVE-2026-105306](https://github.com/Dungsocool/CVE-2026-105306)
 
 ### CVE-2026-105314 (2026-10-05)
 
@@ -28509,6 +28519,7 @@
 - [OhSoomin812/cve-2025-55182-ctf](https://github.com/OhSoomin812/cve-2025-55182-ctf)
 - [Frizzardsecurity/CVE-2025-55182](https://github.com/Frizzardsecurity/CVE-2025-55182)
 - [foxcornlab/react2shell-scanner](https://github.com/foxcornlab/react2shell-scanner)
+- [M4rc3l08/ReactorWriteUp-HackTheBox](https://github.com/M4rc3l08/ReactorWriteUp-HackTheBox)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -36107,13 +36118,6 @@
 </code>
 
 - [SpiralBL0CK/cve-2024-22017_to_test](https://github.com/SpiralBL0CK/cve-2024-22017_to_test)
-
-### CVE-2024-22019 (2024-02-20)
-
-<code>A vulnerability in Node.js HTTP servers allows an attacker to send a specially crafted HTTP request with chunked encoding, leading to resource exhaustion and denial of service (DoS). The server reads an unbounded number of bytes from a single connection, exploiting the lack of limitations on chunk extension bytes. The issue can cause CPU and network bandwidth exhaustion, bypassing standard safeguards like timeouts and body size limits.
-</code>
-
-- [kos2001/code-shield](https://github.com/kos2001/code-shield)
 
 ### CVE-2024-22024 (2024-02-13)
 
@@ -44917,6 +44921,13 @@
 </code>
 
 - [Ylarod/CVE-2023-5521](https://github.com/Ylarod/CVE-2023-5521)
+
+### CVE-2023-5536 (2023-12-12)
+
+<code>A feature in LXD (LP#1829071), affects the default configuration of Ubuntu Server which allows privileged users in the lxd group to escalate their privilege to root without requiring a sudo password.
+</code>
+
+- [karthikparambil/lxd2root](https://github.com/karthikparambil/lxd2root)
 
 ### CVE-2023-5538 (2023-10-18)
 
