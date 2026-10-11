@@ -18339,6 +18339,7 @@
 </code>
 
 - [murrez/CVE-2026-102428](https://github.com/murrez/CVE-2026-102428)
+- [MRdark-ops/sqli-cve-2026-102428](https://github.com/MRdark-ops/sqli-cve-2026-102428)
 
 ### CVE-2026-102489 (2026-09-30)
 
@@ -18619,6 +18620,13 @@
 </code>
 
 - [murrez/CVE-2026-107806](https://github.com/murrez/CVE-2026-107806)
+
+### CVE-2026-108592 (2026-10-10)
+
+<code>mini-swe-agent 1.10.0 through 2.4.6 contains an information exposure vulnerability in BubblewrapEnvironment because bwrap omits --clearenv, so sandboxed commands inherit the host environment. Attackers using prompt injection in processed task content can make the agent read API keys from the environment and exfiltrate them over the shared network.
+</code>
+
+- [asvorg/CVE-2026-108592-poc](https://github.com/asvorg/CVE-2026-108592-poc)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -31786,6 +31794,13 @@
 </code>
 
 - [alkimcoskun/CVE-2025-69848-security-advisories](https://github.com/alkimcoskun/CVE-2025-69848-security-advisories)
+
+### CVE-2025-69872 (2026-02-11)
+
+<code>DiskCache (python-diskcache) through 5.6.3 uses Python pickle for serialization by default. An attacker with write access to the cache directory can achieve arbitrary code execution when a victim application reads from the cache.
+</code>
+
+- [secondwindoss/diskcache-community](https://github.com/secondwindoss/diskcache-community)
 
 ### CVE-2025-69906 (2026-02-05)
 
@@ -74550,6 +74565,7 @@
 - [Begitdj/cve-2019-2215-markw](https://github.com/Begitdj/cve-2019-2215-markw)
 - [saaedimam/sony-bravia-root-toolkit](https://github.com/saaedimam/sony-bravia-root-toolkit)
 - [WJNKAC/cve-2019-2215-oppo-a77t](https://github.com/WJNKAC/cve-2019-2215-oppo-a77t)
+- [FDLAlfrid/odin-od105-devkit](https://github.com/FDLAlfrid/odin-od105-devkit)
 
 ### CVE-2019-2525 (2019-01-16)
 
