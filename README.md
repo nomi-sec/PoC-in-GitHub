@@ -3533,6 +3533,13 @@
 
 - [TheMalwareGuardian/CVE-2026-13043](https://github.com/TheMalwareGuardian/CVE-2026-13043)
 
+### CVE-2026-13078 (2026-07-22)
+
+<code>A vulnerability was discovered in MongoDB Server where the server-side MozJS scripting engine unconditionally registered a module loading hook that enables JavaScript calls to read arbitrary files from the host filesystem using the mongod process's privileges. An authenticated user could exploit this through crafted aggregation pipeline commands to read sensitive files accessible to the MongoDB server process.
+</code>
+
+- [0xad3m/CVE-2026-13078-POC](https://github.com/0xad3m/CVE-2026-13078-POC)
+
 ### CVE-2026-13152 (2026-07-27)
 
 <code>The Custom Fields Account Registration For Woocommerce WordPress plugin before 1.4 does not prevent its custom registration fields from writing to the user capabilities meta key on sites that use a non-default database table prefix, so an unauthenticated user who registers an account can be granted the administrator role when a correspondingly named field has been configured.
@@ -6055,7 +6062,6 @@
 <code>Improper Neutralization of Special Elements used in a SQL Command ('SQL Injection') vulnerability in Apache Superset allows an authenticated user with read access to conduct error-based SQL injection via the sqlExpression or where parameters.\n\nThis issue affects Apache Superset: before 6.0.0.\n\nUsers are recommended to upgrade to version 6.0.0, which fixes the issue.
 </code>
 
-- [oscar-mine/CVE-2026-23980-Exploit](https://github.com/oscar-mine/CVE-2026-23980-Exploit)
 - [hyphenTBG/CVE-2026-23980](https://github.com/hyphenTBG/CVE-2026-23980)
 
 ### CVE-2026-23989 (2026-02-06)
@@ -8891,7 +8897,6 @@
 - [z4yd3/PoC-CVE-2026-33017](https://github.com/z4yd3/PoC-CVE-2026-33017)
 - [EQSTLab/CVE-2026-33017](https://github.com/EQSTLab/CVE-2026-33017)
 - [masterwok/PoC-CVE-2026-33017](https://github.com/masterwok/PoC-CVE-2026-33017)
-- [oscar-mine/CVE-2026-33017-Exploit](https://github.com/oscar-mine/CVE-2026-33017-Exploit)
 - [0xBlackash/CVE-2026-33017](https://github.com/0xBlackash/CVE-2026-33017)
 - [Jorrit-VM/CVE-2026-33017](https://github.com/Jorrit-VM/CVE-2026-33017)
 - [arensballiu/CVE-2026-33017-langflow-rce](https://github.com/arensballiu/CVE-2026-33017-langflow-rce)
@@ -11603,7 +11608,6 @@
 - [XiaoBaiLovesStirring/ghostlock-custom](https://github.com/XiaoBaiLovesStirring/ghostlock-custom)
 - [xrzcc/s26-m1q-ghostlock-selinux](https://github.com/xrzcc/s26-m1q-ghostlock-selinux)
 - [SetsuNeko/GhostLock_MT6983V_5.10](https://github.com/SetsuNeko/GhostLock_MT6983V_5.10)
-- [villager1314/CVE-2026-43499-IQOO-Neo10-Analysis](https://github.com/villager1314/CVE-2026-43499-IQOO-Neo10-Analysis)
 - [snothin/ghostlock-s26](https://github.com/snothin/ghostlock-s26)
 - [ankitrawatgit/iQOO-Z9_5G-vivo-T3_5G-Root-GhostLock](https://github.com/ankitrawatgit/iQOO-Z9_5G-vivo-T3_5G-Root-GhostLock)
 - [yakidango-official/GhostLock-H80GT](https://github.com/yakidango-official/GhostLock-H80GT)
@@ -16904,6 +16908,13 @@
 
 - [abraxas/CVE-2026-79752](https://github.com/abraxas/CVE-2026-79752)
 
+### CVE-2026-79987 (2026-09-10)
+
+<code>A remote, authenticated, non-admin Craft CMS Control Panel user with only the accessCp permission can execute operating system commands as the PHP web worker.
+</code>
+
+- [y3g1/CraftCMS-CVE-2026-79987](https://github.com/y3g1/CraftCMS-CVE-2026-79987)
+
 ### CVE-2026-80099 (2026-09-09)
 
 <code>Several Newfold plugins are vulnerable to Authentication Bypass. The vulnerability exists because the plugins bundle the wp-module-data module. In the module, the `authenticate()` method — registered on the `rest_authentication_errors` filter and therefore evaluated for every unauthenticated REST API request — performs an HMAC-style Bearer token comparison that degenerates when `HiiveConnection::get_auth_token()` returns `false`: PHP coerces `strrev(false)` to `strrev('')`, collapsing the secret salt to the publicly known constant `hash('sha256', '') = e3b0c44...`, while all remaining hash inputs (HTTP method, request URL, raw request body, and the `X-Timestamp` header) remain fully attacker-controlled. This makes it possible for unauthenticated attackers to compute a valid Bearer token entirely offline, pass the token equality check, and have `wp_set_current_user()` invoked against the first administrator returned by `get_users(['role' =&gt; 'administrator'])`, granting full administrator-level access and enabling arbitrary REST API operations such as creating new administrator accounts and achieving complete site takeover. Vulnerable versions are WP Plugin Crazy Domains (&lt;= 2.5.2), WP Plugin Web (&lt;= 2.3.4), WP Plugin Hostgator (&lt;= 3.1.0), WP Plugin Bluehost (&lt;= 4.17.1). The affected module is vulnerable in versions up to, and including, 2.9.4.
@@ -18305,6 +18316,13 @@
 
 - [Ravi-lk/CVE-2026-102253-POC](https://github.com/Ravi-lk/CVE-2026-102253-POC)
 
+### CVE-2026-102255 (2026-10-07)
+
+<code>A Pre-authentication SSRF vulnerability exists in the SMA1000 Appliance Work Place interface due to an unintended alternate access path. By abusing this path, a remote unauthenticated attacker could potentially exploit this vulnerability to direct the appliance to issue requests on their behalf and reach internal functionality and perform unauthorized operations.
+</code>
+
+- [HORKimhab/CVE-2026-102255](https://github.com/HORKimhab/CVE-2026-102255)
+
 ### CVE-2026-102261 (2026-09-29)
 
 <code>A flaw has been found in owen2345 Camaleon CMS up to 2.9.2. Impacted is the function crop of the file app/controllers/camaleon_cms/admin/media_controller.rb of the component Media Crop Handler. This manipulation of the argument saved_avatar causes authorization bypass. The attack may be initiated remotely. The exploit has been published and may be used. Upgrading to version 2.9.3 is recommended to address this issue. Patch name: c143e145caa600947e70a240e87f2fed889149d3. It is suggested to upgrade the affected component.
@@ -18722,7 +18740,7 @@
 - [dodiorne/cve-2025-0133](https://github.com/dodiorne/cve-2025-0133)
 - [ynsmroztas/-CVE-2025-0133-GlobalProtect-XSS](https://github.com/ynsmroztas/-CVE-2025-0133-GlobalProtect-XSS)
 - [wiseep/CVE-2025-0133](https://github.com/wiseep/CVE-2025-0133)
-- [inteleon404/CVE-2025-0133](https://github.com/inteleon404/CVE-2025-0133)
+- [Inteleon404/CVE-2025-0133](https://github.com/Inteleon404/CVE-2025-0133)
 - [shawarkhanethicalhacker/CVE-2025-0133-exploit](https://github.com/shawarkhanethicalhacker/CVE-2025-0133-exploit)
 - [adhamelhansye/CVE-2025-0133](https://github.com/adhamelhansye/CVE-2025-0133)
 - [cruxN3T/CVE-2025-0133](https://github.com/cruxN3T/CVE-2025-0133)
@@ -21197,7 +21215,7 @@
 
 ### CVE-2025-10162 (2025-10-07)
 
-<code>The Admin and Customer Messages After Order for WooCommerce: OrderConvo WordPress plugin before 14 does not validate the path of files to be downloaded, which could allow unauthenticated attacker to read/download arbitrary files via a path traversal attack
+<code>The Admin and Customer Messages After Order for WooCommerce: OrderConvo WordPress plugin through 15.1 does not validate the path of files to be downloaded, which could allow unauthenticated users (before version 15.0) and any authenticated user such as a Subscriber (versions 15.0 to 15.1) to read arbitrary files on the server via a path traversal attack; the fix released in version 14 was incomplete and no fixed version is available.
 </code>
 
 - [diamorphine666/CVE-2025-10162-Exploit](https://github.com/diamorphine666/CVE-2025-10162-Exploit)
@@ -24592,6 +24610,7 @@
 - [harshitvarma05/CVE-2025-31324-Exploits](https://github.com/harshitvarma05/CVE-2025-31324-Exploits)
 - [aristois913/CVE-2025-31324](https://github.com/aristois913/CVE-2025-31324)
 - [HKenzoKimura/CVE-2025-31324](https://github.com/HKenzoKimura/CVE-2025-31324)
+- [harisandhusingh-cmyk/cs50-cve-2025-31324-analysis](https://github.com/harisandhusingh-cmyk/cs50-cve-2025-31324-analysis)
 
 ### CVE-2025-31336
 - [coleleavitt/AAMVA-PDF417-Vulnerability-Research](https://github.com/coleleavitt/AAMVA-PDF417-Vulnerability-Research)
@@ -28476,7 +28495,6 @@
 - [kaxm23/CVE-2025-55182-Auto-Scanner](https://github.com/kaxm23/CVE-2025-55182-Auto-Scanner)
 - [kaxm23/rust-cve-2025-55182-scanner](https://github.com/kaxm23/rust-cve-2025-55182-scanner)
 - [RewantChaudhari/nextjs-rce-incident-response](https://github.com/RewantChaudhari/nextjs-rce-incident-response)
-- [oscar-mine/R2SAE](https://github.com/oscar-mine/R2SAE)
 - [AbdullahMaqbool22/Explosive-As-Hell-MCS-Qualifer-Web-500](https://github.com/AbdullahMaqbool22/Explosive-As-Hell-MCS-Qualifer-Web-500)
 - [DeDnY/CVE-2025-55182-poc-panel](https://github.com/DeDnY/CVE-2025-55182-poc-panel)
 - [opsecramdan/react2shell-cve-2025-55182](https://github.com/opsecramdan/react2shell-cve-2025-55182)
@@ -35998,6 +36016,7 @@
 - [Strikoder-Premium/cve-2024-21626-runc-1.1.11-escape](https://github.com/Strikoder-Premium/cve-2024-21626-runc-1.1.11-escape)
 - [RnW29/cve-2024-21626-runc-lab](https://github.com/RnW29/cve-2024-21626-runc-lab)
 - [MutagomaRaissa/container-security-lab-cve-2024-21626](https://github.com/MutagomaRaissa/container-security-lab-cve-2024-21626)
+- [ghs053020-stack/cve-2024-21626](https://github.com/ghs053020-stack/cve-2024-21626)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -61201,6 +61220,13 @@
 </code>
 
 - [gabe-k/CVE-2021-1883](https://github.com/gabe-k/CVE-2021-1883)
+
+### CVE-2021-1905 (2021-05-07)
+
+<code>Possible use after free due to improper handling of memory mapping of multiple processes simultaneously. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables
+</code>
+
+- [Gonvar/kgsl-1905-msm8953](https://github.com/Gonvar/kgsl-1905-msm8953)
 
 ### CVE-2021-1931 (2021-07-13)
 
