@@ -2734,6 +2734,7 @@
 - [CuteeCat/CVE-2026-9198](https://github.com/CuteeCat/CVE-2026-9198)
 - [chessalekin/cve-2026-9198_exploit](https://github.com/chessalekin/cve-2026-9198_exploit)
 - [joaovicdev/EXPLOIT-CVE-2026-9198](https://github.com/joaovicdev/EXPLOIT-CVE-2026-9198)
+- [Riftweld/langflow-cve-2026-9198](https://github.com/Riftweld/langflow-cve-2026-9198)
 
 ### CVE-2026-9254 (2026-08-24)
 
@@ -3926,6 +3927,7 @@
 
 - [yora1928/cve-2026-15748](https://github.com/yora1928/cve-2026-15748)
 - [ubaydev/CVE-2026-15748](https://github.com/ubaydev/CVE-2026-15748)
+- [0x4cr/CVE-2026-15748](https://github.com/0x4cr/CVE-2026-15748)
 
 ### CVE-2026-15826 (2026-08-15)
 
@@ -16018,13 +16020,6 @@
 
 - [dinosn/cve-2026-71362-magento-lab](https://github.com/dinosn/cve-2026-71362-magento-lab)
 
-### CVE-2026-71486 (2026-08-17)
-
-<code>vLLM is an inference and serving engine for large language models. Prior to 0.26.0, the /v1/completions/derender and /v1/chat/completions/derender endpoints accept caller-supplied GenerateResponse objects whose generate_responses, choices, token_ids, prompt_logprobs, logprobs.content, top_logprobs, and routed_experts structures are processed by OnlineDerenderer and tokenizer.decode before max_model_len, max_tokens, max_num_seqs, or response-size limits are enforced, allowing an authenticated API client to consume excessive CPU and memory and produce oversized responses. This issue is fixed in version 0.26.0.
-</code>
-
-- [tmvictorpeters/jbo4rgl](https://github.com/tmvictorpeters/jbo4rgl)
-
 ### CVE-2026-71518 (2026-08-17)
 
 <code>Typemill before 2.26.0 contains an authorization bypass vulnerability in the media file download route that allows unauthenticated attackers to access restricted files by submitting path-equivalent URL variants. Attackers can substitute normalized path forms such as dot-slash prefixes, double slashes, or percent-encoded sequences to pass role-based restriction checks while the filesystem resolves the request to the protected file, enabling unauthorized file download without credentials.
@@ -16162,6 +16157,7 @@
 - [EQSTLab/CVE-2026-72898](https://github.com/EQSTLab/CVE-2026-72898)
 - [34zY/CVE-2026-72898](https://github.com/34zY/CVE-2026-72898)
 - [amier-ge/CVE-2026-72898](https://github.com/amier-ge/CVE-2026-72898)
+- [Riftweld/metabase-cve-2026-72898](https://github.com/Riftweld/metabase-cve-2026-72898)
 
 ### CVE-2026-73034 (2026-08-11)
 
@@ -18354,6 +18350,7 @@
 
 - [horizon3ai/CVE-2026-102489](https://github.com/horizon3ai/CVE-2026-102489)
 - [Hunt-Benito/the-cookie-in-the-error-message-cve-2026-102489-zammad-session-hijack-to-rce](https://github.com/Hunt-Benito/the-cookie-in-the-error-message-cve-2026-102489-zammad-session-hijack-to-rce)
+- [1xPwn/CVE-2026-102489](https://github.com/1xPwn/CVE-2026-102489)
 
 ### CVE-2026-102607
 - [d4kw1n/CVE-2026-102607-ZoneMinder](https://github.com/d4kw1n/CVE-2026-102607-ZoneMinder)
@@ -31819,13 +31816,6 @@
 </code>
 
 - [alkimcoskun/CVE-2025-69848-security-advisories](https://github.com/alkimcoskun/CVE-2025-69848-security-advisories)
-
-### CVE-2025-69872 (2026-02-11)
-
-<code>DiskCache (python-diskcache) through 5.6.3 uses Python pickle for serialization by default. An attacker with write access to the cache directory can achieve arbitrary code execution when a victim application reads from the cache.
-</code>
-
-- [secondwindoss/diskcache-community](https://github.com/secondwindoss/diskcache-community)
 
 ### CVE-2025-69906 (2026-02-05)
 
