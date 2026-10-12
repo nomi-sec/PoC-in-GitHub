@@ -719,7 +719,6 @@
 <code>Heap buffer overflow in PostgreSQL pgcrypto allows a ciphertext provider to execute arbitrary code as the operating system user running the database.  Versions before PostgreSQL 18.2, 17.8, 16.12, 15.16, and 14.21 are affected.
 </code>
 
-- [M3str3/CVE-2026-2005](https://github.com/M3str3/CVE-2026-2005)
 - [stvm8/CVE-2026-2005_lab](https://github.com/stvm8/CVE-2026-2005_lab)
 - [dinosn/cve-2026-2005](https://github.com/dinosn/cve-2026-2005)
 - [var77/CVE-2026-2005](https://github.com/var77/CVE-2026-2005)
@@ -12224,6 +12223,8 @@
 - [tchuin2609/YellowKey-Bitlocker](https://github.com/tchuin2609/YellowKey-Bitlocker)
 - [tchuin2609/tchuin2609.github.io](https://github.com/tchuin2609/tchuin2609.github.io)
 - [Neccie/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/Neccie/YellowKey-Bitlocker-CVE-2026-45585)
+- [sinhalese-congocopal6379/YellowKey-BitLocker-CVE-2026-45585](https://github.com/sinhalese-congocopal6379/YellowKey-BitLocker-CVE-2026-45585)
+- [sinhalese-congocopal6379/sinhalese-congocopal6379.github.io](https://github.com/sinhalese-congocopal6379/sinhalese-congocopal6379.github.io)
 - [YellowKeyBitLocker-CVE/YellowKey-BitLocker-CVE-2026-45585](https://github.com/YellowKeyBitLocker-CVE/YellowKey-BitLocker-CVE-2026-45585)
 
 ### CVE-2026-45659 (2026-05-22)
@@ -14967,6 +14968,7 @@
 - [MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026-60137-](https://github.com/MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026-60137-)
 - [hitechcloud-vietnam/wp2shell-PoC](https://github.com/hitechcloud-vietnam/wp2shell-PoC)
 - [manpisetsu/wp2shell](https://github.com/manpisetsu/wp2shell)
+- [0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL](https://github.com/0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL)
 
 ### CVE-2026-63039 (2026-08-20)
 
@@ -17273,6 +17275,7 @@
 </code>
 
 - [Wayang1337/CVE-2026-85097](https://github.com/Wayang1337/CVE-2026-85097)
+- [tc4dy/CVE-2026-85097-Toolkit](https://github.com/tc4dy/CVE-2026-85097-Toolkit)
 
 ### CVE-2026-85102 (2026-09-09)
 
@@ -17752,6 +17755,13 @@
 ### CVE-2026-91159
 - [sl4x0/autheo-cve-2026-91159-poc](https://github.com/sl4x0/autheo-cve-2026-91159-poc)
 
+### CVE-2026-91737 (2026-09-15)
+
+<code>Use after free in PDF in Google Chrome prior to 153.0.8010.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [sm1ee/CVE-2026-91737](https://github.com/sm1ee/CVE-2026-91737)
+
 ### CVE-2026-91843 (2026-09-16)
 
 <code>A stack overflow during the unauthenticated login process may allow an attacker to run arbitrary code remotely with root privileges.
@@ -17817,13 +17827,6 @@
 </code>
 
 - [grepstrength/CVE-2026-92680](https://github.com/grepstrength/CVE-2026-92680)
-
-### CVE-2026-92701 (2026-09-18)
-
-<code>Cocos AI is a confidential computing system for running AI workloads inside trusted execution environments. In versions up to and including 0.8.2, the intra-handshake attested TLS (aTLS) Intel TDX verification path does not copy the expected current-session freshness value into the TDX quote-body policy before quote validation, so structurally valid TDX QuoteV4 Evidence is accepted without checking that its REPORT_DATA field matches the reportData expected for the current session. A relying party using this path can therefore accept Evidence with a mismatched or reused reportData and release application data after the handshake, enabling session-misbinding to an unintended attestation context. The issue is fixed in version 0.9.0.
-</code>
-
-- [muhammad-usama-sardar/intra-handshake-fail](https://github.com/muhammad-usama-sardar/intra-handshake-fail)
 
 ### CVE-2026-92966 (2026-10-01)
 
@@ -18238,6 +18241,13 @@
 
 - [murrez/CVE-2026-100752](https://github.com/murrez/CVE-2026-100752)
 
+### CVE-2026-100833 (2026-09-27)
+
+<code>Contrast (edgelesssys/contrast) versions 1.14.0 before 1.23.1 generate runtime policies that fail to detect all container image substitutions. A bad rebase during a Kata Containers update accidentally introduced an `allow_storage` rule that accepts storage entries using the `image_guest_pull` driver without verifying the image digest. An attacker with access to the Kata agent API — for example, a Kubernetes cluster administrator in Contrast's threat model — can therefore substitute a container image with an exploit payload, provided the substituted image satisfies the remaining policy rules, undermining the confidential container's integrity guarantees.
+</code>
+
+- [muhammad-usama-sardar/intra-handshake-fail](https://github.com/muhammad-usama-sardar/intra-handshake-fail)
+
 ### CVE-2026-100835 (2026-09-27)
 
 <code>Contrast before 1.16.0 is susceptible to remote attestation relay attacks. Contrast accepted any TEE attestation report that verified correctly and contained the expected firmware patch levels and software measurements, regardless of which machine produced it, so attestation was not bound to specific, physically trusted hardware. An attacker who can both intercept network traffic between the CLI and the Coordinator (or between the Coordinator and an attested component) and forge reports or extract secrets from any single TEE machine under their physical control can relay such a report to impersonate a Contrast Coordinator or a Contrast workload, defeating identity verification in Contrast's attested TLS (aTLS).
@@ -18322,6 +18332,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-102255](https://github.com/HORKimhab/CVE-2026-102255)
+- [techupdate24/sonicwall-sma-1000-cve-2026-102255](https://github.com/techupdate24/sonicwall-sma-1000-cve-2026-102255)
 
 ### CVE-2026-102261 (2026-09-29)
 
@@ -18524,6 +18535,13 @@
 
 - [wvllxe/CVE-2026-104051-pictshare-info-disclosure](https://github.com/wvllxe/CVE-2026-104051-pictshare-info-disclosure)
 
+### CVE-2026-104082 (2026-10-09)
+
+<code>SmarterMail before build 9777 contains a remote code execution vulnerability that allows an attacker holding a SysAdmin-scoped access token to bypass the Volume Mount script-directory containment control by provisioning a new mail domain with an arbitrary FileStore root path inside the trusted Scripts directory via the domain-put endpoint. Attackers can disclose the Scripts path through the AddOrUpdateMount endpoint, clear the upload extension blacklist via the global-mail endpoint, then upload a malicious script through the ordinary mail file-storage upload API so that saving a CommandMount triggers RunScript before validation, resulting in a reverse shell executing as the SmarterMail service account with SYSTEM-level privileges.
+</code>
+
+- [eev4n/smartermail](https://github.com/eev4n/smartermail)
+
 ### CVE-2026-104110
 - [pervinzahidli/CVE-2026-104110](https://github.com/pervinzahidli/CVE-2026-104110)
 
@@ -18641,7 +18659,7 @@
 
 ### CVE-2026-106445 (2026-10-06)
 
-<code>Handlebars provides the power necessary to let users build semantic templates. From 4.0.0 until 4.7.10, Handlebars lookupProperty returns Function.prototype.constructor before applying the prototype-access deny list because constructor is an own property of Function.prototype. When an attacker can render a controlled template with allowProtoMethodsByDefault enabled and an accessible function in the template context, the template can traverse from that function through its prototype to Function.prototype and then obtain the Function constructor through the own-property bypass. This permits attacker-controlled JavaScript to execute with the server application's privileges. This issue is fixed in version 4.7.10.
+<code>Handlebars provides the power necessary to let users build semantic templates. From 3.0.0 until 4.7.10, Handlebars lookupProperty returns Function.prototype.constructor before applying the prototype-access deny list because constructor is an own property of Function.prototype. When an attacker can render a controlled template with allowProtoMethodsByDefault enabled and an accessible function in the template context, the template can traverse from that function through its prototype to Function.prototype and then obtain the Function constructor through the own-property bypass. This permits attacker-controlled JavaScript to execute with the server application's privileges. This issue is fixed in version 4.7.10.
 </code>
 
 - [murrez/CVE-2026-106445](https://github.com/murrez/CVE-2026-106445)
@@ -18685,6 +18703,9 @@
 </code>
 
 - [asvorg/CVE-2026-108592-poc](https://github.com/asvorg/CVE-2026-108592-poc)
+
+### CVE-2026-109519
+- [0xgh0stri13y/CVE-2026-109519](https://github.com/0xgh0stri13y/CVE-2026-109519)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -18914,8 +18935,8 @@
 </code>
 
 - [FWNavy/RMASmoke](https://github.com/FWNavy/RMASmoke)
-- [MCRideable3963/RMASmoke-v2](https://github.com/MCRideable3963/RMASmoke-v2)
-- [MCRideable3963/exploit-docs](https://github.com/MCRideable3963/exploit-docs)
+- [ts2023dev/RMASmoke-v2](https://github.com/ts2023dev/RMASmoke-v2)
+- [ts2023dev/exploit-docs](https://github.com/ts2023dev/exploit-docs)
 
 ### CVE-2025-1219 (2025-03-30)
 
@@ -31035,7 +31056,6 @@
 - [khadafigans/React2Shell](https://github.com/khadafigans/React2Shell)
 - [Z3ROROOT3R/CVE-2025-66478](https://github.com/Z3ROROOT3R/CVE-2025-66478)
 - [imad457/NextJS-RCE-Root-Takeover](https://github.com/imad457/NextJS-RCE-Root-Takeover)
-- [nilfredb/CVE-2025-66478-Research-Proof-of-Concept](https://github.com/nilfredb/CVE-2025-66478-Research-Proof-of-Concept)
 - [JotaEspig/CVE-2025-66478-PoC-Reverse-Shell](https://github.com/JotaEspig/CVE-2025-66478-PoC-Reverse-Shell)
 
 ### CVE-2025-66516 (2025-12-04)
