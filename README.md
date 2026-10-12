@@ -2012,6 +2012,13 @@
 - [goldendivider/cve-2026-6471-postgres-logical-decoding-dlopen](https://github.com/goldendivider/cve-2026-6471-postgres-logical-decoding-dlopen)
 - [0xBlackash/CVE-2026-6471](https://github.com/0xBlackash/CVE-2026-6471)
 
+### CVE-2026-6475 (2026-05-14)
+
+<code>Symlink following in PostgreSQL pg_basebackup plain format and in pg_rewind allows an origin superuser to overwrite local files, e.g. /var/lib/postgres/.bashrc, that hijack the operating system account.  It will remain the case that starting the server after these commands implicitly trusts the origin superuser, due to features like shared_preload_libraries.  Hence, the attack has practical implications only if one takes relevant action between these commands and server start, like moving the files to a different VM or snapshotting the VM.  Versions before PostgreSQL 18.4, 17.10, 16.14, 15.18, and 14.23 are affected.
+</code>
+
+- [abraxas/postgres-basebackup-symlink](https://github.com/abraxas/postgres-basebackup-symlink)
+
 ### CVE-2026-6508 (2026-05-07)
 
 <code>Origin Validation Error vulnerability in TUBITAK BILGEM Software Technologies Research Institute Liderahenk allows Accessing Functionality Not Properly Constrained by ACLs.\n\nThis issue affects Liderahenk: from 2.0.1 before 2.0.2.
@@ -2809,6 +2816,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-9586](https://github.com/HORKimhab/CVE-2026-9586)
+- [fromABUV/CVE-2026-9586_POC_EXPLOIT](https://github.com/fromABUV/CVE-2026-9586_POC_EXPLOIT)
 
 ### CVE-2026-9645 (2026-05-28)
 
@@ -7285,7 +7293,6 @@
 
 - [0xh7ml/CVE-2026-27626-PoC](https://github.com/0xh7ml/CVE-2026-27626-PoC)
 - [abdelhakimgaferNetworkSec/Enigm-Writeup](https://github.com/abdelhakimgaferNetworkSec/Enigm-Writeup)
-- [Shisones/CVE-2026-27626](https://github.com/Shisones/CVE-2026-27626)
 
 ### CVE-2026-27636 (2026-02-25)
 
@@ -17724,6 +17731,13 @@
 - [murrez/HP-HPLIP-Mass-CVE-checker-2026-09-](https://github.com/murrez/HP-HPLIP-Mass-CVE-checker-2026-09-)
 - [Nxploited/CVE-2026-91097-CVE-2026-91106](https://github.com/Nxploited/CVE-2026-91097-CVE-2026-91106)
 
+### CVE-2026-91136 (2026-10-10)
+
+<code>The Divi Plus plugin for WordPress is vulnerable to Arbitrary File Read in versions up to, and including, 2.4.0 via the 'svg_image' parameter of the /wp-json/elicus/v1/dipl-modules/svg-animator REST endpoint. This is due to the endpoint's permission callback (SVGAnimatorController::index_permission) returning true unconditionally combined with insufficient validation of the 'svg_image' input — sanitize_text_field() and esc_html() do not restrict filesystem paths, the file:// stream wrapper, or arbitrary URLs — before it is passed to file_get_contents() (with a wp_remote_get() fallback) and the raw response body is returned in the JSON 'html' field. This makes it possible for unauthenticated attackers to read arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [fl0ydsec/CVE-2026-91136](https://github.com/fl0ydsec/CVE-2026-91136)
+
 ### CVE-2026-91159
 - [sl4x0/autheo-cve-2026-91159-poc](https://github.com/sl4x0/autheo-cve-2026-91159-poc)
 
@@ -18454,6 +18468,13 @@
 </code>
 
 - [anoxhunterdump-ctrl/CVE-2026-103752-Authorizer-Privilege-Escalation](https://github.com/anoxhunterdump-ctrl/CVE-2026-103752-Authorizer-Privilege-Escalation)
+
+### CVE-2026-103889 (2026-10-10)
+
+<code>The 3D Product configurator for WooCommerce plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 2.16.2 via the 'xpv_image' parameter parameter. This is due to missing authentication and nonce checks on the wp_loaded handler combined with no sanitization of the xpv_image POST parameter before it is echoed unescaped into a Dompdf-rendered HTML template with PHP execution enabled. This makes it possible for unauthenticated attackers to execute code on the server. The only nonce and authentication check in the handler is entirely enclosed in a block comment with no replacement, making the endpoint reachable via a single unauthenticated POST to any URL on the site.
+</code>
+
+- [kayes817/CVE-2026-103889](https://github.com/kayes817/CVE-2026-103889)
 
 ### CVE-2026-103922 (2026-10-01)
 
@@ -24507,7 +24528,6 @@
 - [cesarbtakeda/CVE-2025-31161](https://github.com/cesarbtakeda/CVE-2025-31161)
 - [ch3m1cl/CVE-2025-31161](https://github.com/ch3m1cl/CVE-2025-31161)
 - [Dairrow/CVE-2025-31161](https://github.com/Dairrow/CVE-2025-31161)
-- [Shisones/CVE-2025-31161](https://github.com/Shisones/CVE-2025-31161)
 - [eserror/CVE-2025-31161](https://github.com/eserror/CVE-2025-31161)
 - [0xBlackash/CVE-2025-31161](https://github.com/0xBlackash/CVE-2025-31161)
 - [rufflabs/crushftp_cve-2025-31161](https://github.com/rufflabs/crushftp_cve-2025-31161)
@@ -26256,7 +26276,6 @@
 </code>
 
 - [synacktiv/CVE-2025-47227_CVE-2025-47228](https://github.com/synacktiv/CVE-2025-47227_CVE-2025-47228)
-- [Outs1d3r-Net/CVE-2025-47227](https://github.com/Outs1d3r-Net/CVE-2025-47227)
 
 ### CVE-2025-47256 (2025-05-06)
 
@@ -49869,7 +49888,6 @@
 - [j0yb0y0h/CVE-2023-38646](https://github.com/j0yb0y0h/CVE-2023-38646)
 - [Ego1stoo/CVE-2023-38646](https://github.com/Ego1stoo/CVE-2023-38646)
 - [0utl4nder/Another-Metabase-RCE-CVE-2023-38646](https://github.com/0utl4nder/Another-Metabase-RCE-CVE-2023-38646)
-- [Shisones/MetabaseRCE_CVE-2023-38646](https://github.com/Shisones/MetabaseRCE_CVE-2023-38646)
 - [acesoyeo/METABASE-RCE-CVE-2023-38646-](https://github.com/acesoyeo/METABASE-RCE-CVE-2023-38646-)
 - [UserConnecting/Exploit-CVE-2023-38646-Metabase](https://github.com/UserConnecting/Exploit-CVE-2023-38646-Metabase)
 - [DaniTheHack3r/CVE-2023-38646](https://github.com/DaniTheHack3r/CVE-2023-38646)
