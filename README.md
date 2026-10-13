@@ -1568,14 +1568,14 @@
 <code>NoMachine External Control of File Path Arbitrary File Deletion Vulnerability. This vulnerability allows local attackers to delete arbitrary files on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\n\nThe specific flaw exists within the handling of environment variables. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of root. Was ZDI-CAN-28644.
 </code>
 
-- [do4choo/CVE-2026-5053](https://github.com/do4choo/CVE-2026-5053)
+- [do4choo/CVE-2026-5053_NoMachine_LPE](https://github.com/do4choo/CVE-2026-5053_NoMachine_LPE)
 
 ### CVE-2026-5054 (2026-04-11)
 
 <code>NoMachine External Control of File Path Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\n\nThe specific flaw exists within the handling of command line parameters. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Was ZDI-CAN-28630.
 </code>
 
-- [do4choo/CVE-2026-5054](https://github.com/do4choo/CVE-2026-5054)
+- [do4choo/CVE-2026-5054_NoMachine_LPE](https://github.com/do4choo/CVE-2026-5054_NoMachine_LPE)
 
 ### CVE-2026-5059 (2026-04-11)
 
@@ -12024,6 +12024,7 @@
 
 - [shinthink/solrradar](https://github.com/shinthink/solrradar)
 - [gagaltotal/CVE-2026-44825-Apache-Solr-Scanner](https://github.com/gagaltotal/CVE-2026-44825-Apache-Solr-Scanner)
+- [q0524/CVE-2026-44825_test](https://github.com/q0524/CVE-2026-44825_test)
 
 ### CVE-2026-44840 (2026-07-08)
 
@@ -14546,6 +14547,13 @@
 - [0xBlackash/CVE-2026-58138](https://github.com/0xBlackash/CVE-2026-58138)
 - [Ez4rd1x1/CVE-2026-58138-Research](https://github.com/Ez4rd1x1/CVE-2026-58138-Research)
 
+### CVE-2026-58222 (2026-07-30)
+
+<code>A security flaw combining LDAP filter injection and improper authorization checks was found in Samba Active Directory Domain Controller (AD DC). When processing LDAP Compare requests, Samba fails to properly validate user-supplied attribute names and executes the resulting internal database search in a trusted context, bypassing normal Access Control List (ACL) enforcement. An authenticated low-privilege domain user can exploit these flaws to disclose confidential Active Directory attributes that would normally be inaccessible. The disclosed information may be leveraged to derive sensitive authentication material, potentially leading to privilege escalation and complete domain compromise. For example: In deployments configured with Group Managed Service Accounts (gMSAs), an attacker can extract the &quot;msKds-RootKeyData&quot; attribute and derive gMSA passwords offline, potentially leading to complete domain compromise if privileged gMSAs are present.
+</code>
+
+- [abdelaaziz0/KDSExtract](https://github.com/abdelaaziz0/KDSExtract)
+
 ### CVE-2026-58225 (2026-07-10)
 
 <code>SQL Injection vulnerability in elixir-ecto postgrex allows an attacker who can influence a LISTEN channel name to inject SQL into the reconnect replay query, causing a denial of service of the notification connection.\n\nPostgrex.Notifications sanitizes channel names with quote_channel/1, which doubles double quotes so the name is safe inside a double-quoted identifier. This protects the single-statement LISTEN and UNLISTEN paths. On every (re)connect, however, handle_connect/1 replays all registered channels at once by concatenating their LISTEN statements and wrapping them in a dollar-quoted anonymous code block (DO $$BEGIN ... END$$). quote_channel/1 does not escape the $$ dollar-quote delimiter that opens and closes this block.\n\nThe listen/3 guards only reject null bytes and names longer than 63 bytes, so a channel name containing $$ passes validation unchanged. Once such a name is embedded, its $$ prematurely terminates the outer dollar-quoted string and PostgreSQL parses the remainder as additional top-level statements. Because handle_connect/1 runs on every (re)connect, the malformed replay query is rejected each time and the notification connection never re-establishes its subscriptions, silently dropping notifications for every channel sharing that connection.\n\nAn application is affected when it passes untrusted input (for example a tenant or user identifier) as a channel name to Postgrex.Notifications.listen/3. The double-quote doubling prevents forming a fully valid injected statement, so arbitrary SQL execution is not possible, but the corrupted query reliably breaks the shared notification connection for all tenants, resulting in denial of service.\n\nThis issue affects postgrex: from 0.16.0 before 0.22.3.
@@ -14976,7 +14984,6 @@
 - [jed-parsec/CVE-2026-63030-60137-wp2shell-lab](https://github.com/jed-parsec/CVE-2026-63030-60137-wp2shell-lab)
 - [MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026-60137-](https://github.com/MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026-60137-)
 - [hitechcloud-vietnam/wp2shell-PoC](https://github.com/hitechcloud-vietnam/wp2shell-PoC)
-- [manpisetsu/wp2shell](https://github.com/manpisetsu/wp2shell)
 - [0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL](https://github.com/0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL)
 
 ### CVE-2026-63039 (2026-08-20)
@@ -15191,7 +15198,6 @@
 - [Alixploit22/CVEX2SHEL](https://github.com/Alixploit22/CVEX2SHEL)
 - [SanaullahAmanullah/xss2shell-check](https://github.com/SanaullahAmanullah/xss2shell-check)
 - [kaleth4/CVE-2026-64638](https://github.com/kaleth4/CVE-2026-64638)
-- [G33l0/Cve-2026-64638](https://github.com/G33l0/Cve-2026-64638)
 - [xAL6/cve-2026-64638-banner-poc](https://github.com/xAL6/cve-2026-64638-banner-poc)
 - [madfxr/xss2shell-poc](https://github.com/madfxr/xss2shell-poc)
 
@@ -15830,6 +15836,13 @@
 
 - [aramosf/CVE-2026-68398](https://github.com/aramosf/CVE-2026-68398)
 
+### CVE-2026-68582 (2026-08-02)
+
+<code>Vikunja versions &gt;= 0.24.0 and &lt;= 2.3.0 contain a broken object level authorization (BOLA) vulnerability in the task-collection endpoint (GET /api/v1/projects/{project}/views/{view}/tasks). The endpoint loads the requested project view from the URL path without verifying the caller is authorized for it. For a link-share token holder, the task scope is pinned to the share's own project, but the view is taken from the attacker-controlled path and never re-validated. As a result, a holder of any project share link can read any other tenant's kanban bucket records — bucket titles and the full created_by user object (username, name, id) — for every view in the instance. The same missing pre-authorization view load also creates a project/view-ID existence oracle (404 vs. non-404) usable by link shares and ordinary authenticated users. Task contents remain constrained to the share's own project and are not disclosed. Fixed in 2.4.0.
+</code>
+
+- [comradezephyr/CVE-2026-68582-PoC](https://github.com/comradezephyr/CVE-2026-68582-PoC)
+
 ### CVE-2026-68749 (2026-08-06)
 
 <code>Inefficient Regular Expression Complexity vulnerability in the CSS scrubber in rrrene html_sanitize_ex allows an unauthenticated remote attacker to exhaust server CPU via a long CSS declaration in sanitized HTML. The declaration regex in HtmlSanitizeEx.Scrubber.CSS.scrub/1 matches the property name with an unbounded greedy [-\w]+ followed by a mandatory :, so a long run of word characters not followed by a colon makes the engine give back one character at a time and retry the colon at every start offset. The work is quadratic in the length of the run, and no length cap is applied to the CSS handed to the scrubber. An 80 KB &lt;style&gt; body costs roughly 2.4 seconds of scheduler time, so a few concurrent requests saturate the BEAM scheduler pool and make the application unresponsive.\n\nThe impact is CPU exhaustion only. Nothing is read, modified or disclosed.\n\nThis issue affects html_sanitize_ex: from 0.3.1 before 1.4.5 and from 1.5.0-rc.0 before 1.5.3.
@@ -16180,6 +16193,7 @@
 - [34zY/CVE-2026-72898](https://github.com/34zY/CVE-2026-72898)
 - [amier-ge/CVE-2026-72898](https://github.com/amier-ge/CVE-2026-72898)
 - [Riftweld/metabase-cve-2026-72898](https://github.com/Riftweld/metabase-cve-2026-72898)
+- [gagaltotal/CVE-2026-72898-metabase](https://github.com/gagaltotal/CVE-2026-72898-metabase)
 
 ### CVE-2026-73034 (2026-08-11)
 
@@ -18175,6 +18189,13 @@
 - [kize7/cve-2026-97163-payload](https://github.com/kize7/cve-2026-97163-payload)
 - [murrez/CVE-2026-97163](https://github.com/murrez/CVE-2026-97163)
 
+### CVE-2026-97229 (2026-10-13)
+
+<code>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.
+</code>
+
+- [AmpedWasTaken/CVE-2026-97229-GitLab-CI-CD-Regex-Compiler-RCE](https://github.com/AmpedWasTaken/CVE-2026-97229-GitLab-CI-CD-Regex-Compiler-RCE)
+
 ### CVE-2026-97286 (2026-09-30)
 
 <code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WP Chill Strong Testimonials strong-testimonials allows Stored XSS.This issue affects Strong Testimonials: from n/a through 3.3.11.
@@ -18358,6 +18379,13 @@
 </code>
 
 - [7acini/CVE-2026-102261](https://github.com/7acini/CVE-2026-102261)
+
+### CVE-2026-102262 (2026-10-05)
+
+<code>Newell Brands DYMO ID 1.5.1.71 resolves its plugin Modules directory relative to the process working directory. An attacker could store a job file alongside malicious modules / DLL that sets the process working directory to the job file's folder when a victim clicks on the file, resulting in code execution at the victim's privilege level. Fixed in 1.6.0.
+</code>
+
+- [pawlokk/dymo-id-cve-poc](https://github.com/pawlokk/dymo-id-cve-poc)
 
 ### CVE-2026-102268 (2026-09-28)
 
@@ -18698,6 +18726,13 @@
 </code>
 
 - [KevineCharles/CVE-2026-106610-miniorange-otp-ato](https://github.com/KevineCharles/CVE-2026-106610-miniorange-otp-ato)
+
+### CVE-2026-107159 (2026-10-07)
+
+<code>MiniUPnPd through 2.3.11 built with --strict contains a divide-by-zero vulnerability in ProcessSSDPData() that allows unauthenticated local network attackers to crash the daemon. Attackers can send a single multicast M-SEARCH datagram with MX: 0 and a known ST to port 1900, triggering SIGFPE and denying UPnP IGD service.
+</code>
+
+- [azuk4r/CVE-2026-107159](https://github.com/azuk4r/CVE-2026-107159)
 
 ### CVE-2026-107181 (2026-10-07)
 
@@ -20823,6 +20858,7 @@
 - [9xh4kv/CVE-2025-8110](https://github.com/9xh4kv/CVE-2025-8110)
 - [r3vpwnx/CVE-2025-8110](https://github.com/r3vpwnx/CVE-2025-8110)
 - [Makis6/CVE-2025-8110](https://github.com/Makis6/CVE-2025-8110)
+- [eds1268/cve-2025-8110-ctf](https://github.com/eds1268/cve-2025-8110-ctf)
 
 ### CVE-2025-8191 (2025-07-26)
 
@@ -23674,13 +23710,6 @@
 
 - [dorattias/CVE-2025-26319](https://github.com/dorattias/CVE-2025-26319)
 - [redpack-kr/CVE-2025-26319](https://github.com/redpack-kr/CVE-2025-26319)
-
-### CVE-2025-26326 (2025-02-28)
-
-<code>A vulnerability was identified in the NVDA Remote (version 2.6.4) and Tele NVDA Remote (version 2025.3.3) remote connection add-ons, which allows an attacker to obtain total control of the remote system by guessing a weak password. The problem occurs because these add-ons accept any password entered by the user and do not have an additional authentication or computer verification mechanism. Tests indicate that more than 1,000 systems use easy-to-guess passwords, many with less than 4 to 6 characters, including common sequences. This allows brute force attacks or trial-and-error attempts by malicious invaders. The vulnerability can be exploited by a remote attacker who knows or can guess the password used in the connection. As a result, the attacker gains complete access to the affected system and can execute commands, modify files, and compromise user security.
-</code>
-
-- [azurejoga/CVE-2025-26326](https://github.com/azurejoga/CVE-2025-26326)
 
 ### CVE-2025-26399 (2025-09-23)
 
@@ -34007,7 +34036,6 @@
 - [0x4D31/cve-2024-6387_hassh](https://github.com/0x4D31/cve-2024-6387_hassh)
 - [sardine-web/CVE-2024-6387-template](https://github.com/sardine-web/CVE-2024-6387-template)
 - [imv7/CVE-2024-6387](https://github.com/imv7/CVE-2024-6387)
-- [azurejoga/CVE-2024-6387-how-to-fix](https://github.com/azurejoga/CVE-2024-6387-how-to-fix)
 - [Karmakstylez/CVE-2024-6387](https://github.com/Karmakstylez/CVE-2024-6387)
 - [vkaushik-chef/regreSSHion](https://github.com/vkaushik-chef/regreSSHion)
 - [dgourillon/mitigate-CVE-2024-6387](https://github.com/dgourillon/mitigate-CVE-2024-6387)
@@ -36798,7 +36826,7 @@
 - [Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897)
 - [JAthulya/CVE-2024-23897](https://github.com/JAthulya/CVE-2024-23897)
 - [murataydemir/CVE-2024-23897](https://github.com/murataydemir/CVE-2024-23897)
-- [Maalfer/CVE-2024-23897](https://github.com/Maalfer/CVE-2024-23897)
+- [Maalfer/CVE-2024-23897-exploit](https://github.com/Maalfer/CVE-2024-23897-exploit)
 - [Surko888/Surko-Exploit-Jenkins-CVE-2024-23897](https://github.com/Surko888/Surko-Exploit-Jenkins-CVE-2024-23897)
 - [cc3305/CVE-2024-23897](https://github.com/cc3305/CVE-2024-23897)
 - [verylazytech/CVE-2024-23897](https://github.com/verylazytech/CVE-2024-23897)
@@ -68256,6 +68284,7 @@
 - [koharin/CVE-2020-0041](https://github.com/koharin/CVE-2020-0041)
 - [vaginessa/CVE-2020-0041-Pixel-3a](https://github.com/vaginessa/CVE-2020-0041-Pixel-3a)
 - [jcalabres/root-exploit-pixel3](https://github.com/jcalabres/root-exploit-pixel3)
+- [hiratazx/CVE-2020-0041](https://github.com/hiratazx/CVE-2020-0041)
 
 ### CVE-2020-0069 (2020-03-10)
 
