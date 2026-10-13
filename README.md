@@ -516,6 +516,7 @@
 - [0xBlackash/CVE-2026-1357](https://github.com/0xBlackash/CVE-2026-1357)
 - [masterwok/PoC-CVE-2026-1357](https://github.com/masterwok/PoC-CVE-2026-1357)
 - [sahmsec/CVE-2026-1357](https://github.com/sahmsec/CVE-2026-1357)
+- [stj8703-web/CVE-2026-1357](https://github.com/stj8703-web/CVE-2026-1357)
 
 ### CVE-2026-1375 (2026-02-03)
 
@@ -11082,6 +11083,13 @@
 - [ZeroDayEvil/CVE-2026-41940-PoC](https://github.com/ZeroDayEvil/CVE-2026-41940-PoC)
 - [sakidekin/CVE-2026-41940-PoC](https://github.com/sakidekin/CVE-2026-41940-PoC)
 
+### CVE-2026-41992 (2026-06-29)
+
+<code>GNU gzip contains a global buffer overflow vulnerability in the LZH decompression logic caused by improper reuse of shared global state between different decompression formats within a single execution. GNU gzip maintains a global array that is shared across the LZ77, LZW, and LZH decompression routines and is not reinitialized between files processed in the same invocation.\nBy decompressing a specially crafted LZW file followed by a specially crafted LZH file in a single gzip -d command, an attacker can poison the shared global state and subsequently trigger an out‑of‑bounds read in the LZH decoder. The LZH decompression logic follows stale values left in the shared array, causing reads past the end of the allocated global buffer.\n\nThis issue has been fixed in commits 63dbf6b3b9e6e781df1a6a64e609b10e23969681 and e7378c2d421be6a286922374425680bbe9ad8b7d.
+</code>
+
+- [uday952/CVE-2026-41992-poc](https://github.com/uday952/CVE-2026-41992-poc)
+
 ### CVE-2026-42031 (2026-05-13)
 
 <code>CKAN is an open-source DMS (data management system) for powering data hubs and data portals. Prior to 2.10.10 and 2.11.5, a vulnerability in datastore_search_sql allowed attackers to inject SQL in order to gain access to private resources and PostgreSQL system information This vulnerability is fixed in 2.10.10 and 2.11.5.
@@ -17278,6 +17286,7 @@
 
 - [Wayang1337/CVE-2026-85097](https://github.com/Wayang1337/CVE-2026-85097)
 - [tc4dy/CVE-2026-85097-Toolkit](https://github.com/tc4dy/CVE-2026-85097-Toolkit)
+- [Masriyan/CVE-2026-85097](https://github.com/Masriyan/CVE-2026-85097)
 
 ### CVE-2026-85102 (2026-09-09)
 
@@ -18589,6 +18598,16 @@
 
 ### CVE-2026-104587
 - [AmalJafarzade/CVE-2026-104587](https://github.com/AmalJafarzade/CVE-2026-104587)
+
+### CVE-2026-104711 (2026-10-05)
+
+<code>Improper neutralization of special elements used in an expression language statement ('Expression Language Injection') vulnerability in Apache Struts. If the application is configured to use the legacy RESTful action mapper, a crafted request can inject an OGNL expression that may lead to remote code execution. Struts 7 is affected only when the OGNL allowlist is disabled; it is enabled by default. Applications using the default action mapper, the restful2 mapper, or the Struts REST plugin are not affected.\n\nThis issue affects Apache Struts: from 2.0.0 through 2.3.37, from 2.5.0 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.\n\nUsers are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue.
+</code>
+
+- [uday952/CVE-2026-104711](https://github.com/uday952/CVE-2026-104711)
+- [uday952/CVE-2026-104711-POC-Variant3](https://github.com/uday952/CVE-2026-104711-POC-Variant3)
+- [uday952/CVE-2026-104711-exploit-payload-4](https://github.com/uday952/CVE-2026-104711-exploit-payload-4)
+- [uday952/CVE-2026-104711-Advanced-Variant](https://github.com/uday952/CVE-2026-104711-Advanced-Variant)
 
 ### CVE-2026-104826
 - [KiwKNR/CVE-2026-104826](https://github.com/KiwKNR/CVE-2026-104826)
@@ -25740,6 +25759,13 @@
 </code>
 
 - [byteReaper77/CVE-2025-41373](https://github.com/byteReaper77/CVE-2025-41373)
+
+### CVE-2025-41450 (2025-05-08)
+
+<code>Improper Authentication vulnerability in Danfoss AKSM8xxA Series.This issue affects Danfoss AK-SM 8xxA Series prior to version 4.2
+</code>
+
+- [msuiche/fromagegate](https://github.com/msuiche/fromagegate)
 
 ### CVE-2025-41646 (2025-06-06)
 
@@ -33522,6 +33548,7 @@
 - [Ianthinus/CVE-2024-4577](https://github.com/Ianthinus/CVE-2024-4577)
 - [a1ex-var1amov/ctf-cve-2024-4577](https://github.com/a1ex-var1amov/ctf-cve-2024-4577)
 - [rayngnpc/CVE-2024-4577-rayng](https://github.com/rayngnpc/CVE-2024-4577-rayng)
+- [lockbitblack-ai/CVE-2024-4577-new](https://github.com/lockbitblack-ai/CVE-2024-4577-new)
 - [gl1tch0x1/PHP_8.1.x_Exploit](https://github.com/gl1tch0x1/PHP_8.1.x_Exploit)
 - [Kanak-CypherX/cve-2024-4577-lab](https://github.com/Kanak-CypherX/cve-2024-4577-lab)
 - [razureink/cve-2024-4577-phpcgi_rce_reproduction](https://github.com/razureink/cve-2024-4577-phpcgi_rce_reproduction)
@@ -42714,6 +42741,7 @@
 - [seoyoung-kang/CVE-2024-53677](https://github.com/seoyoung-kang/CVE-2024-53677)
 - [sangrok-jeon/CVE-2024-53677-Analysis](https://github.com/sangrok-jeon/CVE-2024-53677-Analysis)
 - [ctfsec/CVE-2024-53677](https://github.com/ctfsec/CVE-2024-53677)
+- [choyj358/cve-2024-53677](https://github.com/choyj358/cve-2024-53677)
 
 ### CVE-2024-53691 (2024-12-06)
 
@@ -74933,6 +74961,7 @@
 - [kailing0220/CVE-2019-5418](https://github.com/kailing0220/CVE-2019-5418)
 - [daehyeok0618/CVE-2019-5418](https://github.com/daehyeok0618/CVE-2019-5418)
 - [CyberCTF/vulhub-rails-cve-2019-5418](https://github.com/CyberCTF/vulhub-rails-cve-2019-5418)
+- [5t1ck/rails-doubletap-py](https://github.com/5t1ck/rails-doubletap-py)
 
 ### CVE-2019-5420 (2019-03-27)
 
@@ -90127,6 +90156,7 @@
 - [EthicalHackingLabs/metasploitable2-exploitation-metasploit](https://github.com/EthicalHackingLabs/metasploitable2-exploitation-metasploit)
 - [Mboatella25/metasploitable-pentest-lab](https://github.com/Mboatella25/metasploitable-pentest-lab)
 - [ronankongala/metasploit-pentest-report](https://github.com/ronankongala/metasploit-pentest-report)
+- [ddiazcr/home-soc-lab](https://github.com/ddiazcr/home-soc-lab)
 - [rushikesh-a-bhujbal/CVE-2007-2447](https://github.com/rushikesh-a-bhujbal/CVE-2007-2447)
 - [malredfan/metasploitable2-pentest](https://github.com/malredfan/metasploitable2-pentest)
 
