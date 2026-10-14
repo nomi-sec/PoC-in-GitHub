@@ -2388,13 +2388,6 @@
 - [HORKimhab/CVE-2026-8037](https://github.com/HORKimhab/CVE-2026-8037)
 - [Caster-chen/CVE-2026-8037-POC](https://github.com/Caster-chen/CVE-2026-8037-POC)
 
-### CVE-2026-8053 (2026-05-12)
-
-<code>An issue in MongoDB Server's time-series collection implementation allows an authenticated user with database write privileges to trigger an out-of-bounds memory write in the mongod process. The issue results from an inconsistency in the internal field-name-to-index mapping within the time-series bucket catalog. Under certain conditions this can result in arbitrary code execution.\n\nThis issue impacts MongoDB Server v5.0 versions prior to 5.0.33, v6.0 versions prior to 6.0.28, v7.0 versions prior to 7.0.34, v8.0 versions prior to 8.0.23, v8.2 versions prior to 8.2.9 and v8.3 versions prior to 8.3.2.
-</code>
-
-- [mgiay/CVE-2026-8053-MongoDB](https://github.com/mgiay/CVE-2026-8053-MongoDB)
-
 ### CVE-2026-8054 (2026-05-27)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') in the Publish Audit API endpoints (/api/auditPublishing/get and /api/auditPublishing/getAll) in dotCMS Core 25.11.04-1 through 26.04.28-02 allows remote unauthenticated attackers to read, modify, or destroy arbitrary database content. The endpoints did not enforce authentication and accepted unsanitized input used in dynamically constructed SQL. The fix in dotCMS Core 26.04.28-03 requires an authenticated backend user with the publishing-queue portlet permission. LTS releases are not affected as the vulnerable code path was never backported.
@@ -3503,6 +3496,7 @@
 <code>IBM Langflow OSS 1.0.0 through 1.10.0 can allow attackers to execute arbitrary Python code with root privileges (UID=0) on the Langflow server by submitting components containing socket or urllib imports. This enables: (1) AWS credential theft via IMDSv1 SSRF with full IAM role permissions, (2) arbitrary file exfiltration from the container filesystem, and (3) lateral movement to internal services (PostgreSQL, Redis) within the Docker network. The scanner incorrectly returns &quot;validated&quot;: true, providing a false security signal.
 </code>
 
+- [cflowsec/CVE-2026-12944](https://github.com/cflowsec/CVE-2026-12944)
 - [ShadowForge-Cyber/CVE-2026-12944](https://github.com/ShadowForge-Cyber/CVE-2026-12944)
 
 ### CVE-2026-12948 (2026-07-07)
@@ -3825,6 +3819,13 @@
 
 - [FzRsLLaSheR/CVE-2026-14960-CVE-2026-14961](https://github.com/FzRsLLaSheR/CVE-2026-14960-CVE-2026-14961)
 
+### CVE-2026-14962 (2026-09-09)
+
+<code>The ELEX WooCommerce Request a Quote WordPress plugin before 2.4.1 does not properly sanitise and escape a parameter before using it in a SQL query, allowing unauthenticated users to perform SQL injection attacks and extract arbitrary data from the database.
+</code>
+
+- [cflowsec/CVE-2026-14962](https://github.com/cflowsec/CVE-2026-14962)
+
 ### CVE-2026-15013 (2026-07-16)
 
 <code>The SAML Single Sign On – SSO Login plugin for WordPress is vulnerable to Authentication Bypass via SAML Signature Algorithm Confusion in all versions up to, and including, 5.4.3. The vulnerability exists because `Mo_SAML_Utilities::mo_saml_cast_key()` reads the `SignatureMethod` Algorithm attribute directly from the attacker-controlled `SAMLResponse` parameter rather than enforcing the locally configured algorithm, causing the plugin to recast the IdP's RSA public key as an HMAC-SHA1 shared secret and validate the forged signature against it. This makes it possible for unauthenticated attackers to forge a SAML assertion targeting any WordPress account — including administrators — obtain valid WordPress authentication cookies, and achieve full administrator-level account takeover.
@@ -3921,6 +3922,13 @@
 </code>
 
 - [IamDremig/CVE-2026-15598](https://github.com/IamDremig/CVE-2026-15598)
+
+### CVE-2026-15667 (2026-09-09)
+
+<code>The Eventin – Event Calendar, Event Registration, Tickets &amp; Booking (AI Powered) plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 4.1.22 via the 'event_layout' parameter parameter. This makes it possible for authenticated attackers, with contributor-level access and above, to include and execute arbitrary .php files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where .php file types can be uploaded and included. The etn_manage_event capability is assigned to Contributors by default, meaning any Contributor-level user can set the malicious event_layout value via the REST API without any additional configuration.
+</code>
+
+- [cflowsec/CVE-2026-15667](https://github.com/cflowsec/CVE-2026-15667)
 
 ### CVE-2026-15706 (2026-08-20)
 
@@ -6634,13 +6642,6 @@
 
 - [lagathos/CVE-2026-25548](https://github.com/lagathos/CVE-2026-25548)
 
-### CVE-2026-25589 (2026-05-05)
-
-<code>RedisBloom is a probabilistic data structures module for Redis. In all versions of RedisBloom before 2.8.20, the module does not properly validate serialized values processed through the Redis RESTORE command. An authenticated attacker with permission to execute RESTORE on a server with the RedisBloom module loaded can supply a crafted serialized payload that triggers invalid memory access and may lead to remote code execution. A workaround is to restrict access to the RESTORE command with ACL rules. This issue is fixed in version 2.8.20.
-</code>
-
-- [mgiay/CVE-2026-25589-25588-25243-23631-23479-REDIS](https://github.com/mgiay/CVE-2026-25589-25588-25243-23631-23479-REDIS)
-
 ### CVE-2026-25594 (2026-02-18)
 
 <code>InvoicePlane is a self-hosted open source application for managing invoices, clients, and payments. A Stored Cross-Site Scripting (XSS) vulnerability exists in InvoicePlane 1.7.0 via the Family Name field. The `family_name` value is rendered without HTML encoding inside the family dropdown on the product form. When an administrator creates a family with a malicious name, the payload executes in the browser of any administrator who visits the product form. Version 1.7.1 patches the issue.
@@ -8527,6 +8528,7 @@
 - [0xBlackash/CVE-2026-31635](https://github.com/0xBlackash/CVE-2026-31635)
 - [Lutfifakee-Project/CVE-2026-31635](https://github.com/Lutfifakee-Project/CVE-2026-31635)
 - [0xFuffM3/CVE-2026-31635-DirtyDecrypt](https://github.com/0xFuffM3/CVE-2026-31635-DirtyDecrypt)
+- [Koshmare-Blossom/DirtyDecrypt-go](https://github.com/Koshmare-Blossom/DirtyDecrypt-go)
 
 ### CVE-2026-31694 (2026-05-01)
 
@@ -10888,13 +10890,6 @@
 
 - [kaleth4/CVE-2026-41303](https://github.com/kaleth4/CVE-2026-41303)
 
-### CVE-2026-41414 (2026-04-24)
-
-<code>Skim is a fuzzy finder designed to through files, lines, and commands. The generate-files job in .github/workflows/pr.yml checks out attacker-controlled fork code and executes it via cargo run, with access to SKIM_RS_BOT_PRIVATE_KEY and GITHUB_TOKEN (contents:write). No gates prevent exploitation - any GitHub user can trigger this by opening a pull request from a fork. This vulnerability is fixed with commit bf63404ad51985b00ed304690ba9d477860a5a75.
-</code>
-
-- [pvharmo2/gha-lab-456dd8a245](https://github.com/pvharmo2/gha-lab-456dd8a245)
-
 ### CVE-2026-41452 (2026-08-03)
 
 <code>Krayin CRM 2.2.4 contains a missing authentication vulnerability in the installer middleware that allows unauthenticated remote attackers to overwrite the primary administrator account by sending a crafted HTTP POST request with the X-Requested-With: XMLHttpRequest header to bypass the CanInstall middleware redirect check. Attackers can supply arbitrary name, email, and password values to the admin-config-setup endpoint, which performs an unauthenticated updateOrInsert targeting the hardcoded administrator user ID, enabling full administrative access to all CRM data.
@@ -11510,6 +11505,7 @@
 - [Quaerendir/dirtyfrag-audit](https://github.com/Quaerendir/dirtyfrag-audit)
 - [LucasPDiniz/CVE-2026-43284](https://github.com/LucasPDiniz/CVE-2026-43284)
 - [kuniyal08/Dirty-Frag-CVE-2026-43284](https://github.com/kuniyal08/Dirty-Frag-CVE-2026-43284)
+- [Koshmare-Blossom/DirtyFrag-go](https://github.com/Koshmare-Blossom/DirtyFrag-go)
 - [DylanClaudio/Reporte-de-Escalada-de-Privilegios-Local-Dirty-Frag](https://github.com/DylanClaudio/Reporte-de-Escalada-de-Privilegios-Local-Dirty-Frag)
 - [AtlasVector/Dirty-Frag-CVE-2026-43284](https://github.com/AtlasVector/Dirty-Frag-CVE-2026-43284)
 - [jayhutajulu1/CVE-2026-43284-DirtyFrag-PoC](https://github.com/jayhutajulu1/CVE-2026-43284-DirtyFrag-PoC)
@@ -11706,7 +11702,6 @@
 - [cyrrp/honor90-ghostlock](https://github.com/cyrrp/honor90-ghostlock)
 - [tingao/debian-on-s23-ultra](https://github.com/tingao/debian-on-s23-ultra)
 - [villager1314/CVE-2026-43499-Analysis](https://github.com/villager1314/CVE-2026-43499-Analysis)
-- [OhMyDitzzy/GhostLock-Next](https://github.com/OhMyDitzzy/GhostLock-Next)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -12049,7 +12044,7 @@
 
 - [shinthink/solrradar](https://github.com/shinthink/solrradar)
 - [gagaltotal/CVE-2026-44825-Apache-Solr-Scanner](https://github.com/gagaltotal/CVE-2026-44825-Apache-Solr-Scanner)
-- [q0524/CVE-2026-44825_test](https://github.com/q0524/CVE-2026-44825_test)
+- [q0524/cve-2026-44825-challenge](https://github.com/q0524/cve-2026-44825-challenge)
 
 ### CVE-2026-44840 (2026-07-08)
 
@@ -12345,6 +12340,7 @@
 </code>
 
 - [suominen/cifswitch](https://github.com/suominen/cifswitch)
+- [Koshmare-Blossom/CIFSwitch-go](https://github.com/Koshmare-Blossom/CIFSwitch-go)
 - [MrForkBomb/CIFSwitch-Checker-CVE-2026-46243](https://github.com/MrForkBomb/CIFSwitch-Checker-CVE-2026-46243)
 - [liamromanis101/cifswitch-check](https://github.com/liamromanis101/cifswitch-check)
 - [0xBlackash/CVE-2026-46243](https://github.com/0xBlackash/CVE-2026-46243)
@@ -13977,6 +13973,7 @@
 - [L0u7r3/certighost](https://github.com/L0u7r3/certighost)
 - [ZeroDayEvil/CVE-2026-54121-Certighost](https://github.com/ZeroDayEvil/CVE-2026-54121-Certighost)
 - [ZeroDayEvil/CVE-2026-54121](https://github.com/ZeroDayEvil/CVE-2026-54121)
+- [ushst/CVE-2026-54121-adcs-chase-nxc](https://github.com/ushst/CVE-2026-54121-adcs-chase-nxc)
 
 ### CVE-2026-54161
 - [ja-errorpro/CVE-2026-54161](https://github.com/ja-errorpro/CVE-2026-54161)
@@ -15263,7 +15260,6 @@
 </code>
 
 - [ByteV0rtex/CVE-2026-64788](https://github.com/ByteV0rtex/CVE-2026-64788)
-- [AmorCool/iOS26.6-CVE-2026-64788](https://github.com/AmorCool/iOS26.6-CVE-2026-64788)
 
 ### CVE-2026-64824 (2026-07-21)
 
@@ -15320,7 +15316,7 @@
 </code>
 
 - [ByteV0rtex/CVE-2026-65343](https://github.com/ByteV0rtex/CVE-2026-65343)
-- [AmorCool/iOS26.6-CVE-2026-65343](https://github.com/AmorCool/iOS26.6-CVE-2026-65343)
+- [lkop32788/iOS26.6-CVE-2026-65343](https://github.com/lkop32788/iOS26.6-CVE-2026-65343)
 - [hidayat-tanjung/CVE-2026-65343-e7eb2ed](https://github.com/hidayat-tanjung/CVE-2026-65343-e7eb2ed)
 
 ### CVE-2026-65349 (2026-08-17)
@@ -16432,6 +16428,12 @@
 - [0xBlackash/CVE-2026-74469](https://github.com/0xBlackash/CVE-2026-74469)
 - [HORKimhab/CVE-2026-74469](https://github.com/HORKimhab/CVE-2026-74469)
 
+### CVE-2026-74580 (2026-08-21)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nvhost: reset the vring metadata cache on vring reconfiguration\n\nvq-&gt;meta_iotlb[] caches the vhost_iotlb_map that backs each vring\nmetadata region, and iotlb_access_ok() returns early on a cache hit,\ntaking the hit as proof that the region has already been validated:\n\n</code>
+
+- [techupdate24/linux-kernel-cve-2026-74580-vghost](https://github.com/techupdate24/linux-kernel-cve-2026-74580-vghost)
+
 ### CVE-2026-74586 (2026-08-22)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nsctp: clear new_transport when removing a peer\n\nsctp_process_asconf_param() stores a newly added peer transport in\nasoc-&gt;new_transport. After all parameters in the ASCONF chunk have been\nprocessed, sctp_sf_do_asconf() uses this pointer to send a HEARTBEAT to the\nnew transport.\n\nAn authenticated ASCONF from a remote SCTP peer can add a transport and\nremove it again with a wildcard DEL-IP parameter in the same chunk. The\nwildcard deletion preserves the transport on which the ASCONF arrived, but\nremoves the newly added transport through\nsctp_assoc_del_nonprimary_peers(). The removal does not clear\nasoc-&gt;new_transport, leaving it pointing to the removed transport.\n\nsctp_sf_do_asconf() then creates a HEARTBEAT whose chunk-&gt;transport points\nto the removed transport without holding a transport reference. During\nlocal address replacement, src_out_of_asoc_ok keeps this HEARTBEAT on\ncontrol_chunk_list. After the transport is freed by RCU, a successful\nASCONF_ACK for the replacement address releases the queued HEARTBEAT and\nsctp_outq_select_transport() reads the freed transport's state.\n\nThe issue was found during a static audit of SCTP objects. With an\nauthenticated peer, the reproducer triggered the same KASAN report in 2\nof 2 unpatched runs on a KASAN-enabled netdev/main kernel:\n\n  BUG: KASAN: slab-use-after-free in sctp_outq_select_transport\n  Read of size 4 at addr ffff88800b9bd95c by task python3/197\n\n  Call Trace:\n   sctp_outq_select_transport+0x549/0x8b0 [sctp]\n   sctp_outq_flush+0x306/0x2c60 [sctp]\n   sctp_transport_immediate_rtx+0xaf/0x260 [sctp]\n   sctp_process_asconf_ack+0xa48/0xf70 [sctp]\n\n  Allocated by task 197:\n   sctp_transport_new+0x68/0x650 [sctp]\n   sctp_assoc_add_peer+0x258/0x12a0 [sctp]\n   sctp_process_asconf+0x5e9/0x1090 [sctp]\n\n  Last potentially related work creation:\n   __call_rcu_common.constprop.0+0x77/0xb70\n   sctp_assoc_del_nonprimary_peers+0x7c/0xd0 [sctp]\n   sctp_process_asconf+0xd9c/0x1090 [sctp]\n\nThe first invalid access was a four-byte read of transport-&gt;state at\nnet/sctp/outqueue.c:833. The same reproducer completed the full\nauthenticated ASCONF and local-address replacement sequence with this\nchange without a KASAN report or oops.\n\nClear new_transport when its peer is removed, before it can be used to\ncreate the HEARTBEAT.
@@ -16755,6 +16757,13 @@
 </code>
 
 - [abraxas/CVE-2026-77635](https://github.com/abraxas/CVE-2026-77635)
+
+### CVE-2026-77770 (2026-09-10)
+
+<code>The miniOrange 2FA  WordPress plugin before 6.3.1, miniOrange 2FA  WordPress plugin before 19.3 does not require a validated transaction before deleting site options whose names come from unauthenticated request input, allowing any visitor to delete arbitrary options, which can lock every administrator out of the dashboard or deactivate every miniOrange 2FA  WordPress plugin before 6.3.1, miniOrange 2FA  WordPress plugin before 19.3 on the site.
+</code>
+
+- [cflowsec/CVE-2026-77770](https://github.com/cflowsec/CVE-2026-77770)
 
 ### CVE-2026-77771 (2026-09-10)
 
@@ -17327,6 +17336,7 @@
 - [Eliot-code/CVE-2026-85046](https://github.com/Eliot-code/CVE-2026-85046)
 - [SneakyNachos/CVE-2026-85046-who-put-the-silverback-guerilla-in-the-wasm](https://github.com/SneakyNachos/CVE-2026-85046-who-put-the-silverback-guerilla-in-the-wasm)
 - [atiilla/CVE-2026-85046](https://github.com/atiilla/CVE-2026-85046)
+- [jamezx32/CVE-2026-85046](https://github.com/jamezx32/CVE-2026-85046)
 
 ### CVE-2026-85048 (2026-09-03)
 
@@ -17737,6 +17747,7 @@
 <code>The Issabel Framework, the web framework supporting Issabel PBX software, before commit b97dbaf contains a hard-coded HS256 JWT signing key in the pbxapi index.php file that is identical across every installation, allowing unauthenticated remote attackers to forge valid bearer tokens. Attackers can use the forged token to call the manager originate endpoint with the System application parameter, causing Asterisk to execute arbitrary OS commands as the Asterisk user. Exploitation evidence was first observed by the Shadowserver Foundation on 2026-09-09.
 </code>
 
+- [cflowsec/CVE-2026-89026](https://github.com/cflowsec/CVE-2026-89026)
 - [AranFarzami/CVE-2026-89026](https://github.com/AranFarzami/CVE-2026-89026)
 
 ### CVE-2026-89055 (2026-09-25)
@@ -17905,6 +17916,13 @@
 </code>
 
 - [grepstrength/CVE-2026-92680](https://github.com/grepstrength/CVE-2026-92680)
+
+### CVE-2026-92805 (2026-09-16)
+
+<code>UVdesk Community Skeleton through 1.1.8 fails to authenticate or validate installation state on wizard endpoints in ConfigureHelpdesk controller actions. Unauthenticated attackers can repoint the database and create super administrator accounts by submitting crafted requests to wizard endpoints, gaining full control of the instance.
+</code>
+
+- [cflowsec/CVE-2026-92805](https://github.com/cflowsec/CVE-2026-92805)
 
 ### CVE-2026-92956 (2026-09-17)
 
@@ -18078,6 +18096,13 @@
 </code>
 
 - [Wayang1337/CVE-2026-94503](https://github.com/Wayang1337/CVE-2026-94503)
+
+### CVE-2026-94504 (2026-09-22)
+
+<code>Ninja Forms 3.15.3 stores an anonymous non-RTE textarea value and renders it without safe HTML encoding in the legacy submission editor. An attacker can break out of the textarea with stored script. When an Administrator opens the attacker-known direct submission URL, the script runs in the WordPress admin origin.
+</code>
+
+- [cflowsec/cve-2026-94504](https://github.com/cflowsec/cve-2026-94504)
 
 ### CVE-2026-94541 (2026-10-02)
 
@@ -18270,6 +18295,13 @@
 </code>
 
 - [JailBr3ak/CVE-2026-97347](https://github.com/JailBr3ak/CVE-2026-97347)
+
+### CVE-2026-97657 (2026-10-14)
+
+<code>The Abandoned Cart Pro for WooCommerce plugin for WordPress is vulnerable to Authentication Bypass via Malleable Encryption and Bypassable HMAC in all versions up to, and including, 10.8.0. This is due to the use of MAC-free AES-CTR encryption for cart-recovery link tokens — where the 8-byte CTR nonce is carried inside the ciphertext blob and the encryption key is looked up using the attacker-supplied `user_email` GET parameter — combined with an HMAC nonce check in `wcap_email_track_links()` that is only enforced when the `wcap_nonce` parameter is non-empty, allowing complete bypass by omission, and an insecure direct object reference on the decrypted `abandoned_id` with no ownership verification confirming the cart belongs to the email used for decryption. This makes it possible for unauthenticated attackers who possess a single legitimate cart-recovery link (obtained from their own reminder email) to recover the keystream, forge a ciphertext that decrypts to any victim's cart ID, and trigger a call to `wp_set_auth_cookie()` for the victim user — achieving full account takeover of any user who has ever abandoned a cart, including administrators. The auto-login feature defaults to enabled and is forced on during plugin upgrades, meaning all affected installations are exploitable without any additional configuration.
+</code>
+
+- [murrez/CVE-2026-97657](https://github.com/murrez/CVE-2026-97657)
 
 ### CVE-2026-100380 (2026-09-25)
 
@@ -18716,6 +18748,13 @@
 - [uday952/CVE-2026-104711-Advanced-Variant](https://github.com/uday952/CVE-2026-104711-Advanced-Variant)
 - [uday952/CVE-2026-104711-POC---Brand-New](https://github.com/uday952/CVE-2026-104711-POC---Brand-New)
 
+### CVE-2026-104748 (2026-10-14)
+
+<code>The SimpleForm – Form Maker to Chat Apps with Quiz, Poll and Multi Lead Notifications plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.10.0 This is due to the `wp_ajax_nopriv_simpleform_wp_register` AJAX action lacking any capability check for role assignment and the `save_custom_fields_to_user_meta()` function using an exclusion list that omits `wp_capabilities`, combined with `get_form_settings()` returning a hard-coded defaults array that unconditionally enables meta writing regardless of the supplied `form_id`. This makes it possible for unauthenticated attackers to create a new Administrator-level WordPress account by supplying `wp_capabilities[administrator]=1` alongside standard registration fields. The nonce required by the endpoint is publicly emitted into the `front_end_data` JavaScript object on every front-end page via `wp_enqueue_scripts`, making it trivially obtainable by any unauthenticated visitor before submitting the malicious request.
+</code>
+
+- [joshuavanderpoll/CVE-2026-104748](https://github.com/joshuavanderpoll/CVE-2026-104748)
+
 ### CVE-2026-104826
 - [KiwKNR/CVE-2026-104826](https://github.com/KiwKNR/CVE-2026-104826)
 
@@ -18859,6 +18898,9 @@
 
 - [techupdate24/citrix-netscaler-rce-cve-2026-107406](https://github.com/techupdate24/citrix-netscaler-rce-cve-2026-107406)
 - [ctroy999/CVE-2026-107406](https://github.com/ctroy999/CVE-2026-107406)
+
+### CVE-2026-107692
+- [thewhatdohe/CVE-2026-107692](https://github.com/thewhatdohe/CVE-2026-107692)
 
 ### CVE-2026-107806 (2026-10-09)
 
@@ -21910,6 +21952,13 @@
 - [cyberdudebivash/CYBERDUDEBIVASH-ServiceNow-AI-Agent-Audit-Script](https://github.com/cyberdudebivash/CYBERDUDEBIVASH-ServiceNow-AI-Agent-Audit-Script)
 - [OloladeAbiola03/aisecplus-week01-servicenow-ai-security-incident](https://github.com/OloladeAbiola03/aisecplus-week01-servicenow-ai-security-incident)
 
+### CVE-2025-12433 (2025-11-10)
+
+<code>Inappropriate implementation in V8 in Google Chrome prior to 142.0.7444.59 allowed a remote attacker to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [jamezx32/CVE-2025-12433](https://github.com/jamezx32/CVE-2025-12433)
+
 ### CVE-2025-12539 (2025-11-11)
 
 <code>The TNC Toolbox: Web Performance plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.4.2. This is due to the plugin storing cPanel API credentials (hostname, username, and API key) in files within the web-accessible wp-content directory without adequate protection in the &quot;Tnc_Wp_Toolbox_Settings::save_settings&quot; function. This makes it possible for unauthenticated attackers to retrieve these credentials and use them to interact with the cPanel API, which can lead to arbitrary file uploads, remote code execution, and full compromise of the hosting environment.
@@ -22037,6 +22086,13 @@
 </code>
 
 - [MooseLoveti/Flo-Forms-CVE-Report](https://github.com/MooseLoveti/Flo-Forms-CVE-Report)
+
+### CVE-2025-13224 (2025-11-17)
+
+<code>Type Confusion in V8 in Google Chrome prior to 142.0.7444.175 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [jamezx32/CVE-2025-13224](https://github.com/jamezx32/CVE-2025-13224)
 
 ### CVE-2025-13315 (2025-11-19)
 
@@ -33067,6 +33123,7 @@
 - [rycbar77/CVE-2024-2887](https://github.com/rycbar77/CVE-2024-2887)
 - [jjyuorg/reproduce-cve-2024-2887](https://github.com/jjyuorg/reproduce-cve-2024-2887)
 - [ad3210/CVE-2024-2887-REPORT](https://github.com/ad3210/CVE-2024-2887-REPORT)
+- [jamezx32/CVE-2024-2887](https://github.com/jamezx32/CVE-2024-2887)
 
 ### CVE-2024-2928 (2024-06-06)
 
@@ -33889,6 +33946,7 @@
 
 - [Alchemist3dot14/CVE-2024-5274-Detection](https://github.com/Alchemist3dot14/CVE-2024-5274-Detection)
 - [mistymntncop/CVE-2024-5274](https://github.com/mistymntncop/CVE-2024-5274)
+- [jamezx32/CVE-2024-5274](https://github.com/jamezx32/CVE-2024-5274)
 
 ### CVE-2024-5324 (2024-06-06)
 
@@ -36677,6 +36735,7 @@
 
 - [Rohitberiwala/CVE-2024-23222-Coruna-Exploit-Kit-Deobfuscated](https://github.com/Rohitberiwala/CVE-2024-23222-Coruna-Exploit-Kit-Deobfuscated)
 - [FuzzySecurity/Cassowary-CVE-2024-23222-x86_64](https://github.com/FuzzySecurity/Cassowary-CVE-2024-23222-x86_64)
+- [jamezx32/CVE-2024-23222](https://github.com/jamezx32/CVE-2024-23222)
 
 ### CVE-2024-23296 (2024-03-05)
 
@@ -39856,7 +39915,6 @@
 - [thanawee321/CVE-2024-38063](https://github.com/thanawee321/CVE-2024-38063)
 - [AliHj98/cve-2024-38063-Anonyvader](https://github.com/AliHj98/cve-2024-38063-Anonyvader)
 - [Dragkob/CVE-2024-38063](https://github.com/Dragkob/CVE-2024-38063)
-- [fredagsguf/Windows-CVE-2024-38063](https://github.com/fredagsguf/Windows-CVE-2024-38063)
 - [jip-0-0-0-0-0/CVE-2024-38063-scanner](https://github.com/jip-0-0-0-0-0/CVE-2024-38063-scanner)
 - [Skac44/CVE-2024-38063](https://github.com/Skac44/CVE-2024-38063)
 - [thealice01/CVE-2024-38063](https://github.com/thealice01/CVE-2024-38063)
@@ -44214,6 +44272,7 @@
 - [gretchenfrage/CVE-2023-2033-analysis](https://github.com/gretchenfrage/CVE-2023-2033-analysis)
 - [mistymntncop/CVE-2023-2033](https://github.com/mistymntncop/CVE-2023-2033)
 - [tianstcht/CVE-2023-2033](https://github.com/tianstcht/CVE-2023-2033)
+- [jamezx32/CVE-2023-2033](https://github.com/jamezx32/CVE-2023-2033)
 
 ### CVE-2023-2114 (2023-05-08)
 
@@ -50862,6 +50921,7 @@
 - [hrtowii/cve-2023-41993-test](https://github.com/hrtowii/cve-2023-41993-test)
 - [0x06060606/CVE-2023-41993](https://github.com/0x06060606/CVE-2023-41993)
 - [J3Ss0u/CVE-2023-41993](https://github.com/J3Ss0u/CVE-2023-41993)
+- [jamezx32/CVE-2023-41993](https://github.com/jamezx32/CVE-2023-41993)
 
 ### CVE-2023-42115 (2024-05-03)
 
@@ -53815,6 +53875,7 @@
 
 - [A1Lin/cve-2022-1364](https://github.com/A1Lin/cve-2022-1364)
 - [interruptlabs/uc_browser_poc_CVE-2022-1364](https://github.com/interruptlabs/uc_browser_poc_CVE-2022-1364)
+- [jamezx32/CVE-2022-1364](https://github.com/jamezx32/CVE-2022-1364)
 
 ### CVE-2022-1386 (2022-05-16)
 
@@ -64358,6 +64419,13 @@
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
 
+### CVE-2021-30517 (2021-06-04)
+
+<code>Type confusion in V8 in Google Chrome prior to 90.0.4430.212 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
+- [jamezx32/CVE-2021-30517](https://github.com/jamezx32/CVE-2021-30517)
+
 ### CVE-2021-30535 (2021-06-07)
 
 <code>Double free in ICU in Google Chrome prior to 91.0.4472.77 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
@@ -65510,6 +65578,7 @@
 </code>
 
 - [SpiralBL0CK/Chrome-V8-RCE-CVE-2021-38003](https://github.com/SpiralBL0CK/Chrome-V8-RCE-CVE-2021-38003)
+- [jamezx32/CVE-2021-38003](https://github.com/jamezx32/CVE-2021-38003)
 
 ### CVE-2021-38149 (2021-08-06)
 
@@ -68968,6 +69037,7 @@
 - [MrTiz/CVE-2020-0688](https://github.com/MrTiz/CVE-2020-0688)
 - [7heKnight/CVE-2020-0688](https://github.com/7heKnight/CVE-2020-0688)
 - [1337-llama/CVE-2020-0688-Python3](https://github.com/1337-llama/CVE-2020-0688-Python3)
+- [chudamax/CVE-2020-0688-Exchange2010](https://github.com/chudamax/CVE-2020-0688-Exchange2010)
 - [W01fh4cker/CVE-2020-0688-GUI](https://github.com/W01fh4cker/CVE-2020-0688-GUI)
 - [tvdat20004/CVE-2020-0688](https://github.com/tvdat20004/CVE-2020-0688)
 - [iamwajd/Cyber-Attack-Analysis](https://github.com/iamwajd/Cyber-Attack-Analysis)
@@ -72567,6 +72637,7 @@
 - [CaptainChicky/MiniPlasma](https://github.com/CaptainChicky/MiniPlasma)
 - [arch1m3d/MiniPlasma-Detection](https://github.com/arch1m3d/MiniPlasma-Detection)
 - [AlexLinov/MiniPlasma-Runner](https://github.com/AlexLinov/MiniPlasma-Runner)
+- [dooodad/MiniPlasma](https://github.com/dooodad/MiniPlasma)
 - [mohammadzarnian1357/MiniPlasma](https://github.com/mohammadzarnian1357/MiniPlasma)
 - [rfranca777/miniplasma-advisory](https://github.com/rfranca777/miniplasma-advisory)
 - [0xBlackash/CVE-2020-17103](https://github.com/0xBlackash/CVE-2020-17103)
@@ -74279,6 +74350,7 @@
 - [NatteeSetobol/Chakra-CVE-2019-0567](https://github.com/NatteeSetobol/Chakra-CVE-2019-0567)
 - [NatteeSetobol/CVE-2019-0567-MS-Edge](https://github.com/NatteeSetobol/CVE-2019-0567-MS-Edge)
 - [ntdelta/chakra-exploit-framework](https://github.com/ntdelta/chakra-exploit-framework)
+- [jamezx32/CVE-2019-0567](https://github.com/jamezx32/CVE-2019-0567)
 
 ### CVE-2019-0604 (2019-03-06)
 
@@ -79264,6 +79336,13 @@
 </code>
 
 - [jamf/TELUGU_CVE-2018-4124_POC](https://github.com/jamf/TELUGU_CVE-2018-4124_POC)
+
+### CVE-2018-4125 (2018-04-03)
+
+<code>An issue was discovered in certain Apple products. iOS before 11.3 is affected. Safari before 11.1 is affected. iCloud before 7.4 on Windows is affected. iTunes before 12.7.4 on Windows is affected. tvOS before 11.3 is affected. watchOS before 4.3 is affected. The issue involves the &quot;WebKit&quot; component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site.
+</code>
+
+- [jamezx32/CVE-2018-4125-4161-4162-4163](https://github.com/jamezx32/CVE-2018-4125-4161-4162-4163)
 
 ### CVE-2018-4150 (2018-04-03)
 
@@ -85778,6 +85857,7 @@
 - [voidgguy/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195](https://github.com/voidgguy/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195)
 - [KongQBin/CVE-2016-5195](https://github.com/KongQBin/CVE-2016-5195)
 - [vudangducminh/CVE-2016-5195](https://github.com/vudangducminh/CVE-2016-5195)
+- [Mr-Ochobot/CVE-2016-5195](https://github.com/Mr-Ochobot/CVE-2016-5195)
 
 ### CVE-2016-5345 (2018-01-23)
 
@@ -89481,6 +89561,7 @@
 - [Spidey1919/vsftpd-2.3.4-rce-assessment](https://github.com/Spidey1919/vsftpd-2.3.4-rce-assessment)
 - [Vijishanmugavel/metasploitable2-vsftpd-cve-2011-2523](https://github.com/Vijishanmugavel/metasploitable2-vsftpd-cve-2011-2523)
 - [diceverick/vulnerability-assessment-lab](https://github.com/diceverick/vulnerability-assessment-lab)
+- [Nutsulejustine/pentest-metasploitable](https://github.com/Nutsulejustine/pentest-metasploitable)
 
 ### CVE-2011-2553
 - [carlosrpastrana/cve-2011-2553](https://github.com/carlosrpastrana/cve-2011-2553)
@@ -90730,6 +90811,7 @@
 
 - [ratiros01/CVE-2002-0082](https://github.com/ratiros01/CVE-2002-0082)
 - [anilkashyap01/Binary-Exploitation-and-Kernel-Escalation](https://github.com/anilkashyap01/Binary-Exploitation-and-Kernel-Escalation)
+- [Nutsulejustine/pentest-kioptrix](https://github.com/Nutsulejustine/pentest-kioptrix)
 
 ### CVE-2002-0200 (2002-05-03)
 
