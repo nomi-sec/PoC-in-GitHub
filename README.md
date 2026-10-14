@@ -4138,6 +4138,13 @@
 
 - [flenz00/CVE-2026-18110-PoC](https://github.com/flenz00/CVE-2026-18110-PoC)
 
+### CVE-2026-18116 (2026-09-14)
+
+<code>Concrete CMS 8.3.0 to 9.5.2 stored calendar event names without sanitization and rendered them without HTML escaping in the workflow approval and deletion notifications shown in the dashboard &quot;Waiting For Me&quot; block. A registered user permitted to add events to a calendar governed by an approval workflow could submit an event whose name contained a script payload, which then executed in an administrator's browser when the pending request was displayed and could be used to create a new administrator account. The Concrete CMS security team gave this vulnerability a CVSS v4.0 score of 7.3 with vector CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N. Thanks v01demort for reporting.
+</code>
+
+- [EndlssNightmare/CVE-2026-18116](https://github.com/EndlssNightmare/CVE-2026-18116)
+
 ### CVE-2026-18143 (2026-09-26)
 
 <code>The Request a Quote for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.9.2 via the `afrfq_submit_quote_via_popup()` function. This is due to missing file extension and MIME type validation in the popup upload handler, which uses the raw attacker-supplied filename directly as the destination for `move_uploaded_file()`. This makes it possible for unauthenticated attackers to upload executable files, such as PHP files, to a web-accessible temporary RFQ upload directory when a public quote rule with the multi-page popup flow is enabled.
@@ -15038,6 +15045,7 @@
 
 - [imbas007/CVE-2026-63223-POC](https://github.com/imbas007/CVE-2026-63223-POC)
 - [shinthink/CVE-2026-63223](https://github.com/shinthink/CVE-2026-63223)
+- [myeongji1/cve-2026-63223-ctf](https://github.com/myeongji1/cve-2026-63223-ctf)
 
 ### CVE-2026-63277 (2026-10-05)
 
@@ -18706,8 +18714,7 @@
 
 - [uday952/CVE-2026-104711](https://github.com/uday952/CVE-2026-104711)
 - [uday952/CVE-2026-104711-Advanced-Variant](https://github.com/uday952/CVE-2026-104711-Advanced-Variant)
-- [pochunter/POC-EXPLOIT-CVE-2026-104711](https://github.com/pochunter/POC-EXPLOIT-CVE-2026-104711)
-- [pochunter/POC-for-CVE-2026-104711---New](https://github.com/pochunter/POC-for-CVE-2026-104711---New)
+- [uday952/CVE-2026-104711-POC---Brand-New](https://github.com/uday952/CVE-2026-104711-POC---Brand-New)
 
 ### CVE-2026-104826
 - [KiwKNR/CVE-2026-104826](https://github.com/KiwKNR/CVE-2026-104826)
@@ -59158,6 +59165,7 @@
 - [xun404/spd_dump-macos](https://github.com/xun404/spd_dump-macos)
 - [Gadorach/vankyo-s30-bootloader-unlock](https://github.com/Gadorach/vankyo-s30-bootloader-unlock)
 - [redzrush101/zte-blade-v40-vita-unlock](https://github.com/redzrush101/zte-blade-v40-vita-unlock)
+- [mpse-engineering/BLU_G35](https://github.com/mpse-engineering/BLU_G35)
 
 ### CVE-2022-38725 (2023-01-23)
 
