@@ -12066,7 +12066,7 @@
 
 - [shinthink/solrradar](https://github.com/shinthink/solrradar)
 - [gagaltotal/CVE-2026-44825-Apache-Solr-Scanner](https://github.com/gagaltotal/CVE-2026-44825-Apache-Solr-Scanner)
-- [q0524/cve-2026-44825-challenge](https://github.com/q0524/cve-2026-44825-challenge)
+- [q0524/CVE-2026-44825_CTF](https://github.com/q0524/CVE-2026-44825_CTF)
 
 ### CVE-2026-44840 (2026-07-08)
 
@@ -16701,6 +16701,13 @@
 
 - [ShadowForge-Cyber/CVE-2026-76504-Proof-of-concept](https://github.com/ShadowForge-Cyber/CVE-2026-76504-Proof-of-concept)
 
+### CVE-2026-76519 (2026-10-14)
+
+<code>A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.\r\n\r\nThis vulnerability is due to improper handling of email attachments when the file reputation service is enabled. An attacker could exploit this vulnerability by sending an email that contains a crafted attachment through an affected device. A successful exploit could allow the attacker to write arbitrary files and execute commands with&amp;nbsp;root privileges on the underlying operating system.
+</code>
+
+- [Mickysalivan/CVE-2026-76519-POC](https://github.com/Mickysalivan/CVE-2026-76519-POC)
+
 ### CVE-2026-76547 (2026-08-29)
 
 <code>The User Profile Builder  WordPress plugin before 4.0.1 does not validate the type of data being deserialized when importing a configuration file, allowing high privilege users such as administrators to conduct PHP Object Injection. The affected feature is a free add-on which is disabled by default, and no POP chain is present in the User Profile Builder  WordPress plugin before 4.0.1 itself, so further impact requires a suitable gadget from another installed User Profile Builder  WordPress plugin before 4.0.1 or .
@@ -17893,13 +17900,6 @@
 
 - [techupdate24/gitlab-ai-gateway-cve-2026-90970](https://github.com/techupdate24/gitlab-ai-gateway-cve-2026-90970)
 
-### CVE-2026-90977 (2026-09-18)
-
-<code>The Clean Login WordPress plugin before 1.19 does not verify its registration CAPTCHA when the stored session value is empty, allowing unauthenticated users to bypass the anti-automation control on the registration form and create accounts without solving it.
-</code>
-
-- [aminquliyev057/CVE-2026-90977](https://github.com/aminquliyev057/CVE-2026-90977)
-
 ### CVE-2026-91097 (2026-09-16)
 
 <code>HP has identified and remediated multiple externally reported vulnerabilities within HPLIP. The findings affect several software components that could potentially enable remote code execution, privilege escalation, denial of service, information disclosure, or unauthorized file modification under certain conditions.
@@ -18215,6 +18215,13 @@
 </code>
 
 - [d6fault/CVE-2026-95675](https://github.com/d6fault/CVE-2026-95675)
+
+### CVE-2026-96230 (2026-10-13)
+
+<code>Improper neutralization of input during web page generation ('cross-site scripting') in ASP.NET Core allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [codevalai/microsoft-security-advisory-cv](https://github.com/codevalai/microsoft-security-advisory-cv)
 
 ### CVE-2026-96349 (2026-09-30)
 
@@ -18739,7 +18746,11 @@
 
 - [abraxas/cve-2026-103956-loom-unauth](https://github.com/abraxas/cve-2026-103956-loom-unauth)
 
-### CVE-2026-103977
+### CVE-2026-103977 (2026-10-14)
+
+<code>FileRise is a self-hosted web-based file manager with multi-file upload, editing, and batch operations. Prior to 3.23.0, FileRise stores failed TOTP verification attempts in $_SESSION. An attacker who already possesses a target account's valid primary credential can restart the login workflow in a new session and restore the second-factor attempt allowance, permitting continued online TOTP guessing beyond the intended five-attempt limit. The pending-login TOTP handlers did not share a durable account-wide limit. This issue is fixed in version 3.23.0.
+</code>
+
 - [pervinzahidli/CVE-2026-103977](https://github.com/pervinzahidli/CVE-2026-103977)
 
 ### CVE-2026-103978
@@ -18759,7 +18770,11 @@
 
 - [eev4n/smartermail](https://github.com/eev4n/smartermail)
 
-### CVE-2026-104110
+### CVE-2026-104110 (2026-10-14)
+
+<code>FileRise is a self-hosted web-based file manager with multi-file upload, editing, and batch operations. Prior to 3.24.0, FileRise Pro /api/pro/portals/get.php returns a configured client portal's full internal record to an unauthenticated caller who knows or guesses the portal slug. The response includes the internal storage folder path, client contact email, form settings, and upload-policy details, while the separate publicMeta.php endpoint intentionally exposes only curated branding data. Exploitation requires the Pro add-on and at least one configured portal. This issue is fixed in version 3.24.0.
+</code>
+
 - [pervinzahidli/CVE-2026-104110](https://github.com/pervinzahidli/CVE-2026-104110)
 
 ### CVE-2026-104286 (2026-10-01)
@@ -18843,6 +18858,7 @@
 </code>
 
 - [ApexBreach/CVE-2026-104935-Proof-of-concept](https://github.com/ApexBreach/CVE-2026-104935-Proof-of-concept)
+- [0x45dd/ivanti-cve-2026-104935-check](https://github.com/0x45dd/ivanti-cve-2026-104935-check)
 
 ### CVE-2026-104944 (2026-10-06)
 
@@ -18951,6 +18967,9 @@
 </code>
 
 - [KevineCharles/CVE-2026-106610-miniorange-otp-ato](https://github.com/KevineCharles/CVE-2026-106610-miniorange-otp-ato)
+
+### CVE-2026-107081
+- [Primandito/CVE-2026-107081](https://github.com/Primandito/CVE-2026-107081)
 
 ### CVE-2026-107159 (2026-10-07)
 
@@ -32748,7 +32767,6 @@
 - [elsevar11/CVE-2024-0670-CheckMK-Agent-Local-Privilege-Escalation-Exploit](https://github.com/elsevar11/CVE-2024-0670-CheckMK-Agent-Local-Privilege-Escalation-Exploit)
 - [Nikopmpm/Fsociety-CVE-2024-0670-CheckMK-LPE](https://github.com/Nikopmpm/Fsociety-CVE-2024-0670-CheckMK-LPE)
 - [Nikopmpm/nikopmpm.github.io](https://github.com/Nikopmpm/nikopmpm.github.io)
-- [tralsesec/CVE-2024-0670](https://github.com/tralsesec/CVE-2024-0670)
 - [taktak0x/HTB-NanoCorp-CVE-2024-0670](https://github.com/taktak0x/HTB-NanoCorp-CVE-2024-0670)
 
 ### CVE-2024-0679 (2024-01-20)
@@ -61586,7 +61604,7 @@
 <code>Possible use after free due to improper handling of memory mapping of multiple processes simultaneously. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables
 </code>
 
-- [Gonvar/kgsl-1905-msm8953](https://github.com/Gonvar/kgsl-1905-msm8953)
+- [Gonvar/movistar-home-root-](https://github.com/Gonvar/movistar-home-root-)
 
 ### CVE-2021-1931 (2021-07-13)
 
@@ -62403,6 +62421,7 @@
 - [nicoibarburu/CVE-2021-4034](https://github.com/nicoibarburu/CVE-2021-4034)
 - [iurhfiu6/CVE-2021-4034](https://github.com/iurhfiu6/CVE-2021-4034)
 - [r00t-byte/Pwnkit-CVE-2021-4034-LPE](https://github.com/r00t-byte/Pwnkit-CVE-2021-4034-LPE)
+- [SerhiiMaruniak/CVE-2021-4034](https://github.com/SerhiiMaruniak/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
