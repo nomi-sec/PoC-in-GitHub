@@ -435,13 +435,6 @@
 
 - [ch4r0nn/CVE-2026-1056-POC](https://github.com/ch4r0nn/CVE-2026-1056-POC)
 
-### CVE-2026-1107 (2026-01-18)
-
-<code>A weakness has been identified in EyouCMS up to 1.7.1/5.0. Impacted is the function check_userinfo of the file Diyajax.php of the component Member Avatar Handler. Executing a manipulation of the argument viewfile can lead to unrestricted upload. The attack may be performed from remote. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.
-</code>
-
-- [Iniivan13/CVE-2026-1107](https://github.com/Iniivan13/CVE-2026-1107)
-
 ### CVE-2026-1111 (2026-01-18)
 
 <code>A vulnerability has been found in Sanluan PublicCMS up to 5.202506.d. This impacts the function Save of the file com/publiccms/controller/admin/sys/TaskTemplateAdminController.java of the component Task Template Management Handler. Such manipulation of the argument path leads to path traversal. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
@@ -3371,6 +3364,13 @@
 
 - [gduma-phData/patch-CVE-2026-12087](https://github.com/gduma-phData/patch-CVE-2026-12087)
 
+### CVE-2026-12118 (2026-07-30)
+
+<code>IBM webMethods Integration (on prem) 10.15, 10.11 could allow an unauthenticated remote attacker to execute arbitrary code on the system due to the deserialization of untrusted data.
+</code>
+
+- [uday952/CVE-2026-12118-POC-](https://github.com/uday952/CVE-2026-12118-POC-)
+
 ### CVE-2026-12166 (2026-07-02)
 
 <code>A NULL pointer dereference vulnerability for driver `GFAC_Sys_x64.sys` in Little Orbit GFAC allows a local attacker to cause a denial of service via crafted requests that trigger a system crash.
@@ -4329,6 +4329,7 @@
 - [ivanesk315/CVE-2026-18963](https://github.com/ivanesk315/CVE-2026-18963)
 - [SonOfABot/-CVE-2026-18963-POC](https://github.com/SonOfABot/-CVE-2026-18963-POC)
 - [hardeep-sudo/Keycloak-CVE-2026-18963-Exploit](https://github.com/hardeep-sudo/Keycloak-CVE-2026-18963-Exploit)
+- [orevim/CVE-2026-18963-PoC](https://github.com/orevim/CVE-2026-18963-PoC)
 
 ### CVE-2026-19089 (2026-08-10)
 
@@ -4869,6 +4870,7 @@
 - [EQSTLab/CVE-2026-20896](https://github.com/EQSTLab/CVE-2026-20896)
 - [judgedbykira/CVE-2026-20896-Gitea-Authentication-Bypass](https://github.com/judgedbykira/CVE-2026-20896-Gitea-Authentication-Bypass)
 - [yym8538/CVE-2026-20896](https://github.com/yym8538/CVE-2026-20896)
+- [Raincombat/CVE-2026-20896-Gitea-CTF](https://github.com/Raincombat/CVE-2026-20896-Gitea-CTF)
 
 ### CVE-2026-20980 (2026-02-04)
 
@@ -6235,6 +6237,13 @@
 </code>
 
 - [aniketlab/POCO-M7-Plus-Jailbreak](https://github.com/aniketlab/POCO-M7-Plus-Jailbreak)
+
+### CVE-2026-24090 (2026-06-01)
+
+<code>Cryptographic issue while processing partition table entries allows unauthorized modification of boot flow.
+</code>
+
+- [wnduddld0513/Lenovo_Qcom_RPMB_Tool](https://github.com/wnduddld0513/Lenovo_Qcom_RPMB_Tool)
 
 ### CVE-2026-24102
 - [SimoesCTT/CTT-Kernel-Resonance-io_uring-Temporal-Phase-Transition](https://github.com/SimoesCTT/CTT-Kernel-Resonance-io_uring-Temporal-Phase-Transition)
@@ -8050,13 +8059,6 @@
 </code>
 
 - [drkim-dev/CVE-2026-30862](https://github.com/drkim-dev/CVE-2026-30862)
-
-### CVE-2026-30863 (2026-03-07)
-
-<code>Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Prior to versions 8.6.10 and 9.5.0-alpha.11, the Google, Apple, and Facebook authentication adapters use JWT verification to validate identity tokens. When the adapter's audience configuration option is not set (clientId for Google/Apple, appIds for Facebook), JWT verification silently skips audience claim validation. This allows an attacker to use a validly signed JWT issued for a different application to authenticate as any user on the target Parse Server. This issue has been patched in versions 8.6.10 and 9.5.0-alpha.11.
-</code>
-
-- [Worthes/CVE-2026-30863-Exploit](https://github.com/Worthes/CVE-2026-30863-Exploit)
 
 ### CVE-2026-30944 (2026-03-10)
 
@@ -11728,6 +11730,7 @@
 - [cyrrp/honor90-ghostlock](https://github.com/cyrrp/honor90-ghostlock)
 - [tingao/debian-on-s23-ultra](https://github.com/tingao/debian-on-s23-ultra)
 - [villager1314/CVE-2026-43499-Analysis](https://github.com/villager1314/CVE-2026-43499-Analysis)
+- [y896406256-lang/ghostlock-brt-w09](https://github.com/y896406256-lang/ghostlock-brt-w09)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -16829,6 +16832,13 @@
 ### CVE-2026-77276
 - [Morzan6/CVE-2026-77276-PoC](https://github.com/Morzan6/CVE-2026-77276-PoC)
 
+### CVE-2026-77521 (2026-09-21)
+
+<code>MaxKB is an open-source AI assistant for enterprise. Prior to version 2.10.5-lts, assistants with a tool, MCP tool, skill, or sub-application use SandboxShellBackend, which exposes an execute shell tool without excluding it and omits execute from interrupt_on, so human approval is not required. Untrusted chat or ingested content can therefore cause command execution; source deployments with MAXKB_SANDBOX disabled run commands directly as the application user, while the official root container's string-based gosu wrapper allowed shell metacharacters to execute outside the intended sandbox. This issue is fixed in version 2.10.5-lts.
+</code>
+
+- [InertFluid/cve-2026-77521-lab](https://github.com/InertFluid/cve-2026-77521-lab)
+
 ### CVE-2026-77542 (2026-08-26)
 
 <code>A malicious actor with access to the network and high privileges could exploit an Improper Input Validation vulnerability found in UID Enterprise Agent to execute a Command Injection on the host device.
@@ -17357,7 +17367,6 @@
 
 - [maxprog-svg/CVE-2026-84411](https://github.com/maxprog-svg/CVE-2026-84411)
 - [Apiratchai/CVE-2026-84411-reproduction](https://github.com/Apiratchai/CVE-2026-84411-reproduction)
-- [MikroTikDojo/CVE-2026-84411](https://github.com/MikroTikDojo/CVE-2026-84411)
 
 ### CVE-2026-84434 (2026-09-19)
 
@@ -17453,6 +17462,7 @@
 - [Masriyan/CVE-2026-85097](https://github.com/Masriyan/CVE-2026-85097)
 - [RootMantap/CVE-2026-85097](https://github.com/RootMantap/CVE-2026-85097)
 - [Tarangj07/Wordpress-Lab-CVE-2026-85097](https://github.com/Tarangj07/Wordpress-Lab-CVE-2026-85097)
+- [BlackHatExploitation/CVE-2026-85097](https://github.com/BlackHatExploitation/CVE-2026-85097)
 
 ### CVE-2026-85102 (2026-09-09)
 
@@ -18363,6 +18373,13 @@
 - [kize7/cve-2026-97163-payload](https://github.com/kize7/cve-2026-97163-payload)
 - [murrez/CVE-2026-97163](https://github.com/murrez/CVE-2026-97163)
 
+### CVE-2026-97205 (2026-10-14)
+
+<code>NGINX Plus and NGINX Open Source have a vulnerability in the ngx_http_core_module module. When asynchronous file I/O (AIO) is enabled in certain configurations, processing a Server Side Includes (SSI) page containing “include virtual” commands may trigger a Use-After-Free (UAF) in the NGINX worker process. This may cause memory corruption or a worker process crash. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.\n\nImpact:\nThis vulnerability may allow remote attackers to cause a denial-of-service (DoS) on the NGINX system, corrupt its memory, or possibly trigger code execution. There is no control plane exposure; this is a data plane issue only.\n\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [suominen/CVE-2026-97205](https://github.com/suominen/CVE-2026-97205)
+
 ### CVE-2026-97229 (2026-10-13)
 
 <code>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.
@@ -19073,6 +19090,23 @@
 </code>
 
 - [capivara-research/CVE-2026-110025](https://github.com/capivara-research/CVE-2026-110025)
+
+### CVE-2026-110447 (2026-10-14)
+
+<code>Collabora Online Built-in CODE Server before 26.4.303 (richdocumentscode), a Nextcloud app, allows remote code execution, as exploited in the wild in September and October 2026, a different vulnerability than CVE-2025-66208. This is an OS command injection in proxy.php when the CODE server isn't running (e.g., the product was recently restarted). The vulnerability is not present in standalone Collabora Online servers; only this deployment with CODE Server is affected.
+</code>
+
+- [Iceman2050/cve-2026-110447-checker](https://github.com/Iceman2050/cve-2026-110447-checker)
+
+### CVE-2026-110912 (2026-10-15)
+
+<code>In DragonFly BSD through 6.4.2 before 4bb22ff, the ARP input handlers arpintr() and in_arpinput() (sys/netinet/if_ether.c) do not validate the hardware address length (ar_hln) and protocol address length (ar_pln) fields of incoming ARP packets. in_arpreply() then uses these attacker-controlled values as memcpy lengths when copying from kernel buffers that are only 6 and 4 bytes long, resulting in an out-of-bounds read of kernel heap and stack memory that is copied into the ARP reply sent back to the requester. An unauthenticated attacker on the adjacent network can use a single crafted ARP request to disclose up to roughly 250 bytes of each type of kernel memory, including kernel pointers. This is expected to be fixed in the 6.6 stable release when that is available.
+</code>
+
+- [dreamfast/CVE-2026-110912](https://github.com/dreamfast/CVE-2026-110912)
+
+### CVE-2026-110958
+- [shlln/CVE-2026-110958](https://github.com/shlln/CVE-2026-110958)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -31466,6 +31500,13 @@
 
 - [Sumitshah00/CVE-2025-66628](https://github.com/Sumitshah00/CVE-2025-66628)
 
+### CVE-2025-66645 (2025-12-09)
+
+<code>NiceGUI is a Python-based UI framework. Versions 3.3.1 and below are vulnerable to  directory traversal through the App.add_media_files() function, which allows a remote attacker to read arbitrary files on the server filesystem. This issue is fixed in version 3.4.0.
+</code>
+
+- [prokeon5991-wq/cve-2025-66645](https://github.com/prokeon5991-wq/cve-2025-66645)
+
 ### CVE-2025-66676 (2026-02-13)
 
 <code>An issue in IObit Unlocker v1.3.0.11 allows attackers to cause a Denial of Service (DoS) via a crafted request.
@@ -31906,6 +31947,7 @@
 - [Giangdurian/CVE-2026-21858-and-CVE-2025-68613](https://github.com/Giangdurian/CVE-2026-21858-and-CVE-2025-68613)
 - [rmhowe425/POC-CVE-2025-68613](https://github.com/rmhowe425/POC-CVE-2025-68613)
 - [ZeroDayEvil/CVE-2026-21858-n8n-FullChain](https://github.com/ZeroDayEvil/CVE-2026-21858-n8n-FullChain)
+- [bijoumj/cve-2025-68613-ctf](https://github.com/bijoumj/cve-2025-68613-ctf)
 
 ### CVE-2025-68616 (2026-01-19)
 
@@ -34449,6 +34491,7 @@
 </code>
 
 - [n0d0n/CVE-2024-6648](https://github.com/n0d0n/CVE-2024-6648)
+- [alexb616/CVE-2024-6648-RCE](https://github.com/alexb616/CVE-2024-6648-RCE)
 
 ### CVE-2024-6651 (2024-08-06)
 
