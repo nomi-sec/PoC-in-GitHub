@@ -170,6 +170,13 @@
 ### CVE-2026-03200
 - [gduma-phData/patch-CVE-2026-03200](https://github.com/gduma-phData/patch-CVE-2026-03200)
 
+### CVE-2026-0322 (2026-10-14)
+
+<code>A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS® software enables an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.\n\n\n\nThe security risk posed by this issue is minimized by restricting access to the management interface to only trusted internal IP addresses according to our recommended  best practice deployment guidelines https://live.paloaltonetworks.com/t5/community-blogs/tips-amp-tricks-how-to-secure-the-management-access-of-your-palo/ba-p/464431 .\n\n\n\nThis issue is applicable to PAN-OS software on PA-Series and VM-Series firewalls and on Panorama (virtual and M-Series).\n\n\n\nCloud NGFW and Prisma® Access are not impacted by this vulnerability.
+</code>
+
+- [Ife-ella/CVE-vulnerability](https://github.com/Ife-ella/CVE-vulnerability)
+
 ### CVE-2026-04321
 - [gduma-phData/patch-CVE-2026-04321](https://github.com/gduma-phData/patch-CVE-2026-04321)
 
@@ -1462,7 +1469,7 @@
 
 ### CVE-2026-4800 (2026-03-31)
 
-<code>Impact:\n\nThe fix for CVE-2021-23337 (https://github.com/advisories/GHSA-35jh-r3h4-6jhm) added validation for the variable option in _.template but did not apply the same validation to options.imports key names. Both paths flow into the same Function() constructor sink.\n\nWhen an application passes untrusted input as options.imports key names, an attacker can inject default-parameter expressions that execute arbitrary code at template compilation time.\n\nAdditionally, _.template uses assignInWith to merge imports, which enumerates inherited properties via for..in. If Object.prototype has been polluted by any other vector, the polluted keys are copied into the imports object and passed to Function().\n\nPatches:\n\nUsers should upgrade to version 4.18.0.\n\nWorkarounds:\n\nDo not pass untrusted input as key names in options.imports. Only use developer-controlled, static key names.
+<code>The fix for CVE-2021-23337 added validation for the variable option in _.template but did not apply the same validation to options.imports key names, and both paths flow into the same Function() constructor sink. When an application passes untrusted input as options.imports key names, an attacker can inject default-parameter expressions that execute arbitrary code at template compilation time. Additionally, _.template uses assignInWith to merge imports, which enumerates inherited properties via for..in, so if Object.prototype has been polluted by another vector the polluted keys are copied into the imports object and passed to Function(). The issue is fixed in 4.18.1 for lodash, lodash-es, lodash-amd, and lodash.template. As a workaround, do not pass untrusted input as key names in options.imports; use only developer-controlled, static key names.
 </code>
 
 - [threalwinky/CVE-2026-4800-POC](https://github.com/threalwinky/CVE-2026-4800-POC)
@@ -4046,7 +4053,11 @@
 
 - [hakaioffsec/CVE-2026-16764](https://github.com/hakaioffsec/CVE-2026-16764)
 
-### CVE-2026-17001
+### CVE-2026-17001 (2026-10-15)
+
+<code>The Import and export users and customers plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Custom Column User Meta Profile Fields in all versions up to, and including, 2.4.5 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with custom-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
 - [llaytynher/CVE-2026-17001](https://github.com/llaytynher/CVE-2026-17001)
 
 ### CVE-2026-17089 (2026-08-25)
@@ -4708,6 +4719,13 @@
 </code>
 
 - [HORKimhab/Cisco-CVE-2026-20303-More](https://github.com/HORKimhab/Cisco-CVE-2026-20303-More)
+
+### CVE-2026-20329 (2026-09-16)
+
+<code>As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Adaptive Security Appliance Software, Cisco Secure Firewall Threat Defense Software and Cisco Secure Firewall Management Center Software engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered vulnerabilities. &amp;nbsp;\r\n\r\nThe vulnerabilities tracked by CVE-2026-20329 are related to issues concerning improper handling of exceptional conditions that are grouped under the Common Weakness Enumeration (CWE) Pillar CWE-703.
+</code>
+
+- [ekacs/predicted-CVE-2026-20329](https://github.com/ekacs/predicted-CVE-2026-20329)
 
 ### CVE-2026-20404 (2026-02-02)
 
@@ -11117,13 +11135,6 @@
 - [ZeroDayEvil/CVE-2026-41940-PoC](https://github.com/ZeroDayEvil/CVE-2026-41940-PoC)
 - [sakidekin/CVE-2026-41940-PoC](https://github.com/sakidekin/CVE-2026-41940-PoC)
 
-### CVE-2026-41992 (2026-06-29)
-
-<code>GNU gzip contains a global buffer overflow vulnerability in the LZH decompression logic caused by improper reuse of shared global state between different decompression formats within a single execution. GNU gzip maintains a global array that is shared across the LZ77, LZW, and LZH decompression routines and is not reinitialized between files processed in the same invocation.\nBy decompressing a specially crafted LZW file followed by a specially crafted LZH file in a single gzip -d command, an attacker can poison the shared global state and subsequently trigger an out‑of‑bounds read in the LZH decoder. The LZH decompression logic follows stale values left in the shared array, causing reads past the end of the allocated global buffer.\n\nThis issue has been fixed in commits 63dbf6b3b9e6e781df1a6a64e609b10e23969681 and e7378c2d421be6a286922374425680bbe9ad8b7d.
-</code>
-
-- [uday952/CVE-2026-41992-poc](https://github.com/uday952/CVE-2026-41992-poc)
-
 ### CVE-2026-42031 (2026-05-13)
 
 <code>CKAN is an open-source DMS (data management system) for powering data hubs and data portals. Prior to 2.10.10 and 2.11.5, a vulnerability in datastore_search_sql allowed attackers to inject SQL in order to gain access to private resources and PostgreSQL system information This vulnerability is fixed in 2.10.10 and 2.11.5.
@@ -12735,6 +12746,13 @@
 </code>
 
 - [s1ko/CVE-2026-47630](https://github.com/s1ko/CVE-2026-47630)
+
+### CVE-2026-47644 (2026-06-04)
+
+<code>Improper neutralization of special elements in output used by a downstream component ('injection') in Copilot Chat (Microsoft Edge) allows an unauthorized attacker to disclose information over a network.
+</code>
+
+- [songjianyang/CVE-2026-47644](https://github.com/songjianyang/CVE-2026-47644)
 
 ### CVE-2026-47668 (2026-07-23)
 
@@ -16706,7 +16724,7 @@
 <code>A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.\r\n\r\nThis vulnerability is due to improper handling of email attachments when the file reputation service is enabled. An attacker could exploit this vulnerability by sending an email that contains a crafted attachment through an affected device. A successful exploit could allow the attacker to write arbitrary files and execute commands with&amp;nbsp;root privileges on the underlying operating system.
 </code>
 
-- [Mickysalivan/CVE-2026-76519-POC](https://github.com/Mickysalivan/CVE-2026-76519-POC)
+- [Mickysalivan/CVE-2026-76519-Proof-of-concept](https://github.com/Mickysalivan/CVE-2026-76519-Proof-of-concept)
 
 ### CVE-2026-76547 (2026-08-29)
 
@@ -18831,8 +18849,7 @@
 </code>
 
 - [uday952/CVE-2026-104711](https://github.com/uday952/CVE-2026-104711)
-- [uday952/CVE-2026-104711-Advanced-Variant](https://github.com/uday952/CVE-2026-104711-Advanced-Variant)
-- [uday952/CVE-2026-104711-POC---Brand-New](https://github.com/uday952/CVE-2026-104711-POC---Brand-New)
+- [uday952/CVE-2026-104711-POC-NEW-VARIANT](https://github.com/uday952/CVE-2026-104711-POC-NEW-VARIANT)
 
 ### CVE-2026-104748 (2026-10-14)
 
@@ -22267,7 +22284,7 @@
 
 ### CVE-2025-13465 (2026-01-21)
 
-<code>Lodash versions 4.0.0 through 4.17.22 are vulnerable to prototype pollution in the _.unset and _.omit functions. An attacker can pass crafted paths which cause Lodash to delete methods from global prototypes.\n\nThe issue permits deletion of properties but does not allow overwriting their original behavior.\n\nThis issue is patched on 4.17.23
+<code>The _.unset and _.omit functions in Lodash are vulnerable to prototype pollution. An attacker can pass crafted paths which cause Lodash to delete methods from global prototypes. The issue permits deletion of properties but does not allow overwriting their original behavior. The issue is patched from 4.17.23 to 4.18.0 depending on the package: lodash, lodash-es, and lodash-amd in 4.17.23, and the standalone lodash.unset and lodash.omit packages in 4.18.0.
 </code>
 
 - [jaytarr-geo/nextjs-lodash-cve-2025-13465-repro](https://github.com/jaytarr-geo/nextjs-lodash-cve-2025-13465-repro)
@@ -24269,6 +24286,7 @@
 - [00xCanelo/CVE-2025-27591](https://github.com/00xCanelo/CVE-2025-27591)
 - [Thekin-ctrl/CVE-2025-27591-Below](https://github.com/Thekin-ctrl/CVE-2025-27591-Below)
 - [Cythonic1/CVE-2025-27591](https://github.com/Cythonic1/CVE-2025-27591)
+- [sefafl77/CVE-2025-27591-PoC](https://github.com/sefafl77/CVE-2025-27591-PoC)
 - [umutcamliyurt/CVE-2025-27591](https://github.com/umutcamliyurt/CVE-2025-27591)
 - [danil-koltsov/below-log-race-poc](https://github.com/danil-koltsov/below-log-race-poc)
 - [VisaiCyber/CVE-2025-27591-below-](https://github.com/VisaiCyber/CVE-2025-27591-below-)
@@ -51009,6 +51027,7 @@
 
 - [itsgiddd/CVE-2023-41991](https://github.com/itsgiddd/CVE-2023-41991)
 - [dmytrozykov/appsign](https://github.com/dmytrozykov/appsign)
+- [lambertse/MOcha](https://github.com/lambertse/MOcha)
 
 ### CVE-2023-41992 (2023-09-21)
 
