@@ -9912,7 +9912,11 @@
 - [redteamfortress/CVE-2026-36425](https://github.com/redteamfortress/CVE-2026-36425)
 - [gongchuang1089/EDRKiller](https://github.com/gongchuang1089/EDRKiller)
 
-### CVE-2026-36436
+### CVE-2026-36436 (2026-10-15)
+
+<code>An issue in Trisolutions BRPerfX version 1.4.4.0 exposes LDAP credentials in plaintext within the administrative configuration interface. An authenticated administrator can inspect the client-side code to retrieve the credential.
+</code>
+
 - [vtrmK/CVE-2026-36436-Public-Reference-Pack](https://github.com/vtrmK/CVE-2026-36436-Public-Reference-Pack)
 
 ### CVE-2026-36438 (2026-05-18)
@@ -11717,7 +11721,6 @@
 - [tingao/debian-on-s23-ultra](https://github.com/tingao/debian-on-s23-ultra)
 - [villager1314/CVE-2026-43499-Analysis](https://github.com/villager1314/CVE-2026-43499-Analysis)
 - [y896406256-lang/ghostlock-brt-w09](https://github.com/y896406256-lang/ghostlock-brt-w09)
-- [stolas33/vivo-dirtyfrag-root](https://github.com/stolas33/vivo-dirtyfrag-root)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -13854,6 +13857,7 @@
 
 - [HORKimhab/CVE-2026-53365](https://github.com/HORKimhab/CVE-2026-53365)
 - [HackSpeak/CVE-2026-53365](https://github.com/HackSpeak/CVE-2026-53365)
+- [hoodoer/VsockDrop-Adapted-CVE-2026-53365](https://github.com/hoodoer/VsockDrop-Adapted-CVE-2026-53365)
 
 ### CVE-2026-53413 (2026-08-11)
 
@@ -15180,6 +15184,13 @@
 </code>
 
 - [aramosf/CVE-2026-64468](https://github.com/aramosf/CVE-2026-64468)
+
+### CVE-2026-64507 (2026-07-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nx86/bugs: Enable IBPB flush on BPF JIT allocation\n\nEnable hardening against JIT spraying when Spectre-v2 mitigations are in\nuse. Specifically, issue an IBPB flush on BPF JIT memory reuse. Skip\nenabling the IBPB flush if the BPF dispatcher is already using a retpoline\nsequence.\n\nThis hardening applies only when BPF-JIT is in use. Guard the enabling\nunder CONFIG_BPF_JIT so that bugs.c still builds with CONFIG_BPF_JIT=n.
+</code>
+
+- [manalejandro/CVE-2026-64507](https://github.com/manalejandro/CVE-2026-64507)
 
 ### CVE-2026-64531 (2026-07-27)
 
@@ -18647,6 +18658,13 @@
 ### CVE-2026-102607
 - [d4kw1n/CVE-2026-102607-ZoneMinder](https://github.com/d4kw1n/CVE-2026-102607-ZoneMinder)
 
+### CVE-2026-102697 (2026-09-29)
+
+<code>Ollama versions 0.14.0 before 0.31.2 contain an incorrect authorization vulnerability in the experimental agent mode Bash tool approval mechanism that fails to properly parse shell syntax. Attackers who can influence model output through prompt injection can execute additional shell commands by appending control operators like semicolons or logical operators to approved commands, bypassing the session approval requirement.
+</code>
+
+- [akinerkisa/blindllama-cve-2026-102697](https://github.com/akinerkisa/blindllama-cve-2026-102697)
+
 ### CVE-2026-102718 (2026-09-29)
 
 <code>hey,\n\n\n\n`_nx_snmp_utility_object_id_get` in the NetX Duo SNMP addon does not validate the claimed OID data length against the actual buffer size when the OID uses BER multibyte length encoding, so a remote attacker can send a crafted SNMP packet with a multibyte OID length larger than the available buffer, causing the parser to read past the packet buffer boundary into adjacent heap memory. the OOB bytes are decoded as OID component values and written into the agents internal OID string buffer, corrupting agent state. on systems with memory protection the OOB read poses the risk of crashing the SNMP agent thread, causing denial of service. on bare metal embedded systems without memory protection the read silently succeeds and corrupts the agents internal state with heap data.
@@ -18875,6 +18893,9 @@
 
 - [uday952/CVE-2026-104711](https://github.com/uday952/CVE-2026-104711)
 - [uday952/CVE-2026-104711-POC-NEW-VARIANT](https://github.com/uday952/CVE-2026-104711-POC-NEW-VARIANT)
+
+### CVE-2026-104715
+- [M3aCulpa/CVE-2026-104715](https://github.com/M3aCulpa/CVE-2026-104715)
 
 ### CVE-2026-104748 (2026-10-14)
 
@@ -33341,6 +33362,7 @@
 - [whyuhurtz/wongpress](https://github.com/whyuhurtz/wongpress)
 - [HORKimhab/CVE-2022-31626-CVE-2024-2961-CVE-2019-6977](https://github.com/HORKimhab/CVE-2022-31626-CVE-2024-2961-CVE-2019-6977)
 - [qinglove777/CVE-2024-2961-XXE-Exploit](https://github.com/qinglove777/CVE-2024-2961-XXE-Exploit)
+- [Sib1110/cve-2024-2961](https://github.com/Sib1110/cve-2024-2961)
 
 ### CVE-2024-2997 (2024-03-27)
 
@@ -90375,7 +90397,6 @@
 </code>
 
 - [0b0111100/2008](https://github.com/0b0111100/2008)
-- [yilmaz8596/metasploitable-vulnerability-assessment](https://github.com/yilmaz8596/metasploitable-vulnerability-assessment)
 
 ### CVE-2008-1447 (2008-07-08)
 
