@@ -6231,6 +6231,13 @@
 
 - [aniketlab/POCO-M7-Plus-Jailbreak](https://github.com/aniketlab/POCO-M7-Plus-Jailbreak)
 
+### CVE-2026-24090 (2026-06-01)
+
+<code>Cryptographic issue while processing partition table entries allows unauthorized modification of boot flow.
+</code>
+
+- [wnduddld0513/Lenovo_Qcom_RPMB_Tool](https://github.com/wnduddld0513/Lenovo_Qcom_RPMB_Tool)
+
 ### CVE-2026-24102
 - [SimoesCTT/CTT-Kernel-Resonance-io_uring-Temporal-Phase-Transition](https://github.com/SimoesCTT/CTT-Kernel-Resonance-io_uring-Temporal-Phase-Transition)
 
@@ -9822,7 +9829,7 @@
 </code>
 
 - [sec-zone/CVE-2026-36213](https://github.com/sec-zone/CVE-2026-36213)
-- [pc2eva/CVE-2026-36213-poc](https://github.com/pc2eva/CVE-2026-36213-poc)
+- [NT2DEV/CVE-2026-36213-poc](https://github.com/NT2DEV/CVE-2026-36213-poc)
 
 ### CVE-2026-36214 (2026-07-14)
 
@@ -10627,13 +10634,6 @@
 </code>
 
 - [learner202649/CVE-2026-40217-PoC](https://github.com/learner202649/CVE-2026-40217-PoC)
-
-### CVE-2026-40224 (2026-04-10)
-
-<code>In systemd 259 before 260, there is local privilege escalation in systemd-machined because varlink can be used to reach the root namespace.
-</code>
-
-- [0xparad0x/Exploit-CVE-2026-40224](https://github.com/0xparad0x/Exploit-CVE-2026-40224)
 
 ### CVE-2026-40261 (2026-04-15)
 
@@ -13825,6 +13825,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-53264](https://github.com/HORKimhab/CVE-2026-53264)
+- [b1nhack/CVE-2026-53264](https://github.com/b1nhack/CVE-2026-53264)
 
 ### CVE-2026-53266 (2026-06-25)
 
@@ -14316,7 +14317,7 @@
 <code>NanaZip is the 7-Zip derivative intended for the modern Windows experience. Prior to 6.5.1749.0, NanaZip's UFS and FFS image handler in NanaZip.Codecs.Archive.Ufs.cpp validates the superblock block size only against the MINBSIZE lower bound and does not validate the fs_fsize fragment size, allowing attacker-controlled 32-bit fields to flow into indirect-block, directory, and extraction buffer allocations. A tiny crafted UFS image can force multi-gigabyte allocations during open or extraction, causing memory exhaustion or process termination. This issue is fixed in version 6.5.1749.0.
 </code>
 
-- [pc2eva/CVE-2026-55781-poc](https://github.com/pc2eva/CVE-2026-55781-poc)
+- [NT2DEV/CVE-2026-55781-poc](https://github.com/NT2DEV/CVE-2026-55781-poc)
 
 ### CVE-2026-55794 (2026-07-01)
 
@@ -18051,6 +18052,12 @@
 ### CVE-2026-92162
 - [0xSemizzz/CVE-2026-92162](https://github.com/0xSemizzz/CVE-2026-92162)
 
+### CVE-2026-92208
+- [do4choo/CVE-2026-92208_remote_mDNS_overflow](https://github.com/do4choo/CVE-2026-92208_remote_mDNS_overflow)
+
+### CVE-2026-92209
+- [do4choo/CVE-2026-92209_NoMachine_LPE](https://github.com/do4choo/CVE-2026-92209_NoMachine_LPE)
+
 ### CVE-2026-92229 (2026-09-19)
 
 <code>The The Forminator Forms – Contact Form, Payment Form &amp; Custom Form Builder plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 1.57.2. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.
@@ -18351,6 +18358,13 @@
 
 - [whoami-012/CVE-2026-96515](https://github.com/whoami-012/CVE-2026-96515)
 
+### CVE-2026-96652 (2026-09-23)
+
+<code>Plex Media Server before 1.43.3.10861 allows SSRF via '/player/timeline'. An attacker using any X-Plex-Token value can include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination.
+</code>
+
+- [code-zm/plex2shell](https://github.com/code-zm/plex2shell)
+
 ### CVE-2026-96760 (2026-09-28)
 
 <code>Authlib (v1.7.2 and below) contains a signature verification bypass vulnerability. The JsonWebSignature.deserialize_json() method accepts a JSON Serialization JWS object and returns the payload as successfully verified without checking for a signature and without requiring a cryptographic key.
@@ -18487,6 +18501,13 @@
 </code>
 
 - [murrez/CVE-2026-97657](https://github.com/murrez/CVE-2026-97657)
+
+### CVE-2026-99999 (2026-10-15)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nipv4: validate checksum_start before completing checksum\n\nIf a packet with bad checksum metadata gets into the ipv4 stack,\nskb_checksum_help can corrupt the network header and cause a bunch of\nmischief.\n\nThis was discovered and reported by Paulos, and has been reporoduced\nby others independently since.\n\nWe really shouldn't allow such packets in, but as a defence\nin depth measure, let's also check before we complete the checksum.\n\nA more complete validation at input is forthcoming, but needs more work.
+</code>
+
+- [MChorfa/csumguard](https://github.com/MChorfa/csumguard)
 
 ### CVE-2026-100380 (2026-09-25)
 
@@ -18728,6 +18749,13 @@
 </code>
 
 - [D7EAD/CVE-2026-102718](https://github.com/D7EAD/CVE-2026-102718)
+
+### CVE-2026-102764 (2026-10-15)
+
+<code>The vulnerability exists within internal components of BeyondTrust’s Remote Support product. The components did not adequately validate the origin of the messages it received. Under the right conditions, this could allow an attacker to perform file operations on the appliance.
+</code>
+
+- [Worthes/CVE-2026-102764-Proof-of-concept](https://github.com/Worthes/CVE-2026-102764-Proof-of-concept)
 
 ### CVE-2026-102782 (2026-10-07)
 
@@ -26755,13 +26783,6 @@
 
 - [shinyColumn/CVE-2025-46408](https://github.com/shinyColumn/CVE-2025-46408)
 
-### CVE-2025-46657 (2025-04-27)
-
-<code>Karaz Karazal through 2025-04-14 allows reflected XSS via the lang parameter to the default URI.
-</code>
-
-- [nov-1337/CVE-2025-46657](https://github.com/nov-1337/CVE-2025-46657)
-
 ### CVE-2025-46701 (2025-05-29)
 
 <code>Improper Handling of Case Sensitivity vulnerability in Apache Tomcat's GCI servlet allows security constraint bypass of security constraints that apply to the pathInfo component of a URI mapped to the CGI servlet.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.6, from 10.1.0-M1 through 10.1.40, from 9.0.0.M1 through 9.0.104.\nThe following versions were EOL at the time the CVE was created but are \nknown to be affected: 8.5.0 though 8.5.100. Other, older, EOL versions \nmay also be affected.\n\n\nUsers are recommended to upgrade to version 11.0.7, 10.1.41 or 9.0.105, which fixes the issue.
@@ -27925,7 +27946,11 @@
 
 - [Yucaerin/CVE-2025-52078](https://github.com/Yucaerin/CVE-2025-52078)
 
-### CVE-2025-52097
+### CVE-2025-52097 (2026-10-16)
+
+<code>Cross Site Scripting vulnerability in InstantASP ltd, InstantForum.NET v.4.1.4 allows an attacker to execute arbitrary code via reflecting un-sanitized input from query string parameters directly into the HTML response without proper output encoding
+</code>
+
 - [rwilsonecs/CVE-2025-52097](https://github.com/rwilsonecs/CVE-2025-52097)
 
 ### CVE-2025-52099
@@ -28273,6 +28298,7 @@
 - [Zedocun/SharePoint-ToolShell-CVE-2025-53770-Incident-Analysis](https://github.com/Zedocun/SharePoint-ToolShell-CVE-2025-53770-Incident-Analysis)
 - [doerrdan/it-sec-toolshell](https://github.com/doerrdan/it-sec-toolshell)
 - [mfarshad-abdullah-khan/cve-2025-53770-research](https://github.com/mfarshad-abdullah-khan/cve-2025-53770-research)
+- [thiconickid/sharepoint-zero-day-cs50-cybersecurity](https://github.com/thiconickid/sharepoint-zero-day-cs50-cybersecurity)
 
 ### CVE-2025-53772 (2025-08-12)
 
@@ -60878,7 +60904,6 @@
 - [kasem545/CVE-2022-46364-Poc](https://github.com/kasem545/CVE-2022-46364-Poc)
 - [cybermaksx/CVE-2022-46364-Proof-of-the-concept](https://github.com/cybermaksx/CVE-2022-46364-Proof-of-the-concept)
 - [Shashivanth009/CVE-2022-46364---Apache-CXF-XOP-Include-LFI-PoC](https://github.com/Shashivanth009/CVE-2022-46364---Apache-CXF-XOP-Include-LFI-PoC)
-- [0xmid00/CVE-2022-46364-poc](https://github.com/0xmid00/CVE-2022-46364-poc)
 - [jwsly12/CVE-2022-46364-htb-ctf](https://github.com/jwsly12/CVE-2022-46364-htb-ctf)
 - [c0gnit00/CVE-2022-46364](https://github.com/c0gnit00/CVE-2022-46364)
 
@@ -61802,13 +61827,6 @@
 </code>
 
 - [gabe-k/CVE-2021-1883](https://github.com/gabe-k/CVE-2021-1883)
-
-### CVE-2021-1905 (2021-05-07)
-
-<code>Possible use after free due to improper handling of memory mapping of multiple processes simultaneously. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables
-</code>
-
-- [Gonvar/movistar-home-root-](https://github.com/Gonvar/movistar-home-root-)
 
 ### CVE-2021-1931 (2021-07-13)
 
@@ -63290,7 +63308,7 @@
 - [battleofthebots/dejavu](https://github.com/battleofthebots/dejavu)
 - [cc3305/CVE-2021-22204](https://github.com/cc3305/CVE-2021-22204)
 - [Roronoawjd/CVE-2021-22204](https://github.com/Roronoawjd/CVE-2021-22204)
-- [cyfrowesny/exiftool-7.44-12.23-exploit-CVE-2021-22204-](https://github.com/cyfrowesny/exiftool-7.44-12.23-exploit-CVE-2021-22204-)
+- [cyfrowesny/exiftool-7.44-12.23-exploit-CVE-2021-22204](https://github.com/cyfrowesny/exiftool-7.44-12.23-exploit-CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -76822,13 +76840,6 @@
 </code>
 
 - [zkenjar/v0ltpwn](https://github.com/zkenjar/v0ltpwn)
-
-### CVE-2019-11223 (2019-04-18)
-
-<code>An Unrestricted File Upload Vulnerability in the SupportCandy plugin through 2.0.0 for WordPress allows remote attackers to execute arbitrary code by uploading a file with an executable extension.
-</code>
-
-- [AngelCtulhu/CVE-2019-11223](https://github.com/AngelCtulhu/CVE-2019-11223)
 
 ### CVE-2019-11224 (2019-05-15)
 
