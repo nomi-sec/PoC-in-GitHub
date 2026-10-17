@@ -15257,6 +15257,9 @@
 - [Meniben/redmi14c-pond-cve-2026-64560](https://github.com/Meniben/redmi14c-pond-cve-2026-64560)
 - [sangsheng2026/honor-90gt-mag-an00-root-research](https://github.com/sangsheng2026/honor-90gt-mag-an00-root-research)
 - [feiguang-ai/plz110-6.12.69-cve-2026-64560-ksu](https://github.com/feiguang-ai/plz110-6.12.69-cve-2026-64560-ksu)
+- [maosasagawa/pmx110-cve-2026-64560](https://github.com/maosasagawa/pmx110-cve-2026-64560)
+- [ChaYeWuu/prague-CVE-2026-64560-OS4.0](https://github.com/ChaYeWuu/prague-CVE-2026-64560-OS4.0)
+- [totsiaw/cve-2026-64560-rmx6699](https://github.com/totsiaw/cve-2026-64560-rmx6699)
 
 ### CVE-2026-64561 (2026-08-04)
 
@@ -18166,7 +18169,7 @@
 
 ### CVE-2026-93485 (2026-09-18)
 
-<code>Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Automattic WordPress core allows DOM-Based XSS.\n\n\nThis issue affects WordPress versions 7.1 before 7.1.1; 7.0 through 7.0.4; 6.9 through 6.9.7; 6.8 through 6.8.8; 6.7 through 6.7.7; 6.6 through 6.6.7; 6.5 through 6.5.10; 6.4 through 6.4.10; 6.3 through 6.3.10; 6.2 through 6.2.11; 6.1 through 6.1.12; 6.0 through 6.0.14; 5.9 through 5.9.16; 5.8 through 5.8.15; 5.7 through 5.7.17; 5.6 through 5.6.19; 5.5 through 5.5.20; 5.4 through 5.4.21; 5.3 through 5.3.23; 5.2 through 5.2.26; 5.1 through 5.1.24; 5.0 through 5.0.27; 4.9 through 4.9.31; 4.8 through 4.8.30; and 4.7 through 4.7.35.\n\n\n\n\nThe Unauthenticated Stored XSS vulnerability in the WordPress core can be reproduced on a default WordPress installation. Comment moderation is disabled by default, and the requirement for commenters to have a previously approved comment can be bypassed.
+<code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Automattic WordPress wordpress allows DOM-Based XSS.This issue affects WordPress: from n/a through 7.1.
 </code>
 
 - [HORKimhab/CVE-2026-93485](https://github.com/HORKimhab/CVE-2026-93485)
@@ -18529,6 +18532,8 @@
 </code>
 
 - [MChorfa/csumguard](https://github.com/MChorfa/csumguard)
+- [PeronGH/CVE-2026-99999](https://github.com/PeronGH/CVE-2026-99999)
+- [Quaerendir/cve-2026-99999-audit](https://github.com/Quaerendir/cve-2026-99999-audit)
 
 ### CVE-2026-100380 (2026-09-25)
 
@@ -19323,6 +19328,13 @@
 </code>
 
 - [Syscallh00k/CVE-2026-111444](https://github.com/Syscallh00k/CVE-2026-111444)
+
+### CVE-2026-111823 (2026-10-16)
+
+<code>Mage OSS through 0.9.80 before 76c4f46 can proceed with session creation upon encountering an unknown OAuth provider.
+</code>
+
+- [murrez/CVE-2026-111823](https://github.com/murrez/CVE-2026-111823)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -21383,9 +21395,6 @@
 - [lennertdefauw/CVE-2025-8088](https://github.com/lennertdefauw/CVE-2025-8088)
 - [shaheeryasirofficial/CVE-2025-8088](https://github.com/shaheeryasirofficial/CVE-2025-8088)
 - [Lewis-Ricardo/Amaranth-Project](https://github.com/Lewis-Ricardo/Amaranth-Project)
-- [roof1948576qwd/CVE-2025-8088-WinRAR-PoC-1](https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-1)
-- [roof1948576qwd/CVE-2025-8088-WinRAR-PoC-2](https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-2)
-- [roof1948576qwd/CVE-2025-8088-WinRAR-PoC-3](https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-3)
 
 ### CVE-2025-8091 (2025-08-15)
 
@@ -56060,6 +56069,7 @@
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 - [AlphabugX/CVE-2022-RCE](https://github.com/AlphabugX/CVE-2022-RCE)
 - [tkomlodi/CVE-2022-23305_POC](https://github.com/tkomlodi/CVE-2022-23305_POC)
+- [hoor113/CVE-2022-23305-Demo-and-Whitebox-Report](https://github.com/hoor113/CVE-2022-23305-Demo-and-Whitebox-Report)
 
 ### CVE-2022-23342 (2022-06-21)
 
