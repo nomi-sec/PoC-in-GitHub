@@ -10296,6 +10296,9 @@
 - [jjcjgo/CVE-2026-38812-RuoYi-SQL-Injection](https://github.com/jjcjgo/CVE-2026-38812-RuoYi-SQL-Injection)
 - [YYF1337/RuoYi-CVE-2026-38812-UNFIX](https://github.com/YYF1337/RuoYi-CVE-2026-38812-UNFIX)
 
+### CVE-2026-38838
+- [pawelskokowski/CVE-2026-38838](https://github.com/pawelskokowski/CVE-2026-38838)
+
 ### CVE-2026-38934 (2026-04-27)
 
 <code>Cross Site Request Forgery vulnerability in diskoverdata diskover-community v.2.3.5. and before allows a remote attacker to escalate privileges and obtain sensitive information via the public/settings_process.php
@@ -13061,6 +13064,7 @@
 - [ksotaria1337/-CVE-2026-48907-](https://github.com/ksotaria1337/-CVE-2026-48907-)
 - [NONAME-ELV/CVE-2026-48907](https://github.com/NONAME-ELV/CVE-2026-48907)
 - [theendofabbys/CVE-2026-48907](https://github.com/theendofabbys/CVE-2026-48907)
+- [0xCyp1337/CVE-2026-48907-RCE](https://github.com/0xCyp1337/CVE-2026-48907-RCE)
 
 ### CVE-2026-48908 (2026-06-20)
 
@@ -15246,7 +15250,7 @@
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nposix-cpu-timers: Prevent UAF caused by non-leader exec() race\n\nWongi and Jungwoo decoded and reported a non-leader exec() related race\nwhich can result in an UAF:\n\n sys_timer_delete()</code>
 
-- [imkidz0/CVE-2026-64560-exploit](https://github.com/imkidz0/CVE-2026-64560-exploit)
+- [imkidz0/exploit-CVE-2026-64560](https://github.com/imkidz0/exploit-CVE-2026-64560)
 - [villager1314/CVE-2026-64560-Analysis](https://github.com/villager1314/CVE-2026-64560-Analysis)
 - [quyicheng03-boop/xiaomi15-dada-cve-2026-64560](https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560)
 - [RMDycz/K80Pro-miro-CVE-2026-64560](https://github.com/RMDycz/K80Pro-miro-CVE-2026-64560)
@@ -18297,6 +18301,13 @@
 
 - [MosesOX/POC-CVE-2026-94134](https://github.com/MosesOX/POC-CVE-2026-94134)
 
+### CVE-2026-94169 (2026-10-16)
+
+<code>Improper Control of Generation of Code ('Code Injection') vulnerability in Theme-one The Grid the-grid allows Command Injection.This issue affects The Grid: from n/a through 2.8.1.
+</code>
+
+- [kize7/CVE-2026-94169](https://github.com/kize7/CVE-2026-94169)
+
 ### CVE-2026-94503 (2026-10-09)
 
 <code>Unrestricted Upload of File with Dangerous Type vulnerability in PX-lab Zombify zombify allows Upload a Web Shell to a Web Server.This issue affects Zombify: from n/a through 1.7.7.
@@ -18497,6 +18508,7 @@
 - [AmpedWasTaken/CVE-2026-97229-GitLab-CI-CD-Regex-Compiler-RCE](https://github.com/AmpedWasTaken/CVE-2026-97229-GitLab-CI-CD-Regex-Compiler-RCE)
 - [jburgess-r7/CVE-2026-97229-PoC](https://github.com/jburgess-r7/CVE-2026-97229-PoC)
 - [OppositDeer/Gitlab-RCE-CVE-2026-97229](https://github.com/OppositDeer/Gitlab-RCE-CVE-2026-97229)
+- [gandli/cve-2026-97229-lab](https://github.com/gandli/cve-2026-97229-lab)
 
 ### CVE-2026-97286 (2026-09-30)
 
@@ -19041,6 +19053,13 @@
 ### CVE-2026-104826
 - [KiwKNR/CVE-2026-104826](https://github.com/KiwKNR/CVE-2026-104826)
 
+### CVE-2026-104850 (2026-10-06)
+
+<code>MCP TypeScript SDK is the official TypeScript SDK for Model Context Protocol servers and clients. Starting in version 1.12.0 and prior to versions 1.31.0 and 2.2.0, the SDK's OAuth client support let the MCP server a client connected to decide which authorization server received the client's OAuth credentials. Stored and pre-provisioned credentials were not bound to the authorization server they belong to. A malicious or compromised MCP server could name its own authorization server in its protected resource metadata. Without any user interaction, the client would send that server the `refresh_token` and `client_secret` stored from an earlier sign-in (1.x), or the configured `client_secret` or signed assertion of a bundled non-interactive provider (1.x and 2.x). Only those applications that use the SDK as an MCP client over HTTP with an `authProvider`: your own `OAuthClientProvider`, or the bundled `ClientCredentialsProvider`, `PrivateKeyJwtProvider`, `StaticPrivateKeyJwtProvider` or (2.x) `CrossAppAccessProvider` and that may connect to an MCP server the owners does not fully trust while holding credentials for a legitimate authorization server are affected. `@modelcontextprotocol/sdk` 1.31.0 (1.x) and `@modelcontextprotocol/client` 2.2.0 (2.x) patch the issue. A workaround for those who cannot upgrade is available. 2.0.0 and 2.1.0 already accept `expectedIssuer`. On 1.x, the only workaround is to connect OAuth-enabled clients only to MCP servers you trust.
+</code>
+
+- [Iceman2050/mcp-oauth-discovery-prober](https://github.com/Iceman2050/mcp-oauth-discovery-prober)
+
 ### CVE-2026-104905 (2026-10-05)
 
 <code>FacturaScripts before version 2026.7 contains a PHP object injection vulnerability in WidgetSelect::processFormData() that allows authenticated attackers to trigger unserialize() on raw POST data without an allowed_classes filter for multiple-select fields. Attackers can submit a serialized XLSXWriter object as the field value to invoke its __destruct() method, deleting arbitrary attacker-specified files such as config.php or backup data, resulting in denial of service and potential application reinstall hijack.
@@ -19284,6 +19303,7 @@
 <code>Collabora Online Built-in CODE Server before 26.4.303 (richdocumentscode), a Nextcloud app, allows remote code execution, as exploited in the wild in September and October 2026, a different vulnerability than CVE-2025-66208. This is an OS command injection in proxy.php when the CODE server isn't running (e.g., the product was recently restarted). The vulnerability is not present in standalone Collabora Online servers; only this deployment with CODE Server is affected.
 </code>
 
+- [adriyansyah-mf/cve-2026-110447](https://github.com/adriyansyah-mf/cve-2026-110447)
 - [Iceman2050/cve-2026-110447-checker](https://github.com/Iceman2050/cve-2026-110447-checker)
 
 ### CVE-2026-110896 (2026-10-16)
@@ -19321,6 +19341,9 @@
 </code>
 
 - [Syscallh00k/CVE-2026-111389](https://github.com/Syscallh00k/CVE-2026-111389)
+
+### CVE-2026-111437
+- [ulvigulmaliyev/CVE-2026-111437-Denial-of-Service-Advisory-Technical-Report](https://github.com/ulvigulmaliyev/CVE-2026-111437-Denial-of-Service-Advisory-Technical-Report)
 
 ### CVE-2026-111444 (2026-10-16)
 
@@ -19564,8 +19587,8 @@
 </code>
 
 - [FWNavy/RMASmoke](https://github.com/FWNavy/RMASmoke)
-- [ts2023dev/RMASmoke-v2](https://github.com/ts2023dev/RMASmoke-v2)
-- [ts2023dev/exploit-docs](https://github.com/ts2023dev/exploit-docs)
+- [jenson8161/RMASmoke-v2](https://github.com/jenson8161/RMASmoke-v2)
+- [jenson8161/exploit-docs](https://github.com/jenson8161/exploit-docs)
 
 ### CVE-2025-1219 (2025-03-30)
 
@@ -39307,6 +39330,13 @@
 </code>
 
 - [SpiralBL0CK/CVE-2024-32462](https://github.com/SpiralBL0CK/CVE-2024-32462)
+
+### CVE-2024-32507 (2024-05-17)
+
+<code>Incorrect Privilege Assignment vulnerability in Hamid Alinia Login with phone number login-with-phone-number.This issue affects Login with phone number: from n/a through &lt;= 1.7.16.
+</code>
+
+- [4minx/CVE-2024-32507](https://github.com/4minx/CVE-2024-32507)
 
 ### CVE-2024-32640 (2025-08-11)
 
