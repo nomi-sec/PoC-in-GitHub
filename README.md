@@ -5793,7 +5793,6 @@
 - [ishankaru/CVE-2026-23111-nftables-lab](https://github.com/ishankaru/CVE-2026-23111-nftables-lab)
 - [Baba01hacker666/CVE-2026-23111](https://github.com/Baba01hacker666/CVE-2026-23111)
 - [bakano98/cve-2026-23111-poc](https://github.com/bakano98/cve-2026-23111-poc)
-- [vrtlbob/Linux-Kernel-Vulnerabilities-CVE-2026-23111](https://github.com/vrtlbob/Linux-Kernel-Vulnerabilities-CVE-2026-23111)
 - [Knz-source/CVE-2026-23111-POC-noddlenpottato](https://github.com/Knz-source/CVE-2026-23111-POC-noddlenpottato)
 - [imeiplus/CVE-2026-23111-PoC](https://github.com/imeiplus/CVE-2026-23111-PoC)
 
@@ -11728,6 +11727,7 @@
 - [saltlyfish666/magicpad3-root-research](https://github.com/saltlyfish666/magicpad3-root-research)
 - [MSEDGE-CORE/GhostLock-HonorFne](https://github.com/MSEDGE-CORE/GhostLock-HonorFne)
 - [Venshell/hlk-al00-kernel-build](https://github.com/Venshell/hlk-al00-kernel-build)
+- [AuroraMythweaver/iqoo-neo9-ghostlock-pc](https://github.com/AuroraMythweaver/iqoo-neo9-ghostlock-pc)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -16233,6 +16233,7 @@
 </code>
 
 - [Saku0512/CVE-2026-71557-poc](https://github.com/Saku0512/CVE-2026-71557-poc)
+- [Saku0512/reprokit-go-git-cve-2026-71557-lab](https://github.com/Saku0512/reprokit-go-git-cve-2026-71557-lab)
 
 ### CVE-2026-71851 (2026-08-07)
 
@@ -18400,6 +18401,7 @@
 <code>Plex Media Server before 1.43.3.10861 allows SSRF via '/player/timeline'. An attacker using any X-Plex-Token value can include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination.
 </code>
 
+- [gmh5225/plex2shell](https://github.com/gmh5225/plex2shell)
 - [code-zm/plex2shell](https://github.com/code-zm/plex2shell)
 
 ### CVE-2026-96760 (2026-09-28)
@@ -20994,6 +20996,7 @@
 - [sahmsec/CVE-2025-6440](https://github.com/sahmsec/CVE-2025-6440)
 - [SangSenimanWartefak/CVE-2025-6440](https://github.com/SangSenimanWartefak/CVE-2025-6440)
 - [katranSefa/CVE-2025-6440](https://github.com/katranSefa/CVE-2025-6440)
+- [0xCyp1337/CVE-2025-6440-BypassExt](https://github.com/0xCyp1337/CVE-2025-6440-BypassExt)
 
 ### CVE-2025-6514 (2025-07-09)
 
@@ -87263,6 +87266,7 @@
 - [Tare05/Intel-CVE-2015-2291](https://github.com/Tare05/Intel-CVE-2015-2291)
 - [gmh5225/CVE-2015-2291](https://github.com/gmh5225/CVE-2015-2291)
 - [ethanedits/iqvw64e-privilege-escalation](https://github.com/ethanedits/iqvw64e-privilege-escalation)
+- [antoniorauso/NalCaller](https://github.com/antoniorauso/NalCaller)
 
 ### CVE-2015-2315 (2015-03-17)
 
