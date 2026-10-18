@@ -9395,6 +9395,9 @@
 - [0xBlackash/CVE-2026-34156](https://github.com/0xBlackash/CVE-2026-34156)
 - [Dhananjayasj/CVE-2026-34156-NocoBase-Sandbox-Escape-via-Workflow-Execution-Vulnerability-](https://github.com/Dhananjayasj/CVE-2026-34156-NocoBase-Sandbox-Escape-via-Workflow-Execution-Vulnerability-)
 
+### CVE-2026-34157
+- [Saku0512/CVE-2026-34157-poc](https://github.com/Saku0512/CVE-2026-34157-poc)
+
 ### CVE-2026-34159 (2026-04-01)
 
 <code>llama.cpp is an inference of several LLM models in C/C++. Prior to version b8492, the RPC backend's deserialize_tensor() skips all bounds validation when a tensor's buffer field is 0. An unauthenticated attacker can read and write arbitrary process memory via crafted GRAPH_COMPUTE messages. Combined with pointer leaks from ALLOC_BUFFER/BUFFER_GET_BASE, this gives full ASLR bypass and remote code execution. No authentication required, just TCP access to the RPC server port. This issue has been patched in version b8492.
@@ -11551,6 +11554,7 @@
 - [ankitrawatgit/DirtyFrag-Android-Root-Jailbreak](https://github.com/ankitrawatgit/DirtyFrag-Android-Root-Jailbreak)
 - [HirokiAkihiko/dirtyfrag-research](https://github.com/HirokiAkihiko/dirtyfrag-research)
 - [SudoXDdX/DirtyFrag](https://github.com/SudoXDdX/DirtyFrag)
+- [tangdino222/DirtyFrag](https://github.com/tangdino222/DirtyFrag)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -13416,7 +13420,7 @@
 <code>Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in the number guess example for Apache Tomcat.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected.\n\nUsers are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue.
 </code>
 
-- [flvzx/CVE-2026-50229](https://github.com/flvzx/CVE-2026-50229)
+- [qsuv/CVE-2026-50229](https://github.com/qsuv/CVE-2026-50229)
 
 ### CVE-2026-50338 (2026-07-14)
 
@@ -14005,6 +14009,8 @@
 </code>
 
 - [ChrisSEC2014/amasty-chekout-POC-rce](https://github.com/ChrisSEC2014/amasty-chekout-POC-rce)
+- [elitexspam/Def4cer](https://github.com/elitexspam/Def4cer)
+- [MRdark-ops/CVE-2026-53787-poc](https://github.com/MRdark-ops/CVE-2026-53787-poc)
 
 ### CVE-2026-53805 (2026-06-17)
 
@@ -15260,7 +15266,7 @@
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nposix-cpu-timers: Prevent UAF caused by non-leader exec() race\n\nWongi and Jungwoo decoded and reported a non-leader exec() related race\nwhich can result in an UAF:\n\n sys_timer_delete()</code>
 
-- [imkidz0/exploit-CVE-2026-64560](https://github.com/imkidz0/exploit-CVE-2026-64560)
+- [itskidz2/exploit-CVE-2026-64560](https://github.com/itskidz2/exploit-CVE-2026-64560)
 - [villager1314/CVE-2026-64560-Analysis](https://github.com/villager1314/CVE-2026-64560-Analysis)
 - [quyicheng03-boop/xiaomi15-dada-cve-2026-64560](https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560)
 - [RMDycz/K80Pro-miro-CVE-2026-64560](https://github.com/RMDycz/K80Pro-miro-CVE-2026-64560)
@@ -18118,6 +18124,13 @@
 
 - [d1n3sh-0x3/CVE-2026-92247](https://github.com/d1n3sh-0x3/CVE-2026-92247)
 
+### CVE-2026-92262 (2026-10-16)
+
+<code>MariaDB server is a community developed fork of MySQL server. From 10.6.1 until 10.6.28, 10.11.19, 11.4.13, 11.8.9, 12.3.3, and 13.0.2, the #mysql50# bypass prefix is affected because it allows the #mysql50# prefix to bypass normal table-name filesystem encoding. An attacker can trigger the issue with a table name using the #mysql50# prefix, then use a #mysql50# table name to access files under their legacy unencoded name and cause crashes, data corruption, data exfiltration, or remote code execution. This issue is fixed in versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, 12.3.3, and 13.0.2.
+</code>
+
+- [SeanDishman/mariadb-cve-2026-92262](https://github.com/SeanDishman/mariadb-cve-2026-92262)
+
 ### CVE-2026-92392 (2026-10-14)
 
 <code>During an upload, curl mishandles HTTP/2 `RST_STREAM` received from the server\n(with reason `HTTP_1_1_REQUIRED` or `REFUSED_STREAM`) leading to a use after\nfree of a `struct Curl_easy` object.
@@ -18564,11 +18577,25 @@
 
 - [murrez/CVE-2026-97657](https://github.com/murrez/CVE-2026-97657)
 
+### CVE-2026-98180 (2026-10-06)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/msm: RCU-free the scheduler-containing ring and VM objects\n\nBoth struct msm_ringbuffer and struct msm_gem_vm embed a struct\ndrm_gpu_scheduler.  msm_ringbuffer_destroy() and the VM free callback\nmsm_gem_vm_free() call drm_sched_fini() on the embedded scheduler and then\nfree the containing object with plain kfree().\n\ndrm_sched_fence_get_timeline_name() returns fence-&gt;sched-&gt;name, and the\nscheduler fence keeps a .release callback so it is not ops-detached on\nsignalling.  A finished fence exported to userspace (the submit out-fence, or\na VM_BIND fence, via sync_file / drm_syncobj) keeps pointing at the embedded\nscheduler after the ring/VM is freed, so a later get_timeline_name() --\nreachable unprivileged through SYNC_IOC_FILE_INFO -- dereferences freed slab\nmemory (KASAN slab-use-after-free read).\n\nPer the dma-fence lifetime contract the exporter must keep the data backing a\nsignalled fence alive for an RCU grace period.  Free the scheduler-containing\nobjects with kfree_rcu() instead of kfree().\n\nPatchwork: https://patchwork.freedesktop.org/patch/750234/
+</code>
+
+- [MalHyuk/CVE-2026-98180](https://github.com/MalHyuk/CVE-2026-98180)
+
 ### CVE-2026-98256 (2026-10-06)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nsignal: Prevent exec() race\n\nHyunwoo debugged the following KASAN UAF splat:\n\n  BUG: KASAN: slab-use-after-free in __send_signal_locked+0xb27/0xba0\n  Write of size 8 at addr ffff888007ed80c8 by task poc/79\n  ...\n  Call Trace:\n   __send_signal_locked+0xb27/0xba0\n   do_send_sig_info+0xa7/0x160\n   do_send_specific+0x76/0xa0\n   __x64_sys_tgkill+0x193/0x270\n  ...\n  Allocated by task 80:\n   do_timer_create+0x1a4/0x1030\n   __x64_sys_timer_create+0x145/0x190\n  ...\n  Freed by task 12:\n   kmem_cache_free_bulk+0x1f8/0x4a0\n   kvfree_rcu_bulk+0x14f/0x1c0\n   kfree_rcu_work+0x128/0x1a0\n  ...\n  Last potentially related work creation:\n   kvfree_call_rcu+0x39/0x390\n   __flush_itimer_signals+0x211/0x320\n   flush_itimer_signals+0x47/0x90\n   begin_new_exec+0xa6b/0x28c0\n\nIt turned out that this happens with a non-leader exec() as Hyunwoo\nexplained:\n\nde_thread() calls exchange_tids() before release_task(leader), so the\nstruct pid held by a SIGEV_THREAD_ID timer created against the leader's tid\nnow points to the thread which called execve(). pid_task() returns that\nthread and lock_task_sighand() on it succeeds.\n\nIf the timer signal is blocked, its sigqueue stays queued on the leader's\ntask::pending. The next expiry of that timer can then run while\nrelease_task() flushes the queue.\n\nposixtimer_send_sigqueue() checks whether the sigqueue is already queued\nwith a plain list_empty(), which only reads list_head::next.\nlist_del_init() is not atomic and INIT_LIST_HEAD() stores list_head::next\nbefore list_head::prev, so the check can pass in between. list_add_tail()\nqueues the entry on the task::pending of the live thread, and the\nlist_head::prev store from the flush then overwrites the list_head::prev\nlink that list_add_tail() has just set.\n\n__flush_itimer_signals() does not undo that either. With list_head::prev\npointing at the entry itself, its list_del_init() only stores the same\nvalues again, so the entry is not removed from the list. It is still there\nafter the last reference is dropped and the timer is freed by RCU, and the\nlist_add_tail() of a later tgkill() follows that list_head::prev into the\nfreed timer.\n\nThis problem surfaced with the recent commit which moved the sigqueue flush\nout of the sighand lock held region.\n\nHyonwoo proposed to fix this by using list_del_init_careful(), but that\njust papers over the problem. After some disucssions and various attempts\nto solve it, Eric pointed out that there is no reason to flush\ntask::pending late in release_task() and it should be done in\nexit_signals() already.\n\nAs nothing can collect and deliver signals which are queued in a dying\ntask's pending queue, there is no reason to delay it further.\n\nBut it has to be ensured that no signals can be queued into it after that\npoint. exit_signals() sets PF_EXITING in task::flags, which can be used as\nan indicator for this.\n\nCure it by:\n\n  - Preventing signal queueing for task private signals (PIDTYPE_PID) when\n    the task has PF_EXITING set in __send_signal_locked() and in\n    posixtimer_send_sigqueue().\n\n  - Protecting the unlocked setting of PF_EXITING in exit_signals() for the\n    task group empty and the group exit case with sighand lock\n\n  - Flushing task::pending signals right there.\n\n    Optimize that by moving the whole pending list to an on-stack list head\n    under sighand lock and free the signals without the lock held.\n\nThere has been quite some discussion about the lockless flush and the\nnon-leader exec case on weakly ordered systems. The problem is that a third\nparty which tries to send a posix timer signal relies on the PID lookup to\nfind the target task and that lookup might result in the new leader when\nthe signal was originaly directed to the old leader. In case that the\nsignal was queued on the old leader then the lockless flush raised a\nconcern over the following situation:\n\n   old_leader</code>
 
 - [villager1314/CVE-2026-98256-Analysis](https://github.com/villager1314/CVE-2026-98256-Analysis)
+
+### CVE-2026-98260 (2026-10-06)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nexec: Cleanup POSIX timers right after de_thread()\n\nA per-thread CPU timer holds a reference to the PID of the thread it is\nattached to and, while it is armed, its node is queued in that thread's\nposix_cputimers. The task is looked up by that PID.\n\nWhen a non-leader thread exec()s, de_thread() changes which task owns\nthat PID. pid_task(timer-&gt;it.cpu.pid, PIDTYPE_PID) then returns NULL,\nbut the node is still queued on tsk, which is alive. timer_lock_sighand()\ntakes a failed lookup to mean that the node is already dequeued, so it\nhas nothing to undo.\n\nbegin_new_exec() calls posix_cpu_timers_exit(me) right after\nexec_task_namespaces() and that removes the leftover node, so the state\nnormally stays invisible. But bprm-&gt;point_of_no_return is set before\nde_thread(), so if unshare_files(), set_mm_exe_file(), exec_mmap() or\nexec_task_namespaces() fails, the task dies before it gets there.\nexit_itimers() then frees the k_itimer while its node is still queued,\nand reaping tsk later erases that freed node from the rbtree.\n\nIn short:\n\n      the non-leader thread B           the parent\n\n  timer_create(CLOCK_THREAD_CPUTIME_ID)\n  timer_settime()\n    arm_timer()            // the node is queued on B\n  execve()\n    de_thread(B)\n      exchange_tids(B, leader)  // B's PID now belongs to the leader\n      release_task(leader)\n        __exit_signal(leader)\n          posix_cpu_timers_exit(leader)  // cleans leader's queue, not B's\n          __unhash_process(leader)  // that PID has no task anymore\n    exec_mmap()\n      mmap_read_lock_killable(old_mm)\n                                kill(B, SIGKILL)\n      // -EINTR\n  get_signal()\n    do_exit()\n      exit_itimers()\n        posix_timer_delete()\n          posix_cpu_timer_del()\n        posix_timer_unhash_and_free()  // freed while still queued\n                                wait4()\n                                  release_task(B)\n                                    posix_cpu_timers_exit(B)\n                                      cleanup_timerqueue()\n                                        timerqueue_del()  // use-after-free\n\nMove the POSIX timer cleanup right after de_thread() before any of the\nlater failure conditions brings the task into do_exit().\n\n[ tglx: Move the cleanup right after de_thread() ]
+</code>
+
+- [jadedFella/lpe-study-notes](https://github.com/jadedFella/lpe-study-notes)
 
 ### CVE-2026-99999 (2026-10-15)
 
@@ -18996,6 +19023,9 @@
 
 - [eev4n/smartermail](https://github.com/eev4n/smartermail)
 
+### CVE-2026-104100
+- [Saku0512/CVE-2026-104100-poc](https://github.com/Saku0512/CVE-2026-104100-poc)
+
 ### CVE-2026-104110 (2026-10-14)
 
 <code>FileRise is a self-hosted web-based file manager with multi-file upload, editing, and batch operations. Prior to 3.24.0, FileRise Pro /api/pro/portals/get.php returns a configured client portal's full internal record to an unauthenticated caller who knows or guesses the portal slug. The response includes the internal storage folder path, client contact email, form settings, and upload-policy details, while the separate publicMeta.php endpoint intentionally exposes only curated branding data. Exploitation requires the Pro add-on and at least one configured portal. This issue is fixed in version 3.24.0.
@@ -19197,6 +19227,13 @@
 ### CVE-2026-105319
 - [kashishtopi/CVE-2026-105319](https://github.com/kashishtopi/CVE-2026-105319)
 
+### CVE-2026-105697 (2026-10-05)
+
+<code>Langflow is a tool for building and deploying AI-powered agents and workflows. Before Langflow 1.10.3, the MCP stdio transport launched whatever command / args a user put in an MCP server configuration, with no allowlist and (before 1.10.3) wrapped in bash -c &quot;exec {command} ...&quot;. Any user able to reach the MCP server settings (&quot;Settings → MCP Servers → Add MCP Server&quot;, POST/PATCH /api/v2/mcp/servers/{server_name}) or to build a flow with the MCP Tools component could add a &quot;server&quot; whose command is an arbitrary OS command (touch, rm -rf, a reverse shell, ...). The command runs on the Langflow host as the Langflow process user as soon as Langflow tries to connect to the server (listing servers, loading tools, running the flow) — even when the UI then reports that the stdio server failed to start. With the default LANGFLOW_AUTO_LOGIN=true, GET /api/v1/auto_login hands out a token without credentials, so on an exposed instance running the default configuration this is reachable without an account. AUTO_LOGIN is documented as a development-only setting; with it disabled, any authenticated (non-admin) user can exploit it. This issue is fixed in Langflow 1.10.3, langflow-base 0.10.3, and lfx 1.10.3.
+</code>
+
+- [Iceman2050/mcp-patch-gap-scanner](https://github.com/Iceman2050/mcp-patch-gap-scanner)
+
 ### CVE-2026-105844 (2026-10-06)
 
 <code>Payload is a free and open source headless content management system. In versions from 3.0.0 before 3.88.0 and canary versions before 4.0.0-canary.27, an unauthenticated user can submit prototype-sensitive field paths when @payloadcms/plugin-import-export is enabled, causing unintended application behavior that can lead to remote code execution. This issue is fixed in versions 3.88.0 and 4.0.0-canary.27.
@@ -19283,6 +19320,7 @@
 
 ### CVE-2026-108097
 - [FurkanKAYAPINAR/CVE-2026-108097](https://github.com/FurkanKAYAPINAR/CVE-2026-108097)
+- [fortbridge/cve-2026-108097-research](https://github.com/fortbridge/cve-2026-108097-research)
 
 ### CVE-2026-108578 (2026-10-11)
 
@@ -27584,6 +27622,13 @@
 
 - [AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation](https://github.com/AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation)
 
+### CVE-2025-49812 (2025-07-10)
+
+<code>In some mod_ssl configurations on Apache HTTP Server versions through to 2.4.63, an HTTP desynchronisation attack allows a man-in-the-middle attacker to hijack an HTTP session via a TLS upgrade.\n\nOnly configurations using &quot;SSLEngine optional&quot; to enable TLS upgrades are affected. Users are recommended to upgrade to version 2.4.64, which removes support for TLS upgrade.
+</code>
+
+- [kimdongjun22/cve-2025-49812-ctf](https://github.com/kimdongjun22/cve-2025-49812-ctf)
+
 ### CVE-2025-49844 (2025-10-03)
 
 <code>Redis is an open source, in-memory database that persists on disk. Versions 8.2.1 and below allow an authenticated user to use a specially crafted Lua script to manipulate the garbage collector, trigger a use-after-free and potentially lead to remote code execution. The problem exists in all versions of Redis with Lua scripting. This issue is fixed in version 8.2.2. To workaround this issue without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to restrict EVAL and EVALSHA commands.
@@ -28250,6 +28295,13 @@
 </code>
 
 - [minq0x1412/CVE-2025-53024](https://github.com/minq0x1412/CVE-2025-53024)
+
+### CVE-2025-53051 (2025-10-21)
+
+<code>Vulnerability in the RDBMS Functional Index component of Oracle Database Server.  Supported versions that are affected are 23.4-23.9. Easily exploitable vulnerability allows high privileged attacker having SYSDBA privilege with network access via Oracle Net to compromise RDBMS Functional Index.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of RDBMS Functional Index accessible data. CVSS 3.1 Base Score 2.7 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N).
+</code>
+
+- [emad-almousa/CVE-2025-53051](https://github.com/emad-almousa/CVE-2025-53051)
 
 ### CVE-2025-53072 (2025-10-21)
 
@@ -38041,6 +38093,7 @@
 - [h0w1tzxr/TryHack3M-Bricks-Heist](https://github.com/h0w1tzxr/TryHack3M-Bricks-Heist)
 - [estebanzarate/CVE-2024-25600-WordPress-Bricks-Builder-RCE-PoC](https://github.com/estebanzarate/CVE-2024-25600-WordPress-Bricks-Builder-RCE-PoC)
 - [CerberusMrXi/WP-Bricks-Exploit-CVE-2024-25600](https://github.com/CerberusMrXi/WP-Bricks-Exploit-CVE-2024-25600)
+- [K52-ai/CVE-2024-25600](https://github.com/K52-ai/CVE-2024-25600)
 
 ### CVE-2024-25641 (2024-05-13)
 
@@ -58127,6 +58180,7 @@
 - [kaleth4/CVE-2022-30190](https://github.com/kaleth4/CVE-2022-30190)
 - [czabatta/THM-Tempest](https://github.com/czabatta/THM-Tempest)
 - [zavikhttak/follina-msdt-threat-investigation](https://github.com/zavikhttak/follina-msdt-threat-investigation)
+- [dayobamiii/OMOTOSO-AYOBAMI](https://github.com/dayobamiii/OMOTOSO-AYOBAMI)
 
 ### CVE-2022-30203 (2022-07-12)
 
@@ -74656,6 +74710,13 @@
 
 - [Nxploited/CVE-2020-36842](https://github.com/Nxploited/CVE-2020-36842)
 
+### CVE-2020-36847 (2025-07-12)
+
+<code>The Simple-File-List Plugin for WordPress is vulnerable to Remote Code Execution in versions up to, and including, 4.2.2 via the rename function which can be used to rename uploaded PHP code with a png extension to use a php extension. This allows unauthenticated attackers to execute code on the server.
+</code>
+
+- [K52-ai/CVE-2020-36847](https://github.com/K52-ai/CVE-2020-36847)
+
 ### CVE-2020-256480
 - [dim0x69/cve-2022-25640-exploit](https://github.com/dim0x69/cve-2022-25640-exploit)
 
@@ -84705,6 +84766,7 @@
 - [DONKEY0xSHOT/CVE-2017-11882-Blocker](https://github.com/DONKEY0xSHOT/CVE-2017-11882-Blocker)
 - [Mo200909/Office-Malware-Forensics-Lab-REMnux-Static-Analysis](https://github.com/Mo200909/Office-Malware-Forensics-Lab-REMnux-Static-Analysis)
 - [SyedaQuratulain098/factura-malware-analysis-lab](https://github.com/SyedaQuratulain098/factura-malware-analysis-lab)
+- [danielakin417/CVE-2017-11882-analysis](https://github.com/danielakin417/CVE-2017-11882-analysis)
 
 ### CVE-2017-12149 (2017-10-04)
 
