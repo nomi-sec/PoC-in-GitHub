@@ -4121,9 +4121,6 @@
 
 - [HORKimhab/CVE-2026-17583](https://github.com/HORKimhab/CVE-2026-17583)
 
-### CVE-2026-17588
-- [abraxas/qemu-xhci-complete-uaf](https://github.com/abraxas/qemu-xhci-complete-uaf)
-
 ### CVE-2026-17633 (2026-08-05)
 
 <code>IBM Langflow OSS 1.0.0 through 1.10.3 could allow a remote authenticated attacker to execute arbitrary code due to code injection.
@@ -8474,7 +8471,6 @@
 - [cleozi/Copy_Grail](https://github.com/cleozi/Copy_Grail)
 - [vorkampfer/copyfail2_electric_boogaloo_fix](https://github.com/vorkampfer/copyfail2_electric_boogaloo_fix)
 - [AdemZero/CVE-2026-31431](https://github.com/AdemZero/CVE-2026-31431)
-- [Lutfifakee-Project/CVE-2026-31431](https://github.com/Lutfifakee-Project/CVE-2026-31431)
 - [u1tr0nex/CVE-2026-31431-CopyFail-Lab](https://github.com/u1tr0nex/CVE-2026-31431-CopyFail-Lab)
 - [mauricioportela/CVE-2026-31431-Analysis](https://github.com/mauricioportela/CVE-2026-31431-Analysis)
 - [dgrobinson0/CopyFile_CVE-2026-31431](https://github.com/dgrobinson0/CopyFile_CVE-2026-31431)
@@ -8539,7 +8535,6 @@
 </code>
 
 - [0xBlackash/CVE-2026-31635](https://github.com/0xBlackash/CVE-2026-31635)
-- [Lutfifakee-Project/CVE-2026-31635](https://github.com/Lutfifakee-Project/CVE-2026-31635)
 - [0xFuffM3/CVE-2026-31635-DirtyDecrypt](https://github.com/0xFuffM3/CVE-2026-31635-DirtyDecrypt)
 - [Koshmare-Blossom/DirtyDecrypt-go](https://github.com/Koshmare-Blossom/DirtyDecrypt-go)
 
@@ -11002,7 +10997,6 @@
 - [shibaaa204/Pack2TheRoot](https://github.com/shibaaa204/Pack2TheRoot)
 - [Kowntaewook/CVE-2026-41651-analysis](https://github.com/Kowntaewook/CVE-2026-41651-analysis)
 - [mawussid/CVE-2026-41651-Python](https://github.com/mawussid/CVE-2026-41651-Python)
-- [Lutfifakee-Project/CVE-2026-41651](https://github.com/Lutfifakee-Project/CVE-2026-41651)
 - [0xDVRK/CVE-2026-41651](https://github.com/0xDVRK/CVE-2026-41651)
 - [gbuyssens/CVE-2026-41651](https://github.com/gbuyssens/CVE-2026-41651)
 - [ZeroDayEvil/CVE-2026-41651](https://github.com/ZeroDayEvil/CVE-2026-41651)
@@ -11080,7 +11074,6 @@
 - [Rosemary1337/CVE-2026-41940](https://github.com/Rosemary1337/CVE-2026-41940)
 - [mahfuzreham/cpanel-cve-2026-41940](https://github.com/mahfuzreham/cpanel-cve-2026-41940)
 - [unteikyou/CVE-2026-41940-AuthBypass-Detector](https://github.com/unteikyou/CVE-2026-41940-AuthBypass-Detector)
-- [Lutfifakee-Project/CVE-2026-41940](https://github.com/Lutfifakee-Project/CVE-2026-41940)
 - [NULL200OK/cve-2026-41940-tool](https://github.com/NULL200OK/cve-2026-41940-tool)
 - [ynsmroztas/cPanelSniper](https://github.com/ynsmroztas/cPanelSniper)
 - [0xYuR1/CVE-2026-41940](https://github.com/0xYuR1/CVE-2026-41940)
@@ -13412,6 +13405,13 @@
 
 - [chaitanyagarware/CVE-2026-50181](https://github.com/chaitanyagarware/CVE-2026-50181)
 
+### CVE-2026-50229 (2026-06-29)
+
+<code>Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in the number guess example for Apache Tomcat.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected.\n\nUsers are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue.
+</code>
+
+- [flvzx/CVE-2026-50229](https://github.com/flvzx/CVE-2026-50229)
+
 ### CVE-2026-50338 (2026-07-14)
 
 <code>Improper authentication in Azure Spring Apps allows an authorized attacker to elevate privileges over a network.
@@ -14024,6 +14024,9 @@
 </code>
 
 - [anirbala98/CVE-2026-53959](https://github.com/anirbala98/CVE-2026-53959)
+
+### CVE-2026-53995
+- [SaiTeja-Erukude/CVE-2026-53995-mlflow-path-traversal](https://github.com/SaiTeja-Erukude/CVE-2026-53995-mlflow-path-traversal)
 
 ### CVE-2026-54088 (2026-06-25)
 
@@ -15051,7 +15054,6 @@
 - [tcyph3r/wp2shell-cve-2026-63030-root-cause](https://github.com/tcyph3r/wp2shell-cve-2026-63030-root-cause)
 - [dinosn/wp2shell-lab](https://github.com/dinosn/wp2shell-lab)
 - [47Cid/wp2shell-lab](https://github.com/47Cid/wp2shell-lab)
-- [Lutfifakee-Project/wp2shell](https://github.com/Lutfifakee-Project/wp2shell)
 - [ekomsSavior/wp2shell](https://github.com/ekomsSavior/wp2shell)
 - [NULL200OK/WP2Shell](https://github.com/NULL200OK/WP2Shell)
 - [kulichr/wp2shell](https://github.com/kulichr/wp2shell)
@@ -15834,6 +15836,7 @@
 - [HackSpeak/CVE-2026-67279](https://github.com/HackSpeak/CVE-2026-67279)
 - [tc4dy/CVE-2026-67279-86060-Toolkit](https://github.com/tc4dy/CVE-2026-67279-86060-Toolkit)
 - [shmaki4/CVE-2026-67279-Mikrotik-6.42-POC](https://github.com/shmaki4/CVE-2026-67279-Mikrotik-6.42-POC)
+- [GoldAden/mikrotrick-verifier](https://github.com/GoldAden/mikrotrick-verifier)
 
 ### CVE-2026-67281 (2026-09-05)
 
@@ -16573,6 +16576,7 @@
 
 - [techupdate24/linux-kernel-cve-2026-74580-vghost](https://github.com/techupdate24/linux-kernel-cve-2026-74580-vghost)
 - [ABC00012345/CVE-2026-74580](https://github.com/ABC00012345/CVE-2026-74580)
+- [V01DL1NG/vghost-watch](https://github.com/V01DL1NG/vghost-watch)
 
 ### CVE-2026-74586 (2026-08-22)
 
@@ -17782,7 +17786,6 @@
 - [ynsmroztas/WPSniper](https://github.com/ynsmroztas/WPSniper)
 - [bhideki/CVE-2026-87902](https://github.com/bhideki/CVE-2026-87902)
 - [tc4dy/CVE-2026-87902-Toolkit](https://github.com/tc4dy/CVE-2026-87902-Toolkit)
-- [Lutfifakee-Project/CVE-2026-87902](https://github.com/Lutfifakee-Project/CVE-2026-87902)
 - [nextco/wordpress-cve-2026-87902](https://github.com/nextco/wordpress-cve-2026-87902)
 - [zyphorixofficialmain-lab/cve-2026-87902](https://github.com/zyphorixofficialmain-lab/cve-2026-87902)
 - [crowsec-edtech/CVE-2026-87902](https://github.com/crowsec-edtech/CVE-2026-87902)
@@ -27422,6 +27425,7 @@
 - [Evillm/CVE-2025-49113-PoC](https://github.com/Evillm/CVE-2025-49113-PoC)
 - [mooder1/CVE-2025-49113](https://github.com/mooder1/CVE-2025-49113)
 - [rippsec/CVE-2025-49113-Roundcube-RCE](https://github.com/rippsec/CVE-2025-49113-Roundcube-RCE)
+- [rank03031/CVE-2025-49113-CTF](https://github.com/rank03031/CVE-2025-49113-CTF)
 
 ### CVE-2025-49125 (2025-06-16)
 
@@ -40475,6 +40479,7 @@
 - [abrewer251/CVE-2024-38475_SonicBoom_Apache_URL_Traversal_PoC](https://github.com/abrewer251/CVE-2024-38475_SonicBoom_Apache_URL_Traversal_PoC)
 - [syaifulandy/CVE-2024-38475](https://github.com/syaifulandy/CVE-2024-38475)
 - [Nyakki-Labs-0x420/Myesve](https://github.com/Nyakki-Labs-0x420/Myesve)
+- [akabul0us/apache_poc](https://github.com/akabul0us/apache_poc)
 
 ### CVE-2024-38476 (2024-07-01)
 
@@ -62518,7 +62523,6 @@
 </code>
 
 - [QiuhaoLi/CVE-2021-3929-3947](https://github.com/QiuhaoLi/CVE-2021-3929-3947)
-- [abraxas/qemu-nvme-sgl-bar](https://github.com/abraxas/qemu-nvme-sgl-bar)
 
 ### CVE-2021-3972 (2022-04-22)
 
@@ -65537,6 +65541,7 @@
 - [AlDawli/CVE-2021-34527-](https://github.com/AlDawli/CVE-2021-34527-)
 - [KaritaMW/printnightmare-detection-mitigation-lab](https://github.com/KaritaMW/printnightmare-detection-mitigation-lab)
 - [joertx07/printnightmare-detection-lab](https://github.com/joertx07/printnightmare-detection-lab)
+- [s1kh/Vulnerability-Analysis-and-Mitigation](https://github.com/s1kh/Vulnerability-Analysis-and-Mitigation)
 
 ### CVE-2021-34558 (2021-07-15)
 
@@ -83557,6 +83562,7 @@
 - [Dungsocool/CVE-2017-5638](https://github.com/Dungsocool/CVE-2017-5638)
 - [GU-007/struts2-tool](https://github.com/GU-007/struts2-tool)
 - [Piyush-Tiwatne/struts-patch-gap-auditor](https://github.com/Piyush-Tiwatne/struts-patch-gap-auditor)
+- [s1kh/Vulnerability-Analysis-and-Mitigation](https://github.com/s1kh/Vulnerability-Analysis-and-Mitigation)
 
 ### CVE-2017-5645 (2017-04-17)
 
