@@ -4735,6 +4735,13 @@
 
 - [ekacs/predicted-CVE-2026-20329](https://github.com/ekacs/predicted-CVE-2026-20329)
 
+### CVE-2026-20349 (2026-08-11)
+
+<code>A vulnerability in the Remote Access SSL VPN service for Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.&amp;nbsp;\r\n\r\nThis vulnerability is due to insufficient error checking when processing HTTP requests. An attacker could exploit this vulnerability by sending a crafted HTTP request to the Remote Access SSL VPN service on an affected device. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a DoS condition.
+</code>
+
+- [ekacs/predicted-cve-2026-20349](https://github.com/ekacs/predicted-cve-2026-20349)
+
 ### CVE-2026-20404 (2026-02-02)
 
 <code>In Modem, there is a possible system crash due to improper input validation. This could lead to remote denial of service, if a UE has connected to a rogue base station controlled by the attacker, with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: MOLY01689248; Issue ID: MSV-4837.
@@ -5870,7 +5877,6 @@
 
 - [Augmaster/POC-CVE-2026-23520](https://github.com/Augmaster/POC-CVE-2026-23520)
 - [cypher-21/CVE-2026-23520](https://github.com/cypher-21/CVE-2026-23520)
-- [kikechans/-Educational-PoC-CVE-2026-23520](https://github.com/kikechans/-Educational-PoC-CVE-2026-23520)
 
 ### CVE-2026-23524 (2026-01-21)
 
@@ -14669,6 +14675,9 @@
 - [0xBlackash/CVE-2026-58138](https://github.com/0xBlackash/CVE-2026-58138)
 - [Ez4rd1x1/CVE-2026-58138-Research](https://github.com/Ez4rd1x1/CVE-2026-58138-Research)
 
+### CVE-2026-58221
+- [DevAli00/CVE-2026-58221](https://github.com/DevAli00/CVE-2026-58221)
+
 ### CVE-2026-58222 (2026-07-30)
 
 <code>A security flaw combining LDAP filter injection and improper authorization checks was found in Samba Active Directory Domain Controller (AD DC). When processing LDAP Compare requests, Samba fails to properly validate user-supplied attribute names and executes the resulting internal database search in a trusted context, bypassing normal Access Control List (ACL) enforcement. An authenticated low-privilege domain user can exploit these flaws to disclose confidential Active Directory attributes that would normally be inaccessible. The disclosed information may be leveraged to derive sensitive authentication material, potentially leading to privilege escalation and complete domain compromise. For example: In deployments configured with Group Managed Service Accounts (gMSAs), an attacker can extract the &quot;msKds-RootKeyData&quot; attribute and derive gMSA passwords offline, potentially leading to complete domain compromise if privileged gMSAs are present.
@@ -14884,7 +14893,6 @@
 </code>
 
 - [h4cd0c/wp2shell](https://github.com/h4cd0c/wp2shell)
-- [ebrasha/abdal-cve-2026-60137](https://github.com/ebrasha/abdal-cve-2026-60137)
 - [codeb0ssx/Ultimate-wp2shell](https://github.com/codeb0ssx/Ultimate-wp2shell)
 - [mrmtwoj/Fix-CVE-2026-60137-CVE-2026-63030-in-wordpress](https://github.com/mrmtwoj/Fix-CVE-2026-60137-CVE-2026-63030-in-wordpress)
 - [Colere-Sys/wp2shell-poc](https://github.com/Colere-Sys/wp2shell-poc)
@@ -14955,6 +14963,7 @@
 </code>
 
 - [InertFluid/cve-2026-61732-lab](https://github.com/InertFluid/cve-2026-61732-lab)
+- [Iceman2050/chatml-role-token-probe](https://github.com/Iceman2050/chatml-role-token-probe)
 
 ### CVE-2026-61797
 - [itres-labs/CVE-2026-61797](https://github.com/itres-labs/CVE-2026-61797)
@@ -15067,7 +15076,6 @@
 - [mrx-arafat/CVE-2026-63030-POC](https://github.com/mrx-arafat/CVE-2026-63030-POC)
 - [0xWhoknows/wp2shell](https://github.com/0xWhoknows/wp2shell)
 - [zi3lak/wp2shell_scanner](https://github.com/zi3lak/wp2shell_scanner)
-- [ebrasha/abdal-cve-2026-63030](https://github.com/ebrasha/abdal-cve-2026-63030)
 - [securelayer7/WordPresShell](https://github.com/securelayer7/WordPresShell)
 - [fullhunt/wp2shell-scan](https://github.com/fullhunt/wp2shell-scan)
 - [ChiefYoru/CVE-2026-63030_PoC](https://github.com/ChiefYoru/CVE-2026-63030_PoC)
@@ -17181,6 +17189,12 @@
 
 - [Wayang1337/CVE-2026-80099](https://github.com/Wayang1337/CVE-2026-80099)
 
+### CVE-2026-80312
+- [oscerd/CVE-2026-80312](https://github.com/oscerd/CVE-2026-80312)
+
+### CVE-2026-80343
+- [oscerd/CVE-2026-80343](https://github.com/oscerd/CVE-2026-80343)
+
 ### CVE-2026-80428 (2026-08-26)
 
 <code>ILIAS before versions 9.22, 10.10, and 11.3 contains an unauthenticated PHP object injection vulnerability that allows unauthenticated attackers to execute arbitrary code by injecting serialized objects through the LTI authentication endpoint and triggering deserialization via the Shibboleth back-channel logout endpoint. Attackers can write arbitrary serialized objects into session storage, then exploit an available POP gadget through the logout endpoint's unrestricted deserialization to write attacker-controlled PHP content to a web-accessible path and achieve remote code execution as the web server user.
@@ -18404,6 +18418,13 @@
 - [gmh5225/plex2shell](https://github.com/gmh5225/plex2shell)
 - [code-zm/plex2shell](https://github.com/code-zm/plex2shell)
 
+### CVE-2026-96656 (2026-09-23)
+
+<code>Plex Media Server before 1.43.3.10861 allows an admin user to write arbitrary files that may be executed on load. The preference TranscoderH264Options is appended verbatim to x264's option string on every transcode. At startup, all .so files are run without signature, execute bit, or symbol checks.
+</code>
+
+- [a3igner/plex-codec-cache-implant](https://github.com/a3igner/plex-codec-cache-implant)
+
 ### CVE-2026-96760 (2026-09-28)
 
 <code>Authlib (v1.7.2 and below) contains a signature verification bypass vulnerability. The JsonWebSignature.deserialize_json() method accepts a JSON Serialization JWS object and returns the payload as successfully verified without checking for a signature and without requiring a cryptographic key.
@@ -18543,6 +18564,12 @@
 
 - [murrez/CVE-2026-97657](https://github.com/murrez/CVE-2026-97657)
 
+### CVE-2026-98256 (2026-10-06)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nsignal: Prevent exec() race\n\nHyunwoo debugged the following KASAN UAF splat:\n\n  BUG: KASAN: slab-use-after-free in __send_signal_locked+0xb27/0xba0\n  Write of size 8 at addr ffff888007ed80c8 by task poc/79\n  ...\n  Call Trace:\n   __send_signal_locked+0xb27/0xba0\n   do_send_sig_info+0xa7/0x160\n   do_send_specific+0x76/0xa0\n   __x64_sys_tgkill+0x193/0x270\n  ...\n  Allocated by task 80:\n   do_timer_create+0x1a4/0x1030\n   __x64_sys_timer_create+0x145/0x190\n  ...\n  Freed by task 12:\n   kmem_cache_free_bulk+0x1f8/0x4a0\n   kvfree_rcu_bulk+0x14f/0x1c0\n   kfree_rcu_work+0x128/0x1a0\n  ...\n  Last potentially related work creation:\n   kvfree_call_rcu+0x39/0x390\n   __flush_itimer_signals+0x211/0x320\n   flush_itimer_signals+0x47/0x90\n   begin_new_exec+0xa6b/0x28c0\n\nIt turned out that this happens with a non-leader exec() as Hyunwoo\nexplained:\n\nde_thread() calls exchange_tids() before release_task(leader), so the\nstruct pid held by a SIGEV_THREAD_ID timer created against the leader's tid\nnow points to the thread which called execve(). pid_task() returns that\nthread and lock_task_sighand() on it succeeds.\n\nIf the timer signal is blocked, its sigqueue stays queued on the leader's\ntask::pending. The next expiry of that timer can then run while\nrelease_task() flushes the queue.\n\nposixtimer_send_sigqueue() checks whether the sigqueue is already queued\nwith a plain list_empty(), which only reads list_head::next.\nlist_del_init() is not atomic and INIT_LIST_HEAD() stores list_head::next\nbefore list_head::prev, so the check can pass in between. list_add_tail()\nqueues the entry on the task::pending of the live thread, and the\nlist_head::prev store from the flush then overwrites the list_head::prev\nlink that list_add_tail() has just set.\n\n__flush_itimer_signals() does not undo that either. With list_head::prev\npointing at the entry itself, its list_del_init() only stores the same\nvalues again, so the entry is not removed from the list. It is still there\nafter the last reference is dropped and the timer is freed by RCU, and the\nlist_add_tail() of a later tgkill() follows that list_head::prev into the\nfreed timer.\n\nThis problem surfaced with the recent commit which moved the sigqueue flush\nout of the sighand lock held region.\n\nHyonwoo proposed to fix this by using list_del_init_careful(), but that\njust papers over the problem. After some disucssions and various attempts\nto solve it, Eric pointed out that there is no reason to flush\ntask::pending late in release_task() and it should be done in\nexit_signals() already.\n\nAs nothing can collect and deliver signals which are queued in a dying\ntask's pending queue, there is no reason to delay it further.\n\nBut it has to be ensured that no signals can be queued into it after that\npoint. exit_signals() sets PF_EXITING in task::flags, which can be used as\nan indicator for this.\n\nCure it by:\n\n  - Preventing signal queueing for task private signals (PIDTYPE_PID) when\n    the task has PF_EXITING set in __send_signal_locked() and in\n    posixtimer_send_sigqueue().\n\n  - Protecting the unlocked setting of PF_EXITING in exit_signals() for the\n    task group empty and the group exit case with sighand lock\n\n  - Flushing task::pending signals right there.\n\n    Optimize that by moving the whole pending list to an on-stack list head\n    under sighand lock and free the signals without the lock held.\n\nThere has been quite some discussion about the lockless flush and the\nnon-leader exec case on weakly ordered systems. The problem is that a third\nparty which tries to send a posix timer signal relies on the PID lookup to\nfind the target task and that lookup might result in the new leader when\nthe signal was originaly directed to the old leader. In case that the\nsignal was queued on the old leader then the lockless flush raised a\nconcern over the following situation:\n\n   old_leader</code>
+
+- [villager1314/CVE-2026-98256-Analysis](https://github.com/villager1314/CVE-2026-98256-Analysis)
+
 ### CVE-2026-99999 (2026-10-15)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nipv4: validate checksum_start before completing checksum\n\nIf a packet with bad checksum metadata gets into the ipv4 stack,\nskb_checksum_help can corrupt the network header and cause a bunch of\nmischief.\n\nThis was discovered and reported by Paulos, and has been reporoduced\nby others independently since.\n\nWe really shouldn't allow such packets in, but as a defence\nin depth measure, let's also check before we complete the checksum.\n\nA more complete validation at input is forthcoming, but needs more work.
@@ -18551,6 +18578,9 @@
 - [MChorfa/csumguard](https://github.com/MChorfa/csumguard)
 - [PeronGH/CVE-2026-99999](https://github.com/PeronGH/CVE-2026-99999)
 - [Quaerendir/cve-2026-99999-audit](https://github.com/Quaerendir/cve-2026-99999-audit)
+- [kingahmadr/CVE-2026-99999-kernel-check](https://github.com/kingahmadr/CVE-2026-99999-kernel-check)
+- [zakinko/kpatch-alma-cve-2026-99999](https://github.com/zakinko/kpatch-alma-cve-2026-99999)
+- [01luyicheng/CVE-2026-99999](https://github.com/01luyicheng/CVE-2026-99999)
 
 ### CVE-2026-100380 (2026-09-25)
 
@@ -18910,6 +18940,13 @@
 </code>
 
 - [anoxhunterdump-ctrl/CVE-2026-103752-Authorizer-Privilege-Escalation](https://github.com/anoxhunterdump-ctrl/CVE-2026-103752-Authorizer-Privilege-Escalation)
+
+### CVE-2026-103849 (2026-10-13)
+
+<code>Adobe Commerce is affected by an Improper Neutralization of Special Elements Used in a Template Engine vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. Exploitation of this issue does not require user interaction. Scope is changed.
+</code>
+
+- [dinosn/cve-2026-103849-blockstrap-lab](https://github.com/dinosn/cve-2026-103849-blockstrap-lab)
 
 ### CVE-2026-103889 (2026-10-10)
 
@@ -25075,6 +25112,7 @@
 - [HazaVVIP/CVE-2025-30208](https://github.com/HazaVVIP/CVE-2025-30208)
 - [cc3305/CVE-2025-30208](https://github.com/cc3305/CVE-2025-30208)
 - [Minseo9503/cve-2025-30208](https://github.com/Minseo9503/cve-2025-30208)
+- [L15B04/Exploit-VITE-CVE-2025-30208-CVE-2025-31125](https://github.com/L15B04/Exploit-VITE-CVE-2025-30208-CVE-2025-31125)
 
 ### CVE-2025-30216 (2025-03-25)
 
@@ -34815,7 +34853,6 @@
 </code>
 
 - [bigherocenter/CVE-2024-7029-EXPLOIT](https://github.com/bigherocenter/CVE-2024-7029-EXPLOIT)
-- [ebrasha/CVE-2024-7029](https://github.com/ebrasha/CVE-2024-7029)
 - [geniuszly/CVE-2024-7029](https://github.com/geniuszly/CVE-2024-7029)
 
 ### CVE-2024-7094 (2024-08-13)
@@ -38458,7 +38495,6 @@
 </code>
 
 - [Alucard0x1/CVE-2024-28000](https://github.com/Alucard0x1/CVE-2024-28000)
-- [ebrasha/CVE-2024-28000](https://github.com/ebrasha/CVE-2024-28000)
 - [arch1m3d/CVE-2024-28000](https://github.com/arch1m3d/CVE-2024-28000)
 - [SSSSuperX/CVE-2024-28000](https://github.com/SSSSuperX/CVE-2024-28000)
 - [JohnDoeAnonITA/CVE-2024-28000](https://github.com/JohnDoeAnonITA/CVE-2024-28000)
@@ -39227,7 +39263,6 @@
 - [80Ottanta80/CVE-2024-32019-PoC](https://github.com/80Ottanta80/CVE-2024-32019-PoC)
 - [julichaan/CVE-2024-32019-ndsudo-local-privilege-escalation-NetData](https://github.com/julichaan/CVE-2024-32019-ndsudo-local-privilege-escalation-NetData)
 - [justjoeyking/CVE-2024-32019-ndsudo](https://github.com/justjoeyking/CVE-2024-32019-ndsudo)
-- [kikechans/-Netdata-PrivEsc-CVE-2024-32019](https://github.com/kikechans/-Netdata-PrivEsc-CVE-2024-32019)
 
 ### CVE-2024-32022 (2024-04-16)
 
@@ -42396,7 +42431,6 @@
 - [sobbing333/CVE-2024-48990-POC](https://github.com/sobbing333/CVE-2024-48990-POC)
 - [grecosamuel/CVE-2024-48990](https://github.com/grecosamuel/CVE-2024-48990)
 - [BLUEBERRYP1LL/CVE-2024-48990](https://github.com/BLUEBERRYP1LL/CVE-2024-48990)
-- [kikechans/-Linux-PrivEsc-CVE-2024-48990](https://github.com/kikechans/-Linux-PrivEsc-CVE-2024-48990)
 
 ### CVE-2024-49019 (2024-11-12)
 
@@ -43271,7 +43305,6 @@
 <code>AnyDesk through 8.1.0 on Windows, when Allow Direct Connections is enabled, inadvertently exposes a public IP address within network traffic. The attacker must know the victim's AnyDesk ID.
 </code>
 
-- [ebrasha/abdal-anydesk-remote-ip-detector](https://github.com/ebrasha/abdal-anydesk-remote-ip-detector)
 - [MKultra6969/AnySniff](https://github.com/MKultra6969/AnySniff)
 
 ### CVE-2024-53027 (2025-03-03)
@@ -47107,13 +47140,6 @@
 
 - [bruno-1337/CVE-2023-23946-POC](https://github.com/bruno-1337/CVE-2023-23946-POC)
 - [tralsesec/CVE-2023-23946](https://github.com/tralsesec/CVE-2023-23946)
-
-### CVE-2023-23969 (2023-02-01)
-
-<code>In Django 3.2 before 3.2.17, 4.0 before 4.0.9, and 4.1 before 4.1.6, the parsed values of Accept-Language headers are cached in order to avoid repetitive parsing. This leads to a potential denial-of-service vector via excessive memory usage if the raw value of Accept-Language headers is very large.
-</code>
-
-- [lkq111/django-security-advisory-3.2.16](https://github.com/lkq111/django-security-advisory-3.2.16)
 
 ### CVE-2023-24012 (2025-01-09)
 
@@ -53428,7 +53454,6 @@
 - [0xDTC/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564](https://github.com/0xDTC/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564)
 - [xpltive/CVE-2023-50564](https://github.com/xpltive/CVE-2023-50564)
 - [glynzr/CVE-2023-50564](https://github.com/glynzr/CVE-2023-50564)
-- [kikechans/-Pluck-CMS-RCE-CVE-2023-50564](https://github.com/kikechans/-Pluck-CMS-RCE-CVE-2023-50564)
 
 ### CVE-2023-50596
 - [chandraprarikraj/CVE-2023-50596](https://github.com/chandraprarikraj/CVE-2023-50596)
@@ -55570,6 +55595,7 @@
 </code>
 
 - [byt3quester/CVE-2022-22706-poc](https://github.com/byt3quester/CVE-2022-22706-poc)
+- [BennyWaitWhat/Sony-XBR-65X850D](https://github.com/BennyWaitWhat/Sony-XBR-65X850D)
 
 ### CVE-2022-22715 (2022-02-09)
 
@@ -67719,7 +67745,6 @@
 - [Strikoder-Premium/Grafana-Password-Decryptor](https://github.com/Strikoder-Premium/Grafana-Password-Decryptor)
 - [baktistr/cve-2021-43798-enum](https://github.com/baktistr/cve-2021-43798-enum)
 - [Shoxake17/CVE-2021-43798](https://github.com/Shoxake17/CVE-2021-43798)
-- [kikechans/-Grafana-LFI-CVE-2021-43798](https://github.com/kikechans/-Grafana-LFI-CVE-2021-43798)
 - [Asbawy/GrafTraverse-CVE-2021-43798](https://github.com/Asbawy/GrafTraverse-CVE-2021-43798)
 - [Okymi-X/CVE-2021-43798](https://github.com/Okymi-X/CVE-2021-43798)
 - [Lim-ahmin/CVE-2021-43798](https://github.com/Lim-ahmin/CVE-2021-43798)
@@ -68450,7 +68475,6 @@
 - [D3Ext/CVE-2021-44967](https://github.com/D3Ext/CVE-2021-44967)
 - [godylockz/CVE-2021-44967](https://github.com/godylockz/CVE-2021-44967)
 - [monke443/CVE-2021-44967](https://github.com/monke443/CVE-2021-44967)
-- [kikechans/-Limesurvey-RCE-CVE-2021-44967](https://github.com/kikechans/-Limesurvey-RCE-CVE-2021-44967)
 
 ### CVE-2021-45007 (2022-02-20)
 
@@ -79985,6 +80009,13 @@
 
 - [missing0x00/CVE-2018-5354](https://github.com/missing0x00/CVE-2018-5354)
 
+### CVE-2018-5391 (2018-09-06)
+
+<code>The Linux kernel, versions 3.9+, is vulnerable to a denial of service attack with low rates of specially modified packets targeting IP fragment re-assembly. An attacker may cause a denial of service condition by sending specially crafted IP fragments. Various vulnerabilities in IP fragmentation have been discovered and fixed over the years. The current vulnerability (CVE-2018-5391) became exploitable in the Linux kernel with the increase of the IP fragment reassembly queue size.
+</code>
+
+- [zeinabmazraani/OverlapCraft](https://github.com/zeinabmazraani/OverlapCraft)
+
 ### CVE-2018-5711 (2018-01-16)
 
 <code>gd_gif_in.c in the GD Graphics Library (aka libgd), as used in PHP before 5.6.33, 7.0.x before 7.0.27, 7.1.x before 7.1.13, and 7.2.x before 7.2.1, has an integer signedness error that leads to an infinite loop via a crafted GIF file, as demonstrated by a call to the imagecreatefromgif or imagecreatefromstring PHP function. This is related to GetCode_ and gdImageCreateFromGifCtx.
@@ -81848,7 +81879,6 @@
 - [anonymous121029034720384234234/py-network-scanner](https://github.com/anonymous121029034720384234234/py-network-scanner)
 - [K3rn3l-32/Threaded-CVE-2018-15473](https://github.com/K3rn3l-32/Threaded-CVE-2018-15473)
 - [wtbacon/cve-2018-15473](https://github.com/wtbacon/cve-2018-15473)
-- [kikechans/-SSH-Enum-CVE-2018-15473](https://github.com/kikechans/-SSH-Enum-CVE-2018-15473)
 - [kaktus5454/CVE-2018-15473](https://github.com/kaktus5454/CVE-2018-15473)
 - [bdalrhmnhamdalalm-jpg/CVE-2018-15473-User-Enumeration-](https://github.com/bdalrhmnhamdalalm-jpg/CVE-2018-15473-User-Enumeration-)
 - [CyberCTF/vulhub-openssh-cve-2018-15473](https://github.com/CyberCTF/vulhub-openssh-cve-2018-15473)
