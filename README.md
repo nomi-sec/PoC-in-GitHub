@@ -4044,6 +4044,7 @@
 - [Superman-L/CVE-2026-16723](https://github.com/Superman-L/CVE-2026-16723)
 - [yym8538/CVE-2026-16723](https://github.com/yym8538/CVE-2026-16723)
 - [ipisav/fastjson-cve](https://github.com/ipisav/fastjson-cve)
+- [cuttlefish520/FastJson1.2.83-GenProbe2](https://github.com/cuttlefish520/FastJson1.2.83-GenProbe2)
 
 ### CVE-2026-16764 (2026-07-23)
 
@@ -5158,7 +5159,11 @@
 - [Pairs34/RDPVulnarableCheck](https://github.com/Pairs34/RDPVulnarableCheck)
 - [fevar54/CVE-2026-21533_Scanner.py](https://github.com/fevar54/CVE-2026-21533_Scanner.py)
 
-### CVE-2026-21589
+### CVE-2026-21589 (2026-10-05)
+
+<code>This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center. Crowd Data Center, Crucible and Fisheye. This Arbitrary File Access vulnerability allows an unauthenticated attacker to access specific files within the web application root directory in affected versions. Exploitation requires prior knowledge of the target file's exact name and path; this vulnerability does not allow attackers to enumerate or list directory contents. In some configurations, there may be some sensitive files that make this highly severe. This vulnerability allows an unauthenticated remote attacker to access specific files within the web application root directory in affected versions. The vulnerability must be addressed for affected versions of: -- Bitbucket Data Center, introduced in version &gt;= 4.6.0, fix versions: 9.4.26, 10.2.8, 10.5.1 -- Confluence Data Center, introduced in version &gt;= 5.10.0, fix versions 9.2.26, 10.2.19 -- Crowd Data Center, introduced in version &gt;= 2.11.0, fix versions 6.3.7, 7.0.3, 7.1.7, 7.2.4 -- Jira Software Data Center, introduced in version &gt;= 7.1.0, fix versions 9.12.40, 10.3.26, 11.3.12 -- Jira Service Management Data Center, introduced in version &gt;= 3.1.0, fix versions 5.12.40, 10.3.26, 11.3.12 -- Bamboo Data Center &gt;= 7.0.1, fix versions 10.2.24, 12.1.12 -- Crucible, fix versions 4.9.15 -- Fisheye, fix version 4.9.15 -- Exploitation requires prior knowledge of the target file's exact name and path. The vulnerability does not include the capability to enumerate or list directory contents.
+</code>
+
 - [watchtowrlabs/watchTowr-vs-Atlassian-CVE-2026-21589](https://github.com/watchtowrlabs/watchTowr-vs-Atlassian-CVE-2026-21589)
 - [MarcusProgram/CVE-2026-21589](https://github.com/MarcusProgram/CVE-2026-21589)
 - [tc4dy/CVE-2026-21589-PoC-Exploit](https://github.com/tc4dy/CVE-2026-21589-PoC-Exploit)
@@ -6249,6 +6254,13 @@
 </code>
 
 - [aniketlab/POCO-M7-Plus-Jailbreak](https://github.com/aniketlab/POCO-M7-Plus-Jailbreak)
+
+### CVE-2026-24090 (2026-06-01)
+
+<code>Cryptographic issue while processing partition table entries allows unauthorized modification of boot flow.
+</code>
+
+- [wnduddld0513/Lenovo_Qcom_RPMB_Tool](https://github.com/wnduddld0513/Lenovo_Qcom_RPMB_Tool)
 
 ### CVE-2026-24102
 - [SimoesCTT/CTT-Kernel-Resonance-io_uring-Temporal-Phase-Transition](https://github.com/SimoesCTT/CTT-Kernel-Resonance-io_uring-Temporal-Phase-Transition)
@@ -8336,6 +8348,7 @@
 - [abhishekhargan/CVE-2026-31431](https://github.com/abhishekhargan/CVE-2026-31431)
 - [MarioHY/cve_2026_31431_audit](https://github.com/MarioHY/cve_2026_31431_audit)
 - [AliHzSec/CVE-2026-31431](https://github.com/AliHzSec/CVE-2026-31431)
+- [toxy4ny/copy-fail-exploit-on-c-redteam](https://github.com/toxy4ny/copy-fail-exploit-on-c-redteam)
 - [kvakirsanov/CVE-2026-31431-live-process-code-injection](https://github.com/kvakirsanov/CVE-2026-31431-live-process-code-injection)
 - [TheMalwareGuardian/CVE-2026-31431](https://github.com/TheMalwareGuardian/CVE-2026-31431)
 - [FrosterDL/CVE-2026-31431](https://github.com/FrosterDL/CVE-2026-31431)
@@ -13790,6 +13803,13 @@
 
 - [mdvpat/CVE-2026-52832-PoC-exploit-nuclio-dashboard](https://github.com/mdvpat/CVE-2026-52832-PoC-exploit-nuclio-dashboard)
 
+### CVE-2026-52856 (2026-07-31)
+
+<code>Wings is the server control plane for Pterodactyl, a free, open-source game server management panel. Prior to 1.13.0, a malformed packet received during the SFTP connection handshake causes a Go panic. This issue is fixed in version 1.13.0.
+</code>
+
+- [lisbickq/CVE-2026-52856-PoC](https://github.com/lisbickq/CVE-2026-52856-PoC)
+
 ### CVE-2026-52885 (2026-06-26)
 
 <code>Notepad++ is a free and open-source source code editor. Prior to 8.9.6.4, NppCommands.cpp checks the HMAC of the on-disk shortcuts.xml at the moment a user command fires (Time-of-Check). However, the command payload is taken from the in-memory _userCommands vector, which is populated at application startup and never re-synchronized with the on-disk file (Time-of-Use). Swapping shortcuts.xml between startup and command execution causes the HMAC check to validate a clean file while a malicious command runs. An attacker with write access to shortcuts.xml places a malicious version on disk before launch, then immediately restores the legitimate file. The HMAC check at execution time validates the restored legitimate file (check passes), while the malicious payload executes from memory. This vulnerability is fixed in 8.9.6.4.
@@ -17733,6 +17753,20 @@
 
 - [oscerd/CVE-2026-85250](https://github.com/oscerd/CVE-2026-85250)
 
+### CVE-2026-85251 (2026-10-19)
+
+<code>Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache Camel HTTP component.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nTwo paths handed credentials to a redirect target, which is a host chosen by the remote server rather than by the route, once followRedirects=true. OAuth2ClientConfigurer registers its interceptor with addRequestInterceptorFirst, and HttpClient runs protocol-level request interceptors inside ProtocolExec, which sits below RedirectExec in the exec chain; the interceptor therefore ran again for every redirect hop and re-attached Authorization: Bearer  to whatever host the Location header named. Separately, credentials were registered against an AuthScope matching any host, so basic and digest credentials were presented to a redirect target as well. A remote endpoint - or anyone who can influence its responses - could therefore collect the bearer token or the configured credentials simply by answering with a redirect to a host it controls.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. Credentials are now sent only to the authority the endpoint was configured with, and are not re-attached when a redirect crosses to another host. For deployments that cannot upgrade immediately, set followRedirects=false on endpoints that carry credentials, and handle any redirect explicitly in the route so that the destination is chosen by the route rather than by the remote server.
+</code>
+
+- [oscerd/CVE-2026-85251](https://github.com/oscerd/CVE-2026-85251)
+
+### CVE-2026-85254 (2026-10-19)
+
+<code>Improper Handling of Case Sensitivity vulnerability in Apache Camel Platform HTTP component.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nThe guard that prevents a request header being reflected into the response compared header names case sensitively, while HTTP header names are case insensitive. A caller could therefore defeat the suppression simply by varying the case of the header name. HTTP/2 makes the problem unconditional rather than optional: the protocol requires header names to be lowercase on the wire, so the comparison never matched and the suppression was inert for every request on an HTTP/2 connection. The consequence is that content the caller chose is echoed back in the response, which is the basis for response-splitting and cache-poisoning style attacks against whatever sits in front of the Camel endpoint.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. Request header names are now compared case insensitively, so the suppression holds regardless of casing and works under HTTP/2. For deployments that cannot upgrade immediately, strip the headers in question in front of the Camel endpoint, or remove them from the response in the route rather than relying on the built-in suppression.
+</code>
+
+- [oscerd/CVE-2026-85254](https://github.com/oscerd/CVE-2026-85254)
+
 ### CVE-2026-85520 (2026-09-29)
 
 <code>Google Merchant Center Feed (gmfeed) module for PrestaShop is vulnerable to unauthenticated arbitrary file write in the feed.php endpoint. An unauthenticated attacker can send a crafted request that controls the output file name, path, extension, and content through request parameters. Due to the lack of authentication and input validation, the request is processed successfully, allowing an attacker to write and execute arbitrary PHP code, resulting in remote code execution (RCE).\n\n\nThis issue was fixed in version 2.3.9.
@@ -18788,11 +18822,12 @@
 - [PeronGH/CVE-2026-99999](https://github.com/PeronGH/CVE-2026-99999)
 - [Quaerendir/cve-2026-99999-audit](https://github.com/Quaerendir/cve-2026-99999-audit)
 - [kingahmadr/CVE-2026-99999-kernel-check](https://github.com/kingahmadr/CVE-2026-99999-kernel-check)
-- [zakinko/kpatch-alma-cve-2026-99999](https://github.com/zakinko/kpatch-alma-cve-2026-99999)
+- [nsrg-fmlorg/kpatch-alma-cve-2026-99999](https://github.com/nsrg-fmlorg/kpatch-alma-cve-2026-99999)
 - [01luyicheng/CVE-2026-99999](https://github.com/01luyicheng/CVE-2026-99999)
 - [gandli/CVE-2026-99999-pwnescape](https://github.com/gandli/CVE-2026-99999-pwnescape)
 - [shizuku198411/CVE-2026-99999-KVM-checksum-metadata-non-destructive-PoC](https://github.com/shizuku198411/CVE-2026-99999-KVM-checksum-metadata-non-destructive-PoC)
 - [nsrg-fmlorg/kpatch-rocky-cve-2026-99999](https://github.com/nsrg-fmlorg/kpatch-rocky-cve-2026-99999)
+- [alvaroguzmancode/CVE-2026-99999](https://github.com/alvaroguzmancode/CVE-2026-99999)
 
 ### CVE-2026-100380 (2026-09-25)
 
@@ -19361,6 +19396,13 @@
 
 - [beyavuz/cve-2026-105080-poc](https://github.com/beyavuz/cve-2026-105080-poc)
 
+### CVE-2026-105105 (2026-10-03)
+
+<code>CWE-306: Missing Authentication for Critical Function in the ait.core.server telemetry and command broker (ait-server) in NASA-AMMOS AIT-Core through 3.1.1 allows an unauthenticated remote attacker with network access to the ZeroMQ message bus to inject spacecraft command data, exfiltrate command and telemetry traffic, inject forged telemetry, or disrupt the command and telemetry bus. The ait-server ZeroMQ broker binds its XSUB and XPUB sockets to all network interfaces by default without authentication or transport security. An attacker able to reach TCP port 5559 can publish messages onto internal topics, including the __commands__ command topic. With the shipped default configuration, command messages are forwarded through command_stream and emitted on the command-uplink UDP path. An attacker able to reach TCP port 5560 can subscribe to command and telemetry traffic on the ground bus. AIT-Core 3.1.2 changes the default ZeroMQ bind addresses to loopback.
+</code>
+
+- [Mothra-1/CVE-2026-105105](https://github.com/Mothra-1/CVE-2026-105105)
+
 ### CVE-2026-105133 (2026-10-04)
 
 <code>A vulnerability was detected in Ahsay AhsayCBS up to 10.3.2. This affects the function checkSysPwd of the file com/ahsay/obs/api/ApiStructsAction.java of the component API. Performing a manipulation of the argument random results in improper authentication. It is possible to initiate the attack remotely. The exploit is now public and may be used. Upgrading to version 10.3.4 is able to mitigate this issue. It is recommended to upgrade the affected component.
@@ -19434,16 +19476,32 @@
 
 - [KevineCharles/CVE-2026-106610-miniorange-otp-ato](https://github.com/KevineCharles/CVE-2026-106610-miniorange-otp-ato)
 
-### CVE-2026-107081
+### CVE-2026-107081 (2026-10-19)
+
+<code>SQL injection via identifier injection in the tableName and tableFields POST parameters of admin AJAX endpoints (admin/AJAX_lookup_handler.php, admin/AJAX_check_id.php, admin/AJAX_vocabolary_control.php) in SENAYAN Library Management System (SLiMS) Bulian 9.8.0 allows any authenticated staff user to extract arbitrary database contents.
+</code>
+
 - [Primandito/CVE-2026-107081](https://github.com/Primandito/CVE-2026-107081)
 
-### CVE-2026-107082
+### CVE-2026-107082 (2026-10-19)
+
+<code>Slims (Senayan Library Management Systems) 9 Bulian 9.8.0 allows an authenticated staff user to perform SQL injection via the opac_hide and promoted GET parameters of admin/modules/bibliography/index.php, because escape_string() is applied but the values are concatenated into an unquoted numeric SQL context, leading to error-based information disclosure and arbitrary data extraction.
+</code>
+
 - [Primandito/CVE-2026-107082](https://github.com/Primandito/CVE-2026-107082)
 
-### CVE-2026-107083
+### CVE-2026-107083 (2026-10-19)
+
+<code>SENAYAN Library Management System (SLiMS) Bulian (slims9_bulian) 9.8.0 is vulnerable to SQL Injection in admin/modules/reporting/customs/dl_detail.php via the parameter fileID.
+</code>
+
 - [Primandito/CVE-2026-107083](https://github.com/Primandito/CVE-2026-107083)
 
-### CVE-2026-107084
+### CVE-2026-107084 (2026-10-19)
+
+<code>Slims (Senayan Library Management Systems) 9 Bulian 9.8.0 allows cross-site request forgery (CSRF) against admin/modules/circulation/loan_history_maintenance.php because the action=run GET parameter performs privileged, destructive operations with no CSRF token or POST confirmation, leading to data loss of loan history records.
+</code>
+
 - [Primandito/CVE-2026-107084](https://github.com/Primandito/CVE-2026-107084)
 
 ### CVE-2026-107159 (2026-10-07)
@@ -23446,6 +23504,7 @@
 </code>
 
 - [Dmitri131313/CVE-2025-21420-PoC](https://github.com/Dmitri131313/CVE-2025-21420-PoC)
+- [toxy4ny/edge-maradeur](https://github.com/toxy4ny/edge-maradeur)
 - [moiz-2x/CVE-2025-21420_POC](https://github.com/moiz-2x/CVE-2025-21420_POC)
 
 ### CVE-2025-21479 (2025-06-03)
@@ -36400,6 +36459,13 @@
 
 - [RandomRobbieBF/CVE-2024-12594](https://github.com/RandomRobbieBF/CVE-2024-12594)
 
+### CVE-2024-12603 (2024-12-13)
+
+<code>A logic vulnerability in the the mobile application (com.transsion.applock) can lead to bypassing the application password.
+</code>
+
+- [MAwaisAfzal0/CVE-2024-12603-POC](https://github.com/MAwaisAfzal0/CVE-2024-12603-POC)
+
 ### CVE-2024-12641 (2024-12-16)
 
 <code>TenderDocTransfer from Chunghwa Telecom has a Reflected Cross-site scripting vulnerability. The application sets up a simple local web server and provides APIs for communication with the target website. Due to the lack of CSRF protection for the APIs, unauthenticated remote attackers could use specific APIs through phishing to execute arbitrary JavaScript code in the user’s browser. Since the web server set by the application supports Node.Js features, attackers can further leverage this to run OS commands.
@@ -38505,6 +38571,7 @@
 - [ptd200110/CVE-2024-27198-SOC-Lab](https://github.com/ptd200110/CVE-2024-27198-SOC-Lab)
 - [kxom9ks/CVE-2024-27198-TeamCity](https://github.com/kxom9ks/CVE-2024-27198-TeamCity)
 - [wonnnggge/CVE-2024-27198_CTF](https://github.com/wonnnggge/CVE-2024-27198_CTF)
+- [GREATKID05/CVE-2024-27198-Assignment](https://github.com/GREATKID05/CVE-2024-27198-Assignment)
 
 ### CVE-2024-27292 (2024-02-29)
 
@@ -40143,6 +40210,7 @@
 - [yinsel/CVE-2024-35250-BOF](https://github.com/yinsel/CVE-2024-35250-BOF)
 - [0xROOTPLS/GiveMeKernel](https://github.com/0xROOTPLS/GiveMeKernel)
 - [xvalegendary/HVCIPwned](https://github.com/xvalegendary/HVCIPwned)
+- [m01000xd/CVE-2024-35250](https://github.com/m01000xd/CVE-2024-35250)
 
 ### CVE-2024-35315 (2024-10-21)
 
@@ -44508,6 +44576,13 @@
 </code>
 
 - [SohelYousef/CVE-2024-58290-Xhibiter-SQLi](https://github.com/SohelYousef/CVE-2024-58290-Xhibiter-SQLi)
+
+### CVE-2024-58299 (2025-12-12)
+
+<code>PCMan FTP Server 2.0 contains a buffer overflow vulnerability in the 'pwd' command that allows remote attackers to execute arbitrary code. Attackers can send a specially crafted payload during the FTP login process to overwrite memory and potentially gain system access.
+</code>
+
+- [CyberWarrior10101/CVE-2024-58299](https://github.com/CyberWarrior10101/CVE-2024-58299)
 
 ### CVE-2024-66001
 - [gduma-phData/patch-CVE-2024-66001](https://github.com/gduma-phData/patch-CVE-2024-66001)
@@ -68583,6 +68658,7 @@
 - [ResoluteRacoons/log4-Java-logging-poc](https://github.com/ResoluteRacoons/log4-Java-logging-poc)
 - [hoangvvthu/CVE-2021-44228-Log4Shell-Lab](https://github.com/hoangvvthu/CVE-2021-44228-Log4Shell-Lab)
 - [Developer-Dynamo/cs50-cybersecurity-final-project](https://github.com/Developer-Dynamo/cs50-cybersecurity-final-project)
+- [mcpmark-eval-liuhezi/log4shell-remediation](https://github.com/mcpmark-eval-liuhezi/log4shell-remediation)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -83287,6 +83363,7 @@
 - [ronankongala/metasploit-pentest-report](https://github.com/ronankongala/metasploit-pentest-report)
 - [quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144](https://github.com/quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144)
 - [porcumarcooo/TryHackMe-Blue-MS17-010](https://github.com/porcumarcooo/TryHackMe-Blue-MS17-010)
+- [duycao2311/eternalblue-ms17010-study](https://github.com/duycao2311/eternalblue-ms17010-study)
 
 ### CVE-2017-0145 (2017-03-17)
 
@@ -84207,6 +84284,7 @@
 - [youngmin0104/CVE-2017-7529-](https://github.com/youngmin0104/CVE-2017-7529-)
 - [portfolio10/nginx](https://github.com/portfolio10/nginx)
 - [CyberCTF/vulhub-nginx-cve-2017-7529](https://github.com/CyberCTF/vulhub-nginx-cve-2017-7529)
+- [Guanyu-Zhou/hdu-is-work1-secure-flask-api](https://github.com/Guanyu-Zhou/hdu-is-work1-secure-flask-api)
 
 ### CVE-2017-7648 (2017-04-10)
 
