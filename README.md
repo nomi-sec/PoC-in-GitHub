@@ -65,7 +65,6 @@
 
 - [novaek/CVE-2026-0073-Research](https://github.com/novaek/CVE-2026-0073-Research)
 - [SecTestAnnaQuinn/CVE-2026-0073-Android-adbd-authentication-bypass-POC](https://github.com/SecTestAnnaQuinn/CVE-2026-0073-Android-adbd-authentication-bypass-POC)
-- [devtint/CVE-2026-0073](https://github.com/devtint/CVE-2026-0073)
 - [adityatelange/poc-CVE-2026-0073](https://github.com/adityatelange/poc-CVE-2026-0073)
 - [MartinPSDev/CVE-2026-0073-Android-ADBD-bypass-POC](https://github.com/MartinPSDev/CVE-2026-0073-Android-ADBD-bypass-POC)
 - [unnaim/adbHijacker](https://github.com/unnaim/adbHijacker)
@@ -7315,6 +7314,13 @@
 
 - [NetVanguard-cmd/CVE-2026-27597](https://github.com/NetVanguard-cmd/CVE-2026-27597)
 
+### CVE-2026-27606 (2026-02-25)
+
+<code>Rollup is a module bundler for JavaScript. Versions prior to 2.80.0, 3.30.0, and 4.59.0 of the Rollup module bundler (specifically v4.x and present in current source) is vulnerable to an Arbitrary File Write via Path Traversal. Insecure file name sanitization in the core engine allows an attacker to control output filenames (e.g., via CLI named inputs, manual chunk aliases, or malicious plugins) and use traversal sequences (`../`) to overwrite files anywhere on the host filesystem that the build process has permissions for. This can lead to persistent Remote Code Execution (RCE) by overwriting critical system or user configuration files. Versions 2.80.0, 3.30.0, and 4.59.0 contain a patch for the issue.
+</code>
+
+- [AaaronP/Seguridad---Proyecto-de-investigaci-n](https://github.com/AaaronP/Seguridad---Proyecto-de-investigaci-n)
+
 ### CVE-2026-27607 (2026-02-25)
 
 <code>RustFS is a distributed object storage system built in Rust. In versions 1.0.0-alpha.56 through 1.0.0-alpha.82, RustFS does not validate policy conditions in presigned POST uploads (PostObject), allowing attackers to bypass content-length-range, starts-with, and Content-Type constraints. This enables unauthorized file uploads exceeding size limits, uploads to arbitrary object keys, and content-type spoofing, potentially leading to storage exhaustion, unauthorized data access, and security bypasses. Version 1.0.0-alpha.83 fixes the issue.
@@ -8429,7 +8435,6 @@
 - [Detect-DefenseLab/CVE-2026-31431-detection-defense](https://github.com/Detect-DefenseLab/CVE-2026-31431-detection-defense)
 - [ozergoker/CVE-2026-31431-copy-fail](https://github.com/ozergoker/CVE-2026-31431-copy-fail)
 - [Raptoratack/CopyFail-Scanner-CVE-2026-31431](https://github.com/Raptoratack/CopyFail-Scanner-CVE-2026-31431)
-- [devtint/CVE-2026-31431](https://github.com/devtint/CVE-2026-31431)
 - [mrmtwoj/ubuntu-cve-2026-31431-mitigation](https://github.com/mrmtwoj/ubuntu-cve-2026-31431-mitigation)
 - [RazvanDuda/GhostShell](https://github.com/RazvanDuda/GhostShell)
 - [darioomatos/cve-2026-31431-copyfail](https://github.com/darioomatos/cve-2026-31431-copyfail)
@@ -11093,7 +11098,6 @@
 - [Jenderal92/CVE-2026-41940](https://github.com/Jenderal92/CVE-2026-41940)
 - [XsanFlip/poc-cpanel-cve-2026-41940](https://github.com/XsanFlip/poc-cpanel-cve-2026-41940)
 - [0xBlackash/CVE-2026-41940](https://github.com/0xBlackash/CVE-2026-41940)
-- [devtint/CVE-2026-41940](https://github.com/devtint/CVE-2026-41940)
 - [vineet7800/cpanel-malware-cleaner-cve-2026](https://github.com/vineet7800/cpanel-malware-cleaner-cve-2026)
 - [AmirrezaMarzban/portscan-CVE-2026-41940](https://github.com/AmirrezaMarzban/portscan-CVE-2026-41940)
 - [MrAriaNet/cPanel-Fix](https://github.com/MrAriaNet/cPanel-Fix)
@@ -11557,7 +11561,6 @@
 - [ankitrawatgit/DirtyFrag-Android-Root-Jailbreak](https://github.com/ankitrawatgit/DirtyFrag-Android-Root-Jailbreak)
 - [HirokiAkihiko/dirtyfrag-research](https://github.com/HirokiAkihiko/dirtyfrag-research)
 - [SudoXDdX/DirtyFrag](https://github.com/SudoXDdX/DirtyFrag)
-- [tangdino222/DirtyFrag](https://github.com/tangdino222/DirtyFrag)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -11712,7 +11715,6 @@
 - [anksgls-sj/-Help-vivo-Y200i-5.10.218-GKI-CVE-2026-43499-stack-reclaim-reaches-0x300-need-0x318](https://github.com/anksgls-sj/-Help-vivo-Y200i-5.10.218-GKI-CVE-2026-43499-stack-reclaim-reaches-0x300-need-0x318)
 - [TheAndersMadsen/humane-aipin-ghostlock](https://github.com/TheAndersMadsen/humane-aipin-ghostlock)
 - [deancyl/s9180-rootmygalaxy](https://github.com/deancyl/s9180-rootmygalaxy)
-- [MKE84/neo8-ghostlock-adaptation](https://github.com/MKE84/neo8-ghostlock-adaptation)
 - [wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499](https://github.com/wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499)
 - [AriyanPegu/ghostlock-app](https://github.com/AriyanPegu/ghostlock-app)
 - [RELIHR/CVE-2026-43499](https://github.com/RELIHR/CVE-2026-43499)
@@ -15282,6 +15284,8 @@
 - [maosasagawa/pmx110-cve-2026-64560](https://github.com/maosasagawa/pmx110-cve-2026-64560)
 - [ChaYeWuu/prague-CVE-2026-64560-OS4.0](https://github.com/ChaYeWuu/prague-CVE-2026-64560-OS4.0)
 - [totsiaw/cve-2026-64560-rmx6699](https://github.com/totsiaw/cve-2026-64560-rmx6699)
+- [Feng1586/CVE-2026-64560-public](https://github.com/Feng1586/CVE-2026-64560-public)
+- [Feng1586/CVE-2026-64560-sources](https://github.com/Feng1586/CVE-2026-64560-sources)
 
 ### CVE-2026-64561 (2026-08-04)
 
@@ -17203,6 +17207,9 @@
 ### CVE-2026-80343
 - [oscerd/CVE-2026-80343](https://github.com/oscerd/CVE-2026-80343)
 
+### CVE-2026-80344
+- [oscerd/CVE-2026-80344](https://github.com/oscerd/CVE-2026-80344)
+
 ### CVE-2026-80428 (2026-08-26)
 
 <code>ILIAS before versions 9.22, 10.10, and 11.3 contains an unauthenticated PHP object injection vulnerability that allows unauthenticated attackers to execute arbitrary code by injecting serialized objects through the LTI authentication endpoint and triggering deserialization via the Shibboleth back-channel logout endpoint. Attackers can write arbitrary serialized objects into session storage, then exploit an available POP gadget through the logout endpoint's unrestricted deserialization to write attacker-controlled PHP content to a web-accessible path and achieve remote code execution as the web server user.
@@ -17412,6 +17419,9 @@
 </code>
 
 - [hakaioffsec/CVE-2026-82957](https://github.com/hakaioffsec/CVE-2026-82957)
+
+### CVE-2026-83531
+- [oscerd/CVE-2026-83531](https://github.com/oscerd/CVE-2026-83531)
 
 ### CVE-2026-83548 (2026-09-01)
 
@@ -18640,6 +18650,7 @@
 - [kingahmadr/CVE-2026-99999-kernel-check](https://github.com/kingahmadr/CVE-2026-99999-kernel-check)
 - [zakinko/kpatch-alma-cve-2026-99999](https://github.com/zakinko/kpatch-alma-cve-2026-99999)
 - [01luyicheng/CVE-2026-99999](https://github.com/01luyicheng/CVE-2026-99999)
+- [gandli/CVE-2026-99999-pwnescape](https://github.com/gandli/CVE-2026-99999-pwnescape)
 
 ### CVE-2026-100380 (2026-09-25)
 
@@ -23262,7 +23273,6 @@
 - [tarunbharathe/Zero-Click-RCE-Incident-Response-CVE-2025-21298](https://github.com/tarunbharathe/Zero-Click-RCE-Incident-Response-CVE-2025-21298)
 - [C-G-creator/LetsDefend-SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298](https://github.com/C-G-creator/LetsDefend-SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298)
 - [abc1230940/SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298](https://github.com/abc1230940/SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298)
-- [mohamedbrek/SOC336-CVE-2025-21298-Investigation](https://github.com/mohamedbrek/SOC336-CVE-2025-21298-Investigation)
 
 ### CVE-2025-21333 (2025-01-14)
 
@@ -29366,6 +29376,7 @@
 - [foxcornlab/react2shell-scanner](https://github.com/foxcornlab/react2shell-scanner)
 - [M4rc3l08/ReactorWriteUp-HackTheBox](https://github.com/M4rc3l08/ReactorWriteUp-HackTheBox)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2025-55182-React2Shell](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2025-55182-React2Shell)
+- [0xRAM-bit/CVE-2025-55182](https://github.com/0xRAM-bit/CVE-2025-55182)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -37296,6 +37307,7 @@
 - [BestDevOfc/CVE-2024-23334-PoC](https://github.com/BestDevOfc/CVE-2024-23334-PoC)
 - [Sn0wBaall/CVE-2024-23334-PoC](https://github.com/Sn0wBaall/CVE-2024-23334-PoC)
 - [begzodxasanboev/Driftnet](https://github.com/begzodxasanboev/Driftnet)
+- [JohnnyWang108/hdu-is-lab1-secure-api](https://github.com/JohnnyWang108/hdu-is-lab1-secure-api)
 
 ### CVE-2024-23339 (2024-01-22)
 
@@ -38348,6 +38360,7 @@
 - [Ne0zer01/CVE-2024-27198_LAB](https://github.com/Ne0zer01/CVE-2024-27198_LAB)
 - [ptd200110/CVE-2024-27198-SOC-Lab](https://github.com/ptd200110/CVE-2024-27198-SOC-Lab)
 - [kxom9ks/CVE-2024-27198-TeamCity](https://github.com/kxom9ks/CVE-2024-27198-TeamCity)
+- [wonnnggge/CVE-2024-27198_CTF](https://github.com/wonnnggge/CVE-2024-27198_CTF)
 
 ### CVE-2024-27292 (2024-02-29)
 
@@ -42566,7 +42579,6 @@
 - [NadineElliottCyber/SOC335-CVE-2024-49138-Investigation](https://github.com/NadineElliottCyber/SOC335-CVE-2024-49138-Investigation)
 - [Adisasoc/CVE-2024-49138-SOC-Investigation](https://github.com/Adisasoc/CVE-2024-49138-SOC-Investigation)
 - [FabianCH20/SOC335---CVE-2024-49138-Exploitation-Detected](https://github.com/FabianCH20/SOC335---CVE-2024-49138-Exploitation-Detected)
-- [mohamedbrek/SOC335-CVE-2024-49138-Exploitation-Detected](https://github.com/mohamedbrek/SOC335-CVE-2024-49138-Exploitation-Detected)
 
 ### CVE-2024-49328 (2024-10-20)
 
@@ -45033,13 +45045,6 @@
 
 - [CN016/DedeCMS-getshell-CVE-2023-2928-](https://github.com/CN016/DedeCMS-getshell-CVE-2023-2928-)
 
-### CVE-2023-2951 (2023-05-28)
-
-<code>Es wurde eine kritische Schwachstelle in code-projects Bus Dispatch and Information System 1.0 entdeckt. Es geht dabei um eine nicht klar definierte Funktion der Datei delete_bus.php. Durch die Manipulation des Arguments busid mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [Spr1te76/CVE-2023-2951](https://github.com/Spr1te76/CVE-2023-2951)
-
 ### CVE-2023-2982 (2023-06-29)
 
 <code>The WordPress Social Login and Register (Discord, Google, Twitter, LinkedIn) plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 7.6.4. This is due to insufficient encryption on the user being supplied during a login validated through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they know the email address associated with that user. This was partially patched in version 7.6.4 and fully patched in version 7.6.5.
@@ -45478,7 +45483,7 @@
 <code>A use-after-free vulnerability in the Linux kernel's af_unix component can be exploited to achieve local privilege escalation.\n\n\n\nThe unix_stream_sendpage() function tries to add data to the last skb in the peer's recv queue without locking the queue. Thus there is a race where unix_stream_sendpage() could access an skb locklessly that is being released by garbage collection, resulting in use-after-free.\n\n\n\nWe recommend upgrading past commit 790c2f9d15b594350ae9bca7b236f2b1859de02c (or backported equivalents).
 </code>
 
-- [0range1337/CVE-CVE-2023-4622](https://github.com/0range1337/CVE-CVE-2023-4622)
+- [uz56764/CVE-CVE-2023-4622](https://github.com/uz56764/CVE-CVE-2023-4622)
 
 ### CVE-2023-4631 (2023-09-25)
 
@@ -54258,7 +54263,7 @@
 - [delsploit/CVE-2022-1015](https://github.com/delsploit/CVE-2022-1015)
 - [pivik271/CVE-2022-1015](https://github.com/pivik271/CVE-2022-1015)
 - [more-kohii/CVE-2022-1015](https://github.com/more-kohii/CVE-2022-1015)
-- [0range1337/CVE-2022-1015](https://github.com/0range1337/CVE-2022-1015)
+- [uz56764/CVE-2022-1015](https://github.com/uz56764/CVE-2022-1015)
 - [seadragnol/CVE-2022-1015](https://github.com/seadragnol/CVE-2022-1015)
 
 ### CVE-2022-1026 (2022-04-04)
