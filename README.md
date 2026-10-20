@@ -11758,7 +11758,6 @@
 - [Escosis/V2463A-LPE](https://github.com/Escosis/V2463A-LPE)
 - [AuroraMythweaver/iqoo-neo9-ghostlock-pc](https://github.com/AuroraMythweaver/iqoo-neo9-ghostlock-pc)
 - [Romk-a/CVE-2026-43499-ghostlock-vivo-x100-ultra-root](https://github.com/Romk-a/CVE-2026-43499-ghostlock-vivo-x100-ultra-root)
-- [M3E114514/M3-Neo10-Root-ADB-OS6](https://github.com/M3E114514/M3-Neo10-Root-ADB-OS6)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15321,6 +15320,7 @@
 - [totsiaw/cve-2026-64560-rmx6699](https://github.com/totsiaw/cve-2026-64560-rmx6699)
 - [Feng1586/CVE-2026-64560-public](https://github.com/Feng1586/CVE-2026-64560-public)
 - [Feng1586/CVE-2026-64560-sources](https://github.com/Feng1586/CVE-2026-64560-sources)
+- [Yunnijian/OnePlus16-Jailbreak](https://github.com/Yunnijian/OnePlus16-Jailbreak)
 
 ### CVE-2026-64561 (2026-08-04)
 
@@ -17781,6 +17781,55 @@
 
 - [oscerd/CVE-2026-85257](https://github.com/oscerd/CVE-2026-85257)
 
+### CVE-2026-85260 (2026-10-19)
+
+<code>Insertion of Sensitive Information into Log File vulnerability in Apache Camel MLLP component.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nThe camel-mllp component carries a logPhi option that governs whether HL7 payload content may be written to the log. It defaulted to true, so a deployment that did nothing logged protected health information out of the box. Two further paths wrote payload content to the log regardless of the setting, so even an operator who had turned logPhi off was still exposed on those paths. MLLP is used to carry HL7 clinical messages, so the content concerned is patient data, and it reached ordinary application logs where it is subject to whatever retention, aggregation and access the deployment applies to logs generally rather than to clinical records.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. logPhi now defaults to false and is honoured on the paths that previously ignored it. This is a changed default: a deployment that relied on payload logging must now set logPhi=true explicitly. Because the upgrade guide for a change like this lives on the main branch only, operators upgrading within the 4.18.x or 4.22.x lines should treat this advisory as the notice of that change. For deployments that cannot upgrade immediately, set logPhi=false and be aware that two paths will continue to log payload content until the fix is applied; restrict access to the logs accordingly.
+</code>
+
+- [oscerd/CVE-2026-85260](https://github.com/oscerd/CVE-2026-85260)
+
+### CVE-2026-85296 (2026-10-19)
+
+<code>Exposure of Data Element to Wrong Session vulnerability in Apache Camel AS2 component.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nSigning material belonging to an individual request was stored in state that is shared across requests rather than confined to the request being processed. Where a deployment serves more than one trading partner, concurrent or successive requests could therefore observe each other's material, and a Message Disposition Notification could be signed with the key of a partner other than the one the receipt was for. The result is cross-partner key confusion: a receipt attributable to the wrong partner, and one partner's signing material used while handling another partner's exchange. AS2 deployments are typically multi-partner by design, so the condition is reached by ordinary concurrent traffic rather than by anything the attacker must arrange.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. Per-request signing keys are now confined to the request being processed in ResponseMDN. For deployments that cannot upgrade immediately, run a separate Camel context per trading partner so that no signing material is shared between them.
+</code>
+
+- [oscerd/CVE-2026-85296](https://github.com/oscerd/CVE-2026-85296)
+
+### CVE-2026-85300 (2026-10-19)
+
+<code>Incorrect Default Permissions vulnerability in Apache Camel PQC component.\n\nThis issue affects Apache Camel: from 4.12.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nWhen the component wrote generated key material to disk it did so with the permissions the process default umask produced, rather than restricting the file to its owner. On a host whose umask allows group or world read, the private key was therefore readable by other local accounts. The exposure is to a local party rather than to the remote sender that the Camel threat model treats as the primary adversary, which is why the severity is assessed low, but the consequence where it applies is complete: possession of the private key defeats every signature and key exchange the deployment performs with it.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. Key material is now written with owner-only permissions. For deployments that cannot upgrade immediately, place the key directory on a path only the service account can traverse, and tighten the process umask. Key material already written with permissive permissions should be treated as exposed and rotated.
+</code>
+
+- [oscerd/CVE-2026-85300](https://github.com/oscerd/CVE-2026-85300)
+
+### CVE-2026-85301 (2026-10-19)
+
+<code>Improper Authentication vulnerability in Apache Camel Keycloak component.\n\nThis issue affects Apache Camel: from 4.15.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\n\n\n\nThe security processor validated the issuer of an introspected token only when the introspection response actually carried an iss claim. When the claim was absent the check was skipped rather than treated as a failure, so a token that the configured issuer did not mint could be accepted provided the introspection endpoint answered without naming an issuer. Reaching this requires an introspection endpoint that omits iss and accepts tokens from more than one issuer, which is not the default Keycloak arrangement, hence the low severity; where that arrangement exists the consequence is that the deployment authenticates a caller it should have rejected.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. An absent iss claim is now treated as a validation failure rather than as a reason to skip the check. For deployments that cannot upgrade immediately, ensure the introspection endpoint returns the iss claim, and that it serves exactly one issuer.
+</code>
+
+- [oscerd/CVE-2026-85301](https://github.com/oscerd/CVE-2026-85301)
+
+### CVE-2026-85312 (2026-10-19)
+
+<code>Improper Input Validation vulnerability in Apache Camel Core component.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nThe saga processor consulted a header named Long-Running-Action to decide which saga an exchange belonged to. The name carries no Camel prefix, so it sits outside the namespace that consumer header filters block, and an external sender could supply it on an inbound message. That let the sender name the saga the exchange joined, attaching their request to a long-running action started by someone else, or causing compensation to be associated with an action they did not initiate. The header is only consulted by a saga service that uses it, which bounds the exposure to deployments running sagas over an LRA coordinator.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The header is now consulted only for a saga service that actually uses it, rather than on every exchange. For deployments that cannot upgrade immediately, strip the header at the trust boundary with removeHeaders(&quot;Long-Running-Action&quot;) on every consumer that accepts messages from an untrusted sender.
+</code>
+
+- [oscerd/CVE-2026-85312](https://github.com/oscerd/CVE-2026-85312)
+
+### CVE-2026-85313 (2026-10-19)
+
+<code>Permissive Cross-domain Policy with Untrusted Domains vulnerability in Apache Camel Jetty component.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nSetting enableCORS on a Jetty endpoint installed Jetty's CrossOriginFilter with its stock defaults, which accept every origin and allow credentials. An operator asking for CORS therefore obtained a policy that lets a page on any origin make credentialed cross-origin requests to the endpoint and read the responses, without any indication that turning the option on had chosen an allow-all policy rather than an empty one to be filled in. This is the same defect class as the platform-http-vertx advisory published alongside it, in a different component.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. enableCORS no longer grants credentials to an origin the operator did not name. A deployment that relied on any origin being accepted must now list its origins explicitly. For deployments that cannot upgrade immediately, configure the CrossOriginFilter parameters explicitly rather than relying on what enableCORS installs, naming the allowed origins.
+</code>
+
+- [oscerd/CVE-2026-85313](https://github.com/oscerd/CVE-2026-85313)
+
+### CVE-2026-85314 (2026-10-19)
+
+<code>Improper Input Validation vulnerability in Apache Camel Mail component.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nCVE-2026-46584 addressed mail headers reaching the Exchange without passing through a header filter, but the MimeMultipart data format retained an unfiltered path: unmarshalling a multipart message mapped mail.smtp headers onto the Exchange with no filter applied. Those names sit outside the Camel namespace that consumer filters block, so a message crafted by an external sender could still set them, and the mail.smtp namespace influences how a downstream mail producer connects and sends. This is an incomplete fix of CVE-2026-46584 rather than a new class of defect: a deployment that applied that advisory and considered camel-mail settled remained exposed on this path.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The MimeMultipart data format now applies the header filter on unmarshal, closing the path CVE-2026-46584 left open. For deployments that cannot upgrade immediately, strip the namespace after the data format with removeHeaders(&quot;mail.smtp*&quot;) before any mail producer.
+</code>
+
+- [oscerd/CVE-2026-85314](https://github.com/oscerd/CVE-2026-85314)
+
 ### CVE-2026-85520 (2026-09-29)
 
 <code>Google Merchant Center Feed (gmfeed) module for PrestaShop is vulnerable to unauthenticated arbitrary file write in the feed.php endpoint. An unauthenticated attacker can send a crafted request that controls the output file name, path, extension, and content through request parameters. Due to the lack of authentication and input validation, the request is processed successfully, allowing an attacker to write and execute arbitrary PHP code, resulting in remote code execution (RCE).\n\n\nThis issue was fixed in version 2.3.9.
@@ -18387,6 +18436,13 @@
 
 - [murrez/CVE-2026-92966](https://github.com/murrez/CVE-2026-92966)
 
+### CVE-2026-93300 (2026-10-20)
+
+<code>The EventON - Subscriber plugin for WordPress is vulnerable to generic SQL Injection via the 'email' parameter in all versions up to, and including, 1.4.5 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [Datxzzz/CVE-2026-93300](https://github.com/Datxzzz/CVE-2026-93300)
+
 ### CVE-2026-93349 (2026-09-23)
 
 <code>Frictionless before 5.19.1 contains an OS command injection vulnerability in the explore console command that allows an attacker who supplies a crafted Data Package descriptor to execute arbitrary operating system commands as the user who explores it. Attackers can place shell metacharacters in resource path values within a datapackage.json descriptor, which are passed unsanitized to os.system through a shell, causing arbitrary command execution in the victim's security context when they run the explore command against the untrusted package. This vulnerability was also addressed in version 5.20.0rc2 of the pre-release branch.
@@ -18844,6 +18900,8 @@
 - [nsrg-fmlorg/kpatch-rocky-cve-2026-99999](https://github.com/nsrg-fmlorg/kpatch-rocky-cve-2026-99999)
 - [alvaroguzmancode/CVE-2026-99999](https://github.com/alvaroguzmancode/CVE-2026-99999)
 - [sqzer-x/cve-2026-99999-scanner](https://github.com/sqzer-x/cve-2026-99999-scanner)
+- [01luyicheng/CVE-2026-99999-analysis](https://github.com/01luyicheng/CVE-2026-99999-analysis)
+- [01luyicheng/CVE-2026-99999-exploit](https://github.com/01luyicheng/CVE-2026-99999-exploit)
 
 ### CVE-2026-100380 (2026-09-25)
 
@@ -19471,6 +19529,13 @@
 ### CVE-2026-105319
 - [kashishtopi/CVE-2026-105319](https://github.com/kashishtopi/CVE-2026-105319)
 
+### CVE-2026-105484 (2026-10-06)
+
+<code>A security vulnerability has been detected in TOTOLINK X6000R 9.4.0cu.652_B20230116. The impacted element is the function firmware_check of the file /cgi-bin/cstecgi.cgi of the component UploadFirmwareFile Handler. Such manipulation of the argument file_name leads to os command injection. The attack may be performed from remote.
+</code>
+
+- [xiaobai718-ab/CVE-2026-105484](https://github.com/xiaobai718-ab/CVE-2026-105484)
+
 ### CVE-2026-105844 (2026-10-06)
 
 <code>Payload is a free and open source headless content management system. In versions from 3.0.0 before 3.88.0 and canary versions before 4.0.0-canary.27, an unauthenticated user can submit prototype-sensitive field paths when @payloadcms/plugin-import-export is enabled, causing unintended application behavior that can lead to remote code execution. This issue is fixed in versions 3.88.0 and 4.0.0-canary.27.
@@ -19484,6 +19549,13 @@
 </code>
 
 - [capivara-research/CVE-2026-105950](https://github.com/capivara-research/CVE-2026-105950)
+
+### CVE-2026-106173 (2026-10-13)
+
+<code>A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiSIEM 7.5.0 may allow attacker to execute unauthorized code or commands via specially crafted packets.
+</code>
+
+- [horizon3ai/CVE-2026-106173](https://github.com/horizon3ai/CVE-2026-106173)
 
 ### CVE-2026-106445 (2026-10-06)
 
@@ -19669,7 +19741,7 @@
 
 ### CVE-2026-111283 (2026-10-15)
 
-<code>BMC Helix Network Management on-prem before 26.3.01 contains an authentication bypass vulnerability that allows unauthenticated attackers to log in as the local administrator with any password when SAML single sign-on is configured. Attackers can submit the administrator username with an arbitrary password on the web login page to obtain a SuperAdmin session, modify device credentials, run device commands, and alter audit records.
+<code>BMC Helix Network Management on-prem 26.3.00 before 26.3.01 contains an authentication bypass vulnerability that allows unauthenticated attackers to log in as the local administrator with any password when SAML single sign-on is configured. Attackers can submit the administrator username with an arbitrary password on the web login page to obtain a SuperAdmin session, modify device credentials, run device commands, and alter audit records.
 </code>
 
 - [cybliminal/cve-2026-111283-bmc-helix-network-management-local-administrator-any-password](https://github.com/cybliminal/cve-2026-111283-bmc-helix-network-management-local-administrator-any-password)
@@ -19697,6 +19769,13 @@
 </code>
 
 - [murrez/CVE-2026-111823](https://github.com/murrez/CVE-2026-111823)
+
+### CVE-2026-112195 (2026-10-19)
+
+<code>A flaw has been found in FusionPBX up to 5.4.4/5.5.7/5.6.5. The affected element is an unknown function of the file app/dialplans/resources/classes/dialplan.php of the component Dialplan Editor. Executing a manipulation can lead to os command injection. The attack can be executed remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [jasonbernier/Dialplan-Escape-RCE](https://github.com/jasonbernier/Dialplan-Escape-RCE)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -25641,6 +25720,7 @@
 - [aristois913/CVE-2025-31324](https://github.com/aristois913/CVE-2025-31324)
 - [HKenzoKimura/CVE-2025-31324](https://github.com/HKenzoKimura/CVE-2025-31324)
 - [harisandhusingh-cmyk/cs50-cve-2025-31324-analysis](https://github.com/harisandhusingh-cmyk/cs50-cve-2025-31324-analysis)
+- [CyberGramps007/CYB-403](https://github.com/CyberGramps007/CYB-403)
 
 ### CVE-2025-31336
 - [coleleavitt/AAMVA-PDF417-Vulnerability-Research](https://github.com/coleleavitt/AAMVA-PDF417-Vulnerability-Research)
@@ -55025,6 +55105,13 @@
 
 - [GYLQ/CVE-2022-3464](https://github.com/GYLQ/CVE-2022-3464)
 
+### CVE-2022-3509 (2022-11-01)
+
+<code>A parsing issue similar to CVE-2022-3171, but with textformat in protobuf-java core and lite versions prior to 3.21.7, 3.20.3, 3.19.6 and 3.16.3 can lead to a denial of service attack. Inputs containing multiple instances of non-repeated embedded messages with repeated or unknown fields causes objects to be converted back-n-forth between mutable and immutable forms, resulting in potentially long garbage collection pauses. We recommend updating to the versions mentioned above.
+</code>
+
+- [toluwanimidurosomo/CYB-401-](https://github.com/toluwanimidurosomo/CYB-401-)
+
 ### CVE-2022-3518 (2022-10-15)
 
 <code>A vulnerability classified as problematic has been found in SourceCodester Sanitization Management System 1.0. Affected is an unknown function of the component User Creation Handler. The manipulation of the argument First Name/Middle Name/Last Name leads to cross site scripting. It is possible to launch the attack remotely. VDB-211014 is the identifier assigned to this vulnerability.
@@ -68691,6 +68778,7 @@
 - [hoangvvthu/CVE-2021-44228-Log4Shell-Lab](https://github.com/hoangvvthu/CVE-2021-44228-Log4Shell-Lab)
 - [Developer-Dynamo/cs50-cybersecurity-final-project](https://github.com/Developer-Dynamo/cs50-cybersecurity-final-project)
 - [mcpmark-eval-liuhezi/log4shell-remediation](https://github.com/mcpmark-eval-liuhezi/log4shell-remediation)
+- [mcpmark-eval-liuhezi/log4shell-audit-2026](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-2026)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -75709,6 +75797,7 @@
 - [saaedimam/sony-bravia-root-toolkit](https://github.com/saaedimam/sony-bravia-root-toolkit)
 - [WJNKAC/cve-2019-2215-oppo-a77t](https://github.com/WJNKAC/cve-2019-2215-oppo-a77t)
 - [FDLAlfrid/odin-od105-devkit](https://github.com/FDLAlfrid/odin-od105-devkit)
+- [kilokite/old-phone-temp-root](https://github.com/kilokite/old-phone-temp-root)
 
 ### CVE-2019-2525 (2019-01-16)
 
@@ -84318,7 +84407,6 @@
 - [youngmin0104/CVE-2017-7529-](https://github.com/youngmin0104/CVE-2017-7529-)
 - [portfolio10/nginx](https://github.com/portfolio10/nginx)
 - [CyberCTF/vulhub-nginx-cve-2017-7529](https://github.com/CyberCTF/vulhub-nginx-cve-2017-7529)
-- [Guanyu-Zhou/hdu-is-work1-secure-flask-api](https://github.com/Guanyu-Zhou/hdu-is-work1-secure-flask-api)
 
 ### CVE-2017-7648 (2017-04-10)
 
