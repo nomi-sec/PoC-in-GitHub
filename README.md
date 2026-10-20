@@ -5982,6 +5982,7 @@
 - [sonnelon/CVE-2026-23744-PoC](https://github.com/sonnelon/CVE-2026-23744-PoC)
 - [itsC1SCO/mcpjam-to-root](https://github.com/itsC1SCO/mcpjam-to-root)
 - [01xJB/CVE-2026-23744-POC](https://github.com/01xJB/CVE-2026-23744-POC)
+- [wvverez/CVE-2026-23744](https://github.com/wvverez/CVE-2026-23744)
 
 ### CVE-2026-23745 (2026-01-16)
 
@@ -13100,7 +13101,6 @@
 - [ayiezola/CVE-2026-48908](https://github.com/ayiezola/CVE-2026-48908)
 - [bayu06802/CVE-2026-48908](https://github.com/bayu06802/CVE-2026-48908)
 - [Jenderal92/CVE-2026-48908](https://github.com/Jenderal92/CVE-2026-48908)
-- [cazzysoci/cve-2026-48908](https://github.com/cazzysoci/cve-2026-48908)
 - [g0thamRabb1t/CVE-2026-48908-joomla-sp-page-builder-detection](https://github.com/g0thamRabb1t/CVE-2026-48908-joomla-sp-page-builder-detection)
 - [imXur/CVE-2026-48908-Joomla-SP-Page-Builder-RCE](https://github.com/imXur/CVE-2026-48908-Joomla-SP-Page-Builder-RCE)
 - [yora1928/CVE-2026-48908-by-yora](https://github.com/yora1928/CVE-2026-48908-by-yora)
@@ -15407,6 +15407,7 @@
 - [kaleth4/CVE-2026-64638](https://github.com/kaleth4/CVE-2026-64638)
 - [xAL6/cve-2026-64638-banner-poc](https://github.com/xAL6/cve-2026-64638-banner-poc)
 - [madfxr/xss2shell-poc](https://github.com/madfxr/xss2shell-poc)
+- [OFRPurpose/poc-cve-2026-64638](https://github.com/OFRPurpose/poc-cve-2026-64638)
 
 ### CVE-2026-64640 (2026-08-06)
 
@@ -17078,6 +17079,13 @@
 
 - [oscerd/CVE-2026-78165](https://github.com/oscerd/CVE-2026-78165)
 
+### CVE-2026-78250 (2026-08-24)
+
+<code>A vulnerability was identified in bytebot-ai bytebot 0.0.1. The affected element is an unknown function of the component Agent Execution Workflow. Such manipulation leads to infinite loop. The attack may be performed from remote. The exploit is publicly available and might be used. This vulnerability only affects products that are no longer supported by the maintainer.
+</code>
+
+- [n1kat/forkybot_AI](https://github.com/n1kat/forkybot_AI)
+
 ### CVE-2026-78306 (2026-08-24)
 
 <code>DJI drones expose an unauthenticated DUML command interface over Bluetooth that allows an attacker within Bluetooth range to modify Wi-Fi configuration parameters, including the SSID, PSK, MAC address, regulatory country code, and wireless channel. An attacker can overwrite the Wi-Fi PSK with a known value and connect to the drone's internal Wi-Fi network, potentially gaining access to the flight control interface and issuing flight commands. Crafted DUML commands can also disable or restart the Wi-Fi and Bluetooth interfaces, disconnect Wi-Fi clients, or reset wireless configuration, resulting in a denial-of-service condition that can disrupt the operator's wireless control, video, and telemetry connections during flight.\n\nAffected models are DJI Neo until 01.00.0400, DJI Neo 2 until 01.00.0500, DJI Flip until 01.00.1200, DJI Air 3 until 01.00.1600, DJI Air 3S until 01.00.1400, DJI Avata 2 until 01.00.0400, DJI Avata 360 until 01.00.0300, DJI Mavic 3 until 01.00.1400, DJI Mavic 3 Classic until 01.00.0800, DJI Mavic 3 Pro until 01.01.0700, DJI Mavic 4 Pro until 01.00.0500, DJI Mini 2 until 01.07.0200, DJI Mini 3 until 01.00.0500, DJI Mini 3 Pro until 01.00.0900, DJI Mini 4 Pro until 01.00.1100, and DJI Mini 5 Pro until 01.00.0600.\n\n\nRemediation requires a firmware update from the vendor.
@@ -18364,7 +18372,11 @@
 
 - [MS-0x404/CVE-2026-92099](https://github.com/MS-0x404/CVE-2026-92099)
 
-### CVE-2026-92162
+### CVE-2026-92162 (2026-10-20)
+
+<code>Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux. Prior to version 1.18.1, on systems where at least one OCI remote is configured (most common on Fedora systems), a malicious local user in an active local session could use a crafted architecture name to trick the `flatpak-system-helper` process into creating a root-owned directory tree with contents determined by the OCI remote, plus a root-owned `lock` file and `icons` directory, outside the intended root directory. If this vulnerability is combined with other vulnerabilities also fixed in 1.18.1, the combination can lead to local root privilege escalation. This particular vulnerability is not believed to be exploitable if there are no OCI remotes configured (common on non-Fedora systems). Version 1.18.1 patches the issue.
+</code>
+
 - [0xSemizzz/CVE-2026-92162](https://github.com/0xSemizzz/CVE-2026-92162)
 
 ### CVE-2026-92208
@@ -19536,6 +19548,13 @@
 
 - [xiaobai718-ab/CVE-2026-105484](https://github.com/xiaobai718-ab/CVE-2026-105484)
 
+### CVE-2026-105810 (2026-10-19)
+
+<code>Tapo C320WS\nV2.0 contains an authenticated stack-based buffer overflow in the local\nonboarding Wi-Fi configuration path. An authenticated attacker on the\nadjacent network can submit a crafted request containing an oversized encrypted\npassword field, overwrite stack state, and execute commands with root\nprivileges.\n\n\n\n\n\nSuccessful\nexploitation may allow an authenticated adjacent-network attacker to take\ncontrol of the affected camera, modify camera behavior, access sensitive local\nconfiguration, and disrupt device availability.
+</code>
+
+- [M0ud4/CVE-2026-105810](https://github.com/M0ud4/CVE-2026-105810)
+
 ### CVE-2026-105844 (2026-10-06)
 
 <code>Payload is a free and open source headless content management system. In versions from 3.0.0 before 3.88.0 and canary versions before 4.0.0-canary.27, an unauthenticated user can submit prototype-sensitive field paths when @payloadcms/plugin-import-export is enabled, causing unintended application behavior that can lead to remote code execution. This issue is fixed in versions 3.88.0 and 4.0.0-canary.27.
@@ -19556,6 +19575,7 @@
 </code>
 
 - [horizon3ai/CVE-2026-106173](https://github.com/horizon3ai/CVE-2026-106173)
+- [0xBlackash/CVE-2026-106173](https://github.com/0xBlackash/CVE-2026-106173)
 
 ### CVE-2026-106445 (2026-10-06)
 
@@ -19646,6 +19666,7 @@
 ### CVE-2026-108097
 - [FurkanKAYAPINAR/CVE-2026-108097](https://github.com/FurkanKAYAPINAR/CVE-2026-108097)
 - [fortbridge/cve-2026-108097-research](https://github.com/fortbridge/cve-2026-108097-research)
+- [ExDev994/CVE-2026-108097](https://github.com/ExDev994/CVE-2026-108097)
 
 ### CVE-2026-108578 (2026-10-11)
 
@@ -19770,12 +19791,26 @@
 
 - [murrez/CVE-2026-111823](https://github.com/murrez/CVE-2026-111823)
 
+### CVE-2026-112071 (2026-10-20)
+
+<code>The order cancellation function accepts an order identifier from the request and acts on that order without checking that the caller owns it. Any site visitor can set orders that are still awaiting payment to &quot;canceled&quot;. This requires a page that contains the shop's order plugin. Orders that are already paid are not affected.
+</code>
+
+- [yuwkaaa/CVE-2026-112071](https://github.com/yuwkaaa/CVE-2026-112071)
+
 ### CVE-2026-112195 (2026-10-19)
 
 <code>A flaw has been found in FusionPBX up to 5.4.4/5.5.7/5.6.5. The affected element is an unknown function of the file app/dialplans/resources/classes/dialplan.php of the component Dialplan Editor. Executing a manipulation can lead to os command injection. The attack can be executed remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
 </code>
 
 - [jasonbernier/Dialplan-Escape-RCE](https://github.com/jasonbernier/Dialplan-Escape-RCE)
+
+### CVE-2026-113468 (2026-10-20)
+
+<code>The payment notification endpoint for PayPal accepts incoming data without verifying that it comes from the payment provider. Any site visitor can overwrite the stored payment notification of an order that is still awaiting payment with arbitrary content. This requires a page that contains the shop's order plugin. Orders that are already paid are not affected.
+</code>
+
+- [yuwkaaa/CVE-2026-113468](https://github.com/yuwkaaa/CVE-2026-113468)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -21014,6 +21049,13 @@
 </code>
 
 - [berkley4/icu-74-debian](https://github.com/berkley4/icu-74-debian)
+
+### CVE-2025-5243 (2025-07-24)
+
+<code>Unrestricted Upload of File with Dangerous Type, Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in SMG Software Information Portal allows Code Injection, Upload a Web Shell to a Web Server, Code Inclusion.\n\nThis issue affects Information Portal: before 13.06.2025.
+</code>
+
+- [ersinerenler/CVE-2025-5243-SMG-Software-Information-Portal-Arbitrary-File-Upload-Vulnerability](https://github.com/ersinerenler/CVE-2025-5243-SMG-Software-Information-Portal-Arbitrary-File-Upload-Vulnerability)
 
 ### CVE-2025-5287 (2025-05-28)
 
@@ -36264,6 +36306,13 @@
 
 - [gothburz/CVE-2024-11042](https://github.com/gothburz/CVE-2024-11042)
 
+### CVE-2024-11142 (2025-05-02)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in Gosoft Software Proticaret E-Commerce allows Cross Site Request Forgery.\n\nThis issue affects Proticaret E-Commerce: before v6.0\n\n\n\nNOTE: According to the vendor, fixing process is still ongoing for v4.05.
+</code>
+
+- [ersinerenler/CVE-2024-11142-Gosoft-Proticaret-E-Commerce-CSRF-Vulnerability](https://github.com/ersinerenler/CVE-2024-11142-Gosoft-Proticaret-E-Commerce-CSRF-Vulnerability)
+
 ### CVE-2024-11201 (2024-12-06)
 
 <code>The myCred – Loyalty Points and Rewards plugin for WordPress and WooCommerce – Give Points, Ranks, Badges, Cashback, WooCommerce rewards, and WooCommerce credits for Gamification plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's mycred_send shortcode in all versions up to, and including, 2.7.5.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
@@ -47636,6 +47685,7 @@
 - [Pandante-Central/CVE-2023-24329-codeql-test](https://github.com/Pandante-Central/CVE-2023-24329-codeql-test)
 - [PenTestMano/CVE-2023-24329-Exploit](https://github.com/PenTestMano/CVE-2023-24329-Exploit)
 - [jithinodattu/CVE-2023-24329-lab](https://github.com/jithinodattu/CVE-2023-24329-lab)
+- [UpWguyy/CVE-2023-24329-PoC](https://github.com/UpWguyy/CVE-2023-24329-PoC)
 
 ### CVE-2023-24422 (2023-01-24)
 
@@ -52749,6 +52799,7 @@
 </code>
 
 - [ersinerenler/CVE-2023-46014-Code-Projects-Blood-Bank-1.0-SQL-Injection-Vulnerability](https://github.com/ersinerenler/CVE-2023-46014-Code-Projects-Blood-Bank-1.0-SQL-Injection-Vulnerability)
+- [ersinerenler/Code-Projects-Blood-Bank-1.0](https://github.com/ersinerenler/Code-Projects-Blood-Bank-1.0)
 
 ### CVE-2023-46015 (2023-11-13)
 
@@ -52805,6 +52856,20 @@
 </code>
 
 - [ersinerenler/CVE-2023-46022-Code-Projects-Blood-Bank-1.0-OOB-SQL-Injection-Vulnerability](https://github.com/ersinerenler/CVE-2023-46022-Code-Projects-Blood-Bank-1.0-OOB-SQL-Injection-Vulnerability)
+
+### CVE-2023-46023 (2023-11-14)
+
+<code>SQL injection vulnerability in addTask.php in Code-Projects Simple Task List 1.0 allows attackers to obtain sensitive information via the 'status' parameter.
+</code>
+
+- [ersinerenler/Code-Projects-Simple-Task-List-1.0](https://github.com/ersinerenler/Code-Projects-Simple-Task-List-1.0)
+
+### CVE-2023-46024 (2023-11-14)
+
+<code>SQL Injection vulnerability in index.php in phpgurukul Teacher Subject Allocation Management System 1.0 allows attackers to run arbitrary SQL commands and obtain sensitive information via the 'searchdata' parameter.
+</code>
+
+- [ersinerenler/PHPGurukul-Teacher-Subject-Allocation-Management-System-1.0](https://github.com/ersinerenler/PHPGurukul-Teacher-Subject-Allocation-Management-System-1.0)
 
 ### CVE-2023-46136 (2023-10-24)
 
@@ -52917,6 +52982,13 @@
 </code>
 
 - [Cyber-Wo0dy/CVE-2023-46501](https://github.com/Cyber-Wo0dy/CVE-2023-46501)
+
+### CVE-2023-46580 (2023-11-14)
+
+<code>Cross-Site Scripting (XSS) vulnerability in Inventory Management V1.0 allows attackers to execute arbitrary code via the pname parameter of the editProduct.php component.
+</code>
+
+- [ersinerenler/Code-Projects-Inventory-Management-1.0](https://github.com/ersinerenler/Code-Projects-Inventory-Management-1.0)
 
 ### CVE-2023-46604 (2023-10-27)
 
@@ -63176,6 +63248,7 @@
 - [iurhfiu6/CVE-2021-4034](https://github.com/iurhfiu6/CVE-2021-4034)
 - [r00t-byte/Pwnkit-CVE-2021-4034-LPE](https://github.com/r00t-byte/Pwnkit-CVE-2021-4034-LPE)
 - [SerhiiMaruniak/CVE-2021-4034](https://github.com/SerhiiMaruniak/CVE-2021-4034)
+- [DERMOUCHERYAD/Linux-Privilege-Escalation-Pentest-Lab](https://github.com/DERMOUCHERYAD/Linux-Privilege-Escalation-Pentest-Lab)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -67489,6 +67562,7 @@
 - [Joapath/CVE-2021-41773](https://github.com/Joapath/CVE-2021-41773)
 - [AlaIchhe/hdu-is-work1-secure-api](https://github.com/AlaIchhe/hdu-is-work1-secure-api)
 - [twq0316/work1-secure-rest-api](https://github.com/twq0316/work1-secure-rest-api)
+- [foreverlanterns/secure-demo-api](https://github.com/foreverlanterns/secure-demo-api)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -67960,13 +68034,6 @@
 </code>
 
 - [Citizen13X/CVE-2021-43229](https://github.com/Citizen13X/CVE-2021-43229)
-
-### CVE-2021-43258 (2022-11-23)
-
-<code>CartView.php in ChurchInfo 1.3.0 allows attackers to achieve remote code execution through insecure uploads. This requires authenticated access tot he ChurchInfo application. Once authenticated, a user can add names to their cart, and compose an email. Uploading an attachment for the email stores the attachment on the site in the /tmp_attach/ folder where it can be accessed with a GET request. There are no limitations on files that can be attached, allowing for malicious PHP code to be uploaded and interpreted by the server.
-</code>
-
-- [MRvirusIR/CVE-2021-43258](https://github.com/MRvirusIR/CVE-2021-43258)
 
 ### CVE-2021-43267 (2021-11-02)
 
@@ -84364,7 +84431,6 @@
 - [Zanex360/cdt-vulnsamba-deploy](https://github.com/Zanex360/cdt-vulnsamba-deploy)
 - [YonLiud/CVE-2017-7494](https://github.com/YonLiud/CVE-2017-7494)
 - [CyberCTF/vulhub-samba-cve-2017-7494](https://github.com/CyberCTF/vulhub-samba-cve-2017-7494)
-- [JA-Cyber365/home-network-security-assessment](https://github.com/JA-Cyber365/home-network-security-assessment)
 
 ### CVE-2017-7504 (2017-05-19)
 
