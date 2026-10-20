@@ -7,6 +7,7 @@
 </code>
 
 - [mobilehackinglab/CVE-2026-0006-openapv-poc](https://github.com/mobilehackinglab/CVE-2026-0006-openapv-poc)
+- [R3n3r0/CVE-2026-0006-step-2](https://github.com/R3n3r0/CVE-2026-0006-step-2)
 
 ### CVE-2026-0009 (2026-06-01)
 
@@ -567,7 +568,6 @@
 <code>A flaw was found in Keycloak. An attacker can exploit this vulnerability by modifying the organization ID and target email within a legitimate invitation token's JSON Web Token (JWT) payload. This lack of cryptographic signature verification allows the attacker to successfully self-register into an unauthorized organization, leading to unauthorized access.
 </code>
 
-- [ninjazan420/CVE-2026-1529-PoC-keycloak-unauthorized-registration-via-improper-invitation-token-validation](https://github.com/ninjazan420/CVE-2026-1529-PoC-keycloak-unauthorized-registration-via-improper-invitation-token-validation)
 - [0x240x23elu/CVE-2026-1529](https://github.com/0x240x23elu/CVE-2026-1529)
 - [ackemed/CVE-2026-1529-PoC-keycloak-unauthorized-registration-via-improper-invitation-token-validation](https://github.com/ackemed/CVE-2026-1529-PoC-keycloak-unauthorized-registration-via-improper-invitation-token-validation)
 - [0xlyvio/CVE-2026-1529-Keycloak-Exploit-Tool](https://github.com/0xlyvio/CVE-2026-1529-Keycloak-Exploit-Tool)
@@ -617,13 +617,6 @@
 </code>
 
 - [pvharmo2/gha-lab-b5c1313658](https://github.com/pvharmo2/gha-lab-b5c1313658)
-
-### CVE-2026-1729 (2026-02-12)
-
-<code>The AdForest theme for WordPress is vulnerable to authentication bypass in all versions up to, and including, 6.0.12. This is due to the plugin not properly verifying a user's identity prior to authenticating them through the 'sb_login_user_with_otp_fun' function. This makes it possible for unauthenticated attackers to log in as arbitrary users, including administrators.
-</code>
-
-- [ninjazan420/CVE-2026-1729-PoC-AdForest-WordPress-Authentication-Bypass](https://github.com/ninjazan420/CVE-2026-1729-PoC-AdForest-WordPress-Authentication-Bypass)
 
 ### CVE-2026-1731 (2026-02-06)
 
@@ -14070,7 +14063,11 @@
 
 - [anirbala98/CVE-2026-53959](https://github.com/anirbala98/CVE-2026-53959)
 
-### CVE-2026-53995
+### CVE-2026-53995 (2026-10-19)
+
+<code>MLflow 3.17.1 and earlier contains a path traversal vulnerability in the FileStore tracking backend that allows unauthenticated attackers to control filesystem paths by submitting a crafted trace ID containing traversal sequences to the POST /api/3.0/mlflow/traces endpoint. Attackers can exploit FileStore.start_trace() to write trace_info.yaml, request_metadata, and tag files with attacker-controlled metadata outside the intended experiment trace directory, subject to the server process's filesystem permissions. FileStore is the default tracking backend before MLflow 3.7.0 and opt-in thereafter (the default changed to a SQLite database), so deployments in the earlier part of the affected range are vulnerable without special configuration while later ones are affected only when FileStore is explicitly selected.
+</code>
+
 - [SaiTeja-Erukude/CVE-2026-53995-mlflow-path-traversal](https://github.com/SaiTeja-Erukude/CVE-2026-53995-mlflow-path-traversal)
 
 ### CVE-2026-54088 (2026-06-25)
@@ -15178,6 +15175,7 @@
 - [hitechcloud-vietnam/wp2shell-PoC](https://github.com/hitechcloud-vietnam/wp2shell-PoC)
 - [0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL](https://github.com/0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL)
 - [gichirimaku/wp2shell-PoC](https://github.com/gichirimaku/wp2shell-PoC)
+- [K52-ai/CVE-2026-63030](https://github.com/K52-ai/CVE-2026-63030)
 
 ### CVE-2026-63039 (2026-08-20)
 
@@ -17396,6 +17394,13 @@
 
 - [abhinavagarwal07/scadapack-secure-lock-poc](https://github.com/abhinavagarwal07/scadapack-secure-lock-poc)
 
+### CVE-2026-81963 (2026-09-08)
+
+<code>Improper link resolution before file access ('link following') in Windows Update Stack allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [rsah35404-star/stunning-octo-doodle](https://github.com/rsah35404-star/stunning-octo-doodle)
+
 ### CVE-2026-82090 (2026-08-28)
 
 <code>Pocket through 8.33.0.0 allows XSS because &quot;Save to Pocket&quot; injects external HTML into the DOM.  JavaScript code can alter the application state via native bridge methods.
@@ -17766,6 +17771,13 @@
 </code>
 
 - [oscerd/CVE-2026-85254](https://github.com/oscerd/CVE-2026-85254)
+
+### CVE-2026-85257 (2026-10-19)
+
+<code>Generation of Error Message Containing Sensitive Information vulnerability in Apache Camel CXF component.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nWhen a route behind a CXF SOAP consumer failed with an exception the service contract does not declare, the exception was described back to the SOAP client in the fault: CXF copies the message into the SOAP faultstring, and can be configured to place the stack trace in the fault detail. An external caller able to provoke a failure could therefore read internal detail about the deployment - class and package names, and whatever the exception message carries. Declared faults, annotated @WebFault, are a different matter: those are part of the published contract that clients are written against, and suppressing them would break the service rather than protect anything.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. A muteException consumer option, defaulting to true, replaces an undeclared route failure with a generic fault carrying no class name, message or stack trace. Faults the contract declares are reported exactly as before. Set muteException=false to restore the previous output. For deployments that cannot upgrade immediately, declare the exceptions the service is allowed to report and map every other failure onto one of them in an onException handler, so no undeclared exception reaches the fault.
+</code>
+
+- [oscerd/CVE-2026-85257](https://github.com/oscerd/CVE-2026-85257)
 
 ### CVE-2026-85520 (2026-09-29)
 
@@ -19173,6 +19185,13 @@
 </code>
 
 - [EterNullSec/CVE-2026-103648](https://github.com/EterNullSec/CVE-2026-103648)
+
+### CVE-2026-103663 (2026-10-08)
+
+<code>Ollama is vulnerable to path traversal in the `/api/pull` endpoint due to insufficient validation of layer digests by the `digestToPath` function. An unauthenticated remote attacker can specify a path traversal sequence as a layer digest, causing a malicious binary to be written outside the model store. \n\nCritically if the server process has write access to `/usr/lib/ollama` (the default in most Ollama Docker images), an attacker can write the malicious file to that directory. On the next server restart, the file is loaded and executed, resulting in remote code execution as root.\n\n\nThis issue was fixed in version 0.35.0.
+</code>
+
+- [striga-ai/CVE-2026-103663](https://github.com/striga-ai/CVE-2026-103663)
 
 ### CVE-2026-103690 (2026-10-01)
 
@@ -28461,7 +28480,6 @@
 - [nxgn-kd01/smartermail-cve-scanner](https://github.com/nxgn-kd01/smartermail-cve-scanner)
 - [watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691](https://github.com/watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691)
 - [rimbadirgantara/CVE-2025-52691-poc](https://github.com/rimbadirgantara/CVE-2025-52691-poc)
-- [ninjazan420/CVE-2025-52691-PoC-SmarterMail-authentication-bypass-exploit-WT-2026-0001](https://github.com/ninjazan420/CVE-2025-52691-PoC-SmarterMail-authentication-bypass-exploit-WT-2026-0001)
 
 ### CVE-2025-52694 (2026-01-12)
 
@@ -84242,6 +84260,7 @@
 - [Zanex360/cdt-vulnsamba-deploy](https://github.com/Zanex360/cdt-vulnsamba-deploy)
 - [YonLiud/CVE-2017-7494](https://github.com/YonLiud/CVE-2017-7494)
 - [CyberCTF/vulhub-samba-cve-2017-7494](https://github.com/CyberCTF/vulhub-samba-cve-2017-7494)
+- [JA-Cyber365/home-network-security-assessment](https://github.com/JA-Cyber365/home-network-security-assessment)
 
 ### CVE-2017-7504 (2017-05-19)
 
