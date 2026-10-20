@@ -9739,6 +9739,7 @@
 - [HORKimhab/CVE-2026-35273](https://github.com/HORKimhab/CVE-2026-35273)
 - [0xBlackash/CVE-2026-35273](https://github.com/0xBlackash/CVE-2026-35273)
 - [12hrformat/CVE-2026-35273-POC](https://github.com/12hrformat/CVE-2026-35273-POC)
+- [rayo0009/CVE-2026-35273-Oracle-PeopleSoft-PeopleTools-Zero-Day-](https://github.com/rayo0009/CVE-2026-35273-Oracle-PeopleSoft-PeopleTools-Zero-Day-)
 
 ### CVE-2026-35330
 - [JohannesLks/CVE-2026-35330](https://github.com/JohannesLks/CVE-2026-35330)
@@ -11757,6 +11758,7 @@
 - [Escosis/V2463A-LPE](https://github.com/Escosis/V2463A-LPE)
 - [AuroraMythweaver/iqoo-neo9-ghostlock-pc](https://github.com/AuroraMythweaver/iqoo-neo9-ghostlock-pc)
 - [Romk-a/CVE-2026-43499-ghostlock-vivo-x100-ultra-root](https://github.com/Romk-a/CVE-2026-43499-ghostlock-vivo-x100-ultra-root)
+- [M3E114514/M3-Neo10-Root-ADB-OS6](https://github.com/M3E114514/M3-Neo10-Root-ADB-OS6)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -18642,6 +18644,7 @@
 
 - [gmh5225/plex2shell](https://github.com/gmh5225/plex2shell)
 - [code-zm/plex2shell](https://github.com/code-zm/plex2shell)
+- [ChrisLPJones/plex2shell-check](https://github.com/ChrisLPJones/plex2shell-check)
 
 ### CVE-2026-96656 (2026-09-23)
 
@@ -18840,6 +18843,7 @@
 - [shizuku198411/CVE-2026-99999-KVM-checksum-metadata-non-destructive-PoC](https://github.com/shizuku198411/CVE-2026-99999-KVM-checksum-metadata-non-destructive-PoC)
 - [nsrg-fmlorg/kpatch-rocky-cve-2026-99999](https://github.com/nsrg-fmlorg/kpatch-rocky-cve-2026-99999)
 - [alvaroguzmancode/CVE-2026-99999](https://github.com/alvaroguzmancode/CVE-2026-99999)
+- [sqzer-x/cve-2026-99999-scanner](https://github.com/sqzer-x/cve-2026-99999-scanner)
 
 ### CVE-2026-100380 (2026-09-25)
 
@@ -19655,6 +19659,13 @@
 </code>
 
 - [shlln/CVE-2026-110958](https://github.com/shlln/CVE-2026-110958)
+
+### CVE-2026-111058 (2026-10-19)
+
+<code>Mercury is a Python framework for sharing Jupyter notebooks as web applications and dashboards. Prior to 3.2.6, default tokenless deployments allow anonymous clients to create Jupyter kernels and send execute_request messages containing arbitrary Python. The endpoint blocklist does not cover /api/kernels, and the websocket wrapper previously tracked idle activity without authorizing executable messages. This issue is fixed in version 3.2.6.
+</code>
+
+- [ExDev994/CVE-2026-111058-CVE-2026-111057-mercury-rce](https://github.com/ExDev994/CVE-2026-111058-CVE-2026-111057-mercury-rce)
 
 ### CVE-2026-111283 (2026-10-15)
 
@@ -21031,6 +21042,7 @@
 - [sudoand3rs0n/CVE-2025-5548](https://github.com/sudoand3rs0n/CVE-2025-5548)
 - [VSvalinX/CVE-2025-5548](https://github.com/VSvalinX/CVE-2025-5548)
 - [M4Rc0s-S3c/CVE-2025-5548-FreeFloat-FTP-Lab](https://github.com/M4Rc0s-S3c/CVE-2025-5548-FreeFloat-FTP-Lab)
+- [jonbondani/CVE-2025-5548](https://github.com/jonbondani/CVE-2025-5548)
 
 ### CVE-2025-5640 (2025-06-05)
 
@@ -37128,6 +37140,7 @@
 - [Sxmpl3/CVE-2024-21762-Safe-Check](https://github.com/Sxmpl3/CVE-2024-21762-Safe-Check)
 - [Vampsecure-Labs/vamp-forticheck](https://github.com/Vampsecure-Labs/vamp-forticheck)
 - [abraxas/Fortigate-SSL-VPN-Exploit-Kit](https://github.com/abraxas/Fortigate-SSL-VPN-Exploit-Kit)
+- [Deekshitha2203/security-triage-agent-cybersec590](https://github.com/Deekshitha2203/security-triage-agent-cybersec590)
 
 ### CVE-2024-21793 (2024-05-08)
 
@@ -67388,6 +67401,7 @@
 - [CyberCTF/vulhub-httpd-cve-2021-41773](https://github.com/CyberCTF/vulhub-httpd-cve-2021-41773)
 - [Joapath/CVE-2021-41773](https://github.com/Joapath/CVE-2021-41773)
 - [AlaIchhe/hdu-is-work1-secure-api](https://github.com/AlaIchhe/hdu-is-work1-secure-api)
+- [twq0316/work1-secure-rest-api](https://github.com/twq0316/work1-secure-rest-api)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -83350,6 +83364,7 @@
 - [benguelmas/cve-2017-0143](https://github.com/benguelmas/cve-2017-0143)
 - [hackingyseguridad/smb](https://github.com/hackingyseguridad/smb)
 - [FernandoTDalcin/thm-blue-writeup](https://github.com/FernandoTDalcin/thm-blue-writeup)
+- [BlessingOlaniyan/cve-2017-0143-smbv1-analysis](https://github.com/BlessingOlaniyan/cve-2017-0143-smbv1-analysis)
 
 ### CVE-2017-0144 (2017-03-17)
 
@@ -84386,6 +84401,13 @@
 </code>
 
 - [itzexploit/CVE-2017-8056](https://github.com/itzexploit/CVE-2017-8056)
+
+### CVE-2017-8176 (2018-03-20)
+
+<code>Huawei IPTV STB with earlier than IPTV STB V100R003C01LMYTa6SPC001 versions has an authentication bypass vulnerability. An attacker could exploit this vulnerability to access the serial interface and modify the configuration. Successful exploit could lead to the authentication bypass and view channels by free.
+</code>
+
+- [klks/swproxy](https://github.com/klks/swproxy)
 
 ### CVE-2017-8225 (2017-04-25)
 
