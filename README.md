@@ -8493,6 +8493,7 @@
 - [cleozi/Copy_Grail](https://github.com/cleozi/Copy_Grail)
 - [vorkampfer/copyfail2_electric_boogaloo_fix](https://github.com/vorkampfer/copyfail2_electric_boogaloo_fix)
 - [AdemZero/CVE-2026-31431](https://github.com/AdemZero/CVE-2026-31431)
+- [Lutfifakee-Project/CVE-2026-31431](https://github.com/Lutfifakee-Project/CVE-2026-31431)
 - [u1tr0nex/CVE-2026-31431-CopyFail-Lab](https://github.com/u1tr0nex/CVE-2026-31431-CopyFail-Lab)
 - [mauricioportela/CVE-2026-31431-Analysis](https://github.com/mauricioportela/CVE-2026-31431-Analysis)
 - [dgrobinson0/CopyFile_CVE-2026-31431](https://github.com/dgrobinson0/CopyFile_CVE-2026-31431)
@@ -8557,6 +8558,7 @@
 </code>
 
 - [0xBlackash/CVE-2026-31635](https://github.com/0xBlackash/CVE-2026-31635)
+- [Lutfifakee-Project/CVE-2026-31635](https://github.com/Lutfifakee-Project/CVE-2026-31635)
 - [0xFuffM3/CVE-2026-31635-DirtyDecrypt](https://github.com/0xFuffM3/CVE-2026-31635-DirtyDecrypt)
 - [Koshmare-Blossom/DirtyDecrypt-go](https://github.com/Koshmare-Blossom/DirtyDecrypt-go)
 
@@ -9301,6 +9303,7 @@
 - [Joe1sn/CVE-2026-33825](https://github.com/Joe1sn/CVE-2026-33825)
 - [0xBlackash/CVE-2026-33825](https://github.com/0xBlackash/CVE-2026-33825)
 - [anasabugaddara-ux/defender-bluehammer-audit](https://github.com/anasabugaddara-ux/defender-bluehammer-audit)
+- [dntaskmehow/NEO-DEFENDER](https://github.com/dntaskmehow/NEO-DEFENDER)
 
 ### CVE-2026-33826 (2026-04-14)
 
@@ -10587,6 +10590,7 @@
 - [mfahdk/CVE-2026-39987_RCE_PoC](https://github.com/mfahdk/CVE-2026-39987_RCE_PoC)
 - [LaRemontada12/CVE-2026-39987-Marimo-Preauth-RCE](https://github.com/LaRemontada12/CVE-2026-39987-Marimo-Preauth-RCE)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-39987-Marimo-RCE](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-39987-Marimo-RCE)
+- [dntaskmehow/MARABUSE-](https://github.com/dntaskmehow/MARABUSE-)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -11026,6 +11030,7 @@
 - [shibaaa204/Pack2TheRoot](https://github.com/shibaaa204/Pack2TheRoot)
 - [Kowntaewook/CVE-2026-41651-analysis](https://github.com/Kowntaewook/CVE-2026-41651-analysis)
 - [mawussid/CVE-2026-41651-Python](https://github.com/mawussid/CVE-2026-41651-Python)
+- [Lutfifakee-Project/CVE-2026-41651](https://github.com/Lutfifakee-Project/CVE-2026-41651)
 - [0xDVRK/CVE-2026-41651](https://github.com/0xDVRK/CVE-2026-41651)
 - [gbuyssens/CVE-2026-41651](https://github.com/gbuyssens/CVE-2026-41651)
 - [ZeroDayEvil/CVE-2026-41651](https://github.com/ZeroDayEvil/CVE-2026-41651)
@@ -11103,6 +11108,7 @@
 - [Rosemary1337/CVE-2026-41940](https://github.com/Rosemary1337/CVE-2026-41940)
 - [mahfuzreham/cpanel-cve-2026-41940](https://github.com/mahfuzreham/cpanel-cve-2026-41940)
 - [unteikyou/CVE-2026-41940-AuthBypass-Detector](https://github.com/unteikyou/CVE-2026-41940-AuthBypass-Detector)
+- [Lutfifakee-Project/CVE-2026-41940](https://github.com/Lutfifakee-Project/CVE-2026-41940)
 - [NULL200OK/cve-2026-41940-tool](https://github.com/NULL200OK/cve-2026-41940-tool)
 - [ynsmroztas/cPanelSniper](https://github.com/ynsmroztas/cPanelSniper)
 - [0xYuR1/CVE-2026-41940](https://github.com/0xYuR1/CVE-2026-41940)
@@ -11752,6 +11758,7 @@
 - [cyrrp/honor90-ghostlock](https://github.com/cyrrp/honor90-ghostlock)
 - [tingao/debian-on-s23-ultra](https://github.com/tingao/debian-on-s23-ultra)
 - [villager1314/CVE-2026-43499-Analysis](https://github.com/villager1314/CVE-2026-43499-Analysis)
+- [shangu2003/SamsungRootKit](https://github.com/shangu2003/SamsungRootKit)
 - [y896406256-lang/ghostlock-brt-w09](https://github.com/y896406256-lang/ghostlock-brt-w09)
 - [saltlyfish666/magicpad3-root-research](https://github.com/saltlyfish666/magicpad3-root-research)
 - [MSEDGE-CORE/GhostLock-HonorFne](https://github.com/MSEDGE-CORE/GhostLock-HonorFne)
@@ -12086,6 +12093,13 @@
 </code>
 
 - [hakaioffsec/CVE-2026-44706](https://github.com/hakaioffsec/CVE-2026-44706)
+
+### CVE-2026-44714 (2026-05-15)
+
+<code>The bitcoinj library is a Java implementation of the Bitcoin protocol. Prior to 0.17.1, ScriptExecution.correctlySpends() contains two fast-path verification bugs for standard P2PKH and native P2WPKH spends in core/src/main/java/org/bitcoinj/script/ScriptExecution.java. In both branches, bitcoinj verifies an attacker-controlled signature/public-key pair but fails to verify that the public key is the one committed to by the output being spent. As a result, any attacker keypair can satisfy bitcoinj's local verification for arbitrary P2PKH and P2WPKH outputs. This vulnerability is fixed in 0.17.1.
+</code>
+
+- [dntaskmehow/BABEF](https://github.com/dntaskmehow/BABEF)
 
 ### CVE-2026-44788 (2026-05-26)
 
@@ -15090,6 +15104,7 @@
 
 - [hypnguyen1209/CVE-2026-62911](https://github.com/hypnguyen1209/CVE-2026-62911)
 - [ZeroDayEvil/CVE-2026-62911](https://github.com/ZeroDayEvil/CVE-2026-62911)
+- [fahise/cve-2026-62911](https://github.com/fahise/cve-2026-62911)
 
 ### CVE-2026-62958
 - [0Linear/CVE-2026-62958](https://github.com/0Linear/CVE-2026-62958)
@@ -15106,6 +15121,7 @@
 - [tcyph3r/wp2shell-cve-2026-63030-root-cause](https://github.com/tcyph3r/wp2shell-cve-2026-63030-root-cause)
 - [dinosn/wp2shell-lab](https://github.com/dinosn/wp2shell-lab)
 - [47Cid/wp2shell-lab](https://github.com/47Cid/wp2shell-lab)
+- [Lutfifakee-Project/wp2shell](https://github.com/Lutfifakee-Project/wp2shell)
 - [ekomsSavior/wp2shell](https://github.com/ekomsSavior/wp2shell)
 - [NULL200OK/WP2Shell](https://github.com/NULL200OK/WP2Shell)
 - [kulichr/wp2shell](https://github.com/kulichr/wp2shell)
@@ -15408,6 +15424,7 @@
 - [xAL6/cve-2026-64638-banner-poc](https://github.com/xAL6/cve-2026-64638-banner-poc)
 - [madfxr/xss2shell-poc](https://github.com/madfxr/xss2shell-poc)
 - [OFRPurpose/poc-cve-2026-64638](https://github.com/OFRPurpose/poc-cve-2026-64638)
+- [alisalive/xss2shell](https://github.com/alisalive/xss2shell)
 
 ### CVE-2026-64640 (2026-08-06)
 
@@ -16391,6 +16408,13 @@
 </code>
 
 - [endrazine/lean-cve-poc](https://github.com/endrazine/lean-cve-poc)
+
+### CVE-2026-72867 (2026-08-10)
+
+<code>Dokploy is a free, self-hostable Platform as a Service (PaaS). From 0.29.3 until 0.29.13, the incomplete fix for CVE-2026-45628 leaves packages/server/src/db/schema/compose.ts branch fields without server-side validation, allowing a direct compose.update request to store a malicious customGitBranch, branch, gitlabBranch, bitbucketBranch, or giteaBranch. A low-privileged authenticated user can trigger compose.deploy, which passes the stored branch to shell-based Git clone commands in packages/server/src/utils/providers/git.ts, github.ts, gitlab.ts, bitbucket.ts, and gitea.ts, resulting in arbitrary host command execution. This issue is fixed in version 0.29.13.
+</code>
+
+- [Lulztigre/CVE-2026-72867](https://github.com/Lulztigre/CVE-2026-72867)
 
 ### CVE-2026-72898 (2026-08-10)
 
@@ -17986,6 +18010,7 @@
 - [java99999/CVE-2026-86950-POC](https://github.com/java99999/CVE-2026-86950-POC)
 - [decalage2/detect_CVE-2026-86950](https://github.com/decalage2/detect_CVE-2026-86950)
 - [0xBlackash/CVE-2026-86950](https://github.com/0xBlackash/CVE-2026-86950)
+- [jpdagostin0/CVE-2026-86950-POC](https://github.com/jpdagostin0/CVE-2026-86950-POC)
 
 ### CVE-2026-86998
 - [squeeze440/pasteguard-PoC](https://github.com/squeeze440/pasteguard-PoC)
@@ -18048,6 +18073,13 @@
 
 - [SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.](https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.)
 
+### CVE-2026-87690 (2026-10-12)
+
+<code>The Metasploit Framework post module post/apple_ios/gather/ios_image_gather is affected by a relative path traversal vulnerability (CWE-22). The module interpolates file names taken from a Meterpreter directory listing — data fully controlled by a hostile or tampered iOS device — directly into the local destination path passed to client.fs.file.download_file(), with no sanitization. The underlying stdapi sink (lib/rex/post/meterpreter/extensions/stdapi/fs/file.rb) writes to whatever path is supplied, so a listing entry such as ../../msfconsole.rc escapes the intended ~/.msf4/loot/&lt;random&gt; directory and overwrites ~/.msf4/msfconsole.rc, a resource file that every msfconsole invocation automatically executes at startup (lib/msf/ui/console/driver.rb:196). An attacker-controlled device that lures an operator into running this gather module achieves an arbitrary file write as the operator; because the written msfconsole.rc can load a second written file (a Ruby plugin whose top-level code runs on require), this converts into persistent code execution and an interactive shell as the operator (frequently root) on the pentester's workstation at the next console launch. The same traversal was previously fixed upstream in the recursive downloader (stdapi/fs/dir.rb scrubs separators); this module omitted the equivalent scrub. The fix applies the same separator scrub (or File.basename) to listing entries before building the local path.
+</code>
+
+- [h00die/CVE-2026-87690-POC](https://github.com/h00die/CVE-2026-87690-POC)
+
 ### CVE-2026-87796 (2026-09-17)
 
 <code>The Multi Uploader for Gravity Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.1.9 via the move_file function. This is due to insufficient file type validation during chunked upload handling. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -18071,6 +18103,7 @@
 - [ynsmroztas/WPSniper](https://github.com/ynsmroztas/WPSniper)
 - [bhideki/CVE-2026-87902](https://github.com/bhideki/CVE-2026-87902)
 - [tc4dy/CVE-2026-87902-Toolkit](https://github.com/tc4dy/CVE-2026-87902-Toolkit)
+- [Lutfifakee-Project/CVE-2026-87902](https://github.com/Lutfifakee-Project/CVE-2026-87902)
 - [nextco/wordpress-cve-2026-87902](https://github.com/nextco/wordpress-cve-2026-87902)
 - [zyphorixofficialmain-lab/cve-2026-87902](https://github.com/zyphorixofficialmain-lab/cve-2026-87902)
 - [crowsec-edtech/CVE-2026-87902](https://github.com/crowsec-edtech/CVE-2026-87902)
@@ -18887,6 +18920,7 @@
 </code>
 
 - [jadedFella/lpe-study-notes](https://github.com/jadedFella/lpe-study-notes)
+- [yanoo1222/CVE-2026-98260-android](https://github.com/yanoo1222/CVE-2026-98260-android)
 - [ylh440104/InfinityCore-Android-CVE-2026-98260](https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98260)
 
 ### CVE-2026-98385 (2026-10-12)
@@ -19646,7 +19680,11 @@
 - [techupdate24/citrix-netscaler-rce-cve-2026-107406](https://github.com/techupdate24/citrix-netscaler-rce-cve-2026-107406)
 - [ctroy999/CVE-2026-107406](https://github.com/ctroy999/CVE-2026-107406)
 
-### CVE-2026-107692
+### CVE-2026-107692 (2026-10-20)
+
+<code>The War Thunder game client transmits its authentication bearer token (auth_jwt) in the very first data packet after the TCP handshake, using only LZ4 compression rather than encryption. An attacker positioned on the network path can passively intercept and decompress this packet to reveal the plaintext JSON payload. This vulnerability allows for temporary authenticated impersonation, enabling an attacker to access game services and certain user data (such as email address and displayed phone number) as the affected user. While this allows for unauthorized access to gameplay, it does not facilitate full account takeover, as it cannot be used to modify account security settings, change passwords, bypass two-factor authentication for account management, or access financial information.
+</code>
+
 - [thewhatdohe/CVE-2026-107692](https://github.com/thewhatdohe/CVE-2026-107692)
 
 ### CVE-2026-107806 (2026-10-09)
@@ -19709,6 +19747,9 @@
 </code>
 
 - [0xgh0stri13y/CVE-2026-109519](https://github.com/0xgh0stri13y/CVE-2026-109519)
+
+### CVE-2026-109618
+- [Unkn0vv/php2shell](https://github.com/Unkn0vv/php2shell)
 
 ### CVE-2026-109721 (2026-10-13)
 
@@ -21915,6 +21956,7 @@
 - [r3vpwnx/CVE-2025-8110](https://github.com/r3vpwnx/CVE-2025-8110)
 - [Makis6/CVE-2025-8110](https://github.com/Makis6/CVE-2025-8110)
 - [eds1268/cve-2025-8110-ctf](https://github.com/eds1268/cve-2025-8110-ctf)
+- [kur0bai/CVE-2025-8110](https://github.com/kur0bai/CVE-2025-8110)
 
 ### CVE-2025-8191 (2025-07-26)
 
@@ -22635,7 +22677,7 @@
 
 ### CVE-2025-11554 (2025-10-09)
 
-<code>A security vulnerability has been detected in Portabilis i-Educar up to 2.9.10. Affected by this issue is some unknown functionality of the file app/Http/Controllers/AccessLevelController.php of the component User Type Handler. The manipulation leads to insecure inherited permissions. The attack may be initiated remotely. The exploit has been disclosed publicly and may be used.
+<code>A security vulnerability has been detected in Portabilis i-Educar up to 2.9.10. Affected by this issue is some unknown functionality of the file app/Http/Controllers/AccessLevelController.php of the component User Type Handler. The manipulation leads to insecure inherited permissions. The attack may be initiated remotely. The exploit has been disclosed publicly and may be used. Upgrading to version 2.12 can resolve this issue. The identifier of the patch is d53365e5656f6499a4deddf89d522814655f769d. It is advisable to upgrade the affected component.
 </code>
 
 - [m3m0o/portabilis-ieducar-user-type-privilege-escalation](https://github.com/m3m0o/portabilis-ieducar-user-type-privilege-escalation)
@@ -29573,7 +29615,6 @@
 - [EQSTLab/CVE-2025-55182](https://github.com/EQSTLab/CVE-2025-55182)
 - [scumfrog/FiberBreak](https://github.com/scumfrog/FiberBreak)
 - [d0cnull/nextjs-CVE-2025-55182](https://github.com/d0cnull/nextjs-CVE-2025-55182)
-- [Mustafa1p/Next.js-RCE-Scanner---CVE-2025-55182-CVE-2025-66478](https://github.com/Mustafa1p/Next.js-RCE-Scanner---CVE-2025-55182-CVE-2025-66478)
 - [M4rgs/CVE-2025-55182-React2Shell-Exploit](https://github.com/M4rgs/CVE-2025-55182-React2Shell-Exploit)
 - [nulltrace1336/CVE-2025-55182-Metasploit-exploit-skeleton-real-flow-](https://github.com/nulltrace1336/CVE-2025-55182-Metasploit-exploit-skeleton-real-flow-)
 - [pwnxpl0it/react2shell-lab](https://github.com/pwnxpl0it/react2shell-lab)
@@ -64784,6 +64825,7 @@
 - [SimoesCTT/CTT-ProxyLogon-RCE-v1.0---Convergent-Time-Theory-Enhanced-Microsoft-Exchange-Exploit](https://github.com/SimoesCTT/CTT-ProxyLogon-RCE-v1.0---Convergent-Time-Theory-Enhanced-Microsoft-Exchange-Exploit)
 - [SimoesCTT/CTT-Exchange-RCE-v1.0---Microsoft-Exchange-Exploit-CVSS-10.0-CRITICAL-CVE-2021-26855-CVE-2021-27065](https://github.com/SimoesCTT/CTT-Exchange-RCE-v1.0---Microsoft-Exchange-Exploit-CVSS-10.0-CRITICAL-CVE-2021-26855-CVE-2021-27065)
 - [probablysecure/Triage-CVE-2021-26855-ProxyLogon---Microsoft-Exchange-](https://github.com/probablysecure/Triage-CVE-2021-26855-ProxyLogon---Microsoft-Exchange-)
+- [layee27/JIMOH-ABDULLAHI](https://github.com/layee27/JIMOH-ABDULLAHI)
 
 ### CVE-2021-26856
 - [avi8892/CVE-2021-26856](https://github.com/avi8892/CVE-2021-26856)
@@ -71813,7 +71855,6 @@
 - [yuaneuro/ofbiz-poc](https://github.com/yuaneuro/ofbiz-poc)
 - [ambalabanov/CVE-2020-9496](https://github.com/ambalabanov/CVE-2020-9496)
 - [s4dbrd/CVE-2020-9496](https://github.com/s4dbrd/CVE-2020-9496)
-- [Ly0nt4r/CVE-2020-9496](https://github.com/Ly0nt4r/CVE-2020-9496)
 
 ### CVE-2020-9529 (2020-08-10)
 
@@ -78533,9 +78574,6 @@
 
 - [chef-cft/inspec_cve_2019_15224](https://github.com/chef-cft/inspec_cve_2019_15224)
 
-### CVE-2019-15231
-- [wizardy0ga/THM-Source-CVE-2019-15231](https://github.com/wizardy0ga/THM-Source-CVE-2019-15231)
-
 ### CVE-2019-15233 (2019-08-20)
 
 <code>The Live:Text Box macro in the Old Street Live Input Macros app before 2.11 for Confluence has XSS, leading to theft of the Administrator Session Cookie.
@@ -82611,7 +82649,6 @@
 - [shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--](https://github.com/shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--)
 - [kxisxr/Bash-Script-CVE-2018-16763](https://github.com/kxisxr/Bash-Script-CVE-2018-16763)
 - [padsalatushal/CVE-2018-16763](https://github.com/padsalatushal/CVE-2018-16763)
-- [wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763)
 - [h3x0v3rl0rd/CVE-2018-16763](https://github.com/h3x0v3rl0rd/CVE-2018-16763)
 - [BrunoPincho/cve-2018-16763-rust](https://github.com/BrunoPincho/cve-2018-16763-rust)
 - [p0dalirius/CVE-2018-16763-FuelCMS-1.4.1-RCE](https://github.com/p0dalirius/CVE-2018-16763-FuelCMS-1.4.1-RCE)
@@ -82628,6 +82665,7 @@
 - [SOME-1HING/CVE-2018-16763](https://github.com/SOME-1HING/CVE-2018-16763)
 - [ShadowR-Root/fuel-cms-cve-2018-16763-python3-port](https://github.com/ShadowR-Root/fuel-cms-cve-2018-16763-python3-port)
 - [gh0stuncle/CVE-2018-16763_fuel_cms_exploit](https://github.com/gh0stuncle/CVE-2018-16763_fuel_cms_exploit)
+- [fahise/cve-2018-16763](https://github.com/fahise/cve-2018-16763)
 
 ### CVE-2018-16843 (2018-11-07)
 
@@ -84431,6 +84469,7 @@
 - [Zanex360/cdt-vulnsamba-deploy](https://github.com/Zanex360/cdt-vulnsamba-deploy)
 - [YonLiud/CVE-2017-7494](https://github.com/YonLiud/CVE-2017-7494)
 - [CyberCTF/vulhub-samba-cve-2017-7494](https://github.com/CyberCTF/vulhub-samba-cve-2017-7494)
+- [JA-Cyber365/home-network-security-assessment](https://github.com/JA-Cyber365/home-network-security-assessment)
 
 ### CVE-2017-7504 (2017-05-19)
 
@@ -89273,7 +89312,6 @@
 
 - [roughiz/cve-2014-6287.py](https://github.com/roughiz/cve-2014-6287.py)
 - [Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287](https://github.com/Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287)
-- [wizardy0ga/THM-Steel_Mountain-CVE-2014-6287](https://github.com/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287)
 - [mrintern/thm_steelmountain_CVE-2014-6287](https://github.com/mrintern/thm_steelmountain_CVE-2014-6287)
 - [randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution](https://github.com/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution)
 - [zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287)
