@@ -2804,6 +2804,13 @@
 - [HORKimhab/CVE-2026-9586](https://github.com/HORKimhab/CVE-2026-9586)
 - [fromABUV/CVE-2026-9586_POC_EXPLOIT](https://github.com/fromABUV/CVE-2026-9586_POC_EXPLOIT)
 
+### CVE-2026-9618 (2026-05-28)
+
+<code>The PeachPay — Payments &amp; Express Checkout for WooCommerce (supports Stripe, PayPal, Square, Authorize.net, NMI) plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.120.46. This is due to missing or incorrect nonce validation on the peachpay_stripe_handle_admin_actions function. This makes it possible for unauthenticated attackers to permanently delete all stored Stripe credentials — including publishable keys, secret keys, webhook secrets, and Apple Pay configuration — from the WordPress database, disabling Stripe payment processing for the store via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+</code>
+
+- [SleepTheGod/cve-2026-9618-Patch](https://github.com/SleepTheGod/cve-2026-9618-Patch)
+
 ### CVE-2026-9645 (2026-05-28)
 
 <code>Exposed methods allow authenticated users to create and execute arbitrary JavaScript code on the server. The scripts execute with full access, enabling complete system compromise as commands are executed as root.
@@ -8493,7 +8500,6 @@
 - [cleozi/Copy_Grail](https://github.com/cleozi/Copy_Grail)
 - [vorkampfer/copyfail2_electric_boogaloo_fix](https://github.com/vorkampfer/copyfail2_electric_boogaloo_fix)
 - [AdemZero/CVE-2026-31431](https://github.com/AdemZero/CVE-2026-31431)
-- [Lutfifakee-Project/CVE-2026-31431](https://github.com/Lutfifakee-Project/CVE-2026-31431)
 - [u1tr0nex/CVE-2026-31431-CopyFail-Lab](https://github.com/u1tr0nex/CVE-2026-31431-CopyFail-Lab)
 - [mauricioportela/CVE-2026-31431-Analysis](https://github.com/mauricioportela/CVE-2026-31431-Analysis)
 - [dgrobinson0/CopyFile_CVE-2026-31431](https://github.com/dgrobinson0/CopyFile_CVE-2026-31431)
@@ -8558,7 +8564,6 @@
 </code>
 
 - [0xBlackash/CVE-2026-31635](https://github.com/0xBlackash/CVE-2026-31635)
-- [Lutfifakee-Project/CVE-2026-31635](https://github.com/Lutfifakee-Project/CVE-2026-31635)
 - [0xFuffM3/CVE-2026-31635-DirtyDecrypt](https://github.com/0xFuffM3/CVE-2026-31635-DirtyDecrypt)
 - [Koshmare-Blossom/DirtyDecrypt-go](https://github.com/Koshmare-Blossom/DirtyDecrypt-go)
 
@@ -11030,9 +11035,9 @@
 - [shibaaa204/Pack2TheRoot](https://github.com/shibaaa204/Pack2TheRoot)
 - [Kowntaewook/CVE-2026-41651-analysis](https://github.com/Kowntaewook/CVE-2026-41651-analysis)
 - [mawussid/CVE-2026-41651-Python](https://github.com/mawussid/CVE-2026-41651-Python)
-- [Lutfifakee-Project/CVE-2026-41651](https://github.com/Lutfifakee-Project/CVE-2026-41651)
 - [0xDVRK/CVE-2026-41651](https://github.com/0xDVRK/CVE-2026-41651)
 - [gbuyssens/CVE-2026-41651](https://github.com/gbuyssens/CVE-2026-41651)
+- [Thhc10/CVE-2026-41651](https://github.com/Thhc10/CVE-2026-41651)
 - [ZeroDayEvil/CVE-2026-41651](https://github.com/ZeroDayEvil/CVE-2026-41651)
 
 ### CVE-2026-41653 (2026-05-07)
@@ -11108,7 +11113,6 @@
 - [Rosemary1337/CVE-2026-41940](https://github.com/Rosemary1337/CVE-2026-41940)
 - [mahfuzreham/cpanel-cve-2026-41940](https://github.com/mahfuzreham/cpanel-cve-2026-41940)
 - [unteikyou/CVE-2026-41940-AuthBypass-Detector](https://github.com/unteikyou/CVE-2026-41940-AuthBypass-Detector)
-- [Lutfifakee-Project/CVE-2026-41940](https://github.com/Lutfifakee-Project/CVE-2026-41940)
 - [NULL200OK/cve-2026-41940-tool](https://github.com/NULL200OK/cve-2026-41940-tool)
 - [ynsmroztas/cPanelSniper](https://github.com/ynsmroztas/cPanelSniper)
 - [0xYuR1/CVE-2026-41940](https://github.com/0xYuR1/CVE-2026-41940)
@@ -13660,6 +13664,7 @@
 
 ### CVE-2026-51954
 - [envincion1991-cmyk/CVE-2026-51954](https://github.com/envincion1991-cmyk/CVE-2026-51954)
+- [Envincion/CVE-2026-51954](https://github.com/Envincion/CVE-2026-51954)
 
 ### CVE-2026-51990 (2026-09-16)
 
@@ -15121,7 +15126,6 @@
 - [tcyph3r/wp2shell-cve-2026-63030-root-cause](https://github.com/tcyph3r/wp2shell-cve-2026-63030-root-cause)
 - [dinosn/wp2shell-lab](https://github.com/dinosn/wp2shell-lab)
 - [47Cid/wp2shell-lab](https://github.com/47Cid/wp2shell-lab)
-- [Lutfifakee-Project/wp2shell](https://github.com/Lutfifakee-Project/wp2shell)
 - [ekomsSavior/wp2shell](https://github.com/ekomsSavior/wp2shell)
 - [NULL200OK/WP2Shell](https://github.com/NULL200OK/WP2Shell)
 - [kulichr/wp2shell](https://github.com/kulichr/wp2shell)
@@ -15181,6 +15185,7 @@
 - [z3rodayhacks/CVE-2026-63030-CVE-2026-60137](https://github.com/z3rodayhacks/CVE-2026-63030-CVE-2026-60137)
 - [M4xSec/wp2shell-Exploit-Waf-Bypass](https://github.com/M4xSec/wp2shell-Exploit-Waf-Bypass)
 - [g0d150ne/WP2Shell](https://github.com/g0d150ne/WP2Shell)
+- [0xIIDe231/wp2shell2026](https://github.com/0xIIDe231/wp2shell2026)
 - [TranDongA3/POC-CVE-2026-63030-CVE-2026-60137-](https://github.com/TranDongA3/POC-CVE-2026-63030-CVE-2026-60137-)
 - [mhassani97/cve-2026-63030-lab](https://github.com/mhassani97/cve-2026-63030-lab)
 - [DeadExpl0it/wp2shell-poc](https://github.com/DeadExpl0it/wp2shell-poc)
@@ -16997,6 +17002,13 @@
 
 - [abraxas/CVE-2026-77635](https://github.com/abraxas/CVE-2026-77635)
 
+### CVE-2026-77680 (2026-08-25)
+
+<code>An algorithmic complexity flaw exists in libsoup's HTTP Range header processing that persists after the CVE-2025-32907 fix.\n\nCVE-2025-32907 addressed memory amplification when a client repeated the same range many times in a single Range header. Commit 9bb92f7a corrected merge correctness in soup_message_headers_get_ranges_internal() in libsoup/soup-message-headers.c, but the coalescing loop still removes merged ranges using g_array_remove_index() for each coalesced element. Because GArray is contiguous, each mid-array removal performs an O(N) memmove. When many identical satisfiable ranges are supplied (for example bytes=0-0 repeated thousands of times), the loop performs O(N²) work coalescing them into a single range.\n\nThe vulnerable path is reachable server-side from handle_partial_get() in libsoup/server/http1/soup-server-message-io-http1.c when a SoupServer handler returns HTTP 200 with a non-empty body. No authentication is required. The number of ranges is bounded only by the maximum request header size (~100 KiB), allowing roughly 25,000 ranges per request. Reporter measurements on libsoup HEAD containing the CVE-2025-32907 fix show ~90 ms single-core CPU per such request at the wire maximum, blocking the server's event loop for that duration.\n\nThis is a CPU exhaustion / availability issue only. No memory corruption or information disclosure occurs.\n\nAffected: libsoup versions containing the CVE-2025-32907 fix but not merge request !550.\nFixed upstream: MR !550 merged 2026-08-20, replacing per-element removal with O(N) in-place compaction and rejecting Range headers requesting more than 200 ranges.\nUpstream report: https://gitlab.gnome.org/GNOME/libsoup/-/issues/538\nRelated: CVE-2025-32907
+</code>
+
+- [OJ01-creates/CVE-2026-77680-Security-Analysis](https://github.com/OJ01-creates/CVE-2026-77680-Security-Analysis)
+
 ### CVE-2026-77770 (2026-09-10)
 
 <code>The miniOrange 2FA  WordPress plugin before 6.3.1, miniOrange 2FA  WordPress plugin before 19.3 does not require a validated transaction before deleting site options whose names come from unauthenticated request input, allowing any visitor to delete arbitrary options, which can lock every administrator out of the dashboard or deactivate every miniOrange 2FA  WordPress plugin before 6.3.1, miniOrange 2FA  WordPress plugin before 19.3 on the site.
@@ -18103,7 +18115,6 @@
 - [ynsmroztas/WPSniper](https://github.com/ynsmroztas/WPSniper)
 - [bhideki/CVE-2026-87902](https://github.com/bhideki/CVE-2026-87902)
 - [tc4dy/CVE-2026-87902-Toolkit](https://github.com/tc4dy/CVE-2026-87902-Toolkit)
-- [Lutfifakee-Project/CVE-2026-87902](https://github.com/Lutfifakee-Project/CVE-2026-87902)
 - [nextco/wordpress-cve-2026-87902](https://github.com/nextco/wordpress-cve-2026-87902)
 - [zyphorixofficialmain-lab/cve-2026-87902](https://github.com/zyphorixofficialmain-lab/cve-2026-87902)
 - [crowsec-edtech/CVE-2026-87902](https://github.com/crowsec-edtech/CVE-2026-87902)
@@ -19454,6 +19465,7 @@
 
 - [BIBILZERODAY/CVE-2026-104736---Proof-of-Concept-PoC-Exploit-Details](https://github.com/BIBILZERODAY/CVE-2026-104736---Proof-of-Concept-PoC-Exploit-Details)
 - [murrez/CVE-2026-104736](https://github.com/murrez/CVE-2026-104736)
+- [BIBILZERODAY/CVE-2026-104736-Mass-Webshell-CVE](https://github.com/BIBILZERODAY/CVE-2026-104736-Mass-Webshell-CVE)
 
 ### CVE-2026-104745 (2026-10-16)
 
@@ -19749,7 +19761,23 @@
 - [0xgh0stri13y/CVE-2026-109519](https://github.com/0xgh0stri13y/CVE-2026-109519)
 
 ### CVE-2026-109618
-- [Unkn0vv/php2shell](https://github.com/Unkn0vv/php2shell)
+- [Zer061/CVE-2026-109618](https://github.com/Zer061/CVE-2026-109618)
+- [19h/CVE-2026-109618](https://github.com/19h/CVE-2026-109618)
+- [0ldbaby/php2shell](https://github.com/0ldbaby/php2shell)
+- [mikensec/php2shell-lab](https://github.com/mikensec/php2shell-lab)
+- [syhunt/php2shell-protection](https://github.com/syhunt/php2shell-protection)
+- [break-the-build/php-uploadprogress-waf](https://github.com/break-the-build/php-uploadprogress-waf)
+- [xuehuolll/CVE-2026-109618-109619-audit](https://github.com/xuehuolll/CVE-2026-109618-109619-audit)
+- [yetDevs/php2shell-triage](https://github.com/yetDevs/php2shell-triage)
+- [0xrsydn/php2shell-scan](https://github.com/0xrsydn/php2shell-scan)
+- [FacundoGimenez/php2shell-mitigation](https://github.com/FacundoGimenez/php2shell-mitigation)
+- [edgarbaldemarmx/php2shell-remediation](https://github.com/edgarbaldemarmx/php2shell-remediation)
+- [cm-suzuki-ryo/aws-waf-php2shell-post-guard](https://github.com/cm-suzuki-ryo/aws-waf-php2shell-post-guard)
+- [AmpedWasTaken/PHP2Shell-CVE-2026-109618-CVE-2026-109619](https://github.com/AmpedWasTaken/PHP2Shell-CVE-2026-109618-CVE-2026-109619)
+- [WoYinDao/CVE-2026-109618-CVSS-9.2-Critical](https://github.com/WoYinDao/CVE-2026-109618-CVSS-9.2-Critical)
+- [0x4148/CVE-2026-109618-php2shell-lab](https://github.com/0x4148/CVE-2026-109618-php2shell-lab)
+- [cereZ23/php-up-2026](https://github.com/cereZ23/php-up-2026)
+- [ersinkoc/php-fix](https://github.com/ersinkoc/php-fix)
 
 ### CVE-2026-109721 (2026-10-13)
 
@@ -19764,6 +19792,13 @@
 </code>
 
 - [capivara-research/CVE-2026-110025](https://github.com/capivara-research/CVE-2026-110025)
+
+### CVE-2026-110372 (2026-10-18)
+
+<code>Incorrect Privilege Assignment vulnerability in Brainstorm Force OttoKit suretriggers allows Privilege Escalation.This issue affects OttoKit: from n/a through 1.1.40.
+</code>
+
+- [BIBILZERODAY/CVE-2026-110372-MASS-EXPLOIT-WEBSHELL.STORE](https://github.com/BIBILZERODAY/CVE-2026-110372-MASS-EXPLOIT-WEBSHELL.STORE)
 
 ### CVE-2026-110447 (2026-10-14)
 
@@ -53269,6 +53304,13 @@
 
 - [Prodigysec/pyarrow-CVE-2023-47248](https://github.com/Prodigysec/pyarrow-CVE-2023-47248)
 
+### CVE-2023-47250 (2023-11-22)
+
+<code>In mprivacy-tools before 2.0.406g in m-privacy TightGate-Pro Server, broken Access Control on X11 server sockets allows authenticated attackers (with access to a VNC session) to access the X11 desktops of other users by specifying their DISPLAY ID. This allows complete control of their desktop, including the ability to inject keystrokes and perform a keylogging attack.
+</code>
+
+- [christinasm1th/CVE-2023-47250-break-fix](https://github.com/christinasm1th/CVE-2023-47250-break-fix)
+
 ### CVE-2023-47253 (2023-11-06)
 
 <code>Qualitor through 8.20 allows remote attackers to execute arbitrary code via PHP code in the html/ad/adpesquisasql/request/processVariavel.php gridValoresPopHidden parameter.
@@ -68888,6 +68930,7 @@
 - [Developer-Dynamo/cs50-cybersecurity-final-project](https://github.com/Developer-Dynamo/cs50-cybersecurity-final-project)
 - [mcpmark-eval-liuhezi/log4shell-remediation](https://github.com/mcpmark-eval-liuhezi/log4shell-remediation)
 - [mcpmark-eval-liuhezi/log4shell-audit-2026](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-2026)
+- [mcpmark-eval-liuhezi/log4shell-drill](https://github.com/mcpmark-eval-liuhezi/log4shell-drill)
 
 ### CVE-2021-44255 (2022-01-31)
 
