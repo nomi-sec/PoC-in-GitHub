@@ -1744,7 +1744,7 @@
 <code>A vulnerability was identified in provectus kafka-ui up to 0.7.2. This impacts the function validateAccess of the file /api/smartfilters/testexecutions of the component Endpoint. The manipulation leads to code injection. The attack can be initiated remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.
 </code>
 
-- [HutTwoThreeFour/CVE-2026-5562-Exploit](https://github.com/HutTwoThreeFour/CVE-2026-5562-Exploit)
+- [personne-lambda/CVE-2026-5562-Exploit](https://github.com/personne-lambda/CVE-2026-5562-Exploit)
 
 ### CVE-2026-5615 (2026-04-06)
 
@@ -3061,6 +3061,13 @@
 
 - [Nxploited/CVE-2026-10818](https://github.com/Nxploited/CVE-2026-10818)
 
+### CVE-2026-10961 (2026-06-04)
+
+<code>Use after free in Chrome for iOS in Google Chrome on iOS prior to 149.0.7827.53 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [dinosn/php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc)
+
 ### CVE-2026-11101 (2026-06-04)
 
 <code>Uninitialized Use in Dawn in Google Chrome on Windows prior to 149.0.7827.53 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: Medium)
@@ -3310,6 +3317,7 @@
 - [fevar54/CVE-2026-11645-Out-of-bounds-Read-Write](https://github.com/fevar54/CVE-2026-11645-Out-of-bounds-Read-Write)
 - [adamshaikhma/CVE-2026-11645](https://github.com/adamshaikhma/CVE-2026-11645)
 - [0xBlackash/CVE-2026-11645](https://github.com/0xBlackash/CVE-2026-11645)
+- [emlinhax/CVE-2026-11645-poc](https://github.com/emlinhax/CVE-2026-11645-poc)
 
 ### CVE-2026-11784 (2026-06-18)
 
@@ -5972,7 +5980,6 @@
 - [m2sousa/CVE-2026-23744](https://github.com/m2sousa/CVE-2026-23744)
 - [MrR0b0t19/CVE-2026-23744-PoC](https://github.com/MrR0b0t19/CVE-2026-23744-PoC)
 - [jf-gondim/mcp-pwn](https://github.com/jf-gondim/mcp-pwn)
-- [avivyap/CVE-2026-23744](https://github.com/avivyap/CVE-2026-23744)
 - [Dahalsamir/CVE-2026-23744-MCPJAM-RCE-exploit](https://github.com/Dahalsamir/CVE-2026-23744-MCPJAM-RCE-exploit)
 - [keeieb79/CVE-2026-23744-poc](https://github.com/keeieb79/CVE-2026-23744-poc)
 - [oryk0/CVE-2026-23744](https://github.com/oryk0/CVE-2026-23744)
@@ -10556,6 +10563,9 @@
 
 - [frawlaboy/CVE-2026-39973-PoC](https://github.com/frawlaboy/CVE-2026-39973-PoC)
 
+### CVE-2026-39978
+- [zombieli21/cve-invoiceplane-advisory](https://github.com/zombieli21/cve-invoiceplane-advisory)
+
 ### CVE-2026-39983 (2026-04-09)
 
 <code>basic-ftp is an FTP client for Node.js. Prior to 5.2.1, basic-ftp allows FTP command injection via CRLF sequences (\r\n) in file path parameters passed to high-level path APIs such as cd(), remove(), rename(), uploadFrom(), downloadTo(), list(), and removeDir(). The library's protectWhitespace() helper only handles leading spaces and returns other paths unchanged, while FtpContext.send() writes the resulting command string directly to the control socket with \r\n appended. This lets attacker-controlled path strings split one intended FTP command into multiple commands. This vulnerability is fixed in 5.2.1.
@@ -10595,7 +10605,7 @@
 - [mfahdk/CVE-2026-39987_RCE_PoC](https://github.com/mfahdk/CVE-2026-39987_RCE_PoC)
 - [LaRemontada12/CVE-2026-39987-Marimo-Preauth-RCE](https://github.com/LaRemontada12/CVE-2026-39987-Marimo-Preauth-RCE)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-39987-Marimo-RCE](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-39987-Marimo-RCE)
-- [dntaskmehow/MARABUSE-](https://github.com/dntaskmehow/MARABUSE-)
+- [dntaskmehow/MARABUSE](https://github.com/dntaskmehow/MARABUSE)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -15198,6 +15208,7 @@
 - [0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL](https://github.com/0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL)
 - [gichirimaku/wp2shell-PoC](https://github.com/gichirimaku/wp2shell-PoC)
 - [K52-ai/CVE-2026-63030](https://github.com/K52-ai/CVE-2026-63030)
+- [Githu836/PoC-for-CVE-2026-63030](https://github.com/Githu836/PoC-for-CVE-2026-63030)
 
 ### CVE-2026-63039 (2026-08-20)
 
@@ -16420,6 +16431,7 @@
 </code>
 
 - [Lulztigre/CVE-2026-72867](https://github.com/Lulztigre/CVE-2026-72867)
+- [WoYinDao/CVE-2026-72867-CVSS-9.9-Critical](https://github.com/WoYinDao/CVE-2026-72867-CVSS-9.9-Critical)
 
 ### CVE-2026-72898 (2026-08-10)
 
@@ -17745,7 +17757,6 @@
 - [tc4dy/CVE-2026-85097-Toolkit](https://github.com/tc4dy/CVE-2026-85097-Toolkit)
 - [Masriyan/CVE-2026-85097](https://github.com/Masriyan/CVE-2026-85097)
 - [RootMantap/CVE-2026-85097](https://github.com/RootMantap/CVE-2026-85097)
-- [Tarangj07/Wordpress-Lab-CVE-2026-85097](https://github.com/Tarangj07/Wordpress-Lab-CVE-2026-85097)
 - [BlackHatExploitation/CVE-2026-85097](https://github.com/BlackHatExploitation/CVE-2026-85097)
 
 ### CVE-2026-85102 (2026-09-09)
@@ -17873,6 +17884,27 @@
 </code>
 
 - [oscerd/CVE-2026-85314](https://github.com/oscerd/CVE-2026-85314)
+
+### CVE-2026-85315 (2026-10-19)
+
+<code>Generation of Error Message Containing Sensitive Information vulnerability in Apache Camel gRPC component.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nWhen a route behind a gRPC consumer failed, the exception's message was placed into the gRPC status description. Unlike the status cause, which stays local to the server, the description is transmitted to the calling client, so an external caller able to provoke a failure could read the internal error message. What that discloses depends on the exception, and in practice includes class and package names, paths, host names and connection detail carried in messages. This is the gRPC member of the same unmuted-consumer-exception family as the knative, mina and CXF advisories published alongside it.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. A muteException consumer option, defaulting to true, puts a generic description in the status instead of the route exception's message. Set muteException=false to restore the previous output. For deployments that cannot upgrade immediately, map failures onto an explicit status in an onException handler so the framework never copies the exception message into the description.
+</code>
+
+- [oscerd/CVE-2026-85315](https://github.com/oscerd/CVE-2026-85315)
+
+### CVE-2026-85316 (2026-10-19)
+
+<code>Insufficient Granularity of Access Control vulnerability in Apache Camel Platform HTTP component.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nThe component decided whether an endpoint ran in proxy mode by testing whether its configured path started with the string proxy, rather than by matching the path exactly. Any endpoint whose path merely begins with those characters - proxyStatus, proxy-config, proxying and so on - therefore became a proxy endpoint without the route author asking for it. A proxy endpoint forwards requests onward, so an endpoint that was intended to serve its own content instead relays traffic on behalf of whoever calls it, which is both a request forgery primitive and an exposure of whatever the forwarding path can reach.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. Proxy mode is now selected by an exact path match rather than by prefix. For deployments that cannot upgrade immediately, rename any endpoint path that begins with proxy but is not intended to be a proxy.
+</code>
+
+- [oscerd/CVE-2026-85316](https://github.com/oscerd/CVE-2026-85316)
+
+### CVE-2026-85317 (2026-10-19)
+
+<code>Use of Cache Containing Sensitive Information vulnerability in Apache Camel HTTP component.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nThe OAuth2 client token cache is global to the JVM, and its key omitted several of the fields that determine what a token actually authorises: the requested scope, the resource indicator, and the token endpoint the token was obtained from. Two endpoints differing only in those fields therefore shared a cache entry, and an endpoint could be served a token minted for a different scope, a different resource, or by a different authorization server. The consequence is a request carrying broader authority than the endpoint was configured for, or a token presented to a party it was not issued for. Reaching it requires a deployment that configures more than one OAuth2 endpoint differing in exactly those fields, which is why the severity is assessed low.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The cache key now includes every field that shapes the token, so entries are no longer shared between endpoints that differ in any of them. For deployments that cannot upgrade immediately, run endpoints that differ in scope, resource indicator or token endpoint in separate JVMs so that they do not share the cache.
+</code>
+
+- [oscerd/CVE-2026-85317](https://github.com/oscerd/CVE-2026-85317)
 
 ### CVE-2026-85520 (2026-09-29)
 
@@ -18232,6 +18264,20 @@
 
 - [uziii2208/CVE-2026-88899](https://github.com/uziii2208/CVE-2026-88899)
 
+### CVE-2026-88900 (2026-10-19)
+
+<code>Deserialization of Untrusted Data vulnerability in Apache Camel Camel-Jgroups component.\n\n\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\n\n\nJGroupsEndpoint.createExchange(Message), which CamelJGroupsReceiver calls for every message the jgroups consumer receives before the exchange is routed, set the exchange body from org.jgroups.Message.getObject(). For an ObjectMessage, which is the message type the Camel jgroups producer sends, JGroups Java-deserializes the payload through an ObjectInputStream on its own receive thread as the message arrives, and getObject() returns the resulting object. No java.io.ObjectInputFilter was applied on that path unless the deployment had set a JVM-wide serialization filter: camel-jgroups installed none, and the JGroups versions shipped with the affected releases apply none of their own, so any serializable class on the application classpath could be instantiated and its deserialization callbacks run. Unless a channel or the channelProperties option is configured, the consumer creates its channel with new JChannel(), the stock JGroups protocol stack, which multicasts over UDP without the AUTH protocol and without encryption, so any host able to reach the cluster's multicast group or bind port can join the cluster and send messages to the consumer without credentials. Such a host could send a crafted serialized object that leads to remote code execution in the Camel process when a usable deserialization gadget chain is present on the classpath, and no non-default option was required on the consumer. Because JGroups materializes the object before Camel's receiver runs, a check performed by Camel can only inspect the deserialized result and cannot stop code that runs during deserialization, so closing the issue also requires a control that applies before the payload is read, as described in the mitigation. Exploitation requires network access to the cluster's multicast group or bind port, which with the default UDP multicast transport means a host on an adjacent network, and a usable gadget chain on the classpath, which is why the severity is assessed as high rather than critical.\n\n\n\nUsers are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.1. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.14.x releases stream and earlier, and the 4.15.x to 4.17.x and 4.19.x to 4.21.x release lines, reached end of life before this issue was resolved and will not receive a fix, so deployments on those lines must move to a supported release.
+</code>
+
+- [oscerd/CVE-2026-88900](https://github.com/oscerd/CVE-2026-88900)
+
+### CVE-2026-88901 (2026-10-19)
+
+<code>Improper Restriction of XML External Entity Reference vulnerability in Apache Camel.\n\n\n\nThis issue affects Apache Camel: from 4.7.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\n\n\nImproper Restriction of XML External Entity Reference in the Smooks component (camel-smooks) in Apache Camel allows an attacker who supplies the XML message body to read local files or issue requests to internal network locations via an external entity declaration in that body. This issue affects Apache Camel: from 4.7.0 before 4.18.5, from 4.19.0 before 4.22.1. The Smooks data format (.unmarshal().smooks(...)) and the Smooks component (smooks:) parse the incoming XML body with the reader Smooks resolves by default, which is the Woodstox SAX parser. That reader resolves external general and parameter entities and loads external DTDs, and camel-smooks applied none of the parser hardening that the other Camel XML components apply. A DOCTYPE with an external subset, or an external general entity, declared in the XML document is therefore resolved and expanded while the body is unmarshalled, and the resolved content is bound into the unmarshalled result and returned on InOut routes. An external sender whose XML reaches a camel-smooks data format or endpoint could therefore read files readable by the Camel process and cause the process to issue requests to hosts the document names. No non-default option is required, since resolving external entities was the default behaviour. Configurations that declare their own reader - EDI, CSV, JSON, or a custom reader - do not use the XML reader and are not affected. Users are recommended to upgrade to version 4.18.5, 4.22.1 or 4.23.0, which fixes the issue.\n\n\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. camel-smooks now parses the XML body with a javax.xml.parsers.DocumentBuilder that does not resolve external general or parameter entities and does not load external DTDs, and hands Smooks the resulting document, matching the secure XML processing configuration used by org.apache.camel.converter.jaxp.XmlConverter and the other Camel XML components. This hardening is applied only when the Smooks configuration parses XML with its default reader, so EDI, CSV, JSON and custom-reader configurations, and the marshalling direction, are unchanged. A new allowExternalEntities option, disabled by default, restores the previous behaviour for trusted legacy configurations that rely on external entity resolution. The camel-4.14.x releases stream and earlier reached end of life before this issue was resolved and will not receive a fix, so deployments on those lines must move to a supported release. For deployments that cannot upgrade immediately, do not apply camel-smooks to XML received from untrusted senders.
+</code>
+
+- [oscerd/CVE-2026-88901](https://github.com/oscerd/CVE-2026-88901)
+
 ### CVE-2026-88996 (2026-09-25)
 
 <code>The WPForms – AI Form Builder for WordPress – Contact Forms, Payment Forms, Survey Form, Quiz &amp; More plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via 'page_title' POST Parameter via {page_title} Smart Tag in all versions up to, and including, 2.0.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link. This is only exploitable on forms whose admin-authored confirmation message places the {page_title} Smart Tag inside an HTML attribute context.
@@ -18394,6 +18440,13 @@
 </code>
 
 - [HORKimhab/CVE-2026-91843](https://github.com/HORKimhab/CVE-2026-91843)
+
+### CVE-2026-91858 (2026-10-19)
+
+<code>FopProducer transforms the incoming XSL-FO message body by creating a javax.xml.transform.TransformerFactory through TransformerFactory.newInstance() and enabling only FEATURE_SECURE_PROCESSING before running an identity transform over the body. On the JDK's built-in transformer, that feature alone already empties the accessExternalDTD and accessExternalStylesheet limits, so an external DTD or entity is refused. When a third-party JAXP TransformerFactory such as Saxon-HE is on the classpath, for example because the application also uses camel-xslt-saxon or camel-saxon, TransformerFactory.newInstance() returns that implementation instead, and FEATURE_SECURE_PROCESSING on its own does not restrict external resource access on it. A DOCTYPE with an external subset, or an external general entity, declared in the XSL-FO document is then resolved and expanded while the body is transformed. An external sender whose XSL-FO reaches a fop producer could therefore read files readable by the Camel process and cause the process to issue requests to hosts the document names. camel-fop does not bring such a factory itself, and excludes Xalan, so a default deployment using the JDK transformer is not affected; the issue is reachable only where another component has placed an alternative JAXP TransformerFactory on the classpath. Releases on the 4.14.x line and earlier reached end of life before this issue was resolved and do not receive a fix.
+</code>
+
+- [oscerd/CVE-2026-91858](https://github.com/oscerd/CVE-2026-91858)
 
 ### CVE-2026-91940 (2026-09-15)
 
@@ -19211,6 +19264,7 @@
 </code>
 
 - [Worthes/CVE-2026-102764-Proof-of-concept](https://github.com/Worthes/CVE-2026-102764-Proof-of-concept)
+- [maxprog-svg/CVE-2026-102764](https://github.com/maxprog-svg/CVE-2026-102764)
 
 ### CVE-2026-102782 (2026-10-07)
 
@@ -19761,6 +19815,7 @@
 - [0xgh0stri13y/CVE-2026-109519](https://github.com/0xgh0stri13y/CVE-2026-109519)
 
 ### CVE-2026-109618
+- [corelight/php2shell-detect](https://github.com/corelight/php2shell-detect)
 - [Zer061/CVE-2026-109618](https://github.com/Zer061/CVE-2026-109618)
 - [19h/CVE-2026-109618](https://github.com/19h/CVE-2026-109618)
 - [0ldbaby/php2shell](https://github.com/0ldbaby/php2shell)
@@ -19772,12 +19827,67 @@
 - [0xrsydn/php2shell-scan](https://github.com/0xrsydn/php2shell-scan)
 - [FacundoGimenez/php2shell-mitigation](https://github.com/FacundoGimenez/php2shell-mitigation)
 - [edgarbaldemarmx/php2shell-remediation](https://github.com/edgarbaldemarmx/php2shell-remediation)
+- [rjmendez/phpup-2026](https://github.com/rjmendez/phpup-2026)
 - [cm-suzuki-ryo/aws-waf-php2shell-post-guard](https://github.com/cm-suzuki-ryo/aws-waf-php2shell-post-guard)
 - [AmpedWasTaken/PHP2Shell-CVE-2026-109618-CVE-2026-109619](https://github.com/AmpedWasTaken/PHP2Shell-CVE-2026-109618-CVE-2026-109619)
 - [WoYinDao/CVE-2026-109618-CVSS-9.2-Critical](https://github.com/WoYinDao/CVE-2026-109618-CVSS-9.2-Critical)
 - [0x4148/CVE-2026-109618-php2shell-lab](https://github.com/0x4148/CVE-2026-109618-php2shell-lab)
 - [cereZ23/php-up-2026](https://github.com/cereZ23/php-up-2026)
 - [ersinkoc/php-fix](https://github.com/ersinkoc/php-fix)
+- [ikow/php2shell-poc](https://github.com/ikow/php2shell-poc)
+- [Blue-B/php2shell-guard](https://github.com/Blue-B/php2shell-guard)
+- [orbitron-ai/php2shell-response-kit](https://github.com/orbitron-ai/php2shell-response-kit)
+- [Autive/php2shell-watch](https://github.com/Autive/php2shell-watch)
+- [PasqualePillitteri/php2shell-hardening](https://github.com/PasqualePillitteri/php2shell-hardening)
+- [revonnet/php-fix](https://github.com/revonnet/php-fix)
+- [darkfibr/php2shell-detect](https://github.com/darkfibr/php2shell-detect)
+- [cloudducoeur/ansible-playbook-CVE-2026-109618](https://github.com/cloudducoeur/ansible-playbook-CVE-2026-109618)
+- [eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC](https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC)
+- [HOSTED-POWER/php_uploadprogress_guard](https://github.com/HOSTED-POWER/php_uploadprogress_guard)
+- [cagritopuz/php2shell](https://github.com/cagritopuz/php2shell)
+- [sxyrxyy/php2shell-cve-2026-109618-check](https://github.com/sxyrxyy/php2shell-cve-2026-109618-check)
+- [Amsozzer1/php2shell-repo-audit](https://github.com/Amsozzer1/php2shell-repo-audit)
+- [zenzue/PoC-CVE-2026-109618_19](https://github.com/zenzue/PoC-CVE-2026-109618_19)
+- [slabbdev/php2shell-cve-2026-109618-109619](https://github.com/slabbdev/php2shell-cve-2026-109618-109619)
+- [MakFly/php2shell-check](https://github.com/MakFly/php2shell-check)
+- [daffa001/php-CVE-2026-109618-CVE-2026-109619](https://github.com/daffa001/php-CVE-2026-109618-CVE-2026-109619)
+- [0xBlackash/CVE-2026-109618](https://github.com/0xBlackash/CVE-2026-109618)
+- [WeszNL/directadmin-php2shell-ansible-mitigation](https://github.com/WeszNL/directadmin-php2shell-ansible-mitigation)
+- [ecomyseo/ecom_blockrceflaws](https://github.com/ecomyseo/ecom_blockrceflaws)
+- [codewizdevs/php2shell-watcher](https://github.com/codewizdevs/php2shell-watcher)
+- [Is4yev/php2shell-poc](https://github.com/Is4yev/php2shell-poc)
+- [HackSpeak/CVE-2026-109618](https://github.com/HackSpeak/CVE-2026-109618)
+- [mothproof3512/php2shell-scan](https://github.com/mothproof3512/php2shell-scan)
+- [Stensel8/check-for-CVE-2026-109618-CVE-2026-109619](https://github.com/Stensel8/check-for-CVE-2026-109618-CVE-2026-109619)
+- [silastammerik/php2shell-mitigacao](https://github.com/silastammerik/php2shell-mitigacao)
+- [BIBILZERODAY/PHP2Shell-CVE-2026-109618-CVE-2026-109619-Mass-Exploit](https://github.com/BIBILZERODAY/PHP2Shell-CVE-2026-109618-CVE-2026-109619-Mass-Exploit)
+- [gputier/php-rfc1867-guard](https://github.com/gputier/php-rfc1867-guard)
+- [richardmongler/php2shell-CVE-2026-109618](https://github.com/richardmongler/php2shell-CVE-2026-109618)
+- [sorenjohanson/crowdsec-cve-2026-109618-rule](https://github.com/sorenjohanson/crowdsec-cve-2026-109618-rule)
+- [CYB3RW07F/PHP2Shell-CVE-2026-109618-CVE-2026-109619](https://github.com/CYB3RW07F/PHP2Shell-CVE-2026-109618-CVE-2026-109619)
+- [junaire/CVE-2026-109618-exploit](https://github.com/junaire/CVE-2026-109618-exploit)
+- [wakemeiflose/php2shell](https://github.com/wakemeiflose/php2shell)
+- [pruiz/php-CVE-2026-109618](https://github.com/pruiz/php-CVE-2026-109618)
+- [LeonelArrua/CVE-2026-109618_CVE-2026-109619_Mitigate](https://github.com/LeonelArrua/CVE-2026-109618_CVE-2026-109619_Mitigate)
+- [CyberRoute/php2shell-scanner](https://github.com/CyberRoute/php2shell-scanner)
+- [murrez/php2shell](https://github.com/murrez/php2shell)
+- [TahuCryptsi/php2shell-check](https://github.com/TahuCryptsi/php2shell-check)
+- [RemiPelloux/php-session-upload-progress-uaf](https://github.com/RemiPelloux/php-session-upload-progress-uaf)
+- [ruddem/php-cve-2026-109618-109619](https://github.com/ruddem/php-cve-2026-109618-109619)
+- [Galeax/PHP2Shell-Mitigations](https://github.com/Galeax/PHP2Shell-Mitigations)
+- [pete-builds/php-security-release-2026-10](https://github.com/pete-builds/php-security-release-2026-10)
+- [IsmailKharoub/php2shell-poc](https://github.com/IsmailKharoub/php2shell-poc)
+- [AsviS/PHP2Shell](https://github.com/AsviS/PHP2Shell)
+- [BigHackerManXD/php-upload-progress-hardening-wp](https://github.com/BigHackerManXD/php-upload-progress-hardening-wp)
+- [rootsektor/php2shell](https://github.com/rootsektor/php2shell)
+- [mahumadad/php2shell-analysis](https://github.com/mahumadad/php2shell-analysis)
+- [k0x-offsec/php2shell-shield](https://github.com/k0x-offsec/php2shell-shield)
+- [Nayrae/CVE-2026-109618](https://github.com/Nayrae/CVE-2026-109618)
+- [plob881/php2shell-shield](https://github.com/plob881/php2shell-shield)
+- [JungleCache/PHP2Shell-CVE-2026-109618](https://github.com/JungleCache/PHP2Shell-CVE-2026-109618)
+- [EkaterinaMarchetti/php2shell-assessment-global](https://github.com/EkaterinaMarchetti/php2shell-assessment-global)
+- [Quackster/php2shell-proof-of-concept](https://github.com/Quackster/php2shell-proof-of-concept)
+- [EkaterinaMarchetti/Non-intrusive-PHP2Shell-assessment-for-CVE-2026-109618-and-CVE-2026-109619](https://github.com/EkaterinaMarchetti/Non-intrusive-PHP2Shell-assessment-for-CVE-2026-109618-and-CVE-2026-109619)
 
 ### CVE-2026-109721 (2026-10-13)
 
@@ -19813,6 +19923,13 @@
 </code>
 
 - [azqzazq1/CVE-2026-110896](https://github.com/azqzazq1/CVE-2026-110896)
+
+### CVE-2026-110899 (2026-10-21)
+
+<code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Kevin Stover Ninja Forms ninja-forms allows Stored XSS.This issue affects Ninja Forms: from n/a through 3.15.5.
+</code>
+
+- [synapes620/CVE-2026-110899](https://github.com/synapes620/CVE-2026-110899)
 
 ### CVE-2026-110912 (2026-10-15)
 
@@ -21829,6 +21946,7 @@
 - [mein-0/cve-2025-7771](https://github.com/mein-0/cve-2025-7771)
 - [enessakircolak/CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771)
 - [yulisec/CVE-2025-7771](https://github.com/yulisec/CVE-2025-7771)
+- [datcathuh/CiGaslight](https://github.com/datcathuh/CiGaslight)
 
 ### CVE-2025-7775 (2025-08-26)
 
@@ -25035,6 +25153,13 @@
 
 - [mrk336/CVE-2025-27480-The-Silent-Gateway-Risk](https://github.com/mrk336/CVE-2025-27480-The-Silent-Gateway-Risk)
 - [mrk336/CVE-2025-27480](https://github.com/mrk336/CVE-2025-27480)
+
+### CVE-2025-27509 (2025-03-06)
+
+<code>fleetdm/fleet is an open source device management, built on osquery. In vulnerable versions of Fleet, an attacker could craft a specially-formed SAML response to forge authentication assertions, provision a new administrative user account if Just-In-Time (JIT) provisioning is enabled, or create new accounts tied to forged assertions if f MDM enrollment is enabled. This vulnerability is fixed in 4.64.2, 4.63.2, 4.62.4, and 4.58.1.
+</code>
+
+- [Chillov3k/poc-cve-2025-27509](https://github.com/Chillov3k/poc-cve-2025-27509)
 
 ### CVE-2025-27515 (2025-03-05)
 
@@ -32907,6 +33032,7 @@
 - [liaomilk/CVE-2025-69212-for-myself](https://github.com/liaomilk/CVE-2025-69212-for-myself)
 - [lolw0/OpenSTA-Exploit](https://github.com/lolw0/OpenSTA-Exploit)
 - [Pasindu-sd/CVE-2025-69212-Exploit](https://github.com/Pasindu-sd/CVE-2025-69212-Exploit)
+- [d0lf1/htb-enigma-poc](https://github.com/d0lf1/htb-enigma-poc)
 
 ### CVE-2025-69213 (2026-02-04)
 
@@ -49622,6 +49748,7 @@
 </code>
 
 - [hardikmodha/POC-CVE-2023-32681](https://github.com/hardikmodha/POC-CVE-2023-32681)
+- [mcpmark-eval-liuhezi/requests-sec-notes](https://github.com/mcpmark-eval-liuhezi/requests-sec-notes)
 
 ### CVE-2023-32692 (2023-05-30)
 
@@ -53111,6 +53238,7 @@
 - [stefanotractor/activemq-cve-2023-46604-lab](https://github.com/stefanotractor/activemq-cve-2023-46604-lab)
 - [Bhanunamikaze/ActiveMQ-CVE-2023-46604](https://github.com/Bhanunamikaze/ActiveMQ-CVE-2023-46604)
 - [CyberCTF/vulhub-activemq-cve-2023-46604](https://github.com/CyberCTF/vulhub-activemq-cve-2023-46604)
+- [Theocyg/CVE-2023-46604](https://github.com/Theocyg/CVE-2023-46604)
 
 ### CVE-2023-46615 (2024-02-12)
 
@@ -56531,6 +56659,7 @@
 - [meng-security/spring4shell-local-verification-lab](https://github.com/meng-security/spring4shell-local-verification-lab)
 - [PrinceH4k/Spring4Shell-POC](https://github.com/PrinceH4k/Spring4Shell-POC)
 - [CyberCTF/vulhub-spring-cve-2022-22965](https://github.com/CyberCTF/vulhub-spring-cve-2022-22965)
+- [beulahhh-coder/-CVE-2022-22965-Spring4Shell](https://github.com/beulahhh-coder/-CVE-2022-22965-Spring4Shell)
 
 ### CVE-2022-22968 (2022-04-14)
 
