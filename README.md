@@ -6354,6 +6354,7 @@
 
 - [WhiteTPoison100/Discord-CVE-2026-24332-demo](https://github.com/WhiteTPoison100/Discord-CVE-2026-24332-demo)
 - [0cqb/CVE-2026-24332](https://github.com/0cqb/CVE-2026-24332)
+- [LinkMakesMods/invisible-detector](https://github.com/LinkMakesMods/invisible-detector)
 
 ### CVE-2026-24415 (2026-03-03)
 
@@ -11600,7 +11601,7 @@
 - [a2333c/DFRoot](https://github.com/a2333c/DFRoot)
 - [ankitrawatgit/DirtyFrag-Android-Root-Jailbreak](https://github.com/ankitrawatgit/DirtyFrag-Android-Root-Jailbreak)
 - [HirokiAkihiko/dirtyfrag-research](https://github.com/HirokiAkihiko/dirtyfrag-research)
-- [SudoXDdX/DirtyFrag](https://github.com/SudoXDdX/DirtyFrag)
+- [ziachi/DirtyFrag](https://github.com/ziachi/DirtyFrag)
 - [RemiPelloux/GalaxyCrash](https://github.com/RemiPelloux/GalaxyCrash)
 
 ### CVE-2026-43494 (2026-05-21)
@@ -15224,6 +15225,7 @@
 - [gichirimaku/wp2shell-PoC](https://github.com/gichirimaku/wp2shell-PoC)
 - [K52-ai/CVE-2026-63030](https://github.com/K52-ai/CVE-2026-63030)
 - [Githu836/PoC-for-CVE-2026-63030](https://github.com/Githu836/PoC-for-CVE-2026-63030)
+- [Tersurrr/Orga-Tersur-Daniel-CVE-2026-63030](https://github.com/Tersurrr/Orga-Tersur-Daniel-CVE-2026-63030)
 
 ### CVE-2026-63039 (2026-08-20)
 
@@ -18038,6 +18040,13 @@
 
 - [abraxas/CVE-2026-86350](https://github.com/abraxas/CVE-2026-86350)
 
+### CVE-2026-86478 (2026-09-07)
+
+<code>In JetBrains YouTrack before 2025.3.161254, \n2026.1.14042 improper authentication in YouTrack Helpdesk allowed unauthenticated account takeover via a self-asserted email address
+</code>
+
+- [LHeiakim/CVE-2026-86478](https://github.com/LHeiakim/CVE-2026-86478)
+
 ### CVE-2026-86547 (2026-09-09)
 
 <code>mrubyc through 4.0.0 contains a null pointer dereference vulnerability in the op_enter() handler in src/vm.c when processing untrusted bytecode. Attackers can craft malicious .mrb bytecode files with OP_ENTER instructions at the top level to crash the embedding application and cause denial of service.
@@ -18666,7 +18675,6 @@
 </code>
 
 - [scastillo-jp/braces-fork](https://github.com/scastillo-jp/braces-fork)
-- [pillarsdotnet/node-braces](https://github.com/pillarsdotnet/node-braces)
 - [BernydotJar/braces-security-backport](https://github.com/BernydotJar/braces-security-backport)
 
 ### CVE-2026-93834 (2026-09-25)
@@ -18981,6 +18989,13 @@
 
 - [JailBr3ak/CVE-2026-97347](https://github.com/JailBr3ak/CVE-2026-97347)
 
+### CVE-2026-97629 (2026-10-14)
+
+<code>Description\nWhen NGINX Plus or NGINX Open Source is configured with ssl_session_cache \n\nshared:name:size\n\nwithout an explicit ssl_session_ticket_key file directives to automatically rotate SSL session ticket keys, a remote unauthenticated attacker is able to forge client SSL sessions \n\nin a non-deterministic manner that is beyond the attacker's control. An attacker could leverage this vulnerability to bypass verification of client certificates.\n\nImpact\n\n\nThis vulnerability can lead to the exposure of resources or functionality to unintended actors, possibly providing attackers with access to sensitive information. There is no control plane exposure; this is a data plane issue only.\n\n\n\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [PhiNode-Labs/nginx-cve-2026-97629](https://github.com/PhiNode-Labs/nginx-cve-2026-97629)
+
 ### CVE-2026-97657 (2026-10-14)
 
 <code>The Abandoned Cart Pro for WooCommerce plugin for WordPress is vulnerable to Authentication Bypass via Malleable Encryption and Bypassable HMAC in all versions up to, and including, 10.8.0. This is due to the use of MAC-free AES-CTR encryption for cart-recovery link tokens — where the 8-byte CTR nonce is carried inside the ciphertext blob and the encryption key is looked up using the attacker-supplied `user_email` GET parameter — combined with an HMAC nonce check in `wcap_email_track_links()` that is only enforced when the `wcap_nonce` parameter is non-empty, allowing complete bypass by omission, and an insecure direct object reference on the decrypted `abandoned_id` with no ownership verification confirming the cart belongs to the email used for decryption. This makes it possible for unauthenticated attackers who possess a single legitimate cart-recovery link (obtained from their own reminder email) to recover the keystream, forge a ciphertext that decrypts to any victim's cart ID, and trigger a call to `wp_set_auth_cookie()` for the victim user — achieving full account takeover of any user who has ever abandoned a cart, including administrators. The auto-login feature defaults to enabled and is forced on during plugin upgrades, meaning all affected installations are exploitable without any additional configuration.
@@ -18995,6 +19010,7 @@
 
 - [ahiamaduuche-sys/CVE-2026-97859-Analysis](https://github.com/ahiamaduuche-sys/CVE-2026-97859-Analysis)
 - [ahiamaduuche-sys/CVE-2026-97859-Cybersecurity-Analysis](https://github.com/ahiamaduuche-sys/CVE-2026-97859-Cybersecurity-Analysis)
+- [ahiamaduuche-sys/CVE-2026-97859-CYB-Analysis](https://github.com/ahiamaduuche-sys/CVE-2026-97859-CYB-Analysis)
 
 ### CVE-2026-97941 (2026-09-25)
 
@@ -19023,7 +19039,6 @@
 </code>
 
 - [jadedFella/lpe-study-notes](https://github.com/jadedFella/lpe-study-notes)
-- [yanoo1222/CVE-2026-98260-android](https://github.com/yanoo1222/CVE-2026-98260-android)
 - [ylh440104/InfinityCore-Android-CVE-2026-98260](https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98260)
 
 ### CVE-2026-98385 (2026-10-12)
@@ -19492,7 +19507,6 @@
 - [ShadowForge-Cyber/CVE-2026-104286-POC](https://github.com/ShadowForge-Cyber/CVE-2026-104286-POC)
 - [techupdate24/fortimail-zero-day-cve-2026-104286](https://github.com/techupdate24/fortimail-zero-day-cve-2026-104286)
 - [kh20134/fortimail-cve-2026-104286-response](https://github.com/kh20134/fortimail-cve-2026-104286-response)
-- [0xREBYTE/CVE-2026-104286-PoC](https://github.com/0xREBYTE/CVE-2026-104286-PoC)
 
 ### CVE-2026-104335 (2026-10-06)
 
@@ -19938,7 +19952,6 @@
 - [nsrg-fmlorg/php-cve-2026-109618](https://github.com/nsrg-fmlorg/php-cve-2026-109618)
 - [Lexsah/php2shell-detection](https://github.com/Lexsah/php2shell-detection)
 - [grupooruss/php2shell-assessment-global](https://github.com/grupooruss/php2shell-assessment-global)
-- [Okymi-X/CVE-2026-109618](https://github.com/Okymi-X/CVE-2026-109618)
 - [dogussekerci/php-upload-progress-mitigation](https://github.com/dogussekerci/php-upload-progress-mitigation)
 - [1o-ya/php-cve-2026-109618-hotfix-guide](https://github.com/1o-ya/php-cve-2026-109618-hotfix-guide)
 - [Poellie01/PHP2Shell-Verification-Script](https://github.com/Poellie01/PHP2Shell-Verification-Script)
@@ -19977,11 +19990,9 @@
 - [m16a4666/php2shell-fix](https://github.com/m16a4666/php2shell-fix)
 - [lzz0403/CVE-2026-109618-PHP2Shell-poc](https://github.com/lzz0403/CVE-2026-109618-PHP2Shell-poc)
 - [JoasASantos/php2shell-scanner](https://github.com/JoasASantos/php2shell-scanner)
-- [Marven11/PHP2Shell-PoC](https://github.com/Marven11/PHP2Shell-PoC)
 - [Chrishow2/php74-apache-sury](https://github.com/Chrishow2/php74-apache-sury)
 - [jsrobinson3/php74-focal-cve-2026-109618](https://github.com/jsrobinson3/php74-focal-cve-2026-109618)
 - [julio-romo-muninn/PHP2SHELL](https://github.com/julio-romo-muninn/PHP2SHELL)
-- [MelchiorKokernoot/frankenphp-php8.4.27](https://github.com/MelchiorKokernoot/frankenphp-php8.4.27)
 - [WeMakeGood/php2shell](https://github.com/WeMakeGood/php2shell)
 - [josemingorance/php74-php2shell-backport-docker](https://github.com/josemingorance/php74-php2shell-backport-docker)
 - [adamtamenne/php2shell-lab](https://github.com/adamtamenne/php2shell-lab)
@@ -19998,8 +20009,10 @@
 - [haobachang-1/php2shell-CVE-2026-109618-CVE-2026-109619](https://github.com/haobachang-1/php2shell-CVE-2026-109618-CVE-2026-109619)
 - [deconstruction/EOLphp-php2shell-patches](https://github.com/deconstruction/EOLphp-php2shell-patches)
 - [genetix/php2shell-diagnostic](https://github.com/genetix/php2shell-diagnostic)
+- [D1a0y1bb/PHP2Shell-PoC](https://github.com/D1a0y1bb/PHP2Shell-PoC)
 - [WeaveHubHQ/cf-waf-bypass-check](https://github.com/WeaveHubHQ/cf-waf-bypass-check)
 - [guoziyu415/php2shell-check](https://github.com/guoziyu415/php2shell-check)
+- [EngOREOO/php2shell-CVE-2026-109618-CVE-2026-109619-PoC](https://github.com/EngOREOO/php2shell-CVE-2026-109618-CVE-2026-109619-PoC)
 - [pentestershell/php2shellbt](https://github.com/pentestershell/php2shellbt)
 - [Felix3322/PHP-uniDoS](https://github.com/Felix3322/PHP-uniDoS)
 - [al4n4n/php2shell](https://github.com/al4n4n/php2shell)
@@ -20039,11 +20052,72 @@
 - [cozybear-dev/cve-2026-109618](https://github.com/cozybear-dev/cve-2026-109618)
 - [paulamckenzie9193/php2shell-check](https://github.com/paulamckenzie9193/php2shell-check)
 - [syrex1013/CVE-2026-109618](https://github.com/syrex1013/CVE-2026-109618)
+- [sdminev/php2shell-poc](https://github.com/sdminev/php2shell-poc)
 - [xqus/php2shell-check](https://github.com/xqus/php2shell-check)
 - [r3c0nd4t4/php2shell-verify](https://github.com/r3c0nd4t4/php2shell-verify)
 - [godylockz/cve-2026-109618-php2shell](https://github.com/godylockz/cve-2026-109618-php2shell)
 - [hellbound2307/php2shell-lab](https://github.com/hellbound2307/php2shell-lab)
 - [Bulletdev/php2shell-poc](https://github.com/Bulletdev/php2shell-poc)
+- [san3ncrypt3d/php-oom-corruption-lab](https://github.com/san3ncrypt3d/php-oom-corruption-lab)
+- [mirrored-projects/PHP74-Windows-CVE2026](https://github.com/mirrored-projects/PHP74-Windows-CVE2026)
+- [projetoroot/php2shell-guard](https://github.com/projetoroot/php2shell-guard)
+- [cj667113/OCI-Ansible-Fix-CVE-2026-109618_CVE-2026-109619](https://github.com/cj667113/OCI-Ansible-Fix-CVE-2026-109618_CVE-2026-109619)
+- [waksboy/fixed-fpm-cve-2026-109618-and-109619-images](https://github.com/waksboy/fixed-fpm-cve-2026-109618-and-109619-images)
+- [tmespro/php-emergency-mitigations](https://github.com/tmespro/php-emergency-mitigations)
+- [bagsiz/el7-php70-security](https://github.com/bagsiz/el7-php70-security)
+- [joshuarosato/php2shell-poc](https://github.com/joshuarosato/php2shell-poc)
+- [x0xr00t/sl0ppy-php2shellscan](https://github.com/x0xr00t/sl0ppy-php2shellscan)
+- [NULL200OK/php2shell-detect](https://github.com/NULL200OK/php2shell-detect)
+- [hiramcoop/php2shellscan](https://github.com/hiramcoop/php2shellscan)
+- [euriconicacio/php2shell-validation-toolkit](https://github.com/euriconicacio/php2shell-validation-toolkit)
+- [atrailab/php-security-update-helper](https://github.com/atrailab/php-security-update-helper)
+- [ginoa79/php56-php2shell-backport](https://github.com/ginoa79/php56-php2shell-backport)
+- [rattones/php2shell-check](https://github.com/rattones/php2shell-check)
+- [fparch/php-cve-lab](https://github.com/fparch/php-cve-lab)
+- [exception0x876/php74-el7-patched](https://github.com/exception0x876/php74-el7-patched)
+- [FranklinF25/php2shell](https://github.com/FranklinF25/php2shell)
+- [codesource/cve-check](https://github.com/codesource/cve-check)
+- [JVCSampaio/php2shell-hardening](https://github.com/JVCSampaio/php2shell-hardening)
+- [hoehyeonlab/php-cve-2026-109618-check](https://github.com/hoehyeonlab/php-cve-2026-109618-check)
+- [skwirrel/php-cve-2026-109618-check](https://github.com/skwirrel/php-cve-2026-109618-check)
+- [1amrahul/php2shell-cve-2026-109618-cve-2026-109619](https://github.com/1amrahul/php2shell-cve-2026-109618-cve-2026-109619)
+- [arifulislamat/php2shell-audit](https://github.com/arifulislamat/php2shell-audit)
+- [geforester/php7.4-focal-php2shell](https://github.com/geforester/php7.4-focal-php2shell)
+- [alvarodh5/php2shell](https://github.com/alvarodh5/php2shell)
+- [appsec-cz/php-eol-patch](https://github.com/appsec-cz/php-eol-patch)
+- [derazo1/php2shell-scanner](https://github.com/derazo1/php2shell-scanner)
+- [Stonlifer/php2shell-old2](https://github.com/Stonlifer/php2shell-old2)
+- [Quaerendir/php2shell-audit](https://github.com/Quaerendir/php2shell-audit)
+- [Stonlifer/php2shell](https://github.com/Stonlifer/php2shell)
+- [basesixtythree/B63-POC-CVE-2026-109618](https://github.com/basesixtythree/B63-POC-CVE-2026-109618)
+- [bladehstream/php2shell_detect](https://github.com/bladehstream/php2shell_detect)
+- [exch0-wuz-h3r3/php2shell-response-inspector](https://github.com/exch0-wuz-h3r3/php2shell-response-inspector)
+- [frnmrls/php70-cve-2026-backport](https://github.com/frnmrls/php70-cve-2026-backport)
+- [nesirat/php2shell-guard](https://github.com/nesirat/php2shell-guard)
+- [Flookerton/Am-I-Pwned](https://github.com/Flookerton/Am-I-Pwned)
+- [nukIeer/php2shell-checker](https://github.com/nukIeer/php2shell-checker)
+- [nukIeer/CVE-2026-109618-109619-checker](https://github.com/nukIeer/CVE-2026-109618-109619-checker)
+- [CompleteTech-LLC/php2shell-check](https://github.com/CompleteTech-LLC/php2shell-check)
+- [atarus-security/atarus-phpcheck](https://github.com/atarus-security/atarus-phpcheck)
+- [nanoarmando/php-focal-backports](https://github.com/nanoarmando/php-focal-backports)
+- [zxzx1290/php7.4-fix](https://github.com/zxzx1290/php7.4-fix)
+- [thegillion/uisp-php2shell-guard](https://github.com/thegillion/uisp-php2shell-guard)
+- [bee7813993/xampp-security-update](https://github.com/bee7813993/xampp-security-update)
+- [dc-holdings-spa/php2shell-lab](https://github.com/dc-holdings-spa/php2shell-lab)
+- [yanzyuyu/phptshell](https://github.com/yanzyuyu/phptshell)
+- [LightSpeedC/20261022-research-php-cve](https://github.com/LightSpeedC/20261022-research-php-cve)
+- [the-metafactory/php-patch-verify](https://github.com/the-metafactory/php-patch-verify)
+- [meuhland/php-legacy-windows-builds](https://github.com/meuhland/php-legacy-windows-builds)
+- [viniciusbossle/php74-el7-php2shell](https://github.com/viniciusbossle/php74-el7-php2shell)
+- [0k1dok1/CVE-2026-109618-CHECK](https://github.com/0k1dok1/CVE-2026-109618-CHECK)
+- [HORKimhab/CVE-2026-109618-619](https://github.com/HORKimhab/CVE-2026-109618-619)
+- [danrod96-new/php-patch-check](https://github.com/danrod96-new/php-patch-check)
+- [BoheSama1999/php2shell-exp](https://github.com/BoheSama1999/php2shell-exp)
+- [checkfoxe/php56-session-uaf-patch](https://github.com/checkfoxe/php56-session-uaf-patch)
+- [spcaeo/php2shell-check](https://github.com/spcaeo/php2shell-check)
+- [niemingxing/php73-php2shell-patch](https://github.com/niemingxing/php73-php2shell-patch)
+- [KByteITServices/php-vulnerability-checker-october-2026](https://github.com/KByteITServices/php-vulnerability-checker-october-2026)
+- [alanh0vx/php2shell-check](https://github.com/alanh0vx/php2shell-check)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -20057,6 +20131,7 @@
 - [cozybear-dev/cve-2026-109619](https://github.com/cozybear-dev/cve-2026-109619)
 - [1Nightlovel/CVE-2026-109619](https://github.com/1Nightlovel/CVE-2026-109619)
 - [syrex1013/CVE-2026-109619](https://github.com/syrex1013/CVE-2026-109619)
+- [basesixtythree/B63-POC-CVE-2026-109619](https://github.com/basesixtythree/B63-POC-CVE-2026-109619)
 
 ### CVE-2026-109721 (2026-10-13)
 
@@ -20108,6 +20183,13 @@
 - [dreamfast/CVE-2026-110912](https://github.com/dreamfast/CVE-2026-110912)
 - [0xBlackash/CVE-2026-110912](https://github.com/0xBlackash/CVE-2026-110912)
 
+### CVE-2026-110936 (2026-10-15)
+
+<code>A vulnerability has been identified in Siemens Software Center (All versions &lt; V4.0.9.8). The affected application loads dynamic-link libraries (DLLs) from an uncontrolled search path. This could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application.
+</code>
+
+- [DAS-Bodhi/CVE-2026-110936-Siemens-Attack](https://github.com/DAS-Bodhi/CVE-2026-110936-Siemens-Attack)
+
 ### CVE-2026-110958 (2026-10-15)
 
 <code>A vulnerability was found in Wavlink WN530HG4B M30HG4B_V260724. The impacted element is an unknown function of the file api.cgi. The manipulation results in heap-based buffer overflow. It is possible to launch the attack remotely. The exploit has been made public and could be used. Upgrading to version 2026-09-24-841a51c6d5_tclinux.bin is sufficient to resolve this issue. The affected component should be upgraded. The vendor confirms: &quot;We confirm the finding, and it has already been addressed. In the current firmware the api=info&amp;client=app handler no longer builds a shell command: the login script is now invoked through an argument vector (execvp) instead of system(), and the client address is length-limited and null-checked.&quot;
@@ -20158,6 +20240,13 @@
 </code>
 
 - [murrez/CVE-2026-111823](https://github.com/murrez/CVE-2026-111823)
+
+### CVE-2026-111943 (2026-10-21)
+
+<code>On most platforms, Go uses the given system root certificates. However, in some narrower cases, the system trust stores may not be updated without further action. To defend against the narrower set of cases that may remain affected, a denylist was added in crypto/x509 to return an error when calling Verify with any of the known intermediate certificates that are no longer considered to be trustworthy.
+</code>
+
+- [phpc0de/CVE-2026-111943-Remediator](https://github.com/phpc0de/CVE-2026-111943-Remediator)
 
 ### CVE-2026-112071 (2026-10-20)
 
@@ -37202,6 +37291,7 @@
 </code>
 
 - [lcfr-hax/CVE-2024-14027_slop](https://github.com/lcfr-hax/CVE-2024-14027_slop)
+- [lcfr-eth/CVE-2024-14027_slop](https://github.com/lcfr-eth/CVE-2024-14027_slop)
 
 ### CVE-2024-20017 (2024-03-04)
 
@@ -40268,6 +40358,13 @@
 </code>
 
 - [ptrstr/CVE-2024-32830-poc](https://github.com/ptrstr/CVE-2024-32830-poc)
+
+### CVE-2024-32868 (2024-04-25)
+
+<code>ZITADEL provides users the possibility to use Time-based One-Time-Password (TOTP) and One-Time-Password (OTP) through SMS and Email. While ZITADEL already gives administrators the option to define a `Lockout Policy` with a maximum amount of failed password check attempts, there was no such mechanism for (T)OTP checks. This issue has been patched in version 2.50.0.\n
+</code>
+
+- [taiwoonileowo16-creator/CVE-2024-32868-Assignment-1](https://github.com/taiwoonileowo16-creator/CVE-2024-32868-Assignment-1)
 
 ### CVE-2024-32962 (2024-05-02)
 
@@ -45324,6 +45421,13 @@
 </code>
 
 - [Trinadh465/Openssl_1.1.1g_CVE-2023-0464](https://github.com/Trinadh465/Openssl_1.1.1g_CVE-2023-0464)
+
+### CVE-2023-0482 (2023-02-17)
+
+<code>In RESTEasy the insecure File.createTempFile() is used in the DataSourceProvider, FileProvider and Mime4JWorkaround classes which creates temp files with insecure permissions that could be read by a local user.
+</code>
+
+- [Bethel904/CVE-2023-0482-Analysis](https://github.com/Bethel904/CVE-2023-0482-Analysis)
 
 ### CVE-2023-0630 (2023-03-20)
 
@@ -50416,6 +50520,7 @@
 - [tubaaiftikhar-ui/MOVEit-Transfer-Data-Breach-Analysis.](https://github.com/tubaaiftikhar-ui/MOVEit-Transfer-Data-Breach-Analysis.)
 - [KarmanyaT28/Multi-Stage-Exploitation-and-Detection-Engineering-Analysis-of-CVE-2023-34362-in-MOVEit-Transfer](https://github.com/KarmanyaT28/Multi-Stage-Exploitation-and-Detection-Engineering-Analysis-of-CVE-2023-34362-in-MOVEit-Transfer)
 - [horrister/moveit-transfer-cve-2023-34362](https://github.com/horrister/moveit-transfer-cve-2023-34362)
+- [k9yk5zkn76-op/-CVE-2023-34362-Analysis](https://github.com/k9yk5zkn76-op/-CVE-2023-34362-Analysis)
 
 ### CVE-2023-34446 (2023-10-25)
 
@@ -59044,6 +59149,7 @@
 - [czabatta/THM-Tempest](https://github.com/czabatta/THM-Tempest)
 - [zavikhttak/follina-msdt-threat-investigation](https://github.com/zavikhttak/follina-msdt-threat-investigation)
 - [dayobamiii/OMOTOSO-AYOBAMI](https://github.com/dayobamiii/OMOTOSO-AYOBAMI)
+- [jamespelumi79-ctrl/CVE-2022-30190-Follina-Research](https://github.com/jamespelumi79-ctrl/CVE-2022-30190-Follina-Research)
 
 ### CVE-2022-30203 (2022-07-12)
 
@@ -65217,6 +65323,7 @@
 - [SimoesCTT/CTT-Exchange-RCE-v1.0---Microsoft-Exchange-Exploit-CVSS-10.0-CRITICAL-CVE-2021-26855-CVE-2021-27065](https://github.com/SimoesCTT/CTT-Exchange-RCE-v1.0---Microsoft-Exchange-Exploit-CVSS-10.0-CRITICAL-CVE-2021-26855-CVE-2021-27065)
 - [probablysecure/Triage-CVE-2021-26855-ProxyLogon---Microsoft-Exchange-](https://github.com/probablysecure/Triage-CVE-2021-26855-ProxyLogon---Microsoft-Exchange-)
 - [layee27/JIMOH-ABDULLAHI](https://github.com/layee27/JIMOH-ABDULLAHI)
+- [ifeoluwaayodeji/CVE-2021-26855-Analysis](https://github.com/ifeoluwaayodeji/CVE-2021-26855-Analysis)
 
 ### CVE-2021-26856
 - [avi8892/CVE-2021-26856](https://github.com/avi8892/CVE-2021-26856)
@@ -66498,6 +66605,7 @@
 - [KaritaMW/printnightmare-detection-mitigation-lab](https://github.com/KaritaMW/printnightmare-detection-mitigation-lab)
 - [joertx07/printnightmare-detection-lab](https://github.com/joertx07/printnightmare-detection-lab)
 - [s1kh/Vulnerability-Analysis-and-Mitigation](https://github.com/s1kh/Vulnerability-Analysis-and-Mitigation)
+- [honouroladosu7-cpu/CVE-2021-34527_PrintNightmare.md](https://github.com/honouroladosu7-cpu/CVE-2021-34527_PrintNightmare.md)
 
 ### CVE-2021-34558 (2021-07-15)
 
@@ -69281,6 +69389,7 @@
 - [mcpmark-eval-liuhezi/log4shell-remediation](https://github.com/mcpmark-eval-liuhezi/log4shell-remediation)
 - [mcpmark-eval-liuhezi/log4shell-audit-2026](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-2026)
 - [mcpmark-eval-liuhezi/log4shell-drill](https://github.com/mcpmark-eval-liuhezi/log4shell-drill)
+- [dave-ojumoola/CYB-401-CVE-2021-44228-Log4Shell](https://github.com/dave-ojumoola/CYB-401-CVE-2021-44228-Log4Shell)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -70759,6 +70868,7 @@
 - [commit2main/zerologon-lab](https://github.com/commit2main/zerologon-lab)
 - [abdullah50i/internal-penetration-testing-project-using-Metasploit](https://github.com/abdullah50i/internal-penetration-testing-project-using-Metasploit)
 - [ckq7703/CVE-2020-1472](https://github.com/ckq7703/CVE-2020-1472)
+- [Divineokoduwa/CVE-2020-1472-Zerologon-Vulnerability-Assessment](https://github.com/Divineokoduwa/CVE-2020-1472-Zerologon-Vulnerability-Assessment)
 
 ### CVE-2020-1493 (2020-08-17)
 
@@ -70773,6 +70883,13 @@
 </code>
 
 - [Ibonok/CVE-2020-1611](https://github.com/Ibonok/CVE-2020-1611)
+
+### CVE-2020-1712 (2020-03-31)
+
+<code>A heap use-after-free vulnerability was found in systemd before version v245-rc1, where asynchronous Polkit queries are performed while handling dbus messages. A local unprivileged attacker can abuse this flaw to crash systemd services or potentially execute code and elevate their privileges, by sending specially crafted dbus messages.
+</code>
+
+- [davidajagbe/Vulnerability-assessment](https://github.com/davidajagbe/Vulnerability-assessment)
 
 ### CVE-2020-1764 (2020-03-26)
 
@@ -82186,6 +82303,7 @@
 - [bidaoui4905/CVE-2018-10933](https://github.com/bidaoui4905/CVE-2018-10933)
 - [opsifiz/CVE-2018-10933](https://github.com/opsifiz/CVE-2018-10933)
 - [CyberCTF/vulhub-libssh-cve-2018-10933](https://github.com/CyberCTF/vulhub-libssh-cve-2018-10933)
+- [AVA-CEO/CVE-2018-10933-Assessment-](https://github.com/AVA-CEO/CVE-2018-10933-Assessment-)
 
 ### CVE-2018-10936 (2018-08-30)
 
@@ -86314,6 +86432,13 @@
 </code>
 
 - [ShielderSec/CVE-2017-18635](https://github.com/ShielderSec/CVE-2017-18635)
+
+### CVE-2017-20001 (2020-12-31)
+
+<code>The AES encryption project 7.x and 8.x for Drupal does not sufficiently prevent attackers from decrypting data, aka SA-CONTRIB-2017-027. NOTE: This project is not covered by Drupal's security advisory policy.
+</code>
+
+- [abiolaexcellence1-sketch/vulnerability-](https://github.com/abiolaexcellence1-sketch/vulnerability-)
 
 ### CVE-2017-20165 (2023-01-09)
 
