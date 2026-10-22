@@ -578,7 +578,6 @@
 </code>
 
 - [Nxploited/CVE-2026-1555](https://github.com/Nxploited/CVE-2026-1555)
-- [willygailo/WG-CVE-2026-1555-Linux](https://github.com/willygailo/WG-CVE-2026-1555-Linux)
 - [katranSefa/CVE-2026-1555](https://github.com/katranSefa/CVE-2026-1555)
 
 ### CVE-2026-1560 (2026-02-11)
@@ -1237,7 +1236,6 @@
 - [joshuavanderpoll/CVE-2026-3891](https://github.com/joshuavanderpoll/CVE-2026-3891)
 - [Nxploited/CVE-2026-3891](https://github.com/Nxploited/CVE-2026-3891)
 - [AnggaTechI/Mass-Scanner-CVE-2026-3891](https://github.com/AnggaTechI/Mass-Scanner-CVE-2026-3891)
-- [willygailo/CVE-2026-3891-Linux](https://github.com/willygailo/CVE-2026-3891-Linux)
 - [m4sh-wacker/CVE-2026-3891-Pix-for-WooCommerce-Plugin-Exploit](https://github.com/m4sh-wacker/CVE-2026-3891-Pix-for-WooCommerce-Plugin-Exploit)
 - [shinthink/CVE-2026-3891](https://github.com/shinthink/CVE-2026-3891)
 - [VeronnX666/CVE-2026-3891](https://github.com/VeronnX666/CVE-2026-3891)
@@ -3208,13 +3206,6 @@
 
 - [George0Papasotiriou/CVE-2026-11120-Command-Injection-via-Git-URL-in-CI-CD-Pipeline](https://github.com/George0Papasotiriou/CVE-2026-11120-Command-Injection-via-Git-URL-in-CI-CD-Pipeline)
 
-### CVE-2026-11318 (2026-10-08)
-
-<code>Deskin through 3.3.4.3 contains a privilege escalation vulnerability in the com.deskin.service.installer XPC service that allows local unprivileged attackers to execute arbitrary installer packages as root by connecting to the root-owned service without authentication. Attackers can invoke the privileged installer method to run an attacker-supplied installer, achieving full root compromise of the macOS host.
-</code>
-
-- [Cr0wld3r/CVE-2026-11318](https://github.com/Cr0wld3r/CVE-2026-11318)
-
 ### CVE-2026-11344 (2026-06-05)
 
 <code>A vulnerability was found in code-projects Vehicle Management System 1.0. This impacts an unknown function of the file newdriver.php of the component New Driver Registration Form. Performing a manipulation of the argument photo results in unrestricted upload. The attack may be initiated remotely. The exploit has been made public and could be used.
@@ -3363,6 +3354,13 @@
 
 ### CVE-2026-11991
 - [0x00phantom-hat/CVE-2026-11991-Exploit](https://github.com/0x00phantom-hat/CVE-2026-11991-Exploit)
+
+### CVE-2026-12080 (2026-07-20)
+
+<code>A flaw was found in the QEMU Guest Agent (qga). A local unprivileged user can exploit a vulnerability in the guest-ssh-add-authorized-keys command handler by manipulating symbolic links. This can occur either through a deterministic directory-symlink bypass or a Time-of-Check to Time-of-Use (TOCTOU) file-symlink race. Successful exploitation allows the attacker to gain ownership of arbitrary root-owned files or directories, leading to root access. This vulnerability requires an external management layer (e.g., libvirt) to trigger the affected code path.
+</code>
+
+- [M8seven/cve-2026-12080-qemu-guest-agent-authorized-keys](https://github.com/M8seven/cve-2026-12080-qemu-guest-agent-authorized-keys)
 
 ### CVE-2026-12087 (2026-06-15)
 
@@ -7412,6 +7410,7 @@
 </code>
 
 - [mr-redoo7/CVE-2026-27739-POC](https://github.com/mr-redoo7/CVE-2026-27739-POC)
+- [Mr-Red-007/CVE-2026-27739-POC](https://github.com/Mr-Red-007/CVE-2026-27739-POC)
 
 ### CVE-2026-27771 (2026-07-03)
 
@@ -11179,7 +11178,6 @@
 - [limo57640-crypto/cpanel-cve-41940-detector](https://github.com/limo57640-crypto/cpanel-cve-41940-detector)
 - [xxconi/CVE-2026-41940](https://github.com/xxconi/CVE-2026-41940)
 - [sardine-web/Automated-scanner-CVE-2026-41940](https://github.com/sardine-web/Automated-scanner-CVE-2026-41940)
-- [willygailo/CVE-2026-41940-Linux](https://github.com/willygailo/CVE-2026-41940-Linux)
 - [asdasddqwdq29-a11y/CVE-2026-41940](https://github.com/asdasddqwdq29-a11y/CVE-2026-41940)
 - [oguz-kagan-akar/CVE-2026-41940-analysis](https://github.com/oguz-kagan-akar/CVE-2026-41940-analysis)
 - [razureink/cve-2026-41940-cpanel_authbypass_reproduction](https://github.com/razureink/cve-2026-41940-cpanel_authbypass_reproduction)
@@ -11795,6 +11793,7 @@
 - [Escosis/V2463A-LPE](https://github.com/Escosis/V2463A-LPE)
 - [AuroraMythweaver/iqoo-neo9-ghostlock-pc](https://github.com/AuroraMythweaver/iqoo-neo9-ghostlock-pc)
 - [Romk-a/CVE-2026-43499-ghostlock-vivo-x100-ultra-root](https://github.com/Romk-a/CVE-2026-43499-ghostlock-vivo-x100-ultra-root)
+- [adam-ikari/ghostlock-site](https://github.com/adam-ikari/ghostlock-site)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -13000,13 +12999,6 @@
 
 - [abraxas/CVE-2026-48356](https://github.com/abraxas/CVE-2026-48356)
 
-### CVE-2026-48500 (2026-06-22)
-
-<code>Filament is a collection of full-stack components for accelerated Laravel development. From 3.0.0 until 3.3.52, 4.11.5, and 5.6.5, any schema can contain a file upload form field, so Filament applies Livewire's WithFileUploads trait to the Livewire component the schema is embedded in. However, some schemas, such as the panel login form, do not require file uploads, and exposing unauthenticated temporary file uploads on these components is not an acceptable risk. On these components, an unauthenticated attacker could upload arbitrary files to the application's temporary storage, which could be abused to exhaust disk space or inflate storage costs. This vulnerability is fixed in 3.3.52, 4.11.5, and 5.6.5.
-</code>
-
-- [rimbadirgantara/CVE-2026-48500](https://github.com/rimbadirgantara/CVE-2026-48500)
-
 ### CVE-2026-48519 (2026-06-23)
 
 <code>Langflow is a tool for building and deploying AI-powered agents and workflows. Prior to 1.9.2, the &quot;Shareable Playground&quot; (or &quot;Public Flows&quot; in code) contains a critical RCE vulnerability. Shareable Playground feature works by enabling the execution of workflows by unauthenticated users, by accessing a link. Specifically, it enables the route /api/v1/build_public_tmp to execute any public flow, given a public flow ID. When the route executes the flow, it allows for providing arbitrary custom Python code as the nodes code, inside the JSON payload. The vulnerable field is data.nodes[X].data.node.template.code.value. This vulnerability is fixed in 1.9.2.
@@ -13687,7 +13679,11 @@
 
 - [timtimxs/CVE-2026-51947-Advisory](https://github.com/timtimxs/CVE-2026-51947-Advisory)
 
-### CVE-2026-51954
+### CVE-2026-51954 (2026-10-22)
+
+<code>An issue in Webasyst Framework 4.0.3 and before allows a remote attacker to execute arbitrary code via a crafted OAuth authorization URL with an arbitrary redirect_uri.
+</code>
+
 - [envincion1991-cmyk/CVE-2026-51954](https://github.com/envincion1991-cmyk/CVE-2026-51954)
 - [Envincion/CVE-2026-51954](https://github.com/Envincion/CVE-2026-51954)
 
@@ -14352,7 +14348,7 @@
 
 ### CVE-2026-55200 (2026-06-17)
 
-<code>libssh2 through 1.11.1, fixed in commit 7acf3df contains an out-of-bounds write vulnerability in ssh2_transport_read() that fails to enforce upper bounds on packet_length field. Remote attackers can send crafted SSH packets with excessively large packet_length values to corrupt heap memory and achieve remote code execution.
+<code>libssh2 1.11.1, fixed in commit 97acf3d, contains an out-of-bounds write vulnerability in ssh2_transport_read() that fails to enforce upper bounds on packet_length field. Remote attackers can send crafted SSH packets with excessively large packet_length values to corrupt heap memory and achieve remote code execution.
 </code>
 
 - [0xBlackash/CVE-2026-55200](https://github.com/0xBlackash/CVE-2026-55200)
@@ -14504,13 +14500,6 @@
 
 - [sentinel-aidefense/CVE-2026-56164-EXP](https://github.com/sentinel-aidefense/CVE-2026-56164-EXP)
 - [sam00/POC-CVE-2026-56164-exploit](https://github.com/sam00/POC-CVE-2026-56164-exploit)
-
-### CVE-2026-56190 (2026-07-14)
-
-<code>Use of uninitialized resource in Windows RDP allows an unauthorized attacker to execute code over a network.
-</code>
-
-- [danarhirany300-ctrl/CVE-2026-56190-RDP-Analysis](https://github.com/danarhirany300-ctrl/CVE-2026-56190-RDP-Analysis)
 
 ### CVE-2026-56290 (2026-06-29)
 
@@ -14761,7 +14750,6 @@
 - [0xgh057r3c0n/CVE-2026-58138](https://github.com/0xgh057r3c0n/CVE-2026-58138)
 - [Procjevt/CVE-2026-58138](https://github.com/Procjevt/CVE-2026-58138)
 - [0xBlackash/CVE-2026-58138](https://github.com/0xBlackash/CVE-2026-58138)
-- [Ez4rd1x1/CVE-2026-58138-Research](https://github.com/Ez4rd1x1/CVE-2026-58138-Research)
 
 ### CVE-2026-58221
 - [DevAli00/CVE-2026-58221](https://github.com/DevAli00/CVE-2026-58221)
@@ -18093,7 +18081,6 @@
 
 - [34zY/CVE-2026-86950](https://github.com/34zY/CVE-2026-86950)
 - [msuiche/hotcell](https://github.com/msuiche/hotcell)
-- [java99999/CVE-2026-86950-POC](https://github.com/java99999/CVE-2026-86950-POC)
 - [decalage2/detect_CVE-2026-86950](https://github.com/decalage2/detect_CVE-2026-86950)
 - [0xBlackash/CVE-2026-86950](https://github.com/0xBlackash/CVE-2026-86950)
 - [jpdagostin0/CVE-2026-86950-POC](https://github.com/jpdagostin0/CVE-2026-86950-POC)
@@ -18242,7 +18229,6 @@
 - [ThomasPoppelgaard/netscaler-ctx697096-checker](https://github.com/ThomasPoppelgaard/netscaler-ctx697096-checker)
 - [techupdate24/citrix-netscaler-cve-2026-88771-rce](https://github.com/techupdate24/citrix-netscaler-cve-2026-88771-rce)
 - [SwiftSecur/CVE-2026-88771-HuntScript](https://github.com/SwiftSecur/CVE-2026-88771-HuntScript)
-- [bkchaudhari/NetScaler-CTX697096-Assessment-Script](https://github.com/bkchaudhari/NetScaler-CTX697096-Assessment-Script)
 - [emilstahl/pitscaler](https://github.com/emilstahl/pitscaler)
 - [orjanj/netscaler_threat_hunt_helper](https://github.com/orjanj/netscaler_threat_hunt_helper)
 - [watchtowrlabs/citrix-netscaler-cve-2026-88771-iocs](https://github.com/watchtowrlabs/citrix-netscaler-cve-2026-88771-iocs)
@@ -18468,6 +18454,13 @@
 </code>
 
 - [sl4x0/autheo-cve-2026-91159-poc](https://github.com/sl4x0/autheo-cve-2026-91159-poc)
+
+### CVE-2026-91403 (2026-10-21)
+
+<code>Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u511, 8u511-perf, 11.0.33, 17.0.21, 21.0.13, 25.0.5, 27.0.1; Oracle GraalVM for JDK: 17.0.21 and  21.0.13; Oracle GraalVM Enterprise Edition: 21.3.20. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N).
+</code>
+
+- [Carl0gonzalez/java-security-update](https://github.com/Carl0gonzalez/java-security-update)
 
 ### CVE-2026-91737 (2026-09-15)
 
@@ -18828,13 +18821,6 @@
 
 - [codevalai/microsoft-security-advisory-cv](https://github.com/codevalai/microsoft-security-advisory-cv)
 
-### CVE-2026-96349 (2026-09-30)
-
-<code>Unauthenticated Remote Code Execution (RCE) in SiteSkite &lt;= 2.1.8 versions.
-</code>
-
-- [murrez/CVE-2026-96349](https://github.com/murrez/CVE-2026-96349)
-
 ### CVE-2026-96451 (2026-10-03)
 
 <code>Authorization Bypass Through User-Controlled Key vulnerability in Ultimate Member Ultimate Member ultimate-member allows Privilege Escalation.This issue affects Ultimate Member: from n/a through 2.13.1.
@@ -18867,6 +18853,7 @@
 - [code-zm/plex2shell](https://github.com/code-zm/plex2shell)
 - [ChrisLPJones/plex2shell-check](https://github.com/ChrisLPJones/plex2shell-check)
 - [w116tjb/plex2shell-windows-hunt](https://github.com/w116tjb/plex2shell-windows-hunt)
+- [basesixtythree/B63-POC-CVE-2026-96652](https://github.com/basesixtythree/B63-POC-CVE-2026-96652)
 
 ### CVE-2026-96656 (2026-09-23)
 
@@ -18989,7 +18976,6 @@
 </code>
 
 - [AmpedWasTaken/CVE-2026-97229-GitLab-CI-CD-Regex-Compiler-RCE](https://github.com/AmpedWasTaken/CVE-2026-97229-GitLab-CI-CD-Regex-Compiler-RCE)
-- [jburgess-r7/CVE-2026-97229-PoC](https://github.com/jburgess-r7/CVE-2026-97229-PoC)
 - [gandli/cve-2026-97229-lab](https://github.com/gandli/cve-2026-97229-lab)
 
 ### CVE-2026-97286 (2026-09-30)
@@ -19423,20 +19409,6 @@
 
 - [BomboBombone/CVE-2026-103446](https://github.com/BomboBombone/CVE-2026-103446)
 
-### CVE-2026-103584 (2026-09-30)
-
-<code>Improper neutralization of Script-Related HTML tags in a web page (basic XSS) vulnerability in The Wikimedia Foundation MediaWiki CommonsMetadata extension allows Cross-Site Scripting (XSS).\n\nThis issue affects MediaWiki CommonsMetadata extension: 1.46, 1.45, and 1.43.
-</code>
-
-- [BomboBombone/CVE-2026-103584](https://github.com/BomboBombone/CVE-2026-103584)
-
-### CVE-2026-103585 (2026-09-30)
-
-<code>Improper neutralization of Script-Related HTML tags in a web page (basic XSS) vulnerability in The Wikimedia Foundation MediaWiki MediaSearch extension allows Cross-Site Scripting (XSS).\n\nThis issue affects MediaWiki MediaSearch extension: 1.46, 1.45, and 1.43.
-</code>
-
-- [BomboBombone/CVE-2026-103585](https://github.com/BomboBombone/CVE-2026-103585)
-
 ### CVE-2026-103648 (2026-10-02)
 
 <code>Path traversal in image-downloader 4.3.0 allows an attacker who can control the download URL to cause downloaded response data to be written outside the configured destination directory.
@@ -19765,6 +19737,7 @@
 
 - [horizon3ai/CVE-2026-106173](https://github.com/horizon3ai/CVE-2026-106173)
 - [0xBlackash/CVE-2026-106173](https://github.com/0xBlackash/CVE-2026-106173)
+- [tc4dy/CVE-2026-106173-PoC-Exploit](https://github.com/tc4dy/CVE-2026-106173-PoC-Exploit)
 
 ### CVE-2026-106445 (2026-10-06)
 
@@ -19779,6 +19752,16 @@
 </code>
 
 - [KevineCharles/CVE-2026-106610-miniorange-otp-ato](https://github.com/KevineCharles/CVE-2026-106610-miniorange-otp-ato)
+
+### CVE-2026-106991
+- [MX-Qulin/CVE-2026-106991](https://github.com/MX-Qulin/CVE-2026-106991)
+
+### CVE-2026-107079 (2026-10-22)
+
+<code>An issue in Systrome Validation &amp; Certification 1.0 allows an attacker to cause a denial of service via the t URL parameter in the qrcode_auth.html component
+</code>
+
+- [Nishi-Mehta-18/CVE-2026-107079](https://github.com/Nishi-Mehta-18/CVE-2026-107079)
 
 ### CVE-2026-107081 (2026-10-19)
 
@@ -19910,7 +19893,7 @@
 
 - [corelight/php2shell-detect](https://github.com/corelight/php2shell-detect)
 - [Unkn0vv/php2shell](https://github.com/Unkn0vv/php2shell)
-- [Zer061/CVE-2026-109618](https://github.com/Zer061/CVE-2026-109618)
+- [zhaoboy9692/CVE-2026-109618](https://github.com/zhaoboy9692/CVE-2026-109618)
 - [zhaoboy9692/CVE-2026-109618_](https://github.com/zhaoboy9692/CVE-2026-109618_)
 - [0ldbaby/php2shell](https://github.com/0ldbaby/php2shell)
 - [mikensec/php2shell-lab](https://github.com/mikensec/php2shell-lab)
@@ -20063,12 +20046,12 @@
 - [fufufuwa/php2shell-detect](https://github.com/fufufuwa/php2shell-detect)
 - [kernelkill/PoC_f5_php2shell.sh](https://github.com/kernelkill/PoC_f5_php2shell.sh)
 - [litobro/php2mon](https://github.com/litobro/php2mon)
-- [Whackermelon/Php2Shell-POC](https://github.com/Whackermelon/Php2Shell-POC)
 - [The-DevOps-Daily/php2shell-check](https://github.com/The-DevOps-Daily/php2shell-check)
 - [Kindredman/php2shell-host-audit](https://github.com/Kindredman/php2shell-host-audit)
 - [TREXNEGRO/php2shell](https://github.com/TREXNEGRO/php2shell)
 - [Faizan-Khanx/php2shell](https://github.com/Faizan-Khanx/php2shell)
 - [SamJUK/php2shell-check-cve-2026-109618](https://github.com/SamJUK/php2shell-check-cve-2026-109618)
+- [pax-k/Php2Shell-POC](https://github.com/pax-k/Php2Shell-POC)
 - [squiblyza/CVE-2026-109618-CVE-2026-109619](https://github.com/squiblyza/CVE-2026-109618-CVE-2026-109619)
 - [imranulbari/php-security-update-helper](https://github.com/imranulbari/php-security-update-helper)
 - [puffert/php-critical-rce-scanner](https://github.com/puffert/php-critical-rce-scanner)
@@ -20140,6 +20123,7 @@
 - [thegillion/uisp-php2shell-guard](https://github.com/thegillion/uisp-php2shell-guard)
 - [bee7813993/xampp-security-update](https://github.com/bee7813993/xampp-security-update)
 - [securibee/php2shell-tenable-skill](https://github.com/securibee/php2shell-tenable-skill)
+- [ultravistor/int](https://github.com/ultravistor/int)
 - [solymx/php-cve-2026-research](https://github.com/solymx/php-cve-2026-research)
 - [yanzyuyu/phptshell](https://github.com/yanzyuyu/phptshell)
 - [LightSpeedC/20261022-research-php-cve](https://github.com/LightSpeedC/20261022-research-php-cve)
@@ -20196,6 +20180,7 @@
 - [mohamedation/php2shell-scanner](https://github.com/mohamedation/php2shell-scanner)
 - [hkoeck/php2shell-status](https://github.com/hkoeck/php2shell-status)
 - [Sol0-dev/php2shell](https://github.com/Sol0-dev/php2shell)
+- [PHPatch/phpatchscan](https://github.com/PHPatch/phpatchscan)
 - [xbuddhi/php2shell-fix](https://github.com/xbuddhi/php2shell-fix)
 - [zNexoraTech/php2shell-detector](https://github.com/zNexoraTech/php2shell-detector)
 - [KanyCrew/php2shell-poc](https://github.com/KanyCrew/php2shell-poc)
@@ -20220,6 +20205,7 @@
 - [covertswarmlabs/PHP2Shell-Check](https://github.com/covertswarmlabs/PHP2Shell-Check)
 - [shivabalaj/CVE-2026-109618](https://github.com/shivabalaj/CVE-2026-109618)
 - [BenFerguson310/Cloudflare-PHP2shell-Detections](https://github.com/BenFerguson310/Cloudflare-PHP2shell-Detections)
+- [xPloits3c/PHP2Shell](https://github.com/xPloits3c/PHP2Shell)
 - [larsactionhero/php-patch-check](https://github.com/larsactionhero/php-patch-check)
 - [ruban-s/php-8.1-windows-security](https://github.com/ruban-s/php-8.1-windows-security)
 - [LeminEly/CVE-2026-109618-109619](https://github.com/LeminEly/CVE-2026-109618-109619)
@@ -20246,7 +20232,6 @@
 - [SanWRoot/php2shell-LAB-POC-](https://github.com/SanWRoot/php2shell-LAB-POC-)
 - [dustyFski/php2shell-exposure-accelerator](https://github.com/dustyFski/php2shell-exposure-accelerator)
 - [cred0core/Sigma-rule-CVE-2026-109618](https://github.com/cred0core/Sigma-rule-CVE-2026-109618)
-- [shivrajem/php2shell-detect](https://github.com/shivrajem/php2shell-detect)
 - [SmR492/php-7.2-CVE-2026-109618-109619](https://github.com/SmR492/php-7.2-CVE-2026-109618-109619)
 - [SmR492/php-7.3-CVE-2026-109618-109619](https://github.com/SmR492/php-7.3-CVE-2026-109618-109619)
 - [bashclub/php2shell-forensic-check](https://github.com/bashclub/php2shell-forensic-check)
@@ -20264,35 +20249,105 @@
 - [Daniel-wambua/php2shell-poc](https://github.com/Daniel-wambua/php2shell-poc)
 - [tobiastillstam/Scan-PHP2Shell](https://github.com/tobiastillstam/Scan-PHP2Shell)
 - [vitalelele/CVE-2026-109618-PoC](https://github.com/vitalelele/CVE-2026-109618-PoC)
-- [GlobalsecureAcademy/php2shell-scanner-CVE-2026-109618-CVE-2026-109619-](https://github.com/GlobalsecureAcademy/php2shell-scanner-CVE-2026-109618-CVE-2026-109619-)
+- [GlobalsecureAcademy/php2shell-scanner-CVE-2026-109618-CVE-2026-109619](https://github.com/GlobalsecureAcademy/php2shell-scanner-CVE-2026-109618-CVE-2026-109619)
 - [emphereio/php-eol-backports](https://github.com/emphereio/php-eol-backports)
 - [mrmtwoj/php-cve-2026-109618-fixer](https://github.com/mrmtwoj/php-cve-2026-109618-fixer)
 - [rpersak/php2shell_check](https://github.com/rpersak/php2shell_check)
 - [baron-stybd/CVE-2026-109618-CVE-2026-109619](https://github.com/baron-stybd/CVE-2026-109618-CVE-2026-109619)
 - [bagsiz/el7-php74-security](https://github.com/bagsiz/el7-php74-security)
 - [Marciano-Morinigo/php2shell-CVE-2026-109618-CVE-2026-109619-PoC-Lab](https://github.com/Marciano-Morinigo/php2shell-CVE-2026-109618-CVE-2026-109619-PoC-Lab)
+- [getastra/php2shell-triage](https://github.com/getastra/php2shell-triage)
 - [waqas578/Plymouth-Retail-Ltd.---PHP2Shell-Vulnerability-Incident-Remediation-Report](https://github.com/waqas578/Plymouth-Retail-Ltd.---PHP2Shell-Vulnerability-Incident-Remediation-Report)
 - [r0x43g/php2shell-vendor-watch](https://github.com/r0x43g/php2shell-vendor-watch)
 - [eagle1maledetto/php5.6-wheezy-cve-2026-109618](https://github.com/eagle1maledetto/php5.6-wheezy-cve-2026-109618)
 - [ZeroHackOrg/php2shell-poc](https://github.com/ZeroHackOrg/php2shell-poc)
 - [jeffreyesdavid/php-guardian](https://github.com/jeffreyesdavid/php-guardian)
 - [LHeiakim/php2shell-full-poc](https://github.com/LHeiakim/php2shell-full-poc)
+- [aplite-de/php2shell-detection-rules](https://github.com/aplite-de/php2shell-detection-rules)
 - [rajasekharponakala/php2shell-brief](https://github.com/rajasekharponakala/php2shell-brief)
+- [serkanburat/php74-patched-windows](https://github.com/serkanburat/php74-patched-windows)
 - [moorwald/mautic4-legacy](https://github.com/moorwald/mautic4-legacy)
 - [netbadgersltd/php72u-build](https://github.com/netbadgersltd/php72u-build)
-- [0xgetz/php2shell](https://github.com/0xgetz/php2shell)
 - [manshoor/php2shell-scanner](https://github.com/manshoor/php2shell-scanner)
 - [psylinux/php2shell-check](https://github.com/psylinux/php2shell-check)
 - [Jamsux/php2shell-check](https://github.com/Jamsux/php2shell-check)
 - [imhyunho99/php2shell-shield](https://github.com/imhyunho99/php2shell-shield)
 - [jaba0x/php2shell-guard](https://github.com/jaba0x/php2shell-guard)
 - [maxprog-svg/PHP2Shell-CVE-2026-109618-CVE-2026-109619](https://github.com/maxprog-svg/PHP2Shell-CVE-2026-109618-CVE-2026-109619)
+- [4itec/php-7.4.3.3-patch](https://github.com/4itec/php-7.4.3.3-patch)
 - [coldcain-sec/php2shell-checker](https://github.com/coldcain-sec/php2shell-checker)
 - [nft-syou/php-5.4.45-php2shell-patch](https://github.com/nft-syou/php-5.4.45-php2shell-patch)
 - [RobertoCifre/php2shell-check](https://github.com/RobertoCifre/php2shell-check)
 - [TheFool-TAROT/php2shell-lab](https://github.com/TheFool-TAROT/php2shell-lab)
-- [nicolascoculuzzi/patched](https://github.com/nicolascoculuzzi/patched)
+- [defendable/PHP2Shell](https://github.com/defendable/PHP2Shell)
+- [Swordsec/php2shell-guard](https://github.com/Swordsec/php2shell-guard)
 - [Trupal25/php2shell-audit](https://github.com/Trupal25/php2shell-audit)
+- [seguridadentrerios/CVE-2026-109618-CVE-2026-109619](https://github.com/seguridadentrerios/CVE-2026-109618-CVE-2026-109619)
+- [hyderoo/php2shell-check](https://github.com/hyderoo/php2shell-check)
+- [Shadow-Pixxxel/php-advanced-hunting](https://github.com/Shadow-Pixxxel/php-advanced-hunting)
+- [brentmartinmiller/php2shell-check](https://github.com/brentmartinmiller/php2shell-check)
+- [louzaonet/php2shell_hunt_ispconfig](https://github.com/louzaonet/php2shell_hunt_ispconfig)
+- [Certbn/PHP2Shell-CVE-2026-109618-CVE-2026-109619-](https://github.com/Certbn/PHP2Shell-CVE-2026-109618-CVE-2026-109619-)
+- [fletto2/php56-php2shell-patches](https://github.com/fletto2/php56-php2shell-patches)
+- [kaaangumus/php2shell-nuclei](https://github.com/kaaangumus/php2shell-nuclei)
+- [BartoszGarba/php2shell-sigma-rules](https://github.com/BartoszGarba/php2shell-sigma-rules)
+- [rootone-it/nginx-php2shell-monitor](https://github.com/rootone-it/nginx-php2shell-monitor)
+- [dexteon/php2shell-poc](https://github.com/dexteon/php2shell-poc)
+- [prox3000/php-7.4-focal-cve-patched](https://github.com/prox3000/php-7.4-focal-cve-patched)
+- [BrenesRM/The-Kodiak-Shield-CD-Cyber-Range-Masterclass-en-PHP2Shell](https://github.com/BrenesRM/The-Kodiak-Shield-CD-Cyber-Range-Masterclass-en-PHP2Shell)
+- [DilanWW/php-cve-check](https://github.com/DilanWW/php-cve-check)
+- [xjodoin/legacy-runtime-security-backport](https://github.com/xjodoin/legacy-runtime-security-backport)
+- [laurentlevi/dt-managed-php-versions](https://github.com/laurentlevi/dt-managed-php-versions)
+- [ctkqiang/PHP2ShellPOC2026](https://github.com/ctkqiang/PHP2ShellPOC2026)
+- [wromansky/php2shell-warn](https://github.com/wromansky/php2shell-warn)
+- [iSecNG/php2shell-honeypot](https://github.com/iSecNG/php2shell-honeypot)
+- [waksboy/php-cve-2026-109618-109619-tester](https://github.com/waksboy/php-cve-2026-109618-109619-tester)
+- [flexEST/php2shell](https://github.com/flexEST/php2shell)
+- [0xgitpushpray/php2shell](https://github.com/0xgitpushpray/php2shell)
+- [scardotdev/php2shell-helper](https://github.com/scardotdev/php2shell-helper)
+- [RuanSerraAzul/CVE-2026-109618-POC](https://github.com/RuanSerraAzul/CVE-2026-109618-POC)
+- [logesh-GIT001/php2shell](https://github.com/logesh-GIT001/php2shell)
+- [toxy4ny/php2shell-checker](https://github.com/toxy4ny/php2shell-checker)
+- [ericmann/php2shell-ioc](https://github.com/ericmann/php2shell-ioc)
+- [errorfo/php2shell](https://github.com/errorfo/php2shell)
+- [JackReaper1020/php_oom](https://github.com/JackReaper1020/php_oom)
+- [newtro/php2shell-site-check](https://github.com/newtro/php2shell-site-check)
+- [bianqiang-ui/phpscan-go](https://github.com/bianqiang-ui/phpscan-go)
+- [ethoic-inc/php-vuln-check](https://github.com/ethoic-inc/php-vuln-check)
+- [definitiveref/php2shell-CVE-2026-109618-109619-Research](https://github.com/definitiveref/php2shell-CVE-2026-109618-109619-Research)
+- [somisec/php2shell-scanner](https://github.com/somisec/php2shell-scanner)
+- [JoshRob297/php2shell-research](https://github.com/JoshRob297/php2shell-research)
+- [SoroushAlamdari/php2shell-detect](https://github.com/SoroushAlamdari/php2shell-detect)
+- [manuxio/untested-php2shell-fixed-php-5-4-apache](https://github.com/manuxio/untested-php2shell-fixed-php-5-4-apache)
+- [mehmetkuruyuz/php-cve-audit](https://github.com/mehmetkuruyuz/php-cve-audit)
+- [kunshdeep2812/php2shell-scanner](https://github.com/kunshdeep2812/php2shell-scanner)
+- [manuxio/untested-php2shell-fixed-php-7-2-fpm](https://github.com/manuxio/untested-php2shell-fixed-php-7-2-fpm)
+- [manuxio/untested-php2shell-fixed-php-7-2-apache](https://github.com/manuxio/untested-php2shell-fixed-php-7-2-apache)
+- [JoasASantos/php2shell-lab](https://github.com/JoasASantos/php2shell-lab)
+- [manuxio/untested-php2shell-fixed-php-fpm-mod_php](https://github.com/manuxio/untested-php2shell-fixed-php-fpm-mod_php)
+- [rahnas/php2shell-autofix](https://github.com/rahnas/php2shell-autofix)
+- [Zeppperoni/PHP2Shell-detector](https://github.com/Zeppperoni/PHP2Shell-detector)
+- [Alex-Goaga/synology-dsm6-php74-php2shell](https://github.com/Alex-Goaga/synology-dsm6-php74-php2shell)
+- [dhloyola/php2shell-fix-74](https://github.com/dhloyola/php2shell-fix-74)
+- [nocerainfosec/php2shell-checker](https://github.com/nocerainfosec/php2shell-checker)
+- [alvm/php2shell-eol-backport](https://github.com/alvm/php2shell-eol-backport)
+- [meta-l/WordPress-PHPVuln-Triage](https://github.com/meta-l/WordPress-PHPVuln-Triage)
+- [bitforce23-max/PHP2Shell](https://github.com/bitforce23-max/PHP2Shell)
+- [it-reinbek/php2shell-auditor](https://github.com/it-reinbek/php2shell-auditor)
+- [kitten443/php2shell](https://github.com/kitten443/php2shell)
+- [memuratozturk/php2shell-poc](https://github.com/memuratozturk/php2shell-poc)
+- [dhloyola/php2shell-fix-php7](https://github.com/dhloyola/php2shell-fix-php7)
+- [Agentic-DFIR/PHP2Shell](https://github.com/Agentic-DFIR/PHP2Shell)
+- [ali-security/php-5.6.40-sp1-build](https://github.com/ali-security/php-5.6.40-sp1-build)
+- [Officerwasu/php2shell](https://github.com/Officerwasu/php2shell)
+- [bahartanir/php2shell](https://github.com/bahartanir/php2shell)
+- [itzen300/php2shell_RCE](https://github.com/itzen300/php2shell_RCE)
+- [wasdthedebugger/php2shell](https://github.com/wasdthedebugger/php2shell)
+- [webninjjacoder/security-backports-for-php74](https://github.com/webninjjacoder/security-backports-for-php74)
+- [ChangWeiHong/php-cve-local-lab](https://github.com/ChangWeiHong/php-cve-local-lab)
+- [AGI-CEO/paladin-php-rescue-mcp](https://github.com/AGI-CEO/paladin-php-rescue-mcp)
+- [swap18plus/php2shell_CVE-2026-109618-and-CVE-2026-109619](https://github.com/swap18plus/php2shell_CVE-2026-109618-and-CVE-2026-109619)
+- [Kernovix/php2shell-fix-check](https://github.com/Kernovix/php2shell-fix-check)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -20311,6 +20366,9 @@
 - [baimaobg/php-cve-2026-109619-lab](https://github.com/baimaobg/php-cve-2026-109619-lab)
 - [Prajjwal-Srivastava/php2shell_scanner](https://github.com/Prajjwal-Srivastava/php2shell_scanner)
 - [RuanSerraAzul/CVE-2026-109619-POC](https://github.com/RuanSerraAzul/CVE-2026-109619-POC)
+- [bigb0x/php2shell-poc](https://github.com/bigb0x/php2shell-poc)
+- [FarhadHosen101/PHP2Shell-CVE-2026-109619](https://github.com/FarhadHosen101/PHP2Shell-CVE-2026-109619)
+- [WallcroftUK/CVE-2026-109619](https://github.com/WallcroftUK/CVE-2026-109619)
 
 ### CVE-2026-109721 (2026-10-13)
 
@@ -20325,6 +20383,14 @@
 </code>
 
 - [capivara-research/CVE-2026-110025](https://github.com/capivara-research/CVE-2026-110025)
+
+### CVE-2026-110264 (2026-10-22)
+
+<code>An issue has been discovered in GitLab CE/EE affecting all versions from 7.0 before 18.11.13, 19.0 before 19.0.10, 19.1 before 19.1.9, 19.2 before 19.2.9, 19.3 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server due to integer overflow when compiling a specially crafted regular expression.
+</code>
+
+- [TahuCryptsi/gitlab-onigmo-check](https://github.com/TahuCryptsi/gitlab-onigmo-check)
+- [TahuCryptsi/poc-gitlab-onigmo-cve-2026-110264](https://github.com/TahuCryptsi/poc-gitlab-onigmo-cve-2026-110264)
 
 ### CVE-2026-110372 (2026-10-18)
 
@@ -20407,13 +20473,20 @@
 
 - [Syscallh00k/CVE-2026-111444](https://github.com/Syscallh00k/CVE-2026-111444)
 
-### CVE-2026-111497
+### CVE-2026-111497 (2026-10-22)
+
+<code>A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.\n\n\n\n\n\nUsers need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1.
+</code>
+
 - [CaterMaoZi/CVE-2026-111497-POC](https://github.com/CaterMaoZi/CVE-2026-111497-POC)
 - [dimasma0305/CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC)
 - [Sami-AlEsh/nodejs-security-check](https://github.com/Sami-AlEsh/nodejs-security-check)
 - [hypnguyen1209/CVE-2026-111497](https://github.com/hypnguyen1209/CVE-2026-111497)
 - [AdapptOnAzure/cve-2026-111497-mitigation](https://github.com/AdapptOnAzure/cve-2026-111497-mitigation)
 - [TahuCryptsi/node-brotli-check](https://github.com/TahuCryptsi/node-brotli-check)
+- [incu-tech/october-cyber-family](https://github.com/incu-tech/october-cyber-family)
+- [TheFool-TAROT/CVE-2026-111497-brotli-pwn](https://github.com/TheFool-TAROT/CVE-2026-111497-brotli-pwn)
+- [ikow/brotli2crash](https://github.com/ikow/brotli2crash)
 
 ### CVE-2026-111770
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
@@ -20433,6 +20506,7 @@
 - [phpc0de/CVE-2026-111943-Remediator](https://github.com/phpc0de/CVE-2026-111943-Remediator)
 - [majiayu000/trustsweep](https://github.com/majiayu000/trustsweep)
 - [BlackthornYugen/tiny-key-s-server](https://github.com/BlackthornYugen/tiny-key-s-server)
+- [andersundsehr/ca-trust-audit](https://github.com/andersundsehr/ca-trust-audit)
 
 ### CVE-2026-112071 (2026-10-20)
 
@@ -21387,6 +21461,7 @@
 
 - [NikolajSchlej/Hydroph0bia](https://github.com/NikolajSchlej/Hydroph0bia)
 - [TheMalwareGuardian/CVE-2025-4275](https://github.com/TheMalwareGuardian/CVE-2025-4275)
+- [Dorlander/hydrophobia-scanner](https://github.com/Dorlander/hydrophobia-scanner)
 
 ### CVE-2025-4321 (2025-11-17)
 
@@ -22956,6 +23031,7 @@
 
 - [HORKimhab/CVE-2025-9974](https://github.com/HORKimhab/CVE-2025-9974)
 - [xxs-2/Beacon10-Getshell](https://github.com/xxs-2/Beacon10-Getshell)
+- [Rajdave69/CVE-2025-9974](https://github.com/Rajdave69/CVE-2025-9974)
 
 ### CVE-2025-9983 (2025-09-22)
 
@@ -26118,6 +26194,7 @@
 - [vulnace/CVE-2025-29927](https://github.com/vulnace/CVE-2025-29927)
 - [sungue1/CVE-2025-29927](https://github.com/sungue1/CVE-2025-29927)
 - [gadaugherty/larkspur-billing](https://github.com/gadaugherty/larkspur-billing)
+- [mcpmark-eval-liuhezi/cve-2025-29927-audit](https://github.com/mcpmark-eval-liuhezi/cve-2025-29927-audit)
 
 ### CVE-2025-29943 (2026-01-16)
 
@@ -32885,7 +32962,6 @@
 <code>Critical XXE in Apache Tika tika-core (1.13-3.2.1), tika-pdf-module (2.0.0-3.2.1) and tika-parsers (1.13-1.28.5) modules on all platforms allows an attacker to carry out XML External Entity injection via a crafted XFA file inside of a PDF. \n\nThis CVE covers the same vulnerability as in CVE-2025-54988. However, this CVE expands the scope of affected packages in two ways. \n\nFirst, while the entrypoint for the vulnerability was the tika-parser-pdf-module as reported in CVE-2025-54988, the vulnerability and its fix were in tika-core. Users who upgraded the tika-parser-pdf-module but did not upgrade tika-core to &gt;= 3.2.2 would still be vulnerable. \n\nSecond, the original report failed to mention that in the 1.x Tika releases, the PDFParser was in the &quot;org.apache.tika:tika-parsers&quot; module.
 </code>
 
-- [yunatamos/Blackash-CVE-2025-66516](https://github.com/yunatamos/Blackash-CVE-2025-66516)
 - [chasingimpact/CVE-2025-66516-Writeup-POC](https://github.com/chasingimpact/CVE-2025-66516-Writeup-POC)
 - [sid6224/CVE-2025-66516-POC](https://github.com/sid6224/CVE-2025-66516-POC)
 - [intSheep/Tika-CVE-2025-66516-Lab](https://github.com/intSheep/Tika-CVE-2025-66516-Lab)
@@ -37502,7 +37578,6 @@
 </code>
 
 - [lcfr-hax/CVE-2024-14027_slop](https://github.com/lcfr-hax/CVE-2024-14027_slop)
-- [lcfr-eth/CVE-2024-14027_slop](https://github.com/lcfr-eth/CVE-2024-14027_slop)
 
 ### CVE-2024-20017 (2024-03-04)
 
@@ -37946,7 +38021,7 @@
 
 ### CVE-2024-21762 (2024-02-09)
 
-<code>A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests
+<code>A out-of-bounds write vulnerability in Fortinet FortiOS 7.4.0 through 7.4.2, FortiOS 7.2.0 through 7.2.6, FortiOS 7.0.0 through 7.0.13, FortiOS 6.4.0 through 6.4.14, FortiOS 6.2.0 through 6.2.15, FortiOS 6.0 all versions, FortiProxy 7.4.0 through 7.4.2, FortiProxy 7.2.0 through 7.2.8, FortiProxy 7.0.0 through 7.0.14, FortiProxy 2.0.0 through 2.0.13, FortiProxy 01.02 all versions, FortiProxy 1.2 all versions, FortiProxy 01.01 all versions, FortiProxy 1.1 all versions, FortiProxy 01.00 all versions allows attacker to execute unauthorized code or commands via specifically crafted requests
 </code>
 
 - [BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check)
@@ -40033,6 +40108,13 @@
 </code>
 
 - [absholi7ly/Microsoft-Edge-Information-Disclosure](https://github.com/absholi7ly/Microsoft-Edge-Information-Disclosure)
+
+### CVE-2024-30084 (2024-06-11)
+
+<code>Windows Kernel-Mode Driver Elevation of Privilege Vulnerability
+</code>
+
+- [m01000xd/CVE-2024-30084](https://github.com/m01000xd/CVE-2024-30084)
 
 ### CVE-2024-30085 (2024-06-11)
 
@@ -50140,7 +50222,6 @@
 - [void0red/CVE-2023-32233](https://github.com/void0red/CVE-2023-32233)
 - [Destawell/gemini-2.5-pro-nf-tables-red-teaming](https://github.com/Destawell/gemini-2.5-pro-nf-tables-red-teaming)
 - [Destawell/gemini-2.5-pro-nf-tables-red-teamin](https://github.com/Destawell/gemini-2.5-pro-nf-tables-red-teamin)
-- [adeadukagi/CVE-2023-32233-reproduction](https://github.com/adeadukagi/CVE-2023-32233-reproduction)
 
 ### CVE-2023-32235 (2023-05-05)
 
@@ -68994,7 +69075,6 @@
 - [ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux](https://github.com/ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux)
 - [monke443/CVE-2021-43798](https://github.com/monke443/CVE-2021-43798)
 - [suljov/Grafana-LFI-exploit](https://github.com/suljov/Grafana-LFI-exploit)
-- [elsanose01/CVE-2021-43798-Grafana-path-traversal-tester](https://github.com/elsanose01/CVE-2021-43798-Grafana-path-traversal-tester)
 - [0xf3d0rq/CVE-2021-43798](https://github.com/0xf3d0rq/CVE-2021-43798)
 - [Strikoder-Premium/Grafana-Password-Decryptor](https://github.com/Strikoder-Premium/Grafana-Password-Decryptor)
 - [baktistr/cve-2021-43798-enum](https://github.com/baktistr/cve-2021-43798-enum)
@@ -69616,6 +69696,7 @@
 - [mcpmark-eval-liuhezi/log4shell-audit-1](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-1)
 - [mcpmark-eval-liuhezi/log4shell-audit-lab](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-lab)
 - [mcpmark-eval-liuhezi/log4shell-research-brief](https://github.com/mcpmark-eval-liuhezi/log4shell-research-brief)
+- [mcpmark-eval-liuhezi/log4shell-demo](https://github.com/mcpmark-eval-liuhezi/log4shell-demo)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -71481,6 +71562,13 @@
 - [silentsignal/WebSphere-WSIF-gadget](https://github.com/silentsignal/WebSphere-WSIF-gadget)
 - [yonggui-li/CVE-2020-4464-and-CVE-2020-4450](https://github.com/yonggui-li/CVE-2020-4464-and-CVE-2020-4450)
 
+### CVE-2020-4949 (2021-01-26)
+
+<code>IBM WebSphere Application Server 7.0, 8.0, 8.5, and 9.0 is vulnerable to an XML External Entity Injection (XXE) attack when processing XML data. A remote attacker could exploit this vulnerability to expose sensitive information or consume memory resources. IBM X-Force ID: 192025.
+</code>
+
+- [Anuhimen/CVE-2020-4949-Analysis](https://github.com/Anuhimen/CVE-2020-4949-Analysis)
+
 ### CVE-2020-5014 (2021-03-08)
 
 <code>IBM DataPower Gateway V10 and V2018 could allow a local attacker with administrative privileges to execute arbitrary code on the system using a server-side requesr forgery attack. IBM X-Force ID: 193247.
@@ -72129,6 +72217,13 @@
 - [Zeop-CyberSec/citrix_adc_netscaler_lfi](https://github.com/Zeop-CyberSec/citrix_adc_netscaler_lfi)
 - [PR3R00T/CVE-2020-8193-Citrix-Scanner](https://github.com/PR3R00T/CVE-2020-8193-Citrix-Scanner)
 - [ctlyz123/CVE-2020-8193](https://github.com/ctlyz123/CVE-2020-8193)
+
+### CVE-2020-8203 (2020-07-15)
+
+<code>Prototype pollution attack when using _.zipObjectDeep in lodash before 4.17.20.
+</code>
+
+- [mcpmark-eval-liuhezi/audit-cve-2020-8203](https://github.com/mcpmark-eval-liuhezi/audit-cve-2020-8203)
 
 ### CVE-2020-8209 (2020-08-17)
 
@@ -75969,6 +76064,13 @@
 - [1135/solr_exploit](https://github.com/1135/solr_exploit)
 - [jaychouzzk/CVE-2019-0193-exp](https://github.com/jaychouzzk/CVE-2019-0193-exp)
 - [freeFV/ApacheSolrRCE](https://github.com/freeFV/ApacheSolrRCE)
+
+### CVE-2019-0205 (2019-10-28)
+
+<code>In Apache Thrift all versions up to and including 0.12.0, a server or client may run into an endless loop when feed with specific input data. Because the issue had already been partially fixed in version 0.11.0, depending on the installed version it affects only certain language bindings.
+</code>
+
+- [cgarrot/echo-dot-3-doebrite-research](https://github.com/cgarrot/echo-dot-3-doebrite-research)
 
 ### CVE-2019-0207 (2019-09-16)
 
@@ -81786,6 +81888,7 @@
 - [K52-ai/CVE-2018-7600](https://github.com/K52-ai/CVE-2018-7600)
 - [CyberCTF/vulhub-drupal-cve-2018-7600](https://github.com/CyberCTF/vulhub-drupal-cve-2018-7600)
 - [SanCody/DC1-Penetration-Testing-Report](https://github.com/SanCody/DC1-Penetration-Testing-Report)
+- [Alexnpc18/Drupalgeddon2-python](https://github.com/Alexnpc18/Drupalgeddon2-python)
 
 ### CVE-2018-7602 (2018-07-19)
 
