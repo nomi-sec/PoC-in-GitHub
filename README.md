@@ -15112,6 +15112,9 @@
 
 - [diedromeo/CVE-2026-62201-OpenClaw-SSRF](https://github.com/diedromeo/CVE-2026-62201-OpenClaw-SSRF)
 
+### CVE-2026-62356
+- [zsy-arch/CVE-2026-62356-POC](https://github.com/zsy-arch/CVE-2026-62356-POC)
+
 ### CVE-2026-62735 (2026-08-11)
 
 <code>Heap-based buffer overflow in Windows HTTP.sys allows an authorized attacker to elevate privileges locally.
@@ -15259,6 +15262,7 @@
 - [AnggaTechI/CVE-2026-63077](https://github.com/AnggaTechI/CVE-2026-63077)
 - [bakos-sandor-nx/teamcity-cve-2026-63077-remediation](https://github.com/bakos-sandor-nx/teamcity-cve-2026-63077-remediation)
 - [0xCyp1337/CVE-2026-63077](https://github.com/0xCyp1337/CVE-2026-63077)
+- [basesixtythree/B63-POC-CVE-2026-63077](https://github.com/basesixtythree/B63-POC-CVE-2026-63077)
 
 ### CVE-2026-63223 (2026-07-31)
 
@@ -18052,7 +18056,7 @@
 <code>In JetBrains YouTrack before 2025.3.161254, \n2026.1.14042 improper authentication in YouTrack Helpdesk allowed unauthenticated account takeover via a self-asserted email address
 </code>
 
-- [LHeiakim/CVE-2026-86478](https://github.com/LHeiakim/CVE-2026-86478)
+- [LHeiakim/CVE-2026-86478-PoC](https://github.com/LHeiakim/CVE-2026-86478-PoC)
 
 ### CVE-2026-86547 (2026-09-09)
 
@@ -18699,6 +18703,13 @@
 - [HackSpeak/CVE-2026-93958](https://github.com/HackSpeak/CVE-2026-93958)
 - [murrez/CVE-2026-93958](https://github.com/murrez/CVE-2026-93958)
 
+### CVE-2026-94000 (2026-09-19)
+
+<code>A flaw was found in the Admin REST API of Keycloak, an open-source identity and access management solution. The issue occurs in the group-membership endpoints where the system fails to check if a group grants administrative privileges before allowing a user to be added. This allows a delegated administrator with limited permissions to add themselves to a high-privilege group, potentially gaining full control over the entire realm.
+</code>
+
+- [SecFathy/KeycloakESC](https://github.com/SecFathy/KeycloakESC)
+
 ### CVE-2026-94036 (2026-09-20)
 
 <code>A security flaw has been discovered in D-Link DIR-X1860 and DIR-X1860Z up to 1.0.2.220120.165402. The impacted element is an unknown function of the file /ubus of the component routerd. The manipulation of the argument passwd_set results in improper access controls. The attack must originate from the local network. The exploit has been released to the public and may be used for attacks.
@@ -19340,6 +19351,13 @@
 
 - [murrez/CVE-2026-102782](https://github.com/murrez/CVE-2026-102782)
 
+### CVE-2026-102785 (2026-10-22)
+
+<code>Joomla Extension - yootheme.com - Unauthenticated remote code execution in YOOtheme Pro 5.0.0-5.0.52 - YOOtheme Pro’s publicly accessible image transformation handler incompletely binds normalized image operations and the output destination to its request signature. An unauthenticated remote attacker can reuse a signature disclosed in a legitimate public image URL, inject additional image operations, traverse out of the intended cache directory, and write an attacker-controlled PNG/PHP polyglot to an executable public media directory.
+</code>
+
+- [BIBILZERODAY/CVE-2026-102785---YooTheme-Mass-Exploit-Webshell.Store-](https://github.com/BIBILZERODAY/CVE-2026-102785---YooTheme-Mass-Exploit-Webshell.Store-)
+
 ### CVE-2026-102827 (2026-09-29)
 
 <code>simple-git, an interface for running git commands in any node.js application, enables applications to execute Git operations from JavaScript. Prior to 4.0.0, the default blockUnsafeOperationsPlugin compares parsed option names with literal dangerous option spellings while Git accepts unambiguous long-option abbreviations. Attacker-influenced push arguments such as abbreviated --receive-pack or --exec forms can therefore bypass detectVulnerableFlags, reach git push against a local or file remote or an attacker-influenced receive-pack target, and cause Git to invoke an attacker-selected command in consumers that expose those arguments. The clone-side abbreviation handling does not protect the push path. This issue is fixed in 4.0.0.
@@ -19620,6 +19638,7 @@
 - [ApexBreach/CVE-2026-104935-Proof-of-concept](https://github.com/ApexBreach/CVE-2026-104935-Proof-of-concept)
 - [0x45dd/ivanti-cve-2026-104935-check](https://github.com/0x45dd/ivanti-cve-2026-104935-check)
 - [maxprog-svg/CVE-2026-104935](https://github.com/maxprog-svg/CVE-2026-104935)
+- [Bluefire-Redteam-Cybersecurity/bluefire-ivanti-ics-guard](https://github.com/Bluefire-Redteam-Cybersecurity/bluefire-ivanti-ics-guard)
 
 ### CVE-2026-104944 (2026-10-06)
 
@@ -20005,6 +20024,7 @@
 - [Chrishow2/php74-apache-sury](https://github.com/Chrishow2/php74-apache-sury)
 - [jsrobinson3/php74-focal-cve-2026-109618](https://github.com/jsrobinson3/php74-focal-cve-2026-109618)
 - [julio-romo-muninn/PHP2SHELL](https://github.com/julio-romo-muninn/PHP2SHELL)
+- [anmolksachan/php2shell](https://github.com/anmolksachan/php2shell)
 - [WeMakeGood/php2shell](https://github.com/WeMakeGood/php2shell)
 - [scadastrangelove/php2shell](https://github.com/scadastrangelove/php2shell)
 - [josemingorance/php74-php2shell-backport-docker](https://github.com/josemingorance/php74-php2shell-backport-docker)
@@ -20119,6 +20139,7 @@
 - [nanoarmando/php-focal-backports](https://github.com/nanoarmando/php-focal-backports)
 - [thegillion/uisp-php2shell-guard](https://github.com/thegillion/uisp-php2shell-guard)
 - [bee7813993/xampp-security-update](https://github.com/bee7813993/xampp-security-update)
+- [securibee/php2shell-tenable-skill](https://github.com/securibee/php2shell-tenable-skill)
 - [solymx/php-cve-2026-research](https://github.com/solymx/php-cve-2026-research)
 - [yanzyuyu/phptshell](https://github.com/yanzyuyu/phptshell)
 - [LightSpeedC/20261022-research-php-cve](https://github.com/LightSpeedC/20261022-research-php-cve)
@@ -20151,6 +20172,7 @@
 - [segfo/php2shell-poc](https://github.com/segfo/php2shell-poc)
 - [Evil0ctal/php2shell-scanner](https://github.com/Evil0ctal/php2shell-scanner)
 - [ansonhsu-ai/php2shell-cve-2026-109618-ste](https://github.com/ansonhsu-ai/php2shell-cve-2026-109618-ste)
+- [l3tchupkt/php2shell](https://github.com/l3tchupkt/php2shell)
 - [adityaaravind/php2shell-check](https://github.com/adityaaravind/php2shell-check)
 - [open0x01/php2shell](https://github.com/open0x01/php2shell)
 - [UrsusMagus/php74-windows-security-build](https://github.com/UrsusMagus/php74-windows-security-build)
@@ -20162,7 +20184,7 @@
 - [AIjennings/ariawave-php2shell-scanner](https://github.com/AIjennings/ariawave-php2shell-scanner)
 - [TheMursalin/CVE-2026-109618](https://github.com/TheMursalin/CVE-2026-109618)
 - [alham-rizvi/php2shell-scanner](https://github.com/alham-rizvi/php2shell-scanner)
-- [Sanal-Lince/PHP-Shell-v0.1](https://github.com/Sanal-Lince/PHP-Shell-v0.1)
+- [Sanal-Lince/PHP-Shell-v0.3](https://github.com/Sanal-Lince/PHP-Shell-v0.3)
 - [g41277460-cpu/CVE-2026-109618-CVE-2026-109619-php2shell-](https://github.com/g41277460-cpu/CVE-2026-109618-CVE-2026-109619-php2shell-)
 - [mbelsis/php2shell_scan](https://github.com/mbelsis/php2shell_scan)
 - [pattingbabies/php2shell-CVE-2026-109618-109619](https://github.com/pattingbabies/php2shell-CVE-2026-109618-109619)
@@ -20192,11 +20214,85 @@
 - [nwfella/php2shell-advisory](https://github.com/nwfella/php2shell-advisory)
 - [suleymanpetek/shadowphp](https://github.com/suleymanpetek/shadowphp)
 - [llrrzz-111/php2shell-guard](https://github.com/llrrzz-111/php2shell-guard)
+- [bagsiz/focal-php74-security](https://github.com/bagsiz/focal-php74-security)
 - [ITlusions/ITL.PHP2Shell.Hardening](https://github.com/ITlusions/ITL.PHP2Shell.Hardening)
 - [jejex0/php2shell-scanner](https://github.com/jejex0/php2shell-scanner)
 - [covertswarmlabs/PHP2Shell-Check](https://github.com/covertswarmlabs/PHP2Shell-Check)
 - [shivabalaj/CVE-2026-109618](https://github.com/shivabalaj/CVE-2026-109618)
 - [BenFerguson310/Cloudflare-PHP2shell-Detections](https://github.com/BenFerguson310/Cloudflare-PHP2shell-Detections)
+- [larsactionhero/php-patch-check](https://github.com/larsactionhero/php-patch-check)
+- [ruban-s/php-8.1-windows-security](https://github.com/ruban-s/php-8.1-windows-security)
+- [LeminEly/CVE-2026-109618-109619](https://github.com/LeminEly/CVE-2026-109618-109619)
+- [JumpsecLabs/phpocalypse](https://github.com/JumpsecLabs/phpocalypse)
+- [fardinbarashi/PHP-CVE-2026-109618-and-CVE-2026-109619](https://github.com/fardinbarashi/PHP-CVE-2026-109618-and-CVE-2026-109619)
+- [Julien-TrentAI/php2shell-trent-fixture](https://github.com/Julien-TrentAI/php2shell-trent-fixture)
+- [rmnelson/php-5.3.29-cve-2026-109618-109619](https://github.com/rmnelson/php-5.3.29-cve-2026-109618-109619)
+- [latadeloco/agent-php2shell](https://github.com/latadeloco/agent-php2shell)
+- [leonlai-tw/php-eol-cve-2026-109618-109619](https://github.com/leonlai-tw/php-eol-cve-2026-109618-109619)
+- [mekhalleh/php2shell-advisory](https://github.com/mekhalleh/php2shell-advisory)
+- [mspiq/php2shell-scanner](https://github.com/mspiq/php2shell-scanner)
+- [h3r2ym/Check-PHP-Docker-CVE-2026-109618---109619](https://github.com/h3r2ym/Check-PHP-Docker-CVE-2026-109618---109619)
+- [securin-public/php2shell-checker](https://github.com/securin-public/php2shell-checker)
+- [ronoski/php2shell-detect](https://github.com/ronoski/php2shell-detect)
+- [violensoul/php2shell-sigma](https://github.com/violensoul/php2shell-sigma)
+- [runasy-koonta/php2shell-7.4.33-poc](https://github.com/runasy-koonta/php2shell-7.4.33-poc)
+- [CVEChecker26/dyd](https://github.com/CVEChecker26/dyd)
+- [hugo8xx/php2shell-waf](https://github.com/hugo8xx/php2shell-waf)
+- [alibanhakeia2018/malac-php-image](https://github.com/alibanhakeia2018/malac-php-image)
+- [Bluefire-Redteam-Cybersecurity/bluefire-php2shell-guard](https://github.com/Bluefire-Redteam-Cybersecurity/bluefire-php2shell-guard)
+- [gei-git/php2shell-poc](https://github.com/gei-git/php2shell-poc)
+- [acronet-fr/windows-security-builds-for-php](https://github.com/acronet-fr/windows-security-builds-for-php)
+- [KadkinRoman/php84-migration-report](https://github.com/KadkinRoman/php84-migration-report)
+- [SanWRoot/php2shell-LAB-POC-](https://github.com/SanWRoot/php2shell-LAB-POC-)
+- [dustyFski/php2shell-exposure-accelerator](https://github.com/dustyFski/php2shell-exposure-accelerator)
+- [cred0core/Sigma-rule-CVE-2026-109618](https://github.com/cred0core/Sigma-rule-CVE-2026-109618)
+- [shivrajem/php2shell-detect](https://github.com/shivrajem/php2shell-detect)
+- [SmR492/php-7.2-CVE-2026-109618-109619](https://github.com/SmR492/php-7.2-CVE-2026-109618-109619)
+- [SmR492/php-7.3-CVE-2026-109618-109619](https://github.com/SmR492/php-7.3-CVE-2026-109618-109619)
+- [bashclub/php2shell-forensic-check](https://github.com/bashclub/php2shell-forensic-check)
+- [5WARM-AI/php2shell-check](https://github.com/5WARM-AI/php2shell-check)
+- [aancw/php2shell-scanner](https://github.com/aancw/php2shell-scanner)
+- [kamibutt143/php-7.3-php2shell-backport](https://github.com/kamibutt143/php-7.3-php2shell-backport)
+- [JackLiKa/php2shell-scan](https://github.com/JackLiKa/php2shell-scan)
+- [goodBoysss/php70-security-backport](https://github.com/goodBoysss/php70-security-backport)
+- [Py0x11/php2shell-detection](https://github.com/Py0x11/php2shell-detection)
+- [krisztianhari-wq/php2shell-scan](https://github.com/krisztianhari-wq/php2shell-scan)
+- [Arwy07/php2shell-remediation-guide](https://github.com/Arwy07/php2shell-remediation-guide)
+- [anthonyhann/php-crisis-toolkit](https://github.com/anthonyhann/php-crisis-toolkit)
+- [aledus10/PHP2Shell-Lab](https://github.com/aledus10/PHP2Shell-Lab)
+- [ChlodAlejandro/php8.5-armv6l-binaries](https://github.com/ChlodAlejandro/php8.5-armv6l-binaries)
+- [Daniel-wambua/php2shell-poc](https://github.com/Daniel-wambua/php2shell-poc)
+- [tobiastillstam/Scan-PHP2Shell](https://github.com/tobiastillstam/Scan-PHP2Shell)
+- [vitalelele/CVE-2026-109618-PoC](https://github.com/vitalelele/CVE-2026-109618-PoC)
+- [GlobalsecureAcademy/php2shell-scanner-CVE-2026-109618-CVE-2026-109619-](https://github.com/GlobalsecureAcademy/php2shell-scanner-CVE-2026-109618-CVE-2026-109619-)
+- [emphereio/php-eol-backports](https://github.com/emphereio/php-eol-backports)
+- [mrmtwoj/php-cve-2026-109618-fixer](https://github.com/mrmtwoj/php-cve-2026-109618-fixer)
+- [rpersak/php2shell_check](https://github.com/rpersak/php2shell_check)
+- [baron-stybd/CVE-2026-109618-CVE-2026-109619](https://github.com/baron-stybd/CVE-2026-109618-CVE-2026-109619)
+- [bagsiz/el7-php74-security](https://github.com/bagsiz/el7-php74-security)
+- [Marciano-Morinigo/php2shell-CVE-2026-109618-CVE-2026-109619-PoC-Lab](https://github.com/Marciano-Morinigo/php2shell-CVE-2026-109618-CVE-2026-109619-PoC-Lab)
+- [waqas578/Plymouth-Retail-Ltd.---PHP2Shell-Vulnerability-Incident-Remediation-Report](https://github.com/waqas578/Plymouth-Retail-Ltd.---PHP2Shell-Vulnerability-Incident-Remediation-Report)
+- [r0x43g/php2shell-vendor-watch](https://github.com/r0x43g/php2shell-vendor-watch)
+- [eagle1maledetto/php5.6-wheezy-cve-2026-109618](https://github.com/eagle1maledetto/php5.6-wheezy-cve-2026-109618)
+- [ZeroHackOrg/php2shell-poc](https://github.com/ZeroHackOrg/php2shell-poc)
+- [jeffreyesdavid/php-guardian](https://github.com/jeffreyesdavid/php-guardian)
+- [LHeiakim/php2shell-full-poc](https://github.com/LHeiakim/php2shell-full-poc)
+- [rajasekharponakala/php2shell-brief](https://github.com/rajasekharponakala/php2shell-brief)
+- [moorwald/mautic4-legacy](https://github.com/moorwald/mautic4-legacy)
+- [netbadgersltd/php72u-build](https://github.com/netbadgersltd/php72u-build)
+- [0xgetz/php2shell](https://github.com/0xgetz/php2shell)
+- [manshoor/php2shell-scanner](https://github.com/manshoor/php2shell-scanner)
+- [psylinux/php2shell-check](https://github.com/psylinux/php2shell-check)
+- [Jamsux/php2shell-check](https://github.com/Jamsux/php2shell-check)
+- [imhyunho99/php2shell-shield](https://github.com/imhyunho99/php2shell-shield)
+- [jaba0x/php2shell-guard](https://github.com/jaba0x/php2shell-guard)
+- [maxprog-svg/PHP2Shell-CVE-2026-109618-CVE-2026-109619](https://github.com/maxprog-svg/PHP2Shell-CVE-2026-109618-CVE-2026-109619)
+- [coldcain-sec/php2shell-checker](https://github.com/coldcain-sec/php2shell-checker)
+- [nft-syou/php-5.4.45-php2shell-patch](https://github.com/nft-syou/php-5.4.45-php2shell-patch)
+- [RobertoCifre/php2shell-check](https://github.com/RobertoCifre/php2shell-check)
+- [TheFool-TAROT/php2shell-lab](https://github.com/TheFool-TAROT/php2shell-lab)
+- [nicolascoculuzzi/patched](https://github.com/nicolascoculuzzi/patched)
+- [Trupal25/php2shell-audit](https://github.com/Trupal25/php2shell-audit)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -20213,6 +20309,8 @@
 - [basesixtythree/B63-POC-CVE-2026-109619](https://github.com/basesixtythree/B63-POC-CVE-2026-109619)
 - [VKKKV/php2shell-exp](https://github.com/VKKKV/php2shell-exp)
 - [baimaobg/php-cve-2026-109619-lab](https://github.com/baimaobg/php-cve-2026-109619-lab)
+- [Prajjwal-Srivastava/php2shell_scanner](https://github.com/Prajjwal-Srivastava/php2shell_scanner)
+- [RuanSerraAzul/CVE-2026-109619-POC](https://github.com/RuanSerraAzul/CVE-2026-109619-POC)
 
 ### CVE-2026-109721 (2026-10-13)
 
@@ -20313,6 +20411,9 @@
 - [CaterMaoZi/CVE-2026-111497-POC](https://github.com/CaterMaoZi/CVE-2026-111497-POC)
 - [dimasma0305/CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC)
 - [Sami-AlEsh/nodejs-security-check](https://github.com/Sami-AlEsh/nodejs-security-check)
+- [hypnguyen1209/CVE-2026-111497](https://github.com/hypnguyen1209/CVE-2026-111497)
+- [AdapptOnAzure/cve-2026-111497-mitigation](https://github.com/AdapptOnAzure/cve-2026-111497-mitigation)
+- [TahuCryptsi/node-brotli-check](https://github.com/TahuCryptsi/node-brotli-check)
 
 ### CVE-2026-111770
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
@@ -20330,6 +20431,8 @@
 </code>
 
 - [phpc0de/CVE-2026-111943-Remediator](https://github.com/phpc0de/CVE-2026-111943-Remediator)
+- [majiayu000/trustsweep](https://github.com/majiayu000/trustsweep)
+- [BlackthornYugen/tiny-key-s-server](https://github.com/BlackthornYugen/tiny-key-s-server)
 
 ### CVE-2026-112071 (2026-10-20)
 
@@ -29567,7 +29670,7 @@
 - [foregenix/CVE-2025-54309](https://github.com/foregenix/CVE-2025-54309)
 - [whisperer1290/CVE-2025-54309__Enhanced_exploit](https://github.com/whisperer1290/CVE-2025-54309__Enhanced_exploit)
 - [chin-tech/CrushFTP_CVE-2025-54309](https://github.com/chin-tech/CrushFTP_CVE-2025-54309)
-- [Smileyface101/CrushFTP-AS2-Bypass-Research-CVE-2025-54309](https://github.com/Smileyface101/CrushFTP-AS2-Bypass-Research-CVE-2025-54309)
+- [Goodworkid0/CrushFTP-AS2-Bypass-Research-CVE-2025-54309](https://github.com/Goodworkid0/CrushFTP-AS2-Bypass-Research-CVE-2025-54309)
 - [0xLittleSpidy/CVE-2025-54309](https://github.com/0xLittleSpidy/CVE-2025-54309)
 
 ### CVE-2025-54313 (2025-07-19)
@@ -30293,6 +30396,7 @@
 - [M4rc3l08/ReactorWriteUp-HackTheBox](https://github.com/M4rc3l08/ReactorWriteUp-HackTheBox)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2025-55182-React2Shell](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2025-55182-React2Shell)
 - [0xRAM-bit/CVE-2025-55182](https://github.com/0xRAM-bit/CVE-2025-55182)
+- [manshoor/php2shell-scanner](https://github.com/manshoor/php2shell-scanner)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -32781,6 +32885,7 @@
 <code>Critical XXE in Apache Tika tika-core (1.13-3.2.1), tika-pdf-module (2.0.0-3.2.1) and tika-parsers (1.13-1.28.5) modules on all platforms allows an attacker to carry out XML External Entity injection via a crafted XFA file inside of a PDF. \n\nThis CVE covers the same vulnerability as in CVE-2025-54988. However, this CVE expands the scope of affected packages in two ways. \n\nFirst, while the entrypoint for the vulnerability was the tika-parser-pdf-module as reported in CVE-2025-54988, the vulnerability and its fix were in tika-core. Users who upgraded the tika-parser-pdf-module but did not upgrade tika-core to &gt;= 3.2.2 would still be vulnerable. \n\nSecond, the original report failed to mention that in the 1.x Tika releases, the PDFParser was in the &quot;org.apache.tika:tika-parsers&quot; module.
 </code>
 
+- [yunatamos/Blackash-CVE-2025-66516](https://github.com/yunatamos/Blackash-CVE-2025-66516)
 - [chasingimpact/CVE-2025-66516-Writeup-POC](https://github.com/chasingimpact/CVE-2025-66516-Writeup-POC)
 - [sid6224/CVE-2025-66516-POC](https://github.com/sid6224/CVE-2025-66516-POC)
 - [intSheep/Tika-CVE-2025-66516-Lab](https://github.com/intSheep/Tika-CVE-2025-66516-Lab)
@@ -41101,6 +41206,7 @@
 - [DanieleGiovanardi2408/cve-2024-36401-geoserver-rce](https://github.com/DanieleGiovanardi2408/cve-2024-36401-geoserver-rce)
 - [keelanbrady1011/CVE-2024-36401](https://github.com/keelanbrady1011/CVE-2024-36401)
 - [raniaemran/cve-2024-36401-security-simulator](https://github.com/raniaemran/cve-2024-36401-security-simulator)
+- [basesixtythree/B63-POC-CVE-2024-36401](https://github.com/basesixtythree/B63-POC-CVE-2024-36401)
 
 ### CVE-2024-36416 (2024-06-10)
 
@@ -42495,6 +42601,13 @@
 - [v9d0g/CVE-2024-43044-POC](https://github.com/v9d0g/CVE-2024-43044-POC)
 - [convisolabs/CVE-2024-43044-jenkins](https://github.com/convisolabs/CVE-2024-43044-jenkins)
 - [DACC4/CVE-2024-43044-jenkins-creds](https://github.com/DACC4/CVE-2024-43044-jenkins-creds)
+
+### CVE-2024-43093 (2024-11-13)
+
+<code>In shouldHideDocument of ExternalStorageProvider.java, there is a possible bypass of a file path filter designed to prevent access to sensitive directories due to  incorrect unicode normalization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.
+</code>
+
+- [xiaoxiaoyu78/gki-unicode-fix](https://github.com/xiaoxiaoyu78/gki-unicode-fix)
 
 ### CVE-2024-43160 (2024-08-13)
 
@@ -53665,6 +53778,7 @@
 - [Bhanunamikaze/ActiveMQ-CVE-2023-46604](https://github.com/Bhanunamikaze/ActiveMQ-CVE-2023-46604)
 - [CyberCTF/vulhub-activemq-cve-2023-46604](https://github.com/CyberCTF/vulhub-activemq-cve-2023-46604)
 - [Theocyg/CVE-2023-46604](https://github.com/Theocyg/CVE-2023-46604)
+- [basesixtythree/B63-POC-CVE-2023-46604](https://github.com/basesixtythree/B63-POC-CVE-2023-46604)
 
 ### CVE-2023-46615 (2024-02-12)
 
@@ -69501,6 +69615,7 @@
 - [dave-ojumoola/CYB-401-CVE-2021-44228-Log4Shell](https://github.com/dave-ojumoola/CYB-401-CVE-2021-44228-Log4Shell)
 - [mcpmark-eval-liuhezi/log4shell-audit-1](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-1)
 - [mcpmark-eval-liuhezi/log4shell-audit-lab](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-lab)
+- [mcpmark-eval-liuhezi/log4shell-research-brief](https://github.com/mcpmark-eval-liuhezi/log4shell-research-brief)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -92677,7 +92792,6 @@
 
 - [threatlabindonesia/CVE-1999-0524-ICMP-Timestamp-and-Address-Mask-Request-Exploit](https://github.com/threatlabindonesia/CVE-1999-0524-ICMP-Timestamp-and-Address-Mask-Request-Exploit)
 - [Ransc0rp1on/ICMP-Timestamp-POC](https://github.com/Ransc0rp1on/ICMP-Timestamp-POC)
-- [b1tsec/CVE-1999-0524](https://github.com/b1tsec/CVE-1999-0524)
 - [biontdv/CVE-1999-0524-POC](https://github.com/biontdv/CVE-1999-0524-POC)
 
 ### CVE-1999-0532 (2000-02-04)
