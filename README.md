@@ -11642,7 +11642,6 @@
 - [a2333c/DFRoot](https://github.com/a2333c/DFRoot)
 - [ankitrawatgit/DirtyFrag-Android-Root-Jailbreak](https://github.com/ankitrawatgit/DirtyFrag-Android-Root-Jailbreak)
 - [HirokiAkihiko/dirtyfrag-research](https://github.com/HirokiAkihiko/dirtyfrag-research)
-- [ziachi/DirtyFrag](https://github.com/ziachi/DirtyFrag)
 - [RemiPelloux/GalaxyCrash](https://github.com/RemiPelloux/GalaxyCrash)
 
 ### CVE-2026-43494 (2026-05-21)
@@ -11833,6 +11832,7 @@
 - [wazzuj99-svg/Root-My-Galaxy](https://github.com/wazzuj99-svg/Root-My-Galaxy)
 - [WJNKAC/CVE-2026-43499-OPPO-A5-PBBT30](https://github.com/WJNKAC/CVE-2026-43499-OPPO-A5-PBBT30)
 - [k-o-n-t-o-r/ghostlock-sm-g990b](https://github.com/k-o-n-t-o-r/ghostlock-sm-g990b)
+- [BH3GEI/honor-aap-an00-root-skill](https://github.com/BH3GEI/honor-aap-an00-root-skill)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15034,6 +15034,7 @@
 
 - [FlowerWitch/CVE-2026-59774_docker](https://github.com/FlowerWitch/CVE-2026-59774_docker)
 - [asvorg/CVE-2026-59774-poc](https://github.com/asvorg/CVE-2026-59774-poc)
+- [Ly0kha/CVE-2026-59774](https://github.com/Ly0kha/CVE-2026-59774)
 
 ### CVE-2026-59822 (2026-07-08)
 
@@ -20163,6 +20164,9 @@
 
 - [Primandito/CVE-2026-107084](https://github.com/Primandito/CVE-2026-107084)
 
+### CVE-2026-107092
+- [raivenLockdown/CVE-2026-107092](https://github.com/raivenLockdown/CVE-2026-107092)
+
 ### CVE-2026-107159 (2026-10-07)
 
 <code>MiniUPnPd through 2.3.11 built with --strict contains a divide-by-zero vulnerability in ProcessSSDPData() that allows unauthenticated local network attackers to crash the daemon. Attackers can send a single multicast M-SEARCH datagram with MX: 0 and a known ST to port 1900, triggering SIGFPE and denying UPnP IGD service.
@@ -20698,6 +20702,7 @@
 - [scardotdev/php2shell-helper](https://github.com/scardotdev/php2shell-helper)
 - [RuanSerraAzul/CVE-2026-109618-POC](https://github.com/RuanSerraAzul/CVE-2026-109618-POC)
 - [logesh-GIT001/php2shell](https://github.com/logesh-GIT001/php2shell)
+- [nsrivastava2velsof/php56-php2shell-patch](https://github.com/nsrivastava2velsof/php56-php2shell-patch)
 - [toxy4ny/php2shell-checker](https://github.com/toxy4ny/php2shell-checker)
 - [ericmann/php2shell-ioc](https://github.com/ericmann/php2shell-ioc)
 - [errorfo/php2shell](https://github.com/errorfo/php2shell)
@@ -20779,7 +20784,6 @@
 - [nurlanchip/PHP2SHELL-POC-Lab-CVE-2026-109618-CVE-2026-109619](https://github.com/nurlanchip/PHP2SHELL-POC-Lab-CVE-2026-109618-CVE-2026-109619)
 - [gukHyeonGeum/cve-2026-109618-109619-el7](https://github.com/gukHyeonGeum/cve-2026-109618-109619-el7)
 - [joec4i/docker-library-php](https://github.com/joec4i/docker-library-php)
-- [Kyros0324/CVE2026](https://github.com/Kyros0324/CVE2026)
 - [alefkaue/php2shell-security-assessor](https://github.com/alefkaue/php2shell-security-assessor)
 - [MRdark-ops/php2shell](https://github.com/MRdark-ops/php2shell)
 - [ryuhaneul/php-el7-cve-2026-109618](https://github.com/ryuhaneul/php-el7-cve-2026-109618)
@@ -20859,6 +20863,7 @@
 - [ionsec/php2shell-detector](https://github.com/ionsec/php2shell-detector)
 - [segfaultx01/php2shell-pocJavali](https://github.com/segfaultx01/php2shell-pocJavali)
 - [Nguemoue/project2026_20261023_php_rce_guard](https://github.com/Nguemoue/project2026_20261023_php_rce_guard)
+- [jensb1/php-8.2.34-session-uaf-rce](https://github.com/jensb1/php-8.2.34-session-uaf-rce)
 - [Filipegabri/RodMapAuditoriaweb](https://github.com/Filipegabri/RodMapAuditoriaweb)
 - [pruthvi0820-cell/phpguard](https://github.com/pruthvi0820-cell/phpguard)
 - [ihsansencan/Php2Shell-Lab](https://github.com/ihsansencan/Php2Shell-Lab)
@@ -20872,10 +20877,21 @@
 - [ytbsamsu007/CVE-2026-109618-109619-Docker-Lab-Tutorial](https://github.com/ytbsamsu007/CVE-2026-109618-109619-Docker-Lab-Tutorial)
 - [intelliroot-tech/php2shell](https://github.com/intelliroot-tech/php2shell)
 - [abraxas/php-oom-longjmp](https://github.com/abraxas/php-oom-longjmp)
+- [hoed/php2shell](https://github.com/hoed/php2shell)
 - [DARKSTUFF-LAB/php2shell-poc](https://github.com/DARKSTUFF-LAB/php2shell-poc)
 - [kaaangumus/php2shell-kit](https://github.com/kaaangumus/php2shell-kit)
 - [vintage-alt/CVE-2026-109618-and-CVE-2026-109619-php2shell-burpproxy](https://github.com/vintage-alt/CVE-2026-109618-and-CVE-2026-109619-php2shell-burpproxy)
 - [googlesky/GHSA-w8hw-w9fx-j79w](https://github.com/googlesky/GHSA-w8hw-w9fx-j79w)
+- [h1-wh0areu/PHP-CVE-Scanner](https://github.com/h1-wh0areu/PHP-CVE-Scanner)
+- [arvion-ai/php-pins](https://github.com/arvion-ai/php-pins)
+- [seppegadeyne/php2shell-runcloud-builds](https://github.com/seppegadeyne/php2shell-runcloud-builds)
+- [abelncm/php2shell-claude-code-prompt](https://github.com/abelncm/php2shell-claude-code-prompt)
+- [zr0n/php2shell](https://github.com/zr0n/php2shell)
+- [zhuyihenzheng/php2shell-repro](https://github.com/zhuyihenzheng/php2shell-repro)
+- [Suman99pro/php2shell-check](https://github.com/Suman99pro/php2shell-check)
+- [bagsiz/el7-php71-security](https://github.com/bagsiz/el7-php71-security)
+- [CypherSecurity/php2shell-detection](https://github.com/CypherSecurity/php2shell-detection)
+- [87sunitasingh-droid/RHYTHM-SINGH](https://github.com/87sunitasingh-droid/RHYTHM-SINGH)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -20978,6 +20994,13 @@
 - [dreamfast/CVE-2026-110912](https://github.com/dreamfast/CVE-2026-110912)
 - [0xBlackash/CVE-2026-110912](https://github.com/0xBlackash/CVE-2026-110912)
 
+### CVE-2026-110922 (2026-10-15)
+
+<code>Use after free in Prerender in Google Chrome prior to 155.0.8059.84 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Critical)
+</code>
+
+- [VABISMO/chrome2shell](https://github.com/VABISMO/chrome2shell)
+
 ### CVE-2026-110936 (2026-10-15)
 
 <code>A vulnerability has been identified in Siemens Software Center (All versions &lt; V4.0.9.8). The affected application loads dynamic-link libraries (DLLs) from an uncontrolled search path. This could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application.
@@ -21038,6 +21061,7 @@
 - [TheFool-TAROT/CVE-2026-111497-brotli-pwn](https://github.com/TheFool-TAROT/CVE-2026-111497-brotli-pwn)
 - [ikow/brotli2crash](https://github.com/ikow/brotli2crash)
 - [Charlie-Netdevops/node-hostcheck](https://github.com/Charlie-Netdevops/node-hostcheck)
+- [datmt/emudhra-fix](https://github.com/datmt/emudhra-fix)
 - [duytien241/nodejs-CVE-2026-111497](https://github.com/duytien241/nodejs-CVE-2026-111497)
 - [shivrajem/node2shell-detect](https://github.com/shivrajem/node2shell-detect)
 - [TahuCryptsi/brotli-distro-check](https://github.com/TahuCryptsi/brotli-distro-check)
@@ -21053,6 +21077,10 @@
 - [Blackman99/lotstamp](https://github.com/Blackman99/lotstamp)
 - [mahumadad/CVE-2026-111497-assessment](https://github.com/mahumadad/CVE-2026-111497-assessment)
 - [googlesky/CVE-2026-111497](https://github.com/googlesky/CVE-2026-111497)
+- [lesterlam/node2shell](https://github.com/lesterlam/node2shell)
+- [Secragon/node2shell-radar](https://github.com/Secragon/node2shell-radar)
+- [pt-act/node2shell-cve-2026-111497](https://github.com/pt-act/node2shell-cve-2026-111497)
+- [s1ko/poc-cve-2026-111497](https://github.com/s1ko/poc-cve-2026-111497)
 
 ### CVE-2026-111770
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
@@ -21129,14 +21157,14 @@
 <code>Coraza before 3.8.1 extracts multipart upload filenames with Go's mime.ParseMediaType, which silently ignores RFC 5987 filename* parameters whose charset is not utf-8 or us-ascii. Unauthenticated attackers can send a decoy filename with filename*=iso-8859-1''shell.php, or filename* alone, so FILES-based rules never see the real name, letting dangerous uploads reach backends that honor filename*.
 </code>
 
-- [cafaye/nilepatch-coraza-bypass](https://github.com/cafaye/nilepatch-coraza-bypass)
+- [anywaye/nilepatch-coraza-bypass](https://github.com/anywaye/nilepatch-coraza-bypass)
 
 ### CVE-2026-114102 (2026-10-21)
 
 <code>adm-zip before 0.6.1 contains a denial of service vulnerability that allows unauthenticated attackers to crash the Node.js process via a malformed ZIP file, because inflateAsync in methods/inflater.js lacks a zlib stream error listener. Attackers can supply a ZIP with corrupted DEFLATE data processed by readFileAsync, readAsTextAsync, extractAllToAsync, or getDataAsync, triggering an uncatchable exception that terminates all in-flight requests.
 </code>
 
-- [cafaye/nilepatch-admzip-dos](https://github.com/cafaye/nilepatch-admzip-dos)
+- [anywaye/nilepatch-admzip-dos](https://github.com/anywaye/nilepatch-admzip-dos)
 
 ### CVE-2026-114509 (2026-10-21)
 
@@ -21146,12 +21174,13 @@
 - [hakaioffsec/CVE-2026-114509-PoC](https://github.com/hakaioffsec/CVE-2026-114509-PoC)
 - [tajulasri/-CVE-2026-114509-POC](https://github.com/tajulasri/-CVE-2026-114509-POC)
 - [dimasma0305/CVE-2026-114509](https://github.com/dimasma0305/CVE-2026-114509)
+- [ArioVeisa/cve-2026-114509-laravel-tokenguard](https://github.com/ArioVeisa/cve-2026-114509-laravel-tokenguard)
 
 ### CVE-2026-115560
 - [prnjlksingh/php-cve-2026-115560-demo](https://github.com/prnjlksingh/php-cve-2026-115560-demo)
 - [sykeops/CVE-2026-115560](https://github.com/sykeops/CVE-2026-115560)
 - [basesixtythree/B63-POC-CVE-2026-115560](https://github.com/basesixtythree/B63-POC-CVE-2026-115560)
-- [slabbdev/php-cve-115560-kit](https://github.com/slabbdev/php-cve-115560-kit)
+- [slabbdev/php-cve-2026-115560-kit](https://github.com/slabbdev/php-cve-2026-115560-kit)
 - [ivst/CVE-2026-115560](https://github.com/ivst/CVE-2026-115560)
 - [googlesky/CVE-2026-115560](https://github.com/googlesky/CVE-2026-115560)
 
@@ -27504,7 +27533,7 @@
 - [EthanEvans92/CVE-2025-32463](https://github.com/EthanEvans92/CVE-2025-32463)
 - [Fomovet/cve-2025-32463](https://github.com/Fomovet/cve-2025-32463)
 - [0xdak/CVE-2025-32463_exploit](https://github.com/0xdak/CVE-2025-32463_exploit)
-- [klvlo/CVE-2025-32463](https://github.com/klvlo/CVE-2025-32463)
+- [jigrit/CVE-2025-32463](https://github.com/jigrit/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
