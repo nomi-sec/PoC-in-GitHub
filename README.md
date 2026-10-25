@@ -79,6 +79,7 @@
 - [ctn-Qvo/CVE-2026-0073-Android-ADBD-bypass-POC_zh_CN](https://github.com/ctn-Qvo/CVE-2026-0073-Android-ADBD-bypass-POC_zh_CN)
 - [aye468448-eng/CVE-2026-0073-Android-adbd-authentication-bypass](https://github.com/aye468448-eng/CVE-2026-0073-Android-adbd-authentication-bypass)
 - [naheeju/POC-CVE-2026-0073](https://github.com/naheeju/POC-CVE-2026-0073)
+- [umarrehmansiddiqui/CVE-2026-0073](https://github.com/umarrehmansiddiqui/CVE-2026-0073)
 
 ### CVE-2026-0075 (2026-06-01)
 
@@ -3758,6 +3759,13 @@
 </code>
 
 - [jaf0rk/CVE-2026-14431](https://github.com/jaf0rk/CVE-2026-14431)
+
+### CVE-2026-14440 (2026-07-01)
+
+<code>Description:\n\n\n\n\nTo issue and renew TLS certificates on behalf of customers, Cloudflare's Universal SSL feature automatically manages the CAA RRset for the customer's zone. This auto-managed RRset is permissive by design (e.g. 'issue &quot;letsencrypt.org&quot;' without parameters). On Universal SSL zones, Cloudflare's authoritative DNS serves this auto-managed RRset at query time, superseding any customer-configured CAA records on the zone. When a customer publishes a stricter CAA record using the RFC 8657 accounturi or validationmethods parameters, the Certificate Authority does not observe those parameters when evaluating the served RRset under RFC 8659. As a result, the RFC 8657 account-binding and validation-method-binding protections are not enforced end-to-end on Universal SSL zones. Successful exploitation could result in issuance of a browser-trusted TLS certificate to an attacker, enabling MITM against the affected domain.\n\n\n\n\nExploitation is non-trivial in practice: an attacker would need to hold an ACME account at one of the Certificate Authorities in the served CAA RRset and to simultaneously satisfy domain control validation across the multiple geographically distinct Network Perspectives the CA relies on for Multi-Perspective Issuance Corroboration. Cloudflare prefixes are anycast-announced from hundreds of locations globally, raising the bar against single-vantage-point BGP hijacks. Any resulting misissuance of a browser-trusted certificate is subject to Certificate Transparency logging required by major browsers, and would be visible to CT monitoring.\n\n\n\n\n\n\n\n\nMitigation: \n\n\n\nCustomers requiring strict RFC 8657 enforcement need to disable Universal SSL on the affected zone.\n\n\n\nUniversal SSL's automatic CAA management and customer-set RFC 8657 accounturi and validationmethods enforcement are mutually exclusive by the nature of the issue, so there is no in-product workaround that preserves both. \n\n\n\nCertificate Transparency monitoring is recommended for all customers as a general detection control.\n\n\n\n\n\n\n\n\nCredits:\n\n\n\nDavid Osipov (ORCID: https://orcid.org/0009-0005-2713-9242), independent researcher
+</code>
+
+- [Ghost-Bx1/Cloudflare-Exploits-CVE-2026-14440-CVE-2026-3125-CVE-2025-0651](https://github.com/Ghost-Bx1/Cloudflare-Exploits-CVE-2026-14440-CVE-2026-3125-CVE-2025-0651)
 
 ### CVE-2026-14459 (2026-07-03)
 
@@ -10554,6 +10562,7 @@
 - [HORKimhab/CVE-2026-39808](https://github.com/HORKimhab/CVE-2026-39808)
 - [error-inside/CVE-2026-39808](https://github.com/error-inside/CVE-2026-39808)
 - [gotr00t0day/CVE-2026-39808](https://github.com/gotr00t0day/CVE-2026-39808)
+- [Ghost-Bx1/Fortinet-Exploits-CVE-2026-39808-106173-107656](https://github.com/Ghost-Bx1/Fortinet-Exploits-CVE-2026-39808-106173-107656)
 
 ### CVE-2026-39813 (2026-04-14)
 
@@ -11846,6 +11855,7 @@
 - [k-o-n-t-o-r/ghostlock-sm-g990b](https://github.com/k-o-n-t-o-r/ghostlock-sm-g990b)
 - [BH3GEI/honor-aap-an00-root-skill](https://github.com/BH3GEI/honor-aap-an00-root-skill)
 - [crastatelvin/a12-ghostlock](https://github.com/crastatelvin/a12-ghostlock)
+- [quillfinch/Galaxy-Tab-S10FE-Root](https://github.com/quillfinch/Galaxy-Tab-S10FE-Root)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -14995,6 +15005,13 @@
 - [MalHyuk/CVE-2026-59243](https://github.com/MalHyuk/CVE-2026-59243)
 - [0xdak/CVE-2026-59243_exploit](https://github.com/0xdak/CVE-2026-59243_exploit)
 
+### CVE-2026-59248 (2026-07-28)
+
+<code>Allocation of resources without limits vulnerability in ninenines cowlib allows an unauthenticated remote HTTP/2 or HTTP/3 peer to exhaust memory on the vulnerable server (or client) and cause a denial of service.\n\nThe HPACK and QPACK prefixed-integer decoder cow_hpack_common:dec_big_int/3 in src/cow_hpack_common.hrl (invoked from cow_hpack:decode/2 in src/cow_hpack.erl and from cow_qpack:decode_field_section/3 in src/cow_qpack.erl) reads continuation octets until it sees one whose high bit is clear, evaluating Int + (Value bsl M) at each step with the shift M growing by seven per octet. No limit is enforced on the number of continuation octets, on the resulting bit width, or on the value; the decoder consumes whatever encoded length the peer supplies.\n\nBecause Erlang integers are immutable, each intermediate Value bsl M and each accumulator update allocates a fresh bignum whose digit width grows linearly with the number of octets processed so far. Summed across the whole decode, the transient bignum digit materialization is on the order of the square of the encoded length. A single maximal HPACK indexed representation carried inside one HTTP/2 HEADERS plus one CONTINUATION frame at Cowboy's default max_frame_size_received can force hundreds of megabytes of transient allocation and garbage-collection churn before the resulting header-table index is rejected as invalid. Repeated or concurrent connections multiply the pressure and can drive the Erlang VM to memory exhaustion.\n\nCowlib is the HTTP parser used by Cowboy, RabbitMQ's management plugin, and other Erlang and Elixir HTTP/2 and HTTP/3 servers and clients, so any exposed endpoint that accepts HPACK or QPACK from an untrusted peer is reachable.\n\nThis issue affects cowlib: from 2.0.0 before 2.19.0.
+</code>
+
+- [DarynOngera/bug-free-broccoli](https://github.com/DarynOngera/bug-free-broccoli)
+
 ### CVE-2026-59265 (2026-10-02)
 
 <code>A code execution issue in the Java integration in Apache OpenOffice v4.1.16 and earlier allows a crafted untrusted document to trigger executing arbitrary (even remote) code when opened by the user.\n\n\n\nThis issue is expected to be fixed in version 4.1.17, which is in the release candidate phase.\n\n\n\nUntil then, users can mitigate this issue by disabling Java runtime integration in the Preferences dialog. This prevents the attack. If this is not possible, or as an extra precaution, you can avoid opening open untrusted files entirely. Once 4.1.17 is released, upgrade to that version to fix the issue.
@@ -15531,6 +15548,7 @@
 - [Feng1586/CVE-2026-64560-sources](https://github.com/Feng1586/CVE-2026-64560-sources)
 - [Yunnijian/OnePlus16-Jailbreak](https://github.com/Yunnijian/OnePlus16-Jailbreak)
 - [No-World/rootkit](https://github.com/No-World/rootkit)
+- [wanwuzhishi/ksu-root](https://github.com/wanwuzhishi/ksu-root)
 
 ### CVE-2026-64561 (2026-08-04)
 
@@ -18339,6 +18357,7 @@
 <code>An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 26.7.1 and iPadOS 26.7.1, macOS Sequoia 15.8.1, macOS Tahoe 26.7.1. Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27.
 </code>
 
+- [DeAurity/CVE-2026-86950-POC](https://github.com/DeAurity/CVE-2026-86950-POC)
 - [34zY/CVE-2026-86950](https://github.com/34zY/CVE-2026-86950)
 - [msuiche/hotcell](https://github.com/msuiche/hotcell)
 - [java99999/CVE-2026-86950-POC](https://github.com/java99999/CVE-2026-86950-POC)
@@ -20225,6 +20244,9 @@
 
 - [KevineCharles/CVE-2026-106610-miniorange-otp-ato](https://github.com/KevineCharles/CVE-2026-106610-miniorange-otp-ato)
 
+### CVE-2026-106781
+- [tanuj8124/CVE-2026-106781](https://github.com/tanuj8124/CVE-2026-106781)
+
 ### CVE-2026-106991
 - [MX-Qulin/CVE-2026-106991](https://github.com/MX-Qulin/CVE-2026-106991)
 
@@ -20434,6 +20456,7 @@
 - [sorenjohanson/crowdsec-cve-2026-109618-rule](https://github.com/sorenjohanson/crowdsec-cve-2026-109618-rule)
 - [CYB3RW07F/PHP2Shell-CVE-2026-109618-CVE-2026-109619](https://github.com/CYB3RW07F/PHP2Shell-CVE-2026-109618-CVE-2026-109619)
 - [junaire/CVE-2026-109618-exploit](https://github.com/junaire/CVE-2026-109618-exploit)
+- [Opathedane/php2shell](https://github.com/Opathedane/php2shell)
 - [pruiz/php-CVE-2026-109618](https://github.com/pruiz/php-CVE-2026-109618)
 - [LeonelArrua/CVE-2026-109618_CVE-2026-109619_Mitigate](https://github.com/LeonelArrua/CVE-2026-109618_CVE-2026-109619_Mitigate)
 - [CyberRoute/php2shell-scanner](https://github.com/CyberRoute/php2shell-scanner)
@@ -21006,7 +21029,6 @@
 - [akamor2800/php-5.4-cve-2026-php2shell-patch](https://github.com/akamor2800/php-5.4-cve-2026-php2shell-patch)
 - [citypeople/php2shell](https://github.com/citypeople/php2shell)
 - [ZiarenEASM/php2shell-probe](https://github.com/ZiarenEASM/php2shell-probe)
-- [egctl/php2shell](https://github.com/egctl/php2shell)
 - [mostofajr7-sudo/CVE-2026-109618-CVE-2026-109619-php2shell-](https://github.com/mostofajr7-sudo/CVE-2026-109618-CVE-2026-109619-php2shell-)
 - [StiJans/php8-cve-109618-109619-fix](https://github.com/StiJans/php8-cve-109618-109619-fix)
 - [Ademking/php2shell-migration](https://github.com/Ademking/php2shell-migration)
@@ -21014,6 +21036,7 @@
 - [vaishnavucv/php2shell](https://github.com/vaishnavucv/php2shell)
 - [AbacusNin/php-radar](https://github.com/AbacusNin/php-radar)
 - [GOLF2546/PHP2Shell-CVE-2026-109618-CVE-2026-109619](https://github.com/GOLF2546/PHP2Shell-CVE-2026-109618-CVE-2026-109619)
+- [smile178998/php2shell-toolkit](https://github.com/smile178998/php2shell-toolkit)
 - [marcotorres/php2shell-demo](https://github.com/marcotorres/php2shell-demo)
 - [naravid19/php2shell-ioc](https://github.com/naravid19/php2shell-ioc)
 - [gasanthosh/php2shell](https://github.com/gasanthosh/php2shell)
@@ -21026,7 +21049,14 @@
 - [andreysheva/php2shell-doctor](https://github.com/andreysheva/php2shell-doctor)
 - [delvin-45/php2shell-CVE-2026-109618-CVE-2026-109619-PoC](https://github.com/delvin-45/php2shell-CVE-2026-109618-CVE-2026-109619-PoC)
 - [catscarlet/php-fpm-docker-PHP-7.4-CVE-2026-109618-109619-free](https://github.com/catscarlet/php-fpm-docker-PHP-7.4-CVE-2026-109618-109619-free)
+- [andreysheva/homebrew-php2shell-doctor](https://github.com/andreysheva/homebrew-php2shell-doctor)
 - [testerxma/php2shellX](https://github.com/testerxma/php2shellX)
+- [ha1c9on/php2shell](https://github.com/ha1c9on/php2shell)
+- [nokitakaze/CVE-2026-109618-109619-checker](https://github.com/nokitakaze/CVE-2026-109618-109619-checker)
+- [0x1c1101/CVE-2026-109618-PoC](https://github.com/0x1c1101/CVE-2026-109618-PoC)
+- [fbuff-tools/php2shell-checker](https://github.com/fbuff-tools/php2shell-checker)
+- [kipmyk/PHP2Shell](https://github.com/kipmyk/PHP2Shell)
+- [jeffschafer/Bigfix-PHP-Vulnerability-Scanner-Content-CVE-2026-109618-CVE-2026-109619](https://github.com/jeffschafer/Bigfix-PHP-Vulnerability-Scanner-Content-CVE-2026-109618-CVE-2026-109619)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21236,6 +21266,11 @@
 - [tani2shell/node2shell-lab](https://github.com/tani2shell/node2shell-lab)
 - [lushinshang/cve-2026-111497-http2shell-guide](https://github.com/lushinshang/cve-2026-111497-http2shell-guide)
 - [apaonum/brotli-cve-check](https://github.com/apaonum/brotli-cve-check)
+- [SYM01/cve-2026-111497](https://github.com/SYM01/cve-2026-111497)
+- [tikarammardi/CVE-2026-111497](https://github.com/tikarammardi/CVE-2026-111497)
+- [fbuff-tools/http2shell-checker](https://github.com/fbuff-tools/http2shell-checker)
+- [Hika-sec/http2shell-CVE-2026-111497](https://github.com/Hika-sec/http2shell-CVE-2026-111497)
+- [emirwtz/CVE-2026-111497](https://github.com/emirwtz/CVE-2026-111497)
 
 ### CVE-2026-111770
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
@@ -21286,6 +21321,13 @@
 
 - [al4n4n/CVE-2026-112403](https://github.com/al4n4n/CVE-2026-112403)
 
+### CVE-2026-112866 (2026-10-24)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WPFactory Product Filter by WBW woo-product-filter allows Blind SQL Injection.This issue affects Product Filter by WBW: from n/a through 3.4.6.
+</code>
+
+- [Hassham1/CVE-2026-112866-woo-product-filter-sqli-poc](https://github.com/Hassham1/CVE-2026-112866-woo-product-filter-sqli-poc)
+
 ### CVE-2026-112900 (2026-10-19)
 
 <code>Pillow is a Python imaging library. From 2.6.0 until 13.0.0, Pillow is vulnerable to argument injection when invoking Ghostscript for EPS input. EpsImagePlugin.Ghostscript passes a caller-controlled input filename after -f without converting it to a safe absolute path, so a name beginning with a hyphen can be interpreted as a Ghostscript option. An attacker who controls the filename can inject Ghostscript arguments. Arbitrary command execution specifically requires a leading @ argument-file filename and control of the referenced text file containing additional Ghostscript arguments; the reported chain reproduces with the default -dSAFER invocation. This issue is fixed in version 13.0.0.
@@ -21293,6 +21335,7 @@
 
 - [techupdate24/python-pillow-rce-cve-2026-112900](https://github.com/techupdate24/python-pillow-rce-cve-2026-112900)
 - [moprius/CVE-2026-112900-Pillow-PoC](https://github.com/moprius/CVE-2026-112900-Pillow-PoC)
+- [kavin-jindal/CVE-2026-112900-PoC](https://github.com/kavin-jindal/CVE-2026-112900-PoC)
 
 ### CVE-2026-113468 (2026-10-20)
 
@@ -21355,6 +21398,7 @@
 - [ivst/CVE-2026-115560](https://github.com/ivst/CVE-2026-115560)
 - [googlesky/CVE-2026-115560](https://github.com/googlesky/CVE-2026-115560)
 - [al4n4n/CVE-2026-115560](https://github.com/al4n4n/CVE-2026-115560)
+- [renzi25031469/CVE-2026-115560](https://github.com/renzi25031469/CVE-2026-115560)
 
 ### CVE-2026-116011 (2026-10-24)
 
@@ -21511,6 +21555,13 @@
 - [c4bsec/7-Zip-CVE-2025-0411-POC](https://github.com/c4bsec/7-Zip-CVE-2025-0411-POC)
 - [betulssahin/CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass](https://github.com/betulssahin/CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass)
 - [RustMacrosRecoil/7-Zip-CVE-2025-0411-POC](https://github.com/RustMacrosRecoil/7-Zip-CVE-2025-0411-POC)
+
+### CVE-2025-0651 (2025-01-22)
+
+<code>Improper Privilege Management vulnerability in Cloudflare WARP on Windows allows File Manipulation.\n\nUser with a low system privileges  can create a set of symlinks inside the C:\ProgramData\Cloudflare\warp-diag-partials folder. After triggering the 'Reset all settings&quot; option the WARP service will delete the files that the symlink was pointing to. Given the WARP service operates with System privileges this might lead to deleting files owned by the System user.\nThis issue affects WARP: before 2024.12.492.0.
+</code>
+
+- [Ghost-Bx1/Cloudflare-Exploits-CVE-2026-14440-CVE-2026-3125-CVE-2025-0651](https://github.com/Ghost-Bx1/Cloudflare-Exploits-CVE-2026-14440-CVE-2026-3125-CVE-2025-0651)
 
 ### CVE-2025-0690 (2025-02-24)
 
@@ -22726,6 +22777,7 @@
 - [VSvalinX/CVE-2025-5548](https://github.com/VSvalinX/CVE-2025-5548)
 - [M4Rc0s-S3c/CVE-2025-5548-FreeFloat-FTP-Lab](https://github.com/M4Rc0s-S3c/CVE-2025-5548-FreeFloat-FTP-Lab)
 - [jonbondani/CVE-2025-5548](https://github.com/jonbondani/CVE-2025-5548)
+- [pedrose-99/CVE-2025-5548](https://github.com/pedrose-99/CVE-2025-5548)
 
 ### CVE-2025-5640 (2025-06-05)
 
@@ -26356,6 +26408,13 @@
 
 - [dorattias/CVE-2025-26319](https://github.com/dorattias/CVE-2025-26319)
 - [redpack-kr/CVE-2025-26319](https://github.com/redpack-kr/CVE-2025-26319)
+
+### CVE-2025-26326 (2025-02-28)
+
+<code>A vulnerability was identified in the NVDA Remote (version 2.6.4) and Tele NVDA Remote (version 2025.3.3) remote connection add-ons, which allows an attacker to obtain total control of the remote system by guessing a weak password. The problem occurs because these add-ons accept any password entered by the user and do not have an additional authentication or computer verification mechanism. Tests indicate that more than 1,000 systems use easy-to-guess passwords, many with less than 4 to 6 characters, including common sequences. This allows brute force attacks or trial-and-error attempts by malicious invaders. The vulnerability can be exploited by a remote attacker who knows or can guess the password used in the connection. As a result, the attacker gains complete access to the affected system and can execute commands, modify files, and compromise user security.
+</code>
+
+- [ohackercego/CVE-2025-26326](https://github.com/ohackercego/CVE-2025-26326)
 
 ### CVE-2025-26399 (2025-09-23)
 
@@ -36273,6 +36332,7 @@
 - [yeee3642/edu-recon](https://github.com/yeee3642/edu-recon)
 - [Suleman-Elahi/php2shell-sentinel](https://github.com/Suleman-Elahi/php2shell-sentinel)
 - [Ghost-Bx1/php-exploits-CVE-2026-109618-CVE-2026-109619-CVE-2024-4577](https://github.com/Ghost-Bx1/php-exploits-CVE-2026-109618-CVE-2026-109619-CVE-2024-4577)
+- [CyberDefenderAI/AI-Threat-Detection-PHP-CGI-Vulnerabilities](https://github.com/CyberDefenderAI/AI-Threat-Detection-PHP-CGI-Vulnerabilities)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -36760,6 +36820,7 @@
 - [al7araziruby-jpg/CVE-2024-6387-OpenSSH-Analysis](https://github.com/al7araziruby-jpg/CVE-2024-6387-OpenSSH-Analysis)
 - [hasan8babiker/CVE-2024-6387](https://github.com/hasan8babiker/CVE-2024-6387)
 - [dolapoojone/CVE-2024-6387-Vulnerability-Anaysis](https://github.com/dolapoojone/CVE-2024-6387-Vulnerability-Anaysis)
+- [ohackercego/CVE-2024-6387-how-to-fix](https://github.com/ohackercego/CVE-2024-6387-how-to-fix)
 
 ### CVE-2024-6460 (2024-08-16)
 
@@ -55094,6 +55155,7 @@
 - [hav0cx0/CVE-2023-48795](https://github.com/hav0cx0/CVE-2023-48795)
 - [oseasfr/Scanner_CVE_OpenSSH](https://github.com/oseasfr/Scanner_CVE_OpenSSH)
 - [Mr-Whiskerss/SSH-Terrapin-Prefix-Truncation-Weakness-CVE-2023-48795-Checker](https://github.com/Mr-Whiskerss/SSH-Terrapin-Prefix-Truncation-Weakness-CVE-2023-48795-Checker)
+- [breaksek/CVE-2023-48795](https://github.com/breaksek/CVE-2023-48795)
 
 ### CVE-2023-48842 (2023-12-01)
 
@@ -59763,13 +59825,6 @@
 
 - [patrickdeanramos/CVE-2022-28598](https://github.com/patrickdeanramos/CVE-2022-28598)
 
-### CVE-2022-28601 (2022-05-10)
-
-<code>A Two-Factor Authentication (2FA) bypass vulnerability in &quot;Simple 2FA Plugin for Moodle&quot; by LMS Doctor allows remote attackers to overwrite the phone number used for confirmation via the profile.php file. Therefore, allowing them to bypass the phone verification mechanism.
-</code>
-
-- [FlaviuPopescu/CVE-2022-28601](https://github.com/FlaviuPopescu/CVE-2022-28601)
-
 ### CVE-2022-28672 (2022-07-18)
 
 <code>This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader 11.2.1.53537. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-16640.
@@ -59794,13 +59849,6 @@
 </code>
 
 - [gar-re/cve-2022-28944](https://github.com/gar-re/cve-2022-28944)
-
-### CVE-2022-28986 (2022-05-10)
-
-<code>LMS Doctor Simple 2 Factor Authentication Plugin For Moodle Affected: 2021072900 has an Insecure direct object references (IDOR) vulnerability, which allows remote attackers to update sensitive records such as email, password and phone number of other user accounts.
-</code>
-
-- [FlaviuPopescu/CVE-2022-28986](https://github.com/FlaviuPopescu/CVE-2022-28986)
 
 ### CVE-2022-29004 (2022-05-23)
 
@@ -89504,6 +89552,7 @@
 - [mobilelinux/iovy_root_research](https://github.com/mobilelinux/iovy_root_research)
 - [ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805](https://github.com/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805)
 - [valentineus/hp-slate7-root-kit](https://github.com/valentineus/hp-slate7-root-kit)
+- [cjn304/Root-My-Galaxy-S4](https://github.com/cjn304/Root-My-Galaxy-S4)
 
 ### CVE-2015-1855 (2019-11-29)
 
