@@ -71,6 +71,7 @@
 - [unnaim/adbHijacker](https://github.com/unnaim/adbHijacker)
 - [0xBlackash/CVE-2026-0073](https://github.com/0xBlackash/CVE-2026-0073)
 - [xqi1337/poc-CVE-2026-0073](https://github.com/xqi1337/poc-CVE-2026-0073)
+- [xqi1337/CVE-2026-0073-Android-ADBD-bypass-POC](https://github.com/xqi1337/CVE-2026-0073-Android-ADBD-bypass-POC)
 - [tc4dy/CVE-2026-0073-PoC-Exploit](https://github.com/tc4dy/CVE-2026-0073-PoC-Exploit)
 - [0xbinder/CVE-2026-0073](https://github.com/0xbinder/CVE-2026-0073)
 - [m00ddy/CVE-2026-0073-Android-client-TLS-auth-bypass](https://github.com/m00ddy/CVE-2026-0073-Android-client-TLS-auth-bypass)
@@ -5222,6 +5223,7 @@
 </code>
 
 - [yallasec/CVE-2026-21627---Tassos-Novarain-Framework-plg_system_nrframework-Exploit---Joomla](https://github.com/yallasec/CVE-2026-21627---Tassos-Novarain-Framework-plg_system_nrframework-Exploit---Joomla)
+- [SAIM28826/CVE-2026-21627](https://github.com/SAIM28826/CVE-2026-21627)
 
 ### CVE-2026-21628 (2026-03-05)
 
@@ -6659,6 +6661,7 @@
 </code>
 
 - [shurikgo/cve-2026-25262-sm8450-research](https://github.com/shurikgo/cve-2026-25262-sm8450-research)
+- [Starry2233/cve-2026-25262-poc](https://github.com/Starry2233/cve-2026-25262-poc)
 
 ### CVE-2026-25512 (2026-02-04)
 
@@ -11842,6 +11845,7 @@
 - [WJNKAC/CVE-2026-43499-OPPO-A5-PBBT30](https://github.com/WJNKAC/CVE-2026-43499-OPPO-A5-PBBT30)
 - [k-o-n-t-o-r/ghostlock-sm-g990b](https://github.com/k-o-n-t-o-r/ghostlock-sm-g990b)
 - [BH3GEI/honor-aap-an00-root-skill](https://github.com/BH3GEI/honor-aap-an00-root-skill)
+- [crastatelvin/a12-ghostlock](https://github.com/crastatelvin/a12-ghostlock)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15668,6 +15672,7 @@
 - [BiuTrap/CVE-2026-64849](https://github.com/BiuTrap/CVE-2026-64849)
 - [zavisco/CVE-2026-64849.yaml](https://github.com/zavisco/CVE-2026-64849.yaml)
 - [isaca0315/CVE-2026-64849-poc-lab](https://github.com/isaca0315/CVE-2026-64849-poc-lab)
+- [maxprog-svg/CVE-2026-64849](https://github.com/maxprog-svg/CVE-2026-64849)
 
 ### CVE-2026-65008 (2026-07-21)
 
@@ -16572,6 +16577,27 @@
 ### CVE-2026-72585
 - [Nel-droid/CVE-2026-72585-PoC](https://github.com/Nel-droid/CVE-2026-72585-PoC)
 
+### CVE-2026-72703 (2026-08-24)
+
+<code>The guard checker in Rocq Prover treats a parameter of a nested mutual fixpoint as uniform without examining calls between the different bodies of that fixpoint. find_uniform_parameters in kernel/inductive.ml inspects only self-recursive calls, so when no body calls itself the function concludes that every parameter is uniform. A parameter that grows through a cross-call from one body to another therefore keeps the subterm specification it inherited from the enclosing fixpoint, and a recursive call guarded by that specification is accepted although the argument is not structurally smaller. A non-terminating definition is admitted as structurally decreasing, which yields a term whose value equals its own successor and so a proof of False, from which any proposition follows. The proof requires no axioms, plugins or unsafe flags and Print Assumptions reports it as closed under the global context. Introduced in Coq 8.20 and fixed in Rocq 9.2.0.
+</code>
+
+- [endrazine/rocq-cve-poc-21682](https://github.com/endrazine/rocq-cve-poc-21682)
+
+### CVE-2026-72704 (2026-08-24)
+
+<code>The guard checker in Rocq Prover does not recheck the recursive tree representation of an inductive type parameter after that parameter has been changed by transport. A fixpoint may apply a rewrite along an equality between types to its recursive argument, which the guard checker accepts because the inductive type is preserved, while the recursive tree recorded for the parameter is altered. A second fixpoint that calls the first inherits the altered recursive tree without verification, so a call that is not structurally decreasing is accepted as terminating. The resulting non-terminating definition proves that a natural number equals its own successor and therefore False, from which any proposition follows. The demonstration uses two axioms that follow from univalence and are consistent with the calculus of inductive constructions, so the contradiction comes from the guard check rather than from the assumptions. A fix is proposed but not merged.
+</code>
+
+- [endrazine/rocq-cve-poc-22024](https://github.com/endrazine/rocq-cve-poc-22024)
+
+### CVE-2026-72705 (2026-08-24)
+
+<code>The guard checker in Rocq Prover does not follow recursive calls made through a fixpoint's own arguments. A fixpoint may pass itself as a higher-order argument to a second fixpoint, which then applies it to a value that is not a subterm of the structural argument. Passing the recursive function to a plain definition is rejected because the checker unfolds the definition and observes the call, but passing it to a fixpoint is accepted because higher-order recursive calls through fixpoint arguments are not tracked. This admits a type that is definitionally equal to its own negation, so self-application produces False in purely definitional code, without tactics, axioms, plugins or unsafe flags, and Print Assumptions reports the result as closed under the global context. Fixed in Rocq 9.2.0.
+</code>
+
+- [endrazine/rocq-cve-poc-21683](https://github.com/endrazine/rocq-cve-poc-21683)
+
 ### CVE-2026-72708 (2026-09-11)
 
 <code>SPIP before 4.4.18 contains an unauthenticated blind SQL injection vulnerability in the SQL escaping layer that allows unauthenticated attackers to inject arbitrary SQL by supplying a crafted annee parameter value matching a word character followed by an open parenthesis, which bypasses escaping for date-type columns across MySQL, SQLite, and PostgreSQL backends. Attackers can exploit the always-present sitemap.xml.html template's annee criterion to embed unescaped time-based or boolean payloads into database queries, enabling extraction of arbitrary database content including the alea_ephemere secret used to sign SPIP action nonces.
@@ -16579,6 +16605,20 @@
 
 - [ambionics/spip-exploits](https://github.com/ambionics/spip-exploits)
 - [ka3n1x/spip-cve-2026](https://github.com/ka3n1x/spip-cve-2026)
+
+### CVE-2026-72711 (2026-08-24)
+
+<code>The Lean 4 kernel does not check that the body of an opaque declaration is closed. environment::add_opaque omits the check_no_metavar_no_fvar call that the definition and theorem paths perform, so a value containing a free variable that is absent from the local context is not rejected outright. A metaprogram can first cause the kernel to create a temporary local of type False and record its type in the type checker's inference cache, then restore the local context while that cache entry persists on the same type checker instance, and finally submit an opaque declaration whose value is the now-unbound variable. The cache lookup answers before the branch that would test membership of the local context, so the kernel infers the cached type and admits an opaque constant of type False, from which any proposition follows. The declaration is accepted through the ordinary checked path at maximum kernel checking, without sorry, unsafeCast, debug.skipKernelTC, addDeclWithoutChecking, foreign code or a modified .olean file, and the result carries no axioms. Fixed in 4.32.2 by adding the missing closure check.
+</code>
+
+- [endrazine/lean-cve-poc-14484](https://github.com/endrazine/lean-cve-poc-14484)
+
+### CVE-2026-72714 (2026-08-24)
+
+<code>Rocq Prover does not restore the universe graph's copy of the universe checking flag when a module that locally disabled the check is closed. Local Unset Universe Checking inside a module is expected to last only until the module ends, and the global flag is restored, but the universe graph keeps its own copy which is left disabled. The two views then disagree: Test Universe Checking reports the check as enabled while the kernel continues to accept universe-inconsistent terms. With the constraint between two universes no longer enforced, Hurkens' paradox applies and yields a proof of False, from which any proposition follows. The proof uses no axioms, plugins or unsafe features once the module has closed, and Print Assumptions reports it as closed under the global context, so neither the assumption audit nor the flag query reflects the actual kernel state. No fix is available.
+</code>
+
+- [endrazine/rocq-cve-poc-22287](https://github.com/endrazine/rocq-cve-poc-22287)
 
 ### CVE-2026-72744 (2026-08-11)
 
@@ -16865,6 +16905,7 @@
 - [techupdate24/linux-kernel-cve-2026-74580-vghost](https://github.com/techupdate24/linux-kernel-cve-2026-74580-vghost)
 - [ABC00012345/CVE-2026-74580](https://github.com/ABC00012345/CVE-2026-74580)
 - [V01DL1NG/vghost-watch](https://github.com/V01DL1NG/vghost-watch)
+- [YounesHfa/CVE-2026-74580](https://github.com/YounesHfa/CVE-2026-74580)
 
 ### CVE-2026-74586 (2026-08-22)
 
@@ -17783,6 +17824,7 @@
 - [xoessie/CVE-2026-83548-SonicWall-SMA1000-Analysis](https://github.com/xoessie/CVE-2026-83548-SonicWall-SMA1000-Analysis)
 - [xcoy0te/CVE-2026-83548-checker](https://github.com/xcoy0te/CVE-2026-83548-checker)
 - [HORKimhab/CVE-2026-83548-CVE-2026-83549](https://github.com/HORKimhab/CVE-2026-83548-CVE-2026-83549)
+- [maxprog-svg/CVE-2026-83548](https://github.com/maxprog-svg/CVE-2026-83548)
 
 ### CVE-2026-83603 (2026-09-22)
 
@@ -19347,6 +19389,8 @@
 - [quyicheng03-boop/CVE-2026-98260-popsicle-android](https://github.com/quyicheng03-boop/CVE-2026-98260-popsicle-android)
 - [quyicheng03-boop/CVE-2026-98260-nezha-android](https://github.com/quyicheng03-boop/CVE-2026-98260-nezha-android)
 - [sganggs/CVE-2026-98260-BRM-AN00](https://github.com/sganggs/CVE-2026-98260-BRM-AN00)
+- [zsw125/o3root](https://github.com/zsw125/o3root)
+- [janewas/cve-2026-98260-vivo-gki-research](https://github.com/janewas/cve-2026-98260-vivo-gki-research)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -20821,11 +20865,11 @@
 - [lankahost/lankahost-php-patch-check](https://github.com/lankahost/lankahost-php-patch-check)
 - [dinvisible1/nmap-php2shell](https://github.com/dinvisible1/nmap-php2shell)
 - [CODEMaster-284/php2shell-audit](https://github.com/CODEMaster-284/php2shell-audit)
-- [Taz1920/php-sentinel](https://github.com/Taz1920/php-sentinel)
+- [Taz1920/PHP-Canarywall](https://github.com/Taz1920/PHP-Canarywall)
 - [danieljamesbertrand/php2shell-source-hotfix](https://github.com/danieljamesbertrand/php2shell-source-hotfix)
 - [hezhidong/php2shell-guard](https://github.com/hezhidong/php2shell-guard)
 - [techtaek77/php2shell-guide](https://github.com/techtaek77/php2shell-guide)
-- [taniungou/php2shell-lab](https://github.com/taniungou/php2shell-lab)
+- [tani2shell/php2shell-lab](https://github.com/tani2shell/php2shell-lab)
 - [wemio/php2shell-scan](https://github.com/wemio/php2shell-scan)
 - [Pr0fEs0r-X/PHP2ShellX-](https://github.com/Pr0fEs0r-X/PHP2ShellX-)
 - [neoqmin/php2shell](https://github.com/neoqmin/php2shell)
@@ -20877,6 +20921,7 @@
 - [whxylm/tdoa-php-cve-2026-109618-109619-patch-package](https://github.com/whxylm/tdoa-php-cve-2026-109618-109619-patch-package)
 - [AdZoic/php2shell-check](https://github.com/AdZoic/php2shell-check)
 - [9hb/php2shell-poc](https://github.com/9hb/php2shell-poc)
+- [D1se0/php2shell_lab](https://github.com/D1se0/php2shell_lab)
 - [PapaBill1234/php2shell-toolkit](https://github.com/PapaBill1234/php2shell-toolkit)
 - [Ls-ComCSIRT/php2shell-scan](https://github.com/Ls-ComCSIRT/php2shell-scan)
 - [Andrew2142/php73-backport](https://github.com/Andrew2142/php73-backport)
@@ -20970,6 +21015,18 @@
 - [AbacusNin/php-radar](https://github.com/AbacusNin/php-radar)
 - [GOLF2546/PHP2Shell-CVE-2026-109618-CVE-2026-109619](https://github.com/GOLF2546/PHP2Shell-CVE-2026-109618-CVE-2026-109619)
 - [marcotorres/php2shell-demo](https://github.com/marcotorres/php2shell-demo)
+- [naravid19/php2shell-ioc](https://github.com/naravid19/php2shell-ioc)
+- [gasanthosh/php2shell](https://github.com/gasanthosh/php2shell)
+- [StiJans/php7.4-cve-109618-109619-fix](https://github.com/StiJans/php7.4-cve-109618-109619-fix)
+- [StiJans/php8.1-cve-109618-109619-fix](https://github.com/StiJans/php8.1-cve-109618-109619-fix)
+- [cumakurt/php2shell-scan](https://github.com/cumakurt/php2shell-scan)
+- [mefulton/CVE-2026-109618-php56-public](https://github.com/mefulton/CVE-2026-109618-php56-public)
+- [mamarce/php-vulns-discovered-23-10-2026](https://github.com/mamarce/php-vulns-discovered-23-10-2026)
+- [codiobert/runcloud-php2shell-patch](https://github.com/codiobert/runcloud-php2shell-patch)
+- [andreysheva/php2shell-doctor](https://github.com/andreysheva/php2shell-doctor)
+- [delvin-45/php2shell-CVE-2026-109618-CVE-2026-109619-PoC](https://github.com/delvin-45/php2shell-CVE-2026-109618-CVE-2026-109619-PoC)
+- [catscarlet/php-fpm-docker-PHP-7.4-CVE-2026-109618-109619-free](https://github.com/catscarlet/php-fpm-docker-PHP-7.4-CVE-2026-109618-109619-free)
+- [testerxma/php2shellX](https://github.com/testerxma/php2shellX)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21176,6 +21233,9 @@
 - [yavuzsemih/brotli-secfix](https://github.com/yavuzsemih/brotli-secfix)
 - [GlobularOne/HTTP2Shell-PoC](https://github.com/GlobularOne/HTTP2Shell-PoC)
 - [assetnote/node2shell-scanner](https://github.com/assetnote/node2shell-scanner)
+- [tani2shell/node2shell-lab](https://github.com/tani2shell/node2shell-lab)
+- [lushinshang/cve-2026-111497-http2shell-guide](https://github.com/lushinshang/cve-2026-111497-http2shell-guide)
+- [apaonum/brotli-cve-check](https://github.com/apaonum/brotli-cve-check)
 
 ### CVE-2026-111770
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
@@ -38824,7 +38884,7 @@
 - [abrewer251/CVE-2024-21762_FortiNet_PoC](https://github.com/abrewer251/CVE-2024-21762_FortiNet_PoC)
 - [0x13-ByteZer0/CVE-2024-21762](https://github.com/0x13-ByteZer0/CVE-2024-21762)
 - [0x0asif/CVE-2024-21762](https://github.com/0x0asif/CVE-2024-21762)
-- [Sxmpl3/CVE-2024-21762-Safe-Check](https://github.com/Sxmpl3/CVE-2024-21762-Safe-Check)
+- [izancxg/CVE-2024-21762-Safe-Check](https://github.com/izancxg/CVE-2024-21762-Safe-Check)
 - [Vampsecure-Labs/vamp-forticheck](https://github.com/Vampsecure-Labs/vamp-forticheck)
 - [abraxas/Fortigate-SSL-VPN-Exploit-Kit](https://github.com/abraxas/Fortigate-SSL-VPN-Exploit-Kit)
 - [Deekshitha2203/security-triage-agent-cybersec590](https://github.com/Deekshitha2203/security-triage-agent-cybersec590)
@@ -45112,7 +45172,7 @@
 - [BwithE/CVE-2024-51482](https://github.com/BwithE/CVE-2024-51482)
 - [plur1bu5/CVE-2024-51482-PoC](https://github.com/plur1bu5/CVE-2024-51482-PoC)
 - [BridgerAlderson/CVE-2024-51482](https://github.com/BridgerAlderson/CVE-2024-51482)
-- [Ravi-lk/CVE-2024-51482-ZoneMinder-v1.37.-1.37.64-SQL-Injection-POC](https://github.com/Ravi-lk/CVE-2024-51482-ZoneMinder-v1.37.-1.37.64-SQL-Injection-POC)
+- [Ravi-lk/CVE-2024-51482-ZoneMinder-SQL-Injection-POC](https://github.com/Ravi-lk/CVE-2024-51482-ZoneMinder-SQL-Injection-POC)
 - [lnn0v4/sqli-hunter-CVE-2024-51482-PoC](https://github.com/lnn0v4/sqli-hunter-CVE-2024-51482-PoC)
 - [Erhui-Li/CVE-2024-51482-ZoneMinder-CCTV-HTB-Reliable-EXP](https://github.com/Erhui-Li/CVE-2024-51482-ZoneMinder-CCTV-HTB-Reliable-EXP)
 - [0xDaeras/CVE-2024-51482-POC](https://github.com/0xDaeras/CVE-2024-51482-POC)
@@ -48699,6 +48759,7 @@
 
 - [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
 - [yosef0x01/CVE-2023-21752](https://github.com/yosef0x01/CVE-2023-21752)
+- [SamDHarrison/Compiled-CVE-2023-21752](https://github.com/SamDHarrison/Compiled-CVE-2023-21752)
 
 ### CVE-2023-21766 (2023-01-10)
 
@@ -70480,6 +70541,7 @@
 - [mcpmark-eval-liuhezi/log4shell-audit-evidence](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-evidence)
 - [mcpmark-eval-liuhezi/log4shell-audit-2](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-2)
 - [mcpmark-eval-liuhezi/log4shell-audit-3](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-3)
+- [mcpmark-eval-liuhezi/log4shell-audit-4](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-4)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -72143,7 +72205,7 @@
 <code>Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: WLS Core Components). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
+- [daybreak-kits/weblogicScanner](https://github.com/daybreak-kits/weblogicScanner)
 - [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
 - [hktalent/CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551)
 - [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
@@ -75792,6 +75854,7 @@
 - [Cmadhushanka/wordpress-rce-vapt-cve-2020-25213](https://github.com/Cmadhushanka/wordpress-rce-vapt-cve-2020-25213)
 - [KienHoSD/wp-file-manager-exploit-CVE-2020-25213-with-Zerologon](https://github.com/KienHoSD/wp-file-manager-exploit-CVE-2020-25213-with-Zerologon)
 - [Maalfer/CVE-2020-25213-exploit](https://github.com/Maalfer/CVE-2020-25213-exploit)
+- [rigby721/CEV-2020-25213_wp-file-manger_exploit](https://github.com/rigby721/CEV-2020-25213_wp-file-manger_exploit)
 
 ### CVE-2020-25223 (2020-09-25)
 
@@ -76810,6 +76873,13 @@
 
 - [K52-ai/CVE-2020-36847](https://github.com/K52-ai/CVE-2020-36847)
 
+### CVE-2020-37268 (2026-08-24)
+
+<code>Print Assumptions does not report that a definition was produced while universe checking was disabled when that definition reaches the caller through Parameter Inline in a module type. Applying a functor inlines the body of the parameter, and the inlining drops the record that the term was built under Unset Universe Checking, so the resulting constant carries no trace of the unsafe operation. A module implementation can therefore prove False using a universe inconsistency, expose it through an inlined parameter, and have Print Assumptions report the dependent proof as closed under the global context. Because Print Assumptions is the in-process audit used to confirm that a development rests on no unexpected assumptions, a dependency built this way passes that audit while proving arbitrary propositions. The standalone checker coqchk does reject the resulting compiled file. The project records this in dev/doc/critical-bugs.md under non-fixed bugs and rates the risk as moderate when coqchk is not used.
+</code>
+
+- [endrazine/rocq-cve-poc-12155](https://github.com/endrazine/rocq-cve-poc-12155)
+
 ### CVE-2020-256480
 - [dim0x69/cve-2022-25640-exploit](https://github.com/dim0x69/cve-2022-25640-exploit)
 
@@ -77555,7 +77625,7 @@
 - [dr0op/WeblogicScan](https://github.com/dr0op/WeblogicScan)
 - [he1dan/cve-2019-2618](https://github.com/he1dan/cve-2019-2618)
 - [ianxtianxt/cve-2019-2618](https://github.com/ianxtianxt/cve-2019-2618)
-- [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
+- [daybreak-kits/weblogicScanner](https://github.com/daybreak-kits/weblogicScanner)
 
 ### CVE-2019-2725 (2019-04-26)
 
@@ -81735,7 +81805,7 @@
 - [Nervous/WebLogic-RCE-exploit](https://github.com/Nervous/WebLogic-RCE-exploit)
 - [Lighird/CVE-2018-2628](https://github.com/Lighird/CVE-2018-2628)
 - [0xMJ/CVE-2018-2628](https://github.com/0xMJ/CVE-2018-2628)
-- [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
+- [daybreak-kits/weblogicScanner](https://github.com/daybreak-kits/weblogicScanner)
 - [seethen/cve-2018-2628](https://github.com/seethen/cve-2018-2628)
 - [BabyTeam1024/cve-2018-2628](https://github.com/BabyTeam1024/cve-2018-2628)
 - [cscadoge/weblogic-cve-2018-2628](https://github.com/cscadoge/weblogic-cve-2018-2628)
@@ -85548,7 +85618,7 @@
 </code>
 
 - [ianxtianxt/CVE-2017-3248](https://github.com/ianxtianxt/CVE-2017-3248)
-- [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
+- [daybreak-kits/weblogicScanner](https://github.com/daybreak-kits/weblogicScanner)
 - [BabyTeam1024/CVE-2017-3248](https://github.com/BabyTeam1024/CVE-2017-3248)
 
 ### CVE-2017-3506 (2017-04-24)
@@ -87805,7 +87875,7 @@
 <code>Unspecified vulnerability in the Oracle WebLogic Server component in Oracle Fusion Middleware 10.3.6, 12.1.2, 12.1.3, and 12.2.1 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to Java Messaging Service.
 </code>
 
-- [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
+- [daybreak-kits/weblogicScanner](https://github.com/daybreak-kits/weblogicScanner)
 - [zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln)
 - [BabyTeam1024/CVE-2016-0638](https://github.com/BabyTeam1024/CVE-2016-0638)
 
@@ -90719,7 +90789,7 @@
 </code>
 
 - [NoneNotNull/SSRFX](https://github.com/NoneNotNull/SSRFX)
-- [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
+- [daybreak-kits/weblogicScanner](https://github.com/daybreak-kits/weblogicScanner)
 - [unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC](https://github.com/unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC)
 - [NHPT/WebLogic-SSRF_CVE-2014-4210](https://github.com/NHPT/WebLogic-SSRF_CVE-2014-4210)
 - [ZorvithonLeo/Exploit-CVE-2014-4210-](https://github.com/ZorvithonLeo/Exploit-CVE-2014-4210-)
