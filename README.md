@@ -11819,7 +11819,6 @@
 - [THORBHAIxTRUSTED/RootMyVivo-Exploit](https://github.com/THORBHAIxTRUSTED/RootMyVivo-Exploit)
 - [yexiaoqq/rmg-s9110-research](https://github.com/yexiaoqq/rmg-s9110-research)
 - [alfzki/ghostlock-app](https://github.com/alfzki/ghostlock-app)
-- [litianyuan-91/Ghostlock-Honor70Pro](https://github.com/litianyuan-91/Ghostlock-Honor70Pro)
 - [a23bc/ALI-AN00-cve-2026-43499](https://github.com/a23bc/ALI-AN00-cve-2026-43499)
 - [maulanasdqn/ghostlock-honor-brpnx1](https://github.com/maulanasdqn/ghostlock-honor-brpnx1)
 - [Nixbones/ghostlock-rmx5085](https://github.com/Nixbones/ghostlock-rmx5085)
@@ -16579,6 +16578,7 @@
 </code>
 
 - [ambionics/spip-exploits](https://github.com/ambionics/spip-exploits)
+- [ka3n1x/spip-cve-2026](https://github.com/ka3n1x/spip-cve-2026)
 
 ### CVE-2026-72744 (2026-08-11)
 
@@ -18243,6 +18243,13 @@
 
 - [abraxas/CVE-2026-86350](https://github.com/abraxas/CVE-2026-86350)
 
+### CVE-2026-86426 (2026-09-07)
+
+<code>LibreNMS before 26.8.0 contains an authentication bypass vulnerability in the REST API that allows unauthenticated attackers to access protected endpoints by sending numeric values instead of string tokens. Attackers can exploit MySQL type coercion by sending small integers like 0 through 9 to match token hashes, gaining access to API functionality including device credentials and administrative features that enable remote code execution through alert templates.
+</code>
+
+- [Guila95/CVE-2026-86426](https://github.com/Guila95/CVE-2026-86426)
+
 ### CVE-2026-86476 (2026-10-14)
 
 <code>A flaw was found in gst-plugins-base. A heap buffer overflow can be triggered when processing video buffers whose attached GstVideoMeta metadata declares plane strides and offsets that exceed the actual backing memory allocation. The metadata is not range-checked during deserialization, and the video frame mapping code does not verify that the declared plane geometry fits within the buffer before allowing consumers to read or write video data. A local attacker who controls the sending side of a GStreamer inter-process IPC pipeline can deliver a crafted buffer carrying fabricated strides, causing the receiving process to read or write beyond heap boundaries. Successful exploitation can cause a denial of service or potentially allow code execution within the affected process.
@@ -19366,6 +19373,7 @@
 - [sqzer-x/cve-2026-99999-scanner](https://github.com/sqzer-x/cve-2026-99999-scanner)
 - [01luyicheng/CVE-2026-99999-analysis](https://github.com/01luyicheng/CVE-2026-99999-analysis)
 - [01luyicheng/CVE-2026-99999-exploit](https://github.com/01luyicheng/CVE-2026-99999-exploit)
+- [unixreaper/CVE-2026-99999-Research](https://github.com/unixreaper/CVE-2026-99999-Research)
 
 ### CVE-2026-100380 (2026-09-25)
 
@@ -20959,6 +20967,9 @@
 - [Ademking/php2shell-migration](https://github.com/Ademking/php2shell-migration)
 - [darkLabz001/php2shell-audit](https://github.com/darkLabz001/php2shell-audit)
 - [vaishnavucv/php2shell](https://github.com/vaishnavucv/php2shell)
+- [AbacusNin/php-radar](https://github.com/AbacusNin/php-radar)
+- [GOLF2546/PHP2Shell-CVE-2026-109618-CVE-2026-109619](https://github.com/GOLF2546/PHP2Shell-CVE-2026-109618-CVE-2026-109619)
+- [marcotorres/php2shell-demo](https://github.com/marcotorres/php2shell-demo)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21163,6 +21174,8 @@
 - [mnk-works/cve-2026-111497-rce-checker](https://github.com/mnk-works/cve-2026-111497-rce-checker)
 - [syrex1013/CVE-2026-111497-node2shell](https://github.com/syrex1013/CVE-2026-111497-node2shell)
 - [yavuzsemih/brotli-secfix](https://github.com/yavuzsemih/brotli-secfix)
+- [GlobularOne/HTTP2Shell-PoC](https://github.com/GlobularOne/HTTP2Shell-PoC)
+- [assetnote/node2shell-scanner](https://github.com/assetnote/node2shell-scanner)
 
 ### CVE-2026-111770
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
@@ -21281,6 +21294,7 @@
 - [slabbdev/php-cve-2026-115560-kit](https://github.com/slabbdev/php-cve-2026-115560-kit)
 - [ivst/CVE-2026-115560](https://github.com/ivst/CVE-2026-115560)
 - [googlesky/CVE-2026-115560](https://github.com/googlesky/CVE-2026-115560)
+- [al4n4n/CVE-2026-115560](https://github.com/al4n4n/CVE-2026-115560)
 
 ### CVE-2026-116011 (2026-10-24)
 
@@ -37608,6 +37622,13 @@
 
 - [K1nakoo/CVE-2024-10410](https://github.com/K1nakoo/CVE-2024-10410)
 
+### CVE-2024-10441 (2025-03-19)
+
+<code>Improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) before 1.1-65374 and Synology DiskStation Manager (DSM) before 7.2-64570-4, 7.2.1-69057-6 and 7.2.2-72806-1 allows remote attackers to execute arbitrary code via unspecified vectors.
+</code>
+
+- [Ntn10/cve-2024-10441-synology-rce](https://github.com/Ntn10/cve-2024-10441-synology-rce)
+
 ### CVE-2024-10448 (2024-10-28)
 
 <code>Eine problematische Schwachstelle wurde in code-projects Blood Bank Management System 1.0 entdeckt. Betroffen davon ist ein unbekannter Prozess der Datei /file/delete.php. Dank Manipulation des Arguments bid mit unbekannten Daten kann eine cross-site request forgery-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -43868,6 +43889,7 @@
 </code>
 
 - [synacktiv/CVE-2024-45409](https://github.com/synacktiv/CVE-2024-45409)
+- [barkotenicholas/CVE-2024-45409](https://github.com/barkotenicholas/CVE-2024-45409)
 
 ### CVE-2024-45410 (2024-09-19)
 
@@ -47316,7 +47338,6 @@
 - [LGenAgul/CVE-2023-4220-Proof-of-concept](https://github.com/LGenAgul/CVE-2023-4220-Proof-of-concept)
 - [VanishedPeople/CVE-2023-4220](https://github.com/VanishedPeople/CVE-2023-4220)
 - [thefizzyfish/CVE-2023-4220_Chamilo_RCE](https://github.com/thefizzyfish/CVE-2023-4220_Chamilo_RCE)
-- [qrxnz/CVE-2023-4220](https://github.com/qrxnz/CVE-2023-4220)
 - [0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit](https://github.com/0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit)
 - [bueno-armando/CVE-2023-4220-RCE](https://github.com/bueno-armando/CVE-2023-4220-RCE)
 - [0xDTC/Chamilo-LMS-CVE-2023-4220-Exploit](https://github.com/0xDTC/Chamilo-LMS-CVE-2023-4220-Exploit)
