@@ -8549,6 +8549,7 @@
 - [cleozi/Copy_Grail](https://github.com/cleozi/Copy_Grail)
 - [vorkampfer/copyfail2_electric_boogaloo_fix](https://github.com/vorkampfer/copyfail2_electric_boogaloo_fix)
 - [AdemZero/CVE-2026-31431](https://github.com/AdemZero/CVE-2026-31431)
+- [Lutfifakee-Project/CVE-2026-31431](https://github.com/Lutfifakee-Project/CVE-2026-31431)
 - [u1tr0nex/CVE-2026-31431-CopyFail-Lab](https://github.com/u1tr0nex/CVE-2026-31431-CopyFail-Lab)
 - [mauricioportela/CVE-2026-31431-Analysis](https://github.com/mauricioportela/CVE-2026-31431-Analysis)
 - [dgrobinson0/CopyFile_CVE-2026-31431](https://github.com/dgrobinson0/CopyFile_CVE-2026-31431)
@@ -11651,6 +11652,7 @@
 - [ankitrawatgit/DirtyFrag-Android-Root-Jailbreak](https://github.com/ankitrawatgit/DirtyFrag-Android-Root-Jailbreak)
 - [HirokiAkihiko/dirtyfrag-research](https://github.com/HirokiAkihiko/dirtyfrag-research)
 - [RemiPelloux/GalaxyCrash](https://github.com/RemiPelloux/GalaxyCrash)
+- [yameteeee-kudasaiiiiiii90/DFRoot](https://github.com/yameteeee-kudasaiiiiiii90/DFRoot)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -12212,6 +12214,7 @@
 </code>
 
 - [Boreas37/CVE-2026-44848-PoC](https://github.com/Boreas37/CVE-2026-44848-PoC)
+- [mnk-works/portainer-cve-2026-44848-checker](https://github.com/mnk-works/portainer-cve-2026-44848-checker)
 
 ### CVE-2026-44881 (2026-05-28)
 
@@ -14569,6 +14572,13 @@
 
 - [sentinel-aidefense/CVE-2026-56164-EXP](https://github.com/sentinel-aidefense/CVE-2026-56164-EXP)
 - [sam00/POC-CVE-2026-56164-exploit](https://github.com/sam00/POC-CVE-2026-56164-exploit)
+
+### CVE-2026-56190 (2026-07-14)
+
+<code>Use of uninitialized resource in Windows RDP allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [danarhirany300-ctrl/CVE-2026-56190-Windows-Server-2022-RDP](https://github.com/danarhirany300-ctrl/CVE-2026-56190-Windows-Server-2022-RDP)
 
 ### CVE-2026-56290 (2026-06-29)
 
@@ -17962,6 +17972,13 @@
 
 - [aduli198/CVE-2026-85102](https://github.com/aduli198/CVE-2026-85102)
 
+### CVE-2026-85168 (2026-09-03)
+
+<code>n8n versions before 1.123.73, 2.35.4, and 2.36.2 contain a remote code execution vulnerability in the Git node. The node reset a fixed list of command-bearing configuration keys before each operation, but that list did not cover the content-filter and merge-driver key families. A repository with local configuration setting one of those keys together with a matching attribute pattern causes git to execute the configured command during an ordinary Add, Commit, Checkout, or Pull operation. The command runs as the n8n process user.
+</code>
+
+- [Boreas37/CVE-2026-85168-PoC](https://github.com/Boreas37/CVE-2026-85168-PoC)
+
 ### CVE-2026-85243 (2026-10-19)
 
 <code>Improper Validation of Integrity Check Value vulnerability in Apache Camel Crypto PGP component.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nunmarshal() verified the modification detection code only when the message was an OpenPGP symmetrically encrypted integrity protected data packet. The older symmetrically encrypted data packet carries no such code, and OpenPGP's CFB mode is malleable without one, so a message using that packet skipped the check altogether. The packet type is chosen by whoever produced the message, which left the sender - or anyone able to rewrite the message in transit - deciding whether the integrity check applied at all. The existing integrity option governs marshalling only and had no decrypt-side counterpart, so a deployment could not require integrity protection on the messages it accepted.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. A requireIntegrityProtection option, defaulting to true, now rejects a message that is not integrity protected. Note that signatureVerificationOption still defaults to optional, so a message carrying no signature is accepted; the two options together are what give a decrypted message authenticity and not only confidentiality. For deployments that cannot upgrade immediately, reject messages that do not use the integrity protected packet before they reach the data format. Routes that must interoperate with a sender still emitting the legacy packet should set requireIntegrityProtection=false after upgrading, and treat the decrypted content as unauthenticated.
@@ -18109,6 +18126,13 @@
 
 - [murrez/CVE-2026-85520](https://github.com/murrez/CVE-2026-85520)
 
+### CVE-2026-85595 (2026-09-04)
+
+<code>Traefik versions before v2.11.55 and versions v3.0.0 through v3.7.10 contain an authentication bypass vulnerability in the digestAuth middleware where unknown usernames receive an empty secret instead of rejection. Attackers can compute a valid digest response using the empty secret and arbitrary credentials to bypass authentication on any digestAuth-protected route without a valid username or password.
+</code>
+
+- [Boreas37/CVE-2026-85595-PoC](https://github.com/Boreas37/CVE-2026-85595-PoC)
+
 ### CVE-2026-85625 (2026-09-04)
 
 <code>sift (sift.js) 17.1.3 enumerates query keys with for...in, which walks the object prototype chain, and dispatches any matched operator key including $where. The $where operation compiles a string value into a function using new Function unless CSP_ENABLED is set (not set by default). As a result, if a prototype-pollution primitive elsewhere in the process sets Object.prototype.$where to a malicious string, even benign filter calls such as sift({}) execute arbitrary JavaScript. Additionally, passing an untrusted query object containing a string $where directly to sift results in code execution under the default configuration.
@@ -18178,6 +18202,13 @@
 - [bahirul/cve-2026-86060](https://github.com/bahirul/cve-2026-86060)
 - [digiprosec/MicroTrick](https://github.com/digiprosec/MicroTrick)
 - [gagaltotal/CVE-2026-mikrotik-poc](https://github.com/gagaltotal/CVE-2026-mikrotik-poc)
+
+### CVE-2026-86076 (2026-09-08)
+
+<code>n8n is an open source workflow automation platform. Prior to 1.123.76, 2.37.7, and 2.38.2, the expression compiler sanitizer resolved through dynamically scoped this and did not reject reserved class member names. A class field named __sanitize could rebind the sanitizer and reach the Function constructor, enabling backend code execution and editor-preview JavaScript execution. The affected AST hook is PrototypeSanitizer in packages/workflow/src/expression-sandboxing.ts. This issue is fixed in versions 1.123.76, 2.37.7 and 2.38.2.
+</code>
+
+- [Boreas37/CVE-2026-86076-PoC](https://github.com/Boreas37/CVE-2026-86076-PoC)
 
 ### CVE-2026-86086
 - [D7EAD/CVE-2026-86086](https://github.com/D7EAD/CVE-2026-86086)
@@ -18392,6 +18423,13 @@
 </code>
 
 - [Boreas37/CVE-2026-88008-PoC](https://github.com/Boreas37/CVE-2026-88008-PoC)
+
+### CVE-2026-88009 (2026-09-10)
+
+<code>Traefik is an open source HTTP reverse proxy and load balancer. Prior to 2.11.57, and 3.7.13, Traefik accepts a rootless HTTP/1 request target that Go stores in URL.Opaque while leaving URL.Path empty. The rewriteRequestBuilder path evaluates routing, path sanitization, forwardAuth, encodedCharacters, and access logging against a path normalized to / but forwards URL.Opaque verbatim to the backend, allowing cross-vhost routing bypass, path-scoped authorization bypass, and access-log evasion when the backend interprets the opaque target as a path. This issue is fixed in 2.11.57 and 3.7.13.
+</code>
+
+- [Boreas37/CVE-2026-88009-PoC](https://github.com/Boreas37/CVE-2026-88009-PoC)
 
 ### CVE-2026-88533
 - [HEMLOCK-LYK/CVE-2026-88533](https://github.com/HEMLOCK-LYK/CVE-2026-88533)
@@ -20526,7 +20564,6 @@
 - [ultravistor/int](https://github.com/ultravistor/int)
 - [solymx/php-cve-2026-research](https://github.com/solymx/php-cve-2026-research)
 - [yanzyuyu/php2shell-prtct](https://github.com/yanzyuyu/php2shell-prtct)
-- [LightSpeedC/20261022-research-php-cve](https://github.com/LightSpeedC/20261022-research-php-cve)
 - [the-metafactory/php-patch-verify](https://github.com/the-metafactory/php-patch-verify)
 - [meuhland/php-legacy-windows-builds](https://github.com/meuhland/php-legacy-windows-builds)
 - [viniciusbossle/php74-el7-php2shell](https://github.com/viniciusbossle/php74-el7-php2shell)
@@ -20631,6 +20668,7 @@
 - [SanWRoot/php2shell-LAB-POC-](https://github.com/SanWRoot/php2shell-LAB-POC-)
 - [dustyFski/php2shell-exposure-accelerator](https://github.com/dustyFski/php2shell-exposure-accelerator)
 - [cred0core/Sigma-rule-CVE-2026-109618](https://github.com/cred0core/Sigma-rule-CVE-2026-109618)
+- [shivrajem/php2shell-detect](https://github.com/shivrajem/php2shell-detect)
 - [SmR492/php-7.2-CVE-2026-109618-109619](https://github.com/SmR492/php-7.2-CVE-2026-109618-109619)
 - [SmR492/php-7.3-CVE-2026-109618-109619](https://github.com/SmR492/php-7.3-CVE-2026-109618-109619)
 - [bashclub/php2shell-forensic-check](https://github.com/bashclub/php2shell-forensic-check)
@@ -20905,6 +20943,7 @@
 - [imaginal/docker-php74-trixie](https://github.com/imaginal/docker-php74-trixie)
 - [nikhilyadav551/php2shel](https://github.com/nikhilyadav551/php2shel)
 - [utkarsssh17/cve-2026-109618-php2shell-poc](https://github.com/utkarsssh17/cve-2026-109618-php2shell-poc)
+- [bogdik/php2shell-el7-el8-rpm-fixed](https://github.com/bogdik/php2shell-el7-el8-rpm-fixed)
 - [sajjadh47/php2shell-php](https://github.com/sajjadh47/php2shell-php)
 - [Rahat463/patchferry-check](https://github.com/Rahat463/patchferry-check)
 - [E-Sherlock/php2shell-detection-engineering-lab](https://github.com/E-Sherlock/php2shell-detection-engineering-lab)
@@ -20912,6 +20951,14 @@
 - [devzyai/CVE-2026-109618-POC](https://github.com/devzyai/CVE-2026-109618-POC)
 - [Nguemoue/project2026_20261024_php2shellcheck](https://github.com/Nguemoue/project2026_20261024_php2shellcheck)
 - [akamor2800/php-5.4-cve-2026-php2shell-patch](https://github.com/akamor2800/php-5.4-cve-2026-php2shell-patch)
+- [citypeople/php2shell](https://github.com/citypeople/php2shell)
+- [ZiarenEASM/php2shell-probe](https://github.com/ZiarenEASM/php2shell-probe)
+- [egctl/php2shell](https://github.com/egctl/php2shell)
+- [mostofajr7-sudo/CVE-2026-109618-CVE-2026-109619-php2shell-](https://github.com/mostofajr7-sudo/CVE-2026-109618-CVE-2026-109619-php2shell-)
+- [StiJans/php8-cve-109618-109619-fix](https://github.com/StiJans/php8-cve-109618-109619-fix)
+- [Ademking/php2shell-migration](https://github.com/Ademking/php2shell-migration)
+- [darkLabz001/php2shell-audit](https://github.com/darkLabz001/php2shell-audit)
+- [vaishnavucv/php2shell](https://github.com/vaishnavucv/php2shell)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21113,6 +21160,9 @@
 - [pt-act/node2shell-cve-2026-111497](https://github.com/pt-act/node2shell-cve-2026-111497)
 - [s1ko/poc-cve-2026-111497](https://github.com/s1ko/poc-cve-2026-111497)
 - [tc4dy/CVE-2026-111497-Toolkit](https://github.com/tc4dy/CVE-2026-111497-Toolkit)
+- [mnk-works/cve-2026-111497-rce-checker](https://github.com/mnk-works/cve-2026-111497-rce-checker)
+- [syrex1013/CVE-2026-111497-node2shell](https://github.com/syrex1013/CVE-2026-111497-node2shell)
+- [yavuzsemih/brotli-secfix](https://github.com/yavuzsemih/brotli-secfix)
 
 ### CVE-2026-111770
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
@@ -21169,6 +21219,7 @@
 </code>
 
 - [techupdate24/python-pillow-rce-cve-2026-112900](https://github.com/techupdate24/python-pillow-rce-cve-2026-112900)
+- [moprius/CVE-2026-112900-Pillow-PoC](https://github.com/moprius/CVE-2026-112900-Pillow-PoC)
 
 ### CVE-2026-113468 (2026-10-20)
 
@@ -34368,13 +34419,6 @@
 
 - [hex0user/CVE-2025-69295](https://github.com/hex0user/CVE-2025-69295)
 
-### CVE-2025-69413 (2026-01-01)
-
-<code>In Gitea before 1.25.2, /api/v1/user has different responses for failed authentication depending on whether a username exists.
-</code>
-
-- [fuad00/CVE-2025-69413-PoC](https://github.com/fuad00/CVE-2025-69413-PoC)
-
 ### CVE-2025-69419 (2026-01-27)
 
 <code>Issue summary: Calling PKCS12_get_friendlyname() function on a maliciously\ncrafted PKCS#12 file with a BMPString (UTF-16BE) friendly name containing\nnon-ASCII BMP code point can trigger a one byte write before the allocated\nbuffer.\n\nImpact summary: The out-of-bounds write can cause a memory corruption\nwhich can have various consequences including a Denial of Service.\n\nThe OPENSSL_uni2utf8() function performs a two-pass conversion of a PKCS#12\nBMPString (UTF-16BE) to UTF-8. In the second pass, when emitting UTF-8 bytes,\nthe helper function bmp_to_utf8() incorrectly forwards the remaining UTF-16\nsource byte count as the destination buffer capacity to UTF8_putc(). For BMP\ncode points above U+07FF, UTF-8 requires three bytes, but the forwarded\ncapacity can be just two bytes. UTF8_putc() then returns -1, and this negative\nvalue is added to the output length without validation, causing the\nlength to become negative. The subsequent trailing NUL byte is then written\nat a negative offset, causing write outside of heap allocated buffer.\n\nThe vulnerability is reachable via the public PKCS12_get_friendlyname() API\nwhen parsing attacker-controlled PKCS#12 files. While PKCS12_parse() uses a\ndifferent code path that avoids this issue, PKCS12_get_friendlyname() directly\ninvokes the vulnerable function. Exploitation requires an attacker to provide\na malicious PKCS#12 file to be parsed by the application and the attacker\ncan just trigger a one zero byte write before the allocated buffer.\nFor that reason the issue was assessed as Low severity according to our\nSecurity Policy.\n\nThe FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,\nas the PKCS#12 implementation is outside the OpenSSL FIPS module boundary.\n\nOpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.\n\nOpenSSL 1.0.2 is not affected by this issue.
@@ -40098,7 +40142,6 @@
 - [RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit)
 - [apkc/CVE-2024-26229-BOF](https://github.com/apkc/CVE-2024-26229-BOF)
 - [team-MineDEV/CVE-2024-26229](https://github.com/team-MineDEV/CVE-2024-26229)
-- [Cracked5pider/eop24-26229](https://github.com/Cracked5pider/eop24-26229)
 - [mqxmm/CVE-2024-26229](https://github.com/mqxmm/CVE-2024-26229)
 - [shinspace92/cve-2024-26229](https://github.com/shinspace92/cve-2024-26229)
 - [vettrivel007/CVE-2024-26229](https://github.com/vettrivel007/CVE-2024-26229)
@@ -44416,11 +44459,11 @@
 - [ally-petitt/CVE-2024-48990-Exploit](https://github.com/ally-petitt/CVE-2024-48990-Exploit)
 - [CyberCrowCC/CVE-2024-48990](https://github.com/CyberCrowCC/CVE-2024-48990)
 - [NullByte-7w7/CVE-2024-48990](https://github.com/NullByte-7w7/CVE-2024-48990)
-- [czeti/CVE-2024-48990_needrestart](https://github.com/czeti/CVE-2024-48990_needrestart)
 - [Serner77/CVE-2024-48990-Automatic-Exploit](https://github.com/Serner77/CVE-2024-48990-Automatic-Exploit)
 - [mladicstefan/CVE-2024-48990](https://github.com/mladicstefan/CVE-2024-48990)
 - [Mr-DJ/CVE-2024-48990](https://github.com/Mr-DJ/CVE-2024-48990)
 - [Loaxert/CVE-2024-48990-PoC](https://github.com/Loaxert/CVE-2024-48990-PoC)
+- [endermixxer/CVE-2024-48990_needrestart](https://github.com/endermixxer/CVE-2024-48990_needrestart)
 - [0x3bs/CVE-2024-48990](https://github.com/0x3bs/CVE-2024-48990)
 - [o-sec/CVE-2024-48990](https://github.com/o-sec/CVE-2024-48990)
 - [sobbing333/CVE-2024-48990-POC](https://github.com/sobbing333/CVE-2024-48990-POC)
@@ -64289,7 +64332,6 @@
 - [lypd0/CVE-2021-3156-checker](https://github.com/lypd0/CVE-2021-3156-checker)
 - [Bad3r/CVE-2021-3156-without-ip-command](https://github.com/Bad3r/CVE-2021-3156-without-ip-command)
 - [Sebastianbedoya25/CVE-2021-3156](https://github.com/Sebastianbedoya25/CVE-2021-3156)
-- [czeti/baron-samedit](https://github.com/czeti/baron-samedit)
 - [Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-](https://github.com/Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-)
 - [shishirpandey18/CVE-2021-3156](https://github.com/shishirpandey18/CVE-2021-3156)
 - [Shuhaib88/Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156](https://github.com/Shuhaib88/Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156)
@@ -67076,6 +67118,7 @@
 - [iranzai/CVE-2021-31166-exploit](https://github.com/iranzai/CVE-2021-31166-exploit)
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
 - [0xmaximus/Home-Demolisher](https://github.com/0xmaximus/Home-Demolisher)
+- [testerxma/cve-2021-31166-poc](https://github.com/testerxma/cve-2021-31166-poc)
 
 ### CVE-2021-31184 (2021-05-11)
 
@@ -68120,13 +68163,6 @@
 
 - [gkrishnan724/CVE-2021-38297](https://github.com/gkrishnan724/CVE-2021-38297)
 - [paras98/CVE-2021-38297-Go-wasm-Replication](https://github.com/paras98/CVE-2021-38297-Go-wasm-Replication)
-
-### CVE-2021-38304 (2021-09-17)
-
-<code>Improper input validation in the National Instruments NI-PAL driver in versions 20.0.0 and prior may allow a privileged user to potentially enable escalation of privilege via local access.
-</code>
-
-- [philsajdak/CVE-2021-38304-PoC](https://github.com/philsajdak/CVE-2021-38304-PoC)
 
 ### CVE-2021-38314 (2021-09-02)
 
