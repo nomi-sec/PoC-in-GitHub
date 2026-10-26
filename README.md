@@ -4672,6 +4672,7 @@
 - [Hassan-Pouladi/Cisco-FMC-honeypot](https://github.com/Hassan-Pouladi/Cisco-FMC-honeypot)
 - [0xBlackash/CVE-2026-20131](https://github.com/0xBlackash/CVE-2026-20131)
 - [Jwa7470/CVE-2026-20131-Post-Incident-Written-Report](https://github.com/Jwa7470/CVE-2026-20131-Post-Incident-Written-Report)
+- [basesixtythree/B63-POC-CVE-2026-20131](https://github.com/basesixtythree/B63-POC-CVE-2026-20131)
 
 ### CVE-2026-20169 (2026-05-06)
 
@@ -11596,6 +11597,7 @@
 - [FranklinF25/cve-2026-42945](https://github.com/FranklinF25/cve-2026-42945)
 - [porcumarcooo/THM-CVE-2026-42945-Nginx-Rift-Exploit](https://github.com/porcumarcooo/THM-CVE-2026-42945-Nginx-Rift-Exploit)
 - [rune42/ElasticRift](https://github.com/rune42/ElasticRift)
+- [x0xr00t/sl0ppy-riftscan-CVE-2026-42945](https://github.com/x0xr00t/sl0ppy-riftscan-CVE-2026-42945)
 
 ### CVE-2026-42978 (2026-06-09)
 
@@ -17044,6 +17046,7 @@
 - [disrex-group/stylesmuggler-adobe-patches-mageos](https://github.com/disrex-group/stylesmuggler-adobe-patches-mageos)
 - [fortbridge/stylesmuggler](https://github.com/fortbridge/stylesmuggler)
 - [abraxas/CVE-2026-75650](https://github.com/abraxas/CVE-2026-75650)
+- [basesixtythree/B63-POC-CVE-2026-75650](https://github.com/basesixtythree/B63-POC-CVE-2026-75650)
 
 ### CVE-2026-75816 (2026-09-06)
 
@@ -17971,6 +17974,13 @@
 
 - [jvidhan/autofs-cve-2026-84568](https://github.com/jvidhan/autofs-cve-2026-84568)
 - [redinpulse/CVE-2026-84568](https://github.com/redinpulse/CVE-2026-84568)
+
+### CVE-2026-84589 (2026-09-14)
+
+<code>A permissions issue was addressed with additional restrictions. This issue is fixed in macOS Golden Gate 27. An app may be able to modify Privacy preferences.
+</code>
+
+- [isaiahehlert/CVE-2026-84589-macOS-TCC-Bypass](https://github.com/isaiahehlert/CVE-2026-84589-macOS-TCC-Bypass)
 
 ### CVE-2026-84600 (2026-09-14)
 
@@ -19416,6 +19426,8 @@
 - [sganggs/CVE-2026-98260-BRM-AN00](https://github.com/sganggs/CVE-2026-98260-BRM-AN00)
 - [zsw125/o3root](https://github.com/zsw125/o3root)
 - [janewas/cve-2026-98260-vivo-gki-research](https://github.com/janewas/cve-2026-98260-vivo-gki-research)
+- [addxemmm/CVE-2026-98260-pudding-android](https://github.com/addxemmm/CVE-2026-98260-pudding-android)
+- [AzirX1337/CVE-2026-98260-OnePlus16-PYB110-Jailbreak](https://github.com/AzirX1337/CVE-2026-98260-OnePlus16-PYB110-Jailbreak)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -21052,6 +21064,7 @@
 - [mefulton/CVE-2026-109618-php56-public](https://github.com/mefulton/CVE-2026-109618-php56-public)
 - [mamarce/php-vulns-discovered-23-10-2026](https://github.com/mamarce/php-vulns-discovered-23-10-2026)
 - [codiobert/runcloud-php2shell-patch](https://github.com/codiobert/runcloud-php2shell-patch)
+- [avego/php2shell](https://github.com/avego/php2shell)
 - [andreysheva/php2shell-doctor](https://github.com/andreysheva/php2shell-doctor)
 - [delvin-45/php2shell-CVE-2026-109618-CVE-2026-109619-PoC](https://github.com/delvin-45/php2shell-CVE-2026-109618-CVE-2026-109619-PoC)
 - [catscarlet/php-fpm-docker-PHP-7.4-CVE-2026-109618-109619-free](https://github.com/catscarlet/php-fpm-docker-PHP-7.4-CVE-2026-109618-109619-free)
@@ -21069,6 +21082,16 @@
 - [MrPrinceRawat/php2shell-behind-nginx](https://github.com/MrPrinceRawat/php2shell-behind-nginx)
 - [lucasbarros097/PHP2Shell__CVE-2026-109618__CVE2026-109619](https://github.com/lucasbarros097/PHP2Shell__CVE-2026-109618__CVE2026-109619)
 - [franckferman/CVE-2026-109618](https://github.com/franckferman/CVE-2026-109618)
+- [liuhahi/test-php](https://github.com/liuhahi/test-php)
+- [turovskiy/php2shell-fixer](https://github.com/turovskiy/php2shell-fixer)
+- [tranlammankg/php2shell-scanner](https://github.com/tranlammankg/php2shell-scanner)
+- [grergea/php81-el7-php2shell](https://github.com/grergea/php81-el7-php2shell)
+- [kjry8sb/php2shell-wordpress-rce-fullchain](https://github.com/kjry8sb/php2shell-wordpress-rce-fullchain)
+- [Nostraxiten/PHP2shell](https://github.com/Nostraxiten/PHP2shell)
+- [lynolz163/php2shell-research-public](https://github.com/lynolz163/php2shell-research-public)
+- [yildirimserkan/php2shellscanner-web](https://github.com/yildirimserkan/php2shellscanner-web)
+- [gagaltotal/CVE-2026-109618-109619-php2shell](https://github.com/gagaltotal/CVE-2026-109618-109619-php2shell)
+- [ahallais/php82-ubuntu2404-backport](https://github.com/ahallais/php82-ubuntu2404-backport)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21276,6 +21299,7 @@
 - [Hika-sec/http2shell-CVE-2026-111497](https://github.com/Hika-sec/http2shell-CVE-2026-111497)
 - [emirwtz/CVE-2026-111497](https://github.com/emirwtz/CVE-2026-111497)
 - [CompleTetech-Security/http2shell-check](https://github.com/CompleTetech-Security/http2shell-check)
+- [ionsec/node2shell-detector](https://github.com/ionsec/node2shell-detector)
 
 ### CVE-2026-111770
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
@@ -21407,6 +21431,7 @@
 - [googlesky/CVE-2026-115560](https://github.com/googlesky/CVE-2026-115560)
 - [al4n4n/CVE-2026-115560](https://github.com/al4n4n/CVE-2026-115560)
 - [renzi25031469/CVE-2026-115560](https://github.com/renzi25031469/CVE-2026-115560)
+- [Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0](https://github.com/Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0)
 
 ### CVE-2026-116011 (2026-10-24)
 
@@ -21422,10 +21447,25 @@
 
 - [D7EAD/CVE-2026-116012](https://github.com/D7EAD/CVE-2026-116012)
 
-### CVE-2026-116105
+### CVE-2026-116063 (2026-10-25)
+
+<code>A weakness has been identified in DedeCMS up to 5.7.118. Impacted is the function require_once of the file dede/update_guide.php. This manipulation of the argument vtime causes code injection. Remote exploitation of the attack is possible. The exploit has been made available to the public and could be used for attacks.
+</code>
+
+- [SDshadow/CVE-2026-116063](https://github.com/SDshadow/CVE-2026-116063)
+
+### CVE-2026-116105 (2026-10-26)
+
+<code>A weakness has been identified in HeyCyan App 1.0.103 on Android. Affected is an unknown function of the file AndroidManifest.xml of the component Network Security Configuration. Executing a manipulation can lead to cleartext transmission of sensitive information. The attack can be launched remotely. The attack requires a high level of complexity. The exploitability is told to be difficult. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
 - [ohackercego/CVE-2026-116105](https://github.com/ohackercego/CVE-2026-116105)
 
-### CVE-2026-116106
+### CVE-2026-116106 (2026-10-26)
+
+<code>A security vulnerability has been detected in HeyCyan App 1.0.103 on Android. Affected by this vulnerability is an unknown functionality of the component FileProvider. The manipulation leads to improper access controls. The attack may be initiated remotely. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
 - [ohackercego/CVE-2026-116106](https://github.com/ohackercego/CVE-2026-116106)
 
 ### CVE-2026-116191 (2026-10-25)
@@ -22799,6 +22839,7 @@
 - [M4Rc0s-S3c/CVE-2025-5548-FreeFloat-FTP-Lab](https://github.com/M4Rc0s-S3c/CVE-2025-5548-FreeFloat-FTP-Lab)
 - [jonbondani/CVE-2025-5548](https://github.com/jonbondani/CVE-2025-5548)
 - [pedrose-99/CVE-2025-5548](https://github.com/pedrose-99/CVE-2025-5548)
+- [FreemanHack/CVE-2025-5548](https://github.com/FreemanHack/CVE-2025-5548)
 
 ### CVE-2025-5640 (2025-06-05)
 
@@ -84728,6 +84769,7 @@
 <code>In the Linux kernel 4.15.x through 4.19.x before 4.19.2, map_write() in kernel/user_namespace.c allows privilege escalation because it mishandles nested user namespaces with more than 5 UID or GID ranges. A user who has CAP_SYS_ADMIN in an affected user namespace can bypass access controls on resources outside the namespace, as demonstrated by reading /etc/shadow. This occurs because an ID transformation takes place properly for the namespaced-to-kernel direction but not for the kernel-to-namespaced direction.
 </code>
 
+- [scheatkode/CVE-2018-18955](https://github.com/scheatkode/CVE-2018-18955)
 - [WhatsWrongAndWhy/CVE-2018-18955](https://github.com/WhatsWrongAndWhy/CVE-2018-18955)
 
 ### CVE-2018-19052 (2018-11-07)
@@ -84910,6 +84952,7 @@
 </code>
 
 - [NS-Sp4ce/thinkphp5.XRce](https://github.com/NS-Sp4ce/thinkphp5.XRce)
+- [0xRar/ThinkPHP5_RCE](https://github.com/0xRar/ThinkPHP5_RCE)
 - [yilin1203/CVE-2018-20062](https://github.com/yilin1203/CVE-2018-20062)
 - [shenhui35/RedArrow](https://github.com/shenhui35/RedArrow)
 - [Jasper2018/CVE-2018-20062](https://github.com/Jasper2018/CVE-2018-20062)
@@ -87721,6 +87764,7 @@
 
 - [NeonNOXX/CVE-2017-1000028](https://github.com/NeonNOXX/CVE-2017-1000028)
 - [CyberCTF/vulhub-glassfish-cve-2017-1000028](https://github.com/CyberCTF/vulhub-glassfish-cve-2017-1000028)
+- [skl233/hdu-is-work1](https://github.com/skl233/hdu-is-work1)
 
 ### CVE-2017-1000083 (2017-09-05)
 
