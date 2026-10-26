@@ -326,7 +326,6 @@
 - [ANYLNK/STProcessMonitorBYOVD](https://github.com/ANYLNK/STProcessMonitorBYOVD)
 - [oxfemale/KillChain](https://github.com/oxfemale/KillChain)
 - [mein-0/cve-2026-0828](https://github.com/mein-0/cve-2026-0828)
-- [Hika-sec/Terminator_Killer](https://github.com/Hika-sec/Terminator_Killer)
 - [ximerag/dast](https://github.com/ximerag/dast)
 
 ### CVE-2026-0834 (2026-01-21)
@@ -4176,6 +4175,13 @@
 </code>
 
 - [Polosss/By-Poloss..-..CVE-2026-18080](https://github.com/Polosss/By-Poloss..-..CVE-2026-18080)
+
+### CVE-2026-18107 (2026-07-28)
+
+<code>A flaw was found in CRIU's handling of restartable sequences (rseq) during checkpoint/restore. A malicious process inside a container can register an rseq critical section that hijacks CRIU's parasite code injection during checkpoint, allowing it to spoof the process credentials saved in the checkpoint image. On restore, the container process gains elevated capabilities and zeroed UIDs/GIDs.\n\nThe practical impact on Red Hat products is limited by several factors: checkpoint/restore requires root privileges (podman) or cluster-admin RBAC (OpenShift) to trigger and cannot be initiated from within the container itself; on OpenShift prior to 4.17 the feature required explicit opt-in, and on 4.17+ the kubelet checkpoint API RBAC is not configured by default; OpenShift enforces user namespaces by default for regular workloads (hostUsers is gated behind admin-only SCCs), which makes the spoofed capabilities namespace-scoped and ineffective for privilege escalation; SELinux type enforcement (container_t) blocks privilege transitions independently of capabilities; seccomp filters persist through checkpoint/restore and cannot be corrupted via the parasite; and kernel mount namespace ownership checks on RHEL 9/10 kernels prevent mount-based container escape even with spoofed capabilities.
+</code>
+
+- [robalb/criu-exploit](https://github.com/robalb/criu-exploit)
 
 ### CVE-2026-18110 (2026-09-15)
 
@@ -11842,7 +11848,6 @@
 - [tingao/debian-on-s23-ultra](https://github.com/tingao/debian-on-s23-ultra)
 - [villager1314/CVE-2026-43499-Analysis](https://github.com/villager1314/CVE-2026-43499-Analysis)
 - [shangu2003/SamsungRootKit](https://github.com/shangu2003/SamsungRootKit)
-- [y896406256-lang/ghostlock-brt-w09](https://github.com/y896406256-lang/ghostlock-brt-w09)
 - [saltlyfish666/magicpad3-root-research](https://github.com/saltlyfish666/magicpad3-root-research)
 - [MSEDGE-CORE/GhostLock-HonorFne](https://github.com/MSEDGE-CORE/GhostLock-HonorFne)
 - [Venshell/hlk-al00-kernel-build](https://github.com/Venshell/hlk-al00-kernel-build)
@@ -11856,6 +11861,7 @@
 - [BH3GEI/honor-aap-an00-root-skill](https://github.com/BH3GEI/honor-aap-an00-root-skill)
 - [crastatelvin/a12-ghostlock](https://github.com/crastatelvin/a12-ghostlock)
 - [quillfinch/Galaxy-Tab-S10FE-Root](https://github.com/quillfinch/Galaxy-Tab-S10FE-Root)
+- [theboringhumane/Root-My-Galaxy-Payloads-SM-S928B](https://github.com/theboringhumane/Root-My-Galaxy-Payloads-SM-S928B)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -20963,6 +20969,7 @@
 - [spade-kk/php2shell-exploit](https://github.com/spade-kk/php2shell-exploit)
 - [zake1god/php2shell](https://github.com/zake1god/php2shell)
 - [malikad778/php2shell-guard](https://github.com/malikad778/php2shell-guard)
+- [SirjanSingh/shiny-php](https://github.com/SirjanSingh/shiny-php)
 - [scriptzteam/Paranoid-PHP2Shell](https://github.com/scriptzteam/Paranoid-PHP2Shell)
 - [MomoRizza/php2shell](https://github.com/MomoRizza/php2shell)
 - [CyberSunil/cybersunil.github.io](https://github.com/CyberSunil/cybersunil.github.io)
@@ -21018,7 +21025,6 @@
 - [87sunitasingh-droid/RHYTHM-SINGH](https://github.com/87sunitasingh-droid/RHYTHM-SINGH)
 - [imaginal/docker-php74-trixie](https://github.com/imaginal/docker-php74-trixie)
 - [nikhilyadav551/php2shel](https://github.com/nikhilyadav551/php2shel)
-- [utkarsssh17/cve-2026-109618-php2shell-poc](https://github.com/utkarsssh17/cve-2026-109618-php2shell-poc)
 - [bogdik/php2shell-el7-el8-rpm-fixed](https://github.com/bogdik/php2shell-el7-el8-rpm-fixed)
 - [sajjadh47/php2shell-php](https://github.com/sajjadh47/php2shell-php)
 - [Rahat463/patchferry-check](https://github.com/Rahat463/patchferry-check)
@@ -21050,13 +21056,19 @@
 - [delvin-45/php2shell-CVE-2026-109618-CVE-2026-109619-PoC](https://github.com/delvin-45/php2shell-CVE-2026-109618-CVE-2026-109619-PoC)
 - [catscarlet/php-fpm-docker-PHP-7.4-CVE-2026-109618-109619-free](https://github.com/catscarlet/php-fpm-docker-PHP-7.4-CVE-2026-109618-109619-free)
 - [andreysheva/homebrew-php2shell-doctor](https://github.com/andreysheva/homebrew-php2shell-doctor)
-- [testerxma/php2shellX](https://github.com/testerxma/php2shellX)
+- [testerxma/php2shell](https://github.com/testerxma/php2shell)
 - [ha1c9on/php2shell](https://github.com/ha1c9on/php2shell)
 - [nokitakaze/CVE-2026-109618-109619-checker](https://github.com/nokitakaze/CVE-2026-109618-109619-checker)
 - [0x1c1101/CVE-2026-109618-PoC](https://github.com/0x1c1101/CVE-2026-109618-PoC)
 - [fbuff-tools/php2shell-checker](https://github.com/fbuff-tools/php2shell-checker)
 - [kipmyk/PHP2Shell](https://github.com/kipmyk/PHP2Shell)
 - [jeffschafer/Bigfix-PHP-Vulnerability-Scanner-Content-CVE-2026-109618-CVE-2026-109619](https://github.com/jeffschafer/Bigfix-PHP-Vulnerability-Scanner-Content-CVE-2026-109618-CVE-2026-109619)
+- [Leviticus-Triage/php2shell-unchained](https://github.com/Leviticus-Triage/php2shell-unchained)
+- [daothinh/php2shell-monitor-rz](https://github.com/daothinh/php2shell-monitor-rz)
+- [fernandotellado/php2shell-wordpress-check](https://github.com/fernandotellado/php2shell-wordpress-check)
+- [MrPrinceRawat/php2shell-behind-nginx](https://github.com/MrPrinceRawat/php2shell-behind-nginx)
+- [lucasbarros097/PHP2Shell__CVE-2026-109618__CVE2026-109619](https://github.com/lucasbarros097/PHP2Shell__CVE-2026-109618__CVE2026-109619)
+- [franckferman/CVE-2026-109618](https://github.com/franckferman/CVE-2026-109618)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21085,7 +21097,7 @@
 - [aarsaputra/php2shell](https://github.com/aarsaputra/php2shell)
 - [Taz1920/cve-2026-109619](https://github.com/Taz1920/cve-2026-109619)
 - [abraxas/php-stale-global-uaf](https://github.com/abraxas/php-stale-global-uaf)
-- [utkarsssh17/cve-2026-109619-php-uaf-poc](https://github.com/utkarsssh17/cve-2026-109619-php-uaf-poc)
+- [franckferman/CVE-2026-109619](https://github.com/franckferman/CVE-2026-109619)
 
 ### CVE-2026-109715 (2026-10-13)
 
@@ -21107,13 +21119,6 @@
 </code>
 
 - [capivara-research/CVE-2026-110025](https://github.com/capivara-research/CVE-2026-110025)
-
-### CVE-2026-110152 (2026-10-13)
-
-<code>Buffer overflow in ANGLE in Google Chrome on on Android prior to 155.0.8059.79 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)
-</code>
-
-- [utkarsssh17/cve-2026-110152-chrome-ngle-rce-poc](https://github.com/utkarsssh17/cve-2026-110152-chrome-ngle-rce-poc)
 
 ### CVE-2026-110264 (2026-10-22)
 
@@ -21236,7 +21241,7 @@
 - [TheFool-TAROT/CVE-2026-111497-brotli-pwn](https://github.com/TheFool-TAROT/CVE-2026-111497-brotli-pwn)
 - [ikow/brotli2crash](https://github.com/ikow/brotli2crash)
 - [Charlie-Netdevops/node-hostcheck](https://github.com/Charlie-Netdevops/node-hostcheck)
-- [datmt/emudhra-fix](https://github.com/datmt/emudhra-fix)
+- [datmt/vulcheck](https://github.com/datmt/vulcheck)
 - [duytien241/nodejs-CVE-2026-111497](https://github.com/duytien241/nodejs-CVE-2026-111497)
 - [shivrajem/node2shell-detect](https://github.com/shivrajem/node2shell-detect)
 - [TahuCryptsi/brotli-distro-check](https://github.com/TahuCryptsi/brotli-distro-check)
@@ -21250,7 +21255,6 @@
 - [fuzheado/n2s-buildpack-probe](https://github.com/fuzheado/n2s-buildpack-probe)
 - [ks-labs/brotli-patch](https://github.com/ks-labs/brotli-patch)
 - [Blackman99/lotstamp](https://github.com/Blackman99/lotstamp)
-- [utkarsssh17/cve-2026-111497-brotli-poc](https://github.com/utkarsssh17/cve-2026-111497-brotli-poc)
 - [mahumadad/CVE-2026-111497-assessment](https://github.com/mahumadad/CVE-2026-111497-assessment)
 - [googlesky/CVE-2026-111497](https://github.com/googlesky/CVE-2026-111497)
 - [lesterlam/node2shell](https://github.com/lesterlam/node2shell)
@@ -21271,6 +21275,7 @@
 - [fbuff-tools/http2shell-checker](https://github.com/fbuff-tools/http2shell-checker)
 - [Hika-sec/http2shell-CVE-2026-111497](https://github.com/Hika-sec/http2shell-CVE-2026-111497)
 - [emirwtz/CVE-2026-111497](https://github.com/emirwtz/CVE-2026-111497)
+- [CompleTetech-Security/http2shell-check](https://github.com/CompleTetech-Security/http2shell-check)
 
 ### CVE-2026-111770
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
@@ -21306,6 +21311,9 @@
 </code>
 
 - [jasonbernier/Dialplan-Escape-RCE](https://github.com/jasonbernier/Dialplan-Escape-RCE)
+
+### CVE-2026-112325
+- [j0xh-sec/CVE-2026-112325](https://github.com/j0xh-sec/CVE-2026-112325)
 
 ### CVE-2026-112398 (2026-10-19)
 
@@ -21413,6 +21421,19 @@
 </code>
 
 - [D7EAD/CVE-2026-116012](https://github.com/D7EAD/CVE-2026-116012)
+
+### CVE-2026-116105
+- [ohackercego/CVE-2026-116105](https://github.com/ohackercego/CVE-2026-116105)
+
+### CVE-2026-116106
+- [ohackercego/CVE-2026-116106](https://github.com/ohackercego/CVE-2026-116106)
+
+### CVE-2026-116191 (2026-10-25)
+
+<code>Rclone before 1.75.2 contains a path traversal vulnerability in serve webdav that allows unauthenticated attackers to write above the served root by sending an unvalidated '..' path component. Attackers can send MKCOL /.. to plant a VFS node, then PUT, MOVE, COPY, or MKCOL to create, overwrite, or delete files belonging to other tenants.
+</code>
+
+- [asvorg/CVE-2026-116191-poc](https://github.com/asvorg/CVE-2026-116191-poc)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -65881,6 +65902,7 @@
 
 ### CVE-2021-23410
 - [azu/msgpack-CVE-2021-23410-test](https://github.com/azu/msgpack-CVE-2021-23410-test)
+- [risvensehiraxt/msgpack-CVE-2021-23410-test.hpp](https://github.com/risvensehiraxt/msgpack-CVE-2021-23410-test.hpp)
 
 ### CVE-2021-23639 (2021-12-10)
 
@@ -84706,7 +84728,6 @@
 <code>In the Linux kernel 4.15.x through 4.19.x before 4.19.2, map_write() in kernel/user_namespace.c allows privilege escalation because it mishandles nested user namespaces with more than 5 UID or GID ranges. A user who has CAP_SYS_ADMIN in an affected user namespace can bypass access controls on resources outside the namespace, as demonstrated by reading /etc/shadow. This occurs because an ID transformation takes place properly for the namespaced-to-kernel direction but not for the kernel-to-namespaced direction.
 </code>
 
-- [scheatkode/CVE-2018-18955](https://github.com/scheatkode/CVE-2018-18955)
 - [WhatsWrongAndWhy/CVE-2018-18955](https://github.com/WhatsWrongAndWhy/CVE-2018-18955)
 
 ### CVE-2018-19052 (2018-11-07)
@@ -85898,6 +85919,7 @@
 - [MlSebrell/amthoneypot](https://github.com/MlSebrell/amthoneypot)
 - [embedi/amt_auth_bypass_poc](https://github.com/embedi/amt_auth_bypass_poc)
 - [TheWay-hue/CVE-2017-5689-Checker](https://github.com/TheWay-hue/CVE-2017-5689-Checker)
+- [aix567/C-A-S](https://github.com/aix567/C-A-S)
 
 ### CVE-2017-5693 (2018-07-31)
 
@@ -88592,6 +88614,7 @@
 - [ramahmdr/dirtycow](https://github.com/ramahmdr/dirtycow)
 - [elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm](https://github.com/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm)
 - [theo543/OSDS_Paper_CVE-2016-5195](https://github.com/theo543/OSDS_Paper_CVE-2016-5195)
+- [cbry-96/Dirty-Cow-Ubuntu-Server-16.04.1](https://github.com/cbry-96/Dirty-Cow-Ubuntu-Server-16.04.1)
 - [maur0amaya/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow](https://github.com/maur0amaya/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow)
 - [rauljvc8/Exploit-Dirty-Cow](https://github.com/rauljvc8/Exploit-Dirty-Cow)
 - [GonzaBot/kernel-exploit-dirtycow](https://github.com/GonzaBot/kernel-exploit-dirtycow)
