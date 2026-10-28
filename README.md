@@ -10310,6 +10310,13 @@
 ### CVE-2026-38053
 - [Crypte1/CVE-2026-38053---Remove-PPL](https://github.com/Crypte1/CVE-2026-38053---Remove-PPL)
 
+### CVE-2026-38056 (2026-09-11)
+
+<code>A local privilege escalation vulnerability exists in the iDirect iQ200 VSAT terminal running firmware 23.0.1.0. The iQ200 is a rackmount satellite modem deployed across oil and gas, maritime, defense, and remote infrastructure as the primary, and often sole communications link for offshore rigs, vessels, and remote sites. Important context: the device ships from the factory with a pre-configured low-privilege local user account. This account is intended for field technicians who need shell access for maintenance and diagnostics but should not have full administrative control over the device. This built-in account provides the initial access required to exploit this vulnerability. No additional credentials need to be obtained or brute-forced.
+</code>
+
+- [sudo5Q/CVE-2026-38056-PoC](https://github.com/sudo5Q/CVE-2026-38056-PoC)
+
 ### CVE-2026-38165 (2026-08-17)
 
 <code>A Server-Side Template Injection (SSTI) vulnerability in the Velocity template engine configuration of xdocreport v0.9.2 to v2.2.0 allows attackers to execute arbitrary code via a crafted expression.
@@ -11440,6 +11447,7 @@
 - [HORKimhab/CVE-2026-42530](https://github.com/HORKimhab/CVE-2026-42530)
 - [v4ltonn/CVE-2026-42530](https://github.com/v4ltonn/CVE-2026-42530)
 - [0xBlackash/CVE-2026-42530](https://github.com/0xBlackash/CVE-2026-42530)
+- [Udyz/CVE-2026-42530](https://github.com/Udyz/CVE-2026-42530)
 
 ### CVE-2026-42533 (2026-07-15)
 
@@ -11892,6 +11900,7 @@
 - [Venshell/hlk-al00-kernel-build](https://github.com/Venshell/hlk-al00-kernel-build)
 - [Escosis/V2463A-LPE](https://github.com/Escosis/V2463A-LPE)
 - [AuroraMythweaver/iqoo-neo9-ghostlock-pc](https://github.com/AuroraMythweaver/iqoo-neo9-ghostlock-pc)
+- [poisongod/BakaSU-PostLock](https://github.com/poisongod/BakaSU-PostLock)
 - [Romk-a/CVE-2026-43499-ghostlock-vivo-x100-ultra-root](https://github.com/Romk-a/CVE-2026-43499-ghostlock-vivo-x100-ultra-root)
 - [adam-ikari/ghostlock-site](https://github.com/adam-ikari/ghostlock-site)
 - [wazzuj99-svg/Root-My-Galaxy](https://github.com/wazzuj99-svg/Root-My-Galaxy)
@@ -11902,6 +11911,8 @@
 - [quillfinch/Galaxy-Tab-S10FE-Root](https://github.com/quillfinch/Galaxy-Tab-S10FE-Root)
 - [theboringhumane/Root-My-Galaxy-Payloads-SM-S928B](https://github.com/theboringhumane/Root-My-Galaxy-Payloads-SM-S928B)
 - [RetributionByRevenue/xperia1vi-root](https://github.com/RetributionByRevenue/xperia1vi-root)
+- [tokenbleed/ghostlock-tv](https://github.com/tokenbleed/ghostlock-tv)
+- [Syerain/cve-2026-43499-mt6896-pd2238](https://github.com/Syerain/cve-2026-43499-mt6896-pd2238)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -18428,6 +18439,7 @@
 </code>
 
 - [Guila95/CVE-2026-86426](https://github.com/Guila95/CVE-2026-86426)
+- [piecar21/CVE-2026-86426](https://github.com/piecar21/CVE-2026-86426)
 
 ### CVE-2026-86476 (2026-10-14)
 
@@ -19375,6 +19387,13 @@
 - [uziii2208/CVE-2026-96760](https://github.com/uziii2208/CVE-2026-96760)
 - [piecar21/CVE-2026-96760](https://github.com/piecar21/CVE-2026-96760)
 
+### CVE-2026-96778 (2026-10-21)
+
+<code>Pillow is a Python imaging library. From 9.4.0 until 13.0.0, ImagingJpegEncode() in src/libImaging/JpegEncode.c can call jpeg_write_marker() for a JPEG COM comment when an ICC profile has exactly filled the 65536-byte encoder buffer. libjpeg writes one byte before checking the exhausted free_in_buffer counter, which then wraps and permits the attacker-controlled comment and subsequent compressed image data to overwrite adjacent heap memory. Re-saving an untrusted image as JPEG while preserving its ICC profile and forwarded comment can crash the process and may enable code execution in suitable runtime and heap layouts. This issue is fixed in version 13.0.0.
+</code>
+
+- [paktiko1986/CVE-2026-96778-pillow](https://github.com/paktiko1986/CVE-2026-96778-pillow)
+
 ### CVE-2026-96872 (2026-09-23)
 
 <code>Improper handling of insufficient permissions or privileges vulnerability in The Wikimedia Foundation Mediawiki - WikiLambda Extension on Linux, MacOS, and Windows allows Accessing Functionality Not Properly Constrained by ACLs.\n\nThis issue affects Mediawiki - WikiLambda Extension: before 1.47.0.
@@ -19582,6 +19601,8 @@
 - [woshigenm/CVE-2026-98260](https://github.com/woshigenm/CVE-2026-98260)
 - [b1gmang0/CVE-2026-98260-pandora-lpe](https://github.com/b1gmang0/CVE-2026-98260-pandora-lpe)
 - [YuKongA/CVE-2026-98260](https://github.com/YuKongA/CVE-2026-98260)
+- [zjns/CVE-2026-98260](https://github.com/zjns/CVE-2026-98260)
+- [4627488/cve-2026-98260-nezha](https://github.com/4627488/cve-2026-98260-nezha)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -21086,7 +21107,6 @@
 - [techtaek77/php2shell-guide](https://github.com/techtaek77/php2shell-guide)
 - [tani2shell/php2shell-lab](https://github.com/tani2shell/php2shell-lab)
 - [wemio/php2shell-scan](https://github.com/wemio/php2shell-scan)
-- [Pr0fEs0r-X/PHP2ShellX-CVE-2026-109618-109619](https://github.com/Pr0fEs0r-X/PHP2ShellX-CVE-2026-109618-109619)
 - [neoqmin/php2shell](https://github.com/neoqmin/php2shell)
 - [SideeID/php2shell](https://github.com/SideeID/php2shell)
 - [raeseoklee/php-safepatch](https://github.com/raeseoklee/php-safepatch)
@@ -21299,11 +21319,12 @@
 - [FoxKyong/php2shell-checks](https://github.com/FoxKyong/php2shell-checks)
 - [r0yfire/php2shell](https://github.com/r0yfire/php2shell)
 - [tal7aouy/php2shell-scanner](https://github.com/tal7aouy/php2shell-scanner)
-- [lflare/php2shell-cve-2026-109618](https://github.com/lflare/php2shell-cve-2026-109618)
 - [Liquescent-Development/CVE-2026-109618-CVE-2026-109619](https://github.com/Liquescent-Development/CVE-2026-109618-CVE-2026-109619)
 - [axisops/CVE-2026-109618-109619](https://github.com/axisops/CVE-2026-109618-109619)
 - [murat-levi/php2shell-poc](https://github.com/murat-levi/php2shell-poc)
 - [roblennon/php-scare-counted](https://github.com/roblennon/php-scare-counted)
+- [swguan325/php80-scl-el7-rebuild](https://github.com/swguan325/php80-scl-el7-rebuild)
+- [lflare/php2shell-cve-2026-109618-109619](https://github.com/lflare/php2shell-cve-2026-109618-109619)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21523,6 +21544,7 @@
 - [0xBlackash/CVE-2026-111497](https://github.com/0xBlackash/CVE-2026-111497)
 - [AdapptOnAzure/CVE-2026-111497-DotNetBrotliScan](https://github.com/AdapptOnAzure/CVE-2026-111497-DotNetBrotliScan)
 - [amier-ge/node2shell-checker](https://github.com/amier-ge/node2shell-checker)
+- [amier-ge/Node2Shell](https://github.com/amier-ge/Node2Shell)
 - [piecar21/CVE-2026-111497](https://github.com/piecar21/CVE-2026-111497)
 - [queso/formbricks-patched](https://github.com/queso/formbricks-patched)
 - [axisops/CVE-2026-111497](https://github.com/axisops/CVE-2026-111497)
@@ -21533,6 +21555,7 @@
 - [depuschm/brotli-k8s-scan](https://github.com/depuschm/brotli-k8s-scan)
 - [Ghost-Bx1/DotNet-HTTP2Shell-CVE-2026-111497](https://github.com/Ghost-Bx1/DotNet-HTTP2Shell-CVE-2026-111497)
 - [Nyamort/brotli-pingback-lab](https://github.com/Nyamort/brotli-pingback-lab)
+- [suominen/CVE-2026-111497](https://github.com/suominen/CVE-2026-111497)
 
 ### CVE-2026-111770
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
@@ -21672,6 +21695,7 @@
 - [joedayz/cve-2026-114820-java-scan](https://github.com/joedayz/cve-2026-114820-java-scan)
 
 ### CVE-2026-115560
+- [Pr0fEs0r-X/PHP2SHELL-Checker-v-1.0-CVE-2026-115560-](https://github.com/Pr0fEs0r-X/PHP2SHELL-Checker-v-1.0-CVE-2026-115560-)
 - [prnjlksingh/php-cve-2026-115560-demo](https://github.com/prnjlksingh/php-cve-2026-115560-demo)
 - [sykeops/CVE-2026-115560](https://github.com/sykeops/CVE-2026-115560)
 - [basesixtythree/B63-POC-CVE-2026-115560](https://github.com/basesixtythree/B63-POC-CVE-2026-115560)
@@ -21681,6 +21705,7 @@
 - [al4n4n/CVE-2026-115560](https://github.com/al4n4n/CVE-2026-115560)
 - [renzi25031469/CVE-2026-115560](https://github.com/renzi25031469/CVE-2026-115560)
 - [Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0](https://github.com/Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0)
+- [Pr0fEs0r-X/PHP2SHELL-Checker-v-2.0-CVE-2026-115560-](https://github.com/Pr0fEs0r-X/PHP2SHELL-Checker-v-2.0-CVE-2026-115560-)
 
 ### CVE-2026-115889 (2026-10-23)
 
@@ -21786,6 +21811,13 @@
 </code>
 
 - [D7EAD/CVE-2026-116488](https://github.com/D7EAD/CVE-2026-116488)
+
+### CVE-2026-116692 (2026-10-27)
+
+<code>MLflow is an open source AI engineering platform for agents, large language models, and machine learning models. From 3.12.0rc0 until 3.17.0, third-party scorer deserialization in mlflow/genai/scorers/base.py accepts request-selected descendants of THIRD_PARTY_SCORER_ALLOWED_MODULES rather than requiring an exact allowed module. A caller can use MLflow artifact endpoints to place a Python module beneath a writable allowed package and submit its module and class through /ajax-api/3.0/mlflow/scorer/invoke. Scorer.model_validate_json() imports the module and constructs the class before trace processing. Authentication-disabled deployments permit this code execution without credentials, while basic-auth deployments require a principal capable of creating an experiment and run and uploading artifacts. In either configuration, the allowed scorer package must be writable by the server process. This issue is fixed in version 3.17.0.
+</code>
+
+- [foxcornlab/mlflow-scorer-scanner](https://github.com/foxcornlab/mlflow-scorer-scanner)
 
 ### CVE-2026-117532 (2026-10-27)
 
@@ -36199,6 +36231,7 @@
 - [mhicairo-hue/cs50-cybersecurity-final-project](https://github.com/mhicairo-hue/cs50-cybersecurity-final-project)
 - [Michel-DV/xz-utils-backdoor-case-study](https://github.com/Michel-DV/xz-utils-backdoor-case-study)
 - [Subzero710/CVE-2024-3094-demo](https://github.com/Subzero710/CVE-2024-3094-demo)
+- [axisops/CVE-2024-3094](https://github.com/axisops/CVE-2024-3094)
 
 ### CVE-2024-3105 (2024-06-15)
 
@@ -37215,6 +37248,7 @@
 - [hasan8babiker/CVE-2024-6387](https://github.com/hasan8babiker/CVE-2024-6387)
 - [dolapoojone/CVE-2024-6387-Vulnerability-Anaysis](https://github.com/dolapoojone/CVE-2024-6387-Vulnerability-Anaysis)
 - [ohackercego/CVE-2024-6387-how-to-fix](https://github.com/ohackercego/CVE-2024-6387-how-to-fix)
+- [axisops/CVE-2024-6387](https://github.com/axisops/CVE-2024-6387)
 
 ### CVE-2024-6460 (2024-08-16)
 
@@ -65420,6 +65454,7 @@
 - [r00t-byte/Pwnkit-CVE-2021-4034-LPE](https://github.com/r00t-byte/Pwnkit-CVE-2021-4034-LPE)
 - [SerhiiMaruniak/CVE-2021-4034](https://github.com/SerhiiMaruniak/CVE-2021-4034)
 - [DERMOUCHERYAD/Linux-Privilege-Escalation-Pentest-Lab](https://github.com/DERMOUCHERYAD/Linux-Privilege-Escalation-Pentest-Lab)
+- [axisops/CVE-2021-4034](https://github.com/axisops/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -70011,6 +70046,7 @@
 - [Moshe-ship/bidi-guard](https://github.com/Moshe-ship/bidi-guard)
 - [rakib-nyc/nullorigin](https://github.com/rakib-nyc/nullorigin)
 - [gitstq/GlyphGuard](https://github.com/gitstq/GlyphGuard)
+- [mehul82099/trojan-source-check](https://github.com/mehul82099/trojan-source-check)
 
 ### CVE-2021-42662 (2021-11-05)
 
@@ -70773,6 +70809,7 @@
 - [andalik/log4j-filescan](https://github.com/andalik/log4j-filescan)
 - [lonecloud/CVE-2021-44228-Apache-Log4j](https://github.com/lonecloud/CVE-2021-44228-Apache-Log4j)
 - [gyaansastra/CVE-2021-44228](https://github.com/gyaansastra/CVE-2021-44228)
+- [axisops/CVE-2021-44228](https://github.com/axisops/CVE-2021-44228)
 - [kal1gh0st/MyLog4Shell](https://github.com/kal1gh0st/MyLog4Shell)
 - [hozyx/log4shell](https://github.com/hozyx/log4shell)
 - [andypitcher/Log4J_checker](https://github.com/andypitcher/Log4J_checker)
@@ -80984,9 +81021,9 @@
 - [polar1s7/CVE-2019-16759-bypass](https://github.com/polar1s7/CVE-2019-16759-bypass)
 - [nako48/CVE-2019-16759](https://github.com/nako48/CVE-2019-16759)
 - [0xdims/CVE-2019-16759](https://github.com/0xdims/CVE-2019-16759)
-- [sunian19/CVE-2019-16759](https://github.com/sunian19/CVE-2019-16759)
 - [ludy-dev/vBulletin_Routestring-RCE](https://github.com/ludy-dev/vBulletin_Routestring-RCE)
 - [fxp0-4tx/CVE-2019-16759](https://github.com/fxp0-4tx/CVE-2019-16759)
+- [shavchen/CVE-2019-16759](https://github.com/shavchen/CVE-2019-16759)
 
 ### CVE-2019-16784 (2020-01-14)
 
@@ -84929,6 +84966,7 @@
 
 - [mpgn/CVE-2018-17246](https://github.com/mpgn/CVE-2018-17246)
 - [Almandev/Sub-folderFetcher](https://github.com/Almandev/Sub-folderFetcher)
+- [ght657/work1-secure-api](https://github.com/ght657/work1-secure-api)
 
 ### CVE-2018-17254 (2018-09-20)
 
@@ -86776,8 +86814,6 @@
 <code>Artifex Ghostscript through 2017-04-26 allows -dSAFER bypass and remote command execution via .rsdparams type confusion with a &quot;/OutputFile (%pipe%&quot; substring in a crafted .eps document that is an input to the gs program, as exploited in the wild in April 2017.
 </code>
 
-- [shun1403/CVE-2017-8291](https://github.com/shun1403/CVE-2017-8291)
-- [shun1403/PIL-CVE-2017-8291-study](https://github.com/shun1403/PIL-CVE-2017-8291-study)
 - [hkcfs/PIL-CVE-2017-8291](https://github.com/hkcfs/PIL-CVE-2017-8291)
 - [DaniilOrchikov/PIL-CVE-2017-8291](https://github.com/DaniilOrchikov/PIL-CVE-2017-8291)
 
@@ -91480,6 +91516,7 @@
 - [mgiftson0/linux-env-vars-shellshock-lab](https://github.com/mgiftson0/linux-env-vars-shellshock-lab)
 - [CyberCTF/vulhub-bash-cve-2014-6271](https://github.com/CyberCTF/vulhub-bash-cve-2014-6271)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock)
+- [ItzSteve04/shellshock-linux-host-hardening-lab](https://github.com/ItzSteve04/shellshock-linux-host-hardening-lab)
 
 ### CVE-2014-6287 (2014-10-07)
 
