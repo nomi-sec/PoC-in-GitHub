@@ -4570,6 +4570,7 @@
 - [YonLiud/CVE-2026-19632](https://github.com/YonLiud/CVE-2026-19632)
 - [DeadExpl0it/CVE-2026-19632-POC](https://github.com/DeadExpl0it/CVE-2026-19632-POC)
 - [TheJesterrrr/CVE-2026-19632](https://github.com/TheJesterrrr/CVE-2026-19632)
+- [piecar21/CVE-2026-19632](https://github.com/piecar21/CVE-2026-19632)
 
 ### CVE-2026-19650 (2026-08-17)
 
@@ -8674,6 +8675,7 @@
 - [0xBlackash/CVE-2026-31635](https://github.com/0xBlackash/CVE-2026-31635)
 - [0xFuffM3/CVE-2026-31635-DirtyDecrypt](https://github.com/0xFuffM3/CVE-2026-31635-DirtyDecrypt)
 - [Koshmare-Blossom/DirtyDecrypt-go](https://github.com/Koshmare-Blossom/DirtyDecrypt-go)
+- [piecar21/CVE-2026-31635](https://github.com/piecar21/CVE-2026-31635)
 
 ### CVE-2026-31694 (2026-05-01)
 
@@ -11912,7 +11914,7 @@
 - [theboringhumane/Root-My-Galaxy-Payloads-SM-S928B](https://github.com/theboringhumane/Root-My-Galaxy-Payloads-SM-S928B)
 - [RetributionByRevenue/xperia1vi-root](https://github.com/RetributionByRevenue/xperia1vi-root)
 - [tokenbleed/ghostlock-tv](https://github.com/tokenbleed/ghostlock-tv)
-- [Syerain/cve-2026-43499-mt6896-pd2238](https://github.com/Syerain/cve-2026-43499-mt6896-pd2238)
+- [Syerain/cve-2026-43499-vivo-mt6896](https://github.com/Syerain/cve-2026-43499-vivo-mt6896)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15459,7 +15461,6 @@
 - [Sec-Dan/WP2Shell-Scanner](https://github.com/Sec-Dan/WP2Shell-Scanner)
 - [fl0ydsec/CVE-2026-63030](https://github.com/fl0ydsec/CVE-2026-63030)
 - [langz337/CVE-2026-63030](https://github.com/langz337/CVE-2026-63030)
-- [jed-parsec/CVE-2026-63030-60137-wp2shell-lab](https://github.com/jed-parsec/CVE-2026-63030-60137-wp2shell-lab)
 - [MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026-60137-](https://github.com/MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026-60137-)
 - [hitechcloud-vietnam/wp2shell-PoC](https://github.com/hitechcloud-vietnam/wp2shell-PoC)
 - [0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL](https://github.com/0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL)
@@ -17628,6 +17629,9 @@
 
 - [jhli07/CVE-2026-79387-PbootCMS-SQL-Injection](https://github.com/jhli07/CVE-2026-79387-PbootCMS-SQL-Injection)
 
+### CVE-2026-79397
+- [jed-parsec/CVE-2026-79397-Authenticated-OS-Command-Injection-in-ONT-4GE-RFDW-Ping-Diagnostics](https://github.com/jed-parsec/CVE-2026-79397-Authenticated-OS-Command-Injection-in-ONT-4GE-RFDW-Ping-Diagnostics)
+
 ### CVE-2026-79417 (2026-09-29)
 
 <code>Improper Access Control in ArgusMonitor.sys in Argotronic eGbR ArgusMonitor 7.4.02 and earlier allows local, low-privileged users to bypass device handle access restrictions via a TOCTOU condition in IRP_MJ_CREATE and send a crafted IOCTL 0x9C4024A8 request, causing denial-of-service.
@@ -19537,6 +19541,13 @@
 - [PhiNode-Labs/nginx-cve-2026-97629](https://github.com/PhiNode-Labs/nginx-cve-2026-97629)
 - [piecar21/CVE-2026-97629](https://github.com/piecar21/CVE-2026-97629)
 
+### CVE-2026-97631 (2026-10-22)
+
+<code>EDK2 contains a vulnerability in BIOS where a user may cause “Out-of-bounds\nWrite”, Classic\nBuffer Overflow, and “Incorrect Calculation of Buffer Size” by remote access. Successful exploitation of this vulnerability\ncan lead to arbitrary\ncode execution. It could also impact\nConfidentiality,\nIntegrity,\nand Availability.
+</code>
+
+- [slabbdev/uefi-pxe-cve-2026-97631](https://github.com/slabbdev/uefi-pxe-cve-2026-97631)
+
 ### CVE-2026-97657 (2026-10-14)
 
 <code>The Abandoned Cart Pro for WooCommerce plugin for WordPress is vulnerable to Authentication Bypass via Malleable Encryption and Bypassable HMAC in all versions up to, and including, 10.8.0. This is due to the use of MAC-free AES-CTR encryption for cart-recovery link tokens — where the 8-byte CTR nonce is carried inside the ciphertext blob and the encryption key is looked up using the attacker-supplied `user_email` GET parameter — combined with an HMAC nonce check in `wcap_email_track_links()` that is only enforced when the `wcap_nonce` parameter is non-empty, allowing complete bypass by omission, and an insecure direct object reference on the decrypted `abandoned_id` with no ownership verification confirming the cart belongs to the email used for decryption. This makes it possible for unauthenticated attackers who possess a single legitimate cart-recovery link (obtained from their own reminder email) to recover the keystream, forge a ciphertext that decrypts to any victim's cart ID, and trigger a call to `wp_set_auth_cookie()` for the victim user — achieving full account takeover of any user who has ever abandoned a cart, including administrators. The auto-login feature defaults to enabled and is forced on during plugin upgrades, meaning all affected installations are exploitable without any additional configuration.
@@ -19603,6 +19614,7 @@
 - [YuKongA/CVE-2026-98260](https://github.com/YuKongA/CVE-2026-98260)
 - [zjns/CVE-2026-98260](https://github.com/zjns/CVE-2026-98260)
 - [4627488/cve-2026-98260-nezha](https://github.com/4627488/cve-2026-98260-nezha)
+- [colorgarden/CVE-2026-98260-y700-TB321FU-lpe](https://github.com/colorgarden/CVE-2026-98260-y700-TB321FU-lpe)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -21324,7 +21336,9 @@
 - [murat-levi/php2shell-poc](https://github.com/murat-levi/php2shell-poc)
 - [roblennon/php-scare-counted](https://github.com/roblennon/php-scare-counted)
 - [swguan325/php80-scl-el7-rebuild](https://github.com/swguan325/php80-scl-el7-rebuild)
-- [lflare/php2shell-cve-2026-109618-109619](https://github.com/lflare/php2shell-cve-2026-109618-109619)
+- [0xgh057r3c0n/PHP2shell](https://github.com/0xgh057r3c0n/PHP2shell)
+- [matarturo/php2shell-nse-scanner](https://github.com/matarturo/php2shell-nse-scanner)
+- [NELDI24git/php2shell-lab](https://github.com/NELDI24git/php2shell-lab)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21556,6 +21570,8 @@
 - [Ghost-Bx1/DotNet-HTTP2Shell-CVE-2026-111497](https://github.com/Ghost-Bx1/DotNet-HTTP2Shell-CVE-2026-111497)
 - [Nyamort/brotli-pingback-lab](https://github.com/Nyamort/brotli-pingback-lab)
 - [suominen/CVE-2026-111497](https://github.com/suominen/CVE-2026-111497)
+- [hkoeck/node2shell-status](https://github.com/hkoeck/node2shell-status)
+- [gik2927/CVE-2026-111497-DOS-](https://github.com/gik2927/CVE-2026-111497-DOS-)
 
 ### CVE-2026-111770
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
@@ -21612,6 +21628,13 @@
 </code>
 
 - [Ping-2o/CVE-2026-112611-cg-shading](https://github.com/Ping-2o/CVE-2026-112611-cg-shading)
+
+### CVE-2026-112706 (2026-10-26)
+
+<code>A permissions issue was addressed with additional restrictions. This issue is fixed in iOS 26.7.2 and iPadOS 26.7.2, iOS 27.2 and iPadOS 27.2, tvOS 27.2, visionOS 27.2, watchOS 27.2. An app may be able to access sensitive user data.
+</code>
+
+- [MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak](https://github.com/MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak)
 
 ### CVE-2026-112866 (2026-10-24)
 
@@ -21679,6 +21702,13 @@
 - [emirwtz/CVE-2026-114509](https://github.com/emirwtz/CVE-2026-114509)
 - [Nxploited/CVE-2026-114509](https://github.com/Nxploited/CVE-2026-114509)
 - [piecar21/CVE-2026-114509](https://github.com/piecar21/CVE-2026-114509)
+
+### CVE-2026-114595 (2026-10-27)
+
+<code>In EPICS Base release 7.0.10 and prior, an integer overflow in network request processing can cause memory to be allocated with an incorrect size. Subsequent handling of attacker supplied data may result in memory corruption, denial of service, or potential remote code execution.
+</code>
+
+- [0xBlackash/CVE-2026-114595](https://github.com/0xBlackash/CVE-2026-114595)
 
 ### CVE-2026-114612 (2026-10-22)
 
@@ -21818,6 +21848,7 @@
 </code>
 
 - [foxcornlab/mlflow-scorer-scanner](https://github.com/foxcornlab/mlflow-scorer-scanner)
+- [piecar21/CVE-2026-116692](https://github.com/piecar21/CVE-2026-116692)
 
 ### CVE-2026-117532 (2026-10-27)
 
@@ -23191,6 +23222,7 @@
 - [sudoand3rs0n/CVE-2025-5548](https://github.com/sudoand3rs0n/CVE-2025-5548)
 - [VSvalinX/CVE-2025-5548](https://github.com/VSvalinX/CVE-2025-5548)
 - [M4Rc0s-S3c/CVE-2025-5548-FreeFloat-FTP-Lab](https://github.com/M4Rc0s-S3c/CVE-2025-5548-FreeFloat-FTP-Lab)
+- [ppolo1/CVE-2025-5548](https://github.com/ppolo1/CVE-2025-5548)
 - [jonbondani/CVE-2025-5548](https://github.com/jonbondani/CVE-2025-5548)
 - [pedrose-99/CVE-2025-5548](https://github.com/pedrose-99/CVE-2025-5548)
 - [FreemanHack/CVE-2025-5548](https://github.com/FreemanHack/CVE-2025-5548)
@@ -23513,7 +23545,6 @@
 - [gmh5225/CVE-2025-6554-2](https://github.com/gmh5225/CVE-2025-6554-2)
 - [PwnToday/CVE-2025-6554](https://github.com/PwnToday/CVE-2025-6554)
 - [ghostn4444/POC-CVE-2025-6554](https://github.com/ghostn4444/POC-CVE-2025-6554)
-- [LordBheem/CVE-2025-6554](https://github.com/LordBheem/CVE-2025-6554)
 - [mistymntncop/CVE-2025-6554](https://github.com/mistymntncop/CVE-2025-6554)
 - [jopraveen/CVE-2025-6554](https://github.com/jopraveen/CVE-2025-6554)
 - [Muhammednihalmp/Google-chrome-zero-day](https://github.com/Muhammednihalmp/Google-chrome-zero-day)
@@ -26051,6 +26082,7 @@
 </code>
 
 - [bsdrip/CVE-2025-24000-exploit](https://github.com/bsdrip/CVE-2025-24000-exploit)
+- [piecar21/CVE-2025-24000](https://github.com/piecar21/CVE-2025-24000)
 
 ### CVE-2025-24001 (2025-01-21)
 
@@ -27128,6 +27160,7 @@
 </code>
 
 - [Dannners/CVE-2025-27740_POC](https://github.com/Dannners/CVE-2025-27740_POC)
+- [tyie949/cve-2025-27740](https://github.com/tyie949/cve-2025-27740)
 
 ### CVE-2025-27817 (2025-06-10)
 
@@ -27657,6 +27690,7 @@
 </code>
 
 - [Oyst3r1ng/CVE-2025-30567](https://github.com/Oyst3r1ng/CVE-2025-30567)
+- [piecar21/CVE-2025-30567](https://github.com/piecar21/CVE-2025-30567)
 
 ### CVE-2025-30712 (2025-04-15)
 
@@ -27939,7 +27973,6 @@
 </code>
 
 - [leesh3288/CVE-2025-32023](https://github.com/leesh3288/CVE-2025-32023)
-- [LordBheem/CVE-2025-32023](https://github.com/LordBheem/CVE-2025-32023)
 - [44528zja/Blackash-CVE-2025-32023](https://github.com/44528zja/Blackash-CVE-2025-32023)
 
 ### CVE-2025-32044 (2025-04-25)
@@ -31217,6 +31250,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2025-54726](https://github.com/RandomRobbieBF/CVE-2025-54726)
+- [piecar21/CVE-2025-54726](https://github.com/piecar21/CVE-2025-54726)
 
 ### CVE-2025-54769 (2025-07-28)
 
@@ -32622,6 +32656,7 @@
 </code>
 
 - [casp3r0x0/CVE-2025-58443](https://github.com/casp3r0x0/CVE-2025-58443)
+- [piecar21/CVE-2025-58443](https://github.com/piecar21/CVE-2025-58443)
 
 ### CVE-2025-58726 (2025-10-14)
 
@@ -36066,6 +36101,7 @@
 </code>
 
 - [whale93/CVE-2024-2771-PoC](https://github.com/whale93/CVE-2024-2771-PoC)
+- [AgnesAhalya/rw-fluentform](https://github.com/AgnesAhalya/rw-fluentform)
 
 ### CVE-2024-2782 (2024-05-18)
 
@@ -36375,6 +36411,7 @@
 
 - [truonghuuphuc/CVE-2024-3495-Poc](https://github.com/truonghuuphuc/CVE-2024-3495-Poc)
 - [zomasec/CVE-2024-3495-POC](https://github.com/zomasec/CVE-2024-3495-POC)
+- [AgnesAhalya/rw-country-state-city-auto-dropdown](https://github.com/AgnesAhalya/rw-country-state-city-auto-dropdown)
 
 ### CVE-2024-3552 (2024-06-13)
 
@@ -36383,6 +36420,7 @@
 
 - [KiPhuong/cve-2024-3552](https://github.com/KiPhuong/cve-2024-3552)
 - [KiPhuong/challenge-cve-2024-3552](https://github.com/KiPhuong/challenge-cve-2024-3552)
+- [AgnesAhalya/rw-web-directory-free](https://github.com/AgnesAhalya/rw-web-directory-free)
 
 ### CVE-2024-3553 (2024-05-02)
 
@@ -36537,6 +36575,13 @@
 
 - [Ch4os1/CVE-2024-4157-SSRF-RCE-Reverse-Shell](https://github.com/Ch4os1/CVE-2024-4157-SSRF-RCE-Reverse-Shell)
 
+### CVE-2024-4223 (2024-05-16)
+
+<code>The Tutor LMS plugin for WordPress is vulnerable to unauthorized access of data, modification of data, loss of data due to a missing capability check on multiple functions in all versions up to, and including, 2.7.0. This makes it possible for unauthenticated attackers to add, modify, or delete data.
+</code>
+
+- [AgnesAhalya/rw-tutor](https://github.com/AgnesAhalya/rw-tutor)
+
 ### CVE-2024-4231 (2024-05-10)
 
 <code>This vulnerability exists in Digisol Router (DG-GR1321: Hardware version 3.7L;  Firmware version : v3.2.02) due to presence of root terminal access on a serial interface without proper access control. An attacker with physical access could exploit this by identifying UART pins and accessing the root shell on the vulnerable system.\n\nSuccessful exploitation of this vulnerability could allow the attacker to access the sensitive information on the targeted system.
@@ -36675,12 +36720,20 @@
 - [soltanali0/CVE-2024-4439](https://github.com/soltanali0/CVE-2024-4439)
 - [w0r1i0g1ht/CVE-2024-4439](https://github.com/w0r1i0g1ht/CVE-2024-4439)
 
+### CVE-2024-4442 (2024-05-21)
+
+<code>The Salon booking system plugin for WordPress is vulnerable to arbitrary file deletion in all versions up to, and including, 9.8. This is due to the plugin not properly validating the path of an uploaded file prior to deleting it. This makes it possible for unauthenticated attackers to delete arbitrary files, including the wp-config.php file, which can make site takeover and remote code execution possible. This was partially patched in 9.9, and sufficiently patched in 10.0. CVE-2024-37231 appears to be a duplicate of this issue.
+</code>
+
+- [AgnesAhalya/rw-salon](https://github.com/AgnesAhalya/rw-salon)
+
 ### CVE-2024-4443 (2024-05-22)
 
 <code>The Business Directory Plugin – Easy Listing Directories for WordPress plugin for WordPress is vulnerable to time-based SQL Injection via the ‘listingfields’ parameter in all versions up to, and including, 6.4.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 </code>
 
 - [truonghuuphuc/CVE-2024-4443-Poc](https://github.com/truonghuuphuc/CVE-2024-4443-Poc)
+- [piecar21/CVE-2024-4443](https://github.com/piecar21/CVE-2024-4443)
 
 ### CVE-2024-4573
 - [Castro-Ian/CVE-2024-4573-Mitigation-Script](https://github.com/Castro-Ian/CVE-2024-4573-Mitigation-Script)
@@ -37399,6 +37452,7 @@
 
 - [gh-ost00/CVE-2024-7120](https://github.com/gh-ost00/CVE-2024-7120)
 - [jokeir07x/CVE-2024-7120-Exploit-by-Dark-07x](https://github.com/jokeir07x/CVE-2024-7120-Exploit-by-Dark-07x)
+- [piecar21/CVE-2024-7120](https://github.com/piecar21/CVE-2024-7120)
 
 ### CVE-2024-7124 (2024-11-14)
 
@@ -37719,6 +37773,7 @@
 </code>
 
 - [Machine-farmer/vicidial-cve-2024-8503-blind-sqli-poc](https://github.com/Machine-farmer/vicidial-cve-2024-8503-blind-sqli-poc)
+- [piecar21/CVE-2024-8503](https://github.com/piecar21/CVE-2024-8503)
 
 ### CVE-2024-8504 (2024-09-10)
 
@@ -42682,6 +42737,13 @@
 </code>
 
 - [PawFV/CVE-2024-36774-Monstra-CMS-RCE-PoC](https://github.com/PawFV/CVE-2024-36774-Monstra-CMS-RCE-PoC)
+
+### CVE-2024-36779 (2024-06-06)
+
+<code>Sourcecodester Stock Management System v1.0 is vulnerable to SQL Injection via editCategories.php.
+</code>
+
+- [AgnesAhalya/rw-stock](https://github.com/AgnesAhalya/rw-stock)
 
 ### CVE-2024-36821 (2024-06-11)
 
@@ -54167,6 +54229,7 @@
 </code>
 
 - [619555798/cve-2023-42824](https://github.com/619555798/cve-2023-42824)
+- [piecar21/CVE-2023-42824](https://github.com/piecar21/CVE-2023-42824)
 
 ### CVE-2023-42829 (2024-01-10)
 
@@ -57073,7 +57136,7 @@
 - [Luchoane/CVE-2022-1388_refresh](https://github.com/Luchoane/CVE-2022-1388_refresh)
 - [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
 - [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
-- [ThinkingOffensively/CVE-2022-1388](https://github.com/ThinkingOffensively/CVE-2022-1388)
+- [TheElderHacker/CVE-2022-1388](https://github.com/TheElderHacker/CVE-2022-1388)
 - [amitlttwo/CVE-2022-1388](https://github.com/amitlttwo/CVE-2022-1388)
 - [M4fiaB0y/CVE-2022-1388](https://github.com/M4fiaB0y/CVE-2022-1388)
 - [devengpk/CVE-2022-1388](https://github.com/devengpk/CVE-2022-1388)
@@ -75970,6 +76033,13 @@
 
 - [Deepak983/CVE-2020-19587](https://github.com/Deepak983/CVE-2020-19587)
 
+### CVE-2020-19750 (2021-09-07)
+
+<code>An issue was discovered in gpac 0.8.0. The strdup function in box_code_base.c has a heap-based buffer over-read.
+</code>
+
+- [dhtfish-98/dhtfish-98](https://github.com/dhtfish-98/dhtfish-98)
+
 ### CVE-2020-20093 (2022-03-23)
 
 <code>The Facebook Messenger app for iOS 227.0 and prior and Android 228.1.0.10.116 and prior user interface does not properly represent URI messages to the user, which results in URI spoofing via specially crafted messages.
@@ -81457,6 +81527,7 @@
 - [quyt0/CVE-2019-18935-exploit-study](https://github.com/quyt0/CVE-2019-18935-exploit-study)
 - [menashe12346/CVE-2019-18935](https://github.com/menashe12346/CVE-2019-18935)
 - [alanbarret/CVE-2019-18935](https://github.com/alanbarret/CVE-2019-18935)
+- [piecar21/CVE-2019-18935](https://github.com/piecar21/CVE-2019-18935)
 
 ### CVE-2019-18988 (2020-02-07)
 
@@ -88287,6 +88358,7 @@
 - [dsssssssm/pwnfaces](https://github.com/dsssssssm/pwnfaces)
 - [LongWayHomie/CVE-2017-1000486](https://github.com/LongWayHomie/CVE-2017-1000486)
 - [jam620/primefaces](https://github.com/jam620/primefaces)
+- [keitan339/primefaces-cve-2017-1000486](https://github.com/keitan339/primefaces-cve-2017-1000486)
 
 ### CVE-2017-1000487 (2018-01-03)
 
