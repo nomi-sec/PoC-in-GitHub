@@ -3414,6 +3414,13 @@
 
 - [gduma-phData/patch-CVE-2026-12087](https://github.com/gduma-phData/patch-CVE-2026-12087)
 
+### CVE-2026-12118 (2026-07-30)
+
+<code>IBM webMethods Integration (on prem) 10.15, 10.11 could allow an unauthenticated remote attacker to execute arbitrary code on the system due to the deserialization of untrusted data.
+</code>
+
+- [uday952/CVE-2026-12118-POC-](https://github.com/uday952/CVE-2026-12118-POC-)
+
 ### CVE-2026-12166 (2026-07-02)
 
 <code>A NULL pointer dereference vulnerability for driver `GFAC_Sys_x64.sys` in Little Orbit GFAC allows a local attacker to cause a denial of service via crafted requests that trigger a system crash.
@@ -4005,7 +4012,7 @@
 <code>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 10.1 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, when OmniAuth SAML and LDAP auto-linking were both enabled, an authenticated user could have taken over an existing LDAP-backed account without any interaction from the targeted user, due to improper input sanitization in the LDAP email lookup path used during OmniAuth identity linking.
 </code>
 
-- [emirwtz/CVE-2026-15723](https://github.com/emirwtz/CVE-2026-15723)
+- [mehmet-emir-eroglu/CVE-2026-15723](https://github.com/mehmet-emir-eroglu/CVE-2026-15723)
 
 ### CVE-2026-15748 (2026-08-18)
 
@@ -11298,7 +11305,7 @@
 - [Xrzmodz444/cve-2026-41940-PoC-Linux](https://github.com/Xrzmodz444/cve-2026-41940-PoC-Linux)
 - [hitechcloud-vietnam/cve-2026-41940-PoC](https://github.com/hitechcloud-vietnam/cve-2026-41940-PoC)
 - [ZeroDayEvil/CVE-2026-41940-PoC](https://github.com/ZeroDayEvil/CVE-2026-41940-PoC)
-- [sakidekin/CVE-2026-41940-PoC](https://github.com/sakidekin/CVE-2026-41940-PoC)
+- [ylerpeek/CVE-2026-41940-PoC-3](https://github.com/ylerpeek/CVE-2026-41940-PoC-3)
 
 ### CVE-2026-42031 (2026-05-13)
 
@@ -11640,6 +11647,7 @@
 - [porcumarcooo/THM-CVE-2026-42945-Nginx-Rift-Exploit](https://github.com/porcumarcooo/THM-CVE-2026-42945-Nginx-Rift-Exploit)
 - [rune42/ElasticRift](https://github.com/rune42/ElasticRift)
 - [x0xr00t/sl0ppy-riftscan-CVE-2026-42945](https://github.com/x0xr00t/sl0ppy-riftscan-CVE-2026-42945)
+- [ChaskarVinit/nginx-rift-cve-2026-42945-lab](https://github.com/ChaskarVinit/nginx-rift-cve-2026-42945-lab)
 
 ### CVE-2026-42978 (2026-06-09)
 
@@ -11737,7 +11745,7 @@
 - [0xredash/CVE-2026-43499](https://github.com/0xredash/CVE-2026-43499)
 - [tc3650/CVE-2026-43499-armv7](https://github.com/tc3650/CVE-2026-43499-armv7)
 - [suominen/ghostlock](https://github.com/suominen/ghostlock)
-- [pubglite55/oppofindN2-ghostlock](https://github.com/pubglite55/oppofindN2-ghostlock)
+- [pubglite55/findn2-ksu-chain](https://github.com/pubglite55/findn2-ksu-chain)
 - [inforcqb-self/CVE-2026-43499-pja110](https://github.com/inforcqb-self/CVE-2026-43499-pja110)
 - [caspy123/CVE-2026-43499](https://github.com/caspy123/CVE-2026-43499)
 - [x-spy/CVE-2026-43499-popsicle](https://github.com/x-spy/CVE-2026-43499-popsicle)
@@ -11748,7 +11756,6 @@
 - [CakesTwix/Android-CVE-2026-43499](https://github.com/CakesTwix/Android-CVE-2026-43499)
 - [Bartixxx32/CVE-2026-43499-OnePlus15](https://github.com/Bartixxx32/CVE-2026-43499-OnePlus15)
 - [Linuxoid-cn/CVE-2026-43499-Poc-Analysis](https://github.com/Linuxoid-cn/CVE-2026-43499-Poc-Analysis)
-- [qsvggff-spec/oppo-A5-PRO-5G-CVE-2026-43499](https://github.com/qsvggff-spec/oppo-A5-PRO-5G-CVE-2026-43499)
 - [xianwan1314/CVE-2026-43499-Poc-Analysis](https://github.com/xianwan1314/CVE-2026-43499-Poc-Analysis)
 - [HYCQAQ/Logitech-G-Cloud-GhostLock-CVE-2026-43499](https://github.com/HYCQAQ/Logitech-G-Cloud-GhostLock-CVE-2026-43499)
 - [Colorful-glassblock/duchamp-root](https://github.com/Colorful-glassblock/duchamp-root)
@@ -11911,6 +11918,7 @@
 - [tokenbleed/ghostlock-tv](https://github.com/tokenbleed/ghostlock-tv)
 - [Syerain/cve-2026-43499-vivo-mt6896](https://github.com/Syerain/cve-2026-43499-vivo-mt6896)
 - [li-dahua/s25u-ghostlock-kernelsu-lkm](https://github.com/li-dahua/s25u-ghostlock-kernelsu-lkm)
+- [yichen115/ghostlock-kirkwood](https://github.com/yichen115/ghostlock-kirkwood)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -11978,6 +11986,13 @@
 </code>
 
 - [Somisomair/CVE-2026-43655-AppleM2ScalerCSCDriver-UAF](https://github.com/Somisomair/CVE-2026-43655-AppleM2ScalerCSCDriver-UAF)
+
+### CVE-2026-43664 (2026-09-14)
+
+<code>This issue was addressed with improved data protection. This issue is fixed in iOS 26.7 and iPadOS 26.7, iOS 27 and iPadOS 27, macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7, tvOS 27, watchOS 27. An app may be able to access sensitive user data.
+</code>
+
+- [speedyfriend433/CVE-2026-43664](https://github.com/speedyfriend433/CVE-2026-43664)
 
 ### CVE-2026-43682 (2026-07-27)
 
@@ -13575,6 +13590,13 @@
 - [bibotai/secveri-cve-2026-50011-positive](https://github.com/bibotai/secveri-cve-2026-50011-positive)
 - [bibotai/secveri-cve-2026-50011-negative](https://github.com/bibotai/secveri-cve-2026-50011-negative)
 
+### CVE-2026-50053 (2026-10-23)
+
+<code>A request attribute override vulnerability in Zimbra Collaboration Suite (ZCS) allows unauthenticated requests to /h/* to populate servlet attributes intended for trusted internal dispatch. RestFilter copies URL parameters specifying an authentication token, target account, target item and dispatch state into the request attributes consumed by the Classic Web Client. Combined with CVE-2026-10632 on ZCS 10.1.16, this allows an attacker to supply their own valid token and document identifiers and execute JavaScript in another user's signed-in browser session. ZCS 10.1.17 blocks that XSS chain by changing the document renderer, but retains the request attribute override.
+</code>
+
+- [mehmet-emir-eroglu/CVE-2026-50053](https://github.com/mehmet-emir-eroglu/CVE-2026-50053)
+
 ### CVE-2026-50055 (2026-10-08)
 
 <code>A policy-enforcement flaw in Zimbra Collaboration Suite allows an authenticated user to bypass disabled mail forwarding by using a Sieve notify action to send copies of email content and headers to an arbitrary address.
@@ -14238,6 +14260,7 @@
 
 - [0xredash/CVE-2026-53921](https://github.com/0xredash/CVE-2026-53921)
 - [tc4dy/CVE-2026-53921-PoC-Exploit](https://github.com/tc4dy/CVE-2026-53921-PoC-Exploit)
+- [mehmet-emir-eroglu/CVE-2026-53921](https://github.com/mehmet-emir-eroglu/CVE-2026-53921)
 
 ### CVE-2026-53959 (2026-08-18)
 
@@ -14663,6 +14686,7 @@
 </code>
 
 - [danarhirany300-ctrl/CVE-2026-56190-Windows-Server-2022-RDP](https://github.com/danarhirany300-ctrl/CVE-2026-56190-Windows-Server-2022-RDP)
+- [Udyz/RDPBleed](https://github.com/Udyz/RDPBleed)
 
 ### CVE-2026-56290 (2026-06-29)
 
@@ -16530,7 +16554,7 @@
 <code>In OpenStack Manila before 23.0.1, multiple Manila API operations on public shares do not verify that the caller owns the share. The API controllers authorize operations against the caller's own project context, then load a foreign public share without re-authorizing against the share's actual owner. This affects the following operations: allow_access: grant data-plane read/write access to another tenant's share; deny_access: revoke the owner's existing access rules; update_access: escalate access level (e.g., ro to rw); create_share_backup: exfiltrate share data via a backup created under the attacker's project; soft_delete: move a foreign share to the recycle bin; restore: interfere with the owner's deletion workflow; export location metadata: create, update, and delete metadata on foreign export locations; access rule listing: disclose IPs, usernames, and CephFS keys. Any authenticated project member can exploit these operations on any public share. The share UUID is visible since the share is public.
 </code>
 
-- [emirwtz/CVE-2026-71195](https://github.com/emirwtz/CVE-2026-71195)
+- [mehmet-emir-eroglu/CVE-2026-71195](https://github.com/mehmet-emir-eroglu/CVE-2026-71195)
 
 ### CVE-2026-71203 (2026-08-05)
 
@@ -16617,6 +16641,13 @@
 
 - [Saku0512/CVE-2026-71557-poc](https://github.com/Saku0512/CVE-2026-71557-poc)
 - [Saku0512/reprokit-go-git-cve-2026-71557-lab](https://github.com/Saku0512/reprokit-go-git-cve-2026-71557-lab)
+
+### CVE-2026-71569 (2026-10-29)
+
+<code>Server-Side Request Forgery (SSRF) vulnerability in Apache Camel A2A component.\n\n\n\nThis issue affects Apache Camel: from 4.21.0 before 4.22.2.\n\n\n\nWebhookUrlValidator classified a push notification webhook host in two places that did not agree. A host written as an IP literal was matched against a list of string prefixes that named the IPv6 unique local range fc00::/7, while a host reached through a name was resolved and the resulting address classified with the InetAddress predicates isLoopbackAddress, isAnyLocalAddress, isLinkLocalAddress and isSiteLocalAddress. Those predicates do not cover the same ground as the prefix list: isSiteLocalAddress reports the deprecated fec0::/10 block and not the fc00::/7 unique local addresses that replaced it, and the JDK carries no predicate for them at all. The same address was therefore accepted or rejected depending on how it was written, and a webhook URL whose host name resolved into fc00::/7 passed a guard that refused the identical address given as a literal. PushNotificationDispatcher then sent the push notification to that address, together with any Authorization header carried in the same configuration, whose scheme and credentials the registering caller supplies. The webhook URL arrives as TaskPushNotificationConfig.url from the caller registering the push notification, so it is attacker-controlled, and allowLocalWebhookUrls is false by default, which is the configuration in which the guard is expected to hold. The response is not relayed back to the caller who registered the configuration, so what the gap yields is a blind outbound HTTPS request from the Camel process to an internal address the guard was written to refuse; reaching a service that way additionally requires that the name resolve into fc00::/7 in the target environment, that an HTTPS service be listening on that address, and that the TLS handshake succeed for the name being requested, which is why the severity is assessed medium. The same string pre-check was also wrong in the other direction: it matched the raw host string without first establishing that the host was an IP literal, so any name merely beginning with fc or fd, such as fcm.googleapis.com, was refused outright.\n\n\n\nUsers are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.2. The 4.21.x release line reached end of life before this issue was resolved and will not receive a fix, so deployments on it must move to a supported release. Both the literal and the resolved path now classify the address from its raw bytes with one shared classifier, which recognises fc00::/7 and the shared address space 100.64.0.0/10, as well as IPv4-compatible, NAT64 (64:ff9b::/96) and 6to4 (2002::/16) addresses whose embedded IPv4 address is not globally routable. For deployments that cannot upgrade immediately, place authentication in front of the A2A push notification configuration path so that the webhook URL does not arrive from an untrusted caller, and deny egress from the Camel process to fc00::/7 at the network level; where the deployment has no need of IPv6, starting the JVM with -Djava.net.preferIPv4Stack=true removes the address class the gap turns on. Note that allowLocalWebhookUrls=false is already the default and does not by itself close the gap.
+</code>
+
+- [oscerd/CVE-2026-71569](https://github.com/oscerd/CVE-2026-71569)
 
 ### CVE-2026-71851 (2026-08-07)
 
@@ -17221,28 +17252,28 @@
 <code>A vulnerability in the database service feature of Cisco Expressway Series could allow an unauthenticated, remote attacker with network access to a Cisco Expressway device to execute arbitrary operating system commands as&amp;nbsp;root.\r\n\r\nThis vulnerability is due to the use of persistent cookies. Additionally, there is insufficient validation of client certificates when the TLS Verify Mode is set to Enabled for clustering, which means that client certificates are not validated. An attacker with possession of the cookies could exploit this vulnerability by connecting to the database service and invoking specific remote procedure call (RPC) commands. A successful exploit could allow the attacker to execute arbitrary commands as root on the underlying operating system of an affected device.\r\nNote: Cisco Expressway Series refers to Cisco Expressway Core (Expressway-C) devices and Cisco Expressway Edge (Expressway-E) devices.
 </code>
 
-- [emirwtz/CVE-2026-76466](https://github.com/emirwtz/CVE-2026-76466)
+- [mehmet-emir-eroglu/CVE-2026-76466](https://github.com/mehmet-emir-eroglu/CVE-2026-76466)
 
 ### CVE-2026-76473 (2026-10-21)
 
 <code>As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp;amp; Presence Service (Unified CM IM&amp;amp;P), Cisco Unified Communications Manager Session Management Edition (Unified CM SME), and Cisco Unity Connection have conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities.\r\n\r\nThe vulnerabilities tracked by CVE-2026-76473 are related to issues concerning improper neutralization of special elements in output used by a downstream component that are grouped under the Common Weakness Enumeration (CWE) Class CWE-74.
 </code>
 
-- [emirwtz/CVE-2026-76473](https://github.com/emirwtz/CVE-2026-76473)
+- [mehmet-emir-eroglu/CVE-2026-76473](https://github.com/mehmet-emir-eroglu/CVE-2026-76473)
 
 ### CVE-2026-76474 (2026-10-21)
 
 <code>As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp;amp; Presence Service (Unified CM IM&amp;amp;P), Cisco Unified Communications Manager Session Management Edition (Unified CM SME), and Cisco Unity Connection have conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities.\r\n\r\nThe vulnerabilities tracked by CVE-2026-76474 are related to issues concerning improper authentication that are grouped under the Common Weakness Enumeration (CWE) Class CWE-287.
 </code>
 
-- [emirwtz/CVE-2026-76474](https://github.com/emirwtz/CVE-2026-76474)
+- [mehmet-emir-eroglu/CVE-2026-76474](https://github.com/mehmet-emir-eroglu/CVE-2026-76474)
 
 ### CVE-2026-76475 (2026-10-21)
 
 <code>As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp;amp; Presence Service (Unified CM IM&amp;amp;P), Cisco Unified Communications Manager Session Management Edition (Unified CM SME), and Cisco Unity Connection have conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities.\r\n\r\nThe vulnerabilities tracked by CVE-2026-76475 are related to issues concerning improper neutralization of input during web page generation that are grouped under the Common Weakness Enumeration (CWE) Base CWE-79.
 </code>
 
-- [emirwtz/CVE-2026-76475](https://github.com/emirwtz/CVE-2026-76475)
+- [mehmet-emir-eroglu/CVE-2026-76475](https://github.com/mehmet-emir-eroglu/CVE-2026-76475)
 
 ### CVE-2026-76504 (2026-09-30)
 
@@ -17991,7 +18022,7 @@
 <code>Missing authentication for critical function in Azure Kubernetes Configuration Service allows an unauthorized attacker to elevate privileges over a network.
 </code>
 
-- [emirwtz/CVE-2026-83938](https://github.com/emirwtz/CVE-2026-83938)
+- [mehmet-emir-eroglu/CVE-2026-83938](https://github.com/mehmet-emir-eroglu/CVE-2026-83938)
 
 ### CVE-2026-83991 (2026-09-08)
 
@@ -18727,6 +18758,13 @@
 
 - [oscerd/CVE-2026-88789](https://github.com/oscerd/CVE-2026-88789)
 
+### CVE-2026-88804 (2026-09-28)
+
+<code>An unauthenticated update of public UI settings could be used by remote attackers to execute a stored cross-site scripting attack in the Rancher UI, in SUSE Rancher 2.15 before 2.15.2, 2.14 before 2.14.6, 2.13 before 2.13.10, 2.12 before 2.12.14 and 2.11 before 2.11.18.
+</code>
+
+- [R0gfall/CVE-2026-88804](https://github.com/R0gfall/CVE-2026-88804)
+
 ### CVE-2026-88854 (2026-09-20)
 
 <code>Joomla Extension - OrdaSoft.com - Unauthenticated SQL Injection in OrdaSoft Joomla Gallery extension for Joomla &lt; 6.2.7 - The extensions showSearchResult() and showSearchResultAjax() read the textsearch/searchText request parameter with $input-&gt;getVar(), which is not a real Joomla filter method and falls through to a filter that strips HTML tags but does not touch quotes or SQL syntax. The value is concatenated directly into a LIKE clause with no escaping. The endpoint requires no login of any kind: mod_osgallery_search is a public, commonly-published search box. Any anonymous site visitor can inject a UNION SELECT and read arbitrary database content.
@@ -18810,7 +18848,7 @@
 <code>MikroTik RouterOS through 7.24.5 contains a session token replay vulnerability in the WebFig interface that allows attackers to bypass authentication by replaying captured session tokens across new ECDH sessions. The makeSessionKey function in libucrypto.so generates tokens using fixed salts without incorporating channel-specific or session-specific input, and the user service validates tokens against the login store without verifying channel context, enabling stolen tokens to grant persistent administrative access until the token store is explicitly cleared. This vulnerability extends the impact of CVE-2025-61481, which identified the underlying transport-layer exposure without a corresponding fix.
 </code>
 
-- [emirwtz/CVE-2026-89035](https://github.com/emirwtz/CVE-2026-89035)
+- [mehmet-emir-eroglu/CVE-2026-89035](https://github.com/mehmet-emir-eroglu/CVE-2026-89035)
 
 ### CVE-2026-89055 (2026-09-25)
 
@@ -18882,6 +18920,13 @@
 
 - [shlln/CVE-2026-90847](https://github.com/shlln/CVE-2026-90847)
 
+### CVE-2026-90885 (2026-10-26)
+
+<code>Improper Restriction of XML External Entity Reference vulnerability in Apache Camel Saxon component.\n\n\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.2.\n\n\n\nXQueryBuilder in camel-saxon, which evaluates expressions for the xquery language and the xquery component, built its default Saxon Configuration with parse options that set only a whitespace stripping rule, leaving the XML parser at its defaults, under which a DOCTYPE declaration is accepted and external entities are resolved. A message body of type String or byte[], or any body read as an InputStream, is first turned into a javax.xml.transform.Source by Camel's own XML type converters, which configure the parser against external entities, so those bodies were not affected. A body that was already a Source, however, was handed to Saxon unchanged, and when that Source still had to be parsed, as a stream-based Source does, Saxon parsed it with that Configuration, bypassing the protection applied to the other body types. Such a body arises, for example, after a route converts the message with convertBodyTo(Source.class), or when a component or processor earlier in the route sets the body to a stream-based Source. A DOCTYPE with an external subset, or an external entity, declared in that body was therefore resolved and expanded into the document the expression was evaluated against. An external sender whose XML reaches an XQuery expression or an xquery endpoint in that form could read files readable by the Camel process and cause the process to issue requests to hosts the document names. No non-default option is required, since the default Configuration is used whenever the route does not supply one of its own.\n\n\n\nUsers are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.2. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.14.x releases stream and earlier, as well as the 4.15.x to 4.17.x and 4.19.x to 4.21.x release lines, reached end of life before this issue was resolved and will not receive a fix, so deployments on them must move to a supported release. For deployments that cannot upgrade immediately, do not evaluate XQuery over a message body that is already a javax.xml.transform.Source when that body carries XML from an untrusted sender, or set the configuration option of the xquery endpoint or language to a Saxon Configuration whose parse options refuse a DOCTYPE declaration and disable external entities and external DTD loading, which is what the fixed releases now apply by default.
+</code>
+
+- [oscerd/CVE-2026-90885](https://github.com/oscerd/CVE-2026-90885)
+
 ### CVE-2026-90898 (2026-09-14)
 
 <code>Bifrost registers MCP clients through its management API. A stdio client is a command plus args. Bifrost starts that program in the gateway the moment the client is added. No MCP handshake required.\n\n\n\nThe default is governance.auth_config.is_enabled=false. Auth off means every caller is a local admin. One unauthenticated POST /api/mcp/client is enough to run a program as the Bifrost process user (appuser on the official image).\n\n\n\n transports/v2.1.0 refuses an unauthenticated stdio registration with 403. transports/v2.0.0 still allows it.
@@ -18948,7 +18993,7 @@
 - [hubly12/javafix](https://github.com/hubly12/javafix)
 - [FahrihFatahilah/CVE-2026-91403-eMudhra-Java-Scanner](https://github.com/FahrihFatahilah/CVE-2026-91403-eMudhra-Java-Scanner)
 - [siladu/fix-cve-2026-91403](https://github.com/siladu/fix-cve-2026-91403)
-- [emirwtz/CVE-2026-91403](https://github.com/emirwtz/CVE-2026-91403)
+- [mehmet-emir-eroglu/CVE-2026-91403](https://github.com/mehmet-emir-eroglu/CVE-2026-91403)
 
 ### CVE-2026-91737 (2026-09-15)
 
@@ -19290,7 +19335,14 @@
 </code>
 
 - [Ibonok/CVE-2026-94300](https://github.com/Ibonok/CVE-2026-94300)
-- [emirwtz/CVE-2026-94300](https://github.com/emirwtz/CVE-2026-94300)
+- [mehmet-emir-eroglu/CVE-2026-94300](https://github.com/mehmet-emir-eroglu/CVE-2026-94300)
+
+### CVE-2026-94386 (2026-10-26)
+
+<code>Use of Cache Containing Sensitive Information vulnerability in Apache Camel Oauth component.\n\n\n\nThis issue affects Apache Camel: from 4.19.0 before 4.22.2.\n\n\n\nOAuthClientCredentialsTokenResolver obtains OAuth 2.0 bearer tokens through the client credentials grant on behalf of the components that authenticate their outbound calls with a named OAuth profile, such as camel-openai, camel-langchain4j-agent, camel-huggingface, camel-docling, camel-a2a, camel-spring-ai-chat and the IBM watsonx components, and of applications that call the OAuthClientAuthenticationFactory SPI directly. It kept the tokens it obtained in a static cache shared by every resolver instance and every CamelContext in the JVM, and keyed that cache on the token endpoint and the client ID only, although the token request also carries the client secret and the requested scope. Two profiles that share a token endpoint and a client ID but request different scopes, or authenticate with different client secrets, therefore mapped to the same cache entry: the profile that resolved a token first populated the entry, and the other profile was then handed that token, with no token request made under its own configuration, for as long as the token remained valid. Token caching is enabled by default, and pointing several profiles at one identity provider client is an ordinary use of the profile support rather than an opt-in to an insecure setting. The outcome is an outbound request that carries a token issued for another profile's scope, which can grant broader authority than the calling profile was configured for, or reach a service the token was not issued for; with identity providers that derive a token's audience from the requested scope, a different scope can mean a token for a different service altogether. A profile configured with a different client secret was likewise served the token obtained with the other secret, without authenticating with its own. The profiles are configured by the deployment, which is trusted, so no untrusted input reaches the cache: the party that gains is the service that receives a token it was not meant to receive, which, if hostile or compromised, can replay that token within its scope. Reaching the issue requires a deployment that defines more than one profile sharing a token endpoint and client ID while differing in scope or client secret.\n\nUsers are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.2. The 4.19.x to 4.21.x release lines reached end of life before this issue was resolved and will not receive a fix, so deployments on them must move to a supported release. For deployments that cannot upgrade immediately, disable token caching on every OAuth profile that shares a token endpoint and client ID with another profile, by setting camel.oauth.NAME.cache-tokens=false for a named profile or camel.oauth.cache-tokens=false for the default one, so that each resolution requests a token with that profile’s own scope and client secret, at the cost of a token request on every resolution. Alternatively, register a separate client at the identity provider for each profile that needs a different scope or client secret, so that no two such profiles share a client ID.
+</code>
+
+- [oscerd/CVE-2026-94386](https://github.com/oscerd/CVE-2026-94386)
 
 ### CVE-2026-94503 (2026-10-09)
 
@@ -19331,6 +19383,34 @@
 
 ### CVE-2026-95622
 - [0xSemizzz/CVE-2026-95622](https://github.com/0xSemizzz/CVE-2026-95622)
+
+### CVE-2026-95628 (2026-10-26)
+
+<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache Camel Docling component.\n\n\n\nThis issue affects Apache Camel: from 4.15.0 before 4.18.5, from 4.19.0 before 4.22.2.\n\n\n\nDoclingProducer builds the command line of the external docling tool and appends to it the custom arguments supplied in the CamelDoclingCustomArguments header, a list of strings whose flags the fix for CVE-2026-40047 restricted to an allowlist. That fix also introduced validatePathSafety to keep path-like argument values inside the intended directory, but the method only looked for relative traversal: it rejected a value containing a traversal sequence such as ../ and a value whose normalized form still held a .. element. It never checked whether a value was an absolute path, and an absolute path without traversal segments contains neither, so it passed unchanged. Every path-like value went through this check, whether it was a separate list element following its flag or was attached to the flag after an equals sign, so an absolute path was accepted in either form, for example as the directory given to the allowlisted --artifacts-path flag, which tells docling where to find its model artifacts. Such a value reached the docling command line as given, so a party able to choose the custom arguments could point the docling process at any directory the Camel process can access, outside the working directory that the check was meant to keep path values in, which is the outcome the CVE-2026-40047 fix set out to prevent. Only the CLI mode, which is the default, passes custom arguments to docling. The header belongs to the Camel header namespace, which consumers applying Camel's default header filtering, such as the JMS and Kafka consumers, remove from incoming messages, so the issue is reached where a route forwards externally influenced values into the header or where a consumer maps incoming headers without that filtering.\n\n\n\nUsers are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.2. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.15.x to 4.17.x and 4.19.x to 4.21.x release lines reached end of life before this issue was resolved and will not receive a fix, so deployments on them must move to a supported release. For deployments that cannot upgrade immediately, do not build the CamelDoclingCustomArguments header from values that originate outside the deployment, remove that header from messages that arrive from outside before they reach a docling endpoint, and make sure that consumers which map incoming message headers drop the Camel header namespace, so that only the route itself chooses the custom arguments.
+</code>
+
+- [oscerd/CVE-2026-95628](https://github.com/oscerd/CVE-2026-95628)
+
+### CVE-2026-95629 (2026-10-26)
+
+<code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache Camel Docling component.\n\n\n\nThis issue affects Apache Camel: from 4.15.0 before 4.18.5, from 4.19.0 before 4.22.2.\n\n\n\nDoclingProducer runs the external docling tool in CLI mode, the default, and tells it where to write the converted document through the --output flag. When the CamelDoclingOutputFilePath header was set, addOutputDirectoryArguments handed its value to that flag verbatim: the value was not normalized, an absolute path or a path containing .. segments was accepted as given, and no endpoint option could confine it to a directory. The custom-argument validation added by the fix for CVE-2026-40047 refuses the --output and -o flags in the CamelDoclingCustomArguments header and tells callers to choose the output directory with this header instead, so the one value that decides where docling writes reached the command line without any of the checks applied to custom arguments. Docling writes the conversion result, as Markdown, HTML, JSON or text, into that directory, naming the file after the input file, and the producer afterwards removes only its own temporary directory, so the file is left in place. A party able to set the header could therefore have conversion output created in any directory the Camel process can write to. The content of such a file is the conversion of the document carried by the message, so it is shaped by whoever supplies that document without being written byte for byte, and when the document content arrives in the message body the producer stores it under a random temporary name, which the output file then carries. The header belongs to the Camel header namespace, which consumers applying Camel's default header filtering, such as the JMS and Kafka consumers, remove from incoming messages, so the issue is reached where a route forwards externally influenced values into the header or where a consumer maps incoming headers without that filtering. The docling-serve mode does not use the header.\n\n\n\nUsers are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.2. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The fix adds an outputBaseDirectory endpoint option that is unset by default, so after upgrading, set it on every docling endpoint whose CamelDoclingOutputFilePath header can carry a value influenced from outside the deployment; without it the header is normalized but can still name any directory. The 4.15.x to 4.17.x and 4.19.x to 4.21.x release lines reached end of life before this issue was resolved and will not receive a fix, so deployments on them must move to a supported release. For deployments that cannot upgrade immediately, do not build the CamelDoclingOutputFilePath header from values that originate outside the deployment, remove that header from messages that arrive from outside before they reach a docling endpoint, and make sure that consumers which map incoming message headers drop the Camel header namespace, so that only the route itself chooses the output directory.
+</code>
+
+- [oscerd/CVE-2026-95629](https://github.com/oscerd/CVE-2026-95629)
+
+### CVE-2026-95663 (2026-10-26)
+
+<code>Insufficient Session Expiration vulnerability in Apache Camel Keycloak component.\n\n\n\nThis issue affects Apache Camel: from 4.16.0 before 4.18.5, from 4.19.0 before 4.22.2.\n\n\n\nWhen token introspection is enabled on the camel-keycloak KeycloakSecurityPolicy (useTokenIntrospection=true), the security processor validates the access token of a request by sending it to Keycloak's OAuth 2.0 token introspection endpoint, and accepts the token while the response reports it as active. The introspection endpoint reports a token as inactive once its exp (expiration) time has passed, so on this path the active flag is what enforces token expiry. Introspection results are cached by default (introspectionCacheEnabled=true, introspectionCacheTtl=60 seconds), and both cache implementations shipped with the component, ConcurrentMapTokenCache and CaffeineTokenCache, expired an entry a fixed time after it was inserted, without bounding that lifetime by the exp claim that the cached response already carried. KeycloakSecurityProcessor in turn checked only the active flag of the result, on every path that uses introspection, and never compared exp with the current time. A response cached shortly before the token expired was therefore served to later requests carrying the same token for up to the configured time-to-live after the token's expiry, and those requests were admitted with the roles and permissions the expired token had carried, although RFC 7662, which defines token introspection, states that a response containing exp must not be cached beyond that time. The access token is supplied by the caller with each request, typically as a bearer token in the Authorization header, so a caller holding a token that was valid moments earlier could keep using it after it expired, for as long as the cached entry lived. The window is bounded by introspectionCacheTtl, which is 60 seconds by default and 300 to 600 seconds where the documentation's recommendation for internal services was followed, and it opens only for a token that the same Camel process introspected and cached while the token was still active. The issue grants nothing beyond what the token already carried: it allows no token forgery and no privilege escalation, and token introspection is not enabled by default, which is why the severity is assessed medium. The local JWT verification path, used when introspection is disabled, is not affected by this issue.\n\n\n\nUsers are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.2. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.16.x, 4.17.x and 4.19.x to 4.21.x release lines reached end of life before this issue was resolved and will not receive a fix, so deployments on them must move to a supported release. For deployments that cannot upgrade immediately, set introspectionCacheEnabled=false on the KeycloakSecurityPolicy, so that every request is checked against the introspection endpoint, which reports an expired token as inactive, at the cost of one introspection call per request. Lowering introspectionCacheTtl only narrows the window and does not close it.
+</code>
+
+- [oscerd/CVE-2026-95663](https://github.com/oscerd/CVE-2026-95663)
+
+### CVE-2026-95664 (2026-10-26)
+
+<code>Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection') vulnerability in Apache Camel AWS2-s3 component.\n\n\n\nThis issue affects Apache Camel: from 4.8.0 before 4.18.5, from 4.19.0 before 4.22.2.\n\n\n\nFor the object it uploads, reads or deletes, the camel-aws2-s3 producer takes the key from the CamelAwsS3Key message header and falls back to the keyName option configured on the endpoint only when that header is absent. Since 4.8.0, AWS2S3Utils.determineKey() also passed the resulting value to the Simple language whenever it contained ${ or $simple{, so that a route could use a dynamic key, and the evaluation applied to a value taken from the header as well as to the configured option. The header is not route configuration, however: the aws2-s3 consumer sets CamelAwsS3Key on the exchanges it creates to the key of the object it read, that is, the name of the object in the bucket. In a route that does nothing more than consume from one aws2-s3 endpoint and produce to another, the name of each consumed object therefore reached the producer, and a name containing either marker was evaluated as an expression, although the route author never asked for any evaluation, and configuring keyName on the producer did not prevent it, because the header took precedence. A key that a route copied into the header from other message content was evaluated in the same way. Anyone able to choose the name of an object in a bucket that such a route consumes, typically a principal allowed to upload to that bucket, could therefore have Simple expressions of their choosing evaluated in the Camel process. The Simple language can read JVM system properties, environment variables and configuration properties, which commonly carry credentials, and, where camel-bean is on the classpath, invoke methods on beans in the registry. The evaluated result became the key the producer used, so reading a value back additionally required the ability to see object names in the destination bucket, while a method invocation took effect without it; together with the need to name an object in a consumed bucket, this is why the severity is assessed medium. The bucket name went through the same evaluation, but the consumer only ever places the bucket configured on its own endpoint in a bucket header, never a value derived from a remote object, so the bucket name was not reachable in this way. Releases before 4.8.0 used the key from the header as given and are not affected.\n\n\n\nUsers are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.2. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.8.x to 4.17.x and 4.19.x to 4.21.x release lines reached end of life before this issue was resolved and will not receive a fix, so deployments on them must move to a supported release. After upgrading, a key or bucket name supplied through a message header is used literally, so a route that put an unevaluated Simple expression in the CamelAwsS3Key or CamelAwsS3OverrideBucketName header must evaluate it in the route instead, for example with setHeader and simple(), or configure it as the keyName or bucketName option of the endpoint. For deployments that cannot upgrade immediately, do not let a key derived from an object name or from other untrusted message content reach an aws2-s3 producer unchecked: in routes that pass exchanges from an aws2-s3 consumer to an aws2-s3 producer, either remove the CamelAwsS3Key header before the producer with removeHeader(“CamelAwsS3Key”), so that the keyName configured on the endpoint is used, or reject exchanges whose CamelAwsS3Key header contains ${ or $simple{. Configuring keyName alone is not a workaround, because the header takes precedence over it. As defence in depth, allow only trusted principals to write to buckets that Camel routes consume.
+</code>
+
+- [oscerd/CVE-2026-95664](https://github.com/oscerd/CVE-2026-95664)
 
 ### CVE-2026-95675 (2026-09-22)
 
@@ -19522,6 +19602,7 @@
 - [jburgess-r7/CVE-2026-97229-PoC](https://github.com/jburgess-r7/CVE-2026-97229-PoC)
 - [gandli/cve-2026-97229-lab](https://github.com/gandli/cve-2026-97229-lab)
 - [Noshadi-sec/CVE-2026-97229](https://github.com/Noshadi-sec/CVE-2026-97229)
+- [murat-levi/gitlab-rce-toolkit](https://github.com/murat-levi/gitlab-rce-toolkit)
 
 ### CVE-2026-97286 (2026-09-30)
 
@@ -19543,6 +19624,13 @@
 </code>
 
 - [JailBr3ak/CVE-2026-97347](https://github.com/JailBr3ak/CVE-2026-97347)
+
+### CVE-2026-97555 (2026-09-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: fix heap overflow in DACL owner/group rewrite\n\nWhen id_mode_to_cifs_acl rewrites an existing DACL, it allocates a\nbuffer sized according to the on-disk DACL length reported by\ndacl_ptr-&gt;size. However, replace_sids_and_copy_aces may rewrite each\nACE with a new owner/group SID obtained from the cifs.idmap upcall.\nThose SIDs can have up to SID_MAX_SUB_AUTHORITIES (15) sub-authorities,\nmaking each ACE up to 76 bytes (sizeof(struct smb_ace)).\n\nIf the original DACL contains short SIDs (e.g., 1 sub-authority) while\nthe replacement SIDs are long, the rewritten ACEs overflow the\nallocation.\n\nFix this by always budgeting for worst-case SID expansion: allocate\nsizeof(struct smb_acl) plus num_aces * sizeof(struct smb_ace), which\ncovers the smb_acl header and room for every ACE at maximum SID size.\nThis replaces the previous split logic that used dacl_ptr-&gt;size for\ncifsacl mounts but num_aces * sizeof(struct smb_ace) for mode_from_sid\nmounts: both paths can trigger the same rewrite and need the same\nheadroom.\n\nKASAN reports this as:\n  BUG: KASAN: slab-out-of-bounds in build_sec_desc+0x1e8a/0x2680 [cifs]\n  Write of size 4 at addr ffff8881a5e25374 by task chown/5298\n  ...\n  The buggy address is located 0 bytes to the right of\n   allocated 884-byte region [ffff8881a5e25000, ffff8881a5e25374)
+</code>
+
+- [woshigenm/CVE-2026-97555](https://github.com/woshigenm/CVE-2026-97555)
 
 ### CVE-2026-97629 (2026-10-14)
 
@@ -19571,7 +19659,7 @@
 <code>Improper authentication in AAD App Proxy allows an unauthorized attacker to elevate privileges over a network.
 </code>
 
-- [emirwtz/CVE-2026-97785](https://github.com/emirwtz/CVE-2026-97785)
+- [mehmet-emir-eroglu/CVE-2026-97785](https://github.com/mehmet-emir-eroglu/CVE-2026-97785)
 
 ### CVE-2026-97798 (2026-10-13)
 
@@ -19579,6 +19667,7 @@
 </code>
 
 - [G4sp4rCS/CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit)
+- [j0wii/CVE-2026-97798_LPE_Windows](https://github.com/j0wii/CVE-2026-97798_LPE_Windows)
 
 ### CVE-2026-97859 (2026-10-18)
 
@@ -19638,6 +19727,9 @@
 - [NanoTurtle1145/cve-2026-98260-uaf](https://github.com/NanoTurtle1145/cve-2026-98260-uaf)
 - [Feiman55/CVE-2026-98260-GhostKey](https://github.com/Feiman55/CVE-2026-98260-GhostKey)
 - [Again1996-bit/CVE-2026-98260-GhostKey](https://github.com/Again1996-bit/CVE-2026-98260-GhostKey)
+- [simayang01/CVE-2026-98260-vivo-x-fold6-poc](https://github.com/simayang01/CVE-2026-98260-vivo-x-fold6-poc)
+- [AzirX1337/CVE-2026-98260-PMX110-Root618-Jailbreak](https://github.com/AzirX1337/CVE-2026-98260-PMX110-Root618-Jailbreak)
+- [quyicheng03-boop/CVE-2026-98260-dada-android](https://github.com/quyicheng03-boop/CVE-2026-98260-dada-android)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -19645,6 +19737,14 @@
 </code>
 
 - [ylh440104/InfinityCore-Android-CVE-2026-98385](https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98385)
+
+### CVE-2026-98432 (2026-10-15)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nipv4: free inet_opt and ireq_opt after an RCU grace period\n\ntcp_v4_syn_recv_sock() transfers ownership of ireq-&gt;ireq_opt to the\nchild socket (newinet-&gt;inet_opt) without copying it.\n\nAnother cpu can concurrently process a retransmitted SYN for the same\nrequest socket, and send a SYNACK from tcp_check_req().\ntcp_v4_send_synack() and inet_csk_route_req() read ireq-&gt;ireq_opt\nunder rcu_read_lock() only, and ip_build_and_send_pkt() and\nip_options_build() then read opt-&gt;optlen twice.\n\nNote that the SYNACK timer itself is not an issue: it holds a\nreference on its request socket, and inet_csk_reqsk_queue_drop()\ncalls timer_delete_sync() before the child can be freed.\n\nSince commit 079096f103fa (&quot;tcp/dccp: install syn_recv requests\ninto ehash table&quot;), request sockets are processed without holding\nthe listener lock, so nothing prevents the child socket from being\nfreed while the SYNACK is still being built. TCP child sockets do\nnot have SOCK_RCU_FREE, and inet_sock_destruct() frees inet_opt\nwith a plain kfree(), leading to a use-after-free in\nip_options_build().\n\nA similar issue exists with request socket migration\n(net.ipv4.tcp_migrate_req=1, or a BPF_SK_REUSEPORT_SELECT_OR_MIGRATE\nprogram). reqsk_timer_handler() clones the request socket with\ninet_reqsk_clone(), so that the old request socket and its clone\nshare the same ireq_opt, then reqsk_migrate_reset() clears the\npointer in the old one. Another cpu holding a reference on the old\nrequest socket can still be using these options (sending a SYNACK,\nor creating a child in tcp_v4_syn_recv_sock()) when the clone is\nfreed, and tcp_v4_reqsk_destructor() also uses a plain kfree().\n\nReaders already use RCU, and other paths replacing inet_opt\n(do_ip_setsockopt(), cipso_v4_sock_setattr()...) already use\nkfree_rcu(). Use kfree_rcu() in inet_sock_destruct() and\ntcp_v4_reqsk_destructor() as well.\n\nIPv6 is not affected by the first issue, because tcp_v6_syn_recv_sock()\nduplicates the options. tcp_v6_reqsk_destructor() has the same\nmigration issue with ipv6_opt, which is only set by CALIPSO. This\nwill be addressed in a separate patch.
+</code>
+
+- [Quaerendir/cve-2026-98432-audit](https://github.com/Quaerendir/cve-2026-98432-audit)
+- [suominen/CVE-2026-98432](https://github.com/suominen/CVE-2026-98432)
 
 ### CVE-2026-99999 (2026-10-15)
 
@@ -19799,6 +19899,13 @@
 </code>
 
 - [Hasyros/CVE-2026-101162-xss-wp-ultimate-review](https://github.com/Hasyros/CVE-2026-101162-xss-wp-ultimate-review)
+
+### CVE-2026-101259 (2026-10-26)
+
+<code>Generation of Error Message Containing Sensitive Information vulnerability in Apache Camel CoAP component.\n\n\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.2.\n\n\n\nWhen the CoAP consumer could not build its response once the route had completed, CamelCoapResource caught the resulting exception and sent its message back to the CoAP client as the payload of a 5.00 Internal Server Error response. The typical case is a type conversion failure: the consumer converts the final message body to the byte[] payload, and the CamelCoapMaxAge and CamelCoapETag headers to their types, after the route has returned, and therefore outside the route's error handler. On the affected releases the message of such a failure names the class of the value being converted, carries the value's string form, and ends with the class name and message of the underlying cause, so a remote CoAP client could read internal detail about the deployment: class and package names, the string form of the value, such as the path of a file body, and whatever the cause carries, which in practice can include paths, host names and connection detail of a backend. The consumer had no option to suppress this, unlike the HTTP consumers, which offer a muteException option for that purpose. The exception raised by a failing route was not sent: the consumer did not check whether the exchange had failed, and answered a route failure with 2.05 Content and whatever body the message held at that point. Reaching the disclosure therefore requires a route whose completed response a remote client can make unconvertible, which depends on how the route is written.\n\n\n\nUsers are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.2. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.14.x releases stream and earlier, and the 4.15.x to 4.17.x and 4.19.x to 4.21.x release lines, reached end of life before this issue was resolved and will not receive a fix, so deployments on them must move to a supported release. The upgrade is enough on its own: the new muteException consumer option defaults to true on all three fixed release lines, so the error response carries no payload without any configuration change. For deployments that cannot upgrade immediately, make sure the response can always be built once the route has completed: convert the body to byte[] or String as the last step of each route that consumes from a coap endpoint, for example with convertBodyTo, give the CamelCoapMaxAge and CamelCoapETag headers only values of their own types, and add an onException handler that marks the failure as handled and sets the response body explicitly, so that a conversion failure is raised and replaced inside the route rather than in the consumer.
+</code>
+
+- [oscerd/CVE-2026-101259](https://github.com/oscerd/CVE-2026-101259)
 
 ### CVE-2026-101767 (2026-10-20)
 
@@ -20161,6 +20268,7 @@
 - [techupdate24/fortimail-zero-day-cve-2026-104286](https://github.com/techupdate24/fortimail-zero-day-cve-2026-104286)
 - [kh20134/fortimail-cve-2026-104286-response](https://github.com/kh20134/fortimail-cve-2026-104286-response)
 - [CompleTech-Security/fortimail-cve-2026-104286-check](https://github.com/CompleTech-Security/fortimail-cve-2026-104286-check)
+- [maxprog-svg/CVE-2026-104286](https://github.com/maxprog-svg/CVE-2026-104286)
 
 ### CVE-2026-104335 (2026-10-06)
 
@@ -20287,7 +20395,7 @@
 <code>Improper neutralization of special elements used in a command ('command injection') in Azure Pipelines allows an unauthorized attacker to execute code over a network.
 </code>
 
-- [emirwtz/CVE-2026-105014](https://github.com/emirwtz/CVE-2026-105014)
+- [mehmet-emir-eroglu/CVE-2026-105014](https://github.com/mehmet-emir-eroglu/CVE-2026-105014)
 
 ### CVE-2026-105030 (2026-10-02)
 
@@ -20326,7 +20434,7 @@
 
 ### CVE-2026-105192 (2026-10-07)
 
-<code>LMCache multiprocess mode, also called distributed mode, opens an unauthenticated ZeroMQ ROUTER so worker processes can register and share KV cache blocks. Messages on that socket are msgpack. Extension code 1 is passed to DeviceIPCWrapper.Deserialize, which calls pickle.loads, while the server is still decoding request arguments and before the handler runs. A single unauthenticated ZMQ DEALER message to the transport port (default 5555) therefore executes code as the user the LMCache process runs as. Official container images run that process as root. The transport binds to localhost unless the operator sets a routable address with --host, which is how multi-node deployments let peers connect.
+<code>LMCache multiprocess mode, also called distributed mode, opens an unauthenticated ZeroMQ ROUTER so worker processes can register and share KV cache blocks. Messages on that socket are msgpack. Extension code 1 is passed to DeviceIPCWrapper.Deserialize, which calls pickle.loads, while the server is still decoding request arguments and before the handler runs. A single unauthenticated ZMQ DEALER message to the transport port (default 5555) therefore executes code as the user the LMCache process runs as. Official container images run that process as root. The transport binds to localhost unless the operator sets a routable address with --host, which is how multi-node deployments let peers connect. The decode path shipped in v0.3.9 and is present through v0.5.5, including the v0.5.6 release candidates. v0.5.6, published on 2026-10-14, removes pickle.loads from this path.
 </code>
 
 - [rxsklife/CVE-2026-105192](https://github.com/rxsklife/CVE-2026-105192)
@@ -21129,7 +21237,7 @@
 - [neelsomani/benevolent-php](https://github.com/neelsomani/benevolent-php)
 - [alvleont/php-patch-claude-skill](https://github.com/alvleont/php-patch-claude-skill)
 - [bsalunke/php2shell-lab](https://github.com/bsalunke/php2shell-lab)
-- [emirwtz/php2shell](https://github.com/emirwtz/php2shell)
+- [mehmet-emir-eroglu/php2shell](https://github.com/mehmet-emir-eroglu/php2shell)
 - [CCNAHLHQ/php2shell_scan](https://github.com/CCNAHLHQ/php2shell_scan)
 - [mc493/php2shell-enterprise-hardening-cve-2026-109618-109619](https://github.com/mc493/php2shell-enterprise-hardening-cve-2026-109618-109619)
 - [lankahost/lankahost-php-patch-check](https://github.com/lankahost/lankahost-php-patch-check)
@@ -21373,6 +21481,10 @@
 - [GarciaG1/charla-php2shell](https://github.com/GarciaG1/charla-php2shell)
 - [RedSideSecurity/php2shell](https://github.com/RedSideSecurity/php2shell)
 - [fahise/cve-2026-109618-cve-2026-109619-poc](https://github.com/fahise/cve-2026-109618-cve-2026-109619-poc)
+- [Gitsimbanyi2/php2shell-advisory-response](https://github.com/Gitsimbanyi2/php2shell-advisory-response)
+- [Dungsocool/PHP2Shell](https://github.com/Dungsocool/PHP2Shell)
+- [skill-tzy/php2shell-poc](https://github.com/skill-tzy/php2shell-poc)
+- [WebInspectPro/php2shell-poc](https://github.com/WebInspectPro/php2shell-poc)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21436,7 +21548,7 @@
 <code>Improper link resolution before file access ('link following') in VM Inspector for Azure Virtual Machines allows an unauthorized attacker to elevate privileges over a network.
 </code>
 
-- [emirwtz/CVE-2026-110063](https://github.com/emirwtz/CVE-2026-110063)
+- [mehmet-emir-eroglu/CVE-2026-110063](https://github.com/mehmet-emir-eroglu/CVE-2026-110063)
 
 ### CVE-2026-110200
 - [rmhowe425/POC-CVE-2026-110200](https://github.com/rmhowe425/POC-CVE-2026-110200)
@@ -21457,7 +21569,14 @@
 - [lesterlam/onigmo-cve-2026-110264](https://github.com/lesterlam/onigmo-cve-2026-110264)
 - [googlesky/CVE-2026-110264](https://github.com/googlesky/CVE-2026-110264)
 - [Masriyan/Exploit-CVE-2026-110264-GitLab-CE-EE-RCE](https://github.com/Masriyan/Exploit-CVE-2026-110264-GitLab-CE-EE-RCE)
-- [emirwtz/CVE-2026-110264](https://github.com/emirwtz/CVE-2026-110264)
+- [mehmet-emir-eroglu/CVE-2026-110264](https://github.com/mehmet-emir-eroglu/CVE-2026-110264)
+
+### CVE-2026-110311 (2026-10-18)
+
+<code>Creating a draft release through the API returned an `assets` list that was built from a release without an ID, which matched every attachment that was not linked to a release. A user who could create a draft release in a repository therefore received the metadata (file name, UUID, upload time, size and download count) of issue and comment attachments of repositories they could not read, and of abandoned uploads.
+</code>
+
+- [akiraraikou36-hub/cve-2026-110311-gitea-lab](https://github.com/akiraraikou36-hub/cve-2026-110311-gitea-lab)
 
 ### CVE-2026-110447 (2026-10-14)
 
@@ -21465,6 +21584,7 @@
 </code>
 
 - [adriyansyah-mf/cve-2026-110447](https://github.com/adriyansyah-mf/cve-2026-110447)
+- [CyRouteWolf/cve-2026-110447-poc](https://github.com/CyRouteWolf/cve-2026-110447-poc)
 
 ### CVE-2026-110720 (2026-10-26)
 
@@ -21596,7 +21716,7 @@
 - [FranklinF25/http2shell](https://github.com/FranklinF25/http2shell)
 - [tikarammardi/CVE-2026-111497](https://github.com/tikarammardi/CVE-2026-111497)
 - [fbuff-tools/http2shell-checker](https://github.com/fbuff-tools/http2shell-checker)
-- [emirwtz/CVE-2026-111497](https://github.com/emirwtz/CVE-2026-111497)
+- [mehmet-emir-eroglu/CVE-2026-111497](https://github.com/mehmet-emir-eroglu/CVE-2026-111497)
 - [thebarel/CVE-2026-111497](https://github.com/thebarel/CVE-2026-111497)
 - [jeffschafer/Bigfix-NodeJS-Vulnerability-Scanner-Content-CVE-2026-111497](https://github.com/jeffschafer/Bigfix-NodeJS-Vulnerability-Scanner-Content-CVE-2026-111497)
 - [sakai-sktech/brotli-check](https://github.com/sakai-sktech/brotli-check)
@@ -21622,6 +21742,9 @@
 - [Quaerendir/node2shell-audit](https://github.com/Quaerendir/node2shell-audit)
 - [fieldse/brotli-node2shell-check](https://github.com/fieldse/brotli-node2shell-check)
 - [foxcornlab/node2shell-inventory-scanner](https://github.com/foxcornlab/node2shell-inventory-scanner)
+- [timosar/woff2shell](https://github.com/timosar/woff2shell)
+- [Sumit0x00/node2shell](https://github.com/Sumit0x00/node2shell)
+- [RedSideSecurity/node2shell](https://github.com/RedSideSecurity/node2shell)
 
 ### CVE-2026-111770
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
@@ -21685,6 +21808,13 @@
 
 - [Ping-2o/CVE-2026-112611-cg-shading](https://github.com/Ping-2o/CVE-2026-112611-cg-shading)
 
+### CVE-2026-112621 (2026-10-26)
+
+<code>An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in Safari 27.2, iOS 26.7.2 and iPadOS 26.7.2, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, visionOS 27.2. Processing a maliciously crafted image may result in memory corruption.
+</code>
+
+- [Xplo8E/CVE-2026-112621-oob-write-poc](https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc)
+
 ### CVE-2026-112706 (2026-10-26)
 
 <code>A permissions issue was addressed with additional restrictions. This issue is fixed in iOS 26.7.2 and iPadOS 26.7.2, iOS 27.2 and iPadOS 27.2, tvOS 27.2, visionOS 27.2, watchOS 27.2. An app may be able to access sensitive user data.
@@ -21720,7 +21850,7 @@
 <code>MongoDB Compass improperly escapes certain BSON values when converting a stored view’s aggregation pipeline into editable source. When a user connects to a MongoDB deployment containing a specially crafted view and opens that view for editing, the values can cause arbitrary code to execute with the privileges of the user running Compass.
 </code>
 
-- [emirwtz/CVE-2026-113870](https://github.com/emirwtz/CVE-2026-113870)
+- [mehmet-emir-eroglu/CVE-2026-113870](https://github.com/mehmet-emir-eroglu/CVE-2026-113870)
 
 ### CVE-2026-113872 (2026-10-22)
 
@@ -21755,7 +21885,7 @@
 - [tajulasri/-CVE-2026-114509-POC](https://github.com/tajulasri/-CVE-2026-114509-POC)
 - [dimasma0305/CVE-2026-114509](https://github.com/dimasma0305/CVE-2026-114509)
 - [ArioVeisa/cve-2026-114509-laravel-tokenguard](https://github.com/ArioVeisa/cve-2026-114509-laravel-tokenguard)
-- [emirwtz/CVE-2026-114509](https://github.com/emirwtz/CVE-2026-114509)
+- [mehmet-emir-eroglu/CVE-2026-114509](https://github.com/mehmet-emir-eroglu/CVE-2026-114509)
 - [Nxploited/CVE-2026-114509](https://github.com/Nxploited/CVE-2026-114509)
 
 ### CVE-2026-114595 (2026-10-27)
@@ -21777,7 +21907,7 @@
 <code>VeloCloud Orchestrator (VCO) on-prem has a security issue where this issue may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.\n\nOn an affected system, any authenticated user can gain operator privileges and masquerade as a local &quot;superuser operator&quot; user. This includes access to functionality that is intended for internal use only and which is not intended to be remotely accessible.\n\nHosted, including Dedicated, versions of VCO were impacted and have already been patched.
 </code>
 
-- [emirwtz/CVE-2026-114625](https://github.com/emirwtz/CVE-2026-114625)
+- [mehmet-emir-eroglu/CVE-2026-114625](https://github.com/mehmet-emir-eroglu/CVE-2026-114625)
 
 ### CVE-2026-114820 (2026-10-24)
 
@@ -21805,6 +21935,7 @@
 </code>
 
 - [ideator-labs/wasmtime-sweep](https://github.com/ideator-labs/wasmtime-sweep)
+- [mehmet-emir-eroglu/CVE-2026-115889](https://github.com/mehmet-emir-eroglu/CVE-2026-115889)
 
 ### CVE-2026-115893 (2026-10-23)
 
@@ -21950,6 +22081,9 @@
 
 - [SpiralBL0CK/CVE-2025-0087-](https://github.com/SpiralBL0CK/CVE-2025-0087-)
 - [SpiralBL0CK/CVE-2025-0087](https://github.com/SpiralBL0CK/CVE-2025-0087)
+
+### CVE-2025-0098
+- [michalbednarski/OtherActivityToken](https://github.com/michalbednarski/OtherActivityToken)
 
 ### CVE-2025-0108 (2025-02-12)
 
@@ -23114,6 +23248,13 @@
 </code>
 
 - [bloodcode-spasov/ble-cve2025-attack-new-version](https://github.com/bloodcode-spasov/ble-cve2025-attack-new-version)
+
+### CVE-2025-4960 (2026-02-19)
+
+<code>The com.epson.InstallNavi.helper tool, deployed with the EPSON printer driver installer, contains a local privilege escalation vulnerability due to multiple flaws in its implementation. It fails to properly authenticate clients over the XPC protocol and does not correctly enforce macOS’s authorization model, exposing privileged functionality to untrusted users. Although it invokes the AuthorizationCopyRights API, it does so using overly permissive custom rights that it registers in the system’s authorization database (/var/db/auth.db).\n\n\nThese rights can be requested and granted by the authorization daemon to any local user, regardless of privilege level. As a result, an attacker can exploit the vulnerable service to perform privileged operations such as executing arbitrary commands or installing system components without requiring administrative credentials.
+</code>
+
+- [CarlosG13/CVE-2025-4960](https://github.com/CarlosG13/CVE-2025-4960)
 
 ### CVE-2025-5025 (2025-05-28)
 
@@ -31883,7 +32024,6 @@
 - [Mr-Destroyer/CVE-2025-55182](https://github.com/Mr-Destroyer/CVE-2025-55182)
 - [UwUGreed/CVE-2025-55182-poc](https://github.com/UwUGreed/CVE-2025-55182-poc)
 - [ChrisBarack/cve-2025-55182](https://github.com/ChrisBarack/cve-2025-55182)
-- [Bluex707/React2Shell-CVE-2025-55182-Exploit](https://github.com/Bluex707/React2Shell-CVE-2025-55182-Exploit)
 - [r3vpwnx/CVE-2025-55182](https://github.com/r3vpwnx/CVE-2025-55182)
 - [iapetus12/hackcar-writeup](https://github.com/iapetus12/hackcar-writeup)
 - [abhaybansal16/cve-2025-55182-lab](https://github.com/abhaybansal16/cve-2025-55182-lab)
@@ -36294,7 +36434,7 @@
 - [vnchk1/sec_review_cve-2024-3094](https://github.com/vnchk1/sec_review_cve-2024-3094)
 - [h3raklez/CVE-2024-3094](https://github.com/h3raklez/CVE-2024-3094)
 - [Ava-Vispilio/CVE-2024-3094](https://github.com/Ava-Vispilio/CVE-2024-3094)
-- [0xBlackash/CVE-2024-3094](https://github.com/0xBlackash/CVE-2024-3094)
+- [0xredash/CVE-2024-3094](https://github.com/0xredash/CVE-2024-3094)
 - [vesjolyjd/Kaspersky_CVE-2024-3094](https://github.com/vesjolyjd/Kaspersky_CVE-2024-3094)
 - [stevehenderson/lab_xz_backdoor](https://github.com/stevehenderson/lab_xz_backdoor)
 - [nnatsopoulos/xz-backdoor-research](https://github.com/nnatsopoulos/xz-backdoor-research)
@@ -40160,6 +40300,7 @@
 - [Alexandertanay/jenkins-cve-2024-23897-lab](https://github.com/Alexandertanay/jenkins-cve-2024-23897-lab)
 - [CyberCTF/vulhub-jenkins-cve-2024-23897](https://github.com/CyberCTF/vulhub-jenkins-cve-2024-23897)
 - [ydkdk12345-bot/CVE-2024-23897-CTF](https://github.com/ydkdk12345-bot/CVE-2024-23897-CTF)
+- [foreverlanterns/secure-api-cve-2024-23897](https://github.com/foreverlanterns/secure-api-cve-2024-23897)
 
 ### CVE-2024-23898 (2024-01-24)
 
@@ -48828,7 +48969,7 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: ISO: Copy BASE if service data matches EIR_BAA_SERVICE_UUID\n\nCopy the content of a Periodic Advertisement Report to BASE only if\nthe service UUID is Basic Audio Announcement Service UUID.
 </code>
 
-- [emirwtz/CVE-2023-7356](https://github.com/emirwtz/CVE-2023-7356)
+- [mehmet-emir-eroglu/CVE-2023-7356](https://github.com/mehmet-emir-eroglu/CVE-2023-7356)
 
 ### CVE-2023-20009 (2023-02-16)
 
@@ -58728,7 +58869,7 @@
 - [Shakur1314/CVE-2022-22965-Spring4Shell-Security-Operations-Analysis](https://github.com/Shakur1314/CVE-2022-22965-Spring4Shell-Security-Operations-Analysis)
 - [suyash-R-K/dfir-malware-investigation](https://github.com/suyash-R-K/dfir-malware-investigation)
 - [aditidutta696-dev/Spring4Shell-CVE-2022-22965-Exploitation-Attempt](https://github.com/aditidutta696-dev/Spring4Shell-CVE-2022-22965-Exploitation-Attempt)
-- [0xBlackash/CVE-2022-22965](https://github.com/0xBlackash/CVE-2022-22965)
+- [0xredash/CVE-2022-22965](https://github.com/0xredash/CVE-2022-22965)
 - [felisha-elmer/Sandbox-Challenge-Spring4Shell-CVE-2022-22965-](https://github.com/felisha-elmer/Sandbox-Challenge-Spring4Shell-CVE-2022-22965-)
 - [YUTING-HUANG0/Spring4Shell-CTF](https://github.com/YUTING-HUANG0/Spring4Shell-CTF)
 - [march0n/PoC-CVE-2022-22965-Spring4Shell](https://github.com/march0n/PoC-CVE-2022-22965-Spring4Shell)
@@ -64648,8 +64789,6 @@
 - [OppressionBreedsResistance/CVE-2021-1675-PrintNightmare](https://github.com/OppressionBreedsResistance/CVE-2021-1675-PrintNightmare)
 - [eversinc33/NimNightmare](https://github.com/eversinc33/NimNightmare)
 - [AndrewTrube/CVE-2021-1675](https://github.com/AndrewTrube/CVE-2021-1675)
-- [TheJoyOfHacking/cube0x0-CVE-2021-1675](https://github.com/TheJoyOfHacking/cube0x0-CVE-2021-1675)
-- [TheJoyOfHacking/calebstewart-CVE-2021-1675](https://github.com/TheJoyOfHacking/calebstewart-CVE-2021-1675)
 - [r1skkam/PrintNightmare](https://github.com/r1skkam/PrintNightmare)
 - [000Tonio/cve-2021-1675](https://github.com/000Tonio/cve-2021-1675)
 - [peckre/PNCVE-Win10-20H2-Exploit](https://github.com/peckre/PNCVE-Win10-20H2-Exploit)
@@ -65466,7 +65605,6 @@
 - [edsonjt81/CVE-2021-4034-Linux](https://github.com/edsonjt81/CVE-2021-4034-Linux)
 - [nel0x/pwnkit-vulnerability](https://github.com/nel0x/pwnkit-vulnerability)
 - [TomSgn/CVE-2021-4034](https://github.com/TomSgn/CVE-2021-4034)
-- [TheJoyOfHacking/berdav-CVE-2021-4034](https://github.com/TheJoyOfHacking/berdav-CVE-2021-4034)
 - [tzwlhack/CVE-2021-4034](https://github.com/tzwlhack/CVE-2021-4034)
 - [jcatala/f_poc_cve-2021-4034](https://github.com/jcatala/f_poc_cve-2021-4034)
 - [Nosferatuvjr/PwnKit](https://github.com/Nosferatuvjr/PwnKit)
@@ -65534,7 +65672,7 @@
 - [nicoibarburu/CVE-2021-4034](https://github.com/nicoibarburu/CVE-2021-4034)
 - [iurhfiu6/CVE-2021-4034](https://github.com/iurhfiu6/CVE-2021-4034)
 - [r00t-byte/Pwnkit-CVE-2021-4034-LPE](https://github.com/r00t-byte/Pwnkit-CVE-2021-4034-LPE)
-- [SerhiiMaruniak/CVE-2021-4034](https://github.com/SerhiiMaruniak/CVE-2021-4034)
+- [caviartank21/CVE-2021-4034](https://github.com/caviartank21/CVE-2021-4034)
 - [DERMOUCHERYAD/Linux-Privilege-Escalation-Pentest-Lab](https://github.com/DERMOUCHERYAD/Linux-Privilege-Escalation-Pentest-Lab)
 - [axisops/CVE-2021-4034](https://github.com/axisops/CVE-2021-4034)
 
@@ -69846,7 +69984,6 @@
 - [1833ravikumar-max/CVE-2021-41773-Apache-Path-Traversal-Lab](https://github.com/1833ravikumar-max/CVE-2021-41773-Apache-Path-Traversal-Lab)
 - [CyberCTF/vulhub-httpd-cve-2021-41773](https://github.com/CyberCTF/vulhub-httpd-cve-2021-41773)
 - [Joapath/CVE-2021-41773](https://github.com/Joapath/CVE-2021-41773)
-- [AlaIchhe/hdu-is-work1-secure-api](https://github.com/AlaIchhe/hdu-is-work1-secure-api)
 - [twq0316/work1-secure-rest-api](https://github.com/twq0316/work1-secure-rest-api)
 - [foreverlanterns/secure-demo-api](https://github.com/foreverlanterns/secure-demo-api)
 - [TheoCerveraLede/practica-integradora-ciberseguridad](https://github.com/TheoCerveraLede/practica-integradora-ciberseguridad)
@@ -71084,7 +71221,7 @@
 - [Loliverte/Log4j-Vulnerability](https://github.com/Loliverte/Log4j-Vulnerability)
 - [JoseMariaMicoli/Log4Shell-PoC](https://github.com/JoseMariaMicoli/Log4Shell-PoC)
 - [agylabs/log4shell-remediation](https://github.com/agylabs/log4shell-remediation)
-- [0xBlackash/CVE-2021-44228](https://github.com/0xBlackash/CVE-2021-44228)
+- [0xredash/CVE-2021-44228](https://github.com/0xredash/CVE-2021-44228)
 - [Codepumpking/log4shell-poc](https://github.com/Codepumpking/log4shell-poc)
 - [wmohamed2033/wmohamed2033.github.io](https://github.com/wmohamed2033/wmohamed2033.github.io)
 - [Saru1718/THM---Solar-exploiting-Log-4j](https://github.com/Saru1718/THM---Solar-exploiting-Log-4j)
@@ -72599,8 +72736,6 @@
 - [hell-moon/ZeroLogon-Exploit](https://github.com/hell-moon/ZeroLogon-Exploit)
 - [Udyz/Zerologon](https://github.com/Udyz/Zerologon)
 - [itssmikefm/CVE-2020-1472](https://github.com/itssmikefm/CVE-2020-1472)
-- [TheJoyOfHacking/SecuraBV-CVE-2020-1472](https://github.com/TheJoyOfHacking/SecuraBV-CVE-2020-1472)
-- [TheJoyOfHacking/dirkjanm-CVE-2020-1472](https://github.com/TheJoyOfHacking/dirkjanm-CVE-2020-1472)
 - [Anonymous-Family/Zero-day-scanning](https://github.com/Anonymous-Family/Zero-day-scanning)
 - [Anonymous-Family/CVE-2020-1472](https://github.com/Anonymous-Family/CVE-2020-1472)
 - [carlos55ml/zerologon](https://github.com/carlos55ml/zerologon)
@@ -73239,7 +73374,7 @@
 - [z3n70/CVE-2020-5902](https://github.com/z3n70/CVE-2020-5902)
 - [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
 - [amitlttwo/CVE-2020-5902](https://github.com/amitlttwo/CVE-2020-5902)
-- [0xBlackash/CVE-2020-5902](https://github.com/0xBlackash/CVE-2020-5902)
+- [0xredash/CVE-2020-5902](https://github.com/0xredash/CVE-2020-5902)
 - [DevRafaelprogrammer/F5-BIG-IP](https://github.com/DevRafaelprogrammer/F5-BIG-IP)
 
 ### CVE-2020-5903 (2020-07-01)
@@ -75901,7 +76036,7 @@
 - [dooodad/MiniPlasma](https://github.com/dooodad/MiniPlasma)
 - [mohammadzarnian1357/MiniPlasma](https://github.com/mohammadzarnian1357/MiniPlasma)
 - [rfranca777/miniplasma-advisory](https://github.com/rfranca777/miniplasma-advisory)
-- [0xBlackash/CVE-2020-17103](https://github.com/0xBlackash/CVE-2020-17103)
+- [0xredash/CVE-2020-17103](https://github.com/0xredash/CVE-2020-17103)
 
 ### CVE-2020-17136 (2020-12-09)
 
@@ -81470,7 +81605,6 @@
 - [edsonjt81/sudo-cve-2019-18634](https://github.com/edsonjt81/sudo-cve-2019-18634)
 - [paras1te-x/CVE-2019-18634](https://github.com/paras1te-x/CVE-2019-18634)
 - [aesophor/CVE-2019-18634](https://github.com/aesophor/CVE-2019-18634)
-- [TheJoyOfHacking/saleemrashid-sudo-cve-2019-18634](https://github.com/TheJoyOfHacking/saleemrashid-sudo-cve-2019-18634)
 - [DDayLuong/CVE-2019-18634](https://github.com/DDayLuong/CVE-2019-18634)
 - [chanbakjsd/CVE-2019-18634](https://github.com/chanbakjsd/CVE-2019-18634)
 - [l0w3/CVE-2019-18634](https://github.com/l0w3/CVE-2019-18634)
@@ -81555,6 +81689,13 @@
 - [quyt0/CVE-2019-18935-exploit-study](https://github.com/quyt0/CVE-2019-18935-exploit-study)
 - [menashe12346/CVE-2019-18935](https://github.com/menashe12346/CVE-2019-18935)
 - [alanbarret/CVE-2019-18935](https://github.com/alanbarret/CVE-2019-18935)
+
+### CVE-2019-18980 (2019-11-14)
+
+<code>On Signify Philips Taolight Smart Wi-Fi Wiz Connected LED Bulb 9290022656 devices, an unprotected API lets remote users control the bulb's operation. Anyone can turn the bulb on or off, or change its color or brightness remotely. There is no authentication or encryption to use the control API. The only requirement is that the attacker have network access to the bulb.
+</code>
+
+- [anmolksachan/wiz-bulb-tool](https://github.com/anmolksachan/wiz-bulb-tool)
 
 ### CVE-2019-18988 (2020-02-07)
 
@@ -85873,7 +86014,7 @@
 - [dannic145/EternalBlue-Exploit-Demonstration](https://github.com/dannic145/EternalBlue-Exploit-Demonstration)
 - [ichhyak22/EternalBlue-Exploit-Demonstration-MS17-010](https://github.com/ichhyak22/EternalBlue-Exploit-Demonstration-MS17-010)
 - [trinadh-dasari-cyber/eternalblue-ms17-010-research](https://github.com/trinadh-dasari-cyber/eternalblue-ms17-010-research)
-- [0xBlackash/CVE-2017-0144](https://github.com/0xBlackash/CVE-2017-0144)
+- [0xredash/CVE-2017-0144](https://github.com/0xredash/CVE-2017-0144)
 - [probablysecure/Triage-CVE-2017-0144](https://github.com/probablysecure/Triage-CVE-2017-0144)
 - [ronankongala/metasploit-pentest-report](https://github.com/ronankongala/metasploit-pentest-report)
 - [quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144](https://github.com/quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144)
@@ -90977,7 +91118,6 @@
 - [GuillermoEscobero/heartbleed](https://github.com/GuillermoEscobero/heartbleed)
 - [anthophilee/A2SV--SSL-VUL-Scan](https://github.com/anthophilee/A2SV--SSL-VUL-Scan)
 - [ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us)
-- [belmind/heartbleed](https://github.com/belmind/heartbleed)
 - [pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart)
 - [h3x0v3rl0rd/CVE-2014-0160_Heartbleed](https://github.com/h3x0v3rl0rd/CVE-2014-0160_Heartbleed)
 - [GardeniaWhite/fuzzing](https://github.com/GardeniaWhite/fuzzing)
@@ -90991,7 +91131,7 @@
 - [indrajeetmp11/Heartbleed-PoC-Exploit-Script](https://github.com/indrajeetmp11/Heartbleed-PoC-Exploit-Script)
 - [SimoesCTT/CTT-HEARTBLEED-Temporal-Resonance-Memory-Leak-Exploit-Heartbleed-CVE-2014-0160](https://github.com/SimoesCTT/CTT-HEARTBLEED-Temporal-Resonance-Memory-Leak-Exploit-Heartbleed-CVE-2014-0160)
 - [22imer/CVE-2014-0160](https://github.com/22imer/CVE-2014-0160)
-- [0xBlackash/CVE-2014-0160](https://github.com/0xBlackash/CVE-2014-0160)
+- [0xredash/CVE-2014-0160](https://github.com/0xredash/CVE-2014-0160)
 - [Ryo-Soikutsu/Heartbleed](https://github.com/Ryo-Soikutsu/Heartbleed)
 - [victoriacfigueiredo/heartbleed-lab](https://github.com/victoriacfigueiredo/heartbleed-lab)
 - [tungduongNT/CVE-2014-0160.](https://github.com/tungduongNT/CVE-2014-0160.)
@@ -91048,13 +91188,6 @@
 </code>
 
 - [shreesh1/CVE-2014-0226-poc](https://github.com/shreesh1/CVE-2014-0226-poc)
-
-### CVE-2014-0282 (2014-06-11)
-
-<code>Microsoft Internet Explorer 6 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2014-1775, CVE-2014-1779, CVE-2014-1799, CVE-2014-1803, and CVE-2014-2757.
-</code>
-
-- [Charmve/PyStegosploit](https://github.com/Charmve/PyStegosploit)
 
 ### CVE-2014-0291
 - [niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204)
@@ -91586,7 +91719,7 @@
 - [DrHaitham/CVE-2014-6271-Shellshock-](https://github.com/DrHaitham/CVE-2014-6271-Shellshock-)
 - [mtaha-sec/bash-apocalypse](https://github.com/mtaha-sec/bash-apocalypse)
 - [andres101c/Shellshock-CVE-2014-6271](https://github.com/andres101c/Shellshock-CVE-2014-6271)
-- [0xBlackash/CVE-2014-6271](https://github.com/0xBlackash/CVE-2014-6271)
+- [0xredash/CVE-2014-6271](https://github.com/0xredash/CVE-2014-6271)
 - [ambjlou/it355-lab4-enterprise-lan-security](https://github.com/ambjlou/it355-lab4-enterprise-lan-security)
 - [kaleth4/-CVE-2014-6271](https://github.com/kaleth4/-CVE-2014-6271)
 - [kaleth4/CVE-2014-6271](https://github.com/kaleth4/CVE-2014-6271)
@@ -91609,7 +91742,6 @@
 </code>
 
 - [roughiz/cve-2014-6287.py](https://github.com/roughiz/cve-2014-6287.py)
-- [Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287](https://github.com/Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287)
 - [mrintern/thm_steelmountain_CVE-2014-6287](https://github.com/mrintern/thm_steelmountain_CVE-2014-6287)
 - [randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution](https://github.com/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution)
 - [zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287)
@@ -92732,7 +92864,6 @@
 
 - [Madusanka99/OHTS](https://github.com/Madusanka99/OHTS)
 - [h3x0v3rl0rd/CVE-2011-1249](https://github.com/h3x0v3rl0rd/CVE-2011-1249)
-- [appl3b0y/edb-40564-mingw-fix](https://github.com/appl3b0y/edb-40564-mingw-fix)
 
 ### CVE-2011-1473 (2012-06-16)
 
@@ -92814,21 +92945,8 @@
 - [BolivarJ/CVE-2011-2523](https://github.com/BolivarJ/CVE-2011-2523)
 - [Maalfer/CVE-2011-2523-vsftpd-2.3.4-exploit](https://github.com/Maalfer/CVE-2011-2523-vsftpd-2.3.4-exploit)
 - [KlyneZyro/Metasploitable2-VAPT-Report](https://github.com/KlyneZyro/Metasploitable2-VAPT-Report)
-- [Mirza-22144/Vulnerability-Assessment-Exploitation-Lab](https://github.com/Mirza-22144/Vulnerability-Assessment-Exploitation-Lab)
-- [tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution](https://github.com/tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution)
-- [Efehamzaa/Metasploit-Red-Pentest-Lab](https://github.com/Efehamzaa/Metasploit-Red-Pentest-Lab)
-- [yagnikkrish/metasploitable-penetration-testing-lab](https://github.com/yagnikkrish/metasploitable-penetration-testing-lab)
-- [brettsm/vsftpd2.3.4-backdoor-exploit](https://github.com/brettsm/vsftpd2.3.4-backdoor-exploit)
-- [Tr00jan99/PwnTillDawn-Portal-Walkthrough](https://github.com/Tr00jan99/PwnTillDawn-Portal-Walkthrough)
-- [Dahalsamir/CVE-2011-2523-exploit](https://github.com/Dahalsamir/CVE-2011-2523-exploit)
-- [RinAliyeva/metasploitable2-vsftpd-exploitation](https://github.com/RinAliyeva/metasploitable2-vsftpd-exploitation)
 - [emilebarnard242/pentest-metasploitable2](https://github.com/emilebarnard242/pentest-metasploitable2)
-- [Mithileshan/soc-investigation-lab](https://github.com/Mithileshan/soc-investigation-lab)
-- [IvoAlbacete/Kali-Metasploitable](https://github.com/IvoAlbacete/Kali-Metasploitable)
 - [Amirmuhammadmarvi/network-security-lab](https://github.com/Amirmuhammadmarvi/network-security-lab)
-- [Prafullya-Shandilya/metasploitable-pentest-report](https://github.com/Prafullya-Shandilya/metasploitable-pentest-report)
-- [Taisa456/network-security-snort](https://github.com/Taisa456/network-security-snort)
-- [ByteForgeFr/CVE-2011-2523](https://github.com/ByteForgeFr/CVE-2011-2523)
 - [Jhatchi/NexaCorp-DFIR-INC-2026-001](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-001)
 - [Chathura123git/ethical-hacking-CVE-2011-2523](https://github.com/Chathura123git/ethical-hacking-CVE-2011-2523)
 - [NitinSukthe-G/OpenVAS-Vulnerability-Assessment-Incident-Response](https://github.com/NitinSukthe-G/OpenVAS-Vulnerability-Assessment-Incident-Response)
