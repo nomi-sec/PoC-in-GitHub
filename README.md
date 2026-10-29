@@ -4156,7 +4156,7 @@
 - [masasron/CopyEscape-CVE-2026-17106](https://github.com/masasron/CopyEscape-CVE-2026-17106)
 - [HackSpeak/CVE-2026-17106](https://github.com/HackSpeak/CVE-2026-17106)
 - [686f6c61/POC-CopyEscape-CVE-2026-17106](https://github.com/686f6c61/POC-CopyEscape-CVE-2026-17106)
-- [CompleTech-Security/copyescape-check](https://github.com/CompleTech-Security/copyescape-check)
+- [CompleteTech-Security/copyescape-check](https://github.com/CompleteTech-Security/copyescape-check)
 
 ### CVE-2026-17351 (2026-07-31)
 
@@ -4495,7 +4495,7 @@
 <code>Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: from 14.1 through 73.32 and from 13.1 through 63.21; Gateway: from 14.1 through 73.32 and from 13.1 through 63.21.
 </code>
 
-- [CompleTech-Security/netscaler-cve-2026-19489-check](https://github.com/CompleTech-Security/netscaler-cve-2026-19489-check)
+- [CompleteTech-Security/netscaler-cve-2026-19489-check](https://github.com/CompleteTech-Security/netscaler-cve-2026-19489-check)
 
 ### CVE-2026-19490 (2026-08-19)
 
@@ -4504,7 +4504,7 @@
 
 - [TarPeg007/CVE-2026-19490](https://github.com/TarPeg007/CVE-2026-19490)
 - [BishopFox/CVE-2026-19490-check](https://github.com/BishopFox/CVE-2026-19490-check)
-- [CompleTech-Security/netscaler-cve-2026-19490-check](https://github.com/CompleTech-Security/netscaler-cve-2026-19490-check)
+- [CompleteTech-Security/netscaler-cve-2026-19490-check](https://github.com/CompleteTech-Security/netscaler-cve-2026-19490-check)
 
 ### CVE-2026-19500 (2026-08-18)
 
@@ -5267,7 +5267,7 @@
 - [renzi25031469/CVE-2026-21589](https://github.com/renzi25031469/CVE-2026-21589)
 - [gotr00t0day/CVE-2026-21589](https://github.com/gotr00t0day/CVE-2026-21589)
 - [webserverdude/f5_CVE-2026-21589_mitigation](https://github.com/webserverdude/f5_CVE-2026-21589_mitigation)
-- [CompleTech-Security/atlassian-cve-2026-21589-check](https://github.com/CompleTech-Security/atlassian-cve-2026-21589-check)
+- [CompleteTech-Security/atlassian-cve-2026-21589-check](https://github.com/CompleteTech-Security/atlassian-cve-2026-21589-check)
 
 ### CVE-2026-21627 (2026-02-20)
 
@@ -6993,6 +6993,7 @@
 - [CEAarab/CVE-2026-26026-PoC](https://github.com/CEAarab/CVE-2026-26026-PoC)
 - [wuyou6956-glitch/CVE-2026-26026-PoC](https://github.com/wuyou6956-glitch/CVE-2026-26026-PoC)
 - [petriQore/CVE-2026-26026_PoC](https://github.com/petriQore/CVE-2026-26026_PoC)
+- [PeaMatNgu/CVE-2026-26026-GLPI](https://github.com/PeaMatNgu/CVE-2026-26026-GLPI)
 
 ### CVE-2026-26030 (2026-02-19)
 
@@ -9245,6 +9246,7 @@
 - [JonasChen0103/CVE-2026-33439-PoC](https://github.com/JonasChen0103/CVE-2026-33439-PoC)
 - [rh33t/CVE-2026-33439-Poc](https://github.com/rh33t/CVE-2026-33439-Poc)
 - [amis13/openam-clean](https://github.com/amis13/openam-clean)
+- [TeoVMP/CVE-2026-33439](https://github.com/TeoVMP/CVE-2026-33439)
 
 ### CVE-2026-33453 (2026-04-27)
 
@@ -13271,6 +13273,7 @@
 - [NONAME-ELV/CVE-2026-48907](https://github.com/NONAME-ELV/CVE-2026-48907)
 - [theendofabbys/CVE-2026-48907](https://github.com/theendofabbys/CVE-2026-48907)
 - [0xCyp1337/CVE-2026-48907-RCE](https://github.com/0xCyp1337/CVE-2026-48907-RCE)
+- [CoNistical/CVE-2026-48907](https://github.com/CoNistical/CVE-2026-48907)
 
 ### CVE-2026-48908 (2026-06-20)
 
@@ -14758,14 +14761,14 @@
 <code>A flaw in Node.js HTTP/2 handling can cause HTTP/2 retained header blocks evade maxSessionMemory and enable remote memory exhaustion.\r\n\r\nThis vulnerability affects Node.js **24.x** and **22.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-56846-check](https://github.com/CompleTech-Security/node-cve-2026-56846-check)
+- [CompleteTech-Security/node-cve-2026-56846-check](https://github.com/CompleteTech-Security/node-cve-2026-56846-check)
 
 ### CVE-2026-56847 (2026-07-30)
 
 <code>A flaw in Node.js Permission Model enforcement allows `trace_events.createTracing().enable()` Writes Trace Logs Outside `--allow-fs-write`.\r\n\r\nThis can lead to confidentiality impact or bypass of the intended security boundary under affected configurations.\r\n\r\nThis vulnerability affects Node.js **22.x**, **24.x**, and **26.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-56847-check](https://github.com/CompleTech-Security/node-cve-2026-56847-check)
+- [CompleteTech-Security/node-cve-2026-56847-check](https://github.com/CompleteTech-Security/node-cve-2026-56847-check)
 
 ### CVE-2026-56848 (2026-08-04)
 
@@ -14773,14 +14776,14 @@
 </code>
 
 - [open-flaw/CVE-2026-56848](https://github.com/open-flaw/CVE-2026-56848)
-- [CompleTech-Security/node-cve-2026-56848-check](https://github.com/CompleTech-Security/node-cve-2026-56848-check)
+- [CompleteTech-Security/node-cve-2026-56848-check](https://github.com/CompleteTech-Security/node-cve-2026-56848-check)
 
 ### CVE-2026-56850 (2026-07-30)
 
 <code>A flaw in Node.js HTTPS Agent connection reuse can cause PFX object-array key collisions, allowing mutual TLS (mTLS) client identities to be reused across requests configured with different client certificates.\r\n\r\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-56850-check](https://github.com/CompleTech-Security/node-cve-2026-56850-check)
+- [CompleteTech-Security/node-cve-2026-56850-check](https://github.com/CompleteTech-Security/node-cve-2026-56850-check)
 
 ### CVE-2026-56852 (2026-07-21)
 
@@ -14924,49 +14927,49 @@
 <code>A flaw in Node.js Permission Model enforcement allows process.report writes (and overwrites) files outside --allow-fs-write paths.\n\nThis can lead to confidentiality impact or bypass of the intended security boundary under affected configurations.\n\nThis vulnerability affects Node.js **22.x**, **24.x**, and **26.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-58039-check](https://github.com/CompleTech-Security/node-cve-2026-58039-check)
+- [CompleteTech-Security/node-cve-2026-58039-check](https://github.com/CompleteTech-Security/node-cve-2026-58039-check)
 
 ### CVE-2026-58040 (2026-07-30)
 
 <code>An incomplete fix has been identified in Node.js: HTTPS Agent TLS session reuse skips hostname verification across identity policies (incomplete fix of CVE-2026-48934).\r\n\r\nThis vulnerability affects Node.js **22.x**, **24.x**, and **26.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-58040-check](https://github.com/CompleTech-Security/node-cve-2026-58040-check)
+- [CompleteTech-Security/node-cve-2026-58040-check](https://github.com/CompleteTech-Security/node-cve-2026-58040-check)
 
 ### CVE-2026-58041 (2026-08-04)
 
 <code>A flaw in Node.js node:sqlite allows a stale StatementSyncIterator created through DatabaseSync#createTagStore() to continue executing a cached prepared statement after it has been reset and rebound with new parameters. SQLTagStore resets cached statements using sqlite3_reset() directly, bypassing the iterator invalidation mechanism introduced for StatementSync in recent releases\r\n\r\nThis vulnerability affects Node.js **22.x**, **24.x**, and **26.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-58041-check](https://github.com/CompleTech-Security/node-cve-2026-58041-check)
+- [CompleteTech-Security/node-cve-2026-58041-check](https://github.com/CompleteTech-Security/node-cve-2026-58041-check)
 
 ### CVE-2026-58042 (2026-08-04)
 
 <code>A flaw in Node.js can cause dns.resolveAny() Aborts the Node.js Process When a DNS Response Contains More Than 256 A Records.\r\n\r\nRepeated triggering of this condition can lead to denial of service.\r\n\r\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-58042-check](https://github.com/CompleTech-Security/node-cve-2026-58042-check)
+- [CompleteTech-Security/node-cve-2026-58042-check](https://github.com/CompleteTech-Security/node-cve-2026-58042-check)
 
 ### CVE-2026-58043 (2026-07-30)
 
 <code>A flaw in Node.js Permission Model enforcement can over-grant filesystem access across radix-tree prefix boundaries.\r\n\r\nUnder `--permission`, an attacker who is granted access to one path can abuse boundary handling to read from or write to paths outside the intended filesystem allowlist.\r\n\r\nThis vulnerability affects Node.js **main**, **22.x**, **24.x**, and **26.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-58043-check](https://github.com/CompleTech-Security/node-cve-2026-58043-check)
+- [CompleteTech-Security/node-cve-2026-58043-check](https://github.com/CompleteTech-Security/node-cve-2026-58043-check)
 
 ### CVE-2026-58044 (2026-08-04)
 
 <code>A flaw in Node.js HTTP client can cause a request desynchronization for Node.js-based forwarding proxies that rebuild outbound headers from the visible `IncomingMessage` headers while piping the original body to a reused backend connection.\r\n\r\nNode.js can omit headers beyond `maxHeadersCount` / `maxHeaderPairs` from `req.headers`, `req.rawHeaders`, and `req.headersDistinct`, while still using those omitted headers internally for HTTP message framing. In particular, `Content-Length` can be hidden from userland while the request body is still delivered.\r\n\r\nThis vulnerability affects all supported release lines: **Node.js 22**, **Node.js 24**, and **Node.js 26**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-58044-check](https://github.com/CompleTech-Security/node-cve-2026-58044-check)
+- [CompleteTech-Security/node-cve-2026-58044-check](https://github.com/CompleteTech-Security/node-cve-2026-58044-check)
 
 ### CVE-2026-58045 (2026-08-04)
 
 <code>A flaw in Node.js allows a spoofed `TypedArray` `byteLength` to trigger a reachable assertion in the synchronous `node:zlib` APIs, causing the entire process to crash. All 11 synchronous zlib functions are affected.\r\n\r\nRepeated exploitation of this condition can result in a denial of service.\r\n\r\nThis vulnerability affects Node.js **22.x**, **24.x**, and **26.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-58045-check](https://github.com/CompleTech-Security/node-cve-2026-58045-check)
+- [CompleteTech-Security/node-cve-2026-58045-check](https://github.com/CompleteTech-Security/node-cve-2026-58045-check)
 
 ### CVE-2026-58048 (2026-07-31)
 
@@ -16461,7 +16464,7 @@
 <code>Flowise is a drag &amp; drop user interface to build a customized large language model flow. Prior to 3.1.3, executeJavaScriptCode() accepted caller-provided nodeVMOptions and merged them over the default NodeVM security settings in packages/components/src/utils.ts. An authenticated attacker reaching packages/server/src/routes/node-custom-functions/index.ts could run a custom function that imported flowise-components/dist/src/utils.js, called executeJavaScriptCode() again with nodeVMOptions.require.builtin set to allow all built-in modules, and then required child_process to execute arbitrary system commands as root on the Flowise server. This issue is fixed in version 3.1.3.
 </code>
 
-- [CompleTech-Security/flowise-cve-2026-69254-check](https://github.com/CompleTech-Security/flowise-cve-2026-69254-check)
+- [CompleteTech-Security/flowise-cve-2026-69254-check](https://github.com/CompleteTech-Security/flowise-cve-2026-69254-check)
 
 ### CVE-2026-69263 (2026-08-04)
 
@@ -18695,7 +18698,7 @@
 - [orjanj/netscaler_threat_hunt_helper](https://github.com/orjanj/netscaler_threat_hunt_helper)
 - [watchtowrlabs/citrix-netscaler-cve-2026-88771-iocs](https://github.com/watchtowrlabs/citrix-netscaler-cve-2026-88771-iocs)
 - [grupooruss/netscaler-defensive-checker](https://github.com/grupooruss/netscaler-defensive-checker)
-- [CompleTech-Security/netscaler-cve-2026-88771-check](https://github.com/CompleTech-Security/netscaler-cve-2026-88771-check)
+- [CompleteTech-Security/netscaler-cve-2026-88771-check](https://github.com/CompleteTech-Security/netscaler-cve-2026-88771-check)
 
 ### CVE-2026-88772 (2026-09-27)
 
@@ -18705,7 +18708,7 @@
 - [watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88772](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88772)
 - [murrez/CVE-2026-88772](https://github.com/murrez/CVE-2026-88772)
 - [FollowerSeize/CVE-2026-88772-POC](https://github.com/FollowerSeize/CVE-2026-88772-POC)
-- [CompleTech-Security/netscaler-cve-2026-88772-check](https://github.com/CompleTech-Security/netscaler-cve-2026-88772-check)
+- [CompleteTech-Security/netscaler-cve-2026-88772-check](https://github.com/CompleteTech-Security/netscaler-cve-2026-88772-check)
 
 ### CVE-2026-88773 (2026-09-27)
 
@@ -18713,21 +18716,21 @@
 </code>
 
 - [Scyrix-LLC/CVE-2026-88773](https://github.com/Scyrix-LLC/CVE-2026-88773)
-- [CompleTech-Security/netscaler-cve-2026-88773-check](https://github.com/CompleTech-Security/netscaler-cve-2026-88773-check)
+- [CompleteTech-Security/netscaler-cve-2026-88773-check](https://github.com/CompleteTech-Security/netscaler-cve-2026-88773-check)
 
 ### CVE-2026-88774 (2026-09-27)
 
 <code>Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to a feature policy bypass due to improper HTTP URL based expression usage.
 </code>
 
-- [CompleTech-Security/netscaler-cve-2026-88774-check](https://github.com/CompleTech-Security/netscaler-cve-2026-88774-check)
+- [CompleteTech-Security/netscaler-cve-2026-88774-check](https://github.com/CompleteTech-Security/netscaler-cve-2026-88774-check)
 
 ### CVE-2026-88775 (2026-09-27)
 
 <code>Memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading Memory overflow vulnerability leading to unpredictable or erroneous behavior or Denial of Service
 </code>
 
-- [CompleTech-Security/netscaler-cve-2026-88775-check](https://github.com/CompleTech-Security/netscaler-cve-2026-88775-check)
+- [CompleteTech-Security/netscaler-cve-2026-88775-check](https://github.com/CompleteTech-Security/netscaler-cve-2026-88775-check)
 
 ### CVE-2026-88776 (2026-09-27)
 
@@ -18735,21 +18738,21 @@
 </code>
 
 - [Scyrix-LLC/CVE-2026-88776](https://github.com/Scyrix-LLC/CVE-2026-88776)
-- [CompleTech-Security/netscaler-cve-2026-88776-check](https://github.com/CompleTech-Security/netscaler-cve-2026-88776-check)
+- [CompleteTech-Security/netscaler-cve-2026-88776-check](https://github.com/CompleteTech-Security/netscaler-cve-2026-88776-check)
 
 ### CVE-2026-88777 (2026-09-27)
 
 <code>Memory overflow vulnerability vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23  leading to unpredictable or erroneous behavior or Denial of Service
 </code>
 
-- [CompleTech-Security/netscaler-cve-2026-88777-check](https://github.com/CompleTech-Security/netscaler-cve-2026-88777-check)
+- [CompleteTech-Security/netscaler-cve-2026-88777-check](https://github.com/CompleteTech-Security/netscaler-cve-2026-88777-check)
 
 ### CVE-2026-88778 (2026-09-27)
 
 <code>Predictable exact value from previous values vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23.
 </code>
 
-- [CompleTech-Security/netscaler-cve-2026-88778-check](https://github.com/CompleTech-Security/netscaler-cve-2026-88778-check)
+- [CompleteTech-Security/netscaler-cve-2026-88778-check](https://github.com/CompleteTech-Security/netscaler-cve-2026-88778-check)
 
 ### CVE-2026-88789 (2026-10-01)
 
@@ -19086,6 +19089,13 @@
 
 - [ashu7ank/CVE-2026-92392](https://github.com/ashu7ank/CVE-2026-92392)
 
+### CVE-2026-92424 (2026-09-30)
+
+<code>The Content Egg  WordPress plugin before 11.9.0 does not verify that a user running its bulk content-import feature is authorized for the import preset they select, and switches to the preset author's identity before creating the resulting post, allowing users with contributor-level access and above to store arbitrary web scripts unfiltered under a privileged user's account, executing in the context of anyone who later views that content.
+</code>
+
+- [aymencdm/cve-2026-92424-content-egg-stored-xss-](https://github.com/aymencdm/cve-2026-92424-content-egg-stored-xss-)
+
 ### CVE-2026-92555 (2026-10-08)
 
 <code>Insertion of sensitive information into sent data vulnerability in AKIN Software Computer Import-Export Industry and Trade Co. Ltd. AKINSOFT WOLVOX Control Panel allows Pull Data from System Resources.\n\nThis issue affects AKINSOFT WOLVOX Control Panel: from 26.02.25 before 26.02.26.
@@ -19112,7 +19122,7 @@
 <code>vm2 is a sandbox for running untrusted Node.js code. In versions &gt;= 3.11.4 and &lt;= 3.11.6, the NodeVM constructor computes `hasRealRequireConfig` with `typeof requireOpts === 'object' &amp;&amp; requireOpts !== null`, so an array-shaped `require` value (for example `require: []`) satisfies the guard that is meant to reject nesting without an explicit require configuration. `makeResolverFromLegacyOptions()` then destructures the array into undefined option fields and returns a resolver containing only `NESTING_OVERRIDE.vm2`. As a result, an attacker who can supply JavaScript executed by a NodeVM configured with truthy `nesting` and an array-shaped `require` (e.g. `new NodeVM({nesting: true, require: []})`) can require the host `vm2` module, create an inner NodeVM with an attacker-chosen builtin allowlist (such as `child_process`), and execute arbitrary commands with the privileges of the host Node.js process, escaping the sandbox. Outer builtin restrictions do not constrain the attacker-created inner NodeVM. This issue is fixed in vm2 3.11.7.
 </code>
 
-- [CompleTech-Security/vm2-nesting-check](https://github.com/CompleTech-Security/vm2-nesting-check)
+- [CompleteTech-Security/vm2-nesting-check](https://github.com/CompleteTech-Security/vm2-nesting-check)
 
 ### CVE-2026-92956 (2026-09-17)
 
@@ -19217,7 +19227,11 @@
 
 - [rmhowe425/POC-CVE-2026-93674](https://github.com/rmhowe425/POC-CVE-2026-93674)
 
-### CVE-2026-93680
+### CVE-2026-93680 (2026-10-29)
+
+<code>IBM Langflow OSS 1.0.0 through 1.12.8 could allow a remote attacker to bypass security restrictions due to improper authentication.
+</code>
+
 - [rmhowe425/POC-CVE-2026-93680](https://github.com/rmhowe425/POC-CVE-2026-93680)
 
 ### CVE-2026-93687 (2026-09-18)
@@ -19548,7 +19562,7 @@
 - [lion9453/CVE-2026-96889-nextjs-rce](https://github.com/lion9453/CVE-2026-96889-nextjs-rce)
 - [pauleprichna/cybersecurity](https://github.com/pauleprichna/cybersecurity)
 - [AmanSin001/next-security-check](https://github.com/AmanSin001/next-security-check)
-- [CompleTech-Security/sharp-rsvg-rce-check](https://github.com/CompleTech-Security/sharp-rsvg-rce-check)
+- [CompleteTech-Security/sharp-rsvg-rce-check](https://github.com/CompleteTech-Security/sharp-rsvg-rce-check)
 
 ### CVE-2026-96940 (2026-10-02)
 
@@ -19646,6 +19660,7 @@
 
 - [slabbdev/uefi-pxe-cve-2026-97631](https://github.com/slabbdev/uefi-pxe-cve-2026-97631)
 - [Try2Take/CVE-2026-97631-PoC](https://github.com/Try2Take/CVE-2026-97631-PoC)
+- [RayanZiani/Bootjack](https://github.com/RayanZiani/Bootjack)
 
 ### CVE-2026-97657 (2026-10-14)
 
@@ -19745,6 +19760,9 @@
 
 - [Quaerendir/cve-2026-98432-audit](https://github.com/Quaerendir/cve-2026-98432-audit)
 - [suominen/CVE-2026-98432](https://github.com/suominen/CVE-2026-98432)
+- [nsrg-fmlorg/kpatch-cve-2026-98432](https://github.com/nsrg-fmlorg/kpatch-cve-2026-98432)
+- [typhoon1217/cve-2026-98432-mitigation](https://github.com/typhoon1217/cve-2026-98432-mitigation)
+- [axisops/CVE-2026-98432](https://github.com/axisops/CVE-2026-98432)
 
 ### CVE-2026-99999 (2026-10-15)
 
@@ -19937,28 +19955,28 @@
 
 - [HORKimhab/CVE-2026-102255](https://github.com/HORKimhab/CVE-2026-102255)
 - [techupdate24/sonicwall-sma-1000-cve-2026-102255](https://github.com/techupdate24/sonicwall-sma-1000-cve-2026-102255)
-- [CompleTech-Security/sonicwall-sma1000-cve-2026-102255-check](https://github.com/CompleTech-Security/sonicwall-sma1000-cve-2026-102255-check)
+- [CompleteTech-Security/sonicwall-sma1000-cve-2026-102255-check](https://github.com/CompleteTech-Security/sonicwall-sma1000-cve-2026-102255-check)
 
 ### CVE-2026-102256 (2026-10-07)
 
 <code>Post-authentication Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability has been identified in the SMA1000 appliance which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS commands, resulting in remote code execution.
 </code>
 
-- [CompleTech-Security/sonicwall-sma1000-cve-2026-102256-check](https://github.com/CompleTech-Security/sonicwall-sma1000-cve-2026-102256-check)
+- [CompleteTech-Security/sonicwall-sma1000-cve-2026-102256-check](https://github.com/CompleteTech-Security/sonicwall-sma1000-cve-2026-102256-check)
 
 ### CVE-2026-102257 (2026-10-07)
 
 <code>A Zip Slip vulnerability in the in the SMA1000 Appliance Management Console (AMC) interface allows an attacker to extract files outside the intended destination directory using a specially crafted archive, resulting in remote code execution.
 </code>
 
-- [CompleTech-Security/sonicwall-sma1000-cve-2026-102257-check](https://github.com/CompleTech-Security/sonicwall-sma1000-cve-2026-102257-check)
+- [CompleteTech-Security/sonicwall-sma1000-cve-2026-102257-check](https://github.com/CompleteTech-Security/sonicwall-sma1000-cve-2026-102257-check)
 
 ### CVE-2026-102258 (2026-10-07)
 
 <code>Post-authentication Stored Cross-Site Scripting (XSS) vulnerability has been identified in the SMA1000 Appliance Management Console (AMC) which in specific conditions could potentially enable a remote authenticated attacker as administrator to store and potentially execute arbitrary JavaScript code in the Appliance Management Console (AMC).
 </code>
 
-- [CompleTech-Security/sonicwall-sma1000-cve-2026-102258-check](https://github.com/CompleTech-Security/sonicwall-sma1000-cve-2026-102258-check)
+- [CompleteTech-Security/sonicwall-sma1000-cve-2026-102258-check](https://github.com/CompleteTech-Security/sonicwall-sma1000-cve-2026-102258-check)
 
 ### CVE-2026-102261 (2026-09-29)
 
@@ -20056,7 +20074,7 @@
 
 - [Worthes/CVE-2026-102764-Proof-of-concept](https://github.com/Worthes/CVE-2026-102764-Proof-of-concept)
 - [maxprog-svg/CVE-2026-102764](https://github.com/maxprog-svg/CVE-2026-102764)
-- [CompleTech-Security/beyondtrust-remote-support-cve-2026-102764-check](https://github.com/CompleTech-Security/beyondtrust-remote-support-cve-2026-102764-check)
+- [CompleteTech-Security/beyondtrust-remote-support-cve-2026-102764-check](https://github.com/CompleteTech-Security/beyondtrust-remote-support-cve-2026-102764-check)
 
 ### CVE-2026-102782 (2026-10-07)
 
@@ -20078,7 +20096,7 @@
 <code>simple-git, an interface for running git commands in any node.js application, enables applications to execute Git operations from JavaScript. Prior to 4.0.0, the default blockUnsafeOperationsPlugin does not completely reject configuration includes supplied through customArgs to git.clone(). The missing include.path classification permits Git to load an attacker-controlled configuration file, and the initial remediation does not cover includeIf.&lt;condition&gt;.path, allowing the same file-loading primitive through a conditional include. A loaded configuration can set an executable Git option such as core.sshCommand, which Git invokes during the clone operation with the privileges of the Node.js process. Exploitation requires the application to pass attacker-influenced custom arguments and requires an attacker-controlled file that the process can read. This issue is fixed in 4.0.0.
 </code>
 
-- [CompleTech-Security/simplegit-rce-check](https://github.com/CompleTech-Security/simplegit-rce-check)
+- [CompleteTech-Security/simplegit-rce-check](https://github.com/CompleteTech-Security/simplegit-rce-check)
 
 ### CVE-2026-102827 (2026-09-29)
 
@@ -20267,7 +20285,7 @@
 - [ShadowForge-Cyber/CVE-2026-104286-POC](https://github.com/ShadowForge-Cyber/CVE-2026-104286-POC)
 - [techupdate24/fortimail-zero-day-cve-2026-104286](https://github.com/techupdate24/fortimail-zero-day-cve-2026-104286)
 - [kh20134/fortimail-cve-2026-104286-response](https://github.com/kh20134/fortimail-cve-2026-104286-response)
-- [CompleTech-Security/fortimail-cve-2026-104286-check](https://github.com/CompleTech-Security/fortimail-cve-2026-104286-check)
+- [CompleteTech-Security/fortimail-cve-2026-104286-check](https://github.com/CompleteTech-Security/fortimail-cve-2026-104286-check)
 - [maxprog-svg/CVE-2026-104286](https://github.com/maxprog-svg/CVE-2026-104286)
 
 ### CVE-2026-104335 (2026-10-06)
@@ -20349,7 +20367,7 @@
 <code>Tinypool is a minimal Node.js worker thread pool implementation. Prior to 2.1.2, Tinypool reads filename from a caller-supplied options object in pool.run(task, options) without requiring an own property, so a polluted Object.prototype.filename can replace the intended worker module. Applications are affected only when they pass their own second-argument options object to pool.run(); calls without that argument use the trusted default options object. An attacker who can first pollute the prototype can cause the worker pool to load attacker-selected JavaScript and can read or modify task data with the host process's privileges. This issue is fixed in version 2.1.2.
 </code>
 
-- [CompleTech-Security/tinypool-options-rce-check](https://github.com/CompleTech-Security/tinypool-options-rce-check)
+- [CompleteTech-Security/tinypool-options-rce-check](https://github.com/CompleteTech-Security/tinypool-options-rce-check)
 
 ### CVE-2026-104905 (2026-10-05)
 
@@ -20367,7 +20385,7 @@
 - [0x45dd/ivanti-cve-2026-104935-check](https://github.com/0x45dd/ivanti-cve-2026-104935-check)
 - [maxprog-svg/CVE-2026-104935](https://github.com/maxprog-svg/CVE-2026-104935)
 - [Bluefire-Redteam-Cybersecurity/bluefire-ivanti-ics-guard](https://github.com/Bluefire-Redteam-Cybersecurity/bluefire-ivanti-ics-guard)
-- [CompleTech-Security/ivanti-connect-secure-cve-2026-104935-check](https://github.com/CompleTech-Security/ivanti-connect-secure-cve-2026-104935-check)
+- [CompleteTech-Security/ivanti-connect-secure-cve-2026-104935-check](https://github.com/CompleteTech-Security/ivanti-connect-secure-cve-2026-104935-check)
 
 ### CVE-2026-104944 (2026-10-06)
 
@@ -20468,14 +20486,14 @@
 <code>An Incorrect Privilege Assignment vulnerability in Docker Hub's account-to-organization conversion feature allowed an authenticated attacker to reassign a personal access token (PAT) they controlled to another Docker Hub user without rotating or revoking the token secret. The unchanged PAT then authenticated to the registry as the recipient and could pull, push, or delete images, within its scopes, in repositories accessible to that user, including organization repositories.
 </code>
 
-- [CompleTech-Security/docker-hub-pat-check](https://github.com/CompleTech-Security/docker-hub-pat-check)
+- [CompleteTech-Security/docker-hub-pat-check](https://github.com/CompleteTech-Security/docker-hub-pat-check)
 
 ### CVE-2026-105481 (2026-10-23)
 
 <code>A flaw in Node.js HTTP Agent connection reuse can cause a client to accept as valid a response that was sent before the client has sent the request. This is an incomplete fix of CVE-2026-48931.\n\nThe guard that destroys idle keep-alive sockets when unexpected data arrives only runs when the event loop polls for I/O. If an unsolicited response has already reached the socket but has not been read yet when the socket is handed to a new request, for example because the event loop was busy with synchronous work, the guard is removed without seeing it and the data is parsed as the response to the new request.\n\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-105481-check](https://github.com/CompleTech-Security/node-cve-2026-105481-check)
+- [CompleteTech-Security/node-cve-2026-105481-check](https://github.com/CompleteTech-Security/node-cve-2026-105481-check)
 
 ### CVE-2026-105482 (2026-10-23)
 
@@ -20483,7 +20501,7 @@
 </code>
 
 - [CaterMaoZi/CVE-2026-105482-POC](https://github.com/CaterMaoZi/CVE-2026-105482-POC)
-- [CompleTech-Security/node-cve-2026-105482-check](https://github.com/CompleTech-Security/node-cve-2026-105482-check)
+- [CompleteTech-Security/node-cve-2026-105482-check](https://github.com/CompleteTech-Security/node-cve-2026-105482-check)
 - [EthanTech-Offical/CVE-2026-105482-Reproduce](https://github.com/EthanTech-Offical/CVE-2026-105482-Reproduce)
 
 ### CVE-2026-105483 (2026-10-23)
@@ -20491,7 +20509,7 @@
 <code>A flaw in Node.js TLS hostname verification allows a certificate without a matching IP address SAN to authenticate a connection to an IPv4 address when the host is written with non-ASCII characters, such as fullwidth digits (`１２７.0.0.1`).\n\n`tls.checkServerIdentity()` did not recognize such hosts as IP addresses, even though they normalize and resolve to a regular IPv4 address, and matched them against the certificate DNS names and Common Name instead. A certificate containing `DNS:127.0.0.1` or `DNS:*.0.0.1` could therefore be accepted for an IP endpoint it was not issued for. This is a regression introduced after the fix for CVE-2026-48618.\n\nThis vulnerability affects Node.js **26.x** and **24.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-105483-check](https://github.com/CompleTech-Security/node-cve-2026-105483-check)
+- [CompleteTech-Security/node-cve-2026-105483-check](https://github.com/CompleteTech-Security/node-cve-2026-105483-check)
 
 ### CVE-2026-105484 (2026-10-06)
 
@@ -20526,42 +20544,42 @@
 <code>A flaw in Node.js TLS hostname verification can cause a server certificate to be validated against a different IP address than the one the client connected to, when the host is a non-canonical IPv4 literal with a leading zero, such as `0127.0.0.1`.\n\n`tls.checkServerIdentity()` normalizes the host following the WHATWG URL rules, which read a leading-zero octet as octal (`0127.0.0.1` becomes `87.0.0.1`), while the connection is made through the operating system resolver, which on some platforms such as macOS reads it as decimal (`127.0.0.1`). A server at the connected address can then be authenticated with a certificate issued for another IP address.\n\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-106069-check](https://github.com/CompleTech-Security/node-cve-2026-106069-check)
+- [CompleteTech-Security/node-cve-2026-106069-check](https://github.com/CompleteTech-Security/node-cve-2026-106069-check)
 
 ### CVE-2026-106070 (2026-10-23)
 
 <code>A flaw in the Node.js `zlib.ZipFile` API can cause it to return bytes that do not belong to the requested entry after the local and central header validation fails.\n\nWhen `zipEntry.modified` is read on an archive whose local header does not match its central directory, either directly or while compacting the archive, the validation error is caught but the parsed local header is left cached without a content offset. A later content read then returns attacker-controlled bytes from the start of the file instead of rejecting the archive, and CRC-32 verification still passes because the attacker controls the central directory CRC. A Node.js-based scanner can therefore approve different content from what another ZIP implementation extracts from the same archive.\n\nThis vulnerability affects Node.js **26.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-106070-check](https://github.com/CompleTech-Security/node-cve-2026-106070-check)
+- [CompleteTech-Security/node-cve-2026-106070-check](https://github.com/CompleteTech-Security/node-cve-2026-106070-check)
 
 ### CVE-2026-106071 (2026-10-23)
 
 <code>A flaw in Node.js Permission Model filesystem enforcement can grant access to paths that do not match a wildcard `--allow-fs-read` or `--allow-fs-write` rule.\n\nWhen the requested path is shorter than the prefix of a wildcard grant, the radix tree lookup stops comparing early and treats the path as a match. For example, `--allow-fs-read=/etc/passwd.*` also allows reading `/etc/passwd`. This requires the wildcard grant to sit directly under the root of the permission tree, for example when it is the only grant for that scope. This is a different root cause from CVE-2026-58043.\n\nThis vulnerability affects Node.js **26.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-106071-check](https://github.com/CompleTech-Security/node-cve-2026-106071-check)
+- [CompleteTech-Security/node-cve-2026-106071-check](https://github.com/CompleteTech-Security/node-cve-2026-106071-check)
 
 ### CVE-2026-106072 (2026-10-23)
 
 <code>A flaw in Node.js TLS hostname verification allows a certificate with only a DNS SAN to authenticate an IP endpoint when the client connects using a non-canonical IPv4 spelling, such as `0177.0.0.1`, `0x7f.0.0.1`, `2130706433` or `127.1`.\n\n`tls.checkServerIdentity()` did not classify these hosts as IP addresses, but normalized them to their canonical form and matched the result against the certificate DNS names. A certificate containing `DNS:127.0.0.1` and no `IP Address:127.0.0.1` SAN was therefore accepted, while the same certificate is correctly rejected for `127.0.0.1`. Exploitation requires a certificate with a numeric DNS SAN issued by a CA trusted by the client, and a platform resolver that accepts these spellings, such as glibc.\n\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-106072-check](https://github.com/CompleTech-Security/node-cve-2026-106072-check)
+- [CompleteTech-Security/node-cve-2026-106072-check](https://github.com/CompleteTech-Security/node-cve-2026-106072-check)
 
 ### CVE-2026-106073 (2026-10-23)
 
 <code>A flaw in Node.js Permission Model filesystem enforcement leaves `fs.realpathSync()` without the required read permission checks. This is an incomplete fix of CVE-2026-21715, which only covered `fs.realpathSync.native()`.\n\nAs a result, code running under `--permission` with restricted `--allow-fs-read` can still use `fs.realpathSync()` to check file existence, resolve symlink targets, and enumerate filesystem paths outside of permitted directories.\n\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-106073-check](https://github.com/CompleTech-Security/node-cve-2026-106073-check)
+- [CompleteTech-Security/node-cve-2026-106073-check](https://github.com/CompleteTech-Security/node-cve-2026-106073-check)
 
 ### CVE-2026-106074 (2026-10-23)
 
 <code>A flaw in Node.js `crypto` causes the internal entropy caches used by `crypto.randomUUID()`, `crypto.randomUUIDv7()`, and `crypto.randomInt()` to be saved into user-land startup snapshots (`--build-snapshot`) and single executable applications built with `useSnapshot`.\n\nIf any of these functions, or an API that relies on them such as `URL.createObjectURL()`, is called while the snapshot is built, every process started from that snapshot returns the same values until the cache is refilled: up to 127 UUIDs and about 1,000 `randomInt()` values. Identifiers expected to be unique can collide across processes, and values issued by one process can be predicted by observing another.\n\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.
 </code>
 
-- [CompleTech-Security/node-cve-2026-106074-check](https://github.com/CompleTech-Security/node-cve-2026-106074-check)
+- [CompleteTech-Security/node-cve-2026-106074-check](https://github.com/CompleteTech-Security/node-cve-2026-106074-check)
 
 ### CVE-2026-106173 (2026-10-13)
 
@@ -20659,13 +20677,25 @@
 ### CVE-2026-107268
 - [yuwkaaa/CVE-2026-107268](https://github.com/yuwkaaa/CVE-2026-107268)
 
-### CVE-2026-107327
+### CVE-2026-107327 (2026-10-29)
+
+<code>IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to execute arbitrary code due to missing authorization.
+</code>
+
 - [rmhowe425/POC-CVE-2026-107327](https://github.com/rmhowe425/POC-CVE-2026-107327)
 
-### CVE-2026-107328
+### CVE-2026-107328 (2026-10-29)
+
+<code>IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to execute arbitrary code due to improper neutralization of code in eval/exec.
+</code>
+
 - [rmhowe425/POC-CVE-2026-107328](https://github.com/rmhowe425/POC-CVE-2026-107328)
 
-### CVE-2026-107329
+### CVE-2026-107329 (2026-10-29)
+
+<code>IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to execute arbitrary code due to improper control of code generation.
+</code>
+
 - [rmhowe425/POC-CVE-2026-107329](https://github.com/rmhowe425/POC-CVE-2026-107329)
 
 ### CVE-2026-107406 (2026-10-08)
@@ -20984,7 +21014,7 @@
 - [frnmrls/php70-cve-2026-backport](https://github.com/frnmrls/php70-cve-2026-backport)
 - [nesirat/php2shell-guard](https://github.com/nesirat/php2shell-guard)
 - [Flookerton/Am-I-Pwned](https://github.com/Flookerton/Am-I-Pwned)
-- [CompleTech-Security/php2shell-check](https://github.com/CompleTech-Security/php2shell-check)
+- [CompleteTech-Security/php2shell-check](https://github.com/CompleteTech-Security/php2shell-check)
 - [atarus-security/atarus-phpcheck](https://github.com/atarus-security/atarus-phpcheck)
 - [Qsnh/php2shell-fixed](https://github.com/Qsnh/php2shell-fixed)
 - [nanoarmando/php-focal-backports](https://github.com/nanoarmando/php-focal-backports)
@@ -21485,6 +21515,7 @@
 - [Dungsocool/PHP2Shell](https://github.com/Dungsocool/PHP2Shell)
 - [skill-tzy/php2shell-poc](https://github.com/skill-tzy/php2shell-poc)
 - [WebInspectPro/php2shell-poc](https://github.com/WebInspectPro/php2shell-poc)
+- [cttynul/php2shell](https://github.com/cttynul/php2shell)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21550,7 +21581,11 @@
 
 - [mehmet-emir-eroglu/CVE-2026-110063](https://github.com/mehmet-emir-eroglu/CVE-2026-110063)
 
-### CVE-2026-110200
+### CVE-2026-110200 (2026-10-29)
+
+<code>IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to obtain sensitive information due to cleartext storage of sensitive information.
+</code>
+
 - [rmhowe425/POC-CVE-2026-110200](https://github.com/rmhowe425/POC-CVE-2026-110200)
 
 ### CVE-2026-110264 (2026-10-22)
@@ -21691,7 +21726,7 @@
 - [w116tjb/CVE-2026-111497_nodejs_hash_lookup](https://github.com/w116tjb/CVE-2026-111497_nodejs_hash_lookup)
 - [AmanSin001/node-brotli-check](https://github.com/AmanSin001/node-brotli-check)
 - [trailofbits/brotli-checker](https://github.com/trailofbits/brotli-checker)
-- [CompleTech-Security/node2shell-check](https://github.com/CompleTech-Security/node2shell-check)
+- [CompleteTech-Security/node2shell-check](https://github.com/CompleteTech-Security/node2shell-check)
 - [Ghost-Bx1/Node2Shell-CVE-2026-111497](https://github.com/Ghost-Bx1/Node2Shell-CVE-2026-111497)
 - [fuzheado/n2s-buildpack-probe](https://github.com/fuzheado/n2s-buildpack-probe)
 - [ks-labs/brotli-patch](https://github.com/ks-labs/brotli-patch)
@@ -21720,7 +21755,7 @@
 - [thebarel/CVE-2026-111497](https://github.com/thebarel/CVE-2026-111497)
 - [jeffschafer/Bigfix-NodeJS-Vulnerability-Scanner-Content-CVE-2026-111497](https://github.com/jeffschafer/Bigfix-NodeJS-Vulnerability-Scanner-Content-CVE-2026-111497)
 - [sakai-sktech/brotli-check](https://github.com/sakai-sktech/brotli-check)
-- [CompleTech-Security/http2shell-check](https://github.com/CompleTech-Security/http2shell-check)
+- [CompleteTech-Security/http2shell-check](https://github.com/CompleteTech-Security/http2shell-check)
 - [ionsec/node2shell-detector](https://github.com/ionsec/node2shell-detector)
 - [0xredash/CVE-2026-111497](https://github.com/0xredash/CVE-2026-111497)
 - [AdapptOnAzure/CVE-2026-111497-DotNetBrotliScan](https://github.com/AdapptOnAzure/CVE-2026-111497-DotNetBrotliScan)
@@ -21814,6 +21849,7 @@
 </code>
 
 - [Xplo8E/CVE-2026-112621-oob-write-poc](https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc)
+- [Allen-ux-dev/cve-2026-112621-test](https://github.com/Allen-ux-dev/cve-2026-112621-test)
 
 ### CVE-2026-112706 (2026-10-26)
 
@@ -21873,7 +21909,11 @@
 
 - [anywaye/nilepatch-admzip-dos](https://github.com/anywaye/nilepatch-admzip-dos)
 
-### CVE-2026-114148
+### CVE-2026-114148 (2026-10-29)
+
+<code>Incorrect default permissions in ASP.NET Core allows an authorized attacker to elevate privileges locally.
+</code>
+
 - [Ghost-Bx1/DotNet-Tarball-CVE-2026-114148](https://github.com/Ghost-Bx1/DotNet-Tarball-CVE-2026-114148)
 
 ### CVE-2026-114509 (2026-10-21)
@@ -21951,6 +21991,12 @@
 
 - [foxcornlab/zip-cloaking-scanner](https://github.com/foxcornlab/zip-cloaking-scanner)
 - [cosmonic-labs/demo-zip-rce-sandbox](https://github.com/cosmonic-labs/demo-zip-rce-sandbox)
+
+### CVE-2026-115925
+- [aymencdm/CVE-2026-115925-free5gc-root-ca-key-exposure](https://github.com/aymencdm/CVE-2026-115925-free5gc-root-ca-key-exposure)
+
+### CVE-2026-115926
+- [aymencdm/CVE-2026-115926-free5gc-bsf-missing-auth](https://github.com/aymencdm/CVE-2026-115926-free5gc-bsf-missing-auth)
 
 ### CVE-2026-116000 (2026-10-25)
 
@@ -85248,6 +85294,7 @@
 
 - [kdmarti2/CVE-2018-17463](https://github.com/kdmarti2/CVE-2018-17463)
 - [jhalon/CVE-2018-17463](https://github.com/jhalon/CVE-2018-17463)
+- [bianchiSLR/cve-2018-17463-lab](https://github.com/bianchiSLR/cve-2018-17463-lab)
 
 ### CVE-2018-17552 (2018-10-03)
 
@@ -87684,6 +87731,7 @@
 - [Mo200909/Office-Malware-Forensics-Lab-REMnux-Static-Analysis](https://github.com/Mo200909/Office-Malware-Forensics-Lab-REMnux-Static-Analysis)
 - [SyedaQuratulain098/factura-malware-analysis-lab](https://github.com/SyedaQuratulain098/factura-malware-analysis-lab)
 - [danielakin417/CVE-2017-11882-analysis](https://github.com/danielakin417/CVE-2017-11882-analysis)
+- [wunmi-commits/phishing-analysis-thm](https://github.com/wunmi-commits/phishing-analysis-thm)
 
 ### CVE-2017-12149 (2017-10-04)
 
@@ -91118,6 +91166,7 @@
 - [GuillermoEscobero/heartbleed](https://github.com/GuillermoEscobero/heartbleed)
 - [anthophilee/A2SV--SSL-VUL-Scan](https://github.com/anthophilee/A2SV--SSL-VUL-Scan)
 - [ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us)
+- [belmind/heartbleed](https://github.com/belmind/heartbleed)
 - [pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart)
 - [h3x0v3rl0rd/CVE-2014-0160_Heartbleed](https://github.com/h3x0v3rl0rd/CVE-2014-0160_Heartbleed)
 - [GardeniaWhite/fuzzing](https://github.com/GardeniaWhite/fuzzing)
@@ -91188,6 +91237,13 @@
 </code>
 
 - [shreesh1/CVE-2014-0226-poc](https://github.com/shreesh1/CVE-2014-0226-poc)
+
+### CVE-2014-0282 (2014-06-11)
+
+<code>Microsoft Internet Explorer 6 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2014-1775, CVE-2014-1779, CVE-2014-1799, CVE-2014-1803, and CVE-2014-2757.
+</code>
+
+- [Charmve/PyStegosploit](https://github.com/Charmve/PyStegosploit)
 
 ### CVE-2014-0291
 - [niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204)
@@ -91742,6 +91798,7 @@
 </code>
 
 - [roughiz/cve-2014-6287.py](https://github.com/roughiz/cve-2014-6287.py)
+- [Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287](https://github.com/Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287)
 - [mrintern/thm_steelmountain_CVE-2014-6287](https://github.com/mrintern/thm_steelmountain_CVE-2014-6287)
 - [randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution](https://github.com/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution)
 - [zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287)
@@ -92086,6 +92143,7 @@
 </code>
 
 - [vlad902/annotated-fbi-tbb-exploit](https://github.com/vlad902/annotated-fbi-tbb-exploit)
+- [Diamond975-py/FBI-Tor-Exploit-CVE-2013-1690](https://github.com/Diamond975-py/FBI-Tor-Exploit-CVE-2013-1690)
 
 ### CVE-2013-1763 (2013-02-28)
 
@@ -92864,6 +92922,7 @@
 
 - [Madusanka99/OHTS](https://github.com/Madusanka99/OHTS)
 - [h3x0v3rl0rd/CVE-2011-1249](https://github.com/h3x0v3rl0rd/CVE-2011-1249)
+- [appl3b0y/edb-40564-mingw-fix](https://github.com/appl3b0y/edb-40564-mingw-fix)
 
 ### CVE-2011-1473 (2012-06-16)
 
@@ -92945,8 +93004,21 @@
 - [BolivarJ/CVE-2011-2523](https://github.com/BolivarJ/CVE-2011-2523)
 - [Maalfer/CVE-2011-2523-vsftpd-2.3.4-exploit](https://github.com/Maalfer/CVE-2011-2523-vsftpd-2.3.4-exploit)
 - [KlyneZyro/Metasploitable2-VAPT-Report](https://github.com/KlyneZyro/Metasploitable2-VAPT-Report)
+- [Mirza-22144/Vulnerability-Assessment-Exploitation-Lab](https://github.com/Mirza-22144/Vulnerability-Assessment-Exploitation-Lab)
+- [tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution](https://github.com/tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution)
+- [Efehamzaa/Metasploit-Red-Pentest-Lab](https://github.com/Efehamzaa/Metasploit-Red-Pentest-Lab)
+- [yagnikkrish/metasploitable-penetration-testing-lab](https://github.com/yagnikkrish/metasploitable-penetration-testing-lab)
+- [brettsm/vsftpd2.3.4-backdoor-exploit](https://github.com/brettsm/vsftpd2.3.4-backdoor-exploit)
+- [Tr00jan99/PwnTillDawn-Portal-Walkthrough](https://github.com/Tr00jan99/PwnTillDawn-Portal-Walkthrough)
+- [Dahalsamir/CVE-2011-2523-exploit](https://github.com/Dahalsamir/CVE-2011-2523-exploit)
+- [RinAliyeva/metasploitable2-vsftpd-exploitation](https://github.com/RinAliyeva/metasploitable2-vsftpd-exploitation)
 - [emilebarnard242/pentest-metasploitable2](https://github.com/emilebarnard242/pentest-metasploitable2)
+- [Mithileshan/soc-investigation-lab](https://github.com/Mithileshan/soc-investigation-lab)
+- [IvoAlbacete/Kali-Metasploitable](https://github.com/IvoAlbacete/Kali-Metasploitable)
 - [Amirmuhammadmarvi/network-security-lab](https://github.com/Amirmuhammadmarvi/network-security-lab)
+- [Prafullya-Shandilya/metasploitable-pentest-report](https://github.com/Prafullya-Shandilya/metasploitable-pentest-report)
+- [Taisa456/network-security-snort](https://github.com/Taisa456/network-security-snort)
+- [ByteForgeFr/CVE-2011-2523](https://github.com/ByteForgeFr/CVE-2011-2523)
 - [Jhatchi/NexaCorp-DFIR-INC-2026-001](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-001)
 - [Chathura123git/ethical-hacking-CVE-2011-2523](https://github.com/Chathura123git/ethical-hacking-CVE-2011-2523)
 - [NitinSukthe-G/OpenVAS-Vulnerability-Assessment-Incident-Response](https://github.com/NitinSukthe-G/OpenVAS-Vulnerability-Assessment-Incident-Response)
