@@ -1581,14 +1581,14 @@
 <code>NoMachine External Control of File Path Arbitrary File Deletion Vulnerability. This vulnerability allows local attackers to delete arbitrary files on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\n\nThe specific flaw exists within the handling of environment variables. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of root. Was ZDI-CAN-28644.
 </code>
 
-- [do4choo/CVE-2026-5053](https://github.com/do4choo/CVE-2026-5053)
+- [do4choo/CVE-2026-5053_NoMachine_LPE](https://github.com/do4choo/CVE-2026-5053_NoMachine_LPE)
 
 ### CVE-2026-5054 (2026-04-11)
 
 <code>NoMachine External Control of File Path Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\n\nThe specific flaw exists within the handling of command line parameters. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Was ZDI-CAN-28630.
 </code>
 
-- [do4choo/CVE-2026-5054](https://github.com/do4choo/CVE-2026-5054)
+- [do4choo/CVE-2026-5054_NoMachine_LPE](https://github.com/do4choo/CVE-2026-5054_NoMachine_LPE)
 
 ### CVE-2026-5059 (2026-04-11)
 
@@ -7002,6 +7002,13 @@
 
 - [mbanyamer/CVE-2026-26030-Microsoft-Semantic-Kernel-1.39.4-RCE](https://github.com/mbanyamer/CVE-2026-26030-Microsoft-Semantic-Kernel-1.39.4-RCE)
 - [InertFluid/sk-cve-2026-26030-lab](https://github.com/InertFluid/sk-cve-2026-26030-lab)
+
+### CVE-2026-26080 (2026-07-20)
+
+<code>HAProxy Community Edition 3.2.x through 3.3.x before 3.3.3 can enter a loop or crash because varint is mishandled. HAProxy Enterprise and ALOHA are also affected.
+</code>
+
+- [Zeerg/haproxy-quic-cves-2026](https://github.com/Zeerg/haproxy-quic-cves-2026)
 
 ### CVE-2026-26114 (2026-03-10)
 
@@ -17576,6 +17583,9 @@
 ### CVE-2026-78804
 - [repo4Chu/CVE-2026-78804_Dolibarr_authenticated_SQL_injection](https://github.com/repo4Chu/CVE-2026-78804_Dolibarr_authenticated_SQL_injection)
 
+### CVE-2026-78829
+- [CloudFutureSec/cve-disclosures](https://github.com/CloudFutureSec/cve-disclosures)
+
 ### CVE-2026-78837 (2026-09-08)
 
 <code>A SQL injection vulnerability in the ap_form_{id} parameter in AppNitro MachForm v30 allows attackers to access sensitive database information via a crafted SQL statement.
@@ -18698,7 +18708,7 @@
 - [orjanj/netscaler_threat_hunt_helper](https://github.com/orjanj/netscaler_threat_hunt_helper)
 - [watchtowrlabs/citrix-netscaler-cve-2026-88771-iocs](https://github.com/watchtowrlabs/citrix-netscaler-cve-2026-88771-iocs)
 - [grupooruss/netscaler-defensive-checker](https://github.com/grupooruss/netscaler-defensive-checker)
-- [CompleteTech-Security/netscaler-cve-2026-88771-check](https://github.com/CompleteTech-Security/netscaler-cve-2026-88771-check)
+- [CompleteTech-Security/netscaler-pitscaler-cve-2026-88771-check](https://github.com/CompleteTech-Security/netscaler-pitscaler-cve-2026-88771-check)
 
 ### CVE-2026-88772 (2026-09-27)
 
@@ -18708,7 +18718,7 @@
 - [watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88772](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88772)
 - [murrez/CVE-2026-88772](https://github.com/murrez/CVE-2026-88772)
 - [FollowerSeize/CVE-2026-88772-POC](https://github.com/FollowerSeize/CVE-2026-88772-POC)
-- [CompleteTech-Security/netscaler-cve-2026-88772-check](https://github.com/CompleteTech-Security/netscaler-cve-2026-88772-check)
+- [CompleteTech-Security/netscaler-pitscaler-cve-2026-88772-check](https://github.com/CompleteTech-Security/netscaler-pitscaler-cve-2026-88772-check)
 
 ### CVE-2026-88773 (2026-09-27)
 
@@ -18953,7 +18963,7 @@
 
 ### CVE-2026-90932 (2026-09-14)
 
-<code>LaraDashboard versions 0.9.2 through 1.2.2 contain a path traversal vulnerability in the core-upgrade backup handling. CoreUpgradeController and BackupService (e.g. BackupService::deleteBackup()) concatenate the user-supplied backup_file/filename value directly onto the backup directory path without normalisation, without applying basename(), and without verifying that the resolved path remains inside storage/app/core-backups; the corresponding form requests only validate the value as a bounded string. An authenticated user holding only the delegated settings.edit permission (not Superadmin) can supply ../ traversal sequences to delete arbitrary files reachable on the host filesystem, including outside the application tree, or to restore a ZIP archive from an arbitrary on-disk location, writing arbitrary files into the application directories and achieving remote code execution. Note: the advisory states the vulnerable concatenation was introduced in the v0.9.7 release line. No patched version was available at the time of publication.
+<code>LaraDashboard versions 0.9.2 through 1.2.2 contain a path traversal vulnerability in the core-upgrade backup handling. CoreUpgradeController and BackupService (e.g. BackupService::deleteBackup()) concatenate the user-supplied backup_file/filename value directly onto the backup directory path without normalisation, without applying basename(), and without verifying that the resolved path remains inside storage/app/core-backups; the corresponding form requests only validate the value as a bounded string. An authenticated user holding only the delegated settings.edit permission (not Superadmin) can supply ../ traversal sequences to delete arbitrary files reachable on the host filesystem, including outside the application tree, or to restore a ZIP archive from an arbitrary on-disk location, writing arbitrary files into the application directories and achieving remote code execution. Note: the advisory states the vulnerable concatenation was introduced in the v0.9.7 release line. Fixed in 1.3.0.
 </code>
 
 - [capivara-research/CVE-2026-90932](https://github.com/capivara-research/CVE-2026-90932)
@@ -19562,7 +19572,7 @@
 - [lion9453/CVE-2026-96889-nextjs-rce](https://github.com/lion9453/CVE-2026-96889-nextjs-rce)
 - [pauleprichna/cybersecurity](https://github.com/pauleprichna/cybersecurity)
 - [AmanSin001/next-security-check](https://github.com/AmanSin001/next-security-check)
-- [CompleteTech-Security/sharp-rsvg-rce-check](https://github.com/CompleteTech-Security/sharp-rsvg-rce-check)
+- [CompleteTech-Security/sharp-vectorfreed-check](https://github.com/CompleteTech-Security/sharp-vectorfreed-check)
 
 ### CVE-2026-96940 (2026-10-02)
 
@@ -19763,6 +19773,10 @@
 - [nsrg-fmlorg/kpatch-cve-2026-98432](https://github.com/nsrg-fmlorg/kpatch-cve-2026-98432)
 - [typhoon1217/cve-2026-98432-mitigation](https://github.com/typhoon1217/cve-2026-98432-mitigation)
 - [axisops/CVE-2026-98432](https://github.com/axisops/CVE-2026-98432)
+- [techtaek77/ubuntu-tcp-guide](https://github.com/techtaek77/ubuntu-tcp-guide)
+- [H1z3-br0/CVE-2026-98432](https://github.com/H1z3-br0/CVE-2026-98432)
+- [mahdi-salmanzade/CVE-2026-98432](https://github.com/mahdi-salmanzade/CVE-2026-98432)
+- [maxigentr/netviser-linux-security-auditor](https://github.com/maxigentr/netviser-linux-security-auditor)
 
 ### CVE-2026-99999 (2026-10-15)
 
@@ -20096,7 +20110,7 @@
 <code>simple-git, an interface for running git commands in any node.js application, enables applications to execute Git operations from JavaScript. Prior to 4.0.0, the default blockUnsafeOperationsPlugin does not completely reject configuration includes supplied through customArgs to git.clone(). The missing include.path classification permits Git to load an attacker-controlled configuration file, and the initial remediation does not cover includeIf.&lt;condition&gt;.path, allowing the same file-loading primitive through a conditional include. A loaded configuration can set an executable Git option such as core.sshCommand, which Git invokes during the clone operation with the privileges of the Node.js process. Exploitation requires the application to pass attacker-influenced custom arguments and requires an attacker-controlled file that the process can read. This issue is fixed in 4.0.0.
 </code>
 
-- [CompleteTech-Security/simplegit-rce-check](https://github.com/CompleteTech-Security/simplegit-rce-check)
+- [CompleteTech-Security/simple-git-rce-check](https://github.com/CompleteTech-Security/simple-git-rce-check)
 
 ### CVE-2026-102827 (2026-09-29)
 
@@ -20486,7 +20500,7 @@
 <code>An Incorrect Privilege Assignment vulnerability in Docker Hub's account-to-organization conversion feature allowed an authenticated attacker to reassign a personal access token (PAT) they controlled to another Docker Hub user without rotating or revoking the token secret. The unchanged PAT then authenticated to the registry as the recipient and could pull, push, or delete images, within its scopes, in repositories accessible to that user, including organization repositories.
 </code>
 
-- [CompleteTech-Security/docker-hub-pat-check](https://github.com/CompleteTech-Security/docker-hub-pat-check)
+- [CompleteTech-Security/docker-hub-ghostpat-check](https://github.com/CompleteTech-Security/docker-hub-ghostpat-check)
 
 ### CVE-2026-105481 (2026-10-23)
 
@@ -20922,7 +20936,6 @@
 - [denizkoekden/php56-el-backports](https://github.com/denizkoekden/php56-el-backports)
 - [nirzadokox/php2shell-vulnerability-check-for-CVE-2026-109618-CVE-2026-109619](https://github.com/nirzadokox/php2shell-vulnerability-check-for-CVE-2026-109618-CVE-2026-109619)
 - [unbelievable-digital/is-my-php-pwned](https://github.com/unbelievable-digital/is-my-php-pwned)
-- [EthicalHCOP/php2shell-Simple-Checker](https://github.com/EthicalHCOP/php2shell-Simple-Checker)
 - [gregoirer-mediactive/php](https://github.com/gregoirer-mediactive/php)
 - [haobachang-1/php2shell-CVE-2026-109618-CVE-2026-109619](https://github.com/haobachang-1/php2shell-CVE-2026-109618-CVE-2026-109619)
 - [deconstruction/EOLphp-php2shell-patches](https://github.com/deconstruction/EOLphp-php2shell-patches)
@@ -21283,7 +21296,6 @@
 - [SideeID/php2shell](https://github.com/SideeID/php2shell)
 - [raeseoklee/php-safepatch](https://github.com/raeseoklee/php-safepatch)
 - [463861437/guard-for-php74](https://github.com/463861437/guard-for-php74)
-- [renyang-create/php2shell-repro](https://github.com/renyang-create/php2shell-repro)
 - [AbodyStudio/php2shell-shield](https://github.com/AbodyStudio/php2shell-shield)
 - [leejongyoung/php2shell-kr](https://github.com/leejongyoung/php2shell-kr)
 - [ahallais/php71-debian9-backport](https://github.com/ahallais/php71-debian9-backport)
@@ -21504,6 +21516,7 @@
 - [inderpreetsinghips/php2shell-audit](https://github.com/inderpreetsinghips/php2shell-audit)
 - [IamLucif3r/CVE-2026-109618-exploit](https://github.com/IamLucif3r/CVE-2026-109618-exploit)
 - [nfemenia/php56-amzn1-security](https://github.com/nfemenia/php56-amzn1-security)
+- [iliaal/php2shell](https://github.com/iliaal/php2shell)
 - [dguerri/php2leak](https://github.com/dguerri/php2leak)
 - [aulwardana/php2shell-check](https://github.com/aulwardana/php2shell-check)
 - [kokilyadm/waffers](https://github.com/kokilyadm/waffers)
@@ -21516,6 +21529,7 @@
 - [skill-tzy/php2shell-poc](https://github.com/skill-tzy/php2shell-poc)
 - [WebInspectPro/php2shell-poc](https://github.com/WebInspectPro/php2shell-poc)
 - [cttynul/php2shell](https://github.com/cttynul/php2shell)
+- [upeul/vulnpocalypse-2026-10-response](https://github.com/upeul/vulnpocalypse-2026-10-response)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21819,6 +21833,13 @@
 ### CVE-2026-112325
 - [j0xh-sec/CVE-2026-112325](https://github.com/j0xh-sec/CVE-2026-112325)
 
+### CVE-2026-112396 (2026-10-19)
+
+<code>Pillow is a Python imaging library. From 11.3.0 until 13.0.0, Pillow has a heap use-after-free when libtiff rejects a tag while encoding TIFF data to an in-memory buffer. When an application saves attacker-influenced TIFF tags to BytesIO, libtiff can reject a tag during encoding in ImagingLibTiffEncode; the error path then frees the output buffer without closing or clearing the TIFF handle, and later cleanup flushes through the write callback into freed memory, which can crash the process and may enable code execution. This issue is fixed in version 13.0.0.
+</code>
+
+- [8hw3/pillow-uaf-research](https://github.com/8hw3/pillow-uaf-research)
+
 ### CVE-2026-112398 (2026-10-19)
 
 <code>Pillow is a Python imaging library. Prior to 13.0.0, Pillow's FlashPix JPEG-tile decoder can write decoded scanlines beyond the allocated tile buffer. FlashPix (FPX) JPEG decoding selects raw mode LA with two bytes per pixel, while an unrecognized JPEG mode can be decoded as JCS_UNKNOWN with four components, causing ImagingJpegDecode to write four-component scanlines into the two-byte tile buffer. An attacker can supply a crafted OLE2 FlashPix file to an application with the optional olefile dependency installed that opens or thumbnails untrusted input. This can corrupt heap memory and may allow arbitrary code execution. This issue is fixed in version 13.0.0.
@@ -21850,6 +21871,7 @@
 
 - [Xplo8E/CVE-2026-112621-oob-write-poc](https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc)
 - [Allen-ux-dev/cve-2026-112621-test](https://github.com/Allen-ux-dev/cve-2026-112621-test)
+- [794pn2s6fh-hub/CVE-2026-112621-](https://github.com/794pn2s6fh-hub/CVE-2026-112621-)
 
 ### CVE-2026-112706 (2026-10-26)
 
@@ -50774,6 +50796,7 @@
 - [sumaiyafathima-code/CVE-2023-27524](https://github.com/sumaiyafathima-code/CVE-2023-27524)
 - [rachidafaf/bola-CVE-2023-27524](https://github.com/rachidafaf/bola-CVE-2023-27524)
 - [CyberCTF/vulhub-superset-cve-2023-27524](https://github.com/CyberCTF/vulhub-superset-cve-2023-27524)
+- [sifatnotes/secbyte-cve-exploitation-real-world-vulnerabilities-red-teaming-ctf-labs](https://github.com/sifatnotes/secbyte-cve-exploitation-real-world-vulnerabilities-red-teaming-ctf-labs)
 
 ### CVE-2023-27532 (2023-03-10)
 
@@ -65414,7 +65437,6 @@
 - [pashayogi/ROOT-CVE-2021-3560](https://github.com/pashayogi/ROOT-CVE-2021-3560)
 - [TieuLong21Prosper/CVE-2021-3560](https://github.com/TieuLong21Prosper/CVE-2021-3560)
 - [LucasPDiniz/CVE-2021-3560](https://github.com/LucasPDiniz/CVE-2021-3560)
-- [markyu0401/CVE-2021-3560-Polkit-Privilege-Escalation](https://github.com/markyu0401/CVE-2021-3560-Polkit-Privilege-Escalation)
 - [Kyyomaa/CVE-2021-3560-EXPLOIT](https://github.com/Kyyomaa/CVE-2021-3560-EXPLOIT)
 - [arcslash/exploit_CVE-2021-3560](https://github.com/arcslash/exploit_CVE-2021-3560)
 - [titusG85/SideWinder-Exploit](https://github.com/titusG85/SideWinder-Exploit)
@@ -69458,6 +69480,7 @@
 - [jamesrep/cve-2021-40444](https://github.com/jamesrep/cve-2021-40444)
 - [W1kyri3/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx](https://github.com/W1kyri3/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx)
 - [aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders)
+- [m4madturk/CVE-2021-40444](https://github.com/m4madturk/CVE-2021-40444)
 - [Jeromeyoung/MSHTMHell](https://github.com/Jeromeyoung/MSHTMHell)
 - [k8gege/CVE-2021-40444](https://github.com/k8gege/CVE-2021-40444)
 - [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
@@ -71330,6 +71353,15 @@
 - [errypie/TICKETS](https://github.com/errypie/TICKETS)
 - [ShivendraNT/ehax-log4shell-openhouse](https://github.com/ShivendraNT/ehax-log4shell-openhouse)
 - [rrpeck-cybersec/threat-intelligence-log4shell-analysis](https://github.com/rrpeck-cybersec/threat-intelligence-log4shell-analysis)
+- [mcpmark-eval-liuhezi/log4shell-audit-5](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-5)
+- [mcpmark-eval-liuhezi/log4shell-audit-6](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-6)
+- [mcpmark-eval-liuhezi/log4shell-audit-7](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-7)
+- [mcpmark-eval-liuhezi/log4shell-audit-8](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-8)
+- [mcpmark-eval-liuhezi/log4shell-audit-9](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-9)
+- [mcpmark-eval-liuhezi/log4shell-audit-10](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-10)
+- [mcpmark-eval-liuhezi/log4shell-audit-11](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-11)
+- [mcpmark-eval-liuhezi/log4shell-audit-12](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-12)
+- [mcpmark-eval-liuhezi/log4shell-audit-13](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-13)
 
 ### CVE-2021-44255 (2022-01-31)
 
