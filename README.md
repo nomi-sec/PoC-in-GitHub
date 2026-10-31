@@ -729,6 +729,7 @@
 <code>Heap buffer overflow in PostgreSQL pgcrypto allows a ciphertext provider to execute arbitrary code as the operating system user running the database.  Versions before PostgreSQL 18.2, 17.8, 16.12, 15.16, and 14.21 are affected.
 </code>
 
+- [M3str3/CVE-2026-2005](https://github.com/M3str3/CVE-2026-2005)
 - [stvm8/CVE-2026-2005_lab](https://github.com/stvm8/CVE-2026-2005_lab)
 - [dinosn/cve-2026-2005](https://github.com/dinosn/cve-2026-2005)
 - [var77/CVE-2026-2005](https://github.com/var77/CVE-2026-2005)
@@ -7477,7 +7478,9 @@
 </code>
 
 - [0xh7ml/CVE-2026-27626-PoC](https://github.com/0xh7ml/CVE-2026-27626-PoC)
+- [Cobrastrike62/CVE-2026-27626-POC](https://github.com/Cobrastrike62/CVE-2026-27626-POC)
 - [abdelhakimgaferNetworkSec/Enigm-Writeup](https://github.com/abdelhakimgaferNetworkSec/Enigm-Writeup)
+- [Shisones/CVE-2026-27626](https://github.com/Shisones/CVE-2026-27626)
 
 ### CVE-2026-27636 (2026-02-25)
 
@@ -15343,6 +15346,13 @@
 - [tc4dy/CVE-2026-61511-PoC-Exploit](https://github.com/tc4dy/CVE-2026-61511-PoC-Exploit)
 - [shootcannon/CVE-2026-61511](https://github.com/shootcannon/CVE-2026-61511)
 
+### CVE-2026-61515 (2026-08-04)
+
+<code>Puwell IP Camera firmware versions 2.x through 4.x contains an unauthenticated command injection vulnerability that allows remote attackers to execute arbitrary operating system commands by sending a crafted JSON payload to the DebugShell interface exposed on TCP port 34567. Attackers can exploit the lack of authentication and input sanitization in the binary protocol service to pass arbitrary commands directly to the underlying operating system, achieving root-level code execution and complete device compromise.
+</code>
+
+- [krevetkqqq/CVE-2026-61515](https://github.com/krevetkqqq/CVE-2026-61515)
+
 ### CVE-2026-61578
 - [HORKimhab/CVE-Chamilo-LMS](https://github.com/HORKimhab/CVE-Chamilo-LMS)
 
@@ -15441,7 +15451,11 @@
 - [ZeroDayEvil/CVE-2026-62911](https://github.com/ZeroDayEvil/CVE-2026-62911)
 - [fahise/cve-2026-62911](https://github.com/fahise/cve-2026-62911)
 
-### CVE-2026-62958
+### CVE-2026-62958 (2026-10-30)
+
+<code>libriscv is a RISC-V sandbox and emulator. Prior to 1.18, a crafted ELF binary can cause out-of-bounds reads in the host emulator. `Memory&lt;W&gt;::binary_loader` checks `PT_LOAD` program-header bounds, but `Memory&lt;W&gt;::serialize_execute_segment` trusts section-header `sh_offset` and `sh_size` when locating `.text` without verifying the file range against `m_binary.size()`; `Memory&lt;W&gt;::lookup()` has a similar section-table problem. Malformed `.text` or `.symtab` offsets can therefore bypass the program-header checks and point outside the binary buffer, crashing rvlinux. With suitable memory layout or integer overflow, out-of-buffer host heap memory may instead be mapped into the guest by `create_execute_segment()`, potentially exposing host memory. The reported reproducer demonstrates a host SIGSEGV, while memory disclosure through grooming is described as possible rather than demonstrated. This issue is fixed in version 1.18.
+</code>
+
 - [0Linear/CVE-2026-62958](https://github.com/0Linear/CVE-2026-62958)
 
 ### CVE-2026-63030 (2026-07-17)
@@ -18881,6 +18895,13 @@
 
 - [Faceless0x7/CVE-2026-89013](https://github.com/Faceless0x7/CVE-2026-89013)
 
+### CVE-2026-89020 (2026-09-14)
+
+<code>MikroTik RouterOS before 7.23.4 (long-term) and 7.24.2 (stable) contains a stack-based buffer overflow vulnerability in the mtget binary's TFTP RRQ builder function that allows authenticated users to crash the mtget worker process by supplying a URL path of 507 bytes or more to the /tool fetch command; the first write outside the 528-byte buffer occurs at 505 bytes. Attackers can trigger the overflow by issuing a fetch command with a crafted tftp:// URL path, which causes an unbounded rep movsb instruction to overwrite saved registers at a deterministic offset, crashing the process without requiring a reachable TFTP server or elevated privileges beyond read-only group membership.
+</code>
+
+- [davtur19/PoC-CVE-2026-89020-PrivEsc](https://github.com/davtur19/PoC-CVE-2026-89020-PrivEsc)
+
 ### CVE-2026-89026 (2026-09-15)
 
 <code>The Issabel Framework, the web framework supporting Issabel PBX software, before commit b97dbaf contains a hard-coded HS256 JWT signing key in the pbxapi index.php file that is identical across every installation, allowing unauthenticated remote attackers to forge valid bearer tokens. Attackers can use the forged token to call the manager originate endpoint with the System application parameter, causing Asterisk to execute arbitrary OS commands as the Asterisk user. Exploitation evidence was first observed by the Shadowserver Foundation on 2026-09-09.
@@ -19838,6 +19859,10 @@
 - [pob220/ubuntu-noble-tcp-rcu-backport](https://github.com/pob220/ubuntu-noble-tcp-rcu-backport)
 - [Alucard0x1/cve-2026-98432](https://github.com/Alucard0x1/cve-2026-98432)
 - [offline-ant/tcp2kaslr](https://github.com/offline-ant/tcp2kaslr)
+- [akamai/cve-2026-98432-validation-mitigation](https://github.com/akamai/cve-2026-98432-validation-mitigation)
+- [ZombiePm/cve-2026-98432-mitigation](https://github.com/ZombiePm/cve-2026-98432-mitigation)
+- [davetha/cve-2026-98432](https://github.com/davetha/cve-2026-98432)
+- [brett6320/fix_CVE-2026-98432](https://github.com/brett6320/fix_CVE-2026-98432)
 
 ### CVE-2026-99999 (2026-10-15)
 
@@ -20280,6 +20305,13 @@
 </code>
 
 - [striga-ai/CVE-2026-103663](https://github.com/striga-ai/CVE-2026-103663)
+
+### CVE-2026-103688 (2026-10-28)
+
+<code>The Checkout Files Upload for WooCommerce WordPress plugin before 2.4.0 does not validate uploaded file types when its accepted file types setting is left empty, which it documents as the way to accept all files, allowing unauthenticated users to upload arbitrary files, including PHP files that lead to remote code execution on servers that execute PHP from the uploads directory.
+</code>
+
+- [noxcrypt-x/CVE-2026-103688](https://github.com/noxcrypt-x/CVE-2026-103688)
 
 ### CVE-2026-103690 (2026-10-01)
 
@@ -20905,6 +20937,13 @@
 </code>
 
 - [D7EAD/CVE-2026-109255](https://github.com/D7EAD/CVE-2026-109255)
+
+### CVE-2026-109384 (2026-10-28)
+
+<code>The The Innovative Form Builder – IvyForms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.5.1 via the filterFiletypeAndExt function. This is due to insufficient file type validation due to the absence of a dangerous-extension denylist in the allowed-extensions sanitizer and deliberate override of WordPress's native MIME and extension defences via a registered wp_check_filetype_and_ext filter. This makes it possible for authenticated attackers, with custom-level access and above, to upload files that may be executable, which makes remote code execution possible. An authenticated attacker with the custom add_edit_forms capability must first configure a File Upload field with a dangerous extension (e.g., php) in the allowed-extensions list; once that form is published, any unauthenticated visitor can trigger the actual file upload via the publicly accessible /wp-json/ivyforms/v1/form/submission/ REST route.
+</code>
+
+- [noxcrypt-x/CVE-2026-109384](https://github.com/noxcrypt-x/CVE-2026-109384)
 
 ### CVE-2026-109506 (2026-10-14)
 
@@ -21662,6 +21701,8 @@
 - [ArchonXDeadLocksecurity/ArchonX-PHP2Shell](https://github.com/ArchonXDeadLocksecurity/ArchonX-PHP2Shell)
 - [kackey621/php2shell-emergency](https://github.com/kackey621/php2shell-emergency)
 - [liztrr01/php2shell](https://github.com/liztrr01/php2shell)
+- [kcwilus/php2shell-research-portfolio](https://github.com/kcwilus/php2shell-research-portfolio)
+- [flynnsmc-lgtm/qt-t-shield](https://github.com/flynnsmc-lgtm/qt-t-shield)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21932,6 +21973,7 @@
 - [miracle438/node2shell-two-stage](https://github.com/miracle438/node2shell-two-stage)
 - [atiilla/CVE-2026-111497-Node2Shell](https://github.com/atiilla/CVE-2026-111497-Node2Shell)
 - [Nucklear/CVE-2026-111497-working](https://github.com/Nucklear/CVE-2026-111497-working)
+- [adachis/pillow-patched-brotli](https://github.com/adachis/pillow-patched-brotli)
 
 ### CVE-2026-111770
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
@@ -22296,6 +22338,13 @@
 </code>
 
 - [Cushz/CVE-2026-118238](https://github.com/Cushz/CVE-2026-118238)
+
+### CVE-2026-118776 (2026-10-29)
+
+<code>Forge (also called node-forge) is a native implementation of Transport Layer Security in JavaScript. Prior to 1.4.1, the affected implementation used decipher.finish(), CBC and ECB modes, PKCS#7 padding to process the relevant input or security decision. node-forge validated only the final byte of PKCS#7 padding during CBC and ECB decryption and accepted zero, oversized, or mismatched padding bytes. Malformed ciphertext could consequently be accepted and up to four plaintext blocks could be silently removed, causing an integrity failure in applications that treated successful decryption as proof of valid padding. This issue is fixed in version 1.4.1.
+</code>
+
+- [zebbernCVE/CVE-2026-118776](https://github.com/zebbernCVE/CVE-2026-118776)
 
 ### CVE-2026-119025 (2026-10-29)
 
@@ -26082,6 +26131,7 @@
 
 - [cyberleelawat/CVE-2025-20393](https://github.com/cyberleelawat/CVE-2025-20393)
 - [KingHacker353/CVE-2025-20393](https://github.com/KingHacker353/CVE-2025-20393)
+- [StasonJatham/cisco-sa-sma-attack-N9bf4](https://github.com/StasonJatham/cisco-sa-sma-attack-N9bf4)
 - [redpack-kr/Blackash-CVE-2025-20393](https://github.com/redpack-kr/Blackash-CVE-2025-20393)
 - [cyberdudebivash/CYBERDUDEBIVASH-Cisco-AsyncOS-CVE-2025-20393-Scanner](https://github.com/cyberdudebivash/CYBERDUDEBIVASH-Cisco-AsyncOS-CVE-2025-20393-Scanner)
 
@@ -28012,6 +28062,7 @@
 - [gadaugherty/larkspur-billing](https://github.com/gadaugherty/larkspur-billing)
 - [mcpmark-eval-liuhezi/cve-2025-29927-audit](https://github.com/mcpmark-eval-liuhezi/cve-2025-29927-audit)
 - [axisops/CVE-2025-29927](https://github.com/axisops/CVE-2025-29927)
+- [sodiptabadiabanurea/ntu-se6013-nextjs-auth-bypass](https://github.com/sodiptabadiabanurea/ntu-se6013-nextjs-auth-bypass)
 
 ### CVE-2025-29943 (2026-01-16)
 
@@ -28256,6 +28307,7 @@
 - [c4bsec/CVE-2025-31161](https://github.com/c4bsec/CVE-2025-31161)
 - [ch3m1cl/CVE-2025-31161](https://github.com/ch3m1cl/CVE-2025-31161)
 - [Dairrow/CVE-2025-31161](https://github.com/Dairrow/CVE-2025-31161)
+- [Shisones/CVE-2025-31161](https://github.com/Shisones/CVE-2025-31161)
 - [eserror/CVE-2025-31161](https://github.com/eserror/CVE-2025-31161)
 - [0xredash/CVE-2025-31161](https://github.com/0xredash/CVE-2025-31161)
 - [rufflabs/crushftp_cve-2025-31161](https://github.com/rufflabs/crushftp_cve-2025-31161)
@@ -38476,6 +38528,13 @@
 
 - [RandomRobbieBF/CVE-2024-9593](https://github.com/RandomRobbieBF/CVE-2024-9593)
 - [Nxploited/CVE-2024-9593-Exploit](https://github.com/Nxploited/CVE-2024-9593-Exploit)
+
+### CVE-2024-9644 (2025-02-04)
+
+<code>The Four-Faith F3x36 router using firmware v2.0.0 is vulnerable to an \nauthentication bypass vulnerability in the administrative web server. Authentication is not enforced on some administrative functionality when using the &quot;bapply.cgi&quot; endpoint instead of the normal &quot;apply.cgi&quot; endpoint. A remote and unauthenticated can use this vulnerability to modify settings or chain with existing authenticated vulnerabilities.
+</code>
+
+- [krevetkqqq/CVE-2024-9644](https://github.com/krevetkqqq/CVE-2024-9644)
 
 ### CVE-2024-9680 (2024-10-09)
 
@@ -53528,6 +53587,13 @@
 
 - [oussama-binike/cve-2023-37635](https://github.com/oussama-binike/cve-2023-37635)
 
+### CVE-2023-37679 (2023-08-03)
+
+<code>A remote command execution (RCE) vulnerability in NextGen Mirth Connect v4.3.0 allows attackers to execute arbitrary commands on the hosting server.
+</code>
+
+- [krevetkqqq/CVE-2023-37679](https://github.com/krevetkqqq/CVE-2023-37679)
+
 ### CVE-2023-37739 (2023-09-14)
 
 <code>i-doit Pro v25 and below was discovered to be vulnerable to path traversal.
@@ -53768,6 +53834,7 @@
 - [j0yb0y0h/CVE-2023-38646](https://github.com/j0yb0y0h/CVE-2023-38646)
 - [Ego1stoo/CVE-2023-38646](https://github.com/Ego1stoo/CVE-2023-38646)
 - [0utl4nder/Another-Metabase-RCE-CVE-2023-38646](https://github.com/0utl4nder/Another-Metabase-RCE-CVE-2023-38646)
+- [Shisones/MetabaseRCE_CVE-2023-38646](https://github.com/Shisones/MetabaseRCE_CVE-2023-38646)
 - [acesoyeo/METABASE-RCE-CVE-2023-38646-](https://github.com/acesoyeo/METABASE-RCE-CVE-2023-38646-)
 - [UserConnecting/Exploit-CVE-2023-38646-Metabase](https://github.com/UserConnecting/Exploit-CVE-2023-38646-Metabase)
 - [DaniTheHack3r/CVE-2023-38646](https://github.com/DaniTheHack3r/CVE-2023-38646)
@@ -54973,6 +55040,7 @@
 - [libertycityhacker/CVE-2023-43364-Exploit-CVE](https://github.com/libertycityhacker/CVE-2023-43364-Exploit-CVE)
 - [Herick-Costa/CVE-2023-43364-Searchor-RCE-Exploit](https://github.com/Herick-Costa/CVE-2023-43364-Searchor-RCE-Exploit)
 - [IamSaishi/CVE-2023-43364_Exploit](https://github.com/IamSaishi/CVE-2023-43364_Exploit)
+- [diamorphine666/CVE-2023-43364](https://github.com/diamorphine666/CVE-2023-43364)
 
 ### CVE-2023-43481 (2023-12-27)
 
@@ -63876,6 +63944,13 @@
 
 - [Halcy0nic/CVE-2022-44318](https://github.com/Halcy0nic/CVE-2022-44318)
 
+### CVE-2022-44384 (2022-11-17)
+
+<code>An arbitrary file upload vulnerability in rconfig v3.9.6 allows attackers to execute arbitrary code via a crafted PHP file.
+</code>
+
+- [d4ytox/CVE-2022-44384](https://github.com/d4ytox/CVE-2022-44384)
+
 ### CVE-2022-44569 (2023-11-03)
 
 <code>A locally authenticated attacker with low privileges can bypass authentication due to insecure inter-process communication.
@@ -66353,6 +66428,7 @@
 - [grey-master-a/GravCMS_Nmap_Script](https://github.com/grey-master-a/GravCMS_Nmap_Script)
 - [bluetoothStrawberry/cve-2021-21425](https://github.com/bluetoothStrawberry/cve-2021-21425)
 - [afifudinmtop/CVE-2021-21425](https://github.com/afifudinmtop/CVE-2021-21425)
+- [d4ytox/CVE-2021-21425](https://github.com/d4ytox/CVE-2021-21425)
 - [s1lentf00thold/CVE-2021-21425-RCE](https://github.com/s1lentf00thold/CVE-2021-21425-RCE)
 
 ### CVE-2021-21514 (2021-03-02)
@@ -66639,6 +66715,7 @@
 - [battleofthebots/dejavu](https://github.com/battleofthebots/dejavu)
 - [cc3305/CVE-2021-22204](https://github.com/cc3305/CVE-2021-22204)
 - [Roronoawjd/CVE-2021-22204](https://github.com/Roronoawjd/CVE-2021-22204)
+- [d4ytox/CVE-2021-22204](https://github.com/d4ytox/CVE-2021-22204)
 - [cyfrowesny/exiftool-7.44-12.23-exploit-CVE-2021-22204](https://github.com/cyfrowesny/exiftool-7.44-12.23-exploit-CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
@@ -79377,6 +79454,13 @@
 - [smallpiggy/CVE-2019-7238](https://github.com/smallpiggy/CVE-2019-7238)
 - [DannyRavi/nmap-scripts](https://github.com/DannyRavi/nmap-scripts)
 - [CyberCTF/vulhub-nexus-cve-2019-7238](https://github.com/CyberCTF/vulhub-nexus-cve-2019-7238)
+
+### CVE-2019-7256 (2019-07-02)
+
+<code>Linear eMerge E3-Series devices allow Command Injections.
+</code>
+
+- [krevetkqqq/CVE-2019-7256](https://github.com/krevetkqqq/CVE-2019-7256)
 
 ### CVE-2019-7304 (2019-04-23)
 
@@ -92306,6 +92390,13 @@
 </code>
 
 - [Enessar/LibPNG_OSS-Fuzz](https://github.com/Enessar/LibPNG_OSS-Fuzz)
+
+### CVE-2014-9583 (2015-01-08)
+
+<code>common.c in infosvr in ASUS WRT firmware 3.0.0.4.376_1071, 3.0.0.376.2524-g0013f52, and other versions, as used in RT-AC66U, RT-N66U, and other routers, does not properly check the MAC address for a request, which allows remote attackers to bypass authentication and execute arbitrary commands via a NET_CMD_ID_MANU_CMD packet to UDP port 9999.  NOTE: this issue was incorrectly mapped to CVE-2014-10000, but that ID is invalid due to its use as an example of the 2014 CVE ID syntax change.
+</code>
+
+- [krevetkqqq/CVE-2014-9583](https://github.com/krevetkqqq/CVE-2014-9583)
 
 ### CVE-2014-10069 (2018-01-07)
 
