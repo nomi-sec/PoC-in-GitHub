@@ -1884,13 +1884,6 @@
 
 - [MonsterWsr-hub/CVE-2026-6111](https://github.com/MonsterWsr-hub/CVE-2026-6111)
 
-### CVE-2026-6130 (2026-04-12)
-
-<code>A flaw has been found in chatboxai chatbox up to 1.20.0. This impacts the function StdioClientTransport of the file src/main/mcp/ipc-stdio-transport.ts of the component Model Context Protocol Server Management System. Executing a manipulation of the argument args/env can lead to os command injection. The attack can be launched remotely. The exploit has been published and may be used. The project was informed of the problem early through an issue report but has not responded yet.
-</code>
-
-- [fan-67/local-mcp](https://github.com/fan-67/local-mcp)
-
 ### CVE-2026-6145 (2026-05-14)
 
 <code>The User Registration &amp; Membership plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and including, 5.1.5. This is due to the is_admin_creation_process() method relying solely on the presence of action=createuser in the $_REQUEST superglobal without performing any authentication or capability check. This makes it possible for unauthenticated attackers to bypass the admin approval requirement when registering new accounts via the fallback submission path.
@@ -4024,13 +4017,6 @@
 </code>
 
 - [SneakyNachos/CVE-2026-15718-who-put-ptrs-in-my-wasm](https://github.com/SneakyNachos/CVE-2026-15718-who-put-ptrs-in-my-wasm)
-
-### CVE-2026-15723 (2026-10-21)
-
-<code>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 10.1 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, when OmniAuth SAML and LDAP auto-linking were both enabled, an authenticated user could have taken over an existing LDAP-backed account without any interaction from the targeted user, due to improper input sanitization in the LDAP email lookup path used during OmniAuth identity linking.
-</code>
-
-- [mehmet-emir-eroglu/CVE-2026-15723](https://github.com/mehmet-emir-eroglu/CVE-2026-15723)
 
 ### CVE-2026-15748 (2026-08-18)
 
@@ -11288,7 +11274,7 @@
 - [george1-adel/CVE-2026-41940_exploit](https://github.com/george1-adel/CVE-2026-41940_exploit)
 - [senyx122/CVE-2026-41940](https://github.com/senyx122/CVE-2026-41940)
 - [merdw/cPanel-CVE-2026-41940-Scanner](https://github.com/merdw/cPanel-CVE-2026-41940-Scanner)
-- [Rosemary1337/CVE-2026-41940](https://github.com/Rosemary1337/CVE-2026-41940)
+- [ryhnmhrdka/CVE-2026-41940](https://github.com/ryhnmhrdka/CVE-2026-41940)
 - [mahfuzreham/cpanel-cve-2026-41940](https://github.com/mahfuzreham/cpanel-cve-2026-41940)
 - [unteikyou/CVE-2026-41940-AuthBypass-Detector](https://github.com/unteikyou/CVE-2026-41940-AuthBypass-Detector)
 - [NULL200OK/cve-2026-41940-tool](https://github.com/NULL200OK/cve-2026-41940-tool)
@@ -11959,6 +11945,7 @@
 - [Syerain/cve-2026-43499-vivo-mt6896](https://github.com/Syerain/cve-2026-43499-vivo-mt6896)
 - [li-dahua/s25u-ghostlock-kernelsu-lkm](https://github.com/li-dahua/s25u-ghostlock-kernelsu-lkm)
 - [yichen115/ghostlock-kirkwood](https://github.com/yichen115/ghostlock-kirkwood)
+- [RetributionByRevenue/motogstylus2023-root](https://github.com/RetributionByRevenue/motogstylus2023-root)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -13634,13 +13621,6 @@
 - [bibotai/secveri-cve-2026-50011-positive](https://github.com/bibotai/secveri-cve-2026-50011-positive)
 - [bibotai/secveri-cve-2026-50011-negative](https://github.com/bibotai/secveri-cve-2026-50011-negative)
 
-### CVE-2026-50053 (2026-10-23)
-
-<code>A request attribute override vulnerability in Zimbra Collaboration Suite (ZCS) allows unauthenticated requests to /h/* to populate servlet attributes intended for trusted internal dispatch. RestFilter copies URL parameters specifying an authentication token, target account, target item and dispatch state into the request attributes consumed by the Classic Web Client. Combined with CVE-2026-10632 on ZCS 10.1.16, this allows an attacker to supply their own valid token and document identifiers and execute JavaScript in another user's signed-in browser session. ZCS 10.1.17 blocks that XSS chain by changing the document renderer, but retains the request attribute override.
-</code>
-
-- [mehmet-emir-eroglu/CVE-2026-50053](https://github.com/mehmet-emir-eroglu/CVE-2026-50053)
-
 ### CVE-2026-50055 (2026-10-08)
 
 <code>A policy-enforcement flaw in Zimbra Collaboration Suite allows an authenticated user to bypass disabled mail forwarding by using a Sieve notify action to send copies of email content and headers to an arbitrary address.
@@ -14304,7 +14284,6 @@
 
 - [0xBlackash/CVE-2026-53921](https://github.com/0xBlackash/CVE-2026-53921)
 - [tc4dy/CVE-2026-53921-PoC-Exploit](https://github.com/tc4dy/CVE-2026-53921-PoC-Exploit)
-- [mehmet-emir-eroglu/CVE-2026-53921](https://github.com/mehmet-emir-eroglu/CVE-2026-53921)
 
 ### CVE-2026-53959 (2026-08-18)
 
@@ -14459,6 +14438,13 @@
 </code>
 
 - [chaitanyagarware/CVE-2026-54520](https://github.com/chaitanyagarware/CVE-2026-54520)
+
+### CVE-2026-54523 (2026-08-26)
+
+<code>Kyverno is a policy engine designed for cloud native platform engineering teams. From 1.18.0 until 1.18.2, the NamespacedMutatingPolicy CEL compiler exposes the generator library to matchConditions, allowing a namespace-scoped policy to invoke generator.apply(namespace, resources) with an arbitrary target namespace. The validation in pkg/cel/policies/mpol/validate.go checks that the policy compiles but does not enforce namespace scope, and GenerateResources in pkg/cel/libs/context.go does not reject the cross-namespace target. A user who can create NamespacedMutatingPolicy objects in one namespace can cause the admission controller, operating with cluster-wide privileges, to create ConfigMaps, NetworkPolicies, Secrets, RoleBindings, and other resources in another namespace, enabling unauthorized modification and potential privilege escalation. This issue is fixed in version 1.18.2.
+</code>
+
+- [TeamN4C/SG-2026-0037](https://github.com/TeamN4C/SG-2026-0037)
 
 ### CVE-2026-54596 (2026-09-17)
 
@@ -15628,6 +15614,13 @@
 
 - [hakaioffsec/CVE-2026-63642](https://github.com/hakaioffsec/CVE-2026-63642)
 
+### CVE-2026-63686 (2026-10-01)
+
+<code>A NULL pointer dereference in mod_xml2enc in Apache Software Foundation Apache HTTP Server before 2.4.69 on all platforms allows an untrusted backend server to cause a denial of service via a proxied response with a charset whose conversion partially succeeds then fails.\n\nUsers are recommended to upgrade to version 2.4.69, which fixes this issue.
+</code>
+
+- [timothyckl/CVE-2026-63686](https://github.com/timothyckl/CVE-2026-63686)
+
 ### CVE-2026-63720 (2026-07-26)
 
 <code>datamodel-code-generator prior to version 0.70.0 contains a code injection vulnerability that allows attackers who control input schemas to achieve remote code execution by supplying a malicious customBasePath value containing embedded newlines and a dot-free Python expression. The crafted value is emitted verbatim into a generated 'from ... import ...' statement without identifier validation, causing arbitrary Python code to execute when the generated module is imported.
@@ -15698,6 +15691,7 @@
 - [wanwuzhishi/ksu-root](https://github.com/wanwuzhishi/ksu-root)
 - [youssefnoser/opd2415-6.6.118-cve-2026-64560-ksu](https://github.com/youssefnoser/opd2415-6.6.118-cve-2026-64560-ksu)
 - [aucai/Redmi-K90-CVE-2026-64560](https://github.com/aucai/Redmi-K90-CVE-2026-64560)
+- [exumeOAO/plr110-6.12.38-cve-2026-64560-ksu](https://github.com/exumeOAO/plr110-6.12.38-cve-2026-64560-ksu)
 
 ### CVE-2026-64561 (2026-08-04)
 
@@ -16606,13 +16600,6 @@
 
 - [hktalent/cve-scanner](https://github.com/hktalent/cve-scanner)
 
-### CVE-2026-71195 (2026-10-21)
-
-<code>In OpenStack Manila before 23.0.1, multiple Manila API operations on public shares do not verify that the caller owns the share. The API controllers authorize operations against the caller's own project context, then load a foreign public share without re-authorizing against the share's actual owner. This affects the following operations: allow_access: grant data-plane read/write access to another tenant's share; deny_access: revoke the owner's existing access rules; update_access: escalate access level (e.g., ro to rw); create_share_backup: exfiltrate share data via a backup created under the attacker's project; soft_delete: move a foreign share to the recycle bin; restore: interfere with the owner's deletion workflow; export location metadata: create, update, and delete metadata on foreign export locations; access rule listing: disclose IPs, usernames, and CephFS keys. Any authenticated project member can exploit these operations on any public share. The share UUID is visible since the share is public.
-</code>
-
-- [mehmet-emir-eroglu/CVE-2026-71195](https://github.com/mehmet-emir-eroglu/CVE-2026-71195)
-
 ### CVE-2026-71203 (2026-08-05)
 
 <code>changedetection.io's REST API resources are protected by an @auth.check_token decorator validating the caller's x-api-key header, except the Spec resource registered at /api/v1/full-spec (changedetectionio/api/Spec.py), whose get method carries neither @auth.check_token nor @validate_openapi_request.
@@ -17303,34 +17290,6 @@
 - [0xBlackash/CVE-2026-76461](https://github.com/0xBlackash/CVE-2026-76461)
 - [fevar54/CVE-2026-76461-Detection-Kit-](https://github.com/fevar54/CVE-2026-76461-Detection-Kit-)
 - [S3v3n-JG/CVE-2026-76461](https://github.com/S3v3n-JG/CVE-2026-76461)
-
-### CVE-2026-76466 (2026-10-21)
-
-<code>A vulnerability in the database service feature of Cisco Expressway Series could allow an unauthenticated, remote attacker with network access to a Cisco Expressway device to execute arbitrary operating system commands as&amp;nbsp;root.\r\n\r\nThis vulnerability is due to the use of persistent cookies. Additionally, there is insufficient validation of client certificates when the TLS Verify Mode is set to Enabled for clustering, which means that client certificates are not validated. An attacker with possession of the cookies could exploit this vulnerability by connecting to the database service and invoking specific remote procedure call (RPC) commands. A successful exploit could allow the attacker to execute arbitrary commands as root on the underlying operating system of an affected device.\r\nNote: Cisco Expressway Series refers to Cisco Expressway Core (Expressway-C) devices and Cisco Expressway Edge (Expressway-E) devices.
-</code>
-
-- [mehmet-emir-eroglu/CVE-2026-76466](https://github.com/mehmet-emir-eroglu/CVE-2026-76466)
-
-### CVE-2026-76473 (2026-10-21)
-
-<code>As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp;amp; Presence Service (Unified CM IM&amp;amp;P), Cisco Unified Communications Manager Session Management Edition (Unified CM SME), and Cisco Unity Connection have conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities.\r\n\r\nThe vulnerabilities tracked by CVE-2026-76473 are related to issues concerning improper neutralization of special elements in output used by a downstream component that are grouped under the Common Weakness Enumeration (CWE) Class CWE-74.
-</code>
-
-- [mehmet-emir-eroglu/CVE-2026-76473](https://github.com/mehmet-emir-eroglu/CVE-2026-76473)
-
-### CVE-2026-76474 (2026-10-21)
-
-<code>As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp;amp; Presence Service (Unified CM IM&amp;amp;P), Cisco Unified Communications Manager Session Management Edition (Unified CM SME), and Cisco Unity Connection have conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities.\r\n\r\nThe vulnerabilities tracked by CVE-2026-76474 are related to issues concerning improper authentication that are grouped under the Common Weakness Enumeration (CWE) Class CWE-287.
-</code>
-
-- [mehmet-emir-eroglu/CVE-2026-76474](https://github.com/mehmet-emir-eroglu/CVE-2026-76474)
-
-### CVE-2026-76475 (2026-10-21)
-
-<code>As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp;amp; Presence Service (Unified CM IM&amp;amp;P), Cisco Unified Communications Manager Session Management Edition (Unified CM SME), and Cisco Unity Connection have conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities.\r\n\r\nThe vulnerabilities tracked by CVE-2026-76475 are related to issues concerning improper neutralization of input during web page generation that are grouped under the Common Weakness Enumeration (CWE) Base CWE-79.
-</code>
-
-- [mehmet-emir-eroglu/CVE-2026-76475](https://github.com/mehmet-emir-eroglu/CVE-2026-76475)
 
 ### CVE-2026-76504 (2026-09-30)
 
@@ -18077,13 +18036,6 @@
 </code>
 
 - [wkpwn/CVE-2026-83834](https://github.com/wkpwn/CVE-2026-83834)
-
-### CVE-2026-83938 (2026-10-22)
-
-<code>Missing authentication for critical function in Azure Kubernetes Configuration Service allows an unauthorized attacker to elevate privileges over a network.
-</code>
-
-- [mehmet-emir-eroglu/CVE-2026-83938](https://github.com/mehmet-emir-eroglu/CVE-2026-83938)
 
 ### CVE-2026-83991 (2026-09-08)
 
@@ -18911,13 +18863,6 @@
 - [im-hanzou/CVE-2026-89026](https://github.com/im-hanzou/CVE-2026-89026)
 - [AranFarzami/CVE-2026-89026](https://github.com/AranFarzami/CVE-2026-89026)
 
-### CVE-2026-89035 (2026-10-21)
-
-<code>MikroTik RouterOS through 7.24.5 contains a session token replay vulnerability in the WebFig interface that allows attackers to bypass authentication by replaying captured session tokens across new ECDH sessions. The makeSessionKey function in libucrypto.so generates tokens using fixed salts without incorporating channel-specific or session-specific input, and the user service validates tokens against the login store without verifying channel context, enabling stolen tokens to grant persistent administrative access until the token store is explicitly cleared. This vulnerability extends the impact of CVE-2025-61481, which identified the underlying transport-layer exposure without a corresponding fix.
-</code>
-
-- [mehmet-emir-eroglu/CVE-2026-89035](https://github.com/mehmet-emir-eroglu/CVE-2026-89035)
-
 ### CVE-2026-89055 (2026-09-25)
 
 <code>The Customer Reviews for WooCommerce plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 5.120.0. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated attackers to permanently delete arbitrary attachments from the Media Library — including administrator-owned product images, logos, and documents — by injecting their IDs into a review that is later trashed and purged. Exploitation requires a public review-form link (a 13-hex formId distributed to customers via e-mail), which exposes the nonce needed to reach the handler without any WordPress account or session.
@@ -19061,7 +19006,6 @@
 - [hubly12/javafix](https://github.com/hubly12/javafix)
 - [FahrihFatahilah/CVE-2026-91403-eMudhra-Java-Scanner](https://github.com/FahrihFatahilah/CVE-2026-91403-eMudhra-Java-Scanner)
 - [siladu/fix-cve-2026-91403](https://github.com/siladu/fix-cve-2026-91403)
-- [mehmet-emir-eroglu/CVE-2026-91403](https://github.com/mehmet-emir-eroglu/CVE-2026-91403)
 
 ### CVE-2026-91737 (2026-09-15)
 
@@ -19428,7 +19372,6 @@
 </code>
 
 - [Ibonok/CVE-2026-94300](https://github.com/Ibonok/CVE-2026-94300)
-- [mehmet-emir-eroglu/CVE-2026-94300](https://github.com/mehmet-emir-eroglu/CVE-2026-94300)
 
 ### CVE-2026-94386 (2026-10-26)
 
@@ -19749,13 +19692,6 @@
 
 - [murrez/CVE-2026-97657](https://github.com/murrez/CVE-2026-97657)
 
-### CVE-2026-97785 (2026-10-22)
-
-<code>Improper authentication in AAD App Proxy allows an unauthorized attacker to elevate privileges over a network.
-</code>
-
-- [mehmet-emir-eroglu/CVE-2026-97785](https://github.com/mehmet-emir-eroglu/CVE-2026-97785)
-
 ### CVE-2026-97798 (2026-10-13)
 
 <code>Improper neutralization of argument delimiters in a command ('argument injection') in Windows Error Reporting allows an authorized attacker to elevate privileges locally.
@@ -19811,7 +19747,7 @@
 - [Lw5959/xring-cve-2026-98260](https://github.com/Lw5959/xring-cve-2026-98260)
 - [ChaYeWuu/prague-CVE-2026-98260-OS4.0](https://github.com/ChaYeWuu/prague-CVE-2026-98260-OS4.0)
 - [villager1314/CVE-2026-98260-Analysis](https://github.com/villager1314/CVE-2026-98260-Analysis)
-- [ChaYeWuu/violin-CVE-2026-98260-OS4.0](https://github.com/ChaYeWuu/violin-CVE-2026-98260-OS4.0)
+- [ChaYeWuu/xring-CVE-2026-98260-OS4.0](https://github.com/ChaYeWuu/xring-CVE-2026-98260-OS4.0)
 - [woshigenm/CVE-2026-98260](https://github.com/woshigenm/CVE-2026-98260)
 - [b1gmang0/CVE-2026-98260-pandora-lpe](https://github.com/b1gmang0/CVE-2026-98260-pandora-lpe)
 - [YuKongA/CVE-2026-98260](https://github.com/YuKongA/CVE-2026-98260)
@@ -19826,7 +19762,6 @@
 - [AzirX1337/CVE-2026-98260-PMX110-Root618-Jailbreak](https://github.com/AzirX1337/CVE-2026-98260-PMX110-Root618-Jailbreak)
 - [quyicheng03-boop/CVE-2026-98260-dada-android](https://github.com/quyicheng03-boop/CVE-2026-98260-dada-android)
 - [molanp/CVE-2026-98260-vivo-s60-poc](https://github.com/molanp/CVE-2026-98260-vivo-s60-poc)
-- [AmarnathCJD/CVE-2026-98260-IQOO-13](https://github.com/AmarnathCJD/CVE-2026-98260-IQOO-13)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -19866,6 +19801,12 @@
 - [brett6320/fix_CVE-2026-98432](https://github.com/brett6320/fix_CVE-2026-98432)
 - [alvaroguzmancode/cve-2026-98432](https://github.com/alvaroguzmancode/cve-2026-98432)
 - [tiendungdev/cve-2026-98432-guard](https://github.com/tiendungdev/cve-2026-98432-guard)
+- [raahilmw/synipopt](https://github.com/raahilmw/synipopt)
+- [ndeet/cve-2026-98432](https://github.com/ndeet/cve-2026-98432)
+- [nfodor/cve-2026-98432-nft-mitigation](https://github.com/nfodor/cve-2026-98432-nft-mitigation)
+- [soroushneshati/cve-2026-98432-ubuntu-mitigation](https://github.com/soroushneshati/cve-2026-98432-ubuntu-mitigation)
+- [sevaepsteyn/cve-2026-98432-ebpf](https://github.com/sevaepsteyn/cve-2026-98432-ebpf)
+- [antonyantony/cve-2026-98432-nft](https://github.com/antonyantony/cve-2026-98432-nft)
 
 ### CVE-2026-99999 (2026-10-15)
 
@@ -19886,6 +19827,13 @@
 - [01luyicheng/CVE-2026-99999-analysis](https://github.com/01luyicheng/CVE-2026-99999-analysis)
 - [01luyicheng/CVE-2026-99999-exploit](https://github.com/01luyicheng/CVE-2026-99999-exploit)
 - [unixreaper/CVE-2026-99999-Research](https://github.com/unixreaper/CVE-2026-99999-Research)
+
+### CVE-2026-100105 (2026-10-28)
+
+<code>A user with permission to edit contact points but not their protected fields can change protected settings, such as a contact point's destination URL, by switching an integration to a legacy schema version, which can expose stored credentials and redirect alert notifications (incorrect authorization).
+</code>
+
+- [googlesky/CVE-2026-100105](https://github.com/googlesky/CVE-2026-100105)
 
 ### CVE-2026-100380 (2026-09-25)
 
@@ -20037,6 +19985,7 @@
 - [0xBlackash/CVE-2026-101767](https://github.com/0xBlackash/CVE-2026-101767)
 - [Sable-Research/CVE-2026-101767-research](https://github.com/Sable-Research/CVE-2026-101767-research)
 - [shivrajem/ebs-cve-2026-101767-check](https://github.com/shivrajem/ebs-cve-2026-101767-check)
+- [aduli198/CVE-2026-101767](https://github.com/aduli198/CVE-2026-101767)
 
 ### CVE-2026-101894 (2026-09-28)
 
@@ -20546,13 +20495,6 @@
 </code>
 
 - [wvllxe/CVE-2026-104991](https://github.com/wvllxe/CVE-2026-104991)
-
-### CVE-2026-105014 (2026-10-22)
-
-<code>Improper neutralization of special elements used in a command ('command injection') in Azure Pipelines allows an unauthorized attacker to execute code over a network.
-</code>
-
-- [mehmet-emir-eroglu/CVE-2026-105014](https://github.com/mehmet-emir-eroglu/CVE-2026-105014)
 
 ### CVE-2026-105030 (2026-10-02)
 
@@ -21447,7 +21389,6 @@
 - [neelsomani/benevolent-php](https://github.com/neelsomani/benevolent-php)
 - [alvleont/php-patch-claude-skill](https://github.com/alvleont/php-patch-claude-skill)
 - [bsalunke/php2shell-lab](https://github.com/bsalunke/php2shell-lab)
-- [mehmet-emir-eroglu/php2shell](https://github.com/mehmet-emir-eroglu/php2shell)
 - [CCNAHLHQ/php2shell_scan](https://github.com/CCNAHLHQ/php2shell_scan)
 - [mc493/php2shell-enterprise-hardening-cve-2026-109618-109619](https://github.com/mc493/php2shell-enterprise-hardening-cve-2026-109618-109619)
 - [lankahost/lankahost-php-patch-check](https://github.com/lankahost/lankahost-php-patch-check)
@@ -21708,7 +21649,9 @@
 - [yusufyildiz34/whichphp](https://github.com/yusufyildiz34/whichphp)
 - [flynnsmc-lgtm/qt-t-shield](https://github.com/flynnsmc-lgtm/qt-t-shield)
 - [Lydia-King-K/ddld36-solar-aegis](https://github.com/Lydia-King-K/ddld36-solar-aegis)
-- [DarkGlitchLegion/php2shell-lab](https://github.com/DarkGlitchLegion/php2shell-lab)
+- [shellharbor/php-8.1-cve-2026-docker](https://github.com/shellharbor/php-8.1-cve-2026-docker)
+- [esskslifetech/php-secure-patch](https://github.com/esskslifetech/php-secure-patch)
+- [shellharbor/php-7.4-cve-2026-docker](https://github.com/shellharbor/php-7.4-cve-2026-docker)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21768,13 +21711,6 @@
 
 - [capivara-research/CVE-2026-110025](https://github.com/capivara-research/CVE-2026-110025)
 
-### CVE-2026-110063 (2026-10-22)
-
-<code>Improper link resolution before file access ('link following') in VM Inspector for Azure Virtual Machines allows an unauthorized attacker to elevate privileges over a network.
-</code>
-
-- [mehmet-emir-eroglu/CVE-2026-110063](https://github.com/mehmet-emir-eroglu/CVE-2026-110063)
-
 ### CVE-2026-110200 (2026-10-29)
 
 <code>IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to obtain sensitive information due to cleartext storage of sensitive information.
@@ -21798,7 +21734,6 @@
 - [lesterlam/onigmo-cve-2026-110264](https://github.com/lesterlam/onigmo-cve-2026-110264)
 - [googlesky/CVE-2026-110264](https://github.com/googlesky/CVE-2026-110264)
 - [Masriyan/Exploit-CVE-2026-110264-GitLab-CE-EE-RCE](https://github.com/Masriyan/Exploit-CVE-2026-110264-GitLab-CE-EE-RCE)
-- [mehmet-emir-eroglu/CVE-2026-110264](https://github.com/mehmet-emir-eroglu/CVE-2026-110264)
 
 ### CVE-2026-110311 (2026-10-18)
 
@@ -21946,7 +21881,6 @@
 - [FranklinF25/http2shell](https://github.com/FranklinF25/http2shell)
 - [tikarammardi/CVE-2026-111497](https://github.com/tikarammardi/CVE-2026-111497)
 - [fbuff-tools/http2shell-checker](https://github.com/fbuff-tools/http2shell-checker)
-- [mehmet-emir-eroglu/CVE-2026-111497](https://github.com/mehmet-emir-eroglu/CVE-2026-111497)
 - [thebarel/CVE-2026-111497](https://github.com/thebarel/CVE-2026-111497)
 - [jeffschafer/Bigfix-NodeJS-Vulnerability-Scanner-Content-CVE-2026-111497](https://github.com/jeffschafer/Bigfix-NodeJS-Vulnerability-Scanner-Content-CVE-2026-111497)
 - [sakai-sktech/brotli-check](https://github.com/sakai-sktech/brotli-check)
@@ -21980,6 +21914,7 @@
 - [atiilla/CVE-2026-111497-Node2Shell](https://github.com/atiilla/CVE-2026-111497-Node2Shell)
 - [Nucklear/CVE-2026-111497-working](https://github.com/Nucklear/CVE-2026-111497-working)
 - [adachis/pillow-patched-brotli](https://github.com/adachis/pillow-patched-brotli)
+- [hayupisama/quarkus-brotli-audit](https://github.com/hayupisama/quarkus-brotli-audit)
 
 ### CVE-2026-111770
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
@@ -22091,13 +22026,6 @@
 
 - [yuwkaaa/CVE-2026-113468](https://github.com/yuwkaaa/CVE-2026-113468)
 
-### CVE-2026-113870 (2026-10-21)
-
-<code>MongoDB Compass improperly escapes certain BSON values when converting a stored view’s aggregation pipeline into editable source. When a user connects to a MongoDB deployment containing a specially crafted view and opens that view for editing, the values can cause arbitrary code to execute with the privileges of the user running Compass.
-</code>
-
-- [mehmet-emir-eroglu/CVE-2026-113870](https://github.com/mehmet-emir-eroglu/CVE-2026-113870)
-
 ### CVE-2026-113872 (2026-10-22)
 
 <code>multer is a middleware for Node.js that handles multipart/form-data file uploads. In versions from 2.0.0 before 2.5.0, when multer is configured with an asynchronous fileFilter, a single request can crash the Node.js process. If the request is aborted while one file's asynchronous fileFilter is still pending, the pending callback later resumes a parsing stream that multer has already torn down, and the underlying parser emits an error on a stream that no longer has an error listener, which Node raises as an unhandled error event so the process exits. Any application using multer with an asynchronous fileFilter is affected regardless of storage engine, while uploads using a synchronous fileFilter are not affected. The issue is fixed in multer 2.5.0, and users should upgrade to 2.5.0 or later. As a workaround, use a synchronous fileFilter.
@@ -22135,7 +22063,6 @@
 - [tajulasri/-CVE-2026-114509-POC](https://github.com/tajulasri/-CVE-2026-114509-POC)
 - [dimasma0305/CVE-2026-114509](https://github.com/dimasma0305/CVE-2026-114509)
 - [ArioVeisa/cve-2026-114509-laravel-tokenguard](https://github.com/ArioVeisa/cve-2026-114509-laravel-tokenguard)
-- [mehmet-emir-eroglu/CVE-2026-114509](https://github.com/mehmet-emir-eroglu/CVE-2026-114509)
 - [Nxploited/CVE-2026-114509](https://github.com/Nxploited/CVE-2026-114509)
 - [Nguemoue/project2026_20261030_tokengate](https://github.com/Nguemoue/project2026_20261030_tokengate)
 
@@ -22158,7 +22085,6 @@
 <code>VeloCloud Orchestrator (VCO) on-prem has a security issue where this issue may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.\n\nOn an affected system, any authenticated user can gain operator privileges and masquerade as a local &quot;superuser operator&quot; user. This includes access to functionality that is intended for internal use only and which is not intended to be remotely accessible.\n\nHosted, including Dedicated, versions of VCO were impacted and have already been patched.
 </code>
 
-- [mehmet-emir-eroglu/CVE-2026-114625](https://github.com/mehmet-emir-eroglu/CVE-2026-114625)
 - [definitiveref/CVE-2026-114625-Proof-Of-Concept](https://github.com/definitiveref/CVE-2026-114625-Proof-Of-Concept)
 
 ### CVE-2026-114820 (2026-10-24)
@@ -22167,7 +22093,6 @@
 </code>
 
 - [joedayz/cve-2026-114820-java-scan](https://github.com/joedayz/cve-2026-114820-java-scan)
-- [mehmet-emir-eroglu/CVE-2026-114820](https://github.com/mehmet-emir-eroglu/CVE-2026-114820)
 
 ### CVE-2026-115560
 - [Pr0fEs0r-X/PHP2SHELL-Checker-v-1.0-CVE-2026-115560-](https://github.com/Pr0fEs0r-X/PHP2SHELL-Checker-v-1.0-CVE-2026-115560-)
@@ -22188,7 +22113,6 @@
 </code>
 
 - [ideator-labs/wasmtime-sweep](https://github.com/ideator-labs/wasmtime-sweep)
-- [mehmet-emir-eroglu/CVE-2026-115889](https://github.com/mehmet-emir-eroglu/CVE-2026-115889)
 
 ### CVE-2026-115893 (2026-10-23)
 
@@ -22260,20 +22184,12 @@
 
 - [ohackercego/CVE-2026-116106](https://github.com/ohackercego/CVE-2026-116106)
 
-### CVE-2026-116165 (2026-10-25)
-
-<code>Parse Server before 8.6.101 and 9.0.0 before 9.10.4-alpha.4 contains a missing authorization vulnerability on MongoDB deployments that lets clients without the master key delete the stored schema of any class. Unauthenticated attackers can send REST API delete requests targeting the internal _SCHEMA collection to remove field definitions, class-level permissions, and protected fields, exposing data to unauthorized reads and modifications.
-</code>
-
-- [mehmet-emir-eroglu/CVE-2026-116165](https://github.com/mehmet-emir-eroglu/CVE-2026-116165)
-
 ### CVE-2026-116191 (2026-10-25)
 
 <code>Rclone before 1.75.2 contains a path traversal vulnerability in serve webdav that allows unauthenticated attackers to write above the served root by sending an unvalidated '..' path component. Attackers can send MKCOL /.. to plant a VFS node, then PUT, MOVE, COPY, or MKCOL to create, overwrite, or delete files belonging to other tenants.
 </code>
 
 - [asvorg/CVE-2026-116191-poc](https://github.com/asvorg/CVE-2026-116191-poc)
-- [mehmet-emir-eroglu/CVE-2026-116191](https://github.com/mehmet-emir-eroglu/CVE-2026-116191)
 
 ### CVE-2026-116244 (2026-10-30)
 
@@ -37332,6 +37248,7 @@
 - [Ghost-Bx1/php-exploits-CVE-2026-109618-CVE-2026-109619-CVE-2024-4577](https://github.com/Ghost-Bx1/php-exploits-CVE-2026-109618-CVE-2026-109619-CVE-2024-4577)
 - [CyberDefenderAI/AI-Threat-Detection-PHP-CGI-Vulnerabilities](https://github.com/CyberDefenderAI/AI-Threat-Detection-PHP-CGI-Vulnerabilities)
 - [kokilyadm/waffers](https://github.com/kokilyadm/waffers)
+- [esskslifetech/php-secure-patch](https://github.com/esskslifetech/php-secure-patch)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -40351,7 +40268,7 @@
 - [binaryninja/CVE-2024-23334](https://github.com/binaryninja/CVE-2024-23334)
 - [s4botai/CVE-2024-23334-PoC](https://github.com/s4botai/CVE-2024-23334-PoC)
 - [wizarddos/CVE-2024-23334](https://github.com/wizarddos/CVE-2024-23334)
-- [0xR00/CVE-2024-23334](https://github.com/0xR00/CVE-2024-23334)
+- [frogb1t/CVE-2024-23334](https://github.com/frogb1t/CVE-2024-23334)
 - [Arc4he/CVE-2024-23334-PoC](https://github.com/Arc4he/CVE-2024-23334-PoC)
 - [TheRedP4nther/LFI-aiohttp-CVE-2024-23334-PoC](https://github.com/TheRedP4nther/LFI-aiohttp-CVE-2024-23334-PoC)
 - [Betan423/CVE-2024-23334-PoC](https://github.com/Betan423/CVE-2024-23334-PoC)
@@ -49301,13 +49218,6 @@
 </code>
 
 - [zerozenxlabs/CVE-2023-7261](https://github.com/zerozenxlabs/CVE-2023-7261)
-
-### CVE-2023-7356 (2026-10-21)
-
-<code>In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: ISO: Copy BASE if service data matches EIR_BAA_SERVICE_UUID\n\nCopy the content of a Periodic Advertisement Report to BASE only if\nthe service UUID is Basic Audio Announcement Service UUID.
-</code>
-
-- [mehmet-emir-eroglu/CVE-2023-7356](https://github.com/mehmet-emir-eroglu/CVE-2023-7356)
 
 ### CVE-2023-20009 (2023-02-16)
 
@@ -65571,6 +65481,7 @@
 - [WhatsWrongAndWhy/CVE-2021-3156](https://github.com/WhatsWrongAndWhy/CVE-2021-3156)
 - [Shams-Ul-Mehmood/CVE-2021-3156-Project](https://github.com/Shams-Ul-Mehmood/CVE-2021-3156-Project)
 - [sandesh9978/CVE-2021-3156-Sudo-Checker](https://github.com/sandesh9978/CVE-2021-3156-Sudo-Checker)
+- [d4ytox/CVE-2021-3156](https://github.com/d4ytox/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -71204,6 +71115,7 @@
 - [horizon3ai/CVE-2021-44142](https://github.com/horizon3ai/CVE-2021-44142)
 - [gudyrmik/CVE-2021-44142](https://github.com/gudyrmik/CVE-2021-44142)
 - [Nxvh1337/CVE-2021-44142-vulnerable-lab](https://github.com/Nxvh1337/CVE-2021-44142-vulnerable-lab)
+- [neyugNat/Samba_Fruit_Vuln](https://github.com/neyugNat/Samba_Fruit_Vuln)
 
 ### CVE-2021-44168 (2022-01-04)
 
@@ -80324,6 +80236,7 @@
 - [MagentaBear/CVE-2019-11043-Vulnerability](https://github.com/MagentaBear/CVE-2019-11043-Vulnerability)
 - [gon905332-jpg/cve-2019-11043.py](https://github.com/gon905332-jpg/cve-2019-11043.py)
 - [CyberCTF/vulhub-php-cve-2019-11043](https://github.com/CyberCTF/vulhub-php-cve-2019-11043)
+- [esskslifetech/php-secure-patch](https://github.com/esskslifetech/php-secure-patch)
 
 ### CVE-2019-11061 (2019-08-29)
 
@@ -86445,7 +86358,7 @@
 - [dannic145/EternalBlue-Exploit-Demonstration](https://github.com/dannic145/EternalBlue-Exploit-Demonstration)
 - [ichhyak22/EternalBlue-Exploit-Demonstration-MS17-010](https://github.com/ichhyak22/EternalBlue-Exploit-Demonstration-MS17-010)
 - [trinadh-dasari-cyber/eternalblue-ms17-010-research](https://github.com/trinadh-dasari-cyber/eternalblue-ms17-010-research)
-- [0xredash/CVE-2017-0144](https://github.com/0xredash/CVE-2017-0144)
+- [0xBlackash/CVE-2017-0144](https://github.com/0xBlackash/CVE-2017-0144)
 - [probablysecure/Triage-CVE-2017-0144](https://github.com/probablysecure/Triage-CVE-2017-0144)
 - [ronankongala/metasploit-pentest-report](https://github.com/ronankongala/metasploit-pentest-report)
 - [quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144](https://github.com/quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144)
@@ -91564,7 +91477,7 @@
 - [indrajeetmp11/Heartbleed-PoC-Exploit-Script](https://github.com/indrajeetmp11/Heartbleed-PoC-Exploit-Script)
 - [SimoesCTT/CTT-HEARTBLEED-Temporal-Resonance-Memory-Leak-Exploit-Heartbleed-CVE-2014-0160](https://github.com/SimoesCTT/CTT-HEARTBLEED-Temporal-Resonance-Memory-Leak-Exploit-Heartbleed-CVE-2014-0160)
 - [22imer/CVE-2014-0160](https://github.com/22imer/CVE-2014-0160)
-- [0xredash/CVE-2014-0160](https://github.com/0xredash/CVE-2014-0160)
+- [0xBlackash/CVE-2014-0160](https://github.com/0xBlackash/CVE-2014-0160)
 - [Ryo-Soikutsu/Heartbleed](https://github.com/Ryo-Soikutsu/Heartbleed)
 - [victoriacfigueiredo/heartbleed-lab](https://github.com/victoriacfigueiredo/heartbleed-lab)
 - [tungduongNT/CVE-2014-0160.](https://github.com/tungduongNT/CVE-2014-0160.)
@@ -92159,7 +92072,7 @@
 - [DrHaitham/CVE-2014-6271-Shellshock-](https://github.com/DrHaitham/CVE-2014-6271-Shellshock-)
 - [mtaha-sec/bash-apocalypse](https://github.com/mtaha-sec/bash-apocalypse)
 - [andres101c/Shellshock-CVE-2014-6271](https://github.com/andres101c/Shellshock-CVE-2014-6271)
-- [0xredash/CVE-2014-6271](https://github.com/0xredash/CVE-2014-6271)
+- [0xBlackash/CVE-2014-6271](https://github.com/0xBlackash/CVE-2014-6271)
 - [ambjlou/it355-lab4-enterprise-lan-security](https://github.com/ambjlou/it355-lab4-enterprise-lan-security)
 - [kaleth4/-CVE-2014-6271](https://github.com/kaleth4/-CVE-2014-6271)
 - [kaleth4/CVE-2014-6271](https://github.com/kaleth4/CVE-2014-6271)
