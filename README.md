@@ -4339,6 +4339,7 @@
 </code>
 
 - [0xSemizzz/CVE-2026-18649](https://github.com/0xSemizzz/CVE-2026-18649)
+- [C3viche/cve-2026-18649](https://github.com/C3viche/cve-2026-18649)
 
 ### CVE-2026-18718 (2026-08-03)
 
@@ -8852,7 +8853,7 @@
 
 - [solarlynxsqueeze/CVE-2026-32202](https://github.com/solarlynxsqueeze/CVE-2026-32202)
 - [virus-or-not/CVE-2026-32202](https://github.com/virus-or-not/CVE-2026-32202)
-- [f0xox/CVE-2026-32202](https://github.com/f0xox/CVE-2026-32202)
+- [foxfxfxx/CVE-2026-32202](https://github.com/foxfxfxx/CVE-2026-32202)
 
 ### CVE-2026-32223 (2026-04-14)
 
@@ -10094,6 +10095,7 @@
 
 - [redteamfortress/CVE-2026-36425](https://github.com/redteamfortress/CVE-2026-36425)
 - [gongchuang1089/EDRKiller](https://github.com/gongchuang1089/EDRKiller)
+- [MacAwad/whatsapp-valleyrat-analysis](https://github.com/MacAwad/whatsapp-valleyrat-analysis)
 
 ### CVE-2026-36436 (2026-10-15)
 
@@ -15114,6 +15116,9 @@
 
 - [DavidCarliez/CVE-2026-58635-PoC](https://github.com/DavidCarliez/CVE-2026-58635-PoC)
 
+### CVE-2026-58882
+- [Ignema/WapGuard](https://github.com/Ignema/WapGuard)
+
 ### CVE-2026-59230 (2026-08-24)
 
 <code>Improper input validation vulnerability in Apache Camel.\n\n\n\nThis issue affects Apache Camel: from 2.17.0 before 4.14.9, from 4.15.0 before 4.18.4, from 4.19.0 before 4.22.0.\n\n\n\nThe camel-mail component ships a MimeMultipart data format that can unmarshal a MIME multipart message. When it is configured with headersInline set to true, the unmarshal path copies the MIME headers of the incoming message onto the Camel message: it enumerates every header that is not one of the three standard ones it generates itself - Message-ID, MIME-Version and Content-Type - and calls setHeader for each, applying no HeaderFilterStrategy. The names of those MIME headers come from the message being unmarshalled, so a sender able to influence the message could place a header whose name falls in the Camel-internal namespace and have it set on the Exchange. Camel components read control headers from that namespace to override their configured behaviour - the camel-sql producer, for instance, takes the statement to execute from a Camel header when one is present - so an injected header could redirect what a downstream step in the route does with data the route author never intended it to take from the message. Which sinks are reachable, and what the consequences are, depends entirely on what the route does after the unmarshal step. The camel-mail consumer already applied a header filter strategy on its own inbound path, so this was the parallel inbound path into the same component that the earlier hardening did not cover. The affected copy is reached only when headersInline is enabled, which is not the default: with the default setting the MIME headers are surfaced as attachments rather than as message headers, and are not affected. The behaviour dates back to the introduction of the data format in 2.17.0 and was present on every release line until this fix.\n\n\n\nUsers are recommended to upgrade to version 4.22.0, which fixes the issue. If users are on the 4.14.x LTS releases stream, then they are suggested to upgrade to 4.14.9. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.4. For deployments that cannot upgrade immediately, leave headersInline at its default of false where the inline headers are not needed, since the copy is only reached when it is enabled. Where it must stay enabled, strip Camel-internal headers immediately after the unmarshal step, for example with removeHeaders(“Camel*”) placed before any processor or producer that reads control headers, and do not unmarshal MIME content from an untrusted sender into a route that dispatches on header values. As defence in depth, treat the header names of any MIME message arriving from outside the trust boundary as untrusted input.
@@ -17410,6 +17415,13 @@
 ### CVE-2026-77276
 - [Morzan6/CVE-2026-77276-PoC](https://github.com/Morzan6/CVE-2026-77276-PoC)
 
+### CVE-2026-77396 (2026-09-18)
+
+<code>PJSIP is a free and open source multimedia communication library written in C. In 2.17 and earlier, the PJSIP AVI parser in pjmedia/src/pjmedia/avi_player.c uses an input-file video chunk length as the number of bytes copied into a frame buffer whose capacity is derived from the declared media dimensions. A crafted AVI file can therefore cause an attacker-controlled out-of-bounds write past the heap allocation when an application plays the file or pulls its frames. The existing size assertion does not protect production release builds, where assertions are disabled. Typical local playback can crash the process, while applications that accept untrusted AVI sources expose a stronger memory-corruption condition. No fixed version is available as of this review.
+</code>
+
+- [saretawa/CVE-2026-77396](https://github.com/saretawa/CVE-2026-77396)
+
 ### CVE-2026-77521 (2026-09-21)
 
 <code>MaxKB is an open-source AI assistant for enterprise. Prior to version 2.10.5-lts, assistants with a tool, MCP tool, skill, or sub-application use SandboxShellBackend, which exposes an execute shell tool without excluding it and omits execute from interrupt_on, so human approval is not required. Untrusted chat or ingested content can therefore cause command execution; source deployments with MAXKB_SANDBOX disabled run commands directly as the application user, while the official root container's string-based gosu wrapper allowed shell metacharacters to execute outside the intended sandbox. This issue is fixed in version 2.10.5-lts.
@@ -18893,6 +18905,13 @@
 
 - [dorkerdevil/CVE-2026-89282](https://github.com/dorkerdevil/CVE-2026-89282)
 
+### CVE-2026-89633 (2026-09-11)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: fix OOB read/write from unvalidated DataOffset in coalesce_t2()\n\ncoalesce_t2() computes data pointers directly from server-supplied\nDataOffset fields with no validation against buffer bounds:\n\n  data_area_of_tgt = (char *)&amp;pSMBt-&gt;hdr.Protocol +\n                     get_unaligned_le16(&amp;pSMBt-&gt;t2_rsp.DataOffset);\n  data_area_of_src = (char *)&amp;pSMBs-&gt;hdr.Protocol +\n                     get_unaligned_le16(&amp;pSMBs-&gt;t2_rsp.DataOffset);\n  data_area_of_tgt += total_in_tgt;\n  ...\n  memcpy(data_area_of_tgt, data_area_of_src, total_in_src);\n\nA small DataOffset can push a pointer below the actual byte area,\noverwriting header fields; a large one can push it past the buffer\nend, causing out-of-bounds heap reads (source) or writes (target).\nThe BCC overflow guard does not prevent this: BCC reflects how much\ndata is present, while DataOffset controls where in the buffer it\nstarts.\n\nThe &quot;validate target area&quot; comment present since the function was\nfirst written in 2005 was a placeholder that was never implemented.\n\nAdd lower- and upper-bound checks for both data pointers before the\nmemcpy, and before any target header fields are modified.
+</code>
+
+- [woshigenm/CVE-2026-89633](https://github.com/woshigenm/CVE-2026-89633)
+
 ### CVE-2026-89754 (2026-09-11)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nmm/pagewalk: fix stale walk-&gt;action escaping walk_pmd_range()\n\nIf -&gt;pmd_entry() sets walk-&gt;action = ACTION_AGAIN, the pmd_none() check is\nretried.  The PMD entry may be cleared at the point of retry.\n\nIn this case, if walk-&gt;ops-&gt;install_pte is not specified, the code\ncontinues to the next PMD entry in the range without resetting\nwalk-&gt;action to ACTION_SUBTREE.\n\nThis leaves walk-&gt;action erroneously set to ACTION_AGAIN, which is\nincorrect.\n\nThis was incorrect but not problematic up until commit 3b89863c3fa4\n(&quot;mm/pagewalk: fix race between concurrent split and refault&quot;) which\nupdated walk_pud_range() to check for walk-&gt;action == ACTION_AGAIN upon\nwalk_pmd_range()'s return, causing the PUD walk to be retried.\n\nIn this case this results in duplicate walk callbacks being invoked,\nwhich is erroneous and will break any caller that is not idempotent\nwith respect to this (and waste time for those which are).  The result\nis an out-of-bounds write, triggered by a local fuzzer:\n\n[    2.272695] ==================================================================\n[    2.273471] BUG: KASAN: slab-out-of-bounds in __mincore_unmapped_range+0x14f/0x190\n[    2.274302] Write of size 1 at addr ffff888008d9b000 by task poc/106\n[    2.274966]\n[    2.275154] CPU: 0 UID: 1000 PID: 106 Comm: poc Not tainted 7.2.0-rc6-00429-ga7c7074b58d2 #55 PREEMPT(lazy)\n[    2.275159] Hardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014\n[    2.275164] Call Trace:\n[    2.275170]  &lt;TASK&gt;\n[    2.275172]  dump_stack_lvl+0x53/0x70\n[    2.275200]  print_report+0xd0/0x630\n[    2.275210]  ? __pfx__raw_spin_lock_irqsave+0x10/0x10\n[    2.275219]  ? irqentry_exit+0xd2/0x670\n[    2.275224]  ? irqentry_exit+0xd2/0x670\n[    2.275226]  ? __virt_addr_valid+0xef/0x1a0\n[    2.275239]  ? __mincore_unmapped_range+0x14f/0x190\n[    2.275242]  kasan_report+0xce/0x100\n[    2.275245]  ? __mincore_unmapped_range+0x14f/0x190\n[    2.275248]  __mincore_unmapped_range+0x14f/0x190\n[    2.275252]  mincore_unmapped_range+0x45/0x70\n[    2.275254]  walk_pgd_range+0xafc/0xfc0\n[    2.275261]  ? __pfx_walk_pgd_range+0x10/0x10\n[    2.275264]  ? __update_load_avg_se+0x3d1/0x670\n[    2.275275]  __walk_page_range+0xc0/0x310\n[    2.275278]  ? __pfx_find_vma+0x10/0x10\n[    2.275281]  ? finish_task_switch.isra.0+0x16d/0x4f0\n[    2.275290]  walk_page_range_mm_unsafe+0x26f/0x3a0\n[    2.275293]  ? __pfx_mtree_load+0x10/0x10\n[    2.275298]  ? __pfx_walk_page_range_mm_unsafe+0x10/0x10\n[    2.275302]  ? __free_frozen_pages+0x54d/0x7e0\n[    2.275308]  __do_sys_mincore+0x132/0x380\n[    2.275311]  do_syscall_64+0xf9/0x540\n[    2.275316]  entry_SYSCALL_64_after_hwframe+0x77/0x7f\n[    2.275322] RIP: 0033:0x422ccd\n[    2.275326] Code: b3 66 2e 0f 1f 84 00 00 00 00 00 66 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 &lt;48&gt; 3d 01 f0 ff ff 73 01 c3 48 c7 c1 b8 ff ff ff f7 d8 64 89 01 48\n[    2.275329] RSP: 002b:00007fffffffec18 EFLAGS: 00000287 ORIG_RAX: 000000000000001b\n[    2.275337] RAX: ffffffffffffffda RBX: 0000000000000066 RCX: 0000000000422ccd\n[    2.275339] RDX: 00000000004d0940 RSI: 0000000001000000 RDI: 00007ffff4000000\n[    2.275340] RBP: 00000000004d0940 R08: 0000000000000100 R09: 0000000000000100\n[    2.275342] R10: 0000000000000100 R11: 0000000000000287 R12: 20c49ba5e353f7cf\n[    2.275343] R13: 00000000004990d3 R14: 0000000000000000 R15: 0000000000000001\n[    2.275346]  &lt;/TASK&gt;\n[    2.275347]\n[    2.296904] The buggy address belongs to the object at ffff888008d9b000\n[    2.296904]  which belongs to the cache sigqueue of size 80\n[    2.298151] The buggy address is located 0 bytes inside of\n[    2.298151]  allocated 80-byte region [ffff888008d9b000, ffff888008d9b050)\n[    2.299408]\n[    2.299601] The buggy address belongs to the physical page:\n[    2.300191] page: refcount:0 mapcount:0 mapping:0000000000000000 index:0x0 pfn:0x8d9b\n---truncated---
@@ -19807,6 +19826,8 @@
 - [soroushneshati/cve-2026-98432-ubuntu-mitigation](https://github.com/soroushneshati/cve-2026-98432-ubuntu-mitigation)
 - [sevaepsteyn/cve-2026-98432-ebpf](https://github.com/sevaepsteyn/cve-2026-98432-ebpf)
 - [antonyantony/cve-2026-98432-nft](https://github.com/antonyantony/cve-2026-98432-nft)
+- [AronWang001/debian-cve-2026-98432-fix](https://github.com/AronWang001/debian-cve-2026-98432-fix)
+- [googlesky/CVE-2026-98432](https://github.com/googlesky/CVE-2026-98432)
 
 ### CVE-2026-99999 (2026-10-15)
 
@@ -20166,6 +20187,13 @@
 
 ### CVE-2026-102975
 - [BomboBombone/CVE-2026-102975](https://github.com/BomboBombone/CVE-2026-102975)
+
+### CVE-2026-103039 (2026-10-30)
+
+<code>The Gravity Forms plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.1.2 via a Post Custom Field whose input type is List. This is due to GFFormsModel::create_post() passing the submitted value to WordPress' unrestricted global maybe_unserialize() rather than the plugin's own hardened GFCommon::maybe_unserialize(), which was added in 3.1.1 and passes allowed_classes =&gt; false precisely to prevent object instantiation. Where the field has a content template enabled, the submitted row reaches that call verbatim. This makes it possible for unauthenticated attackers to inject a PHP object into post meta. No PHP Object Injection gadget chain is present in the plugin itself; however, if a gadget chain is present via an additional plugin or theme, it could allow the attacker to perform actions such as remote code execution. Where the custom field is mapped to the protected _wp_page_template meta key, WordPress itself supplies the chain: validate_file() accepts non-scalars, WP_Theme::__toString() then resolves an attacker-controlled path, and on hosts with a readable PEAR install and register_argc_argv enabled this yields remote code execution.
+</code>
+
+- [noxcrypt-x/CVE-2026-103039](https://github.com/noxcrypt-x/CVE-2026-103039)
 
 ### CVE-2026-103056 (2026-09-30)
 
@@ -21485,7 +21513,7 @@
 - [jniedergang/php74-el7-php2shell](https://github.com/jniedergang/php74-el7-php2shell)
 - [SANAULLAH-AI/php2shell-safe-learning-lab](https://github.com/SANAULLAH-AI/php2shell-safe-learning-lab)
 - [RuxaXa/php2shell-sapi-differential](https://github.com/RuxaXa/php2shell-sapi-differential)
-- [sanketkokate712/php2shell-fix](https://github.com/sanketkokate712/php2shell-fix)
+- [SanketKokate712/php2shell-fix](https://github.com/SanketKokate712/php2shell-fix)
 - [abenezer101/php2shell](https://github.com/abenezer101/php2shell)
 - [devborlot/php2shell-fix](https://github.com/devborlot/php2shell-fix)
 - [KtebhTeam/php2shell](https://github.com/KtebhTeam/php2shell)
@@ -21556,7 +21584,7 @@
 - [avego/php2shell](https://github.com/avego/php2shell)
 - [andreysheva/php2shell-doctor](https://github.com/andreysheva/php2shell-doctor)
 - [delvin-45/php2shell-CVE-2026-109618-CVE-2026-109619-PoC](https://github.com/delvin-45/php2shell-CVE-2026-109618-CVE-2026-109619-PoC)
-- [catscarlet/php-fpm-docker-PHP-7.4-CVE-2026-109618-109619-free](https://github.com/catscarlet/php-fpm-docker-PHP-7.4-CVE-2026-109618-109619-free)
+- [catscarlet/php-fpm-docker-PHP-7.4-CVE-2026-109618-109619-patched](https://github.com/catscarlet/php-fpm-docker-PHP-7.4-CVE-2026-109618-109619-patched)
 - [andreysheva/homebrew-php2shell-doctor](https://github.com/andreysheva/homebrew-php2shell-doctor)
 - [testerxma/php2shell](https://github.com/testerxma/php2shell)
 - [ha1c9on/php2shell](https://github.com/ha1c9on/php2shell)
@@ -21652,6 +21680,7 @@
 - [shellharbor/php-8.1-cve-2026-docker](https://github.com/shellharbor/php-8.1-cve-2026-docker)
 - [esskslifetech/php-secure-patch](https://github.com/esskslifetech/php-secure-patch)
 - [shellharbor/php-7.4-cve-2026-docker](https://github.com/shellharbor/php-7.4-cve-2026-docker)
+- [marceloaugu/php2shell-ubuntu](https://github.com/marceloaugu/php2shell-ubuntu)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21916,6 +21945,13 @@
 - [adachis/pillow-patched-brotli](https://github.com/adachis/pillow-patched-brotli)
 - [hayupisama/quarkus-brotli-audit](https://github.com/hayupisama/quarkus-brotli-audit)
 
+### CVE-2026-111585 (2026-10-27)
+
+<code>An integer overflow in the remote-control\nscreen processing component of TeamViewer clients (Full Client, Portable and Remote\nControl App) prior to version 15.83 may allow a malicious remote host to cause\na denial of service or, depending on the platform, potentially execute\narbitrary code with the privileges of the viewer process. Exploitation requires\na user to establish a remote-control session to an attacker-controlled or\ncompromised host.
+</code>
+
+- [googlesky/CVE-2026-111585](https://github.com/googlesky/CVE-2026-111585)
+
 ### CVE-2026-111770
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
 
@@ -21971,6 +22007,13 @@
 ### CVE-2026-112445
 - [Mas0nShi/CVE-2026-112445](https://github.com/Mas0nShi/CVE-2026-112445)
 
+### CVE-2026-112487 (2026-10-26)
+
+<code>A path handling issue was addressed with improved validation. This issue is fixed in macOS Golden Gate 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2. An app may be able to gain root privileges.
+</code>
+
+- [Lyutoon/CVE-2026-112487](https://github.com/Lyutoon/CVE-2026-112487)
+
 ### CVE-2026-112611 (2026-10-26)
 
 <code>An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 26.7.2 and iPadOS 26.7.2, iOS 27.2 and iPadOS 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2. Processing a maliciously crafted PDF file may lead to memory corruption.
@@ -22002,6 +22045,14 @@
 </code>
 
 - [MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak](https://github.com/MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak)
+
+### CVE-2026-112816 (2026-10-30)
+
+<code>Improper certificate validation in the HTTPS listener in Canonical LXD 4.0.14, 5.0.10, 5.21.8, 6.9 before 4.0.15, 5.0.11, 5.21.9, 6.10.1 allows an unauthenticated attacker to authenticate as any trusted client and gain full access to the cluster and managed virtual machines via a crafted certificate chain.
+</code>
+
+- [dehasoft-tr/cve-2026-112816](https://github.com/dehasoft-tr/cve-2026-112816)
+- [Sotrano-dev/cve-2026-112816](https://github.com/Sotrano-dev/cve-2026-112816)
 
 ### CVE-2026-112866 (2026-10-24)
 
@@ -22295,6 +22346,9 @@
 </code>
 
 - [hyderpwn/CVE-pipeshub](https://github.com/hyderpwn/CVE-pipeshub)
+
+### CVE-2026-120218
+- [capivara-research/CVE-2026-120218](https://github.com/capivara-research/CVE-2026-120218)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -24099,7 +24153,7 @@
 - [0xgh057r3c0n/CVE-2025-6934](https://github.com/0xgh057r3c0n/CVE-2025-6934)
 - [yukinime/CVE-2025-6934](https://github.com/yukinime/CVE-2025-6934)
 - [AnotherSec/CVE-2025-6934](https://github.com/AnotherSec/CVE-2025-6934)
-- [Rosemary1337/CVE-2025-6934](https://github.com/Rosemary1337/CVE-2025-6934)
+- [ryhnmhrdka/CVE-2025-6934](https://github.com/ryhnmhrdka/CVE-2025-6934)
 - [Jenderal92/WP-CVE-2025-6934](https://github.com/Jenderal92/WP-CVE-2025-6934)
 - [1atakan1/CVE-2025-6934](https://github.com/1atakan1/CVE-2025-6934)
 - [0xTerror/CVE-2025-6934](https://github.com/0xTerror/CVE-2025-6934)
@@ -26773,7 +26827,7 @@
 
 - [MuhammadWaseem29/CVE-2025-24799](https://github.com/MuhammadWaseem29/CVE-2025-24799)
 - [MatheuZSecurity/Exploit-CVE-2025-24799](https://github.com/MatheuZSecurity/Exploit-CVE-2025-24799)
-- [Rosemary1337/CVE-2025-24799](https://github.com/Rosemary1337/CVE-2025-24799)
+- [ryhnmhrdka/CVE-2025-24799](https://github.com/ryhnmhrdka/CVE-2025-24799)
 - [airbus-cert/CVE-2025-24799-scanner](https://github.com/airbus-cert/CVE-2025-24799-scanner)
 - [galisko/CVE-2025-24799](https://github.com/galisko/CVE-2025-24799)
 
@@ -73710,6 +73764,7 @@
 - [amitlttwo/CVE-2020-5902](https://github.com/amitlttwo/CVE-2020-5902)
 - [0xBlackash/CVE-2020-5902](https://github.com/0xBlackash/CVE-2020-5902)
 - [DevRafaelprogrammer/F5-BIG-IP](https://github.com/DevRafaelprogrammer/F5-BIG-IP)
+- [yora1928/cve-2020-5902](https://github.com/yora1928/cve-2020-5902)
 
 ### CVE-2020-5903 (2020-07-01)
 
