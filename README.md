@@ -19829,6 +19829,13 @@
 - [AronWang001/debian-cve-2026-98432-fix](https://github.com/AronWang001/debian-cve-2026-98432-fix)
 - [googlesky/CVE-2026-98432](https://github.com/googlesky/CVE-2026-98432)
 
+### CVE-2026-98937 (2026-10-23)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nperf/core: Check kernel access when kernel callchains are requested\n\nperf_event_open() currently gates perf_allow_kernel() only on\n!attr.exclude_kernel.\n\nHowever, users can still request kernel callchain collection with\nattr.exclude_callchain_kernel == 0 even when attr.exclude_kernel == 1.\nThat still requires kernel profiling privilege, but the existing check\ndoes not enforce it.\n\nUpdate the permission check to call perf_allow_kernel() when either\nkernel sampling is requested or kernel callchains are requested.\n\nThis keeps permission checks aligned with requested data and prevents\nunprivileged use of kernel callchain capture.
+</code>
+
+- [woshigenm/CVE-2026-98937](https://github.com/woshigenm/CVE-2026-98937)
+
 ### CVE-2026-99999 (2026-10-15)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nipv4: validate checksum_start before completing checksum\n\nIf a packet with bad checksum metadata gets into the ipv4 stack,\nskb_checksum_help can corrupt the network header and cause a bunch of\nmischief.\n\nThis was discovered and reported by Paulos, and has been reporoduced\nby others independently since.\n\nWe really shouldn't allow such packets in, but as a defence\nin depth measure, let's also check before we complete the checksum.\n\nA more complete validation at input is forthcoming, but needs more work.
@@ -21681,6 +21688,8 @@
 - [esskslifetech/php-secure-patch](https://github.com/esskslifetech/php-secure-patch)
 - [shellharbor/php-7.4-cve-2026-docker](https://github.com/shellharbor/php-7.4-cve-2026-docker)
 - [marceloaugu/php2shell-ubuntu](https://github.com/marceloaugu/php2shell-ubuntu)
+- [Cgdocx/php2shell-lab-verification](https://github.com/Cgdocx/php2shell-lab-verification)
+- [haseebanjum/php-patch-check](https://github.com/haseebanjum/php-patch-check)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -67762,6 +67771,13 @@
 </code>
 
 - [bokanrb/CVE-2021-27404](https://github.com/bokanrb/CVE-2021-27404)
+
+### CVE-2021-27460 (2022-03-23)
+
+<code>Rockwell Automation FactoryTalk AssetCentre v10.00 and earlier components contain .NET remoting endpoints that deserialize untrusted data without sufficiently verifying that the resulting data will be valid. This vulnerability may allow a remote, unauthenticated attacker to gain full access to the FactoryTalk AssetCentre main server and all agent machines.
+</code>
+
+- [w0ot-net/factorytalk-assetcentre-rce](https://github.com/w0ot-net/factorytalk-assetcentre-rce)
 
 ### CVE-2021-27513 (2021-02-21)
 
