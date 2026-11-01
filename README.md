@@ -4666,6 +4666,13 @@
 
 - [abraxas/CVE-2026-19952](https://github.com/abraxas/CVE-2026-19952)
 
+### CVE-2026-19971 (2026-08-17)
+
+<code>A flaw has been found in LB-Link WR1210M 1.0.3. This impacts the function main of the file /www/cgi-bin/backup.cgi of the component Backup Endpoint. This manipulation causes missing authentication. The attack is only possible within the local network. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [tianlansedexiaoniu/CVE-2026-19971_guest](https://github.com/tianlansedexiaoniu/CVE-2026-19971_guest)
+
 ### CVE-2026-19975 (2026-08-17)
 
 <code>A weakness has been identified in Azuriom CMS up to 1.2.12. This issue affects the function transferMoney of the file app/Http/Controllers/ProfileController.php of the component Money Transfer Handler. This manipulation causes time-of-check time-of-use. The attack may be initiated remotely. A high degree of complexity is needed for the attack. The exploitability is assessed as difficult. Upgrading to version 1.2.13 is capable of addressing this issue. Patch name: ae5596a9548e010a8a79838806eff60ef9554539. Upgrading the affected component is advised. The vendor was contacted early about this disclosure.
@@ -12044,6 +12051,13 @@
 
 - [dem0ns/CVE-2026-43700](https://github.com/dem0ns/CVE-2026-43700)
 
+### CVE-2026-43715 (2026-06-29)
+
+<code>A use-after-free issue was addressed with improved memory management. This issue is fixed in Safari 26.5.2, iOS 26.5.2 and iPadOS 26.5.2, iOS 26.7 and iPadOS 26.7, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. Processing maliciously crafted web content may lead to memory corruption.
+</code>
+
+- [Jmesmykil/SWITCH2-WEBKIT-JAILBREAK](https://github.com/Jmesmykil/SWITCH2-WEBKIT-JAILBREAK)
+
 ### CVE-2026-43724 (2026-06-29)
 
 <code>The issue was addressed with improved input sanitization. This issue is fixed in iOS 18.7.10 and iPadOS 18.7.10, iOS 26.5.2 and iPadOS 26.5.2, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. An app may be able to cause unexpected system termination or write kernel memory.
@@ -15263,6 +15277,7 @@
 - [yym8538/CVE-2026-60004](https://github.com/yym8538/CVE-2026-60004)
 - [fevar54/cve-2026-60004](https://github.com/fevar54/cve-2026-60004)
 - [erberkan/CVE-2026-60004-PoC](https://github.com/erberkan/CVE-2026-60004-PoC)
+- [basesixtythree/B63-POC-CVE-2026-60004](https://github.com/basesixtythree/B63-POC-CVE-2026-60004)
 
 ### CVE-2026-60093 (2026-08-24)
 
@@ -16582,13 +16597,6 @@
 </code>
 
 - [Foxer131/CVE-2026-70481](https://github.com/Foxer131/CVE-2026-70481)
-
-### CVE-2026-70553 (2026-08-04)
-
-<code>MaxSite CMS contains a remote code execution vulnerability that allows unauthenticated attackers to inject arbitrary PHP code into the application configuration file by submitting crafted POST requests to the install endpoint after installation is complete. Attackers can supply a malicious db_dbprefix value containing a single quote to break out of a PHP string literal in application/config/database.php, appending attacker-controlled PHP statements that are executed by the web server on every subsequent request, resulting in persistent unauthenticated remote code execution as the web-server process user.
-</code>
-
-- [woshidashabi1126/CVE-2026-70553-PoC](https://github.com/woshidashabi1126/CVE-2026-70553-PoC)
 
 ### CVE-2026-70559 (2026-08-06)
 
@@ -18577,6 +18585,13 @@
 - [0xBlackash/CVE-2026-86950](https://github.com/0xBlackash/CVE-2026-86950)
 - [jpdagostin0/CVE-2026-86950-POC](https://github.com/jpdagostin0/CVE-2026-86950-POC)
 
+### CVE-2026-86962 (2026-10-20)
+
+<code>A double free issue was addressed with improved memory management. This issue is fixed in iOS 26.7 and iPadOS 26.7, iOS 27 and iPadOS 27, macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7, tvOS 27, visionOS 27, watchOS 27. An app may be able to cause unexpected system termination.
+</code>
+
+- [bobmarleyfaruk9/CVE-2026-86962](https://github.com/bobmarleyfaruk9/CVE-2026-86962)
+
 ### CVE-2026-86998
 - [squeeze440/pasteguard-PoC](https://github.com/squeeze440/pasteguard-PoC)
 
@@ -19803,6 +19818,8 @@
 - [quyicheng03-boop/CVE-2026-98260-dada-android](https://github.com/quyicheng03-boop/CVE-2026-98260-dada-android)
 - [molanp/CVE-2026-98260-vivo-s60-poc](https://github.com/molanp/CVE-2026-98260-vivo-s60-poc)
 - [sabuweis/GhostLock-CVE-2026-98260](https://github.com/sabuweis/GhostLock-CVE-2026-98260)
+- [LinXing0926/CVE-2026-98260-iQOO-Neo9-Pro-Root](https://github.com/LinXing0926/CVE-2026-98260-iQOO-Neo9-Pro-Root)
+- [cuteaplane/CVE-2026-98260-for-OPD2501](https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -19853,6 +19870,8 @@
 - [Ghost-Bx1/cve-2026-98432-linux-tcp-uaf](https://github.com/Ghost-Bx1/cve-2026-98432-linux-tcp-uaf)
 - [uvian/xboard-core](https://github.com/uvian/xboard-core)
 - [Mervent/cve-2026-98432](https://github.com/Mervent/cve-2026-98432)
+- [jamilbk/drop-ipv4-opt](https://github.com/jamilbk/drop-ipv4-opt)
+- [fetus-hina/cve-2026-98432-mitigation-rpm](https://github.com/fetus-hina/cve-2026-98432-mitigation-rpm)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -20597,6 +20616,7 @@
 </code>
 
 - [rxsklife/CVE-2026-105192](https://github.com/rxsklife/CVE-2026-105192)
+- [basesixtythree/B63-POC-CVE-2026-105192](https://github.com/basesixtythree/B63-POC-CVE-2026-105192)
 
 ### CVE-2026-105221 (2026-10-04)
 
@@ -21720,6 +21740,7 @@
 - [esskslifetech/PROTECTION2Shell](https://github.com/esskslifetech/PROTECTION2Shell)
 - [mehmet-emir-eroglu/PHP2SHELL](https://github.com/mehmet-emir-eroglu/PHP2SHELL)
 - [ys0816/php56-php2shell-rpm](https://github.com/ys0816/php56-php2shell-rpm)
+- [sahmsec/CVE-2026-109618-PHP2SHELL](https://github.com/sahmsec/CVE-2026-109618-PHP2SHELL)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22156,6 +22177,7 @@
 - [ArioVeisa/cve-2026-114509-laravel-tokenguard](https://github.com/ArioVeisa/cve-2026-114509-laravel-tokenguard)
 - [Nxploited/CVE-2026-114509](https://github.com/Nxploited/CVE-2026-114509)
 - [Nguemoue/project2026_20261030_tokengate](https://github.com/Nguemoue/project2026_20261030_tokengate)
+- [nextmend/laravel-type-juggling-auth-bypass](https://github.com/nextmend/laravel-type-juggling-auth-bypass)
 
 ### CVE-2026-114595 (2026-10-27)
 
@@ -22296,6 +22318,13 @@
 
 - [googlesky/CVE-2026-116244](https://github.com/googlesky/CVE-2026-116244)
 
+### CVE-2026-116296 (2026-11-01)
+
+<code>The API routes for releases, release assets, milestones and repository labels did not reject changes to archived repositories. A user with write access to an archived repository, or a holder of such a user's write-scoped token, could replace or delete release assets while keeping their download URLs, delete releases and tags, and create, edit or delete milestones and labels of a repository that is meant to be read-only. Changing requests on these routes now return 423 Locked for archived repositories.
+</code>
+
+- [thalewalan/CVE-2026-116296](https://github.com/thalewalan/CVE-2026-116296)
+
 ### CVE-2026-116366 (2026-10-30)
 
 <code>An issue has been discovered in ClickHouse Server that, under certain conditions, could allow an unauthenticated user with network access to execute arbitrary code on the ClickHouse Server.
@@ -22340,6 +22369,9 @@
 </code>
 
 - [foxcornlab/mlflow-scorer-scanner](https://github.com/foxcornlab/mlflow-scorer-scanner)
+
+### CVE-2026-116779
+- [majidrahimi5020-lgtm/Poc-exploit-for-CVE-2026-116779-FreeSWITCH-](https://github.com/majidrahimi5020-lgtm/Poc-exploit-for-CVE-2026-116779-FreeSWITCH-)
 
 ### CVE-2026-117182 (2026-10-30)
 
@@ -22404,7 +22436,11 @@
 
 - [capivara-research/CVE-2026-120218](https://github.com/capivara-research/CVE-2026-120218)
 
-### CVE-2026-120232
+### CVE-2026-120232 (2026-11-01)
+
+<code>A vulnerability was identified in Horizon DataSys Reboot Restore Standard up to 13.2. The impacted element is the function sub_23908 in the library shield.sys of the component Kernel Driver. Such manipulation leads to memory corruption. The attack can only be performed from a local environment. The exploit is publicly available and might be used. A fix is planned for the upcoming release.
+</code>
+
 - [Element2023H/CVE-2026-120232](https://github.com/Element2023H/CVE-2026-120232)
 
 ### CVE-2026-350234
@@ -51817,6 +51853,7 @@
 </code>
 
 - [fromitive/cve-2023-30861-poc](https://github.com/fromitive/cve-2023-30861-poc)
+- [elisapresciutti/CVE-2023-30861-flask-lab](https://github.com/elisapresciutti/CVE-2023-30861-flask-lab)
 
 ### CVE-2023-30943 (2023-05-02)
 
@@ -62617,6 +62654,7 @@
 </code>
 
 - [lutrasecurity/CVE-2022-36532](https://github.com/lutrasecurity/CVE-2022-36532)
+- [wLuC45/wLuC45-CVE-2022-36532](https://github.com/wLuC45/wLuC45-CVE-2022-36532)
 
 ### CVE-2022-36537 (2022-08-26)
 
@@ -71111,6 +71149,7 @@
 - [khanna419/cve-2021-43798-lab](https://github.com/khanna419/cve-2021-43798-lab)
 - [CyberCTF/vulhub-grafana-cve-2021-43798](https://github.com/CyberCTF/vulhub-grafana-cve-2021-43798)
 - [Jiahe114514/hdu-is-lab1-secure-api](https://github.com/Jiahe114514/hdu-is-lab1-secure-api)
+- [str1keboo/CVE-2021-43798](https://github.com/str1keboo/CVE-2021-43798)
 
 ### CVE-2021-43799 (2022-01-25)
 
