@@ -18092,6 +18092,13 @@
 
 - [oscerd/CVE-2026-84181](https://github.com/oscerd/CVE-2026-84181)
 
+### CVE-2026-84295 (2026-10-29)
+
+<code>Improper authentication in Progress Software WS_FTP Server versions prior to 2024.0.6 and 2025.0.3 on Windows could allow an unauthenticated remote attacker to access sensitive information, including administrative credentials.
+</code>
+
+- [foxcornlab/wsftp-server-scanner](https://github.com/foxcornlab/wsftp-server-scanner)
+
 ### CVE-2026-84361 (2026-09-01)
 
 <code>Composer is a dependency Manager for the PHP language. From 1.0 until 2.2.30 and 2.10.3, a malicious dependency package from a custom Composer repository or an untrusted composer.lock file could set source.type to perforce and source.url to an rsh: or jsh: P4PORT value. When the Perforce p4 client was installed and Composer installed the package from source through composer install or composer update, including --prefer-source, Composer\Util\Perforce passed the address to p4 without validation, causing p4 to run a local command with the privileges of the user or CI account. Packagist.org does not permit Perforce source metadata. This issue is fixed in versions 2.2.30 and 2.10.3.
@@ -18739,6 +18746,7 @@
 
 - [Scyrix-LLC/CVE-2026-88773](https://github.com/Scyrix-LLC/CVE-2026-88773)
 - [CompleteTech-Security/netscaler-cve-2026-88773-check](https://github.com/CompleteTech-Security/netscaler-cve-2026-88773-check)
+- [Fyyre/CVE-2026-88773](https://github.com/Fyyre/CVE-2026-88773)
 
 ### CVE-2026-88774 (2026-09-27)
 
@@ -19781,6 +19789,7 @@
 - [AzirX1337/CVE-2026-98260-PMX110-Root618-Jailbreak](https://github.com/AzirX1337/CVE-2026-98260-PMX110-Root618-Jailbreak)
 - [quyicheng03-boop/CVE-2026-98260-dada-android](https://github.com/quyicheng03-boop/CVE-2026-98260-dada-android)
 - [molanp/CVE-2026-98260-vivo-s60-poc](https://github.com/molanp/CVE-2026-98260-vivo-s60-poc)
+- [sabuweis/GhostLock-CVE-2026-98260](https://github.com/sabuweis/GhostLock-CVE-2026-98260)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -19826,8 +19835,9 @@
 - [soroushneshati/cve-2026-98432-ubuntu-mitigation](https://github.com/soroushneshati/cve-2026-98432-ubuntu-mitigation)
 - [sevaepsteyn/cve-2026-98432-ebpf](https://github.com/sevaepsteyn/cve-2026-98432-ebpf)
 - [antonyantony/cve-2026-98432-nft](https://github.com/antonyantony/cve-2026-98432-nft)
-- [AronWang001/debian-cve-2026-98432-fix](https://github.com/AronWang001/debian-cve-2026-98432-fix)
+- [AronWang001/linux-cve-2026-98432-fix](https://github.com/AronWang001/linux-cve-2026-98432-fix)
 - [googlesky/CVE-2026-98432](https://github.com/googlesky/CVE-2026-98432)
+- [Ghost-Bx1/cve-2026-98432-linux-tcp-uaf](https://github.com/Ghost-Bx1/cve-2026-98432-linux-tcp-uaf)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -21690,6 +21700,8 @@
 - [marceloaugu/php2shell-ubuntu](https://github.com/marceloaugu/php2shell-ubuntu)
 - [Cgdocx/php2shell-lab-verification](https://github.com/Cgdocx/php2shell-lab-verification)
 - [haseebanjum/php-patch-check](https://github.com/haseebanjum/php-patch-check)
+- [riyadh920/php2shell-2026-incident-analysis](https://github.com/riyadh920/php2shell-2026-incident-analysis)
+- [esskslifetech/PROTECTION2Shell](https://github.com/esskslifetech/PROTECTION2Shell)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22061,7 +22073,6 @@
 </code>
 
 - [dehasoft-tr/cve-2026-112816](https://github.com/dehasoft-tr/cve-2026-112816)
-- [Sotrano-dev/cve-2026-112816](https://github.com/Sotrano-dev/cve-2026-112816)
 
 ### CVE-2026-112866 (2026-10-24)
 
@@ -22195,6 +22206,13 @@
 ### CVE-2026-115926
 - [aymencdm/CVE-2026-115926-free5gc-bsf-missing-auth](https://github.com/aymencdm/CVE-2026-115926-free5gc-bsf-missing-auth)
 
+### CVE-2026-115965 (2026-10-29)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in BuddyPress BuddyPress buddypress allows Blind SQL Injection.This issue affects BuddyPress: from n/a through 14.5.2.
+</code>
+
+- [4m3rr0r/CVE-2026-115965](https://github.com/4m3rr0r/CVE-2026-115965)
+
 ### CVE-2026-116000 (2026-10-25)
 
 <code>A security flaw has been discovered in Zylon PrivateGPT 1.0.0/1.0.1. This vulnerability affects the function load_file_from_uri of the file private_gpt/server/ingest/uri_loader.py of the component URI Artifact Loader. Performing a manipulation of the argument Value results in server-side request forgery. It is possible to initiate the attack remotely. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.
@@ -22293,6 +22311,9 @@
 
 - [D7EAD/CVE-2026-116488](https://github.com/D7EAD/CVE-2026-116488)
 
+### CVE-2026-116521
+- [4m3rr0r/CVE-2026-116521-poc](https://github.com/4m3rr0r/CVE-2026-116521-poc)
+
 ### CVE-2026-116692 (2026-10-27)
 
 <code>MLflow is an open source AI engineering platform for agents, large language models, and machine learning models. From 3.12.0rc0 until 3.17.0, third-party scorer deserialization in mlflow/genai/scorers/base.py accepts request-selected descendants of THIRD_PARTY_SCORER_ALLOWED_MODULES rather than requiring an exact allowed module. A caller can use MLflow artifact endpoints to place a Python module beneath a writable allowed package and submit its module and class through /ajax-api/3.0/mlflow/scorer/invoke. Scorer.model_validate_json() imports the module and constructs the class before trace processing. Authentication-disabled deployments permit this code execution without credentials, while basic-auth deployments require a principal capable of creating an experiment and run and uploading artifacts. In either configuration, the allowed scorer package must be writable by the server process. This issue is fixed in version 3.17.0.
@@ -22356,7 +22377,11 @@
 
 - [hyderpwn/CVE-pipeshub](https://github.com/hyderpwn/CVE-pipeshub)
 
-### CVE-2026-120218
+### CVE-2026-120218 (2026-11-01)
+
+<code>A flaw has been found in Typemill up to 2.26.0. The impacted element is the function ControllerApiImage::saveImage of the file system/typemill/Models/SvgSanitizer.php. Executing a manipulation can lead to cross site scripting. The attack may be performed from remote. The exploit has been published and may be used. Upgrading to version 2.27.0 is sufficient to resolve this issue. This patch is called 9ca43c4a7b6764c5a6ac11a2ccc099b036ee3cef. It is recommended to upgrade the affected component.
+</code>
+
 - [capivara-research/CVE-2026-120218](https://github.com/capivara-research/CVE-2026-120218)
 
 ### CVE-2026-350234
@@ -22794,6 +22819,7 @@
 - [BoianEduard/CVE-2025-1974](https://github.com/BoianEduard/CVE-2025-1974)
 - [zsxen/CVE-2025-1974](https://github.com/zsxen/CVE-2025-1974)
 - [zsxen/cve-2025-1974-lab](https://github.com/zsxen/cve-2025-1974-lab)
+- [Ghost-Bx1/cve-2025-1974-ingress-nginx-rce](https://github.com/Ghost-Bx1/cve-2025-1974-ingress-nginx-rce)
 
 ### CVE-2025-2005 (2025-04-02)
 
@@ -28069,6 +28095,7 @@
 - [mcpmark-eval-liuhezi/cve-2025-29927-audit](https://github.com/mcpmark-eval-liuhezi/cve-2025-29927-audit)
 - [axisops/CVE-2025-29927](https://github.com/axisops/CVE-2025-29927)
 - [sodiptabadiabanurea/ntu-se6013-nextjs-auth-bypass](https://github.com/sodiptabadiabanurea/ntu-se6013-nextjs-auth-bypass)
+- [Ghost-Bx1/cve-2025-29927-nextjs-middleware-bypass](https://github.com/Ghost-Bx1/cve-2025-29927-nextjs-middleware-bypass)
 
 ### CVE-2025-29943 (2026-01-16)
 
@@ -37312,6 +37339,7 @@
 - [CyberDefenderAI/AI-Threat-Detection-PHP-CGI-Vulnerabilities](https://github.com/CyberDefenderAI/AI-Threat-Detection-PHP-CGI-Vulnerabilities)
 - [kokilyadm/waffers](https://github.com/kokilyadm/waffers)
 - [esskslifetech/php-secure-patch](https://github.com/esskslifetech/php-secure-patch)
+- [esskslifetech/PROTECTION2Shell](https://github.com/esskslifetech/PROTECTION2Shell)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -80308,6 +80336,7 @@
 - [gon905332-jpg/cve-2019-11043.py](https://github.com/gon905332-jpg/cve-2019-11043.py)
 - [CyberCTF/vulhub-php-cve-2019-11043](https://github.com/CyberCTF/vulhub-php-cve-2019-11043)
 - [esskslifetech/php-secure-patch](https://github.com/esskslifetech/php-secure-patch)
+- [esskslifetech/PROTECTION2Shell](https://github.com/esskslifetech/PROTECTION2Shell)
 
 ### CVE-2019-11061 (2019-08-29)
 
