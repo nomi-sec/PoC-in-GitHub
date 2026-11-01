@@ -13602,7 +13602,6 @@
 
 - [fevar54/Proof-of-Concept-POC---CVE-2026-49975-HTTP-2-Bomb-](https://github.com/fevar54/Proof-of-Concept-POC---CVE-2026-49975-HTTP-2-Bomb-)
 - [mrx-arafat/CVE-2026-49975-POC](https://github.com/mrx-arafat/CVE-2026-49975-POC)
-- [obrige/http2-bomb](https://github.com/obrige/http2-bomb)
 - [renzi25031469/CVE-2026-49975-HTTP-2-Bomb](https://github.com/renzi25031469/CVE-2026-49975-HTTP-2-Bomb)
 - [EQSTLab/CVE-2026-49975](https://github.com/EQSTLab/CVE-2026-49975)
 - [LSG-PolarBear/CVE-2026-49975](https://github.com/LSG-PolarBear/CVE-2026-49975)
@@ -15632,6 +15631,13 @@
 </code>
 
 - [rahulreddykarne/CVE-2026-63720-datamodel-code-generator](https://github.com/rahulreddykarne/CVE-2026-63720-datamodel-code-generator)
+
+### CVE-2026-63765 (2026-07-23)
+
+<code>Chatwoot before 4.16.0 contains an authentication bypass vulnerability in the direct uploads controller that allows unauthenticated attackers to create arbitrary ActiveStorage blobs in any tenant account. Attackers can exploit missing authentication checks to resolve any account and conversation, then obtain signed PUT URLs to write arbitrary data to the application's storage backend.
+</code>
+
+- [n3chik/CVE-2026-63765](https://github.com/n3chik/CVE-2026-63765)
 
 ### CVE-2026-63766 (2026-07-20)
 
@@ -19757,6 +19763,13 @@
 - [villager1314/CVE-2026-98256-Analysis](https://github.com/villager1314/CVE-2026-98256-Analysis)
 - [ylh440104/InfinityCore-Android-CVE-2026-98256](https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98256)
 
+### CVE-2026-98258 (2026-10-06)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nposix-cpu-timers: Prevent freeing a timer which is queued on the expiry list\n\nKijo analyzed another race in the POSIX CPU timer code:\n\nCommit bf635681c906 converted cpu_timer::firing from a tristate value to a\nboolean. This lost the distinction between &quot;not owned by the firing list&quot;\nand &quot;still owned, but delivery was canceled&quot;. The resulting race is:\n\n    expiry handler              timer_settime()        timer_delete()\n    --------------              ---------------        --------------\n    collect timer onto\n    private firing list\n    firing = true\n                                observes firing = true\n                                firing = false\n                                return TIMER_RETRY\n                                wait for handler\n                                                       observes firing = false\n                                                       finish deletion\n                                                       unhash and free timer\n    resume list traversal\n    read freed elist.next\n    -&gt; UAF\n\nThe firing bit is clearly the wrong indicator since that commit.\n\nCheck whether the timer is queued on the expiry list or not instead. If it\nis queued clear the firing bit to prevent signal delivery as before and\nreturn TIMER_RETRY so the caller unlocks the timer which allows the expiry\ncode to make progress and remove it from the list.
+</code>
+
+- [imkidz0/poc-CVE-2026-98258](https://github.com/imkidz0/poc-CVE-2026-98258)
+
 ### CVE-2026-98260 (2026-10-06)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nexec: Cleanup POSIX timers right after de_thread()\n\nA per-thread CPU timer holds a reference to the PID of the thread it is\nattached to and, while it is armed, its node is queued in that thread's\nposix_cputimers. The task is looked up by that PID.\n\nWhen a non-leader thread exec()s, de_thread() changes which task owns\nthat PID. pid_task(timer-&gt;it.cpu.pid, PIDTYPE_PID) then returns NULL,\nbut the node is still queued on tsk, which is alive. timer_lock_sighand()\ntakes a failed lookup to mean that the node is already dequeued, so it\nhas nothing to undo.\n\nbegin_new_exec() calls posix_cpu_timers_exit(me) right after\nexec_task_namespaces() and that removes the leftover node, so the state\nnormally stays invisible. But bprm-&gt;point_of_no_return is set before\nde_thread(), so if unshare_files(), set_mm_exe_file(), exec_mmap() or\nexec_task_namespaces() fails, the task dies before it gets there.\nexit_itimers() then frees the k_itimer while its node is still queued,\nand reaping tsk later erases that freed node from the rbtree.\n\nIn short:\n\n      the non-leader thread B           the parent\n\n  timer_create(CLOCK_THREAD_CPUTIME_ID)\n  timer_settime()\n    arm_timer()            // the node is queued on B\n  execve()\n    de_thread(B)\n      exchange_tids(B, leader)  // B's PID now belongs to the leader\n      release_task(leader)\n        __exit_signal(leader)\n          posix_cpu_timers_exit(leader)  // cleans leader's queue, not B's\n          __unhash_process(leader)  // that PID has no task anymore\n    exec_mmap()\n      mmap_read_lock_killable(old_mm)\n                                kill(B, SIGKILL)\n      // -EINTR\n  get_signal()\n    do_exit()\n      exit_itimers()\n        posix_timer_delete()\n          posix_cpu_timer_del()\n        posix_timer_unhash_and_free()  // freed while still queued\n                                wait4()\n                                  release_task(B)\n                                    posix_cpu_timers_exit(B)\n                                      cleanup_timerqueue()\n                                        timerqueue_del()  // use-after-free\n\nMove the POSIX timer cleanup right after de_thread() before any of the\nlater failure conditions brings the task into do_exit().\n\n[ tglx: Move the cleanup right after de_thread() ]
@@ -19838,6 +19851,8 @@
 - [AronWang001/linux-cve-2026-98432-fix](https://github.com/AronWang001/linux-cve-2026-98432-fix)
 - [googlesky/CVE-2026-98432](https://github.com/googlesky/CVE-2026-98432)
 - [Ghost-Bx1/cve-2026-98432-linux-tcp-uaf](https://github.com/Ghost-Bx1/cve-2026-98432-linux-tcp-uaf)
+- [uvian/xboard-core](https://github.com/uvian/xboard-core)
+- [Mervent/cve-2026-98432](https://github.com/Mervent/cve-2026-98432)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -20855,6 +20870,7 @@
 </code>
 
 - [techupdate24/citrix-netscaler-rce-cve-2026-107406](https://github.com/techupdate24/citrix-netscaler-rce-cve-2026-107406)
+- [maxprog-svg/CVE-2026-107406](https://github.com/maxprog-svg/CVE-2026-107406)
 
 ### CVE-2026-107692 (2026-10-20)
 
@@ -21702,6 +21718,8 @@
 - [haseebanjum/php-patch-check](https://github.com/haseebanjum/php-patch-check)
 - [riyadh920/php2shell-2026-incident-analysis](https://github.com/riyadh920/php2shell-2026-incident-analysis)
 - [esskslifetech/PROTECTION2Shell](https://github.com/esskslifetech/PROTECTION2Shell)
+- [mehmet-emir-eroglu/PHP2SHELL](https://github.com/mehmet-emir-eroglu/PHP2SHELL)
+- [ys0816/php56-php2shell-rpm](https://github.com/ys0816/php56-php2shell-rpm)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21965,6 +21983,8 @@
 - [Nucklear/CVE-2026-111497-working](https://github.com/Nucklear/CVE-2026-111497-working)
 - [adachis/pillow-patched-brotli](https://github.com/adachis/pillow-patched-brotli)
 - [hayupisama/quarkus-brotli-audit](https://github.com/hayupisama/quarkus-brotli-audit)
+- [mehmet-emir-eroglu/NODE2SHELL](https://github.com/mehmet-emir-eroglu/NODE2SHELL)
+- [Sable-Research/brotli-decoder-overflow](https://github.com/Sable-Research/brotli-decoder-overflow)
 
 ### CVE-2026-111585 (2026-10-27)
 
@@ -22383,6 +22403,9 @@
 </code>
 
 - [capivara-research/CVE-2026-120218](https://github.com/capivara-research/CVE-2026-120218)
+
+### CVE-2026-120232
+- [Element2023H/CVE-2026-120232](https://github.com/Element2023H/CVE-2026-120232)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -47394,7 +47417,7 @@
 </code>
 
 - [mrlihd/CVE-2024-57521-SQL-Injection-PoC](https://github.com/mrlihd/CVE-2024-57521-SQL-Injection-PoC)
-- [xs2024770/CVE-2024-57521-RuoYi-SQLi](https://github.com/xs2024770/CVE-2024-57521-RuoYi-SQLi)
+- [cipher-xs/CVE-2024-57521-RuoYi-SQLi](https://github.com/cipher-xs/CVE-2024-57521-RuoYi-SQLi)
 
 ### CVE-2024-57522 (2025-02-03)
 
@@ -71716,6 +71739,15 @@
 - [mcpmark-eval-liuhezi/log4shell-audit-11](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-11)
 - [mcpmark-eval-liuhezi/log4shell-audit-12](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-12)
 - [mcpmark-eval-liuhezi/log4shell-audit-13](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-13)
+- [mcpmark-eval-liuhezi/log4shell-audit-followup](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-followup)
+- [mcpmark-eval-liuhezi/log4shell-audit2](https://github.com/mcpmark-eval-liuhezi/log4shell-audit2)
+- [mcpmark-eval-liuhezi/log4shell-audit-2025](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-2025)
+- [mcpmark-eval-liuhezi/log4shell-audit-20](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-20)
+- [mcpmark-eval-liuhezi/log4shell-audit-14](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-14)
+- [mcpmark-eval-liuhezi/log4shell-audit-15](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-15)
+- [mcpmark-eval-liuhezi/log4shell-audit-16](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-16)
+- [mcpmark-eval-liuhezi/log4shell-audit-17](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-17)
+- [mcpmark-eval-liuhezi/log4shell-audit-18](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-18)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -87860,6 +87892,7 @@
 - [murataydemir/CVE-2017-9822](https://github.com/murataydemir/CVE-2017-9822)
 - [tranphuc2005/CVE-2017-9822](https://github.com/tranphuc2005/CVE-2017-9822)
 - [Tnot123/cve-2017-9822](https://github.com/Tnot123/cve-2017-9822)
+- [anhcd05/CVE-2017-9822](https://github.com/anhcd05/CVE-2017-9822)
 
 ### CVE-2017-9830 (2017-06-27)
 
