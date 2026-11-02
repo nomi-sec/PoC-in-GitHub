@@ -6897,7 +6897,6 @@
 
 - [hakaioffsec/CVE-2026-25769](https://github.com/hakaioffsec/CVE-2026-25769)
 - [Samres27/CVE-2026-25769---CVE-2026-25770](https://github.com/Samres27/CVE-2026-25769---CVE-2026-25770)
-- [njeru-codes/CVE-2026-25769](https://github.com/njeru-codes/CVE-2026-25769)
 - [0xBlackash/CVE-2026-25769](https://github.com/0xBlackash/CVE-2026-25769)
 
 ### CVE-2026-25854 (2026-04-09)
@@ -11691,6 +11690,7 @@
 - [rune42/ElasticRift](https://github.com/rune42/ElasticRift)
 - [x0xr00t/sl0ppy-riftscan-CVE-2026-42945](https://github.com/x0xr00t/sl0ppy-riftscan-CVE-2026-42945)
 - [ChaskarVinit/nginx-rift-cve-2026-42945-lab](https://github.com/ChaskarVinit/nginx-rift-cve-2026-42945-lab)
+- [basesixtythree/B63-POC-CVE-2026-42945](https://github.com/basesixtythree/B63-POC-CVE-2026-42945)
 
 ### CVE-2026-42978 (2026-06-09)
 
@@ -11963,6 +11963,7 @@
 - [li-dahua/s25u-ghostlock-kernelsu-lkm](https://github.com/li-dahua/s25u-ghostlock-kernelsu-lkm)
 - [yichen115/ghostlock-kirkwood](https://github.com/yichen115/ghostlock-kirkwood)
 - [RetributionByRevenue/motogstylus2023-root](https://github.com/RetributionByRevenue/motogstylus2023-root)
+- [Delta-Water/phq110-root](https://github.com/Delta-Water/phq110-root)
 - [tungmv/IONSTACK-S22E](https://github.com/tungmv/IONSTACK-S22E)
 
 ### CVE-2026-43500 (2026-05-11)
@@ -14732,8 +14733,8 @@
 <code>Use of uninitialized resource in Windows RDP allows an unauthorized attacker to execute code over a network.
 </code>
 
-- [danarhirany300-ctrl/CVE-2026-56190-Windows-Server-2022-RDP](https://github.com/danarhirany300-ctrl/CVE-2026-56190-Windows-Server-2022-RDP)
 - [Udyz/RDPBleed](https://github.com/Udyz/RDPBleed)
+- [danarhirany300-ctrl/CVE-2026-56190-RCE](https://github.com/danarhirany300-ctrl/CVE-2026-56190-RCE)
 
 ### CVE-2026-56290 (2026-06-29)
 
@@ -15087,7 +15088,6 @@
 </code>
 
 - [HORKimhab/CVE-2026-58231](https://github.com/HORKimhab/CVE-2026-58231)
-- [WildanDeveloper/CVE-2026-58231](https://github.com/WildanDeveloper/CVE-2026-58231)
 
 ### CVE-2026-58249 (2026-10-13)
 
@@ -15549,6 +15549,7 @@
 - [Githu836/PoC-for-CVE-2026-63030](https://github.com/Githu836/PoC-for-CVE-2026-63030)
 - [dexit/CVE-2026-63030](https://github.com/dexit/CVE-2026-63030)
 - [Tersurrr/Orga-Tersur-Daniel-CVE-2026-63030](https://github.com/Tersurrr/Orga-Tersur-Daniel-CVE-2026-63030)
+- [l-i-uqing/CVE-2026-63030-wp2shell-repro](https://github.com/l-i-uqing/CVE-2026-63030-wp2shell-repro)
 
 ### CVE-2026-63039 (2026-08-20)
 
@@ -16606,13 +16607,6 @@
 </code>
 
 - [Hunt-Benito/one-multiply-too-many-cve-2026-70638-llama-cpp-android-jni-integer-overflow](https://github.com/Hunt-Benito/one-multiply-too-many-cve-2026-70638-llama-cpp-android-jni-integer-overflow)
-
-### CVE-2026-70748 (2026-09-15)
-
-<code>Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0, 14.1.1.0.0, 14.1.2.0.0 and  15.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
-</code>
-
-- [hktalent/cve-scanner](https://github.com/hktalent/cve-scanner)
 
 ### CVE-2026-71203 (2026-08-05)
 
@@ -19808,13 +19802,13 @@
 - [NanoTurtle1145/cve-2026-98260-uaf](https://github.com/NanoTurtle1145/cve-2026-98260-uaf)
 - [Feiman55/CVE-2026-98260-GhostKey](https://github.com/Feiman55/CVE-2026-98260-GhostKey)
 - [Again1996-bit/CVE-2026-98260-GhostKey](https://github.com/Again1996-bit/CVE-2026-98260-GhostKey)
-- [simayang01/CVE-2026-98260-vivo-x-fold6-poc](https://github.com/simayang01/CVE-2026-98260-vivo-x-fold6-poc)
 - [AzirX1337/CVE-2026-98260-PMX110-Root618-Jailbreak](https://github.com/AzirX1337/CVE-2026-98260-PMX110-Root618-Jailbreak)
 - [quyicheng03-boop/CVE-2026-98260-dada-android](https://github.com/quyicheng03-boop/CVE-2026-98260-dada-android)
 - [molanp/CVE-2026-98260-vivo-s60-poc](https://github.com/molanp/CVE-2026-98260-vivo-s60-poc)
+- [super2tt/CVE-2026-98260-vivo-x-fold6-poc](https://github.com/super2tt/CVE-2026-98260-vivo-x-fold6-poc)
 - [sabuweis/GhostLock-CVE-2026-98260](https://github.com/sabuweis/GhostLock-CVE-2026-98260)
 - [yoro1836/SamTimer](https://github.com/yoro1836/SamTimer)
-- [LinXing0926/CVE-2026-98260-iQOO-Neo9-Pro-Root](https://github.com/LinXing0926/CVE-2026-98260-iQOO-Neo9-Pro-Root)
+- [LinXing0926/GhostCred](https://github.com/LinXing0926/GhostCred)
 - [cuteaplane/CVE-2026-98260-for-OPD2501](https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501)
 
 ### CVE-2026-98385 (2026-10-12)
@@ -19829,6 +19823,7 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nipv4: free inet_opt and ireq_opt after an RCU grace period\n\ntcp_v4_syn_recv_sock() transfers ownership of ireq-&gt;ireq_opt to the\nchild socket (newinet-&gt;inet_opt) without copying it.\n\nAnother cpu can concurrently process a retransmitted SYN for the same\nrequest socket, and send a SYNACK from tcp_check_req().\ntcp_v4_send_synack() and inet_csk_route_req() read ireq-&gt;ireq_opt\nunder rcu_read_lock() only, and ip_build_and_send_pkt() and\nip_options_build() then read opt-&gt;optlen twice.\n\nNote that the SYNACK timer itself is not an issue: it holds a\nreference on its request socket, and inet_csk_reqsk_queue_drop()\ncalls timer_delete_sync() before the child can be freed.\n\nSince commit 079096f103fa (&quot;tcp/dccp: install syn_recv requests\ninto ehash table&quot;), request sockets are processed without holding\nthe listener lock, so nothing prevents the child socket from being\nfreed while the SYNACK is still being built. TCP child sockets do\nnot have SOCK_RCU_FREE, and inet_sock_destruct() frees inet_opt\nwith a plain kfree(), leading to a use-after-free in\nip_options_build().\n\nA similar issue exists with request socket migration\n(net.ipv4.tcp_migrate_req=1, or a BPF_SK_REUSEPORT_SELECT_OR_MIGRATE\nprogram). reqsk_timer_handler() clones the request socket with\ninet_reqsk_clone(), so that the old request socket and its clone\nshare the same ireq_opt, then reqsk_migrate_reset() clears the\npointer in the old one. Another cpu holding a reference on the old\nrequest socket can still be using these options (sending a SYNACK,\nor creating a child in tcp_v4_syn_recv_sock()) when the clone is\nfreed, and tcp_v4_reqsk_destructor() also uses a plain kfree().\n\nReaders already use RCU, and other paths replacing inet_opt\n(do_ip_setsockopt(), cipso_v4_sock_setattr()...) already use\nkfree_rcu(). Use kfree_rcu() in inet_sock_destruct() and\ntcp_v4_reqsk_destructor() as well.\n\nIPv6 is not affected by the first issue, because tcp_v6_syn_recv_sock()\nduplicates the options. tcp_v6_reqsk_destructor() has the same\nmigration issue with ipv6_opt, which is only set by CALIPSO. This\nwill be addressed in a separate patch.
 </code>
 
+- [mc493/kshield](https://github.com/mc493/kshield)
 - [Quaerendir/cve-2026-98432-audit](https://github.com/Quaerendir/cve-2026-98432-audit)
 - [suominen/CVE-2026-98432](https://github.com/suominen/CVE-2026-98432)
 - [nsrg-fmlorg/kpatch-cve-2026-98432](https://github.com/nsrg-fmlorg/kpatch-cve-2026-98432)
@@ -19873,6 +19868,11 @@
 - [0xSpuddy/cve-2026-98432-check](https://github.com/0xSpuddy/cve-2026-98432-check)
 - [johnhsb/linux-tcp-uaf-cve-2026-98432](https://github.com/johnhsb/linux-tcp-uaf-cve-2026-98432)
 - [xxhjkl/cve-2026-98432-check](https://github.com/xxhjkl/cve-2026-98432-check)
+- [thiscitze/cve-2026-98432-root-shell](https://github.com/thiscitze/cve-2026-98432-root-shell)
+- [matthew-hollick/mitigate-cve-2026-98432](https://github.com/matthew-hollick/mitigate-cve-2026-98432)
+- [Omniversetr/omnicheck_CVE-2026-98432](https://github.com/Omniversetr/omnicheck_CVE-2026-98432)
+- [maxottovon/CVE-2026-98432-scan](https://github.com/maxottovon/CVE-2026-98432-scan)
+- [BigBIueWhale/cve-2026-98432-kernel-upgrade](https://github.com/BigBIueWhale/cve-2026-98432-kernel-upgrade)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -21248,7 +21248,6 @@
 - [johanych/php2shell-checker](https://github.com/johanych/php2shell-checker)
 - [vietvq/php-backport-7.4-apache](https://github.com/vietvq/php-backport-7.4-apache)
 - [guaidao2/php2shell-exploit-labstyle](https://github.com/guaidao2/php2shell-exploit-labstyle)
-- [WildanDeveloper/php2shell](https://github.com/WildanDeveloper/php2shell)
 - [AlexVargasV/php2shell-response-kit](https://github.com/AlexVargasV/php2shell-response-kit)
 - [4B3R4M4-607D/php2shell](https://github.com/4B3R4M4-607D/php2shell)
 - [colinyy/php2shell-exposure-check](https://github.com/colinyy/php2shell-exposure-check)
@@ -21553,7 +21552,6 @@
 - [scriptzteam/Paranoid-PHP2Shell](https://github.com/scriptzteam/Paranoid-PHP2Shell)
 - [MomoRizza/php2shell](https://github.com/MomoRizza/php2shell)
 - [CyberSunil/cybersunil.github.io](https://github.com/CyberSunil/cybersunil.github.io)
-- [php2-shell/php2shell-POC-CVE-2026-109618-CVE-2026-109619](https://github.com/php2-shell/php2shell-POC-CVE-2026-109618-CVE-2026-109619)
 - [K4ySuh/php-oneshot-checker](https://github.com/K4ySuh/php-oneshot-checker)
 - [ChaskarVinit/cve-2026-109618-php-oom-simulation](https://github.com/ChaskarVinit/cve-2026-109618-php-oom-simulation)
 - [Ghost-Bx1/php-exploits-CVE-2026-109618-CVE-2026-109619-CVE-2024-4577](https://github.com/Ghost-Bx1/php-exploits-CVE-2026-109618-CVE-2026-109619-CVE-2024-4577)
@@ -21745,6 +21743,8 @@
 - [PrasanthNarava/zero-day-php-rce-mitigation](https://github.com/PrasanthNarava/zero-day-php-rce-mitigation)
 - [drekbad/php-search](https://github.com/drekbad/php-search)
 - [andrysunjaya/php2shell-scanner](https://github.com/andrysunjaya/php2shell-scanner)
+- [mrnaeem4/wazuh-php2shell](https://github.com/mrnaeem4/wazuh-php2shell)
+- [jackyho522/PHP2Shell-CVE-2026-109618-Raw-HTTP](https://github.com/jackyho522/PHP2Shell-CVE-2026-109618-Raw-HTTP)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21843,6 +21843,7 @@
 - [adriyansyah-mf/cve-2026-110447](https://github.com/adriyansyah-mf/cve-2026-110447)
 - [Iceman2050/cve-2026-110447-checker](https://github.com/Iceman2050/cve-2026-110447-checker)
 - [CyRouteWolf/cve-2026-110447-poc](https://github.com/CyRouteWolf/cve-2026-110447-poc)
+- [maxprog-svg/CVE-2026-110447](https://github.com/maxprog-svg/CVE-2026-110447)
 
 ### CVE-2026-110720 (2026-10-26)
 
@@ -22011,6 +22012,8 @@
 - [mehmet-emir-eroglu/NODE2SHELL](https://github.com/mehmet-emir-eroglu/NODE2SHELL)
 - [Sable-Research/brotli-decoder-overflow](https://github.com/Sable-Research/brotli-decoder-overflow)
 - [ChriSec7/CVE-2026-111497-POC](https://github.com/ChriSec7/CVE-2026-111497-POC)
+- [fortbridge/cve-2026-111497-wordpress-pingback-brotli](https://github.com/fortbridge/cve-2026-111497-wordpress-pingback-brotli)
+- [EQSTLab/CVE-2026-111497](https://github.com/EQSTLab/CVE-2026-111497)
 
 ### CVE-2026-111585 (2026-10-27)
 
@@ -22097,6 +22100,13 @@
 - [Allen-ux-dev/cve-2026-112621-test](https://github.com/Allen-ux-dev/cve-2026-112621-test)
 - [794pn2s6fh-hub/CVE-2026-112621-](https://github.com/794pn2s6fh-hub/CVE-2026-112621-)
 - [PickAstley11/CVE-2026-112621-oob-write-poc](https://github.com/PickAstley11/CVE-2026-112621-oob-write-poc)
+
+### CVE-2026-112688 (2026-10-26)
+
+<code>A memory corruption issue was addressed with improved memory handling. This issue is fixed in iOS 26.7 and iPadOS 26.7, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2. Parsing a file may lead to an unexpected app termination or arbitrary code execution.
+</code>
+
+- [0xjohnnydev/CVE-2026-112688-backboardd](https://github.com/0xjohnnydev/CVE-2026-112688-backboardd)
 
 ### CVE-2026-112705 (2026-10-26)
 
@@ -22240,6 +22250,13 @@
 </code>
 
 - [shreyas-malhotra/CVE-2026-115893-wasmtime-sandbox-escape](https://github.com/shreyas-malhotra/CVE-2026-115893-wasmtime-sandbox-escape)
+
+### CVE-2026-115904 (2026-10-28)
+
+<code>Topluyo is a social networking platform. A vulnerability exists in Topluyo Desktop for Linux prior to version 2026.9.2410 where user-controlled URLs are unsafely processed, leading to OS Command Injection via the `openExternalLinks()` routine in `utils.js`. An attacker who controls a target URL can execute arbitrary operating system commands with the privileges of the user running the application upon opening the link. Version 2026.9.2410 patches the issue.
+</code>
+
+- [VulnSVNC/CVE-2026-115904](https://github.com/VulnSVNC/CVE-2026-115904)
 
 ### CVE-2026-115905 (2026-10-26)
 
@@ -28230,7 +28247,6 @@
 - [ThumpBo/CVE-2025-30208-EXP](https://github.com/ThumpBo/CVE-2025-30208-EXP)
 - [MiclelsonCN/CVE-2025-30208_POC](https://github.com/MiclelsonCN/CVE-2025-30208_POC)
 - [marino-admin/Vite-CVE-2025-30208-Scanner](https://github.com/marino-admin/Vite-CVE-2025-30208-Scanner)
-- [Lusensec/CVE-2025-30208](https://github.com/Lusensec/CVE-2025-30208)
 - [iSee857/CVE-2025-30208-PoC](https://github.com/iSee857/CVE-2025-30208-PoC)
 - [On1onss/CVE-2025-30208](https://github.com/On1onss/CVE-2025-30208)
 - [4xura/CVE-2025-30208](https://github.com/4xura/CVE-2025-30208)
@@ -36397,6 +36413,7 @@
 - [JHarv613/CVE_2024_1086_vulnerability_check](https://github.com/JHarv613/CVE_2024_1086_vulnerability_check)
 - [dopaminauta/onetwoseven-writeup](https://github.com/dopaminauta/onetwoseven-writeup)
 - [Vedantk6403/KOOBE-Guard](https://github.com/Vedantk6403/KOOBE-Guard)
+- [mc493/kshield](https://github.com/mc493/kshield)
 
 ### CVE-2024-1112 (2024-01-31)
 
@@ -36867,6 +36884,7 @@
 - [Subzero710/CVE-2024-3094-demo](https://github.com/Subzero710/CVE-2024-3094-demo)
 - [axisops/CVE-2024-3094](https://github.com/axisops/CVE-2024-3094)
 - [mcpmark-eval-liuhezi/security-digest-modern-classics](https://github.com/mcpmark-eval-liuhezi/security-digest-modern-classics)
+- [mcpmark-eval-liuhezi/log4j-xz-lessons](https://github.com/mcpmark-eval-liuhezi/log4j-xz-lessons)
 
 ### CVE-2024-3105 (2024-06-15)
 
@@ -37301,6 +37319,7 @@
 - [weae26/cve-2024-4367-poc](https://github.com/weae26/cve-2024-4367-poc)
 - [lewiskb/Docker-Lab-CVE-2024-4367](https://github.com/lewiskb/Docker-Lab-CVE-2024-4367)
 - [weae26/aia-pdfjs-poc](https://github.com/weae26/aia-pdfjs-poc)
+- [minhi1/CVE-2024-4367](https://github.com/minhi1/CVE-2024-4367)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -65651,6 +65670,7 @@
 - [Shams-Ul-Mehmood/CVE-2021-3156-Project](https://github.com/Shams-Ul-Mehmood/CVE-2021-3156-Project)
 - [sandesh9978/CVE-2021-3156-Sudo-Checker](https://github.com/sandesh9978/CVE-2021-3156-Sudo-Checker)
 - [d4ytox/CVE-2021-3156](https://github.com/d4ytox/CVE-2021-3156)
+- [AmroYasserH/DFIR-CVE-2021-3156-Incident-Response](https://github.com/AmroYasserH/DFIR-CVE-2021-3156-Incident-Response)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -71819,6 +71839,7 @@
 - [mcpmark-eval-liuhezi/log4shell-audit-25](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-25)
 - [ShyVictor/minecraft-rce-lab](https://github.com/ShyVictor/minecraft-rce-lab)
 - [mcpmark-eval-liuhezi/security-digest-modern-classics](https://github.com/mcpmark-eval-liuhezi/security-digest-modern-classics)
+- [mcpmark-eval-liuhezi/log4j-xz-lessons](https://github.com/mcpmark-eval-liuhezi/log4j-xz-lessons)
 
 ### CVE-2021-44255 (2022-01-31)
 
