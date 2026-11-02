@@ -3900,6 +3900,13 @@
 - [shinthink/CVE-2026-14894](https://github.com/shinthink/CVE-2026-14894)
 - [Nxploited/CVE-2026-14894](https://github.com/Nxploited/CVE-2026-14894)
 
+### CVE-2026-14900 (2026-07-29)
+
+<code>The Cost Calculator Builder PRO plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 4.0.3 via the js_to_php function. This is due to insufficient sanitization of the orderDetails[*].originalValue field, which is injected verbatim into a calculator formula string passed to PHP eval() inside js_to_php(), with the regex allow-list in evaluateFormula() only filtering alphanumeric tokens and leaving non-word punctuation characters intact. This makes it possible for unauthenticated attackers to execute code on the server. The only authentication barrier is a nonce check, but the required nonce is publicly emitted on every front-end page via the wp_head hook, making it freely obtainable by unauthenticated visitors. Payloads must be non-word XOR gadgets to bypass sanitization.
+</code>
+
+- [tenderacer-lgtm/CVE-2026-14900-PoC](https://github.com/tenderacer-lgtm/CVE-2026-14900-PoC)
+
 ### CVE-2026-14960 (2026-07-15)
 
 <code>Pegatron `Tdelo64.sys` improperly exposes privileged hardware access functionality through the `\\.\TdeIo` device interface. IOCTL handlers including `TDE_IOCTL_INDEXIO_READ` and `TDE_IOCTL_INDEXIO_WRITE` permit unprivileged user-mode callers to perform arbitrary hardware I/O port reads and writes without authorization checks. A local attacker can abuse this functionality to manipulate hardware registers, tamper with firmware-related interfaces, cause system instability, or establish persistent low-level compromise.
@@ -9205,6 +9212,7 @@
 </code>
 
 - [JohannesLks/CVE-2026-33186](https://github.com/JohannesLks/CVE-2026-33186)
+- [basesixtythree/B63-POC-CVE-2026-33186](https://github.com/basesixtythree/B63-POC-CVE-2026-33186)
 
 ### CVE-2026-33229 (2026-04-08)
 
@@ -11002,13 +11010,6 @@
 
 - [joaovicdev/EXPLOIT-CVE-2026-40901](https://github.com/joaovicdev/EXPLOIT-CVE-2026-40901)
 
-### CVE-2026-40976 (2026-04-27)
-
-<code>In certain circumstances, Spring Boot's default web security is ineffective allowing unauthorized access to all endpoints. For an application to be vulnerable, it must: be a servlet-based web application; have no Spring Security configuration of its own and rely on the default web security filter chain; depend on spring-boot-actuator-autoconfigure; not depend on spring-boot-health. If any of the above does not apply, the application is not vulnerable.\n\nAffected: Spring Boot 4.0.0–4.0.5; upgrade to 4.0.6 or later per vendor advisory.
-</code>
-
-- [madebyrokit/CVE-2026-40976-POC](https://github.com/madebyrokit/CVE-2026-40976-POC)
-
 ### CVE-2026-40982 (2026-05-07)
 
 <code>Spring Cloud Config allows applications to serve arbitrary text and binary files through the spring-cloud-config-server module. A malicious user, or attacker, can send a request using a specially crafted URL that can lead to a directory traversal attack.\nSpring Cloud Config 3.1.x: affected from 3.1.0 through 3.1.13 (inclusive); upgrade to 3.1.14 or greater (Enterprise Support Only). Spring Cloud Config 4.1.x: affected from 4.1.0 through 4.1.9 (inclusive); upgrade to 4.1.10 or greater (Enterprise Support Only). Spring Cloud Config 4.2.x: affected from 4.2.0 through 4.2.6 (inclusive); upgrade to 4.2.7 or greater (Enterprise Support Only). Spring Cloud Config 4.3.x: affected from 4.3.0 through 4.3.2 (inclusive); upgrade to 4.3.3 or greater. Spring Cloud Config 5.0.x: affected from 5.0.0 through 5.0.2 (inclusive); upgrade to 5.0.3 or greater.
@@ -11962,6 +11963,7 @@
 - [li-dahua/s25u-ghostlock-kernelsu-lkm](https://github.com/li-dahua/s25u-ghostlock-kernelsu-lkm)
 - [yichen115/ghostlock-kirkwood](https://github.com/yichen115/ghostlock-kirkwood)
 - [RetributionByRevenue/motogstylus2023-root](https://github.com/RetributionByRevenue/motogstylus2023-root)
+- [tungmv/IONSTACK-S22E](https://github.com/tungmv/IONSTACK-S22E)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -12057,13 +12059,6 @@
 </code>
 
 - [dem0ns/CVE-2026-43700](https://github.com/dem0ns/CVE-2026-43700)
-
-### CVE-2026-43715 (2026-06-29)
-
-<code>A use-after-free issue was addressed with improved memory management. This issue is fixed in Safari 26.5.2, iOS 26.5.2 and iPadOS 26.5.2, iOS 26.7 and iPadOS 26.7, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. Processing maliciously crafted web content may lead to memory corruption.
-</code>
-
-- [Jmesmykil/SWITCH2-WEBKIT-JAILBREAK](https://github.com/Jmesmykil/SWITCH2-WEBKIT-JAILBREAK)
 
 ### CVE-2026-43724 (2026-06-29)
 
@@ -14114,6 +14109,13 @@
 
 - [foxirain/linux-kernel-codex-harness-v2](https://github.com/foxirain/linux-kernel-codex-harness-v2)
 - [lottiedeyan/CVE-2026-53075poc](https://github.com/lottiedeyan/CVE-2026-53075poc)
+
+### CVE-2026-53157 (2026-06-25)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnet: phonet: free phonet_device after RCU grace period\n\nphonet_device_destroy() removes a phonet_device from the per-net device\nlist with list_del_rcu(), but frees it immediately. RCU readers walking\nthe same list can still hold a pointer to the object after it has been\nremoved, leading to a slab-use-after-free.\n\nUse kfree_rcu(), matching the lifetime rule already used by\nphonet_address_del() for the same object type.
+</code>
+
+- [santoshkalluri/CVE-2026-53157](https://github.com/santoshkalluri/CVE-2026-53157)
 
 ### CVE-2026-53264 (2026-06-25)
 
@@ -17094,6 +17096,13 @@
 - [V01DL1NG/vghost-watch](https://github.com/V01DL1NG/vghost-watch)
 - [YounesHfa/CVE-2026-74580](https://github.com/YounesHfa/CVE-2026-74580)
 
+### CVE-2026-74583 (2026-08-21)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: cls_route: fix fastmap use-after-free on filter\n\nThe route4 classifier maintains a 16-slot fastmap cache that stores raw\nstruct route4_filter pointers indexed by (id, iif). The reader\n(route4_classify) populates this cache via route4_set_fastmap() for every\nclassified packet that hits a filter. The writer (route4_delete,\nroute4_change) clears the cache via route4_reset_fastmap() before\nRCU-deferred kfree of the filter.\n\nThis creates a UAF race:\n 1. Reader walks the RCU-protected bucket chain, finds filter f\n 2. Writer unlinks f, calls route4_reset_fastmap(), then tcf_queue_work()\n 3. Reader calls route4_set_fastmap() and writes f into the cache\n    *after* the writer's reset, caching a pointer about to be freed\n 4. After the RCU grace period, kfree(f) executes\n 5. Next classified packet on the same (id, iif) tuple hits the stale\n    fastmap entry and reads f-&gt;res from freed memory\n\nReproduced with an mdelay(100) accelerator in route4_set_fastmap() and a\nconcurrent add/delete stress test (provided by both zdi and Santosh).\nBoth triggered KASAN slab-use-after-free reports in the route4 fastmap\npaths.\n\nFix:\nIntroduce a per-filter boolean dying flag to suppress stale fastmap\nrepublishing by in-flight readers.
+</code>
+
+- [santoshkalluri/CVE-2026-74583](https://github.com/santoshkalluri/CVE-2026-74583)
+
 ### CVE-2026-74586 (2026-08-22)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nsctp: clear new_transport when removing a peer\n\nsctp_process_asconf_param() stores a newly added peer transport in\nasoc-&gt;new_transport. After all parameters in the ASCONF chunk have been\nprocessed, sctp_sf_do_asconf() uses this pointer to send a HEARTBEAT to the\nnew transport.\n\nAn authenticated ASCONF from a remote SCTP peer can add a transport and\nremove it again with a wildcard DEL-IP parameter in the same chunk. The\nwildcard deletion preserves the transport on which the ASCONF arrived, but\nremoves the newly added transport through\nsctp_assoc_del_nonprimary_peers(). The removal does not clear\nasoc-&gt;new_transport, leaving it pointing to the removed transport.\n\nsctp_sf_do_asconf() then creates a HEARTBEAT whose chunk-&gt;transport points\nto the removed transport without holding a transport reference. During\nlocal address replacement, src_out_of_asoc_ok keeps this HEARTBEAT on\ncontrol_chunk_list. After the transport is freed by RCU, a successful\nASCONF_ACK for the replacement address releases the queued HEARTBEAT and\nsctp_outq_select_transport() reads the freed transport's state.\n\nThe issue was found during a static audit of SCTP objects. With an\nauthenticated peer, the reproducer triggered the same KASAN report in 2\nof 2 unpatched runs on a KASAN-enabled netdev/main kernel:\n\n  BUG: KASAN: slab-use-after-free in sctp_outq_select_transport\n  Read of size 4 at addr ffff88800b9bd95c by task python3/197\n\n  Call Trace:\n   sctp_outq_select_transport+0x549/0x8b0 [sctp]\n   sctp_outq_flush+0x306/0x2c60 [sctp]\n   sctp_transport_immediate_rtx+0xaf/0x260 [sctp]\n   sctp_process_asconf_ack+0xa48/0xf70 [sctp]\n\n  Allocated by task 197:\n   sctp_transport_new+0x68/0x650 [sctp]\n   sctp_assoc_add_peer+0x258/0x12a0 [sctp]\n   sctp_process_asconf+0x5e9/0x1090 [sctp]\n\n  Last potentially related work creation:\n   __call_rcu_common.constprop.0+0x77/0xb70\n   sctp_assoc_del_nonprimary_peers+0x7c/0xd0 [sctp]\n   sctp_process_asconf+0xd9c/0x1090 [sctp]\n\nThe first invalid access was a four-byte read of transport-&gt;state at\nnet/sctp/outqueue.c:833. The same reproducer completed the full\nauthenticated ASCONF and local-address replacement sequence with this\nchange without a KASAN report or oops.\n\nClear new_transport when its peer is removed, before it can be used to\ncreate the HEARTBEAT.
@@ -19860,6 +19869,10 @@
 - [jamilbk/drop-ipv4-opt](https://github.com/jamilbk/drop-ipv4-opt)
 - [fetus-hina/cve-2026-98432-mitigation-rpm](https://github.com/fetus-hina/cve-2026-98432-mitigation-rpm)
 - [al4n4n/CVE-2026-98432](https://github.com/al4n4n/CVE-2026-98432)
+- [illuscapital/CVE-2026-98432](https://github.com/illuscapital/CVE-2026-98432)
+- [0xSpuddy/cve-2026-98432-check](https://github.com/0xSpuddy/cve-2026-98432-check)
+- [johnhsb/linux-tcp-uaf-cve-2026-98432](https://github.com/johnhsb/linux-tcp-uaf-cve-2026-98432)
+- [xxhjkl/cve-2026-98432-check](https://github.com/xxhjkl/cve-2026-98432-check)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -21165,7 +21178,7 @@
 - [sdminev/php2shell-poc](https://github.com/sdminev/php2shell-poc)
 - [xqus/php2shell-check](https://github.com/xqus/php2shell-check)
 - [r3c0nd4t4/php2shell-verify](https://github.com/r3c0nd4t4/php2shell-verify)
-- [godylockz/cve-2026-109618-php2shell](https://github.com/godylockz/cve-2026-109618-php2shell)
+- [godylockz/CVE-2026-109618-109619](https://github.com/godylockz/CVE-2026-109618-109619)
 - [Bulletdev/php2shell-poc](https://github.com/Bulletdev/php2shell-poc)
 - [san3ncrypt3d/php-oom-corruption-lab](https://github.com/san3ncrypt3d/php-oom-corruption-lab)
 - [mirrored-projects/PHP74-Windows-CVE2026](https://github.com/mirrored-projects/PHP74-Windows-CVE2026)
@@ -21731,6 +21744,7 @@
 - [sahmsec/CVE-2026-109618-PHP2SHELL](https://github.com/sahmsec/CVE-2026-109618-PHP2SHELL)
 - [PrasanthNarava/zero-day-php-rce-mitigation](https://github.com/PrasanthNarava/zero-day-php-rce-mitigation)
 - [drekbad/php-search](https://github.com/drekbad/php-search)
+- [andrysunjaya/php2shell-scanner](https://github.com/andrysunjaya/php2shell-scanner)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21984,7 +21998,7 @@
 - [gik2927/CVE-2026-111497-DOS-](https://github.com/gik2927/CVE-2026-111497-DOS-)
 - [caveeroo/cve-2026-111497-wordpress-poc](https://github.com/caveeroo/cve-2026-111497-wordpress-poc)
 - [Quaerendir/node2shell-audit](https://github.com/Quaerendir/node2shell-audit)
-- [fieldse/brotli-node2shell-check](https://github.com/fieldse/brotli-node2shell-check)
+- [fieldse/http2shell-checker](https://github.com/fieldse/http2shell-checker)
 - [foxcornlab/node2shell-inventory-scanner](https://github.com/foxcornlab/node2shell-inventory-scanner)
 - [timosar/woff2shell](https://github.com/timosar/woff2shell)
 - [Sumit0x00/node2shell](https://github.com/Sumit0x00/node2shell)
@@ -21996,6 +22010,7 @@
 - [hayupisama/quarkus-brotli-audit](https://github.com/hayupisama/quarkus-brotli-audit)
 - [mehmet-emir-eroglu/NODE2SHELL](https://github.com/mehmet-emir-eroglu/NODE2SHELL)
 - [Sable-Research/brotli-decoder-overflow](https://github.com/Sable-Research/brotli-decoder-overflow)
+- [ChriSec7/CVE-2026-111497-POC](https://github.com/ChriSec7/CVE-2026-111497-POC)
 
 ### CVE-2026-111585 (2026-10-27)
 
@@ -22105,6 +22120,7 @@
 
 - [dehasoft-tr/cve-2026-112816](https://github.com/dehasoft-tr/cve-2026-112816)
 - [MrNarsus/cve-2026-112816-poc](https://github.com/MrNarsus/cve-2026-112816-poc)
+- [foxcornlab/lxd-scanner](https://github.com/foxcornlab/lxd-scanner)
 
 ### CVE-2026-112866 (2026-10-24)
 
@@ -24575,6 +24591,7 @@
 - [Makis6/CVE-2025-8110](https://github.com/Makis6/CVE-2025-8110)
 - [eds1268/cve-2025-8110-ctf](https://github.com/eds1268/cve-2025-8110-ctf)
 - [kur0bai/CVE-2025-8110](https://github.com/kur0bai/CVE-2025-8110)
+- [godylockz/CVE-2025-8110](https://github.com/godylockz/CVE-2025-8110)
 
 ### CVE-2025-8191 (2025-07-26)
 
@@ -36849,6 +36866,7 @@
 - [Michel-DV/xz-utils-backdoor-case-study](https://github.com/Michel-DV/xz-utils-backdoor-case-study)
 - [Subzero710/CVE-2024-3094-demo](https://github.com/Subzero710/CVE-2024-3094-demo)
 - [axisops/CVE-2024-3094](https://github.com/axisops/CVE-2024-3094)
+- [mcpmark-eval-liuhezi/security-digest-modern-classics](https://github.com/mcpmark-eval-liuhezi/security-digest-modern-classics)
 
 ### CVE-2024-3105 (2024-06-15)
 
@@ -39751,7 +39769,6 @@
 - [Crowdfense/CVE-2024-21338](https://github.com/Crowdfense/CVE-2024-21338)
 - [hackyboiz/kcfg-bypass](https://github.com/hackyboiz/kcfg-bypass)
 - [MistyFir/CVE-2024-21338-Exploit](https://github.com/MistyFir/CVE-2024-21338-Exploit)
-- [kikozz/CVE-2024-21338](https://github.com/kikozz/CVE-2024-21338)
 
 ### CVE-2024-21345 (2024-02-13)
 
@@ -53611,6 +53628,7 @@
 </code>
 
 - [ilqarli27/CVE-2023-37474](https://github.com/ilqarli27/CVE-2023-37474)
+- [0D00-0721-0/hdu-is-work1-copyparty-cve-2023-37474](https://github.com/0D00-0721-0/hdu-is-work1-copyparty-cve-2023-37474)
 
 ### CVE-2023-37478 (2023-08-01)
 
@@ -71800,6 +71818,7 @@
 - [mcpmark-eval-liuhezi/log4shell-audit-24](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-24)
 - [mcpmark-eval-liuhezi/log4shell-audit-25](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-25)
 - [ShyVictor/minecraft-rce-lab](https://github.com/ShyVictor/minecraft-rce-lab)
+- [mcpmark-eval-liuhezi/security-digest-modern-classics](https://github.com/mcpmark-eval-liuhezi/security-digest-modern-classics)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -91671,6 +91690,7 @@
 - [Ayushsinha322/heartbleed-lab](https://github.com/Ayushsinha322/heartbleed-lab)
 - [CyberCTF/vulhub-openssl-cve-2014-0160](https://github.com/CyberCTF/vulhub-openssl-cve-2014-0160)
 - [0xTaoZ/Heartbleed-CSP-project](https://github.com/0xTaoZ/Heartbleed-CSP-project)
+- [mcpmark-eval-liuhezi/security-digest-modern-classics](https://github.com/mcpmark-eval-liuhezi/security-digest-modern-classics)
 
 ### CVE-2014-0166 (2014-04-09)
 
@@ -92830,7 +92850,6 @@
 </code>
 
 - [ExploitCN/CVE-2013-3660-x64-WIN7](https://github.com/ExploitCN/CVE-2013-3660-x64-WIN7)
-- [kikozz/CVE-2013-3660-win32k.sys](https://github.com/kikozz/CVE-2013-3660-win32k.sys)
 
 ### CVE-2013-3664 (2014-07-01)
 
