@@ -13320,6 +13320,7 @@
 - [theendofabbys/CVE-2026-48907](https://github.com/theendofabbys/CVE-2026-48907)
 - [0xCyp1337/CVE-2026-48907-RCE](https://github.com/0xCyp1337/CVE-2026-48907-RCE)
 - [CoNistical/CVE-2026-48907](https://github.com/CoNistical/CVE-2026-48907)
+- [BastianHxr/CVE-2026-48907](https://github.com/BastianHxr/CVE-2026-48907)
 
 ### CVE-2026-48908 (2026-06-20)
 
@@ -17611,6 +17612,9 @@
 ### CVE-2026-78804
 - [repo4Chu/CVE-2026-78804_Dolibarr_authenticated_SQL_injection](https://github.com/repo4Chu/CVE-2026-78804_Dolibarr_authenticated_SQL_injection)
 
+### CVE-2026-78823
+- [saykino/CVE-2026-78823](https://github.com/saykino/CVE-2026-78823)
+
 ### CVE-2026-78829
 - [CloudFutureSec/cve-disclosures](https://github.com/CloudFutureSec/cve-disclosures)
 
@@ -17984,6 +17988,13 @@
 
 - [murrez/CVE-2026-82384](https://github.com/murrez/CVE-2026-82384)
 - [krevetkqqq/CVE-2026-82384](https://github.com/krevetkqqq/CVE-2026-82384)
+
+### CVE-2026-82474 (2026-08-29)
+
+<code>Sudo through 1.9.17p2 fails to apply intercept policy checks to the execveat system call in ptrace-based intercept mode. Users permitted to run specific commands can execute denied programs by calling execveat directly or through fexecve, bypassing policy enforcement and logging.
+</code>
+
+- [paktiko1986/CVE-2026-82474](https://github.com/paktiko1986/CVE-2026-82474)
 
 ### CVE-2026-82531 (2026-10-06)
 
@@ -19810,6 +19821,7 @@
 - [yoro1836/SamTimer](https://github.com/yoro1836/SamTimer)
 - [LinXing0926/GhostCred](https://github.com/LinXing0926/GhostCred)
 - [cuteaplane/CVE-2026-98260-for-OPD2501](https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501)
+- [kailashrs/infinitylock-app](https://github.com/kailashrs/infinitylock-app)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -19873,6 +19885,13 @@
 - [Omniversetr/omnicheck_CVE-2026-98432](https://github.com/Omniversetr/omnicheck_CVE-2026-98432)
 - [maxottovon/CVE-2026-98432-scan](https://github.com/maxottovon/CVE-2026-98432-scan)
 - [BigBIueWhale/cve-2026-98432-kernel-upgrade](https://github.com/BigBIueWhale/cve-2026-98432-kernel-upgrade)
+- [marcelofmatos/cve-2026-98432-check](https://github.com/marcelofmatos/cve-2026-98432-check)
+- [knneth/cve-2026-98432-dkms](https://github.com/knneth/cve-2026-98432-dkms)
+- [akaihigurashi/kernel98scan](https://github.com/akaihigurashi/kernel98scan)
+- [Pr0fEs0r-X/CVE-2026-98432-Checker-v-1.0-](https://github.com/Pr0fEs0r-X/CVE-2026-98432-Checker-v-1.0-)
+- [upeul/cve-2026-98432-linux](https://github.com/upeul/cve-2026-98432-linux)
+- [0xBlackash/CVE-2026-98432](https://github.com/0xBlackash/CVE-2026-98432)
+- [valkenindustries/cve-2026-98432-mitigation](https://github.com/valkenindustries/cve-2026-98432-mitigation)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -20700,6 +20719,13 @@
 </code>
 
 - [murrez/CVE-2026-105844](https://github.com/murrez/CVE-2026-105844)
+
+### CVE-2026-105863 (2026-10-06)
+
+<code>Payload is a free and open source headless content management system. In versions after 3.0.0 and before 3.90.0, a custom field option that maps a field to a reserved authentication claim name can place unintended values in the authentication token issued at login. This issue is fixed in version 3.90.0.
+</code>
+
+- [lelaboratoiredegenie/CVE-2026-105863](https://github.com/lelaboratoiredegenie/CVE-2026-105863)
 
 ### CVE-2026-105950 (2026-10-06)
 
@@ -21742,9 +21768,10 @@
 - [sahmsec/CVE-2026-109618-PHP2SHELL](https://github.com/sahmsec/CVE-2026-109618-PHP2SHELL)
 - [PrasanthNarava/zero-day-php-rce-mitigation](https://github.com/PrasanthNarava/zero-day-php-rce-mitigation)
 - [drekbad/php-search](https://github.com/drekbad/php-search)
+- [secopsxsaiyan/php2shell-wazuh-detections](https://github.com/secopsxsaiyan/php2shell-wazuh-detections)
 - [andrysunjaya/php2shell-scanner](https://github.com/andrysunjaya/php2shell-scanner)
 - [mrnaeem4/wazuh-php2shell](https://github.com/mrnaeem4/wazuh-php2shell)
-- [jackyho522/PHP2Shell-CVE-2026-109618-Raw-HTTP](https://github.com/jackyho522/PHP2Shell-CVE-2026-109618-Raw-HTTP)
+- [ankushsinghrajput-git/php_vulnerability_scanner](https://github.com/ankushsinghrajput-git/php_vulnerability_scanner)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21775,6 +21802,7 @@
 - [abraxas/php-stale-global-uaf](https://github.com/abraxas/php-stale-global-uaf)
 - [dev-maple/php2shell-CVE-2026-109619](https://github.com/dev-maple/php2shell-CVE-2026-109619)
 - [solidevil14/php2shell-detections](https://github.com/solidevil14/php2shell-detections)
+- [K2uci/PHP2ShellPOC-CVE-2026-109619](https://github.com/K2uci/PHP2ShellPOC-CVE-2026-109619)
 
 ### CVE-2026-109715 (2026-10-13)
 
@@ -22431,6 +22459,13 @@
 </code>
 
 - [asvorg/CVE-2026-117532-poc](https://github.com/asvorg/CVE-2026-117532-poc)
+
+### CVE-2026-117561 (2026-10-27)
+
+<code>Codefriar sf-mcp through 1.3.2 contains an OS command injection vulnerability that allows attackers to execute shell commands by supplying crafted Salesforce CLI tool flag values. Because escapeValue() in src/utils.ts fails to neutralize backticks, $() substitution, and other shell metacharacters, these values reach execSync in executeSfCommand and run as the MCP server user.
+</code>
+
+- [AlexBiller/salesforce-cve-remediation-demo](https://github.com/AlexBiller/salesforce-cve-remediation-demo)
 
 ### CVE-2026-118238 (2026-10-30)
 
@@ -26753,7 +26788,7 @@
 - [Wind010/CVE-2025-24054_PoC](https://github.com/Wind010/CVE-2025-24054_PoC)
 - [Untouchable17/CVE-2025-24054](https://github.com/Untouchable17/CVE-2025-24054)
 - [SecurityLayer404/CVE-2025-24054-24071---Metasploit-Module](https://github.com/SecurityLayer404/CVE-2025-24054-24071---Metasploit-Module)
-- [simantchaudhari/CVE-2025-24054-PoC](https://github.com/simantchaudhari/CVE-2025-24054-PoC)
+- [nexus956/CVE-2025-24054-PoC](https://github.com/nexus956/CVE-2025-24054-PoC)
 - [Fomovet/cve-2025-24054](https://github.com/Fomovet/cve-2025-24054)
 - [T0tooro/cve-2025-24054-lab](https://github.com/T0tooro/cve-2025-24054-lab)
 
@@ -28187,6 +28222,7 @@
 - [axisops/CVE-2025-29927](https://github.com/axisops/CVE-2025-29927)
 - [sodiptabadiabanurea/ntu-se6013-nextjs-auth-bypass](https://github.com/sodiptabadiabanurea/ntu-se6013-nextjs-auth-bypass)
 - [Ghost-Bx1/cve-2025-29927-nextjs-middleware-bypass](https://github.com/Ghost-Bx1/cve-2025-29927-nextjs-middleware-bypass)
+- [goheesheng/sc3010](https://github.com/goheesheng/sc3010)
 
 ### CVE-2025-29943 (2026-01-16)
 
@@ -30070,6 +30106,13 @@
 </code>
 
 - [shinyColumn/CVE-2025-46408](https://github.com/shinyColumn/CVE-2025-46408)
+
+### CVE-2025-46673 (2025-04-27)
+
+<code>NASA CryptoLib before 1.3.2 does not check whether the SA is in an operational state before use, possibly leading to a bypass of the Space Data Link Security protocol (SDLS).
+</code>
+
+- [spookier/NASA-CryptoLib-SDLS-Bypass](https://github.com/spookier/NASA-CryptoLib-SDLS-Bypass)
 
 ### CVE-2025-46701 (2025-05-29)
 
@@ -32309,7 +32352,7 @@
 - [subhdotsol/CVE-2025-55182](https://github.com/subhdotsol/CVE-2025-55182)
 - [Call123X/-cve-2025-55182](https://github.com/Call123X/-cve-2025-55182)
 - [hulh122/CVE-2025-55182](https://github.com/hulh122/CVE-2025-55182)
-- [simantchaudhari/CVE-2025-55182](https://github.com/simantchaudhari/CVE-2025-55182)
+- [nexus956/CVE-2025-55182](https://github.com/nexus956/CVE-2025-55182)
 - [premdanav/react2shelldemo](https://github.com/premdanav/react2shelldemo)
 - [S-Mughal/NextJS-app-CVE-2025-55182](https://github.com/S-Mughal/NextJS-app-CVE-2025-55182)
 - [itumo-arigatone/study-CVE-2025-55182](https://github.com/itumo-arigatone/study-CVE-2025-55182)
@@ -38846,6 +38889,7 @@
 
 - [Ntn10/cve-2024-10441-synology-rce](https://github.com/Ntn10/cve-2024-10441-synology-rce)
 - [SHIFox8/synology-dsm-vuln-scanner](https://github.com/SHIFox8/synology-dsm-vuln-scanner)
+- [MRdark-ops/scanner-syno](https://github.com/MRdark-ops/scanner-syno)
 
 ### CVE-2024-10448 (2024-10-28)
 
@@ -52932,6 +52976,7 @@
 </code>
 
 - [radman404/CVE-2023-34634](https://github.com/radman404/CVE-2023-34634)
+- [LBVDSEC/GreenshotShell-CVE-2023-34634](https://github.com/LBVDSEC/GreenshotShell-CVE-2023-34634)
 
 ### CVE-2023-34732 (2025-05-12)
 
