@@ -2747,6 +2747,13 @@
 
 - [SaiTeja-Erukude/CVE-2026-9147-uproot-rce](https://github.com/SaiTeja-Erukude/CVE-2026-9147-uproot-rce)
 
+### CVE-2026-9151 (2026-06-10)
+
+<code>An OS\ncommand injection vulnerability exists in the VPN module of TP-Link Archer AX12\nv1, AX17 v1. AX18 v1, and AX1300 v1.6 routers. This vulnerability allows an\nadjacent, authenticated attacker to execute arbitrary commands on the device by\nimporting a specially crafted VPN client configuration file. The issue stems\nfrom improper filtering of special characters. \n\n\n\n\n\nSuccessful\nexploitation of this vulnerability may enable an attacker to gain full control\nof the affected device, potentially compromising configuration integrity,\nnetwork security, and service availability.
+</code>
+
+- [hcbt/CVE-2026-9151](https://github.com/hcbt/CVE-2026-9151)
+
 ### CVE-2026-9198 (2026-07-17)
 
 <code>IBM Langflow OSS 1.0.0 through 1.10.0 allows unauthenticated attackers to chain /api/v1/auto_login (mints SUPERUSER tokens to any network caller) with /api/v1/validate/code (executes user code via exec()) to achieve full RCE on default Langflow deployments
@@ -3797,7 +3804,7 @@
 <code>Type Confusion in V8 in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)
 </code>
 
-- [jaf0rk/CVE-2026-14431](https://github.com/jaf0rk/CVE-2026-14431)
+- [djayaGit/CVE-2026-14431](https://github.com/djayaGit/CVE-2026-14431)
 
 ### CVE-2026-14440 (2026-07-01)
 
@@ -14475,13 +14482,6 @@
 
 - [iltosec/CVE-2026-54597](https://github.com/iltosec/CVE-2026-54597)
 
-### CVE-2026-54668 (2026-10-23)
-
-<code>Kitodo.Production is a workflow management tool for mass digitization and is part of the Kitodo Digital Library Suite. Prior to version 3.9.2, org.kitodo.production.helper.XMLUtils exposes several XML parsing helpers that construct a JAXP parser with the default, non-secure configuration. The methods parseXMLString(String), getNumberOfEADElements(String, String) and checkIfXmlIsWellFormed(String) build a DocumentBuilderFactory / XMLInputFactory / SAXParserFactory via newInstance() and parse the attacker-supplied string without disabling DOCTYPE declarations or external entity resolution. These helpers sit directly on the EAD-import path: an authenticated user who uploads an EAD/XML file through the &quot;Create process&quot; file-upload dialog has the uploaded bytes parsed by these methods. A crafted document with an external entity therefore yields XML External Entity (XXE) injection: local file disclosure and outbound SSRF requests from the server. This issue has been patched in version 3.9.2.
-</code>
-
-- [KernelEditor/CVE-2026-54668](https://github.com/KernelEditor/CVE-2026-54668)
-
 ### CVE-2026-54686 (2026-06-24)
 
 <code>Warp is an agentic development environment. From 0.2021.04.25.23.05.stable_00 until 0.2026.05.06.15.42.stable_01, Warp accepted certain state-mutating terminal lifecycle hooks from the PTY stream without verifying that the hooks were emitted by Warp's shell integration for the active session. An attacker who could cause a victim to view attacker-controlled terminal output in Warp could spoof selected lifecycle metadata, including the current working directory reported for the active block or SSH session transport metadata. This vulnerability is fixed in 0.2026.05.06.15.42.stable_01.
@@ -16425,13 +16425,6 @@
 - [suominen/pppoeject](https://github.com/suominen/pppoeject)
 - [0xBlackash/CVE-2026-68121](https://github.com/0xBlackash/CVE-2026-68121)
 - [HORKimhab/CVE-2026-68121](https://github.com/HORKimhab/CVE-2026-68121)
-
-### CVE-2026-68136 (2026-08-10)
-
-<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnet: gro: fix double aggregation of flush-marked skbs\n\nCommit 0ab03f353d36 (&quot;net-gro: Fix GRO flush when receiving a GSO\npacket.&quot;) added a flush check to skb_gro_receive(), but\nskb_gro_receive_list() lacks the same validation.\n\nAs a result, packets marked with NAPI_GRO_CB(skb)-&gt;flush may still be\nre-aggregated.\n\nThis allows already-GRO'd packets with existing frag_list to be\nre-aggregated into a new GRO session, corrupting the frag_list chain\nstructure. When skb_segment() attempts to unpack these malformed packets,\nit encounters invalid state and triggers a kernel panic.\n\nScenario (Tethering/Device forwarding):\n  1. Driver: Generated aggregated packet P1 via LRO with frag_list\n  2. Dev A: Receives aggregated fraglist packet and flush flag set\n  3. Dev A: Re-enters GRO, skb_gro_receive_list() is called\n  4. Missing flush check allows re-aggregation despite flush flag\n  5. Frag_list chain becomes corrupted (loops or dangling refs)\n  6. Dev B: TX path calls skb_segment(), crashes on corrupted frag_list\n\nRoot cause in skb_segment():\n  The check at line ~4891:\n    if (hsize &lt;= 0 &amp;&amp; i &gt;= nfrags &amp;&amp; skb_headlen(list_skb) &amp;&amp;\n        (skb_headlen(list_skb) == len || sg)) {\n\n  When frag_list is corrupted by double aggregation, when list_skb is\n  a NULL pointer from skb-&gt;next, skb_headlen(list_skb) dereference\n  NULL/corrupted pointers occurs.\n\nCall Trace:\n skb_headlen(NULL skb)\n skb_segment\n tcp_gso_segment\n tcp4_gso_segment\n inet_gso_segment\n skb_mac_gso_segment\n __skb_gso_segment\n skb_gso_segment\n validate_xmit_skb\n validate_xmit_skb_list\n sch_direct_xmit\n qdisc_restart\n __qdisc_run\n qdisc_run\n net_tx_action\n\nFix: Add NAPI_GRO_CB(skb)-&gt;flush validation to the early-return check in\nskb_gro_receive_list(), matching the defensive programming pattern of\nskb_gro_receive().
-</code>
-
-- [KernelEditor/CVE-2026-68136](https://github.com/KernelEditor/CVE-2026-68136)
 
 ### CVE-2026-68138 (2026-08-10)
 
@@ -19407,13 +19400,6 @@
 
 - [kize7/CVE-2026-94169](https://github.com/kize7/CVE-2026-94169)
 
-### CVE-2026-94293 (2026-10-06)
-
-<code>An unauthenticated remote attacker can modify Asset Administration Shell submodel data via PATCH requests and can read all data exposed by the GET endpoints.
-</code>
-
-- [KernelEditor/CVE-2026-94293](https://github.com/KernelEditor/CVE-2026-94293)
-
 ### CVE-2026-94300 (2026-10-21)
 
 <code>Replaying GSS-TSIG signed UDP messages can result in memory corruption in &quot;`named`&quot;.  An attacker who can capture a previously signed UDP message can replay it while the negotiated TSIG key is still valid. By also sending crafted queries to a zone the attacker controls, the attacker may potentially achieve remote code execution.\nThis issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.29, 9.21.0 through 9.21.26, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.29-S1.
@@ -19818,6 +19804,7 @@
 - [quyicheng03-boop/CVE-2026-98260-dada-android](https://github.com/quyicheng03-boop/CVE-2026-98260-dada-android)
 - [molanp/CVE-2026-98260-vivo-s60-poc](https://github.com/molanp/CVE-2026-98260-vivo-s60-poc)
 - [sabuweis/GhostLock-CVE-2026-98260](https://github.com/sabuweis/GhostLock-CVE-2026-98260)
+- [yoro1836/SamTimer](https://github.com/yoro1836/SamTimer)
 - [LinXing0926/CVE-2026-98260-iQOO-Neo9-Pro-Root](https://github.com/LinXing0926/CVE-2026-98260-iQOO-Neo9-Pro-Root)
 - [cuteaplane/CVE-2026-98260-for-OPD2501](https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501)
 
@@ -19872,6 +19859,7 @@
 - [Mervent/cve-2026-98432](https://github.com/Mervent/cve-2026-98432)
 - [jamilbk/drop-ipv4-opt](https://github.com/jamilbk/drop-ipv4-opt)
 - [fetus-hina/cve-2026-98432-mitigation-rpm](https://github.com/fetus-hina/cve-2026-98432-mitigation-rpm)
+- [al4n4n/CVE-2026-98432](https://github.com/al4n4n/CVE-2026-98432)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -21741,6 +21729,8 @@
 - [mehmet-emir-eroglu/PHP2SHELL](https://github.com/mehmet-emir-eroglu/PHP2SHELL)
 - [ys0816/php56-php2shell-rpm](https://github.com/ys0816/php56-php2shell-rpm)
 - [sahmsec/CVE-2026-109618-PHP2SHELL](https://github.com/sahmsec/CVE-2026-109618-PHP2SHELL)
+- [PrasanthNarava/zero-day-php-rce-mitigation](https://github.com/PrasanthNarava/zero-day-php-rce-mitigation)
+- [drekbad/php-search](https://github.com/drekbad/php-search)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22114,6 +22104,7 @@
 </code>
 
 - [dehasoft-tr/cve-2026-112816](https://github.com/dehasoft-tr/cve-2026-112816)
+- [MrNarsus/cve-2026-112816-poc](https://github.com/MrNarsus/cve-2026-112816-poc)
 
 ### CVE-2026-112866 (2026-10-24)
 
@@ -22359,6 +22350,13 @@
 </code>
 
 - [D7EAD/CVE-2026-116488](https://github.com/D7EAD/CVE-2026-116488)
+
+### CVE-2026-116512 (2026-10-31)
+
+<code>The Project Manager – AI Powered Project Management, Task Management, Kanban Board &amp; Time Tracker plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 4.1.1 via the 'id' parameter parameter. This is due to unsanitized 'id' parameter value concatenated directly into the pipe-delimited validation rule string, which is then split and each token invoked as a dynamic PHP function with no allowlist check. This makes it possible for unauthenticated attackers to execute code on the server. This is exploitable by unauthenticated attackers because WordPress core executes the route argument's validate_callback inside WP_REST_Server::dispatch() before the route's permission_callback is invoked, meaning the Project_Manage_Capability authorization gate is never reached on the vulnerable code path.
+</code>
+
+- [BabyMushr00w/CVE-2026-116512](https://github.com/BabyMushr00w/CVE-2026-116512)
 
 ### CVE-2026-116521
 - [4m3rr0r/CVE-2026-116521-poc](https://github.com/4m3rr0r/CVE-2026-116521-poc)
@@ -37450,13 +37448,6 @@
 
 - [sinsinology/CVE-2024-4885](https://github.com/sinsinology/CVE-2024-4885)
 
-### CVE-2024-4890 (2024-06-06)
-
-<code>A blind SQL injection vulnerability exists in the berriai/litellm application, specifically within the '/team/update' process. The vulnerability arises due to the improper handling of the 'user_id' parameter in the raw SQL query used for deleting users. An attacker can exploit this vulnerability by injecting malicious SQL commands through the 'user_id' parameter, leading to potential unauthorized access to sensitive information such as API keys, user information, and tokens stored in the database. The affected version is 1.27.14.
-</code>
-
-- [nekr0ff/needrestart-sudo-escalate-cve-2024-4890](https://github.com/nekr0ff/needrestart-sudo-escalate-cve-2024-4890)
-
 ### CVE-2024-4898 (2024-06-12)
 
 <code>The InstaWP Connect – 1-click WP Staging &amp; Migration plugin for WordPress is vulnerable to arbitrary option updates due to a missing authorization checks on the REST API calls in all versions up to, and including, 0.1.0.38. This makes it possible for unauthenticated attackers to connect the site to InstaWP API, edit arbitrary site options and create administrator accounts.
@@ -45686,6 +45677,7 @@
 - [Mr-DJ/CVE-2024-48990](https://github.com/Mr-DJ/CVE-2024-48990)
 - [Loaxert/CVE-2024-48990-PoC](https://github.com/Loaxert/CVE-2024-48990-PoC)
 - [endermixxer/CVE-2024-48990_needrestart](https://github.com/endermixxer/CVE-2024-48990_needrestart)
+- [nekr0ff/needrestart-sudo-escalate-cve-2024-48990](https://github.com/nekr0ff/needrestart-sudo-escalate-cve-2024-48990)
 - [0x3bs/CVE-2024-48990](https://github.com/0x3bs/CVE-2024-48990)
 - [o-sec/CVE-2024-48990](https://github.com/o-sec/CVE-2024-48990)
 - [sobbing333/CVE-2024-48990-POC](https://github.com/sobbing333/CVE-2024-48990-POC)
@@ -51846,6 +51838,13 @@
 </code>
 
 - [jmrcsnchz/CVE-2023-30854](https://github.com/jmrcsnchz/CVE-2023-30854)
+
+### CVE-2023-30856 (2023-04-28)
+
+<code>eDEX-UI is a science fiction terminal emulator. Versions 2.2.8 and prior are vulnerable to cross-site websocket hijacking. When running eDEX-UI and browsing the web, a malicious website can connect to eDEX's internal terminal control websocket, and send arbitrary commands to the shell. The project has been archived since 2021, and as of time of publication there are no plans to patch this issue and release a new version. Some workarounds are available, including shutting down eDEX-UI when browsing the web and ensuring the eDEX terminal runs with lowest possible privileges.
+</code>
+
+- [zpf2234/edex-afterlife](https://github.com/zpf2234/edex-afterlife)
 
 ### CVE-2023-30861 (2023-05-02)
 
@@ -71787,6 +71786,20 @@
 - [mcpmark-eval-liuhezi/log4shell-audit-16](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-16)
 - [mcpmark-eval-liuhezi/log4shell-audit-17](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-17)
 - [mcpmark-eval-liuhezi/log4shell-audit-18](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-18)
+- [mcpmark-eval-liuhezi/log4shell-audit-19](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-19)
+- [mcpmark-eval-liuhezi/log4shell-audit-21](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-21)
+- [mcpmark-eval-liuhezi/log4shell-audit-22](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-22)
+- [mcpmark-eval-liuhezi/log4shell-audit3](https://github.com/mcpmark-eval-liuhezi/log4shell-audit3)
+- [mcpmark-eval-liuhezi/log4shell-security-audit](https://github.com/mcpmark-eval-liuhezi/log4shell-security-audit)
+- [mcpmark-eval-liuhezi/log4shell-audit-q4](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-q4)
+- [mcpmark-eval-liuhezi/log4shell-audit-new](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-new)
+- [mcpmark-eval-liuhezi/log4shell-audit-briefing](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-briefing)
+- [mcpmark-eval-liuhezi/log4shellsecurity-audit](https://github.com/mcpmark-eval-liuhezi/log4shellsecurity-audit)
+- [mcpmark-eval-liuhezi/log4shell-audit-23](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-23)
+- [mcpmark-eval-liuhezi/log4shell-audit-tracking](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-tracking)
+- [mcpmark-eval-liuhezi/log4shell-audit-24](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-24)
+- [mcpmark-eval-liuhezi/log4shell-audit-25](https://github.com/mcpmark-eval-liuhezi/log4shell-audit-25)
+- [ShyVictor/minecraft-rce-lab](https://github.com/ShyVictor/minecraft-rce-lab)
 
 ### CVE-2021-44255 (2022-01-31)
 
