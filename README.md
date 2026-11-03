@@ -9284,6 +9284,7 @@
 - [rh33t/CVE-2026-33439-Poc](https://github.com/rh33t/CVE-2026-33439-Poc)
 - [amis13/openam-clean](https://github.com/amis13/openam-clean)
 - [TeoVMP/CVE-2026-33439](https://github.com/TeoVMP/CVE-2026-33439)
+- [stapat1245/CVE-2026-33439_poc](https://github.com/stapat1245/CVE-2026-33439_poc)
 
 ### CVE-2026-33453 (2026-04-27)
 
@@ -15132,7 +15133,11 @@
 
 - [DavidCarliez/CVE-2026-58635-PoC](https://github.com/DavidCarliez/CVE-2026-58635-PoC)
 
-### CVE-2026-58882
+### CVE-2026-58882 (2026-11-02)
+
+<code>In decodeWapPdu of WapPushOverSms.java, there is a possible out of bounds read due to an integer overflow. This could lead to a remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
 - [Ignema/WapGuard](https://github.com/Ignema/WapGuard)
 
 ### CVE-2026-59230 (2026-08-24)
@@ -15459,6 +15464,7 @@
 - [hypnguyen1209/CVE-2026-62911](https://github.com/hypnguyen1209/CVE-2026-62911)
 - [ZeroDayEvil/CVE-2026-62911](https://github.com/ZeroDayEvil/CVE-2026-62911)
 - [fahise/cve-2026-62911](https://github.com/fahise/cve-2026-62911)
+- [c5z54/cve-2026-62911-poc](https://github.com/c5z54/cve-2026-62911-poc)
 
 ### CVE-2026-62958 (2026-10-30)
 
@@ -18572,6 +18578,13 @@
 
 - [Hasanuyarrr/CVE-2026-86595-Iron-Mountain-enVision-EBYSde-Kimlik-Dogrulamal-SQL-Enjeksiyonu-Zafiyeti](https://github.com/Hasanuyarrr/CVE-2026-86595-Iron-Mountain-enVision-EBYSde-Kimlik-Dogrulamal-SQL-Enjeksiyonu-Zafiyeti)
 
+### CVE-2026-86596 (2026-11-02)
+
+<code>The s2Member plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, &lt;= 260927 via the 'item_name' parameter parameter. This is due to insufficient sanitization in strip_php_tags_deep(), which only strips literal '&lt;?' sequences, combined with a post-interpolation placeholder cleanup that reassembles a valid '&lt;?php' opener after the attacker-controlled value has already been embedded in the email template. This makes it possible for authenticated attackers, with custom-level access and above, to execute code on the server.
+</code>
+
+- [thiscitze/cve-2026-86596-poc](https://github.com/thiscitze/cve-2026-86596-poc)
+
 ### CVE-2026-86881 (2026-09-14)
 
 <code>A certificate validation issue was addressed with improved certificate validation. This issue is fixed in iOS 26.7 and iPadOS 26.7, iOS 27 and iPadOS 27, macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7, tvOS 27, visionOS 27, watchOS 27. An attacker with a compromised intermediate certificate authority may be able to issue certificates with arbitrary extended key usages.
@@ -19822,6 +19835,7 @@
 - [LinXing0926/GhostCred](https://github.com/LinXing0926/GhostCred)
 - [cuteaplane/CVE-2026-98260-for-OPD2501](https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501)
 - [kailashrs/infinitylock-app](https://github.com/kailashrs/infinitylock-app)
+- [YodonTan/cve-2026-98260-harmonyos-applicability](https://github.com/YodonTan/cve-2026-98260-harmonyos-applicability)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -19892,6 +19906,8 @@
 - [upeul/cve-2026-98432-linux](https://github.com/upeul/cve-2026-98432-linux)
 - [0xBlackash/CVE-2026-98432](https://github.com/0xBlackash/CVE-2026-98432)
 - [valkenindustries/cve-2026-98432-mitigation](https://github.com/valkenindustries/cve-2026-98432-mitigation)
+- [IgrekLg/cve-2026-98432-mitigation](https://github.com/IgrekLg/cve-2026-98432-mitigation)
+- [GarphenGate/cve-2026-98432-defender-toolkit](https://github.com/GarphenGate/cve-2026-98432-defender-toolkit)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -21771,6 +21787,7 @@
 - [secopsxsaiyan/php2shell-wazuh-detections](https://github.com/secopsxsaiyan/php2shell-wazuh-detections)
 - [andrysunjaya/php2shell-scanner](https://github.com/andrysunjaya/php2shell-scanner)
 - [mrnaeem4/wazuh-php2shell](https://github.com/mrnaeem4/wazuh-php2shell)
+- [geokali21/PHP2SHELL-TRYHACKME-WALKTHROUGH](https://github.com/geokali21/PHP2SHELL-TRYHACKME-WALKTHROUGH)
 - [ankushsinghrajput-git/php_vulnerability_scanner](https://github.com/ankushsinghrajput-git/php_vulnerability_scanner)
 
 ### CVE-2026-109619 (2026-10-21)
@@ -28797,6 +28814,7 @@
 - [razureink/cve-2025-32433-erlang_ssh_rce_reproduction](https://github.com/razureink/cve-2025-32433-erlang_ssh_rce_reproduction)
 - [Liam-Worsley/CVE-2025-32433-PoC-Analysis](https://github.com/Liam-Worsley/CVE-2025-32433-PoC-Analysis)
 - [damnkrishna/CVE-2025-32433-LAB](https://github.com/damnkrishna/CVE-2025-32433-LAB)
+- [Avinash37402/CVE-2025-32433-Erlang-OTP-SSH](https://github.com/Avinash37402/CVE-2025-32433-Erlang-OTP-SSH)
 
 ### CVE-2025-32434 (2025-04-18)
 
@@ -29649,6 +29667,7 @@
 
 - [msuiche/fromagegate](https://github.com/msuiche/fromagegate)
 - [Nero22k/CVE-2025-41450_poc](https://github.com/Nero22k/CVE-2025-41450_poc)
+- [GabrieleDattile/CVE-2025-41450-Fromagegate](https://github.com/GabrieleDattile/CVE-2025-41450-Fromagegate)
 
 ### CVE-2025-41646 (2025-06-06)
 
@@ -51501,7 +51520,7 @@
 
 - [timb-machine-mirrors/seongil-wi-CVE-2023-29017](https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017)
 - [passwa11/CVE-2023-29017-reverse-shell](https://github.com/passwa11/CVE-2023-29017-reverse-shell)
-- [gunwoo105/Node_CVE-2023-29017](https://github.com/gunwoo105/Node_CVE-2023-29017)
+- [wooung105/Node_CVE-2023-29017](https://github.com/wooung105/Node_CVE-2023-29017)
 
 ### CVE-2023-29084 (2023-04-13)
 
