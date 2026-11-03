@@ -5389,13 +5389,6 @@
 
 - [MohaBars/CVE-2026-21986-VirtualBox-DoS](https://github.com/MohaBars/CVE-2026-21986-VirtualBox-DoS)
 
-### CVE-2026-21994 (2026-03-17)
-
-<code>Vulnerability in the Oracle Edge Cloud Infrastructure Designer and Visualisation Toolkit product of Oracle Open Source Projects (component: Desktop).   The supported version that is affected is 0.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Edge Cloud Infrastructure Designer and Visualisation Toolkit.  Successful attacks of this vulnerability can result in takeover of Oracle Edge Cloud Infrastructure Designer and Visualisation Toolkit. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
-</code>
-
-- [g0w6y/CVE-2026-21994](https://github.com/g0w6y/CVE-2026-21994)
-
 ### CVE-2026-22001 (2026-04-21)
 
 <code>Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Information Schema).  Supported versions that are affected are 8.0.0-8.0.45, 8.4.0-8.4.8 and  9.0.0-9.6.0. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of MySQL Server accessible data. CVSS 3.1 Base Score 2.7 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N).
@@ -8635,6 +8628,7 @@
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-31431-Copy-Fail](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-31431-Copy-Fail)
 - [StackOverflowExcept1on/CVE-2026-31431](https://github.com/StackOverflowExcept1on/CVE-2026-31431)
 - [Venshell/copy-fail-CVE-2026-31431-aarch64](https://github.com/Venshell/copy-fail-CVE-2026-31431-aarch64)
+- [abiyeenzo/CVE-2026-31431](https://github.com/abiyeenzo/CVE-2026-31431)
 
 ### CVE-2026-31525 (2026-04-22)
 
@@ -11029,7 +11023,7 @@
 
 ### CVE-2026-41242 (2026-04-18)
 
-<code>protobufjs compiles protobuf definitions into JavaScript (JS) functions. In versions prior to 8.0.1 and 7.5.5, attackers can inject arbitrary code in the &quot;type&quot; fields of protobuf definitions, which will then execute during object decoding using that definition. Versions 8.0.1 and 7.5.5 patch the issue.
+<code>protobufjs compiles protobuf definitions into JavaScript (JS) functions. In versions prior to 8.0.1, 7.5.5, and 6.11.6, attackers can inject arbitrary code in the &quot;type&quot; fields of protobuf definitions, which will then execute during object decoding using that definition. Versions 8.0.1, 7.5.5, and 6.11.6 patch the issue.
 </code>
 
 - [4chech/CVE-2026-41242](https://github.com/4chech/CVE-2026-41242)
@@ -11897,6 +11891,7 @@
 - [RetributionByRevenue/motogstylus2023-root](https://github.com/RetributionByRevenue/motogstylus2023-root)
 - [Delta-Water/phq110-root](https://github.com/Delta-Water/phq110-root)
 - [tungmv/IONSTACK-S22E](https://github.com/tungmv/IONSTACK-S22E)
+- [SnowbakaQWQ/ghostlock-ares](https://github.com/SnowbakaQWQ/ghostlock-ares)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15140,6 +15135,13 @@
 - [FlowerWitch/CVE-2026-59774_docker](https://github.com/FlowerWitch/CVE-2026-59774_docker)
 - [asvorg/CVE-2026-59774-poc](https://github.com/asvorg/CVE-2026-59774-poc)
 - [Ly0kha/CVE-2026-59774](https://github.com/Ly0kha/CVE-2026-59774)
+
+### CVE-2026-59795 (2026-07-10)
+
+<code>In JetBrains TeamCity before 2026.1.2 stored XSS via unauthenticated agent registration was possible
+</code>
+
+- [JoakimBulow/CVE-2026-59795](https://github.com/JoakimBulow/CVE-2026-59795)
 
 ### CVE-2026-59822 (2026-07-08)
 
@@ -19545,6 +19547,7 @@
 - [Noshadi-sec/CVE-2026-97229](https://github.com/Noshadi-sec/CVE-2026-97229)
 - [murat-levi/gitlab-rce-toolkit](https://github.com/murat-levi/gitlab-rce-toolkit)
 - [foxcornlab/gitlab-onigmo-scanner](https://github.com/foxcornlab/gitlab-onigmo-scanner)
+- [emc-kk/cve-2026-97229-lab](https://github.com/emc-kk/cve-2026-97229-lab)
 
 ### CVE-2026-97286 (2026-09-30)
 
@@ -19736,7 +19739,6 @@
 - [fetus-hina/cve-2026-98432-mitigation-rpm](https://github.com/fetus-hina/cve-2026-98432-mitigation-rpm)
 - [al4n4n/CVE-2026-98432](https://github.com/al4n4n/CVE-2026-98432)
 - [illuscapital/CVE-2026-98432](https://github.com/illuscapital/CVE-2026-98432)
-- [0xSpuddy/cve-2026-98432-check](https://github.com/0xSpuddy/cve-2026-98432-check)
 - [johnhsb/linux-tcp-uaf-cve-2026-98432](https://github.com/johnhsb/linux-tcp-uaf-cve-2026-98432)
 - [xxhjkl/cve-2026-98432-check](https://github.com/xxhjkl/cve-2026-98432-check)
 - [thiscitze/cve-2026-98432-root-shell](https://github.com/thiscitze/cve-2026-98432-root-shell)
@@ -19756,6 +19758,8 @@
 - [lowerpower/cve-2026-98432-mitigation](https://github.com/lowerpower/cve-2026-98432-mitigation)
 - [schnied/cve-2026-98432-mitigation-iptables](https://github.com/schnied/cve-2026-98432-mitigation-iptables)
 - [muhammedemintombak/pardus21-cve-2026-98432](https://github.com/muhammedemintombak/pardus21-cve-2026-98432)
+- [luxagen/tester-linux-cve-2026-98432](https://github.com/luxagen/tester-linux-cve-2026-98432)
+- [mrjoshuap/ansible-ezcve](https://github.com/mrjoshuap/ansible-ezcve)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -20671,7 +20675,11 @@
 
 - [tanuj8124/CVE-2026-106781](https://github.com/tanuj8124/CVE-2026-106781)
 
-### CVE-2026-106991
+### CVE-2026-106991 (2026-11-03)
+
+<code>hustoj &gt;=24.09.10 and &lt;=26.08.19 is vulnerable to Incorrect Access Control. Any registered user can delete, lock, or sticky any forum thread (including admins' announcements) via threadadmin.php. The thread branch only verifies login, never authorship or admin rights.
+</code>
+
 - [MX-Qulin/CVE-2026-106991](https://github.com/MX-Qulin/CVE-2026-106991)
 
 ### CVE-2026-107079 (2026-10-22)
@@ -20773,6 +20781,7 @@
 </code>
 
 - [techupdate24/citrix-netscaler-rce-cve-2026-107406](https://github.com/techupdate24/citrix-netscaler-rce-cve-2026-107406)
+- [ApexBreach/CVE-2026-107406-Poc](https://github.com/ApexBreach/CVE-2026-107406-Poc)
 - [maxprog-svg/CVE-2026-107406](https://github.com/maxprog-svg/CVE-2026-107406)
 
 ### CVE-2026-107692 (2026-10-20)
@@ -21163,7 +21172,6 @@
 - [mohamedation/php2shell-scanner](https://github.com/mohamedation/php2shell-scanner)
 - [hkoeck/php2shell-status](https://github.com/hkoeck/php2shell-status)
 - [Sol0-dev/php2shell](https://github.com/Sol0-dev/php2shell)
-- [PHPatch/phpscan](https://github.com/PHPatch/phpscan)
 - [xbuddhi/php2shell-fix](https://github.com/xbuddhi/php2shell-fix)
 - [zNexoraTech/php2shell-detector](https://github.com/zNexoraTech/php2shell-detector)
 - [KanyCrew/php2shell-poc](https://github.com/KanyCrew/php2shell-poc)
@@ -21331,6 +21339,7 @@
 - [CarrollUniversityCS/patch-watch](https://github.com/CarrollUniversityCS/patch-watch)
 - [itzen300/php2shell_RCE](https://github.com/itzen300/php2shell_RCE)
 - [wasdthedebugger/php2shell](https://github.com/wasdthedebugger/php2shell)
+- [cx-jacob-rand/php2shell-cx](https://github.com/cx-jacob-rand/php2shell-cx)
 - [webninjjacoder/security-backports-for-php74](https://github.com/webninjjacoder/security-backports-for-php74)
 - [EtherHamRadio/asl-node-check](https://github.com/EtherHamRadio/asl-node-check)
 - [ChangWeiHong/php-cve-local-lab](https://github.com/ChangWeiHong/php-cve-local-lab)
@@ -39857,6 +39866,7 @@
 - [RnW29/cve-2024-21626-runc-lab](https://github.com/RnW29/cve-2024-21626-runc-lab)
 - [MutagomaRaissa/container-security-lab-cve-2024-21626](https://github.com/MutagomaRaissa/container-security-lab-cve-2024-21626)
 - [ghs053020-stack/cve-2024-21626](https://github.com/ghs053020-stack/cve-2024-21626)
+- [Leven0101/cve-2024-21626-lab](https://github.com/Leven0101/cve-2024-21626-lab)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -41157,6 +41167,7 @@
 - [zxc2009/TryHack3M-Bricks-Heist](https://github.com/zxc2009/TryHack3M-Bricks-Heist)
 - [estebanzarate/CVE-2024-25600-WordPress-Bricks-Builder-RCE-PoC](https://github.com/estebanzarate/CVE-2024-25600-WordPress-Bricks-Builder-RCE-PoC)
 - [CerberusMrXi/WP-Bricks-Exploit-CVE-2024-25600](https://github.com/CerberusMrXi/WP-Bricks-Exploit-CVE-2024-25600)
+- [eunbyulaakash/CVE-2024-25600-FOR-PYTHON-3.8-AND-ABOVE](https://github.com/eunbyulaakash/CVE-2024-25600-FOR-PYTHON-3.8-AND-ABOVE)
 
 ### CVE-2024-25641 (2024-05-13)
 
@@ -42311,7 +42322,6 @@
 - [10cks/CVE-2024-32002-submod](https://github.com/10cks/CVE-2024-32002-submod)
 - [10cks/CVE-2024-32002-linux-hulk](https://github.com/10cks/CVE-2024-32002-linux-hulk)
 - [10cks/CVE-2024-32002-linux-submod](https://github.com/10cks/CVE-2024-32002-linux-submod)
-- [10cks/CVE-2024-32002-linux-smash](https://github.com/10cks/CVE-2024-32002-linux-smash)
 - [aitorcastel/poc_CVE-2024-32002](https://github.com/aitorcastel/poc_CVE-2024-32002)
 - [aitorcastel/poc_CVE-2024-32002_submodule](https://github.com/aitorcastel/poc_CVE-2024-32002_submodule)
 - [10cks/hook](https://github.com/10cks/hook)
@@ -53952,7 +53962,6 @@
 - [VictoriousKnight/CVE-2023-38831_Exploit](https://github.com/VictoriousKnight/CVE-2023-38831_Exploit)
 - [kuyrathdaro/cve-2023-38831](https://github.com/kuyrathdaro/cve-2023-38831)
 - [Tolu12wani/Demonstration-of-CVE-2023-38831-via-Reverse-Shell-Execution](https://github.com/Tolu12wani/Demonstration-of-CVE-2023-38831-via-Reverse-Shell-Execution)
-- [yangdayyy/cve-2023-38831](https://github.com/yangdayyy/cve-2023-38831)
 - [anelya0333/Exploiting-CVE-2023-38831](https://github.com/anelya0333/Exploiting-CVE-2023-38831)
 - [mishra0230/CVE-2023-38831](https://github.com/mishra0230/CVE-2023-38831)
 - [RonF98/CVE-2023-38831-POC](https://github.com/RonF98/CVE-2023-38831-POC)
@@ -73546,7 +73555,6 @@
 - [guardicore/vmware_vcenter_cve_2020_3952](https://github.com/guardicore/vmware_vcenter_cve_2020_3952)
 - [gelim/CVE-2020-3952](https://github.com/gelim/CVE-2020-3952)
 - [Fa1c0n35/vmware_vcenter_cve_2020_3952](https://github.com/Fa1c0n35/vmware_vcenter_cve_2020_3952)
-- [virtualcvcell/Exploit](https://github.com/virtualcvcell/Exploit)
 
 ### CVE-2020-3956 (2020-05-20)
 
@@ -74405,7 +74413,6 @@
 <code>Kubernetes Java client libraries in version 10.0.0 and versions prior to 9.0.1 allow writes to paths outside of the current directory when copying multiple files from a remote pod which sends a maliciously crafted archive. This can potentially overwrite any files on the system of the process executing the client code.
 </code>
 
-- [shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9-0-1](https://github.com/shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9-0-1)
 - [shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9_0_2_fixed](https://github.com/shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9_0_2_fixed)
 
 ### CVE-2020-8597 (2020-02-03)
@@ -82376,7 +82383,6 @@
 - [EliusHHimel/citrix-honeypot](https://github.com/EliusHHimel/citrix-honeypot)
 - [r4ulcl/CVE-2019-19781](https://github.com/r4ulcl/CVE-2019-19781)
 - [nmanzi/webcvescanner](https://github.com/nmanzi/webcvescanner)
-- [darren646/CVE-2019-19781POC](https://github.com/darren646/CVE-2019-19781POC)
 - [yukar1z0e/CVE-2019-19781](https://github.com/yukar1z0e/CVE-2019-19781)
 - [SharpHack/CVE-2019-19781](https://github.com/SharpHack/CVE-2019-19781)
 - [qiong-qi/CVE-2019-19781-poc](https://github.com/qiong-qi/CVE-2019-19781-poc)
