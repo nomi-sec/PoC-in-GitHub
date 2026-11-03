@@ -4433,7 +4433,6 @@
 - [gman0x00/keycloak-CVE-2026-18963](https://github.com/gman0x00/keycloak-CVE-2026-18963)
 - [debugactiveprocess/CVE-2026-18963](https://github.com/debugactiveprocess/CVE-2026-18963)
 - [alt3kx/CVE-2026-18963](https://github.com/alt3kx/CVE-2026-18963)
-- [M4xSec/My-Exploits](https://github.com/M4xSec/My-Exploits)
 - [EQSTLab/CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963)
 - [0xlyvio/CVE-2026-18963-keycloak](https://github.com/0xlyvio/CVE-2026-18963-keycloak)
 - [ynsmroztas/KeySniper](https://github.com/ynsmroztas/KeySniper)
@@ -4920,7 +4919,7 @@
 
 - [0xjohnnydev/CVE-2026-20687-AppleJPEGDriver-UAF](https://github.com/0xjohnnydev/CVE-2026-20687-AppleJPEGDriver-UAF)
 - [enfilade-labs/CVE-2026-20687-AppleJPEGDriver-UAF](https://github.com/enfilade-labs/CVE-2026-20687-AppleJPEGDriver-UAF)
-- [nenasevartem70-cmyk/hidra](https://github.com/nenasevartem70-cmyk/hidra)
+- [hidra0x/hidra](https://github.com/hidra0x/hidra)
 
 ### CVE-2026-20698 (2026-03-25)
 
@@ -8537,7 +8536,6 @@
 - [KanbaraAkihito/CVE-2026-31431-copyfail-rs](https://github.com/KanbaraAkihito/CVE-2026-31431-copyfail-rs)
 - [mahdi13830510/CVE-2026-31431-mitigation-suite](https://github.com/mahdi13830510/CVE-2026-31431-mitigation-suite)
 - [suominen/CVE-2026-31431](https://github.com/suominen/CVE-2026-31431)
-- [M4xSec/CVE-2026-31431-RCE-Exploit](https://github.com/M4xSec/CVE-2026-31431-RCE-Exploit)
 - [mmionf/copy-fail-CVE-2026-31431](https://github.com/mmionf/copy-fail-CVE-2026-31431)
 - [cxwx/cpp-CVE-2026-31431](https://github.com/cxwx/cpp-CVE-2026-31431)
 - [Huchangzhi/autorootlinux](https://github.com/Huchangzhi/autorootlinux)
@@ -10116,7 +10114,6 @@
 </code>
 
 - [redteamfortress/CVE-2026-36425](https://github.com/redteamfortress/CVE-2026-36425)
-- [gongchuang1089/EDRKiller](https://github.com/gongchuang1089/EDRKiller)
 - [MacAwad/whatsapp-valleyrat-analysis](https://github.com/MacAwad/whatsapp-valleyrat-analysis)
 
 ### CVE-2026-36436 (2026-10-15)
@@ -15047,6 +15044,13 @@
 
 - [BishopFox/CVE-2026-58073-check](https://github.com/BishopFox/CVE-2026-58073-check)
 
+### CVE-2026-58115 (2026-08-11)
+
+<code>A vulnerability has been identified in SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2) (All versions &lt; V4.3.4.1 running Industrial OS with Node-RED installed). Affected devices do not enforce authentication on the Node-RED HTTP interface, allowing unauthenticated access to programming nodes that are capable of executing system commands on the server.\r\nThis could allow an unauthenticated remote attacker to create malicious flows through the HTTP interface in order to execute arbitrary code on the underlying server with maximum privileges.
+</code>
+
+- [foxcornlab/node-red-scanner](https://github.com/foxcornlab/node-red-scanner)
+
 ### CVE-2026-58116 (2026-06-30)
 
 <code>LLaMA-Factory through 0.9.5 contains a remote code execution vulnerability that allows attackers with WebUI access to execute arbitrary Python code by supplying a malicious model path in the Chat or Training interfaces. The application passes user-supplied model path input unvalidated into AutoTokenizer.from_pretrained() and AutoModel.from_pretrained() with a hardcoded trust_remote_code=True parameter, causing the Hugging Face transformers library to fetch and execute arbitrary code from a remote or local model repository with the privileges of the server process.
@@ -15542,7 +15546,6 @@
 - [x-znn/CVE-2026-63030](https://github.com/x-znn/CVE-2026-63030)
 - [AnggaTechI/CVE-2026-63030](https://github.com/AnggaTechI/CVE-2026-63030)
 - [z3rodayhacks/CVE-2026-63030-CVE-2026-60137](https://github.com/z3rodayhacks/CVE-2026-63030-CVE-2026-60137)
-- [M4xSec/wp2shell-Exploit-Waf-Bypass](https://github.com/M4xSec/wp2shell-Exploit-Waf-Bypass)
 - [g0d150ne/WP2Shell](https://github.com/g0d150ne/WP2Shell)
 - [0xIIDe231/wp2shell2026](https://github.com/0xIIDe231/wp2shell2026)
 - [mhassani97/cve-2026-63030-lab](https://github.com/mhassani97/cve-2026-63030-lab)
@@ -19908,6 +19911,8 @@
 - [valkenindustries/cve-2026-98432-mitigation](https://github.com/valkenindustries/cve-2026-98432-mitigation)
 - [IgrekLg/cve-2026-98432-mitigation](https://github.com/IgrekLg/cve-2026-98432-mitigation)
 - [GarphenGate/cve-2026-98432-defender-toolkit](https://github.com/GarphenGate/cve-2026-98432-defender-toolkit)
+- [lowerpower/cve-2026-98432-mitigation](https://github.com/lowerpower/cve-2026-98432-mitigation)
+- [schnied/cve-2026-98432-mitigation-iptables](https://github.com/schnied/cve-2026-98432-mitigation-iptables)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -32232,7 +32237,6 @@
 - [andressuarezmonk/CVE-2025-55182](https://github.com/andressuarezmonk/CVE-2025-55182)
 - [cybertechajju/R2C-CVE-2025-55182-66478](https://github.com/cybertechajju/R2C-CVE-2025-55182-66478)
 - [Dh4v4l8/CVE-2025-55182-poc-tool](https://github.com/Dh4v4l8/CVE-2025-55182-poc-tool)
-- [M4xSec/CVE-2025-55182-React2Shell-RCE-Shell](https://github.com/M4xSec/CVE-2025-55182-React2Shell-RCE-Shell)
 - [SainiONHacks/CVE-2025-55182-Scanner](https://github.com/SainiONHacks/CVE-2025-55182-Scanner)
 - [umairahmadh/react-vuln-scanner](https://github.com/umairahmadh/react-vuln-scanner)
 - [ToritoIO/Torito-R2S](https://github.com/ToritoIO/Torito-R2S)
@@ -32527,6 +32531,7 @@
 - [iapetus12/hackcar-writeup](https://github.com/iapetus12/hackcar-writeup)
 - [abhaybansal16/cve-2025-55182-lab](https://github.com/abhaybansal16/cve-2025-55182-lab)
 - [RashmithaDeSilva/React2Shell_CVE-2025-55182](https://github.com/RashmithaDeSilva/React2Shell_CVE-2025-55182)
+- [simonangel-fong/react2shell-eks](https://github.com/simonangel-fong/react2shell-eks)
 - [OhSoomin812/cve-2025-55182-ctf](https://github.com/OhSoomin812/cve-2025-55182-ctf)
 - [Frizzardsecurity/CVE-2025-55182](https://github.com/Frizzardsecurity/CVE-2025-55182)
 - [foxcornlab/react2shell-scanner](https://github.com/foxcornlab/react2shell-scanner)
@@ -36756,13 +36761,6 @@
 </code>
 
 - [Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP)
-
-### CVE-2024-2473 (2024-06-11)
-
-<code>The WPS Hide Login plugin for WordPress is vulnerable to Login Page Disclosure in all versions up to, and including, 1.9.15.2. This is due to a bypass that is created when the 'action=postpass' parameter is supplied. This makes it possible for attackers to easily discover any login page that may have been hidden by the plugin.
-</code>
-
-- [M4xSec/CVE-2024-2473](https://github.com/M4xSec/CVE-2024-2473)
 
 ### CVE-2024-2667 (2024-05-02)
 
@@ -59802,7 +59800,6 @@
 - [CrackerCat/CVE-2022-24112](https://github.com/CrackerCat/CVE-2022-24112)
 - [SecNN/CVE-2022-24112](https://github.com/SecNN/CVE-2022-24112)
 - [Mah1ndra/CVE-2022-24112](https://github.com/Mah1ndra/CVE-2022-24112)
-- [M4xSec/Apache-APISIX-CVE-2022-24112](https://github.com/M4xSec/Apache-APISIX-CVE-2022-24112)
 - [kavishkagihan/CVE-2022-24112-POC](https://github.com/kavishkagihan/CVE-2022-24112-POC)
 - [twseptian/cve-2022-24112](https://github.com/twseptian/cve-2022-24112)
 - [Acczdy/CVE-2022-24112_POC](https://github.com/Acczdy/CVE-2022-24112_POC)
@@ -78106,13 +78103,6 @@
 </code>
 
 - [skyllpro/CVE-2021-44026-PoC](https://github.com/skyllpro/CVE-2021-44026-PoC)
-
-### CVE-2020-35749 (2021-01-15)
-
-<code>Directory traversal vulnerability in class-simple_job_board_resume_download_handler.php in the Simple Board Job plugin 2.9.3 and earlier for WordPress allows remote attackers to read arbitrary files via the sjb_file parameter to wp-admin/post.php.
-</code>
-
-- [M4xSec/Wordpress-CVE-2020-35749](https://github.com/M4xSec/Wordpress-CVE-2020-35749)
 
 ### CVE-2020-35846 (2020-12-30)
 
