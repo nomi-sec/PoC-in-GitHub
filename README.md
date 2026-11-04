@@ -10714,6 +10714,7 @@
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-39987-Marimo-RCE](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-39987-Marimo-RCE)
 - [dntaskmehow/MARABUSE](https://github.com/dntaskmehow/MARABUSE)
 - [lunacysoft/CVE-2026-39987-POC-Marimo](https://github.com/lunacysoft/CVE-2026-39987-POC-Marimo)
+- [1nt1m4cy/HTB-Cohort](https://github.com/1nt1m4cy/HTB-Cohort)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -14273,7 +14274,11 @@
 - [ushst/CVE-2026-54121-adcs-chase-nxc](https://github.com/ushst/CVE-2026-54121-adcs-chase-nxc)
 - [AnubisRedTeam/CVE-2026-54121-Certighost](https://github.com/AnubisRedTeam/CVE-2026-54121-Certighost)
 
-### CVE-2026-54161
+### CVE-2026-54161 (2026-11-03)
+
+<code>Network UPS Tools is a collection of programs which provide a common interface for monitoring and administering UPS, PDU and SCD hardware. From 2.8.3 to 2.8.5, upsmon in clients/upsmon.c inserts the server-supplied ups.alarm value into shell commands executed by notify(), async_notify(), and wall(). When a monitored device reports an ALARM state and an operator has configured NOTIFYCMD with EXEC in NOTIFYFLAG ALARM, shell metacharacters in the alarm text are evaluated on POSIX or Windows and can execute arbitrary operating-system commands as the upsmon account, which is commonly root. An attacker can control the value through a malicious or compromised upsd, a man-in-the-middle on a plaintext upsd to upsmon connection, or a compromised UPS device whose driver supplies the alarm upstream of upsd; TLS between upsd and upsmon does not mitigate the compromised-device path. This vulnerability is fixed in 2.8.6.
+</code>
+
 - [ja-errorpro/CVE-2026-54161](https://github.com/ja-errorpro/CVE-2026-54161)
 
 ### CVE-2026-54316 (2026-06-23)
@@ -15639,7 +15644,6 @@
 - [totsiaw/cve-2026-64560-rmx6699](https://github.com/totsiaw/cve-2026-64560-rmx6699)
 - [Feng1586/CVE-2026-64560-public](https://github.com/Feng1586/CVE-2026-64560-public)
 - [Feng1586/CVE-2026-64560-sources](https://github.com/Feng1586/CVE-2026-64560-sources)
-- [Yunnijian/OnePlus16-Jailbreak](https://github.com/Yunnijian/OnePlus16-Jailbreak)
 - [No-World/rootkit](https://github.com/No-World/rootkit)
 - [wanwuzhishi/ksu-root](https://github.com/wanwuzhishi/ksu-root)
 - [youssefnoser/opd2415-6.6.118-cve-2026-64560-ksu](https://github.com/youssefnoser/opd2415-6.6.118-cve-2026-64560-ksu)
@@ -17704,6 +17708,13 @@
 - [Markakd/Container_escape](https://github.com/Markakd/Container_escape)
 - [rifkyards/Container_escape-CVE-2026-80521-CVE-2026-52910](https://github.com/rifkyards/Container_escape-CVE-2026-80521-CVE-2026-52910)
 
+### CVE-2026-80587 (2026-08-26)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nmptcp: avoid combining some incoming suboptions\n\nSome MPTCP suboptions are mutually exclusive according to the RFC8684,\nbut also because in different places, the code doesn't expect some\ncombinations to be present. That's specially true for suboptions that\nwould be present twice, but with different attributes.\n\nThe new restrictions are the same as the ones applied on the output\nside, with mptcp_write_options. The same rules can be reused with a\nsmall fix: an MP_FASTCLOSE can be used with a DSS when the sender picks\nthis option [1], which is not the case on Linux. Here are the rules:\n\n  Which options can be used together?\n\n  X: mutually exclusive\n  O: often used together\n  C: can be used together in some cases\n  P: could be used together but we prefer not to (optimisations)\n\n  | Opt: | MPC  | MPJ  | DSS  | ADD  |  RM  | PRIO | FAIL |  FC  |\n  |------|------|------|------|------|------|------|------|------|\n  | MPC  |------|------|------|------|------|------|------|------|\n  | MPJ  |  X   |------|------|------|------|------|------|------|\n  | DSS  |  X   |  X   |------|------|------|------|------|------|\n  | ADD  |  X   |  X   |  P   |------|------|------|------|------|\n  | RM   |  C   |  C   |  C   |  P   |------|------|------|------|\n  | PRIO |  X   |  C   |  C   |  C   |  C   |------|------|------|\n  | FAIL |  X   |  X   |  C   |  X   |  X   |  X   |------|------|\n  | FC   |  X   |  X   |  P   |  X   |  X   |  X   |  X   |------|\n  | RST  |  X   |  X   |  X   |  X   |  X   |  X   |  O   |  O   |\n  |------|------|------|------|------|------|------|------|------|\n\nThe only difference is with the 'P': another stack could send and\nADD_ADDR with other suboptions (DSS, RM_ADDR), and this should be\nallowed.\n\nA few points of attention:\n\n - In theory, an MP_CAPABLE could be used with a RM_ADDR, but there is\n   no reason to add it with a SYN. Note that even with a 4th ACK, it\n   doesn't seem to be useful, except when IDs are known in advance via\n   another channel. Better not to break that.\n\n - Now, combining both an MP_CAPABLE and an MP_JOIN will no longer\n   result to a reject of the two options, but only the second suboption\n   is ignored. That seems OK to do that for this unexpected error. At\n   least now all inconsistent combinations are handled the same way.\n   This could change later in next. This also means the explicit checks\n   for having both MPC + MPJ in subflow.c will now be unreachable.\n   That's fine, they will be removed in a follow-up patch.\n\n - In case of conflicting combinations, the extra suboption(s) is/are\n   ignored: having such combinations either means the remote peer is\n   buggy, or is evil. The simplest action is then taken in this case:\n   stop processing the current suboption.\n\n - In mp_opt-&gt;suboptions, there is also a bit reserved to the checksum,\n   which can be used in an MP_CAPABLE and a DSS. Each time a DSS option\n   can be used in parallel with another option, the checksum can be set,\n   so the verification is combined into a new OPTIONS_MPTCP_DSS macro.\n\n - An MP_CAPABLE ACK can carry a Data-Level Length, and an optional\n   Checksum: they are the same as the ones found in a DSS, because a DSS\n   cannot be used in parallel to an MP_CAPABLE. Similarly, even if there\n   is room, a DSS cannot be used with an MP_JOIN.
+</code>
+
+- [9technologygroup/cve-2026-80587-check](https://github.com/9technologygroup/cve-2026-80587-check)
+
 ### CVE-2026-80724 (2026-08-28)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nptp: vmclock: prevent read-only mappings from becoming writable\n\nvmclock_miscdev_mmap() rejects writable mappings of the shared vmclock\nABI page with -EROFS, but leaves VM_MAYWRITE set.  Userspace can map the\npage read-only and then upgrade it to writable with mprotect(), after\nwhich the guest can corrupt the host-written timekeeping data (sequence\ncounter, UTC time, TSC offset) that the vmclock ABI defines as read-only.\n\nClear VM_MAYWRITE on the read-only path so the mapping cannot be\nupgraded, as i915 does for its read-only objects and as fixed in drm/vc4\n(CVE-2026-68445) and drm/panthor (CVE-2024-53071).
@@ -18008,6 +18019,9 @@
 </code>
 
 - [murrez/CVE-2026-84434](https://github.com/murrez/CVE-2026-84434)
+
+### CVE-2026-84473
+- [KOBUKOVUI/CVE-2026-84473](https://github.com/KOBUKOVUI/CVE-2026-84473)
 
 ### CVE-2026-84520 (2026-09-14)
 
@@ -18970,6 +18984,13 @@
 
 - [0xSemizzz/CVE-2026-92162](https://github.com/0xSemizzz/CVE-2026-92162)
 
+### CVE-2026-92183 (2026-10-21)
+
+<code>GIMP APNG File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of APNG files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-29400.
+</code>
+
+- [CXu0630/CVE-2026-92183_GIMP_RCE_Proof-of-Concept](https://github.com/CXu0630/CVE-2026-92183_GIMP_RCE_Proof-of-Concept)
+
 ### CVE-2026-92208 (2026-10-21)
 
 <code>NoMachine mDNS Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of NoMachine. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the parsing of mDNS resource records. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account. Was ZDI-CAN-30982.
@@ -19652,6 +19673,7 @@
 
 - [jadedFella/lpe-study-notes](https://github.com/jadedFella/lpe-study-notes)
 - [ylh440104/InfinityCore-Android-CVE-2026-98260](https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98260)
+- [Yunnijian/OnePlus16-Jailbreak](https://github.com/Yunnijian/OnePlus16-Jailbreak)
 - [quyicheng03-boop/CVE-2026-98260-popsicle-android](https://github.com/quyicheng03-boop/CVE-2026-98260-popsicle-android)
 - [quyicheng03-boop/CVE-2026-98260-nezha-android](https://github.com/quyicheng03-boop/CVE-2026-98260-nezha-android)
 - [sganggs/CVE-2026-98260-BRM-AN00](https://github.com/sganggs/CVE-2026-98260-BRM-AN00)
@@ -19760,6 +19782,8 @@
 - [muhammedemintombak/pardus21-cve-2026-98432](https://github.com/muhammedemintombak/pardus21-cve-2026-98432)
 - [luxagen/tester-linux-cve-2026-98432](https://github.com/luxagen/tester-linux-cve-2026-98432)
 - [mrjoshuap/ansible-ezcve](https://github.com/mrjoshuap/ansible-ezcve)
+- [hdp1972be-svg/cve_2026_98432_guard](https://github.com/hdp1972be-svg/cve_2026_98432_guard)
+- [zenjabba/cve-2026-98432-mitigation](https://github.com/zenjabba/cve-2026-98432-mitigation)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -20970,7 +20994,6 @@
 - [Poellie01/PHP2Shell-Verification-Script](https://github.com/Poellie01/PHP2Shell-Verification-Script)
 - [charindithjaindu/CVE-2026-109618](https://github.com/charindithjaindu/CVE-2026-109618)
 - [Bhavye-Malhotra/php2shell-2026](https://github.com/Bhavye-Malhotra/php2shell-2026)
-- [zerbaliy3v/php2shell-CVE-2026-109618-CVE-2026-109619-Dorks](https://github.com/zerbaliy3v/php2shell-CVE-2026-109618-CVE-2026-109619-Dorks)
 - [tommaru66-pixel/php2shell-poc-1](https://github.com/tommaru66-pixel/php2shell-poc-1)
 - [adriyansyah-mf/CVE-2026-109618-109619-PHP-session.upload_progress-Exploit-](https://github.com/adriyansyah-mf/CVE-2026-109618-109619-PHP-session.upload_progress-Exploit-)
 - [enactive-systems/CVE-2026-109618-poc](https://github.com/enactive-systems/CVE-2026-109618-poc)
@@ -20981,6 +21004,7 @@
 - [rdwr-namikb/php2shell-cve-2026-109618-109619-lab](https://github.com/rdwr-namikb/php2shell-cve-2026-109618-109619-lab)
 - [wind884/CVE-2026-109618-109619-PHP2Shell](https://github.com/wind884/CVE-2026-109618-109619-PHP2Shell)
 - [jf0x3f/php2shell-pocs](https://github.com/jf0x3f/php2shell-pocs)
+- [mxxnknght/php2shell-CVE-2026-109618-CVE-2026-109619-Dorks](https://github.com/mxxnknght/php2shell-CVE-2026-109618-CVE-2026-109619-Dorks)
 - [Anton-Barinov/php2shell-patches](https://github.com/Anton-Barinov/php2shell-patches)
 - [imsarah/php2shell-hardening-for-agents](https://github.com/imsarah/php2shell-hardening-for-agents)
 - [EXT-IT/php2shell-check](https://github.com/EXT-IT/php2shell-check)
@@ -21639,6 +21663,8 @@
 - [geokali21/PHP2SHELL-TRYHACKME-WALKTHROUGH](https://github.com/geokali21/PHP2SHELL-TRYHACKME-WALKTHROUGH)
 - [ankushsinghrajput-git/php_vulnerability_scanner](https://github.com/ankushsinghrajput-git/php_vulnerability_scanner)
 - [SecOpsLimited/php2shell-finder](https://github.com/SecOpsLimited/php2shell-finder)
+- [Danyw24/the-php2shell-recipe](https://github.com/Danyw24/the-php2shell-recipe)
+- [SquidSec/php2shell](https://github.com/SquidSec/php2shell)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21909,6 +21935,7 @@
 - [ChriSec7/CVE-2026-111497-POC](https://github.com/ChriSec7/CVE-2026-111497-POC)
 - [fortbridge/cve-2026-111497-wordpress-pingback-brotli](https://github.com/fortbridge/cve-2026-111497-wordpress-pingback-brotli)
 - [EQSTLab/CVE-2026-111497](https://github.com/EQSTLab/CVE-2026-111497)
+- [Certbn/Brotli-Node.js-CVE-2026-111497-Broccoli2Shell-Node2Shell-HTTP2Shell-](https://github.com/Certbn/Brotli-Node.js-CVE-2026-111497-Broccoli2Shell-Node2Shell-HTTP2Shell-)
 
 ### CVE-2026-111585 (2026-10-27)
 
@@ -22002,6 +22029,13 @@
 </code>
 
 - [0xjohnnydev/CVE-2026-112688-backboardd](https://github.com/0xjohnnydev/CVE-2026-112688-backboardd)
+
+### CVE-2026-112689 (2026-10-26)
+
+<code>An out-of-bounds write issue was addressed with improved input validation. This issue is fixed in iOS 26.7.2 and iPadOS 26.7.2, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2, tvOS 27.2. An app may be able to cause unexpected system termination or corrupt kernel memory.
+</code>
+
+- [Lak453/CVE-2026-112689-poc](https://github.com/Lak453/CVE-2026-112689-poc)
 
 ### CVE-2026-112705 (2026-10-26)
 
@@ -32372,6 +32406,7 @@
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2025-55182-React2Shell](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2025-55182-React2Shell)
 - [0xRAM-bit/CVE-2025-55182](https://github.com/0xRAM-bit/CVE-2025-55182)
 - [manshoor/php2shell-scanner](https://github.com/manshoor/php2shell-scanner)
+- [Certbn/CVE-2025-55182-React-Server-Components-Flight-React2Shell-](https://github.com/Certbn/CVE-2025-55182-React-Server-Components-Flight-React2Shell-)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -66075,6 +66110,7 @@
 - [caviartank21/CVE-2021-4034](https://github.com/caviartank21/CVE-2021-4034)
 - [DERMOUCHERYAD/Linux-Privilege-Escalation-Pentest-Lab](https://github.com/DERMOUCHERYAD/Linux-Privilege-Escalation-Pentest-Lab)
 - [axisops/CVE-2021-4034](https://github.com/axisops/CVE-2021-4034)
+- [eshkoreee/CVE-2021-4034](https://github.com/eshkoreee/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -80442,6 +80478,13 @@
 
 - [sasqwatch/cve-2019-11477-poc](https://github.com/sasqwatch/cve-2019-11477-poc)
 
+### CVE-2019-11478 (2019-06-18)
+
+<code>Jonathan Looney discovered that the TCP retransmission queue implementation in tcp_fragment in the Linux kernel could be fragmented when handling certain TCP Selective Acknowledgment (SACK) sequences. A remote attacker could use this to cause a denial of service. This has been fixed in stable kernel releases 4.4.182, 4.9.182, 4.14.127, 4.19.52, 5.1.11, and is fixed in commit f070ef2ac66716357066b683fb0baf55f8191a2e.
+</code>
+
+- [jinjucat/CVE-2019-11478](https://github.com/jinjucat/CVE-2019-11478)
+
 ### CVE-2019-11510 (2019-05-08)
 
 <code>In Pulse Secure Pulse Connect Secure (PCS) 8.2 before 8.2R12.1, 8.3 before 8.3R7.1, and 9.0 before 9.0R3.4, an unauthenticated remote attacker can send a specially crafted URI to perform an arbitrary file reading vulnerability .
@@ -94030,7 +94073,7 @@
 <code>Boa 0.94.14rc21 writes data to a log file without sanitizing non-printable characters, which might allow remote attackers to modify a window's title, or possibly execute arbitrary commands or overwrite files, via an HTTP request containing an escape sequence for a terminal emulator.
 </code>
 
-- [enriquenegri-cyberlaw/boa-cve-2009-4496-analysis](https://github.com/enriquenegri-cyberlaw/boa-cve-2009-4496-analysis)
+- [enriquenegri-cyberlaw/boa-webserver-log-escape-injection-cve-2009-4496](https://github.com/enriquenegri-cyberlaw/boa-webserver-log-escape-injection-cve-2009-4496)
 
 ### CVE-2009-4623 (2010-01-18)
 
@@ -94313,7 +94356,6 @@
 - [Daviddoctor/Samba-CVE-2007-2447-Exploit-Username-Map-Script](https://github.com/Daviddoctor/Samba-CVE-2007-2447-Exploit-Username-Map-Script)
 - [Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-](https://github.com/Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-)
 - [harshiys/CVE-2007-2447-Exploitation-SIEM-Detection-Lab](https://github.com/harshiys/CVE-2007-2447-Exploitation-SIEM-Detection-Lab)
-- [DesmondHinds94/S22_The_Verification_Protocol](https://github.com/DesmondHinds94/S22_The_Verification_Protocol)
 - [EthicalHackingLabs/metasploitable2-exploitation-metasploit](https://github.com/EthicalHackingLabs/metasploitable2-exploitation-metasploit)
 - [Mboatella25/metasploitable-pentest-lab](https://github.com/Mboatella25/metasploitable-pentest-lab)
 - [ronankongala/metasploit-pentest-report](https://github.com/ronankongala/metasploit-pentest-report)
