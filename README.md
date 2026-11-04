@@ -2418,7 +2418,6 @@
 </code>
 
 - [murrez/CVE-2026-8065](https://github.com/murrez/CVE-2026-8065)
-- [MRdark-ops/CVE-2026-8065](https://github.com/MRdark-ops/CVE-2026-8065)
 
 ### CVE-2026-8069 (2026-05-08)
 
@@ -3427,7 +3426,6 @@
 - [murrez/CVE-2026-12227](https://github.com/murrez/CVE-2026-12227)
 - [Hassham1/CVE-2026-12227-visualcomposer-lfi-poc](https://github.com/Hassham1/CVE-2026-12227-visualcomposer-lfi-poc)
 - [be-keb/CVE-2026-12227](https://github.com/be-keb/CVE-2026-12227)
-- [MRdark-ops/CVE-2026-12227](https://github.com/MRdark-ops/CVE-2026-12227)
 
 ### CVE-2026-12243
 - [morzelowski/CVE-2026-12243-NLTK-PoC](https://github.com/morzelowski/CVE-2026-12243-NLTK-PoC)
@@ -4569,7 +4567,6 @@
 </code>
 
 - [murrez/CVE-2026-19660](https://github.com/murrez/CVE-2026-19660)
-- [MRdark-ops/CVE-2026-19660-exploit](https://github.com/MRdark-ops/CVE-2026-19660-exploit)
 
 ### CVE-2026-19679 (2026-08-14)
 
@@ -4896,7 +4893,6 @@
 - [mrk336/Inside-CVE-2026-20805-How-a-Windows-DWM-Flaw-Exposed-Sensitive-Data](https://github.com/mrk336/Inside-CVE-2026-20805-How-a-Windows-DWM-Flaw-Exposed-Sensitive-Data)
 - [SimoesCTT/-SCTT-2026-33-0002-DWM-Visual-Field-Singularity](https://github.com/SimoesCTT/-SCTT-2026-33-0002-DWM-Visual-Field-Singularity)
 - [SimoesCTT/SCTT-2026-33-0002-DWM-Visual-Field-Singularity](https://github.com/SimoesCTT/SCTT-2026-33-0002-DWM-Visual-Field-Singularity)
-- [ZeroDayEvil/CVE-2026-20805-PoC](https://github.com/ZeroDayEvil/CVE-2026-20805-PoC)
 
 ### CVE-2026-20817 (2026-01-13)
 
@@ -4905,7 +4901,6 @@
 
 - [oxfemale/CVE-2026-20817](https://github.com/oxfemale/CVE-2026-20817)
 - [dwgth4i/CVE-2026-20817](https://github.com/dwgth4i/CVE-2026-20817)
-- [ZeroDayEvil/CVE-2026-20817](https://github.com/ZeroDayEvil/CVE-2026-20817)
 
 ### CVE-2026-20820 (2026-01-13)
 
@@ -5328,7 +5323,6 @@
 - [qianlijaingshan/n8n-cve-2026-21858](https://github.com/qianlijaingshan/n8n-cve-2026-21858)
 - [Giangdurian/CVE-2026-21858-and-CVE-2025-68613](https://github.com/Giangdurian/CVE-2026-21858-and-CVE-2025-68613)
 - [yym8538/CVE-2026-21858](https://github.com/yym8538/CVE-2026-21858)
-- [ZeroDayEvil/CVE-2026-21858-n8n-FullChain](https://github.com/ZeroDayEvil/CVE-2026-21858-n8n-FullChain)
 
 ### CVE-2026-21876 (2026-01-08)
 
@@ -6292,7 +6286,6 @@
 - [iLokaas/CVE-2026-24061-payload](https://github.com/iLokaas/CVE-2026-24061-payload)
 - [Ish3ng0m4/CVE-2026-24061-Telnetd](https://github.com/Ish3ng0m4/CVE-2026-24061-Telnetd)
 - [skyejacobson/CyberhawksLab-telnetCVE](https://github.com/skyejacobson/CyberhawksLab-telnetCVE)
-- [ZeroDayEvil/CVE-2026-24061](https://github.com/ZeroDayEvil/CVE-2026-24061)
 - [Yoksulcvt/CVE-2026-24061-Telnet-Authentication-Bypass](https://github.com/Yoksulcvt/CVE-2026-24061-Telnet-Authentication-Bypass)
 
 ### CVE-2026-24072 (2026-05-04)
@@ -6370,7 +6363,6 @@
 - [lennertdefauw/CVE-2026-24291](https://github.com/lennertdefauw/CVE-2026-24291)
 - [tracyliving606/RegPwn](https://github.com/tracyliving606/RegPwn)
 - [uname1able/CVE-2026-24291](https://github.com/uname1able/CVE-2026-24291)
-- [ZeroDayVPN/CVE-2026-24291](https://github.com/ZeroDayVPN/CVE-2026-24291)
 
 ### CVE-2026-24294 (2026-03-10)
 
@@ -8624,7 +8616,6 @@
 - [FranklinF25/cve-2026-31431](https://github.com/FranklinF25/cve-2026-31431)
 - [silentbyte69/copy-fail-CVE-2026-31431-cpp](https://github.com/silentbyte69/copy-fail-CVE-2026-31431-cpp)
 - [Minime794/copyfail](https://github.com/Minime794/copyfail)
-- [ZeroDayEvil/CVE-2026-31431](https://github.com/ZeroDayEvil/CVE-2026-31431)
 - [rifkyards/Copy-Fail-CVE-2026-31431-Kubernetes-PoC](https://github.com/rifkyards/Copy-Fail-CVE-2026-31431-Kubernetes-PoC)
 - [ledlight33/copyfail-check-skill](https://github.com/ledlight33/copyfail-check-skill)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-31431-Copy-Fail](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-31431-Copy-Fail)
@@ -10371,7 +10362,6 @@
 - [Ish3ng0m4/CVE-2026-38526-KrayinCRM](https://github.com/Ish3ng0m4/CVE-2026-38526-KrayinCRM)
 - [Wingleszy/HTB-Nexus-walkthrough](https://github.com/Wingleszy/HTB-Nexus-walkthrough)
 - [Harry178945/CVE-2026-38526](https://github.com/Harry178945/CVE-2026-38526)
-- [MRdark-ops/CVE-2026-38526](https://github.com/MRdark-ops/CVE-2026-38526)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-38526-KrayinCRM-RCE](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-38526-KrayinCRM-RCE)
 - [sh3llc0d3-0x15/CVE-2026-38526-Exploit](https://github.com/sh3llc0d3-0x15/CVE-2026-38526-Exploit)
 
@@ -10813,7 +10803,6 @@
 </code>
 
 - [0xgh057r3c0n/CVE-2026-40281](https://github.com/0xgh057r3c0n/CVE-2026-40281)
-- [MRdark-ops/CVE-2026-40281-exploit](https://github.com/MRdark-ops/CVE-2026-40281-exploit)
 - [rabakuku/CVE-2026-40281](https://github.com/rabakuku/CVE-2026-40281)
 
 ### CVE-2026-40345 (2026-08-20)
@@ -10834,7 +10823,6 @@
 - [0xBlackash/CVE-2026-40369](https://github.com/0xBlackash/CVE-2026-40369)
 - [CCELEND/CVE-2026-40369](https://github.com/CCELEND/CVE-2026-40369)
 - [dbgbgtf1/cve-2026-40369-exploit](https://github.com/dbgbgtf1/cve-2026-40369-exploit)
-- [ZeroDayEvil/CVE-2026-40369-EXPLOIT](https://github.com/ZeroDayEvil/CVE-2026-40369-EXPLOIT)
 
 ### CVE-2026-40453 (2026-04-27)
 
@@ -10981,7 +10969,6 @@
 - [0xABCD01/CVE-2026-41089](https://github.com/0xABCD01/CVE-2026-41089)
 - [0xBlackash/CVE-2026-41089](https://github.com/0xBlackash/CVE-2026-41089)
 - [ADScanPro/CVE-2026-41089-LongLogon](https://github.com/ADScanPro/CVE-2026-41089-LongLogon)
-- [ZeroDayVPN/CVE-2026-41089-Netlogon](https://github.com/ZeroDayVPN/CVE-2026-41089-Netlogon)
 - [SyntaxMethod/CVE-2026-41089-Netlogon-RCE-PoC](https://github.com/SyntaxMethod/CVE-2026-41089-Netlogon-RCE-PoC)
 - [Gillarchnganasan2735/CVE-2026-41089-Netlogon-RCE-PoC](https://github.com/Gillarchnganasan2735/CVE-2026-41089-Netlogon-RCE-PoC)
 - [1posix/CVE-2026-41089-PoC](https://github.com/1posix/CVE-2026-41089-PoC)
@@ -11001,7 +10988,6 @@
 <code>Heap-based buffer overflow in Microsoft Windows DNS allows an unauthorized attacker to execute code over a network.
 </code>
 
-- [ZeroDayEvil/CVE-2026-41096-PoC](https://github.com/ZeroDayEvil/CVE-2026-41096-PoC)
 - [mrk336/DNS-Mayhem-CVE-2026-41096-Deep-Dive](https://github.com/mrk336/DNS-Mayhem-CVE-2026-41096-Deep-Dive)
 - [satchfunky/CVE-2026-41096-POC](https://github.com/satchfunky/CVE-2026-41096-POC)
 - [m0n1x90/CVE-2026-41096](https://github.com/m0n1x90/CVE-2026-41096)
@@ -11147,7 +11133,6 @@
 - [0xDVRK/CVE-2026-41651](https://github.com/0xDVRK/CVE-2026-41651)
 - [gbuyssens/CVE-2026-41651](https://github.com/gbuyssens/CVE-2026-41651)
 - [Thhc10/CVE-2026-41651](https://github.com/Thhc10/CVE-2026-41651)
-- [ZeroDayEvil/CVE-2026-41651](https://github.com/ZeroDayEvil/CVE-2026-41651)
 
 ### CVE-2026-41653 (2026-05-07)
 
@@ -11275,7 +11260,6 @@
 - [0xgh057r3c0n/CVE-2026-41940](https://github.com/0xgh057r3c0n/CVE-2026-41940)
 - [Xrzmodz444/cve-2026-41940-PoC-Linux](https://github.com/Xrzmodz444/cve-2026-41940-PoC-Linux)
 - [hitechcloud-vietnam/cve-2026-41940-PoC](https://github.com/hitechcloud-vietnam/cve-2026-41940-PoC)
-- [ZeroDayEvil/CVE-2026-41940-PoC](https://github.com/ZeroDayEvil/CVE-2026-41940-PoC)
 - [ylerpeek/CVE-2026-41940-PoC-3](https://github.com/ylerpeek/CVE-2026-41940-PoC-3)
 
 ### CVE-2026-42031 (2026-05-13)
@@ -11626,7 +11610,6 @@
 <code>Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Push Notifications allows an authorized attacker to elevate privileges locally.
 </code>
 
-- [ZeroDayEvil/CVE-2026-42978-PoC-Research](https://github.com/ZeroDayEvil/CVE-2026-42978-PoC-Research)
 - [grizzzer/CVE-2026-42978-PoC-Research](https://github.com/grizzzer/CVE-2026-42978-PoC-Research)
 - [SyntaxMethod/CVE-2026-42978-PoC-Research](https://github.com/SyntaxMethod/CVE-2026-42978-PoC-Research)
 - [coactionbrittlemaidenhair51/CVE-2026-42978-PoC-Research](https://github.com/coactionbrittlemaidenhair51/CVE-2026-42978-PoC-Research)
@@ -11638,7 +11621,6 @@
 </code>
 
 - [G4sp4rCS/CVE-2026-42980-POC](https://github.com/G4sp4rCS/CVE-2026-42980-POC)
-- [ZeroDayEvil/CVE-2026-42980-PoC](https://github.com/ZeroDayEvil/CVE-2026-42980-PoC)
 
 ### CVE-2026-43074 (2026-05-06)
 
@@ -11694,6 +11676,7 @@
 - [ankitrawatgit/DirtyFrag-Android-Root-Jailbreak](https://github.com/ankitrawatgit/DirtyFrag-Android-Root-Jailbreak)
 - [HirokiAkihiko/dirtyfrag-research](https://github.com/HirokiAkihiko/dirtyfrag-research)
 - [RemiPelloux/GalaxyCrash](https://github.com/RemiPelloux/GalaxyCrash)
+- [mcxiaochenn/iqooNeo8-V2301A-DirtyFrag](https://github.com/mcxiaochenn/iqooNeo8-V2301A-DirtyFrag)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -11853,7 +11836,6 @@
 - [WitAqua-tools/Root-My-Device](https://github.com/WitAqua-tools/Root-My-Device)
 - [CKwasd/zenfone9-ghostlock](https://github.com/CKwasd/zenfone9-ghostlock)
 - [mo2g/redmi-note-12t-pro-kernel](https://github.com/mo2g/redmi-note-12t-pro-kernel)
-- [ZeroDayEvil/CVE-2026-43499](https://github.com/ZeroDayEvil/CVE-2026-43499)
 - [shubhampathak65/CVE-2026-43499](https://github.com/shubhampathak65/CVE-2026-43499)
 - [YUE546/IQOO-neo7-ghostlock-43499](https://github.com/YUE546/IQOO-neo7-ghostlock-43499)
 - [THORBHAIxTRUSTED/RootMyVivo-Exploit](https://github.com/THORBHAIxTRUSTED/RootMyVivo-Exploit)
@@ -11896,6 +11878,7 @@
 - [tungmv/IONSTACK-S22E](https://github.com/tungmv/IONSTACK-S22E)
 - [SnowbakaQWQ/ghostlock-ares](https://github.com/SnowbakaQWQ/ghostlock-ares)
 - [Linkenpro/ghostlock-pd2118c-4.19.152](https://github.com/Linkenpro/ghostlock-pd2118c-4.19.152)
+- [heikeyangle-code/mi11-venus-temproot](https://github.com/heikeyangle-code/mi11-venus-temproot)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -12113,6 +12096,13 @@
 
 - [joshuavanderpoll/CVE-2026-44262](https://github.com/joshuavanderpoll/CVE-2026-44262)
 - [akash-osmsec/CVE-2026-44262-](https://github.com/akash-osmsec/CVE-2026-44262-)
+
+### CVE-2026-44267 (2026-11-03)
+
+<code>Elo is a purely functional expression language for no-code tools. Prior to 1.0.1, plain Elo strings supplied to defaultFormats.elo.parse(), bin/elo, or elo-lang.org/try can use .constructor.constructor to reach JavaScript Function because the member_access handler in src/transform.ts does not reject meta-properties, src/compilers/javascript.ts emits the surviving property directly, and src/parser.ts accepts constructor as an ordinary identifier. The resulting generated JavaScript executes attacker-selected code in the host runtime. This permits browser script execution and session compromise on the auto-running playground and arbitrary Node.js code execution on library, CI, or DevOps hosts. This plain-string path is distinct from the programmatic AST-object injection issue. This issue is fixed in version 1.0.1.
+</code>
+
+- [umair-aziz025/CVE-2026-44267](https://github.com/umair-aziz025/CVE-2026-44267)
 
 ### CVE-2026-44277 (2026-05-12)
 
@@ -12472,7 +12462,6 @@
 - [0xBlackash/CVE-2026-45585](https://github.com/0xBlackash/CVE-2026-45585)
 - [ChanderManiPandey2022/Yellow-Key-Check](https://github.com/ChanderManiPandey2022/Yellow-Key-Check)
 - [ChanderManiPandey2022/YellowKey-BitLocker-Bypass-CVE-2026-45585-Detect-Fix-Automatically-via-Microsoft-Intune](https://github.com/ChanderManiPandey2022/YellowKey-BitLocker-Bypass-CVE-2026-45585-Detect-Fix-Automatically-via-Microsoft-Intune)
-- [Desireeontrial76/yellowkey-bitlocker](https://github.com/Desireeontrial76/yellowkey-bitlocker)
 - [Neccie/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/Neccie/YellowKey-Bitlocker-CVE-2026-45585)
 - [sinhalese-congocopal6379/YellowKey-BitLocker-CVE-2026-45585](https://github.com/sinhalese-congocopal6379/YellowKey-BitLocker-CVE-2026-45585)
 - [sinhalese-congocopal6379/sinhalese-congocopal6379.github.io](https://github.com/sinhalese-congocopal6379/sinhalese-congocopal6379.github.io)
@@ -13623,7 +13612,6 @@
 <code>Exposure of sensitive information to an unauthorized actor in Windows Win32K allows an authorized attacker to disclose information locally.
 </code>
 
-- [ZeroDayEvil/CVE-2026-50416-writeup-and-PoC](https://github.com/ZeroDayEvil/CVE-2026-50416-writeup-and-PoC)
 - [karollooool/CVE-2026-50416-writeup-and-poc](https://github.com/karollooool/CVE-2026-50416-writeup-and-poc)
 
 ### CVE-2026-50507 (2026-06-09)
@@ -14202,7 +14190,6 @@
 </code>
 
 - [elitexspam/Def4cer](https://github.com/elitexspam/Def4cer)
-- [MRdark-ops/CVE-2026-53787-poc](https://github.com/MRdark-ops/CVE-2026-53787-poc)
 
 ### CVE-2026-53805 (2026-06-17)
 
@@ -14271,7 +14258,6 @@
 - [AtlasVector/Certighost-CVE-2026-54121](https://github.com/AtlasVector/Certighost-CVE-2026-54121)
 - [sam00/POC-CVE-2026-54121-Certighost](https://github.com/sam00/POC-CVE-2026-54121-Certighost)
 - [L0u7r3/certighost](https://github.com/L0u7r3/certighost)
-- [ZeroDayEvil/CVE-2026-54121-Certighost](https://github.com/ZeroDayEvil/CVE-2026-54121-Certighost)
 - [ushst/CVE-2026-54121-adcs-chase-nxc](https://github.com/ushst/CVE-2026-54121-adcs-chase-nxc)
 - [AnubisRedTeam/CVE-2026-54121-Certighost](https://github.com/AnubisRedTeam/CVE-2026-54121-Certighost)
 
@@ -14522,13 +14508,6 @@
 </code>
 
 - [junfuture1103/CVE-2026-55511](https://github.com/junfuture1103/CVE-2026-55511)
-
-### CVE-2026-55559 (2026-08-28)
-
-<code>Yamcs is a mission control framework. Prior to 5.12.8 and 5.13.2, Yamcs inserts templateArgs from POST /api/instances and PATCH /api/instances/{instance} into YAML through VarStatement.append in yamcs-core/src/main/java/org/yamcs/templating/VarStatement.java without YAML-context escaping. The rendered configuration is parsed by YamcsServer.createInstance and loaded by YamcsServerInstance, allowing an attacker to inject a services entry for org.yamcs.ProcessRunner. Deployments without security.yaml expose the operation through the guest superuser, while secured deployments require SystemPrivilege.CreateInstances. Successful exploitation executes commands as the Yamcs service account. This issue is fixed in versions 5.12.8 and 5.13.2.
-</code>
-
-- [MRdark-ops/CVE-2026-55559](https://github.com/MRdark-ops/CVE-2026-55559)
 
 ### CVE-2026-55579 (2026-07-27)
 
@@ -14967,7 +14946,7 @@
 
 ### CVE-2026-58115 (2026-08-11)
 
-<code>A vulnerability has been identified in SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2) (All versions &lt; V4.3.4.1 running Industrial OS with Node-RED installed). Affected devices do not enforce authentication on the Node-RED HTTP interface, allowing unauthenticated access to programming nodes that are capable of executing system commands on the server.\r\nThis could allow an unauthenticated remote attacker to create malicious flows through the HTTP interface in order to execute arbitrary code on the underlying server with maximum privileges.
+<code>A vulnerability has been identified in SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2) (All versions &lt; V4.3.4-1 running Industrial OS with Node-RED installed), SIMATIC IoT2050 Basic (6ES7647-0BA00-0YA2) (All versions &lt; V4.3.4-1 running Industrial OS with Node-RED installed), SIMATIC IoT2050 M.2 (6ES7647-0BB00-1YA2) (All versions &lt; V4.3.4-1 running Industrial OS with Node-RED installed), SIMATIC IoT2050 SM (6ES7647-0CA00-1AA2) (All versions &lt; V4.3.4-1 running Industrial OS with Node-RED installed). Affected devices do not enforce authentication on the Node-RED HTTP interface, allowing unauthenticated access to programming nodes that are capable of executing system commands on the server.\r\nThis could allow an unauthenticated remote attacker to create malicious flows through the HTTP interface in order to execute arbitrary code on the underlying server with maximum privileges.
 </code>
 
 - [foxcornlab/node-red-scanner](https://github.com/foxcornlab/node-red-scanner)
@@ -15388,7 +15367,6 @@
 </code>
 
 - [hypnguyen1209/CVE-2026-62911](https://github.com/hypnguyen1209/CVE-2026-62911)
-- [ZeroDayEvil/CVE-2026-62911](https://github.com/ZeroDayEvil/CVE-2026-62911)
 - [che3axujnya/cve-2026-62911](https://github.com/che3axujnya/cve-2026-62911)
 - [c5z54/cve-2026-62911-poc](https://github.com/c5z54/cve-2026-62911-poc)
 
@@ -15474,7 +15452,6 @@
 - [Sec-Dan/WP2Shell-Scanner](https://github.com/Sec-Dan/WP2Shell-Scanner)
 - [fl0ydsec/CVE-2026-63030](https://github.com/fl0ydsec/CVE-2026-63030)
 - [langz337/CVE-2026-63030](https://github.com/langz337/CVE-2026-63030)
-- [MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026-60137-](https://github.com/MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026-60137-)
 - [hitechcloud-vietnam/wp2shell-PoC](https://github.com/hitechcloud-vietnam/wp2shell-PoC)
 - [0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL](https://github.com/0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL)
 - [Githu836/PoC-for-CVE-2026-63030](https://github.com/Githu836/PoC-for-CVE-2026-63030)
@@ -16117,7 +16094,6 @@
 <code>Improper access control in Windows Cross Device Service allows an authorized attacker to elevate privileges locally.
 </code>
 
-- [ZeroDayVPN/CVE-2026-66804-CrossDevice-Service-EoP](https://github.com/ZeroDayVPN/CVE-2026-66804-CrossDevice-Service-EoP)
 - [DavidCarliez/CVE-2026-66804-CrossDevice-LPE](https://github.com/DavidCarliez/CVE-2026-66804-CrossDevice-LPE)
 - [CypherHippie/CVE-2026-66804](https://github.com/CypherHippie/CVE-2026-66804)
 - [Rat5ak/CVE-2026-66804-CrossDevice-Service-EoP](https://github.com/Rat5ak/CVE-2026-66804-CrossDevice-Service-EoP)
@@ -17070,7 +17046,6 @@
 - [HackSpeak/CVE-2026-75604](https://github.com/HackSpeak/CVE-2026-75604)
 - [e4zyy/Project-CVE-2026-75604](https://github.com/e4zyy/Project-CVE-2026-75604)
 - [FORTBRIDGE-UK/cve-2026-75604](https://github.com/FORTBRIDGE-UK/cve-2026-75604)
-- [ZeroDayEvil/CVE-2026-75604-PoC](https://github.com/ZeroDayEvil/CVE-2026-75604-PoC)
 
 ### CVE-2026-75616 (2026-08-19)
 
@@ -17483,6 +17458,9 @@
 
 ### CVE-2026-78804
 - [repo4Chu/CVE-2026-78804_Dolibarr_authenticated_SQL_injection](https://github.com/repo4Chu/CVE-2026-78804_Dolibarr_authenticated_SQL_injection)
+
+### CVE-2026-78818
+- [ammarkrblt/CVE-2026-78818-cyberpanel-phpselection-rce](https://github.com/ammarkrblt/CVE-2026-78818-cyberpanel-phpselection-rce)
 
 ### CVE-2026-78823
 - [saykino/CVE-2026-78823](https://github.com/saykino/CVE-2026-78823)
@@ -17941,7 +17919,6 @@
 </code>
 
 - [karollooool/CVE-2026-83991-writeup-and-poc](https://github.com/karollooool/CVE-2026-83991-writeup-and-poc)
-- [ZeroDayVPN/CVE-2026-83991-WriteUP-and-PoC](https://github.com/ZeroDayVPN/CVE-2026-83991-WriteUP-and-PoC)
 
 ### CVE-2026-84118 (2026-09-01)
 
@@ -18433,6 +18410,13 @@
 
 - [minanagehsalalma/zte-smartlife-app-pwned](https://github.com/minanagehsalalma/zte-smartlife-app-pwned)
 
+### CVE-2026-86583 (2026-09-23)
+
+<code>The Import and export users and customers plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.4.17 via the plugin's own export and re-import workflow. The vulnerability exists because the exporter writes CSV cells using fputcsv() with a NUL byte (\0) as the escape character, while the importer parses the same file using SplFileObject::fgetcsv() with only a single delimiter argument, causing PHP's default backslash escape character to be applied instead; because the export column layout places display_name immediately before the role column and nickname immediately after, an attacker can store crafted values in those two profile fields — saved by WordPress core via the standard profile page — such that the escape mismatch causes the parser to merge the display_name cell into the role field and rebalance the column count via nickname, yielding administrator as the parsed role for their own row when it reaches the import_user function's add_role function. This makes it possible for authenticated attackers with Subscriber-level access or above to escalate their privileges to Administrator. Exploitation requires a site administrator to trigger the plugin's documented export re-import migration with both &quot;Update existing users&quot; and &quot;Update roles for existing users&quot; set to &quot;yes&quot;.
+</code>
+
+- [saretawa/CVE-2026-86583](https://github.com/saretawa/CVE-2026-86583)
+
 ### CVE-2026-86595 (2026-09-28)
 
 <code>Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in Iron Mountain Archiving Services Inc. EnVision allows SQL Injection.\n\nThis issue affects enVision: before 260655.
@@ -18577,7 +18561,6 @@
 - [abatsakidis/wp-cve-2026-87902-checker](https://github.com/abatsakidis/wp-cve-2026-87902-checker)
 - [Maalfer/CVE-2026-87902-exploit](https://github.com/Maalfer/CVE-2026-87902-exploit)
 - [HackfutSecRoot/CVE-2026-87902](https://github.com/HackfutSecRoot/CVE-2026-87902)
-- [MRdark-ops/CVE-2026-87902](https://github.com/MRdark-ops/CVE-2026-87902)
 - [tonydelouvre/CVE-2026-87902](https://github.com/tonydelouvre/CVE-2026-87902)
 - [xiaxiu555/cve-2026-87902](https://github.com/xiaxiu555/cve-2026-87902)
 
@@ -19333,7 +19316,6 @@
 - [HORKimhab/CVE-2026-94545](https://github.com/HORKimhab/CVE-2026-94545)
 - [Hassham1/CVE-2026-94545-nextjs-og-poc](https://github.com/Hassham1/CVE-2026-94545-nextjs-og-poc)
 - [EQSTLab/CVE-2026-94545](https://github.com/EQSTLab/CVE-2026-94545)
-- [MRdark-ops/CVE-2026-94545-](https://github.com/MRdark-ops/CVE-2026-94545-)
 
 ### CVE-2026-94597
 - [canhieu/CVE-2026-94597-poc](https://github.com/canhieu/CVE-2026-94597-poc)
@@ -19406,7 +19388,6 @@
 </code>
 
 - [Nxploited/CVE-2026-96451](https://github.com/Nxploited/CVE-2026-96451)
-- [MRdark-ops/wpexploit-CVE-2026-96451](https://github.com/MRdark-ops/wpexploit-CVE-2026-96451)
 
 ### CVE-2026-96512 (2026-09-23)
 
@@ -19668,7 +19649,7 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nposix-cpu-timers: Prevent freeing a timer which is queued on the expiry list\n\nKijo analyzed another race in the POSIX CPU timer code:\n\nCommit bf635681c906 converted cpu_timer::firing from a tristate value to a\nboolean. This lost the distinction between &quot;not owned by the firing list&quot;\nand &quot;still owned, but delivery was canceled&quot;. The resulting race is:\n\n    expiry handler              timer_settime()        timer_delete()\n    --------------              ---------------        --------------\n    collect timer onto\n    private firing list\n    firing = true\n                                observes firing = true\n                                firing = false\n                                return TIMER_RETRY\n                                wait for handler\n                                                       observes firing = false\n                                                       finish deletion\n                                                       unhash and free timer\n    resume list traversal\n    read freed elist.next\n    -&gt; UAF\n\nThe firing bit is clearly the wrong indicator since that commit.\n\nCheck whether the timer is queued on the expiry list or not instead. If it\nis queued clear the firing bit to prevent signal delivery as before and\nreturn TIMER_RETRY so the caller unlocks the timer which allows the expiry\ncode to make progress and remove it from the list.
 </code>
 
-- [imkidz0/poc-CVE-2026-98258](https://github.com/imkidz0/poc-CVE-2026-98258)
+- [imkidz0/Trilemma](https://github.com/imkidz0/Trilemma)
 
 ### CVE-2026-98260 (2026-10-06)
 
@@ -19710,6 +19691,8 @@
 - [kailashrs/infinitylock-app](https://github.com/kailashrs/infinitylock-app)
 - [YodonTan/cve-2026-98260-harmonyos-applicability](https://github.com/YodonTan/cve-2026-98260-harmonyos-applicability)
 - [RMDycz/K80Pro-miro-CVE-2026-98260](https://github.com/RMDycz/K80Pro-miro-CVE-2026-98260)
+- [WantenMN/cve-2026-98260-adb](https://github.com/WantenMN/cve-2026-98260-adb)
+- [Haor/CVE-2026-98260-OPD2513](https://github.com/Haor/CVE-2026-98260-OPD2513)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -19790,6 +19773,8 @@
 - [zenjabba/cve-2026-98432-mitigation](https://github.com/zenjabba/cve-2026-98432-mitigation)
 - [t0ge-kun/CVE-2026-98432-check](https://github.com/t0ge-kun/CVE-2026-98432-check)
 - [downitch/CVE-2026-98432_poc](https://github.com/downitch/CVE-2026-98432_poc)
+- [cybervenom01/Mitigation_CVE-2026-98432](https://github.com/cybervenom01/Mitigation_CVE-2026-98432)
+- [ScudraServicos/cve-2026-98432-mitigation](https://github.com/ScudraServicos/cve-2026-98432-mitigation)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -20078,7 +20063,6 @@
 </code>
 
 - [murrez/CVE-2026-102428](https://github.com/murrez/CVE-2026-102428)
-- [MRdark-ops/sqli-cve-2026-102428](https://github.com/MRdark-ops/sqli-cve-2026-102428)
 
 ### CVE-2026-102489 (2026-09-30)
 
@@ -20111,7 +20095,7 @@
 
 ### CVE-2026-102718 (2026-09-29)
 
-<code>hey,\n\n\n\n`_nx_snmp_utility_object_id_get` in the NetX Duo SNMP addon does not validate the claimed OID data length against the actual buffer size when the OID uses BER multibyte length encoding, so a remote attacker can send a crafted SNMP packet with a multibyte OID length larger than the available buffer, causing the parser to read past the packet buffer boundary into adjacent heap memory. the OOB bytes are decoded as OID component values and written into the agents internal OID string buffer, corrupting agent state. on systems with memory protection the OOB read poses the risk of crashing the SNMP agent thread, causing denial of service. on bare metal embedded systems without memory protection the read silently succeeds and corrupts the agents internal state with heap data.
+<code>In Eclipse ThreadX NetX Duo versions up to and including 6.5.2.202603, the SNMP agent's OID parser uses a multi-byte BER length from the request without checking it against the bytes present, and reads past the end of the packet buffer. A remote, unauthenticated attacker can send a crafted SNMP request that makes the agent read adjacent memory into its OID state, faulting the agent on targets with memory protection.
 </code>
 
 - [D7EAD/CVE-2026-102718](https://github.com/D7EAD/CVE-2026-102718)
@@ -20681,7 +20665,6 @@
 - [horizon3ai/CVE-2026-106173](https://github.com/horizon3ai/CVE-2026-106173)
 - [0xBlackash/CVE-2026-106173](https://github.com/0xBlackash/CVE-2026-106173)
 - [tc4dy/CVE-2026-106173-PoC-Exploit](https://github.com/tc4dy/CVE-2026-106173-PoC-Exploit)
-- [MRdark-ops/rce-FortiSIEM](https://github.com/MRdark-ops/rce-FortiSIEM)
 - [aduli198/CVE-2026-106173](https://github.com/aduli198/CVE-2026-106173)
 
 ### CVE-2026-106378 (2026-10-06)
@@ -20907,7 +20890,11 @@
 
 - [lukaspalm/CVE-2026-109506](https://github.com/lukaspalm/CVE-2026-109506)
 
-### CVE-2026-109518
+### CVE-2026-109518 (2026-11-04)
+
+<code>On Debian, Ubuntu, and derivative Linux distributions, an on-path attacker who can manipulate the HTTP traffic (including a malicious mirror or proxy) between an APT client and an archive server triggered by a package install can trick the client into installing an attacker-controlled unverified package and achieve remote code execution with root privileges.\n\n\n\nThe vulnerability is caused by the reuse of hard links and requires the client to follow redirects and retry the download of package files. It requires the client to have a non-zero Acquire::Retries configuration setting; the value 3 is the default starting with Debian 12 (bookworm) and Ubuntu 22.04 LTS (Jammy Jellyfish), so older releases are unaffected in a default configuration
+</code>
+
 - [NeoArtemis37/PHP2shell](https://github.com/NeoArtemis37/PHP2shell)
 
 ### CVE-2026-109519 (2026-10-13)
@@ -21103,7 +21090,6 @@
 - [cozybear-dev/cve-2026-109618](https://github.com/cozybear-dev/cve-2026-109618)
 - [paulamckenzie9193/php2shell-check](https://github.com/paulamckenzie9193/php2shell-check)
 - [syrex1013/CVE-2026-109618](https://github.com/syrex1013/CVE-2026-109618)
-- [sdminev/php2shell-poc](https://github.com/sdminev/php2shell-poc)
 - [xqus/php2shell-check](https://github.com/xqus/php2shell-check)
 - [r3c0nd4t4/php2shell-verify](https://github.com/r3c0nd4t4/php2shell-verify)
 - [godylockz/CVE-2026-109618-109619](https://github.com/godylockz/CVE-2026-109618-109619)
@@ -21420,7 +21406,6 @@
 - [gukHyeonGeum/cve-2026-109618-109619-el7](https://github.com/gukHyeonGeum/cve-2026-109618-109619-el7)
 - [joec4i/docker-library-php](https://github.com/joec4i/docker-library-php)
 - [alefkaue/php2shell-security-assessor](https://github.com/alefkaue/php2shell-security-assessor)
-- [MRdark-ops/php2shell](https://github.com/MRdark-ops/php2shell)
 - [ryuhaneul/php-el7-cve-2026-109618](https://github.com/ryuhaneul/php-el7-cve-2026-109618)
 - [umair-aziz025/PHP2Shell](https://github.com/umair-aziz025/PHP2Shell)
 - [isaca0315/cve-2026-109618-109619-session-upload-progress-trigger](https://github.com/isaca0315/cve-2026-109618-109619-session-upload-progress-trigger)
@@ -21681,6 +21666,10 @@
 - [okumura-pico/php-7.2.11-cve-2026-109618-fix](https://github.com/okumura-pico/php-7.2.11-cve-2026-109618-fix)
 - [catscarlet/php-fpm-docker-PHP-8.0-CVE-2026-109618-109619-patched](https://github.com/catscarlet/php-fpm-docker-PHP-8.0-CVE-2026-109618-109619-patched)
 - [MuhammadUwais/php2shell-php-fpm-rce](https://github.com/MuhammadUwais/php2shell-php-fpm-rce)
+- [WKL-Sec/CVE-2026-109618](https://github.com/WKL-Sec/CVE-2026-109618)
+- [ybbond/php2shell-lab](https://github.com/ybbond/php2shell-lab)
+- [somany-flower4u/php2shell-analysis](https://github.com/somany-flower4u/php2shell-analysis)
+- [ncpz/cloudflare-php-ctf-research](https://github.com/ncpz/cloudflare-php-ctf-research)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21959,6 +21948,7 @@
 - [fortbridge/cve-2026-111497-wordpress-pingback-brotli](https://github.com/fortbridge/cve-2026-111497-wordpress-pingback-brotli)
 - [EQSTLab/CVE-2026-111497](https://github.com/EQSTLab/CVE-2026-111497)
 - [Certbn/Brotli-Node.js-CVE-2026-111497-Broccoli2Shell-Node2Shell-HTTP2Shell-](https://github.com/Certbn/Brotli-Node.js-CVE-2026-111497-Broccoli2Shell-Node2Shell-HTTP2Shell-)
+- [MelissaSkywalkz/broccoli2shell-gis](https://github.com/MelissaSkywalkz/broccoli2shell-gis)
 
 ### CVE-2026-111585 (2026-10-27)
 
@@ -22392,6 +22382,14 @@
 
 - [Cushz/CVE-2026-118238](https://github.com/Cushz/CVE-2026-118238)
 
+### CVE-2026-118306 (2026-10-27)
+
+<code>Use after free in FileSystem in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)
+</code>
+
+- [Toddoward/chromium-audit](https://github.com/Toddoward/chromium-audit)
+- [al4n4n/CVE-2026-118306](https://github.com/al4n4n/CVE-2026-118306)
+
 ### CVE-2026-118776 (2026-10-29)
 
 <code>Forge (also called node-forge) is a native implementation of Transport Layer Security in JavaScript. Prior to 1.4.1, the affected implementation used decipher.finish(), CBC and ECB modes, PKCS#7 padding to process the relevant input or security decision. node-forge validated only the final byte of PKCS#7 padding during CBC and ECB decryption and accepted zero, oversized, or mismatched padding bytes. Malformed ciphertext could consequently be accepted and up to four plaintext blocks could be silently removed, causing an integrity failure in applications that treated successful decryption as proof of valid padding. This issue is fixed in version 1.4.1.
@@ -22420,6 +22418,14 @@
 
 - [foxcornlab/wordpress-core-scanner](https://github.com/foxcornlab/wordpress-core-scanner)
 - [lysophavin18/CVE-2026-119977](https://github.com/lysophavin18/CVE-2026-119977)
+- [Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4](https://github.com/Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4)
+
+### CVE-2026-120019 (2026-10-31)
+
+<code>The W3 Total Cache plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'comment' parameter in all versions up to, and including, 2.10.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This requires HTML Minify to be enabled with the default 'mfunc' entry present in the ignored-comment stems list, and exploitation depends on the attacker predicting the md5(time()) placeholder namespace by reading the server clock via the HTTP Date response header within the applicable time window.
+</code>
+
+- [Hassham1/CVE-2026-120019-w3tc-mfunc-comment-xss-poc](https://github.com/Hassham1/CVE-2026-120019-w3tc-mfunc-comment-xss-poc)
 
 ### CVE-2026-120218 (2026-11-01)
 
@@ -25955,7 +25961,6 @@
 - [kuyrathdaro/cve-2025-14847](https://github.com/kuyrathdaro/cve-2025-14847)
 - [joshuavanderpoll/CVE-2025-14847](https://github.com/joshuavanderpoll/CVE-2025-14847)
 - [tunahantekeoglu/MongoDeepDive](https://github.com/tunahantekeoglu/MongoDeepDive)
-- [vfa-tuannt/CVE-2025-14847](https://github.com/vfa-tuannt/CVE-2025-14847)
 - [j0lt-github/mongobleedburp](https://github.com/j0lt-github/mongobleedburp)
 - [FurkanKAYAPINAR/CVE-2025-14847-MongoBleed-Exploit](https://github.com/FurkanKAYAPINAR/CVE-2025-14847-MongoBleed-Exploit)
 - [NoNameError/MongoBLEED---CVE-2025-14847-POC-](https://github.com/NoNameError/MongoBLEED---CVE-2025-14847-POC-)
@@ -35377,7 +35382,6 @@
 - [qianlijaingshan/n8n-cve-2026-21858](https://github.com/qianlijaingshan/n8n-cve-2026-21858)
 - [Giangdurian/CVE-2026-21858-and-CVE-2025-68613](https://github.com/Giangdurian/CVE-2026-21858-and-CVE-2025-68613)
 - [rmhowe425/POC-CVE-2025-68613](https://github.com/rmhowe425/POC-CVE-2025-68613)
-- [ZeroDayEvil/CVE-2026-21858-n8n-FullChain](https://github.com/ZeroDayEvil/CVE-2026-21858-n8n-FullChain)
 - [bijoumj/cve-2025-68613-ctf](https://github.com/bijoumj/cve-2025-68613-ctf)
 
 ### CVE-2025-68616 (2026-01-19)
@@ -38798,7 +38802,6 @@
 
 - [Ntn10/cve-2024-10441-synology-rce](https://github.com/Ntn10/cve-2024-10441-synology-rce)
 - [SHIFox8/synology-dsm-vuln-scanner](https://github.com/SHIFox8/synology-dsm-vuln-scanner)
-- [MRdark-ops/scanner-syno](https://github.com/MRdark-ops/scanner-syno)
 
 ### CVE-2024-10448 (2024-10-28)
 
@@ -50869,8 +50872,8 @@
 - [jakabakos/CVE-2023-26360-adobe-coldfusion-rce-exploit](https://github.com/jakabakos/CVE-2023-26360-adobe-coldfusion-rce-exploit)
 - [CuriousLearnerDev/ColdFusion_EXp](https://github.com/CuriousLearnerDev/ColdFusion_EXp)
 - [H3rm1tR3b0rn/CVE-2023-26360-RCE](https://github.com/H3rm1tR3b0rn/CVE-2023-26360-RCE)
-- [RyanRodrigues880/CVE-2023-26360](https://github.com/RyanRodrigues880/CVE-2023-26360)
 - [joaoaugustom/Adobe_ColdFusion_RCE_Unauthenticated](https://github.com/joaoaugustom/Adobe_ColdFusion_RCE_Unauthenticated)
+- [DefaultCh40s/CVE-2023-26360](https://github.com/DefaultCh40s/CVE-2023-26360)
 
 ### CVE-2023-26469 (2023-08-17)
 
@@ -68818,7 +68821,7 @@
 <code>An attacker who submits a crafted tar file with size in header struct being 0 may be able to trigger an calling of malloc(0) for a variable gnu_longname, causing an out-of-bounds read.
 </code>
 
-- [nicklondal/libtar-CVE-2021-33644-followup](https://github.com/nicklondal/libtar-CVE-2021-33644-followup)
+- [nilondal/libtar-CVE-2021-33644-followup](https://github.com/nilondal/libtar-CVE-2021-33644-followup)
 
 ### CVE-2021-33690 (2021-09-15)
 
@@ -70570,6 +70573,7 @@
 - [berraesen/apache-cve-2021-42013-lab](https://github.com/berraesen/apache-cve-2021-42013-lab)
 - [andreamammano89-maker/CVE-2021-42013_821311](https://github.com/andreamammano89-maker/CVE-2021-42013_821311)
 - [CyberCTF/vulhub-httpd-cve-2021-42013](https://github.com/CyberCTF/vulhub-httpd-cve-2021-42013)
+- [mhd964/CVE-2021-42013](https://github.com/mhd964/CVE-2021-42013)
 
 ### CVE-2021-42023 (2021-12-14)
 
@@ -87544,6 +87548,7 @@
 - [Th3Purge/CVE-2017-7921-Exploit](https://github.com/Th3Purge/CVE-2017-7921-Exploit)
 - [m7arm4n/CVE-2017-7921](https://github.com/m7arm4n/CVE-2017-7921)
 - [MK-ULTRA-MK-ULTRA/CVE-2017-7921-2026-writeup](https://github.com/MK-ULTRA-MK-ULTRA/CVE-2017-7921-2026-writeup)
+- [intcost/cve-2017-7921-hikvision-poc](https://github.com/intcost/cve-2017-7921-hikvision-poc)
 
 ### CVE-2017-7998 (2018-01-08)
 
