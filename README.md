@@ -5154,6 +5154,7 @@
 - [redpack-kr/Ashwesker-CVE-2026-21440](https://github.com/redpack-kr/Ashwesker-CVE-2026-21440)
 - [k0nnect/cve-2026-21440-writeup-poc](https://github.com/k0nnect/cve-2026-21440-writeup-poc)
 - [TibbersV6/CVE-2026-21440-POC-EXP](https://github.com/TibbersV6/CVE-2026-21440-POC-EXP)
+- [Rui0828/CVE-2026-21440-adonisjs-bodyparser](https://github.com/Rui0828/CVE-2026-21440-adonisjs-bodyparser)
 
 ### CVE-2026-21445 (2026-01-02)
 
@@ -11890,7 +11891,7 @@
 - [li-dahua/s25u-ghostlock-kernelsu-lkm](https://github.com/li-dahua/s25u-ghostlock-kernelsu-lkm)
 - [yichen115/ghostlock-kirkwood](https://github.com/yichen115/ghostlock-kirkwood)
 - [RetributionByRevenue/motogstylus2023-root](https://github.com/RetributionByRevenue/motogstylus2023-root)
-- [Delta-Water/phq110-root](https://github.com/Delta-Water/phq110-root)
+- [Delta-Water/CVE-2026-43499-phq110-root](https://github.com/Delta-Water/CVE-2026-43499-phq110-root)
 - [tungmv/IONSTACK-S22E](https://github.com/tungmv/IONSTACK-S22E)
 - [SnowbakaQWQ/ghostlock-ares](https://github.com/SnowbakaQWQ/ghostlock-ares)
 
@@ -14653,7 +14654,7 @@
 </code>
 
 - [Udyz/RDPBleed](https://github.com/Udyz/RDPBleed)
-- [danarhirany300-ctrl/CVE-2026-56190-RCE](https://github.com/danarhirany300-ctrl/CVE-2026-56190-RCE)
+- [danarhirany300-ctrl/CVE-2026-56190-Full-RCE-Chainn](https://github.com/danarhirany300-ctrl/CVE-2026-56190-Full-RCE-Chainn)
 
 ### CVE-2026-56290 (2026-06-29)
 
@@ -14970,6 +14971,7 @@
 </code>
 
 - [foxcornlab/node-red-scanner](https://github.com/foxcornlab/node-red-scanner)
+- [al4n4n/CVE-2026-58115](https://github.com/al4n4n/CVE-2026-58115)
 
 ### CVE-2026-58138 (2026-06-30)
 
@@ -15387,7 +15389,7 @@
 
 - [hypnguyen1209/CVE-2026-62911](https://github.com/hypnguyen1209/CVE-2026-62911)
 - [ZeroDayEvil/CVE-2026-62911](https://github.com/ZeroDayEvil/CVE-2026-62911)
-- [fahise/cve-2026-62911](https://github.com/fahise/cve-2026-62911)
+- [che3axujnya/cve-2026-62911](https://github.com/che3axujnya/cve-2026-62911)
 - [c5z54/cve-2026-62911-poc](https://github.com/c5z54/cve-2026-62911-poc)
 
 ### CVE-2026-62958 (2026-10-30)
@@ -21628,7 +21630,7 @@
 - [Captain-AI-Hub/PHP2shell](https://github.com/Captain-AI-Hub/PHP2shell)
 - [GarciaG1/charla-php2shell](https://github.com/GarciaG1/charla-php2shell)
 - [RedSideSecurity/php2shell](https://github.com/RedSideSecurity/php2shell)
-- [fahise/cve-2026-109618-cve-2026-109619-poc](https://github.com/fahise/cve-2026-109618-cve-2026-109619-poc)
+- [che3axujnya/cve-2026-109618-cve-2026-109619-poc](https://github.com/che3axujnya/cve-2026-109618-cve-2026-109619-poc)
 - [Gitsimbanyi2/php2shell-advisory-response](https://github.com/Gitsimbanyi2/php2shell-advisory-response)
 - [Dungsocool/PHP2Shell](https://github.com/Dungsocool/PHP2Shell)
 - [skill-tzy/php2shell-poc](https://github.com/skill-tzy/php2shell-poc)
@@ -21665,6 +21667,7 @@
 - [SecOpsLimited/php2shell-finder](https://github.com/SecOpsLimited/php2shell-finder)
 - [Danyw24/the-php2shell-recipe](https://github.com/Danyw24/the-php2shell-recipe)
 - [SquidSec/php2shell](https://github.com/SquidSec/php2shell)
+- [okumura-pico/php-7.2.11-cve-2026-109618-fix](https://github.com/okumura-pico/php-7.2.11-cve-2026-109618-fix)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21724,6 +21727,13 @@
 </code>
 
 - [capivara-research/CVE-2026-110025](https://github.com/capivara-research/CVE-2026-110025)
+
+### CVE-2026-110186 (2026-10-29)
+
+<code>IBM Langflow OSS 1.0.0 through 1.12.8 could allow a remote attacker to execute arbitrary code due to improper control of code generation.
+</code>
+
+- [al4n4n/CVE-2026-110186](https://github.com/al4n4n/CVE-2026-110186)
 
 ### CVE-2026-110200 (2026-10-29)
 
@@ -22389,6 +22399,13 @@
 </code>
 
 - [hyderpwn/CVE-pipeshub](https://github.com/hyderpwn/CVE-pipeshub)
+
+### CVE-2026-119977 (2026-10-31)
+
+<code>WordPress Core is vulnerable to Remote Code Execution in versions 4.7 through 7.1.3. This is due to predictable, web-accessible staging paths used during full-package core upgrades. This makes it possible for unauthenticated attackers to execute code on the server during the upgrade window.
+</code>
+
+- [foxcornlab/wordpress-core-scanner](https://github.com/foxcornlab/wordpress-core-scanner)
 
 ### CVE-2026-120218 (2026-11-01)
 
@@ -28802,6 +28819,7 @@
 - [Fomovet/cve-2025-32463](https://github.com/Fomovet/cve-2025-32463)
 - [0xdak/CVE-2025-32463_exploit](https://github.com/0xdak/CVE-2025-32463_exploit)
 - [jigrit/CVE-2025-32463](https://github.com/jigrit/CVE-2025-32463)
+- [roock3t/CVE-2025-32463](https://github.com/roock3t/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -58712,6 +58730,13 @@
 
 - [sreeram281997/CVE-2022-21668-Pipenv-RCE-vulnerability](https://github.com/sreeram281997/CVE-2022-21668-Pipenv-RCE-vulnerability)
 
+### CVE-2022-21675 (2022-01-12)
+
+<code>Bytecode Viewer (BCV) is a Java/Android reverse engineering suite. Versions of the package prior to 2.11.0 are vulnerable to Arbitrary File Write via Archive Extraction (AKA &quot;Zip Slip&quot;). The vulnerability is exploited using a specially crafted archive that holds directory traversal filenames (e.g. ../../evil.exe). The Zip Slip vulnerability can affect numerous archive formats, including zip, jar, tar, war, cpio, apk, rar and 7z. The attacker can then overwrite executable files and either invoke them remotely or wait for the system or user to call them, thus achieving remote command execution on the victim’s machine. The impact of a Zip Slip vulnerability would allow an attacker to create or overwrite existing files on the filesystem. In the context of a web application, a web shell could be placed within the application directory to achieve code execution. All users should upgrade to BCV v2.11.0 when possible to receive a patch. There are no recommended workarounds aside from upgrading.
+</code>
+
+- [themd-me/CVE-2022-21675](https://github.com/themd-me/CVE-2022-21675)
+
 ### CVE-2022-21728 (2022-02-03)
 
 <code>Tensorflow is an Open Source Machine Learning Framework. The implementation of shape inference for `ReverseSequence` does not fully validate the value of `batch_dim` and can result in a heap OOB read. There is a check to make sure the value of `batch_dim` does not go over the rank of the input, but there is no check for negative values. Negative dimensions are allowed in some cases to mimic Python's negative indexing (i.e., indexing from the end of the array), however if the value is too negative then the implementation of `Dim` would access elements before the start of an array. The fix will be included in TensorFlow 2.8.0. We will also cherrypick this commit on TensorFlow 2.7.1, TensorFlow 2.6.3, and TensorFlow 2.5.3, as these are also affected and still in supported range.
@@ -59626,6 +59651,13 @@
 </code>
 
 - [manuelz120/CVE-2022-23940](https://github.com/manuelz120/CVE-2022-23940)
+
+### CVE-2022-23943 (2022-03-14)
+
+<code>Out-of-bounds Write vulnerability in mod_sed of Apache HTTP Server allows an attacker to overwrite heap memory with possibly attacker provided data. This issue affects Apache HTTP Server 2.4 version 2.4.52 and prior versions.
+</code>
+
+- [rwmicro/CVE-2022-23943](https://github.com/rwmicro/CVE-2022-23943)
 
 ### CVE-2022-23967
 - [MaherAzzouzi/CVE-2022-23967](https://github.com/MaherAzzouzi/CVE-2022-23967)
@@ -68774,6 +68806,13 @@
 
 - [benschlueter/CVE-2021-33624](https://github.com/benschlueter/CVE-2021-33624)
 
+### CVE-2021-33644 (2022-08-09)
+
+<code>An attacker who submits a crafted tar file with size in header struct being 0 may be able to trigger an calling of malloc(0) for a variable gnu_longname, causing an out-of-bounds read.
+</code>
+
+- [nicklondal/libtar-CVE-2021-33644-followup](https://github.com/nicklondal/libtar-CVE-2021-33644-followup)
+
 ### CVE-2021-33690 (2021-09-15)
 
 <code>Server-Side Request Forgery (SSRF) vulnerability has been detected in the SAP NetWeaver Development Infrastructure Component Build Service versions - 7.11, 7.20, 7.30, 7.31, 7.40, 7.50The SAP NetWeaver Development Infrastructure Component Build Service allows a threat actor who has access to the server to perform proxy attacks on server by sending crafted queries. Due to this, the threat actor could completely compromise sensitive data residing on the Server and impact its availability.Note: The impact of this vulnerability depends on whether SAP NetWeaver Development Infrastructure (NWDI) runs on the intranet or internet. The CVSS score reflects the impact considering the worst-case scenario that it runs on the internet.
@@ -74876,6 +74915,7 @@
 </code>
 
 - [m4rm0k/CVE-2020-10135-BIAS](https://github.com/m4rm0k/CVE-2020-10135-BIAS)
+- [pr0t31n/Aether-B](https://github.com/pr0t31n/Aether-B)
 
 ### CVE-2020-10136 (2020-06-02)
 
@@ -79952,6 +79992,7 @@
 </code>
 
 - [francozappa/knob](https://github.com/francozappa/knob)
+- [pr0t31n/Aether-B](https://github.com/pr0t31n/Aether-B)
 
 ### CVE-2019-9511 (2019-08-13)
 
@@ -82944,7 +82985,6 @@
 </code>
 
 - [Al1ex/CVE-2018-1297](https://github.com/Al1ex/CVE-2018-1297)
-- [48484848484848/Jmeter-CVE-2018-1297-](https://github.com/48484848484848/Jmeter-CVE-2018-1297-)
 - [CyberCTF/vulhub-jmeter-cve-2018-1297](https://github.com/CyberCTF/vulhub-jmeter-cve-2018-1297)
 
 ### CVE-2018-1304 (2018-02-28)
@@ -85589,7 +85629,7 @@
 - [SOME-1HING/CVE-2018-16763](https://github.com/SOME-1HING/CVE-2018-16763)
 - [ShadowR-Root/fuel-cms-cve-2018-16763-python3-port](https://github.com/ShadowR-Root/fuel-cms-cve-2018-16763-python3-port)
 - [gh0stuncle/CVE-2018-16763_fuel_cms_exploit](https://github.com/gh0stuncle/CVE-2018-16763_fuel_cms_exploit)
-- [fahise/cve-2018-16763](https://github.com/fahise/cve-2018-16763)
+- [che3axujnya/cve-2018-16763](https://github.com/che3axujnya/cve-2018-16763)
 
 ### CVE-2018-16843 (2018-11-07)
 
