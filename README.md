@@ -3079,6 +3079,7 @@
 - [izxci/CVE-2026-10795](https://github.com/izxci/CVE-2026-10795)
 - [rootdirective-sec/CVE-2026-10795-Lab](https://github.com/rootdirective-sec/CVE-2026-10795-Lab)
 - [HORKimhab/CVE-2026-10795](https://github.com/HORKimhab/CVE-2026-10795)
+- [T54R/CVE-2026-10795_POC](https://github.com/T54R/CVE-2026-10795_POC)
 
 ### CVE-2026-10817 (2026-06-30)
 
@@ -11894,6 +11895,7 @@
 - [Delta-Water/CVE-2026-43499-phq110-root](https://github.com/Delta-Water/CVE-2026-43499-phq110-root)
 - [tungmv/IONSTACK-S22E](https://github.com/tungmv/IONSTACK-S22E)
 - [SnowbakaQWQ/ghostlock-ares](https://github.com/SnowbakaQWQ/ghostlock-ares)
+- [Linkenpro/ghostlock-pd2118c-4.19.152](https://github.com/Linkenpro/ghostlock-pd2118c-4.19.152)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -12471,8 +12473,6 @@
 - [ChanderManiPandey2022/Yellow-Key-Check](https://github.com/ChanderManiPandey2022/Yellow-Key-Check)
 - [ChanderManiPandey2022/YellowKey-BitLocker-Bypass-CVE-2026-45585-Detect-Fix-Automatically-via-Microsoft-Intune](https://github.com/ChanderManiPandey2022/YellowKey-BitLocker-Bypass-CVE-2026-45585-Detect-Fix-Automatically-via-Microsoft-Intune)
 - [Desireeontrial76/yellowkey-bitlocker](https://github.com/Desireeontrial76/yellowkey-bitlocker)
-- [tchuin2609/YellowKey-Bitlocker](https://github.com/tchuin2609/YellowKey-Bitlocker)
-- [tchuin2609/tchuin2609.github.io](https://github.com/tchuin2609/tchuin2609.github.io)
 - [Neccie/YellowKey-Bitlocker-CVE-2026-45585](https://github.com/Neccie/YellowKey-Bitlocker-CVE-2026-45585)
 - [sinhalese-congocopal6379/YellowKey-BitLocker-CVE-2026-45585](https://github.com/sinhalese-congocopal6379/YellowKey-BitLocker-CVE-2026-45585)
 - [sinhalese-congocopal6379/sinhalese-congocopal6379.github.io](https://github.com/sinhalese-congocopal6379/sinhalese-congocopal6379.github.io)
@@ -18446,6 +18446,7 @@
 </code>
 
 - [thiscitze/cve-2026-86596-poc](https://github.com/thiscitze/cve-2026-86596-poc)
+- [Aureels/CVE-2026-86596](https://github.com/Aureels/CVE-2026-86596)
 
 ### CVE-2026-86881 (2026-09-14)
 
@@ -19630,6 +19631,7 @@
 
 - [G4sp4rCS/CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit)
 - [j0wii/CVE-2026-97798_LPE_Windows](https://github.com/j0wii/CVE-2026-97798_LPE_Windows)
+- [0xBlackash/CVE-2026-97798](https://github.com/0xBlackash/CVE-2026-97798)
 
 ### CVE-2026-97859 (2026-10-18)
 
@@ -19786,6 +19788,8 @@
 - [mrjoshuap/ansible-ezcve](https://github.com/mrjoshuap/ansible-ezcve)
 - [hdp1972be-svg/cve_2026_98432_guard](https://github.com/hdp1972be-svg/cve_2026_98432_guard)
 - [zenjabba/cve-2026-98432-mitigation](https://github.com/zenjabba/cve-2026-98432-mitigation)
+- [t0ge-kun/CVE-2026-98432-check](https://github.com/t0ge-kun/CVE-2026-98432-check)
+- [downitch/CVE-2026-98432_poc](https://github.com/downitch/CVE-2026-98432_poc)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -20083,6 +20087,13 @@
 
 - [horizon3ai/CVE-2026-102489](https://github.com/horizon3ai/CVE-2026-102489)
 - [1xPwn/CVE-2026-102489](https://github.com/1xPwn/CVE-2026-102489)
+
+### CVE-2026-102578 (2026-09-30)
+
+<code>A flaw was found in Moodle. An authenticated attacker with access to the question bank web service can submit unsanitized input directly into database queries, resulting in a SQL (Structured Query Language) injection vulnerability. This issue could allow an attacker to view, alter, or delete sensitive data stored in the underlying database.
+</code>
+
+- [caveeroo/CVE-2026-102578](https://github.com/caveeroo/CVE-2026-102578)
 
 ### CVE-2026-102607 (2026-10-16)
 
@@ -21668,6 +21679,8 @@
 - [Danyw24/the-php2shell-recipe](https://github.com/Danyw24/the-php2shell-recipe)
 - [SquidSec/php2shell](https://github.com/SquidSec/php2shell)
 - [okumura-pico/php-7.2.11-cve-2026-109618-fix](https://github.com/okumura-pico/php-7.2.11-cve-2026-109618-fix)
+- [catscarlet/php-fpm-docker-PHP-8.0-CVE-2026-109618-109619-patched](https://github.com/catscarlet/php-fpm-docker-PHP-8.0-CVE-2026-109618-109619-patched)
+- [MuhammadUwais/php2shell-php-fpm-rce](https://github.com/MuhammadUwais/php2shell-php-fpm-rce)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22406,6 +22419,7 @@
 </code>
 
 - [foxcornlab/wordpress-core-scanner](https://github.com/foxcornlab/wordpress-core-scanner)
+- [lysophavin18/CVE-2026-119977](https://github.com/lysophavin18/CVE-2026-119977)
 
 ### CVE-2026-120218 (2026-11-01)
 
@@ -36662,7 +36676,6 @@
 </code>
 
 - [whale93/CVE-2024-2771-PoC](https://github.com/whale93/CVE-2024-2771-PoC)
-- [neevmeh18/rw-fluentform](https://github.com/neevmeh18/rw-fluentform)
 
 ### CVE-2024-2782 (2024-05-18)
 
@@ -36831,6 +36844,7 @@
 - [axisops/CVE-2024-3094](https://github.com/axisops/CVE-2024-3094)
 - [mcpmark-eval-liuhezi/security-digest-modern-classics](https://github.com/mcpmark-eval-liuhezi/security-digest-modern-classics)
 - [mcpmark-eval-liuhezi/log4j-xz-lessons](https://github.com/mcpmark-eval-liuhezi/log4j-xz-lessons)
+- [Skytheguy7/xz-utils-case-study](https://github.com/Skytheguy7/xz-utils-case-study)
 
 ### CVE-2024-3105 (2024-06-15)
 
@@ -36983,7 +36997,6 @@
 
 - [KiPhuong/cve-2024-3552](https://github.com/KiPhuong/cve-2024-3552)
 - [KiPhuong/challenge-cve-2024-3552](https://github.com/KiPhuong/challenge-cve-2024-3552)
-- [neevmeh18/rw-web-directory-free](https://github.com/neevmeh18/rw-web-directory-free)
 
 ### CVE-2024-3553 (2024-05-02)
 
@@ -37137,13 +37150,6 @@
 </code>
 
 - [Ch4os1/CVE-2024-4157-SSRF-RCE-Reverse-Shell](https://github.com/Ch4os1/CVE-2024-4157-SSRF-RCE-Reverse-Shell)
-
-### CVE-2024-4223 (2024-05-16)
-
-<code>The Tutor LMS plugin for WordPress is vulnerable to unauthorized access of data, modification of data, loss of data due to a missing capability check on multiple functions in all versions up to, and including, 2.7.0. This makes it possible for unauthenticated attackers to add, modify, or delete data.
-</code>
-
-- [neevmeh18/rw-tutor](https://github.com/neevmeh18/rw-tutor)
 
 ### CVE-2024-4231 (2024-05-10)
 
@@ -53324,6 +53330,7 @@
 </code>
 
 - [vtemlabs/imaging](https://github.com/vtemlabs/imaging)
+- [klphp/imaging](https://github.com/klphp/imaging)
 
 ### CVE-2023-36319 (2023-09-19)
 
@@ -90445,9 +90452,6 @@
 
 - [arturo-b-cmu/cve-2016-20012](https://github.com/arturo-b-cmu/cve-2016-20012)
 
-### CVE-2016-109618
-- [tuanhoma/CVE-2016-109618--TryHackMe-](https://github.com/tuanhoma/CVE-2016-109618--TryHackMe-)
-
 ### CVE-2016-1000027 (2020-01-02)
 
 <code>Pivotal Spring Framework through 5.3.16 suffers from a potential remote code execution (RCE) issue if used for Java deserialization of untrusted data. Depending on how the library is implemented within a product, this issue may or not occur, and authentication may be required. NOTE: the vendor's position is that untrusted data is not an intended use case. The product's behavior will not be changed because some users rely on deserialization of trusted data.
@@ -91422,13 +91426,6 @@
 - [G01d3nW01f/CVE-2015-8351](https://github.com/G01d3nW01f/CVE-2015-8351)
 - [G4sp4rCS/exploit-CVE-2015-8351](https://github.com/G4sp4rCS/exploit-CVE-2015-8351)
 - [Philip-Otter/CVE-2015-8351_Otter_Remix](https://github.com/Philip-Otter/CVE-2015-8351_Otter_Remix)
-
-### CVE-2015-8522 (2016-04-04)
-
-<code>Buffer overflow in the server in IBM Tivoli Storage Manager FastBack 5.5.x and 6.x before 6.1.12.2 allows remote attackers to execute arbitrary code via a crafted command, a different vulnerability than CVE-2015-8519, CVE-2015-8520, and CVE-2015-8521.
-</code>
-
-- [damariion/CVE-2015-8522-RCE](https://github.com/damariion/CVE-2015-8522-RCE)
 
 ### CVE-2015-8543 (2015-12-28)
 
