@@ -4709,7 +4709,6 @@
 <code>May 2026: This security advisory provides the details and fix information for a vulnerability that was discovered and fixed after the  was disclosed in February 2026. This new advisory is for a new vulnerability in the control connection handshaking. The  section of this advisory includes Show Control Connections guidance to help with system checks.&amp;nbsp;\r\n\r\nA vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Cisco Catalyst SD-WAN Validator, formerly SD-WAN vBond, could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.\r\nThis vulnerability exists because the peering authentication mechanism in an affected system is not working properly. An attacker could exploit this vulnerability by sending crafted requests to the affected system. A successful exploit could allow the attacker to log in to an affected Cisco Catalyst SD-WAN Controller as an internal, high-privileged, non-root user account. Using this account, the attacker could access NETCONF, which would then allow the attacker to manipulate network configuration for the SD-WAN fabric.
 </code>
 
-- [portbuster1337/CVE-2026-20182](https://github.com/portbuster1337/CVE-2026-20182)
 - [HORKimhab/CVE-2026-20182](https://github.com/HORKimhab/CVE-2026-20182)
 - [Nxploited/CVE-2026-20182](https://github.com/Nxploited/CVE-2026-20182)
 
@@ -7461,7 +7460,6 @@
 </code>
 
 - [HORKimhab/CVE-2026-27771](https://github.com/HORKimhab/CVE-2026-27771)
-- [portbuster1337/CVE-2026-27771](https://github.com/portbuster1337/CVE-2026-27771)
 
 ### CVE-2026-27778 (2026-03-05)
 
@@ -9082,13 +9080,6 @@
 
 - [pvharmo2/gha-lab-61c59f4acb](https://github.com/pvharmo2/gha-lab-61c59f4acb)
 
-### CVE-2026-33137 (2026-05-20)
-
-<code>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. XWiki Platform is a generic wiki platform. In versions starting with 15.10.6 and prior to 18.1.0-rc-1, 17.10.3, 17.4.9, and 16.10.17, the POST /wikis/{wikiName} API executes a XAR import without performing any authentication or authorization checks, allowing an unauthenticated attacker to create or update documents in the target wiki. This vulnerability has been patched in XWiki 16.10.17, 17.4.9, 17.10.3, 18.0.1 and 18.1.0-rc-1.
-</code>
-
-- [portbuster1337/CVE-2026-33137](https://github.com/portbuster1337/CVE-2026-33137)
-
 ### CVE-2026-33146 (2026-04-14)
 
 <code>Docmost is open-source collaborative wiki and documentation software. An authorization bypass vulnerability in versions 0.70.0 through 0.70.2 exposes restricted child page titles and text snippets through the public search endpoint (`POST /api/search/share-search`) for publicly shared content. This flaw allows unauthenticated users to enumerate and retrieve content that should remain hidden from public share viewers, leading to a confidentiality breach. Version 0.70.3 contains a patch.
@@ -9328,13 +9319,6 @@
 </code>
 
 - [pl4tyz/CVE-2026-33701-Unsafe-Deserialization-in-OpenTelemetry-Java-Agent-RMI-Instrumentation](https://github.com/pl4tyz/CVE-2026-33701-Unsafe-Deserialization-in-OpenTelemetry-Java-Agent-RMI-Instrumentation)
-
-### CVE-2026-33712 (2026-05-22)
-
-<code>Typebot is a chatbot builder tool. In versions 3.15.2 and prior, the preview chat endpoint (POST /api/v1/typebots/{typebotId}/preview/startChat) allows unauthenticated users to achieve Server-Side Request Forgery (SSRF) by supplying a custom typebot definition with server-side code blocks. The fetch function exposed inside the isolated-vm sandbox calls Node.js native fetch without the SSRF validation (validateHttpReqUrl) that protects the HTTP Request block. This bypasses all SSRF mitigations added after GHSA-8gq9-rw7v-3jpr. Exploitation of this unauthenticated SSRF vulnerability can lead to cloud credential theft, internal network access and data exfiltration for any self-hosted Typebot deployments and hosted services. This issue has been fixed in version 3.16.0.
-</code>
-
-- [portbuster1337/CVE-2026-33712](https://github.com/portbuster1337/CVE-2026-33712)
 
 ### CVE-2026-33715 (2026-04-14)
 
@@ -12635,13 +12619,6 @@
 
 - [iwallplace/CVE-2026-46368-OpenWrt-Exploit](https://github.com/iwallplace/CVE-2026-46368-OpenWrt-Exploit)
 
-### CVE-2026-46376 (2026-05-29)
-
-<code>FreePBX is an open source IP PBX. From 15.0.42 to before 16.0.45 and 17.0.7, unauthenticated users may be able to access the User Control Panel (UCP) using hard-coded initial template credentials if these were not immediately changed by the Administrator who enabled UCP. Authenticated access to ACP is required for the initial setup of UCP generic templates, but after that, without further steps by the admin, unauthenticated users may be able to gain access. This vulnerability is fixed in 16.0.45 and 17.0.7.
-</code>
-
-- [portbuster1337/CVE-2026-46376](https://github.com/portbuster1337/CVE-2026-46376)
-
 ### CVE-2026-46391 (2026-06-05)
 
 <code>HAX CMS helps manage microsite universe with PHP or NodeJs backends. Starting in version 9.0.1 and prior to version 26.0.0 of @haxtheweb/open-apis, multiple functions conduct substring-only matching to validate hostnames to which basic authorization should be sent. An attacker can append the matched substrings to an attacker-controlled endpoint and capture authentication. Version 26.0.0 fixes the issue.
@@ -13906,13 +13883,6 @@
 </code>
 
 - [abraxas/CVE-2026-52782](https://github.com/abraxas/CVE-2026-52782)
-
-### CVE-2026-52806 (2026-06-24)
-
-<code>Gogs is an open source self-hosted Git service. Prior to 0.14.3, Gogs allows authenticated users to achieve Remote Code Execution (RCE) on the server by creating a pull request with a specially crafted branch name that injects the --exec flag into the git rebase command during the &quot;Rebase before merging&quot; merge operation. This vulnerability is fixed in 0.14.3.
-</code>
-
-- [portbuster1337/CVE-2026-52806](https://github.com/portbuster1337/CVE-2026-52806)
 
 ### CVE-2026-52810 (2026-06-24)
 
@@ -18265,6 +18235,13 @@
 
 - [Boreas37/CVE-2026-85595-PoC](https://github.com/Boreas37/CVE-2026-85595-PoC)
 
+### CVE-2026-85612 (2026-09-04)
+
+<code>OpenPanel before 2.3.0 contains an unauthenticated server-side request forgery vulnerability in the /misc/favicon and /misc/og endpoints that accept an attacker-supplied url parameter with insufficient validation. Attackers can force the API to fetch arbitrary internal hosts and cloud metadata endpoints, with small responses returned verbatim enabling credential theft and internal service enumeration.
+</code>
+
+- [hotplugin0x01/CVE-2026-85612](https://github.com/hotplugin0x01/CVE-2026-85612)
+
 ### CVE-2026-85625 (2026-09-04)
 
 <code>sift (sift.js) 17.1.3 enumerates query keys with for...in, which walks the object prototype chain, and dispatches any matched operator key including $where. The $where operation compiles a string value into a function using new Function unless CSP_ENABLED is set (not set by default). As a result, if a prototype-pollution primitive elsewhere in the process sets Object.prototype.$where to a malicious string, even benign filter calls such as sift({}) execute arbitrary JavaScript. Additionally, passing an untrusted query object containing a string $where directly to sift results in code execution under the default configuration.
@@ -19553,6 +19530,7 @@
 - [murat-levi/gitlab-rce-toolkit](https://github.com/murat-levi/gitlab-rce-toolkit)
 - [foxcornlab/gitlab-onigmo-scanner](https://github.com/foxcornlab/gitlab-onigmo-scanner)
 - [emc-kk/cve-2026-97229-lab](https://github.com/emc-kk/cve-2026-97229-lab)
+- [Certbn/CVE-2026-97229-GitLab-CI-CD](https://github.com/Certbn/CVE-2026-97229-GitLab-CI-CD)
 
 ### CVE-2026-97286 (2026-09-30)
 
@@ -19775,6 +19753,7 @@
 - [downitch/CVE-2026-98432_poc](https://github.com/downitch/CVE-2026-98432_poc)
 - [cybervenom01/Mitigation_CVE-2026-98432](https://github.com/cybervenom01/Mitigation_CVE-2026-98432)
 - [ScudraServicos/cve-2026-98432-mitigation](https://github.com/ScudraServicos/cve-2026-98432-mitigation)
+- [Certbn/CVE-2026-98432-Linux-IPv4-TCP-IP-Use-After-Free](https://github.com/Certbn/CVE-2026-98432-Linux-IPv4-TCP-IP-Use-After-Free)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -20896,6 +20875,7 @@
 </code>
 
 - [NeoArtemis37/PHP2shell](https://github.com/NeoArtemis37/PHP2shell)
+- [Quaerendir/cve-2026-109518-audit](https://github.com/Quaerendir/cve-2026-109518-audit)
 
 ### CVE-2026-109519 (2026-10-13)
 
@@ -21949,6 +21929,8 @@
 - [EQSTLab/CVE-2026-111497](https://github.com/EQSTLab/CVE-2026-111497)
 - [Certbn/Brotli-Node.js-CVE-2026-111497-Broccoli2Shell-Node2Shell-HTTP2Shell-](https://github.com/Certbn/Brotli-Node.js-CVE-2026-111497-Broccoli2Shell-Node2Shell-HTTP2Shell-)
 - [MelissaSkywalkz/broccoli2shell-gis](https://github.com/MelissaSkywalkz/broccoli2shell-gis)
+- [sam00/Node2Shell-CVE-2026-111497-POC](https://github.com/sam00/Node2Shell-CVE-2026-111497-POC)
+- [aymenkmar/node2shell-check](https://github.com/aymenkmar/node2shell-check)
 
 ### CVE-2026-111585 (2026-10-27)
 
@@ -21977,6 +21959,7 @@
 - [BlackthornYugen/tiny-key-s-server](https://github.com/BlackthornYugen/tiny-key-s-server)
 - [andersundsehr/ca-trust-audit](https://github.com/andersundsehr/ca-trust-audit)
 - [Xowap/i-can-count-to-four](https://github.com/Xowap/i-can-count-to-four)
+- [sam00/CVE-2026-111943-Emudhra-Ca-Compromise-POC](https://github.com/sam00/CVE-2026-111943-Emudhra-Ca-Compromise-POC)
 
 ### CVE-2026-112071 (2026-10-20)
 
@@ -22387,7 +22370,6 @@
 <code>Use after free in FileSystem in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)
 </code>
 
-- [Toddoward/chromium-audit](https://github.com/Toddoward/chromium-audit)
 - [al4n4n/CVE-2026-118306](https://github.com/al4n4n/CVE-2026-118306)
 
 ### CVE-2026-118776 (2026-10-29)
@@ -66950,6 +66932,7 @@
 - [TeneBrae93/RocketChat-NoSQLi-Chain-CVE-2021-22911](https://github.com/TeneBrae93/RocketChat-NoSQLi-Chain-CVE-2021-22911)
 - [Faridi-m/CVE-2021-22911-RocketChat](https://github.com/Faridi-m/CVE-2021-22911-RocketChat)
 - [roshanrajbanshi/rocketcat-cve-2021-22911-exploit](https://github.com/roshanrajbanshi/rocketcat-cve-2021-22911-exploit)
+- [s1lentf00thold/CVE-2021-22911](https://github.com/s1lentf00thold/CVE-2021-22911)
 
 ### CVE-2021-22924 (2021-08-05)
 
