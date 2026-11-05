@@ -4281,6 +4281,13 @@
 
 - [ghoxtbyte/CVE-2026-18464](https://github.com/ghoxtbyte/CVE-2026-18464)
 
+### CVE-2026-18470 (2026-08-10)
+
+<code>The Login &amp; Register Forms  WordPress plugin before 4.0.2 does not verify that a password reset request comes from the account's owner, and does not adequately redact the address returned in its response, allowing unauthenticated users to obtain registered users' email addresses, including administrators'.
+</code>
+
+- [0xg33k/CVE-2026-18470](https://github.com/0xg33k/CVE-2026-18470)
+
 ### CVE-2026-18504 (2026-08-18)
 
 <code>fastify is a fast and low overhead web framework for Node.js. Versions of fastify before 5.12.1 are affected by a schema validation bypass when a request body schema targets a root primitive value. When the schema validates a top-level primitive such as an integer, Ajv can coerce a JSON string into the expected type during validation, but Fastify does not replace the root request body with the coerced value, so the route handler receives the original unvalidated string. As a result, a request that should have failed validation can reach application logic with a value that does not satisfy the schema, which can undermine integrity and access-control checks that rely on the validated type. Users should upgrade to fastify 5.12.1, which fixes the mismatch. No known workarounds are available.
@@ -15001,6 +15008,13 @@
 
 - [DavidCarliez/CVE-2026-58635-PoC](https://github.com/DavidCarliez/CVE-2026-58635-PoC)
 
+### CVE-2026-58868 (2026-11-02)
+
+<code>In onOutputReceived of FrameDecoder.cpp, there is a possible out-of-bounds write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [probear0001/CVE-2026-58868](https://github.com/probear0001/CVE-2026-58868)
+
 ### CVE-2026-58882 (2026-11-02)
 
 <code>In decodeWapPdu of WapPushOverSms.java, there is a possible out of bounds read due to an integer overflow. This could lead to a remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.
@@ -19173,7 +19187,7 @@
 
 ### CVE-2026-93903 (2026-09-30)
 
-<code>LiteSpeed Web Server (LSWS) before 6.3.7 build 1 mishandles internal redirect URL validation in a certain &quot;corner case.&quot;
+<code>LiteSpeed Web Server (LSWS) before 6.3.7 build 1 mishandles internal redirect URL validation in a certain &quot;corner case&quot; of %252e%252e double decoding, letting a low-privileged tenant execute code in the context of a different account.
 </code>
 
 - [Tautvydas-Aleliunas/CVE-2026-93903](https://github.com/Tautvydas-Aleliunas/CVE-2026-93903)
@@ -19671,6 +19685,8 @@
 - [RMDycz/K80Pro-miro-CVE-2026-98260](https://github.com/RMDycz/K80Pro-miro-CVE-2026-98260)
 - [WantenMN/cve-2026-98260-adb](https://github.com/WantenMN/cve-2026-98260-adb)
 - [Haor/CVE-2026-98260-OPD2513](https://github.com/Haor/CVE-2026-98260-OPD2513)
+- [starriv/CVE-2026-98260-Xiaomi-17-Pro-Max](https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max)
+- [al123xiaaaa/CVE-2026-98260-GT7Pro-RMX5010](https://github.com/al123xiaaaa/CVE-2026-98260-GT7Pro-RMX5010)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -19754,6 +19770,9 @@
 - [cybervenom01/Mitigation_CVE-2026-98432](https://github.com/cybervenom01/Mitigation_CVE-2026-98432)
 - [ScudraServicos/cve-2026-98432-mitigation](https://github.com/ScudraServicos/cve-2026-98432-mitigation)
 - [Certbn/CVE-2026-98432-Linux-IPv4-TCP-IP-Use-After-Free](https://github.com/Certbn/CVE-2026-98432-Linux-IPv4-TCP-IP-Use-After-Free)
+- [datacenter-metrotel/Mitigating-CVE-2026-98432](https://github.com/datacenter-metrotel/Mitigating-CVE-2026-98432)
+- [INFOKOM-KI/CVE-2026-98432-Wazuh-](https://github.com/INFOKOM-KI/CVE-2026-98432-Wazuh-)
+- [keithel/ubuntu-26.04-kernel-cve-2026-98432-patch-build-docker](https://github.com/keithel/ubuntu-26.04-kernel-cve-2026-98432-patch-build-docker)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -20783,6 +20802,13 @@
 - [ApexBreach/CVE-2026-107406-Poc](https://github.com/ApexBreach/CVE-2026-107406-Poc)
 - [maxprog-svg/CVE-2026-107406](https://github.com/maxprog-svg/CVE-2026-107406)
 
+### CVE-2026-107441 (2026-11-03)
+
+<code>An out-of-bounds write vulnerability in the CGI program of Zyxel GS1900-24E firmware versions through 2.90(AAHK.2)C0 could allow an unauthenticated adjacent attacker  to exploit the flaw and potentially execute OS commands via a crafted HTTP request.
+</code>
+
+- [foxcornlab/zyxel-gs1900-scanner](https://github.com/foxcornlab/zyxel-gs1900-scanner)
+
 ### CVE-2026-107692 (2026-10-20)
 
 <code>The War Thunder game client transmits its authentication bearer token (auth_jwt) in the very first data packet after the TCP handshake, using only LZ4 compression rather than encryption. An attacker positioned on the network path can passively intercept and decompress this packet to reveal the plaintext JSON payload. This vulnerability allows for temporary authenticated impersonation, enabling an attacker to access game services and certain user data (such as email address and displayed phone number) as the affected user. While this allows for unauthorized access to gameplay, it does not facilitate full account takeover, as it cannot be used to modify account security settings, change passwords, bypass two-factor authentication for account management, or access financial information.
@@ -21190,6 +21216,7 @@
 - [mbadis-dev/php-cve-2026-109618-toolkit](https://github.com/mbadis-dev/php-cve-2026-109618-toolkit)
 - [ThePainter1939/php2shell-guard](https://github.com/ThePainter1939/php2shell-guard)
 - [nwfella/php2shell-advisory](https://github.com/nwfella/php2shell-advisory)
+- [struttonpigeon/php2shell-detection-and-poc](https://github.com/struttonpigeon/php2shell-detection-and-poc)
 - [suleymanpetek/shadowphp](https://github.com/suleymanpetek/shadowphp)
 - [llrrzz-111/php2shell-guard](https://github.com/llrrzz-111/php2shell-guard)
 - [bagsiz/focal-php74-security](https://github.com/bagsiz/focal-php74-security)
@@ -21650,6 +21677,8 @@
 - [ybbond/php2shell-lab](https://github.com/ybbond/php2shell-lab)
 - [somany-flower4u/php2shell-analysis](https://github.com/somany-flower4u/php2shell-analysis)
 - [ncpz/cloudflare-php-ctf-research](https://github.com/ncpz/cloudflare-php-ctf-research)
+- [sam00/CVE-2026-109618-CVE-2026-109619-POC](https://github.com/sam00/CVE-2026-109618-CVE-2026-109619-POC)
+- [Nbill27/php2sherlloktakparani](https://github.com/Nbill27/php2sherlloktakparani)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21681,6 +21710,7 @@
 - [dev-maple/php2shell-CVE-2026-109619](https://github.com/dev-maple/php2shell-CVE-2026-109619)
 - [solidevil14/php2shell-detections](https://github.com/solidevil14/php2shell-detections)
 - [K2uci/PHP2ShellPOC-CVE-2026-109619](https://github.com/K2uci/PHP2ShellPOC-CVE-2026-109619)
+- [blkph0x/CVE-2026-109619-ZendPipelineLab](https://github.com/blkph0x/CVE-2026-109619-ZendPipelineLab)
 
 ### CVE-2026-109715 (2026-10-13)
 
@@ -22121,6 +22151,13 @@
 - [Nguemoue/project2026_20261030_tokengate](https://github.com/Nguemoue/project2026_20261030_tokengate)
 - [nextmend/laravel-type-juggling-auth-bypass](https://github.com/nextmend/laravel-type-juggling-auth-bypass)
 
+### CVE-2026-114550 (2026-11-03)
+
+<code>libwebsockets MQTT Protocol PUBACK Packet Handling Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of libwebsockets. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the handling of PUBACK packets. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-31039.
+</code>
+
+- [googlesky/CVE-2026-114550](https://github.com/googlesky/CVE-2026-114550)
+
 ### CVE-2026-114595 (2026-10-27)
 
 <code>In EPICS Base release 7.0.10 and prior, an integer overflow in network request processing can cause memory to be allocated with an incorrect size. Subsequent handling of attacker supplied data may result in memory corruption, denial of service, or potential remote code execution.
@@ -22141,6 +22178,13 @@
 </code>
 
 - [joedayz/cve-2026-114820-java-scan](https://github.com/joedayz/cve-2026-114820-java-scan)
+
+### CVE-2026-115290 (2026-11-03)
+
+<code>Uncontrolled Recursion (CWE-674) in Elasticsearch can lead to denial of service via Serialized Data with Nested Payloads (CAPEC-230). An unauthenticated attacker with network access to the remote cluster server interface of a node can send a specially crafted request that causes the node to terminate. No credentials are required. The attacker can repeat the request against each reachable node.
+</code>
+
+- [googlesky/CVE-2026-115290](https://github.com/googlesky/CVE-2026-115290)
 
 ### CVE-2026-115560
 - [Pr0fEs0r-X/PHP2SHELL-Checker-v-1.0-CVE-2026-115560-](https://github.com/Pr0fEs0r-X/PHP2SHELL-Checker-v-1.0-CVE-2026-115560-)
@@ -22422,6 +22466,7 @@
 </code>
 
 - [Element2023H/CVE-2026-120232](https://github.com/Element2023H/CVE-2026-120232)
+- [Element2023H/CVE-2026-120232-RUST-POC](https://github.com/Element2023H/CVE-2026-120232-RUST-POC)
 
 ### CVE-2026-120318 (2026-11-02)
 
@@ -22429,6 +22474,20 @@
 </code>
 
 - [7xd10/CVE-2026-120318](https://github.com/7xd10/CVE-2026-120318)
+
+### CVE-2026-122006 (2026-11-04)
+
+<code>The activestorage gem before 8.1.4.1 for Ruby on Rails, when ImageMagick attachment processing occurs, can allow server read and write operations (e.g., reading secret_key_base) because the ImageMagick analyzer runs when a file is attached, and there is not an ImageMagick security policy to block unintended functionality.
+</code>
+
+- [charlie-goldenowl/cve-2026-122006-check](https://github.com/charlie-goldenowl/cve-2026-122006-check)
+
+### CVE-2026-122051 (2026-11-04)
+
+<code>A flaw has been found in Edimax BR-6208AC 1.32. Affected by this vulnerability is an unknown functionality of the file /goform/mp. Executing a manipulation can lead to command injection. The attack may be launched remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [carterlasalle/CVE-2026-122051](https://github.com/carterlasalle/CVE-2026-122051)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -25927,7 +25986,6 @@
 <code>Mismatched length fields in Zlib compressed protocol headers may allow a read of uninitialized heap memory by an unauthenticated client. This issue affects all MongoDB Server v7.0 prior to 7.0.28 versions, MongoDB Server v8.0 versions prior to 8.0.17, MongoDB Server v8.2 versions prior to 8.2.3, MongoDB Server v6.0 versions prior to 6.0.27, MongoDB Server v5.0 versions prior to 5.0.32, MongoDB Server v4.4 versions prior to 4.4.30, MongoDB Server v4.2 versions greater than or equal to 4.2.0, MongoDB Server v4.0 versions greater than or equal to 4.0.0, and MongoDB Server v3.6 versions greater than or equal to 3.6.0.
 </code>
 
-- [sakthivel10q/CVE-2025-14847](https://github.com/sakthivel10q/CVE-2025-14847)
 - [onewinner/CVE-2025-14847](https://github.com/onewinner/CVE-2025-14847)
 - [ProbiusOfficial/CVE-2025-14847](https://github.com/ProbiusOfficial/CVE-2025-14847)
 - [cybertechajju/CVE-2025-14847_Expolit](https://github.com/cybertechajju/CVE-2025-14847_Expolit)
@@ -25958,7 +26016,6 @@
 - [alexcyberx/CVE-2025-14847_Expolit](https://github.com/alexcyberx/CVE-2025-14847_Expolit)
 - [pedrocruz2202/mongobleed-scanner](https://github.com/pedrocruz2202/mongobleed-scanner)
 - [pedrocruz2202/pedrocruz2202.github.io](https://github.com/pedrocruz2202/pedrocruz2202.github.io)
-- [sakthivel10q/sakthivel10q.github.io](https://github.com/sakthivel10q/sakthivel10q.github.io)
 - [amnnrth/CVE-2025-14847](https://github.com/amnnrth/CVE-2025-14847)
 - [InfoSecAntara/CVE-2025-14847-MongoDB](https://github.com/InfoSecAntara/CVE-2025-14847-MongoDB)
 - [sho-luv/MongoBleed](https://github.com/sho-luv/MongoBleed)
@@ -73221,7 +73278,6 @@
 - [thatonesecguy/zerologon-CVE-2020-1472](https://github.com/thatonesecguy/zerologon-CVE-2020-1472)
 - [k8gege/CVE-2020-1472-EXP](https://github.com/k8gege/CVE-2020-1472-EXP)
 - [jiushill/CVE-2020-1472](https://github.com/jiushill/CVE-2020-1472)
-- [McKinnonIT/zabbix-template-CVE-2020-1472](https://github.com/McKinnonIT/zabbix-template-CVE-2020-1472)
 - [mstxq17/cve-2020-1472](https://github.com/mstxq17/cve-2020-1472)
 - [Fa1c0n35/CVE-2020-1472](https://github.com/Fa1c0n35/CVE-2020-1472)
 - [Fa1c0n35/SecuraBV-CVE-2020-1472](https://github.com/Fa1c0n35/SecuraBV-CVE-2020-1472)
@@ -87532,6 +87588,7 @@
 - [m7arm4n/CVE-2017-7921](https://github.com/m7arm4n/CVE-2017-7921)
 - [MK-ULTRA-MK-ULTRA/CVE-2017-7921-2026-writeup](https://github.com/MK-ULTRA-MK-ULTRA/CVE-2017-7921-2026-writeup)
 - [intcost/cve-2017-7921-hikvision-poc](https://github.com/intcost/cve-2017-7921-hikvision-poc)
+- [Mr-Ochobot/Hikvision-CCTV-POC](https://github.com/Mr-Ochobot/Hikvision-CCTV-POC)
 
 ### CVE-2017-7998 (2018-01-08)
 
