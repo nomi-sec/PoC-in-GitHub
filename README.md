@@ -8511,7 +8511,6 @@
 - [rippsec/CVE-2026-31431-Copy-Fail](https://github.com/rippsec/CVE-2026-31431-Copy-Fail)
 - [Silent4Labs/check-copyfail-cve-2026-31431](https://github.com/Silent4Labs/check-copyfail-cve-2026-31431)
 - [6abc/Copy-Fail-CVE-2026-31431-dirty-frag-CVE-2026-43284](https://github.com/6abc/Copy-Fail-CVE-2026-31431-dirty-frag-CVE-2026-43284)
-- [Liverwortenuresis371/copyfail-rs](https://github.com/Liverwortenuresis371/copyfail-rs)
 - [deadRabbit92/mitigate-copy-fail.yml](https://github.com/deadRabbit92/mitigate-copy-fail.yml)
 - [sudoytang/copyfail-arm64](https://github.com/sudoytang/copyfail-arm64)
 - [MrMixies/Copy-Fail---CVE-2026-31431](https://github.com/MrMixies/Copy-Fail---CVE-2026-31431)
@@ -10498,6 +10497,13 @@
 
 - [sm1ee/CVE-2026-39324](https://github.com/sm1ee/CVE-2026-39324)
 
+### CVE-2026-39338 (2026-04-07)
+
+<code>ChurchCRM is an open-source church management system. Prior to 7.1.0, a Blind Reflected Cross-Site Scripting vulnerability exists in the search parameter accepted by the ChurchCRM dashboard. The application fails to sanitize or encode user-supplied input prior to rendering it within the browser's DOM. Although the application ultimately returns an HTTP 500 error due to the malformed API request caused by the payload, the browser's JavaScript engine parses and executes the injected &lt;script&gt; tags before the error response is returned — resulting in successful code execution regardless of the server-side error. This vulnerability is fixed in 7.1.0.
+</code>
+
+- [HackinKraken/Security-Research-and-CVE](https://github.com/HackinKraken/Security-Research-and-CVE)
+
 ### CVE-2026-39363 (2026-04-07)
 
 <code>Vite is a frontend tooling framework for JavaScript. From 6.0.0 to before 6.4.2, 7.3.2, and 8.0.5, if it is possible to connect to the Vite dev server’s WebSocket without an Origin header, an attacker can invoke fetchModule via the custom WebSocket event vite:invoke and combine file://... with ?raw (or ?inline) to retrieve the contents of arbitrary files on the server as a JavaScript string (e.g., export default &quot;...&quot;). The access control enforced in the HTTP request path (such as server.fs.allow) is not applied to this WebSocket-based execution path. This vulnerability is fixed in 6.4.2, 7.3.2, and 8.0.5.
@@ -11862,6 +11868,7 @@
 - [Linkenpro/ghostlock-pd2118c-4.19.152](https://github.com/Linkenpro/ghostlock-pd2118c-4.19.152)
 - [heikeyangle-code/mi11-venus-temproot](https://github.com/heikeyangle-code/mi11-venus-temproot)
 - [thedavidweng/ghostlock-z3q](https://github.com/thedavidweng/ghostlock-z3q)
+- [giannoccarol/root-key1](https://github.com/giannoccarol/root-key1)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -16358,7 +16365,11 @@
 
 - [0xdak/CVE-2026-69098_exploit](https://github.com/0xdak/CVE-2026-69098_exploit)
 
-### CVE-2026-69137
+### CVE-2026-69137 (2026-11-05)
+
+<code>SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. Prior to 7.15.2 and 8.10.2, the CalendarAccount testConnection action passes an authenticated caller's server_url directly to curl without host, address, or scheme validation. The affected flow begins at CalendarAccount::action_testConnection and uses server_url, CalDAVProvider::makeCalDAVRequest(), and PROPFIND to carry attacker-controlled data or authorization state into the security-sensitive operation. The server sends a PROPFIND request from its network context and returns non-success response bodies, enabling internal-service access, partial response disclosure, service enumeration, and possible cloud metadata access. This issue is fixed in versions 7.15.2 and 8.10.2.
+</code>
+
 - [EntroVyx/CVE-2026-69137](https://github.com/EntroVyx/CVE-2026-69137)
 
 ### CVE-2026-69212 (2026-09-15)
@@ -17136,13 +17147,6 @@
 
 - [pastelghost3/cve-2026-76504-nuclei](https://github.com/pastelghost3/cve-2026-76504-nuclei)
 - [maxprog-svg/CVE-2026-76504-Cisco](https://github.com/maxprog-svg/CVE-2026-76504-Cisco)
-
-### CVE-2026-76519 (2026-10-14)
-
-<code>A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.\r\n\r\nThis vulnerability is due to improper handling of email attachments when the file reputation service is enabled. An attacker could exploit this vulnerability by sending an email that contains a crafted attachment through an affected device. A successful exploit could allow the attacker to write arbitrary files and execute commands with&amp;nbsp;root privileges on the underlying operating system.
-</code>
-
-- [Mickysalivan/CVE-2026-76519-Proof-of-concept](https://github.com/Mickysalivan/CVE-2026-76519-Proof-of-concept)
 
 ### CVE-2026-76547 (2026-08-29)
 
@@ -19759,6 +19763,8 @@
 - [keithel/ubuntu-26.04-kernel-cve-2026-98432-patch-build-docker](https://github.com/keithel/ubuntu-26.04-kernel-cve-2026-98432-patch-build-docker)
 - [dolistblesson/CVE-2026-98432-update](https://github.com/dolistblesson/CVE-2026-98432-update)
 - [carlosbustillordguez/cve-2026-98432-mitigation](https://github.com/carlosbustillordguez/cve-2026-98432-mitigation)
+- [sv3t0sl4v/CVE-2026-98432-Ubuntu-Temporary-Mitigation](https://github.com/sv3t0sl4v/CVE-2026-98432-Ubuntu-Temporary-Mitigation)
+- [mafudge/cve-2026-98432](https://github.com/mafudge/cve-2026-98432)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -21326,7 +21332,6 @@
 - [bianqiang-ui/phpscan-go](https://github.com/bianqiang-ui/phpscan-go)
 - [ethoic-inc/php-vuln-check](https://github.com/ethoic-inc/php-vuln-check)
 - [definitiveref/php2shell-CVE-2026-109618-109619-Research](https://github.com/definitiveref/php2shell-CVE-2026-109618-109619-Research)
-- [somisec/php2shell-scanner](https://github.com/somisec/php2shell-scanner)
 - [JoshRob297/php2shell-research](https://github.com/JoshRob297/php2shell-research)
 - [SoroushAlamdari/php2shell-detect](https://github.com/SoroushAlamdari/php2shell-detect)
 - [manuxio/untested-php2shell-fixed-php-5-4-apache](https://github.com/manuxio/untested-php2shell-fixed-php-5-4-apache)
@@ -21668,6 +21673,10 @@
 - [Nbill27/php2sherlloktakparani](https://github.com/Nbill27/php2sherlloktakparani)
 - [D-1P1X/php2shell-web](https://github.com/D-1P1X/php2shell-web)
 - [Nebur692/php-legacy-ubuntu](https://github.com/Nebur692/php-legacy-ubuntu)
+- [avrevic/php2shell-chase](https://github.com/avrevic/php2shell-chase)
+- [avrevic/php2shell-plain](https://github.com/avrevic/php2shell-plain)
+- [avrevic/php2shell-lean-chase](https://github.com/avrevic/php2shell-lean-chase)
+- [avrevic/php2shell-lean-plain](https://github.com/avrevic/php2shell-lean-plain)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22377,6 +22386,9 @@
 
 - [Primandito/CVE-2026-117184](https://github.com/Primandito/CVE-2026-117184)
 
+### CVE-2026-117226
+- [xherogasm/CVE-Disclosures](https://github.com/xherogasm/CVE-Disclosures)
+
 ### CVE-2026-117532 (2026-10-27)
 
 <code>REDAXO core from 5.3.0 before 5.21.4 contains an authentication bypass vulnerability in the structure/history plugin that allows unauthenticated attackers to forge temporary login tokens. Attackers can force the session-tied secret into a predictable state and forge tokens for accounts like admin, gaining backend access and code execution outside live mode.
@@ -22434,6 +22446,7 @@
 - [foxcornlab/wordpress-core-scanner](https://github.com/foxcornlab/wordpress-core-scanner)
 - [lysophavin18/CVE-2026-119977](https://github.com/lysophavin18/CVE-2026-119977)
 - [Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4](https://github.com/Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4)
+- [tc4dy/CVE-2026-119977-Toolkit](https://github.com/tc4dy/CVE-2026-119977-Toolkit)
 
 ### CVE-2026-120019 (2026-10-31)
 
@@ -41364,6 +41377,7 @@
 - [shinspace92/cve-2024-26229](https://github.com/shinspace92/cve-2024-26229)
 - [vettrivel007/CVE-2024-26229](https://github.com/vettrivel007/CVE-2024-26229)
 - [0xGunrunner/CVE-2024-26229-BOF](https://github.com/0xGunrunner/CVE-2024-26229-BOF)
+- [stillbigjosh/cve-2024-26229-bof](https://github.com/stillbigjosh/cve-2024-26229-bof)
 
 ### CVE-2024-26230 (2024-04-09)
 
@@ -55767,6 +55781,13 @@
 
 - [ersinerenler/PHPGurukul-Teacher-Subject-Allocation-Management-System-1.0](https://github.com/ersinerenler/PHPGurukul-Teacher-Subject-Allocation-Management-System-1.0)
 
+### CVE-2023-46071 (2023-10-24)
+
+<code>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in ClickDatos Protección de Datos RGPD plugin &lt;= 3.1.0 versions.
+</code>
+
+- [raycoarana/rgpd-cookie-legal](https://github.com/raycoarana/rgpd-cookie-legal)
+
 ### CVE-2023-46136 (2023-10-24)
 
 <code>Werkzeug is a comprehensive WSGI web application library. In versions on the 3.x branch prior to 3.0.1 and on the 2.x branch prior to 2.3.8, if an upload of a file that starts with CR or LF and then is followed by megabytes of data without these characters: all of these bytes are appended chunk by chunk into internal bytearray and lookup for boundary is performed on growing buffer. This allows an attacker to cause a denial of service by sending crafted multipart data to an endpoint that will parse it. The amount of CPU time required can block worker processes from handling legitimate requests. This vulnerability has been patched in version 3.0.1 and 2.3.8.
@@ -58002,6 +58023,13 @@
 - [letsr00t/-2022-LOCALROOT-CVE-2022-2639](https://github.com/letsr00t/-2022-LOCALROOT-CVE-2022-2639)
 - [devetop/CVE-2022-2639-PipeVersion](https://github.com/devetop/CVE-2022-2639-PipeVersion)
 - [aix567/Aurora](https://github.com/aix567/Aurora)
+
+### CVE-2022-2650 (2022-11-24)
+
+<code>Improper Restriction of Excessive Authentication Attempts in GitHub repository wger-project/wger prior to 2.2.
+</code>
+
+- [HackinKraken/Security-Research-and-CVE](https://github.com/HackinKraken/Security-Research-and-CVE)
 
 ### CVE-2022-2869 (2022-08-17)
 
@@ -84823,7 +84851,6 @@
 - [qweraqq/CVE-2018-11235-Git-Submodule-CE](https://github.com/qweraqq/CVE-2018-11235-Git-Submodule-CE)
 - [AnonymKing/CVE-2018-11235](https://github.com/AnonymKing/CVE-2018-11235)
 - [nthuong95/CVE-2018-11235](https://github.com/nthuong95/CVE-2018-11235)
-- [xElkomy/CVE-2018-11235](https://github.com/xElkomy/CVE-2018-11235)
 - [jongmartinez/CVE-2018-11235-PoC](https://github.com/jongmartinez/CVE-2018-11235-PoC)
 - [j4k0m/CVE-2018-11235](https://github.com/j4k0m/CVE-2018-11235)
 - [twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration](https://github.com/twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration)
@@ -94718,7 +94745,6 @@
 </code>
 
 - [sinkaroid/shiguresh](https://github.com/sinkaroid/shiguresh)
-- [Redsplit/shiguresh](https://github.com/Redsplit/shiguresh)
 
 ### CVE-2004-2167 (2005-07-10)
 
