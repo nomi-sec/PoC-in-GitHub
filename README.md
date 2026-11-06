@@ -9200,6 +9200,7 @@
 - [amis13/openam-clean](https://github.com/amis13/openam-clean)
 - [TeoVMP/CVE-2026-33439](https://github.com/TeoVMP/CVE-2026-33439)
 - [stapat1245/CVE-2026-33439_poc](https://github.com/stapat1245/CVE-2026-33439_poc)
+- [duohnson/CVE-2026-33439-PoC](https://github.com/duohnson/CVE-2026-33439-PoC)
 
 ### CVE-2026-33453 (2026-04-27)
 
@@ -9477,7 +9478,11 @@
 - [0xBlackash/CVE-2026-34156](https://github.com/0xBlackash/CVE-2026-34156)
 - [Dhananjayasj/CVE-2026-34156-NocoBase-Sandbox-Escape-via-Workflow-Execution-Vulnerability-](https://github.com/Dhananjayasj/CVE-2026-34156-NocoBase-Sandbox-Escape-via-Workflow-Execution-Vulnerability-)
 
-### CVE-2026-34157
+### CVE-2026-34157 (2026-11-05)
+
+<code>Wails is a framework for building desktop applications using Go and web technologies. From 2.0.0 until 2.13.0, BindingsAllowedOrigins in v2/internal/frontend/originvalidator/originValidator.go passes wildcard patterns to wildcardPatternToRegex, which expands every asterisk to an unrestricted regular-expression match. When an application configures a trailing or partial-label wildcard immediately after an allowed domain, an attacker-controlled lookalike origin can match the allowed suffix and invoke bound Go methods through IPC. A complete-component subdomain wildcard is an unaffected configuration. The resulting confidentiality, integrity, and availability impact depends on the file, database, command, credential, or other operations exposed by the application's bound methods. This issue is fixed in version 2.13.0.
+</code>
+
 - [Saku0512/CVE-2026-34157-poc](https://github.com/Saku0512/CVE-2026-34157-poc)
 
 ### CVE-2026-34159 (2026-04-01)
@@ -15013,6 +15018,7 @@
 </code>
 
 - [probear0001/CVE-2026-58868](https://github.com/probear0001/CVE-2026-58868)
+- [redfishrouge/CVE-2026-58868-PoC](https://github.com/redfishrouge/CVE-2026-58868-PoC)
 
 ### CVE-2026-58882 (2026-11-02)
 
@@ -17109,6 +17115,13 @@
 
 - [ozcanpng/CVE-2026-76071](https://github.com/ozcanpng/CVE-2026-76071)
 
+### CVE-2026-76142 (2026-10-01)
+
+<code>Insufficient authentication and access control on the internal-only IPC SOAP endpoint of the Genian NAC/ZTNA policy server allows an unauthenticated attacker to invoke internal functions
+</code>
+
+- [MalHyuk/CVE-2026-76142](https://github.com/MalHyuk/CVE-2026-76142)
+
 ### CVE-2026-76183 (2026-09-23)
 
 <code>Authentication Bypass by Alternate Name vulnerability in Apache Tomcat allowed the security constraints for any WebSocket endpoint to be bypassed.\n\n\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.25, from 10.1.0-M1 through 10.1.59, from 9.0.0.M1 through 9.0.121.\n\n\n\nThe following versions were EOS at the time the CVE was created but are \nknown to be affected: from 8.5.0 through 8.5.100, from 7.0.43 through 7.0.109. Other unsupported versions may also be affected.\n\n\n\n\nUsers are recommended to upgrade to version 11.0.26, 10.1.60 or 9.0.122, which fix the issue.
@@ -17275,7 +17288,11 @@
 ### CVE-2026-77578
 - [Soskalai/CVE-2026-77578](https://github.com/Soskalai/CVE-2026-77578)
 
-### CVE-2026-77622
+### CVE-2026-77622 (2026-11-05)
+
+<code>Sliver is a command and control framework. Prior to 1.7.6, an HTTP(S) listener using the PNG encoder accepts attacker-controlled PNG dimensions without an effective decoded-size or pixel limit in util/encoders/images.go, while the listener nonce space implemented in server/encoders/encoders.go is small enough to search remotely. An unauthenticated attacker who identifies a valid nonce can submit a highly compressed image to PNGEncoder.Decode, where it expands during png.Decode, exhausting server memory and causing a complete loss of availability. This vulnerability is fixed in 1.7.6.
+</code>
+
 - [Squ1shification/PNGboomer-CVE-2026-77622](https://github.com/Squ1shification/PNGboomer-CVE-2026-77622)
 
 ### CVE-2026-77635 (2026-08-24)
@@ -18470,7 +18487,11 @@
 ### CVE-2026-87007
 - [squeeze440/crw-PoC](https://github.com/squeeze440/crw-PoC)
 
-### CVE-2026-87008
+### CVE-2026-87008 (2026-11-05)
+
+<code>Code Graph RAG is an AI-powered knowledge graph and retrieval system for querying, understanding, and editing multi-language codebases. Prior to 0.0.589, AstGrepService in codebase_rag/tools/ast_grep_service.py enumerates files beneath project_root and relies on should_skip_path in codebase_rag/utils/path_utils.py to classify them, but the containment check operates on unresolved lexical paths. A symbolic link planted inside an analyzed repository can therefore reference a file outside the configured root while still appearing in scope. The structural_search tool follows the link and discloses readable content without an approval gate, while structural_replace with dry_run=False follows it and overwrites writable content; the MCP path invokes structural replacement without the agent-loop approval control. An attacker who causes a victim to analyze a repository containing such a link can read credentials, keys, environment files, or sibling source and can modify files accessible to the code-graph-rag process. This issue is fixed in version 0.0.589.
+</code>
+
 - [squeeze440/code-graph-rag-PoC](https://github.com/squeeze440/code-graph-rag-PoC)
 
 ### CVE-2026-87009
@@ -20025,6 +20046,13 @@
 - [x86byte/adm-zip_LPE-PoC](https://github.com/x86byte/adm-zip_LPE-PoC)
 - [Ahmed-Elmahgob/POC-CVE-2026-102282](https://github.com/Ahmed-Elmahgob/POC-CVE-2026-102282)
 
+### CVE-2026-102334 (2026-09-28)
+
+<code>Nginx Proxy Manager through 2.16.0 lacks rate-limiting on authentication endpoints, allowing unauthenticated attackers to make unlimited password guesses against any account. Attackers can brute-force login credentials via POST /api/tokens and subsequently guess TOTP codes via POST /api/tokens/2fa to gain full session access and administrative control.
+</code>
+
+- [davidoberst/CVE-2026-102334-exploit](https://github.com/davidoberst/CVE-2026-102334-exploit)
+
 ### CVE-2026-102422 (2026-09-29)
 
 <code>shell-quote's `quote()` function emits a `{ comment }` token as `#` followed by its text, which comments out the rest of the shell line, including the opening quote of any later string token. A line terminator (\n, \r, U+2028, U+2029) in that later string therefore ends the comment, and the rest of the string is parsed as shell input: `quote(['echo', 'ok', { comment: 'x' }, 'a\nid;#'])` runs `id` in sh, bash, dash, ksh and zsh. `parse()` emits a comment token for a `#` in the middle of a word (for example `http://example.com/#frag`), so callers that combine `parse()` output with another untrusted string, such as `quote(parse(untrustedCommand).concat(untrustedArg))`, are affected. The fix for CVE-2026-9277 rejected line terminators in the comment's own text, but not in the tokens after it. Fixed in 1.11.0: `quote()` throws a `TypeError` when a string after a `{ comment }` token contains a line terminator.
@@ -21080,7 +21108,6 @@
 - [Fazmin/PHP2Shell-CVE-2026-109618-CVE-2026-109619-Mitigation-Info-PoC](https://github.com/Fazmin/PHP2Shell-CVE-2026-109618-CVE-2026-109619-Mitigation-Info-PoC)
 - [vulnace/PHP2Shell](https://github.com/vulnace/PHP2Shell)
 - [zarguell/php2shell-scanner](https://github.com/zarguell/php2shell-scanner)
-- [cyberkiddle/CVE-2026-109618](https://github.com/cyberkiddle/CVE-2026-109618)
 - [msoni11/msphp2shell](https://github.com/msoni11/msphp2shell)
 - [cseelhoff-ms/php2shell-hunting-pack](https://github.com/cseelhoff-ms/php2shell-hunting-pack)
 - [ivanscm/php80-cve-2026-109618](https://github.com/ivanscm/php80-cve-2026-109618)
@@ -21916,6 +21943,7 @@
 - [FranklinF25/http2shell](https://github.com/FranklinF25/http2shell)
 - [tikarammardi/CVE-2026-111497](https://github.com/tikarammardi/CVE-2026-111497)
 - [fbuff-tools/http2shell-checker](https://github.com/fbuff-tools/http2shell-checker)
+- [Hika-sec/http2shell-CVE-2026-111497](https://github.com/Hika-sec/http2shell-CVE-2026-111497)
 - [thebarel/CVE-2026-111497](https://github.com/thebarel/CVE-2026-111497)
 - [jeffschafer/Bigfix-NodeJS-Vulnerability-Scanner-Content-CVE-2026-111497](https://github.com/jeffschafer/Bigfix-NodeJS-Vulnerability-Scanner-Content-CVE-2026-111497)
 - [sakai-sktech/brotli-check](https://github.com/sakai-sktech/brotli-check)
@@ -21967,7 +21995,11 @@
 
 - [googlesky/CVE-2026-111585](https://github.com/googlesky/CVE-2026-111585)
 
-### CVE-2026-111770
+### CVE-2026-111770 (2026-11-05)
+
+<code>The Model Context Protocol TypeScript SDK provides TypeScript client and server implementations of the Model Context Protocol. From 2.0.0 until 2.3.0 in @modelcontextprotocol/server, applications that shared one stateless HTTP transport or one McpServer or Server instance among multiple clients could deliver responses and notifications to the wrong client. The affected surface is an MCP server reached over HTTP by multiple clients. The trigger is reuse of one stateless transport or server instance. Messages were associated with a connection using only the JSON-RPC request identifier. SDK clients start request identifiers at zero, so collisions occur in normal operation. Cross-client delivery exposes one client's responses and notifications to another client. The issue requires an HTTP endpoint reachable by more than one client and an application that constructs the server or transport once at startup instead of once per request or session. stdio servers and factory-created per-call servers are not affected. Upgrading causes reused instances to fail and therefore requires an application code change. This issue is fixed in @modelcontextprotocol/server 2.3.0.
+</code>
+
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
 
 ### CVE-2026-111823 (2026-10-16)
@@ -22355,6 +22387,13 @@
 ### CVE-2026-116521
 - [4m3rr0r/CVE-2026-116521-poc](https://github.com/4m3rr0r/CVE-2026-116521-poc)
 
+### CVE-2026-116606 (2026-11-02)
+
+<code>An authentication bypass in Barracuda Email Security Gateway versions earlier than 9.4.0.030 allows an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration.
+</code>
+
+- [watchtowrlabs/watchTowr-vs-Barracuda-RCE-CVE-2026-116606-CVE-2026-111560](https://github.com/watchtowrlabs/watchTowr-vs-Barracuda-RCE-CVE-2026-116606-CVE-2026-111560)
+
 ### CVE-2026-116692 (2026-10-27)
 
 <code>MLflow is an open source AI engineering platform for agents, large language models, and machine learning models. From 3.12.0rc0 until 3.17.0, third-party scorer deserialization in mlflow/genai/scorers/base.py accepts request-selected descendants of THIRD_PARTY_SCORER_ALLOWED_MODULES rather than requiring an exact allowed module. A caller can use MLflow artifact endpoints to place a Python module beneath a writable allowed package and submit its module and class through /ajax-api/3.0/mlflow/scorer/invoke. Scorer.model_validate_json() imports the module and constructs the class before trace processing. Authentication-disabled deployments permit this code execution without credentials, while basic-auth deployments require a principal capable of creating an experiment and run and uploading artifacts. In either configuration, the allowed scorer package must be writable by the server process. This issue is fixed in version 3.17.0.
@@ -22362,7 +22401,11 @@
 
 - [foxcornlab/mlflow-scorer-scanner](https://github.com/foxcornlab/mlflow-scorer-scanner)
 
-### CVE-2026-116779
+### CVE-2026-116779 (2026-11-05)
+
+<code>FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a software implementation that runs on any commodity hardware. Prior to 1.11.3, sofia_presence_handle_sip_i_message() split the To user of an inbound SIP MESSAGE on a plus sign and treated the left side as a chat protocol selector. Selecting the api chat proto reached switch_api_execute(), allowing a peer whose MESSAGE was accepted to run FreeSWITCH API commands, including operating-system command sinks, with the daemon's privileges. Inbound chat is enabled on the stock internal and external profiles, and any authenticated profile account is sufficient; stock directory users without password material can also remove that barrier in affected configurations. The flaw permits configuration and credential disclosure, arbitrary call control, and command execution, and exploitation has been observed in the wild. This issue is fixed in version 1.11.3.
+</code>
+
 - [majidrahimi5020-lgtm/Poc-exploit-for-CVE-2026-116779-FreeSWITCH-](https://github.com/majidrahimi5020-lgtm/Poc-exploit-for-CVE-2026-116779-FreeSWITCH-)
 
 ### CVE-2026-117182 (2026-10-30)
@@ -22477,6 +22520,9 @@
 
 - [7xd10/CVE-2026-120318](https://github.com/7xd10/CVE-2026-120318)
 
+### CVE-2026-121720
+- [refiaa/CVE-2026-121720](https://github.com/refiaa/CVE-2026-121720)
+
 ### CVE-2026-122006 (2026-11-04)
 
 <code>The activestorage gem before 8.1.4.1 for Ruby on Rails, when ImageMagick attachment processing occurs, can allow server read and write operations (e.g., reading secret_key_base) because the ImageMagick analyzer runs when a file is attached, and there is not an ImageMagick security policy to block unintended functionality.
@@ -22490,6 +22536,25 @@
 </code>
 
 - [carterlasalle/CVE-2026-122051](https://github.com/carterlasalle/CVE-2026-122051)
+
+### CVE-2026-122158 (2026-11-05)
+
+<code>A security flaw has been discovered in InvoiceShelf up to 2.4.3/3.0.0-alpha.3. Affected by this issue is the function MemberService::create of the file app/Domains/Accounts/Application/MemberService.php. Performing a manipulation of the argument companies[].id/companies[].role results in improper access controls. The attack is possible to be carried out remotely. The exploit has been released to the public and may be used for attacks. Upgrading to version 2.4.4 and 3.0.0-alpha.4 can resolve this issue. The patch is named c798b513c3ab6e672a1678774720fbb282f4d0c6. It is recommended to upgrade the affected component.
+</code>
+
+- [capivara-research/CVE-2026-122158](https://github.com/capivara-research/CVE-2026-122158)
+
+### CVE-2026-123158 (2026-11-05)
+
+<code>sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password authentication bypass (related to misinterpretation of whether a string is intended to be a password hash). For some configurations of accounts, any password between 256 and 1024 characters succeeds. An example of a platform using musl libc without PAM is Alpine Linux.
+</code>
+
+- [coboliqcom/cve-2026-123158-sshole-safe-rust](https://github.com/coboliqcom/cve-2026-123158-sshole-safe-rust)
+- [0xBlackash/CVE-2026-123158](https://github.com/0xBlackash/CVE-2026-123158)
+- [The-DevOps-Daily/alpine-sshd-check](https://github.com/The-DevOps-Daily/alpine-sshd-check)
+- [rothoma2/cve-2026-123158-sshole](https://github.com/rothoma2/cve-2026-123158-sshole)
+- [ersinkoc/sshole-check](https://github.com/ersinkoc/sshole-check)
+- [gabrielunknown/CVE-2026-123158_SSHole](https://github.com/gabrielunknown/CVE-2026-123158_SSHole)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -30965,6 +31030,13 @@
 
 - [m0b1u3/CVE-2025-50565](https://github.com/m0b1u3/CVE-2025-50565)
 
+### CVE-2025-50579 (2025-08-19)
+
+<code>A CORS misconfiguration in Nginx Proxy Manager v2.12.3 allows unauthorized domains to access sensitive data, particularly JWT tokens, due to improper validation of the Origin header. This misconfiguration enables attackers to intercept tokens using a simple browser script and exfiltrate them to a remote attacker-controlled server, potentially leading to unauthorized actions within the application.
+</code>
+
+- [davidoberst/CVE-2025-50579-CORS-Misconfiguration-Exploit](https://github.com/davidoberst/CVE-2025-50579-CORS-Misconfiguration-Exploit)
+
 ### CVE-2025-50592 (2025-08-05)
 
 <code>Cross site scripting vulnerability in seacms before 13.2 via the vid parameter to Upload/js/player/dmplayer/player.
@@ -32485,6 +32557,7 @@
 - [0xRAM-bit/CVE-2025-55182](https://github.com/0xRAM-bit/CVE-2025-55182)
 - [manshoor/php2shell-scanner](https://github.com/manshoor/php2shell-scanner)
 - [Certbn/CVE-2025-55182-React-Server-Components-Flight-React2Shell-](https://github.com/Certbn/CVE-2025-55182-React-Server-Components-Flight-React2Shell-)
+- [sg-evals/react--v19.2.1](https://github.com/sg-evals/react--v19.2.1)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -63040,6 +63113,7 @@
 - [ericpardee/fire-hd-ownership](https://github.com/ericpardee/fire-hd-ownership)
 - [artur9010/amazon-mustang-hack](https://github.com/artur9010/amazon-mustang-hack)
 - [s1204IT/CVE-2022-38181](https://github.com/s1204IT/CVE-2022-38181)
+- [lRENyaaa/AGM3-W09HN-TempRoot](https://github.com/lRENyaaa/AGM3-W09HN-TempRoot)
 
 ### CVE-2022-38374 (2022-11-02)
 
@@ -64465,6 +64539,7 @@
 - [kasem545/CVE-2022-46364-Poc](https://github.com/kasem545/CVE-2022-46364-Poc)
 - [cybermaksx/CVE-2022-46364-Proof-of-the-concept](https://github.com/cybermaksx/CVE-2022-46364-Proof-of-the-concept)
 - [Shashivanth009/CVE-2022-46364---Apache-CXF-XOP-Include-LFI-PoC](https://github.com/Shashivanth009/CVE-2022-46364---Apache-CXF-XOP-Include-LFI-PoC)
+- [0xmid00/CVE-2022-46364-poc](https://github.com/0xmid00/CVE-2022-46364-poc)
 - [jwsly12/CVE-2022-46364-htb-ctf](https://github.com/jwsly12/CVE-2022-46364-htb-ctf)
 - [c0gnit00/CVE-2022-46364](https://github.com/c0gnit00/CVE-2022-46364)
 
