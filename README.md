@@ -11165,6 +11165,7 @@
 - [0xDVRK/CVE-2026-41651](https://github.com/0xDVRK/CVE-2026-41651)
 - [gbuyssens/CVE-2026-41651](https://github.com/gbuyssens/CVE-2026-41651)
 - [Thhc10/CVE-2026-41651](https://github.com/Thhc10/CVE-2026-41651)
+- [thiscitze/cve-2026-41651-poc](https://github.com/thiscitze/cve-2026-41651-poc)
 
 ### CVE-2026-41653 (2026-05-07)
 
@@ -12143,7 +12144,7 @@
 
 ### CVE-2026-44277 (2026-05-12)
 
-<code>A improper access control vulnerability in Fortinet FortiAuthenticator 8.0.2, FortiAuthenticator 8.0.0, FortiAuthenticator 6.6.0 through 6.6.8, FortiAuthenticator 6.5.0 through 6.5.6 may allow attacker to execute unauthorized code or commands via crafted requests.
+<code>A improper access control vulnerability in Fortinet FortiAuthenticator 8.0.2, FortiAuthenticator 8.0.0, FortiAuthenticator 6.6.0 through 6.6.8, FortiAuthenticator 6.5.0 through 6.5.6, FortiAuthenticator 6.4.0 through 6.4.10 may allow attacker to execute unauthorized code or commands via crafted requests.
 </code>
 
 - [0xBlackash/CVE-2026-44277](https://github.com/0xBlackash/CVE-2026-44277)
@@ -13127,6 +13128,7 @@
 
 - [abraxas/CVE-2026-48356](https://github.com/abraxas/CVE-2026-48356)
 - [Cyber-BansalAI/polyshell-2026](https://github.com/Cyber-BansalAI/polyshell-2026)
+- [Ghost-Bx1/cve-2026-48356-magento-file-upload-rce](https://github.com/Ghost-Bx1/cve-2026-48356-magento-file-upload-rce)
 
 ### CVE-2026-48500 (2026-06-22)
 
@@ -14290,7 +14292,7 @@
 - [sam00/POC-CVE-2026-54121-Certighost](https://github.com/sam00/POC-CVE-2026-54121-Certighost)
 - [L0u7r3/certighost](https://github.com/L0u7r3/certighost)
 - [ushst/CVE-2026-54121-adcs-chase-nxc](https://github.com/ushst/CVE-2026-54121-adcs-chase-nxc)
-- [AnubisRedTeam/CVE-2026-54121-Certighost](https://github.com/AnubisRedTeam/CVE-2026-54121-Certighost)
+- [anubis-claud/CVE-2026-54121-Certighost](https://github.com/anubis-claud/CVE-2026-54121-Certighost)
 
 ### CVE-2026-54161 (2026-11-03)
 
@@ -15270,6 +15272,27 @@
 - [imbas007/POC-CVE-2026-60206](https://github.com/imbas007/POC-CVE-2026-60206)
 - [tc4dy/CVE-2026-60206-PoC-Exploit](https://github.com/tc4dy/CVE-2026-60206-PoC-Exploit)
 - [Debajyoti0-0/CVE-2026-60206](https://github.com/Debajyoti0-0/CVE-2026-60206)
+
+### CVE-2026-60586 (2026-07-21)
+
+<code>Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J).  Supported versions that are affected are 9.7.0-9.7.1. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Connectors.  While the vulnerability is in MySQL Connectors, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all MySQL Connectors accessible data. CVSS 3.1 Base Score 7.7 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N).
+</code>
+
+- [ryanmurf/mysql-connector-j-cve-2026-60586-repro](https://github.com/ryanmurf/mysql-connector-j-cve-2026-60586-repro)
+
+### CVE-2026-60623 (2026-07-21)
+
+<code>Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J).  Supported versions that are affected are 9.7.0-9.7.1. Difficult to exploit vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Connectors.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all MySQL Connectors accessible data as well as  unauthorized access to critical data or complete access to all MySQL Connectors accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Connectors. CVSS 3.1 Base Score 7.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:L).
+</code>
+
+- [ryanmurf/mysql-connector-j-cve-2026-60623-repro](https://github.com/ryanmurf/mysql-connector-j-cve-2026-60623-repro)
+
+### CVE-2026-61082 (2026-07-21)
+
+<code>Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J).  Supported versions that are affected are 9.7.0-9.7.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Connectors.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all MySQL Connectors accessible data. CVSS 3.1 Base Score 6.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N).
+</code>
+
+- [ryanmurf/mysql-connector-j-cve-2026-61082-repro](https://github.com/ryanmurf/mysql-connector-j-cve-2026-61082-repro)
 
 ### CVE-2026-61343 (2026-07-09)
 
@@ -17972,6 +17995,7 @@
 
 - [LilPoule/CVE-2026-83844](https://github.com/LilPoule/CVE-2026-83844)
 - [0xBlackash/CVE-2026-83844](https://github.com/0xBlackash/CVE-2026-83844)
+- [mokshshah18/CVE-2026-83844-PoC-MS-paint-v-11.2609.401.0](https://github.com/mokshshah18/CVE-2026-83844-PoC-MS-paint-v-11.2609.401.0)
 
 ### CVE-2026-83991 (2026-09-08)
 
@@ -18052,7 +18076,11 @@
 
 - [murrez/CVE-2026-84434](https://github.com/murrez/CVE-2026-84434)
 
-### CVE-2026-84473
+### CVE-2026-84473 (2026-11-06)
+
+<code>Authentication Bypass / Missing Brute-Force Protection in remote.php/webdav/ in ownCloud ownCloud server 10.16.3 allows an unauthenticated remote attacker to perform unlimited online password guessing against WebDAV accounts via repeated HTTP Basic Authentication requests to the WebDAV endpoint.
+</code>
+
 - [KOBUKOVUI/CVE-2026-84473](https://github.com/KOBUKOVUI/CVE-2026-84473)
 
 ### CVE-2026-84520 (2026-09-14)
@@ -19618,6 +19646,7 @@
 - [foxcornlab/gitlab-onigmo-scanner](https://github.com/foxcornlab/gitlab-onigmo-scanner)
 - [emc-kk/cve-2026-97229-lab](https://github.com/emc-kk/cve-2026-97229-lab)
 - [Certbn/CVE-2026-97229-GitLab-CI-CD](https://github.com/Certbn/CVE-2026-97229-GitLab-CI-CD)
+- [Ghost-Bx1/cve-2026-97229-gitlab-ci-rce](https://github.com/Ghost-Bx1/cve-2026-97229-gitlab-ci-rce)
 
 ### CVE-2026-97286 (2026-09-30)
 
@@ -19744,7 +19773,7 @@
 - [kpgc10kai/TimerRoot](https://github.com/kpgc10kai/TimerRoot)
 - [NanoTurtle1145/cve-2026-98260-uaf](https://github.com/NanoTurtle1145/cve-2026-98260-uaf)
 - [Feiman55/CVE-2026-98260-GhostKey](https://github.com/Feiman55/CVE-2026-98260-GhostKey)
-- [Again1996-bit/CVE-2026-98260-GhostKey](https://github.com/Again1996-bit/CVE-2026-98260-GhostKey)
+- [SecPhases/CVE-2026-98260-GhostKey](https://github.com/SecPhases/CVE-2026-98260-GhostKey)
 - [AzirX1337/CVE-2026-98260-PMX110-Root618-Jailbreak](https://github.com/AzirX1337/CVE-2026-98260-PMX110-Root618-Jailbreak)
 - [quyicheng03-boop/CVE-2026-98260-dada-android](https://github.com/quyicheng03-boop/CVE-2026-98260-dada-android)
 - [molanp/CVE-2026-98260-vivo-s60-poc](https://github.com/molanp/CVE-2026-98260-vivo-s60-poc)
@@ -20038,6 +20067,13 @@
 </code>
 
 - [oscerd/CVE-2026-101259](https://github.com/oscerd/CVE-2026-101259)
+
+### CVE-2026-101678 (2026-10-20)
+
+<code>Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J).   The supported version that is affected is 26.7.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Connectors.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Connectors. CVSS 3.1 Base Score 4.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L).
+</code>
+
+- [ryanmurf/mysql-connector-j-cve-2026-101678-repro](https://github.com/ryanmurf/mysql-connector-j-cve-2026-101678-repro)
 
 ### CVE-2026-101767 (2026-10-20)
 
@@ -21782,6 +21818,7 @@
 - [avrevic/php2shell-lean-chase](https://github.com/avrevic/php2shell-lean-chase)
 - [avrevic/php2shell-lean-plain](https://github.com/avrevic/php2shell-lean-plain)
 - [lanz/php2shell-coverage-check](https://github.com/lanz/php2shell-coverage-check)
+- [lutfizp/php2shell-lab](https://github.com/lutfizp/php2shell-lab)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22218,6 +22255,13 @@
 
 - [yuwkaaa/CVE-2026-113468](https://github.com/yuwkaaa/CVE-2026-113468)
 
+### CVE-2026-113615 (2026-11-06)
+
+<code>The GS JWT Authentication for WP REST API WordPress plugin through 1.0.0 does not sanitize or parameterize a request value before using it in SQL queries on several unauthenticated REST routes, allowing unauthenticated attackers to perform SQL injection and obtain an administrator session.
+</code>
+
+- [thiscitze/cve-2026-113615-poc](https://github.com/thiscitze/cve-2026-113615-poc)
+
 ### CVE-2026-113872 (2026-10-22)
 
 <code>multer is a middleware for Node.js that handles multipart/form-data file uploads. In versions from 2.0.0 before 2.5.0, when multer is configured with an asynchronous fileFilter, a single request can crash the Node.js process. If the request is aborted while one file's asynchronous fileFilter is still pending, the pending callback later resumes a parsing stream that multer has already torn down, and the underlying parser emits an error on a stream that no longer has an error listener, which Node raises as an unhandled error event so the process exits. Any application using multer with an asynchronous fileFilter is affected regardless of storage engine, while uploads using a synchronous fileFilter are not affected. The issue is fixed in multer 2.5.0, and users should upgrade to 2.5.0 or later. As a workaround, use a synchronous fileFilter.
@@ -22506,6 +22550,7 @@
 </code>
 
 - [majidrahimi5020-lgtm/Poc-exploit-for-CVE-2026-116779-FreeSWITCH-](https://github.com/majidrahimi5020-lgtm/Poc-exploit-for-CVE-2026-116779-FreeSWITCH-)
+- [hackzuoji/freeswitch-cve-2026-116779-POC](https://github.com/hackzuoji/freeswitch-cve-2026-116779-POC)
 
 ### CVE-2026-117182 (2026-10-30)
 
@@ -22565,6 +22610,8 @@
 </code>
 
 - [thiscitze/cve-2026-118423-poc](https://github.com/thiscitze/cve-2026-118423-poc)
+- [im0xfay/CVE-2026-118423](https://github.com/im0xfay/CVE-2026-118423)
+- [Sable-Research/CVE-2026-118423-WP-Libre-Form](https://github.com/Sable-Research/CVE-2026-118423-WP-Libre-Form)
 
 ### CVE-2026-118569 (2026-10-30)
 
@@ -22606,6 +22653,7 @@
 <code>WordPress Core is vulnerable to Remote Code Execution in versions 4.7 through 7.1.3. This is due to predictable, web-accessible staging paths used during full-package core upgrades. This makes it possible for unauthenticated attackers to execute code on the server during the upgrade window.
 </code>
 
+- [paulmann/Bash_WP-CLI_Update](https://github.com/paulmann/Bash_WP-CLI_Update)
 - [foxcornlab/wordpress-core-scanner](https://github.com/foxcornlab/wordpress-core-scanner)
 - [lysophavin18/CVE-2026-119977](https://github.com/lysophavin18/CVE-2026-119977)
 - [Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4](https://github.com/Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4)
@@ -22705,6 +22753,10 @@
 - [Hel1um17/sshole-bypass-openssh-password](https://github.com/Hel1um17/sshole-bypass-openssh-password)
 - [mlazzarotto/ansible-sshole-remediate](https://github.com/mlazzarotto/ansible-sshole-remediate)
 - [shenxianpeng/check-sshole](https://github.com/shenxianpeng/check-sshole)
+- [CriticalWombat/sshole_scanner-CVE-2026-123158](https://github.com/CriticalWombat/sshole_scanner-CVE-2026-123158)
+- [mc493/openssh-musl-enterprise--hardening-cve-2026-123158](https://github.com/mc493/openssh-musl-enterprise--hardening-cve-2026-123158)
+- [crash00xd/CVE-2026-123158_SSHRole_PoC](https://github.com/crash00xd/CVE-2026-123158_SSHRole_PoC)
+- [halilkirazkaya/CVE-2026-123158](https://github.com/halilkirazkaya/CVE-2026-123158)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -28985,6 +29037,7 @@
 - [Liam-Worsley/CVE-2025-32433-PoC-Analysis](https://github.com/Liam-Worsley/CVE-2025-32433-PoC-Analysis)
 - [damnkrishna/CVE-2025-32433-LAB](https://github.com/damnkrishna/CVE-2025-32433-LAB)
 - [Avinash37402/CVE-2025-32433-Erlang-OTP-SSH](https://github.com/Avinash37402/CVE-2025-32433-Erlang-OTP-SSH)
+- [Ghost-Bx1/cve-2025-32433-erlang-ssh-preauth-rce](https://github.com/Ghost-Bx1/cve-2025-32433-erlang-ssh-preauth-rce)
 
 ### CVE-2025-32434 (2025-04-18)
 
@@ -37873,6 +37926,13 @@
 
 - [Adikso/CVE-2024-5633](https://github.com/Adikso/CVE-2024-5633)
 
+### CVE-2024-5716 (2024-11-22)
+
+<code>Logsign Unified SecOps Platform Authentication Bypass Vulnerability. This vulnerability allows remote attackers to bypass authentication on affected installations of Logsign Unified SecOps Platform. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the password reset mechanism. The issue results from the lack of restriction of excessive authentication attempts. An attacker can leverage this vulnerability to reset a user's password and bypass authentication on the system. Was ZDI-CAN-24164.
+</code>
+
+- [jankesec/logsign-rce](https://github.com/jankesec/logsign-rce)
+
 ### CVE-2024-5735 (2024-06-28)
 
 <code>Full Path Disclosure vulnerability in AdmirorFrames Joomla! extension in afHelper.php script allows an unauthorised attacker to retrieve location of web root folder. This issue affects AdmirorFrames: before 5.0.
@@ -41725,7 +41785,6 @@
 - [Cythonic1/CVE-2024-27198_POC](https://github.com/Cythonic1/CVE-2024-27198_POC)
 - [ArtemCyberLab/Project-Exploiting-CVE-2024-27198-RCE-Vulnerability](https://github.com/ArtemCyberLab/Project-Exploiting-CVE-2024-27198-RCE-Vulnerability)
 - [EynaExp/CVE-2024-27198-POC](https://github.com/EynaExp/CVE-2024-27198-POC)
-- [cmpnn-romain/CVE-2024-27198_Lab](https://github.com/cmpnn-romain/CVE-2024-27198_Lab)
 - [Ne0zer01/CVE-2024-27198_LAB](https://github.com/Ne0zer01/CVE-2024-27198_LAB)
 - [ptd200110/CVE-2024-27198-SOC-Lab](https://github.com/ptd200110/CVE-2024-27198-SOC-Lab)
 - [kxom9ks/CVE-2024-27198-TeamCity](https://github.com/kxom9ks/CVE-2024-27198-TeamCity)
@@ -60225,6 +60284,7 @@
 </code>
 
 - [jpeisach/CVE-2022-24713-POC](https://github.com/jpeisach/CVE-2022-24713-POC)
+- [federiconbaez/cortex9-rust-regex-empty-repetition-size-limit-model](https://github.com/federiconbaez/cortex9-rust-regex-empty-repetition-size-limit-model)
 
 ### CVE-2022-24715 (2022-03-08)
 
@@ -66191,6 +66251,7 @@
 </code>
 
 - [code-with-amitk/CentOS7_CVE-2021-3712_Remediation](https://github.com/code-with-amitk/CentOS7_CVE-2021-3712_Remediation)
+- [federiconbaez/cortex9-openssl-asn1-string-nul-scanner](https://github.com/federiconbaez/cortex9-openssl-asn1-string-nul-scanner)
 
 ### CVE-2021-3749 (2021-08-31)
 
@@ -69024,6 +69085,7 @@
 </code>
 
 - [yamory/CVE-2021-32804](https://github.com/yamory/CVE-2021-32804)
+- [federiconbaez/cortex9-node-tar-path-sanitization-model](https://github.com/federiconbaez/cortex9-node-tar-path-sanitization-model)
 
 ### CVE-2021-32819 (2021-05-14)
 
@@ -77648,6 +77710,13 @@
 - [whr819987540/test_CVE-2020-26233](https://github.com/whr819987540/test_CVE-2020-26233)
 - [an1p3lg5/CVE-2020-26233](https://github.com/an1p3lg5/CVE-2020-26233)
 
+### CVE-2020-26235 (2020-11-24)
+
+<code>In Rust time crate from version 0.2.7 and before version 0.2.23, unix-like operating systems may segfault due to dereferencing a dangling pointer in specific circumstances. This requires the user to set any environment variable in a different thread than the affected functions. The affected functions are time::UtcOffset::local_offset_at, time::UtcOffset::try_local_offset_at, time::UtcOffset::current_local_offset, time::UtcOffset::try_current_local_offset, time::OffsetDateTime::now_local and time::OffsetDateTime::try_now_local. Non-Unix targets are unaffected. This includes Windows and wasm. The issue was introduced in version 0.2.7 and fixed in version 0.2.23.
+</code>
+
+- [federiconbaez/cortex9-time-crate-env-race-interleaving-model](https://github.com/federiconbaez/cortex9-time-crate-env-race-interleaving-model)
+
 ### CVE-2020-26258 (2020-12-16)
 
 <code>XStream is a Java library to serialize objects to XML and back again. In XStream before version 1.4.15, a Server-Side Forgery Request vulnerability can be activated when unmarshalling. The vulnerability may allow a remote attacker to request data from internal resources that are not publicly available only by manipulating the processed input stream. If you rely on XStream's default blacklist of the Security Framework, you will have to use at least version 1.4.15. The reported vulnerability does not exist if running Java 15 or higher. No user is affected who followed the recommendation to setup XStream's Security Framework with a whitelist! Anyone relying on XStream's default blacklist can immediately switch to a whilelist for the allowed types to avoid the vulnerability. Users of XStream 1.4.14 or below who still want to use XStream default blacklist can use a workaround described in more detailed in the referenced advisories.
@@ -80205,7 +80274,7 @@
 - [kahluri/CVE-2019-9053](https://github.com/kahluri/CVE-2019-9053)
 - [fernandobortotti/CVE-2019-9053](https://github.com/fernandobortotti/CVE-2019-9053)
 - [byrek/CVE-2019-9053](https://github.com/byrek/CVE-2019-9053)
-- [davcwikla/CVE-2019-9053-exploit](https://github.com/davcwikla/CVE-2019-9053-exploit)
+- [dawcwikla/CVE-2019-9053-exploit](https://github.com/dawcwikla/CVE-2019-9053-exploit)
 - [BjarneVerschorre/CVE-2019-9053](https://github.com/BjarneVerschorre/CVE-2019-9053)
 - [Jason-Siu/CVE-2019-9053-Exploit-in-Python-3](https://github.com/Jason-Siu/CVE-2019-9053-Exploit-in-Python-3)
 - [0xftorres/CVE-2019-9053-Fixed](https://github.com/0xftorres/CVE-2019-9053-Fixed)
@@ -86690,6 +86759,13 @@
 
 - [tna0y/CVE-2018-1000802-PoC](https://github.com/tna0y/CVE-2018-1000802-PoC)
 
+### CVE-2018-1000810 (2018-10-08)
+
+<code>The Rust Programming Language Standard Library version 1.29.0, 1.28.0, 1.27.2, 1.27.1, 127.0, 126.2, 126.1, 126.0 contains a CWE-680: Integer Overflow to Buffer Overflow vulnerability in standard library that can result in buffer overflow. This attack appear to be exploitable via str::repeat, passed a large number, can overflow an internal buffer. This vulnerability appears to have been fixed in 1.29.1.
+</code>
+
+- [federiconbaez/cortex9-rust-str-repeat-capacity-overflow-model](https://github.com/federiconbaez/cortex9-rust-str-repeat-capacity-overflow-model)
+
 ### CVE-2018-1000844 (2018-12-20)
 
 <code>Square Open Source Retrofit version Prior to commit 4a693c5aeeef2be6c7ecf80e7b5ec79f6ab59437 contains a XML External Entity (XXE) vulnerability in JAXB that can result in An attacker could use this to remotely read files from the file system or to perform SSRF.. This vulnerability appears to have been fixed in After commit 4a693c5aeeef2be6c7ecf80e7b5ec79f6ab59437.
@@ -87858,6 +87934,7 @@
 - [MK-ULTRA-MK-ULTRA/CVE-2017-7921-2026-writeup](https://github.com/MK-ULTRA-MK-ULTRA/CVE-2017-7921-2026-writeup)
 - [intcost/cve-2017-7921-hikvision-poc](https://github.com/intcost/cve-2017-7921-hikvision-poc)
 - [Mr-Ochobot/Hikvision-CCTV-POC](https://github.com/Mr-Ochobot/Hikvision-CCTV-POC)
+- [Bethelhem-Yirga/hikvision-cve-2017-7921-lab](https://github.com/Bethelhem-Yirga/hikvision-cve-2017-7921-lab)
 
 ### CVE-2017-7998 (2018-01-08)
 
@@ -89179,6 +89256,13 @@
 
 - [securifera/CVE-2017-18044-Exploit](https://github.com/securifera/CVE-2017-18044-Exploit)
 
+### CVE-2017-18078 (2018-01-29)
+
+<code>systemd-tmpfiles in systemd before 237 attempts to support ownership/permission changes on hardlinked files even if the fs.protected_hardlinks sysctl is turned off, which allows local users to bypass intended access restrictions via vectors involving a hard link to a file for which the user lacks write access, as demonstrated by changing the ownership of the /etc/passwd file.
+</code>
+
+- [federiconbaez/cortex9-tmpfiles-hardlink-chown-race-model](https://github.com/federiconbaez/cortex9-tmpfiles-hardlink-chown-race-model)
+
 ### CVE-2017-18345 (2018-08-26)
 
 <code>The Joomanager component through 2.0.0 for Joomla! has an arbitrary file download issue, resulting in exposing the credentials of the database via an index.php?option=com_joomanager&amp;controller=details&amp;task=download&amp;path=configuration.php request.
@@ -90156,6 +90240,7 @@
 - [vudangducminh/CVE-2016-5195](https://github.com/vudangducminh/CVE-2016-5195)
 - [Mr-Ochobot/CVE-2016-5195](https://github.com/Mr-Ochobot/CVE-2016-5195)
 - [bL8nCO/Dirty-cow](https://github.com/bL8nCO/Dirty-cow)
+- [federiconbaez/cortex9-dirtycow-gup-cow-state-model](https://github.com/federiconbaez/cortex9-dirtycow-gup-cow-state-model)
 
 ### CVE-2016-5345 (2018-01-23)
 
@@ -90917,6 +91002,13 @@
 </code>
 
 - [christopher-leese/cve-2015-1187-dir820l-firmware-reverse-engineering](https://github.com/christopher-leese/cve-2015-1187-dir820l-firmware-reverse-engineering)
+
+### CVE-2015-1201 (2015-01-20)
+
+<code>Privoxy before 3.0.22 allows remote attackers to cause a denial of service (file descriptor consumption) via unspecified vectors.  NOTE: the provenance of this information is unknown; the details are obtained solely from third party information.
+</code>
+
+- [Akshit0203/CVE-2015-1201-wordpress-Reflex-Gallery-plugin-RCE-PoC](https://github.com/Akshit0203/CVE-2015-1201-wordpress-Reflex-Gallery-plugin-RCE-PoC)
 
 ### CVE-2015-1318 (2015-04-17)
 
@@ -91990,6 +92082,7 @@
 - [CyberCTF/vulhub-openssl-cve-2014-0160](https://github.com/CyberCTF/vulhub-openssl-cve-2014-0160)
 - [0xTaoZ/Heartbleed-CSP-project](https://github.com/0xTaoZ/Heartbleed-CSP-project)
 - [mcpmark-eval-liuhezi/security-digest-modern-classics](https://github.com/mcpmark-eval-liuhezi/security-digest-modern-classics)
+- [federiconbaez/cortex9-heartbleed-heartbeat-bounds-model](https://github.com/federiconbaez/cortex9-heartbleed-heartbeat-bounds-model)
 
 ### CVE-2014-0166 (2014-04-09)
 
@@ -93861,6 +93954,8 @@
 - [diceverick/vulnerability-assessment-lab](https://github.com/diceverick/vulnerability-assessment-lab)
 - [Nutsulejustine/pentest-metasploitable](https://github.com/Nutsulejustine/pentest-metasploitable)
 - [secwitness/CVE-2011-2523-vsftpd-backdoor-analysis](https://github.com/secwitness/CVE-2011-2523-vsftpd-backdoor-analysis)
+- [nabeelapu/vsftpd-2.3.4-backdoor-vulnerability-analysis](https://github.com/nabeelapu/vsftpd-2.3.4-backdoor-vulnerability-analysis)
+- [nabeelapu/vsftpd-2.3.4-backdoor-vulnerability_analysis](https://github.com/nabeelapu/vsftpd-2.3.4-backdoor-vulnerability_analysis)
 
 ### CVE-2011-2553
 - [carlosrpastrana/cve-2011-2553](https://github.com/carlosrpastrana/cve-2011-2553)
