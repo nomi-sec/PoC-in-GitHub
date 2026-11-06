@@ -4513,6 +4513,7 @@
 </code>
 
 - [mattgsys/CVE-2026-19586](https://github.com/mattgsys/CVE-2026-19586)
+- [bgorzelic/omada-advisory-check](https://github.com/bgorzelic/omada-advisory-check)
 
 ### CVE-2026-19598 (2026-08-15)
 
@@ -5689,6 +5690,13 @@
 
 - [gsadagopan/cve-2026-22747-sandbox](https://github.com/gsadagopan/cve-2026-22747-sandbox)
 - [yakissa/CVE-2026-22747](https://github.com/yakissa/CVE-2026-22747)
+
+### CVE-2026-22765 (2026-02-24)
+
+<code>Dell Wyse Management Suite, versions prior to WMS 5.5, contain a Missing Authorization vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Elevation of Privileges.
+</code>
+
+- [Xitro01/CVE-2026-22765-poc](https://github.com/Xitro01/CVE-2026-22765-poc)
 
 ### CVE-2026-22777 (2026-01-10)
 
@@ -11874,6 +11882,7 @@
 - [heikeyangle-code/mi11-venus-temproot](https://github.com/heikeyangle-code/mi11-venus-temproot)
 - [thedavidweng/ghostlock-z3q](https://github.com/thedavidweng/ghostlock-z3q)
 - [giannoccarol/root-key1](https://github.com/giannoccarol/root-key1)
+- [Cyb3rCr0wCC/CVE-2026-43499_study](https://github.com/Cyb3rCr0wCC/CVE-2026-43499_study)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -13084,6 +13093,7 @@
 </code>
 
 - [abraxas/CVE-2026-48356](https://github.com/abraxas/CVE-2026-48356)
+- [Cyber-BansalAI/polyshell-2026](https://github.com/Cyber-BansalAI/polyshell-2026)
 
 ### CVE-2026-48500 (2026-06-22)
 
@@ -17884,6 +17894,13 @@
 
 - [oscerd/CVE-2026-83531](https://github.com/oscerd/CVE-2026-83531)
 
+### CVE-2026-83542 (2026-11-05)
+
+<code>Improper Control of Generation of Code ('Code Injection') in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to execute arbitrary code on the server by staging crafted widget XML in a multipart upload and overriding the mainDecoratorLocation used by a manager login route through an anonymous JSON request, causing OFBiz to load the staged XML through its live screen descriptor mechanism and evaluate an unsandboxed Groovy expression while rendering the authentication-failure page. Further validation established the following:\n\n-- The exploit does not require a malformed or incomplete multipart body: a well-formed multipart request that is kept in flight and then allowed to complete normally is sufficient.\n\n-- The screen loader reads the widget XML from a live process file descriptor while the upload is streaming, rather than from any file the attacker persists to disk.\n\n-- The same underlying issue is also reachable through the public, explicitly unauthenticated /sfa/control/editPortalPageColumnWidth route, returning command output directly in an HTTP 200 response — it is not limited to the login-failure rendering path used in the original report.\n\nUsers are recommended to upgrade to version 24.09.08, which fixes this issue.
+</code>
+
+- [foxcornlab/ofbiz-scanner](https://github.com/foxcornlab/ofbiz-scanner)
+
 ### CVE-2026-83548 (2026-09-01)
 
 <code>A Pre-authentication SSRF vulnerability exists in the SMA1000 Appliance Work Place interface due to an unintended alternate access path. A remote unauthenticated attacker could potentially exploit this vulnerability to gain unauthorized access to sensitive functionality and perform unauthorized operations.
@@ -19551,7 +19568,6 @@
 - [Noshadi-sec/CVE-2026-97229](https://github.com/Noshadi-sec/CVE-2026-97229)
 - [murat-levi/gitlab-rce-toolkit](https://github.com/murat-levi/gitlab-rce-toolkit)
 - [foxcornlab/gitlab-onigmo-scanner](https://github.com/foxcornlab/gitlab-onigmo-scanner)
-- [emc-kk/cve-2026-97229-lab](https://github.com/emc-kk/cve-2026-97229-lab)
 - [Certbn/CVE-2026-97229-GitLab-CI-CD](https://github.com/Certbn/CVE-2026-97229-GitLab-CI-CD)
 
 ### CVE-2026-97286 (2026-09-30)
@@ -19658,12 +19674,12 @@
 
 - [jadedFella/lpe-study-notes](https://github.com/jadedFella/lpe-study-notes)
 - [ylh440104/InfinityCore-Android-CVE-2026-98260](https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98260)
-- [Yunnijian/OnePlus16-Jailbreak](https://github.com/Yunnijian/OnePlus16-Jailbreak)
 - [quyicheng03-boop/CVE-2026-98260-popsicle-android](https://github.com/quyicheng03-boop/CVE-2026-98260-popsicle-android)
 - [quyicheng03-boop/CVE-2026-98260-nezha-android](https://github.com/quyicheng03-boop/CVE-2026-98260-nezha-android)
 - [sganggs/CVE-2026-98260-BRM-AN00](https://github.com/sganggs/CVE-2026-98260-BRM-AN00)
 - [zsw125/o3root](https://github.com/zsw125/o3root)
 - [janewas/cve-2026-98260-vivo-gki-research](https://github.com/janewas/cve-2026-98260-vivo-gki-research)
+- [kzktor/ic-timer-lpe](https://github.com/kzktor/ic-timer-lpe)
 - [addxemmm/CVE-2026-98260-pudding-android](https://github.com/addxemmm/CVE-2026-98260-pudding-android)
 - [AzirX1337/CVE-2026-98260-OnePlus16-PYB110-Jailbreak](https://github.com/AzirX1337/CVE-2026-98260-OnePlus16-PYB110-Jailbreak)
 - [Lw5959/xring-cve-2026-98260](https://github.com/Lw5959/xring-cve-2026-98260)
@@ -21616,7 +21632,6 @@
 - [rayaar/php2shellPoc](https://github.com/rayaar/php2shellPoc)
 - [ProTekk/php2shell-detect](https://github.com/ProTekk/php2shell-detect)
 - [thetowsif/php2shell-scan-patch](https://github.com/thetowsif/php2shell-scan-patch)
-- [lanz/php2shell-coverage-check](https://github.com/lanz/php2shell-coverage-check)
 - [foxcornlab/php2shell-scanner](https://github.com/foxcornlab/php2shell-scanner)
 - [naoki51931/PHP2Shell-Research-Lab-v0.1](https://github.com/naoki51931/PHP2Shell-Research-Lab-v0.1)
 - [Mojo7823/phpscan](https://github.com/Mojo7823/phpscan)
@@ -21667,6 +21682,7 @@
 - [yusufyildiz34/whichphp](https://github.com/yusufyildiz34/whichphp)
 - [flynnsmc-lgtm/qt-t-shield](https://github.com/flynnsmc-lgtm/qt-t-shield)
 - [Lydia-King-K/ddld36-solar-aegis](https://github.com/Lydia-King-K/ddld36-solar-aegis)
+- [psikoma/php2shell-CVE-2026-109618-109619](https://github.com/psikoma/php2shell-CVE-2026-109618-109619)
 - [shellharbor/php-8.1-cve-2026-docker](https://github.com/shellharbor/php-8.1-cve-2026-docker)
 - [esskslifetech/php-secure-patch](https://github.com/esskslifetech/php-secure-patch)
 - [shellharbor/php-7.4-cve-2026-docker](https://github.com/shellharbor/php-7.4-cve-2026-docker)
@@ -21704,6 +21720,7 @@
 - [avrevic/php2shell-plain](https://github.com/avrevic/php2shell-plain)
 - [avrevic/php2shell-lean-chase](https://github.com/avrevic/php2shell-lean-chase)
 - [avrevic/php2shell-lean-plain](https://github.com/avrevic/php2shell-lean-plain)
+- [lanz/php2shell-coverage-check](https://github.com/lanz/php2shell-coverage-check)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21736,6 +21753,7 @@
 - [solidevil14/php2shell-detections](https://github.com/solidevil14/php2shell-detections)
 - [K2uci/PHP2ShellPOC-CVE-2026-109619](https://github.com/K2uci/PHP2ShellPOC-CVE-2026-109619)
 - [blkph0x/CVE-2026-109619-ZendPipelineLab](https://github.com/blkph0x/CVE-2026-109619-ZendPipelineLab)
+- [J47-DLK/CVE-2026-109619-ZendPipelineLab](https://github.com/J47-DLK/CVE-2026-109619-ZendPipelineLab)
 
 ### CVE-2026-109715 (2026-10-13)
 
@@ -22195,6 +22213,13 @@
 
 - [0xBlackash/CVE-2026-114595](https://github.com/0xBlackash/CVE-2026-114595)
 
+### CVE-2026-114612 (2026-10-22)
+
+<code>LiteLLM is a proxy server (AI Gateway) to call LLM APIs in OpenAI (or native) format. From 1.87.0 until 1.100.4, 1.101.3, 1.102.2, 1.103.1, and 1.104.0-rc.2, the proxy reuses one cryptographic context for at-rest secrets and session tokens, allowing an authenticated internal user to have crafted metadata containing a forged administrator credential encrypted and returned by the API-key flow. Replaying that ciphertext as a bearer token causes the proxy to trust the forged proxy administrator identity, permitting administrative access and arbitrary commands through the MCP stdio endpoint. Versions 1.87.0 through 1.90.x require EXPERIMENTAL_UI_LOGIN to be enabled, while versions after 1.91.0 are exploitable in the default configuration. This issue was fixed in LiteLLM 1.100.4, 1.101.3, 1.102.2, 1.103.1, and 1.104.0-rc.2.
+</code>
+
+- [FORTBRIDGE-UK/CVEs](https://github.com/FORTBRIDGE-UK/CVEs)
+
 ### CVE-2026-114625 (2026-10-22)
 
 <code>VeloCloud Orchestrator (VCO) on-prem has a security issue where this issue may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.\n\nOn an affected system, any authenticated user can gain operator privileges and masquerade as a local &quot;superuser operator&quot; user. This includes access to functionality that is intended for internal use only and which is not intended to be remotely accessible.\n\nHosted, including Dedicated, versions of VCO were impacted and have already been patched.
@@ -22326,6 +22351,13 @@
 </code>
 
 - [asvorg/CVE-2026-116191-poc](https://github.com/asvorg/CVE-2026-116191-poc)
+
+### CVE-2026-116214 (2026-10-26)
+
+<code>MacCMS v10 before 2026.1000.4054 contains an authentication bypass vulnerability that allows unauthenticated attackers to reset any member's password because check_msg() never compares msg_to. Attackers can request a recovery code to their own mailbox via user/findpass_msg, then submit it to user/findpass_reset with the victim's email or phone to take over the account.
+</code>
+
+- [zapstiko/CVE-2026-116214](https://github.com/zapstiko/CVE-2026-116214)
 
 ### CVE-2026-116244 (2026-10-30)
 
@@ -22460,6 +22492,13 @@
 
 - [al4n4n/CVE-2026-118306](https://github.com/al4n4n/CVE-2026-118306)
 
+### CVE-2026-118569 (2026-10-30)
+
+<code>Incorrect Authorization vulnerability in Drupal Fasttoggle allows Forceful Browsing. This issue affects Fasttoggle versions: from 0.0.0 to 4.1.1.
+</code>
+
+- [yuwkaaa/CVE-2026-118569](https://github.com/yuwkaaa/CVE-2026-118569)
+
 ### CVE-2026-118776 (2026-10-29)
 
 <code>Forge (also called node-forge) is a native implementation of Transport Layer Security in JavaScript. Prior to 1.4.1, the affected implementation used decipher.finish(), CBC and ECB modes, PKCS#7 padding to process the relevant input or security decision. node-forge validated only the final byte of PKCS#7 padding during CBC and ECB decryption and accepted zero, oversized, or mismatched padding bytes. Malformed ciphertext could consequently be accepted and up to four plaintext blocks could be silently removed, causing an integrity failure in applications that treated successful decryption as proof of valid padding. This issue is fixed in version 1.4.1.
@@ -22520,6 +22559,13 @@
 
 - [7xd10/CVE-2026-120318](https://github.com/7xd10/CVE-2026-120318)
 
+### CVE-2026-120491 (2026-11-02)
+
+<code>Wing FTP Server before 8.2.6 contains a stored cross-site scripting vulnerability that allows authenticated web-client users to inject script by sending a crafted nowpath parameter to webclient/makethumb.html. Attackers can break out of the directory CDATA section in admin_get_lastconn.html XML to forge a connection id, which executes in administrators' browsers when admin_connection_list.html auto-refreshes, enabling Lua console abuse.
+</code>
+
+- [3jee/CVE-2026-120491](https://github.com/3jee/CVE-2026-120491)
+
 ### CVE-2026-121720
 - [refiaa/CVE-2026-121720](https://github.com/refiaa/CVE-2026-121720)
 
@@ -22555,6 +22601,9 @@
 - [rothoma2/cve-2026-123158-sshole](https://github.com/rothoma2/cve-2026-123158-sshole)
 - [ersinkoc/sshole-check](https://github.com/ersinkoc/sshole-check)
 - [gabrielunknown/CVE-2026-123158_SSHole](https://github.com/gabrielunknown/CVE-2026-123158_SSHole)
+- [ansonhsu-ai/sshhole-cve-2026-123158-ste](https://github.com/ansonhsu-ai/sshhole-cve-2026-123158-ste)
+- [akarkode/alpine-openssh-sshole-auth-bypass](https://github.com/akarkode/alpine-openssh-sshole-auth-bypass)
+- [techtaek77/sshole-guide](https://github.com/techtaek77/sshole-guide)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -50996,7 +51045,6 @@
 </code>
 
 - [d0rb/CVE-2023-26469](https://github.com/d0rb/CVE-2023-26469)
-- [Kairo-one/CVE-2023-26469-Jorani](https://github.com/Kairo-one/CVE-2023-26469-Jorani)
 
 ### CVE-2023-26482 (2023-03-30)
 
@@ -73345,6 +73393,7 @@
 - [CVEmaster/CVE-2020-1350](https://github.com/CVEmaster/CVE-2020-1350)
 - [gdwnet/cve-2020-1350](https://github.com/gdwnet/cve-2020-1350)
 - [simeononsecurity/CVE-2020-1350-Fix](https://github.com/simeononsecurity/CVE-2020-1350-Fix)
+- [Sheisback/CVE-2020-1350-Exploit](https://github.com/Sheisback/CVE-2020-1350-Exploit)
 - [sty886/CVE-2020-1350-SigRed](https://github.com/sty886/CVE-2020-1350-SigRed)
 
 ### CVE-2020-1362 (2020-07-14)
@@ -76165,7 +76214,6 @@
 </code>
 
 - [j4k0m/loader-CVE-2020-14343](https://github.com/j4k0m/loader-CVE-2020-14343)
-- [Kairo-one/CVE-2020-14343-PyYAML](https://github.com/Kairo-one/CVE-2020-14343-PyYAML)
 - [sijie52/yasa-cve-2020-14343](https://github.com/sijie52/yasa-cve-2020-14343)
 - [saina15/cve-2020-14343-lab](https://github.com/saina15/cve-2020-14343-lab)
 
@@ -77469,7 +77517,6 @@
 - [epicosy/XStream-1](https://github.com/epicosy/XStream-1)
 - [cuijiung/xstream-CVE-2020-26217](https://github.com/cuijiung/xstream-CVE-2020-26217)
 - [shoucheng3/x-stream__xstream_CVE-2020-26217_1-4-14-java77](https://github.com/shoucheng3/x-stream__xstream_CVE-2020-26217_1-4-14-java77)
-- [Kairo-one/CVE-2020-26217-XStream](https://github.com/Kairo-one/CVE-2020-26217-XStream)
 
 ### CVE-2020-26233 (2020-12-08)
 
