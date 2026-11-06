@@ -128,6 +128,13 @@
 - [grayxploit/CVE-2026-0257](https://github.com/grayxploit/CVE-2026-0257)
 - [Ez4rd1x1/CVE-2026-0257](https://github.com/Ez4rd1x1/CVE-2026-0257)
 
+### CVE-2026-0264 (2026-05-13)
+
+<code>A buffer overflow vulnerability in the DNS proxy and DNS Server features of Palo Alto Networks PAN-OS® Software allows an unauthenticated attacker with network access to cause a denial of service (DoS) condition (all PAN-OS platforms except Cloud NGFW and Prisma Access) or potentially execute arbitrary code by sending specially crafted network traffic (PA-Series hardware only).\n\n\n\n\nPanorama, Cloud NGFW, and Prisma® Access are not impacted by this vulnerability.
+</code>
+
+- [iam-s21-caece/PoC-CVE-2026-0264](https://github.com/iam-s21-caece/PoC-CVE-2026-0264)
+
 ### CVE-2026-0265 (2026-05-13)
 
 <code>An authentication bypass vulnerability in Palo Alto Networks PAN-OS® software enables an unauthenticated attacker with network access to bypass authentication controls when Cloud Authentication Service (CAS) is enabled.\n\n\n\nThe risk is higher if CAS is enabled on the management interface and lower when any other login interfaces are used.\n\nThe risk of this issue is greatly reduced if you secure access to the management web interface by restricting access to only trusted internal IP addresses according to our recommended  best practice deployment guidelines https://live.paloaltonetworks.com/t5/community-blogs/tips-amp-tricks-how-to-secure-the-management-access-of-your-palo/ba-p/464431 .\n\nThis issue is applicable to PAN-OS software on PA-Series and VM-Series firewalls and on Panorama (virtual and M-Series).\n\nCloud NGFW and Prisma Access® are not impacted by this vulnerability.
@@ -1855,6 +1862,13 @@
 
 ### CVE-2026-6018
 - [m0r4a/CVE-2026-6018-9-Local-Privilege-Escalation-Chain](https://github.com/m0r4a/CVE-2026-6018-9-Local-Privilege-Escalation-Chain)
+
+### CVE-2026-6023 (2026-04-22)
+
+<code>In Progress® Telerik® UI for AJAX versions 2024.4.1114 through 2026.1.421, the RadFilter control is vulnerable to insecure deserialization when restoring filter state if the state is exposed to the client. If an attacker tampers with this state, a server-side remote code execution is possible.
+</code>
+
+- [kjry8sb/CVE-2026-6023](https://github.com/kjry8sb/CVE-2026-6023)
 
 ### CVE-2026-6042 (2026-04-10)
 
@@ -4424,6 +4438,13 @@
 
 - [patrickt2017/CVE-2026-19195-PoC](https://github.com/patrickt2017/CVE-2026-19195-PoC)
 
+### CVE-2026-19219 (2026-09-02)
+
+<code>In Progress® Telerik® UI for AJAX prior to v2026.3.812, insufficient integrity protection of dialog request parameters used by the RadEditor file browser may allow an attacker who has obtained certain application encryption key material to alter the folders the file browser reads from, writes to, and uploads into, potentially resulting in remote code execution.
+</code>
+
+- [kjry8sb/CVE-2026-19219](https://github.com/kjry8sb/CVE-2026-19219)
+
 ### CVE-2026-19264 (2026-08-07)
 
 <code>Postiz is an open-source social media scheduling tool. The route that serves locally stored media joins URL-supplied path segments onto the upload directory and streams the file without normalising the path or confining it to that directory, and the route requires no authentication. Raw dot-segments are collapsed before routing, but URL-encoded separators survive route matching and are decoded only once they reach the handler, restoring the traversal at the filesystem call. An unauthenticated remote attacker can therefore read any file readable by the application process, including the process environment, which exposes the JWT signing secret, the database connection string, and connected provider and billing secrets. Because session tokens are signed with that secret and carry no expiry, this allows forging a non-expiring session as any user, including an administrator, without a password.
@@ -4784,6 +4805,7 @@
 - [fevar54/CVE-2026-20253-Splunk-Enterprise-Pre-Auth-RCE-](https://github.com/fevar54/CVE-2026-20253-Splunk-Enterprise-Pre-Auth-RCE-)
 - [pssec-io/CVE-2026-20253](https://github.com/pssec-io/CVE-2026-20253)
 - [Het-Kalariya/CVE-2026-20253](https://github.com/Het-Kalariya/CVE-2026-20253)
+- [NSK-394/owasp-nettacker-contribution](https://github.com/NSK-394/owasp-nettacker-contribution)
 - [ivanesk315/CVE-2026-20253](https://github.com/ivanesk315/CVE-2026-20253)
 
 ### CVE-2026-20262 (2026-06-15)
@@ -9038,6 +9060,7 @@
 - [CerberusMrXi/Langflow-cve-2026-33017-exploit](https://github.com/CerberusMrXi/Langflow-cve-2026-33017-exploit)
 - [Dynamo2k1/CVE-2026-33017](https://github.com/Dynamo2k1/CVE-2026-33017)
 - [TatoSec/CVE-2026-33017-Langflop](https://github.com/TatoSec/CVE-2026-33017-Langflop)
+- [NSK-394/kavach-loop](https://github.com/NSK-394/kavach-loop)
 - [sonnelon/CVE-2026-33017-PoC](https://github.com/sonnelon/CVE-2026-33017-PoC)
 - [lxxexxbxx/CVE-2026-33017](https://github.com/lxxexxbxx/CVE-2026-33017)
 - [yym8538/CVE-2026-33017](https://github.com/yym8538/CVE-2026-33017)
@@ -9397,6 +9420,13 @@
 
 - [rahultb-sec/CVE-2026-33829-Writeup](https://github.com/rahultb-sec/CVE-2026-33829-Writeup)
 - [seguridadentrerios/CVE-2026-33829](https://github.com/seguridadentrerios/CVE-2026-33829)
+
+### CVE-2026-33871 (2026-03-27)
+
+<code>Netty is an asynchronous, event-driven network application framework. In versions prior to 4.1.132.Final and 4.2.10.Final, a remote user can trigger a Denial of Service (DoS) against a Netty HTTP/2 server by sending a flood of `CONTINUATION` frames. The server's lack of a limit on the number of `CONTINUATION` frames, combined with a bypass of existing size-based mitigations using zero-byte frames, allows an user to cause excessive CPU consumption with minimal bandwidth, rendering the server unresponsive. Versions 4.1.132.Final and 4.2.10.Final fix the issue.
+</code>
+
+- [iam-s21-caece/PoC-CVE-2026-33871](https://github.com/iam-s21-caece/PoC-CVE-2026-33871)
 
 ### CVE-2026-33910 (2026-03-25)
 
@@ -10704,7 +10734,7 @@
 - [Th3Purge/CVE-2026-39987](https://github.com/Th3Purge/CVE-2026-39987)
 - [julichaan/CVE-2026-39987_POC](https://github.com/julichaan/CVE-2026-39987_POC)
 - [mfahdk/CVE-2026-39987_RCE_PoC](https://github.com/mfahdk/CVE-2026-39987_RCE_PoC)
-- [LaRemontada12/CVE-2026-39987-Marimo-Preauth-RCE](https://github.com/LaRemontada12/CVE-2026-39987-Marimo-Preauth-RCE)
+- [LaRemontada12/CVE-2026-39987-Marimo-RCE-SOC-Detection](https://github.com/LaRemontada12/CVE-2026-39987-Marimo-RCE-SOC-Detection)
 - [Industri4l-H3ll-Xpl0it3rs/CVE-2026-39987-Marimo-RCE](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-39987-Marimo-RCE)
 - [dntaskmehow/MARABUSE](https://github.com/dntaskmehow/MARABUSE)
 - [lunacysoft/CVE-2026-39987-POC-Marimo](https://github.com/lunacysoft/CVE-2026-39987-POC-Marimo)
@@ -11679,6 +11709,7 @@
 - [HirokiAkihiko/dirtyfrag-research](https://github.com/HirokiAkihiko/dirtyfrag-research)
 - [RemiPelloux/GalaxyCrash](https://github.com/RemiPelloux/GalaxyCrash)
 - [mcxiaochenn/iqooNeo8-V2301A-DirtyFrag](https://github.com/mcxiaochenn/iqooNeo8-V2301A-DirtyFrag)
+- [EmilyTsum/Shizuka](https://github.com/EmilyTsum/Shizuka)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -11883,6 +11914,8 @@
 - [thedavidweng/ghostlock-z3q](https://github.com/thedavidweng/ghostlock-z3q)
 - [giannoccarol/root-key1](https://github.com/giannoccarol/root-key1)
 - [Cyb3rCr0wCC/CVE-2026-43499_study](https://github.com/Cyb3rCr0wCC/CVE-2026-43499_study)
+- [nnka3/root-my-s24-on-oneui6.1](https://github.com/nnka3/root-my-s24-on-oneui6.1)
+- [chjwoo7/ghostlock-a55x](https://github.com/chjwoo7/ghostlock-a55x)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -13646,6 +13679,13 @@
 </code>
 
 - [NeseOS-Corp/CVE-2026-50657](https://github.com/NeseOS-Corp/CVE-2026-50657)
+
+### CVE-2026-50679 (2026-07-14)
+
+<code>Heap-based buffer overflow in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [h4urek/CVE-2026-50679](https://github.com/h4urek/CVE-2026-50679)
 
 ### CVE-2026-50746 (2026-07-02)
 
@@ -17925,6 +17965,14 @@
 
 - [wkpwn/CVE-2026-83834](https://github.com/wkpwn/CVE-2026-83834)
 
+### CVE-2026-83844 (2026-10-13)
+
+<code>Out-of-bounds read in Windows Paint allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [LilPoule/CVE-2026-83844](https://github.com/LilPoule/CVE-2026-83844)
+- [0xBlackash/CVE-2026-83844](https://github.com/0xBlackash/CVE-2026-83844)
+
 ### CVE-2026-83991 (2026-09-08)
 
 <code>Missing authentication for critical function in Windows Cloud Files Mini Filter Driver allows an authorized attacker to perform tampering locally.
@@ -19568,6 +19616,7 @@
 - [Noshadi-sec/CVE-2026-97229](https://github.com/Noshadi-sec/CVE-2026-97229)
 - [murat-levi/gitlab-rce-toolkit](https://github.com/murat-levi/gitlab-rce-toolkit)
 - [foxcornlab/gitlab-onigmo-scanner](https://github.com/foxcornlab/gitlab-onigmo-scanner)
+- [emc-kk/cve-2026-97229-lab](https://github.com/emc-kk/cve-2026-97229-lab)
 - [Certbn/CVE-2026-97229-GitLab-CI-CD](https://github.com/Certbn/CVE-2026-97229-GitLab-CI-CD)
 
 ### CVE-2026-97286 (2026-09-30)
@@ -19713,6 +19762,10 @@
 - [al123xiaaaa/CVE-2026-98260-GT7Pro-RMX5010](https://github.com/al123xiaaaa/CVE-2026-98260-GT7Pro-RMX5010)
 - [whooslizi/infinitycore-x200pro](https://github.com/whooslizi/infinitycore-x200pro)
 - [Yukaneko520/RootMyZ9Turbo](https://github.com/Yukaneko520/RootMyZ9Turbo)
+- [VinSon326/CVE-2026-98260-iQOO12](https://github.com/VinSon326/CVE-2026-98260-iQOO12)
+- [ANYAEGW/CVE-2026-98260-amg-an00](https://github.com/ANYAEGW/CVE-2026-98260-amg-an00)
+- [nemoiwkryang/CVE-2026-98260-pkt110-kernelsu](https://github.com/nemoiwkryang/CVE-2026-98260-pkt110-kernelsu)
+- [Dream-Rainy/CVE-2026-98260](https://github.com/Dream-Rainy/CVE-2026-98260)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -19802,6 +19855,7 @@
 - [carlosbustillordguez/cve-2026-98432-mitigation](https://github.com/carlosbustillordguez/cve-2026-98432-mitigation)
 - [sv3t0sl4v/CVE-2026-98432-Ubuntu-Temporary-Mitigation](https://github.com/sv3t0sl4v/CVE-2026-98432-Ubuntu-Temporary-Mitigation)
 - [mafudge/cve-2026-98432](https://github.com/mafudge/cve-2026-98432)
+- [s97472091-pixel/verification-gap-cve-2026-98432](https://github.com/s97472091-pixel/verification-gap-cve-2026-98432)
 
 ### CVE-2026-98937 (2026-10-23)
 
@@ -19836,6 +19890,13 @@
 </code>
 
 - [googlesky/CVE-2026-100105](https://github.com/googlesky/CVE-2026-100105)
+
+### CVE-2026-100109 (2026-11-05)
+
+<code>The Security For WooCommerce WordPress plugin from 1.0.10 to 1.0.16 does not perform capability checks when creating users through an action available to unauthenticated visitors, and lets the caller choose the new account's role, allowing unauthenticated attackers to create administrator accounts and take over the site.
+</code>
+
+- [thiscitze/cve-2026-100109-poc](https://github.com/thiscitze/cve-2026-100109-poc)
 
 ### CVE-2026-100380 (2026-09-25)
 
@@ -21753,7 +21814,6 @@
 - [solidevil14/php2shell-detections](https://github.com/solidevil14/php2shell-detections)
 - [K2uci/PHP2ShellPOC-CVE-2026-109619](https://github.com/K2uci/PHP2ShellPOC-CVE-2026-109619)
 - [blkph0x/CVE-2026-109619-ZendPipelineLab](https://github.com/blkph0x/CVE-2026-109619-ZendPipelineLab)
-- [J47-DLK/CVE-2026-109619-ZendPipelineLab](https://github.com/J47-DLK/CVE-2026-109619-ZendPipelineLab)
 
 ### CVE-2026-109715 (2026-10-13)
 
@@ -22227,6 +22287,13 @@
 
 - [definitiveref/CVE-2026-114625-Proof-Of-Concept](https://github.com/definitiveref/CVE-2026-114625-Proof-Of-Concept)
 
+### CVE-2026-114630 (2026-11-06)
+
+<code>The ELEX WordPress HelpDesk &amp; Customer Ticketing System plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the factory_reset function in all versions up to, and including, 3.3.8 This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). This vulnerability is exploitable via a two-step chain: an unauthenticated attacker first stores an arbitrary ticket_attachment_path value by submitting a ticket through the nopriv eh_crm_new_ticket_post AJAX endpoint (whose nonce is publicly exposed via the [wsdesk_support] shortcode), then triggers the factory_reset routine via a GET request to wp-admin/admin.php?page=wsdesk_factory_reset, which is guarded only by is_admin() — a request-type check — rather than a capability check, causing unlink() to be called on the attacker-supplied path.
+</code>
+
+- [thiscitze/cve-2026-114630-poc](https://github.com/thiscitze/cve-2026-114630-poc)
+
 ### CVE-2026-114820 (2026-10-24)
 
 <code>Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u511-b32, 8u511-perf-b32, 11.0.33.0.2, 17.0.21.0.2, 21.0.13.0.2, 25.0.5.0.2, 27.0.1.0.2; Oracle GraalVM for JDK: 17.0.21.0.2 and  21.0.13.0.2; Oracle GraalVM Enterprise Edition: 21.3.20.0.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N).
@@ -22382,7 +22449,7 @@
 
 ### CVE-2026-116370 (2026-10-26)
 
-<code>A security flaw has been discovered in 2K Games Sid Meier's Civilization VI 1.0.12.68. The affected element is the function loadstring of the component Lua sandbox. Performing a manipulation results in type confusion. The attack may be initiated remotely. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure.
+<code>A security flaw has been discovered in 2K Games Sid Meier's Civilization VI 1.0.12.68. The affected element is the function loadstring of the component Lua sandbox. Performing a manipulation results in type confusion. The attack may be initiated remotely. The exploit has been released to the public and may be used for attacks. The patch is named Hotfix November 2026. The vendor was contacted early about this disclosure.
 </code>
 
 - [drbloop2000/Sid-Meier-s-Civilization-VI-RCE](https://github.com/drbloop2000/Sid-Meier-s-Civilization-VI-RCE)
@@ -22492,12 +22559,26 @@
 
 - [al4n4n/CVE-2026-118306](https://github.com/al4n4n/CVE-2026-118306)
 
+### CVE-2026-118423 (2026-11-06)
+
+<code>The WP Libre Form WordPress plugin 1.5.0.1 does not validate the type of files uploaded through its form submissions, allowing unauthenticated attackers to upload PHP files to a web-accessible location and execute them, leading to remote code execution.
+</code>
+
+- [thiscitze/cve-2026-118423-poc](https://github.com/thiscitze/cve-2026-118423-poc)
+
 ### CVE-2026-118569 (2026-10-30)
 
 <code>Incorrect Authorization vulnerability in Drupal Fasttoggle allows Forceful Browsing. This issue affects Fasttoggle versions: from 0.0.0 to 4.1.1.
 </code>
 
 - [yuwkaaa/CVE-2026-118569](https://github.com/yuwkaaa/CVE-2026-118569)
+
+### CVE-2026-118570 (2026-10-30)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in Drupal Fasttoggle allows Cross Site Request Forgery. This issue affects Fasttoggle versions: from 0.0.0 to 4.1.1.
+</code>
+
+- [yuwkaaa/CVE-2026-118570](https://github.com/yuwkaaa/CVE-2026-118570)
 
 ### CVE-2026-118776 (2026-10-29)
 
@@ -22536,6 +22617,13 @@
 </code>
 
 - [Hassham1/CVE-2026-120019-w3tc-mfunc-comment-xss-poc](https://github.com/Hassham1/CVE-2026-120019-w3tc-mfunc-comment-xss-poc)
+
+### CVE-2026-120209 (2026-10-31)
+
+<code>AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attackers to forge valid Share-Tokens offline. Attackers can mint a token with reportCode 'dataSet' to access the testTransform endpoint, which passes scripts to GroovyClassLoader for unauthenticated remote code execution.
+</code>
+
+- [Nxploited/CVE-2026-120209](https://github.com/Nxploited/CVE-2026-120209)
 
 ### CVE-2026-120218 (2026-11-01)
 
@@ -22590,6 +22678,13 @@
 
 - [capivara-research/CVE-2026-122158](https://github.com/capivara-research/CVE-2026-122158)
 
+### CVE-2026-123025 (2026-11-05)
+
+<code>An OS Command Injection vulnerability was discovered in the Google Cloud DNS validation module of the OPNsense os-acme-client plugin through 4.17. The DnsGcloud::prepare() method decodes the dns_gcloud_key model field and directly interpolates the string fields gcloud_account and gcloud_project into a shell command passed to proc_open() via LeUtils::run_shell_command() without any validation or escaping. A remote authenticated user with privileges to issue or renew certificates through the WebGUI/API can achieve arbitrary code execution as root.
+</code>
+
+- [cppghoul/CVE-2026-123025](https://github.com/cppghoul/CVE-2026-123025)
+
 ### CVE-2026-123158 (2026-11-05)
 
 <code>sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password authentication bypass (related to misinterpretation of whether a string is intended to be a password hash). For some configurations of accounts, any password between 256 and 1024 characters succeeds. An example of a platform using musl libc without PAM is Alpine Linux.
@@ -22604,6 +22699,12 @@
 - [ansonhsu-ai/sshhole-cve-2026-123158-ste](https://github.com/ansonhsu-ai/sshhole-cve-2026-123158-ste)
 - [akarkode/alpine-openssh-sshole-auth-bypass](https://github.com/akarkode/alpine-openssh-sshole-auth-bypass)
 - [techtaek77/sshole-guide](https://github.com/techtaek77/sshole-guide)
+- [techdevfun/alpinegate](https://github.com/techdevfun/alpinegate)
+- [Maalfer/CVE-2026-123158](https://github.com/Maalfer/CVE-2026-123158)
+- [HackSpeak/CVE-2026-123158](https://github.com/HackSpeak/CVE-2026-123158)
+- [Hel1um17/sshole-bypass-openssh-password](https://github.com/Hel1um17/sshole-bypass-openssh-password)
+- [mlazzarotto/ansible-sshole-remediate](https://github.com/mlazzarotto/ansible-sshole-remediate)
+- [shenxianpeng/check-sshole](https://github.com/shenxianpeng/check-sshole)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -30801,7 +30902,7 @@
 - [kerburenthusiasm/CVE-2025-49132-PoC](https://github.com/kerburenthusiasm/CVE-2025-49132-PoC)
 - [symphony2colour/HTB-Pterodactyl-RCE-CVE-2025-49132](https://github.com/symphony2colour/HTB-Pterodactyl-RCE-CVE-2025-49132)
 - [matesz44/CVE-2025-49132](https://github.com/matesz44/CVE-2025-49132)
-- [Ahmedf000/CVE-2025-49132_HTB_SEASON10](https://github.com/Ahmedf000/CVE-2025-49132_HTB_SEASON10)
+- [Ossipher/CVE-2025-49132_HTB_SEASON10](https://github.com/Ossipher/CVE-2025-49132_HTB_SEASON10)
 - [Pwndalf/CVE-2025-49132-PoC](https://github.com/Pwndalf/CVE-2025-49132-PoC)
 - [dollarboysushil/CVE-2025-49132-Pterodactyl-Panel-Unauthenticated-Remote-Code-Execution-RCE-](https://github.com/dollarboysushil/CVE-2025-49132-Pterodactyl-Panel-Unauthenticated-Remote-Code-Execution-RCE-)
 - [thealchimist86/CVE-2025-49132-Pterodactyl-Panel-RCE](https://github.com/thealchimist86/CVE-2025-49132-Pterodactyl-Panel-RCE)
@@ -31535,7 +31636,7 @@
 
 ### CVE-2025-52970 (2025-08-12)
 
-<code>A improper handling of parameters in Fortinet FortiWeb versions 7.6.3 and below, versions 7.4.7 and below, versions 7.2.10 and below, and 7.0.10 and below may allow an unauthenticated remote attacker with non-public information pertaining to the device and targeted user to gain admin privileges on the device via a specially crafted request.
+<code>A improper handling of parameters vulnerability in Fortinet FortiWeb 7.6.0 through 7.6.3, FortiWeb 7.4.0 through 7.4.7, FortiWeb 7.2.0 through 7.2.10, FortiWeb 7.0.0 through 7.0.10 may allow an unauthenticated remote attacker with non-public information pertaining to the device and targeted user to gain admin privileges on the device via a specially crafted request.
 </code>
 
 - [Hex00-0x4/FortiWeb-CVE-2025-52970-Authentication-Bypass](https://github.com/Hex00-0x4/FortiWeb-CVE-2025-52970-Authentication-Bypass)
@@ -40154,7 +40255,7 @@
 - [abrewer251/CVE-2024-21762_FortiNet_PoC](https://github.com/abrewer251/CVE-2024-21762_FortiNet_PoC)
 - [0x13-ByteZer0/CVE-2024-21762](https://github.com/0x13-ByteZer0/CVE-2024-21762)
 - [0x0asif/CVE-2024-21762](https://github.com/0x0asif/CVE-2024-21762)
-- [izancxg/CVE-2024-21762-Safe-Check](https://github.com/izancxg/CVE-2024-21762-Safe-Check)
+- [IzanInPublic/CVE-2024-21762-Safe-Check](https://github.com/IzanInPublic/CVE-2024-21762-Safe-Check)
 - [Vampsecure-Labs/vamp-forticheck](https://github.com/Vampsecure-Labs/vamp-forticheck)
 - [abraxas/Fortigate-SSL-VPN-Exploit-Kit](https://github.com/abraxas/Fortigate-SSL-VPN-Exploit-Kit)
 - [Deekshitha2203/security-triage-agent-cybersec590](https://github.com/Deekshitha2203/security-triage-agent-cybersec590)
@@ -41043,6 +41144,7 @@
 - [lpn/CVE-2024-24576.jl](https://github.com/lpn/CVE-2024-24576.jl)
 - [Gaurav1020/CVE-2024-24576-PoC-Rust](https://github.com/Gaurav1020/CVE-2024-24576-PoC-Rust)
 - [SheL3G/CVE-2024-24576-PoC-BatBadBut](https://github.com/SheL3G/CVE-2024-24576-PoC-BatBadBut)
+- [federiconbaez/cortex9-rust-batbadbut-args-model](https://github.com/federiconbaez/cortex9-rust-batbadbut-args-model)
 
 ### CVE-2024-24590 (2024-02-06)
 
@@ -55492,6 +55594,7 @@
 - [madhantr0/http2-security-lab](https://github.com/madhantr0/http2-security-lab)
 - [tahaXafous/CVE-2023-44487-dos](https://github.com/tahaXafous/CVE-2023-44487-dos)
 - [CerberusMrXi/CVE-2023-44487-HTTP2-DoS-Rapid-Reset-Exploit](https://github.com/CerberusMrXi/CVE-2023-44487-HTTP2-DoS-Rapid-Reset-Exploit)
+- [federiconbaez/cortex9-http2-rapid-reset-stream-accounting-model](https://github.com/federiconbaez/cortex9-http2-rapid-reset-stream-accounting-model)
 
 ### CVE-2023-44758 (2023-10-06)
 
@@ -56464,6 +56567,7 @@
 - [oseasfr/Scanner_CVE_OpenSSH](https://github.com/oseasfr/Scanner_CVE_OpenSSH)
 - [Mr-Whiskerss/SSH-Terrapin-Prefix-Truncation-Weakness-CVE-2023-48795-Checker](https://github.com/Mr-Whiskerss/SSH-Terrapin-Prefix-Truncation-Weakness-CVE-2023-48795-Checker)
 - [breaksek/CVE-2023-48795](https://github.com/breaksek/CVE-2023-48795)
+- [federiconbaez/cortex9-terrapin-strict-kex-model](https://github.com/federiconbaez/cortex9-terrapin-strict-kex-model)
 
 ### CVE-2023-48842 (2023-12-01)
 
@@ -57497,6 +57601,7 @@
 - [0xUhaw/CVE-2022-0778](https://github.com/0xUhaw/CVE-2022-0778)
 - [Trinadh465/openssl-1.1.1g_CVE-2022-0778](https://github.com/Trinadh465/openssl-1.1.1g_CVE-2022-0778)
 - [jeongjunsoo/CVE-2022-0778](https://github.com/jeongjunsoo/CVE-2022-0778)
+- [federiconbaez/cortex9-openssl-bn-mod-sqrt-loop-model](https://github.com/federiconbaez/cortex9-openssl-bn-mod-sqrt-loop-model)
 
 ### CVE-2022-0811 (2022-03-16)
 
@@ -60156,6 +60261,13 @@
 
 - [tuo4n8/CVE-2022-24760](https://github.com/tuo4n8/CVE-2022-24760)
 
+### CVE-2022-24765 (2022-04-12)
+
+<code>Git for Windows is a fork of Git containing Windows-specific patches. This vulnerability affects users working on multi-user machines, where untrusted parties have write access to the same hard disk. Those untrusted parties could create the folder `C:\.git`, which would be picked up by Git operations run supposedly outside a repository while searching for a Git directory. Git would then respect any config in said Git directory. Git Bash users who set `GIT_PS1_SHOWDIRTYSTATE` are vulnerable as well. Users who installed posh-gitare vulnerable simply by starting a PowerShell. Users of IDEs such as Visual Studio are vulnerable: simply creating a new project would already read and respect the config specified in `C:\.git\config`. Users of the Microsoft fork of Git are vulnerable simply by starting a Git Bash. The problem has been patched in Git for Windows v2.35.2. Users unable to upgrade may create the folder `.git` on all drives where Git commands are run, and remove read/write access from those folders as a workaround. Alternatively, define or extend `GIT_CEILING_DIRECTORIES` to cover the _parent_ directory of the user profile, e.g. `C:\Users` if the user profile is located in `C:\Users\my-user-name`.
+</code>
+
+- [federiconbaez/cortex9-git-safe-directory-discovery-model](https://github.com/federiconbaez/cortex9-git-safe-directory-discovery-model)
+
 ### CVE-2022-24780 (2022-04-05)
 
 <code>Combodo iTop is a web based IT Service Management tool. In versions prior to 2.7.6 and 3.0.0, users of the iTop user portal can send TWIG code to the server by forging specific http queries, and execute arbitrary code on the server using http server user privileges. This issue is fixed in versions 2.7.6 and 3.0.0. There are currently no known workarounds.
@@ -60381,6 +60493,7 @@
 </code>
 
 - [Satheesh575555/external_expat_AOSP10_r33_CVE-2022-25235](https://github.com/Satheesh575555/external_expat_AOSP10_r33_CVE-2022-25235)
+- [federiconbaez/cortex9-expat-utf8-name-validation-model](https://github.com/federiconbaez/cortex9-expat-utf8-name-validation-model)
 
 ### CVE-2022-25236 (2022-02-16)
 
@@ -60388,6 +60501,7 @@
 </code>
 
 - [Satheesh575555/external_expat_AOSP10_r33_CVE-2022-25236](https://github.com/Satheesh575555/external_expat_AOSP10_r33_CVE-2022-25236)
+- [federiconbaez/cortex9-expat-namespace-separator-model](https://github.com/federiconbaez/cortex9-expat-namespace-separator-model)
 
 ### CVE-2022-25256 (2022-02-19)
 
@@ -63161,7 +63275,7 @@
 - [ericpardee/fire-hd-ownership](https://github.com/ericpardee/fire-hd-ownership)
 - [artur9010/amazon-mustang-hack](https://github.com/artur9010/amazon-mustang-hack)
 - [s1204IT/CVE-2022-38181](https://github.com/s1204IT/CVE-2022-38181)
-- [lRENyaaa/AGM3-W09HN-TempRoot](https://github.com/lRENyaaa/AGM3-W09HN-TempRoot)
+- [lRENyaaa/AGM3-W09HN-TMP-ROOT-CVE-2022-38181](https://github.com/lRENyaaa/AGM3-W09HN-TMP-ROOT-CVE-2022-38181)
 
 ### CVE-2022-38374 (2022-11-02)
 
@@ -66597,6 +66711,7 @@
 - [Saboor-Hakimi-23/CVE-2021-21300](https://github.com/Saboor-Hakimi-23/CVE-2021-21300)
 - [Sizvy/CVE-2021-21300](https://github.com/Sizvy/CVE-2021-21300)
 - [the-chivalrousZ/cve-2021-21300](https://github.com/the-chivalrousZ/cve-2021-21300)
+- [federiconbaez/cortex9-git-case-insensitive-symlink-checkout-model](https://github.com/federiconbaez/cortex9-git-case-insensitive-symlink-checkout-model)
 
 ### CVE-2021-21311 (2021-02-11)
 
@@ -68246,6 +68361,13 @@
 
 ### CVE-2021-28750
 - [PfalzPrince/CVE-2021-28750-site](https://github.com/PfalzPrince/CVE-2021-28750-site)
+
+### CVE-2021-28879 (2021-04-11)
+
+<code>In the standard library in Rust before 1.52.0, the Zip implementation can report an incorrect size due to an integer overflow. This bug can lead to a buffer overflow when a consumed Zip iterator is used again.
+</code>
+
+- [federiconbaez/cortex9-rust-zip-size-hint-overflow-model](https://github.com/federiconbaez/cortex9-rust-zip-size-hint-overflow-model)
 
 ### CVE-2021-29003 (2021-04-13)
 
@@ -80192,6 +80314,13 @@
 - [flyniu666/ingress-nginx-0.21-1.19.5](https://github.com/flyniu666/ingress-nginx-0.21-1.19.5)
 - [harley-ghostie/CVE-2019-9511_Priority-Churn-Data-Dribble](https://github.com/harley-ghostie/CVE-2019-9511_Priority-Churn-Data-Dribble)
 
+### CVE-2019-9513 (2019-08-13)
+
+<code>Some HTTP/2 implementations are vulnerable to resource loops, potentially leading to a denial of service. The attacker creates multiple request streams and continually shuffles the priority of the streams in a way that causes substantial churn to the priority tree. This can consume excess CPU.
+</code>
+
+- [federiconbaez/cortex9-http2-priority-churn-cost-model](https://github.com/federiconbaez/cortex9-http2-priority-churn-cost-model)
+
 ### CVE-2019-9580 (2019-03-09)
 
 <code>In st2web in StackStorm Web UI before 2.9.3 and 2.10.x before 2.10.3, it is possible to bypass the CORS protection mechanism via a &quot;null&quot; origin value, potentially leading to XSS.
@@ -80522,6 +80651,7 @@
 
 - [mlbrilliance/aurora-demo-lockfile](https://github.com/mlbrilliance/aurora-demo-lockfile)
 - [jimahub/scenario-b-warn](https://github.com/jimahub/scenario-b-warn)
+- [federiconbaez/cortex9-lodash-defaultsdeep-prototype-pollution-model](https://github.com/federiconbaez/cortex9-lodash-defaultsdeep-prototype-pollution-model)
 
 ### CVE-2019-10758 (2019-12-24)
 
@@ -91685,13 +91815,6 @@
 - [moften/CVE-2015-9251](https://github.com/moften/CVE-2015-9251)
 - [hackgiver/CVE-2015-9251](https://github.com/hackgiver/CVE-2015-9251)
 - [rox-11/xss](https://github.com/rox-11/xss)
-
-### CVE-2015-9331 (2019-08-20)
-
-<code>The wp-all-import plugin before 3.2.4 for WordPress has no prevention of unauthenticated requests to adminInit.
-</code>
-
-- [Kairo-one/CVE-2015-9331](https://github.com/Kairo-one/CVE-2015-9331)
 
 ### CVE-2015-9357 (2019-08-28)
 
