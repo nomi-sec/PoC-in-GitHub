@@ -14308,7 +14308,7 @@
 - [sam00/POC-CVE-2026-54121-Certighost](https://github.com/sam00/POC-CVE-2026-54121-Certighost)
 - [L0u7r3/certighost](https://github.com/L0u7r3/certighost)
 - [ushst/CVE-2026-54121-adcs-chase-nxc](https://github.com/ushst/CVE-2026-54121-adcs-chase-nxc)
-- [anubis-claud/CVE-2026-54121-Certighost](https://github.com/anubis-claud/CVE-2026-54121-Certighost)
+- [anubis-update/CVE-2026-54121-Certighost](https://github.com/anubis-update/CVE-2026-54121-Certighost)
 
 ### CVE-2026-54161 (2026-11-03)
 
@@ -15701,6 +15701,7 @@
 - [Wangs-official/opace6-cve-2026-64560](https://github.com/Wangs-official/opace6-cve-2026-64560)
 - [qingle009/opace6-cve-2026-64560](https://github.com/qingle009/opace6-cve-2026-64560)
 - [Meniben/redmi14c-pond-cve-2026-64560](https://github.com/Meniben/redmi14c-pond-cve-2026-64560)
+- [000999888111/op13-cve-2026-64560](https://github.com/000999888111/op13-cve-2026-64560)
 - [sangsheng2026/honor-90gt-mag-an00-root-research](https://github.com/sangsheng2026/honor-90gt-mag-an00-root-research)
 - [feiguang-ai/plz110-6.12.69-cve-2026-64560-ksu](https://github.com/feiguang-ai/plz110-6.12.69-cve-2026-64560-ksu)
 - [maosasagawa/pmx110-cve-2026-64560](https://github.com/maosasagawa/pmx110-cve-2026-64560)
@@ -37723,6 +37724,7 @@
 - [lewiskb/Docker-Lab-CVE-2024-4367](https://github.com/lewiskb/Docker-Lab-CVE-2024-4367)
 - [weae26/aia-pdfjs-poc](https://github.com/weae26/aia-pdfjs-poc)
 - [minhi1/CVE-2024-4367](https://github.com/minhi1/CVE-2024-4367)
+- [remiBoudreau/CVE-2024-4367](https://github.com/remiBoudreau/CVE-2024-4367)
 
 ### CVE-2024-4406 (2024-05-02)
 
