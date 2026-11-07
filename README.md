@@ -4618,6 +4618,13 @@
 
 - [gduma-phData/patch-CVE-2026-19843](https://github.com/gduma-phData/patch-CVE-2026-19843)
 
+### CVE-2026-19868 (2026-11-06)
+
+<code>An authentication enforcement vulnerability in SonicOS SSLVPN service may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).
+</code>
+
+- [EXEcution-py/CVE-2026-19868](https://github.com/EXEcution-py/CVE-2026-19868)
+
 ### CVE-2026-19874 (2026-08-24)
 
 <code>A heap-based buffer overflow vulnerability exists in Konami's Metal Gear Online 3, originating from improper validation of lobby data fields related to kicked players. The affected function processes a list of kicked player identifiers using the lobby data key &quot;kick_num&quot; to determine the number of entries, and individual kicked player IDs supplied via keys in the format &quot;kicked_id_%i&quot;. The function does not validate that &quot;kick_num&quot; falls within the expected bounds. The game design limits matches to a maximum of 16 players, and the corresponding buffer for storing kicked player IDs is sized accordingly. If &quot;kick_num&quot; exceeds this limit, the function continues writing the provided player IDs past the end of the intended buffer and into adjacent memory regions. These adjacent regions contain Steam callback handler structures responsible for processing lobby data updates, lobby messages, and other related events. By supplying an oversized &quot;kick_num&quot; value and appropriate &quot;kicked_id_%i&quot; fields, an attacker can overwrite fields within the callback handler structures, including function pointers and callback argument values. Successful exploitation may enable control-flow hijacking, potentially allowing arbitrary code execution within the game process.
@@ -6420,7 +6427,6 @@
 
 - [WhiteTPoison100/Discord-CVE-2026-24332-demo](https://github.com/WhiteTPoison100/Discord-CVE-2026-24332-demo)
 - [0cqb/CVE-2026-24332](https://github.com/0cqb/CVE-2026-24332)
-- [LinkMakesMods/invisible-detector](https://github.com/LinkMakesMods/invisible-detector)
 
 ### CVE-2026-24415 (2026-03-03)
 
@@ -10612,6 +10618,13 @@
 
 - [OkamiSpade/Cve-2026-39676](https://github.com/OkamiSpade/Cve-2026-39676)
 
+### CVE-2026-39732 (2026-10-30)
+
+<code>Unauthenticated SQL Injection in Transliterator &lt;= 2.5.13 versions.
+</code>
+
+- [Mor-Golan/CVE-2026-39732](https://github.com/Mor-Golan/CVE-2026-39732)
+
 ### CVE-2026-39808 (2026-04-14)
 
 <code>A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiSandbox 4.4.0 through 4.4.8 may allow attacker to execute unauthorized code or commands via &lt;insert attack vector here&gt;
@@ -11710,7 +11723,6 @@
 - [HirokiAkihiko/dirtyfrag-research](https://github.com/HirokiAkihiko/dirtyfrag-research)
 - [RemiPelloux/GalaxyCrash](https://github.com/RemiPelloux/GalaxyCrash)
 - [mcxiaochenn/iqooNeo8-V2301A-DirtyFrag](https://github.com/mcxiaochenn/iqooNeo8-V2301A-DirtyFrag)
-- [EmilyTsum/Shizuka](https://github.com/EmilyTsum/Shizuka)
 - [noctide/redmi-k50-temp-root](https://github.com/noctide/redmi-k50-temp-root)
 
 ### CVE-2026-43494 (2026-05-21)
@@ -11918,6 +11930,8 @@
 - [Cyb3rCr0wCC/CVE-2026-43499_study](https://github.com/Cyb3rCr0wCC/CVE-2026-43499_study)
 - [nnka3/root-my-s24-on-oneui6.1](https://github.com/nnka3/root-my-s24-on-oneui6.1)
 - [chjwoo7/ghostlock-a55x](https://github.com/chjwoo7/ghostlock-a55x)
+- [kipcloud120/MiTV-MFTP0-GhostLock](https://github.com/kipcloud120/MiTV-MFTP0-GhostLock)
+- [a78c7/w25-cve-2026-43499-notes](https://github.com/a78c7/w25-cve-2026-43499-notes)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -14103,6 +14117,7 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: account for fraggap on the paged allocation path\n\nIn __ip6_append_data(), when the paged-allocation branch is taken\n(MSG_MORE / NETIF_F_SG / large fraglen), alloclen and pagedlen are\ncomputed as\n\n</code>
 
 - [suominen/ipv6_frag_escape](https://github.com/suominen/ipv6_frag_escape)
+- [sol4ce503/cve-2026-53362-ipv6-frag-escape](https://github.com/sol4ce503/cve-2026-53362-ipv6-frag-escape)
 
 ### CVE-2026-53365 (2026-07-13)
 
@@ -15362,6 +15377,13 @@
 </code>
 
 - [Rat5ak/CVE-2026-61946-Easy-Appointments-IDOR](https://github.com/Rat5ak/CVE-2026-61946-Easy-Appointments-IDOR)
+
+### CVE-2026-61989 (2026-10-29)
+
+<code>Unauthenticated Cross Site Scripting (XSS) in Easy Property Listings &lt;= 3.5.25 versions.
+</code>
+
+- [Mor-Golan/CVE-2026-61989](https://github.com/Mor-Golan/CVE-2026-61989)
 
 ### CVE-2026-62059 (2026-10-01)
 
@@ -16930,6 +16952,13 @@
 - [juanpoch/CVE-2026-73570](https://github.com/juanpoch/CVE-2026-73570)
 - [hainhc/CVE-2026-73570](https://github.com/hainhc/CVE-2026-73570)
 - [0xBlackash/CVE-2026-73570](https://github.com/0xBlackash/CVE-2026-73570)
+
+### CVE-2026-73577 (2026-11-05)
+
+<code>Incorrect authorization in RequestHandler in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to bypass the authentication requirement of a protected view by appending it as a path suffix to a public request (e.g., /catalog/control/ListLocales/showPortalPage), causing the servlet to authorize the request based on the public path component while rendering the protected suffix view. Users are recommended to upgrade to version 24.09.08, which fixes this issue.
+</code>
+
+- [Crypto-Cat/apache-ofbiz-2026-pocs](https://github.com/Crypto-Cat/apache-ofbiz-2026-pocs)
 
 ### CVE-2026-73633 (2026-08-14)
 
@@ -18522,6 +18551,13 @@
 - [thiscitze/cve-2026-86596-poc](https://github.com/thiscitze/cve-2026-86596-poc)
 - [Aureels/CVE-2026-86596](https://github.com/Aureels/CVE-2026-86596)
 
+### CVE-2026-86777 (2026-09-09)
+
+<code>AlchemyCMS versions before 7.4.16 and 8.x before 8.3.6 fail to authorize access to the GET /api/nodes endpoint, allowing unauthenticated attackers to retrieve all navigation nodes. Attackers can access the endpoint without authentication to disclose restricted page names, URL paths, and internal URLs from all sites and languages.
+</code>
+
+- [shohruhyuldashev/CVE-2026-86777-AlchemyCMS-Navigation-Disclosure](https://github.com/shohruhyuldashev/CVE-2026-86777-AlchemyCMS-Navigation-Disclosure)
+
 ### CVE-2026-86881 (2026-09-14)
 
 <code>A certificate validation issue was addressed with improved certificate validation. This issue is fixed in iOS 26.7 and iPadOS 26.7, iOS 27 and iPadOS 27, macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7, tvOS 27, visionOS 27, watchOS 27. An attacker with a compromised intermediate certificate authority may be able to issue certificates with arbitrary extended key usages.
@@ -19317,12 +19353,26 @@
 
 - [djzzlim/CVE-2026-94036](https://github.com/djzzlim/CVE-2026-94036)
 
+### CVE-2026-94074 (2026-09-30)
+
+<code>Unauthenticated Broken Access Control in Simply Schedule Appointments &lt;= 1.6.12.29 versions.
+</code>
+
+- [Mor-Golan/CVE-2026-94074](https://github.com/Mor-Golan/CVE-2026-94074)
+
 ### CVE-2026-94095 (2026-09-20)
 
 <code>A vulnerability has been found in Netcore NBR200V2 1.3.241127.071246. Affected by this vulnerability is an unknown functionality of the file /usr/bin/network_tools of the component Traceroute Diagnostic Feature. The manipulation of the argument url leads to command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
 </code>
 
 - [HackSpeak/CVE-2026-94095](https://github.com/HackSpeak/CVE-2026-94095)
+
+### CVE-2026-94113 (2026-09-20)
+
+<code>Frappe ERPNext versions before 15.121.0 and 16.x before 16.34.0 contain an information disclosure vulnerability in whitelisted timesheet endpoints that fail to enforce doctype permissions. Authenticated attackers can call get_projectwise_timesheet_data, get_timesheet_detail_rate, and get_timesheet endpoints to enumerate and retrieve billable time logs including project names, billing amounts, and work descriptions without proper authorization checks.
+</code>
+
+- [shohruhyuldashev/CVE-2026-94113-ERPNext-Timesheet](https://github.com/shohruhyuldashev/CVE-2026-94113-ERPNext-Timesheet)
 
 ### CVE-2026-94127 (2026-09-22)
 
@@ -19421,8 +19471,22 @@
 
 - [anthonyk2923/CVE-2026-94609](https://github.com/anthonyk2923/CVE-2026-94609)
 
+### CVE-2026-94641 (2026-10-09)
+
+<code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Stiofan UsersWP userswp allows Reflected XSS.This issue affects UsersWP: from n/a through 1.2.73.
+</code>
+
+- [Mor-Golan/CVE-2026-94641](https://github.com/Mor-Golan/CVE-2026-94641)
+
 ### CVE-2026-95149
 - [reputati0n/CVE-2026-95149](https://github.com/reputati0n/CVE-2026-95149)
+
+### CVE-2026-95597 (2026-10-09)
+
+<code>Missing Authorization vulnerability in codemstory 워드프레스 결제 심플페이 pgall-for-woocommerce allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects 워드프레스 결제 심플페이: from n/a through 5.5.17.
+</code>
+
+- [Mor-Golan/CVE-2026-95597](https://github.com/Mor-Golan/CVE-2026-95597)
 
 ### CVE-2026-95622
 - [0xSemizzz/CVE-2026-95622](https://github.com/0xSemizzz/CVE-2026-95622)
@@ -19531,6 +19595,13 @@
 </code>
 
 - [paktiko1986/CVE-2026-96778-pillow](https://github.com/paktiko1986/CVE-2026-96778-pillow)
+
+### CVE-2026-96838 (2026-09-30)
+
+<code>Unauthenticated Cross Site Request Forgery (CSRF) in Blacklist Manager &amp;#8211; WooCommerce Anti-Fraud, Blacklist &amp;amp; Checkout Verification &lt;= 2.3.1 versions.
+</code>
+
+- [Mor-Golan/CVE-2026-96838](https://github.com/Mor-Golan/CVE-2026-96838)
 
 ### CVE-2026-96872 (2026-09-23)
 
@@ -19797,6 +19868,7 @@
 - [ANYAEGW/CVE-2026-98260-amg-an00](https://github.com/ANYAEGW/CVE-2026-98260-amg-an00)
 - [nemoiwkryang/CVE-2026-98260-pkt110-kernelsu](https://github.com/nemoiwkryang/CVE-2026-98260-pkt110-kernelsu)
 - [Dream-Rainy/CVE-2026-98260](https://github.com/Dream-Rainy/CVE-2026-98260)
+- [countryside99/GhostKey](https://github.com/countryside99/GhostKey)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -19887,6 +19959,7 @@
 - [sv3t0sl4v/CVE-2026-98432-Ubuntu-Temporary-Mitigation](https://github.com/sv3t0sl4v/CVE-2026-98432-Ubuntu-Temporary-Mitigation)
 - [mafudge/cve-2026-98432](https://github.com/mafudge/cve-2026-98432)
 - [s97472091-pixel/verification-gap-cve-2026-98432](https://github.com/s97472091-pixel/verification-gap-cve-2026-98432)
+- [zhao-xiaogang/cve_2026_98432_livepatch](https://github.com/zhao-xiaogang/cve_2026_98432_livepatch)
 
 ### CVE-2026-98499 (2026-10-18)
 
@@ -22158,6 +22231,13 @@
 
 - [jasonbernier/Dialplan-Escape-RCE](https://github.com/jasonbernier/Dialplan-Escape-RCE)
 
+### CVE-2026-112222 (2026-10-19)
+
+<code>Missing Authorization vulnerability in Surfer Surfer surferseo allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Surfer: from n/a through 1.8.0.744.
+</code>
+
+- [Mor-Golan/CVE-2026-112222](https://github.com/Mor-Golan/CVE-2026-112222)
+
 ### CVE-2026-112325
 - [j0xh-sec/CVE-2026-112325](https://github.com/j0xh-sec/CVE-2026-112325)
 
@@ -22246,6 +22326,13 @@
 </code>
 
 - [Hassham1/CVE-2026-112866-woo-product-filter-sqli-poc](https://github.com/Hassham1/CVE-2026-112866-woo-product-filter-sqli-poc)
+
+### CVE-2026-112869 (2026-10-24)
+
+<code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Noah Hearle We’re Open! opening-hours allows Reflected XSS.This issue affects We’re Open!: from n/a through 2.6.
+</code>
+
+- [Mor-Golan/CVE-2026-112869](https://github.com/Mor-Golan/CVE-2026-112869)
 
 ### CVE-2026-112900 (2026-10-19)
 
@@ -22372,6 +22459,13 @@
 - [renzi25031469/CVE-2026-115560](https://github.com/renzi25031469/CVE-2026-115560)
 - [Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0](https://github.com/Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0)
 - [Pr0fEs0r-X/PHP2SHELL-Checker-v-2.0-CVE-2026-115560-](https://github.com/Pr0fEs0r-X/PHP2SHELL-Checker-v-2.0-CVE-2026-115560-)
+
+### CVE-2026-115596 (2026-10-28)
+
+<code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in impleCode eCommerce Product Catalog ecommerce-product-catalog allows Reflected XSS.This issue affects eCommerce Product Catalog: from n/a through 3.6.4.
+</code>
+
+- [Mor-Golan/CVE-2026-115596](https://github.com/Mor-Golan/CVE-2026-115596)
 
 ### CVE-2026-115889 (2026-10-23)
 
@@ -22744,6 +22838,13 @@
 </code>
 
 - [capivara-research/CVE-2026-122158](https://github.com/capivara-research/CVE-2026-122158)
+
+### CVE-2026-122675 (2026-11-07)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in Wpmet Wp Social wp-social allows Cross Site Request Forgery.This issue affects Wp Social: from n/a through 3.2.3.
+</code>
+
+- [Mor-Golan/CVE-2026-122675](https://github.com/Mor-Golan/CVE-2026-122675)
 
 ### CVE-2026-123014 (2026-11-05)
 
@@ -28871,6 +28972,7 @@
 </code>
 
 - [Skorpion96/unisoc-su](https://github.com/Skorpion96/unisoc-su)
+- [Little-yellow-duck1206/360-kidwatch-11X-W370-Ghostroot](https://github.com/Little-yellow-duck1206/360-kidwatch-11X-W370-Ghostroot)
 
 ### CVE-2025-31722 (2025-04-02)
 
@@ -32055,6 +32157,7 @@
 - [Jenderal92/magento-upload-auto-submit-zoneh](https://github.com/Jenderal92/magento-upload-auto-submit-zoneh)
 - [brito101/session_reaper_lab](https://github.com/brito101/session_reaper_lab)
 - [Dx3iZ/CVE-2025-54236](https://github.com/Dx3iZ/CVE-2025-54236)
+- [bigcartenergy/module-sessionreaper-patch](https://github.com/bigcartenergy/module-sessionreaper-patch)
 
 ### CVE-2025-54253 (2025-08-05)
 
@@ -34203,13 +34306,6 @@
 </code>
 
 - [pvharmo2/gha-lab-6904b2ccbe](https://github.com/pvharmo2/gha-lab-6904b2ccbe)
-
-### CVE-2025-61622 (2025-10-01)
-
-<code>Deserialization of untrusted data in python in pyfory versions 0.12.0 through 0.12.2, or the legacy pyfury versions from 0.1.0 through 0.10.3: allows arbitrary code execution. An application is vulnerable if it reads pyfory serialized data from untrusted sources. An attacker can craft a data stream that selects pickle-fallback serializer during deserialization, leading to the execution of `pickle.loads`, which is vulnerable to remote code execution.\n\nUsers are recommended to upgrade to pyfory version 0.12.3 or later, which has removed pickle fallback serializer and thus fixes this issue.
-</code>
-
-- [fa1consec/cve_2025_61622_poc](https://github.com/fa1consec/cve_2025_61622_poc)
 
 ### CVE-2025-61638 (2026-02-02)
 
@@ -41376,6 +41472,7 @@
 - [CyberBibs/Event-ID-263-Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-](https://github.com/CyberBibs/Event-ID-263-Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-)
 - [MacUchegit/Detecting-and-Analyzing-CVE-2024-24919-Exploitation](https://github.com/MacUchegit/Detecting-and-Analyzing-CVE-2024-24919-Exploitation)
 - [Zedocun/Incident-Analysis-Response-Check-Point-Security-Gateway-CVE-2024-24919-LFI-Exploitation](https://github.com/Zedocun/Incident-Analysis-Response-Check-Point-Security-Gateway-CVE-2024-24919-LFI-Exploitation)
+- [khdertaysh1/CVE-2024-24919-PoC](https://github.com/khdertaysh1/CVE-2024-24919-PoC)
 
 ### CVE-2024-24926 (2024-02-12)
 
@@ -43169,6 +43266,7 @@
 - [Kento-Sec/CVE-2024-34102](https://github.com/Kento-Sec/CVE-2024-34102)
 - [nmmorette/CVE-2024-34102](https://github.com/nmmorette/CVE-2024-34102)
 - [russellwork2021-lgtm/cosmicsting-cve-2024-34102-exploit](https://github.com/russellwork2021-lgtm/cosmicsting-cve-2024-34102-exploit)
+- [bigcartenergy/module-cosmicsting-patch](https://github.com/bigcartenergy/module-cosmicsting-patch)
 
 ### CVE-2024-34144 (2024-05-02)
 
@@ -78337,6 +78435,7 @@
 - [X0UCYB3R/Check-WP-CVE-2020-35489](https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489)
 - [reneoliveirajr/wp_CVE-2020-35489_checker](https://github.com/reneoliveirajr/wp_CVE-2020-35489_checker)
 - [Cappricio-Securities/CVE-2020-35489](https://github.com/Cappricio-Securities/CVE-2020-35489)
+- [elabod1/SOC-wordpress-compromise-report](https://github.com/elabod1/SOC-wordpress-compromise-report)
 
 ### CVE-2020-35498 (2021-02-11)
 
