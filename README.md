@@ -11711,6 +11711,7 @@
 - [RemiPelloux/GalaxyCrash](https://github.com/RemiPelloux/GalaxyCrash)
 - [mcxiaochenn/iqooNeo8-V2301A-DirtyFrag](https://github.com/mcxiaochenn/iqooNeo8-V2301A-DirtyFrag)
 - [EmilyTsum/Shizuka](https://github.com/EmilyTsum/Shizuka)
+- [noctide/redmi-k50-temp-root](https://github.com/noctide/redmi-k50-temp-root)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -19887,6 +19888,12 @@
 - [mafudge/cve-2026-98432](https://github.com/mafudge/cve-2026-98432)
 - [s97472091-pixel/verification-gap-cve-2026-98432](https://github.com/s97472091-pixel/verification-gap-cve-2026-98432)
 
+### CVE-2026-98499 (2026-10-18)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nHID: wacom: fix OOB read in wacom_wac_pen_serial_enforce()\n\nThe 'wacom_wac_pen_serial_enforce()' function may calculate and pass an\ninvalid offset to hid_field_extract(), resulting in memory reads at\nincorrect addresses -- possibly beyond the end of the report.  If a\nfield in the HID descriptor lists more usages than its Report Count\nactually reserves space for, the function's inner 'j' will walk past\nthe end of the field:\n\n</code>
+
+- [woshigenm/CVE-2026-98499](https://github.com/woshigenm/CVE-2026-98499)
+
 ### CVE-2026-98937 (2026-10-23)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nperf/core: Check kernel access when kernel callchains are requested\n\nperf_event_open() currently gates perf_allow_kernel() only on\n!attr.exclude_kernel.\n\nHowever, users can still request kernel callchain collection with\nattr.exclude_callchain_kernel == 0 even when attr.exclude_kernel == 1.\nThat still requires kernel profiling privilege, but the existing check\ndoes not enforce it.\n\nUpdate the permission check to call perf_allow_kernel() when either\nkernel sampling is requested or kernel callchains are requested.\n\nThis keeps permission checks aligned with requested data and prevents\nunprivileged use of kernel callchain capture.
@@ -21463,7 +21470,6 @@
 - [0xgitpushpray/php2shell](https://github.com/0xgitpushpray/php2shell)
 - [scardotdev/php2shell-helper](https://github.com/scardotdev/php2shell-helper)
 - [RuanSerraAzul/CVE-2026-109618-POC](https://github.com/RuanSerraAzul/CVE-2026-109618-POC)
-- [logesh-GIT001/php2shell](https://github.com/logesh-GIT001/php2shell)
 - [nsrivastava2velsof/php56-php2shell-patch](https://github.com/nsrivastava2velsof/php56-php2shell-patch)
 - [toxy4ny/php2shell-checker](https://github.com/toxy4ny/php2shell-checker)
 - [ericmann/php2shell-ioc](https://github.com/ericmann/php2shell-ioc)
@@ -21820,6 +21826,7 @@
 - [avrevic/php2shell-lean-plain](https://github.com/avrevic/php2shell-lean-plain)
 - [lanz/php2shell-coverage-check](https://github.com/lanz/php2shell-coverage-check)
 - [lutfizp/php2shell-lab](https://github.com/lutfizp/php2shell-lab)
+- [LiliNothere/CVE-2026-109618](https://github.com/LiliNothere/CVE-2026-109618)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22553,6 +22560,9 @@
 - [majidrahimi5020-lgtm/Poc-exploit-for-CVE-2026-116779-FreeSWITCH-](https://github.com/majidrahimi5020-lgtm/Poc-exploit-for-CVE-2026-116779-FreeSWITCH-)
 - [hackzuoji/freeswitch-cve-2026-116779-POC](https://github.com/hackzuoji/freeswitch-cve-2026-116779-POC)
 
+### CVE-2026-117065
+- [CodeStartUp/CVE-2026-117065](https://github.com/CodeStartUp/CVE-2026-117065)
+
 ### CVE-2026-117182 (2026-10-30)
 
 <code>An authenticated cross-site scripting (XSS) vulnerability in the /spina/embeddable.rb component of Spina CMS v2.21.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted URL.
@@ -22590,6 +22600,13 @@
 </code>
 
 - [AlexBiller/salesforce-cve-remediation-demo](https://github.com/AlexBiller/salesforce-cve-remediation-demo)
+
+### CVE-2026-117691 (2026-11-05)
+
+<code>A flaw was found in the SAML HTTP-Redirect binding implementation of Keycloak. The issue occurs because the server processes percent-encoded parameter names (like %53AMLResponse) while the signature verification logic only checks literal parameter names. An attacker can use this discrepancy to provide a crafted, unsigned SAML message that the server processes instead of a legitimately signed one, leading to full account takeover of federated users.
+</code>
+
+- [foxcornlab/keycloak-saml-scanner](https://github.com/foxcornlab/keycloak-saml-scanner)
 
 ### CVE-2026-118238 (2026-10-30)
 
@@ -22659,6 +22676,7 @@
 - [lysophavin18/CVE-2026-119977](https://github.com/lysophavin18/CVE-2026-119977)
 - [Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4](https://github.com/Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4)
 - [tc4dy/CVE-2026-119977-Toolkit](https://github.com/tc4dy/CVE-2026-119977-Toolkit)
+- [riabinov/CVE-2026-119977](https://github.com/riabinov/CVE-2026-119977)
 
 ### CVE-2026-120019 (2026-10-31)
 
@@ -32390,7 +32408,6 @@
 - [Y3B3L4Y3/CVE-2025-55182-test](https://github.com/Y3B3L4Y3/CVE-2025-55182-test)
 - [ngvcanh/CVE-2025-55182-Attack-Analysis](https://github.com/ngvcanh/CVE-2025-55182-Attack-Analysis)
 - [aliclub0x00/CVE-2025-55182-POC-NEXTJS](https://github.com/aliclub0x00/CVE-2025-55182-POC-NEXTJS)
-- [logesh-GIT001/CVE-2025-55182](https://github.com/logesh-GIT001/CVE-2025-55182)
 - [freeqaz/react2shell](https://github.com/freeqaz/react2shell)
 - [ABCFabian/React2Shell-CVE-2025-55182-Testing-Environment](https://github.com/ABCFabian/React2Shell-CVE-2025-55182-Testing-Environment)
 - [l4rm4nd/CVE-2025-55182](https://github.com/l4rm4nd/CVE-2025-55182)
@@ -87539,6 +87556,7 @@
 - [embedi/amt_auth_bypass_poc](https://github.com/embedi/amt_auth_bypass_poc)
 - [TheWay-hue/CVE-2017-5689-Checker](https://github.com/TheWay-hue/CVE-2017-5689-Checker)
 - [aix567/C-A-S](https://github.com/aix567/C-A-S)
+- [unitnikolai/intel-me-remote-exploit](https://github.com/unitnikolai/intel-me-remote-exploit)
 
 ### CVE-2017-5693 (2018-07-31)
 
