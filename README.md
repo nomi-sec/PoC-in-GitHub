@@ -3678,6 +3678,7 @@
 </code>
 
 - [SHIFox8/synology-dsm-vuln-scanner](https://github.com/SHIFox8/synology-dsm-vuln-scanner)
+- [maxprog-svg/CVE-2026-13684](https://github.com/maxprog-svg/CVE-2026-13684)
 
 ### CVE-2026-13714 (2026-07-27)
 
@@ -4527,6 +4528,7 @@
 </code>
 
 - [abraxas/cve-2026-19553-wrap-bio](https://github.com/abraxas/cve-2026-19553-wrap-bio)
+- [monkeyyey/acw3-tls-lab](https://github.com/monkeyyey/acw3-tls-lab)
 
 ### CVE-2026-19586 (2026-08-20)
 
@@ -11738,6 +11740,7 @@
 - [noctide/redmi-k50-temp-root](https://github.com/noctide/redmi-k50-temp-root)
 - [h5hg6vy8nt-hue/meizu20pro-temp-root](https://github.com/h5hg6vy8nt-hue/meizu20pro-temp-root)
 - [Jean7z/DFRoot-DirtyFrag](https://github.com/Jean7z/DFRoot-DirtyFrag)
+- [nemoiwkryang/pd2301-dirtyfrag-root](https://github.com/nemoiwkryang/pd2301-dirtyfrag-root)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -18044,6 +18047,7 @@
 - [mokshshah18/CVE-2026-83844-PoC-MS-paint-v-11.2609.401.0](https://github.com/mokshshah18/CVE-2026-83844-PoC-MS-paint-v-11.2609.401.0)
 - [Cobrastrike62/CVE-2026-83844-Detection](https://github.com/Cobrastrike62/CVE-2026-83844-Detection)
 - [LACHHAB-Anas/CVE-2026-83844](https://github.com/LACHHAB-Anas/CVE-2026-83844)
+- [blkph0x/CVE-2026-83844_POC](https://github.com/blkph0x/CVE-2026-83844_POC)
 
 ### CVE-2026-83991 (2026-09-08)
 
@@ -19872,6 +19876,8 @@
 - [nemoiwkryang/CVE-2026-98260-pkt110-kernelsu](https://github.com/nemoiwkryang/CVE-2026-98260-pkt110-kernelsu)
 - [Dream-Rainy/CVE-2026-98260](https://github.com/Dream-Rainy/CVE-2026-98260)
 - [countryside99/GhostKey](https://github.com/countryside99/GhostKey)
+- [knowlily/m6-shell](https://github.com/knowlily/m6-shell)
+- [knowlily/cve-2026-98260-bvl-an16](https://github.com/knowlily/cve-2026-98260-bvl-an16)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -19977,6 +19983,13 @@
 </code>
 
 - [woshigenm/CVE-2026-98937](https://github.com/woshigenm/CVE-2026-98937)
+
+### CVE-2026-99273 (2026-11-07)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: reserve space for the UTF-16 terminator in stream info\n\nsmb_strtoUTF16() always writes a terminating zero UTF-16 unit after the\nconverted characters, but get_file_stream_info() budgets only\nsizeof(struct smb2_file_stream_info) + streamlen * 2 for a stream entry\nand sizeof(struct smb2_file_stream_info) + 7 * 2 for the trailing\n&quot;::$DATA&quot; entry. When an entry exactly fills the 448-byte small response\nbuffer, the terminator is written two bytes past the allocation.\n\nReserve one extra UTF-16 unit in both budget checks. The terminator is\nnot part of the wire format, so the reported lengths are unchanged.
+</code>
+
+- [googlesky/CVE-2026-99273](https://github.com/googlesky/CVE-2026-99273)
 
 ### CVE-2026-99999 (2026-10-15)
 
@@ -21905,6 +21918,7 @@
 - [lutfizp/php2shell-lab](https://github.com/lutfizp/php2shell-lab)
 - [LiliNothere/CVE-2026-109618](https://github.com/LiliNothere/CVE-2026-109618)
 - [djad04/php2shell-deep-dive](https://github.com/djad04/php2shell-deep-dive)
+- [catscarlet/php-fpm-docker-PHP-8.1-CVE-2026-109618-109619-patched](https://github.com/catscarlet/php-fpm-docker-PHP-8.1-CVE-2026-109618-109619-patched)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22777,6 +22791,8 @@
 - [Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4](https://github.com/Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4)
 - [tc4dy/CVE-2026-119977-Toolkit](https://github.com/tc4dy/CVE-2026-119977-Toolkit)
 - [riabinov/CVE-2026-119977](https://github.com/riabinov/CVE-2026-119977)
+- [mehmet-emir-eroglu/CVE-2026-119977](https://github.com/mehmet-emir-eroglu/CVE-2026-119977)
+- [BugStealers/CVE-2026-119977](https://github.com/BugStealers/CVE-2026-119977)
 
 ### CVE-2026-120019 (2026-10-31)
 
@@ -22909,9 +22925,17 @@
 </code>
 
 - [fixedbyreboot/CVE-2026-123488-POC](https://github.com/fixedbyreboot/CVE-2026-123488-POC)
+- [dinosn/CVE-2026-123488-CraftCMS-Lab](https://github.com/dinosn/CVE-2026-123488-CraftCMS-Lab)
 
 ### CVE-2026-123753
 - [googlesky/CVE-2026-123753](https://github.com/googlesky/CVE-2026-123753)
+
+### CVE-2026-124040 (2026-11-06)
+
+<code>CivetWeb through 1.16, when built with USE_HTTP2 and enable_http2 on, contains a use-after-free vulnerability in handle_http2() that retains freed :method and :path pointers. Unauthenticated remote attackers can send a later HEADERS frame omitting these pseudo-headers to influence request method or path seen by access rules, or crash the server.
+</code>
+
+- [zeetee1235/CVE-2026-124040](https://github.com/zeetee1235/CVE-2026-124040)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -76213,6 +76237,7 @@
 </code>
 
 - [mrnazu/CVE-2020-13405](https://github.com/mrnazu/CVE-2020-13405)
+- [nobleordu/CVE-2020-13405-MicroWeber-PoC](https://github.com/nobleordu/CVE-2020-13405-MicroWeber-PoC)
 
 ### CVE-2020-13424 (2020-05-23)
 
@@ -79393,6 +79418,7 @@
 - [FDLAlfrid/odin-od105-devkit](https://github.com/FDLAlfrid/odin-od105-devkit)
 - [kilokite/old-phone-temp-root](https://github.com/kilokite/old-phone-temp-root)
 - [xushihushuo-art/cve-2019-2215-skyworth](https://github.com/xushihushuo-art/cve-2019-2215-skyworth)
+- [RxinnotRstar/CVE-2019-2215-ForMIpad4](https://github.com/RxinnotRstar/CVE-2019-2215-ForMIpad4)
 
 ### CVE-2019-2525 (2019-01-16)
 
