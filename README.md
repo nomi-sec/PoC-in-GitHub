@@ -11950,6 +11950,7 @@
 - [chjwoo7/ghostlock-a55x](https://github.com/chjwoo7/ghostlock-a55x)
 - [kipcloud120/MiTV-MFTP0-GhostLock](https://github.com/kipcloud120/MiTV-MFTP0-GhostLock)
 - [a78c7/w25-cve-2026-43499-notes](https://github.com/a78c7/w25-cve-2026-43499-notes)
+- [Viper-Boss/iqoo-neo5-temp-root](https://github.com/Viper-Boss/iqoo-neo5-temp-root)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15561,6 +15562,7 @@
 - [dexit/CVE-2026-63030](https://github.com/dexit/CVE-2026-63030)
 - [Tersurrr/Orga-Tersur-Daniel-CVE-2026-63030](https://github.com/Tersurrr/Orga-Tersur-Daniel-CVE-2026-63030)
 - [l-i-uqing/CVE-2026-63030-wp2shell-repro](https://github.com/l-i-uqing/CVE-2026-63030-wp2shell-repro)
+- [noxcrypt-x/CVE-2026-63030](https://github.com/noxcrypt-x/CVE-2026-63030)
 
 ### CVE-2026-63039 (2026-08-20)
 
@@ -17834,6 +17836,13 @@
 - [suominen/dirtyah6](https://github.com/suominen/dirtyah6)
 - [ashrafzaryouh/CVE-2026-80844](https://github.com/ashrafzaryouh/CVE-2026-80844)
 - [HORKimhab/CVE-2026-80844](https://github.com/HORKimhab/CVE-2026-80844)
+
+### CVE-2026-80914 (2026-09-09)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: ISO: fix use-after-free of listener socket in iso_conn_ready\n\niso_conn_ready() looks up the BIS listener socket with iso_get_sock(),\nwhich takes a reference, and then, without re-checking its state,\ncreates a child socket from it:\n\n    parent = iso_get_sock(hdev, ...);\n    if (!parent)\n        return;\n\n    lock_sock(parent);\n    sk = iso_sock_alloc(sock_net(parent), NULL, BTPROTO_ISO, ...);\n    ...\n    iso_chan_add(conn, sk, parent);\n    ...\n    release_sock(parent);\n    sock_put(parent);\n\nIf the listener socket is closed concurrently, between iso_get_sock()\nand lock_sock(), the reference taken by iso_get_sock() may be the last\none: the close path drops the link-list reference, and once\niso_conn_ready() drops its own reference at the end of the function the\nsocket is freed.  The child socket, however, is already linked to the\nfreed parent, and a later disconnect of the child runs iso_chan_del()\n-&gt; bt_accept_unlink(), which dereferences the dangling parent pointer\ninto the freed accept queue (a use-after-free).  The same dangling\npointer is also dereferenced through parent-&gt;***() in\niso_chan_del().\n\nFix it the same way the connected (non-BIS) path was fixed in commit\n0d255e63fcf3 (&quot;Bluetooth: ISO: hold sk properly in iso_conn_ready&quot;):\nafter taking the socket lock, re-check that the parent is still a\nlistening, alive socket, and bail out otherwise.
+</code>
+
+- [nanhang-950/CVE-2026-80914-POC](https://github.com/nanhang-950/CVE-2026-80914-POC)
 
 ### CVE-2026-81000 (2026-09-11)
 
@@ -20829,13 +20838,6 @@
 
 - [murrez/CVE-2026-105844](https://github.com/murrez/CVE-2026-105844)
 
-### CVE-2026-105863 (2026-10-06)
-
-<code>Payload is a free and open source headless content management system. In versions after 3.0.0 and before 3.90.0, a custom field option that maps a field to a reserved authentication claim name can place unintended values in the authentication token issued at login. This issue is fixed in version 3.90.0.
-</code>
-
-- [lelaboratoiredegenie/CVE-2026-105863](https://github.com/lelaboratoiredegenie/CVE-2026-105863)
-
 ### CVE-2026-105950 (2026-10-06)
 
 <code>A security vulnerability has been detected in getformwork formwork up to 2.3.12. Impacted is the function DomSanitizer::sanitizeNodeAttribute of the file formwork/src/Sanitizer/DomSanitizer.php of the component URI Sanitizer. Such manipulation of the argument formaction leads to cross site scripting. The attack may be launched remotely. Upgrading to version 2.3.13 is recommended to address this issue. The name of the patch is 729701e59c5886685c5a1d477bdc3035e41f18b1. Upgrading the affected component is advised.
@@ -21598,7 +21600,7 @@
 - [itzen300/php2shell_RCE](https://github.com/itzen300/php2shell_RCE)
 - [wasdthedebugger/php2shell](https://github.com/wasdthedebugger/php2shell)
 - [cx-jacob-rand/php2shell-cx](https://github.com/cx-jacob-rand/php2shell-cx)
-- [webninjjacoder/security-backports-for-php74](https://github.com/webninjjacoder/security-backports-for-php74)
+- [mrrizwanali/security-backports-for-php74](https://github.com/mrrizwanali/security-backports-for-php74)
 - [EtherHamRadio/asl-node-check](https://github.com/EtherHamRadio/asl-node-check)
 - [ChangWeiHong/php-cve-local-lab](https://github.com/ChangWeiHong/php-cve-local-lab)
 - [AGI-CEO/php2shell-wordpress-to-nextjs-mcp](https://github.com/AGI-CEO/php2shell-wordpress-to-nextjs-mcp)
@@ -21677,7 +21679,6 @@
 - [whxylm/tdoa-php-cve-2026-109618-109619-patch-package](https://github.com/whxylm/tdoa-php-cve-2026-109618-109619-patch-package)
 - [AdZoic/php2shell-check](https://github.com/AdZoic/php2shell-check)
 - [D1se0/php2shell_lab](https://github.com/D1se0/php2shell_lab)
-- [PapaBill1234/php2shell-toolkit](https://github.com/PapaBill1234/php2shell-toolkit)
 - [Ls-ComCSIRT/php2shell-scan](https://github.com/Ls-ComCSIRT/php2shell-scan)
 - [Andrew2142/php73-backport](https://github.com/Andrew2142/php73-backport)
 - [kowalski-analysis/php2shell-checker](https://github.com/kowalski-analysis/php2shell-checker)
@@ -21919,6 +21920,8 @@
 - [LiliNothere/CVE-2026-109618](https://github.com/LiliNothere/CVE-2026-109618)
 - [djad04/php2shell-deep-dive](https://github.com/djad04/php2shell-deep-dive)
 - [catscarlet/php-fpm-docker-PHP-8.1-CVE-2026-109618-109619-patched](https://github.com/catscarlet/php-fpm-docker-PHP-8.1-CVE-2026-109618-109619-patched)
+- [ameeshaheshan/ShellSpectre](https://github.com/ameeshaheshan/ShellSpectre)
+- [Zaynux/TryHackMe-PHP2Shell-CVE-2026](https://github.com/Zaynux/TryHackMe-PHP2Shell-CVE-2026)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -21951,6 +21954,7 @@
 - [solidevil14/php2shell-detections](https://github.com/solidevil14/php2shell-detections)
 - [K2uci/PHP2ShellPOC-CVE-2026-109619](https://github.com/K2uci/PHP2ShellPOC-CVE-2026-109619)
 - [blkph0x/CVE-2026-109619-ZendPipelineLab](https://github.com/blkph0x/CVE-2026-109619-ZendPipelineLab)
+- [MarceloAstudillo13/Tryhackme-PHP2Shell](https://github.com/MarceloAstudillo13/Tryhackme-PHP2Shell)
 
 ### CVE-2026-109715 (2026-10-13)
 
@@ -22235,6 +22239,13 @@
 - [andersundsehr/ca-trust-audit](https://github.com/andersundsehr/ca-trust-audit)
 - [Xowap/i-can-count-to-four](https://github.com/Xowap/i-can-count-to-four)
 - [sam00/CVE-2026-111943-Emudhra-Ca-Compromise-POC](https://github.com/sam00/CVE-2026-111943-Emudhra-Ca-Compromise-POC)
+
+### CVE-2026-111967 (2026-10-28)
+
+<code>The MP3 Audio Player  WordPress plugin before 5.16 does not escape one of its audio player shortcode attributes before outputting it into an HTML attribute, allowing users with Contributor-level access and above to inject arbitrary JavaScript that executes when another user, such as an administrator previewing a pending post, views the content.
+</code>
+
+- [HexxedBitHeadz/cve-2026-111967](https://github.com/HexxedBitHeadz/cve-2026-111967)
 
 ### CVE-2026-112071 (2026-10-20)
 
@@ -22918,6 +22929,7 @@
 - [MikeCase/check-sshole](https://github.com/MikeCase/check-sshole)
 - [liamromanis101/MaSSHole](https://github.com/liamromanis101/MaSSHole)
 - [Galaxy-sc/CVE-2026-123158](https://github.com/Galaxy-sc/CVE-2026-123158)
+- [GarphenGate/cve-2026-123158-defender-toolkit](https://github.com/GarphenGate/cve-2026-123158-defender-toolkit)
 
 ### CVE-2026-123488 (2026-11-06)
 
@@ -29164,7 +29176,6 @@
 - [c0gnit00/CVE-2025-32432](https://github.com/c0gnit00/CVE-2025-32432)
 - [theeomega/CVE-2025-32432-POC](https://github.com/theeomega/CVE-2025-32432-POC)
 - [HeltonPojo/CVE-2025-32432](https://github.com/HeltonPojo/CVE-2025-32432)
-- [PsyGuy007-sys/craftcms-cve-2025-32432-rce](https://github.com/PsyGuy007-sys/craftcms-cve-2025-32432-rce)
 - [EzraMansor/CVE-2025-32432-PoC](https://github.com/EzraMansor/CVE-2025-32432-PoC)
 - [Si13NTTT/CVE-2025-32432](https://github.com/Si13NTTT/CVE-2025-32432)
 - [P34NUT2/CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT)
@@ -40872,6 +40883,7 @@
 - [Rohitberiwala/CVE-2024-23222-Coruna-Exploit-Kit-Deobfuscated](https://github.com/Rohitberiwala/CVE-2024-23222-Coruna-Exploit-Kit-Deobfuscated)
 - [FuzzySecurity/Cassowary-CVE-2024-23222-x86_64](https://github.com/FuzzySecurity/Cassowary-CVE-2024-23222-x86_64)
 - [jamezx32/CVE-2024-23222](https://github.com/jamezx32/CVE-2024-23222)
+- [xxsioo/coruna-lab](https://github.com/xxsioo/coruna-lab)
 
 ### CVE-2024-23296 (2024-03-05)
 
@@ -41831,7 +41843,6 @@
 - [RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit)
 - [apkc/CVE-2024-26229-BOF](https://github.com/apkc/CVE-2024-26229-BOF)
 - [team-MineDEV/CVE-2024-26229](https://github.com/team-MineDEV/CVE-2024-26229)
-- [Cracked5pider/eop24-26229](https://github.com/Cracked5pider/eop24-26229)
 - [mqxmm/CVE-2024-26229](https://github.com/mqxmm/CVE-2024-26229)
 - [shinspace92/cve-2024-26229](https://github.com/shinspace92/cve-2024-26229)
 - [vettrivel007/CVE-2024-26229](https://github.com/vettrivel007/CVE-2024-26229)
@@ -53323,13 +53334,6 @@
 - [k9yk5zkn76-op/-CVE-2023-34362-Analysis](https://github.com/k9yk5zkn76-op/-CVE-2023-34362-Analysis)
 - [Conviee/Assignment-](https://github.com/Conviee/Assignment-)
 
-### CVE-2023-34446 (2023-10-25)
-
-<code>iTop is an open source, web-based IT service management platform. Prior to versions 3.0.4 and 3.1.0, when displaying `pages/preferences.php`, cross site scripting is possible. This issue is fixed in versions 3.0.4 and 3.1.0.\n
-</code>
-
-- [minsmiths/cve-2023-34446](https://github.com/minsmiths/cve-2023-34446)
-
 ### CVE-2023-34468 (2023-06-12)
 
 <code>The DBCPConnectionPool and HikariCPConnectionPool Controller Services in Apache NiFi 0.0.2 through 1.21.0 allow an authenticated and authorized user to configure a Database URL with the H2 driver that enables custom code execution.\n\nThe resolution validates the Database URL and rejects H2 JDBC locations.\n\nYou are recommended to upgrade to version 1.22.0 or later which fixes this issue.
@@ -53917,6 +53921,7 @@
 - [winkler-winsen/Scan_GhostScript](https://github.com/winkler-winsen/Scan_GhostScript)
 - [jeanchpt/CVE-2023-36664](https://github.com/jeanchpt/CVE-2023-36664)
 - [churamanib/CVE-2023-36664-Ghostscript-command-injection](https://github.com/churamanib/CVE-2023-36664-Ghostscript-command-injection)
+- [minsmiths/cve-2023-36664](https://github.com/minsmiths/cve-2023-36664)
 
 ### CVE-2023-36723 (2023-10-10)
 
