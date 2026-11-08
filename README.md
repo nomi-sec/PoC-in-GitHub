@@ -4624,6 +4624,7 @@
 </code>
 
 - [EXEcution-py/CVE-2026-19868](https://github.com/EXEcution-py/CVE-2026-19868)
+- [foxcornlab/sonicwall-sonicos-scanner](https://github.com/foxcornlab/sonicwall-sonicos-scanner)
 
 ### CVE-2026-19874 (2026-08-24)
 
@@ -11735,6 +11736,8 @@
 - [RemiPelloux/GalaxyCrash](https://github.com/RemiPelloux/GalaxyCrash)
 - [mcxiaochenn/iqooNeo8-V2301A-DirtyFrag](https://github.com/mcxiaochenn/iqooNeo8-V2301A-DirtyFrag)
 - [noctide/redmi-k50-temp-root](https://github.com/noctide/redmi-k50-temp-root)
+- [h5hg6vy8nt-hue/meizu20pro-temp-root](https://github.com/h5hg6vy8nt-hue/meizu20pro-temp-root)
+- [Jean7z/DFRoot-DirtyFrag](https://github.com/Jean7z/DFRoot-DirtyFrag)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -11937,13 +11940,13 @@
 - [Linkenpro/ghostlock-pd2118c-4.19.152](https://github.com/Linkenpro/ghostlock-pd2118c-4.19.152)
 - [heikeyangle-code/mi11-venus-temproot](https://github.com/heikeyangle-code/mi11-venus-temproot)
 - [thedavidweng/ghostlock-z3q](https://github.com/thedavidweng/ghostlock-z3q)
+- [realskyrin/fuxi-temp-root](https://github.com/realskyrin/fuxi-temp-root)
 - [giannoccarol/root-key1](https://github.com/giannoccarol/root-key1)
 - [Cyb3rCr0wCC/CVE-2026-43499_study](https://github.com/Cyb3rCr0wCC/CVE-2026-43499_study)
 - [nnka3/root-my-s24-on-oneui6.1](https://github.com/nnka3/root-my-s24-on-oneui6.1)
 - [chjwoo7/ghostlock-a55x](https://github.com/chjwoo7/ghostlock-a55x)
 - [kipcloud120/MiTV-MFTP0-GhostLock](https://github.com/kipcloud120/MiTV-MFTP0-GhostLock)
 - [a78c7/w25-cve-2026-43499-notes](https://github.com/a78c7/w25-cve-2026-43499-notes)
-- [AksiSpirit/ghostlock-cve-2026-43499-4.19-k40](https://github.com/AksiSpirit/ghostlock-cve-2026-43499-4.19-k40)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -22273,6 +22276,7 @@
 </code>
 
 - [Ping-2o/CVE-2026-112611-cg-shading](https://github.com/Ping-2o/CVE-2026-112611-cg-shading)
+- [Rust505/CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611)
 
 ### CVE-2026-112621 (2026-10-26)
 
@@ -22817,6 +22821,13 @@
 
 - [3jee/CVE-2026-120491](https://github.com/3jee/CVE-2026-120491)
 
+### CVE-2026-121265 (2026-11-07)
+
+<code>SQL::Abstract versions before 2.000003 for Perl allow SQL injection via an arrayref column value in insert and update.\n\nWith the array_datatypes option off, which is the default, insert(), update() and values() treat an arrayref column value as literal SQL. Its first element goes into the SQL text unescaped and the rest become bind values. A JSON array, or a repeated form field decoded as an arrayref, is such a value.\n\nAn application that passes request data as column values to insert or update with the default options allows SQL injection.\n\nReleases before 2.000003 also treat an arrayref in generate() as literal SQL, including through AUTOLOAD when allow_autoload is on, whatever array_datatypes is set to.
+</code>
+
+- [googlesky/CVE-2026-121265](https://github.com/googlesky/CVE-2026-121265)
+
 ### CVE-2026-121720
 - [refiaa/CVE-2026-121720](https://github.com/refiaa/CVE-2026-121720)
 
@@ -22890,6 +22901,7 @@
 - [Funcan/sshole](https://github.com/Funcan/sshole)
 - [MikeCase/check-sshole](https://github.com/MikeCase/check-sshole)
 - [liamromanis101/MaSSHole](https://github.com/liamromanis101/MaSSHole)
+- [Galaxy-sc/CVE-2026-123158](https://github.com/Galaxy-sc/CVE-2026-123158)
 
 ### CVE-2026-123488 (2026-11-06)
 
@@ -22897,6 +22909,9 @@
 </code>
 
 - [fixedbyreboot/CVE-2026-123488-POC](https://github.com/fixedbyreboot/CVE-2026-123488-POC)
+
+### CVE-2026-123753
+- [googlesky/CVE-2026-123753](https://github.com/googlesky/CVE-2026-123753)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -27513,13 +27528,6 @@
 
 - [hiteshpatra/CVE-2025-24963](https://github.com/hiteshpatra/CVE-2025-24963)
 
-### CVE-2025-24971 (2025-02-04)
-
-<code>DumpDrop is a stupid simple file upload application that provides an interface for dragging and dropping files. An OS Command Injection vulnerability was discovered in the DumbDrop application, `/upload/init` endpoint. This vulnerability could allow an attacker to execute arbitrary code remotely when the **Apprise Notification** enabled. This issue has been addressed in commit `4ff8469d` and all users are advised to patch. There are no known workarounds for this vulnerability.
-</code>
-
-- [be4zad/CVE-2025-24971](https://github.com/be4zad/CVE-2025-24971)
-
 ### CVE-2025-24985 (2025-03-11)
 
 <code>Integer overflow or wraparound in Windows Fast FAT Driver allows an unauthorized attacker to execute code locally.
@@ -28984,7 +28992,6 @@
 </code>
 
 - [Skorpion96/unisoc-su](https://github.com/Skorpion96/unisoc-su)
-- [Little-yellow-duck1206/360-kidwatch-11X-W370-Ghostroot](https://github.com/Little-yellow-duck1206/360-kidwatch-11X-W370-Ghostroot)
 
 ### CVE-2025-31722 (2025-04-02)
 
@@ -49737,6 +49744,7 @@
 
 - [K0n9-log/CVE-2023-6931](https://github.com/K0n9-log/CVE-2023-6931)
 - [Yutori-Natsu/cve-2023-6931-pipa](https://github.com/Yutori-Natsu/cve-2023-6931-pipa)
+- [koast18/cve-2023-6931-hitv205n](https://github.com/koast18/cve-2023-6931-hitv205n)
 
 ### CVE-2023-6933 (2024-02-05)
 
@@ -55132,6 +55140,13 @@
 
 - [LazyBear8372/CVE-2023-41898_Lab](https://github.com/LazyBear8372/CVE-2023-41898_Lab)
 
+### CVE-2023-41974 (2024-01-10)
+
+<code>A use-after-free issue was addressed with improved memory management. This issue is fixed in iOS 17 and iPadOS 17, iOS 15.8.7 and iPadOS 15.8.7. An app may be able to execute arbitrary code with kernel privileges.
+</code>
+
+- [kienhho/Solarium](https://github.com/kienhho/Solarium)
+
 ### CVE-2023-41991 (2023-09-21)
 
 <code>A certificate validation issue was addressed. This issue is fixed in macOS Ventura 13.6, iOS 16.7 and iPadOS 16.7. A malicious app may be able to bypass signature validation. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.
@@ -57849,7 +57864,7 @@
 - [ITMarcin2211/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/ITMarcin2211/CVE-2022-0847-DirtyPipe-Exploit)
 - [mrchucu1/CVE-2022-0847-Docker](https://github.com/mrchucu1/CVE-2022-0847-Docker)
 - [basharkey/CVE-2022-0847-dirty-pipe-checker](https://github.com/basharkey/CVE-2022-0847-dirty-pipe-checker)
-- [4luc4rdr5290/CVE-2022-0847](https://github.com/4luc4rdr5290/CVE-2022-0847)
+- [elbunkerhacker/CVE-2022-0847](https://github.com/elbunkerhacker/CVE-2022-0847)
 - [dadhee/CVE-2022-0847_DirtyPipeExploit](https://github.com/dadhee/CVE-2022-0847_DirtyPipeExploit)
 - [Greetdawn/CVE-2022-0847-DirtyPipe](https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe)
 - [Al1ex/CVE-2022-0847](https://github.com/Al1ex/CVE-2022-0847)
@@ -69326,13 +69341,6 @@
 </code>
 
 - [benschlueter/CVE-2021-33624](https://github.com/benschlueter/CVE-2021-33624)
-
-### CVE-2021-33644 (2022-08-09)
-
-<code>An attacker who submits a crafted tar file with size in header struct being 0 may be able to trigger an calling of malloc(0) for a variable gnu_longname, causing an out-of-bounds read.
-</code>
-
-- [nilondal/libtar-CVE-2021-33644-followup](https://github.com/nilondal/libtar-CVE-2021-33644-followup)
 
 ### CVE-2021-33690 (2021-09-15)
 
