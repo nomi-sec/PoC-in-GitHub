@@ -14755,6 +14755,9 @@
 - [Boreas37/CVE-2026-56705](https://github.com/Boreas37/CVE-2026-56705)
 - [ChiefYoru/Exploit-CVE-2026-56705](https://github.com/ChiefYoru/Exploit-CVE-2026-56705)
 
+### CVE-2026-56712
+- [SaiTeja-Erukude/CVE-2026-56712-cog-ssrf](https://github.com/SaiTeja-Erukude/CVE-2026-56712-cog-ssrf)
+
 ### CVE-2026-56718 (2026-08-30)
 
 <code>AJCloud AJY IPC firmware prior to version 01.10715.11.37 contains a path traversal vulnerability in the jdbhttpd web service that allows unauthenticated remote attackers to read arbitrary files with root privileges by supplying path traversal sequences in the HTTP request URI. Attackers can send crafted HTTP requests to port 80 without authentication to access sensitive files including cleartext RTSP credentials, Wi-Fi SSID and pre-shared key, device serial number, and cloud binding parameters.
@@ -19686,6 +19689,7 @@
 - [pauleprichna/cybersecurity](https://github.com/pauleprichna/cybersecurity)
 - [AmanSin001/next-security-check](https://github.com/AmanSin001/next-security-check)
 - [CompleteTech-Security/sharp-vectorfreed-check](https://github.com/CompleteTech-Security/sharp-vectorfreed-check)
+- [anishadhikari02/cve-2026-96889-payload](https://github.com/anishadhikari02/cve-2026-96889-payload)
 
 ### CVE-2026-96940 (2026-10-02)
 
@@ -19853,7 +19857,6 @@
 - [quyicheng03-boop/CVE-2026-98260-popsicle-android](https://github.com/quyicheng03-boop/CVE-2026-98260-popsicle-android)
 - [quyicheng03-boop/CVE-2026-98260-nezha-android](https://github.com/quyicheng03-boop/CVE-2026-98260-nezha-android)
 - [sganggs/CVE-2026-98260-BRM-AN00](https://github.com/sganggs/CVE-2026-98260-BRM-AN00)
-- [zsw125/o3root](https://github.com/zsw125/o3root)
 - [janewas/cve-2026-98260-vivo-gki-research](https://github.com/janewas/cve-2026-98260-vivo-gki-research)
 - [kzktor/ic-timer-lpe](https://github.com/kzktor/ic-timer-lpe)
 - [addxemmm/CVE-2026-98260-pudding-android](https://github.com/addxemmm/CVE-2026-98260-pudding-android)
@@ -19897,6 +19900,7 @@
 - [knowlily/m6-shell](https://github.com/knowlily/m6-shell)
 - [knowlily/cve-2026-98260-bvl-an16](https://github.com/knowlily/cve-2026-98260-bvl-an16)
 - [MocLG/Time-My-Galaxy](https://github.com/MocLG/Time-My-Galaxy)
+- [cuteaplane/opd2051example](https://github.com/cuteaplane/opd2051example)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -19976,7 +19980,7 @@
 - [hdp1972be-svg/cve_2026_98432_guard](https://github.com/hdp1972be-svg/cve_2026_98432_guard)
 - [zenjabba/cve-2026-98432-mitigation](https://github.com/zenjabba/cve-2026-98432-mitigation)
 - [t0ge-kun/CVE-2026-98432-check](https://github.com/t0ge-kun/CVE-2026-98432-check)
-- [downitch/CVE-2026-98432_poc](https://github.com/downitch/CVE-2026-98432_poc)
+- [nnssh/CVE-2026-98432_poc](https://github.com/nnssh/CVE-2026-98432_poc)
 - [cybervenom01/Mitigation_CVE-2026-98432](https://github.com/cybervenom01/Mitigation_CVE-2026-98432)
 - [Certbn/CVE-2026-98432-Linux-IPv4-TCP-IP-Use-After-Free](https://github.com/Certbn/CVE-2026-98432-Linux-IPv4-TCP-IP-Use-After-Free)
 - [datacenter-metrotel/Mitigating-CVE-2026-98432](https://github.com/datacenter-metrotel/Mitigating-CVE-2026-98432)
@@ -19989,6 +19993,7 @@
 - [s97472091-pixel/verification-gap-cve-2026-98432](https://github.com/s97472091-pixel/verification-gap-cve-2026-98432)
 - [zhao-xiaogang/cve_2026_98432_livepatch](https://github.com/zhao-xiaogang/cve_2026_98432_livepatch)
 - [makslanies/cve-2026-98432-mitigation](https://github.com/makslanies/cve-2026-98432-mitigation)
+- [jackykeung/CVE-2026-98432-Verified-Attack](https://github.com/jackykeung/CVE-2026-98432-Verified-Attack)
 
 ### CVE-2026-98499 (2026-10-18)
 
@@ -21682,7 +21687,6 @@
 - [ZeroHunt-org/self-check](https://github.com/ZeroHunt-org/self-check)
 - [lesterlam/php2shell-lab](https://github.com/lesterlam/php2shell-lab)
 - [flawme/php2shell-scanner](https://github.com/flawme/php2shell-scanner)
-- [sonuoffsec/php2shell-detector](https://github.com/sonuoffsec/php2shell-detector)
 - [Ethen1212/php2shell-CVE-2026-109618](https://github.com/Ethen1212/php2shell-CVE-2026-109618)
 - [Suleman-Elahi/php2shell-sentinel](https://github.com/Suleman-Elahi/php2shell-sentinel)
 - [tumibroikakou/php_sec_patch](https://github.com/tumibroikakou/php_sec_patch)
@@ -22212,11 +22216,11 @@
 - [Sable-Research/brotli-decoder-overflow](https://github.com/Sable-Research/brotli-decoder-overflow)
 - [ChriSec7/CVE-2026-111497-POC](https://github.com/ChriSec7/CVE-2026-111497-POC)
 - [fortbridge/cve-2026-111497-wordpress-pingback-brotli](https://github.com/fortbridge/cve-2026-111497-wordpress-pingback-brotli)
-- [EQSTLab/CVE-2026-111497](https://github.com/EQSTLab/CVE-2026-111497)
 - [Certbn/Brotli-Node.js-CVE-2026-111497-Broccoli2Shell-Node2Shell-HTTP2Shell-](https://github.com/Certbn/Brotli-Node.js-CVE-2026-111497-Broccoli2Shell-Node2Shell-HTTP2Shell-)
 - [MelissaSkywalkz/broccoli2shell-gis](https://github.com/MelissaSkywalkz/broccoli2shell-gis)
 - [sam00/Node2Shell-CVE-2026-111497-POC](https://github.com/sam00/Node2Shell-CVE-2026-111497-POC)
 - [aymenkmar/node2shell-check](https://github.com/aymenkmar/node2shell-check)
+- [EQSTLab/CVE-2026-111497](https://github.com/EQSTLab/CVE-2026-111497)
 
 ### CVE-2026-111585 (2026-10-27)
 
@@ -22681,6 +22685,13 @@
 ### CVE-2026-116521
 - [4m3rr0r/CVE-2026-116521-poc](https://github.com/4m3rr0r/CVE-2026-116521-poc)
 
+### CVE-2026-116567 (2026-11-05)
+
+<code>FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a software implementation that runs on any commodity hardware. Prior to 1.11.2, rtmp_handle_control() rendered an RTMP user-control message into a 200-byte stack buffer using an unbounded sprintf loop controlled by the wire message length. A body of roughly 70 bytes or more overflowed the stack before any RTMP login, because the handshake authenticates neither side. The flaw affects deployments that build and load mod_rtmp, which is disabled in the stock build and configuration but commonly exposes a listener on TCP port 1935 when enabled. One unauthenticated message can crash FreeSWITCH and end every active call; the constrained ASCII hex output has not yielded control-flow hijacking. This issue is fixed in version 1.11.2.
+</code>
+
+- [carterlasalle/CVE-2026-116567](https://github.com/carterlasalle/CVE-2026-116567)
+
 ### CVE-2026-116606 (2026-11-02)
 
 <code>An authentication bypass in Barracuda Email Security Gateway versions earlier than 9.4.0.030 allows an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration.
@@ -22959,6 +22970,7 @@
 
 - [fixedbyreboot/CVE-2026-123488-POC](https://github.com/fixedbyreboot/CVE-2026-123488-POC)
 - [dinosn/CVE-2026-123488-CraftCMS-Lab](https://github.com/dinosn/CVE-2026-123488-CraftCMS-Lab)
+- [foxcornlab/craft-cms-scanner](https://github.com/foxcornlab/craft-cms-scanner)
 
 ### CVE-2026-123753
 - [googlesky/CVE-2026-123753](https://github.com/googlesky/CVE-2026-123753)
@@ -30953,6 +30965,13 @@
 
 - [demining/Pixnapping-Attack-on-Android](https://github.com/demining/Pixnapping-Attack-on-Android)
 - [Ife-cyb/CYB-401-Pixnapping-CVE-2025-48561](https://github.com/Ife-cyb/CYB-401-Pixnapping-CVE-2025-48561)
+
+### CVE-2025-48583 (2025-12-08)
+
+<code>In multiple functions of BaseBundle.java, there is a possible way to execute arbitrary code due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [helloguy1234/CVE-2025-48583-PoC](https://github.com/helloguy1234/CVE-2025-48583-PoC)
 
 ### CVE-2025-48593 (2025-11-18)
 
