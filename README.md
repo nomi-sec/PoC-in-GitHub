@@ -14959,6 +14959,7 @@
 </code>
 
 - [SaiTeja-Erukude/CVE-2026-57845-hf-datasets-rce](https://github.com/SaiTeja-Erukude/CVE-2026-57845-hf-datasets-rce)
+- [Sun-Wukhan/pickle-sentry](https://github.com/Sun-Wukhan/pickle-sentry)
 
 ### CVE-2026-57850 (2026-07-10)
 
@@ -15731,6 +15732,7 @@
 </code>
 
 - [timothyckl/CVE-2026-63686](https://github.com/timothyckl/CVE-2026-63686)
+- [duruton/CVE-2026-63686-Dalton-Tim-](https://github.com/duruton/CVE-2026-63686-Dalton-Tim-)
 
 ### CVE-2026-63720 (2026-07-26)
 
@@ -18158,6 +18160,13 @@
 
 - [OhWelp/CVE-2026-83603-LPE-PoC](https://github.com/OhWelp/CVE-2026-83603-LPE-PoC)
 
+### CVE-2026-83681 (2026-10-13)
+
+<code>Weak authentication in Microsoft PowerToys allows an authorized attacker to perform tampering locally.
+</code>
+
+- [2alf/CarbonBlue](https://github.com/2alf/CarbonBlue)
+
 ### CVE-2026-83834 (2026-10-13)
 
 <code>Use after free in Windows Kernel-Mode Drivers allows an authorized attacker to elevate privileges locally.
@@ -18176,6 +18185,7 @@
 - [Cobrastrike62/CVE-2026-83844-Detection](https://github.com/Cobrastrike62/CVE-2026-83844-Detection)
 - [LACHHAB-Anas/CVE-2026-83844](https://github.com/LACHHAB-Anas/CVE-2026-83844)
 - [blkph0x/CVE-2026-83844_POC](https://github.com/blkph0x/CVE-2026-83844_POC)
+- [HackingLZ/CVE-2026-83844-public](https://github.com/HackingLZ/CVE-2026-83844-public)
 
 ### CVE-2026-83991 (2026-09-08)
 
@@ -19402,7 +19412,7 @@
 </code>
 
 - [murrez/CVE-2026-93399](https://github.com/murrez/CVE-2026-93399)
-- [josemour8/CVE-2026-93399](https://github.com/josemour8/CVE-2026-93399)
+- [josemour88/CVE-2026-93399](https://github.com/josemour88/CVE-2026-93399)
 
 ### CVE-2026-93453 (2026-09-17)
 
@@ -20120,6 +20130,7 @@
 - [t0ge-kun/CVE-2026-98432-check](https://github.com/t0ge-kun/CVE-2026-98432-check)
 - [nnssh/CVE-2026-98432_poc](https://github.com/nnssh/CVE-2026-98432_poc)
 - [cybervenom01/Mitigation_CVE-2026-98432](https://github.com/cybervenom01/Mitigation_CVE-2026-98432)
+- [sam00/CVE-2026-98432-POC-Exploit](https://github.com/sam00/CVE-2026-98432-POC-Exploit)
 - [Certbn/CVE-2026-98432-Linux-IPv4-TCP-IP-Use-After-Free](https://github.com/Certbn/CVE-2026-98432-Linux-IPv4-TCP-IP-Use-After-Free)
 - [datacenter-metrotel/Mitigating-CVE-2026-98432](https://github.com/datacenter-metrotel/Mitigating-CVE-2026-98432)
 - [INFOKOM-KI/CVE-2026-98432-Wazuh-](https://github.com/INFOKOM-KI/CVE-2026-98432-Wazuh-)
@@ -23243,6 +23254,13 @@
 </code>
 
 - [googlesky/CVE-2026-124552](https://github.com/googlesky/CVE-2026-124552)
+
+### CVE-2026-124576 (2026-11-09)
+
+<code>A security flaw has been discovered in BeikeShop up to 2.0.0.31. Impacted is the function OrderRepo::getOrderByNumber of the file beike/Repositories/OrderRepo.php of the component Guest Order Lookup. Performing a manipulation of the argument order_number results in enforcement of behavioral workflow. The attack can be initiated remotely. Upgrading to version 2.0.0.32 is recommended to address this issue. The patch is named 6cf25f8c15d27d1ff14a848faf645c94d20ba5f1. It is recommended to upgrade the affected component.
+</code>
+
+- [capivara-research/CVE-2026-124576](https://github.com/capivara-research/CVE-2026-124576)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -27780,7 +27798,6 @@
 - [Shivshantp/CVE-2025-24813](https://github.com/Shivshantp/CVE-2025-24813)
 - [cyglegit/CVE-2025-24813](https://github.com/cyglegit/CVE-2025-24813)
 - [drcrypterdotru/Apache-GOExploiter](https://github.com/drcrypterdotru/Apache-GOExploiter)
-- [CEAlbez/CVE-2025-24813-PoC](https://github.com/CEAlbez/CVE-2025-24813-PoC)
 - [Makavellik/POC-CVE-2025-24813-Apache-Tomcat-Remote-Code-Execution](https://github.com/Makavellik/POC-CVE-2025-24813-Apache-Tomcat-Remote-Code-Execution)
 - [pirenga/CVE-2025-24813](https://github.com/pirenga/CVE-2025-24813)
 - [Arthurabriel/POC-CVE-2025-24813](https://github.com/Arthurabriel/POC-CVE-2025-24813)
@@ -32795,7 +32812,6 @@
 - [mayank729/CVE-2025-55182-scanner](https://github.com/mayank729/CVE-2025-55182-scanner)
 - [pitufo1721/CVE-2025-55182-GodzillaMemoryShell](https://github.com/pitufo1721/CVE-2025-55182-GodzillaMemoryShell)
 - [alyaapm/CVE-2025-55182-shellinteractive](https://github.com/alyaapm/CVE-2025-55182-shellinteractive)
-- [Mayca369/CVE-2025-55182](https://github.com/Mayca369/CVE-2025-55182)
 - [BankkRoll/Quickcheck-CVE-2025-55182-React-and-CVE-2025-66478-Next.js](https://github.com/BankkRoll/Quickcheck-CVE-2025-55182-React-and-CVE-2025-66478-Next.js)
 - [ejpir/CVE-2025-55182-research](https://github.com/ejpir/CVE-2025-55182-research)
 - [sickwell/CVE-2025-55182](https://github.com/sickwell/CVE-2025-55182)
@@ -34762,7 +34778,7 @@
 <code>Improper Control of Generation of Code ('Code Injection') vulnerability in Cristián Lávaque s2Member s2member.This issue affects s2Member: from n/a through 250905.
 </code>
 
-- [josemour8/CVE-2025-62023](https://github.com/josemour8/CVE-2025-62023)
+- [josemour88/CVE-2025-62023](https://github.com/josemour88/CVE-2025-62023)
 
 ### CVE-2025-62168 (2025-10-17)
 
@@ -44111,13 +44127,6 @@
 
 - [Abdurahmon3236/CVE-2024-36539](https://github.com/Abdurahmon3236/CVE-2024-36539)
 
-### CVE-2024-36587 (2024-06-13)
-
-<code>Insecure permissions in DNSCrypt-proxy v2.0.0alpha9 to v2.1.5 allows non-privileged attackers to escalate privileges to root via overwriting the binary dnscrypt-proxy.
-</code>
-
-- [meeeeing/CVE-2024-36587](https://github.com/meeeeing/CVE-2024-36587)
-
 ### CVE-2024-36774 (2024-06-06)
 
 <code>An arbitrary file upload vulnerability in Monstra CMS v3.0.4 allows attackers to execute arbitrary code via uploading a crafted PHP file.
@@ -47125,7 +47134,7 @@
 - [BridgerAlderson/CVE-2024-51482](https://github.com/BridgerAlderson/CVE-2024-51482)
 - [Ravi-lk/CVE-2024-51482-ZoneMinder-SQL-Injection-POC](https://github.com/Ravi-lk/CVE-2024-51482-ZoneMinder-SQL-Injection-POC)
 - [lnn0v4/sqli-hunter-CVE-2024-51482-PoC](https://github.com/lnn0v4/sqli-hunter-CVE-2024-51482-PoC)
-- [Erhui-Li/CVE-2024-51482-ZoneMinder-CCTV-HTB-Reliable-EXP](https://github.com/Erhui-Li/CVE-2024-51482-ZoneMinder-CCTV-HTB-Reliable-EXP)
+- [ehl0707/CVE-2024-51482-ZoneMinder-CCTV-HTB-Reliable-EXP](https://github.com/ehl0707/CVE-2024-51482-ZoneMinder-CCTV-HTB-Reliable-EXP)
 - [0xDaeras/CVE-2024-51482-POC](https://github.com/0xDaeras/CVE-2024-51482-POC)
 - [c0gnit00/CVE-2024-51482](https://github.com/c0gnit00/CVE-2024-51482)
 - [diamorphine666/CVE-2024-51482](https://github.com/diamorphine666/CVE-2024-51482)
@@ -72697,6 +72706,7 @@
 - [mcpmark-eval-liuhezi/security-digest-modern-classics](https://github.com/mcpmark-eval-liuhezi/security-digest-modern-classics)
 - [mcpmark-eval-liuhezi/log4j-xz-lessons](https://github.com/mcpmark-eval-liuhezi/log4j-xz-lessons)
 - [Certbn/CVE-2021-44228-Apache-Log4j2-JNDI-Lookup](https://github.com/Certbn/CVE-2021-44228-Apache-Log4j2-JNDI-Lookup)
+- [awesoma31/is-lab2](https://github.com/awesoma31/is-lab2)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -94012,6 +94022,13 @@
 
 - [RobertoLeonFR-ES/Exploit-Win32.CVE-2012-0158.F.doc](https://github.com/RobertoLeonFR-ES/Exploit-Win32.CVE-2012-0158.F.doc)
 - [Sunqiz/CVE-2012-0158-reproduction](https://github.com/Sunqiz/CVE-2012-0158-reproduction)
+
+### CVE-2012-0694 (2019-10-29)
+
+<code>SugarCRM CE &lt;= 6.3.1 contains scripts that use &quot;unserialize()&quot; with user controlled input which allows remote attackers to execute arbitrary PHP code.
+</code>
+
+- [marinovharisan/CVE-2012-0694-SugarCRM-PoC](https://github.com/marinovharisan/CVE-2012-0694-SugarCRM-PoC)
 
 ### CVE-2012-0754 (2012-02-16)
 
