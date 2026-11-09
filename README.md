@@ -2153,6 +2153,13 @@
 
 - [EQSTLab/CVE-2026-6951](https://github.com/EQSTLab/CVE-2026-6951)
 
+### CVE-2026-6952 (2026-07-21)
+
+<code>A post-authentication command injection vulnerability in the &quot;LogServer&quot; field of the syslog component in Zyxel AX7501-B1 firmware versions through 5.17(ABPC.7.2)C0 could allow an authenticated attacker with administrator privileges to execute OS commands on an affected device.
+</code>
+
+- [stevejiang0509/zyxel-cve-2026-6952-model-scope](https://github.com/stevejiang0509/zyxel-cve-2026-6952-model-scope)
+
 ### CVE-2026-6960 (2026-05-21)
 
 <code>The BookingPress Pro plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'bookingpress_validate_submitted_booking_form_func' function in all versions up to, and including, 5.6. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible. Note: The vulnerability can only be exploited if a signature custom field is added to the booking form.
@@ -4528,6 +4535,7 @@
 </code>
 
 - [abraxas/cve-2026-19553-wrap-bio](https://github.com/abraxas/cve-2026-19553-wrap-bio)
+- [Tharsh2003/INF2005-ACW3-PythonSSL](https://github.com/Tharsh2003/INF2005-ACW3-PythonSSL)
 - [monkeyyey/acw3-tls-lab](https://github.com/monkeyyey/acw3-tls-lab)
 
 ### CVE-2026-19586 (2026-08-20)
@@ -19841,6 +19849,7 @@
 
 - [jadedFella/lpe-study-notes](https://github.com/jadedFella/lpe-study-notes)
 - [ylh440104/InfinityCore-Android-CVE-2026-98260](https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98260)
+- [Yunnijian/Shark](https://github.com/Yunnijian/Shark)
 - [quyicheng03-boop/CVE-2026-98260-popsicle-android](https://github.com/quyicheng03-boop/CVE-2026-98260-popsicle-android)
 - [quyicheng03-boop/CVE-2026-98260-nezha-android](https://github.com/quyicheng03-boop/CVE-2026-98260-nezha-android)
 - [sganggs/CVE-2026-98260-BRM-AN00](https://github.com/sganggs/CVE-2026-98260-BRM-AN00)
@@ -19887,6 +19896,7 @@
 - [countryside99/GhostKey](https://github.com/countryside99/GhostKey)
 - [knowlily/m6-shell](https://github.com/knowlily/m6-shell)
 - [knowlily/cve-2026-98260-bvl-an16](https://github.com/knowlily/cve-2026-98260-bvl-an16)
+- [MocLG/Time-My-Galaxy](https://github.com/MocLG/Time-My-Galaxy)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -21252,6 +21262,7 @@
 - [AvaterXXX/CVE-2026-109618-CVE-2026-109619-](https://github.com/AvaterXXX/CVE-2026-109618-CVE-2026-109619-)
 - [syrex1013/php2shell](https://github.com/syrex1013/php2shell)
 - [hirokidaichi/php56-cve-2026-backport-experiment](https://github.com/hirokidaichi/php56-cve-2026-backport-experiment)
+- [Ghxstsec/PHP2SHELL-POC](https://github.com/Ghxstsec/PHP2SHELL-POC)
 - [gumerzzzindo/php2shell-CVE-2026-109618-109619](https://github.com/gumerzzzindo/php2shell-CVE-2026-109618-109619)
 - [Huboxt/php-base-images](https://github.com/Huboxt/php-base-images)
 - [izdir/php-security-patcher](https://github.com/izdir/php-security-patcher)
@@ -22374,6 +22385,13 @@
 - [moprius/CVE-2026-112900-Pillow-PoC](https://github.com/moprius/CVE-2026-112900-Pillow-PoC)
 - [kavin-jindal/CVE-2026-112900-PoC](https://github.com/kavin-jindal/CVE-2026-112900-PoC)
 
+### CVE-2026-113386 (2026-10-20)
+
+<code>Roundcube Webmail before 1.6.20 and 1.7.x before 1.7.5 are affected by IMAP command injection. A remote authenticated attacker can exploit this via CRLF sequences injected into the _uid parameter of the mail/headers and mail/viewsource actions to execute arbitrary IMAP commands.
+</code>
+
+- [Neo-XeD/CVE-2026-113386](https://github.com/Neo-XeD/CVE-2026-113386)
+
 ### CVE-2026-113468 (2026-10-20)
 
 <code>The payment notification endpoint for PayPal accepts incoming data without verifying that it comes from the payment provider. Any site visitor can overwrite the stored payment notification of an order that is still awaiting payment with arbitrary content. This requires a page that contains the shop's order plugin. Orders that are already paid are not affected.
@@ -22687,6 +22705,9 @@
 
 ### CVE-2026-117065
 - [CodeStartUp/CVE-2026-117065](https://github.com/CodeStartUp/CVE-2026-117065)
+
+### CVE-2026-117083
+- [gabrielunknown/intelbras_1200_bypass](https://github.com/gabrielunknown/intelbras_1200_bypass)
 
 ### CVE-2026-117182 (2026-10-30)
 
@@ -33991,6 +34012,13 @@
 </code>
 
 - [At0mXploit/CVE-2025-59843-CVE-2025-59932](https://github.com/At0mXploit/CVE-2025-59843-CVE-2025-59932)
+
+### CVE-2025-59845 (2025-09-26)
+
+<code>Apollo Studio Embeddable Explorer &amp; Embeddable Sandbox are website embeddable software solutions from Apollo GraphQL. Prior to Apollo Sandbox version 2.7.2 and Apollo Explorer version 3.7.3, a cross-site request forgery (CSRF) vulnerability was identified. The vulnerability arises from missing origin validation in the client-side code that handles window.postMessage events. A malicious website can send forged messages to the embedding page, causing the victim’s browser to execute arbitrary GraphQL queries or mutations against their GraphQL server while authenticated with the victim’s cookies. This issue has been patched in Apollo Sandbox version 2.7.2 and Apollo Explorer version 3.7.3.
+</code>
+
+- [C3viche/cve-2025-59845](https://github.com/C3viche/cve-2025-59845)
 
 ### CVE-2025-59886 (2025-12-23)
 
@@ -81082,7 +81110,6 @@
 <code>An issue was discovered in CutePHP CuteNews 2.1.2. An attacker can infiltrate the server through the avatar upload process in the profile area via the avatar_file field to index.php?mod=main&amp;opt=personal. There is no effective control of $imgsize in /core/modules/dashboard.php. The header content of a file can be changed and the control can be bypassed for code execution. (An attacker can use the GIF header for this.)
 </code>
 
-- [mt-code/CVE-2019-11447](https://github.com/mt-code/CVE-2019-11447)
 - [khuntor/CVE-2019-11447-EXP](https://github.com/khuntor/CVE-2019-11447-EXP)
 - [ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE](https://github.com/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE)
 - [thewhiteh4t/cve-2019-11447](https://github.com/thewhiteh4t/cve-2019-11447)
