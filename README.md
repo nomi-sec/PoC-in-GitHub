@@ -478,6 +478,14 @@
 
 - [SnailSploit/CVE-2026-1208](https://github.com/SnailSploit/CVE-2026-1208)
 
+### CVE-2026-1210 (2026-02-03)
+
+<code>The Happy Addons for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the '_elementor_data' meta field in all versions up to, and including, 3.20.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+</code>
+
+- [elmobp/cmd2pshell-cve-2026-1210](https://github.com/elmobp/cmd2pshell-cve-2026-1210)
+- [elmobp/finder2fullsend-cve-1970-01](https://github.com/elmobp/finder2fullsend-cve-1970-01)
+
 ### CVE-2026-1232 (2026-02-02)
 
 <code>A medium-severity vulnerability has been identified in BeyondTrust Privilege Management for Windows versions &lt;=25.7. Under certain conditions, a local authenticated user with elevated privileges may be able to bypass the product’s anti-tamper protections, which could allow access to protected application components and the ability to modify product configuration.
@@ -15193,6 +15201,7 @@
 
 - [Ignema/WapGuard](https://github.com/Ignema/WapGuard)
 - [uzairdeveloper223/Defib](https://github.com/uzairdeveloper223/Defib)
+- [januththedev/SMS-Of-Death-CVE-2026-58882-Fix](https://github.com/januththedev/SMS-Of-Death-CVE-2026-58882-Fix)
 
 ### CVE-2026-59230 (2026-08-24)
 
@@ -16035,6 +16044,7 @@
 - [HORKimhab/CVE-2026-65400](https://github.com/HORKimhab/CVE-2026-65400)
 - [panchocosil/CVE-2026-65400-poc](https://github.com/panchocosil/CVE-2026-65400-poc)
 - [acheong08/CVE-2026-65400](https://github.com/acheong08/CVE-2026-65400)
+- [mrraylau321/cve-2026-65400-mac-check](https://github.com/mrraylau321/cve-2026-65400-mac-check)
 
 ### CVE-2026-65540 (2026-07-23)
 
@@ -19757,6 +19767,7 @@
 - [basesixtythree/B63-POC-CVE-2026-96652](https://github.com/basesixtythree/B63-POC-CVE-2026-96652)
 - [TheGlitchFixer/plex2shell-check](https://github.com/TheGlitchFixer/plex2shell-check)
 - [akaihigurashi/plex2scan](https://github.com/akaihigurashi/plex2scan)
+- [SHIFox8/plex2shell-audit](https://github.com/SHIFox8/plex2shell-audit)
 
 ### CVE-2026-96656 (2026-09-23)
 
@@ -20154,6 +20165,7 @@
 - [makslanies/cve-2026-98432-mitigation](https://github.com/makslanies/cve-2026-98432-mitigation)
 - [jackykeung/CVE-2026-98432-Verified-Attack](https://github.com/jackykeung/CVE-2026-98432-Verified-Attack)
 - [rootagi/CVE-2026-98432](https://github.com/rootagi/CVE-2026-98432)
+- [ylh440104/cve-2026-98432-chain](https://github.com/ylh440104/cve-2026-98432-chain)
 
 ### CVE-2026-98499 (2026-10-18)
 
@@ -22003,6 +22015,7 @@
 - [ha1c9on/php2shell](https://github.com/ha1c9on/php2shell)
 - [nokitakaze/CVE-2026-109618-109619-checker](https://github.com/nokitakaze/CVE-2026-109618-109619-checker)
 - [fbuff-tools/php2shell-checker](https://github.com/fbuff-tools/php2shell-checker)
+- [TarzEH/php2shell-demo](https://github.com/TarzEH/php2shell-demo)
 - [kipmyk/PHP2Shell](https://github.com/kipmyk/PHP2Shell)
 - [jeffschafer/Bigfix-PHP-Vulnerability-Scanner-Content-CVE-2026-109618-CVE-2026-109619](https://github.com/jeffschafer/Bigfix-PHP-Vulnerability-Scanner-Content-CVE-2026-109618-CVE-2026-109619)
 - [Leviticus-Triage/php2shell-unchained](https://github.com/Leviticus-Triage/php2shell-unchained)
@@ -23234,6 +23247,14 @@
 - [D1se0/CVE-2026-123158](https://github.com/D1se0/CVE-2026-123158)
 - [aciddust/CVE-2026-123158-LAB](https://github.com/aciddust/CVE-2026-123158-LAB)
 - [Iperez95-ot/sshole-lab](https://github.com/Iperez95-ot/sshole-lab)
+- [Certbn/CVE-2026-123158-OpenSSH-sshd-SSHhole-sshole-](https://github.com/Certbn/CVE-2026-123158-OpenSSH-sshd-SSHhole-sshole-)
+
+### CVE-2026-123218 (2026-11-07)
+
+<code>IBM Aspera Faspex 5.0.0 through 5.0.19 could allow an authorized user to craft a specific message to bypass user authorization and gain full administrative privileges.
+</code>
+
+- [foxcornlab/faspex-scanner](https://github.com/foxcornlab/faspex-scanner)
 
 ### CVE-2026-123488 (2026-11-06)
 
@@ -45354,6 +45375,7 @@
 
 - [aramosf/cve-2024-42327](https://github.com/aramosf/cve-2024-42327)
 - [compr00t/CVE-2024-42327](https://github.com/compr00t/CVE-2024-42327)
+- [TheCyberGeek/CVE-2024-42327](https://github.com/TheCyberGeek/CVE-2024-42327)
 - [depers-rus/CVE-2024-42327](https://github.com/depers-rus/CVE-2024-42327)
 - [watchdog1337/CVE-2024-42327_Zabbix_SQLI](https://github.com/watchdog1337/CVE-2024-42327_Zabbix_SQLI)
 - [itform-fr/Zabbix---CVE-2024-42327](https://github.com/itform-fr/Zabbix---CVE-2024-42327)
@@ -76479,9 +76501,6 @@
 - [mbadanoiu/CVE-2020-12641](https://github.com/mbadanoiu/CVE-2020-12641)
 - [mbadanoiu/MAL-004](https://github.com/mbadanoiu/MAL-004)
 
-### CVE-2020-12688
-- [TheCyberGeek/Centreon-20.04](https://github.com/TheCyberGeek/Centreon-20.04)
-
 ### CVE-2020-12695 (2020-06-08)
 
 <code>The Open Connectivity Foundation UPnP specification before 2020-04-17 does not forbid the acceptance of a subscription request with a delivery URL on a different network segment than the fully qualified event-subscription URL, aka the CallStranger issue.
@@ -79806,6 +79825,7 @@
 - [kilokite/old-phone-temp-root](https://github.com/kilokite/old-phone-temp-root)
 - [xushihushuo-art/cve-2019-2215-skyworth](https://github.com/xushihushuo-art/cve-2019-2215-skyworth)
 - [RxinnotRstar/CVE-2019-2215-ForMIpad4](https://github.com/RxinnotRstar/CVE-2019-2215-ForMIpad4)
+- [WJNKAC/CVE-2019-2215-vivo-Y66i](https://github.com/WJNKAC/CVE-2019-2215-vivo-Y66i)
 
 ### CVE-2019-2525 (2019-01-16)
 
@@ -83257,7 +83277,7 @@
 - [hessandrew/CVE-2019-19231](https://github.com/hessandrew/CVE-2019-19231)
 
 ### CVE-2019-19268
-- [TheCyberGeek/CVE-2019-19268](https://github.com/TheCyberGeek/CVE-2019-19268)
+- [harry1080/CVE-2019-19268](https://github.com/harry1080/CVE-2019-19268)
 
 ### CVE-2019-19315 (2019-12-17)
 
@@ -83273,9 +83293,6 @@
 
 - [shadowgatt/CVE-2019-19356](https://github.com/shadowgatt/CVE-2019-19356)
 - [qq1515406085/CVE-2019-19356](https://github.com/qq1515406085/CVE-2019-19356)
-
-### CVE-2019-19369
-- [TheCyberGeek/CVE-2019-19369](https://github.com/TheCyberGeek/CVE-2019-19369)
 
 ### CVE-2019-19383 (2019-12-03)
 
