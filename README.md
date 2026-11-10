@@ -3400,6 +3400,7 @@
 </code>
 
 - [federiconbaez/cortex9-keycloak-jwt-grant-alg-confusion-model](https://github.com/federiconbaez/cortex9-keycloak-jwt-grant-alg-confusion-model)
+- [sickwell/CVE-2026-11800](https://github.com/sickwell/CVE-2026-11800)
 
 ### CVE-2026-11834 (2026-06-22)
 
@@ -11806,6 +11807,7 @@
 - [h5hg6vy8nt-hue/meizu20pro-temp-root](https://github.com/h5hg6vy8nt-hue/meizu20pro-temp-root)
 - [Jean7z/DFRoot-DirtyFrag](https://github.com/Jean7z/DFRoot-DirtyFrag)
 - [nemoiwkryang/pd2301-dirtyfrag-root](https://github.com/nemoiwkryang/pd2301-dirtyfrag-root)
+- [q181555/pd2232-dirtyfrag](https://github.com/q181555/pd2232-dirtyfrag)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -14179,7 +14181,6 @@
 - [Aoripus-LTD/Januscape-Hotfix](https://github.com/Aoripus-LTD/Januscape-Hotfix)
 - [chuzhongyun/CVE-2026-53359-Kernel-Fix](https://github.com/chuzhongyun/CVE-2026-53359-Kernel-Fix)
 - [suominen/januscape](https://github.com/suominen/januscape)
-- [xj2268-TA/KVM-Januscape](https://github.com/xj2268-TA/KVM-Januscape)
 - [ndouglas-cloudsmith/CVE-2026-53359](https://github.com/ndouglas-cloudsmith/CVE-2026-53359)
 
 ### CVE-2026-53360 (2026-07-04)
@@ -15101,7 +15102,7 @@
 
 ### CVE-2026-58115 (2026-08-11)
 
-<code>A vulnerability has been identified in SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2) (All versions &lt; V4.3.4-1 running Industrial OS with Node-RED installed), SIMATIC IoT2050 Basic (6ES7647-0BA00-0YA2) (All versions &lt; V4.3.4-1 running Industrial OS with Node-RED installed), SIMATIC IoT2050 M.2 (6ES7647-0BB00-1YA2) (All versions &lt; V4.3.4-1 running Industrial OS with Node-RED installed), SIMATIC IoT2050 SM (6ES7647-0CA00-1AA2) (All versions &lt; V4.3.4-1 running Industrial OS with Node-RED installed). Affected devices do not enforce authentication on the Node-RED HTTP interface, allowing unauthenticated access to programming nodes that are capable of executing system commands on the server.\r\nThis could allow an unauthenticated remote attacker to create malicious flows through the HTTP interface in order to execute arbitrary code on the underlying server with maximum privileges.
+<code>A vulnerability has been identified in SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2) (All versions &lt; V4.3.4-1 running Industrial OS with Node-RED installed), SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2) (All versions running Example Image versions with Node-RED installed), SIMATIC IoT2050 Basic (6ES7647-0BA00-0YA2) (All versions &lt; V4.3.4-1 running Industrial OS with Node-RED installed), SIMATIC IoT2050 Basic (6ES7647-0BA00-0YA2) (All versions running Example Image versions with Node-RED installed), SIMATIC IoT2050 M.2 (6ES7647-0BB00-1YA2) (All versions &lt; V4.3.4-1 running Industrial OS with Node-RED installed), SIMATIC IoT2050 M.2 (6ES7647-0BB00-1YA2) (All versions running Example Image versions with Node-RED installed), SIMATIC IoT2050 SM (6ES7647-0CA00-1AA2) (All versions &lt; V4.3.4-1 running Industrial OS with Node-RED installed), SIMATIC IoT2050 SM (6ES7647-0CA00-1AA2) (All versions running Example Image versions with Node-RED installed). Affected devices do not enforce authentication on the Node-RED HTTP interface, allowing unauthenticated access to programming nodes that are capable of executing system commands on the server.\r\nThis could allow an unauthenticated remote attacker to create malicious flows through the HTTP interface in order to execute arbitrary code on the underlying server with maximum privileges.
 </code>
 
 - [foxcornlab/node-red-scanner](https://github.com/foxcornlab/node-red-scanner)
@@ -18737,6 +18738,13 @@
 - [thiscitze/cve-2026-86596-poc](https://github.com/thiscitze/cve-2026-86596-poc)
 - [Aureels/CVE-2026-86596](https://github.com/Aureels/CVE-2026-86596)
 
+### CVE-2026-86829 (2026-11-09)
+
+<code>Apache Airflow's scheduler fully deserializes XCom values written by task code while evaluating task dependencies. A Dag author, who controls what a task writes to XCom, therefore controls data that is deserialized inside the scheduler process - a context the Airflow security model reserves for code installed by the Deployment Manager, above the worker-scoped execution capability a Dag author is documented to have. Deployments that treat Dag authors as less trusted than Deployment Managers are affected, and the scheduler must be evaluating a task dependency that reads a task-written XCom value. Users of apache-airflow are recommended to upgrade to version 3.4.0 or later, which restricts dependency evaluation to primitive XCom values.
+</code>
+
+- [googlesky/CVE-2026-86829](https://github.com/googlesky/CVE-2026-86829)
+
 ### CVE-2026-86881 (2026-09-14)
 
 <code>A certificate validation issue was addressed with improved certificate validation. This issue is fixed in iOS 26.7 and iPadOS 26.7, iOS 27 and iPadOS 27, macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7, tvOS 27, visionOS 27, watchOS 27. An attacker with a compromised intermediate certificate authority may be able to issue certificates with arbitrary extended key usages.
@@ -19077,6 +19085,13 @@
 
 - [im-hanzou/CVE-2026-89026](https://github.com/im-hanzou/CVE-2026-89026)
 - [AranFarzami/CVE-2026-89026](https://github.com/AranFarzami/CVE-2026-89026)
+
+### CVE-2026-89052 (2026-10-21)
+
+<code>A hardcoded cryptographic key management vulnerability exists in Archer C6 due to the use of a universal cryptographic key shared across devices. An attacker who obtains an encrypted configuration file or other protected credential data can recover plaintext credentials. \n\nSuccessful exploitation may allow unauthorized disclosure of sensitive information, including administrative credentials.
+</code>
+
+- [sergioamsilva/CVE-2026-89052-archer-c6-aes](https://github.com/sergioamsilva/CVE-2026-89052-archer-c6-aes)
 
 ### CVE-2026-89055 (2026-09-25)
 
@@ -20166,6 +20181,7 @@
 - [jackykeung/CVE-2026-98432-Verified-Attack](https://github.com/jackykeung/CVE-2026-98432-Verified-Attack)
 - [rootagi/CVE-2026-98432](https://github.com/rootagi/CVE-2026-98432)
 - [ylh440104/cve-2026-98432-chain](https://github.com/ylh440104/cve-2026-98432-chain)
+- [zake1god/CVE-2026-98432](https://github.com/zake1god/CVE-2026-98432)
 
 ### CVE-2026-98499 (2026-10-18)
 
@@ -22148,6 +22164,7 @@
 - [ameeshaheshan/ShellSpectre](https://github.com/ameeshaheshan/ShellSpectre)
 - [Zaynux/TryHackMe-PHP2Shell-CVE-2026](https://github.com/Zaynux/TryHackMe-PHP2Shell-CVE-2026)
 - [Ya0h4cker/CVE-2026-109618-and-CVE-2026-109619](https://github.com/Ya0h4cker/CVE-2026-109618-and-CVE-2026-109619)
+- [demetriusford/php2shell-check](https://github.com/demetriusford/php2shell-check)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22851,6 +22868,13 @@
 
 - [ohackercego/CVE-2026-116106](https://github.com/ohackercego/CVE-2026-116106)
 
+### CVE-2026-116111 (2026-10-26)
+
+<code>A vulnerability was determined in 2K Games Civilization V 1.0.3.144. Impacted is the function loadstring of the component Lua Sandbox. Executing a manipulation can lead to type confusion. The attack may be performed from remote. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [drbloop2000/Sid-Meier-s-Civilization-V-RCE](https://github.com/drbloop2000/Sid-Meier-s-Civilization-V-RCE)
+
 ### CVE-2026-116191 (2026-10-25)
 
 <code>Rclone before 1.75.2 contains a path traversal vulnerability in serve webdav that allows unauthenticated attackers to write above the served root by sending an unvalidated '..' path component. Attackers can send MKCOL /.. to plant a VFS node, then PUT, MOVE, COPY, or MKCOL to create, overwrite, or delete files belonging to other tenants.
@@ -22961,6 +22985,9 @@
 - [majidrahimi5020-lgtm/Poc-exploit-for-CVE-2026-116779-FreeSWITCH-](https://github.com/majidrahimi5020-lgtm/Poc-exploit-for-CVE-2026-116779-FreeSWITCH-)
 - [hackzuoji/freeswitch-cve-2026-116779-POC](https://github.com/hackzuoji/freeswitch-cve-2026-116779-POC)
 
+### CVE-2026-117017
+- [esecforte/PoC_CVE-2026-117017](https://github.com/esecforte/PoC_CVE-2026-117017)
+
 ### CVE-2026-117065
 - [CodeStartUp/CVE-2026-117065](https://github.com/CodeStartUp/CVE-2026-117065)
 
@@ -22990,6 +23017,9 @@
 
 ### CVE-2026-117226
 - [xherogasm/CVE-Disclosures](https://github.com/xherogasm/CVE-Disclosures)
+
+### CVE-2026-117368
+- [yukinkoNo1/prestashop-security-advisories](https://github.com/yukinkoNo1/prestashop-security-advisories)
 
 ### CVE-2026-117532 (2026-10-27)
 
@@ -23111,6 +23141,7 @@
 - [riabinov/CVE-2026-119977](https://github.com/riabinov/CVE-2026-119977)
 - [mehmet-emir-eroglu/CVE-2026-119977](https://github.com/mehmet-emir-eroglu/CVE-2026-119977)
 - [BugStealers/CVE-2026-119977](https://github.com/BugStealers/CVE-2026-119977)
+- [BlackHatExploitation/CVE-2026-119977](https://github.com/BlackHatExploitation/CVE-2026-119977)
 
 ### CVE-2026-120019 (2026-10-31)
 
@@ -23300,6 +23331,23 @@
 </code>
 
 - [capivara-research/CVE-2026-124576](https://github.com/capivara-research/CVE-2026-124576)
+
+### CVE-2026-125394 (2026-11-09)
+
+<code>FreeRDP before 3.33.0 contains a heap use-after-free vulnerability in update_gdi_patblt(), update_gdi_polygon_cb() and update_gdi_mem3blt() that retain stale brush cache pointers. A malicious RDP server can resend CACHE_BRUSH to the same slot then send PATBLT, causing clients to read freed heap memory, disclosing data or crashing.
+</code>
+
+- [D7EAD/CVE-2026-125394](https://github.com/D7EAD/CVE-2026-125394)
+
+### CVE-2026-125399 (2026-11-09)
+
+<code>Fluxion before 6.39 contains an OS command injection vulnerability in the fluxion.sh target scanner, which decodes access point ESSIDs with eval after escaping only single quotes. Attackers within Wi-Fi range can broadcast an access point with a crafted SSID to execute commands as root when the operator scans or selects it.
+</code>
+
+- [VulnSVNC/CVE-2026-125399](https://github.com/VulnSVNC/CVE-2026-125399)
+
+### CVE-2026-125439
+- [kanokwut/convertkit-member-content-rest-excerpt-bypass](https://github.com/kanokwut/convertkit-member-content-rest-excerpt-bypass)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -63918,6 +63966,7 @@
 - [artur9010/amazon-mustang-hack](https://github.com/artur9010/amazon-mustang-hack)
 - [s1204IT/CVE-2022-38181](https://github.com/s1204IT/CVE-2022-38181)
 - [lRENyaaa/AGM3-W09HN-TMP-ROOT-CVE-2022-38181](https://github.com/lRENyaaa/AGM3-W09HN-TMP-ROOT-CVE-2022-38181)
+- [sber-portal/sberportal-root](https://github.com/sber-portal/sberportal-root)
 
 ### CVE-2022-38374 (2022-11-02)
 
@@ -76692,6 +76741,7 @@
 - [Dungsocool/CVE-2020-13671-old](https://github.com/Dungsocool/CVE-2020-13671-old)
 - [Dungsocool/CVE-2020-13671](https://github.com/Dungsocool/CVE-2020-13671)
 - [ivanesk315/CVE-2020-13671](https://github.com/ivanesk315/CVE-2020-13671)
+- [d4ytox/CVE-2020-13671](https://github.com/d4ytox/CVE-2020-13671)
 
 ### CVE-2020-13699 (2020-07-29)
 
@@ -82020,6 +82070,13 @@
 
 - [dinosn/cve-2019-13132-lab](https://github.com/dinosn/cve-2019-13132-lab)
 
+### CVE-2019-13139 (2019-08-22)
+
+<code>In Docker before 18.09.4, an attacker who is capable of supplying or manipulating the build path for the &quot;docker build&quot; command would be able to gain command execution. An issue exists in the way &quot;docker build&quot; processes remote git URLs, and results in command injection into the underlying &quot;git clone&quot; command, leading to code execution in the context of the user executing the &quot;docker build&quot; command. This occurs because git ref can be misinterpreted as a flag.
+</code>
+
+- [hakaii59/CVE-2019-13139](https://github.com/hakaii59/CVE-2019-13139)
+
 ### CVE-2019-13143 (2019-08-06)
 
 <code>An HTTP parameter pollution issue was discovered on Shenzhen Dragon Brothers Fingerprint Bluetooth Round Padlock FB50 2.3. With the user ID, user name, and the lock's MAC address, anyone can unbind the existing owner of the lock, and bind themselves instead. This leads to complete takeover of the lock. The user ID, name, and MAC address are trivially obtained from APIs found within the Android or iOS application. With only the MAC address of the lock, any attacker can transfer ownership of the lock from the current user, over to the attacker's account. Thus rendering the lock completely inaccessible to the current user.
@@ -85001,6 +85058,7 @@
 - [kastellanos/CVE-2018-7602](https://github.com/kastellanos/CVE-2018-7602)
 - [cyberharsh/DrupalCVE-2018-7602](https://github.com/cyberharsh/DrupalCVE-2018-7602)
 - [132231g/CVE-2018-7602](https://github.com/132231g/CVE-2018-7602)
+- [d4ytox/CVE-2018-7602](https://github.com/d4ytox/CVE-2018-7602)
 
 ### CVE-2018-7669 (2018-04-27)
 
