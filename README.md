@@ -1263,7 +1263,6 @@
 - [netw0rk7/CVE-2026-3888-PoC](https://github.com/netw0rk7/CVE-2026-3888-PoC)
 - [TheCyberGeek/CVE-2026-3888-snap-confine-systemd-tmpfiles-LPE](https://github.com/TheCyberGeek/CVE-2026-3888-snap-confine-systemd-tmpfiles-LPE)
 - [noambouillet/CVE-2026-3888](https://github.com/noambouillet/CVE-2026-3888)
-- [DanielTangnes/CVE-2026-3888](https://github.com/DanielTangnes/CVE-2026-3888)
 - [hewhomusntbenamed/CVE-2026-3888-fixed](https://github.com/hewhomusntbenamed/CVE-2026-3888-fixed)
 - [AlanNewberry/CVE-2026-3888-snap-confine-privilege-escalation](https://github.com/AlanNewberry/CVE-2026-3888-snap-confine-privilege-escalation)
 - [alinpfan/CVE-2026-3888-PoC](https://github.com/alinpfan/CVE-2026-3888-PoC)
@@ -1551,6 +1550,13 @@
 </code>
 
 - [lottiedeyan/CVE20264893poc](https://github.com/lottiedeyan/CVE20264893poc)
+
+### CVE-2026-4961 (2026-03-27)
+
+<code>A vulnerability was identified in Tenda AC6 15.03.05.16. Affected by this vulnerability is the function formQuickIndex of the file /goform/QuickIndex of the component POST Request Handler. The manipulation of the argument PPPOEPassword leads to stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit is publicly available and might be used.
+</code>
+
+- [lufeng78/tenda-ac6-cve-2026-4961-patch](https://github.com/lufeng78/tenda-ac6-cve-2026-4961-patch)
 
 ### CVE-2026-5000 (2026-03-28)
 
@@ -14812,7 +14818,11 @@
 - [Boreas37/CVE-2026-56705](https://github.com/Boreas37/CVE-2026-56705)
 - [ChiefYoru/Exploit-CVE-2026-56705](https://github.com/ChiefYoru/Exploit-CVE-2026-56705)
 
-### CVE-2026-56712
+### CVE-2026-56712 (2026-11-09)
+
+<code>Replicate Cog through 0.23.1 contains a server-side request forgery vulnerability that allows attackers to cause the Cog process to make server-side HTTP requests by submitting prediction inputs with attacker-controlled URLs that are not validated against the resolved destination host or IP before fetching. Attackers can supply malicious URLs or exploit HTTP redirects in cog.File and cog.Path predictor inputs to force requests to internal addresses, potentially exposing sensitive internal services or credentials.
+</code>
+
 - [SaiTeja-Erukude/CVE-2026-56712-cog-ssrf](https://github.com/SaiTeja-Erukude/CVE-2026-56712-cog-ssrf)
 
 ### CVE-2026-56718 (2026-08-30)
@@ -23156,6 +23166,13 @@
 
 - [carterlasalle/CVE-2026-122051](https://github.com/carterlasalle/CVE-2026-122051)
 
+### CVE-2026-122056 (2026-11-09)
+
+<code>A flaw was found in OpenSCAP. A heap-based buffer overflow can occur when processing a specially crafted Extensible Configuration Checklist Description Format (XCCDF) document using the sds-compose option. An attacker could exploit this vulnerability to corrupt memory, resulting in an application crash and a Denial of Service (DoS).
+</code>
+
+- [D7EAD/CVE-2026-122056](https://github.com/D7EAD/CVE-2026-122056)
+
 ### CVE-2026-122158 (2026-11-05)
 
 <code>A security flaw has been discovered in InvoiceShelf up to 2.4.3/3.0.0-alpha.3. Affected by this issue is the function MemberService::create of the file app/Domains/Accounts/Application/MemberService.php. Performing a manipulation of the argument companies[].id/companies[].role results in improper access controls. The attack is possible to be carried out remotely. The exploit has been released to the public and may be used for attacks. Upgrading to version 2.4.4 and 3.0.0-alpha.4 can resolve this issue. The patch is named c798b513c3ab6e672a1678774720fbb282f4d0c6. It is recommended to upgrade the affected component.
@@ -23216,6 +23233,7 @@
 - [GarphenGate/cve-2026-123158-defender-toolkit](https://github.com/GarphenGate/cve-2026-123158-defender-toolkit)
 - [D1se0/CVE-2026-123158](https://github.com/D1se0/CVE-2026-123158)
 - [aciddust/CVE-2026-123158-LAB](https://github.com/aciddust/CVE-2026-123158-LAB)
+- [Iperez95-ot/sshole-lab](https://github.com/Iperez95-ot/sshole-lab)
 
 ### CVE-2026-123488 (2026-11-06)
 
@@ -24352,6 +24370,13 @@
 - [Yucaerin/CVE-2025-4606](https://github.com/Yucaerin/CVE-2025-4606)
 - [UcenHaxor07/CVE-2025-4606](https://github.com/UcenHaxor07/CVE-2025-4606)
 - [Yetazyyy/CVE-2025-4606](https://github.com/Yetazyyy/CVE-2025-4606)
+
+### CVE-2025-4609 (2025-08-22)
+
+<code>Incorrect handle provided in unspecified circumstances in Mojo in Google Chrome on Windows prior to 136.0.7103.113 allowed a remote attacker to potentially perform a sandbox escape via a malicious file. (Chromium security severity: High)
+</code>
+
+- [nek-3231/cve-2025-4609-mojo-poc](https://github.com/nek-3231/cve-2025-4609-mojo-poc)
 
 ### CVE-2025-4611 (2025-05-21)
 
@@ -39839,7 +39864,6 @@
 - [ademto/wordpress-cve-2024-10924-pentest](https://github.com/ademto/wordpress-cve-2024-10924-pentest)
 - [bodoinon/CVE-2024-10924](https://github.com/bodoinon/CVE-2024-10924)
 - [JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2024-10924](https://github.com/JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2024-10924)
-- [rafaelsoje/infosec-audit-tools](https://github.com/rafaelsoje/infosec-audit-tools)
 
 ### CVE-2024-10930 (2025-03-04)
 
@@ -42168,6 +42192,7 @@
 - [RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit)
 - [apkc/CVE-2024-26229-BOF](https://github.com/apkc/CVE-2024-26229-BOF)
 - [team-MineDEV/CVE-2024-26229](https://github.com/team-MineDEV/CVE-2024-26229)
+- [Cracked5pider/eop24-26229](https://github.com/Cracked5pider/eop24-26229)
 - [mqxmm/CVE-2024-26229](https://github.com/mqxmm/CVE-2024-26229)
 - [shinspace92/cve-2024-26229](https://github.com/shinspace92/cve-2024-26229)
 - [vettrivel007/CVE-2024-26229](https://github.com/vettrivel007/CVE-2024-26229)
@@ -49918,6 +49943,7 @@
 
 - [s1204IT/CVE-2023-6241](https://github.com/s1204IT/CVE-2023-6241)
 - [ilGobbo00/CVE-2023-6241-Pixel7_Adaptation](https://github.com/ilGobbo00/CVE-2023-6241-Pixel7_Adaptation)
+- [R0rt1z2/CVE-2023-6241-JM](https://github.com/R0rt1z2/CVE-2023-6241-JM)
 
 ### CVE-2023-6246 (2024-01-31)
 
@@ -53275,6 +53301,7 @@
 
 - [keto0422/CVE-2023-33107](https://github.com/keto0422/CVE-2023-33107)
 - [264312431/picohaxx](https://github.com/264312431/picohaxx)
+- [markutell/CVE-2023-33107-SO51A](https://github.com/markutell/CVE-2023-33107-SO51A)
 
 ### CVE-2023-33177 (2023-05-30)
 
@@ -61848,6 +61875,13 @@
 
 - [patrickdeanramos/CVE-2022-28598](https://github.com/patrickdeanramos/CVE-2022-28598)
 
+### CVE-2022-28601 (2022-05-10)
+
+<code>A Two-Factor Authentication (2FA) bypass vulnerability in &quot;Simple 2FA Plugin for Moodle&quot; by LMS Doctor allows remote attackers to overwrite the phone number used for confirmation via the profile.php file. Therefore, allowing them to bypass the phone verification mechanism.
+</code>
+
+- [FlaviuPopescu/CVE-2022-28601](https://github.com/FlaviuPopescu/CVE-2022-28601)
+
 ### CVE-2022-28672 (2022-07-18)
 
 <code>This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader 11.2.1.53537. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-16640.
@@ -61872,6 +61906,13 @@
 </code>
 
 - [gar-re/cve-2022-28944](https://github.com/gar-re/cve-2022-28944)
+
+### CVE-2022-28986 (2022-05-10)
+
+<code>LMS Doctor Simple 2 Factor Authentication Plugin For Moodle Affected: 2021072900 has an Insecure direct object references (IDOR) vulnerability, which allows remote attackers to update sensitive records such as email, password and phone number of other user accounts.
+</code>
+
+- [FlaviuPopescu/CVE-2022-28986](https://github.com/FlaviuPopescu/CVE-2022-28986)
 
 ### CVE-2022-29004 (2022-05-23)
 
@@ -71372,6 +71413,7 @@
 - [twq0316/work1-secure-rest-api](https://github.com/twq0316/work1-secure-rest-api)
 - [foreverlanterns/secure-demo-api](https://github.com/foreverlanterns/secure-demo-api)
 - [TheoCerveraLede/practica-integradora-ciberseguridad](https://github.com/TheoCerveraLede/practica-integradora-ciberseguridad)
+- [R3leant/CVE-2021-41773](https://github.com/R3leant/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -72706,7 +72748,6 @@
 - [mcpmark-eval-liuhezi/security-digest-modern-classics](https://github.com/mcpmark-eval-liuhezi/security-digest-modern-classics)
 - [mcpmark-eval-liuhezi/log4j-xz-lessons](https://github.com/mcpmark-eval-liuhezi/log4j-xz-lessons)
 - [Certbn/CVE-2021-44228-Apache-Log4j2-JNDI-Lookup](https://github.com/Certbn/CVE-2021-44228-Apache-Log4j2-JNDI-Lookup)
-- [awesoma31/is-lab2](https://github.com/awesoma31/is-lab2)
 
 ### CVE-2021-44255 (2022-01-31)
 
