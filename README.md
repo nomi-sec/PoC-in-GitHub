@@ -108,13 +108,6 @@
 ### CVE-2026-01443
 - [gduma-phData/patch-CVE-2026-01443](https://github.com/gduma-phData/patch-CVE-2026-01443)
 
-### CVE-2026-0163 (2026-08-04)
-
-<code>In multiple functions of vpu_ioctl.c, there is a possible use after free due to a use after free. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
-</code>
-
-- [sentinel-aidefense/CVE-2026-0163-EXP](https://github.com/sentinel-aidefense/CVE-2026-0163-EXP)
-
 ### CVE-2026-0257 (2026-05-13)
 
 <code>Authentication bypass vulnerabilities in the GlobalProtect portal and gateway of Palo Alto Networks PAN-OS® software allows the attacker to bypass security restrictions and establish an unauthorized VPN connection.\n\nPanorama and Cloud NGFW are not impacted by these issues.
@@ -4583,6 +4576,13 @@
 
 - [testardou/CVE-2026-19794](https://github.com/testardou/CVE-2026-19794)
 
+### CVE-2026-19803 (2026-11-07)
+
+<code>The Printcart Store – Web to Print Product Designer for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.13.2. This is due to the `nbu_crop_image` AJAX handler accepting a user-supplied `url` parameter that `Nbdesigner_IO::convert_url_to_path()` concatenates onto the uploads base directory without normalizing or stripping `../` sequences, and then deriving both the output directory and output file extension via `pathinfo()` from the same attacker-controlled path — with no `stripImage()` call before `writeImage()` is invoked. This makes it possible for unauthenticated attackers to write attacker-controlled PHP content to arbitrary locations outside the uploads directory, resulting in remote code execution when the written file is subsequently requested. This vulnerability is only exploitable when the `nbdesigner_upload_popup_style` site option is set to `a` (Advanced Upload Popup), which causes the handler to be registered for unauthenticated requests; however, the required `save-design` nonce is printed on the fully public frontend `upload-design-file` page, making it trivially obtainable by any anonymous visitor once that configuration is active.
+</code>
+
+- [Aureels/CVE-2026-19803](https://github.com/Aureels/CVE-2026-19803)
+
 ### CVE-2026-19843 (2026-09-07)
 
 <code>A flaw was found in 389-ds-base. The Cockpit 389 Console's LDAP editor constructs an ldapsearch command by embedding an LDAP entry's distinguished name (DN) into a shell command string without proper escaping. An LDAP user with delegated privileges to create or rename directory entries could craft a malicious DN containing shell metacharacters. When a Cockpit administrator subsequently views the entry in the 389 Console, the embedded shell command executes with root privileges on the directory server host.
@@ -5180,7 +5180,6 @@
 - [planetoid/cve-2026-21509-mitigation](https://github.com/planetoid/cve-2026-21509-mitigation)
 - [suuhm/CVE-2026-21509-handler](https://github.com/suuhm/CVE-2026-21509-handler)
 - [DameDode/CVE-2026-21509-POC](https://github.com/DameDode/CVE-2026-21509-POC)
-- [sentinel-aidefense/CVE-2026-21509](https://github.com/sentinel-aidefense/CVE-2026-21509)
 - [razureink/cve-2026-21509-office_security_bypass_reproduction](https://github.com/razureink/cve-2026-21509-office_security_bypass_reproduction)
 
 ### CVE-2026-21510 (2026-02-10)
@@ -9073,6 +9072,7 @@
 </code>
 
 - [federiconbaez/cortex9-geonode-layer-name-command-injection-model](https://github.com/federiconbaez/cortex9-geonode-layer-name-command-injection-model)
+- [comradezephyr/CVE-2026-33050](https://github.com/comradezephyr/CVE-2026-33050)
 
 ### CVE-2026-33057 (2026-03-20)
 
@@ -12135,6 +12135,13 @@
 
 - [Alardiians/pocketbase-CVE-2026-44166](https://github.com/Alardiians/pocketbase-CVE-2026-44166)
 
+### CVE-2026-44212 (2026-05-14)
+
+<code>PrestaShop is an open source e-commerce web application. Prior to 8.2.6 and 9.1.1, there is a stored Cross-Site Scripting (XSS) vulnerability in the PrestaShop back-office Customer Service view. An unauthenticated attacker can submit the public Contact Us form with a malicious email address. The payload is stored in the database and executed when a back-office employee opens the affected customer thread, enabling session hijacking and full back-office takeover. This vulnerability is fixed in 8.2.6 and 9.1.1.
+</code>
+
+- [fstivicic/prestashop17-security-patches](https://github.com/fstivicic/prestashop17-security-patches)
+
 ### CVE-2026-44246 (2026-05-12)
 
 <code>nnU-Net is a semantic segmentation framework that automatically adapts its pipeline to a dataset. Prior to 2.4.1, the nnU-Net Issue Triage workflow in .github/workflows/issue-triage.yml is vulnerable to Agentic Workflow Injection. The workflow sets allowed_non_write_users: ${{ github.event.issue.user.login }}, which means any logged-in GitHub user who opens an issue can reach this agentic workflow with attacker-controlled content. Untrusted issue title and body content are embedded directly into the prompt of anthropics/claude-code-action, and the workflow then runs a command-capable Claude agent with permission to comment on and relabel the current issue via gh. Because this workflow is triggered automatically on issues.opened, an external attacker can submit a crafted issue that steers the agent beyond its intended issue-triage purpose and influences authenticated issue actions. This vulnerability is fixed in 2.4.1.
@@ -14488,13 +14495,6 @@
 
 - [DavidCarliez/CVE-2026-54992-PoC](https://github.com/DavidCarliez/CVE-2026-54992-PoC)
 
-### CVE-2026-54998 (2026-07-02)
-
-<code>Incorrect authorization in Microsoft Exchange Online allows an authorized attacker to elevate privileges over a network.
-</code>
-
-- [sentinel-aidefense/CVE-2026-54998-exp](https://github.com/sentinel-aidefense/CVE-2026-54998-exp)
-
 ### CVE-2026-55040 (2026-07-14)
 
 <code>Weak authentication in Microsoft Office SharePoint allows an unauthorized attacker to bypass a security feature over a network.
@@ -14672,7 +14672,6 @@
 <code>Missing authentication for critical function in Microsoft Office SharePoint allows an unauthorized attacker to elevate privileges over a network.
 </code>
 
-- [sentinel-aidefense/CVE-2026-56164-EXP](https://github.com/sentinel-aidefense/CVE-2026-56164-EXP)
 - [sam00/POC-CVE-2026-56164-exploit](https://github.com/sam00/POC-CVE-2026-56164-exploit)
 
 ### CVE-2026-56190 (2026-07-14)
@@ -16588,7 +16587,13 @@
 </code>
 
 - [HORKimhab/CVE-2026-69836](https://github.com/HORKimhab/CVE-2026-69836)
-- [sentinel-aidefense/CVE-2026-69836-EXP](https://github.com/sentinel-aidefense/CVE-2026-69836-EXP)
+
+### CVE-2026-70054 (2026-10-13)
+
+<code>Heap-based buffer overflow in Windows NetBIOS allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [D7EAD/CVE-2026-70054](https://github.com/D7EAD/CVE-2026-70054)
 
 ### CVE-2026-70376 (2026-08-05)
 
@@ -19088,6 +19093,13 @@
 
 - [dorkerdevil/CVE-2026-89282](https://github.com/dorkerdevil/CVE-2026-89282)
 
+### CVE-2026-89324 (2026-11-10)
+
+<code>The Basel Post Types plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 1.18. The vulnerability exists because a missing-quotes coding error in the defined() call for SECURE_AUTH_SALT inside BASEL_Auth::get_config() causes PHP to evaluate the constant's value rather than its name, making the check always fail and permanently falling back to the static hardcoded salt 2NlBUibcszrVtNmDnxqDbwCOpLWq91eatIz6O1O that is publicly visible in the theme source code; because this salt is static and known, an attacker can compute a valid Opauth signature entirely offline and submit a forged ?opauth callback to the unauthenticated init hook endpoint processed by register_or_login. This makes it possible for unauthenticated attackers to authenticate as any existing WordPress user, including administrators, by forging a callback tied to a known target account email address — bypassing all password verification, multi-factor authentication, and ownership checks, and receiving a fully authenticated session cookie via wc_set_customer_auth_cookie(). Exploitation requires WooCommerce to be active and at least one Basel social-login provider (Facebook, Google, or VKontakte) to be configured with a valid app_id and app_secret in the theme settings.
+</code>
+
+- [im0xfay/CVE-2026-89324](https://github.com/im0xfay/CVE-2026-89324)
+
 ### CVE-2026-89633 (2026-09-11)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: fix OOB read/write from unvalidated DataOffset in coalesce_t2()\n\ncoalesce_t2() computes data pointers directly from server-supplied\nDataOffset fields with no validation against buffer bounds:\n\n  data_area_of_tgt = (char *)&amp;pSMBt-&gt;hdr.Protocol +\n                     get_unaligned_le16(&amp;pSMBt-&gt;t2_rsp.DataOffset);\n  data_area_of_src = (char *)&amp;pSMBs-&gt;hdr.Protocol +\n                     get_unaligned_le16(&amp;pSMBs-&gt;t2_rsp.DataOffset);\n  data_area_of_tgt += total_in_tgt;\n  ...\n  memcpy(data_area_of_tgt, data_area_of_src, total_in_src);\n\nA small DataOffset can push a pointer below the actual byte area,\noverwriting header fields; a large one can push it past the buffer\nend, causing out-of-bounds heap reads (source) or writes (target).\nThe BCC overflow guard does not prevent this: BCC reflects how much\ndata is present, while DataOffset controls where in the buffer it\nstarts.\n\nThe &quot;validate target area&quot; comment present since the function was\nfirst written in 2005 was a placeholder that was never implemented.\n\nAdd lower- and upper-bound checks for both data pointers before the\nmemcpy, and before any target header fields are modified.
@@ -19772,7 +19784,7 @@
 
 ### CVE-2026-96760 (2026-09-28)
 
-<code>Authlib (v1.7.2 and below) contains a signature verification bypass vulnerability. The JsonWebSignature.deserialize_json() method accepts a JSON Serialization JWS object and returns the payload as successfully verified without checking for a signature and without requiring a cryptographic key.
+<code>Authlib (v1.8.0 and below) contains a signature verification bypass vulnerability. The JsonWebSignature.deserialize_json() method accepts a JSON Serialization JWS object and returns the payload as successfully verified without checking for a signature and without requiring a cryptographic key.
 </code>
 
 - [uziii2208/CVE-2026-96760](https://github.com/uziii2208/CVE-2026-96760)
@@ -20073,6 +20085,7 @@
 - [arkylin/CVE-2026-98260-Asteroids](https://github.com/arkylin/CVE-2026-98260-Asteroids)
 - [orumanayurpanjayat-ux/SamTimer](https://github.com/orumanayurpanjayat-ux/SamTimer)
 - [jonrazta89/timertest](https://github.com/jonrazta89/timertest)
+- [qq2770355800/ExtractKit](https://github.com/qq2770355800/ExtractKit)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -22188,6 +22201,7 @@
 - [Ya0h4cker/CVE-2026-109618-and-CVE-2026-109619](https://github.com/Ya0h4cker/CVE-2026-109618-and-CVE-2026-109619)
 - [demetriusford/php2shell-check](https://github.com/demetriusford/php2shell-check)
 - [Mahyarpishbazz/php2version-scanner](https://github.com/Mahyarpishbazz/php2version-scanner)
+- [MammaniNelsonD/PHP2P4IM0NSHELL](https://github.com/MammaniNelsonD/PHP2P4IM0NSHELL)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22487,6 +22501,7 @@
 - [sam00/Node2Shell-CVE-2026-111497-POC](https://github.com/sam00/Node2Shell-CVE-2026-111497-POC)
 - [aymenkmar/node2shell-check](https://github.com/aymenkmar/node2shell-check)
 - [EQSTLab/CVE-2026-111497](https://github.com/EQSTLab/CVE-2026-111497)
+- [MchinaMd57764/CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC)
 
 ### CVE-2026-111585 (2026-10-27)
 
@@ -22497,6 +22512,7 @@
 
 ### CVE-2026-111760
 - [suominen/CVE-2026-111760](https://github.com/suominen/CVE-2026-111760)
+- [Ghost-Bx1/cve-2026-111760-git-submodule-symlink-rce](https://github.com/Ghost-Bx1/cve-2026-111760-git-submodule-symlink-rce)
 
 ### CVE-2026-111770 (2026-11-05)
 
@@ -22537,6 +22553,13 @@
 </code>
 
 - [yuwkaaa/CVE-2026-112071](https://github.com/yuwkaaa/CVE-2026-112071)
+
+### CVE-2026-112174 (2026-11-11)
+
+<code>Local privilege escalation vulnerability in Iperius Backup 8.8.3, due to insufficient separation between the graphical user interface running with elevated privileges and local users with low privileges. When the backup service is configured to run persistently with Administrator privileges, a local attacker with low privileges can use the native Windows dialogues exposed by the application to run programmes that inherit its elevated context. This allows commands to be executed with SYSTEM or Administrator privileges, depending on the application’s context, and compromises the affected Windows system.
+</code>
+
+- [jonastrikex/CVE-2026-112174-Iperius-Backup-version-8.8.3-PoC](https://github.com/jonastrikex/CVE-2026-112174-Iperius-Backup-version-8.8.3-PoC)
 
 ### CVE-2026-112195 (2026-10-19)
 
@@ -23198,6 +23221,13 @@
 
 - [overgrowncarrot1/CVE-2026-119905-DNS-Log-Poisoning-UNC-Path](https://github.com/overgrowncarrot1/CVE-2026-119905-DNS-Log-Poisoning-UNC-Path)
 
+### CVE-2026-119948 (2026-11-10)
+
+<code>Stack-based buffer overflow in Windows Active Directory allows an authorized attacker to execute code over a network.
+</code>
+
+- [Ghost-Bx1/cve-2026-119948-windows-ad-rce](https://github.com/Ghost-Bx1/cve-2026-119948-windows-ad-rce)
+
 ### CVE-2026-119977 (2026-10-31)
 
 <code>WordPress Core is vulnerable to Remote Code Execution in versions 4.7 through 7.1.3. This is due to predictable, web-accessible staging paths used during full-package core upgrades. This makes it possible for unauthenticated attackers to execute code on the server during the upgrade window.
@@ -23269,6 +23299,9 @@
 </code>
 
 - [ashrafzaryouh/CVE-2026-121529](https://github.com/ashrafzaryouh/CVE-2026-121529)
+- [googlesky/CVE-2026-121529](https://github.com/googlesky/CVE-2026-121529)
+- [googlesky/Fortinet2Shell](https://github.com/googlesky/Fortinet2Shell)
+- [Ghost-Bx1/cve-2026-121529-forticlient-cors-rce](https://github.com/Ghost-Bx1/cve-2026-121529-forticlient-cors-rce)
 
 ### CVE-2026-121720
 - [refiaa/CVE-2026-121720](https://github.com/refiaa/CVE-2026-121720)
@@ -23358,6 +23391,8 @@
 - [Certbn/CVE-2026-123158-OpenSSH-sshd-SSHhole-sshole-](https://github.com/Certbn/CVE-2026-123158-OpenSSH-sshd-SSHhole-sshole-)
 - [pablocerdeira1/CVE-2026-123158](https://github.com/pablocerdeira1/CVE-2026-123158)
 - [douglasmun/CVE-2026-123158_sshole_lab](https://github.com/douglasmun/CVE-2026-123158_sshole_lab)
+- [Doseuser/CVE-2026-123158](https://github.com/Doseuser/CVE-2026-123158)
+- [MMitsuha/CVE-2026-123158](https://github.com/MMitsuha/CVE-2026-123158)
 
 ### CVE-2026-123218 (2026-11-07)
 
@@ -23410,6 +23445,7 @@
 </code>
 
 - [AmesianX/CVE-2026-124194-poc](https://github.com/AmesianX/CVE-2026-124194-poc)
+- [Ghost-Bx1/cve-2026-124194-outlook-ntlm-hash-leak](https://github.com/Ghost-Bx1/cve-2026-124194-outlook-ntlm-hash-leak)
 
 ### CVE-2026-124450 (2026-11-08)
 
@@ -23475,6 +23511,9 @@
 </code>
 
 - [Faceless0x7/CVE-2026-125757](https://github.com/Faceless0x7/CVE-2026-125757)
+
+### CVE-2026-126170
+- [Ghost-Bx1/cve-2026-126170-fortimanager-jsonrpc-rce](https://github.com/Ghost-Bx1/cve-2026-126170-fortimanager-jsonrpc-rce)
 
 ### CVE-2026-126187 (2026-11-10)
 
@@ -24934,7 +24973,6 @@
 - [mr-r3b00t/CVE-2025-5777](https://github.com/mr-r3b00t/CVE-2025-5777)
 - [rashedhasan090/CVE-2025-5777](https://github.com/rashedhasan090/CVE-2025-5777)
 - [ashrafzaryouh/CVE-2025-5777](https://github.com/ashrafzaryouh/CVE-2025-5777)
-- [sentinel-aidefense/CVE-2025-5777](https://github.com/sentinel-aidefense/CVE-2025-5777)
 - [razureink/cve-2025-5777-citrixbleed2_reproduction](https://github.com/razureink/cve-2025-5777-citrixbleed2_reproduction)
 - [maxprog-svg/CitrixBleedCVE-2026-8452-2025-5777](https://github.com/maxprog-svg/CitrixBleedCVE-2026-8452-2025-5777)
 
@@ -26036,7 +26074,6 @@
 - [rxerium/CVE-2025-10035](https://github.com/rxerium/CVE-2025-10035)
 - [ThemeHackers/CVE-2025-10035](https://github.com/ThemeHackers/CVE-2025-10035)
 - [orange0Mint/CVE-2025-10035_GoAnywhere](https://github.com/orange0Mint/CVE-2025-10035_GoAnywhere)
-- [sentinel-aidefense/CVE-2025-10035](https://github.com/sentinel-aidefense/CVE-2025-10035)
 - [dkchaiv/CVE-2025-10035](https://github.com/dkchaiv/CVE-2025-10035)
 
 ### CVE-2025-10041 (2025-10-15)
@@ -27252,7 +27289,6 @@
 </code>
 
 - [scadastrangelove/CVE-2025-20352](https://github.com/scadastrangelove/CVE-2025-20352)
-- [sentinel-aidefense/CVE-2025-20352](https://github.com/sentinel-aidefense/CVE-2025-20352)
 
 ### CVE-2025-20362 (2025-09-25)
 
@@ -28124,7 +28160,6 @@
 </code>
 
 - [moiz-2x/CVE-2025-24990_POC](https://github.com/moiz-2x/CVE-2025-24990_POC)
-- [sentinel-aidefense/CVE-2025-24990](https://github.com/sentinel-aidefense/CVE-2025-24990)
 
 ### CVE-2025-24999 (2025-08-12)
 
@@ -30007,7 +30042,6 @@
 - [irjfifndn-prog/Blackash-CVE-2025-33073](https://github.com/irjfifndn-prog/Blackash-CVE-2025-33073)
 - [EgCupCake/cupntlm-Automated-Exploit-For-CVE-2025-33073-](https://github.com/EgCupCake/cupntlm-Automated-Exploit-For-CVE-2025-33073-)
 - [IyarGross/SMB-CVE-2025-33073](https://github.com/IyarGross/SMB-CVE-2025-33073)
-- [sentinel-aidefense/CVE-2025-33073](https://github.com/sentinel-aidefense/CVE-2025-33073)
 
 ### CVE-2025-33210 (2025-12-16)
 
@@ -38055,7 +38089,7 @@
 
 - [truonghuuphuc/CVE-2024-3495-Poc](https://github.com/truonghuuphuc/CVE-2024-3495-Poc)
 - [zomasec/CVE-2024-3495-POC](https://github.com/zomasec/CVE-2024-3495-POC)
-- [AgnesAhalya/rw-country-state-city-auto-dropdown](https://github.com/AgnesAhalya/rw-country-state-city-auto-dropdown)
+- [rw-a3/rw-country-state-city-auto-dropdown](https://github.com/rw-a3/rw-country-state-city-auto-dropdown)
 
 ### CVE-2024-3552 (2024-06-13)
 
@@ -38364,7 +38398,7 @@
 <code>The Salon booking system plugin for WordPress is vulnerable to arbitrary file deletion in all versions up to, and including, 9.8. This is due to the plugin not properly validating the path of an uploaded file prior to deleting it. This makes it possible for unauthenticated attackers to delete arbitrary files, including the wp-config.php file, which can make site takeover and remote code execution possible. This was partially patched in 9.9, and sufficiently patched in 10.0. CVE-2024-37231 appears to be a duplicate of this issue.
 </code>
 
-- [AgnesAhalya/rw-salon](https://github.com/AgnesAhalya/rw-salon)
+- [rw-a3/rw-salon](https://github.com/rw-a3/rw-salon)
 
 ### CVE-2024-4443 (2024-05-22)
 
@@ -41061,7 +41095,6 @@
 - [abrewer251/CVE-2024-21762_FortiNet_PoC](https://github.com/abrewer251/CVE-2024-21762_FortiNet_PoC)
 - [0x13-ByteZer0/CVE-2024-21762](https://github.com/0x13-ByteZer0/CVE-2024-21762)
 - [0x0asif/CVE-2024-21762](https://github.com/0x0asif/CVE-2024-21762)
-- [IzanInPublic/CVE-2024-21762-Safe-Check](https://github.com/IzanInPublic/CVE-2024-21762-Safe-Check)
 - [Vampsecure-Labs/vamp-forticheck](https://github.com/Vampsecure-Labs/vamp-forticheck)
 - [abraxas/Fortigate-SSL-VPN-Exploit-Kit](https://github.com/abraxas/Fortigate-SSL-VPN-Exploit-Kit)
 - [Deekshitha2203/security-triage-agent-cybersec590](https://github.com/Deekshitha2203/security-triage-agent-cybersec590)
@@ -44376,7 +44409,7 @@
 <code>Sourcecodester Stock Management System v1.0 is vulnerable to SQL Injection via editCategories.php.
 </code>
 
-- [AgnesAhalya/rw-stock](https://github.com/AgnesAhalya/rw-stock)
+- [rw-a3/rw-stock](https://github.com/rw-a3/rw-stock)
 
 ### CVE-2024-36821 (2024-06-11)
 
@@ -54561,8 +54594,6 @@
 - [ifconfig-me/CVE-2023-36845](https://github.com/ifconfig-me/CVE-2023-36845)
 - [e11i0t4lders0n/CVE-2023-36845](https://github.com/e11i0t4lders0n/CVE-2023-36845)
 - [kopfjager007/CVE-2023-36845](https://github.com/kopfjager007/CVE-2023-36845)
-- [cxb2523/ccfb-pointwise-20261109-010-cve-2023-36845-scanner](https://github.com/cxb2523/ccfb-pointwise-20261109-010-cve-2023-36845-scanner)
-- [cxb2523/ccfb-pointwise-20261111-claude-uid831-867-017-cve-2023-36845-scanner](https://github.com/cxb2523/ccfb-pointwise-20261111-claude-uid831-867-017-cve-2023-36845-scanner)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -56997,6 +57028,7 @@
 - [Theocyg/CVE-2023-46604](https://github.com/Theocyg/CVE-2023-46604)
 - [basesixtythree/B63-POC-CVE-2023-46604](https://github.com/basesixtythree/B63-POC-CVE-2023-46604)
 - [krevetkqqq/cve-2023-46604-activemq-lab](https://github.com/krevetkqqq/cve-2023-46604-activemq-lab)
+- [Abdelhalim11/CyberDefenders-OpenWire](https://github.com/Abdelhalim11/CyberDefenders-OpenWire)
 
 ### CVE-2023-46615 (2024-02-12)
 
@@ -78138,6 +78170,7 @@
 - [GazettEl/CVE-2020-24186](https://github.com/GazettEl/CVE-2020-24186)
 - [sec-dojo-com/CVE-2020-24186](https://github.com/sec-dojo-com/CVE-2020-24186)
 - [kiyingiericmark-wq/CVE-2020-24186](https://github.com/kiyingiericmark-wq/CVE-2020-24186)
+- [SimonL01/wpdiscuz-cve-2020-24186](https://github.com/SimonL01/wpdiscuz-cve-2020-24186)
 
 ### CVE-2020-24227 (2020-11-23)
 
@@ -95253,6 +95286,7 @@
 - [nika0x38/CVE-2009-2265](https://github.com/nika0x38/CVE-2009-2265)
 - [matesz44/CVE-2009-2265](https://github.com/matesz44/CVE-2009-2265)
 - [hd-exe/CVE-2009-2265-fix](https://github.com/hd-exe/CVE-2009-2265-fix)
+- [d4ytox/CVE-2009-2265](https://github.com/d4ytox/CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
 
