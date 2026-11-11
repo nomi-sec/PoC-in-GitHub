@@ -6992,6 +6992,7 @@
 
 - [Cyb3rWitch3r/CVE-2026-26119](https://github.com/Cyb3rWitch3r/CVE-2026-26119)
 - [r3vpwnx/CVE-2026-26119](https://github.com/r3vpwnx/CVE-2026-26119)
+- [csdovah/vuln-cve-2026-26119](https://github.com/csdovah/vuln-cve-2026-26119)
 
 ### CVE-2026-26128 (2026-03-10)
 
@@ -16130,6 +16131,13 @@
 
 - [toanln-cov/CVE-2026-66493](https://github.com/toanln-cov/CVE-2026-66493)
 
+### CVE-2026-66613 (2026-08-19)
+
+<code>Unauthenticated Remote Code Execution (RCE) in JetEngine &lt;= 3.8.14 versions.
+</code>
+
+- [aramosf/CVE-2026-66613](https://github.com/aramosf/CVE-2026-66613)
+
 ### CVE-2026-66729 (2026-07-27)
 
 <code>facil.io 0.6.0 through 0.7.6 contains an integer underflow vulnerability in the multipart MIME body parser that allows unauthenticated remote attackers to crash the server process by sending a crafted Content-Disposition header with an empty field name. Attackers can trigger a uint32_t wraparound in http_mime_parser.h causing an out-of-bounds memory read past the name pointer, resulting in a bus fault that crashes the handling worker with a single POST request.
@@ -17431,6 +17439,13 @@
 </code>
 
 - [OlivierLaflamme/UniBLEed](https://github.com/OlivierLaflamme/UniBLEed)
+
+### CVE-2026-76844 (2026-08-24)
+
+<code>zlib 1.2.11 through 1.3.2 contains a heap buffer overflow: after an underlying write() fails, gz_write() returns without resetting strm.next_in, leaving it pointed at the caller's buffer. A later gz* write call then derives a position from the stale pointer and writes past a heap allocation; any write() failure reaches it, including EPIPE on a blocking descriptor, and in versions before 1.3.1.2 the failed write must be followed by a gzclearerr() call.
+</code>
+
+- [perplexedyawdie/cve-2026-76844-lab](https://github.com/perplexedyawdie/cve-2026-76844-lab)
 
 ### CVE-2026-76904 (2026-08-21)
 
@@ -19955,6 +19970,13 @@
 - [j0wii/CVE-2026-97798_LPE_Windows](https://github.com/j0wii/CVE-2026-97798_LPE_Windows)
 - [ashrafzaryouh/CVE-2026-97798](https://github.com/ashrafzaryouh/CVE-2026-97798)
 
+### CVE-2026-97799 (2026-10-13)
+
+<code>Improper verification of cryptographic signature in Windows Audio Service allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [heluhule/sound-of-system](https://github.com/heluhule/sound-of-system)
+
 ### CVE-2026-97859 (2026-10-18)
 
 <code>Seven Gitea API routes under `/api/v1/users/{username}` (followers, following, following/{target}, starred, subscriptions, keys and gpg_keys) were registered without the `individualPermsChecker` middleware that enforces the visibility of the target user. An authenticated user could therefore read the followers, following list, starred and watched repositories and public SSH and GPG keys of a user with limited or private visibility, whom they could not otherwise see. The issue was fixed in 1.27.3 and 28.0.0 and disclosed with 28.2.0.
@@ -20049,6 +20071,7 @@
 - [cuteaplane/opd2051example](https://github.com/cuteaplane/opd2051example)
 - [arkylin/CVE-2026-98260-Asteroids](https://github.com/arkylin/CVE-2026-98260-Asteroids)
 - [orumanayurpanjayat-ux/SamTimer](https://github.com/orumanayurpanjayat-ux/SamTimer)
+- [jonrazta89/timertest](https://github.com/jonrazta89/timertest)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -21086,7 +21109,7 @@
 
 ### CVE-2026-106173 (2026-10-13)
 
-<code>A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiSIEM 7.5.0 may allow attacker to execute unauthorized code or commands via specially crafted packets.
+<code>A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiSIEM 7.5.0, FortiSIEM 7.4 all versions, FortiSIEM 7.3 all versions, FortiSIEM 7.2 all versions, FortiSIEM 7.1 all versions, FortiSIEM 7.0 all versions may allow attacker to execute unauthorized code or commands via specially crafted packets.
 </code>
 
 - [horizon3ai/CVE-2026-106173](https://github.com/horizon3ai/CVE-2026-106173)
@@ -23128,6 +23151,13 @@
 
 - [hyderpwn/CVE-pipeshub](https://github.com/hyderpwn/CVE-pipeshub)
 
+### CVE-2026-119905 (2026-11-10)
+
+<code>Improper input validation in Windows DNS allows an authorized attacker to perform spoofing over a network.
+</code>
+
+- [overgrowncarrot1/CVE-2026-119905-DNS-Log-Poisoning-UNC-Path](https://github.com/overgrowncarrot1/CVE-2026-119905-DNS-Log-Poisoning-UNC-Path)
+
 ### CVE-2026-119977 (2026-10-31)
 
 <code>WordPress Core is vulnerable to Remote Code Execution in versions 4.7 through 7.1.3. This is due to predictable, web-accessible staging paths used during full-package core upgrades. This makes it possible for unauthenticated attackers to execute code on the server during the upgrade window.
@@ -23312,6 +23342,13 @@
 
 - [zeetee1235/CVE-2026-124040](https://github.com/zeetee1235/CVE-2026-124040)
 
+### CVE-2026-124194 (2026-11-10)
+
+<code>Product ui does not warn user of unsafe actions in Microsoft Office Outlook allows an unauthorized attacker to perform spoofing over a network.
+</code>
+
+- [AmesianX/CVE-2026-124194-poc](https://github.com/AmesianX/CVE-2026-124194-poc)
+
 ### CVE-2026-124450 (2026-11-08)
 
 <code>OpenEMR before 8.3.0 contains a broken access control and path traversal vulnerability in the fax/sms module disposeDocument action via an unvalidated file_path parameter. Authenticated low-privilege users can read sqlconf.php to recover database credentials and write arbitrary files as the web user, enabling remote code execution.
@@ -23339,6 +23376,7 @@
 </code>
 
 - [ashrafzaryouh/CVE-2026-125350](https://github.com/ashrafzaryouh/CVE-2026-125350)
+- [Frostmoon39206/CVE-2026-125350-PoC](https://github.com/Frostmoon39206/CVE-2026-125350-PoC)
 
 ### CVE-2026-125394 (2026-11-09)
 
