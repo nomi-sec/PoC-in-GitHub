@@ -11940,6 +11940,7 @@
 - [a78c7/w25-cve-2026-43499-notes](https://github.com/a78c7/w25-cve-2026-43499-notes)
 - [Viper-Boss/iqoo-neo5-temp-root](https://github.com/Viper-Boss/iqoo-neo5-temp-root)
 - [BlackIce417/root-oplusace5](https://github.com/BlackIce417/root-oplusace5)
+- [DarkDevil-937/make-it-root](https://github.com/DarkDevil-937/make-it-root)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -17455,6 +17456,13 @@
 - [YonLiud/CVE-2026-76904](https://github.com/YonLiud/CVE-2026-76904)
 - [bickZero93/CVE-2026-76904](https://github.com/bickZero93/CVE-2026-76904)
 
+### CVE-2026-76964 (2026-11-10)
+
+<code>SAP NetWeaver Application Server ABAP does not sufficiently validate certain network input processed by an internal component. An unauthenticated attacker could send specially crafted network traffic to trigger a memory corruption condition in the affected functionality. Successful exploitation could allow the attacker to execute arbitrary code and fully compromise the system, resulting in a high impact on confidentiality, integrity and availability of the system.
+</code>
+
+- [foxcornlab/sap-patchday-scanner](https://github.com/foxcornlab/sap-patchday-scanner)
+
 ### CVE-2026-77078 (2026-08-28)
 
 <code>multer is a middleware for handling multipart/form-data in Node.js. A small multipart request containing two specially crafted text field names can cause an uncaught RangeError (Invalid array length) that terminates the Node.js process. The first field uses a very large numeric array index to allocate a maximum-length sparse array, and a second field then pushes past that length, which throws inside the append-field dependency and is not caught by multer. All versions before 2.3.0 are affected, and the issue is a remotely triggerable denial of service. The issue is fixed in multer 2.3.0. Upgrade to multer 2.3.0 to remediate.
@@ -20993,6 +21001,13 @@
 ### CVE-2026-105319
 - [kashishtopi/CVE-2026-105319](https://github.com/kashishtopi/CVE-2026-105319)
 
+### CVE-2026-105437 (2026-11-10)
+
+<code>Affected versions of Git have a heap buffer overflow in the three-way merge\ncode (xdiff), which an attacker can trigger through a repository they\ncontrol.\n\nWhen Git merges a file, it first adds up the size of the merged\noutput, allocates a buffer of that size, and then writes the output into\nit. That total was kept in a 32-bit signed integer. The\nconflict-marker-size attribute, which can be set from a committed\n.gitattributes file, accepts any positive integer, and the markers are\nwritten several times for every conflict. A small file with a huge marker\nsize and many separate conflicts can therefore push the total past 4 GiB,\nso the integer wraps to a small value and Git writes attacker-controlled\nmerge output past the end of a buffer that is too small. At minimum this\ncrashes Git, and because the overflow is large and its contents are largely\nattacker-controlled, worse heap corruption is possible.\n\nAny command that does a textual three-way merge can trigger it, such\nas git-merge(1), git-rebase(1), git-cherry-pick(1), and\ngit-merge-tree(1). The latter is most likely a target for Git forges,\nwhich might use git-merge-tree(1) on the server-side to check\nmergeability. When the server reads attributes from trees in the\nrepository (for example through attr.tree or --attr-source), any\nuser who can push branches and request that they be merged (for\nexample by opening a pull or merge request) can trigger the overflow\nwithout anyone else doing anything, and the data they push is small\nbecause the oversized output only appears during the merge.\n\nThe problem has been patched by computing the size as size_t and\nchecking every addition for overflow, so Git stops with an error\ninstead of overflowing.\n\nServers that cannot upgrade right away can add\n\n* conflict-marker-size=7\n\nto each repository's info/attributes as a workaround, which overrides\nany in-tree .gitattributes, or turn off server-side mergeability checks for\nuntrusted repositories.
+</code>
+
+- [googlesky/CVE-2026-105437](https://github.com/googlesky/CVE-2026-105437)
+
 ### CVE-2026-105445 (2026-10-13)
 
 <code>An Incorrect Privilege Assignment vulnerability in Docker Hub's account-to-organization conversion feature allowed an authenticated attacker to reassign a personal access token (PAT) they controlled to another Docker Hub user without rotating or revoking the token secret. The unchanged PAT then authenticated to the registry as the recipient and could pull, push, or delete images, within its scopes, in repositories accessible to that user, including organization repositories.
@@ -21380,7 +21395,6 @@
 <code>On Debian, Ubuntu, and derivative Linux distributions, an on-path attacker who can manipulate the HTTP traffic (including a malicious mirror or proxy) between an APT client and an archive server triggered by a package install can trick the client into installing an attacker-controlled unverified package and achieve remote code execution with root privileges.\n\n\n\nThe vulnerability is caused by the reuse of hard links and requires the client to follow redirects and retry the download of package files. It requires the client to have a non-zero Acquire::Retries configuration setting; the value 3 is the default starting with Debian 12 (bookworm) and Ubuntu 22.04 LTS (Jammy Jellyfish), so older releases are unaffected in a default configuration
 </code>
 
-- [NeoArtemis37/PHP2shell](https://github.com/NeoArtemis37/PHP2shell)
 - [Quaerendir/cve-2026-109518-audit](https://github.com/Quaerendir/cve-2026-109518-audit)
 - [jordanhardee/cve-2026-109518-apt-patch-proxmox-and-generic](https://github.com/jordanhardee/cve-2026-109518-apt-patch-proxmox-and-generic)
 
@@ -23058,6 +23072,13 @@
 
 - [AlexBiller/salesforce-cve-remediation-demo](https://github.com/AlexBiller/salesforce-cve-remediation-demo)
 
+### CVE-2026-117635 (2026-11-01)
+
+<code>The `/api/v1/admin` route group did not enforce the `public-only` restriction of personal access tokens. A public-only token with admin scope issued by a site administrator could therefore list private organizations and the email addresses of all users, create organizations, obtain runner registration tokens and create new site administrator accounts, the last of which persists after the token is revoked. Tokens of users who are not site administrators cannot reach these routes; public-only tokens are now rejected on the admin API.
+</code>
+
+- [omarkurt/CVE-2026-117635](https://github.com/omarkurt/CVE-2026-117635)
+
 ### CVE-2026-117691 (2026-11-05)
 
 <code>A flaw was found in the SAML HTTP-Redirect binding implementation of Keycloak. The issue occurs because the server processes percent-encoded parameter names (like %53AMLResponse) while the signature verification logic only checks literal parameter names. An attacker can use this discrepancy to provide a crafted, unsigned SAML message that the server processes instead of a legitimately signed one, leading to full account takeover of federated users.
@@ -23085,6 +23106,13 @@
 </code>
 
 - [squeeze440/CVE-2026-118378-tabularis-PoC](https://github.com/squeeze440/CVE-2026-118378-tabularis-PoC)
+
+### CVE-2026-118383 (2026-11-10)
+
+<code>A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions, arbitrary code execution in the context of the server process. Replica set members are affected, including the shard and config server replica set members of sharded clusters; standalone mongod instances are not.
+</code>
+
+- [googlesky/CVE-2026-118383](https://github.com/googlesky/CVE-2026-118383)
 
 ### CVE-2026-118423 (2026-11-06)
 
@@ -23310,6 +23338,7 @@
 - [Iperez95-ot/sshole-lab](https://github.com/Iperez95-ot/sshole-lab)
 - [Certbn/CVE-2026-123158-OpenSSH-sshd-SSHhole-sshole-](https://github.com/Certbn/CVE-2026-123158-OpenSSH-sshd-SSHhole-sshole-)
 - [pablocerdeira1/CVE-2026-123158](https://github.com/pablocerdeira1/CVE-2026-123158)
+- [douglasmun/CVE-2026-123158_sshole_lab](https://github.com/douglasmun/CVE-2026-123158_sshole_lab)
 
 ### CVE-2026-123218 (2026-11-07)
 
@@ -23328,6 +23357,13 @@
 - [foxcornlab/craft-cms-scanner](https://github.com/foxcornlab/craft-cms-scanner)
 - [ashrafzaryouh/CVE-2026-123488](https://github.com/ashrafzaryouh/CVE-2026-123488)
 
+### CVE-2026-123618 (2026-11-06)
+
+<code>ABP Framework before 10.7.1 contains an authentication bypass vulnerability that skips account state and two-factor checks when password login succeeds through a registered IExternalLoginProvider. Attackers holding the external directory password for deactivated, locked, or 2FA-protected accounts can obtain valid access tokens from the /connect/token password grant.
+</code>
+
+- [yuwkaaa/CVE-2026-123618](https://github.com/yuwkaaa/CVE-2026-123618)
+
 ### CVE-2026-123753 (2026-11-09)
 
 <code>Server-Side Request Forgery (SSRF) vulnerability in Apache Axis2/Java. An unauthenticated caller could supply a non-anonymous WS-Addressing wsa:ReplyTo or wsa:FaultTo address, and Axis2 would open a connection to that address to deliver the response or fault, allowing requests to internal hosts and delivery of response content to a host of the caller's choosing. From 2.0.2, decoupled responses are refused unless allowNonAnonymousResponseEndpoints is enabled, and enabled endpoints are restricted by scheme and screened at both the header-parsing and transport-selection layers. This issue affects Apache Axis2/Java: through 2.0.1. Users are recommended to upgrade to version 2.0.2, which fixes the issue.
@@ -23341,6 +23377,13 @@
 </code>
 
 - [zeetee1235/CVE-2026-124040](https://github.com/zeetee1235/CVE-2026-124040)
+
+### CVE-2026-124079 (2026-11-09)
+
+<code>rConfig Core 8.0.0 before 8.2.19 and rConfig Pro before 8.4.1 contain a deserialization of untrusted data vulnerability that allows unauthenticated network attackers to execute arbitrary code by pushing a crafted serialized job onto the Redis-backed Laravel Horizon queue, which runs without authentication in affected deployments. Laravel's CallQueuedHandler unserializes the job without class restrictions, allowing attackers to instantiate the existing App\\Jobs\\TaskDownloadRun class and invoke an attacker-controlled Artisan command. Attackers can leverage the bundled laravel/tinker package to execute arbitrary PHP and operating system commands as the queue worker's user, write a persistent web shell into the web-served storage/app/public directory, and read database credentials, stored device credentials, and API tokens. Where Redis is not directly reachable, authenticated attackers can deliver the payload through the application by configuring a device target that points at the rConfig server's loopback address.
+</code>
+
+- [googlesky/CVE-2026-124079](https://github.com/googlesky/CVE-2026-124079)
 
 ### CVE-2026-124194 (2026-11-10)
 
@@ -23377,6 +23420,7 @@
 
 - [ashrafzaryouh/CVE-2026-125350](https://github.com/ashrafzaryouh/CVE-2026-125350)
 - [Frostmoon39206/CVE-2026-125350-PoC](https://github.com/Frostmoon39206/CVE-2026-125350-PoC)
+- [TJT001/CVE-2026-125350-PoC](https://github.com/TJT001/CVE-2026-125350-PoC)
 
 ### CVE-2026-125394 (2026-11-09)
 
@@ -23395,12 +23439,26 @@
 ### CVE-2026-125439
 - [kanokwut/CVE-2026-125439-poc](https://github.com/kanokwut/CVE-2026-125439-poc)
 
+### CVE-2026-125753 (2026-11-10)
+
+<code>ABP Framework 2.9.0 before 10.6.2 and 10.7.0 pre-releases before 10.7.0 contain a path traversal vulnerability in DefaultBlobFilePathCalculator that allows unauthenticated attackers to access files outside the blob container. Attackers can send %5C-encoded backslashes through the Blogging api/blogging/files/{name} endpoint on Windows hosts to read files like appsettings.json containing signing keys and connection strings.
+</code>
+
+- [yuwkaaa/CVE-2026-125753](https://github.com/yuwkaaa/CVE-2026-125753)
+
 ### CVE-2026-125757 (2026-11-10)
 
 <code>mailcow: dockerized before 2026-11 contains a server-side template injection vulnerability that allows domain administrators to execute commands in the shared rspamd container by storing a malicious domain-wide footer. Attackers can embed a Jinja macro with an os.execute default value, rendered by the rspamd MOO_FOOTER prefilter, to read or inject mail for every tenant and disable filtering.
 </code>
 
 - [Faceless0x7/CVE-2026-125757](https://github.com/Faceless0x7/CVE-2026-125757)
+
+### CVE-2026-126187 (2026-11-10)
+
+<code>React is a JavaScript library for building user interfaces. From 19.0.0 until 19.0.9, 19.1.10, 19.2.9, and 19.3.1, the react-server-dom-webpack, react-server-dom-parcel, and react-server-dom-turbopack packages are vulnerable to unauthenticated remote code execution through crafted payloads targeting frameworks that support React Server Components. The vulnerability only affects extremely rare cases where responses transport multiple typed arrays and an attacker-controlled value. Applications whose React code does not use a server are not affected. Applications that do not use a framework, bundler, or bundler plugin that supports React Server Components are not affected. This issue is fixed in versions 19.0.9, 19.1.10, 19.2.9, and 19.3.1.
+</code>
+
+- [briskets/CVE-2026-126187-poc](https://github.com/briskets/CVE-2026-126187-poc)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -23413,6 +23471,9 @@
 
 ### CVE-2026-2035703
 - [danish1162/CVE-2026-2035703-x300](https://github.com/danish1162/CVE-2026-2035703-x300)
+
+### CVE-2026-2039819
+- [MicrosoftARMAssembler/CVE-2026-2039819-PoC](https://github.com/MicrosoftARMAssembler/CVE-2026-2039819-PoC)
 
 
 ## 2025
@@ -29645,6 +29706,7 @@
 - [Si13NTTT/CVE-2025-32432](https://github.com/Si13NTTT/CVE-2025-32432)
 - [P34NUT2/CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT)
 - [l0lsuit/CVE-2025-32432-craftcms-rce](https://github.com/l0lsuit/CVE-2025-32432-craftcms-rce)
+- [godylockz/CVE-2025-32432](https://github.com/godylockz/CVE-2025-32432)
 
 ### CVE-2025-32433 (2025-04-16)
 
@@ -53431,7 +53493,6 @@
 
 - [keto0422/CVE-2023-33107](https://github.com/keto0422/CVE-2023-33107)
 - [264312431/picohaxx](https://github.com/264312431/picohaxx)
-- [markutell/CVE-2023-33107-SO51A](https://github.com/markutell/CVE-2023-33107-SO51A)
 
 ### CVE-2023-33177 (2023-05-30)
 
@@ -54479,6 +54540,7 @@
 - [e11i0t4lders0n/CVE-2023-36845](https://github.com/e11i0t4lders0n/CVE-2023-36845)
 - [kopfjager007/CVE-2023-36845](https://github.com/kopfjager007/CVE-2023-36845)
 - [cxb2523/ccfb-pointwise-20261109-010-cve-2023-36845-scanner](https://github.com/cxb2523/ccfb-pointwise-20261109-010-cve-2023-36845-scanner)
+- [cxb2523/ccfb-pointwise-20261111-claude-uid831-867-017-cve-2023-36845-scanner](https://github.com/cxb2523/ccfb-pointwise-20261111-claude-uid831-867-017-cve-2023-36845-scanner)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -59140,6 +59202,7 @@
 </code>
 
 - [SpiralBL0CK/CVE-2022-3653](https://github.com/SpiralBL0CK/CVE-2022-3653)
+- [SpiralBL0CK/VULKAN-RCE-cve-2022-3653](https://github.com/SpiralBL0CK/VULKAN-RCE-cve-2022-3653)
 
 ### CVE-2022-3656 (2022-11-01)
 
@@ -60461,13 +60524,13 @@
 - [Kazaf6s/CVE-2022-23131](https://github.com/Kazaf6s/CVE-2022-23131)
 - [SCAMagic/CVE-2022-23131poc-exp-zabbix-](https://github.com/SCAMagic/CVE-2022-23131poc-exp-zabbix-)
 - [Vulnmachines/Zabbix-CVE-2022-23131](https://github.com/Vulnmachines/Zabbix-CVE-2022-23131)
-- [wr0x00/cve-2022-23131](https://github.com/wr0x00/cve-2022-23131)
 - [Arrnitage/CVE-2022-23131_exp](https://github.com/Arrnitage/CVE-2022-23131_exp)
 - [clearcdq/Zabbix-SAML-SSO-_CVE-2022-23131](https://github.com/clearcdq/Zabbix-SAML-SSO-_CVE-2022-23131)
 - [r10lab/CVE-2022-23131](https://github.com/r10lab/CVE-2022-23131)
 - [fork-bombed/CVE-2022-23131](https://github.com/fork-bombed/CVE-2022-23131)
 - [davidzzo23/CVE-2022-23131](https://github.com/davidzzo23/CVE-2022-23131)
 - [dagowda/Zabbix-cve-2022-23131-SSO-bypass](https://github.com/dagowda/Zabbix-cve-2022-23131-SSO-bypass)
+- [0xbara/cve-2022-23131](https://github.com/0xbara/cve-2022-23131)
 
 ### CVE-2022-23134 (2022-01-13)
 
