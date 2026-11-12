@@ -5117,6 +5117,7 @@
 
 ### CVE-2026-21155
 - [UnsignedChad/CVE-2026-21155-SVE-2026-3546](https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546)
+- [yuki493/s5e8835-sboot-probe](https://github.com/yuki493/s5e8835-sboot-probe)
 
 ### CVE-2026-21250 (2026-02-10)
 
@@ -11716,7 +11717,6 @@
 - [mcxiaochenn/iqooNeo8-V2301A-DirtyFrag](https://github.com/mcxiaochenn/iqooNeo8-V2301A-DirtyFrag)
 - [noctide/redmi-k50-temp-root](https://github.com/noctide/redmi-k50-temp-root)
 - [h5hg6vy8nt-hue/meizu20pro-temp-root](https://github.com/h5hg6vy8nt-hue/meizu20pro-temp-root)
-- [Jean7z/DFRoot-DirtyFrag](https://github.com/Jean7z/DFRoot-DirtyFrag)
 - [nemoiwkryang/pd2301-dirtyfrag-root](https://github.com/nemoiwkryang/pd2301-dirtyfrag-root)
 - [q181555/pd2232-dirtyfrag](https://github.com/q181555/pd2232-dirtyfrag)
 - [SameerAlSahab/twentysixify](https://github.com/SameerAlSahab/twentysixify)
@@ -16040,7 +16040,11 @@
 - [CyberVinner/CP-PLUS-EZ-P21-CVE-2026-65893-65894](https://github.com/CyberVinner/CP-PLUS-EZ-P21-CVE-2026-65893-65894)
 - [ivmks74/IIITA-IoT-Security-Research](https://github.com/ivmks74/IIITA-IoT-Security-Research)
 
-### CVE-2026-65971
+### CVE-2026-65971 (2026-11-11)
+
+<code>Livewire PowerGrid creates data tables based on Laravel Livewire library. From version 6.0.0 to before version 6.10.4, the public Livewire property sortDirection is interpolated verbatim into a raw SQL ORDER BY clause and is not restricted to asc/desc, allowing arbitrary SQL injection through POST /livewire/update. This issue has been patched in version 6.10.4.
+</code>
+
 - [BiiTts/POC-CVE-2026-65971](https://github.com/BiiTts/POC-CVE-2026-65971)
 
 ### CVE-2026-66066 (2026-07-30)
@@ -17453,6 +17457,9 @@
 
 - [YonLiud/CVE-2026-76904](https://github.com/YonLiud/CVE-2026-76904)
 - [bickZero93/CVE-2026-76904](https://github.com/bickZero93/CVE-2026-76904)
+
+### CVE-2026-76954
+- [ansonhsu-ai/synology-dsm-cve-2026-76954-ste](https://github.com/ansonhsu-ai/synology-dsm-cve-2026-76954-ste)
 
 ### CVE-2026-76964 (2026-11-10)
 
@@ -20940,6 +20947,13 @@
 
 - [wvllxe/CVE-2026-104991](https://github.com/wvllxe/CVE-2026-104991)
 
+### CVE-2026-105016 (2026-10-13)
+
+<code>Heap-based buffer overflow in Microsoft QUIC allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [LHeiakim/CVE-2026-105016-RCE-PoC](https://github.com/LHeiakim/CVE-2026-105016-RCE-PoC)
+
 ### CVE-2026-105030 (2026-10-02)
 
 <code>Kener 4.0.0 before 4.1.6 contains an information disclosure vulnerability that allows unauthenticated attackers to retrieve hidden or inactive monitor data by querying dashboard API handlers lacking visibility filters. Attackers can supply a known or guessed monitor tag to endpoints such as monitor-bar and monitor-latency-chart to obtain names, descriptions, status, uptime history and latency.
@@ -22234,7 +22248,9 @@
 - [solidevil14/php2shell-detections](https://github.com/solidevil14/php2shell-detections)
 - [K2uci/PHP2ShellPOC-CVE-2026-109619](https://github.com/K2uci/PHP2ShellPOC-CVE-2026-109619)
 - [blkph0x/CVE-2026-109619-ZendPipelineLab](https://github.com/blkph0x/CVE-2026-109619-ZendPipelineLab)
+- [LuckyFishOno/php2shell-619-poc](https://github.com/LuckyFishOno/php2shell-619-poc)
 - [MarceloAstudillo13/Tryhackme-PHP2Shell](https://github.com/MarceloAstudillo13/Tryhackme-PHP2Shell)
+- [Oresti-Jorgjiu/CVE-2026-109619-Alpine-SessionLFI](https://github.com/Oresti-Jorgjiu/CVE-2026-109619-Alpine-SessionLFI)
 
 ### CVE-2026-109715 (2026-10-13)
 
@@ -23060,6 +23076,9 @@
 ### CVE-2026-117017
 - [esecforte/PoC_CVE-2026-117017](https://github.com/esecforte/PoC_CVE-2026-117017)
 
+### CVE-2026-117025
+- [Lariinz/CVE-2026-117025](https://github.com/Lariinz/CVE-2026-117025)
+
 ### CVE-2026-117065
 - [CodeStartUp/CVE-2026-117065](https://github.com/CodeStartUp/CVE-2026-117065)
 
@@ -23512,7 +23531,11 @@
 
 - [Faceless0x7/CVE-2026-125757](https://github.com/Faceless0x7/CVE-2026-125757)
 
-### CVE-2026-126170
+### CVE-2026-126170 (2026-11-11)
+
+<code>A improper encoding or escaping of output vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.2, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer Cloud 8.0.1 through 8.0.2, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer-BigData 7.6.0 through 7.6.2, FortiManager 8.0.0 through 8.0.2, FortiManager 7.6.0 through 7.6.7, FortiManager Cloud 8.0.1 through 8.0.2, FortiManager Cloud 7.6.0 through 7.6.7 may allow an unauthenticated attacker to execute unauthorized code or commands via a specially crafted HTTP request
+</code>
+
 - [Ghost-Bx1/cve-2026-126170-fortimanager-jsonrpc-rce](https://github.com/Ghost-Bx1/cve-2026-126170-fortimanager-jsonrpc-rce)
 
 ### CVE-2026-126187 (2026-11-10)
@@ -23521,6 +23544,7 @@
 </code>
 
 - [briskets/CVE-2026-126187-poc](https://github.com/briskets/CVE-2026-126187-poc)
+- [rudSarkar/GHSA-673q-mjm6-r5xr](https://github.com/rudSarkar/GHSA-673q-mjm6-r5xr)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -41792,6 +41816,7 @@
 - [CyberCTF/vulhub-jenkins-cve-2024-23897](https://github.com/CyberCTF/vulhub-jenkins-cve-2024-23897)
 - [ydkdk12345-bot/CVE-2024-23897-CTF](https://github.com/ydkdk12345-bot/CVE-2024-23897-CTF)
 - [foreverlanterns/secure-api-cve-2024-23897](https://github.com/foreverlanterns/secure-api-cve-2024-23897)
+- [itnsapurbalingga/POC-CVE-2024-23897](https://github.com/itnsapurbalingga/POC-CVE-2024-23897)
 
 ### CVE-2024-23898 (2024-01-24)
 
@@ -42327,7 +42352,7 @@
 - [diamorphine666/CVE-2024-25600](https://github.com/diamorphine666/CVE-2024-25600)
 - [Sibul-Dan-Glokta/test-task-CVE-2024-25600](https://github.com/Sibul-Dan-Glokta/test-task-CVE-2024-25600)
 - [so1icitx/CVE-2024-25600](https://github.com/so1icitx/CVE-2024-25600)
-- [ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM](https://github.com/ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM)
+- [ivanbg2004/oblivion-cve-2024-25600-scanner](https://github.com/ivanbg2004/oblivion-cve-2024-25600-scanner)
 - [DedsecTeam-BlackHat/Poleposph](https://github.com/DedsecTeam-BlackHat/Poleposph)
 - [r0otk3r/CVE-2024-25600](https://github.com/r0otk3r/CVE-2024-25600)
 - [Anjai7/TryHack3M-Bricks-Heist](https://github.com/Anjai7/TryHack3M-Bricks-Heist)
