@@ -2736,6 +2736,7 @@
 - [chessalekin/cve-2026-9198_exploit](https://github.com/chessalekin/cve-2026-9198_exploit)
 - [joaovicdev/EXPLOIT-CVE-2026-9198](https://github.com/joaovicdev/EXPLOIT-CVE-2026-9198)
 - [Riftweld/langflow-cve-2026-9198](https://github.com/Riftweld/langflow-cve-2026-9198)
+- [Edward-w-Jack/CVE-2026-9198](https://github.com/Edward-w-Jack/CVE-2026-9198)
 
 ### CVE-2026-9254 (2026-08-24)
 
@@ -16874,6 +16875,7 @@
 - [amier-ge/CVE-2026-72898](https://github.com/amier-ge/CVE-2026-72898)
 - [Riftweld/metabase-cve-2026-72898](https://github.com/Riftweld/metabase-cve-2026-72898)
 - [gagaltotal/CVE-2026-72898-metabase](https://github.com/gagaltotal/CVE-2026-72898-metabase)
+- [Jenderal92/metapwn-mass](https://github.com/Jenderal92/metapwn-mass)
 
 ### CVE-2026-73034 (2026-08-11)
 
@@ -17458,7 +17460,11 @@
 - [YonLiud/CVE-2026-76904](https://github.com/YonLiud/CVE-2026-76904)
 - [bickZero93/CVE-2026-76904](https://github.com/bickZero93/CVE-2026-76904)
 
-### CVE-2026-76954
+### CVE-2026-76954 (2026-11-12)
+
+<code>An improper neutralization of special elements used in an SQL command vulnerability in the Auth API in Synology DiskStation Manager (DSM) before 7.2.1-69057-13, 7.2.2-72806-10, 7.3.2-86009-5, and 7.4.1-90080-1 allows remote attackers to read or write arbitrary files and conduct denial-of-service attacks.
+</code>
+
 - [ansonhsu-ai/synology-dsm-cve-2026-76954-ste](https://github.com/ansonhsu-ai/synology-dsm-cve-2026-76954-ste)
 
 ### CVE-2026-76964 (2026-11-10)
@@ -17663,6 +17669,13 @@
 </code>
 
 - [n1kat/forkybot_AI](https://github.com/n1kat/forkybot_AI)
+
+### CVE-2026-78287 (2026-11-11)
+
+<code>Improper Control of Generation of Code ('Code Injection') vulnerability in Staggs STAGGS staggs allows Remote Code Inclusion.This issue affects STAGGS: from n/a through 3.3.0.
+</code>
+
+- [evenomn/CVE-2026-78287](https://github.com/evenomn/CVE-2026-78287)
 
 ### CVE-2026-78306 (2026-08-24)
 
@@ -18184,6 +18197,7 @@
 - [LACHHAB-Anas/CVE-2026-83844](https://github.com/LACHHAB-Anas/CVE-2026-83844)
 - [blkph0x/CVE-2026-83844_POC](https://github.com/blkph0x/CVE-2026-83844_POC)
 - [HackingLZ/CVE-2026-83844-public](https://github.com/HackingLZ/CVE-2026-83844-public)
+- [zake1god/CVE-2026-83844](https://github.com/zake1god/CVE-2026-83844)
 
 ### CVE-2026-83991 (2026-09-08)
 
@@ -20226,7 +20240,7 @@
 - [shizuku198411/CVE-2026-99999-KVM-checksum-metadata-non-destructive-PoC](https://github.com/shizuku198411/CVE-2026-99999-KVM-checksum-metadata-non-destructive-PoC)
 - [nsrg-fmlorg/kpatch-rocky-cve-2026-99999](https://github.com/nsrg-fmlorg/kpatch-rocky-cve-2026-99999)
 - [alvaroguzmancode/CVE-2026-99999](https://github.com/alvaroguzmancode/CVE-2026-99999)
-- [sqzer-x/cve-2026-99999-scanner](https://github.com/sqzer-x/cve-2026-99999-scanner)
+- [debuman/cve-2026-99999-scanner](https://github.com/debuman/cve-2026-99999-scanner)
 - [01luyicheng/CVE-2026-99999-analysis](https://github.com/01luyicheng/CVE-2026-99999-analysis)
 - [01luyicheng/CVE-2026-99999-exploit](https://github.com/01luyicheng/CVE-2026-99999-exploit)
 - [unixreaper/CVE-2026-99999-Research](https://github.com/unixreaper/CVE-2026-99999-Research)
@@ -21951,7 +21965,7 @@
 - [tsepangnkoe/php2shell-audit](https://github.com/tsepangnkoe/php2shell-audit)
 - [Continuum-AI-Corp/orcacyber-php2shell-research](https://github.com/Continuum-AI-Corp/orcacyber-php2shell-research)
 - [tuanhoma/CVE-2026-109618](https://github.com/tuanhoma/CVE-2026-109618)
-- [sqzer-x/php2shell-scanner](https://github.com/sqzer-x/php2shell-scanner)
+- [debuman/php2shell-scanner](https://github.com/debuman/php2shell-scanner)
 - [Chr1s-T/php2shell-cve-2026-109618](https://github.com/Chr1s-T/php2shell-cve-2026-109618)
 - [Senturkselim/Am-I-Infected](https://github.com/Senturkselim/Am-I-Infected)
 - [bagsiz/el8-php73-security](https://github.com/bagsiz/el8-php73-security)
@@ -22251,6 +22265,7 @@
 - [LuckyFishOno/php2shell-619-poc](https://github.com/LuckyFishOno/php2shell-619-poc)
 - [MarceloAstudillo13/Tryhackme-PHP2Shell](https://github.com/MarceloAstudillo13/Tryhackme-PHP2Shell)
 - [Oresti-Jorgjiu/CVE-2026-109619-Alpine-SessionLFI](https://github.com/Oresti-Jorgjiu/CVE-2026-109619-Alpine-SessionLFI)
+- [luckythandel/archivist-vm](https://github.com/luckythandel/archivist-vm)
 
 ### CVE-2026-109715 (2026-10-13)
 
@@ -22309,7 +22324,7 @@
 - [FranklinF25/regex2shell](https://github.com/FranklinF25/regex2shell)
 - [lesterlam/onigmo-cve-2026-110264](https://github.com/lesterlam/onigmo-cve-2026-110264)
 - [googlesky/CVE-2026-110264](https://github.com/googlesky/CVE-2026-110264)
-- [Masriyan/Exploit-CVE-2026-110264-GitLab-CE-EE-RCE](https://github.com/Masriyan/Exploit-CVE-2026-110264-GitLab-CE-EE-RCE)
+- [mohammadzarnian1357/Exploit-CVE-2026-110264-GitLab-CE-EE-RCE](https://github.com/mohammadzarnian1357/Exploit-CVE-2026-110264-GitLab-CE-EE-RCE)
 - [Ghost-Bx1/cve-2026-110264-gitlab-regex-rce](https://github.com/Ghost-Bx1/cve-2026-110264-gitlab-regex-rce)
 
 ### CVE-2026-110311 (2026-10-18)
@@ -23226,6 +23241,14 @@
 
 - [federiconbaez/cortex9-nuxt-dot-segment-middleware-bypass-model](https://github.com/federiconbaez/cortex9-nuxt-dot-segment-middleware-bypass-model)
 
+### CVE-2026-119618 (2026-11-11)
+
+<code>Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP Server's mod_http2 in assign_headers() can lead to RCE.\n\nThis issue affects Apache HTTP Server: from 2.4.55 through 2.4.70.\nAffected releases of mod_h2 from GitHub: from 2.0.8 through 2.0.42.
+</code>
+
+- [foxcornlab/apache-httpd-scanner](https://github.com/foxcornlab/apache-httpd-scanner)
+- [googlesky/CVE-2026-119618](https://github.com/googlesky/CVE-2026-119618)
+
 ### CVE-2026-119712 (2026-10-30)
 
 <code>PipesHub before 0.10.0 contains a server-side request forgery vulnerability in ImageParser._fetch_single_url that allows attackers to make the indexing service fetch internal addresses by embedding image URLs in documents. Attackers can supply Markdown or HTML via uploads, synced mailboxes, or web connectors to reach loopback, private-network, or cloud metadata endpoints, with image responses embedded into indexed content.
@@ -23246,6 +23269,13 @@
 </code>
 
 - [Ghost-Bx1/cve-2026-119948-windows-ad-rce](https://github.com/Ghost-Bx1/cve-2026-119948-windows-ad-rce)
+
+### CVE-2026-119958 (2026-11-10)
+
+<code>Out-of-bounds write in Windows LDAP - Lightweight Directory Access Protocol allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [googlesky/CVE-2026-119958](https://github.com/googlesky/CVE-2026-119958)
 
 ### CVE-2026-119977 (2026-10-31)
 
@@ -23321,6 +23351,13 @@
 - [googlesky/CVE-2026-121529](https://github.com/googlesky/CVE-2026-121529)
 - [googlesky/Fortinet2Shell](https://github.com/googlesky/Fortinet2Shell)
 - [Ghost-Bx1/cve-2026-121529-forticlient-cors-rce](https://github.com/Ghost-Bx1/cve-2026-121529-forticlient-cors-rce)
+
+### CVE-2026-121653 (2026-11-10)
+
+<code>SQL injection in the Core of Ivanti Endpoint Manager before version 2024 SU8 allows a remote unauthenticated attacker to achieve remote code execution.
+</code>
+
+- [googlesky/CVE-2026-121653](https://github.com/googlesky/CVE-2026-121653)
 
 ### CVE-2026-121720
 - [refiaa/CVE-2026-121720](https://github.com/refiaa/CVE-2026-121720)
@@ -23444,6 +23481,13 @@
 
 - [googlesky/CVE-2026-123753](https://github.com/googlesky/CVE-2026-123753)
 
+### CVE-2026-123807 (2026-11-09)
+
+<code>Signal K Server is a server application that runs on a central hub in a boat. From 2.0.0 until 2.34.0 for Signal K Server and from 1.0.0 until 1.5.3 for @signalk/resources-provider, the v2 REST route GET /signalk/v2/api/resources/:resourceType/:resourceId accepts an unsafe resourceId that can escape the intended resource directory. The route passes the attacker-controlled resourceId through src/api/resources/index.ts to FileStore.getResource() in packages/resources-provider-plugin/src/filestorage.ts without adequate path containment, allowing arbitrary JSON files reachable by the server to be read. Related PUT and DELETE resource operations can write or delete files outside the storage root. Deployments with allow_readonly enabled permit anonymous reads, while other deployments require a readonly user token. Reading security.json exposes the HS256 JWT signing secret and password hashes, allowing an attacker to forge an administrator token. Administrative access to POST /skServer/providers can then create an Execute provider that runs commands with the server process privileges and persists its configuration across restarts. This issue is fixed in Signal K Server 2.34.0 and @signalk/resources-provider 1.5.3.
+</code>
+
+- [qianlijaingshan/signalk-audit](https://github.com/qianlijaingshan/signalk-audit)
+
 ### CVE-2026-124040 (2026-11-06)
 
 <code>CivetWeb through 1.16, when built with USE_HTTP2 and enable_http2 on, contains a use-after-free vulnerability in handle_http2() that retains freed :method and :path pointers. Unauthenticated remote attackers can send a later HEADERS frame omitting these pseudo-headers to influence request method or path seen by access rules, or crash the server.
@@ -23531,12 +23575,27 @@
 
 - [Faceless0x7/CVE-2026-125757](https://github.com/Faceless0x7/CVE-2026-125757)
 
+### CVE-2026-126147 (2026-11-11)
+
+<code>A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an unauthenticated attacker to execute unauthorized code or commands via crafted requests.
+</code>
+
+- [googlesky/CVE-2026-126147](https://github.com/googlesky/CVE-2026-126147)
+
+### CVE-2026-126148 (2026-11-11)
+
+<code>A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6 may allow an unauthenticated attacker to execute unauthorized code or commands via crafted HA join-request packets.
+</code>
+
+- [googlesky/CVE-2026-126148](https://github.com/googlesky/CVE-2026-126148)
+
 ### CVE-2026-126170 (2026-11-11)
 
 <code>A improper encoding or escaping of output vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.2, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer Cloud 8.0.1 through 8.0.2, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer-BigData 7.6.0 through 7.6.2, FortiManager 8.0.0 through 8.0.2, FortiManager 7.6.0 through 7.6.7, FortiManager Cloud 8.0.1 through 8.0.2, FortiManager Cloud 7.6.0 through 7.6.7 may allow an unauthenticated attacker to execute unauthorized code or commands via a specially crafted HTTP request
 </code>
 
 - [Ghost-Bx1/cve-2026-126170-fortimanager-jsonrpc-rce](https://github.com/Ghost-Bx1/cve-2026-126170-fortimanager-jsonrpc-rce)
+- [googlesky/CVE-2026-126170](https://github.com/googlesky/CVE-2026-126170)
 
 ### CVE-2026-126187 (2026-11-10)
 
@@ -23545,6 +23604,14 @@
 
 - [briskets/CVE-2026-126187-poc](https://github.com/briskets/CVE-2026-126187-poc)
 - [rudSarkar/GHSA-673q-mjm6-r5xr](https://github.com/rudSarkar/GHSA-673q-mjm6-r5xr)
+- [TahuCryptsi/poc-cve-2026-126187-rsc-usecache-rce](https://github.com/TahuCryptsi/poc-cve-2026-126187-rsc-usecache-rce)
+
+### CVE-2026-126497 (2026-11-11)
+
+<code>LibreCAD through 2.2.1.6 contains a heap-based out-of-bounds write vulnerability in the bundled libdxfrw dwgReader18::parseDataPage() function due to unchecked buffer size and page offsets. Attackers can craft an AC1018 (R2004) DWG file with malicious startOffset values that cause decompress18 to write past the heap buffer when opened, causing crashes and potential code execution.
+</code>
+
+- [zeetee1235/CVE-2026-126497](https://github.com/zeetee1235/CVE-2026-126497)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -29261,6 +29328,7 @@
 - [Ghost-Bx1/cve-2025-29927-nextjs-middleware-bypass](https://github.com/Ghost-Bx1/cve-2025-29927-nextjs-middleware-bypass)
 - [goheesheng/sc3010](https://github.com/goheesheng/sc3010)
 - [elkhaoudari/CVE-2025-29927-Python](https://github.com/elkhaoudari/CVE-2025-29927-Python)
+- [dexteon/nextjs-middleware-auth-bypass-cve-2025-29927](https://github.com/dexteon/nextjs-middleware-auth-bypass-cve-2025-29927)
 
 ### CVE-2025-29943 (2026-01-16)
 
@@ -33099,6 +33167,7 @@
 </code>
 
 - [danielw98/zero-click-exploit-analysis](https://github.com/danielw98/zero-click-exploit-analysis)
+- [giannicabrera90-design/iOS-WhatsApp-Zero-Click-Forensic-Scanner](https://github.com/giannicabrera90-design/iOS-WhatsApp-Zero-Click-Forensic-Scanner)
 
 ### CVE-2025-55182 (2025-12-03)
 
@@ -37724,6 +37793,13 @@
 
 - [Madan301/CVE-2024-2054](https://github.com/Madan301/CVE-2024-2054)
 
+### CVE-2024-2057 (2024-03-01)
+
+<code>Es wurde eine kritische Schwachstelle in LangChain langchain_community 0.0.26 ausgemacht. Es geht dabei um die Funktion load_local in der Bibliothek libs/community/langchain_community/retrievers/tfidf.py der Komponente TFIDFRetriever. Durch das Manipulieren mit unbekannten Daten kann eine server-side request forgery-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung. Ein Aktualisieren auf die Version 0.0.27 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [dexteon/langchain-tfidf-pickle-rce-cve-2024-2057](https://github.com/dexteon/langchain-tfidf-pickle-rce-cve-2024-2057)
+
 ### CVE-2024-2074 (2024-03-01)
 
 <code>Eine kritische Schwachstelle wurde in Mini-Tmall bis 20231017 gefunden. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei ?r=tmall/admin/user/1/1. Mit der Manipulation des Arguments orderBy mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
@@ -37970,6 +38046,13 @@
 - [mcpmark-eval-liuhezi/security-digest-modern-classics](https://github.com/mcpmark-eval-liuhezi/security-digest-modern-classics)
 - [mcpmark-eval-liuhezi/log4j-xz-lessons](https://github.com/mcpmark-eval-liuhezi/log4j-xz-lessons)
 - [Skytheguy7/xz-utils-case-study](https://github.com/Skytheguy7/xz-utils-case-study)
+
+### CVE-2024-3095 (2024-06-06)
+
+<code>A Server-Side Request Forgery (SSRF) vulnerability exists in the Web Research Retriever component of langchain-ai/langchain version 0.1.5. The vulnerability arises because the Web Research Retriever does not restrict requests to remote internet addresses, allowing it to reach local addresses. This flaw enables attackers to execute port scans, access local services, and in some scenarios, read instance metadata from cloud environments. The vulnerability is particularly concerning as it can be exploited to abuse the Web Explorer server as a proxy for web attacks on third parties and interact with servers in the local network, including reading their response data. This could potentially lead to arbitrary code execution, depending on the nature of the local services. The vulnerability is limited to GET requests, as POST requests are not possible, but the impact on confidentiality, integrity, and availability is significant due to the potential for stolen credentials and state-changing interactions with internal APIs.
+</code>
+
+- [dexteon/langchain-webresearch-ssrf-cve-2024-3095](https://github.com/dexteon/langchain-webresearch-ssrf-cve-2024-3095)
 
 ### CVE-2024-3105 (2024-06-15)
 
@@ -39544,6 +39627,13 @@
 - [ubaydev/CVE-2024-8856](https://github.com/ubaydev/CVE-2024-8856)
 - [Jenderal92/CVE-2024-8856](https://github.com/Jenderal92/CVE-2024-8856)
 - [Evillm/CVE-2024-8856-PoC](https://github.com/Evillm/CVE-2024-8856-PoC)
+
+### CVE-2024-8859 (2025-03-20)
+
+<code>A path traversal vulnerability exists in mlflow/mlflow version 2.15.1. When users configure and use the dbfs service, concatenating the URL directly into the file protocol results in an arbitrary file read vulnerability. This issue occurs because only the path part of the URL is checked, while parts such as query and parameters are not handled. The vulnerability is triggered if the user has configured the dbfs service, and during usage, the service is mounted to a local directory.
+</code>
+
+- [dexteon/mlflow-dbfs-path-traversal-cve-2024-8859](https://github.com/dexteon/mlflow-dbfs-path-traversal-cve-2024-8859)
 
 ### CVE-2024-8949 (2024-09-17)
 
@@ -42352,7 +42442,7 @@
 - [diamorphine666/CVE-2024-25600](https://github.com/diamorphine666/CVE-2024-25600)
 - [Sibul-Dan-Glokta/test-task-CVE-2024-25600](https://github.com/Sibul-Dan-Glokta/test-task-CVE-2024-25600)
 - [so1icitx/CVE-2024-25600](https://github.com/so1icitx/CVE-2024-25600)
-- [ivanbg2004/oblivion-cve-2024-25600-scanner](https://github.com/ivanbg2004/oblivion-cve-2024-25600-scanner)
+- [OblivionDH/oblivion-cve-2024-25600-scanner](https://github.com/OblivionDH/oblivion-cve-2024-25600-scanner)
 - [DedsecTeam-BlackHat/Poleposph](https://github.com/DedsecTeam-BlackHat/Poleposph)
 - [r0otk3r/CVE-2024-25600](https://github.com/r0otk3r/CVE-2024-25600)
 - [Anjai7/TryHack3M-Bricks-Heist](https://github.com/Anjai7/TryHack3M-Bricks-Heist)
@@ -44376,7 +44466,7 @@
 - [mantanhacker/CVE-2024-36401-MASS](https://github.com/mantanhacker/CVE-2024-36401-MASS)
 - [Delt-A/CVE-2024-36401-poc](https://github.com/Delt-A/CVE-2024-36401-poc)
 - [DanieleGiovanardi2408/cve-2024-36401-geoserver-rce](https://github.com/DanieleGiovanardi2408/cve-2024-36401-geoserver-rce)
-- [keelanbrady1011/CVE-2024-36401](https://github.com/keelanbrady1011/CVE-2024-36401)
+- [astr4liteEx/CVE-2024-36401](https://github.com/astr4liteEx/CVE-2024-36401)
 - [raniaemran/cve-2024-36401-security-simulator](https://github.com/raniaemran/cve-2024-36401-security-simulator)
 - [basesixtythree/B63-POC-CVE-2024-36401](https://github.com/basesixtythree/B63-POC-CVE-2024-36401)
 
@@ -44529,6 +44619,7 @@
 - [ahboon/CVE-2024-37032-scanner](https://github.com/ahboon/CVE-2024-37032-scanner)
 - [pankass/CVE-2024-37032_CVE-2024-45436](https://github.com/pankass/CVE-2024-37032_CVE-2024-45436)
 - [itzSh4dowxZ/CVE-2024-37032-PoC](https://github.com/itzSh4dowxZ/CVE-2024-37032-PoC)
+- [dexteon/probllama-ollama-rce-cve-2024-37032](https://github.com/dexteon/probllama-ollama-rce-cve-2024-37032)
 
 ### CVE-2024-37051 (2024-06-10)
 
@@ -52413,6 +52504,7 @@
 - [duck-sec/CVE-2023-28252-Compiled-exe](https://github.com/duck-sec/CVE-2023-28252-Compiled-exe)
 - [byt3n33dl3/CLFS](https://github.com/byt3n33dl3/CLFS)
 - [Vulmatch/CVE-2023-28252](https://github.com/Vulmatch/CVE-2023-28252)
+- [Joe1sn/CVE_2023_28252](https://github.com/Joe1sn/CVE_2023_28252)
 
 ### CVE-2023-28303 (2023-06-13)
 
@@ -56906,6 +56998,7 @@
 </code>
 
 - [JarvisDing-sdu/Yasa-CVE-2023-46229](https://github.com/JarvisDing-sdu/Yasa-CVE-2023-46229)
+- [dexteon/langchain-sitemap-ssrf-cve-2023-46229](https://github.com/dexteon/langchain-sitemap-ssrf-cve-2023-46229)
 
 ### CVE-2023-46304 (2024-04-30)
 
@@ -88695,6 +88788,7 @@
 - [YonLiud/CVE-2017-7494](https://github.com/YonLiud/CVE-2017-7494)
 - [CyberCTF/vulhub-samba-cve-2017-7494](https://github.com/CyberCTF/vulhub-samba-cve-2017-7494)
 - [JA-Cyber365/home-network-security-assessment](https://github.com/JA-Cyber365/home-network-security-assessment)
+- [HarshithM834/cyse425-samba-security-assessment](https://github.com/HarshithM834/cyse425-samba-security-assessment)
 
 ### CVE-2017-7504 (2017-05-19)
 
