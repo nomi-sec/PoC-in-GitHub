@@ -16471,7 +16471,7 @@
 
 ### CVE-2026-68524 (2026-11-05)
 
-<code>An unauthenticated attacker can exploit temporary-file handling, access an open file descriptor, and inject a &quot;file:&quot; URI to cause OFBiz to load an attacker-controlled Screen definition.\n\n\n\nThis issue affects Apache OFBiz: before 24.09.08.\n\n\n\nUsers are recommended to upgrade to version 24.09.08, which fixes the issue.
+<code>An unauthenticated attacker can exploit temporary-file handling, access an open file descriptor, and inject a &quot;file:&quot; URI to cause OFBiz to load an attacker-controlled Screen definition.\n\n\n\nThe described vulnerability was discovered independantly twice, with each having a CVE assigned. See References.\n\n\n\nThis issue affects Apache OFBiz: before 24.09.08.\n\n\n\nUsers are recommended to upgrade to version 24.09.08, which fixes the issue.
 </code>
 
 - [fixedbyreboot/CVE-2026-68524-POC](https://github.com/fixedbyreboot/CVE-2026-68524-POC)
@@ -18149,7 +18149,7 @@
 
 ### CVE-2026-83542 (2026-11-05)
 
-<code>Improper Control of Generation of Code ('Code Injection') in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to execute arbitrary code on the server by staging crafted widget XML in a multipart upload and overriding the mainDecoratorLocation used by a manager login route through an anonymous JSON request, causing OFBiz to load the staged XML through its live screen descriptor mechanism and evaluate an unsandboxed Groovy expression while rendering the authentication-failure page. Further validation established the following:\n\n-- The exploit does not require a malformed or incomplete multipart body: a well-formed multipart request that is kept in flight and then allowed to complete normally is sufficient.\n\n-- The screen loader reads the widget XML from a live process file descriptor while the upload is streaming, rather than from any file the attacker persists to disk.\n\n-- The same underlying issue is also reachable through the public, explicitly unauthenticated /sfa/control/editPortalPageColumnWidth route, returning command output directly in an HTTP 200 response — it is not limited to the login-failure rendering path used in the original report.\n\nUsers are recommended to upgrade to version 24.09.08, which fixes this issue.
+<code>Improper Control of Generation of Code ('Code Injection') in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to execute arbitrary code on the server by staging crafted widget XML in a multipart upload and overriding the mainDecoratorLocation used by a manager login route through an anonymous JSON request, causing OFBiz to load the staged XML through its live screen descriptor mechanism and evaluate an unsandboxed Groovy expression while rendering the authentication-failure page. Further validation established the following:\n\n-- The exploit does not require a malformed or incomplete multipart body: a well-formed multipart request that is kept in flight and then allowed to complete normally is sufficient.\n\n-- The screen loader reads the widget XML from a live process file descriptor while the upload is streaming, rather than from any file the attacker persists to disk.\n\n-- The same underlying issue is also reachable through the public, explicitly unauthenticated /sfa/control/editPortalPageColumnWidth route, returning command output directly in an HTTP 200 response — it is not limited to the login-failure rendering path used in the original report.\n\n\n\nThe described vulnerability was discovered independantly twice, with each having a CVE assigned. See References.\n\n\n\n\nUsers are recommended to upgrade to version 24.09.08, which fixes this issue.
 </code>
 
 - [foxcornlab/ofbiz-scanner](https://github.com/foxcornlab/ofbiz-scanner)
@@ -18834,6 +18834,13 @@
 
 - [h00die/CVE-2026-87690-POC-Metasploit-Dir-Traverse-to-RCE](https://github.com/h00die/CVE-2026-87690-POC-Metasploit-Dir-Traverse-to-RCE)
 
+### CVE-2026-87772 (2026-11-12)
+
+<code>Incorrect Authorization vulnerability in TÜBİTAK BİLGEM Software Technologies Research Institute Pardus About allows Privilege Escalation.\n\nThis issue affects Pardus About: before 1.2.5.
+</code>
+
+- [jankesec/CVE-2026-87772-pardus-about-lpe](https://github.com/jankesec/CVE-2026-87772-pardus-about-lpe)
+
 ### CVE-2026-87796 (2026-09-17)
 
 <code>The Multi Uploader for Gravity Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.1.9 via the move_file function. This is due to insufficient file type validation during chunked upload handling. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
@@ -18898,6 +18905,13 @@
 </code>
 
 - [Boreas37/CVE-2026-88009-PoC](https://github.com/Boreas37/CVE-2026-88009-PoC)
+
+### CVE-2026-88235 (2026-11-10)
+
+<code>Unintended proxy or intermediary ('confused deputy') in Servicing Stack Updates allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [crisprss/CVE-2026-88235](https://github.com/crisprss/CVE-2026-88235)
 
 ### CVE-2026-88533
 - [HEMLOCK-LYK/CVE-2026-88533](https://github.com/HEMLOCK-LYK/CVE-2026-88533)
@@ -19745,6 +19759,13 @@
 </code>
 
 - [d6fault/CVE-2026-95675](https://github.com/d6fault/CVE-2026-95675)
+
+### CVE-2026-96054 (2026-11-10)
+
+<code>Heap-based buffer overflow in Microsoft Color Management allows an unauthorized attacker to execute code locally.
+</code>
+
+- [kagancapar/CVE-2026-96054](https://github.com/kagancapar/CVE-2026-96054)
 
 ### CVE-2026-96230 (2026-10-13)
 
@@ -21625,6 +21646,7 @@
 - [Fazmin/PHP2Shell-CVE-2026-109618-CVE-2026-109619-Mitigation-Info-PoC](https://github.com/Fazmin/PHP2Shell-CVE-2026-109618-CVE-2026-109619-Mitigation-Info-PoC)
 - [vulnace/PHP2Shell](https://github.com/vulnace/PHP2Shell)
 - [zarguell/php2shell-scanner](https://github.com/zarguell/php2shell-scanner)
+- [cyberkiddle/CVE-2026-109618](https://github.com/cyberkiddle/CVE-2026-109618)
 - [msoni11/msphp2shell](https://github.com/msoni11/msphp2shell)
 - [cseelhoff-ms/php2shell-hunting-pack](https://github.com/cseelhoff-ms/php2shell-hunting-pack)
 - [ivanscm/php80-cve-2026-109618](https://github.com/ivanscm/php80-cve-2026-109618)
@@ -23248,6 +23270,7 @@
 
 - [foxcornlab/apache-httpd-scanner](https://github.com/foxcornlab/apache-httpd-scanner)
 - [googlesky/CVE-2026-119618](https://github.com/googlesky/CVE-2026-119618)
+- [suominen/CVE-2026-119618](https://github.com/suominen/CVE-2026-119618)
 
 ### CVE-2026-119712 (2026-10-30)
 
@@ -23449,6 +23472,7 @@
 - [douglasmun/CVE-2026-123158_sshole_lab](https://github.com/douglasmun/CVE-2026-123158_sshole_lab)
 - [Doseuser/CVE-2026-123158](https://github.com/Doseuser/CVE-2026-123158)
 - [MMitsuha/CVE-2026-123158](https://github.com/MMitsuha/CVE-2026-123158)
+- [kaiqui/cve-2026-123158-lab](https://github.com/kaiqui/cve-2026-123158-lab)
 
 ### CVE-2026-123218 (2026-11-07)
 
@@ -38874,6 +38898,7 @@
 - [hlc23/CVE-2024-5932-web-ui](https://github.com/hlc23/CVE-2024-5932-web-ui)
 - [autom4il/CVE-2024-5932](https://github.com/autom4il/CVE-2024-5932)
 - [nishant-kumar-5173/CVE-2024-5932](https://github.com/nishant-kumar-5173/CVE-2024-5932)
+- [0o176/CVE-2024-5932_PoC](https://github.com/0o176/CVE-2024-5932_PoC)
 
 ### CVE-2024-5947 (2024-06-13)
 
@@ -73121,6 +73146,7 @@
 - [mcpmark-eval-liuhezi/security-digest-modern-classics](https://github.com/mcpmark-eval-liuhezi/security-digest-modern-classics)
 - [mcpmark-eval-liuhezi/log4j-xz-lessons](https://github.com/mcpmark-eval-liuhezi/log4j-xz-lessons)
 - [Certbn/CVE-2021-44228-Apache-Log4j2-JNDI-Lookup](https://github.com/Certbn/CVE-2021-44228-Apache-Log4j2-JNDI-Lookup)
+- [DatLang777/Log4Shell-BlueTeam-Detection-Lab](https://github.com/DatLang777/Log4Shell-BlueTeam-Detection-Lab)
 
 ### CVE-2021-44255 (2022-01-31)
 
