@@ -70,8 +70,6 @@
 - [MartinPSDev/CVE-2026-0073-Android-ADBD-bypass-POC](https://github.com/MartinPSDev/CVE-2026-0073-Android-ADBD-bypass-POC)
 - [unnaim/adbHijacker](https://github.com/unnaim/adbHijacker)
 - [ashrafzaryouh/CVE-2026-0073](https://github.com/ashrafzaryouh/CVE-2026-0073)
-- [xqi1337/poc-CVE-2026-0073](https://github.com/xqi1337/poc-CVE-2026-0073)
-- [xqi1337/CVE-2026-0073-Android-ADBD-bypass-POC](https://github.com/xqi1337/CVE-2026-0073-Android-ADBD-bypass-POC)
 - [tc4dy/CVE-2026-0073-PoC-Exploit](https://github.com/tc4dy/CVE-2026-0073-PoC-Exploit)
 - [0xbinder/CVE-2026-0073](https://github.com/0xbinder/CVE-2026-0073)
 - [m00ddy/CVE-2026-0073-Android-client-TLS-auth-bypass](https://github.com/m00ddy/CVE-2026-0073-Android-client-TLS-auth-bypass)
@@ -80,6 +78,7 @@
 - [aye468448-eng/CVE-2026-0073-Android-adbd-authentication-bypass](https://github.com/aye468448-eng/CVE-2026-0073-Android-adbd-authentication-bypass)
 - [naheeju/POC-CVE-2026-0073](https://github.com/naheeju/POC-CVE-2026-0073)
 - [umarrehmansiddiqui/CVE-2026-0073](https://github.com/umarrehmansiddiqui/CVE-2026-0073)
+- [xqi1337/poc-CVE-2026-0073](https://github.com/xqi1337/poc-CVE-2026-0073)
 
 ### CVE-2026-0075 (2026-06-01)
 
@@ -102,7 +101,11 @@
 
 - [Majorjayyy1/CVE-2026-0092](https://github.com/Majorjayyy1/CVE-2026-0092)
 
-### CVE-2026-0101
+### CVE-2026-0101 (2026-11-12)
+
+<code>Improper validation of specified quantities in input within AMD Power Management Firmware (PMFW) could allow a local attacker to pass unsanitized input, potentially resulting in a system crash or denial of service.
+</code>
+
 - [George0Papasotiriou/CVE-2026-0101-BLE-Address-Spoofing-via-Weak-Resolvable-Private-Address](https://github.com/George0Papasotiriou/CVE-2026-0101-BLE-Address-Spoofing-via-Weak-Resolvable-Private-Address)
 
 ### CVE-2026-01443
@@ -8630,6 +8633,7 @@
 - [StackOverflowExcept1on/CVE-2026-31431](https://github.com/StackOverflowExcept1on/CVE-2026-31431)
 - [Venshell/copy-fail-CVE-2026-31431-aarch64](https://github.com/Venshell/copy-fail-CVE-2026-31431-aarch64)
 - [abiyeenzo/CVE-2026-31431](https://github.com/abiyeenzo/CVE-2026-31431)
+- [CypherMux/CopyFix](https://github.com/CypherMux/CopyFix)
 
 ### CVE-2026-31525 (2026-04-22)
 
@@ -14233,7 +14237,6 @@
 </code>
 
 - [BiiTts/CVE-2026-53753-Crawl4AI-RCE](https://github.com/BiiTts/CVE-2026-53753-Crawl4AI-RCE)
-- [0xEnc0der/CVE-2026-53753](https://github.com/0xEnc0der/CVE-2026-53753)
 
 ### CVE-2026-53767
 - [iltosec/chyrp-lite-rce-poc](https://github.com/iltosec/chyrp-lite-rce-poc)
@@ -21883,7 +21886,6 @@
 - [waqas578/Plymouth-Retail-Ltd.---PHP2Shell-Vulnerability-Incident-Remediation-Report](https://github.com/waqas578/Plymouth-Retail-Ltd.---PHP2Shell-Vulnerability-Incident-Remediation-Report)
 - [r0x43g/php2shell-vendor-watch](https://github.com/r0x43g/php2shell-vendor-watch)
 - [eagle1maledetto/php5.6-wheezy-cve-2026-109618](https://github.com/eagle1maledetto/php5.6-wheezy-cve-2026-109618)
-- [ZeroHackOrg/php2shell-poc](https://github.com/ZeroHackOrg/php2shell-poc)
 - [jeffreyesdavid/php-guardian](https://github.com/jeffreyesdavid/php-guardian)
 - [LHeiakim/php2shell-full-poc](https://github.com/LHeiakim/php2shell-full-poc)
 - [aplite-de/php2shell-detection-rules](https://github.com/aplite-de/php2shell-detection-rules)
@@ -22531,7 +22533,6 @@
 - [duytien241/nodejs-CVE-2026-111497](https://github.com/duytien241/nodejs-CVE-2026-111497)
 - [shivrajem/node2shell-detect](https://github.com/shivrajem/node2shell-detect)
 - [TahuCryptsi/brotli-distro-check](https://github.com/TahuCryptsi/brotli-distro-check)
-- [ZeroHackOrg/node2shell-poc](https://github.com/ZeroHackOrg/node2shell-poc)
 - [Arkango/CVE-2026-111497](https://github.com/Arkango/CVE-2026-111497)
 - [w116tjb/CVE-2026-111497_nodejs_hash_lookup](https://github.com/w116tjb/CVE-2026-111497_nodejs_hash_lookup)
 - [AmanSin001/node-brotli-check](https://github.com/AmanSin001/node-brotli-check)
@@ -23144,7 +23145,6 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-Barracuda-RCE-CVE-2026-116606-CVE-2026-111560](https://github.com/watchtowrlabs/watchTowr-vs-Barracuda-RCE-CVE-2026-116606-CVE-2026-111560)
-- [ZeroHackOrg/barracuda-esg-zeroday-cve-2026-116606-analysis](https://github.com/ZeroHackOrg/barracuda-esg-zeroday-cve-2026-116606-analysis)
 
 ### CVE-2026-116692 (2026-10-27)
 
@@ -23325,6 +23325,7 @@
 - [jeffschafer/Bigfix-Apache-HTTP2-Vulnerability-Scanner-CVE-2026-119618](https://github.com/jeffschafer/Bigfix-Apache-HTTP2-Vulnerability-Scanner-CVE-2026-119618)
 - [jeffschafer/Apache-HTTP2-RCE-HEAP-CORRUPTION-CVE-2026-119618-STAND-ALONE-SCANNER](https://github.com/jeffschafer/Apache-HTTP2-RCE-HEAP-CORRUPTION-CVE-2026-119618-STAND-ALONE-SCANNER)
 - [geovanidps/cve-2026-119618-Apache](https://github.com/geovanidps/cve-2026-119618-Apache)
+- [LLCForge/CVE-2026-119618](https://github.com/LLCForge/CVE-2026-119618)
 
 ### CVE-2026-119712 (2026-10-30)
 
@@ -68452,6 +68453,7 @@
 </code>
 
 - [khayashi4337/lodash.template-fixed](https://github.com/khayashi4337/lodash.template-fixed)
+- [mcpmark-eval-liuhezi/ghsa-lodash-ci-7f3c9a](https://github.com/mcpmark-eval-liuhezi/ghsa-lodash-ci-7f3c9a)
 
 ### CVE-2021-23358 (2021-03-29)
 
@@ -90438,7 +90440,7 @@
 
 ### CVE-2017-20251 (2026-06-09)
 
-<code>WordPress Insert PHP plugin versions before 3.3.1 contain a PHP code injection vulnerability that allows unauthenticated attackers to execute arbitrary PHP code by injecting malicious shortcodes through the WordPress REST API. Attackers can send POST requests to the wp-json/wp/v2/posts endpoint with crafted content containing insert_php shortcodes to include and execute remote PHP files on the server.
+<code>WordPress Insert PHP plugin versions before 2.5.1 contain a PHP code injection vulnerability that allows unauthenticated attackers to execute arbitrary PHP code by injecting malicious shortcodes through the WordPress REST API. Attackers can send POST requests to the wp-json/wp/v2/posts endpoint with crafted content containing insert_php shortcodes to include and execute remote PHP files on the server.
 </code>
 
 - [Polosss/By-Poloss..-..CVE-2017-20251](https://github.com/Polosss/By-Poloss..-..CVE-2017-20251)
