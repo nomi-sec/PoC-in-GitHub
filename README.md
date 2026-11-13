@@ -838,7 +838,6 @@
 - [NetVanguard-cmd/CVE-2026-2441](https://github.com/NetVanguard-cmd/CVE-2026-2441)
 - [D3b0j33t/CVE-2026-2441-PoC](https://github.com/D3b0j33t/CVE-2026-2441-PoC)
 - [MartinaStarone/CVE-2026-2441](https://github.com/MartinaStarone/CVE-2026-2441)
-- [dexteon/cve-2026-2441-poc](https://github.com/dexteon/cve-2026-2441-poc)
 
 ### CVE-2026-2461 (2026-03-16)
 
@@ -1286,7 +1285,6 @@
 </code>
 
 - [5o1z/CVE-2026-3910](https://github.com/5o1z/CVE-2026-3910)
-- [dexteon/cve-2026-3910-poc](https://github.com/dexteon/cve-2026-3910-poc)
 
 ### CVE-2026-4001 (2026-03-23)
 
@@ -2009,6 +2007,7 @@
 </code>
 
 - [slabbdev/postgresql-type-confusion-cve-2026-6460](https://github.com/slabbdev/postgresql-type-confusion-cve-2026-6460)
+- [chor4o/CVE-2026-6460-POC](https://github.com/chor4o/CVE-2026-6460-POC)
 
 ### CVE-2026-6471 (2026-08-13)
 
@@ -3333,7 +3332,6 @@
 - [adamshaikhma/CVE-2026-11645](https://github.com/adamshaikhma/CVE-2026-11645)
 - [ashrafzaryouh/CVE-2026-11645](https://github.com/ashrafzaryouh/CVE-2026-11645)
 - [emlinhax/CVE-2026-11645-poc](https://github.com/emlinhax/CVE-2026-11645-poc)
-- [dexteon/cve-2026-11645-poc](https://github.com/dexteon/cve-2026-11645-poc)
 
 ### CVE-2026-11784 (2026-06-18)
 
@@ -5587,6 +5585,13 @@
 </code>
 
 - [lukasz-rybak/CVE-2026-22243](https://github.com/lukasz-rybak/CVE-2026-22243)
+
+### CVE-2026-22341 (2026-02-20)
+
+<code>Authentication Bypass Using an Alternate Path or Channel vulnerability in Case-Themes Booked booked allows Authentication Abuse.This issue affects Booked: from n/a through &lt;= 3.0.0.
+</code>
+
+- [ziedelifa/booked-security-backport](https://github.com/ziedelifa/booked-security-backport)
 
 ### CVE-2026-22444 (2026-01-21)
 
@@ -9703,7 +9708,6 @@
 - [NULL200OK/cve_2026_34621_advanced](https://github.com/NULL200OK/cve_2026_34621_advanced)
 - [ercihan/CVE-2026-34621_PDF_SAMPLE](https://github.com/ercihan/CVE-2026-34621_PDF_SAMPLE)
 - [azefzafyoussef/CVE-2026-34621](https://github.com/azefzafyoussef/CVE-2026-34621)
-- [dexteon/cve-2026-34621-poc](https://github.com/dexteon/cve-2026-34621-poc)
 
 ### CVE-2026-34717 (2026-04-02)
 
@@ -11856,7 +11860,6 @@
 - [hmascs/KSuRoot](https://github.com/hmascs/KSuRoot)
 - [fusiondrive/CVE-2026-43499-ZFOLD4](https://github.com/fusiondrive/CVE-2026-43499-ZFOLD4)
 - [CamsShaft/IonStack-S22-cve-2026-43499](https://github.com/CamsShaft/IonStack-S22-cve-2026-43499)
-- [knowlily/cve-2026-43499-honor](https://github.com/knowlily/cve-2026-43499-honor)
 - [NanoTurtle1145/root-my-s24](https://github.com/NanoTurtle1145/root-my-s24)
 - [R0rt1z2/GhostLock](https://github.com/R0rt1z2/GhostLock)
 - [mobilehackinglab/ghostlock-a17](https://github.com/mobilehackinglab/ghostlock-a17)
@@ -14296,7 +14299,7 @@
 
 ### CVE-2026-53995 (2026-10-19)
 
-<code>MLflow 3.17.1 and earlier contains a path traversal vulnerability in the FileStore tracking backend that allows unauthenticated attackers to control filesystem paths by submitting a crafted trace ID containing traversal sequences to the POST /api/3.0/mlflow/traces endpoint. Attackers can exploit FileStore.start_trace() to write trace_info.yaml, request_metadata, and tag files with attacker-controlled metadata outside the intended experiment trace directory, subject to the server process's filesystem permissions. FileStore is the default tracking backend before MLflow 3.7.0 and opt-in thereafter (the default changed to a SQLite database), so deployments in the earlier part of the affected range are vulnerable without special configuration while later ones are affected only when FileStore is explicitly selected.
+<code>MLflow before 3.18.0 contains a path traversal vulnerability in the FileStore tracking backend that allows unauthenticated attackers to control filesystem paths by submitting a crafted trace ID containing traversal sequences to the POST /api/3.0/mlflow/traces endpoint. Attackers can exploit FileStore.start_trace() to write trace_info.yaml, request_metadata, and tag files with attacker-controlled metadata outside the intended experiment trace directory, subject to the server process's filesystem permissions. FileStore is the default tracking backend before MLflow 3.7.0 and opt-in thereafter (the default changed to a SQLite database), so deployments in the earlier part of the affected range are vulnerable without special configuration while later ones are affected only when FileStore is explicitly selected.
 </code>
 
 - [SaiTeja-Erukude/CVE-2026-53995-mlflow-path-traversal](https://github.com/SaiTeja-Erukude/CVE-2026-53995-mlflow-path-traversal)
@@ -16299,6 +16302,13 @@
 
 - [praksokchea/CVE-2026-67176](https://github.com/praksokchea/CVE-2026-67176)
 
+### CVE-2026-67177 (2026-11-10)
+
+<code>Chargemap contains a stored cross site scripting vulnerability. A remote, unauthenticated attacker could craft a payload in the username field of the account registration page and associate the new account with a victim's email. The attacker could send a forgotten password request to the victim, and the payload would execute when a victim opens the link. Fixed 2026-07-17.
+</code>
+
+- [praksokchea/CVE-2026-67177](https://github.com/praksokchea/CVE-2026-67177)
+
 ### CVE-2026-67181 (2026-07-28)
 
 <code>Rouille 0.3.3 through 3.6.2 contains an HTTP request smuggling vulnerability that allows remote attackers to desynchronize HTTP message boundaries by exploiting improper header forwarding in the proxy implementation. The proxy in src/proxy.rs forwards the client's Transfer-Encoding header to upstream backends unchanged while transmitting a body already de-chunked by tiny_http, enabling CL.TE desynchronization attacks where attackers control where the backend believes the request body ends.
@@ -17478,13 +17488,6 @@
 
 - [OlivierLaflamme/UniBLEed](https://github.com/OlivierLaflamme/UniBLEed)
 
-### CVE-2026-76844 (2026-08-24)
-
-<code>zlib 1.2.11 through 1.3.2 contains a heap buffer overflow: after an underlying write() fails, gz_write() returns without resetting strm.next_in, leaving it pointed at the caller's buffer. A later gz* write call then derives a position from the stale pointer and writes past a heap allocation; any write() failure reaches it, including EPIPE on a blocking descriptor, and in versions before 1.3.1.2 the failed write must be followed by a gzclearerr() call.
-</code>
-
-- [perplexedyawdie/cve-2026-76844-lab](https://github.com/perplexedyawdie/cve-2026-76844-lab)
-
 ### CVE-2026-76904 (2026-08-21)
 
 <code>GeoTools is an open source Java library that provides tools for geospatial data. Starting in version 30.5 and prior to versions 33.6, 34.5, and 33.6, an SQL Injection Vulnerability is present when executing OGC Filters with PostGIS DataStore implementation: `jsonArrayContains` function; Requires PostGIS 12 or greater with a String or JSON field. For PostGIS 12 and greater `jsonArrayContains(&lt;column&gt;, &lt;pointer&gt;, &lt;value&gt;)` function writes `&lt;value&gt;` into generated SQL without escaping. Patches are available in versions 33.6, 34.5, and 33.6. No known workaround is available. To limit scope of SQL Injection the PostGIS connection pool should be configured with limited rights.
@@ -18381,6 +18384,13 @@
 
 - [abraxas/CVE-2026-84753](https://github.com/abraxas/CVE-2026-84753)
 
+### CVE-2026-84770 (2026-09-02)
+
+<code>Unauthenticated Cross Site Request Forgery (CSRF) in Mang Board WP &lt;= 2.3.8 versions.
+</code>
+
+- [rrr10n/CVE-2026-84770](https://github.com/rrr10n/CVE-2026-84770)
+
 ### CVE-2026-85045 (2026-09-03)
 
 <code>Race condition in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
@@ -18400,7 +18410,6 @@
 - [SneakyNachos/CVE-2026-85046-who-put-the-silverback-guerilla-in-the-wasm](https://github.com/SneakyNachos/CVE-2026-85046-who-put-the-silverback-guerilla-in-the-wasm)
 - [atiilla/CVE-2026-85046](https://github.com/atiilla/CVE-2026-85046)
 - [jamezx32/CVE-2026-85046](https://github.com/jamezx32/CVE-2026-85046)
-- [dexteon/cve-2026-85046-poc](https://github.com/dexteon/cve-2026-85046-poc)
 
 ### CVE-2026-85048 (2026-09-03)
 
@@ -18845,7 +18854,6 @@
 </code>
 
 - [SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter](https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter)
-- [dexteon/cve-2026-87491-poc](https://github.com/dexteon/cve-2026-87491-poc)
 
 ### CVE-2026-87492 (2026-09-09)
 
@@ -20161,8 +20169,6 @@
 - [nemoiwkryang/CVE-2026-98260-pkt110-kernelsu](https://github.com/nemoiwkryang/CVE-2026-98260-pkt110-kernelsu)
 - [Dream-Rainy/CVE-2026-98260](https://github.com/Dream-Rainy/CVE-2026-98260)
 - [countryside99/GhostKey](https://github.com/countryside99/GhostKey)
-- [knowlily/m6-shell](https://github.com/knowlily/m6-shell)
-- [knowlily/cve-2026-98260-bvl-an16](https://github.com/knowlily/cve-2026-98260-bvl-an16)
 - [MocLG/Time-My-Galaxy](https://github.com/MocLG/Time-My-Galaxy)
 - [cuteaplane/opd2051example](https://github.com/cuteaplane/opd2051example)
 - [arkylin/CVE-2026-98260-Asteroids](https://github.com/arkylin/CVE-2026-98260-Asteroids)
@@ -20226,7 +20232,6 @@
 - [jamilbk/drop-ipv4-opt](https://github.com/jamilbk/drop-ipv4-opt)
 - [fetus-hina/cve-2026-98432-mitigation-rpm](https://github.com/fetus-hina/cve-2026-98432-mitigation-rpm)
 - [al4n4n/CVE-2026-98432](https://github.com/al4n4n/CVE-2026-98432)
-- [illuscapital/CVE-2026-98432](https://github.com/illuscapital/CVE-2026-98432)
 - [johnhsb/linux-tcp-uaf-cve-2026-98432](https://github.com/johnhsb/linux-tcp-uaf-cve-2026-98432)
 - [xxhjkl/cve-2026-98432-check](https://github.com/xxhjkl/cve-2026-98432-check)
 - [thiscitze/cve-2026-98432-root-shell](https://github.com/thiscitze/cve-2026-98432-root-shell)
@@ -22633,6 +22638,7 @@
 - [EQSTLab/CVE-2026-111497](https://github.com/EQSTLab/CVE-2026-111497)
 - [MchinaMd57764/CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC)
 - [OhMyDitzzy/CVE-2026-111497](https://github.com/OhMyDitzzy/CVE-2026-111497)
+- [alequinterok/CVE-2026-111497](https://github.com/alequinterok/CVE-2026-111497)
 
 ### CVE-2026-111585 (2026-10-27)
 
@@ -23700,7 +23706,6 @@
 - [ashrafzaryouh/CVE-2026-125350](https://github.com/ashrafzaryouh/CVE-2026-125350)
 - [Frostmoon39206/CVE-2026-125350-PoC](https://github.com/Frostmoon39206/CVE-2026-125350-PoC)
 - [TJT001/CVE-2026-125350-PoC](https://github.com/TJT001/CVE-2026-125350-PoC)
-- [dexteon/cve-2026-125350-poc](https://github.com/dexteon/cve-2026-125350-poc)
 - [al4n4n/CVE-2026-125350](https://github.com/al4n4n/CVE-2026-125350)
 
 ### CVE-2026-125394 (2026-11-09)
@@ -24028,7 +24033,6 @@
 - [PinkArmor/CVE-2025-1094-Lab-Setup](https://github.com/PinkArmor/CVE-2025-1094-Lab-Setup)
 - [TranDongA3/POC-CVE-2025-1094](https://github.com/TranDongA3/POC-CVE-2025-1094)
 - [skraft9/CVE-2024-12356](https://github.com/skraft9/CVE-2024-12356)
-- [dexteon/cve-2025-1094-poc](https://github.com/dexteon/cve-2025-1094-poc)
 
 ### CVE-2025-1097 (2025-03-24)
 
@@ -24448,7 +24452,6 @@
 - [bjrjk/CVE-2025-2783](https://github.com/bjrjk/CVE-2025-2783)
 - [ElianGonzi00/CVE-2025-2783](https://github.com/ElianGonzi00/CVE-2025-2783)
 - [razureink/cve-2025-2783-chrome_sandbox_escape_reproduction](https://github.com/razureink/cve-2025-2783-chrome_sandbox_escape_reproduction)
-- [dexteon/cve-2025-2783-poc](https://github.com/dexteon/cve-2025-2783-poc)
 
 ### CVE-2025-2807 (2025-04-08)
 
@@ -24893,6 +24896,7 @@
 - [Yucaerin/CVE-2025-4606](https://github.com/Yucaerin/CVE-2025-4606)
 - [UcenHaxor07/CVE-2025-4606](https://github.com/UcenHaxor07/CVE-2025-4606)
 - [Yetazyyy/CVE-2025-4606](https://github.com/Yetazyyy/CVE-2025-4606)
+- [0xCyp1337/CVE-2025-4606](https://github.com/0xCyp1337/CVE-2025-4606)
 
 ### CVE-2025-4609 (2025-08-22)
 
@@ -25153,7 +25157,6 @@
 - [riemannj/CVE-2025-5419](https://github.com/riemannj/CVE-2025-5419)
 - [mistymntncop/CVE-2025-5419](https://github.com/mistymntncop/CVE-2025-5419)
 - [bjrjk/CVE-2025-5419](https://github.com/bjrjk/CVE-2025-5419)
-- [dexteon/cve-2025-5419-poc](https://github.com/dexteon/cve-2025-5419-poc)
 
 ### CVE-2025-5548 (2025-06-04)
 
@@ -25513,7 +25516,6 @@
 - [jopraveen/CVE-2025-6554](https://github.com/jopraveen/CVE-2025-6554)
 - [Muhammednihalmp/Google-chrome-zero-day](https://github.com/Muhammednihalmp/Google-chrome-zero-day)
 - [aklnjakln/CVE-2025-6554](https://github.com/aklnjakln/CVE-2025-6554)
-- [dexteon/cve-2025-6554-poc](https://github.com/dexteon/cve-2025-6554-poc)
 
 ### CVE-2025-6558 (2025-07-15)
 
@@ -25522,7 +25524,6 @@
 
 - [gmh5225/CVE-2025-6558-exp](https://github.com/gmh5225/CVE-2025-6558-exp)
 - [DevBuiHieu/CVE-2025-6558-Proof-Of-Concept](https://github.com/DevBuiHieu/CVE-2025-6558-Proof-Of-Concept)
-- [dexteon/cve-2025-6558-poc](https://github.com/dexteon/cve-2025-6558-poc)
 
 ### CVE-2025-6563 (2025-07-03)
 
@@ -26497,7 +26498,6 @@
 </code>
 
 - [AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day](https://github.com/AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day)
-- [dexteon/cve-2025-10585-poc](https://github.com/dexteon/cve-2025-10585-poc)
 
 ### CVE-2025-10658 (2025-09-20)
 
@@ -27004,13 +27004,6 @@
 
 - [MooseLoveti/Flo-Forms-CVE-Report](https://github.com/MooseLoveti/Flo-Forms-CVE-Report)
 
-### CVE-2025-13223 (2025-11-17)
-
-<code>Type Confusion in V8 in Google Chrome prior to 142.0.7444.175 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
-</code>
-
-- [dexteon/cve-2025-13223-poc](https://github.com/dexteon/cve-2025-13223-poc)
-
 ### CVE-2025-13224 (2025-11-17)
 
 <code>Type Confusion in V8 in Google Chrome prior to 142.0.7444.175 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
@@ -27193,7 +27186,6 @@
 - [Satirush/CVE-2025-14174-Poc](https://github.com/Satirush/CVE-2025-14174-Poc)
 - [typeconfused/CVE-2025-14174-analysis](https://github.com/typeconfused/CVE-2025-14174-analysis)
 - [George0Papasotiriou/CVE-2025-14174-Chrome-Zero-Day](https://github.com/George0Papasotiriou/CVE-2025-14174-Chrome-Zero-Day)
-- [dexteon/cve-2025-14174-poc](https://github.com/dexteon/cve-2025-14174-poc)
 
 ### CVE-2025-14175 (2025-12-29)
 
@@ -27487,7 +27479,6 @@
 
 - [renat0z3r0/notepadpp-supply-chain-iocs](https://github.com/renat0z3r0/notepadpp-supply-chain-iocs)
 - [George0Papasotiriou/CVE-2025-15556-Notepad-WinGUp-Updater-RCE](https://github.com/George0Papasotiriou/CVE-2025-15556-Notepad-WinGUp-Updater-RCE)
-- [dexteon/cve-2025-15556-poc](https://github.com/dexteon/cve-2025-15556-poc)
 
 ### CVE-2025-15602 (2026-03-06)
 
@@ -27768,20 +27759,6 @@
 </code>
 
 - [1ucky7/cve-2025-22223-demo-1.0.0](https://github.com/1ucky7/cve-2025-22223-demo-1.0.0)
-
-### CVE-2025-22224 (2025-03-04)
-
-<code>VMware ESXi, and Workstation contain a TOCTOU (Time-of-Check Time-of-Use) vulnerability that leads to an out-of-bounds write. A malicious actor with local administrative privileges on a virtual machine may exploit this issue to execute code as the virtual machine's VMX process running on the host.
-</code>
-
-- [dexteon/cve-2025-22224-poc](https://github.com/dexteon/cve-2025-22224-poc)
-
-### CVE-2025-22226 (2025-03-04)
-
-<code>VMware ESXi, Workstation, and Fusion contain an information disclosure vulnerability due to an out-of-bounds read in HGFS. A malicious actor with administrative privileges to a virtual machine may be able to exploit this issue to leak memory from the vmx process.
-</code>
-
-- [dexteon/cve-2025-22226-poc](https://github.com/dexteon/cve-2025-22226-poc)
 
 ### CVE-2025-22235 (2025-04-28)
 
@@ -39291,6 +39268,7 @@
 - [X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker](https://github.com/X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker)
 - [s1d6point7bugcrowd/CVE-2024-6387-Race-Condition-in-Signal-Handling-for-OpenSSH](https://github.com/s1d6point7bugcrowd/CVE-2024-6387-Race-Condition-in-Signal-Handling-for-OpenSSH)
 - [almogopp/OpenSSH-CVE-2024-6387-Fix](https://github.com/almogopp/OpenSSH-CVE-2024-6387-Fix)
+- [HadesNull123/CVE-2024-6387_Check](https://github.com/HadesNull123/CVE-2024-6387_Check)
 - [identity-threat-labs/CVE-2024-6387-Vulnerability-Checker](https://github.com/identity-threat-labs/CVE-2024-6387-Vulnerability-Checker)
 - [identity-threat-labs/Article-RegreSSHion-CVE-2024-6387](https://github.com/identity-threat-labs/Article-RegreSSHion-CVE-2024-6387)
 - [anhvutuan/CVE-2024-6387-poc-1](https://github.com/anhvutuan/CVE-2024-6387-poc-1)
@@ -40003,7 +39981,7 @@
 </code>
 
 - [horizon3ai/CVE-2024-9465](https://github.com/horizon3ai/CVE-2024-9465)
-- [mustafaakalin/CVE-2024-9465](https://github.com/mustafaakalin/CVE-2024-9465)
+- [0-9g/CVE-2024-9465](https://github.com/0-9g/CVE-2024-9465)
 - [Qlng/CVE-2024-9465](https://github.com/Qlng/CVE-2024-9465)
 
 ### CVE-2024-9466 (2024-10-09)
@@ -49984,6 +49962,7 @@
 - [LGenAgul/CVE-2023-4220-Proof-of-concept](https://github.com/LGenAgul/CVE-2023-4220-Proof-of-concept)
 - [VanishedPeople/CVE-2023-4220](https://github.com/VanishedPeople/CVE-2023-4220)
 - [thefizzyfish/CVE-2023-4220_Chamilo_RCE](https://github.com/thefizzyfish/CVE-2023-4220_Chamilo_RCE)
+- [qrxnz/CVE-2023-4220](https://github.com/qrxnz/CVE-2023-4220)
 - [0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit](https://github.com/0x00-null/Chamilo-CVE-2023-4220-RCE-Exploit)
 - [bueno-armando/CVE-2023-4220-RCE](https://github.com/bueno-armando/CVE-2023-4220-RCE)
 - [0xDTC/Chamilo-LMS-CVE-2023-4220-Exploit](https://github.com/0xDTC/Chamilo-LMS-CVE-2023-4220-Exploit)
@@ -51279,7 +51258,6 @@
 
 - [hacksysteam/CVE-2023-21608](https://github.com/hacksysteam/CVE-2023-21608)
 - [Malwareman007/CVE-2023-21608](https://github.com/Malwareman007/CVE-2023-21608)
-- [dexteon/cve-2023-21608-poc](https://github.com/dexteon/cve-2023-21608-poc)
 
 ### CVE-2023-21674 (2023-01-10)
 
@@ -52332,13 +52310,6 @@
 - [H3rm1tR3b0rn/CVE-2023-26360-RCE](https://github.com/H3rm1tR3b0rn/CVE-2023-26360-RCE)
 - [joaoaugustom/Adobe_ColdFusion_RCE_Unauthenticated](https://github.com/joaoaugustom/Adobe_ColdFusion_RCE_Unauthenticated)
 - [DefaultCh40s/CVE-2023-26360](https://github.com/DefaultCh40s/CVE-2023-26360)
-
-### CVE-2023-26369 (2023-09-13)
-
-<code>Acrobat Reader versions 23.003.20284 (and earlier), 20.005.30516 (and earlier) and 20.005.30514 (and earlier) are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
-</code>
-
-- [dexteon/cve-2023-26369-poc](https://github.com/dexteon/cve-2023-26369-poc)
 
 ### CVE-2023-26469 (2023-08-17)
 
@@ -53901,6 +53872,7 @@
 
 - [keto0422/CVE-2023-33107](https://github.com/keto0422/CVE-2023-33107)
 - [264312431/picohaxx](https://github.com/264312431/picohaxx)
+- [miyoubi/Fracture](https://github.com/miyoubi/Fracture)
 
 ### CVE-2023-33177 (2023-05-30)
 
@@ -67852,7 +67824,6 @@
 
 - [ZeusBox/CVE-2021-21017](https://github.com/ZeusBox/CVE-2021-21017)
 - [tzwlhack/CVE-2021-21017](https://github.com/tzwlhack/CVE-2021-21017)
-- [dexteon/cve-2021-21017-poc](https://github.com/dexteon/cve-2021-21017-poc)
 
 ### CVE-2021-21042 (2021-02-11)
 
@@ -69579,13 +69550,6 @@
 - [Shadow0ps/CVE-2021-28482-Exchange-POC](https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC)
 - [KevinWorst/CVE-2021-28482_Exploit](https://github.com/KevinWorst/CVE-2021-28482_Exploit)
 - [timb-machine-mirrors/testanull-CVE-2021-28482.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-28482.py)
-
-### CVE-2021-28550 (2021-09-02)
-
-<code>Acrobat Reader DC versions versions 2021.001.20150 (and earlier), 2020.001.30020 (and earlier) and 2017.011.30194 (and earlier) are affected by a Use After Free vulnerability. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
-</code>
-
-- [dexteon/cve-2021-28550-poc](https://github.com/dexteon/cve-2021-28550-poc)
 
 ### CVE-2021-28663 (2021-05-10)
 
@@ -74928,6 +74892,7 @@
 - [duckpigdog/Tomcat-AJP-CVE-2020-1938](https://github.com/duckpigdog/Tomcat-AJP-CVE-2020-1938)
 - [lem0n817/tomcatfileread](https://github.com/lem0n817/tomcatfileread)
 - [CyberCTF/vulhub-tomcat-cve-2020-1938](https://github.com/CyberCTF/vulhub-tomcat-cve-2020-1938)
+- [Mohammad-Anon/CVE-2020-1938](https://github.com/Mohammad-Anon/CVE-2020-1938)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -76395,7 +76360,6 @@
 
 - [lsw29475/CVE-2020-9715](https://github.com/lsw29475/CVE-2020-9715)
 - [f8al/PoC-CVE-2020-9715](https://github.com/f8al/PoC-CVE-2020-9715)
-- [dexteon/cve-2020-9715-poc](https://github.com/dexteon/cve-2020-9715-poc)
 
 ### CVE-2020-9758 (2020-03-09)
 
@@ -85068,13 +85032,6 @@
 
 - [bigric3/CVE-2018-4901](https://github.com/bigric3/CVE-2018-4901)
 
-### CVE-2018-4990 (2018-07-09)
-
-<code>Adobe Acrobat and Reader versions 2018.011.20038 and earlier, 2017.011.30079 and earlier, and 2015.006.30417 and earlier have a Double Free vulnerability. Successful exploitation could lead to arbitrary code execution in the context of the current user.
-</code>
-
-- [dexteon/cve-2018-4990-poc](https://github.com/dexteon/cve-2018-4990-poc)
-
 ### CVE-2018-5146 (2018-06-11)
 
 <code>An out of bounds memory write while processing Vorbis audio data was reported through the Pwn2Own contest. This vulnerability affects Firefox &lt; 59.0.1, Firefox ESR &lt; 52.7.2, and Thunderbird &lt; 52.7.
@@ -89608,7 +89565,6 @@
 - [joelindra/CVE-2017-9841](https://github.com/joelindra/CVE-2017-9841)
 - [drcrypterdotru/PHPUnit-GoScan](https://github.com/drcrypterdotru/PHPUnit-GoScan)
 - [krisdewa/CVE-2017-9841-PHPUnit-Remote-Code-Execution-PoC](https://github.com/krisdewa/CVE-2017-9841-PHPUnit-Remote-Code-Execution-PoC)
-- [CheLover86/CVE-2017-9841](https://github.com/CheLover86/CVE-2017-9841)
 - [CyberCTF/vulhub-phpunit-cve-2017-9841](https://github.com/CyberCTF/vulhub-phpunit-cve-2017-9841)
 
 ### CVE-2017-9934 (2017-07-17)
