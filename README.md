@@ -2003,6 +2003,13 @@
 
 - [Alixploit22/CVE-2026-6440](https://github.com/Alixploit22/CVE-2026-6440)
 
+### CVE-2026-6460 (2026-11-12)
+
+<code>Type confusion in PostgreSQL allows an object creator to execute arbitrary code as the operating system user running the database, via ALTER ... SET DATA TYPE primarily.  Other DDL attack routes exist, such as &quot;ALTER TABLE ... ADD COLUMN; ROLLBACK; ALTER TABLE ... ADD COLUMN&quot;.  The system had inadequate tracking of typed values, and values were not self-identifying.  Stale values could appear in data dictionary entries, PL/pgSQL variables, and many other parts of the system.  PostgreSQL Versions before PostgreSQL 18.7, 17.12, 16.16, 15.20, and 14.25 are affected.
+</code>
+
+- [slabbdev/postgresql-type-confusion-cve-2026-6460](https://github.com/slabbdev/postgresql-type-confusion-cve-2026-6460)
+
 ### CVE-2026-6471 (2026-08-13)
 
 <code>Missing authorization in PostgreSQL logical decoding allows a non-superuser holding REPLICATION privilege to dlopen any file visible to the operating system account running the server, via the choice of logical decoding plugin.  This in turn runs arbitrary code as that account.  Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are affected.
@@ -2010,6 +2017,7 @@
 
 - [goldendivider/cve-2026-6471-postgres-logical-decoding-dlopen](https://github.com/goldendivider/cve-2026-6471-postgres-logical-decoding-dlopen)
 - [ashrafzaryouh/CVE-2026-6471](https://github.com/ashrafzaryouh/CVE-2026-6471)
+- [Mahgal/pg-patch-check](https://github.com/Mahgal/pg-patch-check)
 
 ### CVE-2026-6475 (2026-05-14)
 
@@ -9618,6 +9626,13 @@
 
 - [pvharmo2/gha-lab-85f022290a](https://github.com/pvharmo2/gha-lab-85f022290a)
 
+### CVE-2026-34265 (2026-08-11)
+
+<code>SAP NetWeaver Application Server ABAP allows an unauthenticated attacker to exploit logical errors in DIAG protocol parsing, resulting in memory corruption. This vulnerability could potentially disclose sensitive system information or crash the system, leading to a high impact on the confidentiality, integrity, and availability of the application.
+</code>
+
+- [redrays-io/SAP-DIAG-Memory-Corruption-CVE-2026-34265](https://github.com/redrays-io/SAP-DIAG-Memory-Corruption-CVE-2026-34265)
+
 ### CVE-2026-34308 (2026-04-21)
 
 <code>Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: JSON).  Supported versions that are affected are 8.0.0-8.0.45, 8.4.0-8.4.8 and  9.0.0-9.6.0. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H).
@@ -10756,6 +10771,7 @@
 - [dntaskmehow/MARABUSE](https://github.com/dntaskmehow/MARABUSE)
 - [lunacysoft/CVE-2026-39987-POC-Marimo](https://github.com/lunacysoft/CVE-2026-39987-POC-Marimo)
 - [1nt1m4cy/HTB-Cohort](https://github.com/1nt1m4cy/HTB-Cohort)
+- [0xv01d/CVE-2026-39987](https://github.com/0xv01d/CVE-2026-39987)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -11183,6 +11199,7 @@
 - [gbuyssens/CVE-2026-41651](https://github.com/gbuyssens/CVE-2026-41651)
 - [Thhc10/CVE-2026-41651](https://github.com/Thhc10/CVE-2026-41651)
 - [thiscitze/cve-2026-41651-poc](https://github.com/thiscitze/cve-2026-41651-poc)
+- [0xv01d/CVE-2026-41651](https://github.com/0xv01d/CVE-2026-41651)
 
 ### CVE-2026-41653 (2026-05-07)
 
@@ -17846,13 +17863,6 @@
 
 - [federiconbaez/cortex9-nltk-pickle-allowlist-prefix-model](https://github.com/federiconbaez/cortex9-nltk-pickle-allowlist-prefix-model)
 
-### CVE-2026-79707 (2026-09-04)
-
-<code>A Path Traversal vulnerability in the builder endpoint in Google Cloud Agent Development Kit (ADK) versions 1.9.0 through 1.21.0 on Python allows an unauthenticated remote attacker to read arbitrary files using a crafted file_path query parameter.
-</code>
-
-- [xqi1337/CVE-2026-79707-Exploitation](https://github.com/xqi1337/CVE-2026-79707-Exploitation)
-
 ### CVE-2026-79752 (2026-09-17)
 
 <code>CakePHP is a rapid development framework for PHP. Prior to 4.5.12, 4.6.5, 5.1.9, 5.2.14, and 5.3.7, FunctionsBuilder::cast, FunctionsBuilder::extract, FunctionsBuilder::datePart, and FunctionsBuilder::dateAdd in src/Database/FunctionsBuilder.php accept user-controlled dataType, part, or unit values and incorporate them into generated SQL as unescaped structural fragments. An application that passes untrusted input to these parameters can permit SQL injection with confidentiality, integrity, and availability impact according to the database connection's privileges. This issue is fixed in versions 4.5.12, 4.6.5, 5.1.9, 5.2.14, and 5.3.7.
@@ -18220,7 +18230,6 @@
 - [LACHHAB-Anas/CVE-2026-83844](https://github.com/LACHHAB-Anas/CVE-2026-83844)
 - [blkph0x/CVE-2026-83844_POC](https://github.com/blkph0x/CVE-2026-83844_POC)
 - [HackingLZ/CVE-2026-83844-public](https://github.com/HackingLZ/CVE-2026-83844-public)
-- [zake1god/CVE-2026-83844](https://github.com/zake1god/CVE-2026-83844)
 
 ### CVE-2026-83991 (2026-09-08)
 
@@ -20161,6 +20170,7 @@
 - [jonrazta89/timertest](https://github.com/jonrazta89/timertest)
 - [qq2770355800/ExtractKit](https://github.com/qq2770355800/ExtractKit)
 - [mumaosong/CVE-2026-98260-Drive](https://github.com/mumaosong/CVE-2026-98260-Drive)
+- [jonrazta89/SamGhostKey](https://github.com/jonrazta89/SamGhostKey)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -21376,6 +21386,13 @@
 
 - [rmhowe425/POC-CVE-2026-107329](https://github.com/rmhowe425/POC-CVE-2026-107329)
 
+### CVE-2026-107360 (2026-11-12)
+
+<code>A flaw was found in rubygem-safemode. Compound assignment expressions in sandboxed code are evaluated without mediating method calls through the Jail allow-list. An authenticated attacker who can supply template content can invoke arbitrary no-argument methods on objects exposed to the template renderer without Jail mediation, including destructive operations such as host deletion and disclosure of non-allow-listed object state.
+</code>
+
+- [googlesky/CVE-2026-107360](https://github.com/googlesky/CVE-2026-107360)
+
 ### CVE-2026-107406 (2026-10-08)
 
 <code>Memory overflow vulnerability leading to Remote Code Execution or Denial of Service Vulnerability in NetScaler ADC.\n\n\nNetScaler ADC or NetScaler Gateway must be configured as a SAML SP or SAML IdP, subject to the following version-specific requirements:\n\n\n\n \n\n  *  For the following versions: Applicable only when configured as a SAML IdP:\n  *  NetScaler ADC and NetScaler Gateway between 14.1-73.37 and 14.1-73.41, inclusive\n  *  NetScaler ADC 14.1-FIPS between 14.1-73.37 FIPS and 14.1-73.41 FIPS, inclusive\n  *  NetScaler ADC and NetScaler Gateway between 13.1-64.23 and 13.1-64.28, inclusive\n  *  NetScaler ADC 13.1-FIPS between 13.1-NDcPP 13.1-37.279 and 13.1- 37.282, inclusive\n\n\n\n\n \n\n\n\nFor the following versions: Applicable only when configured as a SAML SP or SAML IdP:\n\n  *  NetScaler ADC and NetScaler Gateway before 14.1-73.37 \n  *  NetScaler ADC 14.1-FIPS before 14.1-73.37 FIPS \n  *  NetScaler ADC and NetScaler Gateway before 13.1-64.23\n  *  NetScaler ADC 13.1-FIPS before13.1-NDcPP 13.1-37.279
@@ -22033,7 +22050,6 @@
 - [tsepangnkoe/php2shell-audit](https://github.com/tsepangnkoe/php2shell-audit)
 - [Continuum-AI-Corp/orcacyber-php2shell-research](https://github.com/Continuum-AI-Corp/orcacyber-php2shell-research)
 - [tuanhoma/CVE-2026-109618](https://github.com/tuanhoma/CVE-2026-109618)
-- [debuman/php2shell-scanner](https://github.com/debuman/php2shell-scanner)
 - [Chr1s-T/php2shell-cve-2026-109618](https://github.com/Chr1s-T/php2shell-cve-2026-109618)
 - [Senturkselim/Am-I-Infected](https://github.com/Senturkselim/Am-I-Infected)
 - [bagsiz/el8-php73-security](https://github.com/bagsiz/el8-php73-security)
@@ -22425,6 +22441,13 @@
 </code>
 
 - [federiconbaez/cortex9-git-diff-shell-hash-object-injection-model](https://github.com/federiconbaez/cortex9-git-diff-shell-hash-object-injection-model)
+
+### CVE-2026-110697 (2026-11-11)
+
+<code>A flaw was found in Quay where the robot account listing function constructs a SQL LIKE pattern from user-controlled namespace names without escaping wildcard metacharacters. An attacker who creates a namespace containing an underscore character can match and retrieve robot accounts and their decrypted authentication tokens from other tenants' namespaces, leading to cross-tenant credential theft and unauthorized image operations.
+</code>
+
+- [googlesky/CVE-2026-110697](https://github.com/googlesky/CVE-2026-110697)
 
 ### CVE-2026-110720 (2026-10-26)
 
@@ -22918,6 +22941,7 @@
 </code>
 
 - [Ghost-Bx1/cve-2026-115252-wordpress-php-injection-rce](https://github.com/Ghost-Bx1/cve-2026-115252-wordpress-php-injection-rce)
+- [evenomn/CVE-2026-115252](https://github.com/evenomn/CVE-2026-115252)
 
 ### CVE-2026-115290 (2026-11-03)
 
@@ -23326,6 +23350,8 @@
 - [jeffschafer/Apache-HTTP2-RCE-HEAP-CORRUPTION-CVE-2026-119618-STAND-ALONE-SCANNER](https://github.com/jeffschafer/Apache-HTTP2-RCE-HEAP-CORRUPTION-CVE-2026-119618-STAND-ALONE-SCANNER)
 - [geovanidps/cve-2026-119618-Apache](https://github.com/geovanidps/cve-2026-119618-Apache)
 - [LLCForge/CVE-2026-119618](https://github.com/LLCForge/CVE-2026-119618)
+- [toeyhack/cve-2026-119618-apache-lab](https://github.com/toeyhack/cve-2026-119618-apache-lab)
+- [blkph0x/CVE-2026-119618-mod_http2-lab](https://github.com/blkph0x/CVE-2026-119618-mod_http2-lab)
 
 ### CVE-2026-119712 (2026-10-30)
 
@@ -23413,6 +23439,13 @@
 
 - [7xd10/CVE-2026-120318](https://github.com/7xd10/CVE-2026-120318)
 
+### CVE-2026-120490 (2026-11-12)
+
+<code>On Scalable Platforms, an administrator with permissions to edit and install the Access Control Policy and NAT rules can create a NAT rule that redirects traffic to the Gateway's Sync interface, bypassing the built-in Sync protection. This could allow the administrator to execute operating system commands and write files on the Gateway with superuser privileges.
+</code>
+
+- [sadshade/checkpoint-gexec-poc](https://github.com/sadshade/checkpoint-gexec-poc)
+
 ### CVE-2026-120491 (2026-11-02)
 
 <code>Wing FTP Server before 8.2.6 contains a stored cross-site scripting vulnerability that allows authenticated web-client users to inject script by sending a crafted nowpath parameter to webclient/makethumb.html. Attackers can break out of the directory CDATA section in admin_get_lastconn.html XML to forge a connection id, which executes in administrators' browsers when admin_connection_list.html auto-refreshes, enabling Lua console abuse.
@@ -23495,6 +23528,13 @@
 </code>
 
 - [cppghoul/CVE-2026-123025](https://github.com/cppghoul/CVE-2026-123025)
+
+### CVE-2026-123039 (2026-11-12)
+
+<code>The Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket (/tmp/dynamic_socket) without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.
+</code>
+
+- [googlesky/CVE-2026-123039](https://github.com/googlesky/CVE-2026-123039)
 
 ### CVE-2026-123158 (2026-11-05)
 
@@ -23685,6 +23725,7 @@
 
 - [Ghost-Bx1/cve-2026-126170-fortimanager-jsonrpc-rce](https://github.com/Ghost-Bx1/cve-2026-126170-fortimanager-jsonrpc-rce)
 - [googlesky/CVE-2026-126170](https://github.com/googlesky/CVE-2026-126170)
+- [foxcornlab/fortinet-scanner](https://github.com/foxcornlab/fortinet-scanner)
 
 ### CVE-2026-126187 (2026-11-10)
 
@@ -23708,6 +23749,13 @@
 </code>
 
 - [im0xfay/CVE-2026-126537](https://github.com/im0xfay/CVE-2026-126537)
+
+### CVE-2026-126997 (2026-11-12)
+
+<code>A vulnerability was identified in JeecgBoot up to 3.9.6. This affects the function RestTemplate.exchange of the file org/jeecg/modules/airag/flow/c/a.class of the component flow-run Endpoint. The manipulation leads to server-side request forgery. Remote exploitation of the attack is possible. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [evenomn/CVE-2026-126997](https://github.com/evenomn/CVE-2026-126997)
 
 ### CVE-2026-127016 (2026-11-12)
 
@@ -31705,6 +31753,8 @@
 - [sathish46-lab/CVE-2025-48384-submodule](https://github.com/sathish46-lab/CVE-2025-48384-submodule)
 - [fishjojo1/devin-cve48384-1789318364-1162143-parent](https://github.com/fishjojo1/devin-cve48384-1789318364-1162143-parent)
 - [origabriel/acb-giturl-cve2025](https://github.com/origabriel/acb-giturl-cve2025)
+- [xssdoctor/muse-git-cve-2025-48384-sub-20261113](https://github.com/xssdoctor/muse-git-cve-2025-48384-sub-20261113)
+- [xssdoctor/muse-git-cve-2025-48384-parent-20261113](https://github.com/xssdoctor/muse-git-cve-2025-48384-parent-20261113)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -34475,7 +34525,7 @@
 - [TeteREN/CVE-2025-57819-RCE](https://github.com/TeteREN/CVE-2025-57819-RCE)
 - [r3vpwnx/CVE-2025-57819](https://github.com/r3vpwnx/CVE-2025-57819)
 - [shivammittal2403/cve-2025-57819-freepbx-range](https://github.com/shivammittal2403/cve-2025-57819-freepbx-range)
-- [donggle0802-code/cve-2025-57819](https://github.com/donggle0802-code/cve-2025-57819)
+- [donggle0802/cve-2025-57819](https://github.com/donggle0802/cve-2025-57819)
 - [kelltich-756/FreePBX-Breaker](https://github.com/kelltich-756/FreePBX-Breaker)
 - [foxcornlab/freepbx-rce-detector](https://github.com/foxcornlab/freepbx-rce-detector)
 - [Wayang1337/CVE-2025-57819](https://github.com/Wayang1337/CVE-2025-57819)
@@ -68415,7 +68465,7 @@
 - [safesword/F5_RCE](https://github.com/safesword/F5_RCE)
 - [microvorld/CVE-2021-22986](https://github.com/microvorld/CVE-2021-22986)
 - [Al1ex/CVE-2021-22986](https://github.com/Al1ex/CVE-2021-22986)
-- [kiri-48/CVE-2021-22986](https://github.com/kiri-48/CVE-2021-22986)
+- [qdtad/CVE-2021-22986](https://github.com/qdtad/CVE-2021-22986)
 - [ZephrFish/CVE-2021-22986_Check](https://github.com/ZephrFish/CVE-2021-22986_Check)
 - [yaunsky/CVE-202122986-EXP](https://github.com/yaunsky/CVE-202122986-EXP)
 - [Tas9er/CVE-2021-22986](https://github.com/Tas9er/CVE-2021-22986)
@@ -74755,6 +74805,7 @@
 - [abdullah50i/internal-penetration-testing-project-using-Metasploit](https://github.com/abdullah50i/internal-penetration-testing-project-using-Metasploit)
 - [ckq7703/CVE-2020-1472](https://github.com/ckq7703/CVE-2020-1472)
 - [Divineokoduwa/CVE-2020-1472-Zerologon-Vulnerability-Assessment](https://github.com/Divineokoduwa/CVE-2020-1472-Zerologon-Vulnerability-Assessment)
+- [mynga17/zerologon-security-lab](https://github.com/mynga17/zerologon-security-lab)
 
 ### CVE-2020-1493 (2020-08-17)
 
