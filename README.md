@@ -2770,7 +2770,7 @@
 
 ### CVE-2026-9271 (2026-06-12)
 
-<code>Vulnerability Title
+<code>The KeepInMind Dashboard Notes WordPress plugin through 0.8.5 does not properly sanitize note content submitted through its REST API, allowing users with a low-privileged role (such as Contributor, where an administrator has enabled it) to store CSS that redresses the administrator dashboard for credential phishing and denial of service; the fix released in 0.8.4.2 addressed only the editor interface and left the REST write path exploitable.
 </code>
 
 - [CerberusMrXi/WordPress-KeepInMind-CVE-2026-9271-Exploit](https://github.com/CerberusMrXi/WordPress-KeepInMind-CVE-2026-9271-Exploit)
@@ -4957,7 +4957,6 @@
 - [SecureWithUmer/CVE-2026-20841](https://github.com/SecureWithUmer/CVE-2026-20841)
 - [hackfaiz/CVE-2026-20841-PoC](https://github.com/hackfaiz/CVE-2026-20841-PoC)
 - [EleniChristopoulou/PoC-CVE-2026-20841](https://github.com/EleniChristopoulou/PoC-CVE-2026-20841)
-- [404godd/CVE-2026-20841-PoC](https://github.com/404godd/CVE-2026-20841-PoC)
 - [whiskeylab/notepad_CVE_2026_20841](https://github.com/whiskeylab/notepad_CVE_2026_20841)
 - [ashrafzaryouh/CVE-2026-20841](https://github.com/ashrafzaryouh/CVE-2026-20841)
 
@@ -5204,6 +5203,7 @@
 - [suuhm/CVE-2026-21509-handler](https://github.com/suuhm/CVE-2026-21509-handler)
 - [DameDode/CVE-2026-21509-POC](https://github.com/DameDode/CVE-2026-21509-POC)
 - [razureink/cve-2026-21509-office_security_bypass_reproduction](https://github.com/razureink/cve-2026-21509-office_security_bypass_reproduction)
+- [maxprog-svg/CVE-2026-21509](https://github.com/maxprog-svg/CVE-2026-21509)
 
 ### CVE-2026-21510 (2026-02-10)
 
@@ -20143,7 +20143,7 @@
 - [quyicheng03-boop/CVE-2026-98260-dada-android](https://github.com/quyicheng03-boop/CVE-2026-98260-dada-android)
 - [molanp/CVE-2026-98260-vivo-s60-poc](https://github.com/molanp/CVE-2026-98260-vivo-s60-poc)
 - [super2tt/CVE-2026-98260-vivo-x-fold6-poc](https://github.com/super2tt/CVE-2026-98260-vivo-x-fold6-poc)
-- [sabuweis/GhostLock-CVE-2026-98260](https://github.com/sabuweis/GhostLock-CVE-2026-98260)
+- [sabuweis/CVE-2026-98260](https://github.com/sabuweis/CVE-2026-98260)
 - [yoro1836/SamTimer](https://github.com/yoro1836/SamTimer)
 - [LinXing0926/GhostCred](https://github.com/LinXing0926/GhostCred)
 - [cuteaplane/CVE-2026-98260-for-OPD2501](https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501)
@@ -20169,8 +20169,9 @@
 - [orumanayurpanjayat-ux/SamTimer](https://github.com/orumanayurpanjayat-ux/SamTimer)
 - [jonrazta89/timertest](https://github.com/jonrazta89/timertest)
 - [qq2770355800/ExtractKit](https://github.com/qq2770355800/ExtractKit)
-- [mumaosong/CVE-2026-98260-Drive](https://github.com/mumaosong/CVE-2026-98260-Drive)
 - [jonrazta89/SamGhostKey](https://github.com/jonrazta89/SamGhostKey)
+- [skyrocketingHong/CVE-2026-98260_nezha](https://github.com/skyrocketingHong/CVE-2026-98260_nezha)
+- [Reallyliked21/galaxy-s24u-dzj3-temp-root](https://github.com/Reallyliked21/galaxy-s24u-dzj3-temp-root)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -22563,6 +22564,7 @@
 - [CompleteTech-Security/node2shell-check](https://github.com/CompleteTech-Security/node2shell-check)
 - [Ghost-Bx1/Node2Shell-CVE-2026-111497](https://github.com/Ghost-Bx1/Node2Shell-CVE-2026-111497)
 - [fuzheado/n2s-buildpack-probe](https://github.com/fuzheado/n2s-buildpack-probe)
+- [KarpelesLab/broccoli2shell](https://github.com/KarpelesLab/broccoli2shell)
 - [ks-labs/brotli-patch](https://github.com/ks-labs/brotli-patch)
 - [Blackman99/lotstamp](https://github.com/Blackman99/lotstamp)
 - [mahumadad/CVE-2026-111497-assessment](https://github.com/mahumadad/CVE-2026-111497-assessment)
@@ -22630,6 +22632,7 @@
 - [aymenkmar/node2shell-check](https://github.com/aymenkmar/node2shell-check)
 - [EQSTLab/CVE-2026-111497](https://github.com/EQSTLab/CVE-2026-111497)
 - [MchinaMd57764/CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC)
+- [OhMyDitzzy/CVE-2026-111497](https://github.com/OhMyDitzzy/CVE-2026-111497)
 
 ### CVE-2026-111585 (2026-10-27)
 
@@ -22730,6 +22733,13 @@
 
 - [Lyutoon/CVE-2026-112487](https://github.com/Lyutoon/CVE-2026-112487)
 
+### CVE-2026-112522 (2026-10-26)
+
+<code>An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 26.7.2 and iPadOS 26.7.2, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2. Processing a maliciously crafted file may lead to unexpected app termination.
+</code>
+
+- [SudoSaturn/CVE-2026-112522](https://github.com/SudoSaturn/CVE-2026-112522)
+
 ### CVE-2026-112611 (2026-10-26)
 
 <code>An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 26.7.2 and iPadOS 26.7.2, iOS 27.2 and iPadOS 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2. Processing a maliciously crafted PDF file may lead to memory corruption.
@@ -22823,6 +22833,13 @@
 </code>
 
 - [Neo-XeD/CVE-2026-113386](https://github.com/Neo-XeD/CVE-2026-113386)
+
+### CVE-2026-113408 (2026-11-12)
+
+<code>Path traversal in Git allows writing to arbitrary file via cloning and committing to bad repository
+</code>
+
+- [xssdoctor/git-cve-2026-113408-poc](https://github.com/xssdoctor/git-cve-2026-113408-poc)
 
 ### CVE-2026-113468 (2026-10-20)
 
@@ -23317,6 +23334,13 @@
 
 - [federiconbaez/cortex9-oauthlib-token-grant-client-id-confusion-model](https://github.com/federiconbaez/cortex9-oauthlib-token-grant-client-id-confusion-model)
 
+### CVE-2026-118764 (2026-10-29)
+
+<code>minimatch is a minimal matching utility for converting glob expressions into JavaScript RegExp objects. Starting in 7.0.0 and prior to 11.0.1, src/index.ts implements firstPhasePreProcess() so that, at optimizationLevel 2 or higher, it repeatedly expands attacker-controlled **/.. pattern segments inside a fixpoint loop, allowing generated globParts entries to be processed and expanded again. secondPhasePreProcess() then compares the expanded entries pairwise, so a short malicious glob can cause excessive CPU and memory consumption during pattern compilation. This issue is fixed in version 11.0.1.
+</code>
+
+- [b1nv0id/CVE-2026-118764](https://github.com/b1nv0id/CVE-2026-118764)
+
 ### CVE-2026-118776 (2026-10-29)
 
 <code>Forge (also called node-forge) is a native implementation of Transport Layer Security in JavaScript. Prior to 1.4.1, the affected implementation used decipher.finish(), CBC and ECB modes, PKCS#7 padding to process the relevant input or security decision. node-forge validated only the final byte of PKCS#7 padding during CBC and ECB decryption and accepted zero, oversized, or mismatched padding bytes. Malformed ciphertext could consequently be accepted and up to four plaintext blocks could be silently removed, causing an integrity failure in applications that treated successful decryption as proof of valid padding. This issue is fixed in version 1.4.1.
@@ -23330,6 +23354,13 @@
 </code>
 
 - [shouvikkkk/oauth-sink-check](https://github.com/shouvikkkk/oauth-sink-check)
+
+### CVE-2026-119077 (2026-11-13)
+
+<code>The ELEX WordPress HelpDesk &amp; Customer Ticketing System plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.3.9 via the 'form (specifically the attacker-controlled ticket_label field inside the url-encoded form string)' parameter parameter. This is due to missing server-side authentication and the absence of a class allowlist on deserialization, with the only guard being a nonce publicly emitted on any page carrying the [wsdesk_support] shortcode. This makes it possible for unauthenticated attackers to execute code on the server. A successful exploit requires a single anonymous GET to any public page carrying the [wsdesk_support] shortcode to harvest the publicly emitted wsdesk_nonce value, after which a single unauthenticated POST completes the attack.
+</code>
+
+- [im0xfay/CVE-2026-119077](https://github.com/im0xfay/CVE-2026-119077)
 
 ### CVE-2026-119200 (2026-10-29)
 
@@ -23577,6 +23608,8 @@
 - [kaiqui/cve-2026-123158-lab](https://github.com/kaiqui/cve-2026-123158-lab)
 - [zanarelkov/CVE-2026-123158_SSHole_PoC](https://github.com/zanarelkov/CVE-2026-123158_SSHole_PoC)
 - [garvthakkar17/sshole-alpine-cve-2026-123158](https://github.com/garvthakkar17/sshole-alpine-cve-2026-123158)
+- [Dylans7j/CVE-2026-123158-OpenSSH-Auth-Bypass](https://github.com/Dylans7j/CVE-2026-123158-OpenSSH-Auth-Bypass)
+- [Avi99999/sshhole-scanner](https://github.com/Avi99999/sshhole-scanner)
 
 ### CVE-2026-123218 (2026-11-07)
 
@@ -23668,6 +23701,7 @@
 - [Frostmoon39206/CVE-2026-125350-PoC](https://github.com/Frostmoon39206/CVE-2026-125350-PoC)
 - [TJT001/CVE-2026-125350-PoC](https://github.com/TJT001/CVE-2026-125350-PoC)
 - [dexteon/cve-2026-125350-poc](https://github.com/dexteon/cve-2026-125350-poc)
+- [al4n4n/CVE-2026-125350](https://github.com/al4n4n/CVE-2026-125350)
 
 ### CVE-2026-125394 (2026-11-09)
 
@@ -36628,6 +36662,13 @@
 </code>
 
 - [reewardius/CVE-2025-67888](https://github.com/reewardius/CVE-2025-67888)
+
+### CVE-2025-67898 (2025-12-14)
+
+<code>MJML through 4.18.0 allows mj-include directory traversal to test file existence and (in the type=&quot;css&quot; case) read files. NOTE: this issue exists because of an incomplete fix for CVE-2020-12827.
+</code>
+
+- [justmumu/CVE-2025-67898](https://github.com/justmumu/CVE-2025-67898)
 
 ### CVE-2025-67923 (2026-01-22)
 
