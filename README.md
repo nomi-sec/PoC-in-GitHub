@@ -5150,7 +5150,7 @@
 <code>Memory corruption while using alignments for memory allocation.
 </code>
 
-- [DaRkZ2012/qualcomm-vulnerability-scanner](https://github.com/DaRkZ2012/qualcomm-vulnerability-scanner)
+- [fancyzll/qualcomm-vulnerability-scanner](https://github.com/fancyzll/qualcomm-vulnerability-scanner)
 
 ### CVE-2026-21436 (2026-01-01)
 
@@ -5201,6 +5201,7 @@
 - [suuhm/CVE-2026-21509-handler](https://github.com/suuhm/CVE-2026-21509-handler)
 - [DameDode/CVE-2026-21509-POC](https://github.com/DameDode/CVE-2026-21509-POC)
 - [razureink/cve-2026-21509-office_security_bypass_reproduction](https://github.com/razureink/cve-2026-21509-office_security_bypass_reproduction)
+- [debugactiveprocess/MaldocTrace](https://github.com/debugactiveprocess/MaldocTrace)
 - [maxprog-svg/CVE-2026-21509](https://github.com/maxprog-svg/CVE-2026-21509)
 
 ### CVE-2026-21510 (2026-02-10)
@@ -7598,6 +7599,13 @@
 </code>
 
 - [Ghalendar/CVE-2026-27971_POC](https://github.com/Ghalendar/CVE-2026-27971_POC)
+
+### CVE-2026-27975 (2026-02-26)
+
+<code>Ajenti is a Linux and BSD modular server admin panel. Prior to version 2.2.13, an unauthenticated user could gain access to a server to execute arbitrary code on this server. This is fixed in the version 2.2.13.
+</code>
+
+- [fixedbyreboot/CVE-2026-27975-POC](https://github.com/fixedbyreboot/CVE-2026-27975-POC)
 
 ### CVE-2026-27978 (2026-03-17)
 
@@ -10307,6 +10315,15 @@
 
 - [SLO-CYBER-SEC/CVE-2026-37637](https://github.com/SLO-CYBER-SEC/CVE-2026-37637)
 
+### CVE-2026-37640
+- [umair9747/CVE-2026-37640-tenda-hg21-telnet-backdoor](https://github.com/umair9747/CVE-2026-37640-tenda-hg21-telnet-backdoor)
+
+### CVE-2026-37641
+- [umair9747/CVE-2026-37641-tenda-hg21-factory-endpoints](https://github.com/umair9747/CVE-2026-37641-tenda-hg21-factory-endpoints)
+
+### CVE-2026-37643
+- [umair9747/CVE-2026-37643-tenda-hg21-omcishell-rce](https://github.com/umair9747/CVE-2026-37643-tenda-hg21-omcishell-rce)
+
 ### CVE-2026-37748 (2026-04-21)
 
 <code>Visitor Management System 1.0 by sanjay1313 is vulnerable to Unrestricted File Upload in vms/php/admin_user_insert.php and vms/php/update_1.php. The move_uploaded_file() function is called without any MIME type, extension, or content validation, allowing an authenticated admin to upload a PHP webshell and achieve Remote Code Execution on the server.
@@ -10469,7 +10486,6 @@
 </code>
 
 - [jjcjgo/CVE-2026-38812-RuoYi-SQL-Injection](https://github.com/jjcjgo/CVE-2026-38812-RuoYi-SQL-Injection)
-- [YYF1337/RuoYi-CVE-2026-38812-UNFIX](https://github.com/YYF1337/RuoYi-CVE-2026-38812-UNFIX)
 
 ### CVE-2026-38838
 - [pawelskokowski/CVE-2026-38838](https://github.com/pawelskokowski/CVE-2026-38838)
@@ -10777,6 +10793,7 @@
 - [lunacysoft/CVE-2026-39987-POC-Marimo](https://github.com/lunacysoft/CVE-2026-39987-POC-Marimo)
 - [1nt1m4cy/HTB-Cohort](https://github.com/1nt1m4cy/HTB-Cohort)
 - [0xv01d/CVE-2026-39987](https://github.com/0xv01d/CVE-2026-39987)
+- [Arnau029/CVE-2026-39987-PoC](https://github.com/Arnau029/CVE-2026-39987-PoC)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -11484,6 +11501,7 @@
 - [HORKimhab/CVE-2026-42530](https://github.com/HORKimhab/CVE-2026-42530)
 - [v4ltonn/CVE-2026-42530](https://github.com/v4ltonn/CVE-2026-42530)
 - [ashrafzaryouh/CVE-2026-42530](https://github.com/ashrafzaryouh/CVE-2026-42530)
+- [Udyz/CVE-2026-42530](https://github.com/Udyz/CVE-2026-42530)
 
 ### CVE-2026-42533 (2026-07-15)
 
@@ -15465,6 +15483,13 @@
 
 - [diedromeo/CVE-2026-62201-OpenClaw-SSRF](https://github.com/diedromeo/CVE-2026-62201-OpenClaw-SSRF)
 
+### CVE-2026-62253 (2026-10-07)
+
+<code>Homer is open source telecom observability software. Prior to version 11.0.283, both JWT middleware functions (`JWTMiddleware` and `JWTMiddlewareV4`) immediately return `next(c)` when `jwtSecret == &quot;&quot;`. The JWT secret defaults to an empty string. On a default installation, all protected API endpoints under `/api/v1`, `/api/v3`, and `/api/v4` are completely unauthenticated. Version 11.0.283 patches the issue.
+</code>
+
+- [fixedbyreboot/CVE-2026-62253-POC](https://github.com/fixedbyreboot/CVE-2026-62253-POC)
+
 ### CVE-2026-62356
 - [zsy-arch/CVE-2026-62356-POC](https://github.com/zsy-arch/CVE-2026-62356-POC)
 
@@ -16552,6 +16577,7 @@
 </code>
 
 - [Ghost-Bx1/cve-2026-68982-airflow-celery-rce](https://github.com/Ghost-Bx1/cve-2026-68982-airflow-celery-rce)
+- [im0xfay/CVE-2026-68982](https://github.com/im0xfay/CVE-2026-68982)
 
 ### CVE-2026-69083 (2026-08-03)
 
@@ -17073,6 +17099,13 @@
 - [hainhc/CVE-2026-73570](https://github.com/hainhc/CVE-2026-73570)
 - [ashrafzaryouh/CVE-2026-73570](https://github.com/ashrafzaryouh/CVE-2026-73570)
 
+### CVE-2026-73574 (2026-08-13)
+
+<code>In Zimbra Collaboration before 10.1.17, a local file inclusion (LFI) vulnerability exists in the Zimbra Classic Web Client due to improper validation of the fu request parameter. An unauthenticated attacker can exploit this vulnerability by supplying a crafted path, potentially allowing unauthorized disclosure of protected files, such as WEB-INF/web.xml, within the web application directory. This occurs in the Forward servlet.
+</code>
+
+- [fixedbyreboot/CVE-2026-73574-POC](https://github.com/fixedbyreboot/CVE-2026-73574-POC)
+
 ### CVE-2026-73577 (2026-11-05)
 
 <code>Incorrect authorization in RequestHandler in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to bypass the authentication requirement of a protected view by appending it as a path suffix to a public request (e.g., /catalog/control/ListLocales/showPortalPage), causing the servlet to authorize the request based on the public path component while rendering the protected suffix view. Users are recommended to upgrade to version 24.09.08, which fixes this issue.
@@ -17209,6 +17242,13 @@
 </code>
 
 - [Kosifuchs/ovpn-kernel-backport](https://github.com/Kosifuchs/ovpn-kernel-backport)
+
+### CVE-2026-74756 (2026-11-06)
+
+<code>Some docker-compose shipped by the project exposes by default Webadmin REST API publically without proper authentication setup.\nVersion 3.9.1 onward sets a random credential by default on unprotected webadmin endpoints to prevent this while retain convenience.
+</code>
+
+- [fixedbyreboot/CVE-2026-74756-POC](https://github.com/fixedbyreboot/CVE-2026-74756-POC)
 
 ### CVE-2026-74936 (2026-08-18)
 
@@ -19825,6 +19865,7 @@
 </code>
 
 - [murrez/CVE-2026-96349](https://github.com/murrez/CVE-2026-96349)
+- [1xPwn/exploit-CVE-2026-96349](https://github.com/1xPwn/exploit-CVE-2026-96349)
 
 ### CVE-2026-96451 (2026-10-03)
 
@@ -20683,6 +20724,13 @@
 
 - [D7EAD/CVE-2026-102827](https://github.com/D7EAD/CVE-2026-102827)
 
+### CVE-2026-102895 (2026-11-04)
+
+<code>GPUStack is an open-source GPU cluster manager for AI model serving and GPU instance provisioning. Prior to 2.2.0, get_current_user in gpustack/api/auth.py treated a loopback request source as the built-in administrator when force_auth_localhost was false, which was the default. A remote request could appear to originate from 127.0.0.1 because client_ip_getter accepted a same-host reverse proxy peer or a client-supplied X-GPUStack-Real-IP loopback value. The bypass allowed unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml. Exploitation was observed in the wild against a 2.1.1 deployment. This issue is fixed in version 2.2.0.
+</code>
+
+- [fixedbyreboot/CVE-2026-102895-POC](https://github.com/fixedbyreboot/CVE-2026-102895-POC)
+
 ### CVE-2026-102971
 - [BomboBombone/CVE-2026-102971](https://github.com/BomboBombone/CVE-2026-102971)
 
@@ -21200,6 +21248,13 @@
 </code>
 
 - [murrez/CVE-2026-105844](https://github.com/murrez/CVE-2026-105844)
+
+### CVE-2026-105857 (2026-10-06)
+
+<code>Payload is a free and open source headless content management system. In @payloadcms/plugin-form-builder versions before 3.90.0 and canary versions before 4.0.0-canary.34, an attacker can craft a form submission that executes code remotely on the server. This issue is fixed in versions 3.90.0 and 4.0.0-canary.34.
+</code>
+
+- [fixedbyreboot/CVE-2026-105857-POC](https://github.com/fixedbyreboot/CVE-2026-105857-POC)
 
 ### CVE-2026-105950 (2026-10-06)
 
@@ -22962,6 +23017,8 @@
 </code>
 
 - [foxcornlab/unrealircd-scanner](https://github.com/foxcornlab/unrealircd-scanner)
+- [fixedbyreboot/CVE-2026-114713-POC](https://github.com/fixedbyreboot/CVE-2026-114713-POC)
+- [Sable-Research/CVE-2026-114713](https://github.com/Sable-Research/CVE-2026-114713)
 
 ### CVE-2026-114820 (2026-10-24)
 
@@ -23266,6 +23323,13 @@
 
 - [asvorg/CVE-2026-117532-poc](https://github.com/asvorg/CVE-2026-117532-poc)
 
+### CVE-2026-117551 (2026-11-12)
+
+<code>Joomla Extension - jdownloads.com - RCE through file upload in jDownloads &lt; 4.1.8 -  Insufficient validation of frontend thumbnail uploads allowed users with upload permission to place executable files on the server. This results in PHP code execution.
+</code>
+
+- [fixedbyreboot/CVE-2026-117551-POC](https://github.com/fixedbyreboot/CVE-2026-117551-POC)
+
 ### CVE-2026-117561 (2026-10-27)
 
 <code>Codefriar sf-mcp through 1.3.2 contains an OS command injection vulnerability that allows attackers to execute shell commands by supplying crafted Salesforce CLI tool flag values. Because escapeValue() in src/utils.ts fails to neutralize backticks, $() substitution, and other shell metacharacters, these values reach execSync in executeSfCommand and run as the MCP server user.
@@ -23402,6 +23466,7 @@
 - [toeyhack/cve-2026-119618-apache-lab](https://github.com/toeyhack/cve-2026-119618-apache-lab)
 - [blkph0x/CVE-2026-119618-mod_http2-lab](https://github.com/blkph0x/CVE-2026-119618-mod_http2-lab)
 - [QCG5OLF5ZU9L2W/CVE-2026-119618-YARA](https://github.com/QCG5OLF5ZU9L2W/CVE-2026-119618-YARA)
+- [terminat0r7031/CVE-2026-119618](https://github.com/terminat0r7031/CVE-2026-119618)
 
 ### CVE-2026-119712 (2026-10-30)
 
@@ -23698,6 +23763,7 @@
 
 - [AmesianX/CVE-2026-124194-poc](https://github.com/AmesianX/CVE-2026-124194-poc)
 - [Ghost-Bx1/cve-2026-124194-outlook-ntlm-hash-leak](https://github.com/Ghost-Bx1/cve-2026-124194-outlook-ntlm-hash-leak)
+- [aminaljabre77-collab/outlook-ntlm-leak-investigation](https://github.com/aminaljabre77-collab/outlook-ntlm-leak-investigation)
 
 ### CVE-2026-124450 (2026-11-08)
 
@@ -23772,6 +23838,13 @@
 
 - [Faceless0x7/CVE-2026-125757](https://github.com/Faceless0x7/CVE-2026-125757)
 
+### CVE-2026-125855 (2026-11-13)
+
+<code>Deserialization of Untrusted Data vulnerability in Elextensions ELEX WordPress HelpDesk &amp; Customer Ticketing System elex-helpdesk-customer-support-ticket-system allows Object Injection.This issue affects ELEX WordPress HelpDesk &amp; Customer Ticketing System: from n/a through 3.3.9.
+</code>
+
+- [im0xfay/CVE-2026-125855](https://github.com/im0xfay/CVE-2026-125855)
+
 ### CVE-2026-126147 (2026-11-11)
 
 <code>A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an unauthenticated attacker to execute unauthorized code or commands via crafted requests.
@@ -23794,6 +23867,13 @@
 - [Ghost-Bx1/cve-2026-126170-fortimanager-jsonrpc-rce](https://github.com/Ghost-Bx1/cve-2026-126170-fortimanager-jsonrpc-rce)
 - [googlesky/CVE-2026-126170](https://github.com/googlesky/CVE-2026-126170)
 - [foxcornlab/fortinet-scanner](https://github.com/foxcornlab/fortinet-scanner)
+
+### CVE-2026-126173 (2026-11-14)
+
+<code>The AutomatorWP Pro plugin for WordPress' webhook addon is vulnerable to authorization bypass in all versions up to, and including, 1.4.4. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated attackers to reset the password of any WordPress account, including administrators, resulting in full account takeover. This is only exploitable when an administrator has configured an automation pairing a Receive Webhook trigger — with an 'Is the user ID' field — to an Update-User action whose User ID field is left blank and whose Password field is mapped to the webhook password tag, which is a documented, supported plugin configuration.
+</code>
+
+- [im0xfay/CVE-2026-126173](https://github.com/im0xfay/CVE-2026-126173)
 
 ### CVE-2026-126187 (2026-11-10)
 
@@ -23818,6 +23898,20 @@
 
 - [googlesky/CVE-2026-126273](https://github.com/googlesky/CVE-2026-126273)
 
+### CVE-2026-126274 (2026-11-13)
+
+<code>NocoDB before 2026.08.0 contains a stored cross-site scripting vulnerability that allows authenticated Creator users to inject script by embedding markup in column or table titles. The Delete.vue confirmation dialog renders these titles through an unescaped innerHTML binding, executing script when a victim deletes an external-source table to steal session tokens from localStorage.
+</code>
+
+- [googlesky/CVE-2026-126274](https://github.com/googlesky/CVE-2026-126274)
+
+### CVE-2026-126473 (2026-11-13)
+
+<code>OpenEMR before 8.4.0 contains OAuth scope canonicalization and containment flaws that allow unauthenticated attackers to obtain unapproved system-level FHIR access. Attackers can register a colon-form system:Patient.read client that bypasses approval, then request unregistered system/Patient.write scope to read, modify, and create Patient records.
+</code>
+
+- [googlesky/CVE-2026-126473](https://github.com/googlesky/CVE-2026-126473)
+
 ### CVE-2026-126497 (2026-11-11)
 
 <code>LibreCAD through 2.2.1.6 contains a heap-based out-of-bounds write vulnerability in the bundled libdxfrw dwgReader18::parseDataPage() function due to unchecked buffer size and page offsets. Attackers can craft an AC1018 (R2004) DWG file with malicious startOffset values that cause decompress18 to write past the heap buffer when opened, causing crashes and potential code execution.
@@ -23838,6 +23932,13 @@
 </code>
 
 - [googlesky/CVE-2026-126837](https://github.com/googlesky/CVE-2026-126837)
+
+### CVE-2026-126937 (2026-11-13)
+
+<code>Zipline before 4.6.5 contains a TOCTOU race condition in the POST /api/setup endpoint that allows unauthenticated attackers to create multiple SUPERADMIN accounts by racing concurrent requests before the firstSetup flag is reset. Attackers can send simultaneous requests with spoofed X-Forwarded-For headers during the argon2 hashing window to gain full administrative control of the instance.
+</code>
+
+- [googlesky/CVE-2026-126937](https://github.com/googlesky/CVE-2026-126937)
 
 ### CVE-2026-126997 (2026-11-12)
 
@@ -23867,6 +23968,13 @@
 
 - [googlesky/CVE-2026-128027](https://github.com/googlesky/CVE-2026-128027)
 
+### CVE-2026-128046 (2026-11-13)
+
+<code>OpenMage magento-lts 20.17.0 before 20.18.2 and 21.0.0-beta1 before 21.0.0-beta3 contains an unrestricted file upload vulnerability because the general/file/protected_extensions blocklist omits phar, php8, and phps. Unauthenticated attackers can upload a .phar file through a product File custom option to a predictable media/custom_options path and request it directly to execute code on servers that map .phar to PHP and serve that directory.
+</code>
+
+- [googlesky/CVE-2026-128046](https://github.com/googlesky/CVE-2026-128046)
+
 ### CVE-2026-128970 (2026-11-13)
 
 <code>Psono Server Community Edition versions 1.12.6 through 7.5.0 and Psono Server Enterprise Edition before 7.5.1 do not require accepted group membership when authorizing deletion of group share-rights. The DELETE /share/right/ endpoint checks for a membership matching the target group, the authenticated user, and share_admin=True, but omits accepted=True. An authenticated remote attacker who has been invited to a group with share-admin privileges, and who knows a group share-right UUID, can therefore delete that group's share-right record without accepting the invitation or after declining it. Pending invitations have accepted=None, while declined invitations retain accepted=False and the share_admin flag. Deletion revokes the group's access to the affected share and its contained secrets for all accepted group members, without deleting the underlying data or disclosing secret contents. The issue was fixed in version 7.5.1 of both editions, released on 2026-10-13.
@@ -23881,7 +23989,11 @@
 
 - [psylinux/CVE-2026-129110-sysPass](https://github.com/psylinux/CVE-2026-129110-sysPass)
 
-### CVE-2026-129254
+### CVE-2026-129254 (2026-11-14)
+
+<code>A flaw has been found in Opixido OCMS up to b7c15660aba83d96677c1a9abaa69c082a24f21c. This impacts an unknown function of the file admin/TUI/index.php of the component Admin TUI. This manipulation of the argument img causes cross site scripting. The attack can be initiated remotely. The exploit has been published and may be used. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
 - [Usama-Hanif131/CVE-2026-129254](https://github.com/Usama-Hanif131/CVE-2026-129254)
 
 ### CVE-2026-350234
@@ -29637,7 +29749,7 @@
 </code>
 
 - [h3st4k3r/CVE-2025-30065](https://github.com/h3st4k3r/CVE-2025-30065)
-- [bjornhels/CVE-2025-30065](https://github.com/bjornhels/CVE-2025-30065)
+- [zha0/CVE-2025-30065](https://github.com/zha0/CVE-2025-30065)
 - [ron-imperva/CVE-2025-30065-PoC](https://github.com/ron-imperva/CVE-2025-30065-PoC)
 - [mouadk/parquet-rce-poc-CVE-2025-30065](https://github.com/mouadk/parquet-rce-poc-CVE-2025-30065)
 - [ThreatRadarAI/TRAI-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation](https://github.com/ThreatRadarAI/TRAI-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation)
@@ -88259,6 +88371,7 @@
 - [kash-123/CVE-2017-0199](https://github.com/kash-123/CVE-2017-0199)
 - [ahmed-tarek22752/security-vulnerability-in-Microsoft-Office.](https://github.com/ahmed-tarek22752/security-vulnerability-in-Microsoft-Office.)
 - [BlackOclock/XLS-to-DBatLoader-or-GuLoader-for-AgentTesla-variant](https://github.com/BlackOclock/XLS-to-DBatLoader-or-GuLoader-for-AgentTesla-variant)
+- [debugactiveprocess/MaldocTrace](https://github.com/debugactiveprocess/MaldocTrace)
 
 ### CVE-2017-0204 (2017-04-12)
 
