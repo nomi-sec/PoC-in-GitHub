@@ -11965,7 +11965,6 @@
 - [nnka3/root-my-s24-on-oneui6.1](https://github.com/nnka3/root-my-s24-on-oneui6.1)
 - [chjwoo7/ghostlock-a55x](https://github.com/chjwoo7/ghostlock-a55x)
 - [kipcloud120/MiTV-MFTP0-GhostLock](https://github.com/kipcloud120/MiTV-MFTP0-GhostLock)
-- [a78c7/w25-cve-2026-43499-notes](https://github.com/a78c7/w25-cve-2026-43499-notes)
 - [Viper-Boss/iqoo-neo5-temp-root](https://github.com/Viper-Boss/iqoo-neo5-temp-root)
 - [BlackIce417/root-oplusace5](https://github.com/BlackIce417/root-oplusace5)
 - [DarkDevil-937/make-it-root](https://github.com/DarkDevil-937/make-it-root)
@@ -15763,6 +15762,7 @@
 - [totsiaw/cve-2026-64560-rmx6699](https://github.com/totsiaw/cve-2026-64560-rmx6699)
 - [Feng1586/CVE-2026-64560-public](https://github.com/Feng1586/CVE-2026-64560-public)
 - [Feng1586/CVE-2026-64560-sources](https://github.com/Feng1586/CVE-2026-64560-sources)
+- [Sulisong/OnePlus16-Jailbreak](https://github.com/Sulisong/OnePlus16-Jailbreak)
 - [No-World/rootkit](https://github.com/No-World/rootkit)
 - [wanwuzhishi/ksu-root](https://github.com/wanwuzhishi/ksu-root)
 - [youssefnoser/opd2415-6.6.118-cve-2026-64560-ksu](https://github.com/youssefnoser/opd2415-6.6.118-cve-2026-64560-ksu)
@@ -17504,6 +17504,7 @@
 </code>
 
 - [ansonhsu-ai/synology-dsm-cve-2026-76954-ste](https://github.com/ansonhsu-ai/synology-dsm-cve-2026-76954-ste)
+- [googlesky/CVE-2026-76954](https://github.com/googlesky/CVE-2026-76954)
 
 ### CVE-2026-76964 (2026-11-10)
 
@@ -20127,7 +20128,6 @@
 
 - [jadedFella/lpe-study-notes](https://github.com/jadedFella/lpe-study-notes)
 - [ylh440104/InfinityCore-Android-CVE-2026-98260](https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98260)
-- [Yunnijian/Shark](https://github.com/Yunnijian/Shark)
 - [quyicheng03-boop/CVE-2026-98260-popsicle-android](https://github.com/quyicheng03-boop/CVE-2026-98260-popsicle-android)
 - [quyicheng03-boop/CVE-2026-98260-nezha-android](https://github.com/quyicheng03-boop/CVE-2026-98260-nezha-android)
 - [sganggs/CVE-2026-98260-BRM-AN00](https://github.com/sganggs/CVE-2026-98260-BRM-AN00)
@@ -20180,6 +20180,7 @@
 - [jonrazta89/SamGhostKey](https://github.com/jonrazta89/SamGhostKey)
 - [skyrocketingHong/CVE-2026-98260_nezha](https://github.com/skyrocketingHong/CVE-2026-98260_nezha)
 - [Reallyliked21/galaxy-s24u-dzj3-temp-root](https://github.com/Reallyliked21/galaxy-s24u-dzj3-temp-root)
+- [jonrazta89/OneSamAKAGhostKey](https://github.com/jonrazta89/OneSamAKAGhostKey)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -22955,6 +22956,13 @@
 
 - [fixedbyreboot/CVE-2026-114656-POC](https://github.com/fixedbyreboot/CVE-2026-114656-POC)
 
+### CVE-2026-114713 (2026-11-08)
+
+<code>The labeled-response module in UnrealIRCd 6.0.0 before 6.2.7.1 does not escape the IRCv3 &quot;label&quot; message tag when echoing it into replies, which allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.
+</code>
+
+- [foxcornlab/unrealircd-scanner](https://github.com/foxcornlab/unrealircd-scanner)
+
 ### CVE-2026-114820 (2026-10-24)
 
 <code>Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u511-b32, 8u511-perf-b32, 11.0.33.0.2, 17.0.21.0.2, 21.0.13.0.2, 25.0.5.0.2, 27.0.1.0.2; Oracle GraalVM for JDK: 17.0.21.0.2 and  21.0.13.0.2; Oracle GraalVM Enterprise Edition: 21.3.20.0.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N).
@@ -23393,6 +23401,7 @@
 - [LLCForge/CVE-2026-119618](https://github.com/LLCForge/CVE-2026-119618)
 - [toeyhack/cve-2026-119618-apache-lab](https://github.com/toeyhack/cve-2026-119618-apache-lab)
 - [blkph0x/CVE-2026-119618-mod_http2-lab](https://github.com/blkph0x/CVE-2026-119618-mod_http2-lab)
+- [QCG5OLF5ZU9L2W/CVE-2026-119618-YARA](https://github.com/QCG5OLF5ZU9L2W/CVE-2026-119618-YARA)
 
 ### CVE-2026-119712 (2026-10-30)
 
@@ -23653,6 +23662,14 @@
 
 - [googlesky/CVE-2026-123753](https://github.com/googlesky/CVE-2026-123753)
 
+### CVE-2026-123790 (2026-11-12)
+
+<code>ComfyUI-Easy-Use version 1.3.6 contains a path traversal vulnerability in the `save_preview()` handler for POST `/easyuse/save/{name}`. The handler checks the source directory before appending a user-supplied filename and allows the request to select the `custom_nodes` directory as a copy destination. An unauthenticated attacker who can reach the ComfyUI server can overwrite an installed custom node’s Python entry point with an uploaded file. When ComfyUI restarts and loads the modified node, the attacker’s code runs with the privileges of the ComfyUI process.
+</code>
+
+- [lng255639-cpu/comfyui-easyuse-cve-check](https://github.com/lng255639-cpu/comfyui-easyuse-cve-check)
+- [lng255639-cpu/comfyui-easyuse-cve-check-en](https://github.com/lng255639-cpu/comfyui-easyuse-cve-check-en)
+
 ### CVE-2026-123807 (2026-11-09)
 
 <code>Signal K Server is a server application that runs on a central hub in a boat. From 2.0.0 until 2.34.0 for Signal K Server and from 1.0.0 until 1.5.3 for @signalk/resources-provider, the v2 REST route GET /signalk/v2/api/resources/:resourceType/:resourceId accepts an unsafe resourceId that can escape the intended resource directory. The route passes the attacker-controlled resourceId through src/api/resources/index.ts to FileStore.getResource() in packages/resources-provider-plugin/src/filestorage.ts without adequate path containment, allowing arbitrary JSON files reachable by the server to be read. Related PUT and DELETE resource operations can write or delete files outside the storage root. Deployments with allow_readonly enabled permit anonymous reads, while other deployments require a readonly user token. Reading security.json exposes the HS256 JWT signing secret and password hashes, allowing an attacker to forge an administrator token. Administrative access to POST /skServer/providers can then create an Execute provider that runs commands with the server process privileges and persists its configuration across restarts. This issue is fixed in Signal K Server 2.34.0 and @signalk/resources-provider 1.5.3.
@@ -23734,6 +23751,13 @@
 
 - [kanokwut/CVE-2026-125439-poc](https://github.com/kanokwut/CVE-2026-125439-poc)
 
+### CVE-2026-125440 (2026-11-13)
+
+<code>Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in Cristián Lávaque s2Member s2member allows Code Injection.This issue affects s2Member: from n/a through 261106.
+</code>
+
+- [yozturk0/CVE-2026-125440](https://github.com/yozturk0/CVE-2026-125440)
+
 ### CVE-2026-125753 (2026-11-10)
 
 <code>ABP Framework 2.9.0 before 10.6.2 and 10.7.0 pre-releases before 10.7.0 contain a path traversal vulnerability in DefaultBlobFilePathCalculator that allows unauthenticated attackers to access files outside the blob container. Attackers can send %5C-encoded backslashes through the Blogging api/blogging/files/{name} endpoint on Windows hosts to read files like appsettings.json containing signing keys and connection strings.
@@ -23780,6 +23804,20 @@
 - [rudSarkar/GHSA-673q-mjm6-r5xr](https://github.com/rudSarkar/GHSA-673q-mjm6-r5xr)
 - [TahuCryptsi/poc-cve-2026-126187-rsc-usecache-rce](https://github.com/TahuCryptsi/poc-cve-2026-126187-rsc-usecache-rce)
 
+### CVE-2026-126269 (2026-11-13)
+
+<code>NocoDB before 2026.09.0 contains a stored cross-site scripting vulnerability that allows authenticated Editor users to execute scripts by storing crafted attachment MIME types like text/html;image/png. Attackers can write the value through the records API so the /dltemp signed URL serves HTML inline, stealing session tokens from localStorage to impersonate victims.
+</code>
+
+- [googlesky/CVE-2026-126269](https://github.com/googlesky/CVE-2026-126269)
+
+### CVE-2026-126273 (2026-11-13)
+
+<code>NocoDB before 2026.09.0 contains a privilege escalation vulnerability in initAdminFromEnv.ts that silently skips super-admin bootstrap when the admin password environment variable is empty. Unauthenticated attackers can call the public signup endpoint first on a fresh instance to receive Creator and Super Admin roles, gaining full administrative control.
+</code>
+
+- [googlesky/CVE-2026-126273](https://github.com/googlesky/CVE-2026-126273)
+
 ### CVE-2026-126497 (2026-11-11)
 
 <code>LibreCAD through 2.2.1.6 contains a heap-based out-of-bounds write vulnerability in the bundled libdxfrw dwgReader18::parseDataPage() function due to unchecked buffer size and page offsets. Attackers can craft an AC1018 (R2004) DWG file with malicious startOffset values that cause decompress18 to write past the heap buffer when opened, causing crashes and potential code execution.
@@ -23794,6 +23832,13 @@
 
 - [im0xfay/CVE-2026-126537](https://github.com/im0xfay/CVE-2026-126537)
 
+### CVE-2026-126837 (2026-11-12)
+
+<code>A validation flaw in the DNS SRV host discovery of the MongoDB Node.js driver may cause the driver to connect to a host outside the expected domain. For a mongodb+srv:// connection string, the driver checks each host name in the DNS SRV response against the domain of the connection string. The driver then builds the connection address from the original name, in which certain characters end the host name early. An unauthenticated party who can forge or change the DNS SRV response may redirect the connection to a host of their choice. TLS does not prevent this, because the driver verifies the server certificate against the redirected host name. This may result in unintended disclosure of application data and authentication credentials, and in altered query results. Applications that use mongodb:// connection strings are not affected.
+</code>
+
+- [googlesky/CVE-2026-126837](https://github.com/googlesky/CVE-2026-126837)
+
 ### CVE-2026-126997 (2026-11-12)
 
 <code>A vulnerability was identified in JeecgBoot up to 3.9.6. This affects the function RestTemplate.exchange of the file org/jeecg/modules/airag/flow/c/a.class of the component flow-run Endpoint. The manipulation leads to server-side request forgery. Remote exploitation of the attack is possible. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.
@@ -23807,6 +23852,20 @@
 </code>
 
 - [fumioryoto/CVE-2026-127016](https://github.com/fumioryoto/CVE-2026-127016)
+
+### CVE-2026-128014 (2026-11-13)
+
+<code>FrankenPHP standalone static binaries 1.8.0 before 1.13.2 bundle the PHP brotli extension statically linked with Brotli 1.2.0, whose decoder contains an out-of-bounds write (CVE-2026-111497). Unauthenticated remote attackers can send crafted data to applications that pass it to brotli_uncompress_add() to crash the entire FrankenPHP process, and possibly cause memory disclosure or code execution.
+</code>
+
+- [googlesky/CVE-2026-128014](https://github.com/googlesky/CVE-2026-128014)
+
+### CVE-2026-128027 (2026-11-13)
+
+<code>FrankenPHP Docker images before 1.1.11 were rebuilt only when new base image tags were created, so security fixes that Alpine, PHP, and Go applied under existing tags were not propagated. Remote attackers could exploit known flaws in the stale system libraries, such as CVE-2025-15467 in libcrypto3, to execute code.
+</code>
+
+- [googlesky/CVE-2026-128027](https://github.com/googlesky/CVE-2026-128027)
 
 ### CVE-2026-128970 (2026-11-13)
 
@@ -27466,6 +27525,7 @@
 - [mr-r3b00t/CVE-2025-15467](https://github.com/mr-r3b00t/CVE-2025-15467)
 - [materaj2/cve-2025-15467](https://github.com/materaj2/cve-2025-15467)
 - [WostGit/cve-2025-15467-crash](https://github.com/WostGit/cve-2025-15467-crash)
+- [googlesky/CVE-2026-128027](https://github.com/googlesky/CVE-2026-128027)
 
 ### CVE-2025-15474 (2026-01-07)
 
@@ -32992,6 +33052,7 @@
 - [doerrdan/it-sec-toolshell](https://github.com/doerrdan/it-sec-toolshell)
 - [mfarshad-abdullah-khan/cve-2025-53770-research](https://github.com/mfarshad-abdullah-khan/cve-2025-53770-research)
 - [thiconickid/sharepoint-zero-day-cs50-cybersecurity](https://github.com/thiconickid/sharepoint-zero-day-cs50-cybersecurity)
+- [alinaclark672377250/CVE-2025-53770](https://github.com/alinaclark672377250/CVE-2025-53770)
 
 ### CVE-2025-53772 (2025-08-12)
 
@@ -44838,7 +44899,7 @@
 - [TheStingR/CVE-2024-36991-Tool](https://github.com/TheStingR/CVE-2024-36991-Tool)
 - [gunzf0x/CVE-2024-36991](https://github.com/gunzf0x/CVE-2024-36991)
 - [0xFZin/CVE-2024-36991](https://github.com/0xFZin/CVE-2024-36991)
-- [jhurtadomi/CVE-2024-36991-Splunk](https://github.com/jhurtadomi/CVE-2024-36991-Splunk)
+- [wintxx/CVE-2024-36991-Splunk](https://github.com/wintxx/CVE-2024-36991-Splunk)
 
 ### CVE-2024-37010
 - [SarpantKeltiek/CVE-2024-37010](https://github.com/SarpantKeltiek/CVE-2024-37010)
