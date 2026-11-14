@@ -8655,7 +8655,7 @@
 - [StackOverflowExcept1on/CVE-2026-31431](https://github.com/StackOverflowExcept1on/CVE-2026-31431)
 - [Venshell/copy-fail-CVE-2026-31431-aarch64](https://github.com/Venshell/copy-fail-CVE-2026-31431-aarch64)
 - [abiyeenzo/CVE-2026-31431](https://github.com/abiyeenzo/CVE-2026-31431)
-- [CypherMux/CopyFix](https://github.com/CypherMux/CopyFix)
+- [Stlwtrs/CopyFix](https://github.com/Stlwtrs/CopyFix)
 
 ### CVE-2026-31525 (2026-04-22)
 
@@ -10653,7 +10653,7 @@
 
 ### CVE-2026-39732 (2026-10-30)
 
-<code>Unauthenticated SQL Injection in Transliterator &lt;= 2.5.13 versions.
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in INTINITUM FORM Transliterator serbian-transliteration allows Blind SQL Injection.This issue affects Transliterator: from n/a through 2.5.13.
 </code>
 
 - [Mor-Golan/CVE-2026-39732](https://github.com/Mor-Golan/CVE-2026-39732)
@@ -20222,6 +20222,7 @@
 - [skyrocketingHong/CVE-2026-98260_nezha](https://github.com/skyrocketingHong/CVE-2026-98260_nezha)
 - [Reallyliked21/galaxy-s24u-dzj3-temp-root](https://github.com/Reallyliked21/galaxy-s24u-dzj3-temp-root)
 - [jonrazta89/OneSamAKAGhostKey](https://github.com/jonrazta89/OneSamAKAGhostKey)
+- [linux-tools/Shark-Root-Folk_for_VIVO_Y500i](https://github.com/linux-tools/Shark-Root-Folk_for_VIVO_Y500i)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -20478,6 +20479,13 @@
 
 - [turretsec/disclosure-thinkware-u3000](https://github.com/turretsec/disclosure-thinkware-u3000)
 - [turretsec/u3000py](https://github.com/turretsec/u3000py)
+
+### CVE-2026-101107 (2026-11-12)
+
+<code>An OS command Injection issue exists in Air Terminal 6 provided by SoftBank Corp. Arbitrary commands may be executed with the root privilege by a user who can log in to the web management console of the affected product.
+</code>
+
+- [code-raisan/CVE-2026-101107-PoC-SBA6RCE-SAFETY](https://github.com/code-raisan/CVE-2026-101107-PoC-SBA6RCE-SAFETY)
 
 ### CVE-2026-101108 (2026-09-28)
 
@@ -22379,6 +22387,7 @@
 - [Mahyarpishbazz/php2version-scanner](https://github.com/Mahyarpishbazz/php2version-scanner)
 - [MammaniNelsonD/PHP2P4IM0NSHELL](https://github.com/MammaniNelsonD/PHP2P4IM0NSHELL)
 - [rbtsecurity/php2shell-lab](https://github.com/rbtsecurity/php2shell-lab)
+- [donxud/PHP2Shell-Security-Investigation](https://github.com/donxud/PHP2Shell-Security-Investigation)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22824,6 +22833,13 @@
 - [794pn2s6fh-hub/CVE-2026-112621-](https://github.com/794pn2s6fh-hub/CVE-2026-112621-)
 - [PickAstley11/CVE-2026-112621-oob-write-poc](https://github.com/PickAstley11/CVE-2026-112621-oob-write-poc)
 
+### CVE-2026-112652 (2026-10-26)
+
+<code>A logic issue was addressed with improved state management. This issue is fixed in iOS 26.7.2 and iPadOS 26.7.2, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2, visionOS 27.2. An malicious app may be able to bypass certificate validation.
+</code>
+
+- [FAHAD21313/cve-2026-112652-secpolicy-research](https://github.com/FAHAD21313/cve-2026-112652-secpolicy-research)
+
 ### CVE-2026-112688 (2026-10-26)
 
 <code>A memory corruption issue was addressed with improved memory handling. This issue is fixed in iOS 26.7 and iPadOS 26.7, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2. Parsing a file may lead to an unexpected app termination or arbitrary code execution.
@@ -23104,6 +23120,13 @@
 ### CVE-2026-115926
 - [aymencdm/CVE-2026-115926-free5gc-bsf-missing-auth](https://github.com/aymencdm/CVE-2026-115926-free5gc-bsf-missing-auth)
 
+### CVE-2026-115934 (2026-11-09)
+
+<code>An unauthenticated SQL injection can occur on the front end of any site that uses craft.search to perform a search, allowing stacked query execution and enabling escalation to an administrator.\n\n\n\nNote that this only affects MySQL/MariaDB.\n\nImpact  *  SQL injection — The attribute parameter is concatenated into the query unsanitized, and because PDO runs with emulated prepares, stacked statements execute. This gives unauthenticated read and write access to the application database.\n  *  Privilege escalation to administrator — The write primitive was used to set the admin flag on user ID 1 in the users table, confirmed by reading the value back. Craft short-circuits its permission checks on this single column, so no further changes were needed. The same primitive can overwrite any account’s password hash.\n\n\n\n\nUpdate to the patched versions (4.18.9 and 5.11.2) to get the fix.\n\n\n\nIf you cannot update immediately, you can block front-end requests with %5Battribute%5D and [attribute] anywhere in the query string as a temporary mitigation.
+</code>
+
+- [fixedbyreboot/CVE-2026-115934-POC](https://github.com/fixedbyreboot/CVE-2026-115934-POC)
+
 ### CVE-2026-115965 (2026-10-29)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in BuddyPress BuddyPress buddypress allows Blind SQL Injection.This issue affects BuddyPress: from n/a through 14.5.2.
@@ -23276,6 +23299,7 @@
 
 - [majidrahimi5020-lgtm/Poc-exploit-for-CVE-2026-116779-FreeSWITCH-](https://github.com/majidrahimi5020-lgtm/Poc-exploit-for-CVE-2026-116779-FreeSWITCH-)
 - [hackzuoji/freeswitch-cve-2026-116779-POC](https://github.com/hackzuoji/freeswitch-cve-2026-116779-POC)
+- [al4n4n/CVE-2026-116779](https://github.com/al4n4n/CVE-2026-116779)
 
 ### CVE-2026-117017
 - [esecforte/PoC_CVE-2026-117017](https://github.com/esecforte/PoC_CVE-2026-117017)
@@ -23467,6 +23491,8 @@
 - [blkph0x/CVE-2026-119618-mod_http2-lab](https://github.com/blkph0x/CVE-2026-119618-mod_http2-lab)
 - [QCG5OLF5ZU9L2W/CVE-2026-119618-YARA](https://github.com/QCG5OLF5ZU9L2W/CVE-2026-119618-YARA)
 - [terminat0r7031/CVE-2026-119618](https://github.com/terminat0r7031/CVE-2026-119618)
+- [d4ytox/CVE-2026-119618](https://github.com/d4ytox/CVE-2026-119618)
+- [matarturo/apache-mod-http2-scanner](https://github.com/matarturo/apache-mod-http2-scanner)
 
 ### CVE-2026-119712 (2026-10-30)
 
@@ -23742,6 +23768,13 @@
 
 - [qianlijaingshan/signalk-audit](https://github.com/qianlijaingshan/signalk-audit)
 
+### CVE-2026-124020 (2026-11-13)
+
+<code>Control Web Panel (CWP) before webpanel_version 1.30.6 contains a host header injection vulnerability that allows unauthenticated attackers to manipulate the password-recovery reset URL by injecting the HTTP Host header into the /v1/lostpass/ route's token generation process. Attackers can lure an automated mail-security scanner into visiting the poisoned reset link to exfiltrate the live recovery token, replay it at /login/index.php?acc=newpass to set a new password, and subsequently abuse the File Manager and Crontab modules to achieve command execution as the targeted hosting account.
+</code>
+
+- [fixedbyreboot/CVE-2026-124020-POC](https://github.com/fixedbyreboot/CVE-2026-124020-POC)
+
 ### CVE-2026-124040 (2026-11-06)
 
 <code>CivetWeb through 1.16, when built with USE_HTTP2 and enable_http2 on, contains a use-after-free vulnerability in handle_http2() that retains freed :method and :path pointers. Unauthenticated remote attackers can send a later HEADERS frame omitting these pseudo-headers to influence request method or path seen by access rules, or crash the server.
@@ -23925,6 +23958,13 @@
 </code>
 
 - [im0xfay/CVE-2026-126537](https://github.com/im0xfay/CVE-2026-126537)
+
+### CVE-2026-126539 (2026-11-11)
+
+<code>Directus before 12.1.0 contains an authorization bypass vulnerability that allows unauthenticated attackers to skip permission checks by sending a failed auth message on public-mode WebSocket connections. Attackers can send an invalid token so handleAuthRequest sets accountability to null, then read, create, update or delete records in any user-defined collection.
+</code>
+
+- [fixedbyreboot/CVE-2026-126539-POC](https://github.com/fixedbyreboot/CVE-2026-126539-POC)
 
 ### CVE-2026-126837 (2026-11-12)
 
@@ -28213,6 +28253,7 @@
 
 - [harley-ghostie/safe-check-CVE-2025-23419](https://github.com/harley-ghostie/safe-check-CVE-2025-23419)
 - [xitexploiter96-dot/CVE-2025-23419](https://github.com/xitexploiter96-dot/CVE-2025-23419)
+- [przemyslawbryzek/CVE-2025-23419](https://github.com/przemyslawbryzek/CVE-2025-23419)
 
 ### CVE-2025-23922 (2025-01-16)
 
@@ -93466,6 +93507,7 @@
 - [0xTaoZ/Heartbleed-CSP-project](https://github.com/0xTaoZ/Heartbleed-CSP-project)
 - [mcpmark-eval-liuhezi/security-digest-modern-classics](https://github.com/mcpmark-eval-liuhezi/security-digest-modern-classics)
 - [federiconbaez/cortex9-heartbleed-heartbeat-bounds-model](https://github.com/federiconbaez/cortex9-heartbleed-heartbeat-bounds-model)
+- [Bri2327/vulnerables](https://github.com/Bri2327/vulnerables)
 
 ### CVE-2014-0166 (2014-04-09)
 
