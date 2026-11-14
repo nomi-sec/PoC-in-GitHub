@@ -6693,6 +6693,7 @@
 
 - [shurikgo/cve-2026-25262-sm8450-research](https://github.com/shurikgo/cve-2026-25262-sm8450-research)
 - [Starry2233/cve-2026-25262-poc](https://github.com/Starry2233/cve-2026-25262-poc)
+- [shuumaku/programmers](https://github.com/shuumaku/programmers)
 
 ### CVE-2026-25512 (2026-02-04)
 
@@ -14267,6 +14268,7 @@
 </code>
 
 - [elitexspam/Def4cer](https://github.com/elitexspam/Def4cer)
+- [karthi-the-hacker/CVE-2026-53787](https://github.com/karthi-the-hacker/CVE-2026-53787)
 
 ### CVE-2026-53805 (2026-06-17)
 
@@ -22320,6 +22322,7 @@
 - [demetriusford/php2shell-check](https://github.com/demetriusford/php2shell-check)
 - [Mahyarpishbazz/php2version-scanner](https://github.com/Mahyarpishbazz/php2version-scanner)
 - [MammaniNelsonD/PHP2P4IM0NSHELL](https://github.com/MammaniNelsonD/PHP2P4IM0NSHELL)
+- [rbtsecurity/php2shell-lab](https://github.com/rbtsecurity/php2shell-lab)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22753,6 +22756,7 @@
 
 - [Ping-2o/CVE-2026-112611-cg-shading](https://github.com/Ping-2o/CVE-2026-112611-cg-shading)
 - [Rust505/CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611)
+- [hkl1593246852-del/CVE-2026-112611](https://github.com/hkl1593246852-del/CVE-2026-112611)
 
 ### CVE-2026-112621 (2026-10-26)
 
@@ -23506,6 +23510,7 @@
 - [googlesky/CVE-2026-121529](https://github.com/googlesky/CVE-2026-121529)
 - [googlesky/Fortinet2Shell](https://github.com/googlesky/Fortinet2Shell)
 - [Ghost-Bx1/cve-2026-121529-forticlient-cors-rce](https://github.com/Ghost-Bx1/cve-2026-121529-forticlient-cors-rce)
+- [tc4dy/CVE-2026-121529-Toolkit](https://github.com/tc4dy/CVE-2026-121529-Toolkit)
 
 ### CVE-2026-121653 (2026-11-10)
 
@@ -23802,6 +23807,23 @@
 </code>
 
 - [fumioryoto/CVE-2026-127016](https://github.com/fumioryoto/CVE-2026-127016)
+
+### CVE-2026-128970 (2026-11-13)
+
+<code>Psono Server Community Edition versions 1.12.6 through 7.5.0 and Psono Server Enterprise Edition before 7.5.1 do not require accepted group membership when authorizing deletion of group share-rights. The DELETE /share/right/ endpoint checks for a membership matching the target group, the authenticated user, and share_admin=True, but omits accepted=True. An authenticated remote attacker who has been invited to a group with share-admin privileges, and who knows a group share-right UUID, can therefore delete that group's share-right record without accepting the invitation or after declining it. Pending invitations have accepted=None, while declined invitations retain accepted=False and the share_admin flag. Deletion revokes the group's access to the affected share and its contained secrets for all accepted group members, without deleting the underlying data or disclosing secret contents. The issue was fixed in version 7.5.1 of both editions, released on 2026-10-13.
+</code>
+
+- [R00t3dbyFa17h/security-advisories](https://github.com/R00t3dbyFa17h/security-advisories)
+
+### CVE-2026-129110 (2026-11-13)
+
+<code>sysPass 3.0.1 through 3.2.11 contains an authentication bypass vulnerability that allows unauthenticated attackers to reinstall an already-installed instance by POSTing to the install/install handler, which never checks isInstalled(). Attackers can overwrite config.xml, point the application at an attacker-controlled database, create an administrator account, and plant serialized PublicLink gadget chains triggered via account/viewLink to execute commands.
+</code>
+
+- [psylinux/CVE-2026-129110-sysPass](https://github.com/psylinux/CVE-2026-129110-sysPass)
+
+### CVE-2026-129254
+- [Usama-Hanif131/CVE-2026-129254](https://github.com/Usama-Hanif131/CVE-2026-129254)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -24161,6 +24183,7 @@
 - [gbrsh/CVE-2025-1661](https://github.com/gbrsh/CVE-2025-1661)
 - [MuhammadWaseem29/CVE-2025-1661](https://github.com/MuhammadWaseem29/CVE-2025-1661)
 - [shahwarshah/CVE-2025-1661](https://github.com/shahwarshah/CVE-2025-1661)
+- [alinaclark672377250/CVE-2025-1661](https://github.com/alinaclark672377250/CVE-2025-1661)
 
 ### CVE-2025-1716 (2025-02-26)
 
@@ -28074,6 +28097,7 @@
 - [cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC](https://github.com/cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC)
 - [rxerium/CVE-2025-24016](https://github.com/rxerium/CVE-2025-24016)
 - [guinea-offensive-security/Wazuh-RCE](https://github.com/guinea-offensive-security/Wazuh-RCE)
+- [alinaclark672377250/CVE-2025-24016](https://github.com/alinaclark672377250/CVE-2025-24016)
 
 ### CVE-2025-24035 (2025-03-11)
 
@@ -28242,7 +28266,6 @@
 - [SoftAndoWetto/CVE-2025-24367-PoC-Cacti](https://github.com/SoftAndoWetto/CVE-2025-24367-PoC-Cacti)
 - [matesz44/CVE-2025-24367](https://github.com/matesz44/CVE-2025-24367)
 - [ShoshinMaster/CVE-2025-24367](https://github.com/ShoshinMaster/CVE-2025-24367)
-- [dantedansh/CVE-2025-24367-Cacti-Exploit](https://github.com/dantedansh/CVE-2025-24367-Cacti-Exploit)
 
 ### CVE-2025-24472 (2025-02-11)
 
@@ -28297,6 +28320,7 @@
 - [ryhnmhrdka/CVE-2025-24799](https://github.com/ryhnmhrdka/CVE-2025-24799)
 - [airbus-cert/CVE-2025-24799-scanner](https://github.com/airbus-cert/CVE-2025-24799-scanner)
 - [galisko/CVE-2025-24799](https://github.com/galisko/CVE-2025-24799)
+- [alinaclark672377250/CVE-2025-24799](https://github.com/alinaclark672377250/CVE-2025-24799)
 
 ### CVE-2025-24801 (2025-03-18)
 
@@ -28372,6 +28396,7 @@
 - [HwangEojin/CVE-2025-24813-Tomcat11-Lab](https://github.com/HwangEojin/CVE-2025-24813-Tomcat11-Lab)
 - [toyplan/cve-2025-24813](https://github.com/toyplan/cve-2025-24813)
 - [Ghost-Bx1/TomcatPartialPUT-CVE-2025-24813](https://github.com/Ghost-Bx1/TomcatPartialPUT-CVE-2025-24813)
+- [alinaclark672377250/CVE-2025-24813](https://github.com/alinaclark672377250/CVE-2025-24813)
 
 ### CVE-2025-24893 (2025-02-20)
 
@@ -29522,6 +29547,7 @@
 - [goheesheng/sc3010](https://github.com/goheesheng/sc3010)
 - [elkhaoudari/CVE-2025-29927-Python](https://github.com/elkhaoudari/CVE-2025-29927-Python)
 - [dexteon/nextjs-middleware-auth-bypass-cve-2025-29927](https://github.com/dexteon/nextjs-middleware-auth-bypass-cve-2025-29927)
+- [alinaclark672377250/CVE-2025-29927-POC](https://github.com/alinaclark672377250/CVE-2025-29927-POC)
 
 ### CVE-2025-29943 (2026-01-16)
 
@@ -29729,6 +29755,7 @@
 
 - [MuhammadWaseem29/CVE-2025-31131](https://github.com/MuhammadWaseem29/CVE-2025-31131)
 - [gmh5225/Blackash-CVE-2025-31131](https://github.com/gmh5225/Blackash-CVE-2025-31131)
+- [alinaclark672377250/CVE-2025-31131](https://github.com/alinaclark672377250/CVE-2025-31131)
 
 ### CVE-2025-31133 (2025-11-06)
 
@@ -58913,6 +58940,7 @@
 - [gaganhm3018-art/CVE-2022-0847-Dirty-Pipe-](https://github.com/gaganhm3018-art/CVE-2022-0847-Dirty-Pipe-)
 - [t1ckprivate/CVE-2022-0847-Dirty-Pipe](https://github.com/t1ckprivate/CVE-2022-0847-Dirty-Pipe)
 - [vudangducminh/CVE-2022-0847](https://github.com/vudangducminh/CVE-2022-0847)
+- [mlucianoeze/linux-backport-CVE-2022-0847](https://github.com/mlucianoeze/linux-backport-CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -91420,6 +91448,7 @@
 - [Mr-Ochobot/CVE-2016-5195](https://github.com/Mr-Ochobot/CVE-2016-5195)
 - [bL8nCO/Dirty-cow](https://github.com/bL8nCO/Dirty-cow)
 - [federiconbaez/cortex9-dirtycow-gup-cow-state-model](https://github.com/federiconbaez/cortex9-dirtycow-gup-cow-state-model)
+- [mlucianoeze/linux-backport-CVE-2016-5195](https://github.com/mlucianoeze/linux-backport-CVE-2016-5195)
 
 ### CVE-2016-5345 (2018-01-23)
 
