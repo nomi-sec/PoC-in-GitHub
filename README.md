@@ -17544,6 +17544,7 @@
 
 - [ansonhsu-ai/synology-dsm-cve-2026-76954-ste](https://github.com/ansonhsu-ai/synology-dsm-cve-2026-76954-ste)
 - [googlesky/CVE-2026-76954](https://github.com/googlesky/CVE-2026-76954)
+- [foxcornlab/synology-dsm-scanner](https://github.com/foxcornlab/synology-dsm-scanner)
 
 ### CVE-2026-76964 (2026-11-10)
 
@@ -22402,6 +22403,7 @@
 - [MammaniNelsonD/PHP2P4IM0NSHELL](https://github.com/MammaniNelsonD/PHP2P4IM0NSHELL)
 - [rbtsecurity/php2shell-lab](https://github.com/rbtsecurity/php2shell-lab)
 - [donxud/PHP2Shell-Security-Investigation](https://github.com/donxud/PHP2Shell-Security-Investigation)
+- [Rat5ak/PHP2SHELL-PREAUTH-RCE](https://github.com/Rat5ak/PHP2SHELL-PREAUTH-RCE)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -23774,7 +23776,7 @@
 <code>The WP Duplicate  WordPress plugin through 1.1.11 does not properly verify a request authentication value and does not validate the path or type of uploaded files, making it possible for unauthenticated attackers to write arbitrary files to the server and achieve remote code execution. This vulnerability is being actively exploited in the wild.
 </code>
 
-- [Sorganeil/Duplicate2Shell-CVE-2026-123751-CVE-2026-39755](https://github.com/Sorganeil/Duplicate2Shell-CVE-2026-123751-CVE-2026-39755)
+- [Sorganeil/Duplicate2Shell-CVE-2026-123751](https://github.com/Sorganeil/Duplicate2Shell-CVE-2026-123751)
 
 ### CVE-2026-123753 (2026-11-09)
 
@@ -24010,6 +24012,55 @@
 
 - [googlesky/CVE-2026-126837](https://github.com/googlesky/CVE-2026-126837)
 
+### CVE-2026-126902 (2026-11-11)
+
+<code>Incorrect reference resolution in Browser in Google Chrome on on Mac prior to 157.0.8103.78 allowed a remote attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [abraxas/chrome-mac-webshare-symlink](https://github.com/abraxas/chrome-mac-webshare-symlink)
+
+### CVE-2026-126909 (2026-11-11)
+
+<code>Use after free in Passwords in Google Chrome prior to 157.0.8103.78 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [abraxas/chrome-autosignin-toast-uaf](https://github.com/abraxas/chrome-autosignin-toast-uaf)
+
+### CVE-2026-126910 (2026-11-11)
+
+<code>Type confusion in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [abraxas/chrome-v8-maglev-literal-stale](https://github.com/abraxas/chrome-v8-maglev-literal-stale)
+
+### CVE-2026-126912 (2026-11-11)
+
+<code>Buffer overflow in Skia in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [abraxas/skia-convex-oob](https://github.com/abraxas/skia-convex-oob)
+
+### CVE-2026-126915 (2026-11-11)
+
+<code>Use of uninitialized variable in Skia in Google Chrome on on Android prior to 157.0.8103.78 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [abraxas/skia-vk-uninit-renderpass](https://github.com/abraxas/skia-vk-uninit-renderpass)
+
+### CVE-2026-126916 (2026-11-11)
+
+<code>Integer overflow in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [abraxas/chrome-icu-usearch-ce-overflow](https://github.com/abraxas/chrome-icu-usearch-ce-overflow)
+
+### CVE-2026-126919 (2026-11-11)
+
+<code>Use after free in BrowserTag in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [abraxas/CVE-2026-126919-mimehandler-postmessage-uaf](https://github.com/abraxas/CVE-2026-126919-mimehandler-postmessage-uaf)
+
 ### CVE-2026-126937 (2026-11-13)
 
 <code>Zipline before 4.6.5 contains a TOCTOU race condition in the POST /api/setup endpoint that allows unauthenticated attackers to create multiple SUPERADMIN accounts by racing concurrent requests before the firstSetup flag is reset. Attackers can send simultaneous requests with spoofed X-Forwarded-For headers during the argon2 hashing window to gain full administrative control of the instance.
@@ -24072,6 +24123,20 @@
 </code>
 
 - [Usama-Hanif131/CVE-2026-129254](https://github.com/Usama-Hanif131/CVE-2026-129254)
+
+### CVE-2026-129353 (2026-11-14)
+
+<code>A vulnerability was detected in D-Link DIR-600L 2.17/2.17b02. Affected by this vulnerability is the function authenticationcgi_main of the file authentication.cgi. Performing a manipulation of the argument id/password results in stack-based buffer overflow. Remote exploitation of the attack is possible. The exploit is now public and may be used.
+</code>
+
+- [googlesky/CVE-2026-129353](https://github.com/googlesky/CVE-2026-129353)
+
+### CVE-2026-129354 (2026-11-15)
+
+<code>A flaw has been found in D-Link DIR-600L 2.17b02. Affected by this issue is the function hnap_main of the file htdocs/cgibin of the component HNAP Handler. Executing a manipulation can lead to stack-based buffer overflow. The attack can be executed remotely. The exploit has been published and may be used.
+</code>
+
+- [googlesky/CVE-2026-129354](https://github.com/googlesky/CVE-2026-129354)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
