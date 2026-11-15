@@ -11433,7 +11433,7 @@
 - [Zeltoc/threat-intel-brief-cve-2026-42208-litellm](https://github.com/Zeltoc/threat-intel-brief-cve-2026-42208-litellm)
 - [rootdirective-sec/CVE-2026-42208-Lab](https://github.com/rootdirective-sec/CVE-2026-42208-Lab)
 - [ridhinva/litellm-sqli-scanner](https://github.com/ridhinva/litellm-sqli-scanner)
-- [HAERIN-L/poc_cve-2026-42208](https://github.com/HAERIN-L/poc_cve-2026-42208)
+- [wangp0tato/poc_cve-2026-42208](https://github.com/wangp0tato/poc_cve-2026-42208)
 
 ### CVE-2026-42221 (2026-05-04)
 
@@ -11625,7 +11625,7 @@
 <code>Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. From versions 3.2.0 to before 3.2.11 and 3.3.0 to before 3.3.9, there is a missing authorization and data-masking gap in Argo CD's ServerSideDiff endpoint that allows an attacker with read-only access to extract plaintext Kubernetes Secret data from etcd via the Kubernetes API server's Server-Side Apply dry-run mechanism. This issue has been patched in versions 3.2.11 and 3.3.9.
 </code>
 
-- [HAERIN-L/POC_CVE-2026-42880](https://github.com/HAERIN-L/POC_CVE-2026-42880)
+- [wangp0tato/POC_CVE-2026-42880](https://github.com/wangp0tato/POC_CVE-2026-42880)
 
 ### CVE-2026-42897 (2026-05-14)
 
@@ -12909,7 +12909,7 @@
 <code>Nezha Monitoring is a self-hostable, lightweight, servers and websites monitoring and O&amp;M tool. From version 1.4.0 to before version 2.0.8, a RoleMember user can create a scheduled cron task with Cover=CronCoverAll, Servers=[] and an arbitrary Command. At every tick of the scheduler, the dashboard pushes that command to every server in the global ServerShared map — including servers that belong to other tenants (admin's servers, other members' servers). Each agent runs the command and returns the output, which is then sent to the attacker's own NotificationGroup → attacker-controlled webhook. This issue has been patched in version 2.0.8.
 </code>
 
-- [HAERIN-L/POC_CVE-2026-46716](https://github.com/HAERIN-L/POC_CVE-2026-46716)
+- [wangp0tato/POC_CVE-2026-46716](https://github.com/wangp0tato/POC_CVE-2026-46716)
 
 ### CVE-2026-46726 (2026-07-06)
 
@@ -15506,6 +15506,7 @@
 
 - [nhh9905/CVE-2026-62735](https://github.com/nhh9905/CVE-2026-62735)
 - [HackSpeak/CVE-2026-62735](https://github.com/HackSpeak/CVE-2026-62735)
+- [OArt3misQAQ/CVE-2026-62735-Rust](https://github.com/OArt3misQAQ/CVE-2026-62735-Rust)
 
 ### CVE-2026-62737 (2026-08-11)
 
@@ -22404,6 +22405,7 @@
 - [rbtsecurity/php2shell-lab](https://github.com/rbtsecurity/php2shell-lab)
 - [donxud/PHP2Shell-Security-Investigation](https://github.com/donxud/PHP2Shell-Security-Investigation)
 - [Rat5ak/PHP2SHELL-PREAUTH-RCE](https://github.com/Rat5ak/PHP2SHELL-PREAUTH-RCE)
+- [VoidCatalyst/php2shell-scanner](https://github.com/VoidCatalyst/php2shell-scanner)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -23518,6 +23520,7 @@
 - [terminat0r7031/CVE-2026-119618](https://github.com/terminat0r7031/CVE-2026-119618)
 - [d4ytox/CVE-2026-119618](https://github.com/d4ytox/CVE-2026-119618)
 - [matarturo/apache-mod-http2-scanner](https://github.com/matarturo/apache-mod-http2-scanner)
+- [studiogangster/CVE-2026-119618](https://github.com/studiogangster/CVE-2026-119618)
 
 ### CVE-2026-119712 (2026-10-30)
 
@@ -24124,6 +24127,20 @@
 
 - [Usama-Hanif131/CVE-2026-129254](https://github.com/Usama-Hanif131/CVE-2026-129254)
 
+### CVE-2026-129351 (2026-11-14)
+
+<code>A security vulnerability has been detected in TRENDnet TEW-657BRM 1.00.1. This vulnerability affects the function sprintf of the file /setup.cgi of the component mini_httpd. Such manipulation leads to out-of-bounds write. The attack can be executed remotely. The exploit has been disclosed publicly and may be used. The vendor explains: &quot;&quot;I am not able to confirm if such vulnerability exists as the product has been EOL for more than 15 years. We will send out an announcement letting customers know.&quot; This vulnerability only affects products that are no longer supported by the maintainer.
+</code>
+
+- [googlesky/CVE-2026-129351](https://github.com/googlesky/CVE-2026-129351)
+
+### CVE-2026-129352 (2026-11-14)
+
+<code>A vulnerability was detected in TRENDnet TEW-657BRM 1.00.1. This issue affects some unknown processing of the file /usr/sbin/upgrade_flash.cgi. Performing a manipulation of the argument boundary results in stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit is now public and may be used. The vendor explains: &quot;&quot;I am not able to confirm if such vulnerability exists as the product has been EOL for more than 15 years. We will send out an announcement letting customers know.&quot;
+</code>
+
+- [googlesky/CVE-2026-129352](https://github.com/googlesky/CVE-2026-129352)
+
 ### CVE-2026-129353 (2026-11-14)
 
 <code>A vulnerability was detected in D-Link DIR-600L 2.17/2.17b02. Affected by this vulnerability is the function authenticationcgi_main of the file authentication.cgi. Performing a manipulation of the argument id/password results in stack-based buffer overflow. Remote exploitation of the attack is possible. The exploit is now public and may be used.
@@ -24137,6 +24154,13 @@
 </code>
 
 - [googlesky/CVE-2026-129354](https://github.com/googlesky/CVE-2026-129354)
+
+### CVE-2026-129355 (2026-11-15)
+
+<code>A vulnerability has been found in sigoden dufs up to 0.46.0. This affects an unknown part of the file src/server.rs of the component WebDAV COPY Operation Handler. The manipulation leads to incorrect authorization. The attack is possible to be carried out remotely. Upgrading to version 0.47.0 is able to mitigate this issue. The identifier of the patch is fba13dffb9c65b5e5e26419f64de709200277a04. It is advisable to upgrade the affected component.
+</code>
+
+- [googlesky/CVE-2026-129355](https://github.com/googlesky/CVE-2026-129355)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -28057,6 +28081,7 @@
 - [linux-tools/VIVO-IQOO-Neo9-Root-Tools](https://github.com/linux-tools/VIVO-IQOO-Neo9-Root-Tools)
 - [Shiho-Patch/linux-tools-vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/Shiho-Patch/linux-tools-vivo_iqoo_neo_9_root_research_on_CVE-2025-21479)
 - [Type010/cheese-app](https://github.com/Type010/cheese-app)
+- [CatXiaoShi/CVE-2025-21479](https://github.com/CatXiaoShi/CVE-2025-21479)
 
 ### CVE-2025-21574 (2025-04-15)
 
@@ -70961,6 +70986,13 @@
 
 - [afaq1337/CVE-2021-35296](https://github.com/afaq1337/CVE-2021-35296)
 
+### CVE-2021-35394 (2021-08-16)
+
+<code>Realtek Jungle SDK version v2.x up to v3.4.14B provides a diagnostic tool called 'MP Daemon' that is usually compiled as 'UDPServer' binary. The binary is affected by multiple memory corruption vulnerabilities and an arbitrary command injection vulnerability that can be exploited by remote unauthenticated attackers.
+</code>
+
+- [graphworlok/cve-2021-35394-ecosystem](https://github.com/graphworlok/cve-2021-35394-ecosystem)
+
 ### CVE-2021-35448 (2021-06-24)
 
 <code>Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbitrary programs as Administrator by using the Image Transfer Folder feature to navigate to cmd.exe. It binds to local ports to listen for incoming connections.
@@ -87536,6 +87568,7 @@
 - [ShadowR-Root/fuel-cms-cve-2018-16763-python3-port](https://github.com/ShadowR-Root/fuel-cms-cve-2018-16763-python3-port)
 - [gh0stuncle/CVE-2018-16763_fuel_cms_exploit](https://github.com/gh0stuncle/CVE-2018-16763_fuel_cms_exploit)
 - [che3axujnya/cve-2018-16763](https://github.com/che3axujnya/cve-2018-16763)
+- [ex6p/fuel-CMS-1.4.1---Remote-Code-Execution-](https://github.com/ex6p/fuel-CMS-1.4.1---Remote-Code-Execution-)
 
 ### CVE-2018-16843 (2018-11-07)
 
@@ -95499,7 +95532,6 @@
 - [diceverick/vulnerability-assessment-lab](https://github.com/diceverick/vulnerability-assessment-lab)
 - [Nutsulejustine/pentest-metasploitable](https://github.com/Nutsulejustine/pentest-metasploitable)
 - [secwitness/CVE-2011-2523-vsftpd-backdoor-analysis](https://github.com/secwitness/CVE-2011-2523-vsftpd-backdoor-analysis)
-- [nabeelapu/vsftpd-2.3.4-backdoor-vulnerability-analysis](https://github.com/nabeelapu/vsftpd-2.3.4-backdoor-vulnerability-analysis)
 - [nabeelapu/vsftpd-2.3.4-backdoor-vulnerability_analysis](https://github.com/nabeelapu/vsftpd-2.3.4-backdoor-vulnerability_analysis)
 
 ### CVE-2011-2553
