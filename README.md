@@ -2894,7 +2894,6 @@
 </code>
 
 - [ChPratik/CVE-2026-9830](https://github.com/ChPratik/CVE-2026-9830)
-- [opaxial/CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830)
 
 ### CVE-2026-9833 (2026-07-20)
 
@@ -20050,6 +20049,7 @@
 - [emc-kk/cve-2026-97229-lab](https://github.com/emc-kk/cve-2026-97229-lab)
 - [Certbn/CVE-2026-97229-GitLab-CI-CD](https://github.com/Certbn/CVE-2026-97229-GitLab-CI-CD)
 - [Ghost-Bx1/cve-2026-97229-gitlab-ci-rce](https://github.com/Ghost-Bx1/cve-2026-97229-gitlab-ci-rce)
+- [wa6n3r/cve-2026-97229](https://github.com/wa6n3r/cve-2026-97229)
 
 ### CVE-2026-97286 (2026-09-30)
 
@@ -21147,6 +21147,13 @@
 - [rxsklife/CVE-2026-105192](https://github.com/rxsklife/CVE-2026-105192)
 - [basesixtythree/B63-POC-CVE-2026-105192](https://github.com/basesixtythree/B63-POC-CVE-2026-105192)
 
+### CVE-2026-105211 (2026-10-04)
+
+<code>ZITADEL before 4.17.1 contains an authentication bypass vulnerability in Login V2 that allows unauthenticated attackers to take over accounts by obtaining OTP codes via the returnCode delivery type. Attackers knowing a login name of a victim with OTP-Email and OTP-SMS enrolled can read both codes from server-action responses to gain MFA-authenticated sessions, including administrator takeover.
+</code>
+
+- [fixedbyreboot/CVE-2026-105211-POC](https://github.com/fixedbyreboot/CVE-2026-105211-POC)
+
 ### CVE-2026-105221 (2026-10-04)
 
 <code>The gist RubyGem before 6.1.0 contains an improper certificate validation vulnerability that allows on-path attackers to intercept HTTPS traffic because http_connection in lib/gist.rb sets VERIFY_NONE. Attackers can present any certificate to read or modify GitHub API traffic, stealing OAuth tokens and login credentials to read and modify the victim's gists.
@@ -21228,6 +21235,13 @@
 </code>
 
 - [xiaobai718-ab/CVE-2026-105484](https://github.com/xiaobai718-ab/CVE-2026-105484)
+
+### CVE-2026-105642 (2026-10-05)
+
+<code>Ghost is a Node.js content management system. From 6.56.0 until 6.67.0, an image processing library bundled with Ghost contained a vulnerability in its SVG handling. Any staff user, including Contributors, could create a bookmark card for an attacker-controlled website, resulting in arbitrary commands being run on the Ghost server. This issue is fixed in version 6.67.0.
+</code>
+
+- [fixedbyreboot/CVE-2026-105642-POC](https://github.com/fixedbyreboot/CVE-2026-105642-POC)
 
 ### CVE-2026-105697 (2026-10-05)
 
@@ -22718,6 +22732,7 @@
 ### CVE-2026-111760
 - [suominen/CVE-2026-111760](https://github.com/suominen/CVE-2026-111760)
 - [Ghost-Bx1/cve-2026-111760-git-submodule-symlink-rce](https://github.com/Ghost-Bx1/cve-2026-111760-git-submodule-symlink-rce)
+- [SSJCorpSec/cve-2026-111760-40b639e0](https://github.com/SSJCorpSec/cve-2026-111760-40b639e0)
 
 ### CVE-2026-111770 (2026-11-05)
 
@@ -22991,6 +23006,13 @@
 </code>
 
 - [googlesky/CVE-2026-114550](https://github.com/googlesky/CVE-2026-114550)
+
+### CVE-2026-114552 (2026-11-03)
+
+<code>MailEnable parseObjectResponse XML External Entity Processing Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of MailEnable. Authentication is required to exploit this vulnerability.\n\nThe specific flaw exists within the implementation of the parseObjectResponse method. The issue results from the lack of proper restriction of XML External Entity (XXE) references. An attacker can leverage this vulnerability to disclose information in the context of the service account. Was ZDI-CAN-29137.
+</code>
+
+- [RossKeddy/CVE-2026-114552](https://github.com/RossKeddy/CVE-2026-114552)
 
 ### CVE-2026-114595 (2026-10-27)
 
@@ -23300,6 +23322,7 @@
 - [majidrahimi5020-lgtm/Poc-exploit-for-CVE-2026-116779-FreeSWITCH-](https://github.com/majidrahimi5020-lgtm/Poc-exploit-for-CVE-2026-116779-FreeSWITCH-)
 - [hackzuoji/freeswitch-cve-2026-116779-POC](https://github.com/hackzuoji/freeswitch-cve-2026-116779-POC)
 - [al4n4n/CVE-2026-116779](https://github.com/al4n4n/CVE-2026-116779)
+- [DeathShotXD/SIP2Shell](https://github.com/DeathShotXD/SIP2Shell)
 
 ### CVE-2026-117017
 - [esecforte/PoC_CVE-2026-117017](https://github.com/esecforte/PoC_CVE-2026-117017)
@@ -23746,6 +23769,13 @@
 
 - [yuwkaaa/CVE-2026-123618](https://github.com/yuwkaaa/CVE-2026-123618)
 
+### CVE-2026-123751 (2026-11-09)
+
+<code>The WP Duplicate  WordPress plugin through 1.1.11 does not properly verify a request authentication value and does not validate the path or type of uploaded files, making it possible for unauthenticated attackers to write arbitrary files to the server and achieve remote code execution. This vulnerability is being actively exploited in the wild.
+</code>
+
+- [Sorganeil/Duplicate2Shell-CVE-2026-123751-CVE-2026-39755](https://github.com/Sorganeil/Duplicate2Shell-CVE-2026-123751-CVE-2026-39755)
+
 ### CVE-2026-123753 (2026-11-09)
 
 <code>Server-Side Request Forgery (SSRF) vulnerability in Apache Axis2/Java. An unauthenticated caller could supply a non-anonymous WS-Addressing wsa:ReplyTo or wsa:FaultTo address, and Axis2 would open a connection to that address to deliver the response or fault, allowing requests to internal hosts and delivery of response content to a host of the caller's choosing. From 2.0.2, decoupled responses are refused unless allowNonAnonymousResponseEndpoints is enabled, and enabled endpoints are restricted by scheme and screened at both the header-parsing and transport-selection layers. This issue affects Apache Axis2/Java: through 2.0.1. Users are recommended to upgrade to version 2.0.2, which fixes the issue.
@@ -23767,6 +23797,13 @@
 </code>
 
 - [qianlijaingshan/signalk-audit](https://github.com/qianlijaingshan/signalk-audit)
+
+### CVE-2026-124002 (2026-11-12)
+
+<code>XWEB EVO versions 5.2.3 through before 5.7.0 contains a pre-authentication OS command injection vulnerability that allows unauthenticated remote attackers to execute arbitrary OS commands by injecting shell metacharacters into the username field of login.lua, cleanout.lua, or api.lua before the password check occurs. Attackers can exploit this flaw combined with the setuid-root wlua interpreter to execute commands with root privileges, achieving full system compromise. This product line reached it's end of service date in March 2026.
+</code>
+
+- [fixedbyreboot/CVE-2026-124002-POC](https://github.com/fixedbyreboot/CVE-2026-124002-POC)
 
 ### CVE-2026-124020 (2026-11-13)
 
@@ -32004,8 +32041,6 @@
 - [sathish46-lab/CVE-2025-48384-submodule](https://github.com/sathish46-lab/CVE-2025-48384-submodule)
 - [fishjojo1/devin-cve48384-1789318364-1162143-parent](https://github.com/fishjojo1/devin-cve48384-1789318364-1162143-parent)
 - [origabriel/acb-giturl-cve2025](https://github.com/origabriel/acb-giturl-cve2025)
-- [xssdoctor/muse-git-cve-2025-48384-sub-20261113](https://github.com/xssdoctor/muse-git-cve-2025-48384-sub-20261113)
-- [xssdoctor/muse-git-cve-2025-48384-parent-20261113](https://github.com/xssdoctor/muse-git-cve-2025-48384-parent-20261113)
 
 ### CVE-2025-48461 (2025-06-24)
 
@@ -38925,6 +38960,7 @@
 - [weae26/aia-pdfjs-poc](https://github.com/weae26/aia-pdfjs-poc)
 - [minhi1/CVE-2024-4367](https://github.com/minhi1/CVE-2024-4367)
 - [remiBoudreau/CVE-2024-4367](https://github.com/remiBoudreau/CVE-2024-4367)
+- [SeVen-777777/cve-2024-4367-poc](https://github.com/SeVen-777777/cve-2024-4367-poc)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -47063,6 +47099,7 @@
 - [Rhyru9/CUPS-CVE-2024-47176](https://github.com/Rhyru9/CUPS-CVE-2024-47176)
 - [Stickxx00/Cups-RCE-Exploit](https://github.com/Stickxx00/Cups-RCE-Exploit)
 - [Md-Nafiul-Hamim/cups-browse-exploit-detection](https://github.com/Md-Nafiul-Hamim/cups-browse-exploit-detection)
+- [Kokila-Chandramohan/cups-cve-2024-47176](https://github.com/Kokila-Chandramohan/cups-cve-2024-47176)
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
@@ -52413,6 +52450,7 @@
 - [numbbvi/CVE-2023-25813](https://github.com/numbbvi/CVE-2023-25813)
 - [sea-middle/cve-2023-25813](https://github.com/sea-middle/cve-2023-25813)
 - [h-gunp/CVE-2023-25813-TEST](https://github.com/h-gunp/CVE-2023-25813-TEST)
+- [junhye-park/homework-sequelize-cve-2023-25813](https://github.com/junhye-park/homework-sequelize-cve-2023-25813)
 
 ### CVE-2023-25950 (2023-04-11)
 
@@ -67376,6 +67414,8 @@
 - [sandesh9978/CVE-2021-3156-Sudo-Checker](https://github.com/sandesh9978/CVE-2021-3156-Sudo-Checker)
 - [d4ytox/CVE-2021-3156](https://github.com/d4ytox/CVE-2021-3156)
 - [AmroYasserH/DFIR-CVE-2021-3156-Incident-Response](https://github.com/AmroYasserH/DFIR-CVE-2021-3156-Incident-Response)
+- [HanaBouikni/AppArmor-Simulation-CVE-2021-3156](https://github.com/HanaBouikni/AppArmor-Simulation-CVE-2021-3156)
+- [HanaBouikni/Volatility3-Forensics-Incident-Response](https://github.com/HanaBouikni/Volatility3-Forensics-Incident-Response)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -73575,6 +73615,7 @@
 - [mcpmark-eval-liuhezi/log4j-xz-lessons](https://github.com/mcpmark-eval-liuhezi/log4j-xz-lessons)
 - [Certbn/CVE-2021-44228-Apache-Log4j2-JNDI-Lookup](https://github.com/Certbn/CVE-2021-44228-Apache-Log4j2-JNDI-Lookup)
 - [DatLang777/Log4Shell-BlueTeam-Detection-Lab](https://github.com/DatLang777/Log4Shell-BlueTeam-Detection-Lab)
+- [HanaBouikni/Log4Shell-Incident-Report-CVE-2021-44228](https://github.com/HanaBouikni/Log4Shell-Incident-Report-CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
