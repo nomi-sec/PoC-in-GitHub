@@ -310,7 +310,7 @@
 <code>Discord Client Uncontrolled Search Path Element Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of Discord Client. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\n\nThe specific flaw exists within the discord_rpc module. The product loads a file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of a target user. Was ZDI-CAN-27057.
 </code>
 
-- [whenx/CVE-2026-0776](https://github.com/whenx/CVE-2026-0776)
+- [0xbye/CVE-2026-0776](https://github.com/0xbye/CVE-2026-0776)
 
 ### CVE-2026-0827 (2026-04-15)
 
@@ -3923,6 +3923,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-15315](https://github.com/HORKimhab/CVE-2026-15315)
+- [Moyai08/Tapo-CVE-2026-15315-Poc](https://github.com/Moyai08/Tapo-CVE-2026-15315-Poc)
 
 ### CVE-2026-15409 (2026-07-14)
 
@@ -7815,7 +7816,7 @@
 <code>A logic issue was addressed with improved restrictions. This issue is fixed in iOS 18.7.9 and iPadOS 18.7.9, iOS 26.5 and iPadOS 26.5, macOS Sequoia 15.7.4, macOS Sonoma 14.8.4, macOS Tahoe 26.5, tvOS 26.5, visionOS 26.5, watchOS 26.5. A malicious app may be able to break out of its sandbox.
 </code>
 
-- [Robertmak2014-sudow/CVE-2026-28995](https://github.com/Robertmak2014-sudow/CVE-2026-28995)
+- [b0bb1-bobovski/CVE-2026-28995](https://github.com/b0bb1-bobovski/CVE-2026-28995)
 
 ### CVE-2026-29000 (2026-03-04)
 
@@ -20220,7 +20221,6 @@
 - [orumanayurpanjayat-ux/SamTimer](https://github.com/orumanayurpanjayat-ux/SamTimer)
 - [jonrazta89/timertest](https://github.com/jonrazta89/timertest)
 - [qq2770355800/ExtractKit](https://github.com/qq2770355800/ExtractKit)
-- [mumaosong/CVE-2026-98260-Drive](https://github.com/mumaosong/CVE-2026-98260-Drive)
 - [jonrazta89/SamGhostKey](https://github.com/jonrazta89/SamGhostKey)
 - [skyrocketingHong/CVE-2026-98260_nezha](https://github.com/skyrocketingHong/CVE-2026-98260_nezha)
 - [Reallyliked21/galaxy-s24u-dzj3-temp-root](https://github.com/Reallyliked21/galaxy-s24u-dzj3-temp-root)
@@ -22820,6 +22820,13 @@
 
 ### CVE-2026-112445
 - [Mas0nShi/CVE-2026-112445](https://github.com/Mas0nShi/CVE-2026-112445)
+
+### CVE-2026-112477 (2026-10-26)
+
+<code>A race condition was addressed with improved locking. This issue is fixed in iOS 26.7.2 and iPadOS 26.7.2, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2, tvOS 27.2, visionOS 27.2, watchOS 27.2. An app may be able to cause unexpected system termination or corrupt kernel memory.
+</code>
+
+- [Sparticle62ops/israce-probe](https://github.com/Sparticle62ops/israce-probe)
 
 ### CVE-2026-112487 (2026-10-26)
 
@@ -29912,6 +29919,7 @@
 - [elkhaoudari/CVE-2025-29927-Python](https://github.com/elkhaoudari/CVE-2025-29927-Python)
 - [dexteon/nextjs-middleware-auth-bypass-cve-2025-29927](https://github.com/dexteon/nextjs-middleware-auth-bypass-cve-2025-29927)
 - [alinaclark672377250/CVE-2025-29927-POC](https://github.com/alinaclark672377250/CVE-2025-29927-POC)
+- [Seif-Abdelhamid/nextjs-middleware-bypass-lab](https://github.com/Seif-Abdelhamid/nextjs-middleware-bypass-lab)
 
 ### CVE-2025-29943 (2026-01-16)
 
@@ -96492,6 +96500,7 @@
 - [sarjanpatel22/siem-threat-detection-lab](https://github.com/sarjanpatel22/siem-threat-detection-lab)
 - [RoflSecurity/nodeloris](https://github.com/RoflSecurity/nodeloris)
 - [michou79/noc21220-cybersecurity-assessment](https://github.com/michou79/noc21220-cybersecurity-assessment)
+- [mr-zonev4/vuln-report-slowloris-CVE-2007-6750](https://github.com/mr-zonev4/vuln-report-slowloris-CVE-2007-6750)
 
 
 ## 2006
