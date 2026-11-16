@@ -3765,6 +3765,7 @@
 <code>Type Confusion in V8 in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)
 </code>
 
+- [jaf0rk/CVE-2026-14431](https://github.com/jaf0rk/CVE-2026-14431)
 - [djayaGit/CVE-2026-14431](https://github.com/djayaGit/CVE-2026-14431)
 
 ### CVE-2026-14440 (2026-07-01)
@@ -3923,7 +3924,7 @@
 </code>
 
 - [HORKimhab/CVE-2026-15315](https://github.com/HORKimhab/CVE-2026-15315)
-- [Moyai08/Tapo-CVE-2026-15315-Poc](https://github.com/Moyai08/Tapo-CVE-2026-15315-Poc)
+- [moyaiix/Tapo-CVE-2026-15315-Poc](https://github.com/moyaiix/Tapo-CVE-2026-15315-Poc)
 
 ### CVE-2026-15409 (2026-07-14)
 
@@ -5135,7 +5136,11 @@
 
 - [Xen0nize/CVE-2026-21096](https://github.com/Xen0nize/CVE-2026-21096)
 
-### CVE-2026-21155
+### CVE-2026-21155 (2026-11-16)
+
+<code>Out-of-bounds write in bootloader prior to SMR Nov-2026 Release 1 allows physical attackers to write out-of-bounds memory.
+</code>
+
 - [UnsignedChad/CVE-2026-21155-SVE-2026-3546](https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546)
 - [yuki493/s5e8835-sboot-probe](https://github.com/yuki493/s5e8835-sboot-probe)
 
@@ -5999,6 +6004,13 @@
 
 - [yoyosh/DarkReplica](https://github.com/yoyosh/DarkReplica)
 - [HORKimhab/CVE-2026-23631](https://github.com/HORKimhab/CVE-2026-23631)
+
+### CVE-2026-23693 (2026-02-23)
+
+<code>ElementsKit Elementor Addons – Advanced Widgets &amp; Templates Addons for Elementor (elementskit-lite) WordPress plugin versions prior to 3.7.9 expose the REST endpoint /wp-json/elementskit/v1/widget/mailchimp/subscribe without authentication. The endpoint accepts client-supplied Mailchimp API credentials and insufficiently validates certain parameters, including the list parameter, when constructing upstream Mailchimp API requests. An unauthenticated attacker can abuse the endpoint as an open proxy to Mailchimp, potentially triggering unauthorized API calls, manipulating subscription data, exhausting API quotas, or causing resource consumption on the affected WordPress site.
+</code>
+
+- [rahulreddykarne/ARK-WP-Scanner](https://github.com/rahulreddykarne/ARK-WP-Scanner)
 
 ### CVE-2026-23697 (2026-07-07)
 
@@ -20348,6 +20360,13 @@
 
 - [googlesky/CVE-2026-99273](https://github.com/googlesky/CVE-2026-99273)
 
+### CVE-2026-99288 (2026-11-10)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\ninet: reject unhashed sockets during established lookups\n\nTCP established ehash lookups are lockless. The socket caches involved\nuse SLAB_TYPESAFE_BY_RCU, so memory can be reused before an RCU reader\nthat retained its old address has finished.\n\nAfter a tuple match, __inet_lookup_established() and\n__inet6_lookup_established() acquire a reference and repeat the tuple\ncheck. They do not check whether the new object is hashed. If the\naddress is reused for a socket with the same tuple, the lookup can\nacquire a reference to the new object and return it while its nulls node\nis unhashed.\n\nA PoC that drives reuse with a SYN cookie request socket reproduced the\ncrash. The new request socket is unhashed and has a NULL rsk_listener.\nA lookup that had loaded the address of the old request socket acquired\nthe reference published by tcp_get_cookie_sock() and returned the new\nobject. tcp_v4_rcv() then read sk_state through the NULL listener.\n\nThe resulting crash was:\n\n  BUG: kernel NULL pointer dereference, address: 0000000000000012\n  #PF: supervisor read access in kernel mode\n  #PF: error_code(0x0000) - not-present page\n  ...\n  Oops: Oops: 0000 [#1] SMP NOPTI\n  CPU: 4 UID: 0 PID: 0 Comm: swapper/4 Not tainted 7.3.0-00591-g0e135910deec #1 PREEMPT(lazy)\n  ...\n  RIP: 0010:tcp_v4_rcv+0x44e/0x1280\n  ...\n  R10: 0000000000000001 R11: 00000000024ca8c0 R12: 0000000000000000\n  ...\n  CR2: 0000000000000012 CR3: 0000000103d50004 CR4: 0000000000770ef0\n  ...\n  Call Trace:\n   &lt;IRQ&gt;\n   ? raw_local_deliver+0xae/0x240\n   ip_protocol_deliver_rcu+0x2d/0x180\n   ip_local_deliver_finish+0x84/0x100\n   ip_sublist_rcv_finish+0x5f/0x70\n   ip_sublist_rcv+0x12a/0x1d0\n   ip_list_rcv+0xfd/0x130\n   __netif_receive_skb_list_core+0x223/0x250\n   netif_receive_skb_list_internal+0x1d2/0x2c0\n   ? try_fill_recv+0x39/0x7b0\n   napi_complete_done+0x74/0x170\n   virtnet_poll+0x445/0x600\n   __napi_poll+0x27/0x1e0\n   net_rx_action+0x2fe/0x3b0\n   handle_softirqs+0xc2/0x2c0\n   __irq_exit_rcu+0x74/0xd0\n   common_interrupt+0x7f/0x90\n   &lt;/IRQ&gt;\n  ...\n  Kernel panic - not syncing: Fatal exception in interrupt\n\nAfter taking a reference, check whether the nulls node is unhashed in\nboth IPv4 and IPv6 established lookups. If it is unhashed or the tuple\nno longer matches, drop the reference and restart the lookup.\n\nLookups racing with the TIME_WAIT hashdance, or with a request being\nreplaced by its child, now restart and find the new socket instead of\nreturning the old one.\n\nRequest sockets that were never inserted into ehash can have a nonzero\nrefcount, and a stale lookup can hold a transient reference. Therefore,\nwhen SYN cookie, Fast Open, and request migration paths fail after\nsetting a nonzero refcount, release the references held by those paths\nwith reqsk_put() instead of freeing the request directly.
+</code>
+
+- [h0rn3t/noisytcp-lab](https://github.com/h0rn3t/noisytcp-lab)
+
 ### CVE-2026-99999 (2026-10-15)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nipv4: validate checksum_start before completing checksum\n\nIf a packet with bad checksum metadata gets into the ipv4 stack,\nskb_checksum_help can corrupt the network header and cause a bunch of\nmischief.\n\nThis was discovered and reported by Paulos, and has been reporoduced\nby others independently since.\n\nWe really shouldn't allow such packets in, but as a defence\nin depth measure, let's also check before we complete the checksum.\n\nA more complete validation at input is forthcoming, but needs more work.
@@ -23251,6 +23270,13 @@
 
 - [thalewalan/CVE-2026-116296](https://github.com/thalewalan/CVE-2026-116296)
 
+### CVE-2026-116331 (2026-11-12)
+
+<code>Type confusion in PostgreSQL min/max aggregate optimization allows an object creator to execute arbitrary code as the operating system user running the database, via a user-defined aggregate whose SORTOP option causes the planner to treat the aggregate's input and result as the same type when they differ.  Versions before PostgreSQL 18.7, 17.12, 16.16, 15.20, and 14.25 are affected.
+</code>
+
+- [notdenied/CVE-2026-116331-PoC](https://github.com/notdenied/CVE-2026-116331-PoC)
+
 ### CVE-2026-116366 (2026-10-30)
 
 <code>An issue has been discovered in ClickHouse Server that, under certain conditions, could allow an unauthenticated user with network access to execute arbitrary code on the ClickHouse Server.
@@ -23537,6 +23563,7 @@
 - [d4ytox/CVE-2026-119618](https://github.com/d4ytox/CVE-2026-119618)
 - [matarturo/apache-mod-http2-scanner](https://github.com/matarturo/apache-mod-http2-scanner)
 - [studiogangster/CVE-2026-119618](https://github.com/studiogangster/CVE-2026-119618)
+- [dansaurabh/h2race-check_CVE-2026-119618](https://github.com/dansaurabh/h2race-check_CVE-2026-119618)
 
 ### CVE-2026-119712 (2026-10-30)
 
@@ -23901,6 +23928,13 @@
 
 - [VulnSVNC/CVE-2026-125399](https://github.com/VulnSVNC/CVE-2026-125399)
 
+### CVE-2026-125423 (2026-11-15)
+
+<code>A repository created with auto-init accepted pushes before its initialization had finished, and the initial commit was built in a checkout of whatever the repository already contained. A user who is allowed to create repositories could push a crafted tree during that window so that writing the README followed a symbolic link and overwrote a server-side git hook, which runs commands as the Gitea system user. The initial commit is now built in a freshly initialized directory, and a new repository only becomes ready, and accepts pushes, once its initialization is complete.
+</code>
+
+- [grigorovichvlad/CVE-2026-125423](https://github.com/grigorovichvlad/CVE-2026-125423)
+
 ### CVE-2026-125439 (2026-11-11)
 
 <code>Missing Authorization vulnerability in Kit Kit (formerly ConvertKit) convertkit allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Kit (formerly ConvertKit): from n/a through 3.5.0.
@@ -24212,6 +24246,27 @@
 </code>
 
 - [googlesky/CVE-2026-129360](https://github.com/googlesky/CVE-2026-129360)
+
+### CVE-2026-129492 (2026-11-16)
+
+<code>Bolo (bolo-solo) 1.7 through 2.6.4 contains a stored cross-site scripting vulnerability that allows unauthenticated attackers to inject scripts via the unsanitized commentOriginalCommentName parameter. Attackers can post a comment to /article/comments with a short payload that steals non-HttpOnly session cookies from visitors, enabling takeover of administrator accounts.
+</code>
+
+- [googlesky/CVE-2026-129492](https://github.com/googlesky/CVE-2026-129492)
+
+### CVE-2026-129493 (2026-11-16)
+
+<code>Bolo (bolo-solo) 1.7 through 2.6.4 contains an information disclosure vulnerability that allows unauthenticated attackers to read article view passwords via the public GET /articles endpoint. Attackers can retrieve the plaintext articleViewPwd field returned by ArticleProcessor.getArticlesByPage and submit it to read password-protected article content.
+</code>
+
+- [googlesky/CVE-2026-129493](https://github.com/googlesky/CVE-2026-129493)
+
+### CVE-2026-129494 (2026-11-16)
+
+<code>CloudPaste 1.1.0 through 1.9.1 contains an information disclosure vulnerability that allows unauthenticated attackers to obtain WebDAV storage credentials through the unauthenticated /api/proxy/link endpoint. Attackers who know a public share slug can retrieve the Basic Authorization header containing the WebDAV username and password, then read, modify, or delete files on the WebDAV server.
+</code>
+
+- [googlesky/CVE-2026-129494](https://github.com/googlesky/CVE-2026-129494)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -34163,7 +34218,6 @@
 - [H4R335HR/reactshell](https://github.com/H4R335HR/reactshell)
 - [orgito1015/CVE-2025-55182-Researching-process](https://github.com/orgito1015/CVE-2025-55182-Researching-process)
 - [ashrafzaryouh/CVE-2025-55182](https://github.com/ashrafzaryouh/CVE-2025-55182)
-- [alptexans/RSC-Detect-CVE-2025-55182](https://github.com/alptexans/RSC-Detect-CVE-2025-55182)
 - [MrMahile/MassScanning-CVE-2025-55182](https://github.com/MrMahile/MassScanning-CVE-2025-55182)
 - [androidteacher/REACT-CVE-2025-55182-Lab](https://github.com/androidteacher/REACT-CVE-2025-55182-Lab)
 - [InferiorAK/CVE-2025-55182-React2Shell-Async-Scanner](https://github.com/InferiorAK/CVE-2025-55182-React2Shell-Async-Scanner)
@@ -75237,7 +75291,6 @@
 - [tdevworks/CVE-2020-1472-ZeroLogon-Demo-Detection-Mitigation](https://github.com/tdevworks/CVE-2020-1472-ZeroLogon-Demo-Detection-Mitigation)
 - [100HnoMeuNome/ZeroLogon-CVE-2020-1472-lab](https://github.com/100HnoMeuNome/ZeroLogon-CVE-2020-1472-lab)
 - [nyambiblaise/Domain-Controller-DC-Exploitation-with-Metasploit-Impacket](https://github.com/nyambiblaise/Domain-Controller-DC-Exploitation-with-Metasploit-Impacket)
-- [mods20hh/ZeroLogon-PoC-DC-Pwn](https://github.com/mods20hh/ZeroLogon-PoC-DC-Pwn)
 - [commit2main/zerologon-lab](https://github.com/commit2main/zerologon-lab)
 - [abdullah50i/internal-penetration-testing-project-using-Metasploit](https://github.com/abdullah50i/internal-penetration-testing-project-using-Metasploit)
 - [ckq7703/CVE-2020-1472](https://github.com/ckq7703/CVE-2020-1472)
@@ -88605,6 +88658,7 @@
 - [ahmed-tarek22752/security-vulnerability-in-Microsoft-Office.](https://github.com/ahmed-tarek22752/security-vulnerability-in-Microsoft-Office.)
 - [BlackOclock/XLS-to-DBatLoader-or-GuLoader-for-AgentTesla-variant](https://github.com/BlackOclock/XLS-to-DBatLoader-or-GuLoader-for-AgentTesla-variant)
 - [debugactiveprocess/MaldocTrace](https://github.com/debugactiveprocess/MaldocTrace)
+- [avidosa/MalwareStaticLab](https://github.com/avidosa/MalwareStaticLab)
 
 ### CVE-2017-0204 (2017-04-12)
 
