@@ -2937,6 +2937,7 @@
 
 - [George0Papasotiriou/CVE-2026-9999-Serverless-Event-Injection-to-Code-Overwrite](https://github.com/George0Papasotiriou/CVE-2026-9999-Serverless-Event-Injection-to-Code-Overwrite)
 - [josephfarah-ciso/CVE-2026-9999-exploit](https://github.com/josephfarah-ciso/CVE-2026-9999-exploit)
+- [Hazem777-G/CVE-2026-9999-PoC](https://github.com/Hazem777-G/CVE-2026-9999-PoC)
 
 ### CVE-2026-10036 (2026-08-27)
 
@@ -10380,6 +10381,7 @@
 
 ### CVE-2026-38194
 - [4D4J/cormem-read-poc](https://github.com/4D4J/cormem-read-poc)
+- [269s/Vuln-Driver-Mapper](https://github.com/269s/Vuln-Driver-Mapper)
 
 ### CVE-2026-38360 (2026-05-08)
 
@@ -11735,6 +11737,7 @@
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\neventpoll: defer struct eventpoll free to RCU grace period\n\nIn certain situations, ep_free() in eventpoll.c will kfree the epi-&gt;ep\neventpoll struct while it still being used by another concurrent thread.\nDefer the kfree() to an RCU callback to prevent UAF.
 </code>
 
+- [ngtuonghung/CVE-2026-43074](https://github.com/ngtuonghung/CVE-2026-43074)
 - [PeronGH/badepoll-selinux-disabler](https://github.com/PeronGH/badepoll-selinux-disabler)
 
 ### CVE-2026-43284 (2026-05-08)
@@ -20213,6 +20216,7 @@
 - [molanp/CVE-2026-98260-vivo-s60-poc](https://github.com/molanp/CVE-2026-98260-vivo-s60-poc)
 - [super2tt/CVE-2026-98260-vivo-x-fold6-poc](https://github.com/super2tt/CVE-2026-98260-vivo-x-fold6-poc)
 - [sabuweis/CVE-2026-98260](https://github.com/sabuweis/CVE-2026-98260)
+- [mumaosong/cve-2026-98260-app](https://github.com/mumaosong/cve-2026-98260-app)
 - [yoro1836/SamTimer](https://github.com/yoro1836/SamTimer)
 - [LinXing0926/GhostCred](https://github.com/LinXing0926/GhostCred)
 - [cuteaplane/CVE-2026-98260-for-OPD2501](https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501)
@@ -20243,6 +20247,7 @@
 - [linux-tools/Shark-Root-Folk_for_VIVO_Y500i](https://github.com/linux-tools/Shark-Root-Folk_for_VIVO_Y500i)
 - [BKV0369/CVE-2026-98260-Motorola](https://github.com/BKV0369/CVE-2026-98260-Motorola)
 - [Yunxi422/CVE-2026-98260-OPD2405](https://github.com/Yunxi422/CVE-2026-98260-OPD2405)
+- [idk12345-desigh/lapis-mt6878-root](https://github.com/idk12345-desigh/lapis-mt6878-root)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -22430,6 +22435,7 @@
 - [donxud/PHP2Shell-Security-Investigation](https://github.com/donxud/PHP2Shell-Security-Investigation)
 - [Rat5ak/PHP2SHELL-PREAUTH-RCE](https://github.com/Rat5ak/PHP2SHELL-PREAUTH-RCE)
 - [VoidCatalyst/php2shell-scanner](https://github.com/VoidCatalyst/php2shell-scanner)
+- [JohanYP/techcorp-forense-lab](https://github.com/JohanYP/techcorp-forense-lab)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22615,6 +22621,13 @@
 
 - [shlln/CVE-2026-110958](https://github.com/shlln/CVE-2026-110958)
 
+### CVE-2026-110960 (2026-11-15)
+
+<code>The Auth Armor  WordPress plugin through 1.0.3 does not require authentication on several handlers available to logged-out users, which leak the site's stored API credentials and allow an unauthenticated attacker to reset an administrator's enrollment and take over that administrator account.
+</code>
+
+- [LLCForge/CVE-2026-110960](https://github.com/LLCForge/CVE-2026-110960)
+
 ### CVE-2026-111058 (2026-10-19)
 
 <code>Mercury is a Python framework for sharing Jupyter notebooks as web applications and dashboards. Prior to 3.2.6, default tokenless deployments allow anonymous clients to create Jupyter kernels and send execute_request messages containing arbitrary Python. The endpoint blocklist does not cover /api/kernels, and the websocket wrapper previously tracked idle activity without authorizing executable messages. This issue is fixed in version 3.2.6.
@@ -22750,6 +22763,14 @@
 - [OhMyDitzzy/CVE-2026-111497](https://github.com/OhMyDitzzy/CVE-2026-111497)
 - [alequinterok/CVE-2026-111497](https://github.com/alequinterok/CVE-2026-111497)
 - [TimmyTurner51/brotli-lab](https://github.com/TimmyTurner51/brotli-lab)
+- [csakala-art/cbci-libbrotli-patch-25551](https://github.com/csakala-art/cbci-libbrotli-patch-25551)
+
+### CVE-2026-111559 (2026-11-16)
+
+<code>Batflat CMS does not sanitize data passed to the /contact endpoint. A remote unauthenticated attacker can send a POST request with a crafted message, causing arbitrary PHP code execution with www-data user privileges.\n\n\nThe project is no longer maintained and the issue has not been fixed.
+</code>
+
+- [Tymbark7372/CVE-2026-111559](https://github.com/Tymbark7372/CVE-2026-111559)
 
 ### CVE-2026-111585 (2026-10-27)
 
@@ -22874,6 +22895,7 @@
 - [Ping-2o/CVE-2026-112611-cg-shading](https://github.com/Ping-2o/CVE-2026-112611-cg-shading)
 - [Rust505/CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611)
 - [hkl1593246852-del/CVE-2026-112611](https://github.com/hkl1593246852-del/CVE-2026-112611)
+- [marksvia/CVE-2026-112611-oob](https://github.com/marksvia/CVE-2026-112611-oob)
 
 ### CVE-2026-112621 (2026-10-26)
 
@@ -22920,6 +22942,7 @@
 </code>
 
 - [MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak](https://github.com/MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak)
+- [794pn2s6fh-hub/CVE-2026-112706-apple-watch](https://github.com/794pn2s6fh-hub/CVE-2026-112706-apple-watch)
 
 ### CVE-2026-112816 (2026-10-30)
 
@@ -23312,6 +23335,13 @@
 
 - [D7EAD/CVE-2026-116488](https://github.com/D7EAD/CVE-2026-116488)
 
+### CVE-2026-116492 (2026-10-26)
+
+<code>Frappe CRM app before 1.89.1 contains a missing authorization vulnerability that allows authenticated low-privileged users to read CRM Lead records they are not permitted to access by querying the get_contact_by_phone_number API, which performs raw database queries without invoking the permission system. Attackers can supply a known phone number to the crm.integrations.api.get_contact_by_phone_number endpoint to retrieve full lead details otherwise blocked by standard API and UI access controls, resulting in unauthorized disclosure of sensitive CRM data.
+</code>
+
+- [0xDracarys/CVE-Writeups](https://github.com/0xDracarys/CVE-Writeups)
+
 ### CVE-2026-116512 (2026-10-31)
 
 <code>The Project Manager – AI Powered Project Management, Task Management, Kanban Board &amp; Time Tracker plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 4.1.1 via the 'id' parameter parameter. This is due to unsanitized 'id' parameter value concatenated directly into the pipe-delimited validation rule string, which is then split and each token invoked as a dynamic PHP function with no allowlist check. This makes it possible for unauthenticated attackers to execute code on the server. This is exploitable by unauthenticated attackers because WordPress core executes the route argument's validate_callback inside WP_REST_Server::dispatch() before the route's permission_callback is invoked, meaning the Project_Manage_Capability authorization gate is never reached on the vulnerable code path.
@@ -23362,6 +23392,7 @@
 - [DeathShotXD/SIP2Shell](https://github.com/DeathShotXD/SIP2Shell)
 - [mehmet-emir-eroglu/CVE-2026-116779](https://github.com/mehmet-emir-eroglu/CVE-2026-116779)
 - [pentestershell/CVE-2026-116779](https://github.com/pentestershell/CVE-2026-116779)
+- [ashrafzaryouh/CVE-2026-116779](https://github.com/ashrafzaryouh/CVE-2026-116779)
 
 ### CVE-2026-117017
 - [esecforte/PoC_CVE-2026-117017](https://github.com/esecforte/PoC_CVE-2026-117017)
@@ -23536,6 +23567,14 @@
 </code>
 
 - [im0xfay/CVE-2026-119077](https://github.com/im0xfay/CVE-2026-119077)
+- [0xCyp1337/CVE-2026-119077](https://github.com/0xCyp1337/CVE-2026-119077)
+
+### CVE-2026-119179 (2026-11-03)
+
+<code>A flaw in the connection management layer of the MongoDB Node.js driver can leave a pooled network connection in the pool for reuse while data from an earlier operation is still outstanding on it. In applications that enable an optional client-side operation timeout, an unauthenticated party that can send ordinary requests to the application may cause database replies to be paired with the wrong requests. This may result in unintended disclosure of other users' records, incorrect operation results being returned, and failures of legitimate requests.
+</code>
+
+- [LLCForge/CVE-2026-119179](https://github.com/LLCForge/CVE-2026-119179)
 
 ### CVE-2026-119200 (2026-10-29)
 
@@ -23543,6 +23582,13 @@
 </code>
 
 - [federiconbaez/cortex9-nuxt-dot-segment-middleware-bypass-model](https://github.com/federiconbaez/cortex9-nuxt-dot-segment-middleware-bypass-model)
+
+### CVE-2026-119258 (2026-11-14)
+
+<code>The Swipe WordPress plugin through 1.4 does not properly authenticate a login request before issuing a WordPress session cookie, allowing unauthenticated attackers to log in as an existing user, including an administrator, when that user has an active app session.
+</code>
+
+- [LLCForge/CVE-2026-119258](https://github.com/LLCForge/CVE-2026-119258)
 
 ### CVE-2026-119618 (2026-11-11)
 
@@ -23564,6 +23610,7 @@
 - [matarturo/apache-mod-http2-scanner](https://github.com/matarturo/apache-mod-http2-scanner)
 - [studiogangster/CVE-2026-119618](https://github.com/studiogangster/CVE-2026-119618)
 - [dansaurabh/h2race-check_CVE-2026-119618](https://github.com/dansaurabh/h2race-check_CVE-2026-119618)
+- [Doseuser/CVE-2026-119618---RCE-in-APACHE](https://github.com/Doseuser/CVE-2026-119618---RCE-in-APACHE)
 
 ### CVE-2026-119712 (2026-10-30)
 
@@ -23792,6 +23839,8 @@
 - [garvthakkar17/sshole-alpine-cve-2026-123158](https://github.com/garvthakkar17/sshole-alpine-cve-2026-123158)
 - [Dylans7j/CVE-2026-123158-OpenSSH-Auth-Bypass](https://github.com/Dylans7j/CVE-2026-123158-OpenSSH-Auth-Bypass)
 - [Avi99999/sshhole-scanner](https://github.com/Avi99999/sshhole-scanner)
+- [diallocode/SSHOLE-POC](https://github.com/diallocode/SSHOLE-POC)
+- [LaMambaKukun/Hack-The-Box-Sherlock-SSHole-](https://github.com/LaMambaKukun/Hack-The-Box-Sherlock-SSHole-)
 
 ### CVE-2026-123218 (2026-11-07)
 
@@ -23859,6 +23908,7 @@
 </code>
 
 - [fixedbyreboot/CVE-2026-124020-POC](https://github.com/fixedbyreboot/CVE-2026-124020-POC)
+- [LLCForge/CVE-2026-124020](https://github.com/LLCForge/CVE-2026-124020)
 
 ### CVE-2026-124040 (2026-11-06)
 
@@ -24246,6 +24296,13 @@
 </code>
 
 - [googlesky/CVE-2026-129360](https://github.com/googlesky/CVE-2026-129360)
+
+### CVE-2026-129491 (2026-11-16)
+
+<code>Qbian61 forum-java commit 20f7e68 through commit 63152c4 contains a stored cross-site scripting vulnerability that allows authenticated users to inject script by posting unsanitized comment content rendered via jQuery .html() in the reply dialog. Attackers can post comments with img onerror payloads that execute when victims click Reply, stealing the non-HttpOnly sid session cookie to hijack accounts including administrators.
+</code>
+
+- [googlesky/CVE-2026-129491](https://github.com/googlesky/CVE-2026-129491)
 
 ### CVE-2026-129492 (2026-11-16)
 
@@ -38789,7 +38846,6 @@
 - [Ap0dexMe0/CVE-2024-3273](https://github.com/Ap0dexMe0/CVE-2024-3273)
 - [mrrobot0o/CVE-2024-3273-](https://github.com/mrrobot0o/CVE-2024-3273-)
 - [OIivr/Turvan6rkus-CVE-2024-3273](https://github.com/OIivr/Turvan6rkus-CVE-2024-3273)
-- [X-Projetion/CVE-2024-3273-D-Link-Remote-Code-Execution-RCE](https://github.com/X-Projetion/CVE-2024-3273-D-Link-Remote-Code-Execution-RCE)
 - [askhatov21/Best-Practices-Cybersecurity-Otanata-Project](https://github.com/askhatov21/Best-Practices-Cybersecurity-Otanata-Project)
 
 ### CVE-2024-3293 (2024-04-23)
@@ -39738,7 +39794,6 @@
 - [prelearn-code/CVE-2024-6387](https://github.com/prelearn-code/CVE-2024-6387)
 - [l-urk/CVE-2024-6387](https://github.com/l-urk/CVE-2024-6387)
 - [alex14324/ssh_poc2024](https://github.com/alex14324/ssh_poc2024)
-- [X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker](https://github.com/X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker)
 - [s1d6point7bugcrowd/CVE-2024-6387-Race-Condition-in-Signal-Handling-for-OpenSSH](https://github.com/s1d6point7bugcrowd/CVE-2024-6387-Race-Condition-in-Signal-Handling-for-OpenSSH)
 - [almogopp/OpenSSH-CVE-2024-6387-Fix](https://github.com/almogopp/OpenSSH-CVE-2024-6387-Fix)
 - [HadesNull123/CVE-2024-6387_Check](https://github.com/HadesNull123/CVE-2024-6387_Check)
@@ -41691,7 +41746,6 @@
 - [ahmetkarakayaoffical/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/ahmetkarakayaoffical/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
 - [dshabani96/CVE-2024-21413](https://github.com/dshabani96/CVE-2024-21413)
 - [KartheekKandalam99/SVPT_CW_2](https://github.com/KartheekKandalam99/SVPT_CW_2)
-- [X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit](https://github.com/X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit)
 - [th3Hellion/CVE-2024-21413](https://github.com/th3Hellion/CVE-2024-21413)
 - [ShubhamKanhere307/CVE-2024-21413](https://github.com/ShubhamKanhere307/CVE-2024-21413)
 - [olebris/CVE-2024-21413](https://github.com/olebris/CVE-2024-21413)
@@ -43113,7 +43167,6 @@
 - [Chocapikk/CVE-2024-25600](https://github.com/Chocapikk/CVE-2024-25600)
 - [Christbowel/CVE-2024-25600_Nuclei-Template](https://github.com/Christbowel/CVE-2024-25600_Nuclei-Template)
 - [Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress](https://github.com/Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress)
-- [X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE](https://github.com/X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE)
 - [svchostmm/CVE-2024-25600-mass](https://github.com/svchostmm/CVE-2024-25600-mass)
 - [NanoWraith/CVE-2024-25600](https://github.com/NanoWraith/CVE-2024-25600)
 - [WanLiChangChengWanLiChang/CVE-2024-25600](https://github.com/WanLiChangChengWanLiChang/CVE-2024-25600)
@@ -43245,13 +43298,6 @@
 
 - [kiwids0220/CVE-2024-26230](https://github.com/kiwids0220/CVE-2024-26230)
 - [Wa1nut4/CVE-2024-26230](https://github.com/Wa1nut4/CVE-2024-26230)
-
-### CVE-2024-26304 (2024-05-01)
-
-<code>There is a buffer overflow vulnerability in the underlying L2/L3 Management service that could lead to unauthenticated remote code execution by sending specially crafted packets destined to the PAPI (Aruba's access point management protocol) UDP port (8211). Successful exploitation of this vulnerability results in the ability to execute arbitrary code as a privileged user on the underlying operating system. \n\n
-</code>
-
-- [X-Projetion/CVE-2024-26304-RCE-exploit](https://github.com/X-Projetion/CVE-2024-26304-RCE-exploit)
 
 ### CVE-2024-26308 (2024-02-19)
 
@@ -43558,7 +43604,6 @@
 
 - [truonghuuphuc/CVE-2024-27956](https://github.com/truonghuuphuc/CVE-2024-27956)
 - [diego-tella/CVE-2024-27956-RCE](https://github.com/diego-tella/CVE-2024-27956-RCE)
-- [X-Projetion/CVE-2024-27956-WORDPRESS-RCE-PLUGIN](https://github.com/X-Projetion/CVE-2024-27956-WORDPRESS-RCE-PLUGIN)
 - [FoxyProxys/CVE-2024-27956](https://github.com/FoxyProxys/CVE-2024-27956)
 - [k3ppf0r/CVE-2024-27956](https://github.com/k3ppf0r/CVE-2024-27956)
 - [W3BW/CVE-2024-27956-RCE-File-Package](https://github.com/W3BW/CVE-2024-27956-RCE-File-Package)
@@ -50568,8 +50613,6 @@
 </code>
 
 - [E1A/CVE-2023-4596](https://github.com/E1A/CVE-2023-4596)
-- [X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version](https://github.com/X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version)
-- [X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker](https://github.com/X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker)
 
 ### CVE-2023-4622 (2023-09-06)
 
@@ -68089,7 +68132,6 @@
 - [FancySauce/PwnKit-CVE-2021-4034](https://github.com/FancySauce/PwnKit-CVE-2021-4034)
 - [wechicken456/CVE-2021-4034-CTF-writeup](https://github.com/wechicken456/CVE-2021-4034-CTF-writeup)
 - [ASG-CASTLE/CVE-2021-4034](https://github.com/ASG-CASTLE/CVE-2021-4034)
-- [X-Projetion/Exploiting-PwnKit-CVE-2021-4034-](https://github.com/X-Projetion/Exploiting-PwnKit-CVE-2021-4034-)
 - [evkl1d/CVE-2021-4034](https://github.com/evkl1d/CVE-2021-4034)
 - [zxybfq/CVE-2021-4034](https://github.com/zxybfq/CVE-2021-4034)
 - [EuJin03/CVE-2021-4034-PoC](https://github.com/EuJin03/CVE-2021-4034-PoC)
@@ -89253,6 +89295,7 @@
 - [kylew1004/cve-2017-5941-poc-docker-lab](https://github.com/kylew1004/cve-2017-5941-poc-docker-lab)
 - [f41k0n/RCE-NodeJs](https://github.com/f41k0n/RCE-NodeJs)
 - [jimahub/scenario-c-block](https://github.com/jimahub/scenario-c-block)
+- [DLL00P/CVE-2017-5941](https://github.com/DLL00P/CVE-2017-5941)
 
 ### CVE-2017-6008 (2017-09-13)
 
@@ -95640,6 +95683,7 @@
 - [Nutsulejustine/pentest-metasploitable](https://github.com/Nutsulejustine/pentest-metasploitable)
 - [secwitness/CVE-2011-2523-vsftpd-backdoor-analysis](https://github.com/secwitness/CVE-2011-2523-vsftpd-backdoor-analysis)
 - [nabeelapu/vsftpd-2.3.4-backdoor-vulnerability_analysis](https://github.com/nabeelapu/vsftpd-2.3.4-backdoor-vulnerability_analysis)
+- [Davidrs000/Tproot-Dockerlabs](https://github.com/Davidrs000/Tproot-Dockerlabs)
 
 ### CVE-2011-2553
 - [carlosrpastrana/cve-2011-2553](https://github.com/carlosrpastrana/cve-2011-2553)
@@ -96765,6 +96809,7 @@
 - [thel1nus/CVE-2004-1561-Notes](https://github.com/thel1nus/CVE-2004-1561-Notes)
 - [Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-](https://github.com/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-)
 - [MonseigneurPatas/thm-ice-icecast-rce-privesc](https://github.com/MonseigneurPatas/thm-ice-icecast-rce-privesc)
+- [anway8090/Tryhackme-ice-lab-](https://github.com/anway8090/Tryhackme-ice-lab-)
 
 ### CVE-2004-1769 (2005-03-10)
 
