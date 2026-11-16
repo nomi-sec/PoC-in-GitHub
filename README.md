@@ -4105,6 +4105,7 @@
 - [cuttlefish520/FastJson1.2.83-GenProbe2](https://github.com/cuttlefish520/FastJson1.2.83-GenProbe2)
 - [Ethen1212/fastjson-CVE-2026-16723](https://github.com/Ethen1212/fastjson-CVE-2026-16723)
 - [dichen-L/CVE-2026-16723-vul](https://github.com/dichen-L/CVE-2026-16723-vul)
+- [punksitr-sys/CVE-2026-16723](https://github.com/punksitr-sys/CVE-2026-16723)
 
 ### CVE-2026-16764 (2026-07-23)
 
@@ -10669,7 +10670,8 @@
 - [HORKimhab/CVE-2026-39808](https://github.com/HORKimhab/CVE-2026-39808)
 - [error-inside/CVE-2026-39808](https://github.com/error-inside/CVE-2026-39808)
 - [gotr00t0day/CVE-2026-39808](https://github.com/gotr00t0day/CVE-2026-39808)
-- [Ghost-Bx1/Fortinet-Exploits-CVE-2026-39808-106173-107656](https://github.com/Ghost-Bx1/Fortinet-Exploits-CVE-2026-39808-106173-107656)
+- [joel-correa/Fortinet-Exploits-CVE-2026-39808-106173-107656](https://github.com/joel-correa/Fortinet-Exploits-CVE-2026-39808-106173-107656)
+- [Ghost-Bx1/fortinet-exploits](https://github.com/Ghost-Bx1/fortinet-exploits)
 
 ### CVE-2026-39813 (2026-04-14)
 
@@ -18116,6 +18118,7 @@
 
 - [rsah35404-star/stunning-octo-doodle](https://github.com/rsah35404-star/stunning-octo-doodle)
 - [BarwSirati/CVE-2026-81963-TrustedDpx](https://github.com/BarwSirati/CVE-2026-81963-TrustedDpx)
+- [nithishgupta-cys/CVE-2026-81963-TrustedDpx](https://github.com/nithishgupta-cys/CVE-2026-81963-TrustedDpx)
 
 ### CVE-2026-82090 (2026-08-28)
 
@@ -20227,6 +20230,7 @@
 - [jonrazta89/OneSamAKAGhostKey](https://github.com/jonrazta89/OneSamAKAGhostKey)
 - [linux-tools/Shark-Root-Folk_for_VIVO_Y500i](https://github.com/linux-tools/Shark-Root-Folk_for_VIVO_Y500i)
 - [BKV0369/CVE-2026-98260-Motorola](https://github.com/BKV0369/CVE-2026-98260-Motorola)
+- [Yunxi422/CVE-2026-98260-OPD2405](https://github.com/Yunxi422/CVE-2026-98260-OPD2405)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -22386,7 +22390,6 @@
 - [somany-flower4u/php2shell-analysis](https://github.com/somany-flower4u/php2shell-analysis)
 - [ncpz/cloudflare-php-ctf-research](https://github.com/ncpz/cloudflare-php-ctf-research)
 - [sam00/CVE-2026-109618-CVE-2026-109619-POC](https://github.com/sam00/CVE-2026-109618-CVE-2026-109619-POC)
-- [Nbill27/php2sherlloktakparani](https://github.com/Nbill27/php2sherlloktakparani)
 - [D-1P1X/php2shell-web](https://github.com/D-1P1X/php2shell-web)
 - [Nebur692/php-legacy-ubuntu](https://github.com/Nebur692/php-legacy-ubuntu)
 - [avrevic/php2shell-chase](https://github.com/avrevic/php2shell-chase)
@@ -22727,6 +22730,7 @@
 - [MchinaMd57764/CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC)
 - [OhMyDitzzy/CVE-2026-111497](https://github.com/OhMyDitzzy/CVE-2026-111497)
 - [alequinterok/CVE-2026-111497](https://github.com/alequinterok/CVE-2026-111497)
+- [TimmyTurner51/brotli-lab](https://github.com/TimmyTurner51/brotli-lab)
 
 ### CVE-2026-111585 (2026-10-27)
 
@@ -22739,6 +22743,7 @@
 - [suominen/CVE-2026-111760](https://github.com/suominen/CVE-2026-111760)
 - [Ghost-Bx1/cve-2026-111760-git-submodule-symlink-rce](https://github.com/Ghost-Bx1/cve-2026-111760-git-submodule-symlink-rce)
 - [SSJCorpSec/cve-2026-111760-40b639e0](https://github.com/SSJCorpSec/cve-2026-111760-40b639e0)
+- [SSJCorpSec/cve-2026-111760-b3-85967fc9](https://github.com/SSJCorpSec/cve-2026-111760-b3-85967fc9)
 
 ### CVE-2026-111770 (2026-11-05)
 
@@ -23330,6 +23335,7 @@
 - [al4n4n/CVE-2026-116779](https://github.com/al4n4n/CVE-2026-116779)
 - [DeathShotXD/SIP2Shell](https://github.com/DeathShotXD/SIP2Shell)
 - [mehmet-emir-eroglu/CVE-2026-116779](https://github.com/mehmet-emir-eroglu/CVE-2026-116779)
+- [pentestershell/CVE-2026-116779](https://github.com/pentestershell/CVE-2026-116779)
 
 ### CVE-2026-117017
 - [esecforte/PoC_CVE-2026-117017](https://github.com/esecforte/PoC_CVE-2026-117017)
@@ -23647,7 +23653,6 @@
 - [ashrafzaryouh/CVE-2026-121529](https://github.com/ashrafzaryouh/CVE-2026-121529)
 - [googlesky/CVE-2026-121529](https://github.com/googlesky/CVE-2026-121529)
 - [googlesky/Fortinet2Shell](https://github.com/googlesky/Fortinet2Shell)
-- [Ghost-Bx1/cve-2026-121529-forticlient-cors-rce](https://github.com/Ghost-Bx1/cve-2026-121529-forticlient-cors-rce)
 - [tc4dy/CVE-2026-121529-Toolkit](https://github.com/tc4dy/CVE-2026-121529-Toolkit)
 
 ### CVE-2026-121653 (2026-11-10)
@@ -23715,6 +23720,7 @@
 </code>
 
 - [googlesky/CVE-2026-123039](https://github.com/googlesky/CVE-2026-123039)
+- [foxcornlab/checkpoint-gaia-scanner](https://github.com/foxcornlab/checkpoint-gaia-scanner)
 
 ### CVE-2026-123158 (2026-11-05)
 
@@ -23949,8 +23955,8 @@
 <code>A improper encoding or escaping of output vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.2, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer Cloud 8.0.1 through 8.0.2, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer-BigData 7.6.0 through 7.6.2, FortiManager 8.0.0 through 8.0.2, FortiManager 7.6.0 through 7.6.7, FortiManager Cloud 8.0.1 through 8.0.2, FortiManager Cloud 7.6.0 through 7.6.7 may allow an unauthenticated attacker to execute unauthorized code or commands via a specially crafted HTTP request
 </code>
 
-- [Ghost-Bx1/cve-2026-126170-fortimanager-jsonrpc-rce](https://github.com/Ghost-Bx1/cve-2026-126170-fortimanager-jsonrpc-rce)
 - [googlesky/CVE-2026-126170](https://github.com/googlesky/CVE-2026-126170)
+- [im-hanzou/cve-2026-126170-fortimanager-jsonrpc-rce](https://github.com/im-hanzou/cve-2026-126170-fortimanager-jsonrpc-rce)
 - [foxcornlab/fortinet-scanner](https://github.com/foxcornlab/fortinet-scanner)
 
 ### CVE-2026-126173 (2026-11-14)
@@ -24178,6 +24184,20 @@
 </code>
 
 - [googlesky/CVE-2026-129355](https://github.com/googlesky/CVE-2026-129355)
+
+### CVE-2026-129357 (2026-11-15)
+
+<code>A vulnerability was determined in Linux Foundation Magma up to 1.9.0. This issue affects the function hostOrgMiddleware of the file nms/server/host/middleware.ts of the component Host Middleware. This manipulation of the argument role causes missing authorization. It is possible to initiate the attack remotely. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [googlesky/CVE-2026-129357](https://github.com/googlesky/CVE-2026-129357)
+
+### CVE-2026-129358 (2026-11-15)
+
+<code>A vulnerability was identified in Linux Foundation Magma up to 1.9.0. Impacted is the function handleReact of the file nms/server/main/routes.ts of the component NMS. Such manipulation leads to cross site scripting. It is possible to launch the attack remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [googlesky/CVE-2026-129358](https://github.com/googlesky/CVE-2026-129358)
 
 ### CVE-2026-129359 (2026-11-15)
 
