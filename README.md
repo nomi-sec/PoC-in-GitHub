@@ -1193,6 +1193,13 @@
 
 - [PySecTools/CVE-2026-3629](https://github.com/PySecTools/CVE-2026-3629)
 
+### CVE-2026-3650 (2026-03-26)
+
+<code>A memory leak exists in the Grassroots DICOM library (GDCM). The bug occurs when parsing malformed DICOM files with non-standard VR types in file meta information. The vulnerability leads to vast memory allocations and resource depletion, triggering a denial-of-service condition. A maliciously crafted file can fill the heap in a single read operation without properly releasing it.
+</code>
+
+- [Summitvc/cve-2026-3650](https://github.com/Summitvc/cve-2026-3650)
+
 ### CVE-2026-3786 (2026-03-08)
 
 <code>A security flaw has been discovered in EasyCMS up to 1.6. The impacted element is an unknown function of the file /RbacuserAction.class.php of the component Request Parameter Handler. The manipulation of the argument _order results in sql injection. The attack can be launched remotely. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.
@@ -2745,7 +2752,6 @@
 - [rmhowe425/PoC-CVE-2026-9198](https://github.com/rmhowe425/PoC-CVE-2026-9198)
 - [Procjevt/CVE-2026-9198](https://github.com/Procjevt/CVE-2026-9198)
 - [CuteeCat/CVE-2026-9198](https://github.com/CuteeCat/CVE-2026-9198)
-- [chessalekin/cve-2026-9198_exploit](https://github.com/chessalekin/cve-2026-9198_exploit)
 - [joaovicdev/EXPLOIT-CVE-2026-9198](https://github.com/joaovicdev/EXPLOIT-CVE-2026-9198)
 - [Riftweld/langflow-cve-2026-9198](https://github.com/Riftweld/langflow-cve-2026-9198)
 - [Edward-w-Jack/CVE-2026-9198](https://github.com/Edward-w-Jack/CVE-2026-9198)
@@ -2987,13 +2993,6 @@
 </code>
 
 - [passwa11/CVE-2026-10187](https://github.com/passwa11/CVE-2026-10187)
-
-### CVE-2026-10196 (2026-09-05)
-
-<code>The Mail Mint – Email Marketing, Newsletter, Email Automation &amp; WooCommerce Emails plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 1.31.0 via deserialization of untrusted input in the 'handle_form_submission' function. This makes it possible for unauthenticated attackers to inject a PHP Object. The additional presence of a POP chain allows attackers to execute code on the server. The vulnerability was partially patched in version 1.23.1.
-</code>
-
-- [0xCyp1337/CVE-2026-10196](https://github.com/0xCyp1337/CVE-2026-10196)
 
 ### CVE-2026-10243 (2026-06-01)
 
@@ -4532,7 +4531,6 @@
 - [ksotaria1337/CVE-2026-19598](https://github.com/ksotaria1337/CVE-2026-19598)
 - [DeadExpl0it/CVE-2026-19598-PoC](https://github.com/DeadExpl0it/CVE-2026-19598-PoC)
 - [sag-asab/CVE-2026-19598](https://github.com/sag-asab/CVE-2026-19598)
-- [0xCyp1337/CVE-2026-19598-](https://github.com/0xCyp1337/CVE-2026-19598-)
 
 ### CVE-2026-19607 (2026-09-16)
 
@@ -8442,7 +8440,7 @@
 - [Juguitos/copy-fail](https://github.com/Juguitos/copy-fail)
 - [DENNISDGR/CVE-2026-31431-poc](https://github.com/DENNISDGR/CVE-2026-31431-poc)
 - [liamromanis101/CVE-2026-31431-Copy-Fail---Vulnerability-Detection-Script](https://github.com/liamromanis101/CVE-2026-31431-Copy-Fail---Vulnerability-Detection-Script)
-- [mym0us3r/COPY-FAIL-Detection-with-Wazuh-4.14.4](https://github.com/mym0us3r/COPY-FAIL-Detection-with-Wazuh-4.14.4)
+- [k1shlabs/COPY-FAIL-Detection-with-Wazuh-4.14.4](https://github.com/k1shlabs/COPY-FAIL-Detection-with-Wazuh-4.14.4)
 - [B1gN0Se/copy-fail-CVE-2026-31431](https://github.com/B1gN0Se/copy-fail-CVE-2026-31431)
 - [maniakh/CVE-2026-31431---Copy-Fail-PoC](https://github.com/maniakh/CVE-2026-31431---Copy-Fail-PoC)
 - [meowteusz/copyfailautopatch](https://github.com/meowteusz/copyfailautopatch)
@@ -11363,7 +11361,6 @@
 - [yanchenyu360/CVE-2026-41940-Security-Patch](https://github.com/yanchenyu360/CVE-2026-41940-Security-Patch)
 - [0xgh057r3c0n/CVE-2026-41940](https://github.com/0xgh057r3c0n/CVE-2026-41940)
 - [Xrzmodz444/cve-2026-41940-PoC-Linux](https://github.com/Xrzmodz444/cve-2026-41940-PoC-Linux)
-- [ylerpeek/CVE-2026-41940-PoC-3](https://github.com/ylerpeek/CVE-2026-41940-PoC-3)
 
 ### CVE-2026-42016 (2026-07-27)
 
@@ -11747,7 +11744,7 @@
 
 - [Percivalll/Dirty-Frag-Kubernetes-PoC](https://github.com/Percivalll/Dirty-Frag-Kubernetes-PoC)
 - [scriptzteam/Paranoid-Dirty-Frag-CVE-2026-43284](https://github.com/scriptzteam/Paranoid-Dirty-Frag-CVE-2026-43284)
-- [mym0us3r/DIRTY-FRAG-Detection-with-Wazuh-4.14.4](https://github.com/mym0us3r/DIRTY-FRAG-Detection-with-Wazuh-4.14.4)
+- [k1shlabs/DIRTY-FRAG-Detection-with-Wazuh-4.14.4](https://github.com/k1shlabs/DIRTY-FRAG-Detection-with-Wazuh-4.14.4)
 - [ashrafzaryouh/CVE-2026-43284](https://github.com/ashrafzaryouh/CVE-2026-43284)
 - [suominen/CVE-2026-43284](https://github.com/suominen/CVE-2026-43284)
 - [AK777177/Dirty-Frag-Analysis](https://github.com/AK777177/Dirty-Frag-Analysis)
@@ -12272,7 +12269,6 @@
 </code>
 
 - [Virgula0/CVE-2026-44402](https://github.com/Virgula0/CVE-2026-44402)
-- [0xCyp1337/CVE-2026-44402](https://github.com/0xCyp1337/CVE-2026-44402)
 
 ### CVE-2026-44403 (2026-05-12)
 
@@ -13343,7 +13339,6 @@
 - [ksotaria1337/-CVE-2026-48907-](https://github.com/ksotaria1337/-CVE-2026-48907-)
 - [NONAME-ELV/CVE-2026-48907](https://github.com/NONAME-ELV/CVE-2026-48907)
 - [theendofabbys/CVE-2026-48907](https://github.com/theendofabbys/CVE-2026-48907)
-- [0xCyp1337/CVE-2026-48907-RCE](https://github.com/0xCyp1337/CVE-2026-48907-RCE)
 - [CoNistical/CVE-2026-48907](https://github.com/CoNistical/CVE-2026-48907)
 - [BastianHxr/CVE-2026-48907](https://github.com/BastianHxr/CVE-2026-48907)
 
@@ -14906,13 +14901,6 @@
 
 - [CerberusMrXi/CVE-2026-57588-Nessus-XML-Import-SQL-Injection-PoC](https://github.com/CerberusMrXi/CVE-2026-57588-Nessus-XML-Import-SQL-Injection-PoC)
 
-### CVE-2026-57811 (2026-07-13)
-
-<code>Improper Control of Generation of Code ('Code Injection') vulnerability in Realtyna Realtyna Organic IDX plugin real-estate-listing-realtyna-wpl allows Remote Code Inclusion.This issue affects Realtyna Organic IDX plugin: from n/a through &lt;= 5.2.0.
-</code>
-
-- [0xCyp1337/CVE-2026-57811](https://github.com/0xCyp1337/CVE-2026-57811)
-
 ### CVE-2026-57821 (2026-07-15)
 
 <code>A SQL Injection vulnerability exists in Apache Fineract's Office Search API (GET /api/v1/offices) in versions up to and including 1.14.0. The orderBy request parameter is concatenated into a SQL query without sufficient validation, allowing an authenticated user with permission to view offices to inject arbitrary SQL via a crafted orderBy value. This is a bypass of the ColumnValidator fix introduced for CVE-2024-32838, which does not detect bare subqueries in the ORDER BY position. This can be leveraged to perform time-based blind SQL injection for data exfiltration. Because the injected query blocks the database connection for its full duration, concurrent exploitation can exhaust the application's database connection pool, resulting in denial of service for other users. Users are recommended to upgrade to a version containing the fix.
@@ -15632,7 +15620,6 @@
 - [Sec-Dan/WP2Shell-Scanner](https://github.com/Sec-Dan/WP2Shell-Scanner)
 - [fl0ydsec/CVE-2026-63030](https://github.com/fl0ydsec/CVE-2026-63030)
 - [langz337/CVE-2026-63030](https://github.com/langz337/CVE-2026-63030)
-- [0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL](https://github.com/0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL)
 - [Githu836/PoC-for-CVE-2026-63030](https://github.com/Githu836/PoC-for-CVE-2026-63030)
 - [dexit/CVE-2026-63030](https://github.com/dexit/CVE-2026-63030)
 - [Tersurrr/Orga-Tersur-Daniel-CVE-2026-63030](https://github.com/Tersurrr/Orga-Tersur-Daniel-CVE-2026-63030)
@@ -15663,7 +15650,6 @@
 - [BoredHackerBlog/teamcity-CVE-2026-63077-pcap](https://github.com/BoredHackerBlog/teamcity-CVE-2026-63077-pcap)
 - [AnggaTechI/CVE-2026-63077](https://github.com/AnggaTechI/CVE-2026-63077)
 - [bakos-sandor-nx/teamcity-cve-2026-63077-remediation](https://github.com/bakos-sandor-nx/teamcity-cve-2026-63077-remediation)
-- [0xCyp1337/CVE-2026-63077](https://github.com/0xCyp1337/CVE-2026-63077)
 - [basesixtythree/B63-POC-CVE-2026-63077](https://github.com/basesixtythree/B63-POC-CVE-2026-63077)
 
 ### CVE-2026-63223 (2026-07-31)
@@ -17774,6 +17760,7 @@
 </code>
 
 - [evenomn/CVE-2026-78287](https://github.com/evenomn/CVE-2026-78287)
+- [0xTerror/CVE-2026-78287](https://github.com/0xTerror/CVE-2026-78287)
 
 ### CVE-2026-78306 (2026-08-24)
 
@@ -18117,7 +18104,6 @@
 </code>
 
 - [0xTerror/CVE-2026-81780-Hash-Form](https://github.com/0xTerror/CVE-2026-81780-Hash-Form)
-- [0xCyp1337/CVE-2026-81780](https://github.com/0xCyp1337/CVE-2026-81780)
 
 ### CVE-2026-81861 (2026-09-11)
 
@@ -18157,7 +18143,6 @@
 - [UdinChan/cve-2026-82222-poc](https://github.com/UdinChan/cve-2026-82222-poc)
 - [dinosn/givewp-cve-2026-82222-rce-lab](https://github.com/dinosn/givewp-cve-2026-82222-rce-lab)
 - [R0x19/CVE-2026-82222](https://github.com/R0x19/CVE-2026-82222)
-- [0xCyp1337/CVE-2026-82222-MassExploit](https://github.com/0xCyp1337/CVE-2026-82222-MassExploit)
 - [GhostlyrootB2H/CVE-2026-82222](https://github.com/GhostlyrootB2H/CVE-2026-82222)
 
 ### CVE-2026-82226 (2026-08-31)
@@ -18183,7 +18168,6 @@
 - [dinosn/cve-2026-82329-jfrog-artifactory](https://github.com/dinosn/cve-2026-82329-jfrog-artifactory)
 - [realalexandergeorgiev/artifactory-CVE-2026-82329-poc.py](https://github.com/realalexandergeorgiev/artifactory-CVE-2026-82329-poc.py)
 - [ynsmroztas/CVE-2026-82329-JFrog-Artifactory-Auth-Bypass](https://github.com/ynsmroztas/CVE-2026-82329-JFrog-Artifactory-Auth-Bypass)
-- [0xCyp1337/CVE-2026-82329](https://github.com/0xCyp1337/CVE-2026-82329)
 - [gagaltotal/CVE-2026-82329-poc](https://github.com/gagaltotal/CVE-2026-82329-poc)
 - [0xTerror/CVE-2026-82329-JFrog-Artifactory-](https://github.com/0xTerror/CVE-2026-82329-JFrog-Artifactory-)
 - [tc4dy/CVE-2026-82329-PoC-Exploit](https://github.com/tc4dy/CVE-2026-82329-PoC-Exploit)
@@ -18262,6 +18246,7 @@
 - [xcoy0te/CVE-2026-83548-checker](https://github.com/xcoy0te/CVE-2026-83548-checker)
 - [HORKimhab/CVE-2026-83548-CVE-2026-83549](https://github.com/HORKimhab/CVE-2026-83548-CVE-2026-83549)
 - [maxprog-svg/CVE-2026-83548](https://github.com/maxprog-svg/CVE-2026-83548)
+- [0xTerror/CVE-2026-83548-CVE-2026-83549](https://github.com/0xTerror/CVE-2026-83548-CVE-2026-83549)
 
 ### CVE-2026-83603 (2026-09-22)
 
@@ -19820,6 +19805,13 @@
 ### CVE-2026-95149
 - [reputati0n/CVE-2026-95149](https://github.com/reputati0n/CVE-2026-95149)
 
+### CVE-2026-95518 (2026-11-13)
+
+<code>Time-of-check time-of-use (TOCTOU) race condition vulnerability in TÜBİTAK BİLGEM Yazılım Teknolojileri Araştırma Enstitüsü Pardus Package Installer allows Leveraging Time-of-Check and Time-of-Use (TOCTOU) Race Conditions.\n\nThis issue affects Pardus Package Installer: from 0.7.0 before 0.7.1.
+</code>
+
+- [ozcanpng/CVE-2026-95518](https://github.com/ozcanpng/CVE-2026-95518)
+
 ### CVE-2026-95597 (2026-10-09)
 
 <code>Missing Authorization vulnerability in codemstory 워드프레스 결제 심플페이 pgall-for-woocommerce allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects 워드프레스 결제 심플페이: from n/a through 5.5.17.
@@ -20248,6 +20240,8 @@
 - [BKV0369/CVE-2026-98260-Motorola](https://github.com/BKV0369/CVE-2026-98260-Motorola)
 - [Yunxi422/CVE-2026-98260-OPD2405](https://github.com/Yunxi422/CVE-2026-98260-OPD2405)
 - [idk12345-desigh/lapis-mt6878-root](https://github.com/idk12345-desigh/lapis-mt6878-root)
+- [aoxzh/cve-2026-98260-tb710fu](https://github.com/aoxzh/cve-2026-98260-tb710fu)
+- [aoxzh/cve-2026-98260-vivo-x200-ultra-temproot](https://github.com/aoxzh/cve-2026-98260-vivo-x200-ultra-temproot)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -20371,6 +20365,7 @@
 </code>
 
 - [h0rn3t/noisytcp-lab](https://github.com/h0rn3t/noisytcp-lab)
+- [tal7aouy/NoisyTCP](https://github.com/tal7aouy/NoisyTCP)
 
 ### CVE-2026-99999 (2026-10-15)
 
@@ -22060,7 +22055,7 @@
 - [DilanWW/php-cve-check](https://github.com/DilanWW/php-cve-check)
 - [xjodoin/legacy-runtime-security-backport](https://github.com/xjodoin/legacy-runtime-security-backport)
 - [laurentlevi/dt-managed-php-versions](https://github.com/laurentlevi/dt-managed-php-versions)
-- [mym0us3r/PHP2Shell-Detection-with-Wazuh](https://github.com/mym0us3r/PHP2Shell-Detection-with-Wazuh)
+- [k1shlabs/PHP2Shell-Detection-with-Wazuh](https://github.com/k1shlabs/PHP2Shell-Detection-with-Wazuh)
 - [ctkqiang/PHP2ShellPOC2026](https://github.com/ctkqiang/PHP2ShellPOC2026)
 - [wromansky/php2shell-warn](https://github.com/wromansky/php2shell-warn)
 - [iSecNG/php2shell-honeypot](https://github.com/iSecNG/php2shell-honeypot)
@@ -22779,7 +22774,11 @@
 
 - [googlesky/CVE-2026-111585](https://github.com/googlesky/CVE-2026-111585)
 
-### CVE-2026-111760
+### CVE-2026-111760 (2026-11-16)
+
+<code>Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals. Prior to 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1, 2.55.1, and 2.56.1, an attacker-controlled repository hosted by the attacker rather than on a normal forge site can exploit git clone --recurse-submodules by causing Git to overwrite a submodule gitfile with a symbolic link. The symbolic link can point to a directory containing attacker-controlled Git configuration or hooks, allowing those hooks or configuration to execute code on the cloning user's system. The issue requires the recursive-submodule option, and users should avoid cloning repositories from untrusted sources. This issue is fixed in versions 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1, 2.55.1, and 2.56.1.
+</code>
+
 - [suominen/CVE-2026-111760](https://github.com/suominen/CVE-2026-111760)
 - [Ghost-Bx1/cve-2026-111760-git-submodule-symlink-rce](https://github.com/Ghost-Bx1/cve-2026-111760-git-submodule-symlink-rce)
 - [SSJCorpSec/cve-2026-111760-40b639e0](https://github.com/SSJCorpSec/cve-2026-111760-40b639e0)
@@ -22831,6 +22830,13 @@
 </code>
 
 - [jonastrikex/CVE-2026-112174-Iperius-Backup-version-8.8.3-PoC](https://github.com/jonastrikex/CVE-2026-112174-Iperius-Backup-version-8.8.3-PoC)
+
+### CVE-2026-112181 (2026-11-13)
+
+<code>Vulnerability due to inadequate restriction of references to external XML entities in OpenKM Community Edition. The XML processing in FormUtils / LocalEntityResolver does not properly restrict the resolution of external resources. An authenticated remote attacker with the ROLE_USER role can exploit the flaw via a REST request. In the 6.3.x branch, this allows the attacker to trigger HTTP requests under their control (SSRF); in 7.0.3, it allows the attacker to read local files and access internal HTTP resources from the server.
+</code>
+
+- [Lasersinho/cve-2026-112181-cve-2026-112182-openkm-ce](https://github.com/Lasersinho/cve-2026-112181-cve-2026-112182-openkm-ce)
 
 ### CVE-2026-112195 (2026-10-19)
 
@@ -23348,7 +23354,6 @@
 </code>
 
 - [Mushr00w/CVE-2026-116512](https://github.com/Mushr00w/CVE-2026-116512)
-- [0xCyp1337/CVE-2026-116512](https://github.com/0xCyp1337/CVE-2026-116512)
 
 ### CVE-2026-116521
 - [4m3rr0r/CVE-2026-116521-poc](https://github.com/4m3rr0r/CVE-2026-116521-poc)
@@ -23567,7 +23572,6 @@
 </code>
 
 - [im0xfay/CVE-2026-119077](https://github.com/im0xfay/CVE-2026-119077)
-- [0xCyp1337/CVE-2026-119077](https://github.com/0xCyp1337/CVE-2026-119077)
 
 ### CVE-2026-119179 (2026-11-03)
 
@@ -24336,9 +24340,6 @@
 
 ### CVE-2026-2035703
 - [danish1162/CVE-2026-2035703-x300](https://github.com/danish1162/CVE-2026-2035703-x300)
-
-### CVE-2026-2039819
-- [MicrosoftARMAssembler/CVE-2026-2039819-PoC](https://github.com/MicrosoftARMAssembler/CVE-2026-2039819-PoC)
 
 
 ## 2025
@@ -25419,7 +25420,6 @@
 - [Yucaerin/CVE-2025-4606](https://github.com/Yucaerin/CVE-2025-4606)
 - [UcenHaxor07/CVE-2025-4606](https://github.com/UcenHaxor07/CVE-2025-4606)
 - [Yetazyyy/CVE-2025-4606](https://github.com/Yetazyyy/CVE-2025-4606)
-- [0xCyp1337/CVE-2025-4606](https://github.com/0xCyp1337/CVE-2025-4606)
 
 ### CVE-2025-4609 (2025-08-22)
 
@@ -26008,7 +26008,6 @@
 - [sahmsec/CVE-2025-6440](https://github.com/sahmsec/CVE-2025-6440)
 - [SangSenimanWartefak/CVE-2025-6440](https://github.com/SangSenimanWartefak/CVE-2025-6440)
 - [katranSefa/CVE-2025-6440](https://github.com/katranSefa/CVE-2025-6440)
-- [0xCyp1337/CVE-2025-6440-BypassExt](https://github.com/0xCyp1337/CVE-2025-6440-BypassExt)
 
 ### CVE-2025-6514 (2025-07-09)
 
@@ -34246,8 +34245,6 @@
 - [joaovicdev/EXPLOIT-CVE-2025-55182](https://github.com/joaovicdev/EXPLOIT-CVE-2025-55182)
 - [AdityaBhatt3010/React2Shell-CVE-2025-55182](https://github.com/AdityaBhatt3010/React2Shell-CVE-2025-55182)
 - [gahoole77/gahoole77.github.io](https://github.com/gahoole77/gahoole77.github.io)
-- [lucyz1125/CVE-2025-55182-Next.js-RCE](https://github.com/lucyz1125/CVE-2025-55182-Next.js-RCE)
-- [hyan0116/Next.js-RCE-CVE-2025-55182](https://github.com/hyan0116/Next.js-RCE-CVE-2025-55182)
 - [MyCompanyOrganization/React2Shell-Kingdom](https://github.com/MyCompanyOrganization/React2Shell-Kingdom)
 - [yannisduvignau/react2shell-exploit](https://github.com/yannisduvignau/react2shell-exploit)
 - [en0f/CVE-2025-55182-poc-json](https://github.com/en0f/CVE-2025-55182-poc-json)
@@ -52038,6 +52035,7 @@
 - [dkq-k/CVE-2023-22515](https://github.com/dkq-k/CVE-2023-22515)
 - [dkq-k/cve-2023-22515-1](https://github.com/dkq-k/cve-2023-22515-1)
 - [Borsch-Appreciator/SOC235---Atlassian-Confluence-Broken-Access-Control-0-Day-CVE-2023-22515](https://github.com/Borsch-Appreciator/SOC235---Atlassian-Confluence-Broken-Access-Control-0-Day-CVE-2023-22515)
+- [oshaie2/CVE-2023-22515-Incident-Response](https://github.com/oshaie2/CVE-2023-22515-Incident-Response)
 
 ### CVE-2023-22518 (2023-10-31)
 
