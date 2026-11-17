@@ -9831,7 +9831,7 @@
 - [Noorkhalel/CVE-2026-34990-CUPS-LPE-PoC](https://github.com/Noorkhalel/CVE-2026-34990-CUPS-LPE-PoC)
 - [OffensiveBias20/CVE-2026-34990-POC](https://github.com/OffensiveBias20/CVE-2026-34990-POC)
 - [ungabunga-ctf/CVE-2026-34990](https://github.com/ungabunga-ctf/CVE-2026-34990)
-- [mrdebora/cups-2.4.16-lpe](https://github.com/mrdebora/cups-2.4.16-lpe)
+- [deboravazx/cups-2.4.16-lpe](https://github.com/deboravazx/cups-2.4.16-lpe)
 
 ### CVE-2026-35029 (2026-04-06)
 
@@ -15193,6 +15193,13 @@
 
 - [HORKimhab/CVE-2026-59265](https://github.com/HORKimhab/CVE-2026-59265)
 
+### CVE-2026-59309 (2026-07-30)
+
+<code>VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service. A malicious actor with network access to vCenter may exploit this issue to bypass authentication and gain unauthorized access to the system.
+</code>
+
+- [JHenryArcaneCipher/CVE-2026-59309-PoC](https://github.com/JHenryArcaneCipher/CVE-2026-59309-PoC)
+
 ### CVE-2026-59310 (2026-07-30)
 
 <code>VMware vCenter contains a directory traversal vulnerability in the Syslog server. A malicious actor with network access to vCenter may exploit this issue to execute arbitrary code.
@@ -19245,6 +19252,8 @@
 </code>
 
 - [fixedbyreboot/CVE-2026-90436-POC](https://github.com/fixedbyreboot/CVE-2026-90436-POC)
+- [foxcornlab/confluence-axis-scanner](https://github.com/foxcornlab/confluence-axis-scanner)
+- [dinosn/axis-cve-2026-90436-lab-poc](https://github.com/dinosn/axis-cve-2026-90436-lab-poc)
 
 ### CVE-2026-90781 (2026-09-13)
 
@@ -20366,6 +20375,7 @@
 
 - [h0rn3t/noisytcp-lab](https://github.com/h0rn3t/noisytcp-lab)
 - [tal7aouy/NoisyTCP](https://github.com/tal7aouy/NoisyTCP)
+- [re4/noisytcp-poc](https://github.com/re4/noisytcp-poc)
 
 ### CVE-2026-99999 (2026-10-15)
 
@@ -22431,6 +22441,9 @@
 - [Rat5ak/PHP2SHELL-PREAUTH-RCE](https://github.com/Rat5ak/PHP2SHELL-PREAUTH-RCE)
 - [VoidCatalyst/php2shell-scanner](https://github.com/VoidCatalyst/php2shell-scanner)
 - [JohanYP/techcorp-forense-lab](https://github.com/JohanYP/techcorp-forense-lab)
+- [ghostn4444/PHP2Shell](https://github.com/ghostn4444/PHP2Shell)
+- [Fkstone/php2shell-verdict](https://github.com/Fkstone/php2shell-verdict)
+- [tolmohq/php2shell-docs](https://github.com/tolmohq/php2shell-docs)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -24328,6 +24341,13 @@
 </code>
 
 - [googlesky/CVE-2026-129494](https://github.com/googlesky/CVE-2026-129494)
+
+### CVE-2026-130335 (2026-11-16)
+
+<code>Info-ZIP Zip 3.0 (and 3.1 beta through 3.1c) allows OS command injection by an attacker who controls the command line. The victim must use the -T option followed by a filename containing shell metacharacters, on a platform (such as Linux) where a suitable shell is run. This occurs because the system C library function is used. NOTE: there is no known common scenario in which an untrusted filename reaches a zip -T call.
+</code>
+
+- [googlesky/CVE-2026-130335](https://github.com/googlesky/CVE-2026-130335)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -41876,6 +41896,7 @@
 - [MutagomaRaissa/container-security-lab-cve-2024-21626](https://github.com/MutagomaRaissa/container-security-lab-cve-2024-21626)
 - [ghs053020-stack/cve-2024-21626](https://github.com/ghs053020-stack/cve-2024-21626)
 - [Leven0101/cve-2024-21626-lab](https://github.com/Leven0101/cve-2024-21626-lab)
+- [ghs053020-stack/cve-2024-21626-ctf](https://github.com/ghs053020-stack/cve-2024-21626-ctf)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -72523,6 +72544,7 @@
 - [foreverlanterns/secure-demo-api](https://github.com/foreverlanterns/secure-demo-api)
 - [TheoCerveraLede/practica-integradora-ciberseguridad](https://github.com/TheoCerveraLede/practica-integradora-ciberseguridad)
 - [R3leant/CVE-2021-41773](https://github.com/R3leant/CVE-2021-41773)
+- [itsDav804/CVE-2021-41773](https://github.com/itsDav804/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
