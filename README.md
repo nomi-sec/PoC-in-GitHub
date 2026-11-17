@@ -15606,6 +15606,7 @@
 </code>
 
 - [c0gnit00/GNSShell](https://github.com/c0gnit00/GNSShell)
+- [Cyberuser-hash/CVE-2026-63219](https://github.com/Cyberuser-hash/CVE-2026-63219)
 
 ### CVE-2026-63223 (2026-07-31)
 
@@ -18074,6 +18075,13 @@
 - [BarwSirati/CVE-2026-81963-TrustedDpx](https://github.com/BarwSirati/CVE-2026-81963-TrustedDpx)
 - [nithishgupta-cys/CVE-2026-81963-TrustedDpx](https://github.com/nithishgupta-cys/CVE-2026-81963-TrustedDpx)
 
+### CVE-2026-82025 (2026-11-17)
+
+<code>WP File Manager before 8.0.7 contains a file upload restriction bypass vulnerability that allows authenticated administrators to upload arbitrary PHP files by exploiting a misconfigured elFinder connector in file_folder_manager.php where an empty uploadDeny list causes allowPutMime() to unconditionally return true, bypassing the uploadAllow restriction. Attackers can upload a .php file directly or upload it under an allowed filename and then rename it via the rename connector command, achieving remote code execution as the web server user.
+</code>
+
+- [rxsklife/CVE-2026-82025](https://github.com/rxsklife/CVE-2026-82025)
+
 ### CVE-2026-82090 (2026-08-28)
 
 <code>Pocket through 8.33.0.0 allows XSS because &quot;Save to Pocket&quot; injects external HTML into the DOM.  JavaScript code can alter the application state via native bridge methods.
@@ -20163,6 +20171,7 @@
 - [molanp/CVE-2026-98260-vivo-s60-poc](https://github.com/molanp/CVE-2026-98260-vivo-s60-poc)
 - [super2tt/CVE-2026-98260-vivo-x-fold6-poc](https://github.com/super2tt/CVE-2026-98260-vivo-x-fold6-poc)
 - [sabuweis/CVE-2026-98260](https://github.com/sabuweis/CVE-2026-98260)
+- [mumaosong/cve-2026-98260-app](https://github.com/mumaosong/cve-2026-98260-app)
 - [yoro1836/SamTimer](https://github.com/yoro1836/SamTimer)
 - [LinXing0926/GhostCred](https://github.com/LinXing0926/GhostCred)
 - [cuteaplane/CVE-2026-98260-for-OPD2501](https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501)
@@ -20186,6 +20195,7 @@
 - [orumanayurpanjayat-ux/SamTimer](https://github.com/orumanayurpanjayat-ux/SamTimer)
 - [jonrazta89/timertest](https://github.com/jonrazta89/timertest)
 - [qq2770355800/ExtractKit](https://github.com/qq2770355800/ExtractKit)
+- [CYB3R0ID694/Shark-Moto](https://github.com/CYB3R0ID694/Shark-Moto)
 - [jonrazta89/SamGhostKey](https://github.com/jonrazta89/SamGhostKey)
 - [skyrocketingHong/CVE-2026-98260_nezha](https://github.com/skyrocketingHong/CVE-2026-98260_nezha)
 - [Reallyliked21/galaxy-s24u-dzj3-temp-root](https://github.com/Reallyliked21/galaxy-s24u-dzj3-temp-root)
@@ -20322,6 +20332,7 @@
 - [tal7aouy/NoisyTCP](https://github.com/tal7aouy/NoisyTCP)
 - [re4/noisytcp-poc](https://github.com/re4/noisytcp-poc)
 - [mustafasaydam/CVE-2026-99288---NoisyTCP-Exploit](https://github.com/mustafasaydam/CVE-2026-99288---NoisyTCP-Exploit)
+- [donxud/NoisyTCP-Blue-Team-Playbook](https://github.com/donxud/NoisyTCP-Blue-Team-Playbook)
 
 ### CVE-2026-99999 (2026-10-15)
 
@@ -20905,7 +20916,11 @@
 
 - [eev4n/smartermail](https://github.com/eev4n/smartermail)
 
-### CVE-2026-104100
+### CVE-2026-104100 (2026-11-17)
+
+<code>Teable is an AI spreadsheet for business. Prior to release.2026-07-21T11-27-40Z.2320, a registered user can supply path traversal sequences in the hash field accepted by POST /api/attachments/signature when the default local storage provider is in use. In apps/nestjs-backend/src/features/attachments/plugins/local.ts, LocalStorage.presigned uses the client-controlled hash as the storage filename, and LocalStorage.save resolves that path and copies the uploaded request body without calling assertPathWithinStorage on the write path. The read path uses the jail, but the write path does not, allowing the resolved destination to escape the configured storage directory. Because the backend container runs as uid 0, the attacker can write or overwrite arbitrary root-owned files, which can corrupt the instance or lead to root code execution. Object-storage deployments that do not use LocalStorage.save are not affected by this sink. This issue is fixed in release.2026-07-21T11-27-40Z.2320.
+</code>
+
 - [Saku0512/CVE-2026-104100-poc](https://github.com/Saku0512/CVE-2026-104100-poc)
 
 ### CVE-2026-104110 (2026-10-14)
@@ -22389,6 +22404,7 @@
 - [Fkstone/php2shell-verdict](https://github.com/Fkstone/php2shell-verdict)
 - [tolmohq/php2shell-docs](https://github.com/tolmohq/php2shell-docs)
 - [ljt1018168/tp8-upgrade-kit](https://github.com/ljt1018168/tp8-upgrade-kit)
+- [patrickgrady321/PHP2Shell_exploit_capstone](https://github.com/patrickgrady321/PHP2Shell_exploit_capstone)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22717,6 +22733,7 @@
 - [alequinterok/CVE-2026-111497](https://github.com/alequinterok/CVE-2026-111497)
 - [TimmyTurner51/brotli-lab](https://github.com/TimmyTurner51/brotli-lab)
 - [csakala-art/cbci-libbrotli-patch-25551](https://github.com/csakala-art/cbci-libbrotli-patch-25551)
+- [proxy0x/CVE-2026-111497](https://github.com/proxy0x/CVE-2026-111497)
 
 ### CVE-2026-111559 (2026-11-16)
 
@@ -23081,6 +23098,10 @@
 </code>
 
 - [joedayz/cve-2026-114820-java-scan](https://github.com/joedayz/cve-2026-114820-java-scan)
+
+### CVE-2026-114938
+- [ashrafzaryouh/CVE-2026-114938](https://github.com/ashrafzaryouh/CVE-2026-114938)
+- [jeffschafer/BigFix-Java4Shell-CVE-2026-114938-Scanner](https://github.com/jeffschafer/BigFix-Java4Shell-CVE-2026-114938-Scanner)
 
 ### CVE-2026-115252 (2026-11-09)
 
@@ -24458,6 +24479,9 @@
 - [ishwardeepp/CVE-2025-0411-MoTW-PoC](https://github.com/ishwardeepp/CVE-2025-0411-MoTW-PoC)
 - [c4bsec/7-Zip-CVE-2025-0411-POC](https://github.com/c4bsec/7-Zip-CVE-2025-0411-POC)
 - [betulssahin/CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass](https://github.com/betulssahin/CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass)
+
+### CVE-2025-057819
+- [Amoru-Bek/FreePBX-CVE-2025-057819-Remote-Code-Execution](https://github.com/Amoru-Bek/FreePBX-CVE-2025-057819-Remote-Code-Execution)
 
 ### CVE-2025-0651 (2025-01-22)
 
@@ -37920,7 +37944,6 @@
 - [hackerronin/CVE-2024-0044](https://github.com/hackerronin/CVE-2024-0044)
 - [MrW0l05zyn/cve-2024-0044](https://github.com/MrW0l05zyn/cve-2024-0044)
 - [canyie/CVE-2024-0044](https://github.com/canyie/CVE-2024-0044)
-- [k4ran909/cve_2024_0044](https://github.com/k4ran909/cve_2024_0044)
 - [TheBl4ckPh4nt0m/CVE-2024-0044](https://github.com/TheBl4ckPh4nt0m/CVE-2024-0044)
 - [HoyoenKim/CVE-2024-0044_PoC](https://github.com/HoyoenKim/CVE-2024-0044_PoC)
 - [JackTekno/Chrome-Forensic_CVE-2024-0044](https://github.com/JackTekno/Chrome-Forensic_CVE-2024-0044)
@@ -42391,6 +42414,8 @@
 - [999gawkboyy/CVE-2024-23692_Exploit](https://github.com/999gawkboyy/CVE-2024-23692_Exploit)
 - [wgetnz/hfs2](https://github.com/wgetnz/hfs2)
 - [sandimfz/CVE-2024-23692](https://github.com/sandimfz/CVE-2024-23692)
+- [Lolicks/hfs-check](https://github.com/Lolicks/hfs-check)
+- [Lolicks/hfs2xray](https://github.com/Lolicks/hfs2xray)
 
 ### CVE-2024-23700
 - [canyie/CVE-2024-23700](https://github.com/canyie/CVE-2024-23700)
@@ -50686,6 +50711,7 @@
 - [pixelotes/lab-cve-2023-4863](https://github.com/pixelotes/lab-cve-2023-4863)
 - [Shcesama/cve-2023-4863-analysis](https://github.com/Shcesama/cve-2023-4863-analysis)
 - [federiconbaez/cortex9-libwebp-huffman-table-sizing-model](https://github.com/federiconbaez/cortex9-libwebp-huffman-table-sizing-model)
+- [joekrump/expo-image-libwebp-repro](https://github.com/joekrump/expo-image-libwebp-repro)
 
 ### CVE-2023-4911 (2023-10-03)
 
@@ -60225,13 +60251,6 @@
 
 - [shoucheng3/keycloak__keycloak_CVE-2022-4361_21-1-1](https://github.com/shoucheng3/keycloak__keycloak_CVE-2022-4361_21-1-1)
 - [faccimatteo/CVE-2022-4361](https://github.com/faccimatteo/CVE-2022-4361)
-
-### CVE-2022-4395 (2023-01-30)
-
-<code>The Membership For WooCommerce WordPress plugin before 2.1.7 does not validate uploaded files, which could allow unauthenticated users to upload arbitrary files, such as malicious PHP code, and achieve RCE.
-</code>
-
-- [MrG3P5/CVE-2022-4395](https://github.com/MrG3P5/CVE-2022-4395)
 
 ### CVE-2022-4510 (2023-01-25)
 
@@ -76541,13 +76560,6 @@
 
 - [H3rm1tR3b0rn/CVE-2020-8644-PlaySMS-1.4](https://github.com/H3rm1tR3b0rn/CVE-2020-8644-PlaySMS-1.4)
 
-### CVE-2020-8694 (2020-11-12)
-
-<code>Insufficient access control in the Linux kernel driver for some Intel(R) Processors may allow an authenticated user to potentially enable information disclosure via local access.
-</code>
-
-- [kcherry497/tmog-rapl-gate](https://github.com/kcherry497/tmog-rapl-gate)
-
 ### CVE-2020-8809 (2020-02-25)
 
 <code>Gurux GXDLMS Director prior to 8.5.1905.1301 downloads updates to add-ins and OBIS code over an unencrypted HTTP connection. A man-in-the-middle attacker can prompt the user to download updates by modifying the contents of gurux.fi/obis/files.xml and gurux.fi/updates/updates.xml. Then, the attacker can modify the contents of downloaded files. In the case of add-ins (if the user is using those), this will lead to code execution. In case of OBIS codes (which the user is always using as they are needed to communicate with the energy meters), this can lead to code execution when combined with CVE-2020-8810.
@@ -90047,7 +90059,6 @@
 - [mileticluka1/eval-stdin](https://github.com/mileticluka1/eval-stdin)
 - [dream434/CVE-2017-9841](https://github.com/dream434/CVE-2017-9841)
 - [MadExploits/PHPunit-Exploit](https://github.com/MadExploits/PHPunit-Exploit)
-- [MrG3P5/CVE-2017-9841](https://github.com/MrG3P5/CVE-2017-9841)
 - [Chocapikk/CVE-2017-9841](https://github.com/Chocapikk/CVE-2017-9841)
 - [joelindra/CVE-2017-9841](https://github.com/joelindra/CVE-2017-9841)
 - [drcrypterdotru/PHPUnit-GoScan](https://github.com/drcrypterdotru/PHPUnit-GoScan)
