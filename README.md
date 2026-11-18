@@ -12034,13 +12034,6 @@
 
 - [jvidhan/cve-2026-43687](https://github.com/jvidhan/cve-2026-43687)
 
-### CVE-2026-43700 (2026-06-29)
-
-<code>A cross-origin issue was addressed with improved tracking of security origins. This issue is fixed in Safari 26.5.2, iOS 18.7.10 and iPadOS 18.7.10, iOS 26.5.2 and iPadOS 26.5.2, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. Processing maliciously crafted web content may disclose sensitive user information.
-</code>
-
-- [dem0ns/CVE-2026-43700](https://github.com/dem0ns/CVE-2026-43700)
-
 ### CVE-2026-43724 (2026-06-29)
 
 <code>The issue was addressed with improved input sanitization. This issue is fixed in iOS 18.7.10 and iPadOS 18.7.10, iOS 26.5.2 and iPadOS 26.5.2, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. An app may be able to cause unexpected system termination or write kernel memory.
@@ -12048,13 +12041,6 @@
 
 - [gracecondition/DirtySlide](https://github.com/gracecondition/DirtySlide)
 - [impost0r/Rie](https://github.com/impost0r/Rie)
-
-### CVE-2026-43735 (2026-06-29)
-
-<code>The issue was addressed with improved checks. This issue is fixed in Safari 26.5.2, iOS 18.7.10 and iPadOS 18.7.10, iOS 26.5.2 and iPadOS 26.5.2, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. A malicious website may exfiltrate data cross-origin.
-</code>
-
-- [dem0ns/CVE-2026-43735](https://github.com/dem0ns/CVE-2026-43735)
 
 ### CVE-2026-43783 (2026-09-14)
 
@@ -20175,6 +20161,7 @@
 - [yoro1836/SamTimer](https://github.com/yoro1836/SamTimer)
 - [LinXing0926/GhostCred](https://github.com/LinXing0926/GhostCred)
 - [cuteaplane/CVE-2026-98260-for-OPD2501](https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501)
+- [tiamo1990/CVE-2026-98260](https://github.com/tiamo1990/CVE-2026-98260)
 - [kailashrs/infinitylock-app](https://github.com/kailashrs/infinitylock-app)
 - [YodonTan/cve-2026-98260-harmonyos-applicability](https://github.com/YodonTan/cve-2026-98260-harmonyos-applicability)
 - [RMDycz/K80Pro-miro-CVE-2026-98260](https://github.com/RMDycz/K80Pro-miro-CVE-2026-98260)
@@ -22400,7 +22387,6 @@
 - [demetriusford/php2shell-check](https://github.com/demetriusford/php2shell-check)
 - [Mahyarpishbazz/php2version-scanner](https://github.com/Mahyarpishbazz/php2version-scanner)
 - [MammaniNelsonD/PHP2P4IM0NSHELL](https://github.com/MammaniNelsonD/PHP2P4IM0NSHELL)
-- [rbtsecurity/php2shell-lab](https://github.com/rbtsecurity/php2shell-lab)
 - [donxud/PHP2Shell-Security-Investigation](https://github.com/donxud/PHP2Shell-Security-Investigation)
 - [Rat5ak/PHP2SHELL-PREAUTH-RCE](https://github.com/Rat5ak/PHP2SHELL-PREAUTH-RCE)
 - [VoidCatalyst/php2shell-scanner](https://github.com/VoidCatalyst/php2shell-scanner)
@@ -22411,6 +22397,7 @@
 - [ljt1018168/tp8-upgrade-kit](https://github.com/ljt1018168/tp8-upgrade-kit)
 - [patrickgrady321/PHP2Shell_exploit_capstone](https://github.com/patrickgrady321/PHP2Shell_exploit_capstone)
 - [Cybersecly-LLC/PHP2SHELL](https://github.com/Cybersecly-LLC/PHP2SHELL)
+- [rbtsecurity/php2shell-lab](https://github.com/rbtsecurity/php2shell-lab)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22779,7 +22766,11 @@
 
 - [murrez/CVE-2026-111823](https://github.com/murrez/CVE-2026-111823)
 
-### CVE-2026-111825
+### CVE-2026-111825 (2026-11-18)
+
+<code>The Event Tickets with Ticket Scanner plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'code' parameter in all versions up to, and including, 3.3.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The payload persists through WooCommerce session data into order-item metadata and executes when rendered in the ticket scanner interface.
+</code>
+
 - [jacobbabula/CVE-2026-111825](https://github.com/jacobbabula/CVE-2026-111825)
 
 ### CVE-2026-111943 (2026-10-21)
@@ -22886,6 +22877,7 @@
 - [Rust505/CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611)
 - [hkl1593246852-del/CVE-2026-112611](https://github.com/hkl1593246852-del/CVE-2026-112611)
 - [marksvia/CVE-2026-112611-oob](https://github.com/marksvia/CVE-2026-112611-oob)
+- [SKVLENT/CVE-2026-112611](https://github.com/SKVLENT/CVE-2026-112611)
 
 ### CVE-2026-112621 (2026-10-26)
 
@@ -23126,6 +23118,17 @@
 - [cm-suzuki-ryo/aws-waf-java4shell-base64-guard](https://github.com/cm-suzuki-ryo/aws-waf-java4shell-base64-guard)
 - [Ghost-Bx1/java-exploits](https://github.com/Ghost-Bx1/java-exploits)
 - [pathcosmos/CVE-2026-114938](https://github.com/pathcosmos/CVE-2026-114938)
+- [darkfibr/yara-java4shell](https://github.com/darkfibr/yara-java4shell)
+- [douglasmun/CVE-2026-114938_Java4Shell_lab](https://github.com/douglasmun/CVE-2026-114938_Java4Shell_lab)
+- [arkrwn/PoC-CVE-2026-114938-CrashLeak](https://github.com/arkrwn/PoC-CVE-2026-114938-CrashLeak)
+- [zake1god/java2shell](https://github.com/zake1god/java2shell)
+- [klapertart/Java4Shell-CVE-2026-114938-Summary](https://github.com/klapertart/Java4Shell-CVE-2026-114938-Summary)
+- [Dungsocool/CVE-2026-114938](https://github.com/Dungsocool/CVE-2026-114938)
+- [nu0l/Java4Shell-LocalScanner](https://github.com/nu0l/Java4Shell-LocalScanner)
+- [chjwoo7/java4shell](https://github.com/chjwoo7/java4shell)
+- [Mahgal/java4shell-check](https://github.com/Mahgal/java4shell-check)
+- [Ademking/java4shell](https://github.com/Ademking/java4shell)
+- [ubitquity/cve-2026-114938-java4shell-remediation](https://github.com/ubitquity/cve-2026-114938-java4shell-remediation)
 
 ### CVE-2026-115252 (2026-11-09)
 
@@ -23161,6 +23164,13 @@
 </code>
 
 - [Mor-Golan/CVE-2026-115596](https://github.com/Mor-Golan/CVE-2026-115596)
+
+### CVE-2026-115731 (2026-11-03)
+
+<code>Deserialization of untrusted data in the report-processing code of Puppet, as used by Puppet Server, in the affected releases, allows a client that holds any CA-signed agent certificate to execute arbitrary code on the Puppet Server as its service user by submitting a report containing a crafted rich-data type via PUT request. Where the certificate authority autosigns requests without strong verification, an unauthenticated network attacker can obtain such a certificate.
+</code>
+
+- [foxcornlab/puppet-enterprise-scanner](https://github.com/foxcornlab/puppet-enterprise-scanner)
 
 ### CVE-2026-115878 (2026-11-03)
 
@@ -23752,6 +23762,13 @@
 
 ### CVE-2026-121720
 - [refiaa/CVE-2026-121720](https://github.com/refiaa/CVE-2026-121720)
+
+### CVE-2026-121994 (2026-11-05)
+
+<code>A stack buffer overflow in the GDB client's remote protocol handler allows an attacker-controlled debug target to execute arbitrary code in the GDB process. The vulnerability exists in fetch_register_using_p, which decodes a stub's register reply into an alloca-sized buffer without bounding writes by the register width.
+</code>
+
+- [DeeBumG/CVE-2026-121994-POC](https://github.com/DeeBumG/CVE-2026-121994-POC)
 
 ### CVE-2026-122006 (2026-11-04)
 
@@ -24370,6 +24387,27 @@
 </code>
 
 - [googlesky/CVE-2026-130354](https://github.com/googlesky/CVE-2026-130354)
+
+### CVE-2026-131842 (2026-11-17)
+
+<code>Poppler pdfdetach 24.03.0 through 26.11.0 contains a path traversal vulnerability in utils/pdfdetach.cc that allows attackers to write files outside the output directory by bypassing a string-prefix containment check. Attackers can craft PDFs with embedded file names containing '..' sequences or absolute paths, so -saveall or -savefile extraction creates or overwrites files with the invoking user's privileges.
+</code>
+
+- [googlesky/CVE-2026-131842](https://github.com/googlesky/CVE-2026-131842)
+
+### CVE-2026-131850 (2026-11-17)
+
+<code>ILIAS 11.0 before 11.6 contains an sql injection vulnerability in RegistrationCodeRepository::getCodesData() that concatenates unvalidated sort fields into an ORDER BY clause. Authenticated users with read access to the Authentication and Registration administration node can supply SQL expressions as the sort parameter to extract database contents via boolean-based inference.
+</code>
+
+- [murrez/CVE-2026-131850](https://github.com/murrez/CVE-2026-131850)
+
+### CVE-2026-131852 (2026-11-17)
+
+<code>OwnTracks Recorder before 1.0.5 contains a format string vulnerability in json_response() and related output functions that allows unauthenticated attackers to execute code by storing a malicious tid value. Attackers can publish locations via POST /pub or MQTT with printf specifiers in tid, then read them back through GET /api/0/last to leak addresses and write memory.
+</code>
+
+- [googlesky/CVE-2026-131852](https://github.com/googlesky/CVE-2026-131852)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -36531,6 +36569,9 @@
 </code>
 
 - [Jainil-89/CVE-2025-65518](https://github.com/Jainil-89/CVE-2025-65518)
+
+### CVE-2025-65616
+- [redline1736/CVE-2025-65616](https://github.com/redline1736/CVE-2025-65616)
 
 ### CVE-2025-65637 (2025-12-04)
 
@@ -54406,6 +54447,7 @@
 - [keto0422/CVE-2023-33107](https://github.com/keto0422/CVE-2023-33107)
 - [264312431/picohaxx](https://github.com/264312431/picohaxx)
 - [miyoubi/Fracture](https://github.com/miyoubi/Fracture)
+- [justwezzz/CVE-2023-33107-908SH](https://github.com/justwezzz/CVE-2023-33107-908SH)
 
 ### CVE-2023-33177 (2023-05-30)
 
@@ -60964,6 +61006,7 @@
 
 - [byt3quester/CVE-2022-22706-poc](https://github.com/byt3quester/CVE-2022-22706-poc)
 - [BennyWaitWhat/Sony-XBR-65X850D](https://github.com/BennyWaitWhat/Sony-XBR-65X850D)
+- [hrx114514x/vivo-y70s-temp-root](https://github.com/hrx114514x/vivo-y70s-temp-root)
 
 ### CVE-2022-22715 (2022-02-09)
 
