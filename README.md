@@ -4564,6 +4564,13 @@
 
 - [h00die/POC-CVE-2026-19681](https://github.com/h00die/POC-CVE-2026-19681)
 
+### CVE-2026-19773 (2026-09-15)
+
+<code>libwebsockets HTTP/2 HPACK Path Header Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of libwebsockets. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the parsing of HTTP/2 HPACK path header. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-31036.
+</code>
+
+- [firmdura/meta-firmdura-kirkstone](https://github.com/firmdura/meta-firmdura-kirkstone)
+
 ### CVE-2026-19794 (2026-08-14)
 
 <code>The WP-Stats plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 2.56 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
@@ -8088,7 +8095,11 @@
 
 - [Mehdi-Ben-Hamou/CVE-2026-30498](https://github.com/Mehdi-Ben-Hamou/CVE-2026-30498)
 
-### CVE-2026-30502
+### CVE-2026-30502 (2026-11-18)
+
+<code>A Cross-Site Scripting (XSS) vulnerability in OpenKM v6.3.12 allows attackers to execute arbitrary Javascript in the context of the user's browser via a crafted input injected into the Content parameter.
+</code>
+
 - [dharmstm/CVE-2026-30502-OpenKM-6.3.12-Reflected-XSS](https://github.com/dharmstm/CVE-2026-30502-OpenKM-6.3.12-Reflected-XSS)
 
 ### CVE-2026-30503
@@ -15353,7 +15364,11 @@
 
 - [krevetkqqq/CVE-2026-61515](https://github.com/krevetkqqq/CVE-2026-61515)
 
-### CVE-2026-61578
+### CVE-2026-61578 (2026-11-18)
+
+<code>Chamilo LMS is an open-source learning management system. Prior to 1.11.40 on the 1.11 release line and in 2.0.0, plugin/cleandeletedfiles/src/ajax.php and public/plugin/CleanDeletedFiles/src/ajax.php pass the request path parameter and list parameter directly to unlink without canonicalization, filename validation, or confinement to the plugin's scanned directories. An authenticated administrator can delete arbitrary files writable by the web server; a cross-site request forgery against an administrator session can reach the same operation. Deleting application source, uploaded content, cache, or configuration files can cause data loss and denial of service. This issue is fixed in version 1.11.40 on the 1.11 release line. No fixed 2.0 release is established as of this review.
+</code>
+
 - [HORKimhab/CVE-Chamilo-LMS](https://github.com/HORKimhab/CVE-Chamilo-LMS)
 
 ### CVE-2026-61628 (2026-09-21)
@@ -19368,6 +19383,13 @@
 
 - [0xSemizzz/CVE-2026-92162](https://github.com/0xSemizzz/CVE-2026-92162)
 
+### CVE-2026-92182 (2026-11-17)
+
+<code>Netgate pfSense CE XMLRPC Incorrect Authorization Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Netgate pfSense. Authentication is required to exploit this vulnerability.\n\nThe specific flaw exists within the XMLRPC endpoint. The issue results from incorrect authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code within the context of the root. Was ZDI-CAN-32353.
+</code>
+
+- [LLCForge/CVE-2026-92182](https://github.com/LLCForge/CVE-2026-92182)
+
 ### CVE-2026-92183 (2026-10-21)
 
 <code>GIMP APNG File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of APNG files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-29400.
@@ -19762,6 +19784,9 @@
 
 ### CVE-2026-95149
 - [reputati0n/CVE-2026-95149](https://github.com/reputati0n/CVE-2026-95149)
+
+### CVE-2026-95267
+- [netuseradministrator/CVE-2026-95267](https://github.com/netuseradministrator/CVE-2026-95267)
 
 ### CVE-2026-95518 (2026-11-13)
 
@@ -20202,7 +20227,6 @@
 - [aoxzh/cve-2026-98260-tb710fu](https://github.com/aoxzh/cve-2026-98260-tb710fu)
 - [aoxzh/cve-2026-98260-vivo-x200-ultra-temproot](https://github.com/aoxzh/cve-2026-98260-vivo-x200-ultra-temproot)
 - [yxc0915/cve-2026-98260-ppg-an00](https://github.com/yxc0915/cve-2026-98260-ppg-an00)
-- [amunabv/gta9p-ksu](https://github.com/amunabv/gta9p-ksu)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -20277,7 +20301,7 @@
 - [schnied/cve-2026-98432-mitigation-iptables](https://github.com/schnied/cve-2026-98432-mitigation-iptables)
 - [muhammedemintombak/pardus21-cve-2026-98432](https://github.com/muhammedemintombak/pardus21-cve-2026-98432)
 - [luxagen/tester-linux-cve-2026-98432](https://github.com/luxagen/tester-linux-cve-2026-98432)
-- [mrjoshuap/ansible-ezcve](https://github.com/mrjoshuap/ansible-ezcve)
+- [mrjoshuap-hq/ansible-ezcve](https://github.com/mrjoshuap-hq/ansible-ezcve)
 - [hdp1972be-svg/cve_2026_98432_guard](https://github.com/hdp1972be-svg/cve_2026_98432_guard)
 - [zenjabba/cve-2026-98432-mitigation](https://github.com/zenjabba/cve-2026-98432-mitigation)
 - [t0ge-kun/CVE-2026-98432-check](https://github.com/t0ge-kun/CVE-2026-98432-check)
@@ -20299,6 +20323,7 @@
 - [rootagi/CVE-2026-98432](https://github.com/rootagi/CVE-2026-98432)
 - [ylh440104/cve-2026-98432-chain](https://github.com/ylh440104/cve-2026-98432-chain)
 - [zake1god/CVE-2026-98432](https://github.com/zake1god/CVE-2026-98432)
+- [hardenedlinux/linux-rce-poc](https://github.com/hardenedlinux/linux-rce-poc)
 
 ### CVE-2026-98499 (2026-10-18)
 
@@ -20392,6 +20417,13 @@
 </code>
 
 - [nth347/mediawiki-CVE-2026-100382](https://github.com/nth347/mediawiki-CVE-2026-100382)
+
+### CVE-2026-100397 (2026-11-17)
+
+<code>Rucio is a scientific data management framework. From 1.14.0 until 35.9.1, 38.6.1, 40.4.2, and 41.1.1, validate_auth_token in lib/rucio/core/authentication.py does not distinguish short-lived SSH challenge nonces from authentication tokens stored in the same token table. An unauthenticated attacker can request /auth/ssh_challenge_token for an arbitrary account by supplying X-Rucio-Account, then present the returned X-Rucio-SSH-Challenge-Token as X-Rucio-Auth-Token to authenticate to other API endpoints as that account, including an administrative account. This issue is fixed in versions 35.9.1, 38.6.1, 40.4.2, and 41.1.1.
+</code>
+
+- [LLCForge/CVE-2026-100397](https://github.com/LLCForge/CVE-2026-100397)
 
 ### CVE-2026-100520 (2026-09-26)
 
@@ -21325,6 +21357,13 @@
 
 - [CompleteTech-Security/node-cve-2026-106074-check](https://github.com/CompleteTech-Security/node-cve-2026-106074-check)
 
+### CVE-2026-106152 (2026-11-11)
+
+<code>In Progress® Telerik® Report Server prior to version 12.3.26.1110, an external control of a system configuration setting vulnerability allows an unauthenticated remote attacker to influence the server address used by Report Server when generating links and notifications. With user interaction, this can lead to disclosure of sensitive information and account takeover.
+</code>
+
+- [fumioryoto/CVE-2026-106152](https://github.com/fumioryoto/CVE-2026-106152)
+
 ### CVE-2026-106173 (2026-10-13)
 
 <code>A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiSIEM 7.5.0, FortiSIEM 7.4 all versions, FortiSIEM 7.3 all versions, FortiSIEM 7.2 all versions, FortiSIEM 7.1 all versions, FortiSIEM 7.0 all versions may allow attacker to execute unauthorized code or commands via specially crafted packets.
@@ -21812,6 +21851,7 @@
 - [r3c0nd4t4/php2shell-verify](https://github.com/r3c0nd4t4/php2shell-verify)
 - [godylockz/CVE-2026-109618-109619](https://github.com/godylockz/CVE-2026-109618-109619)
 - [Bulletdev/php2shell-poc](https://github.com/Bulletdev/php2shell-poc)
+- [twili8/php2shell-poc](https://github.com/twili8/php2shell-poc)
 - [san3ncrypt3d/php-oom-corruption-lab](https://github.com/san3ncrypt3d/php-oom-corruption-lab)
 - [mirrored-projects/PHP74-Windows-CVE2026](https://github.com/mirrored-projects/PHP74-Windows-CVE2026)
 - [projetoroot/php2shell-guard](https://github.com/projetoroot/php2shell-guard)
@@ -22412,9 +22452,10 @@
 - [tolmohq/php2shell-docs](https://github.com/tolmohq/php2shell-docs)
 - [ljt1018168/tp8-upgrade-kit](https://github.com/ljt1018168/tp8-upgrade-kit)
 - [patrickgrady321/PHP2Shell_exploit_capstone](https://github.com/patrickgrady321/PHP2Shell_exploit_capstone)
-- [Cybersecly-LLC/PHP2SHELL](https://github.com/Cybersecly-LLC/PHP2SHELL)
 - [rbtsecurity/php2shell-lab](https://github.com/rbtsecurity/php2shell-lab)
 - [JAvito-GC/php2shell-check](https://github.com/JAvito-GC/php2shell-check)
+- [Cybersecly-LLC/php2shell-lab](https://github.com/Cybersecly-LLC/php2shell-lab)
+- [0xnoobsec/PHP2SHELL](https://github.com/0xnoobsec/PHP2SHELL)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22990,6 +23031,13 @@
 
 - [Neo-XeD/CVE-2026-113386](https://github.com/Neo-XeD/CVE-2026-113386)
 
+### CVE-2026-113425 (2026-11-18)
+
+<code>When NGINX Plus or NGINX Open Source is configured as a mail proxy, undisclosed traffic can cause a use-after-free in an nginx worker process. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.\n\nImpact:\nA remote unauthenticated attacker may crash an nginx worker process or corrupt its memory, disrupting service. Remote code execution is a potential impact. There is no control plane exposure; this is a data plane issue only.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [LLCForge/CVE-2026-113425](https://github.com/LLCForge/CVE-2026-113425)
+
 ### CVE-2026-113468 (2026-10-20)
 
 <code>The payment notification endpoint for PayPal accepts incoming data without verifying that it comes from the payment provider. Any site visitor can overwrite the stored payment notification of an order that is still awaiting payment with arbitrary content. This requires a page that contains the shop's order plugin. Orders that are already paid are not affected.
@@ -23038,6 +23086,13 @@
 </code>
 
 - [Ghost-Bx1/DotNet-Tarball-CVE-2026-114148](https://github.com/Ghost-Bx1/DotNet-Tarball-CVE-2026-114148)
+
+### CVE-2026-114202 (2026-11-18)
+
+<code>Use of Hard-coded Cryptographic Key in ASUS Control Center Express allows a remote user to gain administrative privileges via a forged authentication token.\nRefer to the '\nSecurity Update for ASUS Control Center Express Agent  ' section on the ASUS Security Advisory for more information.
+</code>
+
+- [LLCForge/CVE-2026-114202](https://github.com/LLCForge/CVE-2026-114202)
 
 ### CVE-2026-114509 (2026-10-21)
 
@@ -23140,6 +23195,7 @@
 - [douglasmun/CVE-2026-114938_Java4Shell_lab](https://github.com/douglasmun/CVE-2026-114938_Java4Shell_lab)
 - [arkrwn/PoC-CVE-2026-114938-CrashLeak](https://github.com/arkrwn/PoC-CVE-2026-114938-CrashLeak)
 - [zake1god/java2shell](https://github.com/zake1god/java2shell)
+- [TahuCryptsi/poc-cve-2026-114938-java4shell-base64-oob](https://github.com/TahuCryptsi/poc-cve-2026-114938-java4shell-base64-oob)
 - [klapertart/Java4Shell-CVE-2026-114938-Summary](https://github.com/klapertart/Java4Shell-CVE-2026-114938-Summary)
 - [Dungsocool/CVE-2026-114938](https://github.com/Dungsocool/CVE-2026-114938)
 - [nu0l/Java4Shell-LocalScanner](https://github.com/nu0l/Java4Shell-LocalScanner)
@@ -23151,8 +23207,10 @@
 - [zejunyang/java4shell-rce](https://github.com/zejunyang/java4shell-rce)
 - [ionsec/java4shell-detector](https://github.com/ionsec/java4shell-detector)
 - [Nextron-Labs/thor-plugin-jvm-crash-cluster](https://github.com/Nextron-Labs/thor-plugin-jvm-crash-cluster)
+- [akamai/CVE-2026-114938-java4shell-validation-mitigation](https://github.com/akamai/CVE-2026-114938-java4shell-validation-mitigation)
 - [jiparis/java4shell](https://github.com/jiparis/java4shell)
 - [afe038/audit-java4shell](https://github.com/afe038/audit-java4shell)
+- [AngelicIndustries/Java4ShellFix](https://github.com/AngelicIndustries/Java4ShellFix)
 - [CypherSecurity/java4shell-detection](https://github.com/CypherSecurity/java4shell-detection)
 - [avoliomattia/CVE-2026-114938](https://github.com/avoliomattia/CVE-2026-114938)
 - [XanDuri/java4shell-check](https://github.com/XanDuri/java4shell-check)
@@ -23160,6 +23218,20 @@
 - [tobiastillstam/Scan-Java4Shell](https://github.com/tobiastillstam/Scan-Java4Shell)
 - [rogersouzak8s/java4shell-check](https://github.com/rogersouzak8s/java4shell-check)
 - [yora1928/CVE-2026-114938_by_yora1928](https://github.com/yora1928/CVE-2026-114938_by_yora1928)
+- [FebusAI/java4shell-poc](https://github.com/FebusAI/java4shell-poc)
+- [alequinterok/CVE-2026-114938](https://github.com/alequinterok/CVE-2026-114938)
+- [oflavioc/detect4shell](https://github.com/oflavioc/detect4shell)
+- [OmarXtream/Java4Shell-Checker](https://github.com/OmarXtream/Java4Shell-Checker)
+- [simonliska/java4shell-k8s-scanner](https://github.com/simonliska/java4shell-k8s-scanner)
+- [zulloper/cve-2026-114938-spring-poc](https://github.com/zulloper/cve-2026-114938-spring-poc)
+- [eduxcode/java4shell-lab](https://github.com/eduxcode/java4shell-lab)
+- [AdeelAhmedKhan/spring-boot-corretto-patched](https://github.com/AdeelAhmedKhan/spring-boot-corretto-patched)
+- [chandrapati/csw-java-workloads](https://github.com/chandrapati/csw-java-workloads)
+- [Certbn/CVE-2026-114938-OpenJDK-HotSpot-AVX-512-Base64-Java4Shell-](https://github.com/Certbn/CVE-2026-114938-OpenJDK-HotSpot-AVX-512-Base64-Java4Shell-)
+- [bkirkware/j4s-checker](https://github.com/bkirkware/j4s-checker)
+- [DistributedIT/cve2026-114938-java4shell-check](https://github.com/DistributedIT/cve2026-114938-java4shell-check)
+- [LLCForge/CVE-2026-114938](https://github.com/LLCForge/CVE-2026-114938)
+- [Quaerendir/cve-2026-114938-java4shell-audit](https://github.com/Quaerendir/cve-2026-114938-java4shell-audit)
 
 ### CVE-2026-115252 (2026-11-09)
 
@@ -23603,6 +23675,13 @@
 
 - [zebbernCVE/CVE-2026-118776](https://github.com/zebbernCVE/CVE-2026-118776)
 
+### CVE-2026-118899 (2026-11-18)
+
+<code>When using the listen directive with the ssl parameter in the http block with TLSv1.3 enabled, an attacker can use a specially crafted TLS connection to cause an infinite loop in the NGINX worker process while reading the HTTP request body. As a result, the worker process stops accepting new connections and processing existing connections. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.\n\nImpact: This vulnerability allows a remote, unauthenticated attacker to cause a denial-of-service (DoS) of NGINX. There is no control plane exposure; this is a data plane issue only.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [LLCForge/CVE-2026-118899](https://github.com/LLCForge/CVE-2026-118899)
+
 ### CVE-2026-118989 (2026-10-29)
 
 <code>WebToffee Product Import Export for WooCommerce 2.5.1 before 2.6.8 contains a server-side request forgery vulnerability in download_remote_file that allows shop_manager users to reach internal services via redirects. Attackers can submit a .csv URL that returns an HTTP 302 redirect to an internal address, causing the server to fetch internal responses and return them as import data.
@@ -23767,6 +23846,20 @@
 
 - [3jee/CVE-2026-120491](https://github.com/3jee/CVE-2026-120491)
 
+### CVE-2026-120967 (2026-11-18)
+
+<code>When NGINX Plus or NGINX Open Source is configured to require client certificates (&quot;ssl_verify_client on&quot;) in a non-default stream virtual server, a remote attacker could bypass verification of client certificates.\n\nImpact:\nAn attacker could leverage this vulnerability to bypass verification of client certificates. There is no control plane exposure; this is a data plane issue only.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [LLCForge/CVE-2026-120967](https://github.com/LLCForge/CVE-2026-120967)
+
+### CVE-2026-120993 (2026-11-18)
+
+<code>When NGINX Plus or NGINX Open Source is configured to use the ngx_stream_ssl_module module with dynamic certificate loading and the ngx_stream_proxy_module module with the proxy_protocol v2 directive, an abbreviated SSL handshake can cause a worker process to terminate.\n\nImpact:\nThis vulnerability may allow remote attackers to cause a denial-of-service (DoS) on the NGINX system. This is a data plane vulnerability only; there is no control plane exposure.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [LLCForge/CVE-2026-120993](https://github.com/LLCForge/CVE-2026-120993)
+
 ### CVE-2026-121265 (2026-11-07)
 
 <code>SQL::Abstract versions before 2.000003 for Perl allow SQL injection via an arrayref column value in insert and update.\n\nWith the array_datatypes option off, which is the default, insert(), update() and values() treat an arrayref column value as literal SQL. Its first element goes into the SQL text unescaped and the rest become bind values. A JSON array, or a repeated form field decoded as an arrayref, is such a value.\n\nAn application that passes request data as column values to insert or update with the default options allows SQL injection.\n\nReleases before 2.000003 also treat an arrayref in generate() as literal SQL, including through AUTOLOAD when allow_autoload is on, whatever array_datatypes is set to.
@@ -23800,6 +23893,13 @@
 
 ### CVE-2026-121720
 - [refiaa/CVE-2026-121720](https://github.com/refiaa/CVE-2026-121720)
+
+### CVE-2026-121810 (2026-11-18)
+
+<code>Description:\nThis issue affects NGINX Plus and NGINX Open Source configurations that use HTTP/3. A remote, unauthenticated attacker can cause a use-after-free condition in the NGINX worker process, leading to a restart. Exploitation also depends on conditions beyond the attacker’s control. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.\n\nImpact:\nThis vulnerability may allow remote attackers to cause a denial-of-service (DoS) on the NGINX system or to possibly trigger a code execution. There is no control plane exposure; this is a data plane issue only.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [LLCForge/CVE-2026-121810](https://github.com/LLCForge/CVE-2026-121810)
 
 ### CVE-2026-121994 (2026-11-05)
 
@@ -23842,6 +23942,19 @@
 </code>
 
 - [Mor-Golan/CVE-2026-122675](https://github.com/Mor-Golan/CVE-2026-122675)
+
+### CVE-2026-123007 (2026-11-18)
+
+<code>This issue affects NGINX Plus or NGINX Open Source configurations that use HTTP/2. When NGINX processes undisclosed traffic, the flow control window can exceed the allowed threshold, potentially resulting in a heap buffer overflow typically followed by an NGINX worker segmentation fault. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.\n\nImpact: An attacker could leverage this vulnerability to crash the NGINX worker process, corrupt its memory, or potentially execute code remotely. There is no control plane exposure; this is a data plane issue only.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [sfewer-r7/CVE-2026-123007](https://github.com/sfewer-r7/CVE-2026-123007)
+- [LLCForge/CVE-2026-123007](https://github.com/LLCForge/CVE-2026-123007)
+- [The-DevOps-Daily/nginx2root-check](https://github.com/The-DevOps-Daily/nginx2root-check)
+- [suominen/CVE-2026-123007](https://github.com/suominen/CVE-2026-123007)
+- [WormW/nginx2root-rce-lab](https://github.com/WormW/nginx2root-rce-lab)
+- [rogersouzak8s/nginx-http2-check](https://github.com/rogersouzak8s/nginx-http2-check)
+- [arkrwn/NGINX2Root-CVE-2026-123007](https://github.com/arkrwn/NGINX2Root-CVE-2026-123007)
 
 ### CVE-2026-123014 (2026-11-05)
 
@@ -23911,6 +24024,7 @@
 - [diallocode/SSHOLE-POC](https://github.com/diallocode/SSHOLE-POC)
 - [LaMambaKukun/Hack-The-Box-Sherlock-SSHole-](https://github.com/LaMambaKukun/Hack-The-Box-Sherlock-SSHole-)
 - [Quaerendir/cve-2026-123158-audit](https://github.com/Quaerendir/cve-2026-123158-audit)
+- [gotr00t0day/CVE-2026-123158](https://github.com/gotr00t0day/CVE-2026-123158)
 
 ### CVE-2026-123218 (2026-11-07)
 
@@ -23935,6 +24049,29 @@
 </code>
 
 - [yuwkaaa/CVE-2026-123618](https://github.com/yuwkaaa/CVE-2026-123618)
+
+### CVE-2026-123633 (2026-11-18)
+
+<code>When NGINX Plus or NGINX Open Source is configured to use HTTP/2 for client connections and proxy client requests to a backend, a specially crafted request can result in use-after-free in the worker process, if this process is running low on worker_connections. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.\n\n\n\n\nImpact:\n\n\n\nThis vulnerability may allow remote attackers to cause a denial-of-service (DoS) on the NGINX system or may allow a code execution. There is no control plane exposure; this is a data plane issue only.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [LLCForge/CVE-2026-123633](https://github.com/LLCForge/CVE-2026-123633)
+- [Quaerendir/cve-2026-123633-123007-nginx-audit](https://github.com/Quaerendir/cve-2026-123633-123007-nginx-audit)
+- [Ghost-Bx1/nginx-exploits](https://github.com/Ghost-Bx1/nginx-exploits)
+
+### CVE-2026-123634 (2026-11-18)
+
+<code>This issue occurs when NGINX Plus or NGINX Open Source is configured as a proxy, the proxied server name includes variables, and a Server Side Includes (SSI) or mirror directive sends a subrequest to a location that resolves the same server name. Under these conditions, a specially crafted HTTP request may cause a use-after-free condition in a worker process. An attacker may also be able to execute code if Address Space Layout Randomization (ASLR) is disabled or the attacker can bypass ASLR.\n\nImpact: \nAn attacker could leverage this vulnerability to crash the NGINX worker process, corrupt its memory, or perform remote code execution (RCE)\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [LLCForge/CVE-2026-123634](https://github.com/LLCForge/CVE-2026-123634)
+
+### CVE-2026-123640 (2026-11-18)
+
+<code>Description\nWhen NGINX Plus or NGINX Open Source is configured with the ngx_stream_ssl_preread_module module, a specially crafted ClientHello message from an unauthenticated attacker causes forged values of the ngx_stream_ssl_preread_module variables, affecting virtual server selection. In addition, it may also cause a disagreement with a proxied server terminating the SSL/TLS connection without Transport Layer Security (TLS) 1.3 support.\n\nImpact\nThis vulnerability may allow an attacker to forge values of the ngx_stream_ssl_preread_module variables and bypass the NGINX systems stream routing segmentation. As a result, the attacker may be able to route the connection to a privileged or internal backend that should be unreachable and gain access to sensitive information. There is no control plane exposure; this is a data plane issue only.\n\n\n\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [LLCForge/CVE-2026-123640](https://github.com/LLCForge/CVE-2026-123640)
 
 ### CVE-2026-123751 (2026-11-09)
 
@@ -24030,6 +24167,20 @@
 </code>
 
 - [capivara-research/CVE-2026-124576](https://github.com/capivara-research/CVE-2026-124576)
+
+### CVE-2026-124990 (2026-11-18)
+
+<code>The Masteriyo LMS – LMS Course Builder, Quizzes &amp; Certificates plugin for WordPress is vulnerable to PHP Object Injection in versions up to, and including, 3.5.1 via deserialization of untrusted input in the course importer. The set_post_metas() method  calls maybe_unserialize() on attacker-controlled postmeta string values parsed from the uploaded JSON import file. This makes it possible for unauthenticated attackers to inject arbitrary PHP Objects. Exploitation by unauthenticated attackers requires that the site has enable_instructor_registration=true AND enable_guest_checkout=true AND at least one purchasable course exists. Install.php sets enable_instructor_registration=false on fresh installs, so this is a non-default configuration. On a default installation, where that is not configured, the vulnerability requires attackers with author-level access and above.
+</code>
+
+- [im0xfay/CVE-2026-124990](https://github.com/im0xfay/CVE-2026-124990)
+
+### CVE-2026-125283 (2026-11-18)
+
+<code>When NGINX Plus or NGINX Open Source is configured to use the try_files and alias directives with a map variable, certain combinations of regular expression captures in map and try_files can cause a segmentation fault in an NGINX worker process.\n\nImpact:\nAn attacker could leverage this vulnerability to cause an NGINX worker process to terminate unexpectedly. There is no control plane exposure; this is a data plane issue only.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [LLCForge/CVE-2026-125283](https://github.com/LLCForge/CVE-2026-125283)
 
 ### CVE-2026-125350 (2026-11-10)
 
@@ -24247,6 +24398,20 @@
 </code>
 
 - [googlesky/CVE-2026-126937](https://github.com/googlesky/CVE-2026-126937)
+
+### CVE-2026-126967 (2026-11-17)
+
+<code>SmarterTools SmarterMail File Edit API Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability.\n\nThe specific flaw exists within the FileStorageController class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Was ZDI-CAN-30742.
+</code>
+
+- [LLCForge/CVE-2026-126967](https://github.com/LLCForge/CVE-2026-126967)
+
+### CVE-2026-126978 (2026-11-17)
+
+<code>Philips Hue Bridge hap_pair_setup_handler Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the HomeKit Accessory Protocol service, which listens on TCP port 8080 by default. When parsing pairing requests, the process does not properly validate the length of user-supplied data prior to copying it to a fixed-length, heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the device. Was ZDI-CAN-28434.
+</code>
+
+- [LLCForge/CVE-2026-126978](https://github.com/LLCForge/CVE-2026-126978)
 
 ### CVE-2026-126997 (2026-11-12)
 
@@ -30353,6 +30518,7 @@
 - [MuhammadWaseem29/Vitejs-exploit](https://github.com/MuhammadWaseem29/Vitejs-exploit)
 - [0xgh057r3c0n/CVE-2025-31125](https://github.com/0xgh057r3c0n/CVE-2025-31125)
 - [harshgupptaa/Path-Transversal-CVE-2025-31125-](https://github.com/harshgupptaa/Path-Transversal-CVE-2025-31125-)
+- [alinaclark672377250/Vitejs-exploit](https://github.com/alinaclark672377250/Vitejs-exploit)
 
 ### CVE-2025-31129 (2025-03-31)
 
@@ -30771,6 +30937,7 @@
 - [OffSecPlaybook/CVE-2025-32462-](https://github.com/OffSecPlaybook/CVE-2025-32462-)
 - [lakshan-sameera/CVE-2025-32462-and-CVE-2025-32463---Critical-Sudo-Vulnerabilities](https://github.com/lakshan-sameera/CVE-2025-32462-and-CVE-2025-32463---Critical-Sudo-Vulnerabilities)
 - [yonathanpy/CVE-2025-32462-CVE-2025-32463-PoC-Lab](https://github.com/yonathanpy/CVE-2025-32462-CVE-2025-32463-PoC-Lab)
+- [ceraz02/cve-2025-32462-analysis](https://github.com/ceraz02/cve-2025-32462-analysis)
 
 ### CVE-2025-32463 (2025-06-30)
 
@@ -48167,14 +48334,14 @@
 <code>An XML External Entity (XXE) vulnerability in the Import object and Translation Memory import functionalities of WorldServer v11.8.2 to access sensitive information and execute arbitrary commands via supplying a crafted .tmx file.
 </code>
 
-- [1mhr4b/CVE-2024-50848](https://github.com/1mhr4b/CVE-2024-50848)
+- [SN4K3N/CVE-2024-50848](https://github.com/SN4K3N/CVE-2024-50848)
 
 ### CVE-2024-50849 (2024-11-18)
 
 <code>A Stored Cross-Site Scripting (XSS) vulnerability in the &quot;Rules&quot; functionality of WorldServer v11.8.2 allows a remote authenticated attacker to execute arbitrary JavaScript code.
 </code>
 
-- [1mhr4b/CVE-2024-50849](https://github.com/1mhr4b/CVE-2024-50849)
+- [SN4K3N/CVE-2024-50849](https://github.com/SN4K3N/CVE-2024-50849)
 
 ### CVE-2024-50944 (2024-12-27)
 
@@ -64761,6 +64928,13 @@
 - [Kang3639/CVE-2022-36446](https://github.com/Kang3639/CVE-2022-36446)
 - [darnabin/CVE-2022-36446-Webmin-RCE](https://github.com/darnabin/CVE-2022-36446-Webmin-RCE)
 
+### CVE-2022-36449 (2022-09-01)
+
+<code>An issue was discovered in the Arm Mali GPU Kernel Driver. A non-privileged user can make improper GPU processing operations to gain access to already freed memory, write a limited amount outside of buffer bounds, or to disclose details of memory mappings. This affects Midgard r4p0 through r32p0, Bifrost r0p0 through r38p0 and r39p0 before r38p1, and Valhall r19p0 through r38p0 and r39p0 before r38p1.
+</code>
+
+- [MootComb/cve-2022-36449-mali](https://github.com/MootComb/cve-2022-36449-mali)
+
 ### CVE-2022-36532 (2022-09-16)
 
 <code>Bolt CMS contains a vulnerability in version 5.1.12 and below that allows an authenticated user with the ROLE_EDITOR privileges to upload and rename a malicious file to achieve remote code execution.
@@ -73306,6 +73480,7 @@
 - [CyberCTF/vulhub-grafana-cve-2021-43798](https://github.com/CyberCTF/vulhub-grafana-cve-2021-43798)
 - [Jiahe114514/hdu-is-lab1-secure-api](https://github.com/Jiahe114514/hdu-is-lab1-secure-api)
 - [str1keboo/CVE-2021-43798](https://github.com/str1keboo/CVE-2021-43798)
+- [Wobomba/grafana-decrypt](https://github.com/Wobomba/grafana-decrypt)
 
 ### CVE-2021-43799 (2022-01-25)
 
@@ -91823,13 +91998,6 @@
 
 - [securifera/CVE-2016-3962-Exploit](https://github.com/securifera/CVE-2016-3962-Exploit)
 
-### CVE-2016-3977 (2016-04-21)
-
-<code>Heap-based buffer overflow in util/gif2rgb.c in gif2rgb in giflib 5.1.2 allows remote attackers to cause a denial of service (application crash) via the background color index in a GIF file.
-</code>
-
-- [amirhoseinshayan/patchcheck-giflib](https://github.com/amirhoseinshayan/patchcheck-giflib)
-
 ### CVE-2016-4004 (2016-04-12)
 
 <code>Directory traversal vulnerability in Dell OpenManage Server Administrator (OMSA) 8.2 allows remote authenticated administrators to read arbitrary files via a ..\ (dot dot backslash) in the file parameter to ViewFile.
@@ -93618,13 +93786,6 @@
 
 - [cved-sources/cve-2015-8103](https://github.com/cved-sources/cve-2015-8103)
 - [r00t4dm/Jenkins-CVE-2015-8103](https://github.com/r00t4dm/Jenkins-CVE-2015-8103)
-
-### CVE-2015-8126 (2015-11-13)
-
-<code>Multiple buffer overflows in the (1) png_set_PLTE and (2) png_get_PLTE functions in libpng before 1.0.64, 1.1.x and 1.2.x before 1.2.54, 1.3.x and 1.4.x before 1.4.17, 1.5.x before 1.5.24, and 1.6.x before 1.6.19 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact via a small bit-depth value in an IHDR (aka image header) chunk in a PNG image.
-</code>
-
-- [amirhoseinshayan/patchcheck-libpng](https://github.com/amirhoseinshayan/patchcheck-libpng)
 
 ### CVE-2015-8239 (2017-10-10)
 
