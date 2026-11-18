@@ -20206,6 +20206,7 @@
 - [idk12345-desigh/lapis-mt6878-root](https://github.com/idk12345-desigh/lapis-mt6878-root)
 - [aoxzh/cve-2026-98260-tb710fu](https://github.com/aoxzh/cve-2026-98260-tb710fu)
 - [aoxzh/cve-2026-98260-vivo-x200-ultra-temproot](https://github.com/aoxzh/cve-2026-98260-vivo-x200-ultra-temproot)
+- [yxc0915/cve-2026-98260-ppg-an00](https://github.com/yxc0915/cve-2026-98260-ppg-an00)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -20875,7 +20876,11 @@
 
 - [techupdate24/capacitor-flaw-cve-2026-103922](https://github.com/techupdate24/capacitor-flaw-cve-2026-103922)
 
-### CVE-2026-103931
+### CVE-2026-103931 (2026-11-17)
+
+<code>Instatic is an open source visual content management system for building static websites. Prior to 0.0.14, isSafeUrl() and safeUrl() in src/core/html-sanitize/index.ts remove tabs, newlines, carriage returns, and characters handled by String.prototype.trim(), but leave other leading C0 control characters that browsers discard before parsing a URL scheme. A low-privileged editor can place a dangerous URL behind one of those controls in a URL property or custom HTML attribute, allowing src/core/publisher/escapeProps.ts and the shared URL sanitizer to emit it into rendered content. When an Owner or Admin activates the element in the same-origin admin editor canvas, script executes with the victim's application authority and can drive admin APIs to read protected data, create an owner account, or install a plugin. This issue is fixed in version 0.0.14.
+</code>
+
 - [overgrowncarrot1/Instatic-Stored-XSS-CVE-2026-103931](https://github.com/overgrowncarrot1/Instatic-Stored-XSS-CVE-2026-103931)
 
 ### CVE-2026-103956 (2026-10-02)
@@ -22405,6 +22410,7 @@
 - [tolmohq/php2shell-docs](https://github.com/tolmohq/php2shell-docs)
 - [ljt1018168/tp8-upgrade-kit](https://github.com/ljt1018168/tp8-upgrade-kit)
 - [patrickgrady321/PHP2Shell_exploit_capstone](https://github.com/patrickgrady321/PHP2Shell_exploit_capstone)
+- [Cybersecly-LLC/PHP2SHELL](https://github.com/Cybersecly-LLC/PHP2SHELL)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22773,6 +22779,9 @@
 
 - [murrez/CVE-2026-111823](https://github.com/murrez/CVE-2026-111823)
 
+### CVE-2026-111825
+- [jacobbabula/CVE-2026-111825](https://github.com/jacobbabula/CVE-2026-111825)
+
 ### CVE-2026-111943 (2026-10-21)
 
 <code>On most platforms, Go uses the given system root certificates. However, in some narrower cases, the system trust stores may not be updated without further action. To defend against the narrower set of cases that may remain affected, a denylist was added in crypto/x509 to return an error when calling Verify with any of the known intermediate certificates that are no longer considered to be trustworthy.
@@ -23099,9 +23108,24 @@
 
 - [joedayz/cve-2026-114820-java-scan](https://github.com/joedayz/cve-2026-114820-java-scan)
 
-### CVE-2026-114938
+### CVE-2026-114938 (2026-11-17)
+
+<code>Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler).  Supported versions that are affected are Oracle Java SE: 8u511b33-perf, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in takeover of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 8.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
 - [ashrafzaryouh/CVE-2026-114938](https://github.com/ashrafzaryouh/CVE-2026-114938)
+- [theori-io/java4shell-runtime-patch-CVE-2026-114938](https://github.com/theori-io/java4shell-runtime-patch-CVE-2026-114938)
 - [jeffschafer/BigFix-Java4Shell-CVE-2026-114938-Scanner](https://github.com/jeffschafer/BigFix-Java4Shell-CVE-2026-114938-Scanner)
+- [Pwned-test/cve-2026-114938-java17-PoC](https://github.com/Pwned-test/cve-2026-114938-java17-PoC)
+- [r3dvei1/java4shell](https://github.com/r3dvei1/java4shell)
+- [ikow/java4shell-poc](https://github.com/ikow/java4shell-poc)
+- [jeffschafer/MANUAL-Scanner-Java4Shell-CVE-2026-114938](https://github.com/jeffschafer/MANUAL-Scanner-Java4Shell-CVE-2026-114938)
+- [arturo-b-cmu/CVE-2026-114938](https://github.com/arturo-b-cmu/CVE-2026-114938)
+- [WaveShift/ZenithJvmFlagGuard](https://github.com/WaveShift/ZenithJvmFlagGuard)
+- [jsik22/java4shell-detection](https://github.com/jsik22/java4shell-detection)
+- [cm-suzuki-ryo/aws-waf-java4shell-base64-guard](https://github.com/cm-suzuki-ryo/aws-waf-java4shell-base64-guard)
+- [Ghost-Bx1/java-exploits](https://github.com/Ghost-Bx1/java-exploits)
+- [pathcosmos/CVE-2026-114938](https://github.com/pathcosmos/CVE-2026-114938)
 
 ### CVE-2026-115252 (2026-11-09)
 
@@ -23831,6 +23855,7 @@
 - [Avi99999/sshhole-scanner](https://github.com/Avi99999/sshhole-scanner)
 - [diallocode/SSHOLE-POC](https://github.com/diallocode/SSHOLE-POC)
 - [LaMambaKukun/Hack-The-Box-Sherlock-SSHole-](https://github.com/LaMambaKukun/Hack-The-Box-Sherlock-SSHole-)
+- [Quaerendir/cve-2026-123158-audit](https://github.com/Quaerendir/cve-2026-123158-audit)
 
 ### CVE-2026-123218 (2026-11-07)
 
@@ -23899,6 +23924,13 @@
 
 - [fixedbyreboot/CVE-2026-124020-POC](https://github.com/fixedbyreboot/CVE-2026-124020-POC)
 - [LLCForge/CVE-2026-124020](https://github.com/LLCForge/CVE-2026-124020)
+
+### CVE-2026-124024 (2026-11-17)
+
+<code>Converting crafted input from UCS-4 to IBM1390 or IBM1399 character encoding, in the GNU C Library version 2.3.3 and later may result in the converter reading past the end of the input buffer, causing the calling application to crash.\n\nWhen converting from UCS-4, these encoders may encounter a combining base such as U+00E6 and jump ahead by 4 bytes to check the next UCS-4 code point.  The check for end of buffer however does not account for this, which may result in a buffer overread if the following code point has less than 4 bytes remaining.  Exploitation of this bug not only requires attacker control of input and encoding, but also strict control over layout of the input in memory.
+</code>
+
+- [D7EAD/CVE-2026-124024](https://github.com/D7EAD/CVE-2026-124024)
 
 ### CVE-2026-124040 (2026-11-06)
 
@@ -24174,6 +24206,9 @@
 </code>
 
 - [fumioryoto/CVE-2026-127016](https://github.com/fumioryoto/CVE-2026-127016)
+
+### CVE-2026-127222
+- [rahulreddykarne/CVE-2026-127222-sglang](https://github.com/rahulreddykarne/CVE-2026-127222-sglang)
 
 ### CVE-2026-128014 (2026-11-13)
 
@@ -34339,6 +34374,7 @@
 - [Certbn/CVE-2025-55182-React-Server-Components-Flight-React2Shell-](https://github.com/Certbn/CVE-2025-55182-React-Server-Components-Flight-React2Shell-)
 - [sg-evals/react--v19.2.1](https://github.com/sg-evals/react--v19.2.1)
 - [cloud-on-demand/React2Shell](https://github.com/cloud-on-demand/React2Shell)
+- [alinaclark672377250/React2Shell_Rce-cve-2025-55182](https://github.com/alinaclark672377250/React2Shell_Rce-cve-2025-55182)
 
 ### CVE-2025-55183 (2025-12-11)
 
@@ -72498,6 +72534,7 @@
 - [TheoCerveraLede/practica-integradora-ciberseguridad](https://github.com/TheoCerveraLede/practica-integradora-ciberseguridad)
 - [R3leant/CVE-2021-41773](https://github.com/R3leant/CVE-2021-41773)
 - [itsDav804/CVE-2021-41773](https://github.com/itsDav804/CVE-2021-41773)
+- [xlondra/CVE-2021-41773](https://github.com/xlondra/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -87986,6 +88023,7 @@
 
 - [scheatkode/CVE-2018-18955](https://github.com/scheatkode/CVE-2018-18955)
 - [WhatsWrongAndWhy/CVE-2018-18955](https://github.com/WhatsWrongAndWhy/CVE-2018-18955)
+- [Moonw4re/Linux-Privilege-Escalation](https://github.com/Moonw4re/Linux-Privilege-Escalation)
 
 ### CVE-2018-19052 (2018-11-07)
 
