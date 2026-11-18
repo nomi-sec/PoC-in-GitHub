@@ -11945,6 +11945,7 @@
 - [DarkDevil-937/make-it-root](https://github.com/DarkDevil-937/make-it-root)
 - [igconitoguy/CVE-2026-43499-Poc-Analysis](https://github.com/igconitoguy/CVE-2026-43499-Poc-Analysis)
 - [Repobor/ghostlock-cve-2026-43499-4.19-thyme](https://github.com/Repobor/ghostlock-cve-2026-43499-4.19-thyme)
+- [bxffhss/iqoo-z6-temp-root](https://github.com/bxffhss/iqoo-z6-temp-root)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15593,6 +15594,7 @@
 
 - [c0gnit00/GNSShell](https://github.com/c0gnit00/GNSShell)
 - [Cyberuser-hash/CVE-2026-63219](https://github.com/Cyberuser-hash/CVE-2026-63219)
+- [gzzcoo/GeoNetwork-UnauthenticatedRCE](https://github.com/gzzcoo/GeoNetwork-UnauthenticatedRCE)
 
 ### CVE-2026-63223 (2026-07-31)
 
@@ -16735,6 +16737,13 @@
 </code>
 
 - [brendonlee20042004-sys/weakrng-sweep](https://github.com/brendonlee20042004-sys/weakrng-sweep)
+
+### CVE-2026-71960 (2026-08-19)
+
+<code>Cudy WR3000 2.0 running firmware before 2.5.24 contains a hard-coded JWT HMAC signing secret vulnerability in the Mosquitto MQTT broker's authentication plugin that allows unauthenticated attackers to forge valid JWT tokens by extracting the secret from the firmware image. Attackers can use the extracted secret to craft arbitrary JWT tokens and authenticate to the MQTT broker without legitimate credentials, gaining unauthorized access to the device's mesh networking interface.
+</code>
+
+- [ShibbityShwab/cudy-wr3000v2-cve](https://github.com/ShibbityShwab/cudy-wr3000v2-cve)
 
 ### CVE-2026-71963 (2026-09-03)
 
@@ -20157,7 +20166,6 @@
 - [molanp/CVE-2026-98260-vivo-s60-poc](https://github.com/molanp/CVE-2026-98260-vivo-s60-poc)
 - [super2tt/CVE-2026-98260-vivo-x-fold6-poc](https://github.com/super2tt/CVE-2026-98260-vivo-x-fold6-poc)
 - [sabuweis/CVE-2026-98260](https://github.com/sabuweis/CVE-2026-98260)
-- [mumaosong/cve-2026-98260-app](https://github.com/mumaosong/cve-2026-98260-app)
 - [yoro1836/SamTimer](https://github.com/yoro1836/SamTimer)
 - [LinXing0926/GhostCred](https://github.com/LinXing0926/GhostCred)
 - [cuteaplane/CVE-2026-98260-for-OPD2501](https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501)
@@ -20194,6 +20202,7 @@
 - [aoxzh/cve-2026-98260-tb710fu](https://github.com/aoxzh/cve-2026-98260-tb710fu)
 - [aoxzh/cve-2026-98260-vivo-x200-ultra-temproot](https://github.com/aoxzh/cve-2026-98260-vivo-x200-ultra-temproot)
 - [yxc0915/cve-2026-98260-ppg-an00](https://github.com/yxc0915/cve-2026-98260-ppg-an00)
+- [amunabv/gta9p-ksu](https://github.com/amunabv/gta9p-ksu)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -21527,6 +21536,13 @@
 
 - [federiconbaez/cortex9-phpspreadsheet-redirect-whitelist-ssrf-model](https://github.com/federiconbaez/cortex9-phpspreadsheet-redirect-whitelist-ssrf-model)
 
+### CVE-2026-108474 (2026-10-09)
+
+<code>In JetBrains Exposed before 1.5.1 sQL injection was possible via unescaped string arguments of several SQL functions
+</code>
+
+- [DeeBumG/CVE-2026-108474-POC](https://github.com/DeeBumG/CVE-2026-108474-POC)
+
 ### CVE-2026-108551 (2026-10-10)
 
 <code>openapi-typescript-codegen through 0.31.0 contains a code injection vulnerability that allows attackers controlling an OpenAPI document to inject JavaScript by supplying unescaped values interpolated into single-quoted string literals. Attackers can embed a single quote in path keys, parameter names, servers[0].url, or info.version to execute arbitrary JavaScript when generated clients are imported or service methods called.
@@ -22398,6 +22414,7 @@
 - [patrickgrady321/PHP2Shell_exploit_capstone](https://github.com/patrickgrady321/PHP2Shell_exploit_capstone)
 - [Cybersecly-LLC/PHP2SHELL](https://github.com/Cybersecly-LLC/PHP2SHELL)
 - [rbtsecurity/php2shell-lab](https://github.com/rbtsecurity/php2shell-lab)
+- [JAvito-GC/php2shell-check](https://github.com/JAvito-GC/php2shell-check)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -23118,6 +23135,7 @@
 - [cm-suzuki-ryo/aws-waf-java4shell-base64-guard](https://github.com/cm-suzuki-ryo/aws-waf-java4shell-base64-guard)
 - [Ghost-Bx1/java-exploits](https://github.com/Ghost-Bx1/java-exploits)
 - [pathcosmos/CVE-2026-114938](https://github.com/pathcosmos/CVE-2026-114938)
+- [boundaryx/cloudrasp-java4shell](https://github.com/boundaryx/cloudrasp-java4shell)
 - [darkfibr/yara-java4shell](https://github.com/darkfibr/yara-java4shell)
 - [douglasmun/CVE-2026-114938_Java4Shell_lab](https://github.com/douglasmun/CVE-2026-114938_Java4Shell_lab)
 - [arkrwn/PoC-CVE-2026-114938-CrashLeak](https://github.com/arkrwn/PoC-CVE-2026-114938-CrashLeak)
@@ -23128,7 +23146,20 @@
 - [chjwoo7/java4shell](https://github.com/chjwoo7/java4shell)
 - [Mahgal/java4shell-check](https://github.com/Mahgal/java4shell-check)
 - [Ademking/java4shell](https://github.com/Ademking/java4shell)
+- [techdevfun/java4shell](https://github.com/techdevfun/java4shell)
 - [ubitquity/cve-2026-114938-java4shell-remediation](https://github.com/ubitquity/cve-2026-114938-java4shell-remediation)
+- [zejunyang/java4shell-rce](https://github.com/zejunyang/java4shell-rce)
+- [ionsec/java4shell-detector](https://github.com/ionsec/java4shell-detector)
+- [Nextron-Labs/thor-plugin-jvm-crash-cluster](https://github.com/Nextron-Labs/thor-plugin-jvm-crash-cluster)
+- [jiparis/java4shell](https://github.com/jiparis/java4shell)
+- [afe038/audit-java4shell](https://github.com/afe038/audit-java4shell)
+- [CypherSecurity/java4shell-detection](https://github.com/CypherSecurity/java4shell-detection)
+- [avoliomattia/CVE-2026-114938](https://github.com/avoliomattia/CVE-2026-114938)
+- [XanDuri/java4shell-check](https://github.com/XanDuri/java4shell-check)
+- [fumioryoto/java4shell-poc](https://github.com/fumioryoto/java4shell-poc)
+- [tobiastillstam/Scan-Java4Shell](https://github.com/tobiastillstam/Scan-Java4Shell)
+- [rogersouzak8s/java4shell-check](https://github.com/rogersouzak8s/java4shell-check)
+- [yora1928/CVE-2026-114938_by_yora1928](https://github.com/yora1928/CVE-2026-114938_by_yora1928)
 
 ### CVE-2026-115252 (2026-11-09)
 
@@ -23304,6 +23335,13 @@
 </code>
 
 - [googlesky/CVE-2026-116244](https://github.com/googlesky/CVE-2026-116244)
+
+### CVE-2026-116289 (2026-11-01)
+
+<code>Gitea did not reject personal access tokens restricted to public resources (`public-only`) on the organization Actions runner registration-token endpoint, and the runner registered with the resulting token was not limited to public repositories. Holding only such a token with `write:organization` that belongs to an owner of a public organization, an attacker could register an organization-level runner and receive jobs of the organization's private repositories that have Actions enabled, including the workflow content, Actions secrets and variables, and a task token with access to the private repository. The issue widens what the restricted token can reach; it gives nothing beyond what the owner's full account can already do.
+</code>
+
+- [afsharid/gitea-cve-2026-116289-detection](https://github.com/afsharid/gitea-cve-2026-116289-detection)
 
 ### CVE-2026-116296 (2026-11-01)
 
@@ -24388,6 +24426,13 @@
 
 - [googlesky/CVE-2026-130354](https://github.com/googlesky/CVE-2026-130354)
 
+### CVE-2026-130587 (2026-11-17)
+
+<code>OpenFunction through 1.2.0 contains a privilege escalation vulnerability that allows namespace tenants to create privileged host-access pods by supplying unrestricted PodSpec templates in Function and Serving resources. Attackers with only Function or Serving create permissions can set privileged, hostNetwork, hostPID, or hostPath fields to mount the worker node's root filesystem and escalate to node access.
+</code>
+
+- [googlesky/CVE-2026-130587](https://github.com/googlesky/CVE-2026-130587)
+
 ### CVE-2026-131842 (2026-11-17)
 
 <code>Poppler pdfdetach 24.03.0 through 26.11.0 contains a path traversal vulnerability in utils/pdfdetach.cc that allows attackers to write files outside the output directory by bypassing a string-prefix containment check. Attackers can craft PDFs with embedded file names containing '..' sequences or absolute paths, so -saveall or -savefile extraction creates or overwrites files with the invoking user's privileges.
@@ -24408,6 +24453,13 @@
 </code>
 
 - [googlesky/CVE-2026-131852](https://github.com/googlesky/CVE-2026-131852)
+
+### CVE-2026-131873 (2026-11-18)
+
+<code>Gargoyle 2023.1 through 2026.1.1 contains a stack-based buffer overflow vulnerability in the bundled Plus interpreter's ReadAction() function in terps/plus/loaddatabase.c, which never bounds-checks the index into the 1024-entry conditions array. Attackers can supply a crafted or truncated .plus game file with unterminated action conditions to write file-controlled values past the array and crash the player.
+</code>
+
+- [googlesky/CVE-2026-131873](https://github.com/googlesky/CVE-2026-131873)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -35121,6 +35173,7 @@
 - [kelltich-756/FreePBX-Breaker](https://github.com/kelltich-756/FreePBX-Breaker)
 - [foxcornlab/freepbx-rce-detector](https://github.com/foxcornlab/freepbx-rce-detector)
 - [Wayang1337/CVE-2025-57819](https://github.com/Wayang1337/CVE-2025-57819)
+- [alinaclark672377250/SQL-Injection-and-RCE_CVE-2025-57819](https://github.com/alinaclark672377250/SQL-Injection-and-RCE_CVE-2025-57819)
 
 ### CVE-2025-57833 (2025-09-03)
 
@@ -36140,13 +36193,6 @@
 </code>
 
 - [Kgan0509/CVE-2025-63441](https://github.com/Kgan0509/CVE-2025-63441)
-
-### CVE-2025-63498 (2025-11-24)
-
-<code>alinto SOGo 5.12.3 is vulnerable to Cross Site Scripting (XSS) via the &quot;userName&quot; parameter.
-</code>
-
-- [xryptoh/CVE-2025-63498](https://github.com/xryptoh/CVE-2025-63498)
 
 ### CVE-2025-63499 (2025-12-04)
 
@@ -41930,6 +41976,7 @@
 - [ghs053020-stack/cve-2024-21626](https://github.com/ghs053020-stack/cve-2024-21626)
 - [Leven0101/cve-2024-21626-lab](https://github.com/Leven0101/cve-2024-21626-lab)
 - [ghs053020-stack/cve-2024-21626-ctf](https://github.com/ghs053020-stack/cve-2024-21626-ctf)
+- [n3d-d3v/Multi-Tenant-FaaS-Security-Lab-CVE-2024-21626](https://github.com/n3d-d3v/Multi-Tenant-FaaS-Security-Lab-CVE-2024-21626)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -54447,7 +54494,6 @@
 - [keto0422/CVE-2023-33107](https://github.com/keto0422/CVE-2023-33107)
 - [264312431/picohaxx](https://github.com/264312431/picohaxx)
 - [miyoubi/Fracture](https://github.com/miyoubi/Fracture)
-- [justwezzz/CVE-2023-33107-908SH](https://github.com/justwezzz/CVE-2023-33107-908SH)
 
 ### CVE-2023-33177 (2023-05-30)
 
@@ -59551,6 +59597,7 @@
 - [AndreevSemen/CVE-2022-0995](https://github.com/AndreevSemen/CVE-2022-0995)
 - [1nzag/CVE-2022-0995](https://github.com/1nzag/CVE-2022-0995)
 - [A1b2rt/cve-2022-0995](https://github.com/A1b2rt/cve-2022-0995)
+- [Calculusdetective/Page_Jack_pwn](https://github.com/Calculusdetective/Page_Jack_pwn)
 
 ### CVE-2022-0997 (2022-05-17)
 
@@ -73914,6 +73961,7 @@
 - [Certbn/CVE-2021-44228-Apache-Log4j2-JNDI-Lookup](https://github.com/Certbn/CVE-2021-44228-Apache-Log4j2-JNDI-Lookup)
 - [DatLang777/Log4Shell-BlueTeam-Detection-Lab](https://github.com/DatLang777/Log4Shell-BlueTeam-Detection-Lab)
 - [HanaBouikni/Log4Shell-Incident-Report-CVE-2021-44228](https://github.com/HanaBouikni/Log4Shell-Incident-Report-CVE-2021-44228)
+- [johnyProDev/CVE-2021-44228-PoC](https://github.com/johnyProDev/CVE-2021-44228-PoC)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -91775,6 +91823,13 @@
 
 - [securifera/CVE-2016-3962-Exploit](https://github.com/securifera/CVE-2016-3962-Exploit)
 
+### CVE-2016-3977 (2016-04-21)
+
+<code>Heap-based buffer overflow in util/gif2rgb.c in gif2rgb in giflib 5.1.2 allows remote attackers to cause a denial of service (application crash) via the background color index in a GIF file.
+</code>
+
+- [amirhoseinshayan/patchcheck-giflib](https://github.com/amirhoseinshayan/patchcheck-giflib)
+
 ### CVE-2016-4004 (2016-04-12)
 
 <code>Directory traversal vulnerability in Dell OpenManage Server Administrator (OMSA) 8.2 allows remote authenticated administrators to read arbitrary files via a ..\ (dot dot backslash) in the file parameter to ViewFile.
@@ -93563,6 +93618,13 @@
 
 - [cved-sources/cve-2015-8103](https://github.com/cved-sources/cve-2015-8103)
 - [r00t4dm/Jenkins-CVE-2015-8103](https://github.com/r00t4dm/Jenkins-CVE-2015-8103)
+
+### CVE-2015-8126 (2015-11-13)
+
+<code>Multiple buffer overflows in the (1) png_set_PLTE and (2) png_get_PLTE functions in libpng before 1.0.64, 1.1.x and 1.2.x before 1.2.54, 1.3.x and 1.4.x before 1.4.17, 1.5.x before 1.5.24, and 1.6.x before 1.6.19 allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact via a small bit-depth value in an IHDR (aka image header) chunk in a PNG image.
+</code>
+
+- [amirhoseinshayan/patchcheck-libpng](https://github.com/amirhoseinshayan/patchcheck-libpng)
 
 ### CVE-2015-8239 (2017-10-10)
 
