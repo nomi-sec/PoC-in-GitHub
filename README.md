@@ -3578,6 +3578,7 @@
 
 - [HORKimhab/CVE-2026-13181-CVE-2026-13182-CVE-2026-13183-CVE-2026-13184](https://github.com/HORKimhab/CVE-2026-13181-CVE-2026-13182-CVE-2026-13183-CVE-2026-13184)
 - [ivanesk315/CVE-2026-13181-Telerik](https://github.com/ivanesk315/CVE-2026-13181-Telerik)
+- [kjry8sb/CVE-2026-13181](https://github.com/kjry8sb/CVE-2026-13181)
 
 ### CVE-2026-13233 (2026-07-10)
 
@@ -10917,13 +10918,6 @@
 
 - [Astaruf/CVE-2026-40487](https://github.com/Astaruf/CVE-2026-40487)
 
-### CVE-2026-40489 (2026-04-18)
-
-<code>editorconfig-core-c  is an EditorConfig core library for use by plugins supporting EditorConfig parsing. Versions up to and including 0.12.10 have a stack-based buffer overflow in ec_glob() that allows an attacker to crash any application using libeditorconfig by providing a specially crafted directory structure and .editorconfig file. This is an incomplete fix for CVE-2023-0341. The pcre_str buffer was protected in 0.12.6 but the adjacent l_pattern[8194] stack buffer received no equivalent protection. On Ubuntu 24.04, FORTIFY_SOURCE converts the overflow to SIGABRT (DoS). Version 0.12.11 contains an updated fix.
-</code>
-
-- [saretawa/CVE-2026-40489](https://github.com/saretawa/CVE-2026-40489)
-
 ### CVE-2026-40564 (2026-05-26)
 
 <code>Files or Directories Accessible to External Parties, Server-Side Request Forgery (SSRF) vulnerability in Apache Flink Kubernetes Operator.\n\nThe FlinkSessionJob jarURI is currently not validated so that it points to user-owned files or addresses.  This lets a user with CR create permissions read files from the operator pod's filesystem and pull content from any backing store reachable through Flink's pluggable filesystem layer and access them through the submitted Flink job. Furthermore for fetching from http/https addresses there is currently no allowlist on the URI scheme, no host check, no IP-range restriction, and no protection against pointing the URI at internal or link-local addresses.This issue affects Apache Flink Kubernetes Operator: from 1.3.0 before 1.15.0.\n\nUsers are recommended to upgrade to version 1.15.0, which fixes the issue.
@@ -11232,7 +11226,7 @@
 <code>Quick.Cart is vulnerable to Cross-Site Request Forgery in admin config panel. Malicious attacker can craft special website, which when visited by the admin, will automatically send a POST request that changes admin's login and password.\nThis software does implement simple protection against this type of attack, but it is easily bypassed by manipulating the referer header. All forms available in this software are potentially vulnerable.\n\nThis issue was fixed in a patch to version 6.7 published on 09.11.2026, deployments without this patch are still vulnerable
 </code>
 
-- [hhg69/CVE-2026-41875-EXPLOIT-QuickCart-one-click-Account-Takeover](https://github.com/hhg69/CVE-2026-41875-EXPLOIT-QuickCart-one-click-Account-Takeover)
+- [KarolCzubernat/CVE-2026-41875-EXPLOIT-QuickCart-one-click-Account-Takeover](https://github.com/KarolCzubernat/CVE-2026-41875-EXPLOIT-QuickCart-one-click-Account-Takeover)
 
 ### CVE-2026-41900 (2026-05-08)
 
@@ -11955,6 +11949,7 @@
 - [igconitoguy/CVE-2026-43499-Poc-Analysis](https://github.com/igconitoguy/CVE-2026-43499-Poc-Analysis)
 - [Repobor/ghostlock-cve-2026-43499-4.19-thyme](https://github.com/Repobor/ghostlock-cve-2026-43499-4.19-thyme)
 - [bxffhss/iqoo-z6-temp-root](https://github.com/bxffhss/iqoo-z6-temp-root)
+- [rubnet/ghostlock-RMX3031](https://github.com/rubnet/ghostlock-RMX3031)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15289,7 +15284,6 @@
 - [michael-kanda/Wp2shell-ioc-scanner](https://github.com/michael-kanda/Wp2shell-ioc-scanner)
 - [AdarshThakur14777-cyber/CVE-2026-60137](https://github.com/AdarshThakur14777-cyber/CVE-2026-60137)
 - [AbdullahMaqbool22/CVE-2026-60137-WordPress-Core-SQL-Injection-PoC](https://github.com/AbdullahMaqbool22/CVE-2026-60137-WordPress-Core-SQL-Injection-PoC)
-- [saretawa/wp2blind](https://github.com/saretawa/wp2blind)
 - [ivanesk315/CVE-2026-60137-and-CVE-2026-63030](https://github.com/ivanesk315/CVE-2026-60137-and-CVE-2026-63030)
 
 ### CVE-2026-60206 (2026-07-21)
@@ -15614,6 +15608,7 @@
 - [c0gnit00/GNSShell](https://github.com/c0gnit00/GNSShell)
 - [Cyberuser-hash/CVE-2026-63219](https://github.com/Cyberuser-hash/CVE-2026-63219)
 - [gzzcoo/GeoNetwork-UnauthenticatedRCE](https://github.com/gzzcoo/GeoNetwork-UnauthenticatedRCE)
+- [BridgerAlderson/GeoNetwork-PreAuth-RCE-PoC](https://github.com/BridgerAlderson/GeoNetwork-PreAuth-RCE-PoC)
 
 ### CVE-2026-63223 (2026-07-31)
 
@@ -17598,13 +17593,6 @@
 
 ### CVE-2026-77276
 - [Morzan6/CVE-2026-77276-PoC](https://github.com/Morzan6/CVE-2026-77276-PoC)
-
-### CVE-2026-77396 (2026-09-18)
-
-<code>PJSIP is a free and open source multimedia communication library written in C. In 2.17 and earlier, the PJSIP AVI parser in pjmedia/src/pjmedia/avi_player.c uses an input-file video chunk length as the number of bytes copied into a frame buffer whose capacity is derived from the declared media dimensions. A crafted AVI file can therefore cause an attacker-controlled out-of-bounds write past the heap allocation when an application plays the file or pulls its frames. The existing size assertion does not protect production release builds, where assertions are disabled. Typical local playback can crash the process, while applications that accept untrusted AVI sources expose a stronger memory-corruption condition. No fixed version is available as of this review.
-</code>
-
-- [saretawa/CVE-2026-77396](https://github.com/saretawa/CVE-2026-77396)
 
 ### CVE-2026-77521 (2026-09-21)
 
@@ -20282,6 +20270,7 @@
 - [aoxzh/cve-2026-98260-tb710fu](https://github.com/aoxzh/cve-2026-98260-tb710fu)
 - [aoxzh/cve-2026-98260-vivo-x200-ultra-temproot](https://github.com/aoxzh/cve-2026-98260-vivo-x200-ultra-temproot)
 - [yxc0915/cve-2026-98260-ppg-an00](https://github.com/yxc0915/cve-2026-98260-ppg-an00)
+- [PhYSiicZ/samtimer-root](https://github.com/PhYSiicZ/samtimer-root)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -22976,6 +22965,7 @@
 </code>
 
 - [Sparticle62ops/israce-probe](https://github.com/Sparticle62ops/israce-probe)
+- [Rust505/CVE-2026-112477](https://github.com/Rust505/CVE-2026-112477)
 
 ### CVE-2026-112487 (2026-10-26)
 
@@ -23278,6 +23268,7 @@
 - [AngelicIndustries/Java4ShellFix](https://github.com/AngelicIndustries/Java4ShellFix)
 - [CypherSecurity/java4shell-detection](https://github.com/CypherSecurity/java4shell-detection)
 - [avoliomattia/CVE-2026-114938](https://github.com/avoliomattia/CVE-2026-114938)
+- [MazeResearch/java4shell-check](https://github.com/MazeResearch/java4shell-check)
 - [XanDuri/java4shell-check](https://github.com/XanDuri/java4shell-check)
 - [sam00/Java4Shell-CVE-2026-114938-PoC](https://github.com/sam00/Java4Shell-CVE-2026-114938-PoC)
 - [fumioryoto/java4shell-poc](https://github.com/fumioryoto/java4shell-poc)
@@ -23304,6 +23295,18 @@
 - [alt3kx/CVE-2026-114938](https://github.com/alt3kx/CVE-2026-114938)
 - [Bluefire-Redteam-Cybersecurity/bluefire-java4shell-guard](https://github.com/Bluefire-Redteam-Cybersecurity/bluefire-java4shell-guard)
 - [shivabalaj/CVE-2026-114938](https://github.com/shivabalaj/CVE-2026-114938)
+- [rzkyp/java4shell-lab](https://github.com/rzkyp/java4shell-lab)
+- [gbuyssens/CVE-2026-114938-Check](https://github.com/gbuyssens/CVE-2026-114938-Check)
+- [gbuyssens/CVE-2026-114938](https://github.com/gbuyssens/CVE-2026-114938)
+- [tc4dy/CVE-2026-114938-Toolkit](https://github.com/tc4dy/CVE-2026-114938-Toolkit)
+- [kjry8sb/java4shell_CVE-2026-114938](https://github.com/kjry8sb/java4shell_CVE-2026-114938)
+
+### CVE-2026-114952 (2026-11-17)
+
+<code>Vulnerability in the MySQL Server, MySQL Cluster product of Oracle MySQL (component: Client programs).  Supported versions that are affected are MySQL Server: 8.4.0-8.4.13, 9.7.0-9.7.4, 26.10; MySQL Cluster: 8.0.0-8.0.50, 8.4.0-8.4.13, 9.7.0-9.7.4 and  26.10. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Server, MySQL Cluster.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all MySQL Server, MySQL Cluster accessible data as well as  unauthorized access to critical data or complete access to all MySQL Server, MySQL Cluster accessible data. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N).
+</code>
+
+- [Quaerendir/cve-2026-114952-mysql-audit](https://github.com/Quaerendir/cve-2026-114952-mysql-audit)
 
 ### CVE-2026-115252 (2026-11-09)
 
@@ -23646,6 +23649,9 @@
 
 ### CVE-2026-117368
 - [yukinkoNo1/prestashop-security-advisories](https://github.com/yukinkoNo1/prestashop-security-advisories)
+
+### CVE-2026-117378
+- [p0et08/ShopXO](https://github.com/p0et08/ShopXO)
 
 ### CVE-2026-117532 (2026-10-27)
 
@@ -24055,6 +24061,12 @@
 - [foxcornlab/nginx-scanner](https://github.com/foxcornlab/nginx-scanner)
 - [c0re-i5/intbug-lab](https://github.com/c0re-i5/intbug-lab)
 - [Mahgal/nginx-http2-rce-check](https://github.com/Mahgal/nginx-http2-rce-check)
+- [0xnrg/CVE-2026-123007](https://github.com/0xnrg/CVE-2026-123007)
+- [MazeResearch/nginx-h2-probe](https://github.com/MazeResearch/nginx-h2-probe)
+- [githubcdr/nginx-ingress-controller](https://github.com/githubcdr/nginx-ingress-controller)
+- [yusif-v/cve-2026-123007-poc](https://github.com/yusif-v/cve-2026-123007-poc)
+- [aduli198/CVE-2026-123007_nginx2root](https://github.com/aduli198/CVE-2026-123007_nginx2root)
+- [jenic/nginx2root-ioc-scan](https://github.com/jenic/nginx2root-ioc-scan)
 
 ### CVE-2026-123014 (2026-11-05)
 
@@ -24160,6 +24172,7 @@
 - [LLCForge/CVE-2026-123633](https://github.com/LLCForge/CVE-2026-123633)
 - [Quaerendir/cve-2026-123633-123007-nginx-audit](https://github.com/Quaerendir/cve-2026-123633-123007-nginx-audit)
 - [Ghost-Bx1/nginx-exploits](https://github.com/Ghost-Bx1/nginx-exploits)
+- [0xsaju/nginx-exploits](https://github.com/0xsaju/nginx-exploits)
 
 ### CVE-2026-123634 (2026-11-18)
 
@@ -24249,6 +24262,7 @@
 - [Ghost-Bx1/cve-2026-124194-outlook-ntlm-hash-leak](https://github.com/Ghost-Bx1/cve-2026-124194-outlook-ntlm-hash-leak)
 - [aminaljabre77-collab/outlook-ntlm-leak-investigation](https://github.com/aminaljabre77-collab/outlook-ntlm-leak-investigation)
 - [LLCForge/CVE-2026-124194](https://github.com/LLCForge/CVE-2026-124194)
+- [raktabhdutta/NTLM-HashLeak-Attack-Detection-or-Outlook-NTLM-HashLeak-CVE-2026-124194](https://github.com/raktabhdutta/NTLM-HashLeak-Attack-Detection-or-Outlook-NTLM-HashLeak-CVE-2026-124194)
 
 ### CVE-2026-124450 (2026-11-08)
 
@@ -24692,6 +24706,13 @@
 
 - [googlesky/CVE-2026-129494](https://github.com/googlesky/CVE-2026-129494)
 
+### CVE-2026-129987 (2026-11-18)
+
+<code>Dokploy is a free, self-hostable Platform as a Service (PaaS). Prior to 0.31.1, the database password validation used by the MySQL, PostgreSQL, MariaDB, MongoDB, and Redis change-password procedures permits backticks, and the procedures interpolate attacker-controlled passwords into Bash command strings. An authenticated user who can update a database password can trigger command substitution before the database command runs, resulting in arbitrary operating-system command execution with the Dokploy process privileges, which are typically root. This issue is fixed in version 0.31.1.
+</code>
+
+- [evenomn/CVE-2026-129987](https://github.com/evenomn/CVE-2026-129987)
+
 ### CVE-2026-130001
 - [LLCForge/CVE-2026-130001](https://github.com/LLCForge/CVE-2026-130001)
 
@@ -24764,6 +24785,13 @@
 </code>
 
 - [googlesky/CVE-2026-132252](https://github.com/googlesky/CVE-2026-132252)
+
+### CVE-2026-132825 (2026-11-19)
+
+<code>Ruby before 3.3.14, 3.4.13, and 4.0.10 has a heap-based buffer overflow during case conversion. One byte can be written outside a buffer for, for example, ISO-8859-1 or Windows-1252.
+</code>
+
+- [evenomn/CVE-2026-132825](https://github.com/evenomn/CVE-2026-132825)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -29372,6 +29400,13 @@
 
 - [hiteshpatra/CVE-2025-24963](https://github.com/hiteshpatra/CVE-2025-24963)
 
+### CVE-2025-24983 (2025-03-11)
+
+<code>Use after free in Windows Win32 Kernel Subsystem allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [sote-CJ/CVE-2025-24983-1Day](https://github.com/sote-CJ/CVE-2025-24983-1Day)
+
 ### CVE-2025-24985 (2025-03-11)
 
 <code>Integer overflow or wraparound in Windows Fast FAT Driver allows an unauthorized attacker to execute code locally.
@@ -29435,7 +29470,6 @@
 </code>
 
 - [Groppoxx/CVE-2025-25198-PoC](https://github.com/Groppoxx/CVE-2025-25198-PoC)
-- [enzocipher/CVE-2025-25198](https://github.com/enzocipher/CVE-2025-25198)
 
 ### CVE-2025-25200 (2025-02-12)
 
@@ -43022,7 +43056,6 @@
 - [cc3305/CVE-2024-23897](https://github.com/cc3305/CVE-2024-23897)
 - [verylazytech/CVE-2024-23897](https://github.com/verylazytech/CVE-2024-23897)
 - [D1se0/CVE-2024-23897-Vulnerabilidad-Jenkins](https://github.com/D1se0/CVE-2024-23897-Vulnerabilidad-Jenkins)
-- [slytechroot/CVE-2024-23897](https://github.com/slytechroot/CVE-2024-23897)
 - [brandonhjh/Jenkins-CVE-2024-23897-Exploit-Demo](https://github.com/brandonhjh/Jenkins-CVE-2024-23897-Exploit-Demo)
 - [tvasari/CVE-2024-23897](https://github.com/tvasari/CVE-2024-23897)
 - [Fineken/Jenkins-CVE-2024-23897-Lab](https://github.com/Fineken/Jenkins-CVE-2024-23897-Lab)
@@ -51276,7 +51309,6 @@
 </code>
 
 - [spyata123/Cleartext-Storage-vulnerability-CVE-2023-5359-in-W3-Total-Cache](https://github.com/spyata123/Cleartext-Storage-vulnerability-CVE-2023-5359-in-W3-Total-Cache)
-- [enzocipher/CVE-2023-5359](https://github.com/enzocipher/CVE-2023-5359)
 
 ### CVE-2023-5360 (2023-10-31)
 
@@ -57490,7 +57522,6 @@
 
 - [libertycityhacker/CVE-2023-43364-Exploit-CVE](https://github.com/libertycityhacker/CVE-2023-43364-Exploit-CVE)
 - [Herick-Costa/CVE-2023-43364-Searchor-RCE-Exploit](https://github.com/Herick-Costa/CVE-2023-43364-Searchor-RCE-Exploit)
-- [IamSaishi/CVE-2023-43364_Exploit](https://github.com/IamSaishi/CVE-2023-43364_Exploit)
 - [diamorphine666/CVE-2023-43364](https://github.com/diamorphine666/CVE-2023-43364)
 
 ### CVE-2023-43481 (2023-12-27)
@@ -68062,7 +68093,7 @@
 - [Rana-Ali93/CVE-2021-3156-Sudo-Buffer-Overflow-Linux](https://github.com/Rana-Ali93/CVE-2021-3156-Sudo-Buffer-Overflow-Linux)
 - [ngtuonghung/CVE-2021-3156](https://github.com/ngtuonghung/CVE-2021-3156)
 - [Robblackcatchai/porfolio-Baron-Samedit](https://github.com/Robblackcatchai/porfolio-Baron-Samedit)
-- [calonnuotcabe/CVE-2021-3156](https://github.com/calonnuotcabe/CVE-2021-3156)
+- [tkien207/CVE-2021-3156](https://github.com/tkien207/CVE-2021-3156)
 - [Kranti08/CVE-2021-3156-Baron-Samedit](https://github.com/Kranti08/CVE-2021-3156-Baron-Samedit)
 - [IJBaig/CVE-2021-3156](https://github.com/IJBaig/CVE-2021-3156)
 - [WhatsWrongAndWhy/CVE-2021-3156](https://github.com/WhatsWrongAndWhy/CVE-2021-3156)
@@ -79544,6 +79575,13 @@
 </code>
 
 - [SpiralBL0CK/CVE-2020-24972](https://github.com/SpiralBL0CK/CVE-2020-24972)
+
+### CVE-2020-24986 (2020-09-04)
+
+<code>Concrete5 up to and including 8.5.2 allows Unrestricted Upload of File with Dangerous Type such as a .php file via File Manager. It is possible to modify site configuration to upload the PHP file and execute arbitrary commands.
+</code>
+
+- [Rickert155/CVE-2020-24986-Exploit](https://github.com/Rickert155/CVE-2020-24986-Exploit)
 
 ### CVE-2020-25042 (2020-09-03)
 
