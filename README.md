@@ -14684,7 +14684,6 @@
 <code>Use of uninitialized resource in Windows RDP allows an unauthorized attacker to execute code over a network.
 </code>
 
-- [Udyz/RDPBleed](https://github.com/Udyz/RDPBleed)
 - [danarhirany300-ctrl/CVE-2026-56190-Full-RCE-Chainn](https://github.com/danarhirany300-ctrl/CVE-2026-56190-Full-RCE-Chainn)
 
 ### CVE-2026-56290 (2026-06-29)
@@ -15599,6 +15598,13 @@
 - [AnggaTechI/CVE-2026-63077](https://github.com/AnggaTechI/CVE-2026-63077)
 - [bakos-sandor-nx/teamcity-cve-2026-63077-remediation](https://github.com/bakos-sandor-nx/teamcity-cve-2026-63077-remediation)
 - [basesixtythree/B63-POC-CVE-2026-63077](https://github.com/basesixtythree/B63-POC-CVE-2026-63077)
+
+### CVE-2026-63129 (2026-11-18)
+
+<code>mssql-mcp-core is the shared library that powers MSSQL MCP servers. Prior to core and server 0.6.0 and reader and writer 0.5.0, multiple database tools interpolate caller-controlled identifiers and predicates into T-SQL batches passed to Request.query() while parameterizing only data values. update_data, delete_data, insert_data, execute_transaction, create_table, create_index, and drop_table accept unsafe tableName, column, index, schema, or free-form whereClause input, while reader-tier list_databases interpolates stateFilter without runtime allowlist enforcement. Row-count and preview queries execute before confirmUpdate or confirmDelete, allowing malicious arguments to bypass confirmation and maxRows controls and execute stacked DDL or DML, read or destroy data, and potentially run operating-system commands when the SQL login is privileged and xp_cmdshell is enabled. This issue is fixed in core and server version 0.6.0 and reader and writer version 0.5.0.
+</code>
+
+- [LLCForge/CVE-2026-63129](https://github.com/LLCForge/CVE-2026-63129)
 
 ### CVE-2026-63219 (2026-09-03)
 
@@ -16566,6 +16572,27 @@
 
 - [EntroVyx/CVE-2026-69137](https://github.com/EntroVyx/CVE-2026-69137)
 
+### CVE-2026-69156 (2026-11-17)
+
+<code>Atomic Server is an open source headless CMS and real-time database. From 0.30.0 until 0.40.3, the Commit application path in lib/src/commit.rs allows an authenticated Agent to assign the server-managed internalId property to an owned resource without character validation. The /download handler in server/src/handlers/download.rs passes that value to filesystem path construction and NamedFile::open without sanitization, containment validation, or a File-class check, so traversal or absolute paths can read files available to the server process. Reading the server configuration can expose the root Agent private key and allow root impersonation with full read, write, and delete access to server data. This issue is fixed in version 0.40.3.
+</code>
+
+- [LLCForge/CVE-2026-69156](https://github.com/LLCForge/CVE-2026-69156)
+
+### CVE-2026-69157 (2026-11-17)
+
+<code>Atomic Server is an open source headless CMS and real-time database. From 0.29.0 to 0.40.2, Atomic Server provisions a well-known /setup invite with write enabled, the Drive root as its target, and usagesLeft set to one. construct_invite_redirect in server/src/plugins/invite.rs discards the redeemer identity, so an unauthenticated request containing an attacker-controlled public-key can create a new Agent and grant it write access to the entire Drive. On a fresh, unclaimed deployment, this permits reading, modifying, or deleting resources, changing permissions, and creating or altering Agents. No complete fixed version was verified as of this review.
+</code>
+
+- [LLCForge/CVE-2026-69157](https://github.com/LLCForge/CVE-2026-69157)
+
+### CVE-2026-69158 (2026-11-17)
+
+<code>Atomic Server is an open source headless CMS and real-time database. Prior to 0.40.3, unauthenticated requests to /bookmark can supply a url that server/src/plugins/bookmark.rs passes through fetch_data to fetch_body. Endpoint dispatch in lib/src/db.rs invokes the handler before check_read, and lib/src/client/helpers.rs previously checked only that the URL began with HTTP, without restricting loopback, private, link-local, DNS-rebinding, or redirect targets. The handler reflects fetched content in returned resource fields, making this a full-response server-side request forgery that can expose internal services and plain-GET cloud metadata. The short request timeout limits slow targets, and metadata services requiring a separate token request are outside the demonstrated GET-only path. This issue is fixed in version 0.40.3.
+</code>
+
+- [LLCForge/CVE-2026-69158](https://github.com/LLCForge/CVE-2026-69158)
+
 ### CVE-2026-69212 (2026-09-15)
 
 <code>Http4s is a Scala interface for HTTP services. Prior to 0.23.35 and 1.0.0-M47, The FollowRedirect client middleware strips Authorization and Cookie headers only when a redirect changes authority, but authority comparison excludes the URI scheme. A same-authority redirect from HTTPS to HTTP therefore preserves credentials and transmits them over a plaintext connection. An attacker who can induce the downgrade and observe the network can capture those sensitive headers from applications using FollowRedirect. This issue is fixed in versions 0.23.35 and 1.0.0-M47.
@@ -16714,6 +16741,13 @@
 
 - [dinosn/cve-2026-71362-magento-lab](https://github.com/dinosn/cve-2026-71362-magento-lab)
 - [mahumadad/cve-2026-71362-magento-ato](https://github.com/mahumadad/cve-2026-71362-magento-ato)
+
+### CVE-2026-71481 (2026-11-18)
+
+<code>ALTCHA PHP is a lightweight PHP library for creating and verifying ALTCHA challenges. From 2.0.0 until 2.0.3, the verifySolution method skips HMAC signature verification when a challenge payload omits the signature field, even when hmacSignatureSecret is configured. An attacker can remove the signature, supply attacker-selected low-difficulty challenge parameters, solve the resulting proof of work, and submit a payload that verifies successfully, bypassing the CAPTCHA control. This issue is fixed in version 2.0.3.
+</code>
+
+- [LLCForge/CVE-2026-71481](https://github.com/LLCForge/CVE-2026-71481)
 
 ### CVE-2026-71518 (2026-08-17)
 
@@ -17040,6 +17074,13 @@
 
 - [fixedbyreboot/CVE-2026-73373-POC](https://github.com/fixedbyreboot/CVE-2026-73373-POC)
 
+### CVE-2026-73504 (2026-11-18)
+
+<code>cassandra-jdbc-wrapper provides a JDBC-compliant API over the Java driver for Apache Cassandra. Prior to 4.16.4 and 5.0.2, DriverUtil.toStringWithoutSensitiveValues() and DriverUtil.redactSensitiveValuesInJdbcUrl() redact the password property but not the equally sensitive token property used for DataStax Astra and other token-based authentication. When DEBUG logging is enabled, SessionHolder passes connection properties and JDBC URLs containing token through these helpers, causing the live token to be written in plaintext when connections are acquired or released. An attacker who can read those logs can use the token to access Cassandra data and operations authorized to that credential. This issue is fixed in versions 4.16.4 and 5.0.2.
+</code>
+
+- [googlesky/CVE-2026-73504](https://github.com/googlesky/CVE-2026-73504)
+
 ### CVE-2026-73519 (2026-08-12)
 
 <code>WolfStack before 25.9.2 contains a hard-coded cluster-authentication secret compiled into every build and published as a constant in src/auth/mod.rs, allowing remote unauthenticated attackers to bypass authentication by supplying this value in the X-WolfStack-Secret header to the require_auth() gate without any session, API key, or user account. Attackers can reach an affected node's management port to enumerate all Docker and LXC containers on the host and execute arbitrary commands as root inside any container via the POST /api/containers/{runtime}/{id}/exec endpoint.
@@ -17292,6 +17333,13 @@
 </code>
 
 - [unpredictable21/CVE-2026-75431_PowerJob_jwt_key_predictable](https://github.com/unpredictable21/CVE-2026-75431_PowerJob_jwt_key_predictable)
+
+### CVE-2026-75521 (2026-11-18)
+
+<code>Miren Runtime provides the runtime component for the Miren application platform. Prior to 0.11.1, the QUIC/HTTP3 RPC server on the default port 8443 uses tls.RequestClientCert and does not verify that presented certificates chain to the configured cluster certificate authority. The RPC authenticators derive a caller identity from PeerCertificates[0].Subject.CommonName without requiring a non-empty VerifiedChains value, and certificate identities bypass all RBAC checks. A network attacker who can reach the listener can present a self-signed certificate with an issuer distinguished name matching the public cluster CA subject and gain cluster superuser access, allowing disclosure, modification, or disruption of applications, sandboxes, disks, credentials, and other managed resources. This issue is fixed in version 0.11.1.
+</code>
+
+- [LLCForge/CVE-2026-75521](https://github.com/LLCForge/CVE-2026-75521)
 
 ### CVE-2026-75604 (2026-09-01)
 
@@ -19216,6 +19264,7 @@
 - [fixedbyreboot/CVE-2026-90436-POC](https://github.com/fixedbyreboot/CVE-2026-90436-POC)
 - [foxcornlab/confluence-axis-scanner](https://github.com/foxcornlab/confluence-axis-scanner)
 - [dinosn/axis-cve-2026-90436-lab-poc](https://github.com/dinosn/axis-cve-2026-90436-lab-poc)
+- [evenomn/CVE-2026-90436](https://github.com/evenomn/CVE-2026-90436)
 
 ### CVE-2026-90781 (2026-09-13)
 
@@ -19506,6 +19555,13 @@
 </code>
 
 - [murrez/CVE-2026-92966](https://github.com/murrez/CVE-2026-92966)
+
+### CVE-2026-93295 (2026-09-17)
+
+<code>MISP contains a vulnerability in its background job dispatch mechanism that allows remote code execution as the web user. Background job arguments are passed directly as the argv of the CakePHP console process. CakePHP's ShellDispatcher::_parsePaths() scans the entire argv for path switches (-app, --app, -working, --working, -root, --root, -webroot, --webroot) and uses the following element as the application root. The events/contact endpoint passes user-controlled fields (message and person) into job arguments without validation. An attacker who can submit the contact form can set the person field to a reserved switch and the message field to a phar:// URI pointing to a malicious archive. The CakePHP bootstrap then includes Config/core.php from within that archive, executing attacker-controlled PHP code with the privileges of the web user. \n\nThe vulnerability requires the ability to submit the events/contact form (or any other endpoint that forwards user input into background job arguments). No special timing or race condition is required; the attack is deterministic once the crafted parameters are accepted. The impact is full remote code execution in the context of the MISP web server process, allowing data exfiltration, persistence, and lateral movement within the host.
+</code>
+
+- [CXu0630/CVE-2026-93295_MISP_RCE_Proof-of-Concept](https://github.com/CXu0630/CVE-2026-93295_MISP_RCE_Proof-of-Concept)
 
 ### CVE-2026-93300 (2026-10-20)
 
@@ -20111,6 +20167,7 @@
 - [G4sp4rCS/CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit)
 - [j0wii/CVE-2026-97798_LPE_Windows](https://github.com/j0wii/CVE-2026-97798_LPE_Windows)
 - [ashrafzaryouh/CVE-2026-97798](https://github.com/ashrafzaryouh/CVE-2026-97798)
+- [noname2kz/LPE_CVE-2026-97798_Research](https://github.com/noname2kz/LPE_CVE-2026-97798_Research)
 
 ### CVE-2026-97799 (2026-10-13)
 
@@ -20322,6 +20379,7 @@
 - [ylh440104/cve-2026-98432-chain](https://github.com/ylh440104/cve-2026-98432-chain)
 - [zake1god/CVE-2026-98432](https://github.com/zake1god/CVE-2026-98432)
 - [hardenedlinux/linux-rce-poc](https://github.com/hardenedlinux/linux-rce-poc)
+- [lwmacct/261119-cve-2026-98432](https://github.com/lwmacct/261119-cve-2026-98432)
 
 ### CVE-2026-98499 (2026-10-18)
 
@@ -22454,6 +22512,8 @@
 - [JAvito-GC/php2shell-check](https://github.com/JAvito-GC/php2shell-check)
 - [Cybersecly-LLC/php2shell-lab](https://github.com/Cybersecly-LLC/php2shell-lab)
 - [0xnoobsec/PHP2SHELL](https://github.com/0xnoobsec/PHP2SHELL)
+- [PVY-Smit/php2shell-defender](https://github.com/PVY-Smit/php2shell-defender)
+- [Prxnxv26/php2shell-cve-analysis](https://github.com/Prxnxv26/php2shell-cve-analysis)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22574,6 +22634,13 @@
 </code>
 
 - [im0xfay/CVE-2026-110468-110469-WIDZIALNI](https://github.com/im0xfay/CVE-2026-110468-110469-WIDZIALNI)
+
+### CVE-2026-110486 (2026-11-18)
+
+<code>In Eclipse Mosquitto versions 2.1 through 2.1.2, a listener configured with `protocol websockets` mishandles empty WebSocket data frames. `net__read_ws()` in `lib/net_ws.c` returns the number of framing bytes consumed (the 4 masking-key bytes) for a data frame with a zero-length payload, without writing any bytes to the caller’s buffer. The MQTT packet reader in `packet__read_single()` (`lib/packet_mosq.c`) trusts that return value as a payload byte count. A remote client can therefore advance the read position over an uninitialised heap allocation, causing the broker to process and forward uninitialised heap memory (information disclosure, including heap and libc pointers), and can underflow the unsigned `to_process` counter so that subsequent attacker-controlled frame data is written past the end of the allocation (heap out-of-bounds write). The out-of-bounds write is reachable from the CONNECT packet before any authentication check, so an unauthenticated client can corrupt the heap and crash the broker even when `allow_anonymous false` is set. Combining the disclosure and the write allows remote code execution as the broker’s user by any client able to establish a session.
+</code>
+
+- [googlesky/CVE-2026-110486](https://github.com/googlesky/CVE-2026-110486)
 
 ### CVE-2026-110634 (2026-10-14)
 
@@ -23234,6 +23301,9 @@
 - [mylesagnew/java2shell-detection](https://github.com/mylesagnew/java2shell-detection)
 - [carlosnetto/Java4Shell](https://github.com/carlosnetto/Java4Shell)
 - [securibee/java4shell-tenable-skill](https://github.com/securibee/java4shell-tenable-skill)
+- [alt3kx/CVE-2026-114938](https://github.com/alt3kx/CVE-2026-114938)
+- [Bluefire-Redteam-Cybersecurity/bluefire-java4shell-guard](https://github.com/Bluefire-Redteam-Cybersecurity/bluefire-java4shell-guard)
+- [shivabalaj/CVE-2026-114938](https://github.com/shivabalaj/CVE-2026-114938)
 
 ### CVE-2026-115252 (2026-11-09)
 
@@ -23444,6 +23514,20 @@
 </code>
 
 - [drbloop2000/Sid-Meier-s-Civilization-VI-RCE](https://github.com/drbloop2000/Sid-Meier-s-Civilization-VI-RCE)
+
+### CVE-2026-116442 (2026-11-18)
+
+<code>Dell PowerStore SDNAS contains an authentication-bypass-by-replay vulnerability in the NAS NDMP service that could allow a network attacker to gain backup and restore control of the appliance.
+</code>
+
+- [LLCForge/CVE-2026-116442](https://github.com/LLCForge/CVE-2026-116442)
+
+### CVE-2026-116448 (2026-11-18)
+
+<code>Dell PowerStore SDNAS contains an OS Command Injection vulnerability that could allow an attacker with internal network access to execute arbitrary commands as root on the NAS node.
+</code>
+
+- [LLCForge/CVE-2026-116448](https://github.com/LLCForge/CVE-2026-116448)
 
 ### CVE-2026-116471 (2026-10-26)
 
@@ -23964,6 +24048,13 @@
 - [arkrwn/NGINX2Root-CVE-2026-123007](https://github.com/arkrwn/NGINX2Root-CVE-2026-123007)
 - [ashrafzaryouh/CVE-2026-123007](https://github.com/ashrafzaryouh/CVE-2026-123007)
 - [TimTheBeastNL/nginx2root](https://github.com/TimTheBeastNL/nginx2root)
+- [akarkode/nginx-http2-cve-2026-123007-lab](https://github.com/akarkode/nginx-http2-cve-2026-123007-lab)
+- [maizarrahman/nginx_cve_2026_audit](https://github.com/maizarrahman/nginx_cve_2026_audit)
+- [materaj2/cve-2026-123007-scanner](https://github.com/materaj2/cve-2026-123007-scanner)
+- [0xcypher110/nginx2root_lab](https://github.com/0xcypher110/nginx2root_lab)
+- [foxcornlab/nginx-scanner](https://github.com/foxcornlab/nginx-scanner)
+- [c0re-i5/intbug-lab](https://github.com/c0re-i5/intbug-lab)
+- [Mahgal/nginx-http2-rce-check](https://github.com/Mahgal/nginx-http2-rce-check)
 
 ### CVE-2026-123014 (2026-11-05)
 
@@ -24468,6 +24559,13 @@
 
 - [googlesky/CVE-2026-128046](https://github.com/googlesky/CVE-2026-128046)
 
+### CVE-2026-128134 (2026-11-13)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. Prior to 3.10.4, nltk.parse.dependencygraph.dot2img resolves the Graphviz dot executable through PATH but invokes the resulting absolute executable without routing through spawn_trusted, so resolve_trusted_executable ownership and writability validation and safe_env loader environment scrubbing do not run. A local low-privileged attacker who can write to a directory on a POSIX victim's PATH can plant or replace dot, and code executes as the victim when dot2img is called directly or DependencyGraph.repr_svg renders a graph. The current-working-directory-only bare-name vector is blocked and is not this vulnerability; this issue is the residual writable absolute PATH element bypass after CVE-2026-78680. This issue is fixed in version 3.10.4.
+</code>
+
+- [LLCForge/CVE-2026-128134](https://github.com/LLCForge/CVE-2026-128134)
+
 ### CVE-2026-128970 (2026-11-13)
 
 <code>Psono Server Community Edition versions 1.12.6 through 7.5.0 and Psono Server Enterprise Edition before 7.5.1 do not require accepted group membership when authorizing deletion of group share-rights. The DELETE /share/right/ endpoint checks for a membership matching the target group, the authenticated user, and share_admin=True, but omits accepted=True. An authenticated remote attacker who has been invited to a group with share-admin privileges, and who knows a group share-right UUID, can therefore delete that group's share-right record without accepting the invitation or after declining it. Pending invitations have accepted=None, while declined invitations retain accepted=False and the share_admin flag. Deletion revokes the group's access to the affected share and its contained secrets for all accepted group members, without deleting the underlying data or disclosing secret contents. The issue was fixed in version 7.5.1 of both editions, released on 2026-10-13.
@@ -24594,6 +24692,9 @@
 
 - [googlesky/CVE-2026-129494](https://github.com/googlesky/CVE-2026-129494)
 
+### CVE-2026-130001
+- [LLCForge/CVE-2026-130001](https://github.com/LLCForge/CVE-2026-130001)
+
 ### CVE-2026-130335 (2026-11-16)
 
 <code>Info-ZIP Zip 3.0 (and 3.1 beta through 3.1c) allows OS command injection by an attacker who controls the command line. The victim must use the -T option followed by a filename containing shell metacharacters, on a platform (such as Linux) where a suitable shell is run. This occurs because the system C library function is used. NOTE: there is no known common scenario in which an untrusted filename reaches a zip -T call.
@@ -24622,6 +24723,13 @@
 
 - [googlesky/CVE-2026-130587](https://github.com/googlesky/CVE-2026-130587)
 
+### CVE-2026-130648 (2026-11-18)
+
+<code>WWBN AVideo from 6.5 contains a stored cross-site scripting vulnerability that allows users with upload permission to inject script by submitting a javascript: scheme videoLink for embed videos. The unvalidated URL is rendered into an iframe src in videoEmbeded.php and PlayerSkins.php, executing for viewers including administrators and enabling creation of new administrator accounts.
+</code>
+
+- [LLCForge/CVE-2026-130648](https://github.com/LLCForge/CVE-2026-130648)
+
 ### CVE-2026-131842 (2026-11-17)
 
 <code>Poppler pdfdetach 24.03.0 through 26.11.0 contains a path traversal vulnerability in utils/pdfdetach.cc that allows attackers to write files outside the output directory by bypassing a string-prefix containment check. Attackers can craft PDFs with embedded file names containing '..' sequences or absolute paths, so -saveall or -savefile extraction creates or overwrites files with the invoking user's privileges.
@@ -24649,6 +24757,13 @@
 </code>
 
 - [googlesky/CVE-2026-131873](https://github.com/googlesky/CVE-2026-131873)
+
+### CVE-2026-132252 (2026-11-18)
+
+<code>A vulnerability was found in October CMS up to 4.4.6. This affects the function validateExternalImageHost of the file modules/system/classes/resizeimages/ValidatesExternalImages.php of the component Image Resizer. Performing a manipulation of the argument url results in server-side request forgery. The attack may be initiated remotely. The complexity of an attack is rather high. The exploitability is reported as difficult. The exploit has been made public and could be used. Upgrading to version 4.4.7 mitigates this issue. The patch is named f6372867006c03141944e7b57396a726eb02acf0. You should upgrade the affected component.
+</code>
+
+- [googlesky/CVE-2026-132252](https://github.com/googlesky/CVE-2026-132252)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -25427,7 +25542,7 @@
 - [drackyjr/cve-2025-3248-exploit](https://github.com/drackyjr/cve-2025-3248-exploit)
 - [b0ySie7e/CVE-2025-3248-POC](https://github.com/b0ySie7e/CVE-2025-3248-POC)
 - [12-test-12/CVE-2025-3248](https://github.com/12-test-12/CVE-2025-3248)
-- [Atomics-hub/exposecheck](https://github.com/Atomics-hub/exposecheck)
+- [A5omics/exposecheck](https://github.com/A5omics/exposecheck)
 - [preemware/langflow-exploit](https://github.com/preemware/langflow-exploit)
 - [hideki233/CVE-2025-3248-Langflow-RCE](https://github.com/hideki233/CVE-2025-3248-Langflow-RCE)
 - [LeotheGGman/Langflow-RCE-CVE-2025-3248](https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248)
@@ -65360,6 +65475,7 @@
 - [Gadorach/vankyo-s30-bootloader-unlock](https://github.com/Gadorach/vankyo-s30-bootloader-unlock)
 - [redzrush101/zte-blade-v40-vita-unlock](https://github.com/redzrush101/zte-blade-v40-vita-unlock)
 - [mpse-engineering/BLU_G35](https://github.com/mpse-engineering/BLU_G35)
+- [sriramsrangan/itel-a05s-a663lc](https://github.com/sriramsrangan/itel-a05s-a663lc)
 
 ### CVE-2022-38725 (2023-01-23)
 
@@ -66701,6 +66817,13 @@
 
 ### CVE-2022-46196
 - [dpgg101/CVE-2022-46196](https://github.com/dpgg101/CVE-2022-46196)
+
+### CVE-2022-46337 (2023-11-20)
+
+<code>A cleverly devised username might bypass LDAP authentication checks. In \nLDAP-authenticated Derby installations, this could let an attacker fill \nup the disk by creating junk Derby databases. In LDAP-authenticated \nDerby installations, this could also allow the attacker to execute \nmalware which was visible to and executable by the account which booted \nthe Derby server. In LDAP-protected databases which weren't also \nprotected by SQL GRANT/REVOKE authorization, this vulnerability could \nalso let an attacker view and corrupt sensitive data and run sensitive \ndatabase functions and procedures.\n\nMitigation:\n\nUsers should upgrade to Java 21 and Derby 10.17.1.0.\n\nAlternatively, users who wish to remain on older Java versions should \nbuild their own Derby distribution from one of the release families to \nwhich the fix was backported: 10.16, 10.15, and 10.14. Those are the \nreleases which correspond, respectively, with Java LTS versions 17, 11, \nand 8.\n\n
+</code>
+
+- [intersoftdatalabs-in/derby](https://github.com/intersoftdatalabs-in/derby)
 
 ### CVE-2022-46364 (2022-12-13)
 
@@ -81213,6 +81336,7 @@
 - [xushihushuo-art/cve-2019-2215-skyworth](https://github.com/xushihushuo-art/cve-2019-2215-skyworth)
 - [RxinnotRstar/CVE-2019-2215-ForMIpad4](https://github.com/RxinnotRstar/CVE-2019-2215-ForMIpad4)
 - [WJNKAC/CVE-2019-2215-vivo-Y66i](https://github.com/WJNKAC/CVE-2019-2215-vivo-Y66i)
+- [neohob/odinroot](https://github.com/neohob/odinroot)
 
 ### CVE-2019-2525 (2019-01-16)
 
@@ -94090,6 +94214,7 @@
 - [mcpmark-eval-liuhezi/security-digest-modern-classics](https://github.com/mcpmark-eval-liuhezi/security-digest-modern-classics)
 - [federiconbaez/cortex9-heartbleed-heartbeat-bounds-model](https://github.com/federiconbaez/cortex9-heartbleed-heartbeat-bounds-model)
 - [Bri2327/vulnerables](https://github.com/Bri2327/vulnerables)
+- [gigirahamaa/heartbleed-project-](https://github.com/gigirahamaa/heartbleed-project-)
 
 ### CVE-2014-0166 (2014-04-09)
 
