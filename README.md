@@ -13146,7 +13146,7 @@
 </code>
 
 - [rimbadirgantara/CVE-2026-48500](https://github.com/rimbadirgantara/CVE-2026-48500)
-- [inj3ct00r/CVE-2026-48500](https://github.com/inj3ct00r/CVE-2026-48500)
+- [inj4ct0r/CVE-2026-48500](https://github.com/inj4ct0r/CVE-2026-48500)
 
 ### CVE-2026-48519 (2026-06-23)
 
@@ -15609,6 +15609,7 @@
 - [Cyberuser-hash/CVE-2026-63219](https://github.com/Cyberuser-hash/CVE-2026-63219)
 - [gzzcoo/GeoNetwork-UnauthenticatedRCE](https://github.com/gzzcoo/GeoNetwork-UnauthenticatedRCE)
 - [BridgerAlderson/GeoNetwork-PreAuth-RCE-PoC](https://github.com/BridgerAlderson/GeoNetwork-PreAuth-RCE-PoC)
+- [Fckroun/CVE-2026-63219-POC](https://github.com/Fckroun/CVE-2026-63219-POC)
 
 ### CVE-2026-63223 (2026-07-31)
 
@@ -17068,6 +17069,13 @@
 </code>
 
 - [fixedbyreboot/CVE-2026-73373-POC](https://github.com/fixedbyreboot/CVE-2026-73373-POC)
+
+### CVE-2026-73501 (2026-08-12)
+
+<code>kin-openapi is a Go project for handling OpenAPI files. Prior to 0.144.0, ValidationHandler.Load() in openapi3filter/validation_handler.go silently replaces a nil AuthenticationFunc with NoopAuthenticationFunc, which returns nil without checking credentials. This substitution causes every OpenAPI security requirement to be satisfied for unauthenticated requests when an application relies on ValidationHandler as its enforcement middleware. The no-op callback prevents the fail-closed ErrAuthenticationServiceMissing path from being reached and forwards the request to protected handlers that may require an API key, OAuth token, or another security scheme. This issue is fixed in version 0.144.0.
+</code>
+
+- [extencil/stop2shell](https://github.com/extencil/stop2shell)
 
 ### CVE-2026-73504 (2026-11-18)
 
@@ -20270,7 +20278,6 @@
 - [aoxzh/cve-2026-98260-tb710fu](https://github.com/aoxzh/cve-2026-98260-tb710fu)
 - [aoxzh/cve-2026-98260-vivo-x200-ultra-temproot](https://github.com/aoxzh/cve-2026-98260-vivo-x200-ultra-temproot)
 - [yxc0915/cve-2026-98260-ppg-an00](https://github.com/yxc0915/cve-2026-98260-ppg-an00)
-- [PhYSiicZ/samtimer-root](https://github.com/PhYSiicZ/samtimer-root)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -23288,6 +23295,7 @@
 - [bkirkware/j4s-checker](https://github.com/bkirkware/j4s-checker)
 - [DistributedIT/cve2026-114938-java4shell-check](https://github.com/DistributedIT/cve2026-114938-java4shell-check)
 - [LLCForge/CVE-2026-114938](https://github.com/LLCForge/CVE-2026-114938)
+- [Jerczey/java4shell-ansible-detection](https://github.com/Jerczey/java4shell-ansible-detection)
 - [Quaerendir/cve-2026-114938-java4shell-audit](https://github.com/Quaerendir/cve-2026-114938-java4shell-audit)
 - [mylesagnew/java2shell-detection](https://github.com/mylesagnew/java2shell-detection)
 - [carlosnetto/Java4Shell](https://github.com/carlosnetto/Java4Shell)
@@ -23300,6 +23308,7 @@
 - [gbuyssens/CVE-2026-114938](https://github.com/gbuyssens/CVE-2026-114938)
 - [tc4dy/CVE-2026-114938-Toolkit](https://github.com/tc4dy/CVE-2026-114938-Toolkit)
 - [kjry8sb/java4shell_CVE-2026-114938](https://github.com/kjry8sb/java4shell_CVE-2026-114938)
+- [FoxKyong/java4shell-checks](https://github.com/FoxKyong/java4shell-checks)
 
 ### CVE-2026-114952 (2026-11-17)
 
@@ -23323,7 +23332,11 @@
 
 - [googlesky/CVE-2026-115290](https://github.com/googlesky/CVE-2026-115290)
 
-### CVE-2026-115560
+### CVE-2026-115560 (2026-11-19)
+
+<code>Session serializer mismatch can lead to remote code execution.\n\n\n\nSession upload progress, when enabled, can store attacker-controlled data in a session key using the php_binary or php_serialize session serializer. If the same session is later read with the php serializer, because session.serialize_handler is changed at runtime or differs between applications sharing a session store, bytes inside the key can be passed to the unserializer. A remote attacker able to submit a multipart upload can inject objects, which may lead to code execution when the reading application contains a suitable gadget chain, or to session corruption or denial of service.\n\n\n\nThis issue affects PHP versions 8.2.* before 8.2.36, 8.3.* before 8.3.37, 8.4.* before 8.4.28 and 8.5.* before 8.5.13.
+</code>
+
 - [Pr0fEs0r-X/PHP2SHELL-Checker-v-1.0-CVE-2026-115560-](https://github.com/Pr0fEs0r-X/PHP2SHELL-Checker-v-1.0-CVE-2026-115560-)
 - [prnjlksingh/php-cve-2026-115560-demo](https://github.com/prnjlksingh/php-cve-2026-115560-demo)
 - [sykeops/CVE-2026-115560](https://github.com/sykeops/CVE-2026-115560)
@@ -23788,6 +23801,13 @@
 
 - [shouvikkkk/oauth-sink-check](https://github.com/shouvikkkk/oauth-sink-check)
 
+### CVE-2026-119073 (2026-11-07)
+
+<code>The Live Composer  WordPress plugin before 2.1.23 does not escape a pagination setting supplied through its post-listing module shortcodes before outputting it in an HTML attribute, allowing users with the Contributor role and above to perform Stored Cross-Site Scripting attacks.
+</code>
+
+- [Shashi552/CVE-2026-119073-PoC](https://github.com/Shashi552/CVE-2026-119073-PoC)
+
 ### CVE-2026-119077 (2026-11-13)
 
 <code>The ELEX WordPress HelpDesk &amp; Customer Ticketing System plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.3.9 via the 'form (specifically the attacker-controlled ticket_label field inside the url-encoded form string)' parameter parameter. This is due to missing server-side authentication and the absence of a class allowlist on deserialization, with the only guard being a nonce publicly emitted on any page carrying the [wsdesk_support] shortcode. This makes it possible for unauthenticated attackers to execute code on the server. A successful exploit requires a single anonymous GET to any public page carrying the [wsdesk_support] shortcode to harvest the publicly emitted wsdesk_nonce value, after which a single unauthenticated POST completes the attack.
@@ -24067,6 +24087,10 @@
 - [yusif-v/cve-2026-123007-poc](https://github.com/yusif-v/cve-2026-123007-poc)
 - [aduli198/CVE-2026-123007_nginx2root](https://github.com/aduli198/CVE-2026-123007_nginx2root)
 - [jenic/nginx2root-ioc-scan](https://github.com/jenic/nginx2root-ioc-scan)
+- [im0xfay/CVE-2026-123007](https://github.com/im0xfay/CVE-2026-123007)
+- [SamJUK/nginx2root-check](https://github.com/SamJUK/nginx2root-check)
+- [DeFexNN/defex-ngnix](https://github.com/DeFexNN/defex-ngnix)
+- [josueportillo/nginx2root-scanner](https://github.com/josueportillo/nginx2root-scanner)
 
 ### CVE-2026-123014 (2026-11-05)
 
@@ -24216,6 +24240,13 @@
 </code>
 
 - [qianlijaingshan/signalk-audit](https://github.com/qianlijaingshan/signalk-audit)
+
+### CVE-2026-123890 (2026-11-19)
+
+<code>VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service.\nAffected versions: 9.1.x (fixed in 9.1.1.0200); 9.0.x (fixed in 9.0.2.0200); 8.0 (fixed in 8.0 U3m); 5.x (fixed in 5.2.5).\nTelco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 and Telco Cloud Infrastructure 3.0 are also affected (see KB463116).
+</code>
+
+- [Cyber-BansalAI/vmware-vcenter-2026](https://github.com/Cyber-BansalAI/vmware-vcenter-2026)
 
 ### CVE-2026-124002 (2026-11-12)
 
@@ -24580,6 +24611,9 @@
 
 - [LLCForge/CVE-2026-128134](https://github.com/LLCForge/CVE-2026-128134)
 
+### CVE-2026-128442
+- [langz337/CVE-2026-128442](https://github.com/langz337/CVE-2026-128442)
+
 ### CVE-2026-128970 (2026-11-13)
 
 <code>Psono Server Community Edition versions 1.12.6 through 7.5.0 and Psono Server Enterprise Edition before 7.5.1 do not require accepted group membership when authorizing deletion of group share-rights. The DELETE /share/right/ endpoint checks for a membership matching the target group, the authenticated user, and share_admin=True, but omits accepted=True. An authenticated remote attacker who has been invited to a group with share-admin privileges, and who knows a group share-right UUID, can therefore delete that group's share-right record without accepting the invitation or after declining it. Pending invitations have accepted=None, while declined invitations retain accepted=False and the share_admin flag. Deletion revokes the group's access to the affected share and its contained secrets for all accepted group members, without deleting the underlying data or disclosing secret contents. The issue was fixed in version 7.5.1 of both editions, released on 2026-10-13.
@@ -24706,6 +24740,13 @@
 
 - [googlesky/CVE-2026-129494](https://github.com/googlesky/CVE-2026-129494)
 
+### CVE-2026-129496 (2026-11-19)
+
+<code>Timezone cache use-after-free can lead to remote code execution.\n\nIn non-thread-safe builds, a diagnostic written to a file-based error_log during module startup, for example for an invalid date.timezone value or a session configuration warning, causes the timezone cache to be allocated in startup memory that is freed while a reference to it is kept. A diagnostic raised early in the first request of a worker, such as the max_input_vars warning, then accesses the freed cache. On such a deployment an unauthenticated remote attacker can crash PHP-FPM, Apache mod_php or CGI workers with a crafted request. Arbitrary code execution may be possible and has been demonstrated with known memory addresses.\n\nThis issue affects PHP versions 8.2.* before 8.2.36, 8.3.* before 8.3.37, 8.4.* before 8.4.28 and 8.5.* before 8.5.13.
+</code>
+
+- [abraxas/php-tzcache-rce](https://github.com/abraxas/php-tzcache-rce)
+
 ### CVE-2026-129987 (2026-11-18)
 
 <code>Dokploy is a free, self-hostable Platform as a Service (PaaS). Prior to 0.31.1, the database password validation used by the MySQL, PostgreSQL, MariaDB, MongoDB, and Redis change-password procedures permits backticks, and the procedures interpolate attacker-controlled passwords into Bash command strings. An authenticated user who can update a database password can trigger command substitution before the database command runs, resulting in arbitrary operating-system command execution with the Dokploy process privileges, which are typically root. This issue is fixed in version 0.31.1.
@@ -24792,6 +24833,83 @@
 </code>
 
 - [evenomn/CVE-2026-132825](https://github.com/evenomn/CVE-2026-132825)
+
+### CVE-2026-133113 (2026-11-19)
+
+<code>Gogs through 0.14.4 contains an authorization bypass vulnerability that allows collaborators with write access to push to protected branches by merging pull requests. Because MergePullRequest skips branch protection checks and PullRequest.Merge omits hook environment variables, attackers can merge commits into branches restricted to allowlisted users.
+</code>
+
+- [LLCForge/CVE-2026-133113](https://github.com/LLCForge/CVE-2026-133113)
+
+### CVE-2026-133114 (2026-11-19)
+
+<code>Caddy – WooCommerce Side Cart &amp; Free Shipping Bar plugin for WordPress 3.0.0 before 3.2.1 contains a missing authorization vulnerability in the saved-items/add REST endpoint that exposes non-public product data. Authenticated attackers with Subscriber-level access can enumerate product_id values to read names, prices, images and stock status of private, draft, hidden and password-protected products.
+</code>
+
+- [LLCForge/CVE-2026-133114](https://github.com/LLCForge/CVE-2026-133114)
+
+### CVE-2026-133117 (2026-11-19)
+
+<code>WebToffee Product Feed before 2.4.4 for WordPress contains a use of hard-coded cryptographic key vulnerability that allows unauthenticated attackers to bypass the URL-cron signature check by computing a valid hash using the publicly known constant salt embedded in the plugin source. Attackers can send forged GET requests with attacker-controlled parameters to the unauthenticated init-hooked endpoint to repeatedly trigger product-feed generation, causing CPU/database resource exhaustion and overwriting of the generated feed file.
+</code>
+
+- [LLCForge/CVE-2026-133117](https://github.com/LLCForge/CVE-2026-133117)
+
+### CVE-2026-133168 (2026-11-19)
+
+<code>OFFIS DCMTK 3.7.1 contains a heap buffer overflow vulnerability in togglePlanarConfiguration8 and togglePlanarConfiguration16 in djcodece.cc, which compute row offsets using rows instead of columns. Attackers can supply a crafted color-by-plane DICOM image with more rows than columns that is compressed with the true-lossless JPEG codec to corrupt heap memory, causing crashes and potentially code execution.
+</code>
+
+- [LLCForge/CVE-2026-133168](https://github.com/LLCForge/CVE-2026-133168)
+
+### CVE-2026-133172 (2026-11-19)
+
+<code>Cozy Cloud cozy-stack 1.6.62 before 1.6.69 contains an authorization bypass vulnerability in the shared-drive move handler that allows authenticated users to access other instances' files. Attackers owning a shared drive can name another instance's domain and any directory ID as the move source to copy and delete the victim's file tree.
+</code>
+
+- [LLCForge/CVE-2026-133172](https://github.com/LLCForge/CVE-2026-133172)
+
+### CVE-2026-133173 (2026-11-19)
+
+<code>WatchAlert 2.0.0 through 3.9.20 contains an insecure direct object reference vulnerability in the /api/w8t/datasource/dataSourceGet endpoint that lets authenticated users read other tenants' datasources because lookups omit tenant_id filtering. Tenant members with datasource view permission can request another tenant's datasource ID to obtain basic auth passwords, AWS and Alibaba Cloud keys, and Kubernetes kubeconfigs.
+</code>
+
+- [LLCForge/CVE-2026-133173](https://github.com/LLCForge/CVE-2026-133173)
+
+### CVE-2026-133185 (2026-11-19)
+
+<code>Goproxy before 1.9.4 contains a weak key generation vulnerability in NewCounterEncryptorRandFromKey that derives RSA and Ed25519 leaf certificate private keys from public data due to misuse of hash.Sum. Attackers with the CA certificate and one observed leaf certificate can regenerate that host's leaf private key and impersonate the host to clients trusting the proxy CA.
+</code>
+
+- [LLCForge/CVE-2026-133185](https://github.com/LLCForge/CVE-2026-133185)
+
+### CVE-2026-133234 (2026-11-19)
+
+<code>Stoatchat before 0.16.5 contains an unbounded JXL image decoding vulnerability in revolt_files decode_image that allows unauthenticated attackers to exhaust memory via the january /proxy endpoint. Attackers can request a small hosted JXL file declaring 12000x12000 pixels through /proxy to trigger huge allocations, OOM-killing january and denying proxy and embed service.
+</code>
+
+- [LLCForge/CVE-2026-133234](https://github.com/LLCForge/CVE-2026-133234)
+
+### CVE-2026-133235 (2026-11-19)
+
+<code>Tandoor Recipes before 2.7.4 contains a server-side request forgery vulnerability that allows space admins to reach internal hosts because Nextcloud.get_client builds WebDAV clients from Storage.url without calling safe_request. Attackers can create a NEXTCLOUD storage via POST /api/storage/ pointing at internal hosts, import a file, then call GET /api/get_recipe_file/&lt;id&gt;/ to read internal service or cloud metadata responses.
+</code>
+
+- [LLCForge/CVE-2026-133235](https://github.com/LLCForge/CVE-2026-133235)
+
+### CVE-2026-133274 (2026-11-19)
+
+<code>THC-Hydra through 9.7 contains a stack buffer overflow vulnerability in analyze_server_response() of hydra-http-form.c that allows malicious HTTP servers to corrupt memory via crafted Set-Cookie headers. Attackers can send a Set-Cookie header with an extra leading space followed by a repeated cookie name, causing a negative strncpy length that overflows tmpcookie and crashes Hydra.
+</code>
+
+- [VulnSVNC/CVE-2026-133274](https://github.com/VulnSVNC/CVE-2026-133274)
+
+### CVE-2026-133305 (2026-11-19)
+
+<code>sqlmap before 1.10.11.89 contains a credential exposure vulnerability that allows attackers to capture user-supplied Cookie and Authorization headers by redirecting requests to another host. Attackers controlling the scanned target or abusing an open redirect can make RedirectHandler.http_error_302 forward session cookies or bearer tokens to an attacker-controlled host.
+</code>
+
+- [VulnSVNC/CVE-2026-133305](https://github.com/VulnSVNC/CVE-2026-133305)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -31537,6 +31655,7 @@
 - [ap425q/whisper-pair](https://github.com/ap425q/whisper-pair)
 - [aalex954/whisperpair-poc-tool](https://github.com/aalex954/whisperpair-poc-tool)
 - [PentHertz/CVE-2025-36911-exploit](https://github.com/PentHertz/CVE-2025-36911-exploit)
+- [jvitor211/TheyListen](https://github.com/jvitor211/TheyListen)
 - [KULeuven-COSIC/WhisperPair](https://github.com/KULeuven-COSIC/WhisperPair)
 - [Ymsniper/Whisper_Bully](https://github.com/Ymsniper/Whisper_Bully)
 
@@ -58298,6 +58417,7 @@
 - [vaishnavucv/Project-Vuln-Detection-N-Mitigation_101](https://github.com/vaishnavucv/Project-Vuln-Detection-N-Mitigation_101)
 - [pavanaa4k/CVE-2023-46604-LAB](https://github.com/pavanaa4k/CVE-2023-46604-LAB)
 - [RockyDesigne/SSP-Assignment-3-RCEYouLater](https://github.com/RockyDesigne/SSP-Assignment-3-RCEYouLater)
+- [Bhavya2-4/Detection-rules-SOC](https://github.com/Bhavya2-4/Detection-rules-SOC)
 - [sangrok-jeon/CVE-2023-46604-Analysis](https://github.com/sangrok-jeon/CVE-2023-46604-Analysis)
 - [mkdemir/activemq-lockbit-analysis](https://github.com/mkdemir/activemq-lockbit-analysis)
 - [Catherines77/ActiveMQ-EXPtools](https://github.com/Catherines77/ActiveMQ-EXPtools)
@@ -66253,6 +66373,7 @@
 - [KosmicOwl045/ICT287-CVE-2022-42889](https://github.com/KosmicOwl045/ICT287-CVE-2022-42889)
 - [Hkaeeeer/CVE-2022-42889](https://github.com/Hkaeeeer/CVE-2022-42889)
 - [gustanini/CVE-2022-42889-Text4Shell-POC](https://github.com/gustanini/CVE-2022-42889-Text4Shell-POC)
+- [adikelty/commons-text-cve-2022-42889](https://github.com/adikelty/commons-text-cve-2022-42889)
 
 ### CVE-2022-42896 (2022-11-23)
 
@@ -74313,6 +74434,7 @@
 - [DatLang777/Log4Shell-BlueTeam-Detection-Lab](https://github.com/DatLang777/Log4Shell-BlueTeam-Detection-Lab)
 - [HanaBouikni/Log4Shell-Incident-Report-CVE-2021-44228](https://github.com/HanaBouikni/Log4Shell-Incident-Report-CVE-2021-44228)
 - [johnyProDev/CVE-2021-44228-PoC](https://github.com/johnyProDev/CVE-2021-44228-PoC)
+- [Morgenlicht1210/log4j2-cve-2021-44228-poc](https://github.com/Morgenlicht1210/log4j2-cve-2021-44228-poc)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -95285,6 +95407,7 @@
 - [Sunqiz/CVE-2013-2028-reproduction](https://github.com/Sunqiz/CVE-2013-2028-reproduction)
 - [xiw1ll/CVE-2013-2028_Checker](https://github.com/xiw1ll/CVE-2013-2028_Checker)
 - [vanivamshi/CVE-2013-2028-Exploit](https://github.com/vanivamshi/CVE-2013-2028-Exploit)
+- [XiXinping/367-nginx-chunked-size](https://github.com/XiXinping/367-nginx-chunked-size)
 
 ### CVE-2013-2072 (2013-08-28)
 
