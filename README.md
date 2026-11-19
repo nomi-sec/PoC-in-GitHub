@@ -4503,7 +4503,6 @@
 </code>
 
 - [ksotaria1337/CVE-2026-19598](https://github.com/ksotaria1337/CVE-2026-19598)
-- [DeadExpl0it/CVE-2026-19598-PoC](https://github.com/DeadExpl0it/CVE-2026-19598-PoC)
 - [sag-asab/CVE-2026-19598](https://github.com/sag-asab/CVE-2026-19598)
 
 ### CVE-2026-19607 (2026-09-16)
@@ -4526,7 +4525,6 @@
 </code>
 
 - [YonLiud/CVE-2026-19632](https://github.com/YonLiud/CVE-2026-19632)
-- [DeadExpl0it/CVE-2026-19632-POC](https://github.com/DeadExpl0it/CVE-2026-19632-POC)
 - [TheJesterrrr/CVE-2026-19632](https://github.com/TheJesterrrr/CVE-2026-19632)
 
 ### CVE-2026-19650 (2026-08-17)
@@ -13034,6 +13032,7 @@
 </code>
 
 - [xiaoqiMikko/spring-cvss-check](https://github.com/xiaoqiMikko/spring-cvss-check)
+- [LLCForge/CVE-2026-47884](https://github.com/LLCForge/CVE-2026-47884)
 
 ### CVE-2026-48017 (2026-06-15)
 
@@ -15566,7 +15565,6 @@
 - [g0d150ne/WP2Shell](https://github.com/g0d150ne/WP2Shell)
 - [0xIIDe231/wp2shell2026](https://github.com/0xIIDe231/wp2shell2026)
 - [mhassani97/cve-2026-63030-lab](https://github.com/mhassani97/cve-2026-63030-lab)
-- [DeadExpl0it/wp2shell-poc](https://github.com/DeadExpl0it/wp2shell-poc)
 - [Sec-Dan/WP2Shell-Scanner](https://github.com/Sec-Dan/WP2Shell-Scanner)
 - [fl0ydsec/CVE-2026-63030](https://github.com/fl0ydsec/CVE-2026-63030)
 - [langz337/CVE-2026-63030](https://github.com/langz337/CVE-2026-63030)
@@ -17652,7 +17650,7 @@
 <code>The The Events Calendar plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 6.17.4 via the is_safe_widget_instance function. This is due to insufficient protection in is_safe_widget_instance, which can be bypassed because PHP fires magic methods during its pre-parse, combined with enable_rendering_widget_copied() forging a valid wp_hash integrity attribute before unserialize() is reached. This makes it possible for unauthenticated attackers to execute code on the server. This is exploitable without authentication or approval because the plugin's V2 single-event template runs do_blocks() over buffered comment HTML, and WordPress returns a moderation-hash URL that allows an unauthenticated commenter to immediately view their own pending comment, delivering the injected block markup to the vulnerable code path before any moderation occurs. This does require comments to be enabled and visible on events.
 </code>
 
-- [DeadExpl0it/CVE-2026-78006-POC](https://github.com/DeadExpl0it/CVE-2026-78006-POC)
+- [rismabadog-svg/CVE-2026-78006-POC](https://github.com/rismabadog-svg/CVE-2026-78006-POC)
 - [antid00t/CVE-2026-78006-CVE-2026-78159](https://github.com/antid00t/CVE-2026-78006-CVE-2026-78159)
 
 ### CVE-2026-78070 (2026-08-28)
@@ -23214,6 +23212,7 @@
 - [CypherSecurity/java4shell-detection](https://github.com/CypherSecurity/java4shell-detection)
 - [avoliomattia/CVE-2026-114938](https://github.com/avoliomattia/CVE-2026-114938)
 - [XanDuri/java4shell-check](https://github.com/XanDuri/java4shell-check)
+- [sam00/Java4Shell-CVE-2026-114938-PoC](https://github.com/sam00/Java4Shell-CVE-2026-114938-PoC)
 - [fumioryoto/java4shell-poc](https://github.com/fumioryoto/java4shell-poc)
 - [tobiastillstam/Scan-Java4Shell](https://github.com/tobiastillstam/Scan-Java4Shell)
 - [rogersouzak8s/java4shell-check](https://github.com/rogersouzak8s/java4shell-check)
@@ -23232,6 +23231,9 @@
 - [DistributedIT/cve2026-114938-java4shell-check](https://github.com/DistributedIT/cve2026-114938-java4shell-check)
 - [LLCForge/CVE-2026-114938](https://github.com/LLCForge/CVE-2026-114938)
 - [Quaerendir/cve-2026-114938-java4shell-audit](https://github.com/Quaerendir/cve-2026-114938-java4shell-audit)
+- [mylesagnew/java2shell-detection](https://github.com/mylesagnew/java2shell-detection)
+- [carlosnetto/Java4Shell](https://github.com/carlosnetto/Java4Shell)
+- [securibee/java4shell-tenable-skill](https://github.com/securibee/java4shell-tenable-skill)
 
 ### CVE-2026-115252 (2026-11-09)
 
@@ -23773,6 +23775,7 @@
 </code>
 
 - [googlesky/CVE-2026-119958](https://github.com/googlesky/CVE-2026-119958)
+- [LLCForge/CVE-2026-119958](https://github.com/LLCForge/CVE-2026-119958)
 
 ### CVE-2026-119977 (2026-10-31)
 
@@ -23891,7 +23894,11 @@
 
 - [im0xfay/CVE-2026-121684](https://github.com/im0xfay/CVE-2026-121684)
 
-### CVE-2026-121720
+### CVE-2026-121720 (2026-11-18)
+
+<code>OpenVPN 2.4.0 through 2.6.23 and 2.7_alpha1 through 2.7.8 on Windows allows local authenticated users to execute arbitrary code via a privileged service using user-controlled environment variables.
+</code>
+
 - [refiaa/CVE-2026-121720](https://github.com/refiaa/CVE-2026-121720)
 
 ### CVE-2026-121810 (2026-11-18)
@@ -23955,6 +23962,8 @@
 - [WormW/nginx2root-rce-lab](https://github.com/WormW/nginx2root-rce-lab)
 - [rogersouzak8s/nginx-http2-check](https://github.com/rogersouzak8s/nginx-http2-check)
 - [arkrwn/NGINX2Root-CVE-2026-123007](https://github.com/arkrwn/NGINX2Root-CVE-2026-123007)
+- [ashrafzaryouh/CVE-2026-123007](https://github.com/ashrafzaryouh/CVE-2026-123007)
+- [TimTheBeastNL/nginx2root](https://github.com/TimTheBeastNL/nginx2root)
 
 ### CVE-2026-123014 (2026-11-05)
 
@@ -24025,6 +24034,8 @@
 - [LaMambaKukun/Hack-The-Box-Sherlock-SSHole-](https://github.com/LaMambaKukun/Hack-The-Box-Sherlock-SSHole-)
 - [Quaerendir/cve-2026-123158-audit](https://github.com/Quaerendir/cve-2026-123158-audit)
 - [gotr00t0day/CVE-2026-123158](https://github.com/gotr00t0day/CVE-2026-123158)
+- [VardonBorin/Exploring_CVE-2026-123158](https://github.com/VardonBorin/Exploring_CVE-2026-123158)
+- [Cheats121/sshole-CVE-2026-123158](https://github.com/Cheats121/sshole-CVE-2026-123158)
 
 ### CVE-2026-123218 (2026-11-07)
 
@@ -24146,6 +24157,7 @@
 - [AmesianX/CVE-2026-124194-poc](https://github.com/AmesianX/CVE-2026-124194-poc)
 - [Ghost-Bx1/cve-2026-124194-outlook-ntlm-hash-leak](https://github.com/Ghost-Bx1/cve-2026-124194-outlook-ntlm-hash-leak)
 - [aminaljabre77-collab/outlook-ntlm-leak-investigation](https://github.com/aminaljabre77-collab/outlook-ntlm-leak-investigation)
+- [LLCForge/CVE-2026-124194](https://github.com/LLCForge/CVE-2026-124194)
 
 ### CVE-2026-124450 (2026-11-08)
 
@@ -24191,6 +24203,7 @@
 - [Frostmoon39206/CVE-2026-125350-PoC](https://github.com/Frostmoon39206/CVE-2026-125350-PoC)
 - [TJT001/CVE-2026-125350-PoC](https://github.com/TJT001/CVE-2026-125350-PoC)
 - [al4n4n/CVE-2026-125350](https://github.com/al4n4n/CVE-2026-125350)
+- [LLCForge/CVE-2026-125350](https://github.com/LLCForge/CVE-2026-125350)
 
 ### CVE-2026-125394 (2026-11-09)
 
@@ -24427,7 +24440,11 @@
 
 - [fumioryoto/CVE-2026-127016](https://github.com/fumioryoto/CVE-2026-127016)
 
-### CVE-2026-127222
+### CVE-2026-127222 (2026-11-18)
+
+<code>SGLang through 0.5.23, fixed in commit 7b5fb39, contains a missing authorization vulnerability in the POST /load_lora_adapter_from_tensors HTTP endpoint, which lacks the @auth_level(AuthLevel.ADMIN_OPTIONAL) decorator applied to its sibling admin endpoints, allowing unauthenticated network-reachable attackers to invoke it without an API key. Attackers can load a LoRA adapter from attacker-supplied serialized tensors to manipulate the served model, and when combined with a separately documented deserialization bypass, achieve unauthenticated remote code execution as root.
+</code>
+
 - [rahulreddykarne/CVE-2026-127222-sglang](https://github.com/rahulreddykarne/CVE-2026-127222-sglang)
 
 ### CVE-2026-128014 (2026-11-13)
@@ -24541,6 +24558,13 @@
 </code>
 
 - [googlesky/CVE-2026-129360](https://github.com/googlesky/CVE-2026-129360)
+
+### CVE-2026-129448 (2026-11-17)
+
+<code>Deserialization of Untrusted Data in Apache Roller versions 4.0.0 through 6.1.4 allows an unauthenticated remote attacker to execute arbitrary code. The XML-RPC endpoint accepts vendor extension types and deserializes them before authenticating the requester.\n\nThis is the same vulnerability as CVE-2026-82384, which listed only Apache Roller 6.1.5 as affected. This issue is being actively exploited.\n\nUsers are recommended to upgrade to Apache Roller 6.1.6 or later, which disables the extension types and rejects XML-RPC requests when the XML-RPC feature is disabled.\n\nUsers who cannot upgrade right away should set &quot;enabledForExtensions&quot; to &quot;false&quot; in WEB-INF/web.xml, or remove the &quot;/roller-services/xmlrpc&quot; servlet mapping, and restart Roller. Disabling XML-RPC in the administration UI is not enough, because older versions deserialize the request before checking that setting.
+</code>
+
+- [Yanixos/APACHE-CVE-2026-129448](https://github.com/Yanixos/APACHE-CVE-2026-129448)
 
 ### CVE-2026-129491 (2026-11-16)
 
@@ -42705,8 +42729,6 @@
 - [999gawkboyy/CVE-2024-23692_Exploit](https://github.com/999gawkboyy/CVE-2024-23692_Exploit)
 - [wgetnz/hfs2](https://github.com/wgetnz/hfs2)
 - [sandimfz/CVE-2024-23692](https://github.com/sandimfz/CVE-2024-23692)
-- [Lolicks/hfs-check](https://github.com/Lolicks/hfs-check)
-- [Lolicks/hfs2xray](https://github.com/Lolicks/hfs2xray)
 
 ### CVE-2024-23700
 - [canyie/CVE-2024-23700](https://github.com/canyie/CVE-2024-23700)
@@ -78527,6 +78549,7 @@
 </code>
 
 - [hexatriene/nuc-winring0-fix](https://github.com/hexatriene/nuc-winring0-fix)
+- [Skynet-Marwen/trafficmonitor-pawnio-fix](https://github.com/Skynet-Marwen/trafficmonitor-pawnio-fix)
 
 ### CVE-2020-15002 (2020-10-23)
 
