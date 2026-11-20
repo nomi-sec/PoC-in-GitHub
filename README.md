@@ -323,6 +323,7 @@
 <code>Kernel driver ProcessMonitorDriver.sys in Safetica's endpoint client x64 , versions 10.5.75.0 and 11.11.4.0, allows unprivileged user to abuse IOCTL path and terminate protected system processes.
 </code>
 
+- [KOSEC-LLC/BYOVD-Research](https://github.com/KOSEC-LLC/BYOVD-Research)
 - [DeathShotXD/0xKern3lCrush](https://github.com/DeathShotXD/0xKern3lCrush)
 - [ANYLNK/STProcessMonitorBYOVD](https://github.com/ANYLNK/STProcessMonitorBYOVD)
 - [oxfemale/KillChain](https://github.com/oxfemale/KillChain)
@@ -1164,6 +1165,7 @@
 <code>Wellbia's XIGNCODE3 xhunter1.sys kernel driver, version 10.0.10011.16384 through 2023.12.7.78, privilege escalation vulnerability provides access to the IRP_MJ_WRITE command interface, which allows any user process to request a PROCESS_ALL_ACCESS.\r\n\r\nNote: KVE 2023-5589 (https://krcert.or.kr) was initially issued for version 10.0.10011.16384, but the vulnerability was not fully remediated and remains in version 2023.12.7.78.
 </code>
 
+- [BlackSnufkin/BYOVD](https://github.com/BlackSnufkin/BYOVD)
 - [BlackSnufkin/CredsHunter](https://github.com/BlackSnufkin/CredsHunter)
 
 ### CVE-2026-3611 (2026-03-12)
@@ -1527,6 +1529,13 @@
 </code>
 
 - [lufeng78/tenda-ac6-cve-2026-4961-patch](https://github.com/lufeng78/tenda-ac6-cve-2026-4961-patch)
+
+### CVE-2026-5000 (2026-03-28)
+
+<code>A vulnerability was detected in PromtEngineer localGPT up to 4d41c7d1713b16b216d8e062e51a5dd88b20b054. Impacted is the function LocalGPTHandler of the file backend/server.py of the component API Endpoint. The manipulation of the argument BaseHTTPRequestHandler results in missing authentication. The attack can be executed remotely. This product implements a rolling release for ongoing delivery, which means version information for affected or updated releases is unavailable. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [Perl-Code/CVE-2026-5000](https://github.com/Perl-Code/CVE-2026-5000)
 
 ### CVE-2026-5006 (2026-08-24)
 
@@ -2515,6 +2524,7 @@
 <code>Memory overflow vulnerability NetScaler ADC and NetScaler Gateway leading to unpredictable or erroneous behavior and Denial of Service if the appliance is configured as a Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy) or AAA virtual server
 </code>
 
+- [securekomodo/citrixInspector](https://github.com/securekomodo/citrixInspector)
 - [watchtowrlabs/watchTowr-vs-Citrix-Netscaler-PreAuth-RCE-CVE-2026-8452](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-PreAuth-RCE-CVE-2026-8452)
 - [BishopFox/CVE-2026-8452-check](https://github.com/BishopFox/CVE-2026-8452-check)
 - [maxprog-svg/CitrixBleedCVE-2026-8452-2025-5777](https://github.com/maxprog-svg/CitrixBleedCVE-2026-8452-2025-5777)
@@ -6544,6 +6554,13 @@
 
 - [Christbowel/CVE-2026-25050](https://github.com/Christbowel/CVE-2026-25050)
 
+### CVE-2026-25053 (2026-02-04)
+
+<code>n8n is an open source workflow automation platform. Prior to versions 1.123.10 and 2.5.0, vulnerabilities in the Git node allowed authenticated users with permission to create or modify workflows to execute arbitrary system commands or read arbitrary files on the n8n host. This issue has been patched in versions 1.123.10 and 2.5.0.
+</code>
+
+- [yadhukrishnam/CVE-2026-25053](https://github.com/yadhukrishnam/CVE-2026-25053)
+
 ### CVE-2026-25057 (2026-02-09)
 
 <code>MarkUs is a web application for the submission and grading of student assignments. Prior to 2.9.1, instructors are able to upload a zip file to create an assignment from an exported configuration (courses/&lt;:course_id&gt;/assignments/upload_config_files). The uploaded zip file entry names are used to create paths to write files to disk without checking these paths. This vulnerability is fixed in 2.9.1.
@@ -6770,6 +6787,13 @@
 
 - [jduardo2704/CVE-2026-25643-Frigate-RCE](https://github.com/jduardo2704/CVE-2026-25643-Frigate-RCE)
 - [joshuavanderpoll/CVE-2026-25643](https://github.com/joshuavanderpoll/CVE-2026-25643)
+
+### CVE-2026-25645 (2026-03-25)
+
+<code>Requests is a HTTP library. Prior to version 2.33.0, the `requests.utils.extract_zipped_paths()` utility function uses a predictable filename when extracting files from zip archives into the system temporary directory. If the target file already exists, it is reused without validation. A local attacker with write access to the temp directory could pre-create a malicious file that would be loaded in place of the legitimate one. Standard usage of the Requests library is not affected by this vulnerability. Only applications that call `extract_zipped_paths()` directly are impacted. Starting in version 2.33.0, the library extracts files to a non-deterministic location. If developers are unable to upgrade, they can set `TMPDIR` in their environment to a directory with restricted write access.
+</code>
+
+- [Jaycelation/CVE-2026-25645](https://github.com/Jaycelation/CVE-2026-25645)
 
 ### CVE-2026-25676 (2026-02-12)
 
@@ -7566,6 +7590,13 @@
 </code>
 
 - [Nayekah/Next.js-Proof-of-Concept](https://github.com/Nayekah/Next.js-Proof-of-Concept)
+
+### CVE-2026-27980 (2026-03-18)
+
+<code>Next.js is a React framework for building full-stack web applications. Starting in version 10.0.0 and prior to version 16.1.7, the default Next.js image optimization disk cache (`/_next/image`) did not have a configurable upper bound, allowing unbounded cache growth. An attacker could generate many unique image-optimization variants and exhaust disk space, causing denial of service. This is fixed in version 16.1.7 by adding an LRU-backed disk cache with `images.maximumDiskCacheSize`, including eviction of least-recently-used entries when the limit is exceeded. Setting `maximumDiskCacheSize: 0` disables disk caching. If upgrading is not immediately possible, periodically clean `.next/cache/images` and/or reduce variant cardinality (e.g., tighten values for `images.localPatterns`, `images.remotePatterns`, and `images.qualities`).
+</code>
+
+- [aheybati/CVE-2026-27980](https://github.com/aheybati/CVE-2026-27980)
 
 ### CVE-2026-28001 (2026-08-13)
 
@@ -10114,6 +10145,13 @@
 ### CVE-2026-36834
 - [kpatsakis/CVE-2026-36834](https://github.com/kpatsakis/CVE-2026-36834)
 
+### CVE-2026-36848 (2026-06-29)
+
+<code>Gigamon GVOS v5.16.1 and below is vulnerable to Directory Traversal in the GVOS H-VUE subsystem.
+</code>
+
+- [calligraf0/CVE-2026-36848](https://github.com/calligraf0/CVE-2026-36848)
+
 ### CVE-2026-36851 (2026-08-26)
 
 <code>Path traversal vulnerability in UnPoller 2.33.0 password field allows arbitrary file read and network exfiltration.
@@ -11928,6 +11966,7 @@
 - [DarkDevil-937/make-it-root](https://github.com/DarkDevil-937/make-it-root)
 - [igconitoguy/CVE-2026-43499-Poc-Analysis](https://github.com/igconitoguy/CVE-2026-43499-Poc-Analysis)
 - [Repobor/ghostlock-cve-2026-43499-4.19-thyme](https://github.com/Repobor/ghostlock-cve-2026-43499-4.19-thyme)
+- [zetaloop/ghostlock20](https://github.com/zetaloop/ghostlock20)
 - [bxffhss/iqoo-z6-temp-root](https://github.com/bxffhss/iqoo-z6-temp-root)
 - [rubnet/ghostlock-RMX3031](https://github.com/rubnet/ghostlock-RMX3031)
 - [zhanghangjie/CVE-2026-43499-CYL1](https://github.com/zhanghangjie/CVE-2026-43499-CYL1)
@@ -12208,6 +12247,13 @@
 - [ashrafzaryouh/CVE-2026-44578](https://github.com/ashrafzaryouh/CVE-2026-44578)
 - [lxxexxbxx/CVE-2026-44578](https://github.com/lxxexxbxx/CVE-2026-44578)
 - [isaca0315/CVE-2026-44578-next-js-ssrf](https://github.com/isaca0315/CVE-2026-44578-next-js-ssrf)
+
+### CVE-2026-44579 (2026-05-13)
+
+<code>Next.js is a React framework for building full-stack web applications. From  to before 15.5.16 and 16.2.5, applications using Partial Prerendering through the Cache Components feature can be vulnerable to connection exhaustion through crafted POST requests to a server action. In affected configurations, a malicious request can trigger a request-body handling deadlock that leaves connections open for an extended period, consuming file descriptors and server capacity until legitimate users are denied service. This vulnerability is fixed in 15.5.16 and 16.2.5.
+</code>
+
+- [iamfarzad/fbcounsulting_v2](https://github.com/iamfarzad/fbcounsulting_v2)
 
 ### CVE-2026-44590 (2026-05-27)
 
@@ -13891,6 +13937,13 @@
 ### CVE-2026-52618
 - [s1ko/CVE-2026-52618](https://github.com/s1ko/CVE-2026-52618)
 
+### CVE-2026-52656 (2026-07-20)
+
+<code>An issue in SJCAM AllWinner Tech products SJ4000-Air V1.4C and before and Whitelabel based v.1.4C and before allows an attacker to execute arbitrary code via a crafted FEX file
+</code>
+
+- [keowu/sjcam](https://github.com/keowu/sjcam)
+
 ### CVE-2026-52658
 - [mirackayikci/CVE-2026-52658](https://github.com/mirackayikci/CVE-2026-52658)
 
@@ -15062,6 +15115,7 @@
 - [Ignema/WapGuard](https://github.com/Ignema/WapGuard)
 - [uzairdeveloper223/Defib](https://github.com/uzairdeveloper223/Defib)
 - [januththedev/SMS-Of-Death-CVE-2026-58882-Fix](https://github.com/januththedev/SMS-Of-Death-CVE-2026-58882-Fix)
+- [Lucifer7794/sms-of-death-recovery](https://github.com/Lucifer7794/sms-of-death-recovery)
 
 ### CVE-2026-59230 (2026-08-24)
 
@@ -16613,6 +16667,13 @@
 
 - [CompleteTech-Security/flowise-cve-2026-69254-check](https://github.com/CompleteTech-Security/flowise-cve-2026-69254-check)
 
+### CVE-2026-69260 (2026-11-19)
+
+<code>Git LFS is a Git extension for versioning large files. From 0.5.0 until 3.8.1, Git LFS does not format the SSH URL path component as a single argument when constructing remote object-transfer or authentication commands. Shell metacharacters in the SSH URL can therefore escape the intended path argument and cause arbitrary command execution when the remote Git LFS service passes received commands to a shell without adequate sanitization. Git LFS also incorrectly encodes default HTTPS URLs when an SSH URL is configured and the remote host either does not support Git LFS remote commands over SSH or supports HTTP authentication over SSH but git-lfs-authenticate does not return an explicit HTTP URL. This issue is fixed in version 3.8.1.
+</code>
+
+- [googlesky/CVE-2026-69260](https://github.com/googlesky/CVE-2026-69260)
+
 ### CVE-2026-69263 (2026-08-04)
 
 <code>Flowise is a drag &amp; drop user interface to build a customized large language model flow. Prior to 3.1.3, the mitigation for CVE-2025-8943 blocked -y and --yes flags on npx, but packages/components/nodes/tools/MCP/core.ts denied only PATH, LD_LIBRARY_PATH, DYLD_LIBRARY_PATH, and NODE_OPTIONS by exact environment-variable name. Because npm reads configuration from npm_config_* variables, setting npm_config_yes=true reproduced --yes behavior without using a blocked flag, causing npx to auto-install and execute the named package when a Custom MCP server launched. This issue is fixed in version 3.1.3.
@@ -16655,6 +16716,13 @@
 </code>
 
 - [D7EAD/CVE-2026-70054](https://github.com/D7EAD/CVE-2026-70054)
+
+### CVE-2026-70229 (2026-10-13)
+
+<code>Incorrect authorization in Active Directory Domain Services allows an unauthorized attacker to execute code over a network.
+</code>
+
+- [oOSH4rpZOo/CVE-2026-70229](https://github.com/oOSH4rpZOo/CVE-2026-70229)
 
 ### CVE-2026-70376 (2026-08-05)
 
@@ -16797,6 +16865,13 @@
 </code>
 
 - [Boreas37/CVE-2026-71963-PoC](https://github.com/Boreas37/CVE-2026-71963-PoC)
+
+### CVE-2026-71965 (2026-08-10)
+
+<code>CyberPanel 2.4.3, fixed in commit eca0c3c, contains an authenticated remote code execution vulnerability in the remote backup feature that allows authenticated attackers to gain root-level SSH access by supplying a malicious remote server address. Attackers can exploit the unverified SSH public key retrieval process to write an attacker-controlled public key directly to /root/.ssh/authorized_keys, granting persistent root access to the host system.
+</code>
+
+- [duypt02/CVE-2026-71965-PoC](https://github.com/duypt02/CVE-2026-71965-PoC)
 
 ### CVE-2026-71981 (2026-09-01)
 
@@ -18663,7 +18738,7 @@
 
 ### CVE-2026-85595 (2026-09-04)
 
-<code>Traefik versions before v2.11.55 and versions v3.0.0 through v3.7.10 contain an authentication bypass vulnerability in the digestAuth middleware where unknown usernames receive an empty secret instead of rejection. Attackers can compute a valid digest response using the empty secret and arbitrary credentials to bypass authentication on any digestAuth-protected route without a valid username or password.
+<code>Traefik versions before v2.11.55 and versions v3.0.0 before v3.7.11 contain an authentication bypass vulnerability in the digestAuth middleware where unknown usernames receive an empty secret instead of rejection. Attackers can compute a valid digest response using the empty secret and arbitrary credentials to bypass authentication on any digestAuth-protected route without a valid username or password.
 </code>
 
 - [Boreas37/CVE-2026-85595-PoC](https://github.com/Boreas37/CVE-2026-85595-PoC)
@@ -19804,7 +19879,11 @@
 - [Hassham1/CVE-2026-94545-nextjs-og-poc](https://github.com/Hassham1/CVE-2026-94545-nextjs-og-poc)
 - [EQSTLab/CVE-2026-94545](https://github.com/EQSTLab/CVE-2026-94545)
 
-### CVE-2026-94597
+### CVE-2026-94597 (2026-11-20)
+
+<code>NukeViet CMS is a multi Content Management System. Prior to 4.5.12 and 4.6.02, an attacker who can reach an image-upload flow can upload a valid image with appended PHP short-tag code and a double-extension filename. NukeViet\Files\Upload::save_file() relied on verify_image(), which missed the &lt;? short-open tag, while filename handling preserved embedded dots, validation inspected only the final extension, and an .htaccess rule blocked PHP extensions only at the end of the URI. On Apache mod_php systems configured with short_open_tag and a PHP extension handler, the stored polyglot can execute as PHP and run operating-system commands as the web-server user; PHP-FPM, nginx, and end-anchored handler configurations are not exposed to the execution step. This issue is fixed in versions 4.5.12 and 4.6.02.
+</code>
+
 - [canhieu/CVE-2026-94597-poc](https://github.com/canhieu/CVE-2026-94597-poc)
 
 ### CVE-2026-94609 (2026-09-24)
@@ -20231,6 +20310,7 @@
 - [molanp/CVE-2026-98260-vivo-s60-poc](https://github.com/molanp/CVE-2026-98260-vivo-s60-poc)
 - [super2tt/CVE-2026-98260-vivo-x-fold6-poc](https://github.com/super2tt/CVE-2026-98260-vivo-x-fold6-poc)
 - [sabuweis/CVE-2026-98260](https://github.com/sabuweis/CVE-2026-98260)
+- [mumaosong/cve-2026-98260-app](https://github.com/mumaosong/cve-2026-98260-app)
 - [yoro1836/SamTimer](https://github.com/yoro1836/SamTimer)
 - [LinXing0926/GhostCred](https://github.com/LinXing0926/GhostCred)
 - [cuteaplane/CVE-2026-98260-for-OPD2501](https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501)
@@ -20268,6 +20348,7 @@
 - [aoxzh/cve-2026-98260-vivo-x200-ultra-temproot](https://github.com/aoxzh/cve-2026-98260-vivo-x200-ultra-temproot)
 - [yxc0915/cve-2026-98260-ppg-an00](https://github.com/yxc0915/cve-2026-98260-ppg-an00)
 - [zhanghangjie/CVE-2026-98260-CYL1](https://github.com/zhanghangjie/CVE-2026-98260-CYL1)
+- [nestchao/redmi-pad-se-87-root](https://github.com/nestchao/redmi-pad-se-87-root)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -20366,6 +20447,7 @@
 - [zake1god/CVE-2026-98432](https://github.com/zake1god/CVE-2026-98432)
 - [hardenedlinux/linux-rce-poc](https://github.com/hardenedlinux/linux-rce-poc)
 - [lwmacct/261119-cve-2026-98432](https://github.com/lwmacct/261119-cve-2026-98432)
+- [Agency-Tool-Company/jetson-cve-2026-98432](https://github.com/Agency-Tool-Company/jetson-cve-2026-98432)
 
 ### CVE-2026-98499 (2026-10-18)
 
@@ -22015,6 +22097,7 @@
 - [mohamedation/php2shell-scanner](https://github.com/mohamedation/php2shell-scanner)
 - [hkoeck/php2shell-status](https://github.com/hkoeck/php2shell-status)
 - [Sol0-dev/php2shell](https://github.com/Sol0-dev/php2shell)
+- [PHPatch/phpscan](https://github.com/PHPatch/phpscan)
 - [xbuddhi/php2shell-fix](https://github.com/xbuddhi/php2shell-fix)
 - [zNexoraTech/php2shell-detector](https://github.com/zNexoraTech/php2shell-detector)
 - [KanyCrew/php2shell-poc](https://github.com/KanyCrew/php2shell-poc)
@@ -22116,7 +22199,7 @@
 - [hanyuanchen08-netizen/php-exposure-audit](https://github.com/hanyuanchen08-netizen/php-exposure-audit)
 - [TheFool-TAROT/php2shell-lab](https://github.com/TheFool-TAROT/php2shell-lab)
 - [defendable/PHP2Shell](https://github.com/defendable/PHP2Shell)
-- [Swordsec/php2shell-guard](https://github.com/Swordsec/php2shell-guard)
+- [SwordSec/php2shell-guard](https://github.com/SwordSec/php2shell-guard)
 - [Trupal25/php2shell-audit](https://github.com/Trupal25/php2shell-audit)
 - [tuwiliyt/cve-2026-109618](https://github.com/tuwiliyt/cve-2026-109618)
 - [seguridadentrerios/CVE-2026-109618-CVE-2026-109619](https://github.com/seguridadentrerios/CVE-2026-109618-CVE-2026-109619)
@@ -23181,6 +23264,13 @@
 - [Nguemoue/project2026_20261030_tokengate](https://github.com/Nguemoue/project2026_20261030_tokengate)
 - [nextmend/laravel-type-juggling-auth-bypass](https://github.com/nextmend/laravel-type-juggling-auth-bypass)
 
+### CVE-2026-114516 (2026-11-19)
+
+<code>Etherpad is a real-time collaborative editor. From 1.8.14 until 3.3.3, the pre-authentication /static/* plugin asset handler in src/node/utils/Minify.ts performs a backslash-to-forward-slash conversion after src/node/utils/sanitizePathname.ts has completed its POSIX path checks. On POSIX systems the sanitizer correctly treats backslashes as ordinary filename bytes, but the later conversion turns encoded backslash-separated parent-directory segments into traversal components without revalidation or containment. The expressPreSession registration and the always-present ep_etherpad-lite core pseudo-plugin make this path reachable without credentials, allowing a remote attacker to read any file available to the Etherpad process. Disclosed configuration or environment secrets can expose administrator credentials, after which the administrator plugin installer can provide in-process code execution and full server compromise. This issue is fixed in version 3.3.3.
+</code>
+
+- [ynsmroztas/EtherPadSniper](https://github.com/ynsmroztas/EtherPadSniper)
+
 ### CVE-2026-114550 (2026-11-03)
 
 <code>libwebsockets MQTT Protocol PUBACK Packet Handling Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of libwebsockets. Authentication is not required to exploit this vulnerability.\n\nThe specific flaw exists within the handling of PUBACK packets. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-31039.
@@ -23324,6 +23414,10 @@
 - [bh679/mcjavasafetycheck-mc](https://github.com/bh679/mcjavasafetycheck-mc)
 - [crash00xd/java2shell-poc](https://github.com/crash00xd/java2shell-poc)
 - [Luscious8/JVM2Shell](https://github.com/Luscious8/JVM2Shell)
+- [tomcek42/Omnissa-UAG_CVE-2026-114938-remediation](https://github.com/tomcek42/Omnissa-UAG_CVE-2026-114938-remediation)
+- [Pamircil/Symantec-DLP-25.x-26.x-CVE-2026-114938-Java4Shell-Fixing](https://github.com/Pamircil/Symantec-DLP-25.x-26.x-CVE-2026-114938-Java4Shell-Fixing)
+- [EterNullSec/java4shell-defensive-lab](https://github.com/EterNullSec/java4shell-defensive-lab)
+- [tobias-weiss-ai-xr/java-fixed-images](https://github.com/tobias-weiss-ai-xr/java-fixed-images)
 
 ### CVE-2026-114952 (2026-11-17)
 
@@ -23364,6 +23458,13 @@
 - [Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0](https://github.com/Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0)
 - [Pr0fEs0r-X/PHP2SHELL-Checker-v-2.0-CVE-2026-115560-](https://github.com/Pr0fEs0r-X/PHP2SHELL-Checker-v-2.0-CVE-2026-115560-)
 - [LLCForge/CVE-2026-115560](https://github.com/LLCForge/CVE-2026-115560)
+
+### CVE-2026-115578 (2026-11-19)
+
+<code>Go-Guerrilla SMTP Daemon is a lightweight SMTP server written in Go. In 1.6.7 and earlier, according to the repository advisory's structured affected range, server.go defines the seven-byte cmdXCLIENT token, but the XCLIENT handler slices input[8:] after matching only that seven-byte verb, so a bare command causes an out-of-bounds panic in handleClient and terminates the daemon because that connection goroutine does not recover the panic. The issue is reachable by an unauthenticated client when the non-default xclient_on setting is enabled; no HELO command is required. The repository fix is present in version 1.6.7-1.
+</code>
+
+- [googlesky/CVE-2026-115578](https://github.com/googlesky/CVE-2026-115578)
 
 ### CVE-2026-115596 (2026-10-28)
 
@@ -23860,6 +23961,13 @@
 
 - [LLCForge/CVE-2026-119258](https://github.com/LLCForge/CVE-2026-119258)
 
+### CVE-2026-119348 (2026-11-16)
+
+<code>Next.js is a React framework for building full-stack web applications. Prior to 15.5.29 and 16.4.5, self-hosted Next.js App Router route handlers and the fetch cache that return a fetched upstream response unchanged can emit a response whose declared framing does not match the body actually sent. When the application is behind an HTTP/1.1 reverse proxy that permits pipelined response queueing, a crafted upstream response can desynchronize responses between clients. The resulting desynchronization can inject a response into another client's queue or disclose another client's response. This issue is fixed in versions 16.4.5 and 15.5.29.
+</code>
+
+- [aheybati/CVE-2026-119348](https://github.com/aheybati/CVE-2026-119348)
+
 ### CVE-2026-119618 (2026-11-11)
 
 <code>Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP Server's mod_http2 in assign_headers() can lead to RCE.\n\nThis issue affects Apache HTTP Server: from 2.4.55 through 2.4.70.\nAffected releases of mod_h2 from GitHub: from 2.0.8 through 2.0.42.
@@ -23916,6 +24024,7 @@
 <code>WordPress Core is vulnerable to Remote Code Execution in versions 4.7 through 7.1.3. This is due to predictable, web-accessible staging paths used during full-package core upgrades. This makes it possible for unauthenticated attackers to execute code on the server during the upgrade window.
 </code>
 
+- [paulmann/Bash_WP-CLI_Update](https://github.com/paulmann/Bash_WP-CLI_Update)
 - [foxcornlab/wordpress-core-scanner](https://github.com/foxcornlab/wordpress-core-scanner)
 - [lysophavin18/CVE-2026-119977](https://github.com/lysophavin18/CVE-2026-119977)
 - [Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4](https://github.com/Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4)
@@ -23967,6 +24076,13 @@
 </code>
 
 - [7xd10/CVE-2026-120318](https://github.com/7xd10/CVE-2026-120318)
+
+### CVE-2026-120490 (2026-11-12)
+
+<code>On Scalable Platforms, an administrator with permissions to edit and install the Access Control Policy and NAT rules can create a NAT rule that redirects traffic to the Gateway's Sync interface, bypassing the built-in Sync protection. This could allow the administrator to execute operating system commands and write files on the Gateway with superuser privileges.
+</code>
+
+- [sadshade/checkpoint-gexec-poc](https://github.com/sadshade/checkpoint-gexec-poc)
 
 ### CVE-2026-120491 (2026-11-02)
 
@@ -24119,6 +24235,9 @@
 - [weitek/nginx2root](https://github.com/weitek/nginx2root)
 - [avoliomattia/NGINX-CVE-2026-123007-CVE-2026-123633](https://github.com/avoliomattia/NGINX-CVE-2026-123007-CVE-2026-123633)
 - [bytevet/h2flowcheck](https://github.com/bytevet/h2flowcheck)
+- [federiconbaez/cve-2026-123007-analysis](https://github.com/federiconbaez/cve-2026-123007-analysis)
+- [federiconbaez/cve-2026-123007-detector](https://github.com/federiconbaez/cve-2026-123007-detector)
+- [federiconbaez/nginx-h2-hardening-audit](https://github.com/federiconbaez/nginx-h2-hardening-audit)
 
 ### CVE-2026-123014 (2026-11-05)
 
@@ -24191,6 +24310,9 @@
 - [gotr00t0day/CVE-2026-123158](https://github.com/gotr00t0day/CVE-2026-123158)
 - [VardonBorin/Exploring_CVE-2026-123158](https://github.com/VardonBorin/Exploring_CVE-2026-123158)
 - [Cheats121/sshole-CVE-2026-123158](https://github.com/Cheats121/sshole-CVE-2026-123158)
+- [unixsvr4/cve-sshole](https://github.com/unixsvr4/cve-sshole)
+- [Pauloxc6/CVE-2026-123158](https://github.com/Pauloxc6/CVE-2026-123158)
+- [TheoCerveraLede/auditoria-ciberseguridad-ypf](https://github.com/TheoCerveraLede/auditoria-ciberseguridad-ypf)
 
 ### CVE-2026-123218 (2026-11-07)
 
@@ -24225,6 +24347,8 @@
 - [Quaerendir/cve-2026-123633-123007-nginx-audit](https://github.com/Quaerendir/cve-2026-123633-123007-nginx-audit)
 - [Ghost-Bx1/nginx-exploits](https://github.com/Ghost-Bx1/nginx-exploits)
 - [0xsaju/nginx-exploits](https://github.com/0xsaju/nginx-exploits)
+- [federiconbaez/cve-2026-123633-analysis](https://github.com/federiconbaez/cve-2026-123633-analysis)
+- [federiconbaez/cve-2026-123633-detector](https://github.com/federiconbaez/cve-2026-123633-detector)
 
 ### CVE-2026-123634 (2026-11-18)
 
@@ -24524,6 +24648,8 @@
 - [tani2shell/phpaftershell-lab](https://github.com/tani2shell/phpaftershell-lab)
 - [ashrafzaryouh/CVE-2026-126714](https://github.com/ashrafzaryouh/CVE-2026-126714)
 - [evenomn/cve-2026-126714-phpAfterShell](https://github.com/evenomn/cve-2026-126714-phpAfterShell)
+- [VABISMO/PHPAfterShell-poc](https://github.com/VABISMO/PHPAfterShell-poc)
+- [bimajunestifa/phpAfterShell](https://github.com/bimajunestifa/phpAfterShell)
 
 ### CVE-2026-126837 (2026-11-12)
 
@@ -24931,6 +25057,7 @@
 - [Mahgal/ruby2shell-check](https://github.com/Mahgal/ruby2shell-check)
 - [techdevfun/ruby2shell](https://github.com/techdevfun/ruby2shell)
 - [ashrafzaryouh/CVE-2026-132825](https://github.com/ashrafzaryouh/CVE-2026-132825)
+- [hackpatato/CVE-2026-132825-poc](https://github.com/hackpatato/CVE-2026-132825-poc)
 
 ### CVE-2026-133113 (2026-11-19)
 
@@ -25023,6 +25150,27 @@
 </code>
 
 - [googlesky/CVE-2026-133481](https://github.com/googlesky/CVE-2026-133481)
+
+### CVE-2026-133620 (2026-11-20)
+
+<code>Flowintel's template repository subsystem did not adequately constrain file access to the configured repository base directory. Two related weaknesses existed:\n\n- Repository registration and editing accepted arbitrary local paths without verifying they resolved inside the configured REPOSITORY_BASE_PATH, allowing an authenticated user to point a repository at any readable directory on the host.\n- Manifest and template file lookups used normalized (non-canonical) path joins and a startswith-based guard that could be bypassed by symbolic links, permitting reads of files outside the intended repository.\n\nAn authenticated user with the ability to add or edit a template repository could therefore cause the application to read and return the contents of arbitrary files readable by the service account, including configuration files, credentials, or other sensitive data.\n\nAffected: Flowintel versions prior to 4.1.0.
+</code>
+
+- [googlesky/CVE-2026-133620](https://github.com/googlesky/CVE-2026-133620)
+
+### CVE-2026-133624 (2026-11-20)
+
+<code>SCTP protocol dissector heap disclosure in 4.6.0 to 4.6.9 and 4.4.0 to 4.4.19 might enable denial of service or code execution
+</code>
+
+- [googlesky/CVE-2026-133624](https://github.com/googlesky/CVE-2026-133624)
+
+### CVE-2026-133626 (2026-11-20)
+
+<code>FlowIntel contains a resource exhaustion vulnerability in its file-to-note conversion feature. When a user converts an attached CSV or JSON file into a case note, the application renders the data as a Markdown table by padding every row to the maximum column count. A crafted file with a small number of filled cells but a very large number of columns (or keys) causes the application to allocate a quadratic number of padded table cells, potentially exhausting a worker process in memory or CPU.\n\nThe same issue affects nested JSON values rendered inside table cells, where pretty-printed indentation further inflates the output size.\n\nPreconditions:\n- An authenticated user with access to a case in FlowIntel\n- Ability to attach and convert a CSV or JSON file to a note\n\nImpact:\n- Denial of service: exhaustion of a worker process, potentially disrupting service for other users\n- No confidentiality or integrity impact\n\nAffected versions: FlowIntel prior to 4.1.0
+</code>
+
+- [googlesky/CVE-2026-133626](https://github.com/googlesky/CVE-2026-133626)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -73232,6 +73380,7 @@
 - [R3leant/CVE-2021-41773](https://github.com/R3leant/CVE-2021-41773)
 - [itsDav804/CVE-2021-41773](https://github.com/itsDav804/CVE-2021-41773)
 - [xlondra/CVE-2021-41773](https://github.com/xlondra/CVE-2021-41773)
+- [TheoCerveraLede/auditoria-ciberseguridad-ypf](https://github.com/TheoCerveraLede/auditoria-ciberseguridad-ypf)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -74573,6 +74722,7 @@
 - [Morgenlicht1210/log4j2-cve-2021-44228-poc](https://github.com/Morgenlicht1210/log4j2-cve-2021-44228-poc)
 - [minBuild/unhacked](https://github.com/minBuild/unhacked)
 - [for-toolathlon/log4shell-research-brief](https://github.com/for-toolathlon/log4shell-research-brief)
+- [for-toolathlon/log4shell-audit](https://github.com/for-toolathlon/log4shell-audit)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -80913,6 +81063,13 @@
 </code>
 
 - [endrazine/rocq-cve-poc-12155](https://github.com/endrazine/rocq-cve-poc-12155)
+
+### CVE-2020-37281 (2026-10-14)
+
+<code>Gravitee API Management through 4.12.22 contains an authentication bypass vulnerability that allows unauthenticated remote attackers to impersonate any user by forging JWTs signed with the shipped default jwt.secret. Attackers knowing an existing user ID can sign an HS256 token with that subject and present it as a bearer token to the Management API, impersonating administrators to gain full platform control.
+</code>
+
+- [l4rm4nd/CVE-2020-37281](https://github.com/l4rm4nd/CVE-2020-37281)
 
 ### CVE-2020-256480
 - [dim0x69/cve-2022-25640-exploit](https://github.com/dim0x69/cve-2022-25640-exploit)
@@ -93646,6 +93803,13 @@
 </code>
 
 - [Ethanpr05/cve-2015-2025-analisis](https://github.com/Ethanpr05/cve-2015-2025-analisis)
+
+### CVE-2015-2050 (2015-02-23)
+
+<code>D-Link DAP-1320 Rev Ax with firmware before 1.21b05 allows attackers to execute arbitrary commands via unspecified vectors.
+</code>
+
+- [nightscry/CVE-2015-2050-DAP-1320](https://github.com/nightscry/CVE-2015-2050-DAP-1320)
 
 ### CVE-2015-2153 (2015-03-24)
 
