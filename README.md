@@ -2543,7 +2543,7 @@
 
 ### CVE-2026-8467 (2026-05-20)
 
-<code>Code Injection vulnerability in phenixdigital phoenix_storybook allows unauthenticated remote code execution via unsanitized attribute value interpolation in HEEx template generation.\n\nThe psb-assign WebSocket event handler in 'Elixir.PhoenixStorybook.Story.PlaygroundPreviewLive':handle_event/3 accepts arbitrary attribute names and values from unauthenticated clients. These values are passed to 'Elixir.PhoenixStorybook.Helpers.ExtraAssignsHelpers':handle_set_variation_assign/3, which stores them verbatim. When rendering, 'Elixir.PhoenixStorybook.Rendering.ComponentRenderer':attributes_markup/1 interpolates binary attribute values directly into a HEEx template string as name=&quot;&lt;val&gt;&quot; without escaping double quotes or HEEx expression delimiters. An attacker can supply a value containing a closing quote followed by a HEEx expression block (e.g. foo&quot; injected={EXPR} bar=&quot;), which causes EXPR to be treated as an inline Elixir expression. The resulting template is compiled via EEx.compile_string/2 and executed via Code.eval_quoted_with_env/3 with full Kernel imports and no sandbox, giving the attacker arbitrary code execution on the server.\n\nThis issue affects phoenix_storybook from 0.5.0 before 1.1.0.
+<code>Code Injection vulnerability in phenixdigital phoenix_storybook allows unauthenticated remote code execution via HEEx template injection in the component playground. A client can send attribute values over the playground WebSocket. A value that closes the attribute quote and adds a HEEx expression is evaluated as Elixir code on the server.\n\nPhoenixStorybook.Story.PlaygroundPreviewLive.handle_event/3 accepts attribute names and values from the client and stores them through PhoenixStorybook.ExtraAssignsHelpers.handle_set_variation_assign/3. PhoenixStorybook.Rendering.ComponentRenderer.attributes_markup/1 interpolates string values into a HEEx template without escaping. The template is compiled with EEx.compile_string/2 and evaluated. Releases published as phx_live_storybook have the same code in the PhxLiveStorybook namespace, where the first client entry point is PhxLiveStorybook.Entry.Playground.handle_event/3.\n\nThis issue affects phoenix_storybook: from 0.5.0 before 1.1.0; phx_live_storybook: from 0.3.0 onward.
 </code>
 
 - [HORKimhab/CVE-2026-8467](https://github.com/HORKimhab/CVE-2026-8467)
@@ -4951,6 +4951,13 @@
 - [yym8538/CVE-2026-20896](https://github.com/yym8538/CVE-2026-20896)
 - [Raincombat/CVE-2026-20896-Gitea-CTF](https://github.com/Raincombat/CVE-2026-20896-Gitea-CTF)
 
+### CVE-2026-20971 (2026-01-09)
+
+<code>Use After Free in PROCA driver prior to SMR Jan-2026 Release 1 allows local attackers to potentially execute arbitrary code.
+</code>
+
+- [zhanghangjie/CVE-2026-20971-CYL1](https://github.com/zhanghangjie/CVE-2026-20971-CYL1)
+
 ### CVE-2026-20980 (2026-02-04)
 
 <code>Improper input validation in PACM prior to SMR Feb-2026 Release 1 allows physical attacker to execute arbitrary commands.
@@ -5134,6 +5141,7 @@
 </code>
 
 - [fancyzll/qualcomm-vulnerability-scanner](https://github.com/fancyzll/qualcomm-vulnerability-scanner)
+- [zhanghangjie/CVE-2026-21385-CYL1](https://github.com/zhanghangjie/CVE-2026-21385-CYL1)
 
 ### CVE-2026-21436 (2026-01-01)
 
@@ -11809,6 +11817,7 @@
 - [soralis0912/Root-My-Device](https://github.com/soralis0912/Root-My-Device)
 - [2932796375github/CVE-2026-43499_OPPO-MT6835](https://github.com/2932796375github/CVE-2026-43499_OPPO-MT6835)
 - [asarr22/Root-My-Galaxy-S938B](https://github.com/asarr22/Root-My-Galaxy-S938B)
+- [XuexGao/ghostlock-tel-an10](https://github.com/XuexGao/ghostlock-tel-an10)
 - [datfooldive/ghostlock-emerald](https://github.com/datfooldive/ghostlock-emerald)
 - [NothingFumo/ghostlock-aresin](https://github.com/NothingFumo/ghostlock-aresin)
 - [CatXiaoShi/cve-2026-43499](https://github.com/CatXiaoShi/cve-2026-43499)
@@ -11951,6 +11960,7 @@
 - [Repobor/ghostlock-cve-2026-43499-4.19-thyme](https://github.com/Repobor/ghostlock-cve-2026-43499-4.19-thyme)
 - [bxffhss/iqoo-z6-temp-root](https://github.com/bxffhss/iqoo-z6-temp-root)
 - [rubnet/ghostlock-RMX3031](https://github.com/rubnet/ghostlock-RMX3031)
+- [zhanghangjie/CVE-2026-43499-CYL1](https://github.com/zhanghangjie/CVE-2026-43499-CYL1)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15126,6 +15136,9 @@
 
 - [HORKimhab/CVE-2026-59265](https://github.com/HORKimhab/CVE-2026-59265)
 
+### CVE-2026-59273
+- [afernandesvigo/PoC-CVE-2026-59273](https://github.com/afernandesvigo/PoC-CVE-2026-59273)
+
 ### CVE-2026-59309 (2026-07-30)
 
 <code>VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service. A malicious actor with network access to vCenter may exploit this issue to bypass authentication and gain unauthorized access to the system.
@@ -15143,6 +15156,9 @@
 - [zgsfsec/CVE-2026-59310-POC](https://github.com/zgsfsec/CVE-2026-59310-POC)
 - [vpxuser/CVE-2026-59310](https://github.com/vpxuser/CVE-2026-59310)
 - [chu0119/vc-strike](https://github.com/chu0119/vc-strike)
+
+### CVE-2026-59331
+- [daehyuh/CVE-2026-59331](https://github.com/daehyuh/CVE-2026-59331)
 
 ### CVE-2026-59346 (2026-10-07)
 
@@ -15481,12 +15497,26 @@
 - [che3axujnya/cve-2026-62911](https://github.com/che3axujnya/cve-2026-62911)
 - [c5z54/cve-2026-62911-poc](https://github.com/c5z54/cve-2026-62911-poc)
 
+### CVE-2026-62955 (2026-11-19)
+
+<code>baserCMS is a website development framework. From 5.2.3 until 5.3.0, BcThemeFileService::getFullpath() in plugins/bc-theme-file/src/Service/BcThemeFileService.php skips its path containment check when realpath() fails for a nonexistent theme subdirectory selected by the type parameter. An authenticated administrator can supply a traversal path through the theme-file API to access locations outside the theme directory. The bypass of the CVE-2026-30940 fix can permit file writes, overwrites or deletion within the PHP process permissions and, where executable PHP can be written, remote code execution. This issue is fixed in 5.3.0.
+</code>
+
+- [googlesky/CVE-2026-62955](https://github.com/googlesky/CVE-2026-62955)
+
 ### CVE-2026-62958 (2026-10-30)
 
 <code>libriscv is a RISC-V sandbox and emulator. Prior to 1.18, a crafted ELF binary can cause out-of-bounds reads in the host emulator. `Memory&lt;W&gt;::binary_loader` checks `PT_LOAD` program-header bounds, but `Memory&lt;W&gt;::serialize_execute_segment` trusts section-header `sh_offset` and `sh_size` when locating `.text` without verifying the file range against `m_binary.size()`; `Memory&lt;W&gt;::lookup()` has a similar section-table problem. Malformed `.text` or `.symtab` offsets can therefore bypass the program-header checks and point outside the binary buffer, crashing rvlinux. With suitable memory layout or integer overflow, out-of-buffer host heap memory may instead be mapped into the guest by `create_execute_segment()`, potentially exposing host memory. The reported reproducer demonstrates a host SIGSEGV, while memory disclosure through grooming is described as possible rather than demonstrated. This issue is fixed in version 1.18.
 </code>
 
 - [0Linear/CVE-2026-62958](https://github.com/0Linear/CVE-2026-62958)
+
+### CVE-2026-63012 (2026-11-19)
+
+<code>baserCMS is a website development framework. Prior to 5.3.0, getAuthenticationService permits an Api/Admin session authentication fallback based on the Referer header, although operator accounts have an Admin auth prefix and cannot obtain an Api/Admin JWT. An authenticated operator can therefore access /baser/api/admin/ endpoints whose permission.php entries have auth =&gt; true, including /baser/api/admin/baser-core/site_configs/view.json, even when the corresponding administrative functionality is restricted. This can disclose administrator-restricted configuration information. This issue is fixed in 5.3.0.
+</code>
+
+- [googlesky/CVE-2026-63012](https://github.com/googlesky/CVE-2026-63012)
 
 ### CVE-2026-63030 (2026-07-17)
 
@@ -15757,6 +15787,7 @@
 - [youssefnoser/opd2415-6.6.118-cve-2026-64560-ksu](https://github.com/youssefnoser/opd2415-6.6.118-cve-2026-64560-ksu)
 - [aucai/Redmi-K90-CVE-2026-64560](https://github.com/aucai/Redmi-K90-CVE-2026-64560)
 - [exumeOAO/plr110-6.12.38-cve-2026-64560-ksu](https://github.com/exumeOAO/plr110-6.12.38-cve-2026-64560-ksu)
+- [zhanghangjie/CVE-2026-64560-CYL1](https://github.com/zhanghangjie/CVE-2026-64560-CYL1)
 
 ### CVE-2026-64561 (2026-08-04)
 
@@ -17602,6 +17633,20 @@
 
 ### CVE-2026-77276
 - [Morzan6/CVE-2026-77276-PoC](https://github.com/Morzan6/CVE-2026-77276-PoC)
+
+### CVE-2026-77318 (2026-11-19)
+
+<code>Jupyter MCP Server is a Model Context Protocol server for Jupyter. Prior to 1.0.3, standalone streamable-http mode can enforce MCP_TOKEN on /mcp while leaving the state-changing /api/connect and /api/stop management routes unauthenticated. An unauthenticated network caller can use /api/connect to replace runtime_url and document_url values and their tokens, reset ServerContext, and start a kernel client against attacker-controlled infrastructure, causing the server to send Jupyter API and WebSocket traffic to that backend. The caller can also use /api/stop to stop the current notebook kernel. This boundary failure does not require explicit insecure no-auth mode and occurs outside normal MCP JSON-RPC tool dispatch. This issue is fixed in version 1.0.3.
+</code>
+
+- [googlesky/CVE-2026-77318](https://github.com/googlesky/CVE-2026-77318)
+
+### CVE-2026-77378 (2026-11-19)
+
+<code>Bolt is a fully open source, adaptable platform for building and running modern websites. Prior to 6.1.4, SQL injection in ListFormatHelper allows authenticated users with upload permission to execute arbitrary SQL queries through /async/select-options and exfiltrate sensitive database contents when general/caching/list_format is enabled. This issue is fixed in version 6.1.4.
+</code>
+
+- [googlesky/CVE-2026-77378](https://github.com/googlesky/CVE-2026-77378)
 
 ### CVE-2026-77521 (2026-09-21)
 
@@ -20279,6 +20324,7 @@
 - [aoxzh/cve-2026-98260-tb710fu](https://github.com/aoxzh/cve-2026-98260-tb710fu)
 - [aoxzh/cve-2026-98260-vivo-x200-ultra-temproot](https://github.com/aoxzh/cve-2026-98260-vivo-x200-ultra-temproot)
 - [yxc0915/cve-2026-98260-ppg-an00](https://github.com/yxc0915/cve-2026-98260-ppg-an00)
+- [zhanghangjie/CVE-2026-98260-CYL1](https://github.com/zhanghangjie/CVE-2026-98260-CYL1)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -20823,6 +20869,20 @@
 
 ### CVE-2026-102975
 - [BomboBombone/CVE-2026-102975](https://github.com/BomboBombone/CVE-2026-102975)
+
+### CVE-2026-103025 (2026-11-19)
+
+<code>bep/imagemeta is a Go library for reading EXIF, IPTC and XMP image meta data from JPEG, TIFF, PNG, and WebP files. Prior to 0.17.3, imagemeta.Decode could exhaust memory when parsing PNG zTXt chunks whose keyword is &quot;Raw profile type iptc&quot;: the declared chunk length can drive an allocation far larger than the input file, and the embedded zlib stream is decompressed without an output limit. The advisory reports a 42-byte input causing a 256 MB allocation and a 127 KB input inflating to 460 MB. The oversized-allocation path's memory effect depends on platform overcommit and configured GOMEMLIMIT or cgroup limits, while the decompression path reliably creates resident memory. Applications that decode untrusted PNGs with IPTC metadata processing can therefore suffer denial of service through memory exhaustion. This issue is fixed in 0.17.3.
+</code>
+
+- [googlesky/CVE-2026-103025](https://github.com/googlesky/CVE-2026-103025)
+
+### CVE-2026-103033 (2026-11-19)
+
+<code>ALTCHA is a Go library for creating and verifying ALTCHA challenges. Prior to 2.1.0, parseServerSignature can leave ServerSignatureVerificationData.Extra uninitialized when url.ParseQuery returns partial values and an error for a malformed percent escape in VerificationData. A later write of an unknown parsed key to the nil map panics before VerifyServerSignature or VerifyServerSignatureSafe completes signature verification, so an unauthenticated client can abort a request. Standard net/http recovers the request goroutine, while application goroutines or frameworks without recovery can crash the process. This issue is fixed in version 2.1.0.
+</code>
+
+- [googlesky/CVE-2026-103033](https://github.com/googlesky/CVE-2026-103033)
 
 ### CVE-2026-103039 (2026-10-30)
 
@@ -22512,6 +22572,7 @@
 - [PVY-Smit/php2shell-defender](https://github.com/PVY-Smit/php2shell-defender)
 - [Prxnxv26/php2shell-cve-analysis](https://github.com/Prxnxv26/php2shell-cve-analysis)
 - [genaforvena/php2sec](https://github.com/genaforvena/php2sec)
+- [genaforvena/mishe-tauftauf2shell](https://github.com/genaforvena/mishe-tauftauf2shell)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -23313,6 +23374,7 @@
 - [uxokpro1234/Java4Shell-CVE-2026-114938-Defender](https://github.com/uxokpro1234/Java4Shell-CVE-2026-114938-Defender)
 - [bh679/mcjavasafetycheck-mc](https://github.com/bh679/mcjavasafetycheck-mc)
 - [crash00xd/java2shell-poc](https://github.com/crash00xd/java2shell-poc)
+- [Luscious8/JVM2Shell](https://github.com/Luscious8/JVM2Shell)
 
 ### CVE-2026-114952 (2026-11-17)
 
@@ -23670,6 +23732,13 @@
 
 ### CVE-2026-117378
 - [p0et08/ShopXO](https://github.com/p0et08/ShopXO)
+
+### CVE-2026-117517 (2026-11-19)
+
+<code>The fix for CVE-2026-25854 was incomplete.\n\n\n\nThis issue affects Apache Tomcat: from 11.0.19 through 11.0.27, from 10.1.53 through 10.1.61, from 9.0.116 through 9.0.123.\n\n\n\nUsers are recommended to upgrade to version 11.0.29, 10.1.62 or 9.0.124, which fix the issue.\nNote: Tomcat 11.0.28 was not released
+</code>
+
+- [googlesky/CVE-2026-117517](https://github.com/googlesky/CVE-2026-117517)
 
 ### CVE-2026-117532 (2026-10-27)
 
@@ -24097,6 +24166,8 @@
 - [DeFexNN/defex-ngnix](https://github.com/DeFexNN/defex-ngnix)
 - [josueportillo/nginx2root-scanner](https://github.com/josueportillo/nginx2root-scanner)
 - [c0re-i5/intbug-lab](https://github.com/c0re-i5/intbug-lab)
+- [genaforvena/nginx2root](https://github.com/genaforvena/nginx2root)
+- [weitek/nginx2root](https://github.com/weitek/nginx2root)
 
 ### CVE-2026-123014 (2026-11-05)
 
@@ -24718,6 +24789,7 @@
 </code>
 
 - [Yanixos/APACHE-CVE-2026-129448](https://github.com/Yanixos/APACHE-CVE-2026-129448)
+- [foxcornlab/apache-roller-scanner](https://github.com/foxcornlab/apache-roller-scanner)
 
 ### CVE-2026-129491 (2026-11-16)
 
@@ -24834,6 +24906,41 @@
 
 - [googlesky/CVE-2026-132252](https://github.com/googlesky/CVE-2026-132252)
 
+### CVE-2026-132745 (2026-11-18)
+
+<code>Vtiger CRM through 8.4.0 contains a blind SQL injection vulnerability that allows authenticated non-administrative users to inject SQL through the k (does not contain) comparator in list view search_params. Attackers can send crafted search_params to the ListAjax getRecordsCount mode, breaking out of the unescaped NOT LIKE clause to extract database contents via boolean or time-based techniques.
+</code>
+
+- [SHAHID-XT/CVE-2026-132745-Vtiger-CRM-Blind-SQLi](https://github.com/SHAHID-XT/CVE-2026-132745-Vtiger-CRM-Blind-SQLi)
+
+### CVE-2026-132746 (2026-11-18)
+
+<code>Vtiger CRM through 8.4.0 contains a blind SQL injection vulnerability that allows authenticated low-privileged users to inject SQL via unescaped clientid values in the wsapp_map webservice operation. Attackers can register a sync application with wsapp_register, then send delete-mode entries with quoted clientid values processed by SyncServer.php to extract database contents including administrator access keys.
+</code>
+
+- [SHAHID-XT/CVE-2026-132746-Vtiger-CRM-WSAPP-SQLi-](https://github.com/SHAHID-XT/CVE-2026-132746-Vtiger-CRM-WSAPP-SQLi-)
+
+### CVE-2026-132747 (2026-11-18)
+
+<code>Vtiger CRM through 8.4.0 contains an SQL injection vulnerability that allows authenticated users with export access to inject SQL through unvalidated selected_ids values in ExportData.php. Attackers can send a UNION SELECT payload in selected_ids[] to the ExportSelectedRecords mode and read password hashes and access keys from the exported CSV.
+</code>
+
+- [SHAHID-XT/CVE-2026-132747-Vtiger-CRM-ExportData-SQLi](https://github.com/SHAHID-XT/CVE-2026-132747-Vtiger-CRM-ExportData-SQLi)
+
+### CVE-2026-132748 (2026-11-18)
+
+<code>Vtiger CRM through 8.4.0 contains a PHP code injection vulnerability that allows authenticated administrators to inject code via the updatedFields parameter into config.inc.php. Attackers can supply a crafted HELPDESK_SUPPORT_EMAIL_ID value that passes email validation but closes the PHP string literal to execute arbitrary operating system commands.
+</code>
+
+- [SHAHID-XT/CVE-2026-132748-Vtiger-CRM-PHP-Code-Injection](https://github.com/SHAHID-XT/CVE-2026-132748-Vtiger-CRM-PHP-Code-Injection)
+
+### CVE-2026-132749 (2026-11-18)
+
+<code>Vtiger CRM through 8.4.0 contains a blind SQL injection vulnerability in ReportRun::generateAdvFilterSql() that allows authenticated low-privileged users to inject SQL via the bw comparator. Attackers can send a crafted advanced_filter parameter containing a single quote to the Reports getRecordsCount action to break out of BETWEEN literals and extract database contents.
+</code>
+
+- [SHAHID-XT/CVE-2026-132749-Vtiger-CRM-Reports-SQLi](https://github.com/SHAHID-XT/CVE-2026-132749-Vtiger-CRM-Reports-SQLi)
+
 ### CVE-2026-132825 (2026-11-19)
 
 <code>Ruby before 3.3.14, 3.4.13, and 4.0.10 has a heap-based buffer overflow during case conversion. One byte can be written outside a buffer for, for example, ISO-8859-1 or Windows-1252.
@@ -24841,6 +24948,7 @@
 
 - [scadastrangelove/ruby2shell](https://github.com/scadastrangelove/ruby2shell)
 - [evenomn/CVE-2026-132825](https://github.com/evenomn/CVE-2026-132825)
+- [Mahgal/ruby2shell-check](https://github.com/Mahgal/ruby2shell-check)
 
 ### CVE-2026-133113 (2026-11-19)
 
@@ -24918,6 +25026,13 @@
 </code>
 
 - [VulnSVNC/CVE-2026-133305](https://github.com/VulnSVNC/CVE-2026-133305)
+
+### CVE-2026-133481 (2026-11-19)
+
+<code>In Dolibarr before 24.0.3, /api/index.php/eventattendees discloses attendee and project data regardless of the caller's permissions. Only 22.0.0 and later (where api_eventattendees.class.php exists) are affected. A remote authenticated user can obtain column values one character at a time.
+</code>
+
+- [googlesky/CVE-2026-133481](https://github.com/googlesky/CVE-2026-133481)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -26625,6 +26740,7 @@
 - [jopraveen/CVE-2025-6554](https://github.com/jopraveen/CVE-2025-6554)
 - [Muhammednihalmp/Google-chrome-zero-day](https://github.com/Muhammednihalmp/Google-chrome-zero-day)
 - [aklnjakln/CVE-2025-6554](https://github.com/aklnjakln/CVE-2025-6554)
+- [zhanghangjie/CVE-2025-6554-CYL1](https://github.com/zhanghangjie/CVE-2025-6554-CYL1)
 
 ### CVE-2025-6558 (2025-07-15)
 
@@ -28846,6 +28962,7 @@
 - [KuanKuanQAQ/cve-testing](https://github.com/KuanKuanQAQ/cve-testing)
 - [khoatran107/cve-2025-21756](https://github.com/khoatran107/cve-2025-21756)
 - [h3raklez/CVE-2025-21756](https://github.com/h3raklez/CVE-2025-21756)
+- [zhanghangjie/CVE-2025-21756-VM](https://github.com/zhanghangjie/CVE-2025-21756-VM)
 
 ### CVE-2025-22131 (2025-01-20)
 
@@ -31315,7 +31432,7 @@
 - [EthanEvans92/CVE-2025-32463](https://github.com/EthanEvans92/CVE-2025-32463)
 - [Fomovet/cve-2025-32463](https://github.com/Fomovet/cve-2025-32463)
 - [0xdak/CVE-2025-32463_exploit](https://github.com/0xdak/CVE-2025-32463_exploit)
-- [jigrit/CVE-2025-32463](https://github.com/jigrit/CVE-2025-32463)
+- [jigrit/CVE_Analysis](https://github.com/jigrit/CVE_Analysis)
 - [roock3t/CVE-2025-32463](https://github.com/roock3t/CVE-2025-32463)
 
 ### CVE-2025-32579 (2025-04-11)
@@ -39780,6 +39897,7 @@
 - [minhi1/CVE-2024-4367](https://github.com/minhi1/CVE-2024-4367)
 - [remiBoudreau/CVE-2024-4367](https://github.com/remiBoudreau/CVE-2024-4367)
 - [SeVen-777777/cve-2024-4367-poc](https://github.com/SeVen-777777/cve-2024-4367-poc)
+- [toobunbo/CVE-2024-4367](https://github.com/toobunbo/CVE-2024-4367)
 
 ### CVE-2024-4406 (2024-05-02)
 
@@ -74448,6 +74566,8 @@
 - [HanaBouikni/Log4Shell-Incident-Report-CVE-2021-44228](https://github.com/HanaBouikni/Log4Shell-Incident-Report-CVE-2021-44228)
 - [johnyProDev/CVE-2021-44228-PoC](https://github.com/johnyProDev/CVE-2021-44228-PoC)
 - [Morgenlicht1210/log4j2-cve-2021-44228-poc](https://github.com/Morgenlicht1210/log4j2-cve-2021-44228-poc)
+- [minBuild/unhacked](https://github.com/minBuild/unhacked)
+- [for-toolathlon/log4shell-research-brief](https://github.com/for-toolathlon/log4shell-research-brief)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -82301,7 +82421,7 @@
 - [wolf1892/CVE-2019-7609](https://github.com/wolf1892/CVE-2019-7609)
 - [Cr4ckC4t/cve-2019-7609](https://github.com/Cr4ckC4t/cve-2019-7609)
 - [d0x-awrqxavc/CVE-2019-7609-KibanaRCE](https://github.com/d0x-awrqxavc/CVE-2019-7609-KibanaRCE)
-- [Akshay15-png/CVE-2019-7609](https://github.com/Akshay15-png/CVE-2019-7609)
+- [kaali0001/CVE-2019-7609](https://github.com/kaali0001/CVE-2019-7609)
 - [aleister1102/kibana-prototype-pollusion](https://github.com/aleister1102/kibana-prototype-pollusion)
 - [toxxxaka/CVE-2019-7609](https://github.com/toxxxaka/CVE-2019-7609)
 - [CyberCTF/vulhub-kibana-cve-2019-7609](https://github.com/CyberCTF/vulhub-kibana-cve-2019-7609)
@@ -93514,6 +93634,13 @@
 </code>
 
 - [MayaOfVeil/CVE-2015-1986](https://github.com/MayaOfVeil/CVE-2015-1986)
+
+### CVE-2015-2025 (2015-10-04)
+
+<code>IBM WebSphere eXtreme Scale 7.1.0 before 7.1.0.3 and 7.1.1 before 7.1.1.1 does not set the secure flag for the session cookie in an https session, which makes it easier for remote attackers to capture this cookie by intercepting its transmission within an http session.
+</code>
+
+- [Ethanpr05/cve-2015-2025-analisis](https://github.com/Ethanpr05/cve-2015-2025-analisis)
 
 ### CVE-2015-2153 (2015-03-24)
 
