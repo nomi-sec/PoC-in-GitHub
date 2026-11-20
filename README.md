@@ -323,7 +323,6 @@
 <code>Kernel driver ProcessMonitorDriver.sys in Safetica's endpoint client x64 , versions 10.5.75.0 and 11.11.4.0, allows unprivileged user to abuse IOCTL path and terminate protected system processes.
 </code>
 
-- [KOSEC-LLC/BYOVD-Research](https://github.com/KOSEC-LLC/BYOVD-Research)
 - [DeathShotXD/0xKern3lCrush](https://github.com/DeathShotXD/0xKern3lCrush)
 - [ANYLNK/STProcessMonitorBYOVD](https://github.com/ANYLNK/STProcessMonitorBYOVD)
 - [oxfemale/KillChain](https://github.com/oxfemale/KillChain)
@@ -1165,7 +1164,6 @@
 <code>Wellbia's XIGNCODE3 xhunter1.sys kernel driver, version 10.0.10011.16384 through 2023.12.7.78, privilege escalation vulnerability provides access to the IRP_MJ_WRITE command interface, which allows any user process to request a PROCESS_ALL_ACCESS.\r\n\r\nNote: KVE 2023-5589 (https://krcert.or.kr) was initially issued for version 10.0.10011.16384, but the vulnerability was not fully remediated and remains in version 2023.12.7.78.
 </code>
 
-- [BlackSnufkin/BYOVD](https://github.com/BlackSnufkin/BYOVD)
 - [BlackSnufkin/CredsHunter](https://github.com/BlackSnufkin/CredsHunter)
 
 ### CVE-2026-3611 (2026-03-12)
@@ -1529,13 +1527,6 @@
 </code>
 
 - [lufeng78/tenda-ac6-cve-2026-4961-patch](https://github.com/lufeng78/tenda-ac6-cve-2026-4961-patch)
-
-### CVE-2026-5000 (2026-03-28)
-
-<code>A vulnerability was detected in PromtEngineer localGPT up to 4d41c7d1713b16b216d8e062e51a5dd88b20b054. Impacted is the function LocalGPTHandler of the file backend/server.py of the component API Endpoint. The manipulation of the argument BaseHTTPRequestHandler results in missing authentication. The attack can be executed remotely. This product implements a rolling release for ongoing delivery, which means version information for affected or updated releases is unavailable. The vendor was contacted early about this disclosure but did not respond in any way.
-</code>
-
-- [Perl-Code/CVE-2026-5000](https://github.com/Perl-Code/CVE-2026-5000)
 
 ### CVE-2026-5006 (2026-08-24)
 
@@ -2524,7 +2515,6 @@
 <code>Memory overflow vulnerability NetScaler ADC and NetScaler Gateway leading to unpredictable or erroneous behavior and Denial of Service if the appliance is configured as a Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy) or AAA virtual server
 </code>
 
-- [securekomodo/citrixInspector](https://github.com/securekomodo/citrixInspector)
 - [watchtowrlabs/watchTowr-vs-Citrix-Netscaler-PreAuth-RCE-CVE-2026-8452](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-PreAuth-RCE-CVE-2026-8452)
 - [BishopFox/CVE-2026-8452-check](https://github.com/BishopFox/CVE-2026-8452-check)
 - [maxprog-svg/CitrixBleedCVE-2026-8452-2025-5777](https://github.com/maxprog-svg/CitrixBleedCVE-2026-8452-2025-5777)
@@ -2686,6 +2676,7 @@
 - [thinhap/CVE-2026-9082-PoC](https://github.com/thinhap/CVE-2026-9082-PoC)
 - [11romain/CVE-2026-9082](https://github.com/11romain/CVE-2026-9082)
 - [sourcecode347/CVE-2026-9082-Mass_Scanner](https://github.com/sourcecode347/CVE-2026-9082-Mass_Scanner)
+- [begimher/calix-cve-2026-9082-recovery](https://github.com/begimher/calix-cve-2026-9082-recovery)
 
 ### CVE-2026-9086 (2026-06-25)
 
@@ -6553,13 +6544,6 @@
 
 - [Christbowel/CVE-2026-25050](https://github.com/Christbowel/CVE-2026-25050)
 
-### CVE-2026-25053 (2026-02-04)
-
-<code>n8n is an open source workflow automation platform. Prior to versions 1.123.10 and 2.5.0, vulnerabilities in the Git node allowed authenticated users with permission to create or modify workflows to execute arbitrary system commands or read arbitrary files on the n8n host. This issue has been patched in versions 1.123.10 and 2.5.0.
-</code>
-
-- [yadhukrishnam/CVE-2026-25053](https://github.com/yadhukrishnam/CVE-2026-25053)
-
 ### CVE-2026-25057 (2026-02-09)
 
 <code>MarkUs is a web application for the submission and grading of student assignments. Prior to 2.9.1, instructors are able to upload a zip file to create an assignment from an exported configuration (courses/&lt;:course_id&gt;/assignments/upload_config_files). The uploaded zip file entry names are used to create paths to write files to disk without checking these paths. This vulnerability is fixed in 2.9.1.
@@ -6786,13 +6770,6 @@
 
 - [jduardo2704/CVE-2026-25643-Frigate-RCE](https://github.com/jduardo2704/CVE-2026-25643-Frigate-RCE)
 - [joshuavanderpoll/CVE-2026-25643](https://github.com/joshuavanderpoll/CVE-2026-25643)
-
-### CVE-2026-25645 (2026-03-25)
-
-<code>Requests is a HTTP library. Prior to version 2.33.0, the `requests.utils.extract_zipped_paths()` utility function uses a predictable filename when extracting files from zip archives into the system temporary directory. If the target file already exists, it is reused without validation. A local attacker with write access to the temp directory could pre-create a malicious file that would be loaded in place of the legitimate one. Standard usage of the Requests library is not affected by this vulnerability. Only applications that call `extract_zipped_paths()` directly are impacted. Starting in version 2.33.0, the library extracts files to a non-deterministic location. If developers are unable to upgrade, they can set `TMPDIR` in their environment to a directory with restricted write access.
-</code>
-
-- [Jaycelation/CVE-2026-25645](https://github.com/Jaycelation/CVE-2026-25645)
 
 ### CVE-2026-25676 (2026-02-12)
 
@@ -10137,13 +10114,6 @@
 ### CVE-2026-36834
 - [kpatsakis/CVE-2026-36834](https://github.com/kpatsakis/CVE-2026-36834)
 
-### CVE-2026-36848 (2026-06-29)
-
-<code>Gigamon GVOS v5.16.1 and below is vulnerable to Directory Traversal in the GVOS H-VUE subsystem.
-</code>
-
-- [calligraf0/CVE-2026-36848](https://github.com/calligraf0/CVE-2026-36848)
-
 ### CVE-2026-36851 (2026-08-26)
 
 <code>Path traversal vulnerability in UnPoller 2.33.0 password field allows arbitrary file read and network exfiltration.
@@ -12239,13 +12209,6 @@
 - [lxxexxbxx/CVE-2026-44578](https://github.com/lxxexxbxx/CVE-2026-44578)
 - [isaca0315/CVE-2026-44578-next-js-ssrf](https://github.com/isaca0315/CVE-2026-44578-next-js-ssrf)
 
-### CVE-2026-44579 (2026-05-13)
-
-<code>Next.js is a React framework for building full-stack web applications. From  to before 15.5.16 and 16.2.5, applications using Partial Prerendering through the Cache Components feature can be vulnerable to connection exhaustion through crafted POST requests to a server action. In affected configurations, a malicious request can trigger a request-body handling deadlock that leaves connections open for an extended period, consuming file descriptors and server capacity until legitimate users are denied service. This vulnerability is fixed in 15.5.16 and 16.2.5.
-</code>
-
-- [iamfarzad/fbcounsulting_v2](https://github.com/iamfarzad/fbcounsulting_v2)
-
 ### CVE-2026-44590 (2026-05-27)
 
 <code>Sherlock hunts down social media accounts by username across social networks. Prior to 0.16.1, the GitHub Actions workflow validate_modified_targets.yml is vulnerable to command injection via the pull_request_target trigger. Any GitHub user can execute arbitrary commands on the CI runner and exfiltrate the GITHUB_TOKEN by opening a pull request. No approval, review, or merge is required. This vulnerability is fixed in 0.16.1.
@@ -13928,13 +13891,6 @@
 ### CVE-2026-52618
 - [s1ko/CVE-2026-52618](https://github.com/s1ko/CVE-2026-52618)
 
-### CVE-2026-52656 (2026-07-20)
-
-<code>An issue in SJCAM AllWinner Tech products SJ4000-Air V1.4C and before and Whitelabel based v.1.4C and before allows an attacker to execute arbitrary code via a crafted FEX file
-</code>
-
-- [keowu/sjcam](https://github.com/keowu/sjcam)
-
 ### CVE-2026-52658
 - [mirackayikci/CVE-2026-52658](https://github.com/mirackayikci/CVE-2026-52658)
 
@@ -15160,6 +15116,9 @@
 ### CVE-2026-59331
 - [daehyuh/CVE-2026-59331](https://github.com/daehyuh/CVE-2026-59331)
 
+### CVE-2026-59336
+- [daehyuh/CVE-2026-59336](https://github.com/daehyuh/CVE-2026-59336)
+
 ### CVE-2026-59346 (2026-10-07)
 
 <code>VMware Workstation and Fusion contain an integer-overflow vulnerability. A malicious actor with local administrative privileges on a virtual machine with VMXNET3 virtual network adapter may exploit this issue to execute code on the host.\n\nAffected versions:\n- VMware Workstation: 25H2, 26H1 (fixed in 26H1u1)\n- VMware Fusion: 25H2, 26H1 (fixed in 26H1u1)
@@ -15173,6 +15132,18 @@
 </code>
 
 - [abraxas/CVE-2026-59358](https://github.com/abraxas/CVE-2026-59358)
+
+### CVE-2026-59392
+- [daehyuh/CVE-2026-59392](https://github.com/daehyuh/CVE-2026-59392)
+
+### CVE-2026-59398
+- [daehyuh/CVE-2026-59398](https://github.com/daehyuh/CVE-2026-59398)
+
+### CVE-2026-59415
+- [daehyuh/CVE-2026-59415](https://github.com/daehyuh/CVE-2026-59415)
+
+### CVE-2026-59417
+- [daehyuh/CVE-2026-59417](https://github.com/daehyuh/CVE-2026-59417)
 
 ### CVE-2026-59550 (2026-07-27)
 
@@ -15597,6 +15568,7 @@
 - [Tersurrr/Orga-Tersur-Daniel-CVE-2026-63030](https://github.com/Tersurrr/Orga-Tersur-Daniel-CVE-2026-63030)
 - [l-i-uqing/CVE-2026-63030-wp2shell-repro](https://github.com/l-i-uqing/CVE-2026-63030-wp2shell-repro)
 - [noxcrypt-x/CVE-2026-63030](https://github.com/noxcrypt-x/CVE-2026-63030)
+- [SanWRoot/wp2shell-LAB-POC](https://github.com/SanWRoot/wp2shell-LAB-POC)
 
 ### CVE-2026-63039 (2026-08-20)
 
@@ -15706,7 +15678,6 @@
 </code>
 
 - [timothyckl/CVE-2026-63686](https://github.com/timothyckl/CVE-2026-63686)
-- [duruton/CVE-2026-63686-Dalton-Tim-](https://github.com/duruton/CVE-2026-63686-Dalton-Tim-)
 
 ### CVE-2026-63720 (2026-07-26)
 
@@ -16747,13 +16718,6 @@
 </code>
 
 - [Reelix/CVE-2026-71217-PoC](https://github.com/Reelix/CVE-2026-71217-PoC)
-
-### CVE-2026-71294 (2026-08-05)
-
-<code>Cotonti CMS's Comments plugin deserializes user-supplied data without restricting the classes that may be instantiated. In plugins/comments/controllers/actions/CreateAction.php, a POST parameter obtained via (trim-only sanitization) is passed to with no restriction, reachable by any member with write access to comments (the default setting in plugins/comments/comments.setup.php).
-</code>
-
-- [HarshRajSinghania/cotonti-commentswidget-poc](https://github.com/HarshRajSinghania/cotonti-commentswidget-poc)
 
 ### CVE-2026-71300 (2026-08-24)
 
@@ -18842,13 +18806,6 @@
 
 - [LHeiakim/CVE-2026-86478-PoC](https://github.com/LHeiakim/CVE-2026-86478-PoC)
 
-### CVE-2026-86547 (2026-09-09)
-
-<code>mrubyc through 4.0.0 contains a null pointer dereference vulnerability in the op_enter() handler in src/vm.c when processing untrusted bytecode. Attackers can craft malicious .mrb bytecode files with OP_ENTER instructions at the top level to crash the embedding application and cause denial of service.
-</code>
-
-- [HarshRajSinghania/cve-2026-86547-mrubyc-op-enter](https://github.com/HarshRajSinghania/cve-2026-86547-mrubyc-op-enter)
-
 ### CVE-2026-86552 (2026-09-20)
 
 <code>SmartLife app dynamically generates brand‑new SmartLife application authentication parameters at runtime. With the acquired SmartLife application authentication credentials, an attacker can directly complete registration using any arbitrary email address via the backend interface /account/person/signup.serv. Email ownership is not verified prior to registration.
@@ -19307,20 +19264,6 @@
 - [foxcornlab/confluence-axis-scanner](https://github.com/foxcornlab/confluence-axis-scanner)
 - [dinosn/axis-cve-2026-90436-lab-poc](https://github.com/dinosn/axis-cve-2026-90436-lab-poc)
 - [evenomn/CVE-2026-90436](https://github.com/evenomn/CVE-2026-90436)
-
-### CVE-2026-90781 (2026-09-13)
-
-<code>alsa-lib through 1.2.16.1 contains a stack buffer overflow in the __snd_ctl_ascii_elem_id_parse() function that writes one byte past a 64-byte buffer when parsing a name= field with 64 or more characters. Attackers can supply a long control-element identifier string through saved state files or command-line arguments to overwrite adjacent stack memory and crash the calling process.
-</code>
-
-- [HarshRajSinghania/CVE-2026-90781-alsa-lib-oob](https://github.com/HarshRajSinghania/CVE-2026-90781-alsa-lib-oob)
-
-### CVE-2026-90782 (2026-09-13)
-
-<code>S2OPC through 1.7.3 contains a null pointer dereference in msg_subscription_publish_bs__alloc_notification_message_items() where a failed allocation for DataChangeNotification is overwritten by a successful allocation for EventNotificationList. Attackers can trigger heap allocation failures on sessions with both data-change and event notifications to cause the server process to terminate.
-</code>
-
-- [HarshRajSinghania/CVE-2026-90782-s2opc-status-clobber](https://github.com/HarshRajSinghania/CVE-2026-90782-s2opc-status-clobber)
 
 ### CVE-2026-90817 (2026-09-20)
 
@@ -20455,6 +20398,13 @@
 - [mustafasaydam/CVE-2026-99288---NoisyTCP-Exploit](https://github.com/mustafasaydam/CVE-2026-99288---NoisyTCP-Exploit)
 - [donxud/NoisyTCP-Blue-Team-Playbook](https://github.com/donxud/NoisyTCP-Blue-Team-Playbook)
 
+### CVE-2026-99312 (2026-11-18)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: x86: Unconditionally reset MMU context when emulating INIT\n\nForce an MMU reset when emulating an INIT even if paging was already\ndisabled, as the MMU page role includes guest_mode (L2), i.e. an INIT while\nL2 is running with CR0.PG=0 will result in KVM running L1 with a stale MMU\ncontext.\n\nAlternatively, the reset could be scoped strictly to paging being enabled\nor L2 being active, but SMM is also encoded in the page role.  Even though\nit _should_ be impossible for the vCPU to be INIT'd while SMM is active,\nthere's zero value in not handling SMM.  At that point, the only scenario\nwhere KVM _doesn't_ need to reset the MMU context is on an INIT with the\nvCPU running in Real Mode or Unpaged Protect Mode, and while INIT in those\nmodes is somewhat common, it's far from a hot path and re-initializing the\nMMU is not expensive, especially when the role isn't changing (KVM elides\nmost of the re-configuration in that case).\n\nNote, like the Fixes commit, this bug only affects nested SVM as INIT is an\nunconditional intercept on VMX, i.e. it's impossible to emulate INIT while\nL2 is active.\n\nTemporarily keep the guest TLB flush when CR0.PG is being cleared even\nthough it is fully redundant with the flush that is emitted on all INIT\nevents (KVM itself only does RESET when a vCPU is being created, i.e. when\nCR0.PG must be '0').
+</code>
+
+- [jmginer/pve-cve-2026-99312](https://github.com/jmginer/pve-cve-2026-99312)
+
 ### CVE-2026-99999 (2026-10-15)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nipv4: validate checksum_start before completing checksum\n\nIf a packet with bad checksum metadata gets into the ipv4 stack,\nskb_checksum_help can corrupt the network header and cause a bunch of\nmischief.\n\nThis was discovered and reported by Paulos, and has been reporoduced\nby others independently since.\n\nWe really shouldn't allow such packets in, but as a defence\nin depth measure, let's also check before we complete the checksum.\n\nA more complete validation at input is forthcoming, but needs more work.
@@ -20604,7 +20554,7 @@
 
 ### CVE-2026-101107 (2026-11-12)
 
-<code>An OS command Injection issue exists in Air Terminal 6 provided by SoftBank Corp. Arbitrary commands may be executed with the root privilege by a user who can log in to the web management console of the affected product.
+<code>An OS command Injection issue exists in Air Terminal 6 provided by SoftBank Corp. Arbitrary commands may be executed with the root privilege by a user who can connect to the affected product via a wired or Wi-Fi connection.
 </code>
 
 - [code-raisan/CVE-2026-101107-PoC-SBA6RCE-SAFETY](https://github.com/code-raisan/CVE-2026-101107-PoC-SBA6RCE-SAFETY)
@@ -21848,7 +21798,7 @@
 - [BigHackerManXD/php-upload-progress-hardening-wp](https://github.com/BigHackerManXD/php-upload-progress-hardening-wp)
 - [mahumadad/php2shell-analysis](https://github.com/mahumadad/php2shell-analysis)
 - [0-draft/php2shell-anatomy](https://github.com/0-draft/php2shell-anatomy)
-- [k0x-offsec/php2shell-shield](https://github.com/k0x-offsec/php2shell-shield)
+- [AdriaBonilla/php2shell-shield](https://github.com/AdriaBonilla/php2shell-shield)
 - [grupooruss/php2shell-test](https://github.com/grupooruss/php2shell-test)
 - [Nayrae/CVE-2026-109618](https://github.com/Nayrae/CVE-2026-109618)
 - [xtrasign/php2shell-shield](https://github.com/xtrasign/php2shell-shield)
@@ -23367,7 +23317,6 @@
 - [shivabalaj/CVE-2026-114938](https://github.com/shivabalaj/CVE-2026-114938)
 - [rzkyp/java4shell-lab](https://github.com/rzkyp/java4shell-lab)
 - [gbuyssens/CVE-2026-114938-Check](https://github.com/gbuyssens/CVE-2026-114938-Check)
-- [gbuyssens/CVE-2026-114938](https://github.com/gbuyssens/CVE-2026-114938)
 - [tc4dy/CVE-2026-114938-Toolkit](https://github.com/tc4dy/CVE-2026-114938-Toolkit)
 - [kjry8sb/java4shell_CVE-2026-114938](https://github.com/kjry8sb/java4shell_CVE-2026-114938)
 - [FoxKyong/java4shell-checks](https://github.com/FoxKyong/java4shell-checks)
@@ -23739,6 +23688,7 @@
 </code>
 
 - [googlesky/CVE-2026-117517](https://github.com/googlesky/CVE-2026-117517)
+- [LLCForge/CVE-2026-117517](https://github.com/LLCForge/CVE-2026-117517)
 
 ### CVE-2026-117532 (2026-10-27)
 
@@ -23966,7 +23916,6 @@
 <code>WordPress Core is vulnerable to Remote Code Execution in versions 4.7 through 7.1.3. This is due to predictable, web-accessible staging paths used during full-package core upgrades. This makes it possible for unauthenticated attackers to execute code on the server during the upgrade window.
 </code>
 
-- [paulmann/Bash_WP-CLI_Update](https://github.com/paulmann/Bash_WP-CLI_Update)
 - [foxcornlab/wordpress-core-scanner](https://github.com/foxcornlab/wordpress-core-scanner)
 - [lysophavin18/CVE-2026-119977](https://github.com/lysophavin18/CVE-2026-119977)
 - [Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4](https://github.com/Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4)
@@ -24019,13 +23968,6 @@
 
 - [7xd10/CVE-2026-120318](https://github.com/7xd10/CVE-2026-120318)
 
-### CVE-2026-120490 (2026-11-12)
-
-<code>On Scalable Platforms, an administrator with permissions to edit and install the Access Control Policy and NAT rules can create a NAT rule that redirects traffic to the Gateway's Sync interface, bypassing the built-in Sync protection. This could allow the administrator to execute operating system commands and write files on the Gateway with superuser privileges.
-</code>
-
-- [sadshade/checkpoint-gexec-poc](https://github.com/sadshade/checkpoint-gexec-poc)
-
 ### CVE-2026-120491 (2026-11-02)
 
 <code>Wing FTP Server before 8.2.6 contains a stored cross-site scripting vulnerability that allows authenticated web-client users to inject script by sending a crafted nowpath parameter to webclient/makethumb.html. Attackers can break out of the directory CDATA section in admin_get_lastconn.html XML to forge a connection id, which executes in administrators' browsers when admin_connection_list.html auto-refreshes, enabling Lua console abuse.
@@ -24053,6 +23995,13 @@
 </code>
 
 - [googlesky/CVE-2026-121265](https://github.com/googlesky/CVE-2026-121265)
+
+### CVE-2026-121481 (2026-11-18)
+
+<code>Issue summary: Calling EVP_EncodeBlock() with an input length close to INT_MAX\nmay overflow the calculation of the encoded output size and write past the end\nof the caller-supplied output buffer.\n\nImpact summary: No path by which an attacker can trigger this has been\nidentified. An application that passes an input length near INT_MAX to\nEVP_EncodeBlock() could suffer a heap buffer overflow, crashing or corrupting\nits own memory, but it must itself supply such a length.\n\nCWE: CWE-190: Integer Overflow or Wraparound\n\nDescription: EVP_EncodeBlock() base64-encodes a buffer of a caller-supplied\nlength into an output buffer that the caller allocates. The caller is expected\nto reserve 4*((len+2)/3)+1 bytes. For input lengths close to INT_MAX, the\narithmetic that computes the encoded length overflows a signed integer, so the\nfunction writes more data than the documented output size. The result is a\nheap buffer overflow in the calling process.\n\nReaching this requires an application to pass an input length near INT_MAX to\nEVP_EncodeBlock(). OpenSSL's TLS, QUIC and CMS implementations never encode\nbuffers of that size, and the command line tools cannot practically be made to\ndo so: the limits on reading a proxy password from a file and on bignum sizes\nprevent it. An application that accepts an attacker-controlled length and\nforwards it to EVP_EncodeBlock() without its own bound check is exposed.\n\nThe severity is Low because no attacker-controlled path to the overflow is\nknown. The caller must already hold a buffer of about two gigabytes before the\ndefect can be reached.\n\nFIPS impact: no\nThe affected code is outside the FIPS module boundary.
+</code>
+
+- [Quaerendir/openssl-cve-2026-121481-audit](https://github.com/Quaerendir/openssl-cve-2026-121481-audit)
 
 ### CVE-2026-121529 (2026-11-10)
 
@@ -24168,6 +24117,8 @@
 - [c0re-i5/intbug-lab](https://github.com/c0re-i5/intbug-lab)
 - [genaforvena/nginx2root](https://github.com/genaforvena/nginx2root)
 - [weitek/nginx2root](https://github.com/weitek/nginx2root)
+- [avoliomattia/NGINX-CVE-2026-123007-CVE-2026-123633](https://github.com/avoliomattia/NGINX-CVE-2026-123007-CVE-2026-123633)
+- [bytevet/h2flowcheck](https://github.com/bytevet/h2flowcheck)
 
 ### CVE-2026-123014 (2026-11-05)
 
@@ -24325,6 +24276,8 @@
 
 - [Cyber-BansalAI/vmware-vcenter-2026](https://github.com/Cyber-BansalAI/vmware-vcenter-2026)
 - [Quaerendir/cve-2026-123890-audit](https://github.com/Quaerendir/cve-2026-123890-audit)
+- [sanMuSec/vcenter-80u3m-patch-download](https://github.com/sanMuSec/vcenter-80u3m-patch-download)
+- [LLCForge/CVE-2026-123890](https://github.com/LLCForge/CVE-2026-123890)
 
 ### CVE-2026-124002 (2026-11-12)
 
@@ -24563,6 +24516,15 @@
 
 - [fixedbyreboot/CVE-2026-126539-POC](https://github.com/fixedbyreboot/CVE-2026-126539-POC)
 
+### CVE-2026-126714 (2026-11-19)
+
+<code>Partially overwritten session files can lead to remote code execution.\n\nThe files session save handler, which is the default, writes updated session data into the existing session file without first clearing it. If a write is interrupted, the file can contain the beginning of the new session followed by the end of the old one, and bytes of an ordinary string can later be unserialized as objects. An attacker who can influence the session data, for example through session upload progress, and interrupt a write at a suitable point may inject objects, which can lead to code execution when the application contains a suitable gadget chain. Session data can also be corrupted.\n\nThis issue affects PHP versions before 8.2.36, 8.3.* before 8.3.37, 8.4.* before 8.4.28 and 8.5.* before 8.5.13.
+</code>
+
+- [tani2shell/phpaftershell-lab](https://github.com/tani2shell/phpaftershell-lab)
+- [ashrafzaryouh/CVE-2026-126714](https://github.com/ashrafzaryouh/CVE-2026-126714)
+- [evenomn/cve-2026-126714-phpAfterShell](https://github.com/evenomn/cve-2026-126714-phpAfterShell)
+
 ### CVE-2026-126837 (2026-11-12)
 
 <code>A validation flaw in the DNS SRV host discovery of the MongoDB Node.js driver may cause the driver to connect to a host outside the expected domain. For a mongodb+srv:// connection string, the driver checks each host name in the DNS SRV response against the domain of the connection string. The driver then builds the connection address from the original name, in which certain characters end the host name early. An unauthenticated party who can forge or change the DNS SRV response may redirect the connection to a host of their choice. TLS does not prevent this, because the driver verifies the server certificate against the redirected host name. This may result in unintended disclosure of application data and authentication credentials, and in altered query results. Applications that use mongodb:// connection strings are not affected.
@@ -24713,6 +24675,13 @@
 
 - [Usama-Hanif131/CVE-2026-129254](https://github.com/Usama-Hanif131/CVE-2026-129254)
 
+### CVE-2026-129289 (2026-11-19)
+
+<code>PHP-FPM request smuggling through an unread HTTP request body.\n\nPHP does not discard the unread part of an HTTP request body at request shutdown when the application has opened php://input without reading it to the end. When the front end reuses backend connections, which is not the default in nginx or Apache (for example nginx with fastcgi_keep_conn on, or Apache mod_proxy_fcgi with enablereuse=on), PHP-FPM can parse the leftover bytes as a new FastCGI request. An unauthenticated remote attacker can use a single crafted multipart/form-data request to forge a backend request with chosen parameters such as SCRIPT_FILENAME, REMOTE_ADDR and PHP_ADMIN_VALUE, which can lead to execution of attacker-controlled PHP code. With LSAPI, subsequent requests on the connection can be disrupted.\n\nThis issue affects PHP versions before 8.2.36, 8.3.* before 8.3.37, 8.4.* before 8.4.28 and 8.5.* before 8.5.13.
+</code>
+
+- [LLCForge/CVE-2026-129289](https://github.com/LLCForge/CVE-2026-129289)
+
 ### CVE-2026-129349 (2026-11-15)
 
 <code>When authentication caching is enabled on DefaultLdapRealm, after a user logs in successfully once, subsequent logins for that user succeed with any password.\nA cached authentication skips the LDAP bind, and the AllowAllCredentialsMatcher installed by default in DefaultLdapRealm accepts any credentials, allowing an attacker who knows a valid username to authenticate as that user.\nThis issue affects all Apache Shiro versions through 3.0.0, only when using DefaultLdapRealm (or JndiLdapRealm) with authenticationCachingEnabled set to true, which is not the default.\n\nMitigation: Upgrade to version 3.0.1 or later, which fixes the issue by no longer installing AllowAllCredentialsMatcher by default.\nAlternatively, disable authentication caching on the LDAP realm (this is the default), or configure a credentials matcher, such as SimpleCredentialsMatcher, that verifies credentials against the cached authentication info.
@@ -24791,6 +24760,13 @@
 - [Yanixos/APACHE-CVE-2026-129448](https://github.com/Yanixos/APACHE-CVE-2026-129448)
 - [foxcornlab/apache-roller-scanner](https://github.com/foxcornlab/apache-roller-scanner)
 
+### CVE-2026-129474 (2026-11-19)
+
+<code>Use-after-free in magic method backtraces can lead to remote code execution.\n\nWhen collecting the arguments of a method call handled by __call() or __callStatic() for a backtrace, PHP can read stale values that may refer to freed memory. If a fatal error such as exceeding memory_limit occurs while an application enters such a call, with fatal_error_backtraces enabled (the default) and zend.exception_ignore_args disabled, a remote attacker who controls enough request data to influence memory allocation may cause memory corruption, crash the PHP worker or, with knowledge of memory addresses, execute arbitrary code. php.ini-production enables zend.exception_ignore_args, which prevents this.\n\nThis issue affects PHP versions 8.5.* before 8.5.13.
+</code>
+
+- [LLCForge/CVE-2026-129474](https://github.com/LLCForge/CVE-2026-129474)
+
 ### CVE-2026-129491 (2026-11-16)
 
 <code>Qbian61 forum-java commit 20f7e68 through commit 63152c4 contains a stored cross-site scripting vulnerability that allows authenticated users to inject script by posting unsanitized comment content rendered via jQuery .html() in the reply dialog. Attackers can post comments with img onerror payloads that execute when victims click Reply, stealing the non-HttpOnly sid session cookie to hijack accounts including administrators.
@@ -24825,6 +24801,7 @@
 </code>
 
 - [abraxas/php-tzcache-rce](https://github.com/abraxas/php-tzcache-rce)
+- [LLCForge/CVE-2026-129496](https://github.com/LLCForge/CVE-2026-129496)
 
 ### CVE-2026-129987 (2026-11-18)
 
@@ -24899,6 +24876,9 @@
 
 - [googlesky/CVE-2026-131873](https://github.com/googlesky/CVE-2026-131873)
 
+### CVE-2026-132165
+- [abraxas/drupal-install-takeover](https://github.com/abraxas/drupal-install-takeover)
+
 ### CVE-2026-132252 (2026-11-18)
 
 <code>A vulnerability was found in October CMS up to 4.4.6. This affects the function validateExternalImageHost of the file modules/system/classes/resizeimages/ValidatesExternalImages.php of the component Image Resizer. Performing a manipulation of the argument url results in server-side request forgery. The attack may be initiated remotely. The complexity of an attack is rather high. The exploitability is reported as difficult. The exploit has been made public and could be used. Upgrading to version 4.4.7 mitigates this issue. The patch is named f6372867006c03141944e7b57396a726eb02acf0. You should upgrade the affected component.
@@ -24949,6 +24929,8 @@
 - [scadastrangelove/ruby2shell](https://github.com/scadastrangelove/ruby2shell)
 - [evenomn/CVE-2026-132825](https://github.com/evenomn/CVE-2026-132825)
 - [Mahgal/ruby2shell-check](https://github.com/Mahgal/ruby2shell-check)
+- [techdevfun/ruby2shell](https://github.com/techdevfun/ruby2shell)
+- [ashrafzaryouh/CVE-2026-132825](https://github.com/ashrafzaryouh/CVE-2026-132825)
 
 ### CVE-2026-133113 (2026-11-19)
 
@@ -25026,6 +25008,14 @@
 </code>
 
 - [VulnSVNC/CVE-2026-133305](https://github.com/VulnSVNC/CVE-2026-133305)
+
+### CVE-2026-133430 (2026-11-19)
+
+<code>A flaw was found in Keycloak. This vulnerability allows an authenticated remote attacker to cause a denial of service by terminating active sessions of arbitrary users. When processing Security Assertion Markup Language (SAML) documents that lack a root signature, Keycloak accepts the request as long as any assertion within the document is signed, without verifying its context or placement. An attacker holding a validly signed assertion can embed it into an unsigned logout request for another user, causing Keycloak to accept the forged request and terminate the victim's session.
+</code>
+
+- [googlesky/CVE-2026-133430](https://github.com/googlesky/CVE-2026-133430)
+- [LLCForge/CVE-2026-133430](https://github.com/LLCForge/CVE-2026-133430)
 
 ### CVE-2026-133481 (2026-11-19)
 
@@ -31872,6 +31862,13 @@
 </code>
 
 - [toshithh/CVE-2025-38561](https://github.com/toshithh/CVE-2025-38561)
+
+### CVE-2025-38618 (2025-08-22)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nvsock: Do not allow binding to VMADDR_PORT_ANY\n\nIt is possible for a vsock to autobind to VMADDR_PORT_ANY. This can\ncause a use-after-free when a connection is made to the bound socket.\nThe socket returned by accept() also has port VMADDR_PORT_ANY but is not\non the list of unbound sockets. Binding it will result in an extra\nrefcount decrement similar to the one fixed in fcdd2242c023 (vsock: Keep\nthe binding until socket destruction).\n\nModify the check in __vsock_bind_connectible() to also prevent binding\nto VMADDR_PORT_ANY.
+</code>
+
+- [nanabingies/cve-2025-38618](https://github.com/nanabingies/cve-2025-38618)
 
 ### CVE-2025-38676 (2025-08-26)
 
@@ -50528,7 +50525,6 @@
 <code>SQL Injection in GitHub repository nilsteampassnet/teampass prior to 3.0.0.23.
 </code>
 
-- [HarshRajSinghania/CVE-2023-1545-Exploit](https://github.com/HarshRajSinghania/CVE-2023-1545-Exploit)
 - [zer0-dave/CVE-2023-1545-POC](https://github.com/zer0-dave/CVE-2023-1545-POC)
 - [sternstundes/CVE-2023-1545-POC-python](https://github.com/sternstundes/CVE-2023-1545-POC-python)
 - [gunzf0x/CVE-2023-1545](https://github.com/gunzf0x/CVE-2023-1545)
@@ -53988,6 +53984,13 @@
 </code>
 
 - [drkbcn/lblfixer_cve_2023_28447](https://github.com/drkbcn/lblfixer_cve_2023_28447)
+
+### CVE-2023-28450 (2023-03-15)
+
+<code>An issue was discovered in Dnsmasq before 2.90. The default maximum EDNS.0 UDP packet size was set to 4096 but should be 1232 because of DNS Flag Day 2020.
+</code>
+
+- [vitalelele/CVE-2023-28450-PoC](https://github.com/vitalelele/CVE-2023-28450-PoC)
 
 ### CVE-2023-28465 (2023-12-12)
 
@@ -61640,6 +61643,7 @@
 - [byt3quester/CVE-2022-22706-poc](https://github.com/byt3quester/CVE-2022-22706-poc)
 - [BennyWaitWhat/Sony-XBR-65X850D](https://github.com/BennyWaitWhat/Sony-XBR-65X850D)
 - [hrx114514x/vivo-y70s-temp-root](https://github.com/hrx114514x/vivo-y70s-temp-root)
+- [emdzej/sony-bravia-mtk-root](https://github.com/emdzej/sony-bravia-mtk-root)
 
 ### CVE-2022-22715 (2022-02-09)
 
@@ -68870,6 +68874,7 @@
 - [DERMOUCHERYAD/Linux-Privilege-Escalation-Pentest-Lab](https://github.com/DERMOUCHERYAD/Linux-Privilege-Escalation-Pentest-Lab)
 - [axisops/CVE-2021-4034](https://github.com/axisops/CVE-2021-4034)
 - [eshkoreee/CVE-2021-4034](https://github.com/eshkoreee/CVE-2021-4034)
+- [vukma25/CVE-2021-4034](https://github.com/vukma25/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -72660,7 +72665,7 @@
 - [metehangenel/MSHTML-CVE-2021-40444](https://github.com/metehangenel/MSHTML-CVE-2021-40444)
 - [Jeromeyoung/TIC4301_Project](https://github.com/Jeromeyoung/TIC4301_Project)
 - [tiagob0b/CVE-2021-40444](https://github.com/tiagob0b/CVE-2021-40444)
-- [kagura-maru/CVE-2021-40444-POC](https://github.com/kagura-maru/CVE-2021-40444-POC)
+- [mzn41/CVE-2021-40444-POC](https://github.com/mzn41/CVE-2021-40444-POC)
 - [Zeop-CyberSec/word_mshtml](https://github.com/Zeop-CyberSec/word_mshtml)
 - [Alexcot25051999/CVE-2021-40444](https://github.com/Alexcot25051999/CVE-2021-40444)
 - [lisinan988/CVE-2021-40444-exp](https://github.com/lisinan988/CVE-2021-40444-exp)
