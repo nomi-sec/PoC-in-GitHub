@@ -6287,6 +6287,7 @@
 - [ekomsSavior/telnet_scan](https://github.com/ekomsSavior/telnet_scan)
 - [ahmadsadeeq/TelnetdBypass-](https://github.com/ahmadsadeeq/TelnetdBypass-)
 - [tc4dy/CVE-2026-24061-PoC-Exploit](https://github.com/tc4dy/CVE-2026-24061-PoC-Exploit)
+- [anxs3c/CVE-2026-24061-GNU-InetUtils-telnetd](https://github.com/anxs3c/CVE-2026-24061-GNU-InetUtils-telnetd)
 - [akpmarcelin/CVE-2026-24061-lab](https://github.com/akpmarcelin/CVE-2026-24061-lab)
 - [kyukazamiqq/CVE-2026-24061](https://github.com/kyukazamiqq/CVE-2026-24061)
 - [harygovind/CVE-2026-24061](https://github.com/harygovind/CVE-2026-24061)
@@ -15887,7 +15888,7 @@
 
 ### CVE-2026-64849 (2026-08-17)
 
-<code>MLflow is an open source AI engineering platform for agents, large language models, and machine learning models. Starting in 3.3.0 and prior to 3.15.0, the unauthenticated POST /api/2.0/mlflow/webhooks/{id}/test endpoint calls _validate_webhook_url() in mlflow/utils/validation.py only for the original URL while mlflow/webhooks/delivery.py follows redirects and re-resolves the hostname without pinning the validated address, allowing attackers to reach internal or cloud metadata services and receive response_status and response_body. This issue is fixed in version 3.15.0.
+<code>MLflow is an open source AI engineering platform for agents, large language models, and machine learning models. Starting in 3.3.0 and prior to 3.15.0, the POST /api/2.0/mlflow/webhooks/{id}/test endpoint (accessible without credentials when server authentication is not enabled) calls _validate_webhook_url() in mlflow/utils/validation.py only for the original URL while mlflow/webhooks/delivery.py follows redirects and re-resolves the hostname without pinning the validated address, allowing attackers to reach internal or cloud metadata services and receive response_status and response_body. The unauthenticated attack scenario described here applies to deployments without authentication. With MLflow’s built-in basic authentication enabled, requests to this endpoint require valid credentials; this issue does not itself bypass authentication. This issue is fixed in version 3.15.0.
 </code>
 
 - [BiuTrap/CVE-2026-64849](https://github.com/BiuTrap/CVE-2026-64849)
@@ -16730,6 +16731,13 @@
 
 - [oscerd/CVE-2026-71300](https://github.com/oscerd/CVE-2026-71300)
 
+### CVE-2026-71319 (2026-08-05)
+
+<code>Nuxt is an open-source web development framework for Vue.js. Prior to 3.3.1, Nuxt DevTools (development mode only) exposes a bidirectional RPC channel over the Vite HMR WebSocket via the nuxt:devtools:rpc plugin. On affected versions the channel has no authentication: any client that can reach the Vite HMR endpoint (ws://&lt;host&gt;:&lt;port&gt;/, subprotocol vite-hmr) can call RPC methods, with no token, handshake, or origin check before the channel is established. The updateOptions(), clearOptions(), and openInEditor() methods do not enforce the ensureDevAuthToken check that the other mutating methods use. openInEditor() reads the persisted behavior.openInEditor value and passes it to the launch-editor package, which spawns it as a child process. That value is settable through the equally unauthenticated updateOptions(). An attacker who can reach the HMR port can therefore chain updateOptions('behavior', { openInEditor: '&lt;command&gt;' }) then openInEditor('&lt;any-existing-file&gt;') to execute an arbitrary program on the developer's machine. This issue is fixed in 3.3.1.
+</code>
+
+- [TazmiDev/CVE-2026-71319](https://github.com/TazmiDev/CVE-2026-71319)
+
 ### CVE-2026-71362 (2026-08-11)
 
 <code>Adobe Commerce is affected by an Incorrect Authorization vulnerability that could result in privilege escalation. An attacker could leverage this vulnerability to gain elevated access to sensitive resources. Exploitation of this issue does not require user interaction.
@@ -17069,13 +17077,6 @@
 </code>
 
 - [fixedbyreboot/CVE-2026-73373-POC](https://github.com/fixedbyreboot/CVE-2026-73373-POC)
-
-### CVE-2026-73501 (2026-08-12)
-
-<code>kin-openapi is a Go project for handling OpenAPI files. Prior to 0.144.0, ValidationHandler.Load() in openapi3filter/validation_handler.go silently replaces a nil AuthenticationFunc with NoopAuthenticationFunc, which returns nil without checking credentials. This substitution causes every OpenAPI security requirement to be satisfied for unauthenticated requests when an application relies on ValidationHandler as its enforcement middleware. The no-op callback prevents the fail-closed ErrAuthenticationServiceMissing path from being reached and forwards the request to protected handlers that may require an API key, OAuth token, or another security scheme. This issue is fixed in version 0.144.0.
-</code>
-
-- [extencil/stop2shell](https://github.com/extencil/stop2shell)
 
 ### CVE-2026-73504 (2026-11-18)
 
@@ -21752,7 +21753,6 @@
 - [darkfibr/php2shell-detect](https://github.com/darkfibr/php2shell-detect)
 - [cloudducoeur/ansible-playbook-CVE-2026-109618](https://github.com/cloudducoeur/ansible-playbook-CVE-2026-109618)
 - [eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC](https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC)
-- [HOSTED-POWER/php_uploadprogress_guard](https://github.com/HOSTED-POWER/php_uploadprogress_guard)
 - [cagritopuz/php2shell](https://github.com/cagritopuz/php2shell)
 - [sxyrxyy/php2shell-cve-2026-109618-check](https://github.com/sxyrxyy/php2shell-cve-2026-109618-check)
 - [Amsozzer1/php2shell-repo-audit](https://github.com/Amsozzer1/php2shell-repo-audit)
@@ -22207,6 +22207,7 @@
 - [SideeID/php2shell](https://github.com/SideeID/php2shell)
 - [raeseoklee/php-safepatch](https://github.com/raeseoklee/php-safepatch)
 - [463861437/guard-for-php74](https://github.com/463861437/guard-for-php74)
+- [renyang-create/php2shell-repro](https://github.com/renyang-create/php2shell-repro)
 - [AbodyStudio/php2shell-shield](https://github.com/AbodyStudio/php2shell-shield)
 - [leejongyoung/php2shell-kr](https://github.com/leejongyoung/php2shell-kr)
 - [ahallais/php71-debian9-backport](https://github.com/ahallais/php71-debian9-backport)
@@ -22510,6 +22511,7 @@
 - [0xnoobsec/PHP2SHELL](https://github.com/0xnoobsec/PHP2SHELL)
 - [PVY-Smit/php2shell-defender](https://github.com/PVY-Smit/php2shell-defender)
 - [Prxnxv26/php2shell-cve-analysis](https://github.com/Prxnxv26/php2shell-cve-analysis)
+- [genaforvena/php2sec](https://github.com/genaforvena/php2sec)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -22843,7 +22845,6 @@
 - [MchinaMd57764/CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC)
 - [OhMyDitzzy/CVE-2026-111497](https://github.com/OhMyDitzzy/CVE-2026-111497)
 - [alequinterok/CVE-2026-111497](https://github.com/alequinterok/CVE-2026-111497)
-- [TimmyTurner51/brotli-lab](https://github.com/TimmyTurner51/brotli-lab)
 - [csakala-art/cbci-libbrotli-patch-25551](https://github.com/csakala-art/cbci-libbrotli-patch-25551)
 - [proxy0x/CVE-2026-111497](https://github.com/proxy0x/CVE-2026-111497)
 
@@ -23309,6 +23310,9 @@
 - [tc4dy/CVE-2026-114938-Toolkit](https://github.com/tc4dy/CVE-2026-114938-Toolkit)
 - [kjry8sb/java4shell_CVE-2026-114938](https://github.com/kjry8sb/java4shell_CVE-2026-114938)
 - [FoxKyong/java4shell-checks](https://github.com/FoxKyong/java4shell-checks)
+- [uxokpro1234/Java4Shell-CVE-2026-114938-Defender](https://github.com/uxokpro1234/Java4Shell-CVE-2026-114938-Defender)
+- [bh679/mcjavasafetycheck-mc](https://github.com/bh679/mcjavasafetycheck-mc)
+- [crash00xd/java2shell-poc](https://github.com/crash00xd/java2shell-poc)
 
 ### CVE-2026-114952 (2026-11-17)
 
@@ -23334,7 +23338,7 @@
 
 ### CVE-2026-115560 (2026-11-19)
 
-<code>Session serializer mismatch can lead to remote code execution.\n\n\n\nSession upload progress, when enabled, can store attacker-controlled data in a session key using the php_binary or php_serialize session serializer. If the same session is later read with the php serializer, because session.serialize_handler is changed at runtime or differs between applications sharing a session store, bytes inside the key can be passed to the unserializer. A remote attacker able to submit a multipart upload can inject objects, which may lead to code execution when the reading application contains a suitable gadget chain, or to session corruption or denial of service.\n\n\n\nThis issue affects PHP versions 8.2.* before 8.2.36, 8.3.* before 8.3.37, 8.4.* before 8.4.28 and 8.5.* before 8.5.13.
+<code>Session serializer mismatch can lead to remote code execution.\n\nSession upload progress, when enabled, can store attacker-controlled data in a session key using the php_binary or php_serialize session serializer. If the same session is later read with the php serializer, because session.serialize_handler is changed at runtime or differs between applications sharing a session store, bytes inside the key can be passed to the unserializer. A remote attacker able to submit a multipart upload can inject objects, which may lead to code execution when the reading application contains a suitable gadget chain, or to session corruption or denial of service.\n\nThis issue affects PHP versions before 8.2.36, 8.3.* before 8.3.37, 8.4.* before 8.4.28 and 8.5.* before 8.5.13.
 </code>
 
 - [Pr0fEs0r-X/PHP2SHELL-Checker-v-1.0-CVE-2026-115560-](https://github.com/Pr0fEs0r-X/PHP2SHELL-Checker-v-1.0-CVE-2026-115560-)
@@ -23348,6 +23352,7 @@
 - [renzi25031469/CVE-2026-115560](https://github.com/renzi25031469/CVE-2026-115560)
 - [Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0](https://github.com/Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0)
 - [Pr0fEs0r-X/PHP2SHELL-Checker-v-2.0-CVE-2026-115560-](https://github.com/Pr0fEs0r-X/PHP2SHELL-Checker-v-2.0-CVE-2026-115560-)
+- [LLCForge/CVE-2026-115560](https://github.com/LLCForge/CVE-2026-115560)
 
 ### CVE-2026-115596 (2026-10-28)
 
@@ -24079,8 +24084,8 @@
 - [materaj2/cve-2026-123007-scanner](https://github.com/materaj2/cve-2026-123007-scanner)
 - [0xcypher110/nginx2root_lab](https://github.com/0xcypher110/nginx2root_lab)
 - [foxcornlab/nginx-scanner](https://github.com/foxcornlab/nginx-scanner)
-- [c0re-i5/intbug-lab](https://github.com/c0re-i5/intbug-lab)
 - [Mahgal/nginx-http2-rce-check](https://github.com/Mahgal/nginx-http2-rce-check)
+- [HOSTED-POWER/nginx2root-patches](https://github.com/HOSTED-POWER/nginx2root-patches)
 - [0xnrg/CVE-2026-123007](https://github.com/0xnrg/CVE-2026-123007)
 - [MazeResearch/nginx-h2-probe](https://github.com/MazeResearch/nginx-h2-probe)
 - [githubcdr/nginx-ingress-controller](https://github.com/githubcdr/nginx-ingress-controller)
@@ -24091,6 +24096,7 @@
 - [SamJUK/nginx2root-check](https://github.com/SamJUK/nginx2root-check)
 - [DeFexNN/defex-ngnix](https://github.com/DeFexNN/defex-ngnix)
 - [josueportillo/nginx2root-scanner](https://github.com/josueportillo/nginx2root-scanner)
+- [c0re-i5/intbug-lab](https://github.com/c0re-i5/intbug-lab)
 
 ### CVE-2026-123014 (2026-11-05)
 
@@ -24247,6 +24253,7 @@
 </code>
 
 - [Cyber-BansalAI/vmware-vcenter-2026](https://github.com/Cyber-BansalAI/vmware-vcenter-2026)
+- [Quaerendir/cve-2026-123890-audit](https://github.com/Quaerendir/cve-2026-123890-audit)
 
 ### CVE-2026-124002 (2026-11-12)
 
@@ -24742,7 +24749,7 @@
 
 ### CVE-2026-129496 (2026-11-19)
 
-<code>Timezone cache use-after-free can lead to remote code execution.\n\nIn non-thread-safe builds, a diagnostic written to a file-based error_log during module startup, for example for an invalid date.timezone value or a session configuration warning, causes the timezone cache to be allocated in startup memory that is freed while a reference to it is kept. A diagnostic raised early in the first request of a worker, such as the max_input_vars warning, then accesses the freed cache. On such a deployment an unauthenticated remote attacker can crash PHP-FPM, Apache mod_php or CGI workers with a crafted request. Arbitrary code execution may be possible and has been demonstrated with known memory addresses.\n\nThis issue affects PHP versions 8.2.* before 8.2.36, 8.3.* before 8.3.37, 8.4.* before 8.4.28 and 8.5.* before 8.5.13.
+<code>Timezone cache use-after-free can lead to remote code execution.\n\nIn non-thread-safe builds, a diagnostic written to a file-based error_log during module startup, for example for an invalid date.timezone value or a session configuration warning, causes the timezone cache to be allocated in startup memory that is freed while a reference to it is kept. A diagnostic raised early in the first request of a worker, such as the max_input_vars warning, then accesses the freed cache. On such a deployment an unauthenticated remote attacker can crash PHP-FPM, Apache mod_php or CGI workers with a crafted request. Arbitrary code execution may be possible and has been demonstrated with known memory addresses.\n\nThis issue affects PHP versions before 8.2.36, 8.3.* before 8.3.37, 8.4.* before 8.4.28 and 8.5.* before 8.5.13.
 </code>
 
 - [abraxas/php-tzcache-rce](https://github.com/abraxas/php-tzcache-rce)
@@ -24832,6 +24839,7 @@
 <code>Ruby before 3.3.14, 3.4.13, and 4.0.10 has a heap-based buffer overflow during case conversion. One byte can be written outside a buffer for, for example, ISO-8859-1 or Windows-1252.
 </code>
 
+- [scadastrangelove/ruby2shell](https://github.com/scadastrangelove/ruby2shell)
 - [evenomn/CVE-2026-132825](https://github.com/evenomn/CVE-2026-132825)
 
 ### CVE-2026-133113 (2026-11-19)
@@ -24922,6 +24930,9 @@
 
 ### CVE-2026-2035703
 - [danish1162/CVE-2026-2035703-x300](https://github.com/danish1162/CVE-2026-2035703-x300)
+
+### CVE-2026-73737373
+- [extencil/stop2shell](https://github.com/extencil/stop2shell)
 
 
 ## 2025
@@ -30677,6 +30688,7 @@
 - [ThumpBo/CVE-2025-30208-EXP](https://github.com/ThumpBo/CVE-2025-30208-EXP)
 - [MiclelsonCN/CVE-2025-30208_POC](https://github.com/MiclelsonCN/CVE-2025-30208_POC)
 - [marino-admin/Vite-CVE-2025-30208-Scanner](https://github.com/marino-admin/Vite-CVE-2025-30208-Scanner)
+- [Lusensec/CVE-2025-30208](https://github.com/Lusensec/CVE-2025-30208)
 - [iSee857/CVE-2025-30208-PoC](https://github.com/iSee857/CVE-2025-30208-PoC)
 - [On1onss/CVE-2025-30208](https://github.com/On1onss/CVE-2025-30208)
 - [4xura/CVE-2025-30208](https://github.com/4xura/CVE-2025-30208)
@@ -35615,10 +35627,10 @@
 - [MuhammadWaseem29/SQL-Injection-and-RCE_CVE-2025-57819](https://github.com/MuhammadWaseem29/SQL-Injection-and-RCE_CVE-2025-57819)
 - [xV4nd3Rx/CVE-2025-57819_FreePBX-PoC](https://github.com/xV4nd3Rx/CVE-2025-57819_FreePBX-PoC)
 - [orange0Mint/CVE-2025-57819_FreePBX](https://github.com/orange0Mint/CVE-2025-57819_FreePBX)
-- [b4sh2/CVE-2025-57819-poc](https://github.com/b4sh2/CVE-2025-57819-poc)
 - [0xEhab/FreePBX-CVE-2025-57819-RCE](https://github.com/0xEhab/FreePBX-CVE-2025-57819-RCE)
 - [Jeanback1/CVE-2025-57819-exploit](https://github.com/Jeanback1/CVE-2025-57819-exploit)
 - [jf-gondim/freepbx-endpoint-sqli-rce](https://github.com/jf-gondim/freepbx-endpoint-sqli-rce)
+- [SamWang8891/CVE-2025-57819-poc](https://github.com/SamWang8891/CVE-2025-57819-poc)
 - [YuvrajSHAD/FreePBX-CVE-2025-57819](https://github.com/YuvrajSHAD/FreePBX-CVE-2025-57819)
 - [0xyngtg/FreePBX-CVE-2025-57819-CVE-2025-61678](https://github.com/0xyngtg/FreePBX-CVE-2025-57819-CVE-2025-61678)
 - [ozcanpng/CVE-2025-57819-FreePBX-RCE2Root](https://github.com/ozcanpng/CVE-2025-57819-FreePBX-RCE2Root)
@@ -50195,6 +50207,7 @@
 - [huovnn/CVE-2023-0386-go-poc](https://github.com/huovnn/CVE-2023-0386-go-poc)
 - [karimelsheikh1/HTB-TwoMillion-Writeup](https://github.com/karimelsheikh1/HTB-TwoMillion-Writeup)
 - [julianertle/CVE-2023-0386-CTF](https://github.com/julianertle/CVE-2023-0386-CTF)
+- [anxs3c/TwoMillion-Machine-Writeup](https://github.com/anxs3c/TwoMillion-Machine-Writeup)
 - [pwncone/CVE-2023-0386-OverlayFS](https://github.com/pwncone/CVE-2023-0386-OverlayFS)
 - [abedallarawashdeh/HTB-TwoMillion-machine](https://github.com/abedallarawashdeh/HTB-TwoMillion-machine)
 
@@ -88294,6 +88307,7 @@
 - [gh0stuncle/CVE-2018-16763_fuel_cms_exploit](https://github.com/gh0stuncle/CVE-2018-16763_fuel_cms_exploit)
 - [che3axujnya/cve-2018-16763](https://github.com/che3axujnya/cve-2018-16763)
 - [ex6p/fuel-CMS-1.4.1---Remote-Code-Execution-](https://github.com/ex6p/fuel-CMS-1.4.1---Remote-Code-Execution-)
+- [fantasmakm4/LAB-008-IGNITE](https://github.com/fantasmakm4/LAB-008-IGNITE)
 
 ### CVE-2018-16843 (2018-11-07)
 
