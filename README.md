@@ -3896,7 +3896,7 @@
 
 ### CVE-2026-15315 (2026-08-18)
 
-<code>Tapo C120 v1 and C200 v5\ncontain an improper authentication vulnerability within the login\nauthentication verification module. An attacker on the local network can\nexploit weaknesses in challenge parameter validation to bypass normal\nauthentication controls and obtain administrative session tokens. \n\n\n\n\n\n\n\n\n\nSuccessful\nexploitation may allow an attacker to subsequently execute privileged\nmanagement actions, enable unauthorized administrative access and temporary\ndisruption of device services, resulting in a denial-of-service (DoS)\ncondition.
+<code>Tapo C120 and C200 contain an improper authentication vulnerability within the login\nauthentication verification module. An attacker on the local network can\nexploit weaknesses in challenge parameter validation to bypass normal\nauthentication controls and obtain administrative session tokens. \n\n\n\n\n\n\n\n\n\nSuccessful\nexploitation may allow an attacker to subsequently execute privileged\nmanagement actions, enable unauthorized administrative access and temporary\ndisruption of device services, resulting in a denial-of-service (DoS)\ncondition.
 </code>
 
 - [HORKimhab/CVE-2026-15315](https://github.com/HORKimhab/CVE-2026-15315)
@@ -15033,6 +15033,13 @@
 - [ashrafzaryouh/CVE-2026-58138](https://github.com/ashrafzaryouh/CVE-2026-58138)
 - [Ez4rd1x1/CVE-2026-58138-Research](https://github.com/Ez4rd1x1/CVE-2026-58138-Research)
 
+### CVE-2026-58192 (2026-07-08)
+
+<code>Appium is a cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol. Prior to 1.1.6, the Appium storage plugin exposes POST /storage/delete, whose handler passes the user-supplied name value directly into path.join(storageRoot, name) and fs.rimraf() without path sanitization, allowing an unauthenticated remote client to escape the storage root with ../ sequences and recursively delete arbitrary writable files or directories. This issue is fixed in version 1.1.6.
+</code>
+
+- [googlesky/CVE-2026-58192](https://github.com/googlesky/CVE-2026-58192)
+
 ### CVE-2026-58221
 - [DevAli00/CVE-2026-58221](https://github.com/DevAli00/CVE-2026-58221)
 
@@ -15412,6 +15419,13 @@
 
 - [abraxas/CVE-2026-61628](https://github.com/abraxas/CVE-2026-61628)
 
+### CVE-2026-61725 (2026-10-30)
+
+<code>sevenz-rust2 is a Rust-native 7z compressor and `decompress`or. Prior to 0.21.1, extracting an attacker-supplied 7z archive can write or overwrite files outside the destination directory. In `src/util/decompress.rs`, `decompress_impl` computes each destination with `dest.join(entry.name())` without normalizing the archive's UTF-16 entry name or verifying containment, and `default_entry_extract_fn` writes to it with `File::create`. Parent-directory components escape the extraction root, and an absolute entry path makes the join discard the destination entirely. The convenience entry points `decompress`, `decompress_file`, `decompress_with_password`, and `decompress_file_with_password` all use this default path. Overwriting writable configuration, startup, cron, or build files can lead to code execution or persistence. The archive bytes are the attacker-controlled trust boundary, including for applications that automatically unpack uploaded or otherwise untrusted archives. This issue is fixed in version 0.21.1.
+</code>
+
+- [googlesky/CVE-2026-61725](https://github.com/googlesky/CVE-2026-61725)
+
 ### CVE-2026-61732 (2026-09-24)
 
 <code>Decepticon is an autonomous hacking agent for red teams. Versions prior to 1.1.17 wrap web crawl results — the output of agent reconnaissance against target services — into LLM messages without neutralizing ChatML special-token literals. Under the BYOK (Bring Your Own Key) deployment model, users configure their own LLM credentials to any OpenAI-compatible endpoint. Most open-source and self-deployed model providers (vLLM, SGLang, Ollama, LM Studio, text-generation-webui, etc.) do not filter special-token literals from user content in their default configurations. Those literals are parsed into structural role-boundary token IDs, meaning an attacker string planted in a target web page forges a new operator turn the model treats as authoritative, bypassing Decepticon's agent guardrails and resulting in arbitrary command execution inside the Kali Linux sandbox. Version 1.1.17 patches the issue.
@@ -15697,6 +15711,20 @@
 </code>
 
 - [ashrafzaryouh/CVE-2026-63292](https://github.com/ashrafzaryouh/CVE-2026-63292)
+
+### CVE-2026-63341 (2026-10-30)
+
+<code>Aedes is an MQTT broker that can run on any stream server. Prior to 1.1.1, the MQTT broker does not bound topic depth or structural complexity before passing topics through `mqemitter` into `qlobber`. A `PUBLISH`, `SUBSCRIBE`, or registered `Will` message containing an excessively deep topic can reach `qlobber._split_words` in `lib/qlobber.js` and trigger an uncaught `too many words` exception. Calls from `handlers/subscribe.js` and the publishing logic are not protected against that exception, so it escapes to the `Node.js event loop` and terminates the entire broker. The `Will` path is independently reachable when a client disconnects ungracefully: it calls `broker.publish` directly and bypasses the `PUBLISH` handler. An attacker must be able to establish an `MQTT session`, authenticated or unauthenticated according to broker configuration. A successful attack disconnects all legitimate clients and prevents reconnection until the broker process restarts. This issue is fixed in version 1.1.1.
+</code>
+
+- [googlesky/CVE-2026-63341](https://github.com/googlesky/CVE-2026-63341)
+
+### CVE-2026-63386 (2026-09-22)
+
+<code>js-toml is a TOML parser for JavaScript. Prior to 1.1.3, load() does not bound nesting or dotted-key depth in the recursive parser at src/load/parser.ts or the interpreter at src/load/interpreter.ts, so deeply nested arrays, deeply nested inline tables, or long dotted keys can exhaust the V8 call stack and throw a raw RangeError instead of the documented SyntaxParseError. Applications that parse attacker-controlled TOML and handle only SyntaxParseError can rethrow the unexpected exception, which can terminate a worker or process and cause denial of service. The exception is synchronous and catchable by consumers that handle all exceptions, and the issue does not affect confidentiality or integrity. This issue is fixed in version 1.1.3.
+</code>
+
+- [googlesky/CVE-2026-63386](https://github.com/googlesky/CVE-2026-63386)
 
 ### CVE-2026-63520 (2026-08-11)
 
@@ -16673,6 +16701,13 @@
 </code>
 
 - [googlesky/CVE-2026-69260](https://github.com/googlesky/CVE-2026-69260)
+
+### CVE-2026-69261 (2026-11-19)
+
+<code>Git LFS is a Git extension for versioning large files. From 0.5.0 until 3.8.1, Git LFS may forward a Cookie header after an HTTP redirect to a host other than the one for which the header was intended. That unintended host can therefore receive cookies containing credentials or other confidential values. Authorization headers are never forwarded to inappropriate hosts and are not the affected secret in this vulnerability. This issue is fixed in version 3.8.1.
+</code>
+
+- [googlesky/CVE-2026-69261](https://github.com/googlesky/CVE-2026-69261)
 
 ### CVE-2026-69263 (2026-08-04)
 
@@ -20310,7 +20345,6 @@
 - [molanp/CVE-2026-98260-vivo-s60-poc](https://github.com/molanp/CVE-2026-98260-vivo-s60-poc)
 - [super2tt/CVE-2026-98260-vivo-x-fold6-poc](https://github.com/super2tt/CVE-2026-98260-vivo-x-fold6-poc)
 - [sabuweis/CVE-2026-98260](https://github.com/sabuweis/CVE-2026-98260)
-- [mumaosong/cve-2026-98260-app](https://github.com/mumaosong/cve-2026-98260-app)
 - [yoro1836/SamTimer](https://github.com/yoro1836/SamTimer)
 - [LinXing0926/GhostCred](https://github.com/LinXing0926/GhostCred)
 - [cuteaplane/CVE-2026-98260-for-OPD2501](https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501)
@@ -20486,6 +20520,14 @@
 </code>
 
 - [jmginer/pve-cve-2026-99312](https://github.com/jmginer/pve-cve-2026-99312)
+
+### CVE-2026-99491 (2026-11-19)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nHID: wacom: Fix Use-After-Free in wacom_intuos_pad\n\nwacom_intuos_pad() accesses wacom-&gt;shared-&gt;touch_input locklessly\ninside the interrupt handler context.  If the Touch sibling device\nis disconnected, wacom_remove_shared_data() clears 'touch_input'\noutside any lock, creating a Time-of-Check to Time-of-Use (TOCTOU)\nrace condition where a preempted reader in interrupt context\ndereferences the freed pointer, leading to a Use-After-Free.\n\nResolve this by introducing RCU protection for the touch_input\npointer:\n\n - Annotate 'touch_input' in wacom_shared struct with __rcu\n - Wrap all lockless readers in wacom_wac.c with guard(rcu)() and\n   rcu_dereference() using a unified wacom_report_touch_mute()\n   helper\n - Update writers in wacom_sys.c using rcu_assign_pointer()\n - Call synchronize_rcu() in wacom_remove_shared_data() to ensure\n   all active RCU readers have finished before the input device is\n   freed\n\nAlso wrap wacom_set_shared_values() and touch/pen assignments in\nwacom_add_shared_data() inside the wacom_udev_list_lock to serialize\nconcurrent probe assignments, and verify that 'shared-&gt;touch == hdev'\nbefore setting touch_input to prevent concurrent sibling probe state\ndesynchronization.
+</code>
+
+- [woshigenm/CVE-2026-99491](https://github.com/woshigenm/CVE-2026-99491)
+- [Yunnijian/CVE-2026-99491](https://github.com/Yunnijian/CVE-2026-99491)
 
 ### CVE-2026-99999 (2026-10-15)
 
@@ -21108,6 +21150,13 @@
 
 - [pervinzahidli/CVE-2026-104110](https://github.com/pervinzahidli/CVE-2026-104110)
 
+### CVE-2026-104199 (2026-11-19)
+
+<code>aMQTT is an open source MQTT broker and client. From 0.11.0 until 0.11.4, add_subscription() in amqtt/broker.py accepts malformed single-level + wildcard placement because it checks substrings instead of validating each slash-delimited level. The _matches() function converts each + into a greedy regular-expression fragment and evaluates it with re.fullmatch(), allowing a filter containing many adjacent + characters to trigger catastrophic backtracking when compared with a topic that partially matches but ultimately fails. Because matching runs synchronously in _run_broadcast(), one subscription followed by a publish can block the broker event loop, stopping message delivery and new connection processing until restart. Anonymous clients can trigger the issue with the default configuration. Any authenticated client permitted to create arbitrary subscriptions and publish messages may still exploit it when authentication is enabled. This issue is fixed in version 0.11.4.
+</code>
+
+- [googlesky/CVE-2026-104199](https://github.com/googlesky/CVE-2026-104199)
+
 ### CVE-2026-104246 (2026-10-17)
 
 <code>The Contact Form 7 Signature Addon WordPress plugin through 4.2.2 does not sanitize a signature field value before building an email attachment path from it, allowing unauthenticated users to attach arbitrary files (bounded to wp-content on current Contact Form 7) to a form's outgoing email via path traversal; when a form is configured to email a copy to a submitter-controlled address, the attacker can read the targeted file.
@@ -21233,6 +21282,12 @@
 </code>
 
 - [federiconbaez/cortex9-fsspec-reference-jinja-ssti-model](https://github.com/federiconbaez/cortex9-fsspec-reference-jinja-ssti-model)
+
+### CVE-2026-104882
+- [googlesky/CVE-2026-104882](https://github.com/googlesky/CVE-2026-104882)
+
+### CVE-2026-104883
+- [googlesky/CVE-2026-104883](https://github.com/googlesky/CVE-2026-104883)
 
 ### CVE-2026-104905 (2026-10-05)
 
@@ -21431,6 +21486,20 @@
 </code>
 
 - [JHC56/CVE-2026-105761](https://github.com/JHC56/CVE-2026-105761)
+
+### CVE-2026-105802 (2026-11-19)
+
+<code>Git LFS is a Git extension for versioning large files. From 0.6.0 until 3.8.1, Git LFS reads Git configuration options defined for a submodule without checking certain values for embedded line-ending control characters. A malicious repository can insert control characters such as line feed (LF) into those values to mimic options that cause Git LFS to execute an attacker-controlled command or binary while fetching or adding objects. This issue is fixed in version 3.8.1.
+</code>
+
+- [googlesky/CVE-2026-105802](https://github.com/googlesky/CVE-2026-105802)
+
+### CVE-2026-105803 (2026-11-19)
+
+<code>Git LFS is a Git extension for versioning large files. From 1.3.0 until 3.8.1, Git LFS does not correctly filter the limited set of options permitted in a repository's .lfsconfig file when option keys contain certain additional components. Crafted keys can mimic options that configure Git LFS to use a custom command to transfer objects, causing Git LFS to execute an attacker-selected command or binary while fetching objects. This issue is fixed in version 3.8.1.
+</code>
+
+- [googlesky/CVE-2026-105803](https://github.com/googlesky/CVE-2026-105803)
 
 ### CVE-2026-105810 (2026-10-19)
 
@@ -22606,6 +22675,7 @@
 - [Prxnxv26/php2shell-cve-analysis](https://github.com/Prxnxv26/php2shell-cve-analysis)
 - [genaforvena/php2sec](https://github.com/genaforvena/php2sec)
 - [genaforvena/mishe-tauftauf2shell](https://github.com/genaforvena/mishe-tauftauf2shell)
+- [melzum/php2shell-lab](https://github.com/melzum/php2shell-lab)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -23071,7 +23141,7 @@
 
 ### CVE-2026-112487 (2026-10-26)
 
-<code>A path handling issue was addressed with improved validation. This issue is fixed in macOS Golden Gate 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2. An app may be able to gain root privileges.
+<code>A path handling issue was addressed with improved validation. This issue is fixed in iOS 26.7.2 and iPadOS 26.7.2, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2. An app may be able to gain root privileges.
 </code>
 
 - [Lyutoon/CVE-2026-112487](https://github.com/Lyutoon/CVE-2026-112487)
@@ -23441,6 +23511,13 @@
 
 - [googlesky/CVE-2026-115290](https://github.com/googlesky/CVE-2026-115290)
 
+### CVE-2026-115463 (2026-11-19)
+
+<code>Poweradmin is a web-based DNS administration tool for PowerDNS server. From 4.0.0 until 4.2.6, 4.3.5, and 4.4.1, lib/Domain/Service/MfaService.php verifies email second-factor codes through MfaService::verifyCode() without limiting failed attempts, and lib/Application/Controller/MfaVerifyController.php logs failures without throttling them. An attacker who knows the user's password can repeatedly guess the six-digit code during its ten-minute validity period when email MFA is enabled, potentially bypassing the second factor; the advisory notes MFA is disabled by default and that the practical request rate was not measured. This issue is fixed in versions 4.2.6, 4.3.5, and 4.4.1.
+</code>
+
+- [googlesky/CVE-2026-115463](https://github.com/googlesky/CVE-2026-115463)
+
 ### CVE-2026-115560 (2026-11-19)
 
 <code>Session serializer mismatch can lead to remote code execution.\n\nSession upload progress, when enabled, can store attacker-controlled data in a session key using the php_binary or php_serialize session serializer. If the same session is later read with the php serializer, because session.serialize_handler is changed at runtime or differs between applications sharing a session store, bytes inside the key can be passed to the unserializer. A remote attacker able to submit a multipart upload can inject objects, which may lead to code execution when the reading application contains a suitable gadget chain, or to session corruption or denial of service.\n\nThis issue affects PHP versions before 8.2.36, 8.3.* before 8.3.37, 8.4.* before 8.4.28 and 8.5.* before 8.5.13.
@@ -23458,6 +23535,13 @@
 - [Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0](https://github.com/Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0)
 - [Pr0fEs0r-X/PHP2SHELL-Checker-v-2.0-CVE-2026-115560-](https://github.com/Pr0fEs0r-X/PHP2SHELL-Checker-v-2.0-CVE-2026-115560-)
 - [LLCForge/CVE-2026-115560](https://github.com/LLCForge/CVE-2026-115560)
+
+### CVE-2026-115565 (2026-11-19)
+
+<code>storyblok-backup is an npx CLI tool to create backups of a Storyblok space and restore individual resources. Prior to 0.7.1, the writeJson function used the editable Storyblok component name field as a filename without path containment. A person with component-management access in a Storyblok space could store a component name containing path traversal sequences; when another user later ran a backup for that space, the stored name escaped the configured backup directory and caused a JSON file to be written outside it on the backup host. Depending on the path chosen and the backup process's permissions, this could overwrite existing files at attacker-chosen locations. The vulnerability is specific to components: stories and datasources use numeric identifiers, and asset names are reduced to a final path segment. This issue is fixed in version 0.7.1.
+</code>
+
+- [googlesky/CVE-2026-115565](https://github.com/googlesky/CVE-2026-115565)
 
 ### CVE-2026-115578 (2026-11-19)
 
@@ -24238,6 +24322,8 @@
 - [federiconbaez/cve-2026-123007-analysis](https://github.com/federiconbaez/cve-2026-123007-analysis)
 - [federiconbaez/cve-2026-123007-detector](https://github.com/federiconbaez/cve-2026-123007-detector)
 - [federiconbaez/nginx-h2-hardening-audit](https://github.com/federiconbaez/nginx-h2-hardening-audit)
+- [gabriel-shtx/CVE-2026-123007-NGINX2Root-detection-scripts](https://github.com/gabriel-shtx/CVE-2026-123007-NGINX2Root-detection-scripts)
+- [eduxcode/nginx2root-lab](https://github.com/eduxcode/nginx2root-lab)
 
 ### CVE-2026-123014 (2026-11-05)
 
@@ -24304,6 +24390,7 @@
 - [garvthakkar17/sshole-alpine-cve-2026-123158](https://github.com/garvthakkar17/sshole-alpine-cve-2026-123158)
 - [Dylans7j/CVE-2026-123158-OpenSSH-Auth-Bypass](https://github.com/Dylans7j/CVE-2026-123158-OpenSSH-Auth-Bypass)
 - [Avi99999/sshhole-scanner](https://github.com/Avi99999/sshhole-scanner)
+- [aparnaa19/cve-to-chaos](https://github.com/aparnaa19/cve-to-chaos)
 - [diallocode/SSHOLE-POC](https://github.com/diallocode/SSHOLE-POC)
 - [LaMambaKukun/Hack-The-Box-Sherlock-SSHole-](https://github.com/LaMambaKukun/Hack-The-Box-Sherlock-SSHole-)
 - [Quaerendir/cve-2026-123158-audit](https://github.com/Quaerendir/cve-2026-123158-audit)
@@ -24402,6 +24489,7 @@
 - [Quaerendir/cve-2026-123890-audit](https://github.com/Quaerendir/cve-2026-123890-audit)
 - [sanMuSec/vcenter-80u3m-patch-download](https://github.com/sanMuSec/vcenter-80u3m-patch-download)
 - [LLCForge/CVE-2026-123890](https://github.com/LLCForge/CVE-2026-123890)
+- [3tternp/vcenter-cve-2026-123890-check](https://github.com/3tternp/vcenter-cve-2026-123890-check)
 
 ### CVE-2026-124002 (2026-11-12)
 
@@ -24939,6 +25027,13 @@
 ### CVE-2026-130001
 - [LLCForge/CVE-2026-130001](https://github.com/LLCForge/CVE-2026-130001)
 
+### CVE-2026-130176 (2026-11-19)
+
+<code>aMQTT is an open source MQTT broker and client. From 0.11.0 until 0.12.1, the QoS 2 transaction handler in amqtt/mqtt/protocol/handler.py, _handle_qos2_message_flow(), can retain transaction state and packet identifiers when a client disconnects before the handshake completes, unlike QoS 1 flows that expire after the default five-second timeout. A remote client can repeatedly begin QoS 2 flows and disconnect without maintaining long-lived connections; anonymous clients can do this with the default configuration, while authenticated deployments remain affected when a client may initiate QoS 2 flows. The retained state grows broker memory until resource exhaustion can terminate the process; no confidentiality or integrity impact is identified. This issue is fixed in version 0.12.1.
+</code>
+
+- [googlesky/CVE-2026-130176](https://github.com/googlesky/CVE-2026-130176)
+
 ### CVE-2026-130335 (2026-11-16)
 
 <code>Info-ZIP Zip 3.0 (and 3.1 beta through 3.1c) allows OS command injection by an attacker who controls the command line. The victim must use the -T option followed by a filename containing shell metacharacters, on a platform (such as Linux) where a suitable shell is run. This occurs because the system C library function is used. NOTE: there is no known common scenario in which an untrusted filename reaches a zip -T call.
@@ -25011,6 +25106,27 @@
 </code>
 
 - [googlesky/CVE-2026-132252](https://github.com/googlesky/CVE-2026-132252)
+
+### CVE-2026-132275 (2026-11-20)
+
+<code>svglib reads SVG files and converts them to other formats. Prior to 2.3.1, the svg2rlg() renderer recursively expands nested SVG &lt;use&gt; references by deep-copying each referenced subtree; SvgRenderer.renderUse() in src/svglib/svglib.py calls xlink_href_target(), which rejects direct cycles but permits acyclic reference graphs with repeated fan-out. A small attacker-controlled SVG can therefore trigger exponentially increasing node expansion, consuming excessive CPU and memory in any application that renders it without a non-default option; HTML-to-PDF workflows using xhtml2pdf can reach the same renderer when an embedded data:image/svg+xml image in an HTML img element is passed to pisa.CreatePDF(). This issue is fixed in 2.3.1.
+</code>
+
+- [googlesky/CVE-2026-132275](https://github.com/googlesky/CVE-2026-132275)
+
+### CVE-2026-132276 (2026-11-20)
+
+<code>wcmatch is a Python library for wildcard file-name matching. Prior to 11.2, under the default flags, matching a non-matching attacker-controlled name against an application-supplied pattern containing several star wildcards separated by literals makes the lazy .? and [^/]? segments, including _STAR and _PATH_STAR emitted by _handle_star() in wcmatch/_wcparse.py, backtrack across possible splits, so a single comparison can consume prolonged CPU time. The pattern remains a developer-controlled constant and only the name is attacker-controlled; affected paths include fnmatch.fnmatch(), glob.globmatch(), and filesystem glob scans where another user can create names, without enabling extglob or any non-default flag. This issue is fixed in 11.2.
+</code>
+
+- [googlesky/CVE-2026-132276](https://github.com/googlesky/CVE-2026-132276)
+
+### CVE-2026-132277 (2026-11-20)
+
+<code>Inscriptis is a Python library for converting HTML to text. From 2.0.0 until 2.7.6, when the parent is block-level, table_end_handler() in model/tag/table_tag.py writes each sibling table through HtmlElement.write_verbatim_text() in model/html_element.py; Canvas.open_block() leaves the parent padding_inline prefix on the stack, Canvas.close_block() does not remove it, and only Canvas.close_tag() calls prefix.remove_last_prefix(). Each following sibling table therefore carries forward accumulated indentation, making get_text() output grow quadratically and allowing small attacker-controlled HTML to exhaust memory in applications converting it without authentication or user interaction. This issue is fixed in 2.7.6.
+</code>
+
+- [googlesky/CVE-2026-132277](https://github.com/googlesky/CVE-2026-132277)
 
 ### CVE-2026-132745 (2026-11-18)
 
@@ -35918,6 +36034,7 @@
 - [ianoboyle/CVE-2025-57833](https://github.com/ianoboyle/CVE-2025-57833)
 - [sw0rd1ight/CVE-2025-57833](https://github.com/sw0rd1ight/CVE-2025-57833)
 - [Gayang2902/CVE-2025-57833](https://github.com/Gayang2902/CVE-2025-57833)
+- [Renatata-H/demo-cve-2025-57833](https://github.com/Renatata-H/demo-cve-2025-57833)
 
 ### CVE-2025-57926 (2025-09-22)
 
@@ -84235,6 +84352,7 @@
 - [lemonadern/poc-cve-2019-14287](https://github.com/lemonadern/poc-cve-2019-14287)
 - [HivinManjuSri/ubuntu-cve-2019-14287-patch-manager](https://github.com/HivinManjuSri/ubuntu-cve-2019-14287-patch-manager)
 - [NyxRecon/Sudo-Agent-CTF-](https://github.com/NyxRecon/Sudo-Agent-CTF-)
+- [fantasmakm4/LAB-010-AGENT-SUDO](https://github.com/fantasmakm4/LAB-010-AGENT-SUDO)
 
 ### CVE-2019-14314 (2019-08-27)
 
@@ -89530,6 +89648,7 @@
 - [quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144](https://github.com/quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144)
 - [porcumarcooo/TryHackMe-Blue-MS17-010](https://github.com/porcumarcooo/TryHackMe-Blue-MS17-010)
 - [duycao2311/eternalblue-ms17010-study](https://github.com/duycao2311/eternalblue-ms17010-study)
+- [raisul06/WannaCry_Ransomware_Impact](https://github.com/raisul06/WannaCry_Ransomware_Impact)
 
 ### CVE-2017-0145 (2017-03-17)
 
@@ -97082,6 +97201,7 @@
 - [nicolasdamians/ms09-050-CVE-2009-3103-exploit](https://github.com/nicolasdamians/ms09-050-CVE-2009-3103-exploit)
 - [afifudinmtop/CVE-2009-3103](https://github.com/afifudinmtop/CVE-2009-3103)
 - [bytejmp/MS09-050](https://github.com/bytejmp/MS09-050)
+- [Zhaoyi-Fan/ms09-050-smb2-manual](https://github.com/Zhaoyi-Fan/ms09-050-smb2-manual)
 
 ### CVE-2009-3555 (2009-11-09)
 
