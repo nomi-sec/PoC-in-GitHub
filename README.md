@@ -3845,6 +3845,13 @@
 
 - [tenderacer-lgtm/CVE-2026-14900-PoC](https://github.com/tenderacer-lgtm/CVE-2026-14900-PoC)
 
+### CVE-2026-14914 (2026-11-20)
+
+<code>Unrestricted upload of file with dangerous type vulnerability in Tegsoft Yönetim ve Bilişim Hizmetleri Tic. Ltd. Şti. Tegsoft Contact Center allows Upload a Web Shell to a Web Server.\n\nThis issue affects Tegsoft Contact Center: before latest-202611161510.
+</code>
+
+- [LLCForge/CVE-2026-14914](https://github.com/LLCForge/CVE-2026-14914)
+
 ### CVE-2026-14960 (2026-07-15)
 
 <code>Pegatron `Tdelo64.sys` improperly exposes privileged hardware access functionality through the `\\.\TdeIo` device interface. IOCTL handlers including `TDE_IOCTL_INDEXIO_READ` and `TDE_IOCTL_INDEXIO_WRITE` permit unprivileged user-mode callers to perform arbitrary hardware I/O port reads and writes without authorization checks. A local attacker can abuse this functionality to manipulate hardware registers, tamper with firmware-related interfaces, cause system instability, or establish persistent low-level compromise.
@@ -9675,6 +9682,7 @@
 </code>
 
 - [minanagehsalalma/cve-2026-34472-auth-bypass-zte-h188a-router](https://github.com/minanagehsalalma/cve-2026-34472-auth-bypass-zte-h188a-router)
+- [muhammadaliattai-source/router-security-audit](https://github.com/muhammadaliattai-source/router-security-audit)
 
 ### CVE-2026-34473 (2026-05-06)
 
@@ -9893,6 +9901,20 @@
 
 ### CVE-2026-35333
 - [JohannesLks/CVE-2026-35333](https://github.com/JohannesLks/CVE-2026-35333)
+
+### CVE-2026-35374 (2026-04-22)
+
+<code>A Time-of-Check to Time-of-Use (TOCTOU) vulnerability exists in the split utility of uutils coreutils. The program attempts to prevent data loss by checking for identity between input and output files using their file paths before initiating the split operation. However, the utility subsequently opens the output file with truncation after this path-based validation is complete. A local attacker with write access to the directory can exploit this race window by manipulating mutable path components (e.g., swapping a path with a symbolic link). This can cause split to truncate and write to an unintended target file, potentially including the input file itself or other sensitive files accessible to the process, leading to permanent data loss.
+</code>
+
+- [googlesky/CVE-2026-35374](https://github.com/googlesky/CVE-2026-35374)
+
+### CVE-2026-35377 (2026-04-22)
+
+<code>A logic error in the env utility of uutils coreutils causes a failure to correctly parse command-line arguments when utilizing the -S (split-string) option. In GNU env, backslashes within single quotes are treated literally (with the exceptions of \\ and \'). However, the uutils implementation incorrectly attempts to validate these sequences, resulting in an &quot;invalid sequence&quot; error and an immediate process termination with an exit status of 125 when encountering valid but unrecognized sequences like \a or \x. This divergence from GNU behavior breaks compatibility for automated scripts and administrative workflows that rely on standard split-string semantics, leading to a local denial of service for those operations.
+</code>
+
+- [googlesky/CVE-2026-35377](https://github.com/googlesky/CVE-2026-35377)
 
 ### CVE-2026-35397 (2026-05-05)
 
@@ -11970,6 +11992,7 @@
 - [bxffhss/iqoo-z6-temp-root](https://github.com/bxffhss/iqoo-z6-temp-root)
 - [rubnet/ghostlock-RMX3031](https://github.com/rubnet/ghostlock-RMX3031)
 - [zhanghangjie/CVE-2026-43499-CYL1](https://github.com/zhanghangjie/CVE-2026-43499-CYL1)
+- [taowen/sm-g986u-kernel](https://github.com/taowen/sm-g986u-kernel)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -15071,6 +15094,13 @@
 
 - [Toluwanimi7/CYB401-CVE-2026-58249-Analysis](https://github.com/Toluwanimi7/CYB401-CVE-2026-58249-Analysis)
 
+### CVE-2026-58254 (2026-07-08)
+
+<code>NATS Server is a high-performance server for NATS.io, the cloud and edge native messaging system. Prior to 2.14.3 and 2.12.8, message trace destination checks were applied to ordinary client connections but not consistently to messages arriving through leafnode connections, allowing a leafnode operator to send trace events to subjects that would not otherwise be permitted and to use trace-only behavior to prevent normal delivery or storage of affected messages. This issue is fixed in versions 2.14.3 and 2.12.8.
+</code>
+
+- [googlesky/CVE-2026-58254](https://github.com/googlesky/CVE-2026-58254)
+
 ### CVE-2026-58424 (2026-07-03)
 
 <code>Permanent Fork PR Workflow Approval Gate Bypass
@@ -15671,6 +15701,13 @@
 
 - [LLCForge/CVE-2026-63129](https://github.com/LLCForge/CVE-2026-63129)
 
+### CVE-2026-63184 (2026-10-30)
+
+<code>Refitter is a tool for generating a C# REST API client using the Refit library. Prior to 2.1.1, the `refitter` dotnet tool invokes `NJsonSchema` with unsafe defaults for `$ref` resolution when generating Refit interfaces and contracts from attacker-controlled or attacker-influenced OpenAPI descriptions. Remote `http(s)` references cause requests from the developer or CI host and inline untrusted remote schema content into generated output. Absolute local file paths and relative `../` traversal outside the input directory also resolve and inline local content, permitting arbitrary local-file disclosure. The demonstrated chain stops at server-side request forgery, remote file inclusion, and local file inclusion, not code execution: Refit sets the base URL at runtime, enum values use verbatim-string doubling, and string defaults are escaped. This issue is fixed in version 2.1.1.
+</code>
+
+- [googlesky/CVE-2026-63184](https://github.com/googlesky/CVE-2026-63184)
+
 ### CVE-2026-63219 (2026-09-03)
 
 <code>GeoNetwork is a catalog application to manage spatially referenced resources. Prior to versions 4.4.12 and 4.2.17, the API endpoint for creating a new formatter via file upload is unprotected and allows the upload of external uncontrolled files. An unauthenticated attacker can upload arbitrary `.xsl` or `.zip` formatter files to the server.  An unauthenticated attacker can write arbitrary files into the GeoNetwork formatter directory. On its own this constitutes unauthorized write access to server storage. The issue is patched in GeoNetwork versions 4.4.12 and 4.2.17.
@@ -15719,12 +15756,40 @@
 
 - [googlesky/CVE-2026-63341](https://github.com/googlesky/CVE-2026-63341)
 
+### CVE-2026-63344 (2026-10-30)
+
+<code>Refitter is a tool for generating a C# REST API client using the Refit library. Prior to 2.1.2, content-type keys in the content maps of `requestBody/responses` are emitted verbatim into a Refit `[Headers(&quot;Accept: &lt;ct&gt;&quot;, &quot;Content-Type: &lt;ct&gt;&quot;)]` attribute string without escaping quotation marks. A crafted content-type key in an attacker-influenced OpenAPI description survives default validation without `--skip-validation`, breaks out of the attribute string and enclosing interface and namespace, and can introduce a top-level file class while leaving valid generated C#. A `[ModuleInitializer]` method in that class executes attacker code when the generated assembly is loaded at application startup, without requiring a call to the client. The behavior was verified with Refitter 2.0.0 and .NET 8. This issue is fixed in version 2.1.2.
+</code>
+
+- [googlesky/CVE-2026-63344](https://github.com/googlesky/CVE-2026-63344)
+
+### CVE-2026-63345 (2026-10-30)
+
+<code>Refitter is a tool for generating a C# REST API client using the Refit library. Prior to 2.1.2, OpenAPI `paths`-object keys are emitted verbatim into Refit route attributes such as `[Get(&quot;&lt;path&gt;&quot;)]` without escaping quotation marks or restricting characters. An attacker-influenced single-line, slash-prefixed path survives default validation without `--skip-validation` and can close the attribute string, interface, and namespace while introducing a top-level file class and reopening the generated structure to keep valid C#. A `[ModuleInitializer]` method executes attacker code when an application compiles and loads the generated assembly at startup, even without calling the generated client. The enum and default value sinks are escaped and are not the vulnerable path-emission sink. The behavior was verified on Refitter 2.0.0 with .NET 8. This issue is fixed in version 2.1.2.
+</code>
+
+- [googlesky/CVE-2026-63345](https://github.com/googlesky/CVE-2026-63345)
+
+### CVE-2026-63346 (2026-10-30)
+
+<code>Refitter is a tool for generating a C# REST API client using the Refit library. Prior to 2.1.2, the header parameter name in `parameters[].name` with `in: header` is emitted verbatim into a Refit `[Header(&quot;&lt;name&gt;&quot;)]` attribute string without escaping quotation marks. An attacker-influenced OpenAPI description can pass default validation without `--skip-validation` and break out from the parameter-list position by closing the parameter and method syntax, attribute, interface, and namespace. The generated file can remain valid C# while containing a top-level file class with a `[ModuleInitializer]` method, which executes attacker code when the compiled assembly is loaded at application startup, even if the client is never called. Query `AliasAs` and enum/default value sinks are escaped; this flaw is in header-name attribute-string emission. The behavior was verified with Refitter 2.0.0 and .NET 8. This issue is fixed in version 2.1.2.
+</code>
+
+- [googlesky/CVE-2026-63346](https://github.com/googlesky/CVE-2026-63346)
+
 ### CVE-2026-63386 (2026-09-22)
 
 <code>js-toml is a TOML parser for JavaScript. Prior to 1.1.3, load() does not bound nesting or dotted-key depth in the recursive parser at src/load/parser.ts or the interpreter at src/load/interpreter.ts, so deeply nested arrays, deeply nested inline tables, or long dotted keys can exhaust the V8 call stack and throw a raw RangeError instead of the documented SyntaxParseError. Applications that parse attacker-controlled TOML and handle only SyntaxParseError can rethrow the unexpected exception, which can terminate a worker or process and cause denial of service. The exception is synchronous and catchable by consumers that handle all exceptions, and the issue does not affect confidentiality or integrity. This issue is fixed in version 1.1.3.
 </code>
 
 - [googlesky/CVE-2026-63386](https://github.com/googlesky/CVE-2026-63386)
+
+### CVE-2026-63415 (2026-11-18)
+
+<code>Jane is a set of PHP libraries that generates models and API clients from JSON Schema and OpenAPI specifications. Prior to 7.12.0, Jane's Reference.php::doResolve passes an attacker-controlled OpenAPI $ref target to file_get_contents without restricting its scheme or resolved local path. When a victim generates code from an attacker-influenced document, an HTTP or HTTPS reference can cause requests to attacker-chosen or internal services, while an absolute or parent-relative path can read local JSON or YAML files and inline the retrieved content into generated output. Exploitation occurs during generation or CI processing and can disclose local files and internal-service responses. This issue is fixed in version 7.12.0.
+</code>
+
+- [googlesky/CVE-2026-63415](https://github.com/googlesky/CVE-2026-63415)
 
 ### CVE-2026-63520 (2026-08-11)
 
@@ -15994,6 +16059,13 @@
 </code>
 
 - [isaca0315/CVE-2026-65013-BOLA-IDOR](https://github.com/isaca0315/CVE-2026-65013-BOLA-IDOR)
+
+### CVE-2026-65094 (2026-11-20)
+
+<code>NVIDIA VIRTIO-Net for Bluefield contains a vulnerability in Virtio-Net where a VM user may cause a Write-What-Where condition by crafted message. A successful exploit of this vulnerability may lead to Code Execution in Virtio-Net scope.
+</code>
+
+- [LLCForge/CVE-2026-65094](https://github.com/LLCForge/CVE-2026-65094)
 
 ### CVE-2026-65320
 - [rahulreddykarne/CVE-2026-65320-fastcore](https://github.com/rahulreddykarne/CVE-2026-65320-fastcore)
@@ -16645,6 +16717,13 @@
 </code>
 
 - [0xdak/CVE-2026-69098_exploit](https://github.com/0xdak/CVE-2026-69098_exploit)
+
+### CVE-2026-69133 (2026-11-19)
+
+<code>netty-incubator-codec-ohttp implements Oblivious HTTP (OHTTP) gateway and client functionality using Netty. From 0.0.20.Final until 0.0.27.Final, OHttpClientCodec in codec-ohttp/src/main/java/io/netty/incubator/codec/ohttp/OHttpClientCodec.java and OHttpServerCodec in codec-ohttp/src/main/java/io/netty/incubator/codec/ohttp/OHttpServerCodec.java retain the consumed outer cumulationBuffer after a valid OHTTP exchange completes, even though OHttpRequestResponseContext.destroy in codec-ohttp/src/main/java/io/netty/incubator/codec/ohttp/OHttpRequestResponseContext.java releases the inner Binary HTTP cumulation and the channel remains active. A peer can complete a large request or response and leave the keep-alive connection idle, causing the client and server handlers to retain the current high-water pooled or direct buffer capacity until later inbound content replaces it or the handler is removed. Many long-lived idle connections can pin substantial memory and create availability pressure. The issue does not cause unbounded growth for repeated exchanges on a single channel. This issue is fixed in version 0.0.27.Final.
+</code>
+
+- [googlesky/CVE-2026-69133](https://github.com/googlesky/CVE-2026-69133)
 
 ### CVE-2026-69137 (2026-11-05)
 
@@ -17708,12 +17787,68 @@
 ### CVE-2026-77276
 - [Morzan6/CVE-2026-77276-PoC](https://github.com/Morzan6/CVE-2026-77276-PoC)
 
+### CVE-2026-77312 (2026-11-19)
+
+<code>Flyto2 Core is an execution kernel for automation and AI-agent workflows. Prior to 2.26.8, the earlier CVE-2026-67429 remediation applied validate_path_with_env_config() to only a hand-picked set of file-writing modules, leaving data.csv.write in src/core/modules/atomic/data/csv_write.py, data.json_to_csv in src/core/modules/atomic/data/json_to_csv.py, file.copy in src/core/modules/atomic/file/copy.py, and file.move in src/core/modules/atomic/file/move.py outside the FLYTO_SANDBOX_DIR confinement boundary. The advisory also identifies unguarded modules across the broader data.*, file.*, and report-writer families. data.csv.write relies on a .. substring denylist that does not reject absolute paths, while the other named modules accept caller-controlled output or destination paths without the canonical guard. A caller able to execute modules or recipes can therefore write attacker-controlled content outside the configured sandbox, potentially overwriting application code, recipes, startup files, scheduled-task files, or authorization files and gaining code execution on the host. This issue is fixed in version 2.26.8.
+</code>
+
+- [LLCForge/CVE-2026-77312](https://github.com/LLCForge/CVE-2026-77312)
+
+### CVE-2026-77313 (2026-11-19)
+
+<code>Flyto2 Core is an execution kernel for automation and AI-agent workflows. Prior to 2.26.8, validate_url_ssrf in src/core/utils.py resolves and checks a hostname but returns the hostname URL rather than the validated address, and session.get in http.get performs an independent DNS lookup when connecting. A low-privileged caller with control of the hostname's DNS can make the first lookup return a public address and the connection-time lookup return an internal address, bypassing the SSRF guard for all modules that call it and exposing readable internal or metadata-service responses. Successful exploitation requires attacker-controlled DNS and a successful timing-dependent answer change between the two lookups. This issue is fixed in version 2.26.8.
+</code>
+
+- [googlesky/CVE-2026-77313](https://github.com/googlesky/CVE-2026-77313)
+
+### CVE-2026-77315 (2026-11-19)
+
+<code>Flyto2 Core is an execution kernel for automation and AI-agent workflows. Prior to 2.26.8, http.paginate in src/core/modules/atomic/http/paginate.py validates only the initial base_url, and _paginate_link_header then follows a server-supplied Link: rel=&quot;next&quot; URL without calling the SSRF guard again. A low-privileged caller can make an allowed first page point the next request at an internal or metadata service, causing a readable second-order SSRF whose response body is aggregated into all_items and returned. This issue is fixed in version 2.26.8.
+</code>
+
+- [googlesky/CVE-2026-77315](https://github.com/googlesky/CVE-2026-77315)
+
+### CVE-2026-77316 (2026-11-19)
+
+<code>Flyto2 Core is an execution kernel for automation and AI-agent workflows. Prior to 2.26.8, validate_url_ssrf() in src/core/utils.py validates one DNS answer and then returns the hostname, while guarded_aiohttp_request(), enforce_outbound_url(), and validate_url_with_env_config() allow the outbound connection to perform an independent second lookup. A caller with control of the hostname's DNS can make validation see a public address and make the connection see an internal address, bypassing the guard across its outbound consumers and exposing readable internal or metadata-service responses. The attack requires low or zero DNS TTL behavior and a successful timing-dependent answer change; static multiple-address answers are checked and do not provide the same bypass. This issue is fixed in version 2.26.8.
+</code>
+
+- [googlesky/CVE-2026-77316](https://github.com/googlesky/CVE-2026-77316)
+
 ### CVE-2026-77318 (2026-11-19)
 
 <code>Jupyter MCP Server is a Model Context Protocol server for Jupyter. Prior to 1.0.3, standalone streamable-http mode can enforce MCP_TOKEN on /mcp while leaving the state-changing /api/connect and /api/stop management routes unauthenticated. An unauthenticated network caller can use /api/connect to replace runtime_url and document_url values and their tokens, reset ServerContext, and start a kernel client against attacker-controlled infrastructure, causing the server to send Jupyter API and WebSocket traffic to that backend. The caller can also use /api/stop to stop the current notebook kernel. This boundary failure does not require explicit insecure no-auth mode and occurs outside normal MCP JSON-RPC tool dispatch. This issue is fixed in version 1.0.3.
 </code>
 
 - [googlesky/CVE-2026-77318](https://github.com/googlesky/CVE-2026-77318)
+
+### CVE-2026-77332 (2026-11-20)
+
+<code>memtomem-stm is a short-term memory proxy gateway with proactive memory surfacing for AI agents. From 0.1.0 until 0.1.34, untrusted long-term and working-memory fields can introduce Markdown or HTML-compatible structure into the surfaced-memory envelope because those fields are not serialized as inert data. A crafted memory can create misleading structural boundaries or visually conceal surfaced content, affecting how a consuming agent interprets the memory context. Ordinary natural-language persuasion remains a residual model-level risk and is outside the structural serialization flaw. This issue is fixed in version 0.1.34.
+</code>
+
+- [googlesky/CVE-2026-77332](https://github.com/googlesky/CVE-2026-77332)
+
+### CVE-2026-77359 (2026-11-19)
+
+<code>Jupyter MCP Server is a Model Context Protocol server for Jupyter. Prior to 1.0.3, standalone streamable-http mode validates Host and Origin values for /mcp but does not apply the same browser-origin controls to the state-changing /api/connect and /api/stop management routes. A malicious website can use DNS rebinding so that its hostname resolves to a loopback, LAN, VPN, or published-container MCP listener, then send a browser-shaped request that /api/connect accepts to replace runtime_url and document_url values and start a kernel client against attacker-controlled infrastructure. The attacker can thereby cause Jupyter API and WebSocket traffic to reach that infrastructure and can use /api/stop to stop the current notebook kernel. The default broad bind can increase exposure, but the vulnerability is the missing management-route origin boundary, not a lack of Host validation on /mcp. This issue is fixed in version 1.0.3.
+</code>
+
+- [googlesky/CVE-2026-77359](https://github.com/googlesky/CVE-2026-77359)
+
+### CVE-2026-77367 (2026-11-19)
+
+<code>Daptin is a GraphQL/JSON-API headless CMS. Prior to 0.12.30, the generic GET /api/{entity} list endpoint accepts attacker-controlled sort values in PaginatedFindAllWithoutFilters in server/resource/resource_findallpaginated.go without validating the requested column against the table schema. The code uses those values for SELECT and ORDER BY identifier construction, so an embedded identifier quote can terminate the quoted identifier and make the remainder parse as SQL, allowing an unauthenticated attacker to extract unauthorized table data through blind or error-based behavior or repeatedly trigger query failures. This issue is fixed in version 0.12.30.
+</code>
+
+- [LLCForge/CVE-2026-77367](https://github.com/LLCForge/CVE-2026-77367)
+
+### CVE-2026-77369 (2026-11-19)
+
+<code>Daptin is a GraphQL/JSON-API headless CMS. From 0.11.4 until 0.12.30, the generic GET /yjs/:documentName WebSocket route in InitializeYjsResources requires a session but does not authorize the database resource selected by a typename.referenceId.columnName room name. The YJS initial-content provider then reads the selected file.* column without CanRead or CanUpdate checks, and bidirectional synchronization allows a low-privileged authenticated user to read or modify restricted row content. Unauthenticated requests are rejected, and standalone non-canonical room names remain shared-by-name rooms. This issue is fixed in version 0.12.30.
+</code>
+
+- [LLCForge/CVE-2026-77369](https://github.com/LLCForge/CVE-2026-77369)
 
 ### CVE-2026-77378 (2026-11-19)
 
@@ -20521,6 +20656,13 @@
 
 - [jmginer/pve-cve-2026-99312](https://github.com/jmginer/pve-cve-2026-99312)
 
+### CVE-2026-99320 (2026-11-19)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: raw: fix use-after-free in rawv6_send_hdrinc()\n\nrawv6_send_hdrinc() caches the route before handing the skb to\nl3mdev_ip6_out(). The VRF output path may replace skb-&gt;dst and release\nthe original route, leaving the cached pointer stale.\n\nThe function later dereferences that pointer for statistics accounting\nand as the output device passed to NF_HOOK(). Its RCU read-side critical\nsection starts after l3mdev_ip6_out(), so it cannot prevent the old route\nfrom being reclaimed in between.\n\nReload the route from the current skb destination after\nl3mdev_ip6_out() returns.\n\nKASAN reports a slab-use-after-free in rawv6_sendmsg(), with the route\nallocated by ip6_dst_alloc(), freed by dst_destroy() from rcu_core(), and\nthe related RCU callback queued from vrf_l3_out().
+</code>
+
+- [ZZ2266/staleroute-cve-2026-99320](https://github.com/ZZ2266/staleroute-cve-2026-99320)
+
 ### CVE-2026-99491 (2026-11-19)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nHID: wacom: Fix Use-After-Free in wacom_intuos_pad\n\nwacom_intuos_pad() accesses wacom-&gt;shared-&gt;touch_input locklessly\ninside the interrupt handler context.  If the Touch sibling device\nis disconnected, wacom_remove_shared_data() clears 'touch_input'\noutside any lock, creating a Time-of-Check to Time-of-Use (TOCTOU)\nrace condition where a preempted reader in interrupt context\ndereferences the freed pointer, leading to a Use-After-Free.\n\nResolve this by introducing RCU protection for the touch_input\npointer:\n\n - Annotate 'touch_input' in wacom_shared struct with __rcu\n - Wrap all lockless readers in wacom_wac.c with guard(rcu)() and\n   rcu_dereference() using a unified wacom_report_touch_mute()\n   helper\n - Update writers in wacom_sys.c using rcu_assign_pointer()\n - Call synchronize_rcu() in wacom_remove_shared_data() to ensure\n   all active RCU readers have finished before the input device is\n   freed\n\nAlso wrap wacom_set_shared_values() and touch/pen assignments in\nwacom_add_shared_data() inside the wacom_udev_list_lock to serialize\nconcurrent probe assignments, and verify that 'shared-&gt;touch == hdev'\nbefore setting touch_input to prevent concurrent sibling probe state\ndesynchronization.
@@ -21136,6 +21278,13 @@
 
 - [eev4n/smartermail](https://github.com/eev4n/smartermail)
 
+### CVE-2026-104099 (2026-11-19)
+
+<code>Fabio is an HTTP(S) and TCP router for deploying applications managed by consul. Prior to 1.7.3, route/table.go selects targets using raw req.URL.Path, while proxy/http_proxy.go applies per-route ACL and basic-auth checks to the selected target and forwards the raw path to the origin. Dot-segment, encoded-dot, or repeated-slash variants can fall through to a less restrictive route that reaches the same backend; the backend then normalizes the path and serves the protected resource without the configured access controls. A less restrictive fallback route must reach the same backend; without one, the request returns 404. This issue is fixed in version 1.7.3.
+</code>
+
+- [LLCForge/CVE-2026-104099](https://github.com/LLCForge/CVE-2026-104099)
+
 ### CVE-2026-104100 (2026-11-17)
 
 <code>Teable is an AI spreadsheet for business. Prior to release.2026-07-21T11-27-40Z.2320, a registered user can supply path traversal sequences in the hash field accepted by POST /api/attachments/signature when the default local storage provider is in use. In apps/nestjs-backend/src/features/attachments/plugins/local.ts, LocalStorage.presigned uses the client-controlled hash as the storage filename, and LocalStorage.save resolves that path and copies the uploaded request body without calling assertPathWithinStorage on the write path. The read path uses the jail, but the write path does not, allowing the resolved destination to escape the configured storage directory. Because the backend container runs as uid 0, the attacker can write or overwrite arbitrary root-owned files, which can corrupt the instance or lead to root code execution. Object-storage deployments that do not use LocalStorage.save are not affected by this sink. This issue is fixed in release.2026-07-21T11-27-40Z.2320.
@@ -21259,6 +21408,13 @@
 - [joshuavanderpoll/CVE-2026-104748](https://github.com/joshuavanderpoll/CVE-2026-104748)
 - [MrjHaxcore/CVE-2026-104748](https://github.com/MrjHaxcore/CVE-2026-104748)
 
+### CVE-2026-104773 (2026-11-19)
+
+<code>CKAN is an open-source data management system for data hubs and data portals. Prior to 2.10.11 and 2.11.6, the web user registration flow authenticates a newly registered account without first regenerating the session identifier when server-side session storage is configured. An attacker who can set a session cookie in a victim's browser or obtain the victim's current valid session identifier can reuse that identifier after the victim registers, gaining access to the new account. CKAN uses cookie-based sessions by default, and web registration is disabled by default through ckan.auth.create_user_via_web. This issue is fixed in CKAN 2.10.11, 2.11.6, and 2.12.0.
+</code>
+
+- [googlesky/CVE-2026-104773](https://github.com/googlesky/CVE-2026-104773)
+
 ### CVE-2026-104826
 - [KiwKNR/CVE-2026-104826](https://github.com/KiwKNR/CVE-2026-104826)
 
@@ -21283,11 +21439,24 @@
 
 - [federiconbaez/cortex9-fsspec-reference-jinja-ssti-model](https://github.com/federiconbaez/cortex9-fsspec-reference-jinja-ssti-model)
 
+### CVE-2026-104881
+- [googlesky/CVE-2026-104881](https://github.com/googlesky/CVE-2026-104881)
+
 ### CVE-2026-104882
 - [googlesky/CVE-2026-104882](https://github.com/googlesky/CVE-2026-104882)
 
 ### CVE-2026-104883
 - [googlesky/CVE-2026-104883](https://github.com/googlesky/CVE-2026-104883)
+
+### CVE-2026-104884
+- [googlesky/CVE-2026-104884](https://github.com/googlesky/CVE-2026-104884)
+
+### CVE-2026-104885 (2026-11-19)
+
+<code>OpenRemote is an open-source internet-of-things platform. Prior to 1.31.0, an authenticated user who obtains another user's MQTT session ID can disconnect that session across realm boundaries through the GET route GET {realm}/disconnect/{sessionID}. In manager/src/main/java/org/openremote/manager/security/UserResourceImpl.java, disconnectUserSession ignores the requested realm and calls mqttBrokerService.disconnectSession(sessionID) without checking session ownership; model/src/main/java/org/openremote/model/security/UserResource.java exposes the route without an @RolesAllowed restriction. The earlier cross-realm read-method guards did not cover this disconnect method, and same-realm users can also disconnect sessions they do not own. Session IDs are not trivially brute-forceable but may be exposed through monitoring, logs, or correlated API calls, and the unauthorized disconnect can disrupt MQTT connectivity across tenant boundaries without directly disclosing session data. This issue is fixed in 1.31.0.
+</code>
+
+- [googlesky/CVE-2026-104885](https://github.com/googlesky/CVE-2026-104885)
 
 ### CVE-2026-104905 (2026-10-05)
 
@@ -21397,6 +21566,13 @@
 </code>
 
 - [Dungsocool/CVE-2026-105306](https://github.com/Dungsocool/CVE-2026-105306)
+
+### CVE-2026-105307 (2026-10-05)
+
+<code>A vulnerability was detected in Casdoor up to 3.161.1. Affected is the function ApiFilter of the file routers/authz_filter.go of the component API Endpoint. Performing a manipulation results in missing authentication. The attack can be initiated remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [hanlin2002/CVE-2026-105307](https://github.com/hanlin2002/CVE-2026-105307)
 
 ### CVE-2026-105314 (2026-10-05)
 
@@ -22628,7 +22804,7 @@
 - [secopsxsaiyan/php2shell-wazuh-detections](https://github.com/secopsxsaiyan/php2shell-wazuh-detections)
 - [andrysunjaya/php2shell-scanner](https://github.com/andrysunjaya/php2shell-scanner)
 - [mrnaeem4/wazuh-php2shell](https://github.com/mrnaeem4/wazuh-php2shell)
-- [geokali21/PHP2SHELL-TRYHACKME-WALKTHROUGH](https://github.com/geokali21/PHP2SHELL-TRYHACKME-WALKTHROUGH)
+- [0xgeoo/PHP2SHELL-TRYHACKME-WALKTHROUGH](https://github.com/0xgeoo/PHP2SHELL-TRYHACKME-WALKTHROUGH)
 - [ankushsinghrajput-git/php_vulnerability_scanner](https://github.com/ankushsinghrajput-git/php_vulnerability_scanner)
 - [SecOpsLimited/php2shell-finder](https://github.com/SecOpsLimited/php2shell-finder)
 - [Danyw24/the-php2shell-recipe](https://github.com/Danyw24/the-php2shell-recipe)
@@ -22676,6 +22852,7 @@
 - [genaforvena/php2sec](https://github.com/genaforvena/php2sec)
 - [genaforvena/mishe-tauftauf2shell](https://github.com/genaforvena/mishe-tauftauf2shell)
 - [melzum/php2shell-lab](https://github.com/melzum/php2shell-lab)
+- [omeyz/php2shell-honeypot](https://github.com/omeyz/php2shell-honeypot)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -23340,6 +23517,7 @@
 </code>
 
 - [ynsmroztas/EtherPadSniper](https://github.com/ynsmroztas/EtherPadSniper)
+- [LLCForge/CVE-2026-114516](https://github.com/LLCForge/CVE-2026-114516)
 
 ### CVE-2026-114550 (2026-11-03)
 
@@ -23465,7 +23643,6 @@
 - [chandrapati/csw-java-workloads](https://github.com/chandrapati/csw-java-workloads)
 - [Certbn/CVE-2026-114938-OpenJDK-HotSpot-AVX-512-Base64-Java4Shell-](https://github.com/Certbn/CVE-2026-114938-OpenJDK-HotSpot-AVX-512-Base64-Java4Shell-)
 - [bkirkware/j4s-checker](https://github.com/bkirkware/j4s-checker)
-- [DistributedIT/cve2026-114938-java4shell-check](https://github.com/DistributedIT/cve2026-114938-java4shell-check)
 - [LLCForge/CVE-2026-114938](https://github.com/LLCForge/CVE-2026-114938)
 - [Jerczey/java4shell-ansible-detection](https://github.com/Jerczey/java4shell-ansible-detection)
 - [Quaerendir/cve-2026-114938-java4shell-audit](https://github.com/Quaerendir/cve-2026-114938-java4shell-audit)
@@ -23784,6 +23961,13 @@
 ### CVE-2026-116521
 - [4m3rr0r/CVE-2026-116521-poc](https://github.com/4m3rr0r/CVE-2026-116521-poc)
 
+### CVE-2026-116561 (2026-11-19)
+
+<code>Improper cleanup on thrown exception vulnerability in Apache Tomcat meant that an HTTP 200 response was sent rather than an HTTP 500 response after a AuthException was thrown during Jakarta Authentication secureResponse().\n\n\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.27, from 10.1.0-M1 through 10.1.61, from 9.0.0.M1 through 9.0.123.\n\n\n\nThe following versions were EOL at the time the CVE was created but are known to be affected: from 8.5.0 through 8.5.100. Other unsupported versions may also be affected.\n\n\n\nUsers are recommended to upgrade to version 11.0.29, 10.0.62 or 9.0.124, which fix the issue.\nNote: Tomcat 11.0.28 was not released
+</code>
+
+- [LLCForge/CVE-2026-116561](https://github.com/LLCForge/CVE-2026-116561)
+
 ### CVE-2026-116567 (2026-11-05)
 
 <code>FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a software implementation that runs on any commodity hardware. Prior to 1.11.2, rtmp_handle_control() rendered an RTMP user-control message into a 200-byte stack buffer using an unbounded sprintf loop controlled by the wire message length. A body of roughly 70 bytes or more overflowed the stack before any RTMP login, because the handshake authenticates neither side. The flaw affects deployments that build and load mod_rtmp, which is disabled in the stock build and configuration but commonly exposes a listener on TCP port 1935 when enabled. One unauthenticated message can crash FreeSWITCH and end every active call; the constrained ASCII hex output has not yielded control-flow hijacking. This issue is fixed in version 1.11.2.
@@ -23909,6 +24093,13 @@
 </code>
 
 - [foxcornlab/keycloak-saml-scanner](https://github.com/foxcornlab/keycloak-saml-scanner)
+
+### CVE-2026-118028 (2026-11-19)
+
+<code>Execution After Redirect (EAR) vulnerability in Apache Tomcat in RedirectValve affecting flags [F], [G] and [R].\n\n\n\nThis issue affects Apache Tomcat: from 11.0.0-M18 through 11.0.27, from 10.1.20 through 10.1.61, from 9.0.87 through 9.0.123.\n\n\n\nThe following versions were EOL at the time the CVE was created but are known to be affected: 8.5.100. Other unsupported versions may also be affected.\n\n\n\nUsers are recommended to upgrade to version 11.0.29, 10.1.62, 9.0.124, which fixes the issue.\nNote: Tomcat 11.0.28 was not released
+</code>
+
+- [LLCForge/CVE-2026-118028](https://github.com/LLCForge/CVE-2026-118028)
 
 ### CVE-2026-118238 (2026-10-30)
 
@@ -24175,6 +24366,20 @@
 
 - [3jee/CVE-2026-120491](https://github.com/3jee/CVE-2026-120491)
 
+### CVE-2026-120539 (2026-11-21)
+
+<code>The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.4 This is due to the plugin splicing the attacker-controlled request URI into a PHP expression inside a double-quoted string and evaluating it with eval(). Because PHP interpolates double-quoted strings, a payload of the form {${...}} in the URL path is executed during interpolation, so no quote breakout is required and WordPress' slashing does not mitigate it. This makes it possible for unauthenticated attackers to execute arbitrary code on the server with a single GET request. The affected conditions ship enabled by default and are evaluated before any logged-in check, so no plugin configuration is needed; the site must have BuddyPress and Paid Memberships Pro active alongside this plugin.
+</code>
+
+- [LLCForge/CVE-2026-120539](https://github.com/LLCForge/CVE-2026-120539)
+
+### CVE-2026-120681 (2026-11-20)
+
+<code>The Mang Board plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 2.4.7. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated attackers to delete any board post — including administrator-owned content — along with its associated comments and file links. A nonce sufficient to pass the initial nonce check is publicly exposed on any board listing page, meaning no prior authentication or privileged access is required to initiate the exploit.
+</code>
+
+- [LLCForge/CVE-2026-120681](https://github.com/LLCForge/CVE-2026-120681)
+
 ### CVE-2026-120967 (2026-11-18)
 
 <code>When NGINX Plus or NGINX Open Source is configured to require client certificates (&quot;ssl_verify_client on&quot;) in a non-default stream virtual server, a remote attacker could bypass verification of client certificates.\n\nImpact:\nAn attacker could leverage this vulnerability to bypass verification of client certificates. There is no control plane exposure; this is a data plane issue only.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -24196,12 +24401,20 @@
 
 - [googlesky/CVE-2026-121265](https://github.com/googlesky/CVE-2026-121265)
 
+### CVE-2026-121385 (2026-11-20)
+
+<code>The User Registration Aide WordPress plugin through 1.5.3.8 does not verify the current password or a reset token before changing a user's password, allowing unauthenticated attackers who know a user's username and email address to change the password of any account, including administrators, and take it over.
+</code>
+
+- [LLCForge/CVE-2026-121385](https://github.com/LLCForge/CVE-2026-121385)
+
 ### CVE-2026-121481 (2026-11-18)
 
 <code>Issue summary: Calling EVP_EncodeBlock() with an input length close to INT_MAX\nmay overflow the calculation of the encoded output size and write past the end\nof the caller-supplied output buffer.\n\nImpact summary: No path by which an attacker can trigger this has been\nidentified. An application that passes an input length near INT_MAX to\nEVP_EncodeBlock() could suffer a heap buffer overflow, crashing or corrupting\nits own memory, but it must itself supply such a length.\n\nCWE: CWE-190: Integer Overflow or Wraparound\n\nDescription: EVP_EncodeBlock() base64-encodes a buffer of a caller-supplied\nlength into an output buffer that the caller allocates. The caller is expected\nto reserve 4*((len+2)/3)+1 bytes. For input lengths close to INT_MAX, the\narithmetic that computes the encoded length overflows a signed integer, so the\nfunction writes more data than the documented output size. The result is a\nheap buffer overflow in the calling process.\n\nReaching this requires an application to pass an input length near INT_MAX to\nEVP_EncodeBlock(). OpenSSL's TLS, QUIC and CMS implementations never encode\nbuffers of that size, and the command line tools cannot practically be made to\ndo so: the limits on reading a proxy password from a file and on bignum sizes\nprevent it. An application that accepts an attacker-controlled length and\nforwards it to EVP_EncodeBlock() without its own bound check is exposed.\n\nThe severity is Low because no attacker-controlled path to the overflow is\nknown. The caller must already hold a buffer of about two gigabytes before the\ndefect can be reached.\n\nFIPS impact: no\nThe affected code is outside the FIPS module boundary.
 </code>
 
 - [Quaerendir/openssl-cve-2026-121481-audit](https://github.com/Quaerendir/openssl-cve-2026-121481-audit)
+- [Mahgal/openssl-evp-check](https://github.com/Mahgal/openssl-evp-check)
 
 ### CVE-2026-121529 (2026-11-10)
 
@@ -24275,6 +24488,13 @@
 </code>
 
 - [capivara-research/CVE-2026-122158](https://github.com/capivara-research/CVE-2026-122158)
+
+### CVE-2026-122244 (2026-11-20)
+
+<code>Budibase is an open-source low-code platform. Prior to 3.50.0, a BASIC application user, or an unauthenticated visitor to a public write form, can store markup in a shared external datasource that a builder or administrator later evaluates in any Handlebars binding Preview that surfaces the value, including the Data-section Formula column editor or any binding drawer. jsonFormatter.format() in packages/frontend-core/src/utils/jsonFormatter.ts leaves raw strings and object keys unescaped, while packages/builder/src/components/common/bindings/EvaluationSidePanel.svelte inserts the formatted result as raw HTML. The Handlebars SafeString path preserves the attacker-controlled value, and the Builder origin lacks a Content-Security-Policy that would block the resulting script. This permits stored script execution in the higher-privileged builder or administrator session rather than the writer's own role, allowing privileged Builder API actions and workspace data access. This issue is fixed in versions 3.50.0 and 4.0.0.
+</code>
+
+- [googlesky/CVE-2026-122244](https://github.com/googlesky/CVE-2026-122244)
 
 ### CVE-2026-122675 (2026-11-07)
 
@@ -24436,6 +24656,7 @@
 - [0xsaju/nginx-exploits](https://github.com/0xsaju/nginx-exploits)
 - [federiconbaez/cve-2026-123633-analysis](https://github.com/federiconbaez/cve-2026-123633-analysis)
 - [federiconbaez/cve-2026-123633-detector](https://github.com/federiconbaez/cve-2026-123633-detector)
+- [Nexxus67/CVE-2026-123633-PoC](https://github.com/Nexxus67/CVE-2026-123633-PoC)
 
 ### CVE-2026-123634 (2026-11-18)
 
@@ -24490,6 +24711,7 @@
 - [sanMuSec/vcenter-80u3m-patch-download](https://github.com/sanMuSec/vcenter-80u3m-patch-download)
 - [LLCForge/CVE-2026-123890](https://github.com/LLCForge/CVE-2026-123890)
 - [3tternp/vcenter-cve-2026-123890-check](https://github.com/3tternp/vcenter-cve-2026-123890-check)
+- [foxcornlab/vmware-vcenter-scanner](https://github.com/foxcornlab/vmware-vcenter-scanner)
 
 ### CVE-2026-124002 (2026-11-12)
 
@@ -24875,12 +25097,47 @@
 
 - [R00t3dbyFa17h/security-advisories](https://github.com/R00t3dbyFa17h/security-advisories)
 
+### CVE-2026-129039 (2026-11-20)
+
+<code>Deserialization of Untrusted Data vulnerability in Tribulant Software Newsletters newsletters-lite allows Object Injection.This issue affects Newsletters: from n/a through 4.18.2.
+</code>
+
+- [LLCForge/CVE-2026-129039](https://github.com/LLCForge/CVE-2026-129039)
+
+### CVE-2026-129043 (2026-11-20)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Tribulant Software Newsletters newsletters-lite allows SQL Injection.This issue affects Newsletters: from n/a through 4.18.2.
+</code>
+
+- [LLCForge/CVE-2026-129043](https://github.com/LLCForge/CVE-2026-129043)
+
+### CVE-2026-129056 (2026-11-20)
+
+<code>Incorrect Privilege Assignment vulnerability in Paul Ryan Authorizer authorizer allows Privilege Escalation.This issue affects Authorizer: from n/a before 3.17.2.
+</code>
+
+- [LLCForge/CVE-2026-129056](https://github.com/LLCForge/CVE-2026-129056)
+
+### CVE-2026-129073 (2026-11-20)
+
+<code>Authentication Bypass Using an Alternate Path or Channel vulnerability in miniOrange miniorange otp verification miniorange-otp-verification allows Authentication Abuse.This issue affects miniorange otp verification: from n/a through 5.6.1.
+</code>
+
+- [LLCForge/CVE-2026-129073](https://github.com/LLCForge/CVE-2026-129073)
+
 ### CVE-2026-129110 (2026-11-13)
 
 <code>sysPass 3.0.1 through 3.2.11 contains an authentication bypass vulnerability that allows unauthenticated attackers to reinstall an already-installed instance by POSTing to the install/install handler, which never checks isInstalled(). Attackers can overwrite config.xml, point the application at an attacker-controlled database, create an administrator account, and plant serialized PublicLink gadget chains triggered via account/viewLink to execute commands.
 </code>
 
 - [psylinux/CVE-2026-129110-sysPass](https://github.com/psylinux/CVE-2026-129110-sysPass)
+
+### CVE-2026-129175 (2026-11-20)
+
+<code>U.S Department of the Interior Unstable Slope Management Program allows an unauthenticated user to inject unauthorized SQL commands that allow the attacker to gain root access and complete control over the database. Fixed on or around 2026-10-19.
+</code>
+
+- [LLCForge/CVE-2026-129175](https://github.com/LLCForge/CVE-2026-129175)
 
 ### CVE-2026-129254 (2026-11-14)
 
@@ -24895,6 +25152,7 @@
 </code>
 
 - [LLCForge/CVE-2026-129289](https://github.com/LLCForge/CVE-2026-129289)
+- [tc4dy/CVE-2026-129289-PoC-Exploit](https://github.com/tc4dy/CVE-2026-129289-PoC-Exploit)
 
 ### CVE-2026-129349 (2026-11-15)
 
@@ -25252,6 +25510,13 @@
 
 - [VulnSVNC/CVE-2026-133305](https://github.com/VulnSVNC/CVE-2026-133305)
 
+### CVE-2026-133325 (2026-11-19)
+
+<code>Key exchange without entity authentication vulnerability in Apache Tomcat allowed an unauthenticated node to join a cluster when the cluster was secured with TLS 1.3 and TLS-PSK.\n\n\n\nThis issue affects Apache Tomcat: 11.0.28-11.0.29, 10.1.62, 9.0.124.\n\n\n\nUsers are recommended to switch to TLS 1.2 and TLS-PSK or upgrade to version 11.0.30, 10.1.63 or 9.0.125 (when released), which fix the issue.
+</code>
+
+- [LLCForge/CVE-2026-133325](https://github.com/LLCForge/CVE-2026-133325)
+
 ### CVE-2026-133430 (2026-11-19)
 
 <code>A flaw was found in Keycloak. This vulnerability allows an authenticated remote attacker to cause a denial of service by terminating active sessions of arbitrary users. When processing Security Assertion Markup Language (SAML) documents that lack a root signature, Keycloak accepts the request as long as any assertion within the document is signed, without verifying its context or placement. An attacker holding a validly signed assertion can embed it into an unsigned logout request for another user, causing Keycloak to accept the forged request and terminate the victim's session.
@@ -25266,6 +25531,13 @@
 </code>
 
 - [googlesky/CVE-2026-133481](https://github.com/googlesky/CVE-2026-133481)
+
+### CVE-2026-133493 (2026-11-20)
+
+<code>A vulnerability was identified in D-Link DIR-600L 2.17b02. Affected is the function genacgi_main of the file gena.cgi of the component GENA Handler. Such manipulation leads to os command injection. The attack can be launched remotely. The exploit is publicly available and might be used.
+</code>
+
+- [LLCForge/CVE-2026-133493](https://github.com/LLCForge/CVE-2026-133493)
 
 ### CVE-2026-133620 (2026-11-20)
 
@@ -25287,6 +25559,13 @@
 </code>
 
 - [googlesky/CVE-2026-133626](https://github.com/googlesky/CVE-2026-133626)
+
+### CVE-2026-133968 (2026-11-20)
+
+<code>monailabel (aka MONAI Label) through 0.8.5 allows directory traversal, with resultant remote code execution, via the image parameter to the PUT /datastore/image endpoint, as exploited in the wild starting in September 2026.
+</code>
+
+- [LLCForge/CVE-2026-133968](https://github.com/LLCForge/CVE-2026-133968)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -33321,6 +33600,7 @@
 </code>
 
 - [K1tor/PixelVolte5G](https://github.com/K1tor/PixelVolte5G)
+- [Chiiz0/Stateside](https://github.com/Chiiz0/Stateside)
 
 ### CVE-2025-48703 (2025-09-19)
 
@@ -66027,6 +66307,7 @@
 - [redzrush101/zte-blade-v40-vita-unlock](https://github.com/redzrush101/zte-blade-v40-vita-unlock)
 - [mpse-engineering/BLU_G35](https://github.com/mpse-engineering/BLU_G35)
 - [sriramsrangan/itel-a05s-a663lc](https://github.com/sriramsrangan/itel-a05s-a663lc)
+- [MissMudan/e5u-root-notes](https://github.com/MissMudan/e5u-root-notes)
 
 ### CVE-2022-38725 (2023-01-23)
 
@@ -68614,7 +68895,7 @@
 - [Rana-Ali93/CVE-2021-3156-Sudo-Buffer-Overflow-Linux](https://github.com/Rana-Ali93/CVE-2021-3156-Sudo-Buffer-Overflow-Linux)
 - [ngtuonghung/CVE-2021-3156](https://github.com/ngtuonghung/CVE-2021-3156)
 - [Robblackcatchai/porfolio-Baron-Samedit](https://github.com/Robblackcatchai/porfolio-Baron-Samedit)
-- [tkien207/CVE-2021-3156](https://github.com/tkien207/CVE-2021-3156)
+- [calonnuotcabe/CVE-2021-3156](https://github.com/calonnuotcabe/CVE-2021-3156)
 - [Kranti08/CVE-2021-3156-Baron-Samedit](https://github.com/Kranti08/CVE-2021-3156-Baron-Samedit)
 - [IJBaig/CVE-2021-3156](https://github.com/IJBaig/CVE-2021-3156)
 - [WhatsWrongAndWhy/CVE-2021-3156](https://github.com/WhatsWrongAndWhy/CVE-2021-3156)
