@@ -10812,6 +10812,7 @@
 - [1nt1m4cy/HTB-Cohort](https://github.com/1nt1m4cy/HTB-Cohort)
 - [0xv01d/CVE-2026-39987](https://github.com/0xv01d/CVE-2026-39987)
 - [Arnau029/CVE-2026-39987-PoC](https://github.com/Arnau029/CVE-2026-39987-PoC)
+- [RockKingdom/Marimo-CVE-2026-39987](https://github.com/RockKingdom/Marimo-CVE-2026-39987)
 
 ### CVE-2026-40000 (2026-07-27)
 
@@ -11775,6 +11776,7 @@
 - [nemoiwkryang/pd2301-dirtyfrag-root](https://github.com/nemoiwkryang/pd2301-dirtyfrag-root)
 - [q181555/pd2232-dirtyfrag](https://github.com/q181555/pd2232-dirtyfrag)
 - [SameerAlSahab/twentysixify](https://github.com/SameerAlSahab/twentysixify)
+- [fakehec/plex2shell-to-root](https://github.com/fakehec/plex2shell-to-root)
 
 ### CVE-2026-43494 (2026-05-21)
 
@@ -18232,6 +18234,13 @@
 
 - [Wayang1337/CVE-2026-80099](https://github.com/Wayang1337/CVE-2026-80099)
 
+### CVE-2026-80188 (2026-11-20)
+
+<code>The BuddyBoss Addons plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in versions up to, and including, 1.2.1. This is due to the Social Login REST endpoint trusting unverified Apple and Facebook identity-token claims and linking an attacker-controlled provider identifier to an existing WordPress user selected by the token’s email claim. This makes it possible for unauthenticated attackers who know a user’s email address to associate their provider identity with that account, including administrator accounts, and subsequently authenticate as the victim. Successful exploitation requires the BuddyBoss Platform plugin to be installed and active, with the Social Login module and selected provider enabled and configured. On sites with the separate BuddyBoss App JWT component, the vulnerable REST request can return an application token immediately.
+</code>
+
+- [LLCForge/CVE-2026-80188](https://github.com/LLCForge/CVE-2026-80188)
+
 ### CVE-2026-80312 (2026-10-19)
 
 <code>Improper Authentication vulnerability in Apache Camel OAuth component.\n\n\n\nThis issue affects Apache Camel: from 4.11.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\n\n\nThe camel-oauth processors that guard a route did not stop the exchange when authentication could not be completed. Where a failure to establish an authenticated session should have terminated routing and returned an error to the caller, the processors fell through and returned control to the route, so the request continued to the protected endpoint as though authentication had succeeded. The effect is a fail-open authentication guard: an unauthenticated caller reached whatever the route did next. The condition is reached on the ordinary request path of a route configured to require OAuth, and needs no special configuration or prior access on the caller's part.\n\n\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The processors now stop the exchange and set the appropriate error status whenever an authenticated session cannot be established, so a failed authentication no longer reaches the protected part of the route. For deployments that cannot upgrade immediately, place an explicit authorization check after the OAuth processor rather than relying on it to halt the exchange, and verify that the route stops on failure.
@@ -20076,6 +20085,13 @@
 ### CVE-2026-95267
 - [netuseradministrator/CVE-2026-95267](https://github.com/netuseradministrator/CVE-2026-95267)
 
+### CVE-2026-95517 (2026-11-19)
+
+<code>Reliance on obfuscation or encryption of Security-Relevant inputs without integrity checking, Improper validation of integrity check value, Cleartext transmission of sensitive information vulnerability in the EncryptInterceptor of Apache Tomcat.\n\n\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.27, from 10.1.0-M1 through 10.1.61, from 9.0.13 through 9.0.123.\n\n\n\nThe following versions were EOL at the time the CVE was created but are known to be affected: from 8.5.38 through 8.5.100, from 7.0.100 through 7.0.109. Other unsupported versions may also be affected.\n\n\n\nUsers are recommended to upgrade to version 11.0.29, 10.1.62 or 9.0.124 and switch to TLS-PSK to encrypt cluster communication, which fixes the issue.\nNote: Tomcat 11.0.28 was not released
+</code>
+
+- [LLCForge/CVE-2026-95517](https://github.com/LLCForge/CVE-2026-95517)
+
 ### CVE-2026-95518 (2026-11-13)
 
 <code>Time-of-check time-of-use (TOCTOU) race condition vulnerability in TÜBİTAK BİLGEM Yazılım Teknolojileri Araştırma Enstitüsü Pardus Package Installer allows Leveraging Time-of-Check and Time-of-Use (TOCTOU) Race Conditions.\n\nThis issue affects Pardus Package Installer: from 0.7.0 before 0.7.1.
@@ -20483,7 +20499,6 @@
 - [yoro1836/SamTimer](https://github.com/yoro1836/SamTimer)
 - [LinXing0926/GhostCred](https://github.com/LinXing0926/GhostCred)
 - [cuteaplane/CVE-2026-98260-for-OPD2501](https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501)
-- [tiamo1990/CVE-2026-98260](https://github.com/tiamo1990/CVE-2026-98260)
 - [kailashrs/infinitylock-app](https://github.com/kailashrs/infinitylock-app)
 - [YodonTan/cve-2026-98260-harmonyos-applicability](https://github.com/YodonTan/cve-2026-98260-harmonyos-applicability)
 - [RMDycz/K80Pro-miro-CVE-2026-98260](https://github.com/RMDycz/K80Pro-miro-CVE-2026-98260)
@@ -20497,7 +20512,6 @@
 - [ANYAEGW/CVE-2026-98260-amg-an00](https://github.com/ANYAEGW/CVE-2026-98260-amg-an00)
 - [nemoiwkryang/CVE-2026-98260-pkt110-kernelsu](https://github.com/nemoiwkryang/CVE-2026-98260-pkt110-kernelsu)
 - [Dream-Rainy/CVE-2026-98260](https://github.com/Dream-Rainy/CVE-2026-98260)
-- [countryside99/GhostKey](https://github.com/countryside99/GhostKey)
 - [MocLG/Time-My-Galaxy](https://github.com/MocLG/Time-My-Galaxy)
 - [cuteaplane/opd2051example](https://github.com/cuteaplane/opd2051example)
 - [arkylin/CVE-2026-98260-Asteroids](https://github.com/arkylin/CVE-2026-98260-Asteroids)
@@ -20518,6 +20532,7 @@
 - [yxc0915/cve-2026-98260-ppg-an00](https://github.com/yxc0915/cve-2026-98260-ppg-an00)
 - [zhanghangjie/CVE-2026-98260-CYL1](https://github.com/zhanghangjie/CVE-2026-98260-CYL1)
 - [nestchao/redmi-pad-se-87-root](https://github.com/nestchao/redmi-pad-se-87-root)
+- [tiamo1990/shancha-kernel-workshop](https://github.com/tiamo1990/shancha-kernel-workshop)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -20615,7 +20630,6 @@
 - [ylh440104/cve-2026-98432-chain](https://github.com/ylh440104/cve-2026-98432-chain)
 - [zake1god/CVE-2026-98432](https://github.com/zake1god/CVE-2026-98432)
 - [hardenedlinux/linux-rce-poc](https://github.com/hardenedlinux/linux-rce-poc)
-- [lwmacct/261119-cve-2026-98432](https://github.com/lwmacct/261119-cve-2026-98432)
 - [Agency-Tool-Company/jetson-cve-2026-98432](https://github.com/Agency-Tool-Company/jetson-cve-2026-98432)
 
 ### CVE-2026-98499 (2026-10-18)
@@ -20655,13 +20669,14 @@
 </code>
 
 - [jmginer/pve-cve-2026-99312](https://github.com/jmginer/pve-cve-2026-99312)
+- [suominen/CVE-2026-99312](https://github.com/suominen/CVE-2026-99312)
 
 ### CVE-2026-99320 (2026-11-19)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: raw: fix use-after-free in rawv6_send_hdrinc()\n\nrawv6_send_hdrinc() caches the route before handing the skb to\nl3mdev_ip6_out(). The VRF output path may replace skb-&gt;dst and release\nthe original route, leaving the cached pointer stale.\n\nThe function later dereferences that pointer for statistics accounting\nand as the output device passed to NF_HOOK(). Its RCU read-side critical\nsection starts after l3mdev_ip6_out(), so it cannot prevent the old route\nfrom being reclaimed in between.\n\nReload the route from the current skb destination after\nl3mdev_ip6_out() returns.\n\nKASAN reports a slab-use-after-free in rawv6_sendmsg(), with the route\nallocated by ip6_dst_alloc(), freed by dst_destroy() from rcu_core(), and\nthe related RCU callback queued from vrf_l3_out().
 </code>
 
-- [ZZ2266/staleroute-cve-2026-99320](https://github.com/ZZ2266/staleroute-cve-2026-99320)
+- [ZZ2266/CVE-2026-99320](https://github.com/ZZ2266/CVE-2026-99320)
 
 ### CVE-2026-99491 (2026-11-19)
 
@@ -22853,6 +22868,7 @@
 - [genaforvena/mishe-tauftauf2shell](https://github.com/genaforvena/mishe-tauftauf2shell)
 - [melzum/php2shell-lab](https://github.com/melzum/php2shell-lab)
 - [omeyz/php2shell-honeypot](https://github.com/omeyz/php2shell-honeypot)
+- [PARTSI14/php2shell-detection-engineering](https://github.com/PARTSI14/php2shell-detection-engineering)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -23245,6 +23261,7 @@
 - [andersundsehr/ca-trust-audit](https://github.com/andersundsehr/ca-trust-audit)
 - [Xowap/i-can-count-to-four](https://github.com/Xowap/i-can-count-to-four)
 - [sam00/CVE-2026-111943-Emudhra-Ca-Compromise-POC](https://github.com/sam00/CVE-2026-111943-Emudhra-Ca-Compromise-POC)
+- [shaofeihuang/emuddler](https://github.com/shaofeihuang/emuddler)
 
 ### CVE-2026-111967 (2026-10-28)
 
@@ -23665,6 +23682,7 @@
 - [Pamircil/Symantec-DLP-25.x-26.x-CVE-2026-114938-Java4Shell-Fixing](https://github.com/Pamircil/Symantec-DLP-25.x-26.x-CVE-2026-114938-Java4Shell-Fixing)
 - [EterNullSec/java4shell-defensive-lab](https://github.com/EterNullSec/java4shell-defensive-lab)
 - [tobias-weiss-ai-xr/java-fixed-images](https://github.com/tobias-weiss-ai-xr/java-fixed-images)
+- [m19o/j4s-runner-check](https://github.com/m19o/j4s-runner-check)
 
 ### CVE-2026-114952 (2026-11-17)
 
@@ -24544,6 +24562,7 @@
 - [federiconbaez/nginx-h2-hardening-audit](https://github.com/federiconbaez/nginx-h2-hardening-audit)
 - [gabriel-shtx/CVE-2026-123007-NGINX2Root-detection-scripts](https://github.com/gabriel-shtx/CVE-2026-123007-NGINX2Root-detection-scripts)
 - [eduxcode/nginx2root-lab](https://github.com/eduxcode/nginx2root-lab)
+- [T0tooro/cve-2026-123007-lab](https://github.com/T0tooro/cve-2026-123007-lab)
 
 ### CVE-2026-123014 (2026-11-05)
 
@@ -25231,6 +25250,7 @@
 
 - [Yanixos/APACHE-CVE-2026-129448](https://github.com/Yanixos/APACHE-CVE-2026-129448)
 - [foxcornlab/apache-roller-scanner](https://github.com/foxcornlab/apache-roller-scanner)
+- [evenomn/CVE-2026-129448](https://github.com/evenomn/CVE-2026-129448)
 
 ### CVE-2026-129474 (2026-11-19)
 
@@ -25326,6 +25346,20 @@
 </code>
 
 - [LLCForge/CVE-2026-130648](https://github.com/LLCForge/CVE-2026-130648)
+
+### CVE-2026-130847 (2026-11-17)
+
+<code>Dolibarr ERP CRM before 24.0.2 contains an improper authorization vulnerability in the Users REST API put() method that allows non-admin API users to set administrator passwords. Authenticated users with user modification and password rights can send a PUT request to the users endpoint with a chosen pass value for a SuperAdmin account and then log in as that administrator.
+</code>
+
+- [yingcaipro-cmd/CVE-2026-130847](https://github.com/yingcaipro-cmd/CVE-2026-130847)
+
+### CVE-2026-130848 (2026-11-17)
+
+<code>Dolibarr ERP CRM through 24.0.3 contains a code injection vulnerability in Website::importWebSite() that allows website editors without PHP permission to execute code by importing templates. Attackers can import a template zip whose javascript.js.php contains PHP code, which the public javascript.js.php endpoint includes, executing code as the web server user.
+</code>
+
+- [yingcaipro-cmd/CVE-2026-130848](https://github.com/yingcaipro-cmd/CVE-2026-130848)
 
 ### CVE-2026-131842 (2026-11-17)
 
@@ -35997,9 +36031,6 @@
 
 - [Kov404/CVE-2025-56515](https://github.com/Kov404/CVE-2025-56515)
 
-### CVE-2025-56521
-- [Dong-hui-li/CVE-2025-56521andCVE-2025-56522](https://github.com/Dong-hui-li/CVE-2025-56521andCVE-2025-56522)
-
 ### CVE-2025-56526 (2025-11-18)
 
 <code>Cross site scripting (XSS) vulnerability in Kotaemon 0.11.0 allowing attackers to execute arbitrary code via a crafted PDF.
@@ -45402,7 +45433,6 @@
 - [CleoV2/Debuggable-App-Exploit](https://github.com/CleoV2/Debuggable-App-Exploit)
 - [fcy10012/CVE-2024-31317-Deployer](https://github.com/fcy10012/CVE-2024-31317-Deployer)
 - [kalibb/CVE-2024-31317-Deployer](https://github.com/kalibb/CVE-2024-31317-Deployer)
-- [chengfeng30121/CVE-2024-31317-PoC](https://github.com/chengfeng30121/CVE-2024-31317-PoC)
 - [GitAmanS/ZygoteExploitDemo](https://github.com/GitAmanS/ZygoteExploitDemo)
 - [vnescape/zygote-CVE-2024-31317](https://github.com/vnescape/zygote-CVE-2024-31317)
 - [Tinnci/cve-2024-31317](https://github.com/Tinnci/cve-2024-31317)
@@ -68589,6 +68619,13 @@
 
 - [gabe-k/CVE-2021-1883](https://github.com/gabe-k/CVE-2021-1883)
 
+### CVE-2021-1905 (2021-05-07)
+
+<code>Possible use after free due to improper handling of memory mapping of multiple processes simultaneously. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables
+</code>
+
+- [Gonvar/movistar-home-root](https://github.com/Gonvar/movistar-home-root)
+
 ### CVE-2021-1931 (2021-07-13)
 
 <code>Possible buffer overflow due to improper validation of buffer length while processing fast boot commands in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music
@@ -70089,6 +70126,7 @@
 - [Roronoawjd/CVE-2021-22204](https://github.com/Roronoawjd/CVE-2021-22204)
 - [d4ytox/CVE-2021-22204](https://github.com/d4ytox/CVE-2021-22204)
 - [cyfrowesny/exiftool-7.44-12.23-exploit-CVE-2021-22204](https://github.com/cyfrowesny/exiftool-7.44-12.23-exploit-CVE-2021-22204)
+- [la-padula/CVE-2021-22204](https://github.com/la-padula/CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
