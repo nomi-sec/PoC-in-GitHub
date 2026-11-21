@@ -1832,13 +1832,6 @@
 ### CVE-2026-6018
 - [m0r4a/CVE-2026-6018-9-Local-Privilege-Escalation-Chain](https://github.com/m0r4a/CVE-2026-6018-9-Local-Privilege-Escalation-Chain)
 
-### CVE-2026-6023 (2026-04-22)
-
-<code>In Progress® Telerik® UI for AJAX versions 2024.4.1114 through 2026.1.421, the RadFilter control is vulnerable to insecure deserialization when restoring filter state if the state is exposed to the client. If an attacker tampers with this state, a server-side remote code execution is possible.
-</code>
-
-- [kjry8sb/CVE-2026-6023](https://github.com/kjry8sb/CVE-2026-6023)
-
 ### CVE-2026-6042 (2026-04-10)
 
 <code>A security flaw has been discovered in musl libc up to 1.2.6. Affected is the function iconv of the file src/locale/iconv.c of the component GB18030 4-byte Decoder. Performing a manipulation results in inefficient algorithmic complexity. The attack must be initiated from a local position. To fix this issue, it is recommended to deploy a patch.
@@ -3579,7 +3572,6 @@
 
 - [HORKimhab/CVE-2026-13181-CVE-2026-13182-CVE-2026-13183-CVE-2026-13184](https://github.com/HORKimhab/CVE-2026-13181-CVE-2026-13182-CVE-2026-13183-CVE-2026-13184)
 - [ivanesk315/CVE-2026-13181-Telerik](https://github.com/ivanesk315/CVE-2026-13181-Telerik)
-- [kjry8sb/CVE-2026-13181](https://github.com/kjry8sb/CVE-2026-13181)
 
 ### CVE-2026-13233 (2026-07-10)
 
@@ -4405,13 +4397,6 @@
 </code>
 
 - [patrickt2017/CVE-2026-19195-PoC](https://github.com/patrickt2017/CVE-2026-19195-PoC)
-
-### CVE-2026-19219 (2026-09-02)
-
-<code>In Progress® Telerik® UI for AJAX prior to v2026.3.812, insufficient integrity protection of dialog request parameters used by the RadEditor file browser may allow an attacker who has obtained certain application encryption key material to alter the folders the file browser reads from, writes to, and uploads into, potentially resulting in remote code execution.
-</code>
-
-- [kjry8sb/CVE-2026-19219](https://github.com/kjry8sb/CVE-2026-19219)
 
 ### CVE-2026-19264 (2026-08-07)
 
@@ -9198,6 +9183,13 @@
 
 - [pavanchow/CVE-2026-33234](https://github.com/pavanchow/CVE-2026-33234)
 
+### CVE-2026-33252 (2026-03-23)
+
+<code>The Go MCP SDK used Go's standard encoding/json. Prior to version 1.4.1, the Go SDK's Streamable HTTP transport accepted browser-generated cross-site `POST` requests without validating the `Origin` header and without requiring `Content-Type: application/json`. In deployments without Authorization, especially stateless or sessionless configurations, this allows an arbitrary website to send MCP requests to a local server and potentially trigger tool execution. Version 1.4.1 contains a patch for the issue.
+</code>
+
+- [garag0l/nuclei-templates-mcp](https://github.com/garag0l/nuclei-templates-mcp)
+
 ### CVE-2026-33267 (2026-07-29)
 
 <code>Improper Input Validation vulnerability in Apache Traffic Server.\n\nThis issue affects Apache Traffic Server: from 9.2.0 through 9.2.14, from 10.1.0 through 10.1.3.\n\nUsers are recommended to upgrade to version 9.2.15 or 10.1.4, which fixes the issue.
@@ -11995,6 +11987,8 @@
 - [rubnet/ghostlock-RMX3031](https://github.com/rubnet/ghostlock-RMX3031)
 - [zhanghangjie/CVE-2026-43499-CYL1](https://github.com/zhanghangjie/CVE-2026-43499-CYL1)
 - [taowen/sm-g986u-kernel](https://github.com/taowen/sm-g986u-kernel)
+- [anVzdGFtb25/GhostLock-P50Pro-JAD-AL00](https://github.com/anVzdGFtb25/GhostLock-P50Pro-JAD-AL00)
+- [anVzdGFtb25/GhostLock-Honor90-REA-AN00](https://github.com/anVzdGFtb25/GhostLock-Honor90-REA-AN00)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -12719,6 +12713,7 @@
 - [ashrafzaryouh/CVE-2026-46333](https://github.com/ashrafzaryouh/CVE-2026-46333)
 - [studiogangster/CVE-2026-46333](https://github.com/studiogangster/CVE-2026-46333)
 - [dr4mohamed/CVE-2026-46333](https://github.com/dr4mohamed/CVE-2026-46333)
+- [Luscious8/Poc-CVE-2026-46333](https://github.com/Luscious8/Poc-CVE-2026-46333)
 
 ### CVE-2026-46339 (2026-07-15)
 
@@ -22727,7 +22722,6 @@
 - [turovskiy/php2shell-fixer](https://github.com/turovskiy/php2shell-fixer)
 - [tranlammankg/php2shell-scanner](https://github.com/tranlammankg/php2shell-scanner)
 - [grergea/php81-el7-php2shell](https://github.com/grergea/php81-el7-php2shell)
-- [kjry8sb/php2shell-wordpress-rce-fullchain](https://github.com/kjry8sb/php2shell-wordpress-rce-fullchain)
 - [Nostraxiten/PHP2shell](https://github.com/Nostraxiten/PHP2shell)
 - [lynolz163/php2shell-research-public](https://github.com/lynolz163/php2shell-research-public)
 - [yildirimserkan/php2shellscanner-web](https://github.com/yildirimserkan/php2shellscanner-web)
@@ -22736,7 +22730,6 @@
 - [Bccccc/php2shell-check](https://github.com/Bccccc/php2shell-check)
 - [Darabium/php2shell-POC](https://github.com/Darabium/php2shell-POC)
 - [hack-ita/php2shell-cve-2026-109618-109619](https://github.com/hack-ita/php2shell-cve-2026-109618-109619)
-- [kjry8sb/php2shell-mitigation](https://github.com/kjry8sb/php2shell-mitigation)
 - [troey11/php54-php2shell-backport](https://github.com/troey11/php54-php2shell-backport)
 - [RooQs/php74-alpine](https://github.com/RooQs/php74-alpine)
 - [Abdullah-Mehtab/php2shell-lab](https://github.com/Abdullah-Mehtab/php2shell-lab)
@@ -23535,6 +23528,7 @@
 
 - [ynsmroztas/EtherPadSniper](https://github.com/ynsmroztas/EtherPadSniper)
 - [LLCForge/CVE-2026-114516](https://github.com/LLCForge/CVE-2026-114516)
+- [evenomn/CVE-2026-114516](https://github.com/evenomn/CVE-2026-114516)
 
 ### CVE-2026-114550 (2026-11-03)
 
@@ -23672,7 +23666,6 @@
 - [rzkyp/java4shell-lab](https://github.com/rzkyp/java4shell-lab)
 - [gbuyssens/CVE-2026-114938-Check](https://github.com/gbuyssens/CVE-2026-114938-Check)
 - [tc4dy/CVE-2026-114938-Toolkit](https://github.com/tc4dy/CVE-2026-114938-Toolkit)
-- [kjry8sb/java4shell_CVE-2026-114938](https://github.com/kjry8sb/java4shell_CVE-2026-114938)
 - [FoxKyong/java4shell-checks](https://github.com/FoxKyong/java4shell-checks)
 - [uxokpro1234/Java4Shell-CVE-2026-114938-Defender](https://github.com/uxokpro1234/Java4Shell-CVE-2026-114938-Defender)
 - [bh679/mcjavasafetycheck-mc](https://github.com/bh679/mcjavasafetycheck-mc)
@@ -23683,6 +23676,8 @@
 - [EterNullSec/java4shell-defensive-lab](https://github.com/EterNullSec/java4shell-defensive-lab)
 - [tobias-weiss-ai-xr/java-fixed-images](https://github.com/tobias-weiss-ai-xr/java-fixed-images)
 - [m19o/j4s-runner-check](https://github.com/m19o/j4s-runner-check)
+- [BanroxArt/jvm-sweep](https://github.com/BanroxArt/jvm-sweep)
+- [akshutgoyal/Java4Shell](https://github.com/akshutgoyal/Java4Shell)
 
 ### CVE-2026-114952 (2026-11-17)
 
@@ -24676,6 +24671,7 @@
 - [federiconbaez/cve-2026-123633-analysis](https://github.com/federiconbaez/cve-2026-123633-analysis)
 - [federiconbaez/cve-2026-123633-detector](https://github.com/federiconbaez/cve-2026-123633-detector)
 - [Nexxus67/CVE-2026-123633-PoC](https://github.com/Nexxus67/CVE-2026-123633-PoC)
+- [grupooruss/Division81-cve-2026-123633](https://github.com/grupooruss/Division81-cve-2026-123633)
 
 ### CVE-2026-123634 (2026-11-18)
 
@@ -24731,6 +24727,7 @@
 - [LLCForge/CVE-2026-123890](https://github.com/LLCForge/CVE-2026-123890)
 - [3tternp/vcenter-cve-2026-123890-check](https://github.com/3tternp/vcenter-cve-2026-123890-check)
 - [foxcornlab/vmware-vcenter-scanner](https://github.com/foxcornlab/vmware-vcenter-scanner)
+- [Sable-Research/CVE-2026-123890-Research](https://github.com/Sable-Research/CVE-2026-123890-Research)
 
 ### CVE-2026-124002 (2026-11-12)
 
@@ -25352,14 +25349,14 @@
 <code>Dolibarr ERP CRM before 24.0.2 contains an improper authorization vulnerability in the Users REST API put() method that allows non-admin API users to set administrator passwords. Authenticated users with user modification and password rights can send a PUT request to the users endpoint with a chosen pass value for a SuperAdmin account and then log in as that administrator.
 </code>
 
-- [yingcaipro-cmd/CVE-2026-130847](https://github.com/yingcaipro-cmd/CVE-2026-130847)
+- [Zer0Breach/CVE-2026-130847](https://github.com/Zer0Breach/CVE-2026-130847)
 
 ### CVE-2026-130848 (2026-11-17)
 
 <code>Dolibarr ERP CRM through 24.0.3 contains a code injection vulnerability in Website::importWebSite() that allows website editors without PHP permission to execute code by importing templates. Attackers can import a template zip whose javascript.js.php contains PHP code, which the public javascript.js.php endpoint includes, executing code as the web server user.
 </code>
 
-- [yingcaipro-cmd/CVE-2026-130848](https://github.com/yingcaipro-cmd/CVE-2026-130848)
+- [Zer0Breach/CVE-2026-130848](https://github.com/Zer0Breach/CVE-2026-130848)
 
 ### CVE-2026-131842 (2026-11-17)
 
@@ -39290,6 +39287,13 @@
 </code>
 
 - [aliyabuz25/CVE-2024-0258](https://github.com/aliyabuz25/CVE-2024-0258)
+
+### CVE-2024-0264 (2024-01-07)
+
+<code>In SourceCodester Clinic Queuing System 1.0 wurde eine Schwachstelle ausgemacht. Sie wurde als kritisch eingestuft. Es geht um eine nicht näher bekannte Funktion der Datei /LoginRegistration.php. Durch Beeinflussen des Arguments formToken mit unbekannten Daten kann eine authorization bypass-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [wh1t3w1s4/CVE-2024-0264-PoC](https://github.com/wh1t3w1s4/CVE-2024-0264-PoC)
 
 ### CVE-2024-0305 (2024-01-08)
 
@@ -70126,7 +70130,6 @@
 - [Roronoawjd/CVE-2021-22204](https://github.com/Roronoawjd/CVE-2021-22204)
 - [d4ytox/CVE-2021-22204](https://github.com/d4ytox/CVE-2021-22204)
 - [cyfrowesny/exiftool-7.44-12.23-exploit-CVE-2021-22204](https://github.com/cyfrowesny/exiftool-7.44-12.23-exploit-CVE-2021-22204)
-- [la-padula/CVE-2021-22204](https://github.com/la-padula/CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -75159,6 +75162,8 @@
 - [minBuild/unhacked](https://github.com/minBuild/unhacked)
 - [for-toolathlon/log4shell-research-brief](https://github.com/for-toolathlon/log4shell-research-brief)
 - [for-toolathlon/log4shell-audit](https://github.com/for-toolathlon/log4shell-audit)
+- [for-toolathlon/log4shell-audit2](https://github.com/for-toolathlon/log4shell-audit2)
+- [for-toolathlon/log4shell-audit-2](https://github.com/for-toolathlon/log4shell-audit-2)
 
 ### CVE-2021-44255 (2022-01-31)
 
