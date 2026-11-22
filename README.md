@@ -6479,6 +6479,13 @@
 - [JoakimBulow/CVE-2026-24688](https://github.com/JoakimBulow/CVE-2026-24688)
 - [Fomovet/cve-2026-24688](https://github.com/Fomovet/cve-2026-24688)
 
+### CVE-2026-24708 (2026-02-18)
+
+<code>An issue was discovered in OpenStack Nova before 30.2.2, 31 before 31.2.1, and 32 before 32.1.1. By writing a malicious QCOW header to a root or ephemeral disk and then triggering a resize, a user may convince Nova's Flat image backend to call qemu-img without a format restriction, resulting in an unsafe image resize operation that could destroy data on the host system. Only compute nodes using the Flat image backend (usually configured with use_cow_images=False) are affected.
+</code>
+
+- [ahmed-stg/cve-2026-24708-lab](https://github.com/ahmed-stg/cve-2026-24708-lab)
+
 ### CVE-2026-24733 (2026-02-17)
 
 <code>Improper Input Validation vulnerability in Apache Tomcat.\n\n\nTomcat did not limit HTTP/0.9 requests to the GET method. If a security \nconstraint was configured to allow HEAD requests to a URI but deny GET \nrequests, the user could bypass that constraint on GET requests by \nsending a (specification invalid) HEAD request using HTTP/0.9.\n\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.14, from 10.1.0-M1 through 10.1.49, from 9.0.0.M1 through 9.0.112.\n\n\nOlder, EOL versions are also affected.\n\nUsers are recommended to upgrade to version 11.0.15 or later, 10.1.50 or later or 9.0.113 or later, which fixes the issue.
@@ -15061,6 +15068,27 @@
 
 - [googlesky/CVE-2026-58192](https://github.com/googlesky/CVE-2026-58192)
 
+### CVE-2026-58208 (2026-07-08)
+
+<code>NATS Server is a high-performance server for NATS.io, the cloud and edge native messaging system. Prior to 2.14.3 and 2.12.12, a WebSocket listener could route requests for the MQTT-over-WebSocket path into MQTT handling even when MQTT was not configured, allowing an unauthenticated client with access to the WebSocket listener to reach uninitialized MQTT state and crash the server process. This issue is fixed in versions 2.14.3 and 2.12.12.
+</code>
+
+- [googlesky/CVE-2026-58208](https://github.com/googlesky/CVE-2026-58208)
+
+### CVE-2026-58209 (2026-07-08)
+
+<code>NATS Server is a high-performance server for NATS.io, the cloud and edge native messaging system. Prior to 2.14.3 and 2.12.12, MQTT retained message delivery and QoS1+ durable replay could deliver messages whose original topics matched a subscriber configured subscribe deny rule because these delivery paths did not consistently recheck the concrete original topic before sending the MQTT PUBLISH to the subscriber. This issue is fixed in versions 2.14.3 and 2.12.12.
+</code>
+
+- [googlesky/CVE-2026-58209](https://github.com/googlesky/CVE-2026-58209)
+
+### CVE-2026-58210 (2026-07-08)
+
+<code>NATS Server is a high-performance server for NATS.io, the cloud and edge native messaging system. Prior to 2.14.3 and 2.12.12, an unauthenticated MQTT client could cause the server to retain large incomplete MQTT CONNECT packets before authentication completed, consuming server memory while the parser waited for the advertised MQTT packet length. This issue is fixed in versions 2.14.3 and 2.12.12.
+</code>
+
+- [googlesky/CVE-2026-58210](https://github.com/googlesky/CVE-2026-58210)
+
 ### CVE-2026-58221
 - [DevAli00/CVE-2026-58221](https://github.com/DevAli00/CVE-2026-58221)
 
@@ -17659,6 +17687,7 @@
 
 - [dinosn/cve-2026-76466](https://github.com/dinosn/cve-2026-76466)
 - [wa6n3r/cve-2026-76466](https://github.com/wa6n3r/cve-2026-76466)
+- [foxcornlab/cisco-expressway-scanner](https://github.com/foxcornlab/cisco-expressway-scanner)
 
 ### CVE-2026-76504 (2026-09-30)
 
@@ -20668,6 +20697,7 @@
 
 - [jmginer/pve-cve-2026-99312](https://github.com/jmginer/pve-cve-2026-99312)
 - [suominen/CVE-2026-99312](https://github.com/suominen/CVE-2026-99312)
+- [Quaerendir/cve-2026-99312-audit](https://github.com/Quaerendir/cve-2026-99312-audit)
 
 ### CVE-2026-99320 (2026-11-19)
 
@@ -20683,6 +20713,7 @@
 
 - [woshigenm/CVE-2026-99491](https://github.com/woshigenm/CVE-2026-99491)
 - [Yunnijian/CVE-2026-99491](https://github.com/Yunnijian/CVE-2026-99491)
+- [FatBrother1/hapt-99491](https://github.com/FatBrother1/hapt-99491)
 
 ### CVE-2026-99999 (2026-10-15)
 
@@ -24832,6 +24863,13 @@
 
 - [D7EAD/CVE-2026-125394](https://github.com/D7EAD/CVE-2026-125394)
 
+### CVE-2026-125396 (2026-11-09)
+
+<code>Ghostscript before 10.08.0 contains a -dSAFER bypass vulnerability in the .putgstringcopy procedure in gs_fonts.ps, which calls the privileged .forceput operator without checking operand types. Attackers can supply crafted PostScript or PDF documents that trigger a type error, recover .forceput via a custom error handler, and cause a use-after-free across save/restore to execute arbitrary code.
+</code>
+
+- [Mahgal/upload2shell-check](https://github.com/Mahgal/upload2shell-check)
+
 ### CVE-2026-125399 (2026-11-09)
 
 <code>Fluxion before 6.39 contains an OS command injection vulnerability in the fluxion.sh target scanner, which decodes access point ESSIDs with eval after escaping only single quotes. Attackers within Wi-Fi range can broadcast an access point with a crafted SSID to execute commands as root when the operator scans or selects it.
@@ -25158,6 +25196,76 @@
 
 - [LLCForge/CVE-2026-129175](https://github.com/LLCForge/CVE-2026-129175)
 
+### CVE-2026-129224 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. Prior to 3.10.4, the CCG lexicon parser's matchBrackets and augParseCategory functions recursively process nested parenthesized categories without a depth bound. An attacker-controlled lexicon string with excessive nesting can raise RecursionError through nltk.ccg.lexicon.fromstring and terminate the parse operation or request worker. This issue is fixed in version 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-129224](https://github.com/googlesky/CVE-2026-129224)
+
+### CVE-2026-129225 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. In 3.10.3 and earlier, DependencyGraph._tree and triples recurse once per dependency edge without a depth bound, and get_cycle_path also lacks a visited-set termination guard. A deeply chained or cyclic attacker-controlled CoNLL or Malt-TAB dependency structure can raise RecursionError and abort a parse worker. This issue is fixed in version 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-129225](https://github.com/googlesky/CVE-2026-129225)
+
+### CVE-2026-129226 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. Prior to 3.10.4, the semantic-logic read_type parser recursively processes both halves of nested complex type strings without applying LogicParser.MAX_PARSE_DEPTH. An attacker-controlled type string or signature with excessive nesting can raise RecursionError through Type.fromstring or type-checking entry points and abort the current worker. This issue is fixed in version 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-129226](https://github.com/googlesky/CVE-2026-129226)
+
+### CVE-2026-129227 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. Prior to 3.10.4, Tree.fromlist recursively converts nested Python list input into Tree objects without enforcing a maximum tree depth. An attacker-controlled list nested beyond the interpreter recursion limit can raise RecursionError and terminate the current parse operation or request worker. This issue is fixed in version 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-129227](https://github.com/googlesky/CVE-2026-129227)
+
+### CVE-2026-129228 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. Prior to 3.10.4, ToolboxSettings.parse builds a deeply nested attacker-controlled settings tree iteratively, but the later public helpers to_settings_string, remove_blanks, add_default_fields, sort_fields, and add_blank_lines recursively traverse that tree without a depth bound. Invoking any of those helpers on input nested beyond the interpreter recursion limit can raise RecursionError and abort the operation or request worker. This issue is fixed in version 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-129228](https://github.com/googlesky/CVE-2026-129228)
+
+### CVE-2026-129230 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. Prior to 3.10.4, WordNet Synset.max_depth, min_depth, hypernym_paths, and hypernym_distances recursively follow attacker-controlled corpus pointers without a visited-node set or depth cap. A cyclic or excessively deep hypernym graph can raise RecursionError and terminate traversal APIs and similarity operations that depend on them. This issue is fixed in version 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-129230](https://github.com/googlesky/CVE-2026-129230)
+
+### CVE-2026-129231 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. Prior to 3.10.4, SeekableUnicodeStreamReader.readline appends each new block to a growing character buffer and reruns splitlines over the entire buffer on every iteration. An attacker-controlled corpus file containing one very long unterminated line therefore causes quadratic CPU consumption in line-oriented corpus readers and can deny service. This issue is fixed in version 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-129231](https://github.com/googlesky/CVE-2026-129231)
+
+### CVE-2026-129232 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. Prior to 3.10.4, XMLCorpusView.read_block rebuilds the full root-to-node context path with &quot;/&quot;.join(context) for every start tag while searching for a matching element. Deeply nested attacker-influenced corpus XML therefore causes quadratic pure-Python work and can pin a processing worker, resulting in denial of service. This issue is fixed in version 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-129232](https://github.com/googlesky/CVE-2026-129232)
+
+### CVE-2026-129233 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. From 3.10.0 until 3.10.4, StreamBackedCorpusView performs os.stat on a caller-supplied plain string path during construction before pathsec containment is enforced. The PathPointer branch used by in-tree corpus readers is validated, so exploitation requires application code to pass an attacker-influenced string directly to the public constructor. That string can identify an out-of-root path and disclose its existence, size, and modification time even though opening the file would be rejected. This issue is fixed in version 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-129233](https://github.com/googlesky/CVE-2026-129233)
+
+### CVE-2026-129234 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. Prior to 3.10.4, Prover9Parent.config_prover9 and Mace accept a relative binary_location and pass it to find_binary as path_to_bin, disabling the bare-name absolute-path guard. A local attacker who can plant prover9 or mace4 in the resolved working directory can cause subprocess.Popen to execute that binary with the invoking user's privileges. This issue is fixed in version 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-129234](https://github.com/googlesky/CVE-2026-129234)
+
 ### CVE-2026-129254 (2026-11-14)
 
 <code>A flaw has been found in Opixido OCMS up to b7c15660aba83d96677c1a9abaa69c082a24f21c. This impacts an unknown function of the file admin/TUI/index.php of the component Admin TUI. This manipulation of the argument img causes cross site scripting. The attack can be initiated remotely. The exploit has been published and may be used. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available. The vendor was contacted early about this disclosure but did not respond in any way.
@@ -25172,6 +25280,13 @@
 
 - [LLCForge/CVE-2026-129289](https://github.com/LLCForge/CVE-2026-129289)
 - [tc4dy/CVE-2026-129289-PoC-Exploit](https://github.com/tc4dy/CVE-2026-129289-PoC-Exploit)
+
+### CVE-2026-129307 (2026-11-16)
+
+<code>eml_parser serves as a python module for parsing eml files and returning various information found in the e-mail as well as computed information. In 3.0.3 and earlier, eml_parser.routing.parserouting() in eml_parser/routing.py builds a regular expression with multiple greedy capture groups and appends the npdate date literal extracted from a normalized copy of an attacker-controlled Received header, then searches that expression against the original unnormalized line. A formatting difference can make the trailing literal impossible to match, causing exhaustive backtracking across the greedy groups at each start position. The unsliced Received-header path is invoked by decode_email, decode_email_bytes, and parse_email, so one small unauthenticated message can pin a parser worker and create sustained queue backlog. This issue is fixed in version 3.0.4.
+</code>
+
+- [googlesky/CVE-2026-129307](https://github.com/googlesky/CVE-2026-129307)
 
 ### CVE-2026-129349 (2026-11-15)
 
@@ -25304,6 +25419,13 @@
 
 ### CVE-2026-130001
 - [LLCForge/CVE-2026-130001](https://github.com/LLCForge/CVE-2026-130001)
+
+### CVE-2026-130007 (2026-11-18)
+
+<code>k8s-mcp-server manages Kubernetes clusters through the Model Context Protocol. Prior to 1.1.0, SERVER_MODE defaults to SSE, with the listener on 0.0.0.0:8080, but main.go creates the SSE server without an authentication option or context function. The GET /sse handler creates a sessionId that is only a correlation value, and the POST /message handler accepts a loadable sessionId without an authorization or Origin check before dispatching tools/call; consequently, any client able to reach the port can enumerate and invoke registered Kubernetes tools without credentials. Read-only mode is disabled by default, leaving write-capable Kubernetes tools available to run with the server's configured cluster privileges. This issue is fixed in version 1.1.0.
+</code>
+
+- [googlesky/CVE-2026-130007](https://github.com/googlesky/CVE-2026-130007)
 
 ### CVE-2026-130176 (2026-11-19)
 
@@ -25600,6 +25722,13 @@
 </code>
 
 - [LLCForge/CVE-2026-133968](https://github.com/LLCForge/CVE-2026-133968)
+
+### CVE-2026-134623 (2026-11-22)
+
+<code>A flaw has been found in Microweber up to 2.0.20. This impacts the function UserManager::make_logged of the file src/MicroweberPackages/App/Http/Controllers/ApiController.php of the component Generic API Dispatcher. This manipulation causes improper access controls. Remote exploitation of the attack is possible. The exploit has been published and may be used. Upgrading to version 2.0.21 will fix this issue. Patch name: e639d26e61b989b100f8b6f6bb78c0cecca79b99. You should upgrade the affected component.
+</code>
+
+- [SumitNayak1337/CVE-2026-134623](https://github.com/SumitNayak1337/CVE-2026-134623)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -56050,6 +56179,7 @@
 - [horrister/moveit-transfer-cve-2023-34362](https://github.com/horrister/moveit-transfer-cve-2023-34362)
 - [k9yk5zkn76-op/-CVE-2023-34362-Analysis](https://github.com/k9yk5zkn76-op/-CVE-2023-34362-Analysis)
 - [Conviee/Assignment-](https://github.com/Conviee/Assignment-)
+- [khaled970r/moveit-breach-analysis-sqli](https://github.com/khaled970r/moveit-breach-analysis-sqli)
 
 ### CVE-2023-34468 (2023-06-12)
 
