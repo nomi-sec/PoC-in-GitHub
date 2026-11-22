@@ -2777,6 +2777,13 @@
 
 - [ugvxb/CVE-2026-9490](https://github.com/ugvxb/CVE-2026-9490)
 
+### CVE-2026-9506 (2026-06-08)
+
+<code>This vulnerability exists in Bagisto due to improper validation of user-supplied input in the ImageCacheController component. An unauthenticated remote attacker could exploit this vulnerability by sending crafted path traversal sequences through the filename parameter to access arbitrary files outside the intended directory on the targeted system.\n\n\n\nSuccessful exploitation of this vulnerability could allow an attacker to read arbitrary sensitive files on the targeted system.
+</code>
+
+- [0x5t4l1n/CVE-2026-9506](https://github.com/0x5t4l1n/CVE-2026-9506)
+
 ### CVE-2026-9539 (2026-06-24)
 
 <code>An out-of-bounds heap read and integer underflow in the TCP urgent data handling (sosendoob) in freedesktop.org libslirp version before v4.9.2 on hypervisor host environments (e.g., QEMU) allows a privileged guest VM attacker (root or CAP_NET_RAW) to leak gigabytes of sensitive host-process heap memory via sending crafted TCP segments with manipulated URG flags and urgent pointers (ti_urp).
@@ -4419,6 +4426,13 @@
 </code>
 
 - [rmhowe425/POC-CVE-2026-19295](https://github.com/rmhowe425/POC-CVE-2026-19295)
+
+### CVE-2026-19412 (2026-08-28)
+
+<code>This vulnerability exists in the CP Plus CP-XR-DE21-S Router due to the presence of hardcoded HTTP Digest authentication credentials in the firmware that are identical across all devices running the affected firmware. An attacker with access to the local network could exploit this vulnerability by obtaining the hardcoded authentication information from the firmware.\n\n \n\nSuccessful exploitation of this vulnerability could allow the attacker to gain unauthorized administrative access and perform privileged operations on the targeted device.
+</code>
+
+- [0x5t4l1n/CVE-2026-19412](https://github.com/0x5t4l1n/CVE-2026-19412)
 
 ### CVE-2026-19445 (2026-09-30)
 
@@ -7997,6 +8011,13 @@
 
 - [amanyadav78/CVE-2026-29861](https://github.com/amanyadav78/CVE-2026-29861)
 
+### CVE-2026-29905 (2026-03-26)
+
+<code>Kirby CMS through 5.1.4 allows an authenticated user with 'Editor' permissions to cause a persistent Denial of Service (DoS) via a malformed image upload. The application fails to properly validate the return value of the PHP getimagesize() function. When the system attempts to process this file for metadata or thumbnail generation, it triggers a fatal TypeError.
+</code>
+
+- [0x5t4l1n/CVE-2026-29905](https://github.com/0x5t4l1n/CVE-2026-29905)
+
 ### CVE-2026-29909 (2026-03-30)
 
 <code>MRCMS V3.1.2 contains an unauthenticated directory enumeration vulnerability in the file management module. The /admin/file/list.do endpoint lacks authentication controls and proper input validation, allowing remote attackers to enumerate directory contents on the server without any credentials.
@@ -8047,6 +8068,7 @@
 
 ### CVE-2026-30081
 - [rakeshelamaran98/CVE-2026-30081](https://github.com/rakeshelamaran98/CVE-2026-30081)
+- [0x5t4l1n/CVE-2026-30081](https://github.com/0x5t4l1n/CVE-2026-30081)
 
 ### CVE-2026-30082 (2026-03-30)
 
@@ -11046,6 +11068,20 @@
 
 - [daehyuh/CVE-2026-40987](https://github.com/daehyuh/CVE-2026-40987)
 
+### CVE-2026-41037 (2026-04-21)
+
+<code>This vulnerability exists in Quantum Networks router due to missing rate limiting and CAPTCHA protection for failed login attempts in the web-based management interface. An attacker on the same network could exploit this vulnerability by performing brute force attacks against administrative credentials, leading to unauthorized access with root privileges on the targeted device.
+</code>
+
+- [0x5t4l1n/CVE-2026-41037](https://github.com/0x5t4l1n/CVE-2026-41037)
+
+### CVE-2026-41039 (2026-04-21)
+
+<code>This vulnerability exists in Quantum Networks router due to improper access control and insecure default configuration in the web-based management interface. An unauthenticated attacker could exploit this vulnerability by accessing exposed API endpoints on the targeted device.\n\nSuccessful exploitation of this vulnerability could allow the attacker to access sensitive information, including internal endpoints, scripts and directories on the targeted device.
+</code>
+
+- [0x5t4l1n/CVE-2026-41039](https://github.com/0x5t4l1n/CVE-2026-41039)
+
 ### CVE-2026-41042 (2026-07-08)
 
 <code>Unauthenticated callers can supply a malicious H2 JDBC URL through the testConnection API, which executes arbitrary Java code on the server via H2's INIT parameter. Vulnerability in Apache Gravitino.\n\nThis issue affects Apache Gravitino: before 1.2.1.\n\nUsers are recommended to upgrade to version 1.2.1, which fixes the issue.\n\nThis issue only happens when using H2, and H2 is mainly used for testing and local development. Also, Gravitino is typically deployed in the internal environment, so the severity is low.
@@ -11480,6 +11516,13 @@
 </code>
 
 - [Astaruf/CVE-2026-42281](https://github.com/Astaruf/CVE-2026-42281)
+
+### CVE-2026-42290 (2026-05-13)
+
+<code>protobufjs-cli is the command line add-on for protobuf.js. Prior to 1.2.1 and 2.0.2, pbts invoked JSDoc by building a shell command string from input file paths and executing it through child_process.exec. File paths containing shell metacharacters could therefore be interpreted by the shell instead of being passed to JSDoc as plain arguments. This vulnerability is fixed in 1.2.1 and 2.0.2.
+</code>
+
+- [0x5t4l1n/CVE-2026-42290](https://github.com/0x5t4l1n/CVE-2026-42290)
 
 ### CVE-2026-42298 (2026-05-08)
 
@@ -11928,7 +11971,6 @@
 - [imeiplus/ghostlock-pfem10](https://github.com/imeiplus/ghostlock-pfem10)
 - [anksgls-sj/-Help-vivo-Y200i-5.10.218-GKI-CVE-2026-43499-stack-reclaim-reaches-0x300-need-0x318](https://github.com/anksgls-sj/-Help-vivo-Y200i-5.10.218-GKI-CVE-2026-43499-stack-reclaim-reaches-0x300-need-0x318)
 - [TheAndersMadsen/humane-aipin-ghostlock](https://github.com/TheAndersMadsen/humane-aipin-ghostlock)
-- [deancyl/s9180-rootmygalaxy](https://github.com/deancyl/s9180-rootmygalaxy)
 - [wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499](https://github.com/wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499)
 - [AriyanPegu/ghostlock-app](https://github.com/AriyanPegu/ghostlock-app)
 - [RELIHR/CVE-2026-43499](https://github.com/RELIHR/CVE-2026-43499)
@@ -11997,7 +12039,6 @@
 - [taowen/sm-g986u-kernel](https://github.com/taowen/sm-g986u-kernel)
 - [anVzdGFtb25/GhostLock-P50Pro-JAD-AL00](https://github.com/anVzdGFtb25/GhostLock-P50Pro-JAD-AL00)
 - [anVzdGFtb25/GhostLock-Honor90-REA-AN00](https://github.com/anVzdGFtb25/GhostLock-Honor90-REA-AN00)
-- [NotAndrej/GhostWatch](https://github.com/NotAndrej/GhostWatch)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -12454,6 +12495,13 @@
 </code>
 
 - [abraxas/CVE-2026-45140](https://github.com/abraxas/CVE-2026-45140)
+
+### CVE-2026-45152 (2026-05-27)
+
+<code>uniget is a universal installer and updater for (container) tools. Prior to 0.27.1, a command injection vulnerability exists in uniget due to unsafe execution of the check field from metadata files using /bin/bash -c. Because the check field is loaded directly from untrusted JSON metadata without validation or sanitization, an attacker can craft malicious metadata that executes arbitrary shell commands on the victim’s system when common uniget operations such as describe, install, update, or inspect are performed. This vulnerability can lead to arbitrary code execution with the privileges of the user running uniget. This vulnerability is fixed in 0.27.1.
+</code>
+
+- [0x5t4l1n/CVE-2026-45152](https://github.com/0x5t4l1n/CVE-2026-45152)
 
 ### CVE-2026-45156 (2026-06-01)
 
@@ -14555,6 +14603,20 @@
 - [maxprog-svg/CVE-2026-55040-Mass-Exploit](https://github.com/maxprog-svg/CVE-2026-55040-Mass-Exploit)
 - [virologi-info/mssharepoint-scanner](https://github.com/virologi-info/mssharepoint-scanner)
 
+### CVE-2026-55061 (2026-09-17)
+
+<code>uniget is a universal installer and updater for (container) tools. Prior to 0.27.6, the hooks edit command in cmd/uniget/hooks.go parses UNIGET_EDITOR or EDITOR with strings.Split(editor, &quot; &quot;) and passes every space-delimited suffix as an argument to the selected editor executable. An attacker who can influence the editor environment and cause hook editing can supply unexpected editor arguments, potentially causing unintended actions with the privileges of the uniget process account. Go os/exec does not evaluate shell operators in these arguments, so the advisory's wrapper demonstration establishes argument delivery but does not establish shell command interpretation. This issue is fixed in version 0.27.6.
+</code>
+
+- [0x5t4l1n/CVE-2026-55061](https://github.com/0x5t4l1n/CVE-2026-55061)
+
+### CVE-2026-55062 (2026-09-17)
+
+<code>uniget is a universal installer and updater for (container) tools. Prior to 0.27.6, the hooks edit command in cmd/uniget/hooks.go concatenates an unvalidated hook filename with the selected hooks directory, allowing parent-directory components to escape that directory. The resulting path is passed to the configured editor, which can access or modify files outside the hooks directory with the privileges of the uniget process account. This issue is fixed in version 0.27.6.
+</code>
+
+- [0x5t4l1n/CVE-2026-55062](https://github.com/0x5t4l1n/CVE-2026-55062)
+
 ### CVE-2026-55168 (2026-08-21)
 
 <code>Runtipi is a personal homeserver orchestrator. In 4.10.0 and earlier, Runtipi accepts symbolic links from an attacker-controlled backup archive and copies them into live application paths during the backup restore flow. An authenticated attacker can plant user-config/app.env as a symlink to an arbitrary reachable path and then send PUT /api/user-config/demoapp3:_user with attacker-controlled appEnv content. FilesystemService.writeTextFile() follows the planted link, allowing content to be written outside the intended restore and user-config directory boundary with Runtipi process permissions. This issue is fixed in version 4.10.1.
@@ -15331,6 +15393,13 @@
 </code>
 
 - [xiaoqiMikko/netty-http-check](https://github.com/xiaoqiMikko/netty-http-check)
+
+### CVE-2026-59924 (2026-07-08)
+
+<code>Mistune is a Python Markdown parser with renderers and plugins. Prior to 3.3.0, Include.parse() joins and normalizes user-supplied include paths without verifying that the result remains within the intended markdown directory, allowing crafted include paths to access files outside that directory when markdown files are processed using md.read(). This issue is fixed in version 3.3.0.
+</code>
+
+- [0x5t4l1n/CVE-2026-59924](https://github.com/0x5t4l1n/CVE-2026-59924)
 
 ### CVE-2026-59941 (2026-07-28)
 
@@ -20431,6 +20500,20 @@
 
 - [murrez/CVE-2026-97657](https://github.com/murrez/CVE-2026-97657)
 
+### CVE-2026-97698 (2026-11-17)
+
+<code>Mistune is a Python Markdown parser with renderers and plugins. Prior to 3.3.4, parse_link_href performs an unbounded parenthesis-balancing scan to the end of the document for each unmatched opening parenthesis reached through an empty [] link label. In src/mistune/helpers.py and src/mistune/inline_parser.py, the empty label bypasses no_close_bracket_before, and no_link_before advances only past the short label, so successive [] ( candidates repeatedly scan the remaining document. Rendering untrusted Markdown with the default HTML renderer and no plugins can perform quadratic CPU work and keep a worker at 100 percent utilization. This issue is fixed in version 3.3.4.
+</code>
+
+- [googlesky/CVE-2026-97698](https://github.com/googlesky/CVE-2026-97698)
+
+### CVE-2026-97699 (2026-11-17)
+
+<code>Mistune is a Python Markdown parser with renderers and plugins. Prior to 3.3.4, inline image parsing sends nested ![ openers through precedence_scan because the no_link_before and _label_contains_link linearization guards are gated by not is_image. In src/mistune/inline_parser.py, each outer image opener can therefore search the remaining image body, while max_image_depth does not apply because the failed scans do not produce image tokens. Rendering untrusted Markdown with the default HTML renderer and no plugins can perform quadratic CPU work and keep a worker at 100 percent utilization. This issue is fixed in version 3.3.4.
+</code>
+
+- [googlesky/CVE-2026-97699](https://github.com/googlesky/CVE-2026-97699)
+
 ### CVE-2026-97793 (2026-10-13)
 
 <code>Missing authentication for critical function in Windows Setup and Deployment allows an authorized attacker to elevate privileges locally.
@@ -22199,7 +22282,7 @@
 - [tommaru66-pixel/php2shell-poc-1](https://github.com/tommaru66-pixel/php2shell-poc-1)
 - [adriyansyah-mf/CVE-2026-109618-109619-PHP-session.upload_progress-Exploit-](https://github.com/adriyansyah-mf/CVE-2026-109618-109619-PHP-session.upload_progress-Exploit-)
 - [enactive-systems/CVE-2026-109618-poc](https://github.com/enactive-systems/CVE-2026-109618-poc)
-- [vperetti/php-cve-2026-109618-109619-backports](https://github.com/vperetti/php-cve-2026-109618-109619-backports)
+- [vperetti/phpbackports](https://github.com/vperetti/phpbackports)
 - [Incerto-inc/php-vuln-check-2026-10](https://github.com/Incerto-inc/php-vuln-check-2026-10)
 - [hypnguyen1209/php2shell](https://github.com/hypnguyen1209/php2shell)
 - [fmdiscioglu/php-cve-2026-109618-checker](https://github.com/fmdiscioglu/php-cve-2026-109618-checker)
@@ -23738,6 +23821,7 @@
 - [m19o/j4s-runner-check](https://github.com/m19o/j4s-runner-check)
 - [BanroxArt/jvm-sweep](https://github.com/BanroxArt/jvm-sweep)
 - [akshutgoyal/Java4Shell](https://github.com/akshutgoyal/Java4Shell)
+- [adjscent/CVE-2026-114938-POC](https://github.com/adjscent/CVE-2026-114938-POC)
 
 ### CVE-2026-114952 (2026-11-17)
 
@@ -24131,6 +24215,9 @@
 ### CVE-2026-117378
 - [p0et08/ShopXO](https://github.com/p0et08/ShopXO)
 
+### CVE-2026-117425
+- [0x5t4l1n/CVE-2026-117425](https://github.com/0x5t4l1n/CVE-2026-117425)
+
 ### CVE-2026-117517 (2026-11-19)
 
 <code>The fix for CVE-2026-25854 was incomplete.\n\n\n\nThis issue affects Apache Tomcat: from 11.0.19 through 11.0.27, from 10.1.53 through 10.1.61, from 9.0.116 through 9.0.123.\n\n\n\nUsers are recommended to upgrade to version 11.0.29, 10.1.62 or 9.0.124, which fix the issue.\nNote: Tomcat 11.0.28 was not released
@@ -24432,6 +24519,13 @@
 
 - [7xd10/CVE-2026-120318](https://github.com/7xd10/CVE-2026-120318)
 
+### CVE-2026-120343 (2026-11-02)
+
+<code>A flaw has been found in mathurvishal CloudClassroom-PHP-Project. The impacted element is an unknown function of the file manageassessment2.php. This manipulation of the argument ExamName/Q1/Q2/Q3/Q4/Q5 causes cross site scripting. The attack is possible to be carried out remotely. The exploit has been published and may be used. This product adopts a rolling release strategy to maintain continuous delivery. Therefore, version details for affected or updated releases cannot be specified. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [capivara-research/CVE-2026-120343](https://github.com/capivara-research/CVE-2026-120343)
+
 ### CVE-2026-120490 (2026-11-12)
 
 <code>On Scalable Platforms, an administrator with permissions to edit and install the Access Control Policy and NAT rules can create a NAT rule that redirects traffic to the Gateway's Sync interface, bypassing the built-in Sync protection. This could allow the administrator to execute operating system commands and write files on the Gateway with superuser privileges.
@@ -24715,6 +24809,7 @@
 - [unixsvr4/cve-sshole](https://github.com/unixsvr4/cve-sshole)
 - [Pauloxc6/CVE-2026-123158](https://github.com/Pauloxc6/CVE-2026-123158)
 - [TheoCerveraLede/auditoria-ciberseguridad-ypf](https://github.com/TheoCerveraLede/auditoria-ciberseguridad-ypf)
+- [0xsyr0/CVE-2026-123158-POC](https://github.com/0xsyr0/CVE-2026-123158-POC)
 
 ### CVE-2026-123218 (2026-11-07)
 
@@ -24920,6 +25015,7 @@
 - [9bie/CVE-2026-125396-bomb](https://github.com/9bie/CVE-2026-125396-bomb)
 - [dinosn/upload2shell-poc-generator](https://github.com/dinosn/upload2shell-poc-generator)
 - [ashrafzaryouh/CVE-2026-125396](https://github.com/ashrafzaryouh/CVE-2026-125396)
+- [evenomn/CVE-2026-125396-upload2shell](https://github.com/evenomn/CVE-2026-125396-upload2shell)
 
 ### CVE-2026-125399 (2026-11-09)
 
@@ -25195,6 +25291,13 @@
 
 - [LLCForge/CVE-2026-128134](https://github.com/LLCForge/CVE-2026-128134)
 
+### CVE-2026-128135 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. From 3.9.4 to 3.10.3, NLTK ZIP package extraction can write through an existing in-root hardlink whose other link points outside the NLTK data root. A local attacker who can prepare the extraction target can cause a package member write to overwrite an out-of-root file, violating the pathsec containment boundary and affecting integrity and availability. This issues is fixed in version 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-128135](https://github.com/googlesky/CVE-2026-128135)
+
 ### CVE-2026-128442
 - [langz337/CVE-2026-128442](https://github.com/langz337/CVE-2026-128442)
 
@@ -25281,6 +25384,13 @@
 </code>
 
 - [googlesky/CVE-2026-129228](https://github.com/googlesky/CVE-2026-129228)
+
+### CVE-2026-129229 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. From 3.10.0 until 3.10.4, TokenSearcher.findall and Text.findall accept caller-controlled regular expressions with an unbounded number of capturing groups throughout the affected range. Starting in 3.10.3, nltk.redos.compile and RegexpTokenizer expose the same compile-time vector. The third-party regex engine compiles group-dense patterns with roughly quadratic cost before the match-time timeout begins, allowing a small unauthenticated request to exhaust CPU and deny service. This issue is fixed in version 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-129229](https://github.com/googlesky/CVE-2026-129229)
 
 ### CVE-2026-129230 (2026-11-19)
 
@@ -25586,6 +25696,13 @@
 
 - [googlesky/CVE-2026-131873](https://github.com/googlesky/CVE-2026-131873)
 
+### CVE-2026-132147 (2026-11-22)
+
+<code>An arbitrary file read vulnerability was discovered in debbugs, a bug tracking system based on the active Debian BTS. versions.cgi failed to correctly sanitize package name inputs in found\n\nand fixed query parameters. Crafted query parameters could cause version.cgi to output any lines of the target file which contained spaces.
+</code>
+
+- [ly1g3/debian-bts-CVE-2026-132147](https://github.com/ly1g3/debian-bts-CVE-2026-132147)
+
 ### CVE-2026-132165
 - [abraxas/drupal-install-takeover](https://github.com/abraxas/drupal-install-takeover)
 
@@ -25594,6 +25711,7 @@
 <code>A vulnerability was found in October CMS up to 4.4.6. This affects the function validateExternalImageHost of the file modules/system/classes/resizeimages/ValidatesExternalImages.php of the component Image Resizer. Performing a manipulation of the argument url results in server-side request forgery. The attack may be initiated remotely. The complexity of an attack is rather high. The exploitability is reported as difficult. The exploit has been made public and could be used. Upgrading to version 4.4.7 mitigates this issue. The patch is named f6372867006c03141944e7b57396a726eb02acf0. You should upgrade the affected component.
 </code>
 
+- [capivara-research/CVE-2026-132252](https://github.com/capivara-research/CVE-2026-132252)
 - [googlesky/CVE-2026-132252](https://github.com/googlesky/CVE-2026-132252)
 
 ### CVE-2026-132275 (2026-11-20)
@@ -25664,6 +25782,13 @@
 - [ashrafzaryouh/CVE-2026-132825](https://github.com/ashrafzaryouh/CVE-2026-132825)
 - [hackpatato/CVE-2026-132825-poc](https://github.com/hackpatato/CVE-2026-132825-poc)
 
+### CVE-2026-133112 (2026-11-19)
+
+<code>modified eCommerce Shopsoftware through 3.3.0 contains a cross-site request forgery vulnerability in gv_send.php because the action=process step never validates a CSRF token via check_secure_form(). Attackers can host an auto-submitting form that makes a logged-in customer send their gift voucher balance to an attacker-controlled email address for redemption.
+</code>
+
+- [capivara-research/CVE-2026-133112](https://github.com/capivara-research/CVE-2026-133112)
+
 ### CVE-2026-133113 (2026-11-19)
 
 <code>Gogs through 0.14.4 contains an authorization bypass vulnerability that allows collaborators with write access to push to protected branches by merging pull requests. Because MergePullRequest skips branch protection checks and PullRequest.Merge omits hook environment variables, attackers can merge commits into branches restricted to allowlisted users.
@@ -25691,6 +25816,13 @@
 </code>
 
 - [LLCForge/CVE-2026-133168](https://github.com/LLCForge/CVE-2026-133168)
+
+### CVE-2026-133169 (2026-11-19)
+
+<code>modified eCommerce Shopsoftware through 3.3.0 contains a stored cross-site scripting vulnerability that allows authenticated administrators to inject scripts via the unsanitized products_model field. Attackers with product editing permission can store JavaScript that executes in browsers of other administrators, storefront visitors, and customers viewing carts and order history.
+</code>
+
+- [capivara-research/CVE-2026-133169](https://github.com/capivara-research/CVE-2026-133169)
 
 ### CVE-2026-133172 (2026-11-19)
 
@@ -25811,6 +25943,20 @@
 </code>
 
 - [SumitNayak1337/CVE-2026-134623](https://github.com/SumitNayak1337/CVE-2026-134623)
+
+### CVE-2026-134753 (2026-11-22)
+
+<code>dsniff through 2.5a2 contains an integer underflow in decode_sniffer() in decode_sniffer.c that allows unauthenticated remote attackers to write past the global obuf buffer. Attackers can send a UDP datagram to port 2001 on a monitored segment with a 4096-byte string, disabling base64_pton bounds checks to corrupt memory and crash dsniff.
+</code>
+
+- [VulnSVNC/CVE-2026-134753](https://github.com/VulnSVNC/CVE-2026-134753)
+
+### CVE-2026-134758 (2026-11-22)
+
+<code>Wfuzz through 3.1.1 contains a stored cross-site scripting vulnerability that allows malicious target servers to inject script by returning crafted links written unescaped into HTML reports. When the links script and html printer are used, attacker-supplied href values close the unquoted anchor tag and execute JavaScript when the operator opens the report.
+</code>
+
+- [VulnSVNC/CVE-2026-134758](https://github.com/VulnSVNC/CVE-2026-134758)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -32101,6 +32247,7 @@
 - [damnkrishna/CVE-2025-32433-LAB](https://github.com/damnkrishna/CVE-2025-32433-LAB)
 - [Avinash37402/CVE-2025-32433-Erlang-OTP-SSH](https://github.com/Avinash37402/CVE-2025-32433-Erlang-OTP-SSH)
 - [Ghost-Bx1/cve-2025-32433-erlang-ssh-preauth-rce](https://github.com/Ghost-Bx1/cve-2025-32433-erlang-ssh-preauth-rce)
+- [javakhir018/jenkins-erlang-otp-cve-2025-32433](https://github.com/javakhir018/jenkins-erlang-otp-cve-2025-32433)
 
 ### CVE-2025-32434 (2025-04-18)
 
@@ -74116,7 +74263,6 @@
 - [ranasen-rat/cve-2021-42013](https://github.com/ranasen-rat/cve-2021-42013)
 - [zeynepglygt/apache-cve-2021-42013-rce](https://github.com/zeynepglygt/apache-cve-2021-42013-rce)
 - [lmcewen9/cve-2021-42013](https://github.com/lmcewen9/cve-2021-42013)
-- [Joapath/CVE-2021-42013](https://github.com/Joapath/CVE-2021-42013)
 - [eunho87/CVE-2021-42013](https://github.com/eunho87/CVE-2021-42013)
 - [berraesen/apache-cve-2021-42013-lab](https://github.com/berraesen/apache-cve-2021-42013-lab)
 - [andreamammano89-maker/CVE-2021-42013_821311](https://github.com/andreamammano89-maker/CVE-2021-42013_821311)
@@ -74702,7 +74848,6 @@
 - [Sic4rio/Grafana-Decryptor-for-CVE-2021-43798](https://github.com/Sic4rio/Grafana-Decryptor-for-CVE-2021-43798)
 - [hxlxmj/Grafxploit](https://github.com/hxlxmj/Grafxploit)
 - [0xSAZZAD/Grafana-CVE-2021-43798](https://github.com/0xSAZZAD/Grafana-CVE-2021-43798)
-- [wezoomagency/GrafXploit](https://github.com/wezoomagency/GrafXploit)
 - [ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux](https://github.com/ravi5hanka/CVE-2021-43798-Exploit-for-Windows-and-Linux)
 - [monke443/CVE-2021-43798](https://github.com/monke443/CVE-2021-43798)
 - [suljov/Grafana-LFI-exploit](https://github.com/suljov/Grafana-LFI-exploit)
@@ -81965,8 +82110,8 @@
 - [Ekultek/BlueKeep](https://github.com/Ekultek/BlueKeep)
 - [UraSecTeam/CVE-2019-0708](https://github.com/UraSecTeam/CVE-2019-0708)
 - [Gh0st0ne/rdpscan-BlueKeep](https://github.com/Gh0st0ne/rdpscan-BlueKeep)
-- [algo7/bluekeep_CVE-2019-0708_poc_to_exploit](https://github.com/algo7/bluekeep_CVE-2019-0708_poc_to_exploit)
 - [JasonLOU/CVE-2019-0708](https://github.com/JasonLOU/CVE-2019-0708)
+- [binddns/bluekeep_CVE-2019-0708_poc_to_exploit](https://github.com/binddns/bluekeep_CVE-2019-0708_poc_to_exploit)
 - [AdministratorGithub/CVE-2019-0708](https://github.com/AdministratorGithub/CVE-2019-0708)
 - [umarfarook882/CVE-2019-0708](https://github.com/umarfarook882/CVE-2019-0708)
 - [HynekPetrak/detect_bluekeep.py](https://github.com/HynekPetrak/detect_bluekeep.py)
@@ -82451,6 +82596,7 @@
 - [RxinnotRstar/CVE-2019-2215-ForMIpad4](https://github.com/RxinnotRstar/CVE-2019-2215-ForMIpad4)
 - [WJNKAC/CVE-2019-2215-vivo-Y66i](https://github.com/WJNKAC/CVE-2019-2215-vivo-Y66i)
 - [neohob/odinroot](https://github.com/neohob/odinroot)
+- [RxinnotRstar/CVE-2019-2215-ForMIpad4-NEW-GUI](https://github.com/RxinnotRstar/CVE-2019-2215-ForMIpad4-NEW-GUI)
 
 ### CVE-2019-2525 (2019-01-16)
 
