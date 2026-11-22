@@ -11997,6 +11997,7 @@
 - [taowen/sm-g986u-kernel](https://github.com/taowen/sm-g986u-kernel)
 - [anVzdGFtb25/GhostLock-P50Pro-JAD-AL00](https://github.com/anVzdGFtb25/GhostLock-P50Pro-JAD-AL00)
 - [anVzdGFtb25/GhostLock-Honor90-REA-AN00](https://github.com/anVzdGFtb25/GhostLock-Honor90-REA-AN00)
+- [NotAndrej/GhostWatch](https://github.com/NotAndrej/GhostWatch)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -16843,6 +16844,7 @@
 </code>
 
 - [fj016/CVE-2026-69451-PoC](https://github.com/fj016/CVE-2026-69451-PoC)
+- [CreeperMPG/PasswordToolCVE](https://github.com/CreeperMPG/PasswordToolCVE)
 
 ### CVE-2026-69836 (2026-08-20)
 
@@ -20523,6 +20525,7 @@
 - [molanp/CVE-2026-98260-vivo-s60-poc](https://github.com/molanp/CVE-2026-98260-vivo-s60-poc)
 - [super2tt/CVE-2026-98260-vivo-x-fold6-poc](https://github.com/super2tt/CVE-2026-98260-vivo-x-fold6-poc)
 - [sabuweis/CVE-2026-98260](https://github.com/sabuweis/CVE-2026-98260)
+- [mumaosong/cve-2026-98260-app](https://github.com/mumaosong/cve-2026-98260-app)
 - [yoro1836/SamTimer](https://github.com/yoro1836/SamTimer)
 - [LinXing0926/GhostCred](https://github.com/LinXing0926/GhostCred)
 - [cuteaplane/CVE-2026-98260-for-OPD2501](https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501)
@@ -20560,6 +20563,8 @@
 - [zhanghangjie/CVE-2026-98260-CYL1](https://github.com/zhanghangjie/CVE-2026-98260-CYL1)
 - [nestchao/redmi-pad-se-87-root](https://github.com/nestchao/redmi-pad-se-87-root)
 - [tiamo1990/shancha-kernel-workshop](https://github.com/tiamo1990/shancha-kernel-workshop)
+- [okk30721-cell/cve-2026-98260-ksu](https://github.com/okk30721-cell/cve-2026-98260-ksu)
+- [pjnssb/CVE-2026-98260-GhostKey](https://github.com/pjnssb/CVE-2026-98260-GhostKey)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -20714,6 +20719,7 @@
 - [woshigenm/CVE-2026-99491](https://github.com/woshigenm/CVE-2026-99491)
 - [Yunnijian/CVE-2026-99491](https://github.com/Yunnijian/CVE-2026-99491)
 - [FatBrother1/hapt-99491](https://github.com/FatBrother1/hapt-99491)
+- [woshigenm/CVE-2026-99491-FANXIAOCHAO](https://github.com/woshigenm/CVE-2026-99491-FANXIAOCHAO)
 
 ### CVE-2026-99999 (2026-10-15)
 
@@ -21993,6 +21999,13 @@
 
 - [pinebudweiser/CVE-2026-107821-PoC](https://github.com/pinebudweiser/CVE-2026-107821-PoC)
 
+### CVE-2026-107853 (2026-11-17)
+
+<code>tiny-secp256k1 is a tiny secp256k1 native/JS wrapper. From 2.1.0 until 2.2.5 for tiny-secp256k1 and from 2.2.2 until 2.2.5 for @bitcoin-js/tiny-secp256k1-asmjs, the three-argument xOnlyPointAddTweakCheck path ignores the backend failure return from xOnlyPointAddTweak when a tweak produces the point at infinity. The shared X_ONLY_PUBLIC_KEY_INPUT buffer then still contains the original point, so a caller-controlled resultToCheck equal to that point can make the stale-buffer comparison return true even though no tweaked key exists. Protocols that rely on this helper to validate caller-controlled internal keys, tweaks, and comparison values can accept an invalid derived key. This issue is fixed in version 2.2.5.
+</code>
+
+- [googlesky/CVE-2026-107853](https://github.com/googlesky/CVE-2026-107853)
+
 ### CVE-2026-108097 (2026-10-30)
 
 <code>Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') vulnerability in Drupal Drupal core allows Reflection Injection. This issue affects Drupal core versions: from 8.9.0 to 10.6.19, from 11.0.0 to 11.3.19, from 11.4.0 to 11.4.10, from 12.0.0-alpha1 to 12.0.0-beta2.
@@ -22311,7 +22324,6 @@
 - [arifulislamat/php2shell-audit](https://github.com/arifulislamat/php2shell-audit)
 - [geforester/php7.4-focal-php2shell](https://github.com/geforester/php7.4-focal-php2shell)
 - [alvarodh5/php2shell](https://github.com/alvarodh5/php2shell)
-- [appsec-cz/php-eol-patch](https://github.com/appsec-cz/php-eol-patch)
 - [derazo1/php2shell-scanner](https://github.com/derazo1/php2shell-scanner)
 - [Stonlifer/php2shell-old2](https://github.com/Stonlifer/php2shell-old2)
 - [Quaerendir/php2shell-audit](https://github.com/Quaerendir/php2shell-audit)
@@ -22747,7 +22759,7 @@
 - [kipmyk/PHP2Shell](https://github.com/kipmyk/PHP2Shell)
 - [jeffschafer/Bigfix-PHP-Vulnerability-Scanner-Content-CVE-2026-109618-CVE-2026-109619](https://github.com/jeffschafer/Bigfix-PHP-Vulnerability-Scanner-Content-CVE-2026-109618-CVE-2026-109619)
 - [Leviticus-Triage/php2shell-unchained](https://github.com/Leviticus-Triage/php2shell-unchained)
-- [semihyesilyurt/CVE-2026-109618-PoC](https://github.com/semihyesilyurt/CVE-2026-109618-PoC)
+- [Aron-2005/CVE-2026-109618-PoC](https://github.com/Aron-2005/CVE-2026-109618-PoC)
 - [daothinh/php2shell-monitor-rz](https://github.com/daothinh/php2shell-monitor-rz)
 - [fernandotellado/php2shell-wordpress-check](https://github.com/fernandotellado/php2shell-wordpress-check)
 - [MrPrinceRawat/php2shell-behind-nginx](https://github.com/MrPrinceRawat/php2shell-behind-nginx)
@@ -23297,6 +23309,13 @@
 
 - [HexxedBitHeadz/cve-2026-111967](https://github.com/HexxedBitHeadz/cve-2026-111967)
 
+### CVE-2026-112020 (2026-10-18)
+
+<code>LodePNG through 20261006 contains a heap out-of-bounds read vulnerability in lodepng::getFilterTypesInterlaced() in lodepng_util.cpp that lacks bounds checks on decompressed IDAT data. Attackers can supply a crafted interlaced PNG declaring a raster larger than its IDAT stream to disclose adjacent heap memory or crash applications.
+</code>
+
+- [coboliqcom/lodepng-hardened](https://github.com/coboliqcom/lodepng-hardened)
+
 ### CVE-2026-112071 (2026-10-20)
 
 <code>The order cancellation function accepts an order identifier from the request and acts on that order without checking that the caller owns it. Any site visitor can set orders that are still awaiting payment to &quot;canceled&quot;. This requires a page that contains the shop's order plugin. Orders that are already paid are not affected.
@@ -23622,6 +23641,13 @@
 - [fixedbyreboot/CVE-2026-114713-POC](https://github.com/fixedbyreboot/CVE-2026-114713-POC)
 - [Sable-Research/CVE-2026-114713](https://github.com/Sable-Research/CVE-2026-114713)
 
+### CVE-2026-114728 (2026-10-22)
+
+<code>Roundcube Webmail before 1.6.20 and 1.7.x before 1.7.5 is affected by a remote content blocking bypass in the handling of FuncIRI attributes. rcube_washtml detected the CSS url() token with a pattern that enumerated only some of its escaped spellings, so values using other CSS escape sequences, for example \000075rl( or u\72 l(, were not recognized and remote content was loaded from an HTML message without the user's consent. Upstream fixed this in the commit “Fix remote content blocking bypass via CSS escapes in FuncIRI attributes (again)”, which resolves CSS escapes before matching and also inspects the `to`, `from` and `by` attributes.
+</code>
+
+- [Neo-XeD/CVE-2026-114728](https://github.com/Neo-XeD/CVE-2026-114728)
+
 ### CVE-2026-114820 (2026-10-24)
 
 <code>Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u511-b32, 8u511-perf-b32, 11.0.33.0.2, 17.0.21.0.2, 21.0.13.0.2, 25.0.5.0.2, 27.0.1.0.2; Oracle GraalVM for JDK: 17.0.21.0.2 and  21.0.13.0.2; Oracle GraalVM Enterprise Edition: 21.3.20.0.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N).
@@ -23759,6 +23785,13 @@
 - [Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0](https://github.com/Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0)
 - [Pr0fEs0r-X/PHP2SHELL-Checker-v-2.0-CVE-2026-115560-](https://github.com/Pr0fEs0r-X/PHP2SHELL-Checker-v-2.0-CVE-2026-115560-)
 - [LLCForge/CVE-2026-115560](https://github.com/LLCForge/CVE-2026-115560)
+
+### CVE-2026-115563 (2026-11-16)
+
+<code>The Model Context Protocol Python SDK is the official Python SDK for Model Context Protocol servers and clients. From 1.9.1 until 1.30.0 and 2.2.0, OAuth client support in mcp.client.auth can send credentials to an authorization server chosen by an untrusted MCP server. ClientCredentialsOAuthProvider and PrivateKeyJWTOAuthProvider cannot identify the authorization server that owns their credentials. Affected HTTP clients using those providers, OAuthClientProvider, or the deprecated 1.x RFC7523OAuthClientProvider can disclose a client_secret, authorization code, PKCE code_verifier, or signed client assertion. MCP servers, stdio clients, and clients that attach their own tokens or headers are not affected. Interactive OAuthClientProvider use requires a person to start sign-in, while the unattended providers do not. For ClientCredentialsOAuthProvider and PrivateKeyJWTOAuthProvider, callers must configure issuer= after upgrading because omission still follows the MCP server's advertised authorization server, and the deprecated RFC7523OAuthClientProvider must be replaced because it has no issuer option. A stored client registration without an issuer remains unbound after upgrading, so stored OAuth client information must be cleared once to register again or a manually pre-registered record must be updated with its issuer. This issue is fixed in versions 1.30.0 and 2.2.0.
+</code>
+
+- [googlesky/CVE-2026-115563](https://github.com/googlesky/CVE-2026-115563)
 
 ### CVE-2026-115565 (2026-11-19)
 
@@ -24434,6 +24467,13 @@
 
 - [LLCForge/CVE-2026-120967](https://github.com/LLCForge/CVE-2026-120967)
 
+### CVE-2026-120984 (2026-11-07)
+
+<code>A flaw was found in the Keycloak server's client management component. When a client is created or imported with authorization services enabled, the system fails to properly clear an internal session attribute used during the setup process. This allows an authenticated attacker with client management permissions to bypass security controls and upload a malicious JavaScript policy, which is then executed on the server when an authorization request is made. Successful exploitation could allow the attacker to run arbitrary code on the server, potentially compromising the entire system.
+</code>
+
+- [youssefmohamed552/KeyCloak-CVE-2026-120984-poc](https://github.com/youssefmohamed552/KeyCloak-CVE-2026-120984-poc)
+
 ### CVE-2026-120993 (2026-11-18)
 
 <code>When NGINX Plus or NGINX Open Source is configured to use the ngx_stream_ssl_module module with dynamic certificate loading and the ngx_stream_proxy_module module with the proxy_protocol v2 directive, an abbreviated SSL handshake can cause a worker process to terminate.\n\nImpact:\nThis vulnerability may allow remote attackers to cause a denial-of-service (DoS) on the NGINX system. This is a data plane vulnerability only; there is no control plane exposure.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
@@ -24486,6 +24526,13 @@
 </code>
 
 - [im0xfay/CVE-2026-121684](https://github.com/im0xfay/CVE-2026-121684)
+
+### CVE-2026-121716 (2026-11-17)
+
+<code>fzf is a command-line fuzzy finder. Prior to 0.74.5, bin/fzf-tmux validates separately supplied layout sizes but does not validate attached -l and -u layout values before Bash arithmetic expansion, allowing command substitution in a crafted operand to execute as the invoking user during option parsing. The same validation failure lets space-bearing popup geometry options -x, -y, -w, -h, and -p reach an unquoted tmux popup option string and inject additional tmux flags. Exploitation requires less-trusted project configuration, a wrapper, or a plugin to supply the poisoned value and requires the victim to invoke fzf-tmux; normal values are usually trusted, and the script has been superseded by built-in tmux options. This issue is fixed in version 0.74.5.
+</code>
+
+- [googlesky/CVE-2026-121716](https://github.com/googlesky/CVE-2026-121716)
 
 ### CVE-2026-121720 (2026-11-18)
 
@@ -24762,6 +24809,7 @@
 - [3tternp/vcenter-cve-2026-123890-check](https://github.com/3tternp/vcenter-cve-2026-123890-check)
 - [foxcornlab/vmware-vcenter-scanner](https://github.com/foxcornlab/vmware-vcenter-scanner)
 - [Sable-Research/CVE-2026-123890-Research](https://github.com/Sable-Research/CVE-2026-123890-Research)
+- [PARTSI14/armory-castle-vcenter-detections](https://github.com/PARTSI14/armory-castle-vcenter-detections)
 
 ### CVE-2026-124002 (2026-11-12)
 
@@ -24869,6 +24917,9 @@
 </code>
 
 - [Mahgal/upload2shell-check](https://github.com/Mahgal/upload2shell-check)
+- [9bie/CVE-2026-125396-bomb](https://github.com/9bie/CVE-2026-125396-bomb)
+- [dinosn/upload2shell-poc-generator](https://github.com/dinosn/upload2shell-poc-generator)
+- [ashrafzaryouh/CVE-2026-125396](https://github.com/ashrafzaryouh/CVE-2026-125396)
 
 ### CVE-2026-125399 (2026-11-09)
 
@@ -25281,6 +25332,27 @@
 - [LLCForge/CVE-2026-129289](https://github.com/LLCForge/CVE-2026-129289)
 - [tc4dy/CVE-2026-129289-PoC-Exploit](https://github.com/tc4dy/CVE-2026-129289-PoC-Exploit)
 
+### CVE-2026-129302 (2026-11-16)
+
+<code>Guard Core is an API security core engine for the FastAPI-Guard, FlaskAPI Guard, and DjAPI Guard adapters. From 3.5.0 until 3.13.0, built-in penetration-detection patterns in guard_core/handlers/suspatterns_handler.py execute through a direct pattern.search(content) call instead of the timeout-protected create_safe_matcher() path used for custom patterns. The built-in template-injection detector contains an unbounded expression with quadratic behavior when scanning repeated opening braces. Because penetration detection and enhanced mode are enabled by a stock SecurityConfig, an unauthenticated request can block the shared asyncio event loop, affecting all application endpoints. The triggering input does not produce a detection match, so the request can complete without incrementing ban counters or being recorded as suspicious. This issue is fixed in version 3.13.0.
+</code>
+
+- [googlesky/CVE-2026-129302](https://github.com/googlesky/CVE-2026-129302)
+
+### CVE-2026-129303 (2026-11-16)
+
+<code>Guard Core is an API security core engine for the FastAPI-Guard, FlaskAPI Guard, and DjAPI Guard adapters. From 1.0.0 until 3.13.0, ContentPreprocessor.preprocess() in guard_core/detection_engine/preprocessor.py collapses all whitespace before built-in pattern matching in the default enhanced mode. This removes carriage returns and newlines required by the http_split and newline-anchored cmd_injection detectors in guard_core/handlers/suspatterns_handler.py, making those detectors unable to match. Framework-decoded CRLF can therefore pass through Guard Core unflagged while the downstream application still receives the raw newline-bearing value. Direct security impact requires a downstream stack or application that persists or re-emits the value into a CRLF-tolerant response or command context. This issue is fixed in version 3.13.0.
+</code>
+
+- [googlesky/CVE-2026-129303](https://github.com/googlesky/CVE-2026-129303)
+
+### CVE-2026-129304 (2026-11-16)
+
+<code>Guard Core is an API security core engine for the FastAPI-Guard, FlaskAPI Guard, and DjAPI Guard adapters. From 1.0.0 until 3.13.0, _extract_from_forwarded_header() in guard_core/utils.py returns the selected X-Forwarded-For entry without validating that it is an IP address. In deployments configured with trusted_proxies where the selected entry is attacker-controlled, the arbitrary client_ip string reaches BehaviorTracker in guard_core/handlers/behavior_handler.py and is interpolated into Redis key names and blocking KEYS glob patterns. Glob metacharacters can cause one request to count other clients' behavior events, embedded separators can disturb key parsing, and rotating identities can create unbounded keys while repeatedly scanning the shared Redis keyspace. A non-IP identity can also reach a ban action and cause an uncaught validation error. This issue is fixed in version 3.13.0.
+</code>
+
+- [googlesky/CVE-2026-129304](https://github.com/googlesky/CVE-2026-129304)
+
 ### CVE-2026-129307 (2026-11-16)
 
 <code>eml_parser serves as a python module for parsing eml files and returning various information found in the e-mail as well as computed information. In 3.0.3 and earlier, eml_parser.routing.parserouting() in eml_parser/routing.py builds a regular expression with multiple greedy capture groups and appends the npdate date literal extracted from a normalized copy of an attacker-controlled Received header, then searches that expression against the original unnormalized line. A formatting difference can make the trailing literal impossible to match, causing exhaustive backtracking across the greedy groups at each start position. The unsliced Received-header path is invoked by decode_email, decode_email_bytes, and parse_email, so one small unauthenticated message can pin a parser worker and create sustained queue backlog. This issue is fixed in version 3.0.4.
@@ -25409,6 +25481,9 @@
 
 - [abraxas/php-tzcache-rce](https://github.com/abraxas/php-tzcache-rce)
 - [LLCForge/CVE-2026-129496](https://github.com/LLCForge/CVE-2026-129496)
+
+### CVE-2026-129975
+- [techdevfun/gpgme2shell](https://github.com/techdevfun/gpgme2shell)
 
 ### CVE-2026-129987 (2026-11-18)
 
@@ -25694,6 +25769,13 @@
 </code>
 
 - [LLCForge/CVE-2026-133493](https://github.com/LLCForge/CVE-2026-133493)
+
+### CVE-2026-133528 (2026-11-20)
+
+<code>BeamNG.drive before 0.40.6 contains an out-of-bounds write vulnerability because JIT-compiled LuaJIT traces omit FFI array bounds checks, letting untrusted Lua escape the sandbox. Attackers supplying a malicious mod can JIT-compile an FFI store loop, write out of range using a tostring() address leak, re-enable ffi.load, and run commands as the game user.
+</code>
+
+- [drbloop2000/BeamNG-Drive-RCE](https://github.com/drbloop2000/BeamNG-Drive-RCE)
 
 ### CVE-2026-133620 (2026-11-20)
 
@@ -45498,6 +45580,7 @@
 <code>An issue discovered in the DeviceIoControl component in ASUS Fan_Xpert before v.10013 allows an attacker to execute arbitrary code via crafted IOCTL requests.
 </code>
 
+- [ekfkawl/CVE-2024-30804](https://github.com/ekfkawl/CVE-2024-30804)
 - [Geozstevenzz/CVE-2024-30804](https://github.com/Geozstevenzz/CVE-2024-30804)
 
 ### CVE-2024-30850
@@ -66475,6 +66558,7 @@
 - [mpse-engineering/BLU_G35](https://github.com/mpse-engineering/BLU_G35)
 - [sriramsrangan/itel-a05s-a663lc](https://github.com/sriramsrangan/itel-a05s-a663lc)
 - [MissMudan/e5u-root-notes](https://github.com/MissMudan/e5u-root-notes)
+- [DazBot13-boopt/sc9863a-flash-free](https://github.com/DazBot13-boopt/sc9863a-flash-free)
 
 ### CVE-2022-38725 (2023-01-23)
 
@@ -86113,6 +86197,13 @@
 - [vuongnv3389-sec/CVE-2019-20372](https://github.com/vuongnv3389-sec/CVE-2019-20372)
 - [0xleft/CVE-2019-20372](https://github.com/0xleft/CVE-2019-20372)
 - [moften/CVE-2019-20372](https://github.com/moften/CVE-2019-20372)
+
+### CVE-2019-20446 (2020-02-02)
+
+<code>In xml.rs in GNOME librsvg before 2.46.2, a crafted SVG file with nested patterns can cause denial of service when passed to the library for processing. The attacker constructs pattern elements so that the number of final rendered objects grows exponentially.
+</code>
+
+- [googlesky/CVE-2026-132275](https://github.com/googlesky/CVE-2026-132275)
 
 ### CVE-2019-20933 (2020-11-19)
 
