@@ -3367,6 +3367,7 @@
 </code>
 
 - [uday952/CVE-2026-12118-POC-](https://github.com/uday952/CVE-2026-12118-POC-)
+- [overflowed7/CVE-2026-12118-PoC](https://github.com/overflowed7/CVE-2026-12118-PoC)
 
 ### CVE-2026-12166 (2026-07-02)
 
@@ -15182,6 +15183,7 @@
 
 ### CVE-2026-59273
 - [afernandesvigo/PoC-CVE-2026-59273](https://github.com/afernandesvigo/PoC-CVE-2026-59273)
+- [abraxas/cve-2026-59273-spring-security-elmatcher](https://github.com/abraxas/cve-2026-59273-spring-security-elmatcher)
 
 ### CVE-2026-59309 (2026-07-30)
 
@@ -17656,6 +17658,7 @@
 </code>
 
 - [dinosn/cve-2026-76466](https://github.com/dinosn/cve-2026-76466)
+- [wa6n3r/cve-2026-76466](https://github.com/wa6n3r/cve-2026-76466)
 
 ### CVE-2026-76504 (2026-09-30)
 
@@ -73905,6 +73908,7 @@
 - [andreamammano89-maker/CVE-2021-42013_821311](https://github.com/andreamammano89-maker/CVE-2021-42013_821311)
 - [CyberCTF/vulhub-httpd-cve-2021-42013](https://github.com/CyberCTF/vulhub-httpd-cve-2021-42013)
 - [mhd964/CVE-2021-42013](https://github.com/mhd964/CVE-2021-42013)
+- [wvverez/CVE-2021-42013](https://github.com/wvverez/CVE-2021-42013)
 
 ### CVE-2021-42023 (2021-12-14)
 
