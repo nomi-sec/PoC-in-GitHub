@@ -1962,13 +1962,6 @@
 
 - [dinosn/cve-2026-6379](https://github.com/dinosn/cve-2026-6379)
 
-### CVE-2026-6421 (2026-04-17)
-
-<code>A vulnerability has been found in Mobatek MobaXterm Home Edition up to 26.1. This affects an unknown part in the library msimg32.dll. The manipulation leads to uncontrolled search path. An attack has to be approached locally. The attack is considered to have high complexity. It is indicated that the exploitability is difficult. The exploit has been disclosed to the public and may be used. Upgrading to version 26.2 is able to mitigate this issue. It is suggested to upgrade the affected component. The vendor was contacted early, responded in a very professional manner and quickly released a fixed version of the affected product.
-</code>
-
-- [1neptune/chimera](https://github.com/1neptune/chimera)
-
 ### CVE-2026-6433 (2026-05-11)
 
 <code>The Custom css-js-php WordPress plugin through 2.0.7 does not properly sanitize user input before using it in a SQL query, and the result is passed to eval(), allowing unauthenticated users to execute arbitrary PHP code on the server.
@@ -6580,7 +6573,7 @@
 <code>MarkUs is a web application for the submission and grading of student assignments. Prior to 2.9.1, instructors are able to upload a zip file to create an assignment from an exported configuration (courses/&lt;:course_id&gt;/assignments/upload_config_files). The uploaded zip file entry names are used to create paths to write files to disk without checking these paths. This vulnerability is fixed in 2.9.1.
 </code>
 
-- [ustr/CVE-2026-25057](https://github.com/ustr/CVE-2026-25057)
+- [rizfol/CVE-2026-25057](https://github.com/rizfol/CVE-2026-25057)
 
 ### CVE-2026-25075 (2026-03-23)
 
@@ -7260,6 +7253,13 @@
 </code>
 
 - [mbanyamer/CVE-2026-26988-LibreNMS-SQLi](https://github.com/mbanyamer/CVE-2026-26988-LibreNMS-SQLi)
+
+### CVE-2026-27119 (2026-02-20)
+
+<code>svelte performance oriented web framework. From 5.39.3, &lt;=5.51.4, in certain circumstances, the server-side rendering output of an &lt;option&gt; element does not properly escape its content, potentially allowing HTML injection in the SSR output. Client-side rendering is not affected. This vulnerability is fixed in 5.51.5.
+</code>
+
+- [googlesky/CVE-2026-27119](https://github.com/googlesky/CVE-2026-27119)
 
 ### CVE-2026-27145 (2026-06-02)
 
@@ -8556,7 +8556,6 @@
 - [vasyapokemon/cve-2026-31431](https://github.com/vasyapokemon/cve-2026-31431)
 - [xeloxa/copyfail-exploit](https://github.com/xeloxa/copyfail-exploit)
 - [Mrhudson69/cve-2026-31431](https://github.com/Mrhudson69/cve-2026-31431)
-- [net0bsd/Mitigaciones](https://github.com/net0bsd/Mitigaciones)
 - [imkk000/play-go-copy-fail-cve-2026-31431](https://github.com/imkk000/play-go-copy-fail-cve-2026-31431)
 - [alvaroguzmancode/CVE-2026-31431-mitigacion](https://github.com/alvaroguzmancode/CVE-2026-31431-mitigacion)
 - [AdityaBhatt3010/CVE-2026-31431](https://github.com/AdityaBhatt3010/CVE-2026-31431)
@@ -8673,6 +8672,7 @@
 - [Venshell/copy-fail-CVE-2026-31431-aarch64](https://github.com/Venshell/copy-fail-CVE-2026-31431-aarch64)
 - [abiyeenzo/CVE-2026-31431](https://github.com/abiyeenzo/CVE-2026-31431)
 - [Stlwtrs/CopyFix](https://github.com/Stlwtrs/CopyFix)
+- [ssm-shell/copy-fail-ctypes](https://github.com/ssm-shell/copy-fail-ctypes)
 
 ### CVE-2026-31525 (2026-04-22)
 
@@ -9198,6 +9198,13 @@
 
 - [JohannesLks/CVE-2026-33186](https://github.com/JohannesLks/CVE-2026-33186)
 - [basesixtythree/B63-POC-CVE-2026-33186](https://github.com/basesixtythree/B63-POC-CVE-2026-33186)
+
+### CVE-2026-33203 (2026-03-20)
+
+<code>SiYuan is a personal knowledge management system. Prior to version 3.6.2, the SiYuan kernel WebSocket server accepts unauthenticated connections when a specific &quot;auth keepalive&quot; query parameter is present. After connection, incoming messages are parsed using unchecked type assertions on attacker-controlled JSON. A remote attacker can send malformed messages that trigger a runtime panic, potentially crashing the kernel process and causing denial of service. Version 3.6.2 fixes the issue.
+</code>
+
+- [googlesky/CVE-2026-33203](https://github.com/googlesky/CVE-2026-33203)
 
 ### CVE-2026-33229 (2026-04-08)
 
@@ -12041,6 +12048,7 @@
 - [anVzdGFtb25/GhostLock-P50Pro-JAD-AL00](https://github.com/anVzdGFtb25/GhostLock-P50Pro-JAD-AL00)
 - [anVzdGFtb25/GhostLock-Honor90-REA-AN00](https://github.com/anVzdGFtb25/GhostLock-Honor90-REA-AN00)
 - [stellaqwq/ghostlock-root5-pd2118c](https://github.com/stellaqwq/ghostlock-root5-pd2118c)
+- [xiaquwan1001/P40pro-ghostlock](https://github.com/xiaquwan1001/P40pro-ghostlock)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -12567,7 +12575,14 @@
 - [nkopylov/tanscript-exploit-check](https://github.com/nkopylov/tanscript-exploit-check)
 - [prashanthnataraj/mini-shai-hulud-detector](https://github.com/prashanthnataraj/mini-shai-hulud-detector)
 - [renewablehacking/CVE-2026-45321-Tanstack](https://github.com/renewablehacking/CVE-2026-45321-Tanstack)
-- [7whyex/CVE-2026-45321-Tanstack](https://github.com/7whyex/CVE-2026-45321-Tanstack)
+- [7starL/CVE-2026-45321-Tanstack](https://github.com/7starL/CVE-2026-45321-Tanstack)
+
+### CVE-2026-45325 (2026-07-16)
+
+<code>Gestor de Oferta is a web application for managing mobility service offerings. Prior to 20260509.0340.15, @tmlmobilidade/utils has a prototype pollution vulnerability in setValueAtPath() in packages/utils/src/generic/value-at-path.ts because unsafe path segments are not blocked. This issue is fixed in version 20260509.0340.15.
+</code>
+
+- [googlesky/CVE-2026-45325](https://github.com/googlesky/CVE-2026-45325)
 
 ### CVE-2026-45332 (2026-05-28)
 
@@ -13013,6 +13028,13 @@
 </code>
 
 - [SaiTeja-Erukude/CVE-2026-47117-openmed-rce](https://github.com/SaiTeja-Erukude/CVE-2026-47117-openmed-rce)
+
+### CVE-2026-47156 (2026-09-09)
+
+<code>MantisBT is an open source bug tracker. Versions 2.28.3 and earlier contain a critical authentication bypass in the SOAP API's mci_check_login() function. Any user knowing any valid cookie_string can authenticate as any other user (knowing their username), including the administrator, without knowing the target's password. The vulnerability is exploitable with zero prior access on default MantisBT installations because self-registration is enabled by default ($g_allow_signup = ON). A self-registered user can use their own cookie_string (readable from their browser's MANTIS_STRING_COOKIE cookie after login) to impersonate the administrator via the SOAP API. The REST API is NOT affected. The REST API's AuthMiddleware derives the username server-side from the API token or session cookie, so the username cannot be spoofed. The Web UI is NOT affected. The Web UI authenticates via PHP session cookies (PHPSESSID) and validates the MANTIS_STRING_COOKIE against the logged-in user through auth_is_cookie_valid(). The username is derived server-side from the cookie, not supplied by the client. Version 2.28.4 contains a patch. No known workarounds are available.
+</code>
+
+- [kanokwut/mantisbt-soap-cookie-case-collision-poc](https://github.com/kanokwut/mantisbt-soap-cookie-case-collision-poc)
 
 ### CVE-2026-47172 (2026-06-11)
 
@@ -14678,6 +14700,13 @@
 
 - [mirackayikci/CVE-2026-55584](https://github.com/mirackayikci/CVE-2026-55584)
 
+### CVE-2026-55621 (2026-08-21)
+
+<code>Incus is a system container and virtual machine manager. Prior to version 7.2.0, missing authorization checks exist for custom volume copying where an attacker knowing the name of a project that they don't have access to and the name of a custom volume in that project can copy the custom volume to a new project. This issue could allow an attacker to access secrets in custom volumes they are not authorized to access. Version 7.2.0 patches the issue.
+</code>
+
+- [googlesky/CVE-2026-55621](https://github.com/googlesky/CVE-2026-55621)
+
 ### CVE-2026-55726 (2026-07-02)
 
 <code>The Azure Blob Storage container used for Gardyn device logs is publicly listable without authentication. A malicious user would be able to access any device log file available in the blob storage container.
@@ -15418,6 +15447,13 @@
 
 - [asvorg/CVE-2026-59970-poc](https://github.com/asvorg/CVE-2026-59970-poc)
 
+### CVE-2026-59988 (2026-11-19)
+
+<code>django-docutils provides reStructuredText support for Django. Prior to 0.30.0, public rendering paths including publish_doctree, publish_html_from_source, publish_html_from_doctree, publish_parts_from_doctree, the {% rst %} template tag, the rst template filter, DocutilsTemplates, and DocutilsView pass lower-trust reStructuredText to Docutils without disabling file_insertion_enabled, raw_enabled, ambient docutils.conf processing, or unsafe URI schemes and without consistently sanitizing doctrees. An attacker who can influence rendered reStructuredText can use include or csv-table directives to read local files or cause server-side URL requests, or use raw HTML and unsafe URI output to inject stored script-capable content. Applications that render only trusted static reStructuredText are not affected unless attackers can influence it. This issue is fixed in version 0.30.0.
+</code>
+
+- [googlesky/CVE-2026-59988](https://github.com/googlesky/CVE-2026-59988)
+
 ### CVE-2026-60004 (2026-08-26)
 
 <code>Gitea before 1.27.1 allows remote code execution via the diffpatch API through Git hook installation.
@@ -16091,6 +16127,7 @@
 - [madfxr/xss2shell-poc](https://github.com/madfxr/xss2shell-poc)
 - [OFRPurpose/poc-cve-2026-64638](https://github.com/OFRPurpose/poc-cve-2026-64638)
 - [alisalive/xss2shell](https://github.com/alisalive/xss2shell)
+- [secplayground/CVE-2026-64638-scanner-and-exploit](https://github.com/secplayground/CVE-2026-64638-scanner-and-exploit)
 
 ### CVE-2026-64640 (2026-08-06)
 
@@ -16914,7 +16951,6 @@
 <code>Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender publicly referred to as &amp;quot;ShieldBreak &amp;quot;.
 </code>
 
-- [1neptune/ShieldBreak](https://github.com/1neptune/ShieldBreak)
 - [maxprog-svg/CVE-2026-69414](https://github.com/maxprog-svg/CVE-2026-69414)
 
 ### CVE-2026-69451 (2026-09-08)
@@ -17897,12 +17933,20 @@
 ### CVE-2026-77276
 - [Morzan6/CVE-2026-77276-PoC](https://github.com/Morzan6/CVE-2026-77276-PoC)
 
+### CVE-2026-77309 (2026-11-20)
+
+<code>AIT GUI provides a framework for building custom websites for real-time telemetry monitoring, commanding, and other mission operations. From 1.0.0 until 2.5.1, POST /tlm/query in ait/gui/__init__.py writes attacker-controlled field data to fields_in.txt, and its no-PCAP error path can abort before deleting that file. The unauthenticated POST /script/run route accepts a scriptPath that resolves outside ScriptRoot, reads the selected file, and executes it as Python. A network-reachable attacker can obtain the ordinary session cookie without credentials, combine the two routes, and execute arbitrary Python code with the AIT-GUI server process privileges. This issue is fixed in version 2.5.1.
+</code>
+
+- [googlesky/CVE-2026-77309](https://github.com/googlesky/CVE-2026-77309)
+
 ### CVE-2026-77312 (2026-11-19)
 
 <code>Flyto2 Core is an execution kernel for automation and AI-agent workflows. Prior to 2.26.8, the earlier CVE-2026-67429 remediation applied validate_path_with_env_config() to only a hand-picked set of file-writing modules, leaving data.csv.write in src/core/modules/atomic/data/csv_write.py, data.json_to_csv in src/core/modules/atomic/data/json_to_csv.py, file.copy in src/core/modules/atomic/file/copy.py, and file.move in src/core/modules/atomic/file/move.py outside the FLYTO_SANDBOX_DIR confinement boundary. The advisory also identifies unguarded modules across the broader data.*, file.*, and report-writer families. data.csv.write relies on a .. substring denylist that does not reject absolute paths, while the other named modules accept caller-controlled output or destination paths without the canonical guard. A caller able to execute modules or recipes can therefore write attacker-controlled content outside the configured sandbox, potentially overwriting application code, recipes, startup files, scheduled-task files, or authorization files and gaining code execution on the host. This issue is fixed in version 2.26.8.
 </code>
 
 - [LLCForge/CVE-2026-77312](https://github.com/LLCForge/CVE-2026-77312)
+- [googlesky/CVE-2026-77312](https://github.com/googlesky/CVE-2026-77312)
 
 ### CVE-2026-77313 (2026-11-19)
 
@@ -17952,6 +17996,7 @@
 </code>
 
 - [LLCForge/CVE-2026-77367](https://github.com/LLCForge/CVE-2026-77367)
+- [googlesky/CVE-2026-77367](https://github.com/googlesky/CVE-2026-77367)
 
 ### CVE-2026-77369 (2026-11-19)
 
@@ -17959,6 +18004,21 @@
 </code>
 
 - [LLCForge/CVE-2026-77369](https://github.com/LLCForge/CVE-2026-77369)
+- [googlesky/CVE-2026-77369](https://github.com/googlesky/CVE-2026-77369)
+
+### CVE-2026-77376 (2026-11-19)
+
+<code>Bolt is a fully open source, adaptable platform for building and running modern websites. Prior to 6.1.4, LoginFormAuthenticator accepts unsafe destinations for the login success redirect and login failure redirect. An attacker can direct a user to an attacker-controlled domain after authentication succeeds or fails, enabling phishing and potential token theft. This issue is fixed in version 6.1.4.
+</code>
+
+- [googlesky/CVE-2026-77376](https://github.com/googlesky/CVE-2026-77376)
+
+### CVE-2026-77377 (2026-11-19)
+
+<code>Bolt is a fully open source, adaptable platform for building and running modern websites. Prior to 6.1.4, the authenticated URL-upload endpoint and authenticated embed endpoint fetch user-supplied URLs server-side without protection against internal targets, allowing an attacker with the applicable backend permission to cause the Bolt server to request those targets. This issue is fixed in version 6.1.4.
+</code>
+
+- [googlesky/CVE-2026-77377](https://github.com/googlesky/CVE-2026-77377)
 
 ### CVE-2026-77378 (2026-11-19)
 
@@ -17966,6 +18026,27 @@
 </code>
 
 - [googlesky/CVE-2026-77378](https://github.com/googlesky/CVE-2026-77378)
+
+### CVE-2026-77379 (2026-11-19)
+
+<code>Bolt is a fully open source, adaptable platform for building and running modern websites. Prior to 6.1.4, the public Relation API lacks an access-control filter. Unauthenticated users can query its REST endpoints and GraphQL endpoints to discover metadata about unpublished, draft, and viewless content. This issue is fixed in version 6.1.4.
+</code>
+
+- [googlesky/CVE-2026-77379](https://github.com/googlesky/CVE-2026-77379)
+
+### CVE-2026-77380 (2026-11-19)
+
+<code>Bolt is a fully open source, adaptable platform for building and running modern websites. Prior to 6.1.5, the /bolt/async/upload-url and /bolt/async/embed endpoints validate only a submitted URL before fetching it server-side. The fetchers then follow redirects without revalidating each destination, allowing an authenticated user to bypass UrlSafetyChecker and cause the server to request internal or cloud-metadata addresses. This issue is fixed in version 6.1.5.
+</code>
+
+- [googlesky/CVE-2026-77380](https://github.com/googlesky/CVE-2026-77380)
+
+### CVE-2026-77382 (2026-11-19)
+
+<code>falcon-rust is a Rust implementation of the Falcon post-quantum signature scheme. Prior to 0.2.0, the discrete-Gaussian sampler in src/samplerz.rs evaluates approx_exp, ber_exp, and sampler_z acceptance probabilities with FixedPoint64 values having only 32 fractional bits. The scaling in approx_exp quantizes its input and limits relative precision to about 2^-33, below Falcon's required bound, causing reference known-answer vectors to diverge and invalidating the proof assumption that secret-dependent signature and key distributions are negligibly close to the ideal discrete Gaussian. This is a cryptographic-soundness defect and no practical key-recovery attack has been demonstrated. This issue is fixed in version 0.2.0.
+</code>
+
+- [googlesky/CVE-2026-77382](https://github.com/googlesky/CVE-2026-77382)
 
 ### CVE-2026-77521 (2026-09-21)
 
@@ -18646,6 +18727,20 @@
 </code>
 
 - [2alf/CarbonBlue](https://github.com/2alf/CarbonBlue)
+
+### CVE-2026-83816 (2026-11-16)
+
+<code>CodeWhale is a DeepSeek and MiMo coding agent for the terminal. Prior to 0.9.0, the ExecShellTool::approval_requirement_for path used is_parallel_readonly_command to downgrade commands to automatic approval based on a flag-stripped command allowlist. The allowlist treated fd, rg, and git grep as read-only even when fd -x or fd --exec, rg --pre, or git grep --open-files-in-pager selected an external program. registered_tool_approval_required returned without displaying a prompt for that automatic classification, and the later command-safety check also treated the base utilities as safe. Attacker-controlled content that influenced an agent tool call could therefore cause arbitrary program execution on the developer host without the approval promised by the default interactive profile, resulting in unauthorized access, modification, or disruption. This issue is fixed in version 0.9.0.
+</code>
+
+- [googlesky/CVE-2026-83816](https://github.com/googlesky/CVE-2026-83816)
+
+### CVE-2026-83817 (2026-11-16)
+
+<code>CodeWhale is a DeepSeek and MiMo coding agent for the terminal. Prior to 0.9.0, DEFAULT_AUTOMATION_AUTO_APPROVE caused AutomationRecord::task_auto_approve to resolve an omitted setting to true, and the automation_create schema advertised the same insecure default. enqueue_run_task converted that omission into an explicit true value, bypassing the safer task-path fallback and selecting ApprovalMode::Bypass for each scheduled run. After a user approved creation of an apparently benign recurring automation, subsequent executions could silently authorize mutating tools without a human present, and an automation created with shell access could repeatedly execute commands. This issue is fixed in version 0.9.0.
+</code>
+
+- [googlesky/CVE-2026-83817](https://github.com/googlesky/CVE-2026-83817)
 
 ### CVE-2026-83834 (2026-10-13)
 
@@ -20252,6 +20347,13 @@
 
 - [d6fault/CVE-2026-95675](https://github.com/d6fault/CVE-2026-95675)
 
+### CVE-2026-95839 (2026-11-16)
+
+<code>containerd is an open-source container runtime. From 2.2.0 until 2.2.10, 2.3.7, and 2.4.2, image manifest processing through the transfer service can encounter a child descriptor containing the io.containerd.manifest.subject annotation and a malformed digest. Pulling or importing such an image, including through a default CRI PullImage request, can trigger an unrecovered panic and crash the containerd daemon. In Kubernetes, kubelet retries can repeatedly trigger the crash and disrupt container operations on the worker node. This issue is fixed in versions 2.2.10, 2.3.7, and 2.4.2.
+</code>
+
+- [googlesky/CVE-2026-95839](https://github.com/googlesky/CVE-2026-95839)
+
 ### CVE-2026-96054 (2026-11-10)
 
 <code>Heap-based buffer overflow in Microsoft Color Management allows an unauthorized attacker to execute code locally.
@@ -21220,6 +21322,13 @@
 
 - [fixedbyreboot/CVE-2026-102895-POC](https://github.com/fixedbyreboot/CVE-2026-102895-POC)
 
+### CVE-2026-102945 (2026-11-19)
+
+<code>Aether Project AMF supports termination of NAS signalling, NAS ciphering &amp; integrity protection, registration management, connection management, mobility management, access authentication and authorization, security context management. Prior to 3.1.6, a malformed NGAP PathSwitchRequest can contain a UESecurityCapabilities information element whose extensible APER bit-string representation has no bytes even though decoding reports no error. In ngap/handler.go, HandlePathSwitchRequest checks only whether the element is present before six index-zero reads of its encryption and integrity algorithm fields, causing an unrecovered panic in the NGAP receive goroutine and terminating the AMF. The described attacker is a rogue or compromised gNB on the N2 interface and additionally needs a registered UE's AMF-UE-NGAP-ID; a bare over-the-air UE cannot trigger the issue. This issue is fixed in version 3.1.6.
+</code>
+
+- [googlesky/CVE-2026-102945](https://github.com/googlesky/CVE-2026-102945)
+
 ### CVE-2026-102971
 - [BomboBombone/CVE-2026-102971](https://github.com/BomboBombone/CVE-2026-102971)
 
@@ -21236,12 +21345,26 @@
 
 - [googlesky/CVE-2026-103025](https://github.com/googlesky/CVE-2026-103025)
 
+### CVE-2026-103026 (2026-11-19)
+
+<code>Paymenter is a free and open-source webshop solution for management of hosting services. Prior to 1.5.7, the HasConfirmation trait in app/Livewire/Traits/HasConfirmation.php, included by app/Livewire/Component.php across 36 client-facing Livewire components, exposed executeConfirmedAction as a public action that invoked any component method accepted by method_exists. The action could call inherited InteractsWithProperties::fill(), whose data_set() writes arbitrary public properties, including state marked with #[Locked] and dotted paths into hydrated Eloquent models. Depending on the methods and properties exposed by an individual component, an unauthenticated caller could use this path to bypass intended authorization and modify server-side state intended to be immutable or protected from client-side manipulation. This issue is fixed in version 1.5.7.
+</code>
+
+- [googlesky/CVE-2026-103026](https://github.com/googlesky/CVE-2026-103026)
+
 ### CVE-2026-103033 (2026-11-19)
 
 <code>ALTCHA is a Go library for creating and verifying ALTCHA challenges. Prior to 2.1.0, parseServerSignature can leave ServerSignatureVerificationData.Extra uninitialized when url.ParseQuery returns partial values and an error for a malformed percent escape in VerificationData. A later write of an unknown parsed key to the nil map panics before VerifyServerSignature or VerifyServerSignatureSafe completes signature verification, so an unauthenticated client can abort a request. Standard net/http recovers the request goroutine, while application goroutines or frameworks without recovery can crash the process. This issue is fixed in version 2.1.0.
 </code>
 
 - [googlesky/CVE-2026-103033](https://github.com/googlesky/CVE-2026-103033)
+
+### CVE-2026-103035 (2026-11-19)
+
+<code>TeamPass is a self-hosted collaborative password manager. Prior to 3.2.1.2, the update_folder action in app/sources/folders.queries.php allowed an authenticated, non-read-only user to re-parent a folder without checking whether the target folder or submitted parentId belonged to the caller's user-accessible_folders set. Selecting a personal folder as the new parent passed the personal-folder guard and set personal_folder on the target, transferring the credential subtree into the attacker's accessible space after the next login and hiding it from the organization, including administrators. The change exposed credential labels, logins, URLs, email addresses, and descriptions, while sharekey-protected passwords remained protected; hiding the subtree also denied other users access. This issue is fixed in version 3.2.1.2.
+</code>
+
+- [googlesky/CVE-2026-103035](https://github.com/googlesky/CVE-2026-103035)
 
 ### CVE-2026-103039 (2026-10-30)
 
@@ -21428,6 +21551,7 @@
 
 - [LLCForge/CVE-2026-104099](https://github.com/LLCForge/CVE-2026-104099)
 - [abraxas/cve-2026-104099-fabio-path-acl-bypass](https://github.com/abraxas/cve-2026-104099-fabio-path-acl-bypass)
+- [googlesky/CVE-2026-104099](https://github.com/googlesky/CVE-2026-104099)
 
 ### CVE-2026-104100 (2026-11-17)
 
@@ -21442,6 +21566,13 @@
 </code>
 
 - [pervinzahidli/CVE-2026-104110](https://github.com/pervinzahidli/CVE-2026-104110)
+
+### CVE-2026-104129 (2026-11-19)
+
+<code>pREST (PostgreSQL REST) is an API that delivers an application on top of a Postgres database. Prior to 2.4.0, the vulnerable parameter is _groupby, handled by GroupByClause in adapters/postgres/postgres.go. adapters/postgres/postgres.go uses the weaker isSafeSQLExpression check for this function-expression branch instead of the stricter single-field validator used for _select. That check validates only the outer function name against a 13-function allowlist and permits nested subqueries, trailing UNION syntax, and inner pg_ functions. controllers/crud.go concatenates the GROUP BY expression while parameterizing only WHERE values, allowing attacker-controlled SQL structure into the clause. Default configuration permits unauthenticated access; a restricted installation may require a low-privilege table reader. UNION-based extraction requires compatible column counts and types and was not verified end to end, but a delay-producing function can cause denial of service without that alignment. This issue is fixed in 2.4.0.
+</code>
+
+- [googlesky/CVE-2026-104129](https://github.com/googlesky/CVE-2026-104129)
 
 ### CVE-2026-104199 (2026-11-19)
 
@@ -22391,7 +22522,6 @@
 - [r3c0nd4t4/php2shell-verify](https://github.com/r3c0nd4t4/php2shell-verify)
 - [godylockz/CVE-2026-109618-109619](https://github.com/godylockz/CVE-2026-109618-109619)
 - [Bulletdev/php2shell-poc](https://github.com/Bulletdev/php2shell-poc)
-- [twili8/php2shell-poc](https://github.com/twili8/php2shell-poc)
 - [san3ncrypt3d/php-oom-corruption-lab](https://github.com/san3ncrypt3d/php-oom-corruption-lab)
 - [mirrored-projects/PHP74-Windows-CVE2026](https://github.com/mirrored-projects/PHP74-Windows-CVE2026)
 - [projetoroot/php2shell-guard](https://github.com/projetoroot/php2shell-guard)
@@ -23003,6 +23133,7 @@
 - [melzum/php2shell-lab](https://github.com/melzum/php2shell-lab)
 - [omeyz/php2shell-honeypot](https://github.com/omeyz/php2shell-honeypot)
 - [PARTSI14/php2shell-detection-engineering](https://github.com/PARTSI14/php2shell-detection-engineering)
+- [bipul-unexpected/CVE-2026-109618-2026-109619](https://github.com/bipul-unexpected/CVE-2026-109618-2026-109619)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -23691,6 +23822,7 @@
 - [ynsmroztas/EtherPadSniper](https://github.com/ynsmroztas/EtherPadSniper)
 - [LLCForge/CVE-2026-114516](https://github.com/LLCForge/CVE-2026-114516)
 - [evenomn/CVE-2026-114516](https://github.com/evenomn/CVE-2026-114516)
+- [googlesky/CVE-2026-114516](https://github.com/googlesky/CVE-2026-114516)
 
 ### CVE-2026-114550 (2026-11-03)
 
@@ -24572,6 +24704,7 @@
 </code>
 
 - [LLCForge/CVE-2026-120539](https://github.com/LLCForge/CVE-2026-120539)
+- [foxcornlab/buddypress-restrictions-scanner](https://github.com/foxcornlab/buddypress-restrictions-scanner)
 
 ### CVE-2026-120681 (2026-11-20)
 
@@ -24709,6 +24842,13 @@
 </code>
 
 - [googlesky/CVE-2026-122244](https://github.com/googlesky/CVE-2026-122244)
+
+### CVE-2026-122247 (2026-11-20)
+
+<code>Budibase is an open-source low-code platform. Prior to 3.50.0, the public POST /api/global/users/init endpoint on a self-hosted single-tenant deployment accepts an attacker-controlled tenantId and evaluates checkAnyUserExists() in the selected tenant database instead of the legitimate default tenant. An unauthenticated attacker can select an unused tenant namespace to bypass the one-time initialization guard, causing packages/worker/src/api/controllers/global/users.ts to create a tenant-specific CouchDB database and a global-administrator document without a session or CSRF token. Repeating this operation with unique tenant identifiers can exhaust datastore resources and leave latent privileged records. The created administrator cannot log into the default tenant while multi-tenancy remains disabled, which limits the immediate impact to persistent writes, denial of service, and records that may become usable during later multi-tenant operation or migration. This issue is fixed in versions 3.50.0 and 4.0.0.
+</code>
+
+- [googlesky/CVE-2026-122247](https://github.com/googlesky/CVE-2026-122247)
 
 ### CVE-2026-122675 (2026-11-07)
 
@@ -24926,12 +25066,12 @@
 
 - [Cyber-BansalAI/vmware-vcenter-2026](https://github.com/Cyber-BansalAI/vmware-vcenter-2026)
 - [Quaerendir/cve-2026-123890-audit](https://github.com/Quaerendir/cve-2026-123890-audit)
-- [sanMuSec/vcenter-80u3m-patch-download](https://github.com/sanMuSec/vcenter-80u3m-patch-download)
 - [LLCForge/CVE-2026-123890](https://github.com/LLCForge/CVE-2026-123890)
 - [3tternp/vcenter-cve-2026-123890-check](https://github.com/3tternp/vcenter-cve-2026-123890-check)
 - [foxcornlab/vmware-vcenter-scanner](https://github.com/foxcornlab/vmware-vcenter-scanner)
 - [Sable-Research/CVE-2026-123890-Research](https://github.com/Sable-Research/CVE-2026-123890-Research)
 - [PARTSI14/armory-castle-vcenter-detections](https://github.com/PARTSI14/armory-castle-vcenter-detections)
+- [dinosn/CVE-2026-123890](https://github.com/dinosn/CVE-2026-123890)
 
 ### CVE-2026-124002 (2026-11-12)
 
@@ -25325,6 +25465,27 @@
 
 - [googlesky/CVE-2026-128135](https://github.com/googlesky/CVE-2026-128135)
 
+### CVE-2026-128136 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. From 3.10.0 until 3.10.4, allowlisted_pickle_load keys dangerous NumPy globals by export name, allowing submodule-local numpy.lib file input/output callables to evade the denylist under the broad module allowance used by TransitionParser. A crafted pickle can invoke recfromtxt to read a local file or open_memmap to create or truncate an attacker-selected file when a victim loads an untrusted model. This issue is fixed in version 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-128136](https://github.com/googlesky/CVE-2026-128136)
+
+### CVE-2026-128138 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. From 3.10.3 until 3.10.4, the NLTK 3.10.3 JVM hardening validates Java launcher tokens in the options channel but appends the caller-controlled cmd sequence without requiring its first token to be a main class. Supplying -jar or an @argfile through nltk.internals.java or StanfordSegmenter.java_class can therefore execute attacker-selected Java bytecode without the unsafe-JAR opt-in. This issue is fixed in version 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-128138](https://github.com/googlesky/CVE-2026-128138)
+
+### CVE-2026-128139 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. From 3.6 to 3.10.3, XMLCorpusView._read_xml_fragment accumulates 1 KiB blocks and repeatedly applies whole-buffer XML validation while a comment or CDATA terminator remains ahead. A large comment in an attacker-controlled corpus file causes quadratic CPU consumption through documented XML corpus readers across the affected range. On 3.6 and 3.9.2, a large CDATA section incurs the quadratic scan before rejection, while on 3.10.3 both comment and CDATA documents are read successfully. This vulnerability is fixed in 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-128139](https://github.com/googlesky/CVE-2026-128139)
+
 ### CVE-2026-128442
 - [langz337/CVE-2026-128442](https://github.com/langz337/CVE-2026-128442)
 
@@ -25376,6 +25537,13 @@
 </code>
 
 - [LLCForge/CVE-2026-129175](https://github.com/LLCForge/CVE-2026-129175)
+
+### CVE-2026-129221 (2026-11-19)
+
+<code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. Prior to 3.10.4, nltk.classify.weka.ARFF_Formatter writes attacker-controlled class labels into the Weka ARFF @ATTRIBUTE '-label-' declaration without safely formatting the label tokens. Crafted labels can alter the generated ARFF schema or records, corrupting classifier input and causing integrity loss or processing failure. This issue is fixed in version 3.10.4.
+</code>
+
+- [googlesky/CVE-2026-129221](https://github.com/googlesky/CVE-2026-129221)
 
 ### CVE-2026-129224 (2026-11-19)
 
@@ -29931,7 +30099,7 @@
 - [longg66/cve-2025-21479_iqooneo7speed](https://github.com/longg66/cve-2025-21479_iqooneo7speed)
 - [linux-tools/VIVO-IQOO-Neo9-Root-Tools](https://github.com/linux-tools/VIVO-IQOO-Neo9-Root-Tools)
 - [Shiho-Patch/linux-tools-vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/Shiho-Patch/linux-tools-vivo_iqoo_neo_9_root_research_on_CVE-2025-21479)
-- [Type010/cheese-app](https://github.com/Type010/cheese-app)
+- [xianwan1314/cheese-app](https://github.com/xianwan1314/cheese-app)
 - [CatXiaoShi/CVE-2025-21479](https://github.com/CatXiaoShi/CVE-2025-21479)
 
 ### CVE-2025-21574 (2025-04-15)
@@ -31741,7 +31909,6 @@
 - [alinaclark672377250/CVE-2025-29927-POC](https://github.com/alinaclark672377250/CVE-2025-29927-POC)
 - [Seif-Abdelhamid/nextjs-middleware-bypass-lab](https://github.com/Seif-Abdelhamid/nextjs-middleware-bypass-lab)
 - [zColdWater/vibeshield-cli](https://github.com/zColdWater/vibeshield-cli)
-- [zColdWater/omniforge-skills](https://github.com/zColdWater/omniforge-skills)
 
 ### CVE-2025-29943 (2026-01-16)
 
@@ -63742,6 +63909,13 @@
 
 - [andree554/CVE-2022-24903-Heap-based-buffer-overflow-Hand-On-Lab](https://github.com/andree554/CVE-2022-24903-Heap-based-buffer-overflow-Hand-On-Lab)
 
+### CVE-2022-24905 (2022-05-20)
+
+<code>Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. A vulnerability was found in Argo CD prior to versions 2.3.4, 2.2.9, and 2.1.15 that allows an attacker to spoof error messages on the login screen when single sign on (SSO) is enabled. In order to exploit this vulnerability, an attacker would have to trick the victim to visit a specially crafted URL which contains the message to be displayed. As far as the research of the Argo CD team concluded, it is not possible to specify any active content (e.g. Javascript) or other HTML fragments (e.g. clickable links) in the spoofed message. A patch for this vulnerability has been released in Argo CD versions 2.3.4, 2.2.9, and 2.1.15. There are currently no known workarounds.
+</code>
+
+- [googlesky/CVE-2022-24905](https://github.com/googlesky/CVE-2022-24905)
+
 ### CVE-2022-24924 (2022-02-11)
 
 <code>An improper access control in LiveWallpaperService prior to versions 3.0.9.0 allows to create a specific named system directory without a proper permission.
@@ -75600,6 +75774,7 @@
 - [for-toolathlon/log4shell-audit](https://github.com/for-toolathlon/log4shell-audit)
 - [for-toolathlon/log4shell-audit2](https://github.com/for-toolathlon/log4shell-audit2)
 - [for-toolathlon/log4shell-audit-2](https://github.com/for-toolathlon/log4shell-audit-2)
+- [johnyProDev/CVE-2021-44228-Writeup](https://github.com/johnyProDev/CVE-2021-44228-Writeup)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -96184,6 +96359,7 @@
 - [Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287](https://github.com/Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287)
 - [mrintern/thm_steelmountain_CVE-2014-6287](https://github.com/mrintern/thm_steelmountain_CVE-2014-6287)
 - [randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution](https://github.com/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution)
+- [xyzzklk/HFS_Strike](https://github.com/xyzzklk/HFS_Strike)
 - [zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287)
 - [10cks/CVE-2014-6287](https://github.com/10cks/CVE-2014-6287)
 - [francescobrina/hfs-cve-2014-6287-exploit](https://github.com/francescobrina/hfs-cve-2014-6287-exploit)
