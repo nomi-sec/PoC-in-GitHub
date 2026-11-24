@@ -1702,6 +1702,7 @@
 - [abraxas/CVE-2026-5430](https://github.com/abraxas/CVE-2026-5430)
 - [davidvrns/CVE-2026-5430-WSO2](https://github.com/davidvrns/CVE-2026-5430-WSO2)
 - [getdrive/wso2_cve-2026-5430_lab](https://github.com/getdrive/wso2_cve-2026-5430_lab)
+- [cveForge/CVE-2026-5430](https://github.com/cveForge/CVE-2026-5430)
 
 ### CVE-2026-5432
 - [George0Papasotiriou/CVE-2026-5432-GraphQL-Batching-Alias-Confusion-SQL-Injection](https://github.com/George0Papasotiriou/CVE-2026-5432-GraphQL-Batching-Alias-Confusion-SQL-Injection)
@@ -2580,7 +2581,6 @@
 - [Jenderal92/CVE-2026-8732](https://github.com/Jenderal92/CVE-2026-8732)
 - [HORKimhab/CVE-2026-8732](https://github.com/HORKimhab/CVE-2026-8732)
 - [p3Nt3st3r-sTAr/CVE-2026-8732-POC](https://github.com/p3Nt3st3r-sTAr/CVE-2026-8732-POC)
-- [fientix/CVE-2026-8732-PoC](https://github.com/fientix/CVE-2026-8732-PoC)
 
 ### CVE-2026-8793 (2026-08-03)
 
@@ -2673,7 +2673,6 @@
 - [thinhap/CVE-2026-9082-PoC](https://github.com/thinhap/CVE-2026-9082-PoC)
 - [11romain/CVE-2026-9082](https://github.com/11romain/CVE-2026-9082)
 - [sourcecode347/CVE-2026-9082-Mass_Scanner](https://github.com/sourcecode347/CVE-2026-9082-Mass_Scanner)
-- [begimher/calix-cve-2026-9082-recovery](https://github.com/begimher/calix-cve-2026-9082-recovery)
 
 ### CVE-2026-9086 (2026-06-25)
 
@@ -3767,6 +3766,13 @@
 - [MadExploits/CVE-2026-14483](https://github.com/MadExploits/CVE-2026-14483)
 - [0xdak/CVE-2026-14483_exploit](https://github.com/0xdak/CVE-2026-14483_exploit)
 
+### CVE-2026-14492 (2026-11-19)
+
+<code>The WP Duplicate – WordPress Migration Plugin plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.1.11 via the save_single_batch_file function. This is due to a PHP type-juggling authentication bypass via loose != comparison with no is_string() guard, combined with unsanitized base64-decoded path construction in save_single_batch_file() lacking any directory traversal containment. This makes it possible for authenticated attackers, with custom-level access and above, to execute code on the server. Exploitation requires that the site owner has completed the plugin's initial setup so that the site_type and prod_key_random_id options are non-empty, though any non-empty secret value is bypassable via the type-juggling flaw.
+</code>
+
+- [cveForge/CVE-2026-14492](https://github.com/cveForge/CVE-2026-14492)
+
 ### CVE-2026-14628 (2026-07-04)
 
 <code>A vulnerability was detected in NousResearch hermes-agent up to 2026.5.16. This impacts the function extract_media of the file gateway/platforms/base.py of the component Live Webhook Endpoint. Performing a manipulation results in path traversal. The attack may be initiated remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
@@ -3780,6 +3786,7 @@
 </code>
 
 - [Kihara-1/postgresql-cve-2026-14662](https://github.com/Kihara-1/postgresql-cve-2026-14662)
+- [cveForge/CVE-2026-14662](https://github.com/cveForge/CVE-2026-14662)
 
 ### CVE-2026-14669 (2026-08-13)
 
@@ -4599,6 +4606,7 @@
 </code>
 
 - [foxcornlab/sonicwall-sonicos-scanner](https://github.com/foxcornlab/sonicwall-sonicos-scanner)
+- [cveForge/CVE-2026-19868](https://github.com/cveForge/CVE-2026-19868)
 
 ### CVE-2026-19874 (2026-08-24)
 
@@ -4804,6 +4812,13 @@
 </code>
 
 - [HORKimhab/Cisco-CVE-2026-20303-More](https://github.com/HORKimhab/Cisco-CVE-2026-20303-More)
+
+### CVE-2026-20320 (2026-08-19)
+
+<code>A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system. \r\n\r This vulnerability exists because XML entries are improperly parsed due to external entity resolution being allowed by default. An attacker could exploit this vulnerability by sending a crafted XML message to the Open Client Interface &amp;ndash; Provisioning (OCI-P) service. A successful exploit could allow the attacker to view sensitive files from the filesystem with the privileges of the Cisco BroadWorks user.
+</code>
+
+- [cveForge/CVE-2026-20320](https://github.com/cveForge/CVE-2026-20320)
 
 ### CVE-2026-20329 (2026-09-16)
 
@@ -5632,6 +5647,7 @@
 </code>
 
 - [keraattin/CVE-2026-22679](https://github.com/keraattin/CVE-2026-22679)
+- [cveForge/CVE-2026-22679](https://github.com/cveForge/CVE-2026-22679)
 
 ### CVE-2026-22686 (2026-01-13)
 
@@ -7953,6 +7969,7 @@
 </code>
 
 - [bogdanrotariu/cve-2026-29204-whmcs-clientarea-addonid](https://github.com/bogdanrotariu/cve-2026-29204-whmcs-clientarea-addonid)
+- [cveForge/CVE-2026-29204](https://github.com/cveForge/CVE-2026-29204)
 
 ### CVE-2026-29519 (2026-07-10)
 
@@ -10933,6 +10950,7 @@
 </code>
 
 - [learner202649/CVE-2026-40217-PoC](https://github.com/learner202649/CVE-2026-40217-PoC)
+- [cveForge/CVE-2026-40217](https://github.com/cveForge/CVE-2026-40217)
 
 ### CVE-2026-40261 (2026-04-15)
 
@@ -11409,6 +11427,7 @@
 - [yanchenyu360/CVE-2026-41940-Security-Patch](https://github.com/yanchenyu360/CVE-2026-41940-Security-Patch)
 - [0xgh057r3c0n/CVE-2026-41940](https://github.com/0xgh057r3c0n/CVE-2026-41940)
 - [Xrzmodz444/cve-2026-41940-PoC-Linux](https://github.com/Xrzmodz444/cve-2026-41940-PoC-Linux)
+- [cveForge/CVE-2026-41940](https://github.com/cveForge/CVE-2026-41940)
 
 ### CVE-2026-42016 (2026-07-27)
 
@@ -11759,6 +11778,7 @@
 - [x0xr00t/sl0ppy-riftscan-CVE-2026-42945](https://github.com/x0xr00t/sl0ppy-riftscan-CVE-2026-42945)
 - [ChaskarVinit/nginx-rift-cve-2026-42945-lab](https://github.com/ChaskarVinit/nginx-rift-cve-2026-42945-lab)
 - [basesixtythree/B63-POC-CVE-2026-42945](https://github.com/basesixtythree/B63-POC-CVE-2026-42945)
+- [cveForge/CVE-2026-42945](https://github.com/cveForge/CVE-2026-42945)
 
 ### CVE-2026-42978 (2026-06-09)
 
@@ -12546,6 +12566,7 @@
 
 - [HORKimhab/CVE-2026-45247](https://github.com/HORKimhab/CVE-2026-45247)
 - [fevar54/PoC-Funcional---CVE-2026-45247-Mirasvit-Full-Page-Cache-Warmer-RCE-](https://github.com/fevar54/PoC-Funcional---CVE-2026-45247-Mirasvit-Full-Page-Cache-Warmer-RCE-)
+- [cveForge/CVE-2026-45247](https://github.com/cveForge/CVE-2026-45247)
 
 ### CVE-2026-45250 (2026-05-21)
 
@@ -13269,6 +13290,7 @@
 - [abraxas/CVE-2026-48356](https://github.com/abraxas/CVE-2026-48356)
 - [Cyber-BansalAI/polyshell-2026](https://github.com/Cyber-BansalAI/polyshell-2026)
 - [Ghost-Bx1/cve-2026-48356-magento-file-upload-rce](https://github.com/Ghost-Bx1/cve-2026-48356-magento-file-upload-rce)
+- [cveForge/CVE-2026-48356](https://github.com/cveForge/CVE-2026-48356)
 
 ### CVE-2026-48500 (2026-06-22)
 
@@ -13662,6 +13684,7 @@
 
 - [Ap0dexMe0/CVE-2026-49869](https://github.com/Ap0dexMe0/CVE-2026-49869)
 - [EQSTLab/CVE-2026-49869](https://github.com/EQSTLab/CVE-2026-49869)
+- [cveForge/CVE-2026-49869](https://github.com/cveForge/CVE-2026-49869)
 
 ### CVE-2026-49881 (2026-09-08)
 
@@ -16855,6 +16878,13 @@
 - [0xdak/CVE-2026-68771_exploit](https://github.com/0xdak/CVE-2026-68771_exploit)
 - [Oscar-Collado/comfyui-CVE-2026-68771-PoC](https://github.com/Oscar-Collado/comfyui-CVE-2026-68771-PoC)
 
+### CVE-2026-68791 (2026-09-17)
+
+<code>Incorrect authorization in Azure Machine Learning allows an unauthorized attacker to disclose information over a network.
+</code>
+
+- [cveForge/CVE-2026-68791](https://github.com/cveForge/CVE-2026-68791)
+
 ### CVE-2026-68820 (2026-08-11)
 
 <code>Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
@@ -17837,6 +17867,7 @@
 - [dinosn/cve-2026-76466](https://github.com/dinosn/cve-2026-76466)
 - [wa6n3r/cve-2026-76466](https://github.com/wa6n3r/cve-2026-76466)
 - [foxcornlab/cisco-expressway-scanner](https://github.com/foxcornlab/cisco-expressway-scanner)
+- [cveForge/CVE-2026-76466](https://github.com/cveForge/CVE-2026-76466)
 
 ### CVE-2026-76504 (2026-09-30)
 
@@ -19472,6 +19503,7 @@
 - [HackfutSecRoot/CVE-2026-87902](https://github.com/HackfutSecRoot/CVE-2026-87902)
 - [tonydelouvre/CVE-2026-87902](https://github.com/tonydelouvre/CVE-2026-87902)
 - [xiaxiu555/cve-2026-87902](https://github.com/xiaxiu555/cve-2026-87902)
+- [cveForge/CVE-2026-87902](https://github.com/cveForge/CVE-2026-87902)
 
 ### CVE-2026-87915 (2026-09-18)
 
@@ -19486,6 +19518,13 @@
 </code>
 
 - [winrarzipsexploit/CVE-2026-87930](https://github.com/winrarzipsexploit/CVE-2026-87930)
+
+### CVE-2026-87977 (2026-11-19)
+
+<code>IBM Guardium Data Protection 12.2 is vulnerable to SQL injection in the edge-controller component. An unauthenticated remote attacker could exploit this vulnerability to access or modify sensitive database information.
+</code>
+
+- [cveForge/CVE-2026-87977](https://github.com/cveForge/CVE-2026-87977)
 
 ### CVE-2026-88008 (2026-09-10)
 
@@ -19753,6 +19792,7 @@
 - [foxcornlab/confluence-axis-scanner](https://github.com/foxcornlab/confluence-axis-scanner)
 - [dinosn/axis-cve-2026-90436-lab-poc](https://github.com/dinosn/axis-cve-2026-90436-lab-poc)
 - [evenomn/CVE-2026-90436](https://github.com/evenomn/CVE-2026-90436)
+- [cveForge/CVE-2026-90436](https://github.com/cveForge/CVE-2026-90436)
 
 ### CVE-2026-90817 (2026-09-20)
 
@@ -19765,6 +19805,7 @@
 - [Farih123/CVE-2026-90817](https://github.com/Farih123/CVE-2026-90817)
 - [securifera/CVE-2026-90817](https://github.com/securifera/CVE-2026-90817)
 - [ctsit/redcap_cve_2026_90817_scan](https://github.com/ctsit/redcap_cve_2026_90817_scan)
+- [cveForge/CVE-2026-90817](https://github.com/cveForge/CVE-2026-90817)
 
 ### CVE-2026-90847 (2026-09-15)
 
@@ -20293,6 +20334,20 @@
 - [Hassham1/CVE-2026-94545-nextjs-og-poc](https://github.com/Hassham1/CVE-2026-94545-nextjs-og-poc)
 - [EQSTLab/CVE-2026-94545](https://github.com/EQSTLab/CVE-2026-94545)
 
+### CVE-2026-94565 (2026-11-20)
+
+<code>NukeViet CMS is a multi Content Management System. From the 3.x release line until 4.6.01, an unauthenticated visitor can submit a Contact module message containing an event-handler attribute prefixed by a slash. NukeViet\Core\Request::filterTags() tokenizes attributes using only ASCII spaces, so it sees /onerror and misses the ^on denylist, while the browser treats the slash as a separator and activates onerror. The message is stored and rendered without output encoding in the administration panel, which lacks a Content Security Policy, allowing same-origin JavaScript execution when an administrator opens the message. This issue is fixed in version 4.6.01.
+</code>
+
+- [cveForge/CVE-2026-94565](https://github.com/cveForge/CVE-2026-94565)
+
+### CVE-2026-94567 (2026-11-20)
+
+<code>NukeViet CMS is a multi Content Management System. Prior to 4.5.12 and 4.6.02, an attacker with access to an SVG upload flow can hide a script element in an internal DTD entity. NukeViet\Files\Upload::check_svg_tmpfile() loads the document without entity expansion, leaving a DOMEntityReference, and sanitize_svg_dom() inspects only element nodes, while browsers expand the entity when the stored file is served as image/svg+xml. The SVG path also returned before verify_image() and preserved the original bytes, so the hidden script reached disk unchanged. Guest comment attachments make the upload unauthenticated only when a module's comment feature is open to the All or Guest group and allowattachcomm is enabled; module administrators can also use the file manager, allowing same-origin script execution in an administrator's session. This issue is fixed in versions 4.5.12 and 4.6.02.
+</code>
+
+- [cveForge/CVE-2026-94567](https://github.com/cveForge/CVE-2026-94567)
+
 ### CVE-2026-94597 (2026-11-20)
 
 <code>NukeViet CMS is a multi Content Management System. Prior to 4.5.12 and 4.6.02, an attacker who can reach an image-upload flow can upload a valid image with appended PHP short-tag code and a double-extension filename. NukeViet\Files\Upload::save_file() relied on verify_image(), which missed the &lt;? short-open tag, while filename handling preserved embedded dots, validation inspected only the final extension, and an .htaccess rule blocked PHP extensions only at the end of the URI. On Apache mod_php systems configured with short_open_tag and a PHP extension handler, the stored polyglot can execute as PHP and run operating-system commands as the web-server user; PHP-FPM, nginx, and end-anchored handler configurations are not exposed to the execution step. This issue is fixed in versions 4.5.12 and 4.6.02.
@@ -20378,6 +20433,13 @@
 </code>
 
 - [d6fault/CVE-2026-95675](https://github.com/d6fault/CVE-2026-95675)
+
+### CVE-2026-95787 (2026-11-18)
+
+<code>Vulnerabilities in the PAPI protocol of AOS-10 could allow an unauthenticated remote attacker to circumvent existing authentication controls. Successful exploitation could allow an attacker to gain administrative access, modify system configurations, and access or manipulate sensitive data.
+</code>
+
+- [cveForge/CVE-2026-95787](https://github.com/cveForge/CVE-2026-95787)
 
 ### CVE-2026-95839 (2026-11-16)
 
@@ -20533,6 +20595,7 @@
 - [AmanSin001/next-security-check](https://github.com/AmanSin001/next-security-check)
 - [CompleteTech-Security/sharp-vectorfreed-check](https://github.com/CompleteTech-Security/sharp-vectorfreed-check)
 - [anishadhikari02/cve-2026-96889-payload](https://github.com/anishadhikari02/cve-2026-96889-payload)
+- [cveForge/CVE-2026-96889](https://github.com/cveForge/CVE-2026-96889)
 
 ### CVE-2026-96940 (2026-10-02)
 
@@ -20890,6 +20953,7 @@
 - [zake1god/CVE-2026-98432](https://github.com/zake1god/CVE-2026-98432)
 - [hardenedlinux/linux-rce-poc](https://github.com/hardenedlinux/linux-rce-poc)
 - [Agency-Tool-Company/jetson-cve-2026-98432](https://github.com/Agency-Tool-Company/jetson-cve-2026-98432)
+- [cveForge/CVE-2026-98432](https://github.com/cveForge/CVE-2026-98432)
 
 ### CVE-2026-98499 (2026-10-18)
 
@@ -20921,6 +20985,13 @@
 - [re4/noisytcp-poc](https://github.com/re4/noisytcp-poc)
 - [mustafasaydam/CVE-2026-99288---NoisyTCP-Exploit](https://github.com/mustafasaydam/CVE-2026-99288---NoisyTCP-Exploit)
 - [donxud/NoisyTCP-Blue-Team-Playbook](https://github.com/donxud/NoisyTCP-Blue-Team-Playbook)
+
+### CVE-2026-99310 (2026-11-16)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnfsd: hold cl_lock in client_has_openowners()\n\nclient_has_openowners() walks clp-&gt;cl_openowners and reads so_stateids\nwithout clp-&gt;cl_lock. nfs4_put_stateowner() unhashes that openowner under\ncl_lock and then frees it, so a concurrent EXCHANGE_ID with mismatched\ncreds can use-after-free the nfs4_openowner.\n\nBUG: KASAN: slab-use-after-free in client_has_state+0x10a/0x140\n  fs/nfsd/nfs4state.c:3718 client_has_openowners()\n  nfsd4_exchange_id\n  nfsd4_proc_compound\n  nfsd_dispatch\n  svc_process\n\nTake clp-&gt;cl_lock while client_has_openowners() walks the openowner\nlist.
+</code>
+
+- [cveForge/CVE-2026-99310](https://github.com/cveForge/CVE-2026-99310)
 
 ### CVE-2026-99312 (2026-11-18)
 
@@ -21605,6 +21676,13 @@
 
 - [pervinzahidli/CVE-2026-104110](https://github.com/pervinzahidli/CVE-2026-104110)
 
+### CVE-2026-104126 (2026-10-13)
+
+<code>JumpServer is an open source bastion host and an operation and maintenance security audit system. Prior to 4.10.17-lts, JumpServer's Ansible-based automation rendering can evaluate attacker-controlled template expressions from users who have permission to create or execute affected automation tasks. Crafted content can invoke sensitive Ansible lookup behavior, including file, pipe, env, and password lookups, within the Ansible execution context, which can disclose files or environment values and may permit limited command execution under the privileges of the automation process. The issue does not provide unauthenticated access or direct access to unrelated JumpServer assets. This issue is fixed in version 4.10.17-lts.
+</code>
+
+- [cveForge/CVE-2026-104126](https://github.com/cveForge/CVE-2026-104126)
+
 ### CVE-2026-104129 (2026-11-19)
 
 <code>pREST (PostgreSQL REST) is an API that delivers an application on top of a Postgres database. Prior to 2.4.0, the vulnerable parameter is _groupby, handled by GroupByClause in adapters/postgres/postgres.go. adapters/postgres/postgres.go uses the weaker isSafeSQLExpression check for this function-expression branch instead of the stricter single-field validator used for _select. That check validates only the outer function name against a 13-function allowlist and permits nested subqueries, trailing UNION syntax, and inner pg_ functions. controllers/crud.go concatenates the GROUP BY expression while parameterizing only WHERE values, allowing attacker-controlled SQL structure into the clause. Default configuration permits unauthenticated access; a restricted installation may require a low-privilege table reader. UNION-based extraction requires compatible column counts and types and was not verified end to end, but a delay-producing function can cause denial of service without that alignment. This issue is fixed in 2.4.0.
@@ -22267,6 +22345,13 @@
 </code>
 
 - [googlesky/CVE-2026-107853](https://github.com/googlesky/CVE-2026-107853)
+
+### CVE-2026-107904 (2026-11-17)
+
+<code>Joomla Extension - valorapps.com - Unauthenticated Remote Code Execution in Easy File Uploader &lt; 2.9.7 - An unauthenticated remote attacker can upload a PHP-executable file to the Joomla web root with a single multipart POST request, requiring no credentials and no CSRF token.
+</code>
+
+- [cveForge/CVE-2026-107904](https://github.com/cveForge/CVE-2026-107904)
 
 ### CVE-2026-108097 (2026-10-30)
 
@@ -23171,6 +23256,7 @@
 - [omeyz/php2shell-honeypot](https://github.com/omeyz/php2shell-honeypot)
 - [PARTSI14/php2shell-detection-engineering](https://github.com/PARTSI14/php2shell-detection-engineering)
 - [bipul-unexpected/CVE-2026-109618-2026-109619](https://github.com/bipul-unexpected/CVE-2026-109618-2026-109619)
+- [cveForge/CVE-2026-109618](https://github.com/cveForge/CVE-2026-109618)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -23267,6 +23353,7 @@
 - [googlesky/CVE-2026-110264](https://github.com/googlesky/CVE-2026-110264)
 - [mohammadzarnian1357/Exploit-CVE-2026-110264-GitLab-CE-EE-RCE](https://github.com/mohammadzarnian1357/Exploit-CVE-2026-110264-GitLab-CE-EE-RCE)
 - [Ghost-Bx1/cve-2026-110264-gitlab-regex-rce](https://github.com/Ghost-Bx1/cve-2026-110264-gitlab-regex-rce)
+- [cveForge/CVE-2026-110264](https://github.com/cveForge/CVE-2026-110264)
 
 ### CVE-2026-110311 (2026-10-18)
 
@@ -23298,6 +23385,13 @@
 </code>
 
 - [googlesky/CVE-2026-110486](https://github.com/googlesky/CVE-2026-110486)
+
+### CVE-2026-110513 (2026-11-18)
+
+<code>Insufficient Session Expiration vulnerability in the Apache Iggy server HTTP transport. A self-issued JSON Web Token (JWT) identified the user only by numeric user ID, and a new user takes the lowest free ID. After an administrator deleted a user, that user's unexpired token, or a token refreshed from it while the ID was free, authenticated as the next account created with that ID and had that account's permissions. Only deployments with HTTP enabled are affected.\n\nThis issue affects Apache Iggy: through 0.9.0.\n\nUsers are recommended to upgrade to version 0.10.0, which fixes the issue.
+</code>
+
+- [cveForge/CVE-2026-110513](https://github.com/cveForge/CVE-2026-110513)
 
 ### CVE-2026-110634 (2026-10-14)
 
@@ -23390,6 +23484,13 @@
 </code>
 
 - [cybliminal/cve-2026-111283-bmc-helix-network-management-local-administrator-any-password](https://github.com/cybliminal/cve-2026-111283-bmc-helix-network-management-local-administrator-any-password)
+
+### CVE-2026-111357 (2026-10-15)
+
+<code>Ivanti Connect Secure 22.8R2.4 mishandles the manner in which the dsinvoked broker trusts DSCache configuration data, leading to privilege escalation to root, as exploited in the wild in October 2026.
+</code>
+
+- [cveForge/CVE-2026-111357](https://github.com/cveForge/CVE-2026-111357)
 
 ### CVE-2026-111389 (2026-10-16)
 
@@ -23506,6 +23607,7 @@
 - [alequinterok/CVE-2026-111497](https://github.com/alequinterok/CVE-2026-111497)
 - [csakala-art/cbci-libbrotli-patch-25551](https://github.com/csakala-art/cbci-libbrotli-patch-25551)
 - [proxy0x/CVE-2026-111497](https://github.com/proxy0x/CVE-2026-111497)
+- [cveForge/CVE-2026-111497](https://github.com/cveForge/CVE-2026-111497)
 
 ### CVE-2026-111559 (2026-11-16)
 
@@ -23513,6 +23615,13 @@
 </code>
 
 - [Tymbark7372/CVE-2026-111559](https://github.com/Tymbark7372/CVE-2026-111559)
+
+### CVE-2026-111560 (2026-11-02)
+
+<code>Improper neutralization of shell metacharacters in the timezone configuration field in certain Barracuda appliance products using common Barracuda code allows an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed.
+</code>
+
+- [cveForge/CVE-2026-111560](https://github.com/cveForge/CVE-2026-111560)
 
 ### CVE-2026-111585 (2026-10-27)
 
@@ -23538,6 +23647,13 @@
 </code>
 
 - [hahahahahahahahah6/mcp-idprobe](https://github.com/hahahahahahahahah6/mcp-idprobe)
+
+### CVE-2026-111793 (2026-10-16)
+
+<code>Openwave Webtop Media Transcoder does not enforce administrator-defined file type restrictions to restrict the file-types to be converted. This may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.
+</code>
+
+- [cveForge/CVE-2026-111793](https://github.com/cveForge/CVE-2026-111793)
 
 ### CVE-2026-111823 (2026-10-16)
 
@@ -23947,6 +24063,7 @@
 - [foxcornlab/unrealircd-scanner](https://github.com/foxcornlab/unrealircd-scanner)
 - [fixedbyreboot/CVE-2026-114713-POC](https://github.com/fixedbyreboot/CVE-2026-114713-POC)
 - [Sable-Research/CVE-2026-114713](https://github.com/Sable-Research/CVE-2026-114713)
+- [cveForge/CVE-2026-114713](https://github.com/cveForge/CVE-2026-114713)
 
 ### CVE-2026-114728 (2026-10-22)
 
@@ -24135,6 +24252,14 @@
 </code>
 
 - [foxcornlab/puppet-enterprise-scanner](https://github.com/foxcornlab/puppet-enterprise-scanner)
+- [cveForge/CVE-2026-115731](https://github.com/cveForge/CVE-2026-115731)
+
+### CVE-2026-115873 (2026-11-23)
+
+<code>A remote attacker must authenticate with Read Only (GroupRead) access to at least one Worker Group and reach the Leader API. A crafted expression can exploit the nested compiler to bypass expression restrictions and execute code with the Leader service account's permissions.
+</code>
+
+- [cveForge/CVE-2026-115873](https://github.com/cveForge/CVE-2026-115873)
 
 ### CVE-2026-115878 (2026-11-03)
 
@@ -24156,6 +24281,13 @@
 </code>
 
 - [shreyas-malhotra/CVE-2026-115893-wasmtime-sandbox-escape](https://github.com/shreyas-malhotra/CVE-2026-115893-wasmtime-sandbox-escape)
+
+### CVE-2026-115899 (2026-11-23)
+
+<code>An attacker must control pagination data returned by an upstream API or service queried by an existing REST Collector. The Collector must use affected response-based pagination and process the crafted data during a job run. Successful exploitation executes code with the Worker service account's permissions.
+</code>
+
+- [cveForge/CVE-2026-115899](https://github.com/cveForge/CVE-2026-115899)
 
 ### CVE-2026-115904 (2026-10-28)
 
@@ -24318,6 +24450,13 @@
 
 - [cveForge/CVE-2026-116448](https://github.com/cveForge/CVE-2026-116448)
 
+### CVE-2026-116449 (2026-11-18)
+
+<code>Dell PowerStore SDNAS contains an OS Command Injection vulnerability that could allow an attacker with internal network access to execute arbitrary commands as root on the NAS node.
+</code>
+
+- [cveForge/CVE-2026-116449](https://github.com/cveForge/CVE-2026-116449)
+
 ### CVE-2026-116471 (2026-10-26)
 
 <code>A security flaw has been discovered in BKWLD Decoy up to 5.11.1. The impacted element is an unknown function of the file Policy.php of the component Authorization Policy. The manipulation of the argument role results in improper privilege management. The attack may be performed from remote. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.
@@ -24383,6 +24522,7 @@
 </code>
 
 - [watchtowrlabs/watchTowr-vs-Barracuda-RCE-CVE-2026-116606-CVE-2026-111560](https://github.com/watchtowrlabs/watchTowr-vs-Barracuda-RCE-CVE-2026-116606-CVE-2026-111560)
+- [cveForge/CVE-2026-116606](https://github.com/cveForge/CVE-2026-116606)
 
 ### CVE-2026-116692 (2026-10-27)
 
@@ -24535,6 +24675,13 @@
 - [thiscitze/cve-2026-118423-poc](https://github.com/thiscitze/cve-2026-118423-poc)
 - [im0xfay/CVE-2026-118423](https://github.com/im0xfay/CVE-2026-118423)
 - [Sable-Research/CVE-2026-118423-WP-Libre-Form](https://github.com/Sable-Research/CVE-2026-118423-WP-Libre-Form)
+
+### CVE-2026-118527 (2026-11-03)
+
+<code>Use of predictable filenames in Ivanti Connect Secure before versions 25.1.1.3 and 22.8R2.6 allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk.
+</code>
+
+- [cveForge/CVE-2026-118527](https://github.com/cveForge/CVE-2026-118527)
 
 ### CVE-2026-118569 (2026-10-30)
 
@@ -24707,6 +24854,7 @@
 - [mehmet-emir-eroglu/CVE-2026-119977](https://github.com/mehmet-emir-eroglu/CVE-2026-119977)
 - [BugStealers/CVE-2026-119977](https://github.com/BugStealers/CVE-2026-119977)
 - [BlackHatExploitation/CVE-2026-119977](https://github.com/BlackHatExploitation/CVE-2026-119977)
+- [cveForge/CVE-2026-119977](https://github.com/cveForge/CVE-2026-119977)
 
 ### CVE-2026-119987 (2026-11-10)
 
@@ -24757,6 +24905,13 @@
 </code>
 
 - [capivara-research/CVE-2026-120343](https://github.com/capivara-research/CVE-2026-120343)
+
+### CVE-2026-120382 (2026-11-23)
+
+<code>An improper neutralization of argument delimiters in a command vulnerability in the OAuth API in Synology DiskStation Manager (DSM) before 7.1.1-42962-10, 7.2.1-69057-14, 7.2.2-72806-11, 7.3.2-86009-6, and 7.4.1-90080-2 allows remote attackers to read or write arbitrary files and conduct denial-of-service attacks.
+</code>
+
+- [cveForge/CVE-2026-120382](https://github.com/cveForge/CVE-2026-120382)
 
 ### CVE-2026-120490 (2026-11-12)
 
@@ -24836,6 +24991,7 @@
 
 - [Quaerendir/openssl-cve-2026-121481-audit](https://github.com/Quaerendir/openssl-cve-2026-121481-audit)
 - [Mahgal/openssl-evp-check](https://github.com/Mahgal/openssl-evp-check)
+- [cveForge/CVE-2026-121481](https://github.com/cveForge/CVE-2026-121481)
 
 ### CVE-2026-121529 (2026-11-10)
 
@@ -24999,6 +25155,7 @@
 
 - [googlesky/CVE-2026-123039](https://github.com/googlesky/CVE-2026-123039)
 - [foxcornlab/checkpoint-gaia-scanner](https://github.com/foxcornlab/checkpoint-gaia-scanner)
+- [cveForge/CVE-2026-123039](https://github.com/cveForge/CVE-2026-123039)
 
 ### CVE-2026-123158 (2026-11-05)
 
@@ -25054,6 +25211,7 @@
 - [Pauloxc6/CVE-2026-123158](https://github.com/Pauloxc6/CVE-2026-123158)
 - [TheoCerveraLede/auditoria-ciberseguridad-ypf](https://github.com/TheoCerveraLede/auditoria-ciberseguridad-ypf)
 - [0xsyr0/CVE-2026-123158-POC](https://github.com/0xsyr0/CVE-2026-123158-POC)
+- [cveForge/CVE-2026-123158](https://github.com/cveForge/CVE-2026-123158)
 
 ### CVE-2026-123218 (2026-11-07)
 
@@ -25091,6 +25249,7 @@
 - [federiconbaez/cve-2026-123633-detector](https://github.com/federiconbaez/cve-2026-123633-detector)
 - [Nexxus67/CVE-2026-123633-PoC](https://github.com/Nexxus67/CVE-2026-123633-PoC)
 - [grupooruss/Division81-cve-2026-123633](https://github.com/grupooruss/Division81-cve-2026-123633)
+- [tc4dy/CVE-2026-123633-PoC-Toolkit](https://github.com/tc4dy/CVE-2026-123633-PoC-Toolkit)
 - [cveForge/CVE-2026-123633](https://github.com/cveForge/CVE-2026-123633)
 
 ### CVE-2026-123634 (2026-11-18)
@@ -25246,6 +25405,13 @@
 
 - [cveForge/CVE-2026-125283](https://github.com/cveForge/CVE-2026-125283)
 
+### CVE-2026-125294 (2026-11-21)
+
+<code>The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.10 via the `tpgb_ajax_register_user()` function. This is due to a byte-level denylist on the `tpgb_acf_key[]` and `tpgb_acf[]` parameters that fails to block Unicode look-alike characters — such as U+1E87 and U+00E7 in a key like `ẇp_çapabilities` — whose UTF-8 byte sequences do not match any ASCII-based pattern check, while the database's default accent-insensitive collation (`utf8mb4_unicode_ci` / `utf8mb4_0900_ai_ci`) treats the decorated key as equivalent to the canonical `wp_capabilities` row, causing `update_user_meta()` to overwrite the newly registered user's role with `administrator`. This makes it possible for unauthenticated attackers to register a new account bearing the full Administrator role, gaining complete control over the WordPress site including the ability to install plugins, modify files, and execute arbitrary code. The nonce required by the handler is publicly emitted on any page containing the tp-login-register block, making the full exploit chain — nonce retrieval, a single crafted registration POST, and the plugin's own `autologin` flow — trivially reachable on any default install where user registration is enabled. Successful exploitation causes the attacker's own account to receive the complete Administrator role.
+</code>
+
+- [cveForge/CVE-2026-125294](https://github.com/cveForge/CVE-2026-125294)
+
 ### CVE-2026-125350 (2026-11-10)
 
 <code>Use after free in XML in Google Chrome prior to 157.0.8103.50 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)
@@ -25330,6 +25496,13 @@
 </code>
 
 - [im0xfay/CVE-2026-125855](https://github.com/im0xfay/CVE-2026-125855)
+
+### CVE-2026-126054 (2026-11-20)
+
+<code>A Path Traversal vulnerability in workspace directory handling and Git integration in Google Cloud Dataform, BigQuery Studio and Colab Enterprise on Google Cloud Platform allows an authenticated remote attacker to read private files and create arbitrary files across tenant repositories using crafted workspace operations and Git integration requests.\n\n\nThis vulnerability was patched on 10 October 2026, and no customer action is needed.
+</code>
+
+- [cveForge/CVE-2026-126054](https://github.com/cveForge/CVE-2026-126054)
 
 ### CVE-2026-126147 (2026-11-11)
 
@@ -25425,6 +25598,13 @@
 </code>
 
 - [googlesky/CVE-2026-126657](https://github.com/googlesky/CVE-2026-126657)
+
+### CVE-2026-126708 (2026-11-18)
+
+<code>In Eclipse Mosquitto versions 2.0.0 to 2.0.22 and 2.1.0 to 2.1.2, the return value of password hash functions for sha512-pbkdf2 and legacy sha512 were not checked. Starting with OpenSSL 4.0, sha512-pbkdf2 hashing will fail when using the FIPS provider for passwords shorter than 8 characters. This has the effect that newly created passwords would match against any other password with fewer than 8 characters.
+</code>
+
+- [cveForge/CVE-2026-126708](https://github.com/cveForge/CVE-2026-126708)
 
 ### CVE-2026-126714 (2026-11-19)
 
@@ -25590,6 +25770,7 @@
 </code>
 
 - [googlesky/CVE-2026-128138](https://github.com/googlesky/CVE-2026-128138)
+- [cveForge/CVE-2026-128138](https://github.com/cveForge/CVE-2026-128138)
 
 ### CVE-2026-128139 (2026-11-19)
 
@@ -25614,6 +25795,13 @@
 </code>
 
 - [R00t3dbyFa17h/security-advisories](https://github.com/R00t3dbyFa17h/security-advisories)
+
+### CVE-2026-128981 (2026-11-18)
+
+<code>** UNSUPPORTED WHEN ASSIGNED ** \n\n\n\nImproper Authentication in Apache SeaTunnel Web 1.0.2 allows a user whose account has been disabled to authenticate with valid credentials and obtain a new login token. The login query does not check the account status, so disabling an account does not prevent new logins or access to protected APIs using the newly issued token. This issue requires valid credentials for the disabled account; it is not a credential-free authentication bypass.\n\n\n\nApache SeaTunnel Web is no longer maintained. The affected 1.0.2 release does not contain the account-status check added to the main branch in pull request #264. There is no maintained fixed release. Users should discontinue use of this unsupported component.\n\n\n\nNOTE: This vulnerability only affects products that are no longer supported by the maintainer.
+</code>
+
+- [cveForge/CVE-2026-128981](https://github.com/cveForge/CVE-2026-128981)
 
 ### CVE-2026-129024 (2026-11-22)
 
@@ -25762,6 +25950,9 @@
 
 - [googlesky/CVE-2026-129234](https://github.com/googlesky/CVE-2026-129234)
 
+### CVE-2026-129244
+- [Crypto-Cat/geoserver-unauth-rce-poc](https://github.com/Crypto-Cat/geoserver-unauth-rce-poc)
+
 ### CVE-2026-129254 (2026-11-14)
 
 <code>A flaw has been found in Opixido OCMS up to b7c15660aba83d96677c1a9abaa69c082a24f21c. This impacts an unknown function of the file admin/TUI/index.php of the component Admin TUI. This manipulation of the argument img causes cross site scripting. The attack can be initiated remotely. The exploit has been published and may be used. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available. The vendor was contacted early about this disclosure but did not respond in any way.
@@ -25883,6 +26074,7 @@
 - [Yanixos/APACHE-CVE-2026-129448](https://github.com/Yanixos/APACHE-CVE-2026-129448)
 - [foxcornlab/apache-roller-scanner](https://github.com/foxcornlab/apache-roller-scanner)
 - [evenomn/CVE-2026-129448](https://github.com/evenomn/CVE-2026-129448)
+- [cveForge/CVE-2026-129448](https://github.com/cveForge/CVE-2026-129448)
 
 ### CVE-2026-129474 (2026-11-19)
 
@@ -25928,6 +26120,20 @@
 - [evenomn/CVE-2026-129496](https://github.com/evenomn/CVE-2026-129496)
 - [cveForge/CVE-2026-129496](https://github.com/cveForge/CVE-2026-129496)
 
+### CVE-2026-129705 (2026-11-18)
+
+<code>In Eclipse Mosquitto versions 2.1.0 to 2.1.2, a broker with a listener that is configured to use the PROXY protocol v2 is vulnerable to an untrusted proxy providing details that cause the broker to accept fake SSL information.\n\n\n\nThis can be mitigated by following the documented requirements for PROXY listeners: It is very important that only trusted proxies are allowed to connect to any listener using the PROXY protocol, and that clients are not allowed to connect to the listener at all.
+</code>
+
+- [cveForge/CVE-2026-129705](https://github.com/cveForge/CVE-2026-129705)
+
+### CVE-2026-129713 (2026-11-20)
+
+<code>A stack-based buffer overflow in an unauthenticated CGI handler of the\nDanfoss AK-SM 8xxA Series controller allows remote attackers to send specially\ncrafted HTTP/S POST requests, leading to memory corruption, webserver restart\nand hypothetically potential arbitrary code execution with webserver privileges.\nAuthentication is not required to exploit this vulnerability.
+</code>
+
+- [cveForge/CVE-2026-129713](https://github.com/cveForge/CVE-2026-129713)
+
 ### CVE-2026-129975 (2026-11-23)
 
 <code>A flaw was found in gpgme. When processing crafted input, an early return following memory reallocation can leave internal buffer pointers referencing previously freed memory, resulting in a double-free condition during cleanup. A remote attacker could exploit this vulnerability to corrupt process memory, potentially leading to arbitrary code execution or a Denial of Service (DoS) crash.
@@ -25941,6 +26147,14 @@
 </code>
 
 - [evenomn/CVE-2026-129987](https://github.com/evenomn/CVE-2026-129987)
+- [cveForge/CVE-2026-129987](https://github.com/cveForge/CVE-2026-129987)
+
+### CVE-2026-129991 (2026-11-18)
+
+<code>Dokploy is a free, self-hostable Platform as a Service (PaaS). Prior to 0.31.1, the backup prefix field is only checked for a nonempty value, and normalizeS3Path preserves shell metacharacters before the prefix is interpolated into rclone upload and retention-cleanup command strings. An authenticated organization member with backup permission for a service can execute arbitrary commands as root on the Dokploy host or configured remote server when a PostgreSQL, MySQL, MariaDB, MongoDB, libSQL, Compose, or web-server backup runs manually, on schedule, or performs retention cleanup. This issue is fixed in version 0.31.1.
+</code>
+
+- [cveForge/CVE-2026-129991](https://github.com/cveForge/CVE-2026-129991)
 
 ### CVE-2026-130001
 - [cveForge/CVE-2026-130001](https://github.com/cveForge/CVE-2026-130001)
@@ -25994,6 +26208,13 @@
 
 - [cveForge/CVE-2026-130648](https://github.com/cveForge/CVE-2026-130648)
 
+### CVE-2026-130778 (2026-11-18)
+
+<code>Incus before 7.6.0 contains an authentication bypass vulnerability that allows remote attackers to authenticate as any trusted certificate by appending its public certificate to their presented TLS client chain. Attackers can append the server's or a cluster member's certificate to gain cluster-level access, bypass authorization, modify trust store entries, and influence scriptlet-based authorization decisions.
+</code>
+
+- [cveForge/CVE-2026-130778](https://github.com/cveForge/CVE-2026-130778)
+
 ### CVE-2026-130847 (2026-11-17)
 
 <code>Dolibarr ERP CRM before 24.0.2 contains an improper authorization vulnerability in the Users REST API put() method that allows non-admin API users to set administrator passwords. Authenticated users with user modification and password rights can send a PUT request to the users endpoint with a chosen pass value for a SuperAdmin account and then log in as that administrator.
@@ -26036,6 +26257,21 @@
 
 - [googlesky/CVE-2026-131873](https://github.com/googlesky/CVE-2026-131873)
 
+### CVE-2026-131914 (2026-11-19)
+
+<code>Deserialization of untrusted data in double-submit cookie vs. form field validation in Idunno.AntiCsrf versions through 0.9.1 Beta on ASP.NET allows remote unauthenticated attackers to execute code via object injection
+</code>
+
+- [l0lsec/CVE-2026-131914](https://github.com/l0lsec/CVE-2026-131914)
+- [abraxas/cve-2026-131914-idunno-anticsrf-deserialization](https://github.com/abraxas/cve-2026-131914-idunno-anticsrf-deserialization)
+
+### CVE-2026-132079 (2026-11-18)
+
+<code>Insufficient Session Expiration vulnerability in the Apache Iggy Go SDK. The TCP client method CreatePersonalAccessToken wrote the 32-bit expiry into the upper half of the 64-bit expiry field that the server reads. The server read a nonzero expiry as 2^32 times the requested value. A token created through the Go TCP client therefore stayed valid about four billion times longer than the caller asked for.\n\nThis issue affects Apache Iggy Go SDK: from 0.5.0 before 0.10.0.\n\nUsers are recommended to upgrade to version 0.10.0, which fixes the issue. Tokens that an earlier version created keep their long expiry on the server. Delete those tokens and create new ones.
+</code>
+
+- [cveForge/CVE-2026-132079](https://github.com/cveForge/CVE-2026-132079)
+
 ### CVE-2026-132147 (2026-11-22)
 
 <code>An arbitrary file read vulnerability was discovered in debbugs, a bug tracking system based on the active Debian BTS. versions.cgi failed to correctly sanitize package name inputs in found\n\nand fixed query parameters. Crafted query parameters could cause version.cgi to output any lines of the target file which contained spaces.
@@ -26075,6 +26311,27 @@
 
 - [googlesky/CVE-2026-132277](https://github.com/googlesky/CVE-2026-132277)
 
+### CVE-2026-132658 (2026-11-20)
+
+<code>In Postgres Enterprise Manager (PEM), the pem_agent role, which every PEM agent login inherits, is a member of the PostgreSQL pg_read_server_files and pg_write_server_files roles on the PEM backend database. An attacker who controls any monitored host, and so its PEM agent certificate, can read and write files on the PEM server host as the postgres operating system user. This includes the PEM certificate authority key, which lets the attacker issue certificates for other agents and act as them.\nFrom PEM 10.6.1, PEM agents no longer hold these roles.
+</code>
+
+- [cveForge/CVE-2026-132658](https://github.com/cveForge/CVE-2026-132658)
+
+### CVE-2026-132659 (2026-11-20)
+
+<code>In Postgres Enterprise Manager (PEM), the row-level security policies on pem.job and pem.jobstep that apply to PEM agents do not limit an agent to its own jobs. An attacker who controls one monitored host, and so its PEM agent certificate, can create, change or delete jobs for every other agent, including the agent on the PEM server. Agents run SQL job steps with the database credentials of the server they monitor, and shell job steps where batch jobs are enabled, so compromising one monitored host can give superuser SQL access to every monitored database and to the PEM backend.\nFrom PEM 10.6.1, PEM agents can no longer create jobs or change job definitions or job steps.
+</code>
+
+- [cveForge/CVE-2026-132659](https://github.com/cveForge/CVE-2026-132659)
+
+### CVE-2026-132660 (2026-11-20)
+
+<code>In Postgres Enterprise Manager (PEM), several SECURITY DEFINER functions in the pem schema of the PEM backend database are owned by a superuser but do not set a safe search_path. Any PEM user who can connect to the PEM backend database can create objects that these functions use in place of the intended ones, and so run arbitrary SQL with superuser privileges. Temporary objects can be used for this on every supported PostgreSQL version, and objects in the public schema on PostgreSQL 14 backends and backends upgraded from PostgreSQL 14.\nFrom PEM 10.6.1, these functions run with a fixed search_path.
+</code>
+
+- [cveForge/CVE-2026-132660](https://github.com/cveForge/CVE-2026-132660)
+
 ### CVE-2026-132745 (2026-11-18)
 
 <code>Vtiger CRM through 8.4.0 contains a blind SQL injection vulnerability that allows authenticated non-administrative users to inject SQL through the k (does not contain) comparator in list view search_params. Attackers can send crafted search_params to the ListAjax getRecordsCount mode, breaking out of the unescaped NOT LIKE clause to extract database contents via boolean or time-based techniques.
@@ -26109,6 +26366,13 @@
 </code>
 
 - [SHAHID-XT/CVE-2026-132749-Vtiger-CRM-Reports-SQLi](https://github.com/SHAHID-XT/CVE-2026-132749-Vtiger-CRM-Reports-SQLi)
+
+### CVE-2026-132779 (2026-11-23)
+
+<code>When NGINX Plus or NGINX Open Source is configured to use TLS 1.3 early data using the ssl_early_data on directive, an attacker can use a specially crafted TLS 1.3 connection to drive an NGINX worker into a tight loop in which it repeatedly retries the same send without ever making progress. The worker continues accepting new connections and handling existing ones, but one CPU core is pinned at 100%.\n\nImpact:\nSystem performance can degrade until the NGINX worker process is either forced to restart or is manually restarted. This vulnerability may allow an unauthenticated attacker to cause a degradation of service that can lead to a denial-of-service (DoS) on the NGINX system. There is no control plane exposure; this is a data plane issue only.\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [suominen/CVE-2026-132779](https://github.com/suominen/CVE-2026-132779)
 
 ### CVE-2026-132825 (2026-11-19)
 
@@ -26213,6 +26477,13 @@
 
 - [VulnSVNC/CVE-2026-133305](https://github.com/VulnSVNC/CVE-2026-133305)
 
+### CVE-2026-133323 (2026-11-19)
+
+<code>A vulnerability in the Audio, Web, and Video Conferencing (AWV) component of Mitel MiCollab through 10.3 (10.3.0.18) could allow an unauthenticated attacker to conduct a blind command injection attack due to insufficient parameter sanitization. A successful exploit could allow an attacker to execute arbitrary commands within the context of the system. This is MTLVULN-1864.
+</code>
+
+- [cveForge/CVE-2026-133323](https://github.com/cveForge/CVE-2026-133323)
+
 ### CVE-2026-133325 (2026-11-19)
 
 <code>Key exchange without entity authentication vulnerability in Apache Tomcat allowed an unauthenticated node to join a cluster when the cluster was secured with TLS 1.3 and TLS-PSK.\n\n\n\nThis issue affects Apache Tomcat: 11.0.28-11.0.29, 10.1.62, 9.0.124.\n\n\n\nUsers are recommended to switch to TLS 1.2 and TLS-PSK or upgrade to version 11.0.30, 10.1.63 or 9.0.125 (when released), which fix the issue.
@@ -26277,12 +26548,47 @@
 
 - [googlesky/CVE-2026-133626](https://github.com/googlesky/CVE-2026-133626)
 
+### CVE-2026-133648 (2026-11-20)
+
+<code>Flowintel disabled TLS certificate verification for all MISP API connections and used unverified SSL contexts for IMAP and SMTP STARTTLS mail connections. This allowed an on-path (man-in-the-middle) attacker positioned between Flowintel and its MISP or mail servers to impersonate the remote server and intercept sensitive data.\n\nAffected connections include:\n- All MISP HTTPS API calls (event retrieval, attribute search, event creation, connectivity checks, and API validation)\n- SMTP STARTTLS connections used for sending email notifications\n- IMAP TLS connections used for fetching mail archives and testing connectivity\n\nAn attacker who can observe or intercept network traffic between Flowintel and the MISP or mail server could:\n- Capture MISP API keys and mail credentials (SMTP/IMAP passwords)\n- Read all threat intelligence data exchanged (events, attributes, objects, reports)\n- Inject or modify threat intelligence data returned to Flowintel\n\nThe vulnerability required no authentication on the part of the attacker and no user interaction; it was exploitable by any party with a network position between Flowintel and its configured MISP or mail endpoints.\n\nAffected versions: Flowintel prior to 4.1.0.
+</code>
+
+- [cveForge/CVE-2026-133648](https://github.com/cveForge/CVE-2026-133648)
+
+### CVE-2026-133680 (2026-11-20)
+
+<code>A vulnerability was found in D-Link DCS-935L 1.10.01. This affects the function loginRouter of the file web/cgi-bin/localrecording/setconf.cgi of the component Local Recording CGI. Performing a manipulation of the argument account/password results in os command injection. Remote exploitation of the attack is possible. The exploit has been made public and could be used.
+</code>
+
+- [cveForge/CVE-2026-133680](https://github.com/cveForge/CVE-2026-133680)
+
+### CVE-2026-133949 (2026-11-20)
+
+<code>pip prior to v26.2.2 the certifi bundled with pip contains the compromised eMudhra certificates. \n\n\n\n\nUpgrading to a secure version of pip should be done either by first upgrading Python to a version that rejects the compromised intermediates (CVE-2026-115557) or use hash pinning with a known-secure version of pip. pip is not vulnerable when using a Python version that rejects the compromised certificates. See the references below for more information.
+</code>
+
+- [cveForge/CVE-2026-133949](https://github.com/cveForge/CVE-2026-133949)
+
 ### CVE-2026-133968 (2026-11-20)
 
 <code>monailabel (aka MONAI Label) before 0.8.6 allows directory traversal, with resultant remote code execution, via the image parameter to the PUT /datastore/image endpoint, as exploited in the wild starting in September 2026.
 </code>
 
 - [cveForge/CVE-2026-133968](https://github.com/cveForge/CVE-2026-133968)
+
+### CVE-2026-133993 (2026-11-21)
+
+<code>A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit has been released to the public and may be used for attacks.
+</code>
+
+- [cveForge/CVE-2026-133993](https://github.com/cveForge/CVE-2026-133993)
+
+### CVE-2026-134292 (2026-11-21)
+
+<code>SurrealDB 1.0.0 before 4.0.0 contains a capability check bypass in its embedded JavaScript scripting engine, where the surrealdb.functions bridge calls the internal fnc::synchronous() and fnc::asynchronous() dispatchers without enforcing function capability checks. Authenticated users denied access to built-in functions in SurrealQL can execute them by calling them through surrealdb.functions from embedded JavaScript.
+</code>
+
+- [cveForge/CVE-2026-134292](https://github.com/cveForge/CVE-2026-134292)
 
 ### CVE-2026-134541 (2026-11-21)
 
@@ -26559,6 +26865,13 @@
 </code>
 
 - [googlesky/CVE-2026-134840](https://github.com/googlesky/CVE-2026-134840)
+
+### CVE-2026-134882 (2026-11-23)
+
+<code>A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affects the function exportOvpn of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. This manipulation of the argument Username causes os command injection. The attack is possible to be carried out remotely.
+</code>
+
+- [cveForge/CVE-2026-134882](https://github.com/cveForge/CVE-2026-134882)
 
 ### CVE-2026-134935 (2026-11-23)
 
@@ -32505,6 +32818,7 @@
 - [scherepiuk/container-escape-ebpf](https://github.com/scherepiuk/container-escape-ebpf)
 - [C-h4ck-0/Learn-about-cve-2025-31133-poc](https://github.com/C-h4ck-0/Learn-about-cve-2025-31133-poc)
 - [ritvikindupuri/EscapeArmed](https://github.com/ritvikindupuri/EscapeArmed)
+- [cveForge/CVE-2025-31133](https://github.com/cveForge/CVE-2025-31133)
 
 ### CVE-2025-31137 (2025-04-01)
 
@@ -33745,6 +34059,13 @@
 
 ### CVE-2025-42558
 - [gduma-phData/patch-CVE-2025-42558](https://github.com/gduma-phData/patch-CVE-2025-42558)
+
+### CVE-2025-42884 (2025-11-11)
+
+<code>SAP NetWeaver Enterprise Portal allows an unauthenticated attacker to inject JNDI environment properties or pass a URL used during JNDI lookup operations, enabling access to an unintended JNDI provider.�This could further lead to disclosure or modification of information about the server. There is no impact on availability.
+</code>
+
+- [cveForge/CVE-2025-42884](https://github.com/cveForge/CVE-2025-42884)
 
 ### CVE-2025-42944 (2025-09-09)
 
@@ -42993,6 +43314,7 @@
 
 - [Ntn10/cve-2024-10441-synology-rce](https://github.com/Ntn10/cve-2024-10441-synology-rce)
 - [SHIFox8/synology-dsm-vuln-scanner](https://github.com/SHIFox8/synology-dsm-vuln-scanner)
+- [cveForge/CVE-2024-10441](https://github.com/cveForge/CVE-2024-10441)
 
 ### CVE-2024-10448 (2024-10-28)
 
@@ -59533,6 +59855,17 @@
 - [tahaXafous/CVE-2023-44487-dos](https://github.com/tahaXafous/CVE-2023-44487-dos)
 - [CerberusMrXi/CVE-2023-44487-HTTP2-DoS-Rapid-Reset-Exploit](https://github.com/CerberusMrXi/CVE-2023-44487-HTTP2-DoS-Rapid-Reset-Exploit)
 - [federiconbaez/cortex9-http2-rapid-reset-stream-accounting-model](https://github.com/federiconbaez/cortex9-http2-rapid-reset-stream-accounting-model)
+- [TAVARDT-Brasil/http2-kernel-dos-resilience-checker-br](https://github.com/TAVARDT-Brasil/http2-kernel-dos-resilience-checker-br)
+- [TAVARDT-Portugal/http2-kernel-dos-resilience-checker-pt](https://github.com/TAVARDT-Portugal/http2-kernel-dos-resilience-checker-pt)
+- [TAVARDT-USA/http2-kernel-dos-resilience-checker-us](https://github.com/TAVARDT-USA/http2-kernel-dos-resilience-checker-us)
+- [TAVARDT-UK/http2-kernel-dos-resilience-checker-uk](https://github.com/TAVARDT-UK/http2-kernel-dos-resilience-checker-uk)
+- [TAVARDT-Canada/http2-kernel-dos-resilience-checker-ca](https://github.com/TAVARDT-Canada/http2-kernel-dos-resilience-checker-ca)
+- [TAVARDT-Australia/http2-kernel-dos-resilience-checker-au](https://github.com/TAVARDT-Australia/http2-kernel-dos-resilience-checker-au)
+- [TAVARDT-New-Zealand/http2-kernel-dos-resilience-checker-nz](https://github.com/TAVARDT-New-Zealand/http2-kernel-dos-resilience-checker-nz)
+- [TAVARDT-Espana/http2-kernel-dos-resilience-checker-es](https://github.com/TAVARDT-Espana/http2-kernel-dos-resilience-checker-es)
+- [TAVARDT-Mexico/http2-kernel-dos-resilience-checker-mx](https://github.com/TAVARDT-Mexico/http2-kernel-dos-resilience-checker-mx)
+- [TAVARDT-France/http2-kernel-dos-resilience-checker-fr](https://github.com/TAVARDT-France/http2-kernel-dos-resilience-checker-fr)
+- [TAVARDT-Italia/http2-kernel-dos-resilience-checker-it](https://github.com/TAVARDT-Italia/http2-kernel-dos-resilience-checker-it)
 
 ### CVE-2023-44758 (2023-10-06)
 
@@ -84289,6 +84622,7 @@
 - [rgkue/mysqli](https://github.com/rgkue/mysqli)
 - [Vedantrana73/cve-2019-9053-py3](https://github.com/Vedantrana73/cve-2019-9053-py3)
 - [quliyevresul7777/CVE-2019-9053](https://github.com/quliyevresul7777/CVE-2019-9053)
+- [fantasmakm4/LAB-014-SIMPLE-CTF](https://github.com/fantasmakm4/LAB-014-SIMPLE-CTF)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
@@ -95413,6 +95747,7 @@
 - [canpilayda/proftpd-mod_copy-cve-2015-3306](https://github.com/canpilayda/proftpd-mod_copy-cve-2015-3306)
 - [bcononugbor-source/OpenVAS-Vulnerability-Analysis-Incident-Response-Report](https://github.com/bcononugbor-source/OpenVAS-Vulnerability-Analysis-Incident-Response-Report)
 - [diegslva/cve-2015-3306-lab](https://github.com/diegslva/cve-2015-3306-lab)
+- [cveForge/CVE-2015-3306](https://github.com/cveForge/CVE-2015-3306)
 
 ### CVE-2015-3337 (2015-05-01)
 
