@@ -415,6 +415,9 @@
 
 - [Vardhan0257/upb-any-recursion-audit](https://github.com/Vardhan0257/upb-any-recursion-audit)
 
+### CVE-2026-11
+- [rjvdev/odoo-cve-2026-11-patch-kit](https://github.com/rjvdev/odoo-cve-2026-11-patch-kit)
+
 ### CVE-2026-30
 - [itsismarcos/ICS-MoxieManager-FileUpload-PoC](https://github.com/itsismarcos/ICS-MoxieManager-FileUpload-PoC)
 
@@ -4968,13 +4971,6 @@
 - [yym8538/CVE-2026-20896](https://github.com/yym8538/CVE-2026-20896)
 - [Raincombat/CVE-2026-20896-Gitea-CTF](https://github.com/Raincombat/CVE-2026-20896-Gitea-CTF)
 
-### CVE-2026-20971 (2026-01-09)
-
-<code>Use After Free in PROCA driver prior to SMR Jan-2026 Release 1 allows local attackers to potentially execute arbitrary code.
-</code>
-
-- [zhanghangjie/CVE-2026-20971-CYL1](https://github.com/zhanghangjie/CVE-2026-20971-CYL1)
-
 ### CVE-2026-20980 (2026-02-04)
 
 <code>Improper input validation in PACM prior to SMR Feb-2026 Release 1 allows physical attacker to execute arbitrary commands.
@@ -5158,7 +5154,6 @@
 </code>
 
 - [fancyzll/qualcomm-vulnerability-scanner](https://github.com/fancyzll/qualcomm-vulnerability-scanner)
-- [zhanghangjie/CVE-2026-21385-CYL1](https://github.com/zhanghangjie/CVE-2026-21385-CYL1)
 
 ### CVE-2026-21436 (2026-01-01)
 
@@ -5774,6 +5769,13 @@
 - [HodgeLuke/ai-agent-security-research](https://github.com/HodgeLuke/ai-agent-security-research)
 - [ashrafzaryouh/CVE-2026-22812](https://github.com/ashrafzaryouh/CVE-2026-22812)
 - [Hex-Neo/CVE-2026-22812-OpenCode-RCE-exp](https://github.com/Hex-Neo/CVE-2026-22812-OpenCode-RCE-exp)
+
+### CVE-2026-22816 (2026-01-16)
+
+<code>Gradle is a build automation tool, and its native-platform tool provides Java bindings for native APIs. When resolving dependencies in versions before 9.3.0, some exceptions were not treated as fatal errors and would not cause a repository to be disabled. If a build encountered one of these exceptions, Gradle would continue to the next repository in the list and potentially resolve dependencies from a different repository. If a Gradle build used an unresolvable host name, Gradle would continue to work as long as all dependencies could be resolved from another repository. An unresolvable host name could be caused by allowing a repository's domain name registration to lapse or typo-ing the real domain name. This behavior could allow an attacker to register a service under the host name used by the build and serve malicious artifacts. The attack requires the repository to be listed before others in the build configuration. Gradle has introduced a change in behavior in Gradle 9.3.0 to stop searching other repositories when encountering these errors.
+</code>
+
+- [googlesky/CVE-2026-22816](https://github.com/googlesky/CVE-2026-22816)
 
 ### CVE-2026-22849 (2026-01-21)
 
@@ -9429,6 +9431,13 @@
 
 - [pl4tyz/CVE-2026-33701-Unsafe-Deserialization-in-OpenTelemetry-Java-Agent-RMI-Instrumentation](https://github.com/pl4tyz/CVE-2026-33701-Unsafe-Deserialization-in-OpenTelemetry-Java-Agent-RMI-Instrumentation)
 
+### CVE-2026-33704 (2026-04-10)
+
+<code>Chamilo LMS is a learning management system. Prior to 1.11.38, any authenticated user (including students) can write arbitrary content to files on the server via the BigUpload endpoint. The key parameter controls the filename and the raw POST body becomes the file content. While .php extensions are filtered to .phps, the .pht extension passes through unmodified. On Apache configurations where .pht is handled as PHP, this leads to Remote Code Execution. This vulnerability is fixed in 1.11.38.
+</code>
+
+- [duypt02/CVE-2026-33704-PoC](https://github.com/duypt02/CVE-2026-33704-PoC)
+
 ### CVE-2026-33715 (2026-04-14)
 
 <code>Chamilo LMS is an open-source learning management system. In version 2.0-RC.2, the file public/main/inc/ajax/install.ajax.php is accessible without authentication on fully installed instances because, unlike other AJAX endpoints, it does not include the global.inc.php file that performs authentication and installation-completed checks. Its test_mailer action accepts an arbitrary Symfony Mailer DSN string from POST data and uses it to connect to an attacker-specified SMTP server, enabling Server-Side Request Forgery (SSRF) into internal networks via the SMTP protocol. An unauthenticated attacker can also abuse this to weaponize the Chamilo server as an open email relay for phishing and spam campaigns, with emails appearing to originate from the server's IP address. Additionally, error responses from failed SMTP connections may disclose information about internal network topology and running services. This issue has been fixed in version 2.0.0-RC.3.
@@ -9962,6 +9971,13 @@
 </code>
 
 - [googlesky/CVE-2026-35374](https://github.com/googlesky/CVE-2026-35374)
+
+### CVE-2026-35376 (2026-04-22)
+
+<code>A Time-of-Check to Time-of-Use (TOCTOU) vulnerability exists in the chcon utility of uutils coreutils during recursive operations. The implementation resolves recursive targets using a fresh path lookup (via fts_accpath) rather than binding the traversal and label application to the specific directory state encountered during traversal. Because these operations are not anchored to file descriptors, a local attacker with write access to a directory tree can exploit timing-sensitive rename or symbolic link races to redirect a privileged recursive relabeling operation to unintended files or directories. This vulnerability breaks the hardening expectations for SELinux administration workflows and can lead to the unauthorized modification of security labels on sensitive system objects.
+</code>
+
+- [googlesky/CVE-2026-35376](https://github.com/googlesky/CVE-2026-35376)
 
 ### CVE-2026-35377 (2026-04-22)
 
@@ -12071,7 +12087,6 @@
 - [zetaloop/ghostlock20](https://github.com/zetaloop/ghostlock20)
 - [bxffhss/iqoo-z6-temp-root](https://github.com/bxffhss/iqoo-z6-temp-root)
 - [rubnet/ghostlock-RMX3031](https://github.com/rubnet/ghostlock-RMX3031)
-- [zhanghangjie/CVE-2026-43499-CYL1](https://github.com/zhanghangjie/CVE-2026-43499-CYL1)
 - [taowen/sm-g986u-kernel](https://github.com/taowen/sm-g986u-kernel)
 - [anVzdGFtb25/GhostLock-P50Pro-JAD-AL00](https://github.com/anVzdGFtb25/GhostLock-P50Pro-JAD-AL00)
 - [anVzdGFtb25/GhostLock-Honor90-REA-AN00](https://github.com/anVzdGFtb25/GhostLock-Honor90-REA-AN00)
@@ -15255,6 +15270,13 @@
 
 - [googlesky/CVE-2026-58254](https://github.com/googlesky/CVE-2026-58254)
 
+### CVE-2026-58262 (2026-08-07)
+
+<code>Klever-Go is the Go implementation of the Klever blockchain protocol. Prior to 1.7.20, header signature verification counts the unused padding bits of the PubKeysBitmap toward the two-thirds validator quorum. These padding bits do not correspond to any validator and are ignored by the actual BLS aggregate-signature check, so a malicious or compromised block producer can set them to reach the required quorum while gathering fewer genuine validator signatures than the protocol demands. As a result, nodes that import or intercept the header accept it as correctly signed without a real two-thirds quorum, weakening consensus safety and undermining finality. This issue is fixed in version 1.7.20.
+</code>
+
+- [googlesky/CVE-2026-58262](https://github.com/googlesky/CVE-2026-58262)
+
 ### CVE-2026-58424 (2026-07-03)
 
 <code>Permanent Fork PR Workflow Approval Gate Bypass
@@ -15326,7 +15348,7 @@
 
 ### CVE-2026-59248 (2026-07-28)
 
-<code>Allocation of resources without limits vulnerability in ninenines cowlib allows an unauthenticated remote HTTP/2 or HTTP/3 peer to exhaust memory on the vulnerable server (or client) and cause a denial of service.\n\nThe HPACK and QPACK prefixed-integer decoder cow_hpack_common:dec_big_int/3 in src/cow_hpack_common.hrl (invoked from cow_hpack:decode/2 in src/cow_hpack.erl and from cow_qpack:decode_field_section/3 in src/cow_qpack.erl) reads continuation octets until it sees one whose high bit is clear, evaluating Int + (Value bsl M) at each step with the shift M growing by seven per octet. No limit is enforced on the number of continuation octets, on the resulting bit width, or on the value; the decoder consumes whatever encoded length the peer supplies.\n\nBecause Erlang integers are immutable, each intermediate Value bsl M and each accumulator update allocates a fresh bignum whose digit width grows linearly with the number of octets processed so far. Summed across the whole decode, the transient bignum digit materialization is on the order of the square of the encoded length. A single maximal HPACK indexed representation carried inside one HTTP/2 HEADERS plus one CONTINUATION frame at Cowboy's default max_frame_size_received can force hundreds of megabytes of transient allocation and garbage-collection churn before the resulting header-table index is rejected as invalid. Repeated or concurrent connections multiply the pressure and can drive the Erlang VM to memory exhaustion.\n\nCowlib is the HTTP parser used by Cowboy, RabbitMQ's management plugin, and other Erlang and Elixir HTTP/2 and HTTP/3 servers and clients, so any exposed endpoint that accepts HPACK or QPACK from an untrusted peer is reachable.\n\nThis issue affects cowlib: from 2.0.0 before 2.19.0.
+<code>Allocation of resources without limits vulnerability in ninenines cowlib allows an unauthenticated remote HTTP/2 or HTTP/3 peer to exhaust memory on the vulnerable server (or client) and cause a denial of service.\n\nThe HPACK and QPACK prefixed-integer decoder cow_hpack_common:dec_big_int/3 in src/cow_hpack_common.hrl (invoked from cow_hpack:decode/2 in src/cow_hpack.erl and from cow_qpack:decode_field_section/3 in src/cow_qpack.erl) reads continuation octets until it sees one whose high bit is clear, evaluating Int + (Value bsl M) at each step with the shift M growing by seven per octet. No limit is enforced on the number of continuation octets, on the resulting bit width, or on the value; the decoder consumes whatever encoded length the peer supplies.\n\nBecause Erlang integers are immutable, each intermediate Value bsl M and each accumulator update allocates a fresh bignum whose digit width grows linearly with the number of octets processed so far. Summed across the whole decode, the transient bignum digit materialization is on the order of the square of the encoded length. A single maximal HPACK indexed representation carried inside one HTTP/2 HEADERS plus one CONTINUATION frame at Cowboy's default max_frame_size_received can force hundreds of megabytes of transient allocation and garbage-collection churn before the resulting header-table index is rejected as invalid. Repeated or concurrent connections multiply the pressure and can drive the Erlang VM to memory exhaustion.\n\nCowlib is the HTTP parser used by Cowboy, RabbitMQ's management plugin, and other Erlang and Elixir HTTP/2 and HTTP/3 servers and clients, so any exposed endpoint that accepts HPACK or QPACK from an untrusted peer is reachable.\n\nThis issue affects cowlib: from 2.0.0-pre.1 before 2.19.0.
 </code>
 
 - [DarynOngera/bug-free-broccoli](https://github.com/DarynOngera/bug-free-broccoli)
@@ -15713,6 +15735,13 @@
 
 - [fixedbyreboot/CVE-2026-62253-POC](https://github.com/fixedbyreboot/CVE-2026-62253-POC)
 
+### CVE-2026-62337 (2026-10-30)
+
+<code>SNARK Verifier is a generic (S)NARK verifier. Prior to 0.2.5, the Halo 2 aggregation circuit can mishandle proof points encoded as the point at infinity. `EcPointLoader::multi_scalar_multiplication` places a `Value::Assigned(_)` base paired with `Value::Constant(ONE)` into its unscaled variable-base list and passes it directly to `sum_with_const`. The default shim delegates to halo2-lib `EccChip::sum`, whose incomplete affine addition assumes nonidentity input points. A prover-controlled proof point encoded as `(0, 0)` can therefore enter the final aggregation sum through the scalar-one shortcut and affect the MSM or accumulator computation. Practical exploitability depends on the surrounding aggregation and final-decider checks; the advisory does not establish universal acceptance of invalid proofs. This issue is fixed in version 0.2.5.
+</code>
+
+- [googlesky/CVE-2026-62337](https://github.com/googlesky/CVE-2026-62337)
+
 ### CVE-2026-62356
 - [zsy-arch/CVE-2026-62356-POC](https://github.com/zsy-arch/CVE-2026-62356-POC)
 
@@ -15975,12 +16004,36 @@
 
 - [googlesky/CVE-2026-63386](https://github.com/googlesky/CVE-2026-63386)
 
+### CVE-2026-63402 (2026-10-30)
+
+<code>i18next is an internationalization framework for JavaScript. Prior to version 26.3.4, `deepExtend` in `src/utils.js` checks property existence with the in operator and recurses into inherited built-ins reached through `Object.prototype`. An application must explicitly pass attacker-controlled resource data to `addResourceBundle(lng, ns, data, deep, overwrite)` with both `deep: true` and `overwrite: true`. Source keys such as `hasOwnProperty`, `toString` and `valueOf` can then select shared inherited built-in function objects, and a nested value can overwrite a property of those objects process-wide. For example, making `Object.prototype.hasOwnProperty.call` non-callable causes subsequent uses, including i18next internals, to throw TypeError, resulting in unrecoverable denial of service and limited integrity impact. The `__proto__`/`constructor` guard does not prevent this mechanism because the corruption target is an inherited built-in function rather than the prototype object itself. Default calls without deep merging or with overwrite falsy are unaffected, and no standard i18next backend or integration uses the vulnerable configuration. This issue is distinct from the setPath/key-walking prototype-pollution flaws in i18next-fs-backend (CVE-2026-48713) and i18next-http-middleware (CVE-2026-48714). This issue is fixed in version 26.3.4.
+</code>
+
+- [googlesky/CVE-2026-63402](https://github.com/googlesky/CVE-2026-63402)
+
+### CVE-2026-63410 (2026-10-30)
+
+<code>secp256k1-native is a native C secp256k1 implementation for Ruby. In affected native builds, native constant-time scalar multiplication through `Point#mul` or `scalar_multiply_ct` can leak timing information about a secret scalar when compiled by a toolchain that reconstructs branchless selection into a branch. The `Montgomery ladder` uses `uint256_select` with an all-zeros or all-ones mask, but affected GCC builds at `-O2` recover the original condition and emit secret-dependent `je` or `jne` jumps whose timing correlates with scalar bits. This defeats the assumption behind the 0.17.0 `jp_add_internal` infinity-branch fix. A consumer must multiply a secret private key or nonce in a context where an attacker can observe timing; repeated measurements can statistically recover scalar bits. The defect is in the compiled binary, so source review or `ctgrind` on a non-reconstructing toolchain may miss it. GCC 14.3.0, 15.1.0, and 15.2.0 reproduced the branch reconstruction, and `extconf.rb` appends `-O2`. Tested GCC versions through 12.4.0 used bitwise operations and GCC 13.3.0 used constant-time `cmov`; the pure-Ruby path is not affected by this flaw and separately makes no constant-time claim. GCC 16 and clang were untested, and point releases, targets, and flag combinations were not exhaustively bisected. `Earlier pre-0.17.0 versions had different constant-time issues rather than this introduced select idiom.` Version 0.18.0 contains the verified fix. The advisory's broad pre-0.18.0 guidance also covers earlier, different constant-time issues; whether this CVE groups those issues or only the select idiom introduced in 0.17.0 remains unresolved.
+</code>
+
+- [googlesky/CVE-2026-63410](https://github.com/googlesky/CVE-2026-63410)
+
 ### CVE-2026-63415 (2026-11-18)
 
 <code>Jane is a set of PHP libraries that generates models and API clients from JSON Schema and OpenAPI specifications. Prior to 7.12.0, Jane's Reference.php::doResolve passes an attacker-controlled OpenAPI $ref target to file_get_contents without restricting its scheme or resolved local path. When a victim generates code from an attacker-influenced document, an HTTP or HTTPS reference can cause requests to attacker-chosen or internal services, while an absolute or parent-relative path can read local JSON or YAML files and inline the retrieved content into generated output. Exploitation occurs during generation or CI processing and can disclose local files and internal-service responses. This issue is fixed in version 7.12.0.
 </code>
 
 - [googlesky/CVE-2026-63415](https://github.com/googlesky/CVE-2026-63415)
+
+### CVE-2026-63476 (2026-11-03)
+
+<code>isomorphic-git is a pure JavaScript implementation of Git for Node.js and browsers. Prior to 1.38.6, isomorphic-git reads a server-controlled targetSize while applying a packfile delta in src/utils/applyDelta.js and passes it without a bound to Buffer.alloc(targetSize). A malicious or man-in-the-middle-controlled remote can send one delta header that causes git.clone() or git.fetch() to allocate approximately 2 GB before validating the actual delta output. GitPackIndex.fromPack swallows the later size-mismatch error, so a host with sufficient memory may retain the resource waste without a visible failure, while containers, serverless functions, and small virtual machines may terminate. Node.js heap limits do not mitigate the off-heap Buffer allocation. This issue is fixed in version 1.38.6.
+</code>
+
+- [googlesky/CVE-2026-63476](https://github.com/googlesky/CVE-2026-63476)
+
+### CVE-2026-63492
+- [googlesky/CVE-2026-63492](https://github.com/googlesky/CVE-2026-63492)
 
 ### CVE-2026-63520 (2026-08-11)
 
@@ -16096,7 +16149,6 @@
 - [youssefnoser/opd2415-6.6.118-cve-2026-64560-ksu](https://github.com/youssefnoser/opd2415-6.6.118-cve-2026-64560-ksu)
 - [aucai/Redmi-K90-CVE-2026-64560](https://github.com/aucai/Redmi-K90-CVE-2026-64560)
 - [exumeOAO/plr110-6.12.38-cve-2026-64560-ksu](https://github.com/exumeOAO/plr110-6.12.38-cve-2026-64560-ksu)
-- [zhanghangjie/CVE-2026-64560-CYL1](https://github.com/zhanghangjie/CVE-2026-64560-CYL1)
 
 ### CVE-2026-64561 (2026-08-04)
 
@@ -18039,6 +18091,13 @@
 
 - [googlesky/CVE-2026-77318](https://github.com/googlesky/CVE-2026-77318)
 
+### CVE-2026-77331 (2026-11-20)
+
+<code>memtomem-stm is a short-term memory proxy gateway with proactive memory surfacing for AI agents. From 0.1.2 until 0.1.34, concurrent surfacing RPC failures can start more than one reconnect for the same dirty session because concurrent LTM recovery is not uniquely owned by a session generation. Cancellation during a post-reconnect retry can also leave the replacement transport reusable after an interrupted protocol exchange, causing session-state integrity loss or local service degradation. The duplicate-reconnect subcase was introduced in 0.1.24, while the cancellation-recovery subcase affects the broader listed range. This issue is fixed in version 0.1.34.
+</code>
+
+- [googlesky/CVE-2026-77331](https://github.com/googlesky/CVE-2026-77331)
+
 ### CVE-2026-77332 (2026-11-20)
 
 <code>memtomem-stm is a short-term memory proxy gateway with proactive memory surfacing for AI agents. From 0.1.0 until 0.1.34, untrusted long-term and working-memory fields can introduce Markdown or HTML-compatible structure into the surfaced-memory envelope because those fields are not serialized as inert data. A crafted memory can create misleading structural boundaries or visually conceal surfaced content, affecting how a consuming agent interprets the memory context. Ordinary natural-language persuasion remains a residual model-level risk and is outside the structural serialization flaw. This issue is fixed in version 0.1.34.
@@ -18110,6 +18169,13 @@
 </code>
 
 - [googlesky/CVE-2026-77382](https://github.com/googlesky/CVE-2026-77382)
+
+### CVE-2026-77423 (2026-09-23)
+
+<code>JLine is a Java library for handling console input. From 3.0.0 until 3.30.15 and 4.3.1, the JLine built-in less viewer passes user-controlled search and display-filter patterns from getPattern(boolean doDisplayPattern) in builtins/src/main/java/org/jline/builtins/Less.java directly to Java's backtracking regular expression engine and repeatedly applies them to file content. A nested-quantifier expression evaluated against non-matching lines can consume excessive CPU and indefinitely block the session thread, and repeated sessions in Telnet or SSH deployments can exhaust a bounded worker pool. This issue is fixed in versions 3.30.15 and 4.3.1.
+</code>
+
+- [googlesky/CVE-2026-77423](https://github.com/googlesky/CVE-2026-77423)
 
 ### CVE-2026-77521 (2026-09-21)
 
@@ -18197,6 +18263,13 @@
 </code>
 
 - [ForefrontITSecurityServices/CVE-2026-77882-CVE-2026-77873](https://github.com/ForefrontITSecurityServices/CVE-2026-77882-CVE-2026-77873)
+
+### CVE-2026-77918 (2026-11-24)
+
+<code>Gogs through 0.14.4 contains an information disclosure vulnerability that allows authenticated users to view private forks by querying fork listings without per-fork read checks. Attackers with read access to a private base repository can call GET /api/v1/repos/{owner}/{repo}/forks or the Forks web handler to obtain other users' private fork owners, names, descriptions and clone URLs.
+</code>
+
+- [z3r0s6/gogs-private-fork-disclosure-CVE-2026-77918](https://github.com/z3r0s6/gogs-private-fork-disclosure-CVE-2026-77918)
 
 ### CVE-2026-77991 (2026-08-27)
 
@@ -20850,11 +20923,11 @@
 - [aoxzh/cve-2026-98260-tb710fu](https://github.com/aoxzh/cve-2026-98260-tb710fu)
 - [aoxzh/cve-2026-98260-vivo-x200-ultra-temproot](https://github.com/aoxzh/cve-2026-98260-vivo-x200-ultra-temproot)
 - [yxc0915/cve-2026-98260-ppg-an00](https://github.com/yxc0915/cve-2026-98260-ppg-an00)
-- [zhanghangjie/CVE-2026-98260-CYL1](https://github.com/zhanghangjie/CVE-2026-98260-CYL1)
 - [nestchao/redmi-pad-se-87-root](https://github.com/nestchao/redmi-pad-se-87-root)
 - [tiamo1990/shancha-kernel-workshop](https://github.com/tiamo1990/shancha-kernel-workshop)
 - [okk30721-cell/cve-2026-98260-ksu](https://github.com/okk30721-cell/cve-2026-98260-ksu)
 - [pjnssb/CVE-2026-98260-GhostKey](https://github.com/pjnssb/CVE-2026-98260-GhostKey)
+- [HHHHanasak1/quest3_98260](https://github.com/HHHHanasak1/quest3_98260)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -23414,6 +23487,13 @@
 
 - [Ghost-Bx1/ConsulK8s-CVE-2026-110720](https://github.com/Ghost-Bx1/ConsulK8s-CVE-2026-110720)
 
+### CVE-2026-110858 (2026-10-14)
+
+<code>GitPython from 3.1.30 before 3.2.0 contains a remote code execution vulnerability in Remote.pull() whose unsafe-option guard inspects only keyword arguments, not the positional refspec. Attackers controlling the refspec can supply --upload-pack=&lt;command&gt; to execute OS commands as the calling process over local-path or SSH transports.
+</code>
+
+- [Mahgal/gitpython-rce-check](https://github.com/Mahgal/gitpython-rce-check)
+
 ### CVE-2026-110896 (2026-10-16)
 
 <code>Missing Authorization vulnerability in WP Chill Passster content-protector allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Passster: from n/a through 4.3.18.
@@ -24217,6 +24297,7 @@
 - [Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0](https://github.com/Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0)
 - [Pr0fEs0r-X/PHP2SHELL-Checker-v-2.0-CVE-2026-115560-](https://github.com/Pr0fEs0r-X/PHP2SHELL-Checker-v-2.0-CVE-2026-115560-)
 - [cveForge/CVE-2026-115560](https://github.com/cveForge/CVE-2026-115560)
+- [im0xfay/CVE-2026-PHP-SESSION-CHAIN](https://github.com/im0xfay/CVE-2026-PHP-SESSION-CHAIN)
 
 ### CVE-2026-115563 (2026-11-16)
 
@@ -25133,6 +25214,13 @@
 - [VABISMO/nginx2root](https://github.com/VABISMO/nginx2root)
 - [Agampreet-Singh/Nginx2root-lab](https://github.com/Agampreet-Singh/Nginx2root-lab)
 - [cveForge/CVE-2026-123007](https://github.com/cveForge/CVE-2026-123007)
+
+### CVE-2026-123010 (2026-11-05)
+
+<code>@twilio-labs/netlify-okta-auth through 1.0.2 relies on an unverified iss claim. This affects an outbound HTTP request to retrieve a public signing key. There may be other impacts in a misconfiguration where oktaUrl isn't set.
+</code>
+
+- [Ahmedhassanelf/CVE-2026-123010-Security-Researcher-Ahmed-Hassan-Elfekiry](https://github.com/Ahmedhassanelf/CVE-2026-123010-Security-Researcher-Ahmed-Hassan-Elfekiry)
 
 ### CVE-2026-123014 (2026-11-05)
 
@@ -26165,6 +26253,7 @@
 </code>
 
 - [googlesky/CVE-2026-130007](https://github.com/googlesky/CVE-2026-130007)
+- [abraxas/cve-2026-130007-k8smcp-sse-noauth](https://github.com/abraxas/cve-2026-130007-k8smcp-sse-noauth)
 
 ### CVE-2026-130176 (2026-11-19)
 
@@ -26262,6 +26351,7 @@
 <code>Deserialization of untrusted data in double-submit cookie vs. form field validation in Idunno.AntiCsrf versions through 0.9.1 Beta on ASP.NET allows remote unauthenticated attackers to execute code via object injection
 </code>
 
+- [dinosn/cve-2026-131914-poc](https://github.com/dinosn/cve-2026-131914-poc)
 - [l0lsec/CVE-2026-131914](https://github.com/l0lsec/CVE-2026-131914)
 - [abraxas/cve-2026-131914-idunno-anticsrf-deserialization](https://github.com/abraxas/cve-2026-131914-idunno-anticsrf-deserialization)
 
@@ -26398,6 +26488,7 @@
 <code>Gogs through 0.14.4 contains an authorization bypass vulnerability that allows collaborators with write access to push to protected branches by merging pull requests. Because MergePullRequest skips branch protection checks and PullRequest.Merge omits hook environment variables, attackers can merge commits into branches restricted to allowlisted users.
 </code>
 
+- [z3r0s6/gogs-protected-branch-bypass-CVE-2026-133113](https://github.com/z3r0s6/gogs-protected-branch-bypass-CVE-2026-133113)
 - [cveForge/CVE-2026-133113](https://github.com/cveForge/CVE-2026-133113)
 
 ### CVE-2026-133114 (2026-11-19)
@@ -26575,6 +26666,7 @@
 </code>
 
 - [cveForge/CVE-2026-133968](https://github.com/cveForge/CVE-2026-133968)
+- [foxcornlab/monai-label-scanner](https://github.com/foxcornlab/monai-label-scanner)
 
 ### CVE-2026-133993 (2026-11-21)
 
@@ -28593,7 +28685,6 @@
 - [jopraveen/CVE-2025-6554](https://github.com/jopraveen/CVE-2025-6554)
 - [Muhammednihalmp/Google-chrome-zero-day](https://github.com/Muhammednihalmp/Google-chrome-zero-day)
 - [aklnjakln/CVE-2025-6554](https://github.com/aklnjakln/CVE-2025-6554)
-- [zhanghangjie/CVE-2025-6554-CYL1](https://github.com/zhanghangjie/CVE-2025-6554-CYL1)
 
 ### CVE-2025-6558 (2025-07-15)
 
@@ -30789,6 +30880,7 @@
 - [longg66/cve-2025-21479_iqooneo7speed](https://github.com/longg66/cve-2025-21479_iqooneo7speed)
 - [linux-tools/VIVO-IQOO-Neo9-Root-Tools](https://github.com/linux-tools/VIVO-IQOO-Neo9-Root-Tools)
 - [Shiho-Patch/linux-tools-vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/Shiho-Patch/linux-tools-vivo_iqoo_neo_9_root_research_on_CVE-2025-21479)
+- [Type010/cheese-app](https://github.com/Type010/cheese-app)
 - [xianwan1314/cheese-app](https://github.com/xianwan1314/cheese-app)
 - [CatXiaoShi/CVE-2025-21479](https://github.com/CatXiaoShi/CVE-2025-21479)
 
@@ -30815,7 +30907,6 @@
 - [KuanKuanQAQ/cve-testing](https://github.com/KuanKuanQAQ/cve-testing)
 - [khoatran107/cve-2025-21756](https://github.com/khoatran107/cve-2025-21756)
 - [h3raklez/CVE-2025-21756](https://github.com/h3raklez/CVE-2025-21756)
-- [zhanghangjie/CVE-2025-21756-VM](https://github.com/zhanghangjie/CVE-2025-21756-VM)
 
 ### CVE-2025-22131 (2025-01-20)
 
@@ -34727,7 +34818,6 @@
 - [dkstar11q/Blackash-CVE-2025-47812](https://github.com/dkstar11q/Blackash-CVE-2025-47812)
 - [matesz44/CVE-2025-47812](https://github.com/matesz44/CVE-2025-47812)
 - [shadowgit30/CVE-2025-47812](https://github.com/shadowgit30/CVE-2025-47812)
-- [havbay/CVE-2025-47812-PoC](https://github.com/havbay/CVE-2025-47812-PoC)
 - [estebanzarate/CVE-2025-47812-Wing-FTP-Server-7.4.3-Unauthenticated-RCE-PoC](https://github.com/estebanzarate/CVE-2025-47812-Wing-FTP-Server-7.4.3-Unauthenticated-RCE-PoC)
 - [popyue/CVE-2025-47812](https://github.com/popyue/CVE-2025-47812)
 - [0xjuarez/CVE-2025-47812](https://github.com/0xjuarez/CVE-2025-47812)
@@ -76478,6 +76568,7 @@
 - [for-toolathlon/log4shell-audit2](https://github.com/for-toolathlon/log4shell-audit2)
 - [for-toolathlon/log4shell-audit-2](https://github.com/for-toolathlon/log4shell-audit-2)
 - [johnyProDev/CVE-2021-44228-Writeup](https://github.com/johnyProDev/CVE-2021-44228-Writeup)
+- [Pathfind1357/Log4Shell-CVE-2021-44228](https://github.com/Pathfind1357/Log4Shell-CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
