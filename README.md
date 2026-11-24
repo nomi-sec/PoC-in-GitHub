@@ -7869,6 +7869,7 @@
 - [xiaoqiMikko/pac4j-check](https://github.com/xiaoqiMikko/pac4j-check)
 - [Erikgavs/CVE-2026-29000](https://github.com/Erikgavs/CVE-2026-29000)
 - [tscherwinski/CVE-2026-29000-jweforge](https://github.com/tscherwinski/CVE-2026-29000-jweforge)
+- [0o176/CVE-2026-29000_PoC](https://github.com/0o176/CVE-2026-29000_PoC)
 
 ### CVE-2026-29013 (2026-04-17)
 
@@ -8227,6 +8228,13 @@
 </code>
 
 - [drkim-dev/CVE-2026-30862](https://github.com/drkim-dev/CVE-2026-30862)
+
+### CVE-2026-30940 (2026-03-31)
+
+<code>baserCMS is a website development framework. Prior to version 5.2.3, a path traversal vulnerability exists in the theme file management API (/baser/api/admin/bc-theme-file/theme_files/add.json) that allows arbitrary file write. An authenticated administrator can include ../ sequences in the path parameter to create a PHP file in an arbitrary directory outside the theme directory, which may result in remote code execution (RCE). This issue has been patched in version 5.2.3.
+</code>
+
+- [googlesky/CVE-2026-30940](https://github.com/googlesky/CVE-2026-30940)
 
 ### CVE-2026-30944 (2026-03-10)
 
@@ -13362,6 +13370,13 @@
 
 - [Saku0512/CVE-2026-48732-poc](https://github.com/Saku0512/CVE-2026-48732-poc)
 
+### CVE-2026-48751 (2026-08-21)
+
+<code>Incus is a system container and virtual machine manager. Prior to version 7.2.0, instance snapshots ignore the `restricted.containers.lowlevel=block` setting; allowing for arbitrary command execution on the Incus server by abusing lowlevel hooks such as `raw.lxc` and `raw.qemu`. Version 7.2.0 patches the issue.
+</code>
+
+- [googlesky/CVE-2026-48751](https://github.com/googlesky/CVE-2026-48751)
+
 ### CVE-2026-48770 (2026-06-26)
 
 <code>Notepad++ is a free and open-source source code editor. Prior to 8.9.6.1, a local process in the same interactive Windows session can send a malformed WM_COPYDATA message to Notepad++ using the COPYDATA_FULL_CMDLINE path. The handler appears to process COPYDATASTRUCT.lpData as an unbounded NUL-terminated wchar_t* instead of enforcing COPYDATASTRUCT.cbData. This vulnerability is fixed in 8.9.6.1.
@@ -15415,7 +15430,11 @@
 ### CVE-2026-59398
 - [daehyuh/CVE-2026-59398](https://github.com/daehyuh/CVE-2026-59398)
 
-### CVE-2026-59415
+### CVE-2026-59415 (2026-11-24)
+
+<code>TypesenseVectorStore is vulnerable to a document ID injection in its delete operation that can cause unintended documents to be deleted.\n\n\n\n TypesenseVectorStore.doDelete(List&lt;String&gt;) builds a Typesense filter_by expression by raw string concatenation of caller-supplied document IDs into the form id: [id1,id2,...] . The Typesense id field uses bare (unquoted) values in this list form with no escaping mechanism. An ID containing characters with syntactic meaning in the Typesense filter grammar — such as a comma ( , ), a closing bracket ( ] ), or operator tokens ( || , &amp;&amp; ) — can break out of the list literal and alter the structure of the filter expression.\n\n\n\n An attacker who controls a document ID passed to the delete operation can use this to delete documents other than the intended ones (comma injection), or to construct a filter that matches every document in the collection (operator breakout), resulting in unintended bulk deletion.\n\n\n\n Applications that pass externally supplied or user-controlled document IDs to VectorStore.delete(List&lt;String&gt;) backed by TypesenseVectorStore are affected.
+</code>
+
 - [daehyuh/CVE-2026-59415](https://github.com/daehyuh/CVE-2026-59415)
 
 ### CVE-2026-59417
@@ -24218,6 +24237,7 @@
 - [chandrapati/csw-java-workloads](https://github.com/chandrapati/csw-java-workloads)
 - [Certbn/CVE-2026-114938-OpenJDK-HotSpot-AVX-512-Base64-Java4Shell-](https://github.com/Certbn/CVE-2026-114938-OpenJDK-HotSpot-AVX-512-Base64-Java4Shell-)
 - [bkirkware/j4s-checker](https://github.com/bkirkware/j4s-checker)
+- [jburgess-r7/java4shell-elasticsearch-poc](https://github.com/jburgess-r7/java4shell-elasticsearch-poc)
 - [Jerczey/java4shell-ansible-detection](https://github.com/Jerczey/java4shell-ansible-detection)
 - [Quaerendir/cve-2026-114938-java4shell-audit](https://github.com/Quaerendir/cve-2026-114938-java4shell-audit)
 - [mylesagnew/java2shell-detection](https://github.com/mylesagnew/java2shell-detection)
@@ -24243,6 +24263,8 @@
 - [akshutgoyal/Java4Shell](https://github.com/akshutgoyal/Java4Shell)
 - [adjscent/CVE-2026-114938-POC](https://github.com/adjscent/CVE-2026-114938-POC)
 - [cveForge/CVE-2026-114938](https://github.com/cveForge/CVE-2026-114938)
+- [googlesky/CVE-2026-114938](https://github.com/googlesky/CVE-2026-114938)
+- [devkirgantenk/patched_ptero](https://github.com/devkirgantenk/patched_ptero)
 
 ### CVE-2026-114952 (2026-11-17)
 
@@ -24272,6 +24294,13 @@
 </code>
 
 - [googlesky/CVE-2026-115290](https://github.com/googlesky/CVE-2026-115290)
+
+### CVE-2026-115375 (2026-10-22)
+
+<code>Incus 7.0.0 before 7.0.2 and 7.1.0 before 7.5.0 contains a path traversal vulnerability that allows clients able to create instances to write files on the host. The flaw stems from unvalidated dependent custom volume names in instance backup index.yaml files. Attackers can import a crafted instance backup with ../ sequences in dependent volume names to create root-owned directories with controlled content, leading to full host compromise.
+</code>
+
+- [googlesky/CVE-2026-115375](https://github.com/googlesky/CVE-2026-115375)
 
 ### CVE-2026-115463 (2026-11-19)
 
@@ -25404,6 +25433,9 @@
 - [dinosn/CVE-2026-123890](https://github.com/dinosn/CVE-2026-123890)
 - [cveForge/CVE-2026-123890](https://github.com/cveForge/CVE-2026-123890)
 
+### CVE-2026-123903
+- [dinosn/CVE-2026-123903](https://github.com/dinosn/CVE-2026-123903)
+
 ### CVE-2026-124002 (2026-11-12)
 
 <code>XWEB EVO versions 5.2.3 through before 5.7.0 contains a pre-authentication OS command injection vulnerability that allows unauthenticated remote attackers to execute arbitrary OS commands by injecting shell metacharacters into the username field of login.lua, cleanout.lua, or api.lua before the password check occurs. Attackers can exploit this flaw combined with the setuid-root wlua interpreter to execute commands with root privileges, achieving full system compromise. This product line reached it's end of service date in March 2026.
@@ -25704,6 +25736,7 @@
 - [evenomn/cve-2026-126714-phpAfterShell](https://github.com/evenomn/cve-2026-126714-phpAfterShell)
 - [VABISMO/PHPAfterShell-poc](https://github.com/VABISMO/PHPAfterShell-poc)
 - [bimajunestifa/phpAfterShell](https://github.com/bimajunestifa/phpAfterShell)
+- [cybervidhi-192/phpAfterShell-CVE-2026-126714](https://github.com/cybervidhi-192/phpAfterShell-CVE-2026-126714)
 
 ### CVE-2026-126837 (2026-11-12)
 
@@ -26207,6 +26240,7 @@
 - [abraxas/php-tzcache-rce](https://github.com/abraxas/php-tzcache-rce)
 - [evenomn/CVE-2026-129496](https://github.com/evenomn/CVE-2026-129496)
 - [cveForge/CVE-2026-129496](https://github.com/cveForge/CVE-2026-129496)
+- [googlesky/CVE-2026-129496](https://github.com/googlesky/CVE-2026-129496)
 
 ### CVE-2026-129705 (2026-11-18)
 
@@ -26228,6 +26262,7 @@
 </code>
 
 - [techdevfun/gpgme2shell](https://github.com/techdevfun/gpgme2shell)
+- [googlesky/CVE-2026-129975](https://github.com/googlesky/CVE-2026-129975)
 
 ### CVE-2026-129987 (2026-11-18)
 
@@ -26282,6 +26317,13 @@
 </code>
 
 - [googlesky/CVE-2026-130354](https://github.com/googlesky/CVE-2026-130354)
+
+### CVE-2026-130453 (2026-11-20)
+
+<code>OpenWire protocol dissector crash in 4.6.0 to 4.6.9 and 4.4.0 to 4.4.19 allows denial of service
+</code>
+
+- [googlesky/CVE-2026-130453](https://github.com/googlesky/CVE-2026-130453)
 
 ### CVE-2026-130587 (2026-11-17)
 
@@ -26475,6 +26517,7 @@
 - [techdevfun/ruby2shell](https://github.com/techdevfun/ruby2shell)
 - [ashrafzaryouh/CVE-2026-132825](https://github.com/ashrafzaryouh/CVE-2026-132825)
 - [hackpatato/CVE-2026-132825-poc](https://github.com/hackpatato/CVE-2026-132825-poc)
+- [googlesky/CVE-2026-132825](https://github.com/googlesky/CVE-2026-132825)
 
 ### CVE-2026-133112 (2026-11-19)
 
@@ -26653,6 +26696,13 @@
 
 - [cveForge/CVE-2026-133680](https://github.com/cveForge/CVE-2026-133680)
 
+### CVE-2026-133780 (2026-11-24)
+
+<code>The @symfony/stimulus-bridge npm package includes a Webpack loader called lazy-controller-loader that supports &quot;magic comments&quot; placed above a Stimulus controller import, for example /* stimulusFetch: 'lazy' */, to control lazy loading behavior. To read those options, the loader extracted the raw text of any stimulus* comment and evaluated it as JavaScript using Node's vm.runInNewContext(). The Node.js node:vm module is not a security sandbox, and a crafted comment can break out of the VM context using well-known techniques to run arbitrary Node.js code within the build process.\n\nThis is a build-time vulnerability: it does not affect browsers or end users. The code executes on the developer machine or CI/build server during a Webpack or Symfony Encore build. Realistic attack vectors include a malicious Stimulus controller introduced through a compromised dependency, or a pull request that triggers an automated CI build. An attacker who can get such a file into the build can read files and environment variables available to the build process, exfiltrate CI secrets, tamper with generated build artifacts, and run commands with the permissions of the build user.\n\nThe loader no longer evaluates comment content as JavaScript. It now parses each comment as an object expression using a real JavaScript parser and extracts only plain literal values. Any non-literal value, such as a function call, an identifier, or a sequence expression, is rejected and reported as a build error instead of being executed. Legitimate option values like 'lazy' and 'eager' continue to work without any changes required on the user's side.
+</code>
+
+- [googlesky/CVE-2026-133780](https://github.com/googlesky/CVE-2026-133780)
+
 ### CVE-2026-133949 (2026-11-20)
 
 <code>pip prior to v26.2.2 the certifi bundled with pip contains the compromised eMudhra certificates. \n\n\n\n\nUpgrading to a secure version of pip should be done either by first upgrading Python to a version that rejects the compromised intermediates (CVE-2026-115557) or use hash pinning with a known-secure version of pip. pip is not vulnerable when using a Python version that rejects the compromised certificates. See the references below for more information.
@@ -26667,6 +26717,7 @@
 
 - [cveForge/CVE-2026-133968](https://github.com/cveForge/CVE-2026-133968)
 - [foxcornlab/monai-label-scanner](https://github.com/foxcornlab/monai-label-scanner)
+- [googlesky/CVE-2026-133968](https://github.com/googlesky/CVE-2026-133968)
 
 ### CVE-2026-133993 (2026-11-21)
 
@@ -26681,6 +26732,13 @@
 </code>
 
 - [cveForge/CVE-2026-134292](https://github.com/cveForge/CVE-2026-134292)
+
+### CVE-2026-134401 (2026-11-23)
+
+<code>Improper input validation in Variations in Google Chrome prior to 158.0.8127.88 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)
+</code>
+
+- [abraxas/cve-2026-134401-chrome-variations-http-seed](https://github.com/abraxas/cve-2026-134401-chrome-variations-http-seed)
 
 ### CVE-2026-134541 (2026-11-21)
 
@@ -26978,6 +27036,174 @@
 </code>
 
 - [googlesky/CVE-2026-135055](https://github.com/googlesky/CVE-2026-135055)
+
+### CVE-2026-135154 (2026-11-23)
+
+<code>Tolgee before 3.242.5 fails to enforce email verification on the TOTP enable and recovery-code regeneration endpoints, allowing attackers to enroll MFA on unverified accounts via the @BypassEmailVerification annotation. Attackers can register with a victim's email, enroll an attacker-controlled TOTP factor through PUT /v2/user/mfa/totp, and permanently lock the legitimate owner out after verification and password reset.
+</code>
+
+- [googlesky/CVE-2026-135154](https://github.com/googlesky/CVE-2026-135154)
+
+### CVE-2026-135160 (2026-11-23)
+
+<code>Medplum server 5.1.4 before 5.1.42 contains an incorrect authorization vulnerability in the Binary $presigned-url operation that allows non-admin project members to overwrite other projects' Binary content. Attackers in a project linked to another project can request a signed upload URL with upload=true for a readable Binary and overwrite its stored content, since project ownership is never verified.
+</code>
+
+- [googlesky/CVE-2026-135160](https://github.com/googlesky/CVE-2026-135160)
+
+### CVE-2026-135167 (2026-11-23)
+
+<code>LibRaw 0.22.0 through 0.22.3 contains a heap out-of-bounds read vulnerability in HuffTable::len() because parse_dht() stores Huffman DC symbols without validating them as difference categories. Attackers can supply a crafted TIFF/ARW file with oversized Huffman symbols in a Sony YCbCr lossless JPEG stream to crash applications decoding it, causing denial of service.
+</code>
+
+- [googlesky/CVE-2026-135167](https://github.com/googlesky/CVE-2026-135167)
+
+### CVE-2026-135173 (2026-11-23)
+
+<code>PdfPig through 0.1.16 contains an uncontrolled recursion vulnerability that allows attackers to crash applications by supplying crafted PDF documents with self-referencing AcroForm /Kids or deeply nested marked content. Attackers can trigger an uncatchable StackOverflowException in AcroFormFactory.GetAcroField or Page.GetOptionalContentsRecursively, terminating any process reading form fields or optional content.
+</code>
+
+- [googlesky/CVE-2026-135173](https://github.com/googlesky/CVE-2026-135173)
+
+### CVE-2026-135175 (2026-11-23)
+
+<code>ZITADEL 4.19.5 before 4.20.3 contains a host header injection vulnerability that allows unauthenticated attackers to redirect notification links by placing a trusted host in the userinfo portion of the x-zitadel-public-host header. Attackers knowing a victim's login name can harvest single-use codes from password-reset links sent to their host, reset passwords, and take over accounts including administrators.
+</code>
+
+- [googlesky/CVE-2026-135175](https://github.com/googlesky/CVE-2026-135175)
+
+### CVE-2026-135207 (2026-11-23)
+
+<code>Healthchecks before 4.4 contains a verification bypass vulnerability that allows project users to mark arbitrary email addresses as verified because Channel.make_token() omits the email address. Attackers can verify an address they control, change the integration to a victim address, then reuse the original link to send unsolicited alert emails.
+</code>
+
+- [googlesky/CVE-2026-135207](https://github.com/googlesky/CVE-2026-135207)
+
+### CVE-2026-135704 (2026-11-24)
+
+<code>FFmpeg before 9.1 contains an information disclosure vulnerability in the MXG demuxer's mxg_read_packet() that allows attackers to leak uninitialized heap memory through truncated marker segments. Attackers can supply a crafted MXG file ending in a truncated APP13 segment with a large declared length, causing uninitialized heap contents to be emitted as audio packet payload, for example into remuxed output files.
+</code>
+
+- [googlesky/CVE-2026-135704](https://github.com/googlesky/CVE-2026-135704)
+
+### CVE-2026-135705 (2026-11-24)
+
+<code>FFmpeg before 9.1 contains a stack out-of-bounds read vulnerability in ff_h264_parse_framesize() in libavformat/rtpdec_h264.c when parsing an SDP a=framesize attribute lacking a height. Attackers controlling an RTSP server DESCRIBE response or a crafted .sdp file can make atoi() read past the line buffer, crashing clients or parsing stale stack bytes.
+</code>
+
+- [googlesky/CVE-2026-135705](https://github.com/googlesky/CVE-2026-135705)
+
+### CVE-2026-135706 (2026-11-24)
+
+<code>FFmpeg before 9.1 contains a heap buffer overflow vulnerability in modplug_read_header() in libavformat/libmodplug.c that allocates the buffer using max_size instead of sz. When max_size is set to 0, attackers can supply crafted module files that avio_read() copies into a zero-sized buffer, causing memory corruption, crashes, or possible code execution.
+</code>
+
+- [googlesky/CVE-2026-135706](https://github.com/googlesky/CVE-2026-135706)
+
+### CVE-2026-135708 (2026-11-24)
+
+<code>FFmpeg 8.0 before 9.1 contains an improper URL scheme validation vulnerability in the WHIP muxer that allows malicious WHIP servers to create or truncate local files via the Location header. Attackers can return a file: URL that dispose_session() opens read-write with truncation on teardown, destroying arbitrary user-writable files or redirecting requests to other protocols.
+</code>
+
+- [googlesky/CVE-2026-135708](https://github.com/googlesky/CVE-2026-135708)
+
+### CVE-2026-135711 (2026-11-24)
+
+<code>FFmpeg before 9.1 contains an XML injection vulnerability in ttml_write_header() in libavformat/ttmlenc.c that writes stream language metadata unescaped into the xml:lang attribute. Attackers can supply media files, such as Matroska subtitle tracks with crafted Language values, to inject markup into converted TTML documents and alter downstream parsing or rendering.
+</code>
+
+- [googlesky/CVE-2026-135711](https://github.com/googlesky/CVE-2026-135711)
+
+### CVE-2026-135712 (2026-11-24)
+
+<code>FFmpeg before 9.1 contains an integer overflow vulnerability in the split_planes size check of write_packet() in libavformat/img2enc.c that allows out-of-bounds heap reads. Attackers can supply a crafted input whose rawvideo stream declares very large width and height, remuxed into .y image files, to leak heap memory into output files or crash the application.
+</code>
+
+- [googlesky/CVE-2026-135712](https://github.com/googlesky/CVE-2026-135712)
+
+### CVE-2026-135713 (2026-11-24)
+
+<code>FFmpeg before 9.1 contains a NULL pointer dereference vulnerability in libavformat/mmst.c that allows malicious MMS servers to crash clients by sending malformed ASF headers. Attackers can send an ASF header lacking a packet size or stream properties, causing mms_open() to return success after freeing state and crash on first read.
+</code>
+
+- [googlesky/CVE-2026-135713](https://github.com/googlesky/CVE-2026-135713)
+
+### CVE-2026-135714 (2026-11-24)
+
+<code>FFmpeg before 9.1 contains an information disclosure vulnerability in amf_get_field_value2() in libavformat/rtmppkt.c that NUL-terminates truncated AMF strings at the declared length instead of bytes read. A malicious RTMP server, or connecting client in listen mode, can send truncated onStatus or _error strings to leak uninitialized stack memory through log messages.
+</code>
+
+- [googlesky/CVE-2026-135714](https://github.com/googlesky/CVE-2026-135714)
+
+### CVE-2026-135715 (2026-11-24)
+
+<code>FFmpeg before 9.1 contains a NULL pointer dereference vulnerability in the AVIF muxer in libavformat/movenc.c that allows attackers to crash the application through streams with unknown pixel formats. Attackers can supply a crafted input whose video stream is stream-copied to AVIF, causing unchecked av_pix_fmt_desc_get() results to be dereferenced, resulting in denial of service.
+</code>
+
+- [googlesky/CVE-2026-135715](https://github.com/googlesky/CVE-2026-135715)
+
+### CVE-2026-135718 (2026-11-24)
+
+<code>FFmpeg 7.0 before 9.1 contains an out-of-bounds read vulnerability in dvdvideo_audio_stream_add_all() in libavformat/dvdvideodec.c when parsing menu audio streams. Attackers can supply a crafted DVD image whose menu IFO declares more than 8 audio streams, reading past the audio_control array and crashing applications.
+</code>
+
+- [googlesky/CVE-2026-135718](https://github.com/googlesky/CVE-2026-135718)
+
+### CVE-2026-135720 (2026-11-24)
+
+<code>FFmpeg 9.0 before 9.1 contains a NULL pointer dereference vulnerability in dash_read_header() in libavformat/dashdec.c when building LCEVC stream groups without checking for a missing codecs string. Attackers can supply a crafted MPD manifest with a representation declaring a dependencyId but no codecs attribute to crash applications using the DASH demuxer.
+</code>
+
+- [googlesky/CVE-2026-135720](https://github.com/googlesky/CVE-2026-135720)
+
+### CVE-2026-135722 (2026-11-24)
+
+<code>FFmpeg before 9.1 contains a heap-based buffer overflow vulnerability in peak_init_writer() and wav_write_packet() in libavformat/wavenc.c that allows attackers to corrupt heap memory by supplying audio with zero channels. Attackers can provide a crafted PCM stream declaring no channels for WAV output with peak envelope enabled, causing out-of-bounds writes past peak_maxpos and peak_maxneg arrays, crashes, and potential code execution.
+</code>
+
+- [googlesky/CVE-2026-135722](https://github.com/googlesky/CVE-2026-135722)
+
+### CVE-2026-135723 (2026-11-24)
+
+<code>FFmpeg before 9.1 contains a double free vulnerability in the fill_marker() function of libavformat/imf_cpl.c that frees a Marker label without clearing the pointer when default scope allocation fails. Attackers can supply a crafted Composition Playlist with a Marker Label lacking a scope attribute, triggering a second free in imf_marker_free() under memory pressure and causing memory corruption or a crash.
+</code>
+
+- [googlesky/CVE-2026-135723](https://github.com/googlesky/CVE-2026-135723)
+
+### CVE-2026-135725 (2026-11-24)
+
+<code>FFmpeg before 9.1 contains a stack-based buffer overflow vulnerability in ff_rtmp_packet_write() in libavformat/rtmppkt.c that allows malicious RTMP servers to overflow a 16-byte header buffer. Attackers can send a Set Chunk Size packet on a high channel id with an extended timestamp, which handle_chunk_size() echoes back, corrupting the publishing client's stack.
+</code>
+
+- [googlesky/CVE-2026-135725](https://github.com/googlesky/CVE-2026-135725)
+
+### CVE-2026-135729 (2026-11-24)
+
+<code>FFmpeg before 9.1 contains an XML injection vulnerability in write_adaptation_set() in libavformat/webmdashenc.c that writes stream language metadata unescaped into the AdaptationSet lang attribute. Attackers can supply crafted WebM files whose track language contains quotes or angle brackets to inject attributes or elements, controlling segment URLs and representations in generated MPD manifests.
+</code>
+
+- [googlesky/CVE-2026-135729](https://github.com/googlesky/CVE-2026-135729)
+
+### CVE-2026-135731 (2026-11-24)
+
+<code>FFmpeg before 9.1 contains an integer overflow in send_picture() of libavformat/rtpenc_vc2hq.c that leaves the bit reader without a buffer, causing a NULL pointer dereference. Attackers can supply a Dirac/VC-2 stream with a picture data unit of about 256 MiB or more to crash applications packetizing it to RTP.
+</code>
+
+- [googlesky/CVE-2026-135731](https://github.com/googlesky/CVE-2026-135731)
+
+### CVE-2026-135734 (2026-11-24)
+
+<code>FFmpeg before 9.1 contains a heap out-of-bounds write vulnerability in the deflicker filter that lets attackers corrupt heap memory via unclamped high bit depth luma samples. Attackers can supply crafted video whose luma values exceed the nominal depth, making calc_avgy16() increment counters past the histogram allocation, causing crashes or possibly code execution.
+</code>
+
+- [googlesky/CVE-2026-135734](https://github.com/googlesky/CVE-2026-135734)
+
+### CVE-2026-135736 (2026-11-24)
+
+<code>FFmpeg 4.4 before 9.1 contains a heap out-of-bounds read and write vulnerability in libavfilter/vf_deband.c that allows attackers to corrupt heap memory by sending a runtime coupling command. Attackers can send a 'deband coupling 1' command via sendcmd or an unauthenticated zmq filter, making chroma planes be processed at luma dimensions to crash the process or potentially execute code.
+</code>
+
+- [googlesky/CVE-2026-135736](https://github.com/googlesky/CVE-2026-135736)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -39022,6 +39248,13 @@
 </code>
 
 - [ArdNoir/CVE-2025-64516-POC](https://github.com/ArdNoir/CVE-2025-64516-POC)
+
+### CVE-2025-64669 (2025-12-11)
+
+<code>Improper access control in Windows Admin Center allows an authorized attacker to elevate privileges locally.
+</code>
+
+- [nschulz883/wac-threat-detection-CVE-2025-64669](https://github.com/nschulz883/wac-threat-detection-CVE-2025-64669)
 
 ### CVE-2025-64702 (2025-12-11)
 
@@ -67422,7 +67655,6 @@
 - [walnutsecurity/cve-2022-36804](https://github.com/walnutsecurity/cve-2022-36804)
 - [imbas007/Atlassian-Bitbucket-CVE-2022-36804](https://github.com/imbas007/Atlassian-Bitbucket-CVE-2022-36804)
 - [asepsaepdin/CVE-2022-36804](https://github.com/asepsaepdin/CVE-2022-36804)
-- [DanielHallbro/CVE-2022-36804-Bitbucket-RCE-Analysis](https://github.com/DanielHallbro/CVE-2022-36804-Bitbucket-RCE-Analysis)
 - [JohanGabrielson/bitbucket-test](https://github.com/JohanGabrielson/bitbucket-test)
 - [Junohea/cve-2022-36804](https://github.com/Junohea/cve-2022-36804)
 
@@ -76569,6 +76801,7 @@
 - [for-toolathlon/log4shell-audit-2](https://github.com/for-toolathlon/log4shell-audit-2)
 - [johnyProDev/CVE-2021-44228-Writeup](https://github.com/johnyProDev/CVE-2021-44228-Writeup)
 - [Pathfind1357/Log4Shell-CVE-2021-44228](https://github.com/Pathfind1357/Log4Shell-CVE-2021-44228)
+- [Scorpion691/Log4Shell-LDAP-Lab](https://github.com/Scorpion691/Log4Shell-LDAP-Lab)
 
 ### CVE-2021-44255 (2022-01-31)
 
