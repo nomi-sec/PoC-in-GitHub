@@ -3025,6 +3025,13 @@
 - [Polosss/By-Poloss..-..CVE-2026-10580](https://github.com/Polosss/By-Poloss..-..CVE-2026-10580)
 - [0xgh057r3c0n/CVE-2026-10580](https://github.com/0xgh057r3c0n/CVE-2026-10580)
 
+### CVE-2026-10701 (2026-06-02)
+
+<code>Incorrect boundary conditions in the Graphics: Text component. This vulnerability was fixed in Firefox 151.0.3.
+</code>
+
+- [ashrafzaryouh/CVE-2026-10701](https://github.com/ashrafzaryouh/CVE-2026-10701)
+
 ### CVE-2026-10702 (2026-06-02)
 
 <code>JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 151.0.3.
@@ -11323,6 +11330,9 @@
 
 - [romain-deperne/CVE-2026-41490](https://github.com/romain-deperne/CVE-2026-41490)
 
+### CVE-2026-41528
+- [oliv4s/CVE-2026-41528](https://github.com/oliv4s/CVE-2026-41528)
+
 ### CVE-2026-41551 (2026-05-12)
 
 <code>A vulnerability has been identified in ROS# (All versions &lt; V2.2.2). Affected versions contain a path traversal vulnerability because user input is not properly sanitized.\r\nThis could allow a remote attacker to access arbitrary files on the device.
@@ -18424,6 +18434,7 @@
 </code>
 
 - [z3r0s6/gogs-private-fork-disclosure-CVE-2026-77918](https://github.com/z3r0s6/gogs-private-fork-disclosure-CVE-2026-77918)
+- [googlesky/CVE-2026-77918](https://github.com/googlesky/CVE-2026-77918)
 
 ### CVE-2026-77991 (2026-08-27)
 
@@ -20159,6 +20170,13 @@
 
 - [BiiTts/CVE-2026-91940-crawl4ai-Arbitrary-File-Write](https://github.com/BiiTts/CVE-2026-91940-crawl4ai-Arbitrary-File-Write)
 
+### CVE-2026-92018 (2026-09-15)
+
+<code>Sandbox escape in the DOM: Core &amp; HTML component. This vulnerability was fixed in Firefox 156, Firefox ESR 115.41, Firefox ESR 140.16, Firefox ESR 153.3, Thunderbird 156, Thunderbird 140.16, and Thunderbird 153.3.
+</code>
+
+- [0x4lter/firefox-sandbox-escape-cve-2026-92018](https://github.com/0x4lter/firefox-sandbox-escape-cve-2026-92018)
+
 ### CVE-2026-92080 (2026-11-06)
 
 <code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in TÜBİTAK BİLGEM Software Technologies Research Institute pardus-boot-repair allows Path Traversal.\n\nThis issue affects pardus-boot-repair: from 1.0.8 before 1.1.0.
@@ -21111,6 +21129,7 @@
 - [okk30721-cell/cve-2026-98260-ksu](https://github.com/okk30721-cell/cve-2026-98260-ksu)
 - [pjnssb/CVE-2026-98260-GhostKey](https://github.com/pjnssb/CVE-2026-98260-GhostKey)
 - [minhmc2007/CVE-2026-98260-My-A55](https://github.com/minhmc2007/CVE-2026-98260-My-A55)
+- [k-o-n-t-o-r/sm-s936b-cve-2026-98260](https://github.com/k-o-n-t-o-r/sm-s936b-cve-2026-98260)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -23597,6 +23616,7 @@
 - [JAvito-GC/php2shell-check](https://github.com/JAvito-GC/php2shell-check)
 - [Cybersecly-LLC/php2shell-lab](https://github.com/Cybersecly-LLC/php2shell-lab)
 - [0xnoobsec/PHP2SHELL](https://github.com/0xnoobsec/PHP2SHELL)
+- [nullbyter19/php2shell](https://github.com/nullbyter19/php2shell)
 - [PVY-Smit/php2shell-defender](https://github.com/PVY-Smit/php2shell-defender)
 - [Prxnxv26/php2shell-cve-analysis](https://github.com/Prxnxv26/php2shell-cve-analysis)
 - [genaforvena/php2sec](https://github.com/genaforvena/php2sec)
@@ -25592,6 +25612,7 @@
 - [VABISMO/nginx2root](https://github.com/VABISMO/nginx2root)
 - [Agampreet-Singh/Nginx2root-lab](https://github.com/Agampreet-Singh/Nginx2root-lab)
 - [cveForge/CVE-2026-123007](https://github.com/cveForge/CVE-2026-123007)
+- [CaptainAI-Labs/CVE-2026-123007](https://github.com/CaptainAI-Labs/CVE-2026-123007)
 
 ### CVE-2026-123010 (2026-11-05)
 
@@ -25685,6 +25706,13 @@
 </code>
 
 - [jasonbernier/CVE-2026-123210](https://github.com/jasonbernier/CVE-2026-123210)
+
+### CVE-2026-123214 (2026-11-24)
+
+<code>Joomla! Core - [20261111] - Core - Missing authentication in web installer in Joomla 4.0.0-5.4.10, 6.0.0-6.2.0 - The web installer remains usable on an installed site as long as the installation folder exists, allowing unauthenticated users to rewrite the configuration.
+</code>
+
+- [b3tar00t/joomsday](https://github.com/b3tar00t/joomsday)
 
 ### CVE-2026-123218 (2026-11-07)
 
@@ -25930,6 +25958,9 @@
 - [dinosn/upload2shell-poc-generator](https://github.com/dinosn/upload2shell-poc-generator)
 - [ashrafzaryouh/CVE-2026-125396](https://github.com/ashrafzaryouh/CVE-2026-125396)
 - [evenomn/CVE-2026-125396-upload2shell](https://github.com/evenomn/CVE-2026-125396-upload2shell)
+- [DeathShotXD/Upload2Shell](https://github.com/DeathShotXD/Upload2Shell)
+- [vatansingh677-a11y/Upload2shell](https://github.com/vatansingh677-a11y/Upload2shell)
+- [Luscious8/Upload2shell](https://github.com/Luscious8/Upload2shell)
 
 ### CVE-2026-125399 (2026-11-09)
 
@@ -26796,6 +26827,9 @@
 - [abraxas/cve-2026-131914-idunno-anticsrf-deserialization](https://github.com/abraxas/cve-2026-131914-idunno-anticsrf-deserialization)
 - [Hakchandara/CVE-2026-131914](https://github.com/Hakchandara/CVE-2026-131914)
 
+### CVE-2026-131924
+- [kristupasp/CVE-2026-131924](https://github.com/kristupasp/CVE-2026-131924)
+
 ### CVE-2026-132079 (2026-11-18)
 
 <code>Insufficient Session Expiration vulnerability in the Apache Iggy Go SDK. The TCP client method CreatePersonalAccessToken wrote the 32-bit expiry into the upper half of the 64-bit expiry field that the server reads. The server read a nonzero expiry as 2^32 times the requested value. A token created through the Go TCP client therefore stayed valid about four billion times longer than the caller asked for.\n\nThis issue affects Apache Iggy Go SDK: from 0.5.0 before 0.10.0.\n\nUsers are recommended to upgrade to version 0.10.0, which fixes the issue. Tokens that an earlier version created keep their long expiry on the server. Delete those tokens and create new ones.
@@ -26813,6 +26847,7 @@
 ### CVE-2026-132165
 - [abraxas/drupal-install-takeover](https://github.com/abraxas/drupal-install-takeover)
 - [foxcornlab/drupal-installer-scanner](https://github.com/foxcornlab/drupal-installer-scanner)
+- [malloryai/cve-2026-132165-drupal-installer-check](https://github.com/malloryai/cve-2026-132165-drupal-installer-check)
 
 ### CVE-2026-132252 (2026-11-18)
 
@@ -27146,6 +27181,13 @@
 </code>
 
 - [cveForge/CVE-2026-134250](https://github.com/cveForge/CVE-2026-134250)
+
+### CVE-2026-134262 (2026-11-21)
+
+<code>Admidio 5.0.0 before 5.0.18 contains a stored cross-site scripting vulnerability that allows role administrators to inject JavaScript by placing quote-breaking payloads in role names rendered unencoded in the data-message attribute in modules/profile/roles_functions.php. Attackers can execute scripts when a full administrator views an affected profile page, stealing the CSRF token to assign themselves the Administrator role.
+</code>
+
+- [ShoIsMyName/CVE-2026-134262](https://github.com/ShoIsMyName/CVE-2026-134262)
 
 ### CVE-2026-134287 (2026-11-21)
 
@@ -27582,12 +27624,26 @@
 
 - [cveForge/CVE-2026-135157](https://github.com/cveForge/CVE-2026-135157)
 
+### CVE-2026-135158 (2026-11-23)
+
+<code>Windmill 1.607.0 before 1.819.0 contains an authorization bypass vulnerability that allows workspace members to resume or cancel suspended flows in other workspaces by abusing the jobs_u/resume and jobs_u/cancel endpoints. Attackers can mint a resume signature for an arbitrary job id via their own workspace's job_signature endpoint to approve or cancel another workspace's suspended flow steps.
+</code>
+
+- [googlesky/CVE-2026-135158](https://github.com/googlesky/CVE-2026-135158)
+
 ### CVE-2026-135160 (2026-11-23)
 
 <code>Medplum server 5.1.4 before 5.1.42 contains an incorrect authorization vulnerability in the Binary $presigned-url operation that allows non-admin project members to overwrite other projects' Binary content. Attackers in a project linked to another project can request a signed upload URL with upload=true for a readable Binary and overwrite its stored content, since project ownership is never verified.
 </code>
 
 - [googlesky/CVE-2026-135160](https://github.com/googlesky/CVE-2026-135160)
+
+### CVE-2026-135164 (2026-11-23)
+
+<code>Formance Ledger 2.2.0-beta.3 before 2.4.18 contains an SQL injection vulnerability that allows remote API callers to execute SQL by supplying unvalidated account expand values. Attackers can inject comment-separated SQL through the expand query parameter or base64 pagination cursor to run queries with the ledger database role's privileges.
+</code>
+
+- [googlesky/CVE-2026-135164](https://github.com/googlesky/CVE-2026-135164)
 
 ### CVE-2026-135166 (2026-11-23)
 
@@ -27814,6 +27870,20 @@
 
 - [googlesky/CVE-2026-135260](https://github.com/googlesky/CVE-2026-135260)
 
+### CVE-2026-135290 (2026-11-23)
+
+<code>OpenCV through 4.14.0 and 5.0.0 through 5.1.0 contains an infinite loop vulnerability in YAMLParser::parse that allows attackers to cause denial of service via crafted YAML dash lines. Attackers can supply YAML files with a non-separator '-' line after the first document, opened through cv::FileStorage, to hang the thread at full CPU.
+</code>
+
+- [googlesky/CVE-2026-135290](https://github.com/googlesky/CVE-2026-135290)
+
+### CVE-2026-135294 (2026-11-23)
+
+<code>LibreCAD through 2.2.1.6 contains a heap-based out-of-bounds write vulnerability in RS_FilterDXF1::readFileInBuffer() caused by unvalidated truncation of the 64-bit file size. Attackers can persuade users to open a crafted DXF file sized 0xFFFFFFF8 bytes, writing a NUL byte before an 8-byte buffer to corrupt heap metadata and crash the application.
+</code>
+
+- [googlesky/CVE-2026-135294](https://github.com/googlesky/CVE-2026-135294)
+
 ### CVE-2026-135298 (2026-11-23)
 
 <code>Convoy before 26.6.0 contains an insecure direct object reference vulnerability in /portal-api single-resource handlers that allows portal link token holders to access other tenants' resources by ID. Attackers with another tenant's resource IDs in the same project can read endpoint signing secrets and webhook payloads, rotate secrets, pause or delete endpoints, and force event re-delivery.
@@ -27827,6 +27897,7 @@
 </code>
 
 - [cveForge/CVE-2026-135300](https://github.com/cveForge/CVE-2026-135300)
+- [googlesky/CVE-2026-135300](https://github.com/googlesky/CVE-2026-135300)
 
 ### CVE-2026-135436 (2026-11-23)
 
@@ -27834,6 +27905,13 @@
 </code>
 
 - [cveForge/CVE-2026-135436](https://github.com/cveForge/CVE-2026-135436)
+
+### CVE-2026-135440 (2026-11-23)
+
+<code>MediaInfoLib before 26.10 contains a heap use-after-free vulnerability in the Vorbis setup header parser that allows attackers to trigger reads of freed memory via crafted files. Attackers can supply a crafted Ogg/Vorbis file that makes File_Vorbis::Setup() return early without BS_End_LE(), leaving a stale bitstream pointer that causes crashes or heap disclosure.
+</code>
+
+- [googlesky/CVE-2026-135440](https://github.com/googlesky/CVE-2026-135440)
 
 ### CVE-2026-135472 (2026-11-23)
 
@@ -28185,6 +28263,13 @@
 </code>
 
 - [googlesky/CVE-2026-135745](https://github.com/googlesky/CVE-2026-135745)
+
+### CVE-2026-135746 (2026-11-24)
+
+<code>An off-by-one error in String::WriteOneByte() in Samsung lwnode can cause a one-byte out-of-bounds write when copying a UTF-16 string
+</code>
+
+- [googlesky/CVE-2026-135746](https://github.com/googlesky/CVE-2026-135746)
 
 ### CVE-2026-135817 (2026-11-24)
 
@@ -33312,7 +33397,6 @@
 - [mrowkoob/CVE-2025-26466-msf](https://github.com/mrowkoob/CVE-2025-26466-msf)
 - [tpirate/CVE-2025-26466](https://github.com/tpirate/CVE-2025-26466)
 - [acidboonrs/cve-2025-26466-openssh-poc](https://github.com/acidboonrs/cve-2025-26466-openssh-poc)
-- [K0n9-log/cve-2025-26466-canvas](https://github.com/K0n9-log/cve-2025-26466-canvas)
 
 ### CVE-2025-26529 (2025-02-24)
 
@@ -54695,7 +54779,7 @@
 - [jpsbern/CVE-2023-4863](https://github.com/jpsbern/CVE-2023-4863)
 - [577Industries/aegisgraph](https://github.com/577Industries/aegisgraph)
 - [pixelotes/lab-cve-2023-4863](https://github.com/pixelotes/lab-cve-2023-4863)
-- [Shcesama/cve-2023-4863-analysis](https://github.com/Shcesama/cve-2023-4863-analysis)
+- [Bthn-celik/cve-2023-4863-analysis](https://github.com/Bthn-celik/cve-2023-4863-analysis)
 - [federiconbaez/cortex9-libwebp-huffman-table-sizing-model](https://github.com/federiconbaez/cortex9-libwebp-huffman-table-sizing-model)
 - [joekrump/expo-image-libwebp-repro](https://github.com/joekrump/expo-image-libwebp-repro)
 
@@ -74853,6 +74937,13 @@
 
 - [rjt-gupta/CVE-2021-33104](https://github.com/rjt-gupta/CVE-2021-33104)
 
+### CVE-2021-33200 (2021-05-27)
+
+<code>kernel/bpf/verifier.c in the Linux kernel through 5.12.7 enforces incorrect limits for pointer arithmetic operations, aka CID-bb01a1bba579. This can be abused to perform out-of-bounds reads and writes in kernel memory, leading to local privilege escalation to root. In particular, there is a corner case where the off reg causes a masking direction change, which then results in an incorrect final aux-&gt;alu_limit.
+</code>
+
+- [d4ytox/CVE-2021-33200](https://github.com/d4ytox/CVE-2021-33200)
+
 ### CVE-2021-33393 (2021-06-09)
 
 <code>lfs/backup in IPFire 2.25-core155 does not ensure that /var/ipfire/backup/bin/backup.pl is owned by the root account. It might be owned by an unprivileged account, which could potentially be used to install a Trojan horse backup.pl script that is later executed by root. Similar problems with the ownership/permissions of other files may be present as well.
@@ -90922,6 +91013,7 @@
 - [bidaoui4905/CVE-2018-10933](https://github.com/bidaoui4905/CVE-2018-10933)
 - [opsifiz/CVE-2018-10933](https://github.com/opsifiz/CVE-2018-10933)
 - [K3ysTr0K3R/CVE-2018-10933](https://github.com/K3ysTr0K3R/CVE-2018-10933)
+- [nullbyter19/cve-2018-10933](https://github.com/nullbyter19/cve-2018-10933)
 - [CyberCTF/vulhub-libssh-cve-2018-10933](https://github.com/CyberCTF/vulhub-libssh-cve-2018-10933)
 - [AVA-CEO/CVE-2018-10933-Assessment-](https://github.com/AVA-CEO/CVE-2018-10933-Assessment-)
 
@@ -95348,6 +95440,13 @@
 </code>
 
 - [LeoonZHANG/CVE-2016-0199](https://github.com/LeoonZHANG/CVE-2016-0199)
+
+### CVE-2016-0287 (2016-07-08)
+
+<code>IBM i Access 7.1 on Windows allows local users to discover registry passwords via unspecified vectors.
+</code>
+
+- [nullbyter19/cve-2016-0287](https://github.com/nullbyter19/cve-2016-0287)
 
 ### CVE-2016-0451 (2016-01-21)
 
