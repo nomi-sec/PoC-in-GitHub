@@ -124,13 +124,6 @@
 - [grayxploit/CVE-2026-0257](https://github.com/grayxploit/CVE-2026-0257)
 - [Ez4rd1x1/CVE-2026-0257](https://github.com/Ez4rd1x1/CVE-2026-0257)
 
-### CVE-2026-0264 (2026-05-13)
-
-<code>A buffer overflow vulnerability in the DNS proxy and DNS Server features of Palo Alto Networks PAN-OS® Software allows an unauthenticated attacker with network access to cause a denial of service (DoS) condition (all PAN-OS platforms except Cloud NGFW and Prisma Access) or potentially execute arbitrary code by sending specially crafted network traffic (PA-Series hardware only).\n\n\n\n\nPanorama, Cloud NGFW, and Prisma® Access are not impacted by this vulnerability.
-</code>
-
-- [iam-s21-caece/PoC-CVE-2026-0264](https://github.com/iam-s21-caece/PoC-CVE-2026-0264)
-
 ### CVE-2026-0265 (2026-05-13)
 
 <code>An authentication bypass vulnerability in Palo Alto Networks PAN-OS® software enables an unauthenticated attacker with network access to bypass authentication controls when Cloud Authentication Service (CAS) is enabled.\n\n\n\nThe risk is higher if CAS is enabled on the management interface and lower when any other login interfaces are used.\n\nThe risk of this issue is greatly reduced if you secure access to the management web interface by restricting access to only trusted internal IP addresses according to our recommended  best practice deployment guidelines https://live.paloaltonetworks.com/t5/community-blogs/tips-amp-tricks-how-to-secure-the-management-access-of-your-palo/ba-p/464431 .\n\nThis issue is applicable to PAN-OS software on PA-Series and VM-Series firewalls and on Panorama (virtual and M-Series).\n\nCloud NGFW and Prisma Access® are not impacted by this vulnerability.
@@ -4230,6 +4223,7 @@
 </code>
 
 - [Oscar-Collado/langflow-CVE-2026-17633-PoC](https://github.com/Oscar-Collado/langflow-CVE-2026-17633-PoC)
+- [joaovicdev/EXPLOIT-CVE-2026-17633](https://github.com/joaovicdev/EXPLOIT-CVE-2026-17633)
 
 ### CVE-2026-18080 (2026-08-26)
 
@@ -12202,6 +12196,7 @@
 - [xiaquwan1001/P40pro-ghostlock](https://github.com/xiaquwan1001/P40pro-ghostlock)
 - [xiaobright/ghostlock-hlk-al00](https://github.com/xiaobright/ghostlock-hlk-al00)
 - [color88/CVE-2022-22706-CVE-2026-43499-y70t](https://github.com/color88/CVE-2022-22706-CVE-2026-43499-y70t)
+- [Github-Oriented-Programmer/GhostLock-CVE-2026-43499-ZTE_A2322_4.19](https://github.com/Github-Oriented-Programmer/GhostLock-CVE-2026-43499-ZTE_A2322_4.19)
 
 ### CVE-2026-43500 (2026-05-11)
 
@@ -14426,6 +14421,7 @@
 </code>
 
 - [sgkdev/bad_garbage](https://github.com/sgkdev/bad_garbage)
+- [Aoki-Shinshi/CVE-2026-53361](https://github.com/Aoki-Shinshi/CVE-2026-53361)
 
 ### CVE-2026-53362 (2026-07-04)
 
@@ -21370,6 +21366,13 @@
 
 - [woshigenm/CVE-2026-98937](https://github.com/woshigenm/CVE-2026-98937)
 
+### CVE-2026-99233 (2026-11-02)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\ntracing/histograms: Verify event_call identity when updating synth_event refcount\n\nIn event_hist_trigger_parse() and hist_unreg_all(), the histogram\nregistration and unregistration paths look up find_synth_event() using\ntrace_event_name(file-&gt;event_call) and adjust se-&gt;ref if a match is\nfound.\n\nBecause find_synth_event() only compares the event basename, registering\nor removing a histogram on a non-synthetic trace event whose basename\nmatches a synthetic event erroneously modifies the synthetic event's\nreference count.  If a histogram is registered on the non-synthetic\nevent before the synthetic event is created and removed afterwards,\nse-&gt;ref is decremented without a matching increment, allowing the\nsynthetic event to be freed while an active histogram action still holds\na pointer to it.\n\nIntroduce find_synth_event_call() to verify that &amp;se-&gt;call matches\nfile-&gt;event_call before adjusting se-&gt;ref.
+</code>
+
+- [Aoki-Shinshi/CVE-2026-99233](https://github.com/Aoki-Shinshi/CVE-2026-99233)
+
 ### CVE-2026-99273 (2026-11-07)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: reserve space for the UTF-16 terminator in stream info\n\nsmb_strtoUTF16() always writes a terminating zero UTF-16 unit after the\nconverted characters, but get_file_stream_info() budgets only\nsizeof(struct smb2_file_stream_info) + streamlen * 2 for a stream entry\nand sizeof(struct smb2_file_stream_info) + 7 * 2 for the trailing\n&quot;::$DATA&quot; entry. When an entry exactly fills the 448-byte small response\nbuffer, the terminator is written two bytes past the allocation.\n\nReserve one extra UTF-16 unit in both budget checks. The terminator is\nnot part of the wire format, so the reported lengths are unchanged.
@@ -23794,6 +23797,7 @@
 - [cveForge/CVE-2026-109618](https://github.com/cveForge/CVE-2026-109618)
 - [toasted-time-traveller/PHP2Shell_Analysis_Paper](https://github.com/toasted-time-traveller/PHP2Shell_Analysis_Paper)
 - [carlbeckel/php2shell-check](https://github.com/carlbeckel/php2shell-check)
+- [odin1024/jianwei-pinpoint](https://github.com/odin1024/jianwei-pinpoint)
 
 ### CVE-2026-109619 (2026-10-21)
 
@@ -24154,6 +24158,7 @@
 - [proxy0x/CVE-2026-111497](https://github.com/proxy0x/CVE-2026-111497)
 - [cveForge/CVE-2026-111497](https://github.com/cveForge/CVE-2026-111497)
 - [OrnisLab/2shell-advisories](https://github.com/OrnisLab/2shell-advisories)
+- [eduxcode/node2shell-lab](https://github.com/eduxcode/node2shell-lab)
 
 ### CVE-2026-111559 (2026-11-16)
 
@@ -26239,6 +26244,13 @@
 </code>
 
 - [im0xfay/CVE-2026-124990](https://github.com/im0xfay/CVE-2026-124990)
+
+### CVE-2026-125180 (2026-11-09)
+
+<code>FFmpeg 8.1 through 9.0.2 contains a memory exhaustion vulnerability in the libavcodec/exif.c parser that allows attackers to amplify allocations by pointing many IFD entries at overlapping payloads. Attackers can embed a small crafted EXIF block in TIFF, JPEG, PNG or WebP images to trigger quadratic memory allocation, causing denial of service in decoding applications.
+</code>
+
+- [XChen446/cve-2026-125180-demo](https://github.com/XChen446/cve-2026-125180-demo)
 
 ### CVE-2026-125283 (2026-11-18)
 
@@ -29062,6 +29074,13 @@
 </code>
 
 - [googlesky/CVE-2026-135746](https://github.com/googlesky/CVE-2026-135746)
+
+### CVE-2026-135797 (2026-11-24)
+
+<code>A vulnerability was identified in Volans NGFW Next-Generation Firewall r5.1. Impacted is the function exec of the file sslvpn/sslvpn_client.php of the component SSLVPN Client. Such manipulation of the argument img leads to os command injection. The attack can be executed remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [D3crypT0r/CVE-2026-135797](https://github.com/D3crypT0r/CVE-2026-135797)
 
 ### CVE-2026-135817 (2026-11-24)
 
@@ -35008,6 +35027,7 @@
 - [alinaclark672377250/CVE-2025-29927-POC](https://github.com/alinaclark672377250/CVE-2025-29927-POC)
 - [Seif-Abdelhamid/nextjs-middleware-bypass-lab](https://github.com/Seif-Abdelhamid/nextjs-middleware-bypass-lab)
 - [zColdWater/vibeshield-cli](https://github.com/zColdWater/vibeshield-cli)
+- [gabrielchv/seguranca-informacao-cve-2025-29927](https://github.com/gabrielchv/seguranca-informacao-cve-2025-29927)
 
 ### CVE-2025-29943 (2026-01-16)
 
@@ -54594,6 +54614,7 @@
 
 - [twwd/CVE-2023-0264](https://github.com/twwd/CVE-2023-0264)
 - [ElianGonzi00/pocKeycloakCVE-2023-0264](https://github.com/ElianGonzi00/pocKeycloakCVE-2023-0264)
+- [iam-s21-caece/PoC-CVE-2023-0264](https://github.com/iam-s21-caece/PoC-CVE-2023-0264)
 
 ### CVE-2023-0266 (2023-01-30)
 
@@ -55356,6 +55377,7 @@
 - [Chocapikk/CVE-2023-3519](https://github.com/Chocapikk/CVE-2023-3519)
 - [JonaNeidhart/CVE-2023-3519-BackdoorCheck](https://github.com/JonaNeidhart/CVE-2023-3519-BackdoorCheck)
 - [dhammerg/CVE-2023-3519](https://github.com/dhammerg/CVE-2023-3519)
+- [googlesky/CVE-2023-3519](https://github.com/googlesky/CVE-2023-3519)
 
 ### CVE-2023-3609 (2023-07-21)
 
@@ -57272,6 +57294,7 @@
 - [Phaedrik/CVE-2023-23397-POC](https://github.com/Phaedrik/CVE-2023-23397-POC)
 - [praneethnaidu1910-cmd/cve-2023-23397-purple-team](https://github.com/praneethnaidu1910-cmd/cve-2023-23397-purple-team)
 - [ZHOUCC-CPU/cve-2023-23397-detection-lab](https://github.com/ZHOUCC-CPU/cve-2023-23397-detection-lab)
+- [googlesky/CVE-2023-23397](https://github.com/googlesky/CVE-2023-23397)
 
 ### CVE-2023-23488 (2023-01-20)
 
@@ -59801,6 +59824,7 @@
 - [k9yk5zkn76-op/-CVE-2023-34362-Analysis](https://github.com/k9yk5zkn76-op/-CVE-2023-34362-Analysis)
 - [Conviee/Assignment-](https://github.com/Conviee/Assignment-)
 - [khaled970r/moveit-breach-analysis-sqli](https://github.com/khaled970r/moveit-breach-analysis-sqli)
+- [googlesky/CVE-2023-34362](https://github.com/googlesky/CVE-2023-34362)
 
 ### CVE-2023-34468 (2023-06-12)
 
@@ -61011,6 +61035,7 @@
 - [Dnyaneshwari-123/DFIR-Capstone-Investigations](https://github.com/Dnyaneshwari-123/DFIR-Capstone-Investigations)
 - [KrioSocial/defender-bypass-winrar-cve-2023-38831](https://github.com/KrioSocial/defender-bypass-winrar-cve-2023-38831)
 - [Chanakya-GH/re-portfolio](https://github.com/Chanakya-GH/re-portfolio)
+- [googlesky/CVE-2023-38831](https://github.com/googlesky/CVE-2023-38831)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -64480,6 +64505,7 @@
 - [t1ckprivate/CVE-2022-0847-Dirty-Pipe](https://github.com/t1ckprivate/CVE-2022-0847-Dirty-Pipe)
 - [vudangducminh/CVE-2022-0847](https://github.com/vudangducminh/CVE-2022-0847)
 - [mlucianoeze/linux-backport-CVE-2022-0847](https://github.com/mlucianoeze/linux-backport-CVE-2022-0847)
+- [googlesky/CVE-2022-0847](https://github.com/googlesky/CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -64788,6 +64814,7 @@
 - [gotr00t0day/CVE-2022-1388](https://github.com/gotr00t0day/CVE-2022-1388)
 - [impost0r/CVE-2022-1388](https://github.com/impost0r/CVE-2022-1388)
 - [r0otk3r/CVE-2022-1388](https://github.com/r0otk3r/CVE-2022-1388)
+- [googlesky/CVE-2022-1388](https://github.com/googlesky/CVE-2022-1388)
 
 ### CVE-2022-1421 (2022-06-06)
 
@@ -66221,6 +66248,7 @@
 - [amit-pathak009/CVE-2022-22954-PoC](https://github.com/amit-pathak009/CVE-2022-22954-PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
 - [nieldk/VMware-CVE-2022-22954](https://github.com/nieldk/VMware-CVE-2022-22954)
+- [googlesky/CVE-2022-22954](https://github.com/googlesky/CVE-2022-22954)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -66362,6 +66390,7 @@
 - [PrinceH4k/Spring4Shell-POC](https://github.com/PrinceH4k/Spring4Shell-POC)
 - [CyberCTF/vulhub-spring-cve-2022-22965](https://github.com/CyberCTF/vulhub-spring-cve-2022-22965)
 - [beulahhh-coder/-CVE-2022-22965-Spring4Shell](https://github.com/beulahhh-coder/-CVE-2022-22965-Spring4Shell)
+- [googlesky/CVE-2022-22965](https://github.com/googlesky/CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -68260,6 +68289,7 @@
 - [SynixCyberCrimeMy/CVE-2022-29464](https://github.com/SynixCyberCrimeMy/CVE-2022-29464)
 - [cc3305/CVE-2022-29464](https://github.com/cc3305/CVE-2022-29464)
 - [c1ph3rbyt3/CVE-2022-29464](https://github.com/c1ph3rbyt3/CVE-2022-29464)
+- [googlesky/CVE-2022-29464](https://github.com/googlesky/CVE-2022-29464)
 
 ### CVE-2022-29465 (2022-08-05)
 
@@ -68560,6 +68590,7 @@
 - [zavikhttak/follina-msdt-threat-investigation](https://github.com/zavikhttak/follina-msdt-threat-investigation)
 - [dayobamiii/OMOTOSO-AYOBAMI](https://github.com/dayobamiii/OMOTOSO-AYOBAMI)
 - [jamespelumi79-ctrl/CVE-2022-30190-Follina-Research](https://github.com/jamespelumi79-ctrl/CVE-2022-30190-Follina-Research)
+- [googlesky/CVE-2022-30190](https://github.com/googlesky/CVE-2022-30190)
 
 ### CVE-2022-30203 (2022-07-12)
 
@@ -72739,6 +72770,7 @@
 - [AmroYasserH/DFIR-CVE-2021-3156-Incident-Response](https://github.com/AmroYasserH/DFIR-CVE-2021-3156-Incident-Response)
 - [HanaBouikni/AppArmor-Simulation-CVE-2021-3156](https://github.com/HanaBouikni/AppArmor-Simulation-CVE-2021-3156)
 - [HanaBouikni/Volatility3-Forensics-Incident-Response](https://github.com/HanaBouikni/Volatility3-Forensics-Incident-Response)
+- [googlesky/CVE-2021-3156](https://github.com/googlesky/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -73256,6 +73288,7 @@
 - [axisops/CVE-2021-4034](https://github.com/axisops/CVE-2021-4034)
 - [eshkoreee/CVE-2021-4034](https://github.com/eshkoreee/CVE-2021-4034)
 - [vukma25/CVE-2021-4034](https://github.com/vukma25/CVE-2021-4034)
+- [googlesky/CVE-2021-4034](https://github.com/googlesky/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -73806,6 +73839,7 @@
 - [haidv35/CVE-2021-21985](https://github.com/haidv35/CVE-2021-21985)
 - [aristosMiliaressis/CVE-2021-21985](https://github.com/aristosMiliaressis/CVE-2021-21985)
 - [sknux/CVE-2021-21985_PoC](https://github.com/sknux/CVE-2021-21985_PoC)
+- [googlesky/CVE-2021-21985](https://github.com/googlesky/CVE-2021-21985)
 
 ### CVE-2021-21994 (2021-07-13)
 
@@ -74102,6 +74136,7 @@
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
 - [amitlttwo/CVE-2021-22986](https://github.com/amitlttwo/CVE-2021-22986)
 - [huydung26/CVE-2021-22986](https://github.com/huydung26/CVE-2021-22986)
+- [googlesky/CVE-2021-22986](https://github.com/googlesky/CVE-2021-22986)
 
 ### CVE-2021-23017 (2021-06-01)
 
@@ -74454,6 +74489,13 @@
 </code>
 
 - [Immersive-Labs-Sec/CVE-2021-25281](https://github.com/Immersive-Labs-Sec/CVE-2021-25281)
+
+### CVE-2021-25329 (2021-03-01)
+
+<code>The fix for CVE-2020-9484 was incomplete. When using Apache Tomcat 10.0.0-M1 to 10.0.0, 9.0.0.M1 to 9.0.41, 8.5.0 to 8.5.61 or 7.0.0. to 7.0.107 with a configuration edge case that was highly unlikely to be used, the Tomcat instance was still vulnerable to CVE-2020-9494. Note that both the previously published prerequisites for CVE-2020-9484 and the previously published mitigations for CVE-2020-9484 also apply to this issue.
+</code>
+
+- [googlesky/CVE-2021-25329](https://github.com/googlesky/CVE-2021-25329)
 
 ### CVE-2021-25337 (2021-03-04)
 
@@ -74810,6 +74852,7 @@
 - [probablysecure/Triage-CVE-2021-26855-ProxyLogon---Microsoft-Exchange-](https://github.com/probablysecure/Triage-CVE-2021-26855-ProxyLogon---Microsoft-Exchange-)
 - [layee27/JIMOH-ABDULLAHI](https://github.com/layee27/JIMOH-ABDULLAHI)
 - [ifeoluwaayodeji/CVE-2021-26855-Analysis](https://github.com/ifeoluwaayodeji/CVE-2021-26855-Analysis)
+- [googlesky/CVE-2021-26855](https://github.com/googlesky/CVE-2021-26855)
 
 ### CVE-2021-26856
 - [avi8892/CVE-2021-26856](https://github.com/avi8892/CVE-2021-26856)
@@ -75956,13 +75999,6 @@
 
 - [benschlueter/CVE-2021-33624](https://github.com/benschlueter/CVE-2021-33624)
 
-### CVE-2021-33644 (2022-08-09)
-
-<code>An attacker who submits a crafted tar file with size in header struct being 0 may be able to trigger an calling of malloc(0) for a variable gnu_longname, causing an out-of-bounds read.
-</code>
-
-- [nilondal/libtar-CVE-2021-33644-followup](https://github.com/nilondal/libtar-CVE-2021-33644-followup)
-
 ### CVE-2021-33690 (2021-09-15)
 
 <code>Server-Side Request Forgery (SSRF) vulnerability has been detected in the SAP NetWeaver Development Infrastructure Component Build Service versions - 7.11, 7.20, 7.30, 7.31, 7.40, 7.50The SAP NetWeaver Development Infrastructure Component Build Service allows a threat actor who has access to the server to perform proxy attacks on server by sending crafted queries. Due to this, the threat actor could completely compromise sensitive data residing on the Server and impact its availability.Note: The impact of this vulnerability depends on whether SAP NetWeaver Development Infrastructure (NWDI) runs on the intranet or internet. The CVSS score reflects the impact considering the worst-case scenario that it runs on the internet.
@@ -76137,6 +76173,7 @@
 - [joertx07/printnightmare-detection-lab](https://github.com/joertx07/printnightmare-detection-lab)
 - [s1kh/Vulnerability-Analysis-and-Mitigation](https://github.com/s1kh/Vulnerability-Analysis-and-Mitigation)
 - [honouroladosu7-cpu/CVE-2021-34527_PrintNightmare.md](https://github.com/honouroladosu7-cpu/CVE-2021-34527_PrintNightmare.md)
+- [googlesky/CVE-2021-34527](https://github.com/googlesky/CVE-2021-34527)
 
 ### CVE-2021-34558 (2021-07-15)
 
@@ -78991,6 +79028,7 @@
 - [one-zyd/Log4j2-CVE-2021-44228](https://github.com/one-zyd/Log4j2-CVE-2021-44228)
 - [YujiSoftware/log4shell-poc](https://github.com/YujiSoftware/log4shell-poc)
 - [johnyProDev/CVE-2021-44228-Analysis-Detection-Modelling](https://github.com/johnyProDev/CVE-2021-44228-Analysis-Detection-Modelling)
+- [googlesky/CVE-2021-44228](https://github.com/googlesky/CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -79173,6 +79211,7 @@
 - [CaptanMoss/Log4Shell-Sandbox-Signature](https://github.com/CaptanMoss/Log4Shell-Sandbox-Signature)
 - [shaily29-eng/CyberSecurity_CVE-2021-45046](https://github.com/shaily29-eng/CyberSecurity_CVE-2021-45046)
 - [ifconfig-me/Log4Shell-Payloads](https://github.com/ifconfig-me/Log4Shell-Payloads)
+- [googlesky/CVE-2021-45046](https://github.com/googlesky/CVE-2021-45046)
 
 ### CVE-2021-45067 (2022-01-14)
 
@@ -79193,6 +79232,7 @@
 - [dileepdkumar/https-github.com-pravin-pp-log4j2-CVE-2021-45105-1](https://github.com/dileepdkumar/https-github.com-pravin-pp-log4j2-CVE-2021-45105-1)
 - [name/log4j-remediation](https://github.com/name/log4j-remediation)
 - [aajuvonen/CVE-2021-45105-demo](https://github.com/aajuvonen/CVE-2021-45105-demo)
+- [googlesky/CVE-2021-45105](https://github.com/googlesky/CVE-2021-45105)
 
 ### CVE-2021-45232 (2021-12-27)
 
@@ -80015,6 +80055,7 @@
 - [okanulkr/CurveBall-CVE-2020-0601-PoC](https://github.com/okanulkr/CurveBall-CVE-2020-0601-PoC)
 - [tyj956413282/curveball-plus](https://github.com/tyj956413282/curveball-plus)
 - [JoelBts/CVE-2020-0601_PoC](https://github.com/JoelBts/CVE-2020-0601_PoC)
+- [googlesky/CVE-2020-0601](https://github.com/googlesky/CVE-2020-0601)
 
 ### CVE-2020-0609 (2020-01-14)
 
@@ -80118,6 +80159,7 @@
 - [W01fh4cker/CVE-2020-0688-GUI](https://github.com/W01fh4cker/CVE-2020-0688-GUI)
 - [tvdat20004/CVE-2020-0688](https://github.com/tvdat20004/CVE-2020-0688)
 - [iamwajd/Cyber-Attack-Analysis](https://github.com/iamwajd/Cyber-Attack-Analysis)
+- [googlesky/CVE-2020-0688](https://github.com/googlesky/CVE-2020-0688)
 
 ### CVE-2020-0728 (2020-02-11)
 
@@ -80468,6 +80510,7 @@
 - [ckq7703/CVE-2020-1472](https://github.com/ckq7703/CVE-2020-1472)
 - [Divineokoduwa/CVE-2020-1472-Zerologon-Vulnerability-Assessment](https://github.com/Divineokoduwa/CVE-2020-1472-Zerologon-Vulnerability-Assessment)
 - [mynga17/zerologon-security-lab](https://github.com/mynga17/zerologon-security-lab)
+- [googlesky/CVE-2020-1472](https://github.com/googlesky/CVE-2020-1472)
 
 ### CVE-2020-1493 (2020-08-17)
 
@@ -80496,6 +80539,13 @@
 </code>
 
 - [jpts/cve-2020-1764-poc](https://github.com/jpts/cve-2020-1764-poc)
+
+### CVE-2020-1935 (2020-02-24)
+
+<code>In Apache Tomcat 9.0.0.M1 to 9.0.30, 8.5.0 to 8.5.50 and 7.0.0 to 7.0.99 the HTTP header parsing code used an approach to end-of-line parsing that allowed some invalid HTTP headers to be parsed as valid. This led to a possibility of HTTP Request Smuggling if Tomcat was located behind a reverse proxy that incorrectly handled the invalid Transfer-Encoding header in a particular manner. Such a reverse proxy is considered unlikely.
+</code>
+
+- [googlesky/CVE-2020-1935](https://github.com/googlesky/CVE-2020-1935)
 
 ### CVE-2020-1937 (2020-02-24)
 
@@ -80674,6 +80724,7 @@
 - [Y4er/CVE-2020-2555](https://github.com/Y4er/CVE-2020-2555)
 - [Maskhe/cve-2020-2555](https://github.com/Maskhe/cve-2020-2555)
 - [Qynklee/POC_CVE-2020-2555](https://github.com/Qynklee/POC_CVE-2020-2555)
+- [googlesky/CVE-2020-2555](https://github.com/googlesky/CVE-2020-2555)
 
 ### CVE-2020-2655 (2020-01-15)
 
@@ -81087,6 +81138,7 @@
 - [ashrafzaryouh/CVE-2020-5902](https://github.com/ashrafzaryouh/CVE-2020-5902)
 - [DevRafaelprogrammer/F5-BIG-IP](https://github.com/DevRafaelprogrammer/F5-BIG-IP)
 - [yora1928/cve-2020-5902](https://github.com/yora1928/cve-2020-5902)
+- [googlesky/CVE-2020-5902](https://github.com/googlesky/CVE-2020-5902)
 
 ### CVE-2020-5903 (2020-07-01)
 
@@ -81965,6 +82017,7 @@
 - [savsch/PoC_CVE-2020-9484](https://github.com/savsch/PoC_CVE-2020-9484)
 - [CrieHeiki/Apache-Tomcat-CVE-2020-9484](https://github.com/CrieHeiki/Apache-Tomcat-CVE-2020-9484)
 - [googlesky/CVE-2020-9484](https://github.com/googlesky/CVE-2020-9484)
+- [googlesky/CVE-2021-25329](https://github.com/googlesky/CVE-2021-25329)
 
 ### CVE-2020-9488 (2020-04-27)
 
@@ -82602,6 +82655,7 @@
 
 - [HYWZ36/HYWZ36-CVE-2020-11989-code](https://github.com/HYWZ36/HYWZ36-CVE-2020-11989-code)
 - [cuijiung/shiro-CVE-2020-11989](https://github.com/cuijiung/shiro-CVE-2020-11989)
+- [googlesky/CVE-2020-11989](https://github.com/googlesky/CVE-2020-11989)
 
 ### CVE-2020-11990 (2020-12-01)
 
@@ -85396,6 +85450,13 @@
 - [freeFV/ApacheSolrRCE](https://github.com/freeFV/ApacheSolrRCE)
 - [googlesky/CVE-2019-0193](https://github.com/googlesky/CVE-2019-0193)
 
+### CVE-2019-0199 (2019-04-10)
+
+<code>The HTTP/2 implementation in Apache Tomcat 9.0.0.M1 to 9.0.14 and 8.5.0 to 8.5.37 accepted streams with excessive numbers of SETTINGS frames and also permitted clients to keep streams open without reading/writing request/response data. By keeping streams open for requests that utilised the Servlet API's blocking I/O, clients were able to cause server-side threads to block eventually leading to thread exhaustion and a DoS.
+</code>
+
+- [googlesky/CVE-2019-0199](https://github.com/googlesky/CVE-2019-0199)
+
 ### CVE-2019-0205 (2019-10-28)
 
 <code>In Apache Thrift all versions up to and including 0.12.0, a server or client may run into an endless loop when feed with specific input data. Because the issue had already been partially fixed in version 0.11.0, depending on the installed version it affects only certain language bindings.
@@ -85477,6 +85538,7 @@
 - [blackjuker2/CVE-2019-0232](https://github.com/blackjuker2/CVE-2019-0232)
 - [luongchivi/Preproduce-CVE-2019-0232](https://github.com/luongchivi/Preproduce-CVE-2019-0232)
 - [yuzuki-ayanami/CVE-2019-0232](https://github.com/yuzuki-ayanami/CVE-2019-0232)
+- [googlesky/CVE-2019-0232](https://github.com/googlesky/CVE-2019-0232)
 
 ### CVE-2019-0539 (2019-01-08)
 
@@ -85656,6 +85718,7 @@
 - [Nweks/Bluekeep-Metasploit-Lab-Project](https://github.com/Nweks/Bluekeep-Metasploit-Lab-Project)
 - [Mohaimenul370/Perform-an-RDP-exploitation-using-the-BlueKeep-vulnerability-CVE-2019-0708-on-Windows](https://github.com/Mohaimenul370/Perform-an-RDP-exploitation-using-the-BlueKeep-vulnerability-CVE-2019-0708-on-Windows)
 - [SebasPV27/Explotacion-RCE-Pentesting-BlueKeep-CVE-2019-0708-](https://github.com/SebasPV27/Explotacion-RCE-Pentesting-BlueKeep-CVE-2019-0708-)
+- [googlesky/CVE-2019-0708](https://github.com/googlesky/CVE-2019-0708)
 
 ### CVE-2019-0709 (2019-06-12)
 
@@ -85763,6 +85826,7 @@
 - [fox-it/cve-2019-1040-scanner](https://github.com/fox-it/cve-2019-1040-scanner)
 - [QAX-A-Team/dcpwn](https://github.com/QAX-A-Team/dcpwn)
 - [JonyFilc/PrintSpoofer-ReflectiveDLL](https://github.com/JonyFilc/PrintSpoofer-ReflectiveDLL)
+- [googlesky/CVE-2019-1040](https://github.com/googlesky/CVE-2019-1040)
 
 ### CVE-2019-1064 (2019-06-12)
 
@@ -86134,6 +86198,7 @@
 - [ludy-dev/Oracle-WLS-Weblogic-RCE](https://github.com/ludy-dev/Oracle-WLS-Weblogic-RCE)
 - [CalegariMindSec/Exploit-CVE-2019-2725](https://github.com/CalegariMindSec/Exploit-CVE-2019-2725)
 - [loursha/Oracle-Weblogic-Server-AsyncResponseService-Deserialization-Remote-Code-Execution-CVE-2019-2725](https://github.com/loursha/Oracle-Weblogic-Server-AsyncResponseService-Deserialization-Remote-Code-Execution-CVE-2019-2725)
+- [googlesky/CVE-2019-2725](https://github.com/googlesky/CVE-2019-2725)
 
 ### CVE-2019-2729 (2019-06-19)
 
@@ -88323,6 +88388,7 @@
 - [josemlwdf/CVE-2019-13272](https://github.com/josemlwdf/CVE-2019-13272)
 - [Chinmay1743/ptrace-vuln](https://github.com/Chinmay1743/ptrace-vuln)
 - [letsr00t/CVE-2019-13272](https://github.com/letsr00t/CVE-2019-13272)
+- [googlesky/CVE-2019-13272](https://github.com/googlesky/CVE-2019-13272)
 
 ### CVE-2019-13288 (2019-07-04)
 
@@ -89235,6 +89301,13 @@
 - [CyberCTF/vulhub-solr-cve-2019-17558](https://github.com/CyberCTF/vulhub-solr-cve-2019-17558)
 - [googlesky/CVE-2019-17558](https://github.com/googlesky/CVE-2019-17558)
 
+### CVE-2019-17563 (2019-12-23)
+
+<code>When using FORM authentication with Apache Tomcat 9.0.0.M1 to 9.0.29, 8.5.0 to 8.5.49 and 7.0.0 to 7.0.98 there was a narrow window where an attacker could perform a session fixation attack. The window was considered too narrow for an exploit to be practical but, erring on the side of caution, this issue has been treated as a security vulnerability.
+</code>
+
+- [googlesky/CVE-2019-17563](https://github.com/googlesky/CVE-2019-17563)
+
 ### CVE-2019-17564 (2020-04-01)
 
 <code>Unsafe deserialization occurs within a Dubbo application which has HTTP remoting enabled. An attacker may submit a POST request with a Java object in it to completely compromise a Provider instance of Apache Dubbo, if this instance enables HTTP. This issue affected Apache Dubbo 2.7.0 to 2.7.4, 2.6.0 to 2.6.7, and all 2.5.x versions.
@@ -89264,6 +89337,7 @@
 - [shadow-horse/CVE-2019-17571](https://github.com/shadow-horse/CVE-2019-17571)
 - [Al1ex/CVE-2019-17571](https://github.com/Al1ex/CVE-2019-17571)
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
+- [googlesky/CVE-2019-17571](https://github.com/googlesky/CVE-2019-17571)
 
 ### CVE-2019-17572 (2020-05-14)
 
@@ -89734,6 +89808,7 @@
 - [zerobytesecure/CVE-2019-19781](https://github.com/zerobytesecure/CVE-2019-19781)
 - [tpdlshdmlrkfmcla/CVE-2019-19781](https://github.com/tpdlshdmlrkfmcla/CVE-2019-19781)
 - [autocode07/cisagov__check-cve-2019-19781.4142e02b](https://github.com/autocode07/cisagov__check-cve-2019-19781.4142e02b)
+- [googlesky/CVE-2019-19781](https://github.com/googlesky/CVE-2019-19781)
 
 ### CVE-2019-19782 (2019-12-13)
 
@@ -90241,6 +90316,7 @@
 - [jas502n/cve-2018-1273](https://github.com/jas502n/cve-2018-1273)
 - [hdgokani/CVE-2018-1273](https://github.com/hdgokani/CVE-2018-1273)
 - [CyberCTF/vulhub-spring-cve-2018-1273](https://github.com/CyberCTF/vulhub-spring-cve-2018-1273)
+- [googlesky/CVE-2018-1273](https://github.com/googlesky/CVE-2018-1273)
 
 ### CVE-2018-1285 (2020-05-11)
 
@@ -90310,6 +90386,13 @@
 - [canumay/cve-2018-1335](https://github.com/canumay/cve-2018-1335)
 - [siramk/CVE-2018-1335](https://github.com/siramk/CVE-2018-1335)
 - [DigitalNinja00/CVE-2018-1335](https://github.com/DigitalNinja00/CVE-2018-1335)
+
+### CVE-2018-1336 (2018-08-02)
+
+<code>An improper handing of overflow in the UTF-8 decoder with supplementary characters can lead to an infinite loop in the decoder causing a Denial of Service. Versions Affected: Apache Tomcat 9.0.0.M9 to 9.0.7, 8.5.0 to 8.5.30, 8.0.0.RC1 to 8.0.51, and 7.0.28 to 7.0.86.
+</code>
+
+- [googlesky/CVE-2018-1336](https://github.com/googlesky/CVE-2018-1336)
 
 ### CVE-2018-1932 (2019-01-08)
 
@@ -92163,6 +92246,7 @@
 - [freshdemo/ApacheStruts-CVE-2018-11776](https://github.com/freshdemo/ApacheStruts-CVE-2018-11776)
 - [sonpt-afk/CVE-2018-11776-FIS](https://github.com/sonpt-afk/CVE-2018-11776-FIS)
 - [m4sk0ff/CVE-2018-11776](https://github.com/m4sk0ff/CVE-2018-11776)
+- [googlesky/CVE-2018-11776](https://github.com/googlesky/CVE-2018-11776)
 
 ### CVE-2018-11784 (2018-10-04)
 
@@ -93679,6 +93763,7 @@
 - [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
 - [smokeintheshell/CVE-2018-1000861](https://github.com/smokeintheshell/CVE-2018-1000861)
 - [CyberCTF/vulhub-jenkins-cve-2018-1000861](https://github.com/CyberCTF/vulhub-jenkins-cve-2018-1000861)
+- [googlesky/CVE-2018-1000861](https://github.com/googlesky/CVE-2018-1000861)
 
 ### CVE-2018-1002105 (2018-12-05)
 
@@ -93848,6 +93933,7 @@
 - [porcumarcooo/TryHackMe-Blue-MS17-010](https://github.com/porcumarcooo/TryHackMe-Blue-MS17-010)
 - [duycao2311/eternalblue-ms17010-study](https://github.com/duycao2311/eternalblue-ms17010-study)
 - [raisul06/WannaCry_Ransomware_Impact](https://github.com/raisul06/WannaCry_Ransomware_Impact)
+- [googlesky/CVE-2017-0144](https://github.com/googlesky/CVE-2017-0144)
 
 ### CVE-2017-0145 (2017-03-17)
 
@@ -94398,6 +94484,7 @@
 - [Piyush-Tiwatne/struts-patch-gap-auditor](https://github.com/Piyush-Tiwatne/struts-patch-gap-auditor)
 - [s1kh/Vulnerability-Analysis-and-Mitigation](https://github.com/s1kh/Vulnerability-Analysis-and-Mitigation)
 - [Ethel087/CVE-2017-5638-Apache-Struts-Analysis](https://github.com/Ethel087/CVE-2017-5638-Apache-Struts-Analysis)
+- [googlesky/CVE-2017-5638](https://github.com/googlesky/CVE-2017-5638)
 
 ### CVE-2017-5645 (2017-04-17)
 
@@ -94778,6 +94865,7 @@
 - [youngmin0104/CVE-2017-7529-](https://github.com/youngmin0104/CVE-2017-7529-)
 - [portfolio10/nginx](https://github.com/portfolio10/nginx)
 - [CyberCTF/vulhub-nginx-cve-2017-7529](https://github.com/CyberCTF/vulhub-nginx-cve-2017-7529)
+- [Mipa97/CVE-2017-7529](https://github.com/Mipa97/CVE-2017-7529)
 
 ### CVE-2017-7648 (2017-04-10)
 
@@ -95247,6 +95335,7 @@
 - [Fl5xia/CVE-2017-9805](https://github.com/Fl5xia/CVE-2017-9805)
 - [7s26simon/CVE-2017-9805-S2-052](https://github.com/7s26simon/CVE-2017-9805-S2-052)
 - [Experience-rookie/struts-s2-052-deserialization-rce-lab](https://github.com/Experience-rookie/struts-s2-052-deserialization-rce-lab)
+- [googlesky/CVE-2017-9805](https://github.com/googlesky/CVE-2017-9805)
 
 ### CVE-2017-9822 (2017-07-20)
 
@@ -95525,6 +95614,7 @@
 - [SyedaQuratulain098/factura-malware-analysis-lab](https://github.com/SyedaQuratulain098/factura-malware-analysis-lab)
 - [danielakin417/CVE-2017-11882-analysis](https://github.com/danielakin417/CVE-2017-11882-analysis)
 - [wunmi-commits/phishing-analysis-thm](https://github.com/wunmi-commits/phishing-analysis-thm)
+- [googlesky/CVE-2017-11882](https://github.com/googlesky/CVE-2017-11882)
 
 ### CVE-2017-12149 (2017-10-04)
 
@@ -95601,6 +95691,7 @@
 - [K3ysTr0K3R/CVE-2017-12615](https://github.com/K3ysTr0K3R/CVE-2017-12615)
 - [CyberCTF/vulhub-tomcat-cve-2017-12615](https://github.com/CyberCTF/vulhub-tomcat-cve-2017-12615)
 - [nouhaila2030/apache-tomcat-security-audit](https://github.com/nouhaila2030/apache-tomcat-security-audit)
+- [googlesky/CVE-2017-12615](https://github.com/googlesky/CVE-2017-12615)
 
 ### CVE-2017-12617 (2017-10-03)
 
@@ -95617,6 +95708,7 @@
 - [scirusvulgaris/CVE-2017-12617](https://github.com/scirusvulgaris/CVE-2017-12617)
 - [yZee00/CVE-2017-12617](https://github.com/yZee00/CVE-2017-12617)
 - [DevaDJ/CVE-2017-12617](https://github.com/DevaDJ/CVE-2017-12617)
+- [googlesky/CVE-2017-12617](https://github.com/googlesky/CVE-2017-12617)
 
 ### CVE-2017-12624 (2017-11-14)
 
@@ -95632,6 +95724,7 @@
 
 - [captain-woof/cve-2017-12629](https://github.com/captain-woof/cve-2017-12629)
 - [CyberCTF/vulhub-solr-cve-2017-12629-rce](https://github.com/CyberCTF/vulhub-solr-cve-2017-12629-rce)
+- [googlesky/CVE-2017-12629](https://github.com/googlesky/CVE-2017-12629)
 
 ### CVE-2017-12635 (2017-11-14)
 
@@ -96980,6 +97073,7 @@
 - [xk-mt/CVE-2016-4437](https://github.com/xk-mt/CVE-2016-4437)
 - [35789-gh/cve-2016-4437](https://github.com/35789-gh/cve-2016-4437)
 - [CyberCTF/vulhub-shiro-cve-2016-4437](https://github.com/CyberCTF/vulhub-shiro-cve-2016-4437)
+- [googlesky/CVE-2016-4437](https://github.com/googlesky/CVE-2016-4437)
 
 ### CVE-2016-4438 (2016-07-04)
 
@@ -97164,6 +97258,7 @@
 - [bL8nCO/Dirty-cow](https://github.com/bL8nCO/Dirty-cow)
 - [federiconbaez/cortex9-dirtycow-gup-cow-state-model](https://github.com/federiconbaez/cortex9-dirtycow-gup-cow-state-model)
 - [mlucianoeze/linux-backport-CVE-2016-5195](https://github.com/mlucianoeze/linux-backport-CVE-2016-5195)
+- [googlesky/CVE-2016-5195](https://github.com/googlesky/CVE-2016-5195)
 
 ### CVE-2016-5345 (2018-01-23)
 
@@ -97352,6 +97447,13 @@
 
 - [shoucheng3/asf__cxf_CVE-2016-6812_3-0-11](https://github.com/shoucheng3/asf__cxf_CVE-2016-6812_3-0-11)
 
+### CVE-2016-6816 (2017-03-20)
+
+<code>The code in Apache Tomcat 9.0.0.M1 to 9.0.0.M11, 8.5.0 to 8.5.6, 8.0.0.RC1 to 8.0.38, 7.0.0 to 7.0.72, and 6.0.0 to 6.0.47 that parsed the HTTP request line permitted invalid characters. This could be exploited, in conjunction with a proxy that also permitted the invalid characters but with a different interpretation, to inject data into the HTTP response. By manipulating the HTTP response the attacker could poison a web-cache, perform an XSS attack and/or obtain sensitive information from requests other then their own.
+</code>
+
+- [googlesky/CVE-2016-6816](https://github.com/googlesky/CVE-2016-6816)
+
 ### CVE-2016-6914 (2017-12-27)
 
 <code>Ubiquiti UniFi Video before 3.8.0 for Windows uses weak permissions for the installation directory, which allows local users to gain SYSTEM privileges via a Trojan horse taskkill.exe file.
@@ -97474,6 +97576,13 @@
 - [agkunkle/chocobo](https://github.com/agkunkle/chocobo)
 - [martinmullins/CVE-2016-8655_Android](https://github.com/martinmullins/CVE-2016-8655_Android)
 - [WhatsWrongAndWhy/CVE-2016-8655](https://github.com/WhatsWrongAndWhy/CVE-2016-8655)
+
+### CVE-2016-8735 (2017-04-06)
+
+<code>Remote code execution is possible with Apache Tomcat before 6.0.48, 7.x before 7.0.73, 8.x before 8.0.39, 8.5.x before 8.5.7, and 9.x before 9.0.0.M12 if JmxRemoteLifecycleListener is used and an attacker can reach JMX ports. The issue exists because this listener wasn't updated for consistency with the CVE-2016-3427 Oracle patch that affected credential types.
+</code>
+
+- [googlesky/CVE-2016-8735](https://github.com/googlesky/CVE-2016-8735)
 
 ### CVE-2016-8740 (2016-12-05)
 
@@ -97638,6 +97747,7 @@
 - [sealldeveloper/CVE-2016-10033-PoC](https://github.com/sealldeveloper/CVE-2016-10033-PoC)
 - [alexander47777/CVE-2016-10033](https://github.com/alexander47777/CVE-2016-10033)
 - [blue-chocolates/CVE-2016-10033](https://github.com/blue-chocolates/CVE-2016-10033)
+- [googlesky/CVE-2016-10033](https://github.com/googlesky/CVE-2016-10033)
 
 ### CVE-2016-10034 (2016-12-30)
 
@@ -98428,6 +98538,7 @@
 - [AndersonSingh/serialization-vulnerability-scanner](https://github.com/AndersonSingh/serialization-vulnerability-scanner)
 - [zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln)
 - [nex1less/CVE-2015-4852](https://github.com/nex1less/CVE-2015-4852)
+- [googlesky/CVE-2015-4852](https://github.com/googlesky/CVE-2015-4852)
 
 ### CVE-2015-4870 (2015-10-21)
 
@@ -99032,6 +99143,7 @@
 - [federiconbaez/cortex9-heartbleed-heartbeat-bounds-model](https://github.com/federiconbaez/cortex9-heartbleed-heartbeat-bounds-model)
 - [Bri2327/vulnerables](https://github.com/Bri2327/vulnerables)
 - [gigirahamaa/heartbleed-project-](https://github.com/gigirahamaa/heartbleed-project-)
+- [googlesky/CVE-2014-0160](https://github.com/googlesky/CVE-2014-0160)
 
 ### CVE-2014-0166 (2014-04-09)
 
