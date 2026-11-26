@@ -1900,6 +1900,13 @@
 
 - [Xmyronn/CVE-2026-6201-IDOR](https://github.com/Xmyronn/CVE-2026-6201-IDOR)
 
+### CVE-2026-6224 (2026-04-13)
+
+<code>A security flaw has been discovered in nocobase plugin-workflow-javascript up to 2.0.23. This issue affects the function createSafeConsole of the file packages/plugins/@nocobase/plugin-workflow-javascript/src/server/Vm.js. Performing a manipulation results in sandbox issue. The attack can be initiated remotely. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.
+</code>
+
+- [Yxuan18/nocobase-cve-2026-6224](https://github.com/Yxuan18/nocobase-cve-2026-6224)
+
 ### CVE-2026-6227 (2026-04-14)
 
 <code>The BackWPup plugin for WordPress is vulnerable to Local File Inclusion via the `block_name` parameter of the `/wp-json/backwpup/v1/getblock` REST endpoint in all versions up to, and including, 5.6.6 due to a non-recursive `str_replace()` sanitization of path traversal sequences. This makes it possible for authenticated attackers, with Administrator-level access and above, to include arbitrary PHP files on the server via crafted traversal sequences (e.g., `....//`), which can be leveraged to read sensitive files such as `wp-config.php` or achieve remote code execution in certain configurations. Administrators have the ability to grant individual users permission to handle backups, which may then allow lower-level users to exploit this vulnerability.
@@ -6433,6 +6440,13 @@
 </code>
 
 - [offseckit/CVE-2026-24207](https://github.com/offseckit/CVE-2026-24207)
+
+### CVE-2026-24239 (2026-09-22)
+
+<code>NVIDIA NeMo Speech for all platforms contains a vulnerability where malicious data created by an attacker could cause remote code execution. A successful exploit of this vulnerability might lead to code execution, information disclosure, and data tampering.
+</code>
+
+- [alert-k/checkpoint-deser-rules](https://github.com/alert-k/checkpoint-deser-rules)
 
 ### CVE-2026-24291 (2026-03-10)
 
@@ -18199,6 +18213,7 @@
 
 - [YonLiud/CVE-2026-76904](https://github.com/YonLiud/CVE-2026-76904)
 - [bickZero93/CVE-2026-76904](https://github.com/bickZero93/CVE-2026-76904)
+- [himfatihoner/CVE-2026-76904](https://github.com/himfatihoner/CVE-2026-76904)
 
 ### CVE-2026-76954 (2026-11-12)
 
@@ -18885,6 +18900,27 @@
 </code>
 
 - [abraxas/CVE-2026-81294](https://github.com/abraxas/CVE-2026-81294)
+
+### CVE-2026-81416 (2026-11-25)
+
+<code>Nmap before 7.992 contains an infinite loop vulnerability in the process_write function of the NSE tn3270.lua library, whose write loop does not advance when it processes a malformed Repeat to Address (RA) order. A malicious TN3270 server on a scanned host can embed a single 6-byte malformed RA order in an ordinary screen-write data stream after a normal negotiation, causing a permanent 100% CPU hang of the Nmap process when tn3270-screen.nse runs, which the script-timeout option does not interrupt.
+</code>
+
+- [googlesky/CVE-2026-81416](https://github.com/googlesky/CVE-2026-81416)
+
+### CVE-2026-81417 (2026-11-25)
+
+<code>Nmap before 7.992 contains an infinite loop vulnerability in the dispatcher of the NSE tftp.lua library, which removes completed coroutines but not ones that ended in an error, leaving a zero-yield spin. A malicious TFTP exchange reached by snmp-ios-config.nse after an SNMP write sequence can leave a dead coroutine that freezes the entire Nmap invocation, before port scanning begins for any target in the run; the hang is prevented when the script-timeout option is set.
+</code>
+
+- [googlesky/CVE-2026-81417](https://github.com/googlesky/CVE-2026-81417)
+
+### CVE-2026-81418 (2026-11-25)
+
+<code>Nmap before 7.992 contains an uncontrolled resource consumption vulnerability in the TLV.AUTH parser of the NSE eigrp.lua library, whose length arithmetic cancels out the running read position. An attacker on the same layer 2 segment can send a single crafted EIGRP Update of roughly 36 bytes over unauthenticated multicast, causing unbounded table growth that exhausts the memory of the Nmap process when broadcast-eigrp-discovery.nse is running.
+</code>
+
+- [googlesky/CVE-2026-81418](https://github.com/googlesky/CVE-2026-81418)
 
 ### CVE-2026-81419 (2026-11-25)
 
@@ -23333,7 +23369,6 @@
 - [ali-security/php-5.6.40-sp1-build](https://github.com/ali-security/php-5.6.40-sp1-build)
 - [Officerwasu/php2shell](https://github.com/Officerwasu/php2shell)
 - [bahartanir/php2shell](https://github.com/bahartanir/php2shell)
-- [CarrollUniversityCS/patch-watch](https://github.com/CarrollUniversityCS/patch-watch)
 - [itzen300/php2shell_RCE](https://github.com/itzen300/php2shell_RCE)
 - [wasdthedebugger/php2shell](https://github.com/wasdthedebugger/php2shell)
 - [cx-jacob-rand/php2shell-cx](https://github.com/cx-jacob-rand/php2shell-cx)
@@ -25775,6 +25810,7 @@
 - [ghackdeveloper-dotcom/CVE-2026-123158-sshhole](https://github.com/ghackdeveloper-dotcom/CVE-2026-123158-sshhole)
 - [K3ysTr0K3R/CVE-2026-123158](https://github.com/K3ysTr0K3R/CVE-2026-123158)
 - [asvorg/CVE-2026-123158-SSHole-poc](https://github.com/asvorg/CVE-2026-123158-SSHole-poc)
+- [iotsec-in/sshole-cve-2026-123158](https://github.com/iotsec-in/sshole-cve-2026-123158)
 
 ### CVE-2026-123210 (2026-11-24)
 
@@ -26230,6 +26266,34 @@
 - [bimajunestifa/phpAfterShell](https://github.com/bimajunestifa/phpAfterShell)
 - [cybervidhi-192/phpAfterShell-CVE-2026-126714](https://github.com/cybervidhi-192/phpAfterShell-CVE-2026-126714)
 
+### CVE-2026-126725 (2026-11-26)
+
+<code>Incorrect Authorization vulnerability in Drupal GraphQL Core Schema allows Forceful Browsing. This issue affects GraphQL Core Schema versions: from 0.0.0 to 1.0.29.
+</code>
+
+- [googlesky/CVE-2026-126725](https://github.com/googlesky/CVE-2026-126725)
+
+### CVE-2026-126744 (2026-11-26)
+
+<code>Improper Neutralization of Input During Web Page Generation (&quot;Cross-site Scripting&quot;) vulnerability in Drupal Layout Builder iFrame Modal allows Cross-Site Scripting (XSS). This issue affects Layout Builder iFrame Modal versions: from 0.0.0 to 1.3.9.
+</code>
+
+- [googlesky/CVE-2026-126744](https://github.com/googlesky/CVE-2026-126744)
+
+### CVE-2026-126746 (2026-11-26)
+
+<code>Incorrect Authorization vulnerability in Drupal S3 File System CORS Upload allows Forceful Browsing. This issue affects S3 File System CORS Upload versions: from 0.0.0 to 1.4.0.
+</code>
+
+- [googlesky/CVE-2026-126746](https://github.com/googlesky/CVE-2026-126746)
+
+### CVE-2026-126747 (2026-11-26)
+
+<code>Missing Authorization vulnerability in Drupal File Resumable Upload allows Forceful Browsing. This issue affects File Resumable Upload versions: from 0.0.0 to 2.0.6.
+</code>
+
+- [googlesky/CVE-2026-126747](https://github.com/googlesky/CVE-2026-126747)
+
 ### CVE-2026-126837 (2026-11-12)
 
 <code>A validation flaw in the DNS SRV host discovery of the MongoDB Node.js driver may cause the driver to connect to a host outside the expected domain. For a mongodb+srv:// connection string, the driver checks each host name in the DNS SRV response against the domain of the connection string. The driver then builds the connection address from the original name, in which certain characters end the host name early. An unauthenticated party who can forge or change the DNS SRV response may redirect the connection to a host of their choice. TLS does not prevent this, because the driver verifies the server certificate against the redirected host name. This may result in unintended disclosure of application data and authentication credentials, and in altered query results. Applications that use mongodb:// connection strings are not affected.
@@ -26356,6 +26420,13 @@
 
 - [googlesky/CVE-2026-128046](https://github.com/googlesky/CVE-2026-128046)
 
+### CVE-2026-128064 (2026-11-19)
+
+<code>Mixed-case HTTPS and FTPS URLs can expose data in plaintext.\n\nThe HTTP and FTP stream wrappers recognise URL schemes case-insensitively, but enable TLS only when the scheme contains a lowercase &quot;s&quot; at a fixed position. A URL such as HTTPS:// or FTPS:// passed to file_get_contents(), fopen() or other stream functions, or received as an HTTP redirect target, is therefore handled over unencrypted HTTP or FTP. An attacker able to observe the network traffic can read data the application expected TLS to protect, including credentials, request bodies and transferred files.\n\nThis issue affects PHP versions before 8.2.36, 8.3.* before 8.3.37, 8.4.* before 8.4.28 and 8.5.* before 8.5.13.
+</code>
+
+- [wild0ni0n/CVE-2026-128064-PoC](https://github.com/wild0ni0n/CVE-2026-128064-PoC)
+
 ### CVE-2026-128134 (2026-11-13)
 
 <code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. Prior to 3.10.4, nltk.parse.dependencygraph.dot2img resolves the Graphviz dot executable through PATH but invokes the resulting absolute executable without routing through spawn_trusted, so resolve_trusted_executable ownership and writability validation and safe_env loader environment scrubbing do not run. A local low-privileged attacker who can write to a directory on a POSIX victim's PATH can plant or replace dot, and code executes as the victim when dot2img is called directly or DependencyGraph.repr_svg renders a graph. The current-working-directory-only bare-name vector is blocked and is not this vulnerability; this issue is the residual writable absolute PATH element bypass after CVE-2026-78680. This issue is fixed in version 3.10.4.
@@ -26408,6 +26479,9 @@
 
 ### CVE-2026-128442
 - [langz337/CVE-2026-128442](https://github.com/langz337/CVE-2026-128442)
+
+### CVE-2026-128616
+- [langz337/CVE-2026-128616](https://github.com/langz337/CVE-2026-128616)
 
 ### CVE-2026-128970 (2026-11-13)
 
@@ -27136,6 +27210,41 @@
 
 - [cveForge/CVE-2026-133185](https://github.com/cveForge/CVE-2026-133185)
 
+### CVE-2026-133203 (2026-11-26)
+
+<code>In Revive Adserver through 6.0.9, the public conversion-variable endpoint does not verify that a caller-supplied conversion belongs to the supplied tracker. An unauthenticated attacker can submit a unique variable for a different tracker's conversion, causing that conversion to be classified as a duplicate and excluded from conversion reports.
+</code>
+
+- [googlesky/CVE-2026-133203](https://github.com/googlesky/CVE-2026-133203)
+
+### CVE-2026-133205 (2026-11-26)
+
+<code>In Revive Adserver through 6.0.9, an authenticated manager can supply another agency's advertiser or website identifier as a report scope and obtain that entity's name in an XLS report header. Submitted scope identifiers are not checked against the manager's permitted selections. The demonstrated disclosure is limited to entity names.
+</code>
+
+- [googlesky/CVE-2026-133205](https://github.com/googlesky/CVE-2026-133205)
+
+### CVE-2026-133206 (2026-11-26)
+
+<code>In Revive Adserver through 6.0.9, an advertiser can put XML syntax in fields of its own video creative. Unescaped MediaFile attributes and CDATA terminators allow the advertiser to inject elements into VAST responses served for a publisher's zone. A crafted TrackingEvents block can suppress the ad server's video playback event records and redirect tracking requests to an attacker-controlled endpoint.
+</code>
+
+- [googlesky/CVE-2026-133206](https://github.com/googlesky/CVE-2026-133206)
+
+### CVE-2026-133207 (2026-11-26)
+
+<code>In Revive Adserver through 6.0.9, user-controlled entity names in XLS report exports can be interpreted as spreadsheet formulas. A user with permission to rename a zone can place a formula in the zone name, which is then included in another user's Conversion Tracking report. Opening the affected spreadsheet can evaluate the formula and alter displayed report contents.
+</code>
+
+- [googlesky/CVE-2026-133207](https://github.com/googlesky/CVE-2026-133207)
+
+### CVE-2026-133211 (2026-11-26)
+
+<code>In Revive Adserver through 6.0.9, the ct0 request parameter of the delivery scripts is only required to start with http:// or https:// and is prepended unescaped to banner click URLs. An unauthenticated attacker can craft a delivery URL that executes JavaScript in the delivery origin when a visitor follows it. An active banner using the raw {clickurl} macro is required.
+</code>
+
+- [googlesky/CVE-2026-133211](https://github.com/googlesky/CVE-2026-133211)
+
 ### CVE-2026-133234 (2026-11-19)
 
 <code>Stoatchat before 0.16.5 contains an unbounded JXL image decoding vulnerability in revolt_files decode_image that allows unauthenticated attackers to exhaust memory via the january /proxy endpoint. Attackers can request a small hosted JXL file declaring 12000x12000 pixels through /proxy to trigger huge allocations, OOM-killing january and denying proxy and embed service.
@@ -27170,6 +27279,7 @@
 </code>
 
 - [cveForge/CVE-2026-133323](https://github.com/cveForge/CVE-2026-133323)
+- [foxcornlab/mitel-micollab-scanner](https://github.com/foxcornlab/mitel-micollab-scanner)
 
 ### CVE-2026-133325 (2026-11-19)
 
@@ -27285,6 +27395,7 @@
 - [cveForge/CVE-2026-133968](https://github.com/cveForge/CVE-2026-133968)
 - [foxcornlab/monai-label-scanner](https://github.com/foxcornlab/monai-label-scanner)
 - [googlesky/CVE-2026-133968](https://github.com/googlesky/CVE-2026-133968)
+- [evenomn/CVE-2026-133968](https://github.com/evenomn/CVE-2026-133968)
 
 ### CVE-2026-133983 (2026-11-21)
 
@@ -28188,6 +28299,13 @@
 
 - [cveForge/CVE-2026-135689](https://github.com/cveForge/CVE-2026-135689)
 
+### CVE-2026-135690 (2026-11-24)
+
+<code>CivetWeb through 1.16 built with USE_HTTP2 and enable_http2 contains a heap out-of-bounds read vulnerability in hpack_decode() in src/http2.inl. Unauthenticated remote attackers can send a crafted HEADERS frame ending with a Huffman-coded string over TLS-negotiated HTTP/2 to read one byte past the heap frame buffer.
+</code>
+
+- [heilig-682/CVE-2026-135690](https://github.com/heilig-682/CVE-2026-135690)
+
 ### CVE-2026-135691 (2026-11-24)
 
 <code>Open5GS WebUI through 2.8.0 contains an incorrect authorization vulnerability in webui/server/routes/db.js that allows authenticated user-role accounts to modify the Account model. Attackers can send PATCH /api/db/Account/&lt;username&gt; setting roles to admin, overwrite password hashes, delete accounts, and read hashes to gain full administrative control.
@@ -28596,12 +28714,47 @@
 
 - [googlesky/CVE-2026-136412](https://github.com/googlesky/CVE-2026-136412)
 
+### CVE-2026-136950 (2026-11-26)
+
+<code>A security vulnerability has been detected in Ghostty up to 1.3.1. The impacted element is an unknown function of the component macOS OSC 8 Hyperlink Handler. Such manipulation leads to injection. The attack can be launched remotely. Upgrading to version 1.4.0 is sufficient to resolve this issue. The name of the patch is 54fe8e188552977249a084db687e75aee6bf12e9. Upgrading the affected component is advised.
+</code>
+
+- [googlesky/CVE-2026-136950](https://github.com/googlesky/CVE-2026-136950)
+
+### CVE-2026-137057 (2026-11-25)
+
+<code>llama.cpp from b7118 before b12604 contains an integer underflow vulnerability in llama_grammar_parser::parse_sequence() that allows unauthenticated remote attackers to cause denial of service by supplying GBNF repetitions with max lower than min. Attackers can send a grammar like {5,2} in the grammar field of a llama-server /completion request, wrapping n_opt to generate endless repetition rules that hang the process and exhaust memory.
+</code>
+
+- [googlesky/CVE-2026-137057](https://github.com/googlesky/CVE-2026-137057)
+
+### CVE-2026-137062 (2026-11-25)
+
+<code>BookStack before 26.09.3 contains an incorrect authorization vulnerability that allows authenticated Editors to permanently delete recycle bin content by converting chapters to books or books to shelves. Attackers can trigger TrashCan::destroyEntity() through the conversion actions to force-delete soft-deleted children, revisions and attachments, including content deleted by other users, preventing restoration.
+</code>
+
+- [googlesky/CVE-2026-137062](https://github.com/googlesky/CVE-2026-137062)
+
+### CVE-2026-137064 (2026-11-25)
+
+<code>Chatwoot before 4.20.0 contains a missing authentication vulnerability in the Bandwidth SMS webhook endpoint POST /webhooks/sms/:phone_number that allows unauthenticated attackers to submit forged SMS events. Attackers who know an inbox phone number can set the 'to' field to inject inbound messages with forged sender numbers or forge delivery status updates.
+</code>
+
+- [googlesky/CVE-2026-137064](https://github.com/googlesky/CVE-2026-137064)
+
 ### CVE-2026-137065 (2026-11-25)
 
 <code>Chatwoot before 4.20.0 contains an authorization bypass vulnerability that allows account administrators to attach integration hooks to other accounts' inboxes by supplying a foreign inbox_id. Attackers can create a Dialogflow hook referencing a victim inbox, leaving its new conversations stuck as pending awaiting a bot, and enumerate inbox IDs to disclose inbox names.
 </code>
 
 - [googlesky/CVE-2026-137065](https://github.com/googlesky/CVE-2026-137065)
+
+### CVE-2026-137070 (2026-11-25)
+
+<code>GEOS 3.13.0 before 3.15.1 contains an uncontrolled recursion vulnerability in RectangleContains::isContainedInBoundary that recurses indefinitely on curved geometries returned by getGeometryN. Attackers can supply crafted WKT or WKB CircularString, CompoundCurve, or CurvePolygon geometries tested via PreparedGeometry::contains or GEOSPreparedContains against a prepared rectangle to crash the process with a stack overflow.
+</code>
+
+- [googlesky/CVE-2026-137070](https://github.com/googlesky/CVE-2026-137070)
 
 ### CVE-2026-137077 (2026-11-25)
 
@@ -28610,12 +28763,47 @@
 
 - [googlesky/CVE-2026-137077](https://github.com/googlesky/CVE-2026-137077)
 
+### CVE-2026-137080 (2026-11-25)
+
+<code>libical 4.0.0 before 4.0.7 contains an infinite loop vulnerability in icalrecur_iterator_set_range() that allows attackers to cause denial of service by supplying crafted recurrence rules. Attackers can provide a calendar whose recurrence rule is iterated over a reverse range, causing the loop to never terminate and spin the calling thread at full CPU indefinitely.
+</code>
+
+- [googlesky/CVE-2026-137080](https://github.com/googlesky/CVE-2026-137080)
+
 ### CVE-2026-137084 (2026-11-25)
 
 <code>NodeBB 4.12.0 before 4.16.4 contains an execution after redirect vulnerability in the Intents.create controller that allows unauthenticated attackers to trigger ActivityPub note ingestion. Attackers can send GET requests to /intents/create with a remote note URI in the toPid parameter to inject federated content as local topics and posts.
 </code>
 
 - [googlesky/CVE-2026-137084](https://github.com/googlesky/CVE-2026-137084)
+
+### CVE-2026-137305 (2026-11-26)
+
+<code>Grav Form plugin before 9.2.4 contains a code injection vulnerability that allows page authors to write uploads into Twig template folders by setting an unchecked file field destination in Form::uploadFiles(). Attackers can upload .txt or .svg files containing Twig and have them rendered as trusted templates outside the sandbox, executing code as the web server user.
+</code>
+
+- [googlesky/CVE-2026-137305](https://github.com/googlesky/CVE-2026-137305)
+
+### CVE-2026-137306 (2026-11-26)
+
+<code>Grav Admin plugin before 1.10.65 contains a password reset poisoning vulnerability in LoginController::taskForgot() that ignores the Require Trusted Host setting when building reset links. Unauthenticated attackers who know an administrator's username can submit the forgot-password form with a forged Host header, capturing the reset token when clicked to take over accounts.
+</code>
+
+- [googlesky/CVE-2026-137306](https://github.com/googlesky/CVE-2026-137306)
+
+### CVE-2026-137308 (2026-11-26)
+
+<code>markdownify-mcp before 1.2.0 contains a server-side request forgery vulnerability that allows attackers to bypass URL validation by supplying DNS names, bracketed IPv6 literals, or IPv4-mapped IPv6 addresses. Attackers can influence URLs passed to webpage-to-markdown or git-repo-to-markdown through prompt injection to fetch loopback services, internal hosts, and cloud metadata endpoints.
+</code>
+
+- [googlesky/CVE-2026-137308](https://github.com/googlesky/CVE-2026-137308)
+
+### CVE-2026-137309 (2026-11-26)
+
+<code>Friendica through 2026.05-1 contains an incorrect authorization vulnerability in item_edit() that allows authenticated local users to edit other authors' posts by submitting their own stored copy's post_id. Attackers can POST to /item to delete attachments and overwrite the shared body, title and content warning, which is shown under the original author's name.
+</code>
+
+- [googlesky/CVE-2026-137309](https://github.com/googlesky/CVE-2026-137309)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -72979,6 +73167,7 @@
 - [IlanDudnik/CVE-2021-21551](https://github.com/IlanDudnik/CVE-2021-21551)
 - [luke0x90/CVE-2021-21551](https://github.com/luke0x90/CVE-2021-21551)
 - [bengabay1994/cve-2021-21551-PoC](https://github.com/bengabay1994/cve-2021-21551-PoC)
+- [00xAuto/dbutil-2-3-CVE-2021-21551-Documentation](https://github.com/00xAuto/dbutil-2-3-CVE-2021-21551-Documentation)
 
 ### CVE-2021-21707 (2021-11-29)
 
@@ -78305,6 +78494,7 @@
 - [Scorpion691/Log4Shell-LDAP-Lab](https://github.com/Scorpion691/Log4Shell-LDAP-Lab)
 - [one-zyd/Log4j2-CVE-2021-44228](https://github.com/one-zyd/Log4j2-CVE-2021-44228)
 - [YujiSoftware/log4shell-poc](https://github.com/YujiSoftware/log4shell-poc)
+- [johnyProDev/CVE-2021-44228-Analysis-Detection-Modelling](https://github.com/johnyProDev/CVE-2021-44228-Analysis-Detection-Modelling)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -89656,7 +89846,6 @@
 - [daybreak-kits/weblogicScanner](https://github.com/daybreak-kits/weblogicScanner)
 - [seethen/cve-2018-2628](https://github.com/seethen/cve-2018-2628)
 - [BabyTeam1024/cve-2018-2628](https://github.com/BabyTeam1024/cve-2018-2628)
-- [cscadoge/weblogic-cve-2018-2628](https://github.com/cscadoge/weblogic-cve-2018-2628)
 - [herantong/CVE-2018-2628](https://github.com/herantong/CVE-2018-2628)
 
 ### CVE-2018-2636 (2018-01-18)
