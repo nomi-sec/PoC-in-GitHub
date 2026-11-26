@@ -3498,6 +3498,13 @@
 
 - [HORKimhab/CVE-2025-64702-more](https://github.com/HORKimhab/CVE-2025-64702-more)
 
+### CVE-2026-12664 (2026-10-21)
+
+<code>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.2 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, could have allowed an authenticated user with a read_api-scoped token to retrieve a project's incoming email address and create work items, bypassing the token's restrictions, due to insufficient scope enforcement on a GraphQL field.
+</code>
+
+- [googlesky/CVE-2026-12664](https://github.com/googlesky/CVE-2026-12664)
+
 ### CVE-2026-12684 (2026-07-16)
 
 <code>The Customer Reviews for WooCommerce WordPress plugin before 5.113.0 does not perform authentication, capability, or nonce checks on one of its media upload AJAX actions when the review media attachment feature is enabled, allowing unauthenticated users to upload media files (bounded to an image and video allowlist) to the Media Library and create attachment posts, leading to media library pollution and disk space exhaustion.
@@ -3997,6 +4004,13 @@
 
 - [SneakyNachos/CVE-2026-15718-who-put-ptrs-in-my-wasm](https://github.com/SneakyNachos/CVE-2026-15718-who-put-ptrs-in-my-wasm)
 
+### CVE-2026-15723 (2026-10-21)
+
+<code>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 10.1 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, when OmniAuth SAML and LDAP auto-linking were both enabled, an authenticated user could have taken over an existing LDAP-backed account without any interaction from the targeted user, due to improper input sanitization in the LDAP email lookup path used during OmniAuth identity linking.
+</code>
+
+- [googlesky/CVE-2026-15723](https://github.com/googlesky/CVE-2026-15723)
+
 ### CVE-2026-15748 (2026-08-18)
 
 <code>The Forminator Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.56.1 via the handle_file_upload function. This is due to insufficient file type validation in handle_file_upload, where the dangerous-extension blocklist performs exact-key matching that is bypassed by pipe-alternative MIME type keys, combined with a public submission handler that trusts attacker-controlled upload field configuration injected via a forged Select field value. This makes it possible for unauthenticated attackers to upload files that may be executable, which makes remote code execution possible.
@@ -4162,6 +4176,13 @@
 - [HackSpeak/CVE-2026-17106](https://github.com/HackSpeak/CVE-2026-17106)
 - [686f6c61/POC-CopyEscape-CVE-2026-17106](https://github.com/686f6c61/POC-CopyEscape-CVE-2026-17106)
 - [CompleteTech-Security/copyescape-check](https://github.com/CompleteTech-Security/copyescape-check)
+
+### CVE-2026-17194 (2026-11-26)
+
+<code>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 16.7.0 before 19.4.11, 19.5 before 19.5.9, and 19.6 before 19.6.2 that under certain conditions could have allowed an authenticated user with developer-role permissions to merge code changes into protected branches without triggering approval resets due to the use of a weak hash function in the merge request approval change detection mechanism.
+</code>
+
+- [googlesky/CVE-2026-17194](https://github.com/googlesky/CVE-2026-17194)
 
 ### CVE-2026-17532 (2026-08-05)
 
@@ -12027,7 +12048,6 @@
 - [woshimaniubi8/CVE-2026-43499-root-KernelSU](https://github.com/woshimaniubi8/CVE-2026-43499-root-KernelSU)
 - [soralis0912/CVE-2026-43499-pmg110-root](https://github.com/soralis0912/CVE-2026-43499-pmg110-root)
 - [dnlid/CVE-2026-43499](https://github.com/dnlid/CVE-2026-43499)
-- [YuKongA/ghostlock-app](https://github.com/YuKongA/ghostlock-app)
 - [233laoliu/mt6985-CVE-2026-43499](https://github.com/233laoliu/mt6985-CVE-2026-43499)
 - [soralis0912/Root-My-Device](https://github.com/soralis0912/Root-My-Device)
 - [2932796375github/CVE-2026-43499_OPPO-MT6835](https://github.com/2932796375github/CVE-2026-43499_OPPO-MT6835)
@@ -18464,6 +18484,7 @@
 
 - [CuteeCat/CVE-2026-77806](https://github.com/CuteeCat/CVE-2026-77806)
 - [K3ysTr0K3R/CVE-2026-77806](https://github.com/K3ysTr0K3R/CVE-2026-77806)
+- [NiteeshPujari/cve-2026-77806-spip-x-spip-filtre-rce](https://github.com/NiteeshPujari/cve-2026-77806-spip-x-spip-filtre-rce)
 
 ### CVE-2026-77812 (2026-08-21)
 
@@ -18571,6 +18592,13 @@
 </code>
 
 - [n1kat/forkybot_AI](https://github.com/n1kat/forkybot_AI)
+
+### CVE-2026-78252 (2026-09-16)
+
+<code>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 15.3 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that, under certain conditions, an authenticated user could have induced a targeted user to perform unintended state-changing HTTP requests due to improper sanitization of user-controlled data in the Markdown JSON table renderer.
+</code>
+
+- [googlesky/CVE-2026-78252](https://github.com/googlesky/CVE-2026-78252)
 
 ### CVE-2026-78287 (2026-11-11)
 
@@ -19799,6 +19827,13 @@
 
 - [h00die/CVE-2026-87690-POC-Metasploit-Dir-Traverse-to-RCE](https://github.com/h00die/CVE-2026-87690-POC-Metasploit-Dir-Traverse-to-RCE)
 
+### CVE-2026-87719 (2026-09-12)
+
+<code>GitLab has remediated an issue in GitLab EE affecting all versions from 18.3 before 18.11.12, 19.0 before 19.0.9, 19.1 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that under certain conditions could allow an authenticated user with Duo Chat access to obtain Advanced Search instance configurations and sensitive credentials using a specially crafted GraphQL subscription argument to bypass serialization and perform server object lookup.
+</code>
+
+- [googlesky/CVE-2026-87719](https://github.com/googlesky/CVE-2026-87719)
+
 ### CVE-2026-87772 (2026-11-12)
 
 <code>Incorrect Authorization vulnerability in TÜBİTAK BİLGEM Software Technologies Research Institute Pardus About allows Privilege Escalation.\n\nThis issue affects Pardus About: before 1.2.5.
@@ -19891,6 +19926,13 @@
 
 ### CVE-2026-88629
 - [ExploreIO/CVE-2026-88629-fastgpt-mcp-client-ssrf](https://github.com/ExploreIO/CVE-2026-88629-fastgpt-mcp-client-ssrf)
+
+### CVE-2026-88765 (2026-09-15)
+
+<code>GitLab has remediated an issue in GitLab EE affecting all versions from 12.3 to 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 under certain conditions could allow an authenticated user to achieve remote code execution by importing a specially crafted Git project export to overflow the Unicode conversion buffer used in Advanced Search indexing.
+</code>
+
+- [googlesky/CVE-2026-88765](https://github.com/googlesky/CVE-2026-88765)
 
 ### CVE-2026-88771 (2026-09-27)
 
@@ -21369,6 +21411,13 @@
 
 - [ZZ2266/CVE-2026-99320](https://github.com/ZZ2266/CVE-2026-99320)
 
+### CVE-2026-99362 (2026-11-19)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nnfsd: preflight SEQUENCE replies before accepting a slot\n\nnfsd4_sequence() narrows the reply buffer to the session's cached\nreply limit before it accepts the slot seqid. A client may negotiate\nca_maxresponsesize_cached down to NFSD_MIN_HDR_SEQ_SZ, and\nnfsd4_alloc_slot() then gives every slot a zero-length sl_data[]. A\nCOMPOUND tag can fill that narrowed buffer until it holds the\nSEQUENCE opcode but not the status word that follows.\nnfsd4_encode_operation() returns without running\nnfsd4_encode_sequence(), so cstate.data_offset stays zero. It leaves\nop-&gt;status at nfs_ok as well, so the COMPOUND is treated as having\nsucceeded.\n\nnfsd4_store_cache_entry() declines to cache a lone SEQUENCE that\nreturned an error. That test reads the status the operation\nreported, so it passes here. The copy starts at offset zero and\ntakes the whole reply, RPC and COMPOUND headers included, into the\nzero-length sl_data[]. The COMPOUND tag is copied along with it, so\nthe client picks most of the bytes written past the end of the slot:\n\n  BUG: KASAN: slab-out-of-bounds in read_bytes_from_xdr_buf+0x1bc/0x390\n  Write of size 80 at addr ffff888003a549cd by task kunit_try_catch/24\n   __asan_memcpy+0x38/0x60\n   read_bytes_from_xdr_buf+0x1bc/0x390\n   nfsd4_sequence_done+0x5b0/0x810\n   nfs4svc_encode_compoundres+0x1bf/0x240\n\nCheck that the fixed-size SEQUENCE result, plus room for a following\noperation's error status, fits the negotiated limit before narrowing\nthe buffer and consuming the slot seqid. The slot and its reply\ncache are left unchanged, as RFC 8881 Section 2.10.6.1.2 requires of\nan error returned from SEQUENCE.
+</code>
+
+- [ashrafzaryouh/CVE-2026-99362](https://github.com/ashrafzaryouh/CVE-2026-99362)
+
 ### CVE-2026-99491 (2026-11-19)
 
 <code>In the Linux kernel, the following vulnerability has been resolved:\n\nHID: wacom: Fix Use-After-Free in wacom_intuos_pad\n\nwacom_intuos_pad() accesses wacom-&gt;shared-&gt;touch_input locklessly\ninside the interrupt handler context.  If the Touch sibling device\nis disconnected, wacom_remove_shared_data() clears 'touch_input'\noutside any lock, creating a Time-of-Check to Time-of-Use (TOCTOU)\nrace condition where a preempted reader in interrupt context\ndereferences the freed pointer, leading to a Use-After-Free.\n\nResolve this by introducing RCU protection for the touch_input\npointer:\n\n - Annotate 'touch_input' in wacom_shared struct with __rcu\n - Wrap all lockless readers in wacom_wac.c with guard(rcu)() and\n   rcu_dereference() using a unified wacom_report_touch_mute()\n   helper\n - Update writers in wacom_sys.c using rcu_assign_pointer()\n - Call synchronize_rcu() in wacom_remove_shared_data() to ensure\n   all active RCU readers have finished before the input device is\n   freed\n\nAlso wrap wacom_set_shared_values() and touch/pen assignments in\nwacom_add_shared_data() inside the wacom_udev_list_lock to serialize\nconcurrent probe assignments, and verify that 'shared-&gt;touch == hdev'\nbefore setting touch_input to prevent concurrent sibling probe state\ndesynchronization.
@@ -21381,6 +21430,13 @@
 - [ChaYeWuu/XRING-CVE-2026-99491](https://github.com/ChaYeWuu/XRING-CVE-2026-99491)
 - [qq2770355800/ExtractKit-99491](https://github.com/qq2770355800/ExtractKit-99491)
 - [ChaYeWuu/prague-CVE-2026-99491](https://github.com/ChaYeWuu/prague-CVE-2026-99491)
+
+### CVE-2026-99567 (2026-11-20)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nassoc_array: don't chain a new shortcut onto an existing one\n\nWhen a full node's leaves and the new key all share the node's segment,\nassoc_array_insert_into_terminal_node() replaces the node with a\nshortcut to a pair of new nodes.  If the node is itself the target of a\nshortcut, the new shortcut is installed as that shortcut's next node,\nand a shortcut leading to a shortcut is something nothing expects:\nassoc_array_walk() indexes the second one as a node, and\nassoc_array_apply_edit() hits the BUG_ON() in the loop that adjusts\nnr_leaves_on_branch, on that same insertion.\n\nDeletion gets a node there.  When the subtree below a shortcut shrinks\nenough, assoc_array_delete() collapses it into one node below the\nshortcut, and the leaves it collects can all share that node's segment.\nThe next key that shares it too takes this path.  Eighteen insertions\nand a deletion are enough: sixteen keys that agree on bits 0-11, one\nthat leaves them at bit 8 and is deleted again, and one more that agrees\nwith the sixteen.\n\nHave the new shortcut replace the one in front of the node as well.\nassoc_array_insert_shortcut() gives it that shortcut's back pointer and\nparent slot, so the caller installs it where that one was, and excises\nthe old shortcut along with the node, which takes a second entry in\nexcised_meta[].  The new shortcut's index key comes from the new key up\nto the new skip level, so it covers what the old one did.\n\nFound by a userspace test doing random insertions and deletions on keys\nthat share long prefixes; a targeted case builds a shortcut, deletes\ndown to the collapse and inserts one more key.
+</code>
+
+- [Rat5ak/CVE-2026-99567-ASSOC_ARRAY_SHORTCUT-CHAIN-EoP](https://github.com/Rat5ak/CVE-2026-99567-ASSOC_ARRAY_SHORTCUT-CHAIN-EoP)
 
 ### CVE-2026-99999 (2026-10-15)
 
@@ -21914,6 +21970,13 @@
 </code>
 
 - [Hassham1/CVE-2026-103355-unlimited-elements-sqli-poc](https://github.com/Hassham1/CVE-2026-103355-unlimited-elements-sqli-poc)
+
+### CVE-2026-103383 (2026-11-26)
+
+<code>In Eclipse MWE &lt;= 2.27.0 if you debug mwe workflows a remote attacker can cause arbitrary classes with an zero arg constructor from your mwe classpath to be instantiated in a timed attack
+</code>
+
+- [googlesky/CVE-2026-103383](https://github.com/googlesky/CVE-2026-103383)
 
 ### CVE-2026-103406 (2026-10-28)
 
@@ -22480,6 +22543,13 @@
 </code>
 
 - [JHC56/CVE-2026-105761](https://github.com/JHC56/CVE-2026-105761)
+
+### CVE-2026-105777 (2026-10-21)
+
+<code>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 17.6.5 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, an unauthenticated user could have retrieved sensitive internal server credentials due to improper filtering of internal response headers.
+</code>
+
+- [googlesky/CVE-2026-105777](https://github.com/googlesky/CVE-2026-105777)
 
 ### CVE-2026-105802 (2026-11-19)
 
@@ -24083,6 +24153,7 @@
 - [csakala-art/cbci-libbrotli-patch-25551](https://github.com/csakala-art/cbci-libbrotli-patch-25551)
 - [proxy0x/CVE-2026-111497](https://github.com/proxy0x/CVE-2026-111497)
 - [cveForge/CVE-2026-111497](https://github.com/cveForge/CVE-2026-111497)
+- [OrnisLab/2shell-advisories](https://github.com/OrnisLab/2shell-advisories)
 
 ### CVE-2026-111559 (2026-11-16)
 
@@ -24199,6 +24270,13 @@
 
 - [jasonbernier/Dialplan-Escape-RCE](https://github.com/jasonbernier/Dialplan-Escape-RCE)
 
+### CVE-2026-112212 (2026-10-21)
+
+<code>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.3 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, an unauthenticated user could have poisoned a shared cache's OAuth/OIDC discovery document to redirect certain flows to an externally controlled server, due to improper trust of user-supplied values when constructing endpoint URLs in cached discovery responses.
+</code>
+
+- [googlesky/CVE-2026-112212](https://github.com/googlesky/CVE-2026-112212)
+
 ### CVE-2026-112222 (2026-10-19)
 
 <code>Missing Authorization vulnerability in Surfer Surfer surferseo allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Surfer: from n/a through 1.8.0.744.
@@ -24208,6 +24286,13 @@
 
 ### CVE-2026-112325
 - [j0xh-sec/CVE-2026-112325](https://github.com/j0xh-sec/CVE-2026-112325)
+
+### CVE-2026-112326 (2026-10-21)
+
+<code>GitLab has remediated an issue in GitLab EE affecting all versions from 17.8 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, could have allowed an authenticated user with read-only permissions to permanently delete existing vulnerability records due to improper cleanup logic that failed to distinguish between pre-existing records from newly created ones during error handling.
+</code>
+
+- [googlesky/CVE-2026-112326](https://github.com/googlesky/CVE-2026-112326)
 
 ### CVE-2026-112398 (2026-10-19)
 
@@ -25207,6 +25292,13 @@
 
 - [cveForge/CVE-2026-118527](https://github.com/cveForge/CVE-2026-118527)
 
+### CVE-2026-118547 (2026-11-26)
+
+<code>Deserialization of Untrusted Data vulnerability in Drupal Content Synchronizer allows Object Injection. This issue affects Content Synchronizer versions: from 0.0.0 to 4.1.1.
+</code>
+
+- [googlesky/CVE-2026-118547](https://github.com/googlesky/CVE-2026-118547)
+
 ### CVE-2026-118569 (2026-10-30)
 
 <code>Incorrect Authorization vulnerability in Drupal Fasttoggle allows Forceful Browsing. This issue affects Fasttoggle versions: from 0.0.0 to 4.1.1.
@@ -25400,6 +25492,7 @@
 - [BugStealers/CVE-2026-119977](https://github.com/BugStealers/CVE-2026-119977)
 - [BlackHatExploitation/CVE-2026-119977](https://github.com/BlackHatExploitation/CVE-2026-119977)
 - [cveForge/CVE-2026-119977](https://github.com/cveForge/CVE-2026-119977)
+- [googlesky/CVE-2026-119977](https://github.com/googlesky/CVE-2026-119977)
 
 ### CVE-2026-119987 (2026-11-10)
 
@@ -25649,6 +25742,111 @@
 
 - [D7EAD/CVE-2026-122056](https://github.com/D7EAD/CVE-2026-122056)
 
+### CVE-2026-122057 (2026-11-26)
+
+<code>Missing Authorization vulnerability in Drupal S3 File System CORS Upload allows Forceful Browsing. This issue affects S3 File System CORS Upload versions: from 0.0.0 to 1.3.0.
+</code>
+
+- [googlesky/CVE-2026-122057](https://github.com/googlesky/CVE-2026-122057)
+
+### CVE-2026-122058 (2026-11-26)
+
+<code>Incorrect Authorization vulnerability in Drupal Simple OAuth (OAuth2) &amp; OpenID Connect allows Forceful Browsing. This issue affects Simple OAuth (OAuth2) &amp; OpenID Connect versions: from 0.0.0 to 5.2.6, from 6.0.0 to 6.0.10, from 6.1.0 to 6.1.4.
+</code>
+
+- [googlesky/CVE-2026-122058](https://github.com/googlesky/CVE-2026-122058)
+
+### CVE-2026-122066 (2026-11-26)
+
+<code>Missing Authorization vulnerability in Drupal Workflow Notifications allows Forceful Browsing. This issue affects Workflow Notifications versions: from 0.0.0 to 3.0.3.
+</code>
+
+- [googlesky/CVE-2026-122066](https://github.com/googlesky/CVE-2026-122066)
+
+### CVE-2026-122067 (2026-11-26)
+
+<code>Authentication Bypass Using an Alternate Path or Channel vulnerability in Drupal REST &amp; JSON API Authentication for Drupal allows Authentication Bypass. This issue affects REST &amp; JSON API Authentication for Drupal versions: from 0.0.0 to 3.2.1.
+</code>
+
+- [googlesky/CVE-2026-122067](https://github.com/googlesky/CVE-2026-122067)
+
+### CVE-2026-122069 (2026-11-26)
+
+<code>Improper Verification of Cryptographic Signature vulnerability in Drupal AlternativeCommerce PayPal Checkout allows Signature Spoof. This issue affects AlternativeCommerce PayPal Checkout versions: from 0.0.0 to 1.1.1.
+</code>
+
+- [googlesky/CVE-2026-122069](https://github.com/googlesky/CVE-2026-122069)
+
+### CVE-2026-122070 (2026-11-26)
+
+<code>Missing Authorization vulnerability in Drupal Commerce Product Alternative allows Forceful Browsing. This issue affects Commerce Product Alternative versions: from 0.0.0 to 1.0.1.
+</code>
+
+- [googlesky/CVE-2026-122070](https://github.com/googlesky/CVE-2026-122070)
+
+### CVE-2026-122071 (2026-11-26)
+
+<code>Improper Verification of Cryptographic Signature vulnerability in Drupal Commerce Escrow allows Signature Spoof. This issue affects Commerce Escrow versions: from 0.0.0 to 1.1.0.
+</code>
+
+- [googlesky/CVE-2026-122071](https://github.com/googlesky/CVE-2026-122071)
+
+### CVE-2026-122072 (2026-11-26)
+
+<code>Incorrect Authorization vulnerability in Drupal Forum Access allows Forceful Browsing. This issue affects Forum Access versions: from 0.0.0 to 2.0.3.
+</code>
+
+- [googlesky/CVE-2026-122072](https://github.com/googlesky/CVE-2026-122072)
+
+### CVE-2026-122074 (2026-11-26)
+
+<code>Incorrect Authorization vulnerability in Drupal Reset Password Email/SMS OTP allows Forceful Browsing. This issue affects Reset Password Email/SMS OTP versions: from 0.0.0 to 1.0.5.
+</code>
+
+- [googlesky/CVE-2026-122074](https://github.com/googlesky/CVE-2026-122074)
+
+### CVE-2026-122075 (2026-11-26)
+
+<code>Incorrect Authorization vulnerability in Drupal Scheduler allows Forceful Browsing. This issue affects Scheduler versions: from 0.0.0 to 1.7.0, from 2.2.0 to 2.2.3, from 0.0.0 to 2.0.*, from 0.0.0 to 2.1.*, from 2.3.0 to 2.3.1.
+</code>
+
+- [googlesky/CVE-2026-122075](https://github.com/googlesky/CVE-2026-122075)
+
+### CVE-2026-122076 (2026-11-26)
+
+<code>Unverified Password Change vulnerability in Drupal Password Separate Form allows Functionality Bypass. This issue affects Password Separate Form versions: from 0.0.0 to 2.0.3.
+</code>
+
+- [googlesky/CVE-2026-122076](https://github.com/googlesky/CVE-2026-122076)
+
+### CVE-2026-122077 (2026-11-26)
+
+<code>Incorrect Authorization vulnerability in Drupal Allowed Languages allows Forceful Browsing. This issue affects Allowed Languages versions: from 0.0.0 to 2.0.3.
+</code>
+
+- [googlesky/CVE-2026-122077](https://github.com/googlesky/CVE-2026-122077)
+
+### CVE-2026-122081 (2026-11-26)
+
+<code>Incorrect Authorization vulnerability in Drupal Islandora  allows Forceful Browsing. This issue affects Islandora  versions: from 0.0.0 to 2.19.1.
+</code>
+
+- [googlesky/CVE-2026-122081](https://github.com/googlesky/CVE-2026-122081)
+
+### CVE-2026-122082 (2026-11-26)
+
+<code>Insertion of Sensitive Information Into Sent Data vulnerability in Drupal Mime Mail allows Forceful Browsing. This issue affects Mime Mail versions: from 0.0.0 to 2.0.4.
+</code>
+
+- [googlesky/CVE-2026-122082](https://github.com/googlesky/CVE-2026-122082)
+
+### CVE-2026-122083 (2026-11-26)
+
+<code>Privilege Defined With Unsafe Actions vulnerability in Drupal AdobeAnalytics allows Stored XSS. This issue affects AdobeAnalytics versions: from 0.0.0 to 1.1.0.
+</code>
+
+- [googlesky/CVE-2026-122083](https://github.com/googlesky/CVE-2026-122083)
+
 ### CVE-2026-122158 (2026-11-05)
 
 <code>A security flaw has been discovered in InvoiceShelf up to 2.4.3/3.0.0-alpha.3. Affected by this issue is the function MemberService::create of the file app/Domains/Accounts/Application/MemberService.php. Performing a manipulation of the argument companies[].id/companies[].role results in improper access controls. The attack is possible to be carried out remotely. The exploit has been released to the public and may be used for attacks. Upgrading to version 2.4.4 and 3.0.0-alpha.4 can resolve this issue. The patch is named c798b513c3ab6e672a1678774720fbb282f4d0c6. It is recommended to upgrade the affected component.
@@ -25721,6 +25919,7 @@
 - [Agampreet-Singh/Nginx2root-lab](https://github.com/Agampreet-Singh/Nginx2root-lab)
 - [cveForge/CVE-2026-123007](https://github.com/cveForge/CVE-2026-123007)
 - [CaptainAI-Labs/CVE-2026-123007](https://github.com/CaptainAI-Labs/CVE-2026-123007)
+- [googlesky/CVE-2026-123007](https://github.com/googlesky/CVE-2026-123007)
 
 ### CVE-2026-123010 (2026-11-05)
 
@@ -25871,6 +26070,7 @@
 - [grupooruss/Division81-cve-2026-123633](https://github.com/grupooruss/Division81-cve-2026-123633)
 - [tc4dy/CVE-2026-123633-PoC-Toolkit](https://github.com/tc4dy/CVE-2026-123633-PoC-Toolkit)
 - [cveForge/CVE-2026-123633](https://github.com/cveForge/CVE-2026-123633)
+- [googlesky/CVE-2026-123633](https://github.com/googlesky/CVE-2026-123633)
 
 ### CVE-2026-123634 (2026-11-18)
 
@@ -25936,7 +26136,11 @@
 - [dinosn/CVE-2026-123890](https://github.com/dinosn/CVE-2026-123890)
 - [cveForge/CVE-2026-123890](https://github.com/cveForge/CVE-2026-123890)
 
-### CVE-2026-123903
+### CVE-2026-123903 (2026-11-26)
+
+<code>VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service. Broadcom has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.8.\nAffected versions:\nVMware vCenter Server 9.1.x.x: fixed in 9.1.2\nVMware vCenter Server 9.0.x.x: fixed in 9.0.2.0300\nVMware vCenter Server 8.0: fixed in 8.0 U3m\nVMware Cloud Foundation 5.x: fixed in 5.2.5\nVMware Telco Cloud Platform 3.0: fixed in KB463501\nVMware Telco Cloud Platform 4.x: fixed in KB463501\nVMware Telco Cloud Platform 5.0.x: fixed in KB463501\nVMware Telco Cloud Platform 5.1.x: fixed in KB463501\nVMware Telco Cloud Platform 5.2: fixed in KB463501\nVMware Telco Cloud Infrastructure 3.0: fixed in KB463501
+</code>
+
 - [dinosn/CVE-2026-123903](https://github.com/dinosn/CVE-2026-123903)
 - [Hann1bl3L3ct3r/CVE-2026-123903](https://github.com/Hann1bl3L3ct3r/CVE-2026-123903)
 
@@ -26273,12 +26477,117 @@
 
 - [googlesky/CVE-2026-126725](https://github.com/googlesky/CVE-2026-126725)
 
+### CVE-2026-126726 (2026-11-26)
+
+<code>Missing Authorization vulnerability in Drupal Paragraphs Edit allows Forceful Browsing. This issue affects Paragraphs Edit versions: from 0.0.0 to 3.0.2.
+</code>
+
+- [googlesky/CVE-2026-126726](https://github.com/googlesky/CVE-2026-126726)
+
+### CVE-2026-126728 (2026-11-26)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in Drupal Texts: key-based strings and translations allows Cross Site Request Forgery. This issue affects Texts: key-based strings and translations versions: from 1.0.13 to 1.0.17.
+</code>
+
+- [googlesky/CVE-2026-126728](https://github.com/googlesky/CVE-2026-126728)
+
+### CVE-2026-126729 (2026-11-26)
+
+<code>Authentication Bypass Using an Alternate Path or Channel vulnerability in Drupal Authenticator Login Plus (2FA) allows Authentication Bypass. This issue affects Authenticator Login Plus (2FA) versions: from 0.0.0 to 1.0.3.
+</code>
+
+- [googlesky/CVE-2026-126729](https://github.com/googlesky/CVE-2026-126729)
+
+### CVE-2026-126730 (2026-11-26)
+
+<code>Authentication Bypass Using an Alternate Path or Channel vulnerability in Drupal Authenticator Login Plus (2FA) allows Authentication Bypass. This issue affects Authenticator Login Plus (2FA) versions: from 0.0.0 to 1.0.3.
+</code>
+
+- [googlesky/CVE-2026-126730](https://github.com/googlesky/CVE-2026-126730)
+
+### CVE-2026-126731 (2026-11-26)
+
+<code>Authentication Bypass Using an Alternate Path or Channel vulnerability in Drupal Authenticator Login Plus (2FA) allows Authentication Bypass. This issue affects Authenticator Login Plus (2FA) versions: from 0.0.0 to 1.0.3.
+</code>
+
+- [googlesky/CVE-2026-126731](https://github.com/googlesky/CVE-2026-126731)
+
+### CVE-2026-126732 (2026-11-26)
+
+<code>Incorrect Authorization vulnerability in Drupal Commerce License allows Forceful Browsing. This issue affects Commerce License versions: from 0.0.0 to 3.1.2.
+</code>
+
+- [googlesky/CVE-2026-126732](https://github.com/googlesky/CVE-2026-126732)
+
+### CVE-2026-126733 (2026-11-26)
+
+<code>Incorrect Authorization vulnerability in Drupal Commerce License allows Forceful Browsing. This issue affects Commerce License versions: from 0.0.0 to 3.1.2.
+</code>
+
+- [googlesky/CVE-2026-126733](https://github.com/googlesky/CVE-2026-126733)
+
+### CVE-2026-126735 (2026-11-26)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in Drupal Campaign Monitor allows Cross Site Request Forgery. This issue affects Campaign Monitor versions: from 0.0.0 to 3.0.3.
+</code>
+
+- [googlesky/CVE-2026-126735](https://github.com/googlesky/CVE-2026-126735)
+
+### CVE-2026-126736 (2026-11-26)
+
+<code>Insertion of Sensitive Information Into Sent Data vulnerability in Drupal Entity Print allows Forceful Browsing. This issue affects Entity Print versions: from 0.0.0 to 2.20.0.
+</code>
+
+- [googlesky/CVE-2026-126736](https://github.com/googlesky/CVE-2026-126736)
+
+### CVE-2026-126737 (2026-11-26)
+
+<code>Incorrect Authorization vulnerability in Drupal Mollie for Drupal allows Forceful Browsing. This issue affects Mollie for Drupal versions: from 0.0.0 to 2.3.2.
+</code>
+
+- [googlesky/CVE-2026-126737](https://github.com/googlesky/CVE-2026-126737)
+
+### CVE-2026-126738 (2026-11-26)
+
+<code>Insertion of Sensitive Information Into Sent Data vulnerability in Drupal Mollie for Drupal allows Forceful Browsing. This issue affects Mollie for Drupal versions: from 0.0.0 to 2.3.2.
+</code>
+
+- [googlesky/CVE-2026-126738](https://github.com/googlesky/CVE-2026-126738)
+
+### CVE-2026-126739 (2026-11-26)
+
+<code>Cross-Site Request Forgery (CSRF) vulnerability in Drupal Page Manager allows Cross Site Request Forgery. This issue affects Page Manager versions: from 0.0.0 to 4.1.0.
+</code>
+
+- [googlesky/CVE-2026-126739](https://github.com/googlesky/CVE-2026-126739)
+
+### CVE-2026-126740 (2026-11-26)
+
+<code>Missing Authorization vulnerability in Drupal Download Count allows Forceful Browsing. This issue affects Download Count versions: from 0.0.0 to 2.2.5, from 3.0.0 to 3.0.2.
+</code>
+
+- [googlesky/CVE-2026-126740](https://github.com/googlesky/CVE-2026-126740)
+
+### CVE-2026-126742 (2026-11-26)
+
+<code>Incorrect Authorization vulnerability in Drupal Commerce sermepa allows Forceful Browsing. This issue affects Commerce sermepa versions: from 0.0.0 to 2.5.0.
+</code>
+
+- [googlesky/CVE-2026-126742](https://github.com/googlesky/CVE-2026-126742)
+
 ### CVE-2026-126744 (2026-11-26)
 
 <code>Improper Neutralization of Input During Web Page Generation (&quot;Cross-site Scripting&quot;) vulnerability in Drupal Layout Builder iFrame Modal allows Cross-Site Scripting (XSS). This issue affects Layout Builder iFrame Modal versions: from 0.0.0 to 1.3.9.
 </code>
 
 - [googlesky/CVE-2026-126744](https://github.com/googlesky/CVE-2026-126744)
+
+### CVE-2026-126745 (2026-11-26)
+
+<code>Improper Neutralization of Special Elements Used in a Template Engine vulnerability in Drupal Real Name allows Code Injection. This issue affects Real Name versions: from 0.0.0 to 2.0.1.
+</code>
+
+- [googlesky/CVE-2026-126745](https://github.com/googlesky/CVE-2026-126745)
 
 ### CVE-2026-126746 (2026-11-26)
 
@@ -26426,6 +26735,7 @@
 </code>
 
 - [wild0ni0n/CVE-2026-128064-PoC](https://github.com/wild0ni0n/CVE-2026-128064-PoC)
+- [googlesky/CVE-2026-128064](https://github.com/googlesky/CVE-2026-128064)
 
 ### CVE-2026-128134 (2026-11-13)
 
@@ -26546,6 +26856,13 @@
 
 - [cveForge/CVE-2026-129175](https://github.com/cveForge/CVE-2026-129175)
 
+### CVE-2026-129182 (2026-11-19)
+
+<code>Use-after-free via repopulation of last_fatal_error_backtrace global after shutdown.\n\nA fatal error raised while modified INI settings are restored during request shutdown can repopulate the stored fatal error backtrace after the executor has been cleaned up. The request memory is then freed, and a diagnostic emitted before executor initialization in a later request handled by the same PHP-FPM or mod_php worker can access the stale backtrace. The shutdown error requires per-path configuration of max_memory_limit, or of zlib.output_compression together with output_handler (which .user.ini can also set). The early diagnostic requires Apache per-directory configuration or, for PHP-FPM, a PHP_VALUE or PHP_ADMIN_VALUE parameter sent by the front end. This can cause memory corruption and worker crashes, and may allow remote code execution.\n\nThis issue affects PHP versions 8.5.* before 8.5.13.
+</code>
+
+- [googlesky/CVE-2026-129182](https://github.com/googlesky/CVE-2026-129182)
+
 ### CVE-2026-129221 (2026-11-19)
 
 <code>NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. Prior to 3.10.4, nltk.classify.weka.ARFF_Formatter writes attacker-controlled class labels into the Weka ARFF @ATTRIBUTE '-label-' declaration without safely formatting the label tokens. Crafted labels can alter the generated ARFF schema or records, corrupting classifier input and causing integrity loss or processing failure. This issue is fixed in version 3.10.4.
@@ -26661,6 +26978,14 @@
 
 - [tc4dy/CVE-2026-129289-PoC-Exploit](https://github.com/tc4dy/CVE-2026-129289-PoC-Exploit)
 - [cveForge/CVE-2026-129289](https://github.com/cveForge/CVE-2026-129289)
+- [googlesky/CVE-2026-129289](https://github.com/googlesky/CVE-2026-129289)
+
+### CVE-2026-129291 (2026-11-19)
+
+<code>PHP-FPM epoll use-after-free can lead to local privilege escalation.\n\nWhen catch_workers_output is enabled and the epoll event backend is used, the PHP-FPM master can close a worker's output pipe in fpm_child_close() without removing the associated event, and the delayed cleanup can free the worker record while its epoll registration is still active. A later event is then dispatched through a pointer into freed memory. A local attacker who can execute PHP code in an FPM worker can crash the master or execute code with its privileges, commonly root. catch_workers_output is disabled by default but enabled in the official PHP-FPM Docker images.\n\nThis issue affects PHP versions from 8.1.20 through 8.1.34, from 8.2.7 before 8.2.36, 8.3.* before 8.3.37, 8.4.* before 8.4.28 and 8.5.* before 8.5.13.
+</code>
+
+- [googlesky/CVE-2026-129291](https://github.com/googlesky/CVE-2026-129291)
 
 ### CVE-2026-129302 (2026-11-16)
 
@@ -26776,6 +27101,14 @@
 </code>
 
 - [cveForge/CVE-2026-129474](https://github.com/cveForge/CVE-2026-129474)
+- [googlesky/CVE-2026-129474](https://github.com/googlesky/CVE-2026-129474)
+
+### CVE-2026-129481 (2026-11-19)
+
+<code>Use-after-free after interrupted session shutdown.\n\nThe session extension records the filename of the executing script when a session starts. If a fatal error occurs in an application callback while the session variables are destroyed at shutdown, such as stream_close() of a user-defined stream wrapper, the pointer is retained after the request memory is freed, and a later request handled by the same worker can free the stale string. An attacker who can trigger such a failing cleanup may crash the worker or corrupt memory; code execution has not been demonstrated. This requires the filename to be allocated in request memory, for example when the script is not cached by OPcache.\n\nThis issue affects PHP versions 8.3.* before 8.3.37, 8.4.* before 8.4.28 and 8.5.* before 8.5.13.
+</code>
+
+- [googlesky/CVE-2026-129481](https://github.com/googlesky/CVE-2026-129481)
 
 ### CVE-2026-129491 (2026-11-16)
 
@@ -26872,6 +27205,7 @@
 </code>
 
 - [cveForge/CVE-2026-129991](https://github.com/cveForge/CVE-2026-129991)
+- [The-G0lden/CVE-2026-129991-dokploy](https://github.com/The-G0lden/CVE-2026-129991-dokploy)
 
 ### CVE-2026-130001
 - [cveForge/CVE-2026-130001](https://github.com/cveForge/CVE-2026-130001)
@@ -27006,6 +27340,13 @@
 - [abraxas/cve-2026-131914-idunno-anticsrf-deserialization](https://github.com/abraxas/cve-2026-131914-idunno-anticsrf-deserialization)
 - [Hakchandara/CVE-2026-131914](https://github.com/Hakchandara/CVE-2026-131914)
 
+### CVE-2026-131916 (2026-11-26)
+
+<code>GENAI Web provided by Digital Agency contains a server-side request forgery (SSRF) vulnerability. An attacker may be able to obtain information about which ports are open on devices located on the same network as the affected product.
+</code>
+
+- [googlesky/CVE-2026-131916](https://github.com/googlesky/CVE-2026-131916)
+
 ### CVE-2026-131924
 - [kristupasp/CVE-2026-131924](https://github.com/kristupasp/CVE-2026-131924)
 
@@ -27033,6 +27374,7 @@
 - [malloryai/cve-2026-132165-drupal-installer-check](https://github.com/malloryai/cve-2026-132165-drupal-installer-check)
 - [lxdwnpiper/CVE-2026-132165-Drupal](https://github.com/lxdwnpiper/CVE-2026-132165-Drupal)
 - [ashrafzaryouh/CVE-2026-132165](https://github.com/ashrafzaryouh/CVE-2026-132165)
+- [googlesky/CVE-2026-132165](https://github.com/googlesky/CVE-2026-132165)
 
 ### CVE-2026-132252 (2026-11-18)
 
@@ -27210,12 +27552,26 @@
 
 - [cveForge/CVE-2026-133185](https://github.com/cveForge/CVE-2026-133185)
 
+### CVE-2026-133202 (2026-11-26)
+
+<code>In Revive Adserver through 6.0.9, an authenticated manager with access to two advertisers can associate a conversion tracker owned by one advertiser with a campaign owned by the other. The tracker-campaign page checks access to each object but does not verify that their actual owners match. The resulting association can expose the first advertiser's tracker name and identifier in the second advertiser's restricted conversion report.
+</code>
+
+- [googlesky/CVE-2026-133202](https://github.com/googlesky/CVE-2026-133202)
+
 ### CVE-2026-133203 (2026-11-26)
 
 <code>In Revive Adserver through 6.0.9, the public conversion-variable endpoint does not verify that a caller-supplied conversion belongs to the supplied tracker. An unauthenticated attacker can submit a unique variable for a different tracker's conversion, causing that conversion to be classified as a duplicate and excluded from conversion reports.
 </code>
 
 - [googlesky/CVE-2026-133203](https://github.com/googlesky/CVE-2026-133203)
+
+### CVE-2026-133204 (2026-11-26)
+
+<code>In Revive Adserver through 6.0.9, the zone-linking page can disclose campaign and banner names and identifiers belonging to another agency. An authenticated manager, or a website user with permission to link banners to zones, can supply another agency's advertiser and campaign identifiers because the selection lists are not restricted to the agency owning the zone.
+</code>
+
+- [googlesky/CVE-2026-133204](https://github.com/googlesky/CVE-2026-133204)
 
 ### CVE-2026-133205 (2026-11-26)
 
@@ -27237,6 +27593,27 @@
 </code>
 
 - [googlesky/CVE-2026-133207](https://github.com/googlesky/CVE-2026-133207)
+
+### CVE-2026-133208 (2026-11-26)
+
+<code>In Revive Adserver through 6.0.9, unauthenticated request parameters in ad delivery can cause reflected cross-site scripting. A crafted delivery URL places a macro token in the source or target parameter and malicious markup in the referer parameter. Macro replacement after initial input encoding can insert the unescaped markup into generated banner output, causing JavaScript execution in the delivery origin when a visitor follows the URL. An active banner is required.
+</code>
+
+- [googlesky/CVE-2026-133208](https://github.com/googlesky/CVE-2026-133208)
+
+### CVE-2026-133209 (2026-11-26)
+
+<code>In Revive Adserver through 6.0.9, deleting an agency, advertiser, or publisher through affected API paths can leave the associated account and user session active because the deletion path does not load the entity's account identifier before cleanup. A user whose entity has been deleted can continue accessing pages of the orphaned account. Access to data belonging to another agency was not demonstrated.
+</code>
+
+- [googlesky/CVE-2026-133209](https://github.com/googlesky/CVE-2026-133209)
+
+### CVE-2026-133210 (2026-11-26)
+
+<code>In Revive Adserver through 6.0.9, the zone banner-linking page (zone-include.php) does not cast the keys of the includebanner request array to integers. An authenticated manager, or a trafficker with the zone-linking permission, who owns the submitted website and zone can place SQL in an array key, which is concatenated unquoted into the banner-lookup query, resulting in time-based blind SQL injection bounded by the privileges of the application's database account.
+</code>
+
+- [googlesky/CVE-2026-133210](https://github.com/googlesky/CVE-2026-133210)
 
 ### CVE-2026-133211 (2026-11-26)
 
@@ -27288,6 +27665,48 @@
 
 - [cveForge/CVE-2026-133325](https://github.com/cveForge/CVE-2026-133325)
 
+### CVE-2026-133336 (2026-11-26)
+
+<code>Joomla Extension - chronoengine.com - Unauthenticated arbitrary file upload in ChronoForms extension 8.0.0-8.0.53 - When the Filename Provider option of a file field is used, the file extension check is performed against the original client filename instead of the final stored filename, allowing unauthenticated users to upload files with dangerous extensions. Fixed in 8.0.54.
+</code>
+
+- [googlesky/CVE-2026-133336](https://github.com/googlesky/CVE-2026-133336)
+
+### CVE-2026-133337 (2026-11-26)
+
+<code>Joomla Extension - chronoengine.com - Unauthenticated SQL injection in table sorting in ChronoForms extension 8.0.0-8.0.53 - The order_by request parameter used for sorting DB Table and Read Data listings is insufficiently sanitized before being added to the ORDER BY clause, allowing unauthenticated users to inject SQL expressions. Fixed in 8.0.54.
+</code>
+
+- [googlesky/CVE-2026-133337](https://github.com/googlesky/CVE-2026-133337)
+
+### CVE-2026-133338 (2026-11-26)
+
+<code>Joomla Extension - chronoengine.com - Unauthenticated stored XSS in DB Table cells in ChronoForms extension 8.0.0-8.0.53 - Values rendered in the cells of the DB Table widget are not escaped, allowing unauthenticated users to store JavaScript through form submissions that is executed when the listing is viewed. Fixed in 8.0.54.
+</code>
+
+- [googlesky/CVE-2026-133338](https://github.com/googlesky/CVE-2026-133338)
+
+### CVE-2026-133339 (2026-11-26)
+
+<code>Joomla Extension - vi-solutions - SQL injection via form IDs in administrative form export in Visforms extension 1.0.0-5.6.5, 6.0.0-6.2.2 - Form IDs passed to the administrative form export were not cast to integers before being added to SQL queries, allowing SQL injection by backend users.
+</code>
+
+- [googlesky/CVE-2026-133339](https://github.com/googlesky/CVE-2026-133339)
+
+### CVE-2026-133340 (2026-11-26)
+
+<code>Joomla Extension - vi-solutions - Missing data export permission check in administrative form export in Visforms extension 1.0.0-5.6.5, 6.0.0-6.2.2 - The administrative form export did not check the data export permission when copying form data, allowing backend users without this permission to export submitted form data.
+</code>
+
+- [googlesky/CVE-2026-133340](https://github.com/googlesky/CVE-2026-133340)
+
+### CVE-2026-133341 (2026-11-26)
+
+<code>Joomla Extension - vi-solutions - Missing SQL statement permission check in Maxsubmissions plugin in Visforms extension 1.0.0-5.6.5, 6.0.0-6.2.2 - The SQL statement permission was not enforced when saving, importing or batch copying forms with Maxsubmissions plugin settings, allowing backend users without this permission to store arbitrary SQL statements.
+</code>
+
+- [googlesky/CVE-2026-133341](https://github.com/googlesky/CVE-2026-133341)
+
 ### CVE-2026-133430 (2026-11-19)
 
 <code>A flaw was found in Keycloak. This vulnerability allows an authenticated remote attacker to cause a denial of service by terminating active sessions of arbitrary users. When processing Security Assertion Markup Language (SAML) documents that lack a root signature, Keycloak accepts the request as long as any assertion within the document is signed, without verifying its context or placement. An attacker holding a validly signed assertion can embed it into an unsigned logout request for another user, causing Keycloak to accept the forged request and terminate the victim's session.
@@ -27323,6 +27742,13 @@
 </code>
 
 - [cveForge/CVE-2026-133493](https://github.com/cveForge/CVE-2026-133493)
+
+### CVE-2026-133525 (2026-11-26)
+
+<code>Deserialization of Untrusted Data vulnerability in ThemeFusion Fusion Builder fusion-builder allows Object Injection.This issue affects Fusion Builder: from n/a before 3.17.1.
+</code>
+
+- [googlesky/CVE-2026-133525](https://github.com/googlesky/CVE-2026-133525)
 
 ### CVE-2026-133528 (2026-11-20)
 
@@ -28714,12 +29140,47 @@
 
 - [googlesky/CVE-2026-136412](https://github.com/googlesky/CVE-2026-136412)
 
+### CVE-2026-136716 (2026-11-26)
+
+<code>Improper Check for Unusual or Exceptional Conditions vulnerability in Drupal Drupal core allows Forceful Browsing. This issue affects Drupal core versions: from 0.0.0 to 10.6.23, from 11.0.0 to 11.3.23, from 11.4.0 to 11.4.14.
+</code>
+
+- [googlesky/CVE-2026-136716](https://github.com/googlesky/CVE-2026-136716)
+
 ### CVE-2026-136950 (2026-11-26)
 
 <code>A security vulnerability has been detected in Ghostty up to 1.3.1. The impacted element is an unknown function of the component macOS OSC 8 Hyperlink Handler. Such manipulation leads to injection. The attack can be launched remotely. Upgrading to version 1.4.0 is sufficient to resolve this issue. The name of the patch is 54fe8e188552977249a084db687e75aee6bf12e9. Upgrading the affected component is advised.
 </code>
 
 - [googlesky/CVE-2026-136950](https://github.com/googlesky/CVE-2026-136950)
+
+### CVE-2026-136991 (2026-11-26)
+
+<code>A weakness has been identified in Spotweb up to 1.5.8. This issue affects the function redirect of the file lib/SpotTemplateHelper.php of the component Login. Executing a manipulation of the argument http_referer can lead to open redirect. It is possible to launch the attack remotely. The exploit has been made available to the public and could be used for attacks. This patch is called 0853d646d615225b35f466a960976d1492b786a9. Applying a patch is advised to resolve this issue.
+</code>
+
+- [googlesky/CVE-2026-136991](https://github.com/googlesky/CVE-2026-136991)
+
+### CVE-2026-137035 (2026-11-26)
+
+<code>A flaw was found in bootc. On a sealed composefs boot with a strict composefs digest on the kernel command line, the initramfs derives fs-verity enforcement from unsigned repository metadata and can mount an image under images/refs without measuring it against that digest. An attacker with offline write access to the root filesystem can boot a modified root under a legitimately signed UKI.
+</code>
+
+- [googlesky/CVE-2026-137035](https://github.com/googlesky/CVE-2026-137035)
+
+### CVE-2026-137036 (2026-11-26)
+
+<code>A flaw was found in bootc. On a sealed composefs boot, a failed bootc-root-setup.service does not fail initrd-root-fs.target, so the initramfs can switch root into the unverified physical root under the original signed UKI.
+</code>
+
+- [googlesky/CVE-2026-137036](https://github.com/googlesky/CVE-2026-137036)
+
+### CVE-2026-137043 (2026-11-26)
+
+<code>A security vulnerability has been detected in TOTOLINK N350RT 9.3.5u.6468_B20250827/9.3.5u.6466_B20250825. The affected element is the function setLanguageCfg of the file /cgi-bin/cstecgi.cgi. Such manipulation of the argument lang leads to authorization bypass. The attack can be executed remotely. The exploit has been disclosed publicly and may be used.
+</code>
+
+- [googlesky/CVE-2026-137043](https://github.com/googlesky/CVE-2026-137043)
 
 ### CVE-2026-137057 (2026-11-25)
 
@@ -28791,6 +29252,13 @@
 
 - [googlesky/CVE-2026-137306](https://github.com/googlesky/CVE-2026-137306)
 
+### CVE-2026-137307 (2026-11-26)
+
+<code>wpa_supplicant 2.7 through 2.12 with the wolfSSL backend contains an EAP-FAST server authentication bypass in tls_sess_sec_cb() that skips master secret derivation for oversized PAC-Opaque tickets. Adjacent attackers running a rogue authenticator can complete the handshake with an all-zero master secret to capture MS-CHAPv2 responses for offline cracking and replace the stored PAC.
+</code>
+
+- [googlesky/CVE-2026-137307](https://github.com/googlesky/CVE-2026-137307)
+
 ### CVE-2026-137308 (2026-11-26)
 
 <code>markdownify-mcp before 1.2.0 contains a server-side request forgery vulnerability that allows attackers to bypass URL validation by supplying DNS names, bracketed IPv6 literals, or IPv4-mapped IPv6 addresses. Attackers can influence URLs passed to webpage-to-markdown or git-repo-to-markdown through prompt injection to fetch loopback services, internal hosts, and cloud metadata endpoints.
@@ -28804,6 +29272,27 @@
 </code>
 
 - [googlesky/CVE-2026-137309](https://github.com/googlesky/CVE-2026-137309)
+
+### CVE-2026-137327 (2026-11-26)
+
+<code>GNU mtools through 4.0.50 contains a divide-by-zero vulnerability that allows attackers to crash mtools commands by supplying a FAT image with a zero sectors-per-cluster byte. Attackers can craft a FAT image that, when opened with mdir, minfo or mtype, triggers a SIGFPE in calc_num_clus() on x86, causing denial of service.
+</code>
+
+- [googlesky/CVE-2026-137327](https://github.com/googlesky/CVE-2026-137327)
+
+### CVE-2026-137389 (2026-11-26)
+
+<code>MailGates/MailAudit developed by Openfind has a Command Injection vulnerability.Authenticated remote attackers can inject commands and execute them on the server.
+</code>
+
+- [googlesky/CVE-2026-137389](https://github.com/googlesky/CVE-2026-137389)
+
+### CVE-2026-137390 (2026-11-26)
+
+<code>Mail2000 developed by Openfind has an OS Command Injection vulnerability.Authenticated remote attackers can inject arbitrary OS commands and execute them on the server.
+</code>
+
+- [googlesky/CVE-2026-137390](https://github.com/googlesky/CVE-2026-137390)
 
 ### CVE-2026-350234
 - [usernameisunavailable-cell/Bili-cracker](https://github.com/usernameisunavailable-cell/Bili-cracker)
@@ -60802,6 +61291,13 @@
 - [RenukaSelvar/platform_packages_providers_MediaProvider_CVE-2023-40127](https://github.com/RenukaSelvar/platform_packages_providers_MediaProvider_CVE-2023-40127)
 - [RenukaSelvar/packages_providers_MediaProvider_CVE-2023-40127](https://github.com/RenukaSelvar/packages_providers_MediaProvider_CVE-2023-40127)
 
+### CVE-2023-40129 (2023-10-27)
+
+<code>In build_read_multi_rsp of gatt_sr.cc, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote (proximal/adjacent) code execution with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [Pavanb2609/FLUORIDEX](https://github.com/Pavanb2609/FLUORIDEX)
+
 ### CVE-2023-40130 (2023-10-27)
 
 <code>In notifyTimeout of CallRedirectionProcessor, there is a possible permission bypass due to a logic error in the code. This could lead to local escalation of privilege and background activity launch with no additional execution privileges needed. User interaction is not needed for exploitation.
@@ -80054,6 +80550,7 @@
 - [lem0n817/tomcatfileread](https://github.com/lem0n817/tomcatfileread)
 - [CyberCTF/vulhub-tomcat-cve-2020-1938](https://github.com/CyberCTF/vulhub-tomcat-cve-2020-1938)
 - [Mohammad-Anon/CVE-2020-1938](https://github.com/Mohammad-Anon/CVE-2020-1938)
+- [googlesky/CVE-2020-1938](https://github.com/googlesky/CVE-2020-1938)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -81394,6 +81891,13 @@
 
 - [migueltarga/CVE-2020-9380](https://github.com/migueltarga/CVE-2020-9380)
 
+### CVE-2020-9402 (2020-03-05)
+
+<code>Django 1.11 before 1.11.29, 2.2 before 2.2.11, and 3.0 before 3.0.4 allows SQL Injection if untrusted data is used as a tolerance parameter in GIS functions and aggregates on Oracle. By passing a suitably crafted tolerance to GIS functions and aggregates on Oracle, it was possible to break escaping and inject malicious SQL.
+</code>
+
+- [googlesky/CVE-2020-9402](https://github.com/googlesky/CVE-2020-9402)
+
 ### CVE-2020-9442 (2020-02-28)
 
 <code>OpenVPN Connect 3.1.0.361 on Windows has Insecure Permissions for %PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10, which allows local users to gain privileges by copying a malicious drvstore.dll there.
@@ -81459,6 +81963,8 @@
 - [0dayCTF/CVE-2020-9484](https://github.com/0dayCTF/CVE-2020-9484)
 - [Disturbante/CVE-2020-9484](https://github.com/Disturbante/CVE-2020-9484)
 - [savsch/PoC_CVE-2020-9484](https://github.com/savsch/PoC_CVE-2020-9484)
+- [CrieHeiki/Apache-Tomcat-CVE-2020-9484](https://github.com/CrieHeiki/Apache-Tomcat-CVE-2020-9484)
+- [googlesky/CVE-2020-9484](https://github.com/googlesky/CVE-2020-9484)
 
 ### CVE-2020-9488 (2020-04-27)
 
@@ -84888,6 +85394,7 @@
 - [1135/solr_exploit](https://github.com/1135/solr_exploit)
 - [jaychouzzk/CVE-2019-0193-exp](https://github.com/jaychouzzk/CVE-2019-0193-exp)
 - [freeFV/ApacheSolrRCE](https://github.com/freeFV/ApacheSolrRCE)
+- [googlesky/CVE-2019-0193](https://github.com/googlesky/CVE-2019-0193)
 
 ### CVE-2019-0205 (2019-10-28)
 
@@ -87610,6 +88117,7 @@
 - [datntsec/CVE-2019-12735](https://github.com/datntsec/CVE-2019-12735)
 - [nickylimjj/cve-2019-12735](https://github.com/nickylimjj/cve-2019-12735)
 - [st9007a/CVE-2019-12735](https://github.com/st9007a/CVE-2019-12735)
+- [eltociear/vimplugin-audit](https://github.com/eltociear/vimplugin-audit)
 
 ### CVE-2019-12744 (2019-06-20)
 
@@ -88725,6 +89233,7 @@
 - [xkyrage/Exploit_CVE-2019-17558-RCE](https://github.com/xkyrage/Exploit_CVE-2019-17558-RCE)
 - [rogerzeferino/cve-2019-17558-apache-solr-rce](https://github.com/rogerzeferino/cve-2019-17558-apache-solr-rce)
 - [CyberCTF/vulhub-solr-cve-2019-17558](https://github.com/CyberCTF/vulhub-solr-cve-2019-17558)
+- [googlesky/CVE-2019-17558](https://github.com/googlesky/CVE-2019-17558)
 
 ### CVE-2019-17564 (2020-04-01)
 
@@ -89248,6 +89757,7 @@
 - [ryu22e/django_cve_2019_19844_poc](https://github.com/ryu22e/django_cve_2019_19844_poc)
 - [andripwn/django_cve201919844](https://github.com/andripwn/django_cve201919844)
 - [0xsha/CVE_2019_19844](https://github.com/0xsha/CVE_2019_19844)
+- [googlesky/CVE-2019-19844](https://github.com/googlesky/CVE-2019-19844)
 
 ### CVE-2019-19871
 - [VDISEC/CVE-2019-19871-AuditGuide](https://github.com/VDISEC/CVE-2019-19871-AuditGuide)
@@ -95711,6 +96221,13 @@
 </code>
 
 - [Polosss/By-Poloss..-..CVE-2017-20251](https://github.com/Polosss/By-Poloss..-..CVE-2017-20251)
+
+### CVE-2017-20291 (2026-11-26)
+
+<code>An XML External Entity (XXE) injection vulnerability in the Federation Web Services component (/affwebservices/router/session) of Broadcom SiteMinder (CA Single Sign-On) Secure Proxy Server / Access Gateway R12.52 SP1 prior to R12.52 SP1 CR6 allows a remote attacker to submit crafted SOAP requests to the exposed Apache-SOAP RPC Router servlet (org.apache.soap.server.http.RPCRouterServlet). Successful exploitation could result in unauthorized disclosure of local files or sensitive data, server-side request forgery (SSRF), or denial of service. The issue is resolved in R12.52 SP1 CR6 (and does not affect R12.8 or R12.9) by removing the router servlet mapping so requests to the endpoint return HTTP 404.
+</code>
+
+- [googlesky/CVE-2017-20291](https://github.com/googlesky/CVE-2017-20291)
 
 ### CVE-2017-98505
 - [mike-williams/Struts2Vuln](https://github.com/mike-williams/Struts2Vuln)
