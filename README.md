@@ -17860,6 +17860,13 @@
 
 - [federiconbaez/cortex9-freeform-attribute-twig-render-model](https://github.com/federiconbaez/cortex9-freeform-attribute-twig-render-model)
 
+### CVE-2026-73969 (2026-11-18)
+
+<code>AnsibleForms is a self-hosted web application that turns automation into self-service forms. Prior to 6.2.1, AnsibleForms uses a public hard-coded fallback JWT signing secret from server/config/auth.config.js when ACCESS_TOKEN_SECRET is unset. An unauthenticated attacker can sign a self-contained token with privileged claims because server/src/auth/auth_jwt.js verifies the signature without reloading the user from the database, and server/src/lib/middleware.js trusts the token's roles and options for authorization. A forged token can therefore be accepted as an administrator session, resulting in authentication bypass and full privileged API access. This issue is fixed in version 6.2.1.
+</code>
+
+- [blaipr/ansibleforms-rce-poc](https://github.com/blaipr/ansibleforms-rce-poc)
+
 ### CVE-2026-74034 (2026-10-13)
 
 <code>Wazuh from 4.1.0 before 4.14.8 contains a missing origin check in wm_agent_upgrade that allows enrolled agents to issue upgrade_custom commands with attacker-controlled file_path. Attackers can inject an upgrade_custom message over the agent channel to read arbitrary files as root, exfiltrating /etc/shadow and client.keys.
@@ -20769,6 +20776,9 @@
 
 - [Mor-Golan/CVE-2026-94641](https://github.com/Mor-Golan/CVE-2026-94641)
 
+### CVE-2026-94793
+- [ilmercu/CVE-2026-94793](https://github.com/ilmercu/CVE-2026-94793)
+
 ### CVE-2026-95149
 - [reputati0n/CVE-2026-95149](https://github.com/reputati0n/CVE-2026-95149)
 
@@ -21248,7 +21258,7 @@
 - [arkylin/CVE-2026-98260-Asteroids](https://github.com/arkylin/CVE-2026-98260-Asteroids)
 - [orumanayurpanjayat-ux/SamTimer](https://github.com/orumanayurpanjayat-ux/SamTimer)
 - [jonrazta89/timertest](https://github.com/jonrazta89/timertest)
-- [qq2770355800/ExtractKit](https://github.com/qq2770355800/ExtractKit)
+- [Subtle-profound/ExtractKit](https://github.com/Subtle-profound/ExtractKit)
 - [CYB3R0ID694/Shark-Moto](https://github.com/CYB3R0ID694/Shark-Moto)
 - [jonrazta89/SamGhostKey](https://github.com/jonrazta89/SamGhostKey)
 - [skyrocketingHong/CVE-2026-98260_nezha](https://github.com/skyrocketingHong/CVE-2026-98260_nezha)
@@ -21267,6 +21277,7 @@
 - [pjnssb/CVE-2026-98260-GhostKey](https://github.com/pjnssb/CVE-2026-98260-GhostKey)
 - [minhmc2007/CVE-2026-98260-My-A55](https://github.com/minhmc2007/CVE-2026-98260-My-A55)
 - [k-o-n-t-o-r/sm-s936b-cve-2026-98260](https://github.com/k-o-n-t-o-r/sm-s936b-cve-2026-98260)
+- [CrystalXYN/cve-2026-98260](https://github.com/CrystalXYN/cve-2026-98260)
 
 ### CVE-2026-98385 (2026-10-12)
 
@@ -21443,6 +21454,7 @@
 - [suominen/CVE-2026-99362](https://github.com/suominen/CVE-2026-99362)
 - [seguridadentrerios/CVE-2026-99362](https://github.com/seguridadentrerios/CVE-2026-99362)
 - [ansonhsu-ai/proxmox-nfs2root-cve-2026-99362-ste](https://github.com/ansonhsu-ai/proxmox-nfs2root-cve-2026-99362-ste)
+- [Anhydrite/nfs2root](https://github.com/Anhydrite/nfs2root)
 
 ### CVE-2026-99491 (2026-11-19)
 
@@ -21454,7 +21466,7 @@
 - [FatBrother1/hapt-99491](https://github.com/FatBrother1/hapt-99491)
 - [woshigenm/CVE-2026-99491-FANXIAOCHAO](https://github.com/woshigenm/CVE-2026-99491-FANXIAOCHAO)
 - [ChaYeWuu/XRING-CVE-2026-99491](https://github.com/ChaYeWuu/XRING-CVE-2026-99491)
-- [qq2770355800/ExtractKit-99491](https://github.com/qq2770355800/ExtractKit-99491)
+- [Subtle-profound/ExtractKit-99491](https://github.com/Subtle-profound/ExtractKit-99491)
 - [ChaYeWuu/prague-CVE-2026-99491](https://github.com/ChaYeWuu/prague-CVE-2026-99491)
 
 ### CVE-2026-99567 (2026-11-20)
@@ -35750,6 +35762,7 @@
 - [0xdak/CVE-2025-32463_exploit](https://github.com/0xdak/CVE-2025-32463_exploit)
 - [jigrit/CVE_Analysis](https://github.com/jigrit/CVE_Analysis)
 - [roock3t/CVE-2025-32463](https://github.com/roock3t/CVE-2025-32463)
+- [chenceyang/cve-2025-32463-presentation](https://github.com/chenceyang/cve-2025-32463-presentation)
 
 ### CVE-2025-32579 (2025-04-11)
 
@@ -96216,6 +96229,7 @@
 - [wilfred-wulbou/HG532d-RCE-Exploit](https://github.com/wilfred-wulbou/HG532d-RCE-Exploit)
 - [ltfafei/HuaWei_Route_HG532_RCE_CVE-2017-17215](https://github.com/ltfafei/HuaWei_Route_HG532_RCE_CVE-2017-17215)
 - [luel-4013/misfortune-cookie](https://github.com/luel-4013/misfortune-cookie)
+- [bsiamer/hg532e-root-shell](https://github.com/bsiamer/hg532e-root-shell)
 
 ### CVE-2017-17485 (2018-01-10)
 
@@ -96346,7 +96360,7 @@
 
 ### CVE-2017-20291 (2026-11-26)
 
-<code>An XML External Entity (XXE) injection vulnerability in the Federation Web Services component (/affwebservices/router/session) of Broadcom SiteMinder (CA Single Sign-On) Secure Proxy Server / Access Gateway R12.52 SP1 prior to R12.52 SP1 CR6 allows a remote attacker to submit crafted SOAP requests to the exposed Apache-SOAP RPC Router servlet (org.apache.soap.server.http.RPCRouterServlet). Successful exploitation could result in unauthorized disclosure of local files or sensitive data, server-side request forgery (SSRF), or denial of service. The issue is resolved in R12.52 SP1 CR6 (and does not affect R12.8 or R12.9) by removing the router servlet mapping so requests to the endpoint return HTTP 404.
+<code>An XML External Entity (XXE) injection vulnerability in the Federation Web Services component (/affwebservices/router/session and /affwebservices/router/notification) of Broadcom SiteMinder (CA Single Sign-On) Secure Proxy Server / Access Gateway R12.52 SP1 prior to R12.52 SP1 CR6 allows a remote attacker to submit crafted SOAP requests to the exposed Apache-SOAP RPC Router servlet (org.apache.soap.server.http.RPCRouterServlet). Successful exploitation could result in unauthorized disclosure of local files or sensitive data, server-side request forgery (SSRF), or denial of service. The issue is resolved in R12.52 SP1 CR6 (and does not affect R12.8 or R12.9) by removing the router servlet mapping so requests to the endpoint return HTTP 404
 </code>
 
 - [googlesky/CVE-2017-20291](https://github.com/googlesky/CVE-2017-20291)
