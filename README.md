@@ -8728,7 +8728,6 @@
 - [polyakovavv/copyfail](https://github.com/polyakovavv/copyfail)
 - [gbonacini/CVE-2026-31431](https://github.com/gbonacini/CVE-2026-31431)
 - [studiogangster/CVE-2026-31431](https://github.com/studiogangster/CVE-2026-31431)
-- [paulorlima9/copyfail-fix](https://github.com/paulorlima9/copyfail-fix)
 - [sh4den/CVE-2026-31431-copyfail-aarch64](https://github.com/sh4den/CVE-2026-31431-copyfail-aarch64)
 - [DroPZsec/SplicePrivillegeEscalationFIX](https://github.com/DroPZsec/SplicePrivillegeEscalationFIX)
 - [kuniyal08/Copy-Fail-CVE-2026-31431-Lab](https://github.com/kuniyal08/Copy-Fail-CVE-2026-31431-Lab)
@@ -9729,7 +9728,7 @@
 - [dinosn/CVE-2026-34197](https://github.com/dinosn/CVE-2026-34197)
 - [DEVSECURITYSPRO/CVE-2026-34197](https://github.com/DEVSECURITYSPRO/CVE-2026-34197)
 - [AtoposX-J/CVE-2026-34197-Apache-ActiveMQ-RCE](https://github.com/AtoposX-J/CVE-2026-34197-Apache-ActiveMQ-RCE)
-- [KONDORDEVSECURITYCORP/CVE-2026-34197](https://github.com/KONDORDEVSECURITYCORP/CVE-2026-34197)
+- [PRODEVCORP/CVE-2026-34197](https://github.com/PRODEVCORP/CVE-2026-34197)
 - [keraattin/CVE-2026-34197](https://github.com/keraattin/CVE-2026-34197)
 - [xshysjhq/CVE-2026-34197-payload-Apache-ActiveMQ-](https://github.com/xshysjhq/CVE-2026-34197-payload-Apache-ActiveMQ-)
 - [Catherines77/ActiveMQ-EXPtools](https://github.com/Catherines77/ActiveMQ-EXPtools)
@@ -15842,6 +15841,7 @@
 </code>
 
 - [googlesky/CVE-2026-61725](https://github.com/googlesky/CVE-2026-61725)
+- [pluto-chou/CVE-2026-61725_sevenz-rust2](https://github.com/pluto-chou/CVE-2026-61725_sevenz-rust2)
 
 ### CVE-2026-61732 (2026-09-24)
 
@@ -40545,7 +40545,7 @@
 <code>Out-of-bounds read in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally.
 </code>
 
-- [KONDORDEVSECURITYCORP/CVE-2025-60709](https://github.com/KONDORDEVSECURITYCORP/CVE-2025-60709)
+- [PRODEVCORP/CVE-2025-60709](https://github.com/PRODEVCORP/CVE-2025-60709)
 
 ### CVE-2025-60710 (2025-11-11)
 
@@ -46803,6 +46803,7 @@
 - [yfelipecruvinel/tryhackme-moniker-link](https://github.com/yfelipecruvinel/tryhackme-moniker-link)
 - [shauryarathore357-hub/thm-Moniker-Link-cve-2024-21413-writeup](https://github.com/shauryarathore357-hub/thm-Moniker-Link-cve-2024-21413-writeup)
 - [PCzBuilds/monikerlink-cve-2024-21413-writeup](https://github.com/PCzBuilds/monikerlink-cve-2024-21413-writeup)
+- [NuhHozar/Moniker-Link-CVE-2024-21413-TRYHACKME-WALKTROUGH-](https://github.com/NuhHozar/Moniker-Link-CVE-2024-21413-TRYHACKME-WALKTROUGH-)
 
 ### CVE-2024-21490 (2024-02-10)
 
@@ -72303,13 +72304,6 @@
 
 - [xmco/sdwan-cve-2021-1480](https://github.com/xmco/sdwan-cve-2021-1480)
 
-### CVE-2021-1497 (2021-05-06)
-
-<code>Multiple vulnerabilities in the web-based management interface of Cisco HyperFlex HX could allow an unauthenticated, remote attacker to perform command injection attacks against an affected device. For more information about these vulnerabilities, see the Details section of this advisory.
-</code>
-
-- [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
-
 ### CVE-2021-1585 (2021-07-08)
 
 <code>A vulnerability in the Cisco Adaptive Security Device Manager (ASDM) Launcher could allow an unauthenticated, remote attacker to execute arbitrary code on a user's operating system. This vulnerability is due to a lack of proper signature verification for specific code exchanged between the ASDM and the Launcher. An attacker could exploit this vulnerability by leveraging a man-in-the-middle position on the network to intercept the traffic between the Launcher and the ASDM and then inject arbitrary code. A successful exploit could allow the attacker to execute arbitrary code on the user's operating system with the level of privileges assigned to the ASDM Launcher. A successful exploit may require the attacker to perform a social engineering attack to persuade the user to initiate communication from the Launcher to the ASDM.
@@ -73433,6 +73427,13 @@
 - [ndmalc/CVE-2021-20323](https://github.com/ndmalc/CVE-2021-20323)
 - [Cappricio-Securities/CVE-2021-20323](https://github.com/Cappricio-Securities/CVE-2021-20323)
 - [cscpwn0sec/CVE-2021-20323](https://github.com/cscpwn0sec/CVE-2021-20323)
+
+### CVE-2021-20329 (2021-06-10)
+
+<code>Specific cstrings input may not be properly validated in the MongoDB Go Driver when marshalling Go objects into BSON. A malicious user could use a Go object with specific string to potentially inject additional fields into marshalled documents. This issue affects all MongoDB GO Drivers prior to and including 1.5.0.
+</code>
+
+- [hugo19941994/CVE-2021-20329-bson-injection](https://github.com/hugo19941994/CVE-2021-20329-bson-injection)
 
 ### CVE-2021-20717 (2021-05-10)
 
@@ -81133,7 +81134,6 @@
 - [haisenberg/CVE-2020-5902](https://github.com/haisenberg/CVE-2020-5902)
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
 - [z3n70/CVE-2020-5902](https://github.com/z3n70/CVE-2020-5902)
-- [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
 - [amitlttwo/CVE-2020-5902](https://github.com/amitlttwo/CVE-2020-5902)
 - [ashrafzaryouh/CVE-2020-5902](https://github.com/ashrafzaryouh/CVE-2020-5902)
 - [DevRafaelprogrammer/F5-BIG-IP](https://github.com/DevRafaelprogrammer/F5-BIG-IP)
@@ -87844,7 +87844,6 @@
 - [cisagov/check-your-pulse](https://github.com/cisagov/check-your-pulse)
 - [andripwn/pulse-exploit](https://github.com/andripwn/pulse-exploit)
 - [pwn3z/CVE-2019-11510-PulseVPN](https://github.com/pwn3z/CVE-2019-11510-PulseVPN)
-- [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
 
 ### CVE-2019-11523 (2019-06-06)
 
