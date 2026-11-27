@@ -87,6 +87,13 @@
 
 - [QM4RS/CVE-2026-0075](https://github.com/QM4RS/CVE-2026-0075)
 
+### CVE-2026-0087 (2026-06-01)
+
+<code>In approvalLevelForDomainInternal of DomainVerificationService.java, there is a possible way to hijack an arbitrary app link due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [helloguy1234/CVE-2026-0087_PoC](https://github.com/helloguy1234/CVE-2026-0087_PoC)
+
 ### CVE-2026-0091 (2026-06-01)
 
 <code>In multiple locations, there is a possible way to execute code in the launcher process due to an over-privileged shell user. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
@@ -12931,7 +12938,7 @@
 - [rjt-gupta/page-cache-corruption-lpes](https://github.com/rjt-gupta/page-cache-corruption-lpes)
 - [cherrycherrymay/PoC-CVE-2026-46331](https://github.com/cherrycherrymay/PoC-CVE-2026-46331)
 - [nawalacheker1/CVE-2026-46331](https://github.com/nawalacheker1/CVE-2026-46331)
-- [theendofabbys/pedit-cow](https://github.com/theendofabbys/pedit-cow)
+- [xksd/pedit-cow](https://github.com/xksd/pedit-cow)
 
 ### CVE-2026-46333 (2026-05-15)
 
@@ -13564,7 +13571,7 @@
 - [CerberusMrXi/JCEzploit-CVE-2026-48907](https://github.com/CerberusMrXi/JCEzploit-CVE-2026-48907)
 - [ksotaria1337/-CVE-2026-48907-](https://github.com/ksotaria1337/-CVE-2026-48907-)
 - [NONAME-ELV/CVE-2026-48907](https://github.com/NONAME-ELV/CVE-2026-48907)
-- [theendofabbys/CVE-2026-48907](https://github.com/theendofabbys/CVE-2026-48907)
+- [xksd/CVE-2026-48907](https://github.com/xksd/CVE-2026-48907)
 - [CoNistical/CVE-2026-48907](https://github.com/CoNistical/CVE-2026-48907)
 - [BastianHxr/CVE-2026-48907](https://github.com/BastianHxr/CVE-2026-48907)
 
@@ -13583,7 +13590,7 @@
 - [imXur/CVE-2026-48908-Joomla-SP-Page-Builder-RCE](https://github.com/imXur/CVE-2026-48908-Joomla-SP-Page-Builder-RCE)
 - [yora1928/CVE-2026-48908-by-yora](https://github.com/yora1928/CVE-2026-48908-by-yora)
 - [winrarzipsexploit/CVE-2026-48908](https://github.com/winrarzipsexploit/CVE-2026-48908)
-- [theendofabbys/CVE-2026-48908](https://github.com/theendofabbys/CVE-2026-48908)
+- [xksd/CVE-2026-48908](https://github.com/xksd/CVE-2026-48908)
 
 ### CVE-2026-48909 (2026-06-20)
 
@@ -13642,7 +13649,7 @@
 - [6ickzone/Helix3-Mass-Exploiter](https://github.com/6ickzone/Helix3-Mass-Exploiter)
 - [Jenderal92/CVE-2026-49049](https://github.com/Jenderal92/CVE-2026-49049)
 - [MataKucing-OFC/CVE-2026-49049](https://github.com/MataKucing-OFC/CVE-2026-49049)
-- [theendofabbys/CVE-2026-49049](https://github.com/theendofabbys/CVE-2026-49049)
+- [xksd/CVE-2026-49049](https://github.com/xksd/CVE-2026-49049)
 
 ### CVE-2026-49060 (2026-06-11)
 
@@ -15041,7 +15048,7 @@
 - [rimbadirgantara/CVE-2026-56291.yaml](https://github.com/rimbadirgantara/CVE-2026-56291.yaml)
 - [0xdenis77/CVE-2026-56291](https://github.com/0xdenis77/CVE-2026-56291)
 - [ChiefYoru/CVE-2026-56291_PoC](https://github.com/ChiefYoru/CVE-2026-56291_PoC)
-- [theendofabbys/CVE-2026-56291](https://github.com/theendofabbys/CVE-2026-56291)
+- [xksd/CVE-2026-56291](https://github.com/xksd/CVE-2026-56291)
 
 ### CVE-2026-56292 (2026-07-09)
 
@@ -15781,7 +15788,7 @@
 </code>
 
 - [shinthink/CVE-2026-61424](https://github.com/shinthink/CVE-2026-61424)
-- [theendofabbys/CVE-2026-61424](https://github.com/theendofabbys/CVE-2026-61424)
+- [xksd/CVE-2026-61424](https://github.com/xksd/CVE-2026-61424)
 
 ### CVE-2026-61500 (2026-07-13)
 
@@ -20505,6 +20512,13 @@
 
 - [Faceless0x7/CVE-2026-93453](https://github.com/Faceless0x7/CVE-2026-93453)
 
+### CVE-2026-93479 (2026-10-14)
+
+<code>A vulnerability exists in NGINX Plus and NGINX Open Source when a map directive uses regex matching and the root directive or access log format references the map's regex capture variables before referencing the map output variable. Alternatively, the same result could be achieved by using a non-cacheable variable in a string expression under certain conditions. An unauthenticated attacker along with conditions beyond their control can exploit this vulnerability by sending crafted HTTP requests. This may cause a heap buffer overflow in the NGINX worker process leading to a restart. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.\n\nImpact: \nThis vulnerability may allow remote attackers to cause a denial-of-service (DoS) on the NGINX system or to possibly trigger a code execution. There is no control plane exposure; this is a data plane issue only.\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
+- [googlesky/CVE-2026-93479](https://github.com/googlesky/CVE-2026-93479)
+
 ### CVE-2026-93485 (2026-09-18)
 
 <code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Automattic WordPress wordpress allows DOM-Based XSS.This issue affects WordPress: from n/a through 7.1.
@@ -21365,6 +21379,13 @@
 </code>
 
 - [woshigenm/CVE-2026-98937](https://github.com/woshigenm/CVE-2026-98937)
+
+### CVE-2026-99163 (2026-10-28)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\ntracing/histograms: Reject non-stacktrace fields for synthetic stacktrace fields\n\nIn check_synth_field(), when a synthetic event field is a stacktrace\n(field-&gt;is_stack) and the histogram field is not a &quot;long[&quot; stacktrace\narray, validation falls through to the generic size and signedness\ncomparison.\n\nBecause parse_synth_field() sets a stacktrace field's type to\n&quot;__data_loc unsigned long[]&quot;, its size is sizeof(u64) and\nsynth_field_signed() marks it as signed.  Consequently, any 8-byte\nsigned scalar histogram field passes the fallback check, and its scalar\nvalue is subsequently dereferenced as a kernel stacktrace pointer in\nget_field_size() and trace_stack().\n\nFurthermore, checking strstr(hist_field-&gt;type, &quot;long[&quot;) is insufficient\nbecause tracepoint fields defined with __bitmask() or __rel_bitmask()\nalso have type &quot;__data_loc unsigned long[]&quot; or &quot;__rel_loc unsigned\nlong[]&quot;, whilst create_hist_field() treats them as 4-byte scalar values\nwithout HIST_FIELD_FL_STACKTRACE.\n\nPropagate HIST_FIELD_FL_STACKTRACE to variable references and field\nvariables (whilst excluding variable aliases from per-element\nstacktrace capture), and reject any mismatch between\nHIST_FIELD_FL_STACKTRACE and field-&gt;is_stack in check_synth_field().
+</code>
+
+- [Aoki-Shinshi/CVE-2026-99163](https://github.com/Aoki-Shinshi/CVE-2026-99163)
 
 ### CVE-2026-99233 (2026-11-02)
 
@@ -24159,6 +24180,7 @@
 - [cveForge/CVE-2026-111497](https://github.com/cveForge/CVE-2026-111497)
 - [OrnisLab/2shell-advisories](https://github.com/OrnisLab/2shell-advisories)
 - [eduxcode/node2shell-lab](https://github.com/eduxcode/node2shell-lab)
+- [jianghang8421/fix-cve-2026-111497](https://github.com/jianghang8421/fix-cve-2026-111497)
 
 ### CVE-2026-111559 (2026-11-16)
 
@@ -24323,6 +24345,7 @@
 
 - [Sparticle62ops/israce-probe](https://github.com/Sparticle62ops/israce-probe)
 - [Rust505/CVE-2026-112477](https://github.com/Rust505/CVE-2026-112477)
+- [lixue1228321-cmyk/iOS-Exploitation](https://github.com/lixue1228321-cmyk/iOS-Exploitation)
 
 ### CVE-2026-112487 (2026-10-26)
 
@@ -26250,7 +26273,7 @@
 <code>FFmpeg 8.1 through 9.0.2 contains a memory exhaustion vulnerability in the libavcodec/exif.c parser that allows attackers to amplify allocations by pointing many IFD entries at overlapping payloads. Attackers can embed a small crafted EXIF block in TIFF, JPEG, PNG or WebP images to trigger quadratic memory allocation, causing denial of service in decoding applications.
 </code>
 
-- [XChen446/cve-2026-125180-demo](https://github.com/XChen446/cve-2026-125180-demo)
+- [XChen446/CVE-2026-125180-demo](https://github.com/XChen446/CVE-2026-125180-demo)
 
 ### CVE-2026-125283 (2026-11-18)
 
@@ -31924,6 +31947,7 @@
 - [People-11/CVE-2025-10184_PoC](https://github.com/People-11/CVE-2025-10184_PoC)
 - [yuuouu/ColorOS-CVE-2025-10184](https://github.com/yuuouu/ColorOS-CVE-2025-10184)
 - [Webpage-gh/CVE-2025-10184-PoC](https://github.com/Webpage-gh/CVE-2025-10184-PoC)
+- [LimLLL/coloros-sms-guard](https://github.com/LimLLL/coloros-sms-guard)
 
 ### CVE-2025-10200 (2025-09-10)
 
@@ -79030,6 +79054,7 @@
 - [YujiSoftware/log4shell-poc](https://github.com/YujiSoftware/log4shell-poc)
 - [johnyProDev/CVE-2021-44228-Analysis-Detection-Modelling](https://github.com/johnyProDev/CVE-2021-44228-Analysis-Detection-Modelling)
 - [googlesky/CVE-2021-44228](https://github.com/googlesky/CVE-2021-44228)
+- [johnyProDev/CVE-2021-44228-Essay](https://github.com/johnyProDev/CVE-2021-44228-Essay)
 
 ### CVE-2021-44255 (2022-01-31)
 
