@@ -2201,6 +2201,7 @@
 
 ### CVE-2026-7275
 - [ExDev994/CVE-2026-7275-moodle](https://github.com/ExDev994/CVE-2026-7275-moodle)
+- [im0xfay/CVE-2026-7275](https://github.com/im0xfay/CVE-2026-7275)
 
 ### CVE-2026-7299 (2026-06-02)
 
@@ -12938,7 +12939,6 @@
 - [rjt-gupta/page-cache-corruption-lpes](https://github.com/rjt-gupta/page-cache-corruption-lpes)
 - [cherrycherrymay/PoC-CVE-2026-46331](https://github.com/cherrycherrymay/PoC-CVE-2026-46331)
 - [nawalacheker1/CVE-2026-46331](https://github.com/nawalacheker1/CVE-2026-46331)
-- [xksd/pedit-cow](https://github.com/xksd/pedit-cow)
 
 ### CVE-2026-46333 (2026-05-15)
 
@@ -13571,7 +13571,6 @@
 - [CerberusMrXi/JCEzploit-CVE-2026-48907](https://github.com/CerberusMrXi/JCEzploit-CVE-2026-48907)
 - [ksotaria1337/-CVE-2026-48907-](https://github.com/ksotaria1337/-CVE-2026-48907-)
 - [NONAME-ELV/CVE-2026-48907](https://github.com/NONAME-ELV/CVE-2026-48907)
-- [xksd/CVE-2026-48907](https://github.com/xksd/CVE-2026-48907)
 - [CoNistical/CVE-2026-48907](https://github.com/CoNistical/CVE-2026-48907)
 - [BastianHxr/CVE-2026-48907](https://github.com/BastianHxr/CVE-2026-48907)
 
@@ -13590,7 +13589,6 @@
 - [imXur/CVE-2026-48908-Joomla-SP-Page-Builder-RCE](https://github.com/imXur/CVE-2026-48908-Joomla-SP-Page-Builder-RCE)
 - [yora1928/CVE-2026-48908-by-yora](https://github.com/yora1928/CVE-2026-48908-by-yora)
 - [winrarzipsexploit/CVE-2026-48908](https://github.com/winrarzipsexploit/CVE-2026-48908)
-- [xksd/CVE-2026-48908](https://github.com/xksd/CVE-2026-48908)
 
 ### CVE-2026-48909 (2026-06-20)
 
@@ -13649,7 +13647,6 @@
 - [6ickzone/Helix3-Mass-Exploiter](https://github.com/6ickzone/Helix3-Mass-Exploiter)
 - [Jenderal92/CVE-2026-49049](https://github.com/Jenderal92/CVE-2026-49049)
 - [MataKucing-OFC/CVE-2026-49049](https://github.com/MataKucing-OFC/CVE-2026-49049)
-- [xksd/CVE-2026-49049](https://github.com/xksd/CVE-2026-49049)
 
 ### CVE-2026-49060 (2026-06-11)
 
@@ -15048,7 +15045,6 @@
 - [rimbadirgantara/CVE-2026-56291.yaml](https://github.com/rimbadirgantara/CVE-2026-56291.yaml)
 - [0xdenis77/CVE-2026-56291](https://github.com/0xdenis77/CVE-2026-56291)
 - [ChiefYoru/CVE-2026-56291_PoC](https://github.com/ChiefYoru/CVE-2026-56291_PoC)
-- [xksd/CVE-2026-56291](https://github.com/xksd/CVE-2026-56291)
 
 ### CVE-2026-56292 (2026-07-09)
 
@@ -15788,7 +15784,6 @@
 </code>
 
 - [shinthink/CVE-2026-61424](https://github.com/shinthink/CVE-2026-61424)
-- [xksd/CVE-2026-61424](https://github.com/xksd/CVE-2026-61424)
 
 ### CVE-2026-61500 (2026-07-13)
 
@@ -20801,7 +20796,11 @@
 
 - [Mor-Golan/CVE-2026-95597](https://github.com/Mor-Golan/CVE-2026-95597)
 
-### CVE-2026-95622
+### CVE-2026-95622 (2026-11-27)
+
+<code>A flaw was found in ModemManager. When parsing a Cell Broadcast Message, some 3GPP data-coding-scheme values (8-bit and reserved character sets) are not handled. The process hits a reachable assertion and aborts. An attacker who can deliver a crafted Cell Broadcast PDU over the radio network, or via a modem AT channel, can cause ModemManager to exit. Repeated aborts can exhaust systemd's default start limit and leave the service failed.
+</code>
+
 - [0xSemizzz/CVE-2026-95622](https://github.com/0xSemizzz/CVE-2026-95622)
 
 ### CVE-2026-95628 (2026-10-26)
@@ -21441,6 +21440,9 @@
 </code>
 
 - [ashrafzaryouh/CVE-2026-99362](https://github.com/ashrafzaryouh/CVE-2026-99362)
+- [suominen/CVE-2026-99362](https://github.com/suominen/CVE-2026-99362)
+- [seguridadentrerios/CVE-2026-99362](https://github.com/seguridadentrerios/CVE-2026-99362)
+- [ansonhsu-ai/proxmox-nfs2root-cve-2026-99362-ste](https://github.com/ansonhsu-ai/proxmox-nfs2root-cve-2026-99362-ste)
 
 ### CVE-2026-99491 (2026-11-19)
 
@@ -26429,6 +26431,7 @@
 - [briskets/CVE-2026-126187-poc](https://github.com/briskets/CVE-2026-126187-poc)
 - [rudSarkar/GHSA-673q-mjm6-r5xr](https://github.com/rudSarkar/GHSA-673q-mjm6-r5xr)
 - [TahuCryptsi/poc-cve-2026-126187-rsc-usecache-rce](https://github.com/TahuCryptsi/poc-cve-2026-126187-rsc-usecache-rce)
+- [termireum/CVE-2026-126187-poc](https://github.com/termireum/CVE-2026-126187-poc)
 
 ### CVE-2026-126269 (2026-11-13)
 
@@ -27014,6 +27017,7 @@
 - [tc4dy/CVE-2026-129289-PoC-Exploit](https://github.com/tc4dy/CVE-2026-129289-PoC-Exploit)
 - [cveForge/CVE-2026-129289](https://github.com/cveForge/CVE-2026-129289)
 - [googlesky/CVE-2026-129289](https://github.com/googlesky/CVE-2026-129289)
+- [seguridadentrerios/CVE-2026-129289](https://github.com/seguridadentrerios/CVE-2026-129289)
 
 ### CVE-2026-129291 (2026-11-19)
 
@@ -27410,6 +27414,7 @@
 - [lxdwnpiper/CVE-2026-132165-Drupal](https://github.com/lxdwnpiper/CVE-2026-132165-Drupal)
 - [ashrafzaryouh/CVE-2026-132165](https://github.com/ashrafzaryouh/CVE-2026-132165)
 - [googlesky/CVE-2026-132165](https://github.com/googlesky/CVE-2026-132165)
+- [seguridadentrerios/CVE-2026-132165](https://github.com/seguridadentrerios/CVE-2026-132165)
 
 ### CVE-2026-132252 (2026-11-18)
 
@@ -30124,6 +30129,7 @@
 - [LeotheGGman/Langflow-RCE-CVE-2025-3248](https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248)
 - [zoly-zoly/CVE-2025-3248](https://github.com/zoly-zoly/CVE-2025-3248)
 - [cpwjdgh/CVE-2025-3248-CTF-Lab](https://github.com/cpwjdgh/CVE-2025-3248-CTF-Lab)
+- [Yasinnozbek/langflow-cve-2025-3248-detector](https://github.com/Yasinnozbek/langflow-cve-2025-3248-detector)
 
 ### CVE-2025-3419 (2025-05-08)
 
@@ -79051,7 +79057,6 @@
 - [Pathfind1357/Log4Shell-CVE-2021-44228](https://github.com/Pathfind1357/Log4Shell-CVE-2021-44228)
 - [Scorpion691/Log4Shell-LDAP-Lab](https://github.com/Scorpion691/Log4Shell-LDAP-Lab)
 - [one-zyd/Log4j2-CVE-2021-44228](https://github.com/one-zyd/Log4j2-CVE-2021-44228)
-- [YujiSoftware/log4shell-poc](https://github.com/YujiSoftware/log4shell-poc)
 - [johnyProDev/CVE-2021-44228-Analysis-Detection-Modelling](https://github.com/johnyProDev/CVE-2021-44228-Analysis-Detection-Modelling)
 - [googlesky/CVE-2021-44228](https://github.com/googlesky/CVE-2021-44228)
 - [johnyProDev/CVE-2021-44228-Essay](https://github.com/johnyProDev/CVE-2021-44228-Essay)
@@ -98669,6 +98674,7 @@
 
 - [avielzecharia/CVE-2015-5736](https://github.com/avielzecharia/CVE-2015-5736)
 - [RainbowDynamix/FortiLOL](https://github.com/RainbowDynamix/FortiLOL)
+- [00xAuto/FortiShield.sys-Full-Documentation-CVE-2015-5736](https://github.com/00xAuto/FortiShield.sys-Full-Documentation-CVE-2015-5736)
 
 ### CVE-2015-5932 (2015-10-23)
 
@@ -100480,13 +100486,6 @@
 - [0xhav0c/CVE-2013-5211](https://github.com/0xhav0c/CVE-2013-5211)
 - [requiempentest/NTP_CVE-2013-5211](https://github.com/requiempentest/NTP_CVE-2013-5211)
 
-### CVE-2013-5664 (2013-08-31)
-
-<code>Cross-site scripting (XSS) vulnerability in the web-based device-management API browser in Palo Alto Networks PAN-OS before 4.1.13 and 5.0.x before 5.0.6 allows remote attackers to inject arbitrary web script or HTML via crafted data, aka Ref ID 50908.
-</code>
-
-- [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
-
 ### CVE-2013-5842 (2013-10-16)
 
 <code>Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries, a different vulnerability than CVE-2013-5850.
@@ -100864,9 +100863,6 @@
 
 - [Hood3dRob1n/MySQL-Fu.rb](https://github.com/Hood3dRob1n/MySQL-Fu.rb)
 - [w4fz5uck5/UDFPwn-CVE-2012-5613](https://github.com/w4fz5uck5/UDFPwn-CVE-2012-5613)
-
-### CVE-2012-5664
-- [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
 
 ### CVE-2012-5958 (2013-01-31)
 
