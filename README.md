@@ -78,7 +78,6 @@
 - [aye468448-eng/CVE-2026-0073-Android-adbd-authentication-bypass](https://github.com/aye468448-eng/CVE-2026-0073-Android-adbd-authentication-bypass)
 - [naheeju/POC-CVE-2026-0073](https://github.com/naheeju/POC-CVE-2026-0073)
 - [umarrehmansiddiqui/CVE-2026-0073](https://github.com/umarrehmansiddiqui/CVE-2026-0073)
-- [xqi1337/poc-CVE-2026-0073](https://github.com/xqi1337/poc-CVE-2026-0073)
 
 ### CVE-2026-0075 (2026-06-01)
 
@@ -12293,6 +12292,13 @@
 
 - [jvidhan/cve-2026-43687](https://github.com/jvidhan/cve-2026-43687)
 
+### CVE-2026-43720 (2026-06-29)
+
+<code>A use-after-free issue was addressed with improved memory management. This issue is fixed in Safari 26.5.2, iOS 18.7.10 and iPadOS 18.7.10, iOS 26.5.2 and iPadOS 26.5.2, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. Processing maliciously crafted web content may lead to an unexpected Safari crash.
+</code>
+
+- [qwecvw/ps5-unix](https://github.com/qwecvw/ps5-unix)
+
 ### CVE-2026-43724 (2026-06-29)
 
 <code>The issue was addressed with improved input sanitization. This issue is fixed in iOS 18.7.10 and iPadOS 18.7.10, iOS 26.5.2 and iPadOS 26.5.2, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, macOS Tahoe 26.5.2, tvOS 26.6, visionOS 26.6, watchOS 26.6. An app may be able to cause unexpected system termination or write kernel memory.
@@ -14551,7 +14557,6 @@
 <code>Amasty Order Attributes for Magento 2 before version 4.0.0 contains an unauthenticated arbitrary file upload vulnerability that allows unauthenticated attackers to write arbitrary files to the store's media directory by submitting files of any type or name to the upload endpoint without authentication, session validation, or cart context. Attackers can upload PHP files to achieve remote code execution on servers where the media directory permits PHP execution, or alternatively enable malware hosting, stored cross-site scripting via HTML or SVG uploads, and path traversal to write files outside the intended upload directory.
 </code>
 
-- [elitexspam/Def4cer](https://github.com/elitexspam/Def4cer)
 - [karthi-the-hacker/CVE-2026-53787](https://github.com/karthi-the-hacker/CVE-2026-53787)
 
 ### CVE-2026-53805 (2026-06-17)
@@ -18766,6 +18771,13 @@
 
 - [federiconbaez/cortex9-nltk-pickle-allowlist-prefix-model](https://github.com/federiconbaez/cortex9-nltk-pickle-allowlist-prefix-model)
 
+### CVE-2026-79707 (2026-09-04)
+
+<code>A Path Traversal vulnerability in the builder endpoint in Google Cloud Agent Development Kit (ADK) versions 1.9.0 through 1.21.0 on Python allows an unauthenticated remote attacker to read arbitrary files using a crafted file_path query parameter.
+</code>
+
+- [xqi1337/CVE-2026-79707-Exploitation](https://github.com/xqi1337/CVE-2026-79707-Exploitation)
+
 ### CVE-2026-79752 (2026-09-17)
 
 <code>CakePHP is a rapid development framework for PHP. Prior to 4.5.12, 4.6.5, 5.1.9, 5.2.14, and 5.3.7, FunctionsBuilder::cast, FunctionsBuilder::extract, FunctionsBuilder::datePart, and FunctionsBuilder::dateAdd in src/Database/FunctionsBuilder.php accept user-controlled dataType, part, or unit values and incorporate them into generated SQL as unescaped structural fragments. An application that passes untrusted input to these parameters can permit SQL injection with confidentiality, integrity, and availability impact according to the database connection's privileges. This issue is fixed in versions 4.5.12, 4.6.5, 5.1.9, 5.2.14, and 5.3.7.
@@ -21455,6 +21467,20 @@
 - [seguridadentrerios/CVE-2026-99362](https://github.com/seguridadentrerios/CVE-2026-99362)
 - [ansonhsu-ai/proxmox-nfs2root-cve-2026-99362-ste](https://github.com/ansonhsu-ai/proxmox-nfs2root-cve-2026-99362-ste)
 - [Anhydrite/nfs2root](https://github.com/Anhydrite/nfs2root)
+
+### CVE-2026-99489 (2026-11-19)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nHID: wacom: Redesign shared sibling data lifecycle\n\nThe Wacom driver coordinates state between sibling interfaces of\nthe same physical device using a shared structure 'wacom_shared'\ninside 'wacom_hdev_data'.  The driver kept a volatile representative\npointer 'data-&gt;dev' pointing to a sibling 'hid_device' for physical\npath comparisons during sibling matching.\n\nThis pointer management is fragile.  When the representative device\nis disconnected, wacom_remove_shared_data() failed to clear/update\n'data-&gt;dev', leading to a Use-After-Free vulnerability when\nsubsequent sibling probes dereference the dangling 'data-&gt;dev'\npointer.\n\nResolve this issue by redesigning the sibling data lifecycle:\n\n - Eliminate the volatile 'data-&gt;dev' representative pointer\n   completely\n - Redesign 'wacom_hdev_data' to store stable static copies of the\n   required attributes upon first allocation: 'phys' path string,\n   'vendor', 'product' IDs and the sibling's 'device_type'\n - Use these static attributes for stable sibling matching in\n   wacom_are_sibling() and wacom_get_hdev_data()\n\nThis ensures sibling matching remains safe and stable even if\nindividual siblings are dynamically added or removed.\n\nTo secure the lifecycle against concurrent probe/disconnect races:\n\n - Switch kref_put() to kref_put_mutex() in\n   wacom_remove_shared_data() to serialize refcount drops with list\n   traversal and lookup\n - Modify wacom_release_shared_data() to assume the list lock is\n   already held\n\nAlso, do not accumulate the 'device_type' capability flag during\nsubsequent sibling probes.  Keeping only the first probed sibling's\ndevice_type exactly preserves the original sibling matching behavior\nwithout introducing side effects.
+</code>
+
+- [Aoki-Shinshi/CVE-2026-99489](https://github.com/Aoki-Shinshi/CVE-2026-99489)
+
+### CVE-2026-99490 (2026-11-19)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\nHID: wacom: Fix Use-After-Free in wacom_bamboo_pad\n\nwacom_bamboo_pad_pen_event() accesses wacom-&gt;shared-&gt;pen locklessly\nrelative to wacom_remove_shared_data() which nullifies it.  This\ncan lead to a Use-After-Free if the sibling device is removed while\nevents are being processed.\n\nResolve this by introducing RCU protection for pen and touch\npointers:\n\n - Annotate 'pen' and 'touch' in wacom_shared struct with __rcu.\n - Wrap lockless readers in wacom_bamboo_pad_pen_event() with\n   rcu_read_lock() and rcu_dereference().\n - Update writers in wacom_sys.c using rcu_assign_pointer().\n - Use rcu_dereference_protected for comparisons under\n   wacom_udev_list_lock.\n - Also use rcu_access_pointer in wacom_sibling_pending() and\n   wacom_mode_change_work() to avoid warnings (while lockless access in\n   the latter remains a pre-existing issue).
+</code>
+
+- [Aoki-Shinshi/CVE-2026-99490](https://github.com/Aoki-Shinshi/CVE-2026-99490)
 
 ### CVE-2026-99491 (2026-11-19)
 
@@ -27850,6 +27876,13 @@
 </code>
 
 - [cveForge/CVE-2026-133680](https://github.com/cveForge/CVE-2026-133680)
+
+### CVE-2026-133742 (2026-11-25)
+
+<code>Incorrect permission assignment for critical resource in the media management functionality of Progress Software Sitefinity versions before 14.4.8154, from 15.0.8200 before 15.0.8236, from 15.1.8300 before 15.1.8337, from 15.2.8400 before 15.2.8444, from 15.3.8500 before 15.3.8533, and from 15.4.8600 before 15.4.8642 allows unauthorized modification of media library content under certain configurations.
+</code>
+
+- [tryformy/CVE-2026-133742](https://github.com/tryformy/CVE-2026-133742)
 
 ### CVE-2026-133780 (2026-11-24)
 
@@ -37303,7 +37336,6 @@
 - [altm4n/cve-2025-48384](https://github.com/altm4n/cve-2025-48384)
 - [altm4n/cve-2025-48384-hub](https://github.com/altm4n/cve-2025-48384-hub)
 - [vinieger/vinieger-CVE-2025-48384-Dockerfile](https://github.com/vinieger/vinieger-CVE-2025-48384-Dockerfile)
-- [ECHO6789/CVE-2025-48384-submodule](https://github.com/ECHO6789/CVE-2025-48384-submodule)
 - [nguyentranbaotran/cve-2025-48384-poc](https://github.com/nguyentranbaotran/cve-2025-48384-poc)
 - [admin-ping/CVE-2025-48384-RCE](https://github.com/admin-ping/CVE-2025-48384-RCE)
 - [Anezatraa/CVE-2025-48384-submodule](https://github.com/Anezatraa/CVE-2025-48384-submodule)
@@ -40211,6 +40243,13 @@
 </code>
 
 - [casp3r0x0/CVE-2025-58443](https://github.com/casp3r0x0/CVE-2025-58443)
+
+### CVE-2025-58447 (2025-09-09)
+
+<code>rAthena is an open-source cross-platform massively multiplayer online role playing game (MMORPG) server. Versions prior to commit 2f5248b have a heap-based buffer overflow in the login server, remote attacker to overwrite adjacent session fields by sending a crafted `CA_SSO_LOGIN_REQ` with an oversized token length. This leads to immediate denial of service (crash) and it is possible to achieve remote code execution via heap corruption. Commit 2f5248b fixes the issue.
+</code>
+
+- [Clouduxe/rathena-server-hardening](https://github.com/Clouduxe/rathena-server-hardening)
 
 ### CVE-2025-58726 (2025-10-14)
 
@@ -45360,6 +45399,7 @@
 
 - [Chocapikk/CVE-2024-8517](https://github.com/Chocapikk/CVE-2024-8517)
 - [saadhassan77/SPIP-BigUp-Unauthenticated-RCE-Exploit-CVE-2024-8517](https://github.com/saadhassan77/SPIP-BigUp-Unauthenticated-RCE-Exploit-CVE-2024-8517)
+- [mhmoudjma/CVE-2024-8517](https://github.com/mhmoudjma/CVE-2024-8517)
 
 ### CVE-2024-8522 (2024-09-12)
 
